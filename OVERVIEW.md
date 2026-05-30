@@ -30,6 +30,7 @@ The evidence is currently structural, not constructive:
 - `passes/` contains 35 persona passes across mathematical physics, computation-substrate, heterodox problem-shape, and distributed-systems lenses.
 - `syntheses/` contains five core syntheses plus two ranking syntheses. The strongest synthesis is the six-axis specification space: substrate, observer, pairing, causal order, emergence class, and coordination loop.
 - `deep-research/` contains four literature reviews. Their shared result is that the highest-priority bridges are genuinely unexplored in the published/arXiv literature, with adjacent machinery but no positive construction and no known counter-result.
+- `sources/` contains the GU media/source provenance index, including lectures, podcasts, official pages, and candidate videos that need transcript/timestamp extraction before they support specific claims.
 - `appendix/` contains the originating execution log and four frontier packets showing why the work pivoted away from GU-source reconstruction and toward first-principles substrate tests.
 
 ## 4. What are the highest-leverage open questions?
@@ -49,4 +50,3 @@ The current priority ranking is in `syntheses/07-supplementary-five-persona-valu
 - If you know lattice fermions, no-go theorem workarounds, or string compactification: start with `deep-research/03-assumption-decomposition-no-go-evasion-literature.md`.
 - If you know distributed systems, consensus, CAP/FLP/BFT, causal DAGs, or complexity science: start with `deep-research/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`.
 - If you want the shortest non-specialist read: start with `papers/blog-post-draft-v2.md`, then `papers/formal-paper-draft-v2.md`, then `CONTRIBUTING.md`.
-

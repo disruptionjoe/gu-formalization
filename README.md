@@ -93,6 +93,9 @@ deep-research/
   02-observer-dependence-freed-hopkins-anomaly-classification.md
   03-assumption-decomposition-no-go-evasion-literature.md
   04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md
+sources/
+  README.md                         # source/media provenance discipline
+  media-index.md                    # GU media instances and verification status
 appendix/
   INDEX.md                         # provenance and research-history layer
   execution-log.md
@@ -119,6 +122,11 @@ If you want to test whether the substrate-level invariant question is genuinely 
 2. Read `deep-research/02-observer-dependence-freed-hopkins-anomaly-classification.md` (pairing-relativity of Freed-Hopkins)
 3. Read `deep-research/03-assumption-decomposition-no-go-evasion-literature.md` (published evasions of all four no-gos)
 4. Read `deep-research/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md` (the distributed-systems / FLP / CAP analogy track)
+
+If you want to track where GU terminology and public claims appeared:
+1. Read `sources/media-index.md`.
+2. Treat it as a source/provenance map, not as proof of the mathematics.
+3. Add exact transcript/timestamp rows before using a media item as support for a specific claim.
 
 If you want to contribute:
 1. Read `CONTRIBUTING.md`.
