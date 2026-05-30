@@ -49,4 +49,5 @@ The current priority ranking is in `syntheses/07-supplementary-five-persona-valu
 - If you know anomalies, cobordism, QFT, or quantum reference frames: start with `deep-research/02-observer-dependence-freed-hopkins-anomaly-classification.md`.
 - If you know lattice fermions, no-go theorem workarounds, or string compactification: start with `deep-research/03-assumption-decomposition-no-go-evasion-literature.md`.
 - If you know distributed systems, consensus, CAP/FLP/BFT, causal DAGs, or complexity science: start with `deep-research/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`.
+- If you want an issue-sized task: start with `NEXT-STEPS.md`.
 - If you want the shortest non-specialist read: start with `papers/blog-post-draft-v2.md`, then `papers/formal-paper-draft-v2.md`, then `CONTRIBUTING.md`.

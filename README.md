@@ -4,6 +4,8 @@ A 15-lens heterodox dialectical analysis of whether Geometric Unity-class higher
 
 **New here? Start with [OVERVIEW.md](./OVERVIEW.md).** It answers the central claim, falsification criteria, current evidence, highest-leverage open questions, and contribution paths in one short read.
 
+**Want to help? Start with [NEXT-STEPS.md](./NEXT-STEPS.md).** It turns the highest-value tests into bounded contributor tasks.
+
 ---
 
 ## License
@@ -63,6 +65,7 @@ Five meta-syntheses (00, 00b, 00c, 00d, 00e) track convergence across the lens f
 ```
 README.md                          # this file
 OVERVIEW.md                        # fast on-ramp for first-time researchers
+NEXT-STEPS.md                      # contributor roadmap and first task sequence
 CONTRIBUTING.md                    # how to contribute
 LICENSE-DOCS.md                    # CC-BY-4.0 license for documentation
 LICENSE-CODE.md                    # MIT license for code
@@ -96,6 +99,7 @@ deep-research/
 sources/
   README.md                         # source/media provenance discipline
   media-index.md                    # GU media instances and verification status
+  claim-ledger.md                   # timestamped source claims after claim-mining
 appendix/
   INDEX.md                         # provenance and research-history layer
   execution-log.md
@@ -129,9 +133,10 @@ If you want to track where GU terminology and public claims appeared:
 3. Add exact transcript/timestamp rows before using a media item as support for a specific claim.
 
 If you want to contribute:
-1. Read `CONTRIBUTING.md`.
-2. Read `project-plan/project-plan-draft-v2.md` for the six-phase research program structure.
-3. Open an issue naming the substrate-class candidate or specific dialectical claim you want to develop or refute.
+1. Read `NEXT-STEPS.md` for the fastest low-hanging fruit and highest-upside paths.
+2. Read `CONTRIBUTING.md`.
+3. Read `project-plan/project-plan-draft-v2.md` for the six-phase research program structure.
+4. Open an issue naming the substrate-class candidate, media claim, missing reference, or specific dialectical claim you want to develop or refute.
 
 ---
 

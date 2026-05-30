@@ -1,0 +1,40 @@
+name: Media claim-mining
+description: Add timestamped provenance from a podcast, lecture, interview, or video.
+title: "Claim-mining: "
+labels: ["claim-mining", "good first issue"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Media claims are useful for provenance, terminology, and chronology. They are not mathematical evidence by themselves.
+  - type: input
+    id: source_id
+    attributes:
+      label: Source ID
+      description: Use the ID from sources/media-index.md, or propose a new one.
+      placeholder: GU-POD-2020-PORTAL-SPECIAL
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: Direct link to the source.
+    validations:
+      required: true
+  - type: textarea
+    id: timestamp_rows
+    attributes:
+      label: Timestamp rows
+      description: Add rows suitable for sources/claim-ledger.md.
+      placeholder: "| source_id | 00:00:00 | terminology | observerse | verified | appendix/source provenance |"
+    validations:
+      required: true
+  - type: textarea
+    id: caveats
+    attributes:
+      label: Caveats
+      description: Note if this is machine-generated transcript, secondary summary, disputed reception media, or needs verification.
+    validations:
+      required: false
+

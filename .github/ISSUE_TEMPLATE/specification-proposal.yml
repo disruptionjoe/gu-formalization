@@ -1,0 +1,52 @@
+name: Specification proposal
+description: Propose a concrete six-axis substrate-class candidate.
+title: "Specification proposal: "
+labels: ["specification", "open-problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Every candidate should specify the six axes before making chirality or anomaly claims.
+  - type: textarea
+    id: axes
+    attributes:
+      label: Six-axis specification
+      description: Name substrate, observer, pairing, causal order, emergence class, and coordination loop.
+      placeholder: |
+        L1 substrate:
+        L2 observer:
+        L3 pairing:
+        L4 causal order:
+        L5 emergence:
+        L6 coordination loop:
+    validations:
+      required: true
+  - type: textarea
+    id: reduction
+    attributes:
+      label: Lossy reduction map
+      description: What maps this substrate class to the smooth-bundle shadow?
+    validations:
+      required: true
+  - type: textarea
+    id: invariant
+    attributes:
+      label: Candidate invariant
+      description: What chirality/anomaly/generation data might survive at substrate level?
+    validations:
+      required: true
+  - type: textarea
+    id: tests
+    attributes:
+      label: First falsification tests
+      description: What would quickly show this specification cannot work?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: At least one literature pointer per nonstandard axis is strongly preferred.
+    validations:
+      required: false
+

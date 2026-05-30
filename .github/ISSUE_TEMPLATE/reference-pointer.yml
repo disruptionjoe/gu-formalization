@@ -1,0 +1,42 @@
+name: Reference pointer
+description: Point to a paper, book, lecture, or known result the repo should account for.
+title: "Reference: "
+labels: ["reference-pointer"]
+body:
+  - type: input
+    id: citation
+    attributes:
+      label: Citation or title
+      description: Full citation if available.
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+      description: arXiv, DOI, publisher, transcript, or stable URL.
+    validations:
+      required: false
+  - type: dropdown
+    id: relevance
+    attributes:
+      label: Relevance
+      options:
+        - No-go theorem
+        - Evasion / counterexample
+        - Spectral triple / operator algebra
+        - Anomaly / cobordism
+        - Distributed systems / impossibility
+        - Causal set / quantum gravity
+        - Media / provenance
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why this matters
+      description: What claim, gap, or path does this reference affect?
+    validations:
+      required: true
+

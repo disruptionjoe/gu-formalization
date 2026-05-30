@@ -1,0 +1,44 @@
+name: Open problem
+description: Propose or work on a bounded research problem from the roadmap.
+title: "Open problem: "
+labels: ["open-problem"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this for bounded research tasks. A good issue names a specific object, obstruction, or test that could be advanced or refuted.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem
+      description: What exact research problem should be worked on?
+    validations:
+      required: true
+  - type: dropdown
+    id: route
+    attributes:
+      label: Route
+      options:
+        - No-go assumption/evasion matrix
+        - Type II_1 spectral Standard Model
+        - Six-axis specification
+        - Nielsen-Ninomiya protocol analogy
+        - Observer-pairing anomaly enrichment
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: What would count as progress, refutation, or clean closure?
+    validations:
+      required: true
+  - type: textarea
+    id: references
+    attributes:
+      label: References
+      description: Link papers, repo files, transcripts, or adjacent literature.
+    validations:
+      required: false
+
