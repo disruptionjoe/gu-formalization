@@ -84,4 +84,4 @@ We are putting the analysis on the table and asking for collaborators to develop
 
 ---
 
-*This work is being released open-source for the mathematical and scientific community to develop and stress-test. See `LICENSE.choice-pending.md` (and after the maintainer's pick, `LICENSE`) at the repository root for the licensing terms.*
+*This work is being released open-source for the mathematical and scientific community to develop and stress-test. See `LICENSE-DOCS.md` for content and `LICENSE-CODE.md` for code at the repository root.*
