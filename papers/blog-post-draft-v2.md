@@ -1,3 +1,10 @@
+---
+title: "The Shadow Theorem: How 15 Heterodox Perspectives Might Open a 40-Year Physics Obstruction"
+status: draft
+doc_type: paper_draft
+updated_at: "2026-05-31"
+---
+
 # The Shadow Theorem: How 15 Heterodox Perspectives Might Open a 40-Year Physics Obstruction
 
 **Draft v2 - 2026-05-30**
@@ -62,7 +69,7 @@ Either way, the 40-year question gets a definite answer.
 
 ## The invitation
 
-This work is being open-sourced. The repository includes the full record of the analysis: 35 persona passes representing 15 distinct disciplinary lenses (grouped in `passes/` by lens family), 5 meta-syntheses tracking the dialectical structure plus 2 supplementary syntheses (in `syntheses/`), 4 deep-research briefs surveying existing literature (in `deep-research/`), and the formal paper this blog post summarizes (in `papers/`).
+This work is being open-sourced. The repository includes the full record of the analysis: 35 persona passes representing 15 distinct disciplinary lenses (grouped in `process/persona-passes/` by lens family), 5 meta-syntheses tracking the dialectical structure plus 2 supplementary syntheses (in `syntheses/`), 4 deep-research briefs surveying existing literature (in `literature/`), and the formal paper this blog post summarizes (in `papers/`).
 
 What kinds of contribution are welcome:
 

@@ -1,3 +1,10 @@
+---
+title: "Media Claim Ledger"
+status: source
+doc_type: claim_ledger
+updated_at: "2026-05-31"
+---
+
 # Media Claim Ledger
 
 This file is for timestamped claims extracted from sources in `media-index.md`.

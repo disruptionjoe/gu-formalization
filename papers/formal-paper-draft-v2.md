@@ -1,3 +1,10 @@
+---
+title: "Toward a Substrate-Level Reading of the Standard Model Chirality Obstruction"
+status: draft
+doc_type: paper_draft
+updated_at: "2026-05-31"
+---
+
 # Toward a Substrate-Level Reading of the Standard Model Chirality Obstruction
 
 ## A 15-Lens Heterodox Dialectical Analysis of Geometric Unity-Class Programs
@@ -120,7 +127,7 @@ This work is released open-source. We invite mathematicians, physicists, complex
 - Check whether Freed-Hopkins forgetful image compatibility holds.
 - Challenge the dialectical analysis at any of the 15 lenses or 5 meta-syntheses on first-principles grounds.
 
-The repository hosts the 35 persona passes (grouped in `passes/` by lens family with `passes/INDEX.md` for navigation), 5 + 2 syntheses in `syntheses/`, and 4 deep-research briefs in `deep-research/`. Contribution guidelines are documented in `CONTRIBUTING.md` at the repository root.
+The repository hosts the 35 persona passes (grouped in `process/persona-passes/` by lens family with `process/persona-passes/INDEX.md` for navigation), 5 + 2 syntheses in `syntheses/`, and 4 deep-research briefs in `literature/`. Contribution guidelines are documented in `CONTRIBUTING.md` at the repository root.
 
 ## References (Indicative)
 
@@ -137,4 +144,4 @@ Almheiri, A., Dong, X., Harlow, D. (2015). Bulk Locality and Quantum Error Corre
 Fischer, M. J., Lynch, N. A., Paterson, M. S. (1985). Impossibility of Distributed Consensus with One Faulty Process. Journal of the ACM 32, 374.
 Brewer, E. (2000). Towards Robust Distributed Systems. PODC keynote.
 
-Deep-research brief references are collected in `../deep-research/`. Provenance for the originating WRK-326 execution path is preserved in `../appendix/`.
+Deep-research brief references are collected in `../literature/`. Provenance for the originating WRK-326 execution path is preserved in `../archive/`.

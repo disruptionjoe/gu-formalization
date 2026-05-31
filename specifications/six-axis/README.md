@@ -1,3 +1,10 @@
+---
+title: "Six-Axis Specification Protocol"
+status: canon
+doc_type: overview
+updated_at: "2026-05-31"
+---
+
 # Six-Axis Specification Protocol
 
 This folder defines the **six-axis specification protocol** for the gu-formalization repo. It is the discipline layer that every future substrate-path candidate must pass through before being admitted as an open research direction.

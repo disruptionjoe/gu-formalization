@@ -1,6 +1,13 @@
+---
+title: "Type II_1 / Non-Embeddable Spectral Standard Model — Control Checklist + Extension Requirements"
+status: canon
+doc_type: overview
+updated_at: "2026-05-31"
+---
+
 # Type II_1 / Non-Embeddable Spectral Standard Model — Control Checklist + Extension Requirements
 
-This folder is the WRK-377 single-pass artifact for `pathway A` of `syntheses/08-supplementary-15-persona-pathway-ranking.md` — the lead Tier-1 high-upside construction path in the gu-formalization repo. It is the **first falsification test** referenced by `wrk-375-gu-six-axis/examples/example-01-type-ii1-spectral-sm.md`.
+This folder is the WRK-377 single-pass artifact for `pathway A` of `roadmap/15-persona-pathway-ranking.md` — the lead Tier-1 high-upside construction path in the gu-formalization repo. It is the **first falsification test** referenced by `wrk-375-gu-six-axis/examples/example-01-type-ii1-spectral-sm.md`.
 
 ## What this artifact does
 
@@ -53,7 +60,7 @@ The Type II_1 / non-embeddable extension requirements draw on:
 - Goldbring (2021), *Non-embeddable II_1 factors resembling the hyperfinite II_1 factor*.
 - Evans-Kawahigashi (2023), *Subfactors and Mathematical Physics*.
 
-All of these are summarized in `deep-research/01-non-embeddable-type-ii-1-spectral-standard-model.md`, which is the immediate parent document of this checklist work.
+All of these are summarized in `literature/01-non-embeddable-type-ii-1-spectral-standard-model.md`, which is the immediate parent document of this checklist work.
 
 ## Relationship to related GU research artifacts
 
@@ -63,7 +70,7 @@ All of these are summarized in `deep-research/01-non-embeddable-type-ii-1-spectr
 
 ## Public location
 
-The public summary is `syntheses/11-type-ii1-spectral-sm-checklist.md`. The detailed checklist and extension requirements live in this folder so contributors can work against finite, reviewable controls.
+The public summary is `canon/type-ii1-spectral-sm-checklist.md`. The detailed checklist and extension requirements live in this folder so contributors can work against finite, reviewable controls.
 
 ## Status
 

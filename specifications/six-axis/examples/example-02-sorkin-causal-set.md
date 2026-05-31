@@ -1,3 +1,10 @@
+---
+title: "Example 02 — Sorkin Causal-Set Substrate (L4 Axis-Drop)"
+status: canon
+doc_type: specification
+updated_at: "2026-05-31"
+---
+
 # Example 02 — Sorkin Causal-Set Substrate (L4 Axis-Drop)
 
 | candidate | L1 substrate | L2 observer | L3 pairing | L4 causal order | L5 emergence | L6 coordination loop | first falsification test |

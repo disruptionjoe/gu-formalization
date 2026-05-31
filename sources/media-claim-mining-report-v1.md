@@ -1,3 +1,10 @@
+---
+title: "GU Media Claim-Mining - Starter Pass Mining Report"
+status: source
+doc_type: process_note
+updated_at: "2026-05-31"
+---
+
 # GU Media Claim-Mining - Starter Pass Mining Report
 
 Generated: 2026-05-30
@@ -6,7 +13,7 @@ Pipeline coordination row: #28
 
 ## Sources Covered
 
-This starter pass mined sources that already had captured material in `appendix/execution-log.md` and the prior self-source capture notes summarized there. The mining did not invent claims; it converted captured source-native wording into the claim-ledger row format and added one row family from the Oxford host-institution event page and one from Weinstein's author site.
+This starter pass mined sources that already had captured material in `archive/execution-log.md` and the prior self-source capture notes summarized there. The mining did not invent claims; it converted captured source-native wording into the claim-ledger row format and added one row family from the Oxford host-institution event page and one from Weinstein's author site.
 
 | source id | rows landed | strength distribution | basis |
 | --- | --- | --- | --- |

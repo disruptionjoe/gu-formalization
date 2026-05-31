@@ -1,3 +1,10 @@
+---
+title: "Media Claim Ledger - Populated Starter v1"
+status: source
+doc_type: claim_ledger
+updated_at: "2026-05-31"
+---
+
 # Media Claim Ledger - Populated Starter v1
 
 Generated: 2026-05-30
@@ -9,7 +16,7 @@ This file is the proposed initial population of `sources/claim-ledger.md`. It is
 
 ## Provenance Discipline Used in This Pass
 
-- Only sources with content already grounded in the local repo (`appendix/execution-log.md`, `09-canonical-self-source-capture.md`) are mined here. WebFetch was denied at session time, so the JRE / Lex / Keating / TOE Jaimungal transcripts could not be pulled fresh. See `mining-report.md` for what was skipped and why.
+- Only sources with content already grounded in the local repo (`archive/execution-log.md`, `09-canonical-self-source-capture.md`) are mined here. WebFetch was denied at session time, so the JRE / Lex / Keating / TOE Jaimungal transcripts could not be pulled fresh. See `mining-report.md` for what was skipped and why.
 - Where the public source surface uses notation in math (`U^{14}`, `pi`), the claim text preserves source-native wording.
 - Strength tag `verified` means: claim wording cross-checks against a locally captured source artifact. `reconstruction` means: claim wording is paraphrased from local notes that summarize the source rather than quoting it. `speculation` is reserved for derived insight rows and is not used in this starter pass.
 - `repo implication` points to the artifact a row would affect IF the claim were ever promoted from provenance to evidence. Implication is descriptive; it is not authorization to mutate the artifact.
@@ -36,12 +43,12 @@ Total starter rows landed in this pass: 16.
 
 | source_id | timestamp / locator | claim type | exact topic | strength | repo implication |
 | --- | --- | --- | --- | --- | --- |
-| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section (locator: "comes in four flavors" framing block) | terminology | "Geometric Unity comes in four flavors" - GU is presented as a multi-flavor program, not a single construction | verified | `OVERVIEW.md` section 1; `passes/01-foundational-math-lenses/` flavor framing |
-| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section | terminology | "take the concept of observation and break the world into two pieces" - observation, not just spacetime, is the structural primitive | verified | `papers/formal-paper-draft-v2.md` Sec 2; `passes/02-substrate-loophole-lenses/` |
-| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section | construction | `X^4` maps into "some other space," which is called an observerse | verified | `appendix/execution-log.md` Pass 2; observerse terminology grounding |
+| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section (locator: "comes in four flavors" framing block) | terminology | "Geometric Unity comes in four flavors" - GU is presented as a multi-flavor program, not a single construction | verified | `OVERVIEW.md` section 1; `process/persona-passes/01-foundational-math-lenses/` flavor framing |
+| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section | terminology | "take the concept of observation and break the world into two pieces" - observation, not just spacetime, is the structural primitive | verified | `papers/formal-paper-draft-v2.md` Sec 2; `process/persona-passes/02-substrate-loophole-lenses/` |
+| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section | construction | `X^4` maps into "some other space," which is called an observerse | verified | `archive/execution-log.md` Pass 2; observerse terminology grounding |
 | `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, exogenous-flavor section | metaphor | stadium analogy: observerse as playing field plus stands, coupled parts | verified | non-load-bearing; useful for blog/expository surface only |
 | `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, endogenous construction section | construction | endogenous construction states `U^{14} = met(X^4)` (14-dim observerse as space of metrics on `X^4`) | verified | `papers/formal-paper-draft-v2.md` Sec 4; six-axis L1 substrate axis for related artifacts #24, #33, #34 |
-| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, endogenous construction section | terminology | "let me call this (`pi`) the projection operator" - explicit naming of `pi` | verified | `appendix/execution-log.md` Pass 2-6; settles `pi` as source-native, not local invention |
+| `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, endogenous construction section | terminology | "let me call this (`pi`) the projection operator" - explicit naming of `pi` | verified | `archive/execution-log.md` Pass 2-6; settles `pi` as source-native, not local invention |
 | `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, endogenous construction section | construction | base-side `X^4` and 14-dim `U` construction are distinguished | verified | source-native notation reconciliation; do not collapse `U` to local `O` without reconstruction tag |
 | `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, Sector I section | construction | "In sector I of the Geometric Unity theory, spacetime is replaced and recovered by the observerse contemplating itself" | verified | core Sector I claim; structural input for sibling #25 no-go map (smoothness-of-spacetime assumption is what gets replaced) |
 | `GU-MEDIA-2013-OXFORD` | Oxford 2013 lecture transcript, Sector I section | construction | most fields "dance on the `Y` / `U` space and are observed via pullback as if they lived on `X`" | verified | direct relevance to sibling #29 insight synthesis: this is the source-native pullback statement underwriting the Aufhebung framing in `papers/formal-paper-draft-v2.md` |

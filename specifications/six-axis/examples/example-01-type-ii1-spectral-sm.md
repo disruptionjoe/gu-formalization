@@ -1,3 +1,10 @@
+---
+title: "Example 01 — Type II_1 / Non-Embeddable Spectral Standard Model"
+status: canon
+doc_type: specification
+updated_at: "2026-05-31"
+---
+
 # Example 01 — Type II_1 / Non-Embeddable Spectral Standard Model
 
 | candidate | L1 substrate | L2 observer | L3 pairing | L4 causal order | L5 emergence | L6 coordination loop | first falsification test |

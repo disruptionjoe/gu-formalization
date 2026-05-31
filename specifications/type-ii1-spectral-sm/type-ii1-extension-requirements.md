@@ -1,3 +1,10 @@
+---
+title: "Type II_1 / Non-Embeddable Extension — Additional Structural Requirements"
+status: canon
+doc_type: specification
+updated_at: "2026-05-31"
+---
+
 # Type II_1 / Non-Embeddable Extension — Additional Structural Requirements
 
 **Purpose.** The companion file `connes-finite-control-checklist.md` walks the ten items the finite Connes-Chamseddine spectral Standard Model already satisfies and names, item by item, what a Type II_1 extension must preserve. This file collects the **additional structural requirements** that the Type II_1 / non-embeddable regime introduces — items the finite case does not have to deal with at all — and the open questions specific to the non-embeddable subregime.

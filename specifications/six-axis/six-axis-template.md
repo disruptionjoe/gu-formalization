@@ -1,3 +1,10 @@
+---
+title: "Six-Axis Candidate Specification Template"
+status: canon
+doc_type: specification
+updated_at: "2026-05-31"
+---
+
 # Six-Axis Candidate Specification Template
 
 **Purpose.** Any proposed substrate-level pathway for evading or reframing the chirality / anomaly / gauge-emergence no-go theorems (Witten 1981, Nielsen-Ninomiya, Freed-Hopkins, Distler-Garibaldi) must fill this template before it is admitted as an open candidate. The protocol's job is not to solve any path. Its job is to make every candidate a typed research object, so that:

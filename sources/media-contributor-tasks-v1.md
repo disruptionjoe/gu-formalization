@@ -1,3 +1,10 @@
+---
+title: "Issue-Ready Contributor Tasks - Draft v1"
+status: source
+doc_type: process_note
+updated_at: "2026-05-31"
+---
+
 # Issue-Ready Contributor Tasks - Draft v1
 
 Generated: 2026-05-30
@@ -70,7 +77,7 @@ L6 coordination loop: <unfilled> — how the observer-frame and the substrate-fr
 
 - `sources/claim-ledger.md` (once #28 v1 is committed): rows 5, 6, 7, 8, 9 from Oxford 2013.
 - `papers/formal-paper-draft-v2.md` Sec 4 (endogenous construction).
-- `syntheses/00b-loophole-synthesis-witten-evasion-test.md`.
+- `process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`.
 - Sibling repo card: six-axis-specification-protocol (WRK-375), already drafted at `specifications/six-axis/`.
 
 **Why this is the right first specification-proposal issue:** the six-axis template (sibling #24) was designed to be filled. The starter ledger now provides a source-native L1 substrate candidate that can be cited directly. This issue gives an operator-algebra / NCG contributor a concrete starting point that is not "invent something."
@@ -92,13 +99,13 @@ L6 coordination loop: <unfilled> — how the observer-frame and the substrate-fr
 1. Enumerate Weinstein-named sectors from media surfaces (Oxford 2013, JRE 1453, JRE 1628, TOE Jaimungal GU-40, Keating Revealed Part 1/2) with timestamped quotes.
 2. For each sector, identify what structural move it makes (substrate replacement, gauge unification, generation count, etc.).
 3. Map each sector to which of the four no-go theorems (Witten 1981, Distler-Garibaldi, Nielsen-Ninomiya, Freed-Hopkins) it structurally engages, evades, or does not address.
-4. Update `syntheses/10-no-go-forgetful-image-map.md`'s scope-qualifier language to reflect the sector qualification (this is local repo work, not GU-repo work; coordinate with sibling card owner).
+4. Update `canon/no-go-class-relative-map.md`'s scope-qualifier language to reflect the sector qualification (this is local repo work, not GU-repo work; coordinate with sibling card owner).
 5. Falsification: show that "Sector I" is a one-off use in Oxford 2013 with no consistent sector-numbering across later sources. If true, drop the sector-qualification work and frame the substrate-replacement claim as Oxford-2013-specific.
 
 **References:**
 
 - `sources/claim-ledger.md` (once #28 v1 is committed): row 8.
-- `syntheses/10-no-go-forgetful-image-map.md` (sibling #25, draft complete).
+- `canon/no-go-class-relative-map.md` (sibling #25, draft complete).
 - Media items: `GU-MEDIA-2013-OXFORD`, `GU-MEDIA-2020-JRE-1453`, `GU-POD-2021-JRE-1628`, `GU-POD-2025-TOE-JAIMUNGAL-GU-40`, `GU-POD-2021-KEATING-REVEALED-1`, `GU-POD-2021-KEATING-REVEALED-2`.
 
 **Why this is the right first open-problem issue:** it is bounded, agent-doable (transcript mining + table extension), and produces a concrete artifact (sector-qualified no-go map) that improves the repo's defensibility. Falsification path is clean.

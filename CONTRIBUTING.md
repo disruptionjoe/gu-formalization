@@ -1,3 +1,10 @@
+---
+title: "Contributing"
+status: canon
+doc_type: overview
+updated_at: "2026-05-31"
+---
+
 # Contributing
 
 Thank you for considering a contribution to the Geometric Unity Formalization Program. This document covers who the repository is for, what kinds of contribution are welcome, how to propose substrate-class specifications, pull-request norms, and the code of conduct.

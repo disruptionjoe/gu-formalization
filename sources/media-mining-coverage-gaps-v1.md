@@ -1,3 +1,10 @@
+---
+title: "Coverage Gaps - Draft v1"
+status: source
+doc_type: process_note
+updated_at: "2026-05-31"
+---
+
 # Coverage Gaps - Draft v1
 
 Generated: 2026-05-30
@@ -109,11 +116,11 @@ This batch is reputation-sensitive. Treat it as a separately approved reception 
 
 The following repo artifacts are referenced in the card's Structural Links but not deeply consumed in this v1 synthesis pass:
 
-- `appendix/execution-log.md` — full execution log; v1 ledger cites Pass 2 and Pass 2-6, this synthesis trusts those citations rather than re-reading.
+- `archive/execution-log.md` — full execution log; v1 ledger cites Pass 2 and Pass 2-6, this synthesis trusts those citations rather than re-reading.
 - `papers/formal-paper-draft-v2.md` — formal paper draft; v1 ledger cites Sec 2 and Sec 4, this synthesis trusts those citations.
 - `syntheses/09-canonical-self-source-capture.md` — referenced in v1 ledger's provenance discipline. Not directly read in this pass.
-- `syntheses/00b-loophole-synthesis-witten-evasion-test.md` and `00c-hegelian-meta-synthesis.md` — Hegelian Aufhebung framing; this synthesis trusts INDEX.md's summary rather than re-reading.
-- `deep-research/` — four briefs referenced by sibling #25 but not read here.
+- `process/syntheses/00b-loophole-synthesis-witten-evasion-test.md` and `00c-hegelian-meta-synthesis.md` — Hegelian Aufhebung framing; this synthesis trusts INDEX.md's summary rather than re-reading.
+- `literature/` — four briefs referenced by sibling #25 but not read here.
 
 A deeper synthesis pass that integrates the deep-research briefs and the full syntheses 00* series should be handled as a follow-up artifact, or as a v2 after #28 v2 lands.
 

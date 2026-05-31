@@ -1,3 +1,10 @@
+---
+title: "Source and Media Index"
+status: canon
+doc_type: overview
+updated_at: "2026-05-31"
+---
+
 # Source and Media Index
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.

@@ -1,3 +1,10 @@
+---
+title: "The Connes-Chamseddine Finite Spectral Standard Model — Control-Case Checklist"
+status: canon
+doc_type: specification
+updated_at: "2026-05-31"
+---
+
 # The Connes-Chamseddine Finite Spectral Standard Model — Control-Case Checklist
 
 **Purpose.** Pin down exactly what the finite spectral Standard Model proves in the published literature so that any Type II_1 / non-embeddable extension can be evaluated against an explicit, item-by-item baseline. Each item names what the control case fixes, what literature anchors fix it, and what a Type II_1 extension must preserve, redefine, or coherently replace.

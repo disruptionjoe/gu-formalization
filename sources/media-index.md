@@ -1,3 +1,10 @@
+---
+title: "Media and Source Index"
+status: source
+doc_type: source_index
+updated_at: "2026-05-31"
+---
+
 # Media and Source Index
 
 This index collects public instances where Eric Weinstein or GU-adjacent venues discuss Geometric Unity.
