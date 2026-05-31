@@ -6,3 +6,7 @@ These sources are useful for provenance, terminology, chronology, and locating c
 
 - `media-index.md` - curated list of GU media/source instances and their current verification status.
 - `claim-ledger.md` - timestamped claim rows extracted from media/source items after claim-mining.
+- `claim-ledger-v1-draft.md` - first provenance-only ledger draft from locally grounded Oxford/site materials.
+- `media-claim-mining-report-v1.md` - what the v1 pass covered, what it skipped, and why.
+- `media-mining-coverage-gaps-v1.md` - explicit gaps before a transcript-rich v2 pass.
+- `media-contributor-tasks-v1.md` - issue-ready task stubs derived from the v1 media synthesis.

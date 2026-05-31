@@ -12,6 +12,13 @@ This repo should not ask first-time contributors to "solve Geometric Unity." The
 | 4 | Fill the six-axis specification template for one candidate | This turns broad speculation into a typed research object. | One complete substrate/observer/pairing/causal/emergence/loop spec. | Anyone proposing a new path |
 | 5 | Run the Nielsen-Ninomiya protocol analogy pilot | It is the cleanest distributed-systems bridge because the assumptions are already operational. | A theorem-assumption to protocol-assumption map. | Distributed-systems and TCS contributors |
 
+Most of these first artifacts now have draft public surfaces:
+
+- Six-axis protocol: `syntheses/09-six-axis-specification-protocol.md` and `specifications/six-axis/`
+- No-go matrix: `syntheses/10-no-go-forgetful-image-map.md`
+- Type II_1 checklist: `syntheses/11-type-ii1-spectral-sm-checklist.md` and `specifications/type-ii1-spectral-sm/`
+- Nielsen protocol pilot: `syntheses/12-nielsen-protocol-analogy-pilot.md`
+
 ## Highest-Upside Research Paths
 
 These are the paths most likely to yield novel or profound insight, ranked by the five-persona rubric in `syntheses/07-supplementary-five-persona-value-ranking-rubric.md`.
@@ -38,6 +45,8 @@ These are the paths most likely to yield novel or profound insight, ranked by th
 1. No-go assumption/evasion matrix.
 2. `sources/claim-ledger.md` seeded with 5 to 10 timestamped GU claims from transcript-available sources.
 3. Finite Connes control checklist for the Type II_1 path.
+
+The initial media v1 bundle is in `sources/claim-ledger-v1-draft.md`, `sources/media-claim-mining-report-v1.md`, and `syntheses/19-media-claim-and-insight-mining-v1.md`. Treat it as provenance scaffolding until the transcript-rich v2 batch lands.
 
 ### First week: public collaborator hooks
 
@@ -67,4 +76,3 @@ The fastest likely path to a profound result is **Type II_1 control checklist ->
 - Do not claim computation evades Witten without a construction.
 - Do not attempt a full sextuple sweep.
 - Do not add more GU-source archaeology unless it changes a specific claim or timestamp.
-

@@ -56,7 +56,7 @@ The 35 persona passes are grouped by lens family:
 - **Heterodox problem-shape (math) lenses (10):** problem-shape rereads of the substrate and computation lenses
 - **Heterodox problem-shape (distributed systems) lenses (5):** Avalanche / Snowball consensus, DAG / partial-order causality, complexity science / SOC, BFT / CAP / FLP, stigmergic / mean-field coordination
 
-Five meta-syntheses (00, 00b, 00c, 00d, 00e) track convergence across the lens families. Two supplementary syntheses (06, 07) capture the chat-pass insights ranking and five-evaluator-persona rubric that integrate the persona work with the deep-research findings.
+Five meta-syntheses (00, 00b, 00c, 00d, 00e) track convergence across the lens families. Three supplementary syntheses (06, 07, 08) capture the chat-pass insights ranking, five-evaluator-persona rubric, and 15-technical-persona pathway ranking that integrate the persona work with the deep-research findings. The later syntheses (09 onward) turn those ranked pathways into scoping notes, guardrails, and first-pass tests.
 
 ---
 
@@ -82,7 +82,7 @@ passes/
   04-heterodox-problem-shape-math/ # passes 21-30
   05-heterodox-problem-shape-distributed-systems/ # passes 31-35
 syntheses/
-  INDEX.md                         # navigation across all 5 + 2 syntheses
+  INDEX.md                         # navigation across core, supplementary, and pathway syntheses
   00-synthesis-best-path-from-first-principles.md
   00b-loophole-synthesis-witten-evasion-test.md
   00c-hegelian-meta-synthesis.md
@@ -90,6 +90,13 @@ syntheses/
   00e-problem-shape-distributed-systems-meta-synthesis.md
   06-supplementary-insights-novelty-and-tests.md
   07-supplementary-five-persona-value-ranking-rubric.md
+  08-supplementary-15-persona-pathway-ranking.md
+  09-six-axis-specification-protocol.md
+  10-no-go-forgetful-image-map.md
+  ...
+specifications/
+  six-axis/                        # candidate-spec template and worked examples
+  type-ii1-spectral-sm/            # finite control checklist + Type II_1 requirements
 deep-research/
   INDEX.md                         # navigation across all 4 deep-research briefs
   01-non-embeddable-type-ii-1-spectral-standard-model.md
@@ -100,6 +107,7 @@ sources/
   README.md                         # source/media provenance discipline
   media-index.md                    # GU media instances and verification status
   claim-ledger.md                   # timestamped source claims after claim-mining
+  claim-ledger-v1-draft.md          # initial v1 ledger draft, provenance only
 appendix/
   INDEX.md                         # provenance and research-history layer
   execution-log.md
@@ -115,6 +123,7 @@ If you want to understand the structural argument fast:
 2. Read `papers/blog-post-draft-v2.md` (the "Shadow Theorem" framing, accessible to a non-specialist).
 3. Read `papers/formal-paper-draft-v2.md` (the formal argument with the four no-gos, the six-axis specification space, and the four substrate-class candidates).
 4. Read `syntheses/00e-problem-shape-distributed-systems-meta-synthesis.md` (the deepest convergent meta-synthesis; locks the sextuple specification space).
+5. Read `syntheses/09-six-axis-specification-protocol.md` and `specifications/six-axis/six-axis-template.md` before proposing a new path.
 
 If you want to see the dialectical method work pass-by-pass:
 1. Read `passes/INDEX.md` for the lens map.
@@ -158,7 +167,7 @@ Contributions of all kinds — refinements, refutations, alternative substrate-c
 
 ## Current status
 
-The 35 persona passes, 5 meta-syntheses, 2 supplementary syntheses, 4 deep-research briefs, 3 v2 top-line drafts, and appendix provenance layer are landed. Issues, pull requests, and forks are welcome. Treat the current drafts as a working research surface, not a finished proof.
+The 35 persona passes, 5 meta-syntheses, 3 supplementary syntheses, the first single-pass pathway artifacts, 4 deep-research briefs, 3 v2 top-line drafts, and appendix provenance layer are landed. Issues, pull requests, and forks are welcome. Treat the current drafts as a working research surface, not a finished proof.
 
 The methodology — 15-lens heterodox dialectical synthesis — is itself a transferable artifact. If you apply it to an adjacent open problem in physics, mathematics, or complexity science, the repository would welcome notes on what the method's shadow loses in your domain.
 

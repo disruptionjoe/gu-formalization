@@ -28,7 +28,7 @@ A clean negative result is a success condition for this repo.
 The evidence is currently structural, not constructive:
 
 - `passes/` contains 35 persona passes across mathematical physics, computation-substrate, heterodox problem-shape, and distributed-systems lenses.
-- `syntheses/` contains five core syntheses plus two ranking syntheses. The strongest synthesis is the six-axis specification space: substrate, observer, pairing, causal order, emergence class, and coordination loop.
+- `syntheses/` contains five core syntheses, three ranking/priority syntheses, and the first public pathway scoping artifacts. The strongest synthesis is the six-axis specification space: substrate, observer, pairing, causal order, emergence class, and coordination loop.
 - `deep-research/` contains four literature reviews. Their shared result is that the highest-priority bridges are genuinely unexplored in the published/arXiv literature, with adjacent machinery but no positive construction and no known counter-result.
 - `sources/` contains the GU media/source provenance index, including lectures, podcasts, official pages, and candidate videos that need transcript/timestamp extraction before they support specific claims.
 - `appendix/` contains the originating execution log and four frontier packets showing why the work pivoted away from GU-source reconstruction and toward first-principles substrate tests.
@@ -41,7 +41,7 @@ The evidence is currently structural, not constructive:
 4. Can observer/reference-frame data be added to anomaly classification without overclaiming that Freed-Hopkins is already observer-relative?
 5. Which specific six-axis candidate is the first one worth attempting?
 
-The current priority ranking is in `syntheses/07-supplementary-five-persona-value-ranking-rubric.md`.
+The current priority ranking is in `syntheses/07-supplementary-five-persona-value-ranking-rubric.md` and `syntheses/08-supplementary-15-persona-pathway-ranking.md`. The first public pathway artifacts begin at `syntheses/09-six-axis-specification-protocol.md`.
 
 ## 5. Where can I contribute?
 
@@ -50,4 +50,5 @@ The current priority ranking is in `syntheses/07-supplementary-five-persona-valu
 - If you know lattice fermions, no-go theorem workarounds, or string compactification: start with `deep-research/03-assumption-decomposition-no-go-evasion-literature.md`.
 - If you know distributed systems, consensus, CAP/FLP/BFT, causal DAGs, or complexity science: start with `deep-research/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`.
 - If you want an issue-sized task: start with `NEXT-STEPS.md`.
+- If you want to propose a new candidate path: start with `specifications/six-axis/six-axis-template.md`.
 - If you want the shortest non-specialist read: start with `papers/blog-post-draft-v2.md`, then `papers/formal-paper-draft-v2.md`, then `CONTRIBUTING.md`.
