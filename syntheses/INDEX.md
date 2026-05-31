@@ -1,6 +1,6 @@
 # Syntheses — Navigation Index
 
-Five core meta-syntheses (00 through 00e) track the dialectical convergence across the 35 persona passes. Two supplementary syntheses (06, 07) capture downstream chat-pass insights that integrate the persona work with the deep-research briefs.
+Five core meta-syntheses (00 through 00e) track the dialectical convergence across the 35 persona passes. Three supplementary syntheses (06, 07, 08) capture downstream chat-pass insights that integrate the persona work with the deep-research briefs, public contributor planning, and pathway prioritization.
 
 ## Reading order
 
@@ -22,9 +22,11 @@ The dialectical structure built up incrementally. Read in order:
 
 7. **`07-supplementary-five-persona-value-ranking-rubric.md`** — Five-evaluator-persona rubric (rigor gatekeeper, heterodox dialectician, agent lab operator, open-source field builder, strategic research PM) ranking which tests agents should run, which insights should become open problems on this repository, and which lines should be parked.
 
+8. **`08-supplementary-15-persona-pathway-ranking.md`** — 15-technical-persona ranking of potential research pathways by novelty/profundity upside, with an impact-to-difficulty lens that separates quick finishes, high-upside executable tests, and specialist-dependent frontier bets.
+
 ## Key convergent findings
 
-Across all seven syntheses, three convergent claims carry the highest weight:
+Across all eight syntheses, three convergent claims carry the highest weight:
 
 1. **The four no-go theorems compute forgetful images of substrate-level invariants in the smooth bundle shadow.** Each theorem is correct about what it computes. The theorems compute the wrong object for the purpose of evaluating Geometric Unity-class claims.
 
