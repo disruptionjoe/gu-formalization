@@ -2,7 +2,7 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-05-31"
+updated_at: "2026-06-01"
 ---
 
 # Research Status
@@ -33,6 +33,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 | CALM/Ginsparg-Wilson boundary | active_research | `active-research/calm-gw-boundary/` |
 | ranked next steps | active_research | `roadmap/` |
 | C_MPR and 9-tuple | exploration | `explorations/c-mpr/` |
+| observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
 | persona process and dialectics | process | `process/` |
 | early frontier packets | archive | `archive/` |
@@ -48,3 +49,7 @@ An exploration can move toward canon only when it has:
 3. explicit assumptions,
 4. known failure modes,
 5. no dependency on internal work artifacts for its next action.
+
+## Current Caution
+
+The observer-finality crosswalk is useful only as a test layer. It should not be cited as GU canon or as a way to evade no-go theorems. Its near-term value is the bounded signed-readout record-graph test in `explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`.
