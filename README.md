@@ -17,6 +17,7 @@ It organizes a first-principles investigation into whether Geometric Unity-class
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
 - **High-level overview:** `OVERVIEW.md`
+- **Six-axis testability white paper:** `papers/six-axis-testability-white-paper.md`
 
 ## Repository Layers
 
