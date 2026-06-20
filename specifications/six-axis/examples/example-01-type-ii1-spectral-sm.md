@@ -38,6 +38,7 @@ updated_at: "2026-05-31"
 - **Specification:** Standard smooth Lorentzian manifold `M^4` as the external geometry; Connes-style product spectral triple `(M^4 × F)` where `F` is the Type II_1 internal triple.
 - **Literature anchor:** Connes-Chamseddine almost-commutative geometry.
 - **Class-assumption signature broken:** Preserves Witten 1981 causal-order assumption.
+- **GU paper §12.2 note:** The GU paper §12.2 addresses L4 within GU's own framework, arguing that ℝ¹ is the unique naturally well-ordered 1-manifold and grounding the arrow of time in that algebraic fact. This candidate does not derive from the GU observerse construction and so §12.2 does not directly constrain its L4 choice. However, GU-derived candidates (those that use the Observerse triple (X, Y, {ι}) or the chimeric bundle C(Y)) should assess their L4 class against §12.2 before defaulting to Total-order Lorentzian. See `sources/gu-paper-reference-surfaces.md` §3.
 
 ## Leg 5 — Emergence class
 
