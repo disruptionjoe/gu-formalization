@@ -28,6 +28,11 @@ Forbidden use:
 - treating observer agreement as a replacement for anomaly, chirality, or spectral-triple construction,
 - claiming no-go theorems are bypassed unless their assumptions are explicitly preserved or broken,
 - importing a hidden global commit order into a relativity-facing model.
+- using TaF typed-forgetting or LossKernel language as evidence that GU's
+  forgetful-image framing is mathematically novel. Current diligence treats
+  typed forgetting as an open attribution vocabulary adjacent to CSP,
+  provenance, effect systems, lenses, and abstract interpretation unless a
+  separation theorem or stronger semantic object is proved.
 
 ## Files
 
