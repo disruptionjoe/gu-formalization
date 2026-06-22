@@ -32,6 +32,24 @@ This repo should not ask contributors to solve Geometric Unity. The useful unit 
 | Observer-pairing anomaly enrichment | exploration | 3 | build a toy enriched-bordism example |
 | C_MPR / 9-tuple / BvN wall | exploration | 3 | state object, morphism, and proof obligations before claiming theorem status |
 
+## Nguyen Critique: Priority Research Items
+
+These three tasks are the direct operational outputs of the full assessment in
+`explorations/nguyen-gu-critique/`. They are ranked by how much they constrain
+everything downstream.
+
+| order | task | output | blocker if skipped |
+|---:|---|---|---|
+| N1 | **Signature audit** — redo §3.1's complexification argument in split-signature (7,7) with Majorana–Weyl spinors (real dim 64), not Euclidean (14,0). | Clear verdict: does the unannotated-⊗ℂ gap survive in GU's actual signature? | Without this, we don't know which horn of the §3.1↔§3.2 pincer is live. |
+| N2 | **Shiab from Spin(7,7)-invariant data** — define the shiab operator from Sp(14) or Spin(7,7)-invariant subspaces and compute its anomaly content. | A construction (or proven obstruction). This is the one place new mathematics is required. | This is the pincer. No other task resolves it. |
+| N3 | **Discharge or record H3** — the Čech-H¹ ↔ holonomy dictionary in `time-as-finality` (`tests/T63`) is conditional on H3; run the `cech_sheaf_fixture` in `temporal-issuance` (E015 route). | H3 discharged, or H3 recorded as the named open blocker. | Current holonomy results are conditional; their status is unresolved. |
+
+**Constraint on all three:** No output from N1–N3 should be framed as a Nguyen
+refutation in published form. These repos specify escape routes; they do not prove
+them. Framing: "these are the constructions GU would need; we are attempting them."
+
+---
+
 ## What To Avoid
 
 - Do not claim this repo proves GU.
