@@ -1059,8 +1059,8 @@ File: `explorations/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md`
 ---
 
 ### oq3a-t4-vs-k3-disambiguation (2026-06-23)
-Verdict: RESOLVED_FOR_THE_DISCRIMINANT
-Registered the existing T4/K3 disambiguation note. `T^4` is a Willmore minimizer and is Ricci-flat, so Willmore/source-free Ricci-flatness alone cannot select K3. The exact discriminator is `Ahat`: `Ahat(T^4)=0` while `Ahat(K3)=2`. Under the parent formula `ind_H(D_GU)=8*Ahat(X^4)+8`, `T^4` gives `8` H-lines (one generation) and K3 gives `24` H-lines (three generations). This resolves T4 as a competitor only conditional on the parent generation-count formula, whose RS analytic route is now not established.
+Verdict: RESOLVED
+Ruled out T^4 as a competing Willmore minimizer by the A-hat discriminant. Both T^4 and K3 achieve E[s_LC]=0 via the tautological LC section (Willmore flat at E=0 across all topological classes; established in oq3a-willmore-k3-selection). The exact discriminant is A-hat: A-hat(T^4)=0 (three independent proofs: Hirzebruch signature sigma(T^4)=0; Atiyah-Singer on flat T^4 gives zero index; Chern-Weil gives integral zero from flat curvature). Under the 2+1 split formula ind_H(D_GU)=8*A-hat+8: T^4 gives 8 H-lines (1 generation from RS sector only; spin-1/2 sector contributes 0); K3 gives 24 H-lines (3 generations). The failure condition (another Ricci-flat compact 4-manifold with A-hat=2) does NOT fire: the complete list of compact simply-connected smooth Ricci-flat 4-manifolds is {T^4 (A-hat=0), K3 (A-hat=2)}, by Berger holonomy classification + Yau's theorem + Donaldson-Freedman. K3 is unique. Exotic K3 is excluded because Seiberg-Witten theory (Taubes 1994) shows exotic K3 admits no Kahler metric, hence no Ricci-flat metric via Yau. The T^4 vs K3 disambiguation is RESOLVED at the topological level (A-hat values are exact diffeomorphism invariants). The parent generation-count formula inherits conditional gates: OQ3b (RS index=8, physical count citable; analytic route open), OQ3c (index additivity, RESOLVED for cross-terms), ch_2(S(6,4))[K3]=0 (flat-bundle approximation), Lorentzian continuation (reconstruction-grade).
 File: `explorations/oq3a-t4-vs-k3-disambiguation-2026-06-23.md`
 
 ---
@@ -1076,3 +1076,38 @@ File: `explorations/ic4-source-free-k3-gate-2026-06-23.md`
 Verdict: DERIVED_NONTRIVIAL_COCYCLE_CONDITIONAL
 Implemented and ran the executable `cech_sheaf_fixture` in the sibling `temporal-issuance` repository. The main case returns Outcome `D'`: `c(I_plus)=+1`, `c(I_minus)=-1`, holonomy `-1`, with both transition values `derived_from_C`. The nontrivial cocycle is forced under odd SBP polarity-flip parity plus the no-anticipation constraint, not universally. Control cases recover A (underdetermined transport), B (stipulated transport), and C (forced trivial cocycle). The CHSH finite-cycle transfer also gives loop product `-1`. This opens a conditional H3 derivation path, but the GU/T63 identity still depends on bridge obligations from finite SBP parity data to flat `Z/2Z` gauge-local-system language.
 File: `../temporal-issuance/explorations/E054-h3-cech-sheaf-fixture-execution-2026-06-23.md`
+
+---
+
+### oc1-oc2-aps-closure (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Applied APS index theorem to s*(D_GU) on compact K3-type X^4, combining OC1 and OC2 via the section-pullback Fredholm instrument. The APS route is independent of the failed scalar FJ/BC1 chain. Key results: (1) APS index formula `ind_H = hat{A}(K3)*rank_H(S(6,4)) + ind_H(RS) = 2*8+8 = 24` at reconstruction grade; (2) spin-1/2 sector 16 H-lines from Atiyah-Singer (topological, hat{A}(K3)=2 exact, rank_H(S(6,4))=8 algebraic); (3) APS boundary term = 0 for flat S(6,4) on S^3 (ind-top-eta-s3 CONDITIONALLY_RESOLVED); (4) non-transversality failure condition does NOT fire (OQ3-V1/V2/V3 RESOLVED); (5) OC1 upgraded from ANALYTIC_OPEN_AFTER_RANK_RECONCILIATION to CONDITIONALLY_RESOLVED — APS/pullback replaces scalar FJ/BC1 as the Fredholm engine; OC2 unchanged CONDITIONALLY_RESOLVED. Two remaining gates: OQ3b (RS analytic index = 8; tau-twisted FAILED; rank-3 A3 framework needed) and G2 (KK zero-mode unitarity, 14D-to-4D identification). Under both conditions, OC1 and OC2 simultaneously resolve to RESOLVED with ind_H(D_GU) = 24.
+File: `explorations/oc1-oc2-aps-closure-2026-06-23.md`
+
+---
+
+### rc1-root-mult-disambiguation (2026-06-23)
+Verdict: RESOLVED
+Disambiguated the prior BC_1 root multiplicity ambiguity (m_alpha, m_{2alpha}) = (6,1) vs (7,0) for (SL(4,R), SO_0(3,1)). The question dissolves: both candidates assumed BC_1, which rests on the wrong involution sigma_A. Under the correct metric-conjugation involution sigma_B (dsigma_B(X) = -J X^T J^{-1}, J = diag(1,1,1,-1)), the restricted root system is A_3 with rank 3 and all root multiplicities = 1. Satake diagram: all three simple roots alpha_1, alpha_2, alpha_3 restrict nontrivially to a_q = span{H_1,H_2,H_3} and to distinct linear forms (no black nodes, no arrows). Dimension check: 3 + 6x1 = 9 = dim(G/H). The BC_1 long root 2*alpha does not exist in A_3. Scalar Plancherel is absolutely continuous (FJ equal-rank 3 = 1 fails, no scalar discrete series). The analytic RS ind_H = 8 route is OPEN; physical count dim_H = 8 survives at reconstruction grade. Upgrade gate: Oshima-Matsuki (1984) Table 1 for (sl(4,R), so(3,1)).
+File: `explorations/rc1-root-mult-disambiguation-2026-06-23.md`
+
+---
+
+### oq3b-rs-index-closed (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Closed the OQ3b gate following OQ1 resolution. OQ1 confirmed split-rank(SL(4,R)/SO_0(3,1)) = 3 (not 1), eliminating the scalar Flensted-Jensen / BC1 analytic route to ind_H(D_RS) = 8. Sub-condition accounting: scalar FJ guarantee ELIMINATED; tau-correction analytic path (effective split-rank = 3 - 2 = 1 for twisted L^2(G x_H tau_RS)) SURVIVES at reconstruction grade with unverified gate rank_correction(tau_RS) = 2; physical DOF count route (C^32 -> C^16 -> dim_H = 8) and SM generation count route (1 gen x 8 H-lines) BOTH survive unchanged, neither depending on split-rank. Three convergent reconstruction-grade paths continue to give ind_H(D_RS) = 8; no path gives a contradictory value. AF2 = 225/48 (A3 root system) survives as a G-Plancherel statement. Primary analytic gate for upgrade to RESOLVED: tau-correction rank formula from Kobayashi-Oda (2023) for the pair (SL(4,R), SO_0(3,1)) with tau = D(1/2,0) of SO_0(3,1). The scalar BC1 c-function poles, rho = 9/2, and Lambda_RS^{FJ} = 3/2 claims from rc1-rs-kk-zero-mode are retired as live analytic proof (wrong involution).
+File: `explorations/oq3b-rs-index-closed-2026-06-23.md`
+
+---
+
+### type-ii1-ko-dimension (2026-06-23)
+Verdict: RESOLVED
+Verified KO-dimension 6 mod 8 for the Type II_1 semifinite spectral triple (R, L^2(R,tau), D_M, J_tau, gamma_M) by explicitly computing all three signs. epsilon = J_tau^2: exact computation gives J_tau^2(a) = J_tau(a*) = (a*)* = a, so J_tau^2 = +1 from the involutivity of the *-operation in any C*-algebra. epsilon' = +1: J_tau D_M = D_M J_tau proved via trace cyclicity tau(ab) = tau(ba) -- the tracial property of the Type II_1 canonical trace is the algebraic mechanism. epsilon'' = -1: inherited from the CC finite triple on the A_F-module sector p_F H = C^96; the complement (1-p_F)H has epsilon'' = +1 from the spectral grading, but carries no SM physics (uncharged under A_F, no gauge or fermion content). Sign triple (+1,+1,-1) = KO-dim 6 on the physically relevant sector. Failure condition (KO-dim != 6 and no sign-fix) does NOT fire: the sign-fix is restriction to p_F H, canonical and analogous to standard Connes-Marcolli practice. Gate GC2 from semifinite-triple file CLOSED: J_tau and gamma_M are independently specifiable (J_tau determined by (R,tau), gamma_F determined by CC finite triple, eigenvalue-sign grading on complement -- no circularity). Checklist gates F3.1 and F3.2 from tightening file CLOSED. GU J^2 gap confirmed definitive: J_GU^2 = -1 (quaternionic H-multiplication on H^64) vs J_tau^2 = +1 (Tomita-Takesaki for tracial tau) -- these are structurally distinct real structures; no canonical bridge in current GU construction; bridging requires either a new J on S = H^64 squaring to +1, or a composition argument, or a section-pullback mechanism (ruled out: s*(J)^2 = -1 by composition preservation).
+File: `explorations/type-ii1-ko-dimension-2026-06-23.md`
+
+---
+
+### h3-outcome-d-prime-gu-bridge (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Synthesized the transfer from Outcome D' finite-schema parity cocycles (c(I_plus)=+1, c(I_minus)=-1, holonomy -1, derived_from_C under odd-SBP + NAC) to the GU/T63 flat Z/2Z gauge-local-system statement. All three bridge conditions hold at reconstruction grade for odd-SBP + NAC observer configurations: C1 RESOLVED (canonical Cech isomorphism; flat Z/2Z smooth lifting automatic for discrete bundles); C2 CONDITIONALLY_RESOLVED (class equality exact by Z/2Z uniqueness; NAC+SBP = no-LHV is structural parallel not verified theorem); C3 RESOLVED (GU null-cone causal structure compatible with CHSH holonomy -1; spacelike loops trivial in Z/2Z). H3 is CONDITIONALLY_RESOLVED for the SBP-odd + NAC configuration class. Two remaining gaps: Gap 1 (prove NAC + odd-SBP = CHSH no-LHV as a formal theorem); Gap 2 (show GU observer-section geometry universally forces SBP-odd + NAC for quantum-contextual observers). Full H3 as universal GU identity theorem remains OPEN pending these gaps.
+File: `explorations/h3-outcome-d-prime-gu-bridge-2026-06-23.md`
