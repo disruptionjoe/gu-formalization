@@ -260,21 +260,29 @@ When a nontrivial gauge connection is switched on (minimal coupling ∂_μ → D
 
 - *No known evasion for spin-3/2 in non-Abelian internal gauge background without SUSY.* The VZ obstruction is robust for spin-3/2 matter in non-Abelian gauge backgrounds when no local symmetry principle (SUSY, higher-spin gauge symmetry) protects the subsidiary conditions.
 
-**GU evasion candidate: trivial internal gauge coupling.**
+**GU evasion candidate: Dirac-DeRham non-decoupling at 14D.**
 
-GU predicts one family of 16 flipped-chiral spin-3/2 particles arising from the Dirac-DeRham-Einstein complex on Y¹⁴ (see `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md`, Claim 7). These are not gravitini (GU has no local SUSY structure as far as can be determined from the published record). Weinstein's statement ([00:41:48–00:42:29]): "if your model differs by having no internal symmetry groups, I have no idea whether it has any kind of a Velo Zwanziger problem."
+GU predicts one family of 16 flipped-chiral spin-3/2 particles arising from the Dirac-DeRham-Einstein complex on Y¹⁴ (see `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md`, Claim 7). These are not gravitini (GU has no local SUSY structure as far as can be determined from the published record). Weinstein's statement ([00:41:48–00:42:09]): "if your model differs by having no internal symmetry groups, I have no idea whether it has any kind of a Velo Zwanziger problem."
 
-The proposed evasion: the GU spin-3/2 family has **trivial coupling to all internal gauge groups** — it is a singlet under G_internal. This drops assumption (3). The spin-3/2 particles couple only to gravity (i.e., to the connection on Y¹⁴), not to any Yang-Mills-type internal gauge potential.
+**VZ1 full analysis: `explorations/vz1-velo-zwanziger-analysis-2026-06-22.md` (2026-06-22).**
 
-**GU evasion status: UNCONFIRMED.**
+**Finding 1 — "Trivial internal coupling" fails at the 4D level.** The RS(3,1) ⊗ S(6,4) sector carries non-trivial SM gauge quantum numbers: under SU(3)×SU(2)_L×U(1)_Y, it decomposes as (Q̄_L, L̄_L, ū_R, d̄_R, ē_R, ν̄_R)_{flipped} — one full Pati-Salam generation. VZ hypothesis (H3) is satisfied after 4D reduction. The "trivial coupling" claim cannot be maintained for the 4D effective theory.
 
-Three open questions stand between the evasion candidate and an actual evasion:
+**Finding 2 — The coherent evasion mechanism lives at the 14D level.** GU's spin-3/2 sector is NOT a standalone Rarita-Schwinger field with its own Lagrangian. It is the RS(3,1) component of the full spinor S = H^{64} on Y¹⁴, propagated by the Dirac-DeRham operator D_GU. The Dirac operator D_GU has the light cone as its characteristic cone (Berline-Getzler-Vergne §2.1: the principal symbol of a Dirac operator is hyperbolic with characteristic cone = metric light cone, regardless of gauge coupling). VZ applies to standalone RS Lagrangians; if the RS sector does not decouple into an independent dynamical variable at the 14D level, VZ's hypotheses are not satisfied at 14D.
 
-1. **Coupling structure not specified.** GU does not provide a Lagrangian for the spin-3/2 family. Without the Lagrangian, it is impossible to verify that the coupling to internal gauge groups is trivial and that the coupling to gravity is of the protected (gravitino-like) rather than the VZ-pathological type.
+**GU evasion status: OPEN — mechanism identified, not verified.**
 
-2. **Coupling to gravity may also produce VZ problems.** Even coupling only to gravity (no internal gauge group) can produce acausality for spin-3/2 fields in curved backgrounds. The original VZ theorem used flat backgrounds; the gravitational case is more complex. Buchdahl (1962) and Aurilia-Umezawa (1969) showed that spin-3/2 in curved spacetime also has consistency problems unless the background satisfies specific conditions (related to the Einstein equations). In GU, the background geometry is dynamical and non-standard (Y¹⁴ rather than X⁴); the status of these gravitational-background VZ problems is unknown.
+Three open questions (from VZ1 analysis document):
 
-3. **No local SUSY or higher-spin gauge principle.** The gravitino evasion works because local SUSY is a guardian symmetry. GU's spin-3/2 particles lack an obvious guardian. Even if internal coupling is trivial, the gravitational coupling needs a guardian principle to maintain the subsidiary conditions. GU proposes a super-extension of the inhomogeneous gauge group (Claim F in the analysis document) as a possible guardian, but this is in `[speculation]` status.
+**OQ1 (priority).** Does the RS sector of D_GU decouple from the spin-1/2 sectors at any energy scale? If yes at some mass scale M_RS, then below M_RS an effective 4D RS field equation exists and VZ applies at that level (with SM gauge couplings, so VZ fires unless a guardian is present). If no (RS sector does not decouple), VZ is inapplicable at the 14D level. Resolution: analyze the spectrum of D_GU in the RS sector; determine whether the shiab Φ maps the RS sector back into itself or into spin-1/2 sectors. Entangled with SC1 task.
+
+**OQ2.** If RS decouples at scale M_RS: what guardian symmetry protects the subsidiary conditions? GU's proposed super-IG extension (super-extension of IG = Sp(64) ⋉ Ω¹(ad P)) is the candidate guardian. `[speculation — super-IG algebra not constructed; no analogue in published literature for a non-SUSY guardian of spin-3/2]`
+
+**OQ3.** Does the Weyl tensor of the gimmel metric on Y¹⁴ produce gravitational VZ problems for the RS sector independent of SM gauge coupling? Buchdahl (1962) and Aurilia-Umezawa (1969) show curved-spacetime acausality for spin-3/2 can occur even without internal gauge groups. Unanalyzed for the Y¹⁴ geometry.
+
+**Failure conditions (F1–F3):** VZ becomes a genuine obstruction if (F1) RS decouples and has no guardian symmetry, OR (F2) the gimmel metric produces gravitational VZ acausality, OR (F3) the super-IG guardian algebra does not close properly.
+
+**Evasion confirmation conditions (E1–E3):** VZ is evaded if (E1) RS does not decouple at 14D (no standalone RS field), OR (E2) RS decouples but has an explicit guardian; AND (E3) the gravitational background VZ problem is absent.
 
 **Candidate richer datum.**
 
@@ -326,7 +334,7 @@ Per `literature/03` and I11: in all four families, successful published evasions
 | Nielsen-Ninomiya | (d+1)-bulk, modified symmetry algebra | demand on-site exact symmetry |
 | Freed-Hopkins | topological-order boundary, symmetry extension, mixed spatial | demand invertible boundary / standard symmetry type |
 | Distler-Garibaldi | product group, bundle, Kac-Moody extension | demand single finite-dim E8 adjoint |
-| Velo-Zwanziger | guardian symmetry (local SUSY or higher-spin gauge invariance) that maintains spin-3/2 subsidiary conditions | minimal-coupling functor that forgets guardian and demands nontrivial gauge coupling |
+| Velo-Zwanziger | Dirac-DeRham non-decoupling of RS sector (no standalone RS Lagrangian at 14D); or guardian symmetry (super-IG) if RS decouples | minimal-coupling functor that forgets the Dirac-DeRham embedding and treats RS as an independent matter field |
 
 The first three rows share an architectural shape: add bulk/boundary/enrichment, the shadow forgets it. Distler-Garibaldi's row is structurally different: the "added structure" is a category change.
 
@@ -365,7 +373,7 @@ Ordered by leverage on the map's open questions. Sibling-artifact references whe
 
 ## 5. Closing posture
 
-Three of five no-go families admit a forgetful-image reading that is at most an adjacent reformulation of the published evasion literature. The fourth (Distler-Garibaldi) is the stress case where the frame works least well: every successful evasion changes the category, not the shadow. The fifth (Velo-Zwanziger) is GU-specific: it constrains GU's own spin-3/2 matter prediction directly, and the evasion candidate (trivial internal coupling) is currently UNCONFIRMED. The map's recommendation is to **publish with both the stress case and the unconfirmed evasion visible**, not buried, and to use the ranked tests above as the falsification surface.
+Three of five no-go families admit a forgetful-image reading that is at most an adjacent reformulation of the published evasion literature. The fourth (Distler-Garibaldi) is the stress case where the frame works least well: every successful evasion changes the category, not the shadow. The fifth (Velo-Zwanziger) is GU-specific: it constrains GU's own spin-3/2 matter prediction directly. Full analysis completed 2026-06-22 in `explorations/vz1-velo-zwanziger-analysis-2026-06-22.md`. The evasion mechanism has been refined: "trivial internal coupling" fails at the 4D level (the RS sector carries SM charges); the coherent evasion candidate is that the RS sector is not a standalone dynamical variable at the 14D level (Dirac-DeRham non-decoupling). Status: OPEN — evasion mechanism identified but not verified. Three open questions (OQ1–OQ3) with explicit failure and confirmation conditions. The map's recommendation is to **publish with both the stress case and the OPEN VZ evasion visible**, not buried, and to use the ranked tests above as the falsification surface. OQ1 (RS decoupling question) is the priority sub-task.
 
 The map does not say the no-go theorems are wrong. It says they fix classes, and for three of the five families the "what gets lost in the smooth-bundle shadow" question has plausible substrate-level answers that the literature is already approaching from the geometric side. The unified meta-frame ("forgetful images of richer substrate invariants") is implicit/adjacent for Witten / Nielsen-Ninomiya / Freed-Hopkins, is **originally and contentiously** at stake for Distler-Garibaldi, and is **GU-prediction-specific and currently open** for Velo-Zwanziger.
 
@@ -382,5 +390,5 @@ All other siblings in the coordination list are independent of this map's conten
 - The map does not formally construct any of the candidate forgetful operations as functors between specified categories. They are named structurally; the construction is an open task.
 - The Distler-Garibaldi handling is unresolved on substance, not just on framing. The honest verdict is that the unified frame strains here; the map ships this as a visible stress, not a solved problem.
 - The "what gets lost" column for Distler-Garibaldi is genuinely speculative because the framework does not pick out a unique forgetful operation; (a), (b), (c) above are three different shadow-candidates with different lost-data content.
-- The Velo-Zwanziger entry is GU-specific (not a pre-existing entry in the GU no-go literature). Its evasion candidate status is UNCONFIRMED. Three open questions remain: (1) the GU spin-3/2 Lagrangian is not specified; (2) the gravitational-background VZ problem (curved X⁴) is not assessed; (3) no guardian symmetry has been identified for the GU spin-3/2 family. This entry should be updated as VZ1 task outputs become available.
+- The Velo-Zwanziger entry is GU-specific. Full analysis completed 2026-06-22: `explorations/vz1-velo-zwanziger-analysis-2026-06-22.md`. Status updated from UNCONFIRMED to OPEN with the refined evasion mechanism (Dirac-DeRham non-decoupling rather than trivial internal coupling). Remaining open questions: (OQ1) whether the RS sector decouples from spin-1/2 in D_GU — this is the priority; (OQ2) what guardian symmetry protects a decoupled RS field (super-IG candidate, speculation-grade); (OQ3) gravitational VZ problems via Weyl tensor of gimmel metric on Y¹⁴. The "trivial internal coupling" claim was found to be false at the 4D level (RS sector carries SM charges).
 - The map cites the literature in `literature/03` but does not independently verify each citation. The map's correctness about the no-go theorems is downstream of that brief's correctness.
