@@ -20,7 +20,7 @@ const state = await agent(
    2. Read: NEXT-STEPS.md (look for items NOT marked with ~~ strikethrough and NOT recently committed — check file dates in explorations/)
    3. Read: .claude/commands/gu-compute.md (this is the established mathematical context)
 
-   DEDUPLICATION RULE (critical): Run `git log --oneline --since="6 hours ago"` and `ls explorations/` to get the list of files committed or created in the last 6 hours. Do NOT pick any item whose output file (by name pattern) already appears in that list — even if it is CONDITIONALLY_RESOLVED. Each item should only be worked on once per session unless its verdict is still OPEN (not CONDITIONALLY_RESOLVED or RESOLVED). Picks must be 3 DISTINCT items not already worked this session.
+   DEDUPLICATION RULE (critical): Run "git log --oneline --since=6.hours.ago" and "ls explorations/" to get the list of files committed or created in the last 6 hours. Do NOT pick any item whose output file (by name pattern) already appears in that list — even if it is CONDITIONALLY_RESOLVED. Each item should only be worked on once per session unless its verdict is still OPEN (not CONDITIONALLY_RESOLVED or RESOLVED). Picks must be 3 DISTINCT items not already worked this session.
 
    Current known state (as of 2026-06-23, after 10 autonomous loop passes):
    RESOLVED: sc1-shiab-domain-codomain, vz-schur-complement (EVADED)
