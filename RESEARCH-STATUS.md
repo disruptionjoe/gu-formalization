@@ -68,6 +68,18 @@ Five bounded frontier notes were added by the manual parallel pass. One addition
 | `explorations/discrete-series-fiber-dirac-index-2026-06-23.md` | exploration | Finds that `dim_H ker_L2(D_fib)=24` is not coherent as an ordinary finite homogeneous-fiber kernel statement on `GL(4,R)/O(3,1)`. The generation-count analytic target must be replaced by a compactified, quotient, equivariant-index, or relative-discrete-series multiplicity problem. |
 | `explorations/cross-program-lambda-coefficient-2026-06-23.md` | exploration | Corrects the cross-program comparison: GU `Lambda` has rate-squared units, so it should be compared with `lambda_max^2` or `Gamma_min^2`, not raw TaF rates. The invariant coefficient remains blocked on the `II_s` Hessian on `S^4`. |
 
+## 2026-06-23 Second Parallel Pass (Run 20260623-005611)
+
+Five bounded frontier notes from the second hourly automation pass. All exploration-grade; no promotion to active_research or canon.
+
+| document | status | content |
+|---|---|---|
+| `explorations/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation: for horizontal covectors, vertical one-forms do not modify the Schur complement (`C_N psi_R = 0`). Horizontal-covector VZ characteristics are contained in the light cone. Mixed 14D covectors remain open. |
+| `explorations/ii-s-horizontal-convention-hessian-2026-06-23.md` | exploration | Adopts horizontal-normalized `II_s^H` convention (flat spacetime gives `II_s^H = 0`). Hessian at round S^4 section is Lichnerowicz operator with lowest TT eigenvalue `8/R^2`. Coefficient `C_GU` still tolerance-dependent. |
+| `explorations/codazzi-k-term-umbilic-test-2026-06-23.md` | exploration | K(A,s) = 0 for totally umbilic tautological section on maximally symmetric background. R_fail = 0 gives one-equation Lambda constraint. General (non-umbilic) case: trace-free Q(B) must be identified with matter stress. |
+| `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` | exploration | Parthasarathy-Casimir condition for fiber Dirac: `pi(C_g) = 9/2 + rho_constant`. Candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` at reconstruction grade. Complements F4 Flensted-Jensen approach. |
+| `explorations/observer-section-error-model-2026-06-23.md` | exploration | Bridge model: quantum metric measurement gives `epsilon_sec^2 ~ epsilon_dec`. Cross-program contact confirmed structural (shared `t_obs^{-2}`) but not numerically exact. Conditions B1–B3 for exactness named. |
+
 ## 2026-06-22 Additions (Positive GU Constructions Lane)
 
 One new exploration document was added as a new parallel lane of work:

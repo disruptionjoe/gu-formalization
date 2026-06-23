@@ -363,3 +363,29 @@ File: `explorations/sc1-shiab-domain-codomain-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Replaced the incoherent ordinary L2-kernel target `dim_H ker_L2(D_fib) = 24` on `GL(4,R)/O(3,1)` with the precise analytic invariant: the relative-discrete-series Plancherel multiplicity `m_H(S(6,4))` in `L2(SL(4,R) x_{SO_0(3,1)} S(6,4))`. Key finding: the Flensted-Jensen equal-rank condition is satisfied (split-rank of `SL(4,R)/SO_0(3,1)` is `min(3,1) = 1` = rank of compact fiber `SO(4)/SO(3) = S^3`), so relative discrete series exist and the invariant is well-defined and coherent. The prior pessimistic rank reading (3 != 1) used the wrong rank definition. Remaining open: branching rules for the non-standard 9-dimensional isotropy embedding of `Spin(3,1)` into `Spin(6,4)`, and the explicit value `m_H(S(6,4)) = 24?`
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
+
+---
+
+## Phase 5 Log Entry (2026-06-23) — Second Hourly Pass (Run 20260623-005611)
+
+Five bounded frontier notes produced by the second scheduled hourly pass. All are exploration-grade.
+
+| task | result | file |
+|---|---|---|
+| VZ Schur vertical extension | Vertical one-forms do not modify the horizontal Schur complement at horizontal covectors: `C_N psi_R = 0` because RS inputs produce no vertical one-form output at horizontal xi. Full Schur complement for horizontal xi equals minimal Schur complement; `ker = 0` confirmed. Mixed-covector case remains open. | `explorations/vz1-schur-vertical-extension-2026-06-23.md` |
+| II_s horizontal-normalized convention + S^4 Hessian | Horizontal-normalized convention adopted (algebraic slice subtracted; flat section gives `II_s^H = 0`). Hessian at round S^4 section is Lichnerowicz operator with lowest TT eigenvalue `lambda_2 = 8/R^2`. `C_GU` is still tolerance-dependent; requires observer-section error model. | `explorations/ii-s-horizontal-convention-hessian-2026-06-23.md` |
+| K(A,s) and R_fail for umbilic sections | Totally umbilic sections: `K(A,s) = 0` for tautological connection on maximally symmetric background (tangent-normal curvature vanishes). `R_fail = 0` gives one-equation Lambda constraint `Lambda = G^Y_T_const - 3|phi|^2`. General non-umbilic case: trace-free `Q^{TF}(B) != 0` must match matter stress. | `explorations/codazzi-k-term-umbilic-test-2026-06-23.md` |
+| Parthasarathy-Casimir for fiber Dirac | Casimir condition formulated: `pi(C_g) = 9/2 + rho_constant` for candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` (reconstruction grade). Vogan infinitesimal-character condition stated. Open: rho-constant from restricted roots; spectral confirmation; multiplicity `m_H = 24`. | `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` |
+| Observer-section error model | Bridge model formulated: quantum metric measurement gives `epsilon_sec^2 ~ epsilon_dec`. Cross-program contact is structural (shared `t_obs^{-2}`) but not numerically exact. Three conditions (B1–B3) for exactness are named; none established. | `explorations/observer-section-error-model-2026-06-23.md` |
+
+---
+
+### discrete-series full computation (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Full reconstruction-grade computation of the relative-discrete-series Plancherel multiplicity m_H(S(6,4)) for SL(4,R)/SO_0(3,1) with fiber spinor S(6,4). The Flensted-Jensen equal-rank criterion is confirmed to pass: the correct split-rank is dim(a_q) = 1 (not 3 as in the prior pessimistic reading), where a_q is the maximal abelian subspace in p_G ∩ q within the 9-dimensional tangent space Sym^2_0(R^{3,1}*). The isotropy branching is established at reconstruction grade as S(6,4)|_{SO_0(3,1)} = 4D(1/2,0) + 4D(0,1/2) (four left-Weyl plus four right-Weyl spinors of Spin(3,1)), consistent with one SM generation. The multiplicity m_H(S(6,4)) = 24 arises as 8 (fiber H-type summands) x 3 (topological factor from X^4); remaining open conditions are OQ1 (CAS verification split-rank = 1), OQ2 (CAS branching check), and OQ3 (topological factor ind_top(D_{X^4}) = 3 from hat-A genus on X^4).
+File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
+
+### vz-schur (2026-06-23)
+Verdict: EVADED
+Extended the Schur complement symbol computation from horizontal covectors to all mixed 14D covectors `xi = xi_H + xi_N` using Spin(9,5) Clifford module structure. The decisive result (§8): for any `xi` with `g_Y(xi,xi) != 0`, the kernel of `D_RS_eff(xi) = S_R^{14D}(xi)` is trivial. Proof uses the Clifford module identity `sigma_D(xi)^2 = xi2 Id_E` and the Schur determinant formula -- if `S_R psi_R = 0`, then `M(xi)(psi_R, -E^{-1} C psi_R) = 0`, so `xi2 (psi_R, ...) = 0`, forcing `psi_R = 0` when `xi2 != 0`. The characteristic cone of `D_RS_eff` is the null cone; no spacelike characteristics exist; VZ obstruction is absent at the principal-symbol level for the full 14D RS sector defined by the full 14D gamma trace. Remaining open: exact matrix identity `S_R^2 = xi2 Id` (vs. trivial kernel only); lower-order curvature protection; 4D section-pullback preservation of the Clifford property.
+File: `explorations/vz-schur-complement-2026-06-23.md`
