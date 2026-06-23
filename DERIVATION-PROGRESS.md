@@ -1237,3 +1237,22 @@ giving ind_H=8 does not exist in the published literature.
 File: `explorations/oq3b-literature-verification-2026-06-23.md`
 
 ---
+
+### theta-field-flrw-eos (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Computed the dark energy equation of state w(z) for the GU distortion theta field on an FLRW background with mass M_KK = 2*sqrt(2) H_0 (from the fiber normal Laplacian spectrum). The theta field is above the de Sitter Breitenlohner-Freedman bound (M_KK = 2.83 H_0 > 3H_0/2), placing it in the oscillating+damped regime with period ~37.7 Gyr; at z=0 the field has completed ~0.31 cycles. GU dark energy has a two-component structure: umbilic Lambda_eff (w=-1, constant) plus decaying oscillating theta (instantaneous w ~ +0.76). The total effective w_0 ~ -0.80 for initial amplitude f_0 ~ 0.11 (B_i ~ 0.92 M_Pl), consistent with DESI DR1. The model-independent ratio prediction w_a/(w_0+1) ~ -1.80 (independent of initial amplitude) is within 1-sigma of DESI DR1 data, so Candidate D is NOT currently ruled out. Primary gap: GU does not derive B_i from first principles; without this, w_0 is matched rather than predicted.
+File: `explorations/theta-field-flrw-eos-2026-06-23.md`
+
+### h3-gap2-gu-universality (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Assessed whether GU observer geometry universally forces SBP-odd + NAC for all valid observer records. Q-NAC: GU null-cone causal structure (VZ evasion + propagation of singularities, reconstruction grade) forces NAC structurally -- null-cone-bounded propagation means no observer section satisfying D_GU field equations can be anticipatory. Q-SBP: Sp(64) irreducibility of S = H^64 (simple ring, irreducible standard representation) rules out Sp(64)-equivariant product-state bipartite splits; SM-charge-based (Pati-Salam-equivariant) measurement settings produce |CHSH| > 2 for all SM-sector GU spinors, and Gap 1 converts this to Odd-SBP under NAC. Counterexample configurations (non-equivariant product-state splits, thermal/classical-limit observers below Gamma_min) exist but fall outside the physically valid GU domain. Full H3 remains OPEN pending Pati-Salam bipartite structure computation (F2) and GU measurement postulate (F4); H3 physical domain now precisely characterized as quantum-contextual GU observers with SM charges and Gamma >= Gamma_min.
+File: `explorations/h3-gap2-gu-universality-2026-06-23.md`
+
+---
+
+### rfail-schwarzschild-oq2-weak-field (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Answered OQ2 from the companion note rfail-non-umbilic-schwarzschild: the linearized-section R_fail vanishes at O(M/r) for a Schwarzschild background, so GU passes solar-system tests in the weak-field limit despite exact Schwarzschild being a GENUINE_OBSTRUCTION. The mechanism is structural: (1) the Gauss identity G^X = G^Y_T + Q(B) + E^Psi is a tautology for any section, so R_fail = G^X - 8piGT - Lambda g; (2) for vacuum Schwarzschild G^X = 0 exactly; (3) the Willmore-EL residual (section-equation failure) is Delta^perp H^i_Schw ~ O(M/r^4) in curvature units, a factor O(M/r) ~ 10^{-8} below any current solar-system measurement. The nonlinear obstruction Q^{TF}(B) ~ B^2 ~ O(M^2/r^4) is also far below the O(M/r^3) GR curvature scale for solar-system tests. Three failure conditions remain open: F1 (linearized gimmel ambient curvature G^Y_T at O(1)), F2 (E^Psi gauge term from linearized Yang-Mills in Schwarzschild background), F3 (CAS verification of linearized gimmel G^Y_T); none block the leading-order conclusion.
+File: `explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md`
+
+---
