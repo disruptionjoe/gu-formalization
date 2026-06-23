@@ -848,3 +848,24 @@ File: `explorations/signed-readout-theorem-statement-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Expanded the Type II_1 spectral SM checklist with explicit Connes-Chamseddine finite-geometry control comparison points (exact numerical and structural data from published CC literature), GU parallel data for all 10 items, and 15 binary/computable falsification tests (F1.1-F10.2, FX.1-FX.3). Two structural gaps identified: (1) J^2 sign gap — GU quaternionic real structure has J^2=-1 while CC KO-dim-6 requires J^2=+1, gates the entire GU/Type-II_1 contact on an uncomputed section-pullback; (2) product vs. bundle structure — CC algebraically independent tensor factors vs. GU geometrically coupled Y^14 bundle, requiring an approximate-independence regime proof. One confirmed match: 16 Weyl fermions per generation (CONFIRMED via Pati-Salam branching). Generation count via ind_H=24 conditionally derived, vs. CC insertion-by-hand. Next: J^2 on s*(S) (OQ1) and D_GU inner fluctuations (OQ2).
 File: `explorations/type-ii1-sm-checklist-tightening-2026-06-23.md`
+
+---
+
+### type-ii1-finite-control-selector (2026-06-23)
+Verdict: OPEN
+Five explicit attempts to construct a finite-control selector for Type II_1 spectral SM extensions were made (KO-dimension signs, Breuer-Fredholm index discreteness, inner-fluctuation closure, spectral-action coefficients, combined CS1-CS3 candidate); all attempts are necessary conditions only, not sufficient selectors, and the inner-fluctuation CS3 condition has no verified instance. The lane is formally demoted to generation-count-only analogy status: principal-graph invariants of Jones-subfactor inclusions are a parallel (not derived) generation-count mechanism to GU ind_H=24 via discrete-series harmonic analysis. Three demotion-exit conditions are stated: concrete semifinite triple construction, CS3 decomposition demonstration, and resolution of the J^2 sign gap (GU J_H^2=-1 vs CC KO-6 J^2=+1) via s*(J_H) section-pullback computation.
+File: `explorations/type-ii1-finite-control-selector-attempt-2026-06-23.md`
+
+---
+
+### n3-cech-fixture-specification (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Produced a complete, executable specification for the `cech_sheaf_fixture` required by N3 closure condition C2. The specification provides: two-patch S^1 cover geometry with two overlap components (U_{cap,L}, U_{cap,R}); TI schema setup (Ax_+, Ax_- under the no-anticipation constraint NAC); C_TaF admissibility applied to extension records at each overlap with transition values c_L, c_R derived as outputs (not inputs); five classified outcome types (A: no transition data, B: stipulated data, C: forced trivial holonomy, D: forced nontrivial holonomy, D': conditional nontrivial) with explicit expected cocycle outputs for each; eleven test conditions (TC-1 through TC-11); and six explicit falsification conditions (FS-1 through FS-6). The blocking status from the prior fixture audit ("missing C-typed section-compatibility predicate, missing two-patch S^1 cover data, missing rule for allowed cocycles") is fully resolved at specification level. Fixture execution and outcome classification remain as the next action for a temporal-issuance agent.
+File: `explorations/n3-cech-fixture-specification-2026-06-23.md`
+
+---
+
+### vz1-oq3-gravitational-vz (2026-06-23)
+Verdict: EVADED
+Computed whether the Weyl tensor of the gimmel metric on Y^14 produces gravitational Velo-Zwanziger causality problems for the RS sector independent of gauge coupling (VZ1 OQ3). Three-leg reconstruction-grade argument: (1) the Clifford algebra identity c(xi)^2 = g_Y(xi,xi) Id_S is curvature-independent (algebraic, verified grade); the Weyl tensor W_{ABCD} enters D_GU only as a zero-order Weitzenbock term, never modifying the principal symbol sigma_1(D_GU)(xi) = c(xi); (2) the classical gravitational VZ mechanism requires a standalone RS field with an externally imposed subsidiary condition -- GU fails all three preconditions (standalone, external subsidiary, constraint differentiation chain); (3) the commutator [D_GU, Gamma^{14D}] is zero-order by metric compatibility, so the gamma-trace RS sub-bundle is preserved under propagation of singularities. The evasion root is identical to the gauge-coupling VZ evasion: both rely on the Clifford identity being insensitive to background curvature. 4D section pullback preserves evasion; the K3 Weyl tensor shifts the RS mass spectrum but not the characteristic cone. VZ1 OQ3 now EVADED (reconstruction); five explicit failure conditions stated (F1-F5). OQ-GVZ-1 (CAS commutator check) is the main remaining gate.
+File: `explorations/vz1-oq3-gravitational-vz-weyl-tensor-2026-06-23.md`
