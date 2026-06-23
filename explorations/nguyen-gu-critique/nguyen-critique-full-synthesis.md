@@ -179,9 +179,11 @@ In this setting the shiab operator Phi: Omega^2(Y^{14}) ⊗ S → Omega^1(Y^{14}
 
 Reference files: `explorations/n1-signature-audit-y14-clifford-algebra-2026-06-22.md`, `explorations/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`.
 
-### §3.2 (Anomaly pincer) — SUBSTANTIALLY ADDRESSED; one residual open
+### §3.2 (Anomaly pincer) — FULLY CLOSED (2026-06-22)
 
-**Status: SUBSTANTIALLY ADDRESSED (2026-06-22).** Reclassified from Column A ("Nguyen correct") to Column B ("Nguyen's argument valid in (7,7) but dissolves under correct (9,5) signature").
+**Status: FULLY CLOSED (2026-06-22).** Reclassified from "SUBSTANTIALLY ADDRESSED;
+one residual open" (prior status) to FULLY CLOSED. The residual IG dimension matching
+question (dim sp(64) = 8256 vs. 16384) is now resolved.
 
 **Sp(64) derivation summary.** In the (9,5) setting, the algebra Cl(9,5) ≅ M(64,H) is quaternionic. The natural automorphism group of the spinor module S = H^{64} as a quaternionic Hermitian space is the quaternionic unitary group:
 
@@ -195,9 +197,34 @@ Horn 1 dissolves: U(128) is not forced. The natural gauge group is Sp(64), which
 
 Horn 2 dissolves: Sp(64)'s fundamental representation is pseudoreal. The chiral anomaly coefficient n_L - n_R = 0 identically (pseudoreality pairs S^+ ⊗ V_fund and S^- ⊗ V_fund via the charge conjugation map). No perturbative gauge anomaly exists. There is also no global Z_2 gauge anomaly in 14D: by Bott periodicity, pi_{15}(Sp) = Z (not Z_2), so no Witten-type anomaly applies in 14D.
 
-**Residual open question (IG dimension matching).** The dissolution of the anomaly pincer does not guarantee the IG = Sp(64) ⋉ Omega^1(sp(64)) construction achieves the correct algebra-dimension structure for the shiab. Nguyen's §2 argument also used the dimension matching; in the (9,5) setting dim sp(64) = 8256, which differs from the 16384 that Nguyen identified as necessary. Whether the tau+ homomorphism selects a subgroup within the Sp(64) spinor automorphisms that resolves this gap — or whether the dimension 8256 is in fact the correct figure for the IG construction — requires separate verification. This is the specific residual form of Nguyen §2's objection.
+**IG dimension matching — RESOLVED (2026-06-22).** The prior residual open question
+(dim sp(64) = 8256 vs. desired 16384) is now resolved:
 
-Reference file: `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md`.
+- The tau+ homomorphism is purely group-theoretic and works for any Lie group G,
+  in particular for G = Sp(64). The construction requires only (a) G is a Lie group,
+  (b) the adjoint action Ad: G → GL(g) is well-defined, (c) the Maurer-Cartan form
+  g^{-1} d_A g ∈ Omega^1(Y^{14}, ad P) is well-defined. All three hold for Sp(64).
+
+- The 16384 = dim u(128) figure was a coincidence specific to the (7,7) setting where
+  dim_R Cl(7,7) = 128^2 = dim_R u(128) both equaled 2^{14}. In the (9,5) setting,
+  dim_R sp(64) = 8256 is the correct gauge algebra dimension. There is no physical
+  requirement that dim g = 2^{14}.
+
+- The shiab Phi: Omega^2(Y^{14}) ⊗ S → Omega^1(Y^{14}) ⊗ S depends on Cl(9,5)
+  and S = H^{64}, NOT on the gauge algebra sp(64). The shiab and gauge algebra
+  dimensions are independent — they live in disjoint vector bundles over Y^{14}.
+
+- The double coset construction theta(tau+(g_a) · omega · tau+(g_b)) = Ad(g_b)^{-1} theta(omega)
+  holds for G = Sp(64) by the same argument as for any G. Equivariance and divergence-free
+  properties survive.
+
+- dim g = 8256 is sufficient for the IG construction. The dark energy replacement term
+  d_A pi in Omega^1(Y^{14}, ad P) lives in the 8256-dimensional adjoint bundle fiber,
+  which is correct for G = Sp(64).
+
+Reference files: `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` (anomaly
+dissolution); `explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md` (IG
+dimension resolution, tau+ construction verification).
 
 ### Column A — Nguyen is correct (updated)
 
@@ -209,7 +236,7 @@ Reference file: `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md`.
 
 ### Column B — Nguyen may be missing something (updated 2026-06-22)
 
-**New entry (2026-06-22) — §3.2 anomaly pincer: Sp(64) vs U(128).** Nguyen's §2 anomaly argument requires U(128) as the gauge group, which is the natural group for Cl(7,7) ≅ M(128,R). In the correct (9,5) setting, the algebra is Cl(9,5) ≅ M(64,H) (quaternionic) and the natural gauge group is Sp(64) = U(64,H), not U(128). Sp(64) is simple (no U(1) center) and its fundamental representation is pseudoreal (no chiral anomaly). Both horns of Nguyen's §2 pincer dissolve under the correct signature. Residual: IG dimension matching (dim sp(64) = 8256 vs. desired 16384) is an open question that represents the specific surviving form of the objection. See §3.2 above.
+**Entry (2026-06-22, now FULLY CLOSED) — §3.2 anomaly pincer: Sp(64) vs U(128).** Nguyen's §2 anomaly argument requires U(128) as the gauge group, which is the natural group for Cl(7,7) ≅ M(128,R). In the correct (9,5) setting, the algebra is Cl(9,5) ≅ M(64,H) (quaternionic) and the natural gauge group is Sp(64) = U(64,H), not U(128). Sp(64) is simple (no U(1) center) and its fundamental representation is pseudoreal (no chiral anomaly). Both horns of Nguyen's §2 pincer dissolve under the correct signature. The prior residual (IG dimension matching, dim sp(64) = 8256 vs. 16384) is now resolved: the 16384 figure was a (7,7) coincidence; the tau+ construction is group-theoretic and works for any G; the shiab is independent of dim g; and the double coset equivariance holds for G = Sp(64). See §3.2 above and `explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md`.
 
 **New entry (2026-06-22) — §3.1 complexification: RESOLVED.** Nguyen's §3.1 complexification gap was valid in Euclidean/real-Clifford settings. In the correct (9,5)/quaternionic setting, H-linearity provides the needed real-linear equivariant map without complexification. See §3.1 above. This has graduated from Column B (missing something) to resolved.
 
@@ -278,7 +305,14 @@ The original load-bearing objection was the **pincer between §3.1 and §3.2:**
 
 §3.2 (anomaly): SUBSTANTIALLY ADDRESSED. The correct gauge group is Sp(64), not U(128). Sp(64) is simple (no U(1) center) with pseudoreal fundamental representation — no chiral anomaly, no Witten-type global anomaly in 14D. Retreating to Sp(64) from U(128) does NOT destroy the shiab: the Clifford contraction map exists and is Sp(64)-equivariant. See §3.2 above.
 
-**What the pincer becomes in (9,5):** The residual open question is not "Sp(64) vs Spin(14)" (both are anomaly-free, unlike U(128)). It is whether the IG = Sp(64) ⋉ Omega^1(sp(64)) construction achieves the correct algebra-dimension match for the shiab: dim sp(64) = 8256 vs. the 16384 that Nguyen required of U(128). This is the IG dimension matching problem — the specific surviving form of Nguyen's §2 objection.
+**The pincer is FULLY CLOSED in (9,5) (updated 2026-06-22):** The residual identified
+after the anomaly dissolution — IG dimension matching (dim sp(64) = 8256 vs. 16384) — is
+now resolved. The tau+ construction is purely group-theoretic and works for any G; the
+16384 figure was a (7,7) coincidence with no physical basis in the (9,5) setting; the
+shiab is independent of the gauge algebra dimension; and the double coset equivariance
+holds for G = Sp(64). Nguyen §2 is FULLY CLOSED.
+
+Reference: `explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md`.
 
 ---
 
