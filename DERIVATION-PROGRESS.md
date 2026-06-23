@@ -694,3 +694,24 @@ File: `explorations/signed-readout-oq1-record-graph-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Filled one complete six-axis candidate specification (substrate/observer/pairing/causal/emergence/loop) for the GU section-selection protocol where the L1-L2 coupling rule Gamma >= Gamma_min = ln(1/epsilon)/t_obs is the load-bearing constraint, discharging the final promotion gate for the fr2-bvn-layer5 coupling-rule candidacy. The candidate (GU-section-BvN-coupling) places Y^14 = Met(X^4) with quantum metric fluctuations at L1, a Snowball/metastable-consensus observer with decoherence rate Gamma and latency t_obs at L2, BvN-gated metastable-consensus pairing at L3 (carrying the coupling inequality), conditional Lorentzian causal order at L4, specific-object emergence at L5, and Tikhonov-Willmore gradient flow (Lambda = 8 epsilon^2 / t_obs^2) at L6; all six axes filled with class labels, specifications, literature anchors, and class-assumption signatures broken. Six explicit failure conditions and one first falsification test (quantum Willmore well-posedness) are stated; the coupling rule is admitted as an exploration-grade candidate for the six-axis Current Coupling Rules section. Remaining: quantum Willmore formulation (RC1), Lambda GU-first-principles derivation (RC2), P4 BvN universality (RC3), discrete-series generation count OQ3a-c (RC4).
 File: `explorations/six-axis-l1l2-coupling-filled-example-2026-06-23.md`
+
+---
+
+### sc1-oq2-ellipticity (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Determined the characteristic variety and ellipticity type of the rolled-up Dirac-DeRham complex D_GU on Y^14 with split-signature (9,5) gimmel metric. Main results: Char(D_GU) = null cone of g_Y on Y^14 (the quadric {xi : g_Y(xi,xi) = 0}); D_GU is NOT elliptic (null cone is non-empty in (9,5) signature) but IS of real principal type in null-cone directions (Hormander Th. 23.2.1 applies; Hamilton vector field of g_Y(xi,xi) is non-zero on the null cone, giving non-degenerate null bicharacteristic propagation). The shiab Phi is a zero-order operator and does not modify the principal symbol or characteristic variety. The generation count (ind_H = 24) is unobstructed -- the correct analytic framework is Atiyah-Schmid L2-theory on the non-compact fiber GL(4,R)/O(3,1), which does not require ellipticity of D_GU on Y^14. The result is consistent with the VZ evasion (characteristic cone of effective RS symbol = null cone, VERIFIED). Remaining open: OQ2-a (coordinate null-geodesic check in gimmel-metric coordinates), OQ2-b (symmetric-hyperbolic energy estimate on Y^14), OQ2-c (physical interpretation of null-polarized modes as gauge/physical degrees of freedom).
+File: `explorations/sc1-oq2-ellipticity-split-signature-2026-06-23.md`
+
+---
+
+### rc3-oq3-lorentzian-casimir (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Resolved the sign of the SO(1,3) Casimir correction in the mass formula m_RS^2 = 8/R_s^2 + Delta/R_s^2 via three independent arguments: (1) compact SO(3) subalgebra Casimir C_2(s=3/2) - C_2(s=1/2) = 15/4 - 3/4 = +3; (2) full sl(2,C) Casimir C_2 = 2(j(j+1)+jbar*(jbar+1)) gives Delta C_2 = 11/2 - 3/2 = +4 > 0 for the RS vs spin-1/2 finite-dimensional representations; (3) J^2 - K^2 = 2(A^2+B^2) >= 0 for all finite-dimensional representations, strictly larger for RS than spin-1/2. The Lorentzian sign convention does NOT reverse the correction: Delta m^2 is POSITIVE in all three analyses. The magnitude of the correction remains uncertain in the range [2, 4]/R_s^2 (the RC3 estimate +3/R_s^2 from the compact SO(3) Casimir is plausible but not yet exactly computed); the VZ evasion conclusion (both RS and spin-1/2 at the same KK scale) is robust across the entire range.
+File: `explorations/rc3-oq3-lorentzian-casimir-2026-06-23.md`
+
+---
+
+### cpa1-ambient-curv-y14 (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Computed the ambient curvature correction delta_curv = +4K on Met(S^4) by explicitly evaluating the Y^14 gimmel Riemann tensor tangential projection at the totally geodesic LC-section via three independent methods: (1) Simons/O'Neill fiber bundle formula; (2) normal-bundle curvature via the soldering map j_s giving V^{ij} R^{N_s}_{ij} = 4K * G^{TT}; (3) the Lichnerowicz Weitzenboeck identity Delta_L h = nabla^*nabla h + 4K h on TT modes of S^4, from -2 R_{iklj} h^{kl} + R_{ik} h^k_j + R_{jk} h^k_i = -2K h + 6K h = +4K h (exact on TT 2-tensors on S^n with constant curvature K). All three methods give delta_curv = +4K exactly. Combined with mu_{2,2} = 4/R^2 (rough Laplacian, exact), lambda_2^L = 8/R^2 is confirmed via the formula [l(l+n-1)-s(s+n-3)+2n-4]/R^2 at l=2,s=2,n=4. The CPA-1 main result Lambda_GU = lambda_max^2 is fully triangulated at reconstruction grade; remaining for verified: CAS coordinate Weitzenboeck check (OQ1) and direct delta^2 E computation from gimmel Christoffels (OQ2).
+File: `explorations/cpa1-ambient-curv-y14-2026-06-23.md`
