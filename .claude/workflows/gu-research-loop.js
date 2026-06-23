@@ -20,19 +20,26 @@ const state = await agent(
    2. Read: NEXT-STEPS.md (look for items NOT marked with ~~ strikethrough and NOT recently committed — check file dates in explorations/)
    3. Read: .claude/commands/gu-compute.md (this is the established mathematical context)
 
-   From the priority list below, select the 3 best next computations. Skip any whose output file already exists in explorations/ with a date from the last 48 hours (check via git log or ls explorations/).
+   DEDUPLICATION RULE (critical): Run `git log --oneline --since="6 hours ago"` and `ls explorations/` to get the list of files committed or created in the last 6 hours. Do NOT pick any item whose output file (by name pattern) already appears in that list — even if it is CONDITIONALLY_RESOLVED. Each item should only be worked on once per session unless its verdict is still OPEN (not CONDITIONALLY_RESOLVED or RESOLVED). Picks must be 3 DISTINCT items not already worked this session.
 
-   Priority list (in order):
-   1. discrete-series — Harish-Chandra discrete series: does dim_H(ker D_fib on GL(4,R)/O(3,1) with S(6,4)) = 24? Gates generation count to RESOLVED. Output: explorations/n5-discrete-series-gl4r-{date}.md
-   2. vz-schur — Schur complement symbol D_RS_eff = D_RS_RS - D_RS_12(D_12_12)^{-1}D_12_RS via Spin(9,5) Clifford reps. If principal symbol = g(xi,xi)*Id_RS, VZ evaded. Output: explorations/vz-schur-complement-{date}.md
-   3. ii-s-explicit — Compute II_s (second fundamental form) of tautological section s(x)=(x,g_s(x)) using moving frames on X^4. Prereq for codazzi-sp64. Output: explorations/ii-s-moving-frames-{date}.md
-   4. codazzi-sp64 — Full Codazzi equation for Sp(64) bundle over s(X^4) in Y^14. Only if ii-s-explicit already done. Output: explorations/codazzi-sp64-{date}.md
-   5. cpa1-tobs — Coefficient in Lambda ~ eps^2/t_obs^2 vs TaF lambda_max = 1/t_obs. First quantitative cross-program contact. Output: explorations/cpa1-tobs-coefficient-{date}.md
-   6. hc1-sl2c — SL(2,C) labels for hidden curvature H^(1,2,3) via Bianchi-map spinor computation. Output: explorations/hc1-sl2c-bianchi-spinor-{date}.md
-   7. sc1-shiab-domain — Confirm shiab Omega^2(Y^14)@S -> Omega^1(Y^14)@S vs Harvey + Lawson-Michelsohn for (9,5) setting. Output: explorations/sc1-shiab-domain-codomain-{date}.md
+   Current known state (as of 2026-06-23, after 10 autonomous loop passes):
+   RESOLVED: sc1-shiab-domain-codomain, vz-schur-complement (EVADED)
+   CONDITIONALLY_RESOLVED (do not re-pick unless new sub-problem named): codazzi-sp64, codazzi-general, cpa1-tobs, hc1-sl2c, ic1-soldering-map, ic2-positivity, ic3-nonlinear-conservation, ic4-lagrangian-tmunu, ii-s-moving-frames, ind-top-eta-s3-aps, ind-top-x4-atiyah-singer, n5-discrete-series-gl4r, oq3a-gu-variational-k3, pc1-spin77, vz-oq1, vz-oq2, vz-subprincipal
+   OPEN (eligible for re-pick): anything in NEXT-STEPS.md not in the above lists
+
+   Priority list for genuinely new work (in order):
+   1. plancherel-mult — Compute the Weyl-group orbit count for S(6,4)|_{SO_0(3,1)} = 4xD(1/2,0) + 4xD(0,1/2) in the Flensted-Jensen discrete decomposition of L^2(SL(4,R)/SO_0(3,1)). Verify each orbit contributes one discrete summand with the right H-type, giving m_H = 24. This is the LAST gate for the generation count. Output: explorations/n5-plancherel-multiplicity-2026-06-23.md
+   2. vz-f5-curvature — Verify that lower-order curvature terms in the curved Sp(64) bundle do not reintroduce VZ acausality after the principal-symbol evasion (VZ failure condition F5). Uses sub-principal symbol from vz-subprincipal file. Output: explorations/vz-f5-curvature-check-2026-06-23.md
+   3. rfail-umbilic — Show that totally umbilic critical sections of E[s]=int|II_s|^2 satisfy R_fail=0 in vacuum (or identify the obstruction). Uses Codazzi and Gauss equations already derived. Output: explorations/rfail-umbilic-sections-2026-06-23.md
+   4. weyl-group-24 — Explicit Weyl group S_4 orbit enumeration for the Casimir condition pi(C_sl4r) = 3/4 on D(1/2,0) H-types in L^2(SL(4,R)x_{SO_0(3,1)}S(6,4)). Independent route to m_H=24. Output: explorations/weyl-group-s4-orbit-2026-06-23.md
+   5. vz-4d-eft — Analyze the 4D EFT limit (VZ failure condition F6): does a KK-type mass scale separate the RS sector into an approximately standalone field? Use the section-pullback Codazzi correction to estimate the RS/spin-1/2 mixing gap. Output: explorations/vz-f6-eft-decoupling-2026-06-23.md
+   6. cpa1-omega — Identify the Omega-constant tuning required for the CPA-1 coefficient match between GU Tikhonov Lambda~eps^2/t_obs^2 and TaF FR2 lambda_max=1/t_obs. What physical model produces exact equality? Output: explorations/cpa1-omega-tuning-2026-06-23.md
+   7. n3-discharge — Discharge or record H3: the Cech-H^1 <-> holonomy dictionary in time-as-finality (tests/T63) is conditional on H3; run the cech_sheaf_fixture in temporal-issuance (E015 route). Output: explorations/n3-h3-cech-holonomy-2026-06-23.md
+
+   If all 7 are already done: read NEXT-STEPS.md for any other OPEN items and propose genuinely new bounded computations.
 
    Return a JSON array of exactly 3 objects, each with:
-   { "label": "discrete-series", "outputFile": "explorations/n5-discrete-series-gl4r-2026-06-23.md", "problem": "one sentence description of what to compute" }
+   { "label": "plancherel-mult", "outputFile": "explorations/n5-plancherel-multiplicity-2026-06-23.md", "problem": "one sentence description of what to compute" }
 
    Today's date is 2026-06-23.`,
   {
