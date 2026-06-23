@@ -956,6 +956,25 @@ File: `explorations/oc2-h-linear-fredholm-y14-2026-06-23.md`
 
 ---
 
+### type-ii1-semifinite-triple (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Constructed an explicit semifinite spectral triple (R, L^2(R,tau), D_M, J_tau, gamma_M) for
+the Type II_1 approach to SM matter content. Key results: (1) M = hyperfinite II_1 factor R
+is the canonical algebra; (2) D_M = D_F on the SM sector p_F H (copy of C^96) extended by
+n*Q_n (geometric tau-weight 2^{-n}) on the complement, with tau-compact resolvent confirmed
+by convergence of sum_n 2^{-n}/(n^2+1); (3) J_tau = Tomita-Takesaki modular conjugation of
+(R, tau) has J_tau^2 = +1 exactly (from J_tau(a) = a* in GNS representation), giving KO-dim 6
+with sign triple (+1,+1,-1) -- the failure condition (no Type II_1 triple can achieve KO-dim 6)
+does NOT fire; (4) SM fermion content (16 Weyl per generation, 3 by hand) and SM gauge group
+SU(3)xSU(2)xU(1)/Z_6 both recovered from the A_F layer inside R; (5) spectral action recovers
+the CC result as the dominant term. Critical structural gap: GU quaternionic J (J^2=-1) and
+modular J_tau (J^2=+1) are different operators -- GU/Type-II_1 contact requires a new real
+structure not present in the current GU construction. Remaining: GC1-GC3 embedding/independence
+gates; OQ-B (subfactor explanation of 3 generations).
+File: `explorations/type-ii1-semifinite-triple-2026-06-23.md`
+
+---
+
 ### oc1-noncompact-atiyah-jannich (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
 Established that gate OC1 (non-compact Atiyah-Jannich for D_GU) is resolved along Path A: D_GU is Fredholm on the discrete-series sector L^2_disc(Y^14, H^64) via the Atiyah-Schmid / Flensted-Jensen spectral-gap mechanism. The essential points: (1) standard L^2 Fredholmness fails for two independent reasons (non-compactness + non-ellipticity), so the correct domain is the discrete summand, not the full L^2; (2) the discrete-series sector has a spectral gap of 8/R_s^2 from zero (from the RC3 delta-N spectrum and Harish-Chandra c-function, CONDITIONALLY_RESOLVED), giving closed range on L^2_disc; (3) the discrete-series vectors decay exponentially at the non-compact end of GL(4,R)/O(3,1), so zero is not in the essential spectrum of D_GU|_{L^2_disc}; (4) ind_H = 24 follows from the Atiyah-Schmid formal-degree sum (n5-discrete-series §18); (5) the spectral gap is A-independent (Flensted-Jensen symmetric-space determination, oq2d-gu-contact). The failure condition -- "D_GU is genuinely non-Fredholm with no natural completion" -- does not hold; the discrete sector provides the canonical Fredholm completion. Primary gate to RESOLVED: OQ-weyl-3 (root-wall Plancherel non-degeneracy for lambda_RS at the <e_2-e_3, lambda_RS>=0 wall). Secondary gates: tau-rank-correction=2 (Kobayashi-Oda/Oshima reference); explicit b-calculus/scattering-calculus parametrix for D_GU on the weighted Sobolev scale W^{1,2}_delta with delta in (-rho, 0).
@@ -981,3 +1000,9 @@ File: `explorations/taf-h3-c3-spacelike-overlap-2026-06-23.md`
 Verdict: OPEN
 Analyzed three candidate non-forgettable observer data for Freed-Hopkins enriched bordism: (1) eta-invariant (mod-2 bordism-invariant but derived from flat bundle on observer line -- relabeling as defect data); (2) pin^+/pin^- structure (nontrivial in Omega_1^{Pin^-}=Z/2Z but is tangential structure within the Freed-Hopkins xi input -- relabeling); (3) Maslov index (requires symplectic background on the ambient bordism -- ordinary background field data). A structural no-go was identified: by Brown representability, any bordism-invariant observer datum either factors through the underlying-bordism forgetful functor or is classified as tangential-structure/background enrichment within the standard Freed-Hopkins paradigm. No non-forgettable observer datum was found for the GU observer geometries (worldlines in Y^14 with Sp(64) gauge data and spinor structure S=H^64). Lane remains OPEN only via Option B: a noncontractible observer-state space X_obs with a non-extendable Fredholm family in KSp^0(X_obs). The observer-pairing Freed-Hopkins enrichment adds no new anomaly structure for any of the three candidate observer data analyzed.
 File: `explorations/freed-hopkins-nonforgettable-observer-2026-06-23.md`
+---
+
+### taf-h3-c1-type-bridge (2026-06-23)
+Verdict: RESOLVED
+Established closure condition C1 (type-bridge) for TaF H3: Z/2Z lattice gauge data on a record poset P is isomorphic to the TaF finality presheaf over the same base poset. The finality presheaf F with F(U_r) ~= Z/2Z (binary finality sign per upper set) is isomorphic to the constant sheaf Z/2Z; the Cech 1-cocycle condition for Z/2Z gauge data (product of transition functions = +1 on triple overlaps) is identical to the presheaf gluing condition (local finality sections agree on overlaps). Therefore H^1(P, Z/2Z_gauge) ~= H^1(P, F_finality) canonically. The failure condition (gauge data on edges, finality on vertices, incompatible structures) does NOT apply: edge data is the derived difference of vertex-indexed local sections in both formulations. Four explicit failure conditions stated (FC1-FC4). With C3 already RESOLVED, H3 now has one remaining gate: C2 (cech_sheaf_fixture execution in temporal-issuance).
+File: `explorations/taf-h3-c1-type-bridge-2026-06-23.md`
