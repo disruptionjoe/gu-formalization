@@ -90,6 +90,38 @@ All four FR tasks are resolved. Synthesis: `explorations/time-as-finality-crossw
 
 ---
 
+## 4D Reduction Steelman Pass (2026-06-22)
+
+A 62-persona W007 steelman-Hegelian pass over the section pullback mechanism was completed at `explorations/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md`. All outputs are exploration-grade.
+
+**Core question steelmanned:** Does s: X^4 -> Y^14 provide a complete mechanism for 4D physics (gravity via Gauss-Codazzi, matter via spinor branching, gauge fields via pullback, dark energy via II_s)?
+
+**Key findings:**
+
+| finding | status | source |
+|---|---|---|
+| Euler-Lagrange critical section as canonical section selector | NOVEL -- new mathematical object | P01, P03 |
+| Right Kan extension as terminal section | NOVEL -- universal property formulation | P02 |
+| Willmore-type section energy E[s] = integral |II_s|^2 | NOVEL -- selects preferred sections via critical-point equation | P03 |
+| Tikhonov-regularized section: Lambda ~ epsilon^2/t_obs^2 | NOVEL CROSS-PROGRAM-ACTIONABLE | P62 |
+| Index theorem: index(D_{s*}) = 3 as topological generation count | tractable test (Atiyah-Singer on X^4) | P47 |
+| OQ-2 (explicit II_s coordinates) is the single most tractable and highest-leverage open question | confirmed by OQ dependency analysis | P51 |
+| Lambda ~ 1/t_obs^2 appears independently in GU (Tikhonov) and TaF (FR2) | GENUINE CROSS-PROGRAM MATHEMATICAL CONTACT | P62 + FR2 |
+
+**Top research improvements from the pass:**
+
+1. **Immediate -- Compute II_s in coordinates.** Write s(x^mu) = (x^mu, g_mu_nu(x)), compute the second fundamental form using moving frames on S^4, and derive the explicit Christoffel-symbol formula for the gimmel metric. This unblocks OQ-2, OQ-3, OQ-5, and CPA-2.
+
+2. **Immediate -- OQ-6 via variational Bayes.** Write the observer-section identification O_i <-> s_i formally as a fixed point of the variational Bayes update q(s | data) -> s*; compute the posterior variance (Laplace approximation); identify d_obs with the section energy Hessian spectral gap.
+
+3. **Next-run -- Codazzi equation for Sp(64) bundle (OQ-1).** Compute the curvature of Y^14 = X^4 x_{rho} Sp(64) (associated bundle) and derive the Gauss-Codazzi-Ricci equations for the tautological section in those coordinates. This is the single blocking computation for OQ-3 (Einstein equations).
+
+4. **Cross-program (ACTIONABLE) -- CPA-1: Lambda coefficient.** Compute the Tikhonov regularization parameter lambda*(t_obs, epsilon) for section selection on S^4 (compactified X^4) and compare against the TaF lambda_max = c/t_obs^2 coefficient. A match would be the first quantitative cross-program contact point.
+
+**What to avoid:** perverse sheaf constructions (require algebraic variety structure not established), sofic-shift torsion approach (P17 -- too speculative), string-theory compactification analogies (absorbed by known frameworks). Do not pursue OQ-5 before OQ-1 and OQ-2 are closed.
+
+---
+
 ## Positive GU Constructions Lane (2026-06-22)
 
 A new exploration lane was opened by `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md`. This lane targets positive derivations and theorem-grade reconstructions of specific GU constructions, complementing the existing diagnostic / no-go-evasion program. All targets are exploration-grade; none are active_research or canon without meeting the promotion criteria.
