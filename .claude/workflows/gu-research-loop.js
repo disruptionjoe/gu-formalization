@@ -157,6 +157,11 @@ const plan = await agent(
    unless a NEW sub-problem has been named, not already done today).
    Prefer items with: high publish potential, clear failure conditions, blocking other work.
    Apply calibration from Step 0: avoid problem areas that keep producing overreach.
+   OVERREACH COOL-DOWN: Extract the item labels listed in the most recent 2 log entries.
+   Any label that appears in both of the last 2 entries (i.e., has been worked two consecutive
+   sessions without reaching RESOLVED) is on a ONE-SESSION COOL-DOWN — do not re-pick it unless
+   it is the only remaining OPEN item in its dependency chain. List the cooled-down labels in
+   calibrationNotes so the next Orient pass can enforce the same gate.
 
    STEP 5 — Plan dependency-aware batches:
    Organize the 10 items into 2-3 batches:
@@ -196,11 +201,18 @@ async function runBatch(batch, phaseName) {
          INSTRUCTIONS:
          1. Attempt the computation ambitiously — aim for reconstruction grade or better, not a plan.
          2. Verdict discipline:
-            - RESOLVED: complete proof present, all steps verifiable
+            - RESOLVED: complete proof present, all steps verifiable. BLOCKED if: (a) you used the
+              word "reconstruction" anywhere in the file, (b) any step is labeled "need to recheck"
+              or "need to check", or (c) you explicitly named an internal contradiction anywhere in
+              the file. Any of these conditions forces the verdict to CONDITIONALLY_RESOLVED at best.
             - CONDITIONALLY_RESOLVED: name at least 3 explicit failure conditions (specific mathematical statements that would falsify the result)
             - OPEN: problem framed but not solved
             - EVADED: problem shown not to arise in this context
             - GENUINE_OBSTRUCTION: proved the thing fails, not just can't prove it works
+            Before writing the frontmatter verdict, do a self-check: search your draft for the
+            words "reconstruction", "need to recheck", "need to check", and any sentence of the
+            form "X gives Y and Z, not W" (explicit contradiction). If any match, set verdict to
+            CONDITIONALLY_RESOLVED or OPEN and document which trigger fired.
          3. Write output to ${pick.outputFile} with frontmatter:
             ---
             title: "<descriptive title>"

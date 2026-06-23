@@ -1,4 +1,4 @@
----
+﻿---
 title: "Residue-to-Physics Derivation Program"
 started: 2026-06-22
 status: in_progress
@@ -238,6 +238,8 @@ Layer 3 result feeds Phase 2 interpretation regardless of Layers 1-2 outcome.
 | 2026-06-23 | **CORRECTION DARK-ENERGY-01 (MO-03): Dark energy theta divergence-free verdict downgraded from RESOLVED to CONDITIONALLY_RESOLVED.** The canon file `canon/dark-energy-theta-divergence-free.md` carried verdict RESOLVED based on the C3/Noether path. Review found the central claim D_A* theta = 0 rests on Assumption 3 (structural identification: theta is the gauge-potential sector of E_A), which is explicitly labeled reconstruction grade and is not proved. The C3 Noether argument is structurally sound but conditional on Assumption 3. The C1+C2 alternative path (gimmel G-invariance) is explicitly acknowledged as open. Neither path is complete. Changes applied: (a) frontmatter verdict changed from RESOLVED to CONDITIONALLY_RESOLVED; (b) correction field added to frontmatter; (c) Step 4 header updated from COMPLETE to CONDITIONALLY COMPLETE; (d) Step 4 opening sentence clarified as conditional on Assumption 3; (e) Assumption 3 block expanded with explicit statement that it is unproved and load-bearing; (f) Known Failure Modes expanded from 3 to 5 named failure modes (F1–F5), with F2 explicitly stating neither path is complete; (g) Upgrade Conditions section added with two conditions for upgrade to RESOLVED; (h) CANON.md entry updated; (i) RESEARCH-STATUS.md current research map entry updated. |
 | 2026-06-23 | **NOTE MO-07 (OC2 Gate A1 — P_disc target unanswered): No verdict change; three failure conditions added (FC7-FC9).** The file `explorations/oc2-sobolev-a1-bounded-transform-2026-06-23.md` carried verdict CONDITIONALLY_RESOLVED with FC1-FC6, but did not address the fundamental question: what is P_disc projecting onto when SL(4,R) has no scalar discrete series (Harish-Chandra criterion fails: rank(G) = 3 ≠ rank(K) = 2)? In the non-compact Y^14 setting, the scalar sector of D_GU on SL(4,R)/SO_0(3,1) has no L^2 discrete spectrum; the three framework candidates (b-calculus, scattering, Melrose-Piazza) each supply conditional boundedness but none verify that a non-trivial discrete sector exists on the non-compact fiber. Changes applied: (a) Priority note added to §1 (before Problem Statement) naming the unanswered question and routing clarification that Gate A1 is only operative for the secondary non-compact Y^14 analytic program — the primary APS/K3 route bypasses A1 by working on the compact K3 factor; (b) Three additional failure conditions added to §8: FC7 (scalar P_disc has empty target on non-compact fiber — no discrete series for SL(4,R)), FC8 (tau-twist S(6,4) fails to generate discrete L^2 spectrum on A3 fiber, collapsing the non-compact Y^14 analytic program onto the APS/K3 route), FC9 (Gate A1 is non-load-bearing because APS/K3 route is primary, making CONDITIONALLY_RESOLVED a mislabeled priority weight rather than a false verdict). Verdict CONDITIONALLY_RESOLVED is retained — the frameworks do supply conditional boundedness — but the file now makes explicit that this is secondary to the APS/K3 route and that the P_disc target question is open. |
 | 2026-06-23 | **CORRECTION VZ-01 (critical): VZ 14D mixed-covector status downgraded from EVADED to CONDITIONALLY_EVADED.** The §4 argument in `explorations/vz-14d-mixed-covectors-2026-06-23.md` uses `E^{-1}` without proving E invertible. The `det(M) = det(E)*det(S_R)` identity is a consequence of E being invertible, not a proof of it -- using it to conclude `det(E) != 0` is circular. If E has a null vector for some xi with `xi2 != 0`, the Schur block fails before the kernel argument. Changes applied: frontmatter `vz_evasion_status` changed to `CONDITIONALLY_EVADED` and correction field added; §4 invertibility remark replaced with explicit precondition-failure analysis; §7 table mixed-covector and E-block rows updated; §7 overall verdict updated; §9 rewritten with open precondition. The 4D pullback (OQ3-V1/V2/V3, VERIFIED) and the Clifford non-decoupling argument are unaffected. Open precondition: prove `E(xi): Q -> Q` has trivial kernel for all xi with `g_Y(xi,xi) != 0` by direct Cl(9,5) computation. |
+| 2026-06-23 | **dark-energy-c1-c2-path-gimmel-ginvariance — C1+C2 path attempted for D_A* theta = 0. Verdict: OPEN.** C1 (gimmel G-invariance) ESTABLISHES at reconstruction grade: G = Sp(64) acts trivially on Y^14 as a base manifold, so g_gimmel is automatically G-invariant; L^2 inner product on Omega^1(Y^14, ad P) is G-invariant by Ad-invariance of the Killing form. C2 (Noether's first theorem yields D_A* theta = 0) FAILS: the blocking condition is that to derive D_A* theta = 0 from global G-symmetry + Noether's first theorem, one must identify theta as the Noether current J ~ D_A* F_A, which requires the structural identification theta = D_A* F_A. This is Assumption 3 from the C3 path restated at a different level; the C1+C2 route does not avoid it. F5 (gimmel G-invariance not independently established) is discharged by C1. Dark-energy canon verdict not upgraded. File: `explorations/dark-energy-c1-c2-path-gimmel-ginvariance-2026-06-23.md`. |
+| 2026-06-23 | **CORRECTION DARK-ENERGY-C1C2-01: Equivariance proof-status and Noether theorem errors in `dark-energy-c1-c2-path-gimmel-ginvariance-2026-06-23.md` corrected.** Two errors fixed. (1) Section 2 ('Established Context') labeled the equivariance result as 'PROVED, prior explorations.' This overstates the chain: the prior exploration files are reconstruction grade, with no coordinate-level derivation from a written GU action. The label has been changed to 'reconstruction grade, prior explorations' with an explicit note that treating it as PROVED would overstate the derivation chain. (2) The file correctly identifies at line 200 that the right theorem for deriving D_A* E_A = 0 from gauge invariance is Noether's SECOND theorem, not first. However, the original C1+C2 path description in the canon file implicitly invoked Noether's first theorem (global symmetry → on-shell conserved current), which is the wrong theorem for this purpose. This is a canon-level error in the original path description. A new failure mode F6 has been added to `canon/dark-energy-theta-divergence-free.md` logging this as a canon-level error: the C1+C2 path using Noether's first theorem cannot derive D_A* theta = 0 without Assumption 3; the C1+C2 path using Noether's second theorem collapses into the C3 path; there is no C1+C2 path that is both correct and independent of C3. No verdict change to the canon file (remains CONDITIONALLY_RESOLVED); the OPEN verdict in the exploration file is correct and unchanged. |
 | 2026-06-23 | **CORRECTION H3-01 (MO-04): h3-gap2-gu-universality frontmatter verdict corrected from OPEN to PARTIAL.** The single `verdict: OPEN` in the frontmatter of `explorations/h3-gap2-gu-universality-2026-06-23.md` obscured meaningful partial resolution already recorded in the §6 summary table and §9 body verdict of the same file. The file body (§5.2 and §9) already records a CONDITIONALLY_RESOLVED verdict for Q-NAC and Q-SBP (equivariant splits), alongside FAILS-as-stated for Q-SBP (all splits) and OPEN for Q-SBP (SM-charge/Pati-Salam settings). The single frontmatter OPEN did not capture this structure. Fix applied: frontmatter `verdict` changed from `OPEN` to `PARTIAL`; `verdict_detail` block added enumerating four sub-condition verdicts; `corrections` block added recording H3-01 date and summary. Sub-condition verdicts: (1) Q-NAC: CONDITIONALLY_RESOLVED (reconstruction) -- GU null-cone causal structure forces NAC via null-cone-bounded propagation, conditional on VZ evasion + APS/Fredholm on K3. (2) Q-SBP all settings: FAILS as stated -- product-state non-equivariant bipartite split yields CHSH <= 2; full universality refuted. (3) Q-SBP Sp(64)-equivariant splits: CONDITIONALLY_RESOLVED (reconstruction) -- Sp(64) irreducibility of H^64 rules out any Sp(64)-equivariant bipartite split of H^64. (4) Q-SBP SM-charge (Pati-Salam) settings: OPEN -- G_PS acts reducibly on S(6,4) = C^16 (a subspace of H^64); Sp(64) irreducibility does not transfer to the restricted G_PS action; whether G_PS-equivariant product-state decompositions of S(6,4) exist is an open computation (OQ-G2-1). The §5.2 correction in the body (withdrawal of SM-charge equivariant Q-SBP claim) is now consistently reflected in the frontmatter. |
 
 ---
@@ -1346,6 +1348,13 @@ File: `explorations/generation-count-rank3-resolution-2026-06-23.md`
 
 ---
 
+### oq-kk1a-cas-norm-fiber-wavefunction (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Computed explicit L^2 norm bounds for the RS fiber wavefunction phi_RS(r) ~ N_RS * e^{-6r} on the BC_1 radial fiber using the Jacobi function profile at spectral parameter nu_1 = 3/2, decay rate rho + nu_1 = 6. Infinity tail bound: I_tail <= 16 e^{-3}/3 ~ 0.266 (explicit computable constant, from |F_1(r)| <= 2 e^{-6r} for r >= 1 and (sinh r)^8 cosh r <= e^{9r}). Origin bound: I_0 <= 4096 F_1(0)^2 / 9 < infty from regularity of F_1 at r = 0. Normalization N_RS != 0: the formal degree d_1 = |Res_{nu=3/2} c(i nu)^{-1}|^2 / (2pi^2) > 0 from the simple pole of Gamma(-nu+1/2) at nu = 3/2 (residue = -1/(nu - 3/2)), giving N_RS = (2pi^2 d_1)^{1/2} > 0. The GU source convention does NOT force N_RS -> 0: the simple pole mechanism prevents this. G2a gate CLOSED at reconstruction grade with explicit bounds. Primary remaining structural gate: FC3 (BC_1 model validity for GL(4,R)/O(3,1) under sigma_B; A_3 root system from rc1-root-mult-disambiguation requires a direct tau-twisted discrete-series framework to replace BC_1).
+File: `explorations/oq-kk1a-cas-norm-fiber-wavefunction-2026-06-23.md`
+
+---
+
 ### cross-program-gu-taf-coefficient (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
 Completed the GU/TaF Tikhonov coefficient comparison using the Willmore-EL Lichnerowicz eigenvalue. Part A: C_GU = 8 from the Simons-formula Hessian of E[s] = int|II_s^H|^2 at round S^4: rough Laplacian on TT 2-tensors at l=2 gives mu_{2,2} = 4/R^2 (exact from SO(5) Casimir); ambient Willmore curvature correction +4K = +4/R^2 (Simons formula, reconstruction grade); total lambda_2 = 8/R^2; C_GU = 8 (algebraically exact given the formula [l(l+n-1)-2]/R^2 at l=2, n=4). Part B: Lambda_GU = lambda_max^2 exactly under the null-ray shot-noise model (epsilon_sec = 1/(2*sqrt(2)) = 1/sqrt(8) for n=4), via the algebraic identity C_GU(n) * epsilon_sec(n)^2 = 2n * 1/(2n) = 1 for all n >= 2. Lambda_GU does NOT match Gamma_min^2 generically; Gamma_min^2 = ln(1/epsilon)^2 * lambda_max^2 exceeds lambda_max^2 by the decoherence-tolerance factor ln(1/epsilon)^2. The clean contact is Lambda_GU = lambda_max^2 (service-rate squared), not Gamma_min^2 (decoherence-rate squared). Part C: B1 CONDITIONALLY_RESOLVED (null-ray shot-noise fixes epsilon_sec from n=dim(X^4), no free parameter, but model not derived from GU first principles); B2 VERIFIED algebraically (C_GU * epsilon_sec^2 = 8 * 1/8 = 1 exact); B3 CONDITIONALLY_RESOLVED (GU measurement-event and TaF record-finalization align under local-observer interpretation with t_obs = R/c). Key structural finding from theta-field result: the same coefficient 8 appears as C_GU (Tikhonov scale), M_KK^2 = 8/R_s^2 (KK mass gap from fiber normal Laplacian), and lambda_2 = 8/R^2 (Lichnerowicz eigenvalue) -- all three are the same geometric fact. Remaining gaps: ambient curvature correction +4K needs CAS verification; null-ray model needs GU-internal derivation; B3 t_obs alignment needs formal proof.
@@ -1626,3 +1635,155 @@ on the ambient adj(Sp(64)) fiber.
 **The representation-theoretic necessary condition (1,2,+1/2) in adj(Sp(64)) is satisfied
 and stands.** The gate requires the additional step of a section-specific computation showing
 nonzero (1,2,+1/2) projection for a GU Willmore-critical section.
+
+---
+
+### vz-oq-cas-e-block-inverse-matrix (2026-06-23)
+Verdict: RESOLVED (E^{-1} arithmetic only) — vz-14d-mixed-covectors upgrade DEFERRED_VERIFICATION
+Explicit 2x2 block matrix computation of both E * E^{-1} and E^{-1} * E, using E = [[0,(1/14)G],[(1/14)G,(13/98)G]] and the asserted E^{-1} = [[-(26/xi^2)G,(14/xi^2)G],[(14/xi^2)G,0]], where G^2 = xi^2 * Id. All four entries of both products verified by exact arithmetic: M_{11} = M_{22} = N_{11} = N_{22} = Id (each equals (1/xi^2) G^2 = Id); M_{12} = M_{21} = N_{12} = N_{21} = 0 (M_{21} and N_{12} via the cancellation -13/7 + 13/7 = 0, exact since 26*7 = 182 = 13*14). The E^{-1} formula is arithmetically correct and all three CR-04 failure conditions (FC1/FC2/FC3) are arithmetically discharged; OQ-CAS-E is closed at the arithmetic level.
+
+**SAME-SESSION BLOCK (VZ-E-BLOCK-SAME-SESSION, 2026-06-23):** The upgrade of vz-14d-mixed-covectors from CONDITIONALLY_EVADED to EVADED claimed in the original §8 of the exploration file is blocked. Circularity flag VZ-01 / CORRECTION CR-04 was raised in this session, and the present file also belongs to this session. A different file in the same session is still intra-session; the same-session self-resolution check blocks the circularity-flag closure. The RESOLVED verdict stands for the E^{-1} formula itself (correct arithmetic). The vz-14d-mixed-covectors status remains CONDITIONALLY_EVADED. Upgrade to EVADED requires inter-session or external verification of the E-block computation. Status of that upgrade: DEFERRED_VERIFICATION.
+File: `explorations/vz-oq-cas-e-block-inverse-matrix-2026-06-23.md`
+
+---
+
+### pc5-higgs-cas-clebsch-gordan (2026-06-23)
+Verdict: RESOLVED
+Resolved OQ1 from pc5-higgs-su2l-u1y-gate: the explicit Clebsch-Gordan decomposition of adj(Sp(16))|_{G_PS} under G_PS = SU(4) x SU(2)_L x SU(2)_R. Using the identification adj(Sp(16)) = Sym^2_C(C^{16}) and the Pati-Salam splitting V = V_L + V_R = (4,2,1) + (4bar,1,2), the symmetric square decomposes as Sym^2(V_L) + V_L tensor V_R + Sym^2(V_R) = [(10,3,1) + (6,1,1)] + [(1,2,2) + (15,2,2)] + [(10bar,1,3) + (6,1,1)]; total dimension 30+6+4+60+30+6 = 136 = dim(sp(16)). The (1,2,2) representation appears with multiplicity exactly 1, arising uniquely from the SU(4) singlet in 4 tensor 4bar = 1 + 15 in the cross term V_L tensor V_R. The (1,2,2) then branches to (1,2,+1/2) + (1,2,-1/2) under G_PS -> G_SM with Y = T_{3R} = +1/2 (B-L = 0 for the SU(4) trace singlet). The Higgs emergence gate OQ1 is confirmed at reconstruction grade; upgrade to verified requires CAS computation in LiE or SageMath. Primary remaining gate (F0 from the parent file): whether the specific II_s^H of a GU Willmore-critical section has nonzero (1,2,+1/2) projection -- a section-specific computation not addressed here.
+File: `explorations/pc5-higgs-cas-clebsch-gordan-2026-06-23.md`
+
+---
+
+### oq-rk2-aps-fc3-fc4-closure (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+FC3 closed at reconstruction grade: sigma = c(e_1)c(e_2)c(e_3)c(e_4) anticommutes with each c(e^mu) in Cl(4,0), so sigma maps ker(Gamma^{4D}) to itself, giving Pi_RS sigma = sigma Pi_RS and completing the eta(A_RS) = 0 spectral-symmetry argument from the parent APS file. FC4 remains open: the Weyl-module decomposition gives fiber rank_H(S_RS^+(x)) = 24 (non-circularly, from Spin(4)-representation content (1/2,1) tensored with S(6,4)^pm), but the reduction to the effective APS rank 4 requires computing int_{K3} A-hat * ch_H(S_RS^+) via the SU(2) holonomy decomposition of S_RS^+ on the Yau-Calabi K3, which is an open computation. The overall OQ-RK2 / OQ3b verdict remains CONDITIONALLY_RESOLVED.
+File: `explorations/oq-rk2-aps-fc3-fc4-closure-2026-06-23.md`
+
+**Correction note (2026-06-23, OQ-RK2-FC4-CIRCULAR-STILL):** Two structural problems flagged. (1) The RS index formula application in Section 4.5 produced five failed numeric attempts (-64, 80, -800, -256, -288), none matching the target ind_C = 16. The intermediate claim "ind_H(D_RS) = 8 from the Gibbons-Pope formula" uses a specific formula version stated without citation verification and is contradicted by all five subsequent numeric checks in the same section. This result must NOT be cited as evidence for ind_H(D_RS) = 8 without identifying which Gibbons-Pope formula version is correct; marked UNVERIFIED in the file body. (2) The Weyl-module rank 24 (Section 4.3) contradicts the oq-rk1 value of 96 for the RS fiber rank; the 96 has not been formally retracted. FC4-D added to the file: if 24 is correct, oq-rk1 claims based on 96 must be revisited; if 96 is correct, the Weyl-module argument contains an error. OQ-FC4-5 added (rank 24 vs 96 reconciliation) and OQ-FC4-6 added (identify correct Gibbons-Pope formula version with chi=24, sigma=-16, rank=16).
+
+---
+
+### sc1-oq1a-d7-clebsch-gordan-cas (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+CORRECTION SC1-OQ1A-VERDICT-OVERSTATED (2026-06-23): verdict downgraded from RESOLVED to CONDITIONALLY_RESOLVED. The chirality-parity argument (algebraic, exact) correctly excludes V(omega_7) and V(omega_1+omega_7) from Lambda^2 tensor Delta^+ at verified grade. However: (1) the irreducibility of ker(c) in Section 3.3 Step 3 is reconstruction grade only, as the file itself acknowledges -- a formal proof requires the D_7 branching law or a LiE weight computation (FC-IRR); (2) the multiplicity-1 claim for V(omega_6) in V(omega_2) tensor V(omega_6) is reconstruction grade pending LiE verification (FC-MULT: if LiE returns multiplicity > 1, dim_H Hom > 1 and uniqueness weakens); (3) the highest-weight assignment omega_1 + omega_7 for ker(c) is reconstruction grade (FC-HW). The file's own Section 10 grade table records decompositions and multiplicities as reconstruction, contradicting the original RESOLVED verdict. Chirality-exclusion results (V(omega_7) absent, V(omega_1+omega_7) absent) are verified grade and stand. OQ-CG-2 (LiE/SageMath numerical verification) is the upgrade path to RESOLVED. OQ1-B (inner/outer automorphism for so(9,5)) remains open.
+File: `explorations/sc1-oq1a-d7-clebsch-gordan-cas-2026-06-23.md`
+
+---
+
+### type-ii1-f6-jbridge-semifinite-twisted (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Resolved Gate F6 from type-ii1-twisted-real-structure: constructed an explicit intertwiner Phi: L^2(X^4, s*(S)) -> L^2(R, tau) satisfying Phi J_twisted = J_tau Phi, bridging the Tomita-Takesaki modular conjugation J_tau (on the hyperfinite II_1 GNS space) with the Clifford charge-conjugation real structure J_twisted = C_{3,1} otimes C_{(6,4)} (on the GU section-pullback spinor bundle). Abstract existence is RESOLVED unconditionally by the Wigner classification theorem for antiunitary involutions on separable infinite-dimensional Hilbert spaces: all antiunitary involutions with J^2=+1 are unitarily equivalent, so no abstract no-go is possible. Natural construction: GNS map on harmonic sector H_F = ker(s*(D_GU)) plus spectral-eigenvalue matching on the complement; this also gives Phi s*(D_GU) Phi^{-1} = D_M by choosing D_M eigenvalues to match GU spectrum (legitimate free choice in semifinite triple construction). Remaining genuine obstruction: FC-EPSILON -- if epsilon'(J_twisted, D_GU) = -1, then the J-bridge and D-bridge are mutually exclusive, blocking the full spectral triple bridge while leaving the abstract J-bridge intact. SM gauge group unification remains OPEN (Sp(64) and A_F inner-fluctuation orbits not unified by J-intertwiner alone).
+
+### CORRECTION TYPE-II1-F6-WIGNER-ARGUMENT (2026-06-23)
+Applied to: `explorations/type-ii1-f6-jbridge-semifinite-twisted-2026-06-23.md`
+Issue: The file's top-level verdict CONDITIONALLY_RESOLVED was applied uniformly to all claims, obscuring that the abstract J-bridge existence (Claim 1, via Wigner classification) is RESOLVED unconditionally and is not gated on FC-EPSILON or any other open condition. The CONDITIONALLY_RESOLVED verdict correctly applies only to the natural construction (Claim 2 -- the J-and-D spectral triple bridge), which is conditional on FC-EPSILON via the CS1 embedding. The original text discussed this distinction in Sections 5, 6, and 8, but did not propagate it clearly to the frontmatter, Section 0 summary, or Section 9 table.
+Changes applied:
+(1) Frontmatter: added `verdict_split` field with `abstract_j_bridge_existence: RESOLVED` and `natural_construction_j_and_d_bridge: CONDITIONALLY_RESOLVED`; added `verdict_note` making the split explicit; added `corrections` block.
+(2) Section 0: restructured to lead with the two-claim / two-verdict split, explicitly stating Claim 1 is RESOLVED unconditionally and Claim 2 is CONDITIONALLY_RESOLVED; FC-EPSILON named as the condition for Claim 2 only.
+(3) FC-BRIDGE-2: split into FC-BRIDGE-2a (hyperfinite closure) and FC-BRIDGE-2b (FC-EPSILON -- the primary failure mode for Claim 2), with explicit statement that FC-EPSILON blocks Claim 2 but not Claim 1.
+(4) Section 9 table: replaced single table with two tables, one for Claim 1 (RESOLVED, no FC-EPSILON dependency) and one for Claim 2 (CONDITIONALLY_RESOLVED, primary FC is FC-BRIDGE-2b / FC-EPSILON); failure condition list updated to match.
+Verdict not changed (CONDITIONALLY_RESOLVED is correct for the top-level file, which represents the natural construction). No canon promotion or demotion required.
+
+---
+
+### theta-field-flrw-matter-era-ode (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Numerically integrated the Klein-Gordon equation for the GU theta field in the full Lambda-CDM background H(z) = H_0*sqrt(0.315*(1+z)^3 + 0.685) from z=3 to z=0 using RK4 (300,000 steps). Corrected values at z=0: field value B(0) = 0.244 B_i, velocity B_dot(0) = -1.037 H_0 B_i, instantaneous w_B(0) = +0.388 (de Sitter estimate was +0.76), phase phi_0 = 0.855 rad (de Sitter was 1.94 rad). The ratio w_a/(w_0+1) corrects from -1.80 (de Sitter) to +1.17 (full FLRW), a factor of 2.68 change with sign reversal -- the THETA-03 failure condition fires. The sign of w_a is positive (dark energy less negative in past), inconsistent with DESI w_a < 0, but this depends sensitively on IC at z=3; extending to z >> z_osc with proper slow-roll ICs is required for a robust w_a sign prediction (OQ3-A). The de Sitter ratio -1.80 and the DESI comparison it supported are ruled out at reconstruction grade; the canon file is re-elevated to CONDITIONALLY_RESOLVED with corrected values and 5 explicit failure conditions.
+File: `explorations/theta-field-flrw-matter-era-ode-2026-06-23.md`
+
+---
+
+### cpa1-ambient-curv-cas-coordinate (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Explicit normal-coordinate computation on S^4_R verifies delta_curv = +4K = +4/R^2 by direct index contraction: the curvature endomorphism gives mathring{R} v = -K v and the Ricci term gives Ric * v = 6K v on TT 2-tensor basis element v_{01} = v_{10} = 1/sqrt(2), confirmed traceless and divergence-free at the base point in normal coordinates. The Weitzenboeck correction delta_curv is identified as the gap between the Gibbons-Hawking-Perry spin-2 eigenvalue m^2_2 = 8/R^2 and the rough Laplacian eigenvalue mu_{2,2}^{rough} = 4/R^2, giving delta_curv = 4/R^2 with no free parameters. The CPA-1 chain Lambda_GU = lambda_max^2 survives the coordinate check; upgrade to verified requires OQ2 (direct Willmore Hessian from gimmel Christoffels, bypassing GHP spectrum calibration).
+File: `explorations/cpa1-ambient-curv-cas-coordinate-2026-06-23.md`
+File: `explorations/type-ii1-f6-jbridge-semifinite-twisted-2026-06-23.md`
+
+---
+
+### oq-rs3-gu-vasiliev-comparison (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Systematic four-axis comparison of GU's RS sector (embedded in D_GU on 14D Y^14 via Clifford identity in Cl(9,5)=M(64,H)) against Vasiliev higher-spin gauge theory (spin-3/2 in AdS_4 via hs(lambda) cubic vertices). GU's VZ evasion mechanism is genuinely distinct from Vasiliev's on all four axes: (1) propagation -- GU background-independent on 14D fiber bundle, Vasiliev AdS_4-dependent; (2) coupling -- GU Leibniz/Clifford with no free parameter, Vasiliev lambda-deformed cubic vertices; (3) gauge symmetry -- GU has no RS-specific local guardian symmetry (evades VZ via Clifford identity instead), Vasiliev has delta psi=nabla epsilon; (4) generation count -- GU topological (APS on K3, 1 SM generation), Vasiliev free parameter. The failure condition for distinctness (GU principal symbol = special case of Vasiliev at truncation order N) does not fire: Cl(9,5)=M(64,H) is not isomorphic to any quotient hs(lambda)/I_N (FC-3), the geometries are incompatible (FC-1), and the SM quantum number content is absent in minimal Vasiliev (FC-2). Three failure conditions for CONDITIONALLY_RESOLVED stated. Open: OQ-RS-3A (GU RS EFT in AdS_4 background -- would establish a contact point without absorption), OQ-RS-3B (compare super-IG to hs(lambda) if OQ2 is ever resolved).
+File: `explorations/oq-rs3-gu-vasiliev-comparison-2026-06-23.md`
+
+---
+
+### CORRECTION PC5-VERDICT-OVERSTATED (2026-06-23)
+Verdict corrected: RESOLVED -> CONDITIONALLY_RESOLVED
+The frontmatter verdict of `explorations/pc5-higgs-cas-clebsch-gordan-2026-06-23.md` was
+changed from RESOLVED to CONDITIONALLY_RESOLVED. Two issues were corrected:
+
+1. **Grade mismatch.** The file body (§6, F5/FC-LIE) explicitly states that upgrade to
+   verified requires CAS computation in LiE or SageMath and names this "the main remaining
+   falsification test." RESOLVED requires a complete proof; reconstruction grade without CAS
+   verification warrants CONDITIONALLY_RESOLVED. The blocking failure condition is now named
+   FC-LIE: CAS computation in LiE or SageMath returns multiplicity != 1 for (1,2,2) in
+   adj(Sp(16))|_{G_PS}.
+
+2. **Misleading multiplicity claim.** The original verdict_note stated "multiplicity exactly 1"
+   for (1,2,+1/2) in adj(Sp(16))|_{G_SM} without clarification. The file's §5.4 discovers
+   that the (15,2,2) piece contributes an additional (1,2,+1/2) at the G_SM level via its
+   SU(3)-singlet channel, raising G_SM-level multiplicity to 2. The multiplicity-1 claim
+   applies to the G_PS-irreducible (1,2,2), not to the G_SM-level (1,2,+1/2). The verdict_note
+   and gate_status in the frontmatter, the §6 verdict header, and the closing note have all been
+   corrected to reflect this distinction.
+
+Three explicit failure conditions are now present: FC-LIE (CAS check), F1 (adj(Sp(16)) != Sym^2
+identification), and F2 (wrong Pati-Salam embedding). The prior log entry (pc5-higgs-cas-clebsch-gordan,
+above) recorded the initial filing at RESOLVED; this correction supersedes that grade.
+
+---
+
+### CORRECTION THETA-CANON-UPGRADE-PREMATURE (2026-06-23) — canon/theta-field-flrw-dark-energy-eos.md
+
+Issue: The canon file `canon/theta-field-flrw-dark-energy-eos.md` was upgraded from OPEN to CONDITIONALLY_RESOLVED on the basis of a same-session ODE integration (theta-field-flrw-matter-era-ode-2026-06-23.md, RK4, 300,000 steps) with no code shown and no error bound stated. The verdict rationale did not name OQ3-A (IC-dependence of the w_a sign) as a failure condition, despite the file itself acknowledging the sign is IC-sensitive (8% variation between frozen and slow-roll ICs) and that extending the integration to z >> z_osc with slow-roll ICs is required before the sign of w_a can be stated as a GU prediction.
+
+Verdict: CONDITIONALLY_RESOLVED is retained. The upgrade is not reversed. The corrected numerical values (phi_0=0.855 rad, w_B(0)=+0.388, ratio +1.17) and the oscillating+damped regime result (Result 1, algebraically exact) are reconstruction-grade sound. However, the verdict rationale was incomplete in failing to name OQ3-A as a failure condition.
+
+Changes applied (2026-06-23):
+
+1. Frontmatter `verdict_change_reason` updated to explicitly name OQ3-A as a named failure condition, with a statement of what changes if the slow-roll IC extension reverses the sign of w_a.
+
+2. Frontmatter `correction_oq3` updated to record that: (a) OQ3-A is a named failure condition; (b) the numerical integration has no code shown and no error bound stated; (c) quantitative claims in Results 2 and 3 are reconstruction-grade only, conditional on OQ3-A.
+
+3. Failure condition FC5 added to the Known Failure Modes section of the canon file: "FC5 (OQ3-A -- IC-dependence of w_a sign, named failure condition). Extending the KG integration to z >> z_osc with slow-roll ICs may reverse the sign of w_a from +1.17 to negative, in which case the FLRW-corrected ratio is not +1.17 but some phi_0-dependent negative value, and the DESI comparison must be repeated." FC5 also records that the numerical integration has no code shown and no error bound, and that OQ3-A must be resolved before the sign of w_a can be stated as a GU prediction.
+
+IC-sensitivity of the w_a sign is the primary open quantitative threat to Candidate D. The prior log entry (theta-field-flrw-eos, 2026-06-23) recorded the initial filing at CONDITIONALLY_RESOLVED with the IC-sensitivity noted in passing; this correction makes OQ3-A a first-class named failure condition and brings the verdict rationale into alignment with the file's own acknowledged limitations.
+
+---
+
+### CORRECTION KK1A-01 (critical) — oq-kk1a-cas-norm-fiber-wavefunction verdict downgraded from CONDITIONALLY_RESOLVED to OPEN (2026-06-23)
+
+**Severity:** CRITICAL
+**File corrected:** `explorations/oq-kk1a-cas-norm-fiber-wavefunction-2026-06-23.md`
+**Verdict change:** CONDITIONALLY_RESOLVED -> OPEN
+**G2a gate change:** CLOSED (reconstruction) -> DEFERRED_VERIFICATION (not closed)
+
+**The problem (three legs):**
+
+1. **Section 3.4 self-contradiction:** The Jacobi operator L^{(7/2,0)} (alpha=7/2, beta=0, from the BC_1 parameters in section 2) has discrete eigenvalues at nu=5/2 and nu=1/2 ONLY -- NOT at nu=3/2. The file states this explicitly. This directly contradicts the parent file's spectral parameter nu_1=3/2.
+
+2. **Section 3.5 resolution is incomplete:** The file claims the correct BC_1 operator uses coth(2r) (not tanh(r)), with different Jacobi parameters. But section 3.5 ends with "need to recheck" on the Jacobi parameters for that operator. The correct parameters are never determined, so the claim that the correct BC_1 operator has a discrete eigenvalue at nu=3/2 is not established.
+
+3. **Section 3.6 Frobenius analysis shows only continuous-spectrum decay:** The large-r analysis of the actual BC_1 ODE f'' + [7 coth(r) + 2 coth(2r)] f' + (nu^2 + rho^2) f = 0 gives both Frobenius solutions decaying at e^{-rho r} = e^{-9r/2} for real nu. This is the continuous Plancherel rate. The discrete-series rate e^{-(rho+nu)r} = e^{-6r} is asserted by appeal to Harish-Chandra theory, but the connection formula linking the simplified c-function (c^{-1} ~ Gamma(-nu+1/2)/Gamma(-nu)) to the actual BC_1 ODE with coth(2r) is NOT established.
+
+**Three new failure conditions added (PRIMARY BLOCKERS):**
+
+- **FC-JACOBI:** The Jacobi function identity connecting the simplified c-function c^{-1} ~ Gamma(-nu+1/2)/Gamma(-nu) to the BC_1 ODE with coth(2r) is not established. The pole at nu=3/2 in the simplified formula does not verify an L^2 eigenfunction of the correct BC_1 ODE.
+- **FC-OPER-MATCH:** The correct Jacobi parameters for the BC_1 operator with coth(2r) are explicitly "need to recheck" in section 3.5. Until determined, the operator whose discrete spectrum includes nu=3/2 is not identified.
+- **FC-FROBENIUS-DISCRETE:** Section 3.6 shows both BC_1 Frobenius solutions decay at e^{-rho r} (continuous rate). The faster decay e^{-6r} claimed for the discrete L^2 mode requires the unestablished connection formula.
+
+**Changes applied to the exploration file:**
+
+- Frontmatter: verdict CONDITIONALLY_RESOLVED -> OPEN; correction block added.
+- Section 3.4: OPEN INCONSISTENCY callout block added (nu=5/2, nu=1/2 only; nu=3/2 not a discrete eigenvalue of L^{(7/2,0)}; labeled as OPEN not resolved).
+- Section 3.5: INCOMPLETE RESOLUTION callout block added after "need to recheck" line.
+- Section 3.6: CRITICAL FAILURE callout block added after the "both solutions same rate" passage.
+- Section 4.2 (Verdict): Replaced CONDITIONALLY_RESOLVED with OPEN; detailed three-leg explanation added.
+- Section 4.3 (G2a Gate): Replaced "ACHIEVED at reconstruction grade" with DEFERRED_VERIFICATION; gate explicitly not closed.
+- Section 5 (Failure Conditions): FC-JACOBI, FC-OPER-MATCH, FC-FROBENIUS-DISCRETE added as primary blockers before FC1.
+- Section 8 (Grade Assessment): Table updated; G2a explicitly NOT CLOSED; L^{(7/2,0)} spectrum at nu=3/2 marked FAILS.
+
+**The prior log entry** (oq-kk1a-cas-norm-fiber-wavefunction, 2026-06-23) stated "G2a gate CLOSED at reconstruction grade" and named only FC3 as the primary remaining gate. That entry is superseded. The correct current state is: G2a gate DEFERRED_VERIFICATION; primary blockers are FC-JACOBI, FC-OPER-MATCH, FC-FROBENIUS-DISCRETE (all more fundamental than FC3, which applies even within the BC_1 model).
+
+**Upgrade conditions:** (1) Determine correct Jacobi parameters for L_{BC_1} = d^2/dr^2 + [7 coth(r) + 2 coth(2r)] d/dr. (2) Verify its discrete spectrum includes nu=3/2. (3) Establish the connection formula linking c^{-1} ~ Gamma(-nu+1/2)/Gamma(-nu) to the Wronskian of the Frobenius solutions of this operator.
