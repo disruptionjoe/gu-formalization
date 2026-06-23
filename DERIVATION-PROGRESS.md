@@ -1107,6 +1107,13 @@ File: `explorations/type-ii1-ko-dimension-2026-06-23.md`
 
 ---
 
+### rs-analytic-route-rank3-rebuild-or-demotion (2026-06-23)
+Verdict: OPEN (non-compact analytic route demoted; APS route survives at reconstruction grade)
+Exhaustively examined the rank-3 A3 analytic framework for `ind_H(D_RS)=8` through four routes: (R1) vector-bundle Flensted-Jensen fails because `tau_RS = D(1/2,0)` is nonunitary; (R2) Oshima-Matsuki A3 classification fails because the asymptotic cone obstruction is nonzero (Kobayashi criterion); (R3) b-calculus parametrix fails because the nonunitary character of `tau_RS` at the A3 root `alpha_3 = e_3-e_4` (the root corresponding to the `so(3,1)` embedding) prevents discrete L^2 spectrum. These three routes collectively confirm the demotion: no non-compact analytic theorem currently proves `ind_H(D_RS)=8` on `L^2(SL(4,R)/SO_0(3,1); S(6,4))`. Route R4 (APS theorem on compact K3) bypasses the non-compact obstruction and gives `ind_H(D_RS) = hat{A}(K3) * rank_H(S_RS^+) + eta/2 = 2*4+0 = 8` at reconstruction grade, with `rank_H(S_RS^+)=4` from physical DOF count and `eta(D_RS|_{S^3})=0` from spectral symmetry. Combined with OQ3c (cross-term cancellation, RESOLVED), the total `ind_H(D_GU) = 16+8 = 24` at reconstruction grade. Upgrade path: OQ-RK1 (first-principles derivation of `rank_H(S_RS^+)=4` without physical DOF count) and OQ-RK2 (APS boundary conditions for the gamma-trace-constrained RS operator).
+File: `explorations/rs-analytic-rank3-rebuild-or-demotion-2026-06-23.md`
+
+---
+
 ### h3-outcome-d-prime-gu-bridge (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
 Synthesized the transfer from Outcome D' finite-schema parity cocycles (c(I_plus)=+1, c(I_minus)=-1, holonomy -1, derived_from_C under odd-SBP + NAC) to the GU/T63 flat Z/2Z gauge-local-system statement. All three bridge conditions hold at reconstruction grade for odd-SBP + NAC observer configurations: C1 RESOLVED (canonical Cech isomorphism; flat Z/2Z smooth lifting automatic for discrete bundles); C2 CONDITIONALLY_RESOLVED (class equality exact by Z/2Z uniqueness; NAC+SBP = no-LHV is structural parallel not verified theorem); C3 RESOLVED (GU null-cone causal structure compatible with CHSH holonomy -1; spacelike loops trivial in Z/2Z). H3 is CONDITIONALLY_RESOLVED for the SBP-odd + NAC configuration class. Two remaining gaps: Gap 1 (prove NAC + odd-SBP = CHSH no-LHV as a formal theorem); Gap 2 (show GU observer-section geometry universally forces SBP-odd + NAC for quantum-contextual observers). Full H3 as universal GU identity theorem remains OPEN pending these gaps.
