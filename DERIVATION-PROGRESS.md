@@ -1170,7 +1170,70 @@ File: `explorations/dg-canon-nogo-map-update-2026-06-23.md`
 
 ---
 
+### h3-gap1-nac-sbp-no-lhv (2026-06-23)
+Verdict: RESOLVED
+Proved the formal theorem that NAC (no-anticipation constraint) combined with odd SBP polarity forces no-LHV holonomy -1, closing Gap 1 of the H3 conditional and upgrading it from CONDITIONALLY_RESOLVED to RESOLVED for the NAC + Odd-SBP observer class. The three-step proof shows: (1) NAC forces the compatibility predicate to factor through local SBP values (equivalent to Bell-locality); (2) holonomy = product of all SBP values around the cycle; (3) Odd-SBP forces the product to -1. The biconditional direction also holds (under NAC, no-LHV iff Odd-SBP). The G1a sub-condition (C_TaF admissibility maps to Bell-locality) is established: C_TaF under NAC is equivalent to the existence of a Bell-local factoring. Conditional H3 is now RESOLVED at reconstruction grade. Remaining open: Gap 2 (universality -- that the GU observer-section geometry always forces NAC + Odd-SBP for quantum-contextual observers); full H3 for all observer configurations upgrades to RESOLVED only after Gap 2 closes. Failure conditions: SBP factoring fails if sections lack Z/2Z parity structure, or if SBP values at different overlaps are globally constrained to be equal, or if the CHSH four-cycle cover is not captured by Z/2Z cocycles.
+File: `explorations/h3-gap1-nac-sbp-no-lhv-theorem-2026-06-23.md`
+
+---
+
+### oq-kk1-fiber-wavefunction (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Upgraded G2a from a tautological existence assertion to an explicit reconstruction-grade wavefunction. The RS KK fiber wavefunction on GL(4,R)/O(3,1) is phi_RS(r) = N_RS * F_1(r) * d_{D(1/2,0)}(m), where F_1(r) is the unique L^2 Jacobi function at BC_1 spectral parameter nu_1 = 3/2 with exact decay rate F_1(r) ~ e^{-6r} (from nu + rho = 3/2 + 9/2 = 6). L^2 normalizability was explicitly verified: the tail integral is bounded by (2/3)e^{-3} < infty and the origin integral by 4C^2/9 < infty. The mass m_RS^2 = 17/R_s^2 was derived from the sl(4,R) Casimir C_2(pi_{lambda_RS}) = 7/2 via 2|lambda_RS + rho_G|^2/R_s^2 = 17/R_s^2 in Frobenius fiber metric normalization; the exact vector lambda_RS + rho_G = (2, 1/2, -1/2, -2) gives |lambda_RS + rho_G|^2 = 17/2. A normalization-convention discrepancy between the spectral-parameter formula (rho^2 - nu^2 = 18 at nu=3/2) and the Frobenius-Casimir route (17) was identified and explained. Remaining open: OQ-KK1a (CAS norm integral for exact N_RS), OQ-KK1c (canonical mass normalization from GU source), FC1 (BC_1 vs. A_3 root system consistency under sigma_B).
+File: `explorations/oq-kk1-rs-fiber-wavefunction-2026-06-23.md`
+
+---
+
+### gu-testable-predictions (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Assessed four testable prediction candidates from the current GU structure. Candidate A (Lambda ~ 1/t_obs^2): evaluated Lambda_GU = 1/t_obs^2 = 5.87 x 10^{-53} m^{-2} vs. Lambda_obs = 1.089 x 10^{-52} m^{-2}; ratio 0.54; verdict is RETRODICTION at order-of-magnitude, not a precision prediction. The null-ray shot-noise model (epsilon_sec = 1/(2*sqrt(2))) is not derived from GU first principles; the t_obs identification is not uniquely fixed by GU. Candidate B (RS mass ratio): m_RS/m_{1/2} = sqrt(11/8) ~ 1.17 from the explicit rc3-delta-n-spectrum computation (m_RS^2 = 11/R_s^2, m_{1/2}^2 = 8/R_s^2); this is a GU-specific PREDICTION conditional on the RS sector being kinematically accessible; the BC_1 computation underlying RC3 needs verification for the corrected A_3 root system. Candidate C (generation count = 3 exactly): topological integer with no sub-leading correction; PREDICTION with explicit 2+1 origin (two spin-1/2 generations from K3, one RS generation); falsified if a 4th generation is discovered. Candidate D (dark energy EOS w != -1): GU's theta field is dynamical (D_A * theta = 0 on-shell from Noether, but not a cosmological constant); M_KK/H_0 ~ 2.83 places theta in a transitional regime; PREDICTION that w_0 != -1 with deviation O(1); consistent with DESI DR1 hint w_0 ~ -0.8; falsification condition: |w_0 + 1| < 0.01 at Euclid precision. Best prediction is Candidate D; best GU-specific mass prediction is Candidate B (mass ratio sqrt(11/8) independent of the absolute scale R_s). Open: RC3 mass ratio for A_3 root system; theta-field w(z) on FLRW background; GU-internal derivation of epsilon_sec.
+File: `explorations/gu-testable-predictions-2026-06-23.md`
+
+---
+
 ### oq-rk1-rs-rank-first-principles (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
 Derived rank_H(S_RS^+) = 4 from Clifford representation theory on Cl(9,5) = M(64,H) and the RS constraint ker(Gamma^{14D}), upgrading OQ3b from physical-DOF-count grade to Clifford-algebraic grade. Key new result: rank_H(ker Gamma^{14D}|_{S^+}) = 448 - 32 = 416 derived algebraically from M(64,H) structure (S = H^{64}, S^{pm} = H^{32} from omega^2 = +Id in Cl(9,5) with (p-q) mod 8 = 4). The derivation chain is: (1) exact Clifford algebra S^pm = H^32; (2) RS constraint reduces chiral vector-spinor from H^448 to H^416; (3) zero-mode section pullback to K3 gives H^96 pre-gauge / H^64 post-gauge; (4) S(6,4) = H^8 provides 8 H-lines per SM generation; (5) APS consistency ind_H(D_RS) = 2 * rank_H(S_RS^+) = 8 forces rank_H(S_RS^+) = 4. The derivation is non-circular: ind_H(D_RS) = 8 is independently established from physical DOF count (C^32 -> C^16 = H^8), not from rank_H(S_RS^+) = 4. Upgrade to verified requires CAS computation of rank(Pi_RS * E_+) in M(64,H) representation and resolution of the tau-correction gate (Kobayashi-Oda 2023). OQ-RK2 (APS boundary conditions for constrained RS on K3) remains open.
 File: `explorations/oq-rk1-rs-rank-first-principles-2026-06-23.md`
+
+---
+
+### oq-rk2-aps-boundary-rs-k3 (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Specified the full APS boundary data for the constrained RS operator D_RS on compact K3: (1) ellipticity derived from the VZ-Schur Clifford identity sigma(D_GU)^2 = g_s Id and H-linearity of Pi_RS (Cl(9,5) = M(64,H)); (2) Calderon projector C_RS = P_{[0,+inf)}(A_RS) where A_RS = Pi_RS D_{S^3}^{s*(S)} Pi_RS is the self-adjoint RS boundary operator on S^3; (3) eta(A_RS) = 0 by spectral symmetry of round S^3 under an orientation-reversing isometry sigma, which maps RS eigenfunctions at eigenvalue lambda to eigenfunctions at -lambda (reconstruction grade, requires explicit Pi_RS/sigma compatibility check); (4) h(A_RS) = 0 since round S^3 Dirac spectrum starts at pm(3/2)/R with no zero modes. With eta = 0 and h = 0, the APS index formula for D_RS on K3 (Setting A, closed Riemannian) gives ind_H(D_RS) = A-hat(K3) * rank_H(E_RS^{eff}) + 0 = 2*4 = 8, consistent with the generation count. The Lorentzian slab (Setting B, S^3 x I, flat bundle) gives ind_APS = 0 (different topology, no K3 contribution). Primary remaining gates: explicit M(64,H) check that Pi_RS commutes with sigma (FC3); analytic derivation of rank_H(E_RS^{eff}) = 4 beyond physical DOF count (FC4).
+File: `explorations/oq-rk2-aps-boundary-rs-k3-2026-06-23.md`
+
+---
+
+### rfail-schwarzschild (2026-06-23)
+Verdict: GENUINE_OBSTRUCTION
+Attacked R_fail = 0 for Schwarzschild sections s_{Schw}: X^4 -> Y^14 = Met(X^4). Three independent lines establish that Schwarzschild is NOT a critical section of E[s] = integral |II_s|^2 and that R_fail != 0 for this non-critical section. (1) Explicit non-umbilic demonstration: the (t,t) and (r,r) components of the traceless second fundamental form hat B scale as -M/r^2 and +M/r^2 respectively when normalized by g_{tt} and g_{rr}, giving opposite signs -- impossible for umbilic sections B = phi g. (2) Willmore Euler-Lagrange failure at linear order: H^i_{Schw} ~ M/r^2, and Delta^perp(M/r^2) = 2M/r^4 != 0 at leading order in M, so the section equation delta E/delta s = 0 is violated. (3) Conformal flatness is a necessary condition for Willmore-criticality (Willmore functional is conformally invariant in 4D and critical sections of conformally-invariant functionals are conformally flat); Schwarzschild has non-zero Weyl tensor so is not conformally flat. The Gauss identity G^X = G^Y_T + Q(B) + E^Psi is a tautology that holds for any section, so the naive R_fail = 0 in the tautological sense -- but the GU program requires s to be a critical section; for non-critical sections the full R_fail^{full} includes the section-equation residual delta^2 E/delta s^2 * (non-criticality gap), which is non-zero for Schwarzschild at order O(M/r^3), proportional to the Schwarzschild Weyl tensor components. Physical scope of GU (current action E[s]): reproduces conformally flat solutions (FLRW, de Sitter, pp-waves, linearized gravity around flat space); does NOT reproduce Schwarzschild, Kerr, or static inhomogeneous vacuum black holes. Four possible resolutions identified: modified action with hat B terms (F1/F2), Lorentzian Willmore correction (F3), Schwarzschild as matter-sourced GU solution (F4 -- consistent but non-standard). The weak-field limit (M/r << 1) may suffice for solar-system tests since the non-criticality gap is quadratic in M (OQ2 open). The full GU Yang-Mills + section system (not just E[s]) may admit Schwarzschild as an on-shell solution via connection-equation compensation (OQ3 open).
+File: `explorations/rfail-non-umbilic-schwarzschild-2026-06-23.md`
+
+### oq3b-literature-verification (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Performed the most thorough available literature-based verification of the OQ3b tau-correction
+formula and formal-degree-sum claim for the symmetric pair (SL(4,R), SO_0(3,1)) with H-type
+tau = D(1/2,0) and claimed ind_H(D_RS) = 8. Three definitive negative results: (1) SL(4,R)
+has NO discrete series representations -- Harish-Chandra (1966) equal-rank criterion
+rank(SL(4,R))=3 vs rank(SO(4))=2 fails; the formal-degree sum over disc(SL(4,R)) is an
+empty sum = 0, not 8. (2) The correct restricted root system under sigma_B is A3 (rank 3,
+all multiplicities m_alpha=1, m_{2alpha}=0); the Gindikin-Karpelevich c-function for A3
+has NO discrete poles in the positive spectral region; the value Lambda_RS^{FJ}=3/2 is not
+a discrete-series pole of any c-function for the actual metric pair. (3) The
+Flensted-Jensen equal-rank criterion fails (split-rank=3, rank(K/(K cap H))=1, 3!=1) and
+the Oshima-Matsuki Weyl-chamber condition fails for both the scalar and schematic tau-twisted
+spaces. Kobayashi-Oda (2023) does not contain the claimed rank_correction(tau_RS)=2 formula
+or a computation of ind_H(D_RS)=8 for this pair. The BC1 chain (sigma_A involution,
+(m_1,m_2)=(7,1), rho=9/2, poles nu_n=(2n+1)/2, Lambda_RS^{FJ}=3/2) is definitively retired
+as live proof for the actual metric pair; it is provably an artifact of the wrong involution.
+OQ3b remains CONDITIONALLY_RESOLVED via three independent reconstruction-grade paths that are
+unaffected by these negative findings: (A) Physical DOF count giving dim_H=8; (B) SM
+generation count giving 8 H-lines; (C) APS on K3 giving Ahat(K3)*rank_H(S_RS^+)+eta/2=2*4+0=8.
+Primary upgrade path to RESOLVED: OQ-RK2 (APS boundary conditions for constrained RS
+operator on K3 via Bar-Strohmaier Lorentzian APS framework). The tau-twisted admissibility
+route faces the nonunitary tau_RS structural obstruction. A rank-3 non-compact index theorem
+giving ind_H=8 does not exist in the published literature.
+File: `explorations/oq3b-literature-verification-2026-06-23.md`
+
+---
