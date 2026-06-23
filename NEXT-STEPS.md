@@ -36,6 +36,20 @@ This repo should not ask contributors to solve Geometric Unity. The useful unit 
 
 > **OQ1 split-rank explicit matrix computation RESOLVED 2026-06-23 (`oq1-split-rank-verification-2026-06-23.md`):** Explicit bracket computation in `sl(4,R)` with the correct sigma_B involution (`dsigma_B(X) = -J X^T J^{-1}`, J=diag(1,1,1,-1)) shows `p_G cap q_B` is 6-dimensional with basis `{H_1,H_2,H_3,S_{12},S_{13},S_{23}}`. Maximal abelian subspace is `span{H_1,H_2,H_3}` (3-dimensional); brackets `[H_i,S_{jk}]` land in k=so(4). **True split-rank = 3** (not 1). n5 §19 "split-rank 1" claim used sigma_A (wrong involution, different symmetric pair). Flensted-Jensen equal-rank criterion `3 = 1` FAILS for scalar case. Generation count survives via tau-correction (Oshima-Matsuki for twisted L^2, oq3b), physical DOF count (n5 §12), and Atiyah-Schmid formal-degree sum (n5 §15-18). Primary remaining gate: verify tau-correction rank formula (rank_correction = 2 from SL(2,C) H-types of tau_RS) against Kobayashi-Oda or Oshima-Matsuki reference.
 
+> **2026-06-23 follow-up correction:** the tau-correction gate has now been run and did **not** verify `rank_correction(tau_RS)=2`. Treat the tau-rank-subtraction rescue as unsupported until a direct tau-spherical/vector-bundle discrete-series or Kobayashi admissibility computation proves it. The OQ-weyl-3 root-wall check also ran: the A3 formal-degree product does not vanish at `lambda_RS`, but this only removes a zero-factor objection; it does not restore the scalar FJ/BC1 chain.
+
+## 2026-06-23 Follow-Up Batch: Current Next Five
+
+These are now the highest-impact tasks after the follow-up subagents. They supersede older rank-one `BC1` next actions where they conflict.
+
+| order | task | output | blocker if skipped |
+|---:|---|---|---|
+| 1 | Direct tau-twisted RS admissibility computation for `L^2(SL(4,R) x_{SO_0(3,1)} tau_RS)`. | A proof or falsification using Oshima-Matsuki/Kobayashi-Oda conditions for this exact `tau_RS`, not a rank-subtraction slogan. | `ind_H(RS)=8` remains only physical-count/reconstruction-grade, not an analytic discrete-series result. |
+| 2 | Noncompact OC2 operator analysis on `Y^14`. | Weighted Sobolev domain, bounded `P_disc`, compact-remainder parametrix, and norm-continuous bounded transform into `Fred_H`. | The signed-readout KSp theorem stays formal rather than analytic for the actual GU operator family. |
+| 3 | IC4 source-free K3 metric-selection gate. | Component verification of `[G^Y_T]^TF`, `C_Gauss=1`, source-free section hypotheses, torsion corrections, and Yau data. | K3-Yau selection remains conditional; Willmore energy alone cannot carry it. |
+| 4 | Rank-reconciliation cleanup in shared claims. | Replace stale scalar `BC1/(7,1)`, `rho=9/2`, `Lambda_RS^{FJ}=3/2`, and RC3 gap language with the sigma_B rank-3/tau-conditional wording. | Readers can still find contradictory scalar-FJ claims in historical progress text. |
+| 5 | Implement the H3 Cech fixture in the temporal-issuance codebase. | Executable fixture for TC-1 through TC-11 from `n3-cech-fixture-specification`. | H3 remains specified but unexecuted. |
+
 ## 2026-06-23 Frontier Pass: Updated Next Actions
 
 The 2026-06-23 parallel pass produced five bounded notes. The next useful work is now narrower than the previous frontier list.

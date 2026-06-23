@@ -1006,3 +1006,38 @@ File: `explorations/freed-hopkins-nonforgettable-observer-2026-06-23.md`
 Verdict: RESOLVED
 Established closure condition C1 (type-bridge) for TaF H3: Z/2Z lattice gauge data on a record poset P is isomorphic to the TaF finality presheaf over the same base poset. The finality presheaf F with F(U_r) ~= Z/2Z (binary finality sign per upper set) is isomorphic to the constant sheaf Z/2Z; the Cech 1-cocycle condition for Z/2Z gauge data (product of transition functions = +1 on triple overlaps) is identical to the presheaf gluing condition (local finality sections agree on overlaps). Therefore H^1(P, Z/2Z_gauge) ~= H^1(P, F_finality) canonically. The failure condition (gauge data on edges, finality on vertices, incompatible structures) does NOT apply: edge data is the derived difference of vertex-indexed local sections in both formulations. Four explicit failure conditions stated (FC1-FC4). With C3 already RESOLVED, H3 now has one remaining gate: C2 (cech_sheaf_fixture execution in temporal-issuance).
 File: `explorations/taf-h3-c1-type-bridge-2026-06-23.md`
+
+---
+
+### tau-correction-oshima-matsuki-rs (2026-06-23)
+Verdict: STILL_OPEN_UNSUPPORTED
+Checked the proposed `rank_correction(tau_RS)=2` rescue for the RS generation-count chain. The scalar Flensted-Jensen/Oshima-Matsuki equal-rank route remains false for the actual metric pair `(SL(4,R), SO_0(3,1))`, whose scalar split rank is 3 while `rank(K/(K cap H))=1`. No inspected theorem supports subtracting two split-rank dimensions from the coefficient representation `tau_RS = 4D(1/2,0) + 4D(0,1/2)`. The tau-twisted/vector-bundle discrete-spectrum problem remains open, but it must be attacked by a direct tau-spherical or Kobayashi admissibility computation rather than by rank subtraction. The rank-independent physical RS count can still be cited separately as `C^32 -> C^16 -> dim_H=8`.
+File: `explorations/tau-correction-oshima-matsuki-rs-2026-06-23.md`
+
+---
+
+### oq-weyl3-root-wall-plancherel (2026-06-23)
+Verdict: TAU_TWISTED_ADMISSIBLE_NOT_SCALAR_ATOM
+Resolved the narrow root-wall objection for `lambda_RS=(1/2,0,0,-1/2)`. Although `<e_2-e_3,lambda_RS>=0`, the local A3 formal-degree product is evaluated at `lambda_RS+rho_G`, where the `e_2-e_3` factor is `1`, not `0`; the A3 product therefore does not vanish for this reason. This should not be restated as an ordinary limit-of-discrete-series downgrade. The corrected scalar atom is still not established because scalar FJ equal-rank fails; the only surviving analytic route is the tau-twisted RS sector, conditional on Oshima-Matsuki/Kobayashi admissibility.
+File: `explorations/oq-weyl3-root-wall-plancherel-2026-06-23.md`
+
+---
+
+### split-rank-reconciliation-audit (2026-06-23)
+Verdict: scalar BC1/FJ rank-one chain superseded; tau-twisted route remains conditional
+Audited the status files and progress ledger for stale scalar rank-one language. Replacement rule: for the actual metric symmetric pair with `dsigma_B(X)=-J X^T J^{-1}`, the scalar split rank is 3 and the restricted-root system is rank-3 `A3`, not rank-one `BC1` with `(m_1,m_2)=(7,1)`. Scalar FJ multiplicity-one, the `BC1` pole ladder, `rho=9/2`, `Lambda_RS^{FJ}=3/2`, and the scalar RC3 gap do not currently prove `ind_H(S_R^eff)=8` or `ind_H(D_GU)=24`. The tau-twisted route remains a separate conditional route, pending direct verification for `tau_RS`.
+File: `explorations/split-rank-reconciliation-audit-2026-06-23.md`
+
+---
+
+### ic4-ricci-flat-k3-selection (2026-06-23)
+Verdict: CONDITIONALLY_SUPPORTED
+Sharpened the K3 metric-selection argument. The strong implication `E[s]=0 => Ricci-flat => K3` fails, because every tautological Levi-Civita section has `E=0`, including non-Ricci-flat examples. The supported chain is narrower: first fix K3-type topology via the separate `ind_H=24` plus Rokhlin/split assumptions; then use the IC4 source-free Einstein equation on the selected section; then K3 plus Hitchin-Thorpe forces Ricci-flatness; then Yau-Calabi supplies the preferred metric once complex structure and Kahler class are fixed. Remaining gates include `[G^Y_T]^TF`, `C_Gauss`, torsion corrections, source-free hypotheses, and Lorentzian continuation.
+File: `explorations/ic4-ricci-flat-k3-selection-2026-06-23.md`
+
+---
+
+### oc2-analytic-fredholm-ksp-upgrade (2026-06-23)
+Verdict: BOUNDED_CONDITIONAL_UPGRADE
+Separated the formal KSp classification from the unresolved noncompact analysis. H-linearity, section-pullback preservation of right-H structure, compact `X^4` pullback Fredholmness, and the formal `Fred_H -> KSp^0 = KO^4` classification are locally resolved once bounded-transform continuity is supplied. Full `Y^14` weighted Fredholmness still requires a closed right-H-linear realization on weighted Sobolev spaces, bounded discrete-sector projection, compact-remainder parametrix, KK zero-mode unitarity, and norm-continuous bounded transforms into `Fred_H`.
+File: `explorations/oc2-analytic-fredholm-ksp-upgrade-2026-06-23.md`

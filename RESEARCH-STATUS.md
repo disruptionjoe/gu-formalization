@@ -104,6 +104,18 @@ Five follow-up subagents were dispatched after the next-five-item inspection. Al
 | `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md` | exploration | The missing `cech_sheaf_fixture` is specified as an executable contract, but no runnable fixture has been implemented or executed. H3 remains `OPEN_SPECIFIED_NOT_EXECUTABLE`. |
 | `explorations/rc1-discrete-series-verification-pack-2026-06-23.md` | exploration | Major correction: the rank-one `BC1` discrete-series chain fails as stated for actual `SL(4,R)/SO_0(3,1)`. The correct metric symmetric-pair analysis has split rank 3 and restricted root system `A3`; claims depending on `(m1,m2)=(7,1)`, scalar FJ poles, and `Lambda_RS^{FJ}=3/2` are demoted pending recomputation. |
 
+## 2026-06-23 Five-Task Follow-Up Batch
+
+Five subagents ran the follow-up tasks opened by the prior verification batch. All outputs are exploration-grade and supersede older optimistic language where they conflict.
+
+| document | status | content |
+|---|---|---|
+| `explorations/tau-correction-oshima-matsuki-rs-2026-06-23.md` | exploration | The asserted `rank_correction(tau_RS)=2` is not supported as a rank-subtraction theorem. The scalar Flensted-Jensen route remains false for the actual rank-3 pair; the tau-twisted RS discrete-spectrum question remains open and needs a direct tau-spherical/Kobayashi admissibility computation. |
+| `explorations/oq-weyl3-root-wall-plancherel-2026-06-23.md` | exploration | The root-wall condition `<e2-e3,lambda_RS>=0` does not make the local A3 formal-degree product vanish, because the product uses `lambda_RS+rho_G`. This avoids a zero-factor objection but does not establish a scalar atom; any surviving RS contribution is tau-twisted and conditional. |
+| `explorations/split-rank-reconciliation-audit-2026-06-23.md` | exploration | Consolidates the rank correction: scalar `BC1/(7,1)`, `rho=9/2`, `Lambda_RS^{FJ}=3/2`, and the scalar RC3 gap are superseded for `(SL(4,R), SO_0(3,1))` unless rederived inside the tau-twisted coefficient problem. |
+| `explorations/ic4-ricci-flat-k3-selection-2026-06-23.md` | exploration | K3-Yau metric selection is conditionally supported only after K3 topology is fixed separately and IC4 supplies the source-free Einstein equation. Willmore energy alone does not select Ricci-flat metrics, since every Levi-Civita section has `E=0`. |
+| `explorations/oc2-analytic-fredholm-ksp-upgrade-2026-06-23.md` | exploration | Formal H-linear Fredholm/KSp classification is locally resolved once bounded-transform continuity is supplied. Full noncompact `Y^14` weighted Fredholmness, KK zero-mode unitarity, and a b/0/scattering parametrix remain analytic proof obligations. |
+
 ## 2026-06-22 Additions (Positive GU Constructions Lane)
 
 One new exploration document was added as a new parallel lane of work:
