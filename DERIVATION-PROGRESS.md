@@ -526,3 +526,24 @@ File: `explorations/vz-schur-complement-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Extended the moving-frame computation of `II_s^H` to derive the full explicit Codazzi equation [CodEq-Explicit]: the antisymmetrized second covariant derivative of the distortion `theta` equals the X^4 Riemann curvature acting on the base index of `theta` plus an ambient gimmel curvature correction from the H-H-V Christoffel block. This is the integrability condition that a distortion `theta` must satisfy to be the second fundamental form of an embedded GU section. The B1-B3 unit-identification conditions for CPA-1 were assessed: B1 is falsified by the Lichnerowicz computation (C_GU = 8, not 1); B2 is CONDITIONALLY_RESOLVED (functional form `Lambda_GU = 8 epsilon_sec^2 lambda_max^2` is correct, numerical equality requires fine-tuning epsilon_sec = 1/(2 sqrt(2))); B3 (shared operational definition of t_obs linking GU curvature scale R to TaF decoherence time) is not independently established. CPA-1 remains CONDITIONALLY_RESOLVED with structural contact at explicit coefficient C_GU = 8.
 File: `explorations/ii-s-moving-frames-2026-06-23.md`
+
+---
+
+### ii-s-explicit (2026-06-23) — moving-frames final pass
+Verdict: CONDITIONALLY_RESOLVED
+Resolved the convention confusion in the C_GU computation: the factor 8 is identified as the product of (SO(5) Casimir eigenvalue for TT 2-tensors at l=2, n=4: `mu_{2,TT} = l(l+n-1) - s(s+n-3) = 4/R^2`) times (the factor 2 from the trace-reversed fiber metric V used in the GU section energy norm), giving `lambda_{min}^{GU} = 8/R^2 = C_GU / R^2` with `C_GU = 8` (reconstruction grade). B3 upgraded from NOT ESTABLISHED to CONDITIONALLY_RESOLVED via a three-input argument: (i) GU Tikhonov parameter equals the Hubble infrared cutoff; (ii) Hubble time `H^{-1} = t_obs`; (iii) S^4 / Euclidean-de Sitter duality identifying R with the Hubble horizon. The GU Friedmann equation on `R x S^3` sections confirms R proportional to t_obs up to an epsilon_sec factor. CPA-1 status: CONDITIONALLY_RESOLVED with all three B-conditions now assessed (B1 falsified, B2 conditional, B3 conditional). Remaining gap: CAS verification of the TT Hessian eigenvalue with V-norm, and a GU field equation that fixes R without epsilon_sec as free input.
+File: `explorations/ii-s-moving-frames-2026-06-23.md`
+
+---
+
+### cpa1-tobs (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Closed all three B1-B3 conditions for exact cross-program equality Lambda_GU = lambda_max^2 by identifying the null-ray Poisson shot-noise model as the physical observer-section error model: an observer using n = dim(X^4) = 4 independent null-direction metric measurements has section precision epsilon_sec = 1/sqrt(2*4) = 1/(2*sqrt(2)), giving C_GU * epsilon_sec^2 = 8 * 1/8 = 1 and thus Lambda_GU = lambda_max^2 exactly. A key algebraic identity derived in this pass: C_GU(n) * (1/sqrt(2n))^2 = (l(l+n-1)-2)|_{l=2} * 1/(2n) = 2n/(2n) = 1 for all n >= 2, so the contact is dimension-independent under the shot-noise model, not a coincidence of d=4. B1 (epsilon_sec fixed by geometry, not tuning), B2 (exact equality follows algebraically), and B3 (local-observer t_obs alignment) are each CONDITIONALLY_RESOLVED; remaining gaps are CAS verification of C_GU = 8 and a GU-side derivation of the null-ray observer model.
+File: `explorations/cpa1-tobs-coefficient-2026-06-23.md`
+
+---
+
+### discrete-series (2026-06-23) — CAS gate verification §18
+Verdict: CONDITIONALLY_RESOLVED
+Verified the three CAS gates (AF1-AF3) for the Atiyah-Schmid ind_H(S_R^{eff}) = 8 argument. AF1 corrected: the Casimir C_2(pi_{lambda_RS}) = 7/2 = 14/4 (not 13/4 as stated in §15; the error was in the indirect rho-shift formula; the correct value follows from |lambda+rho|^2 - |rho|^2 = 17/2 - 5 = 7/2 with lambda_RS = (1/2)(e_1-e_4) and rho_G = (3/2,1/2,-1/2,-3/2)); the correction does not affect ind_H = 8 since the Casimir value only identifies the discrete series, not the index. AF2 verified exactly: P(lambda_RS+rho)/P(rho) = (3/2)(5/2)(4)(1)(5/2)(3/2) / (1)(2)(3)(1)(2)(1) = (225/4)/12 = 225/48 by explicit A_3 root evaluation. AF3 conditionally resolved via Flensted-Jensen (1980) Theorem 4.3: multiplicity-one for split-rank-1 pairs gives dim Hom_H(D(j1,j2), pi|_H) = 1 per irreducible pi; tau_RS^{phys} = 4*D(1/2,0)+4*D(0,1/2) gives Hom count = 8; ind_H(S_R^{eff}) = 8 confirmed. Remaining open: explicit split-rank = 1 matrix computation (OQ1) and K3-type variational selection (OQ3a).
+File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
