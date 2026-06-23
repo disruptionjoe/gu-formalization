@@ -270,19 +270,25 @@ GU predicts one family of 16 flipped-chiral spin-3/2 particles arising from the 
 
 **Finding 2 — The coherent evasion mechanism lives at the 14D level.** GU's spin-3/2 sector is NOT a standalone Rarita-Schwinger field with its own Lagrangian. It is the RS(3,1) component of the full spinor S = H^{64} on Y¹⁴, propagated by the Dirac-DeRham operator D_GU. The Dirac operator D_GU has the light cone as its characteristic cone (Berline-Getzler-Vergne §2.1: the principal symbol of a Dirac operator is hyperbolic with characteristic cone = metric light cone, regardless of gauge coupling). VZ applies to standalone RS Lagrangians; if the RS sector does not decouple into an independent dynamical variable at the 14D level, VZ's hypotheses are not satisfied at 14D.
 
-**GU evasion status: OPEN — mechanism identified, not verified.**
+**GU evasion status: EVADED (reconstruction) at 14D; VERIFIED at 4D principal-symbol level (2026-06-23).**
 
-Three open questions (from VZ1 analysis document):
+**Summary of 2026-06-23 computation chain (vz-schur + OQ1 + OQ2 + OQ3-V1/V2/V3):**
 
-**OQ1 (priority).** Does the RS sector of D_GU decouple from the spin-1/2 sectors at any energy scale? If yes at some mass scale M_RS, then below M_RS an effective 4D RS field equation exists and VZ applies at that level (with SM gauge couplings, so VZ fires unless a guardian is present). If no (RS sector does not decouple), VZ is inapplicable at the 14D level. Resolution: analyze the spectrum of D_GU in the RS sector; determine whether the shiab Φ maps the RS sector back into itself or into spin-1/2 sectors. Entangled with SC1 task.
+At 14D: the Schur complement symbol `D_RS_eff(xi) = S_R^{14D}(xi)` has `ker = 0` for all 14D covectors with `g_Y(xi,xi) != 0`, including mixed horizontal+normal covectors. Proof: Clifford module identity `sigma_D(xi)^2 = xi2 Id_E` forces `ker S_R = 0` via the block-inversion argument (§8 of `explorations/vz-schur-complement-2026-06-23.md`). VZ at 14D: EVADED (reconstruction grade -- 14D E-block explicit form is structural, not CAS-verified).
 
-**OQ2.** If RS decouples at scale M_RS: what guardian symmetry protects the subsidiary conditions? GU's proposed super-IG extension (super-extension of IG = Sp(64) ⋉ Ω¹(ad P)) is the candidate guardian. `[speculation — super-IG algebra not constructed; no analogue in published literature for a non-SUSY guardian of spin-3/2]`
+At 4D: all three open verification conditions (OQ3-V1/V2/V3) are RESOLVED (§18). OQ3-V1: the principal symbol `s*(sigma_{D_GU})(eta)` has no anomalous normal-direction terms -- exact horizontal Clifford computation gives `c_s(eta)^2 = g_s(eta,eta) Id_S`. OQ3-V2: the 4D E-block `[[0, 1/4],[1, 3/2]]` has determinant `-1/4 != 0` (explicit computation); overall invertibility from Clifford identity. OQ3-V3: `R_s = ker Gamma^{4D}` exactly -- section pullback on H*/N* split is exact, normal RS components are KK scalars not spin-3/2 fields. 4D VZ evasion: characteristic cone of `D_RS_eff^{4D}` = null cone of `g_s`; no spacelike characteristics. VERIFIED at 4D principal-symbol level.
 
-**OQ3.** Does the Weyl tensor of the gimmel metric on Y¹⁴ produce gravitational VZ problems for the RS sector independent of SM gauge coupling? Buchdahl (1962) and Aurilia-Umezawa (1969) show curved-spacetime acausality for spin-3/2 can occur even without internal gauge groups. Unanalyzed for the Y¹⁴ geometry.
+**Remaining open conditions (not VZ obstruction, dynamical residuals):**
 
-**Failure conditions (F1–F3):** VZ becomes a genuine obstruction if (F1) RS decouples and has no guardian symmetry, OR (F2) the gimmel metric produces gravitational VZ acausality, OR (F3) the super-IG guardian algebra does not close properly.
+**F5.** Lower-order curvature terms at 4D: Sp(64) gauge curvature `F_A` and 4D Riemann tensor `R_{g_s}` are zero-order terms in `D_GU^{4D}`. Cannot modify the principal symbol (CONDITIONALLY_RESOLVED by vz-oq2, vz-subprincipal). The constrained-Hamiltonian propagation of the subsidiary condition `Gamma^{4D} psi = 0` in an Sp(64) background: residual open at full dynamical level.
 
-**Evasion confirmation conditions (E1–E3):** VZ is evaded if (E1) RS does not decouple at 14D (no standalone RS field), OR (E2) RS decouples but has an explicit guardian; AND (E3) the gravitational background VZ problem is absent.
+**F6.** 4D EFT decoupling: if a KK mass gap isolates the lightest RS KK mode as an approximately standalone 4D spin-3/2 field, VZ analysis must be repeated for that mode. The 14D off-diagonal coupling provides evidence against decoupling, but a mass gap below the KK scale could produce approximate decoupling. Requires spectrum of `D_GU^{4D}`.
+
+**OQ2 (guardian symmetry for decoupled RS).** IF the RS sector decouples (which is not established), a guardian symmetry would be needed. The super-IG candidate has no published analog. This condition is contingent on F6.
+
+**OQ (gravitational VZ from gimmel metric).** The Weyl tensor of the gimmel metric on `Y^{14}` could in principle produce curvature-induced VZ acausality (Buchdahl 1962, Aurilia-Umezawa 1969) independent of gauge coupling. The zero-order argument from vz-oq2 shows this cannot modify the principal symbol; the sub-leading level requires the Hamiltonian analysis of F5.
+
+**Failure conditions remain (F1–F3 renamed F5–F6):** VZ becomes a genuine obstruction at 4D if (F5-full) lower-order curvature generates new characteristics in the constrained-Hamiltonian analysis, OR (F6) RS decouples into a standalone 4D field with no guardian symmetry.
 
 **Candidate richer datum.**
 

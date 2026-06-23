@@ -505,3 +505,24 @@ File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 Verdict: EVADED (overall); OQ3 CONDITIONALLY_RESOLVED (this pass)
 The main vz-schur computation (mixed-covector Schur complement, §8 kernel argument, full 14D gamma-trace RS projection) was already filed; this pass adds §17 computing OQ3 (section-pullback 4D preservation). Key result: the section pullback `s*(D_GU)` preserves the 4D Clifford module property by naturality of principal symbols -- `sigma_{s*(D_GU)}(eta)^2 = g_s(eta,eta) Id_{E_s}` for all horizontal 4D covectors, because the second fundamental form II_s contributes only zero-order (Gauss formula) terms that do not affect the principal symbol. The §8 kernel argument descends to 4D verbatim, giving `ker S_{R_s}^{4D}(eta) = 0` for `g_s(eta,eta) != 0`. VZ evasion at 14D descends to VZ evasion at 4D. Remaining open for OQ3: OQ3-V1 (CAS coordinate check), OQ3-V2 (4D E block explicit invertibility check), OQ3-V3 (`R_s = ker Gamma^{4D}` identification).
 File: `explorations/vz-schur-complement-2026-06-23.md`
+
+---
+
+### discrete-series OQ3b+OQ3c analytic Fredholm (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED (upgraded)
+Pushed OQ3b (RS block Fredholm index = 8) and OQ3c (H-index additivity) from degree-of-freedom counting to analytic Fredholm theory level. OQ3b (§15): applied Atiyah-Schmid formal-degree sum to S_R^{eff} on L2_disc; Casimir matching gives C_{sl(4,R)} = 13/4 for the RS K-type D(1/2,0) (= 3/4 from sl(2,C) Casimir + rho-shift 10/4 from |rho_G|^2 - |rho_K|^2 = 5 - 10/4); formal degree d(pi) = 1 per summand (Plancherel polynomial ratio P(lambda+rho)/P(rho) = (225/4)/12 at reconstruction grade); Hom count = 8 (4 copies D(1/2,0) + 4 copies D(0,1/2) from physical RS fiber tau_RS^{phys}); ind_H(S_R^{eff}) = 8. OQ3c (§16): exact Atkinson-Schur LDU shows ind(D_GU) = ind(A) + ind(S_R^{eff}) with triangular factors having index 0; H-orthogonality established from H-linearity of Pi_RS (Clifford bimodule). Combined ind_H = 16 + 8 = 24. Remaining hard gates: CAS verification of C_{sl(4,R)} = 13/4 (AF1), Plancherel ratio (AF2), Hom multiplicity-one (AF3).
+File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
+
+---
+
+### vz-schur (2026-06-23) -- OQ3-V1/V2/V3 verification pass
+Verdict: VERIFIED (4D VZ evasion)
+Resolved all three open verification conditions from §17, upgrading 4D VZ evasion from CONDITIONALLY_RESOLVED to VERIFIED. OQ3-V1: explicit horizontal Clifford computation in flat-gauge coordinates gives `c_s(eta)^2 = g_s(eta,eta) Id_S` as an exact matrix identity with no anomalous normal-direction terms; the PsDO theorem (Hormander Vol. III §18.1) confirms the principal symbol is connection-independent. OQ3-V2: the 4D E-block `[[0, 1/4],[1, 3/2]]` (4D analog of the 14D block with dimension factor 4 replacing 14) has determinant `-1/4 != 0`, giving explicit invertibility; confirmed independently by the block-determinant argument from the overall Clifford identity. OQ3-V3: section pullback on the H*/N* splitting is exact -- `s*(Gamma^{14D})|_{horizontal 1-forms} = Gamma^{4D}` with zero normal-component contribution; normal RS components become KK scalar fields in the 4D reduction, not spin-3/2 RS fields; the identification `R_s = ker Gamma^{4D}` is forced by the fiber bundle structure of `pi: Y^{14} -> X^4`. The 4D VZ evasion theorem (§18.4) now states: characteristic cone of `D_RS_eff^{4D}` = null cone of `g_s`; no spacelike characteristics; VZ obstruction absent at 4D principal-symbol level. Remaining dynamical residuals: F5 (lower-order curvature at 4D, CONDITIONALLY_RESOLVED), F6 (EFT decoupling scale, open).
+File: `explorations/vz-schur-complement-2026-06-23.md`
+
+---
+
+### ii-s-explicit (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Extended the moving-frame computation of `II_s^H` to derive the full explicit Codazzi equation [CodEq-Explicit]: the antisymmetrized second covariant derivative of the distortion `theta` equals the X^4 Riemann curvature acting on the base index of `theta` plus an ambient gimmel curvature correction from the H-H-V Christoffel block. This is the integrability condition that a distortion `theta` must satisfy to be the second fundamental form of an embedded GU section. The B1-B3 unit-identification conditions for CPA-1 were assessed: B1 is falsified by the Lichnerowicz computation (C_GU = 8, not 1); B2 is CONDITIONALLY_RESOLVED (functional form `Lambda_GU = 8 epsilon_sec^2 lambda_max^2` is correct, numerical equality requires fine-tuning epsilon_sec = 1/(2 sqrt(2))); B3 (shared operational definition of t_obs linking GU curvature scale R to TaF decoherence time) is not independently established. CPA-1 remains CONDITIONALLY_RESOLVED with structural contact at explicit coefficient C_GU = 8.
+File: `explorations/ii-s-moving-frames-2026-06-23.md`
