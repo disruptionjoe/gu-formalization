@@ -233,6 +233,12 @@ Layer 3 result feeds Phase 2 interpretation regardless of Layers 1-2 outcome.
 | 2026-06-22 | **N4 RESOLVED — IG dimension matching and τ⁺/Sp(64) construction.** The residual from the anomaly audit (dim sp(64) = 8256 vs. 16384) is CLOSED. Key findings: (1) τ⁺: Sp(64) → IG is a well-defined group homomorphism — the construction is purely group-theoretic and works for any Lie group G (verified against standard gauge theory references: Atiyah-Hitchin-Singer, Bleecker). (2) The 16384 = dim u(128) figure was a coincidence of the (7,7) real-type Clifford algebra where dim_R Cl(7,7) = 128^2 = dim_R u(128); no physical requirement forces dim g = 2^{14} in the (9,5) setting. (3) The shiab Phi: Omega^2 ⊗ S → Omega^1 ⊗ S uses Cl(9,5) and S = H^{64}, NOT sp(64) — shiab and gauge algebra dimensions are independent (disjoint bundles over Y^{14}). (4) Double coset equivariance theta(tau+(g_a) · omega · tau+(g_b)) = Ad(g_b)^{-1} theta(omega) holds for G = Sp(64) by the standard proof. NGUYEN §2 FULLY CLOSED. Filed explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md. Updated nguyen-critique-full-synthesis.md §3.2 from "SUBSTANTIALLY ADDRESSED; one residual open" to "FULLY CLOSED". Updated NEXT-STEPS.md N4. |
 | 2026-06-22 | **Phase 1 parallel agent results in.** Four agents (A–D) returned verdicts on anomaly structure, generation count, hidden curvature, and distortion + bundle formalization. See Phase 1 Results section below. |
 | 2026-06-22 | **Synthesis paper drafted.** `papers/canonical-structures-14d-metric-geometry-2026-06-22.md` — 9-section technical paper synthesizing all Phase 1 and follow-on results. Verified results stated as theorems with proof sketches (signature (9,5), spin structure w₂=0, shiab existence, Sp(64) anomaly cancellation, SM branching to one generation). Reconstruction-grade results flagged (RS sector generation content, torsion curvature SL(2,ℂ) labels). Four open questions with precise closure conditions: OQ1 discrete series condition for fiber Dirac operator (central analytic gap for generation count), OQ2 Codazzi equation for Sp(64) bundle, OQ3 Velo-Zwanziger evasion for spin-3/2 sector, OQ4 variational principle on Γ(π). Nguyen §2 critique fully dissolved under (9,5) correction. |
+| 2026-06-23 | **CORRECTION THETA-01 — theta-field ratio prediction overstated.** The claim in `explorations/theta-field-flrw-eos-2026-06-23.md` §7.2 and §12.1 that the ratio w_a/(w_0+1) ~ -1.80 is "independent of f_0 (the unknown initial amplitude)" and constitutes a "genuine GU prediction" was overstated. The ratio is f_0-independent (correct algebra: f_0 cancels). However, the numerator -3.17 f_0 comes from dw_B/dz at z=0, which was evaluated at phi_0 ~ 1.94 rad derived from the de Sitter tracker approximation. A different phi_0 gives a different dw_B/dz and a different ratio. The ratio is dependent on phi_0, which depends on matter-era evolution that was acknowledged as not computed (OQ3). Corrections applied to: (a) exploration §7.2 and §12.1, (b) exploration §11 OQ5 replaced with phi_0-dependence task, (c) exploration §9.2 "genuine GU prediction" framing replaced, (d) canon/theta-field-flrw-dark-energy-eos.md Result 3 and Primary Gap sections. Correct description: "reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad from the de Sitter tracker, independent of f_0 but not of phi_0." Canon file remains at CONDITIONALLY_RESOLVED; no demotion to explorations needed as the underlying physics is otherwise sound. New open task: compute full phi_0-dependence of w_a/(w_0+1) to determine whether -1.80 is a min/max/saddle. |
+| 2026-06-23 | **VZ evasion for mixed 14D covectors: CONDITIONALLY_RESOLVED (reconstruction).** For all `xi = xi_H + xi_V in T*Y^14` with `g_Y(xi,xi) != 0`, the effective RS principal symbol `S_R^{14D}(xi)` has trivial kernel. Proof: the Clifford module identity `M(xi)^2 = xi2 Id_E` forces `ker S_R = 0` via Schur block-inversion argument (if `S_R psi_R = 0` then `M(xi)(psi_R, -E^{-1}C psi_R) = 0`, hence `xi2(psi_R,...) = 0`, hence `psi_R = 0`). Full chain: OQ1 RESOLVED (`S_R^2 != xi2 Id`; correct statement `A S_R = xi2 Id` exact); OQ2 CONDITIONALLY_RESOLVED (curvature terms zero-order, no new characteristics); OQ2-b subprincipal CONDITIONALLY_RESOLVED; OQ3-V1/V2/V3 RESOLVED (4D section pullback VERIFIED). F5 CONDITIONALLY_RESOLVED; F6 CONDITIONALLY_RESOLVED (B/C blocks kinematic, loop-exact). VZ evasion status: EVADED. Full gamma-trace RS definition in 14D: `R^{14D} = ker Gamma^{14D}`, dim_R = 3328. Filed `explorations/vz-14d-mixed-covectors-2026-06-23.md` (synthesis), `explorations/vz-schur-complement-2026-06-23.md` (main Schur; OQ3-V1/V2/V3), `explorations/vz-oq1-sr-squared-identity-2026-06-23.md`, `explorations/vz-oq2-lower-order-curvature-2026-06-23.md`, `explorations/vz-subprincipal-symbol-rs-2026-06-23.md`, `explorations/vz-f5-curvature-check-2026-06-23.md`, `explorations/vz-f6-eft-decoupling-2026-06-23.md`. |
+| 2026-06-23 | **CORRECTION DARK-ENERGY-01 (MO-03): Dark energy theta divergence-free verdict downgraded from RESOLVED to CONDITIONALLY_RESOLVED.** The canon file `canon/dark-energy-theta-divergence-free.md` carried verdict RESOLVED based on the C3/Noether path. Review found the central claim D_A* theta = 0 rests on Assumption 3 (structural identification: theta is the gauge-potential sector of E_A), which is explicitly labeled reconstruction grade and is not proved. The C3 Noether argument is structurally sound but conditional on Assumption 3. The C1+C2 alternative path (gimmel G-invariance) is explicitly acknowledged as open. Neither path is complete. Changes applied: (a) frontmatter verdict changed from RESOLVED to CONDITIONALLY_RESOLVED; (b) correction field added to frontmatter; (c) Step 4 header updated from COMPLETE to CONDITIONALLY COMPLETE; (d) Step 4 opening sentence clarified as conditional on Assumption 3; (e) Assumption 3 block expanded with explicit statement that it is unproved and load-bearing; (f) Known Failure Modes expanded from 3 to 5 named failure modes (F1–F5), with F2 explicitly stating neither path is complete; (g) Upgrade Conditions section added with two conditions for upgrade to RESOLVED; (h) CANON.md entry updated; (i) RESEARCH-STATUS.md current research map entry updated. |
+| 2026-06-23 | **NOTE MO-07 (OC2 Gate A1 — P_disc target unanswered): No verdict change; three failure conditions added (FC7-FC9).** The file `explorations/oc2-sobolev-a1-bounded-transform-2026-06-23.md` carried verdict CONDITIONALLY_RESOLVED with FC1-FC6, but did not address the fundamental question: what is P_disc projecting onto when SL(4,R) has no scalar discrete series (Harish-Chandra criterion fails: rank(G) = 3 ≠ rank(K) = 2)? In the non-compact Y^14 setting, the scalar sector of D_GU on SL(4,R)/SO_0(3,1) has no L^2 discrete spectrum; the three framework candidates (b-calculus, scattering, Melrose-Piazza) each supply conditional boundedness but none verify that a non-trivial discrete sector exists on the non-compact fiber. Changes applied: (a) Priority note added to §1 (before Problem Statement) naming the unanswered question and routing clarification that Gate A1 is only operative for the secondary non-compact Y^14 analytic program — the primary APS/K3 route bypasses A1 by working on the compact K3 factor; (b) Three additional failure conditions added to §8: FC7 (scalar P_disc has empty target on non-compact fiber — no discrete series for SL(4,R)), FC8 (tau-twist S(6,4) fails to generate discrete L^2 spectrum on A3 fiber, collapsing the non-compact Y^14 analytic program onto the APS/K3 route), FC9 (Gate A1 is non-load-bearing because APS/K3 route is primary, making CONDITIONALLY_RESOLVED a mislabeled priority weight rather than a false verdict). Verdict CONDITIONALLY_RESOLVED is retained — the frameworks do supply conditional boundedness — but the file now makes explicit that this is secondary to the APS/K3 route and that the P_disc target question is open. |
+| 2026-06-23 | **CORRECTION VZ-01 (critical): VZ 14D mixed-covector status downgraded from EVADED to CONDITIONALLY_EVADED.** The §4 argument in `explorations/vz-14d-mixed-covectors-2026-06-23.md` uses `E^{-1}` without proving E invertible. The `det(M) = det(E)*det(S_R)` identity is a consequence of E being invertible, not a proof of it -- using it to conclude `det(E) != 0` is circular. If E has a null vector for some xi with `xi2 != 0`, the Schur block fails before the kernel argument. Changes applied: frontmatter `vz_evasion_status` changed to `CONDITIONALLY_EVADED` and correction field added; §4 invertibility remark replaced with explicit precondition-failure analysis; §7 table mixed-covector and E-block rows updated; §7 overall verdict updated; §9 rewritten with open precondition. The 4D pullback (OQ3-V1/V2/V3, VERIFIED) and the Clifford non-decoupling argument are unaffected. Open precondition: prove `E(xi): Q -> Q` has trivial kernel for all xi with `g_Y(xi,xi) != 0` by direct Cl(9,5) computation. |
+| 2026-06-23 | **CORRECTION H3-01 (MO-04): h3-gap2-gu-universality frontmatter verdict corrected from OPEN to PARTIAL.** The single `verdict: OPEN` in the frontmatter of `explorations/h3-gap2-gu-universality-2026-06-23.md` obscured meaningful partial resolution already recorded in the §6 summary table and §9 body verdict of the same file. The file body (§5.2 and §9) already records a CONDITIONALLY_RESOLVED verdict for Q-NAC and Q-SBP (equivariant splits), alongside FAILS-as-stated for Q-SBP (all splits) and OPEN for Q-SBP (SM-charge/Pati-Salam settings). The single frontmatter OPEN did not capture this structure. Fix applied: frontmatter `verdict` changed from `OPEN` to `PARTIAL`; `verdict_detail` block added enumerating four sub-condition verdicts; `corrections` block added recording H3-01 date and summary. Sub-condition verdicts: (1) Q-NAC: CONDITIONALLY_RESOLVED (reconstruction) -- GU null-cone causal structure forces NAC via null-cone-bounded propagation, conditional on VZ evasion + APS/Fredholm on K3. (2) Q-SBP all settings: FAILS as stated -- product-state non-equivariant bipartite split yields CHSH <= 2; full universality refuted. (3) Q-SBP Sp(64)-equivariant splits: CONDITIONALLY_RESOLVED (reconstruction) -- Sp(64) irreducibility of H^64 rules out any Sp(64)-equivariant bipartite split of H^64. (4) Q-SBP SM-charge (Pati-Salam) settings: OPEN -- G_PS acts reducibly on S(6,4) = C^16 (a subspace of H^64); Sp(64) irreducibility does not transfer to the restricted G_PS action; whether G_PS-equivariant product-state decompositions of S(6,4) exist is an open computation (OQ-G2-1). The §5.2 correction in the body (withdrawal of SM-charge equivariant Q-SBP claim) is now consistently reflected in the frontmatter. |
 
 ---
 
@@ -690,6 +696,13 @@ File: `explorations/rc3-harish-chandra-c-function-2026-06-23.md`
 
 ---
 
+### oq-rk1-cas-pi-rs-rank-check (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Computed rank_H(Pi_RS * E_+) explicitly from Cl(9,5) = M(64,H) structure. Exact algebraic chain: omega_{9,5}^2 = +1 (integer arithmetic: (-1)^{91+5} = +1), giving rank_H(S^pm) = 32; gamma-trace Gamma^{14D} is H-linearly surjective on S^- for any non-null covector (c(v)^{-1} = c(v)/g(v,v) exists), so rank_H(ker Gamma^{14D}|_{+}) = 448 - 32 = 416 (exact); section pullback to 4D zero modes gives rank_H(S_RS^{+,4D}) = 96 pre-gauge; APS formula identification rank_H(E_RS^{eff}) = ind_H(D_RS)/A-hat(K3) = 8/2 = 4 at reconstruction grade (gate: Sp(64) instanton Chern correction ch_2(E_RS)[K3] must vanish). A sign error in the Cl(3,1) volume form (omega_{3,1}^2 = -1, not +1) was identified and corrected, clarifying why the tensor-product factorization S = S(3,1) x S(6,4) does not give a naive chiral splitting. No valid 64x64 H-matrix counterexample exists within the Clifford algebra constraints. Three explicit failure conditions: CF5 (ch_2(E_RS) non-zero), CF6 (ind_H(D_RS) != 8), CF8 (KK fiber mixing into zero modes).
+File: `explorations/oq-rk1-cas-matrix-rank-2026-06-23.md`
+
+---
+
 ### signed-readout-oq1-record-graph (2026-06-23)
 Verdict: RESOLVED
 Defined the record-graph G_R as a DAG with weight labeling lambda: V -> G and no global time; stated the finality-semantics condition F(O, r_j) as the causally closed past condition (r_j and all its causal predecessors in O's processed records, no timestamps); proved the signed-readout monotonicity criterion is equivalent to "all lambda(r) in G_+" -- a nonneg-weight condition on G_R -- and verified this via the abstract PN/Jordan theorem applied to the finalized evidence monoid E_O. A three-record toy diagram separates all four required relations (evidence order, causal order, finality, readout order) and meets all spec success criteria. Six explicit failure conditions stated. What the record-graph layer adds over abstract PN/Jordan: observer-relative finality, causal-dependence constraints on evidence accumulation, and a concrete time-free grounding. Remaining: OQ1-A (TaF H3 contact via Cech, N3 named open blocker), OQ2 (integer-index recovery), six-axis spec row for this observer model.
@@ -701,6 +714,13 @@ File: `explorations/signed-readout-oq1-record-graph-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Filled one complete six-axis candidate specification (substrate/observer/pairing/causal/emergence/loop) for the GU section-selection protocol where the L1-L2 coupling rule Gamma >= Gamma_min = ln(1/epsilon)/t_obs is the load-bearing constraint, discharging the final promotion gate for the fr2-bvn-layer5 coupling-rule candidacy. The candidate (GU-section-BvN-coupling) places Y^14 = Met(X^4) with quantum metric fluctuations at L1, a Snowball/metastable-consensus observer with decoherence rate Gamma and latency t_obs at L2, BvN-gated metastable-consensus pairing at L3 (carrying the coupling inequality), conditional Lorentzian causal order at L4, specific-object emergence at L5, and Tikhonov-Willmore gradient flow (Lambda = 8 epsilon^2 / t_obs^2) at L6; all six axes filled with class labels, specifications, literature anchors, and class-assumption signatures broken. Six explicit failure conditions and one first falsification test (quantum Willmore well-posedness) are stated; the coupling rule is admitted as an exploration-grade candidate for the six-axis Current Coupling Rules section. Remaining: quantum Willmore formulation (RC1), Lambda GU-first-principles derivation (RC2), P4 BvN universality (RC3), discrete-series generation count OQ3a-c (RC4).
 File: `explorations/six-axis-l1l2-coupling-filled-example-2026-06-23.md`
+
+---
+
+### six-axis-l1l2-coupling-second-filled-row (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Filled a second six-axis candidate specification row for the FR2 Gamma_min coupling rule lambda_max <= Gamma/ln(1/epsilon) using the Sorkin causal-set observer (from FR1) as the physically distinct L1 substrate: a locally finite poset (C, prec, psi) with Lindblad-decohering quantum amplitudes on each element. The coupling bound is derived from first principles in five steps: Lindblad decay law, classicality gate condition, rate-latency duality, FR1 order-completion independence, and BvN wall at element level -- no ad hoc rate assumptions required. FR1's rate-blindness result is shown to be preserved (order-completion gate is rate-blind; classicality gate is rate-sensitive; gates are independent). Primary failure condition: if the Sorkin substrate does not natively include quantum amplitudes, the coupling bound requires external quantum-gravity input. Falsification condition explicitly stated: exhibit a Sorkin observer finalizing records at lambda_max > Gamma/ln(1/epsilon) without decoherence exceedance, or show that causal-set chirality observables commute with Lindblad operators (classical observable, vacuous coupling). Remaining: RC1 (quantum causal set canonicity in Sorkin literature), RC2 (observable commutativity check), RC3 (chirality coherence relevance), RC4 (gate independence under quantum causal orders).
+File: `explorations/six-axis-l1l2-coupling-second-example-2026-06-23.md`
 
 ---
 
@@ -1243,6 +1263,15 @@ Verdict: CONDITIONALLY_RESOLVED
 Computed the dark energy equation of state w(z) for the GU distortion theta field on an FLRW background with mass M_KK = 2*sqrt(2) H_0 (from the fiber normal Laplacian spectrum). The theta field is above the de Sitter Breitenlohner-Freedman bound (M_KK = 2.83 H_0 > 3H_0/2), placing it in the oscillating+damped regime with period ~37.7 Gyr; at z=0 the field has completed ~0.31 cycles. GU dark energy has a two-component structure: umbilic Lambda_eff (w=-1, constant) plus decaying oscillating theta (instantaneous w ~ +0.76). The total effective w_0 ~ -0.80 for initial amplitude f_0 ~ 0.11 (B_i ~ 0.92 M_Pl), consistent with DESI DR1. The model-independent ratio prediction w_a/(w_0+1) ~ -1.80 (independent of initial amplitude) is within 1-sigma of DESI DR1 data, so Candidate D is NOT currently ruled out. Primary gap: GU does not derive B_i from first principles; without this, w_0 is matched rather than predicted.
 File: `explorations/theta-field-flrw-eos-2026-06-23.md`
 
+CORRECTION (2026-06-23, THETA-03): The phase phi ~ 1.94 rad and w_B ~ +0.76 are de-Sitter-approximation-only, unreliable by O(1). The matter-dominated phase (z > 0.3) has H >> H_0*sqrt(Omega_Lambda) and was not integrated; the field oscillates more slowly there, so accumulated phase is smaller than the de Sitter estimate. Required fix: numerically integrate Klein-Gordon in full Lambda-CDM H(z) = H_0*sqrt(Omega_m*(1+z)^3 + Omega_Lambda) from z=2 to z=0. De Sitter valid only for z < 0.3. Turner (1983, PRD 28, 1243) is the reference for massive scalar evolution in matter-dominated backgrounds. Structural results (oscillating+damped regime, two-component structure, sign of w_a, z_osc ~ 2) are unaffected. Numerical values w_B ~ +0.76, coefficient 1.76, f_0 ~ 0.11 are all de-Sitter-approximation-only pending FLRW integration.
+
+### h3-gap2-pati-salam-f2-bipartite (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Explicitly computed the bipartite structure of S(6,4) = C^16 under G_PS = SU(4) x SU(2)_L x SU(2)_R. Clebsch-Gordan analysis (reconstruction grade) shows no G_PS-equivariant tensor-product decomposition S(6,4) = S_A tensor S_B exists with both factors nontrivial: the unique G_PS-equivariant split is the direct sum (4,2,1) + (4-bar,1,2). The GU vacuum state restricted to the (V_L, V_R) bipartition for spacelike-separated observers is maximally entangled by CPT symmetry and Bisognano-Wichmann modular theory, giving |CHSH| = 2sqrt(2) for SM-charge-based measurement operators. No SM-charged quantum-coherent bipartition of S(6,4) admits |CHSH| <= 2; the OQ-G2-1 failure condition F2 from h3-gap2-gu-universality is addressed at reconstruction grade. Four active failure conditions remain (GU left-right symmetry in vacuum, Bisognano-Wichmann for GU pullback, CAS Clebsch-Gordan verification, GU measurement postulate).
+File: `explorations/h3-gap2-f2-pati-salam-bipartite-2026-06-23.md`
+
+---
+
 ### h3-gap2-gu-universality (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
 Assessed whether GU observer geometry universally forces SBP-odd + NAC for all valid observer records. Q-NAC: GU null-cone causal structure (VZ evasion + propagation of singularities, reconstruction grade) forces NAC structurally -- null-cone-bounded propagation means no observer section satisfying D_GU field equations can be anticipatory. Q-SBP: Sp(64) irreducibility of S = H^64 (simple ring, irreducible standard representation) rules out Sp(64)-equivariant product-state bipartite splits; SM-charge-based (Pati-Salam-equivariant) measurement settings produce |CHSH| > 2 for all SM-sector GU spinors, and Gap 1 converts this to Odd-SBP under NAC. Counterexample configurations (non-equivariant product-state splits, thermal/classical-limit observers below Gamma_min) exist but fall outside the physically valid GU domain. Full H3 remains OPEN pending Pati-Salam bipartite structure computation (F2) and GU measurement postulate (F4); H3 physical domain now precisely characterized as quantum-contextual GU observers with SM charges and Gamma >= Gamma_min.
@@ -1256,3 +1285,344 @@ Answered OQ2 from the companion note rfail-non-umbilic-schwarzschild: the linear
 File: `explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md`
 
 ---
+
+### signed-readout-theorem (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Formal theorem statement for the signed-readout boundary theorem written at reconstruction grade and promoted to canon path. Five-part theorem (M/P/C/Z/K) with full hypotheses H1-H7, complete elementary proofs for the core (Parts M, P, C), and seven explicit falsification conditions F1-F7. The core claim -- monotone provenance coexists with non-monotone readout precisely when any generator weight is negative (w_- != 0) -- is RESOLVED at reconstruction grade with explicit proofs requiring only free commutative monoids and lattice-ordered abelian groups. The integer-index stability (Part Z) and K-theory lift (Part K) are CONDITIONALLY_RESOLVED, gated on Atiyah-Jannich stability for the non-compact Y^14 setting (OC1) and H-linear Fredholm theory for L^2(Y^14, S=H^64) (OC2). Two worked physical instances occupy opposite sides of the boundary: GW axial charge Q_A = n_+ - n_- (non-monotone, coexistence case) and GU generation count ind_H = 24 (monotone, degenerate case with w_- = 0).
+File: `active-research/signed-readout/theorem-statement-v1-2026-06-23.md`
+
+---
+
+### type-ii1-twisted-real-structure (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Constructed a twisted real structure J_twisted = C_{3,1} otimes C_{(6,4)} on the section-pullback s*(S) = S(3,1) otimes S(6,4), where C_{3,1} is the 4D Lorentz charge conjugation and C_{(6,4)} is the Cl(6,4) charge conjugation on the internal Pati-Salam spinor module. J_twisted is antiunitary, Sp(64)-equivariant (reconstruction grade), and satisfies J_twisted^2 = +1 exactly (from Cl(3,1) giving C_{3,1}^2 = +1 and Cl(6,4) with KO-type 2 giving C_{(6,4)}^2 = +1). Sign triple computed: epsilon = +1 (RESOLVED), epsilon' = J_twisted D_GU = +D_GU J_twisted (CONDITIONALLY_RESOLVED; follows if D_GU does not break the Lorentz/internal factoring at the principal-symbol level), epsilon'' = J_twisted gamma = -gamma J_twisted (CONDITIONALLY_RESOLVED; from C_{(6,4)} gamma_{int} C_{(6,4)}^{-1} = -gamma_{int} for n_{int}=10). Full sign triple (+1,+1,-1) = KO-dimension 6 mod 8. The SM fermion content is preserved: charge conjugates of SM particles are SM particles; J_twisted acts within the 16-fermion sector. Inner fluctuation with J_twisted has the potential to recover SU(3) x SU(2) x U(1) / Z_6 from the A_F-bimodule structure (same as CC -- the right-action J_twisted A_F J_twisted^{-1} = A_F^{op} is the charge-conjugate representation). Key insight: the relevant real structure on the 4D pullback s*(S) is NOT the 14D GU quaternionic J_GU (which squares to -1) but the 4D charge conjugation J_twisted (which squares to +1); the sign flip arises from the Clifford-algebra branching under the section pullback s*(S) ~= S(3,1) otimes S(6,4), not from a change to the 14D data. Six explicit failure conditions (F1-F6); highest priority: F2 (epsilon' sign for mixed shiab/II_s terms) and F6 (Type II_1 embedding of the 4D twisted triple). Full GU/Type-II_1 bridge still requires embedding the 4D construction into an ambient Type II_1 factor (target: semifinite triple from type-ii1-semifinite-triple-2026-06-23.md with J_twisted as the GU-side input to J_tau). The J^2 sign gap between GU and KO-dim 6 is resolved at the 4D section-pullback level.
+File: `explorations/type-ii1-twisted-real-structure-2026-06-23.md`
+
+---
+
+### oc2-b-parametrix-y14 (2026-06-23)
+Verdict: CONDITIONAL_DISCRETE_SECTOR_FREDHOLM; FULL_UNPROJECTED_b-FREDHOLM_NOT_DEFENSIBLE; WEIGHT_WINDOW_IDENTIFIED_CONDITIONALLY
+Constructed the b-parametrix for D_GU on noncompact Y^14 with explicit weight function r = log-conformal-scale on the dilaton end of the fiber GL(4,R)/O(3,1). The indicial family at the end is I(D_GU, lambda) = Gamma^r(i lambda - delta) + D_tang, where Gamma^r is the radial Clifford element with (Gamma^r)^2 = +1 (spacelike dilaton direction in signature (9,5)). The indicial roots are delta_j = -|mu_fib,j| where mu_fib,j are fiber Dirac eigenvalues derived from the normal Laplacian spectrum. Explicit indicial roots from the discrete fiber modes (reconstruction grade): delta in {-2sqrt(2)/R_s, -sqrt(14)/R_s, -3sqrt(2)/R_s, -sqrt(20)/R_s} with continuum threshold -9/(2R_s). Natural Fredholm weight: delta in Window 0 (delta > 0, standard L^2 regime with exponential decay at the end); all indicial roots are strictly negative, so Window 0 avoids them all. On the tau-twisted discrete sector, the compact-remainder parametrix Q_delta D_delta,disc = I_disc - Pi_ker + K_L with Pi_ker, Pi_coker finite-rank H-linear and K_L, K_R compact on K_H = L^2_{H,delta,disc}(Y^14, S) is constructible. Fredholm index on the discrete sector: ind_H(D_delta,disc) = 24 at reconstruction grade (APS route on K3-type X^4), independent of delta within Window 0. Full unprojected b-Fredholmness is NOT defensible: split-signature null cone prevents ordinary b-ellipticity and the scalar sector has continuous Plancherel spectrum (A3, rank 3, FJ equal-rank fails). Eight explicit failure conditions named (F1-F8). Primary analytic gate unchanged: P_disc bounded on weighted Sobolev spaces (A1), contingent on tau-twisted discrete sector existence (APS route survives at reconstruction grade via oc1-oc2-aps-closure).
+File: `explorations/oc2-b-parametrix-y14-2026-06-23.md`
+
+---
+
+### generation-count-rank3-resolution (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Synthesized all 2026-06-23 rank-correction and K3-gate results into a unified resolution
+note. Three-part verdict: (A) Rank-3 A3 direct route FAILED on theorem-grade grounds --
+Harish-Chandra's criterion rank(G)=rank(K) fails for SL(4,R) (rank 3) vs SO(4) (rank 2),
+where both ranks are compact-form Cartan ranks (dimension of maximal torus of the compact
+form, i.e. rank of the root system): rank(sl(4,R)) = 3 (root system A3, compact form SU(4))
+and rank(so(4)) = 2 (root system A1 x A1, SO(4) = (SU(2)xSU(2))/Z2); this compact-form
+rank is distinct from the split rank dim(a_q) = 3 of the symmetric space SL(4,R)/SO_0(3,1).
+Correction note (GEN-02, 2026-06-23): the file originally stated the rank criterion without
+pinning the rank convention; updated to explicitly distinguish compact-form Cartan rank from
+split rank; the claim itself (no discrete series) is correct and theorem-grade.
+so SL(4,R) has NO discrete series representations; the Atiyah-Schmid formal-degree sum is
+an empty sum = 0, not 8; the A3 Plancherel is absolutely continuous. (B) Tau-twisted route
+FAILS AS STATED on four independent criteria: F1 nonunitary coefficient (D(1/2,0), D(0,1/2)
+are not unitary H-representations, so L^2(G x_H tau_RS) is not a standard Hilbert L^2 space);
+F2 scalar equal-rank condition fails (split-rank=3, rank(K/(K cap H))=1, 3!=1);
+F3 Kobayashi-Oshima classification excludes (sl(4,R), so(3,1)) from the list of symmetric
+pairs admitting discretely decomposable restrictions; F4 asymptotic cone obstruction nonzero
+(diagonal ray (1,1) in C_K(K') is in the asymptotic K-support of tau_RS). The formula
+rank_correction(tau_RS)=2 is FALSIFIED -- do not use. (C) K3 gate RESOLVED --
+A-hat(T^4)=0 exact (three routes), A-hat(K3)=2 exact (topological invariant), T^4 gives
+1 generation (not 3) and is ruled out as a competitor; K3 is the unique compact
+simply-connected smooth Ricci-flat 4-manifold with A-hat=2 (Berger+Yau+Donaldson+Freedman);
+OQ3a RESOLVED. Generation count CONDITIONALLY_RESOLVED at 3 via APS/K3:
+ind_H(D_GU) = 8*A-hat(K3) + 8 = 16+8 = 24, generations = 24/8 = 3, conditional on
+rank_H(S_RS^+) = 4 (Candidate A); Candidate B (rank_H = 8 => 4 generations) not excluded.
+Primary remaining gate: OQ-RK1 (CAS matrix computation of Pi_RS*E_+ in M(64,H)) and
+OQ-RK2 (APS boundary analysis for constrained RS operator on K3).
+Correction note (GEN-01, 2026-06-23): rank_H(S_RS^+) = 4 was derived from a physical DOF
+heuristic with three halvings whose final step ("half of chiral = 4") is unjustified.
+dim_H(C^16) = 8 from Cl(9,5) = M(64,H) module theory; the heuristic requires a second
+chirality projector Pi_+ not derived in this file. Two candidates: rank_H = 4 (3 generations,
+requires Pi_+ derivation via OQ-RK1) or rank_H = 8 (4 generations, if no Pi_+). File
+updated to expose the ambiguity, add FC5, promote OQ-RK1 as a blocking gate.
+File: `explorations/generation-count-rank3-resolution-2026-06-23.md`
+
+---
+
+### cross-program-gu-taf-coefficient (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Completed the GU/TaF Tikhonov coefficient comparison using the Willmore-EL Lichnerowicz eigenvalue. Part A: C_GU = 8 from the Simons-formula Hessian of E[s] = int|II_s^H|^2 at round S^4: rough Laplacian on TT 2-tensors at l=2 gives mu_{2,2} = 4/R^2 (exact from SO(5) Casimir); ambient Willmore curvature correction +4K = +4/R^2 (Simons formula, reconstruction grade); total lambda_2 = 8/R^2; C_GU = 8 (algebraically exact given the formula [l(l+n-1)-2]/R^2 at l=2, n=4). Part B: Lambda_GU = lambda_max^2 exactly under the null-ray shot-noise model (epsilon_sec = 1/(2*sqrt(2)) = 1/sqrt(8) for n=4), via the algebraic identity C_GU(n) * epsilon_sec(n)^2 = 2n * 1/(2n) = 1 for all n >= 2. Lambda_GU does NOT match Gamma_min^2 generically; Gamma_min^2 = ln(1/epsilon)^2 * lambda_max^2 exceeds lambda_max^2 by the decoherence-tolerance factor ln(1/epsilon)^2. The clean contact is Lambda_GU = lambda_max^2 (service-rate squared), not Gamma_min^2 (decoherence-rate squared). Part C: B1 CONDITIONALLY_RESOLVED (null-ray shot-noise fixes epsilon_sec from n=dim(X^4), no free parameter, but model not derived from GU first principles); B2 VERIFIED algebraically (C_GU * epsilon_sec^2 = 8 * 1/8 = 1 exact); B3 CONDITIONALLY_RESOLVED (GU measurement-event and TaF record-finalization align under local-observer interpretation with t_obs = R/c). Key structural finding from theta-field result: the same coefficient 8 appears as C_GU (Tikhonov scale), M_KK^2 = 8/R_s^2 (KK mass gap from fiber normal Laplacian), and lambda_2 = 8/R^2 (Lichnerowicz eigenvalue) -- all three are the same geometric fact. Remaining gaps: ambient curvature correction +4K needs CAS verification; null-ray model needs GU-internal derivation; B3 t_obs alignment needs formal proof.
+File: `explorations/cross-program-gu-taf-coefficient-2026-06-23.md`
+
+---
+
+### CORRECTION (2026-06-23, RFAIL-01) — rfail-schwarzschild-oq2-weak-field definition clarification
+Severity: MODERATE (conceptual, not computational error)
+Scope: `explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md` and `canon/schwarzschild-weak-field-rfail.md`
+
+The exploration note and canon file were using a non-standard combined failure tensor R_fail^{full} that additively mixes two conceptually distinct failure objects: (A) the standard GR failure R_fail^{GR} = G^X - 8piG T - Lambda g (which is identically zero for Schwarzschild by definition, carrying no GU-specific content), and (B) the GU-specific Willmore-EL residual (section equation failure). The main theorem statement in §8.1 and the canon file's Proof/Assembly section presented R_fail^{full} as a single defined quantity without clearly separating these two modes or labeling the combination as non-standard. This was flagged in §4.3 but conflated in the theorem statement.
+
+The correction does NOT change the verdict (CONDITIONALLY_RESOLVED) or any computed value. The mathematical content is correct. What changed:
+- §4.1 (exploration) now explicitly defines both R_fail^{GR} (standard) and the Willmore-EL residual (GU-specific) separately before defining R_fail^{full} as their combination, with a prominent convention warning.
+- §4.2 (exploration) now separates the trivial statement (R_fail^{GR} = 0 exactly, standard GR) from the non-trivial GU computation (Willmore-EL residual ~ O(M/r^4)).
+- §4.3 (exploration) now states the separation clearly: R_fail^{GR} = 0 is trivial; the Willmore-EL residual is the GU-specific content; neither is zero for the other reason.
+- §8.1 main theorem (exploration) now leads with an explicit convention block naming both failure objects and warning that R_fail^{full} is non-standard, then states the theorem in terms of each component separately.
+- Canon file Scope section now includes the same convention block with both failure objects defined.
+- Canon file Assembly section now separates the two failure modes in the displayed equation chain.
+
+Readers using the standard GR definition of R_fail should apply R_fail^{GR} only (identically zero for Schwarzschild; trivial). The non-trivial GU content is entirely in the Willmore-EL residual, which vanishes at O(M/r) due to the curvature-order suppression Delta^perp H^i ~ O(M/r^4).
+Files modified: `explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md`, `canon/schwarzschild-weak-field-rfail.md`
+
+---
+
+### vz-14d-mixed-covectors correction (2026-06-23) [VZ-02]
+Issue: VZ-02 (moderate severity). The `B E^{-2} C` formula in §5 of `explorations/vz-14d-mixed-covectors-2026-06-23.md` stated explicit numerical coefficients `2842`, `98`, `203/7` with no derivation trace, no reference to a prior repo file, and no CAS verification. These numbers were sourced from `vz-oq1-sr-squared-identity-2026-06-23.md`, which was not yet committed to the repo and could not be independently verified.
+Fix applied: Added a clearly labeled reconstruction-grade warning block immediately after the formula in §5, stating that the three coefficients are unverified pending CAS confirmation under OQ-RS-1 and that the source file (`vz-oq1-sr-squared-identity-2026-06-23.md`) is not yet in the repo. The structural conclusion (`B E^{-2} C != 0`) is noted as expected to survive CAS verification; only the specific coefficient values are flagged as unreliable. Also updated the OQ-RS-1 entry in §8 to explicitly name the coefficient verification as part of its scope.
+No verdict change: the overall file verdict (CONDITIONALLY_RESOLVED, VZ evasion EVADED) is not affected -- the nonvanishing of `B E^{-2} C` is structural and does not depend on the specific coefficients.
+File: `explorations/vz-14d-mixed-covectors-2026-06-23.md`
+
+---
+
+### vz-e-block-direct-clifford-invertibility (2026-06-23)
+Verdict: RESOLVED
+Direct Clifford algebra proof that E(xi): Q -> Q is invertible for all xi with g_Y(xi,xi) != 0, closing the VZ-01 circularity gap. The proof uses only the 2x2 block structure of E(xi) on Q = E_0 + Im P_T and the identity gamma(xi)^2 = xi2 Id in Cl(9,5) = M(64,H): if E(xi)(phi, j(s)) = 0 then Gs = 0 then G^2 s = xi2 s = 0, so s = 0 (xi2 != 0); similarly phi = 0. Explicit inverse E^{-1} = [[-(26/xi2)G,(14/xi2)G],[(14/xi2)G,0]] verified by direct multiplication. The failure locus is exactly the null cone xi2 = 0 (expected hyperbolic characteristics, not a VZ problem). The Schur complement proof in vz-14d-mixed-covectors is now non-circular, upgrading vz-14d-mixed-covectors from CONDITIONALLY_EVADED to EVADED. Remaining open at operator level: loop corrections (OQ-RS-2), GU-Vasiliev comparison (OQ-RS-3), noncompact Fredholmness (OQ-RS-4), CAS matrix verification (OQ-CAS-E).
+File: `explorations/vz-e-block-direct-clifford-2026-06-23.md`
+
+
+---
+
+### oc2-sobolev-analytic-gate-a1 (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Framework assessment for supplying a bounded P_disc on weighted Sobolev K_H spaces for OC2 analytic gate A1. b-calculus combined with Melrose-Piazza spectral section is the best framework: b-calculus handles the dilaton R^+ end (single boundary face, standard single-face machinery), and Melrose-Piazza supplies a smooth family of bounded projections P_sec,x over observer space X away from the zero-mode subvariety Z. Scattering calculus better handles the full A3 fiber but requires rank-3 fibred-scattering extension and Harish-Chandra resolvent for S(6,4) coefficient bundle. Precise conditions: mass gap min{Delta_N}=8/R_s^2>0, weight delta strictly in Window 0, discrete spectrum separated from continuum threshold 9/(2R_s). Four conditions dischargeable from GU first principles (mass gap, weight choice, H-linearity, Sp(64)-equivariance of P_disc); four require new input (rank-3 corner b-calculus, Harish-Chandra resolvent for twisted spinors, no discrete modes in [20,81/4]/R_s^2, spectral flow control over X). Explicit failure family exhibited: deformation from K3 section (ind_H=24) to T^4 section (ind_H=8) forces 16 eigenvalue crossings through zero; at each crossing ||P_disc||_{W^{1,2}->W^{1,2}} blows up as 1/|lambda_j|->infty. The bounded transform F_x=D_x(1+D_x^*D_x)^{-1/2} remains bounded at zero eigenvalues (functional calculus handles zero modes without Riesz projection). Six failure conditions (FC1-FC6) precisely stated. OC2 status unchanged: CONDITIONALLY_RESOLVED.
+File: `explorations/oc2-sobolev-a1-bounded-transform-2026-06-23.md`
+
+---
+
+### historical-rank-one-archive-clean (2026-06-23)
+Verdict: RESOLVED
+Produced a reader-navigation index covering 21 exploration files that contain scalar BC_1 claims (BC_1 restricted root system, rho = 9/2, Lambda_RS^{FJ} = 3/2, split-rank = 1, FJ multiplicity-one, RC3 spectrum {8,14,18,20}/R_s^2, or (m_1,m_2) = (7,1)) for the pair (SL(4,R), SO_0(3,1)). Files are organized in three tiers: Tier 1 (5 primary source files that originated the scalar BC_1 model), Tier 2 (9 derivative files with partial or full self-awareness of supersession), Tier 3 (7 incidental-reference files). All Tier 1 files carry supersession pointers to rc1-root-mult-disambiguation-2026-06-23.md and/or generation-count-rank3-resolution-2026-06-23.md. No live-looking scalar BC_1 claim is left without a pointer. The index does not modify exploration files; it provides navigation for readers encountering old text.
+
+---
+
+### pc5-higgs-su2l-u1y-gate-computation (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+The gate test "does adj(Sp(64))|_{G_SM} contain (1,2,+1/2) under SU(3) x SU(2)_L x U(1)_Y?" is discharged at reconstruction grade via the Pati-Salam tensor product: the (4,2,1) x (4bar,1,2) cross term in adj(Sp(16)) contains (1,2,2) under Pati-Salam, which branches to (1,2,+1/2) + (1,2,-1/2) under G_SM (with B-L = 0 for the SU(4) singlet giving Y = T_{3R} = +1/2). The failure condition from the PC5 spec ("no (1,2,+1/2) in any natural decomposition of II_s^H") does not fire. Remaining gates: CAS explicit multiplicity check of adj(Sp(16))|_{G_PS} (OQ1), gauge-covariance of the fiber-component Higgs construction (OQ2), Mexican hat potential sign (F5 — dynamical, not representation-theoretic), and the Pati-Salam breaking mechanism needed before (1,2,+1/2) can function as the SM Higgs (F6 — separately OPEN).
+File: `explorations/pc5-higgs-su2l-u1y-gate-2026-06-23.md`
+File: `explorations/rank-one-archive-supersession-index-2026-06-23.md`
+
+---
+
+### h3-chsh-four-patch-cycle (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Transferred the two-patch S^1 Outcome D' holonomy result to the full four-patch CHSH cycle. Four observers (Alice-+, Alice--, Bob-+, Bob--) define patches over Y_spin ~ S^1; four overlaps (I_{12}, I_{23}, I_{34}, I_{41}) carry transition values c_{12}, c_{23}, c_{34}, c_{41} derived by C_TaF under NAC. The Four-Cycle-Odd-SBP condition (product of all 8 SBP incidence values = -1) forces holonomy = (+1)(+1)(+1)(-1) = -1 via the NAC factoring theorem from Gap 1, achieving Outcome D'. Falsification condition stated precisely: holonomy != -1 would refute H3 for the CHSH configuration. The Pati-Salam bipartite decomposition S(6,4) -> (4,2,1) + (4-bar,1,2) provides the natural Alice/Bob split; whether the GU SM-sector zero mode is entangled under this split (OQ-G2-1) determines whether the physical GU geometry forces odd-SBP, realizing the fixture configuration. Complete Python fixture specified as a self-contained analog of the two-patch test. Remaining gates: OQ-G2-1 (Pati-Salam product-state or entangled?) and OQ-G2-2 (explicit GU CHSH correlator showing |CHSH| > 2).
+File: `explorations/h3-chsh-four-patch-fixture-2026-06-23.md`
+
+---
+
+### type-ii1-exit-condition-cs1-af-embedding (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Constructed the explicit embedding phi: A_F -> M_{96}(C) otimes 1_R subset R (hyperfinite II_1 factor) via phi(a) = rho_L(a) otimes 1_R, where rho_L: A_F -> M_{96}(C) is the standard CC left action on H_F = C^96. All three CC grading data items are preserved: (1) full A_F = C oplus H oplus M_3(C) (RESOLVED -- all three components embedded faithfully via the CC representation); (2) Z/2Z-grading gamma_M = gamma_F otimes 1_R (RESOLVED -- A_F is entirely even-graded, intertwining condition exact algebraically); (3) real structure J_tau|_{p_F H} ~= J_F (CONDITIONALLY_RESOLVED -- modular conjugation J_tau restricts to CC charge conjugation J_F on p_F H up to unitary equivalence via bimodule uniqueness; three failure conditions FC-1 through FC-3 named and assessed as non-obstructing). Gate GC1 from type-ii1-semifinite-triple upgraded from "existence asserted" to "explicitly constructed at reconstruction grade." No GENUINE_OBSTRUCTION found. Primary remaining gate for verified upgrade: FC-3 (explicit 96x96 unitary U intertwining J_tau with J_F, a routine linear algebra computation). The J^2 structural gap (GC3) between GU quaternionic J (J^2=-1) and CC/Type-II_1 modular J_tau (J^2=+1) is unchanged; CS1 addresses the CC-side embedding only.
+File: `explorations/type-ii1-exit-cs1-af-embedding-2026-06-23.md`
+
+---
+
+### CORRECTION CR-02 — generation-count-rank3-resolution verdict downgraded (2026-06-23)
+Verdict change: CONDITIONALLY_RESOLVED -> OPEN
+File: `explorations/generation-count-rank3-resolution-2026-06-23.md`
+
+The prior verdict CONDITIONALLY_RESOLVED (at 3 generations, Candidate A) was inappropriate
+while Candidate B (4 generations, rank_H(S_RS^+)=8) remained live and undismissed.
+CONDITIONALLY_RESOLVED selects one candidate as a baseline; that selection requires either
+a derivation excluding Candidate B or an OQ-RK1 result confirming Candidate A. Neither
+exists: the value rank_H(S_RS^+)=4 is explicitly labeled "a heuristic reconstruction-grade
+guess, not a derived result" (GEN-01, file §C2). Selecting it as baseline overstates the
+state of knowledge.
+
+Changes applied to generation-count-rank3-resolution-2026-06-23.md:
+- frontmatter verdict: CONDITIONALLY_RESOLVED -> OPEN
+- frontmatter verdict_detail: updated to name both candidates as equistatus, gate on OQ-RK1
+- One-Sentence Result: "CONDITIONALLY_RESOLVED at 3 generations" -> "OPEN at 3 or 4 generations pending OQ-RK1"
+- Verdict Summary table: single CONDITIONALLY_RESOLVED row for generation count split into
+  two equistatus OPEN rows (Candidate A: 3 gen; Candidate B: 4 gen) plus updated K3/APS row
+- Part C GEN-01 paragraph: explicit statement that both candidates are equistatus and no
+  baseline should be selected before OQ-RK1
+- Section C3 heading: "(CONDITIONALLY_RESOLVED)" -> "(OPEN — Candidates A and B equistatus)"
+- Dependency Map "Conditionally Resolved" block: replaced with "Open — Candidates Equistatus"
+  block naming both candidates; generation-count-independent conditionally-resolved items
+  moved to a separate sub-block
+- "What Changed" current-state block: updated generation count line to show OPEN with both
+  candidates named
+- FC2 assessment: updated to note Candidate B already fires FC2, making FC2 live not
+  hypothetical
+- "Full upgrade to RESOLVED" phrasing clarified
+
+Correction reason: CONDITIONALLY_RESOLVED is appropriate only after OQ-RK1 resolves the
+rank_H ambiguity. Until then, the correct verdict is OPEN with both candidates listed as
+equistatus, gated on OQ-RK1 (CAS matrix computation of rank_H(S_RS^+) in M(64,H)).
+
+---
+
+### CORRECTION MO-01 — Shiab injectivity argument repaired (2026-06-23)
+
+**File corrected:** `canon/shiab-existence-cl95.md`
+
+**Error (Step 3, original):** The "Non-zero on all non-zero inputs" claim was justified by the argument "c(iota_{e_a} alpha) != 0 for any non-zero alpha and generic frame, therefore the sum sum_a e^a tensor c(iota_{e_a} alpha) s is non-zero." This is logically invalid: 14 individually non-zero terms can sum to zero. The injectivity conclusion was stated without proving non-cancellation of the sum.
+
+**Fix applied:** The Clifford-contraction identity sum_a e^a c(iota_{e_a} alpha) = c(alpha^#) (Lawson-Michelsohn §II.5, eq. 5.9) collapses the 14-term sum to a single Clifford multiplication by alpha^# (the metric-dual covector of alpha). Since alpha != 0 implies alpha^# != 0, and Cl(9,5) ~= M(64,H) is simple so any non-zero element acts injectively on the unique irreducible module S = H^64, the map is injective. The sum-cancellation concern is resolved at the algebra level: there is no sum to cancel because the standard Clifford-contraction identity reduces it to a single term.
+
+**Verdict change:** None. The canon/shiab-existence-cl95.md verdict remains RESOLVED. The injectivity of Phi is now established by a valid argument; the conclusion is unchanged. The three new Known Failure Modes added (sum-collapse identity precondition, non-degeneracy on gauge forms, uniqueness of equivariant map) do not affect the RESOLVED verdict for existence and injectivity.
+
+**Additional changes in same edit pass:**
+- "Non-zero on all non-zero inputs" bullet in Step 3 replaced with corrected argument citing the sum-collapse identity.
+- Known Failure Modes expanded with: (a) sum-collapse identity precondition and its discharge, (b) non-degeneracy on gauge curvature forms (unchanged substance, re-worded for precision), (c) uniqueness of equivariant map (new — open representation-theory question).
+
+---
+
+### CORRECTION CR-04 (critical) — vz-14d-mixed-covectors vz_evasion_status reverted to CONDITIONALLY_EVADED (2026-06-23)
+
+**File corrected:** `explorations/vz-14d-mixed-covectors-2026-06-23.md`
+
+**Error:** The `vz_evasion_status` field was upgraded from `CONDITIONALLY_EVADED` to `EVADED` within the same session loop that raised the VZ-01 circularity flag. The log entry `vz-e-block-direct-clifford-invertibility` (above) claimed RESOLVED status for E(xi) invertibility based on a reconstruction-grade argument in a same-session file (`explorations/vz-e-block-direct-clifford-2026-06-23.md`), and cascaded that to upgrade vz-14d-mixed-covectors to EVADED. This is methodologically unsound: a circularity flag cannot be closed by a same-session reconstruction-grade file without external verification. The `vz01_closure` field also incorrectly stated "CONDITIONALLY_EVADED upgraded to EVADED."
+
+**Verdict change:** `vz_evasion_status` EVADED -> CONDITIONALLY_EVADED. Overall §7 VZ verdict: EVADED -> CONDITIONALLY_EVADED. The 4D section-pullback result (OQ3-V1/V2/V3, VERIFIED) is unaffected.
+
+**Changes applied to `explorations/vz-14d-mixed-covectors-2026-06-23.md`:**
+- Frontmatter `vz_evasion_status`: EVADED -> CONDITIONALLY_EVADED
+- Frontmatter `vz01_closure`: rewritten to state "direct Clifford algebra argument provided (reconstruction grade); upgrade to EVADED requires verification outside the session loop"
+- §7 table E-block row: RESOLVED -> CONDITIONALLY_RESOLVED, with explicit note that the proof is same-session reconstruction grade pending external verification
+- §7 overall verdict line: EVADED -> CONDITIONALLY_EVADED
+- §9 verdict block: EVADED removed; open precondition reinstated with three explicit failure conditions: FC1 (independent external verification of 2x2 block kernel argument), FC2 (explicit CAS computation confirming the proposed E^{-1} formula), FC3 (confirmation that the failure locus is exactly and only the null cone with no non-null xi producing a zero eigenvalue of E)
+
+**The `vz-e-block-direct-clifford-invertibility` log entry above is retained as a record of the reconstruction-grade argument.** Its RESOLVED verdict describes the argument itself; it does not establish that the argument constitutes adequate methodological closure of a circularity.
+
+---
+
+### CORRECTION CR-03 — theorem-statement-v1 Section 7.2 Flensted-Jensen citation (2026-06-23)
+
+**File corrected:** `active-research/signed-readout/theorem-statement-v1-2026-06-23.md`
+
+**Section:** 7.2 (GU Generation Count physical instance), Setup bullet for X.
+
+**Error:** The parenthetical '|X| = 24 via the Flensted-Jensen computation and APS closure' cited the Flensted-Jensen discrete-series computation as co-establishing |X| = 24. This contradicts canon from the same session: generation-count-rank3-resolution-2026-06-23.md closes the Flensted-Jensen / scalar discrete-series route as explicitly FAILED on structural grounds: (1) SL(4,R) has no discrete series representations (Harish-Chandra criterion fails: rank(G)=3, rank(K)=2, 3 != 2); (2) the Atiyah-Schmid formal-degree sum over disc(SL(4,R)) is an empty sum; (3) all four tau-twisted rescue routes fail independently (Kobayashi non-admissibility of tau_RS, Oshima-Matsuki correction failure for A3 pair, split-rank mismatch A3 vs BC1, and vanishing formal degree at the empty discrete sector).
+
+**Fix applied (in-place edit to the Setup X bullet):**
+
+OLD: '|X| = 24 via the Flensted-Jensen computation and APS closure'
+
+NEW: '|X| = 24 via the APS/K3 route only (reconstruction grade, gated on OQ-RK1); the Flensted-Jensen discrete-series route is explicitly FAILED -- SL(4,R) has no discrete series (rank(G)=3 != rank(K)=2; Harish-Chandra criterion fails), so the Atiyah-Schmid formal-degree sum is an empty sum; all four tau-twisted rescue routes also fail independently (Kobayashi non-admissibility, Oshima-Matsuki correction, split-rank mismatch A3 vs BC1, and vanishing formal degree); |X| = 24 is supported only by the APS/K3 computation ind_H = 8*A-hat(K3) + 8 = 24, conditional on rank_H(S_RS^+) = 4 (GEN-01 OPEN)'
+
+**Verdict change:** None. The theorem-statement file verdict remains CONDITIONALLY_RESOLVED. The correction removes a false citation of a failed computation; the APS/K3 route was already the operative surviving justification in generation-count-rank3-resolution-2026-06-23.md and oc1-oc2-aps-closure-2026-06-23.md.
+
+---
+
+### CORRECTION (2026-06-23, CR-01 / THETA-03) -- theta-field FLRW dark energy EOS verdict demoted to OPEN
+
+**Severity:** CRITICAL
+**Scope:** `canon/theta-field-flrw-dark-energy-eos.md`
+
+The canon entry carried verdict CONDITIONALLY_RESOLVED at promotion. THETA-01 (phi_0-dependence of the ratio) was applied at promotion time. THETA-03 -- logged in the exploration source file and earlier in this log -- was not propagated to the canon frontmatter verdict.
+
+THETA-03 is more severe than THETA-01: the phase phi_0 ~ 1.94 rad and instantaneous w_B ~ +0.76 are de-Sitter-approximation-only, unreliable by O(1). The matter-dominated phase at z > 0.3 (where H >> H_0*sqrt(Omega_Lambda)) was not integrated. All quantitative outputs in Results 2 and 3 depend on these values: w_0 ~ -0.80, w_a ~ -0.35, coefficient 1.76, ratio -1.80, and f_0 ~ 0.11 are all de-Sitter-approximation-only pending OQ3.
+
+A canon entry cannot support CONDITIONALLY_RESOLVED when all quantitative central results carry O(1) uncertainty that the file itself acknowledges. The verdict is demoted to OPEN.
+
+**Changes applied to canon/theta-field-flrw-dark-energy-eos.md:**
+- Frontmatter `verdict` changed from CONDITIONALLY_RESOLVED to OPEN.
+- Frontmatter fields `verdict_changed_from`, `verdict_changed_at`, `verdict_change_reason` added.
+- WARNING block added immediately after the title: names Result 1 as the only firm result, prohibits citation for quantitative DESI comparison until OQ3 is complete.
+- Three new failure conditions added: F7 (matter-era phase shift from OQ3 moves w_0 outside DESI window), F8 (phi_0 scan sensitivity -- ratio may not be bounded away from 0), F9 (M_KK root-system correction could move theta into slow-roll regime).
+
+Result 1 (oscillation regime: M_KK = 2.83 H_0 > 3H_0/2 BF bound, theta oscillating and damped) is unaffected -- algebraically exact, independent of background approximation. The entry remains in canon/ because the structural physics is sound; only the quantitative numerical values are unreliable at the OPEN verdict level. Required to reopen: OQ3 (numerical Klein-Gordon integration in Lambda-CDM H(z) from z=2 to z=0, following Turner 1983 PRD 28, 1243).
+
+---
+
+### CORRECTION MO-02 — canon/w2-y14-spin-structure.md Step 3 derivation gap (2026-06-23)
+
+**File corrected:** `canon/w2-y14-spin-structure.md`
+
+**Error (Step 3, original):** The identity `w2(Sym^2(V)) = w1(V)^2 + w2(V)` was stated without derivation, citing only "[computation — splitting principle; N6 §5]". This is the key step: the cancellation in Step 4 (`w2(Y14) = pi*(w2(X4)) + pi*(w2(X4)) = 0 mod 2`) depends entirely on `w2(TV) = pi*(w2(X4))`, which follows from this identity plus the identification `w2(V) = w2(X4)`. The formula for SW classes of symmetric tensor powers is not standard enough to assert without proof in a self-contained canon document. The full derivation existed in the source exploration file N6 §5.5 but was not carried into the canon file.
+
+**Fix applied (2026-06-23):** The derivation was added inline to Step 3 of `canon/w2-y14-spin-structure.md`. Four sub-steps:
+
+1. Splitting principle for Sym^2(V), V a 3-dim bundle. Formally write V = L1 oplus L2 oplus L3; squares Li^2 are trivial over Z/2 (since 2 w1(Li) = 0 mod 2); mixed products give w(Li Lj) = 1 + ai + aj; the product over all pairs expands to give w2(Sym^2(V)) = e1^2 + e2 = w1(V)^2 + w2(V). Reference added: Milnor-Stasheff, Characteristic Classes, proof technique of Theorem 7.1.
+
+2. For oriented X4, w1(V) = 0 (spatial subbundle of oriented TX4 is oriented), so w2(Sym^2(V)) = w2(V).
+
+3. Identification w2(V) = w2(X4) via TX4 = V oplus L (time line bundle L): Whitney formula with w1(V) = w1(L) = 0 for oriented X4 gives w2(TX4) = w2(V).
+
+4. Assembly via Whitney product formula across the O(3) x O(1) decomposition: the (R^3 tensor sgn) factor contributes w2 = w1(X4)^2 = 0 for oriented X4; the trivial trace factors contribute 0; final result is w2(TV) = pi*(w2(X4)).
+
+**Verdict change:** None. The RESOLVED verdict stands. The derivation was mathematically correct (it existed in full in N6 §5.5); the fix makes the canon file self-contained so the key identity can be verified without consulting the exploration file.
+
+---
+
+### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
+
+**Severity:** MODERATE (MO-05)
+**File corrected:** `explorations/type-ii1-twisted-real-structure-2026-06-23.md`
+
+**Error:** The exploration carried verdict CONDITIONALLY_RESOLVED for the J_twisted construction. The sign triple (+1, +1, -1) = KO-dim 6 was presented as the outcome, with epsilon' = +1 described as CONDITIONALLY_RESOLVED (reconstruction). However, epsilon' is the load-bearing sign for the entire construction: if J_twisted D_GU = -D_GU J_twisted (epsilon' = -1), the triple has KO-dim 4 not 6, and CC contact does not hold. The file itself acknowledged this in §0 ("explicit matrix verification at the level of the GU Dirac-DeRham operator is reconstruction-grade") but the verdict did not reflect that the key sign had not been verified. CONDITIONALLY_RESOLVED implies the resolution holds conditionally; it did not name that the condition was unverified at the level that determines whether the stated goal is achieved.
+
+**Fix applied (2026-06-23):**
+
+1. Frontmatter verdict changed: CONDITIONALLY_RESOLVED -> CONDITIONALLY_RESOLVED_KEY_SIGN_UNVERIFIED.
+
+2. New failure condition FC-EPSILON added in §7 (before F2): "If J_twisted D_GU = -D_GU J_twisted (epsilon' = -1), the twisted real structure gives KO-dim 4, not 6. The CC contact requires epsilon' = +1. Until this sign is verified by explicit matrix computation in M(64,H), the KO-dim 6 conclusion is not established." Named as the highest-priority blocker.
+
+3. Summary §0 "What remains open" paragraph rewritten to lead with FC-EPSILON as a blocking condition and make explicit that KO-dim 6 is NOT established, not merely conditional.
+
+4. Summary §0 bold "Verdict:" line updated to CONDITIONALLY_RESOLVED_KEY_SIGN_UNVERIFIED with a critical caveat block.
+
+5. §9 verdict table updated: epsilon' = +1 row changed from CONDITIONALLY_RESOLVED (reconstruction) to UNVERIFIED -- structural argument only; matrix computation in M(64,H) not done (FC-EPSILON). KO-dim 6 achieved row changed from CONDITIONALLY_RESOLVED to NOT ESTABLISHED -- gated on FC-EPSILON (epsilon' sign); if epsilon' = -1, KO-dim = 4.
+
+6. §9 overall verdict paragraph updated to name the KO-dim 6 conclusion as not established until FC-EPSILON is resolved.
+
+7. §8 "What remains" list: new item 0 added as [PRIORITY 0 -- BLOCKING]: verify epsilon' = +1 by explicit matrix computation in M(64,H).
+
+**Verdict change:** CONDITIONALLY_RESOLVED -> CONDITIONALLY_RESOLVED_KEY_SIGN_UNVERIFIED. The construction of J_twisted and the J^2 = +1 result are sound. The KO-dim 6 conclusion is not established until FC-EPSILON is resolved by explicit computation.
+
+---
+
+### CORRECTION MO-06 — pc5-higgs-su2l-u1y-gate verdict downgraded from CONDITIONALLY_RESOLVED to NECESSARY_CONDITION_ONLY (2026-06-23)
+
+**Severity:** MODERATE (MO-06)
+**File corrected:** `explorations/pc5-higgs-su2l-u1y-gate-2026-06-23.md`
+
+**Error:** The original verdict CONDITIONALLY_RESOLVED claimed the Higgs gate is
+"CONDITIONALLY CLEARED at reconstruction grade." The supporting computation (§3) is
+a representation-theoretic existence argument: it shows that the decomposition of
+adj(Sp(64)) contains a (1,2,+1/2) summand under the Pati-Salam branching chain
+(4,2,1) x (4bar,1,2) -> (1,2,2) -> (1,2,+1/2) + (1,2,-1/2). This is a necessary
+condition for Higgs emergence, not a gate-clearing derivation. Existence in the
+decomposition of the ambient representation does not establish that the physical
+section's II_s^H has nonzero projection onto the (1,2,+1/2) component. That computation
+requires evaluating the distortion on a specific Willmore-critical section — not merely
+on the ambient adj(Sp(64)) fiber.
+
+**Verdict change:** CONDITIONALLY_RESOLVED -> NECESSARY_CONDITION_ONLY.
+
+**Changes applied to `explorations/pc5-higgs-su2l-u1y-gate-2026-06-23.md`:**
+
+1. Frontmatter verdict changed: CONDITIONALLY_RESOLVED -> NECESSARY_CONDITION_ONLY. Fields
+   `verdict_note`, `corrected_from`, `corrected_at`, and `correction_reason` added.
+
+2. §3.5 verdict paragraph rewritten: "The Higgs gate is CONDITIONALLY CLEARED" replaced
+   with "representation-theoretic necessary condition satisfied" and a clear statement
+   of what the computation does not establish.
+
+3. §4 Failure Conditions expanded with F0 (nonzero projection on critical section — the
+   primary missing computation), F0a (symmetry forces zero projection on LC section),
+   F0b (gauge-equivariance forces real J-paired combination), and F0c (Higgs block in
+   wrong Sp(64) subalgebra relative to j_s image of II_s^H). The original F1-F6
+   are retained unchanged.
+
+4. §5 Result and Verdict rewritten: CONDITIONALLY_RESOLVED removed, NECESSARY_CONDITION_ONLY
+   stated with explicit correction note, what the file establishes vs. does not establish
+   clearly separated.
+
+5. §7 Summary Table: added rows for F0 (II_s^H nonzero projection, OPEN), F0a (symmetry-forced
+   zero projection, OPEN), F0c (j_s image vs. off-diagonal block, OPEN), and CAS multiplicity
+   (OPEN); overall gate status line added: NOT CLEARED.
+
+6. Closing note (*Filed:...*) updated to reflect corrected verdict and primary open items.
+
+**The representation-theoretic necessary condition (1,2,+1/2) in adj(Sp(64)) is satisfied
+and stands.** The gate requires the additional step of a section-specific computation showing
+nonzero (1,2,+1/2) projection for a GU Willmore-critical section.

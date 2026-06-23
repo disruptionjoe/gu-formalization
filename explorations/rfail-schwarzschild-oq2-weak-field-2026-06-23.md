@@ -104,41 +104,48 @@ So theta ~ O(M/r^2).
 
 ### 3.2 Second Fundamental Form at Linear Order
 
-From `ii-s-moving-frames-2026-06-23.md`, in the horizontal-normalized convention:
+**Convention resolved (RFAIL-02, 2026-06-23).** The ambiguity between "Convention A"
+(B ~ O(M/r^2)) and "Convention B" (B ~ O(M/r^3)) is settled by deriving B from the
+explicit gimmel moving-frame formula in `ii-s-moving-frames-2026-06-23.md` (formula [MF],
+Sections 3-4). Convention B is correct. Full derivation below.
+
+**Step 1: Distortion theta (connection-level, O(M/r^2)).**
+
+The distortion theta = A - Gamma(g_s) measures the horizontal connection's deviation from
+the Levi-Civita connection of g_s. In linearized Schwarzschild (h_{mu nu} ~ O(M/r)):
 
 ```
-B^i_{mu nu} = nabla^{perp}_{mu} theta_nu ~ O(partial theta) ~ O(M/r^3).
+theta^{(bc)}_mu = A^{(bc)}_mu - Gamma^{(bc)}_mu(g_s) ~ O(partial h) ~ O(M/r^2).
 ```
 
-Wait — let me be careful about the order. The distortion theta involves one
-derivative of h (Christoffel symbol), so theta ~ O(partial h) ~ O(M/r^2). Then
-the second fundamental form B is one more normal derivative of theta:
+One derivative of h: theta is connection-level, O(M/r^2).
+
+**Step 2: B = II_s^H is one covariant derivative of theta (curvature-level, O(M/r^3)).**
+
+In the horizontal-normalized convention (algebraic slice subtracted so that the tautological
+LC-section has II_s^H = 0; see `ii-s-moving-frames-2026-06-23.md` §4.1-4.2), formula [MF]:
 
 ```
-B^i_{mu nu} = (II_s)^H_{mu nu} = nabla^{perp}_{e_mu} theta_{e_nu} ~ O(M/r^3).
+(II_s^H)_{ab}^{(cd)} = (nabla^{g_s}_{e_a} theta_b)^{(cd)}
+                      = e_a(theta^{(cd)}_b) - Gamma^e_{ab}(g_s) theta^{(cd)}_e.
 ```
 
-However, in the standard linearized-gravity approach, the relevant quantity for
-the embedding is not the curvature of the section (which goes as second derivatives
-of h) but the connection itself. Let me clarify the relevant order:
-
-**The second fundamental form of the section s: X^4 -> Y^14 = Met(X^4).**
-
-In the moving-frame computation (`ii-s-moving-frames-2026-06-23.md`), the II_s
-components in the horizontal-normalized convention are:
+Each term is one derivative of theta or a product theta * Gamma(g_s), both O(partial^2 h):
 
 ```
-B^{(bc)}_{mu nu} = partial^{(b)}_mu h_{nu c} + ... ~ O(partial h) ~ O(M/r^2),
+B^i_{mu nu} = (II_s^H)_{mu nu}
+            ~ O(partial theta) ~ O(partial^2 h) ~ O(M/r^3).    [Convention B]
 ```
 
-where the indices (bc) label the normal (fiber Sym^2 T*X^4) directions.
+**Convention B is the correct one for GU.** The horizontal-normalized convention is
+physically required because the algebraic slice `Gamma^{(cd)}_{ab}^{gg}|_s =
+-(1/2)(eta_{a(c}eta_{d)b} - (1/2)eta_{ab}eta_{cd})` is a background artifact
+subtracted so that flat Minkowski space (the reference section) has II_s^H = 0.
+Convention A (B ~ O(M/r^2), connection-level) corresponds to the raw (un-normalized)
+II_s^{raw}, which includes the algebraic slice contribution and is not the GU physical
+second fundamental form.
 
-The precise order depends on convention. Two natural scalings:
-- **Convention A** (naive): B^i ~ O(theta) ~ O(M/r^2) (connection-level)
-- **Convention B** (curvature-level): B^i ~ O(Riemann) ~ O(M/r^3)
-
-For the present computation, the CRITICAL POINT is not the exact power of r but
-whether Q^{TF}(B) and the Willmore-EL residual are QUADRATIC or LINEAR in B.
+**Summary:** B ~ O(M/r^3) in the GU Schwarzschild context.
 
 ### 3.3 Q^{TF}(B) is Quadratic in B -- Vanishes at O(M/r)
 
@@ -152,17 +159,18 @@ Both terms are QUADRATIC in the second fundamental form B:
 - H_i hat B^i_{mu nu} = (g^{rho sigma} B^i_{rho sigma})(B_{i mu nu} - trace) ~ B^2
 - (hat B^2)_{mu nu} = hat B^i_{mu rho} hat B_{i nu}^{rho} ~ B^2
 
-With B ~ O(M/r^2) (Convention A) or O(M/r^3) (Convention B):
+With B ~ O(M/r^3) (Convention B, established correct in §3.2):
 
 ```
-Q^{TF}(B) ~ B^2 ~ O(M^2/r^4)  [Convention A]
-           ~ O(M^2/r^6)  [Convention B]
+Q^{TF}(B) ~ B^2 ~ O(M^2/r^6).
 ```
 
-In either case, at O(M/r): **Q^{TF}(B) = 0 to leading order.**
+At O(M/r): **Q^{TF}(B) = 0 to leading order.**
 
 This is the decisive structural fact: Q^{TF}(B) is a NONLINEAR correction that
-vanishes in the linearized theory.
+vanishes in the linearized theory. The suppression is stronger than previously
+estimated under the ambiguous convention: O(M^2/r^6) rather than the conservative
+O(M^2/r^4) that was attributed to Convention A (which is now rejected).
 
 ### 3.4 The Gauss Identity at Linear Order
 
@@ -193,20 +201,45 @@ G^X_{mu nu} = G^Y_T_{mu nu} + E^Psi_{mu nu}    [at O(M/r)].
 
 ### 4.1 Definition
 
-The full R_fail (from `codazzi-sp64-bundle-2026-06-23.md` §4):
+**Two distinct failure objects — convention stated explicitly.**
+
+There are two conceptually separate failure conditions in GU:
+
+**(A) Standard GR failure tensor** (conventional R_fail in the GR literature):
 
 ```
-R_fail_{mu nu} := G^Y_T_{mu nu} + Q_{mu nu}(B) + E^Psi_{mu nu}
-                  - 8 pi G T_{mu nu} - Lambda g_{mu nu}.
+R_fail^{GR}_{mu nu} := G^X_{mu nu}[g_s] - 8 pi G T_{mu nu} - Lambda g_{mu nu}.
 ```
 
-Using the Gauss identity G^X = G^Y_T + Q(B) + E^Psi:
+This measures how much the induced metric g_s = s*(g) fails to satisfy the 4D Einstein equation. Using the Gauss identity G^X = G^Y_T + Q(B) + E^Psi, this can equivalently be written:
 
 ```
-R_fail_{mu nu} = G^X_{mu nu} - 8 pi G T_{mu nu} - Lambda g_{mu nu}.
+R_fail^{GR}_{mu nu} = G^Y_T_{mu nu} + Q_{mu nu}(B) + E^Psi_{mu nu}
+                      - 8 pi G T_{mu nu} - Lambda g_{mu nu}.
 ```
 
-**This is the 4D Einstein equation evaluated on the induced metric g_s = s*(g).**
+For Schwarzschild, R_fail^{GR} = 0 EXACTLY (Schwarzschild is an exact vacuum solution of 4D GR; Ricci-flat by definition). This is a trivial statement about the induced metric, not a GU-specific result.
+
+**(B) Section equation failure** (GU-specific, non-standard):
+
+```
+[Willmore-EL residual]_{mu nu} := -(delta E / delta s)_{mu nu}
+                                  = Delta^perp H^i_{mu nu} + hat-B^2 terms.
+```
+
+This measures how much the section s fails to satisfy the GU variational principle (Willmore criticality). It is independent of (A): a section can fail to be Willmore-critical while its induced metric exactly satisfies the Einstein equation.
+
+**(C) Combined (non-standard) full failure tensor used in this note:**
+
+```
+R_fail^{full}_{mu nu} := R_fail^{GR}_{mu nu} + [Willmore-EL residual]_{mu nu}
+                       = G^X_{mu nu}[g_s] - 8piG T_{mu nu} - Lambda g_{mu nu}
+                         + [Willmore-EL residual]_{mu nu}.
+```
+
+**Convention warning:** R_fail^{full} is a NON-STANDARD combined object. It mixes two conceptually distinct failure modes: (A) whether the induced metric satisfies the Einstein equation, and (B) whether the section satisfies the GU variational principle. These two failures are unrelated at the level of their definitions — a section with R_fail^{GR} = 0 can have a large Willmore-EL residual, and vice versa. This combined definition is used here because the physically relevant question for GU is whether BOTH conditions are approximately satisfied in the weak-field limit. Readers using the standard definition should use R_fail^{GR} alone, which is identically zero for Schwarzschild by construction.
+
+**This is the 4D Einstein equation evaluated on the induced metric g_s = s*(g), augmented by the section equation residual.**
 
 ### 4.2 For Linearized Schwarzschild Vacuum (T_{mu nu} = 0, Lambda = 0)
 
@@ -216,81 +249,63 @@ Schwarzschild in isotropic coordinates at linear order in M/r:
 g_{mu nu} = eta_{mu nu} + h_{mu nu},    h_{00} = -2M/r,    h_{ij} = -2M/r delta_{ij}
 ```
 
-The linearized Einstein tensor:
+**Standard GR failure R_fail^{GR}: trivially zero.**
+
+Schwarzschild is an exact vacuum solution of 4D GR: G^X_{mu nu}[g_{Schw}] = 0 identically (Ricci-flat). This holds at ALL orders, not just O(M/r). With T_{mu nu} = 0 and Lambda = 0:
 
 ```
-G^X_{mu nu}[eta + h] = G^X_{(1)}_{mu nu}[h] + O(h^2)
+R_fail^{GR}_{mu nu} = G^X_{mu nu}[g_{Schw}] - 0 - 0 = 0    (exact, all orders).
 ```
 
-**Linearized vacuum:** The Schwarzschild metric satisfies the LINEARIZED vacuum
-Einstein equation G^X_{(1)}_{mu nu}[h] = 0 to first order in M/r. This is because:
+This is a trivial consequence of Schwarzschild being defined as a vacuum GR solution. It carries no non-trivial information about GU — it holds regardless of whether the GU section equation is satisfied.
 
-1. The linearized Einstein equation is G^X_{(1)} = 8piG T^{(1)}.
-2. The linearized Schwarzschild metric is a solution of the linearized vacuum
-   Einstein equation G^X_{(1)} = 0. (This is the standard result: linearized GR
-   reproduces the Newtonian limit and Schwarzschild at 1PN, and linearized
-   Schwarzschild satisfies the linearized field equation.)
-3. The full nonlinear Einstein equation G^X[eta+h] = 0 is also satisfied
-   (Schwarzschild is an exact vacuum solution), so both orders are exact.
+**Section equation failure (Willmore-EL residual): non-trivial, enters at O(M/r^4).**
 
-**Therefore:**
+The Willmore-EL residual is the GU-specific part. From §3 and §4.3:
 
 ```
-G^X_{mu nu}[eta + h_{Schw}] = 0    (exact, Schwarzschild is vacuum Ricci-flat).
+[Willmore-EL residual]_{mu nu} ~ Delta^perp H^i_{Schw} ~ O(M/r^4)    in curvature units.
 ```
 
-At O(M/r):
+This is non-zero (exact Schwarzschild is NOT Willmore-critical), but small in the weak-field limit.
+
+**Combined failure R_fail^{full} at O(M/r):**
 
 ```
-R_fail_{mu nu} = G^X_{mu nu} - 0 - 0 = 0    at O(M/r).
+R_fail^{full}_{mu nu} = R_fail^{GR}_{mu nu} + [Willmore-EL residual]_{mu nu}
+                      = 0 + O(M/r^4)
+                      = 0    at O(M/r).
 ```
 
-The R_fail vanishes at O(M/r) for the linearized Schwarzschild section.
+The combined failure tensor vanishes at leading post-Newtonian order.
 
 ### 4.3 The Key Mechanism: Gauss Identity vs. Willmore Criticality
 
-**Why does R_fail vanish even though Schwarzschild is not Willmore-critical?**
+**Why does R_fail^{full} vanish even though Schwarzschild is not Willmore-critical?**
 
-The answer lies in the structure of R_fail:
+The answer follows directly from separating the two failure modes defined in §4.1:
 
-```
-R_fail_{mu nu} = G^X_{mu nu}[g_s] - 8piG T_{mu nu} - Lambda g_{mu nu}.
-```
+- **R_fail^{GR} = 0 exactly.** The standard GR failure is trivially zero because Schwarzschild is defined as a vacuum GR solution. This has nothing to do with the GU section equation.
 
-This is simply the 4D Einstein equation evaluated on g_s = s*(g). The Gauss identity
-converts the 14D equation into this 4D form for ANY section. The Willmore critical-section
-condition does NOT appear in this equation — it appears in the SECTION EQUATION that
-determines which sections s are actually physical (i.e., which metrics g_s arise in GU).
+- **Willmore-EL residual is small, not zero.** Schwarzschild is NOT Willmore-critical — the section equation failure is non-zero. But it enters at O(M/r^4) in curvature units, which is O(M/r) in relative terms (ratio to the GR curvature scale O(M/r^3)). At leading order O(M/r), this is suppressed.
 
-**In other words:**
+**The structural point:**
 
-- The GAUSS IDENTITY says: G^X = G^Y_T + Q(B) + E^Psi for any s.
-- The SECTION EQUATION (Willmore EL) says: which s are physical?
-- R_fail as defined above = G^X - 8piG T - Lambda g is a statement about whether the
-  INDUCED metric satisfies 4D Einstein. It does not ask whether s itself is Willmore-critical.
+The Gauss identity says: G^X = G^Y_T + Q(B) + E^Psi for ANY section s. This converts the 14D GU equation into a 4D form without requiring s to be Willmore-critical. The standard GR failure R_fail^{GR} = G^X - 8piG T - Lambda g is a statement about whether the INDUCED metric satisfies 4D Einstein. It is independent of whether s satisfies the SECTION EQUATION (Willmore EL).
 
-**The subtlety resolved:** The prior note (`rfail-non-umbilic-schwarzschild-2026-06-23.md`)
-used a FULLER definition of R_fail that included the section-equation residual:
+The two failure modes are conceptually distinct:
+- R_fail^{GR} asks: does g_s satisfy the Einstein equation?
+- Willmore-EL residual asks: does s satisfy the GU variational principle?
+
+Both are approximately zero at O(M/r), but for different reasons. R_fail^{GR} is exactly zero (not approximately); the Willmore-EL residual is non-zero but suppressed to O(M/r^4) in curvature units.
+
+**Summary at O(M/r):**
 
 ```
-R_fail^{full}_{mu nu} = G^X_{mu nu} - 8piG T - Lambda g + [Willmore-EL residual]_{mu nu}
+R_fail^{GR}_{mu nu}      = 0                 (exact for Schwarzschild vacuum)
+[Willmore-EL residual]   = O(M/r^4)          (small, non-zero, enters at 1PN)
+R_fail^{full}_{mu nu}    = 0 + O(M/r^4) = 0  at O(M/r).
 ```
-
-The Willmore-EL residual for Schwarzschild is:
-
-```
-[Willmore-EL residual]_{mu nu} = -(delta E / delta s)_{mu nu}
-                                 ~ Delta^perp H^i_{Schw} ~ O(M/r^4)    [at linear order in M].
-```
-
-This residual is O(M/r^4), NOT O(M/r). At O(M/r):
-
-```
-R_fail^{full}_{mu nu} = 0 + O(M/r^4) = 0    at O(M/r).
-```
-
-The FULL failure tensor, including the section-equation residual, also vanishes at
-leading post-Newtonian order.
 
 ---
 
@@ -301,8 +316,8 @@ leading post-Newtonian order.
 | Term | Source | Order | Contribution to R_fail at O(M/r) |
 |---|---|---|---|
 | G^X_{mu nu}[g_s] | 4D Einstein tensor on induced metric | O(M/r^3) (Schwarzschild: Riemann ~ M/r^3) | 0 (Schwarzschild is vacuum: G^X = 0 exactly) |
-| Q^{TF}(B) | Traceless extrinsic stress | O(M^2/r^4) or O(M^2/r^6) | 0 at O(M/r) |
-| Q^{tr}(B) | Trace of extrinsic stress (pure metric) | O(M^2/r^4) | 0 at O(M/r) |
+| Q^{TF}(B) | Traceless extrinsic stress | O(M^2/r^6) [B ~ O(M/r^3), Convention B; see §3.2] | 0 at O(M/r) |
+| Q^{tr}(B) | Trace of extrinsic stress (pure metric) | O(M^2/r^6) [same B scaling] | 0 at O(M/r) |
 | E^Psi_{mu nu} | Sp(64) gauge curvature residual | O(h^2) for non-trivial Psi | 0 at O(M/r) for vacuum Psi=0 |
 | 8piG T_{mu nu} | Matter | 0 (vacuum) | 0 |
 | Lambda g_{mu nu} | Cosmological constant | 0 (Schwarzschild: Lambda = 0) | 0 |
@@ -473,36 +488,52 @@ deviations from GR at 2PN are below even these future mission sensitivities.
 **Theorem (Linearized-Section Residual, Reconstruction Grade).** Let
 s: X^4 -> Y^14 be the section corresponding to the linearized Schwarzschild metric
 g_{mu nu} = eta_{mu nu} + h_{mu nu} with h_{mu nu} = O(epsilon), epsilon = M/r << 1.
-Define the full failure tensor:
+
+**Convention (non-standard — stated explicitly).** This theorem uses R_fail^{full},
+a combined failure tensor that includes BOTH the standard GR failure AND the
+GU section-equation failure (Willmore-EL residual). These are two distinct objects:
 
 ```
-R_fail^{full}_{mu nu}
-  = G^X_{mu nu}[g_s]
-  - 8 pi G T_{mu nu}
-  - Lambda g_{mu nu}
-  + [Willmore-EL residual]_{mu nu}
+R_fail^{GR}_{mu nu}    := G^X_{mu nu}[g_s] - 8 pi G T_{mu nu} - Lambda g_{mu nu}
+                          [standard: measures Einstein equation residual on induced metric]
+
+[Willmore-EL residual]_{mu nu} := -(delta E / delta s)_{mu nu}
+                          [GU-specific: measures section equation residual]
+
+R_fail^{full}_{mu nu}  := R_fail^{GR}_{mu nu} + [Willmore-EL residual]_{mu nu}
+                          [non-standard combined object used in this note]
 ```
 
-where [Willmore-EL residual]_{mu nu} = -(delta E/delta s)_{mu nu} evaluated at s.
+Readers using the standard definition should apply R_fail^{GR} only, which is
+identically zero for Schwarzschild by construction (see item 1 below) and carries
+no non-trivial information. The physically relevant GU-specific content is entirely
+in the Willmore-EL residual (item 3).
 
-Then:
+**Theorem statement.**
 
-1. G^X_{mu nu}[g_s] = 0 exactly (Schwarzschild is vacuum Ricci-flat, exact at all orders).
+1. **R_fail^{GR} = 0 exactly (trivial, standard GR).**
+   G^X_{mu nu}[g_{Schw}] = 0 identically because Schwarzschild is vacuum Ricci-flat.
+   With T_{mu nu} = 0 and Lambda = 0: R_fail^{GR} = 0 at all orders.
+   This is a definition-level fact, not a GU computation.
 
-2. T_{mu nu} = 0, Lambda = 0 (vacuum with no cosmological constant).
+2. **T_{mu nu} = 0, Lambda = 0** (vacuum with no cosmological constant).
 
-3. [Willmore-EL residual]_{mu nu} = Delta^perp H^i_{mu nu} + hat-B^2 terms
-   ~ O(epsilon^2 / r^4) in curvature units (using epsilon = M/r).
+3. **[Willmore-EL residual]_{mu nu} = Delta^perp H^i_{mu nu} + hat-B^2 terms
+   ~ O(epsilon^2 / r^4) in curvature units (using epsilon = M/r).**
+   This is reconstruction grade, established by the explicit Delta(M/r^2) computation
+   from `rfail-non-umbilic-schwarzschild-2026-06-23.md` §4.3.
 
-4. Therefore: R_fail^{full}_{mu nu} = 0 + O(epsilon^2/r^4).
+4. **Therefore: R_fail^{full}_{mu nu} = 0 + O(epsilon^2/r^4).**
 
 At O(epsilon/r^3) (leading post-Newtonian in curvature units):
 
 ```
-R_fail^{full}_{mu nu} = 0    at O(M/r) in relative terms.
+R_fail^{GR}_{mu nu}           = 0    (exact, all orders)
+[Willmore-EL residual]_{mu nu} = 0    at O(M/r)  [enters at O(M/r^4)]
+R_fail^{full}_{mu nu}          = 0    at O(M/r) in relative terms.
 ```
 
-**Grade:** Reconstruction. The Gauss-identity step (item 1) is exact; the Q(B)
+**Grade:** Reconstruction. The GR failure (item 1) is exact by definition; the Q(B)
 suppression (quadratic) is algebraic and exact; the Willmore-EL residual order
 (item 3) is established by the explicit Delta(M/r^2) computation from the prior note.
 The E^Psi term requires the linearized gauge condition (see failure condition F2 below).

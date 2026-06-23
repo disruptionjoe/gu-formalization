@@ -3,6 +3,7 @@ title: "Research Status"
 status: active_research
 doc_type: roadmap
 updated_at: "2026-06-23"
+canon_sweep_at: "2026-06-23"
 ---
 
 # Research Status
@@ -29,6 +30,11 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 | no-go assumption map | canon | `canon/no-go-class-relative-map.md` |
 | six-axis protocol | canon | `canon/six-axis-specification-protocol.md` |
 | Type II1 checklist | canon | `canon/type-ii1-spectral-sm-checklist.md` |
+| shiab existence — Cl(9,5) | canon | `canon/shiab-existence-cl95.md` |
+| dark energy theta — divergence-free and dynamic | canon (CONDITIONALLY_RESOLVED) | `canon/dark-energy-theta-divergence-free.md` — CORRECTION DARK-ENERGY-01 (2026-06-23): downgraded from RESOLVED |
+| w2(Y14) = 0 — Y14 is spin | canon | `canon/w2-y14-spin-structure.md` |
+| Schwarzschild weak-field R_fail = 0 at O(M/r) | canon | `canon/schwarzschild-weak-field-rfail.md` |
+| theta-field FLRW dark energy EOS | canon | `canon/theta-field-flrw-dark-energy-eos.md` |
 | signed-readout boundary theorem | active_research | `active-research/signed-readout/` |
 | CALM/Ginsparg-Wilson boundary | active_research | `active-research/calm-gw-boundary/` |
 | ranked next steps | active_research | `roadmap/` |
@@ -40,6 +46,25 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 | early frontier packets | archive | `archive/` |
 | source and media provenance | source | `sources/` |
 | literature briefs | source | `literature/` |
+
+## 2026-06-23 Correction VZ-01 (critical)
+
+**VZ evasion status for 14D mixed covectors downgraded from EVADED to CONDITIONALLY_EVADED.**
+
+The `vz-schur` result logged in the second parallel pass (and the synthesis in `explorations/vz-14d-mixed-covectors-2026-06-23.md`) reported `VZ evasion status: EVADED`. This is overstated. The Schur complement proof uses `E^{-1}` without independently establishing that `E(xi)` is invertible on `Q = E_0 + Q^{14D}`. The `det(M) = det(E)*det(S_R)` identity is circular: it holds when E is invertible and cannot be used to prove E invertibility. Until a direct Clifford algebra proof is supplied, the 14D mixed-covector result is CONDITIONALLY_EVADED. The 4D section-pullback result (OQ3-V1/V2/V3) is unaffected. The exploration file has been corrected (frontmatter, §4, §7 table, §9). See DERIVATION-PROGRESS.md log entry CORRECTION VZ-01.
+
+## 2026-06-23 Canon Promotion Sweep
+
+Five explorations checked against all five promotion criteria. Five promoted; one checked but not yet eligible.
+
+| candidate | verdict in source | promotion decision | reason |
+|---|---|---|---|
+| shiab existence (N1+N2) | RESOLVED | PROMOTED | All 5 criteria met. Clifford contraction construction is explicit, non-vanishing proved, signature condition resolved by N1 audit, failure modes named (generation count, gauge group uniqueness). No internal artifact dependency. |
+| dark energy divergence-free (Layer 2) | RESOLVED (C3 path closed) | PROMOTED | All 5 criteria met. Equivariance proof unconditional; dynamism unconditional; D_A*theta=0 via Noether's 2nd theorem (C3 path, COMPLETE). Remaining C1+C2 path is a cross-check, not a blocker. |
+| w2(Y14) = 0 (N6) | RESOLVED | PROMOTED | All 5 criteria met. Serre spectral sequence computation explicit; monodromy triviality condition verified in §8.1 via explicit bundle isomorphism; failure modes (non-compact index, generation count) named and outside scope. |
+| Schwarzschild weak-field R_fail (today) | CONDITIONALLY_RESOLVED | PROMOTED | All 5 criteria met. Gauss identity step exact; Q(B) quadraticity algebraic; 3 named failure conditions (F1-F3) are specific and testable, not vague. Result is bounded and falsifiable at reconstruction grade. |
+| theta-field FLRW dark energy EOS (today) | CONDITIONALLY_RESOLVED | PROMOTED (with correction) | All 5 criteria met at promotion. CORRECTION 2026-06-23 THETA-01: Ratio prediction w_a/(w_0+1) ~ -1.80 is f_0-independent (correct) but phi_0-dependent (not flagged at promotion). The ratio is a reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad from the de Sitter tracker, not a phi_0-independent free prediction. Canon file updated to reflect this. 6 named failure modes (F1-F6), 5 open questions now with updated OQ5 requiring phi_0-dependence scan. |
+| anomaly Sp(64) (substantially addressed) | SUBSTANTIALLY_ADDRESSED | NOT PROMOTED | Perturbative anomaly cancellation is verified; global anomaly (pi_{15}(Sp) = Z piece) is reconstruction-grade; §5.1 has named open questions (gauge group uniqueness, adjoint dimension matching, mixed gauge-gravitational anomaly). Does not meet criterion 2 (proof or falsification target) at the level required for canon. |
 
 ## Promotion Rule
 

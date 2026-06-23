@@ -4,6 +4,7 @@ date: 2026-06-23
 problem_label: "theta-field-flrw-eos"
 status: reconstruction
 verdict: CONDITIONALLY_RESOLVED
+correction: "THETA-03 (2026-06-23) — phase phi ~ 1.94 rad and w_B ~ +0.76 are de-Sitter-approximation-only; matter-dominated phase (z > 0.3) not integrated; value unreliable by O(1)"
 ---
 
 # GU Theta Field Dark Energy: Equation of State w(z) on FLRW Background
@@ -394,6 +395,25 @@ which is not in the pure de Sitter limit. The phase correction from the matter-e
 adds a further shift; this computation treats the de Sitter approximation throughout, which
 is reasonable for the present epoch where Omega_Lambda ~ 0.685.)
 
+**CORRECTION NOTE (2026-06-23, THETA-03):** The phase estimate phi ~ 1.94 rad and the
+downstream w_B ~ +0.76 are DE SITTER APPROXIMATION ONLY and are unreliable by O(1). The
+de Sitter approximation (constant H = H_0 * sqrt(Omega_Lambda)) was used throughout the
+integration from z=2 to z=0, but the matter-dominated phase (z > 0.3) has
+H(z) ~ H_0 * sqrt(Omega_m) * (1+z)^{3/2} >> H_0 * sqrt(Omega_Lambda). In the
+matter-dominated era the field oscillates more slowly relative to the Hubble rate, so the
+accumulated phase is systematically less than the de Sitter estimate. Turner (1983, PRD 28,
+1243) addresses exactly this for massive oscillating scalars in a matter-dominated background:
+the phase evolution in matter domination differs from de Sitter by a factor of order 1.
+The correct procedure is to integrate the Klein-Gordon equation numerically in the full
+Lambda-CDM background H(z) = H_0 * sqrt(Omega_m*(1+z)^3 + Omega_Lambda) from z=2 to z=0.
+The de Sitter approximation is only valid for z < 0.3 (where Omega_Lambda dominates).
+Until this numerical integration is performed, phi ~ 1.94 rad should be treated as an
+upper bound on the phase (de Sitter overestimates oscillation frequency in the matter era),
+and w_B ~ +0.76 should be treated as de-Sitter-approximation-only with uncertainty O(1).
+The structural results (oscillating+damped regime, two-component dark energy structure,
+sign of w_a, transition redshift z_osc ~ 2) are unaffected. Only the specific numerical
+value of the instantaneous phase and instantaneous EOS at z=0 are unreliable.
+
 At phase phi = 1.94 radians (~111 degrees):
 
 ```
@@ -412,16 +432,20 @@ At t_0: B(t_0) ~ A(t_0) * (-0.36) ~ -0.079 A_0
 Kinetic term: B_dot^2 ~ (0.61 A_0 H_0)^2 = 0.37 A_0^2 H_0^2.
 Potential term: M_KK^2 B^2 = 8H_0^2 * (0.079 A_0)^2 = 8 * 0.0062 A_0^2 H_0^2 = 0.050 A_0^2 H_0^2.
 
-**Instantaneous EOS at z = 0 (reconstruction grade):**
+**Instantaneous EOS at z = 0 (de-Sitter-approximation-only; see THETA-03 correction):**
 
 ```
 w_B(z=0) = [0.37 - 0.050] / [0.37 + 0.050]
           = 0.32 / 0.42
-          ~ +0.76
+          ~ +0.76    [DE SITTER APPROXIMATION ONLY — unreliable by O(1)]
 ```
 
-**This is a large positive w_0.** A massive scalar in the oscillating regime near kinetic
-domination gives w_B >> 0 at the current epoch -- NOT the w_0 ~ -0.8 hinted by DESI DR1.
+**This is a large positive w_0 under the de Sitter approximation.** Per THETA-03: the
+matter-dominated era (z > 0.3) was not integrated; the actual phase at z=0 is smaller than
+1.94 rad, and the actual w_B(0) may differ from +0.76 by O(1). The correct value requires
+numerical integration of the Klein-Gordon equation in the full Lambda-CDM H(z). The
+structural conclusion (oscillating scalar, two-component dark energy) is robust; the
+specific numerical value w_B ~ +0.76 is NOT a reliable prediction at reconstruction grade.
 
 ---
 
@@ -520,12 +544,18 @@ From the phase calculation of Section 5.3 and the two-component structure:
 w_0 = w_{DE}^{eff}(z=0)
     = [-1 + f_0 * w_B(0)] / [1 + f_0]
     ~ -1 + f_0 * (1 + w_B(0))    [for f_0 << 1]
-    ~ -1 + f_0 * (1 + 0.76)
+    ~ -1 + f_0 * (1 + 0.76)      [w_B(0) ~ +0.76: DE SITTER APPROX ONLY per THETA-03]
     ~ -1 + 1.76 f_0
 ```
 
 For f_0 << 1: w_0 is close to -1, shifted by +1.76 f_0.
 For w_0 ~ -0.8 (DESI DR1 hint): 1.76 f_0 ~ 0.2, so f_0 ~ 0.11.
+
+**THETA-03 caveat:** The coefficient 1.76 uses w_B(0) ~ +0.76 from the de Sitter
+approximation. The correct value of w_B(0) from numerical FLRW integration may differ by
+O(1), shifting the coefficient from 1.76 to some other O(1) value. The conclusion
+w_0 ~ -1 + O(f_0) (small deviation for small f_0) is structural and robust; the specific
+coefficient 1.76 and the derived f_0 ~ 0.11 are de-Sitter-approximation-only.
 
 This means: for GU to match the DESI DR1 hint w_0 ~ -0.8, the initial amplitude B_i must
 be tuned to give f_0 ~ 0.11, i.e., rho_B(z=0) / rho_{Lambda_eff} ~ 0.11.
@@ -708,8 +738,29 @@ The GU-predicted RATIO:
 w_a / (w_0 + 1) ~ -3.17 f_0 / (1.76 f_0) = -3.17/1.76 ~ -1.80
 ```
 
-This ratio is INDEPENDENT OF f_0 (the initial amplitude cancels). It is a genuine
-reconstruction-grade prediction of the GU theta-field dark energy mechanism.
+**CORRECTION NOTE (2026-06-23, THETA-01):** This ratio is independent of f_0 (the unknown
+initial amplitude), because f_0 cancels in the leading-order approximation. HOWEVER, it is
+NOT independent of the initial phase phi_0. The numerator -3.17 f_0 comes from dw_B/dz at
+z=0, which was computed for phi_0 ~ 1.94 rad derived from the de Sitter tracker approximation
+(Section 5.3). A different phi_0 gives a different dw_B/dz and therefore a different ratio.
+Specifically: the dw_B/dz term ~ 2 omega_osc * dt/dz * d/dphi[w_B] evaluated at phi_0, and
+w_B(phi_0) itself varies between -1 (phi_0 near 0, pi) and +1 (phi_0 near pi/2, 3pi/2). The
+ratio -1.80 is therefore a reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad
+from the de Sitter tracker, not a phi_0-independent structural prediction.
+
+The claim that the ratio is independent of f_0 is correct algebra. The claim that it is a
+"genuine GU prediction" independent of all unknown initial conditions is OVERSTATED: the
+ratio is additionally sensitive to phi_0, which depends on the matter-era evolution that was
+explicitly not computed (OQ3).
+
+Until the full phi_0-dependence of the ratio is computed and the ratio is shown to be a
+minimum, maximum, or saddle point as phi_0 varies, this quantity should be described as:
+
+> **"reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad from the de Sitter
+> tracker, independent of f_0 but not of phi_0."**
+
+The ratio remains a useful falsification target at the reconstruction grade, but is not yet
+a parameter-free structural prediction of GU.
 
 **If DESI/Euclid measure w_0 and w_a with precision 0.05 and 0.1 respectively, the ratio
 w_a / (w_0 + 1) can be compared to -1.80 as a model-independent test of Candidate D.**
@@ -750,8 +801,10 @@ and the w_0 prediction could be revised substantially.
 
 **F3.** The two-component structure is absent: if the umbilic Lambda_eff = 0 and all dark
 energy comes from the oscillating theta field, the total dark energy would be w_B ~ +0.76
-today (kinetic-dominated oscillating scalar). This would be STRONGLY ruled out by DESI (which
-sees w_0 ~ -0.8, not w_0 ~ +0.76).
+today (kinetic-dominated oscillating scalar) under the de Sitter approximation (see THETA-03:
+the correct value requires numerical FLRW integration; the qualitative conclusion -- large
+positive w near kinetic domination -- is robust, but the specific value +0.76 is not).
+This regime would be STRONGLY ruled out by DESI (which sees w_0 ~ -0.8).
 
 **F4.** The theta field is NOT a scalar in 4D. If the section pullback s*(theta) is a
 spin-2 field (not a scalar), the FLRW analysis does not apply and the Klein-Gordon equation
@@ -785,14 +838,30 @@ of the theta field. The current analysis used the de Sitter approximation throug
 A proper FLRW evolution including the matter-to-Lambda transition at z ~ 0.3 affects the
 oscillation phase at z = 0.
 
+**THETA-03 (2026-06-23) — Required fix:** Integrate the Klein-Gordon equation numerically
+in the full Lambda-CDM background H(z) = H_0*sqrt(Omega_m*(1+z)^3 + Omega_Lambda) from
+z=2 to z=0 to obtain the correct phase at z=0. The de Sitter approximation should only
+be used for z < 0.3. In the matter-dominated regime (z > 0.3), H >> H_0*sqrt(Omega_Lambda)
+and the field oscillates more slowly than the de Sitter estimate. The accumulated phase
+phi(t_0) ~ 1.94 rad is an overestimate; the true phase is smaller. Until this integration
+is performed, w_B ~ +0.76 and the derived coefficient 1.76 in w_0 ~ -1 + 1.76*f_0 should
+be treated as de-Sitter-approximation-only estimates, unreliable by O(1). Turner (1983,
+PRD 28, 1243) provides the analytic framework for massive scalar evolution in
+matter-dominated backgrounds; that result should be applied to refine the phase estimate
+before z=0.3, and then matched to the de Sitter solution for z < 0.3.
+
 **OQ4.** Determine the role of the non-minimal curvature coupling xi. If xi != 0 (due to
 the ambient curvature correction from the Y^14 normal bundle at the cosmological section),
 the effective mass gets an additional R-dependent term, modifying the w(z) prediction.
 
-**OQ5.** Is the prediction w_a / (w_0+1) ~ -1.80 stable under corrections? The ratio
-comes from -3 H_0 (Hubble friction decay rate) over 1.76 (the connection between rho_Lambda_eff
-perturbation and the deviation). Both are derivable from the GU two-component structure without
-specifying f_0. A more careful calculation including matter-era evolution would refine this.
+**OQ5.** Compute the full phi_0-dependence of w_a/(w_0+1) and determine whether -1.80
+is a minimum, maximum, or saddle point as phi_0 varies over [0, 2pi). The -1.80 value
+was computed at phi_0 ~ 1.94 rad (de Sitter tracker estimate). The numerator involves
+dw_B/dz at z=0, which is a function of phi_0 through the oscillation phase derivative.
+Until this scan is done, the ratio cannot be described as phi_0-independent. The denominator
+1.76 f_0 is phi_0-independent (it comes from w_B(phi_0 ~ 1.94) ~ +0.76, but w_B itself
+varies with phase). A full treatment including matter-era evolution (OQ3) would set phi_0
+from first principles rather than requiring this scan.
 
 ---
 
@@ -807,12 +876,19 @@ and damped regime. Oscillation period T_osc ~ 37.7 Gyr; at z=0, the field has co
 
 **Result 2 (two-component dark energy):**
 GU dark energy = umbilic Lambda_eff (w = -1) + oscillating theta (instantaneous w ~ +0.76
-at current phase). The total effective EOS is w_0 ~ -1 + 1.76 f_0 where f_0 = rho_B/rho_Lambda.
-For f_0 ~ 0.11 (B_i ~ 0.92 M_Pl): w_0 ~ -0.80, w_a ~ -0.35. RECONSTRUCTION GRADE.
+at current phase under de Sitter approximation; see THETA-03 -- value is unreliable by O(1)
+until FLRW numerical integration is performed). The total effective EOS is
+w_0 ~ -1 + 1.76 f_0 where f_0 = rho_B/rho_Lambda (coefficient 1.76 is also de-Sitter-only).
+For f_0 ~ 0.11 (B_i ~ 0.92 M_Pl): w_0 ~ -0.80, w_a ~ -0.35.
+RECONSTRUCTION GRADE (with THETA-03 caveat: numerical values conditional on de Sitter approx).
 
 **Result 3 (ratio prediction):**
-The GU theta-field prediction: w_a / (w_0 + 1) ~ -1.80. This is INDEPENDENT of f_0
-(the unknown initial amplitude cancels). RECONSTRUCTION GRADE.
+The GU theta-field prediction: w_a / (w_0 + 1) ~ -1.80. This is independent of f_0
+(the unknown initial amplitude cancels in the leading-order ratio), but is DEPENDENT on the
+initial phase phi_0 ~ 1.94 rad (from the de Sitter tracker approximation in Section 5.3).
+A different phi_0 gives a different ratio; the full phi_0-dependence has not been computed.
+This is a reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad, not a
+phi_0-independent structural prediction. [CORRECTION 2026-06-23, THETA-01]
 
 **Result 4 (DESI DR1 comparison):**
 GU ratio prediction -1.80 is within 1-sigma of the DESI DR1 measured ratio ~ -4.3 (given
@@ -824,12 +900,20 @@ Consistency verdict: CONSISTENT.
 **CONDITIONALLY_RESOLVED.**
 
 The computation achieves reconstruction grade. GU Candidate D (dark energy EOS w != -1) is
-currently consistent with DESI DR1. The ratio prediction w_a/(w_0+1) ~ -1.80 is a genuine
-GU-specific falsifiable quantity, independent of the unknown initial amplitude. DESI DR2 and
-Euclid will provide the definitive test.
+currently consistent with DESI DR1. The ratio prediction w_a/(w_0+1) ~ -1.80 is a
+falsifiable quantity at reconstruction grade, independent of f_0 (the unknown initial
+amplitude) but dependent on the initial phase phi_0 ~ 1.94 rad from the de Sitter tracker
+approximation. DESI DR2 and Euclid will provide the definitive test.
 
-The main open condition: GU does not yet derive the initial amplitude B_i from first
-principles. Without this, the w_0 value is a fit (f_0 = 0.11), not a prediction.
+**CORRECTION (2026-06-23, THETA-01):** The prior framing of the ratio as "independent of
+the unknown initial amplitude" and therefore a "genuine GU prediction" is overstated. The
+ratio is f_0-independent (correct) but phi_0-dependent (not previously flagged). Until the
+phi_0-dependence of w_a/(w_0+1) is mapped across the full range of phi_0, this ratio is
+a reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad, not a free prediction.
+
+The main open conditions: (1) GU does not yet derive B_i from first principles (the w_0
+value is a fit); (2) the phi_0-dependence of the ratio w_a/(w_0+1) has not been computed;
+(3) the matter-era evolution that sets phi_0 has not been computed (OQ3).
 
 ---
 

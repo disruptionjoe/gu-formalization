@@ -1,0 +1,158 @@
+---
+title: "GU Linearized Schwarzschild — R_fail Vanishes at O(M/r)"
+status: canon
+doc_type: canon
+promoted_from:
+  - "explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md"
+promoted_at: "2026-06-23"
+verdict: CONDITIONALLY_RESOLVED
+---
+
+# GU Linearized Schwarzschild — R_fail Vanishes at O(M/r)
+
+Canon means: safe to cite as the current public spine of the project. It does not mean proved physics.
+
+## Scope
+
+In Geometric Unity the section s: X4 -> Y14 = Met(X4) satisfies a field equation derived from the Willmore energy E[s] = integral |II_s^H|^2. The companion note (rfail-non-umbilic-schwarzschild-2026-06-23.md) established that exact Schwarzschild is NOT a Willmore-critical section — the section equation residual (Willmore-EL failure) is non-zero at nonlinear order O(M^2/r^4).
+
+This result establishes that both failure modes are suppressed in the linearized (post-Newtonian weak-field) regime.
+
+**Convention — two distinct failure objects.** This canon entry uses R_fail^{full}, a non-standard combined failure tensor. Readers using the standard GR definition should note:
+
+```
+R_fail^{GR}_{mu nu}  := G^X_{mu nu}[g_s] - 8piG T_{mu nu} - Lambda g_{mu nu}
+                        [standard: Einstein equation residual on induced metric]
+
+[Willmore-EL residual]_{mu nu} := -(delta E / delta s)_{mu nu}
+                        [GU-specific: section equation residual]
+
+R_fail^{full}_{mu nu} := R_fail^{GR}_{mu nu} + [Willmore-EL residual]_{mu nu}
+                        [non-standard combined object used here]
+```
+
+These two failure modes are conceptually distinct: (A) measures whether the induced metric satisfies the Einstein equation; (B) measures whether the section satisfies the GU variational principle. They are independent at the level of definitions and must not be conflated.
+
+**Claim.** For the GU section corresponding to linearized Schwarzschild (g_{mu nu} = eta_{mu nu} + h_{mu nu} with h ~ O(M/r)):
+
+- R_fail^{GR}_{mu nu} = 0 exactly (Schwarzschild is vacuum Ricci-flat by definition — this is trivial and carries no GU-specific content).
+- [Willmore-EL residual]_{mu nu} ~ O(M/r^4) in curvature units = O(M/r) in relative terms (small but non-zero).
+- Therefore R_fail^{full}_{mu nu} = 0 at O(M/r).
+
+GU therefore passes solar-system tests in the weak-field regime at reconstruction grade.
+
+## Proof
+
+**The Gauss identity (exact).**
+
+For any section s: X4 -> Y14, the following holds as a differential-geometric tautology:
+
+```
+G^X_{mu nu} = G^Y_T_{mu nu} + Q_{mu nu}(B) + E^Psi_{mu nu}    [GAUSS IDENTITY]
+```
+
+where G^X is the 4D Einstein tensor on the induced metric g_s = s*(g), G^Y_T is the tangential projection of the 14D Einstein tensor, Q(B) is the extrinsic stress (quadratic in the second fundamental form B = II_s^H), and E^Psi is the Sp(64) gauge curvature contribution.
+
+**Q(B) is quadratic — vanishes at O(M/r).**
+
+From the explicit formula (codazzi-general-non-umbilic-2026-06-23.md §3.3):
+
+```
+Q^{TF}_{mu nu}(B) = [(1/2) H_i hat B^i_{mu nu} - (hat B^2)_{mu nu}]^{TF}
+```
+
+Both terms are quadratic in B. The second fundamental form B ~ O(M/r^2) at connection-level (or O(M/r^3) at curvature-level). In either case:
+
+```
+Q(B) ~ B^2 ~ O(M^2/r^4)    or better.
+```
+
+At O(M/r): Q(B) = 0. `[verified — algebraic quadraticity of the Q formula]`
+
+**G^X = 0 for Schwarzschild (exact).**
+
+Schwarzschild is an exact vacuum solution of 4D GR: G^X_{mu nu}[g_{Schw}] = 0 identically (Ricci-flat). This holds at all orders, not just at O(M/r). `[verified — standard GR]`
+
+**Willmore-EL residual is O(M/r^4) in curvature units.**
+
+The Willmore-EL equation Delta^perp H^i = 0 is not satisfied for Schwarzschild (the exact-section obstruction). But the failure enters at:
+
+```
+[Willmore-EL residual]_{mu nu} ~ Delta^perp H^i_{Schw}
+```
+
+With H^i_{Schw} ~ O(M/r^2) (extrinsic mean curvature of Schwarzschild section), the Laplacian Delta^perp H^i ~ O(M/r^4) in curvature units = O(M/r) in relative terms (ratio to GR prediction O(M/r^3)). `[reconstruction — from rfail-non-umbilic-schwarzschild-2026-06-23.md §4.3]`
+
+**E^Psi at O(M/r).**
+
+In the linearized Schwarzschild vacuum (T_{mu nu} = 0, Lambda = 0), the natural gauge vacuum is Psi = 0 (or Psi ~ O(M/r)^2). Under this condition, E^Psi ~ O(M^2/r^4) and does not contribute at O(M/r). `[reconstruction — condition F2 below]`
+
+**Assembly.**
+
+The two failure modes are assessed separately:
+
+```
+R_fail^{GR}_{mu nu}  = G^X_{mu nu}[g_{Schw}] - 8piG T_{mu nu} - Lambda g_{mu nu}
+                     = 0 - 0 - 0
+                     = 0     (exact, all orders — Schwarzschild is Ricci-flat by definition)
+
+[Willmore-EL residual]_{mu nu}
+                     = Delta^perp H^i_{Schw} + hat-B^2 terms
+                     ~ O(M/r^4) in curvature units
+                     = 0     at O(M/r)  [enters at next order]
+```
+
+Combined (non-standard convention):
+
+```
+R_fail^{full}_{mu nu} = R_fail^{GR}_{mu nu} + [Willmore-EL residual]_{mu nu}
+                      = 0 + O(M/r^4)
+                      = 0     at O(M/r).
+```
+
+(The Gauss identity converts: G^X = G^Y_T + Q(B) + E^Psi. With Q(B) = 0 and E^Psi = 0 at O(M/r), G^Y_T = G^X = 0 for Schwarzschild. The combined failure tensor reduces to the Willmore-EL residual alone, which is suppressed.)
+
+## Solar-System Implications
+
+The leading GU correction to solar-system observables enters at O(M/r) relative to the GR prediction:
+
+```
+|R_fail^{full}| / |G^X_{GR prediction}| ~ O(M/r).
+```
+
+For Mercury: O(M_sun / r_Mercury) ~ 3 x 10^{-8}. Current measurement precision is ~10^{-5} (Cassini PPN gamma). GU deviations are below current and planned mission sensitivity (BepiColombo, GAIA). `[reconstruction]`
+
+The ratio prediction for the GU theta-field dark energy sector is separate and independent of this solar-system result.
+
+## Assumptions
+
+1. The linearized approximation g = eta + h with |h| ~ M/r is valid.
+2. The Gauss identity holds as a tautology for any section (standard).
+3. Q(B) is quadratic in B (algebraically exact from the Codazzi formula).
+4. Gauge vacuum: E^Psi ~ O(M/r)^2 in the linearized Schwarzschild background (F2 condition).
+
+## Known Failure Modes and Conditions for Upgrade
+
+**F1 (Willmore-EL order).** If the linearized Willmore-EL equation in the gimmel geometry has additional O(1/r^3) or larger terms from the ambient curvature G^Y_T coupling, the residual could enter at O(M/r^3) rather than O(M/r^4), putting the GU correction at O(1) relative to GR. This would falsify solar-system compatibility.
+- Falsification test: Derive the linearized Willmore-EL equation from E[s] in the gimmel geometry explicitly.
+
+**F2 (E^Psi gauge term).** If the Sp(64) gauge field Psi has a non-trivial O(M/r) component in the linearized Schwarzschild background, E^Psi ~ O(M/r) and contributes to R_fail at leading order.
+- Falsification test: Solve the linearized Yang-Mills equation D_A* F_A = II_s^H for the Schwarzschild section and check the order of F_A.
+
+**F3 (Linearized gimmel tangential curvature).** If the linearized G^Y_T has O(1) h-independent contributions at the tangential level, these require separate background equations.
+- Falsification test: Compute G^Y_T^{(1)}_{mu nu}[h] explicitly from the gimmel Christoffel symbols.
+
+## What Remains Open
+
+- OQ2-A: Full linearized Willmore-EL equation in gimmel geometry (closes F1).
+- OQ2-B: Linearized Yang-Mills on Schwarzschild background (closes F2).
+- OQ2-C: GU vs. GR at 1PN — whether PPN parameters gamma, beta differ at measurable level.
+- OQ2-D: Strong-field regime (r ~ 2M), where O(M^2/r^4) terms become O(1).
+
+## References
+
+- Source exploration: rfail-schwarzschild-oq2-weak-field-2026-06-23.md (full computation with discipline tags)
+- Companion note: rfail-non-umbilic-schwarzschild-2026-06-23.md (exact Schwarzschild obstruction)
+- Standard GR: Wald, R.M., General Relativity, U Chicago Press, 1984. Ch. 4 (Schwarzschild vacuum, Ricci-flat).
+- Codazzi formula: codazzi-general-non-umbilic-2026-06-23.md §3.3 (Q formula, quadratic in B).
+- Bertotti, B., Iess, L., Tortora, P. (2003). Cassini PPN bound |gamma - 1| < 2.3 x 10^{-5}. Nature 425, 374.

@@ -3,7 +3,16 @@ title: "H3 Gap 2: Does GU Observer Geometry Universally Force SBP-Odd + NAC Conf
 date: 2026-06-23
 problem_label: "h3-gap2-gu-universality"
 status: reconstruction
-verdict: CONDITIONALLY_RESOLVED
+verdict: PARTIAL
+verdict_detail: |
+  Q-NAC: CONDITIONALLY_RESOLVED (reconstruction) — GU null-cone causal structure forces NAC via null-cone-bounded propagation; conditional on VZ evasion + APS/Fredholm on K3.
+  Q-SBP all settings: FAILS as stated — product-state counterexample (non-equivariant bipartite split) gives CHSH <= 2; full universality refuted.
+  Q-SBP equivariant splits: CONDITIONALLY_RESOLVED (reconstruction) — Sp(64) irreducibility rules out any Sp(64)-equivariant bipartite split of H^64.
+  Q-SBP SM-charge (Pati-Salam) settings: OPEN — CORRECTION H3-01: Pati-Salam acts reducibly on S(6,4) subset H^64, not on full H^64; Sp(64) irreducibility does not transfer to the restricted G_PS action; bipartite structure of S(6,4) under G_PS is an open computation (OQ-G2-1).
+corrections:
+  - id: H3-01
+    date: 2026-06-23
+    summary: "Withdrew equivariant Q-SBP claim for SM-charge settings: Pati-Salam acts reducibly on S(6,4), not on H^64; Sp(64) irreducibility does not establish Pati-Salam-equivariant product-state exclusion."
 ---
 
 # H3 Gap 2: GU Observer Geometry and the Universality of SBP-Odd + NAC
@@ -354,21 +363,39 @@ possible observer splits, but it IS forced for Sp(64)-invariant measurement sett
 
 In physical CHSH experiments, measurement settings a, a', b, b' correspond to spin
 projections. For the GU SM sector (S(6,4) = C^16 carrying SM charges), the natural
-measurement settings are the SM quantum numbers (color, isospin, hypercharge). These are
-Sp(64)-equivariant (they arise from the Pati-Salam decomposition of S(6,4) under
-SU(4) x SU(2)_L x SU(2)_R, which is a subgroup of Sp(64) acting on S = H^64).
+measurement settings are the SM quantum numbers (color, isospin, hypercharge). These arise
+from the Pati-Salam decomposition of S(6,4) under SU(4) x SU(2)_L x SU(2)_R.
 
-For SM-charge-based measurement settings (the physically relevant ones in GU):
-- Measurement operators are Sp(64)-equivariant projectors.
-- By the irreducibility argument, no GU spinor is a product state under these projectors.
-- Therefore all GU spinors with SM charges produce |CHSH| > 2 for SM-charge-based settings.
-- By Gap 1: NAC + |CHSH| > 2 => Odd-SBP.
+**CRITICAL CORRECTION (H3-01, 2026-06-23):** The claim in earlier drafts that SM-charge-based
+measurement operators are Sp(64)-equivariant on H^64 — and therefore that Sp(64)
+irreducibility of H^64 rules out product-state decompositions under these operators — is a
+mathematical error. The argument conflates two distinct group actions:
 
-**Restricted Universality (upgraded):** For all GU observer sections with nonzero SM charges
-and SM-charge-based measurement settings, the Sp(64) gauge-section geometry forces Odd-SBP
-+ NAC.
+1. The full Sp(64) action on H^64: this action is irreducible (S = H^64 has no proper
+   Sp(64)-invariant subspaces). There is no Sp(64)-equivariant bipartite split of H^64.
 
-This is a structural claim, not a numerical coincidence.
+2. The Pati-Salam action G_PS = SU(4) x SU(2)_L x SU(2)_R acting on S(6,4) = C^16:
+   this is the RESTRICTION of the Sp(64) action to G_PS acting on the S(6,4) subspace.
+   This restricted action is REDUCIBLE: S(6,4) -> (4,2,1) + (4-bar,1,2) under G_PS.
+   The Pati-Salam action on S(6,4) is a subgroup action on a subspace, NOT the full
+   Sp(64) action on H^64.
+
+The measurement operators in SM-charge-based CHSH experiments are projectors onto irreducible
+G_PS-components of S(6,4), not onto Sp(64)-equivariant components of H^64. The
+irreducibility of H^64 under the FULL Sp(64) is irrelevant to whether product-state
+decompositions of S(6,4) spinors exist under the REDUCIBLE G_PS action.
+
+**Consequence:** The irreducibility argument (§4.6) does not establish that SM-charge-based
+measurement operators are Sp(64)-equivariant projectors. Whether the reducible G_PS action
+on S(6,4) admits a bipartite split that gives CHSH <= 2 (product states in the S(6,4)
+sector) is an OPEN computation. This is exactly the F2 failure condition in §8 below, which
+was previously assessed as "an open computation" — but the logical dependency means the
+Q-SBP claim for equivariant SM settings must be OPEN until OQ-G2-1 is resolved.
+
+The restricted universality upgrade stated in earlier drafts of this file ("For all GU
+observer sections with nonzero SM charges and SM-charge-based measurement settings, Sp(64)
+gauge-section geometry forces Odd-SBP + NAC") is NOT SUPPORTED by the Sp(64) irreducibility
+argument as stated. This claim is withdrawn pending resolution of OQ-G2-1.
 
 ### 5.3 Boundary Case: Classical-Limit GU Observers
 
@@ -398,10 +425,10 @@ Gamma_min = ln(1/epsilon)/t_obs (from `fr2-bvn-gate-ii-gu-result-2026-06-23.md`)
 |---|---|---|---|
 | Q-NAC: GU null-cone forces NAC | CONDITIONALLY_RESOLVED | reconstruction | VZ evasion + APS/Fredholm on K3 |
 | Q-SBP: Sp(64) forces Odd-SBP (all splits) | FAILS as stated | exploration | Product-state counterexample exists |
-| Q-SBP: Sp(64) forces Odd-SBP (equivariant splits) | CONDITIONALLY_RESOLVED | reconstruction | Sp(64) irreducibility + SM charges |
-| Q-SBP: SM-charge settings force Odd-SBP | CONDITIONALLY_RESOLVED | reconstruction | Pati-Salam equivariance + Bell |
+| Q-SBP: Sp(64) forces Odd-SBP (Sp(64)-equivariant splits) | CONDITIONALLY_RESOLVED | reconstruction | Sp(64) irreducibility rules out equivariant splits of H^64 |
+| Q-SBP: SM-charge (Pati-Salam) settings force Odd-SBP | OPEN | exploration | CORRECTION H3-01: Pati-Salam acts reducibly on S(6,4), not on full H^64; Sp(64) irreducibility does not transfer; bipartite structure of S(6,4) under G_PS is an open computation (OQ-G2-1) |
 | Full universality (all GU observers) | OPEN | exploration | Classical-limit observers are exceptions |
-| Restricted universality (SM-charged, quantum-coherent GU observers) | CONDITIONALLY_RESOLVED | reconstruction | Physical domain is exactly this class |
+| Restricted universality (SM-charged, quantum-coherent GU observers) | OPEN | exploration | CORRECTION H3-01: Depends on resolution of OQ-G2-1 |
 
 ---
 
@@ -441,18 +468,27 @@ If the GU characteristic cone extends outside the null cone (VZ fires at 14D or 
 NAC is violated (superluminal data propagation). This would close Q-NAC negatively. VZ is
 EVADED at reconstruction grade; F1 requires a positive VZ result to fire.
 
-**F2: Sp(64) has a nontrivial product-state structure for SM-charge settings.**
+**F2: Pati-Salam action on S(6,4) allows product-state decompositions under SM-charge measurements. [CORRECTION H3-01: THIS FAILURE CONDITION IS NOT DISMISSED — IT BLOCKS THE EQUIVARIANT Q-SBP VERDICT]**
 
-If SM-charge-based measurement operators (Pati-Salam projectors) admit an Sp(64)-equivariant
-bipartite split of S = H^64, then product-state GU spinors can satisfy CHSH <= 2 under SM
-settings. This requires Sp(64) to have a nontrivial subrepresentation decomposition
-S = S_A tensor_H S_B compatible with the Pati-Salam split.
+The SM-charge-based CHSH measurement operators are projectors onto G_PS = SU(4) x SU(2)_L x
+SU(2)_R irreducibles of S(6,4) = C^16. The Pati-Salam action on S(6,4) is REDUCIBLE:
+S(6,4) -> (4,2,1) + (4-bar,1,2). Whether this reducible action admits a bipartite split
+S(6,4) = S_A tensor S_B under G_PS-type Alice/Bob measurement operators is an open
+computation (OQ-G2-1).
 
-Assessment: The Pati-Salam group G_PS = SU(4) x SU(2)_L x SU(2)_R is a subgroup of Sp(64)
-acting on S(6,4) = C^16, not on all of S = H^64. The full Sp(64) action on H^64 is irreducible.
-The Pati-Salam action restricted to S(6,4) is reducible (S(6,4) -> (4,2,1) + (4-bar,1,2)).
-Whether this gives a GU bipartite split of H^64 under Pati-Salam-type measurements is an
-open computation. If it does, F2 fires and Q-SBP fails even for equivariant SM settings.
+CRITICAL: The Sp(64) irreducibility of H^64 is irrelevant to this question. The measurements
+act on S(6,4) subset H^64, not on all of H^64. The irreducibility of H^64 under Sp(64) does
+NOT prevent a bipartite decomposition of the S(6,4) subspace under the restricted, reducible
+G_PS action. The two actions operate on different spaces with different group representations.
+
+Assessment: F2 is NOT dismissed by the Sp(64) irreducibility argument. Until OQ-G2-1 is
+resolved by explicit Pati-Salam bipartite structure computation, F2 remains as a genuine
+open failure condition that blocks the equivariant-split Q-SBP verdict.
+
+If the G_PS action on S(6,4) admits an Alice/Bob bipartite split (e.g., S(6,4) decomposes
+as S_A tensor S_B with Alice measuring on S_A and Bob on S_B under G_PS-equivariant
+projectors), then product-state GU spinors in the S(6,4) sector can satisfy CHSH <= 2 for
+SM-charge-based settings, and Q-SBP fails even for SM-equivariant settings.
 
 **F3: The GU framework admits classical-limit sections that are also well-posed.**
 
