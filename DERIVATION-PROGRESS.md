@@ -715,3 +715,24 @@ File: `explorations/rc3-oq3-lorentzian-casimir-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Computed the ambient curvature correction delta_curv = +4K on Met(S^4) by explicitly evaluating the Y^14 gimmel Riemann tensor tangential projection at the totally geodesic LC-section via three independent methods: (1) Simons/O'Neill fiber bundle formula; (2) normal-bundle curvature via the soldering map j_s giving V^{ij} R^{N_s}_{ij} = 4K * G^{TT}; (3) the Lichnerowicz Weitzenboeck identity Delta_L h = nabla^*nabla h + 4K h on TT modes of S^4, from -2 R_{iklj} h^{kl} + R_{ik} h^k_j + R_{jk} h^k_i = -2K h + 6K h = +4K h (exact on TT 2-tensors on S^n with constant curvature K). All three methods give delta_curv = +4K exactly. Combined with mu_{2,2} = 4/R^2 (rough Laplacian, exact), lambda_2^L = 8/R^2 is confirmed via the formula [l(l+n-1)-s(s+n-3)+2n-4]/R^2 at l=2,s=2,n=4. The CPA-1 main result Lambda_GU = lambda_max^2 is fully triangulated at reconstruction grade; remaining for verified: CAS coordinate Weitzenboeck check (OQ1) and direct delta^2 E computation from gimmel Christoffels (OQ2).
 File: `explorations/cpa1-ambient-curv-y14-2026-06-23.md`
+
+---
+
+### sc1-oq2b-symmetric-hyperbolic (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Constructed the symmetric-hyperbolic energy estimate for D_{4D} = s*(D_GU) using the Bär-Ginoux-Pfäffle theorem for Dirac-type operators on globally hyperbolic Lorentzian manifolds; the Cauchy problem for D_{4D} Psi = 0 with initial data on Sigma^3 is well-posed at reconstruction grade with explicit Gronwall estimate E_{4D}(t) <= E_{4D}(0) exp(C_V t), where C_V = 2||s*(V)||_infty (the bounded zero-order shiab + curvature contribution). The VZ evasion mechanism and the symmetric-hyperbolic energy mechanism are identified as dual faces of the same Clifford identity c(xi)^2 = g(xi,xi) Id. Key finding: the correct Cauchy surface is s(Sigma^3) (via 4D section pullback), not a 13D fiber-over-time hypersurface in Y^14 (which has mixed signature (9,4)). OQ2-c (null-mode physical interpretation) and full 14D fiber Cauchy formulation remain open.
+File: `explorations/sc1-oq2b-symmetric-hyperbolic-2026-06-23.md`
+
+---
+
+### signed-readout-oq2-integer-index (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Discharged OQ2 by establishing that the PN/Jordan decomposition combined with a topologically enriched record-graph (G_R, T, phi) over Z produces integer-valued, deformation-invariant indices via two ingredients: (1) Z-grading theorem -- if w: X -> Z then R: E -> Z is integer-valued for all e (immediate from the monoid-homomorphism extension); (2) topological protection theorem -- if T is connected and phi: T -> Z^V is continuous, then R_{phi(t)}(e_max) is constant on T (continuous map from connected space to discrete Z). The PN/Jordan split recovers R_+ = Ind^+ (analogous to dim ker D) and R_- = Ind^- (analogous to dim coker D), both in N_0, with Ind = Ind^+ - Ind^- in Z. GW axial charge Q_A = n_+ - n_- is the primary worked example: Z-grading holds (local GW index density is integer per site), topological protection holds (Atiyah-Jannich stability within each topological sector T_k), and the PN split recovers n_+ and n_-. The GU generation count ind_H(D_GU) = 24 fits the framework as a monotone Z-valued case (all Atiyah-Schmid contributions in N_0, R_- = 0). Remaining: CAS verification of Z-grading theorem (RV1); explicit connectivity of GW sector T_k (RV2); Atiyah-Jannich in L^2 setting for GU case (RV3); K-theory lift (OQ2-A); GU explicit record-graph construction (OQ2-D).
+File: `explorations/signed-readout-oq2-integer-index-2026-06-23.md`
+
+---
+
+### rc3-root-multiplicity (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Verified that the root multiplicity m=9 used in the RC3 c-function formula arises from a BC_1 restricted root system on SL(4,R)/SO_0(3,1) with (m_1, m_2) = (7, 1): dimension counting gives m_1+m_2 = dim(G/K)-rank = 9-1 = 8, and the unique eigenvalue-2 generator E_{14} under ad(diag(1,0,0,-1)) identifies m_2 = 1, giving m_1 = 7. The effective multiplicity m = m_1+2*m_2 = 9 is algebraically exact (not an approximation): rho = m_1/2+m_2 = 9/2 from the BC_1 half-sum formula equals the A_1 approximation m/2 = 9/2. The long root (m_2=1) is confirmed by the matching of half-integer poles nu_n=(2n+1)/2 (from the Gamma(i lambda R_s+1/2) factor in the c-function) to the RC3 discrete eigenvalues {20,18,14,8}/R_s^2; integer poles (m_2=0) would give a non-matching spectrum. OQ-RC3-1 closed; remaining upgrade gate is CAS explicit Iwasawa root-space dimension verification.
+File: `explorations/rc3-root-multiplicity-bc1-2026-06-23.md`
