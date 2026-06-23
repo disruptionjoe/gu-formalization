@@ -1,9 +1,10 @@
 ---
-title: "VZ Schur: Mixed 14D Covector Extension and Full Spin(9,5) Clifford Symbol"
+title: "VZ Schur: Mixed 14D Covector Extension, Full Spin(9,5) Clifford Symbol, and Section-Pullback 4D Preservation (OQ3)"
 date: 2026-06-23
 problem_label: "vz-schur"
 status: reconstruction
 verdict: EVADED
+oq3_status: CONDITIONALLY_RESOLVED
 ---
 
 # VZ Schur: Mixed 14D Covector Extension and Full Spin(9,5) Clifford Symbol
@@ -1028,6 +1029,7 @@ a sufficient condition.
 **OQ3.** Does the section pullback `s*(D_GU)` preserve the Clifford module property for the
 induced 4D operator? If yes, the 4D observable RS field automatically inherits VZ evasion.
 This depends on the Codazzi equation for the Sp(64) bundle (explorations/codazzi-sp64-bundle-2026-06-23.md).
+See §17 for the resolution at reconstruction grade: CONDITIONALLY_RESOLVED.
 
 **OQ4.** GU-Vasiliev comparison: does the GU RS embedding strategy (Leibniz cross-term as
 RS definition) provide a new class of consistent higher-spin theories, distinct from Vasiliev's
@@ -1044,9 +1046,9 @@ higher-spin gravity? This is the P53-NOVEL target from the 62-persona steelman.
 | `ker S_R^{14D}(xi) = 0` for `xi2 != 0`, general xi | RECONSTRUCTION | Clifford module (§8) |
 | E block invertible for `xi2 != 0` | RECONSTRUCTION | Block determinant (§9) |
 | VZ obstruction absent for full 14D covectors | RECONSTRUCTION | §8 + §11 |
-| `S_R^2 = xi2 Id_{RS}` as matrix identity | OPEN | §7, §15 OQ1 |
-| Lower-order curvature protection | OPEN | F5 |
-| Section-pullback 4D RS VZ evasion | RECONSTRUCTION (conditional) | §12 F4 |
+| `S_R^2 = xi2 Id_{RS}` as matrix identity | RESOLVED (vz-oq1): NOT exact; `A S_R = xi2 Id` is correct | See vz-oq1 file |
+| Lower-order curvature protection | CONDITIONALLY_RESOLVED (vz-oq2, vz-subprincipal) | Zero-order argument + Hormander |
+| Section-pullback 4D RS VZ evasion (OQ3) | CONDITIONALLY_RESOLVED | §17 (this update) |
 
 **Verdict: EVADED (reconstruction grade).**
 
@@ -1063,6 +1065,270 @@ to guarantee causal characteristics for the effective RS symbol at the principal
 
 ---
 
+---
+
+## 17. OQ3: Section-Pullback 4D Preservation of Clifford Module Property (New Computation, 2026-06-23)
+
+**Question.** Does `s*(D_GU)` preserve the Clifford module property for the induced 4D
+operator? Specifically: for a horizontal 4D covector `xi_H in s*(T*Y^{14}) = T*X^4`,
+does the pulled-back principal symbol satisfy
+
+```
+s*(sigma_{D_GU})(xi_H)^2 = g_s(xi_H, xi_H) * Id_{E_s}              (OQ3-target)
+```
+
+where `E_s = s*(E)` is the pulled-back Clifford module bundle over `X^4`?
+
+**Why this matters for VZ.** The 4D observable RS field is not `D_GU Psi = 0` but rather
+the restriction of `D_GU Psi = 0` to the section `s(X^4) subset Y^{14}`. If (OQ3-target)
+holds, then the §8 argument applies verbatim to the 4D pulled-back operator, and the 4D
+effective RS symbol also has trivial kernel for non-null 4D covectors. VZ evasion at 14D
+descends to VZ evasion at 4D.
+
+---
+
+### 17.1 Principal Symbol Pullback: The Key Observation
+
+**Claim.** The section pullback `s*` does NOT modify the principal symbol of `D_GU`.
+
+**Proof.** Let `D_GU` be a first-order differential operator on sections of `E -> Y^{14}`.
+The principal symbol `sigma_{D_GU}(xi)` at a covector `xi in T*Y^{14}` is a bundle map
+`E -> E` depending only on `xi`, not on the connection or second fundamental form.
+
+For the section `s: X^4 -> Y^{14}`, the pulled-back operator `s*(D_GU)` acts on sections
+of `E_s = s*E -> X^4`. For a 4D covector `eta in T*X^4`, the principal symbol of `s*(D_GU)`
+at `eta` is:
+
+```
+sigma_{s*(D_GU)}(eta) = s*(sigma_{D_GU}(ds*(eta)))
+                       = sigma_{D_GU}(xi_H(eta))
+```
+
+where `xi_H(eta) = s*(eta) in T*_{s(x)}Y^{14}` is the horizontal lift of `eta` via `s`.
+Since `s: X^4 -> Y^{14}` is a section of the bundle projection `pi: Y^{14} -> X^4`, the
+differential `ds: TX^4 -> TY^{14}|_{s(X^4)}` lifts tangent vectors to horizontal tangent
+vectors (by the section property `pi circ s = Id`). The pullback on covectors is
+`ds*: T*Y^{14}|_{s(X^4)} -> T*X^4`, which sends horizontal covectors to themselves and
+kills vertical covectors.
+
+For a 4D covector `eta in T*X^4`:
+
+```
+g_Y(xi_H(eta), xi_H(eta)) = g_Y(s*(eta), s*(eta)) = s*(g_Y)(eta, eta) = g_s(eta, eta)
+```
+
+where `g_s = s*(g_Y|_{H*})` is the induced 4D metric (the Lorentzian metric selected by
+the section).
+
+**Therefore:**
+
+```
+sigma_{s*(D_GU)}(eta)^2 = sigma_{D_GU}(xi_H(eta))^2 = g_Y(xi_H, xi_H) * Id_E
+                        = g_s(eta, eta) * Id_{E_s}.              (OQ3-verified)
+```
+
+The Clifford module property is preserved under section pullback, for horizontal covectors.
+
+**Grade:** Reconstruction. The computation is a direct application of the naturality of
+principal symbols under pullback. No coordinate computation is needed.
+
+---
+
+### 17.2 What the Second Fundamental Form Does NOT Affect
+
+A natural concern: the section `s` has a nonzero second fundamental form `II_s`, which
+contributes lower-order terms to `s*(D_GU)` via the Gauss-Codazzi mechanism. These
+terms appear in the connection term of the pulled-back operator.
+
+**Claim.** Lower-order (connection, curvature, II_s) terms do NOT modify the principal symbol.
+
+**Proof.** The principal symbol of a first-order differential operator `D` in local
+coordinates `{x^mu}` is:
+
+```
+sigma_D(xi) = sum_mu D_mu xi_mu,    [in local coordinates, where D = sum D_mu d/dx^mu + E_0]
+```
+
+where `E_0` collects all zero-order terms. The section pullback produces:
+
+```
+s*(D_GU) = D_GU|_{s(X^4)} + [correction terms from II_s].
+```
+
+The II_s correction terms arise from comparing `nabla_s` (the connection on the pullback
+bundle) to the ambient connection `nabla^Y`. By the Gauss formula:
+
+```
+nabla^Y_{s_* v} w = nabla^{X,s}_v w + II_s(v, w).
+```
+
+The term `II_s(v, w)` maps tangent directions to normal directions and is a zero-order
+term in the differential operator sense (it multiplies a section without differentiating
+it). It does NOT contribute to the principal symbol.
+
+**Conclusion.** The principal symbol of `s*(D_GU)` at a 4D covector `eta` is exactly
+`sigma_{D_GU}(xi_H(eta))`, with no II_s correction. The Clifford module property
+(OQ3-target) holds exactly at the principal symbol level.
+
+---
+
+### 17.3 The 4D RS Projection: Horizontal vs. Full 14D
+
+**Subtlety.** The 14D RS projection `R^{14D} = ker Gamma^{14D}` uses all 14 gamma matrices.
+After section pullback, the 4D observable RS sector must be defined using only the 4D
+(horizontal) gamma trace:
+
+```
+R^{4D} = ker Gamma^{4D},   Gamma^{4D}(psi) = gamma^a psi_a   [a = 0,1,2,3 horizontal].
+```
+
+The 4D Clifford module for `D_GU^{4D} = s*(D_GU)` acts on:
+
+```
+E_s = (Omega^0(X^4) tensor S_s+) direct-sum (Omega^1(X^4) tensor S_s-)
+```
+
+where `S_s+/-` are the chiral halves of `s*(S)`. The RS sector within `E_s` is:
+
+```
+R_s = ker(Gamma^{4D}: Omega^1(X^4) tensor S_s^- -> S_s^-)
+    = {psi_{a,alpha} in Omega^1(X^4) tensor S_s^- : gamma^a_{alpha}^beta psi_{a,beta} = 0}.
+```
+
+The 4D Clifford module bundle `E_s` with RS sub-bundle `R_s` inherits the Clifford
+module property from (OQ3-verified):
+
+```
+sigma_{D_GU^{4D}}(eta)^2 = g_s(eta, eta) * Id_{E_s}.
+```
+
+The §8 argument applies to the 4D block decomposition `E_s = R_s direct-sum Q_s`:
+
+**Theorem (OQ3, reconstruction grade).** For all 4D covectors `eta in T*X^4` with
+`g_s(eta, eta) != 0`:
+
+```
+ker S_{R_s}^{4D}(eta) = 0.
+```
+
+Equivalently, the 4D effective RS principal symbol `D_RS_eff^{4D}(eta)` has trivial kernel
+for all non-null 4D covectors. VZ evasion at 14D descends to VZ evasion at 4D.
+
+**Proof.** Identical to §8, replacing `M(xi)` with `sigma_{D_GU^{4D}}(eta)` and using the
+4D Clifford identity (OQ3-verified). The block determinant argument (§9) gives invertibility
+of `E_s(eta)` for `g_s(eta, eta) != 0`, and the kernel argument gives `psi_{R_s} = 0`.
+
+---
+
+### 17.4 The Residual Gap: Normal-Direction RS
+
+**What is NOT resolved by OQ3.** The 14D RS sector `R^{14D}` includes RS spinors with
+normal (vertical) gamma traces projected out:
+
+```
+R^{14D} = ker Gamma^{14D} = ker(gamma^a psi_a + gamma^i psi_i),   a horizontal, i normal.
+```
+
+The 4D pullback sees only the horizontal components `psi_a`. The normal components `psi_i`
+are KK fields from the 4D perspective. After KK reduction (integrating over the normal
+directions, or equivalently, imposing the normal-direction equations of motion), the
+surviving 4D field is `psi_a in R_s` with the 4D RS constraint `Gamma^{4D}(psi) = 0`.
+
+**The gap.** The KK reduction might not preserve the Clifford module property exactly:
+the normal-direction equations of motion contribute mass terms and KK towers. At the
+principal-symbol level these are zero-order, so they do not affect the VZ conclusion.
+But at the level of the full operator spectrum and propagator, the KK tower structure
+changes the effective 4D theory.
+
+**Why this is not a VZ obstruction.** VZ is a statement about the principal symbol
+(the characteristic cone) of the effective operator. The KK tower contributions are
+lower-order terms. The characteristic cone of the 4D effective RS operator is determined
+by the principal symbol alone, which is (OQ3-verified) causal. VZ acausality requires
+spacelike characteristics, which are a principal-symbol property.
+
+**Residual open question.** Whether the KK mass spectrum of the 4D RS sector is consistent
+with the SM (i.e., whether the lightest RS KK mode matches the observed RS particles, if
+any exist) is a dynamical question outside the scope of the characteristic/VZ analysis.
+
+---
+
+### 17.5 Failure Conditions for OQ3
+
+**OQ3-F1.** If `s*(sigma_{D_GU})` is not the horizontal restriction of `sigma_{D_GU}` --
+e.g., if the section `s` is not an immersion (degenerate differential `ds`), or if the
+horizontal lift `xi_H` does not preserve the symplectic form on `T*Y^{14}`. For smooth
+sections `s: X^4 -> Y^{14}` (which are immersions since `dim X^4 < dim Y^{14}` and
+`pi circ s = Id` forces `ds` to be injective), this does not apply.
+
+**OQ3-F2.** If the RS sub-bundle `R_s = s*(R^{14D})` is not a direct summand of `E_s`.
+The pullback of a direct summand is a direct summand (for transverse pullbacks, which
+holds here since `s` is a section). The rank of `R_s` is preserved under pullback.
+
+**OQ3-F3.** If the induced 4D metric `g_s = s*(g_Y|_{H*})` is degenerate. For Lorentzian
+sections (i.e., sections `s: X^4 -> Y^{14}` whose image corresponds to a Lorentzian metric
+on X^4), `g_s` has signature (3,1) and is non-degenerate.
+
+**OQ3-F4.** If the Codazzi correction modifies the principal symbol (not just lower-order
+terms). The Codazzi equation for the Sp(64) bundle (from `explorations/codazzi-sp64-2026-06-23.md`)
+gives:
+
+```
+[D_{a^0}, D_{a^0}](j_s theta) = j_s(R^{Y^{14},perp}) + F^Psi - [F_{a^0}, j_s theta].
+```
+
+This is a second-order commutator identity, not a modification to the first-order principal
+symbol. The right-hand side involves curvature (zero-order) and gauge curvature F (zero-order
+as an operator on Psi). No new first-order derivative terms are introduced. OQ3-F4 does
+not apply.
+
+---
+
+### 17.6 Grade and Verdict for OQ3
+
+**Grade: Reconstruction.**
+
+The argument uses:
+- Naturality of principal symbols under smooth pullback (standard pseudodifferential calculus).
+- The Gauss formula for the second fundamental form (standard differential geometry).
+- The identification of the 4D RS sector with `ker Gamma^{4D}` acting on `s*(E)` (structural).
+- The block determinant argument from §9 (already reconstruction grade).
+
+**None of these steps require coordinate computation.** The argument is purely structural.
+
+**What would falsify OQ3.** Any of OQ3-F1 through OQ3-F4 above. In particular: if `D_GU`
+contains second-order terms in the normal directions that survive the section pullback
+(which would violate the first-order operator assumption). The formula for `D_GU` as a
+Dirac-type operator (confirmed in the shiab construction) excludes this.
+
+**Verdict.** OQ3 is **CONDITIONALLY_RESOLVED** at reconstruction grade.
+
+The section pullback `s*(D_GU)` satisfies the 4D Clifford module property:
+
+```
+sigma_{s*(D_GU)}(eta)^2 = g_s(eta, eta) * Id_{E_s}
+```
+
+for all `eta in T*X^4`. The §8 kernel argument applies, giving:
+
+```
+ker S_{R_s}^{4D}(eta) = 0    for all  g_s(eta, eta) != 0.
+```
+
+The 4D observable RS field is VZ-safe: its effective principal symbol has causal
+characteristic cone equal to the null cone of the induced 4D metric `g_s`. This is the
+4D consequence of the 14D Clifford module structure of `D_GU`.
+
+**Remaining open conditions for upgrade to verified:**
+- OQ3-V1: CAS/coordinate computation of `s*(sigma_{D_GU})` in an explicit section gauge
+  (e.g., constant-coefficient background) to confirm no anomalous normal-direction terms.
+- OQ3-V2: Explicit check that the 4D E block `E_s(eta)` is invertible (no accidental
+  zero modes from the KK mass spectrum at the principal-symbol level).
+- OQ3-V3: Confirmation that `R_s = s*(R^{14D})` coincides with `ker Gamma^{4D}` (not
+  a larger or smaller RS sector, which could happen if horizontal and vertical gamma traces
+  are not cleanly separated after section pullback).
+
+---
+
 ## References
 
 - `explorations/vz1-schur-complement-symbol-2026-06-23.md` (horizontal minimal result)
@@ -1071,5 +1337,10 @@ to guarantee causal characteristics for the effective RS symbol at the principal
 - `explorations/vz1-62-persona-steelman-hegelian-2026-06-22.md` (evasion candidate)
 - `explorations/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (Cl(9,5) algebra)
 - `explorations/codazzi-sp64-bundle-2026-06-23.md` (4D reduction, F4 context)
+- `explorations/codazzi-sp64-2026-06-23.md` (Codazzi equation for Sp(64), OQ3-F4 context)
+- `explorations/vz-oq1-sr-squared-identity-2026-06-23.md` (OQ1 resolved: S_R^2 != xi2 Id exactly)
+- `explorations/vz-oq2-lower-order-curvature-2026-06-23.md` (OQ2: curvature protection)
+- `explorations/vz-subprincipal-symbol-rs-2026-06-23.md` (subprincipal symbol analysis)
 - Velo and Zwanziger (1969), Phys. Rev. 186:1337
 - Lawson-Michelsohn, _Spin Geometry_, Ch. II (Clifford module Dirac operators)
+- Hormander (1985), _The Analysis of Linear Partial Differential Operators III_, §23 (real principal type)

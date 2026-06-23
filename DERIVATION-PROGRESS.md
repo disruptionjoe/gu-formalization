@@ -491,3 +491,17 @@ File: `explorations/oq3a-gu-variational-k3-selection-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Derived T_{mu nu} from the three-term GU Lagrangian (Yang-Mills + Dirac-DeRham spinor + distortion) by varying s*(L_{GU}) w.r.t. the induced 4D metric g_{mu nu} = s*(gg). The variational stress-energy tensor matches Q^{TF}(B)/8piG from the Codazzi identification term-by-term: the distortion term ||B||^2 gives T^{dist,TF} = Q^{TF}(j_s B)/8piG (matching the extrinsic Gauss stress); the Dirac-DeRham term gives T^{DD,TF} = [E^Psi]^{TF}/8piG (traceless on-shell, matching the spinor stress); and the YM + mixed-flux terms give T^{YM,TF} + T^{mix,TF} = [G^Y_T]^{TF}/8piG (matching the ambient curvature projection). The Einstein equation G^X_{mu nu} = 8piG T^{GU}_{mu nu} emerges at reconstruction grade on-shell. Remaining conditions for upgrade to verified: [G^Y_T]^{TF} component-by-component verification, normalization coefficient C_{Gauss} from 14D fiber integration, and O(theta^3) corrections to T^{dist}_{mu nu}. With IC1 (CONDITIONALLY_RESOLVED), IC2 (CONDITIONALLY_RESOLVED), IC3-nonlinear (CONDITIONALLY_RESOLVED), and IC4 (this note), the full Einstein equation emergence argument is now at reconstruction grade across all four IC conditions.
 File: `explorations/ic4-lagrangian-tmunu-derivation-2026-06-23.md`
+
+---
+
+### discrete-series (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Addressed OQ3b (RS block index = 8) and OQ3c (index additivity), the two remaining open gates from the prior OQ3 restructuring pass. OQ3b: the RS physical d.o.f. count gives (4 vector components - 1 gamma-trace constraint - 1 gauge invariance) x C^{16} fiber = C^{32} physical RS modes; the chiral half yields dim_H = 8 H-lines (one SM generation), consistent with the established 8 H-lines/generation count; H-linearity of the gamma-trace projection follows from the Cl(9,5) ~= M(64,H) bimodule structure. OQ3c: index additivity ind_H(D_GU) = ind_H(D_{1/2}) + ind_H(S_R^{eff}) = 16 + 8 = 24 established via Atkinson-Schur LDU factorization and H-orthogonality of the spin-1/2/RS Clifford projections. The generation count ind_H(D_GU) = 24 = 3 generations is CONDITIONALLY_RESOLVED at reconstruction grade; the remaining hard gate is OQ3b's analytic Fredholm index theorem for S_R^{eff} on the non-compact discrete-series L2 space over Y^{14}.
+File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
+
+---
+
+### vz-schur (2026-06-23)
+Verdict: EVADED (overall); OQ3 CONDITIONALLY_RESOLVED (this pass)
+The main vz-schur computation (mixed-covector Schur complement, §8 kernel argument, full 14D gamma-trace RS projection) was already filed; this pass adds §17 computing OQ3 (section-pullback 4D preservation). Key result: the section pullback `s*(D_GU)` preserves the 4D Clifford module property by naturality of principal symbols -- `sigma_{s*(D_GU)}(eta)^2 = g_s(eta,eta) Id_{E_s}` for all horizontal 4D covectors, because the second fundamental form II_s contributes only zero-order (Gauss formula) terms that do not affect the principal symbol. The §8 kernel argument descends to 4D verbatim, giving `ker S_{R_s}^{4D}(eta) = 0` for `g_s(eta,eta) != 0`. VZ evasion at 14D descends to VZ evasion at 4D. Remaining open for OQ3: OQ3-V1 (CAS coordinate check), OQ3-V2 (4D E block explicit invertibility check), OQ3-V3 (`R_s = ker Gamma^{4D}` identification).
+File: `explorations/vz-schur-complement-2026-06-23.md`
