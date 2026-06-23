@@ -1,8 +1,9 @@
 ---
 title: "N3 / H3 Cech Fixture Execution Audit"
-date: 2026-06-23
 problem_label: "n3-h3-cech-fixture-execution"
-status: blocked
+status: exploration
+doc_type: research_note
+updated_at: "2026-06-23"
 verdict: H3_REMAINS_OPEN_FIXTURE_NOT_AVAILABLE
 ---
 

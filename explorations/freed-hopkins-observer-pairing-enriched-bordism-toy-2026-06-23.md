@@ -1,8 +1,9 @@
 ---
 title: "Freed-Hopkins Observer-Pairing Enriched-Bordism Toy"
-date: 2026-06-23
 problem_label: "freed-hopkins-observer-pairing-enriched-bordism-toy"
 status: exploration
+doc_type: research_note
+updated_at: "2026-06-23"
 verdict: "FIRST_TOY_FAILS_AS_NEW_ANOMALY; OBSERVER DATA EITHER DESCENDS AWAY OR IS ORDINARY DEFECT/BACKGROUND DATA"
 ---
 

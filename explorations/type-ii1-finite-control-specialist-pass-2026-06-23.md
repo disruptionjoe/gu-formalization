@@ -1,8 +1,8 @@
 ---
 title: "Type II_1 Finite-Control Specialist Pass"
-artifact_type: exploration
 status: exploration
-date: 2026-06-23
+doc_type: research_note
+updated_at: "2026-06-23"
 problem_label: "type-ii1-finite-control-specialist-pass"
 verdict: CONDITIONAL_OPEN
 depends_on:

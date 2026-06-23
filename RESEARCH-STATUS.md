@@ -80,6 +80,18 @@ Five bounded frontier notes from the second hourly automation pass. All explorat
 | `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` | exploration | Parthasarathy-Casimir condition for fiber Dirac: `pi(C_g) = 9/2 + rho_constant`. Candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` at reconstruction grade. Complements F4 Flensted-Jensen approach. |
 | `explorations/observer-section-error-model-2026-06-23.md` | exploration | Bridge model: quantum metric measurement gives `epsilon_sec^2 ~ epsilon_dec`. Cross-program contact confirmed structural (shared `t_obs^{-2}`) but not numerically exact. Conditions B1–B3 for exactness named. |
 
+## 2026-06-23 Untouched-Lane Subagent Batch
+
+Five subagents were dispatched against high-impact lanes that were not already covered by the active hourly automation stream. All are exploration-grade; no promotion to active_research or canon.
+
+| document | status | content |
+|---|---|---|
+| `explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md` | exploration | Type II_1 lane remains open. KO-6 signs pass at the formal real-even sign-package level but are unproven as a finite-control selector. Principal graphs fail as a full SM representation source and remain only a conditional generation-count selector. |
+| `explorations/super-ig-algebra-construction-2026-06-23.md` | exploration | A super-IG family can be defined after supplying `(Q, beta)`, but current GU/IG data do not canonically determine a nontrivial `Sp(64)`-equivariant bracket. Not currently needed as a VZ guardian after F6 non-decoupling. |
+| `explorations/freed-hopkins-observer-pairing-enriched-bordism-toy-2026-06-23.md` | exploration | First observer-pairing enriched-bordism toy fails as a new anomaly model: metadata descends away; topological observer data is ordinary defect/background enrichment. |
+| `explorations/n3-h3-cech-fixture-execution-2026-06-23.md` | exploration | H3 remains open and is sharpened to fixture-specification blocked. `cech_sheaf_fixture` exists only as route/prose, not as a runnable fixture, script, test target, workflow implementation, or exploration file. |
+| `explorations/distler-garibaldi-functor-audit-2026-06-23.md` | exploration | Distler-Garibaldi is confirmed as a category-change stress case, not a genuine forgetful-image case. Coarse shadows do not preserve the chirality/generation invariant. |
+
 ## 2026-06-22 Additions (Positive GU Constructions Lane)
 
 One new exploration document was added as a new parallel lane of work:

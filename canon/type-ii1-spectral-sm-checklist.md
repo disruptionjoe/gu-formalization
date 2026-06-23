@@ -2,7 +2,7 @@
 title: "Type II_1 Spectral Standard Model Checklist"
 status: canon
 doc_type: canon
-updated_at: "2026-05-31"
+updated_at: "2026-06-23"
 ---
 
 # Type II_1 Spectral Standard Model Checklist
@@ -28,4 +28,10 @@ The first checklist pass isolates three high-value controls:
 
 ## Current Verdict
 
-The path is open, specialist-dependent, and high-upside. A clean negative result on KO-dimension would be valuable. A clean positive result on generation selection would be profound.
+The path is open, specialist-dependent, and high-upside, but the 2026-06-23 specialist pass narrows the target:
+
+- KO-dimension 6 mod 8 is **not** a clean immediate no-go at the formal real-even sign-package level. It remains open as a Type II_1 finite-control selector.
+- Subfactor principal graphs **fail** as a full SM representation source. They remain conditionally viable only as a generation-count selector.
+- Freed-Hopkins compatibility remains downstream: it conditionally passes if the Connes-channel shadow is exactly ordinary anomaly-free SM content, and fails if extra Type II_1 modes survive in the smooth shadow with uncanceled anomaly.
+
+See `../explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md`.

@@ -2,7 +2,7 @@
 title: "The Connes-Chamseddine Finite Spectral Standard Model — Control-Case Checklist"
 status: canon
 doc_type: specification
-updated_at: "2026-05-31"
+updated_at: "2026-06-23"
 ---
 
 # The Connes-Chamseddine Finite Spectral Standard Model — Control-Case Checklist
@@ -59,6 +59,8 @@ where `(C∞(M), L²(M, S), D_M, J_M, γ_M)` is the canonical spectral triple of
 
 **[open]** KO-dimension for semifinite / Type II spectral triples has been developed (Benameur-Fack, Carey-Phillips-Rennie-Sukochev) in the index-theoretic direction (Breuer-Fredholm index, Chern character via resolvent cocycle). Whether the **mod 8 periodicity** carries over in a form that constrains chirality the way it does in the finite case is not closed in the published record. This is the single highest-risk item on the checklist.
 
+**Specialist update (2026-06-23).** KO-dimension 6 mod 8 is not a clean immediate no-go at the level of the formal real-even sign package: the signs can be stated in a semifinite real-even spectral-triple setting. The unresolved issue is stronger and more specific: whether KO-6 supplies a finite-control selector that recovers the finite SM chirality constraints inside a Type II_1 construction. See `../../explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md`.
+
 ## Item 4 — Real even structure (J, γ)
 
 **[control]** The finite spectral triple is **real** (carries an antiunitary `J` with `J² = 1`, `J D = D J`, `J γ = −γ J` per KO-dimension 6) and **even** (carries a Z/2 grading `γ` commuting with the algebra and anticommuting with `D`). The real structure encodes the distinction between particles and antiparticles; the grading encodes the distinction between left-handed and right-handed Weyl spinors.
@@ -114,6 +116,8 @@ These two conditions together drastically constrain the admissible Dirac operato
 
 **[open]** The generation structure (why 3, not 2 or 4) is **not** explained by the finite Connes-Chamseddine construction — it is put in by hand. The Type II_1 / subfactor frame is interesting precisely because the principal-graph data of a Jones inclusion has discrete branching structure that *could* explain why 3 generations is selected, but no published construction has shown this. This is a major open question and the headline upside item of the entire pathway.
 
+**Specialist update (2026-06-23).** Principal graphs should no longer be described as plausible carriers of the full SM representation content. Subfactor standard invariants naturally encode finite fusion/category data, while the SM gauge representation package is not a finite fusion category. The surviving plausible role is narrower: generation-count selection, with gauge representations supplied elsewhere.
+
 ## Item 9 — Anomaly compatibility (incl. Freed-Hopkins compatibility under Connes-channel pairing)
 
 **[control]** The finite SM construction is anomaly-free per generation (the standard SM anomaly cancellation: hypercharge constraints, SU(2)² × U(1) anomaly, SU(3)² × U(1) anomaly, U(1)³ anomaly, gravitational × U(1) anomaly all vanish). This is a consequence of the specific fermion representation content per Item 8, not an independent input. The finite spectral SM additionally lives inside the Freed-Hopkins invertible-field-theory anomaly classification frame (which subsumes ordinary SM perturbative anomaly cancellation as the smooth-bundle limit).
@@ -128,6 +132,8 @@ These two conditions together drastically constrain the admissible Dirac operato
 
 - A Type II_1 extension that genuinely adds chirality-bearing modes from non-embeddable data (the headline-upside scenario) would need to demonstrate anomaly cancellation independently. There is no published analysis of anomalies in a Type II_1 spectral SM context.
 - The Freed-Hopkins compatibility sub-item has not been checked for any specific Type II_1 candidate. The natural conjecture (from WRK-376) is that the standard Connes-channel pairing automatically lands the candidate inside Freed-Hopkins compatibility because it forgets the substrate enrichment — but this is a conjecture, not a theorem.
+
+**Specialist update (2026-06-23).** The conjecture condition is now sharper: Freed-Hopkins compatibility conditionally passes only if the Connes-channel shadow is exactly the ordinary anomaly-free SM content. It fails immediately if extra Type II_1 modes survive in the smooth shadow with uncanceled anomaly.
 
 This item is downstream of Item 8: if Item 8 closes positively, Item 9 becomes the immediate next check.
 

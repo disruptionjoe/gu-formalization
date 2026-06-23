@@ -1,6 +1,6 @@
 ---
-artifact_type: exploration
 status: exploration
+doc_type: research_note
 updated_at: "2026-06-23"
 title: "Super-IG Algebra Construction over the Space of Connections"
 ---

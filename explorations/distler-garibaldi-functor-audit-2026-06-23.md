@@ -1,8 +1,9 @@
 ---
 title: "Distler-Garibaldi Functor Audit"
-date: 2026-06-23
 problem_label: "distler-garibaldi-functor-audit"
 status: exploration
+doc_type: research_note
+updated_at: "2026-06-23"
 verdict: "NEGATIVE_CATEGORY_CHANGE_STRESS_CASE"
 ---
 
@@ -313,4 +314,3 @@ The negative verdict would be overturned by any one of the following:
    forgetful-image case.
 
 None of these is present in the local corpus reviewed here.
-
