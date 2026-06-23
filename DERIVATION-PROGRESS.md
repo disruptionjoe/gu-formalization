@@ -360,8 +360,8 @@ The domain and codomain of the shiab operator are confirmed as `Phi: Omega^2(Y^1
 File: `explorations/sc1-shiab-domain-codomain-2026-06-23.md`
 
 ### discrete-series (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Replaced the incoherent ordinary L2-kernel target `dim_H ker_L2(D_fib) = 24` on `GL(4,R)/O(3,1)` with the precise analytic invariant: the relative-discrete-series Plancherel multiplicity `m_H(S(6,4))` in `L2(SL(4,R) x_{SO_0(3,1)} S(6,4))`. Key finding: the Flensted-Jensen equal-rank condition is satisfied (split-rank of `SL(4,R)/SO_0(3,1)` is `min(3,1) = 1` = rank of compact fiber `SO(4)/SO(3) = S^3`), so relative discrete series exist and the invariant is well-defined and coherent. The prior pessimistic rank reading (3 != 1) used the wrong rank definition. Remaining open: branching rules for the non-standard 9-dimensional isotropy embedding of `Spin(3,1)` into `Spin(6,4)`, and the explicit value `m_H(S(6,4)) = 24?`
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Historical entry. The replacement of the ordinary L2-kernel target by a relative-discrete-series Plancherel multiplicity remains useful as a proposed analytic target, but the scalar equal-rank claim in this entry is superseded. For the actual metric symmetric pair `(SL(4,R), SO_0(3,1))` with `dsigma_B(X) = -J X^T J^{-1}`, the scalar split-rank is `3`, the scalar restricted-root system is rank-3 `A3`, and the scalar rank-one `BC1` model must not be cited as data for scalar `L^2(G/H)`. The analytic value of `m_H(S(6,4))` is open pending a corrected rank-3 or direct tau-twisted/vector-bundle computation.
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 
 ---
@@ -381,8 +381,8 @@ Five bounded frontier notes produced by the second scheduled hourly pass. All ar
 ---
 
 ### discrete-series full computation (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Full reconstruction-grade computation of the relative-discrete-series Plancherel multiplicity m_H(S(6,4)) for SL(4,R)/SO_0(3,1) with fiber spinor S(6,4). The Flensted-Jensen equal-rank criterion is confirmed to pass: the correct split-rank is dim(a_q) = 1 (not 3 as in the prior pessimistic reading), where a_q is the maximal abelian subspace in p_G ∩ q within the 9-dimensional tangent space Sym^2_0(R^{3,1}*). The isotropy branching is established at reconstruction grade as S(6,4)|_{SO_0(3,1)} = 4D(1/2,0) + 4D(0,1/2) (four left-Weyl plus four right-Weyl spinors of Spin(3,1)), consistent with one SM generation. The multiplicity m_H(S(6,4)) = 24 arises as 8 (fiber H-type summands) x 3 (topological factor from X^4); remaining open conditions are OQ1 (CAS verification split-rank = 1), OQ2 (CAS branching check), and OQ3 (topological factor ind_top(D_{X^4}) = 3 from hat-A genus on X^4).
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Historical entry. The branching statement `S(6,4)|_{SO_0(3,1)} = 4D(1/2,0) + 4D(0,1/2)` may still be used as reconstruction-grade representation data, but the scalar Flensted-Jensen equal-rank claim does not survive the corrected `sigma_B` computation. Scalar `L^2(SL(4,R)/SO_0(3,1))` has split-rank `3` and scalar FJ equal-rank fails (`3 != 1`). The `m_H(S(6,4)) = 24` analytic count is therefore not established by this scalar route.
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 
 ### cpa1-tobs (2026-06-23)
@@ -544,8 +544,8 @@ File: `explorations/cpa1-tobs-coefficient-2026-06-23.md`
 ---
 
 ### discrete-series (2026-06-23) — CAS gate verification §18
-Verdict: CONDITIONALLY_RESOLVED
-Verified the three CAS gates (AF1-AF3) for the Atiyah-Schmid ind_H(S_R^{eff}) = 8 argument. AF1 corrected: the Casimir C_2(pi_{lambda_RS}) = 7/2 = 14/4 (not 13/4 as stated in §15; the error was in the indirect rho-shift formula; the correct value follows from |lambda+rho|^2 - |rho|^2 = 17/2 - 5 = 7/2 with lambda_RS = (1/2)(e_1-e_4) and rho_G = (3/2,1/2,-1/2,-3/2)); the correction does not affect ind_H = 8 since the Casimir value only identifies the discrete series, not the index. AF2 verified exactly: P(lambda_RS+rho)/P(rho) = (3/2)(5/2)(4)(1)(5/2)(3/2) / (1)(2)(3)(1)(2)(1) = (225/4)/12 = 225/48 by explicit A_3 root evaluation. AF3 conditionally resolved via Flensted-Jensen (1980) Theorem 4.3: multiplicity-one for split-rank-1 pairs gives dim Hom_H(D(j1,j2), pi|_H) = 1 per irreducible pi; tau_RS^{phys} = 4*D(1/2,0)+4*D(0,1/2) gives Hom count = 8; ind_H(S_R^{eff}) = 8 confirmed. Remaining open: explicit split-rank = 1 matrix computation (OQ1) and K3-type variational selection (OQ3a).
+Verdict: PARTIAL_PROVENANCE_SUPERSEDED
+AF1 and AF2 remain historical A3 arithmetic provenance: the Casimir correction and the product `P(lambda_RS+rho)/P(rho) = 225/48` do not by themselves restore a scalar discrete-series atom. AF3 is superseded for scalar `L^2(G/H)`: scalar FJ multiplicity-one for split-rank-1 pairs cannot be applied to the actual metric pair, whose scalar split-rank is `3` while `rank(K/(K cap H))=1`. The Hom count `8` and `ind_H(S_R^{eff})=8` are not proved by this scalar FJ route; they require a direct tau-twisted/vector-bundle admissibility theorem or a corrected rank-3 analysis.
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 
 ---
@@ -558,8 +558,8 @@ File: `explorations/cpa1-tobs-coefficient-2026-06-23.md`
 ---
 
 ### discrete-series (2026-06-23) — OQ1 matrix resolution + OQ3b Casimir correction §19
-Verdict: CONDITIONALLY_RESOLVED
-Resolved OQ1 (split-rank = 1 explicit matrix computation) at verified grade: constructed basis {e_1=E_{14}+E_{41}, e_2=E_{24}+E_{42}, e_3=E_{34}+E_{43}} for p_G cap q in sl(4,R), computed all pairwise brackets [e_i,e_j] = E_{ij}-E_{ji} != 0 explicitly (landing in so(4), not p_G cap q), and proved no 2-dimensional abelian subspace exists in p_G cap q, giving dim(a_q) = 1. Flensted-Jensen equal-rank criterion split-rank = 1 = rank(S^3) is now VERIFIED. The prior §15 Casimir claim of 13/4 is corrected to C_2 = 7/2 (exact from |lambda+rho|^2 - |rho|^2 = 7/2); this is a labeling fix that leaves ind_H(S_R^{eff}) = 8 unchanged. Remaining open: OQ3a (variational K3 selection) and AF4 (RS gauge-fixing).
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Historical entry. The displayed three-generator bracket computation was for the wrong block-conjugation model or a non-maximal line inside the actual pair. It is superseded by the corrected `sigma_B` computation: `p_G cap q_B` has maximal abelian subspace `span{H_1,H_2,H_3}`, so scalar split-rank is `3`; scalar FJ equal-rank fails. The Casimir correction `C_2 = 7/2` can remain as arithmetic provenance, but it does not establish `ind_H(S_R^{eff}) = 8`.
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 
 ---
@@ -586,8 +586,8 @@ File: `explorations/vz-f5-curvature-check-2026-06-23.md`
 ---
 
 ### plancherel-mult (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Computed the W(A_3)=S_4 orbit of lambda_RS=(1/2,0,0,-1/2): size 12 (stabilizer Z_2, unique dominant representative (1/2,0,0,-1/2)), with explicit enumeration of all 12 permutations of {1/2,0,0,-1/2}. Verified that each of the 8 H-types (4xD(1/2,0) + 4xD(0,1/2)) in S(6,4)|_{SO_0(3,1)} contributes exactly one discrete SL(4,R)-representation via Flensted-Jensen multiplicity-one (AF3, split-rank-1), giving m_H^{fiber}=8; combined with K3-type Â=2 and RS index=8 gives total m_H=8*2+8=24. Clarified that the coincidence |W(A_3)|=24=m_H is arithmetic (24=3x8) and the physical mechanism is the 2+1 generation split, not the Weyl orbit count. Remaining: CAS branching check (OQ2), OQ3a K3 variational selection, AF4 RS gauge-fixing.
+Verdict: PARTIAL_PROVENANCE_SUPERSEDED
+The `W(A_3)=S_4` orbit enumeration and the A3 product arithmetic remain useful provenance. The downstream Flensted-Jensen multiplicity-one step is superseded for scalar `L^2(G/H)`: split-rank is `3`, not `1`, for the actual metric pair. The fiber count `m_H^{fiber}=8` and total `m_H=24` are therefore not established by this scalar Plancherel route; use only as a tau-twisted/vector-bundle target or as separate physical-count reconstruction pending proof.
 File: `explorations/n5-plancherel-multiplicity-2026-06-23.md`
 
 ---
@@ -635,8 +635,8 @@ File: `explorations/pc2-gauss-y14-curvature-2026-06-23.md`
 ---
 
 ### weyl-group-24 (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Performed an explicit, independent enumeration of the W(A_3) = S_4 orbit of lambda_RS = (1/2,0,0,-1/2): stabilizer Z_2, orbit size 12 (exact), unique dominant representative (1/2,0,0,-1/2), and the Plancherel polynomial ratio P(lambda_RS+rho)/P(rho) = 225/48 verified by direct A_3 root evaluation. Applied Flensted-Jensen multiplicity-one (split-rank = 1, verified) to the 8 H-types in S(6,4)|_{SO_0(3,1)} = 4xD(1/2,0)+4xD(0,1/2), yielding m_H^{fiber} = 8; combined with K3 topology (Â = 2) and RS index (= 8) gives m_H = 8*Â(K3)+8 = 24 via an independent route from the plancherel-mult Atiyah-Schmid chain. New structural risk identified: lambda_RS lies on the root wall <e_2-e_3, lambda_RS> = 0 (limit-of-discrete-series boundary), so Plancherel measure support at this wall requires explicit verification (OQ-weyl-3) to fully close the argument; this is the most significant remaining gap.
+Verdict: PARTIAL_PROVENANCE_SUPERSEDED
+The `W(A_3)=S_4` orbit enumeration, dominant representative, and product ratio `P(lambda_RS+rho)/P(rho)=225/48` remain historical arithmetic checks. The application of Flensted-Jensen multiplicity-one at split-rank `1` is superseded for the scalar metric pair; scalar split-rank is `3` and scalar equal-rank fails. The root-wall check later removes only a zero-factor objection in the A3 product and does not restore the scalar FJ/BC1 chain.
 File: `explorations/weyl-group-s4-orbit-2026-06-23.md`
 
 ---
@@ -656,8 +656,8 @@ File: `explorations/hc1-codazzi-correction-2026-06-23.md`
 ---
 
 ### rc3-delta-n-spectrum (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Computed the explicit spectrum of the normal Laplacian Delta_N on GL(4,R)/O(3,1) fibers via two independent methods: (1) homotopy approximation GL(4,R)/O(3,1) ~= RP^3 gives lowest nonzero eigenvalue l=2 on S^3/Z_2 at lambda = 8/R_s^2; (2) rank-1 symmetric space Casimir with root multiplicity m=9 and rho = 9/(2 R_s) gives four discrete eigenvalues {8, 14, 18, 20}/R_s^2, with lowest at 8/R_s^2. Both methods agree on M_KK = 2 sqrt(2)/R_s. RS sector mass m_RS^2 = 11/R_s^2 (with SO(1,3) Casimir correction +3/R_s^2 for spin-3/2); spin-1/2 mass m_{1/2}^2 = 8/R_s^2; ratio sqrt(11/8) ~= 1.17. Both sectors confirmed at the same KK mass scale. Primary remaining gate: CAS verification that restricted root multiplicity m=9 for GL(4,R)/O(3,1) (OQ-RC3-1).
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Demote the RC3 rank-one spectrum `{8,14,18,20}/R_s^2`, `M_KK^2=8/R_s^2`, `rho=9/2`, and the rank-one multiplicity model to an obsolete scalar-BC1 calculation unless the same values are explicitly rederived in the tau-twisted coefficient problem or in a corrected rank-3 analysis. Do not present these values as verified scalar data for `(SL(4,R), SO_0(3,1))`.
 File: `explorations/rc3-delta-n-spectrum-gl4r-2026-06-23.md`
 
 ---
@@ -677,8 +677,8 @@ File: `explorations/fr2-bvn-gate-ii-gu-result-2026-06-23.md`
 ---
 
 ### rc3-harish-chandra (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Derived the explicit Harish-Chandra c-function for GL(4,R)/SO_0(3,1) from the Gindikin-Karpelevich formula: the restricted root system is BC_1 with short root multiplicity m_1 = 7 and long root multiplicity m_2 = 1 (from dimension count m_1+m_2=8 and root analysis), giving rho = 9/2 and c(lambda) = c_0 * Gamma(i lambda R_s) * Gamma(i lambda R_s + 1/2) / [Gamma(i lambda R_s + 9/2) * Gamma(i lambda R_s + 5/2)]. The Plancherel measure |c(lambda)|^{-2} dlambda has 4 discrete poles at nu_n = (2n+1)/2 (n=0,1,2,3), yielding eigenvalues lambda_{N,n} = rho^2 - nu_n^2 = (81-(2n+1)^2)/4 per R_s^{-2} -- exactly matching the RC3 table {20,18,14,8}/R_s^2 and confirming M_KK^2 = 8/R_s^2 as the lowest eigenvalue from the half-integer pole at nu=7/2. The RC3 effective multiplicity m=9 is validated as m_1 + 2*m_2 = 9, giving the correct rho = 9/2. The Plancherel polynomial ratio 225/48 from AF2 (discrete-series §18) is independently consistent. Remaining: CAS Iwasawa decomposition for (m_1,m_2) verification (OQ-RC3-2a), matrix c-function for RS K-type (OQ-RC3-2b), and OQ-RC3-3 Lorentzian Casimir sign.
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Demote this Harish-Chandra `BC1` c-function, `(m_1,m_2)=(7,1)`, `rho=9/2`, and the pole ladder `nu_n=(2n+1)/2` to obsolete scalar-BC1 provenance. For the actual metric pair, scalar restricted roots are rank-3 `A3` with multiplicity-one roots. If a c-function or gap is needed, it must be recomputed for the corrected A3 scalar problem or for an explicitly justified tau-twisted coefficient problem.
 File: `explorations/rc3-harish-chandra-c-function-2026-06-23.md`
 
 ---
@@ -733,8 +733,8 @@ File: `explorations/signed-readout-oq2-integer-index-2026-06-23.md`
 ---
 
 ### rc3-root-multiplicity (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Verified that the root multiplicity m=9 used in the RC3 c-function formula arises from a BC_1 restricted root system on SL(4,R)/SO_0(3,1) with (m_1, m_2) = (7, 1): dimension counting gives m_1+m_2 = dim(G/K)-rank = 9-1 = 8, and the unique eigenvalue-2 generator E_{14} under ad(diag(1,0,0,-1)) identifies m_2 = 1, giving m_1 = 7. The effective multiplicity m = m_1+2*m_2 = 9 is algebraically exact (not an approximation): rho = m_1/2+m_2 = 9/2 from the BC_1 half-sum formula equals the A_1 approximation m/2 = 9/2. The long root (m_2=1) is confirmed by the matching of half-integer poles nu_n=(2n+1)/2 (from the Gamma(i lambda R_s+1/2) factor in the c-function) to the RC3 discrete eigenvalues {20,18,14,8}/R_s^2; integer poles (m_2=0) would give a non-matching spectrum. OQ-RC3-1 closed; remaining upgrade gate is CAS explicit Iwasawa root-space dimension verification.
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Historical scalar-BC1 line/block-model computation. For the actual metric pair, the corrected `sigma_B` analysis gives scalar split-rank `3` and rank-3 `A3` restricted roots, not scalar `BC1` with `(m_1,m_2)=(7,1)`. The effective multiplicity `m=9`, `rho=9/2`, and RC3 eigenvalue matching are retained only as obsolete provenance unless rederived in the tau-twisted coefficient problem.
 File: `explorations/rc3-root-multiplicity-bc1-2026-06-23.md`
 
 ---
@@ -748,7 +748,7 @@ File: `explorations/sc1-oq3-gauge-equivariance-2026-06-23.md`
 
 ### signed-readout-oq2d-gu-contact (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
-Discharged all three OQ2-D sub-conditions. (a) Explicit G_R^{GU} constructed: 24 nodes in a bipartite structure (16 spin-1/2 + 8 RS), no causal edges, weight lambda(v) = 1 for all v; monotone (R_- = 0) and Z-valued (R = 24 in N_0). (b) T^{GU} = A(Y^14, Sp(64)) is connected and contractible (Sp(64) is connected so the affine gauge-field space is contractible; pi_0 = pi_1(BSp(64)) = 0); F4 resolved. (c) Atiyah-Schmid multiplicities are globally A-independent (the Flensted-Jensen discrete spectrum of L^2(SL(4,R)/SO_0(3,1), S(6,4)) is determined by symmetric-space geometry, not gauge field). Topological protection via Atiyah-Jannich in non-compact L^2 setting is reconstruction-grade. Remaining: RV-OQ2D-1 (CAS Flensted-Jensen Plancherel check), RV-OQ2D-2 (explicit Atiyah-Jannich reference for non-compact L^2), F1/F2/F3/F6 cascade from main discrete-series open conditions.
+Discharged the formal record-graph and connectedness sub-conditions, but the analytic sub-condition is superseded where it relied on scalar Flensted-Jensen data. The explicit `G_R^{GU}` construction may still be read as the monotone 24-node record model and `T^{GU}=A(Y^14,Sp(64))` remains connected/contractible at reconstruction grade. The claim that Atiyah-Schmid/FJ multiplicities are globally A-independent is not established by scalar `L^2(SL(4,R)/SO_0(3,1), S(6,4))`: scalar FJ equal-rank fails and the BC1/RC3 gap is superseded. The remaining analytic gate is a direct tau-twisted/vector-bundle discrete-sector or corrected rank-3 Fredholm proof.
 File: `explorations/signed-readout-oq2d-gu-contact-2026-06-23.md`
 
 ---
@@ -769,7 +769,7 @@ File: `explorations/cpa1-oq2-gimmel-hessian-direct-2026-06-23.md`
 
 ### sc1-oq2c-null-mode-interpretation (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
-Established the physical interpretation of the null-mode sector NM(xi) = ker c(xi) at null xi in Y^14: dim_R NM(xi) = 128 (exact by rank-nullity and c(xi)^2 = 0); Im c(xi) = NM(xi) (nil-Clifford). Null modes split into Class A (physical propagating: SM fermions, gravitons, RS generation modes), Class B (pure Sp(64) gauge), Class C (auxiliary/constrained), with the physical Hilbert space being H^*(xi) = ker c(xi)/Im c(xi). The VZ evasion mechanism is restated in null-mode language: RS null modes are confined to the null cone because c(xi) is invertible at all spacelike xi (no RS null modes there); the Clifford identity c(xi)^2 = g_Y(xi,xi) Id is simultaneously the engine of null-mode confinement and VZ evasion. The generation count link is established at reconstruction grade: L2-normalizable fiber null modes at fiber null covectors correspond to Flensted-Jensen discrete series of SL(4,R), giving ind_H = 24. SC1-OQ2 block is now fully CONDITIONALLY_RESOLVED (OQ2-a RESOLVED, OQ2-b CONDITIONALLY_RESOLVED, OQ2-c this file). Remaining open: explicit RS null-mode dimension count, Sp(64) gauge-orbit intersection, formal fiber-null-mode/discrete-series identification.
+Established the physical interpretation of the null-mode sector NM(xi) = ker c(xi) at null xi in Y^14: dim_R NM(xi) = 128 (exact by rank-nullity and c(xi)^2 = 0); Im c(xi) = NM(xi) (nil-Clifford). Null modes split into Class A (physical propagating: SM fermions, gravitons, candidate RS generation modes), Class B (pure Sp(64) gauge), Class C (auxiliary/constrained), with the physical Hilbert space being H^*(xi) = ker c(xi)/Im c(xi). The VZ evasion mechanism is restated in null-mode language: RS null modes are confined to the null cone because c(xi) is invertible at all spacelike xi (no RS null modes there). The prior generation-count link through scalar Flensted-Jensen discrete series is superseded; formal fiber-null-mode/discrete-series identification now requires a corrected rank-3 or direct tau-twisted computation. SC1-OQ2 remains about characteristic/null-mode structure, not a proof of `ind_H=24`.
 File: `explorations/sc1-oq2c-null-mode-interpretation-2026-06-23.md`
 
 ---
@@ -810,8 +810,8 @@ Files: `explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md`; `ex
 ---
 
 ### rc1-rs-kk-zero-mode (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Determined whether the RS effective operator S_R^{eff} has L^2 zero modes in the KK tower on GL(4,R)/O(3,1), the gate condition for the EFT decoupling and VZ evasion program. Central finding: the tau-shifted Flensted-Jensen spectral parameter for the RS H-types D(1/2,0) and D(0,1/2) is Lambda_RS^{FJ} = Lambda_RS + rho_tau = 1 + 1/2 = 3/2, which falls precisely on the second discrete Plancherel pole nu_1 = 3/2 of the BC_1 c-function (rc3-harish-chandra); this gives L^2 discrete spectrum with ind_H(S_R^{eff}) = 8 via three convergent paths (af4-tau-rs gauge-fixing, n5-discrete-series Atiyah-Schmid, and the tau-shift argument). RS KK modes are massive at m_RS^2 = 17/R_s^2 (not massless), consistent with the vz-4d-eft prediction m_RS ~ M_KK; no standalone RS EFT window. Generation count ind_H(D_GU) = 16 + 8 = 24 = 3 generations is CONDITIONALLY_RESOLVED. Remaining open: CAS check (m_1,m_2) = (7,1) root multiplicities (RC1-OQ2); explicit parabolic induction Lambda_RS^{FJ} = 3/2 (RC1-OQ1); Kobayashi H-admissibility as independent route (RC1-OQ3).
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+Historical scalar-BC1/tau-shift attempt. The scalar `Lambda_RS^{FJ}=3/2` pole claim, the `BC1` c-function pole `nu_1=3/2`, and the scalar RC3 mass/gap values do not currently establish L2 RS zero modes or `ind_H(S_R^{eff})=8` for the actual metric pair. The replacement analytic gate is direct tau-spherical/vector-bundle admissibility or corrected rank-3 Fredholm analysis; the rank-independent physical count `C^32 -> C^16 -> dim_H=8` may be cited separately but is not scalar Plancherel verification.
 File: `explorations/rc1-rs-kk-zero-mode-2026-06-23.md`
 
 ---
@@ -922,22 +922,22 @@ File: `explorations/oq3c-index-additivity-2026-06-23.md`
 ---
 
 ### oq3b-rs-index-8 (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Verified ind_H(D_RS) = 8 via three convergent routes despite the sigma_A / sigma_B involution conflict exposed by rc1-discrete-series-verification-pack. The block-conjugation involution sigma_A used in prior RC1/N5 computations gives a rank-one pair with the wrong fixed algebra; the correct metric-conjugation involution sigma_B gives SL(4,R)/SO_0(3,1) with split-rank 3 and A3 restricted root system. Route 1 (physical DOF count): RS physical degrees of freedom C^32 after gamma-trace and gauge-fixing; chiral half C^16; dim_H = 8 H-lines (rank-independent, most robust route). Route 2 (tau-corrected Atiyah-Schmid): for the twisted L^2(G x_H tau_RS) with tau_RS = 4D(1/2,0) + 4D(0,1/2), the effective split-rank is reduced from 3 to 1 by rank_correction = 2 from the SL(2,C) structure of SO_0(3,1), restoring the Flensted-Jensen theorem for the twisted space; formal degree d(pi) = 225/48 exact (A3 Plancherel polynomial computation); Hom count = 8 from multiplicity-one; ind_H = 8. Route 3 (SM generation count): S(6,4)|_{SO_0(3,1)} = 4D(1/2,0) + 4D(0,1/2) = 8 H-lines = 1 SM generation. Primary remaining gap: rank_correction = 2 formula for the RS H-types of SO_0(3,1) needs Kobayashi-Oda or Oshima reference verification.
+Verdict: RECONSTRUCTION_PHYSICAL_COUNT_ANALYTIC_OPEN
+This entry is superseded where it claimed an analytic `ind_H(D_RS)=8` proof. The rank-independent physical count remains available: RS physical degrees of freedom are `C^32` after gamma-trace and gauge fixing; the chiral half is `C^16`, hence `dim_H=8` H-lines. The tau-twisted/vector-bundle route remains a possible analytic target, but the follow-up check did not verify `rank_correction(tau_RS)=2`; no inspected theorem supports subtracting two split-rank dimensions from `tau_RS`. A proof now requires direct tau-spherical/Kobayashi admissibility or corrected rank-3 analysis. The branching `S(6,4)|_{SO_0(3,1)} = 4D(1/2,0) + 4D(0,1/2)` remains representation-theory provenance.
 File: `explorations/oq3b-rs-index-8-2026-06-23.md`
 
 ---
 
 ### rc1-root-multiplicity-check (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Resolved the conflict between the dimension-formula route ((m_1,m_2)=(7,1), rc3-root-multiplicity) and the naive eigenspace count ((4,1), rc1-verification-pack) for restricted roots of (SL(4,R), SO_0(3,1)). Two distinct rank notions apply: full Cartan diagonal rank = 3 (three commuting diagonal generators in p_H, restricted root system A_3, all multiplicities = 1); Flensted-Jensen split rank for L^2(G/H) spectral theory = 1 (BC_1 system, (m_1,m_2)=(7,1), rho=9/2). The c-function and Plancherel measure use the FJ rank. (7,1) confirmed by three independent checks: dimension formula 9=1+7+1 (exact: 15-6=9, FJ rank=1, m_2=1 from unique +2 eigenvector E_{14}); eigenvalue table matching (only (7,1) reproduces {8,14,18,20}/R_s^2); AF2 Plancherel polynomial (225/48) consistency with rho=9/2. Failure condition: CAS verification that FJ split rank is 3 (not 1) would falsify the BC_1 chain and require revision of the Plancherel formula and ind_H=8 tau-shift route.
+Verdict: SUPERSEDED_FOR_SCALAR_PAIR
+The attempted reconciliation by "two distinct rank notions" is superseded. For the actual metric symmetric pair `(SL(4,R), SO_0(3,1))` with `dsigma_B(X)=-JX^TJ^{-1}`, the scalar split-rank is `3` and the scalar restricted-root system is rank-3 `A3` with multiplicity-one roots. The scalar rank-one `BC1` model with `(m_1,m_2)=(7,1)`, `rho=9/2`, and the RC3 pole/eigenvalue match must be retained only as obsolete scalar-BC1 provenance, not as verified scalar data.
 File: `explorations/rc1-root-multiplicity-check-2026-06-23.md`
 
 ---
 
 ### oq1-split-rank-verification (2026-06-23)
 Verdict: RESOLVED (as a definitive explicit computation)
-Performed the explicit entry-by-entry matrix bracket computation for the symmetric pair (SL(4,R), SO_0(3,1)) using the correct metric-conjugation involution sigma_B (dsigma_B(X) = -J X^T J^{-1}, J = diag(1,1,1,-1)). The computation establishes: (1) the correct -1 eigenspace q_B of dsigma_B is 9-dimensional with explicit basis (3 diagonal traceless generators H_i and 6 mixed-signature off-diagonal generators S_{jk} and A_i); (2) the intersection p_G cap q_B (symmetric traceless matrices in q_B) is 6-dimensional with basis {H_1, H_2, H_3, S_{12}, S_{13}, S_{23}}; (3) all pairwise brackets [H_i, S_{jk}] land in k = so(4) (not in p_G cap q_B), so no 2-dimensional abelian subspace can include any S_{jk}; (4) the maximal abelian subspace is span{H_1, H_2, H_3}, giving dim(a_q) = 3. True split-rank(SL(4,R)/SO_0(3,1)) = 3, not 1. The n5 §19 "split-rank = 1" claim used sigma_A (block-conjugation involution), which corresponds to a different symmetric pair; this corrects the involution conflict identified in rc1-discrete-series-verification-pack. The Flensted-Jensen equal-rank criterion 3 = rank(S^3) = 1 FAILS for the scalar L^2 case; generation count survives via the tau-correction route (Oshima-Matsuki twisted L^2, oq3b), the physical DOF count (n5 §12), and the Atiyah-Schmid formal-degree sum (n5 §15-18). Primary remaining gate: verify the tau-correction rank-correction = 2 formula for the RS H-types against Kobayashi-Oda or Oshima-Matsuki reference.
+Performed the explicit entry-by-entry matrix bracket computation for the symmetric pair (SL(4,R), SO_0(3,1)) using the correct metric-conjugation involution sigma_B (dsigma_B(X) = -J X^T J^{-1}, J = diag(1,1,1,-1)). The computation establishes: (1) the correct -1 eigenspace q_B of dsigma_B is 9-dimensional with explicit basis (3 diagonal traceless generators H_i and 6 mixed-signature off-diagonal generators S_{jk} and A_i); (2) the intersection p_G cap q_B (symmetric traceless matrices in q_B) is 6-dimensional with basis {H_1, H_2, H_3, S_{12}, S_{13}, S_{23}}; (3) all pairwise brackets [H_i, S_{jk}] land in k = so(4) (not in p_G cap q_B), so no 2-dimensional abelian subspace can include any S_{jk}; (4) the maximal abelian subspace is span{H_1, H_2, H_3}, giving dim(a_q) = 3. True split-rank(SL(4,R)/SO_0(3,1)) = 3, not 1. The n5 §19 "split-rank = 1" claim used sigma_A (block-conjugation involution), which corresponds to a different symmetric pair; this corrects the involution conflict identified in rc1-discrete-series-verification-pack. The Flensted-Jensen equal-rank criterion 3 = rank(S^3) = 1 FAILS for scalar `L^2(G/H)`. The rank-independent RS physical count may still be cited separately, but scalar FJ/BC1 and the old formal-degree chain no longer prove `ind_H(S_R^{eff})=8` or `ind_H(D_GU)=24`; the analytic route is a direct tau-twisted/vector-bundle or corrected rank-3 problem.
 File: `explorations/oq1-split-rank-verification-2026-06-23.md`
 
 ---
@@ -976,8 +976,8 @@ File: `explorations/type-ii1-semifinite-triple-2026-06-23.md`
 ---
 
 ### oc1-noncompact-atiyah-jannich (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Established that gate OC1 (non-compact Atiyah-Jannich for D_GU) is resolved along Path A: D_GU is Fredholm on the discrete-series sector L^2_disc(Y^14, H^64) via the Atiyah-Schmid / Flensted-Jensen spectral-gap mechanism. The essential points: (1) standard L^2 Fredholmness fails for two independent reasons (non-compactness + non-ellipticity), so the correct domain is the discrete summand, not the full L^2; (2) the discrete-series sector has a spectral gap of 8/R_s^2 from zero (from the RC3 delta-N spectrum and Harish-Chandra c-function, CONDITIONALLY_RESOLVED), giving closed range on L^2_disc; (3) the discrete-series vectors decay exponentially at the non-compact end of GL(4,R)/O(3,1), so zero is not in the essential spectrum of D_GU|_{L^2_disc}; (4) ind_H = 24 follows from the Atiyah-Schmid formal-degree sum (n5-discrete-series §18); (5) the spectral gap is A-independent (Flensted-Jensen symmetric-space determination, oq2d-gu-contact). The failure condition -- "D_GU is genuinely non-Fredholm with no natural completion" -- does not hold; the discrete sector provides the canonical Fredholm completion. Primary gate to RESOLVED: OQ-weyl-3 (root-wall Plancherel non-degeneracy for lambda_RS at the <e_2-e_3, lambda_RS>=0 wall). Secondary gates: tau-rank-correction=2 (Kobayashi-Oda/Oshima reference); explicit b-calculus/scattering-calculus parametrix for D_GU on the weighted Sobolev scale W^{1,2}_delta with delta in (-rho, 0).
+Verdict: ANALYTIC_OPEN_AFTER_RANK_RECONCILIATION
+The prior Path A proof relied on the scalar Atiyah-Schmid/Flensted-Jensen spectral-gap mechanism and the RC3 rank-one gap `8/R_s^2`; that scalar gap chain is superseded. OC1 remains an open analytic Fredholm problem: one must construct a continuous H-linear Fredholm family by direct tau-twisted/vector-bundle admissibility, corrected rank-3 discrete-sector analysis, or an explicit b/0/scattering-calculus parametrix with a justified discrete projection. The scalar FJ/BC1 route no longer supplies closed range, A-independent gap, or `ind_H=24`.
 File: `explorations/oc1-noncompact-atiyah-jannich-2026-06-23.md`
 
 ---
@@ -1041,3 +1041,38 @@ File: `explorations/ic4-ricci-flat-k3-selection-2026-06-23.md`
 Verdict: BOUNDED_CONDITIONAL_UPGRADE
 Separated the formal KSp classification from the unresolved noncompact analysis. H-linearity, section-pullback preservation of right-H structure, compact `X^4` pullback Fredholmness, and the formal `Fred_H -> KSp^0 = KO^4` classification are locally resolved once bounded-transform continuity is supplied. Full `Y^14` weighted Fredholmness still requires a closed right-H-linear realization on weighted Sobolev spaces, bounded discrete-sector projection, compact-remainder parametrix, KK zero-mode unitarity, and norm-continuous bounded transforms into `Fred_H`.
 File: `explorations/oc2-analytic-fredholm-ksp-upgrade-2026-06-23.md`
+
+---
+
+### tau-twisted-rs-admissibility-kobayashi (2026-06-23)
+Verdict: FAILS
+Ran the direct Oshima-Matsuki/Kobayashi admissibility check for `L^2(SL(4,R) x_{SO_0(3,1)} tau_RS)`, with `tau_RS = 4D(1/2,0)+4D(0,1/2)`. The route fails as stated. Scalar equal-rank still fails for the actual metric pair; the finite-dimensional Lorentz spinor coefficient is nonunitary, so the displayed object is not a standard Hilbert `L^2` induced representation; Kobayashi-Oshima discrete decomposability does not include `(sl(4,R), so(3,1))`; and the compact asymptotic cone obstruction is nonzero. The RS `dim_H=8` count remains physical/reconstruction-grade, not an analytic discrete-series theorem.
+File: `explorations/tau-twisted-rs-admissibility-kobayashi-2026-06-23.md`
+
+---
+
+### oc2-y14-weighted-fredholm-parametrix (2026-06-23)
+Verdict: CONDITIONAL_TAU_DISCRETE_SECTOR_THEOREM; FULL_UNPROJECTED_Y14_FREDHOLM_NOT_DEFENSIBLE
+Pushed OC2 beyond the formal KSp statement. The strongest defensible theorem is conditional on a justified tau-twisted or corrected discrete/residual sector projection `P_disc`, a closed right-H-linear weighted Sobolev realization, a compact-remainder parametrix, bounded-transform norm continuity, and KK/discrete-mode unitarity. Full unprojected `Y^14` Fredholmness is not defensible because the split-signature principal symbol is non-elliptic on the null cone and noncompact end behavior supplies continuous-spectrum risks. Since the direct tau admissibility route failed, this OC2 theorem is currently a conditional template rather than a closed GU Fredholm result.
+File: `explorations/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md`
+
+---
+
+### oq3a-t4-vs-k3-disambiguation (2026-06-23)
+Verdict: RESOLVED_FOR_THE_DISCRIMINANT
+Registered the existing T4/K3 disambiguation note. `T^4` is a Willmore minimizer and is Ricci-flat, so Willmore/source-free Ricci-flatness alone cannot select K3. The exact discriminator is `Ahat`: `Ahat(T^4)=0` while `Ahat(K3)=2`. Under the parent formula `ind_H(D_GU)=8*Ahat(X^4)+8`, `T^4` gives `8` H-lines (one generation) and K3 gives `24` H-lines (three generations). This resolves T4 as a competitor only conditional on the parent generation-count formula, whose RS analytic route is now not established.
+File: `explorations/oq3a-t4-vs-k3-disambiguation-2026-06-23.md`
+
+---
+
+### ic4-source-free-k3-gate (2026-06-23)
+Verdict: CONDITIONALLY_SUPPORTED
+Separated the source-free metric gate from the topology/index gate. The viable implication is: generation/topology selects `Ahat=2` and K3-type hypotheses; IC4/PC2 supplies the source-free Einstein equation on the selected section; `Lambda_eff=0` and K3 topology force Ricci-flatness; Yau-Calabi then gives a Ricci-flat Kahler representative after complex structure and Kahler class are fixed. Remaining gates include moving-frame CAS for `[G^Y_T]^TF`, fiber-localization proof for `C_Gauss=1`, torsion-Codazzi closure, normal `(6,4)` Weitzenboeck sign, vacuum-source certificate, index-side corrections, and Yau data.
+File: `explorations/ic4-source-free-k3-gate-2026-06-23.md`
+
+---
+
+### h3-cech-sheaf-fixture-execution in temporal-issuance (2026-06-23)
+Verdict: DERIVED_NONTRIVIAL_COCYCLE_CONDITIONAL
+Implemented and ran the executable `cech_sheaf_fixture` in the sibling `temporal-issuance` repository. The main case returns Outcome `D'`: `c(I_plus)=+1`, `c(I_minus)=-1`, holonomy `-1`, with both transition values `derived_from_C`. The nontrivial cocycle is forced under odd SBP polarity-flip parity plus the no-anticipation constraint, not universally. Control cases recover A (underdetermined transport), B (stipulated transport), and C (forced trivial cocycle). The CHSH finite-cycle transfer also gives loop product `-1`. This opens a conditional H3 derivation path, but the GU/T63 identity still depends on bridge obligations from finite SBP parity data to flat `Z/2Z` gauge-local-system language.
+File: `../temporal-issuance/explorations/E054-h3-cech-sheaf-fixture-execution-2026-06-23.md`

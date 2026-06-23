@@ -77,7 +77,7 @@ Five bounded frontier notes from the second hourly automation pass. All explorat
 | `explorations/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation: for horizontal covectors, vertical one-forms do not modify the Schur complement (`C_N psi_R = 0`). Horizontal-covector VZ characteristics are contained in the light cone. Mixed 14D covectors remain open. |
 | `explorations/ii-s-horizontal-convention-hessian-2026-06-23.md` | exploration | Adopts horizontal-normalized `II_s^H` convention (flat spacetime gives `II_s^H = 0`). Hessian at round S^4 section is Lichnerowicz operator with lowest TT eigenvalue `8/R^2`. Coefficient `C_GU` still tolerance-dependent. |
 | `explorations/codazzi-k-term-umbilic-test-2026-06-23.md` | exploration | K(A,s) = 0 for totally umbilic tautological section on maximally symmetric background. R_fail = 0 gives one-equation Lambda constraint. General (non-umbilic) case: trace-free Q(B) must be identified with matter stress. |
-| `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` | exploration | Parthasarathy-Casimir condition for fiber Dirac: `pi(C_g) = 9/2 + rho_constant`. Candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` at reconstruction grade. Complements F4 Flensted-Jensen approach. |
+| `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` | exploration | Parthasarathy-Casimir condition for fiber Dirac: `pi(C_g) = 9/2 + rho_constant`. Candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` at reconstruction grade. Treat as an alternative/tau-twisted representation-theory route; it does not restore the superseded scalar FJ/BC1 chain. |
 | `explorations/observer-section-error-model-2026-06-23.md` | exploration | Bridge model: quantum metric measurement gives `epsilon_sec^2 ~ epsilon_dec`. Cross-program contact confirmed structural (shared `t_obs^{-2}`) but not numerically exact. Conditions B1–B3 for exactness named. |
 
 ## 2026-06-23 Untouched-Lane Subagent Batch
@@ -102,7 +102,7 @@ Five follow-up subagents were dispatched after the next-five-item inspection. Al
 | `explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md` | exploration | GU inner fluctuations preserve an already input `Sp(64)` connection orbit. They do not derive a finite Connes one-form bimodule or select the SM gauge group. |
 | `explorations/signed-readout-oc1-oc2-noncompact-fredholm-2026-06-23.md` | exploration | Non-compactness alone does not block Atiyah-Janich/KSp classification. The proof obligation is now a continuous H-linear Fredholm family for the actual GU operators on non-compact `Y^14`. |
 | `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md` | exploration | The missing `cech_sheaf_fixture` is specified as an executable contract, but no runnable fixture has been implemented or executed. H3 remains `OPEN_SPECIFIED_NOT_EXECUTABLE`. |
-| `explorations/rc1-discrete-series-verification-pack-2026-06-23.md` | exploration | Major correction: the rank-one `BC1` discrete-series chain fails as stated for actual `SL(4,R)/SO_0(3,1)`. The correct metric symmetric-pair analysis has split rank 3 and restricted root system `A3`; claims depending on `(m1,m2)=(7,1)`, scalar FJ poles, and `Lambda_RS^{FJ}=3/2` are demoted pending recomputation. |
+| `explorations/rc1-discrete-series-verification-pack-2026-06-23.md` | exploration | Major correction: the rank-one `BC1` discrete-series chain fails as stated for actual `SL(4,R)/SO_0(3,1)`. The correct metric symmetric-pair analysis has split rank 3 and restricted root system `A3`; claims depending on `(m1,m2)=(7,1)`, scalar FJ poles, and `Lambda_RS^{FJ}=3/2` are demoted pending direct rank-3 or tau-twisted/Kobayashi admissibility computation. |
 
 ## 2026-06-23 Five-Task Follow-Up Batch
 
@@ -115,6 +115,18 @@ Five subagents ran the follow-up tasks opened by the prior verification batch. A
 | `explorations/split-rank-reconciliation-audit-2026-06-23.md` | exploration | Consolidates the rank correction: scalar `BC1/(7,1)`, `rho=9/2`, `Lambda_RS^{FJ}=3/2`, and the scalar RC3 gap are superseded for `(SL(4,R), SO_0(3,1))` unless rederived inside the tau-twisted coefficient problem. |
 | `explorations/ic4-ricci-flat-k3-selection-2026-06-23.md` | exploration | K3-Yau metric selection is conditionally supported only after K3 topology is fixed separately and IC4 supplies the source-free Einstein equation. Willmore energy alone does not select Ricci-flat metrics, since every Levi-Civita section has `E=0`. |
 | `explorations/oc2-analytic-fredholm-ksp-upgrade-2026-06-23.md` | exploration | Formal H-linear Fredholm/KSp classification is locally resolved once bounded-transform continuity is supplied. Full noncompact `Y^14` weighted Fredholmness, KK zero-mode unitarity, and a b/0/scattering parametrix remain analytic proof obligations. |
+
+## 2026-06-23 Five-Step Execution Batch
+
+The dependency-aware five-step plan was executed across GU formalization and the sibling `temporal-issuance` repository. Outputs remain exploration-grade.
+
+| document | status | content |
+|---|---|---|
+| `explorations/tau-twisted-rs-admissibility-kobayashi-2026-06-23.md` | exploration | Direct Oshima-Matsuki/Kobayashi check fails as stated. The tau route does not rescue `ind_H(RS)=8`: scalar equal-rank fails, `tau_RS` is nonunitary as a finite-dimensional Lorentz coefficient, the Kobayashi route fails for this pair, and the compact asymptotic cone obstruction is nonzero. |
+| `explorations/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md` | exploration | Strongest defensible OC2 result is a conditional tau/discrete-sector Fredholm/KSp theorem. Full unprojected `Y^14` Fredholmness is not defensible from current data, and the required sector projection is now blocked by the failed tau route. |
+| `explorations/ic4-source-free-k3-gate-2026-06-23.md` | exploration | Source-free K3 metric selection is conditionally supported only after the topology/index gate selects K3. `T^4` is source-free, Ricci-flat, and Willmore-minimizing, but has `Ahat=0`, so it gives the wrong generation count. |
+| `explorations/oq3a-t4-vs-k3-disambiguation-2026-06-23.md` | exploration | Existing untracked note incorporated into the batch: `T^4` is explicitly ruled out by `Ahat(T^4)=0` and `ind_H=8`, while K3 has `Ahat=2` and the target `ind_H=24`, conditional on the parent generation-count formula. |
+| `temporal-issuance: explorations/E054-h3-cech-sheaf-fixture-execution-2026-06-23.md` | exploration | Executable H3 fixture returns Outcome `D'`: `c(I_plus)=+1`, `c(I_minus)=-1`, holonomy `-1`, derived from `C` under odd SBP polarity-flip parity and NAC. This opens a conditional derivation path, not a universal H3 identity theorem. |
 
 ## 2026-06-22 Additions (Positive GU Constructions Lane)
 
