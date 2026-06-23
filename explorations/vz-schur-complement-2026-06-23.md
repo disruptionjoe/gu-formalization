@@ -1,5 +1,5 @@
 ---
-title: "VZ Schur: Mixed 14D Covector Extension, Full Spin(9,5) Clifford Symbol, Section-Pullback 4D Preservation, and OQ3-V1/V2/V3 Verification"
+title: "VZ Schur: Mixed 14D Covector Extension, Full Spin(9,5) Clifford Symbol, Section-Pullback 4D Preservation, OQ3-V1/V2/V3 Verification, and F6 EFT Decoupling"
 date: 2026-06-23
 problem_label: "vz-schur"
 status: reconstruction
@@ -9,6 +9,7 @@ oq3_v1: RESOLVED
 oq3_v2: RESOLVED
 oq3_v3: RESOLVED
 vz_4d_status: VERIFIED
+f6_eft_decoupling: CONDITIONALLY_RESOLVED
 ---
 
 # VZ Schur: Mixed 14D Covector Extension and Full Spin(9,5) Clifford Symbol
@@ -1698,6 +1699,274 @@ This is a dynamical question requiring the full spectrum of `D_GU^{4D}`, not res
 **The VZ evasion is verified at 4D at the principal-symbol level.** F5 and F6 are named
 residuals for full dynamical analysis, neither of which affects the characteristic-cone/VZ
 conclusion.
+
+---
+
+---
+
+## 19. F6: EFT Decoupling of the RS Sector at Low Energies (New Computation, 2026-06-23)
+
+**Problem statement.** The 4D VZ evasion (§18, VERIFIED) holds at the principal-symbol level for the full pulled-back operator `D_GU^{4D} = s*(D_GU)`. The open question F6 asks: if there is a KK mass gap `M_KK` separating the lightest 4D RS modes from the lightest spin-1/2 modes, does an effective field theory (EFT) below `M_KK` contain an approximately standalone RS field that would be vulnerable to VZ?
+
+This is a dynamical question, distinct from the principal-symbol question. It requires knowing whether the off-diagonal coupling blocks B and C in the Schur complement survive at the EFT level, or whether they degenerate (decouple) below the KK scale.
+
+---
+
+### 19.1 Setup: The KK Mass Gap and EFT Truncation
+
+**The KK spectrum.** The operator `D_GU^{4D}` acts on sections of the Clifford module bundle `E_s` over `X^4`. Its spectrum decomposes into a discrete (or continuous) set of eigenvalues. In the simplest compactification model (where `Y^14` is treated as a fiber bundle with compact fiber directions corresponding to the 10 normal dimensions), the normal-direction modes give rise to a KK tower:
+
+```
+M_KK ~ 1/R_N
+```
+
+where `R_N` is the characteristic scale of the normal (fiber) directions. The lightest modes (KK zero modes) are those with no excitation in the normal directions.
+
+**EFT truncation.** Below the energy scale `M_KK`, the EFT keeps only the KK zero modes. The EFT Hilbert space is:
+
+```
+H_EFT = L2(X^4, E_s^{(0)})
+```
+
+where `E_s^{(0)} subset E_s` is the sub-bundle spanned by zero-mode sections (sections with zero eigenvalue for the normal-direction Laplacian `Delta_N`).
+
+**The F6 question.** Does the restriction `D_GU^{EFT} = D_GU^{4D}|_{E_s^{(0)}}` (the EFT truncation of the pulled-back operator) contain an approximately standalone RS sector?
+
+---
+
+### 19.2 Key Structural Observation: The Constraint Is Intrinsic, Not External
+
+**Claim.** The RS constraint `Gamma^{4D} psi = 0` is maintained by the structure of `D_GU^{4D}` at all energy scales, including in the EFT below `M_KK`. It is NOT an external subsidiary condition that could decouple from the field equations at low energies.
+
+**Proof at reconstruction grade.**
+
+The classical VZ mechanism works as follows in the original Fierz-Pauli / Rarita-Schwinger case: the spin-3/2 field `psi_mu` satisfies a primary field equation (from the RS Lagrangian) AND a subsidiary condition `gamma^mu psi_mu = 0`. These two equations are, respectively, the Euler-Lagrange equation and a gamma-trace constraint. In a gauge background, commuting `D_mu` with the subsidiary condition generates curvature terms, making the constraint propagation inconsistent: the curvature term `[D_mu, D_nu] psi_rho ~ F_{mu nu} psi_rho` enters the subsidiary propagation equation as a new source, changing the characteristic cone.
+
+**In GU, the setup is different at a structural level:**
+
+The domain of `D_GU^{4D}` is the full Clifford module bundle `E_s`. The RS sector `R_s = ker Gamma^{4D}` is defined as a sub-bundle of `E_s` using the same Clifford structure that defines the operator. The operator `D_GU^{4D}` does not have a separate "subsidiary condition" imposed from outside; the gamma-trace constraint is built into the block decomposition:
+
+```
+D_GU^{4D}: Gamma(E_s) -> Gamma(E_s)
+```
+
+with the RS sector being one block of this map. The field equation is:
+
+```
+D_GU^{4D} Psi = 0,     Psi in Gamma(E_s).
+```
+
+There is no separate constraint equation. The condition `Gamma^{4D}(Psi_1) = 0` (where `Psi_1` is the 1-form spinor component of `Psi`) is a selection of which components of the solution are counted as RS, not a constraint on the field equation.
+
+**Consequence.** The VZ mechanism (constraint propagation inconsistency) cannot arise because there is no auxiliary constraint to propagate. The field equation for `D_GU^{4D}` is a single equation `D_GU^{4D} Psi = 0`, and its characteristics are given by the principal symbol alone (as computed in §8, VERIFIED in §18).
+
+This structural observation is EFT-independent: it does not depend on the KK scale or the truncation to zero modes.
+
+---
+
+### 19.3 KK Zero Mode Restriction Preserves the Clifford Module Structure
+
+**Claim.** The restriction `D_GU^{EFT}` of `D_GU^{4D}` to the KK zero mode sub-bundle `E_s^{(0)}` satisfies:
+
+```
+sigma_{D_GU^{EFT}}(eta)^2 = g_s(eta, eta) Id_{E_s^{(0)}}    for all  eta in T*X^4.
+```
+
+**Proof.** The principal symbol of `D_GU^{4D}` at a 4D covector `eta` is:
+
+```
+sigma_{D_GU^{4D}}(eta) = c_{s}(eta) = eta_a gamma^a_H
+```
+
+(using OQ3-V1, §18.1). This is a purely horizontal Clifford element. It does not act on the KK quantum number (which labels the normal-direction eigenvalue). The KK zero mode restriction `E_s^{(0)}` is the eigenvalue-0 subspace of `Delta_N` (normal-direction Laplacian).
+
+Since `c_s(eta) = eta_a gamma^a_H` acts only on horizontal spinor indices (not normal quantum numbers), it commutes with the KK mode projection `P_{(0)}: E_s -> E_s^{(0)}`:
+
+```
+[c_s(eta), P_{(0)}] = 0.
+```
+
+Therefore `c_s(eta)` preserves `E_s^{(0)}`, and its restriction to `E_s^{(0)}` satisfies the same Clifford identity:
+
+```
+(c_s(eta)|_{E_s^{(0)}})^2 = g_s(eta, eta) Id_{E_s^{(0)}}.
+```
+
+The §8 kernel argument applies verbatim:
+
+```
+ker S_{R_s^{(0)}}^{EFT}(eta) = 0    for all  g_s(eta, eta) != 0.
+```
+
+where `R_s^{(0)} = R_s cap E_s^{(0)}` is the KK zero mode RS sector.
+
+**Grade.** Reconstruction. The argument uses the horizontal structure of the principal symbol (exact from OQ3-V1) and the commutativity of the Clifford element with the KK projection (which follows from the horizontal/vertical split of the Clifford algebra). The gap is that the exact identification of `E_s^{(0)}` requires knowledge of the zero-mode structure of `D_GU^{4D}` in the normal directions, which in turn requires the full spectrum computation (still open as part of the discrete-series problem).
+
+---
+
+### 19.4 Off-Diagonal Coupling Blocks in the EFT
+
+**Do the B and C coupling blocks survive in the EFT?**
+
+The blocks B and C in the Schur complement `S_R = A - B E^{-1} C` represent the coupling between RS zero modes and spin-1/2 zero modes. For approximate decoupling at low energies, one would need `B` and `C` (restricted to zero modes) to be suppressed by powers of `1/M_KK`.
+
+**Claim.** The B and C blocks are O(1) at the zero-mode level, not suppressed by the KK scale.
+
+**Argument.** The blocks B and C arise from the off-diagonal coupling in the principal symbol `sigma_{D_GU^{4D}}(eta)`:
+
+```
+B(eta): Q_s -> R_s
+C(eta): R_s -> Q_s
+```
+
+These are purely algebraic maps (matrix elements of `c_s(eta)` in the RS/non-RS block decomposition). They are determined by the 4D Clifford algebra and the RS projection, not by the KK mode structure.
+
+Explicitly, from §3 of this document:
+
+```
+C psi_R = (chi, (gamma_s(eta) - 2) chi),    chi = g_s(eta, psi_R).
+```
+
+This involves only the 4D Clifford element `gamma_s(eta) = eta_a gamma^a_H` and the metric inner product. Neither depends on the KK quantum number. The restriction of C to the zero-mode sector gives the same algebraic map:
+
+```
+C|_{E_s^{(0)}} psi_R^{(0)} = (chi^{(0)}, (gamma_s(eta) - 2) chi^{(0)}),
+    chi^{(0)} = g_s(eta, psi_R^{(0)}).
+```
+
+This is not suppressed by any factor of `1/M_KK`. The KK scale enters only the mass spectrum of the modes (eigenvalues of the squared operator), not the coupling structure.
+
+**Physical interpretation.** The RS/spin-1/2 coupling in GU is a kinematic coupling, built into the Clifford module structure of the operator. It is not a dynamical coupling constant that can be made small by taking an energy limit. Below the KK scale, the RS zero modes and spin-1/2 zero modes remain coupled with O(1) coupling, exactly as described by the Schur complement with non-vanishing B and C blocks.
+
+---
+
+### 19.5 The EFT Question Sharpened: What Would Approximate Decoupling Require?
+
+For the EFT RS sector to be approximately standalone (and thus VZ-vulnerable), the Schur complement `S_R^{EFT}` would need to approximate the free RS symbol `c_s(eta) Id_{R_s^{(0)}}` (up to a mass term and curvature corrections). This would require:
+
+```
+B^{(0)} (E^{(0)})^{-1} C^{(0)} approx 0
+```
+
+where the superscripts denote restriction to zero modes.
+
+From §19.4, `B^{(0)}` and `C^{(0)}` are O(1) algebraic maps. The question reduces to: is `(E^{(0)})^{-1}` small?
+
+`E^{(0)}` is the restriction of the spin-1/2/scalar block of the operator to zero modes. At zero momentum (`eta -> 0`), the operator `D_GU^{EFT}` restricted to `E_s^{(0)}` is dominated by mass terms (zero-order operators). If the spin-1/2 zero modes have a mass `m_{1/2}`, then `E^{(0)} approx m_{1/2} Id_{Q_s^{(0)}}` at low momenta `|eta| << m_{1/2}`, giving `(E^{(0)})^{-1} approx m_{1/2}^{-1}`.
+
+In this regime:
+```
+B^{(0)} (E^{(0)})^{-1} C^{(0)} ~ O(1/m_{1/2}) * O(eta)^2
+```
+
+since B and C are each linear in `eta`. So `S_R^{EFT}(eta) approx A^{(0)}(eta) + O(eta^2/m_{1/2})`.
+
+At energies `|eta|^2 << m_{1/2}`, the correction is small and the RS sector propagates approximately with symbol `A^{(0)}`. But this is not decoupling in the VZ sense: `A^{(0)}(eta)` is the RS-RS diagonal block of `c_s(eta)`, which is the gamma-trace-projected Clifford element. Its characteristic cone is still the null cone (by the §8 argument: `A S_R = xi2 Id_R` holds exactly from block identity (II)-(III), giving `det A = 0` only on the null cone).
+
+**Conclusion.** Even in the low-energy limit where the spin-1/2/RS coupling correction `B E^{-1} C` is small, the effective RS symbol `S_R^{EFT}(eta) approx A^{(0)}(eta)` remains causal: its characteristic cone is the null cone of `g_s`. There is no window of energies in which the RS sector develops spacelike characteristics.
+
+---
+
+### 19.6 Residual Dynamical Gap: Massive RS and the VZ Condition
+
+**The mass term complication.** The analysis above is at the principal-symbol (momentum) level. The VZ obstruction can also arise from the mass term in the full operator, not just the kinetic (momentum) term. For a massive spin-3/2 field with mass `m_RS`, the full field equation is:
+
+```
+(c_s(eta) + i m_RS) Psi = 0.
+```
+
+In the standard RS theory with minimal gauge coupling, the VZ obstruction appears in the constraint propagation when one commutes `D_mu` with the gamma-trace constraint in the presence of a mass term plus gauge coupling. The mass term modifies the propagator and the subsidiary condition propagation.
+
+**Why this does not apply in GU.** As established in §19.2, there is no external subsidiary condition in GU. The gamma-trace constraint `Gamma^{4D} psi = 0` is not a separate equation; it defines the RS sub-bundle of the Clifford module. The mass term for the RS sector appears as a zero-order operator in `D_GU^{EFT}`, contributing to `A^{(0)}` and `E^{(0)}` but not introducing new first-order derivative terms.
+
+**Mass gap condition for VZ evasion.** For the EFT evasion to hold, it suffices that:
+
+1. The RS sector is defined by the kernel of the 4D gamma trace (OQ3-V3: RESOLVED).
+2. The mass of the RS zero mode is finite and nonzero (i.e., the RS sector has a KK zero mode with mass `m_RS != 0`). This is a dynamical condition on the spectrum.
+3. The coupling blocks B and C are O(eta) (linear in momentum, not higher order). This holds by the algebraic structure of the Clifford element.
+
+Under conditions (1)-(3), the EFT below `M_KK` contains a massive RS sector with causal propagation: the principal symbol is causal (from §18), and the mass term is zero-order (cannot introduce new spacelike characteristics).
+
+**Failure mode F6-actual.** The actual failure mode for F6 would be: a tachyonic RS zero mode (`m_RS^2 < 0`). A tachyonic RS field propagates with spacelike characteristics even in the free theory. However, this is not a VZ obstruction -- it is a vacuum instability. And VZ specifically addresses the characteristics in the kinetic sector, not the mass sector. A negative mass-squared would be a separate problem (analogous to the Higgs tachyon before symmetry breaking), not a VZ causality violation.
+
+---
+
+### 19.7 Characteristic Cone Argument in the RS EFT: Formal Statement
+
+**Theorem (F6 EFT VZ evasion, reconstruction grade).** Let `D_GU^{EFT}` be the restriction of `D_GU^{4D}` to the KK zero mode sub-bundle `E_s^{(0)}` over `X^4`. Let `R_s^{(0)} = R_s cap E_s^{(0)}` be the RS zero mode sector. Then:
+
+(a) The principal symbol of `D_GU^{EFT}` satisfies the 4D Clifford identity:
+```
+sigma_{D_GU^{EFT}}(eta)^2 = g_s(eta, eta) Id_{E_s^{(0)}}    for all eta in T*X^4.
+```
+
+(b) The effective RS principal symbol of `D_GU^{EFT}` has trivial kernel for all non-null eta:
+```
+ker S_{R_s^{(0)}}^{EFT}(eta) = 0    for all  g_s(eta, eta) != 0.
+```
+
+(c) The characteristic cone of the EFT RS sector is the null cone of `g_s`. No spacelike characteristics exist in the EFT below `M_KK`.
+
+**Proof.**
+
+(a) The principal symbol of `D_GU^{EFT}` at `eta` is `c_s(eta) = eta_a gamma^a_H`, the horizontal Clifford element (from OQ3-V1). This commutes with the KK projection `P_{(0)}`, so its restriction to `E_s^{(0)}` satisfies the same Clifford identity. (§19.3)
+
+(b) From (a) and the §8 kernel argument (applied to `E_s^{(0)}`): if `S_{R_s^{(0)}}^{EFT}(eta) psi_R = 0` with `psi_R in R_s^{(0)}`, then
+
+```
+sigma_{D_GU^{EFT}}(eta) (psi_R, -E_s^{(0)}(eta)^{-1} C_s^{(0)}(eta) psi_R) = 0.
+```
+
+Applying `sigma_{D_GU^{EFT}}(eta)` again and using (a): `g_s(eta,eta) (psi_R, ...) = 0`, so `psi_R = 0` for `g_s(eta,eta) != 0`. (§19.3 + §8)
+
+(c) Follows from (b): `det S_{R_s^{(0)}}^{EFT}(eta) = 0` requires `g_s(eta,eta) = 0`. The characteristic cone equals the null cone. (Standard argument)
+
+**Grade.** Reconstruction. The argument is logically complete given:
+- OQ3-V1 (horizontal Clifford identity: VERIFIED), and
+- The commutativity `[c_s(eta), P_{(0)}] = 0` (from the horizontal/vertical Clifford algebra split: reconstruction grade, follows from the explicit form of the KK mode projector as an eigenspace of `Delta_N`, which commutes with horizontal gamma matrices).
+
+The gap is the explicit spectral computation: we have not determined the KK zero mode spectrum of `D_GU^{4D}` from first principles. The theorem holds for the structural EFT description (zero modes of whatever the operator's actual spectrum is), but the existence of the zero mode and its mass require the discrete-series computation for final verification.
+
+---
+
+### 19.8 Failure Conditions for F6
+
+**F6-A.** If the RS zero mode does not exist (i.e., there are no KK zero modes in the RS sector). In this case the EFT below `M_KK` has no RS field and VZ is trivially inapplicable. This is a strong form of evasion but may be inconsistent with the generation count (which requires 1 RS-sector generation).
+
+**F6-B.** If the KK projection `P_{(0)}` does not commute with `c_s(eta)`. This would require horizontal gamma matrices to mix with KK quantum numbers -- possible only if the normal/horizontal frame splitting at the section has anomalous mixing. From OQ3-V1 (the explicit frame computation in §18.1), this does not occur in constant-coefficient (flat) gauge. In a curved gauge, the frame splitting is pointwise, and horizontal/normal gamma matrices commute by the orthogonality of the frame (the metric cross-term `g_Y(e^a_H, e^i_N) = 0` by definition of the orthogonal frame, which forces `{gamma^a_H, gamma^i_N} = 0` in Clifford algebra).
+
+**F6-C.** If the EFT contains an additional RS subsidiary condition (not from the Clifford structure) that becomes inconsistent in the Sp(64) background. This would require a modification to the GU setup beyond the Clifford module structure -- e.g., an additional constraint imposed by the Willmore variational principle or the Tikhonov regularization. Neither of these introduces first-order differential constraints on the RS field (they are section-selection principles, not field equations for the spinor sector).
+
+**F6-D.** If the off-diagonal B, C blocks, while O(1) at the principal-symbol level, receive large quantum corrections at loop level that make them effectively zero in the IR. This would require a non-renormalization theorem failure specific to the RS/spin-1/2 coupling structure. In the absence of dynamical loop computations, this is a named gap but not an established failure mode.
+
+---
+
+### 19.9 Summary of F6 Analysis
+
+| Question | Status | Argument |
+|---|---|---|
+| Does the principal-symbol VZ evasion survive KK truncation? | CONDITIONALLY_RESOLVED | Clifford element commutes with KK projection (§19.3) |
+| Are B, C coupling blocks O(1) in zero-mode sector? | CONDITIONALLY_RESOLVED | Blocks are algebraic functions of eta, KK-number-independent (§19.4) |
+| Is the EFT RS sector approximately standalone for |eta| << m_RS? | CONDITIONALLY_RESOLVED | B E^{-1} C is O(eta^2/m_{1/2}) but A-block is still causal (§19.5) |
+| Does the mass term introduce spacelike characteristics? | NO (CONDITIONALLY_RESOLVED) | Mass terms are zero-order, cannot modify principal symbol (§19.6) |
+| Does approximate decoupling at low energies imply VZ vulnerability? | NO (CONDITIONALLY_RESOLVED) | Even approximate S_R ~ A(eta) is causal; A S_R = xi2 Id_R (§19.5) |
+| Is there a dynamical gap in the F6 argument? | YES (OPEN) | KK zero mode spectrum requires discrete-series computation (§19.7) |
+
+**Verdict for F6.** CONDITIONALLY_RESOLVED. The EFT decoupling of the RS sector at low energies does NOT produce a VZ obstruction. The characteristic cone of the EFT RS symbol remains the null cone of `g_s` at all energy scales below `M_KK`. The argument is:
+
+1. The principal symbol of `D_GU^{EFT}` inherits the Clifford module property from `D_GU^{4D}` (Clifford element commutes with KK projection).
+2. The §8 kernel argument applies verbatim to the zero-mode sector.
+3. The off-diagonal coupling blocks B, C are O(1) in the zero-mode sector (no KK suppression), but even in the limit where they are treated as small, the A-block (RS-RS diagonal) remains causal.
+4. The constraint `Gamma^{4D} psi = 0` is intrinsic to the Clifford module structure, not an external subsidiary condition, so the classical VZ constraint-propagation mechanism does not apply.
+
+**Remaining gap.** The KK zero mode existence and mass spectrum are not determined from first principles (requires the discrete-series computation from the generation count program). F6 is conditionally resolved pending that computation. The F6 resolution does not depend on the exact mass value, only on the structural Clifford module property -- but the existence of the zero mode is a prerequisite for the EFT to contain any RS field at all.
+
+**Overall VZ status.** VZ is EVADED at the full 4D EFT level (not just at the principal-symbol level), conditioned on:
+- The KK zero mode RS sector existing (open, from discrete-series computation)
+- No anomalous mixing of horizontal and KK quantum numbers (CONDITIONALLY_RESOLVED via OQ3-V1)
+- No large loop corrections to the B, C coupling blocks (OPEN, no dynamical computation)
+
+The 4D EFT RS characteristic cone argument SURVIVES the KK mass-gap condition at reconstruction grade.
 
 ---
 

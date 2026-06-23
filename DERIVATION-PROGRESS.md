@@ -547,3 +547,24 @@ File: `explorations/cpa1-tobs-coefficient-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Verified the three CAS gates (AF1-AF3) for the Atiyah-Schmid ind_H(S_R^{eff}) = 8 argument. AF1 corrected: the Casimir C_2(pi_{lambda_RS}) = 7/2 = 14/4 (not 13/4 as stated in §15; the error was in the indirect rho-shift formula; the correct value follows from |lambda+rho|^2 - |rho|^2 = 17/2 - 5 = 7/2 with lambda_RS = (1/2)(e_1-e_4) and rho_G = (3/2,1/2,-1/2,-3/2)); the correction does not affect ind_H = 8 since the Casimir value only identifies the discrete series, not the index. AF2 verified exactly: P(lambda_RS+rho)/P(rho) = (3/2)(5/2)(4)(1)(5/2)(3/2) / (1)(2)(3)(1)(2)(1) = (225/4)/12 = 225/48 by explicit A_3 root evaluation. AF3 conditionally resolved via Flensted-Jensen (1980) Theorem 4.3: multiplicity-one for split-rank-1 pairs gives dim Hom_H(D(j1,j2), pi|_H) = 1 per irreducible pi; tau_RS^{phys} = 4*D(1/2,0)+4*D(0,1/2) gives Hom count = 8; ind_H(S_R^{eff}) = 8 confirmed. Remaining open: explicit split-rank = 1 matrix computation (OQ1) and K3-type variational selection (OQ3a).
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
+
+---
+
+### cpa1-tobs (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+CAS-verified the Lichnerowicz TT eigenvalue lambda_2 = 8/R^2 on S^4 via explicit SO(5) Casimir + Simons formula chain: rough Laplacian on TT 2-tensors at l=2 gives mu_{2,2} = 4/R^2, ambient Willmore curvature correction +4/R^2, total lambda_2 = 8/R^2 (reconstruction grade for the ambient correction step; the formula [l(l+n-1)-2]/R^2 at l=2, n=4 is algebraically exact). Confirmed the null-ray Poisson shot-noise derivation: epsilon_sec = 1/sqrt(2*n) = 1/(2*sqrt(2)) for n = dim(X^4) = 4, and the algebraic identity C_GU(n) * epsilon_sec(n)^2 = 2n * 1/(2n) = 1 holds exactly for all n >= 2 (dimension-independent). The cross-program contact Lambda_GU = lambda_max^2 is exact under these two inputs; remaining gaps are the ambient curvature correction step (reconstruction grade, needs explicit Y^14 curvature computation) and GU-side derivation of the null-ray observer model.
+File: `explorations/cpa1-tobs-coefficient-2026-06-23.md`
+
+---
+
+### discrete-series (2026-06-23) — OQ1 matrix resolution + OQ3b Casimir correction §19
+Verdict: CONDITIONALLY_RESOLVED
+Resolved OQ1 (split-rank = 1 explicit matrix computation) at verified grade: constructed basis {e_1=E_{14}+E_{41}, e_2=E_{24}+E_{42}, e_3=E_{34}+E_{43}} for p_G cap q in sl(4,R), computed all pairwise brackets [e_i,e_j] = E_{ij}-E_{ji} != 0 explicitly (landing in so(4), not p_G cap q), and proved no 2-dimensional abelian subspace exists in p_G cap q, giving dim(a_q) = 1. Flensted-Jensen equal-rank criterion split-rank = 1 = rank(S^3) is now VERIFIED. The prior §15 Casimir claim of 13/4 is corrected to C_2 = 7/2 (exact from |lambda+rho|^2 - |rho|^2 = 7/2); this is a labeling fix that leaves ind_H(S_R^{eff}) = 8 unchanged. Remaining open: OQ3a (variational K3 selection) and AF4 (RS gauge-fixing).
+File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
+
+---
+
+### vz-schur (2026-06-23) — F6 EFT decoupling analysis (§19)
+Verdict: CONDITIONALLY_RESOLVED
+Addressed F6 (EFT decoupling of the RS sector at low energies): whether the 4D effective RS characteristic cone argument (VERIFIED in §18) survives the KK mass-gap condition. Key structural results: (1) The horizontal Clifford element `c_s(eta) = eta_a gamma^a_H` commutes with the KK mode projector `P_{(0)}`, so the KK zero mode sub-bundle `E_s^{(0)}` inherits the Clifford module identity `sigma^2 = g_s(eta,eta) Id`, and the §8 kernel argument applies verbatim to the EFT. (2) The B and C off-diagonal coupling blocks are O(1) algebraic functions of `eta` in the zero-mode sector -- they are not suppressed by powers of `1/M_KK`. (3) Even in the limit where `B E^{-1} C` is small (deep IR, `|eta| << m_{1/2}`), the RS-RS diagonal block `A(eta)` is itself causal: `A S_R = xi2 Id_R` (exact from block identity (II)-(III)), so no spacelike characteristics arise from approximate decoupling. (4) The gamma-trace constraint `Gamma^{4D} psi = 0` is intrinsic to the Clifford module structure of `D_GU^{4D}`, not an external subsidiary condition -- so the classical VZ constraint-propagation inconsistency mechanism cannot fire. Remaining open: KK zero mode existence (requires discrete-series spectrum computation); loop corrections to B/C blocks (no dynamical computation performed). The 4D EFT RS characteristic cone argument survives the KK mass-gap condition at reconstruction grade.
+File: `explorations/vz-schur-complement-2026-06-23.md`
