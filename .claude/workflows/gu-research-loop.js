@@ -179,8 +179,8 @@ await agent(
       GU autonomous loop: ${labels} (2026-06-23)
 
       Co-Authored-By: Claude Sonnet 4.6 <noreply@anthropic.com>
-   4. Do NOT push.
-   5. Return: commit hash and list of files committed.`,
+   4. Run: git push
+   5. Return: commit hash, list of files committed, and push status.`,
   { label: 'commit', phase: 'Commit' }
 )
 
