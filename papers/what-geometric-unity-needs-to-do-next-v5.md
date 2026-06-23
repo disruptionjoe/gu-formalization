@@ -9,6 +9,8 @@ previous_version: what-geometric-unity-needs-to-do-next-v4.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **Superseded by [v6](what-geometric-unity-needs-to-do-next-v6.md),** which reports VZ EVADED (reconstruction grade, Clifford module non-decoupling), N5 reframed as Flensted-Jensen Plancherel multiplicity with Weyl-group structure |S₄| = 24, and Codazzi umbilic→Λ result. This file is preserved as v5.
+
 > **This is version 5.** Version 4 reported that both of Nguyen's core objections are fully closed and the generation count is conditionally 3. This version reports three further advances: (1) a detailed Velo-Zwanziger analysis with a 14D evasion candidate named and a specific remaining computation identified; (2) a hidden curvature decomposition showing that GU's torsion structure reveals three curvature pieces invisible to torsion-free Riemannian geometry; (3) partial derivations of the 4D reduction, including the identification s*(θ) = II_s and a novel variational structure that makes cross-program contact with independent physics. Links to [v4](what-geometric-unity-needs-to-do-next-v4.md).
 
 ---
