@@ -9,6 +9,8 @@ previous_version: what-geometric-unity-needs-to-do-next-v2.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **This report has a newer version.** Version 4 reports that the IG dimension matching question (residual Nguyen §2) is fully resolved — τ⁺ is purely group-theoretic, the 2^14 dimension requirement was a (7,7) artifact — and that SM branching from S(6,4) is confirmed (16 Weyl fermions per generation, ℍ-line index closes factor-of-4 gap). Nguyen's two core objections are now fully closed. See [v4](what-geometric-unity-needs-to-do-next-v4.md).
+
 > **This is version 3.** Version 2 dissolved Nguyen §3.1 (complexification) and proved dark energy divergence-free. This version reports that the anomaly pincer (Nguyen §2) also dissolves under the correct signature — the correct gauge group is Sp(64), which is anomaly-free by pseudoreality. The generation count is conditionally 3 (structural mechanism confirmed; two bounded computations remain). Links to [v2](what-geometric-unity-needs-to-do-next-v2.md).
 
 ---

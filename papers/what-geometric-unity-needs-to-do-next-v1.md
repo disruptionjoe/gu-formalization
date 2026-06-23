@@ -15,7 +15,7 @@ audience: mathematically curious readers familiar with the Weinstein/Nguyen exch
 > - The distortion θ is automatically divergence-free via Noether's second theorem — **a new result not anticipated in this version.**
 > - The anomaly question (Nguyen §2) remains open and is now the load-bearing question for the program's viability.
 >
-> **Read the current version: [version 2](what-geometric-unity-needs-to-do-next-v2.md)**
+> **Read the current version: [version 4](what-geometric-unity-needs-to-do-next-v4.md)**
 
 # What Geometric Unity Needs to Do Next
 

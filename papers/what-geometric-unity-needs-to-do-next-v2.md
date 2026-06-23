@@ -9,7 +9,7 @@ previous_version: what-geometric-unity-needs-to-do-next-v1.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
-> **This report has a newer version.** Version 3 reports that the anomaly pincer (Nguyen §2) also dissolves under the correct signature — the correct gauge group is Sp(64), which is anomaly-free by pseudoreality. The generation count is conditionally 3 with two named remaining computations. See [v3](what-geometric-unity-needs-to-do-next-v3.md).
+> **This report has a newer version.** The current version is [v4](what-geometric-unity-needs-to-do-next-v4.md), which fully closes both Nguyen objections (§3.1 complexification gap and §2 anomaly pincer) and confirms SM branching from the fiber spinor S(6,4). See [v3](what-geometric-unity-needs-to-do-next-v3.md) for the anomaly dissolution result.
 
 > **This report has been updated from v1.** The original version identified three tasks the program needed to accomplish. Since then, formal analysis has closed one of them and partially closed a second. The original version is preserved at [v1](what-geometric-unity-needs-to-do-next-v1.md). This version incorporates those results and sharpens what remains.
 
