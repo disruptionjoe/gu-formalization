@@ -869,3 +869,38 @@ File: `explorations/n3-cech-fixture-specification-2026-06-23.md`
 Verdict: EVADED
 Computed whether the Weyl tensor of the gimmel metric on Y^14 produces gravitational Velo-Zwanziger causality problems for the RS sector independent of gauge coupling (VZ1 OQ3). Three-leg reconstruction-grade argument: (1) the Clifford algebra identity c(xi)^2 = g_Y(xi,xi) Id_S is curvature-independent (algebraic, verified grade); the Weyl tensor W_{ABCD} enters D_GU only as a zero-order Weitzenbock term, never modifying the principal symbol sigma_1(D_GU)(xi) = c(xi); (2) the classical gravitational VZ mechanism requires a standalone RS field with an externally imposed subsidiary condition -- GU fails all three preconditions (standalone, external subsidiary, constraint differentiation chain); (3) the commutator [D_GU, Gamma^{14D}] is zero-order by metric compatibility, so the gamma-trace RS sub-bundle is preserved under propagation of singularities. The evasion root is identical to the gauge-coupling VZ evasion: both rely on the Clifford identity being insensitive to background curvature. 4D section pullback preserves evasion; the K3 Weyl tensor shifts the RS mass spectrum but not the characteristic cone. VZ1 OQ3 now EVADED (reconstruction); five explicit failure conditions stated (F1-F5). OQ-GVZ-1 (CAS commutator check) is the main remaining gate.
 File: `explorations/vz1-oq3-gravitational-vz-weyl-tensor-2026-06-23.md`
+
+---
+
+### type-ii1-oq1-j2-section-pullback (2026-06-23)
+Verdict: SIGN_REMAINS_MINUS_ONE
+Computed the ordinary section pullback of the GU quaternionic real structure. Because pullback preserves composition, `s*(J_GU)^2 = s*(J_GU^2) = -1` on `s*(S)`. This does not match the Connes-Chamseddine finite KO-dimension-6 sign `J^2 = +1`. Literal GU/CC contact through ordinary section pullback therefore fails; any positive route must specify an additional twisted, doubled, or newly defined real structure rather than citing `s*(J_GU)`.
+File: `explorations/type-ii1-oq1-j2-section-pullback-2026-06-23.md`
+
+---
+
+### type-ii1-oq2-dgu-inner-fluctuations (2026-06-23)
+Verdict: CONDITIONAL_FAIL_FOR_CC_STYLE_SELECTION
+Computed the GU analog of inner fluctuation: `D_GU(A0) -> D_GU(A0 + Psi)` for `Psi in Omega^1(Y^14, ad P)`, modulo the `Gamma(Ad P)` gauge orbit. This orbit is `Sp(64)` only when an `Sp(64)` principal bundle is already part of the input. It does not derive the SM gauge group, the CC finite algebra, or the CC one-form bimodule. F7.1 and F7.2 therefore fail for a CC-style finite-control selector; FX.3 remains open only if a precise functor from GU connection one-forms to CC bimodule one-forms is supplied.
+File: `explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md`
+
+---
+
+### signed-readout-oc1-oc2-noncompact-fredholm (2026-06-23)
+Verdict: SHARPENED_TO_CONDITIONAL_THEOREM
+Sharpened the signed-readout K-theory gates. Atiyah-Janich and quaternionic Fredholm classification are not blocked merely because `Y^14` is non-compact. The necessary hypotheses are instead: a continuous family of closed H-linear operators, each Fredholm on the chosen L2 Hilbert space; stability under the selected GU deformations; and preservation of the Fredholm locus. The signed-readout KSp conclusion becomes a conditional theorem once those analytic hypotheses are proven for the actual GU family.
+File: `explorations/signed-readout-oc1-oc2-noncompact-fredholm-2026-06-23.md`
+
+---
+
+### h3-cech-sheaf-fixture-spec (2026-06-23)
+Verdict: OPEN_SPECIFIED_NOT_EXECUTABLE
+Specified the missing `cech_sheaf_fixture` as an executable contract: C1 type bridge, C2 fixture behavior over a two-overlap S^1 cover, and C3 spacelike-overlap repair. The note classifies expected outcomes and falsification conditions, but no temporal-issuance script, workflow, or test target currently implements it. H3 remains open until the fixture is actually run.
+File: `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md`
+
+---
+
+### rc1-discrete-series-verification-pack (2026-06-23)
+Verdict: FAILS_AS_STATED
+Checked the RC1/RC3/N5 rank-one `BC1` discrete-series chain and found a structural error: the block-conjugation involution used in the rank-one computation does not have fixed algebra `so(3,1)`. For the actual metric symmetric pair `SL(4,R)/SO_0(3,1)`, the split rank is 3 and the restricted root system is `A3`, not rank-one `BC1` with `(m1,m2)=(7,1)`. Consequently `Lambda_RS^{FJ}=3/2`, the scalar FJ pole test, and the resulting `ind_H=24` generation-count chain are demoted pending a corrected rank-3 computation and Kobayashi admissibility check.
+File: `explorations/rc1-discrete-series-verification-pack-2026-06-23.md`

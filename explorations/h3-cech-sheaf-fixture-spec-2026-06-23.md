@@ -16,7 +16,7 @@ docs. This note specifies the missing `cech_sheaf_fixture` precisely enough for 
 implementation, including:
 
 - C1: the type bridge from TaF finality data to flat `Z/2Z` gauge data on the GU
-  observerse.
+  observer side.
 - C2: an executable fixture contract for the Cech/sheaf test.
 - C3: the spacelike-overlap repair needed before the H3 restriction maps are
   geometrically meaningful.

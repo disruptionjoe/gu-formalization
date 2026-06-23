@@ -92,6 +92,18 @@ Five subagents were dispatched against high-impact lanes that were not already c
 | `explorations/n3-h3-cech-fixture-execution-2026-06-23.md` | exploration | H3 remains open and is sharpened to fixture-specification blocked. `cech_sheaf_fixture` exists only as route/prose, not as a runnable fixture, script, test target, workflow implementation, or exploration file. |
 | `explorations/distler-garibaldi-functor-audit-2026-06-23.md` | exploration | Distler-Garibaldi is confirmed as a category-change stress case, not a genuine forgetful-image case. Coarse shadows do not preserve the chirality/generation invariant. |
 
+## 2026-06-23 Five-Goal Verification Batch
+
+Five follow-up subagents were dispatched after the next-five-item inspection. All are exploration-grade and supersede older optimistic language where noted.
+
+| document | status | content |
+|---|---|---|
+| `explorations/type-ii1-oq1-j2-section-pullback-2026-06-23.md` | exploration | Section pullback preserves the GU real-structure sign: `s*(J_GU)^2 = -1`, not the CC KO-6 `+1`. Literal GU/Type-II_1 contact through ordinary pullback fails unless a twisted or new real structure is added. |
+| `explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md` | exploration | GU inner fluctuations preserve an already input `Sp(64)` connection orbit. They do not derive a finite Connes one-form bimodule or select the SM gauge group. |
+| `explorations/signed-readout-oc1-oc2-noncompact-fredholm-2026-06-23.md` | exploration | Non-compactness alone does not block Atiyah-Janich/KSp classification. The proof obligation is now a continuous H-linear Fredholm family for the actual GU operators on non-compact `Y^14`. |
+| `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md` | exploration | The missing `cech_sheaf_fixture` is specified as an executable contract, but no runnable fixture has been implemented or executed. H3 remains `OPEN_SPECIFIED_NOT_EXECUTABLE`. |
+| `explorations/rc1-discrete-series-verification-pack-2026-06-23.md` | exploration | Major correction: the rank-one `BC1` discrete-series chain fails as stated for actual `SL(4,R)/SO_0(3,1)`. The correct metric symmetric-pair analysis has split rank 3 and restricted root system `A3`; claims depending on `(m1,m2)=(7,1)`, scalar FJ poles, and `Lambda_RS^{FJ}=3/2` are demoted pending recomputation. |
+
 ## 2026-06-22 Additions (Positive GU Constructions Lane)
 
 One new exploration document was added as a new parallel lane of work:

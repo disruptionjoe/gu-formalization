@@ -32,9 +32,25 @@ This repo should not ask contributors to solve Geometric Unity. The useful unit 
 | Observer-pairing anomaly enrichment | exploration | 3 | **First toy completed 2026-06-23 and failed as a new anomaly model.** Metadata observer data descends away; topological observer data is ordinary defect/background enrichment. Next: only continue if a genuinely non-forgettable observer datum is specified. |
 | C_MPR / 9-tuple / BvN wall | exploration | 3 | state object, morphism, and proof obligations before claiming theorem status |
 
+> 2026-06-23 superseding note: the five-goal verification batch below updates the Type II_1, signed-readout, H3, and RC1/discrete-series rows. In particular, the old "next priority" items OQ1/OQ2 for Type II_1 have now been run, and the prior rank-one `BC1` RC1/RC3 chain is superseded by a negative correction.
+
 ## 2026-06-23 Frontier Pass: Updated Next Actions
 
 The 2026-06-23 parallel pass produced five bounded notes. The next useful work is now narrower than the previous frontier list.
+
+## 2026-06-23 Five-Goal Verification Batch
+
+Five subagents ran the next high-impact open items not covered by the active automation stream. All outputs are exploration-grade.
+
+| lane | result | next action |
+|---|---|---|
+| Type II_1 OQ1: `J^2` under section pullback | `s*(J_GU)^2` remains `-1`. Ordinary section pullback preserves composition, so it does not convert the GU quaternionic real structure into the CC KO-6 `J^2=+1` sign. | Treat literal GU/CC real-structure contact as failed unless a twisted or new real structure is specified. |
+| Type II_1 OQ2: `D_GU` inner fluctuations | GU connection fluctuations move inside `A0 + Omega^1(Y^14, ad P)` and preserve the input `Sp(64)` bundle. They do not derive the SM gauge group or the finite Connes one-form bimodule. | Demote Type II_1 finite-control claims to "no selector yet"; specify a functor to CC one-forms before reopening F7/FX. |
+| Signed-readout OC1/OC2 | Non-compactness is not itself the obstruction to Atiyah-Janich/KSp classification. The real gates are continuity, H-linearity, Fredholmness, and staying inside the Fredholm locus for the chosen GU family. | Prove a continuous H-linear Fredholm family for the actual non-compact `Y^14` operators. |
+| H3 Cech fixture | The missing `cech_sheaf_fixture` is now specified as an executable contract, but no runnable fixture exists yet. | Implement and run the fixture in the temporal-issuance repo before claiming H3 closure. |
+| RC1 discrete-series verification | `FAILS_AS_STATED`: the rank-one `BC1` chain uses the wrong symmetric-pair involution. For actual `SL(4,R)/SO_0(3,1)`, the split rank is 3 with restricted root system `A3`, not rank-one `BC1` with `(m1,m2)=(7,1)`. | Rebuild the discrete-series computation for the corrected rank-3 pair; demote all claims depending on `Lambda_RS^{FJ}=3/2`, `(7,1)`, and the scalar FJ pole test. |
+
+Files: `explorations/type-ii1-oq1-j2-section-pullback-2026-06-23.md`, `explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md`, `explorations/signed-readout-oc1-oc2-noncompact-fredholm-2026-06-23.md`, `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md`, `explorations/rc1-discrete-series-verification-pack-2026-06-23.md`.
 
 ## 2026-06-23 Untouched-Lane Subagent Batch
 

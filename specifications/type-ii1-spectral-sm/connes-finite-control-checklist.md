@@ -61,6 +61,8 @@ where `(C∞(M), L²(M, S), D_M, J_M, γ_M)` is the canonical spectral triple of
 
 **Specialist update (2026-06-23).** KO-dimension 6 mod 8 is not a clean immediate no-go at the level of the formal real-even sign package: the signs can be stated in a semifinite real-even spectral-triple setting. The unresolved issue is stronger and more specific: whether KO-6 supplies a finite-control selector that recovers the finite SM chirality constraints inside a Type II_1 construction. See `../../explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md`.
 
+**GU-contact update (2026-06-23).** The direct section-pullback route fails this sign check: `s*(J_GU)^2 = -1`, not the finite CC KO-6 sign `+1`. This does not prove no Type II_1 KO-6 structure exists, but it does rule out citing ordinary GU section pullback as that structure. See `../../explorations/type-ii1-oq1-j2-section-pullback-2026-06-23.md`.
+
 ## Item 4 — Real even structure (J, γ)
 
 **[control]** The finite spectral triple is **real** (carries an antiunitary `J` with `J² = 1`, `J D = D J`, `J γ = −γ J` per KO-dimension 6) and **even** (carries a Z/2 grading `γ` commuting with the algebra and anticommuting with `D`). The real structure encodes the distinction between particles and antiparticles; the grading encodes the distinction between left-handed and right-handed Weyl spinors.
@@ -105,6 +107,8 @@ These two conditions together drastically constrain the admissible Dirac operato
 **[bridge]** A Type II_1 extension must demonstrate that inner fluctuations of the Type II_1 Dirac operator yield a one-form bimodule whose unitary symmetries recover the SM gauge group (or some specified enlargement). The unitary group of a Type II_1 factor is much larger than the unitary group of a finite-dimensional algebra; the candidate must show how the SM gauge group is **selected** rather than drowned in the larger unitary structure.
 
 **[open]** Inner-fluctuation calculus on Type II_1 spectral triples has not been worked out in the published record. The natural conjecture is that the Jones-subfactor inclusion `N ⊂ M` selects a sub-bimodule whose unitary symmetries are compact and Lie-group-shaped (since the principal graph of a finite-index subfactor is finite); whether this conjecture holds and produces the SM gauge group is open.
+
+**GU-contact update (2026-06-23).** GU `D_GU` fluctuations do not supply the missing finite Connes selector. They are ordinary connection fluctuations `A0 -> A0 + Psi` in `Omega^1(Y^14, ad P)` modulo the gauge orbit, and the `Sp(64)` group is present only if the `Sp(64)` bundle is already input. No SM gauge group or CC bimodule one-form calculus is derived. See `../../explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md`.
 
 ## Item 8 — Fermion representation content
 
@@ -174,3 +178,5 @@ A specialist contributor should expect to either:
 - Settle into a longer construction program through Items 1, 5, 10 first.
 
 This artifact does not predict which of these happens.
+
+**Current GU bridge caution (2026-06-23).** The naive GU-as-supplier route is negative: ordinary section pullback keeps the wrong real-structure sign, and GU inner fluctuations preserve an input `Sp(64)` orbit rather than deriving the CC gauge package. Future positive work should be framed as a new Type II_1 construction, not as an already available GU pullback.
