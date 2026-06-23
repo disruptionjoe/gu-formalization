@@ -2,7 +2,7 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-01"
+updated_at: "2026-06-22"
 ---
 
 # Research Status
@@ -34,6 +34,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 | ranked next steps | active_research | `roadmap/` |
 | C_MPR and 9-tuple | exploration | `explorations/c-mpr/` |
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
+| positive GU constructions lane | exploration | `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
 | persona process and dialectics | process | `process/` |
 | early frontier packets | archive | `archive/` |
@@ -53,3 +54,109 @@ An exploration can move toward canon only when it has:
 ## Current Caution
 
 The observer-finality crosswalk is useful only as a test layer. It should not be cited as GU canon or as a way to evade no-go theorems. Its near-term value is the bounded signed-readout record-graph test in `explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`.
+
+## 2026-06-22 Additions (Positive GU Constructions Lane)
+
+One new exploration document was added as a new parallel lane of work:
+
+| document | status | content |
+|---|---|---|
+| `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` | exploration | Opens the positive GU constructions lane. Five targets: (1) Y¹⁴ / Met(X⁴) metric bundle and pullback maps, (2) Riemannian-Ehresmannian fusion, (3) torsion-for-Λ, (4) spinor group mechanics / shiab from Spin(7,7), (5) Higgs emergence. Includes full six-axis specifications for Targets 1 and 4. Cross-impact assessment: Riemannian-Ehresmannian framing sharpens Witten no-go map; spinor/Spin(7,7) computation is the positive analog of N2; torsion has no current interaction with signed-readout theorem. Tractability ordering: Target 4 (PC1) is highest, Target 5 (PC5) is lowest. |
+
+NEXT-STEPS.md was updated with the five PC-ranked tasks and cross-impact notes.
+
+---
+
+## 2026-06-22 Additions (Five-Run Issuance-Rate Analysis)
+
+Four new exploration documents were added to `explorations/time-as-finality-crosswalk/` following the five-run issuance-rate / observer-contact analysis:
+
+| document | status | content |
+|---|---|---|
+| `rate-independence-negative-finding-2026-06-22.md` | exploration | Registers the confirmed null result: signed-readout monotonicity criterion is rate-independent with respect to `lambda*(s)`. Closed finding. |
+| `rate-independence-worked-check-2026-06-22.md` | exploration | Worked check showing component-by-component why `lambda*(s)` does not appear in the criterion's definition, weight function, information order, scope, or failure condition. Provides the auditable basis for the negative finding. |
+| `filtered-sheaf-temporal-obstruction-2026-06-22.md` | exploration | Formalization attempt for the filtered-sheaf temporal obstruction concept (Run 4). Verdict: process-level, collapses to standard Cech cohomology in toy cases. Conditions for re-opening specified. |
+| `bvn-gamma-min-convergence-investigation-2026-06-22.md` | exploration | Investigation of the hypothesis that `lambda_max = Gamma_min` (BvN classicality threshold). Verdict: unconfirmed; BvN lane lacks rate-of-classicality formalism; derivation path specified. Most interesting open contact point. |
+
+NEXT-STEPS.md was updated with four follow-on tasks (FR1–FR4) derived from the five-run findings.
+
+## 2026-06-22 FR-Series Execution (Sequential Research Pass)
+
+A sequential research pass executed the FR1–FR4 follow-on tasks and produced a cross-cutting synthesis. New exploration documents in `explorations/time-as-finality-crosswalk/`:
+
+| document | status | content |
+|---|---|---|
+| `fr1-sorkin-absorption-worked-check-2026-06-22.md` | exploration | FR1 resolved. **Verdict: ABSORBED.** `lambda_max = B / poly(max-past-size(prec, W))`; L2 budget over L4 order-cost, no third input. Sub-result: Sorkin order is rate-blind; the rate cap is a pure L2 capacity effect. |
+| `fr4-l6-cadence-parameterization-2026-06-22.md` | exploration | FR4 resolved. **Verdict: NEW L6 FIELD.** Deadline-gated finality (cadence `Delta`) produces a new failure mode — *premature commitment* — provably unreachable under L4 completeness-gating, occurring at any rate. Confirms the issuance-rate family's L6 home. Distinct from FR1's `lambda_max`; respects rate-independence (no structural theorem depends on `Delta`). Exploration-grade L6 field. |
+| `fr2-bvn-rate-of-classicality-derivation-2026-06-22.md` | exploration | FR2 resolved (highest-yield). **Verdict: NON-TRIVIAL PROPORTIONALITY.** Supplied the BvN lane's missing rate-of-classicality concept `Gamma_min(epsilon) = ln(1/epsilon)/t_obs`; derived `Gamma_min = ln(1/epsilon)·lambda_max` (coupled via shared `t_obs`); clean equality iff `epsilon=1/e`. Non-trivial L1↔L2 bound `lambda_max <= Gamma/ln(1/epsilon)`. Produces a candidate six-axis L1–L2 coupling rule. Does NOT prove the BvN wall; does NOT change any GU theorem. |
+| `fr3-filtered-sheaf-non-collapse-example-2026-06-22.md` | exploration | FR3 resolved. **Verdict: NON-COLLAPSE CONFIRMED; PRIOR VERDICT OVERTURNED.** Explicit toy (`X=S^1`, `F_1=C_{S^1}` with `H^1=C≠0`, `F` flasque with `H^1=0`) gives a genuine transient obstruction `O(1)≠0`, `O(2)=0`. The prior collapse argument tested spatial assembly (subspaces); the real construction is subsheaves over a fixed space, whose inclusions induce non-injective cohomology maps. Sharpening: the obstruction is **structural** (subsheaf cohomology, not determined by `H^1(X,F)`) but indexed by a **filtration**, not a **rate** — so rate-independence is untouched and the object is decoupled from the issuance rate. Belongs to a filtered L1/L2 refinement, not L6. Exploration-grade. |
+| `fr-series-synthesis-2026-06-22.md` | exploration | **FR-series synthesis.** Central finding: "the issuance rate" was a portmanteau for **four formally distinct objects at four chain layers** — `lambda_max` (L2, absorbed), `Delta` (L6, new field), `Gamma_min` (L1↔L2, coupled), `O(tau)` (filtered L1/L2, structural). Resolves all three five-run divergences and closes/advances the three GU-relevance conditions (A closed, B advanced, C closed affirmative). Issuance rate proper stays GU-irrelevant structurally; the two structural objects it entangled (FR2 coupling, FR3 obstruction) are separated as the residual targets. No canon change; no no-go bypass. |
+
+---
+
+## 2026-06-22 Additions (UCSD Transcript + Formal Analysis)
+
+Two new documents were added: a primary source transcript and a formal exploration analysis.
+
+| document | status | content |
+|---|---|---|
+| `literature/weinstein-ucsd-2025-04-transcript.md` | source (raw_transcript) | Full transcript of Eric Weinstein's UCSD April 2025 talk at the Astroparticle Cosmology Cinema, Mayor Room. Recorded by Brian Keating. First primary-source document in the `literature/` folder for GU content (prior literature files are secondary source briefs). |
+| `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md` | exploration | Formal analysis of 8 technical claims from the UCSD talk, assessed against repo canon. Identifies 7 new formal objects not in the positive-constructions-lane proposal (PC1–PC5). Four new follow-on tasks added to NEXT-STEPS.md (VZ1, SC1, DD1, HC1). |
+
+**Key findings from the analysis:**
+
+1. **Velo-Zwanziger is missing from the no-go map.** The transcript confirms GU predicts one family of 16 spin-3/2 particles. Velo-Zwanziger is the primary constraint on spin-3/2 matter coupled to gauge groups. The no-go map currently covers four families (Witten, Nielsen-Ninomiya, Freed-Hopkins, Distler-Garibaldi); Velo-Zwanziger is a fifth that should be added (task VZ1).
+
+2. **N2 (shiab) now has explicit domain/codomain from the primary source.** The transcript names the ship-in-a-bottle operator as mapping Ω²(Y¹⁴) ⊗ S → Ω¹(Y¹⁴) ⊗ S. This is more specific than the current N2 description and should be incorporated (task SC1).
+
+3. **Distortion tensor is distinct from torsion.** D(∇, g) = ∇ − g·∇_LC (using gauge-transformed Levi-Civita) vs. T(∇) = ∇ − ∇_LC (naked Levi-Civita). The distortion is gauge-equivariant; torsion is not. PC4's "torsion-for-Λ" should be sharpened to distinguish these (task DD1).
+
+4. **Three hidden curvature components claim.** The Lorentz curvature tensor breaks into 6 pieces under a group "larger than just the Lorentz group"; 3 are killed by G_μν and 3 are hidden by the torsion-free Bianchi identity. Representation theory check needed to identify the group and verify the count (task HC1).
+
+5. **PC2 first falsification test has a primary-source candidate answer.** The falsification test for Target 1 (Y¹⁴) was: "does a canonical metric on Y¹⁴ exist without prior metric choice?" The transcript provides a specific candidate: trace-reverse the Frobenius metric along the fibers, changing signature from (7,3) to (6,4), to produce an automatic metric. This is the mechanism the analysis identifies as `[reconstruction]`-grade.
+
+6. **No changes to canon or active research.** All findings are exploration-grade. No no-go theorem is claimed bypassed. No Nguyen refutation is claimed.
+
+NEXT-STEPS.md updated with VZ1, SC1, DD1, HC1 tasks and new formal objects table.
+
+---
+
+## 2026-06-22 Phase 1 Parallel Agent Results (Nguyen Critique + Positive Constructions)
+
+Four parallel agents (A-D) ran following the Layer 1-3 completions and the UCSD transcript analysis. Results below. All are exploration-grade; no result promoted to active_research or canon without meeting promotion criteria.
+
+### Nguyen critique lane — significant advances
+
+| finding | status | file |
+|---|---|---|
+| N1 (signature audit): (9,5) confirmed, Cl(9,5) ≅ M(64,H) | RESOLVED | `explorations/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (prior session) |
+| N2 (shiab): exists under (9,5), anomaly structure resolved via Sp(64) | SUBSTANTIALLY ADVANCED | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| Nguyen §3.1 (complexification gap) | RESOLVED | See N1/N2 files above |
+| Nguyen §2 (anomaly pincer) | SUBSTANTIALLY ADDRESSED — Sp(64) replaces U(128); both horns dissolve | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| Residual: IG dimension matching (sp(64) dim = 8256 vs. desired 16384) | OPEN | `NEXT-STEPS.md` N4 |
+
+The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclassified from Column A to Column B (substantially addressed), and a new §3.3 generation count entry. See `explorations/nguyen-gu-critique/nguyen-critique-full-synthesis.md`.
+
+### Positive constructions lane — new completions
+
+| finding | status | file |
+|---|---|---|
+| HC1: "Three hidden curvature components" count | CONFIRMED under torsion-sourcing reading | `explorations/hc1-hidden-curvature-components-2026-06-22.md` |
+| DD1: Distortion tensor literature check | PARTIALLY_NAMED (Hehl/Agricola-Friedrich partial; IG-equivariance is novel) | `explorations/dd1-distortion-tensor-literature-check-2026-06-22.md` |
+| PC2: Y^{14} bundle formalization stub | COMPLETE (gimmel circularity benign; D_ℊ without section subject to w_2 condition) | `explorations/pc2-met-x4-bundle-formalization-stub-2026-06-22.md` |
+| Generation count under Cl(9,5) | CONDITIONALLY 3 — structural mechanism intact; two bounded computations remain | `explorations/generation-count-cl95-dirac-derham-2026-06-22.md` |
+
+### Updated research map (Nguyen critique and positive constructions lanes)
+
+| area | status | note |
+|---|---|---|
+| Nguyen §3.1 | **RESOLVED** | Complexification not needed in (9,5)/quaternionic setting |
+| Nguyen §2 (anomaly) | **SUBSTANTIALLY ADDRESSED** | Sp(64) replaces U(128); both horns dissolve; IG dimension matching residual open |
+| Shiab existence | **RESOLVED** | Clifford contraction, H-linear, Spin(9,5)-equivariant |
+| Dark energy divergence-free | **RESOLVED** | Noether path closed (Layer 2) |
+| Generation count | **CONDITIONALLY 3** | H-line counting + RS branching computations remaining |
+| HC1 hidden curvature count | **CONFIRMED** | 3 torsion-sourced pieces via DT=R∧e |
+| DD1 distortion nomenclature | **PARTIALLY_NAMED** | IG-equivariance is genuinely novel vs. Hehl/Agricola-Friedrich/Sharpe |
+| PC2 bundle formalization | **STUB COMPLETE** | w_2 Gysin computation and branching rules s*(S) still open |
+
+`DERIVATION-PROGRESS.md` updated with Phase 1 Results and Phase 2 Status sections. `NEXT-STEPS.md` updated with N1/N2 marked resolved, three new tasks N4/N5/N6 added. Paper v3 filed at `papers/what-geometric-unity-needs-to-do-next-v3.md`.

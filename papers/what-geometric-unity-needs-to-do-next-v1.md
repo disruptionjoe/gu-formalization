@@ -9,7 +9,13 @@ superseded_by: what-geometric-unity-needs-to-do-next-v2.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
-> **This report has advanced.** Since this version was written, formal analysis has closed the signature audit (the correct signature is (9,5), not (7,7)), proved the shiab operator exists without complexification in the quaternionic Clifford algebra Cl(9,5), and established that the distortion θ is automatically divergence-free via Noether's second theorem. **The current version is [v2](what-geometric-unity-needs-to-do-next-v2.md).** This file is preserved as v1 for reference.
+> **This report has been updated.** This is version 1, preserved for reference. Formal analysis conducted after this version was published has closed one of the three tasks identified below and partially closed a second:
+> - The correct signature of Y¹⁴ is (9,5), not (7,7) — **the signature audit (Task 1) is done.**
+> - In signature (9,5), the Clifford algebra is quaternionic Cl(9,5) ≅ M(64,ℍ), and the shiab operator exists as a quaternion-linear map without complexification — **Nguyen's §3.1 objection does not arise in the correct geometric setting.**
+> - The distortion θ is automatically divergence-free via Noether's second theorem — **a new result not anticipated in this version.**
+> - The anomaly question (Nguyen §2) remains open and is now the load-bearing question for the program's viability.
+>
+> **Read the current version: [version 2](what-geometric-unity-needs-to-do-next-v2.md)**
 
 # What Geometric Unity Needs to Do Next
 

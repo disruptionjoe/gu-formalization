@@ -2,7 +2,7 @@
 title: "No-Go / Forgetful-Image Map"
 status: canon
 doc_type: canon
-updated_at: "2026-05-31"
+updated_at: "2026-06-22"
 ---
 
 # No-Go / Forgetful-Image Map
@@ -27,6 +27,7 @@ One-line per theorem. Full rows below.
 | Nielsen-Ninomiya | local Hermitian translation-invariant lattice fermion w/ exact on-site U(1)_V and U(1)_A | domain walls, GW/overlap (modified symmetry realization), bosonized/Villain 2d, partial PEPS chirality | bulk+boundary anomaly-inflow object, or modified-chiral-symmetry algebra, or QCA flavoring | locality-and-on-site-symmetry functor: `(d+1)-bulk+defect anomaly object ↦ d-dim local on-site lattice` | strong for the modified-symmetry and bulk-evasion framing; 3+1d local chiral gauge regularization still open | distributed-systems / protocol-model evasion has no published bridge yet (cf. internal origin artifact / sibling #27) |
 | Freed-Hopkins | reflection-positive invertible extended functorial QFT, fixed symmetry type, valid low-energy EFT | symmetry extension + topological-order boundary (Wang-Wen-Witten); allowing non-invertible boundary; mixed/crystalline symmetry (Debray) | enriched bordism category — e.g. observer-pairing, QRF, crystalline mixed-symmetry, average symmetry | underlying-bordism functor: enriched bordism category ↦ ordinary symmetry-type bordism input | medium — symmetry / boundary / spatial extensions are real and accepted; observer-pairing enrichment is not in the literature (open program) | Córdova-Ohmori-Shao obstruction + Kapustin-Sopenko persistence: anomaly often re-appears at a deeper level even after class change |
 | Distler-Garibaldi | single real form of E8, low-spin (V_{m,n}=0 for m+n>4), SL(2,C) × G centralizer, V_{2,1} complex G-rep | E8 × E8 heterotic (Braun-He-Ovrut-Pantev; Anderson et al.), GraviGUT SO(3,11) (Nesti-Percacci), beyond-finite-dim K(E10) (Meissner-Nicolai) | richer infinite-dim / bundle-with-flux / product-group / Kac-Moody-quotient object | "single-finite-E8-adjoint" functor: richer compactification/Kac-Moody ↦ V_{m,n} adjoint of one real E8 | **outlier — stress case**: every successful "evasion" leaves the class entirely; no loophole inside single-E8 representation theory | smooth-bundle-shadow framing has the weakest analogical purchase here; this is where the unified frame is most original and most vulnerable |
+| Velo-Zwanziger 1969 | spin-3/2 matter minimally coupled to a nontrivial gauge group on flat or mildly curved background | supergravity Rarita-Schwinger gravitino (couples only to gravity via local SUSY, not to internal gauge group) | spin-3/2 field with trivial or absent coupling to internal gauge groups — coupling only to gravity | "minimal coupling" functor: `(spin-3/2 field with coupling data) ↦ (field with nontrivial gauge coupling forced)` | medium — supergravity shows spin-3/2 without VZ problems is possible; GU spin-3/2 coupling structure not yet specified | GU spin-3/2 evasion candidate (trivial internal coupling) is UNCONFIRMED; a physical (non-decoupled) spin-3/2 field with no internal gauge coupling and no SUSY guardian has no established literature analog |
 
 ## 2. Per-theorem map
 
@@ -221,6 +222,98 @@ that forgets bundle data, compactification data, or Kac-Moody extension and keep
 
 **Six-axis cross-ref.** Distler-Garibaldi has no clean axis-drop in the six-axis protocol: the theorem's class assumptions sit at a level (specific finite-dim group, specific representation type) below L1. The protocol's existing handling — make L1 a Type II_1 spectral triple or a different substrate object entirely — does sidestep Distler-Garibaldi (since the substrate is no longer "single finite-dim Lie group"), but it does so by changing the unit, not by computing a shadow. This is the honest reading.
 
+### 2.5 Velo-Zwanziger 1969 — spin-3/2 matter in nontrivial gauge backgrounds
+
+**Statement, as used in the literature.** Massless (or massive) spin-3/2 fields minimally coupled to a nontrivial external gauge field develop acausal propagation (superluminal modes), tachyonic instabilities, or loss of the required number of degrees of freedom — the Cauchy problem becomes ill-posed. The original papers are Velo and Zwanziger (1969), Phys. Rev. 186:1337, and Johnson and Sudarshan (1961), Ann. Phys. 13:126 (precursor). The problem arises because the subsidiary conditions that enforce the correct spin-3/2 DOF count (the Rarita-Schwinger constraint γ^μ Ψ_μ = 0 in the flat-space case) become inconsistent in a nontrivial gauge background.
+
+**Physical content.** In flat space with no coupling:
+- Massive spin-3/2: 4 × 4 - 4 = 12 components of Ψ_μ, constrained by subsidiary conditions to 2(2s+1) = 8 physical DOF. Propagation is causal.
+- Massless spin-3/2 (as a gauge field): 2 physical DOF (like a gravitino in supergravity). Local gauge invariance maintains the subsidiary conditions.
+
+When a nontrivial gauge connection is switched on (minimal coupling ∂_μ → D_μ = ∂_μ + A_μ), the subsidiary conditions γ^μ D_μ Ψ_ν = 0 and the equations of motion become inconsistent (the Dirac operator and the constraint no longer commute with the propagator). In the original language: the "characteristic matrix" of the hyperbolic system has zero determinant for some spacelike normal, producing superluminal characteristics.
+
+**Assumptions (formal list).**
+
+1. The field Ψ_μ is a spin-3/2 field (Rarita-Schwinger field, a spinor-vector).
+2. Coupling is minimal: ∂_μ → D_μ = ∂_μ + A_μ, where A_μ takes values in a nontrivial Lie algebra representation of the gauge group G.
+3. The gauge group G is nontrivial: the representation of G acting on Ψ_μ is a non-singlet.
+4. The background is flat or mildly curved (the original theorem; the gravitational case is more complex).
+5. No local symmetry principle (gauge symmetry or local SUSY) maintains the subsidiary conditions against loop corrections.
+
+**Degrees of freedom analysis.**
+
+| case | physical DOF | Velo-Zwanziger |
+|---|---:|---|
+| Massive spin-3/2, free | 8 | no problem |
+| Massless spin-3/2 as gauge field (gravitino) | 2 | no problem — local SUSY maintains constraints |
+| Massive spin-3/2, nontrivial gauge coupling | ill-posed | VZ obstruction; DOF count inconsistent |
+| Massless spin-3/2, nontrivial gauge coupling | ill-posed | VZ obstruction |
+| Massive spin-3/2, coupling only to gravity | open | depends on background; see literature |
+
+**Known evasions in published literature.**
+
+- *Supergravity / Rarita-Schwinger gravitino (de Wit-Freedman 1979; Deser-Zumino 1976):* The gravitino in N=1 supergravity is a gauge field for local supersymmetry. Its subsidiary conditions are maintained by the SUSY algebra (not by a Lagrange multiplier). The gravitino couples to the stress tensor (to gravity), not to internal gauge groups. This evades assumption (3): the gravitino's coupling to gravity is not the type of "nontrivial gauge coupling" VZ applies to, because the gravitational coupling is via the vierbein and spin connection, not via a Lie-algebra-valued gauge potential for an internal symmetry group G. The gravitino is not in a non-singlet of any internal G.
+
+- *Extended supergravity with matter (Cremmer-Julia 1979; de Wit-Nicolai 1982):* In N≥2 extended supergravity, the gravitini couple to the gauge group but are still protected by local SUSY. The subsidiary conditions are maintained by the larger SUSY algebra. The protection does not extend to spin-3/2 fields that are not gravitini.
+
+- *Coupling to Abelian gauge group only (Kobayashi-Shamaly 1978):* A spin-3/2 field coupled to a U(1) gauge group (electromagnetism) avoids some VZ pathologies in specific limits. This is a partial evasion and requires additional conditions.
+
+- *No known evasion for spin-3/2 in non-Abelian internal gauge background without SUSY.* The VZ obstruction is robust for spin-3/2 matter in non-Abelian gauge backgrounds when no local symmetry principle (SUSY, higher-spin gauge symmetry) protects the subsidiary conditions.
+
+**GU evasion candidate: trivial internal gauge coupling.**
+
+GU predicts one family of 16 flipped-chiral spin-3/2 particles arising from the Dirac-DeRham-Einstein complex on Y¹⁴ (see `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md`, Claim 7). These are not gravitini (GU has no local SUSY structure as far as can be determined from the published record). Weinstein's statement ([00:41:48–00:42:29]): "if your model differs by having no internal symmetry groups, I have no idea whether it has any kind of a Velo Zwanziger problem."
+
+The proposed evasion: the GU spin-3/2 family has **trivial coupling to all internal gauge groups** — it is a singlet under G_internal. This drops assumption (3). The spin-3/2 particles couple only to gravity (i.e., to the connection on Y¹⁴), not to any Yang-Mills-type internal gauge potential.
+
+**GU evasion status: UNCONFIRMED.**
+
+Three open questions stand between the evasion candidate and an actual evasion:
+
+1. **Coupling structure not specified.** GU does not provide a Lagrangian for the spin-3/2 family. Without the Lagrangian, it is impossible to verify that the coupling to internal gauge groups is trivial and that the coupling to gravity is of the protected (gravitino-like) rather than the VZ-pathological type.
+
+2. **Coupling to gravity may also produce VZ problems.** Even coupling only to gravity (no internal gauge group) can produce acausality for spin-3/2 fields in curved backgrounds. The original VZ theorem used flat backgrounds; the gravitational case is more complex. Buchdahl (1962) and Aurilia-Umezawa (1969) showed that spin-3/2 in curved spacetime also has consistency problems unless the background satisfies specific conditions (related to the Einstein equations). In GU, the background geometry is dynamical and non-standard (Y¹⁴ rather than X⁴); the status of these gravitational-background VZ problems is unknown.
+
+3. **No local SUSY or higher-spin gauge principle.** The gravitino evasion works because local SUSY is a guardian symmetry. GU's spin-3/2 particles lack an obvious guardian. Even if internal coupling is trivial, the gravitational coupling needs a guardian principle to maintain the subsidiary conditions. GU proposes a super-extension of the inhomogeneous gauge group (Claim F in the analysis document) as a possible guardian, but this is in `[speculation]` status.
+
+**Candidate richer datum.**
+
+A spin-3/2 field together with a **guardian symmetry specification** — either local SUSY, a higher-spin gauge algebra, or a specific coupling structure that maintains the subsidiary conditions without SUSY. The candidate richer datum is the pair (Ψ_μ, G_guardian) where G_guardian is the guardian symmetry that maintains subsidiary conditions.
+
+**Candidate forgetful operation.**
+
+The *minimal coupling* functor:
+
+```
+ϕ_mc : (spin-3/2 field, coupling data, guardian symmetry) ↦ (spin-3/2 field, nontrivial gauge coupling, no guardian)
+```
+
+that forgets the guardian symmetry and enforces minimal coupling to a nontrivial gauge group. Velo-Zwanziger is the statement that the image of this functor is ill-posed. The known evasion (supergravity) exits the class by naming a specific guardian (local SUSY) that is not forgotten.
+
+**What gets lost in the smooth-bundle shadow.** The guardian symmetry specification. The relation (a physical spin-3/2 particle in the spectrum) can survive; the guardian that protects its causal propagation cannot.
+
+**Analogy strength.** Medium. The supergravity example shows that a physical spin-3/2 field without VZ problems is possible — so the class-exit is real. The evasion mechanism (local SUSY as guardian) is well-understood. The open question is whether a different guardian principle (not SUSY) can protect a spin-3/2 field that is a singlet under the internal gauge group but couples to gravity. This has limited published precedent.
+
+**Where the analogy may break.** Two specific places:
+
+- *No guardian, no protection.* If GU's spin-3/2 particles have no guardian symmetry (no local SUSY, no higher-spin gauge invariance), then the claim that trivial internal coupling evades VZ may be insufficient. The gravitational coupling alone may produce VZ pathologies in curved backgrounds, and without a guardian these are not prevented.
+
+- *DOF count in Y¹⁴ geometry.* The VZ theorem applies to spin-3/2 on X⁴. GU's spin-3/2 particles arise on Y¹⁴ and are pulled back to X⁴. The DOF count in the pullback (how many physical DOF survive) depends on the structure of the Dirac-DeRham-Einstein complex (Claim 7 / N2 / SC1 tasks). If the pullback does not give a standard Rarita-Schwinger field on X⁴, VZ may not apply as stated — but a different (potentially worse) consistency problem may apply instead.
+
+**Action required to confirm or refute.**
+
+1. *Specify the GU spin-3/2 Lagrangian* (or at minimum the kinetic term and coupling structure for the flipped-chiral spin-3/2 family). This is downstream of N2 (shiab operator) and the Dirac-DeRham-Einstein complex specification.
+
+2. *Check VZ conditions for the pulled-back field.* Given the Lagrangian, apply the Velo-Zwanziger characteristic analysis: compute the characteristic matrix of the field equations for the pulled-back spin-3/2 field on X⁴. Check whether the determinant of the characteristic matrix vanishes for spacelike normals.
+
+3. *Identify a guardian symmetry or prove absence.* Either (a) show that GU's proposed super-IG extension (Claim F in the analysis document) maintains the subsidiary conditions for the spin-3/2 field in the relevant background, or (b) show that no guardian symmetry is available and derive the consequences for causal propagation.
+
+**Six-axis cross-ref.** Velo-Zwanziger is primarily an L1 (substrate) constraint: it restricts what spin content a theory can have without specifying a guardian. It also touches L3 (pairing): the coupling between the spin-3/2 field and the gauge group is a pairing structure, and trivializing this coupling is the evasion candidate. An L3 enrichment (a guardian symmetry that enters as a coupling between field and background) is what the supergravity evasion provides.
+
+**Source.** Primary source: Weinstein UCSD April 2025 transcript [00:41:48–00:42:29], analyzed in `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md`, Claim 8 / New Object C / Section 4.3. Original theorem: Velo and Zwanziger (1969), Phys. Rev. 186:1337; Johnson and Sudarshan (1961), Ann. Phys. 13:126. Task identifier: VZ1 in `NEXT-STEPS.md`.
+
+---
+
 ## 3. Cross-theorem patterns
 
 ### 3.1 Common architectural move in successful evasions
@@ -233,6 +326,7 @@ Per `literature/03` and I11: in all four families, successful published evasions
 | Nielsen-Ninomiya | (d+1)-bulk, modified symmetry algebra | demand on-site exact symmetry |
 | Freed-Hopkins | topological-order boundary, symmetry extension, mixed spatial | demand invertible boundary / standard symmetry type |
 | Distler-Garibaldi | product group, bundle, Kac-Moody extension | demand single finite-dim E8 adjoint |
+| Velo-Zwanziger | guardian symmetry (local SUSY or higher-spin gauge invariance) that maintains spin-3/2 subsidiary conditions | minimal-coupling functor that forgets guardian and demands nontrivial gauge coupling |
 
 The first three rows share an architectural shape: add bulk/boundary/enrichment, the shadow forgets it. Distler-Garibaldi's row is structurally different: the "added structure" is a category change.
 
@@ -245,6 +339,8 @@ The first three increasingly read as anomaly statements:
 - Witten 1981 is not framed in cobordism language but most of its successful evasions are mediated by anomaly inflow (boundaries, branes, singularities).
 
 Distler-Garibaldi resists this unification. Representation theory of single-E8 is not naturally a cobordism statement. This is consistent with the analogy-strength reading above.
+
+Velo-Zwanziger also resists the anomaly unification: it is a classical field theory consistency constraint (Cauchy problem well-posedness), not an anomaly statement. Its evasion is via a guardian symmetry principle (local SUSY), which is algebraic rather than topological. VZ is orthogonal to the cobordism / anomaly theme and should be read as a separate family: a **kinematic consistency** constraint rather than a topological obstruction.
 
 ### 3.3 The "what gets lost" pattern
 
@@ -269,9 +365,9 @@ Ordered by leverage on the map's open questions. Sibling-artifact references whe
 
 ## 5. Closing posture
 
-Three of four no-go families admit a forgetful-image reading that is at most an adjacent reformulation of the published evasion literature. The fourth (Distler-Garibaldi) is the stress case where the frame works least well: every successful evasion changes the category, not the shadow. The map's recommendation is to **publish with the stress case visible**, not buried, and to use the ranked tests above as the falsification surface.
+Three of five no-go families admit a forgetful-image reading that is at most an adjacent reformulation of the published evasion literature. The fourth (Distler-Garibaldi) is the stress case where the frame works least well: every successful evasion changes the category, not the shadow. The fifth (Velo-Zwanziger) is GU-specific: it constrains GU's own spin-3/2 matter prediction directly, and the evasion candidate (trivial internal coupling) is currently UNCONFIRMED. The map's recommendation is to **publish with both the stress case and the unconfirmed evasion visible**, not buried, and to use the ranked tests above as the falsification surface.
 
-The map does not say the no-go theorems are wrong. It says they fix classes, and for three of the four families the "what gets lost in the smooth-bundle shadow" question has plausible substrate-level answers that the literature is already approaching from the geometric side. The unified meta-frame ("forgetful images of richer substrate invariants") is implicit/adjacent for Witten / Nielsen-Ninomiya / Freed-Hopkins, and is **originally and contentiously** at stake for Distler-Garibaldi.
+The map does not say the no-go theorems are wrong. It says they fix classes, and for three of the five families the "what gets lost in the smooth-bundle shadow" question has plausible substrate-level answers that the literature is already approaching from the geometric side. The unified meta-frame ("forgetful images of richer substrate invariants") is implicit/adjacent for Witten / Nielsen-Ninomiya / Freed-Hopkins, is **originally and contentiously** at stake for Distler-Garibaldi, and is **GU-prediction-specific and currently open** for Velo-Zwanziger.
 
 ## Appendix A — Siblings referenced
 
@@ -286,4 +382,5 @@ All other siblings in the coordination list are independent of this map's conten
 - The map does not formally construct any of the candidate forgetful operations as functors between specified categories. They are named structurally; the construction is an open task.
 - The Distler-Garibaldi handling is unresolved on substance, not just on framing. The honest verdict is that the unified frame strains here; the map ships this as a visible stress, not a solved problem.
 - The "what gets lost" column for Distler-Garibaldi is genuinely speculative because the framework does not pick out a unique forgetful operation; (a), (b), (c) above are three different shadow-candidates with different lost-data content.
+- The Velo-Zwanziger entry is GU-specific (not a pre-existing entry in the GU no-go literature). Its evasion candidate status is UNCONFIRMED. Three open questions remain: (1) the GU spin-3/2 Lagrangian is not specified; (2) the gravitational-background VZ problem (curved X⁴) is not assessed; (3) no guardian symmetry has been identified for the GU spin-3/2 family. This entry should be updated as VZ1 task outputs become available.
 - The map cites the literature in `literature/03` but does not independently verify each citation. The map's correctness about the no-go theorems is downstream of that brief's correctness.
