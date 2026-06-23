@@ -589,3 +589,24 @@ File: `explorations/vz-f5-curvature-check-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Computed the W(A_3)=S_4 orbit of lambda_RS=(1/2,0,0,-1/2): size 12 (stabilizer Z_2, unique dominant representative (1/2,0,0,-1/2)), with explicit enumeration of all 12 permutations of {1/2,0,0,-1/2}. Verified that each of the 8 H-types (4xD(1/2,0) + 4xD(0,1/2)) in S(6,4)|_{SO_0(3,1)} contributes exactly one discrete SL(4,R)-representation via Flensted-Jensen multiplicity-one (AF3, split-rank-1), giving m_H^{fiber}=8; combined with K3-type Â=2 and RS index=8 gives total m_H=8*2+8=24. Clarified that the coincidence |W(A_3)|=24=m_H is arithmetic (24=3x8) and the physical mechanism is the 2+1 generation split, not the Weyl orbit count. Remaining: CAS branching check (OQ2), OQ3a K3 variational selection, AF4 RS gauge-fixing.
 File: `explorations/n5-plancherel-multiplicity-2026-06-23.md`
+
+---
+
+### n3-discharge (2026-06-23)
+Verdict: OPEN
+Determined that the Cech-H^1 to holonomy dictionary in T63 (time-as-finality) depends on H3 for its Medium-confidence entries and the full Holonomy Theorem identity form; the three High-confidence entries are H3-independent theorems already established. The cech_sheaf_fixture in temporal-issuance (E015's prescribed next_fixture) was never executed -- no exploration file exists in temporal-issuance for it -- so the E015 route does not close H3. H3 is recorded as a named open blocker with three explicit closure conditions: C1 (type-bridge between combinatorial TaF finality presheaf and smooth Z/2Z gauge data on Y_spin), C2 (execute the cech_sheaf_fixture to test whether TI admissibility independently forces cocycle values), and C3 (resolve the spacelike-separation overlap issue for sigma_A(X_A) cap sigma_B(X_B)).
+File: `explorations/n3-h3-cech-holonomy-2026-06-23.md`
+
+---
+
+### cpa1-omega (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Identified the Omega-constant Omega = C_GU * epsilon_sec^2 = Lambda_GU/lambda_max^2 and computed it for three candidate physical models. The null-ray shot-noise model (n = dim(X^4) independent null-ray measurements, one-quadrature shot-noise floor 1/(2n) per ray) gives Omega = 2n * 1/(2n) = 1 exactly for all n >= 2, making it the unique model producing exact equality Lambda_GU = lambda_max^2 from GU geometry alone without fine-tuning; the structural reason is that C_GU = 2n (from the l=2 Willmore TT Hessian) cancels epsilon_sec^2 = 1/(2n) because l=2 is always the first physical TT mode in any dimension. The Lindblad decoherence model gives Omega = 1 only at the specific decoherence rate Gamma_dec = (3/2)ln(2)/t_obs (natural from TaF Gamma_min saturation but requires cross-program input); the Planck-scale model is ruled out at macroscopic t_obs. Single remaining gap: the ambient curvature correction delta_curv(Met(S^4), gimmel) = +4K must be verified by explicit Y^14 curvature computation to upgrade from reconstruction.
+File: `explorations/cpa1-omega-tuning-2026-06-23.md`
+
+---
+
+### vz-4d-eft (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Performed dedicated F6 analysis: whether a KK-type mass scale separates the RS sector into an approximately standalone 4D EFT field. Three-part computation: (1) Codazzi-corrected KK mass gap estimated as M_KK ~ 1/R_s from the normal Laplacian on the fiber metric V; the Codazzi correction R^{Y^14,perp} is subleading O(curvature/M_KK^2) and does not lower M_KK to zero. RS/spin-1/2 mass splitting is ~ M_KK (both sectors at the same KK scale), so no standalone RS EFT window exists. (2) B/C coupling blocks verified as kinematic (Clifford-algebra-determined, O(1) at zero-mode level, not suppressed by any energy limit); the KK mode projector commutes with the horizontal Clifford element c_s(eta), so zero-mode B/C are the same algebraic matrices as the full-theory blocks. (3) Loop corrections to B/C are O(eta^2) (subleading to tree-level O(eta)); the Clifford algebra identity sigma_D^2 = xi^2 Id is loop-exact and prevents algebraic cancellation of B/C at any loop order. VZ evasion is structurally loop-stable. Remaining open: RC1 (RS KK zero mode existence, gated on discrete-series OQ3a-c); RC2 (explicit one-loop B/C computation); RC3 (Delta_N spectrum on GL(4,R)/O(3,1)).
+File: `explorations/vz-f6-eft-decoupling-2026-06-23.md`
