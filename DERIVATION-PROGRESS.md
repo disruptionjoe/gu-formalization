@@ -319,3 +319,47 @@ Report updated to v5 at `papers/what-geometric-unity-needs-to-do-next-v5.md`. Ne
 - Outstanding computations: discrete-series condition for GL(4,R)/O(3,1), Codazzi/Sp(64), VZ Schur complement, cross-program coefficient.
 
 Forward pointers updated in v1, v4. v5 is current.
+
+---
+
+## Phase 4 Log Entry (2026-06-23) — Parallel Frontier Pass
+
+Five parallel frontier tasks were dispatched and completed as bounded exploration notes:
+
+| task | result | file |
+|---|---|---|
+| VZ Schur complement | RS/non-RS off-diagonal coupling is nonzero in the local rolled-up principal-symbol model; the horizontal RS sector is not a closed native 14D subsystem. Minimal horizontal Schur complement has no off-null kernel. Full 14D inversion remains open. | `explorations/vz1-schur-complement-symbol-2026-06-23.md` |
+| Explicit `II_s` formula | Gimmel Christoffels and graph-section second fundamental form are now explicit. Local OQ-2 is formula-closed, but physical interpretation depends on choosing literal graph immersion versus horizontal-normalized/reference-subtracted convention. | `explorations/ii-s-coordinate-formula-2026-06-23.md` |
+| Codazzi/Sp(64) | Gauss-Codazzi-Ricci equations are formulated for the tautological section and Sp(64) lift. The exact residuals are `K(A,s)` and `R_fail`; these are the next pass/fail objects for Einstein recovery. | `explorations/codazzi-sp64-bundle-2026-06-23.md` |
+| Fiber Dirac analytic index | Ordinary finite `dim_H ker_L2(D_fib)=24` on `GL(4,R)/O(3,1)` is not coherent. The analytic target must be reframed as a compactified/quotient/equivariant-index or relative-discrete-series multiplicity problem. | `explorations/discrete-series-fiber-dirac-index-2026-06-23.md` |
+| Cross-program Lambda coefficient | The GU/TaF comparison must use rate-squared quantities: `Lambda_GU` compares to `lambda_max^2` or `Gamma_min^2`. Exact invariant coefficient remains blocked by the `II_s` Hessian on `S^4`. | `explorations/cross-program-lambda-coefficient-2026-06-23.md` |
+
+A sixth, narrow VZ follow-up was produced by the brief scheduled run before it was stopped and was retained: `explorations/vz1-schur-vertical-extension-2026-06-23.md`. It closes the horizontal-covector vertical one-form extension: vertical one-forms do not modify the horizontal Schur complement under the horizontal gamma-trace RS projection. The remaining VZ target is now the mixed-covector/full-14D-gamma-trace case.
+
+**Automation added.** Local hourly automation was created under `automation/`:
+
+- `automation/hourly-frontier-prompt.md`
+- `automation/gui-automation-pointer-prompt.md`
+- `automation/run-hourly-frontier.ps1`
+- Windows Scheduled Task: `GU Formalization Hourly Frontier Dispatch`
+
+The task runs hourly starting 2026-06-23 02:00 local time. It uses the first working local CLI runner it can resolve. A GUI-compatible pointer prompt is also available for Codex app automations that can schedule a prompt directly. In this session, the Codex WindowsApps executable was present but not executable from PowerShell (`Access is denied`); the script therefore supports overriding the runner with `GU_FRONTIER_RUNNER` or bypassing the shell runner by pasting `automation/gui-automation-pointer-prompt.md` into a GUI hourly automation.
+
+---
+
+### hc1-sl2c (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Performed the explicit Bianchi-map spinor computation DT = R wedge e in SL(2,C) language to derive the representation labels of H^(1), H^(2), H^(3). H^(2) and H^(3) confirmed as (1/2,1/2)_vector and (1/2,1/2)_axial (matching the reconstruction-grade labels in the parent HC1 file). H^(1) refined from the parent's "(1,1)_antisym, ~9 dim" to (3/2,1/2)+(1/2,3/2), 16-dimensional -- the correct label follows the SL(2,C) content of the source torsion T^(1), not the curvature antisymmetric irreducible. Open Q1 from parent HC1 resolved: GU's distortion theta decomposes into the same T^(1,2,3) irreducibles as standard torsion under SO(1,3); IG-equivariance produces different coupling coefficients and dynamics (D_A*theta=0 vs. Einstein-Cartan) but not new irreducible types. Remaining gap: CAS/peer-review verification of the H^(1) spinor label; explicit coupling coefficients of theta in the T^(i) basis from the II_s coordinate formula.
+File: `explorations/hc1-sl2c-bianchi-spinor-2026-06-23.md`
+
+---
+
+### sc1-shiab-domain (2026-06-23)
+Verdict: RESOLVED
+The domain and codomain of the shiab operator are confirmed as `Phi: Omega^2(Y^14) tensor S -> Omega^1(Y^14) tensor S` in the (9,5) split-signature setting (Cl(9,5) ~= M(64,H), S = H^64), with the explicit Clifford-contraction formula `Phi(alpha tensor s) = sum_a e^a tensor c(iota_{e_a} alpha).s` verified as Spin(9,5)-equivariant and non-vanishing. A systematic check of Harvey (_Spinors and Calibrations_) and Lawson-Michelsohn (_Spin Geometry_) finds that both provide the algebraic infrastructure but neither names this specific map; the closest existing object is the formal codifferential `d_A*` (same type signature, different formula), confirming the shiab is new as a Clifford-contraction operator in split-signature. Residual open questions are uniqueness of the equivariant map and ellipticity in null-cone directions; neither blocks the domain/codomain conclusion.
+File: `explorations/sc1-shiab-domain-codomain-2026-06-23.md`
+
+### discrete-series (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Replaced the incoherent ordinary L2-kernel target `dim_H ker_L2(D_fib) = 24` on `GL(4,R)/O(3,1)` with the precise analytic invariant: the relative-discrete-series Plancherel multiplicity `m_H(S(6,4))` in `L2(SL(4,R) x_{SO_0(3,1)} S(6,4))`. Key finding: the Flensted-Jensen equal-rank condition is satisfied (split-rank of `SL(4,R)/SO_0(3,1)` is `min(3,1) = 1` = rank of compact fiber `SO(4)/SO(3) = S^3`), so relative discrete series exist and the invariant is well-defined and coherent. The prior pessimistic rank reading (3 != 1) used the wrong rank definition. Remaining open: branching rules for the non-standard 9-dimensional isotropy embedding of `Spin(3,1)` into `Spin(6,4)`, and the explicit value `m_H(S(6,4)) = 24?`
+File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`

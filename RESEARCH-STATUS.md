@@ -2,7 +2,7 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-22"
+updated_at: "2026-06-23"
 ---
 
 # Research Status
@@ -54,6 +54,19 @@ An exploration can move toward canon only when it has:
 ## Current Caution
 
 The observer-finality crosswalk is useful only as a test layer. It should not be cited as GU canon or as a way to evade no-go theorems. Its near-term value is the bounded signed-readout record-graph test in `explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`.
+
+## 2026-06-23 Parallel Frontier Pass
+
+Five bounded frontier notes were added by the manual parallel pass. One additional VZ follow-up note from the brief scheduled run was retained because it closes a narrow vertical-sector subcase. All are exploration-grade; no canon or active-research promotion is implied.
+
+| document | status | content |
+|---|---|---|
+| `explorations/vz1-schur-complement-symbol-2026-06-23.md` | exploration | Confirms RS/non-RS off-diagonal coupling in the local rolled-up principal-symbol model. The 14D horizontal spin-3/2 sector is not a closed standalone subsystem under stated assumptions. Full VZ evasion remains open; the first unresolved piece after this note was the vertical-sector extension below. |
+| `explorations/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation for horizontal covectors by including vertical one-form inputs. Verdict: vertical one-forms do not change the horizontal Schur complement under the horizontal gamma-trace RS projection. Mixed 14D covectors and the full 14D gamma-trace RS definition remain open. |
+| `explorations/ii-s-coordinate-formula-2026-06-23.md` | exploration | Supplies explicit gimmel Christoffels and the graph-section formula for `II_s`. OQ-2 is locally closed at formula level, but the physical convention must be chosen: literal graph immersion versus horizontal-normalized pullback/reference subtraction. |
+| `explorations/codazzi-sp64-bundle-2026-06-23.md` | exploration | Formulates Gauss-Codazzi-Ricci for the tautological section and Sp(64) associated bundle. Names the exact residuals: normal-flux correction `K(A,s)` and Einstein failure tensor `R_fail`. |
+| `explorations/discrete-series-fiber-dirac-index-2026-06-23.md` | exploration | Finds that `dim_H ker_L2(D_fib)=24` is not coherent as an ordinary finite homogeneous-fiber kernel statement on `GL(4,R)/O(3,1)`. The generation-count analytic target must be replaced by a compactified, quotient, equivariant-index, or relative-discrete-series multiplicity problem. |
+| `explorations/cross-program-lambda-coefficient-2026-06-23.md` | exploration | Corrects the cross-program comparison: GU `Lambda` has rate-squared units, so it should be compared with `lambda_max^2` or `Gamma_min^2`, not raw TaF rates. The invariant coefficient remains blocked on the `II_s` Hessian on `S^4`. |
 
 ## 2026-06-22 Additions (Positive GU Constructions Lane)
 
