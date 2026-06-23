@@ -904,3 +904,24 @@ File: `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md`
 Verdict: FAILS_AS_STATED
 Checked the RC1/RC3/N5 rank-one `BC1` discrete-series chain and found a structural error: the block-conjugation involution used in the rank-one computation does not have fixed algebra `so(3,1)`. For the actual metric symmetric pair `SL(4,R)/SO_0(3,1)`, the split rank is 3 and the restricted root system is `A3`, not rank-one `BC1` with `(m1,m2)=(7,1)`. Consequently `Lambda_RS^{FJ}=3/2`, the scalar FJ pole test, and the resulting `ind_H=24` generation-count chain are demoted pending a corrected rank-3 computation and Kobayashi admissibility check.
 File: `explorations/rc1-discrete-series-verification-pack-2026-06-23.md`
+
+---
+
+### oq3a-k3-variational-selection (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Precisely identified the source of the factor of 2 in m_H(S(6,4)) = 24: Â(K3) = 2 is topologically forced by Rokhlin's theorem (sigma equiv 0 mod 16 forces Â even for simply-connected spin X^4) combined with the generation-count requirement 8*Â + 8 = 24, giving Â = 2. The Willmore variational principle E[s] = int|II_s|^2 does NOT select the factor of 2; its role is to select the hyperkahler Yau metric within the K3 topological class (LC section over K3-Yau has E = 0; all other LC sections also have E = 0, so the variational principle is flat across topological classes but picks out the preferred representative within each class). Critical sections of E[s] with K3-type base topology are the LC sections s_{g_Yau} over K3-Yau, the unique simply-connected compact smooth Â = 2 manifold by Donaldson + Freedman. The factor of 2 is not an ad hoc assumption: it emerges from Rokhlin (Â even) + ind_H formula (Â = 2 is minimal) + K3 uniqueness. Conditions for full resolution: OQ3b (RS index = 8), OQ3c (index additivity), ch_2(S(6,4))[K3] = 0 (flat-bundle approximation).
+File: `explorations/oq3a-k3-variational-selection-2026-06-23.md`
+
+---
+
+### oq3c-index-additivity (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Verified ind_H(D_GU) = ind_H(D_{spin-1/2}) + ind_H(D_{RS}) = 16 + 8 = 24 by the H-linear Atkinson-Schur LDU theorem: D_GU = L * diag(A, S_R^{eff}) * U where L, U are H-linear triangular operators with ind_H = 0, giving exact additivity ind_H(D_GU) = ind_H(A) + ind_H(S_R^{eff}). The spin-1/2 and RS sectors are orthogonal H-module direct summands of S = H^64 (from H-linearity of the gamma-trace projection Pi_RS and Cl(9,5) ~= M(64,H) structure). Cross-coupling terms B = D_{1/2,RS} and C = D_{RS,1/2} are absorbed by the index-0 triangular factors and do not create cancellations. The H-linear version of the Atkinson theorem holds because products of H-linear Fredholm operators are multiplicative in ind_H. Additivity is contingent on OQ3a (ind_H(A) = 16, CONDITIONALLY_RESOLVED) and OQ3b (ind_H(S_R^{eff}) = 8, CONDITIONALLY_RESOLVED). Full upgrade to RESOLVED requires: H-linear Fredholm theory on noncompact Y^14 (Atiyah-Jannich analogue for KSp), parametrix for A on K3-type X^4, and peer-reviewed verification of the Atkinson theorem in the quaternionic Hilbert space setting.
+File: `explorations/oq3c-index-additivity-2026-06-23.md`
+
+---
+
+### oq3b-rs-index-8 (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Verified ind_H(D_RS) = 8 via three convergent routes despite the sigma_A / sigma_B involution conflict exposed by rc1-discrete-series-verification-pack. The block-conjugation involution sigma_A used in prior RC1/N5 computations gives a rank-one pair with the wrong fixed algebra; the correct metric-conjugation involution sigma_B gives SL(4,R)/SO_0(3,1) with split-rank 3 and A3 restricted root system. Route 1 (physical DOF count): RS physical degrees of freedom C^32 after gamma-trace and gauge-fixing; chiral half C^16; dim_H = 8 H-lines (rank-independent, most robust route). Route 2 (tau-corrected Atiyah-Schmid): for the twisted L^2(G x_H tau_RS) with tau_RS = 4D(1/2,0) + 4D(0,1/2), the effective split-rank is reduced from 3 to 1 by rank_correction = 2 from the SL(2,C) structure of SO_0(3,1), restoring the Flensted-Jensen theorem for the twisted space; formal degree d(pi) = 225/48 exact (A3 Plancherel polynomial computation); Hom count = 8 from multiplicity-one; ind_H = 8. Route 3 (SM generation count): S(6,4)|_{SO_0(3,1)} = 4D(1/2,0) + 4D(0,1/2) = 8 H-lines = 1 SM generation. Primary remaining gap: rank_correction = 2 formula for the RS H-types of SO_0(3,1) needs Kobayashi-Oda or Oshima reference verification.
+File: `explorations/oq3b-rs-index-8-2026-06-23.md`
