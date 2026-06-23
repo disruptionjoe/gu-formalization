@@ -9,7 +9,7 @@ superseded_by: what-geometric-unity-needs-to-do-next-v2.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
-> **This report has advanced significantly.** Since this version was written, formal analysis has (1) confirmed signature (9,5) for Y¹⁴, (2) proved the shiab operator exists without complexification, (3) shown the anomaly pincer dissolves under Sp(64), (4) resolved the IG dimension matching question, and (5) confirmed SM branching gives exactly 16 Weyl fermions per generation. Both of Nguyen's core objections are now fully closed. **The current version is [v4](what-geometric-unity-needs-to-do-next-v4.md).** This file is preserved as v1 for reference.
+> **This report has advanced significantly.** Since this version was written, formal analysis has (1) confirmed signature (9,5) for Y¹⁴, (2) proved the shiab operator exists without complexification, (3) shown the anomaly pincer dissolves under Sp(64), (4) resolved the IG dimension matching question, and (5) confirmed SM branching gives exactly 16 Weyl fermions per generation. Both of Nguyen's core objections are now fully closed. **The current version is [v5](what-geometric-unity-needs-to-do-next-v5.md).** This file is preserved as v1 for reference.
 
 # What Geometric Unity Needs to Do Next
 
