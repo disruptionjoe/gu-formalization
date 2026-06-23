@@ -2,7 +2,7 @@
 title: "No-Go / Forgetful-Image Map"
 status: canon
 doc_type: canon
-updated_at: "2026-06-22"
+updated_at: "2026-06-23"
 ---
 
 # No-Go / Forgetful-Image Map
@@ -23,7 +23,7 @@ One-line per theorem. Full rows below.
 
 | theorem | class fixed | strongest evasion class in literature | candidate richer datum | candidate forgetful operation | analogy strength | open stress |
 | --- | --- | --- | --- | --- | --- | --- |
-| Witten 1981 | smooth compact internal geometry, trivial gauge background | orbifolds, boundaries, branes, fluxes, singularities (Hořava-Witten, Acharya-Witten, Dobrescu-Pontón, Randjbar-Daemi-Salam-Strathdee) | singular / orbifold / brane-localized chirality data, or higher-categorical bundle | smoothing functor: `(singular X, brane/flux data) ↦ (smooth shadow X', trivial-bg)` | strong (well-documented class exits) | non-geometric exits (stochastic/observer/causal-set) are not in established literature |
+| Witten 1981 | smooth compact internal geometry, trivial gauge background | orbifolds, boundaries, branes, fluxes, singularities (Hořava-Witten, Acharya-Witten, Dobrescu-Pontón, Randjbar-Daemi-Salam-Strathdee) | singular / orbifold / brane-localized chirality data, or higher-categorical bundle; **additionally (GU-specific, 2026-06-23): Met(X⁴) = Y¹⁴ non-compact fiber datum** — violates assumption (1) via non-compact fiber GL(4,ℝ)/O(3,1), chirality from discrete-series harmonic analysis (CONDITIONALLY_RESOLVED) | smoothing functor = **Riemannian-reduction functor** `ϕ_Riemann ∘ ϕ_geom`: `ϕ_Riemann` sets distortion `θ = A − Γ` to zero, projecting out all Ehresmannian structure; image is smooth manifolds with Levi-Civita data (the Witten class) | strong (well-documented class exits); GU-specific Met(X) entry at reconstruction grade | non-geometric exits (stochastic/observer/causal-set) are not in established literature; GU discrete-series count OQ3a–c open |
 | Nielsen-Ninomiya | local Hermitian translation-invariant lattice fermion w/ exact on-site U(1)_V and U(1)_A | domain walls, GW/overlap (modified symmetry realization), bosonized/Villain 2d, partial PEPS chirality | bulk+boundary anomaly-inflow object, or modified-chiral-symmetry algebra, or QCA flavoring | locality-and-on-site-symmetry functor: `(d+1)-bulk+defect anomaly object ↦ d-dim local on-site lattice` | strong for the modified-symmetry and bulk-evasion framing; 3+1d local chiral gauge regularization still open | distributed-systems / protocol-model evasion has no published bridge yet (cf. internal origin artifact / sibling #27) |
 | Freed-Hopkins | reflection-positive invertible extended functorial QFT, fixed symmetry type, valid low-energy EFT | symmetry extension + topological-order boundary (Wang-Wen-Witten); allowing non-invertible boundary; mixed/crystalline symmetry (Debray) | enriched bordism category — e.g. observer-pairing, QRF, crystalline mixed-symmetry, average symmetry | underlying-bordism functor: enriched bordism category ↦ ordinary symmetry-type bordism input | medium — symmetry / boundary / spatial extensions are real and accepted; observer-pairing enrichment is not in the literature (open program) | Córdova-Ohmori-Shao obstruction + Kapustin-Sopenko persistence: anomaly often re-appears at a deeper level even after class change |
 | Distler-Garibaldi | single real form of E8, low-spin (V_{m,n}=0 for m+n>4), SL(2,C) × G centralizer, V_{2,1} complex G-rep | E8 × E8 heterotic (Braun-He-Ovrut-Pantev; Anderson et al.), GraviGUT SO(3,11) (Nesti-Percacci), beyond-finite-dim K(E10) (Meissner-Nicolai) | richer infinite-dim / bundle-with-flux / product-group / Kac-Moody-quotient object | "single-finite-E8-adjoint" functor: richer compactification/Kac-Moody ↦ V_{m,n} adjoint of one real E8 | **outlier — stress case**: every successful "evasion" leaves the class entirely; no loophole inside single-E8 representation theory | smooth-bundle-shadow framing has the weakest analogical purchase here; this is where the unified frame is most original and most vulnerable |
@@ -56,6 +56,16 @@ Successful published evasions are uniformly **geometric** class exits. No publis
 
 **Candidate richer substrate datum.** A singular / orbifold / brane-stratified geometric object, or a higher-categorical bundle with anomaly-inflow data attached at singular strata. Specifically: a *stratified geometric substrate* `(X̃, S, B)` where `X̃` is a singular variety, `S ⊂ X̃` is the singular stratum, and `B` is gauge/flux/brane data on the stratification. The chirality content is carried by the data at `S` (zero modes localized on defects).
 
+**[Met(X) = Y¹⁴ non-compact fiber entry, 2026-06-23 — pc3-riemannian-ehresmannian-annotation]**
+
+Additional GU-specific candidate: the metric bundle
+
+```
+(Y¹⁴, π, Met(X⁴), s : X⁴ → Y¹⁴, S = ℍ⁶⁴, D_GU)
+```
+
+where `Y¹⁴ = Met(X⁴)` is the bundle of Lorentzian metrics on a 4-manifold `X⁴` with fiber `GL(4,ℝ)/O(3,1)` (non-compact; homotopy type `ℝP³ × ℝ⁺`). This datum violates Witten's assumption (1) via **non-compact fiber** rather than via orbifold singularities or branes. The chirality mechanism is discrete-series harmonic analysis on the non-compact fiber (Atiyah-Schmid `L²` theory), not anomaly inflow from boundary/brane. The generation count candidate is `m_H(S(6,4)) = 24` (CONDITIONALLY_RESOLVED, `explorations/n5-discrete-series-gl4r-2026-06-23.md`; gates on OQ3a–c). The forgetful operation that maps this substrate to the Witten class is `ϕ_Riemann : (Y¹⁴, A) ↦ (X⁴, Γ_{g_s})` — it collapses the metric bundle to its base, replaces the general Sp(64) connection by the Levi-Civita connection of the chosen section `g_s = s*(𝔾)`, and discards the non-compact fiber. Status: GU-specific, reconstruction grade; analogy-strength will be upgraded from reconstruction to strong if OQ3a–c are resolved.
+
 **Candidate forgetful operation.** The *smoothing functor*
 
 ```
@@ -64,7 +74,17 @@ Successful published evasions are uniformly **geometric** class exits. No publis
 
 that resolves singularities, deletes boundary/brane data, and trivializes gauge background. The Witten 1981 class is the image of this functor. The theorem is the statement that on the image of `ϕ_smooth` the 4d Dirac index vanishes.
 
-**What gets lost in the smooth-bundle shadow.** Net chirality data localized on `S`; anomaly-inflow contributions from boundary components; the topological class of the gauge background. The relation-side (a smooth 4d effective spacetime) survives; the mechanism (where chirality enters) does not.
+**[Riemannian-Ehresmannian annotation, 2026-06-23 — pc3-riemannian-ehresmannian-annotation]**
+
+`ϕ_smooth` decomposes as `ϕ_smooth = ϕ_Riemann ∘ ϕ_geom`, where `ϕ_Riemann` is the *Riemannian-reduction functor*:
+
+```
+ϕ_Riemann : (M, A) ↦ (M, Γ_M)
+```
+
+that replaces a general Ehresmann connection `A` by the unique Levi-Civita connection `Γ_M` compatible with the metric `g_M`. In GU language, `ϕ_Riemann` sets the distortion `θ = A − Γ` to zero, projecting out all Ehresmannian data and retaining only the Riemannian piece. The three irreducible SO(1,3) torsion pieces `T^{(1)}, T^{(2)}, T^{(3)}` encoded in `θ` — which source the three hidden curvature components `H^{(1)}, H^{(2)}, H^{(3)}` (established in `explorations/hc1-sl2c-bianchi-spinor-2026-06-23.md`) — are deleted by `ϕ_Riemann`. The mechanism by which Ehresmannian data could source chirality (e.g., via torsion-activated curvature on a non-compact fiber) is exactly what `ϕ_Riemann` forgets. Analogy: Einstein's Ricci contraction (Riemannian curvature of `Γ`) is to Yang-Mills curvature of `A` as the Riemannian class is to the Ehresmannian class; Witten fixes the Riemannian class.
+
+**What gets lost in the smooth-bundle shadow.** Net chirality data localized on `S`; anomaly-inflow contributions from boundary components; the topological class of the gauge background; and (under the Riemannian-Ehresmannian framing) the Ehresmannian residual `θ = A − Γ` and the torsion-activated hidden curvature `H^{(1,2,3)}`. The relation-side (a smooth 4d effective spacetime) survives; the mechanism (where chirality enters) does not.
 
 **Analogy strength.** Strong. Every cited evasion fits this template by naming what `B` or `S` is. The forgetful-image frame is essentially the standard reading of the published evasion literature for Witten.
 
@@ -336,7 +356,7 @@ Per `literature/03` and I11: in all four families, successful published evasions
 
 | theorem | added structure that works | shadow operation that loses it |
 | --- | --- | --- |
-| Witten | boundary, orbifold, brane, flux, singularity | smoothing |
+| Witten | boundary, orbifold, brane, flux, singularity; GU-specific: non-compact fiber Met(X⁴) + discrete-series harmonic analysis + Ehresmannian distortion θ | Riemannian-reduction functor ϕ_Riemann (sets θ = 0, collapses fiber to base, retains Levi-Civita only) |
 | Nielsen-Ninomiya | (d+1)-bulk, modified symmetry algebra | demand on-site exact symmetry |
 | Freed-Hopkins | topological-order boundary, symmetry extension, mixed spatial | demand invertible boundary / standard symmetry type |
 | Distler-Garibaldi | product group, bundle, Kac-Moody extension | demand single finite-dim E8 adjoint |

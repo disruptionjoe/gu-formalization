@@ -736,3 +736,66 @@ File: `explorations/signed-readout-oq2-integer-index-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Verified that the root multiplicity m=9 used in the RC3 c-function formula arises from a BC_1 restricted root system on SL(4,R)/SO_0(3,1) with (m_1, m_2) = (7, 1): dimension counting gives m_1+m_2 = dim(G/K)-rank = 9-1 = 8, and the unique eigenvalue-2 generator E_{14} under ad(diag(1,0,0,-1)) identifies m_2 = 1, giving m_1 = 7. The effective multiplicity m = m_1+2*m_2 = 9 is algebraically exact (not an approximation): rho = m_1/2+m_2 = 9/2 from the BC_1 half-sum formula equals the A_1 approximation m/2 = 9/2. The long root (m_2=1) is confirmed by the matching of half-integer poles nu_n=(2n+1)/2 (from the Gamma(i lambda R_s+1/2) factor in the c-function) to the RC3 discrete eigenvalues {20,18,14,8}/R_s^2; integer poles (m_2=0) would give a non-matching spectrum. OQ-RC3-1 closed; remaining upgrade gate is CAS explicit Iwasawa root-space dimension verification.
 File: `explorations/rc3-root-multiplicity-bc1-2026-06-23.md`
+
+---
+
+### sc1-oq3-gauge-equivariance (2026-06-23)
+Verdict: RESOLVED
+Proved that the Clifford-contraction shiab Phi intertwines with the adjoint Sp(64) gauge action: Phi(Ad(g).omega, rho(g).psi) = rho(g).Phi(omega, psi) for all g in Sp(64). The proof uses the Lie functor identity rho_*(Ad(g)X) = rho(g) rho_*(X) rho(g)^{-1} applied to the ad P-valued 2-form input (alpha in Omega^2(Y^14, ad P)); the gauge-invariance of the orthonormal frame {e^a} (vertical gauge transformations do not act on base-manifold geometry) and the commutativity of the interior product iota_{e_a} with Ad on the Lie-algebra index complete the argument. Remaining open: OQ3-A (full bundle-theoretic formulation), OQ1 (uniqueness of Phi as equivariant map), OQ2-c (null-mode physical interpretation). The result confirms that D_GU = d_A + d_A* + Phi is gauge-covariant as a whole, making the index ind_H(D_GU) = 24 gauge-invariant.
+File: `explorations/sc1-oq3-gauge-equivariance-2026-06-23.md`
+
+---
+
+### signed-readout-oq2d-gu-contact (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Discharged all three OQ2-D sub-conditions. (a) Explicit G_R^{GU} constructed: 24 nodes in a bipartite structure (16 spin-1/2 + 8 RS), no causal edges, weight lambda(v) = 1 for all v; monotone (R_- = 0) and Z-valued (R = 24 in N_0). (b) T^{GU} = A(Y^14, Sp(64)) is connected and contractible (Sp(64) is connected so the affine gauge-field space is contractible; pi_0 = pi_1(BSp(64)) = 0); F4 resolved. (c) Atiyah-Schmid multiplicities are globally A-independent (the Flensted-Jensen discrete spectrum of L^2(SL(4,R)/SO_0(3,1), S(6,4)) is determined by symmetric-space geometry, not gauge field). Topological protection via Atiyah-Jannich in non-compact L^2 setting is reconstruction-grade. Remaining: RV-OQ2D-1 (CAS Flensted-Jensen Plancherel check), RV-OQ2D-2 (explicit Atiyah-Jannich reference for non-compact L^2), F1/F2/F3/F6 cascade from main discrete-series open conditions.
+File: `explorations/signed-readout-oq2d-gu-contact-2026-06-23.md`
+
+---
+
+### signed-readout-oq2a-k-theory-lift (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Formulated the Atiyah-Janich theorem for the family {D_x} of H-linear GU Dirac operators parametrized by observer states x in a compact space X: the family defines a class ind({D_x}) = [ker D_x] - [coker D_x] in KSp^0(X) = KO^4(X), not K^0(X) or KO^0(X), because the quaternionic structure S = H^{64} and H-linearity of D_x force the symplectic K-theory classification. The PN/Jordan split from OQ2 lifts to the Grothendieck decomposition in KSp^0(X); the GU monotone case (R_- = 0) gives an actual quaternionic bundle [ker D_x] of H-rank 24 (the "generation bundle" over observer state space), with integer 24 recovered as the augmentation eps: KSp^0(X) -> Z. Six explicit failure conditions stated. What remains: verification that Fred_H(L^2(Y^14, H^64)) classifies KSp^0(X) with non-compact Y^14; explicit computation of K-tilde-Sp^0 of the GU moduli to determine if the generation bundle is trivial or twisted; and OQ2-D's explicit G_R^{GU} record-graph construction.
+File: `explorations/signed-readout-oq2a-k-theory-lift-2026-06-23.md`
+
+---
+
+### cpa1-oq2-gimmel-hessian-direct (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Direct computation of delta^2 E[s] from the explicit gimmel Christoffel symbols on Met(S^4_R), without using the SO(5) Casimir shortcut. Result: lambda_2 = 8/R^2 traces entirely to the HHH Christoffel block (LC connection of g_s), decomposing as 4/R^2 (rough Laplacian) + 4/R^2 (Weitzenboeck curvature correction from the Riemann tensor of S^4_R acting on TT modes); the HHV algebraic slice block contributes zero at s_0 via vanishing O'Neill A- and T-tensors. Key structural finding: the Simons-type curvature correction that was previously attributed to the Y^14 fiber bundle structure is actually the Lichnerowicz Weitzenboeck term from the intrinsic curvature of the base S^4_R. Remaining: CAS sign-convention verification of the Weitzenboeck coefficient (OQ1) and explicit GU linearized EOM derivation confirming the Lichnerowicz operator is the correct mass operator (OQ3/F5).
+File: `explorations/cpa1-oq2-gimmel-hessian-direct-2026-06-23.md`
+
+---
+
+### sc1-oq2c-null-mode-interpretation (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Established the physical interpretation of the null-mode sector NM(xi) = ker c(xi) at null xi in Y^14: dim_R NM(xi) = 128 (exact by rank-nullity and c(xi)^2 = 0); Im c(xi) = NM(xi) (nil-Clifford). Null modes split into Class A (physical propagating: SM fermions, gravitons, RS generation modes), Class B (pure Sp(64) gauge), Class C (auxiliary/constrained), with the physical Hilbert space being H^*(xi) = ker c(xi)/Im c(xi). The VZ evasion mechanism is restated in null-mode language: RS null modes are confined to the null cone because c(xi) is invertible at all spacelike xi (no RS null modes there); the Clifford identity c(xi)^2 = g_Y(xi,xi) Id is simultaneously the engine of null-mode confinement and VZ evasion. The generation count link is established at reconstruction grade: L2-normalizable fiber null modes at fiber null covectors correspond to Flensted-Jensen discrete series of SL(4,R), giving ind_H = 24. SC1-OQ2 block is now fully CONDITIONALLY_RESOLVED (OQ2-a RESOLVED, OQ2-b CONDITIONALLY_RESOLVED, OQ2-c this file). Remaining open: explicit RS null-mode dimension count, Sp(64) gauge-orbit intersection, formal fiber-null-mode/discrete-series identification.
+File: `explorations/sc1-oq2c-null-mode-interpretation-2026-06-23.md`
+
+---
+
+### pc3-riemannian-ehresmannian-annotation (2026-06-23)
+Verdict: RESOLVED
+Annotated the no-go map Witten entry (canon/no-go-class-relative-map.md §2.1) with two sharpening additions. First, the smoothing functor phi_smooth is decomposed as phi_Riemann ∘ phi_geom, where phi_Riemann is the Riemannian-reduction functor that sets the distortion theta = A - Gamma to zero, projecting out all Ehresmannian structure (torsion pieces T^(1,2,3), hidden curvature H^(1,2,3)) and retaining only Levi-Civita data; Witten's class is the image of this functor. Second, the metric bundle Met(X^4) = Y^14 with non-compact fiber GL(4,R)/O(3,1) is added as a new 'candidate richer substrate datum' entry in the Witten row, violating assumption (1) via non-compact fiber rather than orbifold/brane, with chirality sourced by discrete-series harmonic analysis (m_H(S(6,4)) = 24, CONDITIONALLY_RESOLVED). Both annotations and the acceptance summary table were updated; no new derivation was required. Remaining: OQ3a-c of the discrete-series program gate the Met(X) entry from reconstruction to verified.
+File: `explorations/pc3-riemannian-ehresmannian-annotation-2026-06-23.md`
+
+---
+
+### ic2-cas-clifford-trace-verification (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Proved the Clifford trace identity Tr_S(c(u)c(v)) = 256 g_Y(u,v) in S = H^64 at reconstruction grade by three methods: (1) direct algebraic computation (diagonal from c_A^2 = eta_{AA} Id; off-diagonal by showing c_A(c_Ac_B)c_A^{-1} = -(c_Ac_B) forces Tr = 0 by cyclicity); (2) Schur + Spin(9,5)-invariance argument (unique invariant bilinear on R^{9,5} is g_Y, normalization 256 from diagonal); (3) dimension count (dim_R S = 256). The IC2 Gram matrix formula B_fund|_{Im(j_s)} = 512 h follows directly. Gauge-mode elimination confirmed at reconstruction grade: the 4 negative-signature modes (3 vector h_{0i} + 1 dilaton after trace-reversal) are KK gauge degrees of freedom eliminated by the KK diffeomorphism subgroup and conformal U(1) subgroup of Sp(64); the 5 physical TT graviton modes carry B_fund = 512 Id_5 > 0. IC2 structural proof is now complete; remaining gap is a CAS matrix computation (Tr in explicit 64x64 quaternionic representation) to upgrade to verified.
+File: `explorations/ic2-cas-clifford-trace-verification-2026-06-23.md`
+
+---
+
+### fr4-cadence-delta-second-example (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Filled the second six-axis worked example required by the observer-finality sub-protocol promotion condition in `observer-finality-layer.md`. The candidate (example-CALM-D) uses CALM-monotonic L4 (distributed-systems / database eventual-consistency lattice partial order) and smooth-bundle L1 (Y^14 = Met(X^4), gimmel metric, Sp(64)), satisfying the non-Sorkin-L4 and non-Type-II_1-L1 constraints. The cadence field Delta catches a CALM-premature-commitment error: a late join t with I(s join t) != I(s) arrives after the finalization deadline Delta, producing a wrong chirality record at arbitrarily low update rate. Three structural proofs show the failure mode is (a) not reachable under value-stability gating, (b) not captured by the CALM L4 lattice order alone, and (c) formally distinct from example-02-D's Sorkin late-past-event failure (different mathematical objects: CALM lattice-join value-stability predicate vs. Sorkin DAG past-cone completeness predicate). The two-example promotion condition for the cadence sub-protocol field is now discharged. Remaining open: RC1 (CALM stability of GU chirality invariant -- whether m_H(S(6,4)) is lattice-stable for partial metric sections); RC2 (formal CALM vs. Sorkin non-collapse proof); RC3 (CALM update stream formalization for Y^14). No GU structural theorem depends on Delta; rate-independence finding stands.
+File: `explorations/fr4-cadence-delta-second-example-2026-06-23.md`
+
+---
+
+### sc1-oq1-shiab-uniqueness (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Characterized the full space of Spin(9,5)-equivariant H-linear maps Phi: Lambda^2(R^{9,5}) tensor H^{64} -> Lambda^1(R^{9,5}) tensor H^{64} via Schur's lemma and the Clifford-module structure of S = H^{64}. Main result: dim_H Hom_{Spin(9,5),H} = 2 (H oplus H), generated by Phi^+ (Lambda^2 tensor Sigma^+ -> Lambda^1 tensor Sigma^-) and Phi^- (Lambda^2 tensor Sigma^- -> Lambda^1 tensor Sigma^+); wrong-chirality blocks vanish by Schur applied to the form sector (Lambda^1 and Lambda^2 are non-isomorphic irreducibles of SO(9,5)); the unique common D_7-summand is Delta^+ identified via the Clifford-filtration argument. Phi is NOT unique as a Spin(9,5)-equivariant map (two independent chiral scalings), but IS unique up to overall H-scalar as an O(9,5)-equivariant map: parity invariance forces Phi^+ = Phi^-, collapsing H oplus H to the diagonal H. Physical implication: GU shiab is canonically selected by O(9,5)-invariance; H-scalar ambiguity is a normalization convention; ind_H(D_GU) = 24 is unaffected. Gates for RESOLVED: CAS D_7 Clebsch-Gordan check (OQ1-A); inner/outer automorphism determination for so(9,5) (OQ1-B).
+File: `explorations/sc1-oq1-shiab-uniqueness-2026-06-23.md`
