@@ -1,0 +1,8 @@
+﻿{
+    "exit_code":  1,
+    "finished_at":  "2026-06-23T00:59:05.3086895-05:00",
+    "started_at":  "2026-06-23T00:58:05.0482271-05:00",
+    "error":  "Runner timed out after 1 minutes.",
+    "runner":  "auto",
+    "run_id":  "20260623-005805"
+}

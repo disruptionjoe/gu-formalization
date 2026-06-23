@@ -1,0 +1,8 @@
+﻿The property 'ArgumentList' cannot be found on this object. Verify that the property exists.
+At C:\Users\joe\JB\Github Repos\gu-formalization\automation\run-hourly-frontier.ps1:117 char:13
++             $psi.ArgumentList.Add($arg)
++             ~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [], PropertyNotFoundException
+    + FullyQualifiedErrorId : PropertyNotFoundStrict
+ 
+
