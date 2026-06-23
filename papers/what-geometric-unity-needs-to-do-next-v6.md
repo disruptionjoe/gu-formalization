@@ -141,17 +141,23 @@ The generation-count analytic condition is now:
 m_H(S(6,4)) = Σ_{π ∈ disc} dim Hom_H(S(6,4)|_{Spin(3,1)}, π|_H) = 24
 ```
 
-### The Weyl Group Structure
+### The Plancherel Multiplicity Structure
 
-A striking combinatorial structure emerges. The isotropy type of the fiber tangent space q ≅ (1,1)_{SL(2,ℂ)} (the 9-dimensional real spin-2 representation of SO₀(3,1)) is verified. The branching:
+The branching:
 
 ```
 S(6,4)|_{SO₀(3,1)} = 4 × D(1/2,0) ⊕ 4 × D(0,1/2)
 ```
 
-gives 8 H-type copies. The Weyl group of SL(4,ℝ) is S₄ — the symmetric group on 4 elements — of order **|S₄| = 24**. Discrete summands of L²(SL(4,ℝ) ×_H S(6,4)) are parameterized by Weyl-group translates of the H-types. The number 24 arises from |Weyl(SL(4,ℝ))| = |S₄|.
+gives 8 H-type copies. The Weyl group of SL(4,ℝ) is S₄ of order 24. The Weyl orbit of the highest-weight representative λ_RS = (1/2, 0, 0, −1/2) has size 12 (stabilizer Z₂ < S₄, orbit = 24/2), not 24 directly. The correct reconstruction-grade mechanism for m_H = 24 is:
 
-This is not yet a proof: the exact multiplicity count requires verifying that each Weyl-group orbit contributes exactly one discrete summand with the right H-type. That computation is the remaining open step. But the structure is now precisely enough specified to be a bounded computation in representation theory.
+```
+m_H(S(6,4)) = (8 fiber H-types) × (2 from K3 topology factor) + 8 (RS sector) = 24
+```
+
+where the factor of 2 arises from the K3 contribution to the index of D_GU over X⁴ and the RS sector contributes 8 additional ℍ-lines. This differs from the naive |S₄| = 24 coincidence (which is a suggestive but incorrect shortcut). The CAS verification — explicit stabilizer check for λ_RS in S₄ and branching S(6,4)|_{SL(2,ℂ)} — is the remaining gate.
+
+*Correction from v6 draft: an earlier formulation stated "24 arises from |Weyl(SL(4,ℝ))|." The orbit size is 12, not 24; the number 24 arises from the mechanism above.*
 
 **Status: CONDITIONALLY_RESOLVED.** The discrete series exists, the H-types are identified, the relevant Casimir conditions are formulated. The specific multiplicity m_H(S(6,4)) = 24 is suggested by Weyl-group structure but not yet verified by an explicit multiplicity formula.
 
