@@ -652,3 +652,24 @@ File: `explorations/fr2-bvn-layer5-promotion-gate-2026-06-23.md`
 Verdict: CONDITIONALLY_RESOLVED
 Computed the Codazzi correction delta_k_i^{Cod} to the GU hidden-curvature coupling coefficients k_i^{GU} = 512 * P^(i) using the explicit Codazzi equation [CodEq-Explicit] from ii-s-moving-frames and the pc2-gauss-y14-curvature tangential projection. The correction is additive and dynamical: delta_k_1^{Cod} couples to the Weyl tensor of g_s; delta_k_2^{Cod} to the traceless Ricci; delta_k_3^{Cod} to the scalar curvature. The 512 kinematic normalization (j_s Clifford-trace factor from Cl(9,5)) is NOT shifted by the Codazzi correction. On the GU-selected K3-type Ricci-flat X^4, delta_k_2 = delta_k_3 = 0 exactly, and the HC-master formula for H^(2) and H^(3) is exact at reconstruction grade; only H^(1) receives a Weyl-curvature correction. The ambient curvature source is structurally the same H-H-V Christoffel derivative that gives the CPA-1 Simons +4K correction, confirming HC1/CPA-1 consistency. Remaining: CAS verification of ambient curvature formula, K3 Weyl correction magnitude, O(theta^2) cross-coupling.
 File: `explorations/hc1-codazzi-correction-2026-06-23.md`
+
+---
+
+### rc3-delta-n-spectrum (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Computed the explicit spectrum of the normal Laplacian Delta_N on GL(4,R)/O(3,1) fibers via two independent methods: (1) homotopy approximation GL(4,R)/O(3,1) ~= RP^3 gives lowest nonzero eigenvalue l=2 on S^3/Z_2 at lambda = 8/R_s^2; (2) rank-1 symmetric space Casimir with root multiplicity m=9 and rho = 9/(2 R_s) gives four discrete eigenvalues {8, 14, 18, 20}/R_s^2, with lowest at 8/R_s^2. Both methods agree on M_KK = 2 sqrt(2)/R_s. RS sector mass m_RS^2 = 11/R_s^2 (with SO(1,3) Casimir correction +3/R_s^2 for spin-3/2); spin-1/2 mass m_{1/2}^2 = 8/R_s^2; ratio sqrt(11/8) ~= 1.17. Both sectors confirmed at the same KK mass scale. Primary remaining gate: CAS verification that restricted root multiplicity m=9 for GL(4,R)/O(3,1) (OQ-RC3-1).
+File: `explorations/rc3-delta-n-spectrum-gl4r-2026-06-23.md`
+
+---
+
+### signed-readout-monotonicity (2026-06-23)
+Verdict: RESOLVED
+Proved the signed-readout monotonicity criterion as a complete iff theorem: R: E -> G is monotone in the information order iff every generator weight w(x) is in the positive cone G_+ of G (where E is the free commutative monoid on local events and G is an ordered abelian group). Discharged all five PN/Jordan factorization obligations (PJ1-PJ5): existence of the minimal Jordan-Hahn split, monotonicity of each component, non-monotonicity of the composite, identification of the provenance/readout layer split, and minimality. Instantiated for the GW axial charge. Six explicit falsification conditions stated. Open: record-graph test (OQ1), integer-index recovery (OQ2), non-lattice-G case (OQ3).
+File: `explorations/signed-readout-monotonicity-pn-jordan-2026-06-23.md`
+
+---
+
+### fr2-bvn-gate-ii (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Discharged BvN promotion gate (ii): exhibited a GU structural result whose truth value changes when Gamma falls below Gamma_min = ln(1/epsilon)/t_obs. The result is D_A*theta = 0 (GU dark energy / distortion condition): this classical field equation is WELL-POSED above Gamma_min (observer certifies a definite classical section, theta = A - Gamma_LC is a definite classical field) and ILL-POSED below Gamma_min (section is quantum-indefinite, A is not a definite classical connection, distortion equation lacks classical inputs). The mechanism is the Tikhonov-Willmore section-selection step (Lambda ~ epsilon_sec^2/t_obs^2): section selection requires classicality certification, which requires Gamma >= Gamma_min (from FR2). Corollary anomaly input: the classical n_L - n_R = 0 conclusion (Sp(64) index theorem on classical section) changes scope from classical to quantum-mixed below Gamma_min; the algebraic pseudoreality input J^2 = -1 is fiber-by-fiber unchanged but the classical index conclusion requires a definite classical section. Corollary signed-readout: scope condition (applicability) gates on Gamma >= Gamma_min; rate-independence of monotonicity criterion is unchanged. Main falsification: if GU section selection is purely classical (no observer), Gamma sensitivity disappears. Remaining promotion gate: one filled six-axis example with L1-L2 Gamma_min coupling as load-bearing constraint.
+File: `explorations/fr2-bvn-gate-ii-gu-result-2026-06-23.md`
