@@ -564,7 +564,28 @@ File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 
 ---
 
+### rfail-umbilic (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Full R_fail analysis for totally umbilic critical sections of E[s] = int|II_s|^2 in vacuum using the Codazzi and Gauss equations. Result: R_fail^{TF} = 0 at reconstruction grade — Q^{TF}(B) = 0 (exact, from umbilic condition), K(A,s) = 0 (exact, tautological connection on maximally symmetric background), [G^Y_T]^{TF} = 0 (maximal-symmetry argument), [E^Psi]^{TF} = 0 (vacuum gauge Psi = 0). The trace equation fixes Lambda = 3|phi|^2 - (3/7)R^Y_T + C_Psi, providing a geometric determination of the cosmological constant. No new structural obstruction identified; the single remaining gap is the explicit CAS computation of the gimmel Riemann tensor tangential projection (the same ambient curvature gate already flagged in the CPA-1 chain). The vacuum/umbilic subcase of the Einstein equation emergence closes without needing IC2-IC4 closure.
+File: `explorations/rfail-umbilic-sections-2026-06-23.md`
+
+---
+
 ### vz-schur (2026-06-23) — F6 EFT decoupling analysis (§19)
 Verdict: CONDITIONALLY_RESOLVED
 Addressed F6 (EFT decoupling of the RS sector at low energies): whether the 4D effective RS characteristic cone argument (VERIFIED in §18) survives the KK mass-gap condition. Key structural results: (1) The horizontal Clifford element `c_s(eta) = eta_a gamma^a_H` commutes with the KK mode projector `P_{(0)}`, so the KK zero mode sub-bundle `E_s^{(0)}` inherits the Clifford module identity `sigma^2 = g_s(eta,eta) Id`, and the §8 kernel argument applies verbatim to the EFT. (2) The B and C off-diagonal coupling blocks are O(1) algebraic functions of `eta` in the zero-mode sector -- they are not suppressed by powers of `1/M_KK`. (3) Even in the limit where `B E^{-1} C` is small (deep IR, `|eta| << m_{1/2}`), the RS-RS diagonal block `A(eta)` is itself causal: `A S_R = xi2 Id_R` (exact from block identity (II)-(III)), so no spacelike characteristics arise from approximate decoupling. (4) The gamma-trace constraint `Gamma^{4D} psi = 0` is intrinsic to the Clifford module structure of `D_GU^{4D}`, not an external subsidiary condition -- so the classical VZ constraint-propagation inconsistency mechanism cannot fire. Remaining open: KK zero mode existence (requires discrete-series spectrum computation); loop corrections to B/C blocks (no dynamical computation performed). The 4D EFT RS characteristic cone argument survives the KK mass-gap condition at reconstruction grade.
 File: `explorations/vz-schur-complement-2026-06-23.md`
+
+---
+
+### vz-f5-curvature (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Performed the 4D integrated synthesis check: do lower-order curvature terms in the curved Sp(64) bundle (Weyl tensor of g_Y, Riemann tensor of g_s, Sp(64) gauge curvature F_A, second fundamental form II_s, hidden curvature pieces H^(i)) reintroduce VZ acausality after the principal-symbol evasion? Result: No, at reconstruction grade. Three-level argument: (1) All curvature sources are zero-order operators in Psi after 4D section pullback (confirmed via Gauss formula, Shiab formula, OQ3-V1 zero-anomalous-normal-direction result); (2) Classical VZ lower-order mechanism structurally inapplicable -- RS constraint is domain-defining at 4D (not an externally imposed subsidiary condition), so no subsidiary-condition differentiation generates first-order curvature terms; (3) Hormander real-principal-type propagation of singularities theorem guarantees null-cone propagation regardless of subprincipal symbol content. The II_s subprincipal contribution may have real eigenvalues in (3,1) signature (an amplitude stability question), but this does not constitute spacelike propagation. The new 4D-specific curvature ingredients (II_s and H^(i)) are verified as zero-order and are addressed explicitly for the first time in this file. Remaining: CAS verification of subprincipal eigenvalue spectrum for K3-type section; explicit Y^{14} curvature computation for ambient correction step.
+File: `explorations/vz-f5-curvature-check-2026-06-23.md`
+
+---
+
+### plancherel-mult (2026-06-23)
+Verdict: CONDITIONALLY_RESOLVED
+Computed the W(A_3)=S_4 orbit of lambda_RS=(1/2,0,0,-1/2): size 12 (stabilizer Z_2, unique dominant representative (1/2,0,0,-1/2)), with explicit enumeration of all 12 permutations of {1/2,0,0,-1/2}. Verified that each of the 8 H-types (4xD(1/2,0) + 4xD(0,1/2)) in S(6,4)|_{SO_0(3,1)} contributes exactly one discrete SL(4,R)-representation via Flensted-Jensen multiplicity-one (AF3, split-rank-1), giving m_H^{fiber}=8; combined with K3-type Â=2 and RS index=8 gives total m_H=8*2+8=24. Clarified that the coincidence |W(A_3)|=24=m_H is arithmetic (24=3x8) and the physical mechanism is the 2+1 generation split, not the Weyl orbit count. Remaining: CAS branching check (OQ2), OQ3a K3 variational selection, AF4 RS gauge-fixing.
+File: `explorations/n5-plancherel-multiplicity-2026-06-23.md`
