@@ -6,7 +6,7 @@ export const meta = {
     { title: 'Batch-A', detail: 'First parallel batch: independent computations (~3 items)' },
     { title: 'Batch-B', detail: 'Second parallel batch: may use Batch-A context (~3-4 items)' },
     { title: 'Batch-C', detail: 'Third parallel batch: synthesis, canon, cross-program (~2-3 items)' },
-    { title: 'Adversarial', detail: 'Skeptical structured review of all new outputs for errors and overreach' },
+    { title: 'Adversarial', detail: 'Single efficient adversarial pass applying 10 review lenses: 5 mathematical + 5 process' },
     { title: 'Fix', detail: 'Address critical and moderate issues found by adversarial check' },
     { title: 'Log', detail: 'Prepend run summary + patterns to process/loop-adversarial-log.md' },
     { title: 'Self-Improve', detail: 'Read log patterns, make 1-2 targeted calibration edits to this workflow' },
@@ -253,56 +253,145 @@ for (let i = 0; i < plan.batches.length; i++) {
 const totalRuns = batchResults.flat().filter(Boolean).length
 const totalItems = plan.batches.reduce((sum, b) => sum + b.items.length, 0)
 
-// ── Phase 5: Adversarial check ───────────────────────────────────────────────
+// ── Phase 5: Adversarial check — one pass, 10 review lenses ─────────────────
 
 phase('Adversarial')
 
+const MATH_LENSES = [
+  {
+    key: 'verdict-strength',
+    name: 'Verdict-Strength Auditor',
+    focus: `Your ONLY job: check whether each verdict label matches actual proof strength.
+RESOLVED = complete proof, no gaps, no reconstruction-grade steps, no "one can show", no "need to recheck".
+CONDITIONALLY_RESOLVED = partial proof with at least 3 specific named failure conditions.
+If any file says RESOLVED but contains ANY reconstruction-grade step, flag it critical.
+If a CONDITIONALLY_RESOLVED has fewer than 3 specific falsifiable failure conditions, flag it moderate.`
+  },
+  {
+    key: 'assumption-hunter',
+    name: 'Hidden Assumption Hunter',
+    focus: `Assume every file contains at least one hidden or unstated assumption. Find them.
+Hunt specifically for: "by analogy", "similarly", "one can show", "it follows that", "standard result", "clearly", "obviously", "it is known that".
+Each such phrase is a candidate assumption. Check whether it is actually justified in the file.
+Flag as critical if the assumption is load-bearing for the verdict. Flag as moderate if peripheral.`
+  },
+  {
+    key: 'math-errors',
+    name: 'Mathematical Error Detector',
+    focus: `Check for computational and algebraic errors. Every explicit number or formula is a candidate.
+Verify: group ranks, Clifford algebra types (M(n,R) vs M(n,C) vs M(n,H)), spinor module dimensions,
+Â-hat genera, index values, cohomology groups, signature arithmetic.
+Known facts to check against: Cl(9,5) ≅ M(64,H), spinor dim_R=256; Sp(64) dim=8256; K3 Â=2, ind_H=24; T^4 Â=0, ind_H=8.
+Flag any number or formula that contradicts established facts as critical.`
+  },
+  {
+    key: 'failure-conditions',
+    name: 'Failure Condition Enforcer',
+    focus: `CONDITIONALLY_RESOLVED requires at least 3 specific, falsifiable failure conditions.
+A valid failure condition names a specific mathematical statement that would falsify the result
+(e.g., "if Â(K3) ≠ 2, the index count fails").
+INVALID failure conditions: "if the construction fails", "if assumptions break down", "if further work shows otherwise".
+Count the failure conditions in each CONDITIONALLY_RESOLVED file. Flag fewer than 3 as moderate.
+Flag vague failure conditions as critical.`
+  },
+  {
+    key: 'canon-integrity',
+    name: 'Canon Integrity Checker',
+    focus: `Read all files in the canon/ directory. Check three things:
+(a) Cross-file contradictions: do any two canon files make incompatible claims about the same object?
+(b) Premature promotions: does each canon file meet ALL 5 promotion criteria (scope statement, proof/falsification target, explicit assumptions, known failure modes, no internal artifact dependency)?
+(c) RESOLVED with reconstruction-grade assumptions: any RESOLVED canon file containing a reconstruction-grade assumption must be downgraded to CONDITIONALLY_RESOLVED.
+Be especially suspicious of files promoted today — same-session promotion is a high-risk pattern.`
+  },
+]
+
+const PROCESS_LENSES = [
+  {
+    key: 'same-session-circularity',
+    name: 'Same-Session Circularity Detector',
+    focus: `Find cases where a flag or problem is raised and then "resolved" within the same session.
+Check file dates in frontmatter. If file A (dated today) raises a concern, and file B (also dated today) resolves it, that is critical same-session circularity — regardless of how many files are between them.
+File separation does NOT constitute inter-session verification. Being a "separate file" is not a valid defense.
+Pay extra attention to vz-*, h3-*, and generation-count files — these areas have repeated circularity history.`
+  },
+  {
+    key: 'verdict-inflation',
+    name: 'Verdict Inflation Detector',
+    focus: `Find cases where CONDITIONALLY_RESOLVED was assigned when multiple undismissed hypotheses exist.
+When two or more candidates are both plausible and neither has been formally dismissed by derivation,
+the verdict must be OPEN — not CONDITIONALLY_RESOLVED with one candidate selected as "baseline".
+Look for: "Candidate A" or "baseline" language selecting one undismissed option.
+Look for: generation count files claiming CONDITIONALLY_RESOLVED when rank_H is still uncomputed.
+Flag as critical: any CONDITIONALLY_RESOLVED where the body admits both candidates are undismissed.`
+  },
+  {
+    key: 'tracking-adherence',
+    name: 'Tracking File Auditor',
+    focus: `Check whether tracking files reflect today's work.
+For each new exploration file today: is there a corresponding DERIVATION-PROGRESS.md entry with the ### label (DATE) header?
+Is NEXT-STEPS.md updated with a status note for each worked item?
+Is RESEARCH-STATUS.md updated if any item changed status?
+Missing tracking updates are moderate issues. Stale or contradictory status entries are critical.`
+  },
+  {
+    key: 'scope-creep',
+    name: 'Scope Creep and Contradiction Detector',
+    focus: `Find files that claim closure but open unnamed sub-problems, or contradict the files they synthesize.
+Look for: a file that says problem X is "closed" but the body shows X depends on unresolved Y and Z.
+Look for: a synthesis file whose conclusion contradicts the individual files it synthesizes.
+Look for: files that start scoped to one problem but drift into claiming results about a different problem mid-derivation.
+Flag as moderate: scope expansion without acknowledgment. Flag as critical: synthesis contradiction.`
+  },
+  {
+    key: 'methodology',
+    name: 'Research Methodology Auditor',
+    focus: `Audit HOW conclusions were reached, not just what they claim.
+Check: Are proofs by analogy rather than derivation? Are results asserted without derivation steps?
+Does a file cite a sister file produced today as external verification? (Same-session, so it cannot be.)
+Are literature references used correctly and not selectively quoted to support a conclusion?
+Does the file's conclusion actually follow from its stated premises?
+Flag as critical: conclusion that does not follow from premises. Flag as moderate: proof by analogy without derivation.`
+  },
+]
+
+const ALL_LENSES = [...MATH_LENSES, ...PROCESS_LENSES]
+
+const SHARED_PREAMBLE = `Working directory: ${REPO}
+Date: ${DATE}
+
+You are one adversarial reviewer applying 10 distinct review lenses.
+Read the changed files once, then run the lenses as separate mental passes over the same evidence.
+The goal is broader perspective without multiplying token use.
+
+Start by running: git diff --name-only HEAD
+This lists files changed in this session. Read each changed file once, keeping short notes by file.
+Then apply all 10 lenses below to those notes and reopen individual files only when a lens needs exact text.`
+
 const issues = await agent(
-  `ADVERSARIAL REVIEW of new GU formalization outputs produced in this session.
-   Working directory: ${REPO}
-   Date: ${DATE}
+  `ADVERSARIAL REVIEW — single-pass ten-lens check
 
-   You are a skeptical mathematical reviewer. Find errors, overreach, and weaknesses.
+${SHARED_PREAMBLE}
 
-   1. Run: git diff --name-only HEAD (or git status) to identify new/modified files.
-   2. Read each new exploration file and any modified canon or active-research files.
-   3. For each file check:
-      - Does the verdict match the actual strength of the argument?
-        (RESOLVED requires a complete proof; CONDITIONALLY_RESOLVED requires at least 3 named failure conditions)
-      - Are there claims that outrun their proofs?
-      - Are failure conditions explicitly named as specific falsifiable mathematical statements?
-      - Are assumptions stated so another researcher could check them?
-      - Are there contradictions with existing canon?
-      - Are there mathematical errors (wrong ranks, wrong signs, wrong group theory)?
-      - For any canon promotions: do they meet all 5 promotion criteria?
-      - SAME-SESSION SELF-RESOLUTION CHECK (critical): For any item where a flag was raised AND
-        a resolution was provided, check whether both originated in this session (i.e., the flag
-        appears in a file written today and the resolution is also from today). If flag and resolution
-        are both intra-session, the verdict upgrade is BLOCKED — downgrade the verdict to
-        DEFERRED_VERIFICATION and note that external verification or an intervening verified
-        computation is required before upgrading.
-      - UNDISMISSED-CANDIDATE CHECK: If two or more generation-count candidates (or analogous
-        competing hypotheses) are present and neither has been formally dismissed by a derivation,
-        the verdict must be OPEN. CONDITIONALLY_RESOLVED is only valid when one candidate is
-        supported by a derivation and the remaining candidates are explicitly named as failure
-        conditions. Two undismissed guesses do not support CONDITIONALLY_RESOLVED.
-   4. Be harsh. A CONDITIONALLY_RESOLVED that should be OPEN is a real problem.
-      A bad canon promotion damages credibility.
-   5. After reviewing all files, identify session-level patterns:
-      - Did the same type of overreach recur across multiple files?
-      - Was there a systematic gap (e.g., always missing failure conditions for a specific class)?
-      - What should the next run do differently?
+REVIEW LENSES:
+${ALL_LENSES.map((lens, index) => `
+${index + 1}. ${lens.name} (${lens.key})
+${lens.focus}`).join('\n')}
 
-   severity guide:
-   - critical: wrong verdict, mathematical error, or bad canon promotion — must fix
-   - moderate: missing failure condition, overstated claim, incomplete proof — should fix
-   - minor: unclear notation, missing citation — note but skip in fix phase`,
-  { label: 'adversarial', phase: 'Adversarial', schema: ISSUES_SCHEMA }
+Apply every lens, but do not reread the entire repository per lens. Use a single evidence pass,
+then run the lenses as compact persona/checklist passes over that evidence.
+
+severity guide:
+- critical: wrong verdict, mathematical error, bad canon promotion, same-session circularity — must fix
+- moderate: missing failure condition, hidden assumption, tracking gap, scope creep — should fix
+- minor: unclear notation, missing citation — note only
+
+For each issue, include the lens key in the issue id, for example "verdict-strength-01".
+In sessionPatterns, summarize which lenses found the most serious recurring patterns.`,
+  { label: 'adversarial:ten-lens-single-pass', phase: 'Adversarial', schema: ISSUES_SCHEMA }
 )
 
 const actionable = issues.items.filter(i => i.severity === 'critical' || i.severity === 'moderate')
-log(`Adversarial: ${issues.items.length} total issues, ${actionable.length} critical/moderate`)
-log(`Session patterns: ${issues.sessionPatterns.slice(0, 150)}`)
+log(`Adversarial: ten-lens single pass found ${issues.items.length} issues (${actionable.length} critical/moderate)`)
 
 // ── Phase 6: Fix ─────────────────────────────────────────────────────────────
 
