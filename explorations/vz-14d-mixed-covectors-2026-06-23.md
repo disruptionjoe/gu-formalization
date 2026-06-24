@@ -174,7 +174,7 @@ not a determinant identity. Until this is supplied, the proof in Steps 1-4 is va
 CONDITIONALLY on E-invertibility, and the verdict is `CONDITIONALLY_EVADED`, not `EVADED`.
 
 **Consequence for the verdict.** VZ evasion at the 14D mixed-covector level is demoted from
-`EVADED` to `CONDITIONALLY_EVADED`. The 4D section-pullback result (OQ3-V1/V2/V3, VERIFIED)
+`EVADED` to `CONDITIONALLY_EVADED`. The 4D section-pullback result (OQ3-V2/V3 RESOLVED, OQ3-V1 CONDITIONALLY_RESOLVED — constant-coefficient gauge only; 4D leg CONDITIONALLY_RESOLVED)
 and the structural Clifford module non-decoupling argument are unaffected; those arguments
 do not rely on Schur complement block-inversion in Q.
 
@@ -267,11 +267,11 @@ sector (via B and C) cannot be removed at any energy scale -- the coupling is ki
 | OQ3-V1: no anomalous normal terms in `s*(sigma)` | RESOLVED | vz-schur-complement-2026-06-23.md §18.1 |
 | OQ3-V2: 4D E-block invertible (`det = -1/4`) | RESOLVED | vz-schur-complement-2026-06-23.md §18.2 |
 | OQ3-V3: `R_s = ker Gamma^{4D}` identification | RESOLVED | vz-schur-complement-2026-06-23.md §18.3 |
-| 4D section-pullback VZ evasion | VERIFIED | vz-schur-complement-2026-06-23.md §17-18 |
+| 4D section-pullback VZ evasion | CONDITIONALLY_RESOLVED (constant-coefficient gauge; OQ3-V1 open curved-background check) | vz-schur-complement-2026-06-23.md §17-18 |
 | F5: 4D curvature non-reintroduction | CONDITIONALLY_RESOLVED | vz-f5-curvature-check-2026-06-23.md |
 | F6: 4D EFT decoupling (B/C kinematic, loop-exact) | CONDITIONALLY_RESOLVED | vz-f6-eft-decoupling-2026-06-23.md |
 
-**Overall VZ verdict: CONDITIONALLY_EVADED (reconstruction grade) with 4D evasion VERIFIED.**
+**Overall VZ verdict: CONDITIONALLY_EVADED (reconstruction grade) with 4D evasion CONDITIONALLY_RESOLVED (constant-coefficient gauge; OQ3-V1 curved-background frame-splitting check open).**
 
 The E(xi) invertibility precondition has a direct Clifford algebra argument in
 `explorations/vz-e-block-direct-clifford-2026-06-23.md` (2026-06-23, reconstruction grade),
@@ -279,7 +279,7 @@ but this file was produced in the same session loop as the circularity flag (VZ-
 not been externally verified. A same-session reconstruction-grade file does not constitute
 independent closure of a circularity. Status remains CONDITIONALLY_EVADED until external
 verification of the E-block proof. The 4D section-pullback result (OQ3-V1/V2/V3) is
-unaffected and remains VERIFIED.
+unaffected and remains CONDITIONALLY_RESOLVED (constant-coefficient gauge; OQ3-V1 curved-background check open).
 
 ---
 
@@ -332,7 +332,7 @@ requires: (FC1) independent external verification of the 2x2 block kernel argume
 explicit CAS computation confirming the E^{-1} formula; (FC3) confirmation that the
 failure locus is exactly the null cone and no non-null xi produces a zero eigenvalue of E.
 
-The 4D section-pullback result (OQ3-V1/V2/V3, VERIFIED) is unaffected.
+The 4D section-pullback result (OQ3-V2/V3 RESOLVED, OQ3-V1 CONDITIONALLY_RESOLVED — constant-coefficient gauge only) is unaffected.
 
 **Evasion mechanism (structurally intact).** Clifford module non-decoupling: the RS sub-bundle
 is not a sub-Clifford-module of E, so the RS sector is essentially entangled with the spin-1/2

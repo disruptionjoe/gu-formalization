@@ -48,8 +48,11 @@ GU uses the following structures, established in the canon as of 2026-06-23:
 - **Base geometry:** Y^{14} = Met(X^4), a 14-dimensional non-compact bundle over X^4 with
   non-compact fibers GL(4,R)/O(3,1) (homotopy type RP^3 x R^+).
 - **Chirality source:** the Clifford module structure of D_GU, specifically the operator index
-  ind_H(D_GU) = 24 = 3 generations via the Atiyah-Singer theorem on a K3-type X^4 combined
-  with the RS sector physical DOF count (CONDITIONALLY_RESOLVED, reconstruction grade).
+  ind_H(D_GU) (generation count = ind_H(D_GU) / 8) via an index theorem on X^4 combined
+  with the RS sector. The *value* is OPEN pending OQ-RK1: ind_H(D_GU) in {24, 32} (3 or 4
+  generations), Candidate A and Candidate B equistatus (see
+  `explorations/generation-count-rank3-resolution-2026-06-23.md`, verdict OPEN). The carve-out
+  below depends only on *which invariant* carries chirality, not on its numerical value.
 - **Internal symmetry:** Sp(64), which is not E8 or a subgroup of E8 in any natural embedding.
 
 **DG-A1 is violated.** GU's symmetry group is Sp(64), not E8 or a real form of E8. Sp(64)
@@ -180,11 +183,15 @@ Dirac-DeRham operator over Y^{14} = Met(X^4), not the representation complexity 
 bundle (violating DG-A7). GU is not an object of DG_E8. The theorem is inapplicable, not
 contradicted.
 
-The condition GU satisfies instead is GU-Chir: ind_H(D_GU) = 24 (3 generations) from the
-H-linear Atiyah-Singer theorem on Y^{14} with K3-type X^4. This is an operator-analytic
-condition with no Lie-theoretic DG shadow.
+The condition GU satisfies instead is GU-Chir: chirality is carried by the quaternionic
+index ind_H(D_GU) of the H-linear Dirac-DeRham operator on Y^{14} (generation count =
+ind_H(D_GU) / 8). This is an operator-analytic condition with no Lie-theoretic DG shadow.
+The numerical value of the index is OPEN pending OQ-RK1 (ind_H(D_GU) in {24, 32}, 3 or 4
+generations, Candidates A and B equistatus); the scope-exit evasion does NOT depend on it.
 
-The evasion is structural (scope exit), not a trick within DG's domain.
+The evasion is structural (scope exit), not a trick within DG's domain, and is
+index-value-independent: GU exits DG's class via DG-A1/A2/A6/A7 regardless of what
+ind_H(D_GU) ultimately evaluates to.
 
 DG cannot be applied to GU by analogy either: there is no canonical functor from GU's
 construction to DG_E8 that preserves the generation invariant, because ind_H(D_GU) does not
@@ -218,9 +225,19 @@ contradicted or circumvented within its domain.
 
 The condition GU satisfies instead of DG-A6 is:
 
-> **GU-Chir:** ind_H(D_GU) = 24 via the Atiyah-Singer theorem on (Y^{14}, Sp(64), S=H^{64})
-> with K3-type X^4 (Â=2), decomposing as 16 H-lines (spin-1/2, two generations) + 8 H-lines
-> (RS sector, one generation). Generation count = ind_H(D_GU) / 8 = 3.
+> **GU-Chir (chirality *test*, not a settled count):** chirality is carried by the
+> quaternionic Clifford-module index ind_H(D_GU) of the Dirac-DeRham operator on
+> (Y^{14}, Sp(64), S=H^{64}), with generation count = ind_H(D_GU) / 8. The *value* of this
+> index is **OPEN pending OQ-RK1**: ind_H(D_GU) in {24, 32} (3 or 4 generations). The two
+> candidates are equistatus per `explorations/generation-count-rank3-resolution-2026-06-23.md`
+> (verdict OPEN): **Candidate A** (rank_H(S_RS^+) = 4 -> ind_H(D_RS) = 8 -> ind_H(D_GU) = 24
+> -> 3 generations) and **Candidate B** (rank_H(S_RS^+) = 8 -> ind_H(D_RS) = 16 ->
+> ind_H(D_GU) = 32 -> 4 generations) are neither derived nor eliminated; OQ-RK1 (the M(64,H)
+> CAS computation of the RS gamma-trace projector rank) is the blocking gate. The
+> Candidate-A-conditional decomposition is 16 H-lines (spin-1/2, two generations) + 8 H-lines
+> (RS sector, one generation); under Candidate B the RS leg is 16 H-lines. **Do not cite a
+> single settled value or "3 generations" as established** — the count is the open target of
+> an unfinished index computation.
 
 GU-Chir replaces DG's Lie-algebraic chirality test with an operator-analytic index theorem.
 No functor from GU's construction to DG_E8 is known that preserves ind_H(D_GU), because
@@ -249,19 +266,23 @@ whether GU had a genuine residual obligation.
 After this note:
 - The violated assumptions are named precisely: DG-A1, DG-A2, DG-A6, DG-A7.
 - The evasion type is specified: scope exit (not domain-straddling or condition-satisfying).
-- The condition GU satisfies instead is written: GU-Chir with ind_H(D_GU) = 24.
+- The condition GU satisfies instead is written: GU-Chir (chirality carried by ind_H(D_GU);
+  numerical value OPEN pending OQ-RK1, ind_H(D_GU) in {24, 32}, Candidates A/B equistatus).
 - The verdict is upgraded from "stress case with open stress" to RESOLVED: no residual
-  DG obligation for GU.
+  DG obligation for GU. This scope-exit verdict is index-value-independent and survives
+  regardless of how the generation-count gate OQ-RK1 resolves.
 - The failure condition for this resolution is explicit: construct F_DG: GU_data -> DG_E8.
 
 ## 9. Remaining Open Questions (Not DG-Related)
 
 The following items are open but are NOT DG residuals:
 
-1. **ind_H(D_GU) = 24 at verified grade.** The CONDITIONALLY_RESOLVED reconstruction-grade
-   count needs OQ3b (RS block Fredholm index = 8 analytically, gated on tau-twisted
-   admissibility or rank-3 Kobayashi framework) and OQ3c (H-index additivity). These are
-   genuine open items in analytic index theory, not DG residuals.
+1. **The numerical value of ind_H(D_GU) (OPEN).** The count is OPEN between Candidate A
+   (ind_H(D_GU) = 24, 3 generations) and Candidate B (ind_H(D_GU) = 32, 4 generations),
+   equistatus per `explorations/generation-count-rank3-resolution-2026-06-23.md`. The
+   blocking gate is OQ-RK1 (M(64,H) CAS computation of the RS gamma-trace projector rank
+   rank_H(S_RS^+); rank 4 -> 24, rank 8 -> 32), with OQ-RK2 (APS boundary conditions on K3)
+   also open. These are genuine open items in analytic index theory, not DG residuals.
 
 2. **The GU-Chir condition itself.** GU-Chir is stated at reconstruction grade. Upgrading it
    to verified requires the RS analytic route or the APS boundary-condition verification on

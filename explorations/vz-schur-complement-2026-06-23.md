@@ -4,11 +4,12 @@ date: 2026-06-23
 problem_label: "vz-schur"
 status: reconstruction
 verdict: EVADED
-oq3_status: VERIFIED
-oq3_v1: RESOLVED
+oq3_status: CONDITIONALLY_RESOLVED
+oq3_v1: CONDITIONALLY_RESOLVED
 oq3_v2: RESOLVED
 oq3_v3: RESOLVED
-vz_4d_status: VERIFIED
+vz_4d_status: CONDITIONALLY_RESOLVED
+oq3_open_upgrade_condition: "OQ3-V1/V2/V3 verified only in constant-coefficient (flat Minkowski) gauge; curved-background frame-splitting check (no anomalous {gamma^a_H, gamma^i_N} mixing computed, not asserted, on a non-flat section) is the open upgrade condition to VERIFIED"
 f6_eft_decoupling: CONDITIONALLY_RESOLVED
 ---
 
@@ -1053,8 +1054,8 @@ higher-spin gravity? This is the P53-NOVEL target from the 62-persona steelman.
 | VZ obstruction absent for full 14D covectors | RECONSTRUCTION | §8 + §11 |
 | `S_R^2 = xi2 Id_{RS}` as matrix identity | RESOLVED (vz-oq1): NOT exact; `A S_R = xi2 Id` is correct | See vz-oq1 file |
 | Lower-order curvature protection | CONDITIONALLY_RESOLVED (vz-oq2, vz-subprincipal) | Zero-order argument + Hormander |
-| Section-pullback 4D RS VZ evasion (OQ3) | **VERIFIED** (§17-18) | §17 structural + §18 V1/V2/V3 explicit |
-| OQ3-V1: No anomalous normal terms in `s*(sigma)` | **RESOLVED** (§18.1) | Explicit horizontal Clifford computation |
+| Section-pullback 4D RS VZ evasion (OQ3) | **CONDITIONALLY_RESOLVED** (§17-18) | §17 structural + §18 V1/V2/V3 in constant-coefficient gauge; curved case asserted |
+| OQ3-V1: No anomalous normal terms in `s*(sigma)` | **CONDITIONALLY_RESOLVED** (§18.1) | Horizontal Clifford computation in flat Minkowski gauge ONLY; curved frame-splitting asserted, not computed |
 | OQ3-V2: 4D E-block invertible for `g_s != 0` | **RESOLVED** (§18.2) | Block determinant + explicit E-matrix (`det = -1/4`) |
 | OQ3-V3: `R_s = ker Gamma^{4D}` | **RESOLVED** (§18.3) | Section pullback on H*/N* split (exact) |
 
@@ -1341,8 +1342,23 @@ characteristic cone equal to the null cone of the induced 4D metric `g_s`. This 
 
 ## 18. OQ3-V1, OQ3-V2, OQ3-V3: Verification Computations (2026-06-23)
 
-This section resolves the three open conditions left at the end of §17, upgrading OQ3 from
-CONDITIONALLY_RESOLVED to VERIFIED and upgrading 4D VZ evasion from reconstruction to verified.
+This section addresses the three open conditions left at the end of §17. OQ3-V2 and OQ3-V3
+are RESOLVED (exact, gauge-independent arguments). OQ3-V1 is CONDITIONALLY_RESOLVED: the
+supporting computation (§18.1) is done ONLY in the constant-coefficient flat Minkowski gauge
+with a flat section `s(x) = (x, eta)`; the curved/general case is asserted pointwise, not
+computed. Therefore OQ3 and 4D VZ evasion remain **CONDITIONALLY_RESOLVED (reconstruction
+grade)**, NOT VERIFIED.
+
+**Downgrade note (correction, 2026-06-23).** An earlier revision of this section claimed to
+upgrade OQ3 from CONDITIONALLY_RESOLVED to VERIFIED and 4D VZ evasion from reconstruction to
+verified. That label was an overstatement: a flat-gauge-only computation plus an asserted
+(uncomputed) curved extension is reconstruction-grade, not VERIFIED, and the `VERIFIED` label
+must not appear for a step that contains an asserted, uncomputed generalization inside a
+`status: reconstruction` file. The open upgrade condition is the **curved-background
+frame-splitting check**: an explicit computation (not a pointwise assertion) on a non-flat
+section that the orthogonal frame splitting `{gamma^a_H, gamma^i_N} = 0` and the horizontal
+Clifford identity `c_s(eta)^2 = g_s(eta,eta) Id_S` receive no anomalous corrections in a
+curved `g_s(x)`.
 
 ---
 
@@ -1414,15 +1430,22 @@ Connection contributions enter the sub-principal symbol but not the principal sy
 is a theorem in the calculus of pseudodifferential operators (see Hormander, Vol. III, §18.1:
 for a first-order PsDO, `sigma_1(D)` is independent of connection data).
 
-**Grade.** VERIFIED at the algebraic-computation level. The explicit matrix identity
-(V1-verified) is an exact computation in the horizontal Clifford frame. The only open
+**Grade.** Verified at the algebraic-computation level *in constant-coefficient gauge only*.
+The explicit matrix identity (V1-verified) is an exact computation in the horizontal Clifford
+frame for the flat section `s(x) = (x, eta)`. The only open
 question is whether there exist non-constant-coefficient backgrounds in which the frame
 splitting `{gamma^a_H, gamma^i_N}` receives anomalous corrections. In the curved (non-flat)
-case, the frame splitting is still valid pointwise (each `T*Y^{14}|_{s(x)}` splits cleanly),
-and the horizontal gamma matrices `gamma^a_H` at each point still satisfy the 4D Clifford
-relation with `g_s(x)`. The argument is pointwise and holds on all sections.
+case, the frame splitting is *expected* to remain valid pointwise (each `T*Y^{14}|_{s(x)}`
+splits cleanly), and the horizontal gamma matrices `gamma^a_H` at each point would still
+satisfy the 4D Clifford relation with `g_s(x)`. **This curved-case extension is asserted
+pointwise, NOT computed.** The explicit computation above (V1-verified) is done only in the
+constant-coefficient flat Minkowski gauge with the flat section `s(x) = (x, eta)`. Whether a
+non-flat section `s` with nonzero second fundamental form receives anomalous corrections to
+the frame splitting `{gamma^a_H, gamma^i_N}` is the open upgrade condition and has not been
+computed here.
 
-**Verdict: OQ3-V1 RESOLVED.**
+**Verdict: OQ3-V1 CONDITIONALLY_RESOLVED.** Verified only in the constant-coefficient gauge;
+the curved-background frame-splitting check is the open condition for upgrade to VERIFIED.
 
 ---
 
@@ -1628,17 +1651,19 @@ No approximation is made.
 
 ---
 
-### 18.4 Combined Result: OQ3 VERIFIED
+### 18.4 Combined Result: OQ3 CONDITIONALLY_RESOLVED
 
-With all three verification conditions resolved:
+With OQ3-V2 and OQ3-V3 resolved exactly and OQ3-V1 resolved only in constant-coefficient gauge:
 
 | Condition | Status | Method |
 |---|---|---|
-| OQ3-V1: No anomalous normal terms in `s*(sigma_{D_GU})` | **RESOLVED** | Explicit horizontal-frame Clifford computation (exact) |
+| OQ3-V1: No anomalous normal terms in `s*(sigma_{D_GU})` | **CONDITIONALLY_RESOLVED** | Horizontal-frame Clifford computation in flat Minkowski gauge ONLY; curved frame-splitting asserted pointwise, not computed |
 | OQ3-V2: 4D E-block invertible for `g_s(eta,eta) != 0` | **RESOLVED** | Block determinant + explicit 4x4 E-matrix (`det = -1/4`) |
 | OQ3-V3: `R_s = ker Gamma^{4D}` | **RESOLVED** | Section pullback on horizontal/vertical split (exact) |
 
-**The 4D VZ evasion theorem (verified grade).**
+**The 4D VZ evasion theorem (reconstruction grade, CONDITIONALLY_RESOLVED).** The theorem
+below is established in the constant-coefficient gauge; its extension to a general curved
+section depends on the open OQ3-V1 curved-background frame-splitting check.
 
 **Theorem.** Let `s: X^4 -> Y^{14}` be a smooth section of the metric bundle `pi: Y^{14} -> X^4`
 corresponding to a Lorentzian metric `g_s` on `X^4`. Let `D_GU^{4D} = s*(D_GU)` be the
@@ -1659,8 +1684,9 @@ ker S_{R_s}^{4D}(eta) = 0.
 **Proof summary.**
 
 (a) From OQ3-V1: the horizontal Clifford identity `c_s(eta)^2 = g_s(eta, eta) Id_{E_s}`
-    computed explicitly in flat-gauge coordinates, and extended to curved `g_s` by pointwise
-    application of the same argument.
+    computed explicitly in flat-gauge coordinates. The extension to curved `g_s` is asserted
+    pointwise, not computed; (a) is therefore established only in constant-coefficient gauge
+    pending the OQ3-V1 curved-background frame-splitting check.
 
 (b) From OQ3-V2: (i) `sigma_{D_GU^{4D}}(eta)` is overall invertible by (a); (ii) the
     Schur determinant formula gives `det E_s = det(sigma_{D_GU^{4D}}) / det S_{R_s}`,
@@ -1675,7 +1701,9 @@ ker S_{R_s}^{4D}(eta) = 0.
     covectors, `sigma_{D_GU^{4D}}(eta)` has a nontrivial kernel by (a)), the characteristic
     cone equals exactly the null cone.
 
-**The VZ obstruction is absent at 4D at the principal-symbol level.**
+**The VZ obstruction is absent at 4D at the principal-symbol level, in constant-coefficient
+gauge.** The general curved-section statement is CONDITIONALLY_RESOLVED pending the OQ3-V1
+curved-background frame-splitting check.
 
 ---
 
@@ -1696,9 +1724,10 @@ The 14D result provides evidence against decoupling at the principal-symbol leve
 B and C blocks), but a mass gap below the KK scale could produce approximate decoupling.
 This is a dynamical question requiring the full spectrum of `D_GU^{4D}`, not resolved here.
 
-**The VZ evasion is verified at 4D at the principal-symbol level.** F5 and F6 are named
-residuals for full dynamical analysis, neither of which affects the characteristic-cone/VZ
-conclusion.
+**The VZ evasion is established at 4D at the principal-symbol level in constant-coefficient
+gauge (CONDITIONALLY_RESOLVED, reconstruction grade).** The open upgrade condition to VERIFIED
+is the OQ3-V1 curved-background frame-splitting check. F5 and F6 are named residuals for full
+dynamical analysis, neither of which affects the characteristic-cone/VZ conclusion.
 
 ---
 
@@ -1706,7 +1735,7 @@ conclusion.
 
 ## 19. F6: EFT Decoupling of the RS Sector at Low Energies (New Computation, 2026-06-23)
 
-**Problem statement.** The 4D VZ evasion (§18, VERIFIED) holds at the principal-symbol level for the full pulled-back operator `D_GU^{4D} = s*(D_GU)`. The open question F6 asks: if there is a KK mass gap `M_KK` separating the lightest 4D RS modes from the lightest spin-1/2 modes, does an effective field theory (EFT) below `M_KK` contain an approximately standalone RS field that would be vulnerable to VZ?
+**Problem statement.** The 4D VZ evasion (§18, CONDITIONALLY_RESOLVED — established in constant-coefficient gauge, curved-background frame-splitting check open) holds at the principal-symbol level for the full pulled-back operator `D_GU^{4D} = s*(D_GU)`. The open question F6 asks: if there is a KK mass gap `M_KK` separating the lightest 4D RS modes from the lightest spin-1/2 modes, does an effective field theory (EFT) below `M_KK` contain an approximately standalone RS field that would be vulnerable to VZ?
 
 This is a dynamical question, distinct from the principal-symbol question. It requires knowing whether the off-diagonal coupling blocks B and C in the Schur complement survive at the EFT level, or whether they degenerate (decouple) below the KK scale.
 
@@ -1758,7 +1787,7 @@ D_GU^{4D} Psi = 0,     Psi in Gamma(E_s).
 
 There is no separate constraint equation. The condition `Gamma^{4D}(Psi_1) = 0` (where `Psi_1` is the 1-form spinor component of `Psi`) is a selection of which components of the solution are counted as RS, not a constraint on the field equation.
 
-**Consequence.** The VZ mechanism (constraint propagation inconsistency) cannot arise because there is no auxiliary constraint to propagate. The field equation for `D_GU^{4D}` is a single equation `D_GU^{4D} Psi = 0`, and its characteristics are given by the principal symbol alone (as computed in §8, VERIFIED in §18).
+**Consequence.** The VZ mechanism (constraint propagation inconsistency) cannot arise because there is no auxiliary constraint to propagate. The field equation for `D_GU^{4D}` is a single equation `D_GU^{4D} Psi = 0`, and its characteristics are given by the principal symbol alone (as computed in §8; established in §18 at CONDITIONALLY_RESOLVED grade, constant-coefficient gauge).
 
 This structural observation is EFT-independent: it does not depend on the KK scale or the truncation to zero modes.
 
@@ -1922,7 +1951,7 @@ Applying `sigma_{D_GU^{EFT}}(eta)` again and using (a): `g_s(eta,eta) (psi_R, ..
 (c) Follows from (b): `det S_{R_s^{(0)}}^{EFT}(eta) = 0` requires `g_s(eta,eta) = 0`. The characteristic cone equals the null cone. (Standard argument)
 
 **Grade.** Reconstruction. The argument is logically complete given:
-- OQ3-V1 (horizontal Clifford identity: VERIFIED), and
+- OQ3-V1 (horizontal Clifford identity: CONDITIONALLY_RESOLVED — verified in constant-coefficient gauge only), and
 - The commutativity `[c_s(eta), P_{(0)}] = 0` (from the horizontal/vertical Clifford algebra split: reconstruction grade, follows from the explicit form of the KK mode projector as an eigenspace of `Delta_N`, which commutes with horizontal gamma matrices).
 
 The gap is the explicit spectral computation: we have not determined the KK zero mode spectrum of `D_GU^{4D}` from first principles. The theorem holds for the structural EFT description (zero modes of whatever the operator's actual spectrum is), but the existence of the zero mode and its mass require the discrete-series computation for final verification.

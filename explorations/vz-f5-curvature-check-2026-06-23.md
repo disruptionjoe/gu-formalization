@@ -16,7 +16,7 @@ verdict: CONDITIONALLY_RESOLVED
 - OQ1 (`S_R^2 != xi^2 Id` clarification, vz-oq1, CONDITIONALLY_RESOLVED),
 - Lower-order curvature at 14D: principal-symbol stability (vz-oq2-lower-order-curvature, CONDITIONALLY_RESOLVED),
 - Subprincipal symbol (vz-subprincipal, CONDITIONALLY_RESOLVED), and
-- 4D section-pullback VZ evasion (vz-schur §17-19, VERIFIED at 4D principal-symbol level),
+- 4D section-pullback VZ evasion (vz-schur §17-19, CONDITIONALLY_RESOLVED at 4D principal-symbol level, constant-coefficient gauge),
 
 this file addresses the final curvature-protection check: F5 in the tracking table.
 
@@ -54,7 +54,7 @@ analysis is required to integrate the curvature sources explicitly.
   satisfies `sigma_{s*(D_GU)}(eta)^2 = g_s(eta,eta) Id_{E_s}` for all horizontal
   covectors `eta in T*X^4`. The §8 kernel argument descends to 4D, giving
   `ker S_{R_s}^{4D}(eta) = 0` for `g_s(eta,eta) != 0`. 4D characteristic cone
-  = null cone of `g_s`. VZ evasion VERIFIED at 4D principal-symbol level.
+  = null cone of `g_s`. VZ evasion CONDITIONALLY_RESOLVED at 4D principal-symbol level (constant-coefficient gauge).
 
 - `vz-oq2-lower-order-curvature-2026-06-23.md`: All 14D curvature contributions
   (Weyl tensor `W_{ABCD}` of `g_Y`, Riemann tensor `R_{ABCD}`, Sp(64) gauge curvature
@@ -459,7 +459,7 @@ the three arguments in §3.5) does not introduce new real characteristics.
 
 ## 4. The F5 Verdict: Does Curvature Reintroduce VZ Acausality?
 
-**Question.** After the principal-symbol VZ evasion (vz-schur §18, VERIFIED at 4D) and
+**Question.** After the principal-symbol VZ evasion (vz-schur §18, CONDITIONALLY_RESOLVED at 4D, constant-coefficient gauge) and
 the subprincipal-symbol analysis (vz-subprincipal, CONDITIONALLY_RESOLVED), do the
 curvature terms (Weyl tensor of g_Y, Riemann tensor of g_s, Sp(64) gauge curvature F_A,
 second fundamental form II_s, hidden pieces H^(i)) reintroduce VZ acausality?

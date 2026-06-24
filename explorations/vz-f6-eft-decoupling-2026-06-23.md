@@ -10,7 +10,7 @@ verdict: CONDITIONALLY_RESOLVED
 
 ## 1. Problem Statement
 
-**What is being computed.** The principal-symbol VZ evasion is VERIFIED at 4D (vz-schur-complement
+**What is being computed.** The principal-symbol VZ evasion is CONDITIONALLY_RESOLVED at 4D (constant-coefficient gauge; vz-schur-complement
 §18, OQ3-V1/V2/V3 resolved). The F5 curvature-protection check is CONDITIONALLY_RESOLVED
 (vz-f5-curvature-check). The remaining open question labeled F6 in the tracking table asks:
 
@@ -642,7 +642,7 @@ all at the same energy. This would be an important structural alignment.
 
 ## 9. References
 
-- `explorations/vz-schur-complement-2026-06-23.md` §18-19 (4D VZ evasion VERIFIED; F6 preliminary)
+- `explorations/vz-schur-complement-2026-06-23.md` §18-19 (4D VZ evasion CONDITIONALLY_RESOLVED, constant-coefficient gauge; F6 preliminary)
 - `explorations/vz-f5-curvature-check-2026-06-23.md` (curvature non-reintroduction CONDITIONALLY_RESOLVED)
 - `explorations/vz-oq1-sr-squared-identity-2026-06-23.md` (S_R^2 != xi^2 Id; B E^{-2} C explicit)
 - `explorations/codazzi-sp64-2026-06-23.md` (Codazzi for Sp(64); normal-bundle curvature R^perp)

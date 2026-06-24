@@ -592,7 +592,7 @@ the Q-block could be larger.
 ## 12. References
 
 - `explorations/vz-14d-mixed-covectors-2026-06-23.md` (parent synthesis; VZ-01 correction; CONDITIONALLY_EVADED verdict being upgraded)
-- `explorations/vz-schur-complement-2026-06-23.md` (E-block derivation §3.3; 4D VERIFIED; OQ3-V1/V2/V3)
+- `explorations/vz-schur-complement-2026-06-23.md` (E-block derivation §3.3; 4D CONDITIONALLY_RESOLVED, constant-coefficient gauge; OQ3-V1 CONDITIONALLY_RESOLVED, V2/V3 RESOLVED)
 - `explorations/vz-oq1-sr-squared-identity-2026-06-23.md` (S_R^2 != xi2 Id; A S_R = xi2 Id)
 - Lawson-Michelsohn, _Spin Geometry_, Ch. I §1-2 (Clifford algebra, `gamma(xi)^2 = g(xi,xi) Id`)
 - Atiyah-Bott-Shapiro, _Clifford Modules_ (1964) (Cl(9,5) = M(64,H) classification)
