@@ -2,7 +2,7 @@
 title: "Time As Finality Crosswalk"
 status: exploration
 doc_type: overview
-updated_at: "2026-06-01"
+updated_at: "2026-06-24"
 ---
 
 # Time As Finality Crosswalk
@@ -35,6 +35,7 @@ Forbidden use:
 - [`observer-finality-layer.md`](observer-finality-layer.md) proposes an exploration-only finality sub-protocol for the six-axis template.
 - [`signed-readout-record-graph-test.md`](signed-readout-record-graph-test.md) gives the best bounded next test.
 - [`ten-persona-dialectic-summary.md`](ten-persona-dialectic-summary.md) records the ten-persona Hegelian synthesis.
+- [`reciprocal-bridge-ten-lens-review-2026-06-24.md`](reciprocal-bridge-ten-lens-review-2026-06-24.md) preserves the later reciprocal review across Temporal Issuance, Time as Finality, and GU, including the filtered-readout next-test target and guardrails against overclaim.
 
 ## Main Test
 
