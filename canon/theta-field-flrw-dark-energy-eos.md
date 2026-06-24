@@ -98,11 +98,22 @@ whether GU predicts w_a < 0 with proper ICs (OQ3-A).
 
 `[reconstruction grade, FLRW-corrected, IC-sensitive sign]`
 
-### Result 4 — Sign and Qualitative Predictions
+### Result 4 — Sign and Qualitative Predictions (OQ3-CORRECTED)
 
-Independent of f_0, GU Candidate D predicts:
-- w_a < 0 (dark energy was more negative in the past, approaching w = -1 from above as the theta field decays). DESI DR1 also finds w_a < 0.
-- Transition redshift z_osc ~ 2: theta begins oscillating when H ~ M_KK. For z > 2 the dark energy is indistinguishable from Lambda-CDM.
+> **SUPERSEDED BY OQ3 CORRECTION (2026-06-23).** The original Result 4 asserted `w_a < 0`
+> and claimed agreement with DESI DR1. That sign was the de Sitter estimate and is RETRACTED.
+> The full FLRW Klein-Gordon integration (theta-field-flrw-matter-era-ode-2026-06-23.md)
+> reverses the sign: the corrected prediction is `w_a > 0` (ratio w_a/(w_0+1) = +1.17),
+> which is INCONSISTENT with DESI's w_a = -0.75 < 0. See Results 2 and 3 and FC5 (OQ3-A).
+
+Independent of f_0, GU Candidate D currently predicts (frozen IC at z=3, IC-sensitive per OQ3-A):
+- w_a > 0 (CORRECTED: was w_a < 0 in the de Sitter estimate; full FLRW integration reverses
+  the sign). This is OPPOSITE to DESI DR1, which finds w_a = -0.75 < 0. Whether the GU sign
+  remains positive under proper slow-roll ICs from z >> z_osc is the open question OQ3-A; if
+  OQ3-A reverses the sign, the +1.17 ratio is not the GU prediction and the DESI comparison
+  must be rerun (see FC5).
+- Transition redshift z_osc ~ 1.85: theta begins oscillating when H ~ M_KK. For z > z_osc the
+  dark energy is indistinguishable from Lambda-CDM.
 - Deviation from w = -1 DECREASES with time (dark energy approaches Lambda-CDM asymptotically as B decays).
 
 ## Assumptions
@@ -125,11 +136,14 @@ Independent of f_0, GU Candidate D predicts:
 
 **F5.** Lambda-CDM confirmed at high precision (|w_0+1| < 0.01, |w_a| < 0.03 at 2-sigma), requiring B_i < 0.21 M_Pl.
 
-**F6.** The ratio w_a/(w_0+1) > -1.0 at 2-sigma. This would contradict the GU Hubble-friction slope prediction of -1.80.
+**F6 (OQ3-CORRECTED).** A measured ratio w_a/(w_0+1) inconsistent with the corrected GU slope
+of +1.17 at 2-sigma falsifies the prediction. (The original F6 cited the de Sitter slope -1.80,
+now RETRACTED by the OQ3 correction; the sign reversal means DESI's own negative ratio ~ -4.3
+already sits on the opposite side of the corrected +1.17 prediction. See Result 3 and FC5.)
 
-**F7.** Full FLRW Klein-Gordon integration (OQ3) yields a phase phi_0 substantially different from 1.94 rad. If phi_0 shifts by O(1), the instantaneous w_B at z = 0 changes by O(1), moving w_0 outside the DESI DR1 window without any adjustment of f_0. This is the primary quantitative threat from THETA-03.
+**F7 (FIRED, OQ3-CORRECTED).** Full FLRW Klein-Gordon integration (OQ3) yielded a phase phi_0 = 0.855 rad, substantially different from the de Sitter estimate of 1.94 rad. This O(1) shift moved the instantaneous w_B at z = 0 and reversed the sign of w_a (ratio -1.80 to +1.17). This failure mode has now fired: the de Sitter phi_0 ~ 1.94 rad and the negative-w_a prediction are RETRACTED. The corrected w_0 still lands inside the DESI DR1 window at f_0 ~ 0.125 (Result 2), but the sign of w_a is now opposite to DESI and remains IC-sensitive (OQ3-A / FC5).
 
-**F8.** The ratio w_a/(w_0+1) is not bounded away from 0 as phi_0 varies. If the full phi_0-scan (required by THETA-01/OQ5) finds that -1.80 is near a node of the ratio function, the DESI comparison is not a robust prediction and Candidate D cannot be distinguished from Lambda-CDM on this observable.
+**F8.** The ratio w_a/(w_0+1) is not bounded away from 0 as phi_0 varies. If the full phi_0-scan (required by THETA-01/OQ5) finds that the corrected +1.17 is near a node of the ratio function, the DESI comparison is not a robust prediction and Candidate D cannot be distinguished from Lambda-CDM on this observable.
 
 **F9.** M_KK = 2*sqrt(2) H_0 is shifted by the A_3 root-system correction (OQ2). If the corrected M_KK places the field in the slow-roll regime (M_KK < 3H_0/2), the entire two-component structure of Result 1 is overturned and Results 2-3 do not apply.
 
@@ -139,25 +153,32 @@ Independent of f_0, GU Candidate D predicts:
 
 **Gap 1:** GU does not yet derive B_i (the initial amplitude) from first principles. The variational principle (Willmore energy E[s]) selects the critical section but does not specify the initial phase or amplitude of normal-bundle perturbations. Without a GU-derivable B_i, the w_0 value is a fit (f_0 = 0.11), not a prediction.
 
-**Gap 2 (THETA-01, 2026-06-23):** The ratio w_a/(w_0+1) ~ -1.80 depends on the initial phase
-phi_0 ~ 1.94 rad, which was estimated from the de Sitter tracker approximation and is not
-derived from first principles. The full phi_0-dependence of the ratio has not been computed;
-it is not known whether -1.80 is a minimum, maximum, or saddle point as phi_0 varies. Until
-this scan is done and OQ3 (matter-era evolution) is computed, the ratio is a conditional
+**Gap 2 (THETA-01, 2026-06-23; OQ3-CORRECTED):** The ratio w_a/(w_0+1) = +1.17 depends on the
+initial phase phi_0 = 0.855 rad from the full FLRW integration (the earlier de Sitter values
+-1.80 and phi_0 ~ 1.94 rad are RETRACTED by the OQ3 correction). The phase is not yet derived
+from first principles, and the full phi_0-dependence of the ratio has not been computed; it is
+not known whether +1.17 is a minimum, maximum, or saddle point as phi_0 varies. The sign of
+w_a is additionally IC-sensitive (8% frozen-vs-slow-roll variation; OQ3-A). Until the phi_0-scan
+is done and OQ3-A (slow-roll ICs from z >> z_osc) is resolved, the ratio is a conditional
 estimate, not a free structural prediction.
 
-The ratio w_a/(w_0+1) ~ -1.80 is the most constrainable quantity from DESI/Euclid, but it
-should be cited as "conditional on phi_0 ~ 1.94 rad" not as "independent of initial conditions."
+The ratio w_a/(w_0+1) = +1.17 is the most constrainable quantity from DESI/Euclid, but it
+should be cited as "conditional on phi_0 = 0.855 rad and frozen IC at z=3 (OQ3-A unresolved)"
+not as "independent of initial conditions."
 
 ## Falsification Condition (Sharpened)
 
-The GU theta-field prediction is falsified if:
+The GU theta-field prediction (OQ3-corrected) is falsified if:
 
 ```
-w_a + 1.80 * (w_0 + 1) significantly differs from 0,
+w_a - 1.17 * (w_0 + 1) significantly differs from 0,
 ```
 
-specifically if |w_a + 1.80 * (w_0 + 1)| > 0.5 at 2-sigma (from future DESI/Euclid data with precision ~0.05 on w_0 and ~0.1 on w_a).
+specifically if |w_a - 1.17 * (w_0 + 1)| > 0.5 at 2-sigma (from future DESI/Euclid data with
+precision ~0.05 on w_0 and ~0.1 on w_a). The coefficient is the OQ3-corrected ratio +1.17
+(de Sitter -1.80 is RETRACTED). Because OQ3-A leaves the sign of w_a IC-sensitive, this
+falsification condition is itself conditional on OQ3-A: if proper slow-roll ICs reverse the
+sign, the coefficient changes and this condition must be restated (see FC5).
 
 ## What This Does Not Establish
 
