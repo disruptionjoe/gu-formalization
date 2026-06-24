@@ -57,7 +57,7 @@ CONDITIONALLY_RESOLVED. Closing OQ2-c:
 - `sc1-oq2b-symmetric-hyperbolic-2026-06-23.md` (CONDITIONALLY_RESOLVED):
   Well-posedness of Cauchy problem; the VZ-evasion mechanism and the energy-estimate
   mechanism are two faces of the same Clifford identity c(xi)^2 = g_Y(xi,xi) Id.
-- `vz-schur-complement-2026-06-23.md` (EVADED / VERIFIED at 4D): ker S_R^{eff}(xi) = 0
+- `vz-schur-complement-2026-06-23.md` (EVADED / CONDITIONALLY_RESOLVED at 4D, constant-coefficient gauge): ker S_R^{eff}(xi) = 0
   for non-null xi; RS sector does not have spacelike characteristics; the RS projection
   is the full 14D gamma trace ker Gamma^{14D}.
 - `vz-oq1-sr-squared-identity-2026-06-23.md` (CONDITIONALLY_RESOLVED): S_R^2 != xi^2 Id
@@ -365,7 +365,7 @@ OUTSIDE the null cone of the background metric -- i.e., when there exist spaceli
 characteristics xi with g(xi,xi) > 0 where the RS symbol is non-invertible. This
 would allow superluminal propagation, making the RS field ill-posed.
 
-From the VZ computation (EVADED, reconstruction; 4D VERIFIED):
+From the VZ computation (EVADED, reconstruction; 4D CONDITIONALLY_RESOLVED, constant-coefficient gauge):
 
   ker D_RS_eff(xi) = ker S_R^{14D}(xi) = {0}    for all xi with g_Y(xi,xi) != 0
 
@@ -496,7 +496,7 @@ The analogy is precise at the level of the nil-Clifford structure. The key diffe
 
 ## 7. The VZ Evasion Mechanism Restated in Null-Mode Language
 
-The VZ evasion (EVADED, 4D VERIFIED) can now be restated in purely null-mode terms:
+The VZ evasion (EVADED, 4D CONDITIONALLY_RESOLVED, constant-coefficient gauge) can now be restated in purely null-mode terms:
 
 **VZ Theorem (classical):** A standalone RS Lagrangian in a non-trivial gauge background
 develops null modes OUTSIDE the null cone of the background metric (spacelike characteristics).
@@ -598,7 +598,7 @@ The CONDITIONALLY_RESOLVED verdict would be falsified or downgraded by:
 **Status of each failure condition:**
 - F1: RULED OUT by rank-nullity theorem and c(xi)^2 = 0 (algebraic, exact).
 - F2: RULED OUT since Im subset ker and equal dimensions force Im = ker (algebraic).
-- F3: RULED OUT at reconstruction grade (vz-schur EVADED; 4D VERIFIED).
+- F3: RULED OUT at reconstruction grade (vz-schur EVADED; 4D CONDITIONALLY_RESOLVED, constant-coefficient gauge).
 - F4: CONDITIONALLY RULED OUT (gauging d.o.f. < total null modes; requires explicit
   Sp(64) orbit computation to verify).
 - F5: OPEN (the identification is stated but not explicitly proved as a theorem).
@@ -695,7 +695,7 @@ And the VZ evasion is understood at the null-mode level: RS null modes are prese
 propagation), which is exactly the condition for physical consistency.
 
 This interpretation is consistent with all prior computations:
-- VZ evasion (VERIFIED at 4D): no RS null modes outside null cone.
+- VZ evasion (CONDITIONALLY_RESOLVED at 4D, constant-coefficient gauge): no RS null modes outside null cone.
 - Generation count (CONDITIONALLY_RESOLVED): 24 fiber null modes = 3 generations.
 - HC1 hidden curvature (CONDITIONALLY_RESOLVED): torsion enters as zero-order in D_GU
   (the zero-order V_s in the energy estimate), not changing the null-mode structure.

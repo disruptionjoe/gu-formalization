@@ -426,7 +426,7 @@ property of the full 14D operator, not of the pullback itself.
 | Total ind_H | 16 + 8 = 24 | CONDITIONALLY_RESOLVED | Both sectors, cross-terms zero |
 | Boundary correction | 0 | EXACT (for closed K3) | K3 has no boundary; no APS eta term needed |
 | Non-transversality failure | Does NOT fire | RESOLVED | ds injective for LC section; OQ3-V1/V2/V3 RESOLVED |
-| Principal-symbol equality | Exact | VERIFIED | c_s(eta)^2 = g_s(eta,eta) Id (algebraic identity) |
+| Principal-symbol equality | Exact in flat horizontal frame | RECONSTRUCTION GRADE (OQ3-V1 CONDITIONALLY_RESOLVED) | c_s(eta)^2 = g_s(eta,eta) Id is an exact Clifford identity in the constant-coefficient flat gauge (vz-schur §18.1); the curved/general-section frame-splitting check is asserted pointwise, not computed — not VERIFIED grade, pending curved-gauge/external confirmation |
 | Zero-order correction | ind_H-neutral | RECONSTRUCTION | Index stability under compact perturbations; II_s^H = 0 at LC |
 
 ---

@@ -1136,7 +1136,7 @@ The answer is:
 
 1. **Ill-posedness would require Char(D_GU) to contain SPACELIKE directions** (xi with
    g_Y(xi,xi) > 0 in the physical convention, or more precisely, the wrong-signature
-   directions). The VZ evasion (VERIFIED at 4D) established that ker S_R^{eff}(xi) = 0
+   directions). The VZ evasion (CONDITIONALLY_RESOLVED at 4D, constant-coefficient gauge) established that ker S_R^{eff}(xi) = 0
    for all spacelike xi, meaning no spacelike characteristics. The only characteristics
    are null.
 
@@ -1292,7 +1292,7 @@ at the speed of light in the metric g_s, and the energy is conserved up to the
 bounded perturbation from the shiab V_s.
 
 This is consistent with:
-- **VZ evasion** (VERIFIED at 4D): no acausal RS propagation
+- **VZ evasion** (CONDITIONALLY_RESOLVED at 4D, constant-coefficient gauge): no acausal RS propagation
 - **Generation count** (CONDITIONALLY_RESOLVED): ind_H = 24 from Atiyah-Schmid L^2
   theory, which applies to Dirac-type operators on globally hyperbolic manifolds
 - **Dark energy** (RESOLVED): D_A*theta = 0 is an on-shell consequence of the

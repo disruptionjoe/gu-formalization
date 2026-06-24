@@ -46,7 +46,7 @@ The question is: which of these structures applies to D_GU as a whole?
 **Established context this builds on:**
 - `explorations/sc1-shiab-domain-codomain-2026-06-23.md` (SC1 RESOLVED): domain/codomain
   Phi: Omega^2 tensor S -> Omega^1 tensor S confirmed; OQ2 explicitly left open there.
-- `explorations/vz-schur-complement-2026-06-23.md` (VZ EVADED, 4D VERIFIED): principal
+- `explorations/vz-schur-complement-2026-06-23.md` (VZ EVADED; 4D CONDITIONALLY_RESOLVED, principal-symbol, constant-coefficient gauge): principal
   symbol S_R^{eff}(xi) has trivial kernel for all xi with g_Y(xi,xi) != 0; characteristic
   cone = null cone.
 - `explorations/vz-subprincipal-symbol-rs-2026-06-23.md` (CONDITIONALLY_RESOLVED):
@@ -505,7 +505,7 @@ The non-ellipticity of D_GU does NOT obstruct this count because:
 
 ## 7. Comparison with the VZ Computation
 
-The VZ evasion computation (EVADED, reconstruction; 4D VERIFIED) established:
+The VZ evasion computation (EVADED, reconstruction; 4D CONDITIONALLY_RESOLVED, constant-coefficient gauge) established:
 
   ker S_R^{14D}(xi) = {0}   for all xi with g_Y(xi,xi) != 0
 
@@ -643,7 +643,7 @@ CONDITIONALLY_RESOLVED.
    by the first-order (Clifford) part of D_GU.
 
 4. The null-cone structure is consistent with the VZ evasion (characteristic cone
-   of the RS effective operator = null cone, VERIFIED at 4D).
+   of the RS effective operator = null cone, CONDITIONALLY_RESOLVED at 4D — constant-coefficient gauge).
 
 5. The generation count (ind_H = 24) is not obstructed by the failure of ellipticity.
    The correct analytic framework is the Atiyah-Schmid L2-theory on the symmetric

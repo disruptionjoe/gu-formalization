@@ -543,7 +543,7 @@ section pullback route, with ind_H(D_GU) = 24.
 
 | Component | Grade | Basis |
 |---|---|---|
-| Clifford pullback transversality | VERIFIED | OQ3-V1/V2/V3 RESOLVED (vz-schur §18) |
+| Clifford pullback transversality | RECONSTRUCTION GRADE (in-file; OQ3-V1 CONDITIONALLY_RESOLVED, V2/V3 RESOLVED) | vz-schur §18: OQ3-V1 verified in constant-coefficient flat gauge only, curved-background frame-splitting check uncomputed; source §18 Downgrade note forbids a bare VERIFIED label. Pending external/curved-gauge confirmation. |
 | hat{A}(K3) = 2 | TOPOLOGICAL FACT | Rokhlin + Hirzebruch; exact |
 | rank_H(S(6,4)) = 8 | ALGEBRAIC FACT | C^16 = H^8 as right-H module |
 | ind_H(spin-1/2 sector) = 16 | CONDITIONALLY_RESOLVED | Atiyah-Singer on K3; gates on K3 topology selection |

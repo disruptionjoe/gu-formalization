@@ -46,7 +46,7 @@ Prior results load-bearing for this computation:
   This is the primary source of difficulty for G2: L^2 on a noncompact fiber need not
   have a gap above zero for D_{fiber}.
 
-- **vz-schur §18 (VERIFIED):** s*(Gamma^{14D})|_{horizontal} = Gamma^{4D} exactly;
+- **vz-schur §18 (CONDITIONALLY_RESOLVED, constant-coefficient gauge; OQ3-V3 exact):** s*(Gamma^{14D})|_{horizontal} = Gamma^{4D} exactly;
   normal RS components = KK scalar fields after section pullback. The H*/N* splitting
   is exact.
 
