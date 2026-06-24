@@ -3,20 +3,45 @@ title: "First-Principles Derivation of rank_H(S_RS^+) = 4 from Cl(9,5) and the R
 date: 2026-06-23
 problem_label: "oq-rk1-rs-rank-first-principles"
 status: reconstruction
-verdict: CONDITIONALLY_RESOLVED
+verdict: OPEN
+verdict_scope: "OPEN for the analytic/Clifford-algebraic derivation of rank_H(S_RS^+) = 4. The intermediate result rank_H(ker Gamma^{14D}|_{S^+}) = 416 is established (exact algebra). The step rank_H(S_RS^+) = rank_H(S(6,4))/2 = 8/2 = 4 is an IDENTITY, not a derivation, and is retracted as a derivation below (see correction note 2026-06-23)."
+established_subresult: "rank_H(ker Gamma^{14D}|_{S^+}) = 448 - 32 = 416 (exact M(64,H) algebra)"
 depends_on:
   - explorations/oq3b-rs-index-closed-2026-06-23.md
   - explorations/oc1-oc2-kernel-count-2026-06-23.md
   - explorations/oc1-oc2-aps-closure-2026-06-23.md
   - explorations/n5-discrete-series-gl4r-2026-06-23.md
   - explorations/sc1-oq2-ellipticity-split-signature-2026-06-23.md
-gates_for_verified:
-  - "CAS: explicit 64x64 matrix computation of rank(Pi_RS * E_+ * Pi_RS) = 4 where E_+ is the positive chiral projector"
+gates_for_resolved:
+  - "An analytic or Clifford-algebraic construction of rank_H(S_RS^+) = 4 that does NOT pass through ind_H(D_RS) = 8 (i.e., does not use the very index it is meant to explain). The current 8/2 = 4 step is circular and is retracted as a derivation."
+  - "CAS: explicit 64x64 matrix computation of rank(Pi_RS * E_+ * Pi_RS) = 4 where E_+ is the positive chiral projector (OQ-RK1 CAS gate; would settle Candidate A vs Candidate B directly)"
+  - "Exclusion of Candidate B (rank_H(S_RS^+) = 8 => 4 generations), which remains live and undismissed"
   - "Peer review of the SO(3,1) x Cl(6,4) branching in Section 4"
   - "Kobayashi-Oda (2023) reference check for tau-correction rank_correction(tau_RS) = 2"
 ---
 
 # First-Principles Derivation of rank_H(S_RS^+) = 4
+
+> **CORRECTION (2026-06-23) — VERDICT DOWNGRADED TO OPEN.**
+> The title claim ("first-principles derivation of rank_H(S_RS^+) = 4") is NOT achieved by this
+> file. The chain below repeatedly fails by direct computation (line ~473: ind_H = 2*96 = 192,
+> not 8; line ~768: 192 again; line ~897: a non-integer 1/2), and then settles on
+> rank_H(S_RS^+) = rank_H(S(6,4))/2 = 8/2 = 4 (Sections 8-10). **That step is an identity, not a
+> derivation:** rank_H(S(6,4)) = 8 is the physical generation H-count, and dividing it by 2 to get
+> 4 and then multiplying by A-hat(K3) = 2 to "recover" ind_H(D_RS) = 8 simply returns the input.
+> The file itself concedes (Section 5.1) that ind_H(D_RS) = 8 comes from physical counting and its
+> derivation from A-hat * rank remains open. The original §13 "the argument is non-circular" claim
+> is therefore WITHDRAWN.
+>
+> **What survives as an established sub-result:** the genuinely algebraic intermediate
+> rank_H(ker Gamma^{14D}|_{S^+}) = 448 - 32 = 416, an exact consequence of Cl(9,5) = M(64,H)
+> (Section 10, Step 2). This is real Clifford algebra but does NOT connect non-circularly to the
+> effective twist rank 4.
+>
+> **Verdict for the rank_H(S_RS^+) = 4 claim: OPEN.** It remains a reconstruction-grade /
+> physical-count candidate (Candidate A), with Candidate B (rank_H = 8) still live. Resolution is
+> gated on the OQ-RK1 CAS matrix computation. This is consistent with the GEN-01 / GEN-03
+> corrections already logged in DERIVATION-PROGRESS.md.
 
 ## 1. Problem Statement and Why It Matters
 
@@ -856,17 +881,23 @@ rank_H(E_RS^{effective}) = rank_H(S_RS^+) = 4
 
 The derivation of this number 4 from Clifford algebra is:
 
-**Theorem (RS rank from Cl(9,5)):**
+**Theorem (RS rank from Cl(9,5)):** [RETRACTED AS A DERIVATION — 2026-06-23. This "theorem"
+is an identity. rank_H(S(6,4)) = 8 IS the physical generation H-count; halving it to 4 and then
+multiplying by A-hat(K3) = 2 to recover ind_H(D_RS) = 8 returns the input. The "factor of 1/2"
+is not derived here — it is exactly the quantity that an independent analytic derivation would
+have to produce. Kept below only to document the failed attempt; it does NOT establish
+rank_H(S_RS^+) = 4.]
 
 The effective H-rank of the RS chiral-positive bundle S_RS^+ in the APS index formula is:
 
 ```
-rank_H(S_RS^+)^{APS effective} = rank_H(S(6,4)) / 2 = 8 / 2 = 4
+rank_H(S_RS^+)^{APS effective} = rank_H(S(6,4)) / 2 = 8 / 2 = 4   [IDENTITY, NOT DERIVATION]
 ```
 
 where the factor of 1/2 comes from the fact that the RS constraint in the 4D sector
 (viewed as acting on the tensor factor S(3,1) with rank_H = 2) removes exactly HALF
-of the content of the fiber bundle.
+of the content of the fiber bundle. [The 1/2 is asserted, not derived: every direct
+computation of it in this file yields 192, 384, or 1/2 instead. See correction banner.]
 
 **More precisely:**
 
@@ -1773,7 +1804,10 @@ the chiral-positive half S^+ = H^{32} of the vector-spinor space T*Y^{14} tensor
 
 The space T*Y^{14} tensor S^+ = R^{14} tensor_R H^{32} has rank_H = 14 * 32 = 448.
 The gamma-trace Gamma^{14D}: H^{448} -> H^{32} is H-linear and surjective.
-rank_H(ker Gamma^{14D}|_{S^+}) = 448 - 32 = 416. [ALGEBRAIC FACT]
+rank_H(ker Gamma^{14D}|_{S^+}) = 448 - 32 = 416. [ALGEBRAIC FACT — THIS IS THE ONE GENUINELY
+NEW, NON-CIRCULAR RESULT OF THIS FILE. It is exact M(64,H) algebra. Note 416 != 4 and does NOT
+reduce to 4 by any derivation given below; the connection from 416 to the effective twist rank 4
+is precisely the OPEN gap.]
 
 **Step 3.** Under the section pullback s: K3 -> Y^{14}, the zero-mode RS sector restricts
 to the 4D horizontal components. The zero-mode RS space (chiral-positive) is:
@@ -1807,11 +1841,17 @@ The RS sector contributes 1 SM generation = 8 H-lines from S(6,4) content.
 In the MONOTONE case (R_- = 0, established), all 8 H-lines appear as positive-chiral zero modes.
 Per A-hat unit of K3: 8 / A-hat(K3) = 8 / 2 = 4 H-lines.
 
-**Therefore: rank_H(S_RS^+) = 4.**
+**Therefore: rank_H(S_RS^+) = 4.** [RETRACTED AS A DERIVATION — 2026-06-23. Step 6 is the
+circular step: the "8" it divides is ind_H(D_RS), the physical generation H-count, and "4" is
+recovered only by dividing by A-hat(K3) = 2. Multiplying back by 2 returns 8 — an identity. This
+does NOT derive 4 from Cl(9,5); it presupposes the index it claims to explain.]
 
-This is the Clifford-algebraic derivation at reconstruction grade. The algebraic steps
-(Steps 1-4) are exact consequences of Cl(9,5) = M(64,H). Step 5 invokes the fiber
-spectral theory (reconstruction grade). Step 6 combines with the SM generation count.
+This is NOT a first-principles derivation. Steps 1-4 are exact consequences of Cl(9,5) = M(64,H)
+and stand on their own (in particular Step 2: rank_H(ker Gamma^{14D}|_{S^+}) = 416). But Step 5
+(fiber spectral theory) is asserted at reconstruction grade, and Step 6 (8 -> 8/2 -> 4) is the
+circular identity flagged above. The chain therefore does not upgrade rank_H(S_RS^+) = 4 beyond
+physical-count grade. The value 4 remains Candidate A, with Candidate B (rank_H = 8) live; both
+are gated on the OQ-RK1 CAS computation.
 
 ---
 
@@ -1829,32 +1869,44 @@ The following would falsify rank_H(S_RS^+) = 4 or invalidate the derivation:
 | FC6 | ind_H(D_RS) != 8 (not monotone, or R_- != 0, or total RS H-count is not 8) | Step 6 fails |
 | FC7 | The APS formula for the RS sector picks up non-trivial Chern class contributions from ch_2(E_RS) | rank_H(S_RS^+) is shifted from 4 |
 | FC8 | Cl(9,5) != M(64,H) (signature error) | All steps built on wrong algebra |
+| FC9 (circularity) | The only route to rank_H(S_RS^+) = 4 in this file is 8/A-hat = 8/2, where 8 = ind_H(D_RS) is itself the physical generation H-count being explained. If no derivation of "4" exists that is independent of ind_H(D_RS) = 8, the claim is not derived | The headline "first-principles derivation" is unsupported; verdict is OPEN, not CONDITIONALLY_RESOLVED. **This FC currently FIRES** |
+| FC10 (Candidate B live) | If the OQ-RK1 CAS computation of rank(Pi_RS * E_+ * Pi_RS) in M(64,H) returns 8 (not 4), then rank_H(S_RS^+) = 8 => 4 generations, not 3 | The selection of Candidate A (rank = 4) over Candidate B (rank = 8) is premature; both are equistatus until OQ-RK1. **Undismissed** |
+| FC11 (416-to-4 gap) | The genuine algebraic result rank_H(ker Gamma^{14D}|_{S^+}) = 416 does not reduce to the effective twist rank 4 by any computation in this file (direct attempts give 192, 384, or non-integer 1/2) | There is no established algebraic bridge from the Clifford-module rank 416 to the index density 4; this bridge is the open problem |
 
-Currently, FC1, FC2, FC8 are algebraically excluded. FC5 is topologically established. FC3, FC4, FC6, FC7 remain at reconstruction grade.
+Currently, FC1, FC2, FC8 are algebraically excluded. FC5 is topologically established. FC3, FC4,
+FC6, FC7 remain at reconstruction grade. **FC9 FIRES** (the rank_H = 4 step is circular as written),
+which is why the verdict is OPEN. FC10 (Candidate B undismissed) and FC11 (no 416->4 bridge) are
+the substantive open gaps; both are gated on the OQ-RK1 CAS computation.
 
 ---
 
 ## 12. What the Derivation Achieves and What Remains
 
-### Achieved at Reconstruction Grade:
+### Achieved (exact algebra — these stand regardless of the OPEN verdict):
 
 1. The chiral structure of Cl(9,5): S = H^{64}, S^pm = H^{32} (exact algebraic).
-2. The RS constraint rank: rank_H(ker Gamma^{14D}|_{S^+}) = 416 (exact algebraic).
+2. The RS constraint rank: rank_H(ker Gamma^{14D}|_{S^+}) = 416 (exact algebraic). **This is the
+   genuine contribution of the file.**
 3. The zero-mode RS rank after section pullback: 96 pre-gauge, 64 post-gauge (exact algebraic).
-4. The factorization of rank_H(S_RS^+) = 4 as:
-   - 8 H-lines (from S(6,4) = H^8, algebraic)
-   - divided by A-hat(K3) = 2 (topological)
-   - in the monotone case R_- = 0 (reconstruction grade from signed-readout).
+4. Explicit computation of the chiral structure of S(9,5) from the (p-q) mod 8 = 4 class.
 
-5. Explicit computation of the chiral structure of S(9,5) from the (p-q) mod 8 = 4 class.
+### NOT Achieved (the OPEN gap — moved here on 2026-06-23 correction):
 
-### What Remains for Verified Grade:
+- **rank_H(S_RS^+) = 4 is NOT derived.** The only route given is the identity
+  rank_H(S_RS^+) = (8 H-lines from S(6,4)) / (A-hat(K3) = 2) = 4, which divides the physical
+  generation count by 2 and so presupposes ind_H(D_RS) = 8. This is circular (FC9). The value 4
+  is a physical-count Candidate A; Candidate B (rank = 8) is undismissed (FC10).
+- No non-circular bridge from the algebraic rank 416 to the effective twist rank 4 exists in this
+  file; direct attempts give 192 / 384 / 1/2 instead (FC11).
+
+### What Remains to Close the OPEN gap:
 
 - A direct CAS computation confirming omega^2 = +1 in the explicit 64x64 quaternionic matrix
   representation of Cl(9,5).
-- A direct CAS computation of rank(Pi_RS * E_+^{14D}) over the 14D Clifford module.
+- A direct CAS computation of rank(Pi_RS * E_+^{14D}) over the 14D Clifford module — this would
+  return 4 or 8 directly and is the decisive, circularity-free test (OQ-RK1).
 - An analytic theorem (not physical count) establishing ind_H(D_RS) = 8 independently of
-  the A-hat/rank factorization, to avoid circularity.
+  the A-hat/rank factorization, to avoid the circularity.
 - The tau-correction gate (Kobayashi-Oda 2023 for (SL(4,R), SO_0(3,1)) with tau = D(1/2,0)):
   rank_correction(tau_RS) = 2 would close the last analytic gap.
 
@@ -1862,27 +1914,49 @@ Currently, FC1, FC2, FC8 are algebraically excluded. FC5 is topologically establ
 
 ## 13. Verdict
 
-**rank_H(S_RS^+) = 4 is CONDITIONALLY_RESOLVED at reconstruction grade.**
+**The analytic / Clifford-algebraic derivation of rank_H(S_RS^+) = 4 is OPEN.**
+(Corrected 2026-06-23 from a prior, incorrect, CONDITIONALLY_RESOLVED verdict.)
 
-The derivation combines:
-- Exact Clifford algebra: Cl(9,5) = M(64,H), S = H^{64}, S^pm = H^{32} (algebraic, exact).
-- Exact topology: A-hat(K3) = 2 (topological, exact).
-- Reconstruction-grade RS index: ind_H(D_RS) = 8 from three convergent paths (physical DOF,
-  SM generation count, APS).
-- Reconstruction-grade monotonicity: R_- = 0 (signed-readout, reconstruction grade).
-- APS consistency: rank_H(S_RS^+) = ind_H(D_RS) / A-hat(K3) = 8/2 = 4.
+**Why OPEN, not CONDITIONALLY_RESOLVED.** The claimed derivation reduces to:
 
-The derivation is not circular provided ind_H(D_RS) = 8 has an independent derivation (from
-physical DOF count or SM generation count) that does NOT ASSUME rank_H(S_RS^+) = 4. Both
-physical-DOF-count and SM-generation-count do not assume this, so the argument is non-circular.
+```
+rank_H(S_RS^+) = ind_H(D_RS) / A-hat(K3) = 8 / 2 = 4.
+```
 
-The upgrade to VERIFIED requires either:
-(a) A CAS computation of the RS constraint intersection with the chiral projector in M(64,H), or
-(b) A verified analytic index theorem for the RS block (tau-correction + Kobayashi-Oda reference).
+This is CIRCULAR as a derivation. The numerator ind_H(D_RS) = 8 is obtained from physical /
+SM-generation counting (8 H-lines = 1 generation from S(6,4) = H^8), and "4" is recovered only
+by dividing that 8 by A-hat(K3) = 2. Multiplying back by 2 to "recover" ind_H = 8 returns the
+input; no independent quantity is produced. The file's own Section 5.1 concedes "ind_H(D_RS) = 8
+has been consistently obtained from physical counting, but its derivation [from A-hat * rank]
+... requires identifying the correct S_RS^+." Every attempt in Sections 4-9 to compute the
+effective rank DIRECTLY from the Clifford module gives 192, 384, 96, or a non-integer 1/2 —
+never 4. The earlier claim "the argument is non-circular" (prior §13) is **WITHDRAWN**: a count
+that supplies its own output as input is exactly the circularity at issue.
 
-This derivation directly upgrades OQ3b from physical-DOF-count grade to Clifford-algebraic
-grade by making the algebraic chain from Cl(9,5) = M(64,H) to rank_H(S_RS^+) = 4 explicit.
+This matches the corrections already on record in DERIVATION-PROGRESS.md (GEN-01: "the final
+halving is unjustified"; GEN-03: "the RS leg is physical-count grade only, not an analytic index
+derivation"; generation-count-rank3-resolution: "CONDITIONALLY_RESOLVED was inappropriate while
+Candidate B remained live").
 
-The primary advance: Steps 1-3 above compute rank_H(ker Gamma^{14D}|_{S^+}) = 416, which
-is a NEW Clifford-algebraic result establishing the RS constraint space structure in H-module
-terms. This had not been previously derived from M(64,H) structure explicitly.
+**What IS established (the surviving sub-result, kept):**
+- Exact Clifford algebra: Cl(9,5) = M(64,H), S = H^{64}, S^pm = H^{32} (from omega^2 = +Id,
+  (p-q) mod 8 = 4). Exact.
+- **rank_H(ker Gamma^{14D}|_{S^+}) = 448 - 32 = 416.** This is a genuinely new, exact M(64,H)
+  computation of the chiral RS constraint space (Section 10, Step 2). It is the real contribution
+  of this file. It does NOT, by any argument given here, reduce to the effective twist rank 4.
+- Exact topology: A-hat(K3) = 2.
+
+**What is NOT established (the OPEN gap):**
+- The value rank_H(S_RS^+) = 4 itself. It remains a reconstruction-grade / physical-count
+  **Candidate A**; **Candidate B (rank_H = 8 => 4 generations) is live and undismissed.**
+- Any non-circular bridge from the algebraic rank 416 to the effective index density 4.
+
+**Gates to upgrade rank_H(S_RS^+) = 4 from OPEN to CONDITIONALLY_RESOLVED / RESOLVED:**
+(a) The OQ-RK1 CAS computation of rank(Pi_RS * E_+ * Pi_RS) in the explicit M(64,H) representation
+    — this would directly return 4 or 8 and settle Candidate A vs B, independently of ind_H(D_RS).
+(b) A verified analytic index theorem for the constrained RS block (tau-correction +
+    Kobayashi-Oda 2023 reference for (SL(4,R), SO_0(3,1)) with tau = D(1/2,0)) yielding
+    ind_H(D_RS) = 8 WITHOUT assuming the rank.
+
+Either (a) or (b), being independent of the physical count, would break the circularity. Neither
+exists yet. The 416 result stands regardless of how that gate resolves.
