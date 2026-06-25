@@ -35,6 +35,27 @@ This note is a refinement of `sheafification-as-observer-finality-bridge-v0.1.md
 It names the role that sheafification/effective descent is playing: not just
 gluing, but making observer-facing records legitimate for further reasoning.
 
+## Strong Form vs Conservative GU Route
+
+Strong-form S7:
+
+```text
+legitimacy is a first-class primitive for observer mathematics.
+```
+
+Conservative GU route:
+
+```text
+model legitimacy as an idempotent local-to-global observer-record operation
+and test it first on signed-readout / observer-finality artifacts.
+```
+
+The GU note intentionally uses the conservative route so it does not promote a
+physics claim. That should not be mistaken for the full S7 hypothesis. The
+strong form remains the broader claim that observer mathematics itself may
+require a legitimacy primitive before finality, readout, or geometry can be
+buildable.
+
 ## Typed Object
 
 Let `(C, J)` be a declared site of local observer contexts. In GU examples this
