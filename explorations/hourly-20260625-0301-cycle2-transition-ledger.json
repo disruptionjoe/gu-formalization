@@ -1,0 +1,124 @@
+{
+  "artifact": "Hourly20260625_0301_Cycle2TransitionLedger_V1",
+  "run": "hourly-20260625-0301",
+  "cycle": 2,
+  "created_at": "2026-06-25",
+  "purpose": "Record the cycle-2 hole bank update required before selecting cycle 3 lanes.",
+  "source_state_before_cycle": {
+    "accepted_primary_source_receipt_count": 0,
+    "author_manuscript_state": "acquired_pending_query",
+    "proof_restart_allowed": false,
+    "cycle1_commit": "8eefa20"
+  },
+  "selected_cycle2_lanes": [
+    {
+      "lane": 1,
+      "artifact": "AuthorManuscriptIGSelectorIdentityPacket_V1",
+      "path": "explorations/hourly-20260625-0301-cycle2-manuscript-ig-selector-identity-packet.md",
+      "verdict_class": "blocked",
+      "decision": "Shiab remains a quarantined candidate; selector identity is scoped missing.",
+      "accepted_receipts": 0,
+      "first_next_object": "ManuscriptRepresentationTheoryBianchiRivalEliminatorForShiab_V1"
+    },
+    {
+      "lane": 2,
+      "artifact": "ManuscriptRSSourceDifferentialReceipt_V1",
+      "path": "explorations/hourly-20260625-0301-cycle2-manuscript-rs-source-differential-receipt.md",
+      "verdict_class": "blocked",
+      "decision": "Checked manuscript neighborhoods give adjacent RS context, but no accepted source differential for d_RS,-1.",
+      "accepted_receipts": 0,
+      "first_next_object": "RSSourceMinusOneMapIdentityPacket_V1"
+    },
+    {
+      "lane": 3,
+      "artifact": "ManuscriptDGU01OperatorSourceCandidate_V1",
+      "path": "explorations/hourly-20260625-0301-cycle2-manuscript-dgu01-operator-source-identity.md",
+      "verdict_class": "blocked",
+      "decision": "Manuscript source-native objects are not source-identified with the later D_GU^epsilon 0/1 target.",
+      "accepted_receipts": 0,
+      "first_next_object": "DGU01ManuscriptIdentityPacket_V1"
+    },
+    {
+      "lane": 4,
+      "artifact": "AuthorManuscriptQFTFiniteExtractionReceiptSearch_V1",
+      "path": "explorations/hourly-20260625-0301-cycle2-manuscript-qft-finite-extraction-receipt.md",
+      "verdict_class": "underdefined",
+      "decision": "Manuscript has QFT-adjacent context, but no finite local extraction/projector rule.",
+      "accepted_receipts": 0,
+      "first_next_object": "FiniteLocalQFTExtractionMapSpec_V1"
+    },
+    {
+      "lane": 5,
+      "artifact": "ManuscriptCriticalDisplayEquationIndex_V1",
+      "path": "explorations/hourly-20260625-0301-cycle2-manuscript-critical-display-equation-index.md",
+      "verdict_class": "conditional",
+      "decision": "Text extraction is adequate for navigation but not for identity-grade receipt work.",
+      "accepted_receipts": 0,
+      "first_next_object": "RenderedCriticalDisplayTranscriptionPacket_V1"
+    }
+  ],
+  "source_state_after_cycle": {
+    "accepted_primary_source_receipt_count": 0,
+    "author_manuscript_state": "acquired_pending_query_with_family_candidate_rows",
+    "proof_restart_allowed": false,
+    "principal_symbol_work_allowed": false,
+    "major_claim_promoted": false,
+    "global_no_go_promoted": false
+  },
+  "promoted_cycle3_candidates": [
+    {
+      "id": "RenderedCriticalDisplayTranscriptionPacket_IG_V1",
+      "dependency": "cycle2 display index pages 42-44, 57, and 66",
+      "parallel_safe": true,
+      "quality_hole": "Can rendered/manual formula transcription recover a source-forced IG/Shiab selector or prove the selector remains scoped missing?"
+    },
+    {
+      "id": "RenderedCriticalDisplayTranscriptionPacket_RS_V1",
+      "dependency": "cycle2 RS source differential gate pages 46-48, 62, and 65",
+      "parallel_safe": true,
+      "quality_hole": "Can rendered/manual formula transcription recover an RS minus-one map or prove the checked manuscript windows lack it?"
+    },
+    {
+      "id": "RenderedCriticalDisplayTranscriptionPacket_DGU01_V1",
+      "dependency": "cycle2 DGU01 identity gate pages 43-48 and 55-58",
+      "parallel_safe": true,
+      "quality_hole": "Can rendered/manual formula transcription establish a source identity to D_GU^epsilon 0/1 or keep the principal-symbol gate closed?"
+    },
+    {
+      "id": "FiniteLocalQFTExtractionMapSpec_V1",
+      "dependency": "cycle2 QFT underdefinition result",
+      "parallel_safe": true,
+      "quality_hole": "Can a non-imported source-facing finite extraction specification be written from manuscript-compatible data, or is QFT receipt work underdefined?"
+    },
+    {
+      "id": "UCSDVisualFrameCaptureFeasibilityGate_V1",
+      "dependency": "cycle1 UCSD exact transcript windows and cycle2 rendered-display requirement",
+      "parallel_safe": true,
+      "quality_hole": "Can the already-local UCSD transcript windows be turned into a concrete visual/frame capture packet, or is visual source acquisition still the first blocker?"
+    }
+  ],
+  "sequential_not_parallel_until_prerequisites": [
+    {
+      "id": "PrimarySourceReceiptIntakeCandidateClassifier_V1",
+      "waits_for": "cycle3 rendered/transcribed candidate rows"
+    },
+    {
+      "id": "FamilyIdentityCheckAfterAcceptedReceipt_V1",
+      "waits_for": "at least one accepted_for_routing source receipt candidate"
+    },
+    {
+      "id": "DGUPrincipalSymbolComputation_V1",
+      "waits_for": "source-established D_GU^epsilon 0/1 identity"
+    },
+    {
+      "id": "RSGenerationCountProofRestart_V1",
+      "waits_for": "accepted d_RS,-1 source differential plus identity gate"
+    }
+  ],
+  "anti_overlap_status": {
+    "cycle2_owned_paths_disjoint": true,
+    "cycle3_candidate_write_scopes_disjoint": true,
+    "shared_read_source": "Geometric_UnityDraftApril1st2021.pdf",
+    "shared_read_source_policy": "parallel reads and page renders allowed; each worker writes only its own artifact and audit"
+  }
+}
