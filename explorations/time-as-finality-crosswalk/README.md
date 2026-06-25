@@ -37,6 +37,8 @@ Forbidden use:
 - [`ten-persona-dialectic-summary.md`](ten-persona-dialectic-summary.md) records the ten-persona Hegelian synthesis.
 - [`reciprocal-bridge-ten-lens-review-2026-06-24.md`](reciprocal-bridge-ten-lens-review-2026-06-24.md) preserves the later reciprocal review across Temporal Issuance, Time as Finality, and GU, including the filtered-readout next-test target and guardrails against overclaim.
 - [`barandes-stochastic-quantum-crosswalk-2026-06-24.md`](barandes-stochastic-quantum-crosswalk-2026-06-24.md) records where stochastic-quantum dilation helps GU's measurement/decoherence language and where it does not touch GU's core derivation blockers.
+- [`effect-typed-witness-transport-bidirectional-crosswalk-2026-06-25.md`](effect-typed-witness-transport-bidirectional-crosswalk-2026-06-25.md) preserves the GU / Time as Finality / Temporal Issuance bridge: TaF/TI provide source/projection/finality/loss typing for GU blockers, while GU provides a hard geometry stress test for those abstractions.
+- [`../hourly-cycle1-effect-typed-witness-transport-five-goal-synthesis-2026-06-25.md`](../hourly-cycle1-effect-typed-witness-transport-five-goal-synthesis-2026-06-25.md) records the five sequential drilldown goals over IG, RS, VZ, QFT modes, and loop-state instrumentation; all companion structural audits pass and no GU claim is promoted.
 
 ## Main Test
 

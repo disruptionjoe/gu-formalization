@@ -1,0 +1,455 @@
+{
+  "ledger_version": "CycleLocalTransitionLedger_3_1_5_4_V1",
+  "run_id": "hourly-20260625-0103",
+  "session_id": "hourly-20260625-0103-3-1-5-4",
+  "cycle_index": 1,
+  "created_at": "2026-06-25T01:03:41.0230585-05:00",
+  "updated_at": "2026-06-25T01:41:00.0000000-05:00",
+  "coordinator": "codex",
+  "synthesis_allowed": true,
+  "pre_rows": [
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c1-l1-k-ig",
+      "item_id": "SourceForcedK_IGCodomainFinalityTheorem_V1",
+      "lane_family": "ig_theta",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane1-k-ig",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-source-forced-k-ig-codomain-finality-theorem.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_source_forced_k_ig_codomain_finality_audit.py",
+      "previous_state": {
+        "verdict": "underdefined",
+        "missing_object_id": "CodomainFinalityRuleForK_IG",
+        "blocker_family": "ig_theta_source_codomain_finality",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-cycle3-k-ig-codomain-finality-certificate-2026-06-25.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:03:41.0230585-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c1-l2-rs",
+      "item_id": "RS_D_MINUS_1_SOURCE_ORIGIN_CERTIFICATE_V1",
+      "lane_family": "rs",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane2-rs",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-rs-d-minus-1-source-origin-certificate.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_rs_d_minus_1_source_origin_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "RS_SOURCE_ORIGIN_CERTIFICATE.source_action_or_operator",
+        "blocker_family": "rs_source_differential_origin",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-cycle3-rs-source-differential-origin-screen-2026-06-25.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:03:41.0230585-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c1-l3-qft",
+      "item_id": "SingleModeSourceExtractionCertificate_V1",
+      "lane_family": "qft",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane3-qft",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-qft-single-mode-source-extraction-certificate.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_qft_single_mode_source_extraction_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_projector_P_fin_b",
+        "blocker_family": "qft_source_mode_extraction",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-cycle3-qft-source-mode-packet-validator-2026-06-25.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:03:41.0230585-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c1-l4-dgu",
+      "item_id": "DGU01OperatorSourceReceipt_V1",
+      "lane_family": "vz",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane4-dgu",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-dgu-01-operator-source-receipt.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_dgu_01_operator_source_receipt_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "ActualDGU01OperatorCertificate.source.operator_source_primary_action_or_EL",
+        "blocker_family": "vz_actual_operator_source_receipt",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-cycle3-dgu-operator-source-receipt-inventory-2026-06-25.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:03:41.0230585-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c1-l5-ledger",
+      "item_id": "CycleLocalTransitionLedger_3_1_5_4_V1",
+      "lane_family": "process",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane5-ledger",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-transition-ledger-classifier-gate.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_transition_ledger_classifier_audit.py",
+      "previous_state": {
+        "verdict": "conditional",
+        "missing_object_id": "CycleLocalTransitionLedger_3_1_5_4_V1",
+        "blocker_family": "process_transition_row_emission",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-cycle3-loop-transition-row-emission-gate-2026-06-25.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:03:41.0230585-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": false,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    }
+  ],
+  "post_rows": [
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c1-l1-k-ig",
+      "item_id": "SourceForcedK_IGCodomainFinalityTheorem_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane1-k-ig",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-source-forced-k-ig-codomain-finality-theorem.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_source_forced_k_ig_codomain_finality_audit.py",
+      "new_state": {
+        "verdict": "underdefined",
+        "missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+        "blocker_family": "ig_theta_source_codomain_finality",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-source-forced-k-ig-codomain-finality-theorem.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Codomain finality was sharpened into a missing source-forced selector/category object; no target-facing promotion.",
+      "post_state_emitted_at": "2026-06-25T01:41:00.0000000-05:00",
+      "worker_final_verdict": "underdefined",
+      "worker_first_missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c1-l2-rs",
+      "item_id": "RS_D_MINUS_1_SOURCE_ORIGIN_CERTIFICATE_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane2-rs",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-rs-d-minus-1-source-origin-certificate.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_rs_d_minus_1_source_origin_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source.action_or_operator",
+        "blocker_family": "rs_source_differential_origin",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-rs-d-minus-1-source-origin-certificate.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Raw symbol context was separated from source-derived BRST/gauge origin; source action/operator remains absent.",
+      "post_state_emitted_at": "2026-06-25T01:41:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "source.action_or_operator",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c1-l3-qft",
+      "item_id": "SingleModeSourceExtractionCertificate_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane3-qft",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-qft-single-mode-source-extraction-certificate.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_qft_single_mode_source_extraction_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "P_fin^b",
+        "blocker_family": "qft_source_mode_extraction",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-qft-single-mode-source-extraction-certificate.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "The one-mode V_L[1] pilot reached the same first missing source projector without importing target labels.",
+      "post_state_emitted_at": "2026-06-25T01:41:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "P_fin^b",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c1-l4-dgu",
+      "item_id": "DGU01OperatorSourceReceipt_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane4-dgu",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-dgu-01-operator-source-receipt.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_dgu_01_operator_source_receipt_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "operator_source_primary_action_or_EL",
+        "blocker_family": "vz_actual_operator_source_receipt",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-dgu-01-operator-source-receipt.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "The smaller receipt gate rejected typed-spine/reconstruction context as a primary source receipt.",
+      "post_state_emitted_at": "2026-06-25T01:41:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "operator_source_primary_action_or_EL",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c1-l5-ledger",
+      "item_id": "CycleLocalTransitionLedger_3_1_5_4_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 1,
+      "worker_id": "cycle1-lane5-ledger",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle1-transition-ledger-classifier-gate.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle1_transition_ledger_classifier_audit.py",
+      "new_state": {
+        "verdict": "closed",
+        "missing_object_id": null,
+        "blocker_family": "process_transition_row_emission",
+        "evidence_basis": "verified_computation",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle-local-transition-ledger.json",
+          "tests/hourly_20260625_0103_cycle1_transition_ledger_classifier_audit.py"
+        ]
+      },
+      "transition_type": "closure",
+      "transition_basis": "Cycle 1 has five locked pre-rows, five matching post-rows, five classifier results, and a passing acceptance gate for process metrics.",
+      "post_state_emitted_at": "2026-06-25T01:41:00.0000000-05:00",
+      "worker_final_verdict": "closed",
+      "worker_first_missing_object_id": null,
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    }
+  ],
+  "classifier_results": [
+    {
+      "row_id": "hourly-20260625-0103-c1-l1-k-ig",
+      "item_id": "SourceForcedK_IGCodomainFinalityTheorem_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "target_inputs_seen empty and target_import_detected false",
+        "false_negative": "required object not already present",
+        "closure": "new verdict remains underdefined",
+        "downgrade": "verdict class did not demote"
+      },
+      "guard_failures": [],
+      "classification_basis": "same non-closed status with sharper missing selector object"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c1-l2-rs",
+      "item_id": "RS_D_MINUS_1_SOURCE_ORIGIN_CERTIFICATE_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "target_import_detected false",
+        "false_negative": "source action/operator not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "verdict class did not demote"
+      },
+      "guard_failures": [],
+      "classification_basis": "certificate separates raw symbol context from missing source origin"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c1-l3-qft",
+      "item_id": "SingleModeSourceExtractionCertificate_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "forbidden import screen clean",
+        "false_negative": "P_fin^b not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "verdict class did not demote"
+      },
+      "guard_failures": [],
+      "classification_basis": "one-mode pilot localizes block at P_fin^b before source modes and matrix stages"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c1-l4-dgu",
+      "item_id": "DGU01OperatorSourceReceipt_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no actual-operator closure claimed",
+        "target_import_violation": "target_import_detected false",
+        "false_negative": "operator source receipt not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "verdict class did not demote"
+      },
+      "guard_failures": [],
+      "classification_basis": "receipt gate rejects typed-spine-only provenance and preserves actual-operator block"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c1-l5-ledger",
+      "item_id": "CycleLocalTransitionLedger_3_1_5_4_V1",
+      "selected_transition_type": "closure",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "process closure is the wrapper gate itself and does not close a GU mathematical claim",
+        "target_import_violation": "no target inputs involved in process ledger",
+        "false_negative": "no demotion or non-promotion",
+        "downgrade": "not a downgrade"
+      },
+      "guard_failures": [],
+      "classification_basis": "all cycle-1 rows are paired and classified; synthesis is allowed for process metrics only"
+    }
+  ],
+  "acceptance_gate": {
+    "gate_pass_required_before_synthesis": true,
+    "status": "passed",
+    "pre_rows_count": 5,
+    "post_rows_count": 5,
+    "classifier_results_count": 5,
+    "identity_links_valid": true,
+    "locked_pre_rows_overwritten": false,
+    "guard_failures_reported": true,
+    "process_metrics_separated_from_gu_claims": true,
+    "synthesis_allowed": true,
+    "classification_counts": {
+      "same_session_circularity": 0,
+      "target_import_violation": 0,
+      "false_negative": 0,
+      "closure": 1,
+      "downgrade": 0,
+      "same_status_refinement": 4,
+      "repetition": 0,
+      "upgrade_without_closure": 0,
+      "new_item": 0,
+      "underdefined_item_identity": 0
+    }
+  }
+}
