@@ -36,6 +36,7 @@ Forbidden use:
 - [`signed-readout-record-graph-test.md`](signed-readout-record-graph-test.md) gives the best bounded next test.
 - [`ten-persona-dialectic-summary.md`](ten-persona-dialectic-summary.md) records the ten-persona Hegelian synthesis.
 - [`reciprocal-bridge-ten-lens-review-2026-06-24.md`](reciprocal-bridge-ten-lens-review-2026-06-24.md) preserves the later reciprocal review across Temporal Issuance, Time as Finality, and GU, including the filtered-readout next-test target and guardrails against overclaim.
+- [`barandes-stochastic-quantum-crosswalk-2026-06-24.md`](barandes-stochastic-quantum-crosswalk-2026-06-24.md) records where stochastic-quantum dilation helps GU's measurement/decoherence language and where it does not touch GU's core derivation blockers.
 
 ## Main Test
 
