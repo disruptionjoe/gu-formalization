@@ -1,0 +1,458 @@
+{
+  "ledger_version": "CycleLocalTransitionLedger_3_1_5_4_V1",
+  "run_id": "hourly-20260625-0103",
+  "session_id": "hourly-20260625-0103-3-1-5-4",
+  "cycle_index": 2,
+  "created_at": "2026-06-25T01:52:00.0000000-05:00",
+  "updated_at": "2026-06-25T01:52:00.0000000-05:00",
+  "coordinator": "codex",
+  "synthesis_allowed": true,
+  "pre_rows": [
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c2-l1-k-ig",
+      "item_id": "K_IGSourceAxiomAndEliminatorSearch_V1",
+      "lane_family": "ig_theta",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane1-k-ig",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-k-ig-source-axiom-eliminator-search.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_k_ig_source_axiom_eliminator_search_audit.py",
+      "previous_state": {
+        "verdict": "underdefined",
+        "missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+        "blocker_family": "ig_theta_source_codomain_finality",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-source-forced-k-ig-codomain-finality-theorem.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:52:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c2-l2-rs",
+      "item_id": "RSSourceActionNoetherLocator_V1",
+      "lane_family": "rs",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane2-rs",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-rs-source-action-noether-locator.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_rs_source_action_noether_locator_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source.action_or_operator",
+        "blocker_family": "rs_source_differential_origin",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-rs-d-minus-1-source-origin-certificate.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:52:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c2-l3-qft",
+      "item_id": "PFinBSourceProjectorLocator_V1",
+      "lane_family": "qft",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane3-qft",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-qft-pfin-b-source-projector-locator.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_qft_pfin_b_source_projector_locator_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "P_fin^b",
+        "blocker_family": "qft_source_mode_extraction",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-qft-single-mode-source-extraction-certificate.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:52:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c2-l4-dgu",
+      "item_id": "DGUPrimarySourceLocator_V1",
+      "lane_family": "vz",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane4-dgu",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-dgu-primary-source-locator.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_dgu_primary_source_locator_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "operator_source_primary_action_or_EL",
+        "blocker_family": "vz_actual_operator_source_receipt",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-dgu-01-operator-source-receipt.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:52:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c2-l5-source-ledger",
+      "item_id": "PrimaryGUSourceReceiptAvailabilityLedger_V1",
+      "lane_family": "process",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane5-source-ledger",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-primary-gu-source-receipt-availability-ledger.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_primary_gu_source_receipt_availability_ledger_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "repo_local_primary_source_receipt_map",
+        "blocker_family": "primary_source_receipt_inventory",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle1-dgu-01-operator-source-receipt.md",
+          "explorations/hourly-20260625-0103-cycle1-rs-d-minus-1-source-origin-certificate.md",
+          "explorations/hourly-20260625-0103-cycle1-qft-single-mode-source-extraction-certificate.md",
+          "explorations/hourly-20260625-0103-cycle1-source-forced-k-ig-codomain-finality-theorem.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T01:52:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    }
+  ],
+  "post_rows": [
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c2-l1-k-ig",
+      "item_id": "K_IGSourceAxiomAndEliminatorSearch_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane1-k-ig",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-k-ig-source-axiom-eliminator-search.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_k_ig_source_axiom_eliminator_search_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+        "blocker_family": "ig_theta_source_codomain_finality",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-k-ig-source-axiom-eliminator-search.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Repo-local source search found no axiom or eliminator that selects D_A U before targets.",
+      "post_state_emitted_at": "2026-06-25T02:18:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c2-l2-rs",
+      "item_id": "RSSourceActionNoetherLocator_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane2-rs",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-rs-source-action-noether-locator.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_rs_source_action_noether_locator_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_action_or_noether_identity_for_d_RS_minus_1",
+        "blocker_family": "rs_source_differential_origin",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-rs-source-action-noether-locator.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Locator separated source receipts from reconstruction phrases and raw-symbol context; no action/Noether/BRST source was found.",
+      "post_state_emitted_at": "2026-06-25T02:18:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "source_action_or_noether_identity_for_d_RS_minus_1",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c2-l3-qft",
+      "item_id": "PFinBSourceProjectorLocator_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane3-qft",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-qft-pfin-b-source-projector-locator.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_qft_pfin_b_source_projector_locator_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_projector_P_fin_b",
+        "blocker_family": "qft_source_mode_extraction",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-qft-pfin-b-source-projector-locator.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Locator confirmed current repo supply contains K_b labels and contracts but no source projector.",
+      "post_state_emitted_at": "2026-06-25T02:18:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "source_projector_P_fin_b",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c2-l4-dgu",
+      "item_id": "DGUPrimarySourceLocator_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane4-dgu",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-dgu-primary-source-locator.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_dgu_primary_source_locator_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "primary_GU_action_operator_or_EL_for_actual_D_GU_epsilon_0_1",
+        "blocker_family": "vz_actual_operator_source_receipt",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-dgu-primary-source-locator.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Locator distinguished transcript hints, typed spine, and reconstruction algebra from an actual primary source receipt.",
+      "post_state_emitted_at": "2026-06-25T02:18:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "primary_GU_action_operator_or_EL_for_actual_D_GU_epsilon_0_1",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c2-l5-source-ledger",
+      "item_id": "PrimaryGUSourceReceiptAvailabilityLedger_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 2,
+      "worker_id": "cycle2-lane5-source-ledger",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle2-primary-gu-source-receipt-availability-ledger.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle2_primary_gu_source_receipt_availability_ledger_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "RepoLocalPrimaryGUSourceReceiptMap_V1",
+        "blocker_family": "primary_source_receipt_inventory",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-primary-gu-source-receipt-availability-ledger.md"
+        ]
+      },
+      "transition_type": "same_status_refinement",
+      "transition_basis": "Four-family availability ledger now classifies source status, but no family has an accepted repo-local primary receipt.",
+      "post_state_emitted_at": "2026-06-25T02:18:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "RepoLocalPrimaryGUSourceReceiptMap_V1",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    }
+  ],
+  "classifier_results": [
+    {
+      "row_id": "hourly-20260625-0103-c2-l1-k-ig",
+      "item_id": "K_IGSourceAxiomAndEliminatorSearch_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "target_inputs_seen empty",
+        "false_negative": "source selector not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "not a demotion"
+      },
+      "guard_failures": [],
+      "classification_basis": "source search sharpened missing selector status"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c2-l2-rs",
+      "item_id": "RSSourceActionNoetherLocator_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "target_import_detected false",
+        "false_negative": "source action not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "not a demotion"
+      },
+      "guard_failures": [],
+      "classification_basis": "Noether/source-action locator sharpened the missing source receipt"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c2-l3-qft",
+      "item_id": "PFinBSourceProjectorLocator_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "forbidden import screen clean",
+        "false_negative": "P_fin_b not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "not a demotion"
+      },
+      "guard_failures": [],
+      "classification_basis": "projector locator confirmed first source projector block"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c2-l4-dgu",
+      "item_id": "DGUPrimarySourceLocator_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no actual operator closure claimed",
+        "target_import_violation": "target_import_detected false",
+        "false_negative": "primary DGU source not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "not a demotion"
+      },
+      "guard_failures": [],
+      "classification_basis": "primary source locator sharpened typed-spine versus receipt boundary"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c2-l5-source-ledger",
+      "item_id": "PrimaryGUSourceReceiptAvailabilityLedger_V1",
+      "selected_transition_type": "same_status_refinement",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no GU closure claimed",
+        "target_import_violation": "target_import_detected false",
+        "false_negative": "accepted primary source map not already present",
+        "closure": "new verdict remains blocked",
+        "downgrade": "not a demotion"
+      },
+      "guard_failures": [],
+      "classification_basis": "cross-family availability is now explicit but blocked"
+    }
+  ],
+  "acceptance_gate": {
+    "gate_pass_required_before_synthesis": true,
+    "status": "passed",
+    "pre_rows_count": 5,
+    "post_rows_count": 5,
+    "classifier_results_count": 5,
+    "identity_links_valid": true,
+    "locked_pre_rows_overwritten": false,
+    "guard_failures_reported": true,
+    "process_metrics_separated_from_gu_claims": true,
+    "synthesis_allowed": true,
+    "classification_counts": {
+      "same_session_circularity": 0,
+      "target_import_violation": 0,
+      "false_negative": 0,
+      "closure": 0,
+      "downgrade": 0,
+      "same_status_refinement": 5,
+      "repetition": 0,
+      "upgrade_without_closure": 0,
+      "new_item": 0,
+      "underdefined_item_identity": 0
+    }
+  }
+}
