@@ -1,0 +1,135 @@
+{
+  "artifact": "Hourly20260625_0301_Cycle1TransitionLedger_V1",
+  "run": "hourly-20260625-0301",
+  "cycle": 1,
+  "created_at": "2026-06-25",
+  "purpose": "Record the cycle-1 hole bank update required before selecting cycle 2 lanes.",
+  "source_state_before_cycle": {
+    "accepted_primary_source_receipt_count": 0,
+    "author_manuscript_state": "not_acquired_in_previous_0203_synthesis",
+    "proof_restart_allowed": false
+  },
+  "selected_cycle1_lanes": [
+    {
+      "lane": 1,
+      "artifact": "AcquiredAuthorManuscriptObjectVerification_V1",
+      "path": "explorations/hourly-20260625-0301-cycle1-author-manuscript-object-verification.md",
+      "verdict_class": "conditional",
+      "decision": "Local 2021 PDF satisfies the repo-local source object part of AcquiredAuthorManuscriptObject_V1.",
+      "accepted_receipts": 0,
+      "first_next_object": "FamilyQueryLogForAcquiredAuthorManuscript_V1"
+    },
+    {
+      "lane": 2,
+      "artifact": "ManuscriptIGShiabReceiptCandidateSearch_V1",
+      "path": "explorations/hourly-20260625-0301-cycle1-manuscript-ig-shiab-receipt-candidates.md",
+      "verdict_class": "conditional",
+      "decision": "Strong pages 41-44 Shiab candidate quarantined; source-forced selector rule still missing.",
+      "accepted_receipts": 0,
+      "first_next_object": "AuthorManuscriptIGSelectorIdentityPacket_V1"
+    },
+    {
+      "lane": 3,
+      "artifact": "ManuscriptRSOperatorReceiptCandidates_V1",
+      "path": "explorations/hourly-20260625-0301-cycle1-manuscript-rs-operator-receipt-candidates.md",
+      "verdict_class": "blocked",
+      "decision": "Ambient fermionic and Rarita-Schwinger context exists, but no source differential for d_RS,-1 is emitted.",
+      "accepted_receipts": 0,
+      "first_next_object": "ManuscriptRSSourceDifferentialReceipt_V1"
+    },
+    {
+      "lane": 4,
+      "artifact": "ManuscriptDGU_VZ_OperatorReceiptCandidateSearch_V1",
+      "path": "explorations/hourly-20260625-0301-cycle1-manuscript-dgu-vz-operator-receipt-candidates.md",
+      "verdict_class": "blocked",
+      "decision": "Manuscript action/operator/EL scaffold is source-adjacent, but not an actual D_GU^epsilon 0/1 receipt.",
+      "accepted_receipts": 0,
+      "first_next_object": "ManuscriptDGU01OperatorSourceCandidate_V1"
+    },
+    {
+      "lane": 5,
+      "artifact": "UCSDTranscriptExactReceiptCandidates_V1",
+      "path": "explorations/hourly-20260625-0301-cycle1-ucsd-transcript-exact-receipt-candidates.md",
+      "verdict_class": "conditional",
+      "decision": "Four exact UCSD transcript windows are candidate rows; transcript text alone emits no accepted receipt.",
+      "accepted_receipts": 0,
+      "first_next_object": "UCSDVisualOrManuscriptReceiptPacket_V1"
+    }
+  ],
+  "source_state_after_cycle": {
+    "accepted_primary_source_receipt_count": 0,
+    "author_manuscript_state": "acquired_pending_query",
+    "proof_restart_allowed": false,
+    "major_claim_promoted": false,
+    "global_no_go_promoted": false
+  },
+  "initial_candidate_hole_bank": [
+    "AcquiredAuthorManuscriptObject_V1",
+    "AuthorManuscriptIGSelectorIdentityPacket_V1",
+    "ManuscriptRSSourceDifferentialReceipt_V1",
+    "ManuscriptDGU01OperatorSourceCandidate_V1",
+    "ManuscriptQFTFiniteExtractionReceiptCandidate_V1",
+    "UCSDVisualOrManuscriptReceiptPacket_V1",
+    "ManuscriptCriticalDisplayEquationIndex_V1",
+    "AuthorManuscriptFamilyQueryLogForAllFourFamilies_V1",
+    "PrimarySourceReceiptIntakeCandidateClassifier_V1",
+    "TargetImportGuardOverManuscriptRows_V1",
+    "OxfordPortalExactLocatorExecutionRows_V1",
+    "JRE1453TranscriptExtractionRows_V1",
+    "JRE1628TranscriptExtractionRows_V1",
+    "TOEJaimungalTranscriptExtractionRows_V1",
+    "KeatingDESITranscriptExtractionRows_V1",
+    "KeatingQGTranscriptExtractionRows_V1",
+    "NegativeReceiptCompletenessGateFor2021Manuscript_V1",
+    "FamilyIdentityCheckAfterAcceptedReceipt_V1",
+    "DGUPrincipalSymbolSourceEligibilityGate_V1",
+    "RSGenerationCountTargetImportQuarantineGate_V1"
+  ],
+  "promoted_cycle2_candidates": [
+    {
+      "id": "AuthorManuscriptIGSelectorIdentityPacket_V1",
+      "dependency": "cycle1 IG candidate pages 41-44 plus machinery pages 32-40 and 55-57",
+      "parallel_safe": true
+    },
+    {
+      "id": "ManuscriptRSSourceDifferentialReceipt_V1",
+      "dependency": "cycle1 RS page-neighborhood candidates pages 43-48 and 62-65",
+      "parallel_safe": true
+    },
+    {
+      "id": "ManuscriptDGU01OperatorSourceCandidate_V1",
+      "dependency": "cycle1 DGU/VZ action/operator/EL scaffold pages 41-48 and 55-58",
+      "parallel_safe": true
+    },
+    {
+      "id": "ManuscriptQFTFiniteExtractionReceiptCandidate_V1",
+      "dependency": "author manuscript acquired and queryable; QFT family not yet searched in cycle1",
+      "parallel_safe": true
+    },
+    {
+      "id": "UCSDVisualOrManuscriptReceiptPacket_V1",
+      "dependency": "cycle1 UCSD transcript exact windows",
+      "parallel_safe": true
+    }
+  ],
+  "sequential_not_parallel_until_prerequisites": [
+    {
+      "id": "PrimarySourceReceiptIntakeCandidateClassifier_V1",
+      "waits_for": "candidate rows from family-specific cycle2 searches"
+    },
+    {
+      "id": "FamilyIdentityCheckAfterAcceptedReceipt_V1",
+      "waits_for": "at least one accepted_for_routing source receipt candidate"
+    },
+    {
+      "id": "NegativeReceiptCompletenessGateFor2021Manuscript_V1",
+      "waits_for": "complete declared family query logs over the acquired manuscript"
+    }
+  ],
+  "anti_overlap_status": {
+    "cycle1_owned_paths_disjoint": true,
+    "cycle2_candidate_write_scopes_disjoint": true,
+    "shared_read_source": "Geometric_UnityDraftApril1st2021.pdf",
+    "shared_read_source_policy": "parallel reads allowed; each worker writes only its own artifact and audit"
+  }
+}
