@@ -10,11 +10,26 @@ updated_at: "2026-06-25"
 
 This is the repo-local workflow for doing three standard five-lane frontier runs in a
 row. Use it when the maintainer asks for "three runs", "fifteen holes", "15 quality
-holes", or a similar batch.
+holes", "3-1-5-4", or a similar batch.
 
 The unit of work is still `five-lane-frontier-run.md`. This runbook only adds the
 sequential wrapper that lets later cycles learn from earlier cycles instead of repeating
 or diluting them.
+
+## Trigger Alias
+
+The canonical thin trigger alias for this workflow is:
+
+```text
+3-1-5-4
+```
+
+Meaning:
+
+- `3`: three sequential cycles;
+- `1`: one standard run type;
+- `5`: five ambitious, non-overlapping lanes per cycle;
+- `4`: four required closeout actions per cycle: integrate, test/audit, commit, push.
 
 ## Purpose
 

@@ -44,6 +44,11 @@ class ThreeCycleFifteenHoleRunbookAudit(unittest.TestCase):
         self.assertIn("fifteen quality holes", self.text)
         self.assertIn("quality hole is not a small chore", self.text)
 
+    def test_declares_canonical_trigger_alias(self) -> None:
+        self.assertIn('"3-1-5-4"', self.text)
+        self.assertIn("canonical thin trigger alias", self.text)
+        self.assertIn("four required closeout actions per cycle", self.text)
+
     def test_uses_five_lane_runbook_as_unit(self) -> None:
         self.assertEqual(
             self.workflow["unit_runbook"],
