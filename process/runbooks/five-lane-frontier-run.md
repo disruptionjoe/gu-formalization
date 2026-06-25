@@ -16,12 +16,23 @@ The purpose is not to clear small chores. The purpose is to draft and execute fi
 ambitious, non-overlapping goals that each move one real proof, no-go, bridge, or
 physics-recovery question closer to a decision.
 
+The default optimization target is Mission A from `RESEARCH-POSTURE.md`: determine whether
+GU can be reconstructed, extended, or falsified. A lane may be Mission B independent
+mathematics only when it clearly improves reusable machinery or is explicitly scoped as a
+secondary output.
+
 ## Core Rule
 
 Each lane must be a meaningful frontier goal, not the smallest available slice.
 
+Each lane should optimize for information gain about the central GU reconstruction
+hypothesis, not merely for conservative appearance or local mathematical neatness.
+
 A good lane should answer at least one of these:
 
+- If GU is substantially correct, what mathematical object, invariant, category,
+  reduction, or analytic theorem must exist here?
+- Can we construct it far enough to test it?
 - Can an important claim be promoted, made conditional, blocked, or refuted?
 - What exact proof object is missing?
 - What branch or assumption fails?
@@ -113,8 +124,9 @@ Deliverable structure:
 2. What was derived directly from repo sources.
 3. The strongest positive result.
 4. The first exact obstruction or missing proof object.
-5. What this means for the relevant GU claim.
-6. Next meaningful proof or computation step.
+5. The constructive next object that would remove or test the obstruction.
+6. What this means for the relevant GU claim.
+7. Next meaningful proof or computation step.
 
 If you add the optional audit/test, make it a real invariant, contract, or consistency check,
 not a placeholder.
@@ -142,6 +154,9 @@ A run is acceptable only if:
 
 - All five lanes produce owned artifacts or explicitly report why they could not.
 - The artifacts make real decisions or exact deferrals.
+- Mission A lanes explain what would have to exist if GU is correct, then either construct
+  toward it or identify the first exact obstruction.
+- Mission B lanes are explicitly labeled as secondary independent mathematics.
 - No lane overclaims beyond the sources it read.
 - Parallel workers did not edit overlapping paths.
 - Added audits/tests pass.

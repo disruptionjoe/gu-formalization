@@ -2,13 +2,19 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-23"
+updated_at: "2026-06-24"
 canon_sweep_at: "2026-06-23"
 ---
 
 # Research Status
 
-The internal work-artifact system was the originating workspace for this project. The public repository is now the durable research authority.
+The internal work-artifact system was the originating workspace for this project. The
+public repository is now the durable research authority.
+
+The primary research posture is now GU reconstruction under a bold working hypothesis:
+Geometric Unity is substantially correct, and the repository's task is to determine
+whether that hypothesis can be rigorously reconstructed, extended, or falsified. See
+`RESEARCH-POSTURE.md`.
 
 ## Status Labels
 
@@ -26,7 +32,8 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 
 | area | status | where to read |
 |---|---|---|
-| public posture | canon | `CANON.md` |
+| research posture | canon | `RESEARCH-POSTURE.md` |
+| project canon | canon | `CANON.md` |
 | no-go assumption map | canon | `canon/no-go-class-relative-map.md` |
 | six-axis protocol | canon | `canon/six-axis-specification-protocol.md` |
 | Type II1 checklist | canon | `canon/type-ii1-spectral-sm-checklist.md` |

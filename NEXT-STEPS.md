@@ -2,23 +2,32 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-23"
+updated_at: "2026-06-24"
 ---
 
 # Next Steps For Contributors
 
-This repo should not ask contributors to solve Geometric Unity. The useful unit is a bounded test with a clear failure condition.
+This repo asks contributors to help determine whether Geometric Unity can be rigorously
+reconstructed, extended, or falsified. The useful unit is still bounded: one construction,
+derivation, reduction, no-go assumption audit, or falsification test with a clear failure
+condition.
+
+Priority should track information gain about the central GU hypothesis. A low-confidence
+direction can be high priority if it is mathematically precise and would strongly clarify
+whether GU succeeds.
+
+For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
 
 ## Best First Tasks
 
 | order | task | output | best for |
 |---:|---|---|---|
-| 1 | Build or improve the no-go assumption/evasion matrix. | A precise assumption/exits table. | mathematicians, physicists, careful generalists |
-| 2 | Fill one six-axis candidate specification. | One complete substrate/observer/pairing/causal/emergence/loop spec. | anyone proposing a path |
-| 3 | Strengthen the finite Connes control checklist. | A clearer Type II1 extension requirement. | NCG/operator-algebra contributors |
-| 4 | Work on the signed-readout theorem core. | Definitions, theorem statement, proof, or counterexample. | TCS, math, lattice-QFT readers |
-| 5 | Run the observer-finality record-graph test. | A diagram and definitions separating evidence, causality, finality, and readout. | distributed systems, foundations, TCS contributors |
-| 6 | Claim-mine a transcript-rich GU media source. | Timestamped rows in the source ledger. | source researchers, science communicators |
+| 1 | Try one missing GU source-to-shadow construction. | A derived object, blocked object, or exact missing proof object. | mathematicians, physicists, careful generalists |
+| 2 | Build or improve the no-go assumption/evasion matrix. | A precise assumption/exits table tied to a GU reconstruction branch. | mathematicians, physicists, careful generalists |
+| 3 | Fill one six-axis candidate specification. | One complete substrate/observer/pairing/causal/emergence/loop spec. | anyone proposing a path |
+| 4 | Strengthen the finite Connes control checklist. | A clearer Type II1 extension requirement and selector/failure condition. | NCG/operator-algebra contributors |
+| 5 | Work on the signed-readout theorem core. | Definitions, theorem statement, proof, or counterexample as Mission B output or GU contact. | TCS, math, lattice-QFT readers |
+| 6 | Claim-mine a transcript-rich GU media source. | Timestamped rows in the source ledger, prioritized by reconstruction relevance. | source researchers, science communicators |
 
 ## Highest-Upside Paths
 

@@ -1,18 +1,27 @@
 ---
-title: "Geometric Unity Formalization Research Map"
+title: "Geometric Unity Formalization Program"
 status: canon
 doc_type: overview
-updated_at: "2026-05-31"
+updated_at: "2026-06-24"
 ---
 
-# Geometric Unity Formalization Research Map
+# Geometric Unity Formalization Program
 
-This repository is a public research map, not a proof of Geometric Unity.
+This repository is a Geometric Unity reconstruction program, not a proof of Geometric
+Unity.
 
-It organizes a first-principles investigation into whether Geometric Unity-class higher-dimensional programs fail only inside ordinary smooth-bundle reduction classes, or whether richer substrate-level invariants can have smooth shadows that existing no-go theorems read as impossible.
+The working hypothesis is that Geometric Unity is substantially correct, and the objective
+is to determine whether that hypothesis can be rigorously reconstructed, extended, or
+falsified through systematic mathematical research.
+
+That posture is constructive, not advocative. The repository should generate the missing
+mathematics a successful GU reconstruction would need, while preserving explicit
+assumptions, rollback conditions, correction logs, no-go assumption audits, and proof-grade
+labels.
 
 ## Start Here
 
+- **Research posture:** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
@@ -35,12 +44,21 @@ It organizes a first-principles investigation into whether Geometric Unity-class
 
 The strongest current public posture is:
 
-1. Treat no-go theorems as class-relative rather than universal slogans.
-2. Require every proposed path to fill a six-axis specification before making chirality/anomaly claims.
-3. Use the finite Connes-Chamseddine spectral Standard Model as the control case for Type II1 extensions.
-4. Develop the signed-readout boundary theorem as the next theorem-grade active research lane.
-5. Keep C_MPR, the 9-tuple, PCP-blindness, and the BvN-style wall in `explorations/` until proof obligations are met.
+1. Treat GU reconstruction as Mission A: assume the hypothesis is worth pursuing and try
+   to reconstruct the missing mathematics, derivations, reductions, categorical language,
+   and analytic machinery.
+2. Treat no-go theorems as class-relative until their exact assumptions cover the GU
+   branch being tested.
+3. Require every proposed path to carry explicit assumptions, proof/reconstruction labels,
+   failure conditions, and source-to-shadow provenance.
+4. Treat independent tools such as signed-readout, no-go class-relativity, and six-axis
+   specification as Mission B outputs: valuable, publishable, but secondary to deciding
+   whether GU succeeds.
+5. Optimize research priority for information gain about the central GU hypothesis, not
+   merely for local elegance or conservative appearance.
 
 ## Contributing
 
-Start with `NEXT-STEPS.md`. The best contributions are falsifiable, scoped, and explicit about which claim they test.
+Start with `RESEARCH-POSTURE.md` and `NEXT-STEPS.md`. The best contributions are
+constructive, falsifiable, scoped, and explicit about which GU reconstruction claim they
+advance, block, or kill.

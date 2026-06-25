@@ -2,7 +2,7 @@
 title: "Contributing"
 status: canon
 doc_type: overview
-updated_at: "2026-05-31"
+updated_at: "2026-06-24"
 ---
 
 # Contributing
@@ -30,9 +30,30 @@ The math content is technical. The methodology — Hegelian dialectical synthesi
 
 ## What kinds of contribution are welcome
 
+### GU reconstruction work
+
+The core open question is: **can Geometric Unity be rigorously reconstructed, extended, or
+falsified through systematic mathematics?**
+
+The repository's working hypothesis is that GU is substantially correct. Contributions
+should help decide that hypothesis by constructing, testing, or killing specific
+mathematical pieces of the program.
+
+High-priority contribution types include:
+
+- source-to-shadow reductions for GR, QFT, matter/gauge, measurement, or dark-energy
+  sectors;
+- branch-fixed action/operator proposals with explicit variation spaces and rollback
+  conditions;
+- analytic machinery for the noncompact `Y^14` setting;
+- category or functor language that makes a GU class exit precise;
+- obstruction theorems that show a required GU reconstruction object cannot exist.
+
 ### Substrate-level invariant work
 
-The core open question is: **does there exist a substrate-class candidate hosting a chirality invariant that reduces, under the lossy projection to the smooth bundle, to Standard Model chirality content while satisfying Freed-Hopkins compatibility?**
+One important adjacent question is: **does there exist a substrate-class candidate hosting
+a chirality invariant that reduces, under the lossy projection to the smooth bundle, to
+Standard Model chirality content while satisfying Freed-Hopkins compatibility?**
 
 The repository identifies four mathematically-adjacent substrate-class candidates:
 1. Connes Type II_1 spectral triples with Jones-subfactor extension (witnessed by MIP* = RE non-embeddability)
@@ -40,7 +61,9 @@ The repository identifies four mathematically-adjacent substrate-class candidate
 3. Wolfram multiway hypergraph rewriting in a specified rulial reference frame
 4. Higher categorical substrates valued in motivic, topological modular forms, or prismatic cohomology
 
-Concrete construction attempts in any of these directions — even partial ones, even ones that fail — are the highest-priority contributions.
+Concrete construction attempts in any of these directions are welcome when they clarify
+the GU reconstruction hypothesis. If they become valuable independent mathematics rather
+than GU reconstruction, label them as Mission B outputs.
 
 ### Refutations and counterexamples
 

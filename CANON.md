@@ -2,7 +2,7 @@
 title: "Project Canon"
 status: canon
 doc_type: canon
-updated_at: "2026-06-23"
+updated_at: "2026-06-24"
 ---
 
 # Project Canon
@@ -11,17 +11,41 @@ Canon means: safe to cite as the current public spine of the project. It does no
 
 ## Canonical Posture
 
-This repository is a research map for testing substrate-level approaches to chirality, anomaly, and no-go theorem boundaries. It is not a proof of Geometric Unity and not an anti-GU dismissal.
+This repository is a Geometric Unity reconstruction program. Its working hypothesis is
+that GU is substantially correct, and its objective is to determine whether that
+hypothesis can be rigorously reconstructed, extended, or falsified through systematic
+mathematical research.
+
+This is not a proof of Geometric Unity. It is not a claim that Eric Weinstein's existing
+presentation is complete, and it is not a claim that every current reconstruction is
+correct.
+
+See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 
 ## Canonical Claims
 
-1. **No-go theorem discipline.** The target no-go families must be handled through their exact assumptions, known class exits, and failure modes.
-2. **Specification before advocacy.** Any candidate path must state substrate, observer, pairing, causal order, emergence class, and coordination loop before making chirality/anomaly claims.
-3. **Finite control first.** Type II1 or non-embeddable spectral Standard Model ideas must preserve the finite Connes-Chamseddine control case before they can claim relevance.
-4. **Open research posture.** Clean falsification, narrowing, or demotion of a path is a successful contribution.
+1. **GU reconstruction is the primary mission.** Assume GU is substantially correct as a
+   working hypothesis and try to reconstruct the missing mathematics, derivations,
+   physical reductions, categorical language, and analytic machinery.
+2. **Constructive obstruction discipline.** When a branch blocks, ask what object,
+   stronger structure, richer category, or invariant would remove the obstruction before
+   deciding whether the obstruction is intrinsic.
+3. **No-go theorem discipline.** The target no-go families must be handled through their
+   exact assumptions, known class exits, and failure modes.
+4. **Specification before promotion.** Any candidate path must state its substrate,
+   observer, pairing, causal order, emergence class, coordination loop, source-to-shadow
+   map, or equivalent proof object before making physics claims.
+5. **Finite control first.** Type II1 or non-embeddable spectral Standard Model ideas must
+   preserve the finite Connes-Chamseddine control case before they can claim relevance.
+6. **Independent mathematics is Mission B.** Tools such as signed-readout, six-axis
+   specification, no-go class-relativity, and reconstruction methodology are valuable
+   secondary outputs, but they do not replace the GU reconstruction mission.
+7. **Falsification remains success.** Clean falsification, narrowing, or demotion of a
+   path is a successful contribution.
 
 ## Canon Documents
 
+- `RESEARCH-POSTURE.md`
 - `canon/no-go-class-relative-map.md`
 - `canon/six-axis-specification-protocol.md`
 - `canon/type-ii1-spectral-sm-checklist.md`
