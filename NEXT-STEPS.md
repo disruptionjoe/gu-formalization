@@ -20,7 +20,11 @@ updated_at: "2026-06-25"
 > and `tests/hourly_20260625_2104_cycle1_receipt_attempts_audit.py`: Product B now has the
 > route-local table `V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)`. Treat the
 > SC1-OQ1A uniqueness/common-summand gate as OPEN pending a replacement Hom-space
-> computation. Shiab existence remains RESOLVED for existence only.
+> computation. The cycle 2 Product A packet closes
+> `V(omega_1) tensor V(omega_7) = V(omega_1+omega_7) + V(omega_6)` route-locally, with
+> `ker(c)=V(omega_1+omega_7)`, but it confirms two common rows rather than a selector.
+> The next IG object is a source-natural rival-projector identity. Shiab existence
+> remains RESOLVED for existence only.
 
 This repo asks contributors to help determine whether Geometric Unity can be rigorously
 reconstructed, extended, or falsified. The useful unit is still bounded: one construction,

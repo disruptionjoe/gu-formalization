@@ -4,7 +4,7 @@ date: 2026-06-23
 problem_label: "sc1-oq1a-d7-clebsch-gordan-cas"
 status: reconstruction
 verdict: OPEN
-correction_2026_06_25: SC1-OQ1A-PRODUCTB-CANDIDATE-01 supersedes the chirality-exclusion claim for V(omega_1+omega_7) in Lambda^2 tensor Delta^+. The 2104 Product B character audit finds Lambda^2 tensor Delta^+ = V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6). The common-summand count is therefore at least two, so the uniqueness/common-summand gate is OPEN. Shiab existence is unaffected.
+correction_2026_06_25: SC1-OQ1A-PRODUCTB-CANDIDATE-01 supersedes the chirality-exclusion claim for V(omega_1+omega_7) in Lambda^2 tensor Delta^+. The 2104 Product B character audit finds Lambda^2 tensor Delta^+ = V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6). SC1-OQ1A-PRODUCTA-PACKET-01 then closes Product A route-locally as Lambda^1 tensor Delta^- = V(omega_1+omega_7) + V(omega_6), with ker(c)=V(omega_1+omega_7), image(c)=V(omega_6), and cokernel(c)=0. The common-summand count is therefore two, so the uniqueness/common-summand gate is OPEN pending a source-natural rival-projector identity. Shiab existence is unaffected.
 correction: SC1-OQ1A-VERDICT-OVERSTATED (2026-06-23) — downgraded from RESOLVED to CONDITIONALLY_RESOLVED. The chirality exclusion results (V(omega_7) absent, V(omega_1+omega_7) absent from Lambda^2 tensor Delta^+) are verified grade. The multiplicity-1 claim for V(omega_6) in Lambda^2 tensor Delta^+ rests on reconstruction-grade irreducibility (Step 3 of Section 3.3). OQ-CG-2 (LiE numerical verification) remains open.
 failure_conditions:
   FC-IRR: The irreducibility of ker(c) in Section 3.3 is reconstruction grade only. If ker(c) = V(omega_1+omega_7) oplus W for some D_7-invariant W, the decomposition of Lambda^1 tensor Delta^- has more than two summands, and the common summand analysis changes.
@@ -45,6 +45,19 @@ existence canon remains unaffected because it does not claim uniqueness, rank,
 kernel, or selector identity. Any downstream use of this file must cite the
 2026-06-25 correction and treat the uniqueness/common-summand gate as open until
 a replacement Hom-space computation is filed.
+
+The 2026-06-25 2104 cycle 2 Product A packet closes the companion local
+computation:
+
+```text
+Lambda^1_C tensor Delta^-_C
+  = V(omega_1 + omega_7) + V(omega_6)
+```
+
+with `ker(c)=V(omega_1 + omega_7)`, `image(c)=V(omega_6)`, and
+`cokernel(c)=0`. This strengthens the Product A side but confirms, rather than
+removes, the rival `V(omega_1 + omega_7)` row. The next IG object is
+`SourceNaturalProductABRivalProjectorIdentity_V1`, not a proof restart.
 
 ## 1. Problem Statement
 

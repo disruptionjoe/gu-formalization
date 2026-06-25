@@ -86,6 +86,7 @@ This sweep corrects stale stronger claims that survived earlier downgrade work. 
 | Generation count | OPEN | Old compact-toy and physical-count arithmetic is provenance only until the RS leg is derived without target division or reverse-engineered rank input. |
 | Velo-Zwanziger | 14D CONDITIONALLY_EVADED; 4D CONDITIONALLY_RESOLVED at principal-symbol grade | Do not cite 4D as VERIFIED; subprincipal/extrinsic-curvature and full dynamical gates remain open. |
 | SC1-OQ1A D7 common-summand / Product B chirality exclusion | OPEN | CORRECTION SC1-OQ1A-PRODUCTB-CANDIDATE-01 (2026-06-25): the 2104 Product B audit finds `V(omega_2) tensor V(omega_6) = V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)`, so the older claim excluding `V(omega_1+omega_7)` from `Lambda^2 tensor Delta^+` is superseded. Shiab existence remains RESOLVED for existence only; uniqueness/common-summand is open. |
+| SC1-OQ1A Product A finite-control packet | CLOSED route-locally for Product A; selector identity OPEN | The 2104 cycle 2 Product A audit finds `V(omega_1) tensor V(omega_7) = V(omega_1+omega_7) + V(omega_6)`, `ker(c)=V(omega_1+omega_7)`, `image(c)=V(omega_6)`, and `cokernel(c)=0`. Together with Product B, this leaves two common rows, so proof restart is still blocked pending `SourceNaturalProductABRivalProjectorIdentity_V1`. |
 
 ## 2026-06-23 Canon Promotion Sweep
 
