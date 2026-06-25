@@ -12,3 +12,5 @@ Persona passes, dialectical method, synthesis history, and migration/process not
 Runbooks:
 
 - `runbooks/five-lane-frontier-run.md` - standard repo-local five-sub-agent frontier run.
+- `runbooks/three-cycle-fifteen-hole-run.md` - three sequential five-lane runs for
+  fifteen quality holes without padding weak lanes.

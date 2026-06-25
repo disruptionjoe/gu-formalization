@@ -12,6 +12,9 @@ This is the standard repo-local run type for advancing the GU formalization fron
 sub-agents. Use it when the maintainer asks for a "run", "another five", "five tasks", or
 similar language in the context of moving the repository forward.
 
+For three sequential five-lane cycles, use `three-cycle-fifteen-hole-run.md` as the
+wrapper and this file as the unit run.
+
 The purpose is not to clear small chores. The purpose is to draft and execute five
 ambitious, non-overlapping goals that each move one real proof, no-go, bridge, or
 physics-recovery question closer to a decision.
