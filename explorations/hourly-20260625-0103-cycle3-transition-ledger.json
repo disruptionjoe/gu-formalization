@@ -1,0 +1,455 @@
+{
+  "ledger_version": "CycleLocalTransitionLedger_3_1_5_4_V1",
+  "run_id": "hourly-20260625-0103",
+  "session_id": "hourly-20260625-0103-3-1-5-4",
+  "cycle_index": 3,
+  "created_at": "2026-06-25T02:29:00.0000000-05:00",
+  "updated_at": "2026-06-25T02:29:00.0000000-05:00",
+  "coordinator": "codex",
+  "synthesis_allowed": true,
+  "pre_rows": [
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c3-l1-ig-mining",
+      "item_id": "K_IGSourceMiningPacket_V1",
+      "lane_family": "ig_theta",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane1-ig-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-k-ig-source-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_k_ig_source_mining_packet_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+        "blocker_family": "ig_theta_source_codomain_finality",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-k-ig-source-axiom-eliminator-search.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T02:29:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c3-l2-rs-mining",
+      "item_id": "RSSourceActionMiningPacket_V1",
+      "lane_family": "rs",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane2-rs-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-rs-source-action-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_rs_source_action_mining_packet_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_action_or_noether_identity_for_d_RS_minus_1",
+        "blocker_family": "rs_source_differential_origin",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-rs-source-action-noether-locator.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T02:29:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c3-l3-qft-mining",
+      "item_id": "QFTPFinBSourceMiningPacket_V1",
+      "lane_family": "qft",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane3-qft-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-qft-pfin-b-source-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_qft_pfin_b_source_mining_packet_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_projector_P_fin_b",
+        "blocker_family": "qft_source_mode_extraction",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-qft-pfin-b-source-projector-locator.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T02:29:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c3-l4-dgu-mining",
+      "item_id": "DGUOperatorSourceMiningPacket_V1",
+      "lane_family": "vz",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane4-dgu-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-dgu-operator-source-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_dgu_operator_source_mining_packet_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "primary_GU_action_operator_or_EL_for_actual_D_GU_epsilon_0_1",
+        "blocker_family": "vz_actual_operator_source_receipt",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-dgu-primary-source-locator.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T02:29:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    },
+    {
+      "row_phase": "pre",
+      "row_id": "hourly-20260625-0103-c3-l5-intake",
+      "item_id": "PrimarySourceReceiptIntakeProtocol_V1",
+      "lane_family": "process",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane5-intake",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-primary-source-receipt-intake-protocol.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_primary_source_receipt_intake_protocol_audit.py",
+      "previous_state": {
+        "verdict": "blocked",
+        "missing_object_id": "RepoLocalPrimaryGUSourceReceiptMap_V1",
+        "blocker_family": "primary_source_receipt_inventory",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle2-primary-gu-source-receipt-availability-ledger.md"
+        ]
+      },
+      "pre_state_locked_at": "2026-06-25T02:29:00.0000000-05:00",
+      "pre_state_locked_by": "coordinator",
+      "same_session_guard": {
+        "flag_raised_session_id": null,
+        "flag_closed_session_id": null,
+        "external_verification_id": null,
+        "later_session_verification_id": null,
+        "deferred_verification_required": false,
+        "same_session_closure_attempted": false
+      },
+      "target_import_guard": {
+        "target_inputs_seen": [],
+        "target_import_detected": false
+      },
+      "false_negative_guard": {
+        "demotion_or_nonpromotion": true,
+        "required_object_already_present": false,
+        "over_deflation_detected": false
+      }
+    }
+  ],
+  "post_rows": [
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c3-l1-ig-mining",
+      "item_id": "K_IGSourceMiningPacket_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane1-ig-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-k-ig-source-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_k_ig_source_mining_packet_audit.py",
+      "new_state": {
+        "verdict": "conditional",
+        "missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+        "blocker_family": "ig_theta_source_codomain_finality",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle3-k-ig-source-mining-packet.md"
+        ]
+      },
+      "transition_type": "upgrade_without_closure",
+      "transition_basis": "The selector source-mining packet is ready, but no source receipt is claimed.",
+      "post_state_emitted_at": "2026-06-25T02:58:00.0000000-05:00",
+      "worker_final_verdict": "conditional",
+      "worker_first_missing_object_id": "SourceForcedCodomainSelectorForK_IG",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c3-l2-rs-mining",
+      "item_id": "RSSourceActionMiningPacket_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane2-rs-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-rs-source-action-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_rs_source_action_mining_packet_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_action_or_noether_locator",
+        "blocker_family": "rs_source_differential_origin",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle3-rs-source-action-mining-packet.md"
+        ]
+      },
+      "transition_type": "upgrade_without_closure",
+      "transition_basis": "The source-action/Noether mining packet is ready while d_RS,-1 remains source-blocked.",
+      "post_state_emitted_at": "2026-06-25T02:58:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "source_action_or_noether_locator",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c3-l3-qft-mining",
+      "item_id": "QFTPFinBSourceMiningPacket_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane3-qft-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-qft-pfin-b-source-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_qft_pfin_b_source_mining_packet_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "source_projector_P_fin_b",
+        "blocker_family": "qft_source_mode_extraction",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle3-qft-pfin-b-source-mining-packet.md"
+        ]
+      },
+      "transition_type": "upgrade_without_closure",
+      "transition_basis": "The P_fin^b source-mining packet is ready while the projector receipt remains absent.",
+      "post_state_emitted_at": "2026-06-25T02:58:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "source_projector_P_fin_b",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c3-l4-dgu-mining",
+      "item_id": "DGUOperatorSourceMiningPacket_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane4-dgu-mining",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-dgu-operator-source-mining-packet.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_dgu_operator_source_mining_packet_audit.py",
+      "new_state": {
+        "verdict": "blocked",
+        "missing_object_id": "operator_source_primary_action_or_EL",
+        "blocker_family": "vz_actual_operator_source_receipt",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle3-dgu-operator-source-mining-packet.md"
+        ]
+      },
+      "transition_type": "upgrade_without_closure",
+      "transition_basis": "The DGU operator source-mining packet is ready while actual D_GU 0/1 source receipt remains absent.",
+      "post_state_emitted_at": "2026-06-25T02:58:00.0000000-05:00",
+      "worker_final_verdict": "blocked",
+      "worker_first_missing_object_id": "operator_source_primary_action_or_EL",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    },
+    {
+      "row_phase": "post",
+      "row_id": "hourly-20260625-0103-c3-l5-intake",
+      "item_id": "PrimarySourceReceiptIntakeProtocol_V1",
+      "session_id": "hourly-20260625-0103",
+      "cycle_index": 3,
+      "worker_id": "cycle3-lane5-intake",
+      "owned_artifact_path": "explorations/hourly-20260625-0103-cycle3-primary-source-receipt-intake-protocol.md",
+      "owned_audit_path": "tests/hourly_20260625_0103_cycle3_primary_source_receipt_intake_protocol_audit.py",
+      "new_state": {
+        "verdict": "conditional",
+        "missing_object_id": "PrimarySourceReceiptInstance_V1",
+        "blocker_family": "primary_source_receipt_inventory",
+        "evidence_basis": "source_derived",
+        "source_refs": [
+          "explorations/hourly-20260625-0103-cycle3-primary-source-receipt-intake-protocol.md"
+        ]
+      },
+      "transition_type": "upgrade_without_closure",
+      "transition_basis": "The intake protocol is ready, but no family has an accepted primary receipt instance.",
+      "post_state_emitted_at": "2026-06-25T02:58:00.0000000-05:00",
+      "worker_final_verdict": "conditional",
+      "worker_first_missing_object_id": "PrimarySourceReceiptInstance_V1",
+      "guard_declarations": {
+        "same_session_closure_attempted": false,
+        "target_import_detected": false,
+        "required_object_already_present": false
+      }
+    }
+  ],
+  "classifier_results": [
+    {
+      "row_id": "hourly-20260625-0103-c3-l1-ig-mining",
+      "item_id": "K_IGSourceMiningPacket_V1",
+      "selected_transition_type": "upgrade_without_closure",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "target inputs are empty",
+        "false_negative": "source receipt not already present",
+        "closure": "selector receipt remains missing",
+        "downgrade": "not a downgrade"
+      },
+      "guard_failures": [],
+      "classification_basis": "packet-ready improvement without source receipt closure"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c3-l2-rs-mining",
+      "item_id": "RSSourceActionMiningPacket_V1",
+      "selected_transition_type": "upgrade_without_closure",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "target import detected false",
+        "false_negative": "source action/Noether receipt not already present",
+        "closure": "d_RS source origin remains blocked",
+        "downgrade": "not a downgrade"
+      },
+      "guard_failures": [],
+      "classification_basis": "mining packet ready while source receipt is absent"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c3-l3-qft-mining",
+      "item_id": "QFTPFinBSourceMiningPacket_V1",
+      "selected_transition_type": "upgrade_without_closure",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no closure claimed",
+        "target_import_violation": "forbidden import controls active",
+        "false_negative": "P_fin_b receipt not already present",
+        "closure": "projector receipt remains absent",
+        "downgrade": "not a downgrade"
+      },
+      "guard_failures": [],
+      "classification_basis": "source-first packet specified before matrix work"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c3-l4-dgu-mining",
+      "item_id": "DGUOperatorSourceMiningPacket_V1",
+      "selected_transition_type": "upgrade_without_closure",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no actual-operator closure claimed",
+        "target_import_violation": "target import detected false",
+        "false_negative": "operator receipt not already present",
+        "closure": "actual DGU source receipt remains absent",
+        "downgrade": "not a downgrade"
+      },
+      "guard_failures": [],
+      "classification_basis": "operator source-mining packet ready; certificate still gated"
+    },
+    {
+      "row_id": "hourly-20260625-0103-c3-l5-intake",
+      "item_id": "PrimarySourceReceiptIntakeProtocol_V1",
+      "selected_transition_type": "upgrade_without_closure",
+      "precedence_applied": true,
+      "higher_precedence_non_firing_reasons": {
+        "same_session_circularity": "no mathematical closure claimed",
+        "target_import_violation": "target import controls active",
+        "false_negative": "no accepted receipt instance already present",
+        "closure": "receipt map remains empty",
+        "downgrade": "not a downgrade"
+      },
+      "guard_failures": [],
+      "classification_basis": "intake protocol ready while receipt instances remain missing"
+    }
+  ],
+  "acceptance_gate": {
+    "gate_pass_required_before_synthesis": true,
+    "status": "passed",
+    "pre_rows_count": 5,
+    "post_rows_count": 5,
+    "classifier_results_count": 5,
+    "identity_links_valid": true,
+    "locked_pre_rows_overwritten": false,
+    "guard_failures_reported": true,
+    "process_metrics_separated_from_gu_claims": true,
+    "synthesis_allowed": true,
+    "classification_counts": {
+      "same_session_circularity": 0,
+      "target_import_violation": 0,
+      "false_negative": 0,
+      "closure": 0,
+      "downgrade": 0,
+      "same_status_refinement": 0,
+      "repetition": 0,
+      "upgrade_without_closure": 5,
+      "new_item": 0,
+      "underdefined_item_identity": 0
+    }
+  }
+}
