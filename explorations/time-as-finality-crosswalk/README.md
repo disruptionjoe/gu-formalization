@@ -41,6 +41,7 @@ Forbidden use:
 - [`sheafification-as-observer-finality-bridge-v0.1.md`](sheafification-as-observer-finality-bridge-v0.1.md) integrates the Time as Finality S6 sheafification proposal as a typed local-to-global bridge for observer records, with explicit capability and loss gates.
 - [`legitimacy-monad-observer-mathematics-v0.1.md`](legitimacy-monad-observer-mathematics-v0.1.md) integrates the S7 legitimacy-monad steelman as an idempotent observer-record primitive: useful for buildable observer mathematics, not source geometry.
 - [`dual-record-opportunity-section-retrieval-v0.1.md`](dual-record-opportunity-section-retrieval-v0.1.md) places the dual-record opportunity hypothesis as an observer-finality / section-retrieval stress test: stable records and opportunity-edge records may split future capability, but this is not GU source geometry.
+- [`dual-record-section-retrieval-witness-v0.1.md`](dual-record-section-retrieval-witness-v0.1.md) instantiates the Time as Finality fixture as a same-stable-record / different-opportunity-record witness: future section capability splits, but the exact fixed-latent absorber fires, so there is no GU source-geometry claim.
 - [`../hourly-cycle1-effect-typed-witness-transport-five-goal-synthesis-2026-06-25.md`](../hourly-cycle1-effect-typed-witness-transport-five-goal-synthesis-2026-06-25.md) records the five sequential drilldown goals over IG, RS, VZ, QFT modes, and loop-state instrumentation; all companion structural audits pass and no GU claim is promoted.
 
 ## Main Test

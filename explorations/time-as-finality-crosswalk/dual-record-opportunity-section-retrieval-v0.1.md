@@ -171,6 +171,31 @@ The positive case would show a capability split after stable records are
 matched. The conservative verdict remains projection/finality/loss unless the
 source-side gate is separately cleared.
 
+## Witness Result
+
+Implemented as:
+
+```text
+dual-record-section-retrieval-witness-v0.1.md
+```
+
+Result:
+
+```text
+same stable record [(0 -> 1), (1 -> 2)]
+different opportunity records
+different future section/readout capability
+exact fixed-latent absorber fires
+```
+
+Verdict:
+
+```text
+observer-finality capability split only
+not GU source geometry
+not source-side issuance
+```
+
 ## Demotion Conditions
 
 Demote to vocabulary if:
@@ -187,9 +212,9 @@ Demote to vocabulary if:
 ## Verdict
 
 ```yaml
-status: observer_finality_crosswalk
+status: observer_finality_witness_complete
 best_use: section_retrieval_and_capability_stress_test
 not_useful_for: GU_source_geometry_or_no_go_evasion
-next_artifact: DualRecordSectionRetrievalWitness_v0_1
+next_artifact: none_required
 claim_status_change: none
 ```
