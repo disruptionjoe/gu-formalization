@@ -4,6 +4,7 @@ date: 2026-06-23
 problem_label: "freed-hopkins-optionb-ksp-family"
 status: reconstruction
 verdict: CONDITIONALLY_RESOLVED
+correction: "CORRECTION FH-02 (2026-06-25): The convexity/contractibility argument applies to Riemannian metric spaces used in the compact K3/APS toy lane. It must not be cited as a proof for Lorentzian signature components of the full GU Y^14 = Met(X^4), where convex combinations can leave the fixed-signature locus. The Option-B lane remains lane-narrowed, not closed."
 ---
 
 # Option B for Freed-Hopkins Observer Pairing: KSp^0 Family over GU Observer Section Space
@@ -100,7 +101,13 @@ H: Met(X^4) x [0,1] -> Met(X^4),  H(g, t) = t*g + (1-t)*g_ref
 for any fixed reference metric g_ref. This is a homotopy from the identity to the
 constant map g |-> g_ref. Met(X^4) deformation-retracts to a point.
 
-**Conclusion:** The full section space X_obs = Met(X^4) is contractible. Therefore
+**Scope correction (FH-02, 2026-06-25):** This conclusion is a Riemannian conclusion. It
+applies to the compact K3/APS toy lane where `Met(X^4)` means positive-definite metrics.
+It does not automatically apply to the full GU Lorentzian metric-bundle locus: fixed
+Lorentzian signature is not convex under ordinary affine averaging, and its component
+topology must be checked separately before using the same elimination.
+
+**Conclusion:** The Riemannian full section space X_obs = Met_Riem(X^4) is contractible. Therefore
 
 ```
 KSp^0_tilde(X_obs) = KSp^0_tilde(pt) = 0
@@ -110,7 +117,8 @@ and any continuous Fredholm family over Met(X^4) has trivial reduced KSp^0 class
 The family {D_x}_{x in X_obs} defined by x = s in Met(X^4) maps to 0 in
 KSp^0_tilde(Met(X^4)) = 0.
 
-**This is the first potential failure of Option B.**
+**This is the first potential failure of Option B in the Riemannian compact/K3 reduction.**
+For Lorentzian GU `Y^14`, it is a warning and a template, not a completed proof.
 
 ### 3.3 Gauge-Orbit Quotient: The Moduli Space
 

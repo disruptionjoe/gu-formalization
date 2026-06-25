@@ -7,6 +7,7 @@ promoted_from:
   - "explorations/n2-shiab-computation-spin77-branching-rules-2026-06-22.md"
 promoted_at: "2026-06-23"
 verdict: RESOLVED
+scope_correction: "CORRECTION SHIAB-01 (2026-06-25): RESOLVED means existence of at least one natural real-linear Spin(9,5)-equivariant Clifford-contraction map. It does not claim injectivity, non-vanishing on every non-zero input, uniqueness, source-forced selector identity, anomaly cancellation, or generation count."
 ---
 
 # Shiab Operator Existence — Cl(9,5) Setting
@@ -49,7 +50,7 @@ defines a map Omega^2(V) tensor S -> Omega^1(V) tensor S, where {e^a} is a local
 
 - Spin(9,5)-equivariant by construction (each component is equivariant under GL(V)). `[verified]`
 - Real-linear: V, S, Lambda^k are all real vector spaces in the Cl(9,5) setting. `[verified]`
-- Non-zero on all non-zero inputs: **WARNING — the term-by-term argument is insufficient.** The original claim "c(iota_{e_a} alpha) != 0 for any non-zero alpha and generic frame, therefore the sum is non-zero" is invalid: 14 non-zero terms can cancel. The correct non-cancellation argument is: for any 2-form alpha != 0, define the effective covector xi(alpha) in T*Y^{14} by the identity c(xi(alpha)) s = Phi(alpha tensor s), which holds because the contraction sum collapses to a single Clifford multiplication by the metric-dual 1-form of alpha (explicit: in an orthonormal coframe, sum_a e^a c(iota_{e_a} alpha) = c(alpha^#) where alpha^# is the metric-dual vector; this is the standard Clifford-contraction identity, see Lawson-Michelsohn §II.5, equation (5.9)). Since alpha != 0 implies alpha^# != 0, and Cl(9,5) ~= M(64, H) is simple so c(alpha^#) acts injectively on S = H^64 (non-zero element of a simple algebra over H acts with trivial kernel on the unique irreducible module), we have Phi(alpha tensor s) = c(alpha^#) s = 0 only if s = 0. Hence Phi is injective on pure tensors, and by R-linearity on all of Omega^2 tensor S. `[corrected 2026-06-23 — MO-01]`
+- Non-zero as a map: choose a local orthonormal coframe and a simple 2-form alpha = e^1 wedge e^2. Then the displayed formula gives output components containing c(e^2)s and -c(e^1)s. Clifford multiplication by a non-null covector is invertible, so for any s != 0 at least one displayed component is non-zero. This proves Phi is a non-zero natural map. **It does not prove injectivity or non-vanishing on every non-zero element of Omega^2 tensor S.** In fact Phi cannot be injective as a map Lambda^2 V tensor S -> V tensor S in 14 dimensions, since dim(Lambda^2 V tensor S) = 91 dim(S) and dim(V tensor S) = 14 dim(S). The previous alpha^# collapse argument was invalid: a 2-form has no canonical metric-dual 1-form. `[corrected 2026-06-25 — SHIAB-01]`
 - Natural: defined using only the metric on Y^14 and the Clifford algebra structure. `[verified]`
 
 **Step 4 — No complexification required.**
@@ -67,8 +68,8 @@ The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unit
 ## Known Failure Modes
 
 - **Signature uncertainty.** If Weinstein's intended signature is (7,7) or another real form, the algebra changes. Cl(7,7) ~= M(128, R) gives a real spinor module and a different (but parallel) construction. The (9,5) result is confirmed by the Frobenius metric computation.
-- **Sum-collapse identity precondition.** The injectivity proof (Step 3, corrected) uses the Clifford-contraction identity sum_a e^a c(iota_{e_a} alpha) = c(alpha^#) (Lawson-Michelsohn §II.5 eq. 5.9). This identity holds for any Clifford algebra with an orthonormal coframe and any 2-form alpha; it is a purely algebraic identity that follows from the definition of interior product and Clifford multiplication. If the coframe is not orthonormal (i.e., if the metric degenerates at a point), the identity requires the corrected Gram-matrix form and the conclusion still holds wherever the metric is non-degenerate. No additional condition is needed on Y^14 beyond the non-degeneracy of the gimmel metric.
-- **Non-degeneracy on gauge curvature forms.** The map is injective on all non-zero inputs in Omega^2 tensor S. Whether the restriction to F_A for connections A in the GU gauge orbit has additional degeneracy is a separate physical question.
+- **Kernel/rank not computed.** The map is non-zero, but it is not injective dimensionally. Its kernel, image, and rank on the full domain Lambda^2 V tensor S have not been computed. Any future use of Shiab that needs injectivity must replace this canon entry with an explicit representation-theoretic rank/kernel computation.
+- **Non-degeneracy on gauge curvature forms.** The restriction of Phi to curvature inputs arising from GU connections may have additional degeneracy or selection structure. That is a separate physical question and is not settled by algebraic existence of Phi.
 - **Generation count.** Shiab existence does not establish the generation count. That requires an index theorem on a non-compact Y^14 — a separate open problem.
 - **Gauge group uniqueness.** Sp(64) is the natural gauge group from the automorphism structure of S = H^64; whether the tau^+ homomorphism selects a subgroup of Sp(64) is open.
 - **Uniqueness of equivariant map.** The Clifford contraction is one Spin(9,5)-equivariant map Omega^2 tensor S -> Omega^1 tensor S. Whether it is the unique such map (up to scalar) has not been established; other equivariant maps could exist. Uniqueness is a representation-theory question (multiplicity of the relevant intertwining space) and is open.
@@ -76,7 +77,12 @@ The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unit
 ## What This Does Not Establish
 
 - Three fermion generations.
-- Anomaly cancellation for the full GU theory (separate audit, anomaly-audit-cl95-gauge-group-2026-06-22.md, shows perturbative anomaly of Sp(64) vanishes; that is not yet at canon grade).
+- Injectivity or non-vanishing on every non-zero input of Omega^2 tensor S.
+- Uniqueness of the equivariant map.
+- Anomaly cancellation for the full GU theory. The separate anomaly audit defuses
+  Nguyen's U(128) pincer by replacing it with the Sp(64) setting, but full local/global
+  GU anomaly cancellation remains OPEN and non-canon pending an explicit 14D
+  `I_16`/index-density computation and spin-bordism/Dai-Freed/eta check.
 - Strong-coupling or renormalizability of GU.
 
 ## References

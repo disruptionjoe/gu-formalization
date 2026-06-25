@@ -8,6 +8,14 @@ status: in_progress
 
 Three-layer program to move from the distortion residue (proved in TI E049) and Weinstein's GU constructions to concrete physical derivations.
 
+> **2026-06-25 global status guard.** Older rows in this progress log are provenance, not
+> current verdicts, when they conflict with the status ledgers. Current boundaries:
+> generation count / `ind_H(D_GU)=24` is OPEN; Shiab is RESOLVED for algebraic existence
+> only; Nguyen's U(128) pincer is SUBSTANTIALLY_ADDRESSED but full GU local/global anomaly
+> cancellation is OPEN; VZ is 14D CONDITIONALLY_EVADED and 4D CONDITIONALLY_RESOLVED at
+> principal-symbol grade; dark-energy divergence-free is CONDITIONALLY_RESOLVED pending
+> the written-action theta/Euler-Lagrange identification.
+
 ---
 
 ## Layer 1 — N2: Shiab Existence (Spin(9,5) — Corrected Signature)
@@ -26,7 +34,7 @@ Three-layer program to move from the distortion residue (proved in TI E049) and 
 - `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` (PC1 six-axis spec)
 - `literature/weinstein-ucsd-2025-04-transcript.md` (primary source, [00:43:04] trace-reverse claim)
 
-**Status:** ✅ COMPLETE (2026-06-22)
+**Status:** COMPLETE FOR ALGEBRAIC EXISTENCE ONLY (corrected 2026-06-25)
 
 **Signature correction (N1 audit):** The correct signature of Y¹⁴ is **(9,5)**, not (7,7).
 Derivation: fiber Sym²(R^{3,1}*) has Frobenius signature (7,3); trace-reversal (standard
@@ -42,14 +50,16 @@ Index (p−q) mod 8 = 4 → quaternionic type. Spinor module S = H^{64}, dim_R =
 **Result:** The shiab operator Φ: Ω²(Y¹⁴) ⊗ S → Ω¹(Y¹⁴) ⊗ S **EXISTS** under the correct
 signature (9,5). Construction: Clifford contraction Φ(α ⊗ s) = Σ_a e^a ⊗ c(ι_{e_a} α) · s,
 where c is Clifford multiplication on S = H^{64} (H-linear, hence R-linear) and ι is
-interior product. The map is real-linear, Spin(9,5)-equivariant, and non-zero on all
-non-zero inputs. No complexification required. The quaternionic structure of S enriches
+interior product. The map is real-linear, Spin(9,5)-equivariant, and non-zero as a map.
+No complexification required. It is not injective dimensionally as a map from
+Lambda^2 V tensor S to V tensor S in 14 dimensions, and non-vanishing on every non-zero
+input/rank/kernel/uniqueness are open representation-theory questions. The quaternionic structure of S enriches
 but does not obstruct the map. Nguyen §3.1 complexification gap does not arise.
 
-**Key step:** Cl(9,5) ≅ M(64,H) is simple (over H and over R), acts irreducibly on
-S = H^{64}; Clifford contraction c ∘ ι: Λ² ⊗ S → S is non-zero for all non-zero inputs;
-tensoring with Λ¹ via the (9,5) metric gives the shiab over R. H-linearity is a bonus,
-not an obstruction.
+**Key step:** the explicit Clifford-contraction formula is natural and non-zero on a
+simple input such as e^1 wedge e^2 tensor s. Simplicity of Cl(9,5) and H-linearity support
+the representation-theoretic setting, but they do not imply injectivity of the displayed
+map. Future work that needs injectivity must compute the Hom-space rank/kernel directly.
 
 **Open follow-on:** The generation count (whether the index of the Dirac-type operator
 on Y¹⁴ yields exactly 3) must be rederived for Cl(9,5) with S = H^{64}, dim_R = 256.
@@ -78,7 +88,7 @@ doubling of spinor module dimension.
 - `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md` (§1.2 dark energy claim)
 - `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` (PC4, torsion-for-Λ)
 
-**Status:** ✅ COMPLETE (2026-06-22)
+**Status:** CONDITIONALLY_RESOLVED (corrected 2026-06-23; C1+C2 independence clarified 2026-06-25)
 
 **Result:**
 
@@ -90,8 +100,9 @@ Dynamism (θ is not forced constant): **PROVED.** The metric-compatibility argum
 forces λ = constant does not apply to θ. θ is free to vary with curvature, dissolving the
 fine-tuning problem at the structural level.
 
-Divergence-free (D_A* θ = 0): **PROVED (on-shell, C3 path).** The C3 / Noether path closes
-the condition. Proof:
+Divergence-free (D_A* θ = 0): **CONDITIONALLY_RESOLVED, not proved unconditionally.** The
+C3 / Noether-second-theorem path closes the condition only if theta is derived from a
+written GU action as the relevant Euler-Lagrange/source sector. Proof skeleton:
 
 1. **Action:** S[A] = ∫_{Y¹⁴} ‖F_A‖²_ℊ dvol_ℊ (Yang-Mills on Y¹⁴, where ℊ is the gimmel
    metric of signature (9,5) from the N1 audit). The action is gauge-invariant under G
@@ -104,23 +115,24 @@ the condition. Proof:
    Proof: gauge variation δ_ξ A = D_A ξ, so δS = ∫tr(E_A · D_A ξ) = ∫tr(D_A*E_A · ξ) = 0
    for all compactly supported ξ, hence D_A*E_A = 0. ✓
 
-4. **Identification θ = D_A*F_A:** The GU vacuum field equation (schematic from transcript
+4. **Conditional identification θ = D_A*F_A:** The GU vacuum field equation (schematic from transcript
    [00:25:56]: divergence operator on curvature term and dark energy term both give zero)
-   reads D_A*F_A − θ = 0, identifying θ = D_A*F_A on-shell. ✓
+   is reconstructed as D_A*F_A − θ = 0, identifying θ = D_A*F_A on-shell. This is the
+   load-bearing unproved action-level identification, not a verified theorem. ⚠
 
-5. **Conclusion:** D_A*θ = D_A*(D_A*F_A) = 0 by Noether. ✓
+5. **Conclusion:** D_A*θ = D_A*(D_A*F_A) = 0 by Noether only after Step 4 is derived from
+   the actual GU variational principle. ⚠
 
-The 120-orders-of-magnitude problem dissolves structurally: θ is dynamic, gauge-equivariant,
-and divergence-free by gauge symmetry alone — not by the metric-annihilation condition that
-kills the dynamics of λg_{μν}.
+The 120-orders-of-magnitude problem is structurally reframed, not solved: θ is dynamic and
+gauge-equivariant, but its divergence-free equation is conditional on the action-level
+structural identification above.
 
-**Residual nuances (not blocking):**
-- The identification θ = D_A*F_A is on-shell (holds on vacuum solutions), not off-shell.
-  D_A*θ = 0 is therefore an on-shell consequence of the off-shell Noether identity, which
-  is the correct structure for a field equation (same as ∇^μ G_{μν} = 0 in GR).
-- Gimmel G-invariance (C1) is used to establish gauge-invariance of ‖F_A‖², and is
-  well-motivated by the canonical Frobenius + trace-reverse + horizontal-pullback construction
-  but not computed in full coordinates. At exploration grade this is taken as confirmed.
+**Residual blockers:**
+- The identification θ = D_A*F_A is on-shell reconstruction, not derived from a written
+  GU action. This is blocking for RESOLVED status.
+- Gimmel G-invariance (C1) remains a needed action-invariance cross-check. It is not an
+  independent Noether-first-theorem route to D_A*θ = 0; any correct Noether proof is the
+  same Noether-second-theorem/E_A-sector route.
 
 **Key files:**
 - `explorations/dark-energy-divergence-free-proof-2026-06-22.md` (equivariance + conditional)
@@ -228,13 +240,13 @@ Layer 3 result feeds Phase 2 interpretation regardless of Layers 1-2 outcome.
 | 2026-06-22 | N1 signature audit RESOLVED: correct signature is (9,5) not (7,7). Derivation: fiber Frobenius (7,3) → trace-reversal → (6,4) fiber + (3,1) base = (9,5) total. Correct algebra is Cl(9,5) ≅ M(64,H), spinor module S = H^64 (dim_R = 256). Shiab SURVIVES under (9,5): Clifford contraction is H-linear hence R-linear, Spin(9,5)-equivariant, non-zero. Layer 1 upgraded to COMPLETE. Filed n1-signature-audit-y14-clifford-algebra-2026-06-22.md. |
 | 2026-06-22 | Layer 3 (D-FORK): UNDECIDABLE within current TI formalism. (N) fails formally (no fixed A_∞ for Gödelian trajectories; proved via path-dependence argument and Lindenbaum-Tarski algebra). (C) not settled: navigation-of-non-computable-sheaf is formally coherent and consistent with all proved results (E042 productivity, E049 DR≠0, E050 quorum equivariance). Resolution requires ontological commitment (Platonism → navigation; constructivism → creation). Recommended next step: Option A — constructivist formalization of Compat_G in intuitionistic arithmetic. LAYER-OBL-001 sub-req 3 OPEN with three named resolution paths. GU analog confirmed for geometric moduli space. Filed E051. |
 | 2026-06-22 | Layer 3 (Option A executed): MLTT formalization of Compat_G completed. Consistency type Cons(PA, A_S, c) defined constructively; Stone space of LT(PA) proved absent from MLTT (requires non-constructive ultrafilter lemma). (N) fails as malformed in MLTT; (C) holds — each SBP morphism constructs proof terms that did not previously exist. All prior TI results survive constructively (E038/E039/E042/E049/E050). LAYER-OBL-001 sub-req 3 CLOSED under creation verdict (conditional on MLTT adoption). LAYER-OBL-001 overall CLOSED (all three sub-reqs). PP-3 holds. Filed E052. |
-| 2026-06-22 | Layer 2 (C3/Noether path executed): D_A*θ = 0 PROVED on-shell. Route: Yang-Mills action S[A] = ∫‖F_A‖² on Y¹⁴ is gauge-invariant → Noether's second theorem gives D_A*(δS/δA) = 0 off-shell → vacuum field equation identifies θ = D_A*F_A → D_A*θ = 0. Structure group G = U(spinor bundle on Y¹⁴), field content zero-forms and one-forms in ad P (per transcript [00:49:16]). Identification θ = D_A*F_A is on-shell (correct level for a field equation). Gimmel G-invariance (C1) absorbed into gauge-invariance proof of ‖F_A‖² via Frobenius + trace-reverse canonical construction. Layer 2 upgraded from ⚠️ CONDITIONAL to ✅ COMPLETE. Filed dark-energy-noether-closure-2026-06-22.md. |
-| 2026-06-22 | **N5 generation count SM branching closure** — representation-theory computations (a) and (b) from NEXT-STEPS.md N5 completed. (a) ℍ-line counting: D_GU commutes with right-ℍ multiplication (proved), so ker(D_GU) is a right-ℍ-module and the natural index is ind_ℍ(D_GU) ∈ ℤ (ℍ-lines), not dim_R. Factor-of-4 gap resolved: naive "4 SM generations from dim_R(S⁺) = 128" is an artifact of wrong counting unit; correct unit is ℍ-lines (8 ℍ-lines per SM generation). (b) S(6,4) → SM branching: S(6,4) = ℂ^16 decomposes under SU(4)×SU(2)_L×SU(2)_R as (4,2,1) ⊕ (4̄,1,2) = one Pati-Salam generation = 16 Weyl fermions [verified, dim check ✓]. Under SU(3)×SU(2)_L×U(1)_Y this gives Q_L(3,2,1/6) + L_L(1,2,-1/2) + ū_R(3̄,1,-2/3) + d̄_R(3̄,1,+1/3) + ē_R(1,1,+1) + ν_R(1,1,0) = 6+2+3+3+1+1 = 16 Weyl fermions [verified]. RS(3,1) ⊗ S(6,4) contributes 1 SM generation (16 Weyl fermions) with SM charges from S(6,4) and Lorentz spin-3/2 from RS sector (flipped chiral = conjugate internal reps). Total: 3 generations from 2 spin-1/2 + 1 RS sectors. Status: CONDITIONALLY 3 — remaining open conditions are analytic (ind_ℍ = 24 from topology; non-compact index theory), not representation-theoretic. Filed generation-count-sm-branching-closure-2026-06-22.md. |
-| 2026-06-22 | **N4 RESOLVED — IG dimension matching and τ⁺/Sp(64) construction.** The residual from the anomaly audit (dim sp(64) = 8256 vs. 16384) is CLOSED. Key findings: (1) τ⁺: Sp(64) → IG is a well-defined group homomorphism — the construction is purely group-theoretic and works for any Lie group G (verified against standard gauge theory references: Atiyah-Hitchin-Singer, Bleecker). (2) The 16384 = dim u(128) figure was a coincidence of the (7,7) real-type Clifford algebra where dim_R Cl(7,7) = 128^2 = dim_R u(128); no physical requirement forces dim g = 2^{14} in the (9,5) setting. (3) The shiab Phi: Omega^2 ⊗ S → Omega^1 ⊗ S uses Cl(9,5) and S = H^{64}, NOT sp(64) — shiab and gauge algebra dimensions are independent (disjoint bundles over Y^{14}). (4) Double coset equivariance theta(tau+(g_a) · omega · tau+(g_b)) = Ad(g_b)^{-1} theta(omega) holds for G = Sp(64) by the standard proof. NGUYEN §2 FULLY CLOSED. Filed explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md. Updated nguyen-critique-full-synthesis.md §3.2 from "SUBSTANTIALLY ADDRESSED; one residual open" to "FULLY CLOSED". Updated NEXT-STEPS.md N4. |
+| 2026-06-22 | Layer 2 (C3/Noether path executed; **superseded by CORRECTION DARK-ENERGY-01 and 2026-06-25 sweep**): this row originally marked D_A*θ = 0 PROVED on-shell. Current status is CONDITIONALLY_RESOLVED. The Noether-second-theorem route is structurally sound only after the written GU action derives theta as the relevant Euler-Lagrange/source sector; C1+C2 is a gauge-invariance cross-check, not an independent Noether route. Filed dark-energy-noether-closure-2026-06-22.md. |
+| 2026-06-22 | **N5 generation count SM branching closure** (**superseded by GEN corrections; current status OPEN**): representation-theory computations identified the intended 2 spin-1/2 + 1 RS arithmetic, but the claimed "Total: 3 generations" / "CONDITIONALLY 3" status is stale. Candidate-A three-generation arithmetic remains a reconstruction target; the RS leg `ind_H(D_RS)=8` is unproved and all analytic routes remain blocked, failed, or circular. Filed generation-count-sm-branching-closure-2026-06-22.md. |
+| 2026-06-22 | **N4 IG dimension matching and τ⁺/Sp(64) construction**: the dimension-matching residual (dim sp(64) = 8256 vs. 16384) is closed, and τ⁺ construction remains a valid group-theoretic result. **Supersession note 2026-06-25:** the row's original "NGUYEN §2 FULLY CLOSED" language was too strong. Current status: Nguyen §2 anomaly pincer is SUBSTANTIALLY_ADDRESSED; U(128) is defused by Sp(64), but full GU anomaly cancellation remains non-canon pending explicit local I_16/index-density and global spin-bordism/Dai-Freed/eta checks. Filed explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md. |
 | 2026-06-22 | **Phase 1 parallel agent results in.** Four agents (A–D) returned verdicts on anomaly structure, generation count, hidden curvature, and distortion + bundle formalization. See Phase 1 Results section below. |
-| 2026-06-22 | **Synthesis paper drafted.** `papers/canonical-structures-14d-metric-geometry-2026-06-22.md` — 9-section technical paper synthesizing all Phase 1 and follow-on results. Verified results stated as theorems with proof sketches (signature (9,5), spin structure w₂=0, shiab existence, Sp(64) anomaly cancellation, SM branching to one generation). Reconstruction-grade results flagged (RS sector generation content, torsion curvature SL(2,ℂ) labels). Four open questions with precise closure conditions: OQ1 discrete series condition for fiber Dirac operator (central analytic gap for generation count), OQ2 Codazzi equation for Sp(64) bundle, OQ3 Velo-Zwanziger evasion for spin-3/2 sector, OQ4 variational principle on Γ(π). Nguyen §2 critique fully dissolved under (9,5) correction. |
+| 2026-06-22 | **Synthesis paper drafted** (**historical, partially superseded**). `papers/canonical-structures-14d-metric-geometry-2026-06-22.md` synthesized Phase 1 and follow-on results. Current readers should not inherit its stronger anomaly/generation wording without later corrections: Shiab existence remains resolved only for one equivariant map; Sp(64) anomaly cancellation is substantially addressed but not canon; generation count is OPEN; Nguyen §2 is substantially addressed, not fully closed. |
 | 2026-06-23 | **CORRECTION THETA-01 — theta-field ratio prediction overstated.** The claim in `explorations/theta-field-flrw-eos-2026-06-23.md` §7.2 and §12.1 that the ratio w_a/(w_0+1) ~ -1.80 is "independent of f_0 (the unknown initial amplitude)" and constitutes a "genuine GU prediction" was overstated. The ratio is f_0-independent (correct algebra: f_0 cancels). However, the numerator -3.17 f_0 comes from dw_B/dz at z=0, which was evaluated at phi_0 ~ 1.94 rad derived from the de Sitter tracker approximation. A different phi_0 gives a different dw_B/dz and a different ratio. The ratio is dependent on phi_0, which depends on matter-era evolution that was acknowledged as not computed (OQ3). Corrections applied to: (a) exploration §7.2 and §12.1, (b) exploration §11 OQ5 replaced with phi_0-dependence task, (c) exploration §9.2 "genuine GU prediction" framing replaced, (d) canon/theta-field-flrw-dark-energy-eos.md Result 3 and Primary Gap sections. Correct description: "reconstruction-grade estimate conditional on phi_0 ~ 1.94 rad from the de Sitter tracker, independent of f_0 but not of phi_0." Canon file remains at CONDITIONALLY_RESOLVED; no demotion to explorations needed as the underlying physics is otherwise sound. New open task: compute full phi_0-dependence of w_a/(w_0+1) to determine whether -1.80 is a min/max/saddle. |
-| 2026-06-23 | **VZ evasion for mixed 14D covectors: CONDITIONALLY_RESOLVED (reconstruction).** For all `xi = xi_H + xi_V in T*Y^14` with `g_Y(xi,xi) != 0`, the effective RS principal symbol `S_R^{14D}(xi)` has trivial kernel. Proof: the Clifford module identity `M(xi)^2 = xi2 Id_E` forces `ker S_R = 0` via Schur block-inversion argument (if `S_R psi_R = 0` then `M(xi)(psi_R, -E^{-1}C psi_R) = 0`, hence `xi2(psi_R,...) = 0`, hence `psi_R = 0`). Full chain: OQ1 RESOLVED (`S_R^2 != xi2 Id`; correct statement `A S_R = xi2 Id` exact); OQ2 CONDITIONALLY_RESOLVED (curvature terms zero-order, no new characteristics); OQ2-b subprincipal CONDITIONALLY_RESOLVED; OQ3-V1/V2/V3 RESOLVED (4D section pullback VERIFIED). F5 CONDITIONALLY_RESOLVED; F6 CONDITIONALLY_RESOLVED (B/C blocks kinematic, loop-exact). VZ evasion status: EVADED. Full gamma-trace RS definition in 14D: `R^{14D} = ker Gamma^{14D}`, dim_R = 3328. Filed `explorations/vz-14d-mixed-covectors-2026-06-23.md` (synthesis), `explorations/vz-schur-complement-2026-06-23.md` (main Schur; OQ3-V1/V2/V3), `explorations/vz-oq1-sr-squared-identity-2026-06-23.md`, `explorations/vz-oq2-lower-order-curvature-2026-06-23.md`, `explorations/vz-subprincipal-symbol-rs-2026-06-23.md`, `explorations/vz-f5-curvature-check-2026-06-23.md`, `explorations/vz-f6-eft-decoupling-2026-06-23.md`. |
+| 2026-06-23 | **VZ mixed 14D covectors (superseded scope):** the original row marked the lane `EVADED` and the 4D pullback `VERIFIED`. Current status after VZ-01 / 2026-06-25 sweep: 14D mixed-covector VZ is CONDITIONALLY_EVADED pending independent E-block invertibility; 4D section-pullback is CONDITIONALLY_RESOLVED at principal-symbol grade, not full verified dynamics. Filed `explorations/vz-14d-mixed-covectors-2026-06-23.md` and corrected owner/canon surfaces. |
 | 2026-06-23 | **CORRECTION DARK-ENERGY-01 (MO-03): Dark energy theta divergence-free verdict downgraded from RESOLVED to CONDITIONALLY_RESOLVED.** The canon file `canon/dark-energy-theta-divergence-free.md` carried verdict RESOLVED based on the C3/Noether path. Review found the central claim D_A* theta = 0 rests on Assumption 3 (structural identification: theta is the gauge-potential sector of E_A), which is explicitly labeled reconstruction grade and is not proved. The C3 Noether argument is structurally sound but conditional on Assumption 3. The C1+C2 alternative path (gimmel G-invariance) is explicitly acknowledged as open. Neither path is complete. Changes applied: (a) frontmatter verdict changed from RESOLVED to CONDITIONALLY_RESOLVED; (b) correction field added to frontmatter; (c) Step 4 header updated from COMPLETE to CONDITIONALLY COMPLETE; (d) Step 4 opening sentence clarified as conditional on Assumption 3; (e) Assumption 3 block expanded with explicit statement that it is unproved and load-bearing; (f) Known Failure Modes expanded from 3 to 5 named failure modes (F1–F5), with F2 explicitly stating neither path is complete; (g) Upgrade Conditions section added with two conditions for upgrade to RESOLVED; (h) CANON.md entry updated; (i) RESEARCH-STATUS.md current research map entry updated. |
 | 2026-06-23 | **NOTE MO-07 (OC2 Gate A1 — P_disc target unanswered): No verdict change; three failure conditions added (FC7-FC9).** The file `explorations/oc2-sobolev-a1-bounded-transform-2026-06-23.md` carried verdict CONDITIONALLY_RESOLVED with FC1-FC6, but did not address the fundamental question: what is P_disc projecting onto when SL(4,R) has no scalar discrete series (Harish-Chandra criterion fails: rank(G) = 3 ≠ rank(K) = 2)? In the non-compact Y^14 setting, the scalar sector of D_GU on SL(4,R)/SO_0(3,1) has no L^2 discrete spectrum; the three framework candidates (b-calculus, scattering, Melrose-Piazza) each supply conditional boundedness but none verify that a non-trivial discrete sector exists on the non-compact fiber. Changes applied: (a) Priority note added to §1 (before Problem Statement) naming the unanswered question and routing clarification that Gate A1 is only operative for the secondary non-compact Y^14 analytic program — the primary APS/K3 route bypasses A1 by working on the compact K3 factor; (b) Three additional failure conditions added to §8: FC7 (scalar P_disc has empty target on non-compact fiber — no discrete series for SL(4,R)), FC8 (tau-twist S(6,4) fails to generate discrete L^2 spectrum on A3 fiber, collapsing the non-compact Y^14 analytic program onto the APS/K3 route), FC9 (Gate A1 is non-load-bearing because APS/K3 route is primary, making CONDITIONALLY_RESOLVED a mislabeled priority weight rather than a false verdict). Verdict CONDITIONALLY_RESOLVED is retained — the frameworks do supply conditional boundedness — but the file now makes explicit that this is secondary to the APS/K3 route and that the P_disc target question is open. |
 | 2026-06-23 | **CORRECTION VZ-01 (critical): VZ 14D mixed-covector status downgraded from EVADED to CONDITIONALLY_EVADED.** The §4 argument in `explorations/vz-14d-mixed-covectors-2026-06-23.md` uses `E^{-1}` without proving E invertible. The `det(M) = det(E)*det(S_R)` identity is a consequence of E being invertible, not a proof of it -- using it to conclude `det(E) != 0` is circular. If E has a null vector for some xi with `xi2 != 0`, the Schur block fails before the kernel argument. Changes applied: frontmatter `vz_evasion_status` changed to `CONDITIONALLY_EVADED` and correction field added; §4 invertibility remark replaced with explicit precondition-failure analysis; §7 table mixed-covector and E-block rows updated; §7 overall verdict updated; §9 rewritten with open precondition. The 4D pullback (OQ3-V1/V2/V3, VERIFIED) and the Clifford non-decoupling argument are unaffected. Open precondition: prove `E(xi): Q -> Q` has trivial kernel for all xi with `g_Y(xi,xi) != 0` by direct Cl(9,5) computation. |
@@ -251,8 +263,8 @@ Layer 3 result feeds Phase 2 interpretation regardless of Layers 1-2 outcome.
 
 | Agent | Task | Verdict | File |
 |---|---|---|---|
-| A | Anomaly audit — Cl(9,5) gauge group and Nguyen §2 | ANOMALY_CANCELS_AUTOMATICALLY | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
-| B | Generation count — Cl(9,5) Dirac-DeRham complex | CONDITIONALLY_3 | `explorations/generation-count-cl95-dirac-derham-2026-06-22.md` |
+| A | Anomaly audit — Cl(9,5) gauge group and Nguyen §2 | SUPERSEDED: NGUYEN_U128_PINCER_SUBSTANTIALLY_ADDRESSED; FULL_GU_ANOMALY_OPEN | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| B | Generation count — Cl(9,5) Dirac-DeRham complex | SUPERSEDED: OPEN | `explorations/generation-count-cl95-dirac-derham-2026-06-22.md` |
 | C | VZ1 + HC1 — Velo-Zwanziger no-go and hidden curvature | VZ1: unconfirmed evasion; HC1: THREE HIDDEN CONFIRMED under torsion-sourcing reading | `explorations/hc1-hidden-curvature-components-2026-06-22.md` |
 | D | DD1 + PC2 — Distortion literature and bundle stub | DD1: PARTIALLY_NAMED; PC2: formalization stub complete | `explorations/dd1-distortion-tensor-literature-check-2026-06-22.md`, `explorations/pc2-met-x4-bundle-formalization-stub-2026-06-22.md` |
 
@@ -260,7 +272,11 @@ Layer 3 result feeds Phase 2 interpretation regardless of Layers 1-2 outcome.
 
 The correct gauge group in the (9,5) setting is **Sp(64) = U(64,H)**, not U(128). This follows from the fact that Cl(9,5) ≅ M(64,H) is a quaternionic algebra; the natural automorphism group of the spinor module S = H^{64} as a quaternionic Hermitian space is Sp(64) with dim_R = 8256. Nguyen's dimension-matching argument for U(128) was an artifact of the (7,7) real-type Clifford algebra and does not transfer.
 
-Sp(64) has no perturbative chiral anomaly in 14D: the fundamental representation is pseudoreal, so the chiral anomaly coefficient n_L - n_R = 0 identically (pseudoreality pairs left- and right-handed contributions). There is no global Z_2 anomaly either: pi_{15}(Sp) = Z (not Z_2 by Bott periodicity), so no Witten-type global anomaly exists in 14D. Both horns of Nguyen's §2 pincer dissolve.
+**Supersession note 2026-06-25 (ANOMALY-01):** this positive audit defuses the
+specific Nguyen U(128) pincer, but it does not prove full GU anomaly cancellation.
+Pseudoreality and pi_15(Sp) are not enough by themselves for the actual 14D chiral field
+content. Current status: local cancellation needs the explicit `I_16`/index-density
+calculation, and global cancellation needs spin-bordism/Dai-Freed/eta control.
 
 **Residual open:** dim sp(64) = 8256 (vs. the 16384 = dim u(128) that anchored Nguyen's algebra-dimension matching). Whether the IG = Sp(64) ⋉ Omega^1(sp(64)) construction achieves the correct algebra-dimension match for the shiab must still be verified. The tau+ homomorphism's behavior in the (9,5)/Sp(64) setting has not been fully checked.
 
@@ -270,7 +286,10 @@ The chirality operator omega^2 = +1 in Cl(9,5) (verified), giving a well-defined
 
 The structural mechanism for 3 = 2 + 1 generations (V ⊕ W spinor product rule + Rarita-Schwinger term + Pati-Salam content SU(4)×SU(2)×SU(2) from the fiber structure group Spin(6)×Spin(4)) is preserved under the Cl(9,5) correction. The Pati-Salam group appearing in the fiber spinor decomposition matches S(6,4) = C^{16} decomposing as (4,2,1) ⊕ (4-bar,1,2) under SU(4)×SU(2)_L×SU(2)_R.
 
-**Two bounded computations remain:** (a) whether the index counts H-lines (quaternionic zero modes) not R-lines — needed to avoid overcounting by a factor of 2 from S^+ = H^{32}; (b) whether RS(3,1) ⊗ S(6,4) decomposes as exactly 16 Weyl fermions (one SM generation) under SU(3)×SU(2)×U(1). Verdict: CONDITIONALLY 3, subject to these two computations.
+**Supersession note 2026-06-25 (GEN-OPEN-01):** these representation-theoretic
+computations identify the intended arithmetic but do not derive the analytic index.
+Current status: generation count OPEN; the RS leg and non-compact Fredholm/index
+framework remain load-bearing.
 
 ### Agent C — VZ1 + HC1 (Key Findings)
 
@@ -400,8 +419,14 @@ Derived the explicit coefficient C_GU = 8 in Lambda_GU = C_GU * epsilon_sec^2 / 
 File: `explorations/cpa1-tobs-coefficient-2026-06-23.md`
 
 ### vz-schur (2026-06-23)
-Verdict: EVADED
-Extended the Schur complement symbol computation from horizontal covectors to all mixed 14D covectors `xi = xi_H + xi_N` using Spin(9,5) Clifford module structure. The decisive result (§8): for any `xi` with `g_Y(xi,xi) != 0`, the kernel of `D_RS_eff(xi) = S_R^{14D}(xi)` is trivial. Proof uses the Clifford module identity `sigma_D(xi)^2 = xi2 Id_E` and the Schur determinant formula -- if `S_R psi_R = 0`, then `M(xi)(psi_R, -E^{-1} C psi_R) = 0`, so `xi2 (psi_R, ...) = 0`, forcing `psi_R = 0` when `xi2 != 0`. The characteristic cone of `D_RS_eff` is the null cone; no spacelike characteristics exist; VZ obstruction is absent at the principal-symbol level for the full 14D RS sector defined by the full 14D gamma trace. Remaining open: exact matrix identity `S_R^2 = xi2 Id` (vs. trivial kernel only); lower-order curvature protection; 4D section-pullback preservation of the Clifford property.
+Verdict: SUPERSEDED_TO_CONDITIONALLY_EVADED
+Extended the Schur complement symbol computation from horizontal covectors to all mixed
+14D covectors `xi = xi_H + xi_N` using Spin(9,5) Clifford module structure.
+**Supersession note 2026-06-25 (VZ-01):** the old `EVADED` verdict used `E^{-1}`
+before independently proving the E-block invertible. Current status: 14D mixed-covector
+VZ is CONDITIONALLY_EVADED pending a direct E-block proof; 4D pullback is
+CONDITIONALLY_RESOLVED at principal-symbol grade, not a full verified dynamics theorem.
+Historical details are retained in the source exploration.
 File: `explorations/vz-schur-complement-2026-06-23.md`
 
 ### ii-s-explicit (2026-06-23)
@@ -504,15 +529,21 @@ File: `explorations/ic4-lagrangian-tmunu-derivation-2026-06-23.md`
 ---
 
 ### discrete-series (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
-Addressed OQ3b (RS block index = 8) and OQ3c (index additivity), the two remaining open gates from the prior OQ3 restructuring pass. OQ3b: the RS physical d.o.f. count gives (4 vector components - 1 gamma-trace constraint - 1 gauge invariance) x C^{16} fiber = C^{32} physical RS modes; the chiral half yields dim_H = 8 H-lines (one SM generation), consistent with the established 8 H-lines/generation count; H-linearity of the gamma-trace projection follows from the Cl(9,5) ~= M(64,H) bimodule structure. OQ3c: index additivity ind_H(D_GU) = ind_H(D_{1/2}) + ind_H(S_R^{eff}) = 16 + 8 = 24 established via Atkinson-Schur LDU factorization and H-orthogonality of the spin-1/2/RS Clifford projections. The generation count ind_H(D_GU) = 24 = 3 generations is CONDITIONALLY_RESOLVED at reconstruction grade; the remaining hard gate is OQ3b's analytic Fredholm index theorem for S_R^{eff} on the non-compact discrete-series L2 space over Y^{14}.
+Verdict: SUPERSEDED_TO_OPEN_FOR_GENERATION_COUNT
+Historical entry. This pass supplied useful reconstruction arithmetic, but later audits found
+that the RS analytic index leg is not derived and that all previous analytic routes are
+blocked, failed, or circular. Current status: generation count OPEN; cite the arithmetic
+as a target only, not as a conditionally resolved count.
 File: `explorations/n5-discrete-series-gl4r-2026-06-23.md`
 
 ---
 
 ### vz-schur (2026-06-23)
-Verdict: EVADED (overall); OQ3 CONDITIONALLY_RESOLVED (this pass)
-The main vz-schur computation (mixed-covector Schur complement, §8 kernel argument, full 14D gamma-trace RS projection) was already filed; this pass adds §17 computing OQ3 (section-pullback 4D preservation). Key result: the section pullback `s*(D_GU)` preserves the 4D Clifford module property by naturality of principal symbols -- `sigma_{s*(D_GU)}(eta)^2 = g_s(eta,eta) Id_{E_s}` for all horizontal 4D covectors, because the second fundamental form II_s contributes only zero-order (Gauss formula) terms that do not affect the principal symbol. The §8 kernel argument descends to 4D verbatim, giving `ker S_{R_s}^{4D}(eta) = 0` for `g_s(eta,eta) != 0`. VZ evasion at 14D descends to VZ evasion at 4D. Remaining open for OQ3: OQ3-V1 (CAS coordinate check), OQ3-V2 (4D E block explicit invertibility check), OQ3-V3 (`R_s = ker Gamma^{4D}` identification).
+Verdict: SUPERSEDED_TO_14D_CONDITIONALLY_EVADED / 4D_CONDITIONALLY_RESOLVED
+Historical entry. The main Schur argument depends on E-block invertibility and therefore
+does not close 14D VZ evasion. Current status: 14D CONDITIONALLY_EVADED pending an
+independent E-block proof; 4D section-pullback is CONDITIONALLY_RESOLVED at
+principal-symbol grade, not a full verified dynamics theorem.
 File: `explorations/vz-schur-complement-2026-06-23.md`
 
 ---
@@ -869,7 +900,7 @@ File: `explorations/taf-h3-contact-2026-06-23.md`
 
 ### signed-readout-theorem-statement (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
-Formally stated the signed-readout boundary theorem with full hypotheses (H1-H7 covering free commutative monoid, lattice-ordered abelian group, unique homomorphic extension, PN/Jordan split, Z-grading, and H-linearity), a five-part conclusion (M: monotonicity iff; P: provenance always monotone; C: coexistence at the boundary; Z: integer-index stability; K: K-theory lift to KSp^0 = KO^4), and seven explicit falsification conditions (F1-F7). The two physical instances are placed precisely: GW axial charge Q_A occupies the non-monotone side (coexistence case, Part C), while GU generation count ind_H = 24 occupies the monotone degenerate side (R_- = 0). Core Parts M/P/C are RESOLVED at reconstruction grade; Parts Z/K are gated on non-compact Atiyah-Jannich stability (OC1) and H-linear Fredholm theory on non-compact Y^14 (OC2).
+Formally stated the signed-readout boundary theorem with full hypotheses (H1-H7 covering free commutative monoid, lattice-ordered abelian group, unique homomorphic extension, PN/Jordan split, Z-grading, and H-linearity), a five-part conclusion (M: monotonicity iff; P: provenance always monotone; C: coexistence at the boundary; Z: integer-index stability; K: K-theory lift to KSp^0 = KO^4), and seven explicit falsification conditions (F1-F7). The two physical instances are placed precisely: GW axial charge Q_A occupies the non-monotone side (coexistence case, Part C), while GU generation-count target ind_H = 24 (OPEN as a physics count) occupies the monotone degenerate side (R_- = 0). Core Parts M/P/C are RESOLVED at reconstruction grade; Parts Z/K are gated on non-compact Atiyah-Jannich stability (OC1) and H-linear Fredholm theory on non-compact Y^14 (OC2).
 File: `explorations/signed-readout-theorem-statement-2026-06-23.md`
 
 ---
@@ -896,8 +927,13 @@ File: `explorations/n3-cech-fixture-specification-2026-06-23.md`
 ---
 
 ### vz1-oq3-gravitational-vz (2026-06-23)
-Verdict: EVADED
-Computed whether the Weyl tensor of the gimmel metric on Y^14 produces gravitational Velo-Zwanziger causality problems for the RS sector independent of gauge coupling (VZ1 OQ3). Three-leg reconstruction-grade argument: (1) the Clifford algebra identity c(xi)^2 = g_Y(xi,xi) Id_S is curvature-independent (algebraic, verified grade); the Weyl tensor W_{ABCD} enters D_GU only as a zero-order Weitzenbock term, never modifying the principal symbol sigma_1(D_GU)(xi) = c(xi); (2) the classical gravitational VZ mechanism requires a standalone RS field with an externally imposed subsidiary condition -- GU fails all three preconditions (standalone, external subsidiary, constraint differentiation chain); (3) the commutator [D_GU, Gamma^{14D}] is zero-order by metric compatibility, so the gamma-trace RS sub-bundle is preserved under propagation of singularities. The evasion root is identical to the gauge-coupling VZ evasion: both rely on the Clifford identity being insensitive to background curvature. 4D section pullback preserves evasion; the K3 Weyl tensor shifts the RS mass spectrum but not the characteristic cone. VZ1 OQ3 now EVADED (reconstruction); five explicit failure conditions stated (F1-F5). OQ-GVZ-1 (CAS commutator check) is the main remaining gate.
+Verdict: CONDITIONALLY_RESOLVED_FOR_GRAVITATIONAL_PRINCIPAL_SYMBOL_LEG
+Computed whether the Weyl tensor of the gimmel metric on Y^14 produces a separate
+gravitational VZ principal-symbol problem for the RS sector independent of gauge
+coupling. Current scope: curvature enters as lower/zero-order structure in this
+reconstruction argument, so no independent gravitational principal-symbol obstruction is
+identified. This does not upgrade the overall VZ lane beyond 14D CONDITIONALLY_EVADED /
+4D CONDITIONALLY_RESOLVED.
 File: `explorations/vz1-oq3-gravitational-vz-weyl-tensor-2026-06-23.md`
 
 ---
@@ -1291,7 +1327,7 @@ File: `explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md`
 
 ### signed-readout-theorem (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
-Formal theorem statement for the signed-readout boundary theorem written at reconstruction grade and promoted to canon path. Five-part theorem (M/P/C/Z/K) with full hypotheses H1-H7, complete elementary proofs for the core (Parts M, P, C), and seven explicit falsification conditions F1-F7. The core claim -- monotone provenance coexists with non-monotone readout precisely when any generator weight is negative (w_- != 0) -- is RESOLVED at reconstruction grade with explicit proofs requiring only free commutative monoids and lattice-ordered abelian groups. The integer-index stability (Part Z) and K-theory lift (Part K) are CONDITIONALLY_RESOLVED, gated on Atiyah-Jannich stability for the non-compact Y^14 setting (OC1) and H-linear Fredholm theory for L^2(Y^14, S=H^64) (OC2). Two worked physical instances occupy opposite sides of the boundary: GW axial charge Q_A = n_+ - n_- (non-monotone, coexistence case) and GU generation count ind_H = 24 (monotone, degenerate case with w_- = 0).
+Formal theorem statement for the signed-readout boundary theorem written at reconstruction grade and promoted to canon path. Five-part theorem (M/P/C/Z/K) with full hypotheses H1-H7, complete elementary proofs for the core (Parts M, P, C), and seven explicit falsification conditions F1-F7. The core claim -- monotone provenance coexists with non-monotone readout precisely when any generator weight is negative (w_- != 0) -- is RESOLVED at reconstruction grade with explicit proofs requiring only free commutative monoids and lattice-ordered abelian groups. The integer-index stability (Part Z) and K-theory lift (Part K) are CONDITIONALLY_RESOLVED, gated on Atiyah-Jannich stability for the non-compact Y^14 setting (OC1) and H-linear Fredholm theory for L^2(Y^14, S=H^64) (OC2). Two worked physical instances occupy opposite sides of the boundary: GW axial charge Q_A = n_+ - n_- (non-monotone, coexistence case) and GU generation-count target ind_H = 24 (OPEN as a physics count; monotone, degenerate case with w_- = 0).
 File: `active-research/signed-readout/theorem-statement-v1-2026-06-23.md`
 
 ---
@@ -1481,19 +1517,25 @@ equistatus, gated on OQ-RK1 (CAS matrix computation of rank_H(S_RS^+) in M(64,H)
 
 ---
 
-### CORRECTION MO-01 — Shiab injectivity argument repaired (2026-06-23)
+### CORRECTION MO-01 — Shiab injectivity argument attempted, superseded by SHIAB-01 (2026-06-23; superseded 2026-06-25)
 
 **File corrected:** `canon/shiab-existence-cl95.md`
 
 **Error (Step 3, original):** The "Non-zero on all non-zero inputs" claim was justified by the argument "c(iota_{e_a} alpha) != 0 for any non-zero alpha and generic frame, therefore the sum sum_a e^a tensor c(iota_{e_a} alpha) s is non-zero." This is logically invalid: 14 individually non-zero terms can sum to zero. The injectivity conclusion was stated without proving non-cancellation of the sum.
 
-**Fix applied:** The Clifford-contraction identity sum_a e^a c(iota_{e_a} alpha) = c(alpha^#) (Lawson-Michelsohn §II.5, eq. 5.9) collapses the 14-term sum to a single Clifford multiplication by alpha^# (the metric-dual covector of alpha). Since alpha != 0 implies alpha^# != 0, and Cl(9,5) ~= M(64,H) is simple so any non-zero element acts injectively on the unique irreducible module S = H^64, the map is injective. The sum-cancellation concern is resolved at the algebra level: there is no sum to cancel because the standard Clifford-contraction identity reduces it to a single term.
+**Supersession (SHIAB-01, 2026-06-25):** The attempted fix above was itself invalid. A 2-form has no canonical metric-dual 1-form alpha^#, and the claimed injectivity is impossible by dimension count:
 
-**Verdict change:** None. The canon/shiab-existence-cl95.md verdict remains RESOLVED. The injectivity of Phi is now established by a valid argument; the conclusion is unchanged. The three new Known Failure Modes added (sum-collapse identity precondition, non-degeneracy on gauge forms, uniqueness of equivariant map) do not affect the RESOLVED verdict for existence and injectivity.
+```text
+dim(Lambda^2 V tensor S) = 91 dim(S),   dim(V tensor S) = 14 dim(S).
+```
+
+No linear injection from the former to the latter can exist in 14 dimensions. The correct retained conclusion is narrower: the displayed Clifford-contraction formula defines at least one natural real-linear Spin(9,5)-equivariant map, and that map is non-zero. Rank, kernel, non-vanishing on every non-zero input, and uniqueness remain open representation-theory questions.
+
+**Verdict change:** `canon/shiab-existence-cl95.md` remains RESOLVED only for algebraic existence/equivariance of one natural map. It must not be cited for injectivity, rank/kernel, uniqueness, source-forced selector identity, anomaly cancellation, or generation count.
 
 **Additional changes in same edit pass:**
-- "Non-zero on all non-zero inputs" bullet in Step 3 replaced with corrected argument citing the sum-collapse identity.
-- Known Failure Modes expanded with: (a) sum-collapse identity precondition and its discharge, (b) non-degeneracy on gauge curvature forms (unchanged substance, re-worded for precision), (c) uniqueness of equivariant map (new — open representation-theory question).
+- SHIAB-01 replaces the "Non-zero on all non-zero inputs" bullet with "non-zero as a map."
+- Known Failure Modes now record kernel/rank and non-degeneracy-on-curvature as open, not discharged.
 
 ---
 
@@ -1857,7 +1899,7 @@ File: `explorations/sc1-oq2-f5-gauge-orbit-fill-2026-06-23.md`
 
 ### no-go-velo-zwanziger-canon-entry (2026-06-23)
 Verdict: CONDITIONALLY_RESOLVED
-Wrote the formal fifth-theorem Velo-Zwanziger canon entry for the no-go-class-relative-map, in the same four-part shape as the other four families: assumption list (VZ-H1 standalone RS field, VZ-H2 minimal coupling, VZ-H3 non-singlet gauge rep, VZ-H4 mild background, VZ-H5 no guardian); the condition GU satisfies in place of VZ-H1 (GU-VZ = the Clifford-module-non-sub-module mechanism: R = ker Γ is not a sub-Clifford-module of E, so the off-diagonal blocks B/C are kinematically nonzero and the exact entanglement identity A·S_R = g_Y(xi,xi)·Id_R holds, forcing the effective RS characteristic cone into the null cone); the forgetful operation (minimal-coupling functor ϕ_mc that discards the R ⊂ E embedding); and five explicit failure conditions FC-VZ-1…5 (E-block kernel on the non-null cone; existence of a standalone GU RS Lagrangian; F_A entering B/C at first order; extrinsic-curvature-sourced spacelike characteristics; IR loop corrections driving B/C to zero). Verdict is bound honestly — 14D is CONDITIONALLY_EVADED at reconstruction grade (load-bearing on the unverified E-block-invertibility precondition FC-VZ-1), 4D section-pullback is VERIFIED (OQ3-V1/V2/V3) — and neither leg is over-stated; the entry is a synthesis/no-go-map update, not a new computation or index inflation. Remaining: external verification of the E-block argument (FC-VZ-1) is the single gap separating 14D from EVADED.
+Wrote the formal fifth-theorem Velo-Zwanziger canon entry for the no-go-class-relative-map, in the same four-part shape as the other four families: assumption list (VZ-H1 standalone RS field, VZ-H2 minimal coupling, VZ-H3 non-singlet gauge rep, VZ-H4 mild background, VZ-H5 no guardian); the condition GU satisfies in place of VZ-H1 (GU-VZ = the Clifford-module-non-sub-module mechanism: R = ker Γ is not a sub-Clifford-module of E, so the off-diagonal blocks B/C are kinematically nonzero and the exact entanglement identity A·S_R = g_Y(xi,xi)·Id_R holds, forcing the effective RS characteristic cone into the null cone); the forgetful operation (minimal-coupling functor ϕ_mc that discards the R ⊂ E embedding); and five explicit failure conditions FC-VZ-1…5 (E-block kernel on the non-null cone; existence of a standalone GU RS Lagrangian; F_A entering B/C at first order; extrinsic-curvature-sourced spacelike characteristics; IR loop corrections driving B/C to zero). Verdict is bound honestly — 14D is CONDITIONALLY_EVADED at reconstruction grade (load-bearing on the unverified E-block-invertibility precondition FC-VZ-1), 4D section-pullback was originally reported as VERIFIED but is now held CONDITIONALLY_RESOLVED at principal-symbol grade — and neither leg is over-stated; the entry is a synthesis/no-go-map update, not a new computation or index inflation. Remaining: external verification of the E-block argument (FC-VZ-1) is the single gap separating 14D from EVADED.
 File: `explorations/no-go-velo-zwanziger-canon-entry-2026-06-23.md`
 
 ### c-mpr-9tuple-object-morphism (2026-06-23)
@@ -1968,7 +2010,7 @@ Fix applied to `explorations/sc1-oq2-split-signature-ellipticity-lemma-2026-06-2
 - §9 (Result): correction banner on §9.1; rewrote verdict summary, item 3, item 5, "Remaining for RESOLVED" and §9.2 "failure conditions recap" so F5 is recorded as FIRED/absorbed and the residual gates are FF3/FF4 (from the F5 file) plus the RS null-mode count and discrete-series identification.
 - §10/§11: corrected the connection-table row for sc1-oq2c (null-projection feeds part (ii); original (iii) reading FALSE) and marked OQ-F5 RESOLVED (fired), pointing to the successor FF3/FF4 gates.
 
-Verdict change: overall lemma verdict RETAINED at CONDITIONALLY_RESOLVED — the analytic-framework conclusion (D_GU is symmetric-hyperbolic / real-principal-type, NOT elliptic) SURVIVES because it is re-derived from the corrected premise (gauge-orbit-fill = Koszul-exactness at null xi; physical content carried by Cauchy-data transport per the independently CONDITIONALLY_RESOLVED `sc1-oq2b-symmetric-hyperbolic`), not from the false proper-subspace claim. The internal contradiction is now resolved in-file in favor of part (ii). Part (iii) is FALSE/SUPERSEDED; F5 is FIRED, not OPEN. Downstream verdicts (VZ evasion off-null; generation count ind_H = 24 via Atiyah-Schmid L2-theory) are untouched, as neither used a pointwise null-cohomology quotient. No CANON.md / RESEARCH-STATUS.md entry references this lemma (verified by grep), so no canon cascade was required.
+Verdict change: overall lemma verdict RETAINED at CONDITIONALLY_RESOLVED — the analytic-framework conclusion (D_GU is symmetric-hyperbolic / real-principal-type, NOT elliptic) SURVIVES because it is re-derived from the corrected premise (gauge-orbit-fill = Koszul-exactness at null xi; physical content carried by Cauchy-data transport per the independently CONDITIONALLY_RESOLVED `sc1-oq2b-symmetric-hyperbolic`), not from the false proper-subspace claim. The internal contradiction is now resolved in-file in favor of part (ii). Part (iii) is FALSE/SUPERSEDED; F5 is FIRED, not OPEN. Downstream verdicts were recorded as untouched at the time, but later status discipline treats the generation-count target ind_H = 24 as OPEN and not derived by the cited Atiyah-Schmid route, as neither used a pointwise null-cohomology quotient. No CANON.md / RESEARCH-STATUS.md entry references this lemma (verified by grep), so no canon cascade was required.
 File: `explorations/sc1-oq2-split-signature-ellipticity-lemma-2026-06-23.md` (frontmatter, §5, §6, §7.3, §8, §9, §10, §11)
 
 ### CORRECTION FH-01 (critical) — canon/no-go-class-relative-map.md Freed-Hopkins observer-pairing verdict downgraded from closed GENUINE_OBSTRUCTION to CONDITIONALLY_RESOLVED / lane-narrowed (2026-06-23)
@@ -2195,7 +2237,7 @@ Fix applied:
 - `explorations/sc1-oq2-f5-gauge-orbit-fill-2026-06-23.md`: frontmatter verdict CONDITIONALLY_RESOLVED -> OPEN (with verdict-change fields); top-of-file OPEN banner added; §6 Result verdict changed to OPEN with a "why OPEN" callout, item 1 softened to "appears to fill (working hypothesis)", item 3 conditioned on FF3/FF4 + the inter-session re-derivation gate; FF6 (same-session contradiction-resolution gate) added and recorded FIRED; §7 "For upgrade to RESOLVED" -> "For re-upgrade above OPEN" with the inter-session re-derivation listed as the primary gate.
 - Index entries for both files (above) re-headed to Verdict: OPEN with the downgrade rationale.
 
-Verdict change: `sc1-oq2-split-signature-ellipticity-lemma` and `sc1-oq2-f5-gauge-orbit-fill` both CONDITIONALLY_RESOLVED -> OPEN. The affected claim is the gauge content of NM(xi) (lemma part (iii) / the gauge-orbit-fill) and, derivatively, the gauge-mechanism basis of the elliptic->symmetric-hyperbolic switch. What is UNAFFECTED and still stands: the kernel trichotomy / null-projection facts (ker c(xi) = {0} off-null, ker c(xi) = NM(xi) at null xi; from the Clifford identity and sc1-oq2c), VZ evasion (off-null invertibility), and the generation count ind_H = 24 (Atiyah-Schmid L2-theory, never used a pointwise null-cohomology quotient). The corrected part (iii') (gauge orbit FILLS NM(xi); physical content via Cauchy-data transport) is recorded as the WORKING HYPOTHESIS to re-derive in a subsequent session. Cascade check: no CANON.md or RESEARCH-STATUS.md entry references either file (verified by grep); NEXT-STEPS.md SC1 row updated to reflect the OPEN downgrade. No new mathematics; this is a verdict-discipline correction enforcing the loop's same-session-contradiction rule.
+Verdict change: `sc1-oq2-split-signature-ellipticity-lemma` and `sc1-oq2-f5-gauge-orbit-fill` both CONDITIONALLY_RESOLVED -> OPEN. The affected claim is the gauge content of NM(xi) (lemma part (iii) / the gauge-orbit-fill) and, derivatively, the gauge-mechanism basis of the elliptic->symmetric-hyperbolic switch. What is UNAFFECTED and still stands: the kernel trichotomy / null-projection facts (ker c(xi) = {0} off-null, ker c(xi) = NM(xi) at null xi; from the Clifford identity and sc1-oq2c), VZ off-null invertibility, and the generation-count target ind_H = 24 (OPEN; never dependent on a pointwise null-cohomology quotient). The corrected part (iii') (gauge orbit FILLS NM(xi); physical content via Cauchy-data transport) is recorded as the WORKING HYPOTHESIS to re-derive in a subsequent session. Cascade check: no CANON.md or RESEARCH-STATUS.md entry references either file (verified by grep); NEXT-STEPS.md SC1 row updated to reflect the OPEN downgrade. No new mathematics; this is a verdict-discipline correction enforcing the loop's same-session-contradiction rule.
 File: `explorations/sc1-oq2-split-signature-ellipticity-lemma-2026-06-23.md` (frontmatter, §5, §6, §7.3, §8, §9, §10, §11); `explorations/sc1-oq2-f5-gauge-orbit-fill-2026-06-23.md` (frontmatter, banner, §6, §7); `DERIVATION-PROGRESS.md` (both index entries + this note); `NEXT-STEPS.md` (SC1 row)
 
 ---

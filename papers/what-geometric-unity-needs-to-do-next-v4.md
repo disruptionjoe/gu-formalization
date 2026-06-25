@@ -9,6 +9,12 @@ previous_version: what-geometric-unity-needs-to-do-next-v3.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **2026-06-25 correction for all versions.** This paper series is historical. Do not
+> inherit any statement that Nguyen §2 is fully closed, Sp(64) anomaly cancellation is
+> automatic, the generation count is conditionally 3/reconstruction-verified, VZ is fully
+> evaded, or dark-energy divergence-free is closed. Current owner surfaces are
+> `RESEARCH-STATUS.md`, `CANON.md`, and the affected `canon/` entries.
+
 > **This report has been superseded by [v5](what-geometric-unity-needs-to-do-next-v5.md),** which adds VZ1 evasion candidate, hidden curvature decomposition, 4D reduction partial derivations, and TaF cross-program contact. This file is preserved as v4 for reference.
 
 > **This is version 4.** Version 3 reported that the anomaly pincer (Nguyen §2) dissolves under Sp(64) and the generation count is conditionally 3. This version reports two further results: (1) the IG dimension matching question — the residual form of Nguyen §2 — is now fully resolved; (2) the SM branching from the fiber spinor S(6,4) has been confirmed, giving exactly 16 Weyl fermions per generation, with the ℍ-line index argument closing the factor-of-4 gap. Nguyen's two core objections are now fully closed. The generation count is conditionally 3 with two named analytic computations remaining. Links to [v3](what-geometric-unity-needs-to-do-next-v3.md).

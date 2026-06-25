@@ -8,6 +8,12 @@ source_paper: papers/what-geometric-unity-needs-to-do-next-v7.md
 do_not_submit: true
 ---
 
+> **2026-06-25 status correction.** This submission package is historical and must not
+> be used as a live abstract. Current status: shiab is existence-only; Nguyen's
+> U(128) pincer is substantially addressed but full GU anomaly cancellation is OPEN;
+> VZ is 14D CONDITIONALLY_EVADED / 4D CONDITIONALLY_RESOLVED at principal-symbol grade;
+> generation count is OPEN; Freed-Hopkins is lane-narrowed, not a closed obstruction.
+
 # arXiv Submission Package — v7
 
 **DO NOT SUBMIT.** Joe Hernandez reviews and submits himself.
@@ -32,7 +38,7 @@ Accounting" is the honest and more defensible framing.
 
 **Alternative (if the audience is primarily mathematical physics):**
 
-> Spin(9,5) Clifford Module Structures in Geometric Unity: Closing the Nguyen Critique
+> Spin(9,5) Clifford Module Structures in Geometric Unity: Accounting for the Nguyen Critique
 
 ---
 
@@ -77,21 +83,18 @@ Where (1) = Thiel Capital / independent; (2) = Disruption Joe LLC or similar.
 
 ## 3. ABSTRACT (150-200 words)
 
-> We provide a formal mathematical accounting of Eric Weinstein's Geometric Unity (GU) program
-> in response to Timothy Nguyen's 2021 critique. Working in the correct (9,5) signature on
-> Y^{14} = Met(X^4) with Clifford algebra Cl(9,5) isomorphic to M(64,H) and gauge group
-> Sp(64), we show that both core Nguyen objections — the shiab operator domain and the
-> anomaly structure — are fully resolved in the quaternionic setting without complexification.
-> We prove that the Rarita-Schwinger sector of GU evades the Velo-Zwanziger no-go theorem
-> at reconstruction grade via Clifford module non-decoupling: the effective RS principal symbol
-> has trivial kernel at all non-null covectors, establishing causal characteristics. The
-> quaternionic index ind_H(D_GU) = 24, yielding exactly three generations, is established at
-> reconstruction grade with four of five sub-gates resolved; the remaining gate (ind_H(D_RS) = 8
-> at analytic grade) is conditionally resolved via three convergent paths. We give a precision
-> evasion statement for the Distler-Garibaldi theorem. We also record a genuine open obstruction:
-> the Freed-Hopkins enriched bordism observer-pairing program is blocked by a functorial no-go
-> with no current workaround. This paper provides a formal mathematical accounting of what GU
-> has established, what remains open, and where a genuine barrier has been found.
+> We provide a formal mathematical accounting of Eric Weinstein's Geometric Unity (GU)
+> program in response to Timothy Nguyen's 2021 critique. Working in the corrected
+> (9,5) Clifford setting, the shiab operator exists as a natural equivariant map,
+> resolving the domain/codomain objection only at existence scope. The Sp(64)
+> replacement substantially addresses Nguyen's U(128) anomaly pincer, but full GU
+> anomaly cancellation remains open pending local index-density and global
+> spin-bordism/Dai-Freed/eta checks. The Rarita-Schwinger/Velo-Zwanziger lane is
+> conditionally controlled: 14D mixed-covector evasion is gated on independent
+> E-block invertibility, and the 4D pullback is principal-symbol grade only. The
+> three-generation count remains open because the analytic RS index is not derived.
+> We also record a narrowed Freed-Hopkins observer-pairing lane and the remaining
+> proof objects needed for promotion.
 
 Word count: approximately 185 words. Within range.
 
@@ -105,7 +108,7 @@ Word count: approximately 185 words. Within range.
   Covers the core Cl(9,5) structure, the spinor bundle S = H^{64}, and the Dirac-DeRham operator.
 
 - **58J20** Index theory and related fixed-point theorems
-  Covers the central result: ind_H(D_GU) = 24 and the Atiyah-Singer computation on K3.
+  Covers the central open target: deriving or refuting `ind_H(D_GU) = 24`.
 
 **Secondary:**
 

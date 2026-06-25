@@ -2,7 +2,7 @@
 title: "Contributing"
 status: canon
 doc_type: overview
-updated_at: "2026-06-24"
+updated_at: "2026-06-25"
 ---
 
 # Contributing
@@ -108,6 +108,8 @@ The repository is intentionally lightweight. If you think a piece of infrastruct
    - `[verified]` — defensible against a knowledgeable reader with named established result references
    - `[reconstruction]` — inferred from existing material with the source named
    - `[speculation]` — extrapolation beyond available sources, with explicit naming of what would need to be true for the speculation to hold
+   If the change promotes, downgrades, or re-scopes a claim, also run
+   `process/runbooks/claim-status-consistency-quality-workflow.md` before opening the PR.
 5. Open a pull request. The maintainer (initial review by the repository maintainer; broader review by contributors as the community grows) will engage with the substantive content. Please respond to review comments; the goal is to develop the strongest version of the contribution.
 6. Once accepted, the contribution lands with attribution. If you'd prefer pseudonymous or anonymous contribution, name that preference in the pull request.
 

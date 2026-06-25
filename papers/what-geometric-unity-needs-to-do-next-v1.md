@@ -9,6 +9,12 @@ superseded_by: what-geometric-unity-needs-to-do-next-v2.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **2026-06-25 correction for all versions.** This paper series is historical. Do not
+> inherit any statement that Nguyen §2 is fully closed, Sp(64) anomaly cancellation is
+> automatic, the generation count is conditionally 3/reconstruction-verified, VZ is fully
+> evaded, or dark-energy divergence-free is closed. Current owner surfaces are
+> `RESEARCH-STATUS.md`, `CANON.md`, and the affected `canon/` entries.
+
 > **This report has been updated.** This is version 1, preserved for reference. Formal analysis conducted after this version was published has closed one of the three tasks identified below and partially closed a second:
 > - The correct signature of Y¹⁴ is (9,5), not (7,7) — **the signature audit (Task 1) is done.**
 > - In signature (9,5), the Clifford algebra is quaternionic Cl(9,5) ≅ M(64,ℍ), and the shiab operator exists as a quaternion-linear map without complexification — **Nguyen's §3.1 objection does not arise in the correct geometric setting.**

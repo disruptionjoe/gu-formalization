@@ -9,6 +9,12 @@ previous_version: what-geometric-unity-needs-to-do-next-v5.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **2026-06-25 correction for all versions.** This paper series is historical. Do not
+> inherit any statement that Nguyen §2 is fully closed, Sp(64) anomaly cancellation is
+> automatic, the generation count is conditionally 3/reconstruction-verified, VZ is fully
+> evaded, or dark-energy divergence-free is closed. Current owner surfaces are
+> `RESEARCH-STATUS.md`, `CANON.md`, and the affected `canon/` entries.
+
 > **DEPRECATED — superseded by [v7](what-geometric-unity-needs-to-do-next-v7.md).** v7 (2026-06-23) upgrades the generation count to reconstruction-verified grade (OQ1 split-rank, OQ3a K3 uniqueness, OQ3c additivity, and RC1 root multiplicities all RESOLVED), adds a precision Distler-Garibaldi evasion statement, records the Freed-Hopkins observer-pairing as a genuine open obstruction, and confirms Type II₁ KO-dimension 6. This file is preserved as an archive.
 
 ---

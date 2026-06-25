@@ -2,7 +2,7 @@
 title: "Project Canon"
 status: canon
 doc_type: canon
-updated_at: "2026-06-24"
+updated_at: "2026-06-25"
 ---
 
 # Project Canon
@@ -61,8 +61,8 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 
 | entry | verdict | source explorations |
 |---|---|---|
-| `shiab-existence-cl95.md` | RESOLVED | n1-signature-audit + n2-shiab-computation (2026-06-22) |
-| `dark-energy-theta-divergence-free.md` | CONDITIONALLY_RESOLVED | dark-energy-divergence-free-proof + dark-energy-noether-closure (2026-06-22); CORRECTION DARK-ENERGY-01 (2026-06-23): downgraded from RESOLVED — Assumption 3 (structural identification) is reconstruction grade and unproved; neither C3 nor C1+C2 path is complete |
+| `shiab-existence-cl95.md` | RESOLVED (existence only) | n1-signature-audit + n2-shiab-computation (2026-06-22); CORRECTION SHIAB-01 (2026-06-25): proves existence of one natural real-linear Spin(9,5)-equivariant Clifford-contraction map only; injectivity, rank/kernel, uniqueness, source-forced selector identity, anomaly cancellation, and generation count are not included |
+| `dark-energy-theta-divergence-free.md` | CONDITIONALLY_RESOLVED | dark-energy-divergence-free-proof + dark-energy-noether-closure (2026-06-22); CORRECTION DARK-ENERGY-01 plus 2026-06-25 consistency sweep: downgraded from RESOLVED — Assumption 3 (structural identification) is reconstruction grade and unproved; C1+C2 is a cross-check, not an independent Noether route |
 | `w2-y14-spin-structure.md` | RESOLVED | n6-w2-y14-gysin-spin-structure (2026-06-22) |
 | `schwarzschild-weak-field-rfail.md` | CONDITIONALLY_RESOLVED | rfail-schwarzschild-oq2-weak-field (2026-06-23) |
 | `theta-field-flrw-dark-energy-eos.md` | CONDITIONALLY_RESOLVED | theta-field-flrw-eos (2026-06-23) |
@@ -71,7 +71,11 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 
 These remain exploratory until formal obligations are met:
 
-- Anomaly cancellation for Sp(64) — perturbative result is verified, global anomaly and §5.1 items (gauge group uniqueness, mixed gauge-gravitational anomaly) remain reconstruction-grade open questions
+Before promoting any item from this list, run
+`process/runbooks/claim-status-consistency-quality-workflow.md` and update all owner
+surfaces that might still carry a stronger historical verdict.
+
+- Anomaly cancellation for Sp(64) — Nguyen's U(128) anomaly pincer is defused by the Sp(64) replacement, but full GU anomaly cancellation is OPEN / not canon: local 14D anomaly requires an explicit I_16/index-density computation for the actual chiral field content; global anomaly requires a spin-bordism/Dai-Freed/eta check, not only pi_15(Sp)
 - C_MPR as a category
 - the 9-tuple as a complete invariant
 - PCP-blindness

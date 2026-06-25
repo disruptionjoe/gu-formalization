@@ -2,7 +2,7 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-24"
+updated_at: "2026-06-25"
 canon_sweep_at: "2026-06-23"
 ---
 
@@ -28,6 +28,13 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 - `source`: source or literature material
 - `draft`: paper or exposition draft
 
+### Claim-Status Consistency Rule
+
+Any promotion, downgrade, or substantial re-scoping must run
+`process/runbooks/claim-status-consistency-quality-workflow.md` before commit. Downstream
+claims cannot outrank their weakest load-bearing dependency, and historical stronger
+wording must be removed or explicitly marked superseded on owner surfaces.
+
 ## Current Research Map
 
 | area | status | where to read |
@@ -37,7 +44,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 | no-go assumption map | canon | `canon/no-go-class-relative-map.md` |
 | six-axis protocol | canon | `canon/six-axis-specification-protocol.md` |
 | Type II1 checklist | canon | `canon/type-ii1-spectral-sm-checklist.md` |
-| shiab existence — Cl(9,5) | canon | `canon/shiab-existence-cl95.md` |
+| shiab existence — Cl(9,5) | canon (RESOLVED for existence only; injectivity/rank/kernel not claimed) | `canon/shiab-existence-cl95.md` — CORRECTION SHIAB-01 (2026-06-25) |
 | dark energy theta — divergence-free and dynamic | canon (CONDITIONALLY_RESOLVED) | `canon/dark-energy-theta-divergence-free.md` — CORRECTION DARK-ENERGY-01 (2026-06-23): downgraded from RESOLVED |
 | w2(Y14) = 0 — Y14 is spin | canon | `canon/w2-y14-spin-structure.md` |
 | Schwarzschild weak-field R_fail = 0 at O(M/r) | canon | `canon/schwarzschild-weak-field-rfail.md` |
@@ -66,18 +73,31 @@ The `vz-schur` result logged in the second parallel pass (and the synthesis in `
 
 The canon no-go map's VZ row and §2.5 carried a hard `4D VERIFIED at principal-symbol level (OQ3-V1/V2/V3)` label. This was internally inconsistent with the same section's failure condition FC-VZ-4, which states the VERIFIED 4D evasion "is overturned at the next (subprincipal) order" if the extrinsic curvature `II_s = s*(θ)` sources spacelike characteristics. A VERIFIED verdict cannot coexist with a known, unaddressed higher-order route to being overturned; the `vz-subprincipal` check that would close FC-VZ-4 is itself only reconstruction grade. All such labels in the canon map are now **CONDITIONALLY_RESOLVED (4D principal-symbol, reconstruction; subprincipal order open per FC-VZ-4)**. VERIFIED is reserved for a result with no acknowledged route to being overturned. The 14D leg (CONDITIONALLY_EVADED) and the underlying mathematics are unchanged. See DERIVATION-PROGRESS.md log entry CORRECTION VZ-02.
 
+## 2026-06-25 Claim-Status Consistency Sweep
+
+This sweep corrects stale stronger claims that survived earlier downgrade work. It is a status-alignment pass, not a new proof.
+
+| claim | corrected current status | controlling correction |
+|---|---|---|
+| Shiab existence | RESOLVED for existence of one natural real-linear Spin(9,5)-equivariant Clifford-contraction map only | `canon/shiab-existence-cl95.md` CORRECTION SHIAB-01. The previous injectivity/non-vanishing-on-all-inputs proof is invalid dimensionally; rank/kernel/uniqueness remain open. |
+| Dark-energy theta divergence-free | CONDITIONALLY_RESOLVED | Assumption 3 must be derived from a written action. C1+C2 is a gauge-invariance cross-check, not an independent Noether route. |
+| Sp(64) anomaly lane | SUBSTANTIALLY_ADDRESSED / OPEN for full anomaly cancellation / NOT PROMOTED | The U(128) horn is defused by Sp(64), but pseudoreality does not automatically kill the even 14D degree-8 local anomaly. Full status requires an explicit I_16/index-density computation and a spin-bordism/Dai-Freed/eta global-anomaly check. |
+| Freed-Hopkins Option-B / X_obs^sol | CONDITIONALLY_RESOLVED / lane-narrowed, not closed | Riemannian full-section-space contractibility does not automatically cover Lorentzian metric components; K3 and KSp relabeling remain conditional. |
+| Generation count | OPEN | Old compact-toy and physical-count arithmetic is provenance only until the RS leg is derived without target division or reverse-engineered rank input. |
+| Velo-Zwanziger | 14D CONDITIONALLY_EVADED; 4D CONDITIONALLY_RESOLVED at principal-symbol grade | Do not cite 4D as VERIFIED; subprincipal/extrinsic-curvature and full dynamical gates remain open. |
+
 ## 2026-06-23 Canon Promotion Sweep
 
 Five explorations checked against all five promotion criteria. Five promoted; one checked but not yet eligible.
 
 | candidate | verdict in source | promotion decision | reason |
 |---|---|---|---|
-| shiab existence (N1+N2) | RESOLVED | PROMOTED | All 5 criteria met. Clifford contraction construction is explicit, non-vanishing proved, signature condition resolved by N1 audit, failure modes named (generation count, gauge group uniqueness). No internal artifact dependency. |
-| dark energy divergence-free (Layer 2) | RESOLVED (C3 path closed) | PROMOTED | All 5 criteria met. Equivariance proof unconditional; dynamism unconditional; D_A*theta=0 via Noether's 2nd theorem (C3 path, COMPLETE). Remaining C1+C2 path is a cross-check, not a blocker. |
+| shiab existence (N1+N2) | RESOLVED (existence only; superseded scope) | PROMOTED WITH SCOPING CORRECTION | CORRECTION SHIAB-01: Clifford contraction construction is explicit and non-zero as a map, but injectivity/non-vanishing on all inputs was overclaimed and is impossible dimensionally. Future use may cite only existence/equivariance unless rank/kernel is computed. |
+| dark energy divergence-free (Layer 2) | CONDITIONALLY_RESOLVED (supersedes original RESOLVED row) | PROMOTED WITH DOWNGRADE | CORRECTION DARK-ENERGY-01 plus 2026-06-25 sweep: equivariance/dynamism remain unconditional, but D_A*theta=0 depends on unproved Assumption 3. C1+C2 is a cross-check, not an independent route. |
 | w2(Y14) = 0 (N6) | RESOLVED | PROMOTED | All 5 criteria met. Serre spectral sequence computation explicit; monodromy triviality condition verified in §8.1 via explicit bundle isomorphism; failure modes (non-compact index, generation count) named and outside scope. |
 | Schwarzschild weak-field R_fail (today) | CONDITIONALLY_RESOLVED | PROMOTED | All 5 criteria met. Gauss identity step exact; Q(B) quadraticity algebraic; 3 named failure conditions (F1-F3) are specific and testable, not vague. Result is bounded and falsifiable at reconstruction grade. |
 | theta-field FLRW dark energy EOS (today) | CONDITIONALLY_RESOLVED | PROMOTED (with corrections) | All 5 criteria met at promotion. CORRECTION 2026-06-23 OQ3 (supersedes THETA-01): full FLRW Klein-Gordon (RK4) integration corrected the ratio prediction to w_a/(w_0+1) = +1.17 (de Sitter -1.80 RETRACTED, SIGN REVERSED) at phi_0 = 0.855 rad (was 1.94 rad). Corrected sign is w_a > 0 with frozen ICs, OPPOSITE to DESI's w_a = -0.75; the sign is IC-sensitive and conditional on named failure condition FC5/OQ3-A (slow-roll ICs from z >> z_osc). CORRECTION 2026-06-23 CANON-4: in-file Result 4 / Gap 2 / Falsification Condition / F6-F8 still carried the retracted w_a < 0 / -1.80 / phi_0 ~ 1.94; aligned to the OQ3-corrected +1.17 / w_a > 0 / phi_0 = 0.855. The ratio is reconstruction-grade, conditional on phi_0 = 0.855 rad and frozen IC at z=3, not a phi_0-independent free prediction. Failure modes F1-F9 + FC5; open questions include OQ3-A (IC-sensitivity of w_a sign) and OQ5 phi_0-scan. |
-| anomaly Sp(64) (substantially addressed) | SUBSTANTIALLY_ADDRESSED | NOT PROMOTED | Perturbative anomaly cancellation is verified; global anomaly (pi_{15}(Sp) = Z piece) is reconstruction-grade; §5.1 has named open questions (gauge group uniqueness, adjoint dimension matching, mixed gauge-gravitational anomaly). Does not meet criterion 2 (proof or falsification target) at the level required for canon. |
+| anomaly Sp(64) (substantially addressed) | SUBSTANTIALLY_ADDRESSED / OPEN for full cancellation | NOT PROMOTED | Nguyen's U(128) pincer is defused by the Sp(64) replacement, but perturbative cancellation is not verified by pseudoreality alone in 14D because the relevant trace degree is even. Global anomaly is not settled by pi_15(Sp) alone. Needs explicit I_16/index-density plus spin-bordism/Dai-Freed/eta checks and the existing §5.1 items. |
 
 ## Promotion Rule
 
@@ -87,7 +107,8 @@ An exploration can move toward canon only when it has:
 2. a proof or falsification target,
 3. explicit assumptions,
 4. known failure modes,
-5. no dependency on internal work artifacts for its next action.
+5. no dependency on internal work artifacts for its next action,
+6. no stale stronger status remains in `RESEARCH-STATUS.md`, `CANON.md`, affected `canon/*`, `NEXT-STEPS.md`, live paper drafts, or process/DAG/firewall artifacts after a claim-status consistency sweep.
 
 ## Current Caution
 
@@ -172,14 +193,14 @@ This batch made **canon status changes** recorded directly in `canon/no-go-class
 
 | document | status | content / canon effect |
 |---|---|---|
-| `explorations/freed-hopkins-optionb-ksp-family-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED) | Eliminates two of three Option-B candidates: `Met(X^4)` is contractible (convex cone); `Ω²B Sp(64)` is noncontractible but relabels as Sp(64) gauge background. Sole surviving candidate is `X_obs^sol`. |
-| `explorations/freed-hopkins-xobs-sol-k3-moduli-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, lane-narrowed) | Analyzes the sole survivor `X_obs^sol`. Via the IC4 metric-selection result it identifies `X_obs^sol = M_RF(K3)`, noncontractible but plausibly a gravitational-background relabel (KSp⁰=KO⁴ class pulled back from the Einstein-metric moduli). **Verdict downgraded GENUINE_OBSTRUCTION → CONDITIONALLY_RESOLVED (CORRECTION XOBS-IC4-01):** the closed-obstruction reading was same-session verdict inflation resting on the only-CONDITIONALLY_SUPPORTED IC4 input (open F3 trace-free GU source, F5 K3-topology-not-forced). |
+| `explorations/freed-hopkins-optionb-ksp-family-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, scoped) | Eliminates the Riemannian full-section-space candidate by convexity and the `Ω²B Sp(64)` candidate by Sp(64) gauge-background relabeling. Do not cite the convexity argument as a Lorentzian `Y^14 = Met(X^4)` result without a separate signature-component proof. Sole surviving candidate is `X_obs^sol`. |
+| `explorations/freed-hopkins-xobs-sol-k3-moduli-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, lane-narrowed) | Analyzes the sole survivor `X_obs^sol`. Via the IC4 metric-selection result it conditionally identifies `X_obs^sol = M_RF(K3)`, noncontractible but plausibly a gravitational-background relabel (KSp⁰=KO⁴ class pulled back from the Einstein-metric moduli). The numerical augmentation `ind_H(D_GU)=24` is not load-bearing and remains part of the OPEN generation-count lane. **Verdict downgraded GENUINE_OBSTRUCTION → CONDITIONALLY_RESOLVED (CORRECTION XOBS-IC4-01):** the closed-obstruction reading was same-session verdict inflation resting on the only-CONDITIONALLY_SUPPORTED IC4 input (open F3 trace-free GU source, F5 K3-topology-not-forced). |
 | `explorations/no-go-velo-zwanziger-canon-entry-2026-06-23.md` | reconstruction (CONDITIONALLY_RESOLVED) | Formal four-part fifth-theorem canon entry for Velo-Zwanziger (assumptions VZ-H1…H5; the Clifford-module-non-sub-module evasion GU-VZ; forgetful operation `ϕ_mc`; explicit failure conditions FC-VZ-1…5). Synthesis/formalization of the existing §2.5 vz-* chain, not a new computation. |
 | `explorations/c-mpr-9tuple-object-morphism-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED) | Discharges the prerequisite for the C_MPR / 9-tuple / BvN-wall lane: writes the category object `M = (E, ≤_E, Cert, G, ≤_G, r, P_O)`, the morphism, and checks the category axioms. Object/morphism survive the axiom check; the BvN wall itself stays an open proof obligation, not yet a theorem. |
 
 **Canon status changes in `canon/no-go-class-relative-map.md` (this batch):**
 
-1. **Freed-Hopkins observer-pairing Option-B lane — NARROWED, held at CONDITIONALLY_RESOLVED, NOT closed at GENUINE_OBSTRUCTION.** §1 row and §2.3 record the lane as `CONDITIONALLY_RESOLVED / lane-narrowed (reconstruction grade)`. Two of three Option-B candidates are eliminated (Met contractible; Ω²B Sp gauge-relabel) and the sole survivor `X_obs^sol = M_RF(K3)` is plausibly a gravitational-background relabel — but per **CORRECTION FH-01** (canon) and **CORRECTION XOBS-IC4-01** (exploration file) it is **explicitly NOT promoted to a closed GENUINE_OBSTRUCTION**: the closure reads on a same-session, all-conditional dependency chain whose root (`freed-hopkins-nonforgettable-observer`) is OPEN, whose IC4 input is only CONDITIONALLY_SUPPORTED (open F3 vacuum/trace gate), and whose KO⁴-over-orbifold lift (RC4) is unproved on the actual non-Hausdorff arithmetic base. Promotion to a closed obstruction is deferred to a later session on tracked, independently-reviewed files. The lane-narrowing is additionally conditional on `X⁴ ∈ K3` (CANON-5 §0.1).
+1. **Freed-Hopkins observer-pairing Option-B lane — NARROWED, held at CONDITIONALLY_RESOLVED, NOT closed at GENUINE_OBSTRUCTION.** §1 row and §2.3 record the lane as `CONDITIONALLY_RESOLVED / lane-narrowed (reconstruction grade)`. The Riemannian full-section-space candidate is eliminated by convexity, but the same convexity argument does not automatically apply to Lorentzian signature components. The Ω²B Sp candidate gauge-relabels, and the sole surviving K3-conditional candidate `X_obs^sol = M_RF(K3)` is plausibly a gravitational-background relabel — but per **CORRECTION FH-01** (canon) and **CORRECTION XOBS-IC4-01** (exploration file) it is **explicitly NOT promoted to a closed GENUINE_OBSTRUCTION**: the closure reads on a same-session, all-conditional dependency chain whose root (`freed-hopkins-nonforgettable-observer`) is OPEN, whose IC4 input is only CONDITIONALLY_SUPPORTED (open F3 vacuum/trace gate), whose generation-count augmentation is OPEN, and whose KO⁴-over-orbifold lift (RC4) is unproved on the actual non-Hausdorff arithmetic base. Promotion to a closed obstruction is deferred to a later session on tracked, independently-reviewed files. The lane-narrowing is additionally conditional on `X⁴ ∈ K3` (CANON-5 §0.1).
 2. **Velo-Zwanziger 14D evasion banner downgraded EVADED → CONDITIONALLY_EVADED (gated on E-block invertibility FC-VZ-1).** §1, §2.5, and the closing posture now carry the 14D leg as `CONDITIONALLY_EVADED` (reconstruction grade), gated on the still-externally-unverified E-block invertibility precondition (Correction VZ-01; GUARD FC-VZ-1). The 4D leg is held at `CONDITIONALLY_RESOLVED` at the principal-symbol level (subprincipal order open per FC-VZ-4; not VERIFIED). The formal fifth-theorem entry above was written into §2.5.
 
 **Net effect:** the lens question "Is RESEARCH-STATUS.md updated if any item changed status?" is now answered Yes for the Freed-Hopkins-lane disposition, the VZ 14D/4D canon banner + fifth-theorem entry, and the C_MPR category result. Note that the Freed-Hopkins item is recorded as **lane-narrowed / CONDITIONALLY_RESOLVED**, not "closed at GENUINE_OBSTRUCTION": corrections FH-01 and XOBS-IC4-01 (this same batch) explicitly refused that closure as same-session verdict inflation, and the top-level status file follows the corrected canon rather than the pre-correction reading.
@@ -259,9 +280,9 @@ Four parallel agents (A-D) ran following the Layer 1-3 completions and the UCSD 
 | finding | status | file |
 |---|---|---|
 | N1 (signature audit): (9,5) confirmed, Cl(9,5) ≅ M(64,H) | RESOLVED | `explorations/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (prior session) |
-| N2 (shiab): exists under (9,5), anomaly structure resolved via Sp(64) | SUBSTANTIALLY ADVANCED | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| N2 (shiab): algebraic map exists under (9,5); anomaly structure partially defused via Sp(64) | SUBSTANTIALLY ADVANCED | `canon/shiab-existence-cl95.md`; `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
 | Nguyen §3.1 (complexification gap) | RESOLVED | See N1/N2 files above |
-| Nguyen §2 (anomaly pincer) | SUBSTANTIALLY ADDRESSED — Sp(64) replaces U(128); both horns dissolve | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| Nguyen §2 (anomaly pincer) | SUBSTANTIALLY ADDRESSED — Sp(64) replaces U(128) and defuses the original pincer; full local/global GU anomaly cancellation remains open/non-canon | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
 | Residual: IG dimension matching (sp(64) dim = 8256 vs. desired 16384) | OPEN | `NEXT-STEPS.md` N4 |
 
 The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclassified from Column A to Column B (substantially addressed), and a new §3.3 generation count entry. See `explorations/nguyen-gu-critique/nguyen-critique-full-synthesis.md`.
@@ -280,9 +301,9 @@ The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclas
 | area | status | note |
 |---|---|---|
 | Nguyen §3.1 | **RESOLVED** | Complexification not needed in (9,5)/quaternionic setting |
-| Nguyen §2 (anomaly) | **SUBSTANTIALLY ADDRESSED** | Sp(64) replaces U(128); both horns dissolve; IG dimension matching residual open |
-| Shiab existence | **RESOLVED** | Clifford contraction, H-linear, Spin(9,5)-equivariant |
-| Dark energy divergence-free | **RESOLVED** | Noether path closed (Layer 2) |
+| Nguyen §2 (anomaly) | **SUBSTANTIALLY ADDRESSED / full cancellation OPEN** | Sp(64) replaces U(128) and removes Nguyen's original U(1) pincer; local/global anomaly cancellation still needs explicit I_16 and bordism/eta checks |
+| Shiab existence | **RESOLVED (existence only)** | One natural real-linear Spin(9,5)-equivariant Clifford-contraction map exists; injectivity/rank/kernel/uniqueness not claimed |
+| Dark energy divergence-free | **CONDITIONALLY_RESOLVED** | Noether route depends on unproved action-level structural identification of theta as the relevant Euler-Lagrange sector |
 | Generation count | **OPEN** (corrected 2026-06-23; was "CONDITIONALLY 3") | RS-leg analytic index `ind_H(D_RS)=8` not derived (all analytic routes failed; APS rank reverse-engineered, FC4 OPEN); physical/SM counts assume the answer. Per UNDISMISSED-CANDIDATE rule the aggregate verdict is OPEN. See DERIVATION-PROGRESS.md FC4-HOLONOMY-01 / GEN-04. |
 | HC1 hidden curvature count | **CONFIRMED** | 3 torsion-sourced pieces via DT=R∧e |
 | DD1 distortion nomenclature | **PARTIALLY_NAMED** | IG-equivariance is genuinely novel vs. Hehl/Agricola-Friedrich/Sharpe |

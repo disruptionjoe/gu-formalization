@@ -173,9 +173,10 @@ survives the shadow, the mechanism (non-decoupling) does not.
   `g_s`; no spacelike characteristics at the principal-symbol level. The subprincipal order and
   the curved-gauge extension are open (see FC-VZ-4).
 
-The honest combined reading: **the GU spin-3/2 prediction does not suffer a VZ
-acausality at the level where it is physically observed (4D), and the 14D origin of that
-result is established at reconstruction grade.** The entry does not claim 14D is verified
+The honest combined reading: **the checked 4D model has no principal-symbol VZ spacelike
+characteristics in the flat-gauge reconstruction, and the 14D origin of that result is
+established only at reconstruction grade conditional on E-block invertibility.** The entry
+does not claim 14D is verified, does not claim the curved/subprincipal 4D problem is closed,
 and does not claim the full dynamical (loop-level, constrained-Hamiltonian) problem is
 closed.
 

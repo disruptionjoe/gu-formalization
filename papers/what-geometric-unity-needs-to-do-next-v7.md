@@ -9,6 +9,17 @@ previous_version: what-geometric-unity-needs-to-do-next-v6.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **2026-06-25 status correction.** This v7 draft is superseded on several load-bearing
+> claims. Do not cite it as current status where it says generation count is
+> reconstruction-verified, Velo-Zwanziger is evaded/verified, Freed-Hopkins is a genuine
+> closed obstruction, Nguyen §2 is fully closed, anomaly cancellation is automatic, or
+> dark-energy divergence-free is closed. Current status: generation count OPEN; VZ 14D
+> CONDITIONALLY_EVADED and 4D CONDITIONALLY_RESOLVED at principal-symbol grade; Freed-Hopkins
+> Option-B lane CONDITIONALLY_RESOLVED / lane-narrowed, not closed; Nguyen §2
+> SUBSTANTIALLY_ADDRESSED but full local/global anomaly cancellation OPEN; dark-energy
+> divergence-free CONDITIONALLY_RESOLVED pending the written-action theta/Euler-Lagrange
+> identification. See `RESEARCH-STATUS.md` 2026-06-25 consistency sweep.
+
 > **This is version 7.** Version 6 reported the Velo-Zwanziger evasion at reconstruction grade and reframed the generation count as a Plancherel multiplicity problem. This version reports that the generation count argument has been reconstructed to a significantly stronger position: four of its five sub-gates are now RESOLVED, the cross-term cancellation proof has been made explicit and algebraically grounded, and T^4 has been ruled out as a competing Willmore minimizer by an exact topological argument. The remaining open gate (OQ3b: ind_H(D_RS) = 8 at analytic grade) rests on three convergent reconstruction-grade paths with no counterargument. This version also records a **genuine open obstruction** in the Freed-Hopkins observer-pairing lane, a **second genuine open obstruction** in the Schwarzschild vacuum-recovery lane (Schwarzschild is not a critical section of E[s] = ∫|II_s|²), and gives a precision statement of how GU evades the Distler-Garibaldi no-go theorem. Links to [v6](what-geometric-unity-needs-to-do-next-v6.md).
 
 ---
@@ -17,7 +28,12 @@ audience: mathematically curious readers familiar with the Weinstein/Nguyen exch
 
 In 2021, mathematician Timothy Nguyen published a careful, line-by-line critique of Eric Weinstein's Geometric Unity. Weinstein's response was to dispute the framing. The mathematical community largely moved on. That is a shame, because the critique and the program together point at something genuinely interesting — and the path forward is more specific than either party has made explicit.
 
-This is an attempt to name it clearly, and to do so in a way that is fair to both. Earlier versions of this report identified specific mathematical tasks needed to answer Nguyen's critique and additional constraints the program must satisfy. Those computations have been run systematically. The generation count is now at reconstruction-verified grade, the Velo-Zwanziger evasion is confirmed, and one lane — the Freed-Hopkins observer-pairing program — has hit a genuine obstruction rather than a missing computation.
+This is an attempt to name it clearly, and to do so in a way that is fair to both.
+Earlier versions of this report identified specific mathematical tasks needed to answer
+Nguyen's critique and additional constraints the program must satisfy. The current status
+is narrower than this draft originally reported: the generation count is OPEN, the
+Velo-Zwanziger evasion is conditional outside the 4D principal-symbol result, and the
+Freed-Hopkins observer-pairing lane is narrowed rather than closed.
 
 ---
 
@@ -31,13 +47,13 @@ That is a coherent and interesting goal. Versions of it have motivated serious m
 
 ---
 
-## Nguyen's Two Objections: Now Fully Closed
+## Nguyen's Two Objections: Current Scoped Status
 
 Nguyen's core objections were:
 
-**The shiab operator lacked a rigorous definition.** In the correct (9,5) quaternionic setting, the shiab operator Φ: Ω²(Y¹⁴)⊗S → Ω¹(Y¹⁴)⊗S exists as a well-defined ℍ-linear, Spin(9,5)-equivariant Clifford contraction. No complexification is required. **Status: FULLY CLOSED.** The domain and codomain have been confirmed against Harvey (*Spinors and Calibrations*) and Lawson-Michelsohn (*Spin Geometry*) for the (9,5) setting.
+**The shiab operator lacked a rigorous definition.** In the correct (9,5) quaternionic setting, the shiab operator Φ: Ω²(Y¹⁴)⊗S → Ω¹(Y¹⁴)⊗S exists as a well-defined ℍ-linear, Spin(9,5)-equivariant Clifford contraction. No complexification is required. **Current status: resolved for existence only.** Injectivity, rank/kernel, uniqueness, source-forced selector identities, anomaly cancellation, and generation count are not included.
 
-**The anomaly pincer.** In the correct (9,5) setting, the gauge group is Sp(64) = U(64,ℍ), which is anomaly-free by pseudoreality: its fundamental representation satisfies J² = −1, giving n_L − n_R = 0 identically; and π₁₅(Sp) = ℤ, so no global Z₂ anomaly. The τ⁺ construction is purely group-theoretic. **Status: FULLY CLOSED.**
+**The anomaly pincer.** In the correct (9,5) setting, the gauge group is Sp(64) = U(64,ℍ), which defuses Nguyen's U(128) framing. **Current status: substantially addressed, not fully closed.** Full GU anomaly cancellation remains OPEN pending the actual 14D local anomaly polynomial/index-density calculation and a global spin-bordism/Dai-Freed/eta check.
 
 ---
 
@@ -49,9 +65,9 @@ Nguyen's core objections were:
 
 ---
 
-## Velo-Zwanziger: EVADED
+## Velo-Zwanziger: CONDITIONALLY_EVADED / CONDITIONALLY_RESOLVED
 
-The Velo-Zwanziger no-go theorem has been evaded at 14D by a specific mechanism, confirmed at reconstruction grade.
+The Velo-Zwanziger no-go theorem is conditionally evaded at 14D by a specific principal-symbol mechanism; the E-block invertibility precondition and full dynamics remain open.
 
 ### What the Theorem Requires
 
@@ -64,6 +80,12 @@ The Velo-Zwanziger theorem applies to spin-3/2 Rarita-Schwinger (RS) fields when
 The GU construction does not have a standalone RS Lagrangian. The Dirac-DeRham-Einstein complex D_GU acts on the full Clifford module bundle E over Y¹⁴. The RS sector is the sub-bundle ker(Γ^{14D}) ⊂ E, where Γ^{14D} is the 14D gamma-trace projection. The field equation for the RS sector is the projected equation P_R D_GU Ψ = 0 — not a variation of an RS action.
 
 ### The Schur Complement Analysis
+
+**2026-06-25 correction.** Current VZ status is 14D `CONDITIONALLY_EVADED`, gated on
+E-block invertibility, and 4D `CONDITIONALLY_RESOLVED` at principal-symbol grade. The
+corrected block identity is `A S_R = S_R A = g_Y(xi,xi) Id_R`; the older `S_R^2` identity
+in this draft is false. Do not cite this section for a verified or unconditional VZ
+evasion.
 
 The full 14D principal symbol σ_D(ξ) of D_GU decomposes into blocks indexed by the RS and non-RS sectors:
 
@@ -84,19 +106,23 @@ The proof uses the Clifford module identity: since D_GU is a Clifford module ope
 
 **Physical meaning.** The GU spin-3/2 particles do not propagate as independent degrees of freedom at 14D. They are entangled with the spin-1/2 sectors via off-diagonal blocks B and C of σ_D. Their effective propagator, obtained after integrating out the spin-1/2 sector, has causal light-cone characteristics. This is Clifford module non-decoupling, not a guardian symmetry.
 
-**Status: EVADED at reconstruction grade.** The sub-principal symbol curvature check (F5) is the live remaining concern.
+**Status: CONDITIONALLY_EVADED at 14D principal-symbol grade.** E-block invertibility
+and full dynamics remain open; 4D is CONDITIONALLY_RESOLVED at principal-symbol grade.
 
 ---
 
-## The Generation Count: Reconstruction-Verified Grade
+## The Generation Count: OPEN
 
-The generation-count argument has been rebuilt from the ground up and is now at the strongest verified state to date. The headline result:
+The generation-count argument has been rebuilt and then downgraded by later audits. The
+current status is OPEN. The arithmetic target is:
 
 ```
 ind_H(D_GU) = 24,   generations = ind_H(D_GU) / 8 = 3.
 ```
 
-This rests on a two-sector decomposition — spin-1/2 contributing 16 H-lines and the RS sector contributing 8 — with four of five sub-gates now at RESOLVED or EXACT status.
+This is a target, not a derived result. The spin-1/2 leg is structurally strong, but the
+RS leg `ind_H(D_RS)=8` has no surviving analytic derivation; physical/counting support and
+compact K3 arithmetic are reconstruction-grade support only.
 
 ### The 2+1 Split and the Additive Formula
 
@@ -186,7 +212,7 @@ No path gives a contradictory value. The upgrade path from CONDITIONALLY_RESOLVE
 | RC1 restricted root system = A₃ | RECONSTRUCTION | RESOLVED |
 | ind_H(D_{1/2}) = 8 × A-hat(K3) = 16 | RECONSTRUCTION | CONDITIONALLY_RESOLVED |
 | ind_H(D_RS) = 8 (three paths) | RECONSTRUCTION | CONDITIONALLY_RESOLVED |
-| ind_H(D_GU) = 24; generations = 3 | RECONSTRUCTION | CONDITIONALLY_RESOLVED |
+| ind_H(D_GU) = 24; generations = 3 | RECONSTRUCTION TARGET | OPEN |
 
 ---
 
@@ -231,9 +257,14 @@ No functor from GU's construction to the DG category exists that preserves ind_H
 
 ---
 
-## Genuine Open Obstruction: The Freed-Hopkins Observer-Pairing Lane
+## Lane-Narrowed, Not Closed: The Freed-Hopkins Observer-Pairing Lane
 
-This is the first result in this series that is a **genuine open obstruction** rather than a missing computation. The Freed-Hopkins enriched-bordism observer-pairing program has been analyzed through three candidate constructions, and all three fail at the level of structural impossibility.
+**2026-06-25 correction.** This lane is narrowed, not closed. The three initial observer-data
+candidates fail or relabel, but Option B / `X_obs^sol` remains only CONDITIONALLY_RESOLVED
+and K3/KSp/relabeling assumptions remain load-bearing. Do not cite this section as a closed
+GENUINE_OBSTRUCTION.
+
+This was originally written as the first result in this series that is a **genuine open obstruction** rather than a missing computation. The current status is weaker: the Freed-Hopkins enriched-bordism observer-pairing program has been narrowed, and three candidate constructions fail at the level of structural impossibility.
 
 ### What the Program Seeks
 
@@ -265,7 +296,7 @@ There is no third option within functorial field theory.
 
 The no-go does not fully close the lane. One formal possibility survives (Option B): if a noncontractible observer-state space X_obs can be constructed with a Fredholm family {D_x}_{x ∈ X_obs} such that the class [D_x] ∈ KSp⁰(X_obs) is NOT in the image of any ordinary symmetry/background-extension functor, the enrichment could add new structure. The GU section space Γ(π: Y¹⁴ → X⁴) is in principle a candidate for X_obs, but the index bundle ind(D_GU) over Γ(π) — which defines a class in KSp⁰(Γ(π)) — is already part of the GU index theory, not a genuinely independent observer-pairing datum.
 
-**Status: GENUINE OPEN OBSTRUCTION.** All three known candidates for non-forgettable observer data fall to the structural no-go. The observer-pairing anomaly program cannot be advanced with eta-invariants, pin structures, or Maslov indices. A genuinely new construction (Option B above) would be required to make progress.
+**Current status: CONDITIONALLY_RESOLVED / lane-narrowed, not closed.** All three initial candidates for non-forgettable observer data fall to the structural no-go. The observer-pairing anomaly program cannot be advanced with eta-invariants, pin structures, or Maslov indices, but Option B is not closed without the K3/solution-space/KSp non-extendability checks.
 
 This is a genuine mathematical obstruction, not a bookkeeping gap. The Freed-Hopkins enriched bordism lane is blocked until a noncontractible observer-state space with a non-extendable Fredholm family is exhibited.
 
@@ -289,7 +320,11 @@ A structural gap is confirmed: J_{GU}² = −1 (quaternionic, KO-dim 4 type) whi
 
 ## Dark Energy
 
-Noether's second theorem for the Yang-Mills action guarantees D_A*θ = 0 on-shell. The distortion is divergence-free by gauge symmetry. This stands unchanged.
+**2026-06-25 correction.** Dark-energy divergence-free is CONDITIONALLY_RESOLVED, not
+closed. Noether's second theorem gives `D_A*E_A = 0` for the relevant gauge-invariant
+action, but `D_A*theta = 0` follows only after a written GU action derives theta as the
+relevant Euler-Lagrange/source sector. C1+C2 is a gauge-invariance cross-check, not an
+independent Noether route.
 
 ---
 
@@ -373,16 +408,26 @@ This is a genuine structural gap in GU's physical scope, not a bookkeeping issue
 
 ## The Shape of Progress
 
+**2026-06-25 correction.** The list below is partly superseded. Current replacements:
+anomaly is substantially addressed but full cancellation is OPEN; dark-energy
+divergence-free is CONDITIONALLY_RESOLVED; VZ is 14D CONDITIONALLY_EVADED / 4D
+CONDITIONALLY_RESOLVED; generation count is OPEN; Freed-Hopkins observer is
+CONDITIONALLY_RESOLVED / lane-narrowed, not closed.
+
 The program has now passed the following tests:
 
 - **Signature:** (9,5) confirmed. Shiab exists without complexification. Nguyen §3.1 closed.
-- **Anomaly:** Sp(64) is anomaly-free by pseudoreality. Nguyen §2 closed.
+- **Anomaly:** Nguyen's U(128) pincer is substantially addressed by the Sp(64) setting;
+  full local/global GU anomaly cancellation remains OPEN.
 - **IG dimension matching:** τ⁺ is group-theoretic. Residual objection resolved.
 - **SM branching:** 16 Weyl fermions per SM generation, correct quantum numbers. Confirmed.
 - **Spin structure:** w₂(Y¹⁴) = 0 for any orientable X⁴. Canonical Dirac operator exists.
-- **Dark energy:** D_A*θ = 0 by Noether's second theorem. Closed.
-- **Shiab domain/codomain:** Ω²⊗S → Ω¹⊗S confirmed against reference texts. Closed.
-- **Velo-Zwanziger:** EVADED at reconstruction grade by Clifford module non-decoupling.
+- **Dark energy:** divergence-free theta is CONDITIONALLY_RESOLVED pending the
+  written-action theta/Euler-Lagrange identification.
+- **Shiab domain/codomain:** Ω²⊗S → Ω¹⊗S exists naturally in the (9,5) setting;
+  injectivity, rank/kernel, and uniqueness are not claimed.
+- **Velo-Zwanziger:** 14D CONDITIONALLY_EVADED and 4D CONDITIONALLY_RESOLVED at
+  principal-symbol grade by Clifford module non-decoupling.
 - **Cross-term cancellation:** RESOLVED — ind_H additive over spin-1/2 + RS sectors by homotopy invariance of the H-linear index.
 - **T⁴ vs K3:** RESOLVED — T⁴ gives A-hat = 0, 1 generation; K3 uniquely has A-hat = 2, 3 generations.
 - **OQ1 split-rank:** RESOLVED — split-rank = 3 (correct involution σ_B); scalar FJ criterion fails; generation count survives via APS and physical DOF routes.
@@ -392,10 +437,13 @@ The program has now passed the following tests:
 - **Hidden curvature:** Six-piece decomposition confirmed. SL(2,ℂ) labels at reconstruction grade.
 - **4D reduction:** Codazzi structure derived, umbilic→Λ identified, failure tensor named.
 - **Cross-program contact:** Structural contact between GU Tikhonov and TaF FR2 established.
-- **Freed-Hopkins observer:** GENUINE OPEN OBSTRUCTION — all three candidate constructions fail structurally.
+- **Freed-Hopkins observer:** CONDITIONALLY_RESOLVED / lane-narrowed; the Lorentzian
+  full GU setting is not closed by the Riemannian/K3 argument.
 - **Schwarzschild vacuum:** GENUINE OPEN OBSTRUCTION — Schwarzschild is not a critical section of E[s] = ∫|II_s|²; conformally flat solutions (FLRW, de Sitter, pp-waves) are reproduced, static black hole vacua are not. Recovery via the full coupled distortion field equations or a modified variational principle remains open.
 
-What remains open is a compact list. The most significant item is the first: upgrading ind_H(D_RS) = 8 from reconstruction-grade to analytic grade is the last gate between the generation count and a fully closed theorem. The Freed-Hopkins obstruction is a different kind of result — a barrier, not a gap — and its significance is that it rules out one lane of anomaly enrichment without leaving a clear alternative path.
+What remains open is a compact list. The generation count is OPEN because the RS index
+leg is not analytically derived, and the Freed-Hopkins lane is narrowed rather than a
+closed obstruction.
 
 ---
 

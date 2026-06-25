@@ -9,6 +9,12 @@ previous_version: what-geometric-unity-needs-to-do-next-v1.md
 audience: mathematically curious readers familiar with the Weinstein/Nguyen exchange
 ---
 
+> **2026-06-25 correction for all versions.** This paper series is historical. Do not
+> inherit any statement that Nguyen §2 is fully closed, Sp(64) anomaly cancellation is
+> automatic, the generation count is conditionally 3/reconstruction-verified, VZ is fully
+> evaded, or dark-energy divergence-free is closed. Current owner surfaces are
+> `RESEARCH-STATUS.md`, `CANON.md`, and the affected `canon/` entries.
+
 > **This report has a newer version.** The current version is [v4](what-geometric-unity-needs-to-do-next-v4.md), which fully closes both Nguyen objections (§3.1 complexification gap and §2 anomaly pincer) and confirms SM branching from the fiber spinor S(6,4). See [v3](what-geometric-unity-needs-to-do-next-v3.md) for the anomaly dissolution result.
 
 > **This report has been updated from v1.** The original version identified three tasks the program needed to accomplish. Since then, formal analysis has closed one of them and partially closed a second. The original version is preserved at [v1](what-geometric-unity-needs-to-do-next-v1.md). This version incorporates those results and sharpens what remains.

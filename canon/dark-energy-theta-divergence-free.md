@@ -71,7 +71,7 @@ With this identification, D_A* theta = 0 follows from Noether's second theorem f
 2. The GU action contains a gauge-invariant Yang-Mills sector on Y^14.
 3. **Structural identification (reconstruction grade, unproved):** theta = pi - epsilon^{-1} B epsilon is the gauge-potential sector of the Euler-Lagrange derivative E_A for the GU action. This identification is inferred from the schematic field equation in the transcript ([00:25:56]); no coordinate computation or variational derivation from a written GU action has been supplied.
 
-Assumption 3 is reconstruction-grade and is the load-bearing gap in the C3 path. The C3 Noether argument is valid for any gauge-invariant action functional, but the claim D_A* theta = 0 requires that theta IS the relevant E_A sector — a fact that must be derived, not assumed. The C1+C2 alternative path (gimmel G-invariance) remains open as an independent verification route and must be completed before either path can support a RESOLVED verdict.
+Assumption 3 is reconstruction-grade and is the load-bearing gap in the C3 path. The C3 Noether argument is valid for any gauge-invariant action functional, but the claim D_A* theta = 0 requires that theta IS the relevant E_A sector — a fact that must be derived, not assumed. The earlier C1+C2 route is not an independent alternative: if it uses Noether's first theorem it proves the wrong kind of statement, and if it uses Noether's second theorem it collapses into the same E_A-sector identification as C3. Gimmel G-invariance remains an important cross-check for the action, but it does not by itself supply an independent proof of D_A* theta = 0.
 
 ## Known Failure Modes
 
@@ -87,12 +87,12 @@ Assumption 3 is reconstruction-grade and is the load-bearing gap in the C3 path.
 Both of the following must be satisfied before this entry can be upgraded to RESOLVED:
 
 1. **Prove Assumption 3 from a written variational principle.** Supply a coordinate or functorial derivation showing that theta as defined (pi - epsilon^{-1} B epsilon) is the gauge-potential sector of delta S / delta A for a specified GU action on Y^14.
-2. **Complete at least one of C3 or C1+C2 as an independent verification.** Either close the structural identification (C3 complete) and verify gimmel G-invariance (C1 complete) as a cross-check, or complete the C1+C2 path (prove gimmel G-invariance and compute the Noether current directly from gauge-covariance of the gimmel metric) as an alternative independent route.
+2. **Verify the action-level gauge-invariance inputs as cross-checks, not as an independent route.** After Assumption 3 is derived, verify the needed gimmel G-invariance and Yang-Mills/IG action invariance directly for the written GU action. Do not present C1+C2 as an independent Noether-first-theorem proof; any correct Noether proof is a Noether-second-theorem proof of the same Euler-Lagrange-sector identity.
 
 ## What This Does Not Establish
 
 - The 120-orders-of-magnitude problem is solved in the sense of a derivation from GU first principles. What is established is the STRUCTURAL resolution: the fine-tuning in Lambda-CDM arises because Lambda is forced constant; the analogous term in GU (theta) is not forced constant and is instead G-equivariant. Whether the effective dark energy vacuum expectation value tracks observations quantitatively requires a separate cosmological computation (see theta-field FLRW exploration).
-- Gimmel G-invariance (the C1+C2 path). This remains an open verification cross-check.
+- Gimmel G-invariance as an independent divergence-free proof. It remains an open action-invariance cross-check, not a separate route to D_A* theta = 0.
 
 ## The Einstein Analogy
 

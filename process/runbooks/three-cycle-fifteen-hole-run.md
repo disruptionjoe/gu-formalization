@@ -62,10 +62,11 @@ Before cycle 1:
 1. Verify the branch and worktree are clean or explicitly account for existing changes.
 2. Read `RESEARCH-POSTURE.md`.
 3. Read `process/runbooks/five-lane-frontier-run.md`.
-4. Review the newest Mission A artifacts and audits.
-5. Build a candidate hole bank with at least eighteen candidates when possible.
-6. Mark dependencies between candidates.
-7. Split candidates into parallel-safe sets.
+4. Read `process/runbooks/claim-status-consistency-quality-workflow.md`.
+5. Review the newest Mission A artifacts and audits.
+6. Build a candidate hole bank with at least eighteen candidates when possible.
+7. Mark dependencies between candidates.
+8. Split candidates into parallel-safe sets.
 
 The candidate bank should distinguish:
 
@@ -83,11 +84,13 @@ Run each cycle as a complete five-lane frontier run:
 3. Spawn five workers in parallel only after write scopes are disjoint.
 4. Keep coordination, review, and integration in the main thread.
 5. Review every returned artifact for substance, overclaiming, and duplicate work.
-6. Run every new audit and relevant existing audit.
-7. Run `git diff --check`.
-8. Remove generated caches such as `tests/__pycache__`.
-9. Commit and push the cycle before starting the next cycle.
-10. Close the workers for that cycle.
+6. Run the claim-status consistency workflow for any lane that promotes, downgrades, or
+   re-scopes a claim.
+7. Run every new audit and relevant existing audit.
+8. Run `git diff --check`.
+9. Remove generated caches such as `tests/__pycache__`.
+10. Commit and push the cycle before starting the next cycle.
+11. Close the workers for that cycle.
 
 After each cycle, update the hole bank:
 
@@ -110,6 +113,7 @@ Each of the fifteen lanes must record:
 - what would change if the hole closed;
 - what would falsify or demote the route;
 - the next meaningful computation or proof step;
+- the claim-status consistency result if the lane changes a status;
 - an audit/test when a real machine-checkable invariant is available.
 
 At least one of these must be true for every lane:
@@ -171,7 +175,8 @@ The closeout should answer:
     "verdict",
     "impact_if_closed",
     "rollback_or_falsification_condition",
-    "next_meaningful_computation_or_proof_step"
+    "next_meaningful_computation_or_proof_step",
+    "claim_status_consistency_result_if_status_changed"
   ],
   "forbidden_modes": [
     "padding_weak_lanes",

@@ -16,13 +16,19 @@ keywords:
   - spinor geometry
 ---
 
+> **2026-06-25 status correction.** This preprint draft overstates the current VZ and
+> anomaly scope. Current VZ status is 14D CONDITIONALLY_EVADED pending independent
+> E-block invertibility, and 4D CONDITIONALLY_RESOLVED at principal-symbol grade. The
+> shiab result is existence-only, and full GU anomaly cancellation remains OPEN pending
+> local `I_16`/index-density and global spin-bordism/Dai-Freed/eta checks.
+
 # Clifford Module Non-Decoupling and Velo-Zwanziger Evasion in Geometric Unity
 
 ---
 
 ## Abstract
 
-We prove that the Rarita-Schwinger (RS) sector of Geometric Unity (GU) evades the Velo-Zwanziger (VZ) no-go theorem at the level of the 14-dimensional bulk theory. GU's rolled-up Dirac-DeRham-Einstein operator D_GU acts on the full Clifford module bundle E over Y^{14} = Met(X^4) with signature (9,5) and gauge group Sp(64). The RS sector is the sub-bundle R^{14D} = ker Gamma^{14D} within E, not a standalone Rarita-Schwinger field. Its effective principal symbol is the Schur complement S_R(xi) = A(xi) - B(xi) E(xi)^{-1} C(xi). We prove that ker S_R(xi) = 0 for all non-null covectors xi with g_Y(xi,xi) not equal to 0. The proof is a two-line consequence of the Clifford module identity sigma_D(xi)^2 = g_Y(xi,xi) Id_E: if S_R(xi) psi_R = 0 then M(xi)(psi_R, -E^{-1} C psi_R) = 0, hence xi^2(psi_R, ...) = 0, so psi_R = 0. The characteristic cone of the effective RS propagator is the null cone, excluding all spacelike characteristics. The evasion mechanism is Clifford module non-decoupling of the spin-3/2 and spin-1/2 sectors, not a guardian symmetry. We verify robustness under: sub-principal symbol corrections (Hormander propagation-of-singularities, three independent arguments), lower-order curvature (all 14D curvature terms enter D_GU at zero order), 4D section-pullback (naturality of principal symbols under smooth pullback preserves the Clifford identity), and effective field theory decoupling (the RS/spin-1/2 coupling is kinematic, not dynamical). We identify precise failure conditions. This closes the VZ lane of Nguyen's 2021 critique of Geometric Unity at reconstruction grade.
+We analyze a reconstruction-grade mechanism by which the Rarita-Schwinger (RS) sector of Geometric Unity (GU) can evade the Velo-Zwanziger (VZ) no-go theorem at principal-symbol level. GU's rolled-up Dirac-DeRham-Einstein operator D_GU acts on the full Clifford module bundle E over Y^{14} = Met(X^4) with signature (9,5) and gauge group Sp(64). The RS sector is the sub-bundle R^{14D} = ker Gamma^{14D} within E, not a standalone Rarita-Schwinger field. Its effective principal symbol is the Schur complement S_R(xi) = A(xi) - B(xi) E(xi)^{-1} C(xi), so the 14D claim is conditional on independent E-block invertibility. Under that precondition, ker S_R(xi) = 0 for non-null covectors and the characteristic cone is null. Current status: 14D CONDITIONALLY_EVADED; 4D CONDITIONALLY_RESOLVED at principal-symbol grade; full dynamics and anomaly closure remain open.
 
 ---
 
@@ -46,11 +52,14 @@ The central operator is a rolled-up Dirac-DeRham-Einstein operator D_GU acting o
 
 In 2021, Nguyen [N21] published a detailed mathematical critique of GU. Two core objections concerned the shiab operator (undefined domain and codomain) and the anomaly structure of the gauge group. A third implicit concern was the Velo-Zwanziger constraint on the RS sector.
 
-The shiab and anomaly objections have been closed [see v7]: the shiab exists as an H-linear, Spin(9,5)-equivariant map in the (9,5) quaternionic setting without complexification, and Sp(64) is anomaly-free by pseudoreality (J^2 = -1, so n_L - n_R = 0 identically). This paper addresses the VZ lane.
+The shiab existence objection is resolved only for the existence of a natural H-linear,
+Spin(9,5)-equivariant map in the (9,5) quaternionic setting. The Sp(64) replacement
+substantially addresses Nguyen's U(128) anomaly pincer, but full GU anomaly cancellation
+is not closed. This paper addresses the VZ lane, whose present status is conditional.
 
 ### 1.3 Main Result
 
-**Theorem (VZ Evasion, Reconstruction Grade).** Let D_GU be the rolled-up Dirac-DeRham-Einstein operator acting on sections of the Clifford module bundle E over Y^{14} with signature (9,5). Let R^{14D} = ker Gamma^{14D} be the 14D Rarita-Schwinger sub-bundle, where Gamma^{14D}(psi) = c(e^A) psi_A sums over all 14 frame directions. Let S_R(xi) = A(xi) - B(xi) E(xi)^{-1} C(xi) be the Schur complement of the principal symbol sigma_D(xi) in the RS/non-RS block decomposition. Then for all covectors xi in T*Y^{14} with g_Y(xi,xi) not equal to 0:
+**Theorem candidate (conditional VZ evasion, reconstruction grade).** Let D_GU be the rolled-up Dirac-DeRham-Einstein operator acting on sections of the Clifford module bundle E over Y^{14} with signature (9,5). Let R^{14D} = ker Gamma^{14D} be the 14D Rarita-Schwinger sub-bundle, where Gamma^{14D}(psi) = c(e^A) psi_A sums over all 14 frame directions. Let S_R(xi) = A(xi) - B(xi) E(xi)^{-1} C(xi) be the Schur complement of the principal symbol sigma_D(xi) in the RS/non-RS block decomposition. Conditional on independent invertibility of the E-block for all non-null xi, then for all covectors xi in T*Y^{14} with g_Y(xi,xi) not equal to 0:
 
     ker S_R(xi) = 0.
 
@@ -100,7 +109,7 @@ In 14 dimensions, dim Y^{14} = 14, and the Clifford trace formula gives c^A c_A 
 
 The gauge group is Sp(64) = U(64,H), the group of quaternionic unitary transformations of S = H^{64}. Its Lie algebra is sp(64), the algebra of H-skew-Hermitian endomorphisms of H^{64}. The real dimension is dim sp(64) = 64(2*64 + 1) = 8256.
 
-Sp(64) is anomaly-free for the following reason: its fundamental representation S = H^{64} is pseudoreal, satisfying J^2 = -1 for the quaternionic structure J. By the standard anomaly counting theorem, a pseudoreal representation satisfies n_L - n_R = 0 identically, giving automatic anomaly cancellation. The global anomaly is also absent: pi_15(Sp(n)) = Z for all n, but the relevant coefficient vanishes in the quaternionic setting.
+Sp(64) substantially addresses Nguyen's U(128) anomaly pincer, but this draft's original automatic-anomaly phrasing is superseded. Pseudoreality is a key structural input, not a complete proof of full GU anomaly cancellation. Current upgrade gates are the explicit local 14D `I_16`/index-density calculation for the actual chiral field content and the global spin-bordism/Dai-Freed/eta check.
 
 ### 2.4 The Dirac-DeRham-Einstein Operator
 

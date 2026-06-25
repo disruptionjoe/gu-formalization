@@ -7,6 +7,13 @@ audience: differential geometry, mathematical physics
 framing: necessary constructions for a Geometric-Unity-class reduction program
 ---
 
+> **2026-06-25 status correction.** This draft is historical. Do not inherit its
+> stronger anomaly, generation-count, or dark-energy closure wording as current status.
+> Current source of truth: generation count OPEN; Sp(64) defuses Nguyen's U(128) pincer
+> but full GU anomaly cancellation remains OPEN; dark-energy divergence-free is
+> CONDITIONALLY_RESOLVED pending a written-action theta/Euler-Lagrange identification.
+> See `RESEARCH-STATUS.md`, `CANON.md`, and `canon/dark-energy-theta-divergence-free.md`.
+
 # Canonical Structures in the 14-Dimensional Metric Geometry: Spin, Fermion Generations, and Curvature Decomposition
 
 **Abstract.** Let X⁴ be an oriented smooth 4-manifold with Lorentzian structure. The total space Y¹⁴ = Met(X⁴) of the bundle of Lorentzian metrics on X⁴ carries a canonical Riemannian-type geometry of signature (9,5), arising from the Frobenius inner product on symmetric 2-tensors after trace-reversal. We prove that Y¹⁴ admits a spin structure whenever X⁴ is orientable, with w₂(Y¹⁴) = 0 for any orientable base. The associated Clifford algebra is Cl(9,5) ≅ M(64,ℍ), yielding a quaternionic spinor module S = ℍ^{64} of real dimension 256. A canonical Clifford-contraction operator Φ: Ω²(Y¹⁴) ⊗ S → Ω¹(Y¹⁴) ⊗ S is constructed, shown to be ℍ-linear and Spin(9,5)-equivariant. Under restriction to the fiber structure group Spin(6,4), the spinor decomposes as S(9,5) = S(3,1) ⊗ S(6,4), with S(6,4) branching to exactly one Standard Model generation of 16 Weyl fermions under the Pati-Salam group SU(4) × SU(2)_L × SU(2)_R. A conditional theorem gives three fermion generations subject to an analytic condition on the L²-index theory of a non-compact fiber. The curvature of the canonical connection decomposes into six irreducible pieces — three standard and three torsion-activated — and the vacuum field equation D_A*(D_A*F_A) = 0 follows from Noether's second theorem applied to the Yang-Mills action on Y¹⁴. The 4D reduction via a section s: X⁴ → Y¹⁴ is partially established. Four open questions with precise closure conditions are stated.
@@ -442,7 +449,7 @@ We have established, for the 14-manifold Y¹⁴ = Met(X⁴) with canonical signa
 
 3. **The shiab operator exists:** Φ: Ω²(Y¹⁴) ⊗ S → Ω¹(Y¹⁴) ⊗ S is a canonical, ℍ-linear, Spin(9,5)-equivariant map, constructed via Clifford contraction.
 
-4. **The gauge group Sp(64) is anomaly-free:** No perturbative chiral anomaly (pseudoreal representation) and no global Witten anomaly (π₁₅(Sp) = ℤ). Both horns of Nguyen's §2 objection are dissolved.
+4. **The Sp(64) replacement substantially addresses Nguyen's U(128) anomaly pincer:** full GU anomaly cancellation is not proved here and remains OPEN pending the local `I_16`/index-density and global spin-bordism/Dai-Freed/eta checks.
 
 5. **One SM generation per fiber:** S(6,4) = ℂ^{16} branches as (4,2,1) ⊕ (4̄,1,2) under SU(4) × SU(2)_L × SU(2)_R, decomposing to exactly 16 SM Weyl fermions.
 
@@ -450,7 +457,7 @@ We have established, for the 14-manifold Y¹⁴ = Met(X⁴) with canonical signa
 
 7. **Curvature decomposes into 6 pieces:** Three standard plus three torsion-activated, the latter at reconstruction grade for their SL(2,ℂ) labels.
 
-8. **D_A*θ = 0 on-shell:** The divergence-free condition on the dark energy field θ = D_A*F_A follows from Noether's second theorem applied to the Yang-Mills action on Y¹⁴, with no additional assumptions.
+8. **D_A*theta = 0 is conditional:** the Noether-second-theorem route requires a written GU action deriving theta as the relevant Euler-Lagrange/source sector. This draft's closed wording is superseded by `canon/dark-energy-theta-divergence-free.md`.
 
 9. **The 4D reduction is partial:** Connection and curvature pullback are verified (standard); the identification of θ with the second fundamental form and the derivation of the Einstein equations remain open (OQ2, OQ4).
 

@@ -190,7 +190,9 @@ sign, the coefficient changes and this condition must be restated (see FC5).
 ## References
 
 - Source exploration: theta-field-flrw-eos-2026-06-23.md (full computation with discipline tags)
-- Canon basis: dark-energy-theta-divergence-free.md (theta is dynamic and D_A*theta = 0)
+- Canon basis: dark-energy-theta-divergence-free.md (theta is dynamic and
+  divergence-free only at CONDITIONALLY_RESOLVED grade pending the written-action
+  theta/Euler-Lagrange identification)
 - DESI Collaboration (2024). DESI 2024 VI. arXiv:2404.03002, Table 5 (BAO+CMB+Pantheon+, CPL).
 - Turner, M.S. (1983). Coherent scalar-field oscillations in an expanding universe. PRD 28, 1243. (Time-averaged w=0 for oscillating massive scalar)
 - Chevallier, M. and Polarski, D. (2001). CPL parametrization. IJMPD 10, 213.

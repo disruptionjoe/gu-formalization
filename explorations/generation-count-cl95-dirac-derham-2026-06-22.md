@@ -3,6 +3,7 @@ artifact_type: exploration
 status: exploration
 updated_at: "2026-06-22"
 title: "Generation Count — Cl(9,5) Dirac-DeRham-Einstein Complex"
+correction: "CORRECTION GEN-OPEN-01 (2026-06-25): This file is superseded provenance. Generation count is OPEN. The noncompact fiber pushforward pi!(1)=1, compact/K3 arithmetic, and 2+1 sector story are not analytic index proofs and must not be cited as derived three generations."
 ---
 
 # Generation Count — Cl(9,5) Dirac-DeRham-Einstein Complex
@@ -10,6 +11,17 @@ title: "Generation Count — Cl(9,5) Dirac-DeRham-Einstein Complex"
 **Status.** Exploration-grade. Steps tagged `[verified]` (established result, named reference),
 `[reconstruction]` (inferred from sources with explicit warrant), or `[speculation]`
 (extrapolation with explicit naming of what would need to hold).
+
+**Current correction (GEN-OPEN-01, 2026-06-25).** This file predates later rank-3,
+tau-route, APS/K3, and circularity audits. It is retained as provenance only. Current repo
+status is: generation count OPEN. Do not cite this file as proving `ind_H(D_GU)=24` or three
+generations. In particular:
+
+- `pi!(1)=1` over the noncompact contractible fiber needs compact-support/Fredholm or
+  equivalent noncompact index machinery; it is not a theorem as written here.
+- The two-plus-one representation story is a reconstruction target, not an analytic index.
+- Any compact K3 arithmetic is a toy or conditional bridge unless the RS leg is derived
+  without target division or reverse-engineered rank input.
 
 **Purpose.** Derive the fermion generation count for the Dirac-DeRham-Einstein complex
 on Y¹⁴ with the correct Clifford algebra Cl(9,5) ≅ M(64,H). This is the Phase 2 follow-on

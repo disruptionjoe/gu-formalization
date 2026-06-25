@@ -3,6 +3,7 @@ artifact_type: exploration
 status: exploration
 updated_at: "2026-06-22"
 title: "Anomaly Audit — Cl(9,5) Gauge Group and the Nguyen §2 Objection"
+correction: "CORRECTION ANOMALY-01 (2026-06-25): The original ANOMALY_CANCELS_AUTOMATICALLY verdict is downgraded. Sp(64) defuses Nguyen's U(128) pincer, but pseudoreality does not automatically kill the even degree-8 local anomaly in 14D, and pi_15(Sp)=Z is not a sufficient global-anomaly analysis. Full GU anomaly cancellation remains OPEN/non-canon pending explicit I_16/index-density and spin-bordism/Dai-Freed/eta checks."
 ---
 
 # Anomaly Audit — Cl(9,5) Gauge Group and the Nguyen §2 Objection
@@ -18,14 +19,33 @@ breaks quantum consistency. Retreating to Spin(14) avoids the anomaly but destro
 shiab algebra-dimension match. The (9,5) correction changes the gauge group. Does the
 anomaly objection survive under the correct Clifford algebra Cl(9,5) ≅ M(64,ℍ)?
 
-**Verdict summary.** The anomaly objection **does not survive** in its Nguyen form. The
+**Verdict summary (corrected 2026-06-25).** The anomaly objection **does not survive**
+in its original Nguyen U(128) pincer form, but full GU anomaly cancellation is not proved by
+this file. The
 quaternionic structure of Cl(9,5) forces the natural gauge group to be the quaternionic
-unitary group Sp(64) (not U(128) over ℂ), and Sp(N) groups have **no perturbative gauge
-anomaly** in any dimension from their fundamental representation, because the fundamental
-is pseudoreal and all anomaly polynomials vanish identically on pseudoreal representations.
-A global (non-perturbative) anomaly requires separate analysis; the conclusion there is
-also clean: Sp(N) for N ≥ 2 has no global gauge anomaly in 14D. Verdict:
-**ANOMALY_CANCELS_AUTOMATICALLY**.
+unitary group Sp(64) (not U(128) over C), removing the original U(1)-center horn. However,
+the local 14D anomaly polynomial involves an even degree-8 symmetric trace, so pseudoreality
+alone gives no automatic vanishing. A global anomaly also requires a spin-bordism/Dai-Freed
+eta-invariant analysis; the homotopy fact pi_15(Sp)=Z is not by itself a cancellation proof.
+Corrected verdict: **NGUYEN_PINCER_SUBSTANTIALLY_ADDRESSED; FULL_GU_ANOMALY_CANCELLATION_OPEN**.
+
+## 0. Correction ANOMALY-01 (2026-06-25)
+
+This file is retained as provenance for the Sp(64) replacement and the defusing of Nguyen's
+U(128) argument, but several closure statements below are superseded:
+
+- Do not cite "pseudoreality kills all anomalies" for 14D. Pseudoreality kills odd symmetric
+  traces; the 14D local anomaly uses degree 8.
+- Do not infer global anomaly cancellation from pi_15(Sp)=Z alone. The correct object is a
+  representation-dependent spin-bordism/Dai-Freed/eta problem, e.g. the relevant spin
+  bordism class over BSp(64) with the GU chiral field content.
+- Do not promote `ANOMALY_CANCELS_AUTOMATICALLY` to canon. Current status is
+  `SUBSTANTIALLY_ADDRESSED / OPEN for full cancellation / NOT PROMOTED`.
+
+Upgrade condition: compute the actual 16-form anomaly polynomial
+`I_16 = [Ahat(TY) ch_R(F)]_16` for the precise GU chiral complex, including mixed
+gauge-gravitational terms, and perform the corresponding global anomaly check by
+spin-bordism/Dai-Freed eta methods.
 
 ---
 
@@ -310,7 +330,11 @@ the Pontryagin classes p_k of the Sp(N) bundle. `[verified]`
 The question then becomes: is the specific 16-form piece of ch(R) · Â(TY) zero for
 Sp(N) with fundamental R?
 
-### §2.5 The vanishing theorem for Sp(N) perturbative anomaly
+### §2.5 Superseded attempted vanishing theorem for Sp(N) perturbative anomaly
+
+**Correction ANOMALY-01:** the closure argument in this subsection is not sufficient for
+14D. It is preserved as the historical attempted route, but the current status is OPEN until
+the explicit I_16/index-density calculation is supplied.
 
 **Theorem (Banks-Nair-Mende, Cicoli-Maharana et al.).** The fundamental representation
 of Sp(N) in D = 4n−2 dimensions has a **vanishing** perturbative gauge anomaly if and
@@ -515,7 +539,12 @@ The dimension 14 does NOT have a direct Witten-type Z_2 anomaly for Sp(N), becau
 
 **For D = 14, the homotopy group π_{15}(Sp) = Z does not give a Z_2 anomaly.** `[verified]`
 
-### §3.4 Summary of global anomaly analysis
+### §3.4 Superseded summary of global anomaly analysis
+
+**Correction ANOMALY-01:** the summary below is too strong. Absence of a Witten-type Z_2
+class from the single homotopy-group check does not establish absence of all global
+anomalies. The current global-anomaly status is OPEN pending the representation-dependent
+spin-bordism/Dai-Freed/eta computation.
 
 For the gauge group Sp(64) in D = 14 with Weyl fermions in the fundamental (or more
 precisely, the quaternionic spinor module ℍ^{64}):
@@ -535,22 +564,26 @@ fundamental representation.** `[verified for perturbative; reconstruction for gl
 
 ### §4.1 Verdict
 
-**ANOMALY_CANCELS_AUTOMATICALLY**
+**NGUYEN_PINCER_SUBSTANTIALLY_ADDRESSED; FULL_GU_ANOMALY_CANCELLATION_OPEN**
 
-The quaternionic structure of Cl(9,5) ≅ M(64,ℍ) forces the gauge group to be
+The quaternionic structure of Cl(9,5) ≅ M(64,H) forces the gauge group to be
 Sp(64) = U(64,ℍ), not U(128) over ℂ. The symplectic/quaternionic-unitary gauge group
-Sp(64) has:
+Sp(64) therefore removes Nguyen's original U(128)/U(1)-center pincer. What this file does
+not establish is full anomaly cancellation. The previous numbered list is superseded as
+follows:
 
-1. No perturbative gauge anomaly in 14D (fundamental representation is pseudoreal;
-   the chiral anomaly tr[γ^{15} F^8] = 0 identically). `[verified]`
-2. No global (non-perturbative) gauge anomaly of the Witten Z_2 type in 14D
-   (π_{15}(Sp) = Z, not Z_2). `[reconstruction]`
-3. No additional structure (Green-Schwarz terms, anomaly inflow, etc.) is required for
-   anomaly cancellation. The anomaly cancels without any new mechanism. `[reconstruction]`
+1. Local anomaly cancellation in 14D is OPEN until the degree-16 index density for the
+   actual GU chiral complex is computed. Pseudoreality alone does not kill the degree-8
+   symmetric trace.
+2. Global anomaly cancellation is OPEN until the spin-bordism/Dai-Freed/eta check is done.
+   The pi_15(Sp)=Z observation only says the direct Witten-type Z_2 story is not the whole
+   analysis.
+3. No Green-Schwarz/inflow conclusion should be drawn before the local and global anomaly
+   computations are complete.
 
-The specific cancellation mechanism: the fundamental representation of Sp(N) is
-pseudoreal (equivalently, quaternionic), so the charge conjugation matrix C exists and
-exchanges S⁺ ⊗ V_fund and S⁻ ⊗ V_fund, making the net chiral anomaly zero.
+The specific replacement mechanism that survives is narrower: the natural gauge group is
+Sp(64), not U(128). That defuses Nguyen's stated pincer, but it is not by itself a proof
+that the GU chiral fermion determinant has zero local and global anomaly.
 
 ### §4.2 What the Nguyen §2 pincer claimed and why it dissolves
 

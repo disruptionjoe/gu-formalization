@@ -5,6 +5,7 @@ problem_label: "freed-hopkins-xobs-sol-k3-moduli"
 status: exploration
 verdict: CONDITIONALLY_RESOLVED
 correction: "CORRECTION XOBS-IC4-01 (2026-06-23): verdict downgraded from GENUINE_OBSTRUCTION to CONDITIONALLY_RESOLVED / lane-narrowed. The closed-GENUINE_OBSTRUCTION reading was same-session verdict inflation: the load-bearing input X_obs^sol = M_RF(K3) rests on the IC4 Einstein reduction (ic4-ricci-flat-k3-selection-2026-06-23.md), which is only CONDITIONALLY_SUPPORTED, dated the same day, with open failure conditions F3 (surviving trace-free GU source) and F5 (K3 topology not actually forced). GENUINE_OBSTRUCTION requires a proved failure with verified inputs; the load-bearing input is unproven. The lane is genuinely NARROWED (Met(X^4) and Omega^2 B Sp(64) candidates eliminated; X_obs^sol identified as the sole survivor and plausibly a gravitational-background relabel) but NOT closed. Promotion to a closed GENUINE_OBSTRUCTION is deferred to a future session after IC4 gates C/D/F (F3/F5) and the RC4 KO^4-over-orbifold lift are independently verified. Aligns this file with the already-corrected canon surface (CORRECTION FH-01, canon/no-go-class-relative-map.md). The candidate-elimination and M_RF(K3) identification math is unchanged."
+scope_correction: "CORRECTION FH-03 (2026-06-25): Any use of ind_H(D_GU)=24 in this file is non-load-bearing provenance only. Generation count is OPEN. The KSp/relabeling question should be stated for a family index class, not for the numerical augmentation 24."
 ---
 
 # X_obs^sol on Compact K3: Noncontractibility and KSp^0 Extendability
@@ -72,7 +73,8 @@ This computation builds on:
 - **KSp^0 = KO^4 identification** (`signed-readout-oq2a-k-theory-lift-2026-06-23.md`,
   CONDITIONALLY_RESOLVED): H-linear Fredholm families on S = H^64 are classified by
   KSp^0(X) = KO^4(X); augmentation eps: KSp^0(X) -> Z sends the GU index family to
-  ind_H = 24.
+  an integer index. Earlier drafts inserted `ind_H = 24`; that numerical generation-count
+  target is currently OPEN and is not load-bearing for the KSp/relabeling analysis.
 - **No-go structural lemma** (`freed-hopkins-nonforgettable-observer-2026-06-23.md`):
   any bordism-invariant observer datum either descends (metadata) or is ordinary
   tangential-structure/background data (relabeling). Option B is the only escape, and
@@ -220,7 +222,8 @@ Dirac operator D_{g_s} = s*(D_GU) on S = H^64 over K3. By the KSp^0 = KO^4 lift
 [D] in KSp^0(X_obs^sol) = KO^4(M_RF(K3)).
 ```
 
-Its augmentation is eps([D]) = ind_H(D_GU) = 24 (the generation count). The reduced
+Its augmentation is eps([D]) = ind_H(D_GU), whose numerical value is currently OPEN
+(the old target was 24, corresponding to three generations). The reduced
 class [D]_tilde in KO^4_tilde(M_RF(K3)) is the obstruction to stable triviality of the
 generation bundle [ker D_{g_s}] over the metric moduli.
 

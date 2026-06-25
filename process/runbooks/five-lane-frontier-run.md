@@ -3,7 +3,7 @@ title: "Five-Lane Frontier Run"
 status: canon
 doc_type: runbook
 scope: repo-local
-updated_at: "2026-06-24"
+updated_at: "2026-06-25"
 ---
 
 # Five-Lane Frontier Run
@@ -52,12 +52,14 @@ A good lane should answer at least one of these:
 6. Spawn five workers in parallel only after the file scopes are non-overlapping.
 7. Keep integration work in the main thread.
 8. Review returned artifacts for substance, overclaiming, and overlap.
-9. Run every added audit or test.
-10. Run `git diff --check`.
-11. Remove generated cache files such as `tests/__pycache__`.
-12. Stage only the intended run files.
-13. Commit and push after review passes.
-14. Summarize the findings in plain English, including what each result means.
+9. If any lane changes a claim status, run
+   `process/runbooks/claim-status-consistency-quality-workflow.md`.
+10. Run every added audit or test.
+11. Run `git diff --check`.
+12. Remove generated cache files such as `tests/__pycache__`.
+13. Stage only the intended run files.
+14. Commit and push after review passes.
+15. Summarize the findings in plain English, including what each result means.
 
 If two strong goals would touch the same files or depend on each other, do not run them in
 parallel. Combine them into one lane, run them sequentially, or save one for the next run.
@@ -161,6 +163,7 @@ A run is acceptable only if:
   toward it or identify the first exact obstruction.
 - Mission B lanes are explicitly labeled as secondary independent mathematics.
 - No lane overclaims beyond the sources it read.
+- Any status-changing lane passes the claim-status consistency workflow before commit.
 - Parallel workers did not edit overlapping paths.
 - Added audits/tests pass.
 - `git diff --check` passes.
