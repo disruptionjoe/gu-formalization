@@ -1721,9 +1721,19 @@ File: `explorations/oq-rk2-aps-fc3-fc4-closure-2026-06-23.md`
 ---
 
 ### sc1-oq1a-d7-clebsch-gordan-cas (2026-06-23)
-Verdict: CONDITIONALLY_RESOLVED
+Verdict: OPEN
 CORRECTION SC1-OQ1A-VERDICT-OVERSTATED (2026-06-23): verdict downgraded from RESOLVED to CONDITIONALLY_RESOLVED. The chirality-parity argument (algebraic, exact) correctly excludes V(omega_7) and V(omega_1+omega_7) from Lambda^2 tensor Delta^+ at verified grade. However: (1) the irreducibility of ker(c) in Section 3.3 Step 3 is reconstruction grade only, as the file itself acknowledges -- a formal proof requires the D_7 branching law or a LiE weight computation (FC-IRR); (2) the multiplicity-1 claim for V(omega_6) in V(omega_2) tensor V(omega_6) is reconstruction grade pending LiE verification (FC-MULT: if LiE returns multiplicity > 1, dim_H Hom > 1 and uniqueness weakens); (3) the highest-weight assignment omega_1 + omega_7 for ker(c) is reconstruction grade (FC-HW). The file's own Section 10 grade table records decompositions and multiplicities as reconstruction, contradicting the original RESOLVED verdict. Chirality-exclusion results (V(omega_7) absent, V(omega_1+omega_7) absent) are verified grade and stand. OQ-CG-2 (LiE/SageMath numerical verification) is the upgrade path to RESOLVED. OQ1-B (inner/outer automorphism for so(9,5)) remains open.
 File: `explorations/sc1-oq1a-d7-clebsch-gordan-cas-2026-06-23.md`
+
+CORRECTION SC1-OQ1A-PRODUCTB-CANDIDATE-01 (2026-06-25): verdict downgraded from CONDITIONALLY_RESOLVED to OPEN. The 2104 Product B table audit computes the D7 character identity `V(omega_2) tensor V(omega_6) = V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)` with dimensions `4928 + 832 + 64 = 5824`. This supersedes the older chirality-exclusion sentence that `V(omega_1+omega_7)` is absent from `Lambda^2 tensor Delta^+`. The old common-summand count exactly one is no longer current: against `Lambda^1 tensor Delta^- = V(omega_6) + V(omega_1+omega_7)`, the Product B table gives two common summands. Consequence: the OQ1-A uniqueness/common-summand route is OPEN, and any `dim_H Hom = 1` use for the chiral block is blocked until a replacement Hom-space computation is filed. Shiab existence is unaffected because canon claims only existence of one natural Clifford-contraction map and explicitly excludes uniqueness/rank/kernel.
+
+Claim-status consistency table:
+
+| claim | prior status | current status | weakest dependency | stale wording searched | files updated |
+|---|---|---|---|---|---|
+| SC1-OQ1A D7 common-summand / Product B chirality exclusion | CONDITIONALLY_RESOLVED; `V(omega_1+omega_7)` excluded from `Lambda^2 tensor Delta^+` | OPEN; Product B table includes `V(omega_1+omega_7)` | 2104 Product B character audit plus replacement Hom-space computation not yet filed | `rg "sc1-oq1a|V(omega_1+omega_7)|Lambda^2 tensor Delta^+|Product B" RESEARCH-STATUS.md CANON.md DERIVATION-PROGRESS.md NEXT-STEPS.md canon papers` | `explorations/sc1-oq1a-d7-clebsch-gordan-cas-2026-06-23.md`, `DERIVATION-PROGRESS.md`, `NEXT-STEPS.md`, `explorations/hourly-20260625-2104-cycle1-ig-product-b-d7-table-receipt-attempt.md`, `tests/hourly_20260625_2104_cycle1_receipt_attempts_audit.py` |
+
+No CANON.md or `canon/shiab-existence-cl95.md` edit is required: both already avoid a uniqueness claim and list uniqueness/rank/kernel as not established.
 
 ---
 

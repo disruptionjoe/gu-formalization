@@ -85,6 +85,7 @@ This sweep corrects stale stronger claims that survived earlier downgrade work. 
 | Freed-Hopkins Option-B / X_obs^sol | CONDITIONALLY_RESOLVED / lane-narrowed, not closed | Riemannian full-section-space contractibility does not automatically cover Lorentzian metric components; K3 and KSp relabeling remain conditional. |
 | Generation count | OPEN | Old compact-toy and physical-count arithmetic is provenance only until the RS leg is derived without target division or reverse-engineered rank input. |
 | Velo-Zwanziger | 14D CONDITIONALLY_EVADED; 4D CONDITIONALLY_RESOLVED at principal-symbol grade | Do not cite 4D as VERIFIED; subprincipal/extrinsic-curvature and full dynamical gates remain open. |
+| SC1-OQ1A D7 common-summand / Product B chirality exclusion | OPEN | CORRECTION SC1-OQ1A-PRODUCTB-CANDIDATE-01 (2026-06-25): the 2104 Product B audit finds `V(omega_2) tensor V(omega_6) = V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)`, so the older claim excluding `V(omega_1+omega_7)` from `Lambda^2 tensor Delta^+` is superseded. Shiab existence remains RESOLVED for existence only; uniqueness/common-summand is open. |
 
 ## 2026-06-23 Canon Promotion Sweep
 

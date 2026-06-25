@@ -13,6 +13,14 @@ updated_at: "2026-06-25"
 > CONDITIONALLY_EVADED and 4D CONDITIONALLY_RESOLVED at principal-symbol grade; dark-energy
 > divergence-free is CONDITIONALLY_RESOLVED. Do not promote older stronger language without
 > running `process/runbooks/claim-status-consistency-quality-workflow.md`.
+>
+> **2026-06-25 SC1-OQ1A guard.** The older row that says the D7 Product B chirality screen
+> excludes `V(omega_1+omega_7)` from `Lambda^2 tensor Delta^+` is superseded by
+> `explorations/hourly-20260625-2104-cycle1-ig-product-b-d7-table-receipt-attempt.md`
+> and `tests/hourly_20260625_2104_cycle1_receipt_attempts_audit.py`: Product B now has the
+> route-local table `V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)`. Treat the
+> SC1-OQ1A uniqueness/common-summand gate as OPEN pending a replacement Hom-space
+> computation. Shiab existence remains RESOLVED for existence only.
 
 This repo asks contributors to help determine whether Geometric Unity can be rigorously
 reconstructed, extended, or falsified. The useful unit is still bounded: one construction,

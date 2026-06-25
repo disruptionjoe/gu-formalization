@@ -3,7 +3,8 @@ title: "SC1-OQ1A — D_7 Clebsch-Gordan CAS Check: Common Summands in Lambda^1 t
 date: 2026-06-23
 problem_label: "sc1-oq1a-d7-clebsch-gordan-cas"
 status: reconstruction
-verdict: CONDITIONALLY_RESOLVED
+verdict: OPEN
+correction_2026_06_25: SC1-OQ1A-PRODUCTB-CANDIDATE-01 supersedes the chirality-exclusion claim for V(omega_1+omega_7) in Lambda^2 tensor Delta^+. The 2104 Product B character audit finds Lambda^2 tensor Delta^+ = V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6). The common-summand count is therefore at least two, so the uniqueness/common-summand gate is OPEN. Shiab existence is unaffected.
 correction: SC1-OQ1A-VERDICT-OVERSTATED (2026-06-23) — downgraded from RESOLVED to CONDITIONALLY_RESOLVED. The chirality exclusion results (V(omega_7) absent, V(omega_1+omega_7) absent from Lambda^2 tensor Delta^+) are verified grade. The multiplicity-1 claim for V(omega_6) in Lambda^2 tensor Delta^+ rests on reconstruction-grade irreducibility (Step 3 of Section 3.3). OQ-CG-2 (LiE numerical verification) remains open.
 failure_conditions:
   FC-IRR: The irreducibility of ker(c) in Section 3.3 is reconstruction grade only. If ker(c) = V(omega_1+omega_7) oplus W for some D_7-invariant W, the decomposition of Lambda^1 tensor Delta^- has more than two summands, and the common summand analysis changes.
@@ -15,6 +16,35 @@ upgrade_conditions:
 ---
 
 # SC1-OQ1A — D_7 Clebsch-Gordan: Explicit Decomposition and Common-Summand Count
+
+## 0. 2026-06-25 Supersession Note
+
+**Current status: OPEN.** This file is historical for the old OQ1-A
+common-summand route. The 2026-06-25 2104 Product B audit supersedes the
+specific chirality-exclusion statement that `V(omega_1 + omega_7)` is absent
+from `Lambda^2_C tensor Delta^+_C`.
+
+Current Product B table:
+
+```text
+Lambda^2_C tensor Delta^+_C
+  = V(omega_2 + omega_6) + V(omega_1 + omega_7) + V(omega_6)
+```
+
+with dimensions:
+
+```text
+4928 + 832 + 64 = 5824 = 91 * 64
+```
+
+Therefore the old conclusion that the intersection with
+`Lambda^1_C tensor Delta^-_C = V(omega_6) + V(omega_1 + omega_7)` is exactly
+`{V(omega_6)}` is no longer current. Under the 2104 table candidate, the
+intersection contains both `V(omega_6)` and `V(omega_1 + omega_7)`. The Shiab
+existence canon remains unaffected because it does not claim uniqueness, rank,
+kernel, or selector identity. Any downstream use of this file must cite the
+2026-06-25 correction and treat the uniqueness/common-summand gate as open until
+a replacement Hom-space computation is filed.
 
 ## 1. Problem Statement
 
