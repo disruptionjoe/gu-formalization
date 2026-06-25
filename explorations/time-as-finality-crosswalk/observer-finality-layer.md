@@ -2,7 +2,7 @@
 title: "Observer-Finality Layer"
 status: exploration
 doc_type: specification
-updated_at: "2026-06-01"
+updated_at: "2026-06-25"
 ---
 
 # Observer-Finality Layer
@@ -45,6 +45,20 @@ source substrate
 ```
 
 This chain prevents a common layer error: a mathematical projection can be defined all at once, but a physical observer-facing world must be recorded, stabilized, and made causally accessible.
+
+## Categorical Refinement
+
+The sheafification bridge note (`sheafification-as-observer-finality-bridge-v0.1.md`) gives one precise implementation target for the finality relation:
+
+```text
+presheaf of local observer records F
+  -> associated sheaf / descent completion aF
+  -> explicit loss profile across eta_F
+```
+
+This refinement is admissible only after the candidate declares the site, coverage, target category, restriction maps, observer capability, readout map, and loss object. The point is not that sheafification proves a GU claim; the point is that it prevents "local records become a stable observer-facing shadow" from remaining an untyped slogan.
+
+The S7 legitimacy-monad refinement (`legitimacy-monad-observer-mathematics-v0.1.md`) adds one stricter requirement: if a finality relation is claimed to make observer mathematics buildable, state the idempotent operation or fixed-point condition that makes the record legitimate for that use. Legitimacy here means observer-record usability, not source-side proof.
 
 ## Layer Distinctions
 

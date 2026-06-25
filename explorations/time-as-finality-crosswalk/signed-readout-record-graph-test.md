@@ -2,7 +2,7 @@
 title: "Signed-Readout Record-Graph Test"
 status: exploration
 doc_type: specification
-updated_at: "2026-06-01"
+updated_at: "2026-06-25"
 ---
 
 # Signed-Readout Record-Graph Test
@@ -43,6 +43,20 @@ The test must explicitly state four relations:
 | causal order | accessibility or influence | scalar readout |
 | finality relation | stable records an observer may build on | mathematical truth of the invariant |
 | readout order | decoded semantic/scalar value | record stability |
+
+## Sheafification Refinement
+
+The companion bridge note (`sheafification-as-observer-finality-bridge-v0.1.md`) suggests a stricter version of this test: treat local record assignments as a presheaf over causally closed observer-accessible neighborhoods, then ask whether the associated sheaf or descent completion stabilizes provenance without forcing the signed scalar readout to become monotone.
+
+Required separation remains:
+
+```text
+record gluing / finality through eta_F
+  is not the same as
+scalar readout monotonicity of R
+```
+
+If sheafification erases the negative or phase-sensitive data needed by `R`, that is not a success; it is a `Lose[K]` event that must be recorded in the loss profile.
 
 ## Success Criteria
 
