@@ -18,6 +18,29 @@ whether GU succeeds.
 
 For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
 
+## Objection Triage Register (3-Pass Analysis, 2026-06-24)
+
+Thirteen objections/weaknesses from the 2026-06-24 three-pass repo assessment (neutral → heterodox
+→ orthodox). Durably captured so none are lost. Full detail, decisive tests, and kill conditions
+live in `roadmap/objection-triage-register.md`. Each row below is OPEN and loop-eligible. All carry
+`viability: UNTRIAGED` until the one-time triage pass assigns PURSUE/PARK/KILL.
+
+| id | lane | status | decisive first test |
+|---|---|---|---|
+| OBJ-GEN | generation count `ind_H(D_RS)=8` (load-bearing; all 3 passes agree) | OPEN | Run OQ-RK1: CAS rank of `Π_RS·E₊·Π_RS` in M(64,ℍ) returning 4 or 8 without dividing by the target |
+| OBJ-CMPR | C_MPR / 9-tuple / BvN wall | OPEN | Give `C_GW` an object-level definition (objects + anomaly-free morphisms + functors L,R), or demote the wall permanently |
+| OBJ-TAF | observer-finality / time-as-finality crosswalk | OPEN | Find one concrete transport from a crosswalk object into a GU theorem, or close the lane with a stated reason |
+| OBJ-HETSUB | Wolfram/rulial, stochastic, CA, decidability substrate lanes | OPEN | For each sub-lane, name one falsifiable SM-chirality hook, or park it |
+| OBJ-FHOBS | Freed-Hopkins observer-pairing (Option B) | OPEN | Compute `X_obs^sol = M_RF(K3)` topology; decide if its KSp⁰ class is non-extendable beyond gauge backgrounds |
+| OBJ-VZ | Velo-Zwanziger evasion (principal-symbol only) | OPEN | Do the subprincipal/extrinsic-curvature characteristic computation (FC-VZ-4) + direct E-block invertibility proof (FC-VZ-1) |
+| OBJ-FALSIFY | central substrate-shadow thesis falsifiability | OPEN | Census the candidate single-prediction SM tests; rank by nearness-to-decidable |
+| OBJ-DESI | theta-field FLRW dark-energy `w_a` sign | OPEN | Resolve OQ3-A: derive physical ICs (slow-roll from z ≫ z_osc); is the `w_a > 0` sign real or an IC artifact? |
+| OBJ-DG | Distler-Garibaldi scope-exit (crown jewel) | OPEN | Standalone referee-checkable write-up: "the DG refutation is a category error" (DG-A1/A2/A6/A7 violated) |
+| OBJ-NGUYEN | shiab dissolves Nguyen §3.1 (crown jewel) | OPEN | Standalone write-up of the Cl(9,5) shiab construction + §3.1 dissolution, audited against the Nguyen synthesis |
+| OBJ-CONNES | finite Connes control case over-elevated? | OPEN | Decide whether "preserve the finite Connes control case" is load-bearing for GU or a relaxable imported constraint |
+| OBJ-DEFLATE | verdict-deflation over-killing live leads? | OPEN | False-negative audit: sample recent OPEN downgrades; check any was too aggressive vs actual proof state |
+| OBJ-CONVERGE | is the automated loop converging or thrashing? | OPEN | Compute a convergence read over `process/loop-adversarial-log.md` (net RESOLVED gain, churn ratio, repeat rate) |
+
 ## Best First Tasks
 
 | order | task | output | best for |
