@@ -1689,6 +1689,24 @@ Verdict: **negative disposition** (the affirmative leg stays OPEN; do NOT read a
 
 ---
 
+### OQ-RK1 follow-up — E_RS^eff specification attempt: sharpened blocker + two findings (2026-06-26)
+
+Verdict: **BLOCKED_NEEDS_SPEC (sharpened).** Attempted to specify the effective Rarita-Schwinger projector E_RS^eff so the decisive rank rank_H(Pi_RS · E_+ · Pi_RS) (4 => 3 generations, 8 => 4 generations) becomes computable, by decomposing it into four components (gauge/BRST quotient; chiral E_+; honest K3 index reduction; ch_2(F)/H-trace), assembling, and attempting the computation. Adversarially verified — the verifier independently re-derived every number from scratch (fresh Clifford rep, fresh K3 arithmetic), confirmed honest, no fabrication, no target-division; land_as_sharpened_blocker.
+
+**Result:** E_RS^eff is NOT specifiable; the decisive rank is NOT computable. But the blocker is now reduced from a six-item list to ONE precise object: the physical gauge-fixed/BRST RS elliptic complex **RS_GU^phys** — its source-defined gauge/BRST differential d_RS,-1, gauge-fixing condition, ghost complex, and resulting K-theory symbol class, on a common source-selected right-H module M_RS,H^src. Everything else is pinned or blocked downstream of this one object.
+
+**Finding 1 (component resolved): E_+ is the global Cl(9,5) chirality projector, NOT the VZ E-block.** E_+ = (I+omega)/2 on S=H^64, rank_H=32 (machine-exact). The OQ-RK1 "E-block / chirality projector" phrasing conflated two unrelated uses of the letter E: the chirality projector is an xi-independent rank-deficient idempotent endomorphism; the VZ E-block is an xi-dependent, invertible, chirality-FLIPPING symbol block (its role is to be inverted in the VZ Schur complement). Only the chirality projector type-checks as the E_+ in Pi_RS · E_+ · Pi_RS.
+
+**Finding 2 (NEW, machine-verified — kills the naive route):** the pure-gauge image is NOT annihilated within the gamma-trace kernel (RS symbol on the projected pure-gauge image has norm 73.48 != 0; i.e. gamma^mu D_mu epsilon = D-slash epsilon != 0). So the gauge transformation does NOT preserve the gamma-trace constraint, and the physical RS space is therefore **NOT a naive subspace subtraction** ker(Gamma)/im(gauge). The repo's prior "subtract one spinor copy (32_H)" rank-counting is uncertified, and a genuine gauge-fixing + ghost (BRST) complex is REQUIRED, not optional. This closes the naive rank-counting route to the generation count.
+
+**Honest target check (decision-relevant):** every honestly-grounded surrogate was computed — E_+ = 32_H; raw 14D gamma-trace kernel = 416_H; Cl(4,0) toy Pi_raw·E_+·Pi_raw = 48_H; honest closed-K3 index ind_H (flat k=0) = -320 / -304 / -336 for ghost branches q = 0 / +1 / -1 — and **NONE is 4 or 8.** The honest K3 integrand ind_C = (-40+2q)·n + (4+q)·k (n=16, k=ch_2(F)[K3]) yields large negatives and is background-dependent (the twisting class q and ch_2(F)=k are both undetermined repo-wide). The value 4 (=> 3 generations) is reachable ONLY via the forbidden 8/Â(K3)=8/2 division (INVALID_TARGET_DIVISION, refused). So the "ind_H(D_RS)=8 => 24 => 3 generations" story is NOT supported by any honest construction on current repo data — it required inserting the target. (Caveat: this is bounded to the surrogates computed here, not an exhaustive proof that no combination reaches 4/8.)
+
+**Discipline:** the assembly code (tests/oq_rk1_e_rs_eff_assembly.py) hard-refuses to fabricate E_RS^eff — the all-slots-present branch raises RuntimeError rather than inventing the quotient (anti-FC4-HOLONOMY-01). Files: explorations/oq-rk1-e-rs-eff-specification-2026-06-26.md, tests/oq_rk1_e_rs_eff_assembly.py.
+
+**Net:** the entire generation-count question now reduces to ONE constructive obligation — specify RS_GU^phys (the BRST quotient of the GU RS field) — and the naive subtraction route is closed. Until then, "3 generations" has no honest computational support.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)
