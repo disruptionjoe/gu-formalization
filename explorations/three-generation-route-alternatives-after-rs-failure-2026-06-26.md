@@ -161,6 +161,31 @@ TOPOLOGICAL_CLASS_IMPORTED
 TOPOLOGICAL_CLASS_NOT_FOUND
 ```
 
+### Current subgate
+
+The current frontstage version of this route is:
+
+```text
+FamiliesIndexPushforwardGate_V0
+```
+
+filed at:
+
+```text
+active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
+```
+
+It preserves the strongest families-index/K3-chi proposal but blocks promotion. The
+forbidden shortcut is:
+
+```text
+ind_H(D_GU) = ch(S_X)[X4] = chi(K3) = 24
+```
+
+until the route supplies the exact fiber model, compact-support or APS pushforward,
+whole-operator symbol class, shiab homotopy/symbol certificate, source-derived
+`ch2` or eta correction, and H-line normalization.
+
 ## 5. Route C: RS Decomposition Validity Audit
 
 ### Steelman

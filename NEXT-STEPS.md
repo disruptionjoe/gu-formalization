@@ -52,6 +52,13 @@ updated_at: "2026-06-26"
 > rational factor as an input. Treat `RSDecompositionValidityAudit_V0` as a firewall:
 > prove the split is a physical invariant before using the split, or reroute to the
 > whole-operator/topological alternatives.
+> The current frontstage Steel Man 2 subgate is
+> `active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md`:
+> `FamiliesIndexPushforwardGate_V0` / `S_XCharacteristicClassPacket_V0`. It keeps the
+> families-index/K3-chi route live but explicitly blocks the shortcut
+> `ind_H(D_GU)=chi(K3)=24` until the fiber model, compact-support/APS pushforward,
+> `Phi` homotopy or symbol certificate, `ch2`/eta correction, and H-line normalization
+> are computed without target import.
 
 This repo asks contributors to help determine whether Geometric Unity can be rigorously
 reconstructed, extended, or falsified. The useful unit is still bounded: one construction,
