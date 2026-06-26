@@ -1707,6 +1707,26 @@ Verdict: **BLOCKED_NEEDS_SPEC (sharpened).** Attempted to specify the effective 
 
 ---
 
+### RS-BRST follow-up — RS_GU^phys is a GENUINE GU THEORY GAP (the generation count is blocked on GU itself) (2026-06-26)
+
+Verdict: **BLOCKED_NEEDS_SPEC; overall origin = genuine_gu_gap.** Attempted to specify RS_GU^phys (the gauge-fixed/BRST Rarita-Schwinger complex — the single object the generation count now hangs on) from GU source, decomposed into four sub-structures (gauge symmetry / gauge-fixing / ghost-BRST complex / elliptic symbol), each classified gu_derived vs textbook_import vs genuine_gu_gap. Adversarially verified — the verifier re-ran the code (Cl(4,0) norm 73.48, Cl(9,5) norm 343.73, K3 index family -320/-304/-336, no surrogate = 4 or 8) AND independently checked the GU draft PDF (page 49 contains "until it is stabilized. Caveat Emptor.") and the transcript; honest, no fabrication; land_as_sharpened_blocker.
+
+**The decisive answer to "does GU determine the structure needed to predict the generation count?": NO — and the gap is in the theory, not the repo.**
+
+- **What GU GENUINELY DETERMINES (gu_derived skeleton):** the RS gauge symmetry (the inhomogeneous gauge group IG = G semidirect Omega^1(ad P), SUSY-extended; the differential d_RS,-1 = d_A: Omega^0(S) -> Omega^1(S), eps |-> D_mu eps); the field content (0/1-forms valued in ad or spinors); the complex skeleton C^{-1} -> C^0 -> C^1 with form-degree grading; the H-structure (S=H^64, d_A H-linear, from the forced Sp(64)=U(64,H) / Cl(9,5)=M(64,H)); and that the RS sector is the generation carrier. The differential's SHAPE coincides with the textbook spin-3/2 symmetry; GU adds only the bundle/connection/H-structure.
+
+- **What is a TEXTBOOK IMPORT (Layer A — closable by formalization, NOT a genuine gap):** the general spin-3/2 BRST apparatus — Faddeev-Popov ghost/antighost, Nielsen-Kallosh commuting-spinor ghost, a gauge slice, and the slice-independence of BRST cohomology. Standard for ANY spin-3/2 gauge theory; would be closable IF the action and symmetry were standard.
+
+- **What is the GENUINE GU THEORY GAP (Layer B — the real, computability-deciding hole):**
+  - **(B1) GU does not determine its own RS-sector ACTION.** This is the single root. It traces to GU's OWN primary source: the 2021 draft was read in-repo and found NOT to emit a stabilized action / operator / differential / Noether identity / BRST rule for the RS sector; the only candidate (draft eq 10.10) is author-disclaimed ("Caveat Emptor", PDF p.49); the tau-action field-space is "declared but uninhabited" with the FULL_IG / FIXED_ALEPH / DYNAMIC_A trichotomy source-unselected. Without the action it is not even well-posed whether the spinor 1-form is pure-gauge, dynamical, or constrained — so the gauge-fixing slice, the ghost-subtraction count q (=1-a), and the constraint/orbit reconciliation are all undetermined.
+  - **(B2) GU's gamma-trace irreducibility constraint and the gauge orbit are incompatible as a naive quotient** (machine-verified this run on the full Cl(9,5) anchor, not just the toy: RS symbol on the projected pure-gauge image has norm 343.73 != 0). So some nontrivial gauge-fixing apparatus is genuinely required (the easy subtraction is rigorously ruled out); GU asserts a reconciled "elliptic deformation complex" (draft p.65) but never constructs it.
+
+**Consequence (decision-relevant):** the GU 3-generation prediction is not merely unproven or uncomputed — it rests on a sector GU has not finished defining, by the author's own admission. Until GU supplies (or someone derives) a stabilized RS-sector action, the generation count is not computable even in principle, and the cherished "ind_H=8 => 24 => 3" value is reachable only via the refused 8/Â(K3)=8/2 division. The honest next obligation is upstream of any computation: stabilize the GU RS-sector action (a theory-completion task), then the rank follows.
+
+Discipline: the assembly code (tests/rs_gu_phys_brst_specification.py) blocks at the first None slot (stabilized_RS_action) and the all-slots-present branch raises rather than fabricating a quotient (anti-FC4-HOLONOMY-01). Files: explorations/rs-gu-phys-brst-specification-2026-06-26.md, tests/rs_gu_phys_brst_specification.py. Cascade: CANON.md "Not Yet Canon" three-generation line annotated.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)

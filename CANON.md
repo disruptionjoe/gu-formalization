@@ -81,5 +81,5 @@ surfaces that might still carry a stronger historical verdict.
 - PCP-blindness
 - BvN/Classical-Value-Lattice Wall as universal obstruction
 - stochastic, Sorkin, RG, CA, bicategorical, and layer-split applications
-- Three-generation count (analytic index ind_H(D_gimmel) on non-compact Y14)
+- Three-generation count (analytic index ind_H(D_gimmel) on non-compact Y14) — **BLOCKED ON A GENUINE GU THEORY GAP (2026-06-26, RS-BRST run):** the count requires the physical gauge-fixed Rarita-Schwinger complex RS_GU^phys, whose computability-deciding data (a stabilized RS-sector action => the ghost-subtraction count q => the gauge-fixing slice) GU does NOT determine. GU fixes the gauge symmetry, field content, and H-structure (gu_derived skeleton) but never stabilizes the RS-sector action — the only candidate, draft eq 10.10, is author-disclaimed ("until it is stabilized. Caveat Emptor.", PDF p.49). Machine-verified obstruction: GU's gamma-trace irreducibility constraint and the gauge orbit are incompatible as a naive quotient (RS symbol on the pure-gauge image: norm 73.48 Cl(4,0) / 343.73 Cl(9,5), neither annihilated). So "3 generations" is not computable even in principle on current GU source — the gap is in the theory, not the formalization. See DERIVATION-PROGRESS RS-BRST entry.
 - Velo-Zwanziger constraint for GU spin-3/2 sector
