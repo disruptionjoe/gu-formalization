@@ -1,7 +1,8 @@
 ---
 title: "N6: w₂(Y¹⁴) and Spin Structure via Serre Spectral Sequence"
 artifact_type: exploration
-status: RESOLVED
+status: SUPERSEDED
+correction: "W2-01 (2026-06-26) — unconditional spin conclusion FALSE; corrected to Y14 spin iff X4 spin"
 date: 2026-06-22
 depends_on:
   - "explorations/pc2-met-x4-bundle-formalization-stub-2026-06-22.md"
@@ -11,9 +12,9 @@ depends_on:
 
 # N6: w₂(Y¹⁴) Computation
 
-**Verdict: RESOLVED.**
+**Verdict: RESOLVED → SUPERSEDED by CORRECTION W2-01 (2026-06-26).** The unconditional spin conclusion below is FALSE: the §5.5/§5.6 assembly dropped a `w2(V)` term in the `(R³⊗sgn = V⊗L)` factor — correct is `w2(V⊗L) = w2(V) + w1(L)²`, so `w2(TV) = 0` (not `w2(X⁴)`) and `w2(Y¹⁴) = π*w2(X⁴)`, i.e. **Y¹⁴ is spin iff X⁴ is spin** (non-spin for non-spin bases like CP2). Independently confirmed by `w2(Sym²E) = w1(E)²` for rank-4 E. Orientability `w1(Y¹⁴)=0` is unaffected. Kept as provenance; the current verdict and corrected derivation live in `canon/w2-y14-spin-structure.md` and `DERIVATION-PROGRESS.md` (CORRECTION W2-01).
 
-w₂(Y¹⁴) = 0 for any orientable X⁴. Therefore Y¹⁴ = Met(X⁴) is spin unconditionally whenever
+**Original (RETRACTED) verdict:** w₂(Y¹⁴) = 0 for any orientable X⁴. Therefore Y¹⁴ = Met(X⁴) is spin unconditionally whenever
 X⁴ is orientable. The canonical Dirac operator D_ℊ on Y¹⁴ is defined for any orientable X⁴
 without any section choice. The monodromy triviality condition (§4.1, §8.1) has been verified
 by an explicit bundle isomorphism argument. No remaining open conditions.

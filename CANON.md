@@ -63,7 +63,7 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 |---|---|---|
 | `shiab-existence-cl95.md` | RESOLVED (existence only) | n1-signature-audit + n2-shiab-computation (2026-06-22); CORRECTION SHIAB-01 (2026-06-25): proves existence of one natural real-linear Spin(9,5)-equivariant Clifford-contraction map only; injectivity, rank/kernel, uniqueness, source-forced selector identity, anomaly cancellation, and generation count are not included |
 | `dark-energy-theta-divergence-free.md` | CONDITIONALLY_RESOLVED | dark-energy-divergence-free-proof + dark-energy-noether-closure (2026-06-22); CORRECTION DARK-ENERGY-01 plus 2026-06-25 consistency sweep: downgraded from RESOLVED — Assumption 3 (structural identification) is reconstruction grade and unproved; C1+C2 is a cross-check, not an independent Noether route |
-| `w2-y14-spin-structure.md` | RESOLVED | n6-w2-y14-gysin-spin-structure (2026-06-22) |
+| `w2-y14-spin-structure.md` | CONDITIONALLY_RESOLVED | n6-w2-y14-gysin-spin-structure (2026-06-22); CORRECTION W2-01 (2026-06-26): unconditional spin claim RETRACTED — Step 3 dropped a w2(V) term, so w2(Y14)=pi*w2(X4), i.e. Y14 spin iff X4 spin (non-spin for CP2); orientability w1(Y14)=0 unaffected |
 | `schwarzschild-weak-field-rfail.md` | CONDITIONALLY_RESOLVED | rfail-schwarzschild-oq2-weak-field (2026-06-23) |
 | `theta-field-flrw-dark-energy-eos.md` | CONDITIONALLY_RESOLVED | theta-field-flrw-eos (2026-06-23) |
 

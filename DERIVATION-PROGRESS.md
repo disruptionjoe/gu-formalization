@@ -1613,7 +1613,27 @@ Result 1 (oscillation regime: M_KK = 2.83 H_0 > 3H_0/2 BF bound, theta oscillati
 
 4. Assembly via Whitney product formula across the O(3) x O(1) decomposition: the (R^3 tensor sgn) factor contributes w2 = w1(X4)^2 = 0 for oriented X4; the trivial trace factors contribute 0; final result is w2(TV) = pi*(w2(X4)).
 
-**Verdict change:** None. The RESOLVED verdict stands. The derivation was mathematically correct (it existed in full in N6 §5.5); the fix makes the canon file self-contained so the key identity can be verified without consulting the exploration file.
+**Verdict change:** None. The RESOLVED verdict stands. The derivation was mathematically correct (it existed in full in N6 §5.5); the fix makes the canon file self-contained so the key identity can be verified without consulting the exploration file. **[SUPERSEDED by CORRECTION W2-01 (2026-06-26): this disposition was wrong. MO-02's own sub-step 4 ("the (R^3 tensor sgn) factor contributes w2 = w1(X4)^2 = 0 for oriented X4") RESTATES the load-bearing error rather than catching it. The derivation was NOT correct; the unconditional spin result is false. See W2-01 below.]**
+
+---
+
+### CORRECTION W2-01 (critical) — canon/w2-y14-spin-structure.md unconditional spin claim is FALSE (2026-06-26)
+
+**File corrected:** `canon/w2-y14-spin-structure.md` (verdict RESOLVED -> CONDITIONALLY_RESOLVED).
+
+**Supersedes:** the "Verdict change: None / RESOLVED stands" disposition of CORRECTION MO-02 (2026-06-23). MO-02 added a correct derivation for `w2(Sym^2(V)) = w1(V)^2 + w2(V)` (valid for the rank-3 V) but its sub-step 4 restated the actual error verbatim. MO-02 audited the missing-derivation citation gap and blessed the load-bearing assembly; it never recomputed the `(R^3 tensor sgn)` term.
+
+**Error (Step 3 assembly + Step 4):** The `(R^3 tensor sgn)` summand of the vertical bundle TV is `V tensor L` (V = spatial R^3, L = time line bundle). For rank-3 V and line bundle L, `w2(V tensor L) = w2(V) + 2 w1(V) w1(L) + 3 w1(L)^2 = w2(V) + w1(L)^2` (mod 2). The canon and N6 §5.3/§5.5 DROPPED the `w2(V)` term, writing `w2(R^3 tensor sgn) = w1(L)^2 = 0` for oriented X4. Restoring it: `w2(TV) = w2(Sym^2_0(R^3)) + w2(R^3 tensor sgn) + 0 = w2(X4) + w2(X4) = 2 w2(X4) = 0`, so `w2(TV) = 0` — NOT `w2(X4)`. Step 4's "doubles to zero" cancellation then vanishes: `w2(Y14) = w2(TV) + w1(TV)*pi*w1(X4) + pi*w2(X4) = 0 + 0 + pi*w2(X4) = pi*w2(X4)`.
+
+**Independent verification:** For any rank-4 real bundle E, `w2(Sym^2 E) = w1(E)^2`. `w(Sym^2 E)` is the product over the six mixed splitting roots `{ti + tj}_{i<j}` (the four squares `2ti` are trivial mod 2); the second elementary symmetric function of those six roots is `e2 = 3 sigma1^2 + 2 sigma2 ≡ sigma1^2 = w1(E)^2` (mod 2) by Newton's identity (`p1 = 3 sigma1`, `p2 = 3 sigma1^2 - 4 sigma2`, `e2 = (p1^2 - p2)/2`). For oriented X4 (`w1 = 0`) this is 0, confirming `w2(TV) = 0`.
+
+**Corrected result:** `w1(Y14) = 0` unconditional (unaffected). `w2(Y14) = pi*w2(X4)` — **Y14 is spin iff X4 is spin**. For non-spin X4 (e.g. CP2) Y14 is non-spin, and `D_gimmel` is well-defined without a section choice only for spin X4; non-spin X4 requires a spin/spin-c structure — OPEN. The "metric bundle absorbs the spin obstruction / spin even for CP2 / D_gimmel needs no section choice" claims are RETRACTED.
+
+**Provenance:** error surfaced by an external adversarial audit (2026-06-26) and verified two independent ways (dropped-term restoration + the Newton-identity `w2(Sym^2 E) = w1^2` computation). This was the one canon result carrying no prior correction; it slipped through because MO-02 audited the citation gap, not the computation.
+
+**Verdict change:** `canon/w2-y14-spin-structure.md` RESOLVED -> CONDITIONALLY_RESOLVED. Cascade applied (sweep order): source `explorations/n6-w2-y14-gysin-spin-structure-2026-06-22.md` (status SUPERSEDED + verdict banner), `RESEARCH-STATUS.md` (canon registry row + promotion-record row), `CANON.md` (Canon Entries table row), and the canon file itself (frontmatter, banner, Steps 3-4, Result, Geometric Explanation, Known Failure Modes).
+
+**Open cascade (downstream re-evaluation required — deliberately NOT done in this pass, per the same-session/independent-pass rule):** `canon/no-go-class-relative-map.md` cites the retracted premise in §0.1 (the "Generic-X4 entries" and "why K3 is a working hypothesis" paragraphs), the Witten Met(X4) entry §2.1, and the CANON-5 scope tags (FH §2.3, DG GU-Chir §2.4). Those entries argued "do not globally fix X4 = K3 because w2-y14 proves spin for any orientable X4 including CP2." That justification is now FALSE: for non-spin X4, Y14 is not spin, so D_gimmel is not defined without extra structure, and the generic-X4 entries inherit a spin-on-X4 precondition. New open failure condition **W2-FC1**: re-derive whether the Witten class-exit (non-compact fiber) and the no-import-K3 argument survive once the base is required spin — or whether GU must restrict to spin X4, which changes the status of the Â(K3)=2 / K3 working hypothesis. Until W2-FC1 is closed, treat the no-go map's generic-X4 spin citations as RETRACTED.
 
 ---
 
