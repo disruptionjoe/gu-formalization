@@ -39,6 +39,7 @@ class TopologicalGenerationCountFamiliesK3ChiGateAudit(unittest.TestCase):
             "fixed-signature metric fiber is not a free contractible vector space",
             "pi_!(1) over the noncompact contractible fiber is not a theorem as written",
             "Shiab is not yet an index-preserving deformation certificate",
+            "phi_zero_order_implies_standard_ellipticity",
             "Twisted de Rham index is not automatically chi(K3)",
             "K3 selection is downstream of open generation assumptions",
         ]

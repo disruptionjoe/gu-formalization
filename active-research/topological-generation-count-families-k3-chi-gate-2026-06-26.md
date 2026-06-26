@@ -16,6 +16,7 @@ depends_on:
   - "explorations/ic4-ricci-flat-k3-selection-2026-06-23.md"
   - "explorations/codazzi-sp64-2026-06-23.md"
   - "explorations/y14-k3-end-data-topography-gate-2026-06-26.md"
+  - "explorations/dgu-guarded-symbol-certificate-2026-06-26.md"
 ---
 
 # Topological Generation Count Families/K3 Chi Gate
@@ -67,6 +68,10 @@ The useful pieces are:
    ```
    with the current canon scope: existence/equivariance only, not uniqueness,
    rank/kernel, nondegeneracy on physical curvature inputs, or generation count.
+   The guarded symbol certificate now records that `Phi` is zero-order and leaves
+   `sigma_1(D_GU)(xi)=c_Y(xi) tensor 1_S` unchanged. In the physical split-signature
+   `(9,5)` model this preserves the null-cone characteristic set; it does not prove
+   standard Riemannian ellipticity or a Fredholm pushforward.
 3. Rokhlin kills the pure flat-bundle target `Ahat(X4)=3` for smooth closed spin
    4-manifolds: it would require signature `-24`, not divisible by `16`.
 4. The live topological escapes are therefore the correct ones:
@@ -216,7 +221,7 @@ Required decisions:
 | fiber model | `VECTOR_SYM2_TOY`, `LORENTZIAN_METRIC_COMPONENT`, `COMPACTIFIED_END`, `OTHER_SPECIFIED` |
 | pushforward | `VALID_K_ORIENTATION`, `VALID_APS_PUSHFORWARD`, `VALID_B_FREDHOLM_PUSHFORWARD`, `NOT_DEFINED` |
 | whole operator | `SAME_D_GU_PHYS`, `DIRAC_DERHAM_TOY`, `UNDERDEFINED` |
-| shiab role | `INDEX_PRESERVING_HOMOTOPY`, `CHANGES_SYMBOL_CLASS`, `LOWER_ORDER_BUT_DOMAIN_OPEN`, `UNDERDEFINED` |
+| shiab role | `INDEX_PRESERVING_HOMOTOPY`, `CHANGES_SYMBOL_CLASS`, `LOWER_ORDER_BUT_DOMAIN_OPEN` (current guarded certificate), `UNDERDEFINED` |
 | topological class | `CHERN_CLASS_COMPUTED`, `ETA_COMPUTED`, `KSP_CLASS_COMPUTED`, `NOT_COMPUTED` |
 | K3 use | `SOURCE_DERIVED_K3`, `K3_CONTROL_ONLY`, `TARGET_IMPORTED_K3` |
 | readout | `24_INDEPENDENT`, `OTHER_INDEX`, `OPEN`, `NO_GO` |
@@ -281,6 +286,7 @@ FIBER_MODEL_BLOCKS_COLLAPSE
     "ind_H(D_GU)=chi(K3)=24",
     "contractible_fiber_implies_pi_pushforward_one",
     "fixed_signature_lorentzian_metric_fiber_is_convex",
+    "phi_zero_order_implies_standard_ellipticity",
     "shiab_existence_implies_generation_count",
     "twisted_de_rham_index_equals_chi_without_symbol_class",
     "K3_chi_24_as_generation_input"
