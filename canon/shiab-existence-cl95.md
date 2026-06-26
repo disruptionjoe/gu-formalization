@@ -55,9 +55,9 @@ defines a map Omega^2(V) tensor S -> Omega^1(V) tensor S, where {e^a} is a local
 
 **Step 4 — No complexification required.**
 
-The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unitary group of S = H^64). This group has no U(1) center: Sp(64) is simple with center Z/2. Complexification is not needed for the shiab construction (it is real-linear) and does not arise from the quaternionic structure. `[verified]`
+The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unitary group of S = H^64). This group has no U(1) center: Sp(64) is simple with center Z/2. Complexification is not needed to CONSTRUCT a natural Spin(9,5)-equivariant Clifford contraction (it is real-linear) and does not arise from the quaternionic structure. This is a statement about the constructed map's existence, NOT a claim that GU's specific shiab operator is identified with it (see Known Failure Modes "Uniqueness of equivariant map" and "What This Does Not Establish"). `[verified for the constructed map's existence; identification with GU's operator is OPEN]`
 
-**Resolution of Nguyen §3.1:** The "unannotated tensor_C" step Nguyen identifies does not appear in the Clifford contraction. The map exists over R.
+**Resolution of Nguyen §3.1 (existence only — SHIAB-02, 2026-06-26).** Nguyen §3.1 flags a possible forced complexification (an "unannotated tensor_C" step). The existence result above is a COUNTEREXAMPLE to the universal claim "every natural Spin(9,5)-equivariant Clifford contraction of this type must complexify": at least one such map exists over R, and the tensor_C step does not appear in it. This rebuts the universal form of the objection. It does NOT establish that GU's actual shiab operator IS this real map, nor that GU's operator is thereby well-defined or complexification-free — that requires the source-forced selector identity this file holds OPEN (frontmatter scope_correction from SHIAB-01; Known Failure Modes "Uniqueness of equivariant map"; "What This Does Not Establish"). Existence-only, not an identification of GU's operator.
 
 ## Assumptions
 

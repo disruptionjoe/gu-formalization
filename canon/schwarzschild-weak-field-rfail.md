@@ -5,12 +5,17 @@ doc_type: canon
 promoted_from:
   - "explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md"
 promoted_at: "2026-06-23"
-verdict: CONDITIONALLY_RESOLVED
+verdict: OPEN
+verdict_changed_from: CONDITIONALLY_RESOLVED
+verdict_changed_at: "2026-06-26"
+correction: "CORRECTION RFAIL-02 (2026-06-26): re-downgraded CONDITIONALLY_RESOLVED -> OPEN, following the CR-02 precedent (competing candidate live + discriminating computation unperformed). The headline 'GU passes solar-system tests' was compatibility-as-derivation on an IMPORTED Schwarzschild metric: the R_fail^GR=0 leg is trivial (any vacuum metric, no GU content; line 38), and the only genuine GU object (the Willmore-EL residual) is NONZERO with an UNRECONCILED leading order — O(M/r^4) (flat-space Laplacian Delta(M/r^2)=2M/r^4) vs the companion note's O(M/r^3) Weyl-proportional estimate, which by this file's own failure condition F1 would FALSIFY solar-system compatibility. The discriminating computation OQ2-A (the full gimmel Willmore-EL on the Schwarzschild section) is UNPERFORMED, so neither order is settled. The weak-field suppression is a compatibility check on an assumed answer, not a derivation of weak-field GR from GU."
 ---
 
-# GU Linearized Schwarzschild — R_fail Vanishes at O(M/r)
+# GU Linearized Schwarzschild — R_fail Vanishes at O(M/r) [verdict OPEN, see RFAIL-02]
 
 Canon means: safe to cite as the current public spine of the project. It does not mean proved physics.
+
+> **VERDICT: OPEN (CORRECTION RFAIL-02, 2026-06-26).** This is a weak-field smallness/compatibility check on an ASSUMED Schwarzschild metric, NOT a derivation of weak-field GR from GU. The `R_fail^GR = 0` leg is trivial (true for any vacuum metric — no GU content), and the only genuine GU object, the Willmore-EL residual, is NONZERO at a leading order that is UNRECONCILED: O(M/r^4) here (from the flat-space Laplacian `Delta(M/r^2)=2M/r^4`) versus the companion note's leading O(M/r^3) Weyl-proportional estimate, which by this file's own F1 would FALSIFY solar-system compatibility. Neither order is settled because the discriminating computation OQ2-A (the full gimmel Willmore-EL on the Schwarzschild section) is unperformed. Do not cite "GU passes solar-system tests" as established.
 
 ## Scope
 
@@ -36,10 +41,10 @@ These two failure modes are conceptually distinct: (A) measures whether the indu
 **Claim.** For the GU section corresponding to linearized Schwarzschild (g_{mu nu} = eta_{mu nu} + h_{mu nu} with h ~ O(M/r)):
 
 - R_fail^{GR}_{mu nu} = 0 exactly (Schwarzschild is vacuum Ricci-flat by definition — this is trivial and carries no GU-specific content).
-- [Willmore-EL residual]_{mu nu} ~ O(M/r^4) in curvature units = O(M/r) in relative terms (small but non-zero).
-- Therefore R_fail^{full}_{mu nu} = 0 at O(M/r).
+- [Willmore-EL residual]_{mu nu} ~ O(M/r^4) in curvature units = O(M/r) in relative terms (small but non-zero) — **but this leading order is UNRECONCILED (RFAIL-02): the companion note reports O(M/r^3) (Weyl-proportional), which by F1 would falsify; the discriminating computation OQ2-A is unperformed, so neither order is settled.**
+- Therefore R_fail^{full}_{mu nu} = 0 at O(M/r) **only if the residual is genuinely O(M/r^4); this is the open question, not an established fact.**
 
-GU therefore passes solar-system tests in the weak-field regime at reconstruction grade.
+The GU section-equation residual on the ASSUMED Schwarzschild metric is (claimed) small at the selected order O(M/r^4), pending reconciliation of the O(M/r^3) vs O(M/r^4) estimates (OQ2-A). This is a weak-field compatibility check on an imported metric, NOT a derivation that GU passes solar-system tests; the "passes solar-system tests" reading is RETRACTED (RFAIL-02).
 
 ## Proof
 
