@@ -65,7 +65,7 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 | `dark-energy-theta-divergence-free.md` | CONDITIONALLY_RESOLVED | dark-energy-divergence-free-proof + dark-energy-noether-closure (2026-06-22); CORRECTION DARK-ENERGY-01 plus 2026-06-25 consistency sweep: downgraded from RESOLVED — Assumption 3 (structural identification) is reconstruction grade and unproved; C1+C2 is a cross-check, not an independent Noether route |
 | `w2-y14-spin-structure.md` | CONDITIONALLY_RESOLVED | n6-w2-y14-gysin-spin-structure (2026-06-22); CORRECTION W2-01 (2026-06-26): unconditional spin claim RETRACTED — Step 3 dropped a w2(V) term, so w2(Y14)=pi*w2(X4), i.e. Y14 spin iff X4 spin (non-spin for CP2); orientability w1(Y14)=0 unaffected |
 | `schwarzschild-weak-field-rfail.md` | CONDITIONALLY_RESOLVED | rfail-schwarzschild-oq2-weak-field (2026-06-23) |
-| `theta-field-flrw-dark-energy-eos.md` | CONDITIONALLY_RESOLVED | theta-field-flrw-eos (2026-06-23) |
+| `theta-field-flrw-dark-energy-eos.md` | OPEN | theta-field-flrw-eos (2026-06-23); CORRECTION DARK-ENERGY-02 (2026-06-26): re-downgraded CONDITIONALLY_RESOLVED -> OPEN — only parameter-free prediction (ratio +1.17) is sign-inconsistent with DESI (w_a=-0.75); w_a sign has two undismissed IC candidates; re-elevation was a process milestone. Structural EOS machinery stays reconstruction-grade |
 
 ## Not Yet Canon
 

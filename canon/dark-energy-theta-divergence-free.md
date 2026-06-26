@@ -14,6 +14,8 @@ correction: "CORRECTION DARK-ENERGY-01 (2026-06-23): Downgraded from RESOLVED. T
 
 Canon means: safe to cite as the current public spine of the project. It does not mean proved physics.
 
+> **Scope clarity (DARK-ENERGY-02, 2026-06-26).** Of the two central claims below, only the first is unconditionally established. Claim 1 (theta is *dynamic* — not forced constant) and theta's *equivariance* are proved. Claim 2 (**divergence-free**, `D_A* theta = 0`) is **conditional and NOT established**: it rests entirely on the unproved, reconstruction-grade **Assumption 3** (theta is the gauge-potential sector of the Euler-Lagrange derivative `E_A`), which effectively IS the theorem (see F1/F2 — "NEITHER path is complete"). Do not read the title's "Divergence-Free" as established-modulo-a-technicality.
+
 ## Scope
 
 GU replaces the cosmological constant Lambda·g_{mu nu} with a dynamical object theta = pi - epsilon^{-1} B epsilon, where (epsilon, B) is an element of the inhomogeneous gauge group IG = G semidirect Omega^1(Y, ad P). The two central claims are:

@@ -1657,6 +1657,18 @@ Result 1 (oscillation regime: M_KK = 2.83 H_0 > 3H_0/2 BF bound, theta oscillati
 
 ---
 
+### CORRECTION DARK-ENERGY-02 — theta-field FLRW EOS re-downgraded CONDITIONALLY_RESOLVED -> OPEN; dark-energy-theta-divergence-free bundling clarified (2026-06-26)
+
+**Files corrected:** `canon/theta-field-flrw-dark-energy-eos.md` (verdict CONDITIONALLY_RESOLVED -> OPEN) and `canon/dark-energy-theta-divergence-free.md` (scope clarification, verdict unchanged).
+
+**theta-field-flrw-dark-energy-eos.md — re-downgraded to OPEN.** The 2026-06-23 re-elevation from OPEN (correction OQ3) was justified by "the full FLRW Klein-Gordon integration is now complete" — a PROCESS MILESTONE, not data support. The completed integration actually WORSENED agreement (de Sitter ratio -1.80 flipped to +1.17; the >2 failure-condition fired). The file's only parameter-free prediction, ratio `w_a/(w_0+1) = +1.17`, is SIGN-INCONSISTENT with DESI (`w_a = -0.75`), and the sign of `w_a` itself has two UNDISMISSED candidates (frozen-IC `w_a>0` vs slow-roll-IC `w_a<0`; OQ3-A unresolved). By the repo's own UNDISMISSED-CANDIDATE / verdict-inflation rules, the EOS-vs-DESI verdict must read OPEN, not CONDITIONALLY_RESOLVED with one IC selected as baseline. The structural EOS machinery (theta as a dynamic DE field; oscillating+damped two-component `w(z)`; Result 1 algebraically exact) stays reconstruction-grade. Note `w_0=-0.826` "matching DESI -0.827" is a FIT (`f_0=0.125` tuned), not a prediction. Cascade: frontmatter verdict + top banner (canon file), `CANON.md` Canon Entries row, `RESEARCH-STATUS.md` registry + promotion rows.
+
+**dark-energy-theta-divergence-free.md — scope clarified, verdict CONDITIONALLY_RESOLVED unchanged.** This file is honestly disciplined (F2 states "NEITHER path is complete"; DARK-ENERGY-01 already downgraded it). The only slip is bundling: the title "Divergence-Free and Dynamic" + a single CONDITIONALLY_RESOLVED banner can be misread as "divergence-free established." Added a scope-clarity note: claim 1 (dynamism) and equivariance are proved unconditionally; claim 2 (`D_A* theta = 0`, divergence-free) is conditional and NOT established — it rests entirely on the unproved reconstruction-grade Assumption 3, which effectively IS the theorem. No verdict change.
+
+**Provenance:** surfaced by the same external adversarial audit as W2-01 (2026-06-26), verified against the files' own failure conditions (F2; OQ3-A) and the DESI w_a sign. Both are conservative (demotion / scope-tightening) corrections in the direction the repo's discipline rewards.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)
