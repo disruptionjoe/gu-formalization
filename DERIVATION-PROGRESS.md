@@ -1727,6 +1727,12 @@ Discipline: the assembly code (tests/rs_gu_phys_brst_specification.py) blocks at
 
 ---
 
+### RS-middle-map persona sprint — a concrete computable lead [speculation] (2026-06-26)
+
+A 41-persona steel-man sprint (artifact: explorations/rs-middle-map-persona-steelman-2026-06-26.md; doc_type persona_pass, verdict speculation, NO claim promotion) on "what the missing shiab / middle map IS" surfaced one genuinely concrete, falsifiable, repo-runnable lead worth recording (everything else stayed narrative): FIVE independent lenses (Clifford-04, homomorphic-encryption, info-coding, world-model, observer-finality) converged that the shiab is the **metric codifferential** d_A* of the spinor-twisted complex, with d^2=0 failing exactly because the spin-3/2 constraint projector Pi_RS does NOT commute with it — i.e. the obstruction is the single finite commutator **[Pi_RS, c∘d*] on H^64, whose magnitude IS the already-measured 73.48 / 343.73.** Two crypto-lens selectors pin the operator: FHE (adjointness = decryption-correctness <D_mid a, b> = <a, d_A b> forces Phi=(d_A)*; obstruction ~ c(F_A) via Weitzenbock) and Probabilist (Takesaki conditional-expectation gives existence+uniqueness on the positive-definite M(64,H) fiber, dodging the (9,5)-signature obstruction). Concrete next step (NOT done; not a promotion): compute that commutator explicitly and test whether GU's shiab = d_A* — but note canon SC1 §3.5 distinguishes GU's Clifford-contraction shiab from d_A*, so this would CHANGE the operator definition and must be confirmed-or-killed, not assumed. The ZK lens adds a finite linear falsifier: I_bind = Hom_{Spin(9,5)}(Lambda^2 V ⊗ S, V ⊗ S) (Schur), with dim 0/1/>1 deciding no-sound-commitment / uniquely-pinned-selector / residual-freedom. Observer thread: the gap reads as "the observer-creates-reality claim turned into a no-go" — choosing a metric section both finalizes reality (binding) and discards the shiab kernel (the shadowy lost moment); the choice-free TaF bridge is to derive Pi as a SPECTRAL projection of a GU finality operator. Six new personas (36-41) added to process/persona-passes/.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)

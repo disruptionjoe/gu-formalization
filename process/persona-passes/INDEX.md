@@ -7,7 +7,7 @@ updated_at: "2026-05-31"
 
 # Persona Passes — Navigation Index
 
-35 persona passes grouped by lens family. Each pass follows a structural template: (a) clearest leverage of the discipline on the four core questions, (b) strongest first-principles construction, (c) what fails or is forced, (d) named first-principles obstructions, (e) tagged-claim summary.
+41 persona passes grouped by lens family (35 original + 6 added 2026-06-26 for the RS-middle-map / observer-creates-reality sprint). Each pass follows a structural template: (a) clearest leverage of the discipline on the four core questions, (b) strongest first-principles construction, (c) what fails or is forced, (d) named first-principles obstructions, (e) tagged-claim summary.
 
 ## How to read
 
@@ -78,6 +78,17 @@ Five passes applying distributed-systems impossibility theorems (FLP, CAP, BFT, 
 - `05-heterodox-problem-shape-distributed-systems/33-ps-complexity-emergence-heterodox.md` — complexity science, self-organized criticality
 - `05-heterodox-problem-shape-distributed-systems/34-ps-bft-cap-consensus-heterodox.md` — BFT / CAP / FLP impossibility analogies
 - `05-heterodox-problem-shape-distributed-systems/35-ps-stigmergy-swarm-heterodox.md` — stigmergic / mean-field coordination
+
+## Group 6: Cryptographic / world-model / observer lenses (passes 36-41)
+
+Added 2026-06-26 for the RS-middle-map ("shiab" / `d^2=0`) steel-man sprint and the observer-creates-reality thread (artifact: `../../explorations/rs-middle-map-persona-steelman-2026-06-26.md`). These lenses converged on the shiab being the **codifferential / adjoint** of the easy forward derivative, with `d^2=0` blocked by a single finite commutator the repo already measured (73.48 / 343.73), and read GU's "observerse without choices" as an un-instantiated state that the observer's metric choice finalizes (binding) while discarding the projection kernel (the shadowy lost moment).
+
+- `06-cryptographic-world-model-observer-lenses/36-zk-pedersen-commitment.md` — commitment binding/hiding; `I_bind` selector (dim 0/1/>1 falsifiable)
+- `06-cryptographic-world-model-observer-lenses/37-homomorphic-encryption-lattice.md` — FHE bootstrapping; adjointness=decryption forces `Phi=(d_A)*`; obstruction `~ c(F_A)`
+- `06-cryptographic-world-model-observer-lenses/38-probabilist-randomized.md` — Takesaki conditional-expectation selector (existence+uniqueness) on the positive-definite `M(64,H)` fiber
+- `06-cryptographic-world-model-observer-lenses/39-world-model-mmo-engine.md` — occlusion/LOD cull; `d^2=0` iff `[Pi_RS, c∘d*]=0` (the measured 343.73); imposter = billboard LOD
+- `06-cryptographic-world-model-observer-lenses/40-information-coding-holographic.md` — homological-product code; `D^2=0` automatic; obstruction = `Pi_+` not commuting with `delta_S`
+- `06-cryptographic-world-model-observer-lenses/41-observer-finality-bridge.md` — Time-as-Finality PO1 bridge; derive `P` as a spectral projection of a GU finality operator (the choice-free move)
 
 ---
 
