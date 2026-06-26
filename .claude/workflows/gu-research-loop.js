@@ -25,26 +25,42 @@ Geometry:
 - Y^14 = Met(X^4): bundle of Lorentzian metrics on 4-manifold X^4
 - Fiber: GL(4,R)/O(3,1), signature (9,5) total
 - Cl(9,5) ≅ M(64,H) — quaternionic; spinor module S = H^64, dim_R = 256
-- w_2(Y^14) = 0 for any orientable X^4 — RESOLVED
+- w_2(Y^14) = pi*w_2(X^4): Y^14 spin IFF X^4 spin (CORRECTION W2-01, 2026-06-26;
+  the old "w_2=0 for any orientable X^4 / spin even for CP2" was FALSE — a dropped
+  w_2(V) term; verified by w_2(Sym^2 E)=w_1(E)^2 for rank-4 E). w_1(Y^14)=0 stays
+  unconditional. X^4 spin is a STANDING PRECONDITION for the quaternionic ind_H
+  (W2-FC1): Y^14 is spin-c for any orientable X^4 but a U(1) spin-c twist breaks
+  H-linearity and shifts the index off Â(K3)=2, so spin-c does NOT suffice.
 
 Algebra:
 - Gauge group Sp(64) = U(64,H), dim sp(64) = 8256
-- Sp(64) anomaly-free: pseudoreal (J^2 = -1), n_L - n_R = 0
-- Nguyen §2 (anomaly pincer) and §3.1 (complexification gap) FULLY CLOSED
+- Sp(64) pseudoreal (J^2 = -1); Nguyen §3.1 complexification gap defused via Cl(9,5),
+  §2 U(128) pincer defused via Sp(64). But FULL GU anomaly cancellation is OPEN /
+  not-canon: local 14D degree-8 anomaly (explicit I_16/index-density) and global
+  Dai-Freed/eta/spin-bordism checks are still required — do NOT call it closed.
 
 Shiab and tau+:
-- Shiab Phi: Omega^2(Y^14)@S -> Omega^1(Y^14)@S — H-linear, Spin(9,5)-equivariant, RESOLVED
+- Shiab Phi: Omega^2(Y^14)@S -> Omega^1(Y^14)@S — H-linear, Spin(9,5)-equivariant.
+  RESOLVED for EXISTENCE ONLY (CORRECTION SHIAB-01): non-injective (dimensionally);
+  rank/kernel/uniqueness/selector identity NOT established.
 - tau+: G -> IG = G x| Omega^1(ad P) — purely group-theoretic
 
-Generation count (CONDITIONALLY 3):
-- S(6,4) = C^16; Cl(6,4) ≅ M(16,C)
-- Pati-Salam: S(6,4) -> 16 Weyl fermions = 1 SM generation (CONFIRMED)
-- Generation count = 2 (spin-1/2) + 1 (RS) = 3 — CONDITIONAL on discrete-series
-- Rank-1 BC1 chain FAILED for (SL(4,R), SO_0(3,1)); need rank-3 or tau-twisted route
-- K3: Â=2, ind_H=24 (target); T^4: Â=0, ind_H=8 (ruled out)
+Generation count = 3 is OPEN (NOT conditionally-resolved — CORRECTIONS GEN-04/GEN-05/
+FC4-HOLONOMY-01):
+- S(6,4) = C^16; Cl(6,4) ≅ M(16,C); Pati-Salam: S(6,4) -> 16 Weyl fermions = 1 SM
+  generation (CONFIRMED, representation theory of the posited fiber)
+- ind_H(D_GU)=24=16+8 is the TARGET, not a result. All analytic routes to the RS leg
+  ind_H(D_RS)=8 FAILED (scalar BC1, A3 Harish-Chandra, tau-twisted). The surviving
+  APS/K3 route is CIRCULAR (divides the target 8 by Â(K3)=2 then multiplies back).
+- Decisive open test OQ-RK1: target-independent CAS rank of Pi_RS·E_+·Pi_RS in M(64,H);
+  returns 4 (=> 3 gen) or 8 (=> 4 gen, Candidate B undismissed). UNRUN.
+- K3: Â=2 (a SPIN invariant); X^4 must be spin (W2-FC1). T^4: Â=0 (ruled out).
 
-VZ: horizontal-covector Schur complement CONDITIONALLY_RESOLVED; mixed 14D OPEN
-Dark energy: D_A*theta = 0 by Noether — CLOSED
+VZ: horizontal-covector Schur complement CONDITIONALLY_RESOLVED (4D principal-symbol);
+  mixed 14D CONDITIONALLY_EVADED gated on E-block invertibility FC-VZ-1
+Dark energy: theta equivariant + dynamic (unconditional). But D_A*theta = 0 is
+  CONDITIONALLY_RESOLVED, NOT closed — it rests on unproved reconstruction-grade
+  Assumption 3 (theta = the EL gauge-potential sector), CORRECTION DARK-ENERGY-01.
 Signed-readout: monotone provenance + signed boundary readout — active_research, no formal theorem yet
 OC2: conditional H-linear Fredholm/KSp; full noncompact Y^14 weighted Fredholmness OPEN
 Type II1: s*(J_GU)^2 = -1, CC KO-6 needs +1; twisted real structure not yet attempted
@@ -60,6 +76,15 @@ const PLAN_SCHEMA = {
   properties: {
     date: { type: 'string' },
     calibrationNotes: { type: 'string', description: 'Key patterns from adversarial log that should shape this run' },
+    blockedStatus: {
+      type: 'object',
+      description: 'No-progress halt guard. Set halt=true when the loop is stuck (see Orient STEP 0.5).',
+      properties: {
+        halt: { type: 'boolean' },
+        reason: { type: 'string', description: 'Why the loop is halting and the human action needed to unblock it' },
+      },
+      required: ['halt', 'reason'],
+    },
     batches: {
       type: 'array',
       minItems: 1,
@@ -88,7 +113,7 @@ const PLAN_SCHEMA = {
       },
     },
   },
-  required: ['date', 'calibrationNotes', 'batches'],
+  required: ['date', 'calibrationNotes', 'blockedStatus', 'batches'],
 }
 
 const ISSUES_SCHEMA = {
@@ -127,6 +152,22 @@ const plan = await agent(
    - Which problem areas keep producing overreach?
    - What guidance did the previous run leave for this run?
    Use this to shape item selection and computation discipline in this run.
+
+   STEP 0.5 — No-progress halt check (do this before anything else):
+   The loop must STOP rather than mint more files when it is stuck making no real progress.
+   Read the most recent 3 entries of ${LOG_FILE}, the 3 most recent "three-cycle ... synthesis"
+   files in explorations/ (ls explorations/*synthesis* | tail), and git log --oneline -15.
+   Also check whether the loop is blocked on SOURCE ACQUISITION: grep recent syntheses for
+   source_admissions_count, claim_promotions, claim_status_change, and source-custody/byte-acquisition
+   verdicts. Set blockedStatus.halt = true if EITHER holds:
+     (a) the last 3 runs all report zero claim-status changes / zero source admissions
+         (claim_status_change:false and source_admissions_count:0 across all three), OR
+     (b) the live frontier is gated on lawful-local custody of source bytes (video/manuscript)
+         that the agent cannot itself obtain.
+   When halt=true, write a one-sentence reason naming the blocker and the human action needed
+   (e.g. "place the UCSD/DGU video + PTUJ manuscript bytes into the repo with a checksum and
+   lawful-basis note"), and DO NOT pick any items. Otherwise set blockedStatus.halt = false
+   with reason "progress is being made / not source-blocked".
 
    STEP 1 — Determine today's date:
    Run: git log --format="%as" -1
@@ -177,6 +218,24 @@ const plan = await agent(
 
 const DATE = plan.date
 log(`Date: ${DATE} | Calibration: ${plan.calibrationNotes.slice(0, 120)}`)
+
+// ── No-progress halt guard ──────────────────────────────────────────────────
+// Stop the loop (rather than mint more zero-promotion files) when Orient's STEP 0.5
+// determined the run is stuck — e.g. source-custody-blocked or 3 consecutive no-claim runs.
+if (plan.blockedStatus && plan.blockedStatus.halt) {
+  log(`HALTED — no-progress guard fired: ${plan.blockedStatus.reason}`)
+  await agent(
+    `The GU research loop halted itself by the no-progress guard. Working directory: ${REPO}
+     Reason: ${plan.blockedStatus.reason}
+     1. Append (do not duplicate) a dated "## HALT ${DATE}" entry to the TOP of ${LOG_FILE} stating
+        this reason and the exact human action needed to unblock the loop.
+     2. Do NOT run any computation, do NOT create exploration/test files, do NOT commit, do NOT push.
+     Return: confirmation the halt was logged.`,
+    { label: 'halt:escalate', phase: 'Orient' }
+  )
+  return { halted: true, reason: plan.blockedStatus.reason, date: DATE }
+}
+
 log(`Batches: ${plan.batches.map(b => b.name + '(' + b.items.length + ')').join(', ')}`)
 
 // ── Helper: run one batch in parallel ───────────────────────────────────────

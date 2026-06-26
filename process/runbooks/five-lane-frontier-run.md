@@ -12,6 +12,17 @@ This is the standard repo-local run type for advancing the GU formalization fron
 sub-agents. Use it when the maintainer asks for a "run", "another five", "five tasks", or
 similar language in the context of moving the repository forward.
 
+## STOP RULE — no-progress halt (check BEFORE every run)
+
+Before starting, check the last 3 syntheses (`ls explorations/*synthesis* | tail -3`) and
+`git log --oneline -15`. **HALT and escalate to the maintainer instead of running** if
+either holds: (1) the live frontier is gated on lawful-local custody of source bytes the
+agent cannot obtain (re-deriving "the source is still absent" and renaming the missing
+object is not progress); or (2) the last 3 runs all report `claim_status_change: false`,
+`claim_promotions: 0`, `source_admissions_count: 0`. When halting, append a dated `## HALT`
+note to `process/loop-adversarial-log.md` with the reason and the human action needed, and
+do NOT create new artifacts or commit. See `three-cycle-fifteen-hole-run.md` for the full rule.
+
 For three sequential five-lane cycles, use `three-cycle-fifteen-hole-run.md` as the
 wrapper and this file as the unit run.
 

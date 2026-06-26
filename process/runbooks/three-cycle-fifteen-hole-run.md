@@ -12,6 +12,27 @@ This is the repo-local workflow for doing three standard five-lane frontier runs
 row. Use it when the maintainer asks for "three runs", "fifteen holes", "15 quality
 holes", "3-1-5-4", or a similar batch.
 
+## STOP RULE — no-progress halt (check BEFORE every run)
+
+Do not run on autopilot when the frontier is not actually moving. Before starting,
+check the last 3 three-cycle syntheses (`ls explorations/*synthesis* | tail -3`) and
+`git log --oneline -15`. **HALT and escalate to the maintainer instead of running** if
+either holds:
+
+1. **Source-custody block.** The live frontier is gated on lawful-local custody of
+   source bytes (the UCSD/DGU video, the PTUJ manuscript, etc.) that the agent cannot
+   obtain. Re-deriving "the source bytes are still absent" and renaming the missing
+   object every cycle is NOT progress. Emit one escalation: "BLOCKED on source
+   acquisition — a human must place the source bytes in the repo with a checksum and a
+   lawful-basis note," then STOP.
+2. **Three consecutive empty runs.** The last 3 runs all report
+   `claim_status_change: false`, `claim_promotions: 0`, and `source_admissions_count: 0`.
+
+When halting: append a dated `## HALT` note to `process/loop-adversarial-log.md` with the
+reason and the human action needed, and do NOT create new lane/cycle artifacts or commit.
+An empty cycle that only narrows the description of an unremovable blocker is a halt
+trigger, not a deliverable.
+
 The unit of work is still `five-lane-frontier-run.md`. This runbook only adds the
 sequential wrapper that lets later cycles learn from earlier cycles instead of repeating
 or diluting them.
