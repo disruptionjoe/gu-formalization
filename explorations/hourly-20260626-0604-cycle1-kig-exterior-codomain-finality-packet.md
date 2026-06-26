@@ -1,18 +1,18 @@
 ---
-title: "Hourly 20260626 0103 Cycle 1 K IG Exterior Codomain Finality Packet"
+title: "Hourly 20260626 0604 Cycle 1 K IG Exterior Codomain Finality Packet"
 date: "2026-06-26"
 run_id: "hourly-20260626-0604"
 cycle: 1
 lane: 3
 doc_type: "frontier_run_lane_artifact"
-artifact_id: "K_IGExteriorCodomainFinalityAxiomPacket_0103_C1_V1"
+artifact_id: "K_IGExteriorCodomainFinalityAxiomPacket_0604_C1_V1"
 verdict: "multiple_no_exterior_codomain_finality_axiom"
 owned_path: "explorations/hourly-20260626-0604-cycle1-kig-exterior-codomain-finality-packet.md"
 companion_audit: "tests/hourly_20260626_0604_cycle1_source_admission_audit.py"
 claim_status_change: false
 ---
 
-# Hourly 20260626 0103 Cycle 1 K IG Exterior Codomain Finality Packet
+# Hourly 20260626 0604 Cycle 1 K IG Exterior Codomain Finality Packet
 
 ## 1. Verdict
 
@@ -150,7 +150,7 @@ is allowed.
 
 ```json
 {
-  "artifact_id": "K_IGExteriorCodomainFinalityAxiomPacket_0103_C1_V1",
+  "artifact_id": "K_IGExteriorCodomainFinalityAxiomPacket_0604_C1_V1",
   "run_id": "hourly-20260626-0604",
   "cycle": 1,
   "lane": 3,

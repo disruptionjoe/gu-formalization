@@ -1,18 +1,18 @@
 ---
-title: "Hourly 20260626 0103 Cycle 1 Product A/B Family Member Inventory"
+title: "Hourly 20260626 0604 Cycle 1 Product A/B Family Member Inventory"
 date: "2026-06-26"
 run_id: "hourly-20260626-0604"
 cycle: 1
 lane: 4
 doc_type: "frontier_run_lane_artifact"
-artifact_id: "ProductABFamilyMemberInventory_0103_C1_V1"
+artifact_id: "ProductABFamilyMemberInventory_0604_C1_V1"
 verdict: "blocked_no_product_ab_specific_operator_member"
 owned_path: "explorations/hourly-20260626-0604-cycle1-product-ab-family-member-inventory.md"
 companion_audit: "tests/hourly_20260626_0604_cycle1_source_admission_audit.py"
 claim_status_change: false
 ---
 
-# Hourly 20260626 0103 Cycle 1 Product A/B Family Member Inventory
+# Hourly 20260626 0604 Cycle 1 Product A/B Family Member Inventory
 
 ## 1. Verdict
 
@@ -153,7 +153,7 @@ No claim status changed.
 
 ```json
 {
-  "artifact_id": "ProductABFamilyMemberInventory_0103_C1_V1",
+  "artifact_id": "ProductABFamilyMemberInventory_0604_C1_V1",
   "run_id": "hourly-20260626-0604",
   "cycle": 1,
   "lane": 4,

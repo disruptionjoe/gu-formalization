@@ -1,18 +1,18 @@
 ---
-title: "Hourly 20260626 0103 Cycle 1 Tau Reference Slice Lock Receipt"
+title: "Hourly 20260626 0604 Cycle 1 Tau Reference Slice Lock Receipt"
 date: "2026-06-26"
 run_id: "hourly-20260626-0604"
 cycle: 1
 lane: 2
 doc_type: "frontier_run_lane_artifact"
-artifact_id: "TauReferenceAndSliceLockReceipt_0103_C1_V1"
+artifact_id: "TauReferenceAndSliceLockReceipt_0604_C1_V1"
 verdict: "reference_only_no_source_locked_branch_2a_slice"
 owned_path: "explorations/hourly-20260626-0604-cycle1-tau-reference-slice-lock-receipt.md"
 companion_audit: "tests/hourly_20260626_0604_cycle1_source_admission_audit.py"
 claim_status_change: false
 ---
 
-# Hourly 20260626 0103 Cycle 1 Tau Reference Slice Lock Receipt
+# Hourly 20260626 0604 Cycle 1 Tau Reference Slice Lock Receipt
 
 ## 1. Verdict
 
@@ -155,7 +155,7 @@ blocked behind a branch-source lock.
 
 ```json
 {
-  "artifact_id": "TauReferenceAndSliceLockReceipt_0103_C1_V1",
+  "artifact_id": "TauReferenceAndSliceLockReceipt_0604_C1_V1",
   "run_id": "hourly-20260626-0604",
   "cycle": 1,
   "lane": 2,

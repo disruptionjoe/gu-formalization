@@ -1,18 +1,18 @@
 ---
-title: "Hourly 20260626 0103 Cycle 1 QFT Source Branch Record Category Cocycle Packet"
+title: "Hourly 20260626 0604 Cycle 1 QFT Source Branch Record Category Cocycle Packet"
 date: "2026-06-26"
 run_id: "hourly-20260626-0604"
 cycle: 1
 lane: 5
 doc_type: "frontier_run_lane_artifact"
-artifact_id: "QFTSourceBranchRecordCategoryActionCocyclePacket_0103_C1_V1"
+artifact_id: "QFTSourceBranchRecordCategoryActionCocyclePacket_0604_C1_V1"
 verdict: "underdefined_no_source_branch_record_category_action_or_cocycle"
 owned_path: "explorations/hourly-20260626-0604-cycle1-qft-source-branch-record-category-cocycle-packet.md"
 companion_audit: "tests/hourly_20260626_0604_cycle1_source_admission_audit.py"
 claim_status_change: false
 ---
 
-# Hourly 20260626 0103 Cycle 1 QFT Source Branch Record Category Cocycle Packet
+# Hourly 20260626 0604 Cycle 1 QFT Source Branch Record Category Cocycle Packet
 
 ## 1. Verdict
 
@@ -151,7 +151,7 @@ behind source branch provenance.
 
 ```json
 {
-  "artifact_id": "QFTSourceBranchRecordCategoryActionCocyclePacket_0103_C1_V1",
+  "artifact_id": "QFTSourceBranchRecordCategoryActionCocyclePacket_0604_C1_V1",
   "run_id": "hourly-20260626-0604",
   "cycle": 1,
   "lane": 5,
