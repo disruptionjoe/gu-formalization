@@ -59,6 +59,16 @@ updated_at: "2026-06-26"
 > `ind_H(D_GU)=chi(K3)=24` until the fiber model, compact-support/APS pushforward,
 > `Phi` homotopy or symbol certificate, `ch2`/eta correction, and H-line normalization
 > are computed without target import.
+>
+> **2026-06-26 source-to-index sequential run.** Three sequential goals were run and
+> committed as exploration artifacts:
+> `explorations/sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md`,
+> `explorations/sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md`, and
+> `explorations/sequential-goal-3-sx-characteristic-readout-2026-06-26.md`. Result:
+> Goal 1 found candidate source payloads but no admitted `PrimarySourceDGU01SectorRuleRowInstance_V1`
+> or `DGU01SameOperatorWitness_V1`; Goal 2 therefore keeps the physical families
+> pushforward `NOT_DEFINED`; Goal 3 keeps `S_XCharacteristicClassPacket_V0`
+> `NOT_COMPUTED`. No generation-count promotion is allowed.
 
 This repo asks contributors to help determine whether Geometric Unity can be rigorously
 reconstructed, extended, or falsified. The useful unit is still bounded: one construction,
