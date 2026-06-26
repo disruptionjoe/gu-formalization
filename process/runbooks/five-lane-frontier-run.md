@@ -3,7 +3,7 @@ title: "Five-Lane Frontier Run"
 status: canon
 doc_type: runbook
 scope: repo-local
-updated_at: "2026-06-25"
+updated_at: "2026-06-26"
 ---
 
 # Five-Lane Frontier Run
@@ -45,21 +45,26 @@ A good lane should answer at least one of these:
 ## Coordinator Workflow
 
 1. Check the branch and worktree first.
-2. Draft five ambitious goals from the current frontier.
-3. Give each goal a disjoint owned output path.
-4. Give each goal an optional owned audit/test path only if a real check is possible.
-5. Assign required source files to read first.
-6. Spawn five workers in parallel only after the file scopes are non-overlapping.
-7. Keep integration work in the main thread.
-8. Review returned artifacts for substance, overclaiming, and overlap.
-9. If any lane changes a claim status, run
+2. Review `explorations/remaining-math-topography-ledger-v0-2026-06-26.md` when
+   building the candidate hole bank, so each lane starts with a terrain hypothesis and
+   forbidden shortcut. If a row routes to spectral, code, noncommutative, descent, or
+   provenance terrain, also check the ledger's certificate carry-forward section for
+   useful witness schemas from the quantum/chaos/crypto lens pass.
+3. Draft five ambitious goals from the current frontier.
+4. Give each goal a disjoint owned output path.
+5. Give each goal an optional owned audit/test path only if a real check is possible.
+6. Assign required source files to read first.
+7. Spawn five workers in parallel only after the file scopes are non-overlapping.
+8. Keep integration work in the main thread.
+9. Review returned artifacts for substance, overclaiming, and overlap.
+10. If any lane changes a claim status, run
    `process/runbooks/claim-status-consistency-quality-workflow.md`.
-10. Run every added audit or test.
-11. Run `git diff --check`.
-12. Remove generated cache files such as `tests/__pycache__`.
-13. Stage only the intended run files.
-14. Commit and push after review passes.
-15. Summarize the findings in plain English, including what each result means.
+11. Run every added audit or test.
+12. Run `git diff --check`.
+13. Remove generated cache files such as `tests/__pycache__`.
+14. Stage only the intended run files.
+15. Commit and push after review passes.
+16. Summarize the findings in plain English, including what each result means.
 
 If two strong goals would touch the same files or depend on each other, do not run them in
 parallel. Combine them into one lane, run them sequentially, or save one for the next run.
@@ -132,6 +137,10 @@ Deliverable structure:
 5. The constructive next object that would remove or test the obstruction.
 6. What this means for the relevant GU claim.
 7. Next meaningful proof or computation step.
+8. Terrain classification: suspected terrain, forbidden shortcut, first invariant to
+   test, and kill condition.
+9. If applicable, certificate/witness shape: public inputs, witness, verifier predicate,
+   semantic lift, and anti-smuggling guard.
 
 If you add the optional audit/test, make it a real invariant, contract, or consistency check,
 not a placeholder.

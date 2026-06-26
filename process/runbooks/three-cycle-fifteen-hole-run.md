@@ -3,7 +3,7 @@ title: "Three-Cycle Fifteen-Hole Run"
 status: canon
 doc_type: runbook
 scope: repo-local
-updated_at: "2026-06-25"
+updated_at: "2026-06-26"
 ---
 
 # Three-Cycle Fifteen-Hole Run
@@ -64,9 +64,12 @@ Before cycle 1:
 3. Read `process/runbooks/five-lane-frontier-run.md`.
 4. Read `process/runbooks/claim-status-consistency-quality-workflow.md`.
 5. Review the newest Mission A artifacts and audits.
-6. Build a candidate hole bank with at least eighteen candidates when possible.
-7. Mark dependencies between candidates.
-8. Split candidates into parallel-safe sets.
+6. Review `explorations/remaining-math-topography-ledger-v0-2026-06-26.md` and
+   use its terrain routes and certificate carry-forward schemas when drafting candidate
+   holes.
+7. Build a candidate hole bank with at least eighteen candidates when possible.
+8. Mark dependencies between candidates.
+9. Split candidates into parallel-safe sets.
 
 The candidate bank should distinguish:
 
@@ -170,6 +173,8 @@ The closeout should answer:
     "specific_claim_or_bridge",
     "owned_output_path",
     "sources_read_first",
+    "terrain_classification_and_forbidden_shortcut",
+    "certificate_or_witness_shape_if_applicable",
     "strongest_positive_construction_attempt",
     "first_exact_obstruction_or_missing_object",
     "verdict",

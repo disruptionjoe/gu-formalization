@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-25"
+updated_at: "2026-06-26"
 ---
 
 # Next Steps For Contributors
@@ -25,6 +25,23 @@ updated_at: "2026-06-25"
 > `ker(c)=V(omega_1+omega_7)`, but it confirms two common rows rather than a selector.
 > The next IG object is a source-natural rival-projector identity. Shiab existence
 > remains RESOLVED for existence only.
+>
+> **2026-06-26 terrain-routing guard.** Before a standard frontier run chooses proof
+> methods, use `explorations/remaining-math-topography-ledger-v0-2026-06-26.md` to classify
+> each candidate wall by terrain: smooth-variational, microlocal-subprincipal,
+> noncompact-APS-end, spectral-phase, heavy-tail-stable, multiscale-singular,
+> dynamical-shadow, code-reconstruction, descent-quotient, noncommutative-trace,
+> provenance-verifier, transport-loss, RG-critical, or observer-context. The ledger is
+> exploration-grade and promotes no claims; its purpose is to prevent terrain errors such
+> as treating principal-symbol VZ closure as subprincipal closure, compact K3 arithmetic as
+> physical noncompact index, Gaussian residual assumptions as default, or representation
+> labels as state preparation.
+> The same ledger also carries forward the 2026-06-26 quantum/chaos/crypto pass findings:
+> use `RSRankEncodingCertificate_V0`, `RSRankStableSpectralCertificate_V0`,
+> `GUShadowVerifierRelation_V1`, `DGU-SpectralCertificate-v1`,
+> `UnifiedFiniteWitnessSchema_V1`, `HiddenBranchStructureAudit_V0`,
+> `ChaosShadowStabilityPredicate_V0`, and `MultiscaleResidualAudit_V0` only after terrain
+> routing confirms that a proof-carrying witness is the right next object.
 
 This repo asks contributors to help determine whether Geometric Unity can be rigorously
 reconstructed, extended, or falsified. The useful unit is still bounded: one construction,
