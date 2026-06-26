@@ -130,7 +130,7 @@ For any orientable 4-manifold X4:
 - Y14 = Met(X4) is orientable (w1 = 0): **unconditional** (correct, unaffected by W2-01).
 - w2(Y14) = pi*w2(X4), so **Y14 is spin if and only if X4 is spin** (given the monodromy triviality, verified in Step 2).
 - When X4 is NOT spin (e.g. X4 = CP2), Y14 is **NOT spin**. This RETRACTS the original "spin even for CP2 / the metric bundle absorbs the obstruction" claim.
-- The canonical Dirac operator D_gimmel is well-defined without a section choice **only when X4 is spin**. For non-spin X4 a spin or spin-c structure must be supplied separately — **OPEN**, and a downstream obligation for any GU argument that uses D_gimmel over a generic (possibly non-spin) base.
+- The canonical Dirac operator D_gimmel is well-defined without a section choice **only when X4 is spin**. For non-spin X4, Y14 is still spin-c (every orientable X4 has W3 = 0), but a U(1) spin-c structure does NOT carry GU's quaternionic index ind_H: the spin-c twist `S tensor_C L^{1/2}` breaks H-linearity and shifts the index off Â(K3) = 2. So **X4 spin is a genuine precondition for GU's generation-count machinery, not a free choice** (resolved as W2-FC1 in DERIVATION-PROGRESS.md; the only structure that could relax it is a quaternionic-compatible Spin^h, not in the current formalization — OPEN, W2-FC2).
 
 ## Geometric Explanation (CORRECTED — W2-01)
 
