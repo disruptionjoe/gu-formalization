@@ -42,6 +42,16 @@ updated_at: "2026-06-26"
 > `UnifiedFiniteWitnessSchema_V1`, `HiddenBranchStructureAudit_V0`,
 > `ChaosShadowStabilityPredicate_V0`, and `MultiscaleResidualAudit_V0` only after terrain
 > routing confirms that a proof-carrying witness is the right next object.
+>
+> **2026-06-26 three-generation route-alternatives guard.** Add
+> `explorations/three-generation-route-alternatives-after-rs-failure-2026-06-26.md`
+> to the active generation-count idea bank. After the RS-sector analytic failures, future
+> runs may pursue `WholeOperatorIndexRoute_V0`, `PhysicalTopologyGenerationClass_V0`,
+> or `RSDecompositionValidityAudit_V0`, but none may use `ind_H(D_RS)=8`,
+> `16 + 8 = 24`, compact `chi(K3)=24`, physical DOF counting, or an unexplained
+> rational factor as an input. Treat `RSDecompositionValidityAudit_V0` as a firewall:
+> prove the split is a physical invariant before using the split, or reroute to the
+> whole-operator/topological alternatives.
 
 This repo asks contributors to help determine whether Geometric Unity can be rigorously
 reconstructed, extended, or falsified. The useful unit is still bounded: one construction,

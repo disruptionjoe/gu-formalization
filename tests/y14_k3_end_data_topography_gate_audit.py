@@ -40,6 +40,10 @@ class Y14K3EndDataTopographyGateAudit(unittest.TestCase):
         payload = json.loads(match.group(1))
         self.assertFalse(payload["promotion_allowed_now"])
         self.assertEqual(payload["next_object"], "PhysicalRSKTheoryClassGate_V0")
+        self.assertIn(
+            "RSDecompositionValidityAudit_V0",
+            payload["route_alternatives_after_rs_failure"],
+        )
         self.assertEqual(payload["current_decisions"]["GEN_COUNT"], "OPEN")
         self.assertEqual(payload["current_decisions"]["K3_CONTROL"], "CONTROL_ONLY")
         self.assertIn("generation_target_used_as_input", payload["kill_conditions"])

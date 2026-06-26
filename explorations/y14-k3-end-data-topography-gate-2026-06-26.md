@@ -205,7 +205,31 @@ After `PhysicalRSKTheoryClassGate_V0`, the next object depends on the result.
 | no physical elliptic class | `GenerationCountRouteDemotion_V0` | demote K3/RS generation route to control-only until a new class is supplied |
 | class depends on `ch_2(F)` | `BackgroundFCh2Gate_V0` | decide whether `k` is physical, symbolic, zero, or imported |
 
-## 9. Claim Impact
+## 9. Three-Generation Route Alternatives After RS Failure
+
+Add `explorations/three-generation-route-alternatives-after-rs-failure-2026-06-26.md`
+to the idea bank for solving three generations. It adds three guarded route objects:
+
+| route object | steelman | guardrail |
+|---|---|---|
+| `WholeOperatorIndexRoute_V0` | compute `ind_H(D_GU^phys)` directly as a whole-operator Fredholm/APS/KSp object, without isolating an RS `8` first | no use of `ind_H(D_RS)=8`, `16 + 8 = 24`, or compact `chi(K3)=24` as physical evidence |
+| `PhysicalTopologyGenerationClass_V0` | find a source-derived characteristic class, K-theory class, intersection number, obstruction class, or family index that forces `3` or `24` topologically | no loose K3 numerology, hidden `3/2` factor, or class detached from the physical GU branch |
+| `RSDecompositionValidityAudit_V0` | prove or demote the split `ind_H(D_GU)=ind_H(D_{1/2})+ind_H(D_RS)` as a physical invariant of the coupled GU operator | no block-additivity assumption without source, H-linear, gauge/BRST, Fredholm, and end-data compatibility |
+
+Practical routing:
+
+```text
+Run RSDecompositionValidityAudit_V0 as a firewall.
+If the split is validated, PhysicalRSKTheoryClassGate_V0 remains first for the RS route.
+If the split is underdefined or fails, reroute to WholeOperatorIndexRoute_V0.
+Run PhysicalTopologyGenerationClass_V0 only when the topological class is tied to the
+physical GU bundle/operator, not merely to a compact control surface.
+```
+
+These alternatives do not promote the generation-count claim. They expand the next-bank
+options while preserving the current `GEN_COUNT: OPEN` status.
+
+## 10. Claim Impact
 
 | claim | impact of this gate |
 |---|---|
@@ -215,7 +239,7 @@ After `PhysicalRSKTheoryClassGate_V0`, the next object depends on the result.
 | `Y14_K3_TRANSPORT` | remains underdefined; bridge cannot be filled before payload |
 | `GEN-COUNT` | remains open; no promotion allowed |
 
-## 10. Machine-Readable Summary
+## 11. Machine-Readable Summary
 
 ```json
 {
@@ -233,6 +257,11 @@ After `PhysicalRSKTheoryClassGate_V0`, the next object depends on the result.
   },
   "first_invariant_to_test": "physical_RS_K_theory_or_symbol_class",
   "next_object": "PhysicalRSKTheoryClassGate_V0",
+  "route_alternatives_after_rs_failure": [
+    "WholeOperatorIndexRoute_V0",
+    "PhysicalTopologyGenerationClass_V0",
+    "RSDecompositionValidityAudit_V0"
+  ],
   "downstream_objects": [
     "Y14K3EndDataTransportPacket_V0",
     "TauDiscreteProjectionTheoremOrNoGo_V0",
@@ -263,7 +292,7 @@ After `PhysicalRSKTheoryClassGate_V0`, the next object depends on the result.
 }
 ```
 
-## 11. Bottom Line
+## 12. Bottom Line
 
 The compact K3 arithmetic is not the problem. It is already useful as control.
 The physical generation-count route is blocked because the repo has not yet
