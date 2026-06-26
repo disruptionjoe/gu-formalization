@@ -1733,6 +1733,20 @@ A 41-persona steel-man sprint (artifact: explorations/rs-middle-map-persona-stee
 
 ---
 
+### SHIAB-03 — shiab selector multiplicity computed (uniqueness RESOLVED negative); persona leads tested, two refuted (2026-06-26)
+
+Ran the three concrete computations the persona sprint surfaced (explicit Cl(9,5) rep; compute -> adversarial verify; every verifier re-ran the code AND independently rebuilt a key piece from a from-scratch rep / second method). The discipline refuted the sprint's two sharp quantitative claims and delivered one verified canon-relevant result.
+
+- **(C) RESOLVED — the equivariant-map selector is NOT unique [SHIAB-03, canon-updated].** `dim Hom_{so(14,C)}(Lambda^2 V (x) S, V (x) S)` computed THREE independent ways (Racah-Speiser; Kostant/Klimyk alternating Weyl sum over |W(D_7)|=322560; from-scratch Freudenthal weight-multiplicity + highest-weight peeling, zero shared code): COMPLEX multiplicity = 2 per natural chirality block (4 for the full Dirac spinor); GU's REAL quaternionic spinor (Cl(9,5)=M(64,H)) doubles it to real Hom dimension >= 8. The two complex channels are the Clifford-trace channel (S+) and the Rarita-Schwinger channel (omega_1+omega_6). This RESOLVES the canon's open "Uniqueness of equivariant map" in the NEGATIVE: equivariance ALONE does not pin the shiab — there is an (>= 8-real-dim) family. The separate source-forced selector identity (WHICH map is GU's) remains OPEN. Cascade: canon/shiab-existence-cl95.md Known Failure Modes + "What This Does Not Establish" updated. (Pure rep-theory Schur invariant, no metric/normalization knob; the conservative "not unique" direction.)
+
+- **(A) KILLED — GU's shiab is NOT the codifferential d_A* [SHIAB-A].** Built both explicitly: the canon Clifford-contraction shiab Phi is Clifford-ODD (single generators c(e^a), anticommute with omega), the codifferential symbol is Clifford-EVEN (identity on S) — so they cannot be proportional; `||Phi - lambda*d_A*|| = full norm` for the best lambda=0, `<d_A*, Phi> = 0` forced by Tr(gamma)=0. Confirms this file's SC1 §3.5 distinction; REFUTES the persona-sprint "adjointness forces shiab=(d_A)*" convergence (the FHE/probabilist selector argument fails on parity grounds). `||Phi||_F = sqrt(91*2*128) = 152.63` (exact). Independently reproduced with a fresh recursive-doubling rep.
+
+- **(B) KILLED (quantitative) — the d^2=0 obstruction is NOT the commutator = 343.73 [SHIAB-B].** The commutators `[Pi_RS, M]` are nonzero (58.72 / 113.42 / 203.93) but NONE equals the repo's 343.73; structurally 343.73 = `||P_minus . symbol . P_plus . gauge||` (a compression-on-the-gauge-image), provably NOT of commutator form `[Pi, M]`. The world-model lens's "d^2=0 iff [Pi_RS, codiff]=0 = 343.73" is a loose analogy (M=Pi_RS counterexample: `[Pi,Pi]=0` but the folded `D^2` norm = sqrt(1664) != 0). The QUALITATIVE point survives: a genuine nonzero non-commuting obstruction exists (Pi_RS does not commute with the relevant operators), so a real gauge-fixing is needed — consistent with the RS-BRST finding, but the specific numeric identification is wrong.
+
+**Net:** the persona sprint generated seductive convergence; explicit computation refuted the two sharp claims (shiab=d_A*; obstruction=343.73) and delivered one genuine advance — the selector is provably non-unique (>= 8-real-dim family). This makes the "observer/source must CHOOSE among the family" reading mathematically concrete: the freedom is real and quantified, not metaphor. Files: explorations/shiab-codiff-{shiab-vs-codiff,obstruction-commutator,intertwiner-dim}-2026-06-26.md, tests/shiab_vs_codiff_cl95.py, tests/shiab_codiff_obstruction_commutator.py, tests/shiab_codiff_intertwiner_dim.py.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)

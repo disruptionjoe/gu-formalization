@@ -72,13 +72,13 @@ The gauge group in the (9,5) setting is Sp(64) = U(64, H) (the quaternionic unit
 - **Non-degeneracy on gauge curvature forms.** The restriction of Phi to curvature inputs arising from GU connections may have additional degeneracy or selection structure. That is a separate physical question and is not settled by algebraic existence of Phi.
 - **Generation count.** Shiab existence does not establish the generation count. That requires an index theorem on a non-compact Y^14 — a separate open problem.
 - **Gauge group uniqueness.** Sp(64) is the natural gauge group from the automorphism structure of S = H^64; whether the tau^+ homomorphism selects a subgroup of Sp(64) is open.
-- **Uniqueness of equivariant map.** The Clifford contraction is one Spin(9,5)-equivariant map Omega^2 tensor S -> Omega^1 tensor S. Whether it is the unique such map (up to scalar) has not been established; other equivariant maps could exist. Uniqueness is a representation-theory question (multiplicity of the relevant intertwining space) and is open.
+- **Uniqueness of equivariant map — RESOLVED (negative), SHIAB-03 (2026-06-26).** The Clifford contraction is NOT the unique Spin(9,5)-equivariant map Omega^2 tensor S -> Omega^1 tensor S. The intertwining-space multiplicity was computed THREE independent ways (Racah-Speiser; Kostant/Klimyk Weyl sum over |W(D_7)|=322560; from-scratch Freudenthal decomposition, zero shared code): the COMPLEX Hom dimension is 2 per natural chirality block (4 for the full Dirac spinor), and GU's actual REAL quaternionic spinor (Cl(9,5)=M(64,H)) doubles this to real Hom dimension >= 8. So equivariance ALONE does not pin the shiab — there is an (at least 8-real-dimensional) family of natural equivariant maps; the two complex channels are the Clifford-trace channel (S+) and the Rarita-Schwinger channel (omega_1+omega_6). The separate "source-forced selector identity" — WHICH map in this family is GU's specific shiab — remains OPEN. See DERIVATION-PROGRESS SHIAB-03 and explorations/shiab-codiff-intertwiner-dim-2026-06-26.md (tests/shiab_codiff_intertwiner_dim.py). Corollary (SHIAB-A, same run): GU's shiab is NOT the metric codifferential d_A* — the shiab is Clifford-odd, d_A* is Clifford-even, so they cannot be proportional (||Phi - lambda*d_A*|| = full norm for all lambda); confirms this file's distinction and refutes a persona-sprint convergence.
 
 ## What This Does Not Establish
 
 - Three fermion generations.
 - Injectivity or non-vanishing on every non-zero input of Omega^2 tensor S.
-- Uniqueness of the equivariant map.
+- The source-forced selector identity: WHICH of the (>= 8-real-dimensional, SHIAB-03) family of natural equivariant maps is GU's specific shiab. (Uniqueness ITSELF is now RESOLVED negative by SHIAB-03 — the map is NOT unique; the remaining open question is the selection, not the uniqueness.)
 - Anomaly cancellation for the full GU theory. The separate anomaly audit defuses
   Nguyen's U(128) pincer by replacing it with the Sp(64) setting, but full local/global
   GU anomaly cancellation remains OPEN and non-canon pending an explicit 14D
