@@ -1777,7 +1777,21 @@ Built an EXPLICIT basis of the SHIAB-03 family (null space of the stacked equiva
 
 ---
 
-### SOURCE-03 — C2 is provably GLOBAL: the local Y14 curvature cannot reconcile it (~94% global); the source-action and boundary-index lines converge (2026-06-27)
+### SOURCE-04 — the topological edge: ch2=-5376 (not 24), eta=0, and C2 is NOT an index; the SOURCE-03 "convergence" is a FORCED ANALOGY (2026-06-27)
+
+The topological gate (the repo's own S_XCharacteristicClassPacket_V0): does the GLOBAL Y14 object supply C2's ~94%? Design -> Build -> adversarial Kill over 3 approaches (ch2 from Codazzi, APS eta for the real operator, the C2<->index audit); ALL genuine=True, target-import clean, no blocked shortcuts, reproduced; load-bearing facts independently re-derived in the main loop. No canon change. Synthesis: explorations/topological-edge-c2-not-an-index-2026-06-27.md.
+
+**(1) Honest numbers, NOT 24.** ch2(S_X)[K3] = -5376 (pulled-back spinor connection NON-flat on the K3 branch; Chern-Weil with matrix-verified multipliers dim_S/8=16 and Sym^2->6; = 16*7*(-48), from sigma=-16 only, chi=24 NEVER read). Decisively not 24, not reducible to 3. The lone "24" (tangent-only |p1/2|) is a DISGUISED chi-import (=24 only via 2chi+3sigma=0) and was rejected. APS eta(actual operator) = 0 (Clifford-forced +/- symmetry; h=0, SF=0); the flat round-S^3 control also 0. So the topological route does NOT produce 3.
+
+**(2) DECISIVE: C2 is NOT an index.** Independently re-derived: C2 is degree-1 HOMOGENEOUS -- C2(2xi)/C2(xi) = 2.000000 exactly (an index is scale-INVARIANT, ratio 1), and non-integer (155.36/24=6.47, /8=19.42). C2 = K*|xi| is a scale-dependent symbol-norm; ch2/eta/chi are scale-invariant integers. Different KINDS of object.
+
+**(3) CORRECTION to SOURCE-03.** SOURCE-03's negative STANDS (C2 is global; no local carrier reduces it). But its INFERENCE that "C2 = the boundary index = ONE global object" (= the object Joe's record-issuance idea pointed at) is RETRACTED: tested 3 ways, FORCED_ANALOGY. No handle maps ch2 (-5376) onto C2 (~146); the eta spectral-section "29% C2 reduction" is exactly the generic rank-64 projection floor (sqrt(64/128)*155.36=109.86, indistinguishable from random) -- a meaningless artifact; and C2 is provably not an index (deg-1 homogeneous). "Both global" was VOCABULARY convergence, not machinery -- the trap the program catches, now caught in its own prior narration. Two distinct open objects, not one.
+
+**(4) Edge located.** Three unsupplied objects block closure (per the repo's own k3-chi-gate map): (i) the families pushforward pi_! (non-convex fiber GL(4,R)/O(3,1)) -- so -5376 is a bulk number, not a licensed index; (ii) the global boundary holonomy / cross-section eta (only flat eta=0 exists); (iii) a BV-to-boundary-Dirac symbol map identifying M_KT with a geometric boundary Dirac whose APS section connects to C2. ARC BOTTOM LINE: pushed to its computational limit, GU does NOT close the generation count and does NOT unify the source action with the topological index; the "one global object" picture is a forced analogy. What the arc DID deliver: a complete machine-checked map of exactly where the reconstruction ends + the 3 precise unsupplied objects. Closing from here needs new physics (the written source action), and even then only IF the source-derived class = 24 H-lines without target-import, which the actual ch2 (-5376) does not.
+
+---
+
+### SOURCE-03 — C2 is provably GLOBAL: the local Y14 curvature cannot reconcile it (~94% global); the source-action and boundary-index lines converge [CONVERGENCE CLAIM CORRECTED by SOURCE-04: the "one global object" is a FORCED ANALOGY; the local-insufficiency negative stands] (2026-06-27)
 
 Next gate from SOURCE-02: build the ACTUAL gimmel curvature on Y14=Met(X4), restrict to the physical section's null cone (Joe's "slice we live in"), test whether it drives C2 (155.36) to 0. Design -> Build -> adversarial Kill over 3 curvature approaches; ALL THREE C2_FLOORS_NEEDS_GLOBAL, genuine=True, all guards held, reproduced on re-run; structural core independently re-confirmed in the main loop. No canon change. Synthesis: explorations/c2-is-global-y14-end-data-2026-06-27.md.
 

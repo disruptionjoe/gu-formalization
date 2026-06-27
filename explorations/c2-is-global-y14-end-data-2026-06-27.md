@@ -58,6 +58,15 @@ structure, not the pointwise light cone. Joe's intuition points at the right obj
 
 ## 3. The convergence: the source-action line meets the boundary-index line
 
+> **CORRECTED (SOURCE-04, same day): this section's "one global object" inference is a FORCED ANALOGY.**
+> The Section-1/2 negative (C2 is global; no local carrier reduces it) STANDS. But the claim below that C2 *is*
+> the boundary index / one object with Joe's record-issuance idea was tested three ways and retracted: C2 is
+> degree-1 homogeneous (`C2(2ξ)/C2(ξ)=2`, a scale-dependent symbol-norm, NOT a scale-invariant index), no
+> handle maps ch2=-5376 onto C2, and the eta "29% C2 reduction" is the generic rank-64 projection floor. The
+> two are both global but different KINDS of object. See
+> explorations/topological-edge-c2-not-an-index-2026-06-27.md. Read the convergence below as the *hypothesis
+> that was tested and failed*, not a result.
+
 This is the loop-closing. The final RS source-action obstruction C2 is now provably **~94% global** — it needs
 the non-compact Y14 end-data: the **boundary holonomy / spectral section** (K3 χ-gate / APS end). That is
 **exactly the object Joe's record-issuance-boundary idea pointed at.** When that idea was first adjudicated
