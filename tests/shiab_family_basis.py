@@ -48,7 +48,11 @@ chiral bases B+/B-) is reused from oq_rk1_cl95_explicit_rep.py.
 
 from __future__ import annotations
 
+import hashlib
+import inspect
+import json
 import os
+import pickle
 import sys
 
 import numpy as np
@@ -61,6 +65,14 @@ import oq_rk1_cl95_explicit_rep as cl95  # verified Cl(9,5) anchor
 
 TOL = 1e-7
 N = 14  # so(9,5) / so(14,C)
+
+# Disk cache for the expensive family build (the gram-nullspace defect tensordots
+# take ~280s; loading the cached result takes ~1s). Cache files are large/derived
+# and live in tests/.cache/ (gitignored). Bump _CONSTRUCTION_VERSION to force a
+# full rebuild when the construction semantics change in a way the source hash
+# would not capture.
+CACHE_DIR = os.path.join(HERE, ".cache")
+_CONSTRUCTION_VERSION = "cl95-shiab-family-v1"
 
 
 # ---------------------------------------------------------------------------
@@ -281,7 +293,7 @@ def build_quaternionic_J():
 # ---------------------------------------------------------------------------
 # 6. Public API: build & return the explicit family basis + canon-shiab coordinates.
 # ---------------------------------------------------------------------------
-def get_shiab_family_basis(verify_all_generators=True):
+def _build_shiab_family_basis(verify_all_generators=True):
     """Construct the explicit basis of natural Spin(9,5)-equivariant maps
     Hom(Lambda^2 V (x) S, V (x) S).
 
@@ -433,6 +445,126 @@ def get_shiab_family_basis(verify_all_generators=True):
     return result
 
 
+# ---------------------------------------------------------------------------
+# 6b. Disk cache around the ~280s build.
+#     Keyed by a hash of the CONSTRUCTION SOURCE, so any change to the
+#     W-functions / rep / null-space code invalidates the cache automatically.
+#     Every cache load is RE-VERIFIED for equivariance + canon coords before use,
+#     so a stale or corrupt cache can never feed an unverified family to a
+#     selector test ("verify intact"). The code stays the single source of
+#     truth; the cache is a pure speedup and the matrices are never committed.
+# ---------------------------------------------------------------------------
+_CACHE_SOURCE_FUNCS = (
+    build_rep, Sigma, JV, JL2, build_T, defect, gram_nullspace,
+    build_quaternionic_J, W_delta_contract, W_wedge_metric, W_eGamma_metric,
+    W_wedge_plain, W_decoy, _build_shiab_family_basis,
+)
+
+
+def _cache_key(verify_all_generators):
+    src = "".join(inspect.getsource(f) for f in _CACHE_SOURCE_FUNCS)
+    payload = f"{_CONSTRUCTION_VERSION}|verify_all={verify_all_generators}|{src}"
+    return hashlib.sha256(payload.encode("utf-8")).hexdigest()[:16]
+
+
+def _validate_loaded_family(R):
+    """Cheap re-verification of a loaded family: canon coords + equivariance of the
+    canon (contract) basis on a few generators. Returns False -> caller rebuilds."""
+    try:
+        if [float(x) for x in R.get("canon_shiab_coords", [])] != [1.0, 0.0, 1.0, 0.0]:
+            return False
+        if len(R.get("basis_matrices_full_dirac", [])) != 4:
+            return False
+        for bname, (Pin, Pout) in {"S+ -> S-": (BPLUS, BMINUS),
+                                    "S- -> S+": (BMINUS, BPLUS)}.items():
+            Tc = R["blocks"][bname][0][1]            # contract / canon-shiab block
+            gens = projected_generators(GEN_SET[:2], Pin, Pout)
+            if max_defect(Tc, gens) >= TOL:
+                return False
+        return True
+    except Exception:
+        return False
+
+
+def get_shiab_family_basis(verify_all_generators=True, use_cache=True):
+    """Cached wrapper around _build_shiab_family_basis (the ~280s build).
+
+    First call builds and caches the result under tests/.cache/; later calls load
+    and re-verify it in ~1s. The cache key hashes the construction source, so any
+    code change rebuilds; every load is re-verified equivariant before use. Set
+    use_cache=False or env GU_NO_CACHE=1 to force a fresh build.
+    """
+    if os.environ.get("GU_NO_CACHE"):
+        use_cache = False
+    path = None
+    if use_cache:
+        path = os.path.join(CACHE_DIR, f"shiab_family_{_cache_key(verify_all_generators)}.pkl")
+        if os.path.exists(path):
+            try:
+                with open(path, "rb") as fh:
+                    R = pickle.load(fh)
+                if _validate_loaded_family(R):
+                    R.setdefault("cache", {})["loaded_from"] = os.path.relpath(path, HERE)
+                    return R
+            except Exception:
+                pass  # corrupt / incompatible -> rebuild below
+    R = _build_shiab_family_basis(verify_all_generators)
+    if use_cache and path is not None:
+        try:
+            os.makedirs(CACHE_DIR, exist_ok=True)
+            tmp = path + ".tmp"
+            with open(tmp, "wb") as fh:
+                pickle.dump(R, fh, protocol=pickle.HIGHEST_PROTOCOL)
+            os.replace(tmp, path)  # atomic; no half-written cache
+        except Exception:
+            pass  # caching is best-effort; never block the build on it
+    return R
+
+
+def write_family_summary(R, path=None):
+    """Write the small, committed, human-readable RESULT summary (the citable
+    artifact). The heavy matrices stay in the gitignored cache; this captures the
+    verified facts: dims, canon coords, channel labels, and verification errors."""
+    if path is None:
+        path = os.path.join(HERE, "shiab_family_summary.json")
+    rpt = R["per_block_report"]
+    summary = {
+        "title": "Cl(9,5)=M(64,H) shiab equivariant family — verified result summary",
+        "generated_by": "tests/shiab_family_basis.py (write_family_summary)",
+        "what_this_is": ("The committed, citable RESULT of the explicit equivariant-family "
+                         "computation. The 334MB of basis matrices are derived from this file's "
+                         "code and cached locally in tests/.cache/ (gitignored), not committed."),
+        "rep": {
+            "Cl_dim_complex": int(R["rep"]["dimC_Cl"]),
+            "clifford_max_err": float(R["rep"]["clifford_max_err"]),
+            "Splus_dim_complex": int(R["rep"]["Splus_dimC"]),
+            "Sminus_dim_complex": int(R["rep"]["Sminus_dimC"]),
+        },
+        "family_dim_complex_per_block": {k: int(v) for k, v in R["dim_complex_per_block"].items()},
+        "family_dim_complex_full_dirac": int(R["dim_complex_full_dirac"]),
+        "family_dim_real_full_dirac": int(R["dim_real_full_dirac"]),
+        "canon_shiab_coords": [float(x) for x in R["canon_shiab_coords"]],
+        "canon_coords_order": ["contract_+-", "wedge_+-", "contract_-+", "wedge_-+"],
+        "basis_labels_full_dirac": R["basis_labels_full_dirac"],
+        "channel_labels": R["channel_labels"],
+        "quaternionic": {k: float(v) if not isinstance(v, list) else v
+                         for k, v in R["quaternionic"].items()},
+        "verification": {
+            b: {
+                "family_dim_mapspan": int(r["family_dim_mapspan"]),
+                "n_equivariant_coeff_directions": int(r["n_equivariant_coeff_directions"]),
+                "basis_defect_verify_contract": float(r["basis_defect_verify_contract"]),
+                "basis_defect_verify_wedge": float(r["basis_defect_verify_wedge"]),
+                "contract_wedge_frobenius_overlap": float(r["contract_wedge_frobenius_overlap"]),
+            }
+            for b, r in rpt.items()
+        },
+    }
+    with open(path, "w", encoding="utf-8") as fh:
+        json.dump(summary, fh, indent=2)
+    return path
+
+
 def densify_block(T):
     """Expand a block tensor (14, dimS_out, 91, dimS_in) to the Hom matrix
     (14*dimS_out) x (91*dimS_in)."""
@@ -506,6 +638,10 @@ def main():
           f"{R['canon_shiab_coords']}")
     print("    => Phi lives in the Clifford-trace (contraction) channel, ZERO wedge component;")
     print("       it is ONE element of a 4-complex / 8-real dimensional family.")
+    if R.get("cache", {}).get("loaded_from"):
+        print(f"  [loaded from verified cache: {R['cache']['loaded_from']}]")
+    summary_path = write_family_summary(R)
+    print(f"  [result summary written: {os.path.relpath(summary_path, HERE)}]")
     print("=" * 84)
     return R
 

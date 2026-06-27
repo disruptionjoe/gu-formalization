@@ -1,0 +1,6 @@
+# Local, derived cache for the ~280s Cl(9,5) shiab family build (see
+# tests/shiab_family_basis.py). Files here are large (~334MB), 100% regenerated
+# from the construction code, and re-verified on load — never commit them.
+# The code stays the single source of truth; this is a pure speedup.
+*
+!.gitignore
