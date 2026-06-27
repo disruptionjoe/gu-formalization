@@ -1762,6 +1762,21 @@ Built an EXPLICIT basis of the SHIAB-03 family (null space of the stacked equiva
 
 ---
 
+### SHIAB-05 — mined Time-as-Finality + temporal-issuance for a selector of the SHIAB-04 leftover; net NO new computable selector, best lead's load-bearing leg falsified by computation (2026-06-26)
+
+**Question (Joe):** "Look at the Time-as-Finality repo and the temporal-issuance repo and pull any ideas that would help us find the observer in the leftover space we need to figure out" — i.e. a SELECTOR for GU's shiab from the SHIAB-04 4-real-dim family (residual 3 real dims = "the observer creating reality").
+
+**Method:** 5-agent workflow (mine TaF / mine temporal-issuance / mine the existing GU<->TaF crosswalk -> synthesize -> **adversarial verify**), discipline = compute -> verify -> land only what survives. Artifact: `explorations/time-as-finality-crosswalk/observer-selector-leftover-space-2026-06-26.md` (verdict `speculation`, no promotion). New test: `tests/shiab_selector_forgetful_channel.py`.
+
+**Findings (honest):**
+- **NO new computable selector.** Every TaF/TI idea either (a) is coordinate-blind (D2 reconciler / RSPS pointer selection / Issue[S] properness gate / issuance-rate — all forced_analogy; RSPS *explicitly* lists "No GU section selector" as Not-Earned), (b) was already run as a GU selector and is dead for canon (T10 seesaw self-adjointness -> Clifford-even d_A*; finality spectral projection = gamma-trace -> wedge-6*contract, EXCLUDES canon; legitimacy-monad idempotence -> folded-complex closure d^2=0, unsatisfiable), or (c) relocates the selector outside the family = GU's own still-OPEN source action (PO1 source-object convergence; TI Issue[S]). TI has **zero representation theory** (no Spin(9,5)/Clifford/Hom-space/coefficients/numpy) so it cannot constrain the 4 coordinates at all.
+- **The one lead that touched the coordinates was COMPUTED and partially KILLED.** Synthesis floated PO1 "shiab = the forgetful projection = projection WITH LOSS = larger kernel" => pick the contract channel (kill both wedge weights), claiming the contract map has "a nontrivial kernel" and the wedge map is "injective." Verifier ran the kernel test; I re-ran it independently (`tests/shiab_selector_forgetful_channel.py`): **all four channel maps `(896,5824)` have IDENTICAL rank 896 / nullity 4928** — every channel is surjective, none more forgetful, wedge NOT injective. PO1's loss/kernel leg **FAILS**. The channels *do* separate cleanly, but only by **Clifford degree** (contract pure grade-1, wedge pure grade-3, computed 1.0000) and **metric weight** (eta-free vs eta_aa; Frobenius overlap 0.0) — both re-readings of the construction, not a TaF-derived selector. So `c_wedge=0` can be motivated by GU-native metric-covariance but NOT by PO1/TaF forgetting.
+- **temporal-issuance "source object" match = real on the PROBLEM, name-deep on the MACHINERY.** TI's Issue[S] / EffectTypedWitnessTransport and GU's "source-forced selector identity" independently circle the same gap and already share a bridge (E080 + GU crosswalk, 2026-06-25), which correctly classifies GU's canon `(1,0,1,0)` as "naturalness = a definitional postulate, NOT source-forced." But the bridge AUDITS (demand a finality certificate; forbid "natural => source-forced"; forbid target-fitting) — it does not GENERATE a selector. TI's own ICO no-go independently predicts the freedom is not source-closable without importing the matter-generation target, matching every computed SHIAB selector either missing canon or collapsing.
+
+**Verdict (assess): consistent with SHIAB-04 — the observer IS the irreducible 3-real-dim leftover; TaF/TI sharpen WHERE it lives and WHAT cannot close it, but supply NO computable handle that selects within it.** Honest live possibility: there may be **no selector** — the 3-dim freedom is genuinely free and "the observer chooses" is a gloss on an underdetermination, not a mechanism. The only derivational route remains the still-OPEN GU source action (written + varied on `tests/shiab_family_basis.py`). Verifier verdict: `land_with_fixes` / `mildly_overstated` (one Section-1 sub-claim falsified, fixes applied). No canon change; no promotion.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)
