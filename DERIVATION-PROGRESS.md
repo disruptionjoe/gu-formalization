@@ -1747,6 +1747,21 @@ Ran the three concrete computations the persona sprint surfaced (explicit Cl(9,5
 
 ---
 
+### SHIAB-04 — selector search: GU's symmetries narrow the family (8R -> 4R) but do NOT pin the shiab; selection needs the open source action (2026-06-26)
+
+Built an EXPLICIT basis of the SHIAB-03 family (null space of the stacked equivariance constraints; map-span rank = 2 per chiral block = 4 complex / 8 real; canon shiab = pure Clifford-trace channel, coords (1,0,1,0); two channels = Clifford-trace (S+) and Rarita-Schwinger (omega_1+omega_6); quaternionic J verified J^2=-I, [J,Cl]=0). Then tested five candidate SELECTORS by computing the surviving dimension of the family under each (compute -> adversarial verify; verifier re-ran all code + independently re-derived the headline FOUR ways; verdict mildly_overstated / land_with_fixes — one isolated side-bug, fixes folded in; headline sound). Files: explorations/shiab-selector-search-2026-06-26.md, tests/shiab_family_basis.py, tests/shiab_selector_{complex_closure,sp64,seesaw_selfadjoint,quaternionic_Hlinear,gamma_trace}.py.
+
+**Selector outcomes (surviving dim | origin):**
+- Spin(9,5)-equivariance / naturality: 4 complex / 8 real [textbook_natural] — no cut.
+- **Sp(64) right-H gauge = Quaternionic H-linearity (the SAME J-commutation constraint): 8R -> 4R [gu_derived], RETAINS the canon shiab.** This is the ONLY gu_derived cut; it strips the artificial complex doubling (the i-multiples). CONTINGENT on the (9,5) signature forcing Cl(9,5)=M(64,H) — under a (7,7) alternative (Cl(7,7)=M(128,R), real spinor, no J) the cut collapses. (Note: the literal "full Sp(64) structure group" reading is ill-posed / trivializing; the operative content is the right-H/Sp(1) commutant. The agent's "full-Sp(64)-gives-0" side-check used a degenerate identically-zero test element X=e0e1e2e3-h.c.; that side-claim is void and does not affect the 4R headline, which was independently re-derived.)
+- complex closure / d^2=0: **0 [textbook_natural] — UNSATISFIABLE; KILLS the entire family including the canon shiab** (closure-Gram eigenvalues 1.7e5/1.0e6, all positive; canon obstruction^2 = 349440). GU asserts d^2=0 only conditionally ("if there is no obstruction to d"); the obstruction does NOT vanish for any natural equivariant map.
+- self-adjoint / seesaw: vacuous (4C/8R, Dirac-doubling fold Hermitian by construction) OR forces the Clifford-even codifferential d_A* (0, since the family is Clifford-odd) [textbook_natural]. Structural finding: equivariance forces BOTH Majorana blocks to 0, giving a symmetric Dirac spectrum, NOT a seesaw HIERARCHY — the heavy Majorana block ("wildly different eigenvalues") must come from OUTSIDE the equivariant family (the open source action / a spurion).
+- gamma-trace / RS-channel: **1 [textbook_natural] — but EXCLUDES GU's canon shiab.** It pins to the gamma-traceless map wedge - 6*contract; GU's Clifford-trace shiab is gamma-traceFUL (Gamma.Phi = 2*c(alpha) != 0). So the one selector that reaches dim 1 selects the WRONG element. (Not GU-forced; GU's shiab is the trace channel.)
+
+**Verdict (assess): GU does NOT determine its own shiab from derived principles — the selection is a genuine gap.** GU-derived content (the quaternionic/Sp(64) structure) narrows real dim 8 -> 4 and stops. GU's canon shiab is one element of that 4-real-dim family, singled out only by GU's WRITTEN formula (channel + chiral-tie + scale = a definitional postulate). Residual freedom beyond GU's one map = 3 real dimensions. The only derivational route to a unique map is the still-OPEN source-forced RS-sector action. This UNIFIES the thread: SHIAB-03 (not unique) + RS-BRST (no stabilized RS action) + SHIAB-04 (symmetries cut to 4R but cannot pin; candidate selectors either kill the canon shiab or are unsatisfiable/postulates) => the generation-count selection is a real, quantified degree of freedom that only the open source action can close. Cascade: canon "What This Does Not Establish" selector-identity item sharpened.
+
+---
+
 ### CORRECTION MO-05 — type-ii1-twisted-real-structure verdict: key epsilon' sign is unverified (2026-06-23)
 
 **Severity:** MODERATE (MO-05)
