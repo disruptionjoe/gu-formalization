@@ -1777,6 +1777,18 @@ Built an EXPLICIT basis of the SHIAB-03 family (null space of the stacked equiva
 
 ---
 
+### ANOMALY-03 — pure-gravitational density [A-hat(TY14)]_16 computed exactly + verified 3 ways (2026-06-26)
+
+First execution of the roadmap's highest realness-per-effort, source-action-INDEPENDENT step. Computed the universal pure-gravitational anomaly density (the GU analog of d=10 "tr R^8 must cancel") exactly in rational Pontryagin-class coefficients, with no sympy/numpy (Fraction arithmetic only):
+
+**[A-hat(TY14)]_16 = (381 p1^4 − 904 p1^2 p2 + 208 p2^2 + 512 p1 p3 − 192 p4) / 464486400.**
+
+Method: A-hat = multiplicative genus with Q(x)=(x/2)/sinh(x/2); log A-hat = Σ_k g_k P_k via the sinh-series + Newton's identities, exponentiated and graded by weight (tests/ahat_genus_y14_i16.py). **Verified THREE independent ways** (the W2-01 discipline — never trust a coefficient without an independent recompute): (1) the SAME engine reproduces the canonical lower coefficients [A-hat]_4=−p1/24, [A-hat]_8=(7p1^2−4p2)/5760, [A-hat]_12=(−31p1^3+44p1p2−16p3)/967680 (6 coefficient values); (2) end-to-end Dirac index ∫_{(K3)^4}[A-hat]_16 = 16 = A-hat[K3]^4; (3) independent index ∫_{HP^2×HP^2}[A-hat]_16 = 0 = A-hat[HP^2]^2 (a DIFFERENT linear combination of the 5 coefficients, so it independently pins them). Matches the published Alvarez-Gaume-Witten table.
+
+**Scope (honest, per the ANOMALY-01 guard):** this is the GRAVITATIONAL density ONLY. It is **NOT** an anomaly-cancellation statement and must not be cited as one on CANON.md. The full GU anomaly I_16 = [A-hat(TY14)·ch_R(F)]_16 requires (a) the gauge/chiral content ch_R(F) over the actual asymmetric chiral complex Ω^0⊗S^+ ⊕ Ω^1⊗S^− (gated on the unwritten source action + the contested Sp(64)-vs-Sp(1) gauge-group reading), and (b) the global eta/Dai-Freed/spin-bordism leg on Y14. Both stay OPEN. What this lands is the universal, decisively-verifiable building block (the local gravitational term), reusable by the next sub-step (the Sp(2n) octic-trace decomposition on S=H^64). No canon change; new test tests/ahat_genus_y14_i16.py.
+
+---
+
 ### SHIAB-06 — wide heterodox sweep (0 survivors) + Joe's record-issuance-boundary hypothesis (new-in-kind, lands on the index not the shiab) (2026-06-26)
 
 Two adversarially-verified workflows, both confirming the SHIAB-04/05 diagnosis from new angles. No canon change; no promotion.
