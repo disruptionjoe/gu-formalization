@@ -1777,6 +1777,18 @@ Built an EXPLICIT basis of the SHIAB-03 family (null space of the stacked equiva
 
 ---
 
+### GHOST-01 — frontier: a non-equivariant anti-trap-passing ghost IS constructible and BENDS the obstruction (58.72->32.80), but none closes; the missing datum is pinned and both attack lines converge (2026-06-27)
+
+Frontier move from SOURCE-01: construct the non-equivariant compensator sigma_c. Design -> Build -> adversarial Kill over 4 constructions on the explicit Cl(9,5) rep; survivors re-run in the main loop. No GENUINE_RESOLUTION (as the five-thread convergence predicted), but real progress + a precisely-pinned obstruction. No canon change. Synthesis: explorations/nonequivariant-ghost-construction-2026-06-27.md.
+
+**(1) Achieved:** a non-equivariant, H-linear, ANTI-TRAP-PASSING ghost coupling is buildable (first time outside the equivariant family AND past both the acausal-decoupling trap and the trivial-subtraction trap). Two survived adversarial kill: (a) NULL-COVECTOR SPURION (tests/rs_ghost_fixed_null_covector_spurion.py) — non-equivariant (defect 16.0, n-dependent 22.63), exactly H-linear (||[c(n),J]||=0), nilpotent (s^2=1.4e-14 via c(n)^2=0), bare [Pi_RS,M_D]=58.72 preserved (RS coupled, VZ evaded), and it BENDS the closure obstruction 58.72 -> floor 32.80 (~45%) without touching the dynamics; (b) STEELMAN GEOMETRIC CARRIER (tests/rs_ghost_steelman_geometric_carrier.py) — non-equivariant (defect 308.17), exactly H-linear, anti-trap passed, cleanly separating the legitimate ghost (keeps 58.72) from the trap (collapses 58.72->2e-14, acausal). The SUGRA-gravitino approach was KILLED (its "independent background W" was xi-linear / artifactually equivariant = a relocated trivial subtraction).
+
+**(2) Why none closes — obstruction pinned 3 ways:** (i) nilpotency (s^2=0) and one-leg escape-triviality are MUTUALLY EXCLUSIVE for a single gauge map — enforcing s^2=0 forces the gauge orbit on-surface and the escape reverts to the full 41.52; the escape is CO-EXACT (im Gamma^dag = Koszul-Tate/antighost direction), not ghost-exact, so a full BV BICOMPLEX (ghost + Koszul-Tate legs) is required. (ii) the unique resolver needs the GLOBAL INVERSE (Gamma.M_D.Pi_RS.d_A)^-1 = a Dirac-bracket propagator the symbol rep / boundary section cannot supply (residual 1.2e-14 abstractly). (iii) a NEW secondary VZ-type constraint C2 (norm 155.36) emerged, genuinely independent of Gamma.
+
+**(3) Convergence:** the missing object is now specified down to the operator it must supply — a source-derived invariant-surface selector (drives the 32.80 floor to 0) = the Koszul-Tate antighost leg + the Dirac-bracket propagator, reconciling C2. This is EXACTLY the parallel TI-as-source-action steelmen's required "GU-native geometric carrier" (boundary holonomy/connection/curvature / KSp class), now with a precise operational job. Both independent attack lines (rep-theory construction + effect-typed source-extension) converge on the same object the keystone + all Track-2 verdicts pointed at: the GU RS/IG source action. NEXT GATE: promote B_n from a fixed null spurion to a source-derived curvature/KSp carrier and test whether the full BV bicomplex drives 32.80 -> 0 — the first test that genuinely exercises a candidate written source term.
+
+---
+
 ### TRACK-2 — three source-action-independent verdicts landed (anomaly non-factorization, dark-energy sign-bug, Schwarzschild derivative-count) (2026-06-27)
 
 Compute -> adversarial-verify pipeline (each leg re-run + scrutinized; I re-ran all four in the main loop as the final gate). No canon change; corrections noted for cascade.
