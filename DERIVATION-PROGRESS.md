@@ -1777,6 +1777,20 @@ Built an EXPLICIT basis of the SHIAB-03 family (null space of the stacked equiva
 
 ---
 
+### SOURCE-02 / BICOMPLEX-01 — the RS BV bicomplex CLOSES the escape, but the real obstruction is C2 (~155), which needs the Y14 connection-curvature; all threads converge on one object (2026-06-27)
+
+Climactic gate from GHOST-01: source-derived carrier + full BV bicomplex to drive the obstruction to 0. Design -> Build -> adversarial Kill over 3 carriers; 2 survivors genuine=True with ALL FOUR guards holding (anti-trap, anti-fixed-solve, anti-vacuous, anti-import); headline re-run in the main loop. No GENUINE_CLOSURE (the five+-thread convergence holds), but a major clarifying result. No canon change. Synthesis: explorations/bv-bicomplex-and-c2-obstruction-2026-06-27.md.
+
+**(1) BUILT + VERIFIED: the full BV bicomplex (the missing antighost leg) works.** tests/rs_bicomplex_spin95_connection_2form.py: s^2 = 1.18e-12 genuinely (s_KT^2=0, s_long^2=0, {s_KT,s_long}=1.18e-12, Noether ||B_W A_W||=1.69e-13); NON-VACUOUS (rank(M_KT)=rank(A_W)=128; raw-gauge control s_raw^2=522.79 breaks closure). The co-exact escape from GHOST-01 is now genuinely s-EXACT via the Koszul-Tate leg (||(I-P_im M_KT) escape||=1.0e-13; NOT ghost-exact 45.37). Anti-trap held (bare [Pi_RS,M_D]=58.72). A real piece of the RS BV/BRST machinery, machine-verified.
+
+**(2) INVERSION: the 32.80 floor was a RED HERRING.** The bicomplex resolves the escape for ANY carrier, so the surface-noninvariance number was never the obstruction. The GENUINE a-priori carriers do WORSE than the simple spurion: Spin(9,5)-connection a-priori floor=41.04 (boosts 48.96, rotations 58.72=no movement, Levi-Civita 59.18, 91-sweep 55.49); intrinsic KSp floor=44.25 and s^2=749 (does not even close). The only sub-32.80 numbers (down to 21.87, still !=0) come from the labelled greedy FIXED-SOLVE (reads the target) and are DISQUALIFIED — the anti-fixed-solve guard fired correctly.
+
+**(3) TRUE OBSTRUCTION ISOLATED: C2 (BRST-invariance of M_D).** C2 = Gamma.M_D.Pi_RS, bare norm 155.36, dressed 192.46 — survives and GROWS under every carrier, fully Gamma-independent (a true new VZ-type secondary constraint, NOT the gamma-trace). TWO independent constructions compute the SAME C2=155.36 (strong corroboration). No intrinsic/a-priori construction reconciles it.
+
+**(4) FINAL MISSING OBJECT NAMED + grand convergence.** Both approaches pin what C2 needs: a SYMMETRY-BREAKING SPECTRAL SECTION = ONE distinguished null plane = the actual GU connection-CURVATURE 2-form on Y14. Flat holonomy provably insufficient (floor 41.04>32.80); intrinsic H-symmetric KSp provably insufficient (cannot break the 5-fold null-pair symmetry). The datum is EXTERNAL to the symbol algebra. This is the same object every thread named: the source action (SOURCE-01) = the boundary spectral-section/holonomy (Joe's record-issuance idea) = the steelmen's GU-native geometric carrier = the noncompact-index Y14 end-data. NOT four problems — ONE: the Y14 connection-curvature selecting a distinguished null plane. NEXT GATE moves OFF the symbol algebra: a differential-geometry computation on the actual Y14=Met(X4) (build the GU connection curvature, restrict to one null plane, test whether it drives C2 155 -> 0 in the bicomplex) — connects to active-research k3-chi-gate + noncompact-APS-end.
+
+---
+
 ### GHOST-01 — frontier: a non-equivariant anti-trap-passing ghost IS constructible and BENDS the obstruction (58.72->32.80), but none closes; the missing datum is pinned and both attack lines converge (2026-06-27)
 
 Frontier move from SOURCE-01: construct the non-equivariant compensator sigma_c. Design -> Build -> adversarial Kill over 4 constructions on the explicit Cl(9,5) rep; survivors re-run in the main loop. No GENUINE_RESOLUTION (as the five-thread convergence predicted), but real progress + a precisely-pinned obstruction. No canon change. Synthesis: explorations/nonequivariant-ghost-construction-2026-06-27.md.
