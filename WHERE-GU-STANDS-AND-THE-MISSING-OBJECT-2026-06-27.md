@@ -112,3 +112,31 @@ worth citing.
   `tests/c2_holonomy_global_obstruction.py` (C2 is global), `tests/gen_ch2_sx_from_codazzi.py` (ch2 = -5376),
   `tests/ahat_genus_y14_i16.py` (the anomaly density), `tests/shiab_family_basis.py` (the equivariant family).
 - The open topological route: `active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md`.
+
+---
+
+## E. Update (2026-06-27): the generation-sector audit deepened (migrated from gu-source-action)
+
+The follow-on campaign CONSTRUCT-01..07 (run in the child repo `gu-source-action`, migrated back here as
+audit because it never reached construction) sharpens Part B's generation question into a precise
+structural statement. Full write-up + reproducible tests:
+`canon/no-go-quaternionic-parity-generation-sector.md` and `tests/generation-sector/step1..step11`.
+
+- **The count is UNDER-DETERMINED, not impossible.** A generic rank-r carrier on the constraint surface
+  gives index r (so 3 is reachable), but the rep does not FORCE the rank/index; choosing it is the
+  forbidden import. GU neither predicts nor forbids three generations from its existing material.
+- **A new quaternionic-parity no-go (the headline).** Every GU-native operator (the whole real Clifford
+  algebra Cl(9,5)=M(64,H), including the BV/ghost/gauge-fixing apparatus) commutes with the quaternionic
+  structure J_quat, so by Kramers every GU-native Hermitian carrier has an EVEN index. Hence, reading the
+  count as the index, **GU's own building blocks cannot produce an odd count such as 3** -- an odd index
+  requires importing a non-quaternionic (non-Clifford) object. Closed-form, not sampling.
+- **C2 is not an index, now with a mechanism** (CONSTRUCT-01): any boundary Dirac whose square is the
+  positive Koszul-Tate Hessian inherits an anticommuting chiral grading, forcing eta = 0.
+- **The missing object is more sharply specified.** The source action S_IG must either pin the free rank
+  a-priori (half-index reading) or supply the non-quaternionic structure (literal-index reading), without
+  import. The honest prior remains against it; it is the one genuine construction task, retained in the
+  `gu-source-action` sandbox.
+
+Net effect on the verdict: no movement toward 3 (if anything the parity no-go hardens the literal-index
+reading), but the search space collapses to a single named, forced, still-uncomputed object, and the
+campaign's most defensible single claim is now the quaternionic-parity no-go.
