@@ -51,6 +51,27 @@ Owner surfaces to check:
 - Prefer exact claim IDs in correction notes, such as `SHIAB-01`, `ANOMALY-01`, or
   `GEN-OPEN-01`.
 
+## Formal Certificate Boundary
+
+```yaml
+formal_certificate:
+  lean_module: GUFormalization.Status
+  lean_file: Lean/GUFormalization/Status.lean
+  certified_definitions:
+    - ClaimStatus
+    - AllowedByDeps
+  certified_theorems:
+    - claim_le_first_dependency
+    - verified_not_allowed_over_open
+    - resolved_not_allowed_over_open
+  scope: finite_status_order_and_dependency_monotonicity_kernel_only
+  does_not_claim:
+    - markdown_parsing
+    - owner_surface_discovery
+    - historical_prose_classification
+    - mathematical_correctness_of_any_GU_claim
+```
+
 ## Required Sweep
 
 1. Name the claim, prior status, proposed status, and load-bearing dependencies.

@@ -56,6 +56,28 @@ under the broader route:
 PhysicalTopologyGenerationClass_V0
 ```
 
+## 1.1 Formal Certificate Boundary
+
+```yaml
+formal_certificate:
+  lean_module: GUFormalization.K3IndexArithmetic
+  lean_file: Lean/GUFormalization/K3IndexArithmetic.lean
+  certified_theorems:
+    - spinorIndex_flat_rank16
+    - vectorSpinor_q0_flat_rank16
+    - rawGammaTraceFree_q1_flat_rank16
+    - brstStyle_qMinus1_flat_rank16
+    - brstStyle_is_raw_minus_two_spinor_ghosts
+    - raw_q1_depends_on_ch2
+  scope: integer_arithmetic_for_the_current_K3_RS_symbol_index_audit_only
+  does_not_claim:
+    - physical_GU_RS_complex_exists
+    - physical_symbol_class_supplied
+    - ch2_background_computed
+    - APS_or_eta_correction_computed
+    - generation_count_closed
+```
+
 ## 2. What Survives From The Proposal
 
 The useful pieces are:

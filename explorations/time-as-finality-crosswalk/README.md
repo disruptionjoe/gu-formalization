@@ -43,6 +43,10 @@ Forbidden use:
 - [`dual-record-opportunity-section-retrieval-v0.1.md`](dual-record-opportunity-section-retrieval-v0.1.md) places the dual-record opportunity hypothesis as an observer-finality / section-retrieval stress test: stable records and opportunity-edge records may split future capability, but this is not GU source geometry.
 - [`dual-record-section-retrieval-witness-v0.1.md`](dual-record-section-retrieval-witness-v0.1.md) instantiates the Time as Finality fixture as a same-stable-record / different-opportunity-record witness: future section capability splits, but the exact fixed-latent absorber fires, so there is no GU source-geometry claim.
 - [`../hourly-cycle1-effect-typed-witness-transport-five-goal-synthesis-2026-06-25.md`](../hourly-cycle1-effect-typed-witness-transport-five-goal-synthesis-2026-06-25.md) records the five sequential drilldown goals over IG, RS, VZ, QFT modes, and loop-state instrumentation; all companion structural audits pass and no GU claim is promoted.
+- [`ti-as-gu-source-action-three-steelmen-2026-06-27.md`](ti-as-gu-source-action-three-steelmen-2026-06-27.md) coordinates three hostile steelmen for the hypothesis that Temporal Issuance realizes the GU source action; all are exploration-only and claim-blocked.
+- [`ti-as-gu-source-action-v1-formal-integration-steelman-2026-06-27.md`](ti-as-gu-source-action-v1-formal-integration-steelman-2026-06-27.md) tests the narrow formal-integration version: issuance can select only if it carries a GU-native source-geometric carrier.
+- [`ti-as-gu-source-action-v2-wolfram-signed-readout-steelman-2026-06-27.md`](ti-as-gu-source-action-v2-wolfram-signed-readout-steelman-2026-06-27.md) applies the Wolfram/rewrite-rule and signed-readout lens to separate source rules from observer cuts.
+- [`ti-as-gu-source-action-v3-cosmological-steelman-2026-06-27.md`](ti-as-gu-source-action-v3-cosmological-steelman-2026-06-27.md) parks the broad cosmological version behind a noncircular issuance-accounting invariant and theta/FLRW gates.
 
 ## Main Test
 

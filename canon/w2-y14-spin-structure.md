@@ -26,6 +26,25 @@ w2(Y14) = pi*w2(X4)    (Y14 is spin IFF X4 is spin)
 
 Orientability is unconditional, but Y14 inherits the spin obstruction of its base: it is spin when X4 is spin and NON-spin when X4 is non-spin (e.g. X4 = CP2). The canonical Dirac operator D_gimmel is well-defined without a section choice ONLY when X4 is spin; for non-spin X4, a spin (or spin-c) structure must be supplied separately — OPEN.
 
+## Formal Certificate Boundary
+
+```yaml
+formal_certificate:
+  lean_module: GUFormalization.W2Polynomial
+  lean_file: Lean/GUFormalization/W2Polynomial.lean
+  certified_theorems:
+    - w2Sym2Rank3_eq_e1_sq_add_e2
+    - w2TensorLineRank3_eq_e2_add_l_sq
+    - vertical_w2_cancels
+    - y14_w2_equals_base_when_vertical_zero
+  scope: algebraic_F2_splitting_principle_polynomial_identities_only
+  does_not_claim:
+    - topological_construction_of_stiefel_whitney_classes
+    - monodromy_triviality
+    - noncompact_index_theory
+    - analytic_generation_count
+```
+
 ## Proof Outline
 
 **Step 1 — Fiber homotopy type.**

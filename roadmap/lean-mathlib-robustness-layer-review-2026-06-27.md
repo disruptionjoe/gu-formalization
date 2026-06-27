@@ -449,6 +449,19 @@ Source: https://mathlib-initiative.org/roadmap/
 
 ## Roadmap
 
+### Implementation status
+
+Initial scaffold started 2026-06-27:
+
+- `lean-toolchain` and `lakefile.lean` added for a Lean 4 + mathlib package.
+- First certificate modules added under `Lean/GUFormalization/`:
+  `Status.lean`, `K3IndexArithmetic.lean`, and `W2Polynomial.lean`.
+- Owner-surface certificate blocks added for the claim-status workflow, the K3
+  generation-count gate, and the corrected `w2(Y14)` algebra.
+- `tests/lean_certificate_surface_audit.py` checks the integration surface without
+  requiring Lean to be installed.
+- `.github/workflows/lean.yml` runs the Lean build in CI via `leanprover/lean-action`.
+
 ### Quick wins: weeks
 
 1. Add a minimal Lean package:
