@@ -148,7 +148,7 @@ genuinely independent second derivation:
   and the gravitational framing channel `-p_1/24` carries the von Staudt-Clausen 3, giving the nonzero
   3-primary part. The gauge reading is disfavored by the construction.
 
-**Updated verdict.** With two independent first-principles analyses agreeing on the tangential reading, the
+**Updated verdict.** With three independent first-principles analyses agreeing on the tangential reading, the
 fork is **resolved tangential at reconstruction grade**: GU's matter sector, read through its own
 `4+10 / Spin(4)-frame` structure, places `Lambda^2_+` as a tangential framing, so the boundary e-invariant
 carries a nonzero 3-primary part (`e_R = 1/12`, class 2 in `Z/24`), and Adams' theorem forces generation
@@ -156,5 +156,11 @@ count 3 in exactly the sector the 2-primary bulk no-go is blind to. This remains
 (it is an inference from the 4+10 split, the frame identification of `Spin(4)`, and the RS vector-index
 structure -- NOT a theorem of the published draft, whose explicit matter operator / source action is
 unbuilt). It is robust within the available data and the gauge alternative is positively disfavored, but a
-final theorem awaits GU's explicit matter Dirac/RS operator. Further deep-research input is incoming and may
-sharpen or qualify this.
+final theorem awaits GU's explicit matter Dirac/RS operator.
+
+**THIRD confirmation (deep-research report, 2026-06-28; `deep-research/gu-firewall-tangential-fork-deepresearch-2026-06-28.md`).** A deep-research report -- the first to cite the GU draft directly and to compute BOTH branches explicitly -- reaches the same tangential verdict on stronger evidence:
+- **GU citations.** The draft introduces the fermion `zeta` as a **spinor-valued 1-form** on `Y` (`zeta in Omega^1(Y, S)`), with the horizontal piece `U` the spacetime tangent directions and the vertical piece `V` the normal bundle `N_gamma` -- the textbook vector-spinor (Rarita-Schwinger) setup, whose connection is the Levi-Civita-induced one on `TM (x) Sigma M`, not a Dirac operator twisted by an unrelated gauge bundle. GU locates the Standard-Model / Pati-Salam gauge structure in reductions of the **vertical 10-sector** (`Spin(6,4) -> Spin(6) x Spin(4)`), keeping the horizontal `Spin(1,3)` distinct, so `Lambda^2_+` of the base sits on the spacetime-frame side -- tangential by GU's own bundle bookkeeping.
+- **Both branches computed explicitly.** Tangential: `p_1(Ad E) = -4 c_2 = -4`, `|p_1/2| = 2`, `e_R = 1/12` (3-primary nonzero). Gauge: via Gilkey's lens-space formula on `L(2;1)`, `eta-bar(P_p) = Tr p(-1)/8`; for the adjoint the center `-1` acts trivially (`SU(2)=Spin(3)->SO(3)`), so `Tr Ad(-1) = 3`, `eta-bar = 3/8`, 3-primary part zero. Both sides of the fork are now pinned in closed form.
+- **Honest grade (matches ours).** Tangential at reconstruction-grade; "GU forces three chiral generations" is reconstruction-dependent, not a theorem of the published draft (matter action unbuilt; Nguyen's complexification critique stands). The rigorous statement is the conditional plus the 2-primary lemma.
+
+**Three independent first-principles derivations now agree (tangential)**, the second and third citing GU's own structure and the third computing both branches in closed form. The verdict is stable; what remains is exactly the reconstruction-grade gap (GU's explicit matter operator) and a human-expert sign-off.
