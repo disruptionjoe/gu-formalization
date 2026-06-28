@@ -180,6 +180,28 @@ regardless of signature" is the surviving, strengthened claim. Round-3 flank: wh
 GU-native principle forces an odd/3 count under a real signature, or whether under-determination is
 provably permanent (a genuine theorem) under (7,7).
 
+### Round 3 (2026-06-28) -- the weak firewall is now a (conditional) THEOREM
+
+See `canon/multiplicity-theorem.md`. A four-leg establish-or-break pass (computational + adversarial)
+upgraded the surviving weak form into the **Multiplicity Theorem**, ESTABLISHED CONDITIONALLY: GU-internal
+data fixes the STRUCTURE of one generation (verified Pati-Salam) but not the MULTIPLICITY. Proof-grade
+core: 3 is prime and divides no GU-native dimension or branching multiplicity (the whole internal spectrum
+is `{2,7,13}`-smooth; `ker(Gamma)=13*128=1664` structurally, for ANY signature), and every metric
+connection index is 0 -- so a count of 3 is exactly equivalent to importing the prime 3 from outside.
+INDEPENDENTLY VERIFIED across 9 signatures spanning both module classes (`signature_sweep_fast.py`);
+the C-07 parity wall reconfirmed a `(9,5)` artifact. No leg broke it.
+
+Honest scope: universality and the C-05 families-index step remain evidence-grade (conditional, not
+absolute). And the POSITIVE form (count = a single canonical EXTERNAL index that GU forces) is OPEN /
+partially refuted: GU fixes `p-q=4` -> the `RP^3` metric-fiber base, which is 2-primary (3-free); the only
+3-carrying base (K3) is an unforced import (`ch2=-5376`, the `24` and `/8` target-fitted). GU pins neither
+base nor value.
+
+Net round-3 reading: the firewall's WEAK form (GU under-determines the count regardless of signature) is
+reinforced from "survives" to "conditional theorem." Its STRONG/POSITIVE form (a GU-forced external index
+supplies 3) is not established. The honest one-line: GU explains the shape of one generation; the number
+three is imported, not derived -- internally or by a GU-forced external invariant.
+
 ## Where the work happens
 
 - Falsification criterion 1 (closed completion) is the live frontier of the construction sandbox
