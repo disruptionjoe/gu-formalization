@@ -33,11 +33,34 @@ protected the multiplicity.)
 
 But the triplet is **vectorlike in Euclidean (14,0)**: it splits 96/96 by `Spin(14)` chirality (net
 chiral asymmetry 0 = 3 generations + 3 mirrors), so this is NOT yet "GU predicts 3 chiral generations."
-The mirror-breaking datum is exactly the **Lorentzian self-dual complexification** (`*^2 = -1`,
-`Lambda^2_+` complex rank 3, `sl(2,C)` Weyl) -- i.e. Nguyen's complexification (H2). **H2 is now THE
-decisive computation:** if the Lorentzian self-dual structure chiralizes the triplet, GU natively forces
-3 chiral generations (a major positive result); if not, GU natively carries a vectorlike 3+3bar.
-Scripts: `h1_selfdual_family.py`, `h1b_verify.py`, `h1c_chiral.py` (to be ported into `tests/`).
+Scripts: `h1_selfdual_family.py`, `h1b_verify.py`, `h1c_chiral.py`, `h1d_ghostparity.py`.
+
+**Krein / ghost-parity synthesis (2026-06-28), reshapes H2.** The mirror is not a defect: GU's matter
+module is a Krein space (indefinite `so(p,q)` metric), and the self-dual triplet is exactly neutral
+(`+96/-96`) in every signature -- each generation is bound to its mirror in a hyperbolic (null) pair.
+This is Turok-Bateman's ghost-parity setting: a `Z2` ghost parity resolves each pair into 1 physical
+generation + 1 ghost. So the chiral selection that was "open (needs an index)" is now sharply specified:
+it is a ghost-parity-preserving dynamics. This also yields the first candidate **inside-the-class**
+Distler-Garibaldi evasion (a new positivity axis on the six-axis protocol). Full statement + the D-G /
+six-axis connection: `canon/ghost-parity-krein-synthesis.md`; test: `tests/generation-sector/
+ghost_parity_krein.py`.
+
+**Ghost-parity / Kramers chiralization hypothesis -- TESTED and REFUTED (2026-06-28).** Conjecture: the
+quaternionic Kramers parity (`J^2 = -1`, the Z2 we earlier dismissed as a "(9,5) artifact") is a
+ghost-parity that controls whether the self-dual triplet is vectorlike (quaternionic class) or chiral
+(real class). Test: recompute the triplet chirality holding the base `(4,0)` fixed (self-dual `SU(2)+`
+identical) and flipping the internal signature to change the spinor-module class -- `(14,0),(10,4)` (QUAT)
+vs `(8,6),(11,3),(7,7)` (REAL). RESULT: **net chiral asymmetry = 0 in ALL FIVE** -- the triplet is
+robustly vectorlike (96/96) regardless of class. So no algebraic parity (Kramers, and by the
+mirror/Nielsen-Ninomiya obstruction any global Z2 that respects gauge + 4d-chirality) can chiralize it.
+**Consequence:** a net chiral 3 is an INDEX (analytic/topological), identically 0 at the rep-theory level;
+it can only become nonzero through actual base-manifold topology (a Dirac index with instanton/curvature
+data). This RELOCATES the open question precisely: the multiplicity-3 *structure* is GU-native (self-dual
+triplet); the *chiral projection* that turns vectorlike 3+3bar into 3 net generations is a topological
+index datum -- exactly the H2 Lorentzian-base / families-index frontier (and a refined, sharper firewall:
+structure internal, chirality is the interface datum). NOTE: this tested the Kramers parity on a Euclidean
+base; the genuine BV ghost parity (compensator `sigma_c`) and the Lorentzian base (`sl(2,C)` self-dual,
+non-compact) are still untested -- but the obstruction predicts neither chiralizes without an index.
 
 ---
 
