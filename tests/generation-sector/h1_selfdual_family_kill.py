@@ -92,8 +92,8 @@ for i in range(4, 14):
         ref += sgen(i, j) @ sgen(i, j)
 ref16 = np.linalg.eigvalsh(0.5 * (ref + ref.conj().T)).max().real
 print(f"[3] triplet sector (dim {Wtrip.shape[1]}): Spin(10) Casimir = {val.mean().real:.2f} "
-      f"(spread {val.ptp().real:.1e}); reference 16/16bar = {ref16:.2f} -> PURE GENERATION SPINOR")
-assert abs(val.mean().real - ref16) < 1e-6 and val.ptp().real < 1e-6
+      f"(spread {np.ptp(val).real:.1e}); reference 16/16bar = {ref16:.2f} -> PURE GENERATION SPINOR")
+assert abs(val.mean().real - ref16) < 1e-6 and np.ptp(val).real < 1e-6
 
 # (4) chirality of the triplet sector (Euclidean (14,0): omega_14^2 = -1, chirality = -i omega_14)
 om = I128.copy()
