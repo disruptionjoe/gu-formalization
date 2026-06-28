@@ -133,7 +133,18 @@ toward "Nguyen's 3 is native," and shift the firewall verdict. **We cannot claim
 both (i) Nguyen's and (ii) an unforced external import if it is intrinsic to a Lorentzian 4-manifold.**
 Resolve explicitly. Coupled to H1.
 
-### H3 -- Non-regular / principal su(2) embeddings (close leg 3) [R1+R2; severity HIGH; status OPEN]
+### H3 -- Non-regular / principal su(2) embeddings (close leg 3) [R1+R2; severity HIGH; status DONE 2026-06-28]
+**CLOSED** for the commutes-with-Spin(10) case. The commutant of Spin(10) in Spin(14) is so(4) = su(2)+ ⊕
+su(2)-; its only su(2) subalgebras are self-dual, anti-self-dual, diagonal/vector; su(3) cannot embed
+(dim 8 > 6). The 16-multiplicity space decomposes as: self-dual/anti-self-dual -> `2(j=0)+4(j=1/2)+2(j=1)`
+(odd piece = TRIPLET 3); diagonal/vector -> `4(j=1/2)+2(j=3/2)` (all even). Odd multiplicity is ALWAYS the
+triplet 3, never 5+, and there is no su(3). Self-dual SU(2)+ is the canonical, essentially unique odd
+route. Residual: the commutes-with-G_SM-only case (larger commutant, possible horizontal su(3)) is a
+bounded next computation. Also closes **M3**: the spinor 2-smoothness lemma is proved (spinor family
+factors -> power-of-2 multiplicity -> 3-free; odd 3 only via the non-spinor self-dual Lambda^2_+). Canon:
+`canon/leg3-closure-and-spinor-2smoothness.md`; test: `tests/generation-sector/leg3_family_embedding_enumeration.py`.
+
+### H3-orig -- Non-regular / principal su(2) embeddings (original note) [superseded by the DONE entry above]
 Our Leg-4 search covered only maximal-rank D5 splits. Non-regular/principal su(2) embeddings are in
 bijection with nilpotent orbits, FINITELY classified (Bala-Carter / weighted Dynkin). **Bounded finite
 computation:** enumerate nilpotent orbits in the family-symmetry / centralizer algebra; for each, check
