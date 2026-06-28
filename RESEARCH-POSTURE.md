@@ -2,209 +2,138 @@
 title: "Research Posture"
 status: canon
 doc_type: canon
-updated_at: "2026-06-24"
+updated_at: "2026-06-28"
 ---
 
 # Research Posture
 
-This repository is a Geometric Unity reconstruction program.
+## North star: find the truth, using a bold conjecture as the engine
 
-The working hypothesis is:
+This program optimizes for one thing: **discovering what is true** about the mathematics and physics in
+its reach. It is not a campaign to prove Geometric Unity, to disprove it, to vindicate or refute Eric
+Weinstein, or to make this program look right or wrong. Those are all the wrong target.
+
+Geometric Unity is the **guiding idea**, and it earns that role precisely because it is a bold, high
+-information, contested claim. Bold conjectures of this kind are the ones that, when they pay off, move
+science in leaps rather than increments; and even when they do not pay off whole, interrogating them
+surfaces real structure. GU is a strong, arguably scientifically irresponsible claim from an obviously
+capable thinker, and the community genuinely disputes whether it is even well posed. That is exactly what
+makes it a good **generative test case**: it is rich enough to spawn precise, falsifiable hypotheses, and
+contested enough that resolving them teaches us something either way.
+
+So the method is: take GU as the provocation, manufacture **falsifiable hypotheses** from it, drive each
+one to a verdict (survives re-checking, or is killed), and keep only what survives. The surviving
+structure is frequently **GU-independent** -- representation-theoretic, index-theoretic, no-go-structural
+facts that stand on their own once GU has done its job of pointing at them. That is a feature, not a
+disappointment: the scaffold is allowed to fall away.
 
 ```text
-Geometric Unity is substantially correct, and the task is to determine whether
-that hypothesis can be rigorously reconstructed, extended, or falsified through
-systematic mathematical research.
+We do not optimize to prove GU, to disprove GU, or to adjudicate anyone.
+We optimize to find what is true, using GU as the engine that generates the questions.
 ```
 
-This is a research hypothesis, not a proof claim. It does not say that GU has already been
-proved, that Eric Weinstein's existing presentation is complete, or that every current
-reconstruction in this repository is correct.
+## Two products, of equal standing
 
-## Primary research question (2026-06-28): the Firewall-Boundary Hypothesis
+1. **True structure.** Whatever mathematical or physical structure survives the falsification drive,
+   reported at its honest grade (proof / reconstruction / evidence / speculation), GU-dependent or not.
+   The GU-independent results are often the strongest, because they do not require anyone to buy GU.
+2. **A reliable truth-seeking method.** The discipline itself -- bold conjecture, falsifiable hypotheses,
+   adversarial verification, clean kills, keep-what-survives -- is a deliverable. (Process discipline is
+   never offered as physics evidence; it is offered as method.)
 
-The repository's PRIMARY falsification target is now whether every successful reconstruction
-converges on a firewall-like BOUNDARY object (a constrained boundary condition / adapter at which
-the geometry terminates) rather than on a CLOSED internal completion. This supersedes the prior
-default that the correct endpoint of the reconstruction must be a closed mathematical system; that
-default is now itself on trial. The hypothesis is to be ATTACKED, not defended. Full statement,
-explicit falsification criteria, and current evidence status: `canon/firewall-boundary-hypothesis.md`.
+Neither product is "a verdict on GU." A verdict on GU (true, false, or a precise boundary explaining why a
+reconstruction can or cannot exist) is a possible *byproduct*, and every such byproduct is a scientific
+success. None of them is the goal.
 
-## Optimization Target
+## Current lead hypotheses (the questions GU is generating now)
 
-The repository optimizes for discovering whether the GU hypothesis is true.
+These are hypotheses under active drive, to be ATTACKED not defended. They are instruments, not commitments:
 
-It should not optimize mainly for appearing maximally conservative, neutral, or
-peer-review-safe. Caution is useful only when it improves truth-tracking. The primary
-question for future work is:
+- **The Firewall-Boundary Hypothesis** -- whether a successful reconstruction converges on a constrained
+  boundary / interface object rather than a closed internal completion. Full statement and falsification
+  criteria: `canon/firewall-boundary-hypothesis.md`.
+- **The matter / generation-multiplicity line** -- what GU's Rarita-Schwinger sector does and does not fix
+  about generation count and chirality. Current state: a native multiplicity-3 exists (H1) but is vectorlike
+  and kinematically un-chiralizable (T1a); the self-dual route is canonical (H3) and the only odd route
+  (M3); the chiral count is one specified missing ingredient. See `canon/ghost-parity-krein-synthesis.md`,
+  `canon/leg3-closure-and-spinor-2smoothness.md`, and the prepublish tracker.
 
-```text
-If GU is fundamentally correct, what mathematical structures must exist,
-and how do we discover them?
-```
+When a lead hypothesis is resolved, it is retired and the truth it surfaced is kept; the program does not
+become attached to any one of them.
 
-That means future work should be constructive as well as critical:
+## Discipline does not weaken
 
-- propose new mathematical objects when existing ones are insufficient;
-- search aggressively for class exits, stronger categories, and richer formulations;
-- treat low-confidence but high-information directions as legitimate if they are precise;
-- kill failed directions cleanly when their assumptions, computations, or reductions fail.
-
-## Discipline Does Not Weaken
-
-The hypothesis is bolder than a neutral map. The standards are not weaker.
-
-Every live mathematical or physical claim still needs:
-
-- explicit assumptions;
-- reconstruction/proof/speculation labels;
-- falsification or rollback conditions;
-- dependency tracking;
-- correction logs when verdicts change;
-- promotion criteria before canon claims;
-- independent verification where feasible;
-- no-go theorem assumption audits.
-
-The correct posture is:
+The conjecture is bold; the standards are not lower. Every live claim still needs: explicit assumptions;
+reconstruction / proof / speculation labels; falsification or rollback conditions; dependency tracking;
+correction logs when verdicts change; promotion criteria before canon; independent verification where
+feasible; no-go-theorem assumption audits.
 
 ```text
-Assume the hypothesis is worth pursuing.
+Take the conjecture seriously enough to attack it precisely.
 Demand that every mathematical step earn its place.
+Keep only what survives the attack.
 ```
 
-## Mission A: GU Reconstruction Program
+## Constructive obstruction protocol
 
-Mission A is primary.
-
-Assume GU is substantially correct as a working hypothesis. Attempt to reconstruct:
-
-- the missing mathematics;
-- the missing derivations;
-- the missing physical reductions;
-- the missing categorical language;
-- the missing analytic machinery.
-
-Known objections should be treated as one of three things:
-
-- an obstruction to overcome by a stronger construction;
-- an obstruction to formalize as a precise theorem-class boundary;
-- a genuine falsifier of the GU hypothesis or of a specific GU reconstruction branch.
-
-The objective is not defending GU. The objective is discovering whether a rigorous
-reconstruction exists.
-
-## Mission B: Independent Mathematical Contributions
-
-Mission B is secondary but valuable.
-
-Some tools developed here may survive independently of GU. Examples include:
-
-- the signed-readout theorem;
-- the no-go class-relative framework;
-- the six-axis specification protocol;
-- reusable reconstruction methodology;
-- substrate-versus-shadow analysis;
-- other mathematical machinery that remains useful even if a GU branch fails.
-
-These outputs should continue to be developed and published on their own merits. They are
-not the primary purpose of this repository.
-
-## Priority Rule
-
-Do not confuse confidence, evidence, importance, and expected value.
-
-A direction can have low confidence and high expected value if it would strongly clarify
-the central GU hypothesis. Such directions are worth investigating when they are
-mathematically well specified and have clear failure conditions.
-
-A direction can also be elegant, clean, and publishable while doing little to decide
-whether GU succeeds. Those directions may belong under Mission B, but they should not crowd
-out Mission A.
-
-Research priority should optimize for information gain about the GU reconstruction
-hypothesis.
-
-## Constructive Obstruction Protocol
-
-When a derivation blocks, do not stop at:
-
-```text
-This blocks the current derivation.
-```
-
-Ask:
-
-- What mathematical object would remove this obstruction?
-- What stronger structure would make this theorem applicable?
-- Is the obstruction intrinsic, or only relative to the current formulation?
-- Can the hypothesis be reconstructed inside a richer category?
-- What invariant would have to exist if GU were true?
-- What computation would distinguish construction from rescue?
-
-The answer may still be failure. A precise failure is progress.
+When a derivation blocks, do not stop at "this blocks." Ask: what object would remove the obstruction?
+what stronger structure would make the theorem applicable? is the obstruction intrinsic or only relative to
+the current formulation? what invariant would have to exist if the conjecture were pointing at something
+real? what computation distinguishes a genuine construction from a rescue? A precise failure is progress.
 
 ## Guardrails
 
-Do not become advocates.
+Do not become advocates -- for GU, against GU, or for this program. Forbidden moves: inflate verdicts; call
+compatibility a derivation; rescue failed arguments through optimism; redefine failures as successes; hide
+imported target data inside a reconstruction; treat process discipline as physics evidence; and -- the
+guardrail this revision adds -- frame the work as adjudicating GU or anyone, rather than as finding the
+truth GU helps us reach.
 
-Forbidden moves:
+## Success criterion
 
-- inflate verdicts;
-- call compatibility a derivation;
-- rescue failed arguments through optimism;
-- redefine failures as successes;
-- hide imported target data inside a reconstruction;
-- treat process discipline as physics evidence.
+The program succeeds when it converges on true structure (at honest grade) and a method that reliably finds
+it. Whether that structure vindicates GU, falsifies a GU branch, or turns out to be GU-independent is not
+the measure of success; the truth and the method are. The failure mode is optimizing for caution,
+appearance, local elegance, or for any verdict, instead of for what is true.
 
-## Success Criterion
-
-The repository succeeds if it converges toward either:
-
-1. a rigorous mathematical reconstruction that genuinely derives new physics from GU; or
-2. a precise mathematical explanation of why such a reconstruction cannot exist.
-
-Both outcomes are scientific successes.
-
-The failure mode is optimizing for caution, appearance, or local elegance instead of
-maximizing the ability to learn whether GU is true.
-
-## Machine-Readable Posture
+## Machine-readable posture
 
 ```json
 {
   "artifact": "RESEARCH_POSTURE",
-  "version": "2026-06-24",
-  "primary_mission": "GU_RECONSTRUCTION_PROGRAM",
-  "working_hypothesis": "Geometric_Unity_is_substantially_correct_and_should_be_reconstructed_extended_or_falsified_systematically",
-  "not_claims": [
-    "GU_already_proved",
-    "existing_GU_presentation_complete",
-    "current_reconstructions_all_correct"
+  "version": "2026-06-28",
+  "north_star": "find_the_truth",
+  "optimization_target": "true_structure_and_a_reliable_truth_seeking_method",
+  "guiding_conjecture": {
+    "name": "Geometric_Unity",
+    "role": "generative_test_case",
+    "rationale": "bold_high_information_contested_conjecture_that_spawns_falsifiable_hypotheses",
+    "not_the_goal": true
+  },
+  "not_targets": [
+    "prove_GU_true",
+    "prove_GU_false",
+    "vindicate_or_refute_Weinstein",
+    "make_this_program_look_right_or_wrong",
+    "any_verdict_as_an_end"
   ],
-  "optimization_target": "information_gain_about_whether_GU_is_true",
-  "mission_a": {
-    "name": "GU Reconstruction Program",
-    "priority": "primary",
-    "stance": "assume_GU_substantially_correct_as_working_hypothesis",
-    "outputs": [
-      "missing_mathematics",
-      "missing_derivations",
-      "missing_physical_reductions",
-      "missing_categorical_language",
-      "missing_analytic_machinery"
-    ]
-  },
-  "mission_b": {
-    "name": "Independent Mathematical Contributions",
-    "priority": "secondary",
-    "examples": [
-      "signed_readout_theorem",
-      "no_go_class_relative_framework",
-      "six_axis_specification_protocol",
-      "reconstruction_methodology",
-      "substrate_shadow_analysis"
-    ]
-  },
+  "method": [
+    "take_bold_conjecture_as_provocation",
+    "manufacture_falsifiable_hypotheses",
+    "drive_each_to_a_verdict",
+    "adversarially_verify",
+    "kill_cleanly",
+    "keep_only_what_survives_often_GU_independent"
+  ],
+  "products": [
+    "true_structure_at_honest_grade",
+    "reliable_truth_seeking_method"
+  ],
+  "byproducts_all_successes": [
+    "GU_reconstruction_deriving_new_physics",
+    "precise_explanation_why_a_reconstruction_cannot_exist",
+    "GU_independent_mathematics"
+  ],
   "discipline_preserved": [
     "explicit_assumptions",
     "falsification_conditions",
@@ -216,16 +145,14 @@ maximizing the ability to learn whether GU is true.
     "no_go_assumption_audits"
   ],
   "forbidden_moves": [
-    "advocacy",
+    "advocacy_for_or_against_GU",
     "verdict_inflation",
     "compatibility_as_derivation",
     "optimistic_rescue_of_failed_arguments",
     "failure_redefined_as_success",
-    "target_data_hidden_as_reconstruction"
-  ],
-  "success_criteria": [
-    "rigorous_GU_reconstruction_deriving_new_physics",
-    "precise_explanation_of_why_GU_reconstruction_cannot_exist"
+    "target_data_hidden_as_reconstruction",
+    "process_discipline_as_physics_evidence",
+    "framing_work_as_adjudicating_GU_rather_than_finding_truth"
   ]
 }
 ```
