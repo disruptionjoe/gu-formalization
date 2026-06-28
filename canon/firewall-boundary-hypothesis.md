@@ -151,6 +151,35 @@ signature; and (2) re-run C-04/C-05 and the closed-completion test UNDER (7,7): 
 (no internal 3) persists in a real signature, that is strong signature-independent evidence; if it
 dissolves and a closed completion supplies 3, the firewall is killed.
 
+### Round 2 (2026-06-28) -- verdict: STRONG form CONFIRMED DEAD; WEAK form now SIGNATURE-ROBUST
+
+Direct (7,7) re-run of the round-1 flank (scratch c11): built the real-class Cl(7,7) = M(128,R) rep
+(verified J^2 = +1, so NO quaternionic Kramers wall) and recomputed the obstructions.
+
+- **Parity leg CONFIRMED a (9,5) artifact.** Under (7,7), J^2 = +1: the quaternionic Kramers wall is
+  absent, so the C-07 parity-necessity argument is dead by direct computation, exactly as criterion 4
+  predicted. The strong form of the firewall is now definitively down.
+- **C-04 PERSISTS (signature-independent).** The dimension spectrum under (7,7) is STILL {2,7,13}:
+  spinor 128 = 2^7, RS space 1792 = 2^8.7, ker(Gamma) = 1664 = 2^7.13. The prime 3 is STILL absent.
+- **C-05 PERSISTS.** Every tested metric so(7,7) connection (self-dual, single, random) STILL gives
+  generation index 0, even with no parity wall present. Connection-index-zero is therefore NOT a
+  quaternionic artifact.
+- **C-06 PERSISTS.** A rank-3 carrier still gives index 3 as a FREE choice; the count is still
+  under-determined. Anchors identical across signatures (bare = 58.72, C2 = 155.36, ker = 1664),
+  i.e. these obstructions do not depend on which directions are timelike.
+
+**Net.** Going to (7,7) removes the parity wall but does NOT produce a 3. The firewall's STRONG form
+(boundary proven NECESSARY, via parity) is dead. Its WEAK form (no closed GU-native action DERIVES the
+matter count: 3 absent from the spectrum, metric connections give 0, the count under-determined) now
+SURVIVES the sharpest rep-artifact attack and is signature-robust across the two main defensible
+signatures. Relevant context: GU's single cleanest VERIFIED generation result -- the Pati-Salam chain --
+is itself a Spin(7,7) (real-class) construction that derives exactly ONE generation; even in that
+signature, three generations is not derived. The honest standing is now: the firewall as "parity proves
+an external object is necessary" is refuted; the firewall as "GU under-determines the matter count
+regardless of signature" is the surviving, strengthened claim. Round-3 flank: whether ANY closed
+GU-native principle forces an odd/3 count under a real signature, or whether under-determination is
+provably permanent (a genuine theorem) under (7,7).
+
 ## Where the work happens
 
 - Falsification criterion 1 (closed completion) is the live frontier of the construction sandbox
