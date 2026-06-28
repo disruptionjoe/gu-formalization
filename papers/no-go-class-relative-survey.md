@@ -480,28 +480,36 @@ Weinstein, E. (2021). Geometric Unity (Draft, April 1, 2021). Unpublished manusc
 
 Witten, E. (1981). Search for a realistic Kaluza-Klein theory.
 
-
 ---
 
-<!-- Added 2026-06-27: generation-sector quaternionic-parity no-go, migrated from the CONSTRUCT-01..07 audit. Honesty-reviewed. -->
+<!-- Generation-sector quaternionic-parity interface specification (CONSTRUCT-01..07; reframed verdict-agnostic 2026-06-27). -->
 
-## Generation-sector no-go: quaternionic parity and under-determination
+## Generation-sector interface: quaternionic parity and the external source slot
 
-This section reports a fifth obstruction, internal to the Geometric Unity (GU) program rather than drawn from the external no-go literature of §2 through §5. Unlike the four surveyed families, it does not constrain a broad category of physical constructions; it constrains GU's *own* operator algebra. It fits the class-relative pattern of this survey exactly: it binds one specific class of carriers (the closed internal quaternionic algebra GU is built from), and the only escape axis is the addition of an object outside that class. We state it as a class-relative no-go, give the mechanism, give the honest under-determination qualifier, place it in the forgetful-image framework, and connect it to Nguyen's §3.1 critique.
+This section reports a structural result internal to the Geometric Unity (GU) program rather than drawn from the external no-go literature of §2 through §5. Unlike the four surveyed families, it does not constrain a broad category of physical constructions; it characterizes GU's *own* operator algebra. It fits the class-relative pattern of this survey exactly: a sharp bound on one specific class of carriers (the closed internal quaternionic algebra GU is built from) whose only escape axis is an object outside that class. Where the four surveyed theorems read that escape axis as a defect or an obstruction, here we read it as a *specification*. The parity bound tells us precisely what an object must be, and where it must attach, in order to fix GU's generation content. We therefore present this as an **interface specification**: the boundary at which GU, read as an open theory, would couple to an external source. The verdict on whether that boundary is a flaw or a feature is interpretation-dependent, and we are explicit throughout that the facts alone do not decide it.
+
+### Two readings, one set of facts
+
+The same results admit two readings, and we keep both live rather than collapsing to one.
+
+- **Closed reading.** If GU is assumed to be a closed theory that must derive all matter content internally, then the inability of its native algebra to produce an odd generation count is a *defect*. This is the reading aligned with Nguyen's §3.1 critique.
+- **Open / sourced reading.** If GU is read as the internal client of an external source action (a membrane or boundary action that finalizes the matter content), then the same inability is the *discovered interface*: GU consistently leaves the generation count to its source, and the parity bound specifies what the source object must look like.
+
+Our contribution is to convert the bound into a constructive constraint that is meaningful under *either* reading: we locate the coupling point, and we specify the required external object. We do not assert that the open reading is correct. That verdict would be settled only by building the source action, which has not been done.
 
 ### Setting
 
-The reconstruction works on the explicit real Clifford algebra Cl(9,5) ≅ M(64, ℍ) acting on the Rarita-Schwinger (RS) module of the 14-dimensional metric signature (9,5). The relevant carrier is built from the boundary/constraint apparatus with fixed numerical anchors ‖[Π_RS, M_D]‖ = 58.7215 and C2 = 155.3625. The "generation count" is read as the signature (regularized index) of a Hermitian carrier on the constraint surface. Two readings are in play throughout: the *literal-index* reading (count = index) and the *half-index* reading (count = index/2). The no-go below is sharpest in the literal-index reading; the under-determination qualifier covers both.
+The reconstruction works on the explicit real Clifford algebra Cl(9,5) ≅ M(64, ℍ) acting on the Rarita-Schwinger (RS) module of the 14-dimensional metric signature (9,5). The relevant carrier is built from the boundary/constraint apparatus with fixed numerical anchors ‖[Π_RS, M_D]‖ = 58.7215 and C2 = 155.3625. The "generation count" is read as the signature (regularized index) of a Hermitian carrier on the constraint surface. Two readings of the count are in play throughout: the *literal-index* reading (count = index) and the *half-index* reading (count = index/2). The parity result below is sharpest in the literal-index reading; the under-determination structure covers both.
 
-**Reconstruction-grade and the main referee risk.** The signature (9,5) and the identification Cl(9,5) ≅ M(64, ℍ) are *not* canonical to GU. They are reconstructed from the public transcript and the 2021 draft. This rep-canonicity assumption is the load-bearing caveat and the single most likely point of referee attack: a different defensible reconstruction of GU's internal algebra could change the parity structure. Everything below is conditional on this reconstruction, and the result is an operator-algebra/index obstruction, not a derivation of GU's source action (which was not built).
+**Reconstruction-grade and the main referee risk.** The signature (9,5) and the identification Cl(9,5) ≅ M(64, ℍ) are *not* canonical to GU. They are reconstructed from the public transcript and the 2021 draft. This rep-canonicity assumption is the load-bearing caveat and the single most likely point of referee attack: a different defensible reconstruction of GU's internal algebra could change the parity structure. Everything below is conditional on this reconstruction, and the result is an operator-algebra/index statement, not a derivation of GU's source action (which was not built).
 
-### Statement (class-relative no-go)
+### Statement (class-relative bound and its escape axis)
 
-**Class bound.** Let the *closed internal quaternionic class* be the algebra generated over the reals by GU's native primitives acting on the RS module: the Clifford generators e_a (including the timelike i·Γ_a), the spin generators σ_ab, the vector-index generators M_ij, the constraint projector Π_RS, its complement Q, and the twisted Dirac symbol M_D. Then every Hermitian carrier in this class has **even** signature. Consequently, in the literal-index reading, GU's own building blocks **cannot** produce an odd generation count such as 3.
+**Class bound.** Let the *closed internal quaternionic class* be the algebra generated over the reals by GU's native primitives acting on the RS module: the Clifford generators e_a (including the timelike i·Γ_a), the spin generators σ_ab, the vector-index generators M_ij, the constraint projector Π_RS, its complement Q, and the twisted Dirac symbol M_D. Then every Hermitian carrier in this class has **even** signature. Consequently, in the literal-index reading, GU's own building blocks cannot internally produce an odd generation count such as 3.
 
-**Escape axis.** In the literal-index reading, an odd literal index is reachable only by adjoining an object *outside* this class: an essential scalar-i / non-quaternionic (non-Clifford) operator. Equivalently, the only escape axis is a non-quaternionic external object. Adjoining it is a structural import, not a GU-native move. (Under the half-index reading, the count is index/2, so a GU-native even-index carrier can already yield an odd count; what stays unforced there is the rank, as the under-determination qualifier below makes precise.)
+**Escape axis = interface.** In the literal-index reading, an odd literal index is reachable only by adjoining an object *outside* this class: an essential scalar-i / non-quaternionic (non-Clifford) operator. This adjunction is not a GU-native move; it is a structural import. The interface-specification reading is that this forced-external object is exactly where an open theory couples to its source: the parity bound does not merely forbid an internal answer, it *specifies* the type of the external object (non-quaternionic, count-fixing) and the place it must attach (the scalar-extension point identified below). Under the half-index reading, the count is index/2, so a GU-native even-index carrier can already yield an odd count; what stays unforced there is the rank, as the under-determination structure below makes precise.
 
-This is the same shape as the four surveyed theorems: a correct statement about a fixed class, with the evasion living strictly outside that class.
+This has the same shape as the four surveyed theorems: a correct statement about a fixed class, with the evasion living strictly outside that class. The reframe is in what we do with the escape axis: we treat it as a coordinate on GU's source interface rather than as a verdict of failure.
 
 ### Mechanism
 
@@ -511,31 +519,36 @@ The mechanism is closed-form representation theory, with numerical confirmation 
 
 2. **Kramers degeneracy.** Any Hermitian operator that commutes with an antiunitary J satisfying J² = -1 has eigenspaces of even complex dimension. This is a closed-form representation-theoretic fact about the entire commutant, not a property inferred from samples. Therefore every GU-native Hermitian carrier has even signature, hence an even index. Confirmed numerically: GU-native carrier signatures are all even.
 
-3. **The escape is foreign.** A rank-3 kernel projector (which would give an odd signature) is not H-linear (defect approximately 2), and the essential scalar-i needed to leave the quaternionic-linear algebra is itself J-antilinear (defect approximately 85). Such objects are not in GU's M(64, ℍ) building-block algebra; reaching them is an import.
+3. **The escape is foreign by construction.** A rank-3 kernel projector (which would give an odd signature) is not H-linear (defect approximately 2), and the essential scalar-i needed to leave the quaternionic-linear algebra is itself J-antilinear (defect approximately 85). Such objects are not in GU's M(64, ℍ) building-block algebra; reaching them is an import. This is the positive content of the interface specification: the object that fixes the count is necessarily external, and we can read off what it must be.
 
-The headline is therefore: GU's quaternionic structure forces an even generation index, and an odd count such as 3 requires importing a non-quaternionic object foreign to GU's algebra.
+The headline is therefore: GU's quaternionic structure forces an even internal generation index, and an odd count such as 3 enters only through a non-quaternionic object foreign to GU's algebra. The bound *names the interface*; it does not, by itself, declare a failure.
 
-### Under-determination qualifier (the honest limit)
+### Under-determination as the open-theory slot
 
-The no-go is real but bounded, and the boundary must be stated plainly. A *generic* rank-r carrier on the constraint surface has signature exactly r, so an odd count including 3 IS reachable by *some* a-priori carrier. What the reconstruction does not do is force the rank. Under the half-index reading (count = index/2), a GU-native H-linear rank-r carrier gives index 2r, so count = r is reachable including 3, but r stays a free integer.
+Under-determination is the headline of this result, not an embarrassed qualifier. The boundary must be stated plainly. A *generic* rank-r carrier on the constraint surface has signature exactly r, so an odd count including 3 IS reachable by *some* a-priori carrier. What the reconstruction does not do is force the rank. Under the half-index reading (count = index/2), a GU-native H-linear rank-r carrier gives index 2r, so count = r is reachable including 3, but r stays a free integer.
 
-The honest verdict is therefore not "3 is impossible." It is: **3 is neither forced nor forbidden by the representation; it is under-determined.** What is forbidden is the GU-native production of an odd literal index, and what is unforced is the rank that would otherwise pin the count. Choosing the rank, or equivalently importing the scalar-i that breaks parity, is the forbidden step. The no-go fires against the claim that GU's native algebra *forces* three generations; it does not fire against the bare possibility of three.
+The honest verdict is therefore not "3 is impossible" and not "3 is derived." It is: **3 is neither forced nor forbidden by the representation; it is under-determined.** Read structurally, this is exactly what an open theory should look like at its source interface: consistent, not over-determined-wrong and not contradictory, leaving a well-shaped slot whose occupant is fixed by something outside the internal algebra. GU's own structure favors this reading in two specific ways:
+
+- It is **under-determined**, not inconsistent. A closed, failed theory would be over-determined in the wrong direction or self-contradictory. GU is neither; it leaves a clean degree of freedom.
+- It **provably requires a compensator outside its own symmetry.** The non-equivariant compensator was shown necessary, meaning GU's own structure demands an object outside its internal symmetry rather than merely tolerating one.
+
+These two facts are why the open reading is genuinely supported by the data, and why this section is more GU-sympathetic than a flat defect framing. They are not a proof that the open reading is correct. The slot being well-shaped does not build its occupant.
 
 ### Forgetful-image reading
 
-The obstruction fits the survey's forgetful-image framework with a slight role reversal worth naming. Here the forgetful operation is the passage that retains only the quaternionic-linear part of a carrier (equivalently, forgetting the scalar-i / complex structure down to the M(64, ℍ) commutant).
+The result fits the survey's forgetful-image framework with a slight role reversal worth naming. Here the forgetful operation is the passage that retains only the quaternionic-linear part of a carrier (equivalently, forgetting the scalar-i / complex structure down to the M(64, ℍ) commutant).
 
 - **Richer datum:** a carrier carrying an essential scalar-i / non-quaternionic component, whose Hermitian part can have odd signature.
 - **Forgetful operation:** projection onto the J_quat-commutant (the GU-native algebra), φ_quat : carrier ↦ its quaternionic-linear part.
 - **What gets lost:** exactly the parity-breaking scalar-i data that an odd literal index requires. The image is even-signature by Kramers.
 
-The odd generation count lives in precisely the structure the quaternionifying projection discards. This is the same "the mechanism lives in the discarded data" signature observed for Witten, Nielsen-Ninomiya, and Freed-Hopkins in §6, applied now to GU's internal algebra rather than to an external no-go class.
+The odd generation count lives in precisely the structure the quaternionifying projection discards. Read as an interface, that discarded structure would be the source's contribution: the external object would supply exactly the datum the internal algebra forgets. This is a statement about what the open reading asserts, not a claim that such a source exists. This is the same "the mechanism lives in the discarded data" signature observed for Witten, Nielsen-Ninomiya, and Freed-Hopkins in §6, applied now to GU's internal algebra and reinterpreted as the candidate location of its source coupling.
 
 ### Relation to Nguyen §3.1
 
-This result confirms and extends Timothy Nguyen's critique of GU; it does not refute him and it does not rescue GU. Nguyen's strongest hit (A Response to Geometric Unity, §3.1) is that GU's shiab construction has no natural u(128) ≅ Λ•T\*U over the reals, so the construction works only after a hidden complexification: a non-natural scalar-extension step. The repo's independent gap assessment found no case where Nguyen is provably wrong and rated §3.1 his strongest objection.
+We neither refute Nguyen nor rescue GU. Nguyen's strongest hit (A Response to Geometric Unity, §3.1) is that GU's shiab construction has no natural u(128) ≅ Λ•T\*U over the reals, so the construction works only after a hidden complexification: a non-natural scalar-extension step. The repo's independent gap assessment found no case where Nguyen is provably wrong and rated §3.1 his strongest objection.
 
-Our obstruction is the *same defect*, reached independently by a different route. Nguyen finds the hidden scalar extension via the shiab domain/codomain isomorphism; we find it via the generation index, in the form of the essential scalar-i that any odd-parity carrier must import to leave M(64, ℍ). The contribution beyond Nguyen is to make that scalar-i import **load-bearing for GU's headline three-generations prediction**: the same complexification Nguyen flags as needed for shiab to be defined is what GU also needs to obtain an odd literal generation index from a quaternionic algebra. We confirm Nguyen's §3.1 and push it from the operator definition to the phenomenological prediction. We do not claim GU is disproven, and we do not claim a refutation of Nguyen.
+Our result reaches the *same object* by an independent route. Nguyen finds the hidden scalar extension via the shiab domain/codomain isomorphism; we find it via the generation index, in the form of the essential scalar-i that any odd-parity carrier must import to leave M(64, ℍ). The two coincide: the non-quaternionic import our parity bound forces sits at exactly Nguyen's complexification point. Where we differ from Nguyen is interpretation, not data. Under the closed reading his §3.1 names a defect, and our index route confirms and sharpens it by making the scalar-i import load-bearing for GU's headline three-generations prediction. Under the open reading the very same complexification point is the source coupling, and our route *locates that coupling* rather than scoring it as a failure. The facts are shared; the verdict (defect versus interface) is interpretation-dependent and is not settled here. We do not claim GU is disproven, and we do not claim GU is vindicated.
 
 ### Reproducibility
 
@@ -546,6 +559,7 @@ The result is reproducible on the explicit Cl(9,5) = M(64, ℍ) representation. 
 To restate the boundaries a referee should hold us to:
 
 - **Reconstruction-grade.** The (9,5) signature and Cl(9,5) ≅ M(64, ℍ) are a reconstruction from transcript plus 2021 draft, not canonical GU. This is the main referee risk.
-- **Under-determined, not impossible.** 3 is reachable by some a-priori carrier; the rep does not force the rank. The no-go is against GU-native *forcing* of an odd literal index, not against the existence of three generations.
-- **Confirms, does not refute.** This strengthens Nguyen §3.1 by independent derivation and extends it to the generation count; it is not a refutation of Nguyen.
-- **No source action.** The result is an operator-algebra and index obstruction. GU's source action was not constructed, and no claim of a complete or correct physical theory is made.
+- **Verdict is interpretation-dependent.** The facts do not decide between the defect reading and the interface reading. Only building GU's external source action would decide it. We commit to neither verdict.
+- **Under-determined, not impossible, not derived.** 3 is reachable by some a-priori carrier; the rep does not force the rank. The bound is against GU-native *internal forcing* of an odd literal index, not against the existence of three generations and not a derivation of three.
+- **Neither refutes Nguyen nor rescues GU.** This shares Nguyen's §3.1 object by independent derivation and reinterprets its role; it is not a refutation of Nguyen and not a vindication of GU.
+- **No source action built.** The result is an operator-algebra and index specification of an interface. GU's external source action / membrane was not constructed. No claim is made that such a source exists, that 3 is explained, or that GU is a complete or correct physical theory.
