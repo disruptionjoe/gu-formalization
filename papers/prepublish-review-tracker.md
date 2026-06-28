@@ -20,9 +20,30 @@ load-bearing logical gap); SELF = our own honest-scope admissions.
 
 ---
 
+## TOP-LINE FINDING (2026-06-28): the H1 kill LANDED -- the paper's sharp thesis is refuted
+
+Running the reviewer's decisive kill (H1) **broke the central claim.** Verified, machine-checked:
+the gamma-traceless RS module `ker(Gamma)` decomposes under the self-dual `SU(2)+` (the rank-3
+`Lambda^2_+` of any 4-manifold, GU-forced geometry) as **640 singlets + 416 doublets + 64 TRIPLETS**;
+the 64 triplets carry the PURE `Spin(10)` generation spinor (Casimir `-11.25 = 16/16bar` exactly).
+So there IS a GU-native branching multiplicity equal to **3** -- the generation sits in an `SU(2)+`
+triplet the gamma-trace cannot remove. **"count = 3 iff import the prime 3" and "3 divides no GU-native
+branching multiplicity" are FALSE.** (C1 fully vindicated: the 2^7*13 total-dimension fact never
+protected the multiplicity.)
+
+But the triplet is **vectorlike in Euclidean (14,0)**: it splits 96/96 by `Spin(14)` chirality (net
+chiral asymmetry 0 = 3 generations + 3 mirrors), so this is NOT yet "GU predicts 3 chiral generations."
+The mirror-breaking datum is exactly the **Lorentzian self-dual complexification** (`*^2 = -1`,
+`Lambda^2_+` complex rank 3, `sl(2,C)` Weyl) -- i.e. Nguyen's complexification (H2). **H2 is now THE
+decisive computation:** if the Lorentzian self-dual structure chiralizes the triplet, GU natively forces
+3 chiral generations (a major positive result); if not, GU natively carries a vectorlike 3+3bar.
+Scripts: `h1_selfdual_family.py`, `h1b_verify.py`, `h1c_chiral.py` (to be ported into `tests/`).
+
+---
+
 ## CRITICAL -- correctness / logic (block any publication)
 
-### C1 -- The 1664 non-sequitur (the load-bearing logical gap) [R2; severity CRITICAL; status OPEN]
+### C1 -- The 1664 non-sequitur (the load-bearing logical gap) [R2; severity CRITICAL; status VINDICATED by H1, 2026-06-28]
 `ker(Gamma) = 13*128 = 1664 = 2^7*13` is a statement about a TOTAL MODULE DIMENSION. The theorem needs
 3-freeness of a BRANCHING MULTIPLICITY (how many times the one-generation object appears in the
 gamma-traceless RS module). **Total-dimension-3-freeness does NOT imply multiplicity-3-freeness.**
@@ -57,15 +78,19 @@ full Dirac `(n-1)*128`, or per-chirality `(n-1)*64 = 832 = 2^6*13` (also 3-free)
 
 ## HIGH -- open kill threats (must compute before claiming)
 
-### H1 -- The self-dual / odd-vector family-index KILL (decisive) [R1+R2; severity HIGH; status OPEN]
+### H1 -- The self-dual / odd-vector family-index KILL (decisive) [R1+R2; severity HIGH; status KILLS-PAPER (sharp form), 2026-06-28]
 The matter sector is `V (x) S`; the VECTOR index `V` (the 14) carries the family branching. Under
 `SO(14) ⊃ SO(10) x SU(2)+` (self-dual), the rank-3 `Lambda^2_+(X^4)` / `su(2)+` adjoint is intrinsic 4d
-geometry and rides on an ODD number. **The uncomputed decisive test:** the gamma-traceless branching of
-`V (x) S` under `SO(10) x SU(2)+`, tracking whether a clean factor of 3 (or 6) SURVIVES the `Gamma`
-projection in the generation multiplicity, or reshuffles into 2s and 4s. If a robust forced 3 survives ->
-**KILLS-PAPER (and is a major positive result: GU forces 3).** If it reshuffles away -> the sharp form is
-substantially STRENGTHENED. Note: distinct from our CONSTRUCT-05, which tested the self-dual connection
-INDEX (=0), not the self-dual SU(2)+ as a FAMILY symmetry giving a branching multiplicity. RUN FIRST.
+geometry and rides on an ODD number. **RESULT (verified):** built the self-dual `SU(2)+` generators on
+`V (x) S` (genuine su(2): `[J0,J1] = -2 J2`, residual 0; `[J, Pi_RS] = 0` exactly so they preserve
+`ker(Gamma)`). `ker(Gamma) = 1664` decomposes as `640` singlets `+ 416` doublets `+ 64` TRIPLETS
+(`640*1 + 416*2 + 64*3 = 1664`). The triplet sector (dim 192) carries the PURE `Spin(10)` generation
+spinor: `Spin(10)` Casimir `= -11.25` on all 192 states, matching the reference `16/16bar` spinor value
+exactly. **=> a GU-native branching multiplicity equal to 3 EXISTS; the sharp claim is dead.** Chirality
+check (Euclidean `(14,0)`): the triplet sector is 96/96 by `Spin(14)` chirality, net asymmetry 0 ->
+VECTORLIKE (3 generations + 3 mirrors), so not yet a net-chiral-3 prediction. The chiral question passes
+to **H2**. Distinct from CONSTRUCT-05 (which tested the self-dual *connection index* = 0, not the self-dual
+`SU(2)+` as a *family symmetry*). DONE; conclusion feeds H2.
 
 ### H2 -- The Lorentzian-complexification tension (sharpest internal tension) [R2(d); severity HIGH; status OPEN]
 In a Lorentzian 4-base, `*^2 = -1` on 2-forms, so `Lambda^2_+` is naturally COMPLEX rank 3 (the `sl(2,C)`
@@ -138,19 +163,24 @@ a 3; `24/8 = 3` is target-fitting. Reviewers praised this as the most credible p
 
 ---
 
-## Work plan (priority order)
+## Work plan (priority order) -- REVISED after H1 landed
 
-1. **H1 -- run the kill** (`V (x) S` under `SO(10) x SU(2)+`, does a forced 3 survive `Gamma`?). Decides
-   whether the paper survives. Do first.
-2. **H2 -- resolve the Lorentzian-complexification tension** (is `Lambda^2_+` rank-3 GU-forced?). Coupled to H1;
-   bears directly on the firewall verdict and the Nguyen tie-in.
-3. **C1-C5 -- correctness fixes** (separate proven/searched; "3-free" wording; narrow the smoothness claim;
-   pin real/complex; fix `M(64,H)`). Apply regardless of H1/H2 outcome.
-4. **H3 -- enumerate nilpotent orbits** to close leg 3 (finite, cheap, rigorous).
-5. **M1-M3 -- reframe** as a relative multiplicity-functor theorem + the spinor 2-smoothness lemma + the
-   families-index theorem statement (or label conjectural).
-6. **F1-F5 -- framing**; then decide GU-note vs extracted math.RT note.
+1. ~~**H1 -- run the kill.**~~ DONE 2026-06-28: KILLS the sharp form. GU-native multiplicity-3 exists
+   (self-dual `SU(2)+` triplet of the generation), vectorlike in Euclidean. Sharp thesis is dead.
+2. **H2 -- THE decisive computation now.** Does the Lorentzian self-dual structure (`*^2 = -1`,
+   `Lambda^2_+` complex rank 3, `sl(2,C)` Weyl = Nguyen's complexification) CHIRALIZE the triplet
+   (net chiral count -> 3) or leave it vectorlike? Net-chiral-3 => GU natively forces 3 chiral generations
+   (major positive). Vectorlike => GU carries a mirror-paired 3, count still not chirally fixed. This now
+   decides the whole verdict. RUN NEXT.
+3. **H3 -- nilpotent-orbit enumeration** (close leg 3 / map all odd-multiplicity family embeddings, now
+   that one (self-dual `SU(2)+`) is known to give 3). Confirms whether `SU(2)+` is the unique odd-route.
+4. **Rewrite the paper around the NEW result.** The thesis inverts: from "the 3 must be imported" to
+   "GU's self-dual geometry natively carries a 3-fold generation family; whether it is chiral is set by the
+   Lorentzian complexification (Nguyen's step)." Fold in C1-C5 correctness fixes + M1-M3 reframes during
+   the rewrite. Do NOT rewrite before H2 -- the headline depends on H2's chiral/vectorlike outcome.
+5. **C1-C5 / M1-M3 / F1-F5** -- apply during the rewrite (C1 already vindicated; the rest still stand as
+   precision/framing fixes).
 
-Outcome rule: if H1 lands a forced 3, this becomes a positive result (GU forces 3) and the firewall weak
-form is itself refuted -- record loudly. If H1 reshuffles away, the sharp form strengthens and we proceed
-to the reframe-and-prove track.
+Outcome rule (updated): H1 landed the kill. The remaining fork is entirely H2: chiral 3 (GU predicts three
+generations, modulo the complexification) vs vectorlike 3 (native multiplicity present but not chiral).
+Either way the OLD sharp "import the prime 3" framing is retired.
