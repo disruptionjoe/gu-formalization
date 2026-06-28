@@ -187,3 +187,134 @@ Neither repo contains a direct, line-by-line formal reconstruction of GU. They c
 | Supersymmetry higher-spin | `canon/no-go-class-relative-map.md` (class-relative framing) | No specific higher-spin escape program |
 | 4D reduction | `explorations/time-as-finality-crosswalk/claim-crosswalk.md` | Crosswalk does not derive 4D reduction; identifies tools only |
 | Spinor placement | `time-as-finality` projection-obstruction | Not applied to chimeric bundle C spinor question |
+
+
+---
+
+> Note: the referenced files `canon/no-go-quaternionic-parity-generation-sector.md` and `tests/generation-sector/` were committed on branch `codex/gu-frontier-runs-2026-06-24` (the generation-sector migration) and resolve on merge to main.
+
+## Update (2026-06-27): independent computational confirmation of §3.1 at the generation-count level
+
+**Status of this update:** Reconstruction-grade. Every result below reproduces on this repo's verified
+`Cl(9,5) = M(64,H)` representation of the GU operator algebra via `tests/generation-sector/step1..step11`
+(anchors: bare `||[Pi_RS, M_D]|| = 58.7215`, `C2 = 155.3625`). The full statement and mechanism are in
+`canon/no-go-quaternionic-parity-generation-sector.md`.
+
+**Main referee risk, stated up front.** The headline depends on a *reconstruction* of GU's operator
+algebra as `Cl(9,5) = M(64,H)`. That signature and representation are inferred from a transcript plus the
+April 1st 2021 draft; they are not established as canonical to GU. A referee may reasonably contest
+whether this is GU's algebra at all. None of the claims below survive a successful challenge to that
+identification. The source action itself was *not* built; this is an audit of GU's structure, not a
+construction of its missing object.
+
+**Bottom line for this assessment.** This update does two things and only two things. First, it
+*strengthens the §3.1 row* by supplying an independent computational confirmation of Nguyen's
+complexification / hidden-scalar-extension defect, derived through the generation index rather than
+through the shiab isomorphism he analyzed. Second, it *adds a finding beyond Nguyen's section-by-section
+critique*: a generation-count no-go plus an under-determination result, neither of which Nguyen computed.
+**Column C ("Nguyen provably wrong") remains empty.** We confirm and extend Nguyen; we do not refute him,
+and nothing here rescues GU.
+
+---
+
+### 1. Strengthening the §3.1 row: the same defect, reached from a different direction
+
+Nguyen's §3.1 hit is that GU's shiab construction has no natural real-linear identification
+`u(128) ≅ Λ•T*U`; it only goes through after an unstated complexification, a hidden scalar-extension
+step. The original table calls this his strongest hit and records Column C as "None found." Both stand.
+
+Our generation-sector audit lands on the *same defect from an independent direction*. Working entirely
+inside the reconstructed `Cl(9,5) = M(64,H)` algebra, the audit shows (closed-form, not sampling) that
+every operator GU can build from its own a-priori material is quaternionic-linear:
+
+- the Clifford generators (including the timelike `i*G_a`), the spin generators `sigma_ab`, the
+  vector-index generators `M_ij`, the constraint projector `Pi_RS` and complement `Q`, the twisted Dirac
+  symbol `M_D`, **and** the entire BV / BRST / gauge-fixing / ghost apparatus all lie in the commutant of
+  the quaternionic structure `J_quat`;
+- primitives are H-linear to ~1e-11, algebra closure to ~1e-10, and the BV/ghost apparatus to ~2e-10
+  (adversarial control), so the closure is not a sampling artifact (`step11`, plus the BV-sector control).
+
+The consequence relevant to Nguyen: to leave this algebra you must introduce an essential scalar-`i` /
+non-quaternionic object, and that object is itself `J`-antilinear (it is *foreign* to the Clifford
+algebra; defect ~85 in `step10`/`step11`). **That foreign scalar-extension is, structurally, the same
+hidden complexification Nguyen identifies in §3.1.** Nguyen exhibits it as a gap in the shiab vector-space
+isomorphism; we exhibit it as a load-bearing requirement of the *generation index*. Two independent routes
+to one defect is stronger evidence for the defect, and it pushes the defect downstream to GU's headline
+three-generations prediction, which Nguyen's §3.1 did not address.
+
+This does not move §3.1 toward Column C. It deepens Column A and tightens Column B: the "richer typed /
+descent-based reconstruction" escape in Column B would now have to supply precisely this non-quaternionic
+object *without* importing it by hand, which is exactly the move the audit flags as forbidden.
+
+**Revised §3.1 reading (replaces nothing; appends):**
+
+| §3.1 column | Original | After this update |
+|---|---|---|
+| A: Nguyen correct | Strongest hit; hidden scalar-extension is a real defect. | Reinforced. Independently reproduced via the generation index on `Cl(9,5)=M(64,H)`; the hidden scalar-extension is now shown load-bearing for GU's 3-generation claim, not only for the shiab iso. |
+| B: Nguyen missing something | Needs richer typed transport / descent reconstruction. | Narrowed. Any such reconstruction must now also produce a non-quaternionic carrier without importing the rank/scalar by hand. |
+| C: Nguyen provably wrong | None found. | Still none found. |
+
+---
+
+### 2. A finding beyond Nguyen's critique: generation-count no-go plus under-determination
+
+Nguyen's PDF critiques GU section by section but does not compute GU's generation count or test whether
+GU's own representation can produce an odd number of generations. This is genuinely new territory relative
+to his critique, so it is recorded here as an *extension*, not as a row in his table.
+
+**The no-go (literal-index reading).** By Kramers' theorem, a Hermitian operator commuting with an
+antiunitary `J` with `J^2 = -1` has even-dimensional eigenspaces. Since every GU-native carrier commutes
+with `J_quat` (Section 1 above), every GU-native Hermitian carrier has **even signature**. Reading the
+generation count as the index of such a carrier:
+
+> GU's own building blocks force an EVEN generation index. An odd count such as 3 cannot arise from
+> GU-native material; reaching an odd index requires a non-quaternionic (non-Clifford) object foreign to
+> GU's algebra.
+
+(`tests/generation-sector/step11_gu_native_parity_theorem.py`; canon §"The headline result (C-07)".)
+
+**The honest qualifier (under-determination).** This is *not* a proof that three generations are
+impossible, and it must not be read that way. A generic, non-GU-native rank-`r` carrier on the constraint
+surface has signature exactly `r`, so odd counts including 3 *are* reachable by *some* a-priori carrier
+(`step10`). What the representation does not do is *force* the rank. Under the alternative half-index
+reading (`count = index/2`), a GU-native carrier of rank `r` gives `count = r`, again reachable at 3 but
+with the rank still free. The precise standing:
+
+> GU neither forces nor forbids three generations. It UNDER-DETERMINES the count. Choosing the
+> rank/index is the forbidden import.
+
+(canon §"The honest qualifier (C-06)".)
+
+**Supporting results** (`tests/generation-sector/step1..step9`, canon §C-01..C-05), each adversarially
+checked, several first-draft overclaims corrected during the campaign:
+
+- **C-01:** the BV-to-boundary-Dirac map is built (`M_KT = N * D_Sigma^2`); `eta(D_Sigma) = 0` is forced
+  by an anticommuting chiral grading, so `C2` is provably not an APS index, with mechanism.
+- **C-04:** the prime 3 is absent from the rep's native dimension spectrum `{2, 7, 13}`; degree-0 Dirac
+  invariants are non-integer surds. Caveat: the metric signature `9 - 5 = 4` is a declared structural
+  input, not a derived invariant.
+- **C-05:** every metric `so(9,5)` (gauge/spin) connection, including the self-dual one carrying
+  `Lambda^2_+`, gives generation index zero; the families index over `RP^3` is 2-torsion (3-free).
+
+**Why this is an extension and not a refutation of Nguyen.** Nguyen never claimed GU forbids three
+generations, so nothing here contradicts him. The finding is consistent with, and downstream of, his
+§3.1: the very object that would be needed to reach an odd count is the non-quaternionic scalar-extension
+he flagged. We are adding a computation he did not run, in the direction his critique already pointed.
+
+---
+
+### 3. Net effect on the assessment
+
+- Column C remains "None found" across every Nguyen section. This update does not overturn any Nguyen
+  claim.
+- §3.1 (Column A) is strengthened by an independent computational confirmation and a downstream
+  consequence (the generation count) that Nguyen's section did not reach.
+- A new, Nguyen-external finding is on record: a reconstruction-grade quaternionic-parity no-go for an odd
+  generation index, together with the honest under-determination qualifier that keeps "3" *unforced
+  rather than impossible*.
+- The open frontier is unchanged and named: a canonical external membrane (the still-unbuilt `S_IG`) that
+  would either pin the free rank or supply the non-quaternionic structure *without import*. The honest
+  prior is against its existence; it remains the only genuine construction task, and it has not been done.
+
+**Citations:** `tests/generation-sector/` (`step1..step11`, `gen_sector_bridge.py`);
+`canon/no-go-quaternionic-parity-generation-sector.md`.
