@@ -45,6 +45,15 @@ Distler-Garibaldi evasion (a new positivity axis on the six-axis protocol). Full
 six-axis connection: `canon/ghost-parity-krein-synthesis.md`; test: `tests/generation-sector/
 ghost_parity_krein.py`.
 
+**T1a -- kinematic chiralization KILL confirmed (2026-06-28).** The Krein form on the triplet is purely
+CROSS-chirality (same-chirality blocks `||K(+,+)|| = ||K(-,-)|| ~ 1e-14`), so every maximal positive-norm
+(physical) subspace is exactly 50/50 chirality and its net chirality is `0` (~1e-15), in both `(9,5)` and
+`(7,7)`. No ghost parity chiralizes the triplet by KINEMATICS alone -- ghost parity is necessary
+(physical-sector selection) but not sufficient (chiral selection). The chirality requires a
+symmetry-breaking dynamics or a base-manifold Dirac index. The six-axis candidate's own predicted kill,
+machine-confirmed; the central claim's honest boundary is pinned to exactly one open condition. Test:
+`tests/generation-sector/t1a_kinematic_chirality_kill.py`.
+
 **Ghost-parity / Kramers chiralization hypothesis -- TESTED and REFUTED (2026-06-28).** Conjecture: the
 quaternionic Kramers parity (`J^2 = -1`, the Z2 we earlier dismissed as a "(9,5) artifact") is a
 ghost-parity that controls whether the self-dual triplet is vectorlike (quaternionic class) or chiral
