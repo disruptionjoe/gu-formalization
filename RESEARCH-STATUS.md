@@ -11,10 +11,9 @@ canon_sweep_at: "2026-06-23"
 The internal work-artifact system was the originating workspace for this project. The
 public repository is now the durable research authority.
 
-The primary research posture is now GU reconstruction under a bold working hypothesis:
-Geometric Unity is substantially correct, and the repository's task is to determine
-whether that hypothesis can be rigorously reconstructed, extended, or falsified. See
-`RESEARCH-POSTURE.md`.
+The primary research posture is truth-seeking: Geometric Unity is the bold, contested conjecture used as a
+generative test case to spawn falsifiable hypotheses, and the task is to find the true structure (often
+GU-independent) that survives driving them to resolution, not to adjudicate GU. See `RESEARCH-POSTURE.md`.
 
 **Primary research question (2026-06-28): the Firewall-Boundary Hypothesis.** The primary
 falsification target is now whether every successful reconstruction converges on a firewall-like

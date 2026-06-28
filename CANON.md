@@ -11,14 +11,14 @@ Canon means: safe to cite as the current public spine of the project. It does no
 
 ## Canonical Posture
 
-This repository is a Geometric Unity reconstruction program. Its working hypothesis is
-that GU is substantially correct, and its objective is to determine whether that
-hypothesis can be rigorously reconstructed, extended, or falsified through systematic
-mathematical research.
+This repository optimizes for finding the truth, using Geometric Unity as a generative test case: a bold,
+high-information, contested conjecture rich enough to spawn precise falsifiable hypotheses that we drive to
+resolution. The objective is the true structure that survives the drive (often GU-independent) and a
+reliable method for finding it, not a verdict on GU.
 
-This is not a proof of Geometric Unity. It is not a claim that Eric Weinstein's existing
-presentation is complete, and it is not a claim that every current reconstruction is
-correct.
+This is not a proof of Geometric Unity, not a claim that Eric Weinstein's presentation is complete, and not
+an attempt to prove GU true or false, vindicate or refute Weinstein, or make the program look right. Any
+verdict on GU is a byproduct, and every such byproduct is a scientific success.
 
 **Primary research question (2026-06-28): the Firewall-Boundary Hypothesis.** The repository's
 primary falsification target is now whether every successful reconstruction converges on a
@@ -30,9 +30,10 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 
 ## Canonical Claims
 
-1. **GU reconstruction is the primary mission.** Assume GU is substantially correct as a
-   working hypothesis and try to reconstruct the missing mathematics, derivations,
-   physical reductions, categorical language, and analytic machinery.
+1. **Truth is the mission; GU is the generative engine.** Take GU as the bold conjecture that
+   generates falsifiable hypotheses, drive each to a verdict, and keep what survives. Reconstructing the
+   missing mathematics, derivations, reductions, categorical language, and analytic machinery is how the
+   engine runs, not the goal.
 2. **Constructive obstruction discipline.** When a branch blocks, ask what object,
    stronger structure, richer category, or invariant would remove the obstruction before
    deciding whether the obstruction is intrinsic.
@@ -43,9 +44,10 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
    map, or equivalent proof object before making physics claims.
 5. **Finite control first.** Type II1 or non-embeddable spectral Standard Model ideas must
    preserve the finite Connes-Chamseddine control case before they can claim relevance.
-6. **Independent mathematics is Mission B.** Tools such as signed-readout, six-axis
-   specification, no-go class-relativity, and reconstruction methodology are valuable
-   secondary outputs, but they do not replace the GU reconstruction mission.
+6. **GU-independent results are co-equal products.** The surviving structure is often GU-independent
+   (signed-readout, six-axis specification, no-go class-relativity, the generation-multiplicity rep
+   theory, reconstruction methodology). It is elevated, not secondary: the scaffold is allowed to fall
+   away once it has pointed at something real.
 7. **Falsification remains success.** Clean falsification, narrowing, or demotion of a
    path is a successful contribution.
 

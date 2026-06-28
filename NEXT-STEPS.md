@@ -120,7 +120,7 @@ live in `roadmap/objection-triage-register.md`. Each row below is OPEN and loop-
 | 2 | Build or improve the no-go assumption/evasion matrix. | A precise assumption/exits table tied to a GU reconstruction branch. | mathematicians, physicists, careful generalists |
 | 3 | Fill one six-axis candidate specification. | One complete substrate/observer/pairing/causal/emergence/loop spec. | anyone proposing a path |
 | 4 | Strengthen the finite Connes control checklist. | A clearer Type II1 extension requirement and selector/failure condition. | NCG/operator-algebra contributors |
-| 5 | Work on the signed-readout theorem core. | Definitions, theorem statement, proof, or counterexample as Mission B output or GU contact. | TCS, math, lattice-QFT readers |
+| 5 | Work on the signed-readout theorem core. | Definitions, theorem statement, proof, or counterexample as a GU-independent result or GU contact. | TCS, math, lattice-QFT readers |
 | 6 | Claim-mine a transcript-rich GU media source. | Timestamped rows in the source ledger, prioritized by reconstruction relevance. | source researchers, science communicators |
 
 ## Highest-Upside Paths

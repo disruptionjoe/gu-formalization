@@ -35,9 +35,10 @@ The math content is technical. The methodology — Hegelian dialectical synthesi
 The core open question is: **can Geometric Unity be rigorously reconstructed, extended, or
 falsified through systematic mathematics?**
 
-The repository's working hypothesis is that GU is substantially correct. Contributions
-should help decide that hypothesis by constructing, testing, or killing specific
-mathematical pieces of the program.
+The repository uses GU as a generative test case: a bold, contested conjecture that spawns falsifiable
+hypotheses. Contributions should help find the truth by constructing, testing, or killing specific
+mathematical pieces and keeping whatever survives (often GU-independent), not by advocating for or against
+GU.
 
 High-priority contribution types include:
 
@@ -61,9 +62,9 @@ The repository identifies four mathematically-adjacent substrate-class candidate
 3. Wolfram multiway hypergraph rewriting in a specified rulial reference frame
 4. Higher categorical substrates valued in motivic, topological modular forms, or prismatic cohomology
 
-Concrete construction attempts in any of these directions are welcome when they clarify
-the GU reconstruction hypothesis. If they become valuable independent mathematics rather
-than GU reconstruction, label them as Mission B outputs.
+Concrete construction attempts in any of these directions are welcome when they clarify a live hypothesis.
+Results that are valuable independent of GU are co-equal products, not secondary; label them GU-independent
+so a reader can take them without buying GU.
 
 ### Refutations and counterexamples
 

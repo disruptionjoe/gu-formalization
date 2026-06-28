@@ -7,17 +7,16 @@ updated_at: "2026-06-24"
 
 # Geometric Unity Formalization Program
 
-This repository is a Geometric Unity reconstruction program, not a proof of Geometric
-Unity.
+This repository optimizes for finding the truth, using Geometric Unity as a generative test case, not as
+a thesis to defend. GU is a bold, high-information, contested conjecture: the kind of aggressive claim
+that, when it pays off, moves science in leaps rather than increments. That makes it an excellent engine
+for spawning precise falsifiable hypotheses, which we drive to resolution, keeping only what survives.
 
-The working hypothesis is that Geometric Unity is substantially correct, and the objective
-is to determine whether that hypothesis can be rigorously reconstructed, extended, or
-falsified through systematic mathematical research.
-
-That posture is constructive, not advocative. The repository should generate the missing
-mathematics a successful GU reconstruction would need, while preserving explicit
-assumptions, rollback conditions, correction logs, no-go assumption audits, and proof-grade
-labels.
+The product is true structure (often GU-independent) reported at honest grade, plus a reliable
+truth-seeking method. It is not a proof of Geometric Unity, and not an attempt to prove GU true or false,
+to vindicate or refute Eric Weinstein, or to make the program look right. The posture is constructive and
+verdict-agnostic, while preserving explicit assumptions, rollback conditions, correction logs, no-go
+assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 
 ## Start Here
 
@@ -45,18 +44,17 @@ labels.
 
 The strongest current public posture is:
 
-1. Treat GU reconstruction as Mission A: assume the hypothesis is worth pursuing and try
-   to reconstruct the missing mathematics, derivations, reductions, categorical language,
-   and analytic machinery.
-2. Treat no-go theorems as class-relative until their exact assumptions cover the GU
-   branch being tested.
-3. Require every proposed path to carry explicit assumptions, proof/reconstruction labels,
-   failure conditions, and source-to-shadow provenance.
-4. Treat independent tools such as signed-readout, no-go class-relativity, and six-axis
-   specification as Mission B outputs: valuable, publishable, but secondary to deciding
-   whether GU succeeds.
-5. Optimize research priority for information gain about the central GU hypothesis, not
-   merely for local elegance or conservative appearance.
+1. Use GU as the generative engine: take the bold conjecture seriously enough to spawn precise
+   falsifiable hypotheses, drive each to a verdict, and reconstruct the missing mathematics where that
+   advances a hypothesis.
+2. Treat no-go theorems as class-relative until their exact assumptions cover the branch being tested.
+3. Require every proposed path to carry explicit assumptions, proof/reconstruction labels, failure
+   conditions, and source-to-shadow provenance.
+4. Treat the GU-independent results (signed-readout, no-go class-relativity, six-axis specification, the
+   generation-multiplicity rep theory) as co-equal products: often the strongest, because they do not
+   require anyone to buy GU.
+5. Optimize research priority for information gain about what is true, not for any verdict on GU and not
+   for local elegance or conservative appearance.
 
 ## Contributing
 
