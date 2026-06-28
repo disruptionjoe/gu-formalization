@@ -16,6 +16,11 @@ Geometric Unity is substantially correct, and the repository's task is to determ
 whether that hypothesis can be rigorously reconstructed, extended, or falsified. See
 `RESEARCH-POSTURE.md`.
 
+**Primary research question (2026-06-28): the Firewall-Boundary Hypothesis.** The primary
+falsification target is now whether every successful reconstruction converges on a firewall-like
+BOUNDARY object rather than a closed internal completion (superseding the prior closed-system
+default). Attack it, do not defend it. See `canon/firewall-boundary-hypothesis.md`.
+
 ## Status Labels
 
 Every Markdown research document carries YAML frontmatter with one of these statuses:

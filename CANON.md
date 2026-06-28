@@ -20,6 +20,12 @@ This is not a proof of Geometric Unity. It is not a claim that Eric Weinstein's 
 presentation is complete, and it is not a claim that every current reconstruction is
 correct.
 
+**Primary research question (2026-06-28): the Firewall-Boundary Hypothesis.** The repository's
+primary falsification target is now whether every successful reconstruction converges on a
+firewall-like BOUNDARY object rather than a closed internal completion. This supersedes the prior
+default that the endpoint must be a closed system. Attack it, do not defend it.
+See `canon/firewall-boundary-hypothesis.md`.
+
 See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 
 ## Canonical Claims

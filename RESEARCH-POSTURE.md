@@ -21,6 +21,15 @@ This is a research hypothesis, not a proof claim. It does not say that GU has al
 proved, that Eric Weinstein's existing presentation is complete, or that every current
 reconstruction in this repository is correct.
 
+## Primary research question (2026-06-28): the Firewall-Boundary Hypothesis
+
+The repository's PRIMARY falsification target is now whether every successful reconstruction
+converges on a firewall-like BOUNDARY object (a constrained boundary condition / adapter at which
+the geometry terminates) rather than on a CLOSED internal completion. This supersedes the prior
+default that the correct endpoint of the reconstruction must be a closed mathematical system; that
+default is now itself on trial. The hypothesis is to be ATTACKED, not defended. Full statement,
+explicit falsification criteria, and current evidence status: `canon/firewall-boundary-hypothesis.md`.
+
 ## Optimization Target
 
 The repository optimizes for discovering whether the GU hypothesis is true.

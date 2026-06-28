@@ -7,6 +7,14 @@ updated_at: "2026-06-26"
 
 # Next Steps For Contributors
 
+> **2026-06-28 PRIMARY RESEARCH QUESTION: the Firewall-Boundary Hypothesis.** The repository's
+> primary falsification target is now whether every successful reconstruction converges on a
+> firewall-like BOUNDARY object rather than a closed internal completion (superseding the prior
+> closed-system default). The highest-priority next work is to ATTACK it via the explicit
+> falsification criteria in `canon/firewall-boundary-hypothesis.md` (most live: build a closed
+> internal source action in `../gu-source-action`, and re-run the generation-sector audit under a
+> different reconstruction of the rep). Attack it, do not defend it.
+
 > **2026-06-25 global status guard.** Older long rows below retain historical derivation
 > context. Current source of truth: generation count / `ind_H(D_GU)=24` is OPEN; Shiab is
 > RESOLVED for algebraic existence only; full GU anomaly cancellation is OPEN; VZ is 14D
