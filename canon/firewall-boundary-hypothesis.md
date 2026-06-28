@@ -47,7 +47,7 @@ traditionally be the "closed-system" boundary. The new hypothesis reinterprets t
 In the language of the generation-sector audit (`canon/no-go-quaternionic-parity-generation-sector.md`),
 the "external object" that the under-determination and the quaternionic-parity constraint both point to is
 exactly a candidate for this boundary adapter. The interface-specification framing of the papers
-(`papers/generation-sector-no-go-note-2026-06-27.md`) is the same idea stated for one sector.
+(`draft-papers/generation-sector-no-go-note-2026-06-27.md`) is the same idea stated for one sector.
 
 ## What is and is NOT being claimed
 

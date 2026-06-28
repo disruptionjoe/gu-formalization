@@ -26,7 +26,7 @@ labels.
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
 - **High-level overview:** `OVERVIEW.md`
-- **Six-axis testability white paper:** `papers/six-axis-testability-white-paper.md`
+- **Six-axis testability white paper:** `draft-papers/six-axis-testability-white-paper.md`
 
 ## Repository Layers
 
@@ -39,7 +39,7 @@ labels.
 - `literature/` contains the literature review briefs.
 - `sources/` contains media/source provenance and claim-mining surfaces.
 - `specifications/` contains reusable templates and candidate specifications.
-- `papers/` contains draft exposition and paper surfaces.
+- `draft-papers/` contains draft exposition and paper surfaces.
 
 ## Current Center Of Gravity
 

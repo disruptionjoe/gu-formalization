@@ -316,4 +316,4 @@ The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclas
 | DD1 distortion nomenclature | **PARTIALLY_NAMED** | IG-equivariance is genuinely novel vs. Hehl/Agricola-Friedrich/Sharpe |
 | PC2 bundle formalization | **STUB COMPLETE** | w_2 Gysin computation and branching rules s*(S) still open |
 
-`DERIVATION-PROGRESS.md` updated with Phase 1 Results and Phase 2 Status sections. `NEXT-STEPS.md` updated with N1/N2 marked resolved, three new tasks N4/N5/N6 added. Paper v3 filed at `papers/what-geometric-unity-needs-to-do-next-v3.md`.
+`DERIVATION-PROGRESS.md` updated with Phase 1 Results and Phase 2 Status sections. `NEXT-STEPS.md` updated with N1/N2 marked resolved, three new tasks N4/N5/N6 added. Paper v3 filed at `draft-papers/what-geometric-unity-needs-to-do-next-v3.md`.

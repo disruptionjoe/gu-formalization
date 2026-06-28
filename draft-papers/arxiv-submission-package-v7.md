@@ -4,7 +4,7 @@ title: "arXiv Submission Package — v7"
 date: 2026-06-23
 status: ready_for_review
 version: v7
-source_paper: papers/what-geometric-unity-needs-to-do-next-v7.md
+source_paper: draft-papers/what-geometric-unity-needs-to-do-next-v7.md
 do_not_submit: true
 ---
 
@@ -251,5 +251,5 @@ enriched bordism categories.
 
 ---
 
-*Package prepared 2026-06-23. Source paper: papers/what-geometric-unity-needs-to-do-next-v7.md.
+*Package prepared 2026-06-23. Source paper: draft-papers/what-geometric-unity-needs-to-do-next-v7.md.
 Do not submit — Joe Hernandez reviews and submits himself.*

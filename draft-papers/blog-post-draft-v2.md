@@ -69,7 +69,7 @@ Either way, the 40-year question gets a definite answer.
 
 ## The invitation
 
-This work is being open-sourced. The repository includes the full record of the analysis: 35 persona passes representing 15 distinct disciplinary lenses (grouped in `process/persona-passes/` by lens family), 5 meta-syntheses tracking the dialectical structure plus 2 supplementary syntheses (in `syntheses/`), 4 deep-research briefs surveying existing literature (in `literature/`), and the formal paper this blog post summarizes (in `papers/`).
+This work is being open-sourced. The repository includes the full record of the analysis: 35 persona passes representing 15 distinct disciplinary lenses (grouped in `process/persona-passes/` by lens family), 5 meta-syntheses tracking the dialectical structure plus 2 supplementary syntheses (in `syntheses/`), 4 deep-research briefs surveying existing literature (in `literature/`), and the formal paper this blog post summarizes (in `draft-papers/`).
 
 What kinds of contribution are welcome:
 

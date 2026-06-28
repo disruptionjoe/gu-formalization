@@ -2,7 +2,7 @@
 title: "Prepublish Review Tracker -- Multiplicity Theorem note"
 status: active
 doc_type: review_tracker
-target_paper: papers/multiplicity-theorem-note-2026-06-28.md
+target_paper: draft-papers/multiplicity-theorem-note-2026-06-28.md
 created: 2026-06-28
 ---
 
