@@ -217,10 +217,16 @@ a 3; `24/8 = 3` is target-fitting. Reviewers praised this as the most credible p
    decides the whole verdict. RUN NEXT.
 3. **H3 -- nilpotent-orbit enumeration** (close leg 3 / map all odd-multiplicity family embeddings, now
    that one (self-dual `SU(2)+`) is known to give 3). Confirms whether `SU(2)+` is the unique odd-route.
-4. **Rewrite the paper around the NEW result.** The thesis inverts: from "the 3 must be imported" to
-   "GU's self-dual geometry natively carries a 3-fold generation family; whether it is chiral is set by the
-   Lorentzian complexification (Nguyen's step)." Fold in C1-C5 correctness fixes + M1-M3 reframes during
-   the rewrite. Do NOT rewrite before H2 -- the headline depends on H2's chiral/vectorlike outcome.
+4. **Rewrite = a clean-room FULL re-draft, NOT an edit (Joe, 2026-06-28).** Draft the paper anew from the
+   verified canon kernel only (H1, T1a, H3, M3, the Krein/ghost-parity synthesis, H2-pending), so no
+   residue of the old note's assumptions (the retired 1664-implies-multiplicity logic, the "import the
+   prime 3" framing) leaks through. Both `multiplicity-theorem-note-2026-06-28.md` and
+   `generation-sector-no-go-note-2026-06-27.md` get marked SUPERSEDED (banner), not edited. Run as a
+   draft -> 3-lens adversarial-verify -> synthesize workflow producing the new note from the canon docs.
+   New spine: structure fixed -> native multiplicity-3 (H1) -> vectorlike, kinematically un-chiralizable
+   (T1a) -> the chiral count is one missing ingredient (dynamics or base index, per H2) -> Krein /
+   ghost-parity / Turok + the D-G positivity-axis candidate. Fold C1-C5 + M1-M3 + F1-F5 in by construction.
+   Do NOT start before H2 lands -- the headline depends on H2's outcome.
 5. **C1-C5 / M1-M3 / F1-F5** -- apply during the rewrite (C1 already vindicated; the rest still stand as
    precision/framing fixes).
 
