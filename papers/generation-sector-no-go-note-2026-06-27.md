@@ -1,5 +1,10 @@
 # Specifying Geometric Unity's external source interface: a quaternionic-parity constraint and the under-determined matter count
 
+> **SUPERSEDED (2026-06-28) by `multiplicity-theorem-note-2026-06-28.md`**, which upgrades this note's
+> finding into the (conditionally established) Multiplicity Theorem: GU fixes one generation's structure
+> but not the count, with the obstruction now verified signature-universal (nine signatures, both module
+> classes) and the sharp form "count = 3 iff import the prime 3." Retained for history.
+
 *Reconstruction-grade technical note. Target: gen-ph / math-ph. This note specifies, on an explicit machine-checked reconstruction, where and how an external source must couple to Geometric Unity to fix the matter-family count. The verdict it carries (defect versus interface) is interpretation-dependent: the facts below do not decide it, and only building the source action would. This note neither refutes Timothy Nguyen's critique nor rescues Geometric Unity. No claim is made to a mainstream or top-journal physics result.*
 
 ---
