@@ -90,3 +90,26 @@ that stands on its own, and they reframe the chirality-from-unification problem 
 *a no-go assembled from mod-2 statements is structurally blind to an odd generation count, and the count, if
 it exists, is a 3-primary boundary invariant.* The GU reading (does the boundary class actually carry the
 odd part?) is then a separate, motivating question layered on top.
+
+## Correction (hardening audit, 2026-06-28)
+
+A web-enabled hardening audit (`deep-research/hardening-report-batch-2026-06-28.md`, prompt 3) confirms the
+operative spine -- no hidden odd-prime MODULAR obstruction anywhere -- but corrects two overstatements:
+
+1. **"No odd-prime content, QED" is too strong.** The integer 3 DOES appear, as a MULTIPLICAND, in the
+   dimensions (`96 = 2^5 * 3`, the bundle indices `12k`, `24k`, and `|Weyl(D7)| = 2^10 * 3^2 * 5 * 7`). The
+   true, narrower statement: no obstruction is an odd-prime CONGRUENCE / modular condition; the 3 is a factor
+   of even numbers, never a `mod 3` constraint. Read the lemma as "no odd-prime modular obstruction."
+
+2. **For the two INTEGER-valued items the blindness is an invariant/group MISMATCH, not modular blindness,
+   and is CONTINGENT.** For the exact adjoint index `4k` and the net-chirality `0`, the integer Atiyah-Singer
+   index pins every prime; under a literal integer-index reading, `net = 0` would FORBID `3`. The "blindness
+   to 3" is purchased by relocating the count to the TORSION boundary e-invariant in `pi_3^s = Z/24 = Z/8
+   (+) Z/3` (the 3 entering via von Staudt-Clausen). So the COROLLARY "the no-go cannot see the count 3" is
+   not unconditionally GU-independent -- it holds only under the torsion-count reading, which is the
+   reconstruction-grade tangential premise. The mod-2 LEMMA itself (every obstruction is even / mod-`2^k`) is
+   GU-independent and stands; the corollary's force depends on the torsion-count reading.
+
+Net: the spine survives (the program is genuinely 2-primary, no hidden odd-prime modular obstruction); the
+slogan tightens to "a no-go built from even / mod-2 statements cannot impose an odd-prime congruence, and
+under the torsion-count reading is blind to the order-3 part," with the contingency stated.
