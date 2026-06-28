@@ -124,14 +124,20 @@ VECTORLIKE (3 generations + 3 mirrors), so not yet a net-chiral-3 prediction. Th
 to **H2**. Distinct from CONSTRUCT-05 (which tested the self-dual *connection index* = 0, not the self-dual
 `SU(2)+` as a *family symmetry*). DONE; conclusion feeds H2.
 
-### H2 -- The Lorentzian-complexification tension (sharpest internal tension) [R2(d); severity HIGH; status OPEN]
-In a Lorentzian 4-base, `*^2 = -1` on 2-forms, so `Lambda^2_+` is naturally COMPLEX rank 3 (the `sl(2,C)`
-Weyl structure) -- a rank-3 object that appears PRECISELY upon complexification. We claim "the required
-complexification = Nguyen's prime-3 import." But if that complexification is the self-dual Weyl structure
-of GU's OWN base, the 3 is arguably GU-FORCED, not imported -- which would FLIP "positive reading refuted"
-toward "Nguyen's 3 is native," and shift the firewall verdict. **We cannot claim the complexification-3 is
-both (i) Nguyen's and (ii) an unforced external import if it is intrinsic to a Lorentzian 4-manifold.**
-Resolve explicitly. Coupled to H1.
+### H2 -- The Lorentzian-complexification tension (sharpest internal tension) [R2(d); severity HIGH; status DONE 2026-06-28]
+**RESOLVED** (workflow, 3-lens adversarially verified; it corrected the anchored reasoning). Headline holds:
+the net chiral 3 is NOT GU-internally forced. Split: (multiplicity) the rank-3 self-dual object is honestly
+native, including in Lorentzian `sl(2,C)` signature -- complexification STRENGTHENS H1, not a Euclidean
+artifact. (count) every GU-native base-index route is EVEN: the real `su(2)+` adjoint gives `4k`, the full
+16-dim multiplicity bundle gives `12k`/`12k`/`24k` (self-dual/anti-self-dual/diagonal), robust by a base-side
+quaternionic-Kramers parity argument (J^2=-1 from real adjoint x quaternionic S_+, mirrors our internal C-07)
++ Rokhlin. Complexification cannot turn an even index odd (topology lives in the maximal compact SU(2); an
+index is Euclidean/elliptic; reality type conserved). **Three anchor corrections:** the generation is a (3,2)
+of su(2)+ x su(2)- (NOT "triplet not doublet"); the cheapest odd-3 route is a charge-1 anti-self-dual
+instanton in the pseudoreal su(2)- doublet x native triplet-3, plus sub-sector truncation (NOT k=3); even-ness
+is a property of the real/adjoint channel, scoped away from the pseudoreal doublet. Nguyen's complexification:
+necessary (Z2 reality-breaking to define a chiral split) but INSUFFICIENT (yields even); the import is
+relocated + shrunk to "a unit of flux," never "the prime 3." Full result: `canon/h2-base-index-chirality.md`.
 
 ### H3 -- Non-regular / principal su(2) embeddings (close leg 3) [R1+R2; severity HIGH; status DONE 2026-06-28]
 **CLOSED** for the commutes-with-Spin(10) case. The commutant of Spin(10) in Spin(14) is so(4) = su(2)+ ⊕
