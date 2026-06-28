@@ -9,6 +9,11 @@ tests: "tests/generation-sector/{signature_sweep_fast,signature_77_rerun,step9_s
 
 # The Multiplicity Theorem
 
+> **SUPERSEDED (2026-06-28)** by `draft-papers/generation-multiplicity-vs-chirality-2026-06-28.md` and the
+> corrected results in `canon/h2-base-index-chirality.md`, `canon/leg3-closure-and-spinor-2smoothness.md`,
+> and `canon/ghost-parity-krein-synthesis.md`. Retained for the correction record. The sharp "count = 3 iff
+> import the prime 3" framing and the 1664-implies-multiplicity argument are RETIRED.
+
 This is the round-3 result of the firewall-hypothesis program (`canon/firewall-boundary-hypothesis.md`)
 and the publishable core of the generation-sector campaign. It states precisely what GU's internal data
 does and does not determine about matter.

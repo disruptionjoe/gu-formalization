@@ -1,3 +1,7 @@
+> **SUPERSEDED (2026-06-28)** by `generation-multiplicity-vs-chirality-2026-06-28.md`. Retained for the
+> correction record. The sharp "count = 3 iff import the prime 3" framing and the 1664-implies-multiplicity
+> argument are RETIRED; the corrected multiplicity-vs-chirality result is in the new note.
+
 # What Geometric Unity does and does not fix about matter: a generation-multiplicity no-go
 
 *Reconstruction-grade technical note, verdict-agnostic. Target: gen-ph / math-ph. This note confirms and
