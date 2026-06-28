@@ -17,6 +17,17 @@ external_ref: "Turok & Bateman, quadratic-gravity / Krein-space generalized Born
 
 ---
 
+> **CORRECTION (A0 audit, 2026-06-28).** This candidate's central claim -- that the Krein / positivity move
+> is a "first inside-the-single-group-class" shadow of Distler-Garibaldi -- is RETRACTED. By the Weyl
+> unitarian trick a finite-dimensional representation of a compact group always admits an invariant
+> positive-definite form, so the indefinite Krein form exists ONLY because the internal gauge group is
+> taken NON-COMPACT (SO(5,5), not SO(10)). Dropping Hilbert positivity (Leg 7) is therefore logically the
+> same move as negating DG assumption DG-A3 (compact internal G); Leg 3's claim to "preserve G compact" and
+> Leg 7's "drop positivity" are the same step read twice and cannot both hold. The Krein datum is a
+> SCOPE-EXIT (it joins DG-A1/A2/A6/A7 in `canon/no-go-class-relative-map.md`), not an inside-class
+> enrichment. The kinematics below is unaffected; the typed-candidate and "inside-class" framing is
+> downgraded to: a scope-exit whose favored outcome was already the kill.
+
 ## Lead (the sharp statement, fully hedged)
 
 Distler-Garibaldi proves that no single real form of `E8` carries three chiral generations as a **complex** `G`-representation: any embedding makes the matter representation real, hence vectorlike. Every published escape leaves the single-group class (`E8 x E8`, `SO(3,11)`, `K(E10)`); the no-go-map records this as the stress case and states that "there is no known richer-substrate datum that lives inside single-E8 representation theory and reproduces three SM generations."

@@ -282,7 +282,7 @@ that forgets bundle data, compactification data, or Kac-Moody extension and keep
 
 **[Precision carve-out, 2026-06-23 — distler-garibaldi-precision-carveout]**
 
-**Formal verdict: EVASION BY SCOPE EXIT.** GU violates DG assumptions DG-A1 (gauge group is Sp(64), not E8), DG-A2 (Lorentz group does not embed inside the gauge group), DG-A6 (chirality is ind_H(D_GU) from the Clifford module operator index, not V_{2,1} complexity), and DG-A7 (GU is geometric bundle data on the non-compact Y^{14} = Met(X^4)). GU is not an object of the category DG_E8 that the theorem addresses. The theorem is inapplicable, not contradicted or circumvented within its domain.
+**Formal verdict: EVASION BY SCOPE EXIT.** GU violates DG assumptions DG-A1 (gauge group is Sp(64), not E8), DG-A2 (Lorentz group does not embed inside the gauge group), DG-A6 (chirality is ind_H(D_GU) from the Clifford module operator index, not V_{2,1} complexity), DG-A7 (GU is geometric bundle data on the non-compact Y^{14} = Met(X^4)), and DG-A3 (the indefinite-Krein / drop-Hilbert-positivity route used for the matter sector requires a non-compact internal G -- SO(5,5), not compact SO(10) -- by the Weyl unitarian trick, so it negates the compact-centralizer assumption rather than enriching inside the class; A0 audit 2026-06-28, see canon/swing-ghost-parity-no-chiral-selection.md). GU is not an object of the category DG_E8 that the theorem addresses. The theorem is inapplicable, not contradicted or circumvented within its domain.
 
 The condition GU satisfies instead of DG-A6 is:
 

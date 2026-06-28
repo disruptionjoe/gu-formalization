@@ -21,6 +21,12 @@ self-dual triplet into three physical chiral generations. The swing tests that h
 into two questions that turn out to have different answers (`swing_ghost_parity_chiral_selection.py`, on the
 `(9,5)` triplet sector).
 
+> **CORRECTION (A0 audit, 2026-06-28).** Where this doc or its siblings frame the Krein move as inside the
+> single-group class, that is RETRACTED: by the Weyl unitarian trick the indefinite Krein form exists only
+> because the internal gauge group is non-compact (SO(5,5), not SO(10)), so dropping Hilbert positivity is
+> a SCOPE-EXIT (negating DG-A3), not an inside-class enrichment. The "internal block is non-compact SO(5,5)"
+> note already anticipates this. The no-go and the consistent positive-norm sector are unaffected.
+
 ## Result: the bridge splits
 
 **Positivity (the bridge HOLDS).** The physical (`J = +1`) sector of the Krein form is positive-definite

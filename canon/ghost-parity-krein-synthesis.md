@@ -9,6 +9,16 @@ external_ref: "Turok & Bateman, quadratic-gravity / Krein-space generalized Born
 
 # Ghost parity, Krein structure, and the generation count
 
+> **CORRECTION (A0 audit, 2026-06-28).** Any framing below of the Krein / Hilbert-positivity move as an
+> inside-class shadow or inside-class richer datum is RETRACTED. By the Weyl unitarian trick a
+> finite-dimensional representation of a compact group always carries an invariant positive-definite form,
+> so the indefinite Krein form exists only because the internal gauge group is taken NON-COMPACT (SO(5,5),
+> not SO(10)). Dropping Hilbert positivity is therefore logically equivalent to negating Distler-Garibaldi
+> assumption DG-A3 (compact internal G): it is a SCOPE-EXIT, not an inside-class enrichment. The
+> machine-checked results (the consistent positive-norm sector, the chiral no-go, the cross-chirality of K)
+> are unaffected; only the classification is corrected, now consistent with
+> `canon/no-go-class-relative-map.md` (EVASION BY SCOPE EXIT, with DG-A3 now in the violated list).
+
 ## One-paragraph statement
 
 GU's Rarita-Schwinger matter module is an indefinite-metric (Krein) space, not a Hilbert space, because
