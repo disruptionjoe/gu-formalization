@@ -207,3 +207,32 @@ selector/consistency-side, 2-primary, DECOUPLE-consistent; the count stays the o
 
 Note: "SCS" appears in the ai-native-epistemic-systems repo (C003 / SCS-3 non-vacuity) as a discriminator;
 mapped here by ROLE (the coherence/synchronization leg). Needs its precise definition to bind tightly.
+
+## Refinement 4 (Joe): the energy economy is real thermodynamics (Landauer + cosmological free energy)
+
+Each observer requires energy to RECORD (Landauer: a durable bit costs >= kT ln2; legitimacy = redundancy R
+costs R*kT ln2). Closing+sharing records between observers (synchronization) also costs energy. The supply
+traces to the cosmological source "through the sun": Earth is powered not by energy but by a LOW-ENTROPY
+GRADIENT (few high-energy low-entropy solar photons in, ~20 high-entropy IR photons out; Schrodinger
+negentropy), whose ultimate source is the low-entropy cosmological INITIAL CONDITION (Penrose's near-zero
+early gravitational entropy), converted by gravitational collapse into stellar fusion, with the EXPANSION
+providing the cold sink that keeps it out of equilibrium. Observers compete in a FREE MARKET for that
+free-energy gradient.
+
+Architecture closure: ENERGY is the currency. Leg 2 (energy issuance) = the SUPPLY (cosmological low-entropy
+genesis + the expansion that keeps it flowing). Legs 1 (recording-rights) and 3 (synchronization) = the
+SINKS that spend it. "Marketplace for votes" = the free-energy market; access to energy = vote-weight. The
+energy leg FUNDS the other two; the market allocates scarce free energy among competing observers. Sharper
+"set at initial conditions": the energy budget is fixed by the low-entropy genesis, the expansion is the
+algorithm that keeps issuing the gradient -- i.e. "the energy issuance algorithm set at initial conditions"
+= the second law powered by a low-entropy beginning. [LOAD-BEARING: Landauer, free-energy/entropy-gradient,
+Penrose low-entropy IC, Schrodinger negentropy -- all established.]
+
+Small refinement: the sun's free energy (from the low-entropy IC via gravitational collapse) and the
+cosmological constant (the expansion/cold-sink) are related but DISTINCT faces of the cosmological setup, not
+one.
+
+Honest line: grounds the energy/power leg firmly (metaphor -> real thermodynamics) but remains
+selector/consistency/energy-side, 2-primary. Explains how a stable observable reality is POWERED+MAINTAINED;
+does NOT produce the order-3 count. The count stays the carrier; boundary-eta still forecast DECOUPLE. The
+energy economy makes the SELECTOR story airtight; it does not reach the CARRIER.
