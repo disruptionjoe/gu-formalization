@@ -1,14 +1,25 @@
 ---
-title: "Geometric Unity Formalization Program"
+title: "The Observerse Research Program (advanced from Geometric Unity formalization)"
 status: canon
 doc_type: overview
-updated_at: "2026-06-24"
+updated_at: "2026-06-29"
 ---
 
-# Geometric Unity Formalization Program
+# The Observerse Research Program
 
-This repository optimizes for finding the truth, using Geometric Unity as a generative test case, not as
-a thesis to defend. GU is a bold, high-information, contested conjecture: the kind of aggressive claim
+*This program began as a formalization of Geometric Unity (GU) and has advanced beyond it. Current framing:
+`RESEARCH-PROGRAM.md`. Published result: `draft-papers/located-not-forced-generation-count-2026-06-29.md`.*
+
+This program studies a **class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* --
+as a candidate for the shape of physics. Its established result is a **class-level structural law**: this class
+of matter geometry is intrinsically vectorlike and cannot force its own chirality or generation count from
+inside, so the count is **necessarily external**, of a Standard-Model-shaped form. The guiding hypothesis (the
+program's bet, not yet a result) is that this class connects the **classical** (general relativity) and the
+**quantum** (Standard Model), with chirality as external boundary data; the frontier is **what lies outside the
+observer universe.** See `RESEARCH-PROGRAM.md`.
+
+This repository optimizes for finding the truth, using Geometric Unity as the generative test case that pointed
+here, not as a thesis to defend. GU is a bold, high-information, contested conjecture: the kind of aggressive claim
 that, when it pays off, moves science in leaps rather than increments. That makes it an excellent engine
 for spawning precise falsifiable hypotheses, which we drive to resolution, keeping only what survives.
 
@@ -20,7 +31,9 @@ assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 
 ## Start Here
 
-- **Research posture:** `RESEARCH-POSTURE.md`
+- **Research program (current framing):** `RESEARCH-PROGRAM.md`
+- **Published result:** `draft-papers/located-not-forced-generation-count-2026-06-29.md` ("Located, Not Forced")
+- **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
