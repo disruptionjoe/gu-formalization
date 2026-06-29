@@ -72,3 +72,33 @@ Keepers: legitimacy = HA state replication (firewall); the 2-primary lemma = a m
 FRAMEWORK FROM THE EXPOSITORY NARRATIVE, AND PUBLISH THE FRAMEWORK. The metaphor proliferation is the sign we
 have been enjoying the skins; the publishable object underneath is the six-axis methodology + the
 selector/carrier/odd-torsion decomposition.
+
+## Fourth lens (added): SES -- Ostrom Social-Ecological Systems framework
+
+Read "SES" as Elinor Ostrom's Social-Ecological Systems framework (governance of commons without a central
+authority). Map: Resource System = Y14; Resource Units = rendered facts/records/matter; Governance System =
+the consensus/legitimacy mechanism (quantum Darwinism / Krein-positivity admission); Actors = observers;
+Action-situations -> Outcomes = commit interactions -> definite chiral reality; Settings/ECO = the external
+network/power substrate.
+
+What SES adds:
+- POLYCENTRICITY (load-bearing match): Ostrom's finding that durable commons are governed by MANY overlapping
+  centers of authority, NO single master. = exactly the quantum-Darwinism revision (the external is not a God-
+  operator but a redundant network; holographic complementary recovery = no authoritative node, the code is).
+  Ostrom independently requires polycentric governance, validating dropping the God-operator.
+- OBJECTIVE REALITY AS AN OSTROMIAN COMMONS (fresh reframe): a definite classical reality is a common-pool
+  resource sustained by collective action (redundant consensus); legitimacy = the institution preventing the
+  tragedy-of-the-commons collapse. "Prevent collapse through legitimacy" = self-organized commons governance.
+- FOURTH independent convergence on selector != production: governance ALLOCATES/ADMITS resource units (a
+  filter on the RU); it cannot set how many resource-unit TYPES the Resource System contains (an attribute of
+  the RS = geometry, upstream of governance). Four orthogonal disciplines now predict DECOUPLE.
+- The 8 design principles as a rubric for the legitimacy mechanism: clearly-defined boundaries (= Krein-
+  positivity admission), monitoring (= redundant observation), nested enterprises (= the two-firewall stack)
+  satisfied; congruence/collective-choice/graduated-sanctions/conflict-resolution unbuilt.
+
+Honest line: SES is a GOOD skin (nails the polycentric no-central-authority structure matching quantum
+Darwinism; "objective reality as a commons" is a sharp reframe) but still a SELECTOR-side skin. The count
+stays in the Resource System (geometry); SES is barred from supplying it like the others. It reinforces the
+framework-expert verdict: publish the methodology; SES, firewall, MMO, mechanism, network are motivation. Net
+gain: the polycentric correction (no God-operator) + the commons reframe strengthen the selector story
+without touching the carrier.
