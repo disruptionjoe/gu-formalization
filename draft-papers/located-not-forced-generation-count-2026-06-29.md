@@ -2,7 +2,8 @@
 
 **Draft for external review. This paper does NOT claim three generations. See Sections 1 and 8.**
 
-Version 1.1, 2026-06-29. (v1.1 folds in the computed forcing-slot test, Section 7.)
+Version 1.2, 2026-06-29. (v1.1 folds in the forcing-slot test, Section 7; v1.2 sharpens the open conjecture
+with `Hom(Z/3, Z) = 0`, Section 8.)
 
 ---
 
@@ -287,7 +288,13 @@ A nonzero class in `Z/3` detects information *mod 3*; it is not equality to the 
 `e`-invariant carrying it (`e_R = 1/12`) is identical for any generation count. APS, Dai-Freed, Callan-Harvey,
 and Bismut-Cheeger relate a boundary `eta`/`e`-invariant to indices, determinant lines, anomaly phases, and
 cobordism classes -- never directly to an integer family count. So the identification is, in the present
-literature, a theorem of nothing, and is a candidate **category error**. To earn "forced," three things must
+literature, a theorem of nothing, and is a candidate **category error**. This is now algebraically explicit:
+there is no canonical class-to-count map at all, since `Hom(Z/3, Z) = 0` (every homomorphism from a torsion
+group to a torsion-free group vanishes). An integer count, if one exists, therefore cannot *be* the absolute
+torsion class; it can only arise from a **relative, equivariant, or rank** invariant -- integer-valued by
+construction yet geometry-dependent -- which is exactly what the unbuilt twisted Rarita-Schwinger index is. The
+conjecture is thus better stated as: does that relative index exist on GU's 14-manifold and reduce mod 3 to the
+located carrier? To earn "forced," three things must
 be built, in one calculation, on GU's actual 14-manifold: a proven fibered-boundary reduction; the explicit
 twisted Rarita-Schwinger index operator (the unbuilt source action); and an integer extraction with the fork
 resolved. A toy of that twisted Rarita-Schwinger operator has now been built and tested four ways (Section 7);
@@ -334,7 +341,7 @@ obstruction package as 2-primary and reads it as a structural blindness via the 
 | The `J` / Adams-`e` / 2-vs-3-primary mechanism is novel | literature-established |
 | The literal generation integer on GU's 14-manifold | GATED on the unbuilt source action |
 | The only honest computable generation integer | 1 (Pati-Salam `Spin(7,7)`, computed) |
-| `order-3-class -> integer-3` | OPEN; candidate category error |
+| `order-3-class -> integer-3` | OPEN; ill-typed as stated (`Hom(Z/3,Z)=0`); an integer needs a relative/rank home (the twisted-RS index) |
 | Toy stabilized twisted RS sector fills the forcing slot | NO (computed); reaches <=2 of 3 properties; every integer 2-primary or 1 |
 | "2+1" as a single additive count | numerology across disjoint frameworks (computed) |
 | GU forces exactly three chiral generations | NOT claimed; evidence tilts toward one |
