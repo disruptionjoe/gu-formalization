@@ -138,3 +138,42 @@ THE HONEST SUBTLETY -- count:
 Net: the issuance-vs-consensus split is the right architecture; it wins cleanly for expansion (generative law
 at genesis) and reframes the count as a protocol constant rather than a theorem. It strengthens the picture
 and predicts DECOUPLE; it does not resurrect "forces 3."
+
+## Refinement 2 (Joe): issuance is THREE issuances -> three axes (and #3 gives GR)
+
+Layer-1 issuance factors into three distinct genesis-fixed issuances, each mapping onto one six-axis axis:
+1. COVENANT / SELECTION-RIGHTS issuance -- who is ALLOWED to commit which part of objective reality
+   (validator rights, staking, covenants). = L2 observer + L3 pairing + SES governance; sharding of
+   selection-authority across observers (reality is observer-local). SELECTOR-side, 2-primary.
+2. GENERAL ENERGY issuance -- dark energy / expansion, the genesis-fixed emission law. = candidate E,
+   carrier-side generative law.
+3. SYNCHRONIZED RECORD-CLOSING CADENCE between observers -- = the metric / general relativity. = L4
+   causal-order.
+
+#3 (the deep one), load-bearing chain:
+- Lamport's "happens-before" distributed partial order IS the relativistic lightcone causal order (no global
+  clock; synchronization bounded by signal speed; spacelike = concurrent; the lack of a global "now" = the
+  relativity of simultaneity). [established]
+- NOT a blockchain (a global total order = a global now = non-relativistic). It must be a DAG / partial-order
+  ledger (Avalanche / Hashgraph, NO global block). Joe's avalanche steer pays off: the partial order IS the
+  causal structure.
+- Sorkin/Malament "ORDER + NUMBER = GEOMETRY": the causal order + a volume count determines g_munu up to a
+  conformal factor. The synchronization ORDER = causal/lightcone structure; the record-closing CADENCE =
+  volume/number = the conformal factor = local clock rate = time dilation (deeper energy density -> different
+  cadence -> gravitational time dilation). order + cadence -> the metric. GR from observer-synchronization
+  consensus. [established quantum-gravity program]
+- GU connection: Y14 = Met(X4) is the bundle of metrics; GU says the metric emerges without choice. #3
+  supplies the mechanism: the metric is the consensus-on-time among observers; Y14 = the space of
+  synchronization states, X4 = one achieved synchronization. A generative origin for GU's central object.
+
+Honest bounds: #3 is 2-primary (gives the metric/GR, not the count) -- matches the L4 finding (consensus
+partial order recovers the signed-real propagation but NOT the integer index). All three issuances are
+selector/consistency-side; none touches the order-3 carrier; the count stays a separate type-structure
+constant and the running boundary-eta is still forecast DECOUPLE. The general principle is established
+(Lamport, Malament, Sorkin); the novelty is the GU-specific application (Met(X4) from distributed-consensus
+time) -- reconstruction-grade, speculative, but a genuinely interesting publishable angle next to the
+dark-energy lane.
+
+Net architecture: three genesis-fixed issuances -> three of the six axes -> three real things (legitimacy/
+selection L2/L3, energy/expansion E, metric/GR L4), all selector-or-consistency-side, all 2-primary; the
+count remains alone in the order-3 carrier.
