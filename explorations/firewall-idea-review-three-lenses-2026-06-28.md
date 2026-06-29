@@ -102,3 +102,39 @@ stays in the Resource System (geometry); SES is barred from supplying it like th
 framework-expert verdict: publish the methodology; SES, firewall, MMO, mechanism, network are motivation. Net
 gain: the polycentric correction (no God-operator) + the commons reframe strengthen the selector story
 without touching the carrier.
+
+## Refinement (Joe): the missing ISSUANCE ALGORITHM (layer 1), distinct from consensus (layer 2)
+
+The firewall engineer is right ABOUT LAYER 2. The missing piece is LAYER 1: a generative ISSUANCE ALGORITHM,
+fixed at genesis (initial conditions), like Bitcoin's block-reward schedule -- and that is where the
+expansion comes from.
+
+Two-layer protocol stack (Bitcoin-style), mapped:
+- LAYER 1 = the issuance algorithm (protocol rules fixed at genesis; GENERATES new units at a deterministic
+  rate; nobody votes on it) = our CARRIER. Both the expansion and the type-count live here.
+- LAYER 2 = consensus (Nakamoto / avalanche; VALIDATES + orders; filters, never mints) = our SELECTOR. The
+  firewall engineer's "filter != generate" is a statement about layer 2. 2-primary.
+
+THE WIN -- expansion [LOAD-BEARING]: the cosmic expansion is the output of a generative law fixed by the
+geometry (GU's dark-energy theta + divergence-free / the IG mechanism = candidate E). "Set at initial
+conditions" = the law is structural, not chosen per-step by consensus. Issuance scheduled at genesis,
+separate from the consensus that merely validates. (Light rhyme: continuous-creation / fixed-potential
+quintessence -- an algorithm issuing energy to drive expansion.)
+
+THE HONEST SUBTLETY -- count:
+- The framing correctly LOCATES the count in layer 1 (issuance/protocol/carrier), NOT consensus -- which is
+  exactly why the running boundary-eta will most likely DECOUPLE (the selector/consensus can't carry a count
+  that was never a consensus output). Predicts DECOUPLE; agrees with all four disciplinary lenses.
+- BUT (1) issuance-RATE (expansion: more of one thing over time) != type-COUNT (3 generations: how many
+  kinds). Bitcoin issuance produces MORE BTC, not 3 TYPES. The expansion-rate is an emission law; the
+  type-count is a separate protocol STRUCTURE constant (the order-3 framing invariant). Both layer-1, different
+  objects.
+- (2) "Set at initial conditions" = the G1 under-determination finding in friendlier clothes: if 3 is a
+  genesis constant (like Bitcoin's 21M cap), it is an INPUT, not a derived theorem. Honest and defensible
+  (constants can be initial conditions) but it is the MODEST claim: GU admits 3 as a protocol parameter, does
+  not FORCE it. The strong headline does not return; what returns is "3 is a genesis constant in the carrier,
+  and consensus provably cannot touch it."
+
+Net: the issuance-vs-consensus split is the right architecture; it wins cleanly for expansion (generative law
+at genesis) and reframes the count as a protocol constant rather than a theorem. It strengthens the picture
+and predicts DECOUPLE; it does not resurrect "forces 3."

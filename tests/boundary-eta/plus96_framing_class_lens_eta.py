@@ -284,27 +284,40 @@ def main():
     asd_gens = [lvec(0, 1) - lvec(2, 3), lvec(0, 2) - lvec(3, 1), lvec(0, 3) - lvec(1, 2)]
     so4_gens = sd_gens + asd_gens
 
-    fc_su2, per_su2 = frame_charge(J3[0] + J3[1] + J3[2], so4_gens)
-    fc_Ctrip, _ = frame_charge(C_trip, so4_gens)
-    fc_Cbulk, _ = frame_charge(Cu, so4_gens)        # the boundary-Dirac PHS unitary part
-    fc_Jquat, _ = frame_charge(Jf, so4_gens)
-    # self-dual-only projection (the Lambda^2_+ channel specifically)
-    fc_su2_sd, _ = frame_charge(J3[0] + J3[1] + J3[2], sd_gens)
-    fc_Ctrip_sd, _ = frame_charge(C_trip, sd_gens)
+    # The order-3 lives in the gravitational -p_1/24 channel fed ONLY by the NET SELF-DUAL
+    # framing (a charge-q SELF-DUAL instanton, c_2=1). So the decisive number is the SELF-DUAL
+    # minus ANTI-SELF-DUAL frame charge -- the chiral framing imbalance. A non-chiral (SD=ASD)
+    # frame content has zero net self-dual instanton charge and cannot feed -p_1/24.
+    def sd_asd(O):
+        fc_all, _ = frame_charge(O, so4_gens)
+        fc_sd, _ = frame_charge(O, sd_gens)
+        fc_asd, _ = frame_charge(O, asd_gens)
+        return fc_all, fc_sd, fc_asd, fc_sd - fc_asd
 
-    print(f"  SU(2)+ = Lambda^2_+ generators (the tangential carrier):")
-    print(f"      frame charge along so(4) base = {fc_su2:.4f}   (self-dual-only = {fc_su2_sd:.4f})"
-          f"   -> ROTATES the frame: TANGENTIAL")
-    print(f"  J_quat = id_14 (x) U (the Krein/Clifford structure):")
-    print(f"      frame charge = {fc_Jquat:.2e}   -> internal, leaves the frame UNTOUCHED")
-    print(f"  +96 operator C = J_quat.chirality (triplet re-grading, pure internal endomorphism):")
-    print(f"      frame charge along so(4) base = {fc_Ctrip:.2e}   (self-dual-only = {fc_Ctrip_sd:.2e})"
-          f"   -> NO frame rotation: GAUGE")
-    print(f"  +96 operator C = J_quat.G (boundary-Dirac PHS, full bulk grading):")
-    print(f"      frame charge along so(4) base = {fc_Cbulk:.2e}   -> NO frame rotation: GAUGE")
+    su2_all, su2_sd, su2_asd, su2_imb = sd_asd(J3[0] + J3[1] + J3[2])
+    Jq_all, Jq_sd, Jq_asd, Jq_imb = sd_asd(Jf)
+    Ct_all, Ct_sd, Ct_asd, Ct_imb = sd_asd(C_trip)
+    Cb_all, Cb_sd, Cb_asd, Cb_imb = sd_asd(Cu)
 
-    tangential_carrier = fc_su2 > 1e-3
-    selector_is_gauge = (fc_Ctrip < 1e-8) and (fc_Cbulk < 1e-8) and (fc_Jquat < 1e-8)
+    print(f"  {'operator':<46}{'|frame|':>9}{'SD':>9}{'ASD':>9}{'SD-ASD (net s.d.)':>18}")
+    print(f"  {'SU(2)+ = Lambda^2_+ (tangential carrier)':<46}{su2_all:>9.3f}{su2_sd:>9.3f}"
+          f"{su2_asd:>9.3f}{su2_imb:>18.3f}")
+    print(f"  {'J_quat = id_14 (x) U (Krein/Clifford)':<46}{Jq_all:>9.2e}{Jq_sd:>9.2e}"
+          f"{Jq_asd:>9.2e}{Jq_imb:>18.2e}")
+    print(f"  {'+96 op = J_quat.chirality (triplet re-grade)':<46}{Ct_all:>9.2e}{Ct_sd:>9.2e}"
+          f"{Ct_asd:>9.2e}{Ct_imb:>18.2e}")
+    print(f"  {'+96 op = J_quat.G (boundary-Dirac PHS)':<46}{Cb_all:>9.3f}{Cb_sd:>9.3f}"
+          f"{Cb_asd:>9.3f}{Cb_imb:>18.2e}")
+    print(f"  reading: Lambda^2_+ is PURELY self-dual (SD-ASD = full = tangential instanton, p_1=4).")
+    print(f"           the pure +96 re-grading has ZERO frame charge (a pure internal endomorphism).")
+    print(f"           the boundary-PHS form has nonzero |frame| ONLY from the so(9,5)-covariant")
+    print(f"           gamma-trace projector Pi, but it is NON-CHIRAL: net self-dual = SD-ASD ~ 0,")
+    print(f"           so it carries NO net self-dual instanton => cannot feed the -p_1/24 channel.")
+
+    fc_su2, fc_Ctrip, fc_Cbulk, fc_Jquat = su2_all, Ct_all, Cb_all, Jq_all
+    tangential_carrier = su2_imb > 1e-3
+    # the +96 selector (either representative) carries NO net self-dual framing => no order-3:
+    selector_no_self_dual_framing = (abs(Ct_imb) < 1e-6) and (abs(Cb_imb) < 1e-6) and (Ct_all < 1e-8)
 
     # the +96 operator carries ZERO tangent-frame p_1 => zero framing degree => e_R = 0/24
     p1_plus96 = 0
@@ -324,10 +337,9 @@ def main():
     eta_plus96 = e_plus96_framing                   # = 0; gauge residue is 2-primary (k/8) at most
     # "denominator decides": the reduced eta-bar of the +96 operator has NO factor of 3.
     three_primary = False                           # tangent-frame p_1 = 0 => no -p_1/24 => no Z/3
-    print(f"  tangential carrier (Lambda^2_+) frame charge nonzero?      {tangential_carrier}  "
+    print(f"  tangential carrier (Lambda^2_+) net self-dual framing != 0? {tangential_carrier}  "
           f"(e_R = 1/12, 3-primary)")
-    print(f"  +96 SELECTOR is a pure internal/gauge endomorphism?         {selector_is_gauge}  "
-          f"(frame charge = 0)")
+    print(f"  +96 SELECTOR carries NO net self-dual framing (no -p1/24)?   {selector_no_self_dual_framing}")
     print(f"  +96 operator reduced eta-bar carries a factor of 3?         {three_primary}")
     print(f"  +96 operator reduced eta-bar (framing channel)            = {eta_plus96}  "
           f"(gauge residue 2-primary k/8, here = 0 by antiunitarity)")
@@ -345,8 +357,8 @@ def main():
     # guards / asserts
     assert abs(bare - 58.7215) < 1e-2 and abs(C2 - 155.3625) < 1e-2, "anchors moved"
     assert abs(C2v + 1.0) < 1e-3, "C must be antiunitary with C^2 = -1"
-    assert tangential_carrier, "Lambda^2_+ must carry a nonzero tangent-frame charge (tangential)"
-    assert selector_is_gauge, "the +96 operator must be a pure internal endomorphism (frame charge 0)"
+    assert tangential_carrier, "Lambda^2_+ must carry a nonzero NET self-dual framing (tangential)"
+    assert selector_no_self_dual_framing, "the +96 operator must carry NO net self-dual framing"
     assert eta_spec == 0 and sym_defect < 1e-6, "antiunitary C^2=-1 must force boundary spectral eta = 0"
     assert all_2primary, "charge-q lens Dirac eta must be 2-primary for every q"
     assert e_R == Fraction(1, 12), "tangential carrier must give e_R = 1/12"
