@@ -2,8 +2,8 @@
 
 **Draft for external review. This paper does NOT claim three generations. See Sections 1 and 8.**
 
-Version 1.2, 2026-06-29. (v1.1 folds in the forcing-slot test, Section 7; v1.2 sharpens the open conjecture
-with `Hom(Z/3, Z) = 0`, Section 8.)
+Version 1.3, 2026-06-29. (v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the carrier-mass
+capstone -- the gate reduced to one physical term, Section 7.)
 
 ---
 
@@ -275,6 +275,23 @@ clean `+1`; the `+1` appears only as the twisted-Dirac unit on a different manif
 `2+1` live in disjoint frameworks, so their sum is a coincidence, not a derivation. "Located, not forced" thus
 holds under both the order-3/triality reading and the additive 2+1 reading.
 
+**The carrier-mass capstone: the gate is one physical term (computed).** The carrier `Lambda^2_+` is vectorlike,
+so it has no chiral protection and the entire located-vs-forced question reduces to a single term -- whether the
+source action gives it a **Dirac mass** (`canon/carrier-dirac-mass-capstone-RESULTS.md`). The mass is **allowed,
+not forbidden**: the Kramers structure `C^2 = -I` is pseudoreal, hence self-conjugate, hence vectorlike, which
+*admits* a mass; and the built Seiberg-Witten action *realizes* a vectorlike one (`||M_++|| = ||M_--||`, a
+`{+, 0, -}` split, heavy-sector net chiral 0). Both branches give zero, not three: massive, the 96 generation
+modes pair with 96 mirror modes and decouple, leaving net chiral index `(n_+ - r) - (n_- - r) = 0` analytically
+for every mass; massless, the 192 stay light but net chirality is still 0, a modulus. Forcing a light chiral
+count requires a **chiral projection** that breaks the `+96/-96` balance, and no linear Krein-isometric operator
+can supply one (index conservation; a linear chiral projector lands on a totally Krein-null, unphysical
+subspace). The only operator that breaks the balance is the antilinear chiralizer `C = J_quat . G`, frame-trivial
+(tangent-frame charge `0.00`, selector arena) and absent from the tangential `Lambda^2_+` sector where the
+order-3 carrier resides. So the gate is now one physical term: **the carrier Dirac mass plus the selector-side
+chiral projection GU never built** -- and the carrier resolves either way (massless modulus or massive-decoupled)
+to zero net chiral generations absent an operator GU does not provide. Located, not forced, confirmed at the
+mass/dynamical level.
+
 ---
 
 ## 8. What is not claimed: the open conjecture
@@ -344,6 +361,7 @@ obstruction package as 2-primary and reads it as a structural blindness via the 
 | `order-3-class -> integer-3` | OPEN; ill-typed as stated (`Hom(Z/3,Z)=0`); an integer needs a relative/rank home (the twisted-RS index) |
 | Toy stabilized twisted RS sector fills the forcing slot | NO (computed); reaches <=2 of 3 properties; every integer 2-primary or 1 |
 | "2+1" as a single additive count | numerology across disjoint frameworks (computed) |
+| Carrier Dirac mass (the gate) | ALLOWED/vectorlike (computed); massive -> decouples to 0, massless -> modulus; neither is 3; forcing 3 needs the frame-trivial selector-side chiral projection |
 | GU forces exactly three chiral generations | NOT claimed; evidence tilts toward one |
 
 ---
