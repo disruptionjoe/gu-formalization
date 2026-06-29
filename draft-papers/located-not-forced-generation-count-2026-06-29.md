@@ -2,8 +2,9 @@
 
 **Draft for external review. This paper does NOT claim three generations. See Sections 1 and 8.**
 
-Version 1.3, 2026-06-29. (v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the carrier-mass
-capstone -- the gate reduced to one physical term, Section 7.)
+Version 2.0, 2026-06-29. (v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the carrier-mass
+capstone; v2.0 the GU-independent **class-level structural law** -- the count is necessarily external --
+integrated into the abstract, Section 5, and the conclusion.)
 
 ---
 
@@ -39,8 +40,13 @@ We then attempt the single calculation that could decide an integer count on GU'
 it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger source action); the only honest
 computable generation integer is **one** (GU's own Pati-Salam `Spin(7,7)` chain). A toy of that source action,
 built and adversarially tested four ways, does **not** fill the forcing slot -- every integer it produces is
-2-primary or one -- which hardens the verdict from conjecture to computation. We therefore do **not**
-claim three generations. We claim a no-go that *locates*: it pins the unique CRT-disjoint sector where an odd
+2-primary or one -- which hardens the verdict from conjecture to computation. Reopened GU-independently, the
+obstruction is a **class-level structural law**: no covariant operator interior to a Clifford-RS sector of this
+type forces an odd chiral count (the chiralizer's frame-triviality is evadable only into a 2-primary,
+index-conserving channel, and the genuine antilinear loophole is absent), so the generation count is
+**necessarily external** -- supplied by a net-self-dual chiral background of exactly the form by which chirality
+arises in the Standard Model (chiral gauge couplings, instanton zero-modes, `K3` compactification). We therefore
+do **not** claim three generations. We claim a no-go that *locates*: it pins the unique CRT-disjoint sector where an odd
 count could live, shows that sector genuinely carries an order-3 object, and poses the
 `order-3-class -> integer-3` identification as the single named open conjecture (and a candidate category
 error). We situate the mechanism against the recent family-puzzle literature and find the
@@ -67,11 +73,16 @@ the strongest possible reading of it by direct computation. Our contributions:
    homotopy-theoretic count lives only in `Z/3`. The two arenas cannot interact directly; anomaly inflow is
    the sole possible bridge. This is the unifying frame: the no-go is blind to the count not by weakness but
    by arithmetic.
-3. **An index-conservation theorem and a necessary antilinear escape (Section 5).** Every linear
-   Krein-isometric operator conserves the net chiral index at zero (machine-verified); the unique escape is
-   antilinear. We further compute that the antilinear chiralizer is **frame-trivial** (tangent-frame charge
-   exactly 0) and therefore couples to the gauge (2-primary) channel -- it supplies chirality but cannot
-   reach the 3-primary sector.
+3. **An index-conservation theorem, a necessary antilinear escape, and a class-level structural law
+   (Section 5).** Every linear Krein-isometric operator conserves the net chiral index at zero
+   (machine-verified); the unique symmetry-respecting escape is antilinear. Reopened GU-independently: **no
+   covariant operator -- linear or antilinear -- interior to a Clifford-RS sector of this class forces an odd
+   chiral count.** The chiralizer's frame-triviality is evadable only into a 2-primary, index-conserving channel
+   (a linear `O = L_SD (x) X_L` is net-chiral and frame-active but 2-primary), and the genuine antilinear
+   loophole the index-conservation theorem leaves is absent (every candidate is chirality-reversing,
+   carrier-leaking, or a gauge dressing with `p_1 = 0`). The generation count is therefore **necessarily
+   external**, supplied by a net-self-dual chiral background of exactly the form by which chirality arises in the
+   Standard Model. [theorem, theory-independent]
 4. **A located order-3 carrier (Section 6).** The self-dual `Lambda^2_+` tangential framing on the `RP^3`
    spine carries `e_R = 1/12`, a genuine order-3 class in the `Z/3` summand -- shown by computation to be
    tangential but vectorlike and homotopy-fixed: it locates, it does not fill.
@@ -183,6 +194,31 @@ factor; verified with a random `U`). Consequently the chiralizer carries no `p_1
 `eta` is the 2-primary gauge type (`(2q^2-4q+1)/8`, here forced to 0 by `C^2 = -I`)
 (`canon/boundary-eta-of-mu-RESULTS.md`). **The chiralizer lives in the selector arena `Z/8`.** It supplies
 chirality; it cannot reach the carrier arena `Z/3`.
+
+**The frame-triviality is a class-level structural law, not a GU accident (computed, GU-independent).** Reopened
+without GU restriction, the question is whether *any* operator on a Clifford-RS carrier of this type can be both
+net-chiral and reach the tangent-frame (`p_1`) channel where the order-3 carrier lives. The honest answer is a
+refined no-go (`canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md`). The clean statement
+-- "net chirality and frame charge have orthogonal support, so no operator can be both" -- is in fact **false**
+on the carrier: its self-dual `V`-`S` entanglement (`J_3 = id (x) sgen + lvec (x) id`) gives the chirality
+grading genuine self-dual spinor content (`||X_L|| = 2.0` on each self-dual frame generator, `~ 0` on
+anti-self-dual), so a *linear* covariant operator `O = L_SD (x) X_L` is simultaneously net-chiral (`+16 = 2^4`)
+and frame-active (net-self-dual `+2`). But every such channel is **2-primary and linear** -- caught by Theorem 2
+(index conservation), forcing no net count -- and the one genuine loophole Theorem 2 leaves, a frame-non-trivial
+*antilinear* (CII) chiralizer, **does not exist** on this class: every antilinear candidate is
+chirality-reversing (net 0), carrier-leaking, or a gauge dressing continuously deformable to the frame-trivial
+identity (connected stabilizer, topological `p_1 = 0`, forcing the identical vectorlike `+96`). **So no operator,
+linear or antilinear, interior to a Clifford-RS sector of this class forces an odd chiral count.** GU's
+frame-trivial chiralizer is one instance of this structural law.
+
+**The count is therefore necessarily external -- and its required shape is the Standard Model's.** Forcing an
+odd chiral count requires an *external* net-self-dual chiral background coupled through the index theorem
+(`int_X A-hat ch`). This is not a contrived addition: it is exactly how chirality arises in every known chiral
+theory -- chiral gauge couplings, instanton zero-modes, `K3` / Calabi-Yau compactification. The structural law
+thus relocates the generation count from an internal derivation to **external boundary data of a natural,
+Standard-Model-shaped form** -- and even that data does not by itself pin three (the `order-3-class -> integer-3`
+bridge of Section 8 remains). This is the paper's strongest GU-independent statement: not a verdict on GU, but a
+structural law for the class, with the count relocated to the boundary.
 
 ---
 
@@ -352,7 +388,9 @@ obstruction package as 2-primary and reads it as a structural blindness via the 
 | CRT two-arena structure `pi_3^s = Z/8 (+) Z/3`, summands disjoint | theorem |
 | Linear Krein-isometric operators conserve the net chiral index | theorem (machine-verified) |
 | The unique escape is antilinear (class CII) | corollary (Wigner) + machine-verified |
-| The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed (convention-independent) |
+| The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed; frame-triviality is evadable only into a 2-primary, index-conserving linear channel |
+| No interior operator (linear or antilinear) forces an odd chiral count; the count is necessarily external | theorem (class-level, GU-independent; computed + adversarially verified) |
+| Forcing an odd count requires an external net-self-dual chiral background (Standard-Model-shaped) | computed; a natural ingredient but an external input; does not by itself pin 3 |
 | Tangential `Lambda^2_+` framing carries `e_R = 1/12`, order 3 (carrier arena) | standard-result-applied (Kirby-Melvin); GU identification reconstruction-grade |
 | The carrier is vectorlike and homotopy-fixed (locates, does not fill) | computed-confirmed |
 | The `J` / Adams-`e` / 2-vs-3-primary mechanism is novel | literature-established |
@@ -379,10 +417,15 @@ frame-trivial and couples to the selector arena. The one calculation that could 
 actual geometry is gated on an unbuilt source action; the only honest computable integer is one.
 
 We submit the 2-primary blindness theorem, the CRT two-arena structure, the index-conservation /
-antilinear-escape theorem, and the located order-3 carrier as a referee-proof, GU-independent contribution --
-**a no-go that locates** -- and we submit the generation-count reading as a single named open conjecture
-(`order-3-class -> integer-3`, a candidate category error) rather than a claim. We do not claim three; the
-evidence tilts toward one. We request external review of both the core results and the open bridge.
+antilinear-escape theorem, the located order-3 carrier, and -- reopened GU-independently -- the **class-level
+structural law** that no covariant operator interior to a Clifford-RS sector of this type forces an odd chiral
+count, as a referee-proof, GU-independent contribution: **a no-go that locates, and relocates the count to the
+boundary.** The generation count is necessarily external, supplied by a net-self-dual chiral background of
+exactly the form by which chirality arises in the Standard Model (chiral gauge couplings, instanton zero-modes,
+`K3` / Calabi-Yau compactification); the `order-3-class -> integer-3` identification of that external datum
+remains the single named open conjecture (a candidate category error) rather than a claim. We do not claim
+three; the evidence tilts toward one, and the structural reason the count is not internal is now proven for the
+whole class. We request external review of both the core results and the open bridge.
 
 ---
 
@@ -391,10 +434,14 @@ evidence tilts toward one. We request external review of both the core results a
 The representation-theoretic decompositions, the Krein signature, the index-conservation check, the
 frame-charge / DECOUPLE computation, the boundary `e`-invariant controls, and the single-decider integers are
 checked numerically in `tests/` and `tests/generation-sector/`, `tests/source-action/`, `tests/boundary-eta/`,
-`tests/decider/` (the last reproduced by an independent from-scratch script, 26/26 checks), and
-`tests/forcing-slot/` (the toy RS forcing-slot test, four angles each adversarially re-verified). The homotopy and
+`tests/decider/` (the last reproduced by an independent from-scratch script, 26/26 checks),
+`tests/forcing-slot/` (the toy RS forcing-slot test), `tests/carrier-mass/` (the Dirac-mass capstone),
+`tests/hessian-z3/` (the dynamical test), and `tests/gu-independent/` (the class-level structural law), each
+angle adversarially re-verified. The homotopy and
 `e`-invariant facts are standard (Adams; Kirby-Melvin; Randal-Williams). The campaign's adversarial
 deep-research reports and the per-result canon (`canon/two-primary-lemma.md`,
 `canon/boundary-eta-of-mu-RESULTS.md`, `canon/three-generations-locate-not-force-CRT-RESULTS.md`,
-`canon/single-decider-integer-index-RESULTS.md`, `canon/forcing-slot-toy-rs-RESULTS.md`) are in the
+`canon/single-decider-integer-index-RESULTS.md`, `canon/forcing-slot-toy-rs-RESULTS.md`,
+`canon/carrier-dirac-mass-capstone-RESULTS.md`,
+`canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md`) are in the
 repository.
