@@ -134,3 +134,47 @@ to the count *by construction* and the count, if homotopy-theoretic, is forced i
 sector, which genuinely carries a real order-3 object. That is a no-go that LOCATES, with the
 `order-3 -> integer-3` identification as the single named open conjecture (and a candidate category error),
 and the one decider computation named. The headline is "located, not forced," and the paper says so plainly.
+
+## Cross-repo hardening (temporal-issuance + time-as-finality + local rosters)
+
+A second steelman over the full cross-repo panel (TaF's 62 experts + temporal-issuance's 75-persona
+expansion + the local 41, channeled inline) HARDENED the verdict into a cross-repo result and added three
+things:
+
+**(A) ONE genuinely new Z/3 -- the physics-canonical family-symmetry candidate, precisely characterized.**
+The internal-fiber order-3 of **Spin(8) triality** (the order-3 outer automorphism), the **SU(3)_family
+center** in `E8 ⊃ E6 × SU(3)`, and the **qutrit Weyl-Heisenberg center** (`omega = e^{2pi i/3}`, `omega^3=1`).
+This is REAL order-3 GROUP torsion -- it passes the odd-torsion test, unlike every cardinal "3," and unlike
+everything else it is NOT the `e_R=1/12` carrier. It is the "obvious" place 3 generations could come from (an
+actual family gauge group). BUT it sits in the `M(64,H)` coefficient/fiber factor -- exactly where the `+96`
+antilinear selector lived -- so by the *same* boundary-eta DECOUPLE mechanism (internal-fiber endomorphisms
+have tangent-frame charge exactly 0) it is **frame-trivial and cannot feed the `-p_1/24` channel.** Net: there
+are now **two genuine order-3 objects on OPPOSITE sides of the proven split** -- the homotopy carrier
+(`e_R=1/12`, tangent-frame side, where a homotopy count would live) and the SU(3)-family / triality `Z/3`
+(internal-fiber / selector side, a physics-grounded family symmetry) -- bound only by an unproven inflow the
+DECOUPLE makes unlikely. The "physics 3" and the "homotopy 3" do not connect, by the same mechanism.
+
+**(B) An independent re-derivation of the DECOUPLE from the consensus/issuance side.** The temporal/finality
+machinery lands on the 2-primary selector face without being told to: the **legitimacy-monad** (E084) is an
+**idempotent reflector** `L∘L = L`, i.e. a projector `P^2 = P` -- the mathematical signature of a SELECTOR,
+classified Project + Finalize + Lose, explicitly NOT Issue; the **D-FORK** gives either unbounded
+non-exhaustible openness (no number) or a single REAL-VALUED optimal rate `lambda*(S)` (never integer 3); the
+**MMO instantiation-commit** is an antilinear cull times a separate tangential framing; the **SCS /
+finality-profile** discriminators are real-valued. So legitimacy and issuance are *provably* selector-side.
+
+**(C) Confirmatory negatives + two quarantined puns.** BFT `n>3f`, hashgraph `2n/3`, Avalanche `beta=3`,
+replication-3, Shamir `t-of-n`, the three-legged stool, A/R/B/C, the online-issuance genesis constant (E091:
+no number content), causal-set fractions, and the Cech parity cocycle (`Z/2`, `E015`:
+`bare_ext_s_derives_nontrivial_holonomy = FALSE`, stipulated not derived) are all cardinals / thresholds /
+rates / free genesis constants / `Z/2`, kind-mismatched to `Z/3` exactly as the 2-primary lemma predicts. Two
+named puns to quarantine (confirming the standing honest flags): `dim(Lambda^2_+) = 3 = dim su(2)` is a
+CARDINAL coincidence DISTINCT from the order-3 `e`-invariant it carries; "geometric torsion (GU contortion)
+as the rebalancing engine" is the antisymmetric connection part, NOT homotopy `Z/n` torsion.
+
+**Cross-repo verdict:** the temporal-issuance and time-as-finality rosters contribute **zero load-bearing
+3-primary content to the count** (reconfirming and strengthening the firewall sprint), while genuinely
+strengthening the selector/legitimacy/architecture side and surfacing the one real but stranded SU(3)-family
+`Z/3`. Both steelmans (local and cross-repo) reach the identical verdict: **located, not forced; tilts toward
+one; the single decider is the integer computation on GU's actual 14-manifold.** Everything short of it --
+every additional persona, every cross-repo lens, every new `Z/3` found in an internal fiber -- only
+re-locates the same empty slot.
