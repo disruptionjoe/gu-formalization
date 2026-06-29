@@ -51,7 +51,7 @@ for the Generation Count in a Clifford Rarita--Schwinger Sector}
 AI-directed research process; all load-bearing computations are reproducible from the public repository linked
 in the Data Availability section.}}
 
-\date{Version 2.1, 2026-06-29}
+\date{Version 2.2, 2026-06-29}
 
 \begin{document}
 
@@ -305,14 +305,18 @@ The order-$3$ content lives in exactly one place. The self-dual $\SU(2)_+ = \Lam
 \emph{tangential} framing on $\RP^3 = L(2;1)$ (the deformation-retract spine of the metric fiber
 $\mathrm{GL}(4,\R)/O(3,1)$), has framed-bordism class $\pm 2$ in $\pis = \Z/24$ and Adams $e$-invariant
 \[
-\eR = p_1/48 = 1/12 \qquad (p_1 = 4,~\text{Kirby--Melvin};~\text{class }2~\text{in}~\Z/24;~3\text{-primary part
+\eR = p_1/48 = (p_1/2)/24 = 1/12 \qquad (p_1 = 4~\text{for the adjoint charge-}1\text{ bundle};~\text{stable
+framing degree }p_1/2 = 2;~\text{class }2~\text{in}~\Z/24;~\text{the }3\text{-primary part of the class is
 nonzero, order }3).
 \]
 The stabilization $\pi_3(\SO(3))\to\pi_3(\SO)$ is $\times 2$, so the stable degree is $p_1/2 = 2$, not the Dynkin
-index $4$. This is standard topology: the canonical framing and its $p_1$ are
-Kirby--Melvin~\cite{kirbymelvin1999}, the image-of-$J$ / $e$-invariant arithmetic ($\Imm J_3 = \Z/24$) is
-Adams~\cite{adams1966jx4}, and the normalization $e = p_1/48$ is their standard combination. Only the
-identification of GU's $\Lamp$ twist with this natural tangential framing is reconstruction-grade.
+index $4$. This is standard topology: $p_1 = 4$ for the adjoint charge-$1$ bundle, and the stable framing degree
+is $p_1/2$ (the spin characteristic class $p_1/2$ generates $H^4(B\mathrm{Spin})$); canonical framings of
+$3$-manifolds and their Pontryagin normalization are Kirby--Melvin~\cite{kirbymelvin1999}; the image-of-$J$ /
+$e$-invariant arithmetic ($\Imm J_3 = \Z/24$, generator $e$-value $1/24$) is Adams~\cite{adams1966jx4}. The
+relation $e = p_1/48 = (p_1/2)/24$ is the composite of the framing degree $p_1/2$ with Adams' $e$-invariant, not
+a formula quoted verbatim from either source. Only the identification of GU's $\Lamp$ twist with this natural
+tangential framing is reconstruction-grade.
 
 \paragraph{It locates but does not fill (computed).} The carrier $\Lamp$ has net self-dual tangent-frame charge
 $33.94$ (tangential, $p_1=4$)---it is genuinely on the carrier-arena side---\emph{but it is vectorlike} (net
@@ -405,7 +409,7 @@ the located carrier? Until then the result is a no-go that \emph{locates}, and t
 
 \paragraph{Geometric Unity.} The sector is motivated by GU's matter proposal~\cite{weinstein2021gu} (the
 $14$-dimensional observerse $Y^{14} = \mathrm{Met}(X^4)$, the vector-spinor field, the $4+10$ split, the
-$\mathbf{16}$ of $\Spin(10)$, the self-dual base structure). The public GU draft presents the fermion sector
+$\mathbf{16}$ of $\Spin(10)$, the self-dual base structure). The public GU material presents the fermion sector
 schematically, does not build the matter action, states chirality is only \emph{effective}, and proposes a
 ``$2+1$'' picture rather than three true generations; the Nguyen--Polya critique~\cite{nguyen2021response}
 argues central technical details are unverifiable from the public material. Our
@@ -422,11 +426,18 @@ Juven Wang's 2023 family puzzle via framed/string bordism $\Z/24$ with chiral ce
 $c_-=24$~\cite{wang2023family}; and Wan--Wang--Yau~\cite{wan2026fermion}, where the group-cohomology subclass
 $H^5(\Z_n,U(1))$ of the $5$d spin-bordism anomaly can be cancelled by an anomalous $\Z_n$ $4$d TQFT while the
 beyond-cohomology Pontryagin ($p_1$) part cannot except at $n=2,3$, isolating $n=3$ families. We claim no novelty
-for ``topology constrains family number.'' In a best-effort search we have found no precedent for the
-CRT-disjoint $2$-vs-$3$-primary reading---obstructions in $\Z/8$, the count in $\Z/3$---read by the Adams
-$e$-invariant / image of $J$~\cite{adams1966jx4}. Wang's framed/string bordism $\Z/24$ is itself $\Imm J_3$, so
-the novel step is not the use of $\pis = \Z/24$ (which Wang also employs) but the CRT-disjoint
-$2$-vs-$3$-primary split.
+for ``topology constrains family number.'' Wang's framed/string bordism $\Z/24$ is itself $\Imm
+J_3$~\cite{adams1966jx4}, and his title arithmetic $24/8 = 3$ already pulls the odd $3$-primary factor out of
+$\Z/24$ as the family number, supported by a separate $w_1$--$p_1$ bordism $\Z_3$ class; Wan--Wang--Yau likewise
+isolate $n=3$ through a cohomology-vs-Pontryagin split. We therefore claim no novelty for the bare
+$2$-vs-$3$-primary factorization $\Z/24 = \Z/8 \oplus \Z/3$, nor for the use of $\pis = \Z/24$. What we have not
+found, to the best of our search, is the \emph{inverse} reading used here: that the no-go obstructions and
+chiralizing selectors live entirely in the $2$-primary $\Z/8$ summand, so that---the summands being
+CRT-disjoint---the $2$-primary no-go is \emph{arithmetically blind} to any $3$-primary count, which is thus
+located but not forced. Where Wang uses the $\Z/24$ structure to positively constrain $N_{\mathrm{gen}}\in 3\Z$,
+we use its disjointness to show a no-go \emph{cannot} constrain the count; the Clifford Rarita--Schwinger
+embedding and the Krein index-conservation theorem (Theorem~\ref{thm:2}) are, to the best of our search,
+likewise without precedent.
 
 \section{Status of claims}\label{sec:status}
 
@@ -442,9 +453,9 @@ The unique escape is antilinear (class CII) & corollary (Wigner) + machine-verif
 GU's antilinear chiralizer is frame-trivial, couples gauge & computed-confirmed; evadable only into a $2$-primary, index-conserving linear channel \\
 No interior operator found forces an odd chiral count; the count is external on present evidence & class-level structural no-go (GU-independent); linear leg theorem-grade, antilinear non-existence a finite adversarial hunt (exhaustive proof open) \\
 Forcing an odd count requires an external net-self-dual chiral background & computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin $3$ \\
-Tangential $\Lamp$ framing carries $\eR=1/12$, order $3$ & standard result applied (Kirby--Melvin); GU identification reconstruction-grade \\
+Tangential $\Lamp$ framing carries $\eR=1/12$, order $3$ & Kirby--Melvin framing degree $+$ Adams $e$-invariant; GU identification reconstruction-grade \\
 The carrier is vectorlike and homotopy-fixed (locates, does not fill) & computed-confirmed \\
-The CRT $2$-vs-$3$-primary reading is novel & best-effort literature search; no precedent found \\
+The disjointness-implies-blindness reading (a $2$-primary no-go cannot constrain a $3$-primary count) is novel; the bare $24 = 8\times 3$ split is not (cf.\ Wang $24/8=3$) & best-effort literature search; no precedent found \\
 The literal generation integer on GU's $14$-manifold & gated on the unbuilt source action \\
 The only honest computable generation integer & $1$ (Pati--Salam $\Spin(7,7)$, computed) \\
 $\text{order-}3\text{ class}\to\text{integer }3$ & open; ill-typed as stated ($\Hom(\Z/3,\Z)=0$); needs a relative/rank home \\
@@ -561,8 +572,8 @@ Z.~Wan, J.~Wang and S.-T. Yau, \emph{Fermion Families and Pontryagin Class: Topo
 Symmetry Extension}, arXiv:2605.26202 [hep-th] (2026).
 
 \bibitem{wang2023family}
-J.~Wang, \emph{Family Puzzle, Framing Topology, $c_-=24$ and $3(E_8)_1$ Conformal Field Theories}, arXiv:2312.14928
-[hep-th] (2023).
+J.~Wang, \emph{Family Puzzle, Framing Topology, $c_-=24$ and $3(E_8)_1$ Conformal Field Theories:
+$48/16 = 45/15 = 24/8 = 3$}, arXiv:2312.14928 [hep-th] (2023).
 
 \bibitem{weinstein2021gu}
 E.~Weinstein, \emph{Geometric Unity (author's working draft)}, self-published manuscript, April 1, 2021.

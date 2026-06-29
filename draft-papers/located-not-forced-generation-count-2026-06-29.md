@@ -403,12 +403,13 @@ with `c_- = 24`; and Wan-Wang-Yau 2026 (arXiv:2605.26202), where the group-cohom
 of the 5d spin-bordism anomaly is cancellable by an anomalous `Z_n` 4d TQFT while the beyond-cohomology
 Pontryagin `p_1` part is not except at `n=2,3`, isolating `n=3`). We claim no novelty for "topology constrains
 family number." (The .tex submission source carries the full verified bibliography.)
-Our narrow novelty claim: we have not found prior work that (a) identifies the generation/chirality
-obstruction package as 2-primary and reads it as a structural blindness via the **CRT two-arena** split of
-`pi_3^s`, nor (b) places the candidate count in the 3-primary summand and reads it by the **Adams `e`-invariant
-/ image of `J`**. Wang 2023 and Wan-Wang-Yau 2026 are the nearest topological precursors; Wang's framed/string
-bordism `Z/24` is itself `Im(J_3)`, so the novel step is not the use of `pi_3^s = Z/24` (which Wang also
-employs) but the **CRT-disjoint 2-vs-3-primary reading** -- obstructions in `Z/8`, the count in `Z/3`.
+Our narrow novelty claim (final wording in the `.tex`): Wang 2023's title arithmetic `24/8 = 3` already pulls
+the odd 3-primary factor out of `Z/24` as the family number, and Wan-Wang-Yau 2026 isolate `n=3` via a
+cohomology-vs-Pontryagin split, so we claim **no** novelty for the bare 2-vs-3-primary factorization or the use
+of `pi_3^s = Z/24`. What we have not found is the **inverse** reading used here -- that the no-go obstructions
+and chiralizing selectors live entirely in the 2-primary `Z/8` summand, so the 2-primary no-go is arithmetically
+**blind** to any 3-primary count (Wang *forces* `N_gen in 3Z`; we show a no-go *cannot* force it) -- together
+with the Clifford-RS embedding and the Krein index-conservation theorem.
 
 ---
 
