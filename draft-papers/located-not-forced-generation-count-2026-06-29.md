@@ -397,9 +397,12 @@ point away from a clean internal three -- and the verified `Spin(7,7) -> 1` chai
 three-generation reading. We are explicit about this throughout.
 
 **Prior art.** Deriving or constraining the generation number from topology or anomalies has substantial
-precedent (Dobrescu-Poppitz; Evans et al.; Kaplan-Sun; Garcia-Etxebarria-Montero's `Z_9` forcing
-`N_gen in 3Z`; Juven Wang's 2023 family puzzle via framed/string bordism `Z/24` and `c_- = 24`; Wan-Wang-Yau
-2026's 2-power/3-power anomaly decomposition). We claim no novelty for "topology constrains family number."
+precedent (Dobrescu-Poppitz 2001; Evans-Ibe-Kehayias-Yanagida 2012; Kaplan-Sun 2012; Garcia-Etxebarria-Montero
+2019's `Z_9` anomaly forcing `N_gen in 3Z`; Juven Wang's 2023 family puzzle via framed/string bordism `Z/24`
+with `c_- = 24`; and Wan-Wang-Yau 2026 (arXiv:2605.26202), where the group-cohomology subclass `H^5(Z_n,U(1))`
+of the 5d spin-bordism anomaly is cancellable by an anomalous `Z_n` 4d TQFT while the beyond-cohomology
+Pontryagin `p_1` part is not except at `n=2,3`, isolating `n=3`). We claim no novelty for "topology constrains
+family number." (The .tex submission source carries the full verified bibliography.)
 Our narrow novelty claim: we have not found prior work that (a) identifies the generation/chirality
 obstruction package as 2-primary and reads it as a structural blindness via the **CRT two-arena** split of
 `pi_3^s`, nor (b) places the candidate count in the 3-primary summand and reads it by the **Adams `e`-invariant

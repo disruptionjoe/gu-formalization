@@ -184,7 +184,8 @@ real or pseudoreal representation cannot carry a net chirality detectable beyond
 $0$ (an even, in fact balanced, statement).
 \item \emph{Adjoint Dirac index.} The adjoint index $2\,T(\mathrm{adj})\,k = 4k$ is divisible by $4$; over the
 full multiplicity bundle it is $12k$ or $24k$, in all cases even.
-\item \emph{Rokhlin.} For a spin $4$-manifold, $\mathrm{sign}(X)\equiv 0 \pmod{16}$, a mod-$2^4$ statement.
+\item \emph{Rokhlin}~\cite{rokhlin1952}. For a spin $4$-manifold, $\mathrm{sign}(X)\equiv 0 \pmod{16}$, a
+mod-$2^4$ statement.
 \item \emph{Spinor $2$-smoothness.} A spinor of $\SO(m)$ has dimension $2^{\lfloor m/2\rfloor}$, a power of two;
 only a non-spinor (vector, adjoint, or self-dual) family representation can be odd-dimensional.
 \item \emph{Ghost parity.} A ghost-parity resolution of the Krein hyperbolic pairs yields a $50/50$ (net $0$)
@@ -204,7 +205,7 @@ the mod-$2$ Postnikov system.''
 
 \section{The CRT two-arena structure}\label{sec:crt}
 
-We have $\pis = \Z/24$, with primary decomposition $\Z/24 = \Z/8 \oplus \Z/3$. Adams' image-of-$J$ theorem
+We have $\pis = \Z/24$, with primary decomposition $\Z/24 = \Z/8 \oplus \Z/3$. Adams' image-of-$J$ theorem~\cite{adams1966jx4}
 gives, in stem $4s-1$, that $\Imm J$ is cyclic of order $\mathrm{denom}(B_{2s}/4s)$; for $s=1$ this is $24$, so
 $\Imm J_3 = \Z/24$ and the Adams $e$-invariant detects it.
 
@@ -224,7 +225,8 @@ no before any geometric input, and the no-go's blindness to the count is a struc
 This premise is load-bearing and reconstruction-grade: under a literal \emph{integer-index} reading the same
 obstructions would instead \emph{forbid} an odd count outright (net index $0$ forces count $0$), so ``located,
 not forced'' presupposes the torsion-count reading rather than the integer-index one. The only object that can
-bridge the two arenas is anomaly inflow (Callan--Harvey / Dai--Freed), and Section~\ref{sec:decider} shows that
+bridge the two arenas is anomaly inflow (Callan--Harvey~\cite{callan1985anomalies} /
+Dai--Freed~\cite{dai1994eta}), and Section~\ref{sec:decider} shows that
 even the inflow coefficient does not, on present computation, force three.
 
 We refer to $\Z/8$ as the \emph{selector arena} and $\Z/3$ as the \emph{carrier arena}: the chiralizer lives in
@@ -245,8 +247,9 @@ chiral index is $\sim -2.4\times10^{-15}$ across signatures $(9,5)$, $(7,7)$, $(
 \end{proof}
 
 \begin{corollary}[necessary antilinear escape]
-No linear/unitary dynamics generates chiral asymmetry in this sector. By Wigner's dichotomy the unique
-symmetry-respecting escape is \emph{antilinear} (CPT / particle-hole; Altland--Zirnbauer class CII), realized by a
+No linear/unitary dynamics generates chiral asymmetry in this sector. By Wigner's
+dichotomy~\cite{wigner1931gruppentheorie} the unique symmetry-respecting escape is \emph{antilinear} (CPT /
+particle-hole; Altland--Zirnbauer class CII~\cite{altland1997nonstandard}), realized by a
 re-grading $C = \Jq\cdot G$ with $C^2 = -I$ (Kramers/PHS; the antilinear part of $C$ has norm $\sim 85$, i.e. $C$
 is genuinely antilinear, not a deviation from the stated $C^2=-I$). This is corroborated independently by a
 Seiberg--Witten moment-map degree argument: a Krein-isometric moment map is degree-$2$ homogeneous while $\ch_2$
@@ -306,7 +309,9 @@ $\mathrm{GL}(4,\R)/O(3,1)$), has framed-bordism class $\pm 2$ in $\pis = \Z/24$ 
 nonzero, order }3).
 \]
 The stabilization $\pi_3(\SO(3))\to\pi_3(\SO)$ is $\times 2$, so the stable degree is $p_1/2 = 2$, not the Dynkin
-index $4$. This is standard topology (Kirby--Melvin; the $e=p_1/48$ framed-bordism formula); only the
+index $4$. This is standard topology: the canonical framing and its $p_1$ are
+Kirby--Melvin~\cite{kirbymelvin1999}, the image-of-$J$ / $e$-invariant arithmetic ($\Imm J_3 = \Z/24$) is
+Adams~\cite{adams1966jx4}, and the normalization $e = p_1/48$ is their standard combination. Only the
 identification of GU's $\Lamp$ twist with this natural tangential framing is reconstruction-grade.
 
 \paragraph{It locates but does not fill (computed).} The carrier $\Lamp$ has net self-dual tangent-frame charge
@@ -345,13 +350,14 @@ via the frame-triviality of Section~\ref{sec:thm2}.
 \paragraph{The forcing-slot test (computed).} The gate above has been probed directly. We reverse-engineered the
 necessary conditions any source action must meet to force a count: a term simultaneously (a) tangential (carries
 $p_1$), (b) net-chiral, and (c) non-frame-trivial. A toy stabilized twisted Rarita--Schwinger sector built four
-ways (Faddeev--Popov stabilization; the twisted spin-$3/2$ Alvarez-Gaum\'e--Witten index on $K3$; the
+ways (Faddeev--Popov stabilization; the twisted spin-$3/2$ Alvarez-Gaum\'e--Witten index~\cite{alvarezgaume1984grav} on $K3$; the
 RS frame-index operator on the $\Cl(9,5)$ substrate; the gravitino anomaly polynomial), each angle adversarially
 re-verified, reaches at most two of the three properties, never all three with a $3$-primary integer. Every
 computed integer lands in the selector arena or equals one: $256 = 2^8$ (a tautological projector trace, honest
 physical-sector index $0$), $-672 = -2^5\cdot 3\cdot 7$, $-42 \equiv 0 \pmod 3$ (the $\Z/3$ identity), the
 $\mathbb{HP}^2$ unit $1$. The gravitino anomaly is not an odd-prime exception (every spin-$3/2$ coefficient is
-$2$-primary up to von Staudt--Clausen denominators), and the twisted-by-$\mathbf{16}$ index $16(-42)+3\,\ch_2(V)$
+$2$-primary up to von Staudt--Clausen~\cite{vonstaudtclausen1840} denominators), and the
+twisted-by-$\mathbf{16}$ index $16(-42)+3\,\ch_2(V)$
 is $\equiv 0 \pmod 3$ for every integer twist.
 
 \paragraph{The carrier-mass capstone (computed).} The carrier $\Lamp$ is vectorlike, hence has no chiral
@@ -367,7 +373,8 @@ balance is the antilinear chiralizer $C=\Jq\cdot G$, frame-trivial and selector-
 term: the carrier Dirac mass plus the selector-side chiral projection GU never built.
 
 \paragraph{Honestly gated, not fabricated.} Four things remain genuinely gated: (i) the $+8$ RS leg / the literal
-integer, on the unbuilt source action; (ii) the full analytic Bismut--Cheeger fibered-boundary reduction theorem
+integer, on the unbuilt source action; (ii) the full analytic Bismut--Cheeger~\cite{bismut1989eta}
+fibered-boundary reduction theorem
 for the non-product $9$-dimensional $S^6$-bundle over $\RP^3$; (iii) the families pushforward
 $\pi_!\colon \ch(S)/Y^{14}\to\ch(S_X)/X^4$, undefined because the fiber $\mathrm{GL}(4,\R)/O(3,1)$ is non-convex;
 (iv) $\text{order-}3\text{ class}\to\text{integer }3$ (Section~\ref{sec:open}). The program has previously caught
@@ -382,8 +389,9 @@ open bridge is
 \text{order-}3\text{ class} \longrightarrow \text{integer }3.
 \]
 A nonzero class in $\Z/3$ detects information mod $3$; it is not equality to the integer $3$, and the
-$e$-invariant carrying it ($\eR=1/12$) is identical for any generation count. APS, Dai--Freed, Callan--Harvey,
-and Bismut--Cheeger relate a boundary $\eta$/$e$-invariant to indices, determinant lines, anomaly phases, and
+$e$-invariant carrying it ($\eR=1/12$) is identical for any generation count. APS, Dai--Freed~\cite{dai1994eta},
+Callan--Harvey~\cite{callan1985anomalies}, and Bismut--Cheeger~\cite{bismut1989eta} relate a boundary
+$\eta$/$e$-invariant to indices, determinant lines, anomaly phases, and
 cobordism classes---never directly to an integer family count. So the identification is, in the present
 literature, a theorem of nothing, and a candidate \textbf{category error}. This is now algebraically explicit:
 there is no canonical class-to-count map at all, since $\Hom(\Z/3,\Z) = 0$ (every homomorphism from a torsion
@@ -395,24 +403,30 @@ the located carrier? Until then the result is a no-go that \emph{locates}, and t
 
 \section{Relation to Geometric Unity and to prior art}\label{sec:relation}
 
-\paragraph{Geometric Unity.} The sector is motivated by GU's matter proposal (the $14$-dimensional observerse
-$Y^{14} = \mathrm{Met}(X^4)$, the vector-spinor field, the $4+10$ split, the $\mathbf{16}$ of $\Spin(10)$, the
-self-dual base structure). The public GU draft presents the fermion sector schematically, does not build the
-matter action, states chirality is only \emph{effective}, and proposes a ``$2+1$'' picture rather than three true
-generations; Nguyen's critique argues central technical details are unverifiable from the public material. Our
+\paragraph{Geometric Unity.} The sector is motivated by GU's matter proposal~\cite{weinstein2021gu} (the
+$14$-dimensional observerse $Y^{14} = \mathrm{Met}(X^4)$, the vector-spinor field, the $4+10$ split, the
+$\mathbf{16}$ of $\Spin(10)$, the self-dual base structure). The public GU draft presents the fermion sector
+schematically, does not build the matter action, states chirality is only \emph{effective}, and proposes a
+``$2+1$'' picture rather than three true generations; the Nguyen--Polya critique~\cite{nguyen2021response}
+argues central technical details are unverifiable from the public material. Our
 results are therefore a reconstruction, and where GU's own narrative points (its $2+1$ hedge---distinct from the
 computed $\Ahat(K3)+\text{Pati--Salam}$ $2+1$ that Section~\ref{sec:decider} shows to be numerology across
 disjoint frameworks; both, however, point away from a clean internal three---and the verified
 $\Spin(7,7)\to 1$ chain), it tilts against the strong three-generation reading.
 
 \paragraph{Prior art.} Deriving or constraining the generation number from topology or anomalies has substantial
-precedent (Dobrescu--Poppitz; Evans et al.; Kaplan--Sun; Garc\'ia-Etxebarria--Montero's $\Z_9$ forcing
-$N_{\mathrm{gen}}\in 3\Z$; Juven Wang's 2023 family puzzle via framed/string bordism $\Z/24$ and $c_-=24$;
-Wan--Wang--Yau 2026's $2$-power/$3$-power anomaly decomposition). We claim no novelty for ``topology constrains
-family number.'' In a best-effort search we have found no precedent for the CRT-disjoint $2$-vs-$3$-primary
-reading---obstructions in $\Z/8$, the count in $\Z/3$---read by the Adams $e$-invariant / image of $J$. Wang
-2023's framed/string bordism $\Z/24$ is itself $\Imm J_3$, so the novel step is not the use of $\pis = \Z/24$
-(which Wang also employs) but the CRT-disjoint $2$-vs-$3$-primary split.
+precedent: Dobrescu--Poppitz~\cite{dobrescu2001number}; Evans, Ibe, Kehayias and
+Yanagida~\cite{evans2012nonanomalous}; Kaplan--Sun~\cite{kaplan2012spacetime};
+Garc\'ia-Etxebarria--Montero's $\Z_9$ anomaly forcing $N_{\mathrm{gen}}\in 3\Z$~\cite{garciaetxebarria2019daifreed};
+Juven Wang's 2023 family puzzle via framed/string bordism $\Z/24$ with chiral central charge
+$c_-=24$~\cite{wang2023family}; and Wan--Wang--Yau~\cite{wan2026fermion}, where the group-cohomology subclass
+$H^5(\Z_n,U(1))$ of the $5$d spin-bordism anomaly can be cancelled by an anomalous $\Z_n$ $4$d TQFT while the
+beyond-cohomology Pontryagin ($p_1$) part cannot except at $n=2,3$, isolating $n=3$ families. We claim no novelty
+for ``topology constrains family number.'' In a best-effort search we have found no precedent for the
+CRT-disjoint $2$-vs-$3$-primary reading---obstructions in $\Z/8$, the count in $\Z/3$---read by the Adams
+$e$-invariant / image of $J$~\cite{adams1966jx4}. Wang's framed/string bordism $\Z/24$ is itself $\Imm J_3$, so
+the novel step is not the use of $\pis = \Z/24$ (which Wang also employs) but the CRT-disjoint
+$2$-vs-$3$-primary split.
 
 \section{Status of claims}\label{sec:status}
 
@@ -480,7 +494,85 @@ single-decider integers (reproduced by an independent from-scratch script, $26/2
 test, the carrier-mass capstone, and the class-level structural no-go are checked numerically under
 \texttt{tests/} (notably \texttt{tests/generation-sector/}, \texttt{tests/decider/},
 \texttt{tests/boundary-eta/}, \texttt{tests/forcing-slot/}, \texttt{tests/carrier-mass/},
-\texttt{tests/gu-independent/}). The homotopy and $e$-invariant facts are standard (Adams; Kirby--Melvin;
-Randal-Williams). Per-result derivations are recorded in the repository \texttt{canon/} directory.
+\texttt{tests/gu-independent/}). The homotopy and $e$-invariant facts are standard
+(Adams~\cite{adams1966jx4}; Kirby--Melvin~\cite{kirbymelvin1999}). Per-result derivations are recorded in the
+repository \texttt{canon/} directory.
+
+\begin{thebibliography}{18}
+
+\bibitem{adams1966jx4}
+J.~F. Adams, \emph{On the groups $J(X)$. IV}, Topology \textbf{5} (1966) 21--71.
+DOI:10.1016/0040-9383(66)90004-8.
+
+\bibitem{altland1997nonstandard}
+A.~Altland and M.~R. Zirnbauer, \emph{Nonstandard symmetry classes in mesoscopic normal-superconducting hybrid
+structures}, Phys. Rev. B \textbf{55} (1997) 1142--1161. arXiv:cond-mat/9602137.
+
+\bibitem{alvarezgaume1984grav}
+L.~Alvarez-Gaum\'e and E.~Witten, \emph{Gravitational anomalies}, Nucl. Phys. B \textbf{234} (1984) 269--330;
+erratum \textbf{244} (1984) 421.
+
+\bibitem{bismut1989eta}
+J.-M. Bismut and J.~Cheeger, \emph{$\eta$-invariants and their adiabatic limits}, J. Amer. Math. Soc.
+\textbf{2} (1989) 33--70.
+
+\bibitem{callan1985anomalies}
+C.~G. Callan, Jr. and J.~A. Harvey, \emph{Anomalies and fermion zero modes on strings and domain walls}, Nucl.
+Phys. B \textbf{250} (1985) 427--436.
+
+\bibitem{dai1994eta}
+X.~Dai and D.~S. Freed, \emph{$\eta$-invariants and determinant lines}, J. Math. Phys. \textbf{35} (1994)
+5155--5194. arXiv:hep-th/9405012.
+
+\bibitem{dobrescu2001number}
+B.~A. Dobrescu and E.~Poppitz, \emph{Number of fermion generations derived from anomaly cancellation}, Phys.
+Rev. Lett. \textbf{87} (2001) 031801. arXiv:hep-ph/0102010.
+
+\bibitem{evans2012nonanomalous}
+J.~L. Evans, M.~Ibe, J.~Kehayias and T.~T. Yanagida, \emph{Non-anomalous discrete $R$-symmetry decrees three
+generations}, Phys. Rev. Lett. \textbf{109} (2012) 181801. arXiv:1111.2481.
+
+\bibitem{garciaetxebarria2019daifreed}
+I.~Garc\'ia-Etxebarria and M.~Montero, \emph{Dai-Freed anomalies in particle physics}, JHEP \textbf{08} (2019)
+003. arXiv:1808.00009.
+
+\bibitem{kaplan2012spacetime}
+D.~B. Kaplan and S.~Sun, \emph{Spacetime as a topological insulator: mechanism for the origin of the fermion
+generations}, Phys. Rev. Lett. \textbf{108} (2012) 181807. arXiv:1112.0302.
+
+\bibitem{kirbymelvin1999}
+R.~Kirby and P.~Melvin, \emph{Canonical framings for 3-manifolds}, Turkish J. Math. \textbf{23} (1999) 89--115.
+arXiv:math/9903056.
+
+\bibitem{nguyen2021response}
+T.~Nguyen and T.~Polya, \emph{A response to Geometric Unity}, self-published manuscript, February 23, 2021.
+\url{https://files.timothynguyen.org/geometric_unity.pdf}. Not on arXiv.
+
+\bibitem{rokhlin1952}
+V.~A. Rokhlin, \emph{New results in the theory of four-dimensional manifolds}, Doklady Akad. Nauk SSSR
+\textbf{84} (1952) 221--224.
+
+\bibitem{vonstaudtclausen1840}
+K.~G.~C. von Staudt, \emph{Beweis eines Lehrsatzes, die Bernoullischen Zahlen betreffend}, J. Reine Angew. Math.
+\textbf{21} (1840) 372--374; T.~Clausen, Astron. Nachr. \textbf{17} (1840) 351--352.
+
+\bibitem{wan2026fermion}
+Z.~Wan, J.~Wang and S.-T. Yau, \emph{Fermion Families and Pontryagin Class: Topological Field Theory via Colour
+Symmetry Extension}, arXiv:2605.26202 [hep-th] (2026).
+
+\bibitem{wang2023family}
+J.~Wang, \emph{Family Puzzle, Framing Topology, $c_-=24$ and $3(E_8)_1$ Conformal Field Theories}, arXiv:2312.14928
+[hep-th] (2023).
+
+\bibitem{weinstein2021gu}
+E.~Weinstein, \emph{Geometric Unity (author's working draft)}, self-published manuscript, April 1, 2021.
+\url{https://geometricunity.org/}. Not on arXiv.
+
+\bibitem{wigner1931gruppentheorie}
+E.~P. Wigner, \emph{Group Theory and Its Application to the Quantum Mechanics of Atomic Spectra}, Academic Press,
+New York, 1959 (transl. of \emph{Gruppentheorie und ihre Anwendung auf die Quantenmechanik der Atomspektren},
+Vieweg, Braunschweig, 1931).
+
+\end{thebibliography}
 
 \end{document}
