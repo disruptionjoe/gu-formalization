@@ -2,6 +2,11 @@
 
 **Draft for external review. This paper does NOT claim three generations. See Sections 1 and 8.**
 
+*arXiv submission source: [`located-not-forced-generation-count-2026-06-29.tex`](located-not-forced-generation-count-2026-06-29.tex)
+(LaTeX; this markdown is the readable working copy). Suggested classification: primary **hep-th**; secondary
+**math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
+index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
+
 Version 2.1, 2026-06-29. (v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the carrier-mass
 capstone; v2.0 the GU-independent class-level structural no-go; v2.1 hostile-referee punch-list applied --
 regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the "necessarily external"
