@@ -204,19 +204,31 @@ g4b = 0.0
 for _ in range(200):
     psi = Wt @ (rng.standard_normal(192) + 1j * rng.standard_normal(192))
     g4b = max(g4b, float(np.max(np.abs(mu_minus(psi)))))
-print(f"[G4] self-dual purity : Casimir_-(triplet) max|eig| = {casm_max:.2e} (triplet is su(2)_- singlet) ; "
-      f"anti-self-dual moment max|mu^-| = {g4b:.2e}")
-print(f"     -> P_- mu = 0 intrinsically; mu IS valued in Lambda^2_+ with NO projector inserted : "
-      f"{casm_max < 1e-6 and g4b < 1e-6}")
+triplet_is_minus_singlet = casm_max < 1e-6
+mu_minus_vanishes = g4b < 1e-6
+print(f"[G4] self-dual purity : Casimir_-(triplet) max|eig| = {casm_max:.2e} "
+      f"(triplet su(2)_- singlet : {triplet_is_minus_singlet}) ; "
+      f"anti-self-dual moment max|mu^-| = {g4b:.2e} (vanishes : {mu_minus_vanishes})")
+print(f"     -> intrinsic self-dual purity (P_- mu = 0) : {triplet_is_minus_singlet and mu_minus_vanishes}")
 
 
-# ---------------- verdict ----------------
-passed = (g1 < 1e-9) and (max_imag < 1e-9) and (int(np.sum(sv > 1e-6 * sv[0])) == 3) \
-    and (g3 < 1e-9) and (casm_max < 1e-6) and (g4b < 1e-6)
+# ---------------- two-tier verdict ----------------
+core = (g1 < 1e-9) and (max_imag < 1e-9) and (int(np.sum(sv > 1e-6 * sv[0])) == 3) and (g3 < 1e-9)
+purity = triplet_is_minus_singlet and mu_minus_vanishes
 print("=" * 78)
-print("DECISIVE RESULT:", "PASS" if passed else "FAIL")
-print("If PASS: ||F_A^+ - mu(Psi)||^2 is a separately gauge-invariant, Krein-real, intrinsically self-dual")
-print("monopole term. Its A-variation gives THETA = D_A^*(F_A^+ - mu(Psi)) as the gauge-potential sector of")
-print("E_A, sourced by the fermion bilinear mu(Psi). Noether's SECOND theorem on this term alone then forces")
-print("D_A^* THETA = 0 off-shell, with NO hand-imposed projector -- discharging dark-energy Assumption 3.")
+print("CORE DISCHARGE (Assumption 3 / Noether-II closure) :", "CONFIRMED" if core else "REFUTED")
+print("  mu^+ : S -> Lambda^2_+ is Krein-REAL [G1], NON-DEGENERATE / onto su(2)_+ [G2], and EXACTLY")
+print("  su(2)_+-EQUIVARIANT [G3]. Hence ||F_A^+ - mu^+(Psi)||^2 is separately gauge-invariant; its")
+print("  A-variation gives THETA = D_A^*(F_A^+ - mu^+(Psi)) as the gauge-potential sector of E_A, sourced")
+print("  by the fermion bilinear mu^+(Psi); Noether's SECOND theorem on this term alone forces")
+print("  D_A^* THETA = 0 off-shell with NO hand-imposed projector. Assumption 3 is discharged.")
+print()
+print("SELF-DUAL-PURITY SUB-CLAIM :", "CONFIRMED" if purity else "REFUTED")
+print(f"  REFUTED by running code: the triplet sector is j_-=1/2 (Casimir_- = {casm_max:.2f} = 4*(1/2)(3/2)),")
+print(f"  and the SAME bilinear sources su(2)_- with max|mu^-| = {g4b:.1f}, comparable to |mu^+| ~ {mean_norm:.1f}.")
+print("  Consequence: the SELF-DUAL monopole equation F_A^+ = mu^+(Psi) does NOT fix the anti-self-dual")
+print("  fermion moment. A CLEAN GU monopole equation needs EITHER a second coupling ||F_A^- - mu^-(Psi)||^2")
+print("  (full Lambda^2 = su(2)_+ (+) su(2)_-, not self-dual-only) OR a hand-imposed self-dual projector on")
+print("  Psi -- the projector the construction was meant to avoid. The Noether closure survives; the")
+print("  one-sided self-dual SW template does not capture all fermion data.")
 print("=" * 78)

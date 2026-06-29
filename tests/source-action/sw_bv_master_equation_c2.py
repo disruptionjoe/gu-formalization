@@ -241,20 +241,30 @@ def main():
         print(f"    sigma_{nm:6s}: min escape = {esc:8.4f} at lambda={lam:+.3f}  "
               f"(C2={c2:8.3f}, anti-trap={at:8.3f})   reaches 0? {esc < 1e-6}")
 
-    # combined 3-parameter best (independent amplitudes per channel), greedy (cheap, precomputed):
+    # combined 3-parameter best: escape/C2/anti-trap are QUADRATIC FORMS in the coefficients,
+    # so build the 4x4 real Gram of [bare, ch1, ch2, ch3] ONCE and minimize the quadratic
+    # (microsecond-fast; avoids recombining 51MB matrices in the inner loop).
+    Ebasis, Gbasis, Abasis = [E0] + Ek, [G0] + Gk, [AT0] + ATk
+    GE = np.array([[float(np.real(np.vdot(X, Y))) for Y in Ebasis] for X in Ebasis])
+    GG = np.array([[float(np.real(np.vdot(X, Y))) for Y in Gbasis] for X in Gbasis])
+    GA = np.array([[float(np.real(np.vdot(X, Y))) for Y in Abasis] for X in Abasis])
+
+    def q(M, c):
+        a = np.array([1.0, c[0], c[1], c[2]])
+        return float(np.sqrt(max(a @ M @ a, 0.0)))
+
     coeffs = np.zeros(3)
-    cur = metrics_coeffs(coeffs)[0]
-    grid = np.linspace(-2.0, 2.0, 81)
-    for _ in range(6):
+    cur = q(GE, coeffs)
+    grid = np.linspace(-3.0, 3.0, 241)
+    for _ in range(8):
         for ci in range(3):
             best_local = (coeffs[ci], cur)
             for g in grid:
                 trial = coeffs.copy(); trial[ci] = g
-                esc, _, at = metrics_coeffs(trial)
-                if esc < best_local[1] and at > 1e-6:        # keep anti-trap alive
-                    best_local = (g, esc)
+                if q(GE, trial) < best_local[1] and q(GA, trial) > 1e-6:   # keep anti-trap alive
+                    best_local = (g, q(GE, trial))
             coeffs[ci], cur = best_local
-    esc_c, c2_c, at_c = metrics_coeffs(coeffs)
+    esc_c, c2_c, at_c = q(GE, coeffs), q(GG, coeffs), q(GA, coeffs)
     print(f"    COMBINED greedy (rot,maj,antiK)={coeffs}: escape={esc_c:.4f}  C2={c2_c:.3f}  "
           f"anti-trap={at_c:.3f}  reaches 0? {esc_c < 1e-6}")
 
@@ -334,12 +344,17 @@ def main():
     print(f"  bare escape (obstruction)          = {escape0:.4f}   (C2 = {C2_0:.4f} = sqrt(14)*escape)")
     print(f"  min escape over SW compensators    = {min_escape:.4f}   (reaches 0 => master eq closes: {closes})")
     print(f"  anti-trap ||[Pi_RS,M_D]||          = {anti_trap:.4f}   (held; RS coupled, VZ evaded)")
-    print(f"  SW moment map cross-chirality      => compensator lands in chirality blocks orthogonal to")
-    print(f"                                        the chirality-EVEN escape (see [E]) => CANNOT cancel it.")
+    print(f"  MECHANISM (the real reason, see [D] Gram diag = ~5e-16 for ALL channels):")
+    print(f"    every SW compensator is built from the su(2)+ generators J_k (and K) on the j=1 triplet")
+    print(f"    INSIDE ker(Gamma); the J_k COMMUTE with Pi_RS (||[J,Pi]||~1e-9), so the whole compensator")
+    print(f"    span lies in the commutant of Pi_RS => (I-Pi_RS) sigma_c Pi_RS = 0 EXACTLY (not merely")
+    print(f"    chirality-orthogonal: sigma_maj/antiK are in the escape's OWN +-/-+ sector yet still")
+    print(f"    contribute 0). The obstruction lives in the NON-commutant of Pi_RS (the dynamics M_D),")
+    print(f"    which BICOMPLEX-01 showed needs the off-symbol Y14 connection-curvature.")
     print(f"  => master-equation obstruction C2 is NOT closable by the SW symbol-level compensator;")
-    print(f"     independently re-confirms BICOMPLEX-01 (C2 needs the off-symbol Y14 curvature), now")
-    print(f"     from the SW direction. The SW coupling DOES supply the seesaw Majorana block (discharge C),")
-    print(f"     but that block is chirality-orthogonal to the BRST-invariance obstruction.")
+    print(f"     independently re-confirms BICOMPLEX-01 from the SW direction. The SW coupling DOES supply")
+    print(f"     the seesaw Majorana block (discharge C: sigma_rot, chirality-preserving, non-equivariant),")
+    print(f"     but that block commutes with Pi_RS => decoupled from the BRST-invariance gate.")
     print("=" * 92)
     return {
         "anti_trap": anti_trap, "escape0": escape0, "C2_0": C2_0,

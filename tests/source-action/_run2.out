@@ -1,8 +1,0 @@
-==============================================================================
-MOMENT MAP mu : S -> Lambda^2_+ = su(2)_+  and the Noether-II closure  D_A^* THETA = 0
-signature (9,5); triplet sector dim = 192 (= 3 x 64, carries the 16/16bar)
-==============================================================================
-[G1] Krein anti-self-adjoint  max||J^dag K + K J|| = 0.00e+00   -> mu^k is REAL : True
-[G2] mu real : max|Im mu| = 2.84e-14 ; non-degenerate : mean||mu|| = 70.560, singular values of the mu-image = [933.76 861.97 846.57]
-     -> rank of moment image over su(2)_+ = 3 (want 3 = onto Lambda^2_+)
-[--] su(2)_+ closes : max|| [J_a,J_b] - sum f_ab^c J_c || = 0.00e+00  (f_012 = -2.00)
