@@ -30,7 +30,9 @@ index `4k`, Rokhlin mod 16, a spinor 2-smoothness lemma, ghost parity), so the n
 incapable of imposing an odd-prime congruence and is structurally blind to the 3-primary summand of
 `pi_3^s = Z/24 = Z/8 (+) Z/3`. Second, a **machine-verified index-conservation theorem**: the invariant Krein
 form on the generation triplet is purely cross-chirality `(+96, -96)`, so every *linear* Krein-isometric
-operator conserves the net chiral index at zero (verified across signatures `(9,5)`, `(7,7)`, `(14,0)`), and
+operator conserves the net chiral index at zero -- a finite-dimensional fact (the cross-chirality `(96,96)` form
+makes every physical subspace chirality-balanced; no Fredholm theory), confirmed in the physical signatures
+`(9,5)`, `(7,7)` with Euclidean `(14,0)` as a chirality-detecting control -- and
 the unique symmetry-respecting escape is an **antilinear** (CPT / particle-hole, Altland-Zirnbauer class CII)
 re-grading.
 
@@ -84,8 +86,10 @@ the strongest possible reading of it by direct computation. Our contributions:
    the sole possible bridge. This is the unifying frame: the no-go is blind to the count not by weakness but
    by arithmetic.
 3. **An index-conservation theorem, a necessary antilinear escape, and a class-level structural no-go
-   (Section 5).** Every linear Krein-isometric operator conserves the net chiral index at zero (proven by
-   connectedness of `U(96,96)`, machine-corroborated); the unique symmetry-respecting escape is antilinear.
+   (Section 5).** Every linear Krein-isometric operator conserves the net chiral index at zero (proven directly:
+   the cross-chirality `(96,96)` form makes every physical subspace a chirality-balanced graph -- a
+   finite-dimensional fact, no Fredholm theory; machine-corroborated); the unique symmetry-respecting escape is
+   antilinear.
    Reopened GU-independently: **no covariant operator found -- linear or antilinear -- interior to a Clifford-RS
    sector of this class forces an odd chiral count.** Frame-triviality is evadable, but only into a 2-primary,
    index-conserving channel (a linear `O = L_SD (x) X_L` is net-chiral and frame-active, yet by Theorem 2
@@ -190,12 +194,18 @@ in the carrier arena, and they do not meet.
 **Theorem 2.** *Every linear Krein-isometric operator on the generation triplet conserves the net chiral
 index at zero.*
 
-**Proof.** The chirality grading makes the invariant form a `(96, 96)` hyperbolic pairing on the carrier, and
-the linear Krein isometries of such a form constitute `U(96, 96)`, which is **connected**. The net chiral index
-is an integer-valued continuous function on this group, hence constant, equal to its value at the identity --
-which is `0`, the `(+96, -96)` split. So no linear Krein-isometric operator can move it. Machine-corroborated:
-net chiral index `~ -2.4e-15` across signatures `(9,5)`, `(7,7)`, `(14,0)`
-(`tests/generation-sector/swing_ghost_parity_chiral_selection.py`, `t1a_kinematic_chirality_kill.py`). QED.
+**Proof (finite-dimensional; the `.tex` carries the full statement and proof).** The cross-chirality `(96,96)`
+Krein form makes the chirality eigenspaces `W_+`, `W_-` K-Lagrangian (K-isotropic), with K the pairing between
+them. A *physical* subspace is a maximal K-positive-definite subspace `P` (dim 96). Since Lagrangians are K-null
+and `P` is positive-definite, `P ∩ W_+ = P ∩ W_- = {0}`, so `P` projects isomorphically onto **both** `W_+` and
+`W_-`: `P` is the graph of an isomorphism `W_+ → W_-`, hence chirality-balanced, so the net chiral index
+`χ(P) = dim π_+(P) − dim π_-(P) = 0`. A linear K-isometry maps physical subspaces to physical subspaces, so
+`χ(UP) = χ(P) = 0`. This is elementary finite-dimensional linear algebra -- no Hilbert space, Fredholm operator,
+or spectral flow -- so the "you need a Fredholm index" objection does not apply, and group connectedness plays
+no role (`χ` is identically 0, not merely constant). Machine-corroborated
+(`tests/generation-sector/net_chiral_index_invariant.py`, building on `ghost_parity_krein.py`,
+`t1a_kinematic_chirality_kill.py`): `χ = 0` in the physical indefinite signatures `(9,5)`, `(7,7)`; Euclidean
+`(14,0)` is grading-*aligned* (Γ commutes with K), giving `|χ| = 96` as a chirality-detecting control. QED.
 
 **Corollary (necessary antilinear escape).** No linear / unitary dynamics generates chiral asymmetry in this
 sector. By Wigner's dichotomy the unique symmetry-respecting escape is **antilinear** (CPT / particle-hole;

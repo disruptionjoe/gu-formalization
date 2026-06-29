@@ -22,6 +22,8 @@
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{corollary}{Corollary}
+\theoremstyle{definition}
+\newtheorem{definition}{Definition}
 \theoremstyle{remark}
 \newtheorem*{remark}{Remark}
 
@@ -51,7 +53,7 @@ for the Generation Count in a Clifford Rarita--Schwinger Sector}
 AI-directed research process; all load-bearing computations are reproducible from the public repository linked
 in the Data Availability section.}}
 
-\date{Version 2.2, 2026-06-29}
+\date{Version 2.3, 2026-06-29}
 
 \begin{document}
 
@@ -72,8 +74,8 @@ of the theorem-grade results depends on GU being correct.
 
 We prove a \emph{two-primary meta-theorem} (no obstruction to a net chiral count in this sector is an odd-prime
 congruence) and an \emph{index-conservation theorem} (every linear Krein-isometric operator on the generation
-triplet conserves the net chiral index at zero, because the linear Krein isometries form the connected group
-$U(96,96)$). The decomposition $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is the central structural fact: by the Chinese
+triplet conserves the net chiral index at zero, because the purely cross-chirality $(96,96)$ form makes every
+physical subspace chirality-balanced---a finite-dimensional fact, no Fredholm theory). The decomposition $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is the central structural fact: by the Chinese
 Remainder Theorem the summands are disjoint, every obstruction and chiralizing selector lives in the $2$-primary
 $\Z/8$ summand, and a homotopy-theoretic count, if it exists, lives only in the odd-torsion $\Z/3$ summand. We
 exhibit a genuine order-$3$ object in that summand---the framed-bordism Adams $e$-invariant $\eR=1/12$ carried by
@@ -90,10 +92,12 @@ proof (an exhaustive non-existence theorem is open). On present evidence the gen
 general kind by which chirality arises in known chiral theories (chiral gauge couplings, instanton zero-modes,
 $K3$/Calabi--Yau compactification).
 
-We do \emph{not} claim three generations. We claim a no-go that \emph{locates}, and that relocates the count to
-external background data; the identification $\text{order-}3\text{ class}\to\text{integer }3$ is posed as the
-single named open conjecture (a candidate category error, made algebraically explicit by $\Hom(\Z/3,\Z)=0$).
-External review of both the core results and the open bridge is requested.
+We do \emph{not} claim three generations. The ``located, not forced'' reading is contingent on treating the
+obstruction data torsion-theoretically; under a literal integer-valued chiral-index reading the same
+obstructions would instead \emph{forbid} an odd count outright. We claim a no-go that \emph{locates}, and that
+relocates the count to external background data; the identification $\text{order-}3\text{ class}\to\text{integer
+}3$ is posed as the single named open conjecture (a candidate category error, made algebraically explicit by
+$\Hom(\Z/3,\Z)=0$). External review of both the core results and the open bridge is requested.
 \end{abstract}
 
 \section{Introduction}\label{sec:intro}
@@ -113,20 +117,25 @@ theorem-grade results (the two-primary meta-theorem, the index-conservation theo
 the $\Hom(\Z/3,\Z)=0$ sharpening) hold for the Clifford--Rarita--Schwinger sector as a piece of mathematics,
 whether or not GU is correct. Second, \emph{located} versus \emph{forced}: we show precisely \emph{where} a
 generation count could live and that the geometry cannot, from inside, \emph{force} one; we do not derive the
-number three.
+number three. This no-force reading is contingent on treating the obstruction data \emph{torsion-theoretically}:
+under a literal integer-valued chiral-index reading the same obstructions would instead \emph{forbid} an odd
+count outright. We state this load-bearing premise as Corollary~\ref{cor:arenas}.
 
 Our contributions:
 \begin{enumerate}[leftmargin=2em]
 \item \textbf{A two-primary meta-theorem (Section~\ref{sec:thm1}).} No obstruction to a net chiral count in this
 sector is an odd-prime congruence; in particular none imposes a mod-$3$ condition. [theorem, theory-independent]
-\item \textbf{A CRT two-arena structure (Section~\ref{sec:crt}).} $\pis = \Z/24 = \Z/8 \oplus \Z/3$ splits, by
-the Chinese Remainder Theorem, into disjoint summands. Every obstruction \emph{and} every chiralizing selector
-lives in $\Z/8$; a homotopy-theoretic count lives only in $\Z/3$. The two arenas cannot interact directly;
-anomaly inflow is the sole possible bridge. [theorem, theory-independent, under the torsion-count reading; see
-Corollary~\ref{cor:arenas}]
+\item \textbf{A CRT two-arena reading (Section~\ref{sec:crt}).} The decomposition
+$\pis = \Z/24 = \Z/8 \oplus \Z/3$ is standard primary decomposition, already used in the prior family-puzzle
+literature; we claim no novelty for it. The contribution is the structural \emph{reading}: every obstruction
+\emph{and} every chiralizing selector lives in $\Z/8$, a homotopy-theoretic count lives only in $\Z/3$, the two
+arenas cannot interact directly (anomaly inflow is the sole possible bridge), and hence a $2$-primary no-go
+cannot force an odd count. [interpretive structural reading on standard input, theory-independent, under the
+torsion-count reading; see Corollary~\ref{cor:arenas}]
 \item \textbf{An index-conservation theorem, a necessary antilinear escape, and a class-level structural no-go
 (Section~\ref{sec:thm2}).} Every linear Krein-isometric operator conserves the net chiral index at zero (proven
-by connectedness of $U(96,96)$); the unique symmetry-respecting escape is antilinear. Reopened GU-independently:
+finite-dimensionally: every maximal $K$-positive subspace is chirality-balanced); the unique
+symmetry-respecting escape is antilinear. Reopened GU-independently:
 no covariant operator found---linear or antilinear---interior to a Clifford--Rarita--Schwinger sector of this
 class forces an odd chiral count. The chiralizer's frame-triviality is evadable only into a $2$-primary,
 index-conserving channel, and no frame-non-trivial antilinear loophole survived an adversarial hunt (an
@@ -234,24 +243,89 @@ the selector arena, the count-carrier in the carrier arena, and they do not meet
 
 \section{Theorem 2: index conservation, the antilinear escape, and the structural no-go}\label{sec:thm2}
 
+\paragraph{Setup (finite-dimensional).} Let $W$ be the $192$-dimensional complex generation carrier, equipped
+with a nondegenerate Hermitian Krein form $K$ of signature $(96,96)$ and a chirality grading
+$\Gamma\colon W\to W$, $\Gamma^2=I$, with $\pm1$-eigenspaces $W_+,W_-$ of dimension $96$ each and grading
+projections $\pi_\pm=\tfrac12(I\pm\Gamma)$. The form is \emph{purely cross-chirality} (``Krein signature exactly
+$(+96,-96)$,'' vectorlike; verified in \texttt{tests/generation-sector/ghost\_parity\_krein.py}): the eigenspaces
+$W_+$ and $W_-$ are each $K$-isotropic (Lagrangian), $K|_{W_+\times W_+}=K|_{W_-\times W_-}=0$, and $K$ restricts
+to a perfect pairing $W_+\times W_-\to\mathbb{C}$. A \emph{physical subspace} is a maximal $K$-positive-definite
+subspace $P\subseteq W$ (i.e.\ $K(v,v)>0$ for all $v\in P\setminus\{0\}$); by Sylvester's law every such $P$ has
+$\dim P=96$, the positive index of inertia.
+
+\begin{definition}[net chiral index]\label{def:chi}
+For a physical subspace $P$, set $\chi(P):=\dim\pi_+(P)-\dim\pi_-(P)\in\Z$.
+\end{definition}
+
+\noindent This is the net handedness of the physical sector: it counts left-minus-right chiral content of the
+$96$ physical states. It is a difference of dimensions of finite-dimensional subspaces---a manifestly
+integer-valued invariant, defined with no Hilbert completion, no Fredholm operator, and no spectral flow. (As a
+sanity check that $\chi$ genuinely \emph{detects} chirality and is not zero by construction: take instead a
+grading-\emph{aligned} form $K=\mathrm{diag}(I_{96},-I_{96})$---of the same total signature $(96,96)$, but with
+$\Gamma$ now \emph{commuting} with $K$ rather than anticommuting, so $W_+$ is $K$-positive-definite and $W_-$
+$K$-negative-definite. Then the canonical physical subspace $P=W_+$ gives $\chi(W_+)=+96$, a maximally chiral
+configuration. Thus $\chi$ is genuinely sensitive to the relation between $\Gamma$ and $K$; it is forced to $0$
+below precisely because the form is purely cross-chirality.)
+
 \begin{theorem}\label{thm:2}
-Every linear Krein-isometric operator on the generation triplet conserves the net chiral index at zero.
+On the $(96,96)$ cross-chirality carrier, every physical subspace $P$ satisfies $\chi(P)=0$. Consequently every
+linear Krein-isometric operator $U$ (i.e.\ $K(Ux,Uy)=K(x,y)$) maps physical subspaces to physical subspaces and
+conserves the net chiral index at zero: $\chi(UP)=\chi(P)=0$.
 \end{theorem}
 
 \begin{proof}
-The chirality grading makes the invariant form a $(96,96)$ hyperbolic pairing on the carrier, and the linear
-Krein isometries of such a form constitute the group $U(96,96)$, which is \emph{connected}. The net chiral index
-is an integer-valued continuous function on this group, hence constant, equal to its value at the identity---which
-is $0$, the $(+96,-96)$ split. So no linear Krein-isometric operator can move it. Machine-corroborated: the net
-chiral index is $\sim -2.4\times10^{-15}$ across signatures $(9,5)$, $(7,7)$, $(14,0)$.
+\emph{Transversality.} Each eigenspace $W_\pm$ is $K$-isotropic, so every vector of $W_\pm$ is $K$-null;
+$P$ is $K$-positive-definite, so its only $K$-null vector is $0$. Hence $P\cap W_+=P\cap W_-=\{0\}$.
+
+\emph{Balance.} Since $\ker(\pi_+|_P)=P\cap W_-=\{0\}$, the restriction $\pi_+|_P\colon P\to W_+$ is injective
+between spaces of equal dimension $96$, hence an isomorphism; likewise $\pi_-|_P\colon P\to W_-$. Therefore
+$\dim\pi_+(P)=\dim\pi_-(P)=96$ and $\chi(P)=0$. Equivalently, $P$ is the graph of the linear isomorphism
+$T:=(\pi_-|_P)\circ(\pi_+|_P)^{-1}\colon W_+\xrightarrow{\ \sim\ }W_-$, i.e.\ it is chirality-balanced.
+
+\emph{Conservation.} A linear $K$-isometry $U$ preserves $K(v,v)$, hence carries $K$-positive-definite subspaces
+to $K$-positive-definite subspaces and preserves dimension, so $UP$ is again a physical subspace. By the first
+part $\chi(UP)=0=\chi(P)$.
 \end{proof}
+
+\begin{remark}[no Fredholm theory is needed]
+The invariant of Definition~\ref{def:chi} is a difference of dimensions of subspaces of a $192$-dimensional
+space, and the theorem proves it equals $0$ \emph{pointwise} for every physical subspace by elementary linear
+algebra (transversality of a positive-definite subspace to a pair of complementary Lagrangians). No Hilbert
+space, Fredholm operator, analytic index, or spectral flow enters. The objection that index conservation ``looks
+like a category error requiring a Fredholm/spectral-flow setup'' applies only to an \emph{infinite-dimensional}
+analytic index, where invariance is a continuity/homotopy statement; here the carrier is finite-dimensional and
+$\chi$ is exactly, not asymptotically, an integer, so the objection does not arise. The connectedness of the
+isometry group plays no role in the argument: $\chi$ is identically $0$, not merely constant.
+\end{remark}
+
+\begin{remark}[connectedness, demoted to corroboration]
+The earlier one-line argument---``$U(96,96)$ is connected, so the integer $\chi$ is constant''---is corroborative
+only and is not load-bearing. (It is also better phrased on the space of physical subspaces than on the group:
+the maximal $K$-positive subspaces form the connected, indeed contractible, bounded symmetric domain
+$U(96,96)/\!\bigl(U(96)\times U(96)\bigr)$, on which the integer-valued $\chi$ is constant.) We keep it only as a
+consistency check; the proof above establishes $\chi\equiv0$ directly.
+\end{remark}
+
+\noindent\emph{Machine-corroborated} (\texttt{tests/generation-sector/net\_chiral\_index\_invariant.py}, building
+on \texttt{ghost\_parity\_krein.py} and \texttt{t1a\_kinematic\_chirality\_kill.py}): on the abstract $(96,96)$
+cross-chirality model, $\Gamma$ is $K$-anti-self-adjoint ($\|\Gamma K+K\Gamma\|=0$), a maximal $K$-positive
+subspace has $\dim\pi_+(P)=\dim\pi_-(P)=96$ so $\chi(P)=0$, and a random linear Krein isometry
+($\|U^{\dagger}KU-K\|/\|K\|\approx5\times10^{-16}$) preserves $\chi(UP)=0$; the grading-aligned control gives
+$\chi=+96$. On the real GU triplet the cross-chirality hypothesis ($\Gamma$ $K$-anti-self-adjoint) holds, and
+hence $\chi=0$, in the \emph{physical indefinite} signatures $(9,5)$ and $(7,7)$ (those with timelike directions,
+where the Krein form is genuinely indefinite). In Euclidean $(14,0)$ the grading instead \emph{commutes} with $K$
+($\|\Gamma K-K\Gamma\|=0$): the form is grading-aligned and the triplet is fully chiral, $|\chi|=96$---a second
+non-triviality control, and consistent with the Krein structure requiring $q>0$ (a non-compact internal group;
+cf.\ \texttt{canon/ghost-parity-krein-synthesis.md}).
 
 \begin{corollary}[necessary antilinear escape]
 No linear/unitary dynamics generates chiral asymmetry in this sector. By Wigner's
 dichotomy~\cite{wigner1931gruppentheorie} the unique symmetry-respecting escape is \emph{antilinear} (CPT /
 particle-hole; Altland--Zirnbauer class CII~\cite{altland1997nonstandard}), realized by a
 re-grading $C = \Jq\cdot G$ with $C^2 = -I$ (Kramers/PHS; the antilinear part of $C$ has norm $\sim 85$, i.e. $C$
-is genuinely antilinear, not a deviation from the stated $C^2=-I$). This is corroborated independently by a
+is genuinely antilinear, not a deviation from the stated $C^2=-I$). The class-CII data are present: the chiral
+grading $G$ supplies the chiral symmetry and the quaternionic Kramers structure $\Jq$ supplies the antiunitary
+particle-hole $C$ with $C^2 = -I$. This is corroborated independently by a
 Seiberg--Witten moment-map degree argument: a Krein-isometric moment map is degree-$2$ homogeneous while $\ch_2$
 is degree-$0$ and connection-independent, so a source action built from it is orthogonal to the topological index.
 \end{corollary}
@@ -301,7 +375,13 @@ relocated to external background data.
 
 \section{The located order-3 carrier}\label{sec:carrier}
 
-The order-$3$ content lives in exactly one place. The self-dual $\SU(2)_+ = \Lamp$ structure, read as a
+The order-$3$ content lives in exactly one place.\footnote{Throughout, ``order $3$'' names the $3$-primary
+\emph{component} of the framed class, not the order of the class as a group element. The class is
+$2\in\pis=\Z/24$, which has order $12$ as an element. Under the CRT splitting $\Z/24\cong\Z/8\oplus\Z/3$ it is
+$(2\bmod 8,\,2\bmod 3)=(2,2)$: the $\Z/8$ component has order $4$, and the $\Z/3$ component $2\in\Z/3$ is the
+nonzero element, of order $3$. The ``order-$3$ carrier'' is this $\Z/3$ component---the summand the $2$-primary
+no-go is blind to, and the one $\Hom(\Z/3,\Z)=0$ concerns---never a claim that the element itself has order
+$3$.} The self-dual $\SU(2)_+ = \Lamp$ structure, read as a
 \emph{tangential} framing on $\RP^3 = L(2;1)$ (the deformation-retract spine of the metric fiber
 $\mathrm{GL}(4,\R)/O(3,1)$), has framed-bordism class $\pm 2$ in $\pis = \Z/24$ and Adams $e$-invariant
 \[
@@ -309,13 +389,26 @@ $\mathrm{GL}(4,\R)/O(3,1)$), has framed-bordism class $\pm 2$ in $\pis = \Z/24$ 
 framing degree }p_1/2 = 2;~\text{class }2~\text{in}~\Z/24;~\text{the }3\text{-primary part of the class is
 nonzero, order }3).
 \]
-The stabilization $\pi_3(\SO(3))\to\pi_3(\SO)$ is $\times 2$, so the stable degree is $p_1/2 = 2$, not the Dynkin
-index $4$. This is standard topology: $p_1 = 4$ for the adjoint charge-$1$ bundle, and the stable framing degree
-is $p_1/2$ (the spin characteristic class $p_1/2$ generates $H^4(B\mathrm{Spin})$); canonical framings of
-$3$-manifolds and their Pontryagin normalization are Kirby--Melvin~\cite{kirbymelvin1999}; the image-of-$J$ /
-$e$-invariant arithmetic ($\Imm J_3 = \Z/24$, generator $e$-value $1/24$) is Adams~\cite{adams1966jx4}. The
-relation $e = p_1/48 = (p_1/2)/24$ is the composite of the framing degree $p_1/2$ with Adams' $e$-invariant, not
-a formula quoted verbatim from either source. Only the identification of GU's $\Lamp$ twist with this natural
+\paragraph{Normalization conventions (fixed once, to remove generator/sign ambiguity).}
+The value $\eR=1/12$ depends on exactly three conventions, which we state explicitly; given them it is rigid.
+\emph{(i) Generator of $H^4(B\mathrm{Spin};\Z)$.} $H^4(B\mathrm{Spin}(n);\Z)\cong\Z$ is generated by the spin
+characteristic class $\tfrac12 p_1$, so $p_1=2\cdot(\text{generator})$ (McLaughlin~\cite{mclaughlin1992};
+restated by Sati--Shim~\cite{satishim2015}). The adjoint charge-$1$ ($c_2=1$) bundle has $p_1=4$ (the Dynkin
+index of the $\SU(2)$ adjoint), hence $\tfrac12 p_1=2$.
+\emph{(ii) Stabilization is $\times 2$.} $\pi_3(\SO(3))\cong\Z$ and $\pi_3(\SO)\cong\Z$, and the map
+$\pi_3(\SO(3))\to\pi_3(\SO)$ induced by $\SO(3)\hookrightarrow\SO$ is multiplication by $2$ (standard; the
+Pontryagin / framing normalization is Kirby--Melvin~\cite{kirbymelvin1999}). The charge-$1$ adjoint bundle is
+the generator of $\pi_3(\SO(3))$ (via $\SU(2)=\Spin(3)\to\SO(3)$, an isomorphism on $\pi_3$); under the
+isomorphism $p_1/2\colon\pi_3(\SO)\xrightarrow{\sim}\Z$ its \emph{stable framing degree} is $p_1/2=2$, not the
+unstable Dynkin index $4$.
+\emph{(iii) Generator of $\pis$.} $\pis\cong\Z/24=\Imm J_3$, with the real Adams $e$-invariant
+$\eR\colon\pis\to\mathbb{Q}/\Z$ normalized so the generator $\nu=J(\text{generator of }\pi_3(\SO))$ has
+$\eR(\nu)=1/24$ (Adams~\cite{adams1966jx4}); then $\eR$ is injective and $\eR(m\,\nu)=m/24$. Composing, the
+stable framing degree $2\in\pi_3(\SO)$ maps under $J$ to the class $2\in\Z/24$, so
+$\eR = (p_1/2)/24 = p_1/48 = 2/24 = 1/12$. The composite $\eR=(p_1/2)/24$ is ours, not a formula quoted verbatim
+from either source. Signs are immaterial to every conclusion: replacing $\nu$ by $-\nu$ sends the class
+$2\mapsto 22\equiv-2$, whose $3$-primary reduction $-2\equiv 1\pmod 3$ is again nonzero of order $3$. These are
+the paper's stated conventions throughout; only the identification of GU's $\Lamp$ twist with this natural
 tangential framing is reconstruction-grade.
 
 \paragraph{It locates but does not fill (computed).} The carrier $\Lamp$ has net self-dual tangent-frame charge
@@ -447,8 +540,8 @@ likewise without precedent.
 \midrule
 \endhead
 The no-go is two-primary (no odd-prime congruence) & theorem (theory-independent) \\
-CRT two-arena structure $\pis = \Z/8\oplus\Z/3$, summands disjoint & theorem (under the torsion-count reading) \\
-Linear Krein-isometric operators conserve the net chiral index & theorem ($U(96,96)$ connected; machine-corrob.) \\
+CRT two-arena reading ($\pis = \Z/8\oplus\Z/3$, summands disjoint) & decomposition is standard; the two-arena structural reading is the contribution, under the torsion-count reading \\
+Linear Krein-isometric operators conserve the net chiral index & theorem (finite-dim; physical subspaces balanced; machine-corrob.) \\
 The unique escape is antilinear (class CII) & corollary (Wigner) + machine-verified \\
 GU's antilinear chiralizer is frame-trivial, couples gauge & computed-confirmed; evadable only into a $2$-primary, index-conserving linear channel \\
 No interior operator found forces an odd chiral count; the count is external on present evidence & class-level structural no-go (GU-independent); linear leg theorem-grade, antilinear non-existence a finite adversarial hunt (exhaustive proof open) \\
@@ -555,6 +648,10 @@ generations}, Phys. Rev. Lett. \textbf{108} (2012) 181807. arXiv:1112.0302.
 R.~Kirby and P.~Melvin, \emph{Canonical framings for 3-manifolds}, Turkish J. Math. \textbf{23} (1999) 89--115.
 arXiv:math/9903056.
 
+\bibitem{mclaughlin1992}
+D.~A. McLaughlin, \emph{Orientation and string structures on loop space}, Pacific J. Math. \textbf{155} (1992)
+143--156.
+
 \bibitem{nguyen2021response}
 T.~Nguyen and T.~Polya, \emph{A response to Geometric Unity}, self-published manuscript, February 23, 2021.
 \url{https://files.timothynguyen.org/geometric_unity.pdf}. Not on arXiv.
@@ -562,6 +659,9 @@ T.~Nguyen and T.~Polya, \emph{A response to Geometric Unity}, self-published man
 \bibitem{rokhlin1952}
 V.~A. Rokhlin, \emph{New results in the theory of four-dimensional manifolds}, Doklady Akad. Nauk SSSR
 \textbf{84} (1952) 221--224.
+
+\bibitem{satishim2015}
+H.~Sati and H.-b. Shim, \emph{String structures associated to indefinite Lie groups}, arXiv:1504.02088.
 
 \bibitem{vonstaudtclausen1840}
 K.~G.~C. von Staudt, \emph{Beweis eines Lehrsatzes, die Bernoullischen Zahlen betreffend}, J. Reine Angew. Math.
