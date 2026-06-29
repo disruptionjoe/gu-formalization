@@ -39,6 +39,19 @@ confirming 3. That is an acceptable outcome under the truth-seeking posture.
 **Grade:** load-bearing-verifiable (the gap and its named template are both textually anchored; the
 construction is the open work). The single highest-leverage open item in the program.
 
+**STATUS 2026-06-28 -- BUILT AND MEASURED (see `canon/source-action-seiberg-witten-RESULTS.md`).** The
+doubled full-`Lambda^2` SW action was constructed on the `Cl(9,5)` substrate and verified numerically. The
+moment map `mu` exists (Krein-real, equivariant, unique) and dark energy (A) discharges **conditionally**.
+But running code **refuted all three jobs it was built for**: the SW shell makes the gamma-trace obstruction
+1.44x WORSE (B1), does not collapse the selector (B2), produces only a VECTORLIKE `2+1` mass split with the
+chiral `+8` not computed (C), and is provably orthogonal to the `-5376` index (sign). Deepest result: **a
+Krein-isometric source action is structurally orthogonal to the chiral generation count** -- the count needs
+a symmetry-breaking import or a re-reading as a vectorlike mass multiplicity. BV `(S,S)=0` and Velo-Zwanziger
+stay open. Net: H1 is no longer "unbuilt" -- it is "built, exists, conditionally discharges dark energy,
+performs none of the chiral/index jobs," which hardens the standing no-go rather than relieving it. The
+keystone moved from open-construction to a sharpened, named open frontier (the 6 next computations in the
+RESULTS doc).
+
 ---
 
 ## H2 -- Re-specify the count as "2 + 1 by two bundle origins," not "an index = 3"
