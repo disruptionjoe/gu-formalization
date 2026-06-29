@@ -177,3 +177,33 @@ dark-energy lane.
 Net architecture: three genesis-fixed issuances -> three of the six axes -> three real things (legitimacy/
 selection L2/L3, energy/expansion E, metric/GR L4), all selector-or-consistency-side, all 2-primary; the
 count remains alone in the order-3 carrier.
+
+## Refinement 3 (Joe): the three issuances are a CHECKS-AND-BALANCES three-legged stool
+
+The "why three": the three protocols form a three-legged stool / checks-and-balances that REBALANCES
+legitimacy; without all three the system collapses. Three legitimacy-allocation principles, each unstable
+alone:
+- ONE-OBSERVER-ONE-VOTE (egalitarian) = the covenant/selection-rights leg. Alone: sybil-vulnerable, no
+  resource. Checks plutocracy.
+- MARKETPLACE-FOR-VOTES (economic) = the energy leg. Alone: plutocratic. Checks sybils.
+- SCS-TYPE BALANCING = the synchronized-cadence (coherence) leg. Checks fragmentation; keeps the other two on
+  a common clock.
+Connection: the one-person vs one-dollar voting tension; quadratic voting (Weyl/Posner Radical Markets) is the
+real-world balancer. The "rebalancing" = an L6 coordination-loop (VSM-style homeostasis): three issuances + an
+L6 rebalancing loop = a viable system. Remove a leg -> the loop has nothing to balance -> collapse. Physics:
+the three are necessary conditions for a stable shared observable reality (no commit -> permanent
+superposition; no energy -> collapse; no synchronization -> no common spacetime). The observable universe =
+the stable fixed point of the three-way balance.
+
+HONEST FLAG (load-bearing): the "3" of the three-legged stool is a count of PRINCIPLES (a cardinal, 2-primary)
+-- NOT the order-3 generation count (odd-torsion). Same cardinal-vs-torsion kind-mismatch that killed BFT-3
+and avalanche-3. The stool explains STABILITY, not the count. Do NOT bridge "three protocols" to "three
+generations."
+
+What it gives: the STABILITY FRAMEWORK the framework-expert asked for -- a constitutional / separation-of-
+powers account of why a shared classical reality is viable (three balancing issuances + a homeostatic L6 loop
++ a per-leg collapse mode). GU-independent, sits next to the dark-energy and emergent-metric lanes,
+selector/consistency-side, 2-primary, DECOUPLE-consistent; the count stays the order-3 carrier.
+
+Note: "SCS" appears in the ai-native-epistemic-systems repo (C003 / SCS-3 non-vacuity) as a discriminator;
+mapped here by ROLE (the coherence/synchronization leg). Needs its precise definition to bind tightly.
