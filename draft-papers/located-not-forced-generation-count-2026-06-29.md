@@ -2,7 +2,7 @@
 
 **Draft for external review. This paper does NOT claim three generations. See Sections 1 and 8.**
 
-Version 1.0, 2026-06-29.
+Version 1.1, 2026-06-29. (v1.1 folds in the computed forcing-slot test, Section 7.)
 
 ---
 
@@ -36,7 +36,9 @@ frame-trivial and couples to the gauge (2-primary) channel.
 
 We then attempt the single calculation that could decide an integer count on GU's actual 14-manifold and find
 it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger source action); the only honest
-computable generation integer is **one** (GU's own Pati-Salam `Spin(7,7)` chain). We therefore do **not**
+computable generation integer is **one** (GU's own Pati-Salam `Spin(7,7)` chain). A toy of that source action,
+built and adversarially tested four ways, does **not** fill the forcing slot -- every integer it produces is
+2-primary or one -- which hardens the verdict from conjecture to computation. We therefore do **not**
 claim three generations. We claim a no-go that *locates*: it pins the unique CRT-disjoint sector where an odd
 count could live, shows that sector genuinely carries an order-3 object, and poses the
 `order-3-class -> integer-3` identification as the single named open conjecture (and a candidate category
@@ -248,6 +250,30 @@ non-convex (so `ch_2(S_X)[K3] = -5376` is a bulk characteristic number, not yet 
 three (a disguised `chi`, a reverse-engineered `+8`, a circular rank-4, a fitted holonomy); this computation
 adds none, and asserts the absence (`integer_is_3 = False`).
 
+**The forcing-slot test (computed).** Item (i) -- the gate on the unbuilt source action -- has since been
+probed directly. We reverse-engineered the necessary conditions ("forcing slot") any source action must meet
+to force a count: a term simultaneously (a) tangential (carries `p_1`), (b) net-chiral, and (c)
+non-frame-trivial. We then built a toy stabilized twisted Rarita-Schwinger sector four ways (Faddeev-Popov
+stabilization; the twisted spin-3/2 AGW index on K3; the RS frame-index operator on the `Cl(9,5)` substrate;
+the gravitino anomaly polynomial), each angle adversarially re-verified (`tests/forcing-slot/`,
+`canon/forcing-slot-toy-rs-RESULTS.md`). The RS sector reaches at most two of the three properties, never all
+three with a 3-primary integer. Every computed integer lands in the selector arena or equals one: `256 = 2^8`
+(a tautological projector trace, honest physical-sector index 0), `-672 = -2^5 . 3 . 7`, `-42 == 0 (mod 3)`
+(the `Z/3` identity), the HP^2 unit `1`. The gravitino anomaly is not an odd-prime exception: every spin-3/2
+coefficient is 2-primary up to von Staudt-Clausen denominators (no factor 3 in any numerator), and the
+twisted-by-16 index `16(-42) + 3 ch_2(V)` is `== 0 (mod 3)` for every integer twist. The RS field is the unique
+object that is intrinsically non-frame-trivial (its vector index is not `id_14 (x) U`) and chiral under the
+16-twist -- but its cross-coupling (mixed gauge-gravitational anomaly inflow) lands 2-primary. The gate, where
+it opens at all, opens onto the selector arena. This hardens "located, not forced" from conjecture to computed
+result for the RS-side gate.
+
+**The "2+1" reading is numerology across frameworks (computed).** The "2+1 effective" picture (the `2` from
+`A-hat(K3)`, the `1` from Pati-Salam) is not a single legitimate count. In one common framework (the Â-genus
+character-valued index on K3), the spin-1/2 leg gives `2` but the spin-3/2 leg gives `-42 == 0 (mod 3)`, not a
+clean `+1`; the `+1` appears only as the twisted-Dirac unit on a different manifold (HP^2). The two summands of
+`2+1` live in disjoint frameworks, so their sum is a coincidence, not a derivation. "Located, not forced" thus
+holds under both the order-3/triality reading and the additive 2+1 reading.
+
 ---
 
 ## 8. What is not claimed: the open conjecture
@@ -264,7 +290,11 @@ cobordism classes -- never directly to an integer family count. So the identific
 literature, a theorem of nothing, and is a candidate **category error**. To earn "forced," three things must
 be built, in one calculation, on GU's actual 14-manifold: a proven fibered-boundary reduction; the explicit
 twisted Rarita-Schwinger index operator (the unbuilt source action); and an integer extraction with the fork
-resolved. Until then the result is a no-go that *locates*, and the evidence tilts toward one.
+resolved. A toy of that twisted Rarita-Schwinger operator has now been built and tested four ways (Section 7);
+it does not fill the forcing slot, and every integer it produces is 2-primary or one -- which strengthens the
+conjecture's standing as a candidate category error over the gated-but-derivable alternative (the RS-side gate,
+when probed, opens onto the selector arena). Until then the result is a no-go that *locates*, and the evidence
+tilts toward one.
 
 ---
 
@@ -305,6 +335,8 @@ obstruction package as 2-primary and reads it as a structural blindness via the 
 | The literal generation integer on GU's 14-manifold | GATED on the unbuilt source action |
 | The only honest computable generation integer | 1 (Pati-Salam `Spin(7,7)`, computed) |
 | `order-3-class -> integer-3` | OPEN; candidate category error |
+| Toy stabilized twisted RS sector fills the forcing slot | NO (computed); reaches <=2 of 3 properties; every integer 2-primary or 1 |
+| "2+1" as a single additive count | numerology across disjoint frameworks (computed) |
 | GU forces exactly three chiral generations | NOT claimed; evidence tilts toward one |
 
 ---
@@ -334,8 +366,10 @@ evidence tilts toward one. We request external review of both the core results a
 The representation-theoretic decompositions, the Krein signature, the index-conservation check, the
 frame-charge / DECOUPLE computation, the boundary `e`-invariant controls, and the single-decider integers are
 checked numerically in `tests/` and `tests/generation-sector/`, `tests/source-action/`, `tests/boundary-eta/`,
-`tests/decider/` (the last reproduced by an independent from-scratch script, 26/26 checks). The homotopy and
+`tests/decider/` (the last reproduced by an independent from-scratch script, 26/26 checks), and
+`tests/forcing-slot/` (the toy RS forcing-slot test, four angles each adversarially re-verified). The homotopy and
 `e`-invariant facts are standard (Adams; Kirby-Melvin; Randal-Williams). The campaign's adversarial
 deep-research reports and the per-result canon (`canon/two-primary-lemma.md`,
 `canon/boundary-eta-of-mu-RESULTS.md`, `canon/three-generations-locate-not-force-CRT-RESULTS.md`,
-`canon/single-decider-integer-index-RESULTS.md`) are in the repository.
+`canon/single-decider-integer-index-RESULTS.md`, `canon/forcing-slot-toy-rs-RESULTS.md`) are in the
+repository.
