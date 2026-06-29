@@ -1,0 +1,6 @@
+[A] anti-trap=58.7215 escape0=41.5224 C2_0=155.3625 ratio=3.7417 sqrt14=3.7417
+[B] v(su2+)=[-0.15959277 -0.09207224 -0.22769509]  ||v||=0.2929
+[C] sigma_rot    ||S||=  10.991 nonequiv=   7.352 chir-preserve=  15.543 chir-flip=   0.000
+[C] sigma_maj    ||S||=  10.991 nonequiv=   7.352 chir-preserve=   0.000 chir-flip=  15.543
+[C] sigma_antiK  ||S||=  10.991 nonequiv=   7.352 chir-preserve=   0.000 chir-flip=  15.543
+[D] single-channel min-escape:
