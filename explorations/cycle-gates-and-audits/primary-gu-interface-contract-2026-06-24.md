@@ -8,7 +8,7 @@ owned_path: "explorations/cycle-gates-and-audits/primary-gu-interface-contract-2
 audit_script: "tests/primary_gu_interface_contract_audit.py"
 depends_on:
   - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/goal-draft-primary-gu-action-operator-spec-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md"
@@ -600,7 +600,7 @@ The next step is not another global summary. It is a branch-closing proof packet
 ## Sources Read
 
 - `explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/goal-draft-primary-gu-action-operator-spec-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md`

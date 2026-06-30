@@ -13,13 +13,13 @@ Scope: this is a review pass over Personas 11-15 using the Hegelian protocol: st
 
 Protocol and source lens files read:
 
-- `process/persona-passes/INDEX.md`
-- `process/hegelian-method/hegelian-persona-protocol.md`
-- `process/persona-passes/02-substrate-loophole-lenses/11-stochastic-geometer-loophole.md`
-- `process/persona-passes/02-substrate-loophole-lenses/12-quantum-measurement-loophole.md`
-- `process/persona-passes/02-substrate-loophole-lenses/13-nondeterminism-loophole.md`
-- `process/persona-passes/02-substrate-loophole-lenses/14-higher-derived-geometer-loophole.md`
-- `process/persona-passes/02-substrate-loophole-lenses/15-cartan-twistor-loophole.md`
+- `lab/process/persona-passes/INDEX.md`
+- `lab/process/hegelian-method/hegelian-persona-protocol.md`
+- `lab/process/persona-passes/02-substrate-loophole-lenses/11-stochastic-geometer-loophole.md`
+- `lab/process/persona-passes/02-substrate-loophole-lenses/12-quantum-measurement-loophole.md`
+- `lab/process/persona-passes/02-substrate-loophole-lenses/13-nondeterminism-loophole.md`
+- `lab/process/persona-passes/02-substrate-loophole-lenses/14-higher-derived-geometer-loophole.md`
+- `lab/process/persona-passes/02-substrate-loophole-lenses/15-cartan-twistor-loophole.md`
 
 Current-state and recent findings used most heavily:
 

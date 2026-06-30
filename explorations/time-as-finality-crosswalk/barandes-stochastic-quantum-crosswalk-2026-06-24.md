@@ -43,7 +43,7 @@ For GU purposes, the important imported objects are:
 
 The strongest contact is the existing channel / Kraus / POVM language in:
 
-- `process/persona-passes/02-substrate-loophole-lenses/12-quantum-measurement-loophole.md`
+- `lab/process/persona-passes/02-substrate-loophole-lenses/12-quantum-measurement-loophole.md`
 - `explorations/stochastic/stochastic-parity-breaking-test.md`
 
 Barandes gives a cleaner null model for the following question:

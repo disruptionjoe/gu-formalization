@@ -7,7 +7,7 @@ verdict: "OPEN_AVENUES_PRESERVED; NO_ROUTE_SOLVED; SOURCE_GEOMETRY_IS_THE_STRONG
 owned_path: "explorations/cycle-gates-and-audits/marble-wood-local-minimum-open-avenues-ledger-2026-06-24.md"
 optional_audit: "tests/marble_wood_open_avenues_audit.py"
 depends_on:
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/quantum-gravity-reframing-no-go-map-2026-06-24.md"
@@ -89,7 +89,7 @@ and rollback/failure condition.
 | `METRIC_QUANTIZATION_DOWNSTREAM` | downstream metric quantization | Keep metric quantization as an effective comparison or shadow extraction task, not the definition of GU. | downstream comparison |
 | `COMPACT_FINITE_CONTROLS` | honest finite controls | Use K3, finite Connes, Pati-Salam, and Bell fixtures as compact or finite controls with loss/provenance ledgers. | control-only unless bridged |
 | `ORDINARY_GR_QFT_IMPORT_CONTROLS` | standard controls | Use ordinary GR and QFT imports as baselines, target checks, and anti-smuggling controls, not as GU derivations. | baseline/control |
-| `CLAIM_GOVERNANCE_INTERFACE` | local-minimum guard | Keep the routes separated by interface contracts, provenance tags, rollback rules, and citation language. | process/open |
+| `CLAIM_GOVERNANCE_INTERFACE` | local-minimum guard | Keep the routes separated by interface contracts, provenance tags, rollback rules, and citation language. | lab/process/open |
 
 The key distinction is:
 
@@ -585,7 +585,7 @@ already solved.
 
 ## Sources Read
 
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/quantum-gravity-reframing-no-go-map-2026-06-24.md`

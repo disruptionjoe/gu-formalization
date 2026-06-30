@@ -11,7 +11,7 @@ depends_on:
   - canon/theta-field-flrw-dark-energy-eos.md
   - canon/dark-energy-theta-divergence-free.md
   - canon/schwarzschild-weak-field-rfail.md
-  - roadmap/meaningful-next-steps-2026-06-26.md
+  - lab/roadmap/meaningful-next-steps-2026-06-26.md
 external_context:
   - ../../../temporal-issuance/FORMAL-OBJECT.md
   - ../../../temporal-issuance/absorbers/cosmological-expansion.md

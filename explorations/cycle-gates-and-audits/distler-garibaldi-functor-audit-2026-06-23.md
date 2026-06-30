@@ -27,10 +27,10 @@ Type II_1 and Y14 generation-count lanes.
 Read for this audit:
 
 - `canon/no-go-class-relative-map.md`, especially section 2.4 and the ranked DG stress test.
-- `literature/03-assumption-decomposition-no-go-evasion-literature.md`, DG section.
-- `literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`, DG and Type II_1 sections.
+- `lab/literature/03-assumption-decomposition-no-go-evasion-literature.md`, DG section.
+- `lab/literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md`, DG and Type II_1 sections.
 - `NEXT-STEPS.md`, especially Type II1, PC1/PC2/PC3, SC1, and generation-count updates.
-- Type II_1 notes: `canon/type-ii1-spectral-sm-checklist.md`, `specifications/six-axis/examples/example-01-type-ii1-spectral-sm.md`, and `specifications/type-ii1-spectral-sm/*`.
+- Type II_1 notes: `canon/type-ii1-spectral-sm-checklist.md`, `lab/specifications/six-axis/examples/example-01-type-ii1-spectral-sm.md`, and `lab/specifications/type-ii1-spectral-sm/*`.
 - Y14 / generation-count notes: `explorations/shiab-operator/pc1-spin77-spinor-decomp-2026-06-23.md`, `explorations/geometry-curvature-emergence/pc2-met-x4-bundle-formalization-stub-2026-06-22.md`, `explorations/generation-sector/generation-count-cl95-dirac-derham-2026-06-22.md`, `explorations/generation-sector/generation-count-sm-branching-closure-2026-06-22.md`, `explorations/analytic-index-fredholm/discrete-series-fiber-dirac-index-2026-06-23.md`, `explorations/representation-theory-noncompact/n5-discrete-series-gl4r-2026-06-23.md`, and `explorations/signed-calm-jordan/signed-readout-oq2d-gu-contact-2026-06-23.md`.
 
 ## 3. DG Target Category

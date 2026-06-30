@@ -12,7 +12,7 @@ scope: "Group 1 persona passes 01-10, refreshed against current June 24 explorat
 ## Orientation
 
 This is a fresh Group 1 review after the June 24 exploration wave. It follows the Hegelian
-persona protocol in `process/hegelian-method/hegelian-persona-protocol.md`: the point is not
+persona protocol in `lab/process/hegelian-method/hegelian-persona-protocol.md`: the point is not
 to average opinions, but to generate structured next gates with honest closure conditions.
 
 The current repo posture matters. The 4+10 metric-bundle construction is real, but the repo

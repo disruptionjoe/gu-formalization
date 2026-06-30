@@ -44,7 +44,7 @@ boundary:
 
 > monotone provenance can coexist with non-monotone, signed, phase-sensitive, or cancellation-bearing readout.
 
-This reframes the CALM/Ginsparg-Wilson bridge as a boundary theorem rather than a direct equivalence. See `active-research/`.
+This reframes the CALM/Ginsparg-Wilson bridge as a boundary theorem rather than a direct equivalence. See `lab/active-research/`.
 
 ## What Is Exploratory?
 
@@ -55,4 +55,4 @@ exist if GU were true. If the obstruction is intrinsic, formalize it and kill th
 ## How To Help
 
 Use `RESEARCH-POSTURE.md` for the philosophy, `NEXT-STEPS.md` for issue-sized tasks, and
-`roadmap/` for ranked research priorities.
+`lab/roadmap/` for ranked research priorities.

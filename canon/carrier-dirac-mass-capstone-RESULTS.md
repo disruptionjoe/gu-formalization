@@ -12,7 +12,7 @@ depends_on:
   - canon/source-action-seiberg-witten-RESULTS.md
   - canon/single-decider-integer-index-RESULTS.md
   - canon/two-primary-lemma.md
-  - published-papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
+  - papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
 ---
 
 # The carrier Dirac mass: the capstone on the generation count

@@ -8,7 +8,7 @@ depends_on:
   - "explorations/persona-and-dialectic/remaining-math-topography-20-lens-steelman-hegelian-2026-06-26.md"
   - "explorations/persona-and-dialectic/quantum-chaos-crypto-ten-lens-steelman-hegelian-2026-06-26.md"
   - "NEXT-STEPS.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
 ---
 
 # Remaining Math Topography Ledger V0

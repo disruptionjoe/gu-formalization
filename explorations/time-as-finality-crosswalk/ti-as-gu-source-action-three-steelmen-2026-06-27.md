@@ -9,8 +9,8 @@ optional_executable:
 depends_on:
   - explorations/time-as-finality-crosswalk/record-issuance-boundary-selector-2026-06-26.md
   - explorations/shiab-operator/shiab-selector-search-2026-06-26.md
-  - active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
-  - active-research/signed-readout/theorem-statement-v1-2026-06-23.md
+  - lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
+  - lab/active-research/signed-readout/theorem-statement-v1-2026-06-23.md
 external_context:
   - ../../../temporal-issuance/FORMAL-OBJECT.md
   - ../../../temporal-issuance/explorations/E087-online-issuance-formal-object-v0-1-2026-06-25.md

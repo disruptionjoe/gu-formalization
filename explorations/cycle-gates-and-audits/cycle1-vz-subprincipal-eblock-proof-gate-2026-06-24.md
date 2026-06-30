@@ -8,8 +8,8 @@ owned_path: "explorations/cycle-gates-and-audits/cycle1-vz-subprincipal-eblock-p
 companion_audit: "tests/cycle1_vz_subprincipal_eblock_proof_gate_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
-  - "roadmap/objection-triage-register.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
+  - "lab/roadmap/objection-triage-register.md"
   - "explorations/vz-evasion/vz-proof-grade-closure-attempt-2026-06-24.md"
   - "explorations/vz-evasion/vz-subprincipal-symbol-rs-2026-06-23.md"
   - "explorations/vz-evasion/vz-e-block-independent-rederivation-2026-06-24.md"

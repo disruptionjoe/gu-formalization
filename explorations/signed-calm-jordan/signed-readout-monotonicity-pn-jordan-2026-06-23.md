@@ -19,7 +19,7 @@ Two open obligations from NEXT-STEPS.md drive this computation:
 1. **Prove the monotonicity criterion** — the precise iff characterizing when the scalar readout R: E -> G is monotone in the information order on E.
 2. **State the PN/Jordan factorization obligation** for the signed-readout boundary theorem — the exact algebraic structure that separates the provenance layer (monotone) from the readout layer (possibly non-monotone).
 
-These obligations are stated in `active-research/signed-readout/signed-readout-verdict-2026-05-31.md` as the corrected theorem spine for the boundary theorem, superseding the earlier anomaly-iff claim. This file provides a complete proof and canonical statement at reconstruction grade.
+These obligations are stated in `lab/active-research/signed-readout/signed-readout-verdict-2026-05-31.md` as the corrected theorem spine for the boundary theorem, superseding the earlier anomaly-iff claim. This file provides a complete proof and canonical statement at reconstruction grade.
 
 ---
 
@@ -27,11 +27,11 @@ These obligations are stated in `active-research/signed-readout/signed-readout-v
 
 Prior work this builds on:
 
-- `active-research/signed-readout/signed-readout-verdict-2026-05-31.md` (v2.1): the corrected theorem spine, evidence monoid and signed-readout definitions, proof sketch, PN/Jordan replacement structure named.
-- `active-research/signed-readout/historical-factorization-iff-theorem.md` (v3): the unified factorization iff theorem synthesizing v2 (PCP/Jordan lens) and v2.1 (signed-readout direct criterion).
-- `active-research/signed-readout/jordan-calm-formalization.md` (01): Jordan-decomposed signed-CALM (JD-CALM) with explicit J1–J4 conditions; GW axial-charge admissibility check.
-- `active-research/signed-readout/gw-boundary-tests.md` (03): full bridge-test table; the integer-index bridge fails under all three frameworks; the signed-real bridge survives under JD-CALM and AC-CALM.
-- `active-research/signed-readout/verdict-and-walkthrough-packet.md` (05): layer-split verdict confirmed 5/5 personas.
+- `lab/active-research/signed-readout/signed-readout-verdict-2026-05-31.md` (v2.1): the corrected theorem spine, evidence monoid and signed-readout definitions, proof sketch, PN/Jordan replacement structure named.
+- `lab/active-research/signed-readout/historical-factorization-iff-theorem.md` (v3): the unified factorization iff theorem synthesizing v2 (PCP/Jordan lens) and v2.1 (signed-readout direct criterion).
+- `lab/active-research/signed-readout/jordan-calm-formalization.md` (01): Jordan-decomposed signed-CALM (JD-CALM) with explicit J1–J4 conditions; GW axial-charge admissibility check.
+- `lab/active-research/signed-readout/gw-boundary-tests.md` (03): full bridge-test table; the integer-index bridge fails under all three frameworks; the signed-real bridge survives under JD-CALM and AC-CALM.
+- `lab/active-research/signed-readout/verdict-and-walkthrough-packet.md` (05): layer-split verdict confirmed 5/5 personas.
 - `explorations/time-as-finality-crosswalk/rate-independence-negative-finding-2026-06-22.md`: the signed-readout monotonicity criterion is rate-independent (closed finding; do not re-run).
 - `explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`: specification for a record-graph test; success criteria and failure conditions stated.
 
@@ -286,7 +286,7 @@ w_- = n_-   (count of negative-chirality zero modes)
 Q_A = w_+ - w_-
 ```
 
-Per `active-research/signed-readout/jordan-calm-formalization.md` §3, the **local pointwise** decomposition is also available:
+Per `lab/active-research/signed-readout/jordan-calm-formalization.md` §3, the **local pointwise** decomposition is also available:
 ```
 q_+(x) = max(q_A(x), 0)   (positive part of per-site axial density)
 q_-(x) = max(-q_A(x), 0)  (negative part)
@@ -294,11 +294,11 @@ q_-(x) = max(-q_A(x), 0)  (negative part)
 
 The local decomposition satisfies J1–J4 (JD-CALM admissibility). The minimal split is uniquely defined at the per-site level by the standard positive/negative part construction.
 
-The **integer-index bridge failure** identified in `active-research/signed-readout/gw-boundary-tests.md` §1-2 is not a failure of the PN/Jordan factorization per se: Q_A is correctly factorized as R_+(e) - R_-(e) = n_+ - n_-. The bridge failure is a failure of the *readout layer* r(p,n) = p - n being non-CALM-monotone (as predicted by the criterion: w(x_anti-instanton) < 0 so R is not monotone). This is the correct diagnostic.
+The **integer-index bridge failure** identified in `lab/active-research/signed-readout/gw-boundary-tests.md` §1-2 is not a failure of the PN/Jordan factorization per se: Q_A is correctly factorized as R_+(e) - R_-(e) = n_+ - n_-. The bridge failure is a failure of the *readout layer* r(p,n) = p - n being non-CALM-monotone (as predicted by the criterion: w(x_anti-instanton) < 0 so R is not monotone). This is the correct diagnostic.
 
 ### 5.4 Connection to the v3 Factorization Iff Theorem
 
-The PN/Jordan factorization obligation is the concrete algebraic form of the v3 Factorization Iff Theorem from `active-research/signed-readout/historical-factorization-iff-theorem.md` §2.1:
+The PN/Jordan factorization obligation is the concrete algebraic form of the v3 Factorization Iff Theorem from `lab/active-research/signed-readout/historical-factorization-iff-theorem.md` §2.1:
 
 ```
 v3 Factorization Iff Theorem:  Q = read ∘ acc

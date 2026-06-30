@@ -32,7 +32,7 @@ associativity). Only an object-and-morphism that survives the axiom check earns 
 ## 2. Established context
 
 - **Signed-readout boundary theorem** (`explorations/signed-calm-jordan/signed-readout-theorem-statement-2026-06-23.md`,
-  CONDITIONALLY_RESOLVED, promoted to `active-research/signed-readout/theorem-statement-v1`).
+  CONDITIONALLY_RESOLVED, promoted to `lab/active-research/signed-readout/theorem-statement-v1`).
   This supplies the only rigorously-defined pieces of the C_MPR tuple: the evidence monoid
   `E = N_0^{(X)}`, the information order `≤_E` (divisibility), the lattice-ordered codomain
   `(G, ≤_G)`, the weight `w : X → G`, the signed readout `R_w : E → G`, and the PN/Jordan

@@ -121,7 +121,7 @@ updated_at: "2026-06-22"
 
 2. **L4 + L2 are the dominant absorbers.** Every run that checked absorption found that causal order (L4) and observer computational class (L2) are the two GU axes most likely to absorb `λ_max` without residual. The issuance rate as a cap on record-generation is implied by L4 (causal-horizon width) and L2 (computational throughput).
 
-3. **Process vs. structure mismatch is the central formal problem.** Runs 4 and 5 both name this explicitly; Runs 1, 2, 3 approach it obliquely. GU is a structural formalism; `λ*(s)` is a process/dynamics concept. This mismatch means the issuance rate has no natural formal home in GU's current scope.
+3. **Process vs. structure mismatch is the central formal problem.** Runs 4 and 5 both name this explicitly; Runs 1, 2, 3 approach it obliquely. GU is a structural formalism; `λ*(s)` is a lab/process/dynamics concept. This mismatch means the issuance rate has no natural formal home in GU's current scope.
 
 4. **The concept does not change any current GU result.** No run identified a GU theorem or active-research result that is modified by specifying `λ*(s)`. The signed-readout criterion, the no-go class-relative map, and the observer-finality sub-protocol all appear to be rate-independent.
 

@@ -62,8 +62,8 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 - `canon/w2-y14-spin-structure.md`
 - `canon/schwarzschild-weak-field-rfail.md`
 - `canon/theta-field-flrw-dark-energy-eos.md`
-- `specifications/six-axis/`
-- `specifications/type-ii1-spectral-sm/`
+- `lab/specifications/six-axis/`
+- `lab/specifications/type-ii1-spectral-sm/`
 
 ## Canon Entries Added 2026-06-23
 
@@ -80,7 +80,7 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 These remain exploratory until formal obligations are met:
 
 Before promoting any item from this list, run
-`process/runbooks/claim-status-consistency-quality-workflow.md` and update all owner
+`lab/process/runbooks/claim-status-consistency-quality-workflow.md` and update all owner
 surfaces that might still carry a stronger historical verdict.
 
 - Anomaly cancellation for Sp(64) — Nguyen's U(128) anomaly pincer is defused by the Sp(64) replacement, but full GU anomaly cancellation is OPEN / not canon: local 14D anomaly requires an explicit I_16/index-density computation for the actual chiral field content; global anomaly requires a spin-bordism/Dai-Freed/eta check, not only pi_15(Sp)

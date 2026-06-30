@@ -375,7 +375,7 @@ OBS-FORMAL -> OBS-CHSH -> CANON-NOGO -> DAG-GOVERNANCE
 
 ### TYPEII1-HOST
 
-- Owner file: `explorations/type-ii1-spectral/type-ii1-construction-or-nogo-gate-2026-06-24.md`, `canon/type-ii1-spectral-sm-checklist.md`, and `specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md`.
+- Owner file: `explorations/type-ii1-spectral/type-ii1-construction-or-nogo-gate-2026-06-24.md`, `canon/type-ii1-spectral-sm-checklist.md`, and `lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md`.
 - Current status: `conditional`.
 - Proof grade: `reconstruction`.
 - Finality posture: `conditional_finality` as a hosting/construction lane.

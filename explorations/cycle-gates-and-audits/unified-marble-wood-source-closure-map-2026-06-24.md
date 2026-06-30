@@ -7,7 +7,7 @@ verdict: "SAME_SOURCE_CLOSURE_CRITERION_DEFINED; CURRENT_REPO_OPEN_CONDITIONAL_A
 owned_path: "explorations/cycle-gates-and-audits/unified-marble-wood-source-closure-map-2026-06-24.md"
 optional_audit: "tests/unified_marble_wood_closure_audit.py"
 depends_on:
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md"
@@ -835,7 +835,7 @@ complaint has been solved.
 
 ## Sources Read
 
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md`
 - `explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md`

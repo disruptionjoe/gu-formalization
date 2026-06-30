@@ -9,7 +9,7 @@ owned_path: "explorations/geometry-curvature-emergence/mission-a-metric-shadow-e
 audit_script: "tests/mission_a_metric_shadow_extraction_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/metric-marble-prematurity-gate-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/exact-schwarzschild-kerr-el-gate-2026-06-24.md"
@@ -886,7 +886,7 @@ whether any branch can fill one exact metric-shadow witness at all.
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/metric-marble-prematurity-gate-2026-06-24.md`
 - `explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md`
 - `explorations/geometry-curvature-emergence/exact-schwarzschild-kerr-el-gate-2026-06-24.md`

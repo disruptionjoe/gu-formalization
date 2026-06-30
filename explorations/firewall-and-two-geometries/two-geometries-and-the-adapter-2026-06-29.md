@@ -4,7 +4,7 @@ doc_type: exploration
 created: 2026-06-29
 grade: "interpretive frame, adversarially refuted leg-by-leg (workflow wf_9a0d0bf6-37b, 11 agents, 5 legs x analyze+refute). Final: selector=Ehresmannian -> METAPHOR; carrier=Riemannian -> INTERPRETIVE (side-assignment only); CRT-disjointness=disallowed-contraction -> METAPHOR; RS=adapter -> INTERPRETIVE core only (RS=counter, shiab=adapter); torsion=where-the-count-lives -> FALSE (Atiyah-Singer + Nieh-Yan). Does NOT move 'located, not forced.' Only paper-grade survivor: the narrow operator fact C=id_14(x)U frame charge 0.00 = Weinstein's 'gauge rotating one, holding the other fixed,' and only as illustration."
 depends_on:
-  - literature/weinstein-ucsd-2025-04-transcript.md
+  - lab/literature/weinstein-ucsd-2025-04-transcript.md
   - canon/forcing-slot-toy-rs-RESULTS.md
   - canon/three-generations-locate-not-force-CRT-RESULTS.md
   - canon/boundary-eta-of-mu-RESULTS.md

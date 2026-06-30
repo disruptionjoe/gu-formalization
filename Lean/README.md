@@ -15,8 +15,8 @@ documents.
 
 | Lean file | Scope | Owner surface |
 |---|---|---|
-| `GUFormalization/Status.lean` | Claim-status order and dependency monotonicity kernel | `process/runbooks/claim-status-consistency-quality-workflow.md` |
-| `GUFormalization/K3IndexArithmetic.lean` | Symbolic K3/RS index arithmetic used by current audits | `active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md` |
+| `GUFormalization/Status.lean` | Claim-status order and dependency monotonicity kernel | `lab/process/runbooks/claim-status-consistency-quality-workflow.md` |
+| `GUFormalization/K3IndexArithmetic.lean` | Symbolic K3/RS index arithmetic used by current audits | `lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md` |
 | `GUFormalization/W2Polynomial.lean` | Algebraic `F_2` polynomial identities behind the corrected `w2(Y14)` calculation | `canon/w2-y14-spin-structure.md` |
 
 ## Local Commands

@@ -9,7 +9,7 @@ depends_on:
   - canon/three-generations-locate-not-force-CRT-RESULTS.md
   - canon/two-primary-lemma.md
   - explorations/firewall-and-two-geometries/firewall-external-network-power-2026-06-28.md
-  - published-papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
+  - papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
 ---
 
 # The firewall as obfuscation, and the reverse-engineered trapdoor

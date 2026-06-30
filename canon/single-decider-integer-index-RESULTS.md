@@ -10,7 +10,7 @@ depends_on:
   - canon/boundary-eta-of-mu-RESULTS.md
   - canon/boundary-einvariant-and-the-tangential-fork.md
   - canon/two-primary-lemma.md
-  - draft-papers/publication-plan-2026-06-28.md
+  - papers/drafts/publication-plan-2026-06-28.md
 ---
 
 # The single decider

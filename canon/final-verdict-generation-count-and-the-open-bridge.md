@@ -7,10 +7,10 @@ grade: "the defensible result is theorem + standard-result-applied + reconstruct
 depends_on:
   - canon/two-primary-lemma.md
   - canon/boundary-einvariant-and-the-tangential-fork.md
-  - deep-research/dr1-identification-boundary-eta-2026-06-28.md
-  - deep-research/dr2-tangential-einvariant-2026-06-28.md
-  - deep-research/dr6-novelty-prior-art-2026-06-28.md
-  - deep-research/hardening-report-batch-2026-06-28.md
+  - lab/deep-research/dr1-identification-boundary-eta-2026-06-28.md
+  - lab/deep-research/dr2-tangential-einvariant-2026-06-28.md
+  - lab/deep-research/dr6-novelty-prior-art-2026-06-28.md
+  - lab/deep-research/hardening-report-batch-2026-06-28.md
 ---
 
 # Final honest verdict

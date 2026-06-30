@@ -9,7 +9,7 @@ optional_audit:
   - "tests/cycle1_source_selected_pati_salam_stabilizer_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/geometry-curvature-emergence/mission-a-matter-gauge-selector-construction-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/matter-gauge-source-geometry-selector-gate-2026-06-24.md"
   - "explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md"
@@ -619,7 +619,7 @@ Decision outcomes:
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/geometry-curvature-emergence/mission-a-matter-gauge-selector-construction-2026-06-24.md`
 - `explorations/geometry-curvature-emergence/matter-gauge-source-geometry-selector-gate-2026-06-24.md`
 - `explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md`

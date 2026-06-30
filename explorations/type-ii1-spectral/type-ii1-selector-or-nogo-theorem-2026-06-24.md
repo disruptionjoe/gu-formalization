@@ -11,8 +11,8 @@ depends_on:
   - "explorations/type-ii1-spectral/type-ii1-selector-candidate-2026-06-24.md"
   - "explorations/type-ii1-spectral/type-ii1-selector-anti-smuggling-theorem-2026-06-24.md"
   - "canon/type-ii1-spectral-sm-checklist.md"
-  - "specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md"
-  - "specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
+  - "lab/specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md"
+  - "lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
   - "RESEARCH-STATUS.md"
 ---
 

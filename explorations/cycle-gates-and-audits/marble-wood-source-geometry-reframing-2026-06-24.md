@@ -7,7 +7,7 @@ verdict: "conditional"
 owned_path: "explorations/cycle-gates-and-audits/marble-wood-source-geometry-reframing-2026-06-24.md"
 audit_script: "tests/marble_wood_reframing_audit.py"
 depends_on:
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/quantum-gravity-reframing-no-go-map-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md"
@@ -679,7 +679,7 @@ same branch, two reductions, one provenance ledger.
 
 ## Sources Read
 
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/quantum-gravity-reframing-no-go-map-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md`

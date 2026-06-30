@@ -47,7 +47,7 @@ the quantum coherence dynamics of the metric field: below the decoherence thresh
 the fiber coordinates are in a quantum superposition with no definite classical shadow.
 
 **Literature anchor:** Weinstein GU construction (transcript 2025-04; primary source
-`literature/weinstein-ucsd-2025-04-transcript.md`); gimmel metric derivation
+`lab/literature/weinstein-ucsd-2025-04-transcript.md`); gimmel metric derivation
 (`explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md`); Tikhonov
 section selection (`explorations/geometry-curvature-emergence/ii-s-moving-frames-2026-06-23.md`); Lindblad/pointer-basis
 decoherence model (`explorations/time-as-finality-crosswalk/observer-section-error-model-2026-06-23.md`).

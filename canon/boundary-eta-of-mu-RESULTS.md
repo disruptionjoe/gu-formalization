@@ -10,7 +10,7 @@ depends_on:
   - canon/source-action-seiberg-witten-RESULTS.md
   - canon/boundary-einvariant-and-the-tangential-fork.md
   - canon/swing-ghost-parity-no-chiral-selection.md
-  - draft-papers/publication-plan-2026-06-28.md
+  - papers/drafts/publication-plan-2026-06-28.md
 ---
 
 # Boundary eta of mu: DECOUPLE

@@ -6,7 +6,7 @@ doc_type: proof_gate
 verdict: "GUARDED_SYMBOL_CERTIFICATE; PHI_ZERO_ORDER; NON_ELLIPTIC_SPLIT_SIGNATURE"
 owned_path: "explorations/anomaly-and-bordism/dgu-guarded-symbol-certificate-2026-06-26.md"
 depends_on:
-  - "active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
+  - "lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
   - "canon/shiab-existence-cl95.md"
   - "explorations/generation-sector/generation-count-cl95-dirac-derham-2026-06-22.md"
   - "explorations/shiab-operator/sc1-oq2-ellipticity-split-signature-2026-06-23.md"

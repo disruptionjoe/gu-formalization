@@ -9,8 +9,8 @@ audit:
   - "tests/cycle1_generation_rs_rank_direct_gate_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
-  - "roadmap/objection-triage-register.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
+  - "lab/roadmap/objection-triage-register.md"
   - "explorations/cycle-gates-and-audits/mission-a-generation-count-analytic-machinery-2026-06-24.md"
   - "explorations/generation-sector/generation-count-rs-clifford-projector-computation-2026-06-24.md"
   - "explorations/generation-sector/generation-count-rs-rank-gate-2026-06-24.md"
@@ -63,7 +63,7 @@ Rollback condition: any claim that obtains `rank_H=4` by writing
 
 The requested sources establish the following, and no more.
 
-`roadmap/objection-triage-register.md` identifies OBJ-GEN as the load-bearing weak point.
+`lab/roadmap/objection-triage-register.md` identifies OBJ-GEN as the load-bearing weak point.
 Its decisive first test is a direct Clifford-algebra rank computation returning `4` or `8`
 without dividing by the desired RS index.
 

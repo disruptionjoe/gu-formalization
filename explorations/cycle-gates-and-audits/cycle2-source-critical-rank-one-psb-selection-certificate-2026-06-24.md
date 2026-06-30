@@ -9,7 +9,7 @@ optional_audit:
   - "tests/cycle2_source_critical_rank_one_psb_selection_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/mission-a-matter-gauge-selector-construction-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/matter-gauge-source-geometry-selector-gate-2026-06-24.md"
@@ -682,7 +682,7 @@ Decision table:
   "allowed_citation": "A precise source-critical criterion for rank-one v_PSB selection is specified; current sources do not select v_PSB or derive full SM matter, physical Higgs, or three generations.",
   "sources_read": [
     "RESEARCH-POSTURE.md",
-    "process/runbooks/five-lane-frontier-run.md",
+    "lab/process/runbooks/five-lane-frontier-run.md",
     "explorations/cycle-gates-and-audits/cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md",
     "explorations/geometry-curvature-emergence/mission-a-matter-gauge-selector-construction-2026-06-24.md",
     "explorations/geometry-curvature-emergence/matter-gauge-source-geometry-selector-gate-2026-06-24.md",

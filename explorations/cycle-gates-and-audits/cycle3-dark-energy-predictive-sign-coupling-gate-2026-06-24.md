@@ -8,8 +8,8 @@ owned_path: "explorations/cycle-gates-and-audits/cycle3-dark-energy-predictive-s
 optional_audit: "tests/cycle3_dark_energy_predictive_sign_coupling_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
-  - "roadmap/objection-triage-register.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
+  - "lab/roadmap/objection-triage-register.md"
   - "explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-provenance-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/cycle2-source-forced-s-ig-dyn-action-gate-2026-06-24.md"
   - "explorations/dark-energy-cosmology/dark-energy-oq3a-slow-roll-ic-sign-2026-06-23.md"
@@ -506,8 +506,8 @@ Decision table:
 ## Sources read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
-- `roadmap/objection-triage-register.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
+- `lab/roadmap/objection-triage-register.md`
 - `explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-provenance-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/cycle2-source-forced-s-ig-dyn-action-gate-2026-06-24.md`
 - `explorations/dark-energy-cosmology/dark-energy-oq3a-slow-roll-ic-sign-2026-06-23.md`

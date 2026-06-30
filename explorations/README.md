@@ -9,7 +9,7 @@ updated_at: "2026-06-29"
 
 Speculative, redirected, or under-proved research branches -- the research lab, not the project canon. Read
 these for the full working record; the durable, reviewed results live in `canon/` and the papers under
-`published-papers/`.
+`papers/published/`.
 
 The notes are grouped into topical subfolders by subject. (Previously ~300 sat loose at the top level; they
 were sorted by reading each note's content.)

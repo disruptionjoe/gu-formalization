@@ -5,7 +5,7 @@ status: exploration
 doc_type: topography_steelman_hegelian_synthesis
 verdict: "NO_CLAIM_PROMOTIONS; TOPOGRAPHY_MAP_BEFORE_CERTIFICATE"
 depends_on:
-  - "process/hegelian-method/hegelian-persona-protocol.md"
+  - "lab/process/hegelian-method/hegelian-persona-protocol.md"
   - "explorations/persona-and-dialectic/quantum-chaos-crypto-ten-lens-steelman-hegelian-2026-06-26.md"
   - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
 ---

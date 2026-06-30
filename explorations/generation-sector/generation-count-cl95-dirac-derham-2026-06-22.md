@@ -33,7 +33,7 @@ computation.
 **Primary sources.**
 - N1 audit: `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md`
 - N2 shiab: `explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`
-- UCSD transcript: `literature/weinstein-ucsd-2025-04-transcript.md`
+- UCSD transcript: `lab/literature/weinstein-ucsd-2025-04-transcript.md`
   - [00:32:46–00:33:36]: "pull back ordinary spinners... you're gonna get three generations"
   - [00:34:27–00:36:13]: Dirac-DeRham-Einstein complex, rolled-up structure, "two plus one"
   - [00:39:18]: "spinners on a direct sum are the tensor products of spinners on individual

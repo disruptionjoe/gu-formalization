@@ -9,8 +9,8 @@ audit:
   - "tests/cycle3_single_surviving_prediction_census_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
-  - "roadmap/objection-triage-register.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
+  - "lab/roadmap/objection-triage-register.md"
   - "NEXT-STEPS.md"
   - "explorations/cycle-gates-and-audits/cycle1-generation-rs-rank-direct-gate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/cycle2-source-forced-s-ig-dyn-action-gate-2026-06-24.md"

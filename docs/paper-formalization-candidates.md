@@ -10,7 +10,7 @@ updated_at: "2026-06-19"
 
 This document catalogs the key mathematical constructions, claims, and predictions in the April 1, 2021 draft of Geometric Unity and assesses each for inclusion in this repository's formalization effort. It is a source-mining surface, not an endorsement of any claim. Each entry records what the paper states, how precisely it is stated, what it depends on, and what formalization work (if any) the repo already covers.
 
-The paper was not previously available in the local bundle. The claim ledger (`sources/claim-ledger-v1-draft.md`) explicitly records `GU-MEDIA-2021-DRAFT-RELEASE` as "not mined this pass." This document is the first systematic mine of the draft text against the repo.
+The paper was not previously available in the local bundle. The claim ledger (`lab/sources/claim-ledger-v1-draft.md`) explicitly records `GU-MEDIA-2021-DRAFT-RELEASE` as "not mined this pass." This document is the first systematic mine of the draft text against the repo.
 
 ## How To Read This Document
 
@@ -660,9 +660,9 @@ The following table maps the paper's constructions against existing repo work.
 
 | Action | Rationale |
 |---|---|
-| Import GU location table (7B) as a reference surface into `sources/` | Zero formalization cost, high reference value |
+| Import GU location table (7B) as a reference surface into `lab/sources/` | Zero formalization cost, high reference value |
 | Import SR/QFT to GU analogy table (8B, Table 12.11) as a reference surface | Makes the structural analogy explicit for QFT-background contributors |
-| Add paper quantum number tables to `sources/` as a claim surface | Makes the paper's predictions citable in the no-go analysis |
+| Add paper quantum number tables to `lab/sources/` as a claim surface | Makes the paper's predictions citable in the no-go analysis |
 | Update claim ledger to mark `GU-MEDIA-2021-DRAFT-RELEASE` as mined | This document constitutes the first mining pass |
 | Cross-link effective chirality claim (6C) with `canon/no-go-class-relative-map.md` | The paper's answer to the chirality question should be visible from the no-go analysis |
 | Update GU six-axis specification to note §12.2 partially addresses L4 | L4 (causal order) is currently listed as "not addressed"; Section 12.2 is the paper's partial answer |

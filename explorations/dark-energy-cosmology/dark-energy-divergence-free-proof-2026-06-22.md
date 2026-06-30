@@ -496,6 +496,6 @@ statement about the representation theory of IG and is verifiable without metric
 
 ---
 
-*Filed: 2026-06-22. Primary source: `literature/weinstein-ucsd-2025-04-transcript.md` ([00:02:05],
+*Filed: 2026-06-22. Primary source: `lab/literature/weinstein-ucsd-2025-04-transcript.md` ([00:02:05],
 [00:03:06], [00:17:01]–[00:27:00]). All findings exploration-grade; no promotion to
 active_research or canon without meeting RESEARCH-STATUS.md criteria.*

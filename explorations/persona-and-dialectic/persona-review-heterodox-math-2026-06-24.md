@@ -11,7 +11,7 @@ verdict: "Lead with carrier specifications and proof-grade gates, not new substr
 
 ## Scope
 
-This review covers passes 21-30 in `process/persona-passes/04-heterodox-problem-shape-math/`. It uses the Hegelian protocol as method, not proof: each persona should generate a falsifiable next path, not consensus. The current canon posture is also binding: the repo is a research map, not a proof of GU; specification comes before advocacy; Type II_1 lanes must preserve finite Connes-Chamseddine control; clean demotion is a successful result.
+This review covers passes 21-30 in `lab/process/persona-passes/04-heterodox-problem-shape-math/`. It uses the Hegelian protocol as method, not proof: each persona should generate a falsifiable next path, not consensus. The current canon posture is also binding: the repo is a research map, not a proof of GU; specification comes before advocacy; Type II_1 lanes must preserve finite Connes-Chamseddine control; clean demotion is a successful result.
 
 Key recent notes relied on:
 

@@ -35,7 +35,7 @@ Every Markdown research document carries YAML frontmatter with one of these stat
 ### Claim-Status Consistency Rule
 
 Any promotion, downgrade, or substantial re-scoping must run
-`process/runbooks/claim-status-consistency-quality-workflow.md` before commit. Downstream
+`lab/process/runbooks/claim-status-consistency-quality-workflow.md` before commit. Downstream
 claims cannot outrank their weakest load-bearing dependency, and historical stronger
 wording must be removed or explicitly marked superseded on owner surfaces.
 
@@ -53,17 +53,17 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | w2(Y14) = pi*w2(X4) — Y14 spin iff X4 spin | canon (CONDITIONALLY_RESOLVED; unconditional spin claim RETRACTED) | `canon/w2-y14-spin-structure.md` — CORRECTION W2-01 (2026-06-26) |
 | Schwarzschild weak-field R_fail (O(M/r^3) vs O(M/r^4) unreconciled) | canon (verdict OPEN; weak-field compatibility check on an imported metric, not a GR derivation) | `canon/schwarzschild-weak-field-rfail.md` — CORRECTION RFAIL-02 (2026-06-26) |
 | theta-field FLRW dark energy EOS | canon (EOS-vs-DESI verdict OPEN; structural machinery reconstruction-grade) | `canon/theta-field-flrw-dark-energy-eos.md` — CORRECTION DARK-ENERGY-02 (2026-06-26) |
-| signed-readout boundary theorem | active_research | `active-research/signed-readout/` |
-| CALM/Ginsparg-Wilson boundary | active_research | `active-research/calm-gw-boundary/` |
-| ranked next steps | active_research | `roadmap/` |
+| signed-readout boundary theorem | active_research | `lab/active-research/signed-readout/` |
+| CALM/Ginsparg-Wilson boundary | active_research | `lab/active-research/calm-gw-boundary/` |
+| ranked next steps | active_research | `lab/roadmap/` |
 | C_MPR and 9-tuple | exploration | `explorations/c-mpr/` |
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
 | positive GU constructions lane | exploration | `explorations/misc/positive-gu-constructions-lane-proposal-2026-06-22.md` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
-| persona process and dialectics | process | `process/` |
-| early frontier packets | archive | `archive/` |
-| source and media provenance | source | `sources/` |
-| literature briefs | source | `literature/` |
+| persona process and dialectics | process | `lab/process/` |
+| early frontier packets | archive | `lab/archive/` |
+| source and media provenance | source | `lab/sources/` |
+| literature briefs | source | `lab/literature/` |
 
 ## 2026-06-23 Correction VZ-01 (critical)
 
@@ -114,7 +114,7 @@ An exploration can move toward canon only when it has:
 3. explicit assumptions,
 4. known failure modes,
 5. no dependency on internal work artifacts for its next action,
-6. no stale stronger status remains in `RESEARCH-STATUS.md`, `CANON.md`, affected `canon/*`, `NEXT-STEPS.md`, live paper drafts, or process/DAG/firewall artifacts after a claim-status consistency sweep.
+6. no stale stronger status remains in `RESEARCH-STATUS.md`, `CANON.md`, affected `canon/*`, `NEXT-STEPS.md`, live paper drafts, or lab/process/DAG/firewall artifacts after a claim-status consistency sweep.
 
 ## Current Caution
 
@@ -256,7 +256,7 @@ Two new documents were added: a primary source transcript and a formal explorati
 
 | document | status | content |
 |---|---|---|
-| `literature/weinstein-ucsd-2025-04-transcript.md` | source (raw_transcript) | Full transcript of Eric Weinstein's UCSD April 2025 talk at the Astroparticle Cosmology Cinema, Mayor Room. Recorded by Brian Keating. First primary-source document in the `literature/` folder for GU content (prior literature files are secondary source briefs). |
+| `lab/literature/weinstein-ucsd-2025-04-transcript.md` | source (raw_transcript) | Full transcript of Eric Weinstein's UCSD April 2025 talk at the Astroparticle Cosmology Cinema, Mayor Room. Recorded by Brian Keating. First primary-source document in the `lab/literature/` folder for GU content (prior literature files are secondary source briefs). |
 | `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md` | exploration | Formal analysis of 8 technical claims from the UCSD talk, assessed against repo canon. Identifies 7 new formal objects not in the positive-constructions-lane proposal (PC1–PC5). Four new follow-on tasks added to NEXT-STEPS.md (VZ1, SC1, DD1, HC1). |
 
 **Key findings from the analysis:**
@@ -315,4 +315,4 @@ The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclas
 | DD1 distortion nomenclature | **PARTIALLY_NAMED** | IG-equivariance is genuinely novel vs. Hehl/Agricola-Friedrich/Sharpe |
 | PC2 bundle formalization | **STUB COMPLETE** | w_2 Gysin computation and branching rules s*(S) still open |
 
-`DERIVATION-PROGRESS.md` updated with Phase 1 Results and Phase 2 Status sections. `NEXT-STEPS.md` updated with N1/N2 marked resolved, three new tasks N4/N5/N6 added. Paper v3 filed at `draft-papers/what-geometric-unity-needs-to-do-next-v3.md`.
+`DERIVATION-PROGRESS.md` updated with Phase 1 Results and Phase 2 Status sections. `NEXT-STEPS.md` updated with N1/N2 marked resolved, three new tasks N4/N5/N6 added. Paper v3 filed at `papers/drafts/what-geometric-unity-needs-to-do-next-v3.md`.

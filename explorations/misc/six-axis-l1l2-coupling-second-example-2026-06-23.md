@@ -297,7 +297,7 @@ objects at which the same coupling rule fires (decoherence rate Gamma bounds rec
 finalization rate lambda_max). The specific-object class is preserved; the objects differ.
 
 **Literature anchor:** Specific-object emergence class (a) from six-axis protocol; FR1
-specific Sorkin example-02 (`specifications/six-axis/examples/example-02-sorkin-causal-set.md`).
+specific Sorkin example-02 (`lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md`).
 
 **Class-assumption signature broken:** No standard no-go theorem assumption is broken
 at L5. The standard no-go theorems also use specific-object substrates. The difference

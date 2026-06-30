@@ -7,10 +7,10 @@ problem_label: "type-ii1-finite-control-specialist-pass"
 verdict: CONDITIONAL_OPEN
 depends_on:
   - "canon/type-ii1-spectral-sm-checklist.md"
-  - "specifications/type-ii1-spectral-sm/README.md"
-  - "specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md"
-  - "specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
-  - "literature/01-non-embeddable-type-ii-1-spectral-standard-model.md"
+  - "lab/specifications/type-ii1-spectral-sm/README.md"
+  - "lab/specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md"
+  - "lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
+  - "lab/literature/01-non-embeddable-type-ii-1-spectral-standard-model.md"
   - "canon/no-go-class-relative-map.md"
   - "NEXT-STEPS.md"
 ---

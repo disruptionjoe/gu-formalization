@@ -9,7 +9,7 @@ companion_audit:
   - "tests/cycle1_qft_positive_two_point_certificate_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/mission-a-qft-state-space-extraction-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md"
@@ -557,7 +557,7 @@ rollback_barandes_overuse:
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/mission-a-qft-state-space-extraction-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md`

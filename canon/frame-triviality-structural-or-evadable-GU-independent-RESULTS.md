@@ -11,7 +11,7 @@ depends_on:
   - canon/carrier-dirac-mass-capstone-RESULTS.md
   - canon/single-decider-integer-index-RESULTS.md
   - canon/three-generations-locate-not-force-CRT-RESULTS.md
-  - published-papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
+  - papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
 ---
 
 # Frame-triviality of the chiralizer: structural or evadable? The GU-independent verdict

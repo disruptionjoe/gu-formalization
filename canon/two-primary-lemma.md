@@ -93,7 +93,7 @@ odd part?) is then a separate, motivating question layered on top.
 
 ## Correction (hardening audit, 2026-06-28)
 
-A web-enabled hardening audit (`deep-research/hardening-report-batch-2026-06-28.md`, prompt 3) confirms the
+A web-enabled hardening audit (`lab/deep-research/hardening-report-batch-2026-06-28.md`, prompt 3) confirms the
 operative spine -- no hidden odd-prime MODULAR obstruction anywhere -- but corrects two overstatements:
 
 1. **"No odd-prime content, QED" is too strong.** The integer 3 DOES appear, as a MULTIPLICAND, in the

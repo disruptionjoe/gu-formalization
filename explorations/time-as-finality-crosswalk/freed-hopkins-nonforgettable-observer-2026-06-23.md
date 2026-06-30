@@ -45,7 +45,7 @@ This computation builds on:
 
 - The failed first toy, which established the two obstruction modes (metadata-descends
   vs. defect-relabeling).
-- `literature/02-observer-dependence-freed-hopkins-anomaly-classification.md`, which
+- `lab/literature/02-observer-dependence-freed-hopkins-anomaly-classification.md`, which
   finds no published observer-pairing Freed-Hopkins extension.
 - `canon/no-go-class-relative-map.md` §2.3 (Freed-Hopkins as classification theorem),
   which names "enriched bordism category" as the formal door for extension but requires

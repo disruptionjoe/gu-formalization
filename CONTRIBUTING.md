@@ -110,7 +110,7 @@ The repository is intentionally lightweight. If you think a piece of infrastruct
    - `[reconstruction]` — inferred from existing material with the source named
    - `[speculation]` — extrapolation beyond available sources, with explicit naming of what would need to be true for the speculation to hold
    If the change promotes, downgrades, or re-scopes a claim, also run
-   `process/runbooks/claim-status-consistency-quality-workflow.md` before opening the PR.
+   `lab/process/runbooks/claim-status-consistency-quality-workflow.md` before opening the PR.
 5. Open a pull request. The maintainer (initial review by the repository maintainer; broader review by contributors as the community grows) will engage with the substantive content. Please respond to review comments; the goal is to develop the strongest version of the contribution.
 6. Once accepted, the contribution lands with attribution. If you'd prefer pseudonymous or anonymous contribution, name that preference in the pull request.
 
@@ -172,10 +172,10 @@ A quick map of how the repo is organized, so additions land in the right place:
 - **Naming.** Research notes: `topic-subtopic-YYYY-MM-DD.md`. Test/audit scripts: `snake_case.py`. Durable
   reviewed results: `*-RESULTS.md` in `canon/`.
 - **Where things go.** Speculative notes -> `explorations/` (topical subfolders); computational checks ->
-  `tests/` (see `tests/README.md`); stable cited claims -> `canon/`; drafts -> `draft-papers/`; a paper Joe
-  has decided to publish -> `published-papers/candidates/`; once posted -> `published-papers/`.
+  `tests/` (see `tests/README.md`); stable cited claims -> `canon/`; drafts -> `papers/drafts/`; a paper Joe
+  has decided to publish -> `papers/candidates/`; once posted -> `papers/published/`.
 - **Indexes.** Every top-level directory carries a one-screen `README.md`/`INDEX.md`; update it when you add
-  files. The publication lifecycle is documented in `published-papers/README.md`.
+  files. The publication lifecycle is documented in `papers/published/README.md`.
 - **Archived automation output** (`explorations/hourly-cycles/`, `tests/hourly-cycles/`) is not load-bearing;
   do not cite it as a result.
 

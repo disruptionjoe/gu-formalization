@@ -7,7 +7,7 @@ verdict: speculation   # honest negative at the edge; CORRECTS the SOURCE-03 con
 method: "Design -> Build -> adversarial Kill over 3 approaches (ch2 from Codazzi, APS eta for the real operator, the C2<->index connection audit); all genuine=True, target-import clean, reproduced; load-bearing facts independently re-derived in the main loop"
 builds_on:
   - explorations/anomaly-and-bordism/c2-is-global-y14-end-data-2026-06-27.md  (SOURCE-03)
-  - active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
+  - lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
 corrects: "SOURCE-03's inference that C2 = the boundary index = one global object (it is a FORCED ANALOGY)"
 bears_on: "the generation count (OPEN; this route does not close it) + the precise edge of GU's reconstruction"
 ---

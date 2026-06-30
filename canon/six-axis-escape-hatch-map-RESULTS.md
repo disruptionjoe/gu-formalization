@@ -10,7 +10,7 @@ depends_on:
   - canon/firewall-import-selector-carrier-RESULTS.md
   - canon/source-action-seiberg-witten-RESULTS.md
   - canon/no-go-class-relative-map.md
-  - draft-papers/publication-plan-2026-06-28.md
+  - papers/drafts/publication-plan-2026-06-28.md
 ---
 
 # Six-axis escape-hatch map

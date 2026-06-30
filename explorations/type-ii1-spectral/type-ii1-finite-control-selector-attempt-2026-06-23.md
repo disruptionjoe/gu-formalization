@@ -50,7 +50,7 @@ Prior results that constrain this computation:
   and base. Generation count via discrete-series: m_H = 8 * Ahat(K3) + 8 = 24.
 
 - **R1-R10 requirements.** See
-  `specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md`.
+  `lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md`.
   Key obstacles: R2 (Breuer-Fredholm index real-valued vs integer), R4 (KO-dim for
   semifinite triples), R6 (non-embeddable separation).
 

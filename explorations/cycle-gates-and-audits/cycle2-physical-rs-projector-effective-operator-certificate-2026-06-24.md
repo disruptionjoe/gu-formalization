@@ -9,7 +9,7 @@ audit:
   - "tests/cycle2_physical_rs_projector_effective_operator_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/cycle1-generation-rs-rank-direct-gate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/mission-a-generation-count-analytic-machinery-2026-06-24.md"
   - "explorations/generation-sector/generation-count-rs-symbol-index-contract-2026-06-24.md"

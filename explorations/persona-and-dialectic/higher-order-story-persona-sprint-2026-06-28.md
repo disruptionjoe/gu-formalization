@@ -3,7 +3,7 @@ title: "Higher-order story persona sprint: what the generation-count campaign mi
 doc_type: exploration
 created: 2026-06-28
 method: "10 lenses (6 canonical persona groups + 4 transcript-demanded wildcards) reread the Weinstein UCSD transcript against the campaign frame; cluster; adversarial completeness + anti-hype critic; synthesize. 13 agents, ~1.25M subagent tokens."
-source: literature/weinstein-ucsd-2025-04-transcript.md
+source: lab/literature/weinstein-ucsd-2025-04-transcript.md
 grade_legend: "load-bearing-verifiable | structural-plausible | seductive-unverified"
 ---
 

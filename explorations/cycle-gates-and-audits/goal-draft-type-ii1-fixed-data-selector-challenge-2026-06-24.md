@@ -11,7 +11,7 @@ depends_on:
   - "explorations/type-ii1-spectral/type-ii1-selector-candidate-2026-06-24.md"
   - "explorations/type-ii1-spectral/type-ii1-construction-or-nogo-gate-2026-06-24.md"
   - "canon/type-ii1-spectral-sm-checklist.md"
-  - "specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
+  - "lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
   - "explorations/cycle-gates-and-audits/live-claim-dag-fault-finality-ledger-2026-06-24.md"
 ---
 

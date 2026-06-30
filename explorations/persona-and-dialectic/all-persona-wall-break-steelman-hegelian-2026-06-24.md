@@ -5,7 +5,7 @@ status: exploration
 doc_type: persona_wall_break_review
 verdict: "NO_CLAIM_PROMOTIONS; SEVEN_NON_OBVIOUS_FRONTIER_MOVES_IDENTIFIED"
 persona_sources:
-  - "process/persona-passes/INDEX.md"
+  - "lab/process/persona-passes/INDEX.md"
   - "../time-as-finality/personas/EXPERT-PANEL.md"
   - "../time-as-finality/personas/INDEX.md"
 depends_on:
@@ -45,7 +45,7 @@ a proof object, computation, audit, no-go theorem, or status demotion.
 
 The review uses three source sets:
 
-1. **GU formalization personas:** 35 personas from `process/persona-passes/INDEX.md`.
+1. **GU formalization personas:** 35 personas from `lab/process/persona-passes/INDEX.md`.
    These include foundational math, substrate-loophole, computation-substrate, heterodox
    problem-shape, and distributed-systems lenses.
 2. **Time as Finality expert personas:** 63 numbered experts from
@@ -522,7 +522,7 @@ over new analogy generation.
 
 GU persona and synthesis sources:
 
-- `process/persona-passes/INDEX.md`
+- `lab/process/persona-passes/INDEX.md`
 - `explorations/persona-and-dialectic/persona-review-cross-panel-synthesis-2026-06-24.md`
 - `explorations/persona-and-dialectic/4d-reduction-62-persona-steelman-hegelian-2026-06-22.md`
 - `explorations/persona-and-dialectic/section-retrieval-orch-or-62-persona-steelman-2026-06-23.md`

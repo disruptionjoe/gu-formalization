@@ -5,7 +5,7 @@ status: exploration
 doc_type: persona_steelman_hegelian_synthesis
 verdict: "NO_CLAIM_PROMOTIONS; NEXT_OBJECT_IS_SOURCE_TO_SHADOW_CERTIFICATE"
 depends_on:
-  - "process/hegelian-method/hegelian-persona-protocol.md"
+  - "lab/process/hegelian-method/hegelian-persona-protocol.md"
   - "explorations/persona-and-dialectic/all-persona-wall-break-steelman-hegelian-2026-06-24.md"
   - "explorations/time-as-finality-crosswalk/ten-persona-dialectic-summary.md"
 ---

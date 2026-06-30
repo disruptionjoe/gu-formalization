@@ -525,4 +525,4 @@ Codazzi/normal-flux residual.
 ---
 
 *Filed: 2026-06-23. Task 3 of 5: Codazzi equation for the Sp(64) bundle. Shared
-roadmap/status documents intentionally not updated.*
+lab/roadmap/status documents intentionally not updated.*

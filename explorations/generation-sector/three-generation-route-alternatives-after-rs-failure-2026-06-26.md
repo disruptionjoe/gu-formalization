@@ -172,7 +172,7 @@ FamiliesIndexPushforwardGate_V0
 filed at:
 
 ```text
-active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
+lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
 ```
 
 It preserves the strongest families-index/K3-chi proposal but blocks promotion. The

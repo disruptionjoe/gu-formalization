@@ -21,7 +21,7 @@ The relevant source constraints are:
   not a Witten/Nielsen-style no-go. The standard input is a fixed symmetry type /
   tangential structure, reflection positivity, invertibility, and extended
   functoriality.
-- `literature/02-observer-dependence-freed-hopkins-anomaly-classification.md` finds no
+- `lab/literature/02-observer-dependence-freed-hopkins-anomaly-classification.md` finds no
   published Freed-Hopkins/QRF/QBist/observer-pairing reformulation. The closest formal
   door is to add new geometric or operational structure to the bordism category.
 - The six-axis protocol says an observer-pairing candidate must name L2 observer, L3
@@ -298,7 +298,7 @@ U : Bord_2^{xi,obs}(Z) -> Bord_2^xi
    defect/background data. That is relabeling inside the Freed-Hopkins paradigm, not an
    observer-pairing-relative classification.
 
-So the first toy supports the skeptical reading of `literature/02`: observer-pairing is
+So the first toy supports the skeptical reading of `lab/literature/02`: observer-pairing is
 not blocked by a theorem, but the obvious construction does not yet produce new anomaly
 data. A nontrivial next toy must make the observer-state space or QRF bundle
 noncontractible while proving that the added structure is not merely an ordinary

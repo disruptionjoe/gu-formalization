@@ -8,7 +8,7 @@ owned_path: "explorations/cycle-gates-and-audits/cycle2-source-forced-s-ig-dyn-a
 optional_audit: "tests/cycle2_source_forced_s_ig_dyn_action_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/cycle1-branch3-dynamical-ig-current-gate-2026-06-24.md"
   - "explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-provenance-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md"
@@ -712,7 +712,7 @@ dark_energy_derivation_claimed_before_action_packet_closes.
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/cycle1-branch3-dynamical-ig-current-gate-2026-06-24.md`
 - `explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-provenance-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-minimal-action-spec-2026-06-24.md`

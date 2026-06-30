@@ -10,7 +10,7 @@ owned_path: "explorations/generation-sector/sequential-goal-3-sx-characteristic-
 depends_on:
   - "explorations/generation-sector/sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md"
   - "explorations/generation-sector/sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md"
-  - "active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
+  - "lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
   - "explorations/geometry-curvature-emergence/codazzi-sp64-bundle-2026-06-23.md"
   - "explorations/cycle-gates-and-audits/remaining-math-topography-ledger-v0-2026-06-26.md"
 ---

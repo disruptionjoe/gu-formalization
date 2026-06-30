@@ -7,7 +7,7 @@ depends_on:
   - explorations/firewall-and-two-geometries/firewall-external-network-power-2026-06-28.md
   - explorations/firewall-and-two-geometries/firewall-legitimacy-quantum-darwinism-2026-06-28.md
   - canon/six-axis-escape-hatch-map-RESULTS.md
-  - draft-papers/publication-plan-2026-06-28.md
+  - papers/drafts/publication-plan-2026-06-28.md
 ---
 
 # Three-lens review of the firewall idea

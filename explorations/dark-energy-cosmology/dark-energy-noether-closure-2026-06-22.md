@@ -431,7 +431,7 @@ the dynamics of λg_{μν}).
 
 ---
 
-*Filed: 2026-06-22. Primary sources: `literature/weinstein-ucsd-2025-04-transcript.md`
+*Filed: 2026-06-22. Primary sources: `lab/literature/weinstein-ucsd-2025-04-transcript.md`
 ([00:02:05], [00:03:06], [00:17:01]–[00:27:00], [00:49:16]); `dark-energy-divergence-free-proof-2026-06-22.md`.
 All findings exploration-grade; no promotion to active_research or canon without meeting
 RESEARCH-STATUS.md criteria.*

@@ -8,7 +8,7 @@ owned_path: "explorations/geometry-curvature-emergence/stress-energy-shadow-emer
 optional_audit:
   - "tests/stress_energy_shadow_emergence_audit.py"
 depends_on:
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md"
   - "explorations/misc/constraint-first-ig-tangent-space-gate-2026-06-24.md"
   - "explorations/geometry-curvature-emergence/exact-schwarzschild-kerr-el-gate-2026-06-24.md"
@@ -839,7 +839,7 @@ observer-facing shadow.
 
 ## Sources Read
 
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md`
 - `explorations/misc/constraint-first-ig-tangent-space-gate-2026-06-24.md`
 - `explorations/geometry-curvature-emergence/exact-schwarzschild-kerr-el-gate-2026-06-24.md`

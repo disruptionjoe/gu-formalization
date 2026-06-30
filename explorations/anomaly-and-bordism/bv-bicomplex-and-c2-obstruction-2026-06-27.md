@@ -105,7 +105,7 @@ computation on the actual Y14 = Met(X4) manifold: construct the GU connection's 
 to one distinguished null plane (the spectral section), and test whether `B_W = ` the curvature-dressed
 constraint reconciles C2 (drives 155 → 0) within the full bicomplex. That is the first computation that needs
 the real Y14 geometry rather than the symbol rep — and it connects directly to the existing
-`active-research/...k3-chi-gate...` and the noncompact-APS-end work.
+`lab/active-research/...k3-chi-gate...` and the noncompact-APS-end work.
 
 ## What this does NOT establish
 - It does not close C2, construct `S_IG`, or compute the generation count.

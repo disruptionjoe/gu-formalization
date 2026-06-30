@@ -11,8 +11,8 @@ depends_on:
   - "explorations/type-ii1-spectral/type-ii1-finite-control-specialist-pass-2026-06-23.md"
   - "explorations/type-ii1-spectral/type-ii1-sm-checklist-tightening-2026-06-23.md"
   - "canon/type-ii1-spectral-sm-checklist.md"
-  - "specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md"
-  - "specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
+  - "lab/specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md"
+  - "lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
 ---
 
 # Type II_1 Selector Anti-Smuggling Theorem

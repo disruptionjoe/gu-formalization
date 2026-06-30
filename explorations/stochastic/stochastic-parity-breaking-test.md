@@ -8,7 +8,7 @@ updated_at: "2026-05-31"
 # Stochastic Reduction — Parity / Chirality Falsification Test
 
 **Status.** Public draft artifact.
-**Source basis.** `process/persona-passes/02-substrate-loophole-lenses/11-stochastic-geometer-loophole.md`, `process/persona-passes/04-heterodox-problem-shape-math/21-ps-stochastic-heterodox.md`, `process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`, `process/persona-passes/02-substrate-loophole-lenses/12-quantum-measurement-loophole.md`, `process/persona-passes/02-substrate-loophole-lenses/13-nondeterminism-loophole.md`. Cross-built against the six-axis protocol (WRK-375), the no-go-forgetful-image map (WRK-376), and the Nielsen protocol-analogy pilot (WRK-378).
+**Source basis.** `lab/process/persona-passes/02-substrate-loophole-lenses/11-stochastic-geometer-loophole.md`, `lab/process/persona-passes/04-heterodox-problem-shape-math/21-ps-stochastic-heterodox.md`, `lab/process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`, `lab/process/persona-passes/02-substrate-loophole-lenses/12-quantum-measurement-loophole.md`, `lab/process/persona-passes/02-substrate-loophole-lenses/13-nondeterminism-loophole.md`. Cross-built against the six-axis protocol (WRK-375), the no-go-forgetful-image map (WRK-376), and the Nielsen protocol-analogy pilot (WRK-378).
 **Generated.** 2026-05-30
 **WRK card.** WRK-382.
 

@@ -8,7 +8,7 @@ updated_at: "2026-05-31"
 # Cartan / Twistor / G_2 Anti-Numerology Guardrail
 
 **Status.** Public draft artifact. Public draft artifact.
-**Source basis.** `process/persona-passes/01-foundational-math-lenses/01-differential-geometer.md`, `process/persona-passes/01-foundational-math-lenses/04-spinor-clifford.md`, `process/persona-passes/01-foundational-math-lenses/05-general-relativist.md`, `process/persona-passes/01-foundational-math-lenses/07-representation-theorist.md`, `process/persona-passes/02-substrate-loophole-lenses/15-cartan-twistor-loophole.md`, `process/persona-passes/04-heterodox-problem-shape-math/25-ps-cartan-twistor-heterodox.md`, `literature/03-assumption-decomposition-no-go-evasion-literature.md` (Acharya-Witten 2001 entry; Distler-Garibaldi 2009 entry), `roadmap/potential-insights-novelty-and-tests-v1.md`, `roadmap/15-persona-pathway-ranking.md`. Cross-built against the six-axis protocol (WRK-375), the no-go forgetful-image map (WRK-376), and the Hegelian persona-protocol method note (WRK-381, sibling #30).
+**Source basis.** `lab/process/persona-passes/01-foundational-math-lenses/01-differential-geometer.md`, `lab/process/persona-passes/01-foundational-math-lenses/04-spinor-clifford.md`, `lab/process/persona-passes/01-foundational-math-lenses/05-general-relativist.md`, `lab/process/persona-passes/01-foundational-math-lenses/07-representation-theorist.md`, `lab/process/persona-passes/02-substrate-loophole-lenses/15-cartan-twistor-loophole.md`, `lab/process/persona-passes/04-heterodox-problem-shape-math/25-ps-cartan-twistor-heterodox.md`, `lab/literature/03-assumption-decomposition-no-go-evasion-literature.md` (Acharya-Witten 2001 entry; Distler-Garibaldi 2009 entry), `lab/roadmap/potential-insights-novelty-and-tests-v1.md`, `lab/roadmap/15-persona-pathway-ranking.md`. Cross-built against the six-axis protocol (WRK-375), the no-go forgetful-image map (WRK-376), and the Hegelian persona-protocol method note (WRK-381, sibling #30).
 **Generated.** 2026-05-30
 **Author posture.** This note is a guardrail, not an endorsement. It exists because the Cartan / twistor / G_2 corner of the GU program is the most reputationally vulnerable to dimensional numerology, and the repo's heterodoxy is only credible if it disciplines this corner harder than its critics would.
 
@@ -39,7 +39,7 @@ The following coincidences recur in the Cartan / twistor / G_2 corner of GU and 
 | C4 | `dim(SO(10) vector) = 10`, matching the 10-dim fiber of Met(X) | persona pass 07 | SO(10) must arise as the actual structure group of the fiber from the geometry, not be installed because its vector rep has the right dimension count |
 | C5 | `Cℓ(14, ℂ) ≅ M_{128}(ℂ)`; Weyl spinor in 14d has 64 complex components; `64 = 4 × 16` and `48 = 3 × 16` | persona pass 04 (spinor-Clifford) | a discrete symmetry or geometric mechanism must project 64 → 48 (three generations) from substrate data, not be a postulate |
 | C6 | Twistor space PT for R^4 is complex 3-fold (3 = `dim_C PT`); the Penrose googly problem makes ASD gravitons natural and SD ones not | persona pass 15; heterodox persona 25 (Penrose pre-geometry move) | chirality has to follow from PT's complex structure projecting *to* the metric bundle, with substrate role inverted; the bare double-cover / dimension match is not the claim |
-| C7 | `dim(E_8) = 248`, `248 = 3 × 27 + 167` and various E_8 ⊃ E_6 × SU(3) decompositions look like "three generations" | persona pass 07; Distler-Garibaldi 2009 (literature/03) | a connected compact subgroup centralizing SL(2,C) with V_{m,n} ≤ 4 content giving complex V_{2,1} as G-rep must exist inside a single real form of E_8 — Distler-Garibaldi proves this is *false* |
+| C7 | `dim(E_8) = 248`, `248 = 3 × 27 + 167` and various E_8 ⊃ E_6 × SU(3) decompositions look like "three generations" | persona pass 07; Distler-Garibaldi 2009 (lab/literature/03) | a connected compact subgroup centralizing SL(2,C) with V_{m,n} ≤ 4 content giving complex V_{2,1} as G-rep must exist inside a single real form of E_8 — Distler-Garibaldi proves this is *false* |
 
 C7 is the one the repo has to engage most carefully. Distler-Garibaldi is not a vague reputation problem; it is a published representation-theoretic theorem that rules out the entire single-E_8-numerology family that has gravitated to GU public discourse. See Sections 2.7 and 4 below.
 
@@ -65,7 +65,7 @@ For each coincidence above, this section names (a) the geometric structure that 
 
 **What the persona material actually shows.** The dimension match is real. The construction is not derived; it is named as a possibility. Pass 15's verdict is *plausible loophole class, not a derivation* — exactly the warning this guardrail is making explicit.
 
-**Independent comparison.** Acharya-Witten 2001 (`literature/03` entry 5) is the only fully developed G_2-holonomy chirality construction in the established literature, and it works *only because the G_2-holonomy 7-manifold is singular*. This is significant for two reasons:
+**Independent comparison.** Acharya-Witten 2001 (`lab/literature/03` entry 5) is the only fully developed G_2-holonomy chirality construction in the established literature, and it works *only because the G_2-holonomy 7-manifold is singular*. This is significant for two reasons:
 
 1. It confirms G_2-holonomy can deliver chirality in some setups — the route is not nonsense.
 2. The mechanism is *singularity*, not *G_2 itself*. The chirality comes from the singular stratum, not from `dim(G_2) = 14`. The dimension match is incidental to the mechanism.
@@ -114,7 +114,7 @@ For each coincidence above, this section names (a) the geometric structure that 
 
 ### 2.7 — E_8 / 248-numerology and Distler-Garibaldi (C7)
 
-**The real obligation, and the published wall.** Distler-Garibaldi 2009 is the cleanest, sharpest no-go in this corner. The theorem (per WRK-376 / `literature/03`): there is no real Lie group E together with subgroups SL(2,C) and G such that
+**The real obligation, and the published wall.** Distler-Garibaldi 2009 is the cleanest, sharpest no-go in this corner. The theorem (per WRK-376 / `lab/literature/03`): there is no real Lie group E together with subgroups SL(2,C) and G such that
 
 - G is connected, compact, centralizing SL(2,C);
 - in the SL(2,C) × G decomposition of Lie(E), V_{m,n} = 0 for m + n > 4;
@@ -143,7 +143,7 @@ These are presentation patterns. A draft, comment, or section that exhibits one 
 - **R7. Twistor-as-language vs twistor-as-substrate.** Twistor language without substrate-inversion (the C6 / pass 25 move) is decoration. The legitimate twistor move requires committing to the substrate-inversion reading and accepting its falsifiable question.
 - **R8. E_8 numerology without Distler-Garibaldi.** Any invocation of E_8 dimensions, centralizers, or generation counts that does not explicitly address Distler-Garibaldi 2009 is below the repo bar. This is the single hardest line in this guardrail.
 - **R9. "Geometric origin of SM" claim with no chirality bridge.** A construction that does not name what substrate-level invariant carries chirality, how it survives the forgetful operation to the smooth-bundle shadow, and what would falsify the bridge, is at-best decorative. The six-axis protocol (WRK-375) makes this explicit; the chirality-bridge claim is a required output of the template.
-- **R10. Persona-quote as endorsement.** Picking the Cartan / twistor persona pass quote that sounds favorable while ignoring the same pass's *verdict* (e.g., pass 15: *"plausible loophole class, not a derivation"*). The loophole personas in `process/persona-passes/02` are deliberately steelmanned. Their verdicts are where the discipline is.
+- **R10. Persona-quote as endorsement.** Picking the Cartan / twistor persona pass quote that sounds favorable while ignoring the same pass's *verdict* (e.g., pass 15: *"plausible loophole class, not a derivation"*). The loophole personas in `lab/process/persona-passes/02` are deliberately steelmanned. Their verdicts are where the discipline is.
 
 ## 4. Green-flag list — patterns that carry actual structural content
 

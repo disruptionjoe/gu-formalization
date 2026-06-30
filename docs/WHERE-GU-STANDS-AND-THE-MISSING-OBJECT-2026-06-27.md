@@ -111,7 +111,7 @@ worth citing.
 - Key machine-checked tests: `tests/rs_bicomplex_spin95_connection_2form.py` (the bicomplex),
   `tests/c2_holonomy_global_obstruction.py` (C2 is global), `tests/gen_ch2_sx_from_codazzi.py` (ch2 = -5376),
   `tests/ahat_genus_y14_i16.py` (the anomaly density), `tests/shiab_family_basis.py` (the equivariant family).
-- The open topological route: `active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md`.
+- The open topological route: `lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md`.
 
 ---
 

@@ -3,7 +3,7 @@ title: "Ghost parity, Krein structure, and the generation count: a GU / Turok-Ba
 status: active
 doc_type: synthesis
 created: 2026-06-28
-depends_on: [canon/multiplicity-theorem.md, draft-papers/prepublish-review-tracker.md]
+depends_on: [canon/multiplicity-theorem.md, papers/drafts/prepublish-review-tracker.md]
 external_ref: "Turok & Bateman, quadratic-gravity / Krein-space generalized Born rule (TOE interview, June 2026)"
 ---
 

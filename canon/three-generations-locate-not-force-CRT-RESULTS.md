@@ -10,7 +10,7 @@ depends_on:
   - canon/two-primary-lemma.md
   - canon/six-axis-escape-hatch-map-RESULTS.md
   - canon/final-verdict-generation-count-and-the-open-bridge.md
-  - draft-papers/publication-plan-2026-06-28.md
+  - papers/drafts/publication-plan-2026-06-28.md
 ---
 
 # Three generations: GU LOCATES, does not FORCE

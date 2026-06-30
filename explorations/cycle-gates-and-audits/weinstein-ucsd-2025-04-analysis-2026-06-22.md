@@ -1,6 +1,6 @@
 ---
 title: "Weinstein UCSD April 2025 Talk — Formal Analysis Against Repo Canon"
-source_doc: "literature/weinstein-ucsd-2025-04-transcript.md"
+source_doc: "lab/literature/weinstein-ucsd-2025-04-transcript.md"
 status: exploration
 doc_type: exploration
 updated_at: "2026-06-22"
@@ -398,7 +398,7 @@ Based on the analysis, the following should be added or reprioritized:
 ### Classification by verifiability
 
 **(a) Direct quotes from the primary source (raw transcript):**
-All claims labeled with transcript timestamps above are direct quotes. The transcript is filed as `literature/weinstein-ucsd-2025-04-transcript.md` with status `raw_transcript`. It has not been independently verified for transcription accuracy.
+All claims labeled with transcript timestamps above are direct quotes. The transcript is filed as `lab/literature/weinstein-ucsd-2025-04-transcript.md` with status `raw_transcript`. It has not been independently verified for transcription accuracy.
 
 **(b) Formally verifiable given existing mathematical machinery:**
 
@@ -430,4 +430,4 @@ All claims labeled with transcript timestamps above are direct quotes. The trans
 
 ---
 
-*End of analysis. Filed: 2026-06-22. Primary source: `literature/weinstein-ucsd-2025-04-transcript.md`. Discipline: all exploration-grade, no claims promoted to active_research or canon.*
+*End of analysis. Filed: 2026-06-22. Primary source: `lab/literature/weinstein-ucsd-2025-04-transcript.md`. Discipline: all exploration-grade, no claims promoted to active_research or canon.*

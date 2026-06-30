@@ -9,7 +9,7 @@ verdict: "PUSHFORWARD_NOT_DEFINED; BLOCKED_ON_SOURCE_OPERATOR_AND_END_MODEL"
 owned_path: "explorations/generation-sector/sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md"
 depends_on:
   - "explorations/generation-sector/sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md"
-  - "active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
+  - "lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
   - "explorations/anomaly-and-bordism/dgu-guarded-symbol-certificate-2026-06-26.md"
   - "explorations/generation-sector/y14-k3-end-data-topography-gate-2026-06-26.md"
   - "explorations/generation-sector/y14-k3-bridge-loss-ledger-2026-06-24.md"

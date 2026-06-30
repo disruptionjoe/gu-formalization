@@ -96,7 +96,7 @@ monotonically.
 
 **Literature anchor:** Sorkin causal-set framework (Bombelli, Lee, Meyer, Sorkin 1987;
 Sorkin 1991, "Spacetime and causal sets"); example-02-sorkin-causal-set in
-`specifications/six-axis/examples/example-02-sorkin-causal-set.md` (established prior
+`lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md` (established prior
 example in this repo); FR1 Sorkin absorption worked check
 (`explorations/time-as-finality-crosswalk/fr1-sorkin-absorption-worked-check-2026-06-22.md`).
 
@@ -214,7 +214,7 @@ substrates.
 
 **Literature anchor:** Sorkin causal-set formalism (Bombelli-Lee-Meyer-Sorkin 1987;
 Henson 2006 review, "The causal set approach to quantum gravity"); example-02-Sorkin in
-`specifications/six-axis/examples/example-02-sorkin-causal-set.md`; FR1 Sorkin absorption
+`lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md`; FR1 Sorkin absorption
 check (`time-as-finality-crosswalk/fr1-sorkin-absorption-worked-check-2026-06-22.md`).
 
 **Class-assumption signature broken:** Witten 1981, Freed-Hopkins, Distler-Garibaldi all

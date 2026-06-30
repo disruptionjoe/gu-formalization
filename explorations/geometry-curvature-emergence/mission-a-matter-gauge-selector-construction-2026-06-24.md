@@ -9,7 +9,7 @@ optional_audit:
   - "tests/mission_a_matter_gauge_selector_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/geometry-curvature-emergence/matter-gauge-source-geometry-selector-gate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/finite-control-provenance-audit-2026-06-24.md"
   - "explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md"
@@ -909,7 +909,7 @@ conditions.
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/geometry-curvature-emergence/matter-gauge-source-geometry-selector-gate-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/finite-control-provenance-audit-2026-06-24.md`
 - `explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md`

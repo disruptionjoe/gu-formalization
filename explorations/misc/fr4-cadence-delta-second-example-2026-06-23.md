@@ -582,6 +582,6 @@ L6 field to a genuine sub-protocol field applicable across L4 classes.
   `explorations/misc/six-axis-l1l2-coupling-filled-example-2026-06-23.md`
 - GU discrete-series chirality invariant:
   `explorations/representation-theory-noncompact/n5-discrete-series-gl4r-2026-06-23.md`
-- Six-axis template: `specifications/six-axis/six-axis-template.md`
+- Six-axis template: `lab/specifications/six-axis/six-axis-template.md`
 - Rate-independence finding (GU structural theorems are Delta-independent):
   `explorations/time-as-finality-crosswalk/rate-independence-worked-check-2026-06-22.md`

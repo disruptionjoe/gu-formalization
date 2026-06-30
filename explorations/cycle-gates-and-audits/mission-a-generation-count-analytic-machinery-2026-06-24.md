@@ -9,7 +9,7 @@ optional_executable:
   - "tests/mission_a_generation_count_analytic_machinery_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/generation-sector/y14-k3-bridge-loss-ledger-2026-06-24.md"
   - "explorations/generation-sector/y14-k3-index-bridge-theorem-or-nogo-2026-06-24.md"
   - "explorations/generation-sector/rs-analytic-rank3-rebuild-or-demotion-2026-06-23.md"
@@ -17,7 +17,7 @@ depends_on:
   - "explorations/generation-sector/oq-rk2-fc4-k3-holonomy-rank-2026-06-23.md"
   - "tests/rs_k3_symbol_index_formula_audit.py"
   - "tests/y14_k3_bridge_loss_audit.py"
-  - "active-research/signed-readout/theorem-statement-v1-2026-06-23.md"
+  - "lab/active-research/signed-readout/theorem-statement-v1-2026-06-23.md"
   - "explorations/generation-sector/generation-count-rs-symbol-index-contract-2026-06-24.md"
   - "explorations/generation-sector/generation-count-rs-k3-symbol-index-attempt-2026-06-24.md"
   - "explorations/generation-sector/generation-count-rs-clifford-projector-computation-2026-06-24.md"

@@ -9,7 +9,7 @@ companion_audit:
   - "tests/cycle2_qft_physical_field_positive_pairing_seed_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/cycle1-qft-positive-two-point-certificate-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/mission-a-qft-state-space-extraction-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md"
@@ -732,7 +732,7 @@ Expected decisions:
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/cycle1-qft-positive-two-point-certificate-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/mission-a-qft-state-space-extraction-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/gu-typed-operator-action-spine-2026-06-24.md`

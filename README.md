@@ -9,7 +9,7 @@ updated_at: "2026-06-29"
 
 *This program began as a formalization of Geometric Unity (GU) and has advanced beyond it. Current framing:
 `RESEARCH-PROGRAM.md`. Lead result (submission candidate, not yet posted):
-`published-papers/candidates/located-not-forced/`.*
+`papers/candidates/located-not-forced/`.*
 
 This program studies a **class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* --
 as a candidate for the shape of physics. Its established result is a **class-level structural law**: this class
@@ -35,28 +35,29 @@ assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 ## Start Here
 
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
-- **Lead result (submission candidate):** `published-papers/candidates/located-not-forced/` ("Located, Not Forced")
+- **Lead result (submission candidate):** `papers/candidates/located-not-forced/` ("Located, Not Forced")
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
 - **High-level overview:** `docs/OVERVIEW.md`
-- **Six-axis testability white paper:** `published-papers/candidates/six-axis-testability/`
+- **Six-axis testability white paper:** `papers/candidates/six-axis-testability/`
 
 ## Repository Layers
 
-- `canon/` contains the stable project spine: claims safe to cite as the current public framing.
-- `active-research/` contains frontstage theorem work that is promising but not yet canon.
-- `roadmap/` contains ranked next steps, publish-potential analysis, and contributor routing.
-- `explorations/` contains speculative or redirected branches for readers who want the full research lab.
-- `process/` contains persona passes, dialectics, and synthesis history.
-- `archive/` contains the early frontier packets and execution provenance.
-- `literature/` contains the literature review briefs.
-- `sources/` contains media/source provenance and claim-mining surfaces.
-- `specifications/` contains reusable templates and candidate specifications.
-- `draft-papers/` contains work-in-progress drafts and superseded paper versions.
-- `published-papers/` contains the publication lifecycle: `candidates/` (staged for publication) and, once
-  posted, the public record itself.
+The root is deliberately small. Five things matter at the top level:
+
+- `papers/` — the publication lifecycle: `drafts/` (WIP) -> `candidates/` (staged) -> `published/` (posted).
+  The lead result is `papers/candidates/located-not-forced/`.
+- `canon/` — the stable project spine: claims safe to cite as the current public framing.
+- `tests/` — computational checks; each maps to a claim (see `tests/README.md`). The paper's load-bearing
+  files are in `tests/generation-sector/`.
+- `explorations/` — the full research lab, grouped into topical subfolders (see `explorations/README.md`).
+- `docs/` — second-tier program docs (overview, frontier hypotheses, GU-status deep-dive).
+
+Everything else -- active research, roadmap, process history, deep-research briefs, literature, sources,
+specifications, automation, and the archive -- lives under `lab/` (see `lab/README.md`). `Lean/` holds the
+Lean formalization scaffold.
 - `docs/` contains second-tier program docs (overview, frontier hypotheses, GU-status deep-dive).
 
 ## Current Center Of Gravity

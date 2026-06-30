@@ -11,7 +11,7 @@ depends_on:
   - "explorations/cycle-gates-and-audits/goal-draft-type-ii1-fixed-data-selector-challenge-2026-06-24.md"
   - "explorations/type-ii1-spectral/type-ii1-selector-or-nogo-theorem-2026-06-24.md"
   - "canon/type-ii1-spectral-sm-checklist.md"
-  - "specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
+  - "lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md"
   - "explorations/generation-sector/generation-count-sm-branching-closure-2026-06-22.md"
   - "explorations/geometry-curvature-emergence/pc5-higgs-emergence-spec-2026-06-23.md"
   - "explorations/geometry-curvature-emergence/pc5-higgs-cas-clebsch-gordan-2026-06-23.md"

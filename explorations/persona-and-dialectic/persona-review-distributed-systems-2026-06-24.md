@@ -15,14 +15,14 @@ This is a full persona review for passes 31-35, read against the current repo st
 
 Process sources used:
 
-- `process/persona-passes/INDEX.md`
-- `process/hegelian-method/hegelian-persona-protocol.md`
-- `process/syntheses/00e-problem-shape-distributed-systems-meta-synthesis.md`
-- `process/persona-passes/05-heterodox-problem-shape-distributed-systems/31-ps-avalanche-consensus-heterodox.md`
-- `process/persona-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md`
-- `process/persona-passes/05-heterodox-problem-shape-distributed-systems/33-ps-complexity-emergence-heterodox.md`
-- `process/persona-passes/05-heterodox-problem-shape-distributed-systems/34-ps-bft-cap-consensus-heterodox.md`
-- `process/persona-passes/05-heterodox-problem-shape-distributed-systems/35-ps-stigmergy-swarm-heterodox.md`
+- `lab/process/persona-passes/INDEX.md`
+- `lab/process/hegelian-method/hegelian-persona-protocol.md`
+- `lab/process/syntheses/00e-problem-shape-distributed-systems-meta-synthesis.md`
+- `lab/process/persona-passes/05-heterodox-problem-shape-distributed-systems/31-ps-avalanche-consensus-heterodox.md`
+- `lab/process/persona-passes/05-heterodox-problem-shape-distributed-systems/32-ps-dag-partial-order-heterodox.md`
+- `lab/process/persona-passes/05-heterodox-problem-shape-distributed-systems/33-ps-complexity-emergence-heterodox.md`
+- `lab/process/persona-passes/05-heterodox-problem-shape-distributed-systems/34-ps-bft-cap-consensus-heterodox.md`
+- `lab/process/persona-passes/05-heterodox-problem-shape-distributed-systems/35-ps-stigmergy-swarm-heterodox.md`
 
 Current-state sources used:
 

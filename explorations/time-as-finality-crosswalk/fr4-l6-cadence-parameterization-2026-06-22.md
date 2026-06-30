@@ -161,7 +161,7 @@ GU-relevance:            None at present. No GU theorem depends on Delta. Explor
 - Task source: `NEXT-STEPS.md` (FR4)
 - Predecessor handing forward the L6 question: `fr1-sorkin-absorption-worked-check-2026-06-22.md` (Section 4.3)
 - Observer-finality sub-protocol (fields + promotion condition): `explorations/time-as-finality-crosswalk/observer-finality-layer.md`
-- Example-02 base candidate: `specifications/six-axis/examples/example-02-sorkin-causal-set.md`
-- Six-axis template (L6 menu, item (f) Dijkstra self-stabilizing): `specifications/six-axis/six-axis-template.md`
+- Example-02 base candidate: `lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md`
+- Six-axis template (L6 menu, item (f) Dijkstra self-stabilizing): `lab/specifications/six-axis/six-axis-template.md`
 - Rate-independence (structural theorems stay rate/deadline-independent): `explorations/time-as-finality-crosswalk/rate-independence-worked-check-2026-06-22.md`
 - Run 5 L6 placement claim: `explorations/time-as-finality-crosswalk/five-run-issuance-rate-observer-contact-2026-06-22.md`

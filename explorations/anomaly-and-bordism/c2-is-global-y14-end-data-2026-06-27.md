@@ -89,7 +89,7 @@ holonomy / spectral section (the K3 χ-gate / APS end-data) that reconciles the 
 algebra and the local geometry are both **provably exhausted** (symbol-algebra carriers floor at 41.04; the
 actual local curvature gives 0–1.8%; ~94% is global). The next gate is genuinely topological/index-theoretic,
 not algebraic: compute the **boundary η-invariant / spectral-section holonomy around the non-compact Y14 end**
-(the existing `active-research/...k3-chi-gate...` + the noncompact-APS-end work) and test whether *that*
+(the existing `lab/active-research/...k3-chi-gate...` + the noncompact-APS-end work) and test whether *that*
 global datum supplies the ~94% of C2 the local curvature cannot — i.e. whether the index/boundary structure
 reconciles the source action's final constraint. This is where the record-issuance-boundary idea and the
 source-action construction become a single computation.

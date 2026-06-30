@@ -8,7 +8,7 @@ owned_path: "explorations/cycle-gates-and-audits/cycle2-vz-actual-operator-e-blo
 companion_audit: "tests/cycle2_vz_actual_operator_e_block_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/cycle1-vz-subprincipal-eblock-proof-gate-2026-06-24.md"
   - "explorations/vz-evasion/vz-e-block-independent-rederivation-2026-06-24.md"
   - "explorations/vz-evasion/vz-proof-grade-closure-attempt-2026-06-24.md"

@@ -8,7 +8,7 @@ optional_executable:
   - tests/temporal_issuance_source_action_steelmen_checker.py
 depends_on:
   - explorations/time-as-finality-crosswalk/ti-as-gu-source-action-three-steelmen-2026-06-27.md
-  - active-research/signed-readout/theorem-statement-v1-2026-06-23.md
+  - lab/active-research/signed-readout/theorem-statement-v1-2026-06-23.md
   - explorations/time-as-finality-crosswalk/record-issuance-boundary-selector-2026-06-26.md
   - explorations/time-as-finality-crosswalk/effect-typed-witness-transport-bidirectional-crosswalk-2026-06-25.md
 external_context:

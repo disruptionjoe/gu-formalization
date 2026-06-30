@@ -9,7 +9,7 @@ optional_audit:
   - "tests/mission_a_qft_state_space_extraction_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md"
   - "explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md"
@@ -705,7 +705,7 @@ Expected honest outcomes:
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md`
 - `explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md`

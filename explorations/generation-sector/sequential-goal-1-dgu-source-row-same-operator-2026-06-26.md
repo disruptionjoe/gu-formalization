@@ -12,7 +12,7 @@ depends_on:
   - "explorations/hourly-cycles/hourly-20260626-0402-cycle3-cross-route-transition-matrix.md"
   - "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md"
   - "explorations/hourly-cycles/hourly-20260625-1802-cycle1-dgu-source-emitted-actual-01-same-operator-packet.md"
-  - "literature/weinstein-ucsd-2025-04-transcript.md"
+  - "lab/literature/weinstein-ucsd-2025-04-transcript.md"
 ---
 
 # Sequential Goal 1: DGU Source Row And Same-Operator Gate
@@ -57,7 +57,7 @@ read by this run and the already rendered manuscript receipts.
 
 | source surface | inspected content | decision |
 |---|---|---|
-| `literature/weinstein-ucsd-2025-04-transcript.md` | [00:32:46]-[00:36:13], [00:39:18], [00:46:02], [00:49:16] source language around `Y14`, pullback spinors, zero/one forms, rolled Dirac-DeRham/Rarita-Schwinger gadget, ship-in-a-bottle/shiab, and three-family claim | adjacent source payload; not an admitted actual 0/1 sector rule |
+| `lab/literature/weinstein-ucsd-2025-04-transcript.md` | [00:32:46]-[00:36:13], [00:39:18], [00:46:02], [00:49:16] source language around `Y14`, pullback spinors, zero/one forms, rolled Dirac-DeRham/Rarita-Schwinger gadget, ship-in-a-bottle/shiab, and three-family claim | adjacent source payload; not an admitted actual 0/1 sector rule |
 | `explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md` | rendered manuscript rows `DGU01-TR-01` through `DGU01-TR-10`, including Shiab/circledot, `/D_omega`, `Upsilon_omega`, and `delta_omega` displays | source-native action/operator/EL locator; no identity to actual `D_GU^epsilon` 0/1 |
 | `explorations/hourly-cycles/hourly-20260625-1802-cycle1-dgu-source-emitted-actual-01-same-operator-packet.md` | prior same-operator packet admission matrix | preserved strict no-admission result |
 | `explorations/hourly-cycles/hourly-20260626-0402-cycle3-dgu-primary-row-unlock-closeout.md` | latest ordered blocker for RS and VZ restarts | preserved source-row before same-operator witness order |

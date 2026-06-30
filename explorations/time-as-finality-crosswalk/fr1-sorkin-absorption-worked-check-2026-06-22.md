@@ -17,7 +17,7 @@ updated_at: "2026-06-22"
 
 ## 1. Fixing the Example-02 Sextuple
 
-From `specifications/six-axis/examples/example-02-sorkin-causal-set.md`, the candidate is:
+From `lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md`, the candidate is:
 
 | axis | filling |
 |---|---|
@@ -194,8 +194,8 @@ None held. The verdict is robust within the stated candidate.
 ## Cross-References
 
 - Task source: `NEXT-STEPS.md` (FR1) and "Recommended Next Step" of `five-run-issuance-rate-observer-contact-2026-06-22.md`
-- Example-02 sextuple: `specifications/six-axis/examples/example-02-sorkin-causal-set.md`
+- Example-02 sextuple: `lab/specifications/six-axis/examples/example-02-sorkin-causal-set.md`
 - Observer-finality sub-protocol: `explorations/time-as-finality-crosswalk/observer-finality-layer.md`
 - Rate-independence worked check (rate-blindness of the order): `explorations/time-as-finality-crosswalk/rate-independence-worked-check-2026-06-22.md`
 - Hands the L6 question to: FR4 (`fr4-l6-cadence-parameterization-2026-06-22.md`)
-- Six-axis template (L6 = coordination loop): `specifications/six-axis/six-axis-template.md`
+- Six-axis template (L6 = coordination loop): `lab/specifications/six-axis/six-axis-template.md`

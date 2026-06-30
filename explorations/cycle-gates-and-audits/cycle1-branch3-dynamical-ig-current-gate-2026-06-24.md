@@ -8,7 +8,7 @@ owned_path: "explorations/cycle-gates-and-audits/cycle1-branch3-dynamical-ig-cur
 optional_audit: "tests/cycle1_branch3_dynamical_ig_current_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-provenance-2026-06-24.md"
   - "explorations/misc/ig-dynamics-nonzero-theta-action-gate-2026-06-24.md"
   - "explorations/dark-energy-cosmology/dark-energy-assumption3-variational-2026-06-23.md"
@@ -645,7 +645,7 @@ to Branch 2A's missing `Phi` or remain phenomenological/control.
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-provenance-2026-06-24.md`
 - `explorations/misc/ig-dynamics-nonzero-theta-action-gate-2026-06-24.md`
 - `explorations/dark-energy-cosmology/dark-energy-assumption3-variational-2026-06-23.md`

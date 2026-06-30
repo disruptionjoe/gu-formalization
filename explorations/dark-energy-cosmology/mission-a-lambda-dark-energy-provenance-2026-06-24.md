@@ -8,7 +8,7 @@ owned_path: "explorations/dark-energy-cosmology/mission-a-lambda-dark-energy-pro
 optional_audit: "tests/mission_a_lambda_dark_energy_provenance_audit.py"
 depends_on:
   - "RESEARCH-POSTURE.md"
-  - "process/runbooks/five-lane-frontier-run.md"
+  - "lab/process/runbooks/five-lane-frontier-run.md"
   - "explorations/cycle-gates-and-audits/marble-wood-local-minimum-open-avenues-ledger-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/unified-marble-wood-source-closure-map-2026-06-24.md"
   - "explorations/cycle-gates-and-audits/metric-marble-prematurity-gate-2026-06-24.md"
@@ -594,7 +594,7 @@ dark-energy route should remain open/control rather than cycling through fitted 
 ## Sources Read
 
 - `RESEARCH-POSTURE.md`
-- `process/runbooks/five-lane-frontier-run.md`
+- `lab/process/runbooks/five-lane-frontier-run.md`
 - `explorations/cycle-gates-and-audits/marble-wood-local-minimum-open-avenues-ledger-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/unified-marble-wood-source-closure-map-2026-06-24.md`
 - `explorations/cycle-gates-and-audits/metric-marble-prematurity-gate-2026-06-24.md`

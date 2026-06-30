@@ -10,7 +10,7 @@ verdict: CONDITIONALLY_RESOLVED
 
 ## 1. Problem Statement
 
-The existing `specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md`
+The existing `lab/specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md`
 lists ten items from the finite Connes-Chamseddine spectral SM and names what a Type II_1
 extension must preserve, redefine, or replace. The specialist pass in
 `explorations/type-ii1-spectral/type-ii1-finite-control-specialist-pass-2026-06-23.md` evaluated KO-6,
@@ -32,9 +32,9 @@ protocol, not merely a requirements list.
 ## 2. Established Context
 
 This computation builds on:
-- `specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md` — 10-item
+- `lab/specifications/type-ii1-spectral-sm/connes-finite-control-checklist.md` — 10-item
   baseline
-- `specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md` — R1-R10
+- `lab/specifications/type-ii1-spectral-sm/type-ii1-extension-requirements.md` — R1-R10
   additional requirements
 - `explorations/type-ii1-spectral/type-ii1-finite-control-specialist-pass-2026-06-23.md` — first specialist
   pass; KO-6 CONDITIONAL/OPEN, principal graphs FAIL as SM rep source, Freed-Hopkins

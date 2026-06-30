@@ -22,7 +22,7 @@ depends_on:
   - "explorations/hourly-cycles/hourly-20260625-0502-cycle2-author-manuscript-rs-differential-receipt-gate.md"
   - "explorations/hourly-cycles/hourly-20260626-1302-cycle3-tau-action-field-space-declaration-spec.md"
   - "canon/shiab-existence-cl95.md"
-  - "literature/weinstein-ucsd-2025-04-transcript.md"
+  - "lab/literature/weinstein-ucsd-2025-04-transcript.md"
 ---
 
 # RS_GU^phys: BRST Specification and Whether GU Determines the Generation Count

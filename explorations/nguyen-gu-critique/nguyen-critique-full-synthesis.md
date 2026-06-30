@@ -25,7 +25,7 @@ Three findings from today's session directly sharpen the N2 task and the buildab
 
 ### Primary-source confirmation of N2's domain/codomain
 
-The Weinstein UCSD April 2025 talk transcript (`literature/weinstein-ucsd-2025-04-transcript.md`) provides the first primary-source statement of the shiab operator's domain and codomain. Weinstein states explicitly: "this is the only thing that you need, which takes a two form value in the spinners and maps it back into one form's value in the spinners." The shiab maps:
+The Weinstein UCSD April 2025 talk transcript (`lab/literature/weinstein-ucsd-2025-04-transcript.md`) provides the first primary-source statement of the shiab operator's domain and codomain. Weinstein states explicitly: "this is the only thing that you need, which takes a two form value in the spinners and maps it back into one form's value in the spinners." The shiab maps:
 
 ```
 Ω²(Y¹⁴) ⊗ S  →  Ω¹(Y¹⁴) ⊗ S
@@ -100,7 +100,7 @@ Computation file: `explorations/shiab-operator/n2-shiab-computation-spin77-branc
 
 ### New primary source
 
-`literature/weinstein-ucsd-2025-04-transcript.md` is now available as the primary GU source. The formal analysis at `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md` extracts and tags eight technical claims from the transcript against repo canon. The shiab/Dirac-DeRham analysis is at §1.7 (Claim 7).
+`lab/literature/weinstein-ucsd-2025-04-transcript.md` is now available as the primary GU source. The formal analysis at `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md` extracts and tags eight technical claims from the transcript against repo canon. The shiab/Dirac-DeRham analysis is at §1.7 (Claim 7).
 
 ### Updated priority ordering for buildable next steps
 
@@ -325,7 +325,7 @@ Reference: `explorations/generation-sector/ig-dimension-matching-sp64-tau-plus-2
 - `explorations/cartan-twistor-g2/cartan-twistor-g2-guardrail.md` — the single
   most Nguyen-relevant file: Clifford/spinor counts, 64→48, signature,
   anti-numerology bar
-- `active-research/signed-readout/` + `canon/six-axis-specification-protocol.md`
+- `lab/active-research/signed-readout/` + `canon/six-axis-specification-protocol.md`
   — anomaly-as-class-relative machinery
 
 **time-as-finality:**
