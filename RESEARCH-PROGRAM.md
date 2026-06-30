@@ -17,7 +17,7 @@ shape of physics, and of the one thing that class provably cannot supply from in
 
 ## What is established (the floor: theorems and computed results, GU-independent)
 
-The published result (`draft-papers/located-not-forced-generation-count-2026-06-29.md`, "Located, Not Forced"):
+The lead result (submission candidate, `published-papers/candidates/located-not-forced/`, "Located, Not Forced"):
 
 - A **2-primary blindness theorem** and a **CRT two-arena structure** (`pi_3^s = Z/24 = Z/8 (+) Z/3`,
   disjoint): every obstruction and selector lives in the 2-primary arena; a count could live only in the

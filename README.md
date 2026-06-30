@@ -8,7 +8,8 @@ updated_at: "2026-06-29"
 # The Observerse Research Program
 
 *This program began as a formalization of Geometric Unity (GU) and has advanced beyond it. Current framing:
-`RESEARCH-PROGRAM.md`. Published result: `draft-papers/located-not-forced-generation-count-2026-06-29.md`.*
+`RESEARCH-PROGRAM.md`. Lead result (submission candidate, not yet posted):
+`published-papers/candidates/located-not-forced/`.*
 
 This program studies a **class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* --
 as a candidate for the shape of physics. Its established result is a **class-level structural law**: this class
@@ -34,13 +35,13 @@ assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 ## Start Here
 
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
-- **Published result:** `draft-papers/located-not-forced-generation-count-2026-06-29.md` ("Located, Not Forced")
+- **Lead result (submission candidate):** `published-papers/candidates/located-not-forced/` ("Located, Not Forced")
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
 - **High-level overview:** `OVERVIEW.md`
-- **Six-axis testability white paper:** `draft-papers/six-axis-testability-white-paper.md`
+- **Six-axis testability white paper:** `published-papers/candidates/six-axis-testability/`
 
 ## Repository Layers
 

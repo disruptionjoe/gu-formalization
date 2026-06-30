@@ -11,7 +11,7 @@ depends_on:
   - canon/three-generations-locate-not-force-CRT-RESULTS.md
   - canon/two-primary-lemma.md
   - explorations/two-geometries-and-the-adapter-2026-06-29.md
-  - draft-papers/located-not-forced-generation-count-2026-06-29.md
+  - published-papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
 ---
 
 # What Are We Missing: Double-Major Persona Sweep -> Hegelian -> Meta-Synthesis
