@@ -60,17 +60,18 @@ process/  roadmap/  sources/  literature/  active-research/  specifications/  au
     `DERIVATION-PROGRESS.md`, `WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`,
     `paper-formalization-candidates.md`. Add `docs/README.md` index.
 - **No new `paper/` folder.** The repo already has the deliberate `draft-papers/` (work in progress) vs
-  `published-papers/` (hand-moved on public posting) split. Instead:
-  - **Surface the submission candidate inside `draft-papers/`**: reorder `draft-papers/README.md` so
-    "Located, Not Forced" is flagged at the top as THE current submission candidate, with superseded drafts
-    grouped below.
-  - **Reconcile the "Published result" wording.** README and RESEARCH-PROGRAM currently call
-    "Located, Not Forced" the *"Published result"* -- but by the repo's own convention it is not published
-    until it is on arXiv. Change to "lead result / submission candidate (draft)" until posted.
-  - `published-papers/` stays the public record; "Located, Not Forced" moves there (by Joe) only on posting.
-  - Staging near-final papers (Six-Axis, a Nguyen response, etc.) into a `published-papers/candidates/`
-    subfolder after a light adversarial pass is a **separate workstream** (see the publishable-paper census).
-- Update `README.md`'s "Start Here" block to the new `docs/` paths.
+  `published-papers/` (hand-moved on public posting) split.
+- **DONE (commit f1f6e4c) -- the paper-staging workstream.** A workflow census + light adversarial triage
+  found exactly two publishable papers; both graduated into `published-papers/candidates/`:
+  - `candidates/located-not-forced/` (the lead result; `.tex` is the arXiv source) and
+    `candidates/six-axis-testability/` (methods/position track), each with a `STAGING-NOTES.md`.
+  - Lifecycle codified: `draft-papers/` (WIP + superseded versions) -> `candidates/` (graduated on Joe's
+    explicit publish-intent) -> `published-papers/` (only after Joe confirms posting). See
+    `published-papers/README.md` and `candidates/README.md`.
+  - "Published result" wording reconciled to "submission candidate"; all internal links rewired.
+  - Nguyen response: skipped for now (the honest concede-and-reframe already lives in LNF Sec 9).
+- **Still TODO in Phase 1:** create `docs/`, move the 7 non-essential root `.md` into it, add `docs/README.md`,
+  and update `README.md`'s "Start Here" block to the new `docs/` paths.
 
 ### Phase 2 -- corral the hourly output (turns 830 loose into ~300)
 
