@@ -1,4 +1,4 @@
-# Located, Not Forced: Two-Primary Blindness and a Three-Primary Boundary Invariant for the Generation Count in a Clifford Rarita-Schwinger Sector
+# Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector
 
 **Draft for external review. This paper does NOT claim three generations. See Sections 1 and 8.**
 
