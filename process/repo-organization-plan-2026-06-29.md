@@ -11,6 +11,22 @@ Goal: an outsider can land on the repo, read `README.md`, and reach the publishe
 and the research program **without wading through 830 loose exploration files**. This is a tidy-and-index
 pass, not a rewrite.
 
+## STATUS: all phases complete (2026-06-29)
+
+| Phase | Commit | Result |
+|---|---|---|
+| Paper staging | `f1f6e4c` | 2 publishable papers graduated to `published-papers/candidates/` (lifecycle codified) |
+| 2 -- hourly corral | `2ee9c26` | 525 `hourly-*.md` -> `explorations/hourly-cycles/`; explorations root 830 -> 304 loose |
+| 1 -- root declutter | `99b89ba` | 4 peripheral docs -> `docs/`; root 14 -> 10 `.md` (operational trio kept) |
+| 4a -- hourly tests | `49d1504` | 290 `hourly_*.py` -> `tests/hourly-cycles/`; loose tests 384 -> 94 |
+| 4b -- test manifest | `2623341` | `tests/README.md` indexes the 94 in place (provenance refs protected) |
+| 5 -- index + naming | `9ee08fd` | READMEs for automation/, deep-research/, specifications/; conventions in CONTRIBUTING |
+| 3 -- topical note sort | `a2098ca` | 296 notes -> 15 topical subfolders (content-categorized); `explorations/README` index |
+
+Deviations from the original plan, by design: kept the operational status trio at root (too cross-referenced);
+indexed the 94 real tests in place rather than subfoldering (canon provenance refs are frozen). 8 pre-existing
+dangling refs to long-deleted files remain (not in scope; not caused by this pass).
+
 ## Hard rules (non-negotiable for this pass)
 
 1. **Delete nothing.** Every file is preserved. Cleanup = `git mv` (history-preserving moves) + new
