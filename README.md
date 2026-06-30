@@ -13,7 +13,9 @@ updated_at: "2026-06-29"
 This program studies a **class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* --
 as a candidate for the shape of physics. Its established result is a **class-level structural law**: this class
 of matter geometry is intrinsically vectorlike and cannot force its own chirality or generation count from
-inside, so the count is **necessarily external**, of a Standard-Model-shaped form. The guiding hypothesis (the
+inside (the linear leg is theorem-grade; the antilinear escape is a finite adversarial hunt with no
+counterexample found, not yet a closed proof), so on present evidence the count is **external** -- entering as
+chirality does in the Standard Model (chiral gauge couplings, instantons, K3 / Calabi-Yau). The guiding hypothesis (the
 program's bet, not yet a result) is that this class connects the **classical** (general relativity) and the
 **quantum** (Standard Model), with chirality as external boundary data; the frontier is **what lies outside the
 observer universe.** See `RESEARCH-PROGRAM.md`.

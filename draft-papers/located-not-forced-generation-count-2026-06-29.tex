@@ -1,4 +1,4 @@
-% Located, Not Forced -- arXiv submission source (v2.1).
+% Located, Not Forced -- arXiv submission source (v2.3).
 % Draft for external review. This paper does NOT claim three generations.
 %
 % Suggested arXiv classification:
@@ -52,7 +52,7 @@ in a Clifford Rarita--Schwinger Sector}
 AI-directed research process; all load-bearing computations are reproducible from the public repository linked
 in the Data Availability section.}}
 
-\date{Version 2.3, 2026-06-29}
+\date{June 2026}
 
 \begin{document}
 
@@ -85,7 +85,7 @@ We then test the strongest possible reading by direct computation. Reopened with
 obstruction is a \emph{class-level structural no-go} (computed and adversarially verified): no covariant operator
 interior to a Clifford--Rarita--Schwinger sector of this type was found to force an odd chiral count. Its linear
 leg is theorem-grade (index conservation); its antilinear leg---that no frame-non-trivial antilinear
-(Altland--Zirnbauer class CII) chiralizer exists---is established by a finite adversarial hunt, not a closed
+(Altland--Zirnbauer class-CII type) chiralizer exists---is established by a finite adversarial hunt, not a closed
 proof (an exhaustive non-existence theorem is open). On present evidence the generation count is therefore
 \emph{external}: supplied by a net-self-dual chiral background coupled through the index theorem, of the same
 general kind by which chirality arises in known chiral theories (chiral gauge couplings, instanton zero-modes,
@@ -128,7 +128,7 @@ sector is an odd-prime congruence; in particular none imposes a mod-$3$ conditio
 $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is standard primary decomposition, already used in the prior family-puzzle
 literature; we claim no novelty for it. The contribution is the structural \emph{reading}: every obstruction
 \emph{and} every chiralizing selector lives in $\Z/8$, a homotopy-theoretic count lives only in $\Z/3$, the two
-arenas cannot interact directly (anomaly inflow is the sole possible bridge), and hence a $2$-primary no-go
+arenas cannot interact directly within the group structure (anomaly inflow being the natural bridge between them), and hence a $2$-primary no-go
 cannot force an odd count. [interpretive structural reading on standard input, theory-independent, under the
 torsion-count reading; see Corollary~\ref{cor:arenas}]
 \item \textbf{An index-conservation theorem, a necessary antilinear escape, and a class-level structural no-go
@@ -320,11 +320,13 @@ cf.\ \texttt{canon/ghost-parity-krein-synthesis.md}).
 \begin{corollary}[necessary antilinear escape]
 No linear/unitary dynamics generates chiral asymmetry in this sector. By Wigner's
 dichotomy~\cite{wigner1931gruppentheorie} the unique symmetry-respecting escape is \emph{antilinear} (CPT /
-particle-hole; Altland--Zirnbauer class CII~\cite{altland1997nonstandard}), realized by a
+particle-hole; Altland--Zirnbauer class-CII type~\cite{altland1997nonstandard}), realized by a
 re-grading $C = \Jq\cdot G$ with $C^2 = -I$ (Kramers/PHS; the antilinear part of $C$ has norm $\sim 85$, i.e. $C$
-is genuinely antilinear, not a deviation from the stated $C^2=-I$). The class-CII data are present: the chiral
+is genuinely antilinear, not a deviation from the stated $C^2=-I$). The antilinear symmetry data are present: the chiral
 grading $G$ supplies the chiral symmetry and the quaternionic Kramers structure $\Jq$ supplies the antiunitary
-particle-hole $C$ with $C^2 = -I$. This is corroborated independently by a
+particle-hole $C$ with $C^2 = -I$; the induced time reversal $T = G\,C$ completes the symmetry triple, with the
+precise real class (CII versus DIII) fixed by whether $\Jq$ commutes with $G$---a detail we do not separately pin
+down, since the argument needs only that the escape is antilinear with $C^2=-I$, which holds in either case. This is corroborated independently by a
 Seiberg--Witten moment-map degree argument: a Krein-isometric moment map is degree-$2$ homogeneous while $\ch_2$
 is degree-$0$ and connection-independent, so a source action built from it is orthogonal to the topological index.
 \end{corollary}
@@ -352,7 +354,7 @@ These are subspace-restriction / overlap quantities, \emph{not} conserved indice
 exactly $0$ under $O$, as Theorem~\ref{thm:2} requires, so $O$ is frame-active and $2$-primary but forces no
 count.
 
-The one genuine loophole Theorem~\ref{thm:2} leaves---a frame-non-trivial \emph{antilinear} (CII)
+The one genuine loophole Theorem~\ref{thm:2} leaves---a frame-non-trivial \emph{antilinear} (class-CII type)
 chiralizer---was hunted adversarially over candidate families on the $\Cl(9,5)$ representative and \emph{none was
 found}: every candidate is chirality-reversing (net $0$), carrier-leaking, or a gauge dressing continuously
 deformable to the frame-trivial identity (a connected stabilizer, topological $p_1=0$, forcing the identical
@@ -541,7 +543,7 @@ likewise without precedent.
 The no-go is two-primary (no odd-prime congruence) & theorem (theory-independent) \\
 CRT two-arena reading ($\pis = \Z/8\oplus\Z/3$, summands disjoint) & decomposition is standard; the two-arena structural reading is the contribution, under the torsion-count reading \\
 Linear Krein-isometric operators conserve the net chiral index & theorem (finite-dim; physical subspaces balanced; machine-corrob.) \\
-The unique escape is antilinear (class CII) & corollary (Wigner) + machine-verified \\
+The unique escape is antilinear (class-CII type) & corollary (Wigner) + machine-verified \\
 GU's antilinear chiralizer is frame-trivial, couples gauge & computed-confirmed; evadable only into a $2$-primary, index-conserving linear channel \\
 No interior operator found forces an odd chiral count; the count is external on present evidence & class-level structural no-go (GU-independent); linear leg theorem-grade, antilinear non-existence a finite adversarial hunt (exhaustive proof open) \\
 Forcing an odd count requires an external net-self-dual chiral background & computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin $3$ \\

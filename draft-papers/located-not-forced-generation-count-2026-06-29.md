@@ -7,11 +7,19 @@
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Version 2.1, 2026-06-29. (v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the carrier-mass
-capstone; v2.0 the GU-independent class-level structural no-go; v2.1 hostile-referee punch-list applied --
-regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the "necessarily external"
-and "Standard-Model-shaped" overclaims, fixed the count-forcing vs count-producing wording, added the
-torsion-count contingency to the Section 4 Corollary, and upgraded the Theorem 1 and Theorem 2 statements.)
+Internal version 2.3, 2026-06-29 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
+carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
+punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
+"necessarily external" and "Standard-Model-shaped" overclaims, fixed the count-forcing vs count-producing
+wording, added the torsion-count contingency, upgraded the Theorem 1 and Theorem 2 statements; v2.2
+pre-submission punch-list -- keystone normalization attribution and narrowed novelty (conceded the `Z/24` split
+and `pi_3^s` use to Wang 2023); v2.3 hardened against a second hostile-referee report -- finite-dimensional
+Theorem 2 proof (defuses the Fredholm objection), corrected the `(14,0)` signature to a chirality-detecting
+control, added the normalization-conventions paragraph and the order-3 footnote, front-loaded the torsion-count
+contingency, restored Wang's full title; post-2.3 -- retitle, and a second hostile-referee pass triaged
+(softened "class CII" to "class-CII type", "sole possible bridge" to "natural bridge"; synced the repo prose to
+the paper's gated grade).
 
 ---
 
@@ -33,7 +41,7 @@ form on the generation triplet is purely cross-chirality `(+96, -96)`, so every 
 operator conserves the net chiral index at zero -- a finite-dimensional fact (the cross-chirality `(96,96)` form
 makes every physical subspace chirality-balanced; no Fredholm theory), confirmed in the physical signatures
 `(9,5)`, `(7,7)` with Euclidean `(14,0)` as a chirality-detecting control -- and
-the unique symmetry-respecting escape is an **antilinear** (CPT / particle-hole, Altland-Zirnbauer class CII)
+the unique symmetry-respecting escape is an **antilinear** (CPT / particle-hole, Altland-Zirnbauer class-CII type)
 re-grading.
 
 The decomposition `pi_3^s = Z/8 (+) Z/3` is the central structural fact. By the Chinese Remainder Theorem the
@@ -82,8 +90,8 @@ the strongest possible reading of it by direct computation. Our contributions:
    or mod-`2^k`. [theorem, theory-independent]
 2. **A CRT two-arena structure (Section 4).** `pi_3^s = Z/24 = Z/8 (+) Z/3` splits, by the Chinese Remainder
    Theorem, into disjoint summands. Every obstruction *and* every chiralizing selector lives in `Z/8`; a
-   homotopy-theoretic count lives only in `Z/3`. The two arenas cannot interact directly; anomaly inflow is
-   the sole possible bridge. This is the unifying frame: the no-go is blind to the count not by weakness but
+   homotopy-theoretic count lives only in `Z/3`. The two arenas cannot interact directly within the group
+   structure; anomaly inflow is the natural bridge between them. This is the unifying frame: the no-go is blind to the count not by weakness but
    by arithmetic.
 3. **An index-conservation theorem, a necessary antilinear escape, and a class-level structural no-go
    (Section 5).** Every linear Krein-isometric operator conserves the net chiral index at zero (proven directly:
@@ -209,9 +217,11 @@ no role (`χ` is identically 0, not merely constant). Machine-corroborated
 
 **Corollary (necessary antilinear escape).** No linear / unitary dynamics generates chiral asymmetry in this
 sector. By Wigner's dichotomy the unique symmetry-respecting escape is **antilinear** (CPT / particle-hole;
-Altland-Zirnbauer class CII), realized by a re-grading `C = J_quat . G` with `C^2 = -I` (Kramers/PHS,
+Altland-Zirnbauer class-CII type), realized by a re-grading `C = J_quat . G` with `C^2 = -I` (Kramers/PHS,
 the antilinear part of `C` has norm `~ 85` -- i.e. `C` is genuinely antilinear, not a
-deviation from the stated `C^2 = -I`). Corroborated independently by a Seiberg-Witten moment-map degree argument: a
+deviation from the stated `C^2 = -I`). The induced time reversal `T = G C` completes the symmetry triple; the
+precise real class (CII versus DIII) depends on whether `J_quat` commutes with `G`, which the argument does not
+need to settle -- only that the escape is antilinear with `C^2 = -I`. Corroborated independently by a Seiberg-Witten moment-map degree argument: a
 Krein-isometric moment map is degree-2 homogeneous while `ch_2` is degree-0 and connection-independent, so a
 source action built from it is orthogonal to the topological index (`canon/source-action-seiberg-witten-RESULTS.md`).
 
@@ -430,7 +440,7 @@ with the Clifford-RS embedding and the Krein index-conservation theorem.
 | The no-go is 2-primary (no odd-prime congruence) | theorem (theory-independent) |
 | CRT two-arena structure `pi_3^s = Z/8 (+) Z/3`, summands disjoint | theorem |
 | Linear Krein-isometric operators conserve the net chiral index | theorem (machine-verified) |
-| The unique escape is antilinear (class CII) | corollary (Wigner) + machine-verified |
+| The unique escape is antilinear (class-CII type) | corollary (Wigner) + machine-verified |
 | The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed; frame-triviality is evadable only into a 2-primary, index-conserving linear channel |
 | No interior operator found forces an odd chiral count; the count is external on present evidence | class-level structural no-go (GU-independent); linear leg theorem-grade (index conservation), antilinear non-existence a finite adversarial hunt (exhaustive proof open) |
 | Forcing an odd count requires an external net-self-dual chiral background | computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin 3 |

@@ -26,8 +26,10 @@ The published result (`draft-papers/located-not-forced-generation-count-2026-06-
   structural law** (reopened with no GU restriction,
   `canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md`): **no covariant operator, linear or
   antilinear, interior to a Clifford-RS sector of this class can force an odd chiral generation count.** The
-  matter geometry is intrinsically vectorlike (mirror-balanced); it cannot tip its own scale.
-- Therefore the generation count / the universe's chirality is **necessarily external** -- supplied by a
+  linear leg is theorem-grade (index conservation); the antilinear leg is a finite adversarial hunt that found
+  no counterexample -- strong evidence, not a closed non-existence proof. The matter geometry is intrinsically
+  vectorlike (mirror-balanced); it cannot tip its own scale.
+- Therefore, on present evidence, the generation count / the universe's chirality is **external** -- supplied by a
   net-self-dual chiral background through the index theorem, of exactly the form by which chirality arises in
   the Standard Model (chiral gauge couplings, instanton zero-modes, K3 / Calabi-Yau compactification).
 
@@ -52,8 +54,9 @@ the world, is evidence *for* the theory, not against it.
 
 Keeping this line sharp is the program's credibility.
 
-- **Established** (theorem / computed, GU-independent): the structural law; "located, not forced"; the count is
-  necessarily external; the external ingredient is SM-shaped. These are the floor.
+- **Established** (theorem / computed, GU-independent): the structural law (linear leg theorem-grade; antilinear
+  leg a finite hunt with no counterexample, not a closed proof); "located, not forced"; the count is external on
+  present evidence; the external ingredient enters as chirality does in the SM. These are the floor.
 - **Not established** (the bet, still to be earned): that this class of geometry actually *delivers the rest of
   physics* -- that it genuinely unifies GR and the SM. GU's specific attempts at the rest are reconstruction-
   grade with real open problems (the dark-energy sign, exact black-hole solutions, full anomaly cancellation;
