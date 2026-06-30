@@ -40,8 +40,9 @@ Most other directories (`canon/`, `process/`, `roadmap/`, `sources/`, `literatur
 README.md            <- single entry point; routes everywhere
 CANON.md  RESEARCH-PROGRAM.md  RESEARCH-POSTURE.md  CONTRIBUTING.md  LICENSE-*  .gitignore
 docs/                <- the other ~9 root .md files, indexed (status, next-steps, overview, where-GU-stands, ...)
-paper/               <- the published result, alone and obvious (was the live files in draft-papers/)
-draft-papers/        <- working drafts + superseded versions, with a README that says "superseded"
+draft-papers/        <- work in progress; the "Located, Not Forced" submission candidate is surfaced at the
+                        top of its README, superseded drafts grouped below
+published-papers/    <- EXISTING convention; empty until Joe hand-moves a paper here on public posting
 canon/               <- stable spine (frozen this pass)
 tests/               <- evidence, grouped by sector with a manifest (frozen subdirs; loose files grouped)
 explorations/        <- research notes, topical subfolders + an hourly/ corral
@@ -58,12 +59,18 @@ process/  roadmap/  sources/  literature/  active-research/  specifications/  au
   - Move to `docs/`: `OVERVIEW.md`, `NEXT-STEPS.md`, `NEXT-FRONTIER-HYPOTHESES.md`, `RESEARCH-STATUS.md`,
     `DERIVATION-PROGRESS.md`, `WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`,
     `paper-formalization-candidates.md`. Add `docs/README.md` index.
-- **Create `paper/`** and move the four live artifacts there so the published result stands alone:
-  `located-not-forced-generation-count-2026-06-29.{tex,md}`, plus a `paper/README.md` pointing to the
-  arXiv classification, the test manifest, and the repo. **Update the two internal cross-links** (the `.md`
-  header link to the `.tex`, and README/RESEARCH-PROGRAM's `draft-papers/located-...md` references) in the
-  same commit. *(Decision needed -- see Open questions.)*
-- Update `README.md`'s "Start Here" block to the new paths.
+- **No new `paper/` folder.** The repo already has the deliberate `draft-papers/` (work in progress) vs
+  `published-papers/` (hand-moved on public posting) split. Instead:
+  - **Surface the submission candidate inside `draft-papers/`**: reorder `draft-papers/README.md` so
+    "Located, Not Forced" is flagged at the top as THE current submission candidate, with superseded drafts
+    grouped below.
+  - **Reconcile the "Published result" wording.** README and RESEARCH-PROGRAM currently call
+    "Located, Not Forced" the *"Published result"* -- but by the repo's own convention it is not published
+    until it is on arXiv. Change to "lead result / submission candidate (draft)" until posted.
+  - `published-papers/` stays the public record; "Located, Not Forced" moves there (by Joe) only on posting.
+  - Staging near-final papers (Six-Axis, a Nguyen response, etc.) into a `published-papers/candidates/`
+    subfolder after a light adversarial pass is a **separate workstream** (see the publishable-paper census).
+- Update `README.md`'s "Start Here" block to the new `docs/` paths.
 
 ### Phase 2 -- corral the hourly output (turns 830 loose into ~300)
 
@@ -98,15 +105,18 @@ Group by the prefixes that already exist in the filenames (no renames, just fold
 - Add a short "naming convention" note to `CONTRIBUTING.md`: `topic-subtopic-YYYY-MM-DD.md` for notes,
   `snake_case.py` for tests, RESULTS docs in `canon/`.
 
-## Open questions for Joe
+## Decisions (locked) and open questions
 
-1. **`paper/` vs leaving it in `draft-papers/`.** A dedicated `paper/` makes the published result obvious
-   but changes the cited path in README/RESEARCH-PROGRAM (one commit, internal links only -- the arXiv PDF
-   is unaffected). Recommended. Alternative: keep it in `draft-papers/` and just add a bold pointer.
-2. **Execute all phases, or stop after Phase 1-2?** Phases 1-2 deliver ~80% of the "outsider can navigate"
-   benefit (root + the hourly corral). Phases 3-4 are the deeper sort.
-3. **`docs/` name.** `docs/` is conventional and GitHub renders it; alternative is `notes/` or
-   `program-docs/`.
+- **RESOLVED -- no `paper/` folder.** Use the existing `draft-papers/` vs `published-papers/` split; surface
+  the submission candidate inside `draft-papers/` (Phase 1).
+- **RESOLVED -- run all 5 phases** (Joe, 2026-06-29), per-phase commits.
+- **Separate workstream -- `published-papers/candidates/`.** Stage the genuinely publishable papers
+  (Six-Axis, a possible Nguyen-critique response, Located-Not-Forced) there after a *light* adversarial pass.
+  Driven by the publishable-paper census; folded into this cleanup once the candidate set is locked.
+- **Open -- `docs/` name.** `docs/` is conventional and GitHub renders it; alternatives `notes/` /
+  `program-docs/`. Defaulting to `docs/` unless Joe says otherwise.
+- **Open -- the `~300` exploration notes mapping.** The prefix/content -> bucket mapping is shown for
+  confirmation before the bulk move (Phase 3).
 
 ## Effort / sequencing
 
