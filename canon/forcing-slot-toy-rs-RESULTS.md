@@ -9,7 +9,7 @@ depends_on:
   - canon/single-decider-integer-index-RESULTS.md
   - canon/boundary-eta-of-mu-RESULTS.md
   - canon/three-generations-locate-not-force-CRT-RESULTS.md
-  - explorations/firewall-as-obfuscation-and-reverse-engineered-trapdoor-2026-06-29.md
+  - explorations/firewall-and-two-geometries/firewall-as-obfuscation-and-reverse-engineered-trapdoor-2026-06-29.md
   - canon/two-primary-lemma.md
 ---
 

@@ -3,7 +3,7 @@ title: "GU Theta Field Dark Energy — FLRW Equation of State and DESI DR1 Compa
 status: canon
 doc_type: canon
 promoted_from:
-  - "explorations/theta-field-flrw-eos-2026-06-23.md"
+  - "explorations/dark-energy-cosmology/theta-field-flrw-eos-2026-06-23.md"
 promoted_at: "2026-06-23"
 verdict: OPEN
 verdict_changed_from: CONDITIONALLY_RESOLVED
@@ -20,7 +20,7 @@ Canon means: safe to cite as the current public spine of the project. It does no
 
 > **VERDICT: OPEN (CORRECTION DARK-ENERGY-02, 2026-06-26).** This document's EOS-vs-DESI comparison is an OPEN problem, not CONDITIONALLY_RESOLVED. Its only parameter-free prediction (ratio `w_a/(w_0+1)=+1.17`) is **sign-inconsistent with DESI** (`w_a=-0.75`); the sign of `w_a` itself has two undismissed candidates (frozen-IC `w_a>0` vs slow-roll-IC `w_a<0`, OQ3-A unresolved), so by the repo's UNDISMISSED-CANDIDATE rule the verdict is OPEN. The 2026-06-23 OPEN→CONDITIONALLY_RESOLVED re-elevation was driven by a process milestone (the integration being complete), not by data support. What IS reconstruction-grade and stands: the **structural** EOS machinery — theta as a dynamic dark-energy field, the oscillating+damped two-component `w(z)`, and the algebraically-exact Result 1. The `w_0=-0.826` "match" to DESI's `-0.827` is a **fit** (`f_0=0.125` tuned), not a prediction.
 
-> **OQ3 CORRECTION (2026-06-23, theta-field-flrw-matter-era-ode):** Full Lambda-CDM Klein-Gordon integration is now complete (RK4, 300,000 steps, z=3 to z=0). Corrected values: phi_0 = 0.855 rad (de Sitter was 1.94 rad), w_B(0) = +0.388 (was +0.76), coefficient C = 1.39 (was 1.76 in w_0 = -1 + C*f_0), ratio w_a/(w_0+1) = +1.17 (was -1.80, sign reversed). The failure condition fires: ratio changed by factor 2.68 (> 2 threshold). The de Sitter ratio -1.80 and the negative-w_a prediction are ruled out at reconstruction grade. The sign of w_a is now +1.17*f_0 > 0 (from frozen IC at z=3), but this is IC-sensitive (8% variation between frozen and slow-roll ICs). Whether w_a > 0 or w_a < 0 requires extending the integration to z >> z_osc ~ 1.85 with proper slow-roll initial conditions from attractor (OQ3-A). Result 1 (oscillating+damped regime) remains algebraically exact. Results 2 and 3 are now updated with corrected FLRW values. See `explorations/theta-field-flrw-matter-era-ode-2026-06-23.md`.
+> **OQ3 CORRECTION (2026-06-23, theta-field-flrw-matter-era-ode):** Full Lambda-CDM Klein-Gordon integration is now complete (RK4, 300,000 steps, z=3 to z=0). Corrected values: phi_0 = 0.855 rad (de Sitter was 1.94 rad), w_B(0) = +0.388 (was +0.76), coefficient C = 1.39 (was 1.76 in w_0 = -1 + C*f_0), ratio w_a/(w_0+1) = +1.17 (was -1.80, sign reversed). The failure condition fires: ratio changed by factor 2.68 (> 2 threshold). The de Sitter ratio -1.80 and the negative-w_a prediction are ruled out at reconstruction grade. The sign of w_a is now +1.17*f_0 > 0 (from frozen IC at z=3), but this is IC-sensitive (8% variation between frozen and slow-roll ICs). Whether w_a > 0 or w_a < 0 requires extending the integration to z >> z_osc ~ 1.85 with proper slow-roll initial conditions from attractor (OQ3-A). Result 1 (oscillating+damped regime) remains algebraically exact. Results 2 and 3 are now updated with corrected FLRW values. See `explorations/dark-energy-cosmology/theta-field-flrw-matter-era-ode-2026-06-23.md`.
 
 ## Scope
 

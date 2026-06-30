@@ -3,7 +3,7 @@ title: "GU Linearized Schwarzschild — R_fail Vanishes at O(M/r)"
 status: canon
 doc_type: canon
 promoted_from:
-  - "explorations/rfail-schwarzschild-oq2-weak-field-2026-06-23.md"
+  - "explorations/geometry-curvature-emergence/rfail-schwarzschild-oq2-weak-field-2026-06-23.md"
 promoted_at: "2026-06-23"
 verdict: OPEN
 verdict_changed_from: CONDITIONALLY_RESOLVED

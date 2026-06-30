@@ -3,7 +3,7 @@ title: "w2(Y14) = 0 — Y14 is Spin for Any Orientable X4"
 status: canon
 doc_type: canon
 promoted_from:
-  - "explorations/n6-w2-y14-gysin-spin-structure-2026-06-22.md"
+  - "explorations/anomaly-and-bordism/n6-w2-y14-gysin-spin-structure-2026-06-22.md"
 promoted_at: "2026-06-23"
 verdict: CONDITIONALLY_RESOLVED
 correction: "W2-01 (2026-06-26) — unconditional spin claim RETRACTED; corrected to: Y14 spin iff X4 spin"

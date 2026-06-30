@@ -56,7 +56,7 @@ A good lane should answer at least one of these:
 ## Coordinator Workflow
 
 1. Check the branch and worktree first.
-2. Review `explorations/remaining-math-topography-ledger-v0-2026-06-26.md` when
+2. Review `explorations/cycle-gates-and-audits/remaining-math-topography-ledger-v0-2026-06-26.md` when
    building the candidate hole bank, so each lane starts with a terrain hypothesis and
    forbidden shortcut. If a row routes to spectral, code, noncommutative, descent, or
    provenance terrain, also check the ledger's certificate carry-forward section for

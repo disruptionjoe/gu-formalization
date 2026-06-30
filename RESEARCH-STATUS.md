@@ -58,7 +58,7 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | ranked next steps | active_research | `roadmap/` |
 | C_MPR and 9-tuple | exploration | `explorations/c-mpr/` |
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
-| positive GU constructions lane | exploration | `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` |
+| positive GU constructions lane | exploration | `explorations/misc/positive-gu-constructions-lane-proposal-2026-06-22.md` |
 | stochastic, causal-set, RG, CA, higher-categorical branches | exploration | `explorations/` |
 | persona process and dialectics | process | `process/` |
 | early frontier packets | archive | `archive/` |
@@ -69,7 +69,7 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 
 **VZ evasion status for 14D mixed covectors downgraded from EVADED to CONDITIONALLY_EVADED.**
 
-The `vz-schur` result logged in the second parallel pass (and the synthesis in `explorations/vz-14d-mixed-covectors-2026-06-23.md`) reported `VZ evasion status: EVADED`. This is overstated. The Schur complement proof uses `E^{-1}` without independently establishing that `E(xi)` is invertible on `Q = E_0 + Q^{14D}`. The `det(M) = det(E)*det(S_R)` identity is circular: it holds when E is invertible and cannot be used to prove E invertibility. Until a direct Clifford algebra proof is supplied, the 14D mixed-covector result is CONDITIONALLY_EVADED. The 4D section-pullback result (OQ3-V1/V2/V3) is unaffected at the principal-symbol order but is NOT VERIFIED (see VZ-02 below). The exploration file has been corrected (frontmatter, §4, §7 table, §9). See DERIVATION-PROGRESS.md log entry CORRECTION VZ-01.
+The `vz-schur` result logged in the second parallel pass (and the synthesis in `explorations/vz-evasion/vz-14d-mixed-covectors-2026-06-23.md`) reported `VZ evasion status: EVADED`. This is overstated. The Schur complement proof uses `E^{-1}` without independently establishing that `E(xi)` is invertible on `Q = E_0 + Q^{14D}`. The `det(M) = det(E)*det(S_R)` identity is circular: it holds when E is invertible and cannot be used to prove E invertibility. Until a direct Clifford algebra proof is supplied, the 14D mixed-covector result is CONDITIONALLY_EVADED. The 4D section-pullback result (OQ3-V1/V2/V3) is unaffected at the principal-symbol order but is NOT VERIFIED (see VZ-02 below). The exploration file has been corrected (frontmatter, §4, §7 table, §9). See DERIVATION-PROGRESS.md log entry CORRECTION VZ-01.
 
 ## 2026-06-23 Correction VZ-02 (critical)
 
@@ -126,12 +126,12 @@ Five bounded frontier notes were added by the manual parallel pass. One addition
 
 | document | status | content |
 |---|---|---|
-| `explorations/vz1-schur-complement-symbol-2026-06-23.md` | exploration | Confirms RS/non-RS off-diagonal coupling in the local rolled-up principal-symbol model. The 14D horizontal spin-3/2 sector is not a closed standalone subsystem under stated assumptions. Full VZ evasion remains open; the first unresolved piece after this note was the vertical-sector extension below. |
-| `explorations/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation for horizontal covectors by including vertical one-form inputs. Verdict: vertical one-forms do not change the horizontal Schur complement under the horizontal gamma-trace RS projection. Mixed 14D covectors and the full 14D gamma-trace RS definition remain open. |
-| `explorations/ii-s-coordinate-formula-2026-06-23.md` | exploration | Supplies explicit gimmel Christoffels and the graph-section formula for `II_s`. OQ-2 is locally closed at formula level, but the physical convention must be chosen: literal graph immersion versus horizontal-normalized pullback/reference subtraction. |
-| `explorations/codazzi-sp64-bundle-2026-06-23.md` | exploration | Formulates Gauss-Codazzi-Ricci for the tautological section and Sp(64) associated bundle. Names the exact residuals: normal-flux correction `K(A,s)` and Einstein failure tensor `R_fail`. |
-| `explorations/discrete-series-fiber-dirac-index-2026-06-23.md` | exploration | Finds that `dim_H ker_L2(D_fib)=24` is not coherent as an ordinary finite homogeneous-fiber kernel statement on `GL(4,R)/O(3,1)`. The generation-count analytic target must be replaced by a compactified, quotient, equivariant-index, or relative-discrete-series multiplicity problem. |
-| `explorations/cross-program-lambda-coefficient-2026-06-23.md` | exploration | Corrects the cross-program comparison: GU `Lambda` has rate-squared units, so it should be compared with `lambda_max^2` or `Gamma_min^2`, not raw TaF rates. The invariant coefficient remains blocked on the `II_s` Hessian on `S^4`. |
+| `explorations/vz-evasion/vz1-schur-complement-symbol-2026-06-23.md` | exploration | Confirms RS/non-RS off-diagonal coupling in the local rolled-up principal-symbol model. The 14D horizontal spin-3/2 sector is not a closed standalone subsystem under stated assumptions. Full VZ evasion remains open; the first unresolved piece after this note was the vertical-sector extension below. |
+| `explorations/vz-evasion/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation for horizontal covectors by including vertical one-form inputs. Verdict: vertical one-forms do not change the horizontal Schur complement under the horizontal gamma-trace RS projection. Mixed 14D covectors and the full 14D gamma-trace RS definition remain open. |
+| `explorations/geometry-curvature-emergence/ii-s-coordinate-formula-2026-06-23.md` | exploration | Supplies explicit gimmel Christoffels and the graph-section formula for `II_s`. OQ-2 is locally closed at formula level, but the physical convention must be chosen: literal graph immersion versus horizontal-normalized pullback/reference subtraction. |
+| `explorations/geometry-curvature-emergence/codazzi-sp64-bundle-2026-06-23.md` | exploration | Formulates Gauss-Codazzi-Ricci for the tautological section and Sp(64) associated bundle. Names the exact residuals: normal-flux correction `K(A,s)` and Einstein failure tensor `R_fail`. |
+| `explorations/analytic-index-fredholm/discrete-series-fiber-dirac-index-2026-06-23.md` | exploration | Finds that `dim_H ker_L2(D_fib)=24` is not coherent as an ordinary finite homogeneous-fiber kernel statement on `GL(4,R)/O(3,1)`. The generation-count analytic target must be replaced by a compactified, quotient, equivariant-index, or relative-discrete-series multiplicity problem. |
+| `explorations/dark-energy-cosmology/cross-program-lambda-coefficient-2026-06-23.md` | exploration | Corrects the cross-program comparison: GU `Lambda` has rate-squared units, so it should be compared with `lambda_max^2` or `Gamma_min^2`, not raw TaF rates. The invariant coefficient remains blocked on the `II_s` Hessian on `S^4`. |
 
 ## 2026-06-23 Second Parallel Pass (Run 20260623-005611)
 
@@ -139,11 +139,11 @@ Five bounded frontier notes from the second hourly automation pass. All explorat
 
 | document | status | content |
 |---|---|---|
-| `explorations/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation: for horizontal covectors, vertical one-forms do not modify the Schur complement (`C_N psi_R = 0`). Horizontal-covector VZ characteristics are contained in the light cone. Mixed 14D covectors remain open. |
+| `explorations/vz-evasion/vz1-schur-vertical-extension-2026-06-23.md` | exploration | Extends the VZ Schur calculation: for horizontal covectors, vertical one-forms do not modify the Schur complement (`C_N psi_R = 0`). Horizontal-covector VZ characteristics are contained in the light cone. Mixed 14D covectors remain open. |
 | `explorations/ii-s-horizontal-convention-hessian-2026-06-23.md` | exploration | Adopts horizontal-normalized `II_s^H` convention (flat spacetime gives `II_s^H = 0`). Hessian at round S^4 section is Lichnerowicz operator with lowest TT eigenvalue `8/R^2`. Coefficient `C_GU` still tolerance-dependent. |
 | `explorations/codazzi-k-term-umbilic-test-2026-06-23.md` | exploration | K(A,s) = 0 for totally umbilic tautological section on maximally symmetric background. R_fail = 0 gives one-equation Lambda constraint. General (non-umbilic) case: trace-free Q(B) must be identified with matter stress. |
-| `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` | exploration | Parthasarathy-Casimir condition for fiber Dirac: `pi(C_g) = 9/2 + rho_constant`. Candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` at reconstruction grade. Treat as an alternative/tau-twisted representation-theory route; it does not restore the superseded scalar FJ/BC1 chain. |
-| `explorations/observer-section-error-model-2026-06-23.md` | exploration | Bridge model: quantum metric measurement gives `epsilon_sec^2 ~ epsilon_dec`. Cross-program contact confirmed structural (shared `t_obs^{-2}`) but not numerically exact. Conditions B1–B3 for exactness named. |
+| `explorations/representation-theory-noncompact/n5-parthasarathy-casimir-sl4r-2026-06-23.md` | exploration | Parthasarathy-Casimir condition for fiber Dirac: `pi(C_g) = 9/2 + rho_constant`. Candidate `S(6,4)|_{SL(2,C)} ~= (3/2,1/2) + (1/2,3/2)` at reconstruction grade. Treat as an alternative/tau-twisted representation-theory route; it does not restore the superseded scalar FJ/BC1 chain. |
+| `explorations/time-as-finality-crosswalk/observer-section-error-model-2026-06-23.md` | exploration | Bridge model: quantum metric measurement gives `epsilon_sec^2 ~ epsilon_dec`. Cross-program contact confirmed structural (shared `t_obs^{-2}`) but not numerically exact. Conditions B1–B3 for exactness named. |
 
 ## 2026-06-23 Untouched-Lane Subagent Batch
 
@@ -151,11 +151,11 @@ Five subagents were dispatched against high-impact lanes that were not already c
 
 | document | status | content |
 |---|---|---|
-| `explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md` | exploration | Type II_1 lane remains open. KO-6 signs pass at the formal real-even sign-package level but are unproven as a finite-control selector. Principal graphs fail as a full SM representation source and remain only a conditional generation-count selector. |
-| `explorations/super-ig-algebra-construction-2026-06-23.md` | exploration | A super-IG family can be defined after supplying `(Q, beta)`, but current GU/IG data do not canonically determine a nontrivial `Sp(64)`-equivariant bracket. Not currently needed as a VZ guardian after F6 non-decoupling. |
-| `explorations/freed-hopkins-observer-pairing-enriched-bordism-toy-2026-06-23.md` | exploration | First observer-pairing enriched-bordism toy fails as a new anomaly model: metadata descends away; topological observer data is ordinary defect/background enrichment. |
-| `explorations/n3-h3-cech-fixture-execution-2026-06-23.md` | exploration | H3 remains open and is sharpened to fixture-specification blocked. `cech_sheaf_fixture` exists only as route/prose, not as a runnable fixture, script, test target, workflow implementation, or exploration file. |
-| `explorations/distler-garibaldi-functor-audit-2026-06-23.md` | exploration | Distler-Garibaldi is confirmed as a category-change stress case, not a genuine forgetful-image case. Coarse shadows do not preserve the chirality/generation invariant. |
+| `explorations/type-ii1-spectral/type-ii1-finite-control-specialist-pass-2026-06-23.md` | exploration | Type II_1 lane remains open. KO-6 signs pass at the formal real-even sign-package level but are unproven as a finite-control selector. Principal graphs fail as a full SM representation source and remain only a conditional generation-count selector. |
+| `explorations/misc/super-ig-algebra-construction-2026-06-23.md` | exploration | A super-IG family can be defined after supplying `(Q, beta)`, but current GU/IG data do not canonically determine a nontrivial `Sp(64)`-equivariant bracket. Not currently needed as a VZ guardian after F6 non-decoupling. |
+| `explorations/time-as-finality-crosswalk/freed-hopkins-observer-pairing-enriched-bordism-toy-2026-06-23.md` | exploration | First observer-pairing enriched-bordism toy fails as a new anomaly model: metadata descends away; topological observer data is ordinary defect/background enrichment. |
+| `explorations/time-as-finality-crosswalk/n3-h3-cech-fixture-execution-2026-06-23.md` | exploration | H3 remains open and is sharpened to fixture-specification blocked. `cech_sheaf_fixture` exists only as route/prose, not as a runnable fixture, script, test target, workflow implementation, or exploration file. |
+| `explorations/cycle-gates-and-audits/distler-garibaldi-functor-audit-2026-06-23.md` | exploration | Distler-Garibaldi is confirmed as a category-change stress case, not a genuine forgetful-image case. Coarse shadows do not preserve the chirality/generation invariant. |
 
 ## 2026-06-23 Five-Goal Verification Batch
 
@@ -163,11 +163,11 @@ Five follow-up subagents were dispatched after the next-five-item inspection. Al
 
 | document | status | content |
 |---|---|---|
-| `explorations/type-ii1-oq1-j2-section-pullback-2026-06-23.md` | exploration | Section pullback preserves the GU real-structure sign: `s*(J_GU)^2 = -1`, not the CC KO-6 `+1`. Literal GU/Type-II_1 contact through ordinary pullback fails unless a twisted or new real structure is added. |
-| `explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md` | exploration | GU inner fluctuations preserve an already input `Sp(64)` connection orbit. They do not derive a finite Connes one-form bimodule or select the SM gauge group. |
-| `explorations/signed-readout-oc1-oc2-noncompact-fredholm-2026-06-23.md` | exploration | Non-compactness alone does not block Atiyah-Janich/KSp classification. The proof obligation is now a continuous H-linear Fredholm family for the actual GU operators on non-compact `Y^14`. |
-| `explorations/h3-cech-sheaf-fixture-spec-2026-06-23.md` | exploration | The missing `cech_sheaf_fixture` is specified as an executable contract, but no runnable fixture has been implemented or executed. H3 remains `OPEN_SPECIFIED_NOT_EXECUTABLE`. |
-| `explorations/rc1-discrete-series-verification-pack-2026-06-23.md` | exploration | Major correction: the rank-one `BC1` discrete-series chain fails as stated for actual `SL(4,R)/SO_0(3,1)`. The correct metric symmetric-pair analysis has split rank 3 and restricted root system `A3`; claims depending on `(m1,m2)=(7,1)`, scalar FJ poles, and `Lambda_RS^{FJ}=3/2` are demoted pending direct rank-3 or tau-twisted/Kobayashi admissibility computation. |
+| `explorations/type-ii1-spectral/type-ii1-oq1-j2-section-pullback-2026-06-23.md` | exploration | Section pullback preserves the GU real-structure sign: `s*(J_GU)^2 = -1`, not the CC KO-6 `+1`. Literal GU/Type-II_1 contact through ordinary pullback fails unless a twisted or new real structure is added. |
+| `explorations/type-ii1-spectral/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md` | exploration | GU inner fluctuations preserve an already input `Sp(64)` connection orbit. They do not derive a finite Connes one-form bimodule or select the SM gauge group. |
+| `explorations/signed-calm-jordan/signed-readout-oc1-oc2-noncompact-fredholm-2026-06-23.md` | exploration | Non-compactness alone does not block Atiyah-Janich/KSp classification. The proof obligation is now a continuous H-linear Fredholm family for the actual GU operators on non-compact `Y^14`. |
+| `explorations/time-as-finality-crosswalk/h3-cech-sheaf-fixture-spec-2026-06-23.md` | exploration | The missing `cech_sheaf_fixture` is specified as an executable contract, but no runnable fixture has been implemented or executed. H3 remains `OPEN_SPECIFIED_NOT_EXECUTABLE`. |
+| `explorations/representation-theory-noncompact/rc1-discrete-series-verification-pack-2026-06-23.md` | exploration | Major correction: the rank-one `BC1` discrete-series chain fails as stated for actual `SL(4,R)/SO_0(3,1)`. The correct metric symmetric-pair analysis has split rank 3 and restricted root system `A3`; claims depending on `(m1,m2)=(7,1)`, scalar FJ poles, and `Lambda_RS^{FJ}=3/2` are demoted pending direct rank-3 or tau-twisted/Kobayashi admissibility computation. |
 
 ## 2026-06-23 Five-Task Follow-Up Batch
 
@@ -175,11 +175,11 @@ Five subagents ran the follow-up tasks opened by the prior verification batch. A
 
 | document | status | content |
 |---|---|---|
-| `explorations/tau-correction-oshima-matsuki-rs-2026-06-23.md` | exploration | The asserted `rank_correction(tau_RS)=2` is not supported as a rank-subtraction theorem. The scalar Flensted-Jensen route remains false for the actual rank-3 pair; the tau-twisted RS discrete-spectrum question remains open and needs a direct tau-spherical/Kobayashi admissibility computation. |
-| `explorations/oq-weyl3-root-wall-plancherel-2026-06-23.md` | exploration | The root-wall condition `<e2-e3,lambda_RS>=0` does not make the local A3 formal-degree product vanish, because the product uses `lambda_RS+rho_G`. This avoids a zero-factor objection but does not establish a scalar atom; any surviving RS contribution is tau-twisted and conditional. |
-| `explorations/split-rank-reconciliation-audit-2026-06-23.md` | exploration | Consolidates the rank correction: scalar `BC1/(7,1)`, `rho=9/2`, `Lambda_RS^{FJ}=3/2`, and the scalar RC3 gap are superseded for `(SL(4,R), SO_0(3,1))` unless rederived inside the tau-twisted coefficient problem. |
-| `explorations/ic4-ricci-flat-k3-selection-2026-06-23.md` | exploration | K3-Yau metric selection is conditionally supported only after K3 topology is fixed separately and IC4 supplies the source-free Einstein equation. Willmore energy alone does not select Ricci-flat metrics, since every Levi-Civita section has `E=0`. |
-| `explorations/oc2-analytic-fredholm-ksp-upgrade-2026-06-23.md` | exploration | Formal H-linear Fredholm/KSp classification is locally resolved once bounded-transform continuity is supplied. Full noncompact `Y^14` weighted Fredholmness, KK zero-mode unitarity, and a b/0/scattering parametrix remain analytic proof obligations. |
+| `explorations/representation-theory-noncompact/tau-correction-oshima-matsuki-rs-2026-06-23.md` | exploration | The asserted `rank_correction(tau_RS)=2` is not supported as a rank-subtraction theorem. The scalar Flensted-Jensen route remains false for the actual rank-3 pair; the tau-twisted RS discrete-spectrum question remains open and needs a direct tau-spherical/Kobayashi admissibility computation. |
+| `explorations/representation-theory-noncompact/oq-weyl3-root-wall-plancherel-2026-06-23.md` | exploration | The root-wall condition `<e2-e3,lambda_RS>=0` does not make the local A3 formal-degree product vanish, because the product uses `lambda_RS+rho_G`. This avoids a zero-factor objection but does not establish a scalar atom; any surviving RS contribution is tau-twisted and conditional. |
+| `explorations/representation-theory-noncompact/split-rank-reconciliation-audit-2026-06-23.md` | exploration | Consolidates the rank correction: scalar `BC1/(7,1)`, `rho=9/2`, `Lambda_RS^{FJ}=3/2`, and the scalar RC3 gap are superseded for `(SL(4,R), SO_0(3,1))` unless rederived inside the tau-twisted coefficient problem. |
+| `explorations/geometry-curvature-emergence/ic4-ricci-flat-k3-selection-2026-06-23.md` | exploration | K3-Yau metric selection is conditionally supported only after K3 topology is fixed separately and IC4 supplies the source-free Einstein equation. Willmore energy alone does not select Ricci-flat metrics, since every Levi-Civita section has `E=0`. |
+| `explorations/analytic-index-fredholm/oc2-analytic-fredholm-ksp-upgrade-2026-06-23.md` | exploration | Formal H-linear Fredholm/KSp classification is locally resolved once bounded-transform continuity is supplied. Full noncompact `Y^14` weighted Fredholmness, KK zero-mode unitarity, and a b/0/scattering parametrix remain analytic proof obligations. |
 
 ## 2026-06-23 Five-Step Execution Batch
 
@@ -187,10 +187,10 @@ The dependency-aware five-step plan was executed across GU formalization and the
 
 | document | status | content |
 |---|---|---|
-| `explorations/tau-twisted-rs-admissibility-kobayashi-2026-06-23.md` | exploration | Direct Oshima-Matsuki/Kobayashi check fails as stated. The tau route does not rescue `ind_H(RS)=8`: scalar equal-rank fails, `tau_RS` is nonunitary as a finite-dimensional Lorentz coefficient, the Kobayashi route fails for this pair, and the compact asymptotic cone obstruction is nonzero. |
-| `explorations/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md` | exploration | Strongest defensible OC2 result is a conditional tau/discrete-sector Fredholm/KSp theorem. Full unprojected `Y^14` Fredholmness is not defensible from current data, and the required sector projection is now blocked by the failed tau route. |
-| `explorations/ic4-source-free-k3-gate-2026-06-23.md` | exploration | Source-free K3 metric selection is conditionally supported only after the topology/index gate selects K3. `T^4` is source-free, Ricci-flat, and Willmore-minimizing, but has `Ahat=0`, so it gives the wrong generation count. |
-| `explorations/oq3a-t4-vs-k3-disambiguation-2026-06-23.md` | exploration | Existing untracked note incorporated into the batch: `T^4` is explicitly ruled out by `Ahat(T^4)=0` and `ind_H=8`, while K3 has `Ahat=2` and the target `ind_H=24`, conditional on the parent generation-count formula. |
+| `explorations/representation-theory-noncompact/tau-twisted-rs-admissibility-kobayashi-2026-06-23.md` | exploration | Direct Oshima-Matsuki/Kobayashi check fails as stated. The tau route does not rescue `ind_H(RS)=8`: scalar equal-rank fails, `tau_RS` is nonunitary as a finite-dimensional Lorentz coefficient, the Kobayashi route fails for this pair, and the compact asymptotic cone obstruction is nonzero. |
+| `explorations/analytic-index-fredholm/oc2-y14-weighted-fredholm-parametrix-2026-06-23.md` | exploration | Strongest defensible OC2 result is a conditional tau/discrete-sector Fredholm/KSp theorem. Full unprojected `Y^14` Fredholmness is not defensible from current data, and the required sector projection is now blocked by the failed tau route. |
+| `explorations/geometry-curvature-emergence/ic4-source-free-k3-gate-2026-06-23.md` | exploration | Source-free K3 metric selection is conditionally supported only after the topology/index gate selects K3. `T^4` is source-free, Ricci-flat, and Willmore-minimizing, but has `Ahat=0`, so it gives the wrong generation count. |
+| `explorations/generation-sector/oq3a-t4-vs-k3-disambiguation-2026-06-23.md` | exploration | Existing untracked note incorporated into the batch: `T^4` is explicitly ruled out by `Ahat(T^4)=0` and `ind_H=8`, while K3 has `Ahat=2` and the target `ind_H=24`, conditional on the parent generation-count formula. |
 | `temporal-issuance: explorations/E054-h3-cech-sheaf-fixture-execution-2026-06-23.md` | exploration | Executable H3 fixture returns Outcome `D'`: `c(I_plus)=+1`, `c(I_minus)=-1`, holonomy `-1`, derived from `C` under odd SBP polarity-flip parity and NAC. This opens a conditional derivation path, not a universal H3 identity theorem. |
 
 ## 2026-06-23 (late batch) — Freed-Hopkins lane disposition, VZ fifth-theorem canon entry, C_MPR
@@ -199,10 +199,10 @@ This batch made **canon status changes** recorded directly in `canon/no-go-class
 
 | document | status | content / canon effect |
 |---|---|---|
-| `explorations/freed-hopkins-optionb-ksp-family-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, scoped) | Eliminates the Riemannian full-section-space candidate by convexity and the `Ω²B Sp(64)` candidate by Sp(64) gauge-background relabeling. Do not cite the convexity argument as a Lorentzian `Y^14 = Met(X^4)` result without a separate signature-component proof. Sole surviving candidate is `X_obs^sol`. |
-| `explorations/freed-hopkins-xobs-sol-k3-moduli-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, lane-narrowed) | Analyzes the sole survivor `X_obs^sol`. Via the IC4 metric-selection result it conditionally identifies `X_obs^sol = M_RF(K3)`, noncontractible but plausibly a gravitational-background relabel (KSp⁰=KO⁴ class pulled back from the Einstein-metric moduli). The numerical augmentation `ind_H(D_GU)=24` is not load-bearing and remains part of the OPEN generation-count lane. **Verdict downgraded GENUINE_OBSTRUCTION → CONDITIONALLY_RESOLVED (CORRECTION XOBS-IC4-01):** the closed-obstruction reading was same-session verdict inflation resting on the only-CONDITIONALLY_SUPPORTED IC4 input (open F3 trace-free GU source, F5 K3-topology-not-forced). |
-| `explorations/no-go-velo-zwanziger-canon-entry-2026-06-23.md` | reconstruction (CONDITIONALLY_RESOLVED) | Formal four-part fifth-theorem canon entry for Velo-Zwanziger (assumptions VZ-H1…H5; the Clifford-module-non-sub-module evasion GU-VZ; forgetful operation `ϕ_mc`; explicit failure conditions FC-VZ-1…5). Synthesis/formalization of the existing §2.5 vz-* chain, not a new computation. |
-| `explorations/c-mpr-9tuple-object-morphism-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED) | Discharges the prerequisite for the C_MPR / 9-tuple / BvN-wall lane: writes the category object `M = (E, ≤_E, Cert, G, ≤_G, r, P_O)`, the morphism, and checks the category axioms. Object/morphism survive the axiom check; the BvN wall itself stays an open proof obligation, not yet a theorem. |
+| `explorations/time-as-finality-crosswalk/freed-hopkins-optionb-ksp-family-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, scoped) | Eliminates the Riemannian full-section-space candidate by convexity and the `Ω²B Sp(64)` candidate by Sp(64) gauge-background relabeling. Do not cite the convexity argument as a Lorentzian `Y^14 = Met(X^4)` result without a separate signature-component proof. Sole surviving candidate is `X_obs^sol`. |
+| `explorations/time-as-finality-crosswalk/freed-hopkins-xobs-sol-k3-moduli-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED, lane-narrowed) | Analyzes the sole survivor `X_obs^sol`. Via the IC4 metric-selection result it conditionally identifies `X_obs^sol = M_RF(K3)`, noncontractible but plausibly a gravitational-background relabel (KSp⁰=KO⁴ class pulled back from the Einstein-metric moduli). The numerical augmentation `ind_H(D_GU)=24` is not load-bearing and remains part of the OPEN generation-count lane. **Verdict downgraded GENUINE_OBSTRUCTION → CONDITIONALLY_RESOLVED (CORRECTION XOBS-IC4-01):** the closed-obstruction reading was same-session verdict inflation resting on the only-CONDITIONALLY_SUPPORTED IC4 input (open F3 trace-free GU source, F5 K3-topology-not-forced). |
+| `explorations/vz-evasion/no-go-velo-zwanziger-canon-entry-2026-06-23.md` | reconstruction (CONDITIONALLY_RESOLVED) | Formal four-part fifth-theorem canon entry for Velo-Zwanziger (assumptions VZ-H1…H5; the Clifford-module-non-sub-module evasion GU-VZ; forgetful operation `ϕ_mc`; explicit failure conditions FC-VZ-1…5). Synthesis/formalization of the existing §2.5 vz-* chain, not a new computation. |
+| `explorations/misc/c-mpr-9tuple-object-morphism-2026-06-23.md` | exploration (CONDITIONALLY_RESOLVED) | Discharges the prerequisite for the C_MPR / 9-tuple / BvN-wall lane: writes the category object `M = (E, ≤_E, Cert, G, ≤_G, r, P_O)`, the morphism, and checks the category axioms. Object/morphism survive the axiom check; the BvN wall itself stays an open proof obligation, not yet a theorem. |
 
 **Canon status changes in `canon/no-go-class-relative-map.md` (this batch):**
 
@@ -217,7 +217,7 @@ One new exploration document was added as a new parallel lane of work:
 
 | document | status | content |
 |---|---|---|
-| `explorations/positive-gu-constructions-lane-proposal-2026-06-22.md` | exploration | Opens the positive GU constructions lane. Five targets: (1) Y¹⁴ / Met(X⁴) metric bundle and pullback maps, (2) Riemannian-Ehresmannian fusion, (3) torsion-for-Λ, (4) spinor group mechanics / shiab from Spin(7,7), (5) Higgs emergence. Includes full six-axis specifications for Targets 1 and 4. Cross-impact assessment: Riemannian-Ehresmannian framing sharpens Witten no-go map; spinor/Spin(7,7) computation is the positive analog of N2; torsion has no current interaction with signed-readout theorem. Tractability ordering: Target 4 (PC1) is highest, Target 5 (PC5) is lowest. |
+| `explorations/misc/positive-gu-constructions-lane-proposal-2026-06-22.md` | exploration | Opens the positive GU constructions lane. Five targets: (1) Y¹⁴ / Met(X⁴) metric bundle and pullback maps, (2) Riemannian-Ehresmannian fusion, (3) torsion-for-Λ, (4) spinor group mechanics / shiab from Spin(7,7), (5) Higgs emergence. Includes full six-axis specifications for Targets 1 and 4. Cross-impact assessment: Riemannian-Ehresmannian framing sharpens Witten no-go map; spinor/Spin(7,7) computation is the positive analog of N2; torsion has no current interaction with signed-readout theorem. Tractability ordering: Target 4 (PC1) is highest, Target 5 (PC5) is lowest. |
 
 NEXT-STEPS.md was updated with the five PC-ranked tasks and cross-impact notes.
 
@@ -257,7 +257,7 @@ Two new documents were added: a primary source transcript and a formal explorati
 | document | status | content |
 |---|---|---|
 | `literature/weinstein-ucsd-2025-04-transcript.md` | source (raw_transcript) | Full transcript of Eric Weinstein's UCSD April 2025 talk at the Astroparticle Cosmology Cinema, Mayor Room. Recorded by Brian Keating. First primary-source document in the `literature/` folder for GU content (prior literature files are secondary source briefs). |
-| `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md` | exploration | Formal analysis of 8 technical claims from the UCSD talk, assessed against repo canon. Identifies 7 new formal objects not in the positive-constructions-lane proposal (PC1–PC5). Four new follow-on tasks added to NEXT-STEPS.md (VZ1, SC1, DD1, HC1). |
+| `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md` | exploration | Formal analysis of 8 technical claims from the UCSD talk, assessed against repo canon. Identifies 7 new formal objects not in the positive-constructions-lane proposal (PC1–PC5). Four new follow-on tasks added to NEXT-STEPS.md (VZ1, SC1, DD1, HC1). |
 
 **Key findings from the analysis:**
 
@@ -285,10 +285,10 @@ Four parallel agents (A-D) ran following the Layer 1-3 completions and the UCSD 
 
 | finding | status | file |
 |---|---|---|
-| N1 (signature audit): (9,5) confirmed, Cl(9,5) ≅ M(64,H) | RESOLVED | `explorations/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (prior session) |
-| N2 (shiab): algebraic map exists under (9,5); anomaly structure partially defused via Sp(64) | SUBSTANTIALLY ADVANCED | `canon/shiab-existence-cl95.md`; `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| N1 (signature audit): (9,5) confirmed, Cl(9,5) ≅ M(64,H) | RESOLVED | `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (prior session) |
+| N2 (shiab): algebraic map exists under (9,5); anomaly structure partially defused via Sp(64) | SUBSTANTIALLY ADVANCED | `canon/shiab-existence-cl95.md`; `explorations/anomaly-and-bordism/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
 | Nguyen §3.1 (complexification gap) | RESOLVED | See N1/N2 files above |
-| Nguyen §2 (anomaly pincer) | SUBSTANTIALLY ADDRESSED — Sp(64) replaces U(128) and defuses the original pincer; full local/global GU anomaly cancellation remains open/non-canon | `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
+| Nguyen §2 (anomaly pincer) | SUBSTANTIALLY ADDRESSED — Sp(64) replaces U(128) and defuses the original pincer; full local/global GU anomaly cancellation remains open/non-canon | `explorations/anomaly-and-bordism/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
 | Residual: IG dimension matching (sp(64) dim = 8256 vs. desired 16384) | OPEN | `NEXT-STEPS.md` N4 |
 
 The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclassified from Column A to Column B (substantially addressed), and a new §3.3 generation count entry. See `explorations/nguyen-gu-critique/nguyen-critique-full-synthesis.md`.
@@ -297,10 +297,10 @@ The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclas
 
 | finding | status | file |
 |---|---|---|
-| HC1: "Three hidden curvature components" count | CONFIRMED under torsion-sourcing reading | `explorations/hc1-hidden-curvature-components-2026-06-22.md` |
-| DD1: Distortion tensor literature check | PARTIALLY_NAMED (Hehl/Agricola-Friedrich partial; IG-equivariance is novel) | `explorations/dd1-distortion-tensor-literature-check-2026-06-22.md` |
-| PC2: Y^{14} bundle formalization stub | COMPLETE (gimmel circularity benign; D_ℊ without section subject to w_2 condition) | `explorations/pc2-met-x4-bundle-formalization-stub-2026-06-22.md` |
-| Generation count under Cl(9,5) | OPEN (corrected 2026-06-23; was "CONDITIONALLY 3") — structural mechanism intact, but the RS leg `ind_H(D_RS)=8` has NO surviving analytic derivation: all three analytic routes (scalar FJ/BC1, A3 Harish-Chandra/Atiyah-Schmid, tau-twisted) FAILED, and the APS/K3 route consumes a reverse-engineered physical-DOF rank (FC4 OPEN). The physical-DOF and SM-generation "paths" assume the conclusion; per the UNDISMISSED-CANDIDATE rule the aggregate verdict is OPEN. See DERIVATION-PROGRESS.md CORRECTIONS FC4-HOLONOMY-01 / GEN-04. | `explorations/generation-count-cl95-dirac-derham-2026-06-22.md` |
+| HC1: "Three hidden curvature components" count | CONFIRMED under torsion-sourcing reading | `explorations/geometry-curvature-emergence/hc1-hidden-curvature-components-2026-06-22.md` |
+| DD1: Distortion tensor literature check | PARTIALLY_NAMED (Hehl/Agricola-Friedrich partial; IG-equivariance is novel) | `explorations/geometry-curvature-emergence/dd1-distortion-tensor-literature-check-2026-06-22.md` |
+| PC2: Y^{14} bundle formalization stub | COMPLETE (gimmel circularity benign; D_ℊ without section subject to w_2 condition) | `explorations/geometry-curvature-emergence/pc2-met-x4-bundle-formalization-stub-2026-06-22.md` |
+| Generation count under Cl(9,5) | OPEN (corrected 2026-06-23; was "CONDITIONALLY 3") — structural mechanism intact, but the RS leg `ind_H(D_RS)=8` has NO surviving analytic derivation: all three analytic routes (scalar FJ/BC1, A3 Harish-Chandra/Atiyah-Schmid, tau-twisted) FAILED, and the APS/K3 route consumes a reverse-engineered physical-DOF rank (FC4 OPEN). The physical-DOF and SM-generation "paths" assume the conclusion; per the UNDISMISSED-CANDIDATE rule the aggregate verdict is OPEN. See DERIVATION-PROGRESS.md CORRECTIONS FC4-HOLONOMY-01 / GEN-04. | `explorations/generation-sector/generation-count-cl95-dirac-derham-2026-06-22.md` |
 
 ### Updated research map (Nguyen critique and positive constructions lanes)
 

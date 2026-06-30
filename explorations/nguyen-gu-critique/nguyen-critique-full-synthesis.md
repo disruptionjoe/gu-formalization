@@ -33,11 +33,11 @@ The Weinstein UCSD April 2025 talk transcript (`literature/weinstein-ucsd-2025-0
 
 This is the "ship in a bottle" operator (shiab = "ship in a bottle"). It is not a map from 2-forms to scalars or to the full exterior algebra; it is specifically a map between 2-form-valued spinors and 1-form-valued spinors on Y¹⁴. This completes the Dirac-DeRham-Einstein complex by "rolling it up" — the ordinary exterior derivative takes Ω¹ to Ω², and the shiab knocks it back from Ω² to Ω¹, closing the complex. The claim is that the rolled-up complex produces three fermion generations ("two plus one," where the third is an "imposter" from the Rarita-Schwinger sector).
 
-The prior N2 task description was underspecified on domain/codomain. The UCSD transcript is the most precise primary-source statement available. See the formal analysis of the transcript at `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md` §1.7 (Claim 7, Dirac-DeRham-Einstein complex).
+The prior N2 task description was underspecified on domain/codomain. The UCSD transcript is the most precise primary-source statement available. See the formal analysis of the transcript at `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md` §1.7 (Claim 7, Dirac-DeRham-Einstein complex).
 
 ### PC1 full six-axis specification
 
-The positive-constructions lane proposal (`explorations/positive-gu-constructions-lane-proposal-2026-06-22.md`) has written the full six-axis specification for PC1 (Spinor group / shiab from Spin(7,7)-invariant data), which is the positive-construction analog of N2. The specification (§4 of the proposal) provides:
+The positive-constructions lane proposal (`explorations/misc/positive-gu-constructions-lane-proposal-2026-06-22.md`) has written the full six-axis specification for PC1 (Spinor group / shiab from Spin(7,7)-invariant data), which is the positive-construction analog of N2. The specification (§4 of the proposal) provides:
 
 - **L1 substrate:** real Clifford algebra Cl(7,7), spinor module S = minimal left ideal, dim_R S = 128 = 64 + 64 (two Majorana-Weyl pieces under the chirality element)
 - **L3 pairing:** a candidate natural, Spin(7,7)-equivariant, real-linear map φ: S → Λ•(T*Y) ⊗ R, without complexification — the precise formalization of what the shiab would need to be
@@ -96,11 +96,11 @@ What remains open:
 - Anomaly cancellation for the full GU theory: separate computation
 - §3.2 pincer (axial anomaly from U(128)): does not arise from Φ but may arise elsewhere
 
-Computation file: `explorations/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`
+Computation file: `explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`
 
 ### New primary source
 
-`literature/weinstein-ucsd-2025-04-transcript.md` is now available as the primary GU source. The formal analysis at `explorations/weinstein-ucsd-2025-04-analysis-2026-06-22.md` extracts and tags eight technical claims from the transcript against repo canon. The shiab/Dirac-DeRham analysis is at §1.7 (Claim 7).
+`literature/weinstein-ucsd-2025-04-transcript.md` is now available as the primary GU source. The formal analysis at `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md` extracts and tags eight technical claims from the transcript against repo canon. The shiab/Dirac-DeRham analysis is at §1.7 (Claim 7).
 
 ### Updated priority ordering for buildable next steps
 
@@ -177,7 +177,7 @@ The N1 signature audit established that the correct signature of Y^{14} is (9,5)
 
 In this setting the shiab operator Phi: Omega^2(Y^{14}) ⊗ S → Omega^1(Y^{14}) ⊗ S exists as a well-defined H-linear, hence R-linear, Spin(9,5)-equivariant map (Clifford contraction). No complexification step (⊗C) is required. The gap Nguyen correctly identified in §3.1 arose from working in the wrong signature (Euclidean or (7,7)), where the algebra is real-type and no natural real equivariant map exists. In the correct (9,5) quaternionic setting, H-linearity provides the real-linear map automatically.
 
-Reference files: `explorations/n1-signature-audit-y14-clifford-algebra-2026-06-22.md`, `explorations/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`.
+Reference files: `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md`, `explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md`.
 
 ### §3.2 (Anomaly pincer) — FULLY CLOSED (2026-06-22)
 
@@ -222,8 +222,8 @@ Horn 2 dissolves: Sp(64)'s fundamental representation is pseudoreal. The chiral 
   d_A pi in Omega^1(Y^{14}, ad P) lives in the 8256-dimensional adjoint bundle fiber,
   which is correct for G = Sp(64).
 
-Reference files: `explorations/anomaly-audit-cl95-gauge-group-2026-06-22.md` (anomaly
-dissolution); `explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md` (IG
+Reference files: `explorations/anomaly-and-bordism/anomaly-audit-cl95-gauge-group-2026-06-22.md` (anomaly
+dissolution); `explorations/generation-sector/ig-dimension-matching-sp64-tau-plus-2026-06-22.md` (IG
 dimension resolution, tau+ construction verification).
 
 ### Column A — Nguyen is correct (updated)
@@ -236,7 +236,7 @@ dimension resolution, tau+ construction verification).
 
 ### Column B — Nguyen may be missing something (updated 2026-06-22)
 
-**Entry (2026-06-22, now FULLY CLOSED) — §3.2 anomaly pincer: Sp(64) vs U(128).** Nguyen's §2 anomaly argument requires U(128) as the gauge group, which is the natural group for Cl(7,7) ≅ M(128,R). In the correct (9,5) setting, the algebra is Cl(9,5) ≅ M(64,H) (quaternionic) and the natural gauge group is Sp(64) = U(64,H), not U(128). Sp(64) is simple (no U(1) center) and its fundamental representation is pseudoreal (no chiral anomaly). Both horns of Nguyen's §2 pincer dissolve under the correct signature. The prior residual (IG dimension matching, dim sp(64) = 8256 vs. 16384) is now resolved: the 16384 figure was a (7,7) coincidence; the tau+ construction is group-theoretic and works for any G; the shiab is independent of dim g; and the double coset equivariance holds for G = Sp(64). See §3.2 above and `explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md`.
+**Entry (2026-06-22, now FULLY CLOSED) — §3.2 anomaly pincer: Sp(64) vs U(128).** Nguyen's §2 anomaly argument requires U(128) as the gauge group, which is the natural group for Cl(7,7) ≅ M(128,R). In the correct (9,5) setting, the algebra is Cl(9,5) ≅ M(64,H) (quaternionic) and the natural gauge group is Sp(64) = U(64,H), not U(128). Sp(64) is simple (no U(1) center) and its fundamental representation is pseudoreal (no chiral anomaly). Both horns of Nguyen's §2 pincer dissolve under the correct signature. The prior residual (IG dimension matching, dim sp(64) = 8256 vs. 16384) is now resolved: the 16384 figure was a (7,7) coincidence; the tau+ construction is group-theoretic and works for any G; the shiab is independent of dim g; and the double coset equivariance holds for G = Sp(64). See §3.2 above and `explorations/generation-sector/ig-dimension-matching-sp64-tau-plus-2026-06-22.md`.
 
 **New entry (2026-06-22) — §3.1 complexification: RESOLVED.** Nguyen's §3.1 complexification gap was valid in Euclidean/real-Clifford settings. In the correct (9,5)/quaternionic setting, H-linearity provides the needed real-linear equivariant map without complexification. See §3.1 above. This has graduated from Column B (missing something) to resolved.
 
@@ -261,7 +261,7 @@ dimension resolution, tau+ construction verification).
 
 Both computations are routine representation-theory work with sharp failure conditions. Neither requires new mathematical technology.
 
-Reference file: `explorations/generation-count-cl95-dirac-derham-2026-06-22.md`.
+Reference file: `explorations/generation-sector/generation-count-cl95-dirac-derham-2026-06-22.md`.
 
 ### Column C — Nguyen provably wrong
 
@@ -312,7 +312,7 @@ now resolved. The tau+ construction is purely group-theoretic and works for any 
 shiab is independent of the gauge algebra dimension; and the double coset equivariance
 holds for G = Sp(64). Nguyen §2 is FULLY CLOSED.
 
-Reference: `explorations/ig-dimension-matching-sp64-tau-plus-2026-06-22.md`.
+Reference: `explorations/generation-sector/ig-dimension-matching-sp64-tau-plus-2026-06-22.md`.
 
 ---
 

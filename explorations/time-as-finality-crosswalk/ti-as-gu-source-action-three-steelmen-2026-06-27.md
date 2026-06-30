@@ -8,7 +8,7 @@ optional_executable:
   - tests/temporal_issuance_source_action_steelmen_checker.py
 depends_on:
   - explorations/time-as-finality-crosswalk/record-issuance-boundary-selector-2026-06-26.md
-  - explorations/shiab-selector-search-2026-06-26.md
+  - explorations/shiab-operator/shiab-selector-search-2026-06-26.md
   - active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md
   - active-research/signed-readout/theorem-statement-v1-2026-06-23.md
 external_context:

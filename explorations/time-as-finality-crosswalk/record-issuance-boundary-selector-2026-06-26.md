@@ -10,8 +10,8 @@ bears_on:
   - generation count / ind_H(D_GU)=24=3 (the WELL-DEFINEDNESS half) — REAL but already-partly-built
   - SHIAB-04 shiab source-forced selector identity — NULL (dies as a selector)
 key_repo_anchors:
-  - explorations/ind-top-eta-s3-aps-2026-06-23.md  (eta(D_S3^S(6,4))=0 on flat AND homogeneous-curved S^3)
-  - explorations/y14-k3-end-data-topography-gate-2026-06-26.md  (noncompact-APS-end is "primary terrain")
+  - explorations/analytic-index-fredholm/ind-top-eta-s3-aps-2026-06-23.md  (eta(D_S3^S(6,4))=0 on flat AND homogeneous-curved S^3)
+  - explorations/generation-sector/y14-k3-end-data-topography-gate-2026-06-26.md  (noncompact-APS-end is "primary terrain")
   - tests/oq_rk1_cl95_explicit_rep.py, tests/shiab_family_basis.py  (the computable toy)
   - explorations/time-as-finality-crosswalk/observer-selector-leftover-space-2026-06-26.md  (the NULL-selector verdict this inherits on the shiab axis)
 ---

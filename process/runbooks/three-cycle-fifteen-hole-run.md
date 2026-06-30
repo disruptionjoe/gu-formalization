@@ -85,7 +85,7 @@ Before cycle 1:
 3. Read `process/runbooks/five-lane-frontier-run.md`.
 4. Read `process/runbooks/claim-status-consistency-quality-workflow.md`.
 5. Review the newest Mission A artifacts and audits.
-6. Review `explorations/remaining-math-topography-ledger-v0-2026-06-26.md` and
+6. Review `explorations/cycle-gates-and-audits/remaining-math-topography-ledger-v0-2026-06-26.md` and
    use its terrain routes and certificate carry-forward schemas when drafting candidate
    holes.
 7. Build a candidate hole bank with at least eighteen candidates when possible.

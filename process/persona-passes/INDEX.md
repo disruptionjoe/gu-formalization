@@ -81,7 +81,7 @@ Five passes applying distributed-systems impossibility theorems (FLP, CAP, BFT, 
 
 ## Group 6: Cryptographic / world-model / observer lenses (passes 36-41)
 
-Added 2026-06-26 for the RS-middle-map ("shiab" / `d^2=0`) steel-man sprint and the observer-creates-reality thread (artifact: `../../explorations/rs-middle-map-persona-steelman-2026-06-26.md`). These lenses converged on the shiab being the **codifferential / adjoint** of the easy forward derivative, with `d^2=0` blocked by a single finite commutator the repo already measured (73.48 / 343.73), and read GU's "observerse without choices" as an un-instantiated state that the observer's metric choice finalizes (binding) while discarding the projection kernel (the shadowy lost moment).
+Added 2026-06-26 for the RS-middle-map ("shiab" / `d^2=0`) steel-man sprint and the observer-creates-reality thread (artifact: `../../explorations/persona-and-dialectic/rs-middle-map-persona-steelman-2026-06-26.md`). These lenses converged on the shiab being the **codifferential / adjoint** of the easy forward derivative, with `d^2=0` blocked by a single finite commutator the repo already measured (73.48 / 343.73), and read GU's "observerse without choices" as an un-instantiated state that the observer's metric choice finalizes (binding) while discarding the projection kernel (the shadowy lost moment).
 
 - `06-cryptographic-world-model-observer-lenses/36-zk-pedersen-commitment.md` — commitment binding/hiding; `I_bind` selector (dim 0/1/>1 falsifiable)
 - `06-cryptographic-world-model-observer-lenses/37-homomorphic-encryption-lattice.md` — FHE bootstrapping; adjointness=decryption forces `Phi=(d_A)*`; obstruction `~ c(F_A)`

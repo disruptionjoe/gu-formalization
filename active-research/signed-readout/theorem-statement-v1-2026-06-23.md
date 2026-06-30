@@ -4,12 +4,12 @@ date: 2026-06-23
 status: active_research
 verdict: CONDITIONALLY_RESOLVED
 source_explorations:
-  - explorations/signed-readout-theorem-statement-2026-06-23.md
-  - explorations/signed-readout-monotonicity-pn-jordan-2026-06-23.md
-  - explorations/signed-readout-oq1-record-graph-2026-06-23.md
-  - explorations/signed-readout-oq2-integer-index-2026-06-23.md
-  - explorations/signed-readout-oq2a-k-theory-lift-2026-06-23.md
-  - explorations/signed-readout-oq2d-gu-contact-2026-06-23.md
+  - explorations/signed-calm-jordan/signed-readout-theorem-statement-2026-06-23.md
+  - explorations/signed-calm-jordan/signed-readout-monotonicity-pn-jordan-2026-06-23.md
+  - explorations/signed-calm-jordan/signed-readout-oq1-record-graph-2026-06-23.md
+  - explorations/signed-calm-jordan/signed-readout-oq2-integer-index-2026-06-23.md
+  - explorations/signed-calm-jordan/signed-readout-oq2a-k-theory-lift-2026-06-23.md
+  - explorations/signed-calm-jordan/signed-readout-oq2d-gu-contact-2026-06-23.md
 prior_art:
   - active-research/signed-readout/jordan-calm-formalization.md
   - active-research/signed-readout/gw-boundary-tests.md

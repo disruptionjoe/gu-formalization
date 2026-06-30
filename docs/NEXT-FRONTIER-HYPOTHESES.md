@@ -1,7 +1,7 @@
 # Next-frontier hypotheses (keeping this repo alive)
 
 Status: live research directions, 2026-06-28. These supersede "draft the paper and close the repo" as the
-near-term frontier. The persona sprint (`explorations/higher-order-story-persona-sprint-2026-06-28.md`)
+near-term frontier. The persona sprint (`explorations/persona-and-dialectic/higher-order-story-persona-sprint-2026-06-28.md`)
 established that the highest-leverage continuation is **repo-resident**: one unbuilt object gates dark
 energy, the middle map, and the matter count at once, and the transcript names its mathematical template.
 
@@ -132,7 +132,7 @@ same thing, the only thing different is the spin."
 
 **First computation.** Expand `||F||^2` for the GU connection on the chimeric bundle and test whether the
 `a-wedge-a` quartic plus the cross-term quadratic with negative curvature reproduce `V(phi)`. Promote
-`explorations/pc5-higgs-emergence-spec-2026-06-23.md` to a verified canon check, or kill it.
+`explorations/geometry-curvature-emergence/pc5-higgs-emergence-spec-2026-06-23.md` to a verified canon check, or kill it.
 
 **Why it matters.** It reframes the "field content" the campaign kept auditing as derived geometry, not
 postulated scalars. Independent of H1; runs in parallel.
@@ -187,6 +187,6 @@ falsifiable hypothesis, not a result.
 4. **H2** re-specification + canon hygiene (low effort, high honesty value).
 
 Pointers: the campaign verdict is `canon/final-verdict-generation-count-and-the-open-bridge.md`; the sprint
-synthesis is `explorations/higher-order-story-persona-sprint-2026-06-28.md`; the public-review/publishing
+synthesis is `explorations/persona-and-dialectic/higher-order-story-persona-sprint-2026-06-28.md`; the public-review/publishing
 decisions live in CapacityOS `WRK-542`; the spinout (separate-repo) directions live in CapacityOS
 `WORK-000-reputation-gu-spinout-research-directions`.

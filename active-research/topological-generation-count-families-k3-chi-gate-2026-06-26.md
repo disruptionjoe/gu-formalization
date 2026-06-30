@@ -8,15 +8,15 @@ owned_path: "active-research/topological-generation-count-families-k3-chi-gate-2
 optional_executable:
   - "tests/topological_generation_count_families_k3_chi_gate_audit.py"
 depends_on:
-  - "explorations/three-generation-route-alternatives-after-rs-failure-2026-06-26.md"
-  - "explorations/generation-count-cl95-dirac-derham-2026-06-22.md"
+  - "explorations/generation-sector/three-generation-route-alternatives-after-rs-failure-2026-06-26.md"
+  - "explorations/generation-sector/generation-count-cl95-dirac-derham-2026-06-22.md"
   - "canon/shiab-existence-cl95.md"
-  - "explorations/ind-top-x4-atiyah-singer-2026-06-23.md"
-  - "explorations/ind-top-eta-s3-aps-2026-06-23.md"
-  - "explorations/ic4-ricci-flat-k3-selection-2026-06-23.md"
-  - "explorations/codazzi-sp64-2026-06-23.md"
-  - "explorations/y14-k3-end-data-topography-gate-2026-06-26.md"
-  - "explorations/dgu-guarded-symbol-certificate-2026-06-26.md"
+  - "explorations/analytic-index-fredholm/ind-top-x4-atiyah-singer-2026-06-23.md"
+  - "explorations/analytic-index-fredholm/ind-top-eta-s3-aps-2026-06-23.md"
+  - "explorations/geometry-curvature-emergence/ic4-ricci-flat-k3-selection-2026-06-23.md"
+  - "explorations/geometry-curvature-emergence/codazzi-sp64-2026-06-23.md"
+  - "explorations/generation-sector/y14-k3-end-data-topography-gate-2026-06-26.md"
+  - "explorations/anomaly-and-bordism/dgu-guarded-symbol-certificate-2026-06-26.md"
 ---
 
 # Topological Generation Count Families/K3 Chi Gate

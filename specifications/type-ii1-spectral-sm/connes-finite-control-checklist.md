@@ -59,9 +59,9 @@ where `(C∞(M), L²(M, S), D_M, J_M, γ_M)` is the canonical spectral triple of
 
 **[open]** KO-dimension for semifinite / Type II spectral triples has been developed (Benameur-Fack, Carey-Phillips-Rennie-Sukochev) in the index-theoretic direction (Breuer-Fredholm index, Chern character via resolvent cocycle). Whether the **mod 8 periodicity** carries over in a form that constrains chirality the way it does in the finite case is not closed in the published record. This is the single highest-risk item on the checklist.
 
-**Specialist update (2026-06-23).** KO-dimension 6 mod 8 is not a clean immediate no-go at the level of the formal real-even sign package: the signs can be stated in a semifinite real-even spectral-triple setting. The unresolved issue is stronger and more specific: whether KO-6 supplies a finite-control selector that recovers the finite SM chirality constraints inside a Type II_1 construction. See `../../explorations/type-ii1-finite-control-specialist-pass-2026-06-23.md`.
+**Specialist update (2026-06-23).** KO-dimension 6 mod 8 is not a clean immediate no-go at the level of the formal real-even sign package: the signs can be stated in a semifinite real-even spectral-triple setting. The unresolved issue is stronger and more specific: whether KO-6 supplies a finite-control selector that recovers the finite SM chirality constraints inside a Type II_1 construction. See `../../explorations/type-ii1-spectral/type-ii1-finite-control-specialist-pass-2026-06-23.md`.
 
-**GU-contact update (2026-06-23).** The direct section-pullback route fails this sign check: `s*(J_GU)^2 = -1`, not the finite CC KO-6 sign `+1`. This does not prove no Type II_1 KO-6 structure exists, but it does rule out citing ordinary GU section pullback as that structure. See `../../explorations/type-ii1-oq1-j2-section-pullback-2026-06-23.md`.
+**GU-contact update (2026-06-23).** The direct section-pullback route fails this sign check: `s*(J_GU)^2 = -1`, not the finite CC KO-6 sign `+1`. This does not prove no Type II_1 KO-6 structure exists, but it does rule out citing ordinary GU section pullback as that structure. See `../../explorations/type-ii1-spectral/type-ii1-oq1-j2-section-pullback-2026-06-23.md`.
 
 ## Item 4 — Real even structure (J, γ)
 
@@ -108,7 +108,7 @@ These two conditions together drastically constrain the admissible Dirac operato
 
 **[open]** Inner-fluctuation calculus on Type II_1 spectral triples has not been worked out in the published record. The natural conjecture is that the Jones-subfactor inclusion `N ⊂ M` selects a sub-bimodule whose unitary symmetries are compact and Lie-group-shaped (since the principal graph of a finite-index subfactor is finite); whether this conjecture holds and produces the SM gauge group is open.
 
-**GU-contact update (2026-06-23).** GU `D_GU` fluctuations do not supply the missing finite Connes selector. They are ordinary connection fluctuations `A0 -> A0 + Psi` in `Omega^1(Y^14, ad P)` modulo the gauge orbit, and the `Sp(64)` group is present only if the `Sp(64)` bundle is already input. No SM gauge group or CC bimodule one-form calculus is derived. See `../../explorations/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md`.
+**GU-contact update (2026-06-23).** GU `D_GU` fluctuations do not supply the missing finite Connes selector. They are ordinary connection fluctuations `A0 -> A0 + Psi` in `Omega^1(Y^14, ad P)` modulo the gauge orbit, and the `Sp(64)` group is present only if the `Sp(64)` bundle is already input. No SM gauge group or CC bimodule one-form calculus is derived. See `../../explorations/type-ii1-spectral/type-ii1-oq2-dgu-inner-fluctuations-2026-06-23.md`.
 
 ## Item 8 — Fermion representation content
 

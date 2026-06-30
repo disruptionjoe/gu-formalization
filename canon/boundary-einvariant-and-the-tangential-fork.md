@@ -5,7 +5,7 @@ doc_type: result
 created: 2026-06-28
 grade: "specialist-grade applied index theory + stable homotopy, NOT machine-checked; CONDITIONAL on one named physics fork; favored reading lands the profound result but is not proven"
 source: "3 independent routes (APS-Gilkey eta, Chern-Simons/bounding-4-manifold, framed-bordism/J-homomorphism) + 3 adversarial verifications + synthesis (7 agents); the verification corrected our own 1/6 -> 1/12"
-depends_on: [explorations/a5-einvariant-specialist-question-and-attempt-2026-06-28.md, canon/firewall-boundary-hypothesis.md]
+depends_on: [explorations/generation-sector/a5-einvariant-specialist-question-and-attempt-2026-06-28.md, canon/firewall-boundary-hypothesis.md]
 ---
 
 # The Decisive Computation: 3-Primary e-Invariant of the Charge-1 Self-Dual SU(2)+ Twist on RP³ = L(2;1)

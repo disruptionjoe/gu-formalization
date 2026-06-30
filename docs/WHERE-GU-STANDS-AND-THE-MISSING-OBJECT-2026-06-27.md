@@ -104,7 +104,7 @@ worth citing.
 
 - Full chronological record: `DERIVATION-PROGRESS.md` — entries W2-01, SHIAB-01..06, ANOMALY-03/04,
   DARK-ENERGY-03, RFAIL-03, VZ-FCVZ4, RS-BRST, SOURCE-01..04, GHOST-01, BICOMPLEX-01, TRACK-2.
-- Key syntheses: `explorations/source-action-necessary-conditions-and-causality-2026-06-27.md` (the spec's
+- Key syntheses: `explorations/firewall-and-two-geometries/source-action-necessary-conditions-and-causality-2026-06-27.md` (the spec's
   origin), `nonequivariant-ghost-construction-2026-06-27.md`, `bv-bicomplex-and-c2-obstruction-2026-06-27.md`,
   `c2-is-global-y14-end-data-2026-06-27.md` (with its SOURCE-04 correction banner),
   `topological-edge-c2-not-an-index-2026-06-27.md`.

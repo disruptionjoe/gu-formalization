@@ -15,20 +15,20 @@ residuals from the prior pass.
 
 | goal | task | file |
 |---|---|---|
-| G1 | VZ Schur complement — vertical one-form extension for horizontal covectors | `explorations/vz1-schur-vertical-extension-2026-06-23.md` |
+| G1 | VZ Schur complement — vertical one-form extension for horizontal covectors | `explorations/vz-evasion/vz1-schur-vertical-extension-2026-06-23.md` |
 | G2 | II_s horizontal-normalized convention + S^4 Hessian setup | `explorations/ii-s-horizontal-convention-hessian-2026-06-23.md` |
 | G3 | K(A,s) and R_fail test for totally umbilic sections | `explorations/codazzi-k-term-umbilic-test-2026-06-23.md` |
-| G4 | Parthasarathy-Casimir algebraic condition for fiber Dirac | `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md` |
-| G5 | Observer-section error model bridge for cross-program Lambda | `explorations/observer-section-error-model-2026-06-23.md` |
+| G4 | Parthasarathy-Casimir algebraic condition for fiber Dirac | `explorations/representation-theory-noncompact/n5-parthasarathy-casimir-sl4r-2026-06-23.md` |
+| G5 | Observer-section error model bridge for cross-program Lambda | `explorations/time-as-finality-crosswalk/observer-section-error-model-2026-06-23.md` |
 
 ## Files Changed
 
 **Created (5 new exploration notes):**
-- `explorations/vz1-schur-vertical-extension-2026-06-23.md`
+- `explorations/vz-evasion/vz1-schur-vertical-extension-2026-06-23.md`
 - `explorations/ii-s-horizontal-convention-hessian-2026-06-23.md`
 - `explorations/codazzi-k-term-umbilic-test-2026-06-23.md`
-- `explorations/n5-parthasarathy-casimir-sl4r-2026-06-23.md`
-- `explorations/observer-section-error-model-2026-06-23.md`
+- `explorations/representation-theory-noncompact/n5-parthasarathy-casimir-sl4r-2026-06-23.md`
+- `explorations/time-as-finality-crosswalk/observer-section-error-model-2026-06-23.md`
 - `automation/runs/20260623-005611/summary.md` (this file)
 
 **Updated (3 coordination documents):**

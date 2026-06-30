@@ -9,7 +9,7 @@ depends_on:
   - canon/dark-energy-theta-divergence-free.md
   - canon/shiab-existence-cl95.md
   - docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md
-  - explorations/dark-energy-assumption3-variational-2026-06-23.md
+  - explorations/dark-energy-cosmology/dark-energy-assumption3-variational-2026-06-23.md
 ---
 
 # Building the source action (H1 keystone)
@@ -47,7 +47,7 @@ properties compute** -- not a declaration that GU works.
   **definitional postulate**, leaving **3 residual real dimensions** of freedom.
 - **Dark-energy variational structure (already derived).**
   `E_A = delta S_GU / delta A = 2 D_A^* F_A + 2 theta + (fermionic bilinear)`
-  (`explorations/dark-energy-assumption3-variational-2026-06-23.md:137`); on-shell `theta = -D_A^* F_A`.
+  (`explorations/dark-energy-cosmology/dark-energy-assumption3-variational-2026-06-23.md:137`); on-shell `theta = -D_A^* F_A`.
   Assumption 3 (unproved): `theta` IS the gauge-potential sector of `E_A`.
 
 ## The candidate action (strawman to be improved by the construct phase)
