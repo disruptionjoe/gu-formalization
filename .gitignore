@@ -1,3 +1,8 @@
 *.pdf
 .lake/
 __pycache__/
+
+# Scratch / working state only (temp, caches, intermediate renders).
+# Durable artifacts -> JB/library/repos/public/gu-formalization/; secrets -> the vault.
+# See CapacityOS/system/meta/architecture/artifact-information-architecture.md.
+_local/
