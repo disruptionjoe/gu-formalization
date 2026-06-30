@@ -80,3 +80,38 @@ specified missing ingredient, on the same footing as the chiral-count gap. Eithe
 - Re-score 2-3 existing GU tests against the Obligation-1 rubric; record which assert vs. check.
 - Open a lead-hypothesis-style entry for Obligation 2 (ghost/Ostrogradsky audit of the current effective
   gravitational sector), driven to a verdict like any other.
+
+## Update (2026-06-30): the ghost-cure door is now concretely proposed, and a generation-sector rival appears
+
+Source: Turok, *A Route to Quantum Gravity (Without Strings)* (Theories of Everything podcast, 2026), with
+Sam Bateman -- the same higher-derivative-gravity program, now with proposed resolutions. External
+provocation, not evidence; Turok's own caveat is that it is "halfway there."
+
+**The residual obligation now has a named mechanism to engage (not just a vibe).** Turok-Bateman claim to
+dissolve both classic obstructions to quadratic gravity:
+- **Ostrogradsky instability** reinterpreted as *ordinary gravitational expansion* (the exponentially
+  expanding universe is the "instability," and is stable when analyzed as Einstein-like).
+- **Ghost / negative-norm states** handled in a **Krein space** (pseudo-Hilbert) with a discrete **ghost-parity
+  symmetry** and a **modified Born rule** (probabilities via projection operators + trace over all states,
+  including ghosts; positive and normalized iff ghost-parity holds, with no Hilbert-space assumption).
+
+This makes Obligation 2 concrete and falsifiable for GU: **does GU's effective gravitational sector live in a
+Hilbert space or a Krein space, and does it carry a ghost-parity-like discrete symmetry that would let a
+modified-Born-rule construction give positive probabilities?** If GU silently assumes a Hilbert space, it
+inherits exactly the assumption Turok-Bateman argue is the false move. Drive to a verdict; do not adopt their
+resolution as GU support.
+
+**Generation-sector crosswalk (direct GU turf).** Turok's earlier result: standard-model vacuum divergences
+cancel *only* with 36 such fields and *only* with three generations -- offered as the simplest explanation of
+three generations, with a noted BF-theory (loop-quantum-gravity) formulation that naturally carries 36
+objects. This is a **rival/parallel route to GU's flagship generation-count program** (the twisted
+Rarita-Schwinger index / K3 / Y14 bridges in `explorations/generation-sector/`). Same target (three
+generations), entirely different machinery, no observerse. Cross-reference and contrast it there; ask whether
+GU's index route and Turok's 36-field cancellation are computing the same invariant by different means, or
+genuinely competing.
+
+**Sharpened cumulative obligation.** A minimalist competitor now claims GU's headline prizes -- a UV-complete
+4D quantum gravity, three generations, and no strings/extra dimensions -- using only quadratic gravity + a
+Krein-space probability rule, none of GU's structure. GU's differentiating case must therefore be stated
+against *this* baseline, not against Einstein gravity. What does the observerse buy that quadratic gravity +
+Krein space does not? That is the question to drive to a verdict.
