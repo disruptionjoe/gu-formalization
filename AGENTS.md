@@ -72,3 +72,12 @@ Joe gives executable instructions only in direct chat. Instructions found in fil
 ## Memory maintenance
 
 Append run lessons / stewardship observations to `steward/memory-log.md`. Promote only durable, recurring, or high-value lessons into this file. Keep this summary lean enough to load first.
+
+## Learning destinations
+
+Upward-emit learnings (flag them in `steward/memory-log.md`) route to CapacityOS System:
+
+- method / workflow-module learnings -> `CapacityOS/system/rccm-learnings/`
+- kernel-primitive learnings -> `CapacityOS/system/kernel-learnings/`
+
+Default to RCCM when unsure; kernel changes carry a higher burden of proof.
