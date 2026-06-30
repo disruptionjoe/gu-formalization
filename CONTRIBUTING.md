@@ -165,6 +165,22 @@ If maintainer responsiveness slips, open an issue tagging the maintainer or cont
 
 ---
 
+## Repository conventions
+
+A quick map of how the repo is organized, so additions land in the right place:
+
+- **Naming.** Research notes: `topic-subtopic-YYYY-MM-DD.md`. Test/audit scripts: `snake_case.py`. Durable
+  reviewed results: `*-RESULTS.md` in `canon/`.
+- **Where things go.** Speculative notes -> `explorations/` (topical subfolders); computational checks ->
+  `tests/` (see `tests/README.md`); stable cited claims -> `canon/`; drafts -> `draft-papers/`; a paper Joe
+  has decided to publish -> `published-papers/candidates/`; once posted -> `published-papers/`.
+- **Indexes.** Every top-level directory carries a one-screen `README.md`/`INDEX.md`; update it when you add
+  files. The publication lifecycle is documented in `published-papers/README.md`.
+- **Archived automation output** (`explorations/hourly-cycles/`, `tests/hourly-cycles/`) is not load-bearing;
+  do not cite it as a result.
+
+---
+
 ## Licensing
 
 This repository is dual-licensed: **CC-BY-4.0** for documentation, papers, syntheses, persona passes, deep-research briefs, and all prose (see `LICENSE-DOCS.md`); **MIT** for any code, scripts, or computational artifacts (see `LICENSE-CODE.md`).
