@@ -20,7 +20,7 @@ computations agree: an abstract weight-diagram branching and an explicit
 This is the repo's first computational formalization. It targets candidate **6D**
 (Pati-Salam Emergence / SM Group Chain) and the representation-theoretic core of
 candidate **6A** (Observation and Internal Quantum Numbers), which
-`paper-formalization-candidates.md` flagged as the single most verifiable chain
+`docs/paper-formalization-candidates.md` flagged as the single most verifiable chain
 in the paper (6D priority 3, "HIGH amenability").
 
 Scope discipline up front: what is verified is that the paper's **group theory is

@@ -40,7 +40,7 @@ assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
-- **High-level overview:** `OVERVIEW.md`
+- **High-level overview:** `docs/OVERVIEW.md`
 - **Six-axis testability white paper:** `published-papers/candidates/six-axis-testability/`
 
 ## Repository Layers
@@ -54,7 +54,10 @@ assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 - `literature/` contains the literature review briefs.
 - `sources/` contains media/source provenance and claim-mining surfaces.
 - `specifications/` contains reusable templates and candidate specifications.
-- `draft-papers/` contains draft exposition and paper surfaces.
+- `draft-papers/` contains work-in-progress drafts and superseded paper versions.
+- `published-papers/` contains the publication lifecycle: `candidates/` (staged for publication) and, once
+  posted, the public record itself.
+- `docs/` contains second-tier program docs (overview, frontier hypotheses, GU-status deep-dive).
 
 ## Current Center Of Gravity
 

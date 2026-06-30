@@ -27,7 +27,7 @@ Seiberg did it"). Both the campaign and the panel walked straight past it.
 **The single highest-leverage move:** build that one Seiberg-Witten-shaped source action on the chimeric
 bundle. It simultaneously (a) discharges dark-energy Assumption 3, (b) closes the open middle map, and (c)
 produces the 2+1 matter content. One object, three discharges. Construction replaces index litigation on a
-complex that does not close. (See `NEXT-FRONTIER-HYPOTHESES.md` H1.)
+complex that does not close. (See `docs/NEXT-FRONTIER-HYPOTHESES.md` H1.)
 
 ## Ranked stories
 

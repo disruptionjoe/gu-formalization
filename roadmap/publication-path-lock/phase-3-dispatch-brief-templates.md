@@ -211,7 +211,7 @@ Plus per-paper:
 
 **Public push (all templates).** Zero public push in any template. Joe handles all arXiv submissions and journal submissions himself per `feedback_joe_always_publishes`.
 
-**Repo public-surface refresh (sibling artifact).** A separate sibling artifact owns updating the GU repo public surfaces (OVERVIEW.md, paper drafts, NEXT-STEPS.md) to reference the published papers. None of the three templates writes to `Github Repos/`.
+**Repo public-surface refresh (sibling artifact).** A separate sibling artifact owns updating the GU repo public surfaces (docs/OVERVIEW.md, paper drafts, NEXT-STEPS.md) to reference the published papers. None of the three templates writes to `Github Repos/`.
 
 ---
 

@@ -200,7 +200,7 @@ Per the Skeptical Mathematical Physicist persona (P3 across WRK-388 v3, WRK-389 
 Per the Strategic Research PM persona (P7 in WRK-388 v3, P5 in WRK-389/390 v3): the convergence anchors:
 
 - **WRK-386 Phase 3 paper-shape.** The factorization framing (Option N+++ in WRK-388 v3) is now the load-bearing spine, not an option. The C_MPR architecture is the canonical categorical object the paper builds toward.
-- **Repo public-surface refresh.** OVERVIEW.md, paper drafts, NEXT-STEPS.md should cite C_MPR + the Wall as the architectural source.
+- **Repo public-surface refresh.** docs/OVERVIEW.md, paper drafts, NEXT-STEPS.md should cite C_MPR + the Wall as the architectural source.
 - **Six-axis v2 (WRK-375) push.** The 9-tuple is the authoritative classification framework; six-axis is the L1-L6 subset of source-substrate classification feeding the `C_U` and `U` elements.
 - **Any future GU follow-on cards.** Should cite this synthesis as the architectural source.
 
@@ -260,7 +260,7 @@ Full downstream-anchor map at `wrk-391-c-mpr-synthesis/downstream-anchor-map.md`
 | Downstream surface | What it anchors against | Citation form |
 |---|---|---|
 | **WRK-386 Phase 3 paper** | C_MPR as paper spine; Wall as load-bearing negative lemma; signed-readout monotonicity criterion as theorem statement | Per §1.4 + §2.4 above |
-| **Repo OVERVIEW.md** | C_MPR + Wall as "what the bridge-work produced" | Per §1.4 + §2.4 above |
+| **Repo docs/OVERVIEW.md** | C_MPR + Wall as "what the bridge-work produced" | Per §1.4 + §2.4 above |
 | **Repo NEXT-STEPS.md** | Five OPEN items (§1.3) as the v4 / follow-on theorem lanes | Cite this doc §1.3 |
 | **Six-axis v2 (WRK-375 push)** | 9-tuple as authoritative classification framework; six-axis = L1-L6 source-substrate sub-classification | Cite this doc §3 |
 | **WRK-377 Item 3 (Type II_1 KO-dim 6 mod 8)** | Upgrade gate for stochastic-cousin (⇒) bite per WRK-382 v2 §3.2 | Cite this doc §4 + WRK-382 v2 |

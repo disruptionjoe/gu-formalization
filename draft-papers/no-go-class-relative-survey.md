@@ -7,7 +7,7 @@ depends_on:
   - "canon/no-go-class-relative-map.md"
   - "active-research/pati-salam-chain-verification.md"
   - "active-research/signed-readout/signed-readout-consolidated.md"
-  - "paper-formalization-candidates.md"
+  - "docs/paper-formalization-candidates.md"
   - "canon/six-axis-specification-protocol.md"
 ---
 

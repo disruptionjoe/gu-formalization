@@ -41,7 +41,7 @@ These are the paths most likely to yield novel or profound insight, ranked by th
 
 ## C_MPR / Factorization Architecture — Follow-On Candidates
 
-The in-progress bridge work has surfaced a categorical architecture, the layered factorization `C_GW_loc → C_MPR → C_Shadow` with `C_MPR` the category of monotone provenance with possibly-signed readout (see `OVERVIEW.md` §3a). It carries one negative theorem (the classical-value-lattice wall, generalizing Birkhoff-von Neumann 1936) and a positive corrected architecture. The following follow-on candidates emerge from that work; they are not yet drafted but are tracked as live research lanes `[speculation]`:
+The in-progress bridge work has surfaced a categorical architecture, the layered factorization `C_GW_loc → C_MPR → C_Shadow` with `C_MPR` the category of monotone provenance with possibly-signed readout (see `docs/OVERVIEW.md` §3a). It carries one negative theorem (the classical-value-lattice wall, generalizing Birkhoff-von Neumann 1936) and a positive corrected architecture. The following follow-on candidates emerge from that work; they are not yet drafted but are tracked as live research lanes `[speculation]`:
 
 - **Quantum-CA escape (C_QLR).** The only known escape from the classical-value-lattice wall is to leave the classical-distributive frame entirely. A quantum-cellular-automata source category `C_QLR` (Heunen-Reyes-style) plausibly admits a non-trivial adjunction with `C_GW`, but this is unverified in detail. Good first task: literature pass on quantum-CA-to-spectral-triples categorification.
 - **Reflectivity / free adjoint.** Is `C_CALM` reflective in `C_MPR`? Is there a left adjoint freely approximating non-monotone readouts as monotone provenance? Both are open follow-up theorem lanes.
@@ -93,6 +93,6 @@ The fastest likely path to a profound result is **Type II_1 control checklist ->
 - Do not claim computation evades Witten without a construction.
 - Do not write "GU evades Witten" unqualified; the substrate-replacement reading is **Sector I-specific** (Weinstein's own subdivision — "spacetime is replaced and recovered by the observerse contemplating itself," Oxford 2013).
 - Do not invoke E_8 evasions of Distler-Garibaldi without naming the (G, real form, V_{m,n}) triple the evasion changes; every published evasion lives in a *different* category (product group, GraviGUT SO(3,11), K(E10) Kac-Moody, twistor, etc.), and conflating them is the most common framing error.
-- Do not describe the CALM / Ginsparg-Wilson bridge as a direct equivalence or as "characterizing the same class of observables"; use the C_MPR layered-factorization language (`OVERVIEW.md` §3a). CALM is the monotone-readout sub-category, not an equivalent characterization.
+- Do not describe the CALM / Ginsparg-Wilson bridge as a direct equivalence or as "characterizing the same class of observables"; use the C_MPR layered-factorization language (`docs/OVERVIEW.md` §3a). CALM is the monotone-readout sub-category, not an equivalent characterization.
 - Do not attempt a full sextuple sweep.
 - Do not add more GU-source archaeology unless it changes a specific claim or timestamp.

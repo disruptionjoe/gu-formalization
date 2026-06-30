@@ -11,7 +11,7 @@ depends_on:
   - "explorations/primary-gu-interface-contract-2026-06-24.md"
   - "explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md"
   - "README.md"
-  - "OVERVIEW.md"
+  - "docs/OVERVIEW.md"
   - "CANON.md"
   - "RESEARCH-STATUS.md"
   - "NEXT-STEPS.md"
@@ -607,7 +607,7 @@ source_geometry_primary -> interface-only or control-only for the affected claim
 - `explorations/primary-gu-interface-contract-2026-06-24.md`
 - `explorations/live-claim-dag-fault-finality-ledger-2026-06-24.md`
 - `README.md`
-- `OVERVIEW.md`
+- `docs/OVERVIEW.md`
 - `CANON.md`
 - `RESEARCH-STATUS.md`
 - `NEXT-STEPS.md`

@@ -24,7 +24,7 @@ updated_at: "2026-06-26"
 >
 > **2026-06-25 SC1-OQ1A guard.** The older row that says the D7 Product B chirality screen
 > excludes `V(omega_1+omega_7)` from `Lambda^2 tensor Delta^+` is superseded by
-> `explorations/hourly-20260625-2104-cycle1-ig-product-b-d7-table-receipt-attempt.md`
+> `explorations/hourly-cycles/hourly-20260625-2104-cycle1-ig-product-b-d7-table-receipt-attempt.md`
 > and `tests/hourly_20260625_2104_cycle1_receipt_attempts_audit.py`: Product B now has the
 > route-local table `V(omega_2+omega_6) + V(omega_1+omega_7) + V(omega_6)`. Treat the
 > SC1-OQ1A uniqueness/common-summand gate as OPEN pending a replacement Hom-space

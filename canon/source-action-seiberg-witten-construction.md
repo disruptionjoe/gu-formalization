@@ -5,10 +5,10 @@ doc_type: construction
 created: 2026-06-28
 grade: "construction in progress; each claimed property is verified numerically on the Cl(9,5) substrate or graded open. Optimize for truth: land only what computes."
 depends_on:
-  - NEXT-FRONTIER-HYPOTHESES.md
+  - docs/NEXT-FRONTIER-HYPOTHESES.md
   - canon/dark-energy-theta-divergence-free.md
   - canon/shiab-existence-cl95.md
-  - WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md
+  - docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md
   - explorations/dark-energy-assumption3-variational-2026-06-23.md
 ---
 

@@ -29,7 +29,7 @@ All four are extant. The C_MPR and wall theorem mentions in this packet's drafts
 
 The drafts in this packet are full re-renderings, not patch files. The diff against the current public repo is summarized per file.
 
-### 1.1 `OVERVIEW.md` (current) → `OVERVIEW-draft-v2.md` (refresh)
+### 1.1 `docs/OVERVIEW.md` (current) → `OVERVIEW-draft-v2.md` (refresh)
 
 | section | current text | refresh text | rationale |
 |---|---|---|---|
@@ -111,7 +111,7 @@ For each of the four framing-discipline edits, the rationale and source:
 
 Push messages are framed for the public repo's reader, not for CapacityOS internal context.
 
-**Commit 1 (OVERVIEW.md):**
+**Commit 1 (docs/OVERVIEW.md):**
 ```
 OVERVIEW: sector-qualify GU-evades claims; surface Distler-Garibaldi as the hardest line; add in-progress bridge-work framing
 
@@ -189,7 +189,7 @@ NEXT-STEPS: add Distler-Garibaldi triple discipline, sector enumeration as contr
 
 **Recommended order:**
 
-1. **OVERVIEW.md** first. It is the canonical entry point referenced from README.md (`**New here? Start with OVERVIEW.md.**`); it should carry the corrected framing before downstream surfaces reference it.
+1. **docs/OVERVIEW.md** first. It is the canonical entry point referenced from README.md (`**New here? Start with docs/OVERVIEW.md.**`); it should carry the corrected framing before downstream surfaces reference it.
 2. **papers/formal-paper-draft-v2.md** second. It is the technical fallback the OVERVIEW links to and the §4.4 in-progress section is load-bearing for the C_MPR / wall theorem framing.
 3. **papers/blog-post-draft-v2.md** third. It is the accessible entry point linked from OVERVIEW §5 and the formal paper §7. It should land after the formal paper so the technical content it summarizes is in place.
 4. **NEXT-STEPS.md** fourth. It is the contributor-task routing page and references all three of the above. Should land last so its labels and "What To Avoid" rules align with what is already in the other surfaces.

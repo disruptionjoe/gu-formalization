@@ -8,7 +8,7 @@ updated_at: "2026-06-19"
 
 # GU Paper Reference Surfaces
 
-Extracted from the GU paper (2021 draft release) to support formalization candidates in `paper-formalization-candidates.md`. These tables are reconstructed from the paper text (§12); treat as reconstruction-strength, not verified.
+Extracted from the GU paper (2021 draft release) to support formalization candidates in `docs/paper-formalization-candidates.md`. These tables are reconstructed from the paper text (§12); treat as reconstruction-strength, not verified.
 
 ---
 
@@ -28,7 +28,7 @@ The paper's §12.8 draws a structural analogy between the kinematic data of Spec
 | 4-velocity / position | Connection g = (ε, ω) ∈ G | Element of G = H ⋉ N | One group element maps to two connections via bi-connection map |
 | Velocity = derivative of position | Augmented torsion T_g | T_g = ω − ε⁻¹(d_{A₀}ε) | Measures "displacement" between the two connections; gauge-covariant under H_{τ_{A₀}} |
 
-**Formalization candidate.** `paper-formalization-candidates.md` item **8B**. Import this table as a verification target: confirm that G = H ⋉ N with the group law (ε₁,ω₁)·(ε₂,ω₂) = (ε₁ε₂, Ad(ε₂⁻¹)ω₁ + ω₂) recovers the Poincaré group law exactly when H = Spin(1,3) and N = ℝ^{1,3}.
+**Formalization candidate.** `docs/paper-formalization-candidates.md` item **8B**. Import this table as a verification target: confirm that G = H ⋉ N with the group law (ε₁,ω₁)·(ε₂,ω₂) = (ε₁ε₂, Ad(ε₂⁻¹)ω₁ + ω₂) recovers the Poincaré group law exactly when H = Spin(1,3) and N = ℝ^{1,3}.
 
 **Strength.** Reconstruction. The analogy is explicit in §12.8 of the paper; the table above is a structured rendering of that text.
 
@@ -55,7 +55,7 @@ Where each major GU construction appears in the paper and its role in the overal
 | GU ↔ SR/QFT analogy | §12.8 | See table above; A↔M^{1,3}, N↔ℝ^{1,3}, H↔Spin(1,3), G↔Poincaré |
 | Effective chirality | §12.9 | Globally non-chiral Dirac operator on Y; appears chiral in low-curvature regions via R(y) coupling |
 
-**Formalization candidate.** `paper-formalization-candidates.md` item **7B** (the location table itself as a formalization target for verifying section references and cross-dependencies).
+**Formalization candidate.** `docs/paper-formalization-candidates.md` item **7B** (the location table itself as a formalization target for verifying section references and cross-dependencies).
 
 **Strength.** Reconstruction. Section references are from the 2021 draft release; exact theorem/proposition numbers may differ in any published version.
 
@@ -71,6 +71,6 @@ The paper's §12.2 contains the following argument:
 
 **Relevance to six-axis protocol.** This partially addresses the L4 (causal order) axis: GU's framework has a built-in causal-order argument from the structure of ℝ¹. Six-axis candidates derived from GU constructions should assess whether this ℝ¹ argument determines their L4 class or leaves it open.
 
-**Formalization candidate.** `paper-formalization-candidates.md` item **8A**.
+**Formalization candidate.** `docs/paper-formalization-candidates.md` item **8A**.
 
 **Strength.** Reconstruction. The claim is in §12.2 of the paper; formal proof of "ℝ¹ is the unique naturally well-ordered 1-manifold" is a theorem in ordered-field theory (ℝ is the unique complete ordered field; ℝ¹ as a manifold has a canonical orientation; the well-ordering claim is about the *canonical* choice being unique) and would require unpacking exactly what "natural" means in this context.

@@ -9,7 +9,7 @@ depends_on:
   - canon/source-action-seiberg-witten-construction.md
   - canon/two-primary-lemma.md
   - canon/ghost-parity-krein-synthesis.md
-  - NEXT-FRONTIER-HYPOTHESES.md
+  - docs/NEXT-FRONTIER-HYPOTHESES.md
 ---
 
 # Source action build: results

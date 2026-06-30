@@ -60,7 +60,7 @@ Keeping this line sharp is the program's credibility.
 - **Not established** (the bet, still to be earned): that this class of geometry actually *delivers the rest of
   physics* -- that it genuinely unifies GR and the SM. GU's specific attempts at the rest are reconstruction-
   grade with real open problems (the dark-energy sign, exact black-hole solutions, full anomaly cancellation;
-  see `RESEARCH-STATUS.md`, `WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`). The inference above is only
+  see `RESEARCH-STATUS.md`, `docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`). The inference above is only
   as strong as this premise, and earning it is the work ahead. We do not claim the unification; we claim the
   structural law, and we pursue the unification as the hypothesis the law makes worth pursuing.
 

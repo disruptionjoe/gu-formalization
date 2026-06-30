@@ -53,12 +53,14 @@ process/  roadmap/  sources/  literature/  active-research/  specifications/  au
 
 ### Phase 1 -- root declutter + surface the paper (highest impact, lowest risk)
 
-- **Create `docs/`** and `git mv` the non-essential root `.md` into it, leaving root with only what an
-  outsider needs first: `README.md`, `CANON.md`, `RESEARCH-PROGRAM.md`, `RESEARCH-POSTURE.md`,
-  `CONTRIBUTING.md`, `LICENSE-CODE.md`, `LICENSE-DOCS.md`.
-  - Move to `docs/`: `OVERVIEW.md`, `NEXT-STEPS.md`, `NEXT-FRONTIER-HYPOTHESES.md`, `RESEARCH-STATUS.md`,
-    `DERIVATION-PROGRESS.md`, `WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`,
-    `paper-formalization-candidates.md`. Add `docs/README.md` index.
+- **DONE -- created `docs/`** and moved the 4 genuinely-peripheral, low-reference root docs into it:
+  `OVERVIEW.md`, `NEXT-FRONTIER-HYPOTHESES.md`, `WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`,
+  `paper-formalization-candidates.md`. Added `docs/README.md`; updated all live inbound references and the
+  README "Start Here" / "Repository Layers".
+- **KEPT at root by design:** the operational status trio `NEXT-STEPS.md` (85 live referencing files),
+  `RESEARCH-STATUS.md` (52), `DERIVATION-PROGRESS.md` (38). They are woven into the canon's `rg`-command
+  verification scaffolding and are legitimately root-level status docs; moving them is high-churn, low-value.
+  Root drops 14 -> 10 `.md`.
 - **No new `paper/` folder.** The repo already has the deliberate `draft-papers/` (work in progress) vs
   `published-papers/` (hand-moved on public posting) split.
 - **DONE (commit f1f6e4c) -- the paper-staging workstream.** A workflow census + light adversarial triage
@@ -70,8 +72,7 @@ process/  roadmap/  sources/  literature/  active-research/  specifications/  au
     `published-papers/README.md` and `candidates/README.md`.
   - "Published result" wording reconciled to "submission candidate"; all internal links rewired.
   - Nguyen response: skipped for now (the honest concede-and-reframe already lives in LNF Sec 9).
-- **Still TODO in Phase 1:** create `docs/`, move the 7 non-essential root `.md` into it, add `docs/README.md`,
-  and update `README.md`'s "Start Here" block to the new `docs/` paths.
+- Phase 1 complete (commit follows).
 
 ### Phase 2 -- corral the hourly output (turns 830 loose into ~300)
 
