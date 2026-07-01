@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.cache/
+*.pdf
+.lake/
+.DS_Store
+_local/
