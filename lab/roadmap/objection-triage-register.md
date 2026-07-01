@@ -3,7 +3,7 @@ title: "Objection Triage Register (3-Pass Analysis)"
 status: active_research
 doc_type: roadmap
 created: 2026-06-24
-updated_at: "2026-06-24"
+updated_at: "2026-06-30"
 ---
 
 # Objection Triage Register (3-Pass Analysis)
@@ -45,6 +45,33 @@ No item exits this register without a recorded disposition.
 
 ---
 
+## Triage results (2026-06-30)
+
+The one-time triage pass ran on 2026-06-30 (full method + 0-5 scores in
+`lab/roadmap/triage-pass-underexplored-movable-objections-2026-06-30.md`). Every item now carries a
+`viability` disposition below.
+
+| id | viability | disposition |
+|---|---|---|
+| OBJ-GEN | PARK | Strongest publishable object (2-primary / prime-sieve firewall) but the decisive gate OQ-RK1 is blocked on the unbuilt source-derived RS index operator. |
+| OBJ-CMPR | PARK | Only the demotion is earned; the define-or-demote upgrade is source-action-gated. |
+| OBJ-TAF | KILL | 55 files, only computed nulls; every object reduces to Čech / rate-independent restatement. Closed with the null finding as the kill artifact. |
+| OBJ-HETSUB | PARK | Rollup of the heterodox-substrate lanes; no substrate derives SM chirality; specialist-gated, no falsifiable first artifact. |
+| OBJ-FHOBS | PARK | K3 moduli topology done; GU verdict gated on the unverified IC4 reduction. Wake = IC4/K3 topology fixed. |
+| OBJ-VZ | PARK | Symbol-level, source-conditional; cheapest next step is one canonical typed D_GU definition. |
+| OBJ-FALSIFY | PARK | Census complete and honestly negative; no independent artifact runnable now. |
+| OBJ-DESI | PARK | Duplicate physics object of MOVE-2; resolved 2026-06-30 (w_a<0 under global CPL fit, ΛCDM-degenerate; red-flag retracted, see CORRECTION DARK-ENERGY-03). |
+| OBJ-DG | PARK | Correct and cheap but ground-clearing only; discount the crown-jewel framing; wake on a positive result to attach. |
+| OBJ-NGUYEN | PURSUE | Real rep-theory kernel; a cheap one-pass fetch of the absent Nguyen PDF de-risks the lane; scrub retracted "dissolves / FULLY CLOSED" wording. |
+| OBJ-CONNES | PARK | Reframed to load-bearing only for observer-facing SM-shadow claims; only an un-executed canon wording patch remains. |
+| OBJ-DEFLATE | PARK | KILL-adjacent; a spot-check shows recent downgrades warranted; run reactively only. |
+| OBJ-CONVERGE | KILL | Loop demonstrably thrashing (rising issue counts; runaway no-op). Closed as a research lane — but the finding must spawn a separate loop-redesign/halt **ops** action, not silently vanish. |
+
+**KILLs actioned:** OBJ-TAF and OBJ-CONVERGE. OBJ-CONVERGE's thrashing finding is flagged for a
+loop-redesign/halt ops action (it is not merely a closed research lane).
+
+---
+
 ## OBJ-GEN — Three-generation count is OPEN and fitted, not derived
 
 - **Lane:** generation count / `ind_H(D_RS)=8`
@@ -63,7 +90,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** OQ-RK1 returns a value inconsistent with both 3 and 4
   generations, or proves the rank is not well-defined independent of the physical-DOF input.
 - **Recommended destination:** NEXT-STEPS (highest priority — moves every other verdict)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — decisive gate OQ-RK1 blocked on the unbuilt source action)
 
 ## OBJ-CMPR — BvN wall is a naming exercise
 
@@ -79,7 +106,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** no well-typed `C_GW` exists, or any candidate collapses to the
   commutative subcategory where BvN-1936 already holds trivially.
 - **Recommended destination:** NEXT-STEPS (define-or-demote)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — only the demotion is earned; upgrade is source-action-gated)
 
 ## OBJ-TAF — Observer-finality crosswalk has no transport into a GU theorem
 
@@ -94,7 +121,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** every crosswalk object reduces to standard Cech cohomology or
   a rate-independent restatement with no GU-side consequence.
 - **Recommended destination:** NEXT-STEPS (transport-or-close)
-- **viability:** UNTRIAGED
+- **viability:** KILL (2026-06-30 triage — closed; 55 files, only computed nulls; null finding is the kill artifact)
 
 ## OBJ-HETSUB — Heterodox substrate lanes lack an SM-chirality bridge
 
@@ -109,7 +136,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** the parity-breaking / chirality is shown to be hand-inserted
   in every toy model of the lane.
 - **Recommended destination:** NEXT-STEPS (hook-or-park, four sub-lanes)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — specialist-gated; no falsifiable first artifact)
 
 ## OBJ-FHOBS — Freed-Hopkins observer-pairing narrowed to one conditional survivor
 
@@ -125,7 +152,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** `X_obs^sol` is contractible or its class relabels as ordinary
   Sp(64)-gauge background (the relabeling case of the prior no-go).
 - **Recommended destination:** NEXT-STEPS (compute-or-park, wake trigger = IC4/K3 topology fixed)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — gated on the unverified IC4 reduction; wake = IC4/K3 topology fixed)
 
 ## OBJ-VZ — Velo-Zwanziger evasion holds only at principal-symbol order
 
@@ -141,7 +168,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** the extrinsic curvature `II_s = s*(θ)` sources spacelike
   characteristics at subprincipal order, or E(ξ) is non-invertible on the relevant cone.
 - **Recommended destination:** NEXT-STEPS (subprincipal + E-block)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — source-conditional; cheapest step is one canonical typed D_GU definition)
 
 ## OBJ-FALSIFY — The substrate-shadow thesis needs one concrete surviving SM prediction
 
@@ -155,7 +182,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** every candidate prediction is either reconstruction-grade,
   IC-sensitive, or assumes its own conclusion.
 - **Recommended destination:** NEXT-STEPS (prediction census)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — census complete and honestly negative; no artifact runnable now)
 
 ## OBJ-DESI — Dark-energy w_a sign reversed and IC-sensitive
 
@@ -169,7 +196,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** the predicted `w_a` sign is robustly positive under physical
   ICs, contradicting DESI; or `w_a` is not sign-stable, making it non-predictive.
 - **Recommended destination:** NEXT-STEPS (OQ3-A IC derivation + OQ5 phi_0 scan)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — duplicate of MOVE-2; resolved w_a<0/ΛCDM-degenerate, see CORRECTION DARK-ENERGY-03)
 
 ## OBJ-DG — Distler-Garibaldi scope-exit (crown jewel to harden)
 
@@ -186,7 +213,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** a functor `F_DG: GU_data → DG_E8` is constructed (would
   reopen the scope-exit).
 - **Recommended destination:** NEXT-STEPS (harden + paper surface)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — correct but ground-clearing only; discount the crown-jewel framing)
 
 ## OBJ-NGUYEN — shiab dissolves Nguyen §3.1 (crown jewel to harden)
 
@@ -201,7 +228,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** a gap is found in the H-linearity or Spin(9,5)-equivariance of
   the Clifford contraction.
 - **Recommended destination:** NEXT-STEPS (harden + paper surface)
-- **viability:** UNTRIAGED
+- **viability:** PURSUE (2026-06-30 triage — cheap one-pass fetch of the absent Nguyen PDF de-risks the lane; scrub retracted wording)
 
 ## OBJ-CONNES — Is the finite Connes control case over-elevated?
 
@@ -217,7 +244,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** dropping the Connes-control requirement breaks a result that
   currently depends on it (confirms it is load-bearing, closes the objection).
 - **Recommended destination:** NEXT-STEPS (canon-posture audit)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — load-bearing only for observer-facing SM-shadow claims; canon wording patch pending)
 
 ## OBJ-DEFLATE — Is verdict-deflation over-killing live leads?
 
@@ -232,7 +259,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** the audit finds every downgrade was warranted (closes the
   objection); or finds systematic over-deflation (opens a calibration fix).
 - **Recommended destination:** NEXT-STEPS (loop calibration audit)
-- **viability:** UNTRIAGED
+- **viability:** PARK (2026-06-30 triage — KILL-adjacent; spot-check shows recent downgrades warranted; run reactively only)
 
 ## OBJ-CONVERGE — Is the automated loop converging or thrashing?
 
@@ -248,7 +275,7 @@ No item exits this register without a recorded disposition.
 - **Kill / falsification condition:** the metric shows steady net progress (closes the objection) or
   shows thrashing (opens a loop-redesign task).
 - **Recommended destination:** NEXT-STEPS (convergence metric)
-- **viability:** UNTRIAGED
+- **viability:** KILL (2026-06-30 triage — loop demonstrably thrashing; closed as a research lane; spawns a separate loop-redesign/halt ops action)
 
 ---
 

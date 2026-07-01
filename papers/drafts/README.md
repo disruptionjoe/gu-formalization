@@ -27,7 +27,16 @@ lifecycle in [`../README.md`](../README.md).
   — near-duplicate of "Located, Not Forced"; its separable math.RT kernel could become a short companion note
   later (citing the lead paper).
 - Superseded predecessors and notes (two-primary-no-go, multiplicity-theorem-note, generation-sector-no-go-note,
-  canonical-structures-14d, vz-evasion-preprint, formal-paper-draft-v2, no-go-class-relative-survey) are kept
-  for provenance; several are self-flagged historical or superseded. See each file's header.
+  canonical-structures-14d [flagship theorem retracted by CORRECTION W2-01], vz-evasion-preprint,
+  formal-paper-draft-v2, no-go-class-relative-survey) are kept for provenance; several are self-flagged
+  historical or superseded. See each file's header.
+- The `what-geometric-unity-needs-to-do-next` series (unversioned original + v1–v7) are working versions of
+  one living document: **v7 is current**; the unversioned original and v1–v6 are superseded, kept for
+  provenance. `arxiv-submission-package-v7.md` is a historical packaging of that line.
+
+These superseded files are deliberately **kept in place** rather than moved to an archive folder: they are
+cited as point-in-time provenance from ~18 log/status/canon files (DERIVATION-PROGRESS, RESEARCH-STATUS,
+lab/process syntheses, media-mining ledgers), where a historical reference should keep naming the file it
+actually referenced. This index is the source of truth for what is current vs superseded.
 
 These are working drafts, not established physics.
