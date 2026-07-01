@@ -12,7 +12,7 @@ updated_at: "2026-06-26"
 > firewall-like BOUNDARY object rather than a closed internal completion (superseding the prior
 > closed-system default). The highest-priority next work is to ATTACK it via the explicit
 > falsification criteria in `canon/firewall-boundary-hypothesis.md` (most live: build a closed
-> internal source action in `../gu-source-action`, and re-run the generation-sector audit under a
+> internal source action in `absorbed/gu-source-action`, and re-run the generation-sector audit under a
 > different reconstruction of the rep). Attack it, do not defend it.
 
 > **2026-06-25 global status guard.** Older long rows below retain historical derivation
