@@ -1,6 +1,32 @@
 #!/usr/bin/env python3
 r"""LEG 2A -- Sp(64) octic trace + local I_16 + Green-Schwarz factorizability.
 
+CORRECTION MOVE1-01 (2026-06-30): SPLIT VERDICT -- the GAUGE octic red flag is a
+gauge-reading ARTIFACT; the local non-factorizability survives via GRAVITY, not the
+gauge group. Terminal recheck: tests/chase/MOVE-1/move1_octic_sp64_vs_sp1.py
+(+ tests/chase/MOVE-1/verify/indep_ahat16.py). Findings:
+  * The "Sp(64) irreducible octic" conclusion of this file (octic_irreducible=True,
+    driven by Str_S F^8 = 2 P4 with P4 an independent rank-32 Casimir) is CONDITIONAL
+    on the CONTESTED Sp(64) gauge reading. Under the GENUINE Clifford commutant
+    Sp(1) = right-H (rank 1; the honest commutant, cf. shiab_selector_sp64.py L38-43),
+    S = H^64 is 64 copies of the 2-dim fundamental, so Str_S F^8 = 128 y^8 = 128 (y^2)^4
+    -- a PURE PRODUCT of quadratic Casimirs, with NO independent order-8 invariant.
+    So the GAUGE octic is Green-Schwarz REDUCIBLE and the "Sp(64) irreducible octic"
+    red flag FLIPS True -> False (KILLED as a gauge-reading artifact).
+  * The TOTAL local non-factorizability does NOT flip. The reading-INDEPENDENT
+    gravitational tr R^8 ([A-hat(TY14)]_16 p4 coeff = -1/2419200, matching
+    Alvarez-Gaume-Witten; two index checks (K3)^4->16, (HP^2)^2->0 pass) SURVIVES,
+    nonzero SOLELY because the assumed truncated content Omega^0(x)S^+ + Omega^1(x)S^-
+    has net chirality n_+ - n_- = 1 - 14 = -13 (grav coeff = 64*(-13)*(-1/2419200)
+    = 13/37800 != 0).
+  * RECLASSIFIED: the surviving obstruction is PURE-GRAVITATIONAL / net-chirality,
+    made EXPLICITLY CONDITIONAL on the assumed truncated fermion content -- if the
+    content were chirally balanced (n_+ = n_-) it would VANISH. This is NOT promoted
+    to an anomaly-cancellation claim; the global eta / Dai-Freed / spin-bordism leg
+    stays OPEN. The gauge-channel booleans printed below (gauge_block=True,
+    octic_irreducible=True) are SUPERSEDED for the physical commutant -- read them as
+    the Sp(64)-reading branch only; the physical driver is the gravitational channel.
+
 CONTEXT
 -------
 The GU local anomaly is the degree-16 form  I_16 = [A-hat(TY14) . ch_R(F)]_16.

@@ -28,8 +28,18 @@ These are computed and re-checked, but the overall theory remains reconstruction
 - **The gravitational anomaly density is computed exactly:**
   `[A-hat(TY14)]_16 = (381 p1^4 - 904 p1^2 p2 + 208 p2^2 + 512 p1 p3 - 192 p4)/464486400`, verified three
   independent ways.
-- **The local anomaly does NOT Green-Schwarz factorize** (conditional negative; robust via the gravitational
-  channel as long as the chiral counts differ).
+- **The local anomaly does NOT Green-Schwarz factorize** (conditional negative), but the DRIVER is purely
+  gravitational, not the gauge group. *(MOVE1-01, 2026-06-30, terminal recheck
+  `tests/chase/MOVE-1/move1_octic_sp64_vs_sp1.py` + `verify/indep_ahat16.py`.)* The earlier "Sp(64)
+  irreducible octic" gauge red flag is a **gauge-reading artifact**: under the genuine Clifford commutant
+  `Sp(1)=right-H` (rank 1), `Str_S F^8 = 128 (y^2)^4` is a pure product of quadratic Casimirs with **no**
+  independent order-8 invariant, so the gauge octic is GS-**reducible** and that red flag flips True->False
+  (KILLED). What survives is the **reading-independent gravitational `tr R^8`** (`[A-hat(TY14)]_16` p4 coeff
+  `-1/2419200`), nonzero **only** because the assumed truncated content `Omega^0(x)S^+ + Omega^1(x)S^-` has
+  net chirality `n_+ - n_- = 1 - 14 = -13` (grav coeff `13/37800`). So the obstruction is reclassified as
+  **pure-gravitational / net-chirality, conditional on the assumed fermion content** — if the content were
+  chirally balanced it would vanish. No promotion to an anomaly-cancellation claim; the global
+  eta/Dai-Freed/spin-bordism leg stays OPEN.
 - **The dark-energy sign was being computed from a bug** (a hard-coded 3 vs the real 4.229); both prior
   numbers were wrong; the data-facing sign stays OPEN.
 - **The RS BV bicomplex is BUILT and verified** (s^2 = 0, non-vacuous; the "escape" is resolved via the

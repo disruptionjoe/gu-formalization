@@ -90,17 +90,48 @@ projector the construction was built to avoid. `S_comp` and `S_VZ` stay in the a
   the 192-dim `j=1` sector is an imposed modeling choice tied to the generation-count story, not forced by
   where `mu` lives.
 
-## The deepest finding (a hardened no-go)
+## The deepest finding (a hardened no-go) -- now COMPUTED-CONFIRMED, STRUCTURALLY FORCED, Psi-INDEPENDENT
 
-**The moment map of a Krein isometry provably cannot supply the chiral asymmetry.** Every GU-native operator
-commutes with the quaternionic structure `J_quat`, forcing an even index; `mu` is a Krein-real bilinear of a
-Krein isometry, so its heavy block is necessarily vectorlike (net chiral index 0). The `2+1` it produces is
-a **mass multiplicity, not a chiral anomaly index**. Therefore the chiral `+8` cannot come from the source
-action's own nonlinearity. Two honest exits remain, and the construction forces the choice:
-(a) import a non-Krein-isometric (symmetry-breaking) chiral/topological ingredient and show it chiralizes
-the vectorlike split, or (b) re-read GU's "3 generations" as a vectorlike mass count, not a chiral anomaly
-index, and re-derive the headline accordingly. This hardens the standing quaternionic-parity even-index
-no-go and converges with `canon/two-primary-lemma.md`.
+**The moment map of a Krein isometry provably cannot supply the chiral asymmetry.** The net chiral index of
+the moment-map image `im(M)` (mass operator `M(Psi) = c(mu(Psi))` on the 192-dim `j=1` triplet) is
+**EXACTLY 0** -- measured robustly across 400 random `Psi` x 3 signatures, by three independent measures that
+must agree: graded trace over image/kernel (`max|tr(omega P)| ~ 9e-15`), spectral net index (`|idx| = 0`),
+and block-spectra equality (`|eigs(M_++) - eigs(M_--)| < 3e-13`). The vanishing is not incidental: it is
+**forced Psi-independently** by a unitary chirality-swap `P = c(e_b)` (verified unitary; `||P|| = 13.86`)
+that **anticommutes with the grading** `omega` (swaps `+ <-> -`, defect `3.8e-15`) while **commuting with
+every** `Sigma_k`, hence with every `M(Psi)` (defect `3.7e-15`) -- so `eigs(M_++) = eigs(M_--)` for EVERY
+`Psi`, not just the samples. (Equivalently: the `M(64,H)` antilinear `J_q`, `J_q^2 = -1` defect `5.8e-14`,
+swaps chirality and commutes with `Sigma_k`, making each sector quaternionic/even.) The result is
+**non-vacuous**: a hand-built chirality-even operator on the same `(96,96)` triplet -- which does NOT commute
+with `P` -- achieves net chiral index `+96`, so the `(96,96)` balance does not trivially force 0; the
+moment-map operator is pinned to 0 precisely because `mu` lives in `span(Sigma_k) =` commutant of `P`.
+Computed in `tests/chase/MOVE-5/krein_nogo_chiral_index.py` (400 samples x 3 signatures, terminal verdict
+"NO-GO CONFIRMED") and non-vacuity in `tests/chase/MOVE-5/verify/nonvacuity.py` (hand-built op = `+96`).
+
+**Consequence.** A Krein-isometric, Seiberg-Witten-class moment-map source action -- `M = c(mu)`, `mu`
+Krein-real bilinear of a Krein isometry -- **CANNOT** produce a net chiral generation count. The `2+1` it
+produces is a **mass multiplicity, not a chiral anomaly index**. Therefore the chiral `+8` cannot come from
+the source action's own nonlinearity. The two honest exits the file already lists are now the **ONLY** exits,
+since the vectorlike outcome is proven forced (not incidental): (a) import a non-Krein-isometric
+(symmetry-breaking) chiral/topological ingredient and show it chiralizes the vectorlike split, or (b) re-read
+GU's "3 generations" as a vectorlike mass count, not a chiral anomaly index, and re-derive the headline
+accordingly. This hardens the standing quaternionic-parity even-index no-go and converges with
+`canon/two-primary-lemma.md`.
+
+**Scope guardrail (no overclaim).** This kills a hope about the **ASSUMED** SW template action `S_SW` with
+mass operator `M = c(mu)`; it does **NOT** touch GU's own (still unbuilt) source action, and it is a
+reconstruction-grade numeric check on an imported input, not a physics derivation of GU. The source-action
+bottleneck is untouched. Verdict stays OPEN: the correction hardens the no-go and removes the "single-Psi /
+heuristic" caveat, it does not declare GU solved.
+
+> **CORRECTION 5-01 (2026-06-30):** Upgraded the no-go from asserted / single-`Psi` (`seesaw_majorana_mu_block.py`,
+> one `Psi`) / heuristic ("Every GU-native operator commutes with `J_quat`...") to **COMPUTED-CONFIRMED,
+> STRUCTURALLY FORCED, and `Psi`-INDEPENDENT** via `tests/chase/MOVE-5/krein_nogo_chiral_index.py`
+> (net chiral index of `im(M)` = 0 across 400 samples x 3 signatures; forced by a verified-unitary
+> chirality-swap `P = c(e_b)` anticommuting with the grading) and `tests/chase/MOVE-5/verify/nonvacuity.py`
+> (hand-built even operator gives `+96`, proving the property is content-bearing, not vacuous). The two
+> listed exits are now the ONLY exits. Kills the ASSUMED `S_SW` chiral-count hope only; GU's own unbuilt
+> action is untouched; verdict remains OPEN.
 
 ## What stays open (named, separated, unmoved)
 
