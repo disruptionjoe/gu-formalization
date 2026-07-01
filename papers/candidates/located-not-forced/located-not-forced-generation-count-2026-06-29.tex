@@ -22,6 +22,7 @@
 
 \newtheorem{theorem}{Theorem}
 \newtheorem{corollary}{Corollary}
+\newtheorem{lemma}{Lemma}
 \theoremstyle{definition}
 \newtheorem{definition}{Definition}
 \theoremstyle{remark}
@@ -59,9 +60,15 @@ in the Data Availability section.}}
 \maketitle
 
 \begin{center}
-\fbox{\parbox{0.92\textwidth}{\centering\textbf{Draft for external review. This paper does \emph{not} claim
-three generations.} The theorem-grade results are independent of Geometric Unity; every Geometric-Unity-specific
-step is explicitly marked as motivated or reconstruction-grade. See Sections~\ref{sec:intro} and~\ref{sec:open}.}}
+\fbox{\parbox{0.92\textwidth}{\textbf{Draft for external review. This paper does \emph{not} claim three
+generations.} The theorem-grade results are independent of Geometric Unity; every Geometric-Unity-specific step
+is explicitly marked as motivated or reconstruction-grade. Four caveats are load-bearing and hold throughout:
+\emph{(a)} the torsion-count reading is a \emph{premise, not a result}---under a literal integer-index reading the
+same obstructions would instead \emph{forbid} an odd count outright; \emph{(b)} the order-$3$ class cannot
+literally \emph{be} an integer count, since $\Hom(\Z/3,\Z)=0$ (no homomorphism from a torsion group to a
+torsion-free one is nonzero); \emph{(c)} the generation count is \emph{external on present evidence}, not
+necessarily external; \emph{(d)} the antilinear non-existence leg is an \emph{open finite adversarial hunt, not a
+closed proof}. See Sections~\ref{sec:intro} and~\ref{sec:open}.}}
 \end{center}
 
 \begin{abstract}
@@ -71,8 +78,8 @@ spinor, with one generation identified with the $\mathbf{16}$ of $\Spin(10)$. Th
 and reconstructed from, the matter proposal of Geometric Unity (GU); every GU-specific step is marked, and none
 of the theorem-grade results depends on GU being correct.
 
-We prove a \emph{two-primary meta-theorem} (no obstruction to a net chiral count in this sector is an odd-prime
-congruence) and an \emph{index-conservation theorem} (every linear Krein-isometric operator on the generation
+We prove a \emph{two-primary meta-theorem} (no \emph{enumerated} obstruction to a net chiral count in this sector
+is an odd-prime congruence) and an \emph{index-conservation theorem} (every linear Krein-isometric operator on the generation
 triplet conserves the net chiral index at zero, because the purely cross-chirality $(96,96)$ form makes every
 physical subspace chirality-balanced---a finite-dimensional fact, no Fredholm theory). The decomposition $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is the central structural fact: by the Chinese
 Remainder Theorem the summands are disjoint, every obstruction and chiralizing selector lives in the $2$-primary
@@ -122,8 +129,9 @@ count outright. We state this load-bearing premise as Corollary~\ref{cor:arenas}
 
 Our contributions:
 \begin{enumerate}[leftmargin=2em]
-\item \textbf{A two-primary meta-theorem (Section~\ref{sec:thm1}).} No obstruction to a net chiral count in this
-sector is an odd-prime congruence; in particular none imposes a mod-$3$ condition. [theorem, theory-independent]
+\item \textbf{A two-primary meta-theorem (Section~\ref{sec:thm1}).} No obstruction in the enumerated list of
+Theorem~\ref{thm:1} is an odd-prime congruence; in particular none imposes a mod-$3$ condition. [theorem
+(scoped to the enumeration), theory-independent]
 \item \textbf{A CRT two-arena reading (Section~\ref{sec:crt}).} The decomposition
 $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is standard primary decomposition, already used in the prior family-puzzle
 literature; we claim no novelty for it. The contribution is the structural \emph{reading}: every obstruction
@@ -171,14 +179,76 @@ $K = \eta_V\otimes\beta_S$; on the triplet it is purely cross-chirality, signatu
 matter content is \emph{vectorlike} with net chirality $0$. This is the central tension: the sector is
 multiplicity-three but vectorlike, and no internal operation chiralizes it.
 
+\section{Multiplicity versus chirality}\label{sec:multiplicity}
+
+The integer $3$ plays two arithmetically different roles in this sector, and conflating them is the error the
+``located, not forced'' reading most guards against. A \emph{multiplicity} is the dimension of a flat family
+space---the number of copies of a fixed representation the constrained module carries; it is a representation
+dimension, comes with its mirror (copies and anti-copies), and is vectorlike. A \emph{net chiral count} is an
+index---the signed difference (left minus right) of Dirac zero modes; it measures chirality, the property a
+vectorlike spectrum lacks. A representation dimension and an operator index are not one number computed two ways.
+This sector supplies the first natively and does not supply the second.
+
+\paragraph{The multiplicity is natively three (verified).} Under the self-dual $\mathfrak{su}(2)_+$ of the
+$4$-base, the gamma-traceless module decomposes as in Section~\ref{sec:setting}. Written by \emph{multiplicity}
+rather than dimension,
+\[
+\ker(\Gamma) = 640~(j{=}0) + 416~(j{=}\tfrac12) + 64~(j{=}1),
+\qquad 640\cdot 1 + 416\cdot 2 + 64\cdot 3 = 1664,
+\]
+i.e.\ $640$ singlets, $416$ doublets and $64$ triplets, the $64$ triplets spanning the $192$-dimensional $j=1$
+sector of Section~\ref{sec:setting}. On all $192$ states the $\Spin(10)$ Casimir matches the reference
+$\mathbf{16}/\overline{\mathbf{16}}$ value to machine precision
+(\texttt{tests/generation-sector/h1\_selfdual\_family\_kill.py}). A native multiplicity-three object exists,
+carried by the self-dual geometry of any oriented $4$-base; the multiplicity dimension $3$ is not imported.
+
+\begin{lemma}[spinor $2$-smoothness]\label{lem:2smooth}
+If a family symmetry $\SO(m)$ acts so that the multiplicity space is a sum of spinor representations of $\SO(m)$,
+its dimension is a power of two, hence not divisible by $3$. An odd multiplicity can therefore arise only from a
+non-spinor family representation---a vector, an adjoint, or a self-dual tensor.
+\end{lemma}
+\begin{proof}
+The Dirac spinor of $\SO(m)$ has dimension $2^{\lfloor m/2\rfloor}$ and each half-spinor of $\SO(2k)$ has
+dimension $2^{k-1}$; all are powers of two, never divisible by the odd prime $3$. The vector ($m$), the adjoint
+($m(m-1)/2$) and self-dual tensors are not so constrained; $\Lamp$ of a $4$-manifold has dimension $3$.
+\end{proof}
+
+\paragraph{Three is the canonical odd multiplicity (verified for the commutant of the full $\Spin(10)$).}
+Lemma~\ref{lem:2smooth} turns an open-ended search into a dichotomy: the spinor channels are provably $3$-free,
+so any odd multiplicity must enter through a non-spinor channel. Inside $\Spin(14)\supset\Spin(10)\times\Spin(4)$
+the commutant of $\Spin(10)$ is $\mathfrak{so}(4)=\mathfrak{su}(2)_+\oplus\mathfrak{su}(2)_-$, which up to
+conjugacy has exactly three $\mathfrak{su}(2)$ subalgebras (self-dual, anti-self-dual, diagonal), and no
+$\mathfrak{su}(3)$ embeds (by dimension, $\dim\mathfrak{su}(3)=8>6=\dim\mathfrak{so}(4)$). Enumerating the
+$16$-dimensional multiplicity space under each
+(\texttt{tests/generation-sector/leg3\_family\_embedding\_enumeration.py}), only the self-dual and anti-self-dual
+$\mathfrak{su}(2)$ (orientation images of one another) give an odd multiplicity, always the triplet of dimension
+$3$, never a quintet or higher; the diagonal choice gives an all-even content. So for family symmetries commuting
+with the full $\Spin(10)$ the self-dual route is canonical and the multiplicity it fixes is three. \emph{This is a
+statement about a representation dimension, not a net chiral count.} The case of a family symmetry commuting only
+with the Standard-Model subgroup $G_{\mathrm{SM}}\subset\Spin(10)$---whose larger commutant could in principle
+host a horizontal $\mathfrak{su}(3)$---is not covered here and is a bounded open computation; Lemma~\ref{lem:2smooth}
+already constrains it.
+
+\paragraph{But the triplet is vectorlike, so the native three is not a chiral three.} The native multiplicity
+three is vectorlike: as in Section~\ref{sec:setting}, the invariant Krein form $K=\eta_V\otimes\beta_S$ on the
+triplet is purely cross-chirality with signature $(+96,-96)$, so every physical subspace is chirality-balanced
+and the net chiral index is $0$ (Theorem~\ref{thm:2}). The native object is three copies plus three mirrors;
+turning it into a \emph{net} three is a separate datum---an index, or a chiral projection---that the internal
+algebra does not fix, that Section~\ref{sec:thm1} shows is even on every enumerated obstruction, and that
+Section~\ref{sec:thm2} shows no interior operator supplies. \textbf{The multiplicity three is native; the chiral
+three is not.} This is the representation-theoretic form of ``located, not forced'': the sector locates a genuine
+three (as a multiplicity) and does not force a three (as a chirality).
+
 \section{Theorem 1: the no-go is two-primary}\label{sec:thm1}
 
 Call an integer or torsion invariant \textbf{$2$-primary} if it is a power of two, a multiple of one, or a
 statement modulo a power of two.
 
 \begin{theorem}\label{thm:1}
-No obstruction to a net chiral generation count established in this sector is an odd-prime congruence: every
-obstruction is even or a statement modulo a power of two, and in particular none imposes a mod-$3$ condition.
+Among the obstructions to a net chiral generation count enumerated for this sector (items~(1)--(7) in the proof
+below), none is an odd-prime congruence: every enumerated obstruction is even or a statement modulo a power of
+two, and in particular none imposes a mod-$3$ condition. The claim is scoped to this enumerated list; it is not an
+impossibility statement over all conceivable obstructions.
 \end{theorem}
 
 \begin{proof}[Proof (enumeration)]
@@ -602,6 +672,44 @@ test, the carrier-mass capstone, and the class-level structural no-go are checke
 \texttt{tests/gu-independent/}). The homotopy and $e$-invariant facts are standard
 (Adams~\cite{adams1966jx4}; Kirby--Melvin~\cite{kirbymelvin1999}). Per-result derivations are recorded in the
 repository \texttt{canon/} directory.
+
+\appendix
+
+\section{Reproducibility: the Pati--Salam one-generation verification}\label{app:patisalam}
+
+The ``only honest computable generation integer is one'' of Section~\ref{sec:decider} rests on a self-contained
+group-theory verification of GU's Pati--Salam chain, reproduced here for completeness. The script
+\texttt{lab/active-research/pati\_salam\_chain\_verification.py} (pure \texttt{numpy}) builds the $\Spin(10)$
+chiral spinor $\mathbf{16}$ from its weights $(\pm\tfrac12)^5$ with an even number of minus signs, embeds
+Pati--Salam by partitioning the rank-$5$ Cartan as $3\,(\text{color}+B{-}L)\oplus 2\,(T_{3L},T_{3R})$, and
+computes hypercharge and electric charge from group theory alone via
+\[
+Y = T_{3R} + \tfrac12(B{-}L), \qquad Q = T_{3L} + Y, \qquad n = 6Y .
+\]
+Pushing all $16$ weights through the branching
+\[
+\Spin(7,7)\to\Spin(1,3)\times\Spin(6,4)\to\Spin(1,3)\times\Spin(6)\times\Spin(4)
+\cong \mathrm{SL}(2,\mathbb{C})\times\SU(4)\times\SU(2)\times\SU(2)
+\to \mathrm{SL}(2,\mathbb{C})\times\SU(3)\times\SU(2)\times U(1)
+\]
+collapses the $\mathbf{16}$ to exactly one Standard-Model generation: the multiplets $(\mathbf{3},2)_{n=+1}$,
+$(\overline{\mathbf{3}},1)_{n=+2}$, $(\overline{\mathbf{3}},1)_{n=-4}$, $(\mathbf{1},2)_{n=-3}$,
+$(\mathbf{1},1)_{n=+6}$, $(\mathbf{1},1)_{n=0}$, totalling $6+3+3+2+1+1=16$ states, with
+$\mathrm{Tr}\,Y=\mathrm{Tr}\,Q=0$ (anomaly-free) and electric charges $\{0,\pm\tfrac13,\pm\tfrac23,\pm1\}$. The
+integer label $n=6Y$ reproduces the GU draft's Section~11.3 table exactly; an embedding-ambiguity probe confirms
+that the naive $B{-}L$-only hypercharge fails, so the standard $Y=T_{3R}+\tfrac12(B{-}L)$ embedding is forced. An
+independent explicit-Clifford cross-check (\texttt{lab/active-research/verify\_clifford\_explicit.py}, with
+$32\times32$ gamma matrices satisfying the $\SO(10)$ Clifford relations numerically) reproduces the same content
+and its exact CP conjugate ($n\to-n$, $\mathbf{3}\leftrightarrow\overline{\mathbf{3}}$).
+
+\paragraph{Scope: this is a one-generation \emph{structural} verification, not a generation count.} What is
+verified is that the $\mathbf{16}$ of $\Spin(10)$ carries exactly \emph{one} anomaly-free Standard-Model
+generation, with the paper's hypercharge assignments reproduced from first principles---i.e.\ internal
+representation-theoretic consistency of GU's group theory. It does \emph{not} provide the generation count: it
+does not establish that nature realizes this breaking pattern, does not address the effective-chirality or
+``$2+1$'' claims, and---being a single generation---says nothing about \emph{how many} generations occur. It is
+the integer ``$1$'' of Section~\ref{sec:decider}, and its role in this paper is precisely that: the only honest
+computable generation integer, not a derivation of three.
 
 \begin{thebibliography}{18}
 
