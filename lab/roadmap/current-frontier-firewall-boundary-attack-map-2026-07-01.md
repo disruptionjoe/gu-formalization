@@ -52,6 +52,10 @@ Useful local test surfaces:
 - `canon/multiplicity-theorem.md`
 - `NEXT-STEPS.md`
 
+Current attack-gate packet:
+
+- `lab/roadmap/closed-internal-source-action-attack-gate-2026-07-01.md`
+
 ## What the next attack should try
 
 The most valuable next Progress work is not to add another attractive selector.
@@ -114,4 +118,3 @@ A useful Progress run can stop after producing one of:
 - a short addendum to this map identifying the next falsification flank.
 
 Any positive verdict belongs in the formal claim/status path, not in this map.
-
