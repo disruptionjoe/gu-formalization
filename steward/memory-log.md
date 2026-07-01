@@ -29,3 +29,6 @@ Routine detail stays here; it is not loaded by default.
   scratch -> `_local/`, GU PDF as third-party reference); the PR template references only
   existing CONTRIBUTING / RESEARCH-POSTURE discipline and the existing claim-status runbook
   path; no research truth touched; no transcribe-then-retire obligation outstanding.
+## 2026-07-01
+
+- Discovery fleet pass found the repo is high-signal but cognitively dense; future progress should focus a named lead-result surface and reduce source-action ambiguity. See `steward/runs/2026-07-01-discovery-fleet-pass.md`.

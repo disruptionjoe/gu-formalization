@@ -57,7 +57,7 @@ This repo owns its research truth: the research program and posture, canon claim
 
 - Research truth stays in this repo.
 - CapacityOS architecture questions route to `C:\Users\joe\JB\CapacityOS`.
-- JoeOps coordination questions route to `C:\Users\joe\JB\Github Repos\joeops`.
+- JoeOps coordination questions route to `C:\Users\joe\JB\CapacityOS\repos\private\joeops`.
 - Durable artifacts belong in `C:\Users\joe\JB\library\repos\public\gu-formalization\`.
 - Third-party references belong near the repo under `C:\Users\joe\JB\library\repos\public\gu-formalization\references\external\`.
 - Scratch belongs in `_local/`.
