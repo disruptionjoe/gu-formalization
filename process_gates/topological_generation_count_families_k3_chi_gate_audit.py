@@ -7,14 +7,16 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 ARTIFACT = (
     ROOT
+    / "lab"
     / "active-research"
     / "topological-generation-count-families-k3-chi-gate-2026-06-26.md"
 )
-ACTIVE_README = ROOT / "active-research" / "README.md"
+ACTIVE_README = ROOT / "lab" / "active-research" / "README.md"
 NEXT_STEPS = ROOT / "NEXT-STEPS.md"
 ROUTE_ALT = (
     ROOT
     / "explorations"
+    / "generation-sector"
     / "three-generation-route-alternatives-after-rs-failure-2026-06-26.md"
 )
 
@@ -66,7 +68,7 @@ class TopologicalGenerationCountFamiliesK3ChiGateAudit(unittest.TestCase):
         self.assertIn("ind_H(D_GU)=chi(K3)=24", payload["blocked_shortcuts"])
 
     def test_crosslinks_are_present(self):
-        path = "active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
+        path = "lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md"
         self.assertIn(path, self.active_readme)
         self.assertIn(path, self.next_steps)
         self.assertIn("FamiliesIndexPushforwardGate_V0", self.route_alt)

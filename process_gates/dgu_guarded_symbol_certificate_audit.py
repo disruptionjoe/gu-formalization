@@ -5,9 +5,15 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ARTIFACT = ROOT / "explorations" / "dgu-guarded-symbol-certificate-2026-06-26.md"
+ARTIFACT = (
+    ROOT
+    / "explorations"
+    / "anomaly-and-bordism"
+    / "dgu-guarded-symbol-certificate-2026-06-26.md"
+)
 GATE = (
     ROOT
+    / "lab"
     / "active-research"
     / "topological-generation-count-families-k3-chi-gate-2026-06-26.md"
 )
@@ -61,7 +67,10 @@ class DGUGuardedSymbolCertificateAudit(unittest.TestCase):
         )
 
     def test_active_gate_links_certificate_and_blocks_ellipticity_shortcut(self):
-        self.assertIn("explorations/dgu-guarded-symbol-certificate-2026-06-26.md", self.gate)
+        self.assertIn(
+            "explorations/anomaly-and-bordism/dgu-guarded-symbol-certificate-2026-06-26.md",
+            self.gate,
+        )
         self.assertIn("phi_zero_order_implies_standard_ellipticity", self.gate)
         self.assertIn("LOWER_ORDER_BUT_DOMAIN_OPEN", self.gate)
         self.assertIn("current guarded certificate", self.gate)

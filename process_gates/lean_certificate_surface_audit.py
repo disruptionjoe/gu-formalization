@@ -27,11 +27,14 @@ OWNER_REFERENCES = {
         "w2Sym2Rank3_eq_e1_sq_add_e2",
         "w2TensorLineRank3_eq_e2_add_l_sq",
     ],
-    ROOT / "active-research" / "topological-generation-count-families-k3-chi-gate-2026-06-26.md": [
+    ROOT
+    / "lab"
+    / "active-research"
+    / "topological-generation-count-families-k3-chi-gate-2026-06-26.md": [
         "GUFormalization.K3IndexArithmetic",
         "brstStyle_is_raw_minus_two_spinor_ghosts",
     ],
-    ROOT / "process" / "runbooks" / "claim-status-consistency-quality-workflow.md": [
+    ROOT / "lab" / "process" / "runbooks" / "claim-status-consistency-quality-workflow.md": [
         "GUFormalization.Status",
         "AllowedByDeps",
     ],
@@ -59,7 +62,7 @@ class LeanCertificateSurfaceAudit(unittest.TestCase):
                     self.assertIn(needle, text)
 
     def test_local_check_script_exists(self) -> None:
-        script = ROOT / "automation" / "check-lean.ps1"
+        script = ROOT / "lab" / "automation" / "check-lean.ps1"
         self.assertTrue(script.is_file())
         self.assertIn("lake build", script.read_text(encoding="utf-8"))
 

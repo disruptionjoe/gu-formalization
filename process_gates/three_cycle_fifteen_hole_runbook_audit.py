@@ -11,9 +11,9 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-RUNBOOK = ROOT / "process" / "runbooks" / "three-cycle-fifteen-hole-run.md"
-UNIT_RUNBOOK = ROOT / "process" / "runbooks" / "five-lane-frontier-run.md"
-PROCESS_README = ROOT / "process" / "README.md"
+RUNBOOK = ROOT / "lab" / "process" / "runbooks" / "three-cycle-fifteen-hole-run.md"
+UNIT_RUNBOOK = ROOT / "lab" / "process" / "runbooks" / "five-lane-frontier-run.md"
+PROCESS_README = ROOT / "lab" / "process" / "README.md"
 
 
 def read(path: Path) -> str:
@@ -52,7 +52,7 @@ class ThreeCycleFifteenHoleRunbookAudit(unittest.TestCase):
     def test_uses_five_lane_runbook_as_unit(self) -> None:
         self.assertEqual(
             self.workflow["unit_runbook"],
-            "process/runbooks/five-lane-frontier-run.md",
+            "lab/process/runbooks/five-lane-frontier-run.md",
         )
         self.assertIn("The unit of work is still `five-lane-frontier-run.md`", self.text)
         self.assertIn("three-cycle-fifteen-hole-run.md", read(UNIT_RUNBOOK))

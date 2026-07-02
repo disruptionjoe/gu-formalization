@@ -6,7 +6,7 @@ object and compute a number/rank/dim/index.
 
 These files assert **documentation and status discipline** (posture wording, claim-DAG
 consistency, allowed/forbidden provenance inputs, "no overclaim" checks, Lean-surface presence,
-etc.) — they do **not** perform mathematics. A green run here means the prose/governance
+etc.) - they do **not** perform mathematics. A green run here means the prose/governance
 contracts hold; it says nothing about whether a GU claim is mathematically checked. For that,
 see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
@@ -22,10 +22,13 @@ that path logic is preserved unchanged and no gate needed editing to move here.
 `lab/roadmap/README.md` resolve from that file's actual location. This protects the current
 routing table without treating roadmap prose as a research claim.
 
-## Note on pre-existing staleness
+## Relocated surface path hygiene
 
-Some gates carry stale references from before the CapacityOS/repo reorganizations (e.g.
-`ROOT / "process" / "runbooks"` and `ROOT / "active-research"`, which now live under `lab/`),
-or assert document content that has since changed. Those failures predate this relocation and
-were part of the reason to move these out of the real test suite. They are governance debt to
-fix or retire, tracked separately — not introduced by the move.
+Repository process, automation, and active-research owner surfaces now live under `lab/`.
+Process gates should point at current `lab/process/`, `lab/automation/`, and
+`lab/active-research/` paths when checking live owner surfaces. Historical exploration
+artifacts may still quote older path strings as provenance. Do not rewrite those mechanically
+unless the selected gate depends on them as current executable inputs.
+
+Remaining content failures are governance debt to fix or retire separately; they are not
+introduced by the path repair.
