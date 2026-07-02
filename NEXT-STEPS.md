@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-26"
+updated_at: "2026-07-02"
 ---
 
 # Next Steps For Contributors
@@ -88,6 +88,71 @@ direction can be high priority if it is mathematically precise and would strongl
 whether GU succeeds.
 
 For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
+
+## 2026-07-02 Publication-Gating Work Cards -- located-not-forced adversarial review
+
+An adversarial peer review of `papers/candidates/located-not-forced/` (reviewed v2.4; v2.5.1 edits applied,
+see `papers/candidates/located-not-forced/CHANGELOG-v2.5.1-adversarial-review.md`) produced three work cards,
+priority-ordered below. **Publication of the paper is DEFERRED (Joe, 2026-07-02) until cards 1 and 2 close.**
+Full review disposition table: `papers/drafts/prepublish-review-tracker.md`. House discipline applies to all
+three: executable certificates (scripts under `tests/`, RESULTS file under `canon/`), no target import,
+adversarial re-verification of every leg.
+
+### WC-ENUM-COMPLETENESS (journal-gating; priority 1)
+
+**Statement.** The paper's Theorem 1 is proof-by-enumeration over 7 obstruction classes (Kramers, mod-2 Witten
+index, cross-chirality Krein signature, adjoint index 4k, Rokhlin, spinor 2-smoothness, ghost parity); the
+conditionality "completeness of the enumeration is open" is now stated prominently (v2.5.1) but not closed.
+Close it one of two ways: **(a)** prove a classification theorem for a precisely delimited class of covariant
+operators/anomalies in the Clifford-RS sector (real `Cl(p,q)`, `p+q=14`, gamma-traceless rank-3/2 field, `j=1`
+triplet with purely cross-chirality `(+96,-96)` Krein form) showing the 7-item enumeration exhausts that class;
+or **(b)** build an adversarial enumeration-extension engine that systematically generates candidate covariant
+structures in the sector -- including gauge-field-coupled and boundary (`eta`/APS) variants -- and verifies
+each lands 2-primary, or documents the escape.
+
+**Success condition:** a delimitation + classification proof (route a), or an engine run whose generated census
+is exhaustively 2-primary with the generator's coverage precisely stated (route b); either upgrades Theorem 1
+from "scoped to the enumeration" to "complete for the delimited class."
+**Failure condition:** the engine (or the classification attempt) produces a covariant structure in the sector
+imposing an odd-prime congruence. That is a kill for Theorem 1 as scoped -- report it, do not patch it.
+**Estimated artifact shape:** a delimitation spec + RESULTS file in `canon/`; a generator/verifier script pair
+in `tests/enum-completeness/` walking covariant operator words in the Clifford basis crossed with the
+{frame, gauge-coupled, boundary} channels; one classification proof note if route (a) lands.
+
+### WC-ANTILINEAR-BOUND (journal-gating; priority 2)
+
+**Statement.** The paper's antilinear non-existence leg (caveat (d)) is a finite adversarial hunt over an
+infinite-dimensional space -- honest but not closed. Convert it into either **(a)** a non-existence proof over
+a rigorously delimited search space -- state the operator algebra (which antilinear operators on the 192-dim
+carrier: bounded, Krein-isometric, equivariant under which group), the functional class, and the topology --
+or **(b)** an exhaustive certificate for that bounded class, with the outside-the-class residual stated as the
+honest open remainder.
+
+**Success condition:** a stated class C plus a proof or exhaustive executable certificate that no
+frame-non-trivial antilinear chiralizer exists in C, with the residual (antilinear operators outside C) named
+in one sentence in both the RESULTS file and the paper.
+**Failure condition:** a frame-non-trivial antilinear chiralizer found inside C -- a kill for the paper's
+Section 6 escape analysis; report and rewrite, do not patch.
+**Estimated artifact shape:** delimitation + proof note in `canon/` (the finite-dimensional equivariant case is
+plausibly provable outright: antilinear intertwiners form a finite-dimensional space computable by CAS; the
+topology/closure statement over the functional class is the real work); certificate script in
+`tests/antilinear-bound/`; RESULTS file with the class definition, the certificate, and the residual.
+
+### WC-FUNCTION-SPACE-EXT (post-publication; priority 3)
+
+**Statement.** Extend the paper's Theorem 2 (finite-dimensional index conservation: every linear
+Krein-isometric operator on the `(+96,-96)` cross-chirality carrier conserves the net chiral index at zero) to
+the sections/differential-operator setting -- Krein-isometric operators on L^2-sections of the RS bundle,
+Fredholm indices, spectral flow -- or document the precise obstruction to doing so.
+
+**Success condition:** a function-space index-conservation theorem with the Fredholm/spectral hypotheses
+stated, or a documented obstruction (e.g. the maximal-positive-subspace notion fails to be well-posed in
+infinite dimensions without a spectral gap).
+**Failure condition (for the extension):** a Krein-isometric family exhibiting nonzero spectral flow of the net
+chiral index on the function space -- which would scope Theorem 2 to strictly finite dimensions and must be
+added to the paper's caveats.
+**Estimated artifact shape:** one theorem-or-obstruction note (`canon/` or `explorations/`) plus a minimal
+numerical spectral-flow probe under `tests/`; does not gate publication.
 
 ## Objection Triage Register (3-Pass Analysis, 2026-06-24)
 

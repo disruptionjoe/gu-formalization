@@ -239,3 +239,30 @@ a 3; `24/8 = 3` is target-fitting. Reviewers praised this as the most credible p
 Outcome rule (updated): H1 landed the kill. The remaining fork is entirely H2: chiral 3 (GU predicts three
 generations, modulo the complexification) vs vectorlike 3 (native multiplicity present but not chiral).
 Either way the OLD sharp "import the prime 3" framing is retired.
+
+---
+
+# Adversarial peer review of `located-not-forced` (received 2026-07-02) -- full disposition
+
+**Review target:** `papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29`
+(.tex/.md). The review was written against **v2.4**; the v2.5 publication-gate pass (same date,
+`CHANGELOG-v2.5-publication-gate.md`) had already landed some of its points. Triage ratified by Joe 2026-07-02.
+Edits applied as **v2.5.1** (`CHANGELOG-v2.5.1-adversarial-review.md`). **Publication status: DEFERRED**
+(Joe, 2026-07-02) pending WC-ENUM-COMPLETENESS + WC-ANTILINEAR-BOUND (cards in `NEXT-STEPS.md`,
+2026-07-02 publication-gating section; see also the paper's `STAGING-NOTES.md`).
+
+**Disposition legend:** addressed-in-v2.5 | edited-v2.5.1 | work-card | accepted-scope.
+
+| # | point (condensed) | disposition |
+|---|---|---|
+| 1 | Theorem 1 is proof-by-enumeration; completeness of the 7-item obstruction list is unproven and the conditionality was fine-print | edited-v2.5.1 (conditionality now prominent in abstract + theorem statement) + work-card **WC-ENUM-COMPLETENESS** (journal-gating) |
+| 2 | Theorem 2 is finite-dimensional linear algebra only; no function-space/Fredholm extension | edited-v2.5.1 (one scope sentence: finite-dimensional kinematics, function-space extension named open) + work-card **WC-FUNCTION-SPACE-EXT** (post-publication) |
+| 3 | The antilinear non-existence leg is a finite adversarial hunt, not a proof | work-card **WC-ANTILINEAR-BOUND** (journal-gating); already disclosed in-text as caveat (d), no prose change needed |
+| 4 | No dynamics: all results are kinematic; the stabilized source action S_IG is unbuilt | accepted-scope (gated on the repo's top-level source-action card; the paper states the gate explicitly) |
+| 5 | GU provenance is a liability; residual advocacy tone | addressed-in-v2.5 (cut "referee-proof"; verification-tier caveat (e) added) + accepted-scope (strategic; presentation already maximally detached) |
+| 6 | Interpretive language ("locates the slot") presented alongside computation; novelty overclaim | addressed-in-v2.5 (Theorem 2 novelty conceded, NCG Krein-SM precedent cited) + edited-v2.5.1 (all four "locates" sites marked interpretation, `Hom(Z/3,Z)=0` flag adjacent at each) |
+| 7 | Pati-Salam Spin(7,7) "1" presented as decisive; chain-dependence unstated | addressed-in-v2.5 (cut "evidence tilts toward one") + edited-v2.5.1 (explicit sentence: one reduction chain among many; the "1" is chain-relative -- Section 8, appendix, status table) |
+| 8 | The paper does not resolve the generation problem | accepted-scope (the paper explicitly does not claim to; "we do not claim three" is title-level and stated throughout) |
+| m1 | "honest gate" colloquialism | edited-v2.5.1 (Section 8 retitled "The deciding computation, and the gate"; "Honestly gated" -> "Gated, not fabricated") |
+| m2 | "single decider" colloquialism | edited-v2.5.1 (retitled as above; "single-decider integers" -> "decider integers" in reproducibility text; test-dir/canon file names unchanged) |
+| m3 | Spin(9,5) Hom-vanishing remark lacks a computational-details pointer | edited-v2.5.1 (pointer added: `tests/chase/MOVE-4/move4_spinor_square_forms.py` + `tests/chase/MOVE-4/verify/indep_check.py`) |

@@ -1,4 +1,4 @@
-% Located, Not Forced -- arXiv submission source (v2.3).
+% Located, Not Forced -- arXiv submission source (v2.5.1).
 % Draft for external review. This paper does NOT claim three generations.
 %
 % Suggested arXiv classification:
@@ -63,13 +63,15 @@ in the Data Availability section.}}
 \begin{center}
 \fbox{\parbox{0.92\textwidth}{\textbf{Draft for external review. This paper does \emph{not} claim three
 generations.} The theorem-grade results are independent of Geometric Unity; every Geometric-Unity-specific step
-is explicitly marked as motivated or reconstruction-grade. Four caveats are load-bearing and hold throughout:
+is explicitly marked as motivated or reconstruction-grade. Five caveats are load-bearing and hold throughout:
 \emph{(a)} the torsion-count reading is a \emph{premise, not a result}---under a literal integer-index reading the
 same obstructions would instead \emph{forbid} an odd count outright; \emph{(b)} the order-$3$ class cannot
 literally \emph{be} an integer count, since $\Hom(\Z/3,\Z)=0$ (no homomorphism from a torsion group to a
 torsion-free one is nonzero); \emph{(c)} the generation count is \emph{external on present evidence}, not
 necessarily external; \emph{(d)} the antilinear non-existence leg is an \emph{open finite adversarial hunt, not a
-closed proof}. See Sections~\ref{sec:intro} and~\ref{sec:open}.}}
+closed proof}; \emph{(e)} every verification reported here is \emph{internal}---computations reproduced from
+scratch and adversarially reviewed within the same AI-directed process that produced them; no result has yet been
+independently replicated or peer-reviewed. See Sections~\ref{sec:intro} and~\ref{sec:open}.}}
 \end{center}
 
 \begin{abstract}
@@ -80,14 +82,18 @@ and reconstructed from, the matter proposal of Geometric Unity (GU); every GU-sp
 of the theorem-grade results depends on GU being correct.
 
 We prove a \emph{two-primary meta-theorem} (no \emph{enumerated} obstruction to a net chiral count in this sector
-is an odd-prime congruence) and an \emph{index-conservation theorem} (every linear Krein-isometric operator on the generation
+is an odd-prime congruence; \textbf{the no-go is conditional on the enumerated obstruction list, and completeness
+of the enumeration is open}---it is not an impossibility statement over all conceivable obstructions) and an
+\emph{index-conservation theorem} (every linear Krein-isometric operator on the generation
 triplet conserves the net chiral index at zero, because the purely cross-chirality $(96,96)$ form makes every
 physical subspace chirality-balanced---a finite-dimensional fact, no Fredholm theory). The decomposition $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is the central structural fact: by the Chinese
 Remainder Theorem the summands are disjoint, every obstruction and chiralizing selector lives in the $2$-primary
 $\Z/8$ summand, and a homotopy-theoretic count, if it exists, lives only in the odd-torsion $\Z/3$ summand. We
 exhibit a genuine order-$3$ object in that summand---the framed-bordism Adams $e$-invariant $\eR=1/12$ carried by
 the self-dual $\Lamp$ tangential framing on the $\RP^3$ spine of the metric fiber---and show by computation that
-it is tangential but vectorlike and homotopy-fixed: it \emph{locates} the order-$3$ slot without filling it.
+it is tangential but vectorlike and homotopy-fixed: it \emph{locates} the order-$3$ slot without filling it
+(``locates'' is an interpretive gloss under the torsion-count premise of caveat~\emph{(a)}, not a further
+computed quantity; by $\Hom(\Z/3,\Z)=0$ the located class cannot itself be a count).
 
 We then test the strongest possible reading by direct computation. Reopened with no GU restriction, the
 obstruction is a \emph{class-level structural no-go} (computed and adversarially verified): no covariant operator
@@ -113,9 +119,10 @@ The Standard Model contains three generations of fermions and does not explain t
 unification is that the number is fixed by topology. The obstacle, made precise here, is that the natural index-
 and anomaly-theoretic invariants one computes \emph{in this sector} are predominantly \textbf{$2$-primary}:
 mod-$2$ Witten anomalies, mod-$16$ topological-superconductor classifications, even-valued Dirac indices. A
-$2$-primary invariant cannot, by arithmetic, force an odd count. (The one place the literature \emph{does} obtain
-an odd constraint---Garc\'ia-Etxebarria--Montero's $\Z_9 \to N_{\mathrm{gen}}\in 3\Z$---is itself a genuinely
-$3$-primary anomaly, consistent with the thesis that an odd count requires $3$-primary input.)
+$2$-primary invariant cannot, by arithmetic, force an odd count. (Where the literature \emph{does} obtain an odd
+constraint---Garc\'ia-Etxebarria--Montero's $\Z_9 \to N_{\mathrm{gen}}\in 3\Z$ is the sharpest example---the
+constraining anomaly is itself genuinely $3$-primary, consistent with the thesis that an odd count requires
+$3$-primary input.)
 
 This paper turns that obstacle into a positive structural statement, in one explicit sector, and then tests the
 strongest possible reading of it by direct computation. Two distinctions are load-bearing and we keep them
@@ -131,7 +138,8 @@ count outright. We state this load-bearing premise as Corollary~\ref{cor:arenas}
 Our contributions:
 \begin{enumerate}[leftmargin=2em]
 \item \textbf{A two-primary meta-theorem (Section~\ref{sec:thm1}).} No obstruction in the enumerated list of
-Theorem~\ref{thm:1} is an odd-prime congruence; in particular none imposes a mod-$3$ condition. [theorem
+Theorem~\ref{thm:1} is an odd-prime congruence; in particular none imposes a mod-$3$ condition. The no-go is
+conditional on that enumerated list; completeness of the enumeration is open. [theorem
 (scoped to the enumeration), theory-independent]
 \item \textbf{A CRT two-arena reading (Section~\ref{sec:crt}).} The decomposition
 $\pis = \Z/24 = \Z/8 \oplus \Z/3$ is standard primary decomposition, already used in the prior family-puzzle
@@ -151,8 +159,9 @@ exhaustive non-existence proof is open). On present evidence the generation coun
 [computed structural no-go, theory-independent; linear leg theorem-grade, antilinear non-existence a finite hunt]
 \item \textbf{A located order-$3$ carrier (Section~\ref{sec:carrier}).} The self-dual $\Lamp$ tangential framing
 on the $\RP^3$ spine carries $\eR=1/12$, a genuine order-$3$ class in $\Z/3$, shown by computation to be
-tangential but vectorlike and homotopy-fixed: it locates, it does not fill.
-\item \textbf{The single decider and an honest gate (Section~\ref{sec:decider}).} The integer count on GU's
+tangential but vectorlike and homotopy-fixed: it locates, it does not fill (``locates'' is an interpretive gloss
+under the torsion-count reading, not an additional computed quantity).
+\item \textbf{The deciding computation and the gate (Section~\ref{sec:decider}).} The integer count on GU's
 actual $14$-manifold is gated on the unbuilt stabilized twisted Rarita--Schwinger source action; the only honest
 computable integer is one. We do not force three.
 \item \textbf{The open conjecture (Section~\ref{sec:open}).} $\text{order-}3\text{ class}\to\text{integer }3$ is,
@@ -248,8 +257,9 @@ statement modulo a power of two.
 \begin{theorem}\label{thm:1}
 Among the obstructions to a net chiral generation count enumerated for this sector (items~(1)--(7) in the proof
 below), none is an odd-prime congruence: every enumerated obstruction is even or a statement modulo a power of
-two, and in particular none imposes a mod-$3$ condition. The claim is scoped to this enumerated list; it is not an
-impossibility statement over all conceivable obstructions.
+two, and in particular none imposes a mod-$3$ condition. The no-go is conditional on this enumerated list:
+completeness of the enumeration is an open question, and the claim is not an impossibility statement over all
+conceivable obstructions.
 \end{theorem}
 
 \begin{proof}[Proof (enumeration)]
@@ -278,8 +288,8 @@ enumeration.
 The integer $3$ does appear in the sector---as a multiplicand ($96 = 2^5\cdot 3$, $12k$, $24k$,
 $|\mathrm{Weyl}(D_7)|$). Theorem~\ref{thm:1} is not ``no factor of $3$ occurs.'' It is the sharper statement that
 no obstruction is an odd-prime \emph{congruence}; the loose ``even'' reading is near-vacuous, and the content is
-the modular statement. A standard literature analogue: the $3$-primary part of the stable $3$-stem is ``lost in
-the mod-$2$ Postnikov system.''
+the modular statement. A standard analogue: the $3$-primary part of the stable $3$-stem is invisible to a
+mod-$2$ Postnikov/Adams analysis.
 \end{remark}
 
 \section{The CRT two-arena structure}\label{sec:crt}
@@ -303,8 +313,8 @@ no before any geometric input, and the no-go's blindness to the count is a struc
 
 This premise is load-bearing and reconstruction-grade: under a literal \emph{integer-index} reading the same
 obstructions would instead \emph{forbid} an odd count outright (net index $0$ forces count $0$), so ``located,
-not forced'' presupposes the torsion-count reading rather than the integer-index one. The only object that can
-bridge the two arenas is anomaly inflow (Callan--Harvey~\cite{callan1985anomalies} /
+not forced'' presupposes the torsion-count reading rather than the integer-index one. The natural bridge between
+the two arenas is anomaly inflow (Callan--Harvey~\cite{callan1985anomalies} /
 Dai--Freed~\cite{dai1994eta}), and Section~\ref{sec:decider} shows that
 even the inflow coefficient does not, on present computation, force three.
 
@@ -366,6 +376,10 @@ like a category error requiring a Fredholm/spectral-flow setup'' applies only to
 analytic index, where invariance is a continuity/homotopy statement; here the carrier is finite-dimensional and
 $\chi$ is exactly, not asymptotically, an integer, so the objection does not arise. The connectedness of the
 isometry group plays no role in the argument: $\chi$ is identically $0$, not merely constant.
+Theorem~\ref{thm:2} is thus a statement of finite-dimensional \emph{kinematics} on the $192$-dimensional
+carrier; its extension to a function-space setting---sections of the Rarita--Schwinger bundle over a manifold,
+differential operators, genuine Fredholm indices and spectral flow---is a separate, named open problem, not
+addressed here.
 \end{remark}
 
 \begin{remark}[connectedness, demoted to corroboration]
@@ -483,20 +497,25 @@ $2\mapsto 22\equiv-2$, whose $3$-primary reduction $-2\equiv 1\pmod 3$ is again 
 the paper's stated conventions throughout; only the identification of GU's $\Lamp$ twist with this natural
 tangential framing is reconstruction-grade.
 
-\paragraph{It locates but does not fill (computed).} The carrier $\Lamp$ has net self-dual tangent-frame charge
+\paragraph{It locates but does not fill (properties computed; ``locates'' is interpretation).} The carrier
+$\Lamp$ has net self-dual tangent-frame charge
 $33.94$ (tangential, $p_1=4$)---it is genuinely on the carrier-arena side---\emph{but it is vectorlike} (net
 chiral $0$), and $\eR = 1/12$ is \emph{homotopy-fixed}: it is a fact about $\pis$, identical for a universe with
 one generation or five. So the carrier marks the order-$3$ slot; it does not co-vary with the answer and so
 cannot, by itself, be the thing that counts to three. The negative control confirms the slot is unique: $\RP^3$'s
 own deck group is $\Z/2$, and the charge-$q$ Dirac $\eta = (2q^2-4q+1)/8$ is $2$-primary for every integer $q$,
-so the order-$3$ burden sits \emph{only} in the gravitational framing channel $-p_1/24$.
+so the order-$3$ burden sits \emph{only} in the gravitational framing channel $-p_1/24$. Throughout, ``locates
+the slot'' is an interpretive gloss under the torsion-count premise (Corollary~\ref{cor:arenas}), not an
+additional computed quantity: the computed facts are the tangentiality ($p_1=4$), the vectorlikeness (net chiral
+$0$), and the homotopy-fixedness; and by $\Hom(\Z/3,\Z)=0$ (Section~\ref{sec:open}) the located class cannot
+itself \emph{be} an integer count.
 
 We emphasize the resulting picture, established by computation: the \emph{chiralizer} (the only count-forcing
 operator; a frame-active linear operator can produce a net count but conserves the index and forces nothing) is
 frame-trivial and lives in the selector arena; the \emph{carrier} (the only order-$3$ object) is frame-charged
-and lives in the carrier arena; they are distinct objects bound only by anomaly inflow.
+and lives in the carrier arena; they are distinct objects, with anomaly inflow the natural bridge between them.
 
-\section{The single decider, and the honest gate}\label{sec:decider}
+\section{The deciding computation, and the gate}\label{sec:decider}
 
 The only computation that could produce an integer count on GU's \emph{actual} geometry, rather than a
 homotopy-fixed class identical for any answer, is the net chiral index as the anomaly-inflow coefficient of the
@@ -510,7 +529,9 @@ gave $\{960,-288,-384,-192,-336,-128,128,-8,-480,60\}$, none equal to $16$); the
 it rather than fabricating a fit.
 \item \textbf{The only honest computable generation integer is one.} GU's verified Pati--Salam
 $\Spin(7,7)\to\Spin(6)\times\Spin(4)$ chain gives $16$ chiral states $=$ exactly one anomaly-free generation
-($\mathrm{Tr}\,Y = \mathrm{Tr}\,Q = 0$, $16/16 = 1$). The bulk-topology-forced integers are
+($\mathrm{Tr}\,Y = \mathrm{Tr}\,Q = 0$, $16/16 = 1$). The $\Spin(7,7)$ Pati--Salam chain is one reduction among
+many possible symmetry-breaking chains; the integer $1$ it yields is chain-relative, not chain-independent. The
+bulk-topology-forced integers are
 $\{0~(\text{linear net-chiral, vectorlike}),\ 1~(\text{Pati--Salam}),\ 2~(\Ahat(K3))\}$; none is $3$.
 \item \textbf{The fork lands gauge for the count-producing operator} ($e=3/8$, denominator $8$, $3$-part zero),
 via the frame-triviality of Section~\ref{sec:thm2}.
@@ -548,13 +569,16 @@ that breaks the $(+96,-96)$ balance, and no linear Krein-isometric operator can 
 a linear chiral projector lands on a totally Krein-null, unphysical subspace). The only operator that breaks the
 balance is the antilinear chiralizer $C=\Jq\cdot G$, frame-trivial and selector-side. So the gate is one physical
 term: the carrier Dirac mass plus the selector-side chiral projection GU never built. Consistently, exact
-$\Spin(9,5)$ representation theory (computed) gives $\dim\Hom_{\Spin(9,5)}(S^+\otimes S^+,\Lambda^0)=0$: no
+$\Spin(9,5)$ representation theory (computed;
+\texttt{tests/chase/MOVE-4/move4\_spinor\_square\_forms.py}, with the independent re-check
+\texttt{tests/chase/MOVE-4/verify/indep\_check.py}) gives
+$\dim\Hom_{\Spin(9,5)}(S^+\otimes S^+,\Lambda^0)=0$: no
 invariant same-chirality Majorana scalar-mass bilinear exists in the equivariant family (the scalar bilinear
 pairs only $S^+\leftrightarrow S^-$), so that mass channel too must be supplied by an external source-action
 term. This is a consistency remark about the spinor-square channel, not a statement about the $192$-dimensional
 carrier's Dirac mass.
 
-\paragraph{Honestly gated, not fabricated.} Four things remain genuinely gated: (i) the $+8$ RS leg / the literal
+\paragraph{Gated, not fabricated.} Four things remain genuinely gated: (i) the $+8$ RS leg / the literal
 integer, on the unbuilt source action; (ii) the full analytic Bismut--Cheeger~\cite{bismut1989eta}
 fibered-boundary reduction theorem
 for the non-product $9$-dimensional $S^6$-bundle over $\RP^3$; (iii) the families pushforward
@@ -581,15 +605,18 @@ group to a torsion-free group vanishes). An integer count, if one exists, theref
 torsion class; it can only arise from a \textbf{relative, equivariant, or rank} invariant---integer-valued by
 construction yet geometry-dependent---which is exactly what the unbuilt twisted Rarita--Schwinger index is. The
 conjecture is thus better stated as: does that relative index exist on GU's $14$-manifold and reduce mod $3$ to
-the located carrier? Until then the result is a no-go that \emph{locates}, and the evidence tilts toward one.
+the located carrier? Until then the result is a no-go that \emph{locates}; no computation performed in this
+program yields the integer three.
 
 \section{Relation to Geometric Unity and to prior art}\label{sec:relation}
 
 \paragraph{Geometric Unity.} The sector is motivated by GU's matter proposal~\cite{weinstein2021gu} (the
 $14$-dimensional observerse $Y^{14} = \mathrm{Met}(X^4)$, the vector-spinor field, the $4+10$ split, the
 $\mathbf{16}$ of $\Spin(10)$, the self-dual base structure). The public GU material presents the fermion sector
-schematically, does not build the matter action, states chirality is only \emph{effective}, and proposes a
-``$2+1$'' picture rather than three true generations; the Nguyen--Polya critique~\cite{nguyen2021response}
+schematically, does not build the matter action (the draft's own candidate source term, its eq.~10.10, is
+author-disclaimed: ``until it is stabilized. Caveat Emptor.''), states chirality is only \emph{effective}, and
+proposes a ``$2+1$'' picture rather than three true generations; the Nguyen--Polya
+critique~\cite{nguyen2021response}
 argues central technical details are unverifiable from the public material. Our
 results are therefore a reconstruction, and where GU's own narrative points (its $2+1$ hedge---distinct from the
 computed $\Ahat(K3)+\text{Pati--Salam}$ $2+1$ that Section~\ref{sec:decider} shows to be numerology across
@@ -603,8 +630,11 @@ Garc\'ia-Etxebarria--Montero's $\Z_9$ anomaly forcing $N_{\mathrm{gen}}\in 3\Z$~
 Juven Wang's 2023 family puzzle via framed/string bordism $\Z/24$ with chiral central charge
 $c_-=24$~\cite{wang2023family}; and Wan--Wang--Yau~\cite{wan2026fermion}, where the group-cohomology subclass
 $H^5(\Z_n,U(1))$ of the $5$d spin-bordism anomaly can be cancelled by an anomalous $\Z_n$ $4$d TQFT while the
-beyond-cohomology Pontryagin ($p_1$) part cannot except at $n=2,3$, isolating $n=3$ families. We claim no novelty
-for ``topology constrains family number.'' Wang's framed/string bordism $\Z/24$ is itself $\Imm
+beyond-cohomology Pontryagin ($p_1$) part cannot except at $n=2,3$, isolating $n=3$ families. Deriving three
+generations from algebraic structure is likewise an active lane---e.g.\ the division-algebra trialities of
+Furey--Hughes~\cite{furey2024trialities}, where two generations arise as spinors and a third through a Cartan
+factorization; our Clifford--Rarita--Schwinger route is mechanically distinct, but the question is not untouched.
+We claim no novelty for ``topology constrains family number.'' Wang's framed/string bordism $\Z/24$ is itself $\Imm
 J_3$~\cite{adams1966jx4}, and his title arithmetic $24/8 = 3$ already pulls the odd $3$-primary factor out of
 $\Z/24$ as the family number, supported by a separate $w_1$--$p_1$ bordism $\Z_3$ class; Wan--Wang--Yau likewise
 isolate $n=3$ through a cohomology-vs-Pontryagin split. We therefore claim no novelty for the bare
@@ -614,8 +644,13 @@ chiralizing selectors live entirely in the $2$-primary $\Z/8$ summand, so that--
 CRT-disjoint---the $2$-primary no-go is \emph{arithmetically blind} to any $3$-primary count, which is thus
 located but not forced. Where Wang uses the $\Z/24$ structure to positively constrain $N_{\mathrm{gen}}\in 3\Z$,
 we use its disjointness to show a no-go \emph{cannot} constrain the count; the Clifford Rarita--Schwinger
-embedding and the Krein index-conservation theorem (Theorem~\ref{thm:2}) are, to the best of our search,
-likewise without precedent.
+embedding is, to the best of our search, likewise without precedent. For Theorem~\ref{thm:2} itself we claim no
+novelty beyond its application: its mathematical core (a maximal definite subspace of a form pairing two
+complementary Lagrangians is a graph, hence balanced) is elementary and of a classical Krein-space kind, the
+vectorlike character of real/pseudoreal matter is standard representation theory, and indefinite-metric (Krein)
+formulations of the Standard Model with an explicit generation space already exist in the
+noncommutative-geometry literature (the Lorentzian spectral Standard Model, e.g.\ arXiv:2010.04960). What we
+claim is the specific assembly: that theorem, on this carrier, feeding the two-arena reading.
 
 \section{Status of claims}\label{sec:status}
 
@@ -638,9 +673,9 @@ The ``$2+1$ effective'' reading & numerology across disjoint frameworks (compute
 The carrier Dirac mass & allowed, not forbidden (vectorlike); both massive and massless branches give net chiral index $0$ (computed) \\
 The disjointness-implies-blindness reading (a $2$-primary no-go cannot constrain a $3$-primary count) is novel; the bare $24 = 8\times 3$ split is not (cf.\ Wang $24/8=3$) & best-effort literature search; no precedent found \\
 The literal generation integer on GU's $14$-manifold & gated on the unbuilt source action \\
-The only honest computable generation integer & $1$ (Pati--Salam $\Spin(7,7)$, computed) \\
+The only honest computable generation integer & $1$ (Pati--Salam $\Spin(7,7)$, computed; chain-relative---one reduction chain among many) \\
 $\text{order-}3\text{ class}\to\text{integer }3$ & open; ill-typed as stated ($\Hom(\Z/3,\Z)=0$); needs a relative/rank home \\
-GU forces exactly three chiral generations & not claimed; evidence tilts toward one \\
+GU forces exactly three chiral generations & not claimed; no computed quantity in this program equals three \\
 \bottomrule
 \end{longtable}
 
@@ -652,21 +687,22 @@ constraining an odd count; the relevant homotopy group splits, by the Chinese Re
 $2$-primary selector arena and a disjoint odd-torsion carrier arena; every obstruction and every chiralizer lives
 in the selector arena, while a homotopy count can live only in the carrier arena. We exhibited the unique
 order-$3$ object in the carrier arena and showed it is tangential but vectorlike and homotopy-fixed---it locates
-the slot, it does not fill it---and that the only count-forcing operator is frame-trivial and couples to the
-selector arena. The one calculation that could yield an integer on GU's actual geometry is gated on an unbuilt
+the slot, it does not fill it (an interpretive summary under the torsion-count premise; $\Hom(\Z/3,\Z)=0$ blocks
+any literal class-to-count identification)---and that the only count-forcing operator is frame-trivial and
+couples to the selector arena. The one calculation that could yield an integer on GU's actual geometry is gated on an unbuilt
 source action; the only honest computable integer is one.
 
 We submit the two-primary blindness theorem, the CRT two-arena structure, the index-conservation /
 antilinear-escape theorem, the located order-$3$ carrier, and---reopened GU-independently---the class-level
 structural no-go that no covariant operator found interior to a Clifford--Rarita--Schwinger sector of this type
-forces an odd chiral count, as a referee-proof, GU-independent contribution: a no-go that locates, and relocates
+forces an odd chiral count, as a GU-independent contribution: a no-go that locates, and relocates
 the count to external background data. On present evidence the generation count is external, supplied by a
 net-self-dual chiral background of the general kind that produces chirality in known chiral theories; the
 $\text{order-}3\text{ class}\to\text{integer }3$ identification of that external datum remains the single named
-open conjecture (a candidate category error) rather than a claim. We do not claim three; the evidence tilts
-toward one, and the structural reason the count is not internal is now computationally established for the whole
-class (modulo an open exhaustive non-existence proof on the antilinear side). We request external review of both
-the core results and the open bridge.
+open conjecture (a candidate category error) rather than a claim. We do not claim three---no computed quantity
+in this program equals three---and the structural reason the count is not internal is now computationally
+established for the whole class (modulo an open exhaustive non-existence proof on the antilinear side). We
+request external review of both the core results and the open bridge.
 
 \section*{Acknowledgments}
 
@@ -682,13 +718,20 @@ structure.
 All load-bearing computations are reproducible from the public repository at
 \url{https://github.com/disruptionjoe/gu-formalization}. The representation-theoretic decompositions, the Krein
 signature, the index-conservation check, the frame-charge computations, the boundary $e$-invariant controls, the
-single-decider integers (reproduced by an independent from-scratch script, $26/26$ checks), the forcing-slot
+decider integers (reproduced by an independent from-scratch script, $26/26$ checks), the forcing-slot
 test, the carrier-mass capstone, and the class-level structural no-go are checked numerically under
 \texttt{tests/} (notably \texttt{tests/generation-sector/}, \texttt{tests/decider/},
 \texttt{tests/boundary-eta/}, \texttt{tests/forcing-slot/}, \texttt{tests/carrier-mass/},
 \texttt{tests/gu-independent/}). The homotopy and $e$-invariant facts are standard
 (Adams~\cite{adams1966jx4}; Kirby--Melvin~\cite{kirbymelvin1999}). Per-result derivations are recorded in the
 repository \texttt{canon/} directory.
+
+\paragraph{Verification status.} By the project's own three-tier vocabulary, every result in this paper is at
+most \emph{internally established}: computed, independently re-derived from scratch, and adversarially reviewed
+\emph{within the same AI-directed process that produced it} (reproduced, not replicated). No result here is
+\emph{externally established}---independently replicated, peer-reviewed, or signed off by a named specialist.
+Because internal reviewers are spawned by the same process that produced the results, no internal step, however
+adversarial, can cross that boundary; the request for external review is a request to cross it.
 
 \appendix
 
@@ -724,11 +767,13 @@ verified is that the $\mathbf{16}$ of $\Spin(10)$ carries exactly \emph{one} ano
 generation, with the paper's hypercharge assignments reproduced from first principles---i.e.\ internal
 representation-theoretic consistency of GU's group theory. It does \emph{not} provide the generation count: it
 does not establish that nature realizes this breaking pattern, does not address the effective-chirality or
-``$2+1$'' claims, and---being a single generation---says nothing about \emph{how many} generations occur. It is
+``$2+1$'' claims, and---being a single generation---says nothing about \emph{how many} generations occur.
+Moreover the $\Spin(7,7)$ Pati--Salam chain is one reduction among many possible symmetry-breaking chains; the
+``$1$'' it yields is chain-relative, not chain-independent. It is
 the integer ``$1$'' of Section~\ref{sec:decider}, and its role in this paper is precisely that: the only honest
 computable generation integer, not a derivation of three.
 
-\begin{thebibliography}{18}
+\begin{thebibliography}{99}
 
 \bibitem{adams1966jx4}
 J.~F. Adams, \emph{On the groups $J(X)$. IV}, Topology \textbf{5} (1966) 21--71.
@@ -761,6 +806,9 @@ Rev. Lett. \textbf{87} (2001) 031801. arXiv:hep-ph/0102010.
 \bibitem{evans2012nonanomalous}
 J.~L. Evans, M.~Ibe, J.~Kehayias and T.~T. Yanagida, \emph{Non-anomalous discrete $R$-symmetry decrees three
 generations}, Phys. Rev. Lett. \textbf{109} (2012) 181801. arXiv:1111.2481.
+
+\bibitem{furey2024trialities}
+N.~Furey and M.~J. Hughes, \emph{Three generations and a trio of trialities}, arXiv:2409.17948 (2024).
 
 \bibitem{garciaetxebarria2019daifreed}
 I.~Garc\'ia-Etxebarria and M.~Montero, \emph{Dai-Freed anomalies in particle physics}, JHEP \textbf{08} (2019)
