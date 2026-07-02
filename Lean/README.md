@@ -32,7 +32,7 @@ lake build
 Or use:
 
 ```powershell
-.\automation\check-lean.ps1 -Update -Cache
+.\lab\automation\check-lean.ps1 -Update -Cache
 ```
 
 The current shell used for the initial scaffold did not have `lean`, `lake`, or
