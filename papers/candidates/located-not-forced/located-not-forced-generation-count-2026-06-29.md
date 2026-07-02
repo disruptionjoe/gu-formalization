@@ -14,7 +14,7 @@ proof*. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.3, 2026-06-29 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.4, 2026-07-02 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -26,7 +26,12 @@ Theorem 2 proof (defuses the Fredholm objection), corrected the `(14,0)` signatu
 control, added the normalization-conventions paragraph and the order-3 footnote, front-loaded the torsion-count
 contingency, restored Wang's full title; post-2.3 -- retitle, and a second hostile-referee pass triaged
 (softened "class CII" to "class-CII type", "sole possible bridge" to "natural bridge"; synced the repo prose to
-the paper's gated grade).
+the paper's gated grade); v2.4 pre-submission readiness pass (2026-07-02) -- ported the "2+1 is numerology"
+demonstration into the .tex (its Section 10 cross-reference was previously unsupported in the submission
+source), added the exact Spin(9,5) Majorana-channel absence (MOVE-4 / SHIAB-05) as a scoped consistency remark
+to the carrier-mass capstone in both copies, added three missing status-table rows to the .tex (forcing-slot NO,
+2+1 numerology, carrier Dirac mass), synced the .md status table's CRT and novelty rows to the .tex's hedged
+v2.2/v2.3 grades (stale stronger wording removed), and added \pdfoutput=1 for arXiv autoTeX.
 
 ---
 
@@ -435,7 +440,11 @@ subspace). The only operator that breaks the balance is the antilinear chiralize
 order-3 carrier resides. So the gate is now one physical term: **the carrier Dirac mass plus the selector-side
 chiral projection GU never built** -- and the carrier resolves either way (massless modulus or massive-decoupled)
 to zero net chiral generations absent an operator GU does not provide. Located, not forced, confirmed at the
-mass/dynamical level.
+mass/dynamical level. Consistently, exact `Spin(9,5)` representation theory (computed) gives
+`dim Hom_{Spin(9,5)}(S^+ tensor S^+, Lambda^0) = 0`: no invariant same-chirality Majorana scalar-mass bilinear
+exists in the equivariant family (the scalar bilinear pairs only `S^+ <-> S^-`), so that mass channel too must be
+supplied by an external source-action term. This is a consistency remark about the spinor-square channel, not a
+statement about the 192-dimensional carrier's Dirac mass.
 
 ---
 
@@ -501,7 +510,7 @@ with the Clifford-RS embedding and the Krein index-conservation theorem.
 | Claim | Grade |
 | --- | --- |
 | The no-go is 2-primary (no odd-prime congruence) | theorem (theory-independent) |
-| CRT two-arena structure `pi_3^s = Z/8 (+) Z/3`, summands disjoint | theorem |
+| CRT two-arena reading (`pi_3^s = Z/8 (+) Z/3`, summands disjoint) | decomposition standard; the two-arena structural reading is the contribution, under the torsion-count reading |
 | Linear Krein-isometric operators conserve the net chiral index | theorem (machine-verified) |
 | The unique escape is antilinear (class-CII type) | corollary (Wigner) + machine-verified |
 | The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed; frame-triviality is evadable only into a 2-primary, index-conserving linear channel |
@@ -509,7 +518,7 @@ with the Clifford-RS embedding and the Krein index-conservation theorem.
 | Forcing an odd count requires an external net-self-dual chiral background | computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin 3 |
 | Tangential `Lambda^2_+` framing carries `e_R = 1/12`, order 3 (carrier arena) | standard-result-applied (Kirby-Melvin); GU identification reconstruction-grade |
 | The carrier is vectorlike and homotopy-fixed (locates, does not fill) | computed-confirmed |
-| The CRT 2-vs-3-primary reading (obstructions in `Z/8`, the count in `Z/3`) is novel | best-effort literature search; no precedent found (negative result) |
+| The disjointness-implies-blindness reading (a 2-primary no-go cannot constrain a 3-primary count) is novel; the bare `24 = 8x3` split is not (cf. Wang `24/8=3`) | best-effort literature search; no precedent found (negative result) |
 | The literal generation integer on GU's 14-manifold | GATED on the unbuilt source action |
 | The only honest computable generation integer | 1 (Pati-Salam `Spin(7,7)`, computed) |
 | `order-3-class -> integer-3` | OPEN; ill-typed as stated (`Hom(Z/3,Z)=0`); an integer needs a relative/rank home (the twisted-RS index) |

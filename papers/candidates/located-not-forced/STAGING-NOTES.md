@@ -41,3 +41,26 @@ the slot without filling it.** Three generations is explicitly **not** claimed.
 Compile the `.tex` (Overleaf), run any final deep-research pass, then -- on Joe's explicit go -- submit to
 arXiv (primary hep-th; secondary math-ph, math.AT). On confirmation it is live, move this folder up to
 `papers/published/` with the arXiv id recorded.
+
+## Readiness pass 2026-07-02 (v2.4) -- verdict: READY pending Joe-side steps
+
+Two independent review agents (content-vs-canon; submission mechanics) checked the paper. Content verdict:
+nothing in the 2026-06-30 chase-to-kill sweep or any later file contradicts or weakens any sentence; MOVE-4
+strengthens the external-source narrative and is now cited as a scoped consistency remark. All required edits
+applied (see the .md changelog v2.4 entry). Static .tex analysis: clean, single-file, embedded bibliography,
+all cites/labels resolve, no external dependencies; `\pdfoutput=1` added.
+
+Remaining steps are Joe-side only:
+
+1. **Endorsement check (longest lead time, do first):** verify the arXiv account can submit to hep-th; a
+   first-time submitter without institutional email likely needs an endorser. Start this before anything else.
+2. **One Overleaf compile** (no TeX toolchain on this machine): confirm zero errors; visually check the
+   front-matter fbox, the wide Section 7 display equation, the Section 11 longtable, and the 20 references.
+3. **Shortened metadata abstract:** the in-PDF abstract (~2,950 chars) exceeds arXiv's 1,920-char metadata
+   limit. A ~1,750-char draft is in the submission runbook (JoeOps card WI-032 source notes).
+4. **Submit:** single .tex upload; license = arXiv nonexclusive 1.0 (preserves journal options); primary
+   hep-th, cross-list math-ph + math.AT; comments field per runbook. Known risk: possible moderation hold /
+   gen-ph reclassification (first-time submitter, GU-adjacent subject); mitigations are already in the text.
+5. **Post-live:** move folder to `papers/published/`, record the arXiv id here, and update the path references
+   listed in the readiness review (README, RESEARCH-PROGRAM, papers/README, tri-repo division-of-labor doc,
+   canon depends_on frontmatter).

@@ -11,6 +11,7 @@
 %   GU-specific steps are explicitly marked; the theorem-grade results are GU-independent."
 
 \documentclass[11pt]{article}
+\pdfoutput=1
 
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath,amssymb,amsthm}
@@ -528,6 +529,14 @@ $2$-primary up to von Staudt--Clausen~\cite{vonstaudtclausen1840} denominators),
 twisted-by-$\mathbf{16}$ index $16(-42)+3\,\ch_2(V)$
 is $\equiv 0 \pmod 3$ for every integer twist.
 
+\paragraph{The ``$2+1$'' reading is numerology across frameworks (computed).} The ``$2+1$ effective'' picture
+(the $2$ from $\Ahat(K3)$, the $1$ from Pati--Salam) is not a single legitimate count. In one common framework
+(the $\Ahat$-genus character-valued index on $K3$), the spin-$1/2$ leg gives $2$ but the spin-$3/2$ leg gives
+$-42\equiv 0\pmod 3$, not a clean $+1$; the $+1$ appears only as the twisted-Dirac unit on a different manifold
+($\mathbb{HP}^2$). The two summands of $2+1$ live in disjoint frameworks, so their sum is a coincidence, not a
+derivation. ``Located, not forced'' thus holds under both the order-$3$/triality reading and the additive $2+1$
+reading.
+
 \paragraph{The carrier-mass capstone (computed).} The carrier $\Lamp$ is vectorlike, hence has no chiral
 protection, and the whole located-vs-forced question reduces to one term: whether the source action gives it a
 \emph{Dirac mass}. The mass is allowed, not forbidden: the Kramers structure $C^2=-I$ is pseudoreal, hence
@@ -538,7 +547,12 @@ stay light but net chirality is still $0$, a modulus. Forcing a light chiral cou
 that breaks the $(+96,-96)$ balance, and no linear Krein-isometric operator can supply one (Theorem~\ref{thm:2};
 a linear chiral projector lands on a totally Krein-null, unphysical subspace). The only operator that breaks the
 balance is the antilinear chiralizer $C=\Jq\cdot G$, frame-trivial and selector-side. So the gate is one physical
-term: the carrier Dirac mass plus the selector-side chiral projection GU never built.
+term: the carrier Dirac mass plus the selector-side chiral projection GU never built. Consistently, exact
+$\Spin(9,5)$ representation theory (computed) gives $\dim\Hom_{\Spin(9,5)}(S^+\otimes S^+,\Lambda^0)=0$: no
+invariant same-chirality Majorana scalar-mass bilinear exists in the equivariant family (the scalar bilinear
+pairs only $S^+\leftrightarrow S^-$), so that mass channel too must be supplied by an external source-action
+term. This is a consistency remark about the spinor-square channel, not a statement about the $192$-dimensional
+carrier's Dirac mass.
 
 \paragraph{Honestly gated, not fabricated.} Four things remain genuinely gated: (i) the $+8$ RS leg / the literal
 integer, on the unbuilt source action; (ii) the full analytic Bismut--Cheeger~\cite{bismut1989eta}
@@ -619,6 +633,9 @@ No interior operator found forces an odd chiral count; the count is external on 
 Forcing an odd count requires an external net-self-dual chiral background & computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin $3$ \\
 Tangential $\Lamp$ framing carries $\eR=1/12$, order $3$ & Kirby--Melvin framing degree $+$ Adams $e$-invariant; GU identification reconstruction-grade \\
 The carrier is vectorlike and homotopy-fixed (locates, does not fill) & computed-confirmed \\
+A toy source-action term meeting all three forcing conditions (tangential, net-chiral, non-frame-trivial) with a $3$-primary integer & NO in four independent constructions (forcing-slot test, computed) \\
+The ``$2+1$ effective'' reading & numerology across disjoint frameworks (computed) \\
+The carrier Dirac mass & allowed, not forbidden (vectorlike); both massive and massless branches give net chiral index $0$ (computed) \\
 The disjointness-implies-blindness reading (a $2$-primary no-go cannot constrain a $3$-primary count) is novel; the bare $24 = 8\times 3$ split is not (cf.\ Wang $24/8=3$) & best-effort literature search; no precedent found \\
 The literal generation integer on GU's $14$-manifold & gated on the unbuilt source action \\
 The only honest computable generation integer & $1$ (Pati--Salam $\Spin(7,7)$, computed) \\
