@@ -64,6 +64,27 @@ The existing main research line already IS this leg. No redirection needed:
   anomaly/bordism tables.
 - **Floor:** `papers/candidates/located-not-forced/`.
 
+## Verification tiers (shared cross-repo vocabulary, ratified by Joe 2026-07-02)
+
+Each repo's native grade vocabulary remains authoritative for its own claims.
+This three-tier overlay is for cross-repo communication and public writeups,
+so "internally verified" never masquerades as "established":
+
+1. **recorded** — result exists with runnable artifacts; not yet survived
+   adversarial review.
+2. **internally established** — survived the repo's own hostile review, with
+   numbers independently re-derived from scratch and everything reproducible
+   from the tree. (Kernel-checked Lean proofs are a strong sub-case: the
+   proof is machine-verified by independent software; the modeling
+   faithfulness remains internal.) Maps to the standard reproduced-vs-
+   replicated distinction: reproduced, not yet replicated.
+3. **externally established** — verified outside the process: independent
+   replication, peer review, or named-specialist sign-off (the K9 gate).
+
+Single-process ceiling: because internal reviewers are spawned by the same
+process that produced the result, no internal step — however adversarial —
+can promote a result to tier 3.
+
 ## Guards (standing, repo-local)
 
 Unchanged from the crosswalk note; repeated here because this document is the
