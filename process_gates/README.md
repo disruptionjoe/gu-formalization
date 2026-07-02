@@ -16,6 +16,12 @@ Each gate computes the repo root as `Path(__file__).resolve().parents[1]`, which
 file sits one level under the repo root. `process_gates/` is at the same depth as `tests/`, so
 that path logic is preserved unchanged and no gate needed editing to move here.
 
+## Current routing link gate
+
+`roadmap_current_routing_links_audit.py` checks that relative Markdown links in
+`lab/roadmap/README.md` resolve from that file's actual location. This protects the current
+routing table without treating roadmap prose as a research claim.
+
 ## Note on pre-existing staleness
 
 Some gates carry stale references from before the CapacityOS/repo reorganizations (e.g.
