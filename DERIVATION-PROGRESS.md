@@ -2674,3 +2674,16 @@ File: `canon/antilinear-bound-RESULTS.md` (staged); paper `papers/candidates/loc
 File: `canon/enum-completeness-class-c-RESULTS.md`; scripts `tests/enum-completeness/enum_class_c_generators.py`, `tests/enum-completeness/enum_extension_engine.py`, `tests/enum-completeness/verify/indep_check.py`; card `NEXT-STEPS.md` WC-ENUM-COMPLETENESS
 
 ---
+
+### ENTRY WC-FUNCTION-SPACE-EXT FIRST PROBE (2026-07-02) — finite-Galerkin spectral-flow model separates Krein-compatible paired flow from one-sided non-Krein control; card remains OPEN
+
+**Work card:** WC-FUNCTION-SPACE-EXT (`NEXT-STEPS.md`, 2026-07-02 publication-gating section; post-publication, priority 3). The card asks whether Theorem 2's finite-dimensional linear Krein-isometric index conservation extends to Rarita-Schwinger sections, Fredholm indices, and spectral flow, or whether a precise obstruction should be documented.
+
+**Probe added:** `tests/function-space-ext/krein_spectral_flow_probe.py` plus an exploration note at `explorations/analytic-index-fredholm/function-space-index-conservation-first-probe-2026-07-02.md`. The toy model uses `W = W_+ (+) W_-`, `Gamma = diag(+1,-1)`, and cross-chirality `K = [[0,I],[I,0]]`. In the diagonal Galerkin model, the condition `D^T K = K D` forces each `W_+` eigenvalue crossing to be paired with a `W_-` crossing of the same orientation, so the net chiral spectral flow is zero. Pure Krein-isometric conjugacy `U(t)^T K U(t)=K` keeps the spectrum constant. A one-sided chiral-flow control gives net flow `+1`, but it violates the modeled Krein-pairing condition.
+
+**Verified:** `python tests/function-space-ext/krein_spectral_flow_probe.py` exits 0. Printed checks: `||Gamma K + K Gamma|| = 0`, paired-family K-self-adjoint residual `0`, paired crossing contributions cancel to net `0`, Krein-isometric conjugacy has eigenvalue drift below numerical tolerance, and the one-sided control has nonzero K-self-adjoint residual with net flow `+1`.
+
+**Verdict change:** NONE. This is exploration-grade scaffolding, not a section/Fredholm theorem and not a canon promotion. The actual card remains OPEN. The next theorem/obstruction target is to state the Rarita-Schwinger section Hilbert/Krein space, common domain, self-adjoint/Fredholm hypotheses, APS/end data, continuity topology for bounded transforms or spectral sections, and the condition under which actual zero crossings are K-paired.
+File: `tests/function-space-ext/krein_spectral_flow_probe.py`, `tests/function-space-ext/README.md`, `explorations/analytic-index-fredholm/function-space-index-conservation-first-probe-2026-07-02.md`; cascade `NEXT-STEPS.md`, `tests/README.md`
+
+---

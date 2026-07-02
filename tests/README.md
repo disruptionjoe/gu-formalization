@@ -28,6 +28,9 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `anchored-leads/` (6) | the anchored-leads screen |
 | `decider/` (4) | the single-decider ("only honest computable integer is one") |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork |
+| `enum-completeness/` (3) | enumeration-completeness certificate for the located-not-forced publication gate |
+| `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate |
+| `function-space-ext/` (1) | first finite-Galerkin probe for WC-FUNCTION-SPACE-EXT; exploration-grade, not a closed theorem |
 | `hourly-cycles/` (290) | **archived** hourly-automation output; not load-bearing |
 
 ## Loose audit scripts at `tests/` root, by sector

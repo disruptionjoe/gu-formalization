@@ -194,6 +194,14 @@ added to the paper's caveats.
 **Estimated artifact shape:** one theorem-or-obstruction note (`canon/` or `explorations/`) plus a minimal
 numerical spectral-flow probe under `tests/`; does not gate publication.
 
+**STATUS (2026-07-02): FIRST PROBE, still OPEN.** Added a finite-Galerkin spectral-flow probe and
+exploration note: `tests/function-space-ext/krein_spectral_flow_probe.py` and
+`explorations/analytic-index-fredholm/function-space-index-conservation-first-probe-2026-07-02.md`. Result:
+in the modeled cross-chirality/Krein-compatible class, zero crossings are paired across chirality and pure
+Krein-isometric conjugacy creates no spectral flow; the nonzero chiral-flow control violates the modeled
+Krein-pairing condition. This is only exploration-grade scaffolding for the section/Fredholm theorem or
+obstruction; no paper, canon, or claim-status change.
+
 ## Objection Triage Register (3-Pass Analysis, 2026-06-24)
 
 Thirteen objections/weaknesses from the 2026-06-24 three-pass repo assessment (neutral → heterodox
