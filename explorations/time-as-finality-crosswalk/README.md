@@ -52,6 +52,7 @@ Forbidden use:
 - [`ti-as-gu-source-action-v1-formal-integration-steelman-2026-06-27.md`](ti-as-gu-source-action-v1-formal-integration-steelman-2026-06-27.md) tests the narrow formal-integration version: issuance can select only if it carries a GU-native source-geometric carrier.
 - [`ti-as-gu-source-action-v2-wolfram-signed-readout-steelman-2026-06-27.md`](ti-as-gu-source-action-v2-wolfram-signed-readout-steelman-2026-06-27.md) applies the Wolfram/rewrite-rule and signed-readout lens to separate source rules from observer cuts.
 - [`ti-as-gu-source-action-v3-cosmological-steelman-2026-06-27.md`](ti-as-gu-source-action-v3-cosmological-steelman-2026-06-27.md) parks the broad cosmological version behind a noncircular issuance-accounting invariant and theta/FLRW gates.
+- [`capability-boundary-interface-signature-2026-07-02.md`](capability-boundary-interface-signature-2026-07-02.md) distills the tri-repo synthesis into a guarded GU-local interface-signature note: TaF/TI may define a bounded-region capability signature, while GU can only test compatibility against its own current canon and must not be used as support for the identity claim.
 
 ## Main Test
 
