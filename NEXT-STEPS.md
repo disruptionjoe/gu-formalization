@@ -202,6 +202,16 @@ Krein-isometric conjugacy creates no spectral flow; the nonzero chiral-flow cont
 Krein-pairing condition. This is only exploration-grade scaffolding for the section/Fredholm theorem or
 obstruction; no paper, canon, or claim-status change.
 
+**STATUS UPDATE (2026-07-02, later): CONDITIONAL THEOREM, residual localized.** The first probe was advanced to
+a computed + independently re-verified conditional theorem on a genuine 1D lattice Dirac section model: every
+norm-continuous family of self-adjoint, chirality-odd, Krein-self-adjoint Fredholm operators has net chiral
+spectral flow exactly 0 (it takes the form `sigma_1 (x) B`; physical sector chirality-balanced), extending
+Theorem 2 + the antilinear bound to the section setting. `canon/function-space-index-conservation-RESULTS.md` +
+`tests/function-space-ext/{dirac_spectral_flow_section.py, verify/dirac_spectral_flow_indep_check.py}` (149
+asserts). Paper updated v2.8. The card is NOT fully closed: the residual -- gap well-posedness, the
+APS/noncompact-end eta correction, and family-index/higher-topology terms -- remains genuinely OPEN (the
+analytic frontier). CANON.md promotion pauses for Joe.
+
 ## Objection Triage Register (3-Pass Analysis, 2026-06-24)
 
 Thirteen objections/weaknesses from the 2026-06-24 three-pass repo assessment (neutral → heterodox

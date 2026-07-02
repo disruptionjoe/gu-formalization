@@ -10,7 +10,8 @@ necessarily external; **(d)** the antilinear non-existence leg is *closed over a
 holding on every antilinear operator whose re-graded chirality eigenspaces are K-null (a class strictly larger
 than the Krein-compatible operators, since the proof uses only that isotropy: `canon/antilinear-bound-RESULTS.md`,
 `canon/antilinear-nonkrein-admissibility-RESULTS.md`), so a nonzero count would require a K-definite re-grading
-that is not a chirality; the function-space setting remains open; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
+that is not a chirality; the function-space extension now holds as a *conditional* section-setting theorem
+(residual: the APS/end and family-index analytic terms; `canon/function-space-index-conservation-RESULTS.md`); **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections 1 and 9.
 
@@ -19,7 +20,7 @@ independently replicated or peer-reviewed. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.7, 2026-07-02 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.8, 2026-07-02 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -66,6 +67,13 @@ theorem's stated class widened from the Krein-compatible operators to the strict
 a K-definite re-grading that is not a chirality. Caveat (d), abstract, intro item 3, Section 6, status table, and
 conclusion updated; computed + independently re-verified (own gammas + Cl(7,7)). See
 CHANGELOG-v2.7-antilinear-nonkrein.md.
+v2.8 function-space extension (2026-07-02) -- the bigger swing: Theorem 2's finite-dimensional index
+conservation (and the antilinear bound) now extend to the section / spectral-flow setting as a *conditional*
+theorem (net chiral spectral flow 0 for self-adjoint chirality-odd Krein-self-adjoint Fredholm families),
+computed + independently re-verified in an explicit 1D Dirac model; the residual is precisely the APS/end and
+family-index analytic terms. Theorem 2 scope remark, caveat (d), Section 6, status table, and conclusion
+updated (both copies; also fixed two v2.7 misses -- the .md conclusion and the .tex abstract antilinear
+summary). See CHANGELOG-v2.8-function-space.md and canon/function-space-index-conservation-RESULTS.md.
 Publication DEFERRED (2026-07-02) pending Joe's review; both gating cards now carry staged results, and the
 enum-completeness result is folded into the paper text at v2.6 (WC-ENUM-COMPLETENESS, WC-ANTILINEAR-BOUND -- see
 STAGING-NOTES.md).
@@ -347,9 +355,14 @@ no role (`χ` is identically 0, not merely constant). Machine-corroborated
 `t1a_kinematic_chirality_kill.py`): `χ = 0` in the physical indefinite signatures `(9,5)`, `(7,7)`; Euclidean
 `(14,0)` is grading-*aligned* (Γ commutes with K), giving `|χ| = 96` as a chirality-detecting control. QED.
 
-**Scope.** Theorem 2 is a statement of finite-dimensional *kinematics* on the 192-dimensional carrier; its
-extension to a function-space setting -- sections of the Rarita-Schwinger bundle over a manifold, differential
-operators, genuine Fredholm indices and spectral flow -- is a separate, named open problem, not addressed here.
+**Scope.** Theorem 2 is proved as finite-dimensional *kinematics* on the 192-dimensional carrier. Its extension
+to the section / spectral-flow setting -- sections of the Rarita-Schwinger bundle, self-adjoint Krein-compatible
+Fredholm families, spectral flow -- now holds as a **conditional theorem**: every norm-continuous family of
+self-adjoint, chirality-odd, Krein-self-adjoint Fredholm operators has net chiral spectral flow exactly 0
+(computed and independently re-verified in an explicit 1D Dirac model;
+`canon/function-space-index-conservation-RESULTS.md`). The residual is now precisely the analytic boundary
+terms -- the APS / noncompact-end eta correction, family-index terms, and gap well-posedness of the physical
+projection -- which remain open.
 
 **Corollary (necessary antilinear escape).** No linear / unitary dynamics generates chiral asymmetry in this
 sector. By Wigner's dichotomy the unique symmetry-respecting escape is **antilinear** (CPT / particle-hole;
@@ -402,8 +415,10 @@ index nullity holds on this whole null-eigenspace class (`canon/antilinear-nonkr
 computed and independently re-verified, own gammas + `Cl(7,7)`). The linear leg is theorem-grade (index
 conservation); the antilinear leg is closed over this null-eigenspace class; the residual is exactly the
 K-*definite* re-gradings -- which are not chiralities (they grade physical-vs-ghost, carrying the vectorlike
-`+96`) and do not act on the sector's physical states -- and the function-space setting (a separate named open
-problem). **No operator interior to a Clifford-RS sector of this class -- linear, or antilinear with K-null
+`+96`) and do not act on the sector's physical states -- and the function-space setting, which now holds as a
+conditional section-setting theorem (net chiral spectral flow 0 for Krein-self-adjoint chirality-odd Fredholm
+families; `canon/function-space-index-conservation-RESULTS.md`), residual the APS/end and family-index terms.
+**No operator interior to a Clifford-RS sector of this class -- linear, or antilinear with K-null
 re-graded chirality eigenspaces -- forces an odd chiral count.**
 GU's frame-trivial chiralizer is one instance.
 
@@ -660,7 +675,8 @@ instanton zero-modes, `K3` / Calabi-Yau compactification); the `order-3-class ->
 that external datum remains the single named open conjecture (a candidate category error) rather than a claim.
 We do not claim three -- no computed quantity in this program equals three -- and the structural reason the
 count is not internal is now computationally established for the whole class (the antilinear side closed
-over the delimited Krein-compatible operator class; the function-space extension remains open). We request external review of both the core results and the open
+over the null-eigenspace class of re-gradings, and the section / spectral-flow extension holding as a conditional
+theorem; residual: the APS/end and family-index analytic terms). We request external review of both the core results and the open
 bridge.
 
 ---
