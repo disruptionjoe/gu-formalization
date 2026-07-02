@@ -149,3 +149,24 @@ language was written.
 **Still pending Joe (unchanged):** CANON.md promotion of both RESULTS files; the publication flip (stays
 DEFERRED); git commit/push. Both gates' results are now reflected in the paper text (antilinear v2.5.2, enum
 v2.6); only outside replication moves the internal-tier verification status (caveat e).
+
+## Reviewer #2 antilinear strengthening -> v2.7 (2026-07-02, later)
+
+Joe asked to take a stab at review criticism #2 (the delimited antilinear class leaves loopholes) and to update
+the paper if it held up. It held up. Result (`canon/antilinear-nonkrein-admissibility-RESULTS.md`, computed +
+independently re-verified on own recursive-doubling gammas + `Cl(7,7)`): the antilinear index-nullity theorem's
+admissible class is not the Krein-compatible operators but the strictly larger **null-eigenspace class**
+(re-gradings whose chirality eigenspaces are K-null), and index nullity holds on all of it; a nonzero count
+requires a K-definite re-grading that is not a chirality (it carries the vectorlike +-96) and does not act on the
+physical sector.
+
+**Paper updated v2.7** (`CHANGELOG-v2.7-antilinear-nonkrein.md`, both copies): caveat (d), abstract, intro item 3,
+Section 6, status table, and conclusion now state the null-eigenspace class and re-scope the residual (the earlier
+"outside the Krein class admissibility fails" was too strong). Scripts:
+`tests/antilinear-bound/nonkrein_physical_admissibility.py` (61 asserts) +
+`tests/antilinear-bound/verify/nonkrein_indep_check.py` (69 asserts). This closes the KINEMATIC half of #2; the
+QFT effective / non-perturbative (function-space) half remains the open WC-FUNCTION-SPACE-EXT.
+
+**Still pending Joe (unchanged):** CANON.md promotion of the RESULTS files; the publication flip (stays DEFERRED);
+git commit/push. This is a strengthening, not a new gate -- publication readiness is unchanged (the third review
+already rated the paper arXiv-ready).

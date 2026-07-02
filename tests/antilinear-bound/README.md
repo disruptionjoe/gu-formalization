@@ -78,3 +78,20 @@ alone pins every physical subspace's net chiral index at 0**, so no admissible a
 operator -- found or unfound -- was ever going to force a count.  The correct formalization
 of Krein-antiunitarity for antilinear operators (`M^dag K M = lambda K-bar`, not
 `lambda K`; K is genuinely complex on this carrier) was caught and fixed during this pass.
+
+## Addendum: reviewer #2 (v2.7) -- the admissible class is the null-eigenspace class, not just Krein-compatible
+
+A later adversarial pass pressed caveat (d): could an operator evade the Krein-compatible class S while still
+acting on physical chirality?  Answer (computed + independently re-verified): the index-nullity proof used only
+that the re-graded chirality eigenspaces `C(W_+/-)` are K-null (Lagrangian) -- never the full Krein condition --
+so the admissible class is the strictly larger null-eigenspace class `P_iso` (⊋ S), and index nullity holds on
+all of it.  Non-Krein members are constructed and are still index-null; a nonzero count requires a K-DEFINITE
+re-grading, which is not a chirality (it carries the vectorlike +-96) and does not act on the physical sector.
+
+| script | what it certifies | asserts |
+|---|---|---|
+| `nonkrein_physical_admissibility.py` | P_iso ⊋ S; index nullity on P_iso (exact integer ranks); the K-definite re-grading carries +-96 | 61 |
+| `verify/nonkrein_indep_check.py` | independent re-check: own recursive-doubling gammas, different seed, `Cl(7,7)` cross-signature, Euclidean `(14,0)` premise-failure control (`|chi| = 96`) | 69 |
+
+RESULTS: `canon/antilinear-nonkrein-admissibility-RESULTS.md`.  Paper updated v2.7.  Residual unchanged: the
+function-space / genuine-QFT half is the separate open card WC-FUNCTION-SPACE-EXT.

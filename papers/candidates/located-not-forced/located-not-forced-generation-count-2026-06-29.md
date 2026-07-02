@@ -6,10 +6,11 @@ load-bearing caveats hold throughout: **(a)** the torsion-count reading is a *pr
 literal integer-index reading the same obstructions would instead *forbid* an odd count outright; **(b)** the
 order-3 class cannot literally *be* an integer count, since `Hom(Z/3, Z) = 0` (no homomorphism from a torsion
 group to a torsion-free one is nonzero); **(c)** the generation count is *external on present evidence*, not
-necessarily external; **(d)** the antilinear non-existence leg is *closed over a delimited class* (every Krein-compatible
-antilinear operator on the carrier, any covariance down to symmetry-free: an index-nullity theorem,
-`canon/antilinear-bound-RESULTS.md`); outside that class admissibility itself fails, and the function-space
-setting remains open; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
+necessarily external; **(d)** the antilinear non-existence leg is *closed over a delimited class* -- an index-nullity theorem
+holding on every antilinear operator whose re-graded chirality eigenspaces are K-null (a class strictly larger
+than the Krein-compatible operators, since the proof uses only that isotropy: `canon/antilinear-bound-RESULTS.md`,
+`canon/antilinear-nonkrein-admissibility-RESULTS.md`), so a nonzero count would require a K-definite re-grading
+that is not a chirality; the function-space setting remains open; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections 1 and 9.
 
@@ -18,7 +19,7 @@ independently replicated or peer-reviewed. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.5.1, 2026-07-02 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.7, 2026-07-02 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -59,6 +60,12 @@ engine-swept beyond C with a sharp boundary; completeness over the unrestricted 
 open), in response to a third adversarial review whose lead criticism was enumeration completeness
 (WC-ENUM-COMPLETENESS); also added a one-sentence representation-theory method for the Spin(9,5) Hom-vanishing
 computation. See CHANGELOG-v2.6-enum-completeness.md.
+v2.7 antilinear admissible-class strengthening (2026-07-02) -- reviewer #2: the antilinear index-nullity
+theorem's stated class widened from the Krein-compatible operators to the strictly larger null-eigenspace class
+(re-gradings whose chirality eigenspaces are K-null), on all of which the net chiral index is 0; escaping needs
+a K-definite re-grading that is not a chirality. Caveat (d), abstract, intro item 3, Section 6, status table, and
+conclusion updated; computed + independently re-verified (own gammas + Cl(7,7)). See
+CHANGELOG-v2.7-antilinear-nonkrein.md.
 Publication DEFERRED (2026-07-02) pending Joe's review; both gating cards now carry staged results, and the
 enum-completeness result is folded into the paper text at v2.6 (WC-ENUM-COMPLETENESS, WC-ANTILINEAR-BOUND -- see
 STAGING-NOTES.md).
@@ -113,8 +120,9 @@ actual stabilized action remains unbuilt). Reopened GU-independently, the
 obstruction is a **class-level structural no-go** (computed and adversarially verified): no covariant operator
 interior to a Clifford-RS sector of this type was found to force an odd chiral count -- frame-triviality is
 evadable only into a 2-primary, index-conserving channel, and the antilinear loophole is closed by a delimited
-index-nullity theorem (every Krein-compatible antilinear operator, down to symmetry-free, keeps every physical
-subspace's net chiral index at exactly 0; outside that class admissibility itself fails). On present evidence the generation count is
+index-nullity theorem (holding on every antilinear operator whose re-graded chirality eigenspaces are K-null, a
+class strictly larger than the Krein-compatible operators, so every physical subspace keeps net chiral index
+exactly 0; escaping requires a K-definite re-grading that is not a chirality). On present evidence the generation count is
 therefore **external** -- supplied by a net-self-dual chiral background of the general kind that produces
 chirality in known chiral theories (chiral gauge couplings, instanton zero-modes, `K3` / Calabi-Yau
 compactification). We therefore do **not** claim three generations. We claim a no-go that *locates*: it pins the unique CRT-disjoint sector where an odd
@@ -158,12 +166,13 @@ the strongest possible reading of it by direct computation. Our contributions:
    Reopened GU-independently: **no covariant operator found -- linear or antilinear -- interior to a Clifford-RS
    sector of this class forces an odd chiral count.** Frame-triviality is evadable, but only into a 2-primary,
    index-conserving channel (a linear `O = L_SD (x) X_L` is net-chiral and frame-active, yet by Theorem 2
-   forces no count), and the antilinear loophole is closed by a delimited index-nullity theorem (all
-   Krein-compatible antilinear operators, down to symmetry-free; `canon/antilinear-bound-RESULTS.md`). On
+   forces no count), and the antilinear loophole is closed by a delimited index-nullity theorem (holding on the
+   null-eigenspace class -- antilinear operators whose re-graded chirality eigenspaces are K-null, strictly larger
+   than the Krein-compatible operators; `canon/antilinear-bound-RESULTS.md`, `canon/antilinear-nonkrein-admissibility-RESULTS.md`). On
    present evidence the generation count is therefore **external**, supplied by a
    net-self-dual chiral background of the general kind that produces chirality in known chiral theories.
    [computed structural no-go, theory-independent; linear leg theorem-grade, antilinear leg closed over the
-   delimited Krein-compatible class (function-space extension open)]
+   null-eigenspace class, strictly larger than Krein-compatible (function-space extension open)]
 4. **A located order-3 carrier (Section 7).** The self-dual `Lambda^2_+` tangential framing on the `RP^3`
    spine carries `e_R = 1/12`, a genuine order-3 class in the `Z/3` summand -- shown by computation to be
    tangential but vectorlike and homotopy-fixed: it locates, it does not fill ("locates" is an interpretive
@@ -386,11 +395,16 @@ K-Lagrangian pair, so every physical subspace keeps net chiral index exactly 0 u
 antilinear re-grading (machine-certified; independently re-verified, including on `Cl(7,7)`, with a Euclidean
 `(14,0)` control showing the cross-chirality premise is load-bearing). Frame-non-trivial admissible class-CII
 swap operators DO exist once all symmetry is dropped (exhibited in closed form) -- and none is a chiralizer:
-Krein compatibility alone pins the index. The linear leg is theorem-grade (index conservation); the antilinear
-leg is closed over this delimited class; the residual is exactly the operators that break Krein/ghost
-compatibility -- for which admissibility itself fails (they do not act on the sector's physical states) -- and
-the function-space setting (a separate named open problem). **No operator interior to a Clifford-RS sector of
-this class -- linear, or antilinear in the delimited Krein-compatible class -- forces an odd chiral count.**
+Krein compatibility alone pins the index. In fact the admissible class is strictly *larger* than the
+Krein-compatible operators: the proof uses only that the re-graded chirality eigenspaces are K-null (Lagrangian)
+-- the intrinsic mark of a chirality re-grading, since the original chirality's own eigenspaces are K-null -- and
+index nullity holds on this whole null-eigenspace class (`canon/antilinear-nonkrein-admissibility-RESULTS.md`;
+computed and independently re-verified, own gammas + `Cl(7,7)`). The linear leg is theorem-grade (index
+conservation); the antilinear leg is closed over this null-eigenspace class; the residual is exactly the
+K-*definite* re-gradings -- which are not chiralities (they grade physical-vs-ghost, carrying the vectorlike
+`+96`) and do not act on the sector's physical states -- and the function-space setting (a separate named open
+problem). **No operator interior to a Clifford-RS sector of this class -- linear, or antilinear with K-null
+re-graded chirality eigenspaces -- forces an odd chiral count.**
 GU's frame-trivial chiralizer is one instance.
 
 **The count is therefore external on present evidence.** Forcing an odd chiral count requires an *external*
@@ -608,7 +622,7 @@ feeding the two-arena reading.
 | Linear Krein-isometric operators conserve the net chiral index | theorem (machine-verified) |
 | The unique escape is antilinear (class-CII type) | corollary (Wigner) + machine-verified |
 | The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed; frame-triviality is evadable only into a 2-primary, index-conserving linear channel |
-| No interior operator forces an odd chiral count; the count is external on present evidence | class-level structural no-go (GU-independent); linear leg theorem-grade (index conservation); antilinear leg closed over the delimited Krein-compatible class (index-nullity theorem, `canon/antilinear-bound-RESULTS.md`; residual: non-Krein operators fail admissibility, function-space extension open) |
+| No interior operator forces an odd chiral count; the count is external on present evidence | class-level structural no-go (GU-independent); linear leg theorem-grade (index conservation); antilinear leg closed over the null-eigenspace class -- all antilinear re-gradings with K-null chirality eigenspaces, strictly larger than Krein-compatible (index-nullity theorem, `canon/antilinear-bound-RESULTS.md`, `canon/antilinear-nonkrein-admissibility-RESULTS.md`; residual: a nonzero count needs a K-definite non-chirality re-grading, function-space extension open) |
 | Forcing an odd count requires an external net-self-dual chiral background | computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin 3 |
 | Tangential `Lambda^2_+` framing carries `e_R = 1/12`, order 3 (carrier arena) | standard-result-applied (Kirby-Melvin); GU identification reconstruction-grade |
 | The carrier is vectorlike and homotopy-fixed (locates, does not fill) | computed-confirmed |
