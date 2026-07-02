@@ -39,6 +39,7 @@ assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`
+- **Tri-repo division of labor (GU leg: boundary content):** `lab/roadmap/tri-repo-division-of-labor-2026-07-02.md`
 - **Contributor next steps:** `NEXT-STEPS.md`
 - **High-level overview:** `docs/OVERVIEW.md`
 - **Six-axis testability white paper:** `papers/candidates/six-axis-testability/`

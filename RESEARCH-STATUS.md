@@ -20,6 +20,11 @@ falsification target is now whether every successful reconstruction converges on
 BOUNDARY object rather than a closed internal completion (superseding the prior closed-system
 default). Attack it, do not defend it. See `canon/firewall-boundary-hypothesis.md`.
 
+This question is also GU's leg of the ratified tri-repo division of labor (Joe, 2026-07-02): GU owns
+**boundary content** (what the boundary must supply, in exact mathematics); time-as-finality owns the
+capability measure; temporal-issuance owns the source question. Identity claims across the three remain
+gated. See `lab/roadmap/tri-repo-division-of-labor-2026-07-02.md`.
+
 ## Status Labels
 
 Every Markdown research document carries YAML frontmatter with one of these statuses:
