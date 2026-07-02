@@ -212,6 +212,14 @@ asserts). Paper updated v2.8. The card is NOT fully closed: the residual -- gap 
 APS/noncompact-end eta correction, and family-index/higher-topology terms -- remains genuinely OPEN (the
 analytic frontier). CANON.md promotion pauses for Joe.
 
+**STATUS UPDATE (2026-07-02, later fan-out): APS eta boundary-control probe added.**
+`tests/function-space-ext/aps_eta_boundary_control.py` and
+`explorations/analytic-index-fredholm/function-space-aps-eta-boundary-control-2026-07-02.md` make the
+APS/noncompact-end residual concrete: paired/symmetric boundary spectra have eta half-term 0, while an
+external unpaired boundary mode contributes a nonzero half-term. This is not an RS eta computation and does
+not close the card; it sharpens the next obligation to either prove the actual boundary/end spectrum is
+eta-neutral or compute the external term.
+
 ## Objection Triage Register (3-Pass Analysis, 2026-06-24)
 
 Thirteen objections/weaknesses from the 2026-06-24 three-pass repo assessment (neutral → heterodox

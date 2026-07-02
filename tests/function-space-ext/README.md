@@ -1,14 +1,17 @@
-# WC-FUNCTION-SPACE-EXT first probe scripts (2026-07-02)
+# WC-FUNCTION-SPACE-EXT probes (2026-07-02)
 
 Executable probes for the post-publication function-space extension card in `NEXT-STEPS.md`.
 
-These scripts do not prove the section/Fredholm theorem. They provide a finite-Galerkin
-model for the spectral-flow obstruction:
+These scripts separate three layers of the function-space question:
 
-- Krein-compatible paired crossings in a cross-chirality model contribute zero net chiral flow.
-- Pure Krein-isometric conjugacy preserves the spectrum, so no new crossing is created.
-- A one-sided chiral crossing produces nonzero net flow only in the control that violates the
-  modeled Krein-pairing condition.
+- `krein_spectral_flow_probe.py` is the first finite-Galerkin model: paired Krein-compatible
+  crossings contribute zero net chiral flow, while a one-sided control leaves the modeled class.
+- `dirac_spectral_flow_section.py` is the computed conditional section-setting theorem for the
+  closed/interior 1D Krein-Dirac model.
+- `verify/dirac_spectral_flow_indep_check.py` independently re-checks the section theorem with a
+  Fourier momentum substrate and non-degenerate spectrum.
+- `aps_eta_boundary_control.py` is an exploration-grade finite boundary-spectrum control for the
+  APS/noncompact-end residual; it does not compute the Rarita-Schwinger eta invariant.
 
 ## Running
 
@@ -16,10 +19,13 @@ From the repo root:
 
 ```text
 python tests/function-space-ext/krein_spectral_flow_probe.py
+python tests/function-space-ext/dirac_spectral_flow_section.py
+python tests/function-space-ext/verify/dirac_spectral_flow_indep_check.py
+python tests/function-space-ext/aps_eta_boundary_control.py
 ```
 
 ## Status
 
-Exploration-grade. The actual work card remains open until the unbounded-operator,
-domain, APS/end, Fredholm, and spectral-section hypotheses are stated and checked for the
-Rarita-Schwinger bundle setting.
+The closed/interior, spectral-gapped section model is a computed + independently re-verified
+conditional theorem. The APS/noncompact-end eta correction, family-index / higher-topology
+terms, and full Rarita-Schwinger bundle analytic hypotheses remain open.

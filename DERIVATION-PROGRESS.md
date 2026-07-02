@@ -2713,3 +2713,30 @@ File: `canon/antilinear-nonkrein-admissibility-RESULTS.md` (staged); paper `pape
 File: `canon/function-space-index-conservation-RESULTS.md` (staged); paper `.../located-not-forced-generation-count-2026-06-29.{md,tex}` (v2.8), `.../CHANGELOG-v2.8-function-space.md`; scripts `tests/function-space-ext/dirac_spectral_flow_section.py`, `tests/function-space-ext/verify/dirac_spectral_flow_indep_check.py`; cascade `NEXT-STEPS.md`, `papers/candidates/located-not-forced/STAGING-NOTES.md`
 
 ---
+
+### ENTRY WC-FUNCTION-SPACE-EXT APS ETA BOUNDARY CONTROL (2026-07-02) -- boundary/end residual made executable; no theorem closure
+
+**Target:** the APS/noncompact-end residual left open by the `WC-FUNCTION-SPACE-EXT` conditional theorem.
+The v2.8 theorem establishes the closed/interior, spectral-gapped Krein-Dirac statement; it explicitly does
+not decide boundary eta, noncompact-end, or family-index terms.
+
+**Probe added:** `tests/function-space-ext/aps_eta_boundary_control.py` plus an exploration note at
+`explorations/analytic-index-fredholm/function-space-aps-eta-boundary-control-2026-07-02.md`. The finite
+boundary-spectrum model computes `eta_0 = #positive - #negative`, kernel count `h`, and the APS half-term
+`(eta + h)/2`. Paired/symmetric boundary spectra and paired deformations give half-term `0`. A single external
+unpaired positive boundary mode gives `+1/2`; a single external unpaired negative mode gives `-1/2`.
+
+**Verified:** `python tests/function-space-ext/aps_eta_boundary_control.py` exits 0. Printed checks confirm
+interior Krein-paired net chiral spectral flow is modeled as `0`, paired boundary spectra are eta-neutral,
+and an external unpaired boundary mode can carry a nonzero boundary/end half-term.
+
+**Verdict change:** NONE. This is an exploration-grade boundary control, not an RS eta computation, not a
+paper edit, and not a `CANON.md` promotion. The function-space conditional theorem remains intact; the
+APS/end and family-index residual remains genuinely open. The sharpened next obligation is to prove the
+actual Rarita-Schwinger boundary/end spectrum is eta-neutral, compute the external term, or reject APS/end
+completion for the operator family under test.
+File: `tests/function-space-ext/aps_eta_boundary_control.py`, `tests/function-space-ext/README.md`,
+`explorations/analytic-index-fredholm/function-space-aps-eta-boundary-control-2026-07-02.md`; cascade
+`NEXT-STEPS.md`, `tests/README.md`
+
+---
