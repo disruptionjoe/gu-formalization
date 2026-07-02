@@ -79,3 +79,5 @@ Smoke test: `python tests/test_bridge.py` (reproduces the anchors C2 = 155.36, |
 `Agents Start Here.md` — the discipline, the spec, the dead-ends not to re-walk, and how to use the bridge.
 `DERIVATION-PROGRESS.md` — the running ledger (same compute -> adversarially-verify -> land discipline as the
 parent).
+`SECURITY-BUDGET-CARRIER-PACKET-2026-07-01.md` - first executable candidate packet; records that
+available-loss-only scoring is missing-carrier blocked, not a source-action success.
