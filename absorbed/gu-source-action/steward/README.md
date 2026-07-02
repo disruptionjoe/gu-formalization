@@ -55,9 +55,9 @@ This repo owns its spec, derivation ledger, dead-ends record, candidate lenses, 
 
 - Construction truth stays in this repo.
 - Verified parent machinery stays in `gu-formalization`.
-- CapacityOS architecture questions route to `C:\Users\joe\JB\CapacityOS`.
-- JoeOps coordination questions route to `C:\Users\joe\JB\Github Repos\joeops`.
-- Durable artifacts belong in `C:\Users\joe\JB\library\repos\private\gu-source-action\` while pre-public.
+- CapacityOS architecture questions route to `CapacityOS`.
+- JoeOps coordination questions route to `Github Repos\joeops`.
+- Durable artifacts belong in `library\repos\private\gu-source-action\` while pre-public.
 - Scratch belongs in `_local/`.
 
 ## Candidate Decisions

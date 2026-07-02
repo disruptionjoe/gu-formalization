@@ -77,7 +77,7 @@ draft itself for claim extraction.
 The repo root contains the local PDF object:
 
 ```text
-C:\Users\joe\JB\research\Church of AI\gu-formalization\Geometric_UnityDraftApril1st2021.pdf
+research\Church of AI\gu-formalization\Geometric_UnityDraftApril1st2021.pdf
 ```
 
 Direct file and PDF facts computed in this gate:
@@ -85,7 +85,7 @@ Direct file and PDF facts computed in this gate:
 | field | value |
 |---|---|
 | local path | `Geometric_UnityDraftApril1st2021.pdf` |
-| absolute path | `C:\Users\joe\JB\research\Church of AI\gu-formalization\Geometric_UnityDraftApril1st2021.pdf` |
+| absolute path | `research\Church of AI\gu-formalization\Geometric_UnityDraftApril1st2021.pdf` |
 | size bytes | `2087649` |
 | SHA-256 | `3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4` |
 | page count | `69` |

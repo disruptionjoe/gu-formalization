@@ -116,7 +116,7 @@ Additional local assets inspected:
 - `tmp_pdf_text_pages/page-049.txt`;
 - `tmp_pdf_text_pages/page-050.txt`;
 - scratch rendered page image:
-  `C:\Users\joe\AppData\Local\Temp\gu_rs_eq_10_10_page.png`.
+  `AppData\Local\Temp\gu_rs_eq_10_10_page.png`.
 
 The scratch image was used only for visual inspection and is not a source
 receipt by itself. OCR/text extraction remains non-accepting unless a typed
@@ -282,7 +282,7 @@ global_no_go_promoted: false
     "tmp_pdf_text_pages/page-048.txt",
     "tmp_pdf_text_pages/page-049.txt",
     "tmp_pdf_text_pages/page-050.txt",
-    "scratch_render:C:/Users/joe/AppData/Local/Temp/gu_rs_eq_10_10_page.png"
+    "scratch_render:AppData/Local/Temp/gu_rs_eq_10_10_page.png"
   ],
   "accepted_receipt_count": 0,
   "scoped_negative_preserved": true,

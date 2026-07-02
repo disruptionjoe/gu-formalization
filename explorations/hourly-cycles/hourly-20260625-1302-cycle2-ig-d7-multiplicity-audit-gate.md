@@ -100,7 +100,7 @@ Get-Command sage     -> not found
 Get-Command sage.exe -> not found
 Get-Command sage.bat -> not found
 Get-Command wsl      -> present, but WSL is not installed
-python               -> present at C:\Users\joe\AppData\Local\Programs\Python\Python314\python.exe
+python               -> present at AppData\Local\Programs\Python\Python314\python.exe
 ```
 
 Python import probing did not find a usable Sage module before the `sage` package

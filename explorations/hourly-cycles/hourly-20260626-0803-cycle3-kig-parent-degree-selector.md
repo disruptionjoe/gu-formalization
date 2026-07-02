@@ -516,5 +516,5 @@ Test-Path explorations/hourly-20260626-0803-cycle3-kig-parent-degree-selector.md
 git diff --check -- explorations/hourly-20260626-0803-cycle3-kig-parent-degree-selector.md
 git status --short -- explorations/hourly-20260626-0803-cycle3-kig-parent-degree-selector.md
 rg -n "parent_degree_selector_executed|parent_degree_selector_admitted|degree_P_IG_2_source_forced|independent_of_selected_codomain|trace_contraction_exclusion_allowed|coderivative_trace_eliminated|branch3_admitted|target_import_used|claim_status_consistency_triggered" explorations/hourly-20260626-0803-cycle3-kig-parent-degree-selector.md
-Test-Path C:\Users\joe\JB\research\explorations\hourly-20260626-0803-cycle3-kig-parent-degree-selector.md
+Test-Path research\explorations\hourly-20260626-0803-cycle3-kig-parent-degree-selector.md
 ```

@@ -2,9 +2,9 @@
 
 Date: 2026-07-01
 Action: absorbed source material into gu-formalization.
-Source path: C:\Users\joe\JB\research\Church of AI\gu-source-action
-Destination path: C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization\absorbed\gu-source-action
-Archive path: C:\Users\joe\JB\_archive\absorbed-repos-2026-07-01\gu-source-action
+Source path: research\Church of AI\gu-source-action
+Destination path: CapacityOS\repos\public\gu-formalization\absorbed\gu-source-action
+Archive path: _archive\absorbed-repos-2026-07-01\gu-source-action
 Archive status: pending_file_lock
 Original remote: https://github.com/disruptionjoe/gu-source-action.git
 Original HEAD: e9fc93519dbdf0e58c180acbe00f13e5e4200769

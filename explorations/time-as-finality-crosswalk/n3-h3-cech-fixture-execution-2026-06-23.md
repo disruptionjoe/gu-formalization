@@ -102,12 +102,12 @@ available paths are documentation records and absorber tests, not a fixture
 implementation. There is no discovered file at any of the following expected
 locations:
 
-- `C:\Users\joe\JB\Github Repos\temporal-issuance\explorations\*cech*`
-- `C:\Users\joe\JB\Github Repos\temporal-issuance\explorations\*sheaf_fixture*`
-- `C:\Users\joe\JB\Github Repos\temporal-issuance\agent-runs\*cech*`
-- `C:\Users\joe\JB\Github Repos\temporal-issuance\tests\*cech*`
-- `C:\Users\joe\JB\Github Repos\temporal-issuance\workflows\*cech*`
-- `C:\Users\joe\JB\Github Repos\temporal-issuance\workflows\*sheaf_fixture*`
+- `Github Repos\temporal-issuance\explorations\*cech*`
+- `Github Repos\temporal-issuance\explorations\*sheaf_fixture*`
+- `Github Repos\temporal-issuance\agent-runs\*cech*`
+- `Github Repos\temporal-issuance\tests\*cech*`
+- `Github Repos\temporal-issuance\workflows\*cech*`
+- `Github Repos\temporal-issuance\workflows\*sheaf_fixture*`
 
 The broad filename search for Cech/sheaf/fixture/test/spec returned only:
 

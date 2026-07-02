@@ -114,7 +114,7 @@ Current repo-local checks in this lane:
 
 | check | result | admission implication |
 | --- | --- | --- |
-| `Get-Command python, ffmpeg, yt-dlp, youtube-dl` | Python present at `C:\Users\joe\AppData\Local\Programs\Python\Python314\python.exe`; `ffmpeg`, `yt-dlp`, and `youtube-dl` not resolved. | No local video decoder/downloader stack was admitted. |
+| `Get-Command python, ffmpeg, yt-dlp, youtube-dl` | Python present at `AppData\Local\Programs\Python\Python314\python.exe`; `ffmpeg`, `yt-dlp`, and `youtube-dl` not resolved. | No local video decoder/downloader stack was admitted. |
 | `python -m yt_dlp --version` | Python reported `No module named yt_dlp`. | No Python `yt_dlp` extractor module was available. |
 | repo file search for `TzSEvmqxu48`, Pull That Up Jamie/PTUJ, Keating/Shiab assets | Found prior markdown/audit artifacts and Shiab notes, but no local `TzSEvmqxu48` media file or PTUJ source asset package. | No repo-local formula-bearing video/source asset exists under the searched names. |
 | narrow live-source HEAD recheck on repo-listed URLs | The PowerShell HEAD wrapper returned non-admission errors for the official PTUJ page, YouTube oEmbed, YouTube thumbnail, and Keating transcript. | This does not change the verdict; live success was not required and no receipt was admitted from the failed recheck. |

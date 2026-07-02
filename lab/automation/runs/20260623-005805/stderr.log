@@ -1,5 +1,5 @@
 ﻿Runner timed out after 1 minutes.
-At C:\Users\joe\JB\Github Repos\gu-formalization\automation\run-hourly-frontier.ps1:152 char:13
+At Github Repos\gu-formalization\automation\run-hourly-frontier.ps1:152 char:13
 +             throw "Runner timed out after $TimeoutMinutes minutes."
 +             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : OperationStopped: (Runner timed out after 1 minutes.:String) [], RuntimeException

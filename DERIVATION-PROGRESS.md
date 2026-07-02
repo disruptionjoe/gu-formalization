@@ -161,7 +161,7 @@ structural identification above.
 - `explorations/E051-d-fork-creation-vs-navigation-resolution-2026-06-22.md` (D-FORK analysis, three resolution paths)
 - `explorations/E052-option-a-mltt-formalization-compat-g-2026-06-22.md` (Option A executed, sub-req 3 closed)
 
-**Repo:** `C:\Users\joe\JB\Github Repos\temporal-issuance`
+**Repo:** `Github Repos\temporal-issuance`
 
 **Status:** ✅ COMPLETE (CONDITIONAL ON MLTT) — 2026-06-22
 
@@ -191,9 +191,9 @@ Key formal steps:
 
 **GU analog:** The same Option A move is available for GU's geometric admissibility predicate. Formalizing the space of consistent geometric extensions of X^4 in a constructive framework would close GU's version of sub-req 3 under creation. Whether GU pursues this is a separate decision.
 
-**Key file (Option A execution):** `C:\Users\joe\JB\Github Repos\temporal-issuance\explorations\E052-option-a-mltt-formalization-compat-g-2026-06-22.md`
+**Key file (Option A execution):** `Github Repos\temporal-issuance\explorations\E052-option-a-mltt-formalization-compat-g-2026-06-22.md`
 
-**Key file (D-FORK analysis):** `C:\Users\joe\JB\Github Repos\temporal-issuance\explorations\E051-d-fork-creation-vs-navigation-resolution-2026-06-22.md`
+**Key file (D-FORK analysis):** `Github Repos\temporal-issuance\explorations\E051-d-fork-creation-vs-navigation-resolution-2026-06-22.md`
 
 ---
 

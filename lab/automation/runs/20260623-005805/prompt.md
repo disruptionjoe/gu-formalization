@@ -2,7 +2,7 @@
 
 Run id: 20260623-005805
 Run started at: 2026-06-23T00:58:05.0482271-05:00
-Repository: C:\Users\joe\JB\Github Repos\gu-formalization
+Repository: Github Repos\gu-formalization
 
 You are running unattended from a local hourly scheduler. Work in the repository above.
 

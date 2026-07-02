@@ -55,7 +55,7 @@ Current local checks performed in this lane:
 
 | check | observed result | implication |
 | --- | --- | --- |
-| `Get-Command python,yt-dlp,youtube-dl,ffmpeg -ErrorAction SilentlyContinue` | Only `python.exe` resolved, at `C:\Users\joe\AppData\Local\Programs\Python\Python314\python.exe`. | Python is available, but the required extraction/decoding command stack is not. |
+| `Get-Command python,yt-dlp,youtube-dl,ffmpeg -ErrorAction SilentlyContinue` | Only `python.exe` resolved, at `AppData\Local\Programs\Python\Python314\python.exe`. | Python is available, but the required extraction/decoding command stack is not. |
 | Python `importlib.util.find_spec("yt_dlp")` and `shutil.which(...)` for `yt-dlp`, `youtube-dl`, `ffmpeg` | `yt_dlp` module unavailable; all three executables unresolved. | There is no local admitted YouTube acquisition module or `ffmpeg` decoder. |
 | `rg` over repo text for `TzSEvmqxu48`, extractor/source-asset object names, `yt-dlp`, `yt_dlp`, `youtube-dl`, `ffmpeg`, `storyboard`, `thumbnail`, `caption`, and `oEmbed` | Found prior markdown/audit contract rows, source locators, and non-receipt evidence; found no admitted extractor object with current command/version/output manifest. | The repo contains the decision history and locators, not an admissible toolchain manifest. |
 | `rg --files` filtered for PTUJ/TzSEvmqxu48/media/frame/source extensions and names | Found prior exploration/test artifacts and unrelated RS temporary images; no repo-local `TzSEvmqxu48` source media/package bytes or decoded frame manifest. | There are no source bytes to decode under this branch. |

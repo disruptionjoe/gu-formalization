@@ -54,7 +54,7 @@ Current local checks performed for this lane:
 
 | check | observed result | admissibility consequence |
 | --- | --- | --- |
-| Python module/tool identity check for `yt_dlp`, `youtube_dl`, `cv2`, `av`, `imageio`, `moviepy`, `yt-dlp`, `youtube-dl`, `ffmpeg`, and `ffprobe` | Python resolved at `C:\Users\joe\AppData\Local\Programs\Python\Python314\python.exe`, version `3.14.3`; all named extractor/decoder modules and executables were absent. | Python exists for audit execution, but no admitted local extraction or decoding stack exists. |
+| Python module/tool identity check for `yt_dlp`, `youtube_dl`, `cv2`, `av`, `imageio`, `moviepy`, `yt-dlp`, `youtube-dl`, `ffmpeg`, and `ffprobe` | Python resolved at `AppData\Local\Programs\Python\Python314\python.exe`, version `3.14.3`; all named extractor/decoder modules and executables were absent. | Python exists for audit execution, but no admitted local extraction or decoding stack exists. |
 | Focused repo file scan for `TzSEvmqxu48`, PTUJ/Pull That Up Jamie, source/media/frame/output-manifest names, and common media/image extensions | No repo-local `TzSEvmqxu48` media/source package, frame artifact, or output manifest candidate was found. | There are no admissible local source bytes or decoded outputs to checksum. |
 | Focused text scan over `explorations`, `tests`, and `sources` for PTUJ branch/manifest terms | Found prior locator, contract, non-receipt, and blocked-gate artifacts; found no accepted source-byte/output manifest. | The repo contains the branch contract and decision history, not the missing source object. |
 

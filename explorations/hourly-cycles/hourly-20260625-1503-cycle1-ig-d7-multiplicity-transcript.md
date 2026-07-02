@@ -90,7 +90,7 @@ Local tool checks performed in this lane:
 ```text
 Get-Command lie,LiE,sage,sage.exe,sage.bat,wsl,python
   wsl.exe: present at C:\WINDOWS\system32\wsl.exe
-  python.exe: present at C:\Users\joe\AppData\Local\Programs\Python\Python314\python.exe
+  python.exe: present at AppData\Local\Programs\Python\Python314\python.exe
   lie/LiE/sage/sage.exe/sage.bat: not found
 
 wsl --status

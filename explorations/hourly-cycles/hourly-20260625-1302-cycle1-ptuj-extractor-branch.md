@@ -59,7 +59,7 @@ Additional repo-local checks performed in this lane:
 | repo-local file scan under `automation`, `sources`, and `explorations` for PTUJ/TzSEvmqxu48 media or source files | Found prior PTUJ artifacts and unrelated RS temporary images; no local `TzSEvmqxu48` media/source file was found. | There is no local input asset to decode as part of this branch. |
 | `Get-Command yt-dlp`, `Get-Command youtube-dl`, `Get-Command ffmpeg` | All unresolved. | The local command-line extraction/decoding stack is absent. |
 | Python `importlib.util.find_spec("yt_dlp")` | `False`. | The Python extractor module is absent. |
-| `Get-Command python` | Python exists at `C:\Users\joe\AppData\Local\Programs\Python\Python314\python.exe`. | Python alone is not a lawful video extractor or decoder. |
+| `Get-Command python` | Python exists at `AppData\Local\Programs\Python\Python314\python.exe`. | Python alone is not a lawful video extractor or decoder. |
 
 The repo also contains prior positive locator evidence: `TzSEvmqxu48` is the
 Pull That Up Jamie visual-aid video id, the official PTUJ page caption names

@@ -1,5 +1,5 @@
 ﻿Cannot find an overload for "Kill" and the argument count: "1".
-At C:\Users\joe\JB\Github Repos\gu-formalization\automation\run-hourly-frontier.ps1:134 char:13
+At Github Repos\gu-formalization\automation\run-hourly-frontier.ps1:134 char:13
 +             $process.Kill($true)
 +             ~~~~~~~~~~~~~~~~~~~~
     + CategoryInfo          : NotSpecified: (:) [], MethodException

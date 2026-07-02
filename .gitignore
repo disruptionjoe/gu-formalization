@@ -6,3 +6,6 @@ __pycache__/
 # Durable artifacts -> JB/library/repos/public/gu-formalization/; secrets -> the vault.
 # See CapacityOS/system/meta/architecture/artifact-information-architecture.md.
 _local/
+
+# Internal CapacityOS fan-out run records (ops artifacts; not published)
+steward/runs/
