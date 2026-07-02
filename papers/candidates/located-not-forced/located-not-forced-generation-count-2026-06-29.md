@@ -6,8 +6,10 @@ load-bearing caveats hold throughout: **(a)** the torsion-count reading is a *pr
 literal integer-index reading the same obstructions would instead *forbid* an odd count outright; **(b)** the
 order-3 class cannot literally *be* an integer count, since `Hom(Z/3, Z) = 0` (no homomorphism from a torsion
 group to a torsion-free one is nonzero); **(c)** the generation count is *external on present evidence*, not
-necessarily external; **(d)** the antilinear non-existence leg is an *open finite adversarial hunt, not a closed
-proof*; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
+necessarily external; **(d)** the antilinear non-existence leg is *closed over a delimited class* (every Krein-compatible
+antilinear operator on the carrier, any covariance down to symmetry-free: an index-nullity theorem,
+`canon/antilinear-bound-RESULTS.md`); outside that class admissibility itself fails, and the function-space
+setting remains open; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections 1 and 9.
 
@@ -47,8 +49,19 @@ the theorem statement (completeness of the enumeration is open), added the chain
 Pati-Salam "1" (one reduction chain among many), marked every "locates the slot" phrasing as interpretation with
 the `Hom(Z/3,Z)=0` flag adjacent, added the Theorem 2 finite-dimensional-kinematics scope sentence (the
 function-space extension named as open), retitled the "single decider / honest gate" colloquialisms, and added
-the computational pointer for the Spin(9,5) Hom-vanishing remark. See CHANGELOG-v2.5.1-adversarial-review.md.
-Publication DEFERRED (2026-07-02) pending WC-ENUM-COMPLETENESS and WC-ANTILINEAR-BOUND (see STAGING-NOTES.md).
+the computational pointer for the Spin(9,5) Hom-vanishing remark. See CHANGELOG-v2.5.1-adversarial-review.md; v2.5.2 antilinear-bound
+upgrade (2026-07-02) -- caveat (d) and the antilinear legs of the abstract, intro item 3, Section 6, the status
+table, and the conclusion upgraded from finite adversarial hunt to a delimited index-nullity theorem
+(WC-ANTILINEAR-BOUND). See CHANGELOG-v2.5.2-antilinear-bound.md.
+v2.6 enum-completeness upgrade (2026-07-02) -- Theorem 1, the abstract, intro item 1, and the status table
+upgraded from "completeness of the enumeration is open" to "complete for the delimited class C" (computed grade,
+engine-swept beyond C with a sharp boundary; completeness over the unrestricted / function-space theory remains
+open), in response to a third adversarial review whose lead criticism was enumeration completeness
+(WC-ENUM-COMPLETENESS); also added a one-sentence representation-theory method for the Spin(9,5) Hom-vanishing
+computation. See CHANGELOG-v2.6-enum-completeness.md.
+Publication DEFERRED (2026-07-02) pending Joe's review; both gating cards now carry staged results, and the
+enum-completeness result is folded into the paper text at v2.6 (WC-ENUM-COMPLETENESS, WC-ANTILINEAR-BOUND -- see
+STAGING-NOTES.md).
 
 ---
 
@@ -65,8 +78,13 @@ First, a **2-primary meta-theorem**: every *enumerated* obstruction to a net chi
 mod-`2^k` (Kramers, the real/pseudoreal mod-2 Witten index, the cross-chirality Krein signature, the adjoint
 index `4k`, Rokhlin mod 16, a spinor 2-smoothness lemma, ghost parity), so the no-go is arithmetically
 incapable of imposing an odd-prime congruence and is structurally blind to the 3-primary summand of
-`pi_3^s = Z/24 = Z/8 (+) Z/3`. **This no-go is conditional on the enumerated obstruction list; completeness of
-the enumeration is open** -- Theorem 1 is not an impossibility statement over all conceivable obstructions.
+`pi_3^s = Z/24 = Z/8 (+) Z/3`. **The enumeration is complete for a delimited class C** of covariant, sector-interior structures (linear or
+antilinear on the carrier, equivariant under the sector's `so(4) (+) so(10)`, built from the sector's own data):
+a computed-grade classification finds every class-C generator 2-primary, and an adversarial engine sweeping
+beyond C finds no sector-interior odd-prime congruence, with a demonstrably sharp boundary (odd primes first
+appear one step outside C: `54 -> 3`, `120 -> 7`, `126 -> 5.7`; `canon/enum-completeness-class-c-RESULTS.md`).
+**Completeness over the full unrestricted / function-space theory remains open** -- Theorem 1 is not an
+impossibility statement over all conceivable obstructions.
 Second, a **machine-verified index-conservation theorem**: the invariant Krein
 form on the generation triplet is purely cross-chirality `(+96, -96)`, so every *linear* Krein-isometric
 operator conserves the net chiral index at zero -- a finite-dimensional fact (the cross-chirality `(96,96)` form
@@ -87,15 +105,16 @@ cannot itself be a count), and the only count-*forcing* operator is
 frame-trivial and couples to the gauge (2-primary) channel.
 
 We then attempt the single calculation that could decide an integer count on GU's actual 14-manifold and find
-it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger source action); the only honest
-computable generation integer is **one** (GU's own Pati-Salam `Spin(7,7)` chain). A toy of that source action,
+it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger source action); the only
+unconditionally computable generation integer in this program is **one** (GU's own Pati-Salam `Spin(7,7)` chain). A toy of that source action,
 built and adversarially tested four ways, does **not** fill the forcing slot -- every integer it produces is
 2-primary or one -- which hardens the RS-side gate verdict from conjecture to computation at toy level (the
 actual stabilized action remains unbuilt). Reopened GU-independently, the
 obstruction is a **class-level structural no-go** (computed and adversarially verified): no covariant operator
 interior to a Clifford-RS sector of this type was found to force an odd chiral count -- frame-triviality is
-evadable only into a 2-primary, index-conserving channel, and no frame-non-trivial antilinear loophole survived
-an adversarial hunt (an exhaustive non-existence proof is open). On present evidence the generation count is
+evadable only into a 2-primary, index-conserving channel, and the antilinear loophole is closed by a delimited
+index-nullity theorem (every Krein-compatible antilinear operator, down to symmetry-free, keeps every physical
+subspace's net chiral index at exactly 0; outside that class admissibility itself fails). On present evidence the generation count is
 therefore **external** -- supplied by a net-self-dual chiral background of the general kind that produces
 chirality in known chiral theories (chiral gauge couplings, instanton zero-modes, `K3` / Calabi-Yau
 compactification). We therefore do **not** claim three generations. We claim a no-go that *locates*: it pins the unique CRT-disjoint sector where an odd
@@ -121,8 +140,11 @@ This paper turns that obstacle into a positive structural statement, in one expl
 the strongest possible reading of it by direct computation. Our contributions:
 
 1. **A 2-primary meta-theorem (Section 4).** Every *enumerated* obstruction to a net chiral count in this sector
-   is even or mod-`2^k` (scoped to the listed classes). The no-go is conditional on the enumerated obstruction
-   list; completeness of the enumeration is open. [theorem, theory-independent]
+   is even or mod-`2^k`. The enumeration is complete for a delimited class C of covariant, sector-interior
+   structures (computed grade), and an adversarial engine sweeping beyond C finds no sector-interior odd-prime
+   congruence with a sharp boundary (`canon/enum-completeness-class-c-RESULTS.md`); completeness over the full
+   unrestricted / function-space theory remains open. [theorem (enumeration); class-C completeness computed-grade;
+   theory-independent]
 2. **A CRT two-arena structure (Section 5).** `pi_3^s = Z/24 = Z/8 (+) Z/3` splits, by the Chinese Remainder
    Theorem, into disjoint summands. Every obstruction *and* every chiralizing selector lives in `Z/8`; a
    homotopy-theoretic count lives only in `Z/3`. The two arenas cannot interact directly within the group
@@ -136,18 +158,19 @@ the strongest possible reading of it by direct computation. Our contributions:
    Reopened GU-independently: **no covariant operator found -- linear or antilinear -- interior to a Clifford-RS
    sector of this class forces an odd chiral count.** Frame-triviality is evadable, but only into a 2-primary,
    index-conserving channel (a linear `O = L_SD (x) X_L` is net-chiral and frame-active, yet by Theorem 2
-   forces no count), and no frame-non-trivial antilinear loophole survived an adversarial hunt (every candidate
-   is chirality-reversing, carrier-leaking, or a gauge dressing with `p_1 = 0`; an exhaustive non-existence
-   proof is open). On present evidence the generation count is therefore **external**, supplied by a
+   forces no count), and the antilinear loophole is closed by a delimited index-nullity theorem (all
+   Krein-compatible antilinear operators, down to symmetry-free; `canon/antilinear-bound-RESULTS.md`). On
+   present evidence the generation count is therefore **external**, supplied by a
    net-self-dual chiral background of the general kind that produces chirality in known chiral theories.
-   [computed structural no-go, theory-independent; linear leg theorem-grade, antilinear non-existence a finite
-   adversarial hunt]
+   [computed structural no-go, theory-independent; linear leg theorem-grade, antilinear leg closed over the
+   delimited Krein-compatible class (function-space extension open)]
 4. **A located order-3 carrier (Section 7).** The self-dual `Lambda^2_+` tangential framing on the `RP^3`
    spine carries `e_R = 1/12`, a genuine order-3 class in the `Z/3` summand -- shown by computation to be
    tangential but vectorlike and homotopy-fixed: it locates, it does not fill ("locates" is an interpretive
    gloss under the torsion-count reading, not an additional computed quantity).
 5. **The deciding computation, and the gate (Section 8).** The integer count on GU's actual 14-manifold is
-   gated on the unbuilt twisted Rarita-Schwinger source action; the only honest computable integer is one.
+   gated on the unbuilt twisted Rarita-Schwinger source action; the only unconditionally computable integer in
+   this program is one.
    We do not force three.
 6. **The open conjecture (Section 9).** `order-3-class -> integer-3` is a theorem of nothing in the present
    literature and is a candidate category error. We state it as the single open bridge and request review.
@@ -237,11 +260,18 @@ the sector locates a genuine three (as a multiplicity) and does not force a thre
 Call an integer or torsion invariant **2-primary** if it is a power of two, a multiple of one, or a
 statement modulo a power of two.
 
-**Theorem 1 (a no-go conditional on the enumerated obstruction list).** *Among the obstructions to a net chiral
+**Theorem 1 (a no-go, complete for the delimited class C).** *Among the obstructions to a net chiral
 generation count enumerated for this sector (items (1)-(7) in the proof below), none is an odd-prime congruence:
 every enumerated obstruction is even or a statement modulo a power of two, and in particular none imposes a mod-3
-condition. The no-go is conditional on this enumerated list: completeness of the enumeration is an open question,
-and the claim is not an impossibility statement over all conceivable obstructions.*
+condition. The enumeration is complete for the delimited class C of covariant, sector-interior structures (linear
+or antilinear on the carrier, equivariant under the sector's split symmetry `so(4) (+) so(10)`, built from the
+sector's own data): a computed-grade classification finds every class-C generator 2-primary
+(`canon/enum-completeness-class-c-RESULTS.md`), and an adversarial extension engine sweeping beyond C -- gauge-twist,
+boundary/`eta`, composition and dressed-pairing channels -- finds no sector-interior structure imposing an
+odd-prime congruence, with the class boundary demonstrably sharp (odd primes first appear one step outside C's
+data: `54 -> 3`, `120 -> 7`, `126 -> 5.7`). Completeness over the full unrestricted operator theory -- external
+backgrounds, gauge twists by reps the sector does not contain, and the function-space / Fredholm setting --
+remains open; the claim is not an impossibility statement over all conceivable obstructions.*
 (The loose "even" reading is near-vacuous -- `96 = 2^5 . 3` is even; the content is the modular statement, that no
 enumerated obstruction is a mod-odd-prime condition.)
 
@@ -336,7 +366,7 @@ chirality; it cannot reach the carrier arena `Z/3`.
 GU-independent).** Reopened without GU restriction, the question is whether *any* operator on a Clifford-RS
 carrier of this type -- a real `Cl(p,q)`, `p+q = 14`, gamma-traceless rank-3/2 field, the `j=1` triplet carrying
 a purely cross-chirality `(+96, -96)` Krein form -- can be both net-chiral and reach the tangent-frame (`p_1`)
-channel where the order-3 carrier lives. The honest answer is a refined no-go
+channel where the order-3 carrier lives. The precise answer is a refined no-go
 (`canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md`). The clean statement -- "net
 chirality and frame charge have orthogonal support, so no operator can be both" -- is in fact **false** on the
 carrier: its self-dual `V`-`S` entanglement (`J_3 = id (x) sgen + lvec (x) id`) gives the chirality grading
@@ -348,10 +378,20 @@ no count. The one genuine loophole Theorem 2 leaves -- a frame-non-trivial *anti
 hunted adversarially over candidate families on the `Cl(9,5)` representative and **none was found**: every
 candidate is chirality-reversing (net 0), carrier-leaking, or a gauge dressing continuously deformable to the
 frame-trivial identity (connected stabilizer, topological `p_1 = 0`, forcing the identical vectorlike `+96`).
-The linear leg is theorem-grade (index conservation); the antilinear non-existence is a **finite adversarial
-hunt, not a closed proof** (an exhaustive non-existence theorem over the infinite-dimensional antilinear space
-is open). **On present evidence, then, no covariant operator interior to a Clifford-RS sector of this class
-forces an odd chiral count.** GU's frame-trivial chiralizer is one instance.
+The hunt has since been closed by a **delimited theorem** (`canon/antilinear-bound-RESULTS.md`,
+`tests/antilinear-bound/`): over the class of ALL Krein-compatible antilinear operators on the carrier
+(`M^dag K M = lambda K-bar`, `lambda` real nonzero -- any covariance from full equivariance down to
+symmetry-free, with no square or continuity assumption), every operator maps the chirality eigenspaces to a
+K-Lagrangian pair, so every physical subspace keeps net chiral index exactly 0 under every admissible
+antilinear re-grading (machine-certified; independently re-verified, including on `Cl(7,7)`, with a Euclidean
+`(14,0)` control showing the cross-chirality premise is load-bearing). Frame-non-trivial admissible class-CII
+swap operators DO exist once all symmetry is dropped (exhibited in closed form) -- and none is a chiralizer:
+Krein compatibility alone pins the index. The linear leg is theorem-grade (index conservation); the antilinear
+leg is closed over this delimited class; the residual is exactly the operators that break Krein/ghost
+compatibility -- for which admissibility itself fails (they do not act on the sector's physical states) -- and
+the function-space setting (a separate named open problem). **No operator interior to a Clifford-RS sector of
+this class -- linear, or antilinear in the delimited Krein-compatible class -- forces an odd chiral count.**
+GU's frame-trivial chiralizer is one instance.
 
 **The count is therefore external on present evidence.** Forcing an odd chiral count requires an *external*
 net-self-dual chiral background coupled through the index theorem (`int_X A-hat ch`). This is not a contrived
@@ -415,7 +455,7 @@ independent from-scratch re-verification, exit 0, all controls reproduced). The 
   action (the `+8` Rarita-Schwinger leg of `ind_H = 8*A-hat(K3) + 8`). Every analytic route to it failed
   (ten Atiyah-Singer routes gave `{960, -288, -384, -192, -336, -128, 128, -8, -480, 60}`, none `= 16`); the
   computation explicitly refused it rather than fabricating a fit.
-- **The only honest computable generation integer is one.** GU's verified Pati-Salam
+- **The only unconditionally computable generation integer in this program is one.** GU's verified Pati-Salam
   `Spin(7,7) -> Spin(6) x Spin(4)` chain gives 16 chiral states = exactly one anomaly-free generation
   (`Tr Y = Tr Q = 0`, `16 // 16 = 1`; "2+1 effective"). The `Spin(7,7)` Pati-Salam chain is one reduction
   among many possible symmetry-breaking chains; the integer 1 it yields is chain-relative, not
@@ -426,7 +466,7 @@ independent from-scratch re-verification, exit 0, all controls reproduced). The 
   frame-triviality of Section 6 -- structural and convention-independent.
 
 So under the decision rule fixed in advance, the strong reading dies twice over: the integer is not three
-(it is gated, and the only honest one is one), and the fork lands gauge. Controls reproduced exactly:
+(it is gated, and the only unconditionally computable one is one), and the fork lands gauge. Controls reproduced exactly:
 `ch_2(S_X)[K3] = -5376 = -2^8 . 3 . 7` (the apparent "24" is a disguised `chi(K3)` import via `2chi+3sigma=0`,
 rejected; a `chi`-route gives `ch_2 = 0`); `A-hat(K3) = 2`; the charge-`q` `eta` family; Pati-Salam `-> 1`.
 
@@ -449,7 +489,7 @@ stabilization; the twisted spin-3/2 AGW index on K3; the RS frame-index operator
 the gravitino anomaly polynomial), each angle adversarially re-verified (`tests/forcing-slot/`,
 `canon/forcing-slot-toy-rs-RESULTS.md`). The RS sector reaches at most two of the three properties, never all
 three with a 3-primary integer. Every computed integer lands in the selector arena or equals one: `256 = 2^8`
-(a tautological projector trace, honest physical-sector index 0), `-672 = -2^5 . 3 . 7`, `-42 == 0 (mod 3)`
+(a tautological projector trace, with physical-sector index 0), `-672 = -2^5 . 3 . 7`, `-42 == 0 (mod 3)`
 (the `Z/3` identity), the HP^2 unit `1`. The gravitino anomaly is not an odd-prime exception: every spin-3/2
 coefficient is 2-primary up to von Staudt-Clausen denominators (no factor 3 in any numerator), and the
 twisted-by-16 index `16(-42) + 3 ch_2(V)` is `== 0 (mod 3)` for every integer twist. The RS field is the unique
@@ -480,9 +520,11 @@ subspace). The only operator that breaks the balance is the antilinear chiralize
 order-3 carrier resides. So the gate is now one physical term: **the carrier Dirac mass plus the selector-side
 chiral projection GU never built** -- and the carrier resolves either way (massless modulus or massive-decoupled)
 to zero net chiral generations absent an operator GU does not provide. Located, not forced, confirmed at the
-mass/dynamical level. Consistently, exact `Spin(9,5)` representation theory (computed;
-`tests/chase/MOVE-4/move4_spinor_square_forms.py`, with the independent re-check
-`tests/chase/MOVE-4/verify/indep_check.py`) gives
+mass/dynamical level. Consistently, exact `Spin(9,5)` representation theory (computed by decomposing `S^+ (x) S^+` over the explicit
+`Cl(9,5) = M(64,H)` gamma matrices into the Clifford form-degree basis `End(S) = (+)_k Lambda^k` and solving for
+the `Spin(9,5)`-invariant bilinear space by trace-orthonormal projection onto antisymmetrized Clifford words
+(checksum `sum_k mult = 128^2 = 16384`); `tests/chase/MOVE-4/move4_spinor_square_forms.py`, with the independent
+re-check `tests/chase/MOVE-4/verify/indep_check.py`) gives
 `dim Hom_{Spin(9,5)}(S^+ tensor S^+, Lambda^0) = 0`: no invariant same-chirality Majorana scalar-mass bilinear
 exists in the equivariant family (the scalar bilinear pairs only `S^+ <-> S^-`), so that mass channel too must be
 supplied by an external source-action term. This is a consistency remark about the spinor-square channel, not a
@@ -492,7 +534,7 @@ statement about the 192-dimensional carrier's Dirac mass.
 
 ## 9. What is not claimed: the open conjecture
 
-We do **not** claim three chiral generations. The honest verdict is **located, not forced.** The single open
+We do **not** claim three chiral generations. The supported verdict is **located, not forced.** The single open
 bridge is
 
 > `order-3-class -> integer-3`.
@@ -561,18 +603,18 @@ feeding the two-arena reading.
 
 | Claim | Grade |
 | --- | --- |
-| The no-go is 2-primary (no odd-prime congruence) | theorem (theory-independent) |
+| The no-go is 2-primary (no odd-prime congruence); the enumeration is complete for the delimited class C | theorem (enumeration); class-C completeness computed grade, engine-swept beyond C with a sharp boundary (`canon/enum-completeness-class-c-RESULTS.md`); completeness over the unrestricted / function-space theory open |
 | CRT two-arena reading (`pi_3^s = Z/8 (+) Z/3`, summands disjoint) | decomposition standard; the two-arena structural reading is the contribution, under the torsion-count reading |
 | Linear Krein-isometric operators conserve the net chiral index | theorem (machine-verified) |
 | The unique escape is antilinear (class-CII type) | corollary (Wigner) + machine-verified |
 | The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed; frame-triviality is evadable only into a 2-primary, index-conserving linear channel |
-| No interior operator found forces an odd chiral count; the count is external on present evidence | class-level structural no-go (GU-independent); linear leg theorem-grade (index conservation), antilinear non-existence a finite adversarial hunt (exhaustive proof open) |
+| No interior operator forces an odd chiral count; the count is external on present evidence | class-level structural no-go (GU-independent); linear leg theorem-grade (index conservation); antilinear leg closed over the delimited Krein-compatible class (index-nullity theorem, `canon/antilinear-bound-RESULTS.md`; residual: non-Krein operators fail admissibility, function-space extension open) |
 | Forcing an odd count requires an external net-self-dual chiral background | computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin 3 |
 | Tangential `Lambda^2_+` framing carries `e_R = 1/12`, order 3 (carrier arena) | standard-result-applied (Kirby-Melvin); GU identification reconstruction-grade |
 | The carrier is vectorlike and homotopy-fixed (locates, does not fill) | computed-confirmed |
 | The disjointness-implies-blindness reading (a 2-primary no-go cannot constrain a 3-primary count) is novel; the bare `24 = 8x3` split is not (cf. Wang `24/8=3`) | best-effort literature search; no precedent found (negative result) |
 | The literal generation integer on GU's 14-manifold | GATED on the unbuilt source action |
-| The only honest computable generation integer | 1 (Pati-Salam `Spin(7,7)`, computed; chain-relative -- one reduction chain among many) |
+| The only unconditionally computable generation integer in this program | 1 (Pati-Salam `Spin(7,7)`, computed; chain-relative -- one reduction chain among many) |
 | `order-3-class -> integer-3` | OPEN; ill-typed as stated (`Hom(Z/3,Z)=0`); an integer needs a relative/rank home (the twisted-RS index) |
 | Toy stabilized twisted RS sector fills the forcing slot | NO (computed); reaches <=2 of 3 properties; every integer 2-primary or 1 |
 | "2+1" as a single additive count | numerology across disjoint frameworks (computed) |
@@ -592,7 +634,7 @@ unique order-3 object in the carrier arena and showed by computation that it is 
 homotopy-fixed -- it locates the slot, it does not fill it (an interpretive summary under the torsion-count
 premise; `Hom(Z/3, Z) = 0` blocks any literal class-to-count identification) -- and that the only count-*forcing* operator is
 frame-trivial and couples to the selector arena. The one calculation that could yield an integer on GU's
-actual geometry is gated on an unbuilt source action; the only honest computable integer is one.
+actual geometry is gated on an unbuilt source action; the only unconditionally computable integer in this program is one.
 
 We submit the 2-primary blindness theorem, the CRT two-arena structure, the index-conservation /
 antilinear-escape theorem, the located order-3 carrier, and -- reopened GU-independently -- the **class-level
@@ -603,8 +645,8 @@ chiral background of the general kind that produces chirality in known chiral th
 instanton zero-modes, `K3` / Calabi-Yau compactification); the `order-3-class -> integer-3` identification of
 that external datum remains the single named open conjecture (a candidate category error) rather than a claim.
 We do not claim three -- no computed quantity in this program equals three -- and the structural reason the
-count is not internal is now computationally established for the whole class (modulo an open exhaustive
-non-existence proof on the antilinear side). We request external review of both the core results and the open
+count is not internal is now computationally established for the whole class (the antilinear side closed
+over the delimited Krein-compatible operator class; the function-space extension remains open). We request external review of both the core results and the open
 bridge.
 
 ---
@@ -637,7 +679,7 @@ cross that boundary; the request for external review is a request to cross it.
 
 ## Appendix: Reproducibility -- the Pati-Salam one-generation verification
 
-The "only honest computable generation integer is one" of Section 8 rests on a self-contained group-theory
+The "only unconditionally computable generation integer in this program is one" of Section 8 rests on a self-contained group-theory
 verification of GU's Pati-Salam chain, reproduced here for completeness. The script
 `lab/active-research/pati_salam_chain_verification.py` (pure `numpy`) builds the `Spin(10)` chiral spinor `16`
 from its weights `(+/-1/2)^5` with an even number of minus signs, embeds Pati-Salam by partitioning the rank-5
@@ -682,4 +724,4 @@ theory. It does **not** provide the generation count: it does not establish that
 pattern, does not address the effective-chirality or "2+1" claims, and -- being a single generation -- says
 nothing about *how many* generations occur. Moreover the `Spin(7,7)` Pati-Salam chain is one reduction among
 many possible symmetry-breaking chains; the "1" it yields is chain-relative, not chain-independent. It is the integer "1" of Section 8, and its role in this paper is
-precisely that: the only honest computable generation integer, not a derivation of three.
+precisely that: the only unconditionally computable generation integer in this program, not a derivation of three.

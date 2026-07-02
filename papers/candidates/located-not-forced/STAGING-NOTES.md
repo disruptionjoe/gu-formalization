@@ -35,8 +35,11 @@ the slot without filling it.** Three generations is explicitly **not** claimed.
 - **Theorem 1 is proven by enumeration** over the listed obstructions; the universal phrasing ("no obstruction
   established in this sector...") should be read as scoped to the enumerated classes, not an impossibility over
   all conceivable obstructions.
-- **The antilinear non-existence leg is open** (a finite adversarial hunt over an infinite-dimensional space,
-  no counterexample found). It is not needed for the title claim.
+- **The antilinear non-existence leg is closed over a delimited class** (WC-ANTILINEAR-BOUND, 2026-07-02:
+  an index-nullity theorem over ALL Krein-compatible antilinear operators, down to symmetry-free;
+  `canon/antilinear-bound-RESULTS.md`). Residual: non-Krein antilinear operators fail admissibility (they do
+  not act on physical states); the function-space extension remains open (WC-FUNCTION-SPACE-EXT). It was never
+  needed for the title claim.
 
 ## Before posting (Joe's side)
 
@@ -108,3 +111,41 @@ deltas: retitled Section 8, slightly taller fbox-adjacent abstract, no new bibit
 abstract) remain valid but are on hold behind the two gating cards. On card closure: fold any resulting
 class-delimitation statements into the paper (likely a v2.6), rerun the publication gate, then proceed to the
 "Before posting" steps above on Joe's explicit go.
+
+## Gating-card status 2026-07-02 (same day, later): both cards now carry STAGED results
+
+- **WC-ENUM-COMPLETENESS: CLOSED at computed grade** (outcome (i)): class-C census complete, extension engine
+  finds no sector-interior escape, boundary sharp. `canon/enum-completeness-class-c-RESULTS.md` +
+  `tests/enum-completeness/`. Paper text NOT edited by that card (Theorem 1 wording upgrade pauses for Joe).
+- **WC-ANTILINEAR-BOUND: CLOSED** (outcome (a)+(b)): the antilinear hunt upgraded to a delimited index-nullity
+  theorem over all Krein-compatible antilinear operators (declared symmetry ladder down to symmetry-free), with
+  the hunted frame-active CII swap operators exhibited in closed form and shown non-forcing; residual stated.
+  `canon/antilinear-bound-RESULTS.md` + `tests/antilinear-bound/`. Minimal paper edits applied as **v2.5.2**
+  (`CHANGELOG-v2.5.2-antilinear-bound.md`) per that card's explicit instruction: caveat (d), abstract, intro
+  item 3, Section 6, status-table row, conclusion -- both copies in sync.
+
+**Publication remains DEFERRED**: it flips only when Joe reviews both gates (and decides the CANON.md
+promotions and the Theorem 1 wording upgrade). The Joe-side submission steps above then apply to v2.5.2+.
+
+## Third adversarial review + v2.6 enum fold-in (2026-07-02, later)
+
+A third adversarial peer review (of v2.5.1+v2.5.2) landed 2026-07-02. Verdict: no errors found; **arXiv-ready in
+current form** (hep-th / math-ph / math.AT); journal publication would benefit from external validation of the
+antilinear index-nullity theorem and progress on the function-space extension. Its lead criticism (#1) was that
+enumeration completeness remained the weakest structural link -- Theorem 1 still read "completeness of the
+enumeration is open." Every other criticism was already-fixed (v2.5.1/2.5.2) or already-disclosed scope the
+reviewer explicitly accepts (antilinear delimitation, finite-dimensional/function-space, unbuilt source action,
+internal-only verification, modest broad payoff).
+
+**Action (Joe-authorized):** fold the closed WC-ENUM-COMPLETENESS result into the paper as **v2.6**
+(`CHANGELOG-v2.6-enum-completeness.md`). Theorem 1, the abstract, intro item 1, and the status table now state
+the enumeration is complete for the delimited class C (computed grade, engine-swept beyond C with a sharp
+boundary; completeness over the unrestricted / function-space theory remains open). Added the reviewer's
+requested one-sentence representation-theory method for the Spin(9,5) Hom-vanishing remark. The GEM 3-primary
+contrast and the `order-3-class -> integer-3` future-work target the review also asked for were already present
+and left as-is. All three enum-completeness certificates were re-run this pass (exit 0) before the completeness
+language was written.
+
+**Still pending Joe (unchanged):** CANON.md promotion of both RESULTS files; the publication flip (stays
+DEFERRED); git commit/push. Both gates' results are now reflected in the paper text (antilinear v2.5.2, enum
+v2.6); only outside replication moves the internal-tier verification status (caveat e).

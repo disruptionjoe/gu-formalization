@@ -62,3 +62,14 @@ Publication **DEFERRED** (Joe, 2026-07-02) pending closure of **WC-ENUM-COMPLETE
 **WC-ANTILINEAR-BOUND** (work cards in `NEXT-STEPS.md`, 2026-07-02 publication-gating section).
 `WC-FUNCTION-SPACE-EXT` is post-publication and does not gate. STAGING-NOTES.md updated accordingly; the v2.4/
 v2.5 Joe-side submission steps (endorsement, Overleaf compile, metadata abstract) remain valid but on hold.
+
+## ADDENDUM (2026-07-02, Joe-authorized judgment call): "honest" purge
+
+Completing edit 5's colloquialism pass: every remaining body-prose "honest"/"honestly" in both copies
+(outside the already-fixed retitles and the version-history paragraph that quotes the old titles) replaced
+with neutral phrasing. "The only honest computable generation integer" -> "the only unconditionally computable
+generation integer in this program" (abstract, intro item 5, Section 8 bullet + parenthetical, Section 12,
+status table row, Pati-Salam appendix x2); "The honest answer is a refined no-go" -> "The precise answer ..."
+(Section 6); "honest physical-sector index 0" -> "with physical-sector index 0" (Section 8); "The honest
+verdict is located, not forced" -> "The supported verdict ..." (Section 9). 11 sites in the .md, 9 in the
+.tex; no theorem, proof, number, or grade changed.

@@ -257,7 +257,7 @@ Edits applied as **v2.5.1** (`CHANGELOG-v2.5.1-adversarial-review.md`). **Public
 |---|---|---|
 | 1 | Theorem 1 is proof-by-enumeration; completeness of the 7-item obstruction list is unproven and the conditionality was fine-print | edited-v2.5.1 (conditionality now prominent in abstract + theorem statement) + work-card **WC-ENUM-COMPLETENESS** (journal-gating) |
 | 2 | Theorem 2 is finite-dimensional linear algebra only; no function-space/Fredholm extension | edited-v2.5.1 (one scope sentence: finite-dimensional kinematics, function-space extension named open) + work-card **WC-FUNCTION-SPACE-EXT** (post-publication) |
-| 3 | The antilinear non-existence leg is a finite adversarial hunt, not a proof | work-card **WC-ANTILINEAR-BOUND** (journal-gating); already disclosed in-text as caveat (d), no prose change needed |
+| 3 | The antilinear non-existence leg is a finite adversarial hunt, not a proof | work-card **WC-ANTILINEAR-BOUND** (journal-gating) -- **CLOSED 2026-07-02**: delimited index-nullity theorem over all Krein-compatible antilinear operators (`canon/antilinear-bound-RESULTS.md`, staged); paper upgraded v2.5.2 (caveat (d) + antilinear legs); residual = non-Krein operators (admissibility fails) + function-space (WC-FUNCTION-SPACE-EXT); pauses for Joe |
 | 4 | No dynamics: all results are kinematic; the stabilized source action S_IG is unbuilt | accepted-scope (gated on the repo's top-level source-action card; the paper states the gate explicitly) |
 | 5 | GU provenance is a liability; residual advocacy tone | addressed-in-v2.5 (cut "referee-proof"; verification-tier caveat (e) added) + accepted-scope (strategic; presentation already maximally detached) |
 | 6 | Interpretive language ("locates the slot") presented alongside computation; novelty overclaim | addressed-in-v2.5 (Theorem 2 novelty conceded, NCG Krein-SM precedent cited) + edited-v2.5.1 (all four "locates" sites marked interpretation, `Hom(Z/3,Z)=0` flag adjacent at each) |
@@ -266,3 +266,25 @@ Edits applied as **v2.5.1** (`CHANGELOG-v2.5.1-adversarial-review.md`). **Public
 | m1 | "honest gate" colloquialism | edited-v2.5.1 (Section 8 retitled "The deciding computation, and the gate"; "Honestly gated" -> "Gated, not fabricated") |
 | m2 | "single decider" colloquialism | edited-v2.5.1 (retitled as above; "single-decider integers" -> "decider integers" in reproducibility text; test-dir/canon file names unchanged) |
 | m3 | Spin(9,5) Hom-vanishing remark lacks a computational-details pointer | edited-v2.5.1 (pointer added: `tests/chase/MOVE-4/move4_spinor_square_forms.py` + `tests/chase/MOVE-4/verify/indep_check.py`) |
+
+---
+
+# Third adversarial peer review (received 2026-07-02, of v2.5.1+v2.5.2) -- disposition
+
+Verdict: no errors found; **arXiv-ready in current form** (hep-th / math-ph / math.AT); journal publication would
+benefit from external validation of the antilinear index-nullity theorem and progress on the function-space
+extension. The recommendation matches the repo's own staging. Disposition of its numbered criticisms:
+
+| # | point (condensed) | disposition |
+|---|---|---|
+| 1 | Enumeration completeness is the weakest structural link (Theorem 1 still "completeness open") | **folded in v2.6**: WC-ENUM-COMPLETENESS result (complete for delimited class C, computed grade, engine-swept, sharp boundary; unrestricted / function-space open) now in Theorem 1 + abstract + intro item 1 + status table (`CHANGELOG-v2.6-enum-completeness.md`) |
+| 2 | Delimited antilinear theorem still narrowly scoped (non-Krein + function-space out) | accepted-scope: exactly the residual stated in v2.5.2 caveat (d); non-Krein fails admissibility, function-space = WC-FUNCTION-SPACE-EXT |
+| 3 | Finite-dimensional kinematics vs actual physics (Fredholm / spectral flow open) | accepted-scope: Theorem 2 scope sentence (v2.5.1) + WC-FUNCTION-SPACE-EXT (post-publication) |
+| 4 | "External on present evidence" not compared to other family-puzzle mechanisms | already-present: GEM's genuinely 3-primary `Z_9` anomaly cited as the sharpest contrast (intro) |
+| 5 | Toy forcing-slot test remains a toy (source action unbuilt) | accepted-scope: gated on the top-level source-action card; stated in-text |
+| 6 | Internal-only verification is a substantive limit | accepted-scope: caveat (e); external replication is what posting solicits (folding in a computed result does not change tier) |
+| 7 | Physical payoff modest even with hedging | accepted-scope: the paper explicitly does not claim three / does not resolve the general puzzle |
+| 8 | Minor: Spin(9,5) remark would benefit from a stated rep-theory method | **edited-v2.6**: one-sentence method added (form-degree decomposition + trace-orthonormal nullspace solve, checksum `128^2`) |
+
+Overall: the review ratifies the current state and independently confirms enumeration completeness as the top
+gap; v2.6 folds in the closed card. Publication stays DEFERRED pending Joe (CANON.md promotions + the flip).

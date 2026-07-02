@@ -119,6 +119,24 @@ imposing an odd-prime congruence. That is a kill for Theorem 1 as scoped -- repo
 in `tests/enum-completeness/` walking covariant operator words in the Clifford basis crossed with the
 {frame, gauge-coupled, boundary} channels; one classification proof note if route (a) lands.
 
+**STATUS (2026-07-02): CLOSED at computed grade -- outcome (i) of the honest-outcome menu, pending Joe review.**
+Both routes landed. Route (a): the class-C generator census is computed exactly (spaces 2/2/2/2 under the full
+split covariance so(4)+so(10); all invariant forms purely cross-chirality; all antilinear structures T-type,
+quaternionic per block, NO equivariant antilinear re-grading exists at all -- which also settles the
+equivariant core of WC-ANTILINEAR-BOUND); robust down to so(10)-only covariance (72/72/72/72). Route (b): the
+extension engine finds NO sector-interior odd-primary obstruction (category-D count 0) and shows the class
+boundary is SHARP (odd primes at the first step beyond the sector's data: 54 -> 3, 120 -> 7, 126 -> 5*7,
+j=3/2 quartet -> 5, all category-C external). The failure condition did NOT fire. Artifacts:
+`canon/enum-completeness-class-c-RESULTS.md` (staged, NOT CANON.md-promoted -- pauses for Joe);
+`tests/enum-completeness/{enum_class_c_generators.py, enum_extension_engine.py, verify/indep_check.py}`
+(all exit 0 this pass; ~26 s + <5 s + ~17 s); DERIVATION-PROGRESS.md ENTRY WC-ENUM-COMPLETENESS. Paper text
+not edited (outcome is (i), not (iii)); the Theorem 1 wording upgrade to "complete for the delimited class C,
+engine-swept" is drafted in the RESULTS file and pauses for Joe with the promotion decision. **UPDATE 2026-07-02 (later):
+folded into the paper as v2.6** (Joe-authorized after a third adversarial review flagged enumeration completeness
+as its lead criticism) -- Theorem 1 + abstract + intro item 1 + status table now state class-C completeness
+(computed grade, engine-swept, sharp boundary; unrestricted / function-space open); `CHANGELOG-v2.6-enum-completeness.md`.
+CANON.md promotion of the RESULTS file still pending Joe.
+
 ### WC-ANTILINEAR-BOUND (journal-gating; priority 2)
 
 **Statement.** The paper's antilinear non-existence leg (caveat (d)) is a finite adversarial hunt over an
@@ -137,6 +155,28 @@ Section 6 escape analysis; report and rewrite, do not patch.
 plausibly provable outright: antilinear intertwiners form a finite-dimensional space computable by CAS; the
 topology/closure statement over the functional class is the real work); certificate script in
 `tests/antilinear-bound/`; RESULTS file with the class definition, the certificate, and the residual.
+
+**STATUS (2026-07-02): CLOSED -- outcome (a)+(b), a delimited THEOREM with exhaustive per-rung
+certificates, pending Joe review.** The search space S is delimited as ALL Krein-compatible antilinear
+operators on the 192-dim carrier (M^dag K M = lambda K-bar, lambda real nonzero -- the antiunitary condition,
+which on this carrier IS ghost-pairing compatibility), with a declared 9-rung symmetry-breaking ladder from
+full so(4)+so(5,5) down to symmetry-free. Per rung: swap (chiralizer-shaped) intertwiners do not exist at all
+wherever the internal so(5,5) or its split Cartan survives (proof; exact weight combinatorics reproduces every
+census dimension); where they exist with the frame so(4) intact (so(9) rungs) they are frame-trivial BY
+EQUIVARIANCE and strict admissibility is refuted by an exact closed-form certificate; only the both-broken rung
+and below admit frame-active swaps. The symmetry-free bottom is closed by the INDEX-NULLITY THEOREM: every C in
+S maps the chirality pair to a K-Lagrangian pair, so every physical subspace keeps net chiral index EXACTLY 0
+under every admissible antilinear re-grading. Sharpest honest point: the hunted operator (frame-non-trivial
+antilinear CII swap) EXISTS in S -- constructed in closed form, all four (C^2, lambda) sign patterns -- and
+still forces nothing; existence was never the issue. The failure condition did NOT fire. Residual (one
+sentence, in the RESULTS file and the paper): outside S admissibility itself fails (non-Krein antilinear
+operators do not act on the sector's physical states -- computed control); the function-space setting is
+WC-FUNCTION-SPACE-EXT. Artifacts: `canon/antilinear-bound-RESULTS.md` (staged, NOT CANON.md-promoted -- pauses
+for Joe); `tests/antilinear-bound/{antilinear_ladder_census.py, antilinear_symmetry_free_bound.py,
+verify/indep_check.py}` (all exit 0 this pass; ~39 s + ~2 s + ~4 s; 247 hard asserts); paper edited v2.5.2
+(both copies, minimal: caveat (d), abstract, intro item 3, Section 6, status table, conclusion;
+CHANGELOG-v2.5.2-antilinear-bound.md); DERIVATION-PROGRESS.md ENTRY WC-ANTILINEAR-BOUND. Publication stays
+DEFERRED: both gates now carry staged results and flip only on Joe's review.
 
 ### WC-FUNCTION-SPACE-EXT (post-publication; priority 3)
 
