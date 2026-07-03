@@ -1,5 +1,5 @@
 ---
-title: "Rarita-Schwinger function-space framework: the foundation for closing WC-FUNCTION-SPACE-EXT. Sets up the RS-section Krein-Hilbert space, the operator and its hypotheses, and the index decomposition ind(D_RS) = bulk + APS-boundary-eta + family-index. STEP 1-2 DONE (computed): the BULK RS index I_{3/2} = 21*sigma/8 is 2-primary by Rokhlin (== 0 mod 3 for every spin 4-manifold and every twist -- it never reaches the Z/3 generation arena). A reusable characteristic-class / index harness reproduces the canon values (K3 -42, K3#K3 -84, T^4 0, twist-16 -672) and is the shared engine for the bulk and the family index. STEP 2 (boundary eta) and STEP 3 (K3 family-index pushforward -- the crux) are precisely scoped stubs."
+title: "Rarita-Schwinger function-space framework: the foundation for closing WC-FUNCTION-SPACE-EXT. Sets up the RS-section Krein-Hilbert space, the operator and its hypotheses, and the index decomposition ind(D_RS) = bulk + APS-boundary-eta + family-index. STEP 1-2 DONE (computed): the BULK RS index I_{3/2} = 21*sigma/8 is 2-primary by Rokhlin (== 0 mod 3 for every spin 4-manifold and every twist -- it never reaches the Z/3 generation arena). A reusable characteristic-class / index harness reproduces the canon values (K3 -42, K3#K3 -84, T^4 0, twist-16 -672) and is the shared engine for the bulk and the family index. STEP 2 (boundary eta) is now DONE (2-primary, 2026-07-03, canon/rs-boundary-eta-2primary-RESULTS.md); STEP 3 (K3 family-index pushforward -- the crux) has obligations 1-2 scaffolded and 3-5 open."
 status: staged
 doc_type: spec
 created: 2026-07-02
@@ -58,18 +58,24 @@ for spin 4-manifolds), `I_{3/2} = 42k`, hence **`== 0 mod 3` identically**; and 
 the fixed Hirzebruch `p_1 = 3*sigma`, generation-independent (identical for 1, 3, 5, ...). This
 lifts the finite "interior even" to the actual operator's **bulk**.
 
-## 5. STEP 2 -- BOUNDARY / APS eta: SCOPED STUB
+## 5. STEP 2 -- BOUNDARY / APS eta: DONE (computed, 2-primary)
 
 On `X` with boundary / ends, add `(eta_partial + h)/2` (APS). Obligation: compute the eta-invariant
 of the **RS boundary operator** and decide its parity.
 - **Available:** the sector's own boundary is the `RP^3 = L(2;1)` spine, whose reduced eta is already
   computed 2-primary (`canon/boundary-eta-of-mu-RESULTS.md`). Lens-space eta invariants have closed
   forms.
-- **To do:** extend that to the full RS boundary operator; the expected (falsifiable) result is that
-  the sector's *own* boundary eta is 2-primary/even -- so an odd count cannot come from the sector's
-  own boundary either, only from an external topological background.
+- **DONE (2026-07-03, `canon/rs-boundary-eta-2primary-RESULTS.md`):** extended to the FULL RS boundary
+  operator `D_RS = E + E^dag`. Its net self-dual tangent-frame charge is `0` (computed, two independent
+  angles; `Pi`, `M_D`, `D_RS` all non-chiral, while the `Lambda^2_+` control registers `33.94`), so it
+  carries no tangent-frame `p_1` and cannot feed the gravitational `-p_1/24` channel; the only residue
+  is the charge-`q` lens type `(2q^2-4q+1)/8` (denominator 8, 2-primary), with spectral eta `0`
+  (cross-chirality `(+96,-96)` balance). **Verdict: the sector's own boundary eta is 2-PRIMARY/EVEN --
+  an odd count cannot come from the sector's own boundary, only from an external topological
+  background.** The expected falsifiable result held. Scripts: `tests/rs-function-space/rs_boundary_eta_l21.py`
+  (+ `verify/rs_boundary_eta_indep_check.py`).
 
-## 6. STEP 3 -- FAMILY INDEX / K3 pushforward: THE CRUX (scoped stub)
+## 6. STEP 3 -- FAMILY INDEX / K3 pushforward: THE CRUX (obligations 1-2 scaffolded 2026-07-03; 3-5 open)
 
 For a family of RS operators over a base with `K3` fiber (`chi = 24`), the family index is a
 pushforward `pi_!`. `family_index_pushforward_stub()` in the harness marks the interface. Obligation
@@ -84,6 +90,22 @@ specific value, GU forces a count; if free, "external by structure" becomes unco
 result already says the fiberwise-integrated piece is `Z/8`; the family/pushforward is where a
 `Z/3`-piece would have to come from -- and the harness is ready to receive it.
 
+**Scaffold status (2026-07-03, `tests/rs-function-space/k3_family_pushforward_scaffold.py`):**
+obligations **(1) fiber model** and **(2) compact-support/APS pushforward** are scaffolded at
+product-family (toy) grade -- the fiberwise pushforward `pi_!` of the RS density is computed and, for a
+trivial `B x K3` family, recovers `I_{3/2}[K3] = -42 ≡ 0 mod 3` (no new `Z/3` generation piece; the `3`
+in `-42` is the fixed Hirzebruch `p_1`, not a count). The scaffold makes the SPEC's FLIP criterion
+concrete: the generation-arena (`mod 3`) value is a **free** function of the clutching term (obligation
+4), so **GU forces a count iff GU forces the K3 family term.** Obligations **(3) `Phi`-homotopy / symbol
+certificate, (4) `ch2`/eta correction (the crux), (5) `H`-line normalization** remain **OPEN** -- they
+require the actual GU `K3`-fibered source-action geometry, which is unbuilt (`absorbed/gu-source-action`).
+FIREWALL held: the RS family index uses only `21*sigma/8` (`sigma(K3) = -16`), never `chi(K3)=24` or
+`24/8=3`. A generation-arena probe (`tests/rs-function-space/family_generation_arena_probe.py`) confirms
+every honest existing-data family number (`-42, -672, -5376, 0`) is `== 0 mod 3` (2-primary, no order-3);
+the honest `ch2(S_X)[K3] = -5376`, not `24`. The exact data a valid GU source action must expose to
+close (or kill) this crux -- and the pass criterion (`N != 0 mod 3` WITHOUT a chi-import) -- is wired to
+`absorbed/gu-source-action` global objects 5(i)-(iii) in `canon/source-action-family-index-interface-SPEC.md`.
+
 ## 7. What this foundation buys the swing
 
 - A **reusable index engine** (`rs_index_harness.py`) shared by bulk and family, cross-checked to
@@ -95,6 +117,7 @@ result already says the fiberwise-integrated piece is `Z/8`; the family/pushforw
 
 ## Status
 
-Staged, **not CANON.md-promoted**; the bulk-even result is computed/exact, the boundary and family
-steps are OPEN. Internal tier. Pauses for Joe. No number was fitted; the only integers are the exact
-index values (`-42, -84, 0, -672`) and their `mod 3 = 0`.
+Staged, **not CANON.md-promoted**; the bulk-even result AND the boundary-eta result are now
+computed/exact (both 2-primary), leaving the `K3` family-index step (obligations 3-5) as the remaining
+OPEN crux. Internal tier. Pauses for Joe. No number was fitted; the only integers are the exact index
+values (`-42, -84, 0, -672`) and their `mod 3 = 0`.
