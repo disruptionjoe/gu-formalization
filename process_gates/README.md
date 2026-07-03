@@ -23,6 +23,14 @@ that path logic is preserved unchanged and no gate needed editing to move here.
 Failures report the roadmap line number and target path. This protects the current routing
 table without treating roadmap prose as a research claim.
 
+## Public path hygiene gate
+
+`public_path_hygiene_audit.py` checks neutral contributor/config files and `process_gates/`
+sources for absolute home-path leaks before those surfaces are committed in this public repo.
+It intentionally does not scan canon, derivation, proof, result-grade, paper, Lean proof,
+exploration, or research-status surfaces, so it can run while those areas are dirty or under
+governance review.
+
 ## Relocated surface path hygiene
 
 Repository process, automation, and active-research owner surfaces now live under `lab/`.
