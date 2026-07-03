@@ -220,6 +220,28 @@ external unpaired boundary mode contributes a nonzero half-term. This is not an 
 not close the card; it sharpens the next obligation to either prove the actual boundary/end spectrum is
 eta-neutral or compute the external term.
 
+**STATUS (2026-07-03): RESIDUAL DISCHARGED on faithful models -- computed + independently re-verified, pending
+Joe review.** Joe-directed "close the analytic residual" (chat 2026-07-03). The three residual items are each
+discharged by the same `sigma_1 (x) B` cross-chirality mechanism that carries the interior theorem: **(1) gap
+well-posedness** -- on a noncompact-end open-chain Krein-Dirac the 0-gap is set by the END value of `B`; a
+gapped end keeps a stable gap with `tr(Gamma P_<0)=0`, a gapless end closes the gap (well-posedness IFF gapped,
+an analytic completion hypothesis, not a chiral leak); **(2) APS/end eta** -- any boundary operator IN the class
+is `sigma_1 (x) B_bdy` so its spectrum is symmetric and the APS `eta_0`/half-term are EXACTLY 0 (class-generic,
+30 random draws), a nonzero eta requiring an external out-of-class unpaired mode; **(3) family-index** -- the
+class family's negative bundle is `{upper band} (+) {lower band}` so `c1(E_-(D)) = c1(upper)+c1(lower) = 0`
+identically (QWZ realization, each band Chern `-+1`, non-vacuous). Combined with the interior theorem and the
+external-flux certificate (`index = flux`, any integer, odd for odd flux, breaks the class): within the sector
+class the net chiral count is conserved at 0 in the section/boundary/family settings, and the SOLE source of a
+nonzero (odd) count is an external topological index -- the "external by structure" reading with the analytic
+residual discharged rather than deferred. Artifacts: `canon/function-space-index-conservation-residual-closure-RESULTS.md`
+(staged, NOT CANON.md-promoted); `tests/function-space-ext/{gap_wellposedness_end.py (14), aps_end_eta_class_symmetry.py (156),
+family_index_bundle.py (8)}` + `verify/{gap_wellposedness_indep_check.py (24), aps_end_eta_class_symmetry_indep_check.py (50),
+family_index_bundle_indep_check.py (4)}` (all exit 0); DERIVATION-PROGRESS.md ENTRY WC-FUNCTION-SPACE-EXT RESIDUAL
+CLOSURE. **Honest residual that REMAINS:** model -> true RS `Y14` bundle (standard APS/family-index machinery
+applied to the same structure, asserted-by-machinery, not re-derived on `Y14` -- a computation, not a conceptual
+gap). Internal tier; no number fitted. Paper edits (Theorem 2 / caveat (d) scope sentence) and CANON.md promotion
+PAUSE FOR JOE.
+
 ## Objection Triage Register (3-Pass Analysis, 2026-06-24)
 
 Thirteen objections/weaknesses from the 2026-06-24 three-pass repo assessment (neutral → heterodox
