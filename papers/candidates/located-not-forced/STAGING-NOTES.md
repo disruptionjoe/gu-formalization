@@ -170,3 +170,30 @@ QFT effective / non-perturbative (function-space) half remains the open WC-FUNCT
 **Still pending Joe (unchanged):** CANON.md promotion of the RESULTS files; the publication flip (stays DEFERRED);
 git commit/push. This is a strengthening, not a new gate -- publication readiness is unchanged (the third review
 already rated the paper arXiv-ready).
+
+## Latest-findings integration -> v2.9 (2026-07-02, later)
+
+A currency check found the staged paper (last folded at v2.8) was behind four staged results produced later the
+same day, none referenced in either copy. Folded in as **v2.9** (`CHANGELOG-v2.9-latest-findings-integration.md`,
+both copies in sync), **caveats and grade language only, no headline claim strengthened beyond its RESULTS grade**:
+
+- **caveat (c)** "external on present evidence" -> **external by structure** -- the sector-interior contribution
+  is even over the complete delimited class C, so an odd count is necessarily external -- *modulo* the open
+  function-space APS/end + family-index residual (`canon/external-by-structure-synthesis-RESULTS.md`);
+- **core theorems** (index-nullity / index-conservation, antilinear null-eigenspace bound, 2-primary obstruction
+  identities) noted as now proved at the **structure level over symbolic entries** (dimension-independent, 22
+  sympy-certified identities), still short of a Lean/Coq formal proof and not touching the analytic residual
+  (`canon/core-theorems-symbolic-proof-RESULTS.md`);
+- **external mechanism concretized** -- net chiral index = flux number in a 2D Wilson-Dirac model, odd for odd
+  flux (Aharonov-Casher / Atiyah-Singer) (`canon/external-topological-index-flux-RESULTS.md`);
+- **RS function-space framework** referenced as the object that will close WC-FUNCTION-SPACE-EXT (bulk index
+  2-primary by Rokhlin; boundary-eta and K3 family-index steps open) (`canon/rs-function-space-framework-SPEC.md`).
+
+Edits: caveat (c), abstract, Section 6, status table, conclusion, reproducibility canon list, version
+bookkeeping (both copies). Also in this pass, the `.md`/`.tex` **conclusion and reproducibility appendices,
+which an interrupted earlier edit had left truncated, were restored from the last clean commit** before the v2.9
+edits were applied.
+
+**Still pending Joe (unchanged):** CANON.md promotion of the four staged RESULTS files; the publication flip
+(stays **DEFERRED**); git commit/push. The analytic residual (APS/end + family-index) is genuinely open; the
+"external by structure" upgrade is always stated modulo it. Internal tier unchanged (caveat (e)).

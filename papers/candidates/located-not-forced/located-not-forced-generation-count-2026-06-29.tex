@@ -1,4 +1,5 @@
-% Located, Not Forced -- arXiv submission source (v2.8).
+% Located, Not Forced -- arXiv submission source (v2.9).
+% v2.9: folded four staged 2026-07-02 findings (external-by-structure synthesis, core-theorems symbolic proof, external index=flux, RS function-space framework SPEC) into caveats and grade language.
 % Draft for external review. This paper does NOT claim three generations.
 %
 % Suggested arXiv classification:
@@ -67,8 +68,12 @@ is explicitly marked as motivated or reconstruction-grade. Five caveats are load
 \emph{(a)} the torsion-count reading is a \emph{premise, not a result}---under a literal integer-index reading the
 same obstructions would instead \emph{forbid} an odd count outright; \emph{(b)} the order-$3$ class cannot
 literally \emph{be} an integer count, since $\Hom(\Z/3,\Z)=0$ (no homomorphism from a torsion group to a
-torsion-free one is nonzero); \emph{(c)} the generation count is \emph{external on present evidence}, not
-necessarily external; \emph{(d)} the antilinear non-existence leg is \emph{closed over a delimited class}---an index-nullity
+torsion-free one is nonzero); \emph{(c)} the generation count is \emph{external by structure} modulo the
+function-space analytic residual---the sector-interior contribution is provably even ($2$-primary) over the
+complete delimited class C, so an odd count is \emph{necessarily} external
+(\texttt{canon/external-by-structure-synthesis-RESULTS.md}); the earlier ``external on present evidence''
+reading tightens to this structural decomposition, still gated by the open APS/end $+$ family-index terms and
+internal-tier per \emph{(e)}; \emph{(d)} the antilinear non-existence leg is \emph{closed over a delimited class}---an index-nullity
 theorem holding on every antilinear operator whose re-graded chirality eigenspaces are $K$-null (strictly
 larger than the Krein-compatible operators, since the proof uses only that isotropy), so a nonzero count would
 require a $K$-definite re-grading that is not a chirality; the function-space extension now holds as a \emph{conditional} section-setting theorem (residual: the APS/end and family-index analytic terms); \emph{(e)} every verification reported here is \emph{internal}---computations reproduced from
@@ -107,10 +112,14 @@ antilinear operator whose re-graded chirality eigenspaces are $K$-null (a class 
 Krein-compatible operators---frame-trivial or frame-active, Altland--Zirnbauer class-CII-shaped or not) maps the
 chirality pair to a $K$-Lagrangian pair, so every physical subspace keeps net chiral index exactly $0$ (a nonzero
 count would need a $K$-definite re-grading that is not a chirality; the function-space extension holds as a
-conditional section-setting theorem, residual the APS/end and family-index terms). On present evidence the generation count is therefore
-\emph{external}: supplied by a net-self-dual chiral background coupled through the index theorem, of the same
-general kind by which chirality arises in known chiral theories (chiral gauge couplings, instanton zero-modes,
-$K3$/Calabi--Yau compactification).
+conditional section-setting theorem, residual the APS/end and family-index terms). The generation count is therefore
+\emph{external by structure} (modulo the open function-space APS/end residual): the interior is even over the
+complete delimited class C, so an odd count is \emph{necessarily} external
+(\texttt{canon/external-by-structure-synthesis-RESULTS.md}), supplied by a net-self-dual chiral background coupled
+through the index theorem, of the same general kind by which chirality arises in known chiral theories (chiral
+gauge couplings, instanton zero-modes, $K3$/Calabi--Yau compactification)---a mechanism realized concretely as
+net chiral index $=$ flux number in a 2D Wilson--Dirac model
+(\texttt{canon/external-topological-index-flux-RESULTS.md}).
 
 We do \emph{not} claim three generations. The ``located, not forced'' reading is contingent on treating the
 obstruction data torsion-theoretically; under a literal integer-valued chiral-index reading the same
@@ -422,7 +431,10 @@ hence $\chi=0$, in the \emph{physical indefinite} signatures $(9,5)$ and $(7,7)$
 where the Krein form is genuinely indefinite). In Euclidean $(14,0)$ the grading instead \emph{commutes} with $K$
 ($\|\Gamma K-K\Gamma\|=0$): the form is grading-aligned and the triplet is fully chiral, $|\chi|=96$---a second
 non-triviality control, and consistent with the Krein structure requiring $q>0$ (a non-compact internal group;
-cf.\ \texttt{canon/ghost-parity-krein-synthesis.md}).
+cf.\ \texttt{canon/ghost-parity-krein-synthesis.md}). This is machine-corroborated, and now proved at the
+structure level over symbolic entries (dimension-independent, sympy-certified;
+\texttt{canon/core-theorems-symbolic-proof-RESULTS.md}), still short of a full Lean/Coq formal proof and not
+touching the analytic residual.
 
 \begin{corollary}[necessary antilinear escape]
 No linear/unitary dynamics generates chiral asymmetry in this sector. By Wigner's
@@ -486,12 +498,17 @@ states---and the function-space setting, which now holds as a conditional sectio
 Clifford--Rarita--Schwinger sector of this class---linear, or antilinear with $K$-null re-graded chirality
 eigenspaces---forces an odd chiral count.} GU's frame-trivial chiralizer is one instance.
 
-\paragraph{The count is therefore external on present evidence.} Forcing an odd chiral count requires an
+\paragraph{The count is therefore external by structure.} (Modulo the function-space APS/end $+$ family-index
+residual): the interior is even over the complete delimited class C, so any odd count is \emph{necessarily}
+external (\texttt{canon/external-by-structure-synthesis-RESULTS.md}). Forcing an odd chiral count requires an
 \emph{external} net-self-dual chiral background coupled through the index theorem, $\int_X \Ahat\,\ch$. This is
 not a contrived addition: it is of the same general kind by which chirality arises in every known chiral
 theory---chiral gauge couplings, instanton zero-modes, $K3$/Calabi--Yau compactification (examples of the kind,
-not a derivation of Standard-Model structure). The result relocates the generation count from an internal
-derivation to \textbf{external (bulk) background data}---and even that data does not by itself pin three (the
+not a derivation of Standard-Model structure). The result thus relocates the generation count from an internal
+derivation to \textbf{external (bulk) background data}---concretely, a 2D magnetic-flux Wilson--Dirac realizes
+net chiral index $=$ flux number (Aharonov--Casher / Atiyah--Singer), any integer and odd for odd flux, computed
+and independently re-verified (\texttt{canon/external-topological-index-flux-RESULTS.md}), pinning the parity of
+the external datum while privileging no particular value---and even that data does not by itself pin three (the
 $\text{order-}3\text{ class}\to\text{integer }3$ bridge of Section~\ref{sec:open} remains). This is the paper's
 strongest GU-independent statement: not a verdict on GU, but a structural no-go for the class, with the count
 relocated to external background data.
@@ -701,11 +718,11 @@ claim is the specific assembly: that theorem, on this carrier, feeding the two-a
 \endhead
 The no-go is two-primary (no odd-prime congruence); the enumeration is complete for the delimited class C & theorem (enumeration); class-C completeness computed grade, engine-swept beyond C with a sharp boundary; completeness over the unrestricted / function-space theory open \\
 CRT two-arena reading ($\pis = \Z/8\oplus\Z/3$, summands disjoint) & decomposition is standard; the two-arena structural reading is the contribution, under the torsion-count reading \\
-Linear Krein-isometric operators conserve the net chiral index & theorem (finite-dim; physical subspaces balanced; machine-corrob.) \\
+Linear Krein-isometric operators conserve the net chiral index & theorem (finite-dim; physical subspaces balanced; machine-corrob.; structure-level symbolic proof over abstract cross-chirality Krein space, \texttt{canon/core-theorems-symbolic-proof-RESULTS.md}) \\
 The unique escape is antilinear (class-CII type) & corollary (Wigner) + machine-verified \\
 GU's antilinear chiralizer is frame-trivial, couples gauge & computed-confirmed; evadable only into a $2$-primary, index-conserving linear channel \\
-No interior operator forces an odd chiral count; the count is external on present evidence & class-level structural no-go (GU-independent); linear leg theorem-grade; antilinear leg closed over the null-eigenspace class, strictly larger than Krein-compatible (index-nullity theorem; residual: a nonzero count needs a $K$-definite non-chirality re-grading; the function-space extension holds as a conditional section-setting theorem, residual the APS/end and family-index terms) \\
-Forcing an odd count requires an external net-self-dual chiral background & computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; does not by itself pin $3$ \\
+No interior operator forces an odd chiral count; the count is external by structure (modulo the function-space APS/end $+$ family-index residual) & class-level structural no-go (GU-independent); interior even over the complete delimited class C, so an odd count is necessarily external (\texttt{canon/external-by-structure-synthesis-RESULTS.md}); linear leg theorem-grade; antilinear leg closed over the null-eigenspace class, strictly larger than Krein-compatible (index-nullity theorem; residual: a nonzero count needs a $K$-definite non-chirality re-grading; the function-space extension holds as a conditional section-setting theorem, residual the APS/end and family-index terms) \\
+Forcing an odd count requires an external net-self-dual chiral background & computed; a natural ingredient of the general kind that produces chirality in known chiral theories, but an external input; realized concretely as net chiral index $=$ flux number in a 2D Wilson--Dirac model (\texttt{canon/external-topological-index-flux-RESULTS.md}); does not by itself pin $3$ \\
 Tangential $\Lamp$ framing carries $\eR=1/12$, order $3$ & Kirby--Melvin framing degree $+$ Adams $e$-invariant; GU identification reconstruction-grade \\
 The carrier is vectorlike and homotopy-fixed (locates, does not fill) & computed-confirmed \\
 A toy source-action term meeting all three forcing conditions (tangential, net-chiral, non-frame-trivial) with a $3$-primary integer & NO in four independent constructions (forcing-slot test, computed) \\
@@ -736,12 +753,19 @@ We submit the two-primary blindness theorem, the CRT two-arena structure, the in
 antilinear-escape theorem, the located order-$3$ carrier, and---reopened GU-independently---the class-level
 structural no-go that no covariant operator found interior to a Clifford--Rarita--Schwinger sector of this type
 forces an odd chiral count, as a GU-independent contribution: a no-go that locates, and relocates
-the count to external background data. On present evidence the generation count is external, supplied by a
-net-self-dual chiral background of the general kind that produces chirality in known chiral theories; the
+the count to external background data. By structure the generation count is external---the sector-interior
+contribution is even over the complete delimited class, so an odd count is \emph{necessarily} external, modulo
+the open function-space APS/end $+$ family-index residual
+(\texttt{canon/external-by-structure-synthesis-RESULTS.md})---supplied by a net-self-dual chiral background of
+the general kind that produces chirality in known chiral theories (chiral gauge couplings, instanton zero-modes,
+$K3$/Calabi--Yau compactification), realized concretely as net chiral index $=$ flux number in a 2D
+Wilson--Dirac model (\texttt{canon/external-topological-index-flux-RESULTS.md}); the
 $\text{order-}3\text{ class}\to\text{integer }3$ identification of that external datum remains the single named
 open conjecture (a candidate category error) rather than a claim. We do not claim three---no computed quantity
-in this program equals three---and the structural reason the count is not internal is now computationally
-established for the whole class (the antilinear side closed over the null-eigenspace class of re-gradings,
+in this program equals three---and the structural reason the count is not internal is now established at the
+structure level over symbolic entries for the core theorems (dimension-independent, sympy-certified;
+\texttt{canon/core-theorems-symbolic-proof-RESULTS.md}) and computed $+$ engine-swept for the class exhaustion
+(the antilinear side closed over the null-eigenspace class of re-gradings,
 strictly larger than the Krein-compatible operators, and the section / spectral-flow extension holding as a conditional theorem; residual the APS/end and family-index terms). We
 request external review of both the core results and the open bridge.
 
@@ -765,7 +789,11 @@ test, the carrier-mass capstone, and the class-level structural no-go are checke
 \texttt{tests/boundary-eta/}, \texttt{tests/forcing-slot/}, \texttt{tests/carrier-mass/},
 \texttt{tests/gu-independent/}). The homotopy and $e$-invariant facts are standard
 (Adams~\cite{adams1966jx4}; Kirby--Melvin~\cite{kirbymelvin1999}). Per-result derivations are recorded in the
-repository \texttt{canon/} directory.
+repository \texttt{canon/} directory, including the four staged 2026-07-02 results folded into this version:
+\texttt{canon/core-theorems-symbolic-proof-RESULTS.md},
+\texttt{canon/external-by-structure-synthesis-RESULTS.md},
+\texttt{canon/external-topological-index-flux-RESULTS.md}, and
+\texttt{canon/rs-function-space-framework-SPEC.md}.
 
 \paragraph{Verification status.} By the project's own three-tier vocabulary, every result in this paper is at
 most \emph{internally established}: computed, independently re-derived from scratch, and adversarially reviewed
