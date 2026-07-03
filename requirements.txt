@@ -1,0 +1,16 @@
+# Python dependencies for the gu-formalization computational certificates.
+#
+# Determined by grepping every `import`/`from ... import` across tests/ and the
+# paper/draft certificate scripts. Many certificates use only the standard library
+# (fractions, itertools, math) and need none of these; the three below cover the
+# certificates that do have third-party deps.
+#
+# Pin-free on purpose: the certificates check exact/structural facts, not floating
+# tolerances against a specific library build. Verified working on the versions noted.
+
+numpy    # linear algebra / index computations                 (verified: 2.4.6)
+scipy    # eigenvalues, null spaces, linear algebra helpers      (verified: 1.18.0)
+sympy    # exact symbolic checks in a handful of certs           (verified: 1.14.0)
+
+# Not a Python dependency, but required for the Lean checks (separate from this harness):
+#   Lean 4.32.0-rc1 via elan  — see REPRODUCE.md.
