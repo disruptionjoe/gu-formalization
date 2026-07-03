@@ -182,7 +182,11 @@ provably permanent (a genuine theorem) under (7,7).
 
 ### Round 3 (2026-06-28) -- the weak firewall is now a (conditional) THEOREM
 
-See `canon/multiplicity-theorem.md`. A four-leg establish-or-break pass (computational + adversarial)
+See `canon/multiplicity-theorem.md` (NOTE 2026-07-03: that doc is now `status: superseded` — retained for
+the correction record; its live proof core is in the successors `canon/h2-base-index-chirality.md`,
+`canon/leg3-closure-and-spinor-2smoothness.md`, `canon/ghost-parity-krein-synthesis.md`, and
+`papers/drafts/generation-multiplicity-vs-chirality-2026-06-28.md`; the retired "count = 3 iff import the
+prime 3" sharp framing is NOT the current basis). A four-leg establish-or-break pass (computational + adversarial)
 upgraded the surviving weak form into the **Multiplicity Theorem**, ESTABLISHED CONDITIONALLY: GU-internal
 data fixes the STRUCTURE of one generation (verified Pati-Salam) but not the MULTIPLICITY. Proof-grade
 core: 3 is prime and divides no GU-native dimension or branching multiplicity (the whole internal spectrum

@@ -1,8 +1,15 @@
 ---
-title: "The Multiplicity Theorem: GU fixes one generation's structure but not the count"
-status: canon
+title: "The Multiplicity Theorem (SUPERSEDED, retained for the correction record): GU fixes one generation's structure but not the count"
+status: superseded
+superseded_by:
+  - "papers/drafts/generation-multiplicity-vs-chirality-2026-06-28.md"
+  - "canon/h2-base-index-chirality.md"
+  - "canon/leg3-closure-and-spinor-2smoothness.md"
+  - "canon/ghost-parity-krein-synthesis.md"
+superseded_at: "2026-06-28"
+demoted_from_canon_at: "2026-07-03"
 doc_type: theorem
-verdict: "ESTABLISHED CONDITIONALLY (firewall / under-determination form, proof-grade within enumerated GU-native object classes; evidence-grade as a universal statement). The positive canonical-external-index form is OPEN / partially refuted."
+verdict: "SUPERSEDED (2026-06-28); retained for the correction record. Historical verdict: ESTABLISHED CONDITIONALLY (firewall / under-determination form, proof-grade within enumerated GU-native object classes; evidence-grade as a universal statement); the positive canonical-external-index form was OPEN / partially refuted. The sharp 'count = 3 iff import the prime 3' framing and the 1664-implies-multiplicity argument are RETIRED — see the superseded_by successors."
 established: 2026-06-28
 tests: "tests/generation-sector/{signature_sweep_fast,signature_77_rerun,step9_selfdual_connection_index,leg3_external_base_characterization,leg4_branching_multiplicity_search}.py"
 ---
@@ -30,7 +37,8 @@ does and does not determine about matter.
 > in particular never 3; (b) a metric `so(p,q)` connection index, which is identically 0; or (c) a free,
 > operator-dependent carrier rank that nothing internal pins.
 
-**Equivalent sharp form.** The integer 3 is prime and divides no GU-internal Clifford dimension or
+**Equivalent sharp form (RETIRED — see the SUPERSEDED banner above; kept verbatim for the correction
+record, not a current claim).** The integer 3 is prime and divides no GU-internal Clifford dimension or
 branching multiplicity (all `{2,7,13}`-smooth). Therefore **"the generation count is 3" is exactly
 equivalent to importing the prime factor 3 from outside** the internal algebra. GU gives the shape of a
 generation; the number of copies must come from elsewhere.

@@ -1,5 +1,5 @@
 ---
-title: "w2(Y14) = 0 — Y14 is Spin for Any Orientable X4"
+title: "w2(Y14) = pi*w2(X4) — Y14 is Spin iff X4 is Spin (CORRECTION W2-01; the earlier unconditional 'Spin for any orientable X4' is RETRACTED)"
 status: canon
 doc_type: canon
 promoted_from:

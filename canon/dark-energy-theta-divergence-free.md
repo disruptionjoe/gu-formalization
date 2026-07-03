@@ -100,7 +100,7 @@ Both of the following must be satisfied before this entry can be upgraded to RES
 
 | Einstein G_{mu nu} | GU theta |
 |---|---|
-| Divergence-free via contracted Bianchi identity | Divergence-free via Noether's 2nd theorem |
+| Divergence-free via contracted Bianchi identity | Divergence-free via Noether's 2nd theorem *(conditional on Assumption 3, unproved — see the scope box above)* |
 | Lambda forced constant by nabla g = 0 | theta not forced constant — equivariance is not annihilation |
 | Diffeomorphism orbits in Met(X) | Gauge orbits in Conn(P) |
 

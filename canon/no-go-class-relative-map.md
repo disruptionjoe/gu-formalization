@@ -7,7 +7,7 @@ updated_at: "2026-06-23"
 
 # No-Go / Forgetful-Image Map
 
-**Status.** Public draft artifact.
+**Status.** Canon map artifact (public-draft lineage). Canon = citable current spine, not proved physics; every strong-looking sub-claim below is explicitly de-rated to OPEN/reconstruction with its correction history inline.
 **Source basis.** `lab/literature/03-assumption-decomposition-no-go-evasion-literature.md`, `lab/process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`, `lab/roadmap/potential-insights-novelty-and-tests-v1.md`, `lab/roadmap/15-persona-pathway-ranking.md`. Cross-built against the six-axis protocol (internal origin artifact, `lab/specifications/six-axis/six-axis-template.md`).
 **Generated.** 2026-05-30
 

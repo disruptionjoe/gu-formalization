@@ -54,7 +54,9 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 ## Canon Documents
 
 - `RESEARCH-POSTURE.md`
+- `canon/firewall-boundary-hypothesis.md` (primary research question / falsification target)
 - `canon/no-go-class-relative-map.md`
+- `canon/no-go-quaternionic-parity-generation-sector.md`
 - `canon/six-axis-specification-protocol.md`
 - `canon/type-ii1-spectral-sm-checklist.md`
 - `canon/shiab-existence-cl95.md`
@@ -64,6 +66,17 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 - `canon/theta-field-flrw-dark-energy-eos.md`
 - `lab/specifications/six-axis/`
 - `lab/specifications/type-ii1-spectral-sm/`
+
+The **located-not-forced structural spine** RESULTS files (`canon/enum-completeness-class-c-RESULTS.md`,
+`canon/core-theorems-symbolic-proof-RESULTS.md`, `canon/antilinear-bound-RESULTS.md`,
+`canon/antilinear-nonkrein-admissibility-RESULTS.md`, `canon/external-topological-index-flux-RESULTS.md`,
+`canon/function-space-index-conservation-RESULTS.md`, `canon/rs-boundary-eta-2primary-RESULTS.md`,
+`canon/function-space-index-conservation-residual-closure-RESULTS.md`,
+`canon/external-by-structure-synthesis-RESULTS.md`) are canon and enumerated in the tables below (internal
+tier). Demoted 2026-07-03: `canon/multiplicity-theorem.md` is now `status: superseded` (self-superseded
+2026-06-28; retained for the correction record — its live successors are `canon/h2-base-index-chirality.md`,
+`canon/leg3-closure-and-spinor-2smoothness.md`, `canon/ghost-parity-krein-synthesis.md`, and
+`papers/drafts/generation-multiplicity-vs-chirality-2026-06-28.md`).
 
 ## Canon Entries Added 2026-06-23
 

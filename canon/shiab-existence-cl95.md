@@ -6,7 +6,7 @@ promoted_from:
   - "explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md"
   - "explorations/shiab-operator/n2-shiab-computation-spin77-branching-rules-2026-06-22.md"
 promoted_at: "2026-06-23"
-verdict: RESOLVED
+verdict: "RESOLVED (existence only)"
 scope_correction: "CORRECTION SHIAB-01 (2026-06-25): RESOLVED means existence of at least one natural real-linear Spin(9,5)-equivariant Clifford-contraction map. It does not claim injectivity, non-vanishing on every non-zero input, uniqueness, source-forced selector identity, anomaly cancellation, or generation count."
 ---
 

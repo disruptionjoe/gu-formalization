@@ -37,6 +37,14 @@ Reading the generation count as the index of such a carrier, the count is forced
 > **GU's quaternionic structure forces an EVEN generation index. An odd count such as 3 cannot arise
 > from GU's own building blocks; reaching an odd index requires importing a non-quaternionic
 > (non-Clifford) object.**
+>
+> **Signature caveat (added 2026-07-03).** This wall is *H-class-specific*: it holds for the
+> quaternionic `Cl(9,5) = M(64, H)` signature (`J^2 = -1`). It DISSOLVES under a defensible alternative
+> real-class signature such as `(7,7)` (`J^2 = +1`), where the Kramers/quaternionic pairing no longer
+> applies. The current spine states this contingency at proof grade in the successor
+> `canon/multiplicity-theorem.md` proof core (now `superseded`) and its live successors
+> (`canon/h2-base-index-chirality.md`, `canon/leg3-closure-and-spinor-2smoothness.md`). So "forces EVEN"
+> is conditional on the `(9,5)`/H-class reconstruction, not signature-universal.
 
 Verified in `tests/generation-sector/step11_gu_native_parity_theorem.py` (primitives H-linear to ~1e-11;
 algebra closure to ~1e-10; carrier signatures all even) and the BV-sector adversarial control (the full
