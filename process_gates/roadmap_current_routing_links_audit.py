@@ -9,6 +9,7 @@ from __future__ import annotations
 
 import re
 import unittest
+from dataclasses import dataclass
 from pathlib import Path
 from urllib.parse import unquote, urlparse
 
@@ -19,8 +20,18 @@ ROADMAP = ROOT / "lab" / "roadmap" / "README.md"
 MARKDOWN_LINK = re.compile(r"\[[^\]]+\]\(([^)]+)\)")
 
 
-def local_link_targets(text: str) -> list[str]:
-    targets: list[str] = []
+@dataclass(frozen=True)
+class LocalLink:
+    target: str
+    line: int
+
+
+def line_number(text: str, offset: int) -> int:
+    return text.count("\n", 0, offset) + 1
+
+
+def local_link_targets(text: str) -> list[LocalLink]:
+    links: list[LocalLink] = []
     for match in MARKDOWN_LINK.finditer(text):
         raw_target = match.group(1).strip()
         if not raw_target or raw_target.startswith("#"):
@@ -28,8 +39,17 @@ def local_link_targets(text: str) -> list[str]:
         parsed = urlparse(raw_target)
         if parsed.scheme or parsed.netloc:
             continue
-        targets.append(unquote(parsed.path))
-    return targets
+        links.append(
+            LocalLink(target=unquote(parsed.path), line=line_number(text, match.start(1)))
+        )
+    return links
+
+
+def display_path(path: Path) -> str:
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
 
 
 class RoadmapCurrentRoutingLinksAudit(unittest.TestCase):
@@ -40,10 +60,15 @@ class RoadmapCurrentRoutingLinksAudit(unittest.TestCase):
         self.assertGreaterEqual(len(links), 1)
 
         missing: list[str] = []
-        for target in links:
+        for link in links:
+            target = Path(link.target)
+            self.assertFalse(
+                target.is_absolute(),
+                f"line {link.line}: local roadmap links must be repository-relative, not {link.target}",
+            )
             resolved = (ROADMAP.parent / target).resolve()
             if not resolved.exists():
-                missing.append(f"{target} -> {resolved}")
+                missing.append(f"line {link.line}: {link.target} -> {display_path(resolved)}")
 
         self.assertEqual([], missing)
 

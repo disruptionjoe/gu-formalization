@@ -18,9 +18,10 @@ that path logic is preserved unchanged and no gate needed editing to move here.
 
 ## Current routing link gate
 
-`roadmap_current_routing_links_audit.py` checks that relative Markdown links in
-`lab/roadmap/README.md` resolve from that file's actual location. This protects the current
-routing table without treating roadmap prose as a research claim.
+`roadmap_current_routing_links_audit.py` checks that local Markdown links in
+`lab/roadmap/README.md` are repository-relative and resolve from that file's actual location.
+Failures report the roadmap line number and target path. This protects the current routing
+table without treating roadmap prose as a research claim.
 
 ## Relocated surface path hygiene
 
