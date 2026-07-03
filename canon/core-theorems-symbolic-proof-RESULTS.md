@@ -1,6 +1,7 @@
 ---
 title: "Grade upgrade: the paper's core theorems (index-nullity / index-conservation, the antilinear null-eigenspace bound, the function-space sigma_1(x)B form, and the 2-primary obstruction list) proved at the STRUCTURE level over SYMBOLIC entries -- not merely computed on the explicit 192-dim numeric carrier. The dimension-independent arguments are given from the axioms of a cross-chirality Krein space; 22 load-bearing identities are sympy-certified to vanish identically for symbolic entries."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-02
 grade: "SYMBOLIC / structure-level. Every load-bearing algebraic identity is certified by sympy to be identically 0 for SYMBOLIC entries (not numeric): 22 checks, tests/symbolic-proofs/core_theorems_symbolic_proof.py (exit 0). The dimension-independent step (transversality: n - n = 0 for any n) is the written proof below, verified symbolically on n=2 blocks. This upgrades the core theorems from 'machine-verified on the explicit carrier' (G-computed) toward 'proved from the axioms' (G-proof), the step every RESULTS file flagged ('a Lean/symbolic port would upgrade the grade'). NOT a fully machine-checked formal (Lean/Coq) proof -- no Lean/Coq/Z3 in this sandbox -- and it does not touch the function-space analytic residual (APS/end, family-index)."

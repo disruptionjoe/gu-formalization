@@ -1,6 +1,7 @@
 ---
 title: "WC-FUNCTION-SPACE-EXT residual closure: the three residual items of the conditional section-setting theorem -- (1) gap well-posedness, (2) the APS/noncompact-end eta term, (3) the family-index/higher-topology term -- are each DISCHARGED at computed + independently re-verified grade on faithful stand-in models, by the same cross-chirality sigma_1 (x) B mechanism that carries the interior theorem. Combined with the interior theorem (v2.8) and the external-flux certificate, the residual collapses: within the sector class, net chiral count is conserved at 0 in the section / boundary / family setting; the SOLE source of a nonzero (odd) count is an EXTERNAL topological index (flux / instanton / APS unpaired boundary mode), which is any integer, not 2-primary-constrained, and does not single out 3. The one honest caveat that remains is model -> true-RS-Y14-bundle: the general-bundle statement is the standard APS + family-index machinery applied to the same structure, asserted-by-machinery, not re-derived on Y14."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-03
 grade: "computed + INDEPENDENTLY RE-VERIFIED on faithful low-dimensional stand-in models (1D open-chain Krein-Dirac; class-generic random boundary operators; QWZ Chern-insulator family). Each residual item is discharged by the SAME structural mechanism as the interior theorem -- a chirality-odd, Krein-self-adjoint operator for cross-chirality K = sigma_1 is forced to D = sigma_1 (x) B (B Hermitian), so spec(D) = +- spec(B) is symmetric about 0. NOT a re-derivation on the true RS Y14 bundle: the general-bundle statement is standard APS/family-index machinery applied to this structure. Internal tier (caveat (e)): reproduced + internally re-verified, not externally replicated."
@@ -9,6 +10,7 @@ depends_on:
   - canon/function-space-index-conservation-RESULTS.md
   - canon/external-by-structure-synthesis-RESULTS.md
   - canon/antilinear-bound-RESULTS.md
+  - canon/rs-boundary-eta-2primary-RESULTS.md
   - papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md
 scripts:
   - tests/function-space-ext/gap_wellposedness_end.py
@@ -80,6 +82,11 @@ eta is exactly the external boundary datum the paper already names.
 different seed, complex-Hermitian and integer-valued real-symmetric `B`, sizes 4..33, and a
 basis-free witness -- all **odd spectral moments** `tr(D^{2k+1}) = 0` (max `0.0e+00`) plus
 `eta_0 = 0`.
+*Actual-bundle corroboration (STEP 2).* This class-generic symmetry is corroborated on the true
+Rarita-Schwinger side by `canon/rs-boundary-eta-2primary-RESULTS.md`: the actual RS boundary
+operator's reduced eta-bar on the sector's own boundary `RP^3 = L(2;1)` is **2-primary** -- consistent
+with (and stronger than) the faithful-model neutrality here, since a 2-primary boundary eta carries no
+odd chiral count.
 
 ## Item (3): the family-index / index-bundle term vanishes in the class
 

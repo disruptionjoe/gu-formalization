@@ -1,6 +1,7 @@
 ---
 title: "The external topological datum carries the odd chiral count: a 2D magnetic-flux Wilson-Dirac has net chiral index = flux number (Aharonov-Casher / Atiyah-Singer), odd for odd flux -- computed + independently re-verified. This completes the boundary/APS side of WC-FUNCTION-SPACE-EXT: the interior/closed cross-chirality Krein-Dirac sector is forced EVEN (2-primary), and the ODD count enters only through an external topological background (flux / instanton number), which is ANY integer -- NOT 2-primary-constrained and NOT a selection of 3. This decisively realizes and concretizes the paper's 'external on present evidence -- supplied by a net-self-dual chiral background' conclusion."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-02
 grade: "computed + INDEPENDENTLY RE-VERIFIED on the explicit lattice: net chiral index = flux number Phi for Phi = 0..3 (main, 16x16) and Phi = 0..6 across sizes 20x20, 24x24 (independent check), including odd Phi = 1,3,5 (odd index). Standard Aharonov-Casher / Atiyah-Singer index theorem (index = magnetic flux number) realized on a 2D Wilson-Dirac torus; NOT novel mathematics -- its value is decisively CONFIRMING and CONCRETIZING the paper's external mechanism and pinning its parity. Internal tier (caveat (e))."

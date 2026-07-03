@@ -23,6 +23,12 @@ that path logic is preserved unchanged and no gate needed editing to move here.
 Failures report the roadmap line number and target path. This protects the current routing
 table without treating roadmap prose as a research claim.
 
+## Internal ops gitignore gate
+
+`internal_ops_gitignore_audit.py` checks that `steward/runs/` remains ignored and contains no
+tracked files. This protects local CapacityOS run records from being published with the public
+research repo while leaving those records available for collision checks.
+
 ## Public path hygiene gate
 
 `public_path_hygiene_audit.py` checks the root public entry file, neutral contributor/config

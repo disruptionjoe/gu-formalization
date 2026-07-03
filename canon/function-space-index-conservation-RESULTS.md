@@ -1,6 +1,7 @@
 ---
 title: "WC-FUNCTION-SPACE-EXT: a CONDITIONAL section-setting index-conservation theorem. The paper's finite-dimensional Theorem 2 (linear Krein-isometric operators conserve the net chiral index at 0 on the cross-chirality carrier) and the antilinear null-eigenspace bound EXTEND to a genuine differential-operator / spectral-flow setting: every norm-continuous family of self-adjoint, chirality-odd (Dirac), Krein-self-adjoint (cross-chirality K) Fredholm operators has net chiral spectral flow EXACTLY 0. The residual -- explicitly NOT closed -- is the APS / noncompact-end eta correction, family-index / higher-topology terms, and gap well-posedness of the physical projection."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-02
 grade: "computed + INDEPENDENTLY RE-VERIFIED conditional theorem on an explicit 1D lattice Dirac section model. The structural core -- a Gamma-odd, Krein-self-adjoint (K = sigma_1) operator is sigma_1 (x) B, so its spectrum is symmetric about 0 and the negative (physical) sector is chirality-balanced -- is a short finite-dimensional (per-t) linear-algebra proof with machine-certified premises. Numerics: tests/function-space-ext/dirac_spectral_flow_section.py (20 asserts; central-difference momentum; n_-(t) = 0 through 20 genuine crossings; spectrum symmetric to 0.0) + verify/dirac_spectral_flow_indep_check.py (129 asserts; SPECTRAL/Fourier momentum, different seed, non-degenerate B giving per-eigenvector chirality-neutrality EXACTLY at 8e-14, analytic spec(D) = +-spec(B), control). NOT a full function-space theorem: it is the interior/closed, spectral-gapped statement; the analytic residual below is open."

@@ -1,6 +1,7 @@
 ---
 title: "STEP 2 of WC-FUNCTION-SPACE-EXT closed at computed grade: the FULL Rarita-Schwinger boundary operator's reduced eta-bar on the sector's own boundary RP^3 = L(2;1) is 2-PRIMARY. The net self-dual tangent-frame charge of D_RS = E + E^dag (and of Pi, M_D) is 0 (computed, two independent angles) -- so it carries no tangent-frame p_1 and cannot feed the gravitational -p_1/24 channel where the order-3 lives; the only residue is the charge-q lens type (2q^2-4q+1)/8, denominator 8, 2-primary for every integer charge, with the RS boundary spectral eta = 0 (cross-chirality +96,-96 balance). Therefore an odd generation count CANNOT enter through the sector's own boundary -- it must come from an EXTERNAL topological background (the STEP 3 K3 / flux route). This extends canon/boundary-eta-of-mu-RESULTS.md from the single +96 selector to the full RS boundary operator."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-03
 grade: "computed-confirmed on the model RS boundary operator (two independent scripts agree: net self-dual frame charge 0 under a rotated frame basis AND a random fiber similarity; independent signature/eta = 0). The load-bearing fact -- the RS operator's NET self-dual (SD-ASD) tangent-frame charge is exactly 0 while the Lambda^2_+ positive control registers 33.94 (the machine detects a 3 when present) -- is convention-independent. Same finite-model reconstruction caveats as boundary-eta-of-mu-RESULTS.md (a faithful model of the frame-charge / framing distinction, not a full analytic Bismut-Cheeger fibered-boundary theorem). Internal tier (caveat (e))."

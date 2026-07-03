@@ -1,6 +1,7 @@
 ---
 title: "Reviewer #2 addendum to WC-ANTILINEAR-BOUND: the admissible class is not the Krein-compatible S but the strictly larger null-eigenspace class P_iso (antilinear operators whose re-graded chirality eigenspaces C(W_+), C(W_-) are K-isotropic); index nullity holds on ALL of P_iso, because the index-nullity proof used only isotropy, never the full Krein condition M^dag K M = lambda K-bar. Non-Krein members are constructed (Krein residual order 1, eigenspace isotropy < 1e-8) and are still index-null. A nonzero count requires a K-DEFINITE (non-null) re-grading, which is not a chirality (it grades physical-vs-ghost, carrying the vectorlike +-96) and does not act on the physical sector."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-02
 grade: "computed + INDEPENDENTLY RE-VERIFIED on the explicit carrier (main script 61 hard asserts; independent re-check tests/antilinear-bound/verify/nonkrein_indep_check.py 69 hard asserts, on OWN recursive-doubling gammas + a different seed + Cl(7,7) cross-signature, with a Euclidean Cl(14,0) premise-failure control firing |chi|=96 so the null-eigenspace hypothesis is load-bearing, not vacuous; exact-integer chi ranks throughout). The structural core -- a K-positive subspace meets a K-null subspace only at 0 -- is proof-shaped finite-dimensional linear algebra with machine-certified premises; same grade as the main bound. Two self-corrections were made during the pass and are recorded in Integrity below."

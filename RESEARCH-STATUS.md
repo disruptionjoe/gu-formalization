@@ -2,14 +2,24 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-06-30"
-canon_sweep_at: "2026-06-30"
+updated_at: "2026-07-03"
+canon_sweep_at: "2026-07-03"
 ---
 
 # Research Status
 
 The internal work-artifact system was the originating workspace for this project. The
 public repository is now the durable research authority.
+
+**Canon promotion 2026-07-03 (Joe-authorized, coherent cluster).** The located-not-forced structural spine
+(`canon/enum-completeness-class-c-RESULTS.md`, `canon/antilinear-bound-RESULTS.md`,
+`canon/antilinear-nonkrein-admissibility-RESULTS.md`, `canon/core-theorems-symbolic-proof-RESULTS.md`,
+`canon/external-topological-index-flux-RESULTS.md`, `canon/function-space-index-conservation-RESULTS.md`,
+`canon/external-by-structure-synthesis-RESULTS.md`) had its file-level status reconciled from `staged` to
+`canon`, and two STEP results were promoted: `canon/rs-boundary-eta-2primary-RESULTS.md` (STEP 2) and
+`canon/function-space-index-conservation-residual-closure-RESULTS.md` (residual items (1)-(3) discharged on
+faithful models). Canon = citable spine, still internal tier; the generation-count verdict stays OPEN and
+nothing derives three. See `CANON.md` (2026-07-03 promotion note) and `DERIVATION-PROGRESS.md`.
 
 The primary research posture is truth-seeking: Geometric Unity is the bold, contested conjecture used as a
 generative test case to spawn falsifiable hypotheses, and the task is to find the true structure (often

@@ -14,7 +14,11 @@ holding on every antilinear operator whose re-graded chirality eigenspaces are K
 than the Krein-compatible operators, since the proof uses only that isotropy: `canon/antilinear-bound-RESULTS.md`,
 `canon/antilinear-nonkrein-admissibility-RESULTS.md`), so a nonzero count would require a K-definite re-grading
 that is not a chirality; the function-space extension now holds as a *conditional* section-setting theorem
-(residual: the APS/end and family-index analytic terms; `canon/function-space-index-conservation-RESULTS.md`); **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
+(residual: the APS/end and family-index analytic terms; `canon/function-space-index-conservation-RESULTS.md`) --
+on faithful stand-in models those residual terms are each discharged by the same `sigma_1 (x) B` mechanism
+(`canon/function-space-index-conservation-residual-closure-RESULTS.md`; the actual RS boundary eta on `RP^3` is
+2-primary, `canon/rs-boundary-eta-2primary-RESULTS.md`), leaving the true-RS-`Y14`-bundle computation as the
+one open residual; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections 1 and 9.
 
@@ -23,7 +27,7 @@ independently replicated or peer-reviewed. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.9, 2026-07-02 (repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.9.1, 2026-07-03 (v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -385,7 +389,14 @@ self-adjoint, chirality-odd, Krein-self-adjoint Fredholm operators has net chira
 (computed and independently re-verified in an explicit 1D Dirac model;
 `canon/function-space-index-conservation-RESULTS.md`). The residual is now precisely the analytic boundary
 terms -- the APS / noncompact-end eta correction, family-index terms, and gap well-posedness of the physical
-projection -- which remain open.
+projection. On faithful stand-in models these three terms are each discharged by the same `sigma_1 (x) B`
+mechanism -- gap well-posedness is set by the end (count 0 whenever well-posed), the APS/end eta is 0 for every
+operator in the class (and the actual Rarita-Schwinger boundary eta on `RP^3` is 2-primary,
+`canon/rs-boundary-eta-2primary-RESULTS.md`), and the family-index term `c1(E_-) = c1(upper)+c1(lower)` cancels
+(`canon/function-space-index-conservation-residual-closure-RESULTS.md`, computed + independently re-verified,
+internal tier). The remaining open residual is the true-Rarita-Schwinger-`Y14`-bundle computation (the standard
+APS / family-index machinery applied to the same structure, not re-derived on `Y14`); it does not change the
+verdict, which stays open and derives nothing about three.
 
 **Corollary (necessary antilinear escape).** No linear / unitary dynamics generates chiral asymmetry in this
 sector. By Wigner's dichotomy the unique symmetry-respecting escape is **antilinear** (CPT / particle-hole;

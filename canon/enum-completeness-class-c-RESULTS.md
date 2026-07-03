@@ -1,6 +1,7 @@
 ---
 title: "WC-ENUM-COMPLETENESS: within the delimited class C of covariant sector-interior structures on the Clifford-RS carrier, the paper's 7-item obstruction enumeration is COMPLETE and every generator is 2-primary. Route (a) classification computed (generator spaces dim 2/2/2/2 under the full split covariance, all invariant forms purely cross-chirality, all antilinear structures T-type with per-block C^2 = -1 in (9,5) / +1 in (7,7), NO equivariant antilinear re-grading exists at all); route (b) engine sweep finds NO sector-interior odd-primary obstruction and shows the class boundary is SHARP (odd primes appear at the first step beyond the sector's data: 54 -> 3, 120 -> 7, 126 -> 5*7, j=3/2 -> 5)."
-status: staged
+status: canon
+canon_promoted_at: "2026-07-03"
 doc_type: result
 created: 2026-07-02
 grade: "computed + independently re-verified (different gammas, different signature, different null-space algorithm) for the census; theorem-grade exact integer combinatorics for the same-chirality vanishing (16x16 zero-weight count = 0) and exact Fraction arithmetic for the engine (Weyl dim / Casimir / Dynkin over D5, eta family, composition closure); ghost-parity row inherited from canon (not recomputed). NOT a symbolic proof over an abstract axiom set: the classification is a machine-verified computation on the explicit carrier with printed spectral-gap and residual certificates (residuals 1e-12 to 1e-15, gaps O(1))."
