@@ -117,6 +117,43 @@ None derive three; the generation-count verdict stays **OPEN**. Net: three route
 been *forced* are closed (R1 odd-interior, R2 mod-3, R5 chiral-tie), and two GU-independent results are
 promoted to canon (R3, R4).
 
+## 2026-07-03 Internal-Paths Run (#2-#6) -- next steps for pickup
+
+Five bounded internal (no-external-reviewer) attacks ran 2026-07-03 (`explorations/internal-paths-2026-07-03/`,
+`tests/internal-paths/`, all scripts exit 0). Honest grades and the **next decisive step for each** (steward:
+these are pickup-eligible; several cluster on the source-action wall being ultracoded as the #1 swing):
+
+- **#2 OQ-RK1 `ind_H` rank (PARTIAL).** Target-free rank of `Π_RS·E₊·Π_RS` on the actual Cl(9,5) carrier is
+  **`rank_H = 416`** (three methods agree; ℍ-halving certified) -- **not** the load-bearing 4/8, so the "8"
+  is not vindicated on the bare carrier. *Next:* pin `E_RS^eff` (BRST quotient + K-theory symbol +
+  `ch₂(F)[K3]` + Y¹⁴↔K3 bridge) as concrete code on the same carrier and re-run the rank pipeline. Routes into
+  the source-action wall (#1). `explorations/internal-paths-2026-07-03/oq-rk1-indh-rank-certificate.md`.
+- **#3 Lean typecheck (CLOSED for the core spine).** `Lean/GUFormalization/LocatedNotForcedLegs.lean` (Theorem 2
+  Krein index-nullity `chi_eq_zero`, the antilinear bound, 2-primary identities 3a-3f) elaborates **exit 0, no
+  `sorry`/`axiom`** on the provisioned toolchain (elan 4.32.0-rc1, mathlib built). Upgrades the finite-dim core
+  from sympy-symbolic to Lean-verified. *Next:* (a) fix `tests/big-swing/R4_TwoArena.lean`'s 2 mathlib API-drift
+  errors (`Finset.card_sdiff` signature; `addOrderOf_eq_one_iff` rename) -- bounded; (b) update the now-stale
+  "UNVERIFIED" headers in `LocatedNotForcedLegs.lean` + the A1 inventory; (c) optionally repair the 3 older lib
+  files blocking whole-lib `lake build`. `explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md`.
+- **#4 True-RS-Y¹⁴ bundle (PARTIAL / BLOCKED-ON-SOURCE-ACTION).** Three of the four family/APS terms close on the
+  actual `Y¹⁴` bundle with no source action (bulk `21σ/8` with σ free; fiber-core APS eta on `L(2;1)` 2-primary;
+  cross-chirality Chern `c1(E_-)=0`). Only **[D]**, the definite vertical fiber Dirac `L²` index over the
+  noncompact `GL(4,R)/O(3,1)`, is gated. *Next:* build that definite vertical fiber Dirac operator (GU metric +
+  APS end) and its pushforward over X⁴ -- **the sole remaining wall, = the #1 source-action swing.**
+  `explorations/internal-paths-2026-07-03/true-rs-y14-bundle-index.md`.
+- **#5 R3 OC1/OC2 (REDUCED-TO-NAMED-LEMMA).** The non-compact signed-readout case now hangs on a single named
+  condition -- **Uniform Invertibility at Infinity** (Callias-Anghel coercivity; OC2 adds only an algebraic
+  J-commutation). *Next:* prove UII = a uniform spectral-gap estimate on the asymptotic operator `D_∞`; that
+  fully discharges R3's non-compact extension. `explorations/internal-paths-2026-07-03/signed-readout-oc1-oc2.md`.
+- **#6 Anomaly Sp(64) (PARTIAL).** Global gauge anomaly is purely 2-primary: **`Ω^Spin_15(BSp(n))` has no odd
+  torsion** for every n (so `π₁₅(Sp)=Z` couldn't settle it). *Next:* a 2-local ko-module AHSS of
+  `Ω^Spin_15(BSp(1))` + a Dai-Freed eta evaluation of the (explicitly assumed) chiral content on a generating
+  `Sp(1)`-bundle over a 15-manifold. `explorations/internal-paths-2026-07-03/anomaly-sp64-i16-daifreed.md`.
+
+**Convergence:** #2 and #4 independently localize the generation-count wall to one object -- the definite
+vertical fiber Dirac operator over `GL(4,R)/O(3,1)` and its pushforward, i.e. the unbuilt GU source action.
+That is the #1 big swing.
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
