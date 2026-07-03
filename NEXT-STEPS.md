@@ -171,6 +171,22 @@ inheriting 2-primality from canon); (c) canonically construct or prove-impossibl
 break from `Spin(9,5)`-equivariant data alone -- if every GU-native primitive commutes with `J_quat`, promote
 to a publishable Multiplicity-Theorem no-go ("the definite vertical index is always even, never 3").
 
+### DYNAMIC_A flank -- ran 2026-07-03, grade PARTIAL / trending BLOCKED
+
+Followed up #1's top lead. DYNAMIC_A (the RS/IG 1-form `A` treated as a genuine dynamical field) is the
+**first genuinely non-`BSp(64)` flank** and the **only** one where the order-3 base (`B(Spin(4)-frame)`,
+`e_R = 1/12`) is GU-native rather than K3-imported -- a real, target-free distinction. **But** both attempts
+to show DYNAMIC_A *forces* that base were **refuted** on the verified `Cl(9,5)` carrier (RS current
+parity-symmetric, `net_SD(D_RS) = 0`; the proxy signal sign-flips across sections at the noise floor), and the
+**count leg is dead three ways** (`e_R` homotopy-fixed, triplet vectorlike, `Hom(Z/3,Z) = 0`) -- so even the
+best case is BASE_FORCED_NOT_A_COUNT, never a home run. Full doc:
+`explorations/big-swing-2026-07-03/BIG-SWING-DYNAMIC-A-flank-PARTIAL.md`. **Single gate (steward pickup):**
+build the stabilized RS/IG-sector action `S_IG^susy` on `Y14 = Met(X4)` with a fixed variational convention
+(the genuine GU-theory incompleteness, eq 10.10 author-disclaimed) -- every DYNAMIC_A claim is a proxy until
+it exists. Secondary: reconcile the disagreeing `ind_H` routes (symbol/K-theory `-320/-304/-336` vs af4
+rep-theory `ind_H = 8`) and confirm `s^2 = 0` on the connection-2-form carrier (intrinsic KSp carrier fails,
+`s^2 = 749.16`).
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
