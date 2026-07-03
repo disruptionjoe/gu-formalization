@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-02"
+updated_at: "2026-07-03"
 ---
 
 # Next Steps For Contributors
@@ -88,6 +88,67 @@ direction can be high priority if it is mathematically precise and would strongl
 whether GU succeeds.
 
 For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
+
+## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
+
+While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
+review outcome. They are novel/publishable GU-independent products and convergence checks. House discipline
+applies to all: no target import (never assume/divide by 3, 8, 24, or any target count), executable
+certificate + RESULTS where a claim is made, adversarial re-verification, honest grade + internal tier, and
+NO canon/paper promotion without Joe (stage results, pause for review). Each is bounded; an hourly run should
+take ONE sub-goal, not the whole lane.
+
+### LANE-SM-BOUNDARY (novel physics; high ceiling; priority 1)
+**Statement.** The program's frontier question after "the count is external": fix the interior Clifford-RS
+sector and require the ACTUAL Standard Model (three anomaly-free generations, the gauge group) as the chiral
+boundary data -- is the external structure then PINNED? This is the "SM as a boundary / cobordism condition"
+direction (anomaly inflow / Callan-Harvey; Wang-Wen cobordism; Dai-Freed / swampland). **First bounded
+sub-goals:** (a) state the boundary-data interface precisely (what the external background must supply to the
+index theorem, in exact terms -- reuse `canon/source-action-family-index-interface-SPEC.md`); (b) compute, in
+a faithful low-dim model, whether requiring anomaly-freedom + the SM gauge group constrains the admissible
+external chiral background (a cobordism/anomaly-inflow toy); (c) survey the exact literature hooks
+(Callan-Harvey, Wang-Wen `Omega^{Spin}` cobordism groups, Freed-Hopkins-Teleman) and name one decidable test.
+**Success:** a computed constraint (even partial) on the external background from SM-shaped boundary data, or a
+stated obstruction. **Failure/kill:** the external structure is provably unconstrained by SM boundary data
+(then the "matched pair" narrative is downgraded). **Artifact:** `explorations/` frontier packet + a
+`tests/` toy certificate. GU-independent framing; does not derive three.
+
+### LANE-SIGNED-READOUT-PAPER (GU-independent; publish potential 5; priority 2)
+**Statement.** Promote the signed-readout boundary theorem (`lab/active-research/signed-readout/`) toward a
+standalone GU-independent paper: monotone-readout criterion, PN/Jordan factorization (PJ1-PJ5 discharged),
+Ginsparg-Wilson axial-charge instantiation, the six stated falsification conditions. **First sub-goals:**
+close the open upgrade conditions OC1 (Atiyah-Janich non-compact) and OC2 (H-linear Fredholm on `Y14`) that
+gate Parts Z/K, or state them as the paper's explicit hypotheses; assemble a self-contained theorem+proof
+draft in `papers/drafts/`. **Success:** a referee-checkable standalone draft with hypotheses, proof, and
+falsification conditions. **Artifact:** `papers/drafts/signed-readout-*`. Does not require anyone to buy GU.
+
+### LANE-ISSUANCE-BRIDGE (high-risk / high-ceiling; OBJ-TAF; priority 3)
+**Statement.** Test whether external chirality is an "issuance" -- boundary data set once and held by consensus
+-- linking GU chirality to the cross-repo `temporal-issuance` / `time-as-finality` threads. **Decisive first
+test (from OBJ-TAF):** find ONE concrete transport from a crosswalk object into a GU theorem, OR close the lane
+with a stated reason. **Success:** a concrete transport with a checkable consequence. **Kill:** no transport
+exists and the reason is stated (cheaply closes a seductive lane). **Artifact:**
+`explorations/time-as-finality-crosswalk/` note. Identity claims across repos remain GATED (tri-repo division
+of labor); no cross-repo mutual support.
+
+### LANE-METHOD-WRITEUP (pointer)
+The AI-directed self-correcting research writeup is carded in JoeOps as **WI-034** (venue/form is Joe's
+decision). If picked up here, draft only in `papers/drafts/` from the existing seed + receipts, no claim
+promotion, publishing is Joe-gated.
+
+### LANE-CONVERGENCE-READ (meta; OBJ-CONVERGE; priority 2)
+**Statement.** Quantify whether the automated loop is converging or thrashing. Compute a convergence read over
+`lab/process/loop-adversarial-log.md` (and recent run artifacts): net RESOLVED gain, churn ratio, repeat-rate,
+and the fraction of runs that produced a new admitted object vs. re-worked an existing one. **Success:** a
+`tests/`-backed metric report (executable, re-runnable) with an honest read. **Artifact:** `lab/process/`
+convergence report + a small script. Report only; promotes nothing.
+
+### LANE-DEFLATION-AUDIT (meta; OBJ-DEFLATE; priority 3)
+**Statement.** False-negative audit: sample recent OPEN downgrades / verdict-deflations and check none was
+over-killed (a live lead buried too aggressively). The 2026-07-03 canon audit was a positive step; extend it
+to the `active`/`exploration` tier. **Success:** a sampled audit with per-item "correctly killed / re-open
+candidate" verdicts. **Artifact:** `lab/process/` audit note. Re-opening any lead requires the
+claim-status-consistency runbook + stays staged for Joe.
 
 ## 2026-07-02 Publication-Gating Work Cards -- located-not-forced adversarial review
 
