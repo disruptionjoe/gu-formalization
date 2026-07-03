@@ -191,5 +191,6 @@ refinement*, and the family symbol (obligation 3) coupled to an SM gauge connect
 importing `chi`. Until the source action exposes those, the lane's *pinning* verdict stays **OPEN**;
 the generation-count verdict is **untouched and remains OPEN**.
 
-**No promotion.** Exploration-grade; GU-independent framing; no canon/paper edit; no claim
-promotion. The count verdict stays OPEN. Stage-and-pause for Joe.
+**Not promoted in this pass.** Exploration-grade; GU-independent framing; no canon/paper edit. Canon
+promotion is agent-owned as of 2026-07-03 (this note simply hasn't been promoted yet). The count verdict
+stays OPEN (a verdict change would still pause for Joe).

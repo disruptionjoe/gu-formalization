@@ -134,5 +134,6 @@ enlarged tangential structure whose bordism `Omega^{H}_5` carries odd torsion (a
 closed. This is the concrete residual, and it points *away* from anomaly cancellation as a source of three:
 consistent with the program's standing conclusion that the count is **external, located but not forced**.
 
-**No promotion.** Exploration-grade; staged under `explorations/big-swing-2026-07-03/` and `tests/big-swing/`
-only. No canon/paper edit, no status flip. The generation-count verdict remains OPEN. Stage-and-pause for Joe.
+**Not promoted in this pass.** Exploration-grade; staged under `explorations/big-swing-2026-07-03/` and
+`tests/big-swing/`. Canon promotion is agent-owned as of 2026-07-03 (see the RESEARCH-STATUS Promotion Rule);
+a verdict/status flip is separate and still pauses for Joe. The generation-count verdict remains OPEN.

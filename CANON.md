@@ -64,6 +64,8 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 - `canon/w2-y14-spin-structure.md`
 - `canon/schwarzschild-weak-field-rfail.md`
 - `canon/theta-field-flrw-dark-energy-eos.md`
+- `canon/signed-readout-boundary-theorem-RESULTS.md` (big-swing R3; GU-independent)
+- `canon/two-arena-rep-theory-core-RESULTS.md` (big-swing R4; GU-independent)
 - `lab/specifications/six-axis/`
 - `lab/specifications/type-ii1-spectral-sm/`
 
@@ -116,6 +118,17 @@ stays OPEN. The two RS function-space **SPEC** documents (`rs-function-space-fra
 | RS boundary eta 2-primary — STEP 2 (`canon/rs-boundary-eta-2primary-RESULTS.md`) | RESOLVED at computed grade | The **actual** Rarita-Schwinger boundary operator's reduced eta-bar on the sector's own boundary `RP^3 = L(2;1)` is 2-primary — the real-bundle version of the class-symmetry that forces the boundary/end eta neutral. |
 | Function-space residual closure — items (1)-(3) (`canon/function-space-index-conservation-residual-closure-RESULTS.md`) | DISCHARGED on faithful models (computed + independently re-verified); internal tier | Gap well-posedness (gap set by the end; count 0 when well-posed), APS/end eta = 0 for every operator in the class (nonzero eta is external), and the family-index term `c1(E_-)=c1(upper)+c1(lower)=0` are each discharged by the one `sigma_1 (x) B` mechanism. Honest residual: model -> true RS `Y14` bundle (standard APS/family-index machinery, not re-derived on `Y14`). Does **not** derive three. |
 | "External by structure" synthesis (`canon/external-by-structure-synthesis-RESULTS.md`) | RESOLVED on faithful models (the RS function-space residual is discharged per the two rows above); internal tier; true-`Y14`-bundle computation is the remaining honest residual | `chi = interior-even + external-topological-index`, so any odd count is necessarily external. Upgrades the paper verdict's modality from "external on present evidence" to "external by structure" — now with the analytic residual discharged on faithful models rather than deferred. Does **not** derive three (the external index is any integer). |
+
+## Canon Entries Added 2026-07-03 (big-swing GU-independent results; internal tier)
+
+Promoted under the 2026-07-03 agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awareness notes filed
+in `CapacityOS/mailboxes/joeops/`. Both are GU-independent (canonical claim 6), internal tier, and neither
+derives three; the count verdict stays OPEN.
+
+| entry | verdict | note |
+|---|---|---|
+| Signed-Readout Boundary Theorem (`canon/signed-readout-boundary-theorem-RESULTS.md`) | RESOLVED (abstract core M/P/C + compact Part Z/K, unconditional + machine-certified 22/22); OC1/OC2 remain labeled hypotheses for the non-compact case | GU-independent boundary theorem in ordered-algebra + index theory; no `chi(K3)` / 24 / 8 / 3 imported. Certificate `tests/big-swing/R3_signed_readout_certificate.py` exit 0 (re-run 2026-07-03). |
+| Two-Arena Rep-Theory Core (`canon/two-arena-rep-theory-core-RESULTS.md`) | RESOLVED (three exact facts; exact-integer certified; arithmetic cores have written Lean proof terms) | (A) `dim Hom_{so(9,5)}(S^+ (x) S^+, Lambda^0) = 0` (corroborated by SHIAB-05); (B) `pi_3^s = Z/8 (+) Z/3` CRT split + 2-primary blindness; (C) class-C generator arithmetic. `R4_crt_two_arena.py` exit 0 (re-run 2026-07-03); Lean recompilation not re-reproduced in this pass. |
 
 ## Not Yet Canon
 

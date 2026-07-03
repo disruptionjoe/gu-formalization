@@ -143,7 +143,7 @@ family-index analytic terms") can upgrade to: *within the sector class those ter
 discharged on faithful models -- the section/boundary/family chiral count is conserved at 0, and the
 only source of a nonzero count is an external topological index; the remaining residual is the
 true-RS-Y14-bundle computation (standard APS/family-index machinery).* This is a one- to two-sentence
-scope upgrade -- **not applied here**. Paper edits and `CANON.md` promotion **pause for Joe**.
+scope upgrade -- **not applied here**. Paper edits **pause for Joe**; `CANON.md` promotion is agent-owned as of 2026-07-03 (execute when the Promotion Rule is met, then drop a JoeOps awareness note).
 
 ## Reproduce
 

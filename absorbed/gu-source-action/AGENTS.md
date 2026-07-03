@@ -16,6 +16,6 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Use verified parent machinery through `lib/gu_bridge.py`; do not re-derive it here.
 - Never import the answer.
 - Record honest negatives in the repo-owned ledgers.
-- Public/private flips, claimed successes, hypothesis-status changes, or cross-repo parent changes pause for Joe.
+- Public/private flips, claimed successes, and hypothesis-status changes pause for Joe. Cross-repo actions (incl. parent-repo changes) are proposed via the target surface's mailbox (`CapacityOS/mailboxes/<surface>/`) for that steward to decide, not executed directly (see `CapacityOS/mailboxes/README.md`).
 - CapacityOS architecture questions route to CapacityOS; JoeOps coordination questions route to JoeOps.
 - Scratch, caches, and intermediate renders belong in `_local/`.

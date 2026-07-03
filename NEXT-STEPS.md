@@ -89,6 +89,34 @@ whether GU succeeds.
 
 For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
 
+## 2026-07-03 Big-Swing Outcomes (R1-R5) -- routes closed, do not re-chase
+
+Five ambitious swings ran on 2026-07-03 (`explorations/big-swing-2026-07-03/`, `tests/big-swing/`, all
+certificates exit 0). They **close routes**; future hourly runs should not re-open them:
+
+- **R1** (`R1-rs-operator-residual-and-odd-count-nogo.md`): residual-closure items 2 (APS/end eta) and 3
+  (family Chern) discharged on the **actual** Cl(9,5) RS operator (not the 2x2/1D stand-ins), and the
+  odd-interior chiral count proved impossible via a table-free parity theorem. Do not re-chase an interior
+  odd-count operator. Open residual: the definite Y14-fiber pushforward (the unbuilt source action).
+- **R2** (`R2-sm-boundary-mod3-arena-empty.md`): the mod-3 arena is **provably empty** for the SM
+  (`Omega^Spin_5(B G_SM) (x) Z_(3) = 0`, root cause color triality). Do not re-open "the count hides in the
+  Z/3 of pi_3^s = Z/24" -- both the local and global anomaly layers now leave the count mod-3 free.
+- **R3** (`R3-signed-readout-standalone-theorem.md`): the Signed-Readout Boundary Theorem -- abstract core
+  (M/P/C) + compact Part Z/K proved and machine-certified (22/22 PASS). **PROMOTED to canon 2026-07-03**
+  (`canon/signed-readout-boundary-theorem-RESULTS.md`). Only OC1/OC2 (non-compact case) remain labeled
+  hypotheses.
+- **R4** (`R4-two-arena-rep-theory-core.md`): the Spin(9,5) chiral-spinor Hom-vanishing, the CRT two-arena
+  split `pi_3^s = Z/8 (+) Z/3` with 2-primary blindness, and the class-C generator arithmetic --
+  certificate-backed (exact-integer, exit 0) plus written Lean proof terms. **PROMOTED to canon 2026-07-03**
+  (`canon/two-arena-rep-theory-core-RESULTS.md`).
+- **R5** (`R5-issuance-bridge-chiral-tie-nogo.md`): the chiral-block-tie selector BUILT and KILLED --
+  closes the last unbuilt leg of the deflation-audit item-1 shiab-selector residual (now down to
+  channel-mix + scale). Do not re-open the chiral-tie sub-lead.
+
+None derive three; the generation-count verdict stays **OPEN**. Net: three routes by which three could have
+been *forced* are closed (R1 odd-interior, R2 mod-3, R5 chiral-tie), and two GU-independent results are
+promoted to canon (R3, R4).
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
