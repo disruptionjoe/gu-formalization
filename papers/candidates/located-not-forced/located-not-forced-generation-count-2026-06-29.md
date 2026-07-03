@@ -17,8 +17,12 @@ that is not a chirality; the function-space extension now holds as a *conditiona
 (residual: the APS/end and family-index analytic terms; `canon/function-space-index-conservation-RESULTS.md`) --
 on faithful stand-in models those residual terms are each discharged by the same `sigma_1 (x) B` mechanism
 (`canon/function-space-index-conservation-residual-closure-RESULTS.md`; the actual RS boundary eta on `RP^3` is
-2-primary, `canon/rs-boundary-eta-2primary-RESULTS.md`), leaving the true-RS-`Y14`-bundle computation as the
-one open residual; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
+2-primary, `canon/rs-boundary-eta-2primary-RESULTS.md`), and a 2026-07-03 exploration (exploration-grade, not
+canon) further discharges the APS/end-eta and family-index terms on the **actual** `Cl(9,5)` RS operator over a
+source-parameter loop -- not only stand-in models -- narrowing the one open residual to the definite
+`Y14`-fiber pushforward, which is the (external) unbuilt source action itself
+(`explorations/big-swing-2026-07-03/R1-rs-operator-residual-and-odd-count-nogo.md`); the true-`Y14`-bundle
+computation remains open and the verdict is unchanged; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections 1 and 9.
 
@@ -27,7 +31,7 @@ independently replicated or peer-reviewed. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.9.1, 2026-07-03 (v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.10, 2026-07-03 (v2.10: folded 2026-07-03 big-swing corroboration [R1 discharges the residual APS/end-eta + family-index items on the **actual** `Cl(9,5)` RS operator, and adds a table-free parity backstop for Theorem 1 completeness; R2 Dai-Freed / spin-bordism finds the mod-3 arena empty for SM boundary data; canon citations for the two-arena core `canon/two-arena-rep-theory-core-RESULTS.md` (R4) and the signed-readout boundary theorem `canon/signed-readout-boundary-theorem-RESULTS.md` (R3)] -- exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `CHANGELOG-v2.10-big-swing-fold.md`. Prior v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -333,6 +337,16 @@ mod-`2^k`; there is no odd-prime congruence anywhere in the enumeration. QED.
 odd-prime congruence.** A standard analogue: the 3-primary part of the stable 3-stem is invisible to a mod-2
 Postnikov/Adams analysis.
 
+*Remark (structural backstop, 2026-07-03, exploration-grade).* Beyond the enumeration, the parity of any
+covariant sector-interior net chiral count is fixed without a census. The full chirality is central in the
+even Clifford algebra, so by Schur every `so(4) (+) so(10)`-irreducible subrep of the carrier sits wholly in
+one chirality, and the achievable net counts form the lattice `{ sum_R d_R (k_R - l_R) }`; an odd count is
+possible iff some appearing irrep has odd dimension. On the actual carrier every appearing irrep is
+even-dimensional, so every covariant interior count is even -- a table-free parity theorem that backstops the
+enumeration's 2-primary verdict, addressing the standing "is the enumeration complete?" concern structurally
+rather than by list (`explorations/big-swing-2026-07-03/R1-rs-operator-residual-and-odd-count-nogo.md`,
+`tests/big-swing/R1_kill_odd_index_isotypic.py`, exit 0).
+
 ---
 
 ## 5. The CRT two-arena structure
@@ -342,7 +356,9 @@ stem `4s-1`, that `Im J` is cyclic of order `denom(B_{2s}/4s)`; for `s=1` this i
 and the Adams `e`-invariant detects it.
 
 **The central structural fact.** By the Chinese Remainder Theorem the splitting `Z/24 = Z/8 (+) Z/3` is into
-**disjoint, non-interacting summands**: there is no nonzero homomorphism `Z/8 -> Z/3` or `Z/3 -> Z/8`. By
+**disjoint, non-interacting summands**: there is no nonzero homomorphism `Z/8 -> Z/3` or `Z/3 -> Z/8` (this
+CRT two-arena structure with 2-primary blindness is now canon as a standalone, Lean-backed restatement,
+`canon/two-arena-rep-theory-core-RESULTS.md`). By
 Theorem 1, every obstruction in the no-go constrains only the `Z/8` (2-primary) summand. We show in Section 6
 that every chiralizing *selector* likewise lives in `Z/8`. A homotopy-theoretic generation count, being odd,
 can live only in the `Z/3` summand.
@@ -596,7 +612,20 @@ re-check `tests/chase/MOVE-4/verify/indep_check.py`) gives
 `dim Hom_{Spin(9,5)}(S^+ tensor S^+, Lambda^0) = 0`: no invariant same-chirality Majorana scalar-mass bilinear
 exists in the equivariant family (the scalar bilinear pairs only `S^+ <-> S^-`), so that mass channel too must be
 supplied by an external source-action term. This is a consistency remark about the spinor-square channel, not a
-statement about the 192-dimensional carrier's Dirac mass.
+statement about the 192-dimensional carrier's Dirac mass. (This Hom-vanishing is now canon as fact (A) of the
+two-arena rep-theory core, `canon/two-arena-rep-theory-core-RESULTS.md`, re-run exit 0 on 2026-07-03.)
+
+*Remark (global anomaly layer, 2026-07-03, exploration-grade).* The anomaly-inflow bridge invoked above can be
+probed directly on the global (Dai-Freed / spin-bordism) layer: requiring the whole anomaly-free Standard
+Model as chiral boundary data, does it pin the count in the odd-torsion arena? For the actual SM gauge group it
+does not -- the relevant global-anomaly group has no 3-torsion at all (`Omega^Spin_5(B G_SM) (x) Z_(3) = 0`),
+because 3-locally `(SU(3) x U(1))/Z_3 = U(3)` is torsion-free and `Omega^Spin_*(pt)` is odd-torsion-free
+(Anderson-Brown-Peterson / Wall); equivalently, color triality makes every charged Weyl multiplicity a
+multiple of 3, so a concrete Dai-Freed eta on the lens space `L(3;1,1)` gives mod-3 phase 0. The carrier arena
+that inflow could have populated is, for SM boundary data, **empty**. This removes a specific mechanism by
+which three could have been forced; it does not derive three, and the verdict is unchanged. Exploration-grade
+(`explorations/big-swing-2026-07-03/R2-sm-boundary-mod3-arena-empty.md`,
+`explorations/anomaly-and-bordism/sm-as-boundary-cobordism-frontier-2026-07-03.md`).
 
 ---
 
@@ -687,6 +716,9 @@ feeding the two-arena reading.
 | Toy stabilized twisted RS sector fills the forcing slot | NO (computed); reaches <=2 of 3 properties; every integer 2-primary or 1 |
 | "2+1" as a single additive count | numerology across disjoint frameworks (computed) |
 | Carrier Dirac mass (the gate) | ALLOWED/vectorlike (computed); massive -> decouples to 0, massless -> modulus; neither is 3; forcing 3 needs the frame-trivial selector-side chiral projection |
+| Theorem 1 completeness backstopped by a table-free parity theorem on the actual carrier (2026-07-03) | exploration-grade corroboration (`tests/big-swing/R1_kill_odd_index_isotypic.py`, exit 0); centrality + Schur + even-dimensionality force every interior count even, no census needed |
+| Residual items (APS/end eta, family-index) discharged on the **actual** `Cl(9,5)` RS operator, not only faithful models (2026-07-03) | exploration-grade corroboration (`tests/big-swing/R1_actual_rs_operator_residual.py`, exit 0); narrows the open residual to the definite `Y14`-fiber pushforward = the external source action; the true-bundle computation is still open |
+| SM boundary data does not pin the count in the mod-3 arena (Dai-Freed / spin-bordism) | exploration-grade (R2; `Omega^Spin_5(B G_SM) (x) Z_(3) = 0` by color triality); removes a forcing mechanism, does not derive three |
 | GU forces exactly three chiral generations | NOT claimed; no computed quantity in this program equals three |
 
 ---

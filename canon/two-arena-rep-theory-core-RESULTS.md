@@ -44,8 +44,9 @@ count** and asserts no GU-specific physical premise.
   no `sorry` and no `axiom` in the source. **Lean recompilation was not re-reproduced in this promotion
   pass** — cite the Lean as "proof terms written, source clean," not as re-verified-here; the canonical
   content stands independently on the exact-integer certificate and on (A)'s existing canon corroboration.
-- **(A)** — corroborated by `canon/shiab-existence-cl95.md` (SHIAB-05, exact, errors 0.00e+00); R4's full
-  numeric second-basis/second-signature re-derivation is asserted by the source run.
+- **(A)** — re-run this session (`R4_spin95_hom_vanishing.py`, **exit 0**: `dim Hom = 0` across explicit
+  `Cl(9,5)`, a recursive-doubling basis, and `Cl(7,7)`; controls `Cl(4,0)/Cl(8,0)` correctly return 1),
+  corroborating `canon/shiab-existence-cl95.md` (SHIAB-05, exact rep theory, errors 0.00e+00).
 
 ## Scope / what this does NOT do
 

@@ -197,3 +197,25 @@ edits were applied.
 **Still pending Joe (unchanged):** CANON.md promotion of the four staged RESULTS files; the publication flip
 (stays **DEFERRED**); git commit/push. The analytic residual (APS/end + family-index) is genuinely open; the
 "external by structure" upgrade is always stated modulo it. Internal tier unchanged (caveat (e)).
+
+## Big-swing corroboration fold -> v2.10 (2026-07-03)
+
+Folded the 2026-07-03 big swing (R1-R5) and answered the same-day adversarial peer review of the v2.9.1
+canon-promotion commit. **Caveat/remark/citation + status-table only; no verdict change; count stays OPEN;
+publication remains DEFERRED.** Both copies (`.md`, `.tex`) in sync. See `CHANGELOG-v2.10-big-swing-fold.md`.
+
+- The review's load-bearing cautions (#1/#2: "external by structure" leans on *faithful stand-in models";
+  #3: enumeration completeness) are answered by **R1**: residual APS/end-eta + family-index items now
+  discharged on the **actual** `Cl(9,5)` RS operator (not stand-ins), narrowing the one open residual to the
+  definite `Y14`-fiber pushforward (= the external source action); and a table-free parity theorem backstops
+  Theorem 1 completeness. Folded as exploration-grade corroboration, not headline strengthening.
+- **R2** (Dai-Freed / spin-bordism): SM boundary data does not pin the count mod-3 (`Omega^Spin_5(B G_SM)
+  (x) Z_(3) = 0`, color triality) -- new exploration-grade support in Section 8.
+- **R3** (`canon/signed-readout-boundary-theorem-RESULTS.md`) and **R4**
+  (`canon/two-arena-rep-theory-core-RESULTS.md`) are now canon and cited; standalone drafts live at
+  `papers/drafts/signed-readout-boundary-theorem-2026-07-03.md` and
+  `papers/drafts/two-arena-rep-theory-core-2026-07-03.md`.
+
+The peer review recommended "clean to post (hep-th)"; **publication stays Joe-gated** — the review is not
+authorization. The one pre-submission mechanical item it named (the `.md`/`.tex` consistency pass) was done
+in this fold.

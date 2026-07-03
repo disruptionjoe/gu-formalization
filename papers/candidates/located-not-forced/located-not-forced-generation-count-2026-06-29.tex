@@ -76,7 +76,7 @@ reading tightens to this structural decomposition, still gated by the open APS/e
 internal-tier per \emph{(e)}; \emph{(d)} the antilinear non-existence leg is \emph{closed over a delimited class}---an index-nullity
 theorem holding on every antilinear operator whose re-graded chirality eigenspaces are $K$-null (strictly
 larger than the Krein-compatible operators, since the proof uses only that isotropy), so a nonzero count would
-require a $K$-definite re-grading that is not a chirality; the function-space extension now holds as a \emph{conditional} section-setting theorem (residual: the APS/end and family-index analytic terms), and on faithful stand-in models those residual terms are each discharged by the same $\sigma_1 \otimes B$ mechanism (with the actual RS boundary eta on $\mathbb{RP}^3$ 2-primary), leaving the true-RS-$Y^{14}$-bundle computation as the one open residual; \emph{(e)} every verification reported here is \emph{internal}---computations reproduced from
+require a $K$-definite re-grading that is not a chirality; the function-space extension now holds as a \emph{conditional} section-setting theorem (residual: the APS/end and family-index analytic terms), and on faithful stand-in models those residual terms are each discharged by the same $\sigma_1 \otimes B$ mechanism (with the actual RS boundary eta on $\mathbb{RP}^3$ 2-primary), and a 2026-07-03 exploration (exploration-grade, not canon) further discharges the APS/end-eta and family-index terms on the \textbf{actual} $\mathrm{Cl}(9,5)$ RS operator over a source-parameter loop---not only stand-in models---narrowing the one open residual to the definite $Y^{14}$-fiber pushforward, which is the (external) unbuilt source action itself; the true-$Y^{14}$-bundle computation remains open and the verdict is unchanged; \emph{(e)} every verification reported here is \emph{internal}---computations reproduced from
 scratch and adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections~\ref{sec:intro} and~\ref{sec:open}.}}
 \end{center}
@@ -319,6 +319,10 @@ the modular statement. A standard analogue: the $3$-primary part of the stable $
 mod-$2$ Postnikov/Adams analysis.
 \end{remark}
 
+\begin{remark}[Structural backstop, 2026-07-03, exploration-grade]
+Beyond the enumeration, the parity of any covariant sector-interior net chiral count is fixed without a census. The full chirality is central in the even Clifford algebra, so by Schur every $\mathfrak{so}(4)\oplus\mathfrak{so}(10)$-irreducible subrep of the carrier sits wholly in one chirality, and the achievable net counts form the lattice $\{\sum_R d_R(k_R-l_R)\}$; an odd count is possible iff some appearing irrep has odd dimension. On the actual carrier every appearing irrep is even-dimensional, so every covariant interior count is even---a table-free parity theorem that backstops the enumeration's 2-primary verdict, addressing the ``is the enumeration complete?'' concern structurally rather than by list (exploration-grade).
+\end{remark}
+
 \section{The CRT two-arena structure}\label{sec:crt}
 
 We have $\pis = \Z/24$, with primary decomposition $\Z/24 = \Z/8 \oplus \Z/3$. Adams' image-of-$J$ theorem~\cite{adams1966jx4}
@@ -326,7 +330,7 @@ gives, in stem $4s-1$, that $\Imm J$ is cyclic of order $\mathrm{denom}(B_{2s}/4
 $\Imm J_3 = \Z/24$ and the Adams $e$-invariant detects it.
 
 \paragraph{The central structural fact.} By the Chinese Remainder Theorem the splitting $\Z/24 = \Z/8\oplus\Z/3$
-is into disjoint, non-interacting summands: there is no nonzero homomorphism $\Z/8\to\Z/3$ or $\Z/3\to\Z/8$. By
+is into disjoint, non-interacting summands: there is no nonzero homomorphism $\Z/8\to\Z/3$ or $\Z/3\to\Z/8$ (this CRT two-arena structure with 2-primary blindness is now canon as a standalone, Lean-backed restatement, \texttt{canon/two-arena-rep-theory-core-RESULTS.md}). By
 Theorem~\ref{thm:1}, every obstruction in the no-go constrains only the $\Z/8$ ($2$-primary) summand. Section
 \ref{sec:thm2} shows every chiralizing \emph{selector} likewise lives in $\Z/8$. A homotopy-theoretic generation
 count, being odd, can live only in the $\Z/3$ summand.
@@ -640,7 +644,11 @@ $\dim\Hom_{\Spin(9,5)}(S^+\otimes S^+,\Lambda^0)=0$: no
 invariant same-chirality Majorana scalar-mass bilinear exists in the equivariant family (the scalar bilinear
 pairs only $S^+\leftrightarrow S^-$), so that mass channel too must be supplied by an external source-action
 term. This is a consistency remark about the spinor-square channel, not a statement about the $192$-dimensional
-carrier's Dirac mass.
+carrier's Dirac mass. (This Hom-vanishing is now canon as fact~(A) of the two-arena rep-theory core, \texttt{canon/two-arena-rep-theory-core-RESULTS.md}, re-run exit~0 on 2026-07-03.)
+
+\begin{remark}[Global anomaly layer, 2026-07-03, exploration-grade]
+The anomaly-inflow bridge invoked above can be probed directly on the global (Dai--Freed / spin-bordism) layer: requiring the whole anomaly-free Standard Model as chiral boundary data, does it pin the count in the odd-torsion arena? For the actual SM gauge group it does not---the relevant global-anomaly group has no 3-torsion at all ($\Omega^{\mathrm{Spin}}_5(BG_{\mathrm{SM}})\otimes\Z_{(3)}=0$), because 3-locally $(SU(3)\times U(1))/\Z_3 = U(3)$ is torsion-free and $\Omega^{\mathrm{Spin}}_*(\mathrm{pt})$ is odd-torsion-free (Anderson--Brown--Peterson / Wall); equivalently, color triality makes every charged Weyl multiplicity a multiple of $3$, so a concrete Dai--Freed eta on the lens space $L(3;1,1)$ gives mod-$3$ phase $0$. The carrier arena that inflow could have populated is, for SM boundary data, \textbf{empty}. This removes a specific mechanism by which three could have been forced; it does not derive three, and the verdict is unchanged.
+\end{remark}
 
 \paragraph{Gated, not fabricated.} Four things remain genuinely gated: (i) the $+8$ RS leg / the literal
 integer, on the unbuilt source action; (ii) the full analytic Bismut--Cheeger~\cite{bismut1989eta}
@@ -739,6 +747,9 @@ The disjointness-implies-blindness reading (a $2$-primary no-go cannot constrain
 The literal generation integer on GU's $14$-manifold & gated on the unbuilt source action \\
 The only unconditionally computable generation integer in this program & $1$ (Pati--Salam $\Spin(7,7)$, computed; chain-relative---one reduction chain among many) \\
 $\text{order-}3\text{ class}\to\text{integer }3$ & open; ill-typed as stated ($\Hom(\Z/3,\Z)=0$); needs a relative/rank home \\
+Theorem~1 completeness backstopped by a table-free parity theorem on the actual carrier (2026-07-03) & exploration-grade corroboration (\texttt{R1\_kill\_odd\_index\_isotypic.py}, exit~0); centrality + Schur + even-dimensionality force every interior count even, no census needed \\
+Residual items (APS/end eta, family-index) discharged on the \textbf{actual} $\mathrm{Cl}(9,5)$ RS operator, not only faithful models (2026-07-03) & exploration-grade corroboration (\texttt{R1\_actual\_rs\_operator\_residual.py}, exit~0); narrows the open residual to the definite $Y^{14}$-fiber pushforward $=$ the external source action; true-bundle computation still open \\
+SM boundary data does not pin the count in the mod-$3$ arena (Dai--Freed / spin-bordism) & exploration-grade (R2; $\Omega^{\mathrm{Spin}}_5(BG_{\mathrm{SM}})\otimes\Z_{(3)}=0$ by color triality); removes a forcing mechanism, does not derive three \\
 GU forces exactly three chiral generations & not claimed; no computed quantity in this program equals three \\
 \bottomrule
 \end{longtable}
