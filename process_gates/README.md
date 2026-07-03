@@ -25,8 +25,9 @@ table without treating roadmap prose as a research claim.
 
 ## Public path hygiene gate
 
-`public_path_hygiene_audit.py` checks neutral contributor/config files and `process_gates/`
-sources for absolute home-path leaks before those surfaces are committed in this public repo.
+`public_path_hygiene_audit.py` checks the root public entry file, neutral contributor/config
+files, and `process_gates/` sources for absolute home-path leaks before those surfaces are
+committed in this public repo.
 It intentionally does not scan canon, derivation, proof, result-grade, paper, Lean proof,
 exploration, or research-status surfaces, so it can run while those areas are dirty or under
 governance review.

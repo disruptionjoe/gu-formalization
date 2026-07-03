@@ -2,7 +2,7 @@
 """Audit public-safe surfaces for absolute home-path leaks.
 
 This is a publication hygiene gate, not a research-content check. It scans only
-neutral contributor/config files and process-gate sources so it can run while
+public entry, contributor/config, and process-gate sources so it can run while
 canon, derivation, proof, result-grade, and paper surfaces are under review.
 """
 
@@ -23,6 +23,7 @@ SAFE_FILES = (
     "CONTRIBUTING.md",
     "LICENSE-CODE.md",
     "LICENSE-DOCS.md",
+    "README.md",
     "lakefile.lean",
     "lean-toolchain",
 )
@@ -109,6 +110,7 @@ class PublicPathHygieneAudit(unittest.TestCase):
     def test_scan_scope_avoids_research_truth_and_dirty_residual_surfaces(self) -> None:
         scanned = [relpath(path) for path in scan_targets()]
         self.assertGreaterEqual(len(scanned), 1)
+        self.assertIn("README.md", scanned)
         for path in scanned:
             for prefix in FORBIDDEN_SCAN_PREFIXES:
                 self.assertFalse(path == prefix.rstrip("/") or path.startswith(prefix), path)
