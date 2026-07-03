@@ -154,6 +154,23 @@ these are pickup-eligible; several cluster on the source-action wall being ultra
 vertical fiber Dirac operator over `GL(4,R)/O(3,1)` and its pushforward, i.e. the unbuilt GU source action.
 That is the #1 big swing.
 
+### #1 big swing (source action) -- ran 2026-07-03, grade BLOCKED / firewall-confirming (WEAK form)
+
+A 25-agent ultracode swing tried to build that object target-free (two routes: homogeneous-metric+Callias/APS;
+Dai-Freed boundary). **Neither built it; both relocated the wall.** Real content: (i) the only
+`GL(4,R)`-invariant trace form on `GL(4,R)/O(3,1)` is indefinite `(+7,-3)` with noncompact isotropy -- **no
+invariant Riemannian fiber metric exists**, so definiteness must be imported (dodging the C-07 Kramers wall);
+(ii) any completion is a boundary/external object which the GU-forced `RP^3` base renders 2-primary, so
+sourcing 3 would require importing a 3-divisible integer from outside GU. Count stays OPEN; no closure
+fabricated. Full doc: `explorations/big-swing-2026-07-03/BIG-SWING-1-source-action-definite-vertical-dirac-BLOCKED.md`.
+Top follow-ups (steward pickup): (a) the un-probed **DYNAMIC_A / dynamical-RS-1-form flank** -- build the
+stabilized RS-sector action for the dynamical-1-form branch and test whether it forces a tangential-framing
+base (`Lambda^2_+`, `e_R=1/12`, order 3) instead of `BSp(64)` -- the only route where a 3-carrying base is not
+a forbidden import; (b) re-derive the `L(2;1)` Dirac-eta denominator from a from-scratch spectrum (stop
+inheriting 2-primality from canon); (c) canonically construct or prove-impossible the C-07 `{D,Gamma}!=0`
+break from `Spin(9,5)`-equivariant data alone -- if every GU-native primitive commutes with `J_quat`, promote
+to a publishable Multiplicity-Theorem no-go ("the definite vertical index is always even, never 3").
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
