@@ -4,10 +4,11 @@ status: active
 doc_type: result
 created: 2026-06-28
 depends_on:
-  - canon/multiplicity-theorem.md
   - canon/leg3-closure-and-spinor-2smoothness.md
   - canon/ghost-parity-krein-synthesis.md
   - canon/no-go-quaternionic-parity-generation-sector.md
+supersedes:
+  - canon/multiplicity-theorem.md  # provenance: this successor corrects/replaces the superseded predecessor; not a load-bearing dependency on its (retired) claim
 tests:
   - tests/generation-sector/t1a_kinematic_chirality_kill.py
   - tests/generation-sector/h1_selfdual_family_kill.py

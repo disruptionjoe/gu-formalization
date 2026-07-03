@@ -3,7 +3,8 @@ title: "Leg 3 closure (H3) and the spinor 2-smoothness lemma (M3)"
 status: active
 doc_type: result
 created: 2026-06-28
-depends_on: [canon/multiplicity-theorem.md, canon/ghost-parity-krein-synthesis.md]
+depends_on: [canon/ghost-parity-krein-synthesis.md]
+supersedes: [canon/multiplicity-theorem.md]  # provenance: this successor corrects/replaces the superseded predecessor; not a load-bearing dependency on its (retired) claim
 tests: [tests/generation-sector/leg3_family_embedding_enumeration.py, tests/generation-sector/h1_selfdual_family_kill.py]
 ---
 
