@@ -1,3 +1,4 @@
 import GUFormalization.Status
 import GUFormalization.K3IndexArithmetic
 import GUFormalization.W2Polynomial
+import GUFormalization.LocatedNotForcedLegs
