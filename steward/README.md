@@ -49,7 +49,9 @@ This repo owns its research truth: the research program and posture, canon claim
 - Contributions follow `CONTRIBUTING.md`.
 - Claim-status changes run `lab/process/runbooks/claim-status-consistency-quality-workflow.md`.
 - Honor the grading discipline in `RESEARCH-POSTURE.md`.
-- Public/external consequence, claim-status changes, verdict changes, relicensing, or cross-repo action pause for Joe.
+- Public/external consequence, verdict / scientific-status changes, and relicensing pause for Joe.
+- Canon promotion is agent-owned: execute it once the `RESEARCH-STATUS.md` Promotion Rule is met, then drop an awareness note in `CapacityOS/mailboxes/joeops/` per `lab/process/templates/canon-promotion-joeops-notice.md`. A claim's *verdict* change is separate and still pauses.
+- Cross-repo actions are proposed via the target surface's mailbox (`CapacityOS/mailboxes/<surface>/`) for that steward to decide — not executed directly, and no longer paused for Joe.
 - `LICENSE-CODE.md` and `LICENSE-DOCS.md` are protected; never alter casually.
 - The GU source PDF is third-party reference material; never modify or relicense.
 

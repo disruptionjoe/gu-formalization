@@ -147,6 +147,10 @@ An exploration can move toward canon only when it has:
 5. no dependency on internal work artifacts for its next action,
 6. no stale stronger status remains in `RESEARCH-STATUS.md`, `CANON.md`, affected `canon/*`, `NEXT-STEPS.md`, live paper drafts, or lab/process/DAG/firewall artifacts after a claim-status consistency sweep.
 
+**Who promotes (2026-07-03).** Agents own the promotion decision and may execute it directly once all six criteria are met — canon promotion no longer pauses for Joe. Canon means public-spine framing, not a verdict; flipping a scientific verdict/status (e.g. `OPEN -> RESOLVED`) is a separate action that still pauses for Joe.
+
+**Mandatory awareness note.** Every executed promotion MUST drop a note in `CapacityOS/mailboxes/joeops/` using the template `lab/process/templates/canon-promotion-joeops-notice.md`. The note is for awareness, not approval — it states what was promoted, the case FOR, the steelmanned case AGAINST, how the call was made, the risks, and the supporting certificates, plus how to reverse it. Filing the note is part of the promotion, not optional.
+
 ## Current Caution
 
 The observer-finality crosswalk is useful only as a test layer. It should not be cited as GU canon or as a way to evade no-go theorems. Its near-term value is the bounded signed-readout record-graph test in `explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`.
