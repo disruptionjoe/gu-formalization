@@ -194,8 +194,9 @@ A 30-agent ultracode swing generated a theory of 6 stabilization approaches, ran
 compensator, best, score 64; connection-2-form holonomy carrier) -- but they **DISAGREE on the count**: one
 computes none (signature 0, generic in the connection), the other is core-dependent and scatters
 `{0, 832, 1664, -4}` (all even). The only forced-and-agreed invariants across completions are carrier
-arithmetic (`q = 128`, slice dim `1664`) and **even parity / 0 mod 3** (the C-07 quaternionic-Kramers wall) --
-**none is 3**. Scientific verdict: **stabilizing the action does NOT pin the count; it is a modeling choice**
+arithmetic (`q = 128`, slice dim `1664`) and **even parity** (the C-07 quaternionic-Kramers wall; a 2-primary
+statement -- note `1664 = 2^7*13 ≡ 2 mod 3`, so "0 mod 3" phrasing is imprecise, the invariant is EVEN parity)
+-- so **odd is impossible, in particular never 3**. Scientific verdict: **stabilizing the action does NOT pin the count; it is a modeling choice**
 ("completion M forces c", never "GU forces c") -- a positive under-determination scatter certificate. Full
 doc: `explorations/big-swing-2026-07-03/BIG-SWING-BUILD-STABILIZED-ACTION-scatter-CONSISTENT-UNCOMPUTED.md`.
 **Top next step (steward / possible publishable no-go):** attack the C-07 quaternionic-parity wall from
@@ -205,6 +206,27 @@ count"* -- a clean KILL of the "action forces three" hope) or exhibit the specif
 anti-trap compensator that breaks it without importing non-J structure. Secondary: supply the grading-breaking
 connection (turn `C2 = 155.36` into a genuine APS index) and formalize the scatter as an under-determination
 theorem.
+
+### C-07 quaternionic-Kramers wall -- ran 2026-07-03, verdict THEOREM (conditional no-go)
+
+A 34-agent prove-or-break tournament settled the C-07 wall. **Verdict: THEOREM.** A rigorous, table-free
+Kramers argument holds over the full GU-native class (both formalizations: the H-linear generated algebra
+`⊆ commutant(J_quat)` by double-commutant, and the Spin(9,5)-equivariant algebra by quaternionic-Schur):
+`J_quat` (`J^2=-1`, forced by `p-q=9-5=4 mod 8`) forces every GU-native self-adjoint operator's kernel to be
+quaternionic hence even-dimensional, so the signature is **even** and the literal generation index can never
+be **odd** (never 3). **No trap-free, target-free, GU-native break survived** -- every candidate reaching an
+odd count imported non-J structure (Trap 4) or landed on even. Independently re-verified (the Kramers
+even-nullity mechanism, not the even-dim triviality). Publishable claim: *"no GU-native H-class completion can
+force an odd literal generation count."* Full doc:
+`explorations/big-swing-2026-07-03/BIG-SWING-C07-quaternionic-kramers-wall-THEOREM.md`.
+
+**Explicitly CONDITIONAL** -- does NOT prove three impossible. Three gaps keep the count OPEN, and each is a
+next step: (1) **the S_IG selector** -- does anything in GU force the *physical* carrier into the GU-native
+class, or is it an arbitrary self-adjoint operator? (the load-bearing unproven premise); (2) **derive `(9,5)`
+vs `(7,7)`** as GU-native output -- under `(7,7)`, `J^2=+1` (real class), Kramers dissolves and the wall
+disappears, so a `(7,7)` derivation would reopen the count target-free; (3) **pin `count=signature` vs
+`count=index/2`** (rank-freedom). Also: per-generator machine-check to close the two HAS_GAP proof variants,
+then decide canon promotion / merge with `canon/no-go-quaternionic-parity-generation-sector.md`.
 
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
