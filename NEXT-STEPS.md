@@ -228,6 +228,27 @@ disappears, so a `(7,7)` derivation would reopen the count target-free; (3) **pi
 `count=index/2`** (rank-freedom). Also: per-generator machine-check to close the two HAS_GAP proof variants,
 then decide canon promotion / merge with `canon/no-go-quaternionic-parity-generation-sector.md`.
 
+### (9,5)-vs-(7,7) signature -- ran 2026-07-04, verdict UNDER_DETERMINED (confirms C-04)
+
+An 18-agent decide-tournament tested the C-07 wall's load-bearing hypothesis H1 (the signature). **Verdict:
+UNDER_DETERMINED -- GU does not force the signature.** Four independent GU-native angles (anomaly-freedom,
+H-structure/shiab, Clifford reconstruction, under-determination adversary) all return UNDER_DETERMINED and
+survive scrutiny: the shiab is nonzero in both `Cl(9,5)=M(64,H)` and `Cl(7,7)=M(128,R)`, `omega^2=+I` for both
+`q=5,7`, and the RS anchors (`bare_comm=58.7215`, `C2=155.3625`, `ker=1664`) are **byte-identical across
+signatures**. The DeWitt/Frobenius fiber form is `g -> -g` invariant, so only the base metric-sign convention
+moves `p-q` (`d=+2` mostly-plus -> `(9,5)`; `d=-2` mostly-minus -> `(7,7)`; closed form `p-q = d + d^2/2`,
+re-verified), and that convention is physically vacuous. **The pipeline's `J^2=-1` is CIRCULAR** -- it reads
+back the hardcoded `eta=[1]*9+[-1]*5` in `gen_sector_bridge.py`. Full doc:
+`explorations/big-swing-2026-07-03/BIG-SWING-signature-9-5-vs-7-7-UNDER-DETERMINED.md`.
+
+**Implication:** the C-07 wall is **genuinely conditional** (neither unconditional nor dissolved); its
+2026-07-03 signature caveat and canon C-04 are CONFIRMED and stand as-is. The count is **NOT reopened**
+(FORCES_7_7 not warranted) -- it stays located, not forced. **Only remaining lever:** the 2-primary
+Witten/Dai-Freed `Z/2` anomaly for GU's actual content -- asymmetric (could EXCLUDE the H-class -> dissolution,
+never force it), so it can only move the verdict toward reopening, never toward firming the wall. Secondary:
+a base-sign selector hunt (likely empty); and flag the circular `J^2` readout so future audits don't mistake
+it for a derivation.
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
