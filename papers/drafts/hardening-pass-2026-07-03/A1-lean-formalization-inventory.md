@@ -4,8 +4,9 @@ status: draft
 doc_type: hardening-inventory
 created: 2026-07-03
 staging_only: true
-verified_in_lean: partial
-toolchain_available: partial
+verified_in_lean: yes-core-spine
+toolchain_available: yes
+correction: "2026-07-03: mathlib is now provisioned and Lean/GUFormalization/LocatedNotForcedLegs.lean typechecks exit 0 (no sorry/axiom), independently re-verified. The UNVERIFIED / 'mathlib not provisioned' statements below are SUPERSEDED — see explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md. (R4_TwoArena.lean still needs 2 bounded mathlib API-drift fixes; the 3 older lib files remain broken.)"
 ---
 
 # A1 — Which theorem-grade legs are Lean-formalizable, and at what obligation cost

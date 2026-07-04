@@ -5,14 +5,13 @@ set_option autoImplicit false
 /-!
 # A1 — Located-not-forced theorem-grade legs (Lean skeleton)
 
-**UNVERIFIED (this file).** Hardening-pass skeleton. Lean 4.32.0-rc1 IS installed on this
-machine (via elan), but mathlib is NOT provisioned (no `.lake`), so this `import Mathlib`
-file has **not** been typechecked. Proof terms are written out (no `sorry`), but do NOT cite
-any statement here as "proved in Lean" until it compiles. A mathlib-free subset of the
-arithmetic legs (3c/3d/3f) WAS compiled clean by `lean` in the companion file
-`A1-arith-core-check.lean` (exit 0, no `sorry`); those five identities are genuinely checked.
-The numeric content of all 2-primary identities is also certified by
-`A1-arithmetic-certificate.py`.
+**VERIFIED 2026-07-03.** Mathlib IS now provisioned (Lean 4.32.0-rc1 via elan, mathlib built) and
+this `import Mathlib` file elaborates **exit 0 with no `sorry` and no `axiom`** (only benign linter
+warnings) — confirmed by the internal-paths Lean run and independently re-verified in the main loop
+(see `explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md`). The theorem-grade legs
+(Theorem 2 Krein index-nullity `chi_eq_zero`, the antilinear bound, and the 2-primary identities 3a–3f)
+are genuinely machine-checked. The companion mathlib-free `A1-arith-core-check.lean` also compiles clean
+(exit 0). (Supersedes the prior "UNVERIFIED — mathlib not provisioned" note.)
 
 Style mirrors `Lean/GUFormalization/*.lean`: `import Mathlib`, `set_option autoImplicit
 false`, `namespace GUFormalization`.
