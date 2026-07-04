@@ -1,6 +1,6 @@
 # GU Formalization Steward Context
 
-Status: active repo-local steward context. Adopted 2026-07-01 from the CapacityOS Repo Steward reference architecture; during WI-045 Phase 5, federal steward ownership moved to the System-owned overlay at `CapacityOS/system/stewards/gu-formalization.md`. Original steward rollout: RUN-20260630-019.
+Status: active repo-local steward context. Adopted 2026-07-01 from the CapacityOS Repo Steward reference architecture; during WI-045 Phase 5, federal steward ownership moved to the System-owned overlay at `../../../system/stewards/gu-formalization.md` from this repo root. Original steward rollout: RUN-20260630-019.
 
 Load this file when a Kernel directive, RCCM workflow, System repo steward overlay, or direct repo-mounted run targets this repository. Do not load `steward/memory-log.md` by default unless doing stewardship or memory work, or this summary appears incomplete.
 
@@ -50,8 +50,8 @@ This repo owns its research truth: the research program and posture, canon claim
 - Claim-status changes run `lab/process/runbooks/claim-status-consistency-quality-workflow.md`.
 - Honor the grading discipline in `RESEARCH-POSTURE.md`.
 - Public/external consequence, verdict / scientific-status changes, and relicensing pause for Joe.
-- Canon promotion is agent-owned: execute it once the `RESEARCH-STATUS.md` Promotion Rule is met, then drop an awareness note in `CapacityOS/system/mailboxes/joeops/` per `lab/process/templates/canon-promotion-joeops-notice.md`. A claim's *verdict* change is separate and still pauses.
-- Cross-repo actions are proposed via the target surface's mailbox (`CapacityOS/system/mailboxes/<surface>/`) for that steward to decide - not executed directly, and no longer paused for Joe.
+- Canon promotion is agent-owned: execute it once the `RESEARCH-STATUS.md` Promotion Rule is met, then drop an awareness note in `../../../system/mailboxes/joeops/` from this repo root per `lab/process/templates/canon-promotion-joeops-notice.md`. A claim's *verdict* change is separate and still pauses.
+- Cross-repo actions are proposed via the target surface's mailbox (`../../../system/mailboxes/<surface>/` from this repo root) for that steward to decide - not executed directly, and no longer paused for Joe.
 - `LICENSE-CODE.md` and `LICENSE-DOCS.md` are protected; never alter casually.
 - The GU source PDF is third-party reference material; never modify or relicense.
 
@@ -84,7 +84,7 @@ This repo owns its research truth: the research program and posture, canon claim
 
 Chronological memory lives at `steward/memory-log.md`. Append useful memory after sessions where this README is loaded.
 
-Lightweight upward-learning pointer: method/workflow-module learnings go to `CapacityOS/system/mailboxes/rccm/`; kernel-primitive learnings go to `CapacityOS/system/mailboxes/kernel/`.
+Lightweight upward-learning pointer: from this repo root, method/workflow-module learnings go to `../../../system/mailboxes/rccm/`; kernel-primitive learnings go to `../../../system/mailboxes/kernel/`.
 
 ## Automation Hooks
 

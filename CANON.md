@@ -122,7 +122,7 @@ stays OPEN. The two RS function-space **SPEC** documents (`rs-function-space-fra
 ## Canon Entries Added 2026-07-03 (big-swing GU-independent results; internal tier)
 
 Promoted under the 2026-07-03 agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awareness notes filed
-in `CapacityOS/mailboxes/joeops/`. Both are GU-independent (canonical claim 6), internal tier, and neither
+in `../../../system/mailboxes/joeops/`. Both are GU-independent (canonical claim 6), internal tier, and neither
 derives three; the count verdict stays OPEN.
 
 | entry | verdict | note |

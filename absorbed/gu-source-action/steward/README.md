@@ -80,7 +80,7 @@ This repo owns its spec, derivation ledger, dead-ends record, candidate lenses, 
 
 Chronological memory lives at `steward/memory-log.md`. Append useful memory after sessions where this README is loaded.
 
-Lightweight upward-learning pointer: method/workflow-module learnings go to `CapacityOS/mailboxes/rccm/`; kernel-primitive learnings go to `CapacityOS/mailboxes/kernel/`.
+Lightweight upward-learning pointer: from `absorbed/gu-source-action/`, method/workflow-module learnings go to `../../../../../system/mailboxes/rccm/`; kernel-primitive learnings go to `../../../../../system/mailboxes/kernel/`.
 
 ## Automation Hooks
 

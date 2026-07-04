@@ -1,5 +1,5 @@
 <!--
-TEMPLATE — copy into CapacityOS/mailboxes/joeops/ as
+TEMPLATE — from the gu-formalization repo root, copy into ../../../system/mailboxes/joeops/ as
     YYYYMMDD-canon-promotion-<slug>-to-joeops.md
 Awareness note for an ALREADY-EXECUTED canon promotion in gu-formalization.
 This is not a request for approval. See RESEARCH-STATUS.md "Promotion Rule".
