@@ -249,6 +249,34 @@ never force it), so it can only move the verdict toward reopening, never toward 
 a base-sign selector hunt (likely empty); and flag the circular `J^2` readout so future audits don't mistake
 it for a derivation.
 
+### 2026-07-04 firewall/mirror audits + cross-repo Hegelian panel
+
+- **Non-compact -> compact reduction: REDUCTION_EXTERNAL.** "Take the maximal compact of `Spin(6,4)/SU(3,2)`"
+  is NOT GU-forced (Weyl unitarian trick: a non-compact group has no invariant positive-definite form; GU's
+  native form IS the indefinite `(+96,-96)` Krein form). Signature-independent; sits **upstream** of the count
+  firewall (Hilbert positivity is imported before the count question can be posed). Doc:
+  `explorations/big-swing-2026-07-03/AUDIT-noncompact-compact-reduction-EXTERNAL.md`. Next: formalize the
+  Weyl-trick as a standalone repo theorem; promote the vertical/horizontal split to an audited premise.
+- **Mirror-boundary / Klein / CPT hypothesis: REFUTED (qualified ghost).** The `-96` is `K`-null (no
+  positive-norm space of its own, `~1.8e-14`) -> not a physical mirror-SM. `w1(Y14)=0` is an **unconditional
+  theorem** (orientability FORCED, `canon/w2-y14-spin-structure.md`) -> **no Klein/non-orientable closure is
+  admissible**; and the swap `C=J_quat.G` is an internal-fiber endomorphism (tangent-frame charge 0),
+  category-orthogonal to any base monodromy. Wall-consistency holds but is permissive. Doc:
+  `explorations/big-swing-2026-07-03/AUDIT-mirror-boundary-QUALIFIED-GHOST.md`. The firewall stays a firewall,
+  not a dark sector.
+- **Cross-repo Hegelian premature-cutoff panel (gu / temporal-issuance / time-as-finality): glove-fit B-,
+  "mitten not glove".** The **located-not-forced spine is a genuine tri-repo operational predicate (A-grade)**;
+  the **mirror/CPT/Klein ontology is seductive pattern-match** (three unrelated `Z/2`s in three categories, NO
+  functor exhibited). Systemic pattern: **program-level disciplined but route-level premature** -- the negative
+  lands on a proxy / inherited constant / one control measure while the discriminating generalization is named
+  and parked behind a gate; the gap is THROUGHPUT on 2-3 cheap never-run fixtures. Report:
+  `CapacityOS/rccm-library/research/2026-07-04-hegelian-premature-cutoff-panel-review.md`.
+- **Top cheap reopens (panel, gu-relevant):** the decisive glove-fit test is the **GU-antilinear-index <-> T414
+  Krein/factorization adapter** (one-file symbolic check -- settles real functor vs analogy). Plus: signature
+  `g->-g` un-selectability on the 3 GU-native primitives via `gen_sector_bridge.py` (the doc's own "only
+  remaining lever," unrun); an OBJ-TAF channel-mix R5-style structural kill on `shiab_family_basis.py`; and a
+  `spin8`-triality `+96/-96` equivariant trace (does triality force or merely label). All CHEAP, import-free.
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
