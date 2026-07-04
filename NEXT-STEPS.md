@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-03"
+updated_at: "2026-07-04"
 ---
 
 # Next Steps For Contributors
@@ -245,9 +245,11 @@ back the hardcoded `eta=[1]*9+[-1]*5` in `gen_sector_bridge.py`. Full doc:
 2026-07-03 signature caveat and canon C-04 are CONFIRMED and stand as-is. The count is **NOT reopened**
 (FORCES_7_7 not warranted) -- it stays located, not forced. **Only remaining lever:** the 2-primary
 Witten/Dai-Freed `Z/2` anomaly for GU's actual content -- asymmetric (could EXCLUDE the H-class -> dissolution,
-never force it), so it can only move the verdict toward reopening, never toward firming the wall. Secondary:
-a base-sign selector hunt (likely empty); and flag the circular `J^2` readout so future audits don't mistake
-it for a derivation.
+never force it), so it can only move the verdict toward reopening, never toward firming the wall. The cheap
+base-sign proxy check was run 2026-07-04 in
+`explorations/generation-sector/base-sign-selector-audit-2026-07-04.md`: observerse fiber form, shiab
+contraction, and RS anchors carry no `g -> -g` selector signal. Continue flagging the circular `J^2` readout
+so future audits don't mistake it for a derivation.
 
 ### 2026-07-04 firewall/mirror audits + cross-repo Hegelian panel
 
@@ -272,10 +274,11 @@ it for a derivation.
   and parked behind a gate; the gap is THROUGHPUT on 2-3 cheap never-run fixtures. Report:
   `CapacityOS/rccm-library/research/2026-07-04-hegelian-premature-cutoff-panel-review.md`.
 - **Top cheap reopens (panel, gu-relevant):** the decisive glove-fit test is the **GU-antilinear-index <-> T414
-  Krein/factorization adapter** (one-file symbolic check -- settles real functor vs analogy). Plus: signature
-  `g->-g` un-selectability on the 3 GU-native primitives via `gen_sector_bridge.py` (the doc's own "only
-  remaining lever," unrun); an OBJ-TAF channel-mix R5-style structural kill on `shiab_family_basis.py`; and a
-  `spin8`-triality `+96/-96` equivariant trace (does triality force or merely label). All CHEAP, import-free.
+  Krein/factorization adapter** (one-file symbolic check -- settles real functor vs analogy). Plus: an
+  OBJ-TAF channel-mix R5-style structural kill on `shiab_family_basis.py`; and a `spin8`-triality `+96/-96`
+  equivariant trace (does triality force or merely label). The signature `g->-g` proxy check is now run:
+  `base-sign-selector-audit-2026-07-04.md` found no selector in the observerse fiber form, shiab contraction,
+  or RS anchors. All remaining items are CHEAP, import-free.
 
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
