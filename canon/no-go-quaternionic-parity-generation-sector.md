@@ -4,8 +4,8 @@ status: canon
 doc_type: audit_result
 verdict: "CONDITIONALLY_RESOLVED (reconstruction-grade), structural no-go for an odd index; generation count UNDER-DETERMINED"
 provenance: "Migrated 2026-06-27 from the child repo gu-source-action (CONSTRUCT-01..07). These are AUDIT results about GU's structure, not construction of the missing object, so they belong here with the reconstruction+audit."
-tests: "tests/generation-sector/step1..step11"
-updated_at: "2026-06-27"
+tests: "tests/generation-sector/step1..step11; tests/big-swing/c07_kramers_regression.py (per-generator exact, 2026-07-03)"
+updated_at: "2026-07-03"
 ---
 
 # Generation-sector audit: the quaternionic-parity no-go and under-determination
@@ -50,6 +50,21 @@ Verified in `tests/generation-sector/step11_gu_native_parity_theorem.py` (primit
 algebra closure to ~1e-10; carrier signatures all even) and the BV-sector adversarial control (the full
 ghost/gauge-fixing apparatus H-linear to ~2e-10). The odd-index escape is FOREIGN: a rank-3 projector is
 not H-linear, and the essential scalar-i needed to leave the algebra is itself J-antilinear (defect ~85).
+
+**Verification hardened 2026-07-03 (per-generator EXACT + adversarial tournament).** A 34-agent
+prove-or-break tournament independently re-derived this no-go and found **no** trap-free, target-free,
+GU-native break — every candidate reaching an odd count imported non-J structure or landed even
+(`explorations/big-swing-2026-07-03/BIG-SWING-C07-quaternionic-kramers-wall-THEOREM.md`). The prior ~1e-11
+numerical J-commutation is now a **per-generator EXACT** certificate: with `C = e1 e3 e5 e7 e10 e12` (the
+charge-conjugation matrix, `C^2 = -I`, `J_quat = id_14 (x) C`·conj), the residual `||A·C - C·conj(A)|| =
+0.000e+00` (bit-exact) for **every** named primitive — the 14 generators `e_a` (incl. timelike `i·G_a`),
+all 91 `sigma_ab`, the chirality `omega`, `Pi_RS`, and `M_D`. The Kramers mechanism is pinned to the
+right invariant: `J` forces the KERNEL nullity even (not merely the even dimension), hence even signature;
+a non-J Hermitian on the same module reaches odd nullity/odd signature. The scalar-i escape is
+re-confirmed non-native (the `-i` Hermitian rescaling of the timelike generators has J-residual 22.63).
+Standing regression: `tests/big-swing/c07_kramers_regression.py` (exit 0). Verdict unchanged
+(CONDITIONALLY_RESOLVED, even-index no-go; the `(9,5)`-vs-`(7,7)` contingency at lines above is untouched
+and is the live reopener).
 
 ## The honest qualifier (C-06): under-determination, not impossibility
 

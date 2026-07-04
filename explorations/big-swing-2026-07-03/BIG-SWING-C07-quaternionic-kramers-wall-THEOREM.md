@@ -201,3 +201,11 @@ publishable-shaped result and the positive capstone of the day. **Canon/paper ca
 it:** it should first get the per-generator machine-check (next-step) to close the HAS_GAP variants and have
 its scripts persisted, and it likely strengthens the existing `canon/no-go-quaternionic-parity-generation-sector.md`
 -- a promotion/merge decision worth a deliberate pass. Count stays OPEN; no target imported.
+
+**UPDATE 2026-07-03 (resolved).** The per-generator machine-check was done and independently re-run
+(exit 0): `||A·C - C·conj(A)|| = 0.000e+00` bit-exact for every named primitive, closing the HAS_GAP. It
+was **not** made a new canon entry -- this no-go is ALREADY canon
+(`canon/no-go-quaternionic-parity-generation-sector.md`, headline C-07), which already carries the
+`(9,5)`-vs-`(7,7)` caveat and the correct `{2,7,13}` prime-spectrum. So the tournament + machine-check were
+folded in as a **verification hardening** of that canon doc (numerical ~1e-11 -> per-generator exact; plus
+the adversarial no-break result), with the standing regression `tests/big-swing/c07_kramers_regression.py`.
