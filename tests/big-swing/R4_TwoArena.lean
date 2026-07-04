@@ -63,7 +63,7 @@ theorem minusCount_neg {r : ℕ} (w : Weight r) :
         = Finset.univ \ Finset.univ.filter (fun i => w i = true) := by
     ext i
     simp [Finset.mem_filter, Finset.mem_sdiff, Bool.not_eq_true, Bool.not_eq_false]
-  rw [hcompl, Finset.card_sdiff (Finset.filter_subset _ _)]
+  rw [hcompl, Finset.card_sdiff_of_subset (Finset.filter_subset _ _)]
   simp [Finset.card_univ]
 
 /-- **Chirality-flip lemma (r odd).**  If `r` is odd and `w` is in the even
@@ -140,7 +140,7 @@ theorem eq_zero_of_coprime_nsmul {A : Type*} [AddGroup A] {x : A} {m n : ℕ}
   have hdn : addOrderOf x ∣ n := addOrderOf_dvd_of_nsmul_eq_zero hn
   have h1 : addOrderOf x ∣ 1 := hmn ▸ Nat.dvd_gcd hdm hdn
   have : addOrderOf x = 1 := Nat.dvd_one.mp h1
-  exact addOrderOf_eq_one_iff.mp this
+  exact AddMonoid.addOrderOf_eq_one_iff.mp this
 
 /-- Every element of `ZMod (2^k)` is killed by `2^k`. -/
 theorem pow_two_nsmul_zmod (k : ℕ) (y : ZMod (2 ^ k)) : (2 ^ k) • y = 0 := by

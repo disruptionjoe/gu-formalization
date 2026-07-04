@@ -5,7 +5,7 @@ doc_type: results
 created: 2026-07-03
 canon_promoted_at: 2026-07-03
 tier: internal
-verdict: "RESOLVED (three exact, GU-independent facts; exact-integer certified; arithmetic/finite cores have written Lean proof terms)"
+verdict: "RESOLVED (three exact, GU-independent facts; exact-integer certified; CRT/coprimality cores Lean-typechecked exit 0, no sorry/axiom, 2026-07-03)"
 scripts:
   - tests/big-swing/R4_spin95_hom_vanishing.py
   - tests/big-swing/R4_crt_two_arena.py
@@ -41,9 +41,11 @@ count** and asserts no GU-specific physical premise.
 - **(B) and the arithmetic/finite cores** — exact-integer certified, re-run this session (`R4_crt_two_arena.py`,
   exit 0). Proof terms for the CRT split and the coprimality/blindness theorem are written in Lean
   (`tests/big-swing/R4_TwoArena.lean`, `ZMod.chineseRemainder` + an `addOrderOf`/coprimality argument) with
-  no `sorry` and no `axiom` in the source. **Lean recompilation was not re-reproduced in this promotion
-  pass** — cite the Lean as "proof terms written, source clean," not as re-verified-here; the canonical
-  content stands independently on the exact-integer certificate and on (A)'s existing canon corroboration.
+  no `sorry` and no `axiom`. **Lean now TYPECHECKS (2026-07-03):** after two mathlib API-drift fixes
+  (`Finset.card_sdiff_of_subset`; `AddMonoid.addOrderOf_eq_one_iff`), `tests/big-swing/R4_TwoArena.lean`
+  elaborates `lake env lean` **exit 0 with no `sorry`/`axiom`** (only a benign linter warning) — independently
+  re-verified in the main loop. So the Lean leg is now machine-verified, not merely "proof terms written."
+  The canonical content also stands independently on the exact-integer certificate and (A)'s canon corroboration.
 - **(A)** — re-run this session (`R4_spin95_hom_vanishing.py`, **exit 0**: `dim Hom = 0` across explicit
   `Cl(9,5)`, a recursive-doubling basis, and `Cl(7,7)`; controls `Cl(4,0)/Cl(8,0)` correctly return 1),
   corroborating `canon/shiab-existence-cl95.md` (SHIAB-05, exact rep theory, errors 0.00e+00).
