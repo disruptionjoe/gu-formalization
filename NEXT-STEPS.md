@@ -187,6 +187,25 @@ it exists. Secondary: reconcile the disagreeing `ind_H` routes (symbol/K-theory 
 rep-theory `ind_H = 8`) and confirm `s^2 = 0` on the connection-2-form carrier (intrinsic KSp carrier fails,
 `s^2 = 749.16`).
 
+### Build the stabilized action -- ran 2026-07-03, grade CONSISTENT_UNCOMPUTED (count NOT forced)
+
+A 30-agent ultracode swing generated a theory of 6 stabilization approaches, ranked them, and built the top
+3 on the verified `Cl(9,5)` carrier. **Two completions genuinely close `(S,S)=0` and `s^2=0`** (Stueckelberg-
+compensator, best, score 64; connection-2-form holonomy carrier) -- but they **DISAGREE on the count**: one
+computes none (signature 0, generic in the connection), the other is core-dependent and scatters
+`{0, 832, 1664, -4}` (all even). The only forced-and-agreed invariants across completions are carrier
+arithmetic (`q = 128`, slice dim `1664`) and **even parity / 0 mod 3** (the C-07 quaternionic-Kramers wall) --
+**none is 3**. Scientific verdict: **stabilizing the action does NOT pin the count; it is a modeling choice**
+("completion M forces c", never "GU forces c") -- a positive under-determination scatter certificate. Full
+doc: `explorations/big-swing-2026-07-03/BIG-SWING-BUILD-STABILIZED-ACTION-scatter-CONSISTENT-UNCOMPUTED.md`.
+**Top next step (steward / possible publishable no-go):** attack the C-07 quaternionic-parity wall from
+GU-internal data -- every model inherits `[Cl(9,5), J_quat] = 0 => even signature => odd count impossible`.
+Either prove it unbreakable from GU-native blocks (a theorem: *"no GU-native completion can force an odd
+count"* -- a clean KILL of the "action forces three" hope) or exhibit the specific non-equivariant, H-linear,
+anti-trap compensator that breaks it without importing non-J structure. Secondary: supply the grading-breaking
+connection (turn `C2 = 155.36` into a genuine APS index) and formalize the scatter as an under-determination
+theorem.
+
 ## Parallel-to-Review Work Lanes (2026-07-03) -- pickup-eligible during hourly runs
 
 While `located-not-forced` is out for external review, these lanes advance value that does NOT depend on the
