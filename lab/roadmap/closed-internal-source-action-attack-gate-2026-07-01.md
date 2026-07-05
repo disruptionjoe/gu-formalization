@@ -140,6 +140,9 @@ Stop and record rather than continue if:
 - `absorbed/gu-source-action/ANOMALY-GREEN-SCHWARZ-CARRIER-PACKET-2026-07-05.md`:
   the anomaly/Green-Schwarz route is missing-carrier blocked on `L_anomaly`; no
   closedness, verdict, or claim-status movement is earned.
+- `absorbed/gu-source-action/RS-BRST-CARRIER-PACKET-2026-07-05.md`:
+  the RS/BRST route is missing-carrier blocked on `L_RS_BRST`; no closedness,
+  verdict, or claim-status movement is earned.
 
 ## Next concrete run
 
