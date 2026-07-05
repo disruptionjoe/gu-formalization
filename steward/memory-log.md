@@ -35,3 +35,7 @@ Routine detail stays here; it is not loaded by default.
 - Discovery fleet pass found the repo is high-signal but cognitively dense; future progress should focus a named lead-result surface and reduce source-action ambiguity. See `steward/runs/2026-07-01-discovery-fleet-pass.md`.
 - Progress fleet pass added `lab/roadmap/current-frontier-firewall-boundary-attack-map-2026-07-01.md` to orient future work around the Firewall-Boundary/source-action frontier, including the post-absorption routing of source-action material. No canon verdicts or claim grades changed. See `steward/runs/2026-07-01-progress-fleet-pass.md`.
 - Fan-out Stewardship run checked the mailbox and found only `README.md` and `archive`; repaired one stale current-roadmap path from `../gu-source-action` to `absorbed/gu-source-action` without changing canon, claim grades, verdicts, or public posture. See `steward/runs/2026-07-01-fanout-stewardship-run.md`.
+
+## 2026-07-05
+
+- Progress fan-out added a theta/source-current carrier packet for the security-budget source-action attack gate and a regression test showing the route is missing-carrier blocked on `L_theta_source`, with no canon, claim-status, verdict, paper, or public-posture movement. See `steward/runs/2026-07-05-progress-fanout-165-theta-source-carrier-packet.md`.

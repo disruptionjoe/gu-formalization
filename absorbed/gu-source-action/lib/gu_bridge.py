@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import os
 import sys
+from pathlib import Path
 
 import numpy as np
 
@@ -25,8 +26,11 @@ def gu_formalization_path() -> str:
     p = os.environ.get("GU_FORMALIZATION_PATH")
     if p and os.path.isdir(p):
         return p
-    here = os.path.dirname(os.path.abspath(__file__))
-    sibling = os.path.normpath(os.path.join(here, "..", "..", "gu-formalization"))
+    here = Path(__file__).resolve()
+    for parent in here.parents:
+        if (parent / "tests" / "oq_rk1_cl95_explicit_rep.py").is_file():
+            return str(parent)
+    sibling = os.path.normpath(os.path.join(str(here.parent), "..", "..", "gu-formalization"))
     if os.path.isdir(sibling):
         return sibling
     raise RuntimeError(

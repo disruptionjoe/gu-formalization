@@ -126,6 +126,15 @@ Stop and record rather than continue if:
 - the computation produces diffs outside the selected objective;
 - the candidate's strongest support is aesthetic fit or analogy.
 
+## Executed Packets
+
+- `absorbed/gu-source-action/SECURITY-BUDGET-CARRIER-PACKET-2026-07-01.md`:
+  available-loss-only scoring is missing-carrier blocked and does not select a
+  source action.
+- `absorbed/gu-source-action/THETA-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md`:
+  the theta/source-current route is missing-carrier blocked on `L_theta_source`;
+  no closedness, verdict, or claim-status movement is earned.
+
 ## Next concrete run
 
 Pick one proposed `S_IG` or security-budget source extension and fill the minimum

@@ -81,3 +81,6 @@ Smoke test: `python tests/test_bridge.py` (reproduces the anchors C2 = 155.36, |
 parent).
 `SECURITY-BUDGET-CARRIER-PACKET-2026-07-01.md` - first executable candidate packet; records that
 available-loss-only scoring is missing-carrier blocked, not a source-action success.
+`THETA-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
+theta/source-current route is blocked on the named missing `L_theta_source` carrier, with a
+targeted regression check.
