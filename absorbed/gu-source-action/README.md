@@ -84,3 +84,6 @@ available-loss-only scoring is missing-carrier blocked, not a source-action succ
 `THETA-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
 theta/source-current route is blocked on the named missing `L_theta_source` carrier, with a
 targeted regression check.
+`WEAK-FIELD-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
+weak-field/source-current route is blocked on the named missing `L_weak_field` carrier, with a
+targeted regression check.

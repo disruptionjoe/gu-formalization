@@ -39,3 +39,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-05
 
 - Progress fan-out added a theta/source-current carrier packet for the security-budget source-action attack gate and a regression test showing the route is missing-carrier blocked on `L_theta_source`, with no canon, claim-status, verdict, paper, or public-posture movement. See `steward/runs/2026-07-05-progress-fanout-165-theta-source-carrier-packet.md`.
+- Progress fan-out added a weak-field/source-current carrier packet for the security-budget source-action attack gate and a regression test showing the route is missing-carrier blocked on `L_weak_field`, with no canon, claim-status, verdict, paper, or public-posture movement. See `steward/runs/2026-07-05-progress-fanout-167-weak-field-source-current-carrier.md`.
