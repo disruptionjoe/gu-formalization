@@ -65,6 +65,13 @@ Python certificates, full mode adds only the declared paper certificate roots, s
 directories remain excluded, `process_gates/` remains outside the computational
 certificate sweep, and list mode prints repository-relative slash paths.
 
+## Reproduction docs consistency gate
+
+`reproduction_docs_consistency_audit.py` checks that `REPRODUCE.md`, `tests/README.md`,
+and `scripts/reproduce_all.py` consistently describe the public reproduction model:
+certificates remain directly runnable, and `scripts/reproduce_all.py` is the central
+one-step runner. This is a documentation guard, not a mathematical certificate.
+
 ## Protected surface diff gate
 
 `protected_surface_diff_audit.py` checks the current local Git diff plus untracked files for

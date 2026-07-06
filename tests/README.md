@@ -1,8 +1,8 @@
 # tests/
 
 Computational checks for the program's claims. Each file is a standalone audit/gate script (run it directly
-with `python`); there is no central runner. This manifest is the map: which directory/group supports which
-claim.
+with `python`). For a one-step sweep, use `scripts/reproduce_all.py` as the central runner. This manifest is
+the map: which directory/group supports which claim.
 
 ## Reproducing the lead paper ("Located, Not Forced")
 
