@@ -22,6 +22,7 @@ This filename inventory is intentionally mechanical: it lets `process_gate_readm
 detect when a new gate exists without a public process-map entry. Detailed meaning stays in the
 selected notes below and in each script header.
 
+- `changed_public_path_hygiene_audit.py`
 - `constraint_first_ig_tangent_gate.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
@@ -100,6 +101,13 @@ still treats the content as prose/governance hygiene, not as mathematical valida
 It intentionally does not scan canon, derivation, proof, result-grade, paper, Lean proof,
 exploration, or research-status surfaces, so it can run while those areas are dirty or under
 governance review.
+
+## Changed public path hygiene gate
+
+`changed_public_path_hygiene_audit.py` checks the current tracked Git diff plus untracked
+non-ignored files for generic local home-directory path shapes before scheduled runs stage
+or commit public changes. This complements the fixed-surface public path hygiene gate by
+covering whatever publishable files the current run actually changed.
 
 ## Lean certificate surface gate
 
