@@ -16,6 +16,66 @@ Each gate computes the repo root as `Path(__file__).resolve().parents[1]`, which
 file sits one level under the repo root. `process_gates/` is at the same depth as `tests/`, so
 that path logic is preserved unchanged and no gate needed editing to move here.
 
+## Live process gate inventory
+
+This filename inventory is intentionally mechanical: it lets `process_gate_readme_inventory_audit.py`
+detect when a new gate exists without a public process-map entry. Detailed meaning stays in the
+selected notes below and in each script header.
+
+- `constraint_first_ig_tangent_gate.py`
+- `cycle1_branch3_dynamical_ig_current_audit.py`
+- `cycle1_qft_positive_two_point_certificate_audit.py`
+- `cycle1_source_selected_pati_salam_stabilizer_audit.py`
+- `cycle1_vz_subprincipal_eblock_proof_gate_audit.py`
+- `cycle2_qft_physical_field_positive_pairing_seed_audit.py`
+- `cycle2_source_critical_rank_one_psb_selection_audit.py`
+- `cycle2_source_forced_s_ig_dyn_action_audit.py`
+- `cycle2_vz_actual_operator_e_block_audit.py`
+- `cycle3_cgw_bvn_wall_define_or_demote_audit.py`
+- `cycle3_connes_control_load_bearing_audit.py`
+- `cycle3_dark_energy_predictive_sign_coupling_audit.py`
+- `cycle3_single_surviving_prediction_census_audit.py`
+- `cycle3_taf_transport_or_close_audit.py`
+- `dgu_guarded_symbol_certificate_audit.py`
+- `finite_control_provenance_audit.py`
+- `flrw_theta_xi_branch_gate.py`
+- `gr_shadow_recovery_certificate_audit.py`
+- `gu_action_branch_gate.py`
+- `internal_ops_gitignore_audit.py`
+- `lean_certificate_surface_audit.py`
+- `live_claim_dag_audit.py`
+- `marble_wood_open_avenues_audit.py`
+- `marble_wood_reframing_audit.py`
+- `matter_gauge_source_selector_audit.py`
+- `metric_marble_prematurity_audit.py`
+- `mission_a_generation_count_analytic_machinery_audit.py`
+- `mission_a_lambda_dark_energy_provenance_audit.py`
+- `mission_a_matter_gauge_selector_audit.py`
+- `mission_a_metric_shadow_extraction_audit.py`
+- `mission_a_qft_state_space_extraction_audit.py`
+- `primary_gu_interface_contract_audit.py`
+- `process_gate_readme_inventory_audit.py`
+- `protected_surface_diff_audit.py`
+- `public_path_hygiene_audit.py`
+- `qft_shadow_extraction_certificate_audit.py`
+- `quantum_gravity_reframing_audit.py`
+- `reproduce_harness_scope_audit.py`
+- `reproduction_docs_consistency_audit.py`
+- `research_posture_audit.py`
+- `roadmap_current_routing_links_audit.py`
+- `sequential_source_to_index_goals_audit.py`
+- `sm_finite_control_ledger_audit.py`
+- `source_geometry_contract_audit.py`
+- `stress_energy_shadow_emergence_audit.py`
+- `tests_manifest_count_audit.py`
+- `three_cycle_fifteen_hole_runbook_audit.py`
+- `three_generation_route_alternatives_audit.py`
+- `topological_generation_count_families_k3_chi_gate_audit.py`
+- `unified_marble_wood_closure_audit.py`
+- `y14_k3_bridge_gate.py`
+- `y14_k3_bridge_loss_audit.py`
+- `y14_k3_end_data_topography_gate_audit.py`
+
 ## Current routing link gate
 
 `roadmap_current_routing_links_audit.py` checks that local Markdown links in
@@ -79,6 +139,13 @@ paths that scheduled Progress runs should not touch without explicit review: can
 surfaces, protected licenses, papers, Lean proof surfaces, active-research packets, absorbed
 source-action material, and the claim-status ledger/runbook. This is a governance guard for
 staging discipline, not a mathematical certificate and not a verdict on the changed content.
+
+## Process gate README inventory gate
+
+`process_gate_readme_inventory_audit.py` compares the live `process_gates/*.py` files with the
+local script names documented in this README. It keeps the public process map synchronized with
+the executable gate surface without running the gates themselves or evaluating their scientific
+content.
 
 ## Relocated surface path hygiene
 
