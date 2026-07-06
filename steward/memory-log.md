@@ -49,3 +49,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-06
 
 - Progress fan-out added a signed-readout UII gap certificate packet and finite validator for the OC1/OC2 non-compact gate, keeping it explicitly at certificate-interface grade: the actual GU asymptotic operator and lower-bound proof remain open. See `steward/runs/2026-07-06-progress-fanout-signed-readout-uii-gap.md`.
+- Progress fan-out added a frontstage Sp(1) 2-primary Dai-Freed anomaly gate and validator. The untwisted `BSp(1)` degree-15 AHSS front page is empty while degree-5 and degree-9 controls detect 2-primary entries, so the next review point is whether the physical global-anomaly background is exactly that untwisted gate; no anomaly-cancellation verdict or claim status changed. See `steward/runs/2026-07-06-progress-fanout-sp1-2primary-anomaly-gate.md`.

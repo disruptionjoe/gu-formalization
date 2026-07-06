@@ -28,6 +28,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `anchored-leads/` (6) | the anchored-leads screen |
 | `decider/` (4) | the single-decider ("only honest computable integer is one") |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork |
+| `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate |
 | `enum-completeness/` (3) | enumeration-completeness certificate for the located-not-forced publication gate |
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate |
 | `function-space-ext/` (5) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent check, APS eta boundary control, and UII gap gate |
