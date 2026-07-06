@@ -49,6 +49,14 @@ honest explanatory headers can mention `sorry` or `axiom` while proof bodies rem
 placeholder-free. This is a process gate; `lake build` and targeted `lake env lean ...`
 commands remain the compile checks.
 
+## Tests manifest count gate
+
+`tests_manifest_count_audit.py` checks the live organized-subdirectory counts in
+`tests/README.md` against the current direct non-README files in each listed test
+directory. Rows marked `archived off-tree` are allowed only when the named directory is
+not present. This protects the public reproduction map from drifting as validators are
+added or archived without treating manifest counts as mathematical evidence.
+
 ## Relocated surface path hygiene
 
 Repository process, automation, and active-research owner surfaces now live under `lab/`.

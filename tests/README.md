@@ -19,9 +19,9 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 | Directory | What it covers |
 |---|---|
-| `generation-sector/` (26) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen) |
+| `generation-sector/` (27) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen) |
 | `source-action/` (11) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper) |
-| `gu-independent/` (9) | the GU-independent class-level structural no-go |
+| `gu-independent/` (11) | the GU-independent class-level structural no-go |
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test |
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone |
@@ -30,10 +30,10 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures |
-| `enum-completeness/` (3) | enumeration-completeness certificate for the located-not-forced publication gate |
+| `enum-completeness/` (2) | enumeration-completeness certificate for the located-not-forced publication gate |
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate |
-| `function-space-ext/` (5) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent check, APS eta boundary control, and UII gap gate |
-| `hourly-cycles/` (290) | **archived** hourly-automation output; not load-bearing |
+| `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent check, APS eta boundary control, and UII gap gate |
+| `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
 
 ## Loose audit scripts at `tests/` root, by sector
 
