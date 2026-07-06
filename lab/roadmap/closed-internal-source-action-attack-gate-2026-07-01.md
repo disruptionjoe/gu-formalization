@@ -147,6 +147,9 @@ Stop and record rather than continue if:
   the families-pushforward route is missing-carrier blocked on
   `L_families_pushforward`; no closedness, verdict, or claim-status movement is
   earned.
+- `absorbed/gu-source-action/BOUNDARY-SPECTRAL-SECTION-CARRIER-PACKET-2026-07-05.md`:
+  the computed boundary spectral-section route reaches the eta-zero APS index
+  obstruction; no closedness, verdict, or claim-status movement is earned.
 
 ## Next concrete run
 

@@ -95,3 +95,6 @@ blocked on the named missing `L_RS_BRST` carrier, with a targeted regression che
 `FAMILIES-PUSHFORWARD-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
 families-pushforward route is blocked on the named missing `L_families_pushforward` carrier, with a
 targeted regression check.
+`BOUNDARY-SPECTRAL-SECTION-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
+computed boundary spectral-section route reaches a forced-eta-zero obstruction, not a closed
+source-action selector, with a targeted regression check.
