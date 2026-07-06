@@ -27,7 +27,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone |
 | `anchored-leads/` (6) | the anchored-leads screen |
 | `decider/` (4) | the single-decider ("only honest computable integer is one") |
-| `boundary-eta/` (2) | the boundary eta-invariant / tangential fork |
+| `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with nested independent denominator checks |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures |
 | `pati-salam/` (1) | reproduction harness for the active-research Pati-Salam chain verification scripts |
