@@ -57,6 +57,14 @@ directory. Rows marked `archived off-tree` are allowed only when the named direc
 not present. This protects the public reproduction map from drifting as validators are
 added or archived without treating manifest counts as mathematical evidence.
 
+## Reproduction harness scope gate
+
+`reproduce_harness_scope_audit.py` imports `scripts/reproduce_all.py` without running
+the certificate suite, then checks that quick mode discovers exactly the live `tests/`
+Python certificates, full mode adds only the declared paper certificate roots, skip
+directories remain excluded, `process_gates/` remains outside the computational
+certificate sweep, and list mode prints repository-relative slash paths.
+
 ## Relocated surface path hygiene
 
 Repository process, automation, and active-research owner surfaces now live under `lab/`.

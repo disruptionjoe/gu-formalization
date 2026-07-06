@@ -37,6 +37,8 @@ The harness discovers every `*.py` under `tests/` (and, in full mode, the paper/
 each in a fresh subprocess, and prints a `PASS/FAIL/TIMEOUT/ERROR` table with totals, the slowest
 certs, and a final `GREEN`/`RED` verdict. **Exit code is 0 iff every certificate passed.** Scratch
 and cache directories (`__pycache__`, `.pytest_cache`, archived `hourly-cycles`) are skipped.
+The discovery scope itself is guarded by `python process_gates/reproduce_harness_scope_audit.py`,
+which is a process check and not part of the mathematical certificate sweep.
 
 The harness does not modify any certificate — it only shells out to `python <cert>.py`.
 
