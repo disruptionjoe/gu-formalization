@@ -67,7 +67,8 @@ theorem brstStyle_qMinus1_flat_rank16 :
 theorem brstStyle_is_raw_minus_two_spinor_ghosts (rankC ch2F : Int) :
     indexComplex rankC ch2F (-1) =
       indexComplex rankC ch2F 1 - 2 * spinorIndexComplex rankC ch2F := by
-  ring_nf [indexComplex, spinorIndexComplex, ahatK3, p1K3]
+  unfold indexComplex spinorIndexComplex ahatK3 p1K3
+  ring
 
 /--
 The current formula is parameter-sensitive: changing `ch_2(F)[K3]` changes the

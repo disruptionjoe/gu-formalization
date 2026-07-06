@@ -28,11 +28,11 @@ namespace ClaimStatus
 
 /-- Numeric rank used only to define the status preorder. -/
 def rank : ClaimStatus -> Nat
-  | blocked => 0
-  | open => 1
-  | conditionallyResolved => 2
-  | resolved => 3
-  | verified => 4
+  | .blocked => 0
+  | .open => 1
+  | .conditionallyResolved => 2
+  | .resolved => 3
+  | .verified => 4
 
 instance : LE ClaimStatus where
   le a b := rank a <= rank b
@@ -49,10 +49,10 @@ theorem le_refl (a : ClaimStatus) : a <= a := by
 theorem le_trans {a b c : ClaimStatus} (hab : a <= b) (hbc : b <= c) : a <= c := by
   exact Nat.le_trans hab hbc
 
-theorem verified_not_le_open : Not (verified <= open) := by
+theorem verified_not_le_open : Not (ClaimStatus.verified <= ClaimStatus.open) := by
   decide
 
-theorem resolved_not_le_open : Not (resolved <= open) := by
+theorem resolved_not_le_open : Not (ClaimStatus.resolved <= ClaimStatus.open) := by
   decide
 
 end ClaimStatus
@@ -67,16 +67,18 @@ theorem allowedByDeps_nil (claim : ClaimStatus) : AllowedByDeps claim [] := by
 
 theorem claim_le_first_dependency {claim dep : ClaimStatus} {deps : List ClaimStatus}
     (h : AllowedByDeps claim (dep :: deps)) : claim <= dep := by
-  exact h dep (by simp)
+  exact h dep (List.Mem.head deps)
 
 theorem verified_not_allowed_over_open :
     Not (AllowedByDeps ClaimStatus.verified [ClaimStatus.open]) := by
   intro h
-  exact ClaimStatus.verified_not_le_open (h ClaimStatus.open (by simp))
+  exact ClaimStatus.verified_not_le_open
+    (h ClaimStatus.open (List.Mem.head []))
 
 theorem resolved_not_allowed_over_open :
     Not (AllowedByDeps ClaimStatus.resolved [ClaimStatus.open]) := by
   intro h
-  exact ClaimStatus.resolved_not_le_open (h ClaimStatus.open (by simp))
+  exact ClaimStatus.resolved_not_le_open
+    (h ClaimStatus.open (List.Mem.head []))
 
 end GUFormalization
