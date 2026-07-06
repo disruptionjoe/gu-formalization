@@ -59,5 +59,7 @@ These ~94 scripts are referenced as provenance from `canon/*-RESULTS.md`, so the
 - **Source / selector / control** — `source_geometry_*`, `matter_gauge_source_selector_*`,
   `sequential_source_to_index_goals_*`, `finite_control_*`, `sm_finite_control_ledger_*`,
   `dgu_guarded_symbol_*`, `constraint_first_ig_tangent_*`, `primary_gu_interface_*`, `oq_rk1_*` (~10).
-- **Meta / posture audits** — `live_claim_dag_audit.py`, `lean_certificate_surface_audit.py`,
-  `research_posture_audit.py`, `temporal_issuance_source_action_steelmen_checker.py` (~4).
+- **Meta / posture audits** — moved to `process_gates/` in the de-theater pass; examples include
+  `live_claim_dag_audit.py`, `lean_certificate_surface_audit.py`, `research_posture_audit.py`, and
+  `temporal_issuance_source_action_steelmen_checker.py`. They are governance gates, not mathematical
+  certificate tests.

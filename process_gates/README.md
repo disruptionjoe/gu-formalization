@@ -38,6 +38,15 @@ It intentionally does not scan canon, derivation, proof, result-grade, paper, Le
 exploration, or research-status surfaces, so it can run while those areas are dirty or under
 governance review.
 
+## Lean certificate surface gate
+
+`lean_certificate_surface_audit.py` checks the Lean scaffold, current certificate files,
+standalone Lean certificate pointers, owner-surface references, CI workflow, and local
+Lean check script. It strips Lean comments before scanning for proof placeholders, so
+honest explanatory headers can mention `sorry` or `axiom` while proof bodies remain
+placeholder-free. This is a process gate; `lake build` and targeted `lake env lean ...`
+commands remain the compile checks.
+
 ## Relocated surface path hygiene
 
 Repository process, automation, and active-research owner surfaces now live under `lab/`.
