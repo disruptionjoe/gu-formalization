@@ -65,6 +65,14 @@ Python certificates, full mode adds only the declared paper certificate roots, s
 directories remain excluded, `process_gates/` remains outside the computational
 certificate sweep, and list mode prints repository-relative slash paths.
 
+## Protected surface diff gate
+
+`protected_surface_diff_audit.py` checks the current local Git diff plus untracked files for
+paths that scheduled Progress runs should not touch without explicit review: canon/status/posture
+surfaces, protected licenses, papers, Lean proof surfaces, active-research packets, absorbed
+source-action material, and the claim-status ledger/runbook. This is a governance guard for
+staging discipline, not a mathematical certificate and not a verdict on the changed content.
+
 ## Relocated surface path hygiene
 
 Repository process, automation, and active-research owner surfaces now live under `lab/`.
