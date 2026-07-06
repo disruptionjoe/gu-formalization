@@ -29,6 +29,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with nested independent denominator checks |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate |
+| `sm-boundary/` (1) | SM-shaped boundary anomaly-inflow toy, with a nested independent algebraic verifier |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures |
 | `pati-salam/` (1) | reproduction harness for the active-research Pati-Salam chain verification scripts |
 | `enum-completeness/` (2) | enumeration-completeness certificate for the located-not-forced publication gate |
