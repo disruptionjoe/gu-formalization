@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Audit public-safe surfaces for absolute home-path leaks.
 
-This is a publication hygiene gate, not a research-content check. It scans only
-public entry, contributor/config, and process-gate sources so it can run while
-canon, derivation, proof, result-grade, and paper surfaces are under review.
+This is a publication hygiene gate, not a research-content check. It scans the
+public entry, contributor/config, process-gate, and active-research owner
+surfaces so public-facing materials do not carry local machine paths.
 """
 
 from __future__ import annotations
@@ -28,7 +28,10 @@ SAFE_FILES = (
     "lean-toolchain",
 )
 
-SAFE_DIRECTORIES = ("process_gates",)
+SAFE_DIRECTORIES = (
+    "lab/active-research",
+    "process_gates",
+)
 
 FORBIDDEN_SCAN_PREFIXES = (
     "CANON.md",
@@ -111,6 +114,11 @@ class PublicPathHygieneAudit(unittest.TestCase):
         scanned = [relpath(path) for path in scan_targets()]
         self.assertGreaterEqual(len(scanned), 1)
         self.assertIn("README.md", scanned)
+        self.assertIn(
+            "lab/active-research/README.md",
+            scanned,
+            "active-research owner surfaces should stay in the public path hygiene scope",
+        )
         for path in scanned:
             for prefix in FORBIDDEN_SCAN_PREFIXES:
                 self.assertFalse(path == prefix.rstrip("/") or path.startswith(prefix), path)

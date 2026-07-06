@@ -32,8 +32,10 @@ research repo while leaving those records available for collision checks.
 ## Public path hygiene gate
 
 `public_path_hygiene_audit.py` checks the root public entry file, neutral contributor/config
-files, and `process_gates/` sources for absolute home-path leaks before those surfaces are
-committed in this public repo.
+files, `process_gates/` sources, and `lab/active-research/` owner surfaces for absolute
+home-path leaks before those surfaces are committed in this public repo. Including
+active research keeps frontstage public packets from carrying local machine paths; the gate
+still treats the content as prose/governance hygiene, not as mathematical validation.
 It intentionally does not scan canon, derivation, proof, result-grade, paper, Lean proof,
 exploration, or research-status surfaces, so it can run while those areas are dirty or under
 governance review.
