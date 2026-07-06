@@ -143,6 +143,10 @@ Stop and record rather than continue if:
 - `absorbed/gu-source-action/RS-BRST-CARRIER-PACKET-2026-07-05.md`:
   the RS/BRST route is missing-carrier blocked on `L_RS_BRST`; no closedness,
   verdict, or claim-status movement is earned.
+- `absorbed/gu-source-action/FAMILIES-PUSHFORWARD-CARRIER-PACKET-2026-07-05.md`:
+  the families-pushforward route is missing-carrier blocked on
+  `L_families_pushforward`; no closedness, verdict, or claim-status movement is
+  earned.
 
 ## Next concrete run
 

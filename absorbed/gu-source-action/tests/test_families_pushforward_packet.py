@@ -1,0 +1,75 @@
+#!/usr/bin/env python3
+"""Regression checks for the families-pushforward carrier packet.
+
+Run: python tests/test_families_pushforward_packet.py
+"""
+
+import os
+import sys
+import unittest
+
+sys.path.insert(0, os.path.normpath(os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")))
+
+from lib import loss_channels as lc  # noqa: E402
+
+
+def families_pushforward_candidate() -> lc.SourceCandidate:
+    return lc.SourceCandidate(
+        name="families-pushforward-security-budget",
+        description=(
+            "Attempts to use a GU-internal families pushforward or controlled "
+            "finite surrogate as the candidate-specific security-budget carrier."
+        ),
+        assumptions=(
+            "No target normalization or imported Euler-characteristic shortcut is used.",
+            "The bare commutator anchor is preserved.",
+            "A generic topological index is not treated as a source action by itself.",
+            "The pushforward must be coupled to a candidate S_IG before selection.",
+        ),
+    )
+
+
+class FamiliesPushforwardPacketTests(unittest.TestCase):
+    def test_computable_guards_remain_clean(self):
+        candidate = families_pushforward_candidate()
+
+        target_import = lc.l_target_import(candidate)
+        acausal_trap = lc.l_acausal_trap(candidate)
+        boundary_symbol = lc.l_boundary_symbol(candidate)
+        boundary_index = lc.l_boundary_index(candidate)
+
+        self.assertEqual(target_import.value, 0.0)
+        self.assertEqual(target_import.details["matches"], [])
+        self.assertEqual(acausal_trap.value, 0.0)
+        self.assertEqual(acausal_trap.details["matches"], [])
+        self.assertEqual(boundary_symbol.value, 0.0)
+        self.assertTrue(boundary_symbol.details["map_built"])
+        self.assertEqual(boundary_index.value, 1.0)
+        self.assertTrue(boundary_index.details["eta_forced_zero"])
+
+    def test_families_pushforward_channel_is_the_named_blocker(self):
+        candidate = families_pushforward_candidate()
+
+        with self.assertRaises(lc.MissingCarrierError) as raised:
+            lc.l_families_pushforward(candidate)
+
+        self.assertEqual(raised.exception.channel, "L_families_pushforward")
+        self.assertIn("families pushforward", raised.exception.required_carrier)
+        self.assertIn("controlled finite surrogate", raised.exception.required_carrier)
+        self.assertIn("SPEC.md global object 5(i)", raised.exception.parent_object)
+
+    def test_available_losses_do_not_make_the_packet_a_source_action(self):
+        score = lc.candidate_score_from_available_losses(
+            families_pushforward_candidate(),
+            growth_value=5.0,
+            validation_cost=0.5,
+            finalization_cost=0.5,
+        )
+
+        self.assertTrue(score.passes_hard_guards())
+        self.assertEqual(score.adversarial_losses["L_boundary_index"], 1.0)
+        self.assertEqual(score.worst_case_adversarial_loss(), 1.0)
+
+
+if __name__ == "__main__":
+    unittest.main()
