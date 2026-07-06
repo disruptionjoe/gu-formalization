@@ -150,6 +150,10 @@ Stop and record rather than continue if:
 - `absorbed/gu-source-action/BOUNDARY-SPECTRAL-SECTION-CARRIER-PACKET-2026-07-05.md`:
   the computed boundary spectral-section route reaches the eta-zero APS index
   obstruction; no closedness, verdict, or claim-status movement is earned.
+- `absorbed/gu-source-action/NON-EQUIVARIANT-COMPENSATOR-CARRIER-PACKET-2026-07-05.md`:
+  the non-equivariant compensator route remains missing-carrier blocked; simple
+  structured adapter probes stay zero, arbitrary index movement lacks a source
+  carrier, and BV closure remains required before source-action selection.
 
 ## Next concrete run
 

@@ -98,3 +98,6 @@ targeted regression check.
 `BOUNDARY-SPECTRAL-SECTION-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
 computed boundary spectral-section route reaches a forced-eta-zero obstruction, not a closed
 source-action selector, with a targeted regression check.
+`NON-EQUIVARIANT-COMPENSATOR-CARRIER-PACKET-2026-07-05.md` - source-extension packet; records that the
+non-equivariant compensator lane is still missing-carrier blocked: simple structured adapter probes stay
+zero, arbitrary movement lacks a source carrier, and BV closure remains required.
