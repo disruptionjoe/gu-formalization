@@ -59,10 +59,38 @@ sector rendered physical by a discrete structure of the quantization."
    mechanism has a known failure mode at the full nonlinear/field-theory level, the ghost-parity
    frontier here inherits that risk and should log it.
 
+## Refined episode extract (added 2026-07-06, Joe-supplied secondary extract; still pointer-grade)
+
+Joe supplied a detailed secondary extract of the episode the same day. Sharpened details worth carrying
+(all pending primary-source verification):
+
+- Action confirmed: `I_W = -alpha_g \int d^4x sqrt(-g) C_{lmnk} C^{lmnk}`, alpha_g dimensionless;
+  variation gives the fourth-order **Bach equations**. Einstein solutions recovered in limits, but the
+  theory admits EXTRA solutions (derivatives of Ricci can vanish without Ricci vanishing).
+- Mannheim-Kazanas 1989 exact vacuum solution: `V(r) ~ -GM/r + (1/2) gamma_0 c^2 r`, plus in later
+  analyses a quadratic `-(1/2) kappa c^2 r^2` from cosmic inhomogeneities; universal constants
+  `gamma_0 ~ 3.06e-30 cm^-1`, `kappa ~ 9.54e-54 cm^-2`, fixed globally, not per galaxy. 111-138 galaxy
+  rotation curves fit with only mass-to-light ratios free. Opposing signs of the linear/quadratic terms
+  naturally bound galaxy sizes.
+- Cosmology: fitted deceleration parameter ~ -0.37; no inflation needed (negative spatial curvature);
+  cyclic non-singular universes possible; zero-point energies of gravity and matter sectors claimed to
+  cancel, with the CC term induced by dynamical mass generation cancelled on symmetry breaking.
+- Quantum claims: **no fundamental graviton** (gravity quantized solely through coupling to quantized
+  matter; zero-norm / non-propagating graviton states); renormalizable via conformal symmetry + RG fixed
+  points; composite Higgs (fermion-antifermion bound state); right-handed neutrinos needed for
+  parity/conformal compatibility.
+- Caveat he states himself: lensing must be RECOMPUTED for non-asymptotically-flat geometries — the
+  standard lensing-sign objection lands on asymptotically-flat intuitions.
+- Additional primary papers beyond the two in external_refs: **arXiv:1011.3495** (138-galaxy rotation
+  curve fits with the linear+quadratic potential) and **arXiv:1610.08907** (mass generation, CC problem,
+  conformal symmetry, Higgs).
+
 ## Guards
 
 - GU is not conformal gravity. No identification is proposed; only class membership of the candidate
   source action.
 - No claim movement, no canon change, no ledger entry from this intake.
+- The refined extract above is a secondary source (episode summary), not a primary-source check.
 - Anything promoted out of this note must first check primary sources (Mannheim-Kazanas 1989 exterior
-  solution; Bender-Mannheim 2008; Mannheim-O'Brien rotation-curve fits; published critiques).
+  solution; Bender-Mannheim 2008; Mannheim-O'Brien / arXiv:1011.3495 rotation-curve fits;
+  arXiv:1610.08907; published critiques).
