@@ -45,3 +45,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added a families-pushforward carrier packet for the security-budget source-action attack gate and a regression test showing the route is missing-carrier blocked on `L_families_pushforward`, with no canon, claim-status, verdict, paper, or public-posture movement. See `steward/runs/2026-07-05-progress-fanout-177-families-pushforward-carrier.md`.
 - Progress fan-out added a boundary spectral-section carrier packet for the security-budget source-action attack gate and a regression test showing the route hits the computed forced-eta-zero APS index obstruction, with no canon, claim-status, verdict, paper, or public-posture movement. See `steward/runs/2026-07-05-progress-fanout-178-boundary-spectral-section-packet.md`.
 - Progress fan-out added a non-equivariant compensator source-extension packet for the security-budget source-action attack gate and a regression test showing the lane remains missing-carrier blocked: simple structured adapter probes stay zero, arbitrary movement lacks a source carrier, and BV closure remains required. See `steward/runs/2026-07-05-progress-fanout-181-non-equivariant-compensator-packet.md`.
+
+## 2026-07-06
+
+- Progress fan-out added a signed-readout UII gap certificate packet and finite validator for the OC1/OC2 non-compact gate, keeping it explicitly at certificate-interface grade: the actual GU asymptotic operator and lower-bound proof remain open. See `steward/runs/2026-07-06-progress-fanout-signed-readout-uii-gap.md`.

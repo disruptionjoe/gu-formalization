@@ -30,7 +30,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork |
 | `enum-completeness/` (3) | enumeration-completeness certificate for the located-not-forced publication gate |
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate |
-| `function-space-ext/` (4) | WC-FUNCTION-SPACE-EXT probes: finite Galerkin, conditional section theorem + independent check, and APS eta boundary control |
+| `function-space-ext/` (5) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent check, APS eta boundary control, and UII gap gate |
 | `hourly-cycles/` (290) | **archived** hourly-automation output; not load-bearing |
 
 ## Loose audit scripts at `tests/` root, by sector

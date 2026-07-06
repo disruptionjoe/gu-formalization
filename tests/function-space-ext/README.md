@@ -12,6 +12,9 @@ These scripts separate three layers of the function-space question:
   Fourier momentum substrate and non-degenerate spectrum.
 - `aps_eta_boundary_control.py` is an exploration-grade finite boundary-spectrum control for the
   APS/noncompact-end residual; it does not compute the Rarita-Schwinger eta invariant.
+- `uii_gap_certificate_validator.py` is the signed-readout OC1/OC2 Uniform Invertibility at
+  Infinity certificate-shape validator: it accepts a uniformly gapped H-linear asymptotic family
+  and rejects zero-gap and J-breaking controls.
 
 ## Running
 
@@ -22,10 +25,13 @@ python tests/function-space-ext/krein_spectral_flow_probe.py
 python tests/function-space-ext/dirac_spectral_flow_section.py
 python tests/function-space-ext/verify/dirac_spectral_flow_indep_check.py
 python tests/function-space-ext/aps_eta_boundary_control.py
+python tests/function-space-ext/uii_gap_certificate_validator.py
 ```
 
 ## Status
 
 The closed/interior, spectral-gapped section model is a computed + independently re-verified
-conditional theorem. The APS/noncompact-end eta correction, family-index / higher-topology
-terms, and full Rarita-Schwinger bundle analytic hypotheses remain open.
+conditional theorem. The signed-readout OC1/OC2 non-compact extension now has a UII certificate
+shape, but the actual target asymptotic operator and lower-bound proof remain open. The
+APS/noncompact-end eta correction, family-index / higher-topology terms, and full
+Rarita-Schwinger bundle analytic hypotheses remain open.
