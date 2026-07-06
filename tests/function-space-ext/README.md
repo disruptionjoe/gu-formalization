@@ -15,6 +15,8 @@ These scripts separate three layers of the function-space question:
 - `uii_gap_certificate_validator.py` is the signed-readout OC1/OC2 Uniform Invertibility at
   Infinity certificate-shape validator: it accepts a uniformly gapped H-linear asymptotic family
   and rejects zero-gap and J-breaking controls.
+- `verify/uii_gap_certificate_indep_check.py` independently re-checks that same certificate shape
+  on rotated positive H-linear bases, with separate zero-gap and J-breaking controls.
 
 ## Running
 
@@ -26,6 +28,7 @@ python tests/function-space-ext/dirac_spectral_flow_section.py
 python tests/function-space-ext/verify/dirac_spectral_flow_indep_check.py
 python tests/function-space-ext/aps_eta_boundary_control.py
 python tests/function-space-ext/uii_gap_certificate_validator.py
+python tests/function-space-ext/verify/uii_gap_certificate_indep_check.py
 ```
 
 ## Status
