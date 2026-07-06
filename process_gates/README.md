@@ -36,6 +36,7 @@ selected notes below and in each script header.
 - `cycle3_dark_energy_predictive_sign_coupling_audit.py`
 - `cycle3_single_surviving_prediction_census_audit.py`
 - `cycle3_taf_transport_or_close_audit.py`
+- `decider_readme_inventory_audit.py`
 - `dgu_guarded_symbol_certificate_audit.py`
 - `finite_control_provenance_audit.py`
 - `flrw_theta_xi_branch_gate.py`
@@ -146,6 +147,13 @@ staging discipline, not a mathematical certificate and not a verdict on the chan
 local script names documented in this README. It keeps the public process map synchronized with
 the executable gate surface without running the gates themselves or evaluating their scientific
 content.
+
+## Decider README inventory gate
+
+`decider_readme_inventory_audit.py` checks that `tests/decider/README.md` names every direct
+`tests/decider/*.py` certificate and preserves the explicit not-forced / gated boundary for the
+single-decider family. This is a map and posture guard only; it does not run the decider scripts
+or change verdicts.
 
 ## Relocated surface path hygiene
 
