@@ -62,7 +62,7 @@ theorem minusCount_neg {r : ℕ} (w : Weight r) :
       (Finset.univ.filter (fun i => (! w i) = true))
         = Finset.univ \ Finset.univ.filter (fun i => w i = true) := by
     ext i
-    simp [Finset.mem_filter, Finset.mem_sdiff, Bool.not_eq_true, Bool.not_eq_false]
+    simp [Finset.mem_filter, Finset.mem_sdiff, Bool.not_eq_true]
   rw [hcompl, Finset.card_sdiff_of_subset (Finset.filter_subset _ _)]
   simp [Finset.card_univ]
 
