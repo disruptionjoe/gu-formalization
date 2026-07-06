@@ -25,7 +25,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test |
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone |
-| `anchored-leads/` (6) | the anchored-leads screen |
+| `anchored-leads/` (7) | the anchored-leads screen, including an independent Jones-index finite-type recheck |
 | `decider/` (4) | the single-decider ("only honest computable integer is one") |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with nested independent denominator checks |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate |
