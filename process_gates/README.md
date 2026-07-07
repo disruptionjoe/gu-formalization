@@ -43,6 +43,7 @@ selected notes below and in each script header.
 - `cycle3_taf_transport_or_close_audit.py`
 - `decider_readme_inventory_audit.py`
 - `dgu_guarded_symbol_certificate_audit.py`
+- `enum_completeness_readme_inventory_audit.py`
 - `finite_control_provenance_audit.py`
 - `flrw_theta_xi_branch_gate.py`
 - `function_space_ext_readme_inventory_audit.py`
@@ -219,6 +220,15 @@ or change verdicts.
 names every direct `tests/generation-sector/*.py` certificate and preserves the frozen,
 paper-cited, not-verdict-changing boundary for the generation-sector family. This is a map and
 posture guard only; it does not run the generation-sector scripts or change verdicts.
+
+## Enum-completeness README inventory gate
+
+`enum_completeness_readme_inventory_audit.py` checks that
+`tests/enum-completeness/README.md` names every direct and nested enum-completeness Python
+certificate and preserves the delimited-class / no-canon-promotion /
+not-a-physics-derivation boundary around the publication-gating enumeration family. This
+is a map and posture guard only; it does not run the enum-completeness scripts or change
+verdicts.
 
 ## Carrier-mass README inventory gate
 
