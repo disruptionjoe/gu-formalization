@@ -31,7 +31,7 @@ independently replicated or peer-reviewed. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.10, 2026-07-03 (v2.10: folded 2026-07-03 big-swing corroboration [R1 discharges the residual APS/end-eta + family-index items on the **actual** `Cl(9,5)` RS operator, and adds a table-free parity backstop for Theorem 1 completeness; R2 Dai-Freed / spin-bordism finds the mod-3 arena empty for SM boundary data; canon citations for the two-arena core `canon/two-arena-rep-theory-core-RESULTS.md` (R4) and the signed-readout boundary theorem `canon/signed-readout-boundary-theorem-RESULTS.md` (R3)] -- exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `CHANGELOG-v2.10-big-swing-fold.md`. Prior v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.11, 2026-07-07 (v2.11: Section 9 sharpening -- both arenas a homotopy-theoretic count could hide in are now mapped and walled by the 2026-07-07 RS-index and framed-bordism swings (cohomology 2-adic; framed bordism `Hom(Z/24,Z)=0`, the operator built on `L(2;1)` stays 3-adically fractional, imports free), so the open bridge collapses onto one integer-by-construction object gated on GU's matter action; exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `explorations/big-swing-2026-07-07/`. v2.10, 2026-07-03: folded 2026-07-03 big-swing corroboration [R1 discharges the residual APS/end-eta + family-index items on the **actual** `Cl(9,5)` RS operator, and adds a table-free parity backstop for Theorem 1 completeness; R2 Dai-Freed / spin-bordism finds the mod-3 arena empty for SM boundary data; canon citations for the two-arena core `canon/two-arena-rep-theory-core-RESULTS.md` (R4) and the signed-readout boundary theorem `canon/signed-readout-boundary-theorem-RESULTS.md` (R3)] -- exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `CHANGELOG-v2.10-big-swing-fold.md`. Prior v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -649,11 +649,26 @@ conjecture is thus better stated as: does that relative index exist on GU's 14-m
 located carrier? To earn "forced," three things must
 be built, in one calculation, on GU's actual 14-manifold: a proven fibered-boundary reduction; the explicit
 twisted Rarita-Schwinger index operator (the unbuilt source action); and an integer extraction with the fork
-resolved. A toy of that twisted Rarita-Schwinger operator has now been built and tested four ways (Section 8);
-it does not fill the forcing slot, and every integer it produces is 2-primary or one -- which strengthens the
-conjecture's standing as a candidate category error over the gated-but-derivable alternative (the RS-side gate,
-when probed, opens onto the selector arena). Until then the result is a no-go that *locates*; no computation
-performed in this program yields the integer three.
+resolved. The two arenas in which a homotopy-theoretic count could hide have now been mapped and walled. In
+the *cohomology* arena the GU-forced base is 2-adic (`H^2(RP^3;Z) = Z/2`, `Hom(Z/2,Z) = 0`). In the
+*framed-bordism* arena the located carrier escapes into `pi_3^s = Z/24 = Z/8 (+) Z/3`, and there the
+class-to-count obstruction holds one level up: `Hom(Z/24,Z) = Hom(Q/Z,Z) = 0`, so the Adams `e`-invariant
+`e_R = 1/12`, an element of the finite image of `J`, provably has no integer-class preimage under any framing.
+The twisted Dirac operator was then built explicitly on the GU-forced `RP^3 = L(2;1)` spine with the self-dual
+`Lambda^2_+` framing, and *every* admissible flat twist leaves the index 3-adically fractional (the `Z/2` deck
+group is coprime to 3; a `Z/3`-deck control on the unforced `L(3;1)` does integerize, isolating the
+obstruction as the deck-group order, not a construction failure). The mirror-hiding source-action coupling
+does not double as the base selector -- it is base-agnostic with a 2-group selector -- so the count and the
+chiral-projection selector are two disjoint external inputs, which strengthens rather than bridges the
+two-arena picture. The only surviving route to a nonzero `Z/3` reading is a double external import (`3 | m` in
+a cubic coupling *and* `3 | sigma` in the spacetime signature), disjoint from the located carrier and forced
+by no anomaly-cancellation, Dai-Freed, or modular requirement. The open bridge therefore collapses onto a
+single object: a *relative* or *equivariant* twisted Rarita-Schwinger index -- integer-valued by construction
+and geometry-dependent, so its fractional part, not a class, may equal `e_R`, which is precisely why it is
+invisible to every homomorphism and `e`-invariant obstruction above -- and it remains unbuilt, gated on GU's
+own unstabilized matter action. Until it is built the result is a no-go that *locates*: the places to look are
+exhausted, one object remains to be built, and no computation performed in this program yields the integer
+three.
 
 ---
 

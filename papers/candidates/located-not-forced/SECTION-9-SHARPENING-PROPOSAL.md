@@ -1,9 +1,9 @@
 ---
 title: "Located, Not Forced -- Section 9 sharpening proposal (tracked diff)"
-status: proposal
+status: APPLIED (2026-07-07, on maintainer go) to both .md (v2.11) and .tex (Section 9 synced); a .tex<->.md full reconcile + Overleaf compile is still required before submission (see the DRIFT FLAG below and in the .tex header)
 doc_type: paper-edit-proposal
 created: 2026-07-07
-pauses_for: maintainer (do NOT apply to the frozen .md/.tex without Joe's go)
+pauses_for: maintainer (APPLIED; the remaining pre-submission steps are Joe-side: full .tex reconcile, Overleaf compile, arXiv endorsement, go)
 provenance:
   - explorations/big-swing-2026-07-07/BIG-SWING-RS-INDEX-STILL-GATED.md (RS-index swing, 4 routes)
   - explorations/big-swing-2026-07-07/BIG-SWING-FRAMED-BORDISM-STILL-GATED.md (framed-bordism swing, 4 routes)
