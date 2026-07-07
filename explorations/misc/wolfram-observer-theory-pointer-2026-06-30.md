@@ -2,10 +2,21 @@
 title: "Pointer: Wolfram Observer Theory (low GU relevance)"
 status: exploration
 doc_type: exploration-note
-updated_at: "2026-06-30"
+updated_at: "2026-07-07"
 ---
 
 # Pointer: Wolfram Observer Theory (low GU relevance)
+
+> **2026-07-07 update.** A third video in this set was reviewed -- Jonathan Gorard, *Quantum Gravity & the
+> Wolfram Physics Project* (TOE, `ioXwL-c1RXQ`), the technically rigorous member of the program
+> (hypergraph rewriting -> discrete GR; Knuth-Bendix completion as the observer's branch-collapse;
+> functorial computational irreducibility). The standing refusal below holds unchanged: **no GU
+> obligation is manufactured.** The substantive yield again routed to time-as-finality
+> (`time-as-finality/explorations/gorard-computation-finality-2026-07-07.md` -- Knuth-Bendix completion as
+> a candidate finality operator). The one GU-adjacent use is as a live input to the running geometry-vs-
+> information Hegelian dialectic (computation-first as a rival *monism* that relocates the fundamental
+> below both, i.e. an antithesis to that synthesis, not a confirmation); that routes through the dialectic
+> workflow's verifier note, not a new GU file.
 
 Exploration pointer, 2026-06-30, from a cross-repo council pass over two Stephen Wolfram interviews (Theories
 of Everything: `0YRlQQw0d-4` Observer Theory; `FkYer0xP37E` computational universe + biology). Recorded for
