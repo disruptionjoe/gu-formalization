@@ -23,6 +23,7 @@ detect when a new gate exists without a public process-map entry. Detailed meani
 selected notes below and in each script header.
 
 - `changed_public_path_hygiene_audit.py`
+- `carrier_mass_readme_inventory_audit.py`
 - `constraint_first_ig_tangent_gate.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
@@ -170,6 +171,13 @@ or change verdicts.
 names every direct `tests/generation-sector/*.py` certificate and preserves the frozen,
 paper-cited, not-verdict-changing boundary for the generation-sector family. This is a map and
 posture guard only; it does not run the generation-sector scripts or change verdicts.
+
+## Carrier-mass README inventory gate
+
+`carrier_mass_readme_inventory_audit.py` checks that `tests/carrier-mass/README.md`
+names every direct carrier-mass Python certificate plus the local JSON output, and preserves
+the vectorlike zero-not-three / action-gated boundary for the carrier-mass family. This is a
+map and posture guard only; it does not run the carrier-mass scripts or change verdicts.
 
 ## Relocated surface path hygiene
 

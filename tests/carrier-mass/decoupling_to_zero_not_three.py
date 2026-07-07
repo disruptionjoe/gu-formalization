@@ -39,6 +39,7 @@ ker(Gamma) Casimir split, j=1 triplet 192-dim, Krein (+96,-96)). Only running co
 from __future__ import annotations
 
 import json
+import os
 import numpy as np
 
 N, DIM = 14, 128
@@ -261,7 +262,8 @@ def main():
         "massive_light_net_chirality_A": iA, "massive_light_net_chirality_B": iB,
         "forces_three": False,
     }
-    with open("tests/carrier-mass/decoupling_results.json", "w") as f:
+    output_path = os.path.join(os.path.dirname(__file__), "decoupling_results.json")
+    with open(output_path, "w") as f:
         json.dump(out, f, indent=2)
     return out
 

@@ -24,7 +24,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map |
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test |
-| `carrier-mass/` (7) | the carrier Dirac-mass capstone |
+| `carrier-mass/` (7) | the carrier Dirac-mass capstone, with a local script/output map |
 | `anchored-leads/` (7) | the anchored-leads screen, including an independent Jones-index finite-type recheck |
 | `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with nested independent denominator checks |
