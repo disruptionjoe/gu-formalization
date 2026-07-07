@@ -23,6 +23,7 @@ detect when a new gate exists without a public process-map entry. Detailed meani
 selected notes below and in each script header.
 
 - `antilinear_bound_readme_inventory_audit.py`
+- `boundary_eta_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
 - `chase_readme_inventory_audit.py`
@@ -163,6 +164,13 @@ change verdicts.
 certificate and preserves the null-eigenspace / Krein-admissibility / not-a-GU-derivation
 boundary around the antilinear class. This is a map and posture guard only; it does not
 run the antilinear-bound scripts or change verdicts.
+
+## Boundary-eta README inventory gate
+
+`boundary_eta_readme_inventory_audit.py` checks that `tests/boundary-eta/README.md`
+names every direct and nested boundary-eta Python certificate and preserves the 2-primary /
+tangential-order-3 / not-a-verdict-change boundary around the +96 selector fork. This is a
+map and posture guard only; it does not run the boundary-eta scripts or change verdicts.
 
 ## Protected surface diff gate
 
