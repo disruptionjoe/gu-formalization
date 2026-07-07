@@ -45,9 +45,16 @@ stable cone the global minima are the mirror-hiding corner (all 96 states of one
 gapped, the other 96 exactly massless -- V8's `Pi_mirror` payoff realized as a potential MINIMUM); on
 `lq > -l4/192` the vacuum is mirror-blind. So alignment no longer needs an imported DIRECTION -- it needs
 an imported (or someday derived) SIGN: in the reduced family exactly one bit, `sign(lq + l4/192)`.
-**Status:** the analytic phase boundary is theorem-grade; the numerical minimization sweep confirming it
-is heavy and had not returned exit 0 at handoff, and did not complete on a main-loop re-run (timeout).
-Numerics PENDING; the leg is graded CONSISTENT_UNCOMPUTED until the sweep lands.
+**Status: RESOLVED (2026-07-07, main-loop).** The heavy sweep is superseded by
+`tests/big-swing/as_a1b_reduced_phase_confirm.py` (exit 0 in seconds), which proves the global claim by
+EXACT reduction instead of local search: V depends on Phi only through the K-block traces, and l4>0
+forces uniform eigenvalue magnitude (Cauchy-Schwarz, tr A^4 >= (tr A^2)^2/96, verified on 600 random
+draws), so the 18432-dim minimization is exactly a 2-scalar one. The boundary lq = -l4/192 is then
+DERIVED SYMBOLICALLY from the measured multiplicity 96 (corner min -24/(96 l0 + l4 + 96 lq) vs symmetric
+min -48/(192 l0 + l4); their difference vanishes at lq = -l4/192), and the numeric 2D map confirms the
+corner below / blind above with a boundary-straddle and powered controls. **The phase theorem is now
+THEOREM grade** -- and stronger than the original sweep, which was multi-start local and could have
+missed the global minimum. Only the coupling SIGN keeps the alignment hypothesis itself uncomputed.
 
 ## A3 -- the orientation Z2 (THEOREM, kinematic; verifiers SUSTAINED x2; main-loop re-run exit 0)
 
@@ -117,7 +124,8 @@ the coupling is absent, the vacuum is mirror-blind and alignment returns as an i
 
 ## Next steps
 
-1. Complete A1's numerical sweep (confirm the analytic phase boundary `lq = -l4/192`); cheap, just slow.
+1. ~~Complete A1's numerical sweep~~ DONE (2026-07-07): `as_a1b_reduced_phase_confirm.py` proves the
+   phase boundary `lq = -l4/192` exactly by reduction; A1's global claim is THEOREM grade.
 2. Re-run A2 as a bounded no-go: "no chi-symmetric native potential stabilizes alignment" is already
    proven in passing (A4); state it cleanly as the honest half-no-go.
 3. The sign bit is a source-action question -- it joins the count as the two things the unbuilt dynamics

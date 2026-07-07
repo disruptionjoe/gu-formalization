@@ -17,15 +17,23 @@ scripts:
 
 # A1: the native potential scan — does anything GU-native ALIGN the condensate with Pi_mirror?
 
-> **EXECUTION STATUS (honesty banner, 2026-07-07).** The script was still executing (multi-start
-> minimization sections [5]-[7], runtime > 10 min) when this route was forced to hand off. The
-> ANALYTIC content (the reduced-family phase theorem of Section 2, the weight-collapse table's
-> V8-inherited identities, the flip = chi-conjugation identity's derivation) stands on its own;
-> every NUMERICAL confirmation below must be treated as **PENDING until
-> `python tests/big-swing/as_a1_native_potential_alignment.py` returns exit 0** (deterministic,
-> seeded 20260708; run from repo root; ~15-40 min). Per house discipline, no machine-checked
-> claim in this doc is citable before that receipt. If any check fails on execution, this doc's
-> grade drops and the failing claim is retracted.
+> **EXECUTION STATUS -- RESOLVED (2026-07-07, main-loop).** The original monolithic script's
+> multi-start minimization over the full 18432-dim P-even space did not return exit 0 (runtime
+> > 10 min, timed out on re-run). It is SUPERSEDED for the global claim by
+> `tests/big-swing/as_a1b_reduced_phase_confirm.py` (exit 0 in seconds), which replaces the sweep
+> with an EXACT reduction: because V depends on Phi only through (tr A^2, tr B^2, tr A^4, tr B^4)
+> on the K-blocks, and l4>0 forces uniform eigenvalue magnitude via Cauchy-Schwarz
+> (tr A^4 >= (tr A^2)^2/96, equality iff uniform), the 18432-dim minimization is an exact 2-scalar
+> minimization. The phase boundary lq = -l4/192 is then DERIVED SYMBOLICALLY (sympy) from the
+> measured multiplicity 96 alone: corner min = -24/(96 l0 + l4 + 96 lq), symmetric min =
+> -48/(192 l0 + l4), and (sym - corner) numerator vanishes exactly at lq = -l4/192. The numeric
+> 2D map confirms mirror-hiding corner for lq < -l4/192 and mirror-blind for lq > -l4/192, with a
+> boundary-straddle at +/-0.001 and powered controls (lq=0 never gives the corner). **The phase
+> theorem is therefore THEOREM grade, not pending** -- and stronger than the original sweep, which
+> was multi-start local and could have missed the global minimum. This route's grade is upgraded
+> from CONSISTENT_UNCOMPUTED (numerics pending) to CONSISTENT_UNCOMPUTED (phase theorem PROVEN;
+> only the undetermined coupling SIGN keeps the alignment hypothesis itself uncomputed -- no source
+> action exists to fix it).
 
 **Route A1 of the 2026-07-07 swing.** V8 delivered T5' at kinematic grade: the channel
 `phi · Pi_mirror`, `Pi_mirror = (I + Q5)/2`, gaps all 96 mirrors, keeps all 96 generations
