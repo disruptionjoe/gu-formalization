@@ -3,10 +3,19 @@ title: "Five-Lane Frontier Run"
 status: canon
 doc_type: runbook
 scope: repo-local
-updated_at: "2026-06-26"
+updated_at: "2026-07-07"
 ---
 
 # Five-Lane Frontier Run
+
+> **ROUTING (2026-07-07, maintainer-directed).** This discovery run type is now **session-only by
+> default.** Automated / hourly progress runs should instead work the **Lean verification lane**
+> (`lean-verification-run.md`, queue in `../lean-verification-lane-LEDGER.md`) — convergent hardening
+> that always has a well-defined success condition, versus divergent discovery, which repeatedly hits
+> this runbook's no-progress HALT because breaking no-gos and escaping obstructions is not reliably
+> automatable. Rationale and the emerging "local-minima escape-move" library live in the
+> ai-epistemology repo. Use THIS runbook when the *maintainer* directs a discovery run in an
+> interactive session; do not auto-select it for hourly cycles.
 
 This is the standard repo-local run type for advancing the GU formalization frontier with
 sub-agents. Use it when the maintainer asks for a "run", "another five", "five tasks", or
@@ -30,10 +39,11 @@ The purpose is not to clear small chores. The purpose is to draft and execute fi
 ambitious, non-overlapping goals that each move one real proof, no-go, bridge, or
 physics-recovery question closer to a decision.
 
-The default optimization target is Mission A from `RESEARCH-POSTURE.md`: determine whether
-GU can be reconstructed, extended, or falsified. A lane may be Mission B independent
-mathematics only when it clearly improves reusable machinery or is explicitly scoped as a
-secondary output.
+The default optimization target is the truth-seeking posture in `RESEARCH-POSTURE.md`: determine what
+structure GU and the observerse geometry genuinely locate, derive, block, or make cheaper than competing
+accounts. Do not reduce frontier runs to the single question "does bare GU force three generations"; a lane may
+advance the larger unifying-fit question, a concrete GU reconstruction object, or a GU-independent result that
+survives at honest grade.
 
 ## Core Rule
 
