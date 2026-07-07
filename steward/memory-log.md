@@ -69,3 +69,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added a `tests/generation-sector/` certificate-family README and inventory gate for the frozen paper-cited generation-sector scripts, improving reviewability without moving scripts or changing canon, claim status, verdicts, or public posture. See `steward/runs/2026-07-06-progress-fanout-208-generation-sector-readme-gate.md`.
 - Progress fan-out added a `tests/carrier-mass/` certificate-family README and inventory gate so the vectorlike zero-not-three carrier-mass checks stay reviewable without changing canon, claim status, verdicts, or public posture. See `steward/runs/2026-07-06-progress-fanout-209-carrier-mass-readme-gate.md`.
 - Progress fan-out added a `tests/hessian-z3/` certificate-family README and inventory gate so the finite proxy Hessian/Z3 carrier-occupancy checks stay reviewable without changing canon, claim status, verdicts, or public posture. See `steward/runs/2026-07-06-progress-fanout-212-hessian-z3-readme-gate.md`.
+
+## 2026-07-07
+
+- Progress fan-out added a `tests/chase/` README inventory gate so the nested MOVE-1..MOVE-5 chase-to-kill scripts stay reviewable with their terminal-verdict / independent-reverification / not-GU-derivation boundary intact. See `steward/runs/2026-07-07-progress-fanout-214-chase-readme-gate.md`.

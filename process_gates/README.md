@@ -24,6 +24,7 @@ selected notes below and in each script header.
 
 - `changed_public_path_hygiene_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
+- `chase_readme_inventory_audit.py`
 - `constraint_first_ig_tangent_gate.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
@@ -187,6 +188,14 @@ names every direct Hessian/Z3 Python certificate and preserves the proxy,
 action-gated, not-forced boundary for the carrier-occupancy family. This is a
 map and posture guard only; it does not run the Hessian/Z3 scripts or change
 verdicts.
+
+## Chase README inventory gate
+
+`chase_readme_inventory_audit.py` checks that `tests/chase/README.md`
+names every nested MOVE-1..MOVE-5 chase Python script and preserves the
+terminal-verdict / independent-reverification / not-GU-derivation boundary.
+This is a map and posture guard only; it does not run the chase scripts or
+change verdicts.
 
 ## Relocated surface path hygiene
 

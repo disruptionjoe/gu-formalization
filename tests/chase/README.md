@@ -24,6 +24,27 @@ own **global CPL fit** over the measured window (z≤2), wₐ is **negative** (s
 ~3× smaller in magnitude → ΛCDM-amplitude-degenerate, not a falsification. The authoritative
 computation is `MOVE-2/verify/indep_check.py`. A note to this effect is in the main script's header.
 
+## Script inventory
+
+This inventory is guarded by `process_gates/chase_readme_inventory_audit.py`.
+It is a map and posture guard only: it keeps every live chase script named here
+and preserves the boundary that these are terminal computational verdict
+checks with an independent re-verifier and zero flips, not a physics derivation
+of Geometric Unity. The source-action bottleneck, claim status, and verdicts are
+not changed by this README or its gate.
+
+- `MOVE-1/move1_octic_sp64_vs_sp1.py`
+- `MOVE-1/verify/indep_ahat16.py`
+- `MOVE-2/theta_flrw_wa.py`
+- `MOVE-2/verify/indep_check.py`
+- `MOVE-3/willmore_el_order.py`
+- `MOVE-3/verify/indep_check.py`
+- `MOVE-4/move4_spinor_square_forms.py`
+- `MOVE-4/verify/indep_check.py`
+- `MOVE-5/krein_nogo_chiral_index.py`
+- `MOVE-5/verify/indep_check.py`
+- `MOVE-5/verify/nonvacuity.py`
+
 ## Grades (honest)
 
 - **Exact / unconditional mathematics** (theorems about the objects, independent of GU): MOVE-1's
