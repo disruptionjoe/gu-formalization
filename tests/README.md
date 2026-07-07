@@ -21,7 +21,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 |---|---|
 | `generation-sector/` (27) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen) |
 | `source-action/` (11) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper) |
-| `gu-independent/` (11) | the GU-independent class-level structural no-go |
+| `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map |
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test |
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone |
