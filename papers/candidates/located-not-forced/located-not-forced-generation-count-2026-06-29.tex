@@ -2,10 +2,13 @@
 % v2.11 (2026-07-07): Section 9 (sec:open) sharpened -- both arenas (cohomology + framed bordism) mapped and
 %   walled by the 2026-07-07 RS-index and framed-bordism swings; the open bridge collapses onto one
 %   integer-by-construction object. Verdict UNCHANGED (located, not forced); no grade/claim/title moved.
-% DRIFT FLAG: this .tex was at v2.9 while the readable .md reached v2.10 (2026-07-03 big-swing fold). Section 9
-%   is now synced to v2.11 in BOTH files, but the .tex may still be MISSING the v2.10 non-Section-9 corroboration
-%   edits (added caveat citations, the table-free parity backstop for Theorem 1). A full .tex<->.md reconcile +
-%   Overleaf compile is REQUIRED before submission. Do not submit this .tex until reconciled and compiled clean.
+% RECONCILE (2026-07-07): .tex<->.md content verified IN SYNC. The version-number lag (.tex header said v2.9)
+%   was mostly a stale header; the body already carried the v2.10 content -- the status-table rows (R1 actual-RS
+%   residual, R2 mod-3 arena empty, the table-free parity backstop for Theorem 1), the framed-bordism Section 8,
+%   and the Data Availability section. Section 9 is now synced to v2.11 with macros aligned (\pis, \RP, \Lamp,
+%   \eR). LaTeX integrity checked: environments balanced (22/22), every \ref/\cite/\label resolves, amssymb loaded.
+% REMAINING before submission (Joe-side only, mechanical): compile on Overleaf to confirm rendering; then the
+%   arXiv endorsement check and the explicit go. No content reconcile outstanding.
 % v2.9: folded four staged 2026-07-02 findings (external-by-structure synthesis, core-theorems symbolic proof, external index=flux, RS function-space framework SPEC) into caveats and grade language.
 % Draft for external review. This paper does NOT claim three generations.
 %
@@ -685,12 +688,12 @@ torsion class; it can only arise from a \textbf{relative, equivariant, or rank} 
 construction yet geometry-dependent---which is exactly what the unbuilt twisted Rarita--Schwinger index is. The
 conjecture is thus better stated as: does that relative index exist on GU's $14$-manifold and reduce mod $3$ to
 the located carrier? The two arenas in which a homotopy-theoretic count could hide have now been mapped and
-walled. In the \emph{cohomology} arena the GU-forced base is $2$-adic ($H^2(\mathbb{R}P^3;\Z) = \Z/2$,
+walled. In the \emph{cohomology} arena the GU-forced base is $2$-adic ($H^2(\RP^3;\Z) = \Z/2$,
 $\Hom(\Z/2,\Z) = 0$). In the \emph{framed-bordism} arena the located carrier escapes into
-$\pi_3^s = \Z/24 = \Z/8 \oplus \Z/3$, and there the class-to-count obstruction holds one level up:
+$\pis = \Z/24 = \Z/8 \oplus \Z/3$, and there the class-to-count obstruction holds one level up:
 $\Hom(\Z/24,\Z) = \Hom(\mathbb{Q}/\Z,\Z) = 0$, so the Adams $e$-invariant $\eR = 1/12$, an element of the finite
 image of $J$, provably has no integer-class preimage under any framing. The twisted Dirac operator was then
-built explicitly on the GU-forced $\mathbb{R}P^3 = L(2;1)$ spine with the self-dual $\Lambda^2_+$ framing, and
+built explicitly on the GU-forced $\RP^3 = L(2;1)$ spine with the self-dual $\Lamp$ framing, and
 \emph{every} admissible flat twist leaves the index $3$-adically fractional (the $\Z/2$ deck group is coprime
 to $3$; a $\Z/3$-deck control on the unforced $L(3;1)$ does integerize, isolating the obstruction as the
 deck-group order, not a construction failure). The mirror-hiding source-action coupling does not double as the

@@ -1,6 +1,6 @@
 ---
 title: "Located, Not Forced -- Section 9 sharpening proposal (tracked diff)"
-status: APPLIED (2026-07-07, on maintainer go) to both .md (v2.11) and .tex (Section 9 synced); a .tex<->.md full reconcile + Overleaf compile is still required before submission (see the DRIFT FLAG below and in the .tex header)
+status: APPLIED + RECONCILED (2026-07-07). Section 9 applied to both .md (v2.11) and .tex with macros aligned (\pis, \RP, \Lamp, \eR). Full .tex<->.md reconcile done: body verified in sync (the version lag was a stale header; the v2.10 status rows / framed-bordism Section 8 / Data Availability were already present). LaTeX integrity clean (22/22 environments, all \ref/\cite/\label resolve, amssymb loaded). Remaining is Joe-side mechanical only: Overleaf compile + arXiv endorsement + go.
 doc_type: paper-edit-proposal
 created: 2026-07-07
 pauses_for: maintainer (APPLIED; the remaining pre-submission steps are Joe-side: full .tex reconcile, Overleaf compile, arXiv endorsement, go)
