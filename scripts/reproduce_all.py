@@ -14,6 +14,8 @@ It changes NOTHING: it only imports the standard library and shells out to `pyth
 USAGE
     python scripts/reproduce_all.py            # all certs: tests/ + paper/draft certs
     python scripts/reproduce_all.py --quick    # only tests/ (skips the slower paper certs)
+    python scripts/reproduce_all.py --quick --tracked-only
+                                            # local/scheduled sweep of committed certs only
     python scripts/reproduce_all.py --timeout 300   # per-cert timeout in seconds (default 180)
     python scripts/reproduce_all.py --list     # just list what would run, don't run it
     python scripts/reproduce_all.py -k krein   # only certs whose path contains "krein"
@@ -49,7 +51,42 @@ SKIP_DIR_FRAGMENTS = ("__pycache__", ".cache", ".pytest_cache", ".git", "hourly-
 PASS, FAIL, TIMEOUT, ERROR = "PASS", "FAIL", "TIMEOUT", "ERROR"
 
 
-def discover(roots):
+def repo_rel(path):
+    """Return a repository-relative slash path."""
+    return os.path.relpath(path, REPO_ROOT).replace("\\", "/")
+
+
+def tracked_certificate_files(roots):
+    """Return absolute tracked *.py files under roots according to Git."""
+    pathspecs = [
+        repo_rel(root).rstrip("/")
+        for root in roots
+        if os.path.isdir(root)
+    ]
+    if not pathspecs:
+        return set()
+
+    proc = subprocess.run(
+        ["git", "ls-files", "-z", "--", *pathspecs],
+        cwd=REPO_ROOT,
+        capture_output=True,
+        text=True,
+    )
+    if proc.returncode != 0:
+        raise RuntimeError(proc.stderr.strip() or "git ls-files failed")
+
+    tracked = set()
+    for rel in proc.stdout.split("\0"):
+        if not rel or not rel.endswith(".py") or os.path.basename(rel) == "__init__.py":
+            continue
+        parts = rel.replace("\\", "/").split("/")
+        if any(part in SKIP_DIR_FRAGMENTS for part in parts):
+            continue
+        tracked.add(os.path.abspath(os.path.join(REPO_ROOT, *parts)))
+    return tracked
+
+
+def discover(roots, tracked_only=False):
     """Yield absolute paths of candidate certificate *.py files under the given roots, sorted."""
     found = []
     for root in roots:
@@ -63,6 +100,11 @@ def discover(roots):
             for fn in filenames:
                 if fn.endswith(".py") and fn != "__init__.py":
                     found.append(os.path.join(dirpath, fn))
+
+    if tracked_only:
+        tracked = tracked_certificate_files(roots)
+        found = [path for path in found if os.path.abspath(path) in tracked]
+
     # de-dupe (roots can overlap) and sort for a stable, reviewable order
     return sorted(set(found))
 
@@ -97,12 +139,15 @@ def main(argv=None):
                     help="per-certificate timeout in seconds (default 180)")
     ap.add_argument("--list", action="store_true", dest="list_only",
                     help="list the certificates that would run, then exit")
+    ap.add_argument("--tracked-only", action="store_true",
+                    help="discover only Git-tracked certificates; useful for local/scheduled "
+                         "runs when untracked work-in-progress exists under tests/")
     ap.add_argument("-k", dest="filter", default=None,
                     help="only run certs whose path contains this substring")
     args = ap.parse_args(argv)
 
     roots = [TESTS_DIR] if args.quick else [TESTS_DIR] + PAPER_CERT_DIRS
-    certs = discover(roots)
+    certs = discover(roots, tracked_only=args.tracked_only)
     if args.filter:
         certs = [c for c in certs if args.filter in c.replace("\\", "/")]
 
@@ -115,14 +160,18 @@ def main(argv=None):
     if args.list_only:
         for c in certs:
             print(rel(c))
-        print(f"\n{len(certs)} certificate(s) would run "
-              f"({'quick: tests/ only' if args.quick else 'full: tests/ + paper certs'}).")
+        scope = "quick: tests/ only" if args.quick else "full: tests/ + paper certs"
+        if args.tracked_only:
+            scope += "; tracked only"
+        print(f"\n{len(certs)} certificate(s) would run ({scope}).")
         return 0
 
     print("=" * 78)
     print(f"gu-formalization reproducibility harness  —  {len(certs)} certificate(s)")
-    print(f"mode: {'quick (tests/ only)' if args.quick else 'full (tests/ + paper certs)'}"
-          f"   timeout: {args.timeout:g}s/cert   python: {sys.version.split()[0]}")
+    mode_label = "quick (tests/ only)" if args.quick else "full (tests/ + paper certs)"
+    if args.tracked_only:
+        mode_label += " tracked-only"
+    print(f"mode: {mode_label}   timeout: {args.timeout:g}s/cert   python: {sys.version.split()[0]}")
     print("=" * 78)
 
     results = []  # (status, seconds, relpath, tail)

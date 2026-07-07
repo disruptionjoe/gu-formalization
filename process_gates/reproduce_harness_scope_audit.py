@@ -12,6 +12,7 @@ from __future__ import annotations
 import contextlib
 import importlib.util
 import io
+import subprocess
 import unittest
 from pathlib import Path
 from types import ModuleType
@@ -47,8 +48,39 @@ def expected_python_files(root: Path) -> set[Path]:
     return files
 
 
-def discovered_paths(module: ModuleType, roots: list[str]) -> set[Path]:
-    return {Path(path).resolve() for path in module.discover(roots)}
+def expected_tracked_python_files(roots: list[Path]) -> set[Path]:
+    pathspecs = [
+        relpath(root).rstrip("/")
+        for root in roots
+        if root.is_dir()
+    ]
+    if not pathspecs:
+        return set()
+
+    result = subprocess.run(
+        ["git", "ls-files", "-z", "--", *pathspecs],
+        cwd=ROOT,
+        text=True,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+        check=False,
+    )
+    if result.returncode != 0:
+        raise AssertionError(result.stderr.strip() or "git ls-files failed")
+
+    files: set[Path] = set()
+    for rel in result.stdout.split("\0"):
+        if not rel or not rel.endswith(".py") or Path(rel).name == "__init__.py":
+            continue
+        parts = Path(rel).parts
+        if any(part in SKIP_DIR_NAMES for part in parts):
+            continue
+        files.add((ROOT / rel).resolve())
+    return files
+
+
+def discovered_paths(module: ModuleType, roots: list[str], tracked_only: bool = False) -> set[Path]:
+    return {Path(path).resolve() for path in module.discover(roots, tracked_only=tracked_only)}
 
 
 def relpath(path: Path) -> str:
@@ -83,6 +115,20 @@ class ReproduceHarnessScopeAudit(unittest.TestCase):
             sorted(relpath(path) for path in full - quick),
         )
 
+    def test_tracked_only_scope_matches_git_tracked_tests_tree(self) -> None:
+        module = load_harness()
+
+        discovered = discovered_paths(module, [module.TESTS_DIR], tracked_only=True)
+        expected = expected_tracked_python_files([TESTS_DIR])
+        default_scope = discovered_paths(module, [module.TESTS_DIR])
+
+        self.assertGreaterEqual(len(discovered), 1)
+        self.assertTrue(discovered.issubset(default_scope))
+        self.assertEqual(
+            sorted(relpath(path) for path in expected),
+            sorted(relpath(path) for path in discovered),
+        )
+
     def test_process_gates_and_skip_directories_are_out_of_certificate_scope(self) -> None:
         module = load_harness()
 
@@ -97,13 +143,20 @@ class ReproduceHarnessScopeAudit(unittest.TestCase):
 
         output = io.StringIO()
         with contextlib.redirect_stdout(output):
-            exit_code = module.main(["--quick", "--list", "-k", "tests/pati-salam"])
+            exit_code = module.main([
+                "--quick",
+                "--tracked-only",
+                "--list",
+                "-k",
+                "tests/pati-salam",
+            ])
 
         self.assertEqual(0, exit_code)
         lines = [line.strip() for line in output.getvalue().splitlines() if line.strip()]
         certificate_lines = [line for line in lines if line.startswith("tests/")]
 
         self.assertEqual(["tests/pati-salam/run_pati_salam_chain_checks.py"], certificate_lines)
+        self.assertIn("tracked only", output.getvalue())
         for line in certificate_lines:
             self.assertFalse(Path(line).is_absolute(), line)
             self.assertNotIn("\\", line)

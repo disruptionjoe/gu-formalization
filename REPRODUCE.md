@@ -23,6 +23,7 @@ exits nonzero if anything fails. This guide lets an outside skeptic re-run all o
 ```
 python scripts/reproduce_all.py            # all certs: tests/ + paper/draft certs
 python scripts/reproduce_all.py --quick    # only tests/ (skips the slower paper certs)
+python scripts/reproduce_all.py --quick --tracked-only  # committed tests/ certs only
 ```
 
 Useful flags:
@@ -30,6 +31,8 @@ Useful flags:
 - `--quick` — run only `tests/` (the core certificate suite), skipping the paper/draft certs.
 - `--timeout N` — per-certificate timeout in seconds (default 180). One slow or hung cert cannot
   stall the whole run; it is recorded as `TIMEOUT` and the sweep continues.
+- `--tracked-only` - discover only Git-tracked certificates. This is useful for local or
+  scheduled validation when unrelated untracked work-in-progress exists under `tests/`.
 - `--list` — print which certificates would run, without running them.
 - `-k SUBSTR` — run only certs whose path contains `SUBSTR` (e.g. `-k krein`).
 
@@ -37,6 +40,7 @@ The harness discovers every `*.py` under `tests/` (and, in full mode, the paper/
 each in a fresh subprocess, and prints a `PASS/FAIL/TIMEOUT/ERROR` table with totals, the slowest
 certs, and a final `GREEN`/`RED` verdict. **Exit code is 0 iff every certificate passed.** Scratch
 and cache directories (`__pycache__`, `.pytest_cache`, archived `hourly-cycles`) are skipped.
+With `--tracked-only`, untracked local files under the certificate roots are also skipped.
 The discovery scope itself is guarded by `python process_gates/reproduce_harness_scope_audit.py`,
 which is a process check and not part of the mathematical certificate sweep.
 

@@ -73,3 +73,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-07
 
 - Progress fan-out added a `tests/chase/` README inventory gate so the nested MOVE-1..MOVE-5 chase-to-kill scripts stay reviewable with their terminal-verdict / independent-reverification / not-GU-derivation boundary intact. See `steward/runs/2026-07-07-progress-fanout-214-chase-readme-gate.md`.
+- Progress fan-out added `scripts/reproduce_all.py --tracked-only` plus a scope-gate check so local/scheduled reproduction sweeps can ignore unrelated untracked WIP under certificate roots while leaving default discovery unchanged.

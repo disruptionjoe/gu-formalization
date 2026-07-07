@@ -135,8 +135,9 @@ added or archived without treating manifest counts as mathematical evidence.
 `reproduce_harness_scope_audit.py` imports `scripts/reproduce_all.py` without running
 the certificate suite, then checks that quick mode discovers exactly the live `tests/`
 Python certificates, full mode adds only the declared paper certificate roots, skip
-directories remain excluded, `process_gates/` remains outside the computational
-certificate sweep, and list mode prints repository-relative slash paths.
+directories remain excluded, tracked-only mode matches Git-tracked certificates,
+`process_gates/` remains outside the computational certificate sweep, and list mode
+prints repository-relative slash paths.
 
 ## Reproduction docs consistency gate
 
