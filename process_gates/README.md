@@ -41,6 +41,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `finite_control_provenance_audit.py`
 - `flrw_theta_xi_branch_gate.py`
+- `generation_sector_readme_inventory_audit.py`
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
 - `internal_ops_gitignore_audit.py`
@@ -162,6 +163,13 @@ content.
 `tests/decider/*.py` certificate and preserves the explicit not-forced / gated boundary for the
 single-decider family. This is a map and posture guard only; it does not run the decider scripts
 or change verdicts.
+
+## Generation-sector README inventory gate
+
+`generation_sector_readme_inventory_audit.py` checks that `tests/generation-sector/README.md`
+names every direct `tests/generation-sector/*.py` certificate and preserves the frozen,
+paper-cited, not-verdict-changing boundary for the generation-sector family. This is a map and
+posture guard only; it does not run the generation-sector scripts or change verdicts.
 
 ## Relocated surface path hygiene
 
