@@ -3,7 +3,7 @@ artifact_type: exploration
 status: exploration
 created: 2026-07-07
 title: "Alignment swing: does any GU-native dynamics select the V8 mirror-hiding condensate direction? HONEST OUTCOME: strong bounded-positive. Alignment is a PHASE of the native invariant potentials, not fine-tuning (A1, phase theorem, numerics pending); the orientation Z2 is DISCHARGED as a Krein-labeling redundancy (A3, THEOREM x2); the aligned configuration is a SADDLE under orientation-blind potentials but the exact GLOBAL MINIMUM under one orientation-odd native coupling tr(Q5 Phi^2) with the physical sign (A4, THEOREM x2). V8's three-item invoice (direction + orientation bit + alignment hypothesis) collapses to ONE undetermined SIGN BIT, resolvable only by the still-unbuilt source action. Count stays OPEN."
-grade: "exploration / strong bounded-positive. A3, A4 THEOREM grade (both signatures where applicable, powered controls, re-run in the main loop to exit 0). A1 analytic phase theorem at theorem grade but numerical confirmation PENDING (script is heavy; exit-0 receipt not yet landed). A2 (the no-go twin) DID NOT RUN (output-token cap) -- but A1 and A4 exhibit explicit native potentials on which alignment wins, which refutes the strong no-go A2 was to attempt. No forbidden target imported; no dynamics (no S exists); every statement 'the native potential class forces X', never 'GU forces X'. Count stays OPEN."
+grade: "exploration / strong bounded-positive. All four routes THEOREM grade, run in the main loop to exit 0 with powered controls. A1 phase theorem RESOLVED by exact reduction (as_a1b_reduced_phase_confirm.py: boundary lq = -l4/192 derived symbolically from the measured multiplicity 96; stronger than the stalled multi-start sweep it replaces). A3 orientation Z2 discharged (both signatures). A4 basin: saddle under chi-symmetric potentials, global minimum under one orientation-odd native coupling. A2 finished as a BOUNDED no-go (as_a2b_native_ring_symmetry_nogo.py: strong no-go REFUTED -- Inv = U(96)xU(96) fixes the Q5 axis; weak no-go PROVEN -- q_n chi-odd, so no chi-symmetric native potential selects the orientation; import = one non-native sign bit). No forbidden target imported; no dynamics (no S exists); every statement 'the native potential class forces X', never 'GU forces X'. Count stays OPEN."
 depends_on:
   - explorations/big-swing-2026-07-07/A1-native-potential-alignment.md
   - explorations/big-swing-2026-07-07/A3-orientation-z2.md
@@ -86,13 +86,19 @@ point (massless generations) is the aligned configuration at scale `2mu`, sittin
 zero tuning iff the Dirac scale is condensate-born. **Card:** SADDLE (orientation-blind) / ATTRACTOR-
 COMPATIBLE (orientation-committed, `h < -m^2`) / MARGINAL (`h = -m^2`).
 
-## A2 -- the no-go twin: DID NOT RUN
+## A2 -- the no-go twin: COMPLETED as a bounded no-go (THEOREM; main-loop, exit 0)
 
-The adversarial "prove no native potential can see the alignment datum" route hit the 64k output-token
-cap and produced no result. It is not lost science: A1's phase theorem and A4's global-minimum result
-both EXHIBIT native potentials on which alignment wins, which directly refutes the strong form of the
-no-go A2 was to attempt. The weaker, honest residue A2 might still have found -- that alignment requires
-a sign no native invariant fixes -- is exactly what A1/A4 concluded independently.
+The original A2 route hit the 64k output-token cap and produced no result; it was finished in the main
+loop (`tests/big-swing/as_a2b_native_ring_symmetry_nogo.py`, 15/15 checks, powered controls) following
+the A1 method. The strong no-go it set out to prove is FALSE (A1/A4 exhibit selecting potentials); the
+true complementary statement is the **bounded no-go**, now proven: the native invariant ring's symmetry
+group `Inv = U(96) x U(96)` FIXES the Q5 axis (so the ring sees the mirror direction -- A1 lives), but
+under the native intertwiner `chi` the invariants split `t_n` chi-even / `q_n` chi-odd, and the
+mirror-hiding order parameter `q2` is chi-odd. So every chi-symmetric native potential has a
+chi-symmetric (blind or degenerate) vacuum and cannot select which half gaps; selection requires a
+chi-odd native coupling whose sign `chi` flips (`V(u,0;+h) = V(0,u;-h)` exactly). The alignment import is
+exactly **one non-native bit** -- identical to A1's `sign(lq + l4/192)` and A4's sign of `tr(Q5 Phi^2)`,
+now derived from the symmetry side. All four routes agree. See `A2-native-ring-symmetry-nogo.md`.
 
 ## What this settles / does not settle
 
