@@ -69,6 +69,7 @@ selected notes below and in each script header.
 - `reproduction_docs_consistency_audit.py`
 - `research_posture_audit.py`
 - `roadmap_current_routing_links_audit.py`
+- `rs_function_space_readme_inventory_audit.py`
 - `sequential_source_to_index_goals_audit.py`
 - `sm_finite_control_ledger_audit.py`
 - `source_geometry_contract_audit.py`
@@ -145,6 +146,14 @@ prints repository-relative slash paths.
 and `scripts/reproduce_all.py` consistently describe the public reproduction model:
 certificates remain directly runnable, and `scripts/reproduce_all.py` is the central
 one-step runner. This is a documentation guard, not a mathematical certificate.
+
+## RS function-space README inventory gate
+
+`rs_function_space_readme_inventory_audit.py` checks that `tests/rs-function-space/README.md`
+names every direct and nested RS function-space Python certificate and preserves the
+open-crux / no-target-import boundary around the family-index and boundary-eta checks.
+This is a map and posture guard only; it does not run the RS function-space scripts or
+change verdicts.
 
 ## Protected surface diff gate
 
