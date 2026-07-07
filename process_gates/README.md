@@ -45,6 +45,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
 - `finite_control_provenance_audit.py`
+- `forcing_slot_readme_inventory_audit.py`
 - `flrw_theta_xi_branch_gate.py`
 - `function_space_ext_readme_inventory_audit.py`
 - `generation_sector_readme_inventory_audit.py`
@@ -229,6 +230,15 @@ certificate and preserves the delimited-class / no-canon-promotion /
 not-a-physics-derivation boundary around the publication-gating enumeration family. This
 is a map and posture guard only; it does not run the enum-completeness scripts or change
 verdicts.
+
+## Forcing-slot README inventory gate
+
+`forcing_slot_readme_inventory_audit.py` checks that
+`tests/forcing-slot/README.md` names every direct forcing-slot Python
+certificate and preserves the toy-model / stabilized-source /
+not-a-GU-derivation / not-a-verdict-change boundary around the forcing-slot
+screen. This is a map and posture guard only; it does not run the forcing-slot
+scripts or change verdicts.
 
 ## Carrier-mass README inventory gate
 
