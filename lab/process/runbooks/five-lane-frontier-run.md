@@ -8,14 +8,28 @@ updated_at: "2026-07-07"
 
 # Five-Lane Frontier Run
 
-> **ROUTING (2026-07-07, maintainer-directed).** This discovery run type is now **session-only by
-> default.** Automated / hourly progress runs should instead work the **Lean verification lane**
-> (`lean-verification-run.md`, queue in `../lean-verification-lane-LEDGER.md`) — convergent hardening
-> that always has a well-defined success condition, versus divergent discovery, which repeatedly hits
-> this runbook's no-progress HALT because breaking no-gos and escaping obstructions is not reliably
-> automatable. Rationale and the emerging "local-minima escape-move" library live in the
-> ai-epistemology repo. Use THIS runbook when the *maintainer* directs a discovery run in an
-> interactive session; do not auto-select it for hourly cycles.
+> **ROUTING (2026-07-07, maintainer-directed).** This is the **DIVERGENT PROGRESS** run type (wall-breaking
+> / escaping local minima), session-directed by default. Automated / hourly progress runs default instead to
+> **CONVERGENT PROGRESS** (`lean-verification-run.md`, queue in `../lean-verification-lane-LEDGER.md`), which
+> always has a well-defined success condition; divergent work repeatedly hits this runbook's no-progress
+> HALT because it is not reliably automatable. See the run-topology system issue in ai-epistemology
+> (`governance/SYSTEM-ISSUE-run-topology-and-cross-repo-registry-consumption.md`).
+>
+> **REGISTRY CONSUMPTION (prototype, 2026-07-07).** A divergent-progress lane that faces a genuine wall
+> should now draw its move from a source, in this order of provenness:
+> 1. **flow-directed** — a proven flow (`CapacityOS/system/runtime/flows`), if one matches the wall;
+> 2. **registry-borrowed** — a tested-but-unproven move from the ai-epistemology wall-breaking registry
+>    (`ai-epistemology/field-guide/branch-5-evolvability/wall-breaking-move-registry.md`): classify the wall
+>    against its taxonomy, select a move whose trigger matches, run it against its **pre-registered success
+>    criterion**;
+> 3. **workflow-deemed** — the workflow decides ad hoc (least proven; use when neither above matches).
+> After running a registry-borrowed move, **log the outcome** (program, wall type, move, pre-registered
+> criterion, GO/NO-GO) as a short markdown message in `CapacityOS/system/mailboxes/ai-epistemology/` so the
+> registry maintainer can ingest it into the deployment log. This is what turns the registry's n=3 priors
+> into measured reliability. Tier-C (unifier) moves MUST be followed by MDM-A1 (adversarial twin) before
+> banking any positive. Divergent INPUTS (MDM-H1 curiosity import, MDM-H2 dismissal override) remain
+> maintainer-supplied — an automated divergent run PROPOSES the wall classification + candidate moves; the
+> maintainer picks.
 
 This is the standard repo-local run type for advancing the GU formalization frontier with
 sub-agents. Use it when the maintainer asks for a "run", "another five", "five tasks", or
