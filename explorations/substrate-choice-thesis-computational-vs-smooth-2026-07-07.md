@@ -6,6 +6,13 @@ generation count and two sibling instances in time-as-finality (finality) and te
 This is a research POSTURE / generative hypothesis, not a result. Manufactured-convergence risk is high and
 the discipline section at the bottom is load-bearing.
 
+> **2026-07-07 UPDATE — Blind Spot 4 was tested by a big swing and PARTIALLY REFUTED.** See the correction
+> block inside the Blind Spot 4 section and
+> `explorations/big-swing-2026-07-07/BLIND-SPOT-4-Z3-VS-TRIALITY-PERSPECTIVE-GATE.md`. The generative
+> PRINCIPLE and Blind Spots 1-3 stand (untested here); but Blind Spot 4's specific "smooth-vs-computational
+> blindness" framing and its triality carrier do NOT survive as stated. Read Blind Spot 4 with its
+> correction block.
+
 ## The thesis
 
 The choice of mathematical substrate is **not neutral**. A substrate silently fixes, for every phenomenon,
@@ -76,6 +83,39 @@ automorphism of D_4 / Spin(8) (the three inequivalent 8-dim reps), an intrinsica
 that the smooth machinery treats as a fixed background feature but a multiway / rewriting substrate might
 *generate* as a rule property. This does not overturn `located-not-forced`; it **reinterprets its "not
 forced" as a positive pointer to the substrate where the count is native.**
+
+> **CORRECTION (2026-07-07 big swing, BLIND-SPOT-4-Z3-VS-TRIALITY-PERSPECTIVE-GATE.md).** The paragraph
+> above is PARTIALLY WRONG and is kept only for the record. What the swing established (all GU-independent,
+> load-bearing math flagged from-memory-standard):
+> 1. **The triality carrier is refused.** The located Z/3 (odd summand of pi_3^s = Z/24, carried by the
+>    Adams e-invariant e_R = 1/12) is INDEPENDENT of D4 triality's order-3, exhibited two ways: triality
+>    acts trivially on pi_3(Spin(8)) = Z (an order-3 hom into Aut(Z) = Z/2 is trivial), and Aut(Z/24) is a
+>    2-group of order 8 with no order-3 element, so no order-3 symmetry can act on the Z/3 at all. "Both are
+>    mod-3" is a vacuous link (it would equally tie the count to SU(3)-color Z/3).
+> 2. **The wall is substrate-ROBUST, not a smooth artifact.** Barratt-Priddy-Quillen makes pi_3^s
+>    genuinely combinatorial (K-theory of finite sets), and the computational substrate RE-DERIVES the wall:
+>    only pi_0^s = Z (cardinality) is a MONOVARIANT that counts; every higher stem including the Z/3 is a
+>    COLORING (mod-n obstruction, no integer content), so Hom(Z/3,Z)=0 = Hom(degree-3 torsion, degree-0
+>    free) = 0. Relocating to a combinatorial substrate does NOT heal it.
+> 3. **The blind spot is REAL-vs-COMPLEX, not smooth-vs-computational.** "Smooth index theory is 2-primary
+>    blind to odd torsion" is false categorically: e_R (an APS eta / secondary invariant) LOCATED the odd
+>    class, the complex e_C detects odd Im J, and GEM/WWY reach odd primes inside ordinary spin bordism.
+>    The real characterization is two axes internal to standard math: (primary vs secondary) no torsion of
+>    any prime can count; (real vs complex) THIS sector's 2-primariness is a KO/reality fact (KO torsion is
+>    2-primary, KO[1/2]=KU[1/2]). "External" = outside the real/KO tower, still SMOOTH.
+> 4. **"Located, not forced" is best read as conservativity/independence**, which PREDICTS the paper's four
+>    caught fabricated derivations (a genuinely independent statement forces every internal derivation to be
+>    circular). To force the count you must ADJOIN and MOTIVATE a new axiom of the right arithmetic strength
+>    -- not relocate to a substrate where it "could be native."
+> 5. **A's canonical home is arithmetic-modular (tmf_3), a THIRD substrate**, where the odd 3 is zeta-forced
+>    by von Staudt-Clausen ((3-1)|2), owing nothing to D4 -- neither smooth index theory nor combinatorial
+>    rewriting.
+>
+> **What survives:** the generative PRINCIPLE (substrates carry different natural/impossible partitions)
+> stands as a heuristic, and Blind Spots 1-3 were not tested. The sharpened, still-live version of the
+> count question is GU-independent and concrete: **is there a rule whose MONOVARIANT (orbit / normal-form /
+> critical-pair count) is 3?** -- a different and unmet demand than any symmetry order. Blind Spot 4 as
+> originally stated (smooth-vs-computational blindness, triality carrier) does not survive.
 
 ## The sharpest concrete thread (proposal, not done)
 
