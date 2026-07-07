@@ -3,7 +3,7 @@ title: "Bridge hypothesis: the GU mirror sector as the collective-not-individual
 status: exploration
 doc_type: cross-repo-bridge-hypothesis
 created: 2026-07-07
-grade: "hypothesis / analogy-grade. NO identity claim (tri-repo two-adapter gate). Cross-repo material is stress-test input, never support. Manufactured-convergence risk high. The whole reading is a rename until the T12' test runs on the carrier."
+grade: "hypothesis; T12' leg PROMOTED (kinematic, 2026-07-07) -- the mirror IS a genuine zero-statistical-trace capability wall on the carrier (Leg A ~9e-16 invisible to individual ops, Leg B = 0.48 collectively visible, controls powered, both signatures), and it is the POSITIVITY-FORCED blind spot, not an arbitrary subspace. So the reading is ANCHORED, not a rename. STILL NOT an identity claim: (i) kinematic only -- the mu<->boundary energy connection is uncomputed (needs the dynamics); (ii) zero-trace is necessary-not-sufficient for 'collective RECORDS' specifically -- it does not yet distinguish records from the standard ghost reading 'discardable redundancy'. Tri-repo two-adapter gate unchanged; cross-repo stress-test only; manufactured-convergence guard stands."
 provenance: "Joe, chat 2026-07-07, developing the mirror-predictions swing into a capability-framework reading"
 depends_on:
   - canon/ghost-parity-krein-synthesis.md
@@ -80,6 +80,25 @@ Runnable now on the existing machinery (reuse `tests/generation-sector/ghost_par
 `tests/big-swing/vg_v8_t5_map_attempt.py`): build the physical/mirror split, then check whether the
 projector-Born-rule statistics on the physical sector are invariant under changes confined to the mirror
 sector (with a discriminating control: a change that DOES touch the physical sector must be detectable).
+
+**RESULT (2026-07-07): T12' PROMOTED, kinematic.** Run + main-loop-verified (see
+`T12prime-mirror-capability-wall-2026-07-07.md`, script `tests/big-swing/t12p_mirror_capability_wall.py`).
+Two states agreeing on their physical (W+) component and differing only in the mirror (W-) component are
+INVISIBLE to every individual-accessible operation (Leg A ~ 9e-16 in both (9,5) and (7,7)) yet genuinely
+DIFFERENT to collective full-Krein operations (Leg B = 0.48). Controls fire: a physical-sector pair IS
+individually visible (~0.99, Leg A has power), and the mirror difference is genuinely present (0.40, not
+degenerate). Crucially it is not the generic "any subspace is invisible to ops preserving it": Krein
+positivity (Turok-Bateman) FORCES both the physical-sector readout and the block-diagonal restriction, so
+the mirror is the positivity-forced blind spot -- the ghost-specific content. So the mirror IS a genuine
+zero-statistical-trace capability wall; the reading is anchored, not a rename.
+
+**Two things the leg does NOT yet do (the next tests):**
+1. It does not distinguish "collective RECORDS" from the standard ghost reading "discardable redundancy" --
+   both have identical zero individual trace. That adjudication needs the dynamics / the boundary-adapter.
+2. It is kinematic: whether the mass gap `mu` is the ENERGY PRICE of crossing the individual<->collective
+   boundary is uncomputed (no S-matrix on the carrier), gated on the unbuilt GU source action.
+So the bridge is anchored at kinematic grade, not proven; the records-vs-redundancy and mu<->boundary
+questions are the two remaining legs, both behind the dynamics.
 
 ## What it would earn / what kills it
 
