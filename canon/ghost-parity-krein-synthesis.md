@@ -10,6 +10,29 @@ external_ref: "Turok & Bateman, quadratic-gravity / Krein-space generalized Born
 
 # Ghost parity, Krein structure, and the generation count
 
+> **UPDATE (2026-07-06 big swing + viability gauntlet; approved by Joe in chat 2026-07-07).** Two
+> statements below are corrected by machine-checked results
+> (`explorations/big-swing-2026-07-06/BIG-SWING-CONFORMAL-CLASS-BLOCKED.md`,
+> `explorations/big-swing-2026-07-06/VG-V1-condensate-ghost-parity-scan.md`):
+> (1) The closing speculation that the open condition `[P_ghost, S] = 0` is "plausibly met if GU's
+> source action is quadratic-gravity-like" is WEAKENED TO NEAR-CLOSED: on the 192-dim triplet sector
+> every GU-native core is PT-unbroken yet spectrally sign-blind (every eigenspace exactly K-balanced),
+> so a dynamics-DERIVED C-operator/parity never arises (R3, SUSTAINED x2), and the conformal member of
+> the quadratic class inherits the fiber and Kramers walls unchanged (R4). The condition itself is
+> sharpened: S must be Krein-diagonalizable with real SIMPLE spectrum — at spectral degeneracies
+> (GU's three-generation target regime) C exists but is non-unique (R1 verifiers), so derivedness
+> does not transfer even where the mechanisms agree.
+> (2) The reading "the same ghost parity ... turns GU's vectorlike self-dual triplet into three
+> physical chiral generations" is FENCED by a new theorem: {K, chi} = 0 forces Re tr(chi Pi_+) = 0
+> for EVERY admissible C (R3; independently re-derived by two verifiers), and every GU-native
+> ghost-parity-even condensate channel is exactly isospectral across the parity — mirrors and
+> generations gap together (V1, theorem over the enumerated native algebra). The split into 3
+> positive-norm + 3 ghost states survives as a CONSISTENCY statement only; it is NOT a chirality
+> selection, and the mirror-selective datum is an import. The count stays OPEN.
+> Positive addition (V2, SUSTAINED x2): the Krein form K itself implements the Cartan involution of
+> so(9,5) (residual 0.0e+00) and equals the ghost parity on the triplet — the consistency structure,
+> the gauge-sector rescue, and the Krein geometry are one Z2 at kinematic grade.
+
 > **CORRECTION (A0 audit, 2026-06-28).** Any framing below of the Krein / Hilbert-positivity move as an
 > inside-class shadow or inside-class richer datum is RETRACTED. By the Weyl unitarian trick a
 > finite-dimensional representation of a compact group always carries an invariant positive-definite form,
