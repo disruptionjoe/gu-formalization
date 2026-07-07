@@ -74,6 +74,7 @@ selected notes below and in each script header.
 - `rs_function_space_readme_inventory_audit.py`
 - `sequential_source_to_index_goals_audit.py`
 - `sm_finite_control_ledger_audit.py`
+- `source_action_readme_inventory_audit.py`
 - `source_geometry_contract_audit.py`
 - `stress_energy_shadow_emergence_audit.py`
 - `tests_manifest_count_audit.py`
@@ -171,6 +172,14 @@ run the antilinear-bound scripts or change verdicts.
 names every direct and nested boundary-eta Python certificate and preserves the 2-primary /
 tangential-order-3 / not-a-verdict-change boundary around the +96 selector fork. This is a
 map and posture guard only; it does not run the boundary-eta scripts or change verdicts.
+
+## Source-action README inventory gate
+
+`source_action_readme_inventory_audit.py` checks that `tests/source-action/README.md`
+names every tracked direct source-action Python certificate and preserves the frozen /
+source-action-wall / not-a-verdict-change boundary around the Seiberg-Witten and
+moment-map source-action family. This is a map and posture guard only; it does not run
+the source-action scripts or change verdicts.
 
 ## Protected surface diff gate
 
