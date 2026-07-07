@@ -22,6 +22,7 @@ This filename inventory is intentionally mechanical: it lets `process_gate_readm
 detect when a new gate exists without a public process-map entry. Detailed meaning stays in the
 selected notes below and in each script header.
 
+- `antilinear_bound_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
 - `chase_readme_inventory_audit.py`
@@ -154,6 +155,14 @@ names every direct and nested RS function-space Python certificate and preserves
 open-crux / no-target-import boundary around the family-index and boundary-eta checks.
 This is a map and posture guard only; it does not run the RS function-space scripts or
 change verdicts.
+
+## Antilinear-bound README inventory gate
+
+`antilinear_bound_readme_inventory_audit.py` checks that
+`tests/antilinear-bound/README.md` names every direct and nested antilinear-bound Python
+certificate and preserves the null-eigenspace / Krein-admissibility / not-a-GU-derivation
+boundary around the antilinear class. This is a map and posture guard only; it does not
+run the antilinear-bound scripts or change verdicts.
 
 ## Protected surface diff gate
 

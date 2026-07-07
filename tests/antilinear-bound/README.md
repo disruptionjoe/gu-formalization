@@ -5,6 +5,11 @@ publication-gating section, priority 2): convert the located-not-forced paper's 
 "finite adversarial hunt" (caveat (d)) into a delimited theorem/certificate.
 RESULTS: `canon/antilinear-bound-RESULTS.md`.
 
+Boundary posture: this README is a certificate map for antilinear-bound scripts, not a
+claim status, verdicts, or public posture change. The guarded boundary is the
+null-eigenspace / Krein-admissibility / index-nullity result; the scripts are not a
+physics derivation of GU.
+
 ## Verdict
 
 **The hunt closes over a delimited class S, and the closure is a theorem, not a search.**

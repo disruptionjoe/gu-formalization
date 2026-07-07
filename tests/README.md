@@ -34,7 +34,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures |
 | `pati-salam/` (1) | reproduction harness for the active-research Pati-Salam chain verification scripts |
 | `enum-completeness/` (2) | enumeration-completeness certificate for the located-not-forced publication gate |
-| `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate |
+| `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent check, APS eta boundary control, and UII gap gate |
 | `rs-function-space/` (4) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, and family/characteristic-class generation-arena probes, with a local script map |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
