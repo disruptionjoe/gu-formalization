@@ -24,6 +24,7 @@ selected notes below and in each script header.
 
 - `antilinear_bound_readme_inventory_audit.py`
 - `anchored_leads_readme_inventory_audit.py`
+- `big_swing_readme_inventory_audit.py`
 - `boundary_eta_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
@@ -169,6 +170,14 @@ change verdicts.
 screen and preserves the candidate-screen / located-not-forced /
 source-action-gated boundary. This is a map and posture guard only; it does
 not run the anchored-lead scripts or change verdicts.
+
+## Big-swing README inventory gate
+
+`big_swing_readme_inventory_audit.py` checks that `tests/big-swing/README.md`
+names every direct big-swing Python or Lean certificate and preserves the
+exploration / not-a-verdict-change / source-action-gated boundary. This is a
+map and posture guard only; it does not run the big-swing scripts or change
+verdicts.
 
 ## Antilinear-bound README inventory gate
 
