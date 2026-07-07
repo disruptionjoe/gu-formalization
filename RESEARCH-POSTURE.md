@@ -2,7 +2,7 @@
 title: "Research Posture"
 status: canon
 doc_type: canon
-updated_at: "2026-06-28"
+updated_at: "2026-07-07"
 ---
 
 # Research Posture
@@ -26,6 +26,12 @@ one to a verdict (survives re-checking, or is killed), and keep only what surviv
 structure is frequently **GU-independent** -- representation-theoretic, index-theoretic, no-go-structural
 facts that stand on their own once GU has done its job of pointing at them. That is a feature, not a
 disappointment: the scaffold is allowed to fall away.
+
+This posture does not mean the program treats every failure of a too-strong GU claim as evidence that GU
+"does not work." In particular, "bare GU does not force three generations" is a narrower statement than
+"GU fails as a unifying account." The larger question is whether GU and its observerse geometry locate the
+known structures so tightly that one constrained external chirality / generation datum is a better explanation
+than treating the whole framework as wrong. That question remains live and must be tested with the same rigor.
 
 ```text
 We do not optimize to prove GU, to disprove GU, or to adjudicate anyone.
@@ -57,6 +63,10 @@ These are hypotheses under active drive, to be ATTACKED not defended. They are i
   and kinematically un-chiralizable (T1a); the self-dual route is canonical (H3) and the only odd route
   (M3); the chiral count is one specified missing ingredient. See `canon/ghost-parity-krein-synthesis.md`,
   `canon/leg3-closure-and-spinor-2smoothness.md`, and the prepublish tracker.
+- **The unifying-fit question** -- whether GU gives a more coherent, lower-complexity story for the known
+  structures than the alternatives, even if the generation count is an imported but constrained selection
+  datum. This is not permission to call compatibility a derivation; it is the explicit distinction between
+  "force three" and "fit the world unusually well."
 
 When a lead hypothesis is resolved, it is retired and the truth it surfaced is kept; the program does not
 become attached to any one of them.
@@ -89,6 +99,11 @@ imported target data inside a reconstruction; treat process discipline as physic
 guardrail this revision adds -- frame the work as adjudicating GU or anyone, rather than as finding the
 truth GU helps us reach.
 
+Equally forbidden is the inverse distortion: presenting every unforced datum as if it were a global negative
+verdict on GU. An import is a defect only if it is arbitrary, unconstrained, or more expensive than competing
+explanations. If GU localizes and constrains the missing datum better than other frameworks, that is a
+substantive finding, reported at honest grade.
+
 ## Success criterion
 
 The program succeeds when it converges on true structure (at honest grade) and a method that reliably finds
@@ -96,7 +111,12 @@ it. Whether that structure vindicates GU, falsifies a GU branch, or turns out to
 the measure of success; the truth and the method are. The failure mode is optimizing for caution,
 appearance, local elegance, or for any verdict, instead of for what is true.
 
-## Machine-readable posture
+For the GU leg specifically, success is not limited to "derive three with no outside input." A successful
+outcome may be: GU gives the best available unifying geometry for the known classical/quantum structures, and
+the remaining generation count is a named, tightly constrained, physically interpretable boundary/source
+datum. That is still short of a proof of GU, but it is not a failure state.
+
+## Machine-Readable Posture
 
 ```json
 {
@@ -152,7 +172,8 @@ appearance, local elegance, or for any verdict, instead of for what is true.
     "failure_redefined_as_success",
     "target_data_hidden_as_reconstruction",
     "process_discipline_as_physics_evidence",
-    "framing_work_as_adjudicating_GU_rather_than_finding_truth"
+    "framing_work_as_adjudicating_GU_rather_than_finding_truth",
+    "treating_unforced_data_as_global_GU_failure"
   ]
 }
 ```

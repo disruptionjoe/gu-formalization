@@ -2,7 +2,7 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-03"
+updated_at: "2026-07-07"
 canon_sweep_at: "2026-07-03"
 ---
 
@@ -24,6 +24,14 @@ nothing derives three. See `CANON.md` (2026-07-03 promotion note) and `DERIVATIO
 The primary research posture is truth-seeking: Geometric Unity is the bold, contested conjecture used as a
 generative test case to spawn falsifiable hypotheses, and the task is to find the true structure (often
 GU-independent) that survives driving them to resolution, not to adjudicate GU. See `RESEARCH-POSTURE.md`.
+
+**Framing correction 2026-07-07.** The generation-count verdict staying OPEN, and the repeated finding that
+bare interior geometry does not force three, should not be read as "GU does not work." The live project-level
+question is whether GU/observerse geometry gives a better unifying fit to the known structures than competing
+stories, with the generation count entering as a constrained external/source/boundary datum. The rigor standard
+is unchanged: compatibility is not derivation, imports must be named and priced, and no verdict is inflated.
+But the status ledger should distinguish a failed "force three from the bare interior" route from a global
+negative verdict on GU.
 
 **Primary research question (2026-06-28): the Firewall-Boundary Hypothesis.** The primary
 falsification target is now whether every successful reconstruction converges on a firewall-like

@@ -2,7 +2,7 @@
 title: "The Observerse Research Program (advanced from Geometric Unity formalization)"
 status: canon
 doc_type: overview
-updated_at: "2026-06-29"
+updated_at: "2026-07-07"
 ---
 
 # The Observerse Research Program
@@ -16,10 +16,15 @@ as a candidate for the shape of physics. Its established result is a **class-lev
 of matter geometry is intrinsically vectorlike and cannot force its own chirality or generation count from
 inside (the linear leg is theorem-grade; the antilinear escape is a finite adversarial hunt with no
 counterexample found, not yet a closed proof), so on present evidence the count is **external** -- entering as
-chirality does in the Standard Model (chiral gauge couplings, instantons, K3 / Calabi-Yau). The guiding hypothesis (the
-program's bet, not yet a result) is that this class connects the **classical** (general relativity) and the
-**quantum** (Standard Model), with chirality as external boundary data; the frontier is **what lies outside the
-observer universe.** See `RESEARCH-PROGRAM.md`.
+chirality does in the Standard Model (chiral gauge couplings, instantons, K3 / Calabi-Yau).
+
+That result is not a verdict that GU "does not work." The working question is larger than whether bare GU
+kinematics forces the integer three. It is whether GU gives the best, most compressed, most unifying account
+of the structures we already know, with the generation count entering as a constrained physical selection
+datum rather than as arbitrary numerology. The guiding hypothesis (the program's bet, not yet a result) is that
+this class connects the **classical** (general relativity) and the **quantum** (Standard Model), with chirality
+as external boundary data; the frontier is **what lies outside the observer universe.** See
+`RESEARCH-PROGRAM.md`.
 
 This repository optimizes for finding the truth, using Geometric Unity as the generative test case that pointed
 here, not as a thesis to defend. GU is a bold, high-information, contested conjecture: the kind of aggressive claim
@@ -65,17 +70,18 @@ Lean formalization scaffold.
 
 The strongest current public posture is:
 
-1. Use GU as the generative engine: take the bold conjecture seriously enough to spawn precise
-   falsifiable hypotheses, drive each to a verdict, and reconstruct the missing mathematics where that
-   advances a hypothesis.
+1. Use GU as the generative engine and candidate unifying fit: take the bold conjecture seriously enough to
+   spawn precise falsifiable hypotheses, drive each to a verdict, and reconstruct the missing mathematics
+   where that advances a hypothesis.
 2. Treat no-go theorems as class-relative until their exact assumptions cover the branch being tested.
 3. Require every proposed path to carry explicit assumptions, proof/reconstruction labels, failure
    conditions, and source-to-shadow provenance.
 4. Treat the GU-independent results (signed-readout, no-go class-relativity, six-axis specification, the
    generation-multiplicity rep theory) as co-equal products: often the strongest, because they do not
    require anyone to buy GU.
-5. Optimize research priority for information gain about what is true, not for any verdict on GU and not
-   for local elegance or conservative appearance.
+5. Optimize research priority for information gain about what is true, including whether GU supplies a better
+   unifying story than competing accounts. Do not collapse that question into the narrower test "does bare GU
+   force three generations?"
 
 ## Contributing
 

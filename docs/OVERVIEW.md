@@ -2,7 +2,7 @@
 title: "Five-Minute Research Posture"
 status: canon
 doc_type: overview
-updated_at: "2026-06-24"
+updated_at: "2026-07-07"
 ---
 
 # Five-Minute Research Posture
@@ -19,6 +19,19 @@ exist.
 The hypothesis is not established. The repo is designed so either outcome is a success:
 a rigorous GU reconstruction that derives new physics, or a precise mathematical account
 of why such a reconstruction cannot exist.
+
+The current framing separates two questions that are easy to conflate:
+
+- **Force three:** whether bare GU/interior geometry derives the generation count with no
+  additional selection datum. Current verdict: OPEN, and many native routes are blocked.
+- **Unifying fit:** whether GU gives a better, lower-complexity account of the known
+  classical/quantum structures than competing stories, with the generation count entering
+  as a constrained source/boundary/selection datum. This remains live and is the larger
+  project-level question.
+
+An unforced generation count is not automatically a global negative verdict on GU. It is a
+defect only if the imported datum is arbitrary, unconstrained, or more expensive than the
+alternatives.
 
 ## What Is Canonical Here?
 

@@ -2,18 +2,23 @@
 title: "Research Program: the geometry of the observer universe, and what forces it from outside"
 status: canon
 doc_type: program
-updated_at: "2026-06-29"
+updated_at: "2026-07-07"
 ---
 
 # Research Program: the geometry of the observer universe, and what forces it from outside
 
 ## Where this program now stands
 
-This repository began as a *formalization of Geometric Unity* (GU). It has advanced past that. GU did exactly
-the job a generative test case is supposed to do: it pointed at real structure, and the structure that survived
-is **GU-independent and larger than GU**. The question is no longer "is GU correct." It is the study of a
-**class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* -- as a candidate for the
-shape of physics, and of the one thing that class provably cannot supply from inside itself.
+This repository began as a *formalization of Geometric Unity* (GU). It has advanced from "can we make every
+GU claim work?" to the sharper question GU itself exposed: does this geometry give a better, more compressed,
+more unifying account of the physics we already know than any available alternative? The answer is not decided,
+but the program should not confuse the narrow test "does bare GU force the integer three?" with the larger
+question "does GU work as a unifying framework?"
+
+GU did exactly the job a generative test case is supposed to do: it pointed at real structure, and much of the
+structure that survived is **GU-independent and larger than GU**. The repository now studies a **class of
+geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* -- as a candidate for the shape of
+physics, and of the one thing that class appears unable to supply from inside itself.
 
 ## What is established (the floor: theorems and computed results, GU-independent)
 
@@ -43,12 +48,13 @@ This is the floor. It stands on its own, without GU, at honest grade.
 > Standard-Model-shaped form.**
 
 Stated as the inference to the best explanation that motivates the program (the wager, not a theorem): given
-how much of physics this class of geometry reaches, it is **more parsimonious to posit one natural, SM-shaped
-external input than to conclude that the classical and quantum worlds do not connect.** The structural law is
-what makes this legitimate rather than wishful: it converts "the geometry cannot make three generations" from a
-**failure** into a **prediction** -- the count *must* come from outside -- and the prediction is confirmed by
-the required input's shape matching reality. A gap that the theory itself predicts, and whose filling matches
-the world, is evidence *for* the theory, not against it.
+how much of physics this class of geometry reaches, it may be **more parsimonious to posit one natural,
+SM-shaped external input than to reject the whole framework because the bare interior does not force three.**
+The structural law is what makes this legitimate rather than wishful: it converts "the geometry cannot make
+three generations by itself" from a decisive **failure** into a priced **selection datum** -- the count *must*
+come from outside the balanced interior -- and the required input has the same broad shape by which chirality
+already enters known physics. A gap that the framework itself localizes, prices, and constrains can be evidence
+for the framework's fit, not merely evidence against it.
 
 ## The honest line between result and bet
 
@@ -63,6 +69,10 @@ Keeping this line sharp is the program's credibility.
   see `RESEARCH-STATUS.md`, `docs/WHERE-GU-STANDS-AND-THE-MISSING-OBJECT-2026-06-27.md`). The inference above is only
   as strong as this premise, and earning it is the work ahead. We do not claim the unification; we claim the
   structural law, and we pursue the unification as the hypothesis the law makes worth pursuing.
+- **Also not established**: that an imported generation count is automatically acceptable. The import must be
+  non-arbitrary: named, constrained by the surrounding geometry, compatible with known Standard Model and
+  anomaly structure, and cheaper than competing explanations. "Located, not forced" is a research standard,
+  not a license to hide target data.
 
 ## The frontier: what is outside the observer universe
 
@@ -88,10 +98,11 @@ to characterize that outside:
 
 ## How GU figures now
 
-GU is the **starting idea and the generative test case** that pointed here. It is not the ceiling and not the
-thesis. The program keeps what survives; what survived is the class-level structure and the external-chirality
-law, which stand without GU. The method that got us here -- bold conjecture as engine, falsifiable hypotheses
-driven to verdicts, keep only what survives, honest grades throughout -- is in `RESEARCH-POSTURE.md`. The
-campaign that produced the structural law (and refused to fabricate the number it was hoping for, catching and
-correcting its own overreach along the way) is itself part of the deliverable: evidence that an AI-directed
-research process can do serious, self-correcting mathematics.
+GU is the **starting idea, generative test case, and still-live unifying candidate**. It is not reduced to the
+single demand that bare GU force three generations. The program keeps what survives; what survived includes
+the class-level structure and the external-chirality law, which stand without requiring a full GU verdict. The
+method that got us here -- bold conjecture as engine, falsifiable hypotheses driven to verdicts, keep only what
+survives, honest grades throughout -- is in `RESEARCH-POSTURE.md`. The campaign that produced the structural
+law (and refused to fabricate the number it was hoping for, catching and correcting its own overreach along the
+way) is itself part of the deliverable: evidence that an AI-directed research process can do serious,
+self-correcting mathematics while still asking whether GU gives the best available unifying story.

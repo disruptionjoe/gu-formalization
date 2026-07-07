@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Audit the repository research posture.
 
-This is a structural documentation audit. It checks that the repo presents the
-GU reconstruction hypothesis as the primary mission while preserving proof
-discipline, falsification, and independent-math secondary outputs.
+This is a structural documentation audit. It checks that the repo presents GU
+as a truth-seeking engine and live unifying-fit question while preserving proof
+discipline, falsification, and independent-math outputs.
 """
 
 from __future__ import annotations
@@ -18,12 +18,12 @@ from typing import Any
 ROOT = Path(__file__).resolve().parents[1]
 POSTURE = ROOT / "RESEARCH-POSTURE.md"
 README = ROOT / "README.md"
-OVERVIEW = ROOT / "OVERVIEW.md"
+OVERVIEW = ROOT / "docs" / "OVERVIEW.md"
 CANON = ROOT / "CANON.md"
 STATUS = ROOT / "RESEARCH-STATUS.md"
 NEXT_STEPS = ROOT / "NEXT-STEPS.md"
 CONTRIBUTING = ROOT / "CONTRIBUTING.md"
-RUNBOOK = ROOT / "process" / "runbooks" / "five-lane-frontier-run.md"
+RUNBOOK = ROOT / "lab" / "process" / "runbooks" / "five-lane-frontier-run.md"
 
 STALE_ENTRYPOINT_PHRASES = [
     "This repository is a public research map, not a proof of Geometric Unity.",
@@ -44,12 +44,13 @@ REQUIRED_DISCIPLINE = {
 }
 
 REQUIRED_FORBIDDEN = {
-    "advocacy",
+    "advocacy_for_or_against_GU",
     "verdict_inflation",
     "compatibility_as_derivation",
     "optimistic_rescue_of_failed_arguments",
     "failure_redefined_as_success",
     "target_data_hidden_as_reconstruction",
+    "treating_unforced_data_as_global_GU_failure",
 }
 
 
@@ -74,20 +75,21 @@ class ResearchPostureAudit(unittest.TestCase):
         cls.posture_text = read(POSTURE)
         cls.posture = extract_posture(cls.posture_text)
 
-    def test_posture_declares_primary_gu_reconstruction_hypothesis(self) -> None:
+    def test_posture_declares_truth_seeking_and_unifying_fit(self) -> None:
         self.assertEqual(self.posture["artifact"], "RESEARCH_POSTURE")
-        self.assertEqual(self.posture["primary_mission"], "GU_RECONSTRUCTION_PROGRAM")
-        self.assertIn("Geometric_Unity_is_substantially_correct", self.posture["working_hypothesis"])
         self.assertEqual(
             self.posture["optimization_target"],
-            "information_gain_about_whether_GU_is_true",
+            "true_structure_and_a_reliable_truth_seeking_method",
         )
-        self.assertIn("Geometric Unity is substantially correct", self.posture_text)
+        self.assertEqual(self.posture["guiding_conjecture"]["name"], "Geometric_Unity")
+        self.assertEqual(self.posture["guiding_conjecture"]["role"], "generative_test_case")
+        self.assertIn("The unifying-fit question", self.posture_text)
+        self.assertIn("force three", self.posture_text)
 
     def test_posture_is_not_a_proof_or_advocacy_claim(self) -> None:
-        self.assertIn("not a proof claim", self.posture_text)
+        self.assertIn("not a campaign to prove Geometric Unity", self.posture_text)
         self.assertIn("Do not become advocates", self.posture_text)
-        self.assertIn("GU_already_proved", self.posture["not_claims"])
+        self.assertIn("prove_GU_true", self.posture["not_targets"])
         self.assertTrue(REQUIRED_FORBIDDEN.issubset(set(self.posture["forbidden_moves"])))
 
     def test_discipline_is_preserved(self) -> None:
@@ -96,21 +98,21 @@ class ResearchPostureAudit(unittest.TestCase):
             "explicit assumptions",
             "falsification or rollback conditions",
             "correction logs",
-            "no-go theorem assumption audits",
+            "no-go-theorem assumption audits",
         ]:
             self.assertIn(phrase, self.posture_text)
 
-    def test_two_missions_are_declared_and_ordered(self) -> None:
-        self.assertEqual(self.posture["mission_a"]["name"], "GU Reconstruction Program")
-        self.assertEqual(self.posture["mission_a"]["priority"], "primary")
-        self.assertEqual(self.posture["mission_b"]["name"], "Independent Mathematical Contributions")
-        self.assertEqual(self.posture["mission_b"]["priority"], "secondary")
-        self.assertIn("signed_readout_theorem", self.posture["mission_b"]["examples"])
+    def test_products_are_declared(self) -> None:
+        products = set(self.posture["products"])
+        self.assertIn("true_structure_at_honest_grade", products)
+        self.assertIn("reliable_truth_seeking_method", products)
+        self.assertIn("GU-independent results are often the strongest", self.posture_text)
 
-    def test_success_criteria_are_dual(self) -> None:
-        criteria = set(self.posture["success_criteria"])
-        self.assertIn("rigorous_GU_reconstruction_deriving_new_physics", criteria)
-        self.assertIn("precise_explanation_of_why_GU_reconstruction_cannot_exist", criteria)
+    def test_byproducts_keep_all_verdicts_available(self) -> None:
+        byproducts = set(self.posture["byproducts_all_successes"])
+        self.assertIn("GU_reconstruction_deriving_new_physics", byproducts)
+        self.assertIn("precise_explanation_why_a_reconstruction_cannot_exist", byproducts)
+        self.assertIn("GU_independent_mathematics", byproducts)
 
     def test_entrypoints_reference_research_posture(self) -> None:
         for path in [README, OVERVIEW, CANON, STATUS, NEXT_STEPS]:
@@ -126,8 +128,9 @@ class ResearchPostureAudit(unittest.TestCase):
         contributing = read(CONTRIBUTING)
         runbook = read(RUNBOOK)
         self.assertIn("can Geometric Unity be rigorously reconstructed", contributing)
-        self.assertIn("Mission B outputs", contributing)
-        self.assertIn("Mission A from `RESEARCH-POSTURE.md`", runbook)
+        self.assertIn("Results that are valuable independent of GU are co-equal products", contributing)
+        self.assertIn("truth-seeking posture in `RESEARCH-POSTURE.md`", runbook)
+        self.assertIn("does bare GU force three generations", runbook)
         self.assertIn("what mathematical object, invariant, category", runbook)
 
 
