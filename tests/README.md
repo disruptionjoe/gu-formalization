@@ -25,7 +25,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks, with a local script map |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test, with a local script map and README inventory gate |
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone, with a local script/output map |
-| `anchored-leads/` (7) | the anchored-leads screen, including an independent Jones-index finite-type recheck |
+| `anchored-leads/` (7) | the anchored-leads candidate screens, including an independent Jones-index finite-type recheck, with a local script map and README inventory gate |
 | `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map |
 | `chase/` (0) | nested MOVE-1..MOVE-5 chase-to-kill verdict scripts, with a local script map and README inventory gate |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with a local script map and nested independent denominator checks |

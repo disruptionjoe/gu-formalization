@@ -23,6 +23,7 @@ detect when a new gate exists without a public process-map entry. Detailed meani
 selected notes below and in each script header.
 
 - `antilinear_bound_readme_inventory_audit.py`
+- `anchored_leads_readme_inventory_audit.py`
 - `boundary_eta_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
@@ -160,6 +161,14 @@ names every direct and nested RS function-space Python certificate and preserves
 open-crux / no-target-import boundary around the family-index and boundary-eta checks.
 This is a map and posture guard only; it does not run the RS function-space scripts or
 change verdicts.
+
+## Anchored-leads README inventory gate
+
+`anchored_leads_readme_inventory_audit.py` checks that
+`tests/anchored-leads/README.md` names every direct anchored-lead candidate
+screen and preserves the candidate-screen / located-not-forced /
+source-action-gated boundary. This is a map and posture guard only; it does
+not run the anchored-lead scripts or change verdicts.
 
 ## Antilinear-bound README inventory gate
 
