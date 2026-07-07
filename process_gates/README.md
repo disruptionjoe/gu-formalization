@@ -45,6 +45,7 @@ selected notes below and in each script header.
 - `generation_sector_readme_inventory_audit.py`
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
+- `hessian_z3_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
@@ -178,6 +179,14 @@ posture guard only; it does not run the generation-sector scripts or change verd
 names every direct carrier-mass Python certificate plus the local JSON output, and preserves
 the vectorlike zero-not-three / action-gated boundary for the carrier-mass family. This is a
 map and posture guard only; it does not run the carrier-mass scripts or change verdicts.
+
+## Hessian/Z3 README inventory gate
+
+`hessian_z3_readme_inventory_audit.py` checks that `tests/hessian-z3/README.md`
+names every direct Hessian/Z3 Python certificate and preserves the proxy,
+action-gated, not-forced boundary for the carrier-occupancy family. This is a
+map and posture guard only; it does not run the Hessian/Z3 scripts or change
+verdicts.
 
 ## Relocated surface path hygiene
 
