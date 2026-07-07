@@ -22,7 +22,7 @@ is H1/H8/H9.
 
 ## Queue
 
-- **H1 — one-command reproducibility harness** (attacks W1; highest value). A single script that recomputes
+- **H1 — one-command reproducibility harness** (attacks W1; highest value). **DONE 2026-07-07** -- `reproduce_all.py` + `REVIEWER.md` built, 31/31 checks pass, discriminating controls fire, referenced from Data Availability. Main-loop re-run exit 0. A single script that recomputes
   EVERY load-bearing symbolic/numeric check in the paper from a clean checkout, exit 0, printing each cited
   number next to its paper reference (net chiral index ~ -2.4e-15 across (9,5)/(7,7)/(14,0); the (+96,-96)
   signature; e_R = 1/12; the 12k indices; the 2-primary identities). Type: reproducibility. Success: `python

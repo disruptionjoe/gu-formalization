@@ -775,6 +775,11 @@ bridge.
 
 ## Appendix: reproducibility
 
+A single self-contained script, `papers/candidates/located-not-forced/reproduce_all.py`, recomputes every
+load-bearing number in this paper from a clean checkout and checks each against its stated value (exit 0 iff
+all 31 checks match; every check ships a discriminating control that must fail on a scrambled input), so a
+referee can re-derive the paper's numbers in one command; see `REVIEWER.md`.
+
 The representation-theoretic decompositions, the Krein signature, the index-conservation check, the
 frame-charge / DECOUPLE computation, the boundary `e`-invariant controls, and the decider integers are
 checked numerically in `tests/` and `tests/generation-sector/`, `tests/source-action/`, `tests/boundary-eta/`,

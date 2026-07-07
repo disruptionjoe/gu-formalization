@@ -828,7 +828,11 @@ structure.
 \section*{Data Availability}
 
 All load-bearing computations are reproducible from the public repository at
-\url{https://github.com/disruptionjoe/gu-formalization}. The representation-theoretic decompositions, the Krein
+\url{https://github.com/disruptionjoe/gu-formalization}. A single self-contained script,
+\texttt{papers/candidates/located-not-forced/reproduce\_all.py}, recomputes every load-bearing number in this
+paper from a clean checkout and checks each against its stated value---exit~0 iff all match, and every check
+ships a discriminating control that must fail on a scrambled input---so a referee can re-derive the paper's
+numbers in one command (see \texttt{REVIEWER.md}). The representation-theoretic decompositions, the Krein
 signature, the index-conservation check, the frame-charge computations, the boundary $e$-invariant controls, the
 decider integers (reproduced by an independent from-scratch script, $26/26$ checks), the forcing-slot
 test, the carrier-mass capstone, and the class-level structural no-go are checked numerically under
