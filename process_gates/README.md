@@ -45,6 +45,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `finite_control_provenance_audit.py`
 - `flrw_theta_xi_branch_gate.py`
+- `function_space_ext_readme_inventory_audit.py`
 - `generation_sector_readme_inventory_audit.py`
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
@@ -180,6 +181,15 @@ names every tracked direct source-action Python certificate and preserves the fr
 source-action-wall / not-a-verdict-change boundary around the Seiberg-Witten and
 moment-map source-action family. This is a map and posture guard only; it does not run
 the source-action scripts or change verdicts.
+
+## Function-space extension README inventory gate
+
+`function_space_ext_readme_inventory_audit.py` checks that
+`tests/function-space-ext/README.md` names every direct and nested function-space
+extension Python certificate and preserves the conditional-theorem /
+residuals-remain-open / not-a-verdict-change boundary around the function-space
+extension family. This is a map and posture guard only; it does not run the
+function-space extension scripts or change verdicts.
 
 ## Protected surface diff gate
 
