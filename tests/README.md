@@ -20,7 +20,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | Directory | What it covers |
 |---|---|
 | `generation-sector/` (27) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen), with a local script map |
-| `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map |
+| `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (11) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map |
 | `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map and README inventory gate |
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks, with a local script map |

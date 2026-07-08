@@ -2,10 +2,11 @@
 
 Certificate scripts for the 2026-07-03 located-not-forced hardening-pass drafts.
 These scripts support staged paper-hardening artifacts; they are not canon,
-claim-status updates, verdict changes, or public-posture changes. A green run
-keeps the draft-supporting computations reproducible and preserves the
-no-target-import boundary. It does not derive the generation count, promote the
-drafts, or close residuals named by the drafts.
+claim status updates, verdicts, public posture changes, or paper status
+changes. A green run keeps the draft-support computations reproducible and
+preserves the no-target-import boundary. It does not provide a
+generation-count derivation, promote the drafts, or close residuals named by
+the drafts.
 
 ## Running This Family
 
@@ -33,7 +34,7 @@ The public boundary stays:
 
 - These scripts support staged drafts under `papers/drafts/hardening-pass-2026-07-03/`; they do not promote the drafts.
 - The OQ-RK1 rank result is honest-negative evidence for the tested route, not a generation-count derivation.
-- The route-(a) classification reproduces exact symbolic dimensions while leaving named residuals open.
+- The route-(a) classification reproduces exact symbolic dimensions while keeping the named residuals open.
 - Independent verifiers reduce implementation risk; they do not change canon, claim status, verdicts, public posture, paper status, or protected governance surfaces.
 - Do not use these scripts to divide by target numbers such as `3`, `4`, `8`, `24`, `chi(K3)`, or `Ahat(K3)`.
 

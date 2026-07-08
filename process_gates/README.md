@@ -56,6 +56,7 @@ selected notes below and in each script header.
 - `gu_independent_readme_inventory_audit.py`
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
+- `hardening_pass_readme_inventory_audit.py`
 - `hessian_z3_readme_inventory_audit.py`
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
@@ -241,6 +242,15 @@ extension Python certificate and preserves the conditional-theorem /
 residuals-remain-open / not-a-verdict-change boundary around the function-space
 extension family. This is a map and posture guard only; it does not run the
 function-space extension scripts or change verdicts.
+
+## Hardening-pass README inventory gate
+
+`hardening_pass_readme_inventory_audit.py` checks that
+`tests/hardening-pass/README.md` names every direct and nested hardening-pass
+Python certificate and preserves the draft-support / OQ-RK1 honest-negative /
+route-(a) residuals-open / no-target-import boundary around the
+located-not-forced hardening pass. This is a map and posture guard only; it
+does not run the hardening-pass scripts or change verdicts.
 
 ## Protected surface diff gate
 
