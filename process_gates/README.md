@@ -27,6 +27,7 @@ selected notes below and in each script header.
 - `anomaly_readme_inventory_audit.py`
 - `big_swing_readme_inventory_audit.py`
 - `boundary_eta_readme_inventory_audit.py`
+- `calm_gw_boundary_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
 - `chase_readme_inventory_audit.py`
@@ -206,6 +207,15 @@ run the antilinear-bound scripts or change verdicts.
 names every direct and nested boundary-eta Python certificate and preserves the 2-primary /
 tangential-order-3 / not-a-verdict-change boundary around the +96 selector fork. This is a
 map and posture guard only; it does not run the boundary-eta scripts or change verdicts.
+
+## CALM/GW boundary README inventory gate
+
+`calm_gw_boundary_readme_inventory_audit.py` checks that
+`tests/calm-gw-boundary/README.md` names every tracked direct CALM/GW Python
+validator and preserves the finite certificate-shape / not-an-actual-GW-proof /
+no-status-movement boundary around the Jordan-component monotonicity gate. This
+is a map and posture guard only; it does not run the CALM/GW script or change
+verdicts.
 
 ## SM-boundary README inventory gate
 
