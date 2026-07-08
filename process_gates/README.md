@@ -83,6 +83,7 @@ selected notes below and in each script header.
 - `source_action_readme_inventory_audit.py`
 - `source_geometry_contract_audit.py`
 - `stress_energy_shadow_emergence_audit.py`
+- `symbolic_proofs_readme_inventory_audit.py`
 - `tests_manifest_count_audit.py`
 - `three_cycle_fifteen_hole_runbook_audit.py`
 - `three_generation_route_alternatives_audit.py`
@@ -282,6 +283,15 @@ certificate and preserves the target-free / source-action-gated /
 not-forced boundary around the OQ-RK1, Y14 bundle, signed-readout, and
 Sp-family anomaly checks. This is a map and posture guard only; it does
 not run the internal-path scripts or change verdicts.
+
+## Symbolic-proofs README inventory gate
+
+`symbolic_proofs_readme_inventory_audit.py` checks that
+`tests/symbolic-proofs/README.md` names every tracked symbolic-proof Python
+certificate and preserves the symbolic / not-a-verdict-change /
+no-formalization boundary around the core theorem identity checks. This is a
+map and posture guard only; it does not run the symbolic-proof script or
+change verdicts.
 
 ## Chase README inventory gate
 
