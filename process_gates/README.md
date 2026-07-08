@@ -54,6 +54,7 @@ selected notes below and in each script header.
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
 - `hessian_z3_readme_inventory_audit.py`
+- `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
@@ -272,6 +273,15 @@ names every direct Hessian/Z3 Python certificate and preserves the proxy,
 action-gated, not-forced boundary for the carrier-occupancy family. This is a
 map and posture guard only; it does not run the Hessian/Z3 scripts or change
 verdicts.
+
+## Internal-paths README inventory gate
+
+`internal_paths_readme_inventory_audit.py` checks that
+`tests/internal-paths/README.md` names every tracked internal-path Python
+certificate and preserves the target-free / source-action-gated /
+not-forced boundary around the OQ-RK1, Y14 bundle, signed-readout, and
+Sp-family anomaly checks. This is a map and posture guard only; it does
+not run the internal-path scripts or change verdicts.
 
 ## Chase README inventory gate
 
