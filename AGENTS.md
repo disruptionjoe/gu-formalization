@@ -23,3 +23,4 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Verdict / scientific-status changes (e.g. OPEN -> RESOLVED), public/external consequence, and relicensing still pause for Joe.
 - CapacityOS architecture questions route to CapacityOS; JoeOps coordination questions route to JoeOps.
 - Scratch, caches, and intermediate renders belong in `_local/`.
+- Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, `lake build -j1`; do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
