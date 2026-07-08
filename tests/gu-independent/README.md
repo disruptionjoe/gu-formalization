@@ -3,8 +3,8 @@
 Executable certificates for the GU-independent frame-triviality / structural-law result:
 `canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md`.
 
-These scripts do not derive a GU source action, do not prove that GU forces three
-generations, and do not change any claim status. They test the class-level question of
+These scripts do not prove three generations, derive a GU source action, or change
+any claim status, verdicts, or public posture. They test the class-level structural no-go:
 whether an operator internal to the Clifford-Rarita-Schwinger carrier can force an odd
 chiral count, versus requiring an external index / anomaly-inflow input.
 
@@ -64,3 +64,6 @@ for short smoke checks.
 - Analytic boundary: the external index/anomaly-inflow route is identified as the natural
   remaining ingredient, but this directory does not build that source action or pin the
   value three.
+
+`process_gates/gu_independent_readme_inventory_audit.py` keeps this README
+synchronized with the tracked direct scripts and the no-status-movement boundary.

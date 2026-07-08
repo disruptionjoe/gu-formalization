@@ -52,6 +52,7 @@ selected notes below and in each script header.
 - `flrw_theta_xi_branch_gate.py`
 - `function_space_ext_readme_inventory_audit.py`
 - `generation_sector_readme_inventory_audit.py`
+- `gu_independent_readme_inventory_audit.py`
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
 - `hessian_z3_readme_inventory_audit.py`
@@ -250,6 +251,14 @@ or change verdicts.
 names every direct `tests/generation-sector/*.py` certificate and preserves the frozen,
 paper-cited, not-verdict-changing boundary for the generation-sector family. This is a map and
 posture guard only; it does not run the generation-sector scripts or change verdicts.
+
+## GU-independent README inventory gate
+
+`gu_independent_readme_inventory_audit.py` checks that
+`tests/gu-independent/README.md` names every tracked direct GU-independent Python
+certificate and preserves the structural no-go / external-index /
+no-claim-status-movement boundary. This is a map and posture guard only; it does
+not run the GU-independent scripts or change verdicts.
 
 ## Enum-completeness README inventory gate
 
