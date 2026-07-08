@@ -71,6 +71,7 @@ selected notes below and in each script header.
 - `mission_a_matter_gauge_selector_audit.py`
 - `mission_a_metric_shadow_extraction_audit.py`
 - `mission_a_qft_state_space_extraction_audit.py`
+- `pati_salam_readme_inventory_audit.py`
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
 - `protected_surface_diff_audit.py`
@@ -251,6 +252,14 @@ Python certificate and preserves the draft-support / OQ-RK1 honest-negative /
 route-(a) residuals-open / no-target-import boundary around the
 located-not-forced hardening pass. This is a map and posture guard only; it
 does not run the hardening-pass scripts or change verdicts.
+
+## Pati-Salam README inventory gate
+
+`pati_salam_readme_inventory_audit.py` checks that `tests/pati-salam/README.md`
+names every tracked direct Pati-Salam harness script and preserves the
+active-research / reproduction-harness / no-physical-generation-count /
+no-status-movement boundary around the owner-script harness. This is a map and
+posture guard only; it does not run the Pati-Salam harness or change verdicts.
 
 ## Protected surface diff gate
 
