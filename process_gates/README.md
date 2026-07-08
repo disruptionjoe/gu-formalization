@@ -24,6 +24,7 @@ selected notes below and in each script header.
 
 - `antilinear_bound_readme_inventory_audit.py`
 - `anchored_leads_readme_inventory_audit.py`
+- `anomaly_readme_inventory_audit.py`
 - `big_swing_readme_inventory_audit.py`
 - `boundary_eta_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
@@ -180,6 +181,14 @@ names every direct big-swing Python or Lean certificate and preserves the
 exploration / not-a-verdict-change / source-action-gated boundary. This is a
 map and posture guard only; it does not run the big-swing scripts or change
 verdicts.
+
+## Anomaly README inventory gate
+
+`anomaly_readme_inventory_audit.py` checks that `tests/anomaly/README.md`
+names every direct anomaly Python validator and preserves the frontstage /
+not-an-anomaly-cancellation-verdict / no-claim-status-movement boundary around
+the Dai-Freed anomaly gate. This is a map and posture guard only; it does not
+run the anomaly script or change verdicts.
 
 ## Antilinear-bound README inventory gate
 
