@@ -34,7 +34,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `chase/` (0) | nested MOVE-1..MOVE-5 chase-to-kill verdict scripts, with a local script map and README inventory gate |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with a local script map and nested independent denominator checks |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate, with a local script map and README inventory gate |
-| `sm-boundary/` (1) | SM-shaped boundary anomaly-inflow toy, with a nested independent algebraic verifier |
+| `sm-boundary/` (1) | SM-shaped boundary anomaly-inflow toy, with a local script map, nested independent algebraic verifier, and README inventory gate |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures |
 | `pati-salam/` (1) | reproduction harness for the active-research Pati-Salam chain verification scripts |
 | `enum-completeness/` (2) | enumeration-completeness certificate for the located-not-forced publication gate, with a local script map and README inventory gate |

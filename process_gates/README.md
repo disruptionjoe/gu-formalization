@@ -81,6 +81,7 @@ selected notes below and in each script header.
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `sequential_source_to_index_goals_audit.py`
+- `sm_boundary_readme_inventory_audit.py`
 - `sm_finite_control_ledger_audit.py`
 - `source_action_readme_inventory_audit.py`
 - `source_geometry_contract_audit.py`
@@ -205,6 +206,14 @@ run the antilinear-bound scripts or change verdicts.
 names every direct and nested boundary-eta Python certificate and preserves the 2-primary /
 tangential-order-3 / not-a-verdict-change boundary around the +96 selector fork. This is a
 map and posture guard only; it does not run the boundary-eta scripts or change verdicts.
+
+## SM-boundary README inventory gate
+
+`sm_boundary_readme_inventory_audit.py` checks that `tests/sm-boundary/README.md`
+names every direct and nested tracked SM-boundary Python certificate and preserves the
+local-anomaly / 2-primary / no-mod-3-selector / no-claim-status-movement boundary around
+the SM-shaped anomaly-inflow toy. This is a map and posture guard only; it does not run
+the SM-boundary scripts or change verdicts.
 
 ## Source-action README inventory gate
 

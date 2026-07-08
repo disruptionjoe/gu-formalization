@@ -1,6 +1,8 @@
 # tests/sm-boundary
 
-Computational certificates for `LANE-SM-BOUNDARY`, the "SM as boundary / cobordism condition" lane. These scripts do not derive the generation count and do not change any canon, claim status, or verdict. They test whether simple SM-shaped boundary constraints pin or constrain the external chiral background.
+Computational certificates for `LANE-SM-BOUNDARY`, the "SM as boundary / cobordism condition" lane. These scripts do not derive the generation count and do not change any canon, claim status, verdicts, or public posture. They test whether simple SM-shaped boundary constraints pin or constrain the external chiral background.
+
+Boundary: this family is a local anomaly / inflow toy only. A green result says local anomaly cancellation gives a 2-primary parity constraint and no mod-3 selector for the external count. It is not a generation-count derivation.
 
 Run from the repository root:
 
