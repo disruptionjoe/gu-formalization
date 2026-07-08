@@ -23,7 +23,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (11) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map and README inventory gate |
 | `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map and README inventory gate |
-| `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks, with a local script map |
+| `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks, with a local script map and README inventory gate |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test, with a local script map and README inventory gate |
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone, with a local script/output map |
 | `anchored-leads/` (7) | the anchored-leads candidate screens, including an independent Jones-index finite-type recheck, with a local script map and README inventory gate |
