@@ -60,6 +60,7 @@ selected notes below and in each script header.
 - `hessian_z3_readme_inventory_audit.py`
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
+- `issue_template_validation_audit.py`
 - `lab_readme_surface_map_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
@@ -292,6 +293,14 @@ content.
 continues to name the claim-grading discipline, the claim-status consistency workflow, targeted
 reproduction harness usage, and relevant process-gate checks. This is contributor-intake hygiene;
 it does not run the certificate suite or evaluate any research claim.
+
+## Issue-template validation gate
+
+`issue_template_validation_audit.py` checks that `.github/ISSUE_TEMPLATE/*.yml`
+keeps source-path references on the live `lab/sources/` surface and preserves the
+bounded-problem, six-axis specification, reference-routing, and media-provenance
+guardrails for public issue intake. This is contributor-intake hygiene; it does not
+run the certificate suite or evaluate any research claim.
 
 ## README entrypoint map gate
 

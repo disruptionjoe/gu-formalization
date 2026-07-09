@@ -11,7 +11,7 @@ body:
     id: source_id
     attributes:
       label: Source ID
-      description: Use the ID from sources/media-index.md, or propose a new one.
+      description: Use the ID from lab/sources/media-index.md, or propose a new one.
       placeholder: GU-POD-2020-PORTAL-SPECIAL
     validations:
       required: true
@@ -26,7 +26,7 @@ body:
     id: timestamp_rows
     attributes:
       label: Timestamp rows
-      description: Add rows suitable for sources/claim-ledger.md.
+      description: Add rows suitable for lab/sources/claim-ledger.md.
       placeholder: "| source_id | 00:00:00 | terminology | observerse | verified | appendix/source provenance |"
     validations:
       required: true
@@ -37,4 +37,3 @@ body:
       description: Note if this is machine-generated transcript, secondary summary, disputed reception media, or needs verification.
     validations:
       required: false
-
