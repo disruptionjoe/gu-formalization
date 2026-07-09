@@ -32,7 +32,9 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
    the paper cites the public repo as its reproducibility backbone.
 2. **Reproducibility harness green.** From a clean checkout:
    `python papers/candidates/located-not-forced/reproduce_all.py` should exit 0 (31/31 checks). This is what an
-   external reviewer will run; confirm it before they do.
+   external reviewer will run; confirm it before they do. **Pre-verified 2026-07-09: 31/31 passed, exit 0
+   (~99s, Python 3.14.3).** One cosmetic `RuntimeWarning` (divide-by-zero, line 624, inside a control
+   derivation) is non-fatal — every load-bearing number matched. Re-run only if the tree changed since.
 3. **`.tex`/`.md` parity.** Both at v2.10 per `STAGING-NOTES.md`; no action unless a later edit desynced them.
 
 ---
