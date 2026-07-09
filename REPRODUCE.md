@@ -34,7 +34,7 @@ Useful flags:
 - `--tracked-only` - discover only Git-tracked certificates. This is useful for local or
   scheduled validation when unrelated untracked work-in-progress exists under `tests/`.
 - `--list` — print which certificates would run, without running them.
-- `-k SUBSTR` — run only certs whose path contains `SUBSTR` (e.g. `-k krein`).
+- `-k SUBSTR` - run only certs whose repository-relative slash path contains `SUBSTR` (e.g. `-k krein`).
 
 The harness discovers every `*.py` under `tests/` (and, in full mode, the paper/draft certs), runs
 each in a fresh subprocess, and prints a `PASS/FAIL/TIMEOUT/ERROR` table with totals, the slowest

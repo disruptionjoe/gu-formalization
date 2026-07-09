@@ -162,6 +162,19 @@ class ReproduceHarnessScopeAudit(unittest.TestCase):
             self.assertNotIn("\\", line)
             self.assertNotIn(str(ROOT), line)
 
+    def test_filter_matches_repository_relative_paths_only(self) -> None:
+        module = load_harness()
+
+        quick_tracked = module.discover([module.TESTS_DIR], tracked_only=True)
+        matched = module.filter_certificates(quick_tracked, "tests/pati-salam")
+
+        self.assertEqual(
+            ["tests/pati-salam/run_pati_salam_chain_checks.py"],
+            sorted(relpath(Path(path)) for path in matched),
+        )
+        self.assertEqual([], module.filter_certificates(quick_tracked, ROOT.as_posix()))
+        self.assertEqual([], module.filter_certificates(quick_tracked, str(ROOT).replace("\\", "/")))
+
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)

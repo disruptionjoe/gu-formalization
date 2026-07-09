@@ -18,7 +18,7 @@ USAGE
                                             # local/scheduled sweep of committed certs only
     python scripts/reproduce_all.py --timeout 300   # per-cert timeout in seconds (default 180)
     python scripts/reproduce_all.py --list     # just list what would run, don't run it
-    python scripts/reproduce_all.py -k krein   # only certs whose path contains "krein"
+    python scripts/reproduce_all.py -k krein   # only certs whose repo-relative path contains "krein"
 
 EXIT CODE
     0  every discovered certificate passed
@@ -131,6 +131,13 @@ def run_cert(path, timeout):
     return FAIL, elapsed, "\n".join(tail[-6:])
 
 
+def filter_certificates(certs, pattern):
+    """Return certs whose repository-relative slash path contains pattern."""
+    if not pattern:
+        return list(certs)
+    return [cert for cert in certs if pattern in repo_rel(cert)]
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser(description="Run every computational certificate and summarize.")
     ap.add_argument("--quick", action="store_true",
@@ -143,13 +150,13 @@ def main(argv=None):
                     help="discover only Git-tracked certificates; useful for local/scheduled "
                          "runs when untracked work-in-progress exists under tests/")
     ap.add_argument("-k", dest="filter", default=None,
-                    help="only run certs whose path contains this substring")
+                    help="only run certs whose repository-relative slash path contains this substring")
     args = ap.parse_args(argv)
 
     roots = [TESTS_DIR] if args.quick else [TESTS_DIR] + PAPER_CERT_DIRS
     certs = discover(roots, tracked_only=args.tracked_only)
     if args.filter:
-        certs = [c for c in certs if args.filter in c.replace("\\", "/")]
+        certs = filter_certificates(certs, args.filter)
 
     if not certs:
         print("No certificates discovered. (Are you in the repo? Looked under tests/ and papers/.)")
