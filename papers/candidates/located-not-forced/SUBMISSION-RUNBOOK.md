@@ -39,14 +39,25 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 
 ---
 
-## Step 1 — Endorsement check (DO THIS FIRST; longest lead time)
+## Step 1 — Endorsement (DO THIS FIRST; longest lead time; MANDATORY)
 
-A first-time submitter without an institutional email likely needs an **endorser** for `hep-th`.
+Per arXiv's **updated policy of 2026-01-21**, an independent researcher with no institutional affiliation
+**must** obtain a personal endorsement for `hep-th`. Institutional email alone no longer qualifies, and there is
+no bypass — you cannot "just post it" to arXiv. (Sources verified 2026-07-09:
+`blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy`, `info.arxiv.org/help/endorsement.html`.)
 
-- Log into the arXiv account and check whether it can submit to `hep-th`.
-- If an endorser is required, that is a person-to-person request with turnaround measured in days — start it
-  before touching anything else so it runs in parallel with the mechanical steps.
-- **Joe-only.** Agents do not inspect or modify the arXiv account.
+The good news: it's **one** endorser, one targeted email, and arXiv forbids mass-emailing them anyway. Your own
+bibliography contains the eligible candidates (Wan-Wang-Yau, Juven Wang, García-Etxebarria & Montero).
+
+- **Full step + copy-paste request note + who to ask:** `ENDORSER-REQUEST-DRAFT.md` (this folder).
+- Start the arXiv submission first to receive your endorsement code, then send the note to one endorser.
+- **Joe-only.** Agents do not inspect/modify the arXiv account or send the request.
+
+### Step 1b (parallel) — post publicly today with no endorsement
+
+If you want it live and citable immediately while the endorsement lead time runs, post to **Zenodo** (DOI, no
+gate, reputable). This does not block arXiv or a journal later. Checklist: `ZENODO-RELEASE-CHECKLIST.md`.
+Avoid viXra-style no-gate dumps — they undercut the qualified/serious posture.
 
 ## Step 2 — One Overleaf compile
 
