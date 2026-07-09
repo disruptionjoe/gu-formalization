@@ -64,7 +64,6 @@ The root is deliberately small. Five things matter at the top level:
 Everything else -- active research, roadmap, process history, deep-research briefs, literature, sources,
 specifications, automation, and the archive -- lives under `lab/` (see `lab/README.md`). `Lean/` holds the
 Lean formalization scaffold.
-- `docs/` contains second-tier program docs (overview, frontier hypotheses, GU-status deep-dive).
 
 ## Current Center Of Gravity
 

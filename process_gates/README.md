@@ -77,6 +77,7 @@ selected notes below and in each script header.
 - `protected_surface_diff_audit.py`
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
+- `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
 - `reproduce_harness_scope_audit.py`
@@ -283,6 +284,14 @@ content.
 continues to name the claim-grading discipline, the claim-status consistency workflow, targeted
 reproduction harness usage, and relevant process-gate checks. This is contributor-intake hygiene;
 it does not run the certificate suite or evaluate any research claim.
+
+## README entrypoint map gate
+
+`readme_entrypoint_map_audit.py` checks that the public root README's Start Here
+pointers remain complete and that the Repository Layers section has exactly one
+bullet for each top-level public surface, with `lab/` and `Lean/` routed through
+the non-root surface paragraph. This is a navigation/process guard only; it does
+not validate research claims.
 
 ## Decider README inventory gate
 
