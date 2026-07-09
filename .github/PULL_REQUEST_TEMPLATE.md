@@ -31,6 +31,17 @@ If this change involves a math claim, confirm the three-tier tagging discipline
 - [ ] No verdict inflation, compatibility-as-derivation, or imported target data hidden
       as a reconstruction (the forbidden moves in `RESEARCH-POSTURE.md`).
 
+## Validation / reproduction
+
+If this change touches certificates, process gates, reproduction docs, or claim-supporting
+prose, report the relevant checks:
+
+- [ ] Ran targeted certificate checks or `python scripts/reproduce_all.py --quick --tracked-only`.
+- [ ] Ran relevant process gates, such as
+      `python process_gates/reproduction_docs_consistency_audit.py` for reproduction-doc changes or
+      `python process_gates/process_gate_readme_inventory_audit.py` for process-gate inventory changes.
+- [ ] Reported any skipped heavy, full-suite, or Lean checks and why.
+
 ## Checklist
 
 - [ ] Branch named descriptively (e.g. `pr/freed-hopkins-pairing-counterexample`).

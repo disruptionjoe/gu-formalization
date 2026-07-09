@@ -75,6 +75,7 @@ selected notes below and in each script header.
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
 - `protected_surface_diff_audit.py`
+- `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -275,6 +276,13 @@ staging discipline, not a mathematical certificate and not a verdict on the chan
 local script names documented in this README. It keeps the public process map synchronized with
 the executable gate surface without running the gates themselves or evaluating their scientific
 content.
+
+## Pull-request template validation gate
+
+`pull_request_template_validation_audit.py` checks that `.github/PULL_REQUEST_TEMPLATE.md`
+continues to name the claim-grading discipline, the claim-status consistency workflow, targeted
+reproduction harness usage, and relevant process-gate checks. This is contributor-intake hygiene;
+it does not run the certificate suite or evaluate any research claim.
 
 ## Decider README inventory gate
 
