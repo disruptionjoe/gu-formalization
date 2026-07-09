@@ -87,3 +87,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-09
 
 - Progress fan-out added `.github/README.md` and a process gate so public contributor-intake templates and the lightweight Lean workflow stay mapped without changing claim status, canon verdicts, public posture, or proof surfaces. See `steward/runs/2026-07-09-progress-fanout-280-pending.md`.
+- Progress fan-out added `scripts/README.md` and a process gate so the public contributor-tooling runner stays mapped without running certificates or changing claim status, canon verdicts, public posture, or proof surfaces. See `steward/runs/2026-07-09-progress-fanout-281-pending.md`.

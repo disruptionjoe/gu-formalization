@@ -90,6 +90,7 @@ selected notes below and in each script header.
 - `research_posture_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
+- `scripts_readme_surface_map_audit.py`
 - `sequential_source_to_index_goals_audit.py`
 - `sm_boundary_readme_inventory_audit.py`
 - `sm_finite_control_ledger_audit.py`
@@ -191,6 +192,14 @@ Python certificates, full mode adds only the declared paper certificate roots, s
 directories remain excluded, tracked-only mode matches Git-tracked certificates,
 `process_gates/` remains outside the computational certificate sweep, and list mode
 prints repository-relative slash paths.
+
+## Scripts README surface-map gate
+
+`scripts_readme_surface_map_audit.py` checks that `scripts/README.md` names the live
+repository tooling files, uses relative links that resolve from the scripts README location,
+and preserves the boundary between contributor tooling and research-status movement. This is
+a navigation/process guard only; it does not run the certificate suite or validate research
+claims.
 
 ## Reproduction docs consistency gate
 
