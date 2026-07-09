@@ -55,6 +55,7 @@ selected notes below and in each script header.
 - `flrw_theta_xi_branch_gate.py`
 - `function_space_ext_readme_inventory_audit.py`
 - `generation_sector_readme_inventory_audit.py`
+- `github_readme_surface_map_audit.py`
 - `gu_independent_readme_inventory_audit.py`
 - `gr_shadow_recovery_certificate_audit.py`
 - `gu_action_branch_gate.py`
@@ -325,6 +326,14 @@ keeps source-path references on the live `lab/sources/` surface and preserves th
 bounded-problem, six-axis specification, reference-routing, and media-provenance
 guardrails for public issue intake. This is contributor-intake hygiene; it does not
 run the certificate suite or evaluate any research claim.
+
+## GitHub README surface-map gate
+
+`github_readme_surface_map_audit.py` checks that `.github/README.md` names the live pull
+request template, issue templates, and lightweight workflow file, uses local links that
+resolve from `.github/`, and preserves the boundary between contributor intake and research
+status movement. This is contributor-ops hygiene; it does not run the certificate suite or
+evaluate any research claim.
 
 ## README entrypoint map gate
 

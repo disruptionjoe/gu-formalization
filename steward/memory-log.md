@@ -83,3 +83,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added a `tests/forcing-slot/` README inventory gate so the toy stabilized-source certificates stay synchronized with their not-a-GU-derivation / not-a-verdict-change boundary intact. See `steward/runs/2026-07-07-progress-fanout-223-forcing-slot-readme-gate.md`.
 - Progress fan-out added a `tests/anchored-leads/` README inventory gate so the candidate-screen family stays synchronized with its located-not-forced / source-action-gated boundary intact. See `steward/runs/2026-07-07-progress-fanout-224-anchored-leads-readme-gate.md`.
 - Progress fan-out added a `tests/hardening-pass/` local certificate-family map so staged located-not-forced hardening-pass direct and independent scripts are reviewable with their draft-only / residuals-open / no-target-import boundary intact. See `steward/runs/2026-07-07-progress-fanout-225-hardening-pass-readme-map.md`.
+
+## 2026-07-09
+
+- Progress fan-out added `.github/README.md` and a process gate so public contributor-intake templates and the lightweight Lean workflow stay mapped without changing claim status, canon verdicts, public posture, or proof surfaces. See `steward/runs/2026-07-09-progress-fanout-280-pending.md`.
