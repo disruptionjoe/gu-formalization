@@ -80,6 +80,7 @@ selected notes below and in each script header.
 - `mission_a_matter_gauge_selector_audit.py`
 - `mission_a_metric_shadow_extraction_audit.py`
 - `mission_a_qft_state_space_extraction_audit.py`
+- `next_steps_frontdoor_guard_audit.py`
 - `pati_salam_readme_inventory_audit.py`
 - `papers_readme_lifecycle_map_audit.py`
 - `primary_gu_interface_contract_audit.py`
@@ -395,6 +396,15 @@ pointers remain complete and that the Repository Layers section has exactly one
 bullet for each top-level public surface, with `lab/` and `Lean/` routed through
 the non-root surface paragraph. This is a navigation/process guard only; it does
 not validate research claims.
+
+## NEXT-STEPS front-door guard
+
+`next_steps_frontdoor_guard_audit.py` checks that `NEXT-STEPS.md` remains a
+roadmap, preserves the Firewall-Boundary attack-not-defend front door, routes
+older-status promotion through the claim-status workflow, and keeps the
+research-posture contributor pointer. This is roadmap/process hygiene only; it
+does not parse formula-like links, edit roadmap content, or validate research
+claims.
 
 ## Decider README inventory gate
 
