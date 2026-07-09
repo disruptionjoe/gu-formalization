@@ -69,6 +69,7 @@ selected notes below and in each script header.
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
+- `lab_sources_readme_surface_map_audit.py`
 - `lab_specifications_readme_surface_map_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
@@ -150,6 +151,16 @@ resolve from the runbooks README location, and preserves the boundary between pr
 navigation and claim-status, canon-verdict, public-posture, proof-status, or research-verdict
 movement. This is a navigation/process guard only; it does not run Lean or validate research
 claims.
+
+## Lab sources README surface-map gate
+
+`lab_sources_readme_surface_map_audit.py` checks that `lab/sources/README.md`
+only lists source files that resolve locally, allows only the named pre-existing
+unlisted source files, and preserves the boundary that media/source records are
+provenance rather than mathematical evidence until tied to a transcript,
+timestamp, or archived text fragment. This is a navigation/process guard only;
+it does not mine sources, edit claim ledgers, validate research claims, or
+change source/canon status.
 
 ## Lab specifications README surface-map gate
 
