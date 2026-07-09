@@ -20,6 +20,7 @@ Ranked next steps, publish-potential analysis, and contributor routing.
 | Firewall-Boundary closed-completion attack | active_research | [`closed-internal-source-action-attack-gate-2026-07-01.md`](closed-internal-source-action-attack-gate-2026-07-01.md) |
 | tri-repo division of labor (GU leg: boundary content) | process | [`tri-repo-division-of-labor-2026-07-02.md`](tri-repo-division-of-labor-2026-07-02.md) |
 | boundary supply ledger intake | candidate_open_problem | [`boundary-supply-ledger-intake-2026-07-09.md`](boundary-supply-ledger-intake-2026-07-09.md) |
+| boundary supply ledger row: generation-count source action | candidate_open_problem | [`boundary-supply-ledger-generation-count-source-action-2026-07-09.md`](boundary-supply-ledger-generation-count-source-action-2026-07-09.md) |
 | observer-finality crosswalk | exploration | [`../../explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md`](../../explorations/time-as-finality-crosswalk/signed-readout-record-graph-test.md) |
 | media/source mining | source | timestamped claim-ledger rows |
 
