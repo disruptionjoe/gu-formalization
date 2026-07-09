@@ -22,6 +22,7 @@ This filename inventory is intentionally mechanical: it lets `process_gate_readm
 detect when a new gate exists without a public process-map entry. Detailed meaning stays in the
 selected notes below and in each script header.
 
+- `absorbed_readme_surface_map_audit.py`
 - `antilinear_bound_readme_inventory_audit.py`
 - `anchored_leads_readme_inventory_audit.py`
 - `anomaly_readme_inventory_audit.py`
@@ -142,6 +143,13 @@ guard only; it does not validate research claims.
 top-level exploration directory exactly once, uses relative links that resolve from the explorations
 README location, and preserves the boundary between exploration-lab records and reviewed
 canon/publication surfaces. This is a navigation/process guard only; it does not validate research claims.
+
+## Absorbed README surface-map gate
+
+`absorbed_readme_surface_map_audit.py` checks that `absorbed/README.md` links every live top-level
+absorbed directory exactly once, uses relative links that resolve from the absorbed README location,
+and preserves the boundary between absorbed context and operative repo truth. This is a navigation/process
+guard only; it does not validate source-action claims or change research status.
 
 ## Public path hygiene gate
 
