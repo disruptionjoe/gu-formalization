@@ -30,7 +30,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `big-swing/` (43) | adversarial big-swing packets for generation-count, boundary, framed-bordism, mirror-sector, and capability-wall leads, with a local script map and README inventory gate |
 | `internal-paths/` (4) | internal follow-up path certificates for OQ-RK1 rank, Y14 bundle index pieces, non-compact signed-readout witnesses, and Sp-family anomaly gates, with a local script map and README inventory gate |
 | `symbolic-proofs/` (1) | symbolic structure-level certificates for the core theorem package, with a local script map and README inventory gate |
-| `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map |
+| `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map and README inventory gate |
 | `chase/` (0) | nested MOVE-1..MOVE-5 chase-to-kill verdict scripts, with a local script map and README inventory gate |
 | `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with a local script map, nested independent denominator checks, and README inventory gate |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate, with a local script map and README inventory gate |
