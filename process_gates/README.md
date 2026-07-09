@@ -47,6 +47,7 @@ selected notes below and in each script header.
 - `cycle3_taf_transport_or_close_audit.py`
 - `decider_readme_inventory_audit.py`
 - `dgu_guarded_symbol_certificate_audit.py`
+- `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
 - `finite_control_provenance_audit.py`
 - `forcing_slot_readme_inventory_audit.py`
@@ -122,6 +123,13 @@ research repo while leaving those records available for collision checks.
 surface, uses relative links that resolve from the lab README location, and preserves the
 front-door boundary between working lab material and reviewed `canon/` / `papers/` outputs.
 This is a navigation/process guard only; it does not validate research claims.
+
+## Docs README surface-map gate
+
+`docs_readme_surface_map_audit.py` checks that `docs/README.md` names every live second-tier docs
+file, uses relative links that resolve from the docs README location, and preserves the boundary
+between explanatory docs and the owner status/canon/publication surfaces. This is a navigation/process
+guard only; it does not validate research claims.
 
 ## Public path hygiene gate
 
