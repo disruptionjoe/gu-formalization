@@ -29,6 +29,7 @@ selected notes below and in each script header.
 - `boundary_eta_readme_inventory_audit.py`
 - `calm_gw_boundary_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
+- `contributing_guidance_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
 - `chase_readme_inventory_audit.py`
 - `constraint_first_ig_tangent_gate.py`
@@ -327,6 +328,13 @@ content.
 continues to name the claim-grading discipline, the claim-status consistency workflow, targeted
 reproduction harness usage, and relevant process-gate checks. This is contributor-intake hygiene;
 it does not run the certificate suite or evaluate any research claim.
+
+## Contributing guidance gate
+
+`contributing_guidance_audit.py` checks that `CONTRIBUTING.md` still names the claim-grading
+discipline, claim-status consistency workflow, repository placement map, and licensing
+boundaries, and that those referenced repo paths exist. This is contributor-process hygiene;
+it does not edit contributor policy or evaluate any research claim.
 
 ## Issue-template validation gate
 
