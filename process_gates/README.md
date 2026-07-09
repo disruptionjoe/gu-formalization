@@ -96,6 +96,7 @@ selected notes below and in each script header.
 - `stress_energy_shadow_emergence_audit.py`
 - `symbolic_proofs_readme_inventory_audit.py`
 - `tests_manifest_count_audit.py`
+- `tests_root_readme_inventory_audit.py`
 - `three_cycle_fifteen_hole_runbook_audit.py`
 - `three_generation_route_alternatives_audit.py`
 - `topological_generation_count_families_k3_chi_gate_audit.py`
@@ -165,6 +166,13 @@ commands remain the compile checks.
 directory. Rows marked `archived off-tree` are allowed only when the named directory is
 not present. This protects the public reproduction map from drifting as validators are
 added or archived without treating manifest counts as mathematical evidence.
+
+## Tests root README inventory gate
+
+`tests_root_readme_inventory_audit.py` checks that the loose direct-root `tests/*.py`
+sector table in `tests/README.md` covers every tracked root certificate script exactly
+once and that row counts match the tracked root scripts. This protects the public
+reproduction map without running certificates or changing verdicts.
 
 ## Reproduction harness scope gate
 

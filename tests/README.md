@@ -8,10 +8,10 @@ the map: which directory/group supports which claim.
 
 The three files the paper cites for its load-bearing computations live in **`generation-sector/`**:
 
-- `generation-sector/ghost_parity_krein.py` — the carrier's Krein signature is exactly `(+96, -96)` (vectorlike).
-- `generation-sector/net_chiral_index_invariant.py` — on the `(96,96)` cross-chirality carrier the net chiral
+- `generation-sector/ghost_parity_krein.py` - the carrier's Krein signature is exactly `(+96, -96)` (vectorlike).
+- `generation-sector/net_chiral_index_invariant.py` - on the `(96,96)` cross-chirality carrier the net chiral
   index `chi = 0` for every physical subspace, invariant under any linear Krein isometry (Theorem 2).
-- `generation-sector/t1a_kinematic_chirality_kill.py` — the kinematic chirality-forcing route is killed.
+- `generation-sector/t1a_kinematic_chirality_kill.py` - the kinematic chirality-forcing route is killed.
 
 These three paths are **frozen** (the paper cites them); do not move or rename them.
 
@@ -45,30 +45,19 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 ## Loose audit scripts at `tests/` root, by sector
 
-These ~94 scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are indexed here in place
-(not moved) to keep those reproduction pointers valid. Grouped by subject:
+These 49 tracked direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
+indexed here in place to keep those reproduction pointers valid. This table covers only direct `tests/*.py`
+files; organized families live under their subdirectory READMEs, and governance/process checks moved to
+`process_gates/`. The table is guarded by `process_gates/tests_root_readme_inventory_audit.py`.
 
-- **RS / BV-BRST sector** — `rs_*.py` (20): the Rarita-Schwinger bicomplex, ghost / Koszul-Tate / BRST
-  structure, `c2` curvature, Clifford projector, symbol-index. (e.g. `rs_bicomplex_*`, `rs_ghost_*`,
-  `rs_k3_symbol_index_formula_audit.py`).
-- **shiab selector / codifferential** — `shiab_*.py` (10): selector complex, gamma-trace, quaternionic
-  H-linearity, seesaw, `Sp(64)`, codiff obstruction (e.g. `shiab_selector_*`, `shiab_vs_codiff_cl95.py`).
-- **Cycle audits** — `cycle1_*`, `cycle2_*`, `cycle3_*.py` (15): per-cycle gate/certificate audits
-  (IG current, RS rank, QFT two-point, Pati-Salam stabilizer, VZ e-block, dark-energy sign, prediction census).
-- **Mission-A extraction audits** — `mission_a_*.py` (5): generation-count machinery, dark-energy provenance,
-  matter-gauge selector, metric/QFT shadow extraction.
-- **Generation count & K3** — `gen_*`, `y14_k3_*`, `three_generation_*`, `three_cycle_*`,
-  `topological_generation_count_*`, `sp64_octic_trace_i16.py`, `ahat_genus_y14_i16.py`, `c2_holonomy_*` (~12).
-- **Bell / QFT / measurement** — `h3_*`, `qft_shadow_extraction_*`, `quantum_gravity_reframing_*` (~6):
-  Pati-Salam CHSH state/correlator, measurement gate, Cech-sheaf fixture.
-- **Velo-Zwanziger** — `vz_*.py` (2): typed-symbol gate, subprincipal `FC-VZ-4`.
-- **GR / cosmology / dark energy** — `gr_shadow_recovery_*`, `gu_action_branch_*`, `flrw_theta_xi_*`,
-  `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py`, `stress_energy_shadow_emergence_*` (~6).
-- **Marble-wood reframing** — `marble_wood_*`, `unified_marble_wood_*`, `metric_marble_prematurity_*` (~4).
-- **Source / selector / control** — `source_geometry_*`, `matter_gauge_source_selector_*`,
-  `sequential_source_to_index_goals_*`, `finite_control_*`, `sm_finite_control_ledger_*`,
-  `dgu_guarded_symbol_*`, `constraint_first_ig_tangent_*`, `primary_gu_interface_*`, `oq_rk1_*` (~10).
-- **Meta / posture audits** — moved to `process_gates/` in the de-theater pass; examples include
-  `live_claim_dag_audit.py`, `lean_certificate_surface_audit.py`, `research_posture_audit.py`, and
-  `temporal_issuance_source_action_steelmen_checker.py`. They are governance gates, not mathematical
-  certificate tests.
+| Sector | Coverage tokens | Count | Boundary |
+|---|---:|---:|---|
+| **RS / BV-BRST sector** | `rs_*.py` | 20 | Rarita-Schwinger bicomplex, ghost / Koszul-Tate / BRST structure, `c2` curvature, Clifford projector, and symbol-index certificates. |
+| **shiab selector / codifferential** | `shiab_*.py` | 10 | selector complex, gamma-trace, quaternionic H-linearity, seesaw, `Sp(64)`, and codiff-obstruction certificates. |
+| **Cycle audits** | `cycle1_*.py`, `cycle2_*.py` | 2 | current root-level cycle gate/certificate audits; other cycle governance gates now live under `process_gates/`. |
+| **Generation count & K3** | `gen_*.py`, `sp64_octic_trace_i16.py`, `ahat_genus_y14_i16.py`, `c2_holonomy_*.py` | 6 | generation-count and K3/Y14 provenance certificates retained at the root for stable canon pointers. |
+| **Bell / QFT / measurement** | `h3_*.py`, `h3-*.py` | 4 | Pati-Salam CHSH state/correlator, measurement gate, and Cech-sheaf fixture certificates. |
+| **Velo-Zwanziger** | `vz_*.py` | 2 | typed-symbol gate and subprincipal `FC-VZ-4` certificates. |
+| **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
+| **Source / selector / control** | `oq_rk1_*.py` | 2 | OQ-RK1 representation and effective-operator assembly certificates. |
+| **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
