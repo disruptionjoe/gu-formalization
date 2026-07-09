@@ -91,3 +91,4 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added a read-only `CONTRIBUTING.md` guidance gate so contributor-facing claim grading, claim-status workflow, placement, and licensing references stay wired to live repo surfaces without editing the canon contributor guide.
 - Progress fan-out added `absorbed/README.md` and a process gate so absorbed `gu-source-action` material stays visible as absorbed context rather than operative instructions or research-status movement.
 - Progress fan-out added `lab/process/runbooks/README.md` and a process gate so live repo runbooks, including the Lean verification lane, stay mapped without editing the canon-labeled parent process overview or changing research/proof/status surfaces.
+- Progress fan-out added a read-only `lab/automation/README.md` surface-map gate so operational run prompts, logs, evidence, and helper surfaces stay mapped as provenance rather than load-bearing research.

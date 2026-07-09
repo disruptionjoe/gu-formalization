@@ -66,6 +66,7 @@ selected notes below and in each script header.
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
+- `lab_automation_readme_surface_map_audit.py`
 - `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
 - `lean_certificate_surface_audit.py`
@@ -130,6 +131,13 @@ research repo while leaving those records available for collision checks.
 surface, uses relative links that resolve from the lab README location, and preserves the
 front-door boundary between working lab material and reviewed `canon/` / `papers/` outputs.
 This is a navigation/process guard only; it does not validate research claims.
+
+## Lab automation README surface-map gate
+
+`lab_automation_readme_surface_map_audit.py` checks that `lab/automation/README.md` names
+the live direct automation entries and preserves the boundary that automation prompts, logs,
+evidence, and helpers are operational provenance rather than load-bearing research. This is a
+navigation/process guard only; it does not inspect run payloads or validate research claims.
 
 ## Lab process runbooks README inventory gate
 
