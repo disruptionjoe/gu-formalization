@@ -34,6 +34,15 @@ were sorted by reading each note's content.)
 | [`anomaly-and-bordism/`](anomaly-and-bordism/) | 10 | gauge-anomaly audits, spin/Gysin/signature structure, BV bicomplex, ghosts, c2-as-global-data |
 | [`misc/`](misc/) | 14 | stragglers: layer-split/coarse-graining notes, c-mpr 9-tuple, super-ig algebra, constraint-first-ig, RS scratch scripts, other one-offs |
 
+## Dated run clusters
+
+| cluster | what's here |
+|---|---|
+| [`big-swing-2026-07-03/`](big-swing-2026-07-03/) | 2026-07-03 big-swing packets and receipts, including the source-action wall, two-arena, signed-readout, and action-stabilization runs |
+| [`big-swing-2026-07-06/`](big-swing-2026-07-06/) | later big-swing follow-up packets and convergence checks from the July 6 run family |
+| [`big-swing-2026-07-07/`](big-swing-2026-07-07/) | July 7 big-swing continuation packets and branch-specific follow-ups |
+| [`internal-paths-2026-07-03/`](internal-paths-2026-07-03/) | bounded internal-path attacks from 2026-07-03, including OQ-RK1, Lean typecheck, true-RS-Y14, OC1/OC2, and Sp-family anomaly paths |
+
 ## Smaller / niche clusters (pre-existing)
 
 | cluster | what's here |

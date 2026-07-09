@@ -49,6 +49,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
+- `explorations_readme_surface_map_audit.py`
 - `finite_control_provenance_audit.py`
 - `forcing_slot_readme_inventory_audit.py`
 - `flrw_theta_xi_branch_gate.py`
@@ -131,6 +132,13 @@ This is a navigation/process guard only; it does not validate research claims.
 file, uses relative links that resolve from the docs README location, and preserves the boundary
 between explanatory docs and the owner status/canon/publication surfaces. This is a navigation/process
 guard only; it does not validate research claims.
+
+## Explorations README surface-map gate
+
+`explorations_readme_surface_map_audit.py` checks that `explorations/README.md` links every live
+top-level exploration directory exactly once, uses relative links that resolve from the explorations
+README location, and preserves the boundary between exploration-lab records and reviewed
+canon/publication surfaces. This is a navigation/process guard only; it does not validate research claims.
 
 ## Public path hygiene gate
 
