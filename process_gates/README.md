@@ -66,6 +66,7 @@ selected notes below and in each script header.
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
+- `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
@@ -129,6 +130,15 @@ research repo while leaving those records available for collision checks.
 surface, uses relative links that resolve from the lab README location, and preserves the
 front-door boundary between working lab material and reviewed `canon/` / `papers/` outputs.
 This is a navigation/process guard only; it does not validate research claims.
+
+## Lab process runbooks README inventory gate
+
+`lab_process_runbooks_readme_inventory_audit.py` checks that
+`lab/process/runbooks/README.md` names every live direct runbook, uses relative links that
+resolve from the runbooks README location, and preserves the boundary between process
+navigation and claim-status, canon-verdict, public-posture, proof-status, or research-verdict
+movement. This is a navigation/process guard only; it does not run Lean or validate research
+claims.
 
 ## Docs README surface-map gate
 
