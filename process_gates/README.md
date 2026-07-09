@@ -69,6 +69,7 @@ selected notes below and in each script header.
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
+- `lab_specifications_readme_surface_map_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
 - `marble_wood_open_avenues_audit.py`
@@ -149,6 +150,14 @@ resolve from the runbooks README location, and preserves the boundary between pr
 navigation and claim-status, canon-verdict, public-posture, proof-status, or research-verdict
 movement. This is a navigation/process guard only; it does not run Lean or validate research
 claims.
+
+## Lab specifications README surface-map gate
+
+`lab_specifications_readme_surface_map_audit.py` checks that `lab/specifications/README.md`
+names the live direct specification directories, points readers to each local README, and
+preserves the role of specifications as comparable, falsifiable research-object machinery.
+This is a navigation/process guard only; it does not validate candidate specifications or
+change research status.
 
 ## Docs README surface-map gate
 
