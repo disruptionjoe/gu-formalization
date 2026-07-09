@@ -60,6 +60,7 @@ selected notes below and in each script header.
 - `hessian_z3_readme_inventory_audit.py`
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
+- `lab_readme_surface_map_audit.py`
 - `lean_certificate_surface_audit.py`
 - `live_claim_dag_audit.py`
 - `marble_wood_open_avenues_audit.py`
@@ -113,6 +114,13 @@ table without treating roadmap prose as a research claim.
 `internal_ops_gitignore_audit.py` checks that `steward/runs/` remains ignored and contains no
 tracked files. This protects local CapacityOS run records from being published with the public
 research repo while leaving those records available for collision checks.
+
+## Lab README surface-map gate
+
+`lab_readme_surface_map_audit.py` checks that `lab/README.md` names every live top-level lab
+surface, uses relative links that resolve from the lab README location, and preserves the
+front-door boundary between working lab material and reviewed `canon/` / `papers/` outputs.
+This is a navigation/process guard only; it does not validate research claims.
 
 ## Public path hygiene gate
 
