@@ -81,6 +81,7 @@ selected notes below and in each script header.
 - `mission_a_metric_shadow_extraction_audit.py`
 - `mission_a_qft_state_space_extraction_audit.py`
 - `pati_salam_readme_inventory_audit.py`
+- `papers_readme_lifecycle_map_audit.py`
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
 - `protected_surface_diff_audit.py`
@@ -168,6 +169,15 @@ canon/publication surfaces. This is a navigation/process guard only; it does not
 absorbed directory exactly once, uses relative links that resolve from the absorbed README location,
 and preserves the boundary between absorbed context and operative repo truth. This is a navigation/process
 guard only; it does not validate source-action claims or change research status.
+
+## Papers README lifecycle-map gate
+
+`papers_readme_lifecycle_map_audit.py` checks that `papers/README.md` names the live
+publication-stage directories, names every current staged candidate directory exactly once,
+keeps the empty-published marker aligned with `papers/published/`, uses relative links that
+resolve from the papers README location, and preserves the Joe-confirmed candidate/published
+boundaries. This is a navigation/process guard only; it does not publish, submit, move paper
+artifacts, validate research claims, or change public posture.
 
 ## Public path hygiene gate
 
