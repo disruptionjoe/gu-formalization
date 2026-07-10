@@ -27,6 +27,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test, with a local script map and README inventory gate |
 | `carrier-mass/` (7) | the carrier Dirac-mass capstone, with a local script/output map and README inventory gate |
 | `carrier-bit-decision/` (12) | the carrier-bit decision campaign: four analysis legs plus independent referees, with a local script/analysis map and README inventory gate |
+| `escape-corners/` (16) | the carrier-bit escape-corners campaign: four analysis legs, corner-open audits, independent referees, and checked-in run logs, with a local script/analysis/log map and README inventory gate |
 | `anchored-leads/` (7) | the anchored-leads candidate screens, including an independent Jones-index finite-type recheck, with a local script map and README inventory gate |
 | `big-swing/` (48) | adversarial big-swing packets for generation-count, boundary, framed-bordism, mirror-sector, and capability-wall leads, with a local script map and README inventory gate |
 | `internal-paths/` (4) | internal follow-up path certificates for OQ-RK1 rank, Y14 bundle index pieces, non-compact signed-readout witnesses, and Sp-family anomaly gates, with a local script map and README inventory gate |

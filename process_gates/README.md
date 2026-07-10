@@ -53,6 +53,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
+- `escape_corners_readme_inventory_audit.py`
 - `explorations_top_level_file_boundary_audit.py`
 - `explorations_readme_surface_map_audit.py`
 - `finite_control_provenance_audit.py`
@@ -528,6 +529,15 @@ certificate and Markdown analysis, and preserves the bit-narrowed-but-open /
 SG4 / no-status-movement boundary for the carrier-bit campaign. This is a map
 and posture guard only; it does not run the carrier-bit scripts or change
 verdicts.
+
+## Escape-corners README inventory gate
+
+`escape_corners_readme_inventory_audit.py` checks that
+`tests/escape-corners/README.md` names every tracked direct escape-corners
+Python certificate, Markdown analysis, and checked-in run log, and preserves
+the SG4 / no-status-movement boundary for the escape-corners campaign. This is
+a map and posture guard only; it does not run the escape-corners scripts or
+change verdicts.
 
 ## Hessian/Z3 README inventory gate
 
