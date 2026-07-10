@@ -62,12 +62,13 @@ import os
 import sys
 import time
 from fractions import Fraction
+from pathlib import Path
 
 import numpy as np
 import sympy
 from sympy.ntheory.residue_ntheory import sqrt_mod
 
-REPO = r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization"
+REPO = str(Path(__file__).resolve().parents[2])
 sys.path.insert(0, os.path.join(REPO, "tests"))
 
 import oq_rk1_cl95_explicit_rep as cl95            # repo anchor rep (floats)
@@ -1104,5 +1105,4 @@ never adopted.
 
 if __name__ == "__main__":
     sys.exit(main())
-
 

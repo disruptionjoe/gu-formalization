@@ -17,10 +17,15 @@ Exit 0 iff all checks pass.
 """
 import sys, os, itertools
 from fractions import Fraction
+from pathlib import Path
 import sympy as sp
 from sympy import I, Rational, Matrix, zeros, eye, symbols
 
-SCRATCH = r"C:\Users\joe\AppData\Local\Temp\claude\C--Users-joe-JB\79411e9e-5aaa-44a7-ba95-2f380675a349\scratchpad"
+REPO = str(Path(__file__).resolve().parents[2])
+SCRATCH = os.environ.get(
+    "GU_CARRIER_BIT_SCRATCH",
+    os.path.join(REPO, "_local", "carrier-bit-decision", "scratchpad"),
+)
 CBS = os.path.join(SCRATCH, "carrier-bit-swing")
 SYM = os.path.join(SCRATCH, "symbol-swing")
 

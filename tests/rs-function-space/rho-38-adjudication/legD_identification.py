@@ -30,6 +30,7 @@ import io
 import os
 import sys
 from fractions import Fraction as F
+from pathlib import Path
 
 NASSERT = 0
 BLOCKED = []          # genuine blocked items, reported honestly at the end
@@ -367,7 +368,7 @@ print("  class law 8/8, Donnelly 6/6, relabel sweep 6/6, arena map: D (0,16,8) |
 # ==============================================================================================
 banner("S6. Repo-pin ledger: what the prior campaigns actually pinned (checked against the files)")
 
-REPO = r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization"
+REPO = str(Path(__file__).resolve().parents[3])
 
 
 def slurp(rel):

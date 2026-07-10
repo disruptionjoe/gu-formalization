@@ -29,10 +29,11 @@ referee before writing this script:
 import os
 import sys
 from fractions import Fraction
+from pathlib import Path
 
 import numpy as np
 
-REPO = r"C:\Users\joe\JB\CapacityOS\repos\public\gu-formalization"
+REPO = str(Path(__file__).resolve().parents[2])
 sys.path.insert(0, os.path.join(REPO, "tests"))
 import oq_rk1_cl95_explicit_rep as cl95
 
