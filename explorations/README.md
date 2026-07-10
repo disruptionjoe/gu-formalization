@@ -42,6 +42,7 @@ were sorted by reading each note's content.)
 | [`big-swing-2026-07-06/`](big-swing-2026-07-06/) | later big-swing follow-up packets and convergence checks from the July 6 run family |
 | [`big-swing-2026-07-07/`](big-swing-2026-07-07/) | July 7 big-swing continuation packets and branch-specific follow-ups |
 | [`internal-paths-2026-07-03/`](internal-paths-2026-07-03/) | bounded internal-path attacks from 2026-07-03, including OQ-RK1, Lean typecheck, true-RS-Y14, OC1/OC2, and Sp-family anomaly paths |
+| [`sequential-goals-2026-07-09/`](sequential-goals-2026-07-09/) | 2026-07-09 five-goal run: `(7,7)` both-signature control, `3\|sigma` import pricing, S2 tautology audit, source-action candidate classifier, and import-channel independence |
 
 ## Smaller / niche clusters (pre-existing)
 

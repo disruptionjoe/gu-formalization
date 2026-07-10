@@ -92,6 +92,11 @@ The public boundary stays:
 | `vg_v6_conformal_constrained_scatter.py` | verification gates | Conformal constrained-scatter check. |
 | `vg_v7_cp2_equivariant_payoff.py` | verification gates | CP2 equivariant-payoff check. |
 | `vg_v8_t5_map_attempt.py` | verification gates | T5 map-attempt check. |
+| `sg1_signature_carrier_parity_77.py` | sequential-goals 2026-07-09 | Both-signature control: C-07 quaternionic-parity no-go on (9,5) vs (7,7)=M(128,R). |
+| `sg2_price_sigma_mod3_import.py` | sequential-goals 2026-07-09 | Prices the 3\|sigma external import (Rokhlin lattice + realizability). |
+| `sg3_s2_mod3_tautology_audit.py` | sequential-goals 2026-07-09 | Audits S2's mod-3 tautology; derives the residue + supplies a discriminating test. |
+| `sg4_source_action_candidate_classifier.py` | sequential-goals 2026-07-09 | Boundary-supply-ledger candidate packet + executable taxonomy classifier. |
+| `sg5_import_channel_independence.py` | sequential-goals 2026-07-09 | Three disjoint homes for the prime 3; import-channel independence. |
 
 ## Process Gate
 

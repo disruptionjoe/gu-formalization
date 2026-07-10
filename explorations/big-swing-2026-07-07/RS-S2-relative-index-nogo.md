@@ -245,3 +245,25 @@ the located order-3 carrier is **3-inert** in every RS-sector relative/equivaria
 refuted at native scope and the only surviving route is a double external import disjoint from the
 carrier. The generation-count verdict is unchanged: **OPEN** (external by structure; now with the carrier
 bridge specifically closed). Any verdict/status flip pauses for Joe.
+
+---
+
+## 2026-07-09 honesty-alignment note (SG3)
+
+The BIG-SWING-RS-INDEX synthesizer (2026-07-07) already downgraded this route from "all three legs
+THEOREM / universal no-go" to **PARTIAL**: the decisive Leg-B mod-3 sweep is circular (the swept
+difference `ind_full - (m^2 d' + sigma) = 15 m^2 d' + 12k - 3 sigma` has every coefficient divisible
+by 3, so "200 random inputs pass" verifies `0 == 0`), and the twisted-index formula was asserted, not
+derived. The sequential-goals SG3 certificate
+(`tests/big-swing/sg3_s2_mod3_tautology_audit.py`, doc
+`explorations/sequential-goals-2026-07-09/SG3-s2-mod3-tautology-audit.md`) discharges the constructive
+horn of the synthesizer's next-step #3: it exhibits the tautology symbolically, **derives**
+`ind == m^2 d' + sigma (mod 3)` coefficient-by-coefficient, and replaces the circular sweep with an
+exact-polynomial mutant-discriminating test.
+
+**Read the "component legs THEOREM" language in this doc's frontmatter and body as native-scope**, per
+the claim-status-consistency rule: what is established is "the located-carrier bridge is not established
+and is arithmetically implausible via native data," NOT a universal no-go over all
+relative/equivariant/rank invariants. The underlying content (the mod-3 reduction, carrier 3-inertness,
+the double-import structure) survives and is now derived. No scientific verdict changes: the
+generation-count verdict stays OPEN (located, not forced).

@@ -89,6 +89,35 @@ whether GU succeeds.
 
 For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
 
+## 2026-07-09 Sequential-Goals Run (SG1-SG5) -- frontier hardening, count still OPEN
+
+Five sequential goals ran 2026-07-09 (`explorations/sequential-goals-2026-07-09/`,
+`tests/big-swing/sg{1..5}_*.py`, all certificates exit 0). None forces three; the generation-count
+verdict stays **OPEN (located, not forced)**. No verdict, canon, or public-posture change. Net:
+
+- **SG1** (`sg1_signature_carrier_parity_77.py`): computed both-signature control. The C-07
+  quaternionic-parity even-index no-go is **SIGNATURE-SPECIFIC** -- bit-exact `J^2=-1` (Kramers-even)
+  on `(9,5)=M(64,H)` vs `J^2=+1` on `(7,7)=M(128,R)`, where a genuine odd-rank-3 J-commuting projector
+  exists. Closes the "cheapest remaining hardening" BIG-SWING-RS-INDEX named. The carrier-universal
+  content is under-determination, not "odd is impossible."
+- **SG2** (`sg2_price_sigma_mod3_import.py`): the surviving `3|sigma` import is **AVAILABLE, priced**
+  (non-spin free but `Y^14` loses spin Dirac; spin needs `|sigma|>=48` via Rokhlin `16Z cap 3Z=48Z`).
+  So located-not-forced cannot be upgraded to "provably not forceable" by killing this channel.
+- **SG3** (`sg3_s2_mod3_tautology_audit.py`): discharges the synthesizer's next-step #3 (constructive
+  horn). Exhibits S2's mod-3 tautology, **derives** `ind == m^2 d' + sigma (mod 3)`, and supplies a
+  mutant-discriminating exact test. Recommends (and applies) an honesty alignment of the RS-S2 doc
+  language to native-scope. Underlying content survives.
+- **SG4** (`sg4_source_action_candidate_classifier.py`): the boundary-supply-ledger's named #1 run.
+  A reusable executable classifier over the ledger taxonomy (grounded in the computed indefinite
+  `(7,3)` invariant trace form on `GL(4,R)/O(3,1)`) classifies the Stueckelberg-compensator source
+  action as **MISSING-CARRIER BLOCKED**.
+- **SG5** (`sg5_import_channel_independence.py`): three disjoint homes for the prime 3; exact
+  finite-group arithmetic (`Hom(Z/24,Z)=Hom(Z/8,Z/3)=0`, carrier 3-inert, joint residues = full
+  product) proves the surviving double import (`3|m AND 3|sigma`) is **two independent external
+  choices** -- closes the arithmetic-level double-duty hope (S3 closed the source-action level).
+
+Synthesis: `explorations/sequential-goals-2026-07-09/SYNTHESIS-sequential-goals-2026-07-09.md`.
+
 ## 2026-07-03 Big-Swing Outcomes (R1-R5) -- routes closed, do not re-chase
 
 Five ambitious swings ran on 2026-07-03 (`explorations/big-swing-2026-07-03/`, `tests/big-swing/`, all
