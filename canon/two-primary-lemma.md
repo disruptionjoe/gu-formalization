@@ -69,6 +69,20 @@ homotopy-theoretic generation count is the framed-bordism / `e`-invariant group 
 Z/3` (with `|Im J_3| = 24 = denom(B_2/4)`, Adams). The program's obstructions all live in the `Z/8`
 (2-primary) summand; the `Z/3` summand is untouched, because `3` is coprime to `2`. QED.
 
+> **UPGRADE + CORRECTION 2026-07-10 (`canon/ko-degree-obstruction-ladder-RESULTS.md`, adversarially
+> verified).** (a) EMPIRICAL -> PARTIALLY STRUCTURAL: 5 of the 7 enumerated obstructions are now
+> proven-2-primary BY their KO/Spin/Pin TYPE from cited primary sources (Bott KO-torsion `Z/2`;
+> Kirby-Taylor `Omega^{Pin+}_4 = Z/16`; ABS Clifford rank `2^floor(m/2)`); 2 (Krein signature, adjoint
+> index) are torsion-free integer indices, blindness contingent on the torsion-count reading. The
+> disjointness itself (`gcd(3,2^k)=1`, `Hom(Z/24,Z)=0`) is GU-independent theorem-grade. OPEN: the
+> universal reading rides an unproven exhaustiveness-by-type premise (a `tmf`-type obstruction has
+> 3-primary torsion and would escape). (b) LABEL CORRECTION: `e_R=1/12` is NOT the order-3 element --
+> since `e_KO(nu)=1/24`, `1/12=2*nu` has ORDER 12, CRT `(2,2)`, MIXED; the true order-3 carrier is
+> `8*nu` (`e_KO=1/3`). Same `Z/3` component (value 2), so the located-in-`Z/3` conclusion is unaffected.
+> (c) SCOPE: "KO is blind to the odd part" is FALSE -- the KO e-invariant DETECTS the order-3 class
+> (`e_KO(8*nu)=1/3`); it is the LOCATOR. Blindness is a property of the finite-2-group/free-integer
+> obstruction TYPES, not of KO-theory.
+
 ## Significance
 
 The no-go and the generation count are **complementary, not contradictory.** The program proved a large,

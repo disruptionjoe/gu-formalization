@@ -23,7 +23,7 @@ shape and named the single computation that could ever decide it.
 
 **GU does not force three generations. It LOCATES the only sector a count could live in -- the odd-torsion
 `Z/3` summand of `pi_3^s` that every obstruction is provably blind to -- and that sector genuinely carries an
-order-3 object (`e_R = 1/12`). But that object is a fixed feature of stable homotopy theory, identical for a
+order-3 object (**CORRECTION 2026-07-10: the order-3 carrier is `8*nu` (`e_KO=1/3`), NOT `e_R=1/12=2*nu` which is order-12 / CRT (2,2) / mixed; same `Z/3` component, value 2, so the located conclusion holds -- see `canon/ko-degree-obstruction-ladder-RESULTS.md`**). But that object is a fixed feature of stable homotopy theory, identical for a
 universe with one generation or five, so it cannot be the thing that VARIES to yield three. Located, not
 forced -- and the locating, not the number, is the real result.**
 
