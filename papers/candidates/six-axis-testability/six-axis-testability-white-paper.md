@@ -14,6 +14,14 @@ updated_at: "2026-06-11"
 
 **Disruption Joe**
 
+> **DRAFTING NOTE 2026-07-10 (ratified protocol change; not yet folded into the body):** the protocol
+> is now **seven axes (L1-L7) + a Layer-0 semantic-alignment precondition**, not six. L7 = positivity /
+> state-space metric signature; Layer-0 = the homonymy check ("does the no-go's key term denote the
+> same object the construction built?") that predicts the "scope exit" verdicts. Before this candidate
+> goes to a formal first draft, retitle/refold from "Six-Axis" to "Seven-Axis + Layer-0" and add the
+> Layer-0 worked receipts (Distler-Garibaldi chirality homonymy; the RS-operator -42/-38 homonymy).
+> Source of truth: `lab/specifications/six-axis/six-axis-template.md`.
+
 **White paper draft v0.1, June 11, 2026**
 
 > This paper proposes and preregisters a research-method protocol. It does not

@@ -11,6 +11,17 @@ updated_at: "2026-06-23"
 **Source basis.** `lab/literature/03-assumption-decomposition-no-go-evasion-literature.md`, `lab/process/syntheses/00b-loophole-synthesis-witten-evasion-test.md`, `lab/roadmap/potential-insights-novelty-and-tests-v1.md`, `lab/roadmap/15-persona-pathway-ranking.md`. Cross-built against the six-axis protocol (internal origin artifact, `lab/specifications/six-axis/six-axis-template.md`).
 **Generated.** 2026-05-30
 
+**RATIFIED UPDATE 2026-07-10 (Joe): the protocol is now seven axes (L1-L7) + a Layer-0 semantic-alignment
+precondition** (`lab/specifications/six-axis/six-axis-template.md`). L7 = positivity/state-space metric
+signature (promoted from the provisional Krein candidate). **Layer-0 re-files the recurring "EVASION BY
+SCOPE EXIT" verdicts as instances of a named semantic check:** the Distler-Garibaldi scope-exit (2.4) is
+a Layer-0 HOMONYM finding -- DG's "chirality" (`V_{2,1}` complexity) vs GU's `ind_H(D_GU)` are the same
+name for different objects; the theorem is inapplicable, not contradicted. The per-theorem "six-axis
+cross-ref" rows below stay valid; read "six-axis" as "L1-L7 + Layer-0" going forward. The
+records-as-rows reframe is examined against the full protocol in
+`explorations/six-axis-examination-of-the-records-as-rows-reframe-2026-07-10.md` (a unified L2-L7
+occupant at scope-exit grade).
+
 ## 0. Honesty contract
 
 This map is **not** a claim that the no-go theorems are wrong. Inside their stated classes they are correct theorems and the literature confirms them. The map's only claim is that each theorem fixes a **class** and therefore each theorem admits a question: *what richer substrate datum, if any, would survive a class-respecting reformulation, and what does the smooth-bundle shadow forget?* For three of the four families that question is already implicit/adjacent in the literature. For the fourth (Distler-Garibaldi) the framing is original-once-included and is treated explicitly below as the stress case.

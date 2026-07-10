@@ -1,6 +1,6 @@
 ---
 artifact_type: exploration
-status: proposal (pending Joe ratification -- do NOT edit the six-axis template / no-go-map / white paper on this basis until ratified)
+status: RATIFIED 2026-07-10 (Joe) -- Layer-0 precondition added to the template + no-go-map; white-paper fold flagged
 created: 2026-07-10
 title: "Proposed protocol addition: a Layer-0 semantic-alignment (homonymy) precondition -- does the no-go's key term denote the SAME object in the construction, or a discipline-crossing homonym?"
 grade: "PROPOSAL (Joe direct chat, 2026-07-10). Names and systematizes a check the program has already been running implicitly; the phenomenon has receipts (below), the SYSTEMATIZATION is the proposed contribution. No canon movement; a recommendation to Joe, who ratifies protocol/paper changes."

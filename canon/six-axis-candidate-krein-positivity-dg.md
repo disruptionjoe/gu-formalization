@@ -1,6 +1,6 @@
 ---
 title: "Six-axis candidate: the Krein / ghost-parity positivity-axis evasion of Distler-Garibaldi"
-status: candidate
+status: candidate (L7 axis RATIFIED 2026-07-10)
 doc_type: six_axis_candidate
 created: 2026-06-28
 depends_on:
@@ -11,6 +11,15 @@ external_ref: "Bateman & Turok, arXiv:2607.00096, Escape from Ostrogradsky via H
 ---
 
 # Six-axis candidate: the Krein / ghost-parity positivity-axis evasion of Distler-Garibaldi
+
+> **L7 RATIFIED 2026-07-10 (Joe).** The "provisional seventh axis" proposed in this doc is now a full
+> axis of the protocol (`lab/specifications/six-axis/six-axis-template.md`, Leg 7). It earned its slot:
+> the positivity/signature lever is exercised by two independent candidates (this one AND the
+> records-as-rows reframe) and is FORCED on GU's graded-IG algebra at anchor scale
+> (`canon/anchor-scale-graded-ig-algebra-RESULTS.md`). Section 3's conservative reading (L7 = L3 with
+> signature made explicit) is PRESERVED as the honest either/or, not erased. This candidate's own
+> verdict (the ghost-parity kill: linear Krein-isometric evolution forces net chirality back to 0,
+> gated on the open `[P_ghost,S]=0`) is UNCHANGED by the axis promotion.
 
 > **Standing honesty boundary (binds every line below, including the acceptance-row table; the one-line row must never be quoted without this banner attached).**
 > All kinematics cited here is exact and machine-checked: the Krein signature `(+96, -96, 0)` on the 192-dim self-dual triplet; net chiral asymmetry exactly `0` in every `p+q=14` signature, real and quaternionic; pseudo-anti-Hermiticity residual `0.0e+00`. Everything dynamical is **OPEN**, because GU supplies no built source action / S-matrix: that GU's dynamics realizes the ghost parity as a symmetry (`[P_ghost, S] = 0`), that any chiral selection actually fires, that GU's action is quadratic-gravity-like. This is a **TYPED CANDIDATE with one open dynamical condition**, not a proof that Distler-Garibaldi is evaded. Distler-Garibaldi's theorem hypotheses and its representation-theoretic conclusion (the matter rep is vectorlike) are **untouched and agreed**: the self-dual triplet that carries the generation is genuinely vectorlike, and we **reproduce** the D-G mirror obstruction rather than contradict it. What is contested is one hidden interpretive premise sitting under D-G assumption (5), not the theorem.
