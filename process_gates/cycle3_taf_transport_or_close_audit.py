@@ -17,7 +17,7 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-ARTIFACT = REPO_ROOT / "explorations" / "cycle3-taf-transport-or-close-gate-2026-06-24.md"
+ARTIFACT = REPO_ROOT / "explorations" / "cycle-gates-and-audits" / "cycle3-taf-transport-or-close-gate-2026-06-24.md"
 
 ALLOWED_VERDICTS = {"pursue", "park", "close", "conditional"}
 

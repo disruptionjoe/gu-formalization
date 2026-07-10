@@ -21,13 +21,13 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTE = ROOT / "explorations" / "constraint-first-ig-tangent-space-gate-2026-06-24.md"
-GOAL = ROOT / "explorations" / "goal-draft-ig-constraint-derivation-2026-06-24.md"
-IG_DYNAMICS = ROOT / "explorations" / "ig-dynamics-nonzero-theta-action-gate-2026-06-24.md"
-CLOSED_LOOP = ROOT / "explorations" / "gu-closed-loop-action-ig-branch-2026-06-24.md"
-EXACT_GR = ROOT / "explorations" / "exact-schwarzschild-kerr-el-gate-2026-06-24.md"
-FLRW = ROOT / "explorations" / "flrw-theta-xi-branch-reduction-2026-06-24.md"
-DAG = ROOT / "explorations" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
+NOTE = ROOT / "explorations" / "misc" / "constraint-first-ig-tangent-space-gate-2026-06-24.md"
+GOAL = ROOT / "explorations" / "cycle-gates-and-audits" / "goal-draft-ig-constraint-derivation-2026-06-24.md"
+IG_DYNAMICS = ROOT / "explorations" / "misc" / "ig-dynamics-nonzero-theta-action-gate-2026-06-24.md"
+CLOSED_LOOP = ROOT / "explorations" / "misc" / "gu-closed-loop-action-ig-branch-2026-06-24.md"
+EXACT_GR = ROOT / "explorations" / "geometry-curvature-emergence" / "exact-schwarzschild-kerr-el-gate-2026-06-24.md"
+FLRW = ROOT / "explorations" / "dark-energy-cosmology" / "flrw-theta-xi-branch-reduction-2026-06-24.md"
+DAG = ROOT / "explorations" / "cycle-gates-and-audits" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
 
 
 def read(path: Path) -> str:

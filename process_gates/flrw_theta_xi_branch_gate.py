@@ -19,11 +19,11 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-NOTE = ROOT / "explorations" / "flrw-theta-xi-branch-reduction-2026-06-24.md"
-MINIMAL_ACTION = ROOT / "explorations" / "gu-minimal-action-spec-2026-06-24.md"
-CLOSED_LOOP = ROOT / "explorations" / "gu-closed-loop-action-ig-branch-2026-06-24.md"
-MECHANISM = ROOT / "explorations" / "dark-energy-w-window-mechanism-2026-06-23.md"
-DAG = ROOT / "explorations" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
+NOTE = ROOT / "explorations" / "dark-energy-cosmology" / "flrw-theta-xi-branch-reduction-2026-06-24.md"
+MINIMAL_ACTION = ROOT / "explorations" / "cycle-gates-and-audits" / "gu-minimal-action-spec-2026-06-24.md"
+CLOSED_LOOP = ROOT / "explorations" / "misc" / "gu-closed-loop-action-ig-branch-2026-06-24.md"
+MECHANISM = ROOT / "explorations" / "dark-energy-cosmology" / "dark-energy-w-window-mechanism-2026-06-23.md"
+DAG = ROOT / "explorations" / "cycle-gates-and-audits" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
 
 
 def read(path: Path) -> str:

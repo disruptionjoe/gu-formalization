@@ -18,7 +18,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DOC = REPO_ROOT / "explorations" / "source-geometry-not-quantized-gravity-contract-2026-06-24.md"
+DOC = REPO_ROOT / "explorations" / "firewall-and-two-geometries" / "source-geometry-not-quantized-gravity-contract-2026-06-24.md"
 
 EXPECTED_HEADINGS = [
     "## 1. Verdict",

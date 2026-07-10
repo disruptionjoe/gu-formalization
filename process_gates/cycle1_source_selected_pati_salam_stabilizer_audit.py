@@ -20,7 +20,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DOC = (
     REPO_ROOT
     / "explorations"
-    / "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
+    / "cycle-gates-and-audits" / "cycle1-source-selected-pati-salam-stabilizer-gate-2026-06-24.md"
 )
 
 REQUIRED_HEADINGS = [

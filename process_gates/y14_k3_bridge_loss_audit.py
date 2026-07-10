@@ -18,7 +18,7 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-LEDGER = REPO_ROOT / "explorations" / "y14-k3-bridge-loss-ledger-2026-06-24.md"
+LEDGER = REPO_ROOT / "explorations" / "generation-sector" / "y14-k3-bridge-loss-ledger-2026-06-24.md"
 
 REQUIRED_HEADINGS = [
     "## 1. Verdict",

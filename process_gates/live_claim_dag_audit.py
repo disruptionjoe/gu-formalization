@@ -12,7 +12,7 @@ from pathlib import Path
 DEFAULT_LEDGER = (
     Path(__file__).resolve().parents[1]
     / "explorations"
-    / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
+    / "cycle-gates-and-audits" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
 )
 
 

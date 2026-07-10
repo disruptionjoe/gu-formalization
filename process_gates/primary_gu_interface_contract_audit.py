@@ -16,7 +16,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CONTRACT = ROOT / "explorations" / "primary-gu-interface-contract-2026-06-24.md"
+CONTRACT = ROOT / "explorations" / "cycle-gates-and-audits" / "primary-gu-interface-contract-2026-06-24.md"
 
 EXPECTED_BRANCH_KEYS = {
     "operator_spine",

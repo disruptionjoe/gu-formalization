@@ -21,7 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 ARTIFACT = (
     REPO_ROOT
     / "explorations"
-    / "cycle3-cgw-bvn-wall-define-or-demote-gate-2026-06-24.md"
+    / "cycle-gates-and-audits" / "cycle3-cgw-bvn-wall-define-or-demote-gate-2026-06-24.md"
 )
 
 EXPECTED_VERDICT = "DEMOTED_UNDERDEFINED_WITH_TRIVIAL_COMMUTATIVE_RESIDUE"

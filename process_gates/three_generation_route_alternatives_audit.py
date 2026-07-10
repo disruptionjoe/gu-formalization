@@ -8,10 +8,10 @@ ROOT = Path(__file__).resolve().parents[1]
 ARTIFACT = (
     ROOT
     / "explorations"
-    / "three-generation-route-alternatives-after-rs-failure-2026-06-26.md"
+    / "generation-sector" / "three-generation-route-alternatives-after-rs-failure-2026-06-26.md"
 )
 NEXT_STEPS = ROOT / "NEXT-STEPS.md"
-Y14_GATE = ROOT / "explorations" / "y14-k3-end-data-topography-gate-2026-06-26.md"
+Y14_GATE = ROOT / "explorations" / "generation-sector" / "y14-k3-end-data-topography-gate-2026-06-26.md"
 
 
 class ThreeGenerationRouteAlternativesAudit(unittest.TestCase):

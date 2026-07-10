@@ -19,7 +19,7 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DOC = REPO_ROOT / "explorations" / "cycle2-qft-physical-field-positive-pairing-seed-2026-06-24.md"
+DOC = REPO_ROOT / "explorations" / "cycle-gates-and-audits" / "cycle2-qft-physical-field-positive-pairing-seed-2026-06-24.md"
 
 EXPECTED_HEADINGS = [
     "## 1. Verdict",

@@ -18,7 +18,7 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DOC = REPO_ROOT / "explorations" / "qft-shadow-extraction-certificate-2026-06-24.md"
+DOC = REPO_ROOT / "explorations" / "cycle-gates-and-audits" / "qft-shadow-extraction-certificate-2026-06-24.md"
 
 REQUIRED_HEADINGS = [
     "## 1. Verdict",

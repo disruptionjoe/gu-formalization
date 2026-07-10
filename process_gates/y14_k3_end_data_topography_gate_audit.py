@@ -5,7 +5,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ARTIFACT = ROOT / "explorations" / "y14-k3-end-data-topography-gate-2026-06-26.md"
+ARTIFACT = ROOT / "explorations" / "generation-sector" / "y14-k3-end-data-topography-gate-2026-06-26.md"
 
 
 class Y14K3EndDataTopographyGateAudit(unittest.TestCase):

@@ -17,7 +17,7 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-ARTIFACT = REPO_ROOT / "explorations" / "mission-a-generation-count-analytic-machinery-2026-06-24.md"
+ARTIFACT = REPO_ROOT / "explorations" / "cycle-gates-and-audits" / "mission-a-generation-count-analytic-machinery-2026-06-24.md"
 
 
 REQUIRED_HEADINGS = [

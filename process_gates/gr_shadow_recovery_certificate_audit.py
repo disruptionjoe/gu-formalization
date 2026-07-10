@@ -16,15 +16,15 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-CERTIFICATE = ROOT / "explorations" / "gr-shadow-recovery-certificate-2026-06-24.md"
-PRIMARY_CONTRACT = ROOT / "explorations" / "primary-gu-interface-contract-2026-06-24.md"
-TANGENT_GATE = ROOT / "explorations" / "constraint-first-ig-tangent-space-gate-2026-06-24.md"
-EXACT_GATE = ROOT / "explorations" / "exact-schwarzschild-kerr-el-gate-2026-06-24.md"
-ACTION_GATE = ROOT / "explorations" / "gu-action-4d-physics-gate-2026-06-24.md"
-MINIMAL_ACTION = ROOT / "explorations" / "gu-minimal-action-spec-2026-06-24.md"
-CLOSED_LOOP = ROOT / "explorations" / "gu-closed-loop-action-ig-branch-2026-06-24.md"
+CERTIFICATE = ROOT / "explorations" / "geometry-curvature-emergence" / "gr-shadow-recovery-certificate-2026-06-24.md"
+PRIMARY_CONTRACT = ROOT / "explorations" / "cycle-gates-and-audits" / "primary-gu-interface-contract-2026-06-24.md"
+TANGENT_GATE = ROOT / "explorations" / "misc" / "constraint-first-ig-tangent-space-gate-2026-06-24.md"
+EXACT_GATE = ROOT / "explorations" / "geometry-curvature-emergence" / "exact-schwarzschild-kerr-el-gate-2026-06-24.md"
+ACTION_GATE = ROOT / "explorations" / "cycle-gates-and-audits" / "gu-action-4d-physics-gate-2026-06-24.md"
+MINIMAL_ACTION = ROOT / "explorations" / "cycle-gates-and-audits" / "gu-minimal-action-spec-2026-06-24.md"
+CLOSED_LOOP = ROOT / "explorations" / "misc" / "gu-closed-loop-action-ig-branch-2026-06-24.md"
 WEAK_FIELD = ROOT / "canon" / "schwarzschild-weak-field-rfail.md"
-DAG = ROOT / "explorations" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
+DAG = ROOT / "explorations" / "cycle-gates-and-audits" / "live-claim-dag-fault-finality-ledger-2026-06-24.md"
 
 
 EXPECTED_PIPELINE = {

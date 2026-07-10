@@ -18,7 +18,7 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-DOC = REPO_ROOT / "explorations" / "cycle2-vz-actual-operator-e-block-certificate-2026-06-24.md"
+DOC = REPO_ROOT / "explorations" / "cycle-gates-and-audits" / "cycle2-vz-actual-operator-e-block-certificate-2026-06-24.md"
 
 EXPECTED_VERDICT = "ACTUAL_OPERATOR_E_BLOCK_CERTIFICATE_OPEN__TYPED_SPINE_FORMAL_BLOCK_TESTED_ONLY"
 

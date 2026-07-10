@@ -20,7 +20,7 @@ import unittest
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-BRIDGE_DOC = REPO_ROOT / "explorations" / "y14-k3-index-bridge-theorem-or-nogo-2026-06-24.md"
+BRIDGE_DOC = REPO_ROOT / "explorations" / "generation-sector" / "y14-k3-index-bridge-theorem-or-nogo-2026-06-24.md"
 
 
 class BridgeDecision(str, Enum):

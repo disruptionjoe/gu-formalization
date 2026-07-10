@@ -5,9 +5,9 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-GOAL1 = ROOT / "explorations" / "sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md"
-GOAL2 = ROOT / "explorations" / "sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md"
-GOAL3 = ROOT / "explorations" / "sequential-goal-3-sx-characteristic-readout-2026-06-26.md"
+GOAL1 = ROOT / "explorations" / "generation-sector" / "sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md"
+GOAL2 = ROOT / "explorations" / "generation-sector" / "sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md"
+GOAL3 = ROOT / "explorations" / "generation-sector" / "sequential-goal-3-sx-characteristic-readout-2026-06-26.md"
 NEXT_STEPS = ROOT / "NEXT-STEPS.md"
 
 
@@ -98,9 +98,9 @@ class SequentialSourceToIndexGoalsAudit(unittest.TestCase):
 
     def test_next_steps_links_all_three_artifacts(self):
         for path in [
-            "explorations/sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md",
-            "explorations/sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md",
-            "explorations/sequential-goal-3-sx-characteristic-readout-2026-06-26.md",
+            "explorations/generation-sector/sequential-goal-1-dgu-source-row-same-operator-2026-06-26.md",
+            "explorations/generation-sector/sequential-goal-2-y14-k3-families-pushforward-2026-06-26.md",
+            "explorations/generation-sector/sequential-goal-3-sx-characteristic-readout-2026-06-26.md",
         ]:
             with self.subTest(path=path):
                 self.assertIn(path, self.next_steps)

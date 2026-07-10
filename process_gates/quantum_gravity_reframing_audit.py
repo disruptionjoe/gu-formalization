@@ -16,7 +16,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-MAP_PATH = ROOT / "explorations" / "quantum-gravity-reframing-no-go-map-2026-06-24.md"
+MAP_PATH = ROOT / "explorations" / "firewall-and-two-geometries" / "quantum-gravity-reframing-no-go-map-2026-06-24.md"
 
 EXPECTED_DECISIONS = {
     "WITTEN": "BYPASSED",
@@ -56,9 +56,9 @@ REQUIRED_FORBIDDEN_IDS = {
 }
 
 SUPPORTING_SCHEMA_SENTINELS = {
-    "explorations/source-geometry-not-quantized-gravity-contract-2026-06-24.md",
-    "explorations/qft-shadow-extraction-certificate-2026-06-24.md",
-    "explorations/gr-shadow-recovery-certificate-2026-06-24.md",
+    "explorations/firewall-and-two-geometries/source-geometry-not-quantized-gravity-contract-2026-06-24.md",
+    "explorations/cycle-gates-and-audits/qft-shadow-extraction-certificate-2026-06-24.md",
+    "explorations/geometry-curvature-emergence/gr-shadow-recovery-certificate-2026-06-24.md",
 }
 
 

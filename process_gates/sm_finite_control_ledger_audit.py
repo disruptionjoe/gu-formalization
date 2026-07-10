@@ -16,7 +16,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 LEDGER = (
     REPO_ROOT
     / "explorations"
-    / "sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md"
+    / "type-ii1-spectral" / "sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md"
 )
 
 ALLOWED_STATUSES = {"derive", "host", "import", "open", "fail"}

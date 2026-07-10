@@ -17,7 +17,7 @@ from typing import Any
 
 
 ROOT = Path(__file__).resolve().parents[1]
-DOC = ROOT / "explorations" / "cycle3-connes-control-load-bearing-audit-2026-06-24.md"
+DOC = ROOT / "explorations" / "type-ii1-spectral" / "cycle3-connes-control-load-bearing-audit-2026-06-24.md"
 
 REQUIRED_HEADINGS = [
     "## 1. Verdict",

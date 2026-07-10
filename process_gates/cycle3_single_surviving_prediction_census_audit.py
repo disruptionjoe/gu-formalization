@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-ARTIFACT = ROOT / "explorations" / "cycle3-single-surviving-prediction-census-2026-06-24.md"
+ARTIFACT = ROOT / "explorations" / "cycle-gates-and-audits" / "cycle3-single-surviving-prediction-census-2026-06-24.md"
 
 
 def _artifact_text() -> str:

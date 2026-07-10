@@ -19,14 +19,14 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DOC = (
     REPO_ROOT
     / "explorations"
-    / "cycle3-dark-energy-predictive-sign-coupling-gate-2026-06-24.md"
+    / "cycle-gates-and-audits" / "cycle3-dark-energy-predictive-sign-coupling-gate-2026-06-24.md"
 )
 
-OQ3A = REPO_ROOT / "explorations" / "dark-energy-oq3a-slow-roll-ic-sign-2026-06-23.md"
-WINDOW = REPO_ROOT / "explorations" / "dark-energy-w-window-mechanism-2026-06-23.md"
-BRANCH = REPO_ROOT / "explorations" / "flrw-theta-xi-branch-reduction-2026-06-24.md"
-CYCLE2 = REPO_ROOT / "explorations" / "cycle2-source-forced-s-ig-dyn-action-gate-2026-06-24.md"
-MISSION = REPO_ROOT / "explorations" / "mission-a-lambda-dark-energy-provenance-2026-06-24.md"
+OQ3A = REPO_ROOT / "explorations" / "dark-energy-cosmology" / "dark-energy-oq3a-slow-roll-ic-sign-2026-06-23.md"
+WINDOW = REPO_ROOT / "explorations" / "dark-energy-cosmology" / "dark-energy-w-window-mechanism-2026-06-23.md"
+BRANCH = REPO_ROOT / "explorations" / "dark-energy-cosmology" / "flrw-theta-xi-branch-reduction-2026-06-24.md"
+CYCLE2 = REPO_ROOT / "explorations" / "cycle-gates-and-audits" / "cycle2-source-forced-s-ig-dyn-action-gate-2026-06-24.md"
+MISSION = REPO_ROOT / "explorations" / "dark-energy-cosmology" / "mission-a-lambda-dark-energy-provenance-2026-06-24.md"
 
 REQUIRED_HEADINGS = [
     "## 1. Verdict",

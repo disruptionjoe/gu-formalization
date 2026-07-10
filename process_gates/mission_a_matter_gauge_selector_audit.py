@@ -19,7 +19,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DOC = (
     REPO_ROOT
     / "explorations"
-    / "mission-a-matter-gauge-selector-construction-2026-06-24.md"
+    / "geometry-curvature-emergence" / "mission-a-matter-gauge-selector-construction-2026-06-24.md"
 )
 
 REQUIRED_HEADINGS = [
