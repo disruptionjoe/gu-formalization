@@ -67,6 +67,7 @@ selected notes below and in each script header.
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
+- `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_process_readme_surface_map_audit.py`
 - `lab_process_runbooks_readme_inventory_audit.py`
@@ -144,6 +145,13 @@ This is a navigation/process guard only; it does not validate research claims.
 the live direct automation entries and preserves the boundary that automation prompts, logs,
 evidence, and helpers are operational provenance rather than load-bearing research. This is a
 navigation/process guard only; it does not inspect run payloads or validate research claims.
+
+## Lab active-research README surface-map gate
+
+`lab_active_research_readme_surface_map_audit.py` checks that
+`lab/active-research/README.md` keeps its declared Current Threads table wired to live
+local surfaces and preserves the active-research / not-yet-canon boundary. This is a
+navigation/process guard only; it does not validate theorem packets or move research status.
 
 ## Lab process README surface-map gate
 
