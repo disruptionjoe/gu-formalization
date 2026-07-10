@@ -68,6 +68,7 @@ selected notes below and in each script header.
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
+- `lab_process_readme_surface_map_audit.py`
 - `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
 - `lab_sources_readme_surface_map_audit.py`
@@ -143,6 +144,14 @@ This is a navigation/process guard only; it does not validate research claims.
 the live direct automation entries and preserves the boundary that automation prompts, logs,
 evidence, and helpers are operational provenance rather than load-bearing research. This is a
 navigation/process guard only; it does not inspect run payloads or validate research claims.
+
+## Lab process README surface-map gate
+
+`lab_process_readme_surface_map_audit.py` checks that `lab/process/README.md` names
+the live direct process directories and direct process files, while preserving the boundary
+that process navigation does not move claim status, canon verdicts, proof status, research
+verdicts, or public posture. This is a navigation/process guard only; it does not inspect
+process payloads or validate research claims.
 
 ## Lab process runbooks README inventory gate
 
