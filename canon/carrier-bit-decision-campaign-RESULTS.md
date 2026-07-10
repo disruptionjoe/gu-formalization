@@ -139,6 +139,21 @@ B-favoring PTZ point it had available).
 - **Firewall + acausal trap:** clean in all legs and referees (A-hat from sigma only; no chi(K3);
   no A-hat=3; the bare 58.72 commutator used solely as a nonvanishing premise, never driven to 0).
 
+## Corners update (2026-07-10, escape-corners campaign)
+
+The two PARTIAL corners were pressure-tested (`canon/escape-corners-campaign-RESULTS.md`).
+Corner (a): closed at author-assertion tier only -- GP stays disengaged at GU's stated massive
+point, but the spin-3/2 has NO invariant mass channel (16x16 singlet-free, computed) and its mass
+rides the same single VEV dial whose decrease is the generation mechanism. Corner (b):
+**OPEN-toward-A** -- the graded-IG extension exists (machine-complete) and the scalar-spinor
+ghost's subtraction is EXACTLY carrier A with A's field space auto-declared; selecting that
+sub-slot is itself SG4, and super-Higgs at the massive point lands the -40/(0,1,2) row instead.
+Net: the B-tilt HOLDS but this campaign's license prong degrades ("no mechanism exists" -> "no
+mechanism stated, but a GU-native one exists at toy grade"). Deepest reframe: the carriers are two
+VACUUM PHASES of one stated modulus (A at the chiral point, B at the massive point). The
+declaration build must report a TRIPLE (invariance / declaration / phase), braced against the
+A-side; the cheapest kill shot is the anchor-scale test of the B1 algebra.
+
 ## What would decide the bit (unchanged, now sharper)
 
 Build the source action's gravitino sector and read its **field-space declaration**: gamma-trace-

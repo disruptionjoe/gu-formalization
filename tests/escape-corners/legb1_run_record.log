@@ -1,0 +1,212 @@
+==============================================================================
+LEG-B1: graded/fermionic extension of the inhomogeneous gauge group
+==============================================================================
+
+--- PART 1: Cl(4,0) infrastructure (exact, Q(i)) ---
+  ok [  1] Clifford relations {g_a,g_b} = 2 delta_ab (all 16)  [t=0s]
+  ok [  2] gamma5^2 = 1  [t=0s]
+  ok [  3] chiral projectors P+ P- (idempotent, complementary)  [t=0s]
+  ok [  4] spin intertwiner [dSigma(X), gamma_c] = gamma(X e_c) (all 24)  [t=0s]
+  ok [  5] dSigma is a Lie algebra homomorphism (all 36 pairs)  [t=0s]
+  ok [  6] dSigma commutes with gamma5 (chirality preserved)  [t=0s]
+  ok [  7] C-intertwiners unique up to scale: dim(C-)=1 dim(C+)=1  [t=0s]
+       C- symmetry: antisym ; C+ symmetry: antisym
+       C- g_a: sym,sym,sym,sym
+       C- Sigma_ab: sym,sym,sym,sym,sym,sym
+  ok [  8] found C with C*gamma_a symmetric for all a (vector channel)  [t=0s]
+  ok [  9] found C with C*Sigma_ab symmetric (ad channel)  [t=0s]
+  ok [ 10] so(4) has trivial centralizer in itself (kill-lemma premise)  [t=0s]
+
+--- PART 2: Hom dimensions by exact character arithmetic ---
+  RG (i) O0(S)          Hom(Sym2M,g)= 2  Hom(Sym2M,transl)=  8  Hom(transl x M,M)=  8
+  RG (ii) O1(S)         Hom(Sym2M,g)=20  Hom(Sym2M,transl)= 80  Hom(transl x M,M)=128
+  RG (iii) ad(x)S       Hom(Sym2M,g)=12  Hom(Sym2M,transl)= 48  Hom(transl x M,M)= 64
+  RG (iv) O0(S)+O1(S)   Hom(Sym2M,g)=30  Hom(Sym2M,transl)=120  Hom(transl x M,M)=200
+  RD (i) O0(S)          Hom(Sym2M,g)= 2  Hom(Sym2M,transl)=  2  Hom(transl x M,M)=  4
+  RD (ii) O1(S)         Hom(Sym2M,g)= 8  Hom(Sym2M,transl)= 12  Hom(transl x M,M)= 24
+  RD (iii) ad(x)S       Hom(Sym2M,g)=12  Hom(Sym2M,transl)= 20  Hom(transl x M,M)= 40
+  RD (iv) O0(S)+O1(S)   Hom(Sym2M,g)=14  Hom(Sym2M,transl)= 24  Hom(transl x M,M)= 48
+  ok [ 11] RG (i): g-channel dim = 2 (chiral Sigma-pairings)  [t=0s]
+  ok [ 12] RG (i): translation-channel dim = 8 (4 covectors x 2 chiralities)  [t=0s]
+  ok [ 13] RD (i): translation-channel dim = 2 (delta-type + eps-type)  [t=0s]
+  ok [ 14] RG (i) O0(S): translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 15] RG (ii) O1(S): translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 16] RG (iii) ad(x)S: translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 17] RG (iv) O0(S)+O1(S): translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 18] RD (i) O0(S): translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 19] RD (ii) O1(S): translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 20] RD (iii) ad(x)S: translation channel NONEMPTY (existence)  [t=0s]
+  ok [ 21] RD (iv) O0(S)+O1(S): translation channel NONEMPTY (existence)  [t=0s]
+  RD cross {O0(S) x O1(S)} -> transl: dim = 10
+  RD rho: transl x O0(S) -> O1(S):    dim = 10
+  ok [ 22] RD: nonzero [transl, O0(S)] -> O1(S) action EXISTS (algebraic gravitino-shadow slot)  [t=0s]
+
+--- PART 3: even algebra ig0, exact Jacobi ---
+  ok [ 23] even basis: 6 + 24 = 30  [t=0s]
+  ok [ 24] RG: even Jacobi on all C(30,3)=4060 basis triples  [t=28s]
+  ok [ 25] RG: translation part abelian  [t=29s]
+  ok [ 26] RD: even Jacobi on all C(30,3)=4060 basis triples  [t=63s]
+  ok [ 27] RD: translation part abelian  [t=64s]
+
+--- PART 4: odd modules and equivariant symmetric brackets ---
+  pattern tables built [t=250s]
+  RG (i) O0(S)          patterns=10 equivariant combos=10 [t=254s]
+  RG (ii) O1(S)         patterns=10 equivariant combos=10 [t=280s]
+  RG (iii) ad(x)S       patterns=16 equivariant combos=16 [t=401s]
+  RG (iv) O0(S)+O1(S)   patterns=20 equivariant combos=20 [t=505s]
+  RD (i) O0(S)          patterns= 6 equivariant combos= 6 [t=506s]
+  RD (ii) O1(S)         patterns=14 equivariant combos=14 [t=555s]
+  RD (iii) ad(x)S       patterns= 8 equivariant combos= 7 [t=644s]
+  RD (iv) O0(S)+O1(S)   patterns=26 equivariant combos=26 [t=813s]
+  ok [ 28] RG (i): all 10 realized patterns equivariant (8 transl + 2 g)  [t=813s]
+  ok [ 29] RD (i): >= 3 equivariant combos (transl delta+eps and g-channel)  [t=813s]
+  ok [ 30] RG (i) O0(S): NONZERO translation-channel equivariant bracket realized (8 transl-only, 2 g-touching)  [t=813s]
+  ok [ 31] RG (ii) O1(S): NONZERO translation-channel equivariant bracket realized (8 transl-only, 2 g-touching)  [t=815s]
+  ok [ 32] RG (iii) ad(x)S: NONZERO translation-channel equivariant bracket realized (16 transl-only, 0 g-touching)  [t=818s]
+  ok [ 33] RG (iv) O0(S)+O1(S): NONZERO translation-channel equivariant bracket realized (16 transl-only, 4 g-touching)  [t=823s]
+  ok [ 34] RD (i) O0(S): NONZERO translation-channel equivariant bracket realized (2 transl-only, 2 g-touching)  [t=823s]
+  ok [ 35] RD (ii) O1(S): NONZERO translation-channel equivariant bracket realized (7 transl-only, 2 g-touching)  [t=825s]
+  ok [ 36] RD (iii) ad(x)S: NONZERO translation-channel equivariant bracket realized (5 transl-only, 0 g-touching)  [t=827s]
+  ok [ 37] RD (iv) O0(S)+O1(S): NONZERO translation-channel equivariant bracket realized (15 transl-only, 4 g-touching)  [t=834s]
+
+--- PART 5: closure of the minimal graded extension ---
+  ok [ 38] RG (i) O0(S): all patterns symmetric {m,m'}={m',m} (generic args)  [t=834s]
+  ok [ 39] RG (i) O0(S): (J-b) g-module property (15 pairs x 4)  [t=834s]
+  ok [ 40] RG (i) O0(S): [g,transl] stays in transl (witness)  [t=834s]
+  ok [ 41] RG (i) O0(S): (J-c) g-equivariance (finder-verified; spot x6)  [t=834s]
+  ok [ 42] RG (i) O0(S): (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=834s]
+  ok [ 43] RG (i) O0(S): (J-c) transl witness bracket = 0  [t=834s]
+  ok [ 44] RG (i) O0(S): actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=834s]
+  ok [ 45] RG (i) O0(S): (J-d) cubic identity, FULL loop  [t=834s]
+  ok [ 46] RG (ii) O1(S): all patterns symmetric {m,m'}={m',m} (generic args)  [t=835s]
+  ok [ 47] RG (ii) O1(S): (J-b) g-module property (15 pairs x 16)  [t=836s]
+  ok [ 48] RG (ii) O1(S): [g,transl] stays in transl (witness)  [t=836s]
+  ok [ 49] RG (ii) O1(S): (J-c) g-equivariance (finder-verified; spot x6)  [t=836s]
+  ok [ 50] RG (ii) O1(S): (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=836s]
+  ok [ 51] RG (ii) O1(S): (J-c) transl witness bracket = 0  [t=836s]
+  ok [ 52] RG (ii) O1(S): actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=836s]
+  ok [ 53] RG (iii) ad(x)S: all patterns symmetric {m,m'}={m',m} (generic args)  [t=843s]
+  ok [ 54] RG (iii) ad(x)S: (J-b) g-module property (15 pairs x 24)  [t=852s]
+  ok [ 55] RG (iii) ad(x)S: [g,transl] stays in transl (witness)  [t=852s]
+  ok [ 56] RG (iii) ad(x)S: (J-c) g-equivariance (finder-verified; spot x6)  [t=852s]
+  ok [ 57] RG (iii) ad(x)S: (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=852s]
+  ok [ 58] RG (iii) ad(x)S: (J-c) transl witness bracket = 0  [t=852s]
+  ok [ 59] RG (iii) ad(x)S: actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=852s]
+  ok [ 60] RG (iv) O0(S)+O1(S): all patterns symmetric {m,m'}={m',m} (generic args)  [t=856s]
+  ok [ 61] RG (iv) O0(S)+O1(S): (J-b) g-module property (15 pairs x 20)  [t=858s]
+  ok [ 62] RG (iv) O0(S)+O1(S): [g,transl] stays in transl (witness)  [t=858s]
+  ok [ 63] RG (iv) O0(S)+O1(S): (J-c) g-equivariance (finder-verified; spot x6)  [t=858s]
+  ok [ 64] RG (iv) O0(S)+O1(S): (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=858s]
+  ok [ 65] RG (iv) O0(S)+O1(S): (J-c) transl witness bracket = 0  [t=858s]
+  ok [ 66] RG (iv) O0(S)+O1(S): actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=858s]
+  ok [ 67] RD (i) O0(S): all patterns symmetric {m,m'}={m',m} (generic args)  [t=858s]
+  ok [ 68] RD (i) O0(S): (J-b) g-module property (15 pairs x 4)  [t=859s]
+  ok [ 69] RD (i) O0(S): [g,transl] stays in transl (witness)  [t=859s]
+  ok [ 70] RD (i) O0(S): (J-c) g-equivariance (finder-verified; spot x6)  [t=859s]
+  ok [ 71] RD (i) O0(S): (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=859s]
+  ok [ 72] RD (i) O0(S): (J-c) transl witness bracket = 0  [t=859s]
+  ok [ 73] RD (i) O0(S): actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=859s]
+  ok [ 74] RD (i) O0(S): (J-d) cubic identity, FULL loop  [t=859s]
+  ok [ 75] RD (ii) O1(S): all patterns symmetric {m,m'}={m',m} (generic args)  [t=860s]
+  ok [ 76] RD (ii) O1(S): (J-b) g-module property (15 pairs x 16)  [t=862s]
+  ok [ 77] RD (ii) O1(S): [g,transl] stays in transl (witness)  [t=862s]
+  ok [ 78] RD (ii) O1(S): (J-c) g-equivariance (finder-verified; spot x6)  [t=862s]
+  ok [ 79] RD (ii) O1(S): (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=862s]
+  ok [ 80] RD (ii) O1(S): (J-c) transl witness bracket = 0  [t=862s]
+  ok [ 81] RD (ii) O1(S): actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=862s]
+  ok [ 82] RD (iii) ad(x)S: all patterns symmetric {m,m'}={m',m} (generic args)  [t=865s]
+  ok [ 83] RD (iii) ad(x)S: (J-b) g-module property (15 pairs x 24)  [t=875s]
+  ok [ 84] RD (iii) ad(x)S: [g,transl] stays in transl (witness)  [t=875s]
+  ok [ 85] RD (iii) ad(x)S: (J-c) g-equivariance (finder-verified; spot x6)  [t=875s]
+  ok [ 86] RD (iii) ad(x)S: (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=875s]
+  ok [ 87] RD (iii) ad(x)S: (J-c) transl witness bracket = 0  [t=875s]
+  ok [ 88] RD (iii) ad(x)S: actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=875s]
+  ok [ 89] RD (iv) O0(S)+O1(S): all patterns symmetric {m,m'}={m',m} (generic args)  [t=880s]
+  ok [ 90] RD (iv) O0(S)+O1(S): (J-b) g-module property (15 pairs x 20)  [t=884s]
+  ok [ 91] RD (iv) O0(S)+O1(S): [g,transl] stays in transl (witness)  [t=884s]
+  ok [ 92] RD (iv) O0(S)+O1(S): (J-c) g-equivariance (finder-verified; spot x6)  [t=884s]
+  ok [ 93] RD (iv) O0(S)+O1(S): (J-c) transl case: BT g-part = 0 on ALL pairs (+ abelian transl => [a,{m,m'}] = 0 = RHS)  [t=884s]
+  ok [ 94] RD (iv) O0(S)+O1(S): (J-c) transl witness bracket = 0  [t=884s]
+  ok [ 95] RD (iv) O0(S)+O1(S): actg(0) = 0 (cubic terms vanish since BT is transl-valued and transl acts 0)  [t=884s]
+       => ALL FOUR candidates close as super-Lie algebras in BOTH regimes
+          with {odd,odd} valued in the translation slot Omega^1(ad).
+
+  kill lemma (minimal ansatz): g-channel violates (a,Q,Q') Jacobi
+  ok [ 96] witness: a=e_0(x)M_(0, 1), (Q_0,Q_0): [a,{Q,Q'}_g] != 0, RHS = 0  [t=884s]
+       => with [transl,odd]=0 the anticommutator CANNOT take values in the
+          gauge algebra g; it is forced into the Omega^1(ad) slot. This is
+          the transcript's own shape: 'The space of four momentum becomes
+          the space of gauge potentials' [00:46:02].
+
+PARTS 1-5 complete: 96 checks [t=884s]
+
+--- PART 6: extended ansatz, candidate (i), [transl,odd] = rho ---
+  RG: rho patterns=8 equivariant=8 (character dim=8)
+  ok [ 97] RG (i): all realized rho patterns are equivariant  [t=896s]
+  RG: E1 (a,b,Q) -> 20 distinct equations
+  RG: E2 (a,Q,Q') -> 40 distinct equations
+  RG: E3 cubic -> 0 distinct equations
+  RG: E1 Groebner: rho forced to 0 on variety? True
+  ok [ 98] RG (i) EXTENDED: rho forced 0 => alpha forced 0 (g-channel DEAD; only transl-channel closures survive)  [t=1118s]
+  RD: rho patterns=4 equivariant=4 (character dim=4)
+  ok [ 99] RD (i): all realized rho patterns are equivariant  [t=1125s]
+  RD: E1 (a,b,Q) -> 4 distinct equations
+  RD: E2 (a,Q,Q') -> 24 distinct equations
+  RD: E3 cubic -> 0 distinct equations
+  RD: E1 Groebner: rho forced to 0 on variety? False
+  RD: E1 GB basis size 4: ['r0*r2', 'r1*r2', 'r0*r3', 'r1*r3']
+  RD: probe alpha_k=1 inconsistent? {'a4': True, 'a5': True}
+  ok [100] RD (i) EXTENDED: alpha=1 INCONSISTENT on the full nonzero-rho variety => g-valued anticommutator DEAD in RD too (ansatz-complete: rho realized = character dim)  [t=1200s]
+  RD: probe rho_k=1: (consistent, transl-B params that can be 1 jointly): {'r0': (True, ['b2', 'b3']), 'r1': (True, ['b2', 'b3']), 'r2': (True, ['b2', 'b3']), 'r3': (True, ['b2', 'b3'])}
+
+--- PART 7: candidate (iv) degree-graded extension (RD) ---
+  cross patterns: 12 realized, 12 equivariant (character dim 10): ['X[Sig+]', 'X[Sig-]', 'X[delta,g5=0]', 'X[eps,g5=0]', 'X[delta,g5=1]', 'X[eps,g5=1]', 'X[Cdelta,+]', 'X[Ceps,+]', 'X[Cdelta,-]', 'X[Ceps,-]', 'X2[Sig+]', 'X2[Sig-]']
+  rho (transl x S -> VS): 10 patterns, 10 equivariant (character dim 10)
+  ok [101] candidate (iv): nonzero equivariant [transl,S]->O1(S) actions realized  [t=1464s]
+  params: |uA|=2 |uB|=4 |uK|=12 |uR|=10
+  ok [102] (iv): rho(a) rho(b) = 0 STRUCTURALLY (rho: S->VS, kills VS) => (a,b,odd) Jacobi automatic  [t=1464s]
+  E7 (a,S,S)+(cubics) -> 72 distinct equations [t=1806s]
+  ok [103] (iv): [a, {S,VS}] = 0 (transl-valued cross bracket, abelian) -- witness  [t=1806s]
+  ok [104] (iv): B(rho(a)S, VS) = 0 in strict ansatz ({VS,VS} = 0) -- witness  [t=1806s]
+  sympy system: 72 equations, 28 params
+  relaxed linear system: 114 vars, nullspace dim 78, alpha!=0 possible in relaxation: False
+  realization probes (random exact rho): [(nullspace dim, alpha live, kappa live)] = [(4, False, True), (4, False, True), (4, False, True), (4, False, True), (4, False, True), (4, False, True)]
+  ok [105] (iv): constructive witness found: nonzero exact rho with a compatible bracket solution  [t=1808s]
+  ok [106] (iv) WITNESS: (a,eps,eps') Jacobi holds, ALL 24 x 10 instances  [t=1833s]
+  ok [107] (iv) WITNESS: (a,eps,Psi) Jacobi holds, ALL 24 x 64 instances  [t=1982s]
+  ok [108] (iv) WITNESS: (a,Psi,Psi') Jacobi holds (witness set)  [t=1983s]
+  ok [109] (iv) WITNESS: cubic Jacobi holds (all S-heavy + witness set)  [t=1999s]
+  ok [110] (iv) WITNESS: g-equivariance of the witness bracket (spot x6)  [t=1999s]
+  WITNESS content: nonzero alpha=[] beta=['b2', 'b3'] kappa=['k22', 'k23', 'k24', 'k25', 'k30', 'k31'] rho=['r0', 'r1', 'r2', 'r3', 'r4', 'r5', 'r6', 'r7', 'r8', 'r9']
+
+--- PART 8: locality (two-point mapping algebra) ---
+  ok [111] two-point mapping algebra Maps({p,q}, s) closes pointwise (generic exact elements) => odd parameters may vary point to point  [t=2002s]
+       Contrast super-Poincare: there {Q,Q} = P is a DERIVATIVE operator, so
+       local epsilon(x) forces gravity; here {Q,Q} lands in the ALGEBRAIC
+       Omega^1(ad) slot ('four momentum becomes gauge potentials'), which is
+       already a field direction of IG -- locality costs nothing.
+
+==============================================================================
+SUMMARY
+==============================================================================
+
+ EXISTENCE: YES. For ALL FOUR odd candidates -- O0(S), O1(S) (RS-type),
+ ad(x)S, and the transcript's full O0(S)+O1(S) -- and in BOTH readings of
+ the IG action (gauge-only / diagonal), the inhomogeneous gauge algebra
+ ig0 = g (+) Omega^1(ad) admits a nonzero graded (super-Lie) extension:
+     {odd, odd}  <=  Omega^1(ad)   (translation slot),
+     [transl, odd] = 0,
+ with all super-Jacobi identities verified exactly.
+ STRUCTURE: {Q,Q'} valued in the GAUGE-POTENTIAL slot, NOT in the gauge
+ algebra: with [transl,odd]=0 the g-valued channel is KILLED exactly by the
+ (transl,odd,odd) Jacobi (witness printed). Extended ansatz (PART 6/7):
+ RG: rho=0, alpha=0 forced; transl-channel only
+ RD: rho-variety = two chiral planes; alpha DEAD; rho!=0 closures: {'r0': (True, ['b2', 'b3']), 'r1': (True, ['b2', 'b3']), 'r2': (True, ['b2', 'b3']), 'r3': (True, ['b2', 'b3'])}
+ (iv) relaxation alpha possible: False ; exact alpha verdict: alpha=0 FORCED (already at relaxed-linear level)
+ (iv) realization probes (alpha live, kappa live): False True
+ (iv) constructive witness: alpha=[], 2 beta, 6 kappa, 10 rho nonzero
+ LOCALITY: all structure maps pointwise => mapping algebra closes with
+ point-dependent odd parameters (two-point machine proxy passed).
+
+TOTAL: 111 checks passed, exit 0 [t=2002s]
+MAIN RUN EXIT: 0
