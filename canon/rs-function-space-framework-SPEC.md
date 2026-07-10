@@ -24,6 +24,14 @@ the remaining work is plugging into machinery, not rebuilding it.
 - **Base:** a spin 4-manifold `X` (later, a fibered geometry `Y` with `K3` fiber for the family step).
 - **RS bundle:** the gamma-traceless rank-3/2 field, sections of `(T*X (x) S)_gamma-traceless`; the
   fiber carrier is the `j=1` triplet with its cross-chirality `(+96,-96)` Krein form `K`.
+  **SCOPE CORRECTION 2026-07-10:** this bundle description and the `21*sigma/8` index pin in Section
+  4 name DIFFERENT published objects. The gamma-traceless bundle's honest operator (Homma-Semmelmann
+  Prop 3.1(i); Baer-Mazzeo) has `ind Q = 19*sigma/8 = -38` on K3 and order-3 Nikulin rho classes
+  `(0,2,1)/3` NONZERO; the `21*sigma/8 = -42` pin is the ghost-subtracted gravitino complex
+  `D (x) (T_C - 1C)`, order-3 class `(0,0,0)`. They differ by exactly two reversed-chirality
+  spin-1/2 units. Every computed number in this SPEC is carrier-A (ghost-subtracted) arithmetic;
+  which carrier the GU generation arena names is the SG4 identification question. See
+  `canon/gamma-traceless-38-adjudication-RESULTS.md`.
 - **Operator:** the RS Dirac-type operator `D_RS` on `L^2`-sections; chirality grading `Gamma`, Krein
   form `K` extended fiberwise (`K Gamma = -Gamma K`, cross-chirality).
 - **Count:** the net chiral index of `D_RS` (or the spectral flow of a family).

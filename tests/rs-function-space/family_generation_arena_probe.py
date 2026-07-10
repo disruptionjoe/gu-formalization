@@ -14,6 +14,13 @@ whether any of them reaches N != 0 mod 3. FIREWALL (DEAD-ENDS.md, absorbed/gu-so
 disguised chi-import ch2=24 with the illegitimate /8 normalization (=> "3") is an automatic FAIL and
 is shown ONLY as the contrast that a valid S_IG may NOT use. The honest value is ch2(S_X)[K3] = -5376.
 
+SCOPING NOTE (2026-07-10, -38 adjudication): the "every honest number == 0 mod 3" sweep below is
+CARRIER-A-SCOPED (ghost-subtracted gravitino complex, 21*sigma/8 convention). The honest geometric
+gamma-traceless operator (Homma-Semmelmann) is a different published K-class with ind Q = 19*sigma/8
+= -38 == 1 mod 3 on K3 and NONZERO order-3 Nikulin rho classes (0,2,1)/3. Which carrier the GU
+generation arena names is the SG4 identification question; the fiberwise -38 != 0 mod 3 is NOT a
+pass of the families criterion. See canon/gamma-traceless-38-adjudication-RESULTS.md.
+
 Grade: computed / exact (rational arithmetic). Target-import-safe. Internal tier (caveat (e)).
 Run: python tests/rs-function-space/family_generation_arena_probe.py
 """

@@ -35,7 +35,7 @@ Method: read the families e-invariant as a `Z/24` class, `e = N/24`; the count c
 | `ch2(S_X)[K3]` honest | -5376 -> 0 | (0, 0) | 2-primary |
 | RS boundary APS eta (STEP 2) | 0 | (0, 0) | 2-primary |
 | **NEW: order-3 Nikulin monodromy Lefschetz** `L(phi)=6` | 6 -> 6 | (6, **0**) | **2-primary -- even the order-3 clutching's topological invariant is 0 mod 3** |
-| fine equivariant rho of the order-3 monodromy | -- | -- | **BLOCKED_NEEDS_SPEC (not fabricated)** *(UPDATE 2026-07-10: COMPUTED at geometric-benchmark grade -- Dirac rho carries a genuine nonzero Z/3 class (0,1,2)/3; RS rho is 2-primary, class (0,0,0), structurally (twist character -3 == 0 mod 3). "Not computable from existing data" was over-conservative: the benchmark IS computable via Donnelly + Nikulin + Hodge. The GU-operator-identity caveat stays open. See `canon/order3-equivariant-rho-RESULTS.md`.)* |
+| fine equivariant rho of the order-3 monodromy | -- | -- | **BLOCKED_NEEDS_SPEC (not fabricated)** *(UPDATE 2026-07-10: COMPUTED at geometric-benchmark grade -- Dirac rho carries a genuine nonzero Z/3 class (0,1,2)/3; the ghost-subtracted RS complex (carrier A, -42 = 21 sigma/8) is 2-primary, class (0,0,0), structurally (twist character -3 == 0 mod 3). "Not computable from existing data" was over-conservative: the benchmark IS computable via Donnelly + Nikulin + Hodge. See `canon/order3-equivariant-rho-RESULTS.md`. SCOPE, same day: the -38 adjudication showed the honest GEOMETRIC gamma-traceless operator (carrier B, Homma-Semmelmann, -38 = 19 sigma/8) is a DIFFERENT published K-class with NONZERO order-3 classes (0,2,1)/3; the generation-arena verdict is a named binary riding SG4. See `canon/gamma-traceless-38-adjudication-RESULTS.md`.)* |
 
 ## The new datum and why it matters
 

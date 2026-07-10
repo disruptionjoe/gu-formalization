@@ -94,20 +94,27 @@ to a generation count, and the generation-arena operator (RS) is exactly the one
 
 ## Honest limits (stated, not resolved)
 
-1. **Operator identity (the load-bearing caveat).** The object computed is the K-theoretic
-   gamma-traceless RS: `eta(D tensor T_C) - eta(D)`. The index and the mod-Z class are stable under
-   the gamma-traceless repackaging (APS-III: rho mod Z is a K-theoretic/deformation invariant); the
-   exact reals (+2, -2) could shift. The GU source-action operator remains UNBUILT (SG4
-   MISSING-CARRIER); if the GU RS carrier differs from the pinned K-class by a non-trivial
-   repackaging, its rho could differ. The open question is now an operator-IDENTITY question, one
-   congruence wide -- no longer a computability wall.
-2. **The -38 thread (next verification target).** A referee surfaced a FOURTH candidate convention
-   -- the naive K-class of the projected gamma-traceless operator, `([S+]-[S-]) tensor (T_C + 1)`,
-   index -38 == 1 mod 3 -- labeled PLAUSIBLE, not adjudicated. The candidate-convention residues
-   span all of Z/3 (-42 -> 0, -44 -> 1, -40 -> 2, -38 -> 1), so the `T_C - 1C` pin (uniquely
-   selected by the established `21 sigma/8` gate) must stay FROZEN with this result, and the symbol
-   block-diagonalization homotopy behind the -38 candidate should be adjudicated before any
-   promotion.
+1. **Operator identity (the load-bearing caveat).** The object computed is the ghost-subtracted
+   complex: `eta(D tensor T_C) - eta(D)`. **CORRECTION 2026-07-10 (one sentence REFUTED by the -38
+   adjudication, `canon/gamma-traceless-38-adjudication-RESULTS.md`):** this item originally said
+   "the index and the mod-Z class are stable under the gamma-traceless repackaging." That is FALSE
+   as written: the honest geometric gamma-traceless operator is a DIFFERENT published K-class, not a
+   repackaging -- its index is `-38 = 19 sigma/8` (Homma-Semmelmann Prop 3.1(i), fetched verbatim)
+   and its order-3 rho classes are `(0,2,1)/3` NONZERO. APS-III deformation invariance is untouched;
+   it simply does not apply across distinct K-classes. The 2-primary verdict of this file is true
+   of, and only of, the ghost-subtracted carrier (`-42 = 21 sigma/8`). The GU source-action operator
+   remains UNBUILT (SG4 MISSING-CARRIER); the generation-arena verdict is now a named binary riding
+   SG4: ghost-subtract => 2-primary; geometric-complete => order-3 nonzero.
+2. **The -38 thread -- ADJUDICATED 2026-07-10.** The fourth convention is not a convention: it is
+   the honest geometric gamma-traceless operator (elliptic, published: Homma-Semmelmann / Baer-
+   Mazzeo), with `ind Q = -38 = 19 sigma/8` by two independent routes (in-house exact symbol
+   block-diagonalization homotopy certificate + published HS eq (11) additivity), equivariant
+   multiplier `-1` (not 0 mod 3), and Nikulin rho classes `(0,2,1)/3` NONZERO. Both carriers now
+   pass a distinct established published gate (`21 sigma/8` AGW physics vs `19 sigma/8` HS
+   mathematics), so the "uniquely selected by the established gate" freeze rationale of item 3 below
+   is DEAD; selection authority moved to SG4 (which object the unbuilt GU source action names). Full
+   record: `canon/gamma-traceless-38-adjudication-RESULTS.md`,
+   `tests/rs-function-space/rho-38-adjudication/`.
 3. **Convention freeze requirement.** The entire RS verdict rides the pinned subtraction. The pin is
    operational (canon `-42 = 21 sigma/8` = AGW/Christensen-Duff gravitino density), internally
    coherent, and enforced by a non-equivariant gate in every script -- but it is a program pin, not
