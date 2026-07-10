@@ -22,6 +22,7 @@ themselves. The forbidden `chi(K3) / 8 = 3` shortcut is treated only as a contro
 | `k3_family_pushforward_scaffold.py` | K3 family-index scaffold separating the computed product-family sanity check from the unbuilt higher family term. |
 | `rs_boundary_eta_l21.py` | Full RS boundary eta check on `RP^3 = L(2;1)`, showing the sector's own boundary channel remains 2-primary. |
 | `family_generation_arena_probe.py` | Generation-arena probe showing the currently honest family/characteristic numbers remain in the 2-primary arena. |
+| `families_e_invariant_order3_monodromy.py` | Exact Z/24 and Z/3 families e-invariant probe for order-3 K3 monodromy, preserving the located-not-forced / source-action-gated boundary. |
 | `verify/rs_boundary_eta_indep_check.py` | Independent re-check of the RS boundary eta result using rotated frame bases and a fiber similarity. |
 | `verify/family_generation_arena_indep_check.py` | Independent re-derivation of the family generation-arena arithmetic without importing the main probe. |
 
@@ -40,6 +41,7 @@ python tests/rs-function-space/rs_index_harness.py
 python tests/rs-function-space/k3_family_pushforward_scaffold.py
 python tests/rs-function-space/rs_boundary_eta_l21.py
 python tests/rs-function-space/family_generation_arena_probe.py
+python tests/rs-function-space/families_e_invariant_order3_monodromy.py
 python tests/rs-function-space/verify/rs_boundary_eta_indep_check.py
 python tests/rs-function-space/verify/family_generation_arena_indep_check.py
 ```
@@ -47,7 +49,7 @@ python tests/rs-function-space/verify/family_generation_arena_indep_check.py
 ## Honest Scope
 
 - Computed certificates: RS index arithmetic, product-family sanity checks, full RS boundary eta parity,
-  and currently honest family/characteristic numbers.
+  currently honest family/characteristic numbers, and the order-3 monodromy families e-invariant probe.
 - Independent verification: boundary eta parity and generation-arena arithmetic have separate re-checks
   under `verify/`.
 - Analytic boundary: the actual GU source action, GU K3-fibered family symbol, `ch2`/eta correction, and

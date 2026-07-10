@@ -99,3 +99,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added a boundary-supply ledger row for the signed-readout / observer-finality adapter candidate, keeping it as roadmap/open-problem shaping with explicit guards against OC1/OC2 discharge by analogy, cross-repo identity import, or treating Time-as-Finality language as evidence for a GU claim.
 - Progress fan-out added a read-only `canon/README.md` surface-map gate so the canon overview keeps its owner pointers and CANON-owned grade/index boundary intact without editing canon content, claim status, verdicts, papers, proof surfaces, or public posture.
 - Progress fan-out aligned `lab/process/README.md` to the live process directories and direct process files, then added a read-only surface-map gate so process navigation stays synchronized without changing claim status, canon verdicts, proof status, research verdicts, or public posture.
+
+## 2026-07-10
+
+- Progress fan-out repaired the `tests/rs-function-space/README.md` map after the families e-invariant order-3 monodromy certificate landed, keeping the update to test-family navigation without editing canon content, claim status, verdicts, papers, proof surfaces, or public posture. See `steward/runs/2026-07-10-progress-fanout-302-pending.md`.
