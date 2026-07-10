@@ -219,8 +219,9 @@ canon/publication surfaces. This is a navigation/process guard only; it does not
 
 `explorations_top_level_file_boundary_audit.py` freezes the reviewed exception set for loose
 top-level `explorations/*.md` notes, including the current source-action method sweep, substrate-choice
-thesis, and transcript carrier-B evidence note. This is a placement and boundary-label guard only; it
-does not move exploration notes, edit canon pointers, validate research claims, or change verdicts.
+thesis, transcript carrier-B evidence note, and Godelian initial-conditions boundary-axiom stub. This is
+a placement and boundary-label guard only; it does not move exploration notes, edit canon pointers,
+validate research claims, or change verdicts.
 
 ## Absorbed README surface-map gate
 

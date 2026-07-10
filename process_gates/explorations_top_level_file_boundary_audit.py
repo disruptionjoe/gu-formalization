@@ -16,6 +16,11 @@ ROOT = Path(__file__).resolve().parents[1]
 EXPLORATIONS = ROOT / "explorations"
 
 ALLOWED_TOP_LEVEL_NOTES = {
+    "godelian-initial-conditions-boundary-axiom-stub-2026-07-10.md": (
+        "CONVERSATION CAPTURE",
+        "VERIFY-BEFORE-USE",
+        "Curiosity capture only. No claim promotion, no canon movement, no public posture.",
+    ),
     "substrate-choice-thesis-computational-vs-smooth-2026-07-07.md": (
         "Exploration grade",
         "no claim movement",
