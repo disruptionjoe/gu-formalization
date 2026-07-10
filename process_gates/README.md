@@ -29,6 +29,7 @@ selected notes below and in each script header.
 - `big_swing_readme_inventory_audit.py`
 - `boundary_eta_readme_inventory_audit.py`
 - `calm_gw_boundary_readme_inventory_audit.py`
+- `canon_readme_surface_map_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `contributing_guidance_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
@@ -190,6 +191,13 @@ canon/publication surfaces. This is a navigation/process guard only; it does not
 absorbed directory exactly once, uses relative links that resolve from the absorbed README location,
 and preserves the boundary between absorbed context and operative repo truth. This is a navigation/process
 guard only; it does not validate source-action claims or change research status.
+
+## Canon README surface-map gate
+
+`canon_readme_surface_map_audit.py` checks that `canon/README.md` keeps its
+owner pointers wired to live repo surfaces and preserves the boundary that
+`CANON.md` owns authoritative grades and index state. This is a navigation/process
+guard only; it does not validate canon claims or change canon verdicts.
 
 ## Papers README lifecycle-map gate
 
