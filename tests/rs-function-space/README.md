@@ -31,6 +31,14 @@ themselves. The forbidden `chi(K3) / 8 = 3` shortcut is treated only as a contro
 | `order3-rho/referee_leg2.py` | Independent hostile-referee recheck of the Dirac rho leg across spin and character conventions. |
 | `order3-rho/referee_leg3.py` | Independent hostile-referee recheck of the RS rho leg and rival convention gates. |
 | `order3-rho/referee_leg4.py` | Independent hostile-referee recheck of the arena/firewall reading. |
+| `rho-38-adjudication/legA_symbol_homotopy.py` | Symbol-level adjudication of the pinned `-42` versus geometric `-38` RS conventions: ellipticity, additivity, and equivariance gates. |
+| `rho-38-adjudication/legB_index_bookkeeping.py` | Exact K3 index bookkeeping for the ghost-subtracted and geometric gamma-traceless RS conventions. |
+| `rho-38-adjudication/legC_equivariant_rho.py` | Equivariant rho computation for the geometric gamma-traceless RS operator, compared against the pinned convention. |
+| `rho-38-adjudication/legD_identification.py` | Identification ledger for where the order-3 class lives in the RS convention fork and what remains blocked. |
+| `rho-38-adjudication/referee_legA.py` | Independent hostile-referee recheck of the symbol homotopy and equivariance leg with different Clifford machinery. |
+| `rho-38-adjudication/referee_legB.py` | Independent hostile-referee recheck of the index bookkeeping leg via Dolbeault/Hodge and Lefschetz routes. |
+| `rho-38-adjudication/referee_legC.py` | Independent hostile-referee recheck of the geometric RS equivariant rho leg with different exact-arithmetic machinery. |
+| `rho-38-adjudication/referee_legD.py` | Independent hostile-referee recheck of the identification leg, including kernel phases and class-law controls. |
 | `verify/rs_boundary_eta_indep_check.py` | Independent re-check of the RS boundary eta result using rotated frame bases and a fiber similarity. |
 | `verify/family_generation_arena_indep_check.py` | Independent re-derivation of the family generation-arena arithmetic without importing the main probe. |
 
@@ -58,6 +66,14 @@ python tests/rs-function-space/order3-rho/referee_leg1.py
 python tests/rs-function-space/order3-rho/referee_leg2.py
 python tests/rs-function-space/order3-rho/referee_leg3.py
 python tests/rs-function-space/order3-rho/referee_leg4.py
+python tests/rs-function-space/rho-38-adjudication/legA_symbol_homotopy.py
+python tests/rs-function-space/rho-38-adjudication/legB_index_bookkeeping.py
+python tests/rs-function-space/rho-38-adjudication/legC_equivariant_rho.py
+python tests/rs-function-space/rho-38-adjudication/legD_identification.py
+python tests/rs-function-space/rho-38-adjudication/referee_legA.py
+python tests/rs-function-space/rho-38-adjudication/referee_legB.py
+python tests/rs-function-space/rho-38-adjudication/referee_legC.py
+python tests/rs-function-space/rho-38-adjudication/referee_legD.py
 python tests/rs-function-space/verify/rs_boundary_eta_indep_check.py
 python tests/rs-function-space/verify/family_generation_arena_indep_check.py
 ```
@@ -66,8 +82,9 @@ python tests/rs-function-space/verify/family_generation_arena_indep_check.py
 
 - Computed certificates: RS index arithmetic, product-family sanity checks, full RS boundary eta parity,
   currently honest family/characteristic numbers, the order-3 monodromy families e-invariant probe, and the
-  order-3 equivariant rho build with independent referee legs.
+  order-3 equivariant rho build plus the geometric `-38` RS adjudication suite with independent referee legs.
 - Independent verification: boundary eta parity and generation-arena arithmetic have separate re-checks
-  under `verify/`; the order-3 rho build has leg-local hostile-referee checks under `order3-rho/`.
+  under `verify/`; the order-3 rho build has leg-local hostile-referee checks under `order3-rho/`, and
+  the geometric `-38` adjudication has leg-local hostile-referee checks under `rho-38-adjudication/`.
 - Analytic boundary: the actual GU source action, GU K3-fibered family symbol, `ch2`/eta correction, and
   H-line normalization remain open. This directory records the boundary; it does not close the crux.
