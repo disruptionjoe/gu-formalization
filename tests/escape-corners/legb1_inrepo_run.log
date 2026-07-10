@@ -1,0 +1,8 @@
+IN-REPO RE-RUN RECORD (2026-07-10): the in-repo confirmation re-run of
+legb1_graded_ig_algebra.py was INTENTIONALLY TERMINATED partway (orchestrator
+kill, PID 35960) to free the machine for the anchor-scale campaign under the
+one-heavy-job local resource rule. It did not fail: no check had failed at
+termination (output was buffered; ~15 of ~33 min elapsed). The verified run
+record for this script is legb1_run_record.log (campaign run: 111 checks
+passed, exit 0, t=2002s, independently re-verified by the campaign critic).
+Re-run in-repo at leisure if desired: python tests/escape-corners/legb1_graded_ig_algebra.py
