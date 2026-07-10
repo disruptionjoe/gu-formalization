@@ -126,6 +126,8 @@ Brace against the **A-side** (the prior campaign braced the other way). The buil
 3. **Phase** (unbroken/broken at the stated vacuum) -- arena landings `-42/(0,0,0)` unbroken-gauged,
    `-40/(0,1,2)` super-Higgsed, `-38/(0,2,1)` ungauged.
 
+**UPDATE 2026-07-10 -- the cheapest kill shot was fired (anchor-scale test, `canon/anchor-scale-graded-ig-algebra-RESULTS.md`):** the graded-IG algebra CLOSES at the honest Cl(9,5)=M(64,H) anchor (adversarially verified, 0 refuted) -- it is NOT a small-fiber artifact, so the door stays OPEN and the last purely-algebraic contingency under it is removed. Understanding gained rather than a side-win: the toy's diagonal/RD reading WAS an artifact (sl(128) simple); the anchor SELECTS the real form (sesquilinear Krein pairing on S_R; u(1) center kills the complex channel); and a NEW real-form fork surfaces (u(64,64) with center vs centerless quaternionic g_H). Does not decide the bit; sharpens the SG4 question to WHICH real form + invariance + sub-slot + phase.
+
 **Cheapest kill shot available before/alongside the build:** test LEG-B1's algebra at ANCHOR SCALE
 (`Cl(9,5) = M(64,H)` fiber, honest `u(64,64)` anchor, real/Krein form, derivative-level odd
 tau_plus). Any failure kills the A-door at full scale and hardens B by elimination; success removes
