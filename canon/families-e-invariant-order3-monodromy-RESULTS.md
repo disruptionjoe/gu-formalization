@@ -35,14 +35,18 @@ Method: read the families e-invariant as a `Z/24` class, `e = N/24`; the count c
 | `ch2(S_X)[K3]` honest | -5376 -> 0 | (0, 0) | 2-primary |
 | RS boundary APS eta (STEP 2) | 0 | (0, 0) | 2-primary |
 | **NEW: order-3 Nikulin monodromy Lefschetz** `L(phi)=6` | 6 -> 6 | (6, **0**) | **2-primary -- even the order-3 clutching's topological invariant is 0 mod 3** |
-| fine equivariant rho of the order-3 monodromy | -- | -- | **BLOCKED_NEEDS_SPEC (not fabricated)** |
+| fine equivariant rho of the order-3 monodromy | -- | -- | **BLOCKED_NEEDS_SPEC (not fabricated)** *(UPDATE 2026-07-10: COMPUTED at geometric-benchmark grade -- Dirac rho carries a genuine nonzero Z/3 class (0,1,2)/3; RS rho is 2-primary, class (0,0,0), structurally (twist character -3 == 0 mod 3). "Not computable from existing data" was over-conservative: the benchmark IS computable via Donnelly + Nikulin + Hodge. The GU-operator-identity caveat stays open. See `canon/order3-equivariant-rho-RESULTS.md`.)* |
 
 ## The new datum and why it matters
 
 A one-parameter K3 family is a mapping torus of a monodromy `phi`. Only an **order-3** monodromy can
 possibly source the `Z/3` arena, and such automorphisms EXIST: a Nikulin order-3 symplectic automorphism
-of K3 has exactly **6 fixed points** (Nikulin 1979; Garbagnati-Sarti 2007), invariant lattice rank 14,
-coinvariant rank 8. Its topological families invariant -- the Lefschetz number `L(phi) = #Fix = 6` --
+of K3 has exactly **6 fixed points** (Nikulin 1979; Garbagnati-Sarti 2007), invariant lattice rank **10**,
+coinvariant rank **12** *(CORRECTION 2026-07-10: this line originally said "invariant 14, coinvariant 8" --
+that is the ORDER-2 Nikulin package; the Lefschetz gate `L = 2 + r - s/2 = 6` with `r + s = 22` forces
+`(r,s) = (10,12)` (coinvariant = Coxeter-Todd `K12`); caught and machine-verified by the order-3 rho
+campaign, `tests/rs-function-space/order3-rho/`. The error was not load-bearing here -- only `L = 6` was
+used.)*. Its topological families invariant -- the Lefschetz number `L(phi) = #Fix = 6` --
 is itself **`0 mod 3`**. So the one clutching that could reach the generation arena still lands
 2-primary at the topological level.
 
