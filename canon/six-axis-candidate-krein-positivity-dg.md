@@ -7,7 +7,7 @@ depends_on:
   - work/drafts/wrk-376-gu-no-go-map/no-go-map.md
   - work/drafts/wrk-375-gu-six-axis/six-axis-template.md
   - canon/ghost-parity-krein-synthesis.md
-external_ref: "Turok & Bateman, quadratic-gravity / Krein-space generalized Born rule (TOE interview, June 2026; UNPUBLISHED, not a citable paper)"
+external_ref: "Bateman & Turok, arXiv:2607.00096, Escape from Ostrogradsky via Hidden Ghost Parity (July 2026) -- CITATION UPGRADE 2026-07-10: formerly interview-only/unpublished; now a citable arXiv paper"
 ---
 
 # Six-axis candidate: the Krein / ghost-parity positivity-axis evasion of Distler-Garibaldi
@@ -101,7 +101,7 @@ No L1-L6 cell drops a class. That is what "inside-the-class" means: the candidat
 
 - **Class label:** (a) No loop (00d implicit baseline) **for the kinematic candidate**, with explicitly named completion targets (e) Ising / spin-glass broken-`Z2` selection, and (g) RG / quadratic-gravity (higher-derivative) flow.
 - **Specification:** As a typed kinematic object the candidate has no substrate-observer feedback loop: the Krein structure, the hyperbolic (generation, mirror) pairing, and the ghost-parity `Z2` all exist as fixed linear-algebraic data the observer reads off. The chiral **selection** of the physical half of each hyperbolic pair is **not** fixed by kinematics; making it canonical requires a ghost-parity-preserving dynamics whose flow selects the physical half. If such a dynamics materializes, its natural homes are broken-`Z2` selection (menu (e)) or higher-derivative / quadratic-gravity RG flow (menu (g)). This is the candidate's single open condition and is named here so the gap stays visible rather than hidden inside another axis.
-- **Literature anchor:** Stelle, "Renormalization of higher-derivative quantum gravity," *Phys. Rev. D* 16 (1977) 953, for the higher-derivative dynamics in which a ghost parity is native; Lee & Wick, "Negative metric and the unitarity of the S-matrix," *Nucl. Phys. B* 9 (1969) 209, for indefinite-metric S-matrix dynamics. Open dynamical completion basis: Turok & Bateman (2026), Krein-space generalized Born rule for quadratic gravity (**unpublished TOE interview, June 2026; not a citable paper**; `canon/ghost-parity-krein-synthesis.md` external_ref).
+- **Literature anchor:** Stelle, "Renormalization of higher-derivative quantum gravity," *Phys. Rev. D* 16 (1977) 953, for the higher-derivative dynamics in which a ghost parity is native; Lee & Wick, "Negative metric and the unitarity of the S-matrix," *Nucl. Phys. B* 9 (1969) 209, for indefinite-metric S-matrix dynamics. Open dynamical completion basis: Bateman & Turok, "Escape from Ostrogradsky via Hidden Ghost Parity", **arXiv:2607.00096 (July 2026)** -- citable as of 2026-07-10 (formerly interview-only); `canon/ghost-parity-krein-synthesis.md` external_ref.
 - **Class-assumption signature:** **Preserves** Distler-Garibaldi (no-loop, no added dynamics) **at the kinematic level**. The dynamical completion is the candidate's open condition and is **not** asserted.
 
 ---

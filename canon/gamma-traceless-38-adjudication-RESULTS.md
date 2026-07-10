@@ -118,6 +118,23 @@ implies ungauged spin-3/2 MATTER, and ghost subtraction exists only for gauged g
 evidence, not verdict -- the bit rides the unbuilt action's quadratic form (SG4). Full reading:
 `explorations/transcript-carrier-b-evidence-2026-07-10.md`.
 
+**Decision-campaign update (2026-07-10, later same day; 0 legs refuted):** the carrier-bit decision
+campaign (`canon/carrier-bit-decision-campaign-RESULTS.md`) ruled: (i) **the bit provably cannot be
+decided by symbol arithmetic** -- the 343.73 obstruction is re-derived as an exact MUTUAL-EXCLUSION
+certificate: on the gamma-trace-constrained field space no linear nilpotent ghost extension exists
+(off the null cone), on the full field space a ghost-subtracted 4-term BRST complex exists exactly;
+the carriers are mutually exclusive field-space DECLARATIONS, evidence for neither. (ii) No fetched
+no-go theorem forces gauging on GU-as-stated (massless / global-SUSY hypotheses fail), none forbids
+it (graded-IG upstairs door live); the ungauged massive carrier is published-viable inside a named
+window (Einstein backgrounds -- K3 qualifies; Porrati-Rahman's causality cure IS the ker(Gamma)
+constraint defining carrier B). (iii) The `-19` density is published for a NON-gauged spin-3/2
+system in BOTH registers (HS math; PTZ PRD 106 (2022) physics: `-19 = -21 + 2` for Adler's RSA,
+field content = spin-3/2 + ADDED spin-1/2, GU's stated shape). (iv) Referee corrections to the
+steelman count above: L158 also carries transcript-tier support for the A-door, so the honest count
+is **three B-passages vs one ambiguous A-passage**, and `-21` is equally published -- the real
+asymmetry is GU-LICENSE, not publication. Net: **B-tilt at GU-commitments + published-theorem
+grade; bit stays on SG4, escape routes enumerated and priced.**
+
 ## Honest limits
 
 1. **SG4 MISSING-CARRIER (the live gate):** A-vs-B is not decidable from geometry or literature;

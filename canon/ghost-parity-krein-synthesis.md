@@ -5,7 +5,7 @@ doc_type: synthesis
 created: 2026-06-28
 depends_on: [papers/drafts/prepublish-review-tracker.md]
 supersedes: [canon/multiplicity-theorem.md]  # provenance: this successor corrects/replaces the superseded predecessor; not a load-bearing dependency on its (retired) claim
-external_ref: "Turok & Bateman, quadratic-gravity / Krein-space generalized Born rule (TOE interview, June 2026)"
+external_ref: "Bateman & Turok, 'Escape from Ostrogradsky via Hidden Ghost Parity', arXiv:2607.00096 (July 2026) -- CITATION UPGRADE 2026-07-10: the mechanism previously available only via the June 2026 TOE interview is now a citable arXiv paper (four-derivative UV-complete QFT quantized on a Krein space; ghosts KEPT and graded by a hidden ghost parity made explicit via a two-field O(1,1) embedding; Born rule generalized to Krein spaces; tree-level positivity). Fork note: this is published keep-dont-subtract precedent (carrier-B-adjacent bookkeeping); the machine-checked fencing below (TB-consistency is NOT chirality selection) is unaffected."
 ---
 
 # Ghost parity, Krein structure, and the generation count
