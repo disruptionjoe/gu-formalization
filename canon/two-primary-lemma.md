@@ -83,6 +83,13 @@ Z/3` (with `|Im J_3| = 24 = denom(B_2/4)`, Adams). The program's obstructions al
 > (`e_KO(8*nu)=1/3`); it is the LOCATOR. Blindness is a property of the finite-2-group/free-integer
 > obstruction TYPES, not of KO-theory.
 
+> **SCOPE (2026-07-10, `canon/exhaustiveness-by-type-RESULTS.md`).** The blindness is proven for
+> NON-EQUIVARIANT KO/Spin/Pin invariants. EQUIVARIANT Spin/KO (G-index, rho) reach the odd torsion --
+> the geometric equivariant Nikulin carrier-B rho carries `(0,2,1)/3 != 0`. That one equivariant object
+> is the LOCATED carrier (the detector), and coupling it to the net count is the SG4 + order-3->integer-3
+> gate (the program's single decider, now proven to have no odd-primary side-routes: tmf/String is shut
+> by Spin-not-String, internal triality Z/3 is a commuting family symmetry that only labels).
+
 ## Significance
 
 The no-go and the generation count are **complementary, not contradictory.** The program proved a large,

@@ -64,6 +64,21 @@ reading of "located, not forced": **the count is LOCATED by the KO e-invariant (
 NOT FORCED by any obstruction (all 2-group torsion or free-integer, which cannot carry `Z/3` as a
 constraint).** The e-invariant is the locator; the obstructions are the non-forcers.
 
+## Exhaustiveness update (2026-07-10, `canon/exhaustiveness-by-type-RESULTS.md`): PARTIALLY CLOSED
+
+The exhaustiveness gap below was attacked directly. Three odd-primary escape routes are now shut:
+tmf/String (K3 is Spin-not-String, `(1/2)p1=-24` infinite order -> `MString->tmf` never acts); the
+internal triality/SU(3)/qutrit Z/3 (PROVABLY stranded -- a Z/3 commuting with the Dirac operator gives
+a g-independent net index, so it LABELS generations, never moves the count); and every odd-primary
+stable-homotopy object (a DETECTOR, collapsing onto the already-located `pi_3^s`). ONE route stays
+open: the geometric equivariant Nikulin carrier-B rho `(0,2,1)/3`. **Honest scope correction it forces:
+the 2-primary blindness proven below is for NON-equivariant KO/Spin/Pin invariants; EQUIVARIANT
+Spin/KO (G-index, rho) DO reach the odd torsion** -- and that one equivariant object is exactly the
+LOCATED carrier / the program's single decider (SG4 + order-3->integer-3). Net: the escape surface is
+reduced from "any un-enumerated obstruction" to ONE named channel that coincides with the decider --
+the investigation proved the DECIDER IS UNIQUE (nothing routes around SG4), not that a general theorem
+holds.
+
 ## The open gap (the single load-bearing one): exhaustiveness by type
 
 The result re-types the SEVEN enumerated obstructions; it does NOT prove the enumeration is
