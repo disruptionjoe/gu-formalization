@@ -76,11 +76,25 @@ Smoke test: `python tests/test_bridge.py` (reproduces the anchors C2 = 155.36, |
 
 ## Start here
 
+**Current hourly-progress target (2026-07-10).** Work the roadmap in `../../NEXT-STEPS.md` under
+"2026-07-10 Hourly Progress Focus -- source-action buildbench first." Do not try to write the full source
+action first. The candidate buildbench, anchor-scale A-door fork, and minimal finite-fiber BV/Koszul-Tate
+closure attempt are now complete; the next hourly work should derive the projected BV/KT gauge differential
+from a source-level Noether/tau carrier instead of assuming the projection.
+
 `Agents Start Here.md` — the discipline, the spec, the dead-ends not to re-walk, and how to use the bridge.
 `DERIVATION-PROGRESS.md` — the running ledger (same compute -> adversarially-verify -> land discipline as the
 parent).
 `SECURITY-BUDGET-CARRIER-PACKET-2026-07-01.md` - first executable candidate packet; records that
 available-loss-only scoring is missing-carrier blocked, not a source-action success.
+`SOURCE-ACTION-BUILDBENCH-PACKET-2026-07-10.md` - first hourly-progress buildbench; records declaration
+triples, current hard guards, computable loss channels, named missing carriers, and the A-door handoff.
+`ANCHOR-SCALE-A-DOOR-PACKET-2026-07-10.md` - second hourly-progress packet; records that non-null
+anchor-scale scalar-spinor shifts pass representation/H-linear/Krein necessary checks, while null-direction
+tau and source-derived BV/Koszul-Tate closure remain open.
+`MINIMAL-BV-KT-CLOSURE-PACKET-2026-07-10.md` - third hourly-progress packet; records that finite-fiber
+BV/Koszul-Tate closure works after projecting the gauge map into `ker Gamma`, but the projection is not yet
+derived from a source-level Noether/tau carrier.
 `THETA-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
 theta/source-current route is blocked on the named missing `L_theta_source` carrier, with a
 targeted regression check.

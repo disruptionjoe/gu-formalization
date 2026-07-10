@@ -27,6 +27,13 @@ Run one leg directly when reviewing a specific claim:
 python tests\carrier-bit-decision\leg2_obstruction_hardening.py
 ```
 
+Run the SG4 declaration-triple harness directly when reviewing a source-action
+field-space declaration candidate:
+
+```powershell
+python tests\carrier-bit-decision\sg4_declaration_triple_harness.py
+```
+
 ## Boundary
 
 The public boundary stays:
@@ -50,6 +57,7 @@ The public boundary stays:
 | `leg3_ungauged_consistency.md` | Narrative analysis for Leg 3. | Records the ungauged consistency window and remaining reading fork. |
 | `leg4_verdict_bookkeeping.py` | Exact carrier-bit decision table and consequence bookkeeping. | Keeps all sub-SG4 outcomes as tilts or open states; no leg combo moves canon. |
 | `leg4_verdict_bookkeeping.md` | Narrative analysis for Leg 4. | Records the decision table, edge cases, and campaign-level story-shopping corrections. |
+| `sg4_declaration_triple_harness.py` | Reusable SG4 harness that reports the required `invariance / declaration / phase` triple for source-action candidates. | Keeps the current state `open_unbuilt` while discriminating carrier A, carrier B, bare, target-import, and acausal-trap controls. |
 
 ## Independent Referees
 

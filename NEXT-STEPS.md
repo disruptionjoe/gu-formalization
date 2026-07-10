@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-04"
+updated_at: "2026-07-10"
 ---
 
 # Next Steps For Contributors
@@ -117,6 +117,71 @@ verdict stays **OPEN (located, not forced)**. No verdict, canon, or public-postu
   choices** -- closes the arithmetic-level double-duty hope (S3 closed the source-action level).
 
 Synthesis: `explorations/sequential-goals-2026-07-09/SYNTHESIS-sequential-goals-2026-07-09.md`.
+
+## 2026-07-10 Hourly Progress Focus -- source-action buildbench first
+
+Joe-directed scope: future hourly runs that pick up the source-action wall should work this plan in order.
+Do not start by writing a full action, chasing the generation count, or opening anomaly/families-pushforward
+work directly. Each hourly run should take one bounded sub-goal, leave an executable or packetized receipt,
+and keep canon/paper promotion Joe-gated. A precise negative result is useful progress.
+
+**Hourly target:** turn the source-action search into a comparable candidate buildbench, run the
+anchor-scale A-door test, and only then try the minimal BV/Koszul-Tate closure. After the finite-fiber
+closure witness, the active missing object is the source-derived Noether/tau carrier behind the projected
+gauge differential.
+
+1. **SOURCE-ACTION-BUILDBENCH.** Integrate the SG4 declaration-triple discipline with
+   `absorbed/gu-source-action` candidate records. Each candidate must state its field-space declaration,
+   invariance assumption, phase, hard-guard verdicts, computable loss channels, and named missing carriers.
+   Output should be a small test or packet that classifies current source-action candidates without changing
+   the scientific verdict.
+2. **ANCHOR-SCALE-A-DOOR.** Test whether the unbroken graded-IG scalar-spinor A-door exists at the actual
+   representation scale and real/Krein/H-linear structure used by the repo. This is the cheap fork: pass
+   means try BV closure there; fail means record the negative result and pivot before spending effort on a
+   full action.
+3. **MINIMAL-BV-CLOSURE.** Only after the A-door fork, attempt the smallest non-equivariant, anti-trap
+   compensator plus Koszul-Tate leg that could force the gamma-trace constraint by Noether identity. Required
+   checks: `(S,S)=0`, `s^2=0`, full BV bicomplex, and preservation of the bare commutator anchor
+   `58.7215`.
+4. **BV-TO-BOUNDARY-DIRAC BRIDGE.** Only after a closure candidate exists, map the KT/BV differential to an
+   actual boundary Dirac object. The key discriminator is whether `C2 = 155.3625` becomes genuine
+   spectral/index data instead of remaining a Hilbert-Schmidt norm with eta forced to zero.
+5. **DOWNSTREAM ONLY.** Anomaly, families-pushforward, and security-budget selection are downstream of the
+   declaration and bridge. The security-budget rule is a selector over surviving candidates, not the source
+   action itself, and should not be treated as decisive until at least two real candidate loss channels
+   compute.
+
+Immediate stop conditions for any hourly sub-goal: target imports (`24`, `24/8`, `chi(K3)=24`, `ch2=24`,
+fitted rank/holonomy), acausal cancellation of the bare commutator, clean-decoupling shortcuts, or forced
+analogy language without a computed carrier. On trigger, record the failure and move to the next fork.
+
+**First swing status (2026-07-10): SOURCE-ACTION-BUILDBENCH complete.** Implemented
+`absorbed/gu-source-action/lib/source_action_buildbench.py`, regression
+`absorbed/gu-source-action/tests/test_source_action_buildbench.py`, and packet
+`absorbed/gu-source-action/SOURCE-ACTION-BUILDBENCH-PACKET-2026-07-10.md`. Result: current rows are comparable
+without verdict movement.
+
+**Second swing status (2026-07-10): ANCHOR-SCALE-A-DOOR partial pass.** Implemented
+`absorbed/gu-source-action/lib/anchor_scale_a_door.py`, regression
+`absorbed/gu-source-action/tests/test_anchor_scale_a_door.py`, and packet
+`absorbed/gu-source-action/ANCHOR-SCALE-A-DOOR-PACKET-2026-07-10.md`. Result: non-null scalar-spinor
+component shifts pass the actual representation, H-linear, and Krein necessary checks and are not tangent to
+`ker Gamma`; the null direction `e_0 + e_9` leaves a 64-dimensional tangent kernel, so derivative-level
+`tau_plus` and BV/Koszul-Tate closure remain open. The tracked exact legs under `tests/anchor-scale/` were
+also run serially and passed (`leg1_anchor_super_jacobi.py` 64 checks, `leg1_crosscheck.py` 9,
+`indep_verify.py` 16, `leg2_krein_real_form.py` 35): they corroborate finite-fiber anchor closure and
+real/Krein survival, with the remaining blocker narrowed to the genuine derivative-level geometric
+homomorphism and BV closure. The next hourly progress point is
+**MINIMAL-BV-CLOSURE**.
+
+**Third swing status (2026-07-10): MINIMAL-BV-CLOSURE finite-fiber partial pass.** Implemented
+`absorbed/gu-source-action/lib/minimal_bv_kt_closure.py`, regression
+`absorbed/gu-source-action/tests/test_minimal_bv_kt_closure.py`, and packet
+`absorbed/gu-source-action/MINIMAL-BV-KT-CLOSURE-PACKET-2026-07-10.md`. Result: the raw scalar-spinor gauge
+map remains second-class (`rank(Gamma d_A) = 128`), but the projected map
+`A = Pi_ker(Gamma) d_A` gives an algebraic finite-fiber KT/BV closure while preserving the `58.7215` and
+`155.3625` anchors. This is not a source-action proof because the projection is not yet derived from a
+source-level Noether/tau carrier. The next hourly progress point is **SOURCE-NOETHER-TAU-CARRIER**.
 
 ## 2026-07-03 Big-Swing Outcomes (R1-R5) -- routes closed, do not re-chase
 
