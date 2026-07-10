@@ -108,6 +108,16 @@ hostile reader will press: GU's own RS-BRST packet reports MissingCarrierError a
 no-go says GU ghost parity cannot chiralize -- which SMELLS like an argument for carrier B; treating
 that smell as a verdict would be story-shopping and stays blocked. Both steelmen intact.
 
+**Steelman-ledger update (2026-07-10, transcript-tier):** re-reading the UCSD transcript against
+this adjudication upgrades the carrier-B steelman from "in-repo smell" to **author-stated
+mechanism, three independent ways**: [00:39:18] GU's third generation comes from the RS product
+rule with the spin-1/2 term ADDED as physical matter (carrier B's arithmetic shape); [00:36:13]
+"really two plus one; the third family is an imposter" -- the imposter IS the added spin-1/2 slot
+this adjudication proved carries all the order-3 content; [00:41:48] the Velo-Zwanziger answer
+implies ungauged spin-3/2 MATTER, and ghost subtraction exists only for gauged gravitini. Still
+evidence, not verdict -- the bit rides the unbuilt action's quadratic form (SG4). Full reading:
+`explorations/transcript-carrier-b-evidence-2026-07-10.md`.
+
 ## Honest limits
 
 1. **SG4 MISSING-CARRIER (the live gate):** A-vs-B is not decidable from geometry or literature;
