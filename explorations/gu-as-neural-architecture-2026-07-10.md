@@ -67,8 +67,8 @@ objective can."
 In every NN we know, output multiplicity is set by the OBJECTIVE, never forced by the architecture
 alone. If that intuition transfers, it is quiet corroboration of the "external by structure" reading:
 the count is a rank the loss sets, and GU's missing loss is exactly why the count is undetermined.
-This is a portable statement about **inductive bias vs objective** independent of GU (captured for
-ai-epistemology separately).
+This is a portable statement about **inductive bias vs objective** independent of GU (a candidate
+ai-epistemology note, not yet written; the session's method epistemics are already in E051).
 
 ## Where the analogy breaks (honest)
 
@@ -100,6 +100,6 @@ issued during unrolling, not present in the frozen columns.
 
 - Time as Finality: the population-code / distributed-finality half -> `time-as-finality/explorations/`.
 - Temporal Issuance: the count-is-issued-over-training (not a rearrangement of the frozen net) half.
-- ai-epistemology: the portable inductive-bias-vs-objective claim.
+- ai-epistemology: the portable inductive-bias-vs-objective claim (candidate, not yet captured).
 
 No canon, claim, or verdict movement; generation count stays OPEN.
