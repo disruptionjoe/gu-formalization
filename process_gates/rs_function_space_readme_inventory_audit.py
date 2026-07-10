@@ -45,7 +45,7 @@ def documented_rs_function_space_script_paths(text: str) -> set[str]:
         raw = match.group(1).replace("\\", "/")
         if raw.startswith("tests/rs-function-space/"):
             names.add(raw.removeprefix("tests/rs-function-space/"))
-        elif raw.startswith("verify/"):
+        elif raw.startswith(("verify/", "order3-rho/")):
             names.add(raw)
         elif "/" in raw:
             continue
@@ -87,10 +87,10 @@ class RsFunctionSpaceReadmeInventoryAudit(unittest.TestCase):
     def test_helpers_parse_relative_and_repo_relative_paths(self) -> None:
         text = (
             "`tests/rs-function-space/foo.py` and `verify/bar.py` "
-            "and `process_gates/gate.py` and `loose.py`"
+            "and `order3-rho/baz.py` and `process_gates/gate.py` and `loose.py`"
         )
         self.assertEqual(
-            {"foo.py", "verify/bar.py", "loose.py"},
+            {"foo.py", "verify/bar.py", "order3-rho/baz.py", "loose.py"},
             documented_rs_function_space_script_paths(text),
         )
 

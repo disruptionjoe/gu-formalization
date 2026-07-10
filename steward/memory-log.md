@@ -103,3 +103,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-10
 
 - Progress fan-out repaired the `tests/rs-function-space/README.md` map after the families e-invariant order-3 monodromy certificate landed, keeping the update to test-family navigation without editing canon content, claim status, verdicts, papers, proof surfaces, or public posture. See `steward/runs/2026-07-10-progress-fanout-302-pending.md`.
+- Progress fan-out repaired the RS function-space and root `tests/` maps after the order-3 equivariant rho certificate suite landed, keeping the update to test navigation/counts without editing canon content, claim status, verdicts, papers, proof surfaces, or public posture. See `steward/runs/2026-07-10-progress-fanout-304-pending.md`.
