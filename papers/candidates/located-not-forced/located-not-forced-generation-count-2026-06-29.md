@@ -31,7 +31,7 @@ independently replicated or peer-reviewed. See Sections 1 and 9.
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.11, 2026-07-07 (v2.11: Section 9 sharpening -- both arenas a homotopy-theoretic count could hide in are now mapped and walled by the 2026-07-07 RS-index and framed-bordism swings (cohomology 2-adic; framed bordism `Hom(Z/24,Z)=0`, the operator built on `L(2;1)` stays 3-adically fractional, imports free), so the open bridge collapses onto one integer-by-construction object gated on GU's matter action; exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `explorations/big-swing-2026-07-07/`. v2.10, 2026-07-03: folded 2026-07-03 big-swing corroboration [R1 discharges the residual APS/end-eta + family-index items on the **actual** `Cl(9,5)` RS operator, and adds a table-free parity backstop for Theorem 1 completeness; R2 Dai-Freed / spin-bordism finds the mod-3 arena empty for SM boundary data; canon citations for the two-arena core `canon/two-arena-rep-theory-core-RESULTS.md` (R4) and the signed-readout boundary theorem `canon/signed-readout-boundary-theorem-RESULTS.md` (R3)] -- exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `CHANGELOG-v2.10-big-swing-fold.md`. Prior v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
+Internal version 2.12, 2026-07-10 (v2.12: Section 8 exploration-grade remark folding the 2026-07-10 commitment-forcing analysis -- GU-as-stated does NOT force the source action's field-space declaration; its stated commitments make two genuine amputations and a one-directional tilt but leave a measured two-bit residual = the built action itself, so the Section-8 gate is provably not closable short of building SG4; no verdict change, the count stays OPEN and gated; see `canon/gu-forces-field-space-declaration-RESULTS.md`). Internal version 2.11, 2026-07-07 (v2.11: Section 9 sharpening -- both arenas a homotopy-theoretic count could hide in are now mapped and walled by the 2026-07-07 RS-index and framed-bordism swings (cohomology 2-adic; framed bordism `Hom(Z/24,Z)=0`, the operator built on `L(2;1)` stays 3-adically fractional, imports free), so the open bridge collapses onto one integer-by-construction object gated on GU's matter action; exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `explorations/big-swing-2026-07-07/`. v2.10, 2026-07-03: folded 2026-07-03 big-swing corroboration [R1 discharges the residual APS/end-eta + family-index items on the **actual** `Cl(9,5)` RS operator, and adds a table-free parity backstop for Theorem 1 completeness; R2 Dai-Freed / spin-bordism finds the mod-3 arena empty for SM boundary data; canon citations for the two-arena core `canon/two-arena-rep-theory-core-RESULTS.md` (R4) and the signed-readout boundary theorem `canon/signed-readout-boundary-theorem-RESULTS.md` (R3)] -- exploration-grade corroboration only, no verdict change, generation count stays OPEN; see `CHANGELOG-v2.10-big-swing-fold.md`. Prior v2.9.1: additive scope note -- the three function-space residual terms are discharged on faithful models per `canon/function-space-index-conservation-residual-closure-RESULTS.md` + STEP-2 `canon/rs-boundary-eta-2primary-RESULTS.md`, leaving the true-RS-`Y14`-bundle computation as the one open residual; caveat block + Section 6 remark only, no verdict change; see `CHANGELOG-v2.9.1-residual-closure-scope.md`). Repo working copy; the arXiv PDF carries no version number -- arXiv assigns
 its own v1, v2, ...). Changelog: v1.1 forcing-slot test; v1.2 the `Hom(Z/3, Z) = 0` sharpening; v1.3 the
 carrier-mass capstone; v2.0 the GU-independent class-level structural no-go; v2.1 first hostile-referee
 punch-list -- regraded the no-go as a finite adversarial hunt rather than a closed proof, removed the
@@ -627,6 +627,25 @@ which three could have been forced; it does not derive three, and the verdict is
 (`explorations/big-swing-2026-07-03/R2-sm-boundary-mod3-arena-empty.md`,
 `explorations/anomaly-and-bordism/sm-as-boundary-cobordism-frontier-2026-07-03.md`).
 
+*Remark (how much GU-as-stated forces the source action, 2026-07-10, exploration-grade).* The gate above
+-- "the integer is gated on the unbuilt source action" -- admits a sharper reading. A dedicated
+commitment-forcing analysis asks how much GU's *stated* commitments narrow the source action's field-space
+declaration, with every commitment pre-registered as an ALLOW constraint (no elimination coded in advance)
+and the completion enumerated two independent ways. The verdict is **tilt + residual, not force**: GU's
+commitments make two genuine amputations -- its disavowal of spacetime supersymmetry rules out the generic
+four-dimensional supergravity form of the ghost-subtracted completion, and its Velo-Zwanziger consistency
+commitment rules out the uncured Rarita-Schwinger reading (leaving a three-branch fork, not a unique
+answer) -- and tilt toward the geometric gamma-traceless completion via roughly six distinct commitments with
+no counter-tilt, but they force **no unique declaration**. What remains is a measured **two-bit residual** --
+an invariance-selection bit (which sub-slot the action gauges) times a phase bit (chiral/unbroken versus
+massive/super-Higgs) -- whose four corners exhaust the known completions and whose tie-breaker is precisely
+the built quadratic form. So the Section-8 gate is not merely unbuilt; it is provably **not closable from
+GU-as-stated**: forcing the count requires *building* the source action, exactly as the located-not-forced
+verdict holds. Two independent enumerations agree and an adversarial referee returned the analysis
+un-refuted and free of result-shopping (it was checked to keep the disfavored completion reachable rather
+than steer to the tilt). No verdict change; the count stays OPEN and gated
+(`canon/gu-forces-field-space-declaration-RESULTS.md`).
+
 ---
 
 ## 9. What is not claimed: the open conjecture
@@ -734,6 +753,7 @@ feeding the two-arena reading.
 | Theorem 1 completeness backstopped by a table-free parity theorem on the actual carrier (2026-07-03) | exploration-grade corroboration (`tests/big-swing/R1_kill_odd_index_isotypic.py`, exit 0); centrality + Schur + even-dimensionality force every interior count even, no census needed |
 | Residual items (APS/end eta, family-index) discharged on the **actual** `Cl(9,5)` RS operator, not only faithful models (2026-07-03) | exploration-grade corroboration (`tests/big-swing/R1_actual_rs_operator_residual.py`, exit 0); narrows the open residual to the definite `Y14`-fiber pushforward = the external source action; the true-bundle computation is still open |
 | SM boundary data does not pin the count in the mod-3 arena (Dai-Freed / spin-bordism) | exploration-grade (R2; `Omega^Spin_5(B G_SM) (x) Z_(3) = 0` by color triality); removes a forcing mechanism, does not derive three |
+| GU-as-stated forces the source action's field-space declaration (the Section-8 gate) | NO (commitment-forcing analysis, 2026-07-10, exploration-grade); two amputations + a one-directional tilt (~6 commitments, no counter-tilt) but a measured 2-bit residual = the built action itself, so the gate is not closable short of building it (`canon/gu-forces-field-space-declaration-RESULTS.md`) |
 | GU forces exactly three chiral generations | NOT claimed; no computed quantity in this program equals three |
 
 ---
