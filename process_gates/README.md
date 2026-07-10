@@ -69,6 +69,7 @@ selected notes below and in each script header.
 - `issue_template_validation_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
+- `lab_deep_research_readme_surface_map_audit.py`
 - `lab_process_readme_surface_map_audit.py`
 - `lab_process_runbooks_readme_inventory_audit.py`
 - `lab_readme_surface_map_audit.py`
@@ -145,6 +146,17 @@ This is a navigation/process guard only; it does not validate research claims.
 the live direct automation entries and preserves the boundary that automation prompts, logs,
 evidence, and helpers are operational provenance rather than load-bearing research. This is a
 navigation/process guard only; it does not inspect run payloads or validate research claims.
+
+## Lab deep-research README surface-map gate
+
+`lab_deep_research_readme_surface_map_audit.py` checks that
+`lab/deep-research/README.md` names every direct external deep-research brief,
+points adjacent hostile-referee prompt readers to the live paper surfaces, and
+preserves the boundary that web-enabled model reports are source/provenance and
+adversarial-hardening context rather than claim-status, canon-verdict,
+proof-status, paper-status, or public-posture movement. This is a
+navigation/process guard only; it does not parse deep-research payloads or
+validate research claims.
 
 ## Lab active-research README surface-map gate
 
