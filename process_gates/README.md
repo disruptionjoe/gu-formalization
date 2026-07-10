@@ -30,6 +30,7 @@ selected notes below and in each script header.
 - `boundary_eta_readme_inventory_audit.py`
 - `calm_gw_boundary_readme_inventory_audit.py`
 - `canon_readme_surface_map_audit.py`
+- `carrier_bit_decision_readme_inventory_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `contributing_guidance_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
@@ -518,6 +519,15 @@ scripts or change verdicts.
 names every direct carrier-mass Python certificate plus the local JSON output, and preserves
 the vectorlike zero-not-three / action-gated boundary for the carrier-mass family. This is a
 map and posture guard only; it does not run the carrier-mass scripts or change verdicts.
+
+## Carrier-bit decision README inventory gate
+
+`carrier_bit_decision_readme_inventory_audit.py` checks that
+`tests/carrier-bit-decision/README.md` names every direct carrier-bit Python
+certificate and Markdown analysis, and preserves the bit-narrowed-but-open /
+SG4 / no-status-movement boundary for the carrier-bit campaign. This is a map
+and posture guard only; it does not run the carrier-bit scripts or change
+verdicts.
 
 ## Hessian/Z3 README inventory gate
 
