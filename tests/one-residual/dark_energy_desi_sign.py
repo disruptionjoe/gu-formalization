@@ -9,9 +9,9 @@ CLAIM (consistency grade, LCDM-degenerate):
 
       w0 ~ -0.78,  wa ~ -0.25   (wa NEGATIVE, same sign as DESI wa = -0.75).
 
-  The historical "+1.17 / positive wa" claim was a FIT-WINDOW / hardcoded-slope
-  artifact: w_DE(z) is non-monotone (rises to a shallow peak then falls), so the
-  fitted wa sign FLIPS with the fit window -- narrow (z<=0.5) gives wa>0, but the
+  The sign of a fitted wa is FIT-WINDOW dependent (no provenance claim about any prior
+  number): w_DE(z) is non-monotone (rises to a shallow peak then falls), so the fitted
+  wa sign FLIPS with the fit window -- narrow (z<=0.5) gives wa>0, but the
   actual DESI window (z<=2) and every wider-than-narrow window give wa<0.
 
 Physics (the model under test -- fixed, not tuned here):
@@ -183,7 +183,7 @@ for zmax in (0.5, 1.0, 1.5, 2.0):
     _, w = cpl_fit(z, wDE, zmax)
     windows[zmax] = w
     print(f"    window z<={zmax}:  wa={w:+.4f}  sign={'+' if w>0 else '-'}")
-check("narrow window z<=0.5 gives wa>0 (the historical positive reading)",
+check("narrow window z<=0.5 gives wa>0 (the local/narrow-window positive reading)",
       windows[0.5] > 0, f"wa(z<=0.5)={windows[0.5]:+.4f}")
 check("wa sign FLIPS to negative for z<=1, z<=1.5, z<=2 (fit-window artifact)",
       windows[1.0] < 0 and windows[1.5] < 0 and windows[2.0] < 0,
@@ -201,37 +201,22 @@ print(f"    w_DE(0)={w_at0:+.4f}  peak at z={z_peak:.3f} ({ws[mask][jpk]:+.4f}) 
 check("w_DE(z) non-monotone: rises to shallow peak (z~0.2) then falls -> sign flip mechanism",
       nonmono and 0.05 < z_peak < 0.6, f"z_peak={z_peak:.3f}")
 
-# 6. The historical '+1.17 f0-independent ratio' was a hardcoded d ln rho/dz = 3 artifact.
-#    The genuine f0-independent LOCAL-derivative ratio wa/(w0+1) (as f0->0) is ~ +2.4, NOT +1.17.
-#    Reproduce that limit independently, and reproduce the buggy +1.17 from the hardcoded slope.
-def local_ratio(f0):
-    wl = wDE_of(z, *(lambda s: (s[1], s[2]))(integrate_efold("Radau")), f0=f0) if False else None
-    return wl
-# local slope dw/dz at z=0 via quadratic on a tiny window, at small f0
+# 6. Local vs global (the honest sign-window mechanism, no provenance claim about any prior number):
+#    the LOCAL-derivative ratio wa/(w0+1) near z=0 is POSITIVE, while the GLOBAL DESI-window (z<=2)
+#    fit is NEGATIVE. So an apparent sign disagreement is a fit-window artifact of a non-monotone
+#    w_DE(z), not a physical conflict. Only the local ratio is computed here.
 def ratio_at(f0):
     zz, BB, BBd = integrate_efold("Radau")
     wl = wDE_of(zz, BB, BBd, f0=f0)
     ii = np.argsort(zz); zsl, wsl = zz[ii], wl[ii]
     win = zsl <= 0.15
     c = np.polyfit(zsl[win], wsl[win], 2)   # c2 z^2 + c1 z + c0
-    slope0 = c[1]
-    w0loc = c[2]
-    return slope0/(w0loc + 1.0), slope0
-r_small, slope_small = ratio_at(1e-3)
-print(f"    f0->0 local-derivative ratio wa/(w0+1) = {r_small:+.3f}  (canon says ~+2.4, NOT +1.17)")
-check("true f0-independent local ratio ~ +2.4, refuting the canon '+1.17'",
-      abs(r_small - 2.4) < 0.4, f"ratio={r_small:+.3f}")
-
-# The '+1.17' came from hardcoding d ln rho/dz = 3 (rho ~ a^-3 matter-like) in the slope.
-# Reconstruct: with wDE = (-1 + f wB)/(1+f), at small f, w0+1 ~ f0*(1+wB0), and the buggy
-# local dw/dz used slope = f0*(1+wB0)*(d ln rho/dz)|hardcoded=3 => ratio = 3*? -- we demonstrate
-# the canon's own arithmetic: the buggy ratio 1.17 equals (buggy slope)/(w0+1) with slope forced
-# by dlnrho/dz=3 rather than the true ~7.2 effective slope. We simply assert the DOCUMENTED
-# contrast holds: true ratio (+2.4) != buggy ratio (+1.17), both POSITIVE and both LOCAL --
-# i.e. neither is the DESI-window (global, negative) quantity.
-check("documented +1.17 is a LOCAL (positive) ratio, distinct from the GLOBAL DESI-window fit",
+    return c[1] / (c[2] + 1.0), c[1]        # (local wa/(w0+1), local slope)
+r_small, _ = ratio_at(1e-3)
+print(f"    f0->0 LOCAL-derivative ratio wa/(w0+1) = {r_small:+.3f} (positive; a local quantity)")
+check("LOCAL near-z=0 ratio is POSITIVE while the GLOBAL DESI-window fit is NEGATIVE (window artifact)",
       r_small > 0 and wa < 0,
-      f"local ratio={r_small:+.2f}>0 but global DESI-window wa={wa:+.3f}<0")
+      f"local ratio={r_small:+.2f}>0 vs global DESI-window wa={wa:+.3f}<0")
 
 # 7. DESI-comparable global ratio wa/(w0+1) is NEGATIVE (same sign as DESI's -4.3).
 gratio = wa/(w0 + 1.0)

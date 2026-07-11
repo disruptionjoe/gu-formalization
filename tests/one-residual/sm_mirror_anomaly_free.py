@@ -82,13 +82,10 @@ tr_Y3    = sum(s["Y"]**3 for s in states)
 tr_Y_T2  = sum(s["Y"] * s["T3"]**2 for s in states)
 tr_Y_C2  = sum(s["Y"] * s["Cc"]**2 for s in states)
 
-# ---------------------------------------------------------------------------
-# Vectorlike check: mirror = 16 (+) 16bar. Left- and right-chirality counts
-# are equal by construction, so n_L - n_R = 0.
-# ---------------------------------------------------------------------------
-n_L = n_states          # the 16 (left-handed Weyl)
-n_R = n_states          # the 16bar mirror partner (opposite chirality)
-nLmR = n_L - n_R
+# Vectorlike-ness (16 (+) 16bar) and the so(10)-cubic-Casimir umbrella are NOT asserted here --
+# they are computed for real in tests/one-residual/sm_so10_cubic_casimir_and_mirror.py (the 16bar is
+# the genuine charge-conjugate by the full 5-Cartan weight system; the so(10) cubic Casimir vanishes on
+# the 16). This test establishes only the four SM anomaly TRACES for one generation.
 
 # ---------------------------------------------------------------------------
 # Report.
@@ -99,17 +96,17 @@ def check(name, value, target=Integer(0)):
     checks.append(ok)
     print(f"[{'PASS' if ok else 'FAIL'}] {name:22s} = {value!s:>6}  (expect {target})")
 
-print("=== SM mirror generation: anomaly-freedom & vectorlike (16 of so(10)) ===")
+print("=== SM one-generation anomaly traces (16 of so(10)) ===")
 print(f"[{'PASS' if n_states == 16 else 'FAIL'}] state count           = {n_states:>6}  (expect 16)")
 checks.append(n_states == 16)
 check("Tr Y",          tr_Y)
 check("Tr Y^3",        tr_Y3)
 check("Tr(Y * T2^2)",  tr_Y_T2)
 check("Tr(Y * C^2)",   tr_Y_C2)
-check("n_L - n_R",     Integer(nLmR))
 
 all_ok = all(checks)
 print("-" * 60)
-print("RESULT:", "PASS -- all four SM anomalies vanish; mirror is vectorlike"
+print("RESULT:", "PASS -- all four SM anomaly traces vanish for one generation "
+      "(vectorlike / so(10)-cubic-Casimir computed in sm_so10_cubic_casimir_and_mirror.py)"
       if all_ok else "FAIL")
 sys.exit(0 if all_ok else 1)
