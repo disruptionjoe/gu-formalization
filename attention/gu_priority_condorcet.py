@@ -25,25 +25,32 @@ from __future__ import annotations
 from itertools import combinations
 
 # --- the candidate hypotheses / next moves (the council's decision set) ---
+# RESOLVED in Wave 1 (2026-07-11), dropped from the live set:
+#   H1 -> gravity CLEARS in the Bach branch (Bach tensor of exact Schwarzschild = 0 all orders; Kerr
+#         Ricci-flat), REDUCED to the conformal-invariance datum. tests/wave1/H1_bach_flat_exact_vacua.py.
+#   H3 -> DESI verified vs arXiv:2503.14738 (recall was correct; GU ~3-4 sigma on wa, a standing FALSIFIER);
+#         the theta INT gravity over-determination WEAKENS under the corrected M^2/r^6 residual (f0 not
+#         pinned by gravity). tests/wave1/H3_desi_verified_and_intersection.py.
+# Both Wave-1 results point at the H-class / conformal reading -> H4 and H8 elevated below.
 ITEMS = {
-    "H1": "Run ELProjectedGRShadowTheorem in the conformal/Bach branch (Bach admits exact Schwarzschild -> likely clears the gravity wall). Cheap, decisive.",
     "H2": "Settle rep-canonicity (9,5) vs (7,7) = the OQ2-A H/II binary, via the J-commutant on the (6,4) DeWitt form. Decides forced-vs-located count, conformal-nativeness, and c_W. THE crux.",
-    "H3": "Verify DESI (w0,wa) vs arXiv:2503.14738 Table 3, then re-run the theta INT gravity intersection test with the corrected Willmore residual. Turns the ~3-4 sigma tension into a falsifiable prediction.",
-    "H4": "Full higher-codimension Willmore first variation (Simons + normal-bundle, background-subtracted). Settles the H/II binary, signs the O(M^0) Lambda candidate, tests the conformal-invariance question. No new object.",
+    "H4": "Full higher-codimension Willmore first variation (Simons + normal-bundle, background-subtracted). NOW GATES THE GRAVITY CLEAR (H1): does GU's functional equal Bach on all sectors / annihilate the trace mode? Also signs the O(M^0) Lambda, settles the H/II binary.",
     "H5": "Run the information-first / entropic-gravity antithesis against the confirmed conformal identification (Bianconi +Lambda meets GU theta). The un-run lens on the geometry-first primitive.",
     "H6": "Ship the GU-independent family-puzzle paper ('forces odd count => nonzero 3-Sylow image'). Credible regardless of GU's fate.",
     "H7": "Match Weinstein's transcript RS '2+1 imposter' generation mechanism (Spin(V+W) product rule) against our carrier A/B structure. Concrete, distinguishing.",
-    "H8": "Check whether Weyl^2/Bach + the fiber/gauge terms IS the S_IG spec -- i.e. is the source-action buildbench solving a non-problem now that H-class GU may be a KNOWN theory?",
+    "H8": "Is GU just Bach? Check whether Weyl^2/Bach + the fiber/gauge terms IS the S_IG spec. ELEVATED: H1 showed Bach gravity passes the exact-vacuum gate, so 'GU = a known conformal theory' is live and could moot the source-action buildbench.",
 }
 
-# --- five council ballots: each is a strict preference order, best first ---
-# (derived from each archetype's stated values in the council doc; see that doc for the reasoning)
+# --- five council ballots: strict preference order, best first ---
+# RE-RANKED after Wave 1 (M4 protocol: move only what the swing served). H1 cleared gravity in the Bach
+# branch conditional on the conformal-invariance of the functional -> H4 (which tests exactly that) and H8
+# (is GU=Bach) rise across the archetypes that value the conformal identification; H2 stays the count-crux.
 BALLOTS = {
-    "orthodox":            ["H3", "H1", "H8", "H4", "H6", "H2", "H7", "H5"],
-    "heterodox_rigorous":  ["H2", "H4", "H8", "H1", "H7", "H3", "H6", "H5"],
-    "commercial":          ["H1", "H3", "H6", "H8", "H2", "H4", "H7", "H5"],
-    "philosopher":         ["H1", "H3", "H5", "H2", "H4", "H8", "H6", "H7"],
-    "wild_frontier":       ["H2", "H7", "H4", "H8", "H5", "H1", "H3", "H6"],
+    "orthodox":            ["H8", "H4", "H2", "H6", "H7", "H5"],
+    "heterodox_rigorous":  ["H2", "H4", "H8", "H7", "H6", "H5"],
+    "commercial":          ["H8", "H4", "H6", "H2", "H7", "H5"],
+    "philosopher":         ["H4", "H8", "H5", "H2", "H6", "H7"],
+    "wild_frontier":       ["H2", "H4", "H8", "H7", "H5", "H6"],
 }
 
 
