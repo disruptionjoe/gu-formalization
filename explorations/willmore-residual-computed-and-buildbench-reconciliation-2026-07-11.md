@@ -140,6 +140,43 @@ remaining hidden freedom in the gravity coefficient -- `R^Y`, `B`, and `Q^TF` ar
 objects; `alpha_W` collapses onto `c_W`, which is the same convention datum that (i) and the whole
 source-action narrowing already isolate.
 
+## The OQ2-A swing: functional freedom -> an order binary welded to the theta-sector (2026-07-11)
+
+`tests/one-residual/willmore_oq2a_functional_selection.py` (exit 0). OQ2-A -- the unbuilt GU section
+functional that fixes `c_W` -- was taken on directly. The handle: a curved-ambient Willmore EL can be
+consistent on the `Psi=0` Schwarzschild section only if its ambient-curvature term enters at the SAME M-order
+as the intrinsic residual. Every order is now computed:
+
+| object | order | source |
+|---|---|---|
+| `R^Y` (ambient Riemann) | `O(M^0)` | `willmore_curved_ambient_term.py` (nonzero at `g=eta`) |
+| `B` (section II, principled) | `O(M^1)` | `d^2 h ~ M/r^3` |
+| `H` (mean curvature, principled) | `O(M^2)` | `H^(1)=0`, harmonic |
+| intrinsic residual `Q^TF(B)` | `O(M^2)` | `M^2/r^6` |
+| `theta`-source (Branch-3) | `O(M^1)` | `theta ~ M/rho^2` |
+
+The consequence splits the functional freedom into two order-consistency scenarios:
+- **H-class** (`|H|^2` / conformal Willmore): ambient term `~ R^Y.H = O(M^2)`, SAME order as `Q^TF(B)` -> it
+  balances **intrinsically**; gravity closes at `O(M^2)` with no leading `theta`-source, and `c_W` is fixed
+  by `c_W (R^Y.H)^TF = -Q^TF(B)`.
+- **II-class** (`|II|^2`): ambient term `~ R^Y.B = O(M^1)`, one order LOWER than the intrinsic residual, with
+  no intrinsic partner. Exact Schwarzschild then solves the EL **only if an `O(M^1)` source cancels it** --
+  and that is exactly the Branch-3 `theta ~ M/rho^2` (gravity INT dark energy).
+
+**The robust, decisive observation:** the II-class imbalance is `O(M^1)` -- the *exact* order of the
+`theta`-source. So the functional choice DETERMINES whether gravity needs the `theta`-source at leading
+order, and the II-class is **welded to the `theta`-sector**: the same shared `theta` that dark energy fixes
+(`f_0`) is what an `|II|^2` GU would need to close gravity. This ties OQ2-A, the gravity leg, and the
+dark-energy leg into one contingent structure -- non-p-hacking (each constraint is independent physics).
+
+**Grade (deliberately not overstated):** order-grade structural map, NOT a closed selection theorem. The
+order arithmetic is exact; the two-scenario organization and `c_W`-fixing assume the standard curved-ambient
+Willmore EL structure. In higher codimension the `|H|^2` ambient term also carries H-independent pieces
+(ambient Ricci restricted to the tangent, `O(M^0)` around the background section -- the section-6.1
+"constant sections are not totally geodesic" effect); a fully rigorous selection needs a background-subtracted
+linearization, not done here. Settling the exact GU functional (the binary itself) remains the residual OQ2-A
+datum -- but its consequences, and its link to the `theta`-sector, are now mapped.
+
 ## Grade
 Computation-grade for (b) `Q^TF(B^(1))` (exact sympy, reproducible, exit 0); the **finding includes a canon
 tension** (`M^2/r^2` vs the estimated `M^2/r^4`) that is flagged, localized to the algebraic-slice SFF, and
