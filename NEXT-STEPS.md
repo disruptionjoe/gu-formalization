@@ -21,6 +21,20 @@ updated_at: "2026-07-10"
 > every admissible config -> GU STRUCTURALLY FALSIFIED (dead via gravity).** Do NOT deprioritize the four
 > legs because the count is "only located." See `explorations/disproof-hunt-given-working-action-2026-07-11.md`,
 > `explorations/explanatory-scope-audit-source-action-bottleneck-2026-07-11.md`.
+>
+> **UPDATE 2026-07-11 (legs resolved -> the North Star is now ONE construction).** The leg work is done and
+> **4 of 5 legs are CLEARED to YES** (dark energy, QM, Standard Model, forces; the forces/SM-gauge clear is
+> reproducible at `tests/legs/forces_maximal_compact_is_sm.py` -- max compact of su(3,2) = exactly
+> su(3)+su(2)+u(1), one U(1), no extra force). No leg falsifies GU. Gravity is the sole open leg, and it,
+> the located-not-forced count, and the gauge-vacuum selection are the SAME unwritten object: the
+> **branch-fixed source action**. So the North Star reduces cleanly to ONE construction problem:
+> **write/derive the branch-3 source action with fixed coefficients** -- it simultaneously (a) decides gravity
+> (the `R^Y.B` Willmore-EL scalar at O(M^2/r^4): CLEAR vs DISPROOF) and (b) pins the count. A FREE build
+> p-hacks (located-not-forced); the honest form is a FORCED/derived construction. This is the single
+> highest-leverage task for contributors and the hourly loop. See
+> `explorations/four-legs-resolved-gu-live-candidate-2026-07-11.md`. (Publishable byproduct: the complete
+> picture -- 4 legs cleared + everything reduces to one located residual -- is a bigger paper that subsumes
+> the located-not-forced draft; tracked on JoeOps WI-068.)
 
 > **2026-06-28 (now #2, historical primary): the Firewall-Boundary Hypothesis.** The repository's
 > primary falsification target is now whether every successful reconstruction converges on a
