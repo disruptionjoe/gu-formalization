@@ -33,32 +33,33 @@ from itertools import combinations
 #         pinned by gravity). tests/wave1/H3_desi_verified_and_intersection.py.
 # Both Wave-1 results point at the H-class / conformal reading -> H4 and H8 elevated below.
 ITEMS = {
-    # Wave 4: H18 RESOLVED -> II-class FORCED (structural grade) -> GRAVITY LEG CLEARS (conditional on P1/P2).
-    # -> H16 (viability) becomes the top gravity bar; H21 (prove P1) is the hardening upgrade.
-    "H16": "GRAVITY IS NOW THE VIABILITY QUESTION (H18 structurally cleared it -> Stelle R^X+Weyl^2 + DeWitt Lambda, BT-graded massive ghost m^2=+1/2>0). Is that branch actually physically VIABLE -- loop-level unitarity (BT prove tree only), the empirical scale of the massive ghost, the induced-R^X sign once ambient DeWitt R^Y is included (H15 Part E), the contested Mannheim program -- or a relocated problem in the Stelle-Mannheim corner? The real falsification bar. [orthodox/philosopher]",
-    "H21": "Prove P1: s*(theta) = II_s OFF-SHELL, convention-fixed (ii-s-coordinate-formula sec 6.3 Codazzi / section-pullback). This is one of the two reconstruction-grade premises H18's II-class forcing rests on; proving it upgrades gravity from STRUCTURAL-clear to HARD-clear. The single hardening move. [heterodox]",
-    "H19": "Search GU's base-pullback / observerse tautological structure for a term LINEAR in g carrying the timelike-norm sign -- the SOLE remaining decider of the (9,5)/(7,7) signature (conformal sector is structurally barred). Ties to the X4-architecture / Y14-capability-projection lens. [heterodox]",
-    "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): does GU-Stelle gravity pass the real solar-system bar? [orthodox/philosopher]",
-    "H20": "Does the Clifford EVEN/ODD split organize the WHOLE |II|^2-on-Y14 action into gravity (even: R^X+Weyl^2+Lambda) + matter/source (odd: the Clifford-odd shiab, H18 Part 3) -- Weinstein's 'square and square-root / second-order = the square of the first-order'? The full-unification probe. [wild]",
-    "H22": "Update the One Residual flagship (papers/candidates/one-residual-complete-picture) with the gravity-structurally-clears result: the complete picture -- gravity (Stelle+Lambda) + dark energy + SM (conjugate) + QM (Krein) + located count -- now assembled at existence/structural grade. Honest grades, conditional premises flagged. [commercial]",
-    "H14": "Is the generation COUNT a conformal invariant under Bach/so(4,2)? (likely signature-blind too -- lowered). [wild]",
+    # Wave 5: H21 PROVEN (s*(theta)=II_s off-shell, fork does NOT re-open) + H16 CONTESTED-CORNER (antigravity
+    # kill retired). BOTH collapse gravity's residual onto ONE object: A = spin-lift(grad^gimmel) = the source
+    # action. Gravity is HARD-clear MODULO that object. -> H23 (attempt it) + H24 (the R^Y firm-up).
+    "H23": "THE TERMINAL CONSTRUCTION: attempt the canonical-connection identification A = spin-lift(grad^gimmel) (+ the |theta|^2=|II|^2 norm) = GU's source action. H21 proved everything else; this single object makes gravity's hard-clear UNCONDITIONAL, fixes the R^Y normalization AND the loop [P,S]=0, and tests the full boson(even)+fermion(odd) unification (H20 folds in). HIGH-RISK: this is the source-action buildbench's standing wall -- now maximally de-risked and sharply specified. [heterodox/wild]",
+    "H24": "Compute the ambient DeWitt R^Y normalization -- H16's residual computable gate. Confirms the induced-R^X sign in the CURVED ambient (not just flat) and sets the ghost mass scale (m_ghost^2 = mu_DW^2/2). The tractable firm-up that either confirms both viability bars or flips the sign into a kill, WITHOUT needing the full action. [orthodox]",
+    "H22": "Assemble/update the One Residual flagship with the Wave 1-5 results: gravity HARD-clears modulo one object (Stelle R^X+Weyl^2 + DeWitt Lambda, antigravity kill retired, ghost BT-cleared at tree) + dark energy (DESI ~3-4 sigma honest tension) + SM (conjugate) + QM (Krein) + located count. The complete picture at structural/existence grade, all conditional premises flagged. [commercial]",
+    "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): does GU-Stelle pass the real solar-system bar? [orthodox/philosopher]",
+    "H19": "Search GU's base-pullback / observerse tautological structure for a term LINEAR in g -- the SOLE remaining decider of the (9,5)/(7,7) signature. Ties to the X4/Y14 architecture-vs-capability lens. [heterodox]",
+    "H20": "Does the Clifford even/odd split organize the whole |II|^2-on-Y14 action into gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? (Largely folds into H23.) [wild]",
+    "H14": "Is the generation COUNT a conformal invariant under Bach/so(4,2)? (likely signature-blind -- lowered). [wild]",
     "H6": "Ship the GU-independent family-puzzle paper ('forces odd count => nonzero 3-Sylow image'). Credible regardless of GU's fate.",
-    "H7": "Match Weinstein's transcript RS '2+1 imposter' generation mechanism against our carrier A/B structure. [wild]",
-    "H5": "Information-first / entropic-gravity antithesis (Bianconi +Lambda meets GU theta). Does NOT rise on Branch A (II-class); only would on Branch B.",
+    "H7": "Match Weinstein's RS '2+1 imposter' generation mechanism against our carrier A/B structure. [wild]",
+    "H5": "Information-first / entropic-gravity antithesis. Does NOT rise (Branch A / II-class confirmed).",
 }
 
 # --- five council ballots: strict preference order, best first ---
-# GENERATIVE re-rank after Wave 4 (H18). Gravity structurally CLEARS (II-class forced). So the gravity
-# question becomes VIABILITY (H16, now top bar) + HARDENING (H21, prove P1). New: H22 (assemble the complete
-# picture, now that gravity clears) + H20 sharpened (Clifford even/odd = boson/fermion unification). H5 does
-# NOT rise (Branch A). Philosopher's caution: "structural clear inheriting Stelle+massive-ghost" may be a
-# contested corner -> weights H16 (the bar) high.
+# GENERATIVE re-rank after Wave 5 (H16 + H21). Gravity is HARD-clear MODULO one object:
+# A = spin-lift(grad^gimmel) = the source action (H21 proved P1; H16 retired the antigravity kill; both
+# residuals route to this object). The council is at a genuine DECISION POINT: attempt the terminal
+# construction (H23, high-risk = the buildbench wall), the tractable firm-up (H24, R^Y), or ship the
+# assembled picture (H22). Expect a cycle/near-tie -- an honest construct-vs-consolidate signal.
 BALLOTS = {
-    "orthodox":            ["H16", "H10", "H21", "H22", "H19", "H20", "H14", "H6", "H7", "H5"],
-    "heterodox_rigorous":  ["H21", "H16", "H19", "H20", "H10", "H22", "H14", "H7", "H6", "H5"],
-    "commercial":          ["H22", "H16", "H6", "H21", "H10", "H19", "H20", "H14", "H7", "H5"],
-    "philosopher":         ["H16", "H10", "H21", "H5", "H19", "H22", "H20", "H14", "H6", "H7"],
-    "wild_frontier":       ["H20", "H21", "H16", "H19", "H14", "H22", "H5", "H7", "H10", "H6"],
+    "orthodox":            ["H24", "H10", "H23", "H22", "H19", "H20", "H14", "H6", "H7", "H5"],
+    "heterodox_rigorous":  ["H23", "H24", "H19", "H20", "H10", "H22", "H14", "H7", "H6", "H5"],
+    "commercial":          ["H22", "H24", "H6", "H23", "H10", "H19", "H20", "H14", "H7", "H5"],
+    "philosopher":         ["H23", "H22", "H24", "H10", "H5", "H19", "H20", "H14", "H6", "H7"],
+    "wild_frontier":       ["H23", "H20", "H24", "H19", "H14", "H22", "H5", "H7", "H10", "H6"],
 }
 
 
