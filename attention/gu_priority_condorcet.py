@@ -33,31 +33,29 @@ from itertools import combinations
 #         pinned by gravity). tests/wave1/H3_desi_verified_and_intersection.py.
 # Both Wave-1 results point at the H-class / conformal reading -> H4 and H8 elevated below.
 ITEMS = {
-    "H2": "Settle rep-canonicity (9,5) vs (7,7) = the OQ2-A H/II binary, via the J-commutant on the (6,4) DeWitt form. Decides forced-vs-located count, conformal-nativeness, and c_W. THE count-crux.",
-    "H4": "Full higher-codimension Willmore first variation (Simons + normal-bundle, background-subtracted). GATES THE GRAVITY CLEAR (H1): does GU's functional equal Bach on all sectors / annihilate the trace mode? Also signs the O(M^0) Lambda, settles the H/II binary.",
-    "H5": "Run the information-first / entropic-gravity antithesis against the confirmed conformal identification (Bianconi +Lambda meets GU theta). The un-run lens on the geometry-first primitive.",
+    # H1/H4/H8/H9/H11 COLLAPSED (Wave 2 reflection) onto a single decidable fork -> H15.
+    "H15": "THE GRAVITY FORK (collapses H1/H4/H8/H9/H11 + the OQ2-A functional + the ghost onto ONE decidable object): does GU's forced geometry (shiab, RS source, YM fiber) generate an Einstein-Hilbert scalar-curvature R term -> Stelle-type R+Weyl^2 (distinct massive ghost, Bateman-Turok-ready, ghost CLEARS) -- or leave gravity pure conformal Bach box^2 (degenerate coincident-pole, ghost parity non-canonical, ghost NOT cleanly solved)? H9 showed the whole gravity+ghost story reduces to this fork.",
+    "H2": "Settle rep-canonicity (9,5) vs (7,7) = the OQ2-A H/II binary, via the J-commutant on the (6,4) DeWitt form. Decides forced-vs-located COUNT, conformal-nativeness, and c_W. Distinct from H15 (which is the gravity/ghost fork); this is the count-crux. Mildly coupled (the O(1,1) vs O(96,96) Krein distinction).",
+    "H5": "Run the information-first / entropic-gravity antithesis against the confirmed conformal identification (Bianconi +Lambda meets GU theta). The un-run lens on the geometry-first primitive. Unaffected by Wave 2.",
     "H6": "Ship the GU-independent family-puzzle paper ('forces odd count => nonzero 3-Sylow image'). Credible regardless of GU's fate.",
     "H7": "Match Weinstein's transcript RS '2+1 imposter' generation mechanism (Spin(V+W) product rule) against our carrier A/B structure. Concrete, distinguishing.",
-    "H8": "Is GU just Bach? Check whether Weyl^2/Bach + fiber/gauge IS the S_IG spec. H1 showed Bach gravity passes the exact-vacuum gate, so 'GU = a known conformal theory' is live and could moot the source-action buildbench.",
-    # --- NEW hypotheses drafted by the council's Wave-1 reflection (2026-07-11) ---
-    "H9": "Ghost audit of the H-class/Bach sector -- SHARPENED: a ghost-free 4-derivative completion EXISTS and is published (Bateman-Turok 'Escape from Ostrogradsky via Hidden Ghost Parity', arXiv:2607.00096; ghosts graded on a Krein space), and GU's own Krein form IS that ghost parity (canon/ghost-parity-krein-synthesis.md, implements the so(9,5) Cartan involution). So H9 is NOT 'does a completion exist' but 'does GU's Bach action INSTANTIATE Bateman-Turok': is [P_ghost, S]=0 for the H-class action? Decisive; the Krein structure we compute everywhere is the candidate mechanism. [orthodox/commercial]",
-    "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): vacuum-Schwarzschild-exists (H1) does NOT establish solar-system compatibility. Does GU-Bach pass the real weak-field bar? [orthodox/philosopher]",
-    "H11": "Structural unification test: are {H4 conformal-invariant functional, H8 GU=Bach, H2 (6,4)-signature} actually ONE datum? If so the gravity+count story closes or falls together. [heterodox]",
-    "H14": "Is the generation COUNT a conformal invariant under the Bach/so(4,2) structure? The count-side of H11 -- links the signature question to the conformal identification from the geometry side. [wild]",
+    "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): vacuum-Schwarzschild-exists (H1) does NOT establish solar-system compatibility. Does GU gravity pass the real weak-field bar? [orthodox/philosopher]",
+    "H14": "Is the generation COUNT a conformal invariant under the Bach/so(4,2) structure? Links the signature question to the conformal identification from the geometry side. [wild]",
+    # --- NEW from the Wave-2 (H9) reflection (2026-07-11) ---
+    "H16": "Is the 'good branch' (Stelle R+Weyl^2 + Bateman-Turok-graded massive ghost) actually physically VIABLE -- loop-level unitarity (BT prove tree only), empirical acceptability of the massive ghost, the contested Mannheim degenerate-case program -- or does it relocate the problem into a contested corner? The real falsification bar. [philosopher]",
+    "H17": "Does GU's full O(96,96) Krein/fiber structure canonically SELECT the ghost parity at the degenerate Bach point (box^2), where the naive per-mode O(1,1) cannot (commutant jumps 2->4)? Would turn the box^2 degeneracy from a bug into the reason the fiber structure is needed. [wild]",
 }
 
 # --- five council ballots: strict preference order, best first ---
-# GENERATIVE re-rank after Wave 1: the council first reflected (3 questions) and DRAFTED new hypotheses
-# (H9,H10,H11,H14), THEN voted over the enlarged set. The Wave-1 lesson (gravity is Bach-class, clears the
-# vacuum gate conditional on the conformal-invariant functional) pushes the REAL physical bars (ghost H9,
-# PPN H10) and the unification/functional questions (H4,H8,H11) up; "vacuum-clear may not be the right bar"
-# (philosopher) weights H9/H10 heavily.
+# GENERATIVE re-rank after Wave 2 (H9). The council reflected and found H1/H4/H8/H9/H11 COLLAPSE onto one
+# fork (H15: pure Bach box^2 vs Stelle R+Weyl^2), and drafted H16 (viability bar) + H17 (does the O(96,96)
+# fiber fix the degeneracy). H15 is the decisive gate that settles ~5 prior items at once.
 BALLOTS = {
-    "orthodox":            ["H9", "H10", "H8", "H4", "H2", "H6", "H11", "H14", "H7", "H5"],
-    "heterodox_rigorous":  ["H11", "H2", "H4", "H8", "H14", "H9", "H10", "H7", "H6", "H5"],
-    "commercial":          ["H8", "H9", "H4", "H6", "H10", "H2", "H11", "H14", "H7", "H5"],
-    "philosopher":         ["H9", "H10", "H4", "H5", "H8", "H2", "H11", "H14", "H6", "H7"],
-    "wild_frontier":       ["H14", "H11", "H2", "H4", "H8", "H5", "H9", "H7", "H10", "H6"],
+    "orthodox":            ["H15", "H16", "H10", "H2", "H17", "H14", "H6", "H7", "H5"],
+    "heterodox_rigorous":  ["H15", "H2", "H17", "H16", "H14", "H10", "H7", "H6", "H5"],
+    "commercial":          ["H15", "H16", "H6", "H2", "H10", "H17", "H14", "H7", "H5"],
+    "philosopher":         ["H16", "H15", "H10", "H5", "H2", "H17", "H14", "H6", "H7"],
+    "wild_frontier":       ["H17", "H15", "H2", "H14", "H16", "H5", "H7", "H10", "H6"],
 }
 
 
