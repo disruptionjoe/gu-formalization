@@ -105,3 +105,17 @@ TaF-flavored reinterpretation of GU throughout; GU stays motivation. The one dur
 records-as-rows object is a candidate UNIFIER of the six-axis map's unoccupied L2-L7 region, currently
 at scope-exit grade, gated on the same forgetful-functor burden as every non-geometric evasion and on
 the T223 causal-set no-go.
+
+## Update (2026-07-10): both named lanes executed
+
+- **T223 causal-set lane (geometry):** executed. The T126 order-dimension leg is a finite-sample
+  artifact (RNG Monte Carlo confirmed), and a principled Myrheim-Meyer dimension estimator now reads
+  genuine 1+1 sprinkles as `d_hat=2.00` while the finality-colimit witnesses read below 2. S1 stays
+  `requires_added_assumption`; the honest gap is a finality-native GENERATOR, not a diagnostic. See
+  `time-as-finality/explorations/myrheim-meyer-dimension-estimator-and-s1-2026-07-10.md`.
+- **Nielsen-Ninomiya L3/L6 lane (chirality):** executed at toy grade. The generation-count terminus
+  (Theorem 2 + external-by-structure) IS the N-N no-go and its domain-wall escape; records-as-rows
+  supplies a candidate boundary (the autoregressive frontier). The lane advances from scope-exit toward
+  candidate -- the target shadow is exhibited -- but the smoothing-functor domain (an actual records
+  object -> the lattice) is not yet built. See
+  `explorations/nielsen-ninomiya-domain-wall-records-as-rows-2026-07-10.md`.
