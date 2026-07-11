@@ -36,10 +36,12 @@ ITEMS = {
     # Wave 5: H21 PROVEN (s*(theta)=II_s off-shell, fork does NOT re-open) + H16 CONTESTED-CORNER (antigravity
     # kill retired). BOTH collapse gravity's residual onto ONE object: A = spin-lift(grad^gimmel) = the source
     # action. Gravity is HARD-clear MODULO that object. -> H23 (attempt it) + H24 (the R^Y firm-up).
-    # H25 RESOLVED (Wave 7) -> CLEAR (C_RY > 0, two methods): gravity's geometry leg is VIABLE at TREE level.
-    # All remaining gravity gates (mu_DW, loop [P,S]=0, normalization) collapse onto the source action (H23).
-    "H23": "THE SOURCE-ACTION CONSTRUCTION: A = spin-lift(grad^gimmel) (+ |theta|^2=|II|^2). Gravity's geometry now CLEARS at tree level (H25: sign confirmed by two methods), so H23's remaining job is NARROWED to fixing mu_DW (ghost scale, natural ~M_Pl), the OQ2-A normalization/magnitude, and enabling the loop [P,S]=0 check -- making the clear UNCONDITIONAL, and testing the full boson(even)+fermion(odd) unification (H20 folds in). HIGH-RISK: the buildbench's standing wall, now maximally de-risked (sign, fork, leading-R^Y all cleared). [heterodox/wild/orthodox]",
-    "H26": "The loop-level ghost-parity condition [P_ghost, S] = 0: does GU's Krein ghost parity survive renormalization (making the massive-ghost unitarity HOLD at loop, not just tree)? The genuinely hard, generic-Stelle-shared frontier; needs the source-action dynamics (so it sits after / inside H23). The last non-geometry gravity gate. [philosopher]",
+    # H23 RESOLVED (Wave 8) -> PARTIAL: the spin-lift is canonical AS A MAP + the Krein [P,S]=0 holds (ghost
+    # clears structurally); but the SOLDERING (pinning theta to the spin-lift image, codim-8165) is NOT forced
+    # -- a single honest postulate. Gauge group sharpened to NON-COMPACT Sp(32,32;H). Gravity = a CONDITIONAL
+    # THEOREM (tree-level Stelle-clear, positive decoupled ghost) modulo {the soldering postulate + mu_DW}.
+    "H27": "The SOLDERING CARRIER -- the single move that upgrades gravity PARTIAL -> UNCONDITIONAL. Does a first-order/Palatini variation of S=|theta|^2 drive the connection pi onto the metric-compatible spin-lift on-shell, WITHOUT collapsing to the acausal theta=0 (DEAD-ENDS)? H23 proved the spin-lift is canonical as a map and the ghost clears; this is the one remaining bosonic gravity object. Second: mu_DW. [heterodox/wild]",
+    "H26": "Does the Krein ghost-parity [P,S]=0 (H23 showed it HOLDS structurally, Bateman-Turok positivity) survive RENORMALIZATION (loop-level unitarity)? The hard generic-Stelle-shared frontier; needs the source-action dynamics. Narrowed by H23 (structural version confirmed). [philosopher]",
     "H22": "Assemble/update the One Residual flagship with the Wave 1-5 results: gravity HARD-clears modulo one object (Stelle R^X+Weyl^2 + DeWitt Lambda, antigravity kill retired, ghost BT-cleared at tree) + dark energy (DESI ~3-4 sigma honest tension) + SM (conjugate) + QM (Krein) + located count. The complete picture at structural/existence grade, all conditional premises flagged. [commercial]",
     "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): does GU-Stelle pass the real solar-system bar? [orthodox/philosopher]",
     "H19": "Search GU's base-pullback / observerse tautological structure for a term LINEAR in g -- the SOLE remaining decider of the (9,5)/(7,7) signature. Ties to the X4/Y14 architecture-vs-capability lens. [heterodox]",
@@ -57,11 +59,11 @@ ITEMS = {
 # picture) rises for commercial/philosopher; H23 (construct) holds heterodox/wild/orthodox. Expect a close
 # 3-2 split -> a genuine Joe decision point.
 BALLOTS = {
-    "orthodox":            ["H23", "H10", "H22", "H26", "H19", "H14", "H6", "H7", "H5"],
-    "heterodox_rigorous":  ["H23", "H19", "H22", "H26", "H10", "H14", "H7", "H6", "H5"],
-    "commercial":          ["H22", "H6", "H23", "H10", "H19", "H26", "H14", "H7", "H5"],
-    "philosopher":         ["H22", "H23", "H10", "H26", "H5", "H19", "H14", "H6", "H7"],
-    "wild_frontier":       ["H23", "H19", "H14", "H22", "H26", "H5", "H7", "H10", "H6"],
+    "orthodox":            ["H22", "H27", "H10", "H19", "H26", "H14", "H6", "H7", "H5"],
+    "heterodox_rigorous":  ["H27", "H22", "H19", "H26", "H10", "H14", "H7", "H6", "H5"],
+    "commercial":          ["H22", "H6", "H27", "H10", "H19", "H26", "H14", "H7", "H5"],
+    "philosopher":         ["H22", "H27", "H10", "H26", "H5", "H19", "H14", "H6", "H7"],
+    "wild_frontier":       ["H27", "H22", "H19", "H14", "H26", "H5", "H7", "H10", "H6"],
 }
 
 
