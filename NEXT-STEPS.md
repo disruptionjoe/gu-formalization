@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-10"
+updated_at: "2026-07-11"
 ---
 
 # Next Steps For Contributors
@@ -35,6 +35,42 @@ updated_at: "2026-07-10"
 > `explorations/four-legs-resolved-gu-live-candidate-2026-07-11.md`. (Publishable byproduct: the complete
 > picture -- 4 legs cleared + everything reduces to one located residual -- is a bigger paper that subsumes
 > the located-not-forced draft; tracked on JoeOps WI-068.)
+>
+> **UPDATE 2026-07-11b (source-action NARROWING arc + a ten-persona review; threads tracked on WI-068).**
+> The one-construction North Star was pushed hard by *constraining* the source action through the
+> intersection of the legs that need it (not a free build, which p-hacks). Results (all reproducible,
+> `tests/one-residual/*`, detail in `explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md`
+> and `explorations/source-action-constraint-intersection-2026-07-11.md`): theta-sector (gravity INT dark
+> energy) is order-compatible (f_0 <-> alpha_W linked); the gauge-sector SM is a SINGLE conjugate embedding
+> (forces-SM == vacuum-SM in so(10)); the gravity coefficient alpha_W is reduced to ONE scalar c_W with the
+> ambient Riemann R^Y of the gimmel/DeWitt metric COMPUTED and cross-checked; and OQ2-A (the unbuilt
+> functional that fixes c_W) is organized into an H-class/II-class order binary, with the II-class WELDED to
+> the theta-sector. A flagged M^2/r^2 Willmore residual was traced to a convention artifact and resolved to
+> M^2/r^6 under either principled normalization.
+>
+> **The concrete top TECHNICAL task now (supersedes the schematic ELProjectedGRShadowTheorem framing above
+> for the gravity leg):** do the honest HIGHER-CODIMENSION Willmore first variation IN FULL -- the Simons
+> term and the normal-bundle curvature term, with a background-subtracted linearization around the
+> non-totally-geodesic constant section. This single computation settles the H-class vs II-class binary and
+> either collapses or explodes the current gates; every persona lens (geometer, referee, verification) points
+> at it. Pair it with the STANDARD of a second, independent numerical (autodiff) implementation of II/H/R^Y
+> for every order-claim (the R^Y by-hand cross-check was the arc's high point; the M^2/r^2 bug survived a
+> commit because it had only one route).
+>
+> **The highest-CEILING thread (several independent persona lenses converge):** the `O(M^0)` intrinsic
+> curvature of `Met(X4)` -- the "a constant section is not totally geodesic" term (ii-s-coordinate-formula
+> sec 6.1) that we currently SUBTRACT as a normalization convention -- may be PHYSICAL: the dark-energy /
+> cosmological-constant scale (and, in the observerse/protocol reading, the deflationary issuance rate `f_0`).
+> Do not subtract it away without checking whether it IS the answer. If it is, the DeWitt curvature just
+> computed connects directly to the observerse-non-collapse condition -- the paper only this program can write.
+>
+> **Honesty guard (referee + historian lenses):** the arc's every leg terminates in "one remaining
+> scalar/convention/unbuilt object," and those are always the deciding thing -- a pattern that is either a
+> genuine single degree of freedom (beautiful) or a degenerating-program displacement of the hard part
+> (Lakatos). Also: to date these are NON-falsifications, not confirmations that DISCRIMINATE GU from other
+> geometric theories. Both are logged as standing watch-items on WI-068 (threads C1, E1). Full extracted
+> thread list (technical A1-A3, upside B1-B2, discrimination/phenomenology C1-C5, structural D1-D5, honesty
+> E1) lives on JoeOps WI-068 `open_research_threads`.
 
 > **2026-06-28 (now #2, historical primary): the Firewall-Boundary Hypothesis.** The repository's
 > primary falsification target is now whether every successful reconstruction converges on a
