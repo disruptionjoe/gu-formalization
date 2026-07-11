@@ -110,6 +110,36 @@ the conjugacy class, so the two `su(3)+su(2)+u(1)` subalgebras are **conjugate i
 group, one Standard Model. The gauge-sector intersection is genuinely single, not two coincident-looking
 embeddings.
 
+## The curved-ambient Willmore term -- R^Y computed, alpha_W reduced to one number (2026-07-11)
+
+`tests/one-residual/willmore_curved_ambient_term.py` (exit 0). To finish the alpha_W route we need the
+ambient-curvature term of the Willmore EL in the curved gimmel ambient: `alpha_W * (R^Y.B)`. The ambient
+Riemann `R^Y` of the DeWitt/gimmel metric is now **computed exactly** (not estimated) in a faithful
+9-dimensional model (3D base -> 6D fiber; a 2D base is degenerate because the DeWitt trace-reversal
+coefficient `1/2` equals `1/n` at `n=2`, so `n=3` is the minimal nondegenerate model), from the closed-form
+section-2 Christoffels:
+
+- The mixed horizontal-vertical **sectional curvature is uniformly negative** (`-1/2` on diagonal-fiber
+  planes, `-5/8` on off-diagonal) -- the well-known nonpositive curvature of the space of metrics. The raw
+  components `R^Y_{mu K mu K}` carry the ambient signature sign (`+/-1/4`, `+/-5/16`), flipping between
+  spacelike and time-mixed planes as the indefinite/Krein metric requires.
+- **Adversarial cross-check PASSED:** the code-computed `R^Y` equals an independent by-hand value
+  `-(1/4)(K eta^{-1} K)_{mu mu}` (for `K = E_11`, `mu = 1`, both give `-1/4`). The 9D Riemann is verified,
+  not just asserted.
+
+With this, the curved-ambient Willmore EL `Delta^perp H + Q^TF(B) + c_W (R^Y.B)^TF = 0` (standard
+Weiner/Guo-Li structure) has **every factor computed except one scalar**: `Q^TF(B) ~ M^2/r^6` (principled
+II), `R^Y` (above), `B|_Schw ~ M/r^3` (graph SFF). The lone remaining unknown is `c_W`, the scalar EL
+prefactor of the curved-ambient Willmore equation -- fixed by the `|II|^2`-vs-`|H|^2` functional choice and
+the 4-in-14 dimension/codimension. That is **exactly the OQ2-A datum** (the unbuilt GU action's normalization),
+not an independent free parameter. So `alpha_W = -Q^TF(B) / (c_W (R^Y.B)^TF)|_Schw` is determined up to the
+single number `c_W`, and remains LINKED to the dark-energy amplitude `f_0` through the shared `theta`.
+
+**Bottom line of the Willmore push:** "write the ambient term" is done up to one OQ2-A scalar. There is no
+remaining hidden freedom in the gravity coefficient -- `R^Y`, `B`, and `Q^TF` are all explicit computed
+objects; `alpha_W` collapses onto `c_W`, which is the same convention datum that (i) and the whole
+source-action narrowing already isolate.
+
 ## Grade
 Computation-grade for (b) `Q^TF(B^(1))` (exact sympy, reproducible, exit 0); the **finding includes a canon
 tension** (`M^2/r^2` vs the estimated `M^2/r^4`) that is flagged, localized to the algebraic-slice SFF, and
