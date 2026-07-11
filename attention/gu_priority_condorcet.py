@@ -25,13 +25,15 @@ from __future__ import annotations
 from itertools import combinations
 
 # --- the candidate hypotheses / next moves (the council's decision set) ---
-# RESOLVED in Wave 1 (2026-07-11), dropped from the live set:
+# RESOLVED in Wave 1 / Wave 10 (2026-07-11), dropped from the live set:
 #   H1 -> gravity CLEARS in the Bach branch (Bach tensor of exact Schwarzschild = 0 all orders; Kerr
 #         Ricci-flat), REDUCED to the conformal-invariance datum. tests/wave1/H1_bach_flat_exact_vacua.py.
 #   H3 -> DESI verified vs arXiv:2503.14738 (recall was correct; GU ~3-4 sigma on wa, a standing FALSIFIER);
 #         the theta INT gravity over-determination WEAKENS under the corrected M^2/r^6 residual (f0 not
 #         pinned by gravity). tests/wave1/H3_desi_verified_and_intersection.py.
-# Both Wave-1 results point at the H-class / conformal reading -> H4 and H8 elevated below.
+#   H27 -> the soldering is PROVABLY a genuine postulate: Palatini variation of |theta|^2 does NOT force
+#          pi onto the spin-lift; the conditional theorem is the final state within the built structure.
+#          tests/wave10/H27_soldering_palatini.py.
 ITEMS = {
     # Wave 5: H21 PROVEN (s*(theta)=II_s off-shell, fork does NOT re-open) + H16 CONTESTED-CORNER (antigravity
     # kill retired). BOTH collapse gravity's residual onto ONE object: A = spin-lift(grad^gimmel) = the source
@@ -40,9 +42,10 @@ ITEMS = {
     # clears structurally); but the SOLDERING (pinning theta to the spin-lift image, codim-8165) is NOT forced
     # -- a single honest postulate. Gauge group sharpened to NON-COMPACT Sp(32,32;H). Gravity = a CONDITIONAL
     # THEOREM (tree-level Stelle-clear, positive decoupled ghost) modulo {the soldering postulate + mu_DW}.
-    "H27": "The SOLDERING CARRIER -- the single move that upgrades gravity PARTIAL -> UNCONDITIONAL. Does a first-order/Palatini variation of S=|theta|^2 drive the connection pi onto the metric-compatible spin-lift on-shell, WITHOUT collapsing to the acausal theta=0 (DEAD-ENDS)? H23 proved the spin-lift is canonical as a map and the ghost clears; this is the one remaining bosonic gravity object. Second: mu_DW. [heterodox/wild]",
+    # H27 RESOLVED (Wave 10) -> the soldering is a genuine postulate, not an unclosed forcing gap; drop it
+    # from the live decision set and let attention move to the next unresolved item.
     "H26": "Does the Krein ghost-parity [P,S]=0 (H23 showed it HOLDS structurally, Bateman-Turok positivity) survive RENORMALIZATION (loop-level unitarity)? The hard generic-Stelle-shared frontier; needs the source-action dynamics. Narrowed by H23 (structural version confirmed). [philosopher]",
-    "H22": "Assemble/update the One Residual flagship with the Wave 1-5 results: gravity HARD-clears modulo one object (Stelle R^X+Weyl^2 + DeWitt Lambda, antigravity kill retired, ghost BT-cleared at tree) + dark energy (DESI ~3-4 sigma honest tension) + SM (conjugate) + QM (Krein) + located count. The complete picture at structural/existence grade, all conditional premises flagged. [commercial]",
+    "H22": "Assemble/update the One Residual flagship with the Wave 1-10 results: gravity's tree-level conditional theorem is the final state within the built structure (Stelle R^X+Weyl^2 + DeWitt Lambda, antigravity kill retired, ghost BT-cleared at tree, soldering proven a postulate) + dark energy (DESI ~3-4 sigma honest tension) + SM (conjugate) + QM (Krein) + located count. The complete picture at structural/existence grade, all conditional premises flagged. [commercial]",
     "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): does GU-Stelle pass the real solar-system bar? [orthodox/philosopher]",
     "H19": "Search GU's base-pullback / observerse tautological structure for a term LINEAR in g -- the SOLE remaining decider of the (9,5)/(7,7) signature. Ties to the X4/Y14 architecture-vs-capability lens. [heterodox]",
     "H14": "Is the generation COUNT a conformal invariant under Bach/so(4,2)? (likely signature-blind -- lowered). [wild]",
@@ -52,18 +55,16 @@ ITEMS = {
 }
 
 # --- five council ballots: strict preference order, best first ---
-# GENERATIVE re-rank after Wave 7 (H25). Gravity's geometry leg CLEARS at tree level (H25: C_RY>0, sign
-# confirmed by two methods, KILL excluded by sign). No new hypotheses -- H25 closed the last geometry gate.
-# Remaining gravity gates (mu_DW, loop [P,S]=0, normalization) collapse onto the source action -> back at the
-# construct-vs-ship fork (H23 vs H22), now with gravity's geometry fully cleared -> H22 (ship the strong
-# picture) rises for commercial/philosopher; H23 (construct) holds heterodox/wild/orthodox. Expect a close
-# 3-2 split -> a genuine Joe decision point.
+# GENERATIVE re-rank after Wave 10 (H27). The soldering-carrier hunt resolved negatively: it is a genuine
+# postulate, not an unclosed Palatini forcing gap. H22 keeps the complete-picture/ship slot; the remaining
+# unresolved technical frontiers are now loop-level unitarity (H26), weak-field matter/PPN (H10), and the
+# signature-deciding linear-g term (H19).
 BALLOTS = {
-    "orthodox":            ["H22", "H27", "H10", "H19", "H26", "H14", "H6", "H7", "H5"],
-    "heterodox_rigorous":  ["H27", "H22", "H19", "H26", "H10", "H14", "H7", "H6", "H5"],
-    "commercial":          ["H22", "H6", "H27", "H10", "H19", "H26", "H14", "H7", "H5"],
-    "philosopher":         ["H22", "H27", "H10", "H26", "H5", "H19", "H14", "H6", "H7"],
-    "wild_frontier":       ["H27", "H22", "H19", "H14", "H26", "H5", "H7", "H10", "H6"],
+    "orthodox":            ["H22", "H10", "H19", "H26", "H14", "H6", "H7", "H5"],
+    "heterodox_rigorous":  ["H22", "H19", "H26", "H10", "H14", "H7", "H6", "H5"],
+    "commercial":          ["H22", "H6", "H10", "H19", "H26", "H14", "H7", "H5"],
+    "philosopher":         ["H22", "H10", "H26", "H5", "H19", "H14", "H6", "H7"],
+    "wild_frontier":       ["H22", "H19", "H14", "H26", "H5", "H7", "H10", "H6"],
 }
 
 
