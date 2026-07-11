@@ -71,6 +71,21 @@ updated_at: "2026-07-11"
 > geometric theories. Both are logged as standing watch-items on WI-068 (threads C1, E1). Full extracted
 > thread list (technical A1-A3, upside B1-B2, discrimination/phenomenology C1-C5, structural D1-D5, honesty
 > E1) lives on JoeOps WI-068 `open_research_threads`.
+>
+> **UPDATE 2026-07-11c (advisory-council full-picture pass -> a new CRUX identified).** A five-archetype
+> council reviewed the whole explorations corpus + the UCSD-2025 transcript against the recent findings
+> (`explorations/science-advisory-council-full-picture-2026-07-11.md`). Headline: the conformal-Bach
+> identification (H-class GU = fourth-order Bach gravity on spin-2) is a PHASE CHANGE that puts a body of
+> older BLOCKED verdicts back in play -- they were computed on the raw `(7,3)` fiber form and under a
+> "build-the-source-action" premise, both now questionable. **The crux the council converges on: the native
+> signature `(9,5)` vs `(7,7)` (= the OQ2-A H/II binary) is the one rep-canonicity question that decides
+> (a) whether GU's gravity is conformal-native on the `(6,4)` DeWitt form, (b) whether the generation count
+> is FORCED (`(7,7)` gives an odd-rank-3 projector, SG1) or merely located (`(9,5)`), and (c) which functional
+> fixes `c_W`.** Cheapest decisive move: run ELProjectedGRShadowTheorem in the conformal/Bach branch (Bach
+> admits exact Schwarzschild -> likely clears the standing gravity wall). Genuine tensions NOT to paper over:
+> DESI `~3-4 sigma` on `wa` (verify vs arXiv:2503.14738), the empty mod-3 Dai-Freed arena, the unproven
+> dark-energy Assumption 3, and the Ostrogradsky ghost GU inherits if it is Bach-class. The council doc holds
+> the reopenable-walls table (each a hypothesis + its decisive test) and the ranked next moves.
 
 > **2026-06-28 (now #2, historical primary): the Firewall-Boundary Hypothesis.** The repository's
 > primary falsification target is now whether every successful reconstruction converges on a
