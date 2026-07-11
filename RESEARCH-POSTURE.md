@@ -68,6 +68,35 @@ These are hypotheses under active drive, to be ATTACKED not defended. They are i
   datum. This is not permission to call compatibility a derivation; it is the explicit distinction between
   "force three" and "fit the world unusually well."
 
+### Operational frontier (2026-07-11): the count is hardened -- WORK THE OTHER FOUR LEGS
+
+The located-not-forced result on the generation count is at **maximum hardening** (a complete forcing
+rubric + an out-of-rubric hunt found no mechanism; the count is a rigid, finite, 2-bit residual = the
+source action's field-space declaration, and it is **decoupled** from the other physics legs). This is a
+**feature, not a stop signal, and it is NOT a disproof of GU**. The repo had been getting the operational
+consequence WRONG -- treating "the count is not forced" as "so stop / the other legs are pointless." The
+correct consequence: **since GU is not disproven, the priority now MOVES to the other four legs** --
+gravity, the Standard Model, the forces, quantum-mechanics/unitarity, and dark energy -- each worked to a
+genuine **YES** or a genuine **DISPROOF**. The count being "only located" is the *license* to do that work,
+never the reason to skip it.
+
+Grounding (disproof-hunt, 2026-07-11, granting a working action that generates 3): **GU is NOT disproven by
+any non-count leg -- `SURVIVES_PENDING_ACTION`.** Dark energy SURVIVES (its "wrong DESI sign" was a code
+bug; GU fits DESI's sign) and QM SURVIVES (a concrete Krein-unitary repair, physical sector
+positive-definite); gravity/SM/forces are consistent-but-incomplete (no contradiction). See
+`explorations/disproof-hunt-given-working-action-2026-07-11.md` and
+`explorations/explanatory-scope-audit-source-action-bottleneck-2026-07-11.md`. The single decisive open
+test is **gravity**: `ELProjectedGRShadowTheorem` -- the full projected section-equation residual on an
+exact Schwarzschild/Kerr section (surviving conservative IG branch). It either CLEARS gravity (a third yes)
+or STRUCTURALLY FALSIFIES GU (GU cannot host a black hole -> dead via gravity). **This is the top priority
+for both contributors and the hourly loop.**
+
+Why this is the program's real thesis: the point is to show that agents can take a bold, heterodox,
+more-work-remaining claim, take it SERIOUSLY, and drive it to a real outcome -- either "we did everything we
+could to falsify it and most legs held up" (a live, coherent geometry with one crisp located residual --
+amazing, whether or not it is exactly GU) OR a clean disproof of a specific leg (also a real result). Both
+require working the other legs, not stopping at the count.
+
 When a lead hypothesis is resolved, it is retired and the truth it surfaced is kept; the program does not
 become attached to any one of them.
 

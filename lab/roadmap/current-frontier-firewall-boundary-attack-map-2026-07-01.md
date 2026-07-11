@@ -9,6 +9,13 @@ primary_question: firewall-boundary-hypothesis
 
 # Current Frontier: Firewall-Boundary Attack Map
 
+> **SUPERSEDED AS #1 PRIORITY (2026-07-11).** This firewall/count thread is at maximum hardening
+> (located-not-forced is a rigid 2-bit residual, decoupled from the other legs -- a feature, not a
+> blocker, not a disproof). The current #1 frontier is **the four-leg program** (gravity, SM, forces,
+> QM, dark energy), each to a genuine YES or DISPROOF, with **gravity `ELProjectedGRShadowTheorem`** the
+> top decisive test. See `NEXT-STEPS.md` (2026-07-11 primary priority) and `RESEARCH-POSTURE.md`
+> (Operational frontier). This map remains valid for the firewall sub-question but is no longer #1.
+
 This map orients a contributor to the current GU Formalization frontier without
 changing any verdict, claim grade, or canon status.
 

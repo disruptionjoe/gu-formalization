@@ -7,7 +7,22 @@ updated_at: "2026-07-10"
 
 # Next Steps For Contributors
 
-> **2026-06-28 PRIMARY RESEARCH QUESTION: the Firewall-Boundary Hypothesis.** The repository's
+> **2026-07-11 PRIMARY PRIORITY (top of the queue; supersedes the count/firewall thread as #1): WORK THE OTHER FOUR LEGS.**
+> The generation-count / located-not-forced / source-action thread is at MAXIMUM HARDENING (complete forcing
+> rubric + out-of-rubric hunt; the count is a rigid, finite 2-bit residual, DECOUPLED from the other legs).
+> That is a feature, NOT a blocker, and NOT a disproof of GU. Per `RESEARCH-POSTURE.md` (Operational
+> frontier), the top priority MOVES to working the OTHER FOUR LEGS -- gravity, Standard Model, forces,
+> QM/unitarity, dark energy -- each to a genuine YES or a genuine DISPROOF. Disproof-hunt (2026-07-11):
+> GU SURVIVES all four given a working action (dark energy + QM are outright yeses; the DESI "failure" was a
+> code bug). **THE SINGLE TOP TASK: GRAVITY -- run `ELProjectedGRShadowTheorem` (full projected
+> section-equation residual `alpha_W W_s + E_s^YM + E_s^theta + E_s^Phi + E_s^cross` on an imported exact
+> Schwarzschild, then Kerr, using the surviving conservative IG branch with its nonzero geometric theta in a
+> Psi=0 gravitational vacuum). Vanishing/gauge-removable -> gravity CLEARED (3rd yes); provably nonzero for
+> every admissible config -> GU STRUCTURALLY FALSIFIED (dead via gravity).** Do NOT deprioritize the four
+> legs because the count is "only located." See `explorations/disproof-hunt-given-working-action-2026-07-11.md`,
+> `explorations/explanatory-scope-audit-source-action-bottleneck-2026-07-11.md`.
+
+> **2026-06-28 (now #2, historical primary): the Firewall-Boundary Hypothesis.** The repository's
 > primary falsification target is now whether every successful reconstruction converges on a
 > firewall-like BOUNDARY object rather than a closed internal completion (superseding the prior
 > closed-system default). The highest-priority next work is to ATTACK it via the explicit
@@ -126,9 +141,10 @@ work directly. Each hourly run should take one bounded sub-goal, leave an execut
 and keep canon/paper promotion Joe-gated. A precise negative result is useful progress.
 
 **Hourly target:** turn the source-action search into a comparable candidate buildbench, run the
-anchor-scale A-door test, and only then try the minimal BV/Koszul-Tate closure. After the finite-fiber
-closure witness, the active missing object is the source-derived Noether/tau carrier behind the projected
-gauge differential.
+anchor-scale A-door test, try the minimal BV/Koszul-Tate closure, then test whether source-Noether/tau data
+can derive the projected gauge map. After the finite-fiber tau solve, the active missing object is a
+derivative-level tau/`d_aleph` homomorphism that selects the tangent part without reducing to a fixed
+orthogonal projector.
 
 1. **SOURCE-ACTION-BUILDBENCH.** Integrate the SG4 declaration-triple discipline with
    `absorbed/gu-source-action` candidate records. Each candidate must state its field-space declaration,
@@ -143,10 +159,16 @@ gauge differential.
    compensator plus Koszul-Tate leg that could force the gamma-trace constraint by Noether identity. Required
    checks: `(S,S)=0`, `s^2=0`, full BV bicomplex, and preservation of the bare commutator anchor
    `58.7215`.
-4. **BV-TO-BOUNDARY-DIRAC BRIDGE.** Only after a closure candidate exists, map the KT/BV differential to an
+4. **SOURCE-NOETHER-TAU-CARRIER.** Try to derive the projected BV/KT gauge differential from a finite-fiber
+   tau/Noether solve rather than treating `Pi_ker(Gamma)d_A` as an input. Failure condition: the solve
+   reduces to a fixed projector and leaves tangent maps in `ker Gamma` unselected.
+5. **DERIVATIVE-TAU-HOMOMORPHISM.** Only after the finite-fiber tau solve, supply actual derivative-level
+   geometric data, such as `d_aleph` or an equivalent source current, that selects the tangent part without
+   a fixed projector rule.
+6. **BV-TO-BOUNDARY-DIRAC BRIDGE.** Only after a closure candidate exists, map the KT/BV differential to an
    actual boundary Dirac object. The key discriminator is whether `C2 = 155.3625` becomes genuine
    spectral/index data instead of remaining a Hilbert-Schmidt norm with eta forced to zero.
-5. **DOWNSTREAM ONLY.** Anomaly, families-pushforward, and security-budget selection are downstream of the
+7. **DOWNSTREAM ONLY.** Anomaly, families-pushforward, and security-budget selection are downstream of the
    declaration and bridge. The security-budget rule is a selector over surviving candidates, not the source
    action itself, and should not be treated as decisive until at least two real candidate loss channels
    compute.
@@ -182,6 +204,28 @@ map remains second-class (`rank(Gamma d_A) = 128`), but the projected map
 `A = Pi_ker(Gamma) d_A` gives an algebraic finite-fiber KT/BV closure while preserving the `58.7215` and
 `155.3625` anchors. This is not a source-action proof because the projection is not yet derived from a
 source-level Noether/tau carrier. The next hourly progress point is **SOURCE-NOETHER-TAU-CARRIER**.
+
+**Fourth swing status (2026-07-10): SOURCE-NOETHER-TAU-CARRIER projector-only partial negative.**
+Implemented `absorbed/gu-source-action/lib/source_noether_tau_carrier.py`, regression
+`absorbed/gu-source-action/tests/test_source_noether_tau_carrier.py`, and packet
+`absorbed/gu-source-action/SOURCE-NOETHER-TAU-CARRIER-PACKET-2026-07-10.md`. Result: a finite-fiber tau
+multiplier derives `A = Pi_ker(Gamma)d_A` as the KKT/Schur-complement solution of `Gamma A = 0`, preserving
+the `58.7215` and `155.3625` anchors. But Noether alone leaves arbitrary tangent maps in `ker Gamma`
+unselected (`1664 x 128` free map dimensions), so the solve is still a fixed-projector rule unless a
+derivative-level source carrier supplies the tangent selection. The next hourly progress point is
+**DERIVATIVE-TAU-HOMOMORPHISM**.
+External lens `absorbed/gu-source-action/KLEIN-BOTTLE-COSMOLOGY-TOPOLOGICAL-WALL-LENS-2026-07-10.md`
+suggests a concrete next sub-swing: **TOPOLOGICAL-WALL-TAU-SELECTOR**, an analogy-only test of whether
+global boundary/topology data can force the missing tangent selector.
+
+**Fifth swing status (2026-07-10): TOPOLOGICAL-WALL-TAU-SELECTOR underdetermined partial negative.**
+Implemented `absorbed/gu-source-action/lib/topological_wall_tau_selector.py`, regression
+`absorbed/gu-source-action/tests/test_topological_wall_tau_selector.py`, and packet
+`absorbed/gu-source-action/TOPOLOGICAL-WALL-TAU-SELECTOR-PACKET-2026-07-10.md`. Result: spacelike wall
+involutions generate nine nonzero tangent selectors `Z_k : S -> ker Gamma` that pass finite-fiber Noether,
+H-linear, Krein, and anchor checks, while preserving the `58.7215` and `155.3625` anchors. But all nine are
+admissible and distinct, and their raw wall differences still need projection repair. The wall lens is useful
+but underdetermined. The next hourly progress point is **GLOBAL-BOUNDARY-CONDITION-TAU-DATA**.
 
 ## 2026-07-03 Big-Swing Outcomes (R1-R5) -- routes closed, do not re-chase
 
