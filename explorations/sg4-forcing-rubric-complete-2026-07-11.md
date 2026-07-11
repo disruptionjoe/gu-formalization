@@ -64,3 +64,25 @@ Krein sector; the von Neumann `U(n)`, super-Higgs, Takesaki-positivity, and rigi
 corner counts representative). #7 (R2) and #1 (VZ) are prior canon. No claim/canon-ledger movement; the
 generation count stays OPEN; SG4 unchanged. The contribution is the *completed rubric* and the two
 structural results.
+
+## Addendum: hunt for a forcing mechanism OUTSIDE the rubric (2026-07-11) -- empty
+
+Deliberate search beyond the rubric's field-theory mechanisms. Five candidates, each adversarially killed:
+- **Systemic non-collapse** (finality-needs-a-gap -> forces massive B): REFUTED on physics -- masslessness
+  != recordless (photons are recorded); conflates a field's mass (the phase bit) with the system's
+  thermodynamic irreversibility (coarse-graining, independent of any field mass). A tilt at most.
+- **Swampland / QG consistency**: gravitinos evade Weinberg-Witten (no conserved gauge-invariant current),
+  so massless-A is not forbidden that way; swampland conjectures ride the full QG EFT = SG4. Its real
+  kernel ("no-SUSY forbids massless-gravitino-A") = GU's C1 = already rubric #1 (tilts B, A survives via
+  the graded-IG door).
+- **Duality / triality covariance**: triality commutes with the Dirac operator -> labels generations,
+  never selects the corner (exhaustiveness result); imposed S-duality is an added assumption.
+- **Cobordism / reachability**: rides the initial-condition/vacuum choice = itself part of the declaration
+  ("witness, not theorem").
+- **Universal-property / representability**: picking the representing functor = picking the declaration;
+  derived rigidity already checked (#2: rigid, finite, multiple).
+
+**Verdict: no forcing mechanism survives.** Each refutes on physics, reduces to the rubric, or rides SG4 /
+an added assumption. The out-of-rubric hunt STRENGTHENS the terminus: the SG4 declaration is not forceable
+by any known mechanism -- internal, boundary, energetic, or novel -- short of building the (author-
+disclaimed, unbuilt) source action, which a free build p-hacks. Located-not-forced at maximum hardening.
