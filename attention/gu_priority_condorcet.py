@@ -36,12 +36,13 @@ ITEMS = {
     # Wave 5: H21 PROVEN (s*(theta)=II_s off-shell, fork does NOT re-open) + H16 CONTESTED-CORNER (antigravity
     # kill retired). BOTH collapse gravity's residual onto ONE object: A = spin-lift(grad^gimmel) = the source
     # action. Gravity is HARD-clear MODULO that object. -> H23 (attempt it) + H24 (the R^Y firm-up).
-    "H25": "THE |II|^2 HIGHER-CODIM FIRST VARIATION (Simons + normal-bundle terms) -- H24 showed every tree-level gate collapses onto this ONE computation. It computes the residual number C_RY (m^2_eff = 1/2 + C_RY): CLEARS gravity's tree-level sign if C_RY > -1/2, KILLS it if C_RY < -1/2. A tractable differential-geometry computation on the gimmel geometry -- needs NEITHER the A=spin-lift identification NOR mu_DW. The isolated, decisive, computable core of H23; a genuine clear-or-kill test. [orthodox/heterodox/philosopher]",
-    "H23": "THE FULL TERMINAL CONSTRUCTION: A = spin-lift(grad^gimmel) (+ |theta|^2=|II|^2) = GU's source action. Beyond H25's first variation, this additionally fixes mu_DW (the ghost scale) and the loop [P,S]=0, making gravity's clear UNCONDITIONAL, and tests the full boson(even)+fermion(odd) unification (H20 folds in). HIGH-RISK: the buildbench's standing wall. Best AFTER H25 settles the sign. [heterodox/wild]",
+    # H25 RESOLVED (Wave 7) -> CLEAR (C_RY > 0, two methods): gravity's geometry leg is VIABLE at TREE level.
+    # All remaining gravity gates (mu_DW, loop [P,S]=0, normalization) collapse onto the source action (H23).
+    "H23": "THE SOURCE-ACTION CONSTRUCTION: A = spin-lift(grad^gimmel) (+ |theta|^2=|II|^2). Gravity's geometry now CLEARS at tree level (H25: sign confirmed by two methods), so H23's remaining job is NARROWED to fixing mu_DW (ghost scale, natural ~M_Pl), the OQ2-A normalization/magnitude, and enabling the loop [P,S]=0 check -- making the clear UNCONDITIONAL, and testing the full boson(even)+fermion(odd) unification (H20 folds in). HIGH-RISK: the buildbench's standing wall, now maximally de-risked (sign, fork, leading-R^Y all cleared). [heterodox/wild/orthodox]",
+    "H26": "The loop-level ghost-parity condition [P_ghost, S] = 0: does GU's Krein ghost parity survive renormalization (making the massive-ghost unitarity HOLD at loop, not just tree)? The genuinely hard, generic-Stelle-shared frontier; needs the source-action dynamics (so it sits after / inside H23). The last non-geometry gravity gate. [philosopher]",
     "H22": "Assemble/update the One Residual flagship with the Wave 1-5 results: gravity HARD-clears modulo one object (Stelle R^X+Weyl^2 + DeWitt Lambda, antigravity kill retired, ghost BT-cleared at tree) + dark energy (DESI ~3-4 sigma honest tension) + SM (conjugate) + QM (Krein) + located count. The complete picture at structural/existence grade, all conditional premises flagged. [commercial]",
     "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): does GU-Stelle pass the real solar-system bar? [orthodox/philosopher]",
     "H19": "Search GU's base-pullback / observerse tautological structure for a term LINEAR in g -- the SOLE remaining decider of the (9,5)/(7,7) signature. Ties to the X4/Y14 architecture-vs-capability lens. [heterodox]",
-    "H20": "Does the Clifford even/odd split organize the whole |II|^2-on-Y14 action into gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? (Largely folds into H23.) [wild]",
     "H14": "Is the generation COUNT a conformal invariant under Bach/so(4,2)? (likely signature-blind -- lowered). [wild]",
     "H6": "Ship the GU-independent family-puzzle paper ('forces odd count => nonzero 3-Sylow image'). Credible regardless of GU's fate.",
     "H7": "Match Weinstein's RS '2+1 imposter' generation mechanism against our carrier A/B structure. [wild]",
@@ -49,16 +50,18 @@ ITEMS = {
 }
 
 # --- five council ballots: strict preference order, best first ---
-# GENERATIVE re-rank after Wave 6 (H24). The R^Y firm-up retired the leading sign-flip worry and showed
-# every tree-level gate (C_RY sign, mu_DW scale, OQ2-A fork) collapses onto ONE computation: the |II|^2
-# higher-codim first variation (H25) -- a tractable, decisive clear-or-kill test needing neither A=spin-lift
-# nor mu_DW. So H25 leads; the full construction H23 (which also fixes mu_DW + loop) is best AFTER H25.
+# GENERATIVE re-rank after Wave 7 (H25). Gravity's geometry leg CLEARS at tree level (H25: C_RY>0, sign
+# confirmed by two methods, KILL excluded by sign). No new hypotheses -- H25 closed the last geometry gate.
+# Remaining gravity gates (mu_DW, loop [P,S]=0, normalization) collapse onto the source action -> back at the
+# construct-vs-ship fork (H23 vs H22), now with gravity's geometry fully cleared -> H22 (ship the strong
+# picture) rises for commercial/philosopher; H23 (construct) holds heterodox/wild/orthodox. Expect a close
+# 3-2 split -> a genuine Joe decision point.
 BALLOTS = {
-    "orthodox":            ["H25", "H10", "H23", "H22", "H19", "H20", "H14", "H6", "H7", "H5"],
-    "heterodox_rigorous":  ["H25", "H23", "H19", "H20", "H10", "H22", "H14", "H7", "H6", "H5"],
-    "commercial":          ["H22", "H25", "H6", "H23", "H10", "H19", "H20", "H14", "H7", "H5"],
-    "philosopher":         ["H25", "H22", "H10", "H23", "H5", "H19", "H20", "H14", "H6", "H7"],
-    "wild_frontier":       ["H25", "H23", "H20", "H19", "H14", "H22", "H5", "H7", "H10", "H6"],
+    "orthodox":            ["H23", "H10", "H22", "H26", "H19", "H14", "H6", "H7", "H5"],
+    "heterodox_rigorous":  ["H23", "H19", "H22", "H26", "H10", "H14", "H7", "H6", "H5"],
+    "commercial":          ["H22", "H6", "H23", "H10", "H19", "H26", "H14", "H7", "H5"],
+    "philosopher":         ["H22", "H23", "H10", "H26", "H5", "H19", "H14", "H6", "H7"],
+    "wild_frontier":       ["H23", "H19", "H14", "H22", "H26", "H5", "H7", "H10", "H6"],
 }
 
 
