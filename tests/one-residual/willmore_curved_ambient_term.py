@@ -18,6 +18,16 @@ with h^{ab} the inverse of the fiber coordinate h_{ab}. The metric is block-diag
 inverse is computed block-wise. The mixed sectional curvature R^Y(d_mu, U, U, d_mu) (U vertical) is the
 ambient-term ingredient the Willmore EL contracts against B.
 
+CORRECTION (2026-07-11, via the independent oracle tests/threads/A_numerical_diffgeo_oracle.py):
+the OFF-DIAGONAL mixed sectional curvature printed below as -5/8 is a MIXED-CONVENTION ARTIFACT (it mixes
+the non-doubled V_low fiber metric with closed-form Christoffels of a different pair-normalization). The
+convention-robust, oracle-confirmed values are: DIAGONAL-fiber sectional = -1/2 and raw R^Y = +/-1/4 (correct
+as printed), OFF-DIAGONAL sectional = -1/8 (NOT -5/8). So the honest mixed sectional-curvature set is
+{-1/2, -1/8}, uniformly NEGATIVE and Krein-signed. Nothing downstream changes: every alpha_W / OQ2-A / "R^Y
+nonzero + Krein-signed" conclusion rests only on the (confirmed) nonzero-and-Krein-signed property and the
+diagonal values, not on the off-diagonal magnitude. Treat A_numerical_diffgeo_oracle.py as the authority for
+these invariants.
+
 Run: python tests/one-residual/willmore_curved_ambient_term.py
 """
 from __future__ import annotations

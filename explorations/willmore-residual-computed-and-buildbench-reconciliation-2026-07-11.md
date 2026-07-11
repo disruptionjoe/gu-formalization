@@ -120,9 +120,13 @@ coefficient `1/2` equals `1/n` at `n=2`, so `n=3` is the minimal nondegenerate m
 section-2 Christoffels:
 
 - The mixed horizontal-vertical **sectional curvature is uniformly negative** (`-1/2` on diagonal-fiber
-  planes, `-5/8` on off-diagonal) -- the well-known nonpositive curvature of the space of metrics. The raw
-  components `R^Y_{mu K mu K}` carry the ambient signature sign (`+/-1/4`, `+/-5/16`), flipping between
-  spacelike and time-mixed planes as the indefinite/Krein metric requires.
+  planes, `-1/8` on off-diagonal -- **corrected 2026-07-11**; the `-5/8` originally recorded here and in
+  `willmore_curved_ambient_term.py` was a mixed-convention artifact, caught by the independent oracle
+  `tests/threads/A_numerical_diffgeo_oracle.py`) -- the well-known nonpositive curvature of the space of
+  metrics. The raw components `R^Y_{mu K mu K}` carry the ambient signature sign, flipping between spacelike
+  and time-mixed planes as the indefinite/Krein metric requires. (Diagonal values `-1/2`, `+/-1/4` and the
+  nonzero+Krein-signed property are convention-robust and confirmed; no downstream conclusion depended on the
+  off-diagonal magnitude.)
 - **Adversarial cross-check PASSED:** the code-computed `R^Y` equals an independent by-hand value
   `-(1/4)(K eta^{-1} K)_{mu mu}` (for `K = E_11`, `mu = 1`, both give `-1/4`). The 9D Riemann is verified,
   not just asserted.
@@ -176,6 +180,63 @@ Willmore EL structure. In higher codimension the `|H|^2` ambient term also carri
 "constant sections are not totally geodesic" effect); a fully rigorous selection needs a background-subtracted
 linearization, not done here. Settling the exact GU functional (the binary itself) remains the residual OQ2-A
 datum -- but its consequences, and its link to the `theta`-sector, are now mapped.
+
+## Five-thread scope + first swing (2026-07-11, parallel; `explorations/threads/*`, `tests/threads/*`)
+
+An orchestrated pass took a first swing at each WI-068 thread group. Honest results, ranked by how much they
+change the epistemic state:
+
+- **D -- the biggest real result. H-class GU is Bach-class (conformal / fourth-order) gravity on the
+  graviton.** `tests/threads/D_hclass_vs_conformal_gravity.py` (exit 0, exact sympy): the linearized H-class
+  section Willmore-EL operator equals the linearized conformal-gravity Bach operator on the transverse-
+  traceless spin-2 sector, `box^2 h = -4 * Bach^(1)` (one rational scalar, all components), genuinely
+  FOURTH-order -- NOT Einstein-class. They differ only in the trace/conformal sector (Bach vanishes there,
+  the naive `|H|^2` operator does not). This ANSWERS D1 (yes: H-class GU contains conformal gravity on spin-2,
+  is strictly richer off it via the DeWitt ambient + Sp(64)/theta fiber) and sharpens OQ2-A to a single
+  question: **is GU's OQ2-A functional the conformally-INVARIANT Willmore combination?** If yes, `c_W` is
+  fixed by conformal invariance (not free) and the trace-sector gap closes. It also imports a real
+  vulnerability -- conformal gravity's known phenomenology disputes (lensing sign, ghosts) -- i.e. a genuine
+  discriminator, not just a non-falsification.
+- **C -- a near-falsifying observational discriminator.** `tests/threads/C_dark_energy_wz_vs_desi.py`
+  (exit 0): the theta-sector gives `(w0, wa) = (-0.768, -0.273)` at `f_0 = 0.125`. It NAILS DESI's `w0`
+  (`-0.768` vs `-0.752`, `-0.3` marginal-sigma) but under-predicts the evolution `|wa|` (`0.27` vs `0.86`,
+  `+2.7` sigma), and the whole one-parameter `f_0` family is misaligned with the DESI `w0-wa` degeneracy
+  (closest approach `~3.2-3.6` sigma). Correct quadrant/sign (distinguishes LCDM and phantom), too shallow a
+  tail. CAVEAT: DESI DR2 central values from model recall + assumed covariance -- **must be verified against
+  arXiv:2503.14738 Table 3 before any public claim.** This is a real handle GU can be excluded by.
+- **B -- a cosmological-constant candidate hiding in the convention.** `tests/threads/B_constant_section_background_curvature.py`
+  (exit 0, exact): the `O(M^0)` constant-section SFF we SUBTRACT as a normalization convention has fiber-trace
+  `eta^ab B_mn,ab = (1/2) eta_mn` EXACTLY -- the cosmological-constant signature (a base stress `~ eta_mn`,
+  constant density). Coefficient `(n-2)/4` (`=1/2` at `n=4`, `0` at `n=2` -- a consequence of dimension, not
+  imported). The DeWitt shape-energies `|H|^2 = -1` (negative, conformal wrong-sign) vs `|II|^2 = +2` mean the
+  H-class/II-class OQ2-A binary FIXES THE SIGN of this Lambda. So "subtract the background" is a physical choice
+  about vacuum energy, not a free gauge. (B2 -- `f_0/alpha_W/c_W` literally being observerse issuance RATES --
+  is honestly assessed as most likely FALSE by the repo's own rate-independence results; only a non-rate
+  "obstruction shadow" reformulation survives, and it needs a filtration->section map that does not yet exist.)
+- **A -- an independent oracle + a real error caught.** `tests/threads/A_numerical_diffgeo_oracle.py`
+  (exit 0): a finite-difference (mpmath, generic Levi-Civita) recomputation of `R^Y`/`|A|^2` with zero reuse
+  of the hand-transcribed Christoffels CONFIRMED the convention-robust content (diagonal `-1/2`, `+/-1/4`,
+  by-hand `-1/4`, `|A|^2 = 1/8`, nonzero + Krein-signed) and CAUGHT the off-diagonal mixed-convention artifact
+  now corrected above. Two-independent-derivations is now real for these invariants. The full higher-codim
+  first variation (Simons + normal-bundle curvature) is scoped, not computed.
+- **E -- the honesty verdict (heed it).** `tests/threads/E_one_object_recurrence_audit.py` (exit 0):
+  18 "reduced to one X" statements enumerated; 17/18 point at the single unbuilt RS/IG source action.
+  SPLIT verdict: **coarse level HEALTHY** (a genuine single unbuilt object, stably named for two weeks, backed
+  by a 6-route adversarial convergence test); **fine level shows the DEGENERATING (Lakatos) signature** -- the
+  "one remaining scalar/convention" terminus relocates at ever-finer granularity (`whole geometry -> ambient
+  contraction -> c_W -> OQ2-A binary -> welded-to-theta`) in a single day while nothing is built, and the
+  "one object" is really a CONJUNCTION of distinct data (`c_W != the SG4 2-bit != the v_PSB vacuum`).
+  **Operational rule adopted: stop counting further "reduced to one X" passes on already-reduced legs as
+  progress** -- by the executable discriminator they are zero new evidence. The only state-changing moves are
+  (i) a FORCED (not free) construction of `S_IG`, or (ii) a genuine discriminator -- which D and C above now
+  are. Referee flag stands: prior to D/C these were non-falsifications, not discriminating confirmations.
+
+Net: this pass earned its keep NOT by narrowing further, but by producing two genuine discriminators (D's
+Bach-class identification, C's DESI tension), a Lambda candidate (B), an independent verification + error
+correction (A), and an explicit honesty brake (E). The single highest-value next computation both D and B and
+A converge on is the same one: the full higher-codimension Willmore first variation with a background-
+subtracted linearization -- it settles the H/II binary, turns B's constant density into a signed `Lambda g_mn`,
+tests whether the OQ2-A functional is conformally invariant (D), and needs no new object.
 
 ## Grade
 Computation-grade for (b) `Q^TF(B^(1))` (exact sympy, reproducible, exit 0); the **finding includes a canon

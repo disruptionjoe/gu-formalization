@@ -24,6 +24,13 @@
     residual is the exact scalar Willmore-EL ambient-term coefficient (structure of the curved-ambient
     Willmore equation), reducing alpha_W to ONE structural number with sign already fixed.
 
+CORRECTION (2026-07-11, via the independent oracle tests/threads/A_numerical_diffgeo_oracle.py):
+the OFF-DIAGONAL O'Neill norm printed below as |A_12|^2 = 1/16 is a MIXED-CONVENTION ARTIFACT. The
+convention-robust, oracle-confirmed value is |A|^2 = 1/8 UNIFORMLY (diagonal AND off-diagonal), Krein-signed
+(negative on time-mixed planes). The DIAGONAL values (|A_00|^2 = |A_11|^2 = 1/8) are correct as printed. The
+sign/nonzero/Krein conclusions and everything downstream are unaffected; A_numerical_diffgeo_oracle.py is the
+authority for these invariants.
+
 Run: python tests/one-residual/willmore_geometric_ii_and_ambient_curvature.py
 """
 from __future__ import annotations
