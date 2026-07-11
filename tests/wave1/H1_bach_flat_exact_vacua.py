@@ -294,36 +294,38 @@ g_kerr[3, 0] = g_kerr[0, 3]
 g_kerr[1, 1] = Sig / Del
 g_kerr[2, 2] = Sig
 g_kerr[3, 3] = (r**2 + a_k**2 + 2 * Mm * r * a_k**2 * s2 / Sig) * s2
-# Full symbolic Kerr Ricci is intractable (trig-rational blow-up). Ricci-flatness is a metric
-# identity independent of the parameter values, so we verify it RIGOROUSLY at several numeric
-# (M, a) with r,theta kept symbolic (fast rational cancel), then evaluate Ricci at numeric
-# interior points (Delta>0). Exact-zero at multiple independent points is a sound verification;
-# the exact-in-M ALL-orders result already stands on Schwarzschild (PART 2, decisive).
-def simp_c(e):
-    return sp.cancel(sp.together(e))
+ginv_kerr = g_kerr.inv()
+# Full symbolic Kerr Ricci with trig simplification is intractable (trig-rational blow-up).
+# Strategy: assemble Ricci with NO intermediate simplification (identity), then verify it
+# vanishes by substituting EXACT theta slices (pi/3, pi/4, pi/6, pi/5) while keeping r, M, a
+# FULLY SYMBOLIC. Differentiation happens before substitution, so this stays an ALL-ORDERS
+# check in (r, M, a) -- the exact-theta substitution only collapses the trig so sympy can
+# prove the resulting rational function of (r, M, a) is identically zero. Four independent
+# theta slices, each an exact rational-function identity in (r, M, a), is a sound symbolic
+# verification; the exact-in-M all-orders result already stands on Schwarzschild (PART 2).
+ident = lambda e: e
 
-
-log("  verifying Kerr Ricci-flatness at numeric (M,a), symbolic r,theta, evaluated at points ...")
+log("  assembling Kerr Christoffel/Riemann/Ricci (no intermediate simplify) ...")
+Gam_k = christoffel(g_kerr, ginv_kerr, coords_s, ident)
+Rup_k = riemann_up(Gam_k, coords_s, ident)
+Ric_k = ricci(Rup_k, coords_s, ident)
+theta_slices = [sp.pi / 3, sp.pi / 4, sp.pi / 6, sp.pi / 5]
+log("  verifying Ric=0 at exact theta slices [pi/3, pi/4, pi/6, pi/5], (r,M,a) symbolic ...")
 kerr_ric_zero = True
-kerr_params = [(sp.Integer(1), sp.Rational(2, 5)), (sp.Rational(3, 2), sp.Rational(7, 10))]
-kerr_points = [(sp.Rational(7, 2), sp.pi / 3), (sp.Integer(5), sp.Rational(6, 5))]
-for (Mval, aval) in kerr_params:
-    gk = g_kerr.subs({Mm: Mval, a_k: aval})
-    gik = gk.inv()
-    Gk = christoffel(gk, gik, coords_s, simp_c)
-    Rk = riemann_up(Gk, coords_s, simp_c)
-    Rick = ricci(Rk, coords_s, simp_c)
-    for (rval, thval) in kerr_points:
-        sub = {r: rval, th: thval}
-        for a in range(4):
-            for b in range(4):
-                val = complex(sp.N(Rick[a, b].subs(sub)))
-                if abs(val) > 1e-9:
-                    kerr_ric_zero = False
-                    log(f"      Ric_kerr[{a},{b}](M={Mval},a={aval},r={rval},th={thval}) = {val}")
-check("exact Kerr (Boyer-Lindquist) is Ricci-flat: Ric_ab = 0 verified at multiple independent "
-      "(M,a,r,theta) numeric points -- imported rotating vacuum; Einstein with Lambda=0",
-      kerr_ric_zero)
+for a in range(4):
+    for b in range(a, 4):
+        for ts in theta_slices:
+            comp = Ric_k[a, b].subs(th, ts)
+            val = sp.simplify(comp)
+            if val != 0:
+                val = sp.simplify(sp.expand_trig(sp.expand(comp)))
+            if val != 0:
+                kerr_ric_zero = False
+                log(f"      Ric_kerr[{a},{b}] at theta={ts} = {val}")
+                break
+check("exact Kerr (Boyer-Lindquist, general a) is Ricci-flat: Ric_ab = 0 as an exact rational "
+      "identity in (r,M,a) at four independent theta slices -- imported rotating vacuum; "
+      "Einstein with Lambda=0", kerr_ric_zero)
 check("=> Kerr is Bach-flat: PART 1 gives algebraic term = 0 (Weyl trace-free), and the "
       "div-Weyl = Cotton(Schouten) = 0 mechanism verified explicitly on the Ricci-flat "
       "Schwarzschild member (PART 2) holds for any Ricci-flat metric (Schouten P=0 => "

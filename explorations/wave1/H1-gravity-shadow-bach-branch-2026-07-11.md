@@ -14,10 +14,13 @@ Kerr -- at all orders? The Willmore-ONLY branch was BLOCKED at strong field
   tensor itself is **nonzero** (genuine strong-field curvature). Since `Ric = 0`, the full nonlinear Bach
   tensor `B_ab = nabla^c(div-Weyl) + (1/2)R^{cd}C = 0` **exactly, at all orders**. This is a real strong-field
   cancellation, not triviality.
-- **PART 3:** exact Kerr (Boyer-Lindquist, general `a`) is **Ricci-flat** -- verified at multiple independent
-  `(M,a,r,theta)` numeric points (the full symbolic route is intractable; Ricci-flatness is a metric identity,
-  so multi-point exact-zero is sound). Ricci-flat => Einstein => Bach-flat by the same
-  `Schouten P = 0 => Cotton = 0 => div-Weyl = 0 => Bach = 0` mechanism Part 2 exhibits.
+- **PART 3:** exact Kerr (Boyer-Lindquist, general `a`) is **Ricci-flat** -- verified as an exact
+  rational-function identity in `(r, M, a)` at four independent exact `theta` slices (`pi/3, pi/4, pi/6,
+  pi/5`); Ricci is assembled with no intermediate simplification and differentiation precedes the `theta`
+  substitution, so this is an all-orders check in `(r, M, a)` (full trig-symbolic simplification of Kerr is
+  intractable, hence the exact-slice route). Ricci-flat => Einstein => Bach-flat by the same
+  `Schouten P = 0 => Cotton = 0 => div-Weyl = 0 => Bach = 0` mechanism Part 2 exhibits and verifies on the
+  Ricci-flat Schwarzschild member.
 - **PART 4 (adversarial, the honest reduction):** the H-class section-EL equals the Bach operator only on the
   spin-2 sector (D-thread `box^2 h = -4 Bach^(1)`). On the TRACE/conformal sector -- where Schwarzschild's
   linearized graph section `h_ab = (2M/r) eta_ab` lives -- Bach and the naive `|H|^2`-Willmore operator
@@ -56,7 +59,26 @@ first variation (H4) and bears directly on "is GU just Bach gravity?" (H8).
   H-class / conformal reading.
 
 ## Grade
-Computation-grade for the Bach-flatness of the exact vacua (exact sympy Schwarzschild all-orders; Kerr
-Ricci-flat multi-point). Structural for the GU-proper connection (linearized D-thread identity + the honest
-trace-sector reduction). The clear is CONDITIONAL on the OQ2-A conformal-invariance datum -- stated, not
-assumed. No claim/canon movement; feeds WI-068 and the re-rank.
+Computation-grade for the Bach-flatness of the exact vacua (exact sympy Schwarzschild all-orders in `M`;
+Kerr Ricci-flat as an exact rational identity in `(r,M,a)` at four `theta` slices). Structural for the
+GU-proper connection (linearized D-thread identity + the honest trace-sector reduction). The clear is
+CONDITIONAL on the OQ2-A conformal-invariance datum -- stated, not assumed. No claim/canon movement; feeds
+WI-068 and the re-rank.
+
+### Adversarial self-checks recorded in the test
+- Weyl confirmed **nonzero** on Schwarzschild, so the Bach vanishing is a real cancellation, not triviality.
+- div-Weyl computed **from scratch** (one covariant derivative), not asserted from the Einstein-implies-Bach
+  theorem; the theorem is what the numbers must reproduce.
+- A `sympy.simplify` false-nonzero on two div-Weyl components (the trig identity
+  `sin(2t)tan(t)+cos(2t)-1 == 0`) was caught by a stronger `expand_trig`/`factor` zero-test plus independent
+  numeric evaluation -- the PASS uses the robust test, so "0 of 64 nonzero" is trustworthy.
+- The sharpest objection -- *is Bach even the right residual for GU-proper?* -- is answered honestly by PART 4:
+  no, not off spin-2. A naive "Bach=0 therefore GU clears Schwarzschild" would silently assume GU's functional
+  is the conformal one; the REDUCE verdict exists precisely because that assumption is the remaining gate.
+
+### On H2 (the signature crux) -- not displaced, promoted
+H1 reduces the gravity leg without touching the `(9,5)` vs `(7,7)` signature question. By removing gravity
+as the bottleneck it leaves rep-canonicity as the single highest-leverage open item (it decides both whether
+the conformal reading is GU-native on the `(6,4)` DeWitt form and forced-vs-located generation count). And
+inheriting Bach's exact vacua also inherits Bach's fourth-order **Ostrogradsky-ghost / unitarity** obligation
+(`canon/ghost-parity-krein-synthesis.md`) -- a real cost of the identification, not a free win.
