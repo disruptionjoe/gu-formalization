@@ -72,6 +72,44 @@ sides — construction should now aim `L_theta_source` at the intersection targe
 (The buildbench discipline — never import `24/8`, "beautiful ≠ evidence" — is fully preserved: none of the
 intersection constraints import the answer; they are independent physics targets.)
 
+## Tightenings resolved (2026-07-11, same day) -- three follow-on tests, all exit 0
+
+The three next tightenings named above were executed; two resolve open items and one upgrades a claim.
+
+**(i) The M^2/r^2 "canon tension" is RESOLVED -- it was a convention artifact.**
+`tests/one-residual/willmore_geometric_ii_and_ambient_curvature.py`. The gimmel/DeWitt geometry
+(`ii-s-coordinate-formula-2026-06-23.md` section 6.1) shows the algebraic-slice term IS the genuine DeWitt
+vertical Christoffel `Gamma^{ab}_{mu nu}`: a *constant* section is not totally geodesic, so even flat space
+has `II != 0`, and the GU normalization must remove this by EITHER a horizontal-projected pullback OR
+subtracting the full canonical slice reference -- both remove it at ALL orders, not just the `M=0` value.
+MOVE-3 / `willmore_el_alpha_w_pin.py` subtracted only the `M=0` value, leaving the `M/r`-linear slice piece
+whose square gave the `M^2/r^2`. Under either principled normalization the vertical II reduces to the
+covariant graph Hessian `~M/r^3` (section 6.2), the mean curvature is `box(h)=0` (harmonic), and the
+**leading Willmore residual is `M^2/r^6`** (computed). So no principled GU convention yields a falloff slower
+than `M^2/r^6`; the `M^2/r^2` was the unprincipled middle option. **Tension resolved in GU's favor** (the
+residual is smaller/safer than even canon's `M^2/r^4` estimate). The exact choice among the principled
+conventions is still OQ2-A, but the *worry* -- a slow, near-Newtonian-scale Willmore residual -- is retired.
+
+**(ii) The ambient curvature `R^Y` is now a computed object; `alpha_W` reduces to one structural number.**
+Same test. From the section-2 gimmel Christoffels, the O'Neill A-tensor of the DeWitt metric at `g=eta` is
+nonzero: `|A|^2 = 1/8` (`00`,`11`), `1/16` (spacelike mixed `12`), `-1/16` (time-mixed `01`) -- positive on
+spacelike planes, sign-flipped on time-mixed, exactly as the indefinite/Krein signature requires. So `R^Y.B`
+in `alpha_W = -Q^TF(B)/(R^Y.B)` is a genuine, computable curvature, and `alpha_W` is reduced from "gated on
+the whole Y14 ambient geometry" to **one structural coefficient** -- the scalar weight of the ambient term in
+the curved-ambient Willmore equation, which selects which curvature components enter (hence the overall sign)
+and the magnitude. That single coefficient, plus the OQ2-A convention, is all that stands between here and a
+numeric `alpha_W` (itself linked to `f_0` via the shared `theta`).
+
+**(iii) forces-SM == vacuum-SM upgraded from invariant-match to CONJUGACY.**
+`tests/one-residual/sm_embedding_conjugacy.py`. The forces-route u(1) (max compact of `su(3,2)`, eigenvalues
+`(2,2,2,-3,-3)` on `C^5`) has triplet:doublet hypercharge ratio `-2/3`, exactly the SU(5) `5bar` ratio
+(`Y(d^c)=1/3`, `Y(L)=-1/2`) -- the same u(1) EMBEDDING DIRECTION. The full 16-state hypercharge multiset
+built from the SU(5) pattern `16 = 1 (+) 5bar (+) 10` is identical to the standard/vacuum 16 (both sum to 0,
+both cubic-anomaly-free). For a reductive subalgebra on a faithful rep the u(1) direction + weight system fix
+the conjugacy class, so the two `su(3)+su(2)+u(1)` subalgebras are **conjugate in so(10)** -- one ambient
+group, one Standard Model. The gauge-sector intersection is genuinely single, not two coincident-looking
+embeddings.
+
 ## Grade
 Computation-grade for (b) `Q^TF(B^(1))` (exact sympy, reproducible, exit 0); the **finding includes a canon
 tension** (`M^2/r^2` vs the estimated `M^2/r^4`) that is flagged, localized to the algebraic-slice SFF, and

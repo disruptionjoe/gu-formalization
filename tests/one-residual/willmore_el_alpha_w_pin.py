@@ -16,6 +16,13 @@ with fiber index i = symmetric pair (a,b), tangent indices (m,n), all raised/low
 weak-field order. Output: the leading a=2 r-exponent and the numeric coefficient/tensor -- i.e. the number
 the source action's alpha_W * R^Y.B term must cancel. Then the honest alpha_W-cancellation setup.
 
+RESOLUTION (2026-07-11): the M^2/r^2 leading falloff found here is a CONVENTION ARTIFACT of subtracting only
+the M=0 value of the DeWitt vertical-Christoffel ("algebraic-slice") term. Under either principled GU
+normalization (horizontal-projected pullback, or full-slice reference subtraction; ii-s-coordinate-formula
+section 6.1) the slice term is removed at all orders and the leading residual is M^2/r^6 -- see
+tests/one-residual/willmore_geometric_ii_and_ambient_curvature.py. This test is retained as the honest record
+of the artifact and its localization to the slice term.
+
 Run: python tests/one-residual/willmore_el_alpha_w_pin.py
 """
 from __future__ import annotations
