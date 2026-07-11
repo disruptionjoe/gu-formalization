@@ -114,9 +114,12 @@ exit 0). **Caveat:** `su(3,2)` is a non-native standalone sub-block -- GU's nati
 part of the residual, not derived. Independently, the Pati-Salam rank-one breaking vector has stabilizer
 exactly the SM algebra (dim 12, rank 4, one `u(1)`; identified by invariant fingerprint, not an explicit
 isomorphism -- `tests/one-residual/sm_pati_salam_stabilizer.py`, exit 0). The forced mirror generation's
-four SM anomaly traces vanish exactly (`tests/one-residual/sm_mirror_anomaly_free.py`, exit 0); its
-vectorlike (`16 (+) 16bar`) content and mass-liftability above collider bounds are standard SO(10)
-representation theory (not a computed result here) -- the textbook-safe way to add matter, not an
+four SM anomaly traces vanish exactly (`tests/one-residual/sm_mirror_anomaly_free.py`), now grounded in the
+**computed** vanishing of the `so(10)` cubic Casimir on the 16 (`max_abc |Tr({Sigma_a,Sigma_b}Sigma_c)| =
+0`, `tests/one-residual/sm_so10_cubic_casimir_and_mirror.py`) -- the real reason one-generation anomalies
+cancel; and the `16bar` is exhibited as the genuine charge-conjugate mirror (its full 5-Cartan weight
+system is the negatives of the 16's), a real vectorlike pair rather than a definitional tautology.
+Mass-liftability above collider bounds is standard -- the textbook-safe way to add matter, not an
 unobserved light state.
 
 ### 2.2 Forces -- CLEARED (existence)
@@ -224,9 +227,11 @@ Each novelty bullet names its nearest precedent and precise delta:
    max-compact; grades corrected to honest per the Hardening pass ledger above.
 2. **DONE (this pass):** per-sector grading + reconstruction map + prior-art distinctions folded into the
    body (Secs 1, 2.1, 2.4, 2.5, 3, 7).
-3. **Two genuine remaining gaps:** (a) compute the mirror `16bar` content / mass-lift honestly (the current
-   `n_L-n_R=0` check is a definitional tautology; restated as standard rep theory for now); (b) a real
-   `so(10)` cubic-Casimir test *or* drop the umbrella (currently dropped in the text).
+3. **SM-leg gaps CLOSED (2026-07-11 hardening):** (a) the mirror `16bar` content is now computed as the
+   genuine charge-conjugate (full 5-Cartan weight system = negatives of the 16), replacing the definitional
+   `n_L-n_R=16-16` tautology; (b) the `so(10)` cubic Casimir is now computed to vanish on the 16
+   (`max |d| = 0`), the real umbrella for one-generation anomaly cancellation
+   (`tests/one-residual/sm_so10_cubic_casimir_and_mirror.py`, exit 0).
 4. **The load-bearing open object:** settle the gravity scalar via the branch-fixed source action ->
    upgrades to 5/5 or a clean gravity disproof (either strengthens the paper). Same object pins the count.
 5. Figures: the sector scoreboard; the maximal-compact = SM computation; the primary-partition table.
