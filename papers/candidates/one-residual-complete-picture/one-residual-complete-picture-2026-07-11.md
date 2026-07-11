@@ -6,6 +6,59 @@ derivation. Geometric Unity (GU) is the concrete instance; the load-bearing stru
 reduces to one residual) is stated so it holds for **any** geometry that fits, so a reader need not accept
 GU. This is NOT a claim that GU (or any geometry) is proven, nor a derivation of all of physics.
 
+## Hardening pass (2026-07-11) -- these corrections GOVERN the body
+
+A 17-agent adversarial hardening (reproduce -> hostile-verify -> audit -> critic) ran on this draft.
+**Outcome: no load-bearing claim FAILED, all six cited computations reproduce (exit 0), but several grades
+were inflated and are corrected here; these corrections take precedence over any stronger phrasing below
+until the body is line-edited.**
+
+**Reproducible-test ledger** (all in `tests/one-residual/`, exit 0, independently verified as real
+non-circular computation):
+
+| Claim | Grade (corrected) | Test |
+|---|---|---|
+| max compact of `su(3,2)` = `su(3)+su(2)+u(1)`, 12 gens, one U(1) | existence (2 disjoint methods) | `forces_maxcompact_independent.py` + `tests/legs/forces_maximal_compact_is_sm.py` |
+| Pati-Salam rank-one stabilizer = SM algebra (dim 12, rank 4) | existence (fingerprint match, not explicit iso) | `sm_pati_salam_stabilizer.py` |
+| mirror generation: four SM anomaly traces vanish | **existence** (was mis-graded "theorem") | `sm_mirror_anomaly_free.py` |
+| Krein unitary repair exists (positive-definite physical sector + Krein-unitary generator) | existence (on a faithful model; standard linear algebra) | `qm_krein_unitary_repair.py` |
+| theta-field CPL fit shares DESI **sign** over z<=2 (`w_a<0`) | **consistency, SIGN-ONLY** (LCDM-degenerate; `f_0` a tuned fit) | `dark_energy_desi_sign.py` |
+| gravity Branch 2A eliminated (finiteness vs nonzero-theta exclusivity) | disproof of ONE branch (conditional on reconstruction-grade source law) | `gravity_branch2a_eliminated.py` |
+
+**Corrections that govern the body:**
+1. **No derivation verbs.** The SM/forces sectors are *realized as / contain / admit* their structures at
+   EXISTENCE grade, not "derive / arise / follow from / select". *Which* vacuum/sub-block the dynamics
+   picks is the residual.
+2. **`su(3,2)` is a non-native sub-block.** GU's native internal algebra is `so(5,5)`, whose maximal
+   compact `so(5)+so(5)` is NOT the SM. The SM-as-maximal-compact result is a property of the chosen
+   `su(3,2)` sub-block; that this is the selected one is itself source-action-gated (do not claim otherwise).
+3. **Dark energy: do NOT head "CLEARED" -- the live canon verdict is OPEN.** State: consistency, SIGN-only,
+   LCDM/amplitude-degenerate, `f_0`/`B_i` tuned fits (not GU predictions), EOS machinery reconstruction-grade.
+   DESI `w_a=-0.75` is the CMB+DESI+SNe CPL combo (arXiv:2404.03002). The "historical +1.17 was a hardcoded
+   slope bug" claim is NOT independently reproduced here -- state only that the corrected fit shares the sign.
+4. **Two sub-claims are NOT established and must be dropped/restated:** (a) the mirror "vectorlike
+   `n_L-n_R=0`" check is a definitional tautology (16-16 by construction) -- restate vectorlikeness as
+   standard SO(10) representation theory, not a computed result; (b) the "so(10) has no independent cubic
+   Casimir" umbrella is asserted, never computed -- drop the umbrella; keep only the SM-trace vanishing.
+5. **Novelty downgrade.** The 3-primary localization of the count is PRIOR ART (Garcia-Etxebarria-Montero
+   arXiv:1808.00009; Wan-Wang-Yau arXiv:2605.26202); our delta is only the no-go/blindness census + the
+   *boundary* conjunction. The central "all residual freedom localizes in one selection the dynamics makes"
+   has precedent in the string-landscape / moduli-stabilization / vacuum-selection literature (Douglas;
+   Susskind hep-th/0302219; KKLT); distinguish rather than claim a novel general theorem.
+6. **"One object" is a conjunction, not an identity.** The residuals are *jointly fixed by* a single object
+   -- the source action (its field-space declaration TOGETHER WITH its fixed coefficients) -- not literally
+   "the same object".
+7. **Boundary-localization is principle-grade** (Nielsen-Ninomiya / Callan-Harvey / Kaplan), not proven for
+   the true RS/`Y14`-bundle index; and the family-puzzle census "predictive partition" is an author-curated
+   table (a same-file string-match), not a computation -- do not cite it as computed.
+8. **Reconstruction-grade map** (replace the blanket caveat): reconstruction-grade = the dark-energy EOS
+   machinery, the forces-selection mechanism, and the gravity source law; computed-on-faithful-model = QM;
+   standard/existence-computed = the group theory (max compact, stabilizer, anomaly traces).
+
+Readiness: **NEEDS FIXES (~19 line-edits), not publication-solid as written, no claim retracted.** The
+spine (four sectors existence/consistency-cleared and reproducible, gravity reduced-not-cleared, all
+residual freedom jointly fixed by one object) survives at honest grade.
+
 ## Abstract
 
 We report a structural result about a candidate geometric-unification framework and its relation to the
@@ -63,7 +116,7 @@ is positive-definite and a Krein-unitary generator (`S^dag K S = K`) exists. No 
 violation. (The generalized-Born-rule quantization layer is imported; the framework supplies the Krein
 kinematics, and unitary QM is recoverable on it.)
 
-### 2.4 Dark energy -- CLEARED (consistency)
+### 2.4 Dark energy -- CONSISTENT, sign-only (live canon verdict is OPEN; do not head "cleared")
 A dynamical, equivariant scalar replaces the static cosmological constant. A previously-reported sign
 conflict with DESI was a code error (a hardcoded density-slope); the corrected, independently re-verified
 fit over the DESI window is `w_0 = -0.777, w_a = -0.248` -- the *same sign* as DESI (`w_a = -0.75`). The
@@ -96,8 +149,9 @@ Collecting the open freedom across all five sectors:
 - **the generation count** -- a rigid finite residual of the source-action field-space declaration;
 - **the gravity scalar** -- a coefficient of the branch-fixed source action.
 
-These are **one object**: the source action's field-space declaration. The framework therefore **closes up
-to a single, precisely-characterized, currently-unwritten object**, and no sector falsifies it. This is the
+These are **jointly fixed by one object**: the source action (its field-space declaration *together with*
+its fixed coefficients). The framework therefore **closes up to a single, precisely-characterized,
+currently-unwritten object**, and no sector falsifies it. This is the
 generalization of "located, not forced" from the generation count to the *entire* residual freedom of the
 framework.
 
