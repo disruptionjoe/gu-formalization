@@ -82,6 +82,34 @@ fits. The single highest-leverage, decisive, non-p-hacking computation the map i
 > removes `f_0` as a free fit; disagreement is a real tension. Either way it narrows the build far more
 > than a free construction, and it does not p-hack the count.
 
+## Computed (2026-07-11) -- `tests/one-residual/source_action_intersection.py` (exit 0)
+
+Both over-determined sectors were taken from "map" to "computed core":
+
+**theta-sector (gravity INT dark energy) -- ORDER-COMPATIBLE.** On isotropic Schwarzschild the geometric
+distortion leads at `theta ~ -M/rho^2` (symbolic, `d log Omega / d rho`). Through the source law
+`D_A*F_A = theta`, a `theta`-quadratic stress enters at `M^2/rho^4 = O(M^2/r^4)` -- the *same* order as the
+Willmore residual `W_s ~ M^2/r^4` (RFAIL-03). This is the **necessary** condition for Branch-3
+cancellation: had they entered at different orders, no coefficient could cancel them (an immediate
+disproof). They match, so the door is open. Consequence: the DE amplitude `f_0` (which sets `|theta|`) and
+the gravity coefficient `alpha_W` (which sets the cancelling Willmore weight) are **LINKED by the
+cancellation, not independent** -- fixing `theta` by dark energy fixes the `alpha_W` gravity needs. The
+*sufficient* condition (tensor structure + sign, which pins `alpha_W` numerically) remains gated on the one
+unwritten Willmore-EL term. Honest status: necessary-condition MET; no immediate `theta`-sector tension.
+
+**gauge-sector (forces INT SM) -- SAME SM.** The forces-SM (maximal compact of `su(3,2)`, built explicitly:
+dim 12, an `su(3)` color block of dim 8, one `u(1)`) and the vacuum-SM (Pati-Salam `v_PSB` stabilizer: dim
+12, rank 4, one `u(1)`, `su(3)` color dim 8 -- from `sm_pati_salam_stabilizer.py`) agree on every invariant
+checked. So a *single* ambient group can satisfy forces (max-compact = SM) AND SM (rank-one vacuum ->
+`G_SM`) at once -- the "which sub-block" freedom is narrowed by their agreement rather than left free.
+**Caveat (honest):** this matches *invariants* (dim, color-block dim, `u(1)` count, rank), which is
+necessary but is not a full conjugacy proof that the two `su(3)+su(2)+u(1)` embeddings are the identical
+subalgebra up to inner automorphism. Establishing conjugacy is the next tightening.
+
+**Net:** the two most over-determined sectors are CONSISTENT under the joint requirement -- the intersection
+NARROWS the source action rather than producing a contradiction, and the residual collapses toward
+`{alpha_W linked to f_0}` + `{the RS 2-bit}`. Non-p-hacking (every constraint is an independent leg).
+
 ## Grade
 
 Structural / reconstruction-grade (the sector forms are reconstruction-grade from the draft + canon). The
