@@ -65,18 +65,22 @@ We report a structural result about a candidate geometric-unification framework 
 five sectors it must account for -- the Standard Model gauge group and content, the forces, quantum
 (indefinite-metric) structure, dark energy, and gravity. Under an adversarial program that granted a
 working source action and then tried to *falsify* each sector, **no sector falsifies the framework**, and
-**four of five are cleared at existence/consistency grade**: (i) the Standard Model gauge algebra arises
-*exactly* -- the maximal compact of the ambient `su(3,2)` is `su(3)+su(2)+u(1)` with a single `u(1)` and no
-extra photon (reproducible computation), and the forced mirror matter is vectorlike, anomaly-free, and
-mass-liftable; (ii) the forces follow from the same maximal-compact selection, avoiding the "28-photon"
-adjoint-breaking catastrophe; (iii) quantum structure is unitary-repairable on the indefinite (Krein)
-inner product (a positive-definite physical sector and a Krein-unitary generator exist); (iv) dark energy
-is consistent with DESI (a previously-reported sign conflict was a code error; the corrected fit shares
-DESI's sign). The fifth sector, gravity, is *not* cleared but *reduced*: one conservative branch is newly
-eliminated by exact computation, leaving a single undetermined scalar (an ambient-curvature Willmore-EL
-coefficient). The central finding is that **the four cleared sectors' remaining freedom, the one open
-gravity scalar, and the fermion generation count are the same object**: the source action's field-space
-declaration, a rigid, finite residual. The generation count is *located, not forced* -- a special case.
+**four of five are cleared at existence/consistency grade**: (i) the Standard Model gauge algebra is
+realized *exactly* as the maximal compact of the ambient `su(3,2)` -- `su(3)+su(2)+u(1)`, a single `u(1)`,
+no extra photon (reproducible; `su(3,2)` is a non-native sub-block, so *which* sub-block the dynamics
+selects is itself the residual), and the forced mirror matter is anomaly-free (four SM traces vanish,
+computed) and -- by standard SO(10) representation theory -- vectorlike and mass-liftable; (ii) the same
+maximal-compact selection *admits* exactly the SM forces (a breaking to exactly them exists), avoiding the
+"28-photon" adjoint-breaking catastrophe; (iii) quantum structure is unitary-repairable on the indefinite
+(Krein) inner product (a positive-definite physical sector and a Krein-unitary generator exist, on a
+faithful model); (iv) dark energy is *consistent* (sign only) with the DESI CPL combo (`w_a=-0.75`,
+arXiv:2404.03002): the corrected, re-verified fit shares the sign (`w_a<0`), though it is
+LCDM-amplitude-degenerate (`f_0` a tuned fit) and its equation-of-state machinery is reconstruction-grade.
+The fifth sector, gravity, is *not* cleared but *reduced*: one conservative branch is newly eliminated by
+exact computation, leaving a single undetermined scalar (an ambient-curvature Willmore-EL coefficient). The
+central finding is that **the four cleared sectors' remaining freedom, the one open gravity scalar, and the
+fermion generation count are jointly fixed by one object**: the source action (its field-space declaration
+together with its fixed coefficients), a rigid, finite residual. The generation count is *located, not forced* -- a special case.
 The framework thus **closes up to one precisely-characterized object**, and we exhibit that object. We do
 not claim the framework is proven; we claim it is not falsified on any sector and that its entire residual
 freedom is localized in one place.
@@ -91,19 +95,29 @@ freedom is localized in one place.
   them and the required structures exist -- *which* the dynamics selects is the residual); that gravity is
   closed (it is reduced to one scalar); that three generations are *forced* (they are located, not forced);
   that the framework is GU-specific (the reduction-to-one-residual is geometry-agnostic).
-- **Grade discipline:** GU's scaffold is partly reconstruction-grade (read from a spoken account, not a
-  written action). Existence/consistency clears are marked as such and never called derivations.
+- **Grade discipline (per sector, not a blanket caveat):** *reconstruction-grade* (read from a spoken
+  account, not a written action) = the dark-energy equation-of-state machinery, the forces-selection
+  mechanism, and the gravity source law; *computed on a faithful model* = the quantum (Krein) repair;
+  *standard / existence-computed* = the group theory (maximal compact, Pati-Salam stabilizer, anomaly
+  traces). Existence/consistency clears are marked as such and never called derivations.
 
 ## 2. The five sectors
 
 ### 2.1 Standard Model gauge group and content -- CLEARED (existence)
-The ambient pseudo-unitary structure selects its gauge algebra by a maximal-compact / Cartan-involution
-mechanism (the framework's native indefinite-metric / Krein form), not adjoint-Higgs breaking. The maximal
-compact of `su(3,2)` is **exactly** `su(3)+su(2)+u(1)` -- 12 generators, block-diagonal, precisely one
-`u(1)`, no extra photon (`tests/legs/forces_maximal_compact_is_sm.py`, exit 0). Independently, a
-Pati-Salam rank-one breaking vector has stabilizer exactly the SM algebra (dim 12, rank 4). The forced
-mirror generation is vectorlike (`16 (+) 16bar`), anomaly-free in all four SM channels, and gappable at a
-free modulus above collider bounds -- the textbook-safe way to add matter, not an unobserved light state.
+The ambient pseudo-unitary structure **contains** the SM gauge algebra exactly as its maximal compact via
+the Cartan-involution / Krein form (not adjoint-Higgs breaking); *which* sub-block/vacuum the dynamics
+selects is source-action-gated (the residual). The maximal compact of `su(3,2)` is **exactly**
+`su(3)+su(2)+u(1)` -- 12 generators, block-diagonal, precisely one `u(1)`, no extra photon
+(`tests/one-residual/forces_maxcompact_independent.py`, `tests/legs/forces_maximal_compact_is_sm.py`,
+exit 0). **Caveat:** `su(3,2)` is a non-native standalone sub-block -- GU's native internal algebra is
+`so(5,5)`, whose maximal compact `so(5)+so(5)` is *not* the SM; that `su(3,2)` is the selected block is
+part of the residual, not derived. Independently, the Pati-Salam rank-one breaking vector has stabilizer
+exactly the SM algebra (dim 12, rank 4, one `u(1)`; identified by invariant fingerprint, not an explicit
+isomorphism -- `tests/one-residual/sm_pati_salam_stabilizer.py`, exit 0). The forced mirror generation's
+four SM anomaly traces vanish exactly (`tests/one-residual/sm_mirror_anomaly_free.py`, exit 0); its
+vectorlike (`16 (+) 16bar`) content and mass-liftability above collider bounds are standard SO(10)
+representation theory (not a computed result here) -- the textbook-safe way to add matter, not an
+unobserved light state.
 
 ### 2.2 Forces -- CLEARED (existence)
 Same maximal-compact selection. The "28-photon catastrophe" requires rank-preserving *adjoint-only*
@@ -117,11 +131,13 @@ violation. (The generalized-Born-rule quantization layer is imported; the framew
 kinematics, and unitary QM is recoverable on it.)
 
 ### 2.4 Dark energy -- CONSISTENT, sign-only (live canon verdict is OPEN; do not head "cleared")
-A dynamical, equivariant scalar replaces the static cosmological constant. A previously-reported sign
-conflict with DESI was a code error (a hardcoded density-slope); the corrected, independently re-verified
-fit over the DESI window is `w_0 = -0.777, w_a = -0.248` -- the *same sign* as DESI (`w_a = -0.75`). The
-sector is LCDM-degenerate (amplitude a fit), so it does not yet make a *distinguishing* prediction, but it
-is consistent with data, not falsified.
+A dynamical, equivariant scalar replaces the static cosmological constant. The corrected,
+independently re-verified CPL fit over the DESI window (`z<=2`) is `w_0 = -0.777, w_a = -0.248` -- the
+*same sign* as the DESI CPL combo (`w_a = -0.75`, CMB+DESI+SNe, arXiv:2404.03002)
+(`tests/one-residual/dark_energy_desi_sign.py`, exit 0). Honest scope: this is a **sign-only** consistency
+result -- the sector is LCDM-amplitude-degenerate (`f_0` and the `B_i` are tuned fits, not GU predictions),
+the equation-of-state machinery is reconstruction-grade, and **the live canon verdict on this sector is
+OPEN**. It is consistent with data, not falsified, and makes no distinguishing prediction yet.
 
 ### 2.5 Gravity -- OPEN, reduced (not cleared, not falsified)
 The gravitational sector is the section-shape equation; exact strong-field solutions (Schwarzschild/Kerr)
@@ -130,17 +146,24 @@ system PPN smallness holds a fortiori). Exact computation newly *eliminates* one
 source `D_A*F_A = theta`: a nonzero geometric `theta ~ M/rho^2` forces a divergent gauge action, mutually
 exclusive with a finite-action field), leaving a single surviving branch whose fate hinges on **one
 undetermined scalar** -- the sign/coefficient of the ambient-curvature (`R^Y.B`) term in the Willmore
-Euler-Lagrange variation at `O(M^2/r^4)`. That coefficient is fixed only by a written, branch-fixed source
-action.
+Euler-Lagrange variation at `O(M^2/r^4)` (`tests/one-residual/gravity_branch2a_eliminated.py`, exit 0).
+That coefficient is fixed only by a written, branch-fixed source action. **Reconstruction-grade caveat:**
+the branch's defining source law `D_A*F_A = theta` and the identification `theta = d log(Psi)` are
+reconstruction-grade; the `M/rho^2` scaling and the finiteness-vs-divergence exclusivity that eliminates
+Branch 2A are robust.
 
 ## 3. The generation count as one instance (subsumes "located, not forced")
 
 The fermion generation count is not forced by the framework's structure; it is *located* -- a rigid,
-finite 2-bit residual of the source action's field-space declaration, provably a boundary quantity in the
-odd-primary summand (the primary-partition no-go + the no-net-chirality-without-a-boundary principle;
-`tests/family-puzzle/primary_partition_lemma.py`, `tests/nielsen-ninomiya/`). This is the same *kind* of
-object as the gauge-vacuum selection (Sec. 2.1-2.2) and the gravity scalar (Sec. 2.5): a selection the
-dynamics makes, not a contradiction.
+finite 2-bit residual of the source action's field-space declaration. Two grades, kept separate: it is
+**provably a rigid, finite residual** by the primary-partition no-go (`Hom(Z/3,Z)=0`; elementary/folklore
+CRT arithmetic, genuinely computed, `tests/family-puzzle/primary_partition_lemma.py`), and it is
+**located** in the odd-primary boundary summand at **principle grade** under the no-net-chirality-needs-a-
+boundary principle (Nielsen-Ninomiya / Callan-Harvey / Kaplan; not proven for the true RS/`Y14`-bundle
+index). The 3-primary localization of the count is **prior art** (Garcia-Etxebarria-Montero arXiv:1808.00009;
+Wan-Wang-Yau arXiv:2605.26202); our delta is the 2-primary-blindness *no-go census* plus the *boundary*
+conjunction. This is the same *kind* of object as the gauge-vacuum selection (Sec. 2.1-2.2) and the gravity
+scalar (Sec. 2.5): a selection the dynamics makes, not a contradiction.
 
 ## 4. The central result: everything reduces to one object
 
@@ -177,22 +200,35 @@ the object.
 
 ## 7. Relation to prior work / honest boundary
 
-The generation-count sub-result relates to the family-puzzle bordism literature (Garcia-Etxebarria-Montero;
-Wang; Wan-Wang-Yau) via the primary-partition reading. The Standard-Model embedding is standard
-SO(10)/Pati-Salam representation theory verified for consistency (not a novel SM derivation). The Krein /
-indefinite-metric quantization draws on generalized-Born-rule work. The novel content is (i) the
-reduction-of-all-residual-freedom-to-one-object result, (ii) the boundary/odd-primary localization of the
-count, and (iii) the adversarial no-falsification-across-sectors finding at honest grade.
+Each novelty bullet names its nearest precedent and precise delta:
+- **(i) Reduction of all residual freedom to one source-action object.** Nearest precedent: the
+  string-landscape / moduli-stabilization / vacuum-selection literature (Douglas; Susskind hep-th/0302219;
+  KKLT), where the low-energy content is likewise a selection the (flux/moduli) dynamics makes. Delta: we
+  do not posit a landscape; we show, for one candidate geometry, that *every* residual (gauge vacuum, count,
+  gravity coefficient) collapses to the *single* source-action object and characterize it (rigid, finite).
+  Honest boundary: in field theory "a theory is its action" is near-truism; the content is the explicit
+  conjunction across sectors, not a new general theorem.
+- **(ii) Odd-primary/boundary localization of the count.** Nearest precedent: Garcia-Etxebarria-Montero
+  (arXiv:1808.00009) and Wan-Wang-Yau (arXiv:2605.26202) already locate the count in the 3-primary summand.
+  Delta: the 2-primary-blindness *no-go census* (which standard tools *cannot* force an odd count) conjoined
+  with the *boundary* (anomaly-inflow) localization. The 3-primary localization alone is not new.
+- **(iii) Adversarial no-falsification-across-sectors at honest grade.** The Standard-Model embedding is
+  standard SO(10)/Pati-Salam representation theory verified for consistency (not a novel SM derivation);
+  the Krein/indefinite-metric quantization draws on generalized-Born-rule work. The novel content is the
+  reproducible, honestly-graded, no-sector-falsifies map itself.
 
 ## Status / open gaps before submission
 
-1. Re-land the SM Pati-Salam stabilizer and gravity Branch-2A elimination as reproducible in-repo tests
-   (forces/SM maximal-compact already landed).
-2. Grade each sector precisely in the text (existence vs consistency vs reduced) and carry the
-   reconstruction caveat.
-3. Settle the gravity scalar via the branch-fixed source action -> upgrades to 5/5 or a clean gravity
-   disproof (either strengthens the paper).
-4. Full literature comparison for the reduction-to-one-residual and boundary-localization novelty claims.
+1. **DONE:** all six clears are reproducible in-repo tests (`tests/one-residual/`, all exit 0) --
+   SM stabilizer, mirror anomaly-traces, QM Krein repair, dark-energy sign, gravity Branch-2A, forces
+   max-compact; grades corrected to honest per the Hardening pass ledger above.
+2. **DONE (this pass):** per-sector grading + reconstruction map + prior-art distinctions folded into the
+   body (Secs 1, 2.1, 2.4, 2.5, 3, 7).
+3. **Two genuine remaining gaps:** (a) compute the mirror `16bar` content / mass-lift honestly (the current
+   `n_L-n_R=0` check is a definitional tautology; restated as standard rep theory for now); (b) a real
+   `so(10)` cubic-Casimir test *or* drop the umbrella (currently dropped in the text).
+4. **The load-bearing open object:** settle the gravity scalar via the branch-fixed source action ->
+   upgrades to 5/5 or a clean gravity disproof (either strengthens the paper). Same object pins the count.
 5. Figures: the sector scoreboard; the maximal-compact = SM computation; the primary-partition table.
 
 Grade: structural result at honest grade; four sectors existence/consistency-cleared (one reproducible),
