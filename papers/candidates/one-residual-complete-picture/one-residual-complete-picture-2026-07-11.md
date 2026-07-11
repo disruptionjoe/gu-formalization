@@ -95,6 +95,7 @@ residual.
 | H24 | leading curved-ambient `R^Y` = a **computed Lambda** (0-derivative, branch-neutral) -> cannot flip the sign (retires H16's central worry); residual collapses to **one number `C_RY` vs `-1/2`**; `mu_DW` = source-action overall scale (ratios geometric, magnitude free). H24's hand-waved `C_RY<0` was flagged provisional | **computation** (leading Lambda) + honest-open (residual number deferred) | `tests/wave6/H24_RY_normalization.py` |
 | H25 | `C_RY` **COMPUTED POSITIVE** by two independent methods (Gauss-ratio `+1/3`; direct `|II|^2` 2nd variation `+3/4`); `m^2_eff = 1/2 + C_RY > 1/2 > 0` -> the KILL is excluded **by SIGN**. Overturns H24's provisional `C_RY<0` | **computation** (two methods + exact H15 flat-calibration); SIGN robust, absolute magnitude normalization-gated | `tests/wave7/H25_II_first_variation_CRY.py` |
 | H23 | spin-lift `so(9,5) -> End_H(S)` is the **unique canonical lift** (exact homomorphism, 91 gens, residual 0); gauge group is the **non-compact** `Sp(32,32;H)` (sharpens canon "Sp(64)"); `[P,S]=0` HOLDS (`M_D` Krein-self-adjoint) but **SIGN-BLIND**; the identification `A = spin-lift(grad^gimmel)` is **NOT FORCED** (a codim-8165 soldering postulate); `mu_DW` NOT fixed | **PARTIAL**: (A)(B)(C) exact rep-theoretic identities (residual 0); (D) the soldering is a negative result (dimension gap unambiguous) | `tests/wave8/H23_source_action_construction.py` |
+| H27 | the soldering is **PROVABLY a genuine postulate**: a Palatini variation of `S` does NOT force the connection onto the spin-lift (Palatini forces IFF linear-in-curvature; GU is the *square* -> algebraic route = acausal `theta=0` trap + circular, kinetic route = YM moduli family). Positive control (linear-Palatini toy) correctly flags FORCED -> the no-go detects real forcing | **no-go** (exact ranks + positive control; HIGH) -> the conditional theorem is the PROVEN final state, gravity cannot be made unconditional within the built structure | `tests/wave10/H27_soldering_palatini.py` |
 
 **Net movement of the gravity leg:** OPEN/reduced -> **clear-MODULO-soldering at tree level.** The functional
 is forced II-class (H18), P1 is proven (H21), the induced-Einstein sign survives the curved ambient by an
@@ -103,7 +104,15 @@ parity clears it (H23 C). What remains is exactly **one bosonic soldering postul
 `pi = spin-lift(grad^gimmel)` (H23 D) **plus** the dimensionful `mu_DW` (H24/H25) -- both the SAME unbuilt
 object as the source action. The soldering is *natural* (the reference is the unique metric-compatible
 torsion-free lift) but **GU's dynamics does not supply it**, and `S = |theta|^2` does not force it (the vacuum
-is not `theta = 0`). This is **strictly softer** than, and provably distinct from, the fermion sector's `C2`
+is not `theta = 0`). **H27 (Wave 10) upgrades this from "not yet forced" to PROVABLY a genuine postulate:** a
+first-order (Palatini) variation of `S` does *not* drive the connection onto the spin-lift on-shell -- the
+Palatini theorem forces a connection *only* for actions linear in its curvature, and GU's action is the
+*square* of a first-order potential (Weinstein's "first-order then its square"), which breaks the forcing both
+ways (algebraic -> the acausal `theta=0` trap, which is also circular; kinetic -> a YM-type moduli family).
+A positive control (a genuine linear-Palatini toy the same machinery correctly flags FORCED) certifies the
+no-go detects real forcing rather than merely preserving GU (`tests/wave10/H27_soldering_palatini.py`, exit 0).
+So the conditional theorem is the **proven final state within the currently built structure**, not a gap
+awaiting closure. This is **strictly softer** than, and provably distinct from, the fermion sector's `C2`
 wall where the generation count actually lives.
 
 ## Abstract
