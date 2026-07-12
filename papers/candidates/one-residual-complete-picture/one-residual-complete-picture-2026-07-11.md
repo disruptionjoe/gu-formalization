@@ -418,9 +418,14 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
 3. **The `|II|^2`-vs-`|H|^2` functional choice (OQ2-A)** -- II-class is *forced* only at **structural /
    transcript** grade via premise P2 (action = YM full `|theta|^2`); a Willmore-type `|H|^2` variant would
    change the branch (H18). P1 (`s*theta = II_s`) is proven off-shell (H21), but conditional on premise 1.
-4. **Loop-level unitarity** -- only **tree level** is shown. Bateman-Turok prove tree-level positivity, and
-   their spin-2 ghost decouples; the full-Stelle loop ghost is the generic-Stelle-Mannheim open frontier,
-   which GU resolves no better than the generic theory (H16 BAR 1).
+4. **Loop-level unitarity** -- only **tree level** is shown for *positivity*. Bateman-Turok prove tree-level
+   positivity, and their spin-2 ghost decouples; the full-Stelle loop *positivity* is the generic-Stelle-
+   Mannheim open frontier (H16 BAR 1). This premise is now *narrowed* by the UV arc (Waves 42-47, see the UV
+   bullet in the honest-status ledger below): GU is power-counting **renormalizable** and, in a one-loop
+   truncation, **asymptotically free**, so the loop question is no longer "does GU resolve the ghost no better
+   than the generic theory" but the single sharply-located residual of loop *positivity* at the negative
+   fixed-ratio. Renormalizability and asymptotic freedom are established (at their grades); loop positivity
+   alone remains open.
 5. **The generation count is located, NOT forced** -- located in the odd-primary boundary summand at
    **principle** grade (Nielsen-Ninomiya / Callan-Harvey / Kaplan), not proven for the true RS/`Y14` index;
    the count itself is a rigid 2-bit residual, not derived (Sec 3).
@@ -549,6 +554,38 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   *renormalization-theoretic* (Stelle-style 4th-order renormalizability plus the Krein ghost rescue extended to
   the matter sector), not a symmetry. That route, like everything else, routes back to the one unbuilt source
   action.
+- **The renormalization route is open, and it is GU's strongest positive UV result: renormalizable and
+  asymptotically free, with only loop positivity left (the UV arc, Waves 42-47).** The renormalization-theoretic
+  route named above was then attacked directly, and it is the best the framework has done on the ultraviolet.
+  *Renormalizability (H58, `tests/W44...`, CONFIRMED):* two independent power-counting computations give a
+  superficial degree of divergence `D <= 4` on the `ker Gamma` subspace for every loop order -- the
+  Rarita-Schwinger sector does **not** spoil renormalizability, because the `ker Gamma` transverse projector has
+  momentum-degree 0 and removes exactly the `n = 2` Velo-Zwanziger danger modes that make a generic
+  gravity-coupled spin-3/2 non-renormalizable (the projector's degree-0, gamma-traceless property is *computed*,
+  residuals `~1e-16`, not assumed). The RS sector adds its own *finite, closed* counterterm set beyond pure
+  Stelle -- an extension, not a proliferation, which is the content of renormalizability. *Asymptotic freedom
+  (H57/H60, `tests/W45-W47`, DERIVED-on-PORTED, one-loop truncation):* running the ported agravity one-loop beta
+  functions (Weyl coupling asymptotically free, `b_2 = 133/10 > 0`) with the RS matter contribution added, the
+  Gaussian point is the **unique** UV fixed point -- so GU realizes asymptotic *freedom* (couplings flow to
+  zero), stronger than mere safety, and the Weyl coupling `f_2` is thereby *predicted* rather than tuned (the one
+  genuine predictivity gain over generic higher-derivative gravity). The firming pass (H60) made this
+  *structural*, not merely numerical: the one-loop system is homogeneous-quadratic (`beta(k g) = k^2 beta(g)`),
+  which mathematically **forbids** any isolated interacting fixed point for *any* value of the (imperfectly
+  known) `ker Gamma` matter coefficients, so no non-Gaussian fixed point can appear at this order regardless of
+  the one uncertain input (the RS trace-anomaly coefficient, tightened to `[1.02, 1.82]`; asymptotic freedom
+  survives for any value above `-13.3`). The UV critical surface has dimension `~3` in the known gravitational
+  sector (`M_Pl = mu_DW`, `Lambda`, `f_0^2`), so predictivity is preserved. **Honest scope, stated sharply:**
+  this is a one-loop, small-truncation result (an *indication* made structurally robust, not a proof -- a genuine
+  functional-RG/Reuter truncation and higher loops remain), and a UV fixed point is a statement about the
+  *renormalization-group flow only*: it does **not** settle Krein loop *positivity*, which is independent. The
+  arc in fact *locates* where the two remaining UV questions touch -- the asymptotically-free trajectory sits at a
+  **negative** conformal-mode ratio `f_0^2 / f_2^2 < 0`, and whether that wrong-sign direction is admissible is
+  exactly the loop-positivity question. Net register: GU is a renormalizable, asymptotically-free, finite-content
+  4th-order theory whose *sole* remaining UV obstruction is loop positivity of the keep-and-grade Krein rescue --
+  itself the open frontier of PT/Krein QFT (no keep-and-grade rescue is proven at loop level anywhere:
+  Kuntz 2024, Nakayama 2023, Bateman-Turok tree-only), so GU's UV-openness is an inherited frontier problem, not
+  a GU-specific defect. This upgrades the "one-scale finite-cutoff EFT" verdict: GU is a finite-cutoff EFT *that
+  is also renormalizable and asymptotically free*, one solved frontier problem away from UV-complete.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 
@@ -572,8 +609,13 @@ first-order variation of `|theta|^2` driving `pi` to the metric-compatible lift 
 reduce to the acausal-trapped `theta = 0`), or a falsification of it. A *free* build p-hacks the residual
 (established); the honest form is a forced construction, for which no armchair mechanism was found (a complete
 forcing rubric + an out-of-rubric hunt came up empty). The residual is thus real, finite, and not resolvable
-without building the object. **Loop-level `[P,S]=0`** is the separate, harder, generic-Stelle-shared frontier,
-unchanged and not resolvable without the action.
+without building the object. **Loop-level `[P,S]=0` positivity** is the separate, harder, generic-Stelle-shared
+frontier. The UV arc (Waves 42-47) sharpened it without closing it: GU is now established renormalizable and
+(one-loop) asymptotically free, so the UV question is reduced to loop *positivity* alone, and that residual is
+*located* at the negative conformal-mode ratio `f_0^2/f_2^2 < 0` on the asymptotically-free trajectory. It
+remains the open frontier of PT/Krein QFT and is not resolvable without a loop-level treatment of the keep-and-
+grade rescue (candidate route: an FRG/Reuter truncation, which could also promote the one-loop asymptotic
+freedom to a non-perturbative statement).
 
 ## 7. Relation to prior work / honest boundary
 
@@ -613,7 +655,15 @@ Each novelty bullet names its nearest precedent and precise delta:
 4. **The load-bearing open object:** supply (or falsify) the gravity **soldering** `A = spin-lift(grad^gimmel)`
    and fix `mu_DW` via the branch-fixed source action -> upgrades the tree-level conditional theorem to an
    unconditional 5/5 or a clean gravity disproof (either strengthens the paper). Same object pins the fermion
-   `C2`/count. Loop-level `[P,S]=0` is the separate, harder frontier.
+   `C2`/count. Loop-level `[P,S]=0` positivity is the separate, harder frontier.
+4b. **DONE (UV arc, Waves 42-47):** GU is established power-counting **renormalizable** (H58, `tests/W44...`,
+   `D <= 4` on the `ker Gamma` subspace; the RS sector adds a finite closed counterterm set) and, in a one-loop
+   truncation, **asymptotically free** (H57/H60, `tests/W45-W47`, all exit 0; unique Gaussian UV fixed point,
+   `f_2` predicted, `~3`-parameter critical surface incl. `mu_DW`; made structural via homogeneous-quadratic
+   betas that forbid an interacting fixed point). Folded into the honest-status ledger and premise 4. The sole
+   remaining UV obstruction is loop *positivity* of the keep-and-grade Krein rescue, located at the negative
+   fixed-ratio -- the open frontier of PT/Krein QFT, not a GU-specific defect. Grade: DERIVED-on-PORTED,
+   one-loop / small-truncation (an indication made robust, not a proof); FRG/higher-loop firm-up is future work.
 5. Figures: the sector scoreboard; the Wave 1-8 gravity ledger; the maximal-compact = SM computation; the
    primary-partition table.
 
