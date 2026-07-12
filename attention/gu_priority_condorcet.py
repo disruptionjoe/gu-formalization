@@ -147,28 +147,37 @@ ITEMS = {
     #   even/odd grading is cosmetic). THE ESCAPE: stop narrowing; DECLARE the honest lean and build the
     #   CONDITIONAL theory to get testable predictions -> H47.
     "H46": "THE DE RAW-LIKELIHOOD TEST (the last DE decider, cheap): H44 falsified GU dark energy FULL-STOP at DESI's (w0,wa) CPL level. The ONLY comparison that falsification does not settle is the raw expansion history -- fit the backreacted GU H(z) to the ACTUAL DESI DR2 BAO table + a CMB Omega_m prior (not the CPL proxy), where GU's non-CPL w(z) mimics DESI distances to ~1.3%. Either GU's dark energy is genuinely dead (raw-likelihood also fails) or GU makes a DISTINCT non-CPL prediction the CPL summary mismeasures (a real, if narrow, result). Cheap, decisive, closes the DE sector either way. [orthodox/philosopher]",
-    "H47": "DECLARE-AND-BUILD THE CONDITIONAL THEORY (the escape from the local minimum): the program has narrowed everything onto the source action, which H20 proved cannot be reached by an elegant shortcut and Waves 16/17 proved cannot be FORCED (only leaned, B-carrier). STOP narrowing. DECLARE the honest lean as explicit stated postulates -- (9,5) signature, |II|^2 norm, B-carrier K-class, the geometric-posture soldering -- and BUILD the CONDITIONAL theory, then DERIVE its concrete predictions (the count pinned to 1 or 3; the fermion/Yukawa structure; the raw-H(z) DE; PPN already passes) and TEST them. Converts GU from 'zero predictions, conditional on an unbuilt object' into a concrete conditional theory with N testable predictions -- exactly what the audit (H34) said is missing and what the DE falsification showed the program CAN do. Honest: everything labeled conditional-on-the-declared-postulates (like gravity's conditional theorem); this is disciplined declaration, NOT p-hacking the carrier. [heterodox/commercial/philosopher/wild]",
-    "H35": "The SECTION-FUNCTOR reframe: make the 'one residual' a single functorial identity (conjugate SMs, shared theta, alpha_W<->f0 as naturality). Turns 'routes to one object' from slogan into theorem. [wild]",
+    # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
+    # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
+    # run the conditional-build as ONE branch. ~60 personas across 5 families converged. The load-bearing
+    # object is the BACH/WEYL SELF-DUAL-SQUARE GRAVITON SECTOR (it forces, falsifies, decides the class, and
+    # needs neither the source action nor the signature settled). RETIRED as North-Star objects: chromatic
+    # torsion + the (9,5)/(7,7) signature flip (both proven structurally incapable of the 3-primary count --
+    # route ZERO effort there). H47 (declare-and-build) is REFRAMED as the Track-2 branch header below; its
+    # count-prediction is DEPRIORITIZED (the count is decoupled/source-action-gated, the worst first deliverable).
+    "H48": "[TRACK 1 / FORCE] THE SELF-DUAL-SQUARE FORCING TEST (the genuinely new coherence route, B+D convergent): is the source action FORCED as the self-dual square? Two faces of one principle -- (B) the UNIQUE conformally-invariant Willmore/GJMS functional of the soldering distortion (pinned by conformal-weight + IG-invariance + derivative-order, a uniqueness statement signature/causality/grading each failed to be); (D) the L-infinity/BV double copy of a first-order self-dual gauge datum on Lambda^2_+, native to the 3-primary self-dual arena. THE TEST: does the color-kinematics / Willmore-first-variation constraint close ONLY on carrier B's gamma-trace field space? Only-B -> derives |II|^2 as the square, removes the A/B bit, collapses count+norm+K-class to one, turns the keystone POSTULATE into a THEOREM. Both -> relabels (an HONEST freedom-reducing failure mode, unlike H20). Testable against the built Wave-16 carrier-B structure. [heterodox/wild]",
+    "H49": "[TRACK 1 / FALSIFY + the class question] ATTACK THE BACH/WEYL GRAVITON SECTOR (A+C+E convergent, cheap, needs no source action): (1) the class discriminator -- geometry-vs-information is ill-posed (both smuggle the metric); the decidable, signature-robust axis is the spin-2 action ORDER: GU's box^2 h=-4 Bach (4th-order: extra GW polarizations, propagator pole, GW dispersion) vs Bianconi's Einstein (2nd-order); PPN does not discriminate. (2) the Bach-identification -- if H-class GU-gravity IS conformal/Bach gravity, known refutations transfer as a whole-theory kill (Stelle-Mannheim loop non-unitarity, Ostrogradsky, no-flat-rotation-curves). (3) the class no-goes -- the Occam-kill + the Lambda-magnitude no-go (neither GU nor Bianconi pins ~10^-122) + boundedness-below + Gauss-Codazzi-off-umbilic each kill the WHOLE observer-geometry class. Its cheap Track-2 face is the mu_DW-parametrized Stelle-Yukawa + GW-dispersion NUMBERS. [orthodox/philosopher/commercial]",
+    "H47": "[TRACK 2 branch header] DECLARE-AND-BUILD THE CONDITIONAL THEORY, extract NUMBERS: declare the honest leans ((9,5), |II|^2, B-carrier, geometric-posture) as explicit stated postulates and build the conditional theory to EMIT testable numbers, ranked cheap-and-decisive -- (1) the DE raw-H(z) vs actual DESI DR2 BAO likelihood (H46, cheapest kill-shot); (2) the spin-2/Weyl discriminator numbers (= H49's cheap face); (3) H6 the family-puzzle theorem. The count-prediction is DEPRIORITIZED (decoupled, gated, likely under-determined -- NOT the first deliverable, correcting the earlier framing). Firewall = the conditional-theorem form (never asserts its antecedent; 'count=3 given S' is a prediction of GU-given-S, not of GU) -> the branch does NOT change the North-Star stance. Track-2 deliverables ARE Track-1 tests; a Track-1 forcing win (H48) collapses the branch. [commercial/philosopher]",
+    # H35 (section-functor reframe) SUBSUMED by H48: the Willmore/GJMS uniqueness IS the functorial-identity
+    #   forcing, now sharpened to a concrete self-dual-square test. Dropped from the live set.
     "H36": "The OBSERVERSE / issuance connection: the O(M^0) DeWitt-Lambda = the dark-energy scale = the issuance/non-collapse rate. Connect the DeWitt curvature to observerse-non-collapse -- the paper only this program can write. [wild]",
 }
 
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after the SECOND batch + the persona-council coherence assessment (Waves 24-26: H45
-# favored-|II|^2-but-gated, H20 SPLITS-BUT-RELABELS, H44 DE FALSIFIED-FULL-STOP). The synthesis is decisive:
-# the source action is the keystone everything routes to, H20 killed the elegant-shortcut hope, and the LOCAL
-# MINIMUM is narrowing onto a keystone that cannot be forced. Two new objects: H46 (the last DE decider, the
-# raw-likelihood test) and H47 (the ESCAPE: declare the honest lean + build the CONDITIONAL theory to get
-# testable predictions -- the audit's missing predictions, disciplined-declaration not p-hacking). Council
-# converges hard on H47 as the escape from the local minimum; H46 the cheap DE closer; H41 the keystone the
-# conditional build instantiates. Do NOT count another narrowing pass as progress (the council's explicit warning).
+# TWO-TRACK re-rank after the FULL-ROSTER persona sweep (~60 personas, 5 families, 2026-07-11). The convergent
+# load-bearing object is the BACH/WEYL SELF-DUAL-SQUARE GRAVITON SECTOR: H49 attacks it (falsify + class
+# decider + cheap numbers, needs no source action) and H48 forces it (the self-dual-square coherence route,
+# B+D). H46 is the cheapest DE kill-shot; H47 is the Track-2 branch header (numbers first, count deprioritized);
+# H41 the source action H48 tries to force into a theorem. STOP: chromatic torsion + signature flip (retired).
+# Expect H49 to lead (the object that forces AND falsifies AND decides the class AND is cheap).
 BALLOTS = {
-    "orthodox":            ["H46", "H47", "H28", "H30", "H41", "H6", "H35", "H36"],
-    "heterodox_rigorous":  ["H47", "H41", "H46", "H30", "H35", "H28", "H36", "H6"],
-    "commercial":          ["H47", "H6", "H46", "H41", "H30", "H28", "H35", "H36"],
-    "philosopher":         ["H47", "H46", "H41", "H30", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H47", "H41", "H46", "H36", "H35", "H30", "H28", "H6"],
+    "orthodox":            ["H49", "H46", "H47", "H48", "H41", "H30", "H28", "H6", "H36"],
+    "heterodox_rigorous":  ["H48", "H49", "H41", "H47", "H46", "H30", "H28", "H36", "H6"],
+    "commercial":          ["H6", "H46", "H47", "H49", "H48", "H41", "H30", "H28", "H36"],
+    "philosopher":         ["H49", "H46", "H47", "H48", "H41", "H30", "H28", "H36", "H6"],
+    "wild_frontier":       ["H48", "H49", "H41", "H36", "H47", "H46", "H30", "H28", "H6"],
 }
 
 
