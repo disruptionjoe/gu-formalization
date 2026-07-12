@@ -470,7 +470,15 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   alike, though neither theory is falsified by it (neither derives the magnitude); (ii) all of GU's empirical
   content is gated on the single scale `mu_DW` -- at `mu_DW ~ M_Pl` every deviation is `~10^-35 m` and
   decoupled, while at `mu_DW ~ meV` (the dark-energy scale) GU predicts a **sub-millimetre Stelle-Yukawa
-  deviation**, its one live falsifiable handle.
+  deviation**, its one live falsifiable handle. Wave 30 (H50, `explorations/wave30/`) made this concrete: one
+  `mu_DW` sets *both* the DeWitt-Lambda (`rho_Lambda ~ c_L mu_DW^4`) and the graviton mass
+  (`m2 = sqrt(m2_eff) mu_DW`), so *identifying* the DeWitt-Lambda with the observed dark energy (the H36
+  postulate, not forced) fixes `mu_DW ~ 2.3 meV` and **predicts** a Yukawa of range `lambda = 77-94 um` at
+  strength `alpha = 1/3`. Against the actual short-range-gravity bounds (Kapner/Lee/Tan) that prediction is
+  **excluded at face value, by an O(1) margin** -- it sits *at* the experimental frontier, and the one
+  uncomputed geometric coefficient `c_L` (a `~1.5x` shift to `lambda ~ 55 um`) decides excluded-vs-live. This
+  is GU's first genuine parameter-linked prediction: conditional on H36, and either a near-term falsification
+  of that identification or a live sub-millimetre target.
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
@@ -489,7 +497,12 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   to one named source-action object) -- a structural result, not a prediction. The one place the framework
   touches data (dark energy) is a fit on `f_0`, which is exactly why the DESI tension (marginal `w_a` at
   `+2.55 sigma` from the DR2 primary source) is soft rather than fatal. The `ACCOMMODATES` headline is, on
-  this ledger, honest and if anything conservative.
+  this ledger, honest and if anything conservative. **Update (H50):** GU still has **zero unconditional**
+  parameter-free predictions, but it now has **one conditional prediction** -- given the H36 identification
+  (DeWitt-Lambda = the observed dark energy), the single scale `mu_DW` is fixed and GU predicts a specific
+  sub-millimetre gravity deviation (`lambda ~ 77-94 um`, `alpha = 1/3`) that current experiments already
+  probe. That is a genuine, falsifiable, parameter-linked prediction of *GU-given-H36* (not of GU), sitting at
+  the experimental frontier -- a real step past pure accommodation, in the honest conditional register.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 

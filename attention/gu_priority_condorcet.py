@@ -164,7 +164,13 @@ ITEMS = {
     # CONVERGENCE: GU SURVIVES (distinguished + DE-viable) as a genuinely distinct theory; the clean-forcing
     #   route is closed; the DE sector is cornered-not-dead; and EVERYTHING (empirical content, the norm/
     #   survival, loop positivity, the count) routes to ONE number, mu_DW -> H50.
-    "H50": "PIN mu_DW TO THE DARK-ENERGY SCALE -> GU's FIRST GENUINE PREDICTION (the live North-Star move, H36xH49): H49 showed GU's massive spin-2 gives a sub-mm Stelle-Yukawa gravity deviation IFF mu_DW ~ meV, and everything empirical is gated on mu_DW. H36 (observerse) already suggests the DeWitt-Lambda = the dark-energy scale ~ 2.3e-3 eV ~ meV. IF that identification holds (mu_DW = the DE/DeWitt-Lambda scale), GU PREDICTS a testable sub-mm gravity deviation V(r)=-(GM/r)[1+(1/3)e^{-m2 r}] in the Eot-Wash band -- its FIRST genuine parameter-linked falsifiable prediction, exactly what the H34 audit said is missing. Cheap to test (a scale identification GU already proposes); delivers either GU's first prediction (mu_DW~meV, sub-mm live) or a decoupled verdict (mu_DW~M_Pl, untestable). Also settles the H49 Occam caveat. [orthodox/philosopher/wild]",
+    # H50 RESOLVED (Wave 30, tests/wave30): GU's FIRST parameter-linked prediction. The one-scale link HOLDS
+    #   (one mu_DW sets both the DeWitt-Lambda rho~c_L mu_DW^4 and m2=sqrt(m2_eff)mu_DW -> the sub-mm number is
+    #   a genuine prediction). Under the H36 identification (mu_DW = DE scale ~2.3 meV, a POSTULATE not forced),
+    #   GU predicts a sub-mm Stelle-Yukawa deviation lambda=76.7-94.0 um, alpha=1/3 -> EXCLUDED at face value by
+    #   Eot-Wash/HUST (Kapner/Lee/Tan), but by an O(1) margin (AT the frontier). SELF-FALSIFIED-AT-FACE-VALUE
+    #   conditional-on-H36. The decider is the one uncomputed geometric coefficient c_L -> H51.
+    "H51": "COMPUTE THE DeWitt COEFFICIENT c_L (the make-or-break for GU's first prediction): rho_Lambda = c_L*mu_DW^4, with c_L ~ 3/8 estimated from the horizontal sectional (H24) but NOT exactly computed. c_L sets mu_DW = (rho_Lambda/c_L)^{1/4} and hence the predicted Yukawa range lambda = hbar_c/(sqrt(m2_eff) mu_DW). Wave 30: at c_L~1 the prediction (lambda 77-94 um, alpha=1/3) is EXCLUDED by an O(1) margin; a ~1.5x upward mu_DW shift (c_L ~ 0.2) moves lambda to ~55 um and back to the ALLOWED frontier. So ONE cheap geometric computation decides whether GU-under-H36 is SELF-FALSIFIED (lambda>~50 um, excluded) or has a LIVE testable sub-mm gravity prediction at the experimental frontier (lambda<~50 um). c_L is the SAME coefficient normalizing the whole source-action scale, so it also sharpens mu_DW everywhere. The highest-leverage cheap object on the board -- it either kills GU-under-H36 or hands it a live falsifiable prediction. [orthodox/heterodox/philosopher/wild]",
     # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
     # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
     # run the conditional-build as ONE branch. ~60 personas across 5 families converged. The load-bearing
@@ -182,19 +188,18 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# SYNTHESIS re-rank after the North-Star batch (Waves 27-29: H49 GU-DISTINGUISHED, H48 forcing-RELABELS + the
-# norm/survival tension, H46 DE MARGINAL/cornered-not-dead). GU SURVIVES as a genuinely distinct theory; the
-# clean-forcing coherence route is retired; and everything empirical + the norm + the count route to ONE
-# number, mu_DW. The live North-Star move is H50: pin mu_DW to the dark-energy/DeWitt-Lambda scale (~meV, via
-# H36) -> IF it holds, GU makes its FIRST genuine prediction (a sub-mm Stelle-Yukawa deviation). Cheap, and the
-# convergent object all three probes point at. H47 stays the Track-2 branch; H41 the full source-action build
-# (pins mu_DW rigorously); H36 the observerse scale-identification that feeds H50.
+# RE-RANK after Wave 30 (H50): GU now HAS a first parameter-linked prediction (a sub-mm Stelle-Yukawa,
+# conditional on the H36 identification), SELF-FALSIFIED-AT-FACE-VALUE but O(1)-borderline. The entire fate of
+# that prediction -- EXCLUDED vs LIVE-at-the-frontier -- turns on ONE uncomputed geometric coefficient, c_L
+# (rho_Lambda = c_L mu_DW^4). H51 computes it: cheap, and it either kills GU-under-H36 or hands it a live
+# falsifiable prediction, while also sharpening mu_DW everywhere. Unanimous new #1. H47 stays the Track-2
+# branch; H41 the full source-action build; H36 the identification the prediction is conditional on.
 BALLOTS = {
-    "orthodox":            ["H50", "H47", "H30", "H28", "H41", "H6", "H36"],
-    "heterodox_rigorous":  ["H50", "H41", "H47", "H30", "H36", "H28", "H6"],
-    "commercial":          ["H50", "H6", "H47", "H41", "H30", "H28", "H36"],
-    "philosopher":         ["H50", "H47", "H36", "H30", "H41", "H28", "H6"],
-    "wild_frontier":       ["H50", "H36", "H41", "H47", "H30", "H28", "H6"],
+    "orthodox":            ["H51", "H47", "H30", "H28", "H41", "H6", "H36"],
+    "heterodox_rigorous":  ["H51", "H41", "H47", "H30", "H36", "H28", "H6"],
+    "commercial":          ["H51", "H6", "H47", "H41", "H30", "H28", "H36"],
+    "philosopher":         ["H51", "H47", "H36", "H30", "H41", "H28", "H6"],
+    "wild_frontier":       ["H51", "H36", "H41", "H47", "H30", "H28", "H6"],
 }
 
 
