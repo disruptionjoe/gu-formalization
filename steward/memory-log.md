@@ -112,3 +112,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-12
 
 - Progress fan-out added the Path-2 Wave-2 Target 2 CLOP pinch pre-gate, localizing the Lee-Wick/fakeon higher-loop obstruction to the mixed conjugate-pole threshold without changing H59, canon, claim status, verdicts, or public posture. See `steward/runs/2026-07-12-progress-fanout-382-selection.md`.
+- Progress fan-out added the Thread A4 constant-section `Rperp_0` ambient-projection gate, showing the ambient `R^Y` term does not cancel the A3 shape-commutator support and leaving full higher-codimension Willmore EL assembly open. See `steward/runs/2026-07-12-progress-fanout-383-a4-rperp-ambient-projection.md`.
