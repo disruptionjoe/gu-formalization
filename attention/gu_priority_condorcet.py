@@ -44,27 +44,37 @@ ITEMS = {
     # THEOREM (tree-level Stelle-clear, positive decoupled ghost) modulo {the soldering postulate + mu_DW}.
     # H27 RESOLVED (Wave 10) -> the soldering is a genuine postulate, not an unclosed forcing gap; drop it
     # from the live decision set and let attention move to the next unresolved item.
-    "H26": "Does the Krein ghost-parity [P,S]=0 (H23 showed it HOLDS structurally, Bateman-Turok positivity) survive RENORMALIZATION (loop-level unitarity)? The hard generic-Stelle-shared frontier; needs the source-action dynamics. Narrowed by H23 (structural version confirmed). [philosopher]",
-    "H22": "Assemble/update the One Residual flagship with the Wave 1-10 results: gravity's tree-level conditional theorem is the final state within the built structure (Stelle R^X+Weyl^2 + DeWitt Lambda, antigravity kill retired, ghost BT-cleared at tree, soldering proven a postulate) + dark energy (DESI ~3-4 sigma honest tension) + SM (conjugate) + QM (Krein) + located count. The complete picture at structural/existence grade, all conditional premises flagged. [commercial]",
-    "H10": "Weak-field-with-MATTER / PPN test (light bending, perihelion): does GU-Stelle pass the real solar-system bar? [orthodox/philosopher]",
-    "H19": "Search GU's base-pullback / observerse tautological structure for a term LINEAR in g -- the SOLE remaining decider of the (9,5)/(7,7) signature. Ties to the X4/Y14 architecture-vs-capability lens. [heterodox]",
-    "H14": "Is the generation COUNT a conformal invariant under Bach/so(4,2)? (likely signature-blind -- lowered). [wild]",
-    "H6": "Ship the GU-independent family-puzzle paper ('forces odd count => nonzero 3-Sylow image'). Credible regardless of GU's fate.",
-    "H7": "Match Weinstein's RS '2+1 imposter' generation mechanism against our carrier A/B structure. [wild]",
-    "H5": "Information-first / entropic-gravity antithesis. Does NOT rise (Branch A / II-class confirmed).",
+    # --- "PUSH FURTHER" decision set (2026-07-11): each archetype's top-3 next ideas, pooled + deduped.
+    # Gravity is a proven conditional theorem; DE is a soft tension; both route to the one unbuilt source
+    # action; the fermion/C2 wall (where the count lives) is untouched. ---
+    "H10": "PPN / weak-field-with-MATTER test (light bending, perihelion): does GU's fourth-order/Stelle gravity pass the real solar-system bars (known trouble for 4th-order theories)? Cheap, decisive, needs NO source action. [orthodox]",
+    "H26": "Loop-level ghost unitarity: does the Krein [P,S]=0 (holds at tree, H23) survive renormalization? The generic-Stelle killer -- decides whether 'conditional theorem' means anything quantum. [orthodox]",
+    "H28": "Fermion masses / Yukawas: the SM is cleared only at GAUGE-GROUP grade. Does GU predict the mass hierarchy + mixings, or just the algebra? Where unification programs historically die. [orthodox]",
+    "H29": "THE FERMION / C2=155.36 WALL = the terminal source-action build. H23 showed gravity is the SOFT part; the C2 fermion residual is the HARD wall the buildbench is actually stuck on, and where the generation count lives. Attack the real unbuilt object. [heterodox/philosopher]",
+    "H19": "Settle the native signature (9,5) vs (7,7): decides forced-vs-located COUNT. The sole decider is a term LINEAR in g. Could flip located-not-forced into a derivation. [heterodox]",
+    "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
+    # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
+    # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
+    # those; they are not the advancement of the research). H31 (flagship review-ready) and H32 (methodology
+    # paper) DROPPED per this rule. H6 (finish the GU-independent family-puzzle THEOREM) is kept as a research
+    # result, not a shipping task.
+    "H6": "Finish the GU-INDEPENDENT family-puzzle result ('forces odd count => nonzero 3-Sylow image'): sharpen the predictive proposition + verify the census vs primary sources. A real theorem, credible regardless of GU's fate. [commercial]",
+    "H34": "Predictive-content AUDIT of the whole flagship: which 'clears' are genuine PREDICTIONS vs free-parameter FITS (like f0)? The honest measure of what GU predicts vs merely houses -- what a skeptic does first. [philosopher]",
+    "H5": "Geometry-first vs INFORMATION-first showdown: is GU's geometric primitive right, or is entropic/information-first (Bianconi +Lambda) the correct frame? The one lens that reframes the whole program. [philosopher]",
+    "H20": "The UNIFIED even/odd action: does |II|^2-on-Y14 split as gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? If yes, the C2/fermion wall and gravity are ONE structure and the count may drop out. Highest upside. [wild]",
+    "H35": "The SECTION-FUNCTOR reframe: make the 'one residual' a single functorial identity (conjugate SMs, shared theta, alpha_W<->f0 as naturality). Turns 'routes to one object' from slogan into theorem. [wild]",
+    "H36": "The OBSERVERSE / issuance connection: the O(M^0) DeWitt-Lambda = the dark-energy scale = the issuance/non-collapse rate. Connect the DeWitt curvature to observerse-non-collapse -- the paper only this program can write. [wild]",
 }
 
 # --- five council ballots: strict preference order, best first ---
-# GENERATIVE re-rank after Wave 10 (H27). The soldering-carrier hunt resolved negatively: it is a genuine
-# postulate, not an unclosed Palatini forcing gap. H22 keeps the complete-picture/ship slot; the remaining
-# unresolved technical frontiers are now loop-level unitarity (H26), weak-field matter/PPN (H10), and the
-# signature-deciding linear-g term (H19).
+# "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
+# ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
 BALLOTS = {
-    "orthodox":            ["H22", "H10", "H19", "H26", "H14", "H6", "H7", "H5"],
-    "heterodox_rigorous":  ["H22", "H19", "H26", "H10", "H14", "H7", "H6", "H5"],
-    "commercial":          ["H22", "H6", "H10", "H19", "H26", "H14", "H7", "H5"],
-    "philosopher":         ["H22", "H10", "H26", "H5", "H19", "H14", "H6", "H7"],
-    "wild_frontier":       ["H22", "H19", "H14", "H26", "H5", "H7", "H10", "H6"],
+    "orthodox":            ["H10", "H26", "H28", "H29", "H34", "H30", "H19", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H29", "H19", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H10", "H29", "H30", "H34", "H26", "H28", "H19", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H29", "H34", "H5", "H10", "H26", "H30", "H19", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H20", "H35", "H36", "H29", "H19", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
 }
 
 
