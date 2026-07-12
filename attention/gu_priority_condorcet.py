@@ -50,8 +50,11 @@ ITEMS = {
     "H10": "PPN / weak-field-with-MATTER test (light bending, perihelion): does GU's fourth-order/Stelle gravity pass the real solar-system bars (known trouble for 4th-order theories)? Cheap, decisive, needs NO source action. [orthodox]",
     "H26": "Loop-level ghost unitarity: does the Krein [P,S]=0 (holds at tree, H23) survive renormalization? The generic-Stelle killer -- decides whether 'conditional theorem' means anything quantum. [orthodox]",
     "H28": "Fermion masses / Yukawas: the SM is cleared only at GAUGE-GROUP grade. Does GU predict the mass hierarchy + mixings, or just the algebra? Where unification programs historically die. [orthodox]",
-    "H29": "THE FERMION / C2=155.36 WALL = the terminal source-action build. H23 showed gravity is the SOFT part; the C2 fermion residual is the HARD wall the buildbench is actually stuck on, and where the generation count lives. Attack the real unbuilt object. [heterodox/philosopher]",
-    "H19": "Settle the native signature (9,5) vs (7,7): decides forced-vs-located COUNT. The sole decider is a term LINEAR in g. Could flip located-not-forced into a derivation. [heterodox]",
+    # H29 RESOLVED (Wave 12) -> NARROWED: C2 is a CII eta=0 constraint-leakage (index theorem-forced to zero);
+    # the count is theorem-FORBIDDEN from the fermion index -> explains located-not-forced; dissolves under (7,7).
+    # Residual -> H37 (the grading-breaking boundary object / the mutual-exclusion no-go).
+    "H37": "The grading-BREAKING boundary-Dirac D_Sigma with eta != 0: attempt it, OR prove the mutual exclusion (eta != 0 vs the positive-Hessian CII grading that forces eta=0, H29) is a genuine NO-GO. A no-go makes the generation count PROVABLY located-not-forced within the built structure -- the fermion analog of H27's gravity-soldering no-go. The precise next object H29 named. [philosopher/heterodox]",
+    "H19": "Settle the native signature (9,5) vs (7,7): H29 showed the fermion wall DISSOLVES under (7,7) (J^2=+1 changes the CII class), so this is now COUNT-DECISIVE -- it decides forced-vs-located. The sole decider is a term LINEAR in g. [heterodox]",
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -69,12 +72,14 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
+# Re-rank after Wave 12 (H29 NARROWED). Its residual H37 (the grading-breaking boundary / mutual-exclusion
+# no-go) and H19 (now COUNT-DECISIVE: the wall dissolves under (7,7)) are the two count-endgame moves and rise.
 BALLOTS = {
-    "orthodox":            ["H10", "H26", "H28", "H29", "H34", "H30", "H19", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H29", "H19", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H10", "H29", "H30", "H34", "H26", "H28", "H19", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H29", "H34", "H5", "H10", "H26", "H30", "H19", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H20", "H35", "H36", "H29", "H19", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H10", "H26", "H28", "H37", "H34", "H19", "H30", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H19", "H37", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H10", "H37", "H19", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H37", "H34", "H19", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H20", "H37", "H35", "H19", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
 }
 
 
