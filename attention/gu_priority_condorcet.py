@@ -93,7 +93,12 @@ ITEMS = {
     # paper) DROPPED per this rule. H6 (finish the GU-independent family-puzzle THEOREM) is kept as a research
     # result, not a shipping task.
     "H6": "Finish the GU-INDEPENDENT family-puzzle result ('forces odd count => nonzero 3-Sylow image'): sharpen the predictive proposition + verify the census vs primary sources. A real theorem, credible regardless of GU's fate. [commercial]",
-    "H34": "Predictive-content AUDIT of the whole flagship: which 'clears' are genuine PREDICTIONS vs free-parameter FITS (like f0)? The honest measure of what GU predicts vs merely houses -- what a skeptic does first. [philosopher]",
+    # H34 RESOLVED (Wave 18, tests/wave18/H34_parameter_count.py, exit 0, 13/13) = the honest ledger. Strict
+    # count: PREDICTIONS zero; FITS 4 free params (f0, M2, B_i, mu_DW); the asset is the one-residual
+    # COMPRESSION (a structural map, not a prediction); DESI is the sole data-touch (+2.55 sigma on wa, soft
+    # only because f0 is free); "ACCOMMODATES" is honest, even conservative. Signal: run the CHEAP FALSIFIERS
+    # before more synthesis; H41 is demoted in URGENCY (only pays off if forced). The sharpest new move -> H42.
+    "H42": "THE DARK-ENERGY f0 PRE-REGISTRATION GATE (the one cheap route to GU's FIRST genuine prediction, or a clean kill): derive f0 -- the theta-sector DE amplitude, currently GU's SOLE data-facing free parameter -- source-first from the source action / DeWitt-Lambda, and RECORD it before any DESI comparison. If the source-derived f0 then reproduces DESI's (w0,wa) it is GU's first parameter-free PREDICTION; if not, it is a clean FALSIFICATION. Either way it converts the sole FIT (which is the only reason the ~+2.55 sigma DESI tension stays 'soft') into a HARD test. Cheap, decisive, needs no terminal build. [philosopher/commercial]",
     "H5": "Geometry-first vs INFORMATION-first showdown: is GU's geometric primitive right, or is entropic/information-first (Bianconi +Lambda) the correct frame? The one lens that reframes the whole program. [philosopher]",
     "H20": "The UNIFIED even/odd action: does |II|^2-on-Y14 split as gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? If yes, the C2/fermion wall and gravity are ONE structure and the count may drop out. Highest upside. [wild]",
     "H35": "The SECTION-FUNCTOR reframe: make the 'one residual' a single functorial identity (conjugate SMs, shared theta, alpha_W<->f0 as naturality). Turns 'routes to one object' from slogan into theorem. [wild]",
@@ -103,20 +108,19 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after Wave 17 (H40 RESOLVED = NARROWED, the terminal state mapped). PIVOT POINT: for
-# five waves the count-decider was always the winner because we were driving TOWARD the terminal object.
-# Wave 17 REACHED it -- the program is one forced build from complete, but that build (H41, the causal-cure
-# term) needs a hard unbuilt higher-spin construction, and even built the count stays {1,3}. Council honestly
-# splits: heterodox + wild still top H41 (the one build that would close the source action); orthodox +
-# commercial + philosopher now elevate H34 (document the predictive boundary just reached: count {1,3}, B-lean,
-# one unbuilt cure-term away, gravity conditional) and the cheap decisive bar H10 (PPN) ahead of grinding the
-# hardest unbuilt object. The honest signal: map the boundary before (or alongside) attempting the terminal build.
+# GENERATIVE re-rank after Wave 18 (H34 RESOLVED = the honest ledger: ZERO parameter-free predictions, asset
+# is compression, DESI the sole data-touch soft only because f0 is free). The audit's discipline reframes the
+# board: RUN THE CHEAP FALSIFIERS before more synthesis, because they kill-or-credit the program WITHOUT the
+# hardest build, whereas H41 (the cure-term) only pays off if FORCED. Drafted H42 = the f0 pre-registration
+# gate -- the one cheap move that turns GU's sole FIT into a real prediction-or-kill. Council converges: H42
+# leads (two #1s, three #2s) as the sharpest test; H10 (PPN) and H26 (loop) are the other cheap falsifiers;
+# H41 stays the terminal build but demoted in URGENCY. Do NOT count another "reduced to one X" pass as progress.
 BALLOTS = {
-    "orthodox":            ["H10", "H34", "H26", "H28", "H41", "H30", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H41", "H30", "H34", "H20", "H35", "H28", "H26", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H34", "H10", "H41", "H30", "H26", "H28", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H34", "H41", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H41", "H20", "H35", "H36", "H34", "H5", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H10", "H42", "H26", "H28", "H41", "H30", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H42", "H41", "H30", "H26", "H20", "H35", "H28", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H42", "H10", "H26", "H41", "H30", "H28", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H42", "H10", "H26", "H41", "H5", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H41", "H42", "H20", "H35", "H36", "H5", "H30", "H28", "H26", "H10", "H6"],
 }
 
 

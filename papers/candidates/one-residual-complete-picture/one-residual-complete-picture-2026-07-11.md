@@ -443,6 +443,14 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
 - **Grades are tree-level and existence/consistency**, never "proven physics." The `[P,S]=0` that clears the
   ghost is **sign-blind**: it buys positivity, it does NOT select the generation count (H23 C) -- no chiral
   selection was manufactured.
+- **Zero parameter-free predictions to date.** An adversarial predictive-content audit (H34,
+  `explorations/wave18/`) classified every material claim and found the honest register is *accommodation*,
+  not derivation: no claim emits an observed number source-first with no free parameter or chosen sub-block
+  doing the load-bearing work. The single novel positive is the *compression* (all remaining freedom routes
+  to one named source-action object) -- a structural result, not a prediction. The one place the framework
+  touches data (dark energy) is a fit on `f_0`, which is exactly why the DESI tension (marginal `w_a` at
+  `+2.55 sigma` from the DR2 primary source) is soft rather than fatal. The `ACCOMMODATES` headline is, on
+  this ledger, honest and if anything conservative.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 
