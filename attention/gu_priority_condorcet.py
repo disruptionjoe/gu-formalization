@@ -67,7 +67,16 @@ ITEMS = {
     # the count leg W is Z/3, arena-orthogonal (gcd(2,3)=1). The count decider must be 3-primary AND
     # index-CHANGING (non-Krein-unitary) -> that is a SOURCE-ACTION K-class selection, not a ghost-parity
     # condition. H38 drops from the live set; the count's real decider is H39.
-    "H39": "THE SOURCE-ACTION K-CLASS ON THE GENERATION CARRIER (SG4, the count's decider, half-computed): which K-class does the unbuilt GU source-action operator name on the RS/generation carrier? A BINARY -- geometric-complete gamma-traceless (index -38 = 19 sigma/8, order-3 rho NONZERO, index-CHANGING -> CAN chirally select the derived Z/3 = rank-3) vs ghost-subtracted (index -42 = 21 sigma/8, order-3 rho ZERO, 2-primary -> permits but cannot select). Wave 15 proved the count needs exactly a 3-primary index-changing operator; this is the only candidate and it is signature-independent, matter-sector, 3-primary. CRUX: it is a property of the SAME unbuilt source action gravity's soldering reduces to (H23/H27) -- the count and the gravity residual now sit on the ONE residual. [heterodox/wild]",
+    # H39 RESOLVED (Wave 16, tests/wave16/H39_sourceaction_kclass.py, exit 0, 14/14) = NARROWED to a
+    # conditional-theorem TWIN of gravity. Carrier B (index -38, rho (0,2,1)) is the UNIQUE index-changing
+    # carrier -> any count-selector must be B; but which carrier the source action NAMES is a field-space
+    # declaration arithmetic cannot force (gamma-trace-constrained -> B; full field space + BRST -> A), GU
+    # commitments B-lean. The count is odd/nonzero with a DERIVED ceiling dim Lambda^2_+=3, realized rank in
+    # {1,3}, not pinned (a net index 3 has residue 0 = A's, so no residue certifies 3). NEW (Q3): selecting the
+    # count does NOT break gravity's [P,S]=0 -- arena-orthogonal (gcd(2,3)=1) and self-adjoint != index 0
+    # (K3 Dirac witness). So gravity's soldering (H27) AND the count's K-class (H39) are COHERENT field-space
+    # declarations of the SAME source action. Both reduce to ONE forced build -> H40.
+    "H40": "THE TERMINAL SOURCE-ACTION BUILD (the one residual, both faces at once): construct GU's source action with the field-space declaration FORCED, not chosen. Wave 16 proved BOTH gravity's soldering (H27) AND the count's K-class (H39/SG4) are field-space declarations of the SAME unbuilt source action, and are COHERENT (arena-orthogonal: selecting the count via carrier B preserves gravity's [P,S]=0 ghost clearance). One forced build closes both: gamma-trace-constrained field space -> carrier B (count-selecting, index-changing) vs full field space + BRST -> carrier A. The mutual-exclusion certificate proves NO cheaper computation substitutes and a free build p-hacks the carrier -- so this is the single terminal object of the whole program: force the declaration from GU's structure. [heterodox/wild]",
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -85,20 +94,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after Wave 15 (H38 RESOLVED = NARROWED). Council reflection: the count needs a 3-primary
-# AND index-CHANGING operator; ghost parity is 2-primary and index-preserving, so it permits the derived Z/3
-# but cannot select it. Drafted H39 = SG4, the source-action K-class on the generation carrier -- the only
-# candidate that is 3-primary + index-changing, already half-computed, AND a property of the SAME source
-# action gravity's soldering reduces to (the count + gravity now sit on the ONE residual). H38 drops out; H39
-# inherits the count-decider slot and is now tractable (a binary), lifting it above where H38 sat. Philosopher
-# keeps H34 (predictive audit) #1; wild ties H39 near top (the one-residual convergence). Remaining frontiers:
-# H10 (PPN), H26 (loop = H38's unitarity leg), H34 (audit), H20 (unified even/odd action).
+# GENERATIVE re-rank after Wave 16 (H39 RESOLVED = NARROWED, count = conditional-theorem twin of gravity).
+# Council reflection: the whole program has collapsed onto ONE object. Gravity's soldering (H27) and the
+# count's K-class (H39) are both field-space declarations of the SAME source action, and Q3 proved them
+# COHERENT (arena-orthogonal; the count selector preserves gravity's [P,S]=0). Drafted H40 = the terminal
+# source-action build with the field-space declaration FORCED -- the one build that closes both faces, and the
+# mutual-exclusion certificate proves no cheaper path exists. H39 drops out; H40 is the terminal object.
+# Heterodox + wild top H40 (closes everything); orthodox/commercial keep the cheap decisive bars (H10/H34/H6)
+# ahead of the hardest build; philosopher keeps H34 #1 (the honest predictive-content boundary).
 BALLOTS = {
-    "orthodox":            ["H10", "H26", "H28", "H34", "H39", "H30", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H39", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H10", "H39", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H34", "H39", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H20", "H39", "H35", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H10", "H26", "H28", "H34", "H40", "H30", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H40", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H10", "H40", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H34", "H40", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H40", "H20", "H35", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
 }
 
 

@@ -22,6 +22,17 @@
 > chiral 3. The count needs a **3-primary AND index-changing** operator -- not a ghost-parity condition but a
 > **source-action K-class selection** (SG4, the count's new decider), a property of the *same* unbuilt source
 > action the gravity soldering reduces to. See `explorations/wave15/`.
+>
+> **WAVE-16 UPDATE (2026-07-12).** SG4 computed (`tests/wave16/H39_sourceaction_kclass.py`, exit 0). Carrier
+> B (index -38, order-3 `rho=(0,2,1)`) is the **unique index-changing** RS carrier, so any count-selector
+> must be B; but which carrier the source action *names* is a **field-space declaration** arithmetic cannot
+> force (gamma-trace-constrained -> B; full field space + BRST -> A). So **the count is now a
+> conditional-theorem twin of gravity**: located-not-forced modulo one K-class declaration, exactly as gravity
+> is Stelle-clear modulo one soldering postulate. Two honest results: the count is narrowed to odd rank in
+> `{1,3}` (ceiling `dim Lambda^2_+=3`, not pinned -- a net index 3 has residue 0 = carrier A's); and
+> selecting the count via B does **not** break gravity's `[P,S]=0` (arena-orthogonal `gcd(2,3)=1`, and a
+> Krein-self-adjoint operator can carry nonzero chiral index). Both faces reduce to ONE forced source-action
+> build (the terminal object, H40). See `explorations/wave16/`.
 
 2026-07-11. Joe's move: apply the six-axis escape-hatch framework (`canon/six-axis-escape-hatch-map-RESULTS.md`)
 "now seven, with L0" to the generation-count no-go, in light of the Wave-12/13 results (H29, H37). This is a

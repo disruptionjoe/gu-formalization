@@ -348,6 +348,24 @@ generation carrier** -- and that is a property of the *same* unbuilt source acti
 reduces to. **The count and the gravity residual now sit on the one residual**, sharpening this paper's
 central thesis: not two open problems, but one object with two faces.
 
+Wave 16 (`tests/wave16/H39_sourceaction_kclass.py`, exit 0) computed that K-class two independent ways and
+put the count in *exactly* gravity's shape. The four RS-carrier indices (A = -42, B = -38, bare = -40,
+double = -44) reproduce from published densities and from twist additivity; only **carrier B is
+index-changing** (residue 1 mod 3, order-3 `rho = (0,2,1)` nonzero), so any count-selector must be B. But
+*which* carrier the source action names is a **field-space declaration** arithmetic cannot force
+(gamma-trace-constrained field space names B; full field space with BRST ghost-subtraction names A) -- the
+exact structural twin of the gravity soldering being a genuine postulate. So **the count is a conditional
+theorem modulo one K-class declaration**, just as gravity is Stelle-clear modulo one soldering postulate.
+Two further honest results: (i) the count is narrowed but *not pinned to 3* -- the derived chiral-slot ceiling
+is `dim Lambda^2_+ = 3`, the realized odd rank is free in `{1, 3}` (a net index of exactly 3 has residue 0
+mod 3 = carrier A's residue, so no residue certifies three); (ii) selecting the count via carrier B does
+**not** break gravity's ghost clearance -- the count index is 3-primary and `[P, S]=0` is 2-primary
+(`gcd(2,3)=1`), and a Krein-self-adjoint operator can carry a nonzero chiral index (the K3 Dirac operator is
+self-adjoint with index -2). So the two faces are not just the same object but **coherent, non-conflicting
+selections of it**. The whole framework therefore reduces to a single terminal object: the source action with
+its field-space declaration **forced** from GU's structure rather than chosen. A free choice would p-hack the
+carrier; only a forced build resolves the last freedom -- the honest boundary this paper draws.
+
 ## 4. The central result: everything reduces to one object
 
 Collecting the open freedom across all five sectors:
