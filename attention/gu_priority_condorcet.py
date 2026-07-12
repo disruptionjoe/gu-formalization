@@ -177,6 +177,7 @@ ITEMS = {
     #   c_L<~0.05, ~5x below computed). GU's first prediction (conditional on H36) is SELF-FALSIFIED at face
     #   value: it falsifies the H36 identification (DeWitt-Lambda = observed DE), NOT GU-gravity (drop H36 ->
     #   mu_DW free -> decoupled, no prediction). Two residual uncertainties -> H52.
+    "H53": "THE FALSIFIABILITY AUDIT (council #1 at the post-prediction checkpoint): H36 (the only PRINCIPLED mu_DW identification) is falsified and scale-hunting is p-hacking, so the sharp question is -- does GU make ANY falsifiable prediction WITHOUT a forced mu_DW, or is it decoupled-and-unfalsifiable until the source action forces the scale? Build the sector x scale-dependence table; the decisive test is whether the 4th-order spin-2 content (extra GW polarizations / propagator pole) is a SCALE-INDEPENDENT qualitative signature no tuning can hide, or scale-hideable (mu_DW->M_Pl decouples it). Popperian verdict: FALSIFIABLE-without-a-forced-scale / DECOUPLED-in-practice / CONSISTENT-BUT-UNFALSIFIABLE. If decoupled, the source action (H41) is not just the coherence keystone but the FALSIFIABILITY keystone -- GU's scientific status rests on it. Cheap audit; decides whether H41 is worth attempting and what the honest public register is. [philosopher/heterodox/wild]",
     "H52": "DIGITIZE THE alpha=1/3 SHORT-RANGE-GRAVITY EXCLUSION CURVE (firm the H36 falsification, cheap): H51 put GU-under-H36's predicted Yukawa at lambda=[60.0,73.6] um, EXCLUDED by the alpha=1/3 boundary ~45-52 um -- but that boundary is ARGUED from the monotone Lee-2020/Tan-2020/Kapner curve, NOT digitized. Digitize the published alpha-vs-lambda 95% CL curves to get the CITED alpha=1/3 reach at 60-74 um: if the boundary is < 60 um -> EXCLUDED-CITED (GU-under-H36 cleanly self-falsified, book it); if > 60 um -> the m2_eff=5/4 corner is BORDERLINE and the O(1) background-vs-TT c_L normalization matters. The only remaining input converting EXCLUDED-argued to a cited result. Cheap literature/data task, decisive for the conditional-falsification claim. [orthodox/commercial]",
     # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
     # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
@@ -199,21 +200,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# RE-RANK after Wave 31 (H51): c_L=3/8 EXACT -> GU's first prediction (sub-mm, conditional on H36) is EXCLUDED
-# -> the H36 identification (DeWitt-Lambda = DE scale) is (conditionally, O(1)-robustly) FALSIFIED. GU-gravity
-# SURVIVES (distinct 4th-order theory, H49) but WITHOUT H36 mu_DW is free -> GU is decoupled/untestable in this
-# channel. The exciting prediction thread has (conditionally) closed. Honest inflection. Applying the
-# north-star-vs-byproduct principle: H52 (digitize the exclusion curve) is a cheap FIRM-UP of the falsification
-# -- a subordinate Track-2 task, NOT the North Star, so it must not masquerade as the goal. The North-Star
-# object is H41 (the source action: the only thing that pins mu_DW non-optionally and decides whether GU has
-# ANY live prediction), though it stays the hardest/blocked object. H6 (family-puzzle theorem) is the durable
-# standalone asset that survives regardless. This is a genuine checkpoint, not a clean single-winner.
+# COUNCIL VERDICT at the post-prediction checkpoint (2026-07-11, inline 5-archetype process reflect->draft->
+# vote). The prediction thread closed (H36 conditionally falsified via H50/H51); the North Star (H41, the
+# source action) is PARKED (blocked, no forcing principle found), NOT dead -- only actual falsification demotes
+# it. Generative step drafted H53 = the FALSIFIABILITY AUDIT (does GU make ANY falsifiable prediction without a
+# forced mu_DW, or is it decoupled/unfalsifiable until the source action forces the scale?). Condorcet winner =
+# H53 (philosopher #1; heterodox/wild #2), with H6 (the durable GU-independent theorem) #2 -- H53 decides
+# whether H41 is even worth attempting. Applying the north-star-vs-byproduct principle: H52 (digitize the
+# curve) is a subordinate firm-up, NOT the goal; H41 is PARKED not abandoned. H53 + H6 are IN FLIGHT.
 BALLOTS = {
-    "orthodox":            ["H52", "H6", "H30", "H41", "H28", "H47"],
-    "heterodox_rigorous":  ["H41", "H52", "H30", "H47", "H28", "H6"],
-    "commercial":          ["H6", "H52", "H41", "H47", "H30", "H28"],
-    "philosopher":         ["H52", "H41", "H30", "H6", "H47", "H28"],
-    "wild_frontier":       ["H41", "H47", "H52", "H6", "H30", "H28"],
+    "orthodox":            ["H6", "H52", "H53", "H30", "H41", "H28", "H47"],
+    "heterodox_rigorous":  ["H41", "H53", "H30", "H6", "H52", "H28", "H47"],
+    "commercial":          ["H6", "H53", "H52", "H41", "H30", "H28", "H47"],
+    "philosopher":         ["H53", "H6", "H30", "H52", "H41", "H28", "H47"],
+    "wild_frontier":       ["H41", "H53", "H6", "H52", "H30", "H28", "H47"],
 }
 
 
