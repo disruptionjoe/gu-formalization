@@ -47,8 +47,16 @@ ITEMS = {
     # --- "PUSH FURTHER" decision set (2026-07-11): each archetype's top-3 next ideas, pooled + deduped.
     # Gravity is a proven conditional theorem; DE is a soft tension; both route to the one unbuilt source
     # action; the fermion/C2 wall (where the count lives) is untouched. ---
-    "H10": "PPN / weak-field-with-MATTER test (light bending, perihelion): does GU's fourth-order/Stelle gravity pass the real solar-system bars (known trouble for 4th-order theories)? Cheap, decisive, needs NO source action. [orthodox]",
-    "H26": "Loop-level ghost unitarity: does the Krein [P,S]=0 (holds at tree, H23) survive renormalization? The generic-Stelle killer -- decides whether 'conditional theorem' means anything quantum. [orthodox]",
+    # PARALLEL BATCH (Waves 20-23, 2026-07-11) -- four independent probes fanned out at once:
+    # H10 RESOLVED (Wave 22, tests/wave22): PPN GATED-ON-mu_DW, effectively PASSES. GU = R^X+Weyl^2+Lambda has
+    #   no R^2 -> pure Einstein-Weyl (massless graviton + one massive spin-2); gamma-1=-(2/3)e^{-m2 r} Yukawa-
+    #   suppressed; Cassini needs mu_DW > ~1e-17 eV, natural M_Pl clears it by ~45 orders. A real 4th-order-
+    #   gravity falsifier, PASSED. Dropped from the live set (next object mu_DW = existing H24/H25 BAR 2).
+    # H26 RESOLVED (Wave 23, tests/wave23): loop ghost unitarity OPEN. The [P,S]=0 COMMUTATION leg is proven
+    #   radiatively stable (P is an EXHIBITED group symmetry: Cartan involution = conj by eta in O(9,5); beta_S
+    #   in Sp(32,32;H); every so(9,5)-covariant vertex commutes exactly, inherited to all loops). But loop
+    #   POSITIVITY (weak ghost symmetry tr(C^dag C)=0, broken by IR regulators) needs an S-matrix -> the source
+    #   action (H41). A missing OBJECT, not a missing calc. Routes to H41; dropped from the live set.
     "H28": "Fermion masses / Yukawas: the SM is cleared only at GAUGE-GROUP grade. Does GU predict the mass hierarchy + mixings, or just the algebra? Where unification programs historically die. [orthodox]",
     # H29 (Wave 12) NARROWED + H37 (Wave 13) NO-GO -> the count is PROVABLY located-not-forced within the built
     # (9,5) structure (fermion analog of H27). Seven-axis map (L0-L7): L0 baseline + L1-L6 selector-side all
@@ -106,8 +114,20 @@ ITEMS = {
     # the fit; the shape tracks ACROSS the DESI degeneracy. So the DESI tension is deeper than "soft", latent-
     # falsifier-grade, gated only by the reconstruction-grade OQ2 M^2/ansatz -> the sharpened cheap move is the
     # DE SHAPE test, H43. (The amplitude unblock stays H41.)
-    "H43": "THE DE-SHAPE FALSIFIER (the sharpest cheap kill-or-credit, promoted by Wave 19): the source-first (w0,wa) LOCUS misses DESI at EVERY amplitude f0 (closest 3.47 sigma; joint 4.19 sigma at f0=0.125) -- so freeing f0 CANNOT rescue GU's dark energy. Is that locus ROBUST or an artifact of the OQ2 M^2 / two-component reconstruction ansatz? Resolve OQ2 A_3-vs-BC_1 (which shifts M^2=8H0^2 and the whole locus). If the shape HOLDS under a firmed-up M^2, GU's dark energy is FALSIFIED independent of amplitude -- the strongest clean negative on the board and exactly the kill-or-credit the audit calls for. Cheap, decisive, needs no source-action build. [orthodox/philosopher]",
-    "H5": "GEOMETRY-first vs INFORMATION-first showdown (Bianconi 'Gravity from entropy', arXiv:2408.14391, PRD 111 066001): SAME skeleton as GU -- two metrics (spacetime g + a matter-INDUCED metric) related by an action, yielding an emergent small positive Lambda. The fork is WHICH functional relates them: GU's |II|^2/Willmore (geometric) vs Bianconi's quantum relative entropy S(g||G) (information). Concrete discriminators: (1) GU is 4th-order + ghost (Krein-cleared, Bateman-Turok) while Bianconi is 2nd-order + ghost-free by construction; (2) Wave 19 sharpened the key asymmetry -- GU leaves the emergent-Lambda AMPLITUDE free (f0 needs the unbuilt source action), where Bianconi PINS Lambda from the G-field; (3) Bianconi's Dirac-Kahler 2-form matter vs GU's 3=dim Lambda^2_+ self-dual 2-forms. Map the two functionals, name what would decide it. Reframes the whole program. Research advancement (not shipping). [philosopher/wild]",
+    # H43 RESOLVED (Wave 20, tests/wave20): DE-shape FALSIFIED -- the first hard negative. GU's source-first
+    #   (w0,wa) locus misses DESI's headline CPL contour robustly: NO admissible M^2 (BC_1=8, A_1=7, S^3=3,
+    #   threshold=20.25) and NO point in the free (M^2,f0) plane rotates it in (global closest 3.20 sigma); the
+    #   1-component ansatz misses too (3.18 sigma). It is a SHAPE/DIRECTION miss, exhausting f0 + OQ2 + ansatz.
+    #   HONEST SCOPE: falsifies the (w0,wa) CPL comparison DESI reports, NOT the raw H(z) (GU's non-CPL w(z)
+    #   reaches ~1% RMS on distances, near BAO). One untested escape: a self-consistent theta-backreacted
+    #   background (currently LCDM) -> H44.
+    # H5 RESOLVED (Wave 21, tests/wave21): geometry-vs-information (Bianconi) = DISTINCT PRIMITIVES (rel-entropy
+    #   is the 2nd-order Kubo-Mori supermetric; |II|^2 is order-4). KEY CORRECTION: NEITHER frame pins Lambda's
+    #   magnitude (Bianconi's Lambda is a subtracted input constant) -- the asserted determinacy asymmetry is
+    #   FALSE. Bianconi cleaner on order/ghosts; GU's 4th-order buys the Weyl sector. The real decider is the
+    #   SPIN-2/WEYL sector, and the pivotal internal object is the |H|^2-vs-|II|^2 binary -> H45.
+    "H44": "THE DE BACKREACTED-BACKGROUND TEST (finish the falsification, or find the one escape): H43 falsified GU's dark energy against DESI's (w0,wa) CPL contour robustly (amplitude, OQ2, ansatz all exhausted). The SOLE remaining freedom is the background: H43 assumed LCDM (no theta backreaction). Redo the (w0,wa) locus on a self-consistent theta-backreacted background -- the one thing that could rotate the locus into the DESI degeneracy. If it still misses, GU's dark energy is FALSIFIED full stop (modulo the non-CPL raw-H(z) caveat, where GU reaches ~1% RMS). Cheaper than the source action; the hottest live kill-or-credit. [orthodox/philosopher]",
+    "H45": "THE |H|^2-vs-|II|^2 BINARY (the pivotal cross-sector object, promoted by H5): is GU's functional the full second-fundamental-form norm |II|^2 (carries R^X/Einstein-Hilbert, dynamical, the Weyl/Bach sector) or the mean-curvature Willmore |H|^2? H5 showed this single binary decides FOUR things at once: (1) whether GU HAS the 4th-order Weyl graviton sector that empirically distinguishes it from Bianconi's 2nd-order entropic gravity, (2) GU's Lambda SIGN, (3) GU's ghost/order status, (4) the loop-positivity setting (H26). The most load-bearing open geometric question -- it gates the geometry-vs-information verdict and three internal sectors. [heterodox/philosopher/wild]",
     "H20": "The UNIFIED even/odd action: does |II|^2-on-Y14 split as gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? If yes, the C2/fermion wall and gravity are ONE structure and the count may drop out. Highest upside. [wild]",
     "H35": "The SECTION-FUNCTOR reframe: make the 'one residual' a single functorial identity (conjugate SMs, shared theta, alpha_W<->f0 as naturality). Turns 'routes to one object' from slogan into theorem. [wild]",
     "H36": "The OBSERVERSE / issuance connection: the O(M^0) DeWitt-Lambda = the dark-energy scale = the issuance/non-collapse rate. Connect the DeWitt curvature to observerse-non-collapse -- the paper only this program can write. [wild]",
@@ -116,19 +136,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after Wave 19 (H42 RESOLVED = NO-TEST-YET). f0 is not source-first derivable now, but the
-# DE LOCUS misses DESI at EVERY amplitude (freeing f0 does not rescue it; joint 4.19 sigma) -- promoting the DE
-# SHAPE test (H43) as the sharpest cheap kill-or-credit: if the (w0,wa) locus holds under a firmed-up OQ2 M^2,
-# GU's dark energy is falsified independent of amplitude. Joe surfaced Bianconi (arXiv:2408.14391) -> H5 is now
-# CONCRETE and coupled (the f0 gate is exactly the geometry-vs-information amplitude-determinacy asymmetry).
-# Council: H43 leads (a real clean falsification is the highest-value outcome the audit calls for); H5 rises
-# (concrete rival, Joe-surfaced, reframes the core); H41 the amplitude unblock; H10/H26 the other cheap bars.
+# GENERATIVE re-rank after the PARALLEL BATCH (Waves 20-23: H43 FALSIFIED, H10 PASSES, H5 distinct-frames,
+# H26 OPEN). One synthesis over all four. Two new sharp objects drafted: H44 (the DE backreacted-background
+# test = the SOLE remaining escape from H43's falsification) and H45 (the |H|^2-vs-|II|^2 binary that H5 proved
+# is pivotal for FOUR things -- the Weyl sector, Lambda sign, ghost/order, and the geometry-vs-information
+# decider). Council: H45 leads (most load-bearing -- gates the Bianconi verdict + three internal sectors);
+# H44 is the hottest live kill-or-credit (finish the DE falsification); H41 the terminal bottleneck H26 + the
+# count route to. Cross-sector convergence: H26 and the count both reduce to H41; H43/H10 both reduce to a
+# background/scale the source action would fix. The source action (H41) is the persistent terminal object.
 BALLOTS = {
-    "orthodox":            ["H43", "H10", "H26", "H28", "H41", "H30", "H6", "H5", "H20", "H35", "H36"],
-    "heterodox_rigorous":  ["H43", "H41", "H30", "H5", "H26", "H20", "H35", "H28", "H10", "H36", "H6"],
-    "commercial":          ["H6", "H43", "H10", "H26", "H5", "H41", "H30", "H28", "H20", "H35", "H36"],
-    "philosopher":         ["H43", "H5", "H10", "H26", "H41", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H5", "H41", "H43", "H20", "H35", "H36", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H44", "H45", "H30", "H28", "H41", "H6", "H20", "H35", "H36"],
+    "heterodox_rigorous":  ["H45", "H41", "H44", "H20", "H30", "H35", "H28", "H36", "H6"],
+    "commercial":          ["H6", "H44", "H45", "H30", "H41", "H28", "H20", "H35", "H36"],
+    "philosopher":         ["H45", "H44", "H30", "H20", "H41", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H45", "H20", "H41", "H44", "H35", "H36", "H30", "H28", "H6"],
 }
 
 

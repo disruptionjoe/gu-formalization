@@ -429,17 +429,21 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
    not an endorsement; the SM/QM inputs use standard rep theory / generalized-Born-rule work, not novel derivations.
 
 **Honest negatives (kept IN -- they are load-bearing):**
-- **DESI tension, deeper than soft (marginal `+2.55 sigma`, joint `4.19 sigma`).** Dark energy under-evolves
-  `|w_a|` (~0.27 vs ~0.86); marginally `w_a` is `+2.55 sigma` from DESI DR2 (arXiv:2503.14738) and the joint
-  `(w_0, w_a)` Mahalanobis distance is `4.19 sigma` (H42, `explorations/wave19/`). The pre-registered f0 gate
-  found two things: `f_0` is **not source-first derivable** with current machinery (it needs the unbuilt
-  source-action inputs `B_i`, `mu_DW`), so this sector is a fit, not yet a test; and, more sharply, the
-  source-first `(w_0, w_a)` **locus misses DESI at every amplitude** (closest approach `3.47 sigma`) -- so
-  freeing `f_0` does **not** rescue the fit, because the locus tracks across the DESI degeneracy rather than
-  into it. The tension is therefore latent-falsifier-grade, softened only by the reconstruction-grade OQ2
-  `M^2` / two-component ansatz the locus rests on; firming up that shape (resolving OQ2) would convert it to a
-  clean falsification or clear it. The gravity intersection does NOT rescue `f_0` either (the corrected
-  `M^2/r^6` residual breaks the order match, H3).
+- **Dark energy is FALSIFIED against DESI's `(w_0, w_a)` CPL contour (the arc's first hard negative).** This
+  sector no longer merely "tensions" with DESI; it fails the comparison DESI headlines. H42
+  (`explorations/wave19/`) found `f_0` is **not source-first derivable** (it needs the unbuilt source-action
+  inputs `B_i`, `mu_DW`), and that freeing `f_0` does not help. H43 (`explorations/wave20/`) then closed the
+  remaining freedoms: **no admissible OQ2 `M^2`** (root systems `BC_1=8`, `A_1=7`, `S^3=3`, threshold `20.25`),
+  **no point in the entire free `(M^2, f_0)` plane** (global closest `3.20 sigma`), and **no ansatz variant**
+  (1-component `3.18 sigma`) rotates the GU locus into the DESI degeneracy. It is a robust shape/direction
+  miss (canonical joint `4.19 sigma`). **Two honest bounds on the scope**, both computed not asserted: (i) this
+  falsifies the `(w_0, w_a)` **CPL parameterization** DESI reports, not the raw expansion history -- GU's `w(z)`
+  is non-CPL and reaches `~1%` RMS on fixed-`Omega_m` distances (near BAO precision), so the CPL projection is
+  lossy; (ii) the one untested freedom is the **background** -- H43 assumed an LCDM background, and a
+  self-consistent `theta`-backreacted background (H44) is the sole remaining thing that could rotate the locus.
+  The gravity intersection does not rescue `f_0` either (the corrected `M^2/r^6` residual breaks the order
+  match, H3). Net: on the parameterization the data is reported in, GU's dark energy currently **fails** --
+  the honest register for this sector is a live falsification with one narrow escape, not accommodation.
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
