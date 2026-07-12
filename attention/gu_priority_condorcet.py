@@ -126,9 +126,28 @@ ITEMS = {
     #   magnitude (Bianconi's Lambda is a subtracted input constant) -- the asserted determinacy asymmetry is
     #   FALSE. Bianconi cleaner on order/ghosts; GU's 4th-order buys the Weyl sector. The real decider is the
     #   SPIN-2/WEYL sector, and the pivotal internal object is the |H|^2-vs-|II|^2 binary -> H45.
-    "H44": "THE DE BACKREACTED-BACKGROUND TEST (finish the falsification, or find the one escape): H43 falsified GU's dark energy against DESI's (w0,wa) CPL contour robustly (amplitude, OQ2, ansatz all exhausted). The SOLE remaining freedom is the background: H43 assumed LCDM (no theta backreaction). Redo the (w0,wa) locus on a self-consistent theta-backreacted background -- the one thing that could rotate the locus into the DESI degeneracy. If it still misses, GU's dark energy is FALSIFIED full stop (modulo the non-CPL raw-H(z) caveat, where GU reaches ~1% RMS). Cheaper than the source action; the hottest live kill-or-credit. [orthodox/philosopher]",
-    "H45": "THE |H|^2-vs-|II|^2 BINARY (the pivotal cross-sector object, promoted by H5): is GU's functional the full second-fundamental-form norm |II|^2 (carries R^X/Einstein-Hilbert, dynamical, the Weyl/Bach sector) or the mean-curvature Willmore |H|^2? H5 showed this single binary decides FOUR things at once: (1) whether GU HAS the 4th-order Weyl graviton sector that empirically distinguishes it from Bianconi's 2nd-order entropic gravity, (2) GU's Lambda SIGN, (3) GU's ghost/order status, (4) the loop-positivity setting (H26). The most load-bearing open geometric question -- it gates the geometry-vs-information verdict and three internal sectors. [heterodox/philosopher/wild]",
-    "H20": "The UNIFIED even/odd action: does |II|^2-on-Y14 split as gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? If yes, the C2/fermion wall and gravity are ONE structure and the count may drop out. Highest upside. [wild]",
+    # SECOND PARALLEL BATCH + persona-council coherence assessment (Waves 24-26, 2026-07-11):
+    # H44 RESOLVED (Wave 25): DE = FALSIFIED-FULL-STOP at the (w0,wa) CPL level. The self-consistent
+    #   theta-backreacted background (backreaction real, +3.6% on H at z~1) shifts the locus AMPLITUDE not its
+    #   DIRECTION -- closest 3.22 sigma vs H43's 3.20. Every DE-rescue route (f0, OQ2, components, IC,
+    #   background) spent. Scope unchanged: CPL falsified, raw H(z) not independently killed (GU ~1.3% on
+    #   distances) -> the one remaining DE object is the raw-likelihood test, H46.
+    # H45 RESOLVED (Wave 24): |H|^2-vs-|II|^2 STILL-OPEN, favored |II|^2 (H21 fixed the object theta not the
+    #   action NORM P2). GU has the Weyl sector under BOTH branches (Bianconi has none) -> the spin-2/Bach
+    #   discriminator is ROBUST to the binary. Lambda +positive under |II|^2. The source action settles P2 +
+    #   mu_DW + H26 positivity + the H21 bundle = QUADRUPLY-motivated keystone.
+    # H20 RESOLVED (Wave 26): SPLITS-BUT-RELABELS. The Clifford omega-parity DOES split gravity(even, the 91
+    #   bivectors) from matter(odd, c(xi)); one first-order D generates both kinetic operators (Weinstein's
+    #   first-order-then-square, made precise) -- BUT it removes 0 of 4 unforced choices (relabels them, does
+    #   not force them). The elegant-shortcut hope is ELIMINATED.
+    # COUNCIL COHERENCE SYNTHESIS (full persona pass + the batch): the coherence gap IS the missing keystone
+    #   (the source action); H20 proved there is NO elegant bypass; everything (P2, mu_DW, soldering, K-class,
+    #   loop positivity, count) routes to it. THE LOCAL MINIMUM: the program keeps NARROWING onto a keystone
+    #   that cannot be FORCED (signature doesn't force it, causality forces only the cure not the carrier, the
+    #   even/odd grading is cosmetic). THE ESCAPE: stop narrowing; DECLARE the honest lean and build the
+    #   CONDITIONAL theory to get testable predictions -> H47.
+    "H46": "THE DE RAW-LIKELIHOOD TEST (the last DE decider, cheap): H44 falsified GU dark energy FULL-STOP at DESI's (w0,wa) CPL level. The ONLY comparison that falsification does not settle is the raw expansion history -- fit the backreacted GU H(z) to the ACTUAL DESI DR2 BAO table + a CMB Omega_m prior (not the CPL proxy), where GU's non-CPL w(z) mimics DESI distances to ~1.3%. Either GU's dark energy is genuinely dead (raw-likelihood also fails) or GU makes a DISTINCT non-CPL prediction the CPL summary mismeasures (a real, if narrow, result). Cheap, decisive, closes the DE sector either way. [orthodox/philosopher]",
+    "H47": "DECLARE-AND-BUILD THE CONDITIONAL THEORY (the escape from the local minimum): the program has narrowed everything onto the source action, which H20 proved cannot be reached by an elegant shortcut and Waves 16/17 proved cannot be FORCED (only leaned, B-carrier). STOP narrowing. DECLARE the honest lean as explicit stated postulates -- (9,5) signature, |II|^2 norm, B-carrier K-class, the geometric-posture soldering -- and BUILD the CONDITIONAL theory, then DERIVE its concrete predictions (the count pinned to 1 or 3; the fermion/Yukawa structure; the raw-H(z) DE; PPN already passes) and TEST them. Converts GU from 'zero predictions, conditional on an unbuilt object' into a concrete conditional theory with N testable predictions -- exactly what the audit (H34) said is missing and what the DE falsification showed the program CAN do. Honest: everything labeled conditional-on-the-declared-postulates (like gravity's conditional theorem); this is disciplined declaration, NOT p-hacking the carrier. [heterodox/commercial/philosopher/wild]",
     "H35": "The SECTION-FUNCTOR reframe: make the 'one residual' a single functorial identity (conjugate SMs, shared theta, alpha_W<->f0 as naturality). Turns 'routes to one object' from slogan into theorem. [wild]",
     "H36": "The OBSERVERSE / issuance connection: the O(M^0) DeWitt-Lambda = the dark-energy scale = the issuance/non-collapse rate. Connect the DeWitt curvature to observerse-non-collapse -- the paper only this program can write. [wild]",
 }
@@ -136,20 +155,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after the PARALLEL BATCH (Waves 20-23: H43 FALSIFIED, H10 PASSES, H5 distinct-frames,
-# H26 OPEN). One synthesis over all four. Two new sharp objects drafted: H44 (the DE backreacted-background
-# test = the SOLE remaining escape from H43's falsification) and H45 (the |H|^2-vs-|II|^2 binary that H5 proved
-# is pivotal for FOUR things -- the Weyl sector, Lambda sign, ghost/order, and the geometry-vs-information
-# decider). Council: H45 leads (most load-bearing -- gates the Bianconi verdict + three internal sectors);
-# H44 is the hottest live kill-or-credit (finish the DE falsification); H41 the terminal bottleneck H26 + the
-# count route to. Cross-sector convergence: H26 and the count both reduce to H41; H43/H10 both reduce to a
-# background/scale the source action would fix. The source action (H41) is the persistent terminal object.
+# GENERATIVE re-rank after the SECOND batch + the persona-council coherence assessment (Waves 24-26: H45
+# favored-|II|^2-but-gated, H20 SPLITS-BUT-RELABELS, H44 DE FALSIFIED-FULL-STOP). The synthesis is decisive:
+# the source action is the keystone everything routes to, H20 killed the elegant-shortcut hope, and the LOCAL
+# MINIMUM is narrowing onto a keystone that cannot be forced. Two new objects: H46 (the last DE decider, the
+# raw-likelihood test) and H47 (the ESCAPE: declare the honest lean + build the CONDITIONAL theory to get
+# testable predictions -- the audit's missing predictions, disciplined-declaration not p-hacking). Council
+# converges hard on H47 as the escape from the local minimum; H46 the cheap DE closer; H41 the keystone the
+# conditional build instantiates. Do NOT count another narrowing pass as progress (the council's explicit warning).
 BALLOTS = {
-    "orthodox":            ["H44", "H45", "H30", "H28", "H41", "H6", "H20", "H35", "H36"],
-    "heterodox_rigorous":  ["H45", "H41", "H44", "H20", "H30", "H35", "H28", "H36", "H6"],
-    "commercial":          ["H6", "H44", "H45", "H30", "H41", "H28", "H20", "H35", "H36"],
-    "philosopher":         ["H45", "H44", "H30", "H20", "H41", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H45", "H20", "H41", "H44", "H35", "H36", "H30", "H28", "H6"],
+    "orthodox":            ["H46", "H47", "H28", "H30", "H41", "H6", "H35", "H36"],
+    "heterodox_rigorous":  ["H47", "H41", "H46", "H30", "H35", "H28", "H36", "H6"],
+    "commercial":          ["H47", "H6", "H46", "H41", "H30", "H28", "H35", "H36"],
+    "philosopher":         ["H47", "H46", "H41", "H30", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H47", "H41", "H46", "H36", "H35", "H30", "H28", "H6"],
 }
 
 

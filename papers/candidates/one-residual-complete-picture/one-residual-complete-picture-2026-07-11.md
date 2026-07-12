@@ -442,8 +442,15 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   lossy; (ii) the one untested freedom is the **background** -- H43 assumed an LCDM background, and a
   self-consistent `theta`-backreacted background (H44) is the sole remaining thing that could rotate the locus.
   The gravity intersection does not rescue `f_0` either (the corrected `M^2/r^6` residual breaks the order
-  match, H3). Net: on the parameterization the data is reported in, GU's dark energy currently **fails** --
-  the honest register for this sector is a live falsification with one narrow escape, not accommodation.
+  match, H3). Wave 25 (H44) then closed that escape: a self-consistent `theta`-backreacted background
+  (backreaction real, `+3.6%` on `H` at `z ~ 1`) shifts the locus amplitude but not its direction (closest
+  `3.22 sigma` vs `3.20`), so the falsification is not a fixed-background artifact. Net: on the
+  parameterization the data is reported in, GU's dark energy is **falsified full stop** -- every rescue route
+  (amplitude, OQ2 `M^2`, component count, initial conditions, self-consistent background) is spent. The single
+  comparison this does not settle is the raw expansion history: GU's non-CPL `w(z)` mimics DESI distances to
+  `~1.3%`, so a raw-likelihood fit against the DESI DR2 BAO table (not the CPL proxy) is the only remaining DE
+  question. The honest register for this sector is a falsification against the CPL summary, with a
+  distinct-non-CPL-prediction question still open, not accommodation.
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
