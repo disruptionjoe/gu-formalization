@@ -108,3 +108,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added a read-only `lab/deep-research/README.md` surface-map gate so external deep-research briefs and adversarial-hardening reports stay mapped as source/provenance context rather than claim status, canon verdict, proof status, paper status, or public-posture movement. See `steward/runs/2026-07-10-progress-fanout-307-lab-deep-research-readme-gate.md`.
 - Progress fan-out added a read-only top-level exploration-file boundary gate after the transcript carrier-B evidence note landed, freezing the current loose `explorations/*.md` exception set without moving notes or changing canon, claim status, verdicts, proof status, papers, OC1/OC2, or public posture. See `steward/runs/2026-07-10-progress-fanout-309-explorations-top-level-guard.md`.
 - Progress fan-out updated the top-level exploration-file boundary gate after the Godelian initial-conditions boundary-axiom stub landed, preserving it as conversation-capture curiosity work with explicit verify-before-use and no-claim/no-canon/no-public-posture boundaries. See `steward/runs/2026-07-10-progress-fanout-310-godelian-initial-condition-guard.md`.
+
+## 2026-07-12
+
+- Progress fan-out added the Path-2 Wave-2 Target 2 CLOP pinch pre-gate, localizing the Lee-Wick/fakeon higher-loop obstruction to the mixed conjugate-pole threshold without changing H59, canon, claim status, verdicts, or public posture. See `steward/runs/2026-07-12-progress-fanout-382-selection.md`.
