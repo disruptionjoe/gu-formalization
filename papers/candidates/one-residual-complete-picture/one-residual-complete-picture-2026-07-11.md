@@ -217,7 +217,15 @@ divergence-free property rests on the unproven Assumption 3, and **the live cano
 OPEN**. The earlier hope that the gravity intersection would pin `f_0` and close dark energy's weakest point
 does **not** robustly hold: with the corrected Willmore residual (`M^2/r^6`, not `M^2/r^4`) the order match
 breaks, so `f_0` stays free and the DESI tension stands on its own with no gravitational lifeline
-(`tests/wave1/H3_desi_verified_and_intersection.py`).
+(`tests/wave1/H3_desi_verified_and_intersection.py`). A second rescue candidate -- combining the evolving
+`theta`-sector with the *constant* `O(M^0)` DeWitt-`Lambda` (Sec. 2.4/B-thread) as an independent two-fluid
+dark energy -- was tested and **also fails**: a `w=-1` constant supplies zero evolution while DESI wants more,
+so both marginals move *away* from DESI (`w_a` flattens); the only nominal joint gain is fragile
+degeneracy-sliding that vanishes as the assumed `w_0`-`w_a` correlation goes to zero, and the best mix is
+still a failing `~3.6 sigma` fit (`tests/wave11/H_DE_combined_dewitt_theta_desi.py`). The `~3-4 sigma` DESI
+tension is a **live negative** that no in-hand GU structure rescues; the remaining legitimate moves are
+computations (the *actual* non-CPL `theta` `w(z)` with a co-varied background; settling whether `w(z)` is a
+GU prediction or a tuned fit), not a reinterpretation.
 
 ### 2.5 Gravity -- CONDITIONAL THEOREM at tree level (conditional on one soldering postulate + `mu_DW`); loop-level OPEN
 *Governed by the Wave 1-8 block above; this supersedes the earlier "one undetermined Willmore-EL
