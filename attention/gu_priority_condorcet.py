@@ -170,7 +170,14 @@ ITEMS = {
     #   GU predicts a sub-mm Stelle-Yukawa deviation lambda=76.7-94.0 um, alpha=1/3 -> EXCLUDED at face value by
     #   Eot-Wash/HUST (Kapner/Lee/Tan), but by an O(1) margin (AT the frontier). SELF-FALSIFIED-AT-FACE-VALUE
     #   conditional-on-H36. The decider is the one uncomputed geometric coefficient c_L -> H51.
-    "H51": "COMPUTE THE DeWitt COEFFICIENT c_L (the make-or-break for GU's first prediction): rho_Lambda = c_L*mu_DW^4, with c_L ~ 3/8 estimated from the horizontal sectional (H24) but NOT exactly computed. c_L sets mu_DW = (rho_Lambda/c_L)^{1/4} and hence the predicted Yukawa range lambda = hbar_c/(sqrt(m2_eff) mu_DW). Wave 30: at c_L~1 the prediction (lambda 77-94 um, alpha=1/3) is EXCLUDED by an O(1) margin; a ~1.5x upward mu_DW shift (c_L ~ 0.2) moves lambda to ~55 um and back to the ALLOWED frontier. So ONE cheap geometric computation decides whether GU-under-H36 is SELF-FALSIFIED (lambda>~50 um, excluded) or has a LIVE testable sub-mm gravity prediction at the experimental frontier (lambda<~50 um). c_L is the SAME coefficient normalizing the whole source-action scale, so it also sharpens mu_DW everywhere. The highest-leverage cheap object on the board -- it either kills GU-under-H36 or hands it a live falsifiable prediction. [orthodox/heterodox/philosopher/wild]",
+    # H51 RESOLVED (Wave 31, tests/wave31): c_L = 3/8 EXACT (from the horizontal sectional; A0=0 exactly so the
+    #   DeWitt Lambda is a background/trace vacuum energy not a TT-graviton mass; O(1) background-vs-TT norm
+    #   caveat). -> lambda = [60.0, 73.6] um (c_L^{1/4}=0.78 lowered it from H50's 77-94), alpha=1/3. The
+    #   alpha=1/3 boundary ~45-52 um (argued not digitized) -> EXCLUDED at both ends, O(1)-robust (LIVE needs
+    #   c_L<~0.05, ~5x below computed). GU's first prediction (conditional on H36) is SELF-FALSIFIED at face
+    #   value: it falsifies the H36 identification (DeWitt-Lambda = observed DE), NOT GU-gravity (drop H36 ->
+    #   mu_DW free -> decoupled, no prediction). Two residual uncertainties -> H52.
+    "H52": "DIGITIZE THE alpha=1/3 SHORT-RANGE-GRAVITY EXCLUSION CURVE (firm the H36 falsification, cheap): H51 put GU-under-H36's predicted Yukawa at lambda=[60.0,73.6] um, EXCLUDED by the alpha=1/3 boundary ~45-52 um -- but that boundary is ARGUED from the monotone Lee-2020/Tan-2020/Kapner curve, NOT digitized. Digitize the published alpha-vs-lambda 95% CL curves to get the CITED alpha=1/3 reach at 60-74 um: if the boundary is < 60 um -> EXCLUDED-CITED (GU-under-H36 cleanly self-falsified, book it); if > 60 um -> the m2_eff=5/4 corner is BORDERLINE and the O(1) background-vs-TT c_L normalization matters. The only remaining input converting EXCLUDED-argued to a cited result. Cheap literature/data task, decisive for the conditional-falsification claim. [orthodox/commercial]",
     # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
     # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
     # run the conditional-build as ONE branch. ~60 personas across 5 families converged. The load-bearing
@@ -182,24 +189,31 @@ ITEMS = {
     "H47": "[TRACK 2 branch header] DECLARE-AND-BUILD THE CONDITIONAL THEORY, extract NUMBERS: declare the honest leans ((9,5), |II|^2, B-carrier, geometric-posture) as explicit stated postulates and build the conditional theory to EMIT testable numbers, ranked cheap-and-decisive -- (1) the DE raw-H(z) vs actual DESI DR2 BAO likelihood (H46, cheapest kill-shot); (2) the spin-2/Weyl discriminator numbers (= H49's cheap face); (3) H6 the family-puzzle theorem. The count-prediction is DEPRIORITIZED (decoupled, gated, likely under-determined -- NOT the first deliverable, correcting the earlier framing). Firewall = the conditional-theorem form (never asserts its antecedent; 'count=3 given S' is a prediction of GU-given-S, not of GU) -> the branch does NOT change the North-Star stance. Track-2 deliverables ARE Track-1 tests; a Track-1 forcing win (H48) collapses the branch. [commercial/philosopher]",
     # H35 (section-functor reframe) SUBSUMED by H48: the Willmore/GJMS uniqueness IS the functorial-identity
     #   forcing, now sharpened to a concrete self-dual-square test. Dropped from the live set.
-    "H36": "The OBSERVERSE / issuance connection: the O(M^0) DeWitt-Lambda = the dark-energy scale = the issuance/non-collapse rate. Connect the DeWitt curvature to observerse-non-collapse -- the paper only this program can write. [wild]",
+    # H36 RESOLVED (via Wave 31): the observerse identification (DeWitt-Lambda = the observed dark-energy scale)
+    #   was TESTED by H50/H51 and its consequence -- a sub-mm Stelle-Yukawa at lambda=[60,73.6] um -- is
+    #   EXCLUDED (O(1)-robust). So the H36 identification is (conditionally, O(1)-robustly) FALSIFIED by
+    #   short-range gravity: mu_DW is NOT the DE scale. Dropped from the live set (the observerse/issuance
+    #   framing may survive in a different form, but the DeWitt-Lambda=DE-scale identification is ruled out).
 }
 
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# RE-RANK after Wave 30 (H50): GU now HAS a first parameter-linked prediction (a sub-mm Stelle-Yukawa,
-# conditional on the H36 identification), SELF-FALSIFIED-AT-FACE-VALUE but O(1)-borderline. The entire fate of
-# that prediction -- EXCLUDED vs LIVE-at-the-frontier -- turns on ONE uncomputed geometric coefficient, c_L
-# (rho_Lambda = c_L mu_DW^4). H51 computes it: cheap, and it either kills GU-under-H36 or hands it a live
-# falsifiable prediction, while also sharpening mu_DW everywhere. Unanimous new #1. H47 stays the Track-2
-# branch; H41 the full source-action build; H36 the identification the prediction is conditional on.
+# RE-RANK after Wave 31 (H51): c_L=3/8 EXACT -> GU's first prediction (sub-mm, conditional on H36) is EXCLUDED
+# -> the H36 identification (DeWitt-Lambda = DE scale) is (conditionally, O(1)-robustly) FALSIFIED. GU-gravity
+# SURVIVES (distinct 4th-order theory, H49) but WITHOUT H36 mu_DW is free -> GU is decoupled/untestable in this
+# channel. The exciting prediction thread has (conditionally) closed. Honest inflection. Applying the
+# north-star-vs-byproduct principle: H52 (digitize the exclusion curve) is a cheap FIRM-UP of the falsification
+# -- a subordinate Track-2 task, NOT the North Star, so it must not masquerade as the goal. The North-Star
+# object is H41 (the source action: the only thing that pins mu_DW non-optionally and decides whether GU has
+# ANY live prediction), though it stays the hardest/blocked object. H6 (family-puzzle theorem) is the durable
+# standalone asset that survives regardless. This is a genuine checkpoint, not a clean single-winner.
 BALLOTS = {
-    "orthodox":            ["H51", "H47", "H30", "H28", "H41", "H6", "H36"],
-    "heterodox_rigorous":  ["H51", "H41", "H47", "H30", "H36", "H28", "H6"],
-    "commercial":          ["H51", "H6", "H47", "H41", "H30", "H28", "H36"],
-    "philosopher":         ["H51", "H47", "H36", "H30", "H41", "H28", "H6"],
-    "wild_frontier":       ["H51", "H36", "H41", "H47", "H30", "H28", "H6"],
+    "orthodox":            ["H52", "H6", "H30", "H41", "H28", "H47"],
+    "heterodox_rigorous":  ["H41", "H52", "H30", "H47", "H28", "H6"],
+    "commercial":          ["H6", "H52", "H41", "H47", "H30", "H28"],
+    "philosopher":         ["H52", "H41", "H30", "H6", "H47", "H28"],
+    "wild_frontier":       ["H41", "H47", "H52", "H6", "H30", "H28"],
 }
 
 

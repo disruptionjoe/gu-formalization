@@ -473,12 +473,17 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   deviation**, its one live falsifiable handle. Wave 30 (H50, `explorations/wave30/`) made this concrete: one
   `mu_DW` sets *both* the DeWitt-Lambda (`rho_Lambda ~ c_L mu_DW^4`) and the graviton mass
   (`m2 = sqrt(m2_eff) mu_DW`), so *identifying* the DeWitt-Lambda with the observed dark energy (the H36
-  postulate, not forced) fixes `mu_DW ~ 2.3 meV` and **predicts** a Yukawa of range `lambda = 77-94 um` at
-  strength `alpha = 1/3`. Against the actual short-range-gravity bounds (Kapner/Lee/Tan) that prediction is
-  **excluded at face value, by an O(1) margin** -- it sits *at* the experimental frontier, and the one
-  uncomputed geometric coefficient `c_L` (a `~1.5x` shift to `lambda ~ 55 um`) decides excluded-vs-live. This
-  is GU's first genuine parameter-linked prediction: conditional on H36, and either a near-term falsification
-  of that identification or a live sub-millimetre target.
+  postulate, not forced) fixes `mu_DW ~ 2.3 meV` and **predicts** a Yukawa of range `lambda` at strength
+  `alpha = 1/3`. Wave 31 (H51) then computed the last unknown -- the DeWitt coefficient `c_L = 3/8` exactly
+  (from the horizontal sectional) -- giving `lambda = 60-74 um`. Against the actual short-range-gravity bounds
+  (Kapner/Lee/Tan) that prediction is **excluded** (the `alpha = 1/3` reach sits near `45-52 um`), by an O(1)
+  but robust margin. So GU's first parameter-linked prediction, taken to the end, **self-falsifies the H36
+  identification** (DeWitt-Lambda = the observed dark energy is ruled out by sub-millimetre gravity,
+  O(1)-robustly) -- it does *not* falsify GU-gravity itself, which survives, but *without* H36 the scale
+  `mu_DW` is free and GU is decoupled/untestable in this channel. This is the honest arc of GU's first genuine
+  prediction: it was computed to the end and it failed conditionally, exactly what a real prediction is
+  supposed to risk. Two residual O(1) inputs remain (the `alpha = 1/3` exclusion curve is argued not
+  digitized; the background-vs-TT normalization of `c_L`).
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
@@ -497,12 +502,16 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   to one named source-action object) -- a structural result, not a prediction. The one place the framework
   touches data (dark energy) is a fit on `f_0`, which is exactly why the DESI tension (marginal `w_a` at
   `+2.55 sigma` from the DR2 primary source) is soft rather than fatal. The `ACCOMMODATES` headline is, on
-  this ledger, honest and if anything conservative. **Update (H50):** GU still has **zero unconditional**
-  parameter-free predictions, but it now has **one conditional prediction** -- given the H36 identification
-  (DeWitt-Lambda = the observed dark energy), the single scale `mu_DW` is fixed and GU predicts a specific
-  sub-millimetre gravity deviation (`lambda ~ 77-94 um`, `alpha = 1/3`) that current experiments already
-  probe. That is a genuine, falsifiable, parameter-linked prediction of *GU-given-H36* (not of GU), sitting at
-  the experimental frontier -- a real step past pure accommodation, in the honest conditional register.
+  this ledger, honest and if anything conservative. **Update (H50-H51):** GU produced its first genuine
+  parameter-linked prediction and then *computed it to the end*. Given the H36 identification (DeWitt-Lambda =
+  the observed dark energy), the single scale `mu_DW` is fixed and GU predicts a specific sub-millimetre
+  gravity deviation (`lambda = 60-74 um` after `c_L = 3/8` was computed exactly, `alpha = 1/3`). Against the
+  actual short-range-gravity bounds that prediction is **excluded** -- so the exercise **conditionally
+  falsifies the H36 identification** rather than yielding a standing prediction. Net: GU still has **zero
+  standing predictions** (the one candidate was computed and it failed conditionally), it *does* now have a
+  demonstrated *capacity* to emit falsifiable numbers, and GU-gravity itself survives while being decoupled
+  without a scale principle. The honest register is unchanged -- accommodation, plus a demonstrated (and so far
+  self-falsifying) predictive channel.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 
