@@ -111,7 +111,17 @@ ITEMS = {
     #   escape: a derivative-level odd embedding (eps->D_aleph eps) pushing {Q,Q} to P_mu -- LOW value (even if
     #   it gives SUSY, no UV-completion and no mu_DW forcing). REFRAME: GU's UV route is RENORMALIZATION-
     #   theoretic (4th-order Stelle + Krein rescue), not symmetry-theoretic -> the same source action -> H56.
-    "H56": "THE RENORMALIZATION UV ROUTE (GU's actual, non-SUSY path to a theory, per the guardian wave's reframe): the H54 guardian wave ruled out the SUSY route -- GU is a finite-cutoff EFT, gravitino-shaped but not supersymmetric. Its ONLY UV route is renormalization-theoretic: is the 4th-order Rarita-Schwinger matter sector RENORMALIZABLE and Krein-rescued the way 4th-order Stelle gravity is (H26)? This extends the H26 loop-positivity question from gravity to the RS/matter sector -- the actual open question deciding whether GU can be UV-complete at all (without SUSY). Currently sign-blind + tree-level-only; routes to the same unbuilt source action. The honest terminal question of GU's UV status. [orthodox/heterodox]",
+    # H56 RESOLVED (renormalization assessment, Waves 42-43) = RENORMALIZABLE-BUT-POSITIVITY-OPEN, NOT
+    #   FORBIDDEN. Power-counting: GU is RENORMALIZABLE, the RS spin-3/2 does NOT spoil it (COMPUTED, survives
+    #   the Stelle check: gravity D=4; RS ker-Gamma TT projector momentum-degree 0 -> D=4; the n=2 danger is
+    #   exactly the VZ modes ker-Gamma removes). The ONLY obstruction is loop POSITIVITY of the keep-and-grade
+    #   Krein rescue -- unified for both sectors, = H26, gated on the source action, AND it is the OPEN FRONTIER
+    #   of PT/Krein QFT itself (no keep-and-grade rescue proven at loop level anywhere: Kuntz 2024, Nakayama
+    #   2023, Bateman-Turok tree-only) -- so GU's UV-openness is a frontier problem, NOT a GU defect. NO
+    #   FORBIDDEN cell. Two live UV routes surfaced -> H57 (asymptotic safety, independent) + H58 (firm
+    #   renormalizability); the loop-positivity terminal question stays gated on the source action.
+    "H57": "IS GU ASYMPTOTICALLY SAFE? (the new independent UV route, highest upside from the renormalization assessment): the renormalization scan found asymptotic safety -- a non-perturbative UV FIXED POINT (Weinberg / Reuter / Eichhorn) -- is a LIVE second route to UV-completeness, INDEPENDENT of the loop-positivity frontier and compatible with the Krein rescue (AS completes the couplings, Krein grades the states). GU's structure (4th-order + finite fermion content + non-minimal curvature-fermion coupling) is exactly where the functional-RG literature finds fixed points. If GU has a UV fixed point, it is UV-complete WITHOUT solving the hard loop-positivity problem -- promoting the framework toward a theory by a route the guardian wave's kill does not touch. TESTABLE via a functional-RG truncation on GU's operators, WITHOUT first building the full source action. Best fit = a FLOW (truncation -> beta functions -> fixed-point search -> verdict). [wild/heterodox]",
+    "H58": "FIRM THE RENORMALIZABILITY: one-loop divergences of the 4th-order ker-Gamma RS carrier (the missing Stelle-analog): Wave 43 showed GU is power-counting renormalizable, but no Stelle-grade renormalizability THEOREM for a higher-derivative Rarita-Schwinger field exists in the literature. Compute the actual one-loop divergences of GU's 4th-order ker-Gamma RS carrier and check they are absorbed by the operators present (the crisp Phase-2 test the scan named). Upgrades 'power-counting renormalizable' to 'renormalizable at one loop', or finds the VZ/Rahman constraint algebra re-populating a ghost. A single decisive computation = a SWING. [orthodox]",
     # H55 RESOLVED (Wave 36) = NO-CONSTRAINT. Krein-modified positivity is toothless on the gravity beta/alpha
     #   ratio (the ghost pole makes the spectral measure SIGNED -> forward c2 sign-indefinite; non-compact
     #   Sp(32,32;H) has no positive-definite invariant to restore the bound). The shape residual stays a small
@@ -233,21 +243,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# RE-RANK after the GUARDIAN WAVE (Waves 37-41, the multi-team blind-branch architecture's first deployment)
-# + H55/H36. The 5 blind branches SETTLED H54 = NO (guardian-forbidden): GU has supergravity FIELD CONTENT but
-# is not a supergravity (the graded symmetry it realizes closes on the spin connection Omega^1(ad), not P_mu;
-# even a local SUSY would not UV-complete finite content; super-Higgs does not force mu_DW). Both exciting
-# payoffs (UV-completeness, forced mu_DW) are DEAD. H55 = NO-CONSTRAINT (positivity toothless on the shape).
-# REFRAME: GU is a finite-cutoff EFT whose only UV route is RENORMALIZATION-theoretic (4th-order Stelle + Krein
-# rescue), not SUSY -> H56 (extend H26 loop-positivity to the RS sector). H56 is the honest terminal UV
-# question; H30 (document the now-sharpened framework status) rises alongside; the source action remains the
-# keystone but understood as a renormalization object, not a SUSY/guardian one.
+# RE-RANK after the RENORMALIZATION ASSESSMENT (Waves 42-43) + the post-assessment council (Joe's loop:
+# assessment -> council identifies highest-order hypotheses -> decide swing/flow/wave). H56 RESOLVED = GU is
+# RENORMALIZABLE (RS spin-3/2 does not spoil it) and UV-completeness is NOT forbidden -- it reduces to a
+# PT/Krein loop-positivity FRONTIER problem (not a GU defect) plus a live SECOND route, asymptotic safety.
+# Council winner = H57 (is GU asymptotically safe? -- the independent, highest-upside UV route, testable WITHOUT
+# building the source action; MODE = a FLOW: truncation -> beta functions -> fixed-point -> verdict); H58 (firm
+# the renormalizability with the one-loop RS computation; MODE = a SWING) #2. The loop-positivity terminal
+# question stays gated on the source action. H30 (document) available. Mode note: H57 = flow, H58 = swing.
 BALLOTS = {
-    "orthodox":            ["H56", "H30", "H52", "H28", "H47"],
-    "heterodox_rigorous":  ["H56", "H30", "H52", "H28", "H47"],
-    "commercial":          ["H30", "H56", "H52", "H28", "H47"],
-    "philosopher":         ["H56", "H30", "H52", "H28", "H47"],
-    "wild_frontier":       ["H56", "H30", "H47", "H52", "H28"],
+    "orthodox":            ["H58", "H57", "H30", "H52", "H28", "H47"],
+    "heterodox_rigorous":  ["H57", "H58", "H30", "H52", "H28", "H47"],
+    "commercial":          ["H57", "H58", "H30", "H52", "H28", "H47"],
+    "philosopher":         ["H57", "H58", "H30", "H52", "H28", "H47"],
+    "wild_frontier":       ["H57", "H58", "H30", "H47", "H52", "H28"],
 }
 
 
