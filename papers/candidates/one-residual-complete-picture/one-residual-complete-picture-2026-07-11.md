@@ -305,10 +305,27 @@ boundary principle (Nielsen-Ninomiya / Callan-Harvey / Kaplan; not proven for th
 index). The 3-primary localization of the count is **prior art** (Garcia-Etxebarria-Montero arXiv:1808.00009;
 Wan-Wang-Yau arXiv:2605.26202); our delta is the 2-primary-blindness *no-go census* plus the *boundary*
 conjunction. The generation count actually **lives in the fermion sector's `C2` wall** (the boundary
-symbol-norm `C2` that is *not* an index, per the source-action buildbench), which the Wave 1-8 gravity arc
-leaves untouched (H23) -- it is the same *kind* of object as the gauge-vacuum selection (Sec. 2.1-2.2) and
-the gravity soldering (Sec. 2.5): a selection the dynamics makes, not a contradiction, and strictly harder
-than the gravity soldering.
+symbol-norm `C2` that is *not* an index, per the source-action buildbench) -- it is the same *kind* of object
+as the gauge-vacuum selection (Sec. 2.1-2.2) and the gravity soldering (Sec. 2.5): a selection the dynamics
+makes, not a contradiction.
+
+**Wave 12-13 upgrade -- located-not-forced is now PROVABLE within the built structure (the fermion analog of
+the gravity no-go H27).** H29 (`tests/wave12/H29_fermion_c2_wall.py`) characterized `C2` exactly as the
+gamma-trace of the Velo-Zwanziger constraint-leakage -- a particle-hole-odd, Kramers, Krein-self-adjoint
+object of symmetry class **CII**, whose index/`eta` is **theorem-forced to zero** -- so the count is
+theorem-*forbidden* from the fermion index. H37 (`tests/wave13/H37_count_nogo.py`) then proved the endgame: to
+*force* an odd count you need a grading-breaking boundary-Dirac with `eta != 0`, and on the built
+`(9,5)`+positive-Hessian+no-import structure that is **mutually exclusive** (positivity forces the grading;
+the only symmetry escape, the antilinear chiralizer, has tangent-frame charge 0 = the forbidden import) -- a
+genuine **NO-GO**, with a **positive control** (the same test on `(7,7)`, `J^2=+1`, DOES admit the odd rank-3,
+so the method is not rigged). This places the count in a clean **seven-axis map** (`explorations/seven-axis-
+count-map-L0-L7-2026-07-11.md`): the baseline (L0) and all six selector-side axes (L1-L6, the six-axis
+`no-go-class-relative-map`) are LOCKED, and the **only** live escape is a new geometry-side axis **L7 = the
+`(9,5)`-vs-`(7,7)` signature** -- specifically the `J^2` sign that flips the Kramers leg. So the entire
+generation-count question **collapses onto the single signature hinge**, and below it (built `(9,5)`) the
+count is *provably* located-not-forced -- the structural twin of the gravity conditional theorem. Honest
+limits: L0's lock is conditional on two cited canon legs (`C-01`; the chiralizer-uniqueness capstone), and
+`(7,7)` makes the count *possible*, not *derived* -- the rank stays under-determined (SG1/`C-06`).
 
 ## 4. The central result: everything reduces to one object
 
