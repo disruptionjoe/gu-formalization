@@ -222,10 +222,18 @@ breaks, so `f_0` stays free and the DESI tension stands on its own with no gravi
 dark energy -- was tested and **also fails**: a `w=-1` constant supplies zero evolution while DESI wants more,
 so both marginals move *away* from DESI (`w_a` flattens); the only nominal joint gain is fragile
 degeneracy-sliding that vanishes as the assumed `w_0`-`w_a` correlation goes to zero, and the best mix is
-still a failing `~3.6 sigma` fit (`tests/wave11/H_DE_combined_dewitt_theta_desi.py`). The `~3-4 sigma` DESI
-tension is a **live negative** that no in-hand GU structure rescues; the remaining legitimate moves are
-computations (the *actual* non-CPL `theta` `w(z)` with a co-varied background; settling whether `w(z)` is a
-GU prediction or a tuned fit), not a reinterpretation.
+still a failing `~3.6 sigma` fit (`tests/wave11/H_DE_combined_dewitt_theta_desi.py`). A third move -- the
+*fair* comparison the (w0,wa)-plane headline invites: the **actual non-CPL `theta` w(z)** (Klein-Gordon field)
+compared on **distances** (what BAO measures) with **`Omega_m` floating** -- was also run and **confirms the
+tension is not a projection artifact** (`tests/wave11/H_DE_actual_wz_floating_bg.py`): the actual `w(z)` is
+nearly CPL over `z<=2` (so the shallow evolution is intrinsic, not a lossy fit), and the `Omega_m` float that
+would reach distance-consistency requires `Omega_m ~ 0.275`, which is `6.4 sigma` from the CMB-pinned value --
+excluded by the very DESI+CMB combination that reports the tension; at the CMB `Omega_m` a real `~2.6%`
+distance offset remains. So the `~3-4 sigma` DESI tension is a **robust live negative**: two independent
+rescue routes (DeWitt-`Lambda` combination; fair distance comparison) were tested and neither holds. The one
+remaining honest lever is the **prediction-vs-fit** question -- whether `f_0` is forced by the (unbuilt)
+`theta` dynamics (a *hard* failing test) or genuinely free (a *soft* tension awaiting the build) -- not a
+reinterpretation of the data.
 
 ### 2.5 Gravity -- CONDITIONAL THEOREM at tree level (conditional on one soldering postulate + `mu_DW`); loop-level OPEN
 *Governed by the Wave 1-8 block above; this supersedes the earlier "one undetermined Willmore-EL
