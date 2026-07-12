@@ -512,6 +512,17 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   demonstrated *capacity* to emit falsifiable numbers, and GU-gravity itself survives while being decoupled
   without a scale principle. The honest register is unchanged -- accommodation, plus a demonstrated (and so far
   self-falsifying) predictive channel.
+- **The scientific register, stated plainly (H53 falsifiability audit).** A full sector-by-sector audit
+  settles what GU is at present: **a consistent, reconstruction-grade geometric *framework*, not a standing
+  theory.** Of eleven channels, four require the free scale `mu_DW`/`f_0`, three are settled (all failures or
+  scope-kills), three are gated on the unbuilt source action, and exactly one is scale-independent -- the
+  4th-order action structure (7-vs-2 propagating DOF), which is a genuine *property* distinguishing GU from GR
+  but **not an accessible observable**: every GU-vs-GR effect scales as `(E/m2)^2` and vanishes as
+  `mu_DW -> M_Pl`. So GU is **falsifiable in principle, decoupled in practice** -- zero standing predictions,
+  though its predictive *capacity* is demonstrated (it emitted a real number that self-falsified, so it is not
+  vacuous). Consequently GU's very falsifiability rests on building the source action (the one object that
+  would force `mu_DW`): that build is the *falsifiability* keystone, not merely the coherence keystone. Until
+  it exists, the honest verb is **accommodates**, and the honest noun is **framework**.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 

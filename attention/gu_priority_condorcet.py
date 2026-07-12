@@ -100,7 +100,11 @@ ITEMS = {
     # those; they are not the advancement of the research). H31 (flagship review-ready) and H32 (methodology
     # paper) DROPPED per this rule. H6 (finish the GU-independent family-puzzle THEOREM) is kept as a research
     # result, not a shipping task.
-    "H6": "Finish the GU-INDEPENDENT family-puzzle result ('forces odd count => nonzero 3-Sylow image'): sharpen the predictive proposition + verify the census vs primary sources. A real theorem, credible regardless of GU's fate. [commercial]",
+    # H6 RESOLVED (Wave 33, tests/wave33) = DONE. The GU-independent family-puzzle theorem is PROVEN, cited
+    #   (Toda/Adams/von Staudt-Clausen), arena-independent, honestly scoped: a selector forcing a 3-primary
+    #   count must have nonzero 3-Sylow image; no 2-group or free-Z selector can force it (Hom=0). It constrains
+    #   the selector KIND, does NOT derive 3. HONEST CORRECTION: the slogan "forces ODD count" is literally
+    #   false (odd = mod-2); the rigorous theorem is MOD-3. Banked as the durable standalone; adds no new front.
     # H34 RESOLVED (Wave 18, tests/wave18/H34_parameter_count.py, exit 0, 13/13) = the honest ledger. Strict
     # count: PREDICTIONS zero; FITS 4 free params (f0, M2, B_i, mu_DW); the asset is the one-residual
     # COMPRESSION (a structural map, not a prediction); DESI is the sole data-touch (+2.55 sigma on wa, soft
@@ -177,7 +181,13 @@ ITEMS = {
     #   c_L<~0.05, ~5x below computed). GU's first prediction (conditional on H36) is SELF-FALSIFIED at face
     #   value: it falsifies the H36 identification (DeWitt-Lambda = observed DE), NOT GU-gravity (drop H36 ->
     #   mu_DW free -> decoupled, no prediction). Two residual uncertainties -> H52.
-    "H53": "THE FALSIFIABILITY AUDIT (council #1 at the post-prediction checkpoint): H36 (the only PRINCIPLED mu_DW identification) is falsified and scale-hunting is p-hacking, so the sharp question is -- does GU make ANY falsifiable prediction WITHOUT a forced mu_DW, or is it decoupled-and-unfalsifiable until the source action forces the scale? Build the sector x scale-dependence table; the decisive test is whether the 4th-order spin-2 content (extra GW polarizations / propagator pole) is a SCALE-INDEPENDENT qualitative signature no tuning can hide, or scale-hideable (mu_DW->M_Pl decouples it). Popperian verdict: FALSIFIABLE-without-a-forced-scale / DECOUPLED-in-practice / CONSISTENT-BUT-UNFALSIFIABLE. If decoupled, the source action (H41) is not just the coherence keystone but the FALSIFIABILITY keystone -- GU's scientific status rests on it. Cheap audit; decides whether H41 is worth attempting and what the honest public register is. [philosopher/heterodox/wild]",
+    # H53 RESOLVED (Wave 32, tests/wave32) = DECOUPLED. Sector x scale table: 4 needs-free-scale, 3 settled-
+    #   FAIL, 3 gated-on-source-action, 1 scale-independent PROPERTY (4th-order/7-DOF) that is NOT an accessible
+    #   observable (every GU-vs-GR effect ~(E/m2)^2 -> 0 as mu_DW->M_Pl). Verdict: GU is falsifiable-IN-PRINCIPLE
+    #   but decoupled-in-practice -> a consistent geometric FRAMEWORK, not a standing theory; zero standing
+    #   predictions (H36 emitted a real self-falsifying number -> not vacuous). GU's FALSIFIABILITY rests on
+    #   H41 (the source action forcing mu_DW) -> H41 is the FALSIFIABILITY keystone, quintuply motivated. Verb
+    #   stays ACCOMMODATES.
     "H52": "DIGITIZE THE alpha=1/3 SHORT-RANGE-GRAVITY EXCLUSION CURVE (firm the H36 falsification, cheap): H51 put GU-under-H36's predicted Yukawa at lambda=[60.0,73.6] um, EXCLUDED by the alpha=1/3 boundary ~45-52 um -- but that boundary is ARGUED from the monotone Lee-2020/Tan-2020/Kapner curve, NOT digitized. Digitize the published alpha-vs-lambda 95% CL curves to get the CITED alpha=1/3 reach at 60-74 um: if the boundary is < 60 um -> EXCLUDED-CITED (GU-under-H36 cleanly self-falsified, book it); if > 60 um -> the m2_eff=5/4 corner is BORDERLINE and the O(1) background-vs-TT c_L normalization matters. The only remaining input converting EXCLUDED-argued to a cited result. Cheap literature/data task, decisive for the conditional-falsification claim. [orthodox/commercial]",
     # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
     # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
@@ -200,20 +210,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# COUNCIL VERDICT at the post-prediction checkpoint (2026-07-11, inline 5-archetype process reflect->draft->
-# vote). The prediction thread closed (H36 conditionally falsified via H50/H51); the North Star (H41, the
-# source action) is PARKED (blocked, no forcing principle found), NOT dead -- only actual falsification demotes
-# it. Generative step drafted H53 = the FALSIFIABILITY AUDIT (does GU make ANY falsifiable prediction without a
-# forced mu_DW, or is it decoupled/unfalsifiable until the source action forces the scale?). Condorcet winner =
-# H53 (philosopher #1; heterodox/wild #2), with H6 (the durable GU-independent theorem) #2 -- H53 decides
-# whether H41 is even worth attempting. Applying the north-star-vs-byproduct principle: H52 (digitize the
-# curve) is a subordinate firm-up, NOT the goal; H41 is PARKED not abandoned. H53 + H6 are IN FLIGHT.
+# TERMINAL SYNTHESIS after the council batch (Waves 32-33): H53 = DECOUPLED (GU is a FRAMEWORK not a standing
+# theory; falsifiable-in-principle, decoupled-in-practice; falsifiability rests on H41). H6 = DONE (the durable
+# GU-independent theorem is proven, cited, honestly scoped -- banked). The checkpoint is fully worked and the
+# arc has reached a clean, honest RESTING STATE. H41 (the source action) is now the unambiguous North-Star
+# object -- the FALSIFIABILITY + coherence keystone, quintuply motivated -- but it stays BLOCKED (no forcing
+# principle; a free build p-hacks the carrier). Honest tension: attempt the blocked keystone (H41) or state the
+# framework status rigorously and bank (H30). Council leans document-and-bank (H30) over grinding the blocked
+# build; H41 is the parked North Star; H52/H47 subordinate. RECOMMEND banking this checkpoint (surface to Joe).
 BALLOTS = {
-    "orthodox":            ["H6", "H52", "H53", "H30", "H41", "H28", "H47"],
-    "heterodox_rigorous":  ["H41", "H53", "H30", "H6", "H52", "H28", "H47"],
-    "commercial":          ["H6", "H53", "H52", "H41", "H30", "H28", "H47"],
-    "philosopher":         ["H53", "H6", "H30", "H52", "H41", "H28", "H47"],
-    "wild_frontier":       ["H41", "H53", "H6", "H52", "H30", "H28", "H47"],
+    "orthodox":            ["H30", "H52", "H41", "H28", "H47"],
+    "heterodox_rigorous":  ["H41", "H30", "H52", "H28", "H47"],
+    "commercial":          ["H30", "H41", "H52", "H28", "H47"],
+    "philosopher":         ["H30", "H41", "H52", "H47", "H28"],
+    "wild_frontier":       ["H41", "H47", "H30", "H52", "H28"],
 }
 
 
