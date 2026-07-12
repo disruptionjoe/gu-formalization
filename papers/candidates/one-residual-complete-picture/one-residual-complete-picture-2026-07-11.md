@@ -334,6 +334,20 @@ the signature. Honest limits: L0's lock is conditional on two cited canon legs (
 chiralizer-uniqueness capstone); `(7,7)` is a declared choice, not GU-native, and *widens* under-determination
 rather than deriving three.
 
+Wave 15 (`tests/wave15/H38_z3_chiral_selector.py`, exit 0) then computed that signature-independent selector
+and narrowed the count one level further. A **derived Z/3 grading IS present** in the built `(9,5)` matter
+sector -- the order-3 subgroup of the self-dual `SU(2)+` acting on the `192 = 3x64` triplet, where the `3` is
+`dim Lambda^2_+(R^4)` (self-dual 2-forms, forced by the 4-base; **not** imported, **not** ambient triality,
+which `Spin(14)` lacks). But ghost parity `[P, S]=0` is **2-primary and index-preserving** (the physical
+chiral index is fixed at 0 for every ghost-parity-preserving dynamics), so it **permits** the vectorlike
+`3 + 3` and cannot **select** a chiral 3 -- the same `|Hom(Z/2, Z/3)| = 1` blindness, one arena over. This
+cleanly **splits** the count into two arena-orthogonal objects: a 2-primary *unitarity* condition `[P, S]=0`
+(the same object as loop-level ghost unitarity) and a 3-primary *count* selector, which must be
+**index-changing**. The count's decider is therefore the **K-class the source-action operator names on the
+generation carrier** -- and that is a property of the *same* unbuilt source action the gravity soldering
+reduces to. **The count and the gravity residual now sit on the one residual**, sharpening this paper's
+central thesis: not two open problems, but one object with two faces.
+
 ## 4. The central result: everything reduces to one object
 
 Collecting the open freedom across all five sectors:

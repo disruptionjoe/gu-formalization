@@ -13,6 +13,15 @@
 > `[P_ghost, S]=0`, the new H38), attacked *without* first settling the signature. Read the map below as the
 > route that *led* to this sharper result: L0-L6 locked, L7 identified as the one geometry escape, then L7
 > itself shown to lift a veto in the wrong primary arena. See `explorations/wave14/`.
+>
+> **WAVE-15 UPDATE (2026-07-12).** The signature-independent Z/3 selector was computed
+> (`tests/wave15/H38_z3_chiral_selector.py`, exit 0). A **derived Z/3 grading IS present** in the built
+> `(9,5)` matter sector (the order-3 subgroup of the self-dual `SU(2)+` on the `192 = 3x64` triplet; the `3`
+> is `dim Lambda^2_+(R^4)`, forced by the 4-base, not imported, not ambient triality). But ghost parity
+> `[P, S]=0` is **2-primary and index-preserving**, so it permits the vectorlike `3 + 3` and cannot select a
+> chiral 3. The count needs a **3-primary AND index-changing** operator -- not a ghost-parity condition but a
+> **source-action K-class selection** (SG4, the count's new decider), a property of the *same* unbuilt source
+> action the gravity soldering reduces to. See `explorations/wave15/`.
 
 2026-07-11. Joe's move: apply the six-axis escape-hatch framework (`canon/six-axis-escape-hatch-map-RESULTS.md`)
 "now seven, with L0" to the generation-count no-go, in light of the Wave-12/13 results (H29, H37). This is a

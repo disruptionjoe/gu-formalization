@@ -59,7 +59,15 @@ ITEMS = {
     # Z/3 arena, |Hom(Z/8,Z/3)|=1 (zero map). The triplet carrier is neutral Krein (net index 0) in BOTH sigs.
     # So the count does NOT collapse onto the signature; (7,7) trades a false constraint for MORE freedom and is
     # NOT recommended. H19 drops from the live set. The count's REAL decider is signature-INDEPENDENT -> H38.
-    "H38": "THE Z/3-ARENA CHIRAL SELECTOR (the count's real decider, signature-INDEPENDENT): build the ghost-parity-preserving matter dynamics ([P_ghost,S]=0) on GU's matter Krein space that supplies the 3-primary count. Wave 14 proved NO geometry/signature axis can reach the Z/3 arena where 3 lives (2-primary blindness); the count must come from a matter-side dynamics, attacked WITHOUT first settling (9,5)/(7,7). Possibly the SAME object as H26 (loop ghost-parity) on the matter side -- the highest-upside unification. [heterodox/wild]",
+    # H38 RESOLVED (Wave 15, tests/wave15/H38_z3_chiral_selector.py, exit 0, 11/11) = NARROWED. A DERIVED Z/3 IS
+    # present in the built (9,5) matter sector (the order-3 subgroup of the self-dual SU(2)+ on the 192=3x64
+    # triplet; the 3 = dim Lambda^2_+(R^4), forced by the 4-base, not imported, not ambient triality). But
+    # ghost parity [P,S]=0 is 2-primary and index-PRESERVING (chiral index fixed=0 for every ghost-parity S) ->
+    # it PERMITS the vectorlike 3+3, cannot SELECT a chiral 3. H38=H26 only on the unitarity leg (shared Z2);
+    # the count leg W is Z/3, arena-orthogonal (gcd(2,3)=1). The count decider must be 3-primary AND
+    # index-CHANGING (non-Krein-unitary) -> that is a SOURCE-ACTION K-class selection, not a ghost-parity
+    # condition. H38 drops from the live set; the count's real decider is H39.
+    "H39": "THE SOURCE-ACTION K-CLASS ON THE GENERATION CARRIER (SG4, the count's decider, half-computed): which K-class does the unbuilt GU source-action operator name on the RS/generation carrier? A BINARY -- geometric-complete gamma-traceless (index -38 = 19 sigma/8, order-3 rho NONZERO, index-CHANGING -> CAN chirally select the derived Z/3 = rank-3) vs ghost-subtracted (index -42 = 21 sigma/8, order-3 rho ZERO, 2-primary -> permits but cannot select). Wave 15 proved the count needs exactly a 3-primary index-changing operator; this is the only candidate and it is signature-independent, matter-sector, 3-primary. CRUX: it is a property of the SAME unbuilt source action gravity's soldering reduces to (H23/H27) -- the count and the gravity residual now sit on the ONE residual. [heterodox/wild]",
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -77,18 +85,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after Wave 14 (H19 RESOLVED non-deriving). Council reflection: treating the signature as
-# the count-decider was a category error (2-primary Z/8 vs 3-primary Z/3; Hom=0). Drafted H38 = the signature-
-# INDEPENDENT Z/3-arena chiral selector (a ghost-parity matter dynamics, possibly = H26 on the matter side).
-# H19 drops out; H38 inherits the count-decider slot but is now the REAL object. Philosopher elevates H34
-# (predictive audit) to #1 -- Wave 14 sharpened that GU forces 3 via NO geometry axis. Wild ties H38 near top
-# (H38<->H26 unification). Remaining frontiers: H10 (PPN), H26 (loop), H34 (audit), H20 (unified action).
+# GENERATIVE re-rank after Wave 15 (H38 RESOLVED = NARROWED). Council reflection: the count needs a 3-primary
+# AND index-CHANGING operator; ghost parity is 2-primary and index-preserving, so it permits the derived Z/3
+# but cannot select it. Drafted H39 = SG4, the source-action K-class on the generation carrier -- the only
+# candidate that is 3-primary + index-changing, already half-computed, AND a property of the SAME source
+# action gravity's soldering reduces to (the count + gravity now sit on the ONE residual). H38 drops out; H39
+# inherits the count-decider slot and is now tractable (a binary), lifting it above where H38 sat. Philosopher
+# keeps H34 (predictive audit) #1; wild ties H39 near top (the one-residual convergence). Remaining frontiers:
+# H10 (PPN), H26 (loop = H38's unitarity leg), H34 (audit), H20 (unified even/odd action).
 BALLOTS = {
-    "orthodox":            ["H10", "H26", "H28", "H34", "H38", "H30", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H38", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H10", "H38", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H34", "H38", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H20", "H38", "H35", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H10", "H26", "H28", "H34", "H39", "H30", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H39", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H10", "H39", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H34", "H39", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H20", "H39", "H35", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
 }
 
 
