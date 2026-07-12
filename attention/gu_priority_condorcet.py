@@ -52,8 +52,14 @@ ITEMS = {
     "H28": "Fermion masses / Yukawas: the SM is cleared only at GAUGE-GROUP grade. Does GU predict the mass hierarchy + mixings, or just the algebra? Where unification programs historically die. [orthodox]",
     # H29 (Wave 12) NARROWED + H37 (Wave 13) NO-GO -> the count is PROVABLY located-not-forced within the built
     # (9,5) structure (fermion analog of H27). Seven-axis map (L0-L7): L0 baseline + L1-L6 selector-side all
-    # LOCKED; the SOLE live escape is L7 = the (9,5)/(7,7) signature = H19. The whole count collapses onto H19.
-    "H19": "THE SINGLE COUNT HINGE (L7, the only unlocked axis): settle whether GU's Y14 is the native (9,5)/H-class [count PROVABLY located, H37] or (7,7)/R-class [J^2=+1: the odd rank-3 becomes admissible -> count possibly FORCED]. H37 reduced the ENTIRE generation-count question to this one signature choice. The sole decider is a term LINEAR in g (the base-pullback/observerse structure). [heterodox]",
+    # LOCKED; L7 = the (9,5)/(7,7) signature was flagged as the sole live escape (= the old H19).
+    # H19 RESOLVED (Wave 14, tests/wave14/H19_seven_seven_branch.py, exit 0): adopting (7,7) is LIVE-BUT-NON-
+    # DERIVING. It lifts the Kramers 2-primary VETO (odd ranks 1,3,5,7 become admissible) but is STRUCTURALLY
+    # INCAPABLE of supplying the count: the signature is a 2-primary datum (Z/8), the 3 lives in the orthogonal
+    # Z/3 arena, |Hom(Z/8,Z/3)|=1 (zero map). The triplet carrier is neutral Krein (net index 0) in BOTH sigs.
+    # So the count does NOT collapse onto the signature; (7,7) trades a false constraint for MORE freedom and is
+    # NOT recommended. H19 drops from the live set. The count's REAL decider is signature-INDEPENDENT -> H38.
+    "H38": "THE Z/3-ARENA CHIRAL SELECTOR (the count's real decider, signature-INDEPENDENT): build the ghost-parity-preserving matter dynamics ([P_ghost,S]=0) on GU's matter Krein space that supplies the 3-primary count. Wave 14 proved NO geometry/signature axis can reach the Z/3 arena where 3 lives (2-primary blindness); the count must come from a matter-side dynamics, attacked WITHOUT first settling (9,5)/(7,7). Possibly the SAME object as H26 (loop ghost-parity) on the matter side -- the highest-upside unification. [heterodox/wild]",
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -71,15 +77,18 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# Re-rank after Wave 13 (H37 NO-GO). The count is proven located within built (9,5); the whole count question
-# collapses onto the single signature hinge H19 (L7, the only unlocked axis) -> H19 rises to the count top.
-# Remaining independent frontiers: H10 (PPN), H26 (loop), H34 (predictive audit), H20 (unified action).
+# GENERATIVE re-rank after Wave 14 (H19 RESOLVED non-deriving). Council reflection: treating the signature as
+# the count-decider was a category error (2-primary Z/8 vs 3-primary Z/3; Hom=0). Drafted H38 = the signature-
+# INDEPENDENT Z/3-arena chiral selector (a ghost-parity matter dynamics, possibly = H26 on the matter side).
+# H19 drops out; H38 inherits the count-decider slot but is now the REAL object. Philosopher elevates H34
+# (predictive audit) to #1 -- Wave 14 sharpened that GU forces 3 via NO geometry axis. Wild ties H38 near top
+# (H38<->H26 unification). Remaining frontiers: H10 (PPN), H26 (loop), H34 (audit), H20 (unified action).
 BALLOTS = {
-    "orthodox":            ["H10", "H26", "H28", "H19", "H34", "H30", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H19", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H10", "H19", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H19", "H34", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H20", "H35", "H36", "H19", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H10", "H26", "H28", "H34", "H38", "H30", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H38", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H10", "H38", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H34", "H38", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H20", "H38", "H35", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
 }
 
 

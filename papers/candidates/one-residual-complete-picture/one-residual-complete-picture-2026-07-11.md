@@ -320,12 +320,19 @@ the only symmetry escape, the antilinear chiralizer, has tangent-frame charge 0 
 genuine **NO-GO**, with a **positive control** (the same test on `(7,7)`, `J^2=+1`, DOES admit the odd rank-3,
 so the method is not rigged). This places the count in a clean **seven-axis map** (`explorations/seven-axis-
 count-map-L0-L7-2026-07-11.md`): the baseline (L0) and all six selector-side axes (L1-L6, the six-axis
-`no-go-class-relative-map`) are LOCKED, and the **only** live escape is a new geometry-side axis **L7 = the
-`(9,5)`-vs-`(7,7)` signature** -- specifically the `J^2` sign that flips the Kramers leg. So the entire
-generation-count question **collapses onto the single signature hinge**, and below it (built `(9,5)`) the
-count is *provably* located-not-forced -- the structural twin of the gravity conditional theorem. Honest
-limits: L0's lock is conditional on two cited canon legs (`C-01`; the chiralizer-uniqueness capstone), and
-`(7,7)` makes the count *possible*, not *derived* -- the rank stays under-determined (SG1/`C-06`).
+`no-go-class-relative-map`) are LOCKED, and the only *geometry-side* escape is **L7 = the `(9,5)`-vs-`(7,7)`
+signature** -- the `J^2` sign that flips the Kramers leg. Wave 14 (`tests/wave14/H19_seven_seven_branch.py`,
+exit 0) then computed L7 itself and found it **live-but-non-deriving**: adopting `(7,7)` *lifts the Kramers
+veto* (odd ranks 1,3,5,7 become admissible) but is **structurally incapable of supplying the count**. The
+signature is a **2-primary** datum (`p-q mod 8 in Z/8`); the count 3 lives in the orthogonal **Z/3** arena of
+`pi_3^s = Z/24`; `|Hom(Z/8,Z/3)| = 1` (the zero map), and the triplet carrier is neutral Krein (net index 0)
+in *both* signatures. So the count does **not** collapse onto the signature -- no geometry axis reaches the
+`Z/3` arena where 3 lives. Below the built `(9,5)` the count is *provably* located-not-forced (the structural
+twin of the gravity conditional theorem); its real decider is **signature-independent** -- a `Z/3`-arena
+chiral selector (a ghost-parity matter dynamics `[P_ghost, S]=0`), to be attacked *without* first settling
+the signature. Honest limits: L0's lock is conditional on two cited canon legs (`C-01`; the
+chiralizer-uniqueness capstone); `(7,7)` is a declared choice, not GU-native, and *widens* under-determination
+rather than deriving three.
 
 ## 4. The central result: everything reduces to one object
 

@@ -1,5 +1,19 @@
 # The seven-axis count map (L0-L7): H37 discovers the geometry-side axis; the count collapses to one hinge
 
+> **WAVE-14 CORRECTION (2026-07-11, read first).** The headline below ("the count collapses onto the L7
+> signature hinge H19") is now **superseded**. Wave 14 (`tests/wave14/H19_seven_seven_branch.py`, exit 0)
+> computed the (7,7) branch and found L7 is **live-but-non-deriving**: adopting (7,7) lifts the Kramers
+> 2-primary *veto* (odd ranks 1,3,5,7 become admissible) but is **structurally incapable of supplying the
+> count**. The signature is a **2-primary** datum (`p-q mod 8 in Z/8`); the count 3 lives in the orthogonal
+> **Z/3** arena of `pi_3^s = Z/24`; `|Hom(Z/8,Z/3)| = gcd(8,3) = 1` (the zero map). So a signature move
+> *cannot reach* the arena where 3 lives, and the triplet carrier is neutral Krein (net index 0) in **both**
+> signatures. The count therefore does **not** collapse onto H19/the signature; (7,7) trades a false
+> constraint for *more* freedom and is **not recommended**. The count's real decider is
+> **signature-independent** -- the **Z/3-arena chiral selector** (a ghost-parity matter dynamics
+> `[P_ghost, S]=0`, the new H38), attacked *without* first settling the signature. Read the map below as the
+> route that *led* to this sharper result: L0-L6 locked, L7 identified as the one geometry escape, then L7
+> itself shown to lift a veto in the wrong primary arena. See `explorations/wave14/`.
+
 2026-07-11. Joe's move: apply the six-axis escape-hatch framework (`canon/six-axis-escape-hatch-map-RESULTS.md`)
 "now seven, with L0" to the generation-count no-go, in light of the Wave-12/13 results (H29, H37). This is a
 clean reclassification, and it lands a sharp conclusion: **every axis but one is now proven LOCKED, and the
