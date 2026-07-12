@@ -98,8 +98,16 @@ ITEMS = {
     # COMPRESSION (a structural map, not a prediction); DESI is the sole data-touch (+2.55 sigma on wa, soft
     # only because f0 is free); "ACCOMMODATES" is honest, even conservative. Signal: run the CHEAP FALSIFIERS
     # before more synthesis; H41 is demoted in URGENCY (only pays off if forced). The sharpest new move -> H42.
-    "H42": "THE DARK-ENERGY f0 PRE-REGISTRATION GATE (the one cheap route to GU's FIRST genuine prediction, or a clean kill): derive f0 -- the theta-sector DE amplitude, currently GU's SOLE data-facing free parameter -- source-first from the source action / DeWitt-Lambda, and RECORD it before any DESI comparison. If the source-derived f0 then reproduces DESI's (w0,wa) it is GU's first parameter-free PREDICTION; if not, it is a clean FALSIFICATION. Either way it converts the sole FIT (which is the only reason the ~+2.55 sigma DESI tension stays 'soft') into a HARD test. Cheap, decisive, needs no terminal build. [philosopher/commercial]",
-    "H5": "Geometry-first vs INFORMATION-first showdown: is GU's geometric primitive right, or is entropic/information-first (Bianconi +Lambda) the correct frame? The one lens that reframes the whole program. [philosopher]",
+    # H42 RESOLVED (Wave 19, tests/wave19/H42_f0_prereg.py, exit 0, 5/5) = NO-TEST-YET. f0 is NOT source-first
+    # derivable now (DERIVABLE-ONLY-AFTER-H41: the amplitude ratio depends on two unbuilt inputs B_i + mu_DW;
+    # the geometry fixes only the SHAPE M^2=8H0^2, not the amplitude; the f0=1/8 back-fit was raised and
+    # REFUSED). It stays a FIT. But the sharper finding: the source-first (w0,wa) LOCUS misses DESI at EVERY f0
+    # (closest 3.47 sigma; joint tension 4.19 sigma at canonical f0) -- freeing the amplitude does NOT rescue
+    # the fit; the shape tracks ACROSS the DESI degeneracy. So the DESI tension is deeper than "soft", latent-
+    # falsifier-grade, gated only by the reconstruction-grade OQ2 M^2/ansatz -> the sharpened cheap move is the
+    # DE SHAPE test, H43. (The amplitude unblock stays H41.)
+    "H43": "THE DE-SHAPE FALSIFIER (the sharpest cheap kill-or-credit, promoted by Wave 19): the source-first (w0,wa) LOCUS misses DESI at EVERY amplitude f0 (closest 3.47 sigma; joint 4.19 sigma at f0=0.125) -- so freeing f0 CANNOT rescue GU's dark energy. Is that locus ROBUST or an artifact of the OQ2 M^2 / two-component reconstruction ansatz? Resolve OQ2 A_3-vs-BC_1 (which shifts M^2=8H0^2 and the whole locus). If the shape HOLDS under a firmed-up M^2, GU's dark energy is FALSIFIED independent of amplitude -- the strongest clean negative on the board and exactly the kill-or-credit the audit calls for. Cheap, decisive, needs no source-action build. [orthodox/philosopher]",
+    "H5": "GEOMETRY-first vs INFORMATION-first showdown (Bianconi 'Gravity from entropy', arXiv:2408.14391, PRD 111 066001): SAME skeleton as GU -- two metrics (spacetime g + a matter-INDUCED metric) related by an action, yielding an emergent small positive Lambda. The fork is WHICH functional relates them: GU's |II|^2/Willmore (geometric) vs Bianconi's quantum relative entropy S(g||G) (information). Concrete discriminators: (1) GU is 4th-order + ghost (Krein-cleared, Bateman-Turok) while Bianconi is 2nd-order + ghost-free by construction; (2) Wave 19 sharpened the key asymmetry -- GU leaves the emergent-Lambda AMPLITUDE free (f0 needs the unbuilt source action), where Bianconi PINS Lambda from the G-field; (3) Bianconi's Dirac-Kahler 2-form matter vs GU's 3=dim Lambda^2_+ self-dual 2-forms. Map the two functionals, name what would decide it. Reframes the whole program. Research advancement (not shipping). [philosopher/wild]",
     "H20": "The UNIFIED even/odd action: does |II|^2-on-Y14 split as gravity(even) + matter(odd) -- Weinstein's 'square and square-root'? If yes, the C2/fermion wall and gravity are ONE structure and the count may drop out. Highest upside. [wild]",
     "H35": "The SECTION-FUNCTOR reframe: make the 'one residual' a single functorial identity (conjugate SMs, shared theta, alpha_W<->f0 as naturality). Turns 'routes to one object' from slogan into theorem. [wild]",
     "H36": "The OBSERVERSE / issuance connection: the O(M^0) DeWitt-Lambda = the dark-energy scale = the issuance/non-collapse rate. Connect the DeWitt curvature to observerse-non-collapse -- the paper only this program can write. [wild]",
@@ -108,19 +116,19 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after Wave 18 (H34 RESOLVED = the honest ledger: ZERO parameter-free predictions, asset
-# is compression, DESI the sole data-touch soft only because f0 is free). The audit's discipline reframes the
-# board: RUN THE CHEAP FALSIFIERS before more synthesis, because they kill-or-credit the program WITHOUT the
-# hardest build, whereas H41 (the cure-term) only pays off if FORCED. Drafted H42 = the f0 pre-registration
-# gate -- the one cheap move that turns GU's sole FIT into a real prediction-or-kill. Council converges: H42
-# leads (two #1s, three #2s) as the sharpest test; H10 (PPN) and H26 (loop) are the other cheap falsifiers;
-# H41 stays the terminal build but demoted in URGENCY. Do NOT count another "reduced to one X" pass as progress.
+# GENERATIVE re-rank after Wave 19 (H42 RESOLVED = NO-TEST-YET). f0 is not source-first derivable now, but the
+# DE LOCUS misses DESI at EVERY amplitude (freeing f0 does not rescue it; joint 4.19 sigma) -- promoting the DE
+# SHAPE test (H43) as the sharpest cheap kill-or-credit: if the (w0,wa) locus holds under a firmed-up OQ2 M^2,
+# GU's dark energy is falsified independent of amplitude. Joe surfaced Bianconi (arXiv:2408.14391) -> H5 is now
+# CONCRETE and coupled (the f0 gate is exactly the geometry-vs-information amplitude-determinacy asymmetry).
+# Council: H43 leads (a real clean falsification is the highest-value outcome the audit calls for); H5 rises
+# (concrete rival, Joe-surfaced, reframes the core); H41 the amplitude unblock; H10/H26 the other cheap bars.
 BALLOTS = {
-    "orthodox":            ["H10", "H42", "H26", "H28", "H41", "H30", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H42", "H41", "H30", "H26", "H20", "H35", "H28", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H42", "H10", "H26", "H41", "H30", "H28", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H42", "H10", "H26", "H41", "H5", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H41", "H42", "H20", "H35", "H36", "H5", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H43", "H10", "H26", "H28", "H41", "H30", "H6", "H5", "H20", "H35", "H36"],
+    "heterodox_rigorous":  ["H43", "H41", "H30", "H5", "H26", "H20", "H35", "H28", "H10", "H36", "H6"],
+    "commercial":          ["H6", "H43", "H10", "H26", "H5", "H41", "H30", "H28", "H20", "H35", "H36"],
+    "philosopher":         ["H43", "H5", "H10", "H26", "H41", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H5", "H41", "H43", "H20", "H35", "H36", "H30", "H28", "H26", "H10", "H6"],
 }
 
 

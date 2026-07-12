@@ -429,9 +429,17 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
    not an endorsement; the SM/QM inputs use standard rep theory / generalized-Born-rule work, not novel derivations.
 
 **Honest negatives (kept IN -- they are load-bearing):**
-- **DESI ~3-4 sigma.** Dark energy under-evolves `|w_a|` (~0.27 vs ~0.86) and sits ~3-4 sigma from DESI DR2
-  (arXiv:2503.14738) -- a genuine near-falsifying handle (Sec 2.4). The gravity intersection does NOT rescue
-  `f_0` (the corrected `M^2/r^6` residual breaks the order match, H3).
+- **DESI tension, deeper than soft (marginal `+2.55 sigma`, joint `4.19 sigma`).** Dark energy under-evolves
+  `|w_a|` (~0.27 vs ~0.86); marginally `w_a` is `+2.55 sigma` from DESI DR2 (arXiv:2503.14738) and the joint
+  `(w_0, w_a)` Mahalanobis distance is `4.19 sigma` (H42, `explorations/wave19/`). The pre-registered f0 gate
+  found two things: `f_0` is **not source-first derivable** with current machinery (it needs the unbuilt
+  source-action inputs `B_i`, `mu_DW`), so this sector is a fit, not yet a test; and, more sharply, the
+  source-first `(w_0, w_a)` **locus misses DESI at every amplitude** (closest approach `3.47 sigma`) -- so
+  freeing `f_0` does **not** rescue the fit, because the locus tracks across the DESI degeneracy rather than
+  into it. The tension is therefore latent-falsifier-grade, softened only by the reconstruction-grade OQ2
+  `M^2` / two-component ansatz the locus rests on; firming up that shape (resolving OQ2) would convert it to a
+  clean falsification or clear it. The gravity intersection does NOT rescue `f_0` either (the corrected
+  `M^2/r^6` residual breaks the order match, H3).
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
