@@ -523,6 +523,18 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   vacuous). Consequently GU's very falsifiability rests on building the source action (the one object that
   would force `mu_DW`): that build is the *falsifiability* keystone, not merely the coherence keystone. Until
   it exists, the honest verb is **accommodates**, and the honest noun is **framework**.
+- **The keystone is not a blank build -- it is a mapped, shape-dimension-1 family (landscape assessment).** A
+  methods scan + a consistency-carve (Waves 34-35, `explorations/wave34`, `wave35`) reframe the source action
+  from "blocked/hardest/unforceable" to a *small, mapped* object. The causal-cure term GU needs is a *known*
+  constructible type (a Porrati-Rahman non-minimal massive-spin-3/2 coupling); imposing all constraints jointly
+  for the first time -- causality, count-selection, positivity, Krein, soldering -- leaves the source action
+  determined **up to a single gravity-shape ratio** (`beta/alpha`, the `|II|^2`-vs-`|II_0|^2` fork) plus two
+  overall scales, with the cure and the carrier both *forced* and GU neither killed (the joint constraints are
+  consistent) nor yet fully forced. Crucially, UV-completeness -- GU being a standing theory rather than a
+  finite-cutoff EFT -- reduces to a single concrete, GU-internal question: **does `Sp(32,32;H) + [P,S]=0`
+  furnish a guardian symmetry (a local-SUSY / super-Higgs gravitino)?** If it does, GU is UV-complete *and* the
+  gravitino mass would fix `mu_DW`, promoting the framework to a falsifiable theory in one stroke. The honest
+  register is unchanged today (framework), but the path to a theory is now a well-posed question, not a wall.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 

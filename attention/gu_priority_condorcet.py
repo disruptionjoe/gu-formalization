@@ -93,7 +93,14 @@ ITEMS = {
     # certifies 3 -- the "forces 3" temptation checked and REFUSED). Soldering(even) and gamma-trace(odd) are
     # two independent declarations, unifiable under one geometric-posture meta-postulate. The program is ONE
     # forced build from complete, but the build needs an UNBUILT input: the causal-cure term -> H41.
-    "H41": "THE SOURCE-ACTION CAUSAL-CURE TERM (the terminal build, the one unbuilt input): construct the RS non-minimal / field-space-defining coupling that cures GU's built VZ acausality (the minimal Dirac symbol leaks, C2=155.36, degree-1 -> genuine acausality on curved Y14). Wave 17 proved causality FORCES a cure (killing 2 of 4 carrier corners -> {A,B} both causal) but not the final constrain(B)-vs-gauge(A) bit. The cure term is NOT in the built action; building it WITHOUT p-hacking the carrier is the single terminal object that would close the source action (and with it both gravity's soldering and the count's K-class). Honest ceiling: even built, the count stays odd rank in {1,3}, not pinned to 3. The hardest object on the board -- a genuine higher-spin construction, not a quick swing. [heterodox/wild]",
+    # H41 REFRAMED (Waves 34-35 landscape assessment): the source action is NO LONGER "blocked/hardest/
+    #   unforceable". The consistency-carve (Wave 35) maps its allowed region to a FAMILY of shape-dim 1: the
+    #   cure term is FORCED (g=1 full ker-Gamma projection, causality, a Porrati-Rahman-type construction per
+    #   Wave 34); the carrier is FORCED to B (count-selection); Krein + soldering are REDUNDANT. The residual
+    #   is one gravity-shape ratio beta/alpha (the H45 P2 / H48 fork) + two scales (mu_DW, alpha). GU is NOT
+    #   killed (EMPTY falsified) and NOT forced (POINT falsified). The deep residual question -> H54.
+    "H54": "THE GUARDIAN-SYMMETRY QUESTION (the deepest object the landscape assessment surfaced): Wave 34 showed GU's cure term is a Porrati-Rahman-type causal massive-RS coupling that EXISTS but, guardian-free, is only a FINITE-CUTOFF EFT (Rahman helicity-1/2 cutoff + Sagnotti-Taronna no-tower-no-UV-completion, given GU's finite Sp(64) content). UV-completeness -- GU being a real THEORY not a cutoff EFT -- requires a GUARDIAN SYMMETRY (local SUSY / super-IG gravitino, de Wit-Freedman / Deser-Zumino). THE QUESTION: does GU's Sp(32,32;H) + [P,S]=0 structure FURNISH that guardian (is GU secretly a supergravity)? Highest payoff on the board: if YES, GU is UV-complete AND the super-Higgs / gravitino mass would FORCE mu_DW (the falsifiability keystone H53) -- promoting GU from a framework to a falsifiable theory in one stroke. Concrete, GU-internal, answerable. [heterodox/philosopher/wild]",
+    "H55": "COLLAPSE THE GRAVITY beta/alpha BAND via positivity (the shape-dim-1 residual): Wave 35 mapped the source-action allowed region to a FAMILY whose only continuous shape freedom is the gravity ratio beta/alpha (between the conformal edge -1/4 and the full-|II|^2 lean 0 -- the H45 P2 / H48 uniqueness fork, which H49 showed is the survives-vs-forceable life-or-death fork). Apply the Wave-34 EFT positivity bounds (Adams et al, Krein-modified for the non-compact group) + the m2_eff window to collapse this 1-parameter band -- ideally to a point, closing the shape residual. Cheap (a sign-bound on the cubic vertex); would reduce the family to dim-0-up-to-scale. [orthodox/heterodox]",
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -210,20 +217,21 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# TERMINAL SYNTHESIS after the council batch (Waves 32-33): H53 = DECOUPLED (GU is a FRAMEWORK not a standing
-# theory; falsifiable-in-principle, decoupled-in-practice; falsifiability rests on H41). H6 = DONE (the durable
-# GU-independent theorem is proven, cited, honestly scoped -- banked). The checkpoint is fully worked and the
-# arc has reached a clean, honest RESTING STATE. H41 (the source action) is now the unambiguous North-Star
-# object -- the FALSIFIABILITY + coherence keystone, quintuply motivated -- but it stays BLOCKED (no forcing
-# principle; a free build p-hacks the carrier). Honest tension: attempt the blocked keystone (H41) or state the
-# framework status rigorously and bank (H30). Council leans document-and-bank (H30) over grinding the blocked
-# build; H41 is the parked North Star; H52/H47 subordinate. RECOMMEND banking this checkpoint (surface to Joe).
+# RE-RANK after the LANDSCAPE ASSESSMENT (Waves 34-35). This UNBLOCKED the keystone: the source action is no
+# longer "blocked/hardest/unforceable" -- Wave 34 found its cure is a Porrati-Rahman-type CONSTRUCTIBLE
+# coupling and Wave 35 mapped its allowed region to a FAMILY of shape-dim 1 (cure forced, carrier forced to B,
+# Krein+soldering redundant; residual = the gravity beta/alpha ratio + two scales; GU not killed, not forced).
+# Two live residuals: H54 (the GUARDIAN-symmetry question -- does GU furnish the SUSY-like guardian for
+# UV-completeness, and would super-Higgs then FORCE mu_DW, promoting GU to a falsifiable theory?) and H55
+# (collapse the beta/alpha band via positivity -- cheap, closes the shape residual). H54 is the deepest/
+# highest-payoff (theory-vs-EFT + possibly the falsifiability keystone); H55 the cheap shape-closer. H30
+# (document the framework status) drops now that the keystone is unblocked and re-attackable.
 BALLOTS = {
-    "orthodox":            ["H30", "H52", "H41", "H28", "H47"],
-    "heterodox_rigorous":  ["H41", "H30", "H52", "H28", "H47"],
-    "commercial":          ["H30", "H41", "H52", "H28", "H47"],
-    "philosopher":         ["H30", "H41", "H52", "H47", "H28"],
-    "wild_frontier":       ["H41", "H47", "H30", "H52", "H28"],
+    "orthodox":            ["H55", "H54", "H30", "H52", "H28", "H47"],
+    "heterodox_rigorous":  ["H54", "H55", "H30", "H52", "H28", "H47"],
+    "commercial":          ["H54", "H55", "H30", "H52", "H28", "H47"],
+    "philosopher":         ["H54", "H55", "H52", "H30", "H28", "H47"],
+    "wild_frontier":       ["H54", "H55", "H30", "H47", "H52", "H28"],
 }
 
 
