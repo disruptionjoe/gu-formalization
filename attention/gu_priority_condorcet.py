@@ -76,7 +76,16 @@ ITEMS = {
     # count does NOT break gravity's [P,S]=0 -- arena-orthogonal (gcd(2,3)=1) and self-adjoint != index 0
     # (K3 Dirac witness). So gravity's soldering (H27) AND the count's K-class (H39) are COHERENT field-space
     # declarations of the SAME source action. Both reduce to ONE forced build -> H40.
-    "H40": "THE TERMINAL SOURCE-ACTION BUILD (the one residual, both faces at once): construct GU's source action with the field-space declaration FORCED, not chosen. Wave 16 proved BOTH gravity's soldering (H27) AND the count's K-class (H39/SG4) are field-space declarations of the SAME unbuilt source action, and are COHERENT (arena-orthogonal: selecting the count via carrier B preserves gravity's [P,S]=0 ghost clearance). One forced build closes both: gamma-trace-constrained field space -> carrier B (count-selecting, index-changing) vs full field space + BRST -> carrier A. The mutual-exclusion certificate proves NO cheaper computation substitutes and a free build p-hacks the carrier -- so this is the single terminal object of the whole program: force the declaration from GU's structure. [heterodox/wild]",
+    # H40 RESOLVED (Wave 17, tests/wave17/H40_terminal_sourceaction.py, exit 0, 14/14) = NARROWED, the
+    # maximally-hardened terminal state. The Porrati-Rahman causal window IS a genuine structural forcing (the
+    # built C2=155.36 leakage is a real VZ acausality on curved Y14, degree-1 -> cure DEMANDED), collapsing the
+    # 4-corner residual to the 2 causal cures {A,B} -- one bit removed. But BOTH are causal, so the final
+    # constrain(B)-vs-gauge(A) bit stays a B-LEANING LEAN, not forced. Count STAYS {1,3} (order-3 acts on
+    # Lambda^2_+ as SO(3): fixed axis + rotated pair; net index 3 = residue 0 = carrier A's, so no order-3 datum
+    # certifies 3 -- the "forces 3" temptation checked and REFUSED). Soldering(even) and gamma-trace(odd) are
+    # two independent declarations, unifiable under one geometric-posture meta-postulate. The program is ONE
+    # forced build from complete, but the build needs an UNBUILT input: the causal-cure term -> H41.
+    "H41": "THE SOURCE-ACTION CAUSAL-CURE TERM (the terminal build, the one unbuilt input): construct the RS non-minimal / field-space-defining coupling that cures GU's built VZ acausality (the minimal Dirac symbol leaks, C2=155.36, degree-1 -> genuine acausality on curved Y14). Wave 17 proved causality FORCES a cure (killing 2 of 4 carrier corners -> {A,B} both causal) but not the final constrain(B)-vs-gauge(A) bit. The cure term is NOT in the built action; building it WITHOUT p-hacking the carrier is the single terminal object that would close the source action (and with it both gravity's soldering and the count's K-class). Honest ceiling: even built, the count stays odd rank in {1,3}, not pinned to 3. The hardest object on the board -- a genuine higher-spin construction, not a quick swing. [heterodox/wild]",
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -94,20 +103,20 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# GENERATIVE re-rank after Wave 16 (H39 RESOLVED = NARROWED, count = conditional-theorem twin of gravity).
-# Council reflection: the whole program has collapsed onto ONE object. Gravity's soldering (H27) and the
-# count's K-class (H39) are both field-space declarations of the SAME source action, and Q3 proved them
-# COHERENT (arena-orthogonal; the count selector preserves gravity's [P,S]=0). Drafted H40 = the terminal
-# source-action build with the field-space declaration FORCED -- the one build that closes both faces, and the
-# mutual-exclusion certificate proves no cheaper path exists. H39 drops out; H40 is the terminal object.
-# Heterodox + wild top H40 (closes everything); orthodox/commercial keep the cheap decisive bars (H10/H34/H6)
-# ahead of the hardest build; philosopher keeps H34 #1 (the honest predictive-content boundary).
+# GENERATIVE re-rank after Wave 17 (H40 RESOLVED = NARROWED, the terminal state mapped). PIVOT POINT: for
+# five waves the count-decider was always the winner because we were driving TOWARD the terminal object.
+# Wave 17 REACHED it -- the program is one forced build from complete, but that build (H41, the causal-cure
+# term) needs a hard unbuilt higher-spin construction, and even built the count stays {1,3}. Council honestly
+# splits: heterodox + wild still top H41 (the one build that would close the source action); orthodox +
+# commercial + philosopher now elevate H34 (document the predictive boundary just reached: count {1,3}, B-lean,
+# one unbuilt cure-term away, gravity conditional) and the cheap decisive bar H10 (PPN) ahead of grinding the
+# hardest unbuilt object. The honest signal: map the boundary before (or alongside) attempting the terminal build.
 BALLOTS = {
-    "orthodox":            ["H10", "H26", "H28", "H34", "H40", "H30", "H6", "H20", "H5", "H35", "H36"],
-    "heterodox_rigorous":  ["H40", "H30", "H20", "H35", "H28", "H26", "H34", "H10", "H5", "H36", "H6"],
-    "commercial":          ["H6", "H10", "H40", "H30", "H34", "H26", "H28", "H20", "H5", "H35", "H36"],
-    "philosopher":         ["H34", "H40", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
-    "wild_frontier":       ["H40", "H20", "H35", "H36", "H5", "H34", "H30", "H28", "H26", "H10", "H6"],
+    "orthodox":            ["H10", "H34", "H26", "H28", "H41", "H30", "H6", "H20", "H5", "H35", "H36"],
+    "heterodox_rigorous":  ["H41", "H30", "H34", "H20", "H35", "H28", "H26", "H10", "H5", "H36", "H6"],
+    "commercial":          ["H6", "H34", "H10", "H41", "H30", "H26", "H28", "H20", "H5", "H35", "H36"],
+    "philosopher":         ["H34", "H41", "H5", "H10", "H26", "H30", "H20", "H28", "H35", "H36", "H6"],
+    "wild_frontier":       ["H41", "H20", "H35", "H36", "H34", "H5", "H30", "H28", "H26", "H10", "H6"],
 }
 
 

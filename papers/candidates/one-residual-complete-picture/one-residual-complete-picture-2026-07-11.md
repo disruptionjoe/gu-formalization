@@ -366,6 +366,25 @@ selections of it**. The whole framework therefore reduces to a single terminal o
 its field-space declaration **forced** from GU's structure rather than chosen. A free choice would p-hack the
 carrier; only a forced build resolves the last freedom -- the honest boundary this paper draws.
 
+Wave 17 (`tests/wave17/H40_terminal_sourceaction.py`, exit 0) attempted that forced build and mapped the
+terminal state precisely. The Porrati-Rahman **causal window is a genuine structural forcing**: the built
+minimal Dirac symbol leaks off the constraint surface (`C2 = ||Gamma M_D Pi_RS|| = 155.36`, the
+Velo-Zwanziger acausal trigger, present as built), and the leakage is degree-1 in the covector, so it is
+nonzero on GU's curved `Y14` -- a real acausality whose cure is *demanded*, not imported. Imposing causality
+kills the two uncured carrier corners and collapses the residual to the two **causal** cures `{A, B}` -- one
+bit genuinely removed by structure. But both survivors are causal, so causality does **not** force the final
+constrain-vs-gauge bit; that stays a B-leaning lean. Three honest consequences define the boundary: (i) the
+**generation count is `{1, 3}`, not pinned to 3** -- the order-3 symmetry acts on `Lambda^2_+` as an `SO(3)`
+rotation (one fixed axis plus one rotated pair), and a net index of exactly 3 sits in the fixed-axis residue
+(carrier A's), so no order-3 datum can certify three (the "order-3 forces three" inference was checked and
+refused); (ii) the gravity soldering (even sector) and the count's gamma-trace constraint (odd sector) are
+two logically independent declarations of the one object, unifiable only under a single geometric-posture
+meta-choice; (iii) the framework is **one forced build from complete, and that build needs one unbuilt input**
+-- the source action's causal-cure term (a non-minimal Rarita-Schwinger coupling), which the built action
+does not yet contain. GU has the acausality *trigger*, not the *cure*. This is the honest terminal boundary:
+a single named unbuilt term stands between the present structure and a closed source action, and even across
+that term the generation count remains `{1, 3}` rather than a derived three.
+
 ## 4. The central result: everything reduces to one object
 
 Collecting the open freedom across all five sectors:

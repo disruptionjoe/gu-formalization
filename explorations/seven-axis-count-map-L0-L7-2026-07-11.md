@@ -33,6 +33,18 @@
 > selecting the count via B does **not** break gravity's `[P,S]=0` (arena-orthogonal `gcd(2,3)=1`, and a
 > Krein-self-adjoint operator can carry nonzero chiral index). Both faces reduce to ONE forced source-action
 > build (the terminal object, H40). See `explorations/wave16/`.
+>
+> **WAVE-17 UPDATE (2026-07-12), the terminal state.** The forced build was attempted
+> (`tests/wave17/H40_terminal_sourceaction.py`, exit 0). The Porrati-Rahman causal window IS a genuine
+> structural forcing (the built `C2=155.36` leakage is a real VZ acausality on curved `Y14`, degree-1, so the
+> cure is demanded) -- it collapses the 4-corner residual to the 2 **causal** cures `{A,B}`, removing one bit.
+> But both are causal, so the final constrain(B)-vs-gauge(A) bit stays a **B-leaning lean**, not forced. The
+> **count stays `{1,3}`** (order-3 on `Lambda^2_+` is `SO(3)`: fixed axis + rotated pair; net index 3 =
+> residue 0 = carrier A's, so no order-3 datum certifies 3 -- the "forces 3" inference refused). Soldering
+> (even) and gamma-trace (odd) are two independent declarations under one geometric-posture meta-choice. The
+> program is **one forced build from complete, and the build needs one unbuilt input** -- the source action's
+> causal-cure term (a non-minimal RS coupling); GU has the acausality trigger, not the cure. This is the
+> honest terminal boundary. See `explorations/wave17/`.
 
 2026-07-11. Joe's move: apply the six-axis escape-hatch framework (`canon/six-axis-escape-hatch-map-RESULTS.md`)
 "now seven, with L0" to the generation-count no-go, in light of the Wave-12/13 results (H29, H37). This is a
