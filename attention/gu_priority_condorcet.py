@@ -99,8 +99,24 @@ ITEMS = {
     #   Wave 34); the carrier is FORCED to B (count-selection); Krein + soldering are REDUNDANT. The residual
     #   is one gravity-shape ratio beta/alpha (the H45 P2 / H48 fork) + two scales (mu_DW, alpha). GU is NOT
     #   killed (EMPTY falsified) and NOT forced (POINT falsified). The deep residual question -> H54.
-    "H54": "THE GUARDIAN-SYMMETRY QUESTION (the deepest object the landscape assessment surfaced): Wave 34 showed GU's cure term is a Porrati-Rahman-type causal massive-RS coupling that EXISTS but, guardian-free, is only a FINITE-CUTOFF EFT (Rahman helicity-1/2 cutoff + Sagnotti-Taronna no-tower-no-UV-completion, given GU's finite Sp(64) content). UV-completeness -- GU being a real THEORY not a cutoff EFT -- requires a GUARDIAN SYMMETRY (local SUSY / super-IG gravitino, de Wit-Freedman / Deser-Zumino). THE QUESTION: does GU's Sp(32,32;H) + [P,S]=0 structure FURNISH that guardian (is GU secretly a supergravity)? Highest payoff on the board: if YES, GU is UV-complete AND the super-Higgs / gravitino mass would FORCE mu_DW (the falsifiability keystone H53) -- promoting GU from a framework to a falsifiable theory in one stroke. Concrete, GU-internal, answerable. [heterodox/philosopher/wild]",
-    "H55": "COLLAPSE THE GRAVITY beta/alpha BAND via positivity (the shape-dim-1 residual): Wave 35 mapped the source-action allowed region to a FAMILY whose only continuous shape freedom is the gravity ratio beta/alpha (between the conformal edge -1/4 and the full-|II|^2 lean 0 -- the H45 P2 / H48 uniqueness fork, which H49 showed is the survives-vs-forceable life-or-death fork). Apply the Wave-34 EFT positivity bounds (Adams et al, Krein-modified for the non-compact group) + the m2_eff window to collapse this 1-parameter band -- ideally to a point, closing the shape residual. Cheap (a sign-bound on the cubic vertex); would reduce the family to dim-0-up-to-scale. [orthodox/heterodox]",
+    # H54 RESOLVED (guardian wave, Waves 37-41, 5 blind branch-teams) = NO (guardian-forbidden), both exciting
+    #   payoffs DEAD. Convergence: GU has supergravity FIELD CONTENT (the RS IS a gravitino, ker-Gamma = the
+    #   gauge condition -- Branches 2/4; a graded algebra siso(9,5|N) exists abstractly -- Branch 1) but is NOT
+    #   a supergravity: (a) [P,S]=0 is a BOSONIC Krein parity not the SUSY Ward identity -- GU clears its ghost
+    #   the anti-SUSY way (Branch 3); (b) the graded symmetry GU's structure actually realizes (super-IG) closes
+    #   on Omega^1(ad) = the spin connection, NOT physical P_mu -- so it is graded local-Lorentz, not spacetime
+    #   SUSY (Branch 5, decisive); (c) even a local-SUSY guardian would NOT UV-complete GU's finite content (no
+    #   Regge tower, Sagnotti-Taronna) -- so it stays a finite-cutoff EFT regardless; (d) super-Higgs RELATES
+    #   the scale, does not FIX mu_DW (Branch 2) -- so the falsifiability payoff is dead too. Sole surviving
+    #   escape: a derivative-level odd embedding (eps->D_aleph eps) pushing {Q,Q} to P_mu -- LOW value (even if
+    #   it gives SUSY, no UV-completion and no mu_DW forcing). REFRAME: GU's UV route is RENORMALIZATION-
+    #   theoretic (4th-order Stelle + Krein rescue), not symmetry-theoretic -> the same source action -> H56.
+    "H56": "THE RENORMALIZATION UV ROUTE (GU's actual, non-SUSY path to a theory, per the guardian wave's reframe): the H54 guardian wave ruled out the SUSY route -- GU is a finite-cutoff EFT, gravitino-shaped but not supersymmetric. Its ONLY UV route is renormalization-theoretic: is the 4th-order Rarita-Schwinger matter sector RENORMALIZABLE and Krein-rescued the way 4th-order Stelle gravity is (H26)? This extends the H26 loop-positivity question from gravity to the RS/matter sector -- the actual open question deciding whether GU can be UV-complete at all (without SUSY). Currently sign-blind + tree-level-only; routes to the same unbuilt source action. The honest terminal question of GU's UV status. [orthodox/heterodox]",
+    # H55 RESOLVED (Wave 36) = NO-CONSTRAINT. Krein-modified positivity is toothless on the gravity beta/alpha
+    #   ratio (the ghost pole makes the spectral measure SIGNED -> forward c2 sign-indefinite; non-compact
+    #   Sp(32,32;H) has no positive-definite invariant to restore the bound). The shape residual stays a small
+    #   FAMILY (-1/4, 0], decided by SURVIVAL (H49) + structure (theta=II), not analyticity. Positivity dropped
+    #   as a shape-collapse lever.
     "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
@@ -217,21 +233,21 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# RE-RANK after the LANDSCAPE ASSESSMENT (Waves 34-35). This UNBLOCKED the keystone: the source action is no
-# longer "blocked/hardest/unforceable" -- Wave 34 found its cure is a Porrati-Rahman-type CONSTRUCTIBLE
-# coupling and Wave 35 mapped its allowed region to a FAMILY of shape-dim 1 (cure forced, carrier forced to B,
-# Krein+soldering redundant; residual = the gravity beta/alpha ratio + two scales; GU not killed, not forced).
-# Two live residuals: H54 (the GUARDIAN-symmetry question -- does GU furnish the SUSY-like guardian for
-# UV-completeness, and would super-Higgs then FORCE mu_DW, promoting GU to a falsifiable theory?) and H55
-# (collapse the beta/alpha band via positivity -- cheap, closes the shape residual). H54 is the deepest/
-# highest-payoff (theory-vs-EFT + possibly the falsifiability keystone); H55 the cheap shape-closer. H30
-# (document the framework status) drops now that the keystone is unblocked and re-attackable.
+# RE-RANK after the GUARDIAN WAVE (Waves 37-41, the multi-team blind-branch architecture's first deployment)
+# + H55/H36. The 5 blind branches SETTLED H54 = NO (guardian-forbidden): GU has supergravity FIELD CONTENT but
+# is not a supergravity (the graded symmetry it realizes closes on the spin connection Omega^1(ad), not P_mu;
+# even a local SUSY would not UV-complete finite content; super-Higgs does not force mu_DW). Both exciting
+# payoffs (UV-completeness, forced mu_DW) are DEAD. H55 = NO-CONSTRAINT (positivity toothless on the shape).
+# REFRAME: GU is a finite-cutoff EFT whose only UV route is RENORMALIZATION-theoretic (4th-order Stelle + Krein
+# rescue), not SUSY -> H56 (extend H26 loop-positivity to the RS sector). H56 is the honest terminal UV
+# question; H30 (document the now-sharpened framework status) rises alongside; the source action remains the
+# keystone but understood as a renormalization object, not a SUSY/guardian one.
 BALLOTS = {
-    "orthodox":            ["H55", "H54", "H30", "H52", "H28", "H47"],
-    "heterodox_rigorous":  ["H54", "H55", "H30", "H52", "H28", "H47"],
-    "commercial":          ["H54", "H55", "H30", "H52", "H28", "H47"],
-    "philosopher":         ["H54", "H55", "H52", "H30", "H28", "H47"],
-    "wild_frontier":       ["H54", "H55", "H30", "H47", "H52", "H28"],
+    "orthodox":            ["H56", "H30", "H52", "H28", "H47"],
+    "heterodox_rigorous":  ["H56", "H30", "H52", "H28", "H47"],
+    "commercial":          ["H30", "H56", "H52", "H28", "H47"],
+    "philosopher":         ["H56", "H30", "H52", "H28", "H47"],
+    "wild_frontier":       ["H56", "H30", "H47", "H52", "H28"],
 }
 
 

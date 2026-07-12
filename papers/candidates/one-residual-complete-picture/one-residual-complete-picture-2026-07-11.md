@@ -535,6 +535,20 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   furnish a guardian symmetry (a local-SUSY / super-Higgs gravitino)?** If it does, GU is UV-complete *and* the
   gravitino mass would fix `mu_DW`, promoting the framework to a falsifiable theory in one stroke. The honest
   register is unchanged today (framework), but the path to a theory is now a well-posed question, not a wall.
+- **The guardian question is answered: GU is *not* a supergravity (a five-branch blind investigation).** The
+  well-posed question above was attacked by five independent, mutually-blind specialist teams
+  (`explorations/wave37`-`wave41`), and they converged: GU has the *field content* of a supergravity -- its
+  Rarita-Schwinger field **is** a gravitino (the `ker Gamma` cure is exactly the gravitino gauge condition),
+  and an abstract graded algebra `siso(9,5|N)` exists -- but it **lacks the guardian symmetry**. The ghost-
+  clearing `[P,S]=0` is a bosonic Krein parity, not the SUSY Ward identity (GU clears its ghost the *anti*-SUSY
+  way); the graded symmetry GU's structure actually realizes closes on the spin connection, not on
+  translations, so it is not spacetime supersymmetry; and even a local SUSY would not UV-complete GU's *finite*
+  content (no Regge tower). Both hoped-for payoffs therefore fail: no UV-completion, and `mu_DW` stays free
+  (super-Higgs *relates* the scale, it does not fix it). The honest conclusion is that GU is a **one-scale
+  finite-cutoff EFT** -- gravitino-shaped but not supersymmetric -- whose only remaining route to UV-status is
+  *renormalization-theoretic* (Stelle-style 4th-order renormalizability plus the Krein ghost rescue extended to
+  the matter sector), not a symmetry. That route, like everything else, routes back to the one unbuilt source
+  action.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 
