@@ -2,6 +2,8 @@
 
 This repository is a public research truth surface for the Geometric Unity / Observerse program. It owns its claims, grading discipline, derivation progress, Lean scaffold, computational tests, papers, and explorations.
 
+**READ FIRST before attacking any GU object:** `GEOMETER-VS-PHYSICS-OBJECTS.md`. GU is a geometer's program; many objects (the gauge group, the ghost clearance, the (9,5) signature, the guardian symmetry, the count, the |II|^2 functional, mu_DW, the metric, the RS cure) have a geometric construction that DIFFERS from the standard physics version of the same-named object. Using the physics version leads to FALSE WALLS the geometer's version does not have. If you reach a no-go/kill on any such object, re-derive it in the geometer's version before believing it. Orchestrators: include a condensed form of that table in every GU team/branch brief.
+
 When stewardship context is needed, load `steward/README.md`. Do not load `steward/memory-log.md` by default unless doing stewardship or memory work, or the steward summary appears incomplete.
 
 When a run is routed through CapacityOS System stewardship, the System-owned overlay is `../../../system/stewards/gu-formalization.md` from this repo root. Treat it as routing context, not as a replacement for this file or GU local steward context.
