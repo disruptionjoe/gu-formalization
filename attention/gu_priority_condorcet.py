@@ -146,7 +146,25 @@ ITEMS = {
     #   that cannot be FORCED (signature doesn't force it, causality forces only the cure not the carrier, the
     #   even/odd grading is cosmetic). THE ESCAPE: stop narrowing; DECLARE the honest lean and build the
     #   CONDITIONAL theory to get testable predictions -> H47.
-    "H46": "THE DE RAW-LIKELIHOOD TEST (the last DE decider, cheap): H44 falsified GU dark energy FULL-STOP at DESI's (w0,wa) CPL level. The ONLY comparison that falsification does not settle is the raw expansion history -- fit the backreacted GU H(z) to the ACTUAL DESI DR2 BAO table + a CMB Omega_m prior (not the CPL proxy), where GU's non-CPL w(z) mimics DESI distances to ~1.3%. Either GU's dark energy is genuinely dead (raw-likelihood also fails) or GU makes a DISTINCT non-CPL prediction the CPL summary mismeasures (a real, if narrow, result). Cheap, decisive, closes the DE sector either way. [orthodox/philosopher]",
+    # NORTH-STAR + DE BATCH RESOLVED (Waves 27-29, 2026-07-11):
+    # H49 RESOLVED (Wave 28): GU-DISTINGUISHED. box^2 h=-4 Bach re-derived; on the favored |II|^2 branch NO
+    #   conformal-gravity refutation transfers (Ostrogradsky tree-cleared; rotation-curve EVADED because the
+    #   Einstein term makes the Bach sector short-range <52um; |H|^2 would inherit-and-die). Class Lambda-
+    #   magnitude no-go FIRES as a scope-kill of the 'Lambda emerges' headline for GU AND Bianconi (scale-free
+    #   action -> O(1) ratios only, can't make 10^-123). Everything empirical gated on ONE number: mu_DW.
+    # H48 RESOLVED (Wave 27): forcing RELABELS (color-kinematics is so(9,5)-equivariant -> carrier-blind).
+    #   Uniqueness holds (dim 1) but forces the pure-Bach |II_0|^2, NOT GU's Stelle |II|^2. H48xH49 TENSION:
+    #   the norm uniqueness forces (pure Bach) is the branch H49 says DIES; the norm GU needs to SURVIVE
+    #   (Stelle, with the Einstein term) is the one uniqueness cannot force. GU is a distinct non-conformal
+    #   theory; the clean-forcing coherence route is RETIRED.
+    # H46 RESOLVED (Wave 29): DE = MARGINAL. Falsified as a (w0,wa) CPL fit (H43/H44 stand, ~3.2 sigma) but
+    #   VIABLE as a distance model on the actual DESI DR2 BAO likelihood (competitive-to-better than LCDM once
+    #   the amplitude is freed; excluded only at the CPL-tuned+CMB-fixed point). Cornered, NOT dead -- moderates
+    #   the 'full stop'.
+    # CONVERGENCE: GU SURVIVES (distinguished + DE-viable) as a genuinely distinct theory; the clean-forcing
+    #   route is closed; the DE sector is cornered-not-dead; and EVERYTHING (empirical content, the norm/
+    #   survival, loop positivity, the count) routes to ONE number, mu_DW -> H50.
+    "H50": "PIN mu_DW TO THE DARK-ENERGY SCALE -> GU's FIRST GENUINE PREDICTION (the live North-Star move, H36xH49): H49 showed GU's massive spin-2 gives a sub-mm Stelle-Yukawa gravity deviation IFF mu_DW ~ meV, and everything empirical is gated on mu_DW. H36 (observerse) already suggests the DeWitt-Lambda = the dark-energy scale ~ 2.3e-3 eV ~ meV. IF that identification holds (mu_DW = the DE/DeWitt-Lambda scale), GU PREDICTS a testable sub-mm gravity deviation V(r)=-(GM/r)[1+(1/3)e^{-m2 r}] in the Eot-Wash band -- its FIRST genuine parameter-linked falsifiable prediction, exactly what the H34 audit said is missing. Cheap to test (a scale identification GU already proposes); delivers either GU's first prediction (mu_DW~meV, sub-mm live) or a decoupled verdict (mu_DW~M_Pl, untestable). Also settles the H49 Occam caveat. [orthodox/philosopher/wild]",
     # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
     # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
     # run the conditional-build as ONE branch. ~60 personas across 5 families converged. The load-bearing
@@ -155,8 +173,6 @@ ITEMS = {
     # torsion + the (9,5)/(7,7) signature flip (both proven structurally incapable of the 3-primary count --
     # route ZERO effort there). H47 (declare-and-build) is REFRAMED as the Track-2 branch header below; its
     # count-prediction is DEPRIORITIZED (the count is decoupled/source-action-gated, the worst first deliverable).
-    "H48": "[TRACK 1 / FORCE] THE SELF-DUAL-SQUARE FORCING TEST (the genuinely new coherence route, B+D convergent): is the source action FORCED as the self-dual square? Two faces of one principle -- (B) the UNIQUE conformally-invariant Willmore/GJMS functional of the soldering distortion (pinned by conformal-weight + IG-invariance + derivative-order, a uniqueness statement signature/causality/grading each failed to be); (D) the L-infinity/BV double copy of a first-order self-dual gauge datum on Lambda^2_+, native to the 3-primary self-dual arena. THE TEST: does the color-kinematics / Willmore-first-variation constraint close ONLY on carrier B's gamma-trace field space? Only-B -> derives |II|^2 as the square, removes the A/B bit, collapses count+norm+K-class to one, turns the keystone POSTULATE into a THEOREM. Both -> relabels (an HONEST freedom-reducing failure mode, unlike H20). Testable against the built Wave-16 carrier-B structure. [heterodox/wild]",
-    "H49": "[TRACK 1 / FALSIFY + the class question] ATTACK THE BACH/WEYL GRAVITON SECTOR (A+C+E convergent, cheap, needs no source action): (1) the class discriminator -- geometry-vs-information is ill-posed (both smuggle the metric); the decidable, signature-robust axis is the spin-2 action ORDER: GU's box^2 h=-4 Bach (4th-order: extra GW polarizations, propagator pole, GW dispersion) vs Bianconi's Einstein (2nd-order); PPN does not discriminate. (2) the Bach-identification -- if H-class GU-gravity IS conformal/Bach gravity, known refutations transfer as a whole-theory kill (Stelle-Mannheim loop non-unitarity, Ostrogradsky, no-flat-rotation-curves). (3) the class no-goes -- the Occam-kill + the Lambda-magnitude no-go (neither GU nor Bianconi pins ~10^-122) + boundedness-below + Gauss-Codazzi-off-umbilic each kill the WHOLE observer-geometry class. Its cheap Track-2 face is the mu_DW-parametrized Stelle-Yukawa + GW-dispersion NUMBERS. [orthodox/philosopher/commercial]",
     "H47": "[TRACK 2 branch header] DECLARE-AND-BUILD THE CONDITIONAL THEORY, extract NUMBERS: declare the honest leans ((9,5), |II|^2, B-carrier, geometric-posture) as explicit stated postulates and build the conditional theory to EMIT testable numbers, ranked cheap-and-decisive -- (1) the DE raw-H(z) vs actual DESI DR2 BAO likelihood (H46, cheapest kill-shot); (2) the spin-2/Weyl discriminator numbers (= H49's cheap face); (3) H6 the family-puzzle theorem. The count-prediction is DEPRIORITIZED (decoupled, gated, likely under-determined -- NOT the first deliverable, correcting the earlier framing). Firewall = the conditional-theorem form (never asserts its antecedent; 'count=3 given S' is a prediction of GU-given-S, not of GU) -> the branch does NOT change the North-Star stance. Track-2 deliverables ARE Track-1 tests; a Track-1 forcing win (H48) collapses the branch. [commercial/philosopher]",
     # H35 (section-functor reframe) SUBSUMED by H48: the Willmore/GJMS uniqueness IS the functorial-identity
     #   forcing, now sharpened to a concrete self-dual-square test. Dropped from the live set.
@@ -166,18 +182,19 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# TWO-TRACK re-rank after the FULL-ROSTER persona sweep (~60 personas, 5 families, 2026-07-11). The convergent
-# load-bearing object is the BACH/WEYL SELF-DUAL-SQUARE GRAVITON SECTOR: H49 attacks it (falsify + class
-# decider + cheap numbers, needs no source action) and H48 forces it (the self-dual-square coherence route,
-# B+D). H46 is the cheapest DE kill-shot; H47 is the Track-2 branch header (numbers first, count deprioritized);
-# H41 the source action H48 tries to force into a theorem. STOP: chromatic torsion + signature flip (retired).
-# Expect H49 to lead (the object that forces AND falsifies AND decides the class AND is cheap).
+# SYNTHESIS re-rank after the North-Star batch (Waves 27-29: H49 GU-DISTINGUISHED, H48 forcing-RELABELS + the
+# norm/survival tension, H46 DE MARGINAL/cornered-not-dead). GU SURVIVES as a genuinely distinct theory; the
+# clean-forcing coherence route is retired; and everything empirical + the norm + the count route to ONE
+# number, mu_DW. The live North-Star move is H50: pin mu_DW to the dark-energy/DeWitt-Lambda scale (~meV, via
+# H36) -> IF it holds, GU makes its FIRST genuine prediction (a sub-mm Stelle-Yukawa deviation). Cheap, and the
+# convergent object all three probes point at. H47 stays the Track-2 branch; H41 the full source-action build
+# (pins mu_DW rigorously); H36 the observerse scale-identification that feeds H50.
 BALLOTS = {
-    "orthodox":            ["H49", "H46", "H47", "H48", "H41", "H30", "H28", "H6", "H36"],
-    "heterodox_rigorous":  ["H48", "H49", "H41", "H47", "H46", "H30", "H28", "H36", "H6"],
-    "commercial":          ["H6", "H46", "H47", "H49", "H48", "H41", "H30", "H28", "H36"],
-    "philosopher":         ["H49", "H46", "H47", "H48", "H41", "H30", "H28", "H36", "H6"],
-    "wild_frontier":       ["H48", "H49", "H41", "H36", "H47", "H46", "H30", "H28", "H6"],
+    "orthodox":            ["H50", "H47", "H30", "H28", "H41", "H6", "H36"],
+    "heterodox_rigorous":  ["H50", "H41", "H47", "H30", "H36", "H28", "H6"],
+    "commercial":          ["H50", "H6", "H47", "H41", "H30", "H28", "H36"],
+    "philosopher":         ["H50", "H47", "H36", "H30", "H41", "H28", "H6"],
+    "wild_frontier":       ["H50", "H36", "H41", "H47", "H30", "H28", "H6"],
 }
 
 

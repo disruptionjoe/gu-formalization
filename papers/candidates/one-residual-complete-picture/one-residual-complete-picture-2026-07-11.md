@@ -445,12 +445,32 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   match, H3). Wave 25 (H44) then closed that escape: a self-consistent `theta`-backreacted background
   (backreaction real, `+3.6%` on `H` at `z ~ 1`) shifts the locus amplitude but not its direction (closest
   `3.22 sigma` vs `3.20`), so the falsification is not a fixed-background artifact. Net: on the
-  parameterization the data is reported in, GU's dark energy is **falsified full stop** -- every rescue route
-  (amplitude, OQ2 `M^2`, component count, initial conditions, self-consistent background) is spent. The single
-  comparison this does not settle is the raw expansion history: GU's non-CPL `w(z)` mimics DESI distances to
-  `~1.3%`, so a raw-likelihood fit against the DESI DR2 BAO table (not the CPL proxy) is the only remaining DE
-  question. The honest register for this sector is a falsification against the CPL summary, with a
-  distinct-non-CPL-prediction question still open, not accommodation.
+  parameterization the data is reported in, GU's dark energy is **falsified as a `(w_0, w_a)` CPL fit** --
+  every CPL-projection rescue route (amplitude, OQ2 `M^2`, component count, initial conditions, self-consistent
+  background) is spent. But Wave 29 (H46, `explorations/wave29/`) then tested the raw expansion history against
+  the actual DESI DR2 BAO likelihood (13-dim mean + full covariance, Planck CMB prior) and found **MARGINAL,
+  not a distance-level kill**: at the disciplined canonical-plus-CMB-fixed point GU is excluded
+  (`delta chi^2 = +21.6` vs LCDM), but that exclusion evaporates the moment the overall amplitude or `f_0` is
+  freed -- shape-marginalized, GU is competitive-to-better than LCDM (`delta chi^2 = -3.2`). So the honest
+  register is precise: GU's dark energy is **falsified as the CPL summary DESI headlines, but viable as a
+  distance model** -- the sector is *cornered* (no single `f_0` satisfies both the CPL contour and the raw BAO
+  distances) rather than dead. This is a distinct non-CPL dark-energy model, not an accommodation and not a
+  clean kill.
+- **The gravity sector survives a direct kill attempt, but the "Lambda emerges" headline does not.** An
+  adversarial probe of the Bach/Weyl graviton sector (H49, `explorations/wave28/`) confirmed GU's linearized
+  operator IS the conformal/Bach operator (`box^2 h = -4 Bach`, re-derived) and then found that on the favored
+  `|II|^2` branch **no known conformal-gravity refutation transfers**: the Ostrogradsky ghost is tree-cleared
+  (Krein), and the Horne / Hobson-Lasenby no-flat-rotation-curves result is evaded because the Einstein-Hilbert
+  term makes the Bach sector a *short-range* massive spin-2 (Yukawa range `< 52 um`), so there is no long-range
+  `gamma*r` to refute. GU is thus a genuinely distinct, testable 4th-order theory, not refuted conformal
+  gravity -- but this survival is `|II|^2`-specific (pure `|H|^2` inherits the refutation and dies). Two honest
+  costs: (i) a **class-level scope-kill** -- a scale-free two-metric action fixes only `O(1)` ratios, so the
+  observed `Lambda / M_Pl^4 ~ 10^-123` needs an imported scale the action cannot contain; the claim that
+  *Lambda emerges from the two-metric structure* is dead for GU and for the entropic (Bianconi) alternative
+  alike, though neither theory is falsified by it (neither derives the magnitude); (ii) all of GU's empirical
+  content is gated on the single scale `mu_DW` -- at `mu_DW ~ M_Pl` every deviation is `~10^-35 m` and
+  decoupled, while at `mu_DW ~ meV` (the dark-energy scale) GU predicts a **sub-millimetre Stelle-Yukawa
+  deviation**, its one live falsifiable handle.
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
