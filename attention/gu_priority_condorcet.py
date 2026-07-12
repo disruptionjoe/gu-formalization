@@ -120,8 +120,27 @@ ITEMS = {
     #   2023, Bateman-Turok tree-only) -- so GU's UV-openness is a frontier problem, NOT a GU defect. NO
     #   FORBIDDEN cell. Two live UV routes surfaced -> H57 (asymptotic safety, independent) + H58 (firm
     #   renormalizability); the loop-positivity terminal question stays gated on the source action.
-    "H57": "IS GU ASYMPTOTICALLY SAFE? (the new independent UV route, highest upside from the renormalization assessment): the renormalization scan found asymptotic safety -- a non-perturbative UV FIXED POINT (Weinberg / Reuter / Eichhorn) -- is a LIVE second route to UV-completeness, INDEPENDENT of the loop-positivity frontier and compatible with the Krein rescue (AS completes the couplings, Krein grades the states). GU's structure (4th-order + finite fermion content + non-minimal curvature-fermion coupling) is exactly where the functional-RG literature finds fixed points. If GU has a UV fixed point, it is UV-complete WITHOUT solving the hard loop-positivity problem -- promoting the framework toward a theory by a route the guardian wave's kill does not touch. TESTABLE via a functional-RG truncation on GU's operators, WITHOUT first building the full source action. Best fit = a FLOW (truncation -> beta functions -> fixed-point search -> verdict). [wild/heterodox]",
-    "H58": "FIRM THE RENORMALIZABILITY: one-loop divergences of the 4th-order ker-Gamma RS carrier (the missing Stelle-analog): Wave 43 showed GU is power-counting renormalizable, but no Stelle-grade renormalizability THEOREM for a higher-derivative Rarita-Schwinger field exists in the literature. Compute the actual one-loop divergences of GU's 4th-order ker-Gamma RS carrier and check they are absorbed by the operators present (the crisp Phase-2 test the scan named). Upgrades 'power-counting renormalizable' to 'renormalizable at one loop', or finds the VZ/Rahman constraint algebra re-populating a ghost. A single decisive computation = a SWING. [orthodox]",
+    # H57 RESOLVED (asymptotic-safety FLOW, Waves 44-46, 2026-07-11) = ASYMPTOTICALLY FREE (stronger than safe).
+    #   Stage 1 (tests/W45): ported the agravity one-loop betas (f_2 AF, b_2=133/10>0; f_0 conformal mode not AF)
+    #   + RS matter shift as a named parameter c_RS_weyl (anchor 17/12, unpinned because ker-Gamma changes the
+    #   effective dof). Stage 2 (tests/W46): the Gaussian (0,0) is the UNIQUE UV fixed point (multistart Newton,
+    #   25 seeds; NO non-Gaussian FP at one loop / 2 couplings) -> GU realizes asymptotic FREEDOM, not safety;
+    #   f_2^2 marginally irrelevant (AF PREDICTS it -- the one predictivity gain over generic higher-derivative
+    #   gravity), f_0^2 marginally relevant along a frozen NEGATIVE ratio f_0^2/f_2^2<0 (wrong-sign conformal
+    #   direction). UV critical-surface dimension = 3 in the known gravity sector {M_Pl=mu_DW ratio-only keystone,
+    #   Lambda, f_0^2} (up to 5 with RS dimensionful at GUESS grade). ROBUST: AF holds for all c_RS_weyl>-13.3
+    #   (anchor +1.42 clears by 14.7). Does NOT settle Krein loop-positivity -- the negative fixed-ratio sign is
+    #   the SINGLE point where flow and positivity touch, left open. Grade DERIVED-on-PORTED, one-loop/2-4
+    #   couplings (an INDICATION, not a proof). Two continuations surfaced -> H59 (loop-positivity at the negative
+    #   ratio, the terminal UV North Star, PT/Krein frontier-gated) + H60 (firm the AF: larger/FRG truncation).
+    # H58 RESOLVED (renormalizability SWING, Wave 44, tests/W44) = CONFIRMED. Two independent computations give
+    #   D<=4 on the ker-Gamma subspace for every L-loop 1PI graph (worst case D=4); the leaked/VZ branch gives
+    #   D=4+2*I_B (grows with loops), and ker-Gamma removes exactly those gamma-trace VZ modes (projector COMPUTED
+    #   degree-0 and gamma-traceless, residuals ~1e-16, not assumed). Sharpenings: (S1) the RS sector adds its OWN
+    #   finite CLOSED counterterm set beyond pure Stelle (extends, not "same as"); (S2) conditional on the exact
+    #   background-independent degree-0 projector. GU is renormalizable; positivity stays the sole open leg.
+    "H60": "FIRM THE ASYMPTOTIC-FREEDOM RESULT (de-risk indication->result, and it feeds the North Star): the H57 flow found AF at one loop / 2 couplings -- an INDICATION. Extend the truncation: (a) add the RS dimensionless couplings z_B, y_RS to the flow and recompute; (b) go to two loops on the pure-gravity sector; (c) run a genuine FRG/Reuter truncation, which can see a NON-GAUSSIAN fixed point the perturbative 2-coupling system cannot. Also pin c_RS_weyl with a real ker-Gamma heat-kernel (Stage 1 left it a named parameter). Confirms/upgrades AF and sharpens EXACTLY where loop-positivity bites (the negative fixed-ratio). Minimal version (add RS couplings to the existing one-loop system) = a SWING; the full FRG version = a FLOW. [heterodox/orthodox]",
+    "H59": "SETTLE KREIN LOOP-POSITIVITY AT THE NEGATIVE FIXED-RATIO (the terminal UV North Star): the H57 flow LOCATED the single point where the RG flow and the positivity frontier touch -- the wrong-sign conformal direction f_0^2/f_2^2<0 along the AF trajectory. Does the keep-and-grade Krein rescue [P,S]=0 make that negative-sign direction consistent at loop level? A YES UV-completes GU on BOTH axes (couplings AF + states Krein-graded); a NO would be the first genuine UV obstruction. This is the OPEN FRONTIER of PT/Krein QFT itself (no keep-and-grade rescue proven at loop level anywhere -- Kuntz 2024, Nakayama 2023, Bateman-Turok tree-only) and is gated on the source action -- frontier-hard, possibly not GU-decidable alone, but it is the North Star, demoted only by falsification not difficulty. [wild/philosopher]",
     # H55 RESOLVED (Wave 36) = NO-CONSTRAINT. Krein-modified positivity is toothless on the gravity beta/alpha
     #   ratio (the ghost pole makes the spectral measure SIGNED -> forward c2 sign-indefinite; non-compact
     #   Sp(32,32;H) has no positive-definite invariant to restore the bound). The shape residual stays a small
@@ -243,20 +262,24 @@ ITEMS = {
 # --- five council ballots: strict preference order, best first ---
 # "PUSH FURTHER" vote (2026-07-11): each archetype ranks the pooled 14 ideas; their own top-3 lead, the rest
 # ranked by their values. Expect the fermion/C2 wall (H29) and the cheap falsification bars (H10/H26) to lead.
-# RE-RANK after the RENORMALIZATION ASSESSMENT (Waves 42-43) + the post-assessment council (Joe's loop:
-# assessment -> council identifies highest-order hypotheses -> decide swing/flow/wave). H56 RESOLVED = GU is
-# RENORMALIZABLE (RS spin-3/2 does not spoil it) and UV-completeness is NOT forbidden -- it reduces to a
-# PT/Krein loop-positivity FRONTIER problem (not a GU defect) plus a live SECOND route, asymptotic safety.
-# Council winner = H57 (is GU asymptotically safe? -- the independent, highest-upside UV route, testable WITHOUT
-# building the source action; MODE = a FLOW: truncation -> beta functions -> fixed-point -> verdict); H58 (firm
-# the renormalizability with the one-loop RS computation; MODE = a SWING) #2. The loop-positivity terminal
-# question stays gated on the source action. H30 (document) available. Mode note: H57 = flow, H58 = swing.
+# RE-RANK after the ASYMPTOTIC-SAFETY FLOW (Waves 44-46) resolved H57+H58. GU is RENORMALIZABLE (H58 CONFIRMED)
+# and ASYMPTOTICALLY FREE in the higher-derivative couplings (H57: Gaussian UV FP, f_2 predicted, ~3-param
+# gravitational critical surface incl. mu_DW; robust; positivity NOT settled -- the negative fixed-ratio is the
+# one point flow and positivity touch). Post-flow council reflection drafted two continuations: H59 (settle
+# loop-positivity at that negative ratio -- the terminal UV NORTH STAR, but the PT/Krein frontier, possibly not
+# GU-decidable alone) and H60 (firm the AF: larger/FRG truncation, could find a non-Gaussian FP; feeds H59).
+# The council's honest read: H59 is the North Star but frontier-GATED (the whole field can't yet crack keep-and-
+# grade loop positivity); H60 is the actionable de-risking move that also sharpens exactly where H59 bites, so
+# most archetypes rank H60 #1 with H59 the standing North Star behind it; the wild/philosopher archetypes lead
+# with H59. H30 (document the now-strong UV picture at referee grade) rises to a genuine bank-the-result option.
+# MODE: H60 minimal = SWING (add RS couplings to the one-loop system) escalating to FLOW (full FRG); H59 =
+# frontier research, not a clean swing/flow, gated on the source action.
 BALLOTS = {
-    "orthodox":            ["H58", "H57", "H30", "H52", "H28", "H47"],
-    "heterodox_rigorous":  ["H57", "H58", "H30", "H52", "H28", "H47"],
-    "commercial":          ["H57", "H58", "H30", "H52", "H28", "H47"],
-    "philosopher":         ["H57", "H58", "H30", "H52", "H28", "H47"],
-    "wild_frontier":       ["H57", "H58", "H30", "H47", "H52", "H28"],
+    "orthodox":            ["H60", "H30", "H59", "H52", "H28", "H47"],
+    "heterodox_rigorous":  ["H60", "H59", "H30", "H52", "H28", "H47"],
+    "commercial":          ["H60", "H30", "H59", "H52", "H28", "H47"],
+    "philosopher":         ["H59", "H60", "H30", "H52", "H28", "H47"],
+    "wild_frontier":       ["H59", "H60", "H30", "H47", "H52", "H28"],
 }
 
 
