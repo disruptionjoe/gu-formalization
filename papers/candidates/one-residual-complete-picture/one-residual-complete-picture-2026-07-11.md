@@ -230,10 +230,18 @@ nearly CPL over `z<=2` (so the shallow evolution is intrinsic, not a lossy fit),
 would reach distance-consistency requires `Omega_m ~ 0.275`, which is `6.4 sigma` from the CMB-pinned value --
 excluded by the very DESI+CMB combination that reports the tension; at the CMB `Omega_m` a real `~2.6%`
 distance offset remains. So the `~3-4 sigma` DESI tension is a **robust live negative**: two independent
-rescue routes (DeWitt-`Lambda` combination; fair distance comparison) were tested and neither holds. The one
-remaining honest lever is the **prediction-vs-fit** question -- whether `f_0` is forced by the (unbuilt)
-`theta` dynamics (a *hard* failing test) or genuinely free (a *soft* tension awaiting the build) -- not a
-reinterpretation of the data.
+rescue routes (DeWitt-`Lambda` combination; fair distance comparison) were tested and neither holds. The
+**prediction-vs-fit** question is then settled (`tests/wave11/H_DE_prediction_vs_fit.py`): scanning the
+`theta` amplitude `f_0` and field mass `M^2` shows the two-component **shape CAN fit DESI** (best distance
+residual `0.99%`, inside BAO precision, at `(f_0~2, M^2~1)`) -- so it is **not** a hard structural failure --
+but the model *default* `(f_0=0.125, M^2=8)` is itself in tension (`2.63%`) and the good-fit region is far
+from it. Since `f_0` is a **free input** (nothing built forces it), the DESI tension is **soft /
+amplitude-gated**, not a present falsification: GU's dark-energy sector is *under-determined* pending the
+built `theta` dynamics that would fix `f_0`, and it becomes a genuine hard test only if the source action
+forces `f_0` near the in-tension default. So DESI, like the gravity soldering (Sec. 2.5), routes to the
+**same single unbuilt object** -- the source action -- as a conditional/soft negative, not a hard kill. (This
+is not a rescue: `~3-4 sigma` at the default parameters is real; `soft` means the model is not yet committed
+enough to be falsified, not that it fits.)
 
 ### 2.5 Gravity -- CONDITIONAL THEOREM at tree level (conditional on one soldering postulate + `mu_DW`); loop-level OPEN
 *Governed by the Wave 1-8 block above; this supersedes the earlier "one undetermined Willmore-EL
