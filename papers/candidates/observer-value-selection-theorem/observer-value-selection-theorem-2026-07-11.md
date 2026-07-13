@@ -27,9 +27,22 @@ exchanges the two grades ("admissible" and "inadmissible"). We assume this invol
   alone, with no reference to what is "forced" or "selected" by any process. Under this definition the
   residual forced by (I) is provably a VALUE.
 
-The synthesis is the load-bearing sentence: *the selection an observer is forced to make is, provably
-and non-circularly, a symmetry-breaking one.* We are careful below to state exactly which pieces are
-classical and which is the new packaging.
+The synthesis packages these as: *the selection an observer is forced to make is, provably and
+non-circularly, a symmetry-breaking one.* One caution up front, so the reader is not misled about the
+mathematical weight: the symmetry-breaking conclusion rests entirely on the ELEMENTARY
+fixed-point-count lemma (I-b) / Lemma C -- "a nonempty domain cannot map into an empty fixed-set" --
+and NOT on Lawvere's theorem. Lawvere / (I-a) contributes the *independent* "no self-enumeration"
+fact; it does not underwrite the symmetry-breaking result. We are careful below to state exactly which
+pieces are classical and which is the new packaging.
+
+**A note on "forced" and "commit" (informal language).** Throughout, the words "forced," "commit,"
+and "the observer commits to a valuation" are an INFORMAL motivating gloss, not a formal predicate.
+No object in the formal development is the referent of "forced": the residual `d = alpha . T . Delta`
+depends on a *choice* of `T`, and there is no theorem that the observer must adopt any particular
+valuation. What the theorem actually proves is the non-existence of an invariant or self-enumerating
+valuation (I-a, I-b), plus the group-theoretic character of any total valuation (II). One could
+formalize "commitment" trivially as "existence of some total `p : A -> B`" (immediate for nonempty
+`A`), but nothing below depends on doing so; read "forced" as a reading, not a proved modality.
 
 ---
 
@@ -74,12 +87,16 @@ involution `alpha`, and the notion of a total internal representation `T` of `A`
 
 - **(A1) Finite products.** `C` has finite products (hence the diagonal `Delta` and the pairing used
   in the proof). Satisfied by any cartesian category, in particular `Set`.
-- **(A2) Two-valued grading.** `B` has (at least) the two distinct points `0, 1` that `alpha`
-  interchanges; the grading is genuinely two-valued, not collapsed to one point.
+- **(A2) Two-valued grading (reading convention).** `B` has **exactly** the two distinct points
+  `0, 1` (`|B| = 2`) that `alpha` interchanges; the grading is genuinely two-valued, not collapsed to
+  one point. This is a reading convention that fixes the intended model; the load-bearing content is
+  carried entirely by A3. (If one prefers to allow `|B| > 2`, replace A2 by the requirement that
+  `alpha` be fixpoint-free on ALL of `B`, i.e. strengthen A3 to cover the extra points; the results
+  are unchanged, and a third *fixed* grade dissolves the theorem -- Example 5.3.)
 - **(A3) Fixpoint-freeness of the firewall.** `alpha` has **no fixed point**: there is no point
   `b : 1 -> B` with `alpha . b = b`. For the swap on `{0, 1}` this is immediate (`admissible !=
-  inadmissible`); it is the single substantive hypothesis, and every conclusion is a strict consequence
-  of it.
+  inadmissible`). This is the **sole load-bearing hypothesis**: every conclusion (I-a) and (I-b) is a
+  strict consequence of A3 (given nonempty `A` in A4), and `|B| = 2` is inessential to the proofs.
 - **(A4) Nonempty arena** (used only for the invariant-valuation half): `A` has at least one point.
 
 No other assumption is used. In particular no topology, measure, dynamics, order, or physical
@@ -172,6 +189,16 @@ valuation is value-type. Therefore the residual valuation the observer is forced
 existence and unrepresentability supplied by (I-a); its non-invariance by (I-b)) is a **value** in the
 group-theoretic sense. `QED`
 
+**One-directional vacuity (honest disclosure).** The implication "forced `=>` value" is VACUOUS in
+that direction: by (I-b) *every* total valuation is value-type, so learning that the residual is a
+value says nothing specific about the residual -- it is a property shared by all total valuations. The
+substantive content of Part II is therefore NOT "forced `=>` value" but the two facts that survive
+this vacuity: (i) the purely negative no-go *no `alpha`-invariant total valuation exists* (I-b), and
+(ii) the non-circularity of the arena/value partition (the "invariant iff forced" reading is
+synthetic, not definitional; see the Non-circularity paragraph above and Example 5.4). The
+information-carrying direction is the *absence* of any invariant residual, not the presence of a
+value.
+
 **Machine-checked confirmation (not the proof).** Finite instances of (I-a), the Cantor cross-check,
 the fixpoint-free check, and the control cases have been verified exhaustively for `|A| in {1,2,3}` in
 the repository tests `W70` and `W73`, and a further finite check accompanies this paper (`W99`). These
@@ -250,15 +277,21 @@ self-reference. Conway-Kochen (free will) and Bell add physical (locality/determ
 not use. Verdict on this axis: **related but distinct**; ours is not Kochen-Specker in disguise, though
 both belong to the family "no consistent global two-valuation."
 
-**6.3 Curie's principle (Curie 1894; Earman 2004).** Part II ("value = requires symmetry-breaking to
-specify") is essentially Curie's principle: symmetric causes have symmetric effects, so an asymmetry
-requires a broken symmetry. Earman notes that precise formulations of Curie's principle tend toward the
-*analytic*. Our contribution here is exactly to avoid that trap in a specific way: we tie the
-symmetry-breaking characterization to a *valuation no-go* (Part I) so that the residual is not merely
-*allowed* to be symmetry-breaking but is *forced* to be, and we give the arena/value partition a
-non-circular group-theoretic definition (Section 4.3, Example 5.4). So the novelty relative to Curie is
-the *forcing* of the residual plus the non-circular partition, not the "asymmetry needs broken symmetry"
-slogan itself, which is old.
+**6.3 Curie's principle (Curie 1894; Earman 2004; Norton 2016).** Part II ("value = requires
+symmetry-breaking to specify") is the elementary invariant / symmetry-breaking-order-parameter
+dichotomy -- a quantity is arena-type iff it is `G`-invariant and value-type (an order parameter)
+otherwise. This is Curie-*flavored*, but it is NOT Curie's principle proper: Curie's principle is a
+*causal* claim (symmetric causes have symmetric effects, so an asymmetry of effects requires an
+asymmetry of causes), whereas the dichotomy here is the textbook invariant-vs-order-parameter
+distinction, with no cause and no effect in the definition. Earman (2004) and Norton's "Curie's
+Truism" (2016) both note that precise formulations of Curie's principle tend toward the *analytic*
+(nearly vacuous in QFT). We do *not* claim the *forcing* rescues Curie from that analyticity worry:
+as (I-b) shows, every total valuation is value-type, so "the forced residual is a value" is vacuous in
+that direction (see §4.3, §7). The non-vacuous content is the purely negative fact -- *no
+`alpha`-invariant total valuation exists* -- together with the non-circular group-theoretic partition
+(Section 4.3, Example 5.4). That negative fact is exactly the analytic-leaning fact Earman warns
+about; our contribution is to tie it to a *valuation no-go* (Part I) and to a non-circular partition,
+not to escape analyticity via "forcing."
 
 **6.4 The general Lawvere-paradox literature.** Yanofsky (2003) and the broader categorical-diagonal
 tradition already subsume the fixed-point machinery and many of its instances. The present result is not
@@ -266,14 +299,15 @@ a new theorem *in that tradition*; it is an application of it to a graded/firewa
 Curie-style partition.
 
 **6.5 Honest verdict: (b) NOVEL PACKAGING.** The load-bearing mathematical facts (Lemmas L and C) are
-classical; with two grades Part I is Cantor and in general it is Lawvere/Yanofsky, and Part II is a
-sharpened Curie's principle. What is genuinely contributed, and is not simply any one of those pieces,
+classical; with two grades Part I is Cantor and in general it is Lawvere/Yanofsky, and Part II is the
+elementary Curie-flavored invariant / order-parameter dichotomy (not Curie's causal principle). What
+is genuinely contributed, and is not simply any one of those pieces,
 is the *synthesis*: (i) reading the two-element grading as an admissibility firewall on a
 self-referential observer, so that the classical diagonal fires on "the observer's own admissibility
 valuation"; (ii) proving the forced residual is not merely unforced but *symmetry-breaking*, via the
 fixpoint-count corollary; and (iii) supplying a non-circular, group-theoretic arena/value partition that
-makes "the residual is a value" a substantive rather than definitional claim, and that ties Curie's
-principle to a valuation no-go. This is a correct, clearly-stated, well-mapped synthesis whose parts are
+makes "the residual is a value" a substantive rather than definitional claim, and that ties the
+Curie-flavored invariant / order-parameter dichotomy to a valuation no-go. This is a correct, clearly-stated, well-mapped synthesis whose parts are
 known -- the respectable and common (b) outcome. The closest single prior result is **Yanofsky (2003)**
 for Part I and **Earman's analysis of Curie's principle (2004)** for Part II. We do *not* claim (a): no
 individual step is a new theorem, and inflating the synthesis to "genuinely novel" would not survive a
@@ -301,12 +335,14 @@ single result, so it is not strictly subsumed.
   or count. It is an existence-and-character result, not a quantitative one.
 - **Not a physical prediction.** It is a logical/structural theorem about self-referential valuations.
   It makes no empirically testable claim on its own.
-- **Genericity, not uniqueness.** Because Part II is a form of Curie's principle, the arena/value
-  partition it uses is *generic* to symmetry-based structures, not a signature of any particular system.
+- **Genericity, not uniqueness.** Because Part II is the elementary invariant / order-parameter
+  dichotomy (Curie-flavored, not Curie's causal principle), the arena/value partition it uses is
+  *generic* to symmetry-based structures, not a signature of any particular system.
   Genericity is not vacuity (the partition is still non-circular and falsifiable), but it means the
   theorem cannot be used to argue that any specific framework is distinguished.
 - **Novelty caveats (from Section 6).** Part I is classical (Cantor / Lawvere / Yanofsky) and Part II
-  sharpens a classical principle (Curie). The honest novelty grade is (b) novel packaging; the value is
+  is the elementary Curie-flavored invariant / order-parameter dichotomy (not Curie's causal
+  principle). The honest novelty grade is (b) novel packaging; the value is
   in correctness, self-containment, and the mapped synthesis, not in a new fixed-point core.
 - **Scope of the grading.** The theorem requires an effectively two-valued grading with a fixpoint-free
   involution (A2, A3). It says nothing about admissibility schemes with a stable neutral verdict; a

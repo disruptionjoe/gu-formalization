@@ -1,4 +1,4 @@
-# Renormalizable, Asymptotically Free, and Unitary Fourth-Order Gravity -- and the Tachyonic Price of Asymptotic Freedom
+# Renormalizable, Asymptotically Free, and Tree-Grade-Unitary Fourth-Order Gravity -- and the Tachyonic Price of Asymptotic Freedom
 
 **Draft, 2026-07-11. GU-INDEPENDENT: the results are about the class of fourth-order (Stelle-type) gravities with
 a kinematically-projected Rarita-Schwinger sector; Geometric Unity is one realization. Every quantitative claim
@@ -15,15 +15,18 @@ projector has momentum-degree zero and removes exactly the Velo-Zwanziger modes 
 gravity-coupled spin-3/2 non-renormalizable; the matter sector adds a finite, closed set of counterterms.
 **(2) Asymptotic freedom:** the dimensionless couplings flow to a unique Gaussian ultraviolet fixed point, made
 structural by the homogeneous-quadratic form of the one-loop system (which forbids any isolated interacting fixed
-point); the Weyl coupling is thereby predicted rather than tuned. **(3) Unitarity:** on the physical subspace the
-inner product is positive -- the massive spin-2 sector is Krein-graded and PT-unbroken across the entire
-interacting regime, and the conformal scalaron is positive-norm; loop unitarity is a positivity-vs-causality
-trade whose cost is bounded to the ghost scale. **(4) The tachyonic price of asymptotic freedom:** the *same*
+point); the Weyl coupling is thereby predicted rather than tuned. **(3) Unitarity (graded):** the theory is
+unitary at TREE / ALGEBRAIC grade -- the massive spin-2 sector is Krein-graded and PT-unbroken across
+the entire interacting regime, the conformal scalaron is positive-norm, and we prove a machine-checked
+no-local-positive-metric theorem. LOOP unitarity is NOT flatly established: it is an open
+positivity-vs-causality trade whose cost is provably bounded to the ghost scale `~1/m`.
+**(4) The tachyonic price of asymptotic freedom:** the *same*
 asymptotic freedom that delivers (1)-(2) *forces* the conformal-scalaron mass-squared negative -- a
 background-independent tachyonic instability -- because every asymptotically-free trajectory carries a negative
-`R^2`-to-Weyl coupling ratio. The theory is renormalizable, asymptotically free, and unitary, but its
-asymptotically-free completion is unstable; stability requires trading asymptotic freedom for a non-Gaussian
-(asymptotic-safety) completion. We give the exact fork.
+`R^2`-to-Weyl coupling ratio. The theory is renormalizable and asymptotically free, and unitary at
+tree/algebraic grade (loop unitarity an open positivity-vs-causality trade, cost bounded to the ghost
+scale), but its asymptotically-free completion is unstable; stability requires trading asymptotic
+freedom for a non-Gaussian (asymptotic-safety) completion. We give the exact fork.
 
 ## 1. Introduction
 
@@ -85,8 +88,9 @@ problem, not a defect of the theory (`tests/W77`, `H61a`).
 
 ## 6. The tachyonic price of asymptotic freedom (`tests/W79-W80`)
 
-The theory is renormalizable, asymptotically free, and unitary -- but its asymptotically-free completion is
-*unstable*, and the instability is forced by the very asymptotic freedom that secures the rest.
+The theory is renormalizable, asymptotically free, and unitary at tree/algebraic grade (loop
+unitarity an open positivity-vs-causality trade, Section 5) -- but its asymptotically-free completion
+is *unstable*, and the instability is forced by the very asymptotic freedom that secures the rest.
 
 The conformal scalaron mass is `M_0^2 = gamma / (6 f_0^2)` with `gamma > 0` (the positive induced Einstein
 coefficient). Because the `R^2` sector is pure, `f'' = 2 f_0^2` is constant, so `M_0^2` is *background-independent*:
