@@ -60,6 +60,29 @@ J-free at audit grade. The honest reading of the wall: not "the realization fail
 retains the complete inside-observer physics and provably lacks only the outside view" -- earned this time by
 computation (W105), unlike the retracted W94 version.
 
+FOLLOW-ON RESULTS (W106-W108), completing the triage:
+- **Per-state/sup separation: THEOREM-WITH-EXCLUSIONS (W106).** On the W98 model the divergence is carried
+  entirely by uniformity: sharp state class = the form domain D(|k|^((p+1)/4)) (boundary alpha* = (p+3)/4),
+  physically-mandatory states INSIDE (smooth-smeared local-operator states via Paley-Wiener; the perturbative
+  vacuum), exclusions named with standard-QFT parallels, growth exponent stable to all polynomial orders (the
+  all-orders leg rests on Weinberg power-counting, named). The one-sidedness reading is now theorem-grade on the
+  model.
+- **The slot is intrinsic -- but GRADING-RELATIVE, and it COHERES (W107).** The classical ITPFI/Connes invariant
+  is grading-blind (the wall is transverse to it; the naive identity fails both ways); the exact repaired form:
+  wall <=> the relative modular operator between the metric-state and its grading twist is unbounded. So the
+  interface slot is an invariant of (algebra, state, grading, filtration). And the per-region tail CLASSES
+  COHERE on overlaps (with non-triviality controls) even though the operators do not -- the interface glues
+  across observers; only the God's-eye operator does not. Bonus: the physical profile intrinsically reproduces
+  the hyperfinite type III_1 factor.
+- **The sign-definitization kernel is DEAD (W108, exact kill).** Under mode-mixing with the physical shared
+  clock, both signs appear (the constraint fixes only total modular energy; a positive-norm mode slips under it);
+  0/200 generic couplings retain the structure; the completion back-door closes at both ends. W104's kernel was
+  a mode-diagonal artifact.
+FINAL SHAPE: the wall removes exactly the outside view (theorem-grade-on-model, W105+W106); the interface it
+leaves is typed, grading-relative, and observer-coherent (W103+W107); the rescues that would have made the wall
+curable are dead (W104+W108). The conjecture's honest physical form: an inside-complete, interface-coherent,
+outside-view-free observer structure.
+
 ## 0. WAVE-1 UPDATE (path 5, 2026-07-11) -- what the first assault established
 
 - **Payoff LOGIC proven (Branch D):** the Lawvere no-closure skeleton is machine-checked and the mapping onto the
