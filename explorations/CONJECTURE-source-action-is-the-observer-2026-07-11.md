@@ -33,6 +33,33 @@ symmetry-breaking selection) is realized by the value-selection half; the firewa
 realization is walled. Honest net: mechanism genuine + abstract theorem proven + value-selection rigorous; the
 full modular-conjugation firewall does NOT close. See explorations/break-sectorial-closure-interacting-2026-07-11.md.
 
+## -0.5 POST-RETRACTION STEELMAN TRIAGE (W103-W105) -- what survives the break, graded
+
+Three steelman routes were swung after the retraction; the results INVERTED the prior ranking and are graded:
+- **J-FREENESS / ONE-SIDEDNESS (strongest, VIABLE-EARNED at audit grade, W105):** computed set equality --
+  {quantities needing J} == {two-sided ex-ante}, exactly. Araki relative entropy needs only `log Delta_rel` (no
+  J, constructive); crossing symmetry is function-level analyticity (no operator J); the sharp mechanism: **the
+  W98 break is a SUP-LEVEL uniformity event, and every physical quantity is per-state and never takes the sup.**
+  What broke is precisely and only the two-sided (God's-eye) operations (CPT-as-operator, the Haag-duality map)
+  -- classified as two-sided BEFORE the audit, so not circular. The observer's full one-sided physics survives
+  J-free. Path: the per-state/sup separation theorem on the continuum model. Conditions C1-C4 named.
+- **ADAPTER / TAIL-QUOTIENT (PARTIAL, W103):** the obstruction factors EXACTLY through the tail quotient
+  ([C] = 2[P] singular; every finite mode clean; condition X descends to quotient-invertibility; falsifiable --
+  two counter-models where the break holds but the quotient claim fails). The wall has a TYPED SLOT: a positive
+  invertible metric at infinity on the asymptotic Krein-null line, essentially-complex (scalar-i) -- RELATED to
+  the Nguyen 3.1 interface slot (meta-type match, payload mismatch). The wall-as-located-interface reading has
+  model-grade structure.
+- **KREIN CROSSED PRODUCT (the rescue is KILLED, W104):** observer-dressing is conjugation by an eta-unitary and
+  modular time-shifts are exactly metric-preserving -> cond unchanged to machine precision (structural,
+  rank-independent). The CLPW mechanism cures state-level divergences; the W98 wall is metric-level. Kernel kept:
+  the positive-energy constraint definitizes IN SIGN (not in norm); the Krein crossed product exists at flow
+  level (a novel object). "Adding the observer cures the wall" is dead.
+NET: the retraction STANDS as an operator statement, but its scope is now precise -- what is walled is the
+two-sided/global-uniformity object; the one-sided per-state physics (= everything an inside-observer does) is
+J-free at audit grade. The honest reading of the wall: not "the realization failed" simpliciter, but "the theory
+retains the complete inside-observer physics and provably lacks only the outside view" -- earned this time by
+computation (W105), unlike the retracted W94 version.
+
 ## 0. WAVE-1 UPDATE (path 5, 2026-07-11) -- what the first assault established
 
 - **Payoff LOGIC proven (Branch D):** the Lawvere no-closure skeleton is machine-checked and the mapping onto the
