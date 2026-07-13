@@ -64,6 +64,20 @@ falsifier.
   modular conjugation) hits the type-III wall. NET: the credibility version is firmed (AS robust + abstract
   theorem stands); the full-GU blockbuster realization is walled at an operator-algebra frontier (type-III Krein
   definitizability), an inherited frontier problem, not a GU defect.
+- **THE LAST FORK SETTLED: HORN K -- the firewall is GENUINE, the realization is walled (W87).** The
+  removable-ghost escape (HORN Q: quasi-Hermitian => keep-and-grade trivial) is CLOSED, repo-native: the Reuter/AS
+  FP sits at f_2^2*=0 (the spin-2 ghost coupling is marginally-irrelevant/AF on BOTH branches -- beta_{f_2^2} is
+  g-independent, so the AS selection never touches it), so m2^2 -> 0 and ||C|| -> infinity on the AS branch too ->
+  Delta is non-definitizable -> GU's ghost is GENUINELY KEPT. Consequence (the two horns pull opposite ways):
+  HORN K denies GU the easy ghost-free upgrade, BUT PRESERVES the observer firewall as GENUINE (real indefinite
+  metric, unbounded metric-inverse = not similarity-removable, real value-selection) -> the observer =
+  source-action MECHANISM is intact; only its physical modular realization (type-III Tomita-Takesaki at infinite
+  rank) stays walled. NET FINAL STATE: the observer conjecture's mechanism is GENUINE (arena/value theorem H62,
+  Lawvere no-closure H63, genuine firewall W87), the ABSTRACT theorem STANDS, and the FULL physical realization is
+  complete MODULO one named operator-algebra frontier -- type-III Krein Tomita-Takesaki for a genuine
+  (non-definitizable) ghost -- plus the truncation-conditionality (the sole flip to HORN Q is a full FRG where
+  graviton loops lift f_2^2*>0; repo-native truncation + standard AS both give 0). An inherited frontier problem,
+  not a GU defect.
 - **PARTIALLY REVIVED (Branch C killed the symmetric version; Joe's reframe + Branch C2 revived 2 of 3 legs).**
   Branch C killed "three SYMMETRIC strata (1+1+1)". Joe reframed to **1 individual + 2 collective** = capability
   enclosures enforced at three levels, matching `Lambda^2_+ = 1+2`. Branch C2 (the defense-attorney swing) tested
