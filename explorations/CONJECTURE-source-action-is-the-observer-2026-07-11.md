@@ -7,6 +7,32 @@ value" model + the UV/guardian/paths-2-3-4 results). This file states the identi
 consequences, the rigorous skeleton, the first theorem to attempt, the checkable predictions, and the clean
 falsifier.
 
+## -1. RETRACTION (2026-07-11, W98) -- the sectorial closing BROKE under an interacting stress-test
+
+**The W94 "physical realization closes sectorially" result (Section 0, last bullet) is RETRACTED.** An adversarial
+break-test in a larger interacting / net-of-local-algebras model (W98) showed it was a finite-mode / mode-diagonal
+TOY ARTIFACT resting on a category error: W94 read the observer's region as a finite-RESOLUTION UV CUTOFF (finite
+rank, definitizable) rather than a genuine finite SPACETIME REGION (type III_1, infinite rank, Reeh-Schlieder). A
+region is not a cutoff. The three properties do NOT hold simultaneously: (P2) overlap coherence BREAKS under
+interactions (interacting double-cone modular conjugation is non-geometric/unsolved; adjacent-region J's disagree
+on the overlap, diverging in the UV); (P1 vs P3) are MUTUALLY EXCLUSIVE -- the mass gap protects locality but NOT
+definitizability (the Krein-doublet UV degeneracy is gap-independent), so FREE gives a bounded regional J but also
+a global one (P3 fails, ghost removable, closure vacuous) while INTERACTING gives no global J (P3 holds) but every
+finite region is non-definitizable (P1 fails). So the physical modular-CONJUGATION realization of the firewall is
+**WALLED AT EVERY LEVEL** (global AND sectorial) under a physical (non-UV-soft) interaction -- not just the global
+limit. The break is generic (the physical Weyl^2 ghost coupling is not UV-soft).
+
+**What SURVIVES the retraction (unchanged):** (a) the ABSTRACT Lawvere no-closure / arena-value theorem (H62/H63)
+-- it needs only the fixpoint-free J^2=1 grading LABEL-involution, never a bounded modular conjugation, so it
+stands unconditionally, GU-independent; (b) the VALUE-SELECTION half (the modular flow + Connes cocycle + section
+map, W91/W97) -- ALL-ORDERS RIGOROUS, positivity-free, needs no conjugation J; (c) all the credibility results
+(renormalizable + asymptotically free/safe + unitary; the four GU-independent theorem drafts; the Nguyen
+response). What is WALLED is specifically the identification "the firewall IS a bounded Tomita-Takesaki modular
+conjugation" -- there is no such J for a physical region. The conjecture's CORE (value = the observer's
+symmetry-breaking selection) is realized by the value-selection half; the firewall-as-modular-conjugation
+realization is walled. Honest net: mechanism genuine + abstract theorem proven + value-selection rigorous; the
+full modular-conjugation firewall does NOT close. See explorations/break-sectorial-closure-interacting-2026-07-11.md.
+
 ## 0. WAVE-1 UPDATE (path 5, 2026-07-11) -- what the first assault established
 
 - **Payoff LOGIC proven (Branch D):** the Lawvere no-closure skeleton is machine-checked and the mapping onto the
