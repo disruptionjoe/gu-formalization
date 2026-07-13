@@ -115,6 +115,7 @@ selected notes below and in each script header.
 - `symbolic_proofs_readme_inventory_audit.py`
 - `tests_manifest_count_audit.py`
 - `tests_root_readme_inventory_audit.py`
+- `threads_readme_inventory_audit.py`
 - `three_cycle_fifteen_hole_runbook_audit.py`
 - `three_generation_route_alternatives_audit.py`
 - `topological_generation_count_families_k3_chi_gate_audit.py`
@@ -289,6 +290,14 @@ added or archived without treating manifest counts as mathematical evidence.
 sector table in `tests/README.md` covers every tracked root certificate script exactly
 once and that row counts match the tracked root scripts. This protects the public
 reproduction map without running certificates or changing verdicts.
+
+## Threads README inventory gate
+
+`threads_readme_inventory_audit.py` checks that `tests/threads/README.md`
+names every direct thread audit script, resolves local companion-note links, and
+preserves the exploration / no-claim-status / no-verdict-change / no-public-posture
+boundary around the fast-moving A/B/C/D/E thread surface. This is a map and
+posture guard only; it does not run the thread scripts or change verdicts.
 
 ## Reproduction harness scope gate
 
