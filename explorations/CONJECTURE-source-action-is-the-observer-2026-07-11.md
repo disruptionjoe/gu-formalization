@@ -78,6 +78,26 @@ falsifier.
   (non-definitizable) ghost -- plus the truncation-conditionality (the sole flip to HORN Q is a full FRG where
   graviton loops lift f_2^2*>0; repo-native truncation + standard AS both give 0). An inherited frontier problem,
   not a GU defect.
+- **THE PHYSICAL REALIZATION CLOSES SECTORIALLY -- the last wall was the conjecture's own prediction (W88-W94).**
+  The full-FRG (W88) reduced the horn to eta_C; the type-III Krein-TT wave (W89-W93) found the GLOBAL modular
+  conjugation J rigorously WALLED (three converging routes) under HORN K, leaving one crack: a SECTORIAL/relative
+  J on a definitizable sub-sector. W94 built it (all four axioms, bounded) and closed the crack in the DEEP way:
+  (a) a sectorial J exists on every definitizable finite-k / region sub-sector (non-definitizability is ONLY the
+  k=infinity UV idealization; f_2^2(t)>0 at every finite scale); (b) the observer's firewall needs ONLY the
+  sectorial J (value-selection is positivity-free W91; the grading is exp-localized ~1/m W54; a physical observer
+  occupies a finite sub-sector); (c) THE EARNED RESOLUTION -- a bounded GLOBAL (observer-INDEPENDENT) J exists
+  IFF Delta is definitizable IFF the ghost is removable IFF the firewall is TRIVIAL (HORN Q); contrapositive, a
+  GENUINE firewall (HORN K) is NECESSARILY observer-relative, so the global J's non-existence IS the statement
+  "there is no observer-independent firewall" -- exactly what "source action = observer" asserts. The last wall
+  is a PASSED PREDICTION, not an obstruction. Decisive cross-check (D2): in ORDINARY QFT there is no
+  observer-independent global modular conjugation either (the geometric global J is wedge-only, Bisognano-
+  Wichmann) -- per-(region,state) modular conjugation is the STANDARD object; demanding a global one was always
+  the over-strong demand. NET FINAL STATE OF THE ARC: the observer conjecture's mechanism is GENUINE, the ABSTRACT
+  theorem is proven (unconditional, GU-independent), the VALUE-SELECTION is realized algebraically (positivity-
+  free), and the PHYSICAL modular realization CLOSES SECTORIALLY (observer-relative), with the global
+  non-existence reinterpreted as the conjecture's confirmed prediction. Grade: theorem on the toy; STRONG-ARGUMENT
+  for GU, conditional on (i) HORN K (truncation-conditional), (ii) the finite-resolution/region reading, (iii) the
+  W54 one-loop grade. Not a rigorous all-orders theorem; a strong, coherent, computed sectorial closing.
 - **PARTIALLY REVIVED (Branch C killed the symmetric version; Joe's reframe + Branch C2 revived 2 of 3 legs).**
   Branch C killed "three SYMMETRIC strata (1+1+1)". Joe reframed to **1 individual + 2 collective** = capability
   enclosures enforced at three levels, matching `Lambda^2_+ = 1+2`. Branch C2 (the defense-attorney swing) tested
