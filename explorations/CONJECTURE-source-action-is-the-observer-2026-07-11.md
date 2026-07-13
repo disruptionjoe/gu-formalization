@@ -7,6 +7,28 @@ value" model + the UV/guardian/paths-2-3-4 results). This file states the identi
 consequences, the rigorous skeleton, the first theorem to attempt, the checkable predictions, and the clean
 falsifier.
 
+## 0. WAVE-1 UPDATE (path 5, 2026-07-11) -- what the first assault established
+
+- **Payoff LOGIC proven (Branch D):** the Lawvere no-closure skeleton is machine-checked and the mapping onto the
+  physics is genuine (firewall grading-flip = the fixpoint-free swap; self-reference = the diagonal). The theorem
+  reduces to two lemmas (L1 = the map, L2 = the Krein `J^2=1` flip).
+- **The map is a STANDARD theorem modulo the critical path (Branch B):** `{F_tau} <-> Sect` at the selection level
+  IS the Connes Radon-Nikodym cocycle bijection; the rate is the quotiented fiber (rate-independence, theorem-
+  form), so the falsified "issuance rate" reading is provably NOT reintroduced.
+- **Core CORROBORATED (Branch E):** no arena-forcing of a genuine VALUE survives (self-dual-square relabels;
+  Willmore forces a ratio up-to-scale; f_2 is a dimensionless ratio). CAVEAT: the arena/value split is partly
+  SELF-SEALING -- it must be made a precise, non-circular partition or the theorem risks being true-by-definition.
+- **CRITICAL DEPENDENCY (Branch A):** the whole rigor rests on **Krein Tomita-Takesaki for non-positive
+  separating functionals + type III_1 of the indefinite region algebra** -- genuinely missing mathematics (the
+  modular-FLOW half survives a Krein space, Gottschalk 2002; the conjugation/positivity/KMS half does not). Also a
+  type correction: the modular conjugation is the ANTILINEAR `J_K = C.PT`, not the linear C-operator itself.
+- **WITHDRAWN (Branch C, falsified by its own sharp test):** "the three generations ARE the firewall's three
+  strata, the 2nd on the boundary" is FALSE -- the first domain-wall mode is boundary-localized not the middle,
+  generations are replicas not regions, and `Lambda^2_+ = 1+2` not `1+1+1`. Section 3's three-generations bullet
+  is retired as a structural claim (kept below struck-through for provenance). The observer identification
+  survives on A/B/D; this specific anchor does not.
+See explorations/path5-wave1-synthesis-2026-07-11.md.
+
 ## 1. The identification
 
 **The source action IS the observer.** Precisely: the source action is the object that selects the VALUE out of
@@ -38,10 +60,11 @@ selection surface = the source action, realized concretely (see the anchors) as 
   boundary / above = INDIVIDUAL / REGIONAL(holonic, sheaf-gluing) / GLOBAL). Forcing 3 = requiring the observer
   to exist -- which the geometry alone cannot force (it cannot force its own observer). The MIDDLE (regional)
   generation is the boundary-localized one (path 3: the count localizes on the boundary via anomaly inflow).
-- **Three generations = the observer's three levels.** Individual (stalk / bulk point), Regional
-  (holonic / sheaf gluing / H^1 boundary), Global (global section). Sheaf cohomology alone gives a TOWER; the
-  firewall (a single codim-1 partition) CAPS it at exactly three strata -- the sheaf structure and the firewall
-  need each other to force 3.
+- ~~**Three generations = the observer's three levels.** Individual (stalk), Regional (holonic / sheaf gluing /
+  H^1 boundary), Global (global section); the firewall caps the sheaf tower at three strata.~~ **[WITHDRAWN,
+  wave-1 Branch C: FALSE as stated -- the middle generation is not boundary-localized, generations are replicas
+  not regions, `Lambda^2_+ = 1+2` not `1+1+1`. The count leg of the conjecture is retired; the observer
+  identification survives without it.]**
 - **"Framework, not theory" becomes a NECESSITY, not a gap.** If the source action is the observer, forcing any
   value (count, mu_DW, DE magnitude, positivity-on-the-flow) is forcing the observer -- a category error. So the
   values are unforceable IN PRINCIPLE, and the day's uniform failure to force any value is explained, not
