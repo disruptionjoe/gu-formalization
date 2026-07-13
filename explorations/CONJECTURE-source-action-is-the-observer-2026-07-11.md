@@ -47,6 +47,23 @@ falsifier.
   inconsistency -- both standard-physics assumptions, both live branches in the test. So the observer conjecture
   is CONDITIONALLY COMPLETE on the physical sector, modulo (i)+(ii) and the still-open rank->1 Krein-TT / type-III
   mathematics. Loop-positivity (the credibility floor) closes REGARDLESS (positive-norm scalaron, W79).
+- **THE TWO CONDITIONS, ATTACKED (W84/W85) -- one firmed, one is a genuine wall, but the ABSTRACT theorem
+  survives.** (i) Reuter-FP-genuine: ROBUST (W85) -- the AS fixed point survives a second (exponential) regulator
+  on all load-bearing invariants (existence, # relevant directions, f_0^2 relevance, RS anti-screening sign);
+  condition (i) upgrades toward confirmed. (ii) rank->1 Krein-TT: a GENUINE RESIDUAL TYPE-III OBSTRUCTION (W84) --
+  the conditions do NOT collapse. PT-unbroken => quasi-Hermitian holds in finite dimensions but is FALSE at
+  infinite rank / type III (real-positive spectrum admits only a bounded metric with UNBOUNDED inverse,
+  Krejcirik-Siegl; Krein-selfadjoint operators are not generally definitizable, Langer). So a genuine independent
+  residual -- definitizability of Delta across the mode tower -- is NOT supplied by AS-selection, and the
+  repo-native indication (W52 ||C||->inf at the exceptional locus, at the free UV FP the AS trajectory approaches)
+  puts GU on the horn where the PHYSICAL modular realization does NOT close (a genuine kept ghost; the alternative
+  horn would make the ghost removable = keep-and-grade trivial). CRUCIAL SPLIT: the ABSTRACT Lawvere no-closure
+  theorem (H63) needs only the fixpoint-free LABEL-involution (J^2=1 on {admissible,inadmissible}), NOT the full
+  type-III modular conjugation -- so the ABSTRACT observer/symmetry-breaking theorem (H62+H63, the GU-independent
+  credibility headline) STANDS; only the PHYSICAL modular realization (source action = a genuine type-III Krein
+  modular conjugation) hits the type-III wall. NET: the credibility version is firmed (AS robust + abstract
+  theorem stands); the full-GU blockbuster realization is walled at an operator-algebra frontier (type-III Krein
+  definitizability), an inherited frontier problem, not a GU defect.
 - **PARTIALLY REVIVED (Branch C killed the symmetric version; Joe's reframe + Branch C2 revived 2 of 3 legs).**
   Branch C killed "three SYMMETRIC strata (1+1+1)". Joe reframed to **1 individual + 2 collective** = capability
   enclosures enforced at three levels, matching `Lambda^2_+ = 1+2`. Branch C2 (the defense-attorney swing) tested
