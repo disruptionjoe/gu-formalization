@@ -11,6 +11,20 @@ updated_at: "2026-07-07"
 `RESEARCH-PROGRAM.md`. Lead result (submission candidate, not yet posted):
 `papers/candidates/located-not-forced/`.*
 
+## If you are here from the paper
+
+For readers arriving from "A Self-Referential Valuation No-Go and the Forced Symmetry-Breaking of the Residual":
+
+- **Lean proof:** `Lean/GUFormalization/ResidualSelection.lean`. Kernel-check it from the repository root with
+  `lake env lean Lean/GUFormalization/ResidualSelection.lean` (toolchain pinned in `lean-toolchain`).
+- **Finite-instance confirmations:** `tests/W70_path5_D_lawvere.py`, `tests/W73_H62_arena_value_partition.py`,
+  and `tests/W99_theorem_finite_instances.py` (run each with `python <file>`).
+- **Claim-level honesty map:** `VERIFICATION.md`.
+- **Paper source:** `papers/candidates/observer-value-selection-theorem/submission/`.
+
+One caution: this is a large, active research repository. The paper is self-contained and does not depend on
+the rest of it.
+
 This program studies a **class of geometry** -- the Clifford-Rarita-Schwinger / chimeric-bundle *observerse* --
 as a candidate for the shape of physics. Its established result is a **class-level structural law**: this class
 of matter geometry is intrinsically vectorlike and cannot force its own chirality or generation count from

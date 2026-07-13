@@ -2,7 +2,7 @@
 
 What is machine-checked, and how to check it yourself. Repo: https://github.com/disruptionjoe/gu-formalization
 
-## 1. Lean 4 formalization (kernel-checked, 0 sorries)
+## 1. Lean 4 formalization (kernel-checked, 0 sorries, no axioms beyond the kernel)
 
 **File:** `Lean/GUFormalization/ResidualSelection.lean` (core Lean 4 only; no Mathlib import needed by this file).
 
@@ -16,6 +16,9 @@ Contents (paper mapping):
 | `gu_residual_not_row` | Theorem (I-a), concrete residual form `d = alpha . T . Delta` |
 | `no_invariant_valuation` / `gu_no_invariant_valuation` | Lemma C / Theorem (I-b) |
 | `not_fixpoint_free` | assumption A3 discharged for `B = Bool`, `alpha = not` |
+| `ti_diagSem_escapes` / `ti_diagSem_ne_at_own_index` | the further instantiation named in the paper's formalization remark: the same lemma instantiated for enumerated Boolean families (`Nat -> Bool`); a shape-level instantiation stated in this repo, not an import of any external project's theorem |
+
+Scope note (matches the paper exactly): what is kernel-checked is the shared lemma, its two-element-grading corollary (the paper's (I-a) and (I-b) at `B = Bool`), and the enumerated-family instantiation above. Part (II)'s partition reading is NOT formalized in Lean; its non-circularity check is the Python test below.
 
 **To check:** install [elan](https://github.com/leanprover/elan) (the repo's `lean-toolchain` pins Lean 4.32.0-rc1), then from the repo root:
 
