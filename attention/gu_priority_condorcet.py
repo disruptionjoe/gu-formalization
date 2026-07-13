@@ -57,7 +57,8 @@ ITEMS = {
     #   in Sp(32,32;H); every so(9,5)-covariant vertex commutes exactly, inherited to all loops). But loop
     #   POSITIVITY (weak ghost symmetry tr(C^dag C)=0, broken by IR regulators) needs an S-matrix -> the source
     #   action (H41). A missing OBJECT, not a missing calc. Routes to H41; dropped from the live set.
-    "H28": "Fermion masses / Yukawas: the SM is cleared only at GAUGE-GROUP grade. Does GU predict the mass hierarchy + mixings, or just the algebra? Where unification programs historically die. [orthodox]",
+    # H28 SUBSUMED by H64 (the mass hierarchy is now the observer's-selection / family-symmetry-breaking question).
+
     # H29 (Wave 12) NARROWED + H37 (Wave 13) NO-GO -> the count is PROVABLY located-not-forced within the built
     # (9,5) structure (fermion analog of H27). Seven-axis map (L0-L7): L0 baseline + L1-L6 selector-side all
     # LOCKED; L7 = the (9,5)/(7,7) signature was flagged as the sole live escape (= the old H19).
@@ -139,8 +140,21 @@ ITEMS = {
     #   degree-0 and gamma-traceless, residuals ~1e-16, not assumed). Sharpenings: (S1) the RS sector adds its OWN
     #   finite CLOSED counterterm set beyond pure Stelle (extends, not "same as"); (S2) conditional on the exact
     #   background-independent degree-0 projector. GU is renormalizable; positivity stays the sole open leg.
-    "H60": "FIRM THE ASYMPTOTIC-FREEDOM RESULT (de-risk indication->result, and it feeds the North Star): the H57 flow found AF at one loop / 2 couplings -- an INDICATION. Extend the truncation: (a) add the RS dimensionless couplings z_B, y_RS to the flow and recompute; (b) go to two loops on the pure-gravity sector; (c) run a genuine FRG/Reuter truncation, which can see a NON-GAUSSIAN fixed point the perturbative 2-coupling system cannot. Also pin c_RS_weyl with a real ker-Gamma heat-kernel (Stage 1 left it a named parameter). Confirms/upgrades AF and sharpens EXACTLY where loop-positivity bites (the negative fixed-ratio). Minimal version (add RS couplings to the existing one-loop system) = a SWING; the full FRG version = a FLOW. [heterodox/orthodox]",
-    "H59": "SETTLE KREIN LOOP-POSITIVITY AT THE NEGATIVE FIXED-RATIO (the terminal UV North Star): the H57 flow LOCATED the single point where the RG flow and the positivity frontier touch -- the wrong-sign conformal direction f_0^2/f_2^2<0 along the AF trajectory. Does the keep-and-grade Krein rescue [P,S]=0 make that negative-sign direction consistent at loop level? A YES UV-completes GU on BOTH axes (couplings AF + states Krein-graded); a NO would be the first genuine UV obstruction. This is the OPEN FRONTIER of PT/Krein QFT itself (no keep-and-grade rescue proven at loop level anywhere -- Kuntz 2024, Nakayama 2023, Bateman-Turok tree-only) and is gated on the source action -- frontier-hard, possibly not GU-decidable alone, but it is the North Star, demoted only by falsification not difficulty. [wild/philosopher]",
+    # H60 RESOLVED (H60 SWING) = CONFIRMED-FIRMER: AF is structural (the one-loop system is homogeneous-quadratic
+    #   -> forbids any isolated interacting FP for any ker-Gamma coefficient); c_RS_weyl tightened to [1.02,1.82].
+    #   Banked (W47). Dropped from the live set.
+    # H59 ADVANCED (path 2, the keep-and-grade loop-positivity BLIND WAVE + wave-2 swings, GU-independent framing)
+    #   -> a referee-grade MAP consolidated into papers/candidates/keep-and-grade-loop-cost/: loop unitarity of
+    #   4th-order gravity is a POSITIVITY-vs-CAUSALITY trade (4 constructions agree; no construction pays neither);
+    #   the grading is RG-stable for AF gravity across the interacting regime (BOUNDARY only at the free UV
+    #   endpoint); + a machine-checked NO-LOCAL-POSITIVE-METRIC theorem (kernel exp-localized ~1/m). Not a clean
+    #   proof or kill; a structural result. The loop-positivity question is now reframed INTO the observer
+    #   conjecture (the Krein grading = the admissibility firewall) -> H61/H63. Dropped as a standalone.
+    # --- OBSERVER-CONJECTURE HYPOTHESES (path 5 + the "source action = observer" conjecture, 2026-07-11) ---
+    "H61": "THE KREIN TOMITA-TAKESAKI CAMPAIGN (the observer conjecture's CRITICAL PATH): develop -- or survey the literature to decide blocked-vs-underdeveloped -- modular theory with a NON-POSITIVE separating functional on a type-III Krein/indefinite-metric region algebra, and establish whether the C-operator's antilinear partner J_K = C.PT is a genuine Krein modular conjugation (J^2=1, J A J = A', modular covariance) and whether the indefinite region algebra is type III_1. Path-5 Branch A: the modular-FLOW half of T-T survives a Krein space (Gottschalk 2002) but the conjugation/positivity/KMS half does not (no positive vacuum). Genuinely missing mathematics; a real math contribution INDEPENDENT of GU, and the single leg the whole conjecture (payoff theorem H63 + the Connes map) rests on. [wild/heterodox]",
+    "H62": "FIRM THE ARENA/VALUE PARTITION (the CHEAP GATE that governs the whole conjecture): make ARENA (forced dimensionless ratio / direction-up-to-scale / operator identity / UV-limit / discrete arena) vs VALUE (dimensionful scale / discrete selection) a PRECISE, NON-CIRCULAR partition. Path-5 Branch E flagged the split is partly SELF-SEALING -- it can reclassify any forced quantity as 'arena' -- so in-principle-unforceability is corroborated but partly definitional, and the payoff theorem risks being true-BY-DEFINITION. Cheap, and it GATES the expensive Krein-TT campaign (H61): if arena/value cannot be made non-circular, proving the no-closure theorem proves nothing. Highest leverage per unit cost. [philosopher/orthodox]",
+    "H63": "ASSEMBLE THE OBSERVER-CONJECTURE PAYOFF THEOREM (the Lawvere no-closure, within reach modulo H61 + the map): path-5 Branch D PROVED the categorical skeleton (a fixpoint-free endomorphism obstructs self-referential closure) and showed the physics mapping is GENUINE (firewall grading-flip = the swap; self-reference = the diagonal). Reduces to two lemmas: L1 (the {F_tau}<->Sect map is a point-surjection -- Branch B showed it IS the Connes Radon-Nikodym cocycle bijection at the selection level, dissolving the falsified rate reading) and L2 (the grading-flip is fixpoint-free -- needs H61's J^2=1). Prove everything provable now; state the clean reduction. Turns 'value unforceable in principle' from posture to theorem. Gated on H61 (L2), firmed by H62 (else true-by-definition). [heterodox]",
+    "H64": "THE MASS HIERARCHY AS THE OBSERVER'S SELECTION (the C2 wall = the reframed Yukawa question, subsumes H28): path-5 Branch C2 REVIVED the count leg ({1,3} + replicas FORCED by the 1+2 enclosure structure) but WALLED at the masses -- Schur forces the collective doublet mass-DEGENERATE (m_2=m_3), contradicted by the observed hierarchy; masses need family-symmetry BREAKING the enclosure structure does not supply. The conjecture reads this as: the masses are the VALUE the observer SELECTS by breaking the family symmetry. QUESTION: does the observer/source-action structure PREDICT the symmetry-breaking pattern (the hierarchy / mixings), or is it genuinely free (as arena/value predicts)? The sharpest experimental-contact question and the concrete test of whether the observer selects a PATTERN or an arbitrary value. [commercial/wild]",
     # H55 RESOLVED (Wave 36) = NO-CONSTRAINT. Krein-modified positivity is toothless on the gravity beta/alpha
     #   ratio (the ghost pole makes the spectral measure SIGNED -> forward c2 sign-indefinite; non-compact
     #   Sp(32,32;H) has no positive-definite invariant to restore the bound). The shape residual stays a small
@@ -249,7 +263,9 @@ ITEMS = {
     # torsion + the (9,5)/(7,7) signature flip (both proven structurally incapable of the 3-primary count --
     # route ZERO effort there). H47 (declare-and-build) is REFRAMED as the Track-2 branch header below; its
     # count-prediction is DEPRIORITIZED (the count is decoupled/source-action-gated, the worst first deliverable).
-    "H47": "[TRACK 2 branch header] DECLARE-AND-BUILD THE CONDITIONAL THEORY, extract NUMBERS: declare the honest leans ((9,5), |II|^2, B-carrier, geometric-posture) as explicit stated postulates and build the conditional theory to EMIT testable numbers, ranked cheap-and-decisive -- (1) the DE raw-H(z) vs actual DESI DR2 BAO likelihood (H46, cheapest kill-shot); (2) the spin-2/Weyl discriminator numbers (= H49's cheap face); (3) H6 the family-puzzle theorem. The count-prediction is DEPRIORITIZED (decoupled, gated, likely under-determined -- NOT the first deliverable, correcting the earlier framing). Firewall = the conditional-theorem form (never asserts its antecedent; 'count=3 given S' is a prediction of GU-given-S, not of GU) -> the branch does NOT change the North-Star stance. Track-2 deliverables ARE Track-1 tests; a Track-1 forcing win (H48) collapses the branch. [commercial/philosopher]",
+    # H47 (Track-2 declare-and-build) FOLDED: its deliverables were executed across the DE waves (H46 viable-as-
+    #   distance) and the GU-independent theorem papers (paths 2/3); the conditional-build framing is superseded by
+    #   the observer-conjecture direction. Dropped from the live set.
     # H35 (section-functor reframe) SUBSUMED by H48: the Willmore/GJMS uniqueness IS the functorial-identity
     #   forcing, now sharpened to a concrete self-dual-square test. Dropped from the live set.
     # H36 RESOLVED (via Wave 31): the observerse identification (DeWitt-Lambda = the observed dark-energy scale)
@@ -274,12 +290,20 @@ ITEMS = {
 # with H59. H30 (document the now-strong UV picture at referee grade) rises to a genuine bank-the-result option.
 # MODE: H60 minimal = SWING (add RS couplings to the one-loop system) escalating to FLOW (full FRG); H59 =
 # frontier research, not a clean swing/flow, gated on the source action.
+# RE-RANK after the OBSERVER-CONJECTURE arc (paths 2-5 + the "source action = observer" conjecture, 2026-07-11).
+# Generative re-rank: the council's 3-question reflection produced FOUR new hypotheses (H61 Krein-TT critical
+# path; H62 firm the arena/value partition = the cheap gate; H63 the Lawvere payoff theorem modulo H61; H64 the
+# mass hierarchy as observer-selection). RESOLVED/dropped: H57/H58/H60 (renormalizable + asymptotically free,
+# banked), H59 (advanced to the keep-and-grade paper), H28 (subsumed by H64), H47 (folded). The council's read:
+# H62 is the cheap GATE that governs whether the expensive Krein-TT campaign (H61) and the payoff theorem (H63)
+# are even worth mounting (a theorem true-by-definition is not the headline) -> H62 leads for orthodox/philosopher,
+# with heterodox leading H63 (the prize), wild leading H61 (the real math), commercial leading H64 (data contact).
 BALLOTS = {
-    "orthodox":            ["H60", "H30", "H59", "H52", "H28", "H47"],
-    "heterodox_rigorous":  ["H60", "H59", "H30", "H52", "H28", "H47"],
-    "commercial":          ["H60", "H30", "H59", "H52", "H28", "H47"],
-    "philosopher":         ["H59", "H60", "H30", "H52", "H28", "H47"],
-    "wild_frontier":       ["H59", "H60", "H30", "H47", "H52", "H28"],
+    "orthodox":            ["H62", "H63", "H64", "H61", "H52", "H30"],
+    "heterodox_rigorous":  ["H63", "H62", "H61", "H64", "H30", "H52"],
+    "commercial":          ["H64", "H62", "H63", "H52", "H61", "H30"],
+    "philosopher":         ["H62", "H63", "H61", "H64", "H30", "H52"],
+    "wild_frontier":       ["H61", "H63", "H62", "H64", "H52", "H30"],
 }
 
 
