@@ -22,12 +22,19 @@ falsifier.
   separating functionals + type III_1 of the indefinite region algebra** -- genuinely missing mathematics (the
   modular-FLOW half survives a Krein space, Gottschalk 2002; the conjugation/positivity/KMS half does not). Also a
   type correction: the modular conjugation is the ANTILINEAR `J_K = C.PT`, not the linear C-operator itself.
-- **WITHDRAWN (Branch C, falsified by its own sharp test):** "the three generations ARE the firewall's three
-  strata, the 2nd on the boundary" is FALSE -- the first domain-wall mode is boundary-localized not the middle,
-  generations are replicas not regions, and `Lambda^2_+ = 1+2` not `1+1+1`. Section 3's three-generations bullet
-  is retired as a structural claim (kept below struck-through for provenance). The observer identification
-  survives on A/B/D; this specific anchor does not.
-See explorations/path5-wave1-synthesis-2026-07-11.md.
+- **PARTIALLY REVIVED (Branch C killed the symmetric version; Joe's reframe + Branch C2 revived 2 of 3 legs).**
+  Branch C killed "three SYMMETRIC strata (1+1+1)". Joe reframed to **1 individual + 2 collective** = capability
+  enclosures enforced at three levels, matching `Lambda^2_+ = 1+2`. Branch C2 (the defense-attorney swing) tested
+  it and it EXPLAINS MORE: the irreducibility of the collective doublet FORCES the count menu {1,3} and FORBIDS 2
+  (the symmetric version merely permitted 2 -- machine-checked contrast), and the replicas follow from
+  frame-`SU(2)_+` commuting with the internal SM gauge group (gauge-singlet family). BUT the SAME irreducibility
+  is DOUBLE-EDGED: by Schur it forces the collective doublet MASS-DEGENERATE (m_2 = m_3), contradicted by the
+  observed hierarchy. So: the enclosure structure explains the COUNT {1,3} and the exact-REPLICA structure
+  (arena facts, better than any prior account), but NOT the mass hierarchy (a value), which needs family-symmetry
+  BREAKING the structure does not supply. This SHARPENS the arena/value model: the observer-forces/observer-
+  selects boundary runs exactly between (count + replicas = forced arena) and (masses = selected value). The
+  count leg is REVIVED for the discrete structure, WALLED at the masses.
+See explorations/path5-wave1-synthesis-2026-07-11.md and path5-branchC2-capability-enclosures-reframe-2026-07-11.md.
 
 ## 1. The identification
 
