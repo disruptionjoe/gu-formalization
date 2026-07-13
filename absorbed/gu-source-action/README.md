@@ -93,6 +93,12 @@ closure attempt, finite-fiber source-Noether/tau solve, and topological-wall tau
 complete; the next hourly work should supply concrete global boundary-condition/source-current data that
 selects one wall/tangent map without collapsing back to a fixed projector.
 
+**Update 2026-07-13: first global-boundary tau-data pass.** The current wall/tau family still does not
+select a wall from GU-native data. Local scalar rankings pick different walls, and an externally supplied
+current can pick one only because the current is supplied. The next object is actual source-current /
+derivative data, not another wall-ranking rule. See
+`GLOBAL-BOUNDARY-CONDITION-TAU-DATA-PACKET-2026-07-13.md`.
+
 `Agents Start Here.md` — the discipline, the spec, the dead-ends not to re-walk, and how to use the bridge.
 `DERIVATION-PROGRESS.md` — the running ledger (same compute -> adversarially-verify -> land discipline as the
 parent).
@@ -115,6 +121,9 @@ without treating it as GU evidence.
 `TOPOLOGICAL-WALL-TAU-SELECTOR-PACKET-2026-07-10.md` - fifth hourly-progress packet; records that spacelike
 wall involutions generate nonzero tangent selectors, but the admissible wall family remains underdetermined
 without a concrete global boundary condition.
+`GLOBAL-BOUNDARY-CONDITION-TAU-DATA-PACKET-2026-07-13.md` - sixth hourly-progress packet; records that
+available local scalar rankings and externally supplied current weights do not constitute GU-native
+source-current data, so wall selection remains externally keyed.
 `THETA-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
 theta/source-current route is blocked on the named missing `L_theta_source` carrier, with a
 targeted regression check.
