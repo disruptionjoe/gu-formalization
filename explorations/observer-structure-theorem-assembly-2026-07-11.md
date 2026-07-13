@@ -217,3 +217,40 @@ four named lifts, the forcing evidence (closed escape-hatches), and the discipli
 clause's survived kill-mode, vs the unpressed `W94`). Reproducible:
 `tests/W109_observer_structure_theorem.py` (10/10, exit 0); no regression in
 `W98`/`W105`/`W106`/`W107` (all exit 0, re-run 2026-07-13).
+
+## POST-ASSEMBLY HARDENING (W110-W114) -- the theorem after its viability wave
+
+The five follow-on swings strengthen two clauses, drop one assumption, cut two romantic extensions, and fix the
+story's framing. Recorded here so the theorem's statement stays current:
+
+1. **Clause 2 UPGRADED: pairwise -> presheaf-with-global-section (W110).** The interface comparison data
+   satisfies the cocycle condition on triple overlaps (potentials are a coboundary, identity < 1e-12), so a
+   GLOBAL interface CLASS exists and restricts to every region -- while no global OPERATOR exists at any level.
+   The sharpest form of the contrast is now computed, with a discriminating control (non-coplanar mixing gives a
+   genuine 0.403-rad holonomy failure, so the cocycle result is not vacuous).
+2. **U5 DROPPED as an assumption -> DERIVED-conditional (W110).** The mixing direction is a function of the
+   interaction's vertex phase alone (interaction-universality + one real grading-odd vertex + positive-real
+   modular weights); regional weights, running, momentum, rescalings all leave it immobile. Named residual
+   rotators (a second independently-running grading-odd vertex; a running CP phase) are absent at skeleton
+   grade. Bonus: UV self-protection -- the same degeneracy that builds the wall kills every bounded rotator at
+   the tail, so U5 need only hold asymptotically, where it is self-enforced.
+3. **Clause 3 STRENGTHENED: factorization-level invariance (W111).** Square-root rigidity (any X with X^2 = M
+   shares M's full metric family) makes the outside-view absence invariant across every factorization of the
+   fourth-order operator -- the wall cannot be evaded by passing to the first-order square root. (The romantic
+   fusion "squaring costs the outside view" is FALSE and cut; the earned replacement: squaring creates the
+   ghost, interaction creates the wall.)
+4. **HORN-Q-ROBUST CORE (W112):** every mathematical clause is a class-statement over Krein towers with the
+   coupling profile as parameter; HORN K's only role is whether GU's tower is IN the wall subclass. The
+   mathematics is horn-independent.
+5. **STORY FRAMING FIXED (W112 prior-art):** graded-factor finer invariants are an existing field (Jones;
+   Sutherland-Takesaki; closest: Buchholz-Longo graded-KMS). The tellable claim is the EXACT IDENTIFICATION of
+   which grading-sensitive object carries the Krein wall (the identity rel-modular-norm = cond; the
+   (algebra, state, grading, filtration) invariant; the four-cell transversality) -- NOT "grading-blindness
+   discovered". W106 = classical mechanism (Reed-Simon), new sharp application (the class boundary, the
+   mandatory-state audit).
+6. **Extensions cut cleanly (W111, W114):** the square-root fusion is dead (above); the slot-identity with the
+   Nguyen 3.1 wall is TWO-SLOTS (wall 2 admits a quaternionic filler, wall 1 forbids one; no stable index in
+   the metric-at-infinity payload -- only a Z_2 oddness, never the 3). Sharpened relation kept: both are
+   KRAMERS-PARITY walls, and the doublet->Cl(9,5) embedding is constructed (not a pun).
+7. **World contact (W113):** the theorem's conditioning IS the Petermann factor of EP photonics (exact
+   dictionary, measured physics -- Nature 576 (2019)); no new signature, honest confidence-grounding only.

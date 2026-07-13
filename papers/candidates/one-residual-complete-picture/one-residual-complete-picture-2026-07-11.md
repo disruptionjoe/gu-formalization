@@ -460,7 +460,15 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   register is precise: GU's dark energy is **falsified as the CPL summary DESI headlines, but viable as a
   distance model** -- the sector is *cornered* (no single `f_0` satisfies both the CPL contour and the raw BAO
   distances) rather than dead. This is a distinct non-CPL dark-energy model, not an accommodation and not a
-  clean kill.
+  clean kill. **CORRECTION (W113, the joint-profile re-run):** H46's residual "`f_0` tension" was a
+  fixed-amplitude-slice ARTIFACT. Profiling jointly over `(f_0, amplitude)` (amplitude analytically
+  marginalized): the canonical `f_0 = 0.125` sits INSIDE the joint `Delta chi^2 <= 1` band (`Delta = +0.10`;
+  band `f_0 in [0.04, 0.15]`, best `-3.27` at `f_0 = 0.10`, GU-beats-LCDM window `[0.005, 0.25]`). The ENTIRE
+  canonical exclusion lives in a single direction: GU needs the BAO amplitude `+1.81%` above the Planck
+  calibration (pinning it costs `chi^2 = +41.3`). So the honest current statement: the shape AND the canonical
+  `f_0` are both viable; the sector's one residual exclusion is an amplitude-calibration direction, not a shape
+  or parameter tension. (`tests/W113`, reproduces H46's numbers exactly before extending; no DESI DR3 BAO exists
+  as of 2026-07.)
 - **The gravity sector survives a direct kill attempt, but the "Lambda emerges" headline does not.** An
   adversarial probe of the Bach/Weyl graviton sector (H49, `explorations/wave28/`) confirmed GU's linearized
   operator IS the conformal/Bach operator (`box^2 h = -4 Bach`, re-derived) and then found that on the favored
