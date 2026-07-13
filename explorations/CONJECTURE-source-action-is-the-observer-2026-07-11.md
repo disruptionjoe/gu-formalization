@@ -34,6 +34,19 @@ falsifier.
   separating functionals + type III_1 of the indefinite region algebra** -- genuinely missing mathematics (the
   modular-FLOW half survives a Krein space, Gottschalk 2002; the conjugation/positivity/KMS half does not). Also a
   type correction: the modular conjugation is the ANTILINEAR `J_K = C.PT`, not the linear C-operator itself.
+- **THE UV HINGE RESOLVED, CONDITIONALLY: AS-SELECTED-CLOSES (W77-W83).** The critical path unified the observer
+  Krein-TT leg with UV loop-positivity (both = "is the modular/grading Delta PT-unbroken?", H61a). The residual
+  reduced to the conformal-scalaron sign f_0^2, which the ASYMPTOTICALLY-FREE completion FORCES negative (a
+  background-independent tachyon -> PT-broken -> no-go; W79/W80), with the native ker-Gamma RS heat-kernel giving
+  d_RS_R2=0 so the AF sign is not natively rescued (E1 closed, W82). BUT the FRG f(R)+Weyl^2 computation (W83)
+  SELECTS the fork by a principle: only the ASYMPTOTIC-SAFETY (Reuter FP) branch is simultaneously UV-complete AND
+  IR-non-tachyonic (on AF the non-tachyonic f_0^2>0 theory Landau-poles; on AS the f_0^2>0 relevant trajectory
+  reaches the Reuter FP, f_0^2=+0.128), and GU's ker-Gamma RS matter PRESERVES that Reuter FP (inside the DEP
+  bounds). So sign(f_0^2)=POSITIVE on the selected branch -> the observer Krein-TT spin-0 leg CLOSES. CONDITIONAL
+  on (i) the Reuter FP being genuine (not a scheme artifact) and (ii) the W79 tachyon being a genuine IR
+  inconsistency -- both standard-physics assumptions, both live branches in the test. So the observer conjecture
+  is CONDITIONALLY COMPLETE on the physical sector, modulo (i)+(ii) and the still-open rank->1 Krein-TT / type-III
+  mathematics. Loop-positivity (the credibility floor) closes REGARDLESS (positive-norm scalaron, W79).
 - **PARTIALLY REVIVED (Branch C killed the symmetric version; Joe's reframe + Branch C2 revived 2 of 3 legs).**
   Branch C killed "three SYMMETRIC strata (1+1+1)". Joe reframed to **1 individual + 2 collective** = capability
   enclosures enforced at three levels, matching `Lambda^2_+ = 1+2`. Branch C2 (the defense-attorney swing) tested
