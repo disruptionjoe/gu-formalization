@@ -116,3 +116,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out added the Thread A5 constant-section `Rperp_0` invariant gate, showing the full A3+A4 tensor is DeWitt-non-null with raw contraction `171/64` and an orthogonal commutator/ambient split, while leaving full higher-codimension Willmore EL assembly open. See `steward/runs/2026-07-12-progress-fanout-384-a5-rperp-invariants.md`.
 - Progress fan-out added the Thread A6 constant-section Simons-stress gate, showing `Q^TF(B0)=0` under both exact DeWitt-pair and legacy ordered-index contractions, while leaving `Delta^perp H0`, `Rperp_0`, and ambient-term assembly open. See `steward/runs/2026-07-12-progress-fanout-386-a6-simons-background.md`.
 - Progress fan-out added W86, a regulator shape-parameter sweep over `r_s(y)=s*y/(e^y-1)` that keeps the Reuter-FP qualitative gates shape-stable at first-swing/proxy grade while preserving the full combined FRG residual. See `steward/runs/2026-07-12-progress-fanout-393-w86-regulator-shape-sweep.md`.
+
+## 2026-07-13
+
+- Progress fan-out added the Thread A7 background-assembly inventory gate so A3-A6 computed slots and the open `Delta^perp H0` / `Rperp_0` EL insertion / ambient-term / full-background / M-linearization / OQ2-A slots stay explicit before the next higher-codimension Willmore swing. See `steward/runs/2026-07-13-progress-fanout-a7-background-assembly-inventory.md`.
