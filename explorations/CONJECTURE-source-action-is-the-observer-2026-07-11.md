@@ -16,8 +16,20 @@ falsifier.
   IS the Connes Radon-Nikodym cocycle bijection; the rate is the quotiented fiber (rate-independence, theorem-
   form), so the falsified "issuance rate" reading is provably NOT reintroduced.
 - **Core CORROBORATED (Branch E):** no arena-forcing of a genuine VALUE survives (self-dual-square relabels;
-  Willmore forces a ratio up-to-scale; f_2 is a dimensionless ratio). CAVEAT: the arena/value split is partly
-  SELF-SEALING -- it must be made a precise, non-circular partition or the theorem risks being true-by-definition.
+  Willmore forces a ratio up-to-scale; f_2 is a dimensionless ratio).
+- **The arena/value split is FIRMED as NON-CIRCULAR (H62, W73):** the SYMMETRY characterization survives and
+  sorts every decided case (0 misses, vs 3 for dimensional and 2 for discrete/continuous). **ARENA = invariant of
+  the unbroken observer-invariant symmetry / RG-fixed-point data; VALUE = requires symmetry-BREAKING (a
+  vacuum/frame/direction choice) to specify.** Non-circular because invariance-vs-breaking is a group-theoretic /
+  RG fact (Schur, invariant-subspace lattice, sign of a one-loop beta) computable BEFORE any forcing analysis, so
+  "invariant => forced" is synthetic not analytic. And it coincides with the conjecture: VALUE = requires breaking
+  = a vacuum SELECTION = exactly the observer's act. Discriminating cases sorted: mass ratios
+  (dimensionless-but-FREE -> VALUE, need breaking), f_2 (continuous-but-FORCED -> ARENA, RG-fixed). Falsifiable:
+  two describable worlds where "arena forced, value selected" is false (both checked ABSENT); loop positivity is
+  the LIVE version (an arena property predicted forced -> couples H62 to H61). CONSEQUENCE: H63 (the payoff
+  theorem) must be stated in SYMMETRY-BREAKING language ("no closure without a residual symmetry-breaking
+  selection = observer vacuum choice"), NOT the circular forced/unforced language. CAVEAT: the split may be
+  GENERIC (Curie's principle) rather than GU-unique -- do not claim GU-uniqueness; generic != vacuous.
 - **CRITICAL DEPENDENCY (Branch A):** the whole rigor rests on **Krein Tomita-Takesaki for non-positive
   separating functionals + type III_1 of the indefinite region algebra** -- genuinely missing mathematics (the
   modular-FLOW half survives a Krein space, Gottschalk 2002; the conjugation/positivity/KMS half does not). Also a
