@@ -13,7 +13,7 @@ updated_at: "2026-07-07"
 
 ## If you are here from the paper
 
-For readers arriving from "No Symmetric Self-Valuation: A Diagonal No-Go and a Symmetry-Breaking Classification of Valuations":
+For readers arriving from "A Diagonal No-Go for Self-Valuations and an Invariance Classification":
 
 - **Lean proof:** `Lean/GUFormalization/ResidualSelection.lean`. Kernel-check it from the repository root with
   `lake env lean Lean/GUFormalization/ResidualSelection.lean` (toolchain pinned in `lean-toolchain`).

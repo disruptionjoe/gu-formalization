@@ -1,54 +1,63 @@
-# Reproduction pointer -- observer/value-selection theorem
+# Reproduction pointer — diagonal self-valuation paper
 
-What is machine-checked, and how to check it yourself. Repo: https://github.com/disruptionjoe/gu-formalization
+This note states exactly what is machine-checked for *A Diagonal No-Go for Self-Valuations and an Invariance Classification* and how to reproduce the checks. Repository: <https://github.com/disruptionjoe/gu-formalization>
 
-## 1. Lean 4 formalization (kernel-checked, 0 sorries, no axioms beyond the kernel)
+## 1. Lean 4 formalization
 
-**File:** `Lean/GUFormalization/ResidualSelection.lean` (core Lean 4 only; no Mathlib import needed by this file).
+The paper-specific source is `Lean/GUFormalization/ResidualSelection.lean`. It uses Lean core only; that file does not import Mathlib.
 
-Contents (paper mapping):
-
-| Lean theorem | Paper statement |
+| Lean declaration | Paper statement |
 |---|---|
-| `lawvere_fixed_point` | Lemma L (Lawvere weak fixed-point, Yanofsky form) |
-| `residual_escapes` | the "residual is not a row" engine (contrapositive form) |
-| `gu_no_closure` | Theorem (I-a), no weakly point-surjective `T : A x A -> Bool` |
-| `gu_residual_not_row` | Theorem (I-a), concrete residual form `d = alpha . T . Delta` |
-| `no_invariant_valuation` / `gu_no_invariant_valuation` | Lemma C / Theorem (I-b) |
-| `not_fixpoint_free` | assumption A3 discharged for `B = Bool`, `alpha = not` |
-| `ti_diagSem_escapes` / `ti_diagSem_ne_at_own_index` | the further instantiation named in the paper's formalization remark: the same lemma instantiated for enumerated Boolean families (`Nat -> Bool`); a shape-level instantiation stated in this repo, not an import of any external project's theorem |
+| `residual_escapes` | Pointwise diagonal lemma: for fixed-point-free `alpha : B -> B`, each row `T a0` disagrees somewhere with `x |-> alpha (T x x)` |
+| `lawvere_fixed_point` | Weak Lawvere fixed-point lemma |
+| `no_closure` | No weakly point-surjective `T : A -> A -> B` when a fixed-point-free endomap of `B` exists |
+| `no_invariant_valuation` | For inhabited `A`, no `p : A -> B` is pointwise invariant under a fixed-point-free endomap |
+| `not_fixpoint_free` | Boolean negation has no fixed point |
+| `gu_residual_not_row` | Boolean instance of the pointwise diagonal lemma |
+| `gu_no_closure` | Boolean instance of the no-WPS theorem |
+| `gu_no_invariant_valuation` | Boolean instance of the no-invariant-valuation theorem |
 
-Scope note (matches the paper exactly): what is kernel-checked is the shared lemma, its two-element-grading corollary (the paper's (I-a) and (I-b) at `B = Bool`), and the enumerated-family instantiation above. Part (II)'s partition reading is NOT formalized in Lean; its non-circularity check is the Python test below.
+The Lean function type `A -> A -> B` is the curried form of a set-theoretic function on `A × A`. The source proves the theorem for arbitrary Lean types `A` and `B`, with the displayed hypotheses. The paper's set-level group-action classification, examples, prior-art analysis, and interpretation are not formalized in Lean. The later `ti_*` declarations in the same file are a separate shape-level application and are not evidence for this paper.
 
-**To check:** install [elan](https://github.com/leanprover/elan) (the repo's `lean-toolchain` pins Lean 4.32.0-rc1), then from the repo root:
+From the repository or deposit-package root, using the version pinned in `lean-toolchain`:
 
-```
-lake env lean Lean/GUFormalization/ResidualSelection.lean
-```
-
-Exit 0 with no output means the kernel accepted every proof. (`lake build` also works but pulls the full Mathlib dependency of the wider package; the single-file check above is sufficient for this paper.)
-
-## 2. Finite-instance confirmations (Python, stdlib only)
-
-Confirmation, NOT proof -- the paper's proof is Lemmas L and C and does not depend on any run. Python 3.9+:
-
-```
-python tests/W99_theorem_finite_instances.py   # the paper's dedicated cert: (I-a),(I-b) exhaustive
-                                               # over ALL T for |A| in {1,2,3}; Cantor cross-check;
-                                               # control (alpha = id) and third-grade counterexample;
-                                               # (II) partition check
-python tests/W70_path5_D_lawvere.py            # Lawvere/Yanofsky skeleton, exhaustive small instances;
-                                               # canonical-instance cross-checks; fixpoint-free grading flip
-python tests/W73_H62_arena_value_partition.py  # non-circularity of the arena/value partition
-                                               # (the symmetry characterization sorts; rivals fail)
+```text
+lake -Kjobs=1 build +GUFormalization.ResidualSelection
+lake env lean Lean/GUFormalization/ResidualSelectionAxioms.lean
 ```
 
-Each is deterministic and exits 0 on success. Or run the whole repo harness: `python scripts/reproduce_all.py --quick`.
+The first command builds only the proof module, with Lake's job count fixed at one. The second prints the axiom dependencies for the paper-facing theorems; the checked release receipt is recorded in this package's `VERIFICATION.md`. In an already configured clone, `lake env lean Lean/GUFormalization/ResidualSelection.lean` is also a valid direct single-file check.
 
-## 3. Claim-level map
+## 2. Dedicated finite-instance confirmation
 
-`VERIFICATION.md` at the repo root, flagship row (a), is the claim-level honesty map for this result: the abstract theorem is graded L1 (proven mathematics, confidence HIGH); its physical reading is graded L3 (confidence LOW) and is explicitly disclaimed in the paper's Section "What the theorem does NOT establish" (the attempted operator-algebra realization is recorded there as a break, not a result).
+`tests/W99_theorem_finite_instances.py` is deterministic, standard-library-only confirmation, not proof. It exhaustively checks small finite cases of:
 
-## 4. Paper source
+- pointwise twisted-diagonal escape for fixed-point-free actions;
+- nonexistence of WPS maps for codomains of sizes two and three;
+- the pointwise invariance criterion;
+- the Cantor specialization;
+- identity, singleton-codomain, fixed-middle-grade, and fixed-point-free three-cycle controls.
 
-Markdown source: `papers/candidates/observer-value-selection-theorem/observer-value-selection-theorem-2026-07-11.md`. The LaTeX in this folder (`main.tex`) is a faithful conversion with a bibliography; the honesty architecture (novelty grade (b), the limits section, the vacuity disclosure) is preserved verbatim in content.
+Run with Python 3.9 or later:
+
+```text
+python tests/W99_theorem_finite_instances.py
+```
+
+The identity control is deliberately two-part: an identity-twisted diagonal can equal a row, while WPS still fails for a two-element codomain. Thus the test does not confuse representing one diagonal with representing every valuation.
+
+The repository also contains `W70` and `W73`, which predate this paper and test broader GU research ideas. They are not part of this paper's evidence package and are not needed to reproduce its claims.
+
+## 3. Claim-level verification
+
+The release-specific result, scope, command transcript, axiom receipt, source/PDF checks, and file hashes are recorded in `submission/VERIFICATION.md`. The repository-wide honesty map remains at `VERIFICATION.md`, flagship row (a).
+
+The mathematical result is graded L1: it follows from the stated assumptions and is independent of computation. Any observer, physical, or GU reading is at most an L3 interpretation and is explicitly excluded from the theorem's mathematical content.
+
+## 4. Sources
+
+- Markdown source: `papers/candidates/observer-value-selection-theorem/observer-value-selection-theorem-2026-07-11.md`
+- LaTeX source: `papers/candidates/observer-value-selection-theorem/submission/main.tex`
+- Compiled artifact: `papers/candidates/observer-value-selection-theorem/submission/main.pdf`
+
+The Markdown and LaTeX state the same mathematical claims. The LaTeX file is the release source of record because it is the source used to build the deposited PDF.
