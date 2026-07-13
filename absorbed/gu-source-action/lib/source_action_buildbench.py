@@ -5,10 +5,10 @@ plan. It forces each candidate to declare its field space, invariance
 assumption, phase, hard-guard status, computable loss channels, and named
 missing carriers.
 
-After the minimal BV/Koszul-Tate closure attempt, the default A-door row
-advances to the source-Noether/tau handoff. The finite-fiber closure witness is
-useful, but it still used a projected gauge map rather than a source-derived
-Noether differential.
+After the topological-wall tau selector attempt, the default A-door row advances
+to the global-boundary-condition tau-data handoff. Wall-like data can generate
+nonzero tangent selectors, but the current repo still lacks a GU-native boundary
+condition that selects one wall/tangent map uniquely.
 """
 
 from __future__ import annotations
@@ -50,6 +50,8 @@ class CandidatePhase(str, Enum):
     A_DOOR_FORK = "a_door_fork"
     BV_CLOSURE = "bv_closure"
     SOURCE_NOETHER_TAU = "source_noether_tau"
+    DERIVATIVE_TAU_HOMOMORPHISM = "derivative_tau_homomorphism"
+    GLOBAL_BOUNDARY_CONDITION_TAU = "global_boundary_condition_tau"
     BOUNDARY_BRIDGE = "boundary_bridge"
     DOWNSTREAM_SELECTOR = "downstream_selector"
     CONTROL = "control"
@@ -155,6 +157,10 @@ def _next_action(candidate: BuildbenchCandidate, verdict: BuildbenchVerdict) -> 
         return "do not use the current boundary symbol as an APS index; wait for a BV-to-boundary-Dirac bridge"
     if verdict == BuildbenchVerdict.DOWNSTREAM_PREMATURE:
         return "defer selection until declaration, A-door, BV closure, and bridge candidates exist"
+    if candidate.phase == CandidatePhase.GLOBAL_BOUNDARY_CONDITION_TAU:
+        return "supply the concrete global boundary condition or source current that selects one wall/tangent map"
+    if candidate.phase == CandidatePhase.DERIVATIVE_TAU_HOMOMORPHISM:
+        return "supply derivative-level tau/d_aleph data that selects the tangent part without reverting to a fixed projector"
     if candidate.phase == CandidatePhase.SOURCE_NOETHER_TAU:
         return "derive the projected BV/KT gauge differential from a source-level Noether/tau carrier"
     if candidate.phase == CandidatePhase.BV_CLOSURE:
@@ -209,22 +215,25 @@ def default_buildbench_candidates() -> tuple[BuildbenchCandidate, ...]:
 
     return (
         BuildbenchCandidate(
-            name="sg4-minimal-bv-kt-finite-fiber-closure",
+            name="sg4-topological-wall-tau-underdetermined",
             description=(
-                "The anchor-scale A-door fork now has a finite-fiber BV/Koszul-Tate "
-                "closure witness after projection into ker Gamma, while leaving the "
-                "source-derived Noether/tau carrier open."
+                "The topology/wall lens generates nonzero tangent selectors that "
+                "pass finite-fiber Noether, H-linear, Krein, and anchor checks, "
+                "but the wall family remains underdetermined."
             ),
             field_space=FieldSpaceDeclaration.FULL_VECTOR_SPINOR,
             invariance=InvarianceAssumption.ANCHOR_SCALE_A_DOOR_PARTIAL,
-            phase=CandidatePhase.SOURCE_NOETHER_TAU,
+            phase=CandidatePhase.GLOBAL_BOUNDARY_CONDITION_TAU,
             assumptions=(
                 "No forbidden target numerology, fitted holonomy, or fitted rank is used.",
                 "The bare commutator anchor is preserved.",
-                "Anchor-scale non-null scalar-spinor shifts are not tangent to ker Gamma.",
                 "The raw gauge map remains second-class before projection.",
                 "The projected finite-fiber BV/Koszul-Tate bicomplex closes.",
-                "The source-derived Noether/tau carrier remains open.",
+                "The finite-fiber tau multiplier derives the projection as a Schur complement.",
+                "Noether leaves arbitrary tangent maps in ker Gamma unselected.",
+                "Spacelike wall involutions generate nonzero tangent selectors.",
+                "The current data do not select one wall/tangent map uniquely.",
+                "A global boundary-condition/source-current carrier remains open.",
             ),
         ),
         BuildbenchCandidate(
@@ -302,6 +311,16 @@ def buildbench_summary(reports: Sequence[BuildbenchReport]) -> dict[str, object]
     next_point = (
         "ANCHOR-SCALE-A-DOOR"
         if ready_for_anchor
+        else "GLOBAL-BOUNDARY-CONDITION-TAU-DATA"
+        if any(
+            report.candidate.phase == CandidatePhase.GLOBAL_BOUNDARY_CONDITION_TAU
+            for report in reports
+        )
+        else "DERIVATIVE-TAU-HOMOMORPHISM"
+        if any(
+            report.candidate.phase == CandidatePhase.DERIVATIVE_TAU_HOMOMORPHISM
+            for report in reports
+        )
         else "SOURCE-NOETHER-TAU-CARRIER"
         if any(report.candidate.phase == CandidatePhase.SOURCE_NOETHER_TAU for report in reports)
         else "MINIMAL-BV-CLOSURE"

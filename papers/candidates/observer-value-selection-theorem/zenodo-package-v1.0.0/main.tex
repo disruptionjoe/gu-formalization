@@ -1,0 +1,318 @@
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[margin=1.2in]{geometry}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage[hidelinks]{hyperref}
+\hypersetup{
+  pdftitle={A Diagonal No-Go for Self-Valuations and an Invariance Classification},
+  pdfauthor={Joe Hernandez},
+  pdfsubject={Set-level diagonalization and valuation invariance},
+  pdfkeywords={diagonal argument, weak point-surjectivity, valuation no-go, invariance, self-reference, Lawvere fixed-point theorem}
+}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{example}[theorem]{Example}
+\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\id}{\mathrm{id}}
+
+\title{A Diagonal No-Go for Self-Valuations and an\\ Invariance Classification}
+\author{Joe Hernandez\thanks{Independent Researcher. Email: joe@disruptionjoe.com}}
+\date{July 2026}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Let $A$ and $B$ be sets. A valuation is a function $p\colon A\to B$, and a candidate self-enumeration is a function $T\colon A\times A\to B$ whose rows are intended to exhaust all valuations. Given a fixed-point-free map $\alpha\colon B\to B$, we prove two elementary facts. First, no such $T$ is weakly point-surjective, and for every $T$ the diagonal valuation $d_T(a)=\alpha(T(a,a))$ is absent from its rows. Second, if $A$ is nonempty, no valuation is $\alpha$-invariant. For $B=\{0,1\}$ and $\alpha$ the swap, the first fact is the Cantor--Lawvere diagonal argument and the second is a pointwise fixed-point observation. A group action on $B$ also induces the standard classification of valuations as invariant or non-invariant; under the swap, every valuation lies in the latter class. This classification adds no selection theorem. Observer, admissibility, and symmetry-breaking language is offered only as interpretation. The contribution is a specific synthesis of known pieces, not a new fixed-point or symmetry theorem. The function-level core and its Boolean corollaries are machine-checked in Lean~4; the interpretive classification is not formalized.
+\end{abstract}
+
+\noindent\textbf{MSC 2020:} 03E20 (primary); 18A15, 03A05 (secondary).\\
+\textbf{Keywords:} diagonal argument; weak point-surjectivity; valuation no-go; invariance; self-reference; Lawvere fixed-point theorem.
+
+\section{Set-level setting}
+\label{sec:setting}
+
+The theorem is stated in $\mathbf{Set}$. This choice is deliberate: equality of functions, equality of rows, and elementwise representation then have their ordinary extensional meanings. No morphism-level conclusion in an arbitrary category is claimed.
+
+Let $A$ be a set of codes or states and let $B$ be a set of values. A \emph{valuation} is a function $p\colon A\to B$. A function $T\colon A\times A\to B$ supplies, for each $a_0\in A$, a row
+\[
+T_{a_0}\colon A\to B,\qquad T_{a_0}(x)=T(a_0,x).
+\]
+We call $T$ \emph{weakly point-surjective} if every valuation is a row:
+\[
+\forall p\colon A\to B\;\exists a_0\in A\;\forall x\in A,
+\quad T(a_0,x)=p(x).
+\]
+This is the uncurried Set-level form of Lawvere's weak point-surjectivity: $T$ plays the role of the transpose of a map $A\to B^A$ \cite{lawvere1969,yanofsky2003}.
+
+Let $\alpha\colon B\to B$ be a map. It is \emph{fixed-point-free} when
+\[
+\forall b\in B,\qquad \alpha(b)\neq b.
+\]
+The intended two-valued instance is $B=\{0,1\}$ with $\alpha(0)=1$ and $\alpha(1)=0$. The proofs do not require $B$ to have exactly two elements, and the diagonal result does not require $\alpha$ to be an involution. Involutivity is used only when $\alpha$ is read as the nontrivial element of a $\mathbb{Z}/2$ action.
+
+\section{The no-go theorem}
+\label{sec:theorem}
+
+\begin{theorem}[Diagonal and invariant-valuation no-go]
+\label{thm:main}
+Let $A$ and $B$ be sets and let $\alpha\colon B\to B$ be fixed-point-free.
+\begin{enumerate}
+\item For every $T\colon A\times A\to B$, the diagonal valuation
+\[
+d_T(a)=\alpha(T(a,a))
+\]
+is not a row of $T$. Consequently no weakly point-surjective $T\colon A\times A\to B$ exists.
+\item If $A$ is nonempty, then no valuation $p\colon A\to B$ is $\alpha$-invariant; equivalently, there is no $p$ satisfying $\alpha(p(a))=p(a)$ for every $a\in A$.
+\end{enumerate}
+\end{theorem}
+
+The two conclusions are separate. The first concerns enumeration of all functions $A\to B$; the second concerns invariance of a single function and uses nonemptiness of $A$.
+
+\section{Proof}
+\label{sec:proof}
+
+\begin{lemma}[Weak Lawvere fixed-point lemma \cite{lawvere1969,yanofsky2003}]
+\label{lem:lawvere}
+If $T\colon A\times A\to B$ is weakly point-surjective, then every map $\alpha\colon B\to B$ has a fixed point.
+\end{lemma}
+
+\begin{proof}
+Define $f\colon A\to B$ by $f(a)=\alpha(T(a,a))$. Weak point-surjectivity supplies $a_0\in A$ such that $T(a_0,x)=f(x)$ for every $x\in A$. Evaluating at $a_0$ gives
+\[
+T(a_0,a_0)=f(a_0)=\alpha(T(a_0,a_0)),
+\]
+so $T(a_0,a_0)$ is a fixed point of $\alpha$.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}(1)]
+Fix $T$ and a candidate row $a_0\in A$. At the row's own index,
+\[
+d_T(a_0)=\alpha(T(a_0,a_0))\neq T(a_0,a_0),
+\]
+because $\alpha$ is fixed-point-free. Thus $d_T\neq T_{a_0}$. Since this holds for every $a_0$, $d_T$ is not a row. A weakly point-surjective $T$ would have to contain $d_T$ as a row, so none exists. This is also the contrapositive engine of Lemma~\ref{lem:lawvere}.
+\end{proof}
+
+\begin{lemma}[Pointwise fixed-point observation]
+\label{lem:pointwise}
+Let $p\colon A\to B$. If $\alpha(p(a))=p(a)$ for every $a\in A$, then every value in the image of $p$ is a fixed point of $\alpha$.
+\end{lemma}
+
+\begin{proof}
+For each $a\in A$, the displayed equality is exactly the statement that $p(a)$ is fixed by $\alpha$.
+\end{proof}
+
+\begin{proof}[Proof of Theorem~\ref{thm:main}(2)]
+Choose $a\in A$. If $p$ were $\alpha$-invariant, Lemma~\ref{lem:pointwise} would make $p(a)$ a fixed point of $\alpha$, contradicting fixed-point-freeness.
+\end{proof}
+
+\section{Invariance classification}
+\label{sec:classification}
+
+Let a group $G$ act on $B$. It acts on valuations by post-composition:
+\[
+(g\cdot p)(a)=g\cdot p(a).
+\]
+A valuation is \emph{$G$-invariant} if $g\cdot p=p$ for every $g\in G$, and \emph{non-invariant} otherwise. This is a group-action-theoretic criterion depending on the action and on $p$. No general algorithmic decidability claim is intended.
+
+\begin{corollary}
+\label{cor:classification}
+Suppose $A$ is nonempty and $\alpha\colon B\to B$ is a fixed-point-free involution. Under the $\mathbb{Z}/2$ action generated by $\alpha$, every valuation $p\colon A\to B$ is non-invariant.
+\end{corollary}
+
+\begin{proof}
+Invariance under the generated action implies $\alpha(p(a))=p(a)$ for every $a$. Theorem~\ref{thm:main}(2) rules this out.
+\end{proof}
+
+For later interpretation one may label invariant valuations \emph{arena-type} and non-invariant valuations \emph{value-type}. Those are paper-specific labels for the standard invariant/non-invariant distinction. Corollary~\ref{cor:classification} then says that every valuation in the fixed-point-free two-valued instance is value-type. This sentence is only a classification consequence. It proves no forcing, choice, commitment, dynamics, canonical residual, or physical selection mechanism. Because every valuation is already non-invariant, applying the label to the particular diagonal $d_T$ adds no information beyond Theorem~\ref{thm:main}(2).
+
+\section{Examples and controls}
+\label{sec:examples}
+
+\begin{example}[Cantor's diagonal]
+\label{ex:cantor}
+Take $B=\{0,1\}$ and let $\alpha$ swap the two values. A valuation is the characteristic function of a subset of $A$. If the row $T_a$ represents the subset $S_a\subseteq A$, then $d_T$ is the characteristic function of
+\[
+D=\{a\in A:a\notin S_a\}.
+\]
+Theorem~\ref{thm:main}(1) is Cantor's diagonal theorem in this instance \cite{cantor1891}.
+\end{example}
+
+\begin{example}[A map with fixed points]
+\label{ex:identity}
+Let $\alpha=\id_B$. The fixed-point argument no longer shows that a diagonal is absent: for example, when $A$ is nonempty, a constant $T$ represents its own unflipped diagonal as every row. Invariant valuations also exist, so Theorem~\ref{thm:main}(2) fails without fixed-point-freeness. This does \emph{not} make a weakly point-surjective $T$ possible when $|B|\geq2$; Cantor's argument still forbids one in $\mathbf{Set}$. If $|B|=1$ and $A$ is nonempty, the unique $T$ is weakly point-surjective. Thus the honest control is: this particular fixed-point argument no longer rules out a row representation, while existence of a complete enumeration depends on $B$.
+\end{example}
+
+\begin{example}[A third fixed grade]
+\label{ex:thirdgrade}
+Let
+\[
+B=\{\text{below},\text{boundary},\text{above}\}
+\]
+and let $\alpha$ exchange below and above while fixing boundary. The constant-boundary valuation is $\alpha$-invariant, so the invariant-valuation conclusion fails. The same $\alpha$ also cannot drive the diagonal contradiction because it has a fixed point. Nevertheless a weakly point-surjective $T$ is still impossible: a three-cycle on $B$ is fixed-point-free, so Lemma~\ref{lem:lawvere} rules out $T$. A neutral fixed grade therefore defeats the invariant-valuation result and the proof based on this grading involution; it does not defeat Cantor--Lawvere non-enumerability in $\mathbf{Set}$.
+\end{example}
+
+\begin{example}[Both sides of the classification]
+\label{ex:classification}
+Let $A$ be nonempty, let $B=\{0,1,2\}$, and let $\mathbb{Z}/2$ act on $B$ by exchanging $0$ and $1$ while fixing $2$. The constant valuation $p_2(a)=2$ is invariant. The constant valuations $p_0(a)=0$ and $p_1(a)=1$ are exchanged and hence are non-invariant. These are actual functions $A\to B$, so the example instantiates the definition in Section~\ref{sec:classification}. It also shows that the classification is specified without any selection or forcing predicate.
+\end{example}
+
+\begin{remark}[Lean scope]
+\label{rem:machine}
+Lean~4 formalizes the function-level statements over arbitrary types: the weak Lawvere lemma, diagonal escape, the shared no-closure theorem, and the pointwise no-invariant-valuation theorem. It also proves their $B=\texttt{Bool}$ corollaries for Boolean negation. These are the $\mathbf{Set}$-level statements used in this paper. Lean does not formalize Section~\ref{sec:classification}, the interpretive labels, the literature map, or any physical reading. A separate Python script exhaustively checks small finite instances; it is executable confirmation, not proof. Exact source paths, commands, and theorem names appear in the accompanying \texttt{reproduction.md}. The repository hosts a broader research program; only the files named there are relied on here.
+\end{remark}
+
+\section{Interpretation and prior-art map}
+\label{sec:novelty}
+
+\subsection{What the formal theorem says}
+
+The mathematical theorem says only that a fixed-point-free map prevents a complete row-enumeration and, on a nonempty domain, prevents invariant valuations. An observer reading is possible: $A$ may be described as an arena of states that can encode and evaluate valuations, the diagonal as self-application, $B=\{0,1\}$ as an admissibility grading, and $\alpha$ as the grade swap. Under that reading, the result says that complete internal enumeration fails and every total valuation is non-invariant. The words ``observer,'' ``admissibility,'' ``arena,'' ``value,'' and ``symmetry-breaking'' belong to this interpretation. The words ``forced,'' ``commit,'' and ``selection'' are not formal predicates and are not conclusions of the theorem.
+
+\subsection{Lawvere, Yanofsky, and Cantor}
+
+Theorem~\ref{thm:main}(1) is classical. It is the weak Lawvere/Yanofsky diagonal scheme \cite{lawvere1969,yanofsky2003}; for the Boolean swap it is Cantor's theorem \cite{cantor1891}. No fixed-point theorem is claimed as new.
+
+\subsection{Valuation no-gos and contextuality}
+
+Kochen--Specker gives a finite noncolorability construction for quantum observables constrained by orthogonality \cite{kochenspecker1967}; Bell's 1966 hidden-variable analysis gives a related Gleason-based route and emphasizes the role of contextuality assumptions \cite{bell1966}. Abramsky and Brandenburger express contextuality as an obstruction to global sections over measurement contexts \cite{abramskybrandenburger2011}, while Conway--Kochen adds quantum and relativistic assumptions absent here \cite{conwaykochen2006}. These works share the broad genre of valuation impossibility, but their engines are quantum-observable constraints or contextual gluing, not the self-diagonal $a\mapsto T(a,a)$ used here.
+
+\subsection{Observer and interactive self-reference}
+
+Observer/self-reference motivation is also not new. Breuer studies limits on accurate self-measurement \cite{breuer1995}; Szangolies applies Lawvere's theorem to epistemic horizons in quantum foundations \cite{szangolies2018}; Abramsky and Zvesper reduce an interactive epistemic paradox to a relational Lawvere argument \cite{abramskyzvesper2015}. Frauchiger--Renner and Brukner provide distinct observer no-go results in quantum foundations \cite{frauchigerrenner2018,brukner2018}. A recent preprint by Lawrence uses Lawvere-style diagonalization in a selection-motivated information-theoretic setting \cite{lawrence2026}. None of these comparisons makes the present theorem physically instantiated, and no novelty is claimed for observer language by itself.
+
+\subsection{Invariance and Curie's principle}
+
+The invariant/non-invariant partition in Section~\ref{sec:classification} is standard symmetry language, not new mathematics and not Curie's causal principle. Curie's historical principle concerns symmetries of causes and effects \cite{curie1894}. Earman analyzes a precise formulation and its near-vacuity in quantum field theory while emphasizing spontaneous symmetry breaking \cite{earman2004}; Norton treats the principle as a truism whose application depends on how causal terms are mapped into a science \cite{norton2016}. The present paper uses neither causal principle. It uses only the elementary group action on functions.
+
+\subsection{Novelty grade}
+
+The defensible grade is \emph{novel packaging}. The diagonal theorem is classical; the invariant/non-invariant distinction is standard; and the observer/self-reference motivation has close precedents. The contribution is the explicit, self-contained packaging of a two-valued admissibility reading, the diagonal no-go, the separate invariant-valuation observation, the classification caveat, and a reproducible Lean anchor. We do not claim that this packaging is a new fixed-point theorem, symmetry theorem, physical theory, or forcing principle. Nor do we claim that a literature search proves uniqueness of the packaging.
+
+\section{What the theorem does not establish}
+\label{sec:limits}
+
+\begin{itemize}
+\item \textbf{No arbitrary-category result.} The theorem is stated and proved in $\mathbf{Set}$. It makes no morphism-level claim in an arbitrary category with finite products.
+\item \textbf{No physical or operator-algebra realization.} No physical system, observable algebra, or operator-algebra construction is shown to instantiate the hypotheses.
+\item \textbf{No physical selection mechanism.} The theorem supplies no dynamics, probability law, forcing modality, choice rule, or mechanism by which an observer selects a valuation.
+\item \textbf{No canonical residual.} The diagonal $d_T$ depends on the chosen candidate $T$. The theorem does not choose a distinguished $T$ or a distinguished valuation.
+\item \textbf{No physical prediction or support for a physical theory.} The result has no empirical content by itself and provides no confirmation of Geometric Unity or any other theory.
+\item \textbf{No particular value, constant, or count.} It computes no number and does not derive three generations or any generation count.
+\item \textbf{No full-paper formalization.} Lean checks the function-level core and Boolean corollaries only. The group-action classification, interpretation, prior-art assessment, and physical disclaimers are not formalized.
+\item \textbf{No theorem-level novelty for the components.} The mathematical components are classical or elementary; the claimed contribution is only their carefully delimited synthesis.
+\end{itemize}
+
+\section*{Use of generative AI tools}
+
+Generative AI tools were used substantially in drafting, formalization support, literature discovery, and adversarial review. The author takes full responsibility for the content. The Lean proofs and finite-instance checks provide independently executable checks of the narrow mathematical claims; they do not transfer authorship or responsibility to the tools.
+
+\begin{thebibliography}{99}
+
+\bibitem{lawvere1969}
+F.~W. Lawvere,
+\emph{Diagonal arguments and cartesian closed categories},
+in: Category Theory, Homology Theory and Their Applications II,
+Lecture Notes in Mathematics, vol.~92, Springer, Berlin, Heidelberg, 1969, pp.~134--145.
+\href{https://doi.org/10.1007/BFb0080769}{doi:10.1007/BFb0080769}.
+
+\bibitem{yanofsky2003}
+N.~S. Yanofsky,
+\emph{A universal approach to self-referential paradoxes, incompleteness and fixed points},
+Bulletin of Symbolic Logic \textbf{9} (2003), no.~3, 362--386.
+\href{https://doi.org/10.2178/bsl/1058448677}{doi:10.2178/bsl/1058448677}.
+
+\bibitem{cantor1891}
+G.~Cantor,
+\emph{"Uber eine elementare Frage der Mannigfaltigkeitslehre},
+Jahresbericht der Deutschen Mathematiker-Vereinigung \textbf{1} (1891), 75--78.
+
+\bibitem{kochenspecker1967}
+S.~Kochen and E.~P. Specker,
+\emph{The problem of hidden variables in quantum mechanics},
+Journal of Mathematics and Mechanics \textbf{17} (1967), 59--87.
+\href{https://doi.org/10.1512/iumj.1968.17.17004}{doi:10.1512/iumj.1968.17.17004}.
+
+\bibitem{bell1966}
+J.~S. Bell,
+\emph{On the problem of hidden variables in quantum mechanics},
+Reviews of Modern Physics \textbf{38} (1966), no.~3, 447--452.
+\href{https://doi.org/10.1103/RevModPhys.38.447}{doi:10.1103/RevModPhys.38.447}.
+
+\bibitem{abramskybrandenburger2011}
+S.~Abramsky and A.~Brandenburger,
+\emph{The sheaf-theoretic structure of non-locality and contextuality},
+New Journal of Physics \textbf{13} (2011), 113036.
+\href{https://doi.org/10.1088/1367-2630/13/11/113036}{doi:10.1088/1367-2630/13/11/113036}.
+
+\bibitem{conwaykochen2006}
+J.~H. Conway and S.~Kochen,
+\emph{The free will theorem},
+Foundations of Physics \textbf{36} (2006), no.~10, 1441--1473.
+\href{https://doi.org/10.1007/s10701-006-9068-6}{doi:10.1007/s10701-006-9068-6}.
+
+\bibitem{curie1894}
+P.~Curie,
+\emph{Sur la sym\'etrie dans les ph\'enom\`enes physiques, sym\'etrie d'un champ \'electrique et d'un champ magn\'etique},
+Journal de Physique Th\'eorique et Appliqu\'ee, 3e s\'erie, \textbf{3} (1894), 393--415.
+\href{https://doi.org/10.1051/jphystap:018940030039300}{doi:10.1051/jphystap:018940030039300}.
+
+\bibitem{earman2004}
+J.~Earman,
+\emph{Curie's Principle and spontaneous symmetry breaking},
+International Studies in the Philosophy of Science \textbf{18} (2004), no.~2--3, 173--198.
+\href{https://doi.org/10.1080/0269859042000311299}{doi:10.1080/0269859042000311299}.
+
+\bibitem{norton2016}
+J.~D. Norton,
+\emph{Curie's Truism},
+Philosophy of Science \textbf{83} (2016), no.~5, 1014--1026.
+\href{https://doi.org/10.1086/687934}{doi:10.1086/687934}.
+
+\bibitem{breuer1995}
+T.~Breuer,
+\emph{The impossibility of accurate state self-measurements},
+Philosophy of Science \textbf{62} (1995), no.~2, 197--214.
+\href{https://doi.org/10.1086/289852}{doi:10.1086/289852}.
+
+\bibitem{szangolies2018}
+J.~Szangolies,
+\emph{Epistemic horizons and the foundations of quantum mechanics},
+Foundations of Physics \textbf{48} (2018), no.~12, 1669--1697.
+\href{https://doi.org/10.1007/s10701-018-0221-9}{doi:10.1007/s10701-018-0221-9}.
+
+\bibitem{lawrence2026}
+N.~D. Lawrence,
+\emph{The no barber principle: towards formalised selection in the inaccessible game},
+arXiv:2604.21945 (2026).
+
+\bibitem{abramskyzvesper2015}
+S.~Abramsky and J.~Zvesper,
+\emph{From Lawvere to Brandenburger--Keisler: interactive forms of diagonalization and self-reference},
+Journal of Computer and System Sciences \textbf{81} (2015), no.~5, 799--812.
+\href{https://doi.org/10.1016/j.jcss.2014.12.001}{doi:10.1016/j.jcss.2014.12.001}.
+
+\bibitem{frauchigerrenner2018}
+D.~Frauchiger and R.~Renner,
+\emph{Quantum theory cannot consistently describe the use of itself},
+Nature Communications \textbf{9} (2018), 3711.
+\href{https://doi.org/10.1038/s41467-018-05739-8}{doi:10.1038/s41467-018-05739-8}.
+
+\bibitem{brukner2018}
+\v{C}.~Brukner,
+\emph{A no-go theorem for observer-independent facts},
+Entropy \textbf{20} (2018), no.~5, 350.
+\href{https://doi.org/10.3390/e20050350}{doi:10.3390/e20050350}.
+
+\end{thebibliography}
+
+\end{document}

@@ -105,3 +105,7 @@ SOURCE-NOETHER-TAU-CARRIER
 That work should try to derive the projected differential from the source-level
 Noether/Koszul-Tate structure, including the derivative-level tau carrier,
 instead of hand-selecting `Pi_ker(Gamma) d_A`.
+
+Update after `SOURCE-NOETHER-TAU-CARRIER-PACKET-2026-07-10.md`: the finite-fiber tau solve derives the
+projection as a Schur complement, but still leaves tangent freedom unselected. The remaining missing object
+is derivative-level tau/`d_aleph` homomorphism data.

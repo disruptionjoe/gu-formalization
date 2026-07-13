@@ -1,368 +1,323 @@
-# A Self-Referential Valuation No-Go and the Forced Symmetry-Breaking of the Residual
+# A Diagonal No-Go for Self-Valuations and an Invariance Classification
 
-**Draft, 2026-07-11.** A short, self-contained structural theorem. It requires no physics and no
-prior context: the reader needs only elementary category theory (finite products, the diagonal) and
-elementary group theory (a group action and its fixed points). The paper separates six parts
-explicitly -- (1) the setting, (2) the assumptions, (3) the theorem, (4) the proof, (5) examples and
-counterexamples, (6) the limits of the result -- and adds a dedicated novelty map, which is where the
-honest weight of the contribution is assessed. All uses of "--" stand for a dash; there are no
-em-dashes.
+**Joe Hernandez -- Independent Researcher -- July 2026**
+Email: joe@disruptionjoe.com
 
----
+## Abstract
 
-## 0. Informal statement
+Let `A` and `B` be sets. A valuation is a function `p : A -> B`, and a candidate
+self-enumeration is a function `T : A x A -> B` whose rows are intended to exhaust all
+valuations. Given a fixed-point-free map `alpha : B -> B`, we prove two elementary facts.
+First, no such `T` is weakly point-surjective, and for every `T` the diagonal valuation
+`d_T(a) = alpha(T(a,a))` is absent from its rows. Second, if `A` is nonempty, no valuation
+is `alpha`-invariant. For `B = {0,1}` and `alpha` the swap, the first fact is the
+Cantor-Lawvere diagonal argument and the second is a pointwise fixed-point observation. A
+group action on `B` also induces the standard classification of valuations as invariant or
+non-invariant; under the swap, every valuation lies in the latter class. This classification
+adds no selection theorem. Observer, admissibility, and symmetry-breaking language is offered
+only as interpretation. The contribution is a specific synthesis of known pieces, not a new
+fixed-point or symmetry theorem. The function-level core and its Boolean corollaries are
+machine-checked in Lean 4; the interpretive classification is not formalized.
 
-A self-referential *observer* is modelled as a point of a structure that also carries a two-valued
-*admissibility grading* on that same structure. The grading comes with an involution `alpha` that
-exchanges the two grades ("admissible" and "inadmissible"). We assume this involution is
-**fixpoint-free** (nothing is both admissible and inadmissible). Two elementary facts follow:
+**MSC 2020:** 03E20 (primary); 18A15, 03A05 (secondary).
+**Keywords:** diagonal argument; weak point-surjectivity; valuation no-go; invariance;
+self-reference; Lawvere fixed-point theorem.
 
-- **(I) No self-referential closure, and no symmetric total valuation.** There is no self-referential
-  total representation of all admissibility valuations (a Cantor/Lawvere diagonal obstruction); and,
-  separately, no total admissibility valuation is `alpha`-invariant. Hence any total valuation the
-  observer actually commits to must *break* the grading symmetry.
-- **(II) The residual is necessarily a "value," in a non-circular sense.** Define, purely
-  group-theoretically, ARENA = a quantity invariant under the acting symmetry, VALUE = a quantity whose
-  specification requires breaking that symmetry. This partition is decidable from the group action
-  alone, with no reference to what is "forced" or "selected" by any process. Under this definition the
-  residual forced by (I) is provably a VALUE.
+## 1. Set-level setting
 
-The synthesis packages these as: *the selection an observer is forced to make is, provably and
-non-circularly, a symmetry-breaking one.* One caution up front, so the reader is not misled about the
-mathematical weight: the symmetry-breaking conclusion rests entirely on the ELEMENTARY
-fixed-point-count lemma (I-b) / Lemma C -- "a nonempty domain cannot map into an empty fixed-set" --
-and NOT on Lawvere's theorem. Lawvere / (I-a) contributes the *independent* "no self-enumeration"
-fact; it does not underwrite the symmetry-breaking result. We are careful below to state exactly which
-pieces are classical and which is the new packaging.
+The theorem is stated in `Set`. This choice is deliberate: equality of functions, equality of
+rows, and elementwise representation then have their ordinary extensional meanings. No
+morphism-level conclusion in an arbitrary category is claimed.
 
-**A note on "forced" and "commit" (informal language).** Throughout, the words "forced," "commit,"
-and "the observer commits to a valuation" are an INFORMAL motivating gloss, not a formal predicate.
-No object in the formal development is the referent of "forced": the residual `d = alpha . T . Delta`
-depends on a *choice* of `T`, and there is no theorem that the observer must adopt any particular
-valuation. What the theorem actually proves is the non-existence of an invariant or self-enumerating
-valuation (I-a, I-b), plus the group-theoretic character of any total valuation (II). One could
-formalize "commitment" trivially as "existence of some total `p : A -> B`" (immediate for nonempty
-`A`), but nothing below depends on doing so; read "forced" as a reading, not a proved modality.
+Let `A` be a set of codes or states and let `B` be a set of values. A **valuation** is a
+function `p : A -> B`. A function `T : A x A -> B` supplies, for each `a0 in A`, a row
 
----
-
-## 1. The abstract setting (Part 1)
-
-Work in a category `C` with finite products (the reader may take `C = Set`; nothing below uses more).
-Write `1` for the terminal object and call a morphism `x : 1 -> X` a **point** of `X`. In `Set`, points
-of `X` are its elements, and we use element notation freely.
-
-**Objects.**
-
-- `A` -- the **arena of observer-states**. Its points are the states the observer can occupy. The
-  observer is self-referential in the sense made precise below: a state of `A` can serve both as a
-  code (an admissibility rule) and as the argument that rule is applied to.
-- `B` -- the **value object**, a two-element object `B = {0, 1}`. Read `0 =` admissible, `1 =`
-  inadmissible. `B` is the object in which gradings and valuations take their values.
-
-**The diagonal.** Finite products give the diagonal `Delta : A -> A x A`, `Delta(a) = (a, a)`. This is
-the entire formal content of "self-reference": a state applied to itself.
-
-**Valuations.** A **valuation** is a morphism `p : A -> B`; it grades each state as admissible or
-inadmissible.
-
-**The grading involution (the firewall).** A morphism `alpha : B -> B` with `alpha . alpha = id_B`.
-The intended `alpha` is the **swap** `alpha(0) = 1`, `alpha(1) = 0` -- the map that exchanges
-admissible and inadmissible. `alpha` acts on valuations by post-composition: `(alpha . p)(a) =
-alpha(p(a))`.
-
-**Self-referential closure.** A morphism `T : A x A -> B` is a candidate *closure*: its "rows"
-`T(a0, -) : A -> B` are meant to enumerate valuations, with `a0` the code and the second argument the
-input. `T` is **weakly point-surjective** if every valuation is some row: for each `p : A -> B` there
-is a point `a0 : 1 -> A` such that `T(a0, x) = p(x)` for all points `x : 1 -> A`. A weakly
-point-surjective `T` is exactly a self-referential structure that represents *all* of its own
-valuations internally.
-
-That is the whole setting: a self-referential arena `A`, a two-valued grading object `B` with an
-involution `alpha`, and the notion of a total internal representation `T` of `A`'s valuations.
-
----
-
-## 2. The assumptions (Part 2)
-
-- **(A1) Finite products.** `C` has finite products (hence the diagonal `Delta` and the pairing used
-  in the proof). Satisfied by any cartesian category, in particular `Set`.
-- **(A2) Two-valued grading (reading convention).** `B` has **exactly** the two distinct points
-  `0, 1` (`|B| = 2`) that `alpha` interchanges; the grading is genuinely two-valued, not collapsed to
-  one point. This is a reading convention that fixes the intended model; the load-bearing content is
-  carried entirely by A3. (If one prefers to allow `|B| > 2`, replace A2 by the requirement that
-  `alpha` be fixpoint-free on ALL of `B`, i.e. strengthen A3 to cover the extra points; the results
-  are unchanged, and a third *fixed* grade dissolves the theorem -- Example 5.3.)
-- **(A3) Fixpoint-freeness of the firewall.** `alpha` has **no fixed point**: there is no point
-  `b : 1 -> B` with `alpha . b = b`. For the swap on `{0, 1}` this is immediate (`admissible !=
-  inadmissible`). This is the **sole load-bearing hypothesis**: every conclusion (I-a) and (I-b) is a
-  strict consequence of A3 (given nonempty `A` in A4), and `|B| = 2` is inessential to the proofs.
-- **(A4) Nonempty arena** (used only for the invariant-valuation half): `A` has at least one point.
-
-No other assumption is used. In particular no topology, measure, dynamics, order, or physical
-structure enters.
-
----
-
-## 3. The theorem (Part 3)
-
-> **Theorem.** Let `C` be a category with finite products, `A` a nonempty object, `B` a two-valued
-> object, and `alpha : B -> B` a fixpoint-free involution (A1-A4). Then:
->
-> **(I-a) No closure.** No weakly point-surjective `T : A x A -> B` exists. Concretely, for every
-> `T : A x A -> B` the *diagonal valuation* `d = alpha . T . Delta : A -> B` is not a row of `T`; it is
-> a valuation that `A` cannot represent from inside.
->
-> **(I-b) No invariant valuation.** No valuation `p : A -> B` is `alpha`-invariant: `alpha . p = p` is
-> impossible for nonempty `A`. Equivalently, every total valuation the observer commits to satisfies
-> `alpha . p != p` -- it breaks the grading symmetry.
->
-> **(II) The residual is a value.** Let a group `G` act on `B`, and extend the action to valuations by
-> post-composition. Call a valuation *arena-type* if it is `G`-invariant and *value-type* if it is not.
-> This dichotomy is decided by the `G`-action alone. Taking `G = <alpha> ~ Z/2`, part (I-b) says every
-> total valuation is value-type. Hence the selection an observer is forced into by (I) is necessarily a
-> **value** (a symmetry-breaking selection), and this is a group-theoretic fact, not a definitional
-> restatement of "forced."
-
-Parts (I-a) and (I-b) are two distinct elementary consequences of A3 (they are not literally the same
-statement: (I-a) is about no total *enumeration*, (I-b) about no single *invariant* valuation). Part
-(II) supplies the non-circular reading under which the forced residual is a genuine value.
-
----
-
-## 4. The proof (Part 4)
-
-The proof is purely mathematical and uses no numerical input. (Finite instances have been
-machine-checked as confirmation only; see the note at the end of this section. They are not part of
-the proof.)
-
-### 4.1 Lawvere's weak fixed-point lemma
-
-**Lemma L (Lawvere 1969; weak form, Yanofsky 2003).** *If there is a weakly point-surjective
-`T : A x A -> B`, then every endomorphism `alpha : B -> B` has a fixed point: a point `b : 1 -> B` with
-`alpha . b = b`.*
-
-*Proof.* Given `alpha`, form the valuation `f = alpha . T . Delta : A -> B`, i.e. `f(a) =
-alpha(T(a, a))`. By weak point-surjectivity there is a point `a0` with `T(a0, x) = f(x)` for all points
-`x`. Evaluate at `x = a0`:
+```text
+T_a0 : A -> B,    T_a0(x) = T(a0,x).
 ```
-    T(a0, a0) = f(a0) = alpha(T(a0, a0)).
+
+We call `T` **weakly point-surjective** if every valuation is a row:
+
+```text
+for every p : A -> B, there is a0 in A such that
+T(a0,x) = p(x) for every x in A.
 ```
-So `b := T(a0, a0)` satisfies `alpha . b = b`. `QED`
 
-**Proof of (I-a).** Contrapositive of Lemma L. By A3, `alpha` has no fixed point; therefore no weakly
-point-surjective `T` exists. Moreover the specific valuation exhibited in the proof, `d = alpha . T .
-Delta`, cannot be a row of `T`: if `d = T(a0, -)` for some code `a0`, then evaluating at `a0` gives
-`T(a0, a0) = d(a0) = alpha(T(a0, a0))`, a fixed point of `alpha`, contradicting A3. So `d` is the
-concrete unrepresented (residual) valuation. `QED`
+This is the uncurried Set-level form of Lawvere's weak point-surjectivity: `T` plays the role
+of the transpose of a map `A -> B^A` (Lawvere 1969; Yanofsky 2003).
 
-### 4.2 The fixed-point-count corollary
+Let `alpha : B -> B` be a map. It is **fixed-point-free** when
 
-**Lemma C (elementary fixed-point count).** *Let `alpha : B -> B` and `p : A -> B`. If `alpha . p = p`
-then `p` factors through the fixed-point subobject `Fix(alpha) = {b : alpha(b) = b}` (the equalizer of
-`alpha` and `id_B`). If `Fix(alpha)` is empty and `A` is nonempty, then `alpha . p = p` is impossible.*
+```text
+alpha(b) != b for every b in B.
+```
 
-*Proof.* `alpha . p = p` says every value `p(a)` satisfies `alpha(p(a)) = p(a)`, i.e. `p(a) in
-Fix(alpha)`; so `p` factors through `Fix(alpha)`. If `Fix(alpha) = empty` and `A` has a point `a`,
-then `p(a)` would be a point of the empty object, which is impossible. `QED`
+The intended two-valued instance is `B = {0,1}` with `alpha(0)=1` and `alpha(1)=0`. The
+proofs do not require `B` to have exactly two elements, and the diagonal result does not
+require `alpha` to be an involution. Involutivity is used only when `alpha` is read as the
+nontrivial element of a `Z/2` action.
 
-**Proof of (I-b).** By A3, `Fix(alpha) = empty`; by A4, `A` is nonempty. Lemma C gives `alpha . p != p`
-for every valuation `p`. `QED`
+## 2. The no-go theorem
 
-### 4.3 The non-circular partition and the identification (II)
+> **Theorem (diagonal and invariant-valuation no-go).** Let `A` and `B` be sets and let
+> `alpha : B -> B` be fixed-point-free.
+>
+> 1. For every `T : A x A -> B`, the diagonal valuation
+>    `d_T(a) = alpha(T(a,a))` is not a row of `T`. Consequently no weakly
+>    point-surjective `T : A x A -> B` exists.
+> 2. If `A` is nonempty, then no valuation `p : A -> B` is `alpha`-invariant;
+>    equivalently, there is no `p` satisfying `alpha(p(a)) = p(a)` for every `a in A`.
 
-Let a group `G` act on `B`; extend to valuations `p : A -> B` by `(g . p)(a) = g . (p(a))`. Define a
-valuation to be **arena-type** if `g . p = p` for all `g in G` (invariant) and **value-type**
-otherwise.
+The two conclusions are separate. The first concerns enumeration of all functions `A -> B`;
+the second concerns invariance of a single function and uses nonemptiness of `A`.
 
-**Non-circularity.** Whether a given `p` is arena-type or value-type is determined entirely by the
-`G`-action on `B` and the values of `p` -- a computation in group theory. It makes no reference to
-any external notion of a quantity being "forced," "selected," "dynamically determined," or "chosen." In
-particular the statement "the arena-type quantities are exactly the forced ones" is *synthetic*: it
-relates two independently-defined predicates (invariance on one side, forcing on the other) and could a
-priori be false. This is what saves the partition from the tautology "arena := the forced things,
-value := the unforced things." (See Example 5.4 for the logical independence made concrete.)
+## 3. Proof
 
-**The identification.** Take `G = <alpha> ~ Z/2`, generated by the fixpoint-free involution. A
-valuation is arena-type iff `alpha . p = p`. By (I-b) no total valuation is arena-type; every total
-valuation is value-type. Therefore the residual valuation the observer is forced to commit to (its
-existence and unrepresentability supplied by (I-a); its non-invariance by (I-b)) is a **value** in the
-group-theoretic sense. `QED`
+**Lemma (weak Lawvere fixed-point lemma).** If `T : A x A -> B` is weakly
+point-surjective, then every map `alpha : B -> B` has a fixed point.
 
-**One-directional vacuity (honest disclosure).** The implication "forced `=>` value" is VACUOUS in
-that direction: by (I-b) *every* total valuation is value-type, so learning that the residual is a
-value says nothing specific about the residual -- it is a property shared by all total valuations. The
-substantive content of Part II is therefore NOT "forced `=>` value" but the two facts that survive
-this vacuity: (i) the purely negative no-go *no `alpha`-invariant total valuation exists* (I-b), and
-(ii) the non-circularity of the arena/value partition (the "invariant iff forced" reading is
-synthetic, not definitional; see the Non-circularity paragraph above and Example 5.4). The
-information-carrying direction is the *absence* of any invariant residual, not the presence of a
-value.
+*Proof.* Define `f : A -> B` by `f(a) = alpha(T(a,a))`. Weak point-surjectivity supplies
+`a0 in A` such that `T(a0,x) = f(x)` for every `x in A`. Evaluating at `a0` gives
 
-**Machine-checked confirmation (not the proof).** Finite instances of (I-a), the Cantor cross-check,
-the fixpoint-free check, and the control cases have been verified exhaustively for `|A| in {1,2,3}` in
-the repository tests `W70` and `W73`, and a further finite check accompanies this paper (`W99`). These
-runs confirm the elementary lemmas above on small cases; they are evidence, not premises. The proof
-stands on Lemmas L and C alone.
+```text
+T(a0,a0) = f(a0) = alpha(T(a0,a0)),
+```
 
----
+so `T(a0,a0)` is a fixed point of `alpha`. QED
 
-## 5. Examples and counterexamples (Part 5)
+**Proof of Theorem 2(1).** Fix `T` and a candidate row `a0 in A`. At the row's own index,
 
-**5.1 The generating instance is Cantor.** Take `A` any set, `B = {0, 1}`, `alpha =` swap. A weakly
-point-surjective `T : A x A -> B` is exactly an enumeration of `P(A)` by `A` (a valuation `A -> B` is
-the indicator of a subset). (I-a) then reads: no such enumeration exists, and the unrepresented
-`d = alpha . T . Delta` is the Cantor diagonal set `{a : a not in T(a)}`. So with two grades and the
-swap, Part I *is* Cantor's theorem. This is stated up front because it fixes what is and is not new
-(Section 6).
+```text
+d_T(a0) = alpha(T(a0,a0)) != T(a0,a0),
+```
 
-**5.2 Control: a firewall with a fixed point dissolves the theorem.** Drop A3: let `alpha = id_B` (or
-any `alpha` with a fixed grade). Then Lemma L has a trivial fixed point, weakly point-surjective `T`
-can exist, and constant valuations are `alpha`-invariant (arena-type). No selection is forced. This
-shows the conclusion is contributed by fixpoint-freeness specifically, not by "a residual exists" in
-general. The hypothesis A3 is load-bearing, not decorative.
+because `alpha` is fixed-point-free. Thus `d_T != T_a0`. Since this holds for every `a0`,
+`d_T` is not a row. A weakly point-surjective `T` would have to contain `d_T` as a row, so
+none exists. This is also the contrapositive engine of the weak Lawvere lemma. QED
 
-**5.3 Counterexample: a genuine third grade breaks the argument.** Let `B = {below, boundary,
-above}` and let `alpha` exchange `below` and `above` but fix `boundary`. Now `alpha` has a fixed point,
-Lemma L applies with `b = boundary`, and an `alpha`-invariant valuation (constantly `boundary`) exists.
-So a genuine neutral middle grade defeats both (I-a) and (I-b). The theorem needs the grading to be
-*effectively two-valued with no fixed grade* (A2 + A3); any admissibility scheme with a stable "neutral"
-verdict is outside its scope. This is the sharpest limit on the setting.
+**Lemma (pointwise fixed-point observation).** Let `p : A -> B`. If
+`alpha(p(a)) = p(a)` for every `a in A`, then every value in the image of `p` is a fixed
+point of `alpha`.
 
-**5.4 The partition is substantive, not circular.** Consider `G = Z/2` acting on `B = {0, 1}` by swap.
-The constant-pair feature "the unordered set `{0, 1}`" is `G`-invariant (arena-type); a specific choice
-of element `0` or `1` is not `G`-invariant (value-type). Logical independence from "forcing" is
-visible: one can specify an action under which a quantity is invariant while a *separate* dynamics fails
-to determine it (an unforced invariant), or is non-invariant while a dynamics does determine it (a
-forced value). Because both mismatches are describable, "invariant iff forced" is a claim with content
-that could fail -- exactly the mark of a non-vacuous partition. (In the source research program this
-was tested against a battery of concrete quantities; here we only need the logical point.)
+*Proof.* For each `a in A`, the displayed equality is exactly the statement that `p(a)` is
+fixed by `alpha`. QED
 
-**5.5 Positive existence when hypotheses are met.** For `A` nonempty and `alpha` the swap, (I-a)/(I-b)
-both hold, and the concrete unrepresented residual `d = alpha . T . Delta` exists for every candidate
-`T`. So the theorem is not vacuously true by absence of models: the setting is inhabited and the
-residual is exhibited, not merely asserted.
+**Proof of Theorem 2(2).** Choose `a in A`. If `p` were `alpha`-invariant, the pointwise
+lemma would make `p(a)` a fixed point of `alpha`, contradicting fixed-point-freeness. QED
 
----
+## 4. Invariance classification
 
-## 6. Novelty map (dedicated assessment)
+Let a group `G` act on `B`. It acts on valuations by post-composition:
 
-This section maps the result against the nearest prior art and grades its novelty honestly. The three
-possible verdicts are: **(a) GENUINELY NOVEL** (a real synthesis with a new load-bearing statement);
-**(b) NOVEL PACKAGING** (correct and clearly stated, but the pieces are known, the value being in the
-framing); **(c) SUBSUMED** (already in the literature under another name).
+```text
+(g . p)(a) = g . p(a).
+```
 
-**6.1 Lawvere's fixed-point theorem (Lawvere 1969); Yanofsky (2003).** Part (I-a) *is* Lawvere's weak
-fixed-point theorem, in the elementary form popularized by Yanofsky, applied to a two-element `B` with a
-fixpoint-free `alpha`. Yanofsky's "universal approach" already unifies Cantor, Russell, Godel, Tarski,
-and the halting problem as instances of exactly this scheme. The fixed-point core is therefore **not
-new**; with two grades and the swap it is literally Cantor. What is not in Lawvere/Yanofsky is the
-*framing*: the two-element `B` read as an admissibility firewall carried by a self-referential observer,
-and the identification (via Part II) of the forced residual as a symmetry-breaking selection. That
-framing is additive, not a strengthening of the theorem.
+A valuation is **G-invariant** if `g . p = p` for every `g in G`, and **non-invariant**
+otherwise. This is a group-action-theoretic criterion depending on the action and on `p`. No
+general algorithmic decidability claim is intended.
 
-**6.2 Kochen-Specker and contextuality (Kochen-Specker 1967; Bell 1966; Abramsky-Brandenburger 2011;
-Conway-Kochen 2006).** Kochen-Specker is also a two-valued valuation no-go: for a Hilbert space of
-dimension `>= 3` there is no global `{0, 1}`-valuation on the projection lattice compatible with the
-functional (FUNC) constraints. Our result is *also* a two-valued valuation no-go with a forced residual,
-so the genus is shared. But the *mechanism* differs and they are not the same theorem: Kochen-Specker's
-obstruction is geometric/combinatorial (a Gleason-type coloring impossibility forced by the
-orthogonality structure of quantum observables in dimension `>= 3`), and its "context" is a maximal
-commuting set. Ours is a *self-referential diagonal* obstruction forced by fixpoint-freeness of a
-grading involution, with self-application (the diagonal `Delta`) as the essential ingredient;
-dimension, orthogonality, and measurement contexts play no role. Abramsky-Brandenburger recast
-contextuality sheaf-theoretically (no global section of a presheaf of local valuations); that is closer
-in spirit (a global-vs-local obstruction) but again the obstruction is measurement-context gluing, not
-self-reference. Conway-Kochen (free will) and Bell add physical (locality/determinism) premises we do
-not use. Verdict on this axis: **related but distinct**; ours is not Kochen-Specker in disguise, though
-both belong to the family "no consistent global two-valuation."
+> **Corollary.** Suppose `A` is nonempty and `alpha : B -> B` is a fixed-point-free
+> involution. Under the `Z/2` action generated by `alpha`, every valuation `p : A -> B` is
+> non-invariant.
 
-**6.3 Curie's principle (Curie 1894; Earman 2004; Norton 2016).** Part II ("value = requires
-symmetry-breaking to specify") is the elementary invariant / symmetry-breaking-order-parameter
-dichotomy -- a quantity is arena-type iff it is `G`-invariant and value-type (an order parameter)
-otherwise. This is Curie-*flavored*, but it is NOT Curie's principle proper: Curie's principle is a
-*causal* claim (symmetric causes have symmetric effects, so an asymmetry of effects requires an
-asymmetry of causes), whereas the dichotomy here is the textbook invariant-vs-order-parameter
-distinction, with no cause and no effect in the definition. Earman (2004) and Norton's "Curie's
-Truism" (2016) both note that precise formulations of Curie's principle tend toward the *analytic*
-(nearly vacuous in QFT). We do *not* claim the *forcing* rescues Curie from that analyticity worry:
-as (I-b) shows, every total valuation is value-type, so "the forced residual is a value" is vacuous in
-that direction (see §4.3, §7). The non-vacuous content is the purely negative fact -- *no
-`alpha`-invariant total valuation exists* -- together with the non-circular group-theoretic partition
-(Section 4.3, Example 5.4). That negative fact is exactly the analytic-leaning fact Earman warns
-about; our contribution is to tie it to a *valuation no-go* (Part I) and to a non-circular partition,
-not to escape analyticity via "forcing."
+*Proof.* Invariance under the generated action implies `alpha(p(a)) = p(a)` for every `a`.
+Theorem 2(2) rules this out. QED
 
-**6.4 The general Lawvere-paradox literature.** Yanofsky (2003) and the broader categorical-diagonal
-tradition already subsume the fixed-point machinery and many of its instances. The present result is not
-a new theorem *in that tradition*; it is an application of it to a graded/firewall setting joined to a
-Curie-style partition.
+For later interpretation one may label invariant valuations **arena-type** and non-invariant
+valuations **value-type**. Those are paper-specific labels for the standard
+invariant/non-invariant distinction. The corollary then says that every valuation in the
+fixed-point-free two-valued instance is value-type. This sentence is only a classification
+consequence. It proves no forcing, choice, commitment, dynamics, canonical residual, or
+physical selection mechanism. Because every valuation is already non-invariant, applying the
+label to the particular diagonal `d_T` adds no information beyond Theorem 2(2).
 
-**6.5 Honest verdict: (b) NOVEL PACKAGING.** The load-bearing mathematical facts (Lemmas L and C) are
-classical; with two grades Part I is Cantor and in general it is Lawvere/Yanofsky, and Part II is the
-elementary Curie-flavored invariant / order-parameter dichotomy (not Curie's causal principle). What
-is genuinely contributed, and is not simply any one of those pieces,
-is the *synthesis*: (i) reading the two-element grading as an admissibility firewall on a
-self-referential observer, so that the classical diagonal fires on "the observer's own admissibility
-valuation"; (ii) proving the forced residual is not merely unforced but *symmetry-breaking*, via the
-fixpoint-count corollary; and (iii) supplying a non-circular, group-theoretic arena/value partition that
-makes "the residual is a value" a substantive rather than definitional claim, and that ties the
-Curie-flavored invariant / order-parameter dichotomy to a valuation no-go. This is a correct, clearly-stated, well-mapped synthesis whose parts are
-known -- the respectable and common (b) outcome. The closest single prior result is **Yanofsky (2003)**
-for Part I and **Earman's analysis of Curie's principle (2004)** for Part II. We do *not* claim (a): no
-individual step is a new theorem, and inflating the synthesis to "genuinely novel" would not survive a
-specialist who recognizes the Cantor/Lawvere core. We also do not accept (c): no prior source states the
-combined "forced residual is provably a symmetry-breaking value, under a non-circular partition" as a
-single result, so it is not strictly subsumed.
+## 5. Examples and controls
 
----
+### 5.1 Cantor's diagonal
 
-## 7. What the theorem does NOT establish (Part 6)
+Take `B = {0,1}` and let `alpha` swap the two values. A valuation is the characteristic
+function of a subset of `A`. If the row `T_a` represents the subset `S_a`, then `d_T` is the
+characteristic function of
 
-- **No physical or operator-algebra realization.** The theorem is purely structural. A separate attempt
-  to realize `A` as the observable algebra of a spacetime region and `alpha` as a grading of a modular
-  conjugation -- so that the abstract firewall would become a physical one -- **did not go through**: in
-  the interacting continuum the required per-region construction fails to exist and to cohere across
-  overlaps (recorded in the repository as the `W98` break). Nothing in this paper depends on that
-  realization, and none of it is claimed here. The abstract theorem stands; the physical instantiation
-  does not.
-- **No dependence on, or support for, any physical theory.** The setting uses no physics. The theorem
-  neither assumes nor provides evidence for any specific unified theory, field content, or model. Any
-  physical theory can at most be *one instance* of the abstract setting, and being an instance confers
-  no confirmation on the theory.
-- **No specific value, constant, or count.** The theorem says the forced residual *is a
-  symmetry-breaking selection*; it does not compute which selection, nor any number, ratio, dimension,
-  or count. It is an existence-and-character result, not a quantitative one.
-- **Not a physical prediction.** It is a logical/structural theorem about self-referential valuations.
-  It makes no empirically testable claim on its own.
-- **Genericity, not uniqueness.** Because Part II is the elementary invariant / order-parameter
-  dichotomy (Curie-flavored, not Curie's causal principle), the arena/value partition it uses is
-  *generic* to symmetry-based structures, not a signature of any particular system.
-  Genericity is not vacuity (the partition is still non-circular and falsifiable), but it means the
-  theorem cannot be used to argue that any specific framework is distinguished.
-- **Novelty caveats (from Section 6).** Part I is classical (Cantor / Lawvere / Yanofsky) and Part II
-  is the elementary Curie-flavored invariant / order-parameter dichotomy (not Curie's causal
-  principle). The honest novelty grade is (b) novel packaging; the value is
-  in correctness, self-containment, and the mapped synthesis, not in a new fixed-point core.
-- **Scope of the grading.** The theorem requires an effectively two-valued grading with a fixpoint-free
-  involution (A2, A3). It says nothing about admissibility schemes with a stable neutral verdict; a
-  genuine third fixed grade dissolves it (Example 5.3).
+```text
+D = {a in A : a not in S_a}.
+```
 
----
+Theorem 2(1) is Cantor's diagonal theorem in this instance.
 
-## References (for the novelty map)
+### 5.2 A map with fixed points
 
-- F. W. Lawvere, *Diagonal arguments and cartesian closed categories* (1969).
-- N. S. Yanofsky, *A universal approach to self-referential paradoxes, incompleteness and fixed
-  points*, Bull. Symbolic Logic 9(3):362-386 (2003).
-- S. Kochen and E. P. Specker, *The problem of hidden variables in quantum mechanics*, J. Math. Mech.
-  17:59-87 (1967); J. S. Bell, *On the problem of hidden variables in quantum mechanics*, Rev. Mod.
-  Phys. 38:447 (1966).
-- S. Abramsky and A. Brandenburger, *The sheaf-theoretic structure of non-locality and contextuality*,
-  New J. Phys. 13:113036 (2011); J. Conway and S. Kochen, *The free will theorem*, Found. Phys. 36:1441
-  (2006).
-- P. Curie (1894); J. Earman, *Curie's principle and spontaneous symmetry breaking*, Int. Stud. Phil.
-  Sci. 18:173-198 (2004).
+Let `alpha = id_B`. The fixed-point argument no longer shows that a diagonal is absent: for
+example, when `A` is nonempty, a constant `T` represents its own unflipped diagonal as every
+row. Invariant valuations also exist, so Theorem 2(2) fails without fixed-point-freeness. This
+does **not** make a weakly point-surjective `T` possible when `|B| >= 2`; Cantor's argument
+still forbids one in `Set`. If `|B| = 1` and `A` is nonempty, the unique `T` is weakly
+point-surjective. Thus the honest control is: this particular fixed-point argument no longer
+rules out a row representation, while existence of a complete enumeration depends on `B`.
 
-*Repository confirmation (not part of the proof): tests `W70`, `W73`, and `W99` verify finite instances
-of the lemmas exhaustively for small arenas. External publication is gated pending review.*
+### 5.3 A third fixed grade
+
+Let
+
+```text
+B = {below, boundary, above}
+```
+
+and let `alpha` exchange below and above while fixing boundary. The constant-boundary
+valuation is `alpha`-invariant, so the invariant-valuation conclusion fails. The same `alpha`
+also cannot drive the diagonal contradiction because it has a fixed point. Nevertheless a
+weakly point-surjective `T` is still impossible: a three-cycle on `B` is fixed-point-free, so
+the weak Lawvere lemma rules out `T`. A neutral fixed grade therefore defeats the
+invariant-valuation result and the proof based on this grading involution; it does not defeat
+Cantor-Lawvere non-enumerability in `Set`.
+
+### 5.4 Both sides of the classification
+
+Let `A` be nonempty, let `B = {0,1,2}`, and let `Z/2` act on `B` by exchanging `0` and `1`
+while fixing `2`. The constant valuation `p_2(a)=2` is invariant. The constant valuations
+`p_0(a)=0` and `p_1(a)=1` are exchanged and hence are non-invariant. These are actual
+functions `A -> B`, so the example instantiates the definition in Section 4. It also shows
+that the classification is specified without any selection or forcing predicate.
+
+### 5.5 Exact machine-checking scope
+
+The file `Lean/GUFormalization/ResidualSelection.lean` formalizes the function-level
+statements over Lean types: the weak Lawvere lemma, diagonal escape, the shared no-closure
+theorem, and the pointwise no-invariant-valuation theorem. It also proves their
+`B = Bool` corollaries for Boolean negation. These are the Set-level statements used in this
+paper. Lean does not formalize Section 4, the interpretive labels, the literature map, or any
+physical reading. The separate Python script `tests/W99_theorem_finite_instances.py`
+exhaustively checks small finite instances; it is executable confirmation, not proof. Exact
+commands and theorem names appear in `submission/reproduction.md`. The repository hosts a
+broader research program; only the files named there are relied on here.
+
+## 6. Interpretation and prior-art map
+
+### 6.1 What the formal theorem says
+
+The mathematical theorem says only that a fixed-point-free map prevents a complete
+row-enumeration and, on a nonempty domain, prevents invariant valuations. An observer reading
+is possible: `A` may be described as an arena of states that can encode and evaluate
+valuations, the diagonal as self-application, `B = {0,1}` as an admissibility grading, and
+`alpha` as the grade swap. Under that reading, the result says that complete internal
+enumeration fails and every total valuation is non-invariant. The words "observer,"
+"admissibility," "arena," "value," and "symmetry-breaking" belong to this interpretation.
+The words "forced," "commit," and "selection" are not formal predicates and are not
+conclusions of the theorem.
+
+### 6.2 Lawvere, Yanofsky, and Cantor
+
+Theorem 2(1) is classical. It is the weak Lawvere/Yanofsky diagonal scheme; for the Boolean
+swap it is Cantor's theorem. No fixed-point theorem is claimed as new.
+
+### 6.3 Valuation no-gos and contextuality
+
+Kochen-Specker gives a finite noncolorability construction for quantum observables constrained
+by orthogonality; Bell's 1966 hidden-variable analysis gives a related Gleason-based route and
+emphasizes the role of contextuality assumptions. Abramsky and Brandenburger express
+contextuality as an obstruction to global sections over measurement contexts, while
+Conway-Kochen adds quantum and relativistic assumptions absent here. These works share the
+broad genre of valuation impossibility, but their engines are quantum-observable constraints
+or contextual gluing, not the self-diagonal `a |-> T(a,a)` used here.
+
+### 6.4 Observer and interactive self-reference
+
+Observer/self-reference motivation is also not new. Breuer studies limits on accurate
+self-measurement; Szangolies applies Lawvere's theorem to epistemic horizons in quantum
+foundations; Abramsky and Zvesper reduce an interactive epistemic paradox to a relational
+Lawvere argument. Frauchiger-Renner and Brukner provide distinct observer no-go results in
+quantum foundations. A recent preprint by Lawrence uses Lawvere-style diagonalization in a
+selection-motivated information-theoretic setting. None of these comparisons makes the
+present theorem physically instantiated, and no novelty is claimed for observer language by
+itself.
+
+### 6.5 Invariance and Curie's principle
+
+The invariant/non-invariant partition in Section 4 is standard symmetry language, not new
+mathematics and not Curie's causal principle. Curie's historical principle concerns symmetries
+of causes and effects. Earman analyzes a precise formulation and its near-vacuity in quantum
+field theory while emphasizing spontaneous symmetry breaking; Norton treats the principle as
+a truism whose application depends on how causal terms are mapped into a science. The present
+paper uses neither causal principle. It uses only the elementary group action on functions.
+
+### 6.6 Novelty grade
+
+The defensible grade is **novel packaging**. The diagonal theorem is classical; the
+invariant/non-invariant distinction is standard; and the observer/self-reference motivation
+has close precedents. The contribution is the explicit, self-contained packaging of a
+two-valued admissibility reading, the diagonal no-go, the separate invariant-valuation
+observation, the classification caveat, and a reproducible Lean anchor. We do not claim that
+this packaging is a new fixed-point theorem, symmetry theorem, physical theory, or forcing
+principle. Nor do we claim that a literature search proves uniqueness of the packaging.
+
+## 7. What the theorem does not establish
+
+- **No arbitrary-category result.** The theorem is stated and proved in `Set`. It makes no
+  morphism-level claim in an arbitrary category with finite products.
+- **No physical or operator-algebra realization.** No physical system, observable algebra, or
+  operator-algebra construction is shown to instantiate the hypotheses.
+- **No physical selection mechanism.** The theorem supplies no dynamics, probability law,
+  forcing modality, choice rule, or mechanism by which an observer selects a valuation.
+- **No canonical residual.** The diagonal `d_T` depends on the chosen candidate `T`. The
+  theorem does not choose a distinguished `T` or a distinguished valuation.
+- **No physical prediction or support for a physical theory.** The result has no empirical
+  content by itself and provides no confirmation of Geometric Unity or any other theory.
+- **No particular value, constant, or count.** It computes no number and does not derive three
+  generations or any generation count.
+- **No full-paper formalization.** Lean checks the function-level core and Boolean corollaries
+  only. The group-action classification, interpretation, prior-art assessment, and physical
+  disclaimers are not formalized.
+- **No theorem-level novelty for the components.** The mathematical components are classical
+  or elementary; the claimed contribution is only their carefully delimited synthesis.
+
+## Use of generative AI tools
+
+Generative AI tools were used substantially in drafting, formalization support, literature
+discovery, and adversarial review. The author takes full responsibility for the content. The
+Lean proofs and finite-instance checks provide independently executable checks of the narrow
+mathematical claims; they do not transfer authorship or responsibility to the tools.
+
+## References
+
+- F. W. Lawvere, "Diagonal arguments and cartesian closed categories," in *Category Theory,
+  Homology Theory and Their Applications II*, Lecture Notes in Mathematics 92, Springer,
+  1969, 134-145. DOI: 10.1007/BFb0080769.
+- N. S. Yanofsky, "A universal approach to self-referential paradoxes, incompleteness and
+  fixed points," *Bulletin of Symbolic Logic* 9(3), 2003, 362-386. DOI:
+  10.2178/bsl/1058448677.
+- G. Cantor, "Uber eine elementare Frage der Mannigfaltigkeitslehre," *Jahresbericht der
+  Deutschen Mathematiker-Vereinigung* 1, 1891, 75-78.
+- S. Kochen and E. P. Specker, "The problem of hidden variables in quantum mechanics,"
+  *Journal of Mathematics and Mechanics* 17, 1967, 59-87. DOI:
+  10.1512/iumj.1968.17.17004.
+- J. S. Bell, "On the problem of hidden variables in quantum mechanics," *Reviews of Modern
+  Physics* 38(3), 1966, 447-452. DOI: 10.1103/RevModPhys.38.447.
+- S. Abramsky and A. Brandenburger, "The sheaf-theoretic structure of non-locality and
+  contextuality," *New Journal of Physics* 13, 2011, 113036. DOI:
+  10.1088/1367-2630/13/11/113036.
+- J. H. Conway and S. Kochen, "The free will theorem," *Foundations of Physics* 36(10),
+  2006, 1441-1473. DOI: 10.1007/s10701-006-9068-6.
+- P. Curie, "Sur la symetrie dans les phenomenes physiques, symetrie d'un champ electrique
+  et d'un champ magnetique," *Journal de Physique Theorique et Appliquee*, 3e serie, 3,
+  1894, 393-415. DOI: 10.1051/jphystap:018940030039300.
+- J. Earman, "Curie's Principle and spontaneous symmetry breaking," *International Studies
+  in the Philosophy of Science* 18(2-3), 2004, 173-198. DOI:
+  10.1080/0269859042000311299.
+- J. D. Norton, "Curie's Truism," *Philosophy of Science* 83(5), 2016, 1014-1026. DOI:
+  10.1086/687934.
+- T. Breuer, "The impossibility of accurate state self-measurements," *Philosophy of
+  Science* 62(2), 1995, 197-214. DOI: 10.1086/289852.
+- J. Szangolies, "Epistemic horizons and the foundations of quantum mechanics,"
+  *Foundations of Physics* 48(12), 2018, 1669-1697. DOI:
+  10.1007/s10701-018-0221-9.
+- N. D. Lawrence, "The no barber principle: towards formalised selection in the inaccessible
+  game," arXiv:2604.21945, 2026.
+- S. Abramsky and J. Zvesper, "From Lawvere to Brandenburger-Keisler: interactive forms of
+  diagonalization and self-reference," *Journal of Computer and System Sciences* 81(5),
+  2015, 799-812. DOI: 10.1016/j.jcss.2014.12.001.
+- D. Frauchiger and R. Renner, "Quantum theory cannot consistently describe the use of
+  itself," *Nature Communications* 9, 2018, 3711. DOI:
+  10.1038/s41467-018-05739-8.
+- C. Brukner, "A no-go theorem for observer-independent facts," *Entropy* 20(5), 2018, 350.
+  DOI: 10.3390/e20050350.

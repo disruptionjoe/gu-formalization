@@ -48,18 +48,18 @@ class SourceActionBuildbenchTests(unittest.TestCase):
                 self.assertTrue(report.hard_guards["anti_import"])
                 self.assertTrue(report.hard_guards["anti_trap_bare_commutator_preserved"])
 
-    def test_sg4_anchor_scale_row_advances_to_source_noether_tau(self):
+    def test_sg4_anchor_scale_row_advances_to_global_boundary_tau_data(self):
         a_door = next(
             report
             for report in self.reports
-            if report.candidate.name == "sg4-minimal-bv-kt-finite-fiber-closure"
+            if report.candidate.name == "sg4-topological-wall-tau-underdetermined"
         )
 
         self.assertEqual(a_door.candidate.field_space, FieldSpaceDeclaration.FULL_VECTOR_SPINOR)
         self.assertEqual(a_door.effective_field_space, FieldSpaceDeclaration.FULL_VECTOR_SPINOR)
-        self.assertEqual(a_door.candidate.phase, CandidatePhase.SOURCE_NOETHER_TAU)
+        self.assertEqual(a_door.candidate.phase, CandidatePhase.GLOBAL_BOUNDARY_CONDITION_TAU)
         self.assertEqual(a_door.verdict, BuildbenchVerdict.MISSING_CARRIER_BLOCKED)
-        self.assertIn("Noether/tau carrier", a_door.next_action)
+        self.assertIn("global boundary condition", a_door.next_action)
         self.assertEqual(self.summary["ready_for_anchor_scale_a_door"], ())
 
     def test_named_missing_carriers_are_collected_for_hourly_handoff(self):
@@ -75,7 +75,10 @@ class SourceActionBuildbenchTests(unittest.TestCase):
             with self.subTest(candidate=report.candidate.name):
                 self.assertTrue(expected_missing.issubset(set(report.missing_channel_names())))
 
-        self.assertEqual(self.summary["next_hourly_progress_point"], "SOURCE-NOETHER-TAU-CARRIER")
+        self.assertEqual(
+            self.summary["next_hourly_progress_point"],
+            "GLOBAL-BOUNDARY-CONDITION-TAU-DATA",
+        )
 
     def test_boundary_bridge_row_records_the_index_wall_without_promoting(self):
         boundary = next(

@@ -76,11 +76,22 @@ Smoke test: `python tests/test_bridge.py` (reproduces the anchors C2 = 155.36, |
 
 ## Start here
 
+**Reconciliation (2026-07-11): `L_theta_source` is OVER-determined, not free.** The leg-intersection result
+(`../../explorations/source-action-constraint-intersection-2026-07-11.md` and
+`../../explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md`) shows the
+θ/source-current carrier this repo flags as `missing_carrier_blocked` / `underdetermination_fail` is in fact
+pinned by gravity ∩ dark energy: it must give `theta ~ M/rho^2` on Schwarzschild (Branch-3), carry amplitude
+`f_0` (DESI), and induce a stress matching the now-computed leading Willmore residual
+`Q^TF(B) ~ diag(-9/2,-3/2,-3/2,-3/2)·M^2/r^2` (see that note for the `M^2/r^2`-vs-canon-`M^2/r^4` tension and
+the OQ2-A gate). Construction should aim `L_theta_source` at this intersection TARGET, not search freely —
+without importing the answer (the target is independent physics, not `24/8`).
+
 **Current hourly-progress target (2026-07-10).** Work the roadmap in `../../NEXT-STEPS.md` under
 "2026-07-10 Hourly Progress Focus -- source-action buildbench first." Do not try to write the full source
-action first. The candidate buildbench, anchor-scale A-door fork, and minimal finite-fiber BV/Koszul-Tate
-closure attempt are now complete; the next hourly work should derive the projected BV/KT gauge differential
-from a source-level Noether/tau carrier instead of assuming the projection.
+action first. The candidate buildbench, anchor-scale A-door fork, minimal finite-fiber BV/Koszul-Tate
+closure attempt, finite-fiber source-Noether/tau solve, and topological-wall tau-selector probe are now
+complete; the next hourly work should supply concrete global boundary-condition/source-current data that
+selects one wall/tangent map without collapsing back to a fixed projector.
 
 `Agents Start Here.md` — the discipline, the spec, the dead-ends not to re-walk, and how to use the bridge.
 `DERIVATION-PROGRESS.md` — the running ledger (same compute -> adversarially-verify -> land discipline as the
@@ -95,6 +106,15 @@ tau and source-derived BV/Koszul-Tate closure remain open.
 `MINIMAL-BV-KT-CLOSURE-PACKET-2026-07-10.md` - third hourly-progress packet; records that finite-fiber
 BV/Koszul-Tate closure works after projecting the gauge map into `ker Gamma`, but the projection is not yet
 derived from a source-level Noether/tau carrier.
+`SOURCE-NOETHER-TAU-CARRIER-PACKET-2026-07-10.md` - fourth hourly-progress packet; records that the
+finite-fiber tau multiplier derives the projection as a Schur complement, but Noether leaves arbitrary
+tangent maps in `ker Gamma` unselected.
+`KLEIN-BOTTLE-COSMOLOGY-TOPOLOGICAL-WALL-LENS-2026-07-10.md` - external exploration lens; records the
+topology-forced wall/order-parameter pattern as an analogy for the derivative-tau tangent-selector blocker,
+without treating it as GU evidence.
+`TOPOLOGICAL-WALL-TAU-SELECTOR-PACKET-2026-07-10.md` - fifth hourly-progress packet; records that spacelike
+wall involutions generate nonzero tangent selectors, but the admissible wall family remains underdetermined
+without a concrete global boundary condition.
 `THETA-SOURCE-CURRENT-CARRIER-PACKET-2026-07-05.md` - carrier-specific packet; records that the
 theta/source-current route is blocked on the named missing `L_theta_source` carrier, with a
 targeted regression check.
