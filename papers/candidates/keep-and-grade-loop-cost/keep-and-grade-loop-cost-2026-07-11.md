@@ -261,3 +261,30 @@ this item: the spin-2 tensor numerators (left OPEN as Stage C) and the finite-wi
 by full Euclidean continuation; inside the `O(1)` resonance window the dressed graded ghost is itself a
 physical-sheet complex pair (model-verified), so the window guard of the wave-3 update stands unchanged
 (`tests/W124_stageA`, 16/16; `tests/W124_stageB`, 11/11).
+
+**Update 2026-07-14 (wave 5, `tests/W134`; appended, prior text unchanged).** The spin-2 tensor-numerator
+item (Stage C of the wave-4 update) is now closed in the direction the wave-4 text argued: the claim is
+upgraded from argued to computed. On a Cutkosky cut every massive spin-2 line carries its on-shell
+pole-residue numerator, the spin-2 projector, and on-shell the projector equals the uniformly weighted
+polarization sum over the five positive-norm massive polarizations exactly (machine precision), so the cut
+numerator is a positive semidefinite form for every vertex: minimum eigenvalue zero (to `1e-15`) with the
+five nonzero eigenvalues positive, verified pointwise across full grids of the two-ghost cut phase space at
+`s = 5, 6, 8, 12` (in units `m_2 = 1`, both at the repo's normal-line mass and in the `m -> 0` normalization
+where the threshold is exactly `4 m_2^2`). The longitudinal `k k / m_2^2` pieces do grow on the phase space
+(the largest eigenvalue rises from 1.5 to 17 across the scanned window) but the growth is entirely positive
+growth; the vDVZ/contact indefiniteness lives off-shell, which cuts never sample. The internal Krein-twist
+alternative (the Krein metric carried on the little-group indices, some polarizations negative-norm) is
+excluded, not merely disfavored: the SO(3) little group acts irreducibly on the five polarizations (computed
+trivial commutant), so any invariant internal metric is a multiple of the identity, and the eta-twisted sum
+is directly shown to be basis-dependent (not a covariant tensor); the keep-and-grade grading itself carries
+its Krein signature on the frequency shells (Result 3), uniform across the multiplet, so the ghost line is
+(positive internal metric) times (overall `-1` residue sign). Consequently the `(-1)^{n_ghost}` cut-parity
+map lifts intact from the scalar core to spin-2: the even two-ghost cut stays positive, the odd-ghost leak
+stays negative (the leak is confirmed, not cured, at tensor level), and every wave-4 sign statement holds
+with tensor numerators. Controls: the massless graviton reproduces the standard positive cut; deliberately
+flipping one polarization's norm produces a detectable negative eigenvalue growing with momentum. Remaining
+open on this item: magnitudes and UV behavior with the real Stelle vertices (the sign claim quantifies over
+all vertices and needs none), the lift of the CLOP-band arithmetic to tensor numerators (argued via Schwarz
+pairing of the conjugate-pair line numerators; not recomputed as a loop integral), and the finite-width
+Lee-Wick boundary value by Euclidean continuation from the wave-4 update; the resonance-window guard stands
+unchanged (`tests/W134`, 14/14).
