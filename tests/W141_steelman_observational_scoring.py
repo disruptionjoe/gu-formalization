@@ -40,6 +40,13 @@ check("C0 rho_crit ~ 8.5e-27 kg/m^3 (control)",
 check("C0b rho_L^(1/4) ~ 2.2-2.3 meV (control)",
       True, "cited from W136/W138 anchors, not recomputed here")
 
+# ------------------------- the DECLARED INPUT (framing correction, W135 cited)
+# The corrected steelman input is the KNOWN measured rate (W135, 16e476f):
+# dimensionless ladder q_B / (H0^3 M_Pl^2) = 9 Omega_L (q_B ~ 1.03 Planck
+# luminosities per Hubble volume is the cited form, coincidence caveats named).
+check("C0c declared-input identity 9 Omega_L = 6.16 (W135 ladder, recomputed)",
+      abs(9 * Omega_L - 6.16) < 0.01, f"9*Omega_L={9*Omega_L:.3f}")
+
 # --------------------------------------------------- G1b: matter-tracking F
 # Canonical kill CK-3: F proportional to local matter density.
 rho_1AU = M_sun / ((4.0 / 3.0) * math.pi * AU**3)
@@ -67,10 +74,10 @@ check("G2 DESI CPL schedule 0.744 = 2.48x outside the band (must NOT be claimed)
 # Canonical kill CK-1: comoving-dilution (dust-like) issuance schedule
 check("G2 dust-like F |d ln rho/d ln a| = 3 is 10x outside the band (KILL)",
       3.0 / band == 10.0, "schedule=3.0 vs band 0.3")
-# Story S4 live window: eps in [0.03, 0.3] (below 0.03 undetectable at DR3-era
-# precision sigma(w0) ~ 0.02-0.05 => sigma(eps) ~ 3*sigma(w) ~ 0.06-0.15;
-# the 0.03 floor is the optimistic joint-probe edge, stated as a window).
-check("S4 live window is inside the mimic band",
+# Story S4 window arithmetic (RETAINED FOR THE RECORD; S4 reclassified
+# OUT-OF-SCOPE under the mid-wave framing correction: the declared input is
+# the KNOWN constant rate, so schedule-deviation stories are not the target):
+check("S4 window arithmetic (out-of-scope record) inside the mimic band",
       0.03 < band and 0.3 <= band + 1e-12, "eps in [0.03, 0.3]")
 
 # ----------------------------------- G3 / K3: two-scale band closes the loop
