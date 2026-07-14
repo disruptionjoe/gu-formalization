@@ -14,7 +14,10 @@ scoring numbers computed for this wave:
   N3      Q-curvature issuance dimensional kill factor (~6e120, A8-1)
   N4      halo-density-weighted distribution vs the G1b 1e19 gate (A12-2)
   N5      Gibbs-measure sign check at the W136 pinned point (A3-1)
-  N6      mimic-gate arithmetic: DESI signal 2.48x outside (control + A7-1)
+  N6      mimic-gate arithmetic: DESI signal 2.48x outside (control)
+  N7-N8   the W135 measured rate reproduced (framing-correction anchor):
+          Q_tot per Hubble volume = (3/2) Omega_L c^5/G = 1.027 Planck
+          luminosities; dimensionless q_B/(H0^3 M_Pl,red^2) = 9 Omega_L = 6.16
 
 Run: python tests/W140_steelman_scoring_checks.py   (exit 0 on pass)
 """
@@ -173,6 +176,24 @@ factor = desi_dev / 0.3
 check("N6 DESI CPL signal needs 0.744 per e-fold = 2.48x outside G2 (W138)",
       abs(desi_dev - 0.744) < 1e-9 and abs(factor - 2.48) < 0.01,
       f"deviation {desi_dev:.3f}, factor {factor:.2f}x")
+
+# ----- N7: W135 measured rate, Planck-luminosity form -----
+# Bookkeeping issuance per Hubble volume: Q_tot = 3 H0 rho_L c^2 V_H
+# = (3/2) Omega_L c^5 / G (exact identity) = 1.027 Planck luminosities (W135).
+Q_tot = 3.0 * H0 * rho_L_energy * V_H          # W
+L_planck = c**5 / G                             # W
+ratio_LP = Q_tot / L_planck
+identity = 1.5 * Omega_L                        # (3/2) Omega_L, exact form
+check("N7 W135 measured rate: Q_tot/L_Planck = (3/2) Omega_L = 1.027 (to 3%)",
+      abs(ratio_LP - identity) < 1e-12 and abs(ratio_LP - 1.027) < 0.005,
+      f"computed {ratio_LP:.4f}; exact (3/2) Omega_L = {identity:.4f}")
+
+# ----- N8: W135 dimensionless ladder -----
+# q_B/(H0^3 M_Pl,red^2) = 9 Omega_L with rho_crit = 3 H0^2 M_Pl,red^2
+# (natural units, reduced Planck mass); the O(1) ratio W135 flags as THE ladder.
+dimensionless = 9.0 * Omega_L
+check("N8 W135 dimensionless rate q_B/(H0^3 M_Pl,red^2) = 9 Omega_L = 6.16",
+      abs(dimensionless - 6.16) < 0.01, f"computed {dimensionless:.4f}")
 
 # ----- summary -----
 n_fail = sum(1 for _, ok, _ in checks if not ok)

@@ -1,13 +1,14 @@
 ---
 artifact_type: exploration
-status: exploration (W140; full-roster steelman sweep, THEORETICAL PHYSICS family; assumption-first by design; 14 personas inline, 28 stories, internal scoring pass against the W138 battery)
+status: exploration (W140; full-roster steelman sweep, THEORETICAL PHYSICS family; assumption-first by design; 14 personas inline, 28 stories, internal scoring pass against the W138 battery; mid-wave framing correction from Joe applied before finalizing, Section 0)
 created: 2026-07-14
 wave: W140
-hypothesis: "Joe's framing, steelmanned: IF the dark-energy / cosmological-constant density is a SET ISSUANCE RATE, that issuance gets DISTRIBUTED THROUGH THE OBSERVERS of the system in some way. Find the FUNCTION F describing that rate/distribution, solid enough to serve as an ASSUMPTION LEG to back into the rest of the story (the source action, the spec FITs, the observer-slice structure). NOT the falsified naive claim that record-creation consumes positive issuance (W137 killed that pointwise; only the signed ledger survives)."
-title: "W140 -- theoretical-physics-family steelman sweep of the issuance-distribution function. 14 personas (Family A, orthodox/rigor/mainstream-physics partition of the 2026-07-11 roster), 2 stories each = 28 candidate distribution functions F, each with an assumption leg (which spec FIT or open object it pins) and a concrete test, scored against the W138 kill battery (G1-G6) and the standing physics (W122/W123/W126 tachyon chain, W128 AS branch, W130 native tree point, W132 C-operator equivalence, W133 family-fork declaration, W136 issuance propagation, W137 signed ledger). 11 stories KILLED-AT-GENERATION with computed or cited reasons; 17 survive; top tier = (1) the Krein-excess distribution (issuance = the pseudo-unitarity excess the C-metric re-books; SET collectively, DISTRIBUTED per positive-subspace observer; positive per observer where the |II|^2 ledger was signed), (2) the C-compression trace distribution (per-observer share = trace density of the compressed C-metric; cheapest test = W137 K2), (3) the two-scale-band uniform issuance (q = 3 H c mu_emb^4; the escape band and the H52 floor envelope intersect almost exactly, computed; falsifiable by a ~1.4x sub-mm floor improvement), (4) the Gibbs-measure AS selector (the distribution exists only if the scalaron is non-tachyonic, so the issuance reading REQUIRES the AS branch: the fork's first issuance-side selector), (5) the observer-dilution exact-LCDM function (total set, per-observer share = total / N_obs(a); pins B_i = 0, f0 = 0 as the prediction). Deterministic scoring arithmetic in tests/W140_steelman_scoring_checks.py (14/14, exit 0)."
-grade: "exploration / hypothesis-generation, conditional register throughout. Every statement of the form 'the issuance is/does X' is to be read 'under the issuance declaration (W136 sense), X'; nothing here asserts the declaration. COMPUTED (this wave, deterministic): the two-scale band vs floor-envelope intersection, the SFH-schedule mimic-gate kill factor (~9x), the curvature-invariant dimensional kill (~6e120), the halo-weighting G1b margin (~4e12 headroom), the pinned-point Gibbs sign (f0^2 = -1/8 < 0), plus four positive controls reproducing W138 anchors. CITED (not re-derived): the entire W136/W137/W138 evidence pack and the standing-physics chain. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; no FIT row moves; H41 stays unbuilt; H59 stays OPEN."
+hypothesis: "Joe's framing, steelmanned, with the mid-wave correction applied: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it in repo units: rho_Lambda ~ (2.24 meV)^4; bookkeeping issuance Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume (to 3%); dimensionless q_B/(H0^3 M_Pl,red^2) = 9 Omega_L = 6.16. The steelman question per persona: IF that known, measured number is DECLARED as the issuance input to the source action, distributed through the observers, what OTHER information can be backed out (which spec FITs, scales, relations), to be rigorously checked later. Exotic schedules are OUT OF SCOPE by the correction (and independently dead in W135's own taxonomy: drip, holographic, halving). NOT the falsified naive claim that record-creation consumes positive issuance (W137 killed that pointwise; only the signed ledger survives)."
+title: "W140 -- theoretical-physics-family steelman sweep of the issuance-distribution function. 14 personas (Family A, orthodox/rigor/mainstream-physics partition of the 2026-07-11 roster), 2 stories each = 28 candidate distribution functions F, each with an assumption leg (which spec FIT or open object it pins) and a concrete test, scored against the W138 kill battery (G1-G6) and the standing physics (W122/W123/W126 tachyon chain, W128 AS branch, W130 native tree point, W132 C-operator equivalence, W133 family-fork declaration, W136 issuance propagation, W137 signed ledger). 11 stories KILLED-AT-GENERATION with computed or cited reasons; 3 reclassified OUT-OF-SCOPE by the mid-wave framing correction (schedule-drift stories A1-1/A7-1/A12-1: the declared input is the KNOWN MEASURED rate, not a schedule freedom); 14 in-scope survivors; top tier = (1) the Krein-excess distribution (issuance = the pseudo-unitarity excess the C-metric re-books; SET collectively, DISTRIBUTED per positive-subspace observer; positive per observer where the |II|^2 ledger was signed), (2) the C-compression trace distribution (per-observer share = trace density of the compressed C-metric; cheapest test = W137 K2), (3) the two-scale-band uniform issuance (q = 3 H c mu_emb^4; the escape band and the H52 floor envelope intersect almost exactly, computed; falsifiable by a ~1.4x sub-mm floor improvement), (4) the Gibbs-measure AS selector (the distribution exists only if the scalaron is non-tachyonic, so the issuance reading REQUIRES the AS branch: the fork's first issuance-side selector), (5) the observer-dilution exact-LCDM function (total set, per-observer share = total / N_obs(a); pins B_i = 0, f0 = 0 as the prediction). Deterministic scoring arithmetic in tests/W140_steelman_scoring_checks.py (16/16, exit 0; the W135 measured-rate identities Q_tot/L_Planck = (3/2) Omega_L = 1.027 and 9 Omega_L = 6.16 reproduced as anchors N7/N8)."
+grade: "exploration / hypothesis-generation, conditional register throughout. Every statement of the form 'the issuance is/does X' is to be read 'under the issuance declaration (W136 sense), X'; nothing here asserts the declaration. COMPUTED (this wave, deterministic): the two-scale band vs floor-envelope intersection, the SFH-schedule mimic-gate kill factor (~9x), the curvature-invariant dimensional kill (~6e120), the halo-weighting G1b margin (~4e12 headroom), the pinned-point Gibbs sign (f0^2 = -1/8 < 0), plus four positive controls reproducing W138 anchors and two reproducing the W135 measured rate. CITED (not re-derived): the entire W135/W136/W137/W138 evidence pack and the standing-physics chain. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; no FIT row moves; H41 stays unbuilt; H59 stays OPEN."
 construction: "fork named per GEOMETER-VS-PHYSICS-OBJECTS.md, per story below. The observer object is program-native throughout (section sigma: X4 -> Y14, the W137 skeleton); the cosmological gates are standard-field (FRW continuity, ephemeris, Landauer) exactly as W138 built them so they bind any construction. Stories state which side their F lives on."
 depends_on:
+  - explorations/W135-issuance-structure-taxonomy-2026-07-14.md
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
@@ -30,6 +31,49 @@ the deliverable is the candidate FUNCTION F for that rate/distribution, specific
 declaring it as an assumption leg lets the program back into the rest of the story (a spec FIT,
 an open object, a branch of a standing fork). Assumption-first by design; the rigorous kills run
 inside this artifact, against the pre-committed W138 battery.
+
+## Section 0: mid-wave framing correction (from Joe, applied before finalizing)
+
+The correction, received while the sweep was executing: drop ALL exotic-schedule
+characteristics (halving, difficulty adjustment, schedule exotica) from the steelman target.
+The corrected claim is minimal: science ALREADY KNOWS the dark-energy rate. W135 (commit
+16e476f, landed mid-wave) measured it in repo units:
+
+- rho_Lambda ~ (2.24 meV)^4 (Planck-anchored; reproduced here as control C1);
+- bookkeeping issuance per Hubble volume Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G
+  = **1.027 Planck luminosities** (exact identity + O(1) coincidence flag, reproduced here as
+  check N7, agreement to 3%);
+- the dimensionless ladder q_B/(H0^3 M_Pl,red^2) = **9 Omega_L = 6.16** (THE O(1) ratio per
+  W135; q_B/H0^4 ~ 1e121 is not; reproduced as check N8).
+
+The steelman question per persona is exactly: IF that known measured number is DECLARED as the
+issuance input to the source action, what OTHER information can be backed out (which spec
+FITs, scales, relations), to be rigorously checked later. Consequences applied to this sweep:
+
+1. **Schedule-drift stories are out of scope.** A1-1 (unimodular drift), A7-1 (running-Lambda
+   schedule), and A12-1 (pre-registered schedule test) are RECLASSIFIED OUT-OF-SCOPE (not
+   killed: their gate sheets were clean, but their content is a schedule freedom the corrected
+   framing does not have). A7-1's branch-selector residue is folded into A3-1, where it
+   belongs without any schedule. W135's own taxonomy independently killed the exotic schedules
+   (per-comoving-time drip squeezed from both sides, b2-pure dead by the parameter-free floor
+   |w0+1| >= 0.35, the holographic c-family dead, halving steps provably BAO-invisible in
+   shape but dead by secular drift), so the reclassification loses nothing alive.
+2. **The declared input is now a MEASURED number, not a free postulate value.** Every
+   surviving story's Q_tot is the W135 rate above; the W136 boundary declaration and the W135
+   measurement are the same number in two registers (declaration-side and data-side). This
+   STRENGTHENS the surviving stories: the assumption leg starts from a number science already
+   owns, and everything the declaration pins (SA-G5 = 2, B_i = 0, f0 = 0, the two-scale band,
+   the branch preference, the C-operator clauses) is backed out of a measurement, not a guess.
+3. **W135's null-structure theorem sharpens the whole sweep:** for rho = const the covariant
+   source Q = 0 IDENTICALLY and the bookkeeping rate is pure pressure work; only w != -1
+   deviations evidence genuine issuance. So under the corrected framing the "set rate" is a
+   bookkeeping rate of the known background, and the entire physical content of the framing
+   lives in the DISTRIBUTION leg (which observers, weighted how) and in what the declared
+   number pins -- exactly where this sweep's surviving stories already put it. The A5-1 kill
+   (schedules tracking observer activity die 9x outside G2) stands as the boundary marker.
+
+Scoring below is re-framed accordingly; kills and gate sheets are unchanged (the battery is
+schedule-agnostic); the survivor count is restated as 14 in-scope.
 
 **Roster.** Family A of the 2026-07-11 two-track persona sweep (orthodox / rigor /
 mainstream-physics gatekeeper) is the theoretical-physics partition of the roster; all 14
@@ -63,18 +107,24 @@ branch, the C-operator's structure); (iii) the persona's concrete test.
 - Tri-repo gate: "issuance" is a local postulate label (W136 sense); the issuance concept is
   owned by the temporal-issuance repo; no cross-repo identity claim (R5 kill stands). Capability
   MEASURE belongs to TaF. One-way rule enforced.
-- W135 was still running when this sweep executed and is not cited.
+- W135 (landed mid-wave, cited per the framing correction): the measured rate is the declared
+  input; the null-structure separator (Q = 0 identically at w = -1) and the W135 schedule
+  kills (drip, holographic, halving) are honored; the surviving-transducer requirement (one
+  scalar: Q = 0, Q = const, or a feedback term) is noted where stories touch it.
 
-Scoring arithmetic: `tests/W140_steelman_scoring_checks.py` (14/14, exit 0; four positive
+Scoring arithmetic: `tests/W140_steelman_scoring_checks.py` (16/16, exit 0; four positive
 controls reproduce the W138 anchors -- DE scale 2.239 meV, H36 factor 4.775, dS ratio 1.4605,
-Landauer stellar gap 1.32e6 -- before any new number is extracted).
+Landauer stellar gap 1.32e6 -- and two reproduce the W135 measured rate (N7: Q_tot/L_Planck =
+(3/2) Omega_L = 1.027; N8: 9 Omega_L = 6.16) before any new number is extracted).
 
 ---
 
 ## Part 1: the 28 stories (per persona, two each)
 
 Notation: q = issuance rate density (energy per volume per time); the SET total at background is
-q_tot = 3 H rho_L per comoving volume (the fixed-rho_L bookkeeping rate, W138 G1); sigma = an
+q_tot = 3 H rho_L per comoving volume (the fixed-rho_L bookkeeping rate, W138 G1; per the
+framing correction this is the MEASURED W135 number, Q_tot = (3/2) Omega_L c^5/G = 1.027
+Planck luminosities per Hubble volume, dimensionless 9 Omega_L = 6.16); sigma = an
 observer slice = a section X4 -> Y14 (W137 skeleton); H_C+ = the C-operator's maximal positive
 subspace (W132); P_sigma = the sigma-localized compression (W137 C1).
 
@@ -89,8 +139,11 @@ observer current density (each observer contributes a fixed increment per unit p
 Assumption leg: pins B_i -- the W136 natural point B_i = 0 is epsilon = 0; any nonzero epsilon
 IS the B_i deviation, bounded by G2 at |3 epsilon| < 0.3. Test: the W129 likelihood machinery
 rerun with the one-parameter epsilon schedule, pre-registered (existing machinery; the G2
-translation is the analytic cross-check). Status: SURVIVES (mimic-only by construction; must
-not claim the DESI wiggle and does not).
+translation is the analytic cross-check). Status: RECLASSIFIED OUT-OF-SCOPE by the framing
+correction (Section 0): its content is a schedule freedom (epsilon != 0) the corrected framing
+does not have; the surviving residue -- the unimodular constant as the named Bianchi ledger
+sector for the DECLARED constant rate -- is absorbed as the G1a mechanism every in-scope story
+may cite. Gate sheet was clean; nothing killed.
 
 **A1-2 (Weyl-channel / Bach-invariant sourcing).** F: q(x) = c_B |Bach|(x) with dimensionless
 c_B -- issuance density proportional to the Bach-tensor invariant, so it vanishes exactly where
@@ -184,8 +237,10 @@ versions must decouple the schedule (set) from the distribution (through observe
 is the sweep's sharpest internal lesson: Joe's framing survives ONLY in the form "total set,
 distribution varies," never "total tracks the observers."
 
-**A5-2 (observer-dilution exact-LCDM function). TOP-TIER.** F: the total is SET,
-Q_tot = 3 H rho_L V_H per Hubble volume per unit time exactly (w = -1 exact); the per-observer
+**A5-2 (observer-dilution exact-LCDM function). TOP-TIER.** F: the total is SET at the
+MEASURED W135 rate, Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G = 1.027 Planck luminosities
+per Hubble volume exactly (w = -1 exact; W135's null structure: Q = 0 covariantly, the rate
+is bookkeeping); the per-observer
 share is F(sigma, a) = Q_tot / N_obs(a), the issuance divided evenly over the admissible
 observer slices, so each observer's share falls as structure forms while the total never moves.
 The distribution carries all the observer-dependence; the schedule carries none. Assumption
@@ -228,8 +283,13 @@ Weyl flow crosses c_W = 0 (strong coupling) after ~43-48 e-folds, so an AF-side 
 schedule hits a strong-coupling wall within the post-BBN e-fold budget and cannot stay a
 mimic; the AS side has the fixed point to anchor nu small. Test: compute nu on the W128
 UV-complete trajectories at the IR end (the W128 trajectory machinery exists; extracting the
-IR slope is bookkeeping) and check |nu| < 0.3. Status: SURVIVES, conditional on AS (second
-independent story preferring the same branch).
+IR slope is bookkeeping) and check |nu| < 0.3. Status: RECLASSIFIED OUT-OF-SCOPE as a
+schedule story (framing correction, Section 0): the nu-drift is schedule exotica. The
+branch-selector RESIDUE survives and is folded into A3-1: even at nu = 0 (the declared
+constant rate), asking WHERE the declared constant can consistently live still discriminates
+-- the AF/native side hits the W130 strong-coupling crossing (c_W = 0 after ~43-48 e-folds)
+so the constant cannot be RG-anchored there, while the AS side has the fixed point. That
+residue needs no schedule and is now part of A3-1's case.
 
 **A7-2 (coupling-as-rate: alpha_W or f0 as the issuance rate).** KILLED-AT-GENERATION: this is
 verbatim the killed B2 form (W138 G4: f0, c_L, alpha_W all failed exactly this way; a rate is
@@ -336,8 +396,11 @@ nu(a) d ln a) with nu pre-registered from whichever surviving story is being tes
 epsilon, A7-1's Reuter-IR nu), then confronted with the actual W129 band-sweep likelihood --
 never fit. Assumption leg: pins B_i as the schedule moments (the statistician's reading of the
 same FIT A1-1 pins). Test: the W129 machinery IS the test; the persona's requirement is
-pre-registration discipline (record nu, then run). Status: SURVIVES (methodological spine for
-every schedule-type survivor).
+pre-registration discipline (record nu, then run). Status: RECLASSIFIED OUT-OF-SCOPE
+(framing correction, Section 0): under the corrected framing there is no schedule parameter
+to pre-register (the rate is the known measured constant). The methodological residue --
+pre-register any claimed consequence before confronting data -- remains binding on every
+in-scope survivor's test.
 
 **A12-2 (halo-density-weighted distribution; DE clustering).** F: q(x, a) = 3 H rho_L *
 [rho_m(x)/rho_m_mean], total fixed (the weight integrates to 1 over the comoving volume),
@@ -445,7 +508,7 @@ disciplines the whole index-side lane.
 | A11-1 equipartition law | it IS Padmanabhan 2010 (prior art); contributed as a new novelty sub-gate instead | novelty (prior art) |
 | A11-2 C-field creation | matter-channel issuance re-enters the dead steady-state lane; kept as a demarcation marker | truth (historical) |
 
-### 2.2 Survivor ranking (17 stories; ranked by sharpness of the assumption leg, testability, novelty vs the dS-relabeling line, and use of standing physics)
+### 2.2 Survivor ranking (14 in-scope stories after the Section 0 reclassification of A1-1/A7-1/A12-1; ranked by sharpness of the assumption leg, testability, novelty vs the dS-relabeling line, and use of standing physics)
 
 Tier 1 (the sweep's products):
 
@@ -464,26 +527,30 @@ Tier 1 (the sweep's products):
    mu_DW localization [3.40, 4.71] meV and a mechanical falsifier (floor improvement ~1.4x
    kills the c = 2 chart). m2_eff not yet pinned (both central floors sit inside both bands)
    but pins mechanically as the floor moves. The only story that TAKES the two-scale escape.
-4. **A3-1 Gibbs-measure AS selector** (with A7-1 as its schedule-side twin). Two independent
-   stories force the same branch: the distribution measure exists only where the scalaron is
+4. **A3-1 Gibbs-measure AS selector** (carrying A7-1's schedule-free residue). Two independent
+   legs force the same branch: the distribution measure exists only where the scalaron is
    healthy (computed sign at the pinned point: f0^2 = -1/8 < 0 on the native side), and the
-   AF-side RG schedule hits the W130 strong-coupling crossing inside the e-fold budget. The
-   issuance reading therefore PREFERS THE AS BRANCH -- the AF-vs-AS fork's first
-   physics-side selector, exactly the evidence-pack ranking criterion. Test = the named W128
-   settling computation, which now carries this story's life as well.
+   declared constant cannot be RG-anchored on the AF side (W130 strong-coupling crossing).
+   Declaring the measured rate as the issuance input therefore PREFERS THE AS BRANCH -- the
+   AF-vs-AS fork's first issuance-side selector, exactly the evidence-pack ranking criterion,
+   and a pure back-out (no schedule anywhere). Test = the named W128 settling computation,
+   which now carries this story's life as well.
 5. **A5-2 observer-dilution exact-LCDM** (with A12-2 as its measurable refinement). Cleanest
    gates sheet; pins B_i = 0, f0 = 0 as the PREDICTION (the W136 natural point becomes
    forced); A12-2 supplies the missing observable (matter-weighted issuance implies DE
    clustering at perturbation level, G1b cleared with 4e12 headroom, computed).
 
 Tier 2 (alive, mid-rank): A2-1 (causally graded distribution: the steelman of the signed
-ledger; pins the signature's physical meaning; named covariance test), A1-1 / A12-1 (the
-schedule-moment stories: pin B_i as bounded drift; W129 machinery is the test; mimic-only),
+ledger; pins the signature's physical meaning; named covariance test),
 A4-1 / A14-1 (spectral-flow and boundary-eta issuance: pin the W103 slot; free-quantum
 weakness), A10-2 (the C2 boundary-balance rerun: the decisive computation that adjudicates
 every boundary-supplied F), A10-1 (the two-postulate normal form all survivors instantiate),
 A9-2 (horizon-patch partition: well-posed falsifier, weak leg, G5-adjacent in its uniform
 limit).
+
+Out of scope (Section 0 reclassification, not killed): A1-1 unimodular drift, A7-1
+running-Lambda schedule (branch residue folded into A3-1), A12-1 pre-registered schedule
+(pre-registration discipline retained as a binding requirement on all in-scope tests).
 
 ### 2.3 What the sweep converges on (the assumption leg, stated once)
 
@@ -493,8 +560,10 @@ finite positive trace density (the distribution weight); A3-1 needs the branch o
 positive subspace supports a measure (AS). The steelmanned framing, made maximally specific,
 is therefore:
 
-> DECLARED (never asserted): the issuance total is set at Q_tot = 3 H rho_L V_H (the W136
-> boundary declaration, w = -1 exact, B_i = 0, f0 = 0); its distribution through observers is
+> DECLARED (never asserted): the issuance total is the KNOWN MEASURED rate,
+> Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume
+> (dimensionless 9 Omega_L = 6.16; W135 measurement = W136 boundary declaration, one number in
+> two registers; w = -1 exact, B_i = 0, f0 = 0); its distribution through observers is
 > F(sigma) = Q_tot * Tr(P_sigma eta_+ P_sigma)/Tr(eta_+), the compressed-C-metric trace
 > density, with the per-process face q_obs = B^dag B (positive, threshold s > 2 M^2), existing
 > on the AS branch.
@@ -532,21 +601,24 @@ W128 native Hessian projection (A3-1's, already the repo's named settling comput
 - **Named gaps.** A13-2 has no cosmological embedding (its G1/G2 confrontation is blocked on
   the source-action normalization; H41-adjacent). A13-1's trace density is proven finite only
   if the W54 exponential localization survives interactingly (open). A9-1 carries the H24
-  one-scale revision as a counted cost. A3-1/A7-1 die if the W128 settling computation keeps
+  one-scale revision as a counted cost. A3-1 dies if the W128 settling computation keeps
   the tachyonic sign on all UV-complete trajectories. A5-2's background prediction is null;
-  its content is the distribution leg.
+  its content is the distribution leg. The Planck-luminosity coincidence (1.027) carries
+  W135's own O(1)-flag caveats and is used here as an anchor label, never as a derivation.
 - **Tri-repo gating.** "Issuance" is used throughout as the local postulate label only (W136
   terminology gate); the issuance concept is owned by the temporal-issuance repo; no
   cross-repo identity claim is made (the R5 kill stands). No capability-measure claim is made
   (TaF owns measure). One-way rule respected: this artifact supplies GU-side structure that a
   TI-side story would have to survive, never support for TI.
-- **W135** was still running when this sweep executed; it is not cited. Scoring of the
-  W135/W136/W137 proposals against the W138 battery remains the sibling wave's job; this
-  sweep scored only its own 28 stories.
+- **W135** landed mid-wave and is cited per the framing correction (Section 0): its measured
+  rate is the declared input, its null-structure separator and schedule kills are honored, and
+  its two rate identities are reproduced as anchors N7/N8. Scoring of the W135/W136/W137
+  proposals against the W138 battery remains the sibling wave's job; this sweep scored only
+  its own 28 stories.
 - **No canon / RESEARCH-STATUS / claim-status / verdict / posture change.** No FIT row moves
   in the spec (all pins are conditional on declarations). H41 stays unbuilt; H59 stays OPEN;
-  the E2 AF-vs-AS fork stays CARRIED (A3-1/A7-1 give it an issuance-side selector, they do
+  the E2 AF-vs-AS fork stays CARRIED (A3-1 gives it an issuance-side selector, it does
   not resolve it).
 
-**Artifacts:** this file + `tests/W140_steelman_scoring_checks.py` (14/14, exit 0; controls
-first).
+**Artifacts:** this file + `tests/W140_steelman_scoring_checks.py` (16/16, exit 0; controls
+first, W135 rate anchors N7/N8 included).
