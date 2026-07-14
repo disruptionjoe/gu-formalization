@@ -111,6 +111,7 @@ selected notes below and in each script header.
 - `sm_finite_control_ledger_audit.py`
 - `source_action_readme_inventory_audit.py`
 - `source_geometry_contract_audit.py`
+- `spec_consistency_readme_inventory_audit.py`
 - `stress_energy_shadow_emergence_audit.py`
 - `symbolic_proofs_readme_inventory_audit.py`
 - `tests_manifest_count_audit.py`
@@ -394,6 +395,14 @@ names every tracked direct source-action Python certificate and preserves the fr
 source-action-wall / not-a-verdict-change boundary around the Seiberg-Witten and
 moment-map source-action family. This is a map and posture guard only; it does not run
 the source-action scripts or change verdicts.
+
+## Spec-consistency README inventory gate
+
+`spec_consistency_readme_inventory_audit.py` checks that
+`tests/spec-consistency/README.md` names every tracked direct spec-consistency Python
+certificate and preserves the consolidation / not-new-physics / no-verdict-change
+boundary around source-action requirements consistency checks. This is a map and posture
+guard only; it does not run the spec-consistency script or change verdicts.
 
 ## Function-space extension README inventory gate
 
