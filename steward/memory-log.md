@@ -132,3 +132,7 @@ Routine detail stays here; it is not loaded by default.
 - Progress fan-out repaired the root tests manifest `threads/` count after A14 raised the live thread-script count to 18, restoring the organized-subdirectory count gate without reopening Thread A math or moving status/verdict surfaces. See `steward/runs/2026-07-13-progress-fanout-413-tests-manifest-thread-count.md`.
 - Progress fan-out repaired the `NEXT-STEPS.md` front-door process gate after the roadmap moved from the old firewall-primary banner to the July 11 source-action/gravity front door, while preserving the Firewall-Boundary Hypothesis as historical #2 and attack-not-defend. See `steward/runs/2026-07-13-progress-fanout-414-selection.md`.
 - Progress fan-out added a `tests/spec-consistency/` README and inventory gate so the H41 source-action requirements consistency certificate stays discoverable as consolidation, not new physics, without touching W122, papers, claim status, canon verdicts, public posture, or source-action math. See `steward/runs/2026-07-13-progress-fanout-415-spec-consistency-readme-gate.md`.
+
+## 2026-07-14
+
+- Progress fan-out repaired the root `tests/*.py` README inventory after W123-W126 raised the direct W-series frontier packet count to 87, restoring the root inventory gate without touching papers, claim status, canon verdicts, public posture, source-action math, or Lean files. See `steward/runs/2026-07-14-progress-fanout-416-tests-readme-inventory.md`.
