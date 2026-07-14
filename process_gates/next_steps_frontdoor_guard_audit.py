@@ -53,9 +53,21 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
         self.assertEqual("roadmap", self.metadata.get("doc_type"))
         self.assertIn("# Next Steps For Contributors", self.text)
 
-    def test_firewall_boundary_front_door_stays_attack_not_defend(self) -> None:
+    def test_current_front_door_names_source_action_gravity_priority(self) -> None:
         required = (
-            "PRIMARY RESEARCH QUESTION: the Firewall-Boundary Hypothesis",
+            "2026-07-11 PRIMARY PRIORITY",
+            "WORK THE OTHER FOUR LEGS",
+            "branch-fixed source action",
+            "write/derive the branch-3 source action with fixed coefficients",
+            "The concrete top TECHNICAL task now",
+            "HIGHER-CODIMENSION Willmore first variation",
+        )
+        missing = [phrase for phrase in required if phrase not in self.text]
+        self.assertEqual([], missing)
+
+    def test_firewall_boundary_historical_thread_stays_attack_not_defend(self) -> None:
+        required = (
+            "2026-06-28 (now #2, historical primary): the Firewall-Boundary Hypothesis",
             "primary falsification target",
             "firewall-like BOUNDARY object",
             "canon/firewall-boundary-hypothesis.md",
