@@ -247,3 +247,13 @@ to Track 1. Reproducible: `python -u tests/track2/T2A_graviton_sector_numbers.py
 `python -u tests/track2/T2B_dark_energy_curves.py` (exit 0). Five personas run inline in one
 session (EFT assembler, phenomenologist, computational engineer, hostile referee,
 honesty/firewall auditor). The count is not built here by design.*
+
+---
+
+## CORRECTION (2026-07-13, wave 32 / H52 -- appended, original text above unchanged)
+
+The "argued sub-mm edge; boundary not digitized" caveat carried throughout this page is **RESOLVED BY CITATION** (`explorations/wave32/H52-alpha13-boundary-cited-2026-07-13.md`; test `tests/wave32/H52_alpha13_boundary_cited.py`, exit 0, 18/18):
+
+1. **Boundary:** `lambda_max(alpha=1/3) = 47.6 um` at 95% CL (Lee 2020, FIT-FUNCTION-EVALUATED from the PUBLISHED-QUOTED radion bound `M* >= 7.1 TeV` and the published fit `lambda = 2.4 (TeV/M*)^2 mm`, hep-ph/0611223; band [46.0, 51.2] um). This page's assumed `ALPHA13_LAMBDA_MAX_UM = (45, 52)` band is CONFIRMED; `tests/track2/T2A_graviton_sector_numbers.py` needs no change and still exits 0.
+2. **Floor discrepancy resolved:** this page's `mu_DW >= ~3.4-4.8 meV` was RIGHT; the cited central floor is `>= 3.71 meV (m2_eff=5/4) to 4.54 meV (m2_eff=5/6)`, envelope [3.4, 4.7] meV. H50's `~3.0-3.6 meV` is superseded (it back-solves to the Kapner-2007-only boundary of 73.9 um).
+3. **H36 point:** `[60.0, 73.6] um` at `alpha = 1/3` upgrades from EXCLUDED-argued to **EXCLUDED-CITED** (Lee 2020 binding, margin 1.9-9.8x; Tan 2020 independent). Scope fix: Kapner 2007 alone does not exclude this window (its own crossing is 73.9 um); citations for the `c_L=3/8` exclusion should name the 2020 experiments.

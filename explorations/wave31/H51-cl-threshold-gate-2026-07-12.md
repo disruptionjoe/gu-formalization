@@ -77,3 +77,16 @@ The next H51 computation now has a crisp target:
 The remaining task is geometric, not phenomenological: compute the normalized positive `c_L` from the
 horizontal-sectional DeWitt-Lambda constant and the source-action normalization, including the sign convention
 that turns the sectional constant into a positive vacuum-energy coefficient.
+
+---
+
+## CORRECTION (2026-07-13, wave 32 / H52 -- appended, original text above unchanged)
+
+The `alpha=1/3` boundary is now CITED (`explorations/wave32/H52-alpha13-boundary-cited-2026-07-13.md`): **`lambda_max(alpha=1/3) = 47.6 um`** (Lee 2020, via the published radion bound `M* >= 7.1 TeV` and the published fit `lambda = 2.4 (TeV/M*)^2 mm`; band [46.0, 51.2] um). The fair-frontier floor inherited from H50 (`mu_DW ~= 3.0-3.6 meV`, argued) is superseded by the cited floor **`mu_DW >= 3.71 meV (m2_eff=5/4) to 4.54 meV (m2_eff=5/6)`**. The equivalent `c_L` threshold rows update to:
+
+| required `mu_DW` floor (cited) | equivalent `c_L` threshold |
+|---|---|
+| 3.71 meV | 0.148 |
+| 4.54 meV | 0.066 |
+
+So the rescue window tightens from the argued `c_L ~= 0.17-0.35` to **`c_L <= 0.066-0.148`**: the computed `c_L = 3/8 = 0.375` fails the gate by a factor > 2.5 even at the weakest corner. The gate conclusion of this page STRENGTHENS; the "live frontier" band quoted above is no longer reachable at `c_L = 3/8`.

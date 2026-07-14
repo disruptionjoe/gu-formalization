@@ -87,3 +87,13 @@ GU's first parameter-linked prediction, under its own H36 identification, is **e
 ---
 
 *Sources for the published bounds (comparison only): Kapner et al., Phys. Rev. Lett. 98, 021101 (2007); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Tan et al., Phys. Rev. Lett. 124, 051301 (2020).*
+
+---
+
+## CORRECTION (2026-07-13, wave 32 / H52 -- appended, original text above unchanged)
+
+The `alpha=1/3` boundary is now **CITED, no longer argued** (`explorations/wave32/H52-alpha13-boundary-cited-2026-07-13.md`, test `tests/wave32/H52_alpha13_boundary_cited.py`, exit 0). The n=1 radion benchmark has `alpha = n/(n+2) = 1/3` exactly, so the published radion bounds ARE published `alpha=1/3` crossings via the published fit `lambda = 2.4 (TeV/M*)^2 mm` (Adelberger et al., hep-ph/0611223): Lee 2020 (`M* >= 7.1 TeV`) gives **`lambda_max(alpha=1/3) = 47.6 um`** (band [46.0, 51.2] um); Kapner 2007 gives 73.9 um; Tan 2020 ~59 um (interpolated). Three items in this page are superseded:
+
+1. **The floor.** This page's argued `mu_DW >= ~3.0-3.6 meV` is the **Kapner-2007-only** floor (its 3.0 meV end back-solves to `lambda_max ~= 72 um ~` Kapner's 73.9 um crossing). Against the 2020 frontier the resolved floor is **`mu_DW >= 3.71 meV (m2_eff=5/4) to 4.54 meV (m2_eff=5/6)`**, envelope [3.4, 4.7] meV. Track-2's 3.4-4.8 meV band was the right one.
+2. **Kapner-alone scope.** Kapner 2007 alone DOES exclude this page's `c_L=1` window [76.7, 94.0] um (76.7 > 73.9) but does NOT exclude the H51 `c_L=3/8` window [60.0, 73.6] um; that exclusion rests on Lee 2020 / Tan 2020.
+3. **Q3/limit-3 wording** ("argued, not digitized"): the boundary is now anchored in PUBLISHED-QUOTED numbers + the published fit function; no figure was digitized. Verdict Q3 (EXCLUDED) STANDS and strengthens: margin at the predicted lambda is now 1.9-9.8x, cited.

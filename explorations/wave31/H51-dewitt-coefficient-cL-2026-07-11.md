@@ -85,3 +85,13 @@ GU's first parameter-linked prediction, under its own H36 identification, is in 
 ---
 
 *Sources for the published bounds (comparison only): Kapner et al., Phys. Rev. Lett. 98, 021101 (2007); Lee et al., Phys. Rev. Lett. 124, 101101 (2020); Tan et al., Phys. Rev. Lett. 124, 051301 (2020).*
+
+---
+
+## CORRECTION (2026-07-13, wave 32 / H52 -- appended, original text above unchanged)
+
+The "single next object" above (digitize the `alpha=1/3` curve) is **CLOSED by citation, not digitization** (`explorations/wave32/H52-alpha13-boundary-cited-2026-07-13.md`; test `tests/wave32/H52_alpha13_boundary_cited.py`, exit 0). The n=1 radion benchmark has `alpha = 1/3` exactly, so the published radion bounds are published `alpha=1/3` crossings via `lambda = 2.4 (TeV/M*)^2 mm` (hep-ph/0611223): **`lambda_max(alpha=1/3) = 47.6 um`** (Lee 2020, `M* >= 7.1 TeV`; band [46.0, 51.2] um). The argued `~45-52 um` band of this page is CONFIRMED at [46.0, 51.2] um. Consequences:
+
+1. **EXCLUDED stands; the STILL-BORDERLINE branch is dead.** The 60.0 um corner sits above the boundary by 1.9-3.4x in `alpha` (cited anchors + monotonicity); the 73.6 um corner by 4.1-9.8x.
+2. **Scope fix:** Kapner 2007 alone does NOT exclude the [60.0, 73.6] um window (its own `alpha=1/3` crossing is 73.9 um); the exclusion rests on Lee 2020 (binding) and Tan 2020 (independent, `alpha_limit(70 um) ~= 0.14 < 1/3` from its published factor-3 sentence alone).
+3. **Floor update:** resolved `mu_DW >= 3.71-4.54 meV` central (envelope [3.4, 4.7] meV), superseding H50's 3.0-3.6 meV (a Kapner-2007-only floor).
