@@ -32,7 +32,10 @@ non-circular computation):
 2. **`su(3,2)` is a non-native sub-block.** GU's native internal algebra is `so(5,5)`, whose maximal
    compact `so(5)+so(5)` is NOT the SM. The SM-as-maximal-compact result is a property of the chosen
    `su(3,2)` sub-block; that this is the selected one is itself source-action-gated (do not claim otherwise).
-3. **Dark energy: do NOT head "CLEARED" -- the live canon verdict is OPEN.** State: consistency, SIGN-only,
+3. **Dark energy: do NOT head "CLEARED" -- the live canon verdict is OPEN.** *[This correction is itself
+   SUPERSEDED in the falsifying direction by the 2026-07-13 block below: the sector is now falsified as the
+   DESI CPL summary and excluded as a CMB-consistently-calibrated distance model; the sign-only consistency
+   row above is a historical test grade, not the current verdict.]* State: consistency, SIGN-only,
    LCDM/amplitude-degenerate, `f_0`/`B_i` tuned fits (not GU predictions), EOS machinery reconstruction-grade.
    DESI `w_a=-0.75` is the CMB+DESI+SNe CPL combo (arXiv:2404.03002). The "historical +1.17 was a hardcoded
    slope bug" claim is NOT independently reproduced here -- state only that the corrected fit shares the sign.
@@ -79,8 +82,9 @@ DeWitt `Lambda`; the `|II|^2` functional forced II-class; the massive ghost's si
 independent methods; the Krein ghost-parity clears it in the Bateman-Turok sense -- ***conditional on one
 natural-but-unforced soldering postulate*** (`A = spin-lift(grad^gimmel)`) ***plus the dimensionful scale***
 `mu_DW`. The fermion/`C2` residual and loop-level unitarity remain open, and the dark-energy sector sits
-**~3-4 sigma** from DESI. This **subsumes** the located-not-forced generation count as one facet of the single
-residual.
+**~3-4 sigma** from DESI *[historical phrasing; the 2026-07-13 block below hardens this to falsified-as-CPL
+plus excluded-as-CMB-calibrated-distance-model]*. This **subsumes** the located-not-forced generation count
+as one facet of the single residual.
 
 **Wave ledger** (all `tests/waveN/*.py`, exit 0, exploration-grade, none promoted to canon):
 
@@ -115,13 +119,83 @@ So the conditional theorem is the **proven final state within the currently buil
 awaiting closure. This is **strictly softer** than, and provably distinct from, the fermion sector's `C2`
 wall where the generation count actually lives.
 
+## 2026-07-13 three-wave consolidation (W119-W126, H46C, H52, Track 2, Yukawa, requirements spec) -- this block GOVERNS Secs 2.4, 4, 6 and the Open premises / honest negatives
+
+Three adversarial waves ran on 2026-07-13 (each result a 5-persona inline team with a deterministic
+test; every test re-run for this consolidation, W127, exit codes recorded below). Two hard movements
+and one sharpening govern everything downstream of this block:
+
+1. **Dark energy is falsification-hardened.** H46C (wave 46) executed the theta_star re-solve of GU's
+   own CMB-calibrated amplitude: GU's own calibration OVERSHOOTS the BAO-preferred amplitude by
+   `+5.7 sigma_A` (`dAIC = +35.78` at GU's own calibration; `+16.03` with `omega_m h^2` profiled for
+   both models), and the freed-amplitude shape win (`dAIC = -3.17`) has NO CMB-consistent realization.
+   With per-`f_0` CMB calibration the BAO-preferred `f_0` is the LCDM limit `f_0 -> 0` (bound
+   `f_0 < ~0.027-0.03` vs the CPL-needed `0.125`). The prior softening "viable as a distance model"
+   is **SUPERSEDED** wherever it appears below: GU's dark energy is falsified as the DESI CPL summary
+   AND excluded as a CMB-consistently-calibrated distance model for `f_0 >= ~0.03`; it survives only
+   as a subdominant component in the LCDM limit. (Canon: CORRECTION DARK-ENERGY-05, already cascaded;
+   verdict on the canon EOS file stays OPEN at that component-only scope.)
+2. **The AF branch carries a NATIVE, tree-unliftable, positive-norm tachyonic scalaron.** W122 proved
+   the spin-0 conformal-mode sign is physical, not gauge (exact auxiliary-field/Legendre route; a
+   gauge parameter provably has nowhere to enter; `m_0^2 = gamma/(6c) < 0` on the AF trajectory, `c` the
+   direct `R^2` coefficient, reciprocal to the agravity `f_0^2` and negative with it; the mode is
+   positive-norm, so it is a tachyon, not a ghost, and there is nothing for keep-and-grade to grade).
+   W123 closed the porting-artifact escape (convention chain pinned end to end by an exact
+   cross-lineage identity; no admissible field content flips the sign; and a one-line monotonicity
+   theorem FORBIDS positive-`f_0^2` AF trajectories outright -- `f_0^2 > 0` Landau-poles in bounded
+   `t`, so `f_0^2 < 0` at every finite scale on every AF trajectory). W126 closed tree-level vacuum
+   lifting EXACTLY: the induced `|II|^2` potential sector terminates at `R^2` identically
+   (`c_3 = c_4 = ... = 0`, all orders in `phi`, two routes; MSS-slice `F(R) = 2 + R/3 - R^2/9`), the
+   unique extremum is the tachyonic top with a runaway to the `f' = 0` wall, and the loop-`R^3`
+   rescue is ghost-infested or out-of-validity on both W46 branches. **This is not a conditional
+   antecedent: it is a property of the AF branch of the declared action.** The two thin escapes are
+   named in the honest-negatives section: the AF-vs-AS fork (the Reuter fixed point W119 catalogued)
+   and a non-perturbative mechanism beyond the computed truncations.
+3. **The residual object is sharper.** The source-action requirements spec consolidates every leg's
+   demands into 27 rows (8 FORCED / 9 DECLARATION / 10 FIT) with NO outright contradiction among the
+   FORCED items (five named tensions carried openly). W125 then ran the first build attempt against
+   that spec: a five-term `g = 1` ker-Gamma candidate at symbol level, with the SA-C4 kill-test BUILT
+   for the first time and TEST-BUILT-PASSING on the candidate, the shiab revision `t* = -1/6` exact,
+   and payoff NONE (0 of 10 FITs emitted source-first, machine-checked reasons). The single object
+   blocking the full build, the remaining loop packet, and SA-G9 alike is **the covariant operator on
+   `Y14`** (the flat symbol model does not carry it).
+
+**Notation note (W123's disambiguation, applied throughout this paper).** `f_0^2` is a SIGNED coupling
+despite the square notation. Two repo conventions exist: the UV-arc/W119 usage (`f_0^2` = the agravity
+coupling, `R^2` coefficient `1/(6 f_0^2)`) and the W79/W122 usage (`f_0^2` = the direct `R^2`
+coefficient). W123 verified the two are reciprocal and hence SIGN-consistent (magnitude formulas
+differ). In this paper `f_0^2` always means the agravity coupling, the UV-arc convention; every sign
+claim is convention-robust.
+
+**Consolidation verification ledger** (W127 re-runs, 2026-07-14; all deterministic):
+
+| Result | Claim (honest grade) | Test | Re-run |
+|---|---|---|---|
+| W119 | AF trajectory + negative fixed-ratio + Krein spin-2 grading SURVIVE a minimal FRG truncation (Litim + exponential + shape-swept regulators); the one-loop UNIQUENESS clause breaks -- the Reuter FP appears, already catalogued (W83/W88), no new ambiguity; ghost-mass fork confined to the UV endpoint (DERIVED-on-PORTED, truncation-dependence explicit) | `tests/W119_h59_frg_krein_negative_ratio.py` (17/17) | exit 0 |
+| W120/W121 | CLOP order-of-limits ambiguity EVADED at fixed order (it attaches to the removal prescription's deformation step, which keep-and-grade does not perform); no-local-positive-metric theorem HARDENED (4 of 6 hypotheses necessary, one provably tight; x-dependent finite-order operators excluded) | `tests/W120_path2_target2_keepgrade_vs_clop.py` (16/16), `tests/W121_path2_target3_hypothesis_hardening.py` (11/11) | exit 0, exit 0 |
+| W122 | the spin-0 scalaron is PHYSICAL, positive-norm, tachyonic on the AF trajectory; gauge channel exhausted (exact Legendre route, gauge parameter has nowhere to enter; exact within the 4th-order truncation) | `tests/W122_spin0_scalaron_auxfield.py` (27 checks) | exit 0 |
+| W123 | tachyon NATIVE-ROBUST: convention chain pinned (exact cross-lineage identity); fixed-ratio sign robust across the whole admissible band; positive-`f_0^2` AF trajectories FORBIDDEN (monotonicity theorem + Landau bound) | `tests/W123_native_r2_sign_convention_audit.py` (34/34) | exit 0 |
+| W124 | at two loops the graded prescription is UNAMBIGUOUS at fixed order (no ambiguity of its own; anomalous-threshold hunt empty); the CLOP band's endpoints are exactly the two families' answers (`0` and `+1` x `Im S_gg`); even-cut inter-family disagreement (+1 vs 0) stands; the odd-cut leak persists at `s > (2m+M)^2` (numerical-controlled; spin-2 tensor numerators OPEN) | `tests/W124_stageA_sunset_graded_vs_LW_CLOP.py` (16/16), `tests/W124_stageB_overlap_kite_cuts.py` (11/11) | exit 0, exit 0 |
+| W125 | first source-action build vs the 27-row spec: PARTIAL; SA-C4 kill-test built and TEST-BUILT-PASSES at symbol level; `t* = -1/6` exact; payoff NONE; blocking object = the covariant operator on `Y14` | `tests/W125_built_candidate_assembly.py` (14/14), `tests/W125_sac4_subprincipal_built.py` (9/9) | exit 0, exit 0 |
+| W126 | beyond-4th-order vacuum lifting CLOSED at tree level EXACTLY: `|II|^2` conformal potential sector terminates at `R^2` identically, all orders; `F(R) = 2 + R/3 - R^2/9`; runaway stands; loop-`R^3` rescue ghost-infested or out-of-validity | `tests/W126_beyond4th_conformal_iisq.py` (32 checks) | exit 0 |
+| H46B (wave 45) | DESI DR2 + Planck digit gate CLEARED against primary sources (arXiv:2503.14738 Table 4 + official likelihood files; arXiv:1807.06209) | `tests/wave45/H46B_referee_grade_desi_verification.py` (33/33) | exit 0 |
+| H46C (wave 46) | DE FALSIFICATION-HARDENED: excluded as a CMB-consistently-calibrated distance model too (`dAIC = +35.78`; `f_0 < ~0.027` 3-sigma-equivalent vs CPL-needed `0.125`); the freed-amplitude rescue DISSOLVES | `tests/wave46/H46C_theta_star_cmb_calibration.py` (20/20) | exit 0 |
+| H52 (wave 32) | the `alpha = 1/3` sub-mm exclusion boundary is now CITED, not argued: `lambda_max = 47.6 um` (Lee 2020, via the published `n = 1` bound); the H36 window `[60.0, 73.6] um` EXCLUDED-CITED, margin 1.9-9.8x; resolved `mu_DW` floor `[3.4, 4.7] meV` envelope (supersedes H50's 2007-data floor 3.0-3.6 meV) | `tests/wave32/H52_alpha13_boundary_cited.py` (18/18) | exit 0 |
+| Track 2 | the conditional theory GU-given-S emits its numbers (never asserting S): `alpha = 1/3` fixed; inside the allowed `mu_DW` window GU-given-S predicts EXACTLY GR at LIGO (massless pole exactly massless; massive companion 9+ orders above the excitable band); `mu_DW >= ~3.4-4.8 meV`, no experimental upper edge | `tests/track2/T2A_graviton_sector_numbers.py` (8/8), `T2B_dark_energy_curves.py` (4/4) | exit 0, exit 0 |
+| Yukawa (H28) | channel table COMPLETE and rigid (one channel per `Lambda^k`/chirality block); non-form Higgs carriers FORBIDDEN (dim Hom = 0, exact); hierarchy SILENT (three surviving couplings free); mod-3 Froggatt-Nielsen charges provably STERILE (all 27 assignments); the `1+2` block texture is pattern-compatible only, not derived | `tests/yukawa-scoping/yukawa_trilinear_channels.py` (20/20) | recorded run cited (2026-07-13, exit 0; >10-min suite, not re-run) |
+| Requirements spec (H41) | 27 rows, 8 FORCED / 9 DECLARATION / 10 FIT; zero outright contradictions among FORCED; five named tensions | `tests/spec-consistency/source_action_requirements_consistency.py` (33/33) | exit 0 |
+
+The H51 DeWitt-coefficient slow suite is likewise cited at its recorded run (2026-07-12, exit 0), not
+re-run.
+
 ## Abstract
 
 We report a structural result about a candidate geometric-unification framework and its relation to the
 five sectors it must account for -- the Standard Model gauge group and content, the forces, quantum
 (indefinite-metric) structure, dark energy, and gravity. Under an adversarial program that granted a
-working source action and then tried to *falsify* each sector, **no sector falsifies the framework**, and
-**four of five are cleared at existence/consistency grade**: (i) the Standard Model gauge algebra is
+working source action and then tried to *falsify* each sector, **no sector falsifies the framework's
+structure, but one sector's distinctive observational signal is now excluded in every tested register**;
+**three of five are cleared at existence/consistency grade**: (i) the Standard Model gauge algebra is
 realized *exactly* as the maximal compact of the ambient `su(3,2)` -- `su(3)+su(2)+u(1)`, a single `u(1)`,
 no extra photon (reproducible; `su(3,2)` is a non-native sub-block, so *which* sub-block the dynamics
 selects is itself the residual), and the forced mirror matter is anomaly-free (four SM traces vanish,
@@ -129,36 +203,51 @@ computed) and -- by standard SO(10) representation theory -- vectorlike and mass
 maximal-compact selection *admits* exactly the SM forces (a breaking to exactly them exists), avoiding the
 "28-photon" adjoint-breaking catastrophe; (iii) quantum structure is unitary-repairable on the indefinite
 (Krein) inner product (a positive-definite physical sector and a Krein-unitary generator exist, on a
-faithful model); (iv) dark energy is *sign-consistent* (correct quadrant, `w_a<0`) with the DESI DR2 CPL constraints,
-verified against the primary source arXiv:2503.14738: GU nails `w_0` but **under-evolves** `|w_a|` (~0.27 vs
-~0.86) and sits **~3-4 sigma** from DESI -- LCDM-amplitude-degenerate (`f_0` a tuned fit), its
-equation-of-state machinery reconstruction-grade, and a genuine near-falsifying handle kept in the open, NOT
-a clear.
+faithful model); (iv) dark energy is the framework's hard negative: after the full adversarial arc (CPL projection,
+raw BAO likelihood, and finally GU's own theta_star CMB calibration, all against primary sources) the
+theta sector is **falsified as the DESI CPL summary AND excluded as a CMB-consistently-calibrated
+distance model** for `f_0 >= ~0.03` (`dAIC = +35.8` at GU's own calibration); it survives only as a
+subdominant component in the LCDM limit, so the sector no longer supplies evidence *for* the framework
+in any tested register (Sec. 2.4 and the honest-negatives ledger).
 The fifth sector, gravity, is upgraded by an 8-wave arc (see the Wave 1-8 block above) to a **conditional
 theorem**: at *tree level* it Stelle-clears (induced Einstein-Hilbert `R^X` + `Weyl^2` + a DeWitt `Lambda`;
 the `|II|^2` functional forced the II-class; the massive-ghost sign confirmed healthy by two independent
 methods; the Krein ghost-parity clears it in the Bateman-Turok sense) -- **conditional on one
 natural-but-unforced soldering postulate** (`A = spin-lift(grad^gimmel)`) **plus the dimensionful scale**
-`mu_DW`; loop-level unitarity remains open. The central finding is that **the four cleared sectors' remaining
-freedom, the gravity soldering-postulate-plus-scale, the fermion `C2`/generation residual, and the gauge
-vacuum are jointly fixed by one object**: the source action (its field-space declaration together with its
-fixed coefficients), a rigid, finite residual. The generation count is *located, not forced* -- a special case.
+`mu_DW`; loop-level unitarity remains open. On the ultraviolet side the 2026-07-13 waves cut both ways:
+the renormalizable-plus-asymptotically-free picture *survives* its first FRG truncation (W119), and the
+graded prescription is unambiguous at fixed order through two loops (W124); but the same AF branch is now
+shown to carry a **native, positive-norm, tree-unliftable tachyonic scalaron** (W122/W123/W126) -- a
+property of the declared action's AF branch, not a conditional antecedent, with exactly two thin escapes
+(the AF-vs-AS fork; a non-perturbative mechanism). The central finding is that **the cleared sectors'
+remaining freedom, the gravity soldering-postulate-plus-scale, the fermion `C2`/generation residual, and the
+gauge vacuum are jointly fixed by one object**: the source action (its field-space declaration together with
+its fixed coefficients), a rigid, finite residual -- now specified by a 27-row requirements spec (8 FORCED /
+9 DECLARATION / 10 FIT, zero contradictions) whose first build attempt names the single blocking object, the
+covariant operator on `Y14`. The generation count is *located, not forced* -- a special case.
 The framework thus **closes up to one precisely-characterized object**, and we exhibit that object. We do
-not claim the framework is proven; we claim it is not falsified on any sector and that its entire residual
-freedom is localized in one place.
+not claim the framework is proven; we claim its structure is not falsified on any sector -- while stating
+plainly that its dark-energy signal is excluded in every register tested so far and that its AF branch
+carries a genuine tachyonic instability -- and that its entire residual freedom is localized in one place.
 
 ## 1. What is and is not claimed
 
-- **Claimed:** no sector falsifies the framework; four sectors are consistent and the structures they
-  require provably *exist*; gravity is a **tree-level conditional theorem** (Stelle-clears conditional on one
-  soldering postulate + `mu_DW`); the total remaining freedom across all sectors is a single object (the source
-  action's field-space declaration together with its fixed coefficients), which we characterize (rigid, finite,
-  a bounded discrete/parametric residual).
+- **Claimed:** no sector falsifies the framework's *structure*; three sectors (SM content, forces, quantum
+  structure) are consistent and the structures they require provably *exist*; gravity is a **tree-level
+  conditional theorem** (Stelle-clears conditional on one soldering postulate + `mu_DW`); dark energy is the
+  honest hard negative -- falsified as the DESI CPL summary and excluded as a CMB-consistently-calibrated
+  distance model, surviving only as a subdominant component (2026-07-13 block above); the AF branch of the
+  declared action carries a native, tree-unliftable tachyonic scalaron (a computed property, stated, not
+  hidden); the total remaining freedom across all sectors is a single object (the source action's field-space
+  declaration together with its fixed coefficients), which we characterize (rigid, finite, a bounded
+  discrete/parametric residual, now specified by the 27-row requirements spec).
 - **Not claimed:** that the framework *derives* the Standard Model / forces / dark energy (it accommodates
   them and the required structures exist -- *which* the dynamics selects is the residual); that gravity is
   *unconditionally* closed (it is a tree-level conditional theorem, conditional on the soldering postulate
-  `A = spin-lift(grad^gimmel)` + `mu_DW`; loop-level unitarity is open); that dark energy is confirmed (it is
-  sign-consistent but ~3-4 sigma from DESI); that three generations are *forced* (they are located, not
+  `A = spin-lift(grad^gimmel)` + `mu_DW`; loop-level unitarity is open); that dark energy is confirmed or even
+  viable in any register tested so far (it is falsified as the CPL summary and excluded as a CMB-calibrated
+  distance model; the historical "sign-consistent but ~3-4 sigma" phrasing is SUPERSEDED by the 2026-07-13
+  block); that three generations are *forced* (they are located, not
   forced); that GU is correct or proven -- this is a reconstruction/audit of a heterodox theory, at honest
   grade; that the framework is GU-specific (the reduction-to-one-residual is geometry-agnostic).
 - **Grade discipline (per sector, not a blanket caveat):** *reconstruction-grade* (read from a spoken
@@ -199,7 +288,17 @@ is positive-definite and a Krein-unitary generator (`S^dag K S = K`) exists. No 
 violation. (The generalized-Born-rule quantization layer is imported; the framework supplies the Krein
 kinematics, and unitary QM is recoverable on it.)
 
-### 2.4 Dark energy -- CONSISTENT in sign, but ~3-4 SIGMA from DESI (live canon verdict OPEN; do not head "cleared")
+### 2.4 Dark energy -- FALSIFIED as the DESI CPL summary AND EXCLUDED as a CMB-consistently-calibrated distance model (survives only as a subdominant component; canon verdict OPEN at that scope)
+
+**Current verdict (2026-07-13 block above, GOVERNS this section; CORRECTION DARK-ENERGY-05 cascaded to
+canon).** The full adversarial chain now reads: the `(w_0, w_a)` CPL projection is falsified (H43/H44);
+the raw-BAO "viable as a distance model" reading is SUPERSEDED -- H46C's theta_star re-solve shows GU's
+own CMB-calibrated amplitude overshoots the BAO preference by `+5.7 sigma_A` (`dAIC = +35.78`; profiled
+`+16.03`), the freed-amplitude shape win has no CMB-consistent realization, and per-`f_0` calibration
+prefers the LCDM limit (`f_0 < ~0.027-0.03` vs the CPL-needed `0.125`). What survives is a theta
+component too small to be GU's distinctive signal. The paragraphs below are retained as the honest
+historical chain (each stage was real when computed); read them through this verdict.
+
 A dynamical, equivariant scalar replaces the static cosmological constant. The theta-sector point
 (`f_0 = 0.125`) is `(w_0, w_a) = (-0.768, -0.273)` (`tests/one-residual/dark_energy_desi_sign.py`, exit 0;
 the DESI DR2 CPL constraints were verified against the **primary source** arXiv:2503.14738 Eqs. (26)-(28) in
@@ -241,7 +340,10 @@ built `theta` dynamics that would fix `f_0`, and it becomes a genuine hard test 
 forces `f_0` near the in-tension default. So DESI, like the gravity soldering (Sec. 2.5), routes to the
 **same single unbuilt object** -- the source action -- as a conditional/soft negative, not a hard kill. (This
 is not a rescue: `~3-4 sigma` at the default parameters is real; `soft` means the model is not yet committed
-enough to be falsified, not that it fits.)
+enough to be falsified, not that it fits.) **[SUPERSEDED (H46C, 2026-07-13): the "soft / amplitude-gated,
+not a present falsification" register above is historical. The amplitude freedom it leaned on has no
+CMB-consistent realization; the sector is now falsified as a CPL fit AND excluded as a CMB-calibrated
+distance model for `f_0 >= ~0.03`. See the section header and the 2026-07-13 block.]**
 
 ### 2.5 Gravity -- CONDITIONAL THEOREM at tree level (conditional on one soldering postulate + `mu_DW`); loop-level OPEN
 *Governed by the Wave 1-8 block above; this supersedes the earlier "one undetermined Willmore-EL
@@ -397,13 +499,43 @@ Collecting the open freedom across all five sectors:
 
 These are **jointly fixed by one object**: the source action (its field-space declaration *together with*
 its fixed coefficients). The framework therefore **closes up to a single, precisely-characterized,
-currently-unwritten object**, and no sector falsifies it. This is the
+currently-unwritten object**, and no sector falsifies its structure. This is the
 generalization of "located, not forced" from the generation count to the *entire* residual freedom of the
-framework. **Honesty brake (the E-audit rule, kept explicit):** "reduced to one X" is *not itself* progress
+framework.
+
+**The residual, sharpened (2026-07-13).** The one object is no longer only *named*; it is *specified*: the
+requirements spec consolidates every leg's demands into 27 rows (8 FORCED / 9 DECLARATION / 10 FIT), sourced
+to artifact and test, with NO outright contradiction among the FORCED rows and five named tensions carried
+openly (`tests/spec-consistency/source_action_requirements_consistency.py`, 33/33, exit 0). The Yukawa
+scoping adds the matter-sector rows at computed grade: the trilinear channel table is complete and rigid,
+non-form Higgs carriers are FORBIDDEN exactly (dim Hom = 0), the derived Z/3 cuts 9 couplings to 3 (the
+`1+2` block texture, pattern-compatible only), mod-3 Froggatt-Nielsen charges are provably STERILE for all
+27 assignments, and the mass hierarchy is SILENT -- source-action-gated like everything else
+(`tests/yukawa-scoping/yukawa_trilinear_channels.py`, 20/20, recorded run). And the first build attempt
+against the full spec (W125) got a five-term candidate to symbol level, built and passed the SA-C4 kill-test
+for the first time, emitted zero of ten FITs source-first (payoff NONE, machine-checked reasons), and named
+the single blocking object for the full build, the loop packet, and SA-G9 alike: **the covariant operator on
+`Y14`**.
+
+**And its honest counterweight.** The conditional theorem's ledger has also grown a hard entry that is NOT
+an antecedent: the AF-branch scalaron tachyon (honest negatives below) is a computed property of the
+declared action, not a freedom the source action can select away -- what the source action can still decide
+is which *branch* (AF vs AS, via the Reuter fork) the theory runs on, and only the AS branch or a
+non-perturbative mechanism could remove the instability. Stated per branch: on AF, renormalizability +
+asymptotic freedom + spin-2 grading stability + two-loop graded cleanliness AND the tachyon; on AS
+(Reuter-fork), none of these is yet computed.
+
+**Honesty brake (the E-audit rule, kept explicit):** "reduced to one X" is *not itself* progress
 -- the "one object" is genuinely a **conjunction** of distinct data (the soldering `!=` `mu_DW` `!=` the
 fermion `C2`/2-bit count `!=` the gauge vacuum), stably named but not literally one object; only a **forced**
-construction of the source action, or a genuine **discriminator** (e.g. the DESI tension), changes the
-epistemic state.
+construction of the source action, or a genuine **discriminator**, changes the epistemic state. The DESI
+tension, cited here in earlier drafts as the example discriminator, has now discriminated -- negatively
+(Sec 2.4). **E1/Lakatos watch note (added at referee's insistence, 2026-07-13):** the one-object pattern has
+now recurred one level down -- the "single unbuilt object" was the source action; after the first build
+attempt it is the covariant operator on `Y14` *inside* the source action. A research programme whose sole
+blocking object keeps reappearing at a sharper location is exhibiting exactly the pattern the E1 rule exists
+to flag; we record the recurrence openly and treat "reduced to the `Y14` operator" as a MAP, not progress,
+until that operator is built or shown unbuildable.
 
 ## Open premises and honest negatives (every conditional in plain sight)
 
@@ -425,7 +557,19 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
    truncation, **asymptotically free**, so the loop question is no longer "does GU resolve the ghost no better
    than the generic theory" but the single sharply-located residual of loop *positivity* at the negative
    fixed-ratio. Renormalizability and asymptotic freedom are established (at their grades); loop positivity
-   alone remains open.
+   alone remains open. *2026-07-13 update, both directions:* the AF picture SURVIVES its first FRG
+   truncation (W119: AF trajectory, negative fixed-ratio, and RG-stable spin-2 grading all survive across
+   regulator families; the one-loop uniqueness clause breaks via the already-catalogued Reuter FP, which is
+   the AF-vs-AS fork made concrete; the ghost-mass construction fork is confined to the UV endpoint); the
+   graded prescription EVADES the CLOP order-of-limits ambiguity at fixed order (W120: the ambiguity
+   attaches to the removal step keep-and-grade does not perform) and develops NO ambiguity of its own at
+   two loops (W124: graded-unambiguous at fixed order; the CLOP band's endpoints are exactly the two
+   families' answers, `0` and `+1` times the graded cut); the no-local-positive-metric theorem is hardened
+   (W121). The remaining price is precise: the even-cut inter-family disagreement (+1 vs 0) and the
+   odd-ghost-cut leak at `s > (2m+M)^2` persist -- that leak IS the open loop-positivity question, now at
+   two-loop scalar-core resolution (spin-2 tensor numerators OPEN). Note the boundary of this premise: the
+   spin-0 tachyon (honest negatives below) is NOT part of it -- it is unconditional on the AF branch and no
+   loop-positivity outcome removes it.
 5. **The generation count is located, NOT forced** -- located in the odd-primary boundary summand at
    **principle** grade (Nielsen-Ninomiya / Callan-Harvey / Kaplan), not proven for the true RS/`Y14` index;
    the count itself is a rigid 2-bit residual, not derived (Sec 3).
@@ -458,7 +602,7 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   (`delta chi^2 = +21.6` vs LCDM), but that exclusion evaporates the moment the overall amplitude or `f_0` is
   freed -- shape-marginalized, GU is competitive-to-better than LCDM (`delta chi^2 = -3.2`). So the honest
   register is precise: GU's dark energy is **falsified as the CPL summary DESI headlines, but viable as a
-  distance model** -- the sector is *cornered* (no single `f_0` satisfies both the CPL contour and the raw BAO
+  distance model [SUPERSEDED by H46C -- see the end of this bullet]** -- the sector is *cornered* (no single `f_0` satisfies both the CPL contour and the raw BAO
   distances) rather than dead. This is a distinct non-CPL dark-energy model, not an accommodation and not a
   clean kill. **CORRECTION (W113, the joint-profile re-run):** H46's residual "`f_0` tension" was a
   fixed-amplitude-slice ARTIFACT. Profiling jointly over `(f_0, amplitude)` (amplitude analytically
@@ -468,7 +612,23 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   calibration (pinning it costs `chi^2 = +41.3`). So the honest current statement: the shape AND the canonical
   `f_0` are both viable; the sector's one residual exclusion is an amplitude-calibration direction, not a shape
   or parameter tension. (`tests/W113`, reproduces H46's numbers exactly before extending; no DESI DR3 BAO exists
-  as of 2026-07.)
+  as of 2026-07.) **FALSIFICATION-HARDENED (H46C, wave 46, 2026-07-13; supersedes both the "viable as a
+  distance model" register above and the W113 "amplitude-direction-only" softening):** the Wave 45 blocker B1
+  was executed -- instead of arguing the Planck amplitude onto GU, GU's OWN CMB-calibrated amplitude was
+  computed by imposing the measured acoustic scale `100 theta_star = 1.04110` on GU's own `H(z)`. Result:
+  `H0_GU = 63.75` (`-5.4%`), so GU's own calibration OVERSHOOTS the BAO-preferred amplitude for its own shape
+  by `+5.7 sigma_A`; the three-way table is `dAIC = +21.58` (Planck-fixed amplitude) / `+35.78` (GU's own
+  theta_star calibration) / `-3.17` (amplitude freed -- now shown to have NO CMB-consistent realization);
+  profiling `omega_m h^2` for BOTH models under the Planck prior leaves `dAIC = +16.03`. With per-`f_0` CMB
+  calibration the BAO-preferred `f_0` is the LCDM limit `f_0 -> 0` (3-sigma-equivalent bound `f_0 < ~0.027`),
+  so the W113 in-band `f_0 = 0.125` reading was an artifact of holding the amplitude at the Planck value. Net:
+  GU's dark energy is **falsified as the DESI CPL summary AND excluded as a CMB-consistently-calibrated
+  distance model for `f_0 >= ~0.03`**; it survives only as a subdominant component indistinguishable from a
+  small addition to LCDM. Scope, honest: exploration grade, `M^2 = 8 H0^2` only (OQ2 open), BAO + theta_star
+  only; the canon verdict stays OPEN at exactly that component-only scope (CORRECTION DARK-ENERGY-05).
+  Digits verified against primary sources (H46B, `tests/wave45/H46B_referee_grade_desi_verification.py`,
+  33/33, exit 0); `tests/wave46/H46C_theta_star_cmb_calibration.py`, 20/20, exit 0, with LCDM positive
+  controls recovering Planck's `theta_star` and `h = 0.6736`.
 - **The gravity sector survives a direct kill attempt, but the "Lambda emerges" headline does not.** An
   adversarial probe of the Bach/Weyl graviton sector (H49, `explorations/wave28/`) confirmed GU's linearized
   operator IS the conformal/Bach operator (`box^2 h = -4 Bach`, re-derived) and then found that on the favored
@@ -495,8 +655,55 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   O(1)-robustly) -- it does *not* falsify GU-gravity itself, which survives, but *without* H36 the scale
   `mu_DW` is free and GU is decoupled/untestable in this channel. This is the honest arc of GU's first genuine
   prediction: it was computed to the end and it failed conditionally, exactly what a real prediction is
-  supposed to risk. Two residual O(1) inputs remain (the `alpha = 1/3` exclusion curve is argued not
-  digitized; the background-vs-TT normalization of `c_L`).
+  supposed to risk. Two residual O(1) inputs remained (the `alpha = 1/3` exclusion curve argued not
+  digitized; the background-vs-TT normalization of `c_L`). **Upgrade (H52, wave 32, 2026-07-13): the H36
+  exclusion is now CITED, not argued.** The `alpha = 1/3` boundary is anchored to published numbers:
+  `lambda_max(alpha = 1/3) = 47.6 um` (Lee 2020, via the published `n = 1` radion bound `M* >= 7.1 TeV` and
+  the published fit `lambda = 2.4 (TeV/M*)^2 mm`); the H36 window `[60.0, 73.6] um` is EXCLUDED-CITED with
+  margin 1.9-9.8x, and the resolved `mu_DW` floor is `>= 3.71-4.54 meV` central (envelope `[3.4, 4.7] meV`),
+  superseding H50's 2007-data floor of 3.0-3.6 meV (`tests/wave32/H52_alpha13_boundary_cited.py`, 18/18,
+  exit 0). Of the two residual O(1) inputs, the exclusion-curve digitization is DISCHARGED; the
+  background-vs-TT normalization of `c_L` remains (W126 additionally flags a 16/3 normalization ratio
+  between the flat-slice and horizontal-sectional chains; signs robust). Track 2's conditional ledger
+  (given the declared postulate set S, stated and never asserted) then fixes the surviving phenomenology
+  plainly: `alpha = 1/3` exact; the allowed window is `mu_DW >= ~3.4-4.8 meV` with no experimental upper
+  edge; and inside the window GU-given-S predicts EXACTLY GR at LIGO (massless pole exactly massless; the
+  massive companion 9+ orders above the excitable band)
+  (`tests/track2/T2A_graviton_sector_numbers.py`, 8/8, exit 0).
+- **The AF branch carries a NATIVE, tree-unliftable, positive-norm tachyonic scalaron (W122/W123/W126) --
+  the UV arc's hard negative, at full strength.** On every asymptotically-free trajectory of the declared
+  4th-order action the spin-0 (conformal-mode) scalaron has `m_0^2 = gamma/(6c) < 0` (with `c` the direct
+  `R^2` coefficient, reciprocal to and sign-matching the agravity `f_0^2` used elsewhere in this paper;
+  the coincidence with the published agravity `M_0^2` under the convention map is an exact identity, W123)
+  and POSITIVE
+  norm: a genuine spectral instability, not a ghost, so there is nothing for the keep-and-grade Krein
+  rescue to grade. Three escapes were attacked and closed. (i) *Not a gauge artifact* (W122): the exact
+  auxiliary-field/Legendre route derives the mass with no gauge parameter anywhere it could enter;
+  `Weyl^2` contributes exactly zero spin-0; the Euclidean conformal-factor problem is cleanly delineated
+  as category-inapplicable to a Lorentzian mass sign (`tests/W122_spin0_scalaron_auxfield.py`, 27 checks,
+  exit 0). (ii) *Not a porting artifact* (W123): the convention chain repo <-> Avramidi-Barvinsky <->
+  agravity is pinned by an exact cross-lineage identity with physical anchors at both ends (`gamma > 0` =
+  attractive gravity, computed natively two ways; `f_0^2 < 0` = tachyon in the literature's own reading);
+  no admissible field content can flip the fixed-ratio sign (the flip threshold is unreachable, the
+  self-coefficient a sum of perfect squares with `d_RS_R2 = 0` computed); and a one-line MONOTONICITY
+  THEOREM forbids positive-`f_0^2` AF trajectories outright -- `f_0^2 > 0` Landau-poles in bounded `t`,
+  so `f_0^2 < 0` at EVERY finite scale on EVERY AF trajectory
+  (`tests/W123_native_r2_sign_convention_audit.py`, 34/34, exit 0). (iii) *No tree-level vacuum lift*
+  (W126): the induced `|II|^2` functional's potential sector on the conformal family terminates at `R^2`
+  IDENTICALLY (`c_3 = c_4 = ... = 0`, all orders in `phi`, two independent routes; MSS-slice
+  `F(R) = 2 + R/3 - R^2/9`, whose negative tree-level `R^2` coefficient natively corroborates the ported
+  sign direction); the unique extremum is the tachyonic top and the potential runs away to the `f' = 0`
+  wall; the loop-`R^3` rescue is ghost-infested in its window and out-of-validity beyond it on both W46
+  branches (`tests/W126_beyond4th_conformal_iisq.py`, 32 checks, exit 0). **Stated plainly, branch by
+  branch:** this is NOT a conditional antecedent -- it is a computed property of the AF branch of the
+  declared action. On the AF branch, GU keeps renormalizability, asymptotic freedom, the RG-stable spin-2
+  Krein grading, and fixed-order graded cleanliness through two loops -- and it keeps the tachyon. The two
+  thin escapes, named: (a) the **AF-vs-AS fork** -- W119's FRG truncation shows the Reuter fixed point
+  appears once canonical linear terms are included (already catalogued, W83/W88; a 300-seed hunt finds no
+  fixed point outside {Gaussian, Reuter}); an asymptotically-SAFE branch is a different flow whose
+  scalaron status is NOT computed here; (b) a **non-perturbative mechanism** beyond the computed
+  truncations (tree-exact potential; one-loop and minimal-FRG flows). Nothing built today realizes either
+  escape.
 - **The soldering is unforced.** No GU-internal principle was found (after adversarially looking) that forces
   `theta` onto the second-fundamental-form locus; naming it as an assumption is the honest outcome (H23).
 - **The contested Stelle-Mannheim corner.** The cleared branch inherits (does not resolve) that corner's
@@ -514,7 +721,8 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   doing the load-bearing work. The single novel positive is the *compression* (all remaining freedom routes
   to one named source-action object) -- a structural result, not a prediction. The one place the framework
   touches data (dark energy) is a fit on `f_0`, which is exactly why the DESI tension (marginal `w_a` at
-  `+2.55 sigma` from the DR2 primary source) is soft rather than fatal. The `ACCOMMODATES` headline is, on
+  `+2.55 sigma` from the DR2 primary source) was then read as soft rather than fatal *[SUPERSEDED: H46C has
+  since removed the amplitude freedom that made it soft -- see the DE bullet above]*. The `ACCOMMODATES` headline is, on
   this ledger, honest and if anything conservative. **Update (H50-H51):** GU produced its first genuine
   parameter-linked prediction and then *computed it to the end*. Given the H36 identification (DeWitt-Lambda =
   the observed dark energy), the single scale `mu_DW` is fixed and GU predicts a specific sub-millimetre
@@ -588,12 +796,24 @@ negatives. None is buried; each is load-bearing for the honesty of the result.
   *renormalization-group flow only*: it does **not** settle Krein loop *positivity*, which is independent. The
   arc in fact *locates* where the two remaining UV questions touch -- the asymptotically-free trajectory sits at a
   **negative** conformal-mode ratio `f_0^2 / f_2^2 < 0`, and whether that wrong-sign direction is admissible is
-  exactly the loop-positivity question. Net register: GU is a renormalizable, asymptotically-free, finite-content
-  4th-order theory whose *sole* remaining UV obstruction is loop positivity of the keep-and-grade Krein rescue --
-  itself the open frontier of PT/Krein QFT (no keep-and-grade rescue is proven at loop level anywhere:
-  Kuntz 2024, Nakayama 2023, Bateman-Turok tree-only), so GU's UV-openness is an inherited frontier problem, not
-  a GU-specific defect. This upgrades the "one-scale finite-cutoff EFT" verdict: GU is a finite-cutoff EFT *that
-  is also renormalizable and asymptotically free*, one solved frontier problem away from UV-complete.
+  exactly the loop-positivity question. **[REFINED by W122/W123/W126, 2026-07-13: the wrong-sign direction is
+  now ANSWERED in the spin-0 channel -- it is a genuine positive-norm tachyonic scalaron, native and
+  tree-unliftable (see the dedicated honest-negative bullet above), a spectral instability logically distinct
+  from, and not curable by, the spin-2 loop-positivity question.]** Net register, updated: GU is a
+  renormalizable, asymptotically-free, finite-content 4th-order theory -- a picture that now also SURVIVES its
+  first FRG truncation (W119: AF trajectory, negative fixed-ratio, and spin-2 grading stability all survive
+  regulator-sweeps; the sole break is the one-loop uniqueness clause, via the already-catalogued Reuter FP =
+  the AF-vs-AS fork) and is fixed-order-clean through two loops on the graded side (W120/W124: the CLOP
+  ambiguity attaches only to the removal prescription; the graded theory develops no ambiguity of its own;
+  its price is the persisting odd-ghost-cut leak) -- whose remaining UV obstructions are now TWO, cleanly
+  split: (1) loop positivity of the keep-and-grade Krein rescue for the spin-2 ghost, the open frontier of
+  PT/Krein QFT (no keep-and-grade rescue is proven at loop level anywhere: Kuntz 2024, Nakayama 2023,
+  Bateman-Turok tree-only), an inherited frontier problem, not a GU-specific defect; and (2) the AF-branch
+  spin-0 tachyon, which IS GU-specific (it follows from the declared action's induced `gamma > 0` conjoined
+  with `f_0^2 < 0` on every AF trajectory) and survives every escape computed to date. The earlier "one
+  solved frontier problem away from UV-complete" phrasing is accordingly SUPERSEDED: one inherited frontier
+  problem plus one GU-specific instability (with its two named thin escapes) stand between the finite-cutoff
+  EFT verdict and UV-completeness.
 
 ## 5. Geometry-agnostic core (why a skeptic need not accept GU)
 
@@ -617,13 +837,24 @@ first-order variation of `|theta|^2` driving `pi` to the metric-compatible lift 
 reduce to the acausal-trapped `theta = 0`), or a falsification of it. A *free* build p-hacks the residual
 (established); the honest form is a forced construction, for which no armchair mechanism was found (a complete
 forcing rubric + an out-of-rubric hunt came up empty). The residual is thus real, finite, and not resolvable
-without building the object. **Loop-level `[P,S]=0` positivity** is the separate, harder, generic-Stelle-shared
+without building the object. *2026-07-13 update:* the construction problem is now engineering-posed -- the
+27-row requirements spec is the closure criterion, the first build attempt (W125) reached symbol level with
+the SA-C4 kill-test passing, and the named blocking object is the **covariant operator on `Y14`** (the
+propagator and vertex on the bundle, not the flat symbol). Building that operator is the next concrete step;
+per the E1/Lakatos watch note (Sec 4), naming it is a map, not progress. **Loop-level `[P,S]=0` positivity**
+is the separate, harder, generic-Stelle-shared
 frontier. The UV arc (Waves 42-47) sharpened it without closing it: GU is now established renormalizable and
 (one-loop) asymptotically free, so the UV question is reduced to loop *positivity* alone, and that residual is
 *located* at the negative conformal-mode ratio `f_0^2/f_2^2 < 0` on the asymptotically-free trajectory. It
 remains the open frontier of PT/Krein QFT and is not resolvable without a loop-level treatment of the keep-and-
 grade rescue (candidate route: an FRG/Reuter truncation, which could also promote the one-loop asymptotic
-freedom to a non-perturbative statement).
+freedom to a non-perturbative statement). *2026-07-13 update:* the first leg of that candidate route is
+executed -- W119's minimal FRG truncation confirms the AF picture survives (and concretizes the AF-vs-AS fork
+via the catalogued Reuter FP), and the two-loop fixed-order landscape is computed (W120/W121/W124: graded
+prescription unambiguous at fixed order; CLOP band endpoints are the two families' answers; the odd-cut leak
+persists as the precise open price). What no truncation or fixed-order result touches is the AF-branch spin-0
+tachyon (honest negatives): closing loop positivity for the spin-2 ghost would NOT lift it; only the AS
+branch or a non-perturbative mechanism could.
 
 ## 7. Relation to prior work / honest boundary
 
@@ -672,12 +903,27 @@ Each novelty bullet names its nearest precedent and precise delta:
    remaining UV obstruction is loop *positivity* of the keep-and-grade Krein rescue, located at the negative
    fixed-ratio -- the open frontier of PT/Krein QFT, not a GU-specific defect. Grade: DERIVED-on-PORTED,
    one-loop / small-truncation (an indication made robust, not a proof); FRG/higher-loop firm-up is future work.
+4c. **DONE (2026-07-13 three-wave consolidation, folded in by W127):** (a) the dark-energy verdict is
+   falsification-hardened (H46B digit gate + H46C theta_star calibration; Sec 2.4 header + honest-negatives
+   bullet; every prior "viable as a distance model" / "soft, amplitude-gated" statement carries a
+   supersession marker); (b) the AF-branch scalaron tachyon is folded in at full strength as a native,
+   tree-unliftable computed property (W122/W123/W126; dedicated honest-negative bullet; premise 4 boundary
+   note); (c) the UV/loop state is updated (W119 FRG survival with the Reuter/AF-vs-AS fork catalogued;
+   W120/W121/W124 fixed-order graded cleanliness through two loops, odd-cut leak as the precise open price);
+   (d) the residual is sharpened to the 27-row requirements spec + the W125 first build with SA-C4 passing
+   and the covariant operator on `Y14` as the single blocking object, with the E1/Lakatos watch note added
+   (Sec 4); (e) H36's sub-mm exclusion upgraded to EXCLUDED-CITED with the resolved `mu_DW` floor (H52), and
+   Track 2's conditional GU-given-S ledger recorded at its firewalled grade; (f) the Yukawa channel table and
+   its no-gos folded in (Sec 4). Verification ledger with W127 re-run exit codes in the 2026-07-13 block.
 5. Figures: the sector scoreboard; the Wave 1-8 gravity ledger; the maximal-compact = SM computation; the
    primary-partition table.
 
-Grade: structural result at honest grade; four sectors existence/consistency-cleared (reproducible), gravity
-a **tree-level conditional theorem** (clear-modulo-soldering + `mu_DW`; loop-level open), the
+Grade: structural result at honest grade; three sectors existence/consistency-cleared (reproducible), gravity
+a **tree-level conditional theorem** (clear-modulo-soldering + `mu_DW`; loop-level open; AF-branch scalaron
+tachyon stated as a computed negative), dark energy the honest hard negative (falsified as the CPL summary,
+excluded as a CMB-calibrated distance model, surviving as a subdominant component only), the
 reduction-to-one-object is the contribution. All quantitative claims tie to reproducible tests
-(`tests/one-residual/`, `tests/wave1..wave8/`, `tests/legs/`, `tests/family-puzzle/`, all exit 0). Target:
+(`tests/one-residual/`, `tests/wave1..wave8/`, `tests/legs/`, `tests/family-puzzle/`, plus the 2026-07-13
+consolidation ledger's tests, all exit 0). Target:
 hep-th / math-ph. External publication Joe-gated (NOT in scope here: no arXiv, no submission). Supersedes/subsumes
 `papers/candidates/generation-number-boundary-odd-primary/` and the located-not-forced draft as legs.
