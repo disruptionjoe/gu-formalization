@@ -10,7 +10,7 @@ run of 2026-07-14 (Python + numpy). Reproduce from the repo root with `python -u
 | T3 | Opposite-signed regime: total exceptional point g_c = 0.392, no positive total metric, complex pair above g_c (Sec 3, Thm 3) | THEOREM (finite model) | `tests/W183_external_input_open_system.py` | 27/27, exit 0 |
 | T4 | Bistable fixed point: non-vacuity (kappa* = 1.059), both fixed points stable, operative bootstrap (positive total metric min eig 0.448, total unitary to 6e-14) (Sec 3, Thm 4) | TOY-MODEL | `tests/W186_source_content_reservoir_krein_type.py` | 36/36, exit 0 |
 | T5 | Selection reduces to coupling ratio vs O(1) (Sec 3, Thm 5) | TOY / STRUCTURAL | `tests/W186_source_content_reservoir_krein_type.py` (Block D) | 36/36, exit 0 |
-| P6 | Fade dynamical selection through a finite-N non-unitary window (Sec 3, Prop 6) | PLAUSIBLE-ONLY | `tests/W186_source_content_reservoir_krein_type.py` (Block E) | 36/36, exit 0 |
+| P6 | Fade dynamical selection through a finite-N non-unitary window (Sec 3, suggestive remark; NOT load-bearing) | PLAUSIBLE-ONLY (demoted; magnitude leg only, not the sign, per W187) | `tests/W186_source_content_reservoir_krein_type.py` (Block E) | 36/36, exit 0 |
 | S1 | Perturbative C-operator exists through Q2 off resonance; obstructs on a measure-zero commensurate lattice (support) | PROVEN-in-QM | `tests/W169_c_operator_perturbative_construction.py` | 23/23, exit 0 |
 | S2 | Interacting C-operator all-orders QFT: existence CONDITIONAL-ON-SUB-THRESHOLD (PT-unbroken) (support) | STRUCTURAL | `tests/W179_c_operator_allorders_qft.py` | exit 0 |
 | S3 | Interacting-C essential spectrum via analytic Fredholm (support) | STRUCTURAL | `tests/W175_analytic_fredholm_essential_spectrum.py` | exit 0 (slow, ~3 min) |

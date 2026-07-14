@@ -19,8 +19,11 @@ delineation).** A genuine new-combination reframe with one clean, correct, usefu
 non-vacuous existence result in a finite model. NOT incredibly-strong: every exact / theorem-grade
 ingredient is known machinery re-applied (Lee-Wick/CLOP physical-subspace defect; Feshbach reduced
 resolvent; Bognar opposite-type exceptional point; Mostafazadeh positive metric; Bender-Mannheim
-C-operator), and the one genuinely novel assembled claim (bistable selection of total unitarity with fade
-dynamics) is TOY-MODEL grade and selection-conditional on an unbuilt O(1) coupling ratio.
+C-operator), and the one genuinely novel assembled claim (feedback-driven bistable selection of total
+unitarity) is TOY-MODEL grade and selection-conditional on an unbuilt O(1) coupling ratio. The load-bearing
+content is the reduced-pole-versus-total-eigenvalue clarification plus Theorems 1-3 and the non-vacuous
+existence result; the everpresent-fade dynamical-selection leg is a suggestive / future remark only, NOT a
+load-bearing claim (it discharges the magnitude leg of selection but not the sign, per W187).
 
 Because the grade is SOLID-INCREMENTAL and not incredibly-strong, this is scaffolded as a DRAFT only and a
 candidate has deliberately NOT been begun. Promotion requires closing the toy-vs-general gap (item 1 of the
@@ -37,7 +40,10 @@ hardening ledger) and Joe's explicit go.
 - **Conditional / toy / plausible:** the bistable fixed point and its selection live in a finite
   Friedrichs / Fano-Anderson stand-in; basin selection depends on an unbuilt O(1) coupling ratio; the QFT
   lift is structural; the fade dynamical selection is plausible-only (ported, with a finite-N non-unitary
-  window).
+  window) and is carried as a suggestive / future remark, not a load-bearing claim.
+- **Non-locality price (stated honestly):** the operative total metric is non-local, inheriting the
+  no-local-positive-metric price (W54 / W121) relocated to the total space; total unitarity carries that
+  cost and is not a local, cost-free property.
 
 ## Venue
 
