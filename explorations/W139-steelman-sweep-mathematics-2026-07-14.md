@@ -1,14 +1,15 @@
 ---
 artifact_type: exploration
-status: exploration (W139 / full-roster steelman sweep, MATHEMATICS family = slice B geometric/structural; 14 personas inline, one worker, no sub-agents; assumption-first hypothesis generation, kill rigorously afterwards)
+status: exploration (W139 / full-roster steelman sweep, MATHEMATICS family = slice B geometric/structural; 14 personas inline, one worker, no sub-agents; assumption-first hypothesis generation, kill rigorously afterwards; mid-wave framing correction from Joe applied post-completion, Section 0A)
 created: 2026-07-14
 wave: W139
-hypothesis: "Joe's framing, steelmanned per persona: IF the dark-energy/cosmological constant is a SET ISSUANCE RATE, that issuance gets DISTRIBUTED THROUGH THE OBSERVERS in the system; find the distribution FUNCTION F solid enough to serve as an ASSUMPTION LEG so the source action, the spec FITs, and the observer-slice structure can be backed into."
-title: "W139 -- MATHEMATICS-family steelman sweep of the issuance-distribution framing: 28 candidate distribution functions (two per persona), each with its assumption leg and its test, scored against the W138 kill battery. Six killed at generation; top survivors are the stationary-varifold ensemble law (GMT), the spectral-action heat-kernel distribution (NCG), the C-compression share law (rep theory / NCG), the EL-residual gradient-flow schedule (geometric analysis), and the parallel-tractor uniqueness law (conformal geometry)."
+hypothesis: "Joe's framing, steelmanned per persona, with the mid-wave correction applied: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it (rho_Lambda ~ (2.24 meV)^4; Q_tot = 3 H0 rho_L V_H = 1.027 Planck luminosities per Hubble volume; dimensionless 9 Omega_Lambda = 6.16). The question per persona: IF that known measured number is DECLARED as the issuance input, distributed through the observers, what is the distribution FUNCTION F, solid enough to serve as an ASSUMPTION LEG so the source action, the spec FITs, and the observer-slice structure can be backed into. W135's null-structure separator (at w = -1 the covariant Q = 0 identically; the rate is bookkeeping; ALL physical content lives in the distribution leg) is the corrected framing stated as a theorem, and it is exactly this family's partition-law-at-fixed-total design."
+title: "W139 -- MATHEMATICS-family steelman sweep of the issuance-distribution framing: 28 candidate distribution functions (two per persona), each with its assumption leg and its test, scored against the W138 kill battery. Six killed at generation; framing correction applied (Section 0A): the declared total is the W135 MEASURED rate, one story's schedule rider reclassified out-of-scope (2B's derived-drift leg), 22 survivors of which 21 fully in scope + 1 in scope as distribution-only. Re-ranked top five: the stationary-varifold ensemble law (GMT), the spectral-action heat-kernel distribution (NCG), the C-compression share law (rep theory / NCG), the parallel-tractor uniqueness law (conformal geometry), and the 3:2:1 irrep partition (rep theory)."
 grade: "exploration / hypothesis-generation, conditional register throughout. NOTHING here is asserted; every story is of the form 'under the issuance declaration (W136 sense) plus this story's own named assumption leg'. No new computation was required for scoring (all gate checks reduce to citations of computed bounds in W136/W137/W138/W129/W130); no test file is shipped. Tri-repo gating enforced: capability MEASURE belongs to TaF; whether the distribution is genuine issuance vs disclosure belongs to temporal-issuance; everything below is GU-side mathematics only, and 'issuance' is used solely as the W136 local postulate label. No canon / RESEARCH-STATUS / claim-status / verdict / posture change."
 depends_on:
   - explorations/two-track-persona-sweep-2026-07-11/B-geometric-structural.md
   - explorations/two-track-persona-sweep-2026-07-11/SYNTHESIS.md
+  - explorations/W135-issuance-structure-taxonomy-2026-07-14.md
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
@@ -19,6 +20,56 @@ depends_on:
 ---
 
 # W139 -- MATHEMATICS family: steelman sweep of the issuance-distribution framing
+
+## 0A. Mid-wave framing correction (from Joe, applied to the completed sweep)
+
+The correction, received after this sweep's first commit (b5941d9), applied here the way the
+W140 team applied it (adb3448): drop ALL Bitcoin-specific characteristics (halving, difficulty
+adjustment, schedule exotica) from the steelman target. The corrected minimal claim: science
+ALREADY KNOWS the dark-energy rate. W135 (16e476f, landed as this sweep was being written)
+measured it in repo units:
+
+- rho_Lambda ~ (2.24 meV)^4 (Planck-anchored);
+- bookkeeping issuance per Hubble volume Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G =
+  **1.027 Planck luminosities** (exact identity plus O(1) coincidence flag, W135's own caveats
+  carried; the Planck-luminosity coincidence is a flagged ledger entry, never spent, per G5
+  discipline);
+- the dimensionless ladder q_B/(H0^3 M_Pl,red^2) = **9 Omega_Lambda = 6.16** (THE O(1) ratio
+  per W135; q_B/H0^4 ~ 1e121 is not).
+
+**Consequences for this artifact, applied without rewriting the generation record:**
+
+1. **The declared total is now a MEASURED number, not a free postulate value.** Everywhere
+   below, q_tot IS the W135 rate: Q_tot = 3 H0 rho_L V_H = 1.027 L_Planck per Hubble volume,
+   dimensionless form 9 Omega_L = 6.16. The W136 boundary declaration and the W135 measurement
+   are one number in two registers. Every partition law F below distributes THAT number.
+2. **The family's design is the corrected framing.** This sweep's shared design choice
+   (Section 0: "the SET RATE is not where the freedom lives; the freedom lives in the
+   PARTITION at fixed total") is exactly what W135's null-structure separator states as a
+   theorem: at w = -1 the covariant source Q = 0 identically, the rate is pure bookkeeping,
+   and ALL physical content lives in the distribution leg. The correction therefore
+   RECLASSIFIES almost nothing here: 21 of the 22 survivors are pure partition laws with no
+   schedule dependence.
+3. **One reclassification (OUT-OF-SCOPE, not killed): story 2B's schedule rider.** 2B's
+   distribution law (F = EL-residual density) is in scope, but its headline assumption leg
+   (deriving f0 = 0 plus a drift ~1e-10 per e-fold) is a statement in the SCHEDULE register --
+   a predicted w != -1 deviation -- which the corrected framing does not own. The distribution
+   half is retained in scope with a re-stated leg (equilibrium draw = 0 recovers W135's Q = 0
+   null structure); the drift number is retained on the record as an out-of-scope schedule
+   rider (scope, not falsification, demotes it). 2B drops out of the top five; 4A promotes.
+4. **Anchor citations added to the partition laws** (Section 16 note): every "auto" G2 pass now
+   reads "the total is the W135 measured rate, held constant"; story 14B's ensemble
+   temperature kappa is no longer a free schedule parameter but is fixed by the dimensionless
+   anchor 9 Omega_L = 6.16, which strengthens its leg (one fewer free number). Story 9A's
+   incidental "time-dependent coefficient" phrasing is superseded: the GB-boundary coefficient
+   is constant at the measured rate.
+5. **No scoring test file exists for W139** (scoring reduced to citations), so no test
+   amendment applies; the W135 rate identities are already machine-checked in
+   tests/W140_steelman_scoring_checks.py (N7/N8) and tests/W141_steelman_observational_scoring.py.
+
+The generation record below (Sections 0-15) is kept as written, pre-correction; the correction
+is applied at scoring and ranking (Sections 16-17), matching the W140/W141 pattern of not
+rewriting stories to look prescient.
 
 ## 0. The framing being steelmanned, and the misreading being avoided
 
@@ -596,15 +647,19 @@ successor computation could reverse, and the reversal condition is named.)
 
 Gate key: G1 conservation (a: ledger named / b: enhancement < 1e19 / c,d: mediator floors),
 G2 mimic (< 0.3 per e-fold, no DESI claim), G3 H36 non-reimport, G4 B2 non-reimport, G5 dS
-relabeling (novelty), G6 Landauer (informative). "auto" = cleared by the shared design (total
-schedule = W136 constant; distribution is a partition at fixed total). All verdicts conditional.
+relabeling (novelty), G6 Landauer (informative). "auto" = cleared by the shared design: the
+total is the W135 MEASURED rate (Q_tot = 3 H0 rho_L V_H = 1.027 L_Planck per Hubble volume;
+9 Omega_L = 6.16), held constant, with the distribution a partition at that fixed total --
+which, post-correction (Section 0A), is not a design convenience but the corrected framing
+itself (W135 null structure: Q = 0 identically at w = -1; all content in the distribution
+leg). All verdicts conditional.
 
 | story | G1 | G2 | G3 | G4 | G5 | notes |
 |---|---|---|---|---|---|---|
 | 1A volume | pass (ledger = boundary supply; enhancement ~1e-6) | auto | pass (no mu_DW) | pass (partition, not rate) | pass (normalization = vol ratio, not T_dS S_dS) | modest leg (SA-G6 conversion only) |
 | 1B torsion | pass (metric-sector; spin-density coupling negligible) | auto | pass | pass | pass | leg is real but Hom-disjointness risk is high (may die exactly like the cure sector) |
 | 2A Willmore-share | pass (boundary ledger named) | auto | pass | pass | pass | leg = C2 itself; compact-support kill is live and cheap |
-| 2B EL-residual | pass | PASS WITH A NUMBER (predicted drift ~1e-10, 9 orders inside; not the DESI signal) | pass | pass (schedule reading, G4's allowed class) | pass | derives f0 = 0 rather than assuming it; test gated on family c_W |
+| 2B EL-residual | pass | distribution half auto; SCHEDULE RIDER (drift ~1e-10) reclassified OUT-OF-SCOPE per Section 0A | pass | pass | pass | distribution law retained (equilibrium draw = 0 recovers the W135 Q = 0 null structure); the f0 = 0 derivation and drift number kept on record as an out-of-scope schedule rider |
 | 3A causal zero-mean | pass | auto | pass | pass | pass | leg (a0 = ensemble variance) is sharp; mean-zero check is immediate and could kill it next wave |
 | 3B cone-gated | pass | auto | pass | pass | pass | leg pins the TT channel; overlap test is a finite symbol evaluation |
 | 4A 3:2:1 partition | pass | auto | pass | pass | pass | leg = C3's ambient horn; test is C3's own named computation |
@@ -623,58 +678,80 @@ schedule = W136 constant; distribution is a partition at fixed total). All verdi
 | 12B orbit-volume | pass | auto | pass | pass | pass | leg resolves the measure fork; computable from W130 sector data |
 | 13A filtration | pass | auto | pass | PASS BY DESIGN (the explicitly-allowed G4 class) | pass | leg is the tri-repo bridge object; test in the W132 toy model |
 | 14A stationary varifold | pass | auto | pass | pass | PASS AND NOVEL | independently re-selects beta/alpha = 2; gives family c_W the stability job; test converges with 2B/11A |
-| 14B Gibbs ensemble | pass | auto | pass | pass (temperature = schedule parameter) | pass | decidable by one quartic-jet computation; could die cleanly |
+| 14B Gibbs ensemble | pass | auto | pass | pass (kappa is not read as a rate) | pass | decidable by one quartic-jet computation; post-correction, kappa is FIXED by the W135 anchor 9 Omega_L = 6.16 (one fewer free number, leg strengthened) |
 
 No surviving story claims the DESI wiggle (all totals are exact-LCDM mimics per W136's
 determined pair, which is exactly what H46C/W129 requires). No story identifies any scale with
 mu_DW (the two-scale escape band was deliberately not used by any story; it remains a separate
 named target). No story reads f0, c_L, or alpha_W as a rate.
 
-## 17. Ranking of survivors
+## 17. Ranking of survivors (RE-RANKED post-correction, Section 0A)
 
 Criteria per the brief: (a) sharpness of the assumption leg (does it pin a NAMED FIT/object),
-(b) testability with existing machinery, (c) novelty vs the de Sitter relabeling line.
+(b) testability with existing machinery, (c) novelty vs the de Sitter relabeling line. Applied
+to the 21 fully-in-scope survivors plus 2B's retained distribution half; every leg now starts
+from the W135 measured rate (Q_tot = 1.027 L_Planck per Hubble volume; 9 Omega_L = 6.16)
+declared as the issuance input, so each leg backs OTHER information out of a number science
+already owns, not out of a guess.
 
 **Tier 1 (top five):**
 
-1. **14A stationary-varifold ensemble (GMT).** Leg pins TWO named objects: independently
+1. **14A stationary-varifold ensemble (GMT).** F = Q_tot(measured) x d||V||/||V||(Y14),
+   defining equation = collective stationarity. Leg pins TWO named objects: independently
    re-derives the pinned SA-G5 = 2 (convergent with W136's bulk-flatness, from a different
-   principle: collective stationarity where the individual fails) and assigns the open family
-   c_W its job (stability discriminant of the observer ensemble). Test: step (a) already
-   effectively computed (W136 B5); step (b) is the named W130-evaluator run. Fully novel vs G5.
-2. **11A spectral-action heat-kernel (NCG).** Leg DETERMINES the family c_W, the one FIT-gating
-   coefficient W136 explicitly hands to a successor (SA-G8 flag). Test engine (second-order
-   Gilkey route) validated in W130. The only story whose leg closes a currently-open named
-   computation rather than adding a parallel one.
-3. **4B + 11B C-compression share law (rep theory / NCG, one story in two registers).** Leg pins
-   C1 clause 2 with a new partition-of-unity condition and makes the share well-defined at
+   principle: collective stationarity where the individual fails, W137's -8u) and assigns the
+   open family c_W its job (stability discriminant of the observer ensemble). Test: step (a)
+   already effectively computed (W136 B5); step (b) is the named W130-evaluator run. Fully
+   novel vs G5. Unaffected by the correction (pure partition law).
+2. **11A spectral-action heat-kernel (NCG).** F(sigma; x) = Q_tot(measured) x
+   tr K_{D_sigma}(x, x; t*)/integral. Leg DETERMINES the family c_W, the one FIT-gating
+   coefficient W136 explicitly hands to a successor (SA-G8 flag); post-correction the a_0
+   normalization is the measured rate, so the c_W determination is anchored to a known number.
+   Test engine (second-order Gilkey route) validated in W130.
+3. **4B + 11B C-compression share law (rep theory / NCG, one story in two registers).**
+   F(sigma) = Q_tot(measured) x Tr_omega(P_sigma |D|^{-14})/Tr_omega(|D|^{-14}). Leg pins C1
+   clause 2 with a new partition-of-unity condition and makes the share well-defined at
    infinite rank (Dixmier). Test is K2, already named by W137 as the cheapest discriminator in
-   the thread. Honest conditionality: dies with C1's K1 if no interacting C exists.
-4. **2B EL-residual schedule (geometric analysis).** Leg turns f0 = 0 from natural into derived
-   and emits an actual G2 number (drift ~1e-10, nine orders inside the bound, manifestly not
-   the DESI signal). Test shares the same family-c_W computation as 14A/11A.
-5. **10B parallel-tractor law (conformal geometry).** The only story where UNIQUENESS of F is a
-   classical theorem (parallel standard tractor); the leg backs into the Einstein-channel
-   survival and the flat equilibrium. Test (locus comparison on existing jets) is cheap. Maximal
-   novelty vs G5 (normalization from parallelism, zero horizon-thermodynamics content).
+   the thread. Honest conditionality: dies with C1's K1 if no interacting C exists. (Convergent
+   with W140's tier-1 C-compression trace distribution and W142's #3: three families
+   independently land on the C-operator as the object the framing pins.)
+4. **10B parallel-tractor law (conformal geometry).** F = top slot of the parallel standard
+   tractor, distributing the measured total. The only story where UNIQUENESS of F is a
+   classical theorem; the leg backs into the Einstein-channel survival and the flat
+   equilibrium. Test (locus comparison on existing jets) is cheap. Maximal novelty vs G5
+   (normalization from parallelism, zero horizon-thermodynamics content). Promoted one slot by
+   2B's reclassification.
+5. **4A 3:2:1 irrep partition (rep theory).** F(TT) : F(phi) : F(slice) = 3 : 2 : 1 shares of
+   the measured Q_tot. Leg = C3's ambient horn (the partition is a constant of the
+   construction), promoting SA-G7's unexplained computed ratio to the partition law of the
+   declared supply. Test is C3's own named decision computation (W130 Stage-A rerun around one
+   non-flat jet), decisive in both directions. Promoted into the top five: it is the purest
+   "distribute the known number" story in the sweep, exactly the corrected framing's shape.
 
-**Tier 2 (alive, run after tier 1):** 4A (C3's ambient horn; its test is the C3 decision
-computation and is worth running regardless), 14B (one quartic-jet computation decides it),
-6B (cheap jet test; pins the declared flux-home row), 5B (W103 slot occupancy; predicts the
-compact-support result), 3A (immediate mean-zero check), 12B (measure-fork selector), 2A
-(= the C2 computation), 13A (tri-repo bridge, toy-model test).
+**Reclassified out of tier 1: 2B EL-residual (geometric analysis).** Its distribution law
+survives in scope (equilibrium draw = 0 recovers the W135 Q = 0 null structure), but its
+headline leg (deriving f0 = 0 plus the drift ~1e-10 number) is a schedule-register statement
+the corrected framing does not own; kept on record as an out-of-scope rider, scope not
+falsification. Sits at the top of tier 2; its test remains the same family-c_W computation.
+
+**Tier 2 (alive, run after tier 1):** 2B (distribution half, see above), 14B (one quartic-jet
+computation decides it; kappa now fixed by 9 Omega_L = 6.16, leg strengthened), 6B (cheap jet
+test; pins the declared flux-home row), 5B (W103 slot occupancy; predicts the compact-support
+result), 3A (immediate mean-zero check), 12B (measure-fork selector), 2A (= the C2
+computation), 13A (tri-repo bridge, toy-model test).
 
 **Tier 3 (alive, low priority):** 1A, 1B (high Hom-disjointness risk), 3B, 6A (explanatory
 zero), 7A, 8A, 9A, 10A, 5A (heaviest test).
 
-**Convergence note (the sweep's one emergent structural fact):** three independent personas'
-top tests (2B, 11A, 14A) reduce to the SAME existing-machinery computation: the family Weyl
-channel c_W at beta/alpha = 2 via the W130 plane-wave/Gilkey evaluators -- which is also
-W136's own named settling computation for SA-G8. Under this family's reading, that single
-computation is now quadruple-loaded: it recomputes the sub-mm floor consistency (W136), fixes
-the spectral-action leg (11A), closes the EL-residual schedule number (2B), and decides the
-stability of the observer-ensemble equilibrium (14A). It is the clear next computation for the
-issuance thread from the mathematics family's side.
+**Convergence note (the sweep's one emergent structural fact, unchanged by the correction):**
+three independent personas' top tests (2B, 11A, 14A) reduce to the SAME existing-machinery
+computation: the family Weyl channel c_W at beta/alpha = 2 via the W130 plane-wave/Gilkey
+evaluators -- which is also W136's own named settling computation for SA-G8. Under this
+family's reading, that single computation is now quadruple-loaded: it recomputes the sub-mm
+floor consistency (W136), fixes the spectral-action leg (11A), closes the EL-residual
+distribution's remaining coefficient (2B, distribution half), and decides the stability of the
+observer-ensemble equilibrium (14A). It is the clear next computation for the issuance thread
+from the mathematics family's side.
 
 ## 18. What this does NOT do
 
@@ -684,5 +761,9 @@ issuance declaration or any story's assumption leg; every statement is condition
 reduced to citations of computed bounds); no test file ships with this wave. Capability MEASURE
 remains TaF's; issuance-vs-disclosure typing remains temporal-issuance's; the one-way gate is
 respected (story 13A supplies a stress-test input through it, never support). The two-scale
-escape band, H41, H59, the AF-vs-AS fork, and the tachyon chain are all untouched. W135's
-taxonomy had not landed at the time of writing and is not cited.
+escape band, H41, H59, the AF-vs-AS fork, and the tachyon chain are all untouched. W135 landed
+as the generation record was being written and is cited only post-correction (Section 0A): the
+measured rate anchors, the null-structure separator, and its own coincidence caveats -- the
+Planck-luminosity O(1) flag is carried, never spent. The generation record (Sections 0-15) is
+kept pre-correction; the correction is applied at scoring and ranking only, so nothing is
+rewritten to look prescient.
