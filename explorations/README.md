@@ -58,6 +58,23 @@ were sorted by reading each note's content.)
 | [`bicategorical-lens-fibrational-lift/`](bicategorical-lens-fibrational-lift/) | bicategorical / lens lift exploration |
 | [`cartan-twistor-g2/`](cartan-twistor-g2/) | Cartan / twistor / G2 guardrails |
 
+## Hypothesis-wave runs (July 2026 council arc)
+
+Per-wave artifacts from the council-ranked hypothesis waves (H-numbered items; each wave's tests live under
+`tests/` with matching names). Companion cross-wave records: [`threads/`](threads/) (first-swing thread pass)
+and [`two-track-persona-sweep-2026-07-11/`](two-track-persona-sweep-2026-07-11/) (the ~60-persona two-track
+restructure synthesis).
+
+[`wave1`](wave1/), [`wave2`](wave2/), [`wave3`](wave3/), [`wave4`](wave4/), [`wave5`](wave5/),
+[`wave6`](wave6/), [`wave7`](wave7/), [`wave8`](wave8/), [`wave10`](wave10/), [`wave12`](wave12/),
+[`wave13`](wave13/), [`wave14`](wave14/), [`wave15`](wave15/), [`wave16`](wave16/), [`wave17`](wave17/),
+[`wave18`](wave18/), [`wave19`](wave19/), [`wave20`](wave20/), [`wave21`](wave21/), [`wave22`](wave22/),
+[`wave23`](wave23/), [`wave24`](wave24/), [`wave25`](wave25/), [`wave26`](wave26/), [`wave27`](wave27/),
+[`wave28`](wave28/), [`wave29`](wave29/), [`wave30`](wave30/), [`wave31`](wave31/), [`wave32`](wave32/),
+[`wave33`](wave33/), [`wave34`](wave34/), [`wave35`](wave35/), [`wave36`](wave36/), [`wave37`](wave37/),
+[`wave38`](wave38/), [`wave39`](wave39/), [`wave40`](wave40/), [`wave41`](wave41/), [`wave42`](wave42/),
+[`wave43`](wave43/), [`wave44`](wave44/), [`wave45`](wave45/)
+
 ## Archived
 
 - [`hourly-cycles/`](hourly-cycles/) -- **archived** output from the hourly research-automation cadence
