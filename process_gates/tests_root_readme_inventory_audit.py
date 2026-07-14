@@ -56,6 +56,7 @@ COVERAGE_GROUPS: tuple[CoverageGroup, ...] = (
         "Temporal issuance / source-action steelman",
         ("temporal_issuance_source_action_steelmen_checker.py",),
     ),
+    CoverageGroup("W-series frontier packets", ("W*.py",)),
 )
 
 
