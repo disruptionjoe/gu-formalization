@@ -11,8 +11,8 @@ for this surface unless a future run explicitly selects Lean proof work.
 
 - Use the program-native gimmel/DeWitt construction when a thread is about `Y14 = Met(X4)`, and state when a
   standard physics construction is being compared instead.
-- Thread A is a higher-codimension Willmore background-assembly lane. A13 ends at the coefficient-supply
-  condition: source-action/OQ2-A full-B supply, sign/prefactor choice, and the exact A11 counter-slot remain
+- Thread A is a higher-codimension Willmore background-assembly lane. A14 separates pure-trace normalization
+  from the exact A11 shear counter-slot: source-action/OQ2-A full-B supply and background subtraction remain
   separate review points.
 - Thread B and C are dark-energy / cosmology handles. They are quantitative probes, not DESI-match claims.
 - Thread D is the conformal/Bach gravity comparison lane. It does not by itself prove GU gravity.
@@ -34,6 +34,7 @@ for this surface unless a future run explicitly selects Lean proof work.
 | `A11_constant_background_ry_b0_contraction.py` | A11 | full-SFF `R^Y.B0` contraction gate | [`A11-constant-background-ry-b0-contraction-2026-07-13.md`](../../explorations/threads/A11-constant-background-ry-b0-contraction-2026-07-13.md) |
 | `A12_constant_background_coefficient_family.py` | A12 | constant-background coefficient-family gate | [`A12-constant-background-coefficient-family-2026-07-13.md`](../../explorations/threads/A12-constant-background-coefficient-family-2026-07-13.md) |
 | `A13_constant_background_coefficient_supply_gate.py` | A13 | exact coefficient-supply / cancellation condition gate | [`A13-constant-background-coefficient-supply-gate-2026-07-13.md`](../../explorations/threads/A13-constant-background-coefficient-supply-gate-2026-07-13.md) |
+| `A14_counter_slot_normalization_gate.py` | A14 | pure-trace normalization versus same-shape shear counter-slot gate | [`A14-counter-slot-normalization-gate-2026-07-13.md`](../../explorations/threads/A14-counter-slot-normalization-gate-2026-07-13.md) |
 | `B_constant_section_background_curvature.py` | B1 | constant-section DeWitt background curvature as Lambda-shaped algebraic probe | [`B-omega0-curvature-dark-energy-scoping-and-first-swing-2026-07-11.md`](../../explorations/threads/B-omega0-curvature-dark-energy-scoping-and-first-swing-2026-07-11.md) |
 | `C_dark_energy_wz_vs_desi.py` | C2 | theta-sector CPL placement against the DESI DR2 band | [`C-discrimination-phenomenology-scoping-and-first-swing-2026-07-11.md`](../../explorations/threads/C-discrimination-phenomenology-scoping-and-first-swing-2026-07-11.md) |
 | `D_hclass_vs_conformal_gravity.py` | D1 | H-class linearized Willmore-EL vs linearized Bach on the spin-2 sector | [`D-structural-conformal-willmore-functor-scoping-and-first-swing-2026-07-11.md`](../../explorations/threads/D-structural-conformal-willmore-functor-scoping-and-first-swing-2026-07-11.md) |
