@@ -72,6 +72,9 @@ Current cross-wave synthesis and execution:
 - [`W191 -- projected I1B plus native-current block`](W191-projected-i1b-source-block-2026-07-14.md)
   executes that calculation to the available object boundary, deriving one conditional rank-one relation while
   leaving the physical spectrum and reservoir spectral sign open.
+- [`W192 -- explicit carrier, kernel, and spectral gate`](W192-explicit-carrier-kernel-spectral-gate-2026-07-14.md)
+  builds the written-shiab observer-section proxy and finds a state-selected shared carrier, a source-visible
+  critical shell, channel-dependent bare residues, and an adverse `Sp` connection-current type gate.
 
 [`wave1`](wave1/), [`wave2`](wave2/), [`wave3`](wave3/), [`wave4`](wave4/), [`wave5`](wave5/),
 [`wave6`](wave6/), [`wave7`](wave7/), [`wave8`](wave8/), [`wave10`](wave10/), [`wave12`](wave12/),
