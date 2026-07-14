@@ -214,3 +214,29 @@ theorems.
 Grade: structural result at honest grade; one machine-checked free-case theorem (Result 3); the positivity-vs-
 causality trade and the asymptotic-freedom RG-stability are one-loop-truncation results. Target: hep-th /
 math-ph. External publication Joe-gated (NOT in scope here: no arXiv, no submission).
+
+**Update 2026-07-13 (wave 3, `tests/W120`-`W121`; appended, prior text unchanged).** Two of the open items
+above have moved.
+- *The `>=2`-loop CLOP-stability check of the Lee-Wick branch* is now split in half. The graded (Family 1)
+  side is answered at the prescription level: the CLOP order-of-limits ambiguity attaches to the
+  contour-deformation step of the removal prescription, and the keep-and-grade construction at strict fixed
+  order performs no removal and no deformation, so it does not face the ambiguity there (structural, with the
+  one-loop bubble toy check: the graded ghost cut is the negative `-(1/16pi)(1-m_2^2/s)` leak while the
+  Lee-Wick conjugate-pair contour gives exactly zero, the two separated by a non-commuting width limit;
+  `tests/W120`, 16/16). A new structural point: the graded cut sign is `(-1)^{n_ghost}`, so the CLOP locus
+  `s=4m_2^2` is an even, positive, Cutkosky-unambiguous cut in the graded theory while the graded leak locus
+  `s=m_2^2` is empty under the Lee-Wick contour; the two families pay at disjoint thresholds. The evasion is
+  bounded: the graded ghost is broad and unstable, fixed order fails on an O(1) resonance window, and inside
+  that window resummation forces complex poles and the contour question returns for both families. The
+  removal-side two-loop tensor computation near `s=4m_2^2` (as specified in the wave-2 pre-gate) remains the
+  open half, and is now the single object that would settle the family question.
+- *The non-translation-invariant strengthening of the theorem* (Result 3) is partially delivered. The
+  large-momentum sign-domination argument is pointwise in position, so no finite-order differential operator
+  with position-dependent coefficients can implement the grading (symbolic to degree 6 plus a 4000-draw
+  sweep; strong-argument, with the positivity-to-pointwise-symbol-sign link the named argued step). The
+  equal-energy shell-mixer escapes are power-law non-local, strictly worse than the canonical exponentially
+  localized metric. The locality hypothesis itself is proven tight: the canonical metric is quasi-local
+  (strip-analytic of width exactly `m_ghost`), so the theorem cannot be strengthened to exclude quasi-local
+  metrics; it sits on the true boundary. Remaining gap: position-dependent local kernels with entire
+  non-polynomial fiber symbols (`tests/W121`, 11/11). The all-orders interacting item and the conformal-factor
+  item are unchanged.
