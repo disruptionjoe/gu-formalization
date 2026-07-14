@@ -7,7 +7,9 @@ hypothesis: "W142 -- steelman Joe's framing at full strength: IF the dark-energy
 title: "W142 -- the philosophy/foundations family steelman sweep of the issuance-distribution framing. 13 personas, 26 stories (two per persona: the distribution function F or the methodological structure, the assumption leg, and the test / demarcation criterion), scored against the W138 kill battery plus a PROGRESSIVE-vs-DEGENERATING axis, with the E1 one-object tripwire built into every survivor. TOP SURVIVORS: (1) F = the graded-optical-theorem excess B^dag B read as the issuance ledger (quantum-foundations persona; the one candidate that is a POSITIVE operator-valued distribution located exactly where W137 said the positive ledger must live, the C-metric functional; test = the W48 loop computation of B plus a cross-sector sign/normalization consistency check); (2) the uniform boundary-supply F with bulk-flatness selection (the W136 story itself, steelmanned; all six W138 gates cleared by construction; carries the family's one novel-fact candidate, beta/alpha* = 2); (3) F = the C-compression share (C1-based; the only F that makes 'distributed through observers' a positive MEASURE inside the repo's own operators; cheapest test = the K2 compressed-metric positivity check); (4) the C2 boundary-balance F (sharpest kill condition on the board: compact-support boundary terms vanish identically); (5) the Cartwright capacity-profile reading with W137's C3 as its decision computation. FAMILY VERDICT on the W136 pin: beta/alpha* = 2 QUALIFIES as a Lakatosian novel-fact CANDIDATE in the use-novelty (Zahar/Worrall) sense -- forced, not fitted -- but is not yet an empirical novel fact and stays candidate-grade until one independent consequence at the pinned ratio survives. f0 = 0 is scored PROGRESSIVE with an honesty note: half accommodation of W129, half genuine excess content (exactness is strictly sharper than any standing bound). METHOD VERDICT: assumption-first is legitimate exactly under the seven-point discipline enumerated in Section 4; Joe's 'bad science if naive, another angle, then rigorously check' is the Lakatos positive heuristic stated in plain language, and the repo already runs the required discipline (declare-never-assert, pre-frozen battery, machine-checked propagation, kill lists, E1 tripwire)."
 grade: "exploration / conditional register throughout. METHOD AND ANALYSIS, not evidence: no new computation is run in this wave; every number cited is a standing repo result (W136 cc227b0, W137 9cb9f4c, W138 ec00fbd, W129-W132, E1 meta-audit). Every statement of the form 'X' below a declared postulate is to be read 'X under the issuance declaration'; nothing asserts the declaration. Personas inline (one worker). NO canon / RESEARCH-STATUS / claim-status / verdict / posture change; no spec FIT row moves; no cross-repo claim (tri-repo gate honored: capability measure belongs to TaF, issuance semantics to temporal-issuance; 'issuance' is the W136 local postulate label only)."
 construction_used: "not applicable at object level (no new geometric object is built); where a story fixes a construction it names it inline per GEOMETER-VS-PHYSICS-OBJECTS.md (the pinned Convention-B section machinery for slice-anchored F; standard-field FRW/EFT wrappers for the gates, as in W138)."
+framing_correction: "2026-07-14 mid-wave, from Joe via coordinator, applied in Sections 0-bis, 2.4, 3-bis, and 4-bis (the W140/W141 amendment pattern: the pre-correction generation record in Sections 0-4 is retained unedited; the correction is applied at scoring, nothing rewritten to look prescient). Corrected minimal claim: science ALREADY KNOWS the dark-energy rate -- W135 (16e476f) measured it (rho_Lambda ~ (2.24 meV)^4; Q_tot = (3/2) Omega_L c^5/G = 1.027 Planck luminosities per Hubble volume; dimensionless ladder 9 Omega_L = 6.16; null-structure separator: at w = -1 the covariant Q = 0 IDENTICALLY, the rate is bookkeeping, ALL physical content lives in the distribution leg). All Bitcoin-specific schedule characteristics dropped from the steelman target. The steelman question is exactly: declaring that known measured number as the issuance input, what can be backed out for later rigorous checking. Reclassification audit result: ZERO stories moved out of scope (the family's Section-0 rate discipline had already fixed the schedule to the set/constant case); one gate-table cell tightened (2A's G2 conditional now holds identically). Re-rank: 4B > 4A > 10A > 10B > 5B (distribution content promoted; the uniform story re-labeled the null point of the distribution leg). Novelty ruling UPDATED and STRENGTHENED: an already-public measured input has zero tuning freedom, so the direction of fit for the beta/alpha* = 2 pin is unambiguous (use-novelty strengthened); the known-number-carries-no-risk objection is conceded FOR THE RATE LEG and answered by W135's own separator -- the rate is bookkeeping, so risk was never the rate leg's to carry; all risk and all empirical novel-fact opportunity live in the distribution leg and the internal forcing. f0 = 0 upgraded: under the corrected claim exact LCDM is the null structure of the measured input, not an accommodation choice; the accommodation discount partially lifts. Method verdict amended: discipline 4's pricing is re-specified -- what is declared (and priced) is the READING, never the number."
 depends_on:
+  - explorations/W135-issuance-structure-taxonomy-2026-07-14.md
   - explorations/W136-issuance-declaration-propagation-2026-07-14.md
   - explorations/W137-observer-slice-structure-2026-07-14.md
   - explorations/W138-issuance-kill-battery-2026-07-14.md
@@ -46,6 +48,47 @@ exactly, the conservation-clean case of W136 Persona 1), and the open question i
 DISTRIBUTION function F over observers. F is a measure/schedule/filtration-type object, which
 gate G4 explicitly allows. Every story below is phrased under this discipline; any story that
 cannot be so phrased is discarded at G4.
+
+## 0-bis. FRAMING CORRECTION (2026-07-14, mid-wave, from Joe): re-anchoring to the measured rate
+
+Applied after Sections 0-4 were written and committed (13c3aea); those sections are retained
+unedited as the pre-correction generation record, and the correction is applied at scoring
+(Sections 2.4, 3-bis, 4-bis). The corrected minimal claim, with every Bitcoin-specific
+schedule characteristic dropped from the steelman target:
+
+**Science ALREADY KNOWS the dark-energy rate.** W135 (16e476f,
+`explorations/W135-issuance-structure-taxonomy-2026-07-14.md`, now citable) measured it:
+
+- rho_Lambda ~ (2.24 meV)^4 (recomputed from primary anchors; = the W136 declared value,
+  one number in two registers, as W140's amendment put it);
+- bookkeeping rate per Hubble volume Q_tot = 3 H0 rho_L V_H = (3/2) Omega_L c^5/G = 1.027
+  Planck luminosities (O(1) flag and coincidence caveats carried from W135, anchor label
+  only, never spent -- G5 discipline);
+- the dimensionless ladder q_B/(H0^3 M_Pl^2) = 9 Omega_L = 6.16 as THE O(1) ratio;
+- **the null-structure separator (the correction's load-bearing item for this family):** at
+  w = -1 the covariant source term Q = 0 IDENTICALLY -- the rate of the null structure is
+  pure pressure-work bookkeeping. So the SET rate carries no physical content of its own;
+  ALL physical content of the framing lives in the DISTRIBUTION leg.
+
+The steelman question under the correction is exactly: DECLARING that known measured number
+as the issuance input, what OTHER information can be backed out for later rigorous checking.
+Note what the correction does to Section 0's "wording discipline on rate": the pre-correction
+sweep had already, as a steelman CHOICE, fixed the schedule to the set/constant case and
+routed all content into the distribution function F. The correction converts that choice into
+a MEASURED ANCHOR (the choice turned out to be the corrected claim), and W135's separator
+gives the choice a theorem-shaped justification the sweep did not have when it made it.
+
+**Reclassification audit (mandated: any schedule-dependent story goes OUT-OF-SCOPE, not
+killed).** All 26 stories re-audited. Result: **zero stories reclassified.** No story in this
+family's sweep purchased anything from schedule freedom: the object stories (2A, 3B, 4A, 4B,
+7A, 9B, 10A, 10B) are all distribution-leg or internal-forcing stories over a set total, and
+the method stories are schedule-agnostic instruments. One cell tightened rather than
+reclassified: the Section 2.2 gate table scored 2A's G2 as "pass if mimic-scale"; under the
+corrected claim the conditional is discharged identically (the declared input IS the null
+structure, Q = 0, so G2 is not a live gate for any in-scope story -- it survives only as the
+tripwire against re-importing schedule claims). The four generation-time discards (3A, 5A,
+6B, 8A) stand unchanged; none was discarded for schedule reasons, so none is owed a
+scope-not-kill relabel.
 
 **Family partition.** The assigned family is PHILOSOPHY / EPISTEMOLOGY / FOUNDATIONS. The
 roster's nearest partition is Slice C of the two-track sweep (FOUNDATIONS / INFORMATION /
@@ -571,6 +614,39 @@ without running its NAMED computation flag that story degenerating; three storie
 simultaneously flag the PROGRAM as the third degenerating one-object chain, and the E1
 verdict machinery takes over.
 
+### 2.4 Re-ranking under the framing correction (Section 0-bis)
+
+The correction's ranking principle: the rate is bookkeeping (Q = 0 identically at the
+declared input), so a story's value is its DISTRIBUTION-LEG content plus what the declared
+measured number FORCES internally -- and nothing else. Re-ranked:
+
+1. **4B -- F = B^dag B (graded-optical-theorem excess).** UNCHANGED at #1, strengthened: it
+   is pure distribution-leg content (a positive operator-valued allocation over physical
+   channels) with an unfitted cross-sector consistency test, and it needs nothing from the
+   rate beyond the set total. Named computation: W48 loop-level B.
+2. **4A -- F = C-compression share.** UP from #3: under the correction, a story that makes
+   "distributed through the observers" a well-defined positive measure is answering THE
+   question (all content is in the distribution leg), and its test is the cheapest on the
+   board (K2). Named computation: K2 compressed-metric positivity.
+3. **10A -- uniform boundary-supply F with bulk-flatness.** DOWN from #2, and re-labeled:
+   under the correction it is exactly the NULL POINT of the distribution leg (F uniform =
+   zero distribution content; the null structure of the measured input). Its entire yield is
+   internal forcing (the beta/alpha* = 2 pin, the (B_i, f0) = (0, 0) pair) -- which remains
+   the family's only computed yield to date and its novel-fact candidate, so it stays on the
+   podium, but as the anchor/control the richer distribution stories are measured against
+   (fusing with 9B/11A's null-F role, which the correction makes structural rather than
+   skeptical). Named computation: family c_W at beta/alpha = 2 + band map.
+4. **10B -- C2 boundary-balance F.** UNCHANGED at #4: distribution-leg content (which
+   observers' deformations the boundary term feeds) with the sharpest kill and pre-declared
+   exhaustion. Named computation: the C2 integration-by-parts on Y14 sections.
+5. **5B -- Cartwright capacity profile with C3.** UNCHANGED at #5, sharpened by the
+   correction: since the rate carries no content, the capacity PROFILE (does the exchange
+   coefficient vary per slice) is now the framing's single cleanest empirical-content
+   question, and C3 decides it either way. Named computation: C3 curved-background split.
+
+The E1 tripwire of Section 2.3 transfers unchanged to this ranking (same five named
+computations).
+
 ---
 
 ## 3. The family's verdict on the W136 pin: is beta/alpha* = 2 a Lakatosian novel fact?
@@ -616,6 +692,60 @@ signal jointly confirmed by BAO + SNe + CMB kills it outright). An ad hoc rescue
 exposure; this increased it. Lakatos's criterion is satisfied on the forward-looking side,
 which is the side that counts.
 
+## 3-bis. The novelty ruling UPDATED under the framing correction (the family's key deliverable)
+
+The corrected minimal claim changes the input's epistemic status: the declared number is an
+ALREADY-MEASURED, ALREADY-PUBLIC quantity (W135's measurement = W136's declaration, one
+number in two registers), so the rate leg carries zero new empirical content by construction.
+Does that strengthen or weaken the use-novelty case for beta/alpha* = 2?
+
+**Ruling: it STRENGTHENS the use-novelty case, and the apparent weakening (a known number
+provides no risk) is real but lands on a leg that was never carrying the novelty claim.**
+Both halves, argued:
+
+- **Strengthened, decisively, on direction of fit.** The Zahar/Worrall worry about a declared
+  input is that it was TUNED so the derived consequence lands -- the input is the hidden free
+  parameter through which the "novel" fact was fitted. An already-public measured number has
+  ZERO tuning freedom: nobody could have adjusted rho_Lambda to make the |H|^2 decomposition
+  select 2, because the number was fixed by observation years before the h-coefficients
+  existed and is not the program's to move. The input side of the pin is now zero-parameter,
+  which is the strongest form the use-novelty premise can take. The pre-correction verdict's
+  part (a) (FORCED, not fitted) is therefore upgraded from an audit finding to a structural
+  impossibility: there was nothing available to fit WITH.
+- **The no-risk objection, conceded and relocated.** It is true that declaring a known number
+  buys no Popperian risk on the rate leg -- the declaration cannot fail against the data it
+  was read off from. But W135's null-structure separator makes this concession exact rather
+  than damaging: at the declared input, Q = 0 identically -- the rate is BOOKKEEPING, so the
+  rate leg was never where the framing's empirical content could live. Lakatosian novelty
+  does not require the INPUT to be risky; it requires the OUTPUT to be unfitted and the
+  program to accept exposure somewhere. The exposure is real and enumerable, and it all sits
+  in the internal forcing and the distribution leg: K4 (the pinned ratio's independent
+  consequences can kill it), K5 (exact LCDM is hostage to every future non-mimic
+  confirmation; the pre-registered DESI DR3 wire), and the five named distribution
+  computations of Section 2.4. So the correction does not weaken the novel-fact case; it
+  CLARIFIES the division of labor: the rate leg contributes certainty (a measured anchor),
+  the distribution leg contributes risk, and a novel fact needs exactly one of each.
+- **Part (c) of the pre-correction verdict sharpened, not lifted.** The pin remains
+  theoretical/heuristic progress (a FIT row determined), not an empirical novel fact -- and
+  the correction now says WHY that boundary sits where it does: since the rate leg is
+  bookkeeping, the only place an EMPIRICAL novel fact can ever come from is the distribution
+  leg. Candidate-grade status and the graduation condition (one independent consequence at
+  the pinned ratio surviving) stand unchanged.
+- **f0 = 0 upgraded.** Pre-correction score: MIXED, net PROGRESSIVE (half accommodation of
+  W129). Under the corrected claim the accommodation discount partially lifts: exact LCDM is
+  not a value SELECTED to sit inside W129's band -- it is the NULL STRUCTURE of the measured
+  input itself (w = -1 exactly is what "the known rate, declared" means; Q = 0 identically).
+  What remains of the accommodation charge is only the retroactive re-description of W129's
+  mimic result as a prediction; the forward commitment (K5 exposure, strictly sharper than
+  every standing bound) is untouched. Revised score: PROGRESSIVE, with the residual
+  accommodation note confined to rhetoric rather than content, and story 11B's tripwire
+  still armed for the next conversion.
+
+One-line form: **a known number cannot be fitted and need not be risky -- the correction
+moves the pin's use-novelty case from "audited as forced" to "structurally unfittable," and
+relocates the entire burden of risk to the distribution leg, which is where this family's
+surviving stories already live.**
+
 ---
 
 ## 4. The method verdict: when is assumption-first legitimate?
@@ -658,6 +788,31 @@ repo already runs this method -- the steelman of the METHOD required no new mach
 the explicit enumeration above and the two new instruments this wave adds (the
 necessity-transfer ratio, 13B; the declaration-time novelty stamp, 1B).
 
+## 4-bis. Method verdict amended under the framing correction
+
+The seven disciplines stand; two are re-specified by the correction:
+
+- **Discipline 4 (price the assumption) re-priced:** when the declared input is an
+  already-measured number, what is declared -- and what costs prior -- is the READING ("this
+  measured number is an issuance supplied through the source action"), never the number. The
+  number is free (science already paid for it); the reading is the assumption leg. Repayment
+  must therefore come from distribution-leg determinations and internal forcing, and the
+  necessity-transfer ratio (13B) is recomputed on that basis: W136's balance stands (one
+  declared reading, three determinations), and the ratio's denominator is readings declared,
+  not numbers cited.
+- **Discipline 5 (keep the null on the board) upgraded from control to theorem-anchored:**
+  the null F (uniform) is no longer merely the skeptic's maximum-entropy control; it is the
+  distribution-leg face of the measured input's null structure (Q = 0 identically). Richer
+  distribution stories are now measured against a null that the data ALREADY selects at
+  background level, which raises, correctly, the bar they must clear.
+
+The overall ruling is unchanged and slightly strengthened: Joe's corrected minimal claim
+("the rate is already known; declare it and back out the rest") is the cleanest possible
+instance of legitimate assumption-first, because the declaration spends no empirical
+credibility at all -- the entire wager is the reading, the entire test surface is the
+distribution leg, and the discipline that keeps it honest is exactly Sections 4's seven
+points with the two amendments above.
+
 ---
 
 ## 5. What this wave does NOT do
@@ -668,10 +823,13 @@ meta-audit); the five named next computations (W48 loop B, family c_W at 2 plus 
 K2 compressed metric, C2 boundary integration, C3 curved-background split) are handed to
 successor waves, not begun. No cross-repo claim: capability measure stays TaF's, issuance
 semantics stays temporal-issuance's (one-way rule; the R5 bridge kill stands); "issuance"
-above is everywhere the W136 local postulate label. W135's outputs are not cited (no W135
-exploration artifact is present in the repo as of this wave). The four discarded stories
-are disposed with reasons, not silently dropped; the two on-notice stories carry counters,
-not verdicts.
+above is everywhere the W136 local postulate label. W135 citation status: the pre-correction
+Sections 0-4 were written before the W135 artifact landed and cite nothing from it; the
+correction sections (0-bis, 2.4, 3-bis, 4-bis) cite W135 (16e476f) for the measured rate,
+the dimensionless ladder, and the null-structure separator only, with W135's own O(1)
+coincidence caveats carried and the Planck-luminosity anchor never spent (G5 discipline).
+The four discarded stories are disposed with reasons, not silently dropped; the two
+on-notice stories carry counters, not verdicts.
 
 *Filed 2026-07-14, W142, philosophy/epistemology/foundations family (slice-C roster, 13
 personas, 26 stories, run inline in one session). Exploration grade, conditional register
