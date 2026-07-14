@@ -240,8 +240,9 @@ sign_geometric = sp.sign(Gtt.det())               # graviton block det sign (all
 # (Gtt is (5,0) so det > 0; use the block's definite sign directly)
 sign_geometric = sp.Integer(1) if sig_tt == (5, 0, 0) else sp.sign(Gtt.det())
 relative = sign_record_count * sign_geometric
-check("K4 (DECISIVE): record-count/conformal mode Krein sign = NEGATIVE; geometric/graviton "
-      "(spatial-TT) Krein sign = POSITIVE.  RELATIVE Krein signature = OPPOSITE (product = -1)",
+check("K4 (DECISIVE, scoped): record-count/conformal mode Krein sign = NEGATIVE; geometric/graviton "
+      "(spatial-TT) Krein sign = POSITIVE.  RELATIVE Krein signature of the record-count-vs-geometric "
+      "components IN THE |II|^2 SHADOW = OPPOSITE (product = -1).  (Scope A/B settled at SC1/SC2.)",
       sign_record_count == -1 and sign_geometric == 1 and relative == -1,
       f"record-count={sign_record_count}, geometric={sign_geometric}, relative={relative}")
 
@@ -313,6 +314,43 @@ check("NC3 (honest residual, named not swept): the OPPOSITE sign is the FIBER is
       residual_is_named)
 
 # ===========================================================================
+# SCOPE -- shadow vs law (coordinator sharpening; the W161/W167 fork made explicit).
+#   The signature computed above is OF the |II|^2 isotypic decomposition, so it
+#   characterizes the |II|^2 SHADOW.  W161 read GU's actual law (April 2021 draft eq
+#   9.4/9.10) as LINEAR in Ehresmann curvature, reducing to the SECOND-ORDER Einstein
+#   equation S=T -- a linear-in-curvature law carries NO fundamental R^2 scalaron, so
+#   its covariant coupling c_R = 0 EXACTLY (basis map c_R = a + b/3 + c/3 with all
+#   curvature-squared coefficients a=b=c=0), i.e. alpha+beta = 0 at the LAW level and
+#   the scalaron decouples (m_0^2 -> infinity), tachyonic or otherwise.  So the sign
+#   result must be scoped: OPPOSITE is the relative signature IN THE |II|^2 SHADOW.
+# ===========================================================================
+log("\n" + "=" * 78)
+log("SCOPE -- shadow vs law (the W161/W167 fork, made explicit)")
+log("=" * 78)
+a_lin, b_lin, c_lin = sp.symbols('a_lin b_lin c_lin', real=True)
+cR_basis = a_lin + b_lin / 3 + c_lin / 3               # W130 basis map
+cR_law_linear = cR_basis.subs({a_lin: 0, b_lin: 0, c_lin: 0})
+check("SC1 (scope): GU's LINEAR (April-2021 shiab-Einstein, eq 9.4/9.10) law is second-order "
+      "=> all curvature-squared coefficients vanish => c_R = 0 EXACTLY (W161) => alpha+beta = 0 "
+      "at the LAW level; the scalaron decouples (m_0^2 -> infinity).  The tachyon (c_R=-4/9) is a "
+      "coefficient of the INDUCED |II|^2 SHADOW (W130/W154 label), a DIFFERENT functional class "
+      "(Willmore, quadratic in extrinsic curvature) from the law (linear in Ehresmann curvature)",
+      cR_law_linear == 0)
+check("SC2 (scope): therefore the OPPOSITE relative Krein signature (K4) is scoped as 'the relative "
+      "signature of the record-count-vs-geometric components IN THE |II|^2 SHADOW'.  BRANCH A "
+      "(shadow IS GU's effective action): OPPOSITE => alpha+beta<0 => c_R>0 => tachyon SPURIOUS => "
+      "bar (b) CLEARS.  BRANCH B (shadow is a SEPARATE object): c_R=0 from the linear law => "
+      "alpha+beta=0 => NO scalaron at the law level => the tachyon question is MOOT and this "
+      "computation characterizes the SHADOW, not GU's law.  EITHER branch: the tachyon does NOT "
+      "STAND as a fundamental debit -- SPURIOUS (A) or ABSENT (B)",
+      cR_law_linear == 0 and relative == -1)
+log("  BRANCH A (|II|^2 shadow = law): tachyon SPURIOUS (opposite signature), bar (b) CLEARS.")
+log("  BRANCH B (|II|^2 shadow != law): c_R=0 at law, alpha+beta=0, NO scalaron; signature")
+log("           characterizes the SHADOW, not GU.  Tachyon ABSENT at the law level.")
+log("  The W161/W167 fork (is the |II|^2 shadow GU's true effective action?) selects A vs B;")
+log("  its resolution needs the I1B -> X4-shadow reduction map (unbuilt) -- NOT the signature.")
+
+# ===========================================================================
 # SYNTHESIS
 # ===========================================================================
 log("\n" + "=" * 78)
@@ -323,10 +361,14 @@ log("    record-count / conformal (full-trace) mode : Krein-NEGATIVE  (DeWitt (6
 log("    geometric / graviton  Sym^2_0(R^3)  spatial-TT : Krein-POSITIVE")
 log("  => alpha + beta < 0 admissible  =>  c_R = -(4/9)(alpha+beta) > 0")
 log("  => scalaron HEALTHY  =>  tachyon SPURIOUS  =>  bar (b) CLEARS.")
+log("  SCOPE (SC1/SC2): this is the signature IN THE |II|^2 SHADOW.  If the shadow IS GU's")
+log("  effective action, tachyon SPURIOUS -> bar (b) CLEARS (branch A).  If the shadow is a")
+log("  SEPARATE object, GU's LINEAR law has c_R=0 -> alpha+beta=0 -> NO scalaron (branch B).")
 log("  Cross-check (W130): naive c_W=+2 (graviton) vs c_R=-4/9 (scalaron) already opposite-signed;")
 log("  the Krein grading flips c_R to +4/9, matching the graviton.  The tachyon is the artifact of")
 log("  a positive-definite norm-square on the Krein-NEGATIVE conformal/record-count mode.")
-log("  Independent of W167's DIRECT reduction: this route's sign = SPURIOUS (bar (b) CLEARS).")
+log("  Independent of W167's DIRECT reduction: this route's SHADOW-sign = SPURIOUS (bar (b) CLEARS")
+log("  under branch A); the shadow-vs-law fork (A vs B) is exactly what W167 is chasing.")
 log("  If W167 agrees: high confidence + confirms W165's conjectured identity.  If it disagrees:")
 log("  the two 'bits' are not the same object (a crucial finding).")
 

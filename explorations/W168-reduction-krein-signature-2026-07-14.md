@@ -5,12 +5,13 @@ created: 2026-07-14
 wave: W168
 label: W168
 posture: coherence-first (Joe 2026-07-14); exploration grade; conditional register; honest grading; RUTHLESS self-verification; tri-repo gating STRICT
-title: "W168 -- THE DECISIVE COMPUTATION of the tachyon arc, by the INDEPENDENT Krein-signature route (sibling W167 computes the SAME bit by the DIRECT reduction). The arc's bar-(b) verdict reduces to ONE sign, sign(alpha+beta), because c_R = -(4/9)(alpha+beta) (W165, shape-blind/exact): NEGATIVE alpha+beta -> healthy scalaron -> tachyon SPURIOUS -> bar (b) CLEARS; POSITIVE -> tachyonic. W165 showed health (alpha+beta<0) is reachable inside a Krein norm-square IFF the record-count (trace/conformal) and geometric (trace-free) isotypic components carry OPPOSITE Krein signatures on the (9,5) ambient, and flagged the SIGNATURE ITSELF as GU-computable (only the finality INTERPRETATION is TaF-owned). THIS WAVE computes it. RESULT: OPPOSITE. From the gimmel/DeWitt vertical (fiber) metric on Met(X4)=Sym^2(T*X4) -- whose signature (9,5)=base(3,1)+fiber(6,4) is a VERIFIED GU object (W131; canon/w2-y14-spin-structure.md) -- the record-count/conformal (full-trace) mode is Krein-NEGATIVE (it is EXACTLY the DeWitt conformal-mode flip that carries the fiber from (7,3) to (6,4)), while the geometric graviton mode Sym^2_0(R^3) (spatial transverse-traceless) is Krein-POSITIVE. RELATIVE Krein signature = OPPOSITE (product = -1). Translation by the arc's own rule: OPPOSITE -> alpha+beta<0 admissible -> c_R>0 -> scalaron HEALTHY -> tachyon SPURIOUS -> bar (b) CLEARS. Cross-check (W130): the naive channel couplings ALREADY carry opposite signs (c_W=+2 graviton POSITIVE, c_R=-4/9 scalaron NEGATIVE); the Krein grading flips the conformal channel to +4/9, MATCHING the graviton -- the tachyon is the artifact of a positive-definite norm-square on the Krein-NEGATIVE conformal/record-count mode. VERDICT: OPPOSITE-SIGNATURE -> alpha+beta<0 -> tachyon SPURIOUS -> bar (b) CLEARS, with the SIGNATURE now COMPUTED (not conjectured), converting W165's conditional RELOCATION into a conditional CLEARANCE. HONEST RESIDUAL: the signature is GU-fixed; its physical ACTIVATION (that the indefinite Krein form, not a positive-definite H_C+ restriction, is the operative grading of the scalaron) is the finality reading W150/W165 flagged TaF-owned -- so the sign is settled GU-side and the one remaining gate is activation, NOT the signature. W167 cross-check: W167's DIRECT-reduction artifact is not visible here (not on origin at compute time); this route's sign is SPURIOUS/CLEARS. Agreement -> high confidence + confirms W165's conjectured identity; disagreement -> the two bits are not the same object (crucial finding)."
+title: "W168 -- THE DECISIVE COMPUTATION of the tachyon arc, by the INDEPENDENT Krein-signature route (sibling W167 computes the SAME bit by the DIRECT reduction). The arc's bar-(b) verdict reduces to ONE sign, sign(alpha+beta), because c_R = -(4/9)(alpha+beta) (W165, shape-blind/exact): NEGATIVE alpha+beta -> healthy scalaron -> tachyon SPURIOUS -> bar (b) CLEARS; POSITIVE -> tachyonic. W165 showed health (alpha+beta<0) is reachable inside a Krein norm-square IFF the record-count (trace/conformal) and geometric (trace-free) isotypic components carry OPPOSITE Krein signatures on the (9,5) ambient, and flagged the SIGNATURE ITSELF as GU-computable (only the finality INTERPRETATION is TaF-owned). THIS WAVE computes it. RESULT: OPPOSITE. From the gimmel/DeWitt vertical (fiber) metric on Met(X4)=Sym^2(T*X4) -- whose signature (9,5)=base(3,1)+fiber(6,4) is a VERIFIED GU object (W131; canon/w2-y14-spin-structure.md) -- the record-count/conformal (full-trace) mode is Krein-NEGATIVE (it is EXACTLY the DeWitt conformal-mode flip that carries the fiber from (7,3) to (6,4)), while the geometric graviton mode Sym^2_0(R^3) (spatial transverse-traceless) is Krein-POSITIVE. RELATIVE Krein signature = OPPOSITE (product = -1). Translation by the arc's own rule: OPPOSITE -> alpha+beta<0 admissible -> c_R>0 -> scalaron HEALTHY -> tachyon SPURIOUS -> bar (b) CLEARS. Cross-check (W130): the naive channel couplings ALREADY carry opposite signs (c_W=+2 graviton POSITIVE, c_R=-4/9 scalaron NEGATIVE); the Krein grading flips the conformal channel to +4/9, MATCHING the graviton -- the tachyon is the artifact of a positive-definite norm-square on the Krein-NEGATIVE conformal/record-count mode. VERDICT: OPPOSITE-SIGNATURE IN THE |II|^2 SHADOW -> alpha+beta<0 -> tachyon SPURIOUS -> bar (b) CLEARS (branch A), with the SIGNATURE now COMPUTED (not conjectured), converting W165's conditional RELOCATION into a conditional CLEARANCE. SCOPE (coordinator sharpening, the W161/W167 fork made explicit): the signature is OF the |II|^2 isotypic decomposition, so it characterizes the |II|^2 SHADOW. Branch A (the shadow IS GU's effective action): tachyon SPURIOUS, bar (b) CLEARS. Branch B (the shadow is a SEPARATE object): GU's actual LINEAR April-2021 shiab-Einstein law is second-order, c_R=0 EXACTLY, alpha+beta=0 at the law level, NO fundamental scalaron -> tachyon ABSENT and the signature characterizes the shadow, not GU. EITHER branch removes the tachyon as a standing FUNDAMENTAL debit; the A/B selection needs the I1B->X4-shadow reduction map (unbuilt), NOT the signature. HONEST RESIDUAL: the signature is GU-fixed; its physical ACTIVATION (that the indefinite Krein form, not a positive-definite H_C+ restriction, is the operative grading of the scalaron) is the finality reading W150/W165 flagged TaF-owned -- so the sign is settled GU-side and the remaining gates are the A/B shadow-vs-law fork and activation, NOT the signature. W167 cross-check (scoped): W167's DIRECT-reduction artifact is not visible here (not on origin at compute time); this route's SHADOW sign is SPURIOUS/CLEARS. Agreement within the shared shadow scope -> high confidence + confirms W165's conjectured identity; a law-level W167 report (alpha+beta=0) is a SCOPE difference, not a contradiction; a genuine both-in-shadow opposite-sign disagreement -> the two bits are not the same object (crucial finding)."
 hypothesis: "W165 reduced debit-1 (the tachyon) to the relative Krein signature of the record-count (trace/conformal/BLMS) vs geometric (trace-free) isotypic components on the (9,5) q=5 finality frontier, and gated the finality INTERPRETATION to time-as-finality while flagging the SIGNATURE ITSELF as the (9,5) rep-theory GU can compute. Compute that relative Krein signature GU-side: decompose the fiber Sym^2(T*X4) into isotypic components under O(3)xO(1); compute the Krein sign each carries under the gimmel/DeWitt vertical metric; determine SAME (=> alpha+beta>0 => tachyon PHYSICAL) or OPPOSITE (=> alpha+beta<0 => tachyon SPURIOUS/healthy). Handle the honest gate: if the decisive piece genuinely needs a time-as-finality input, say UNDETERMINED-PENDING-TaF and name the one datum; but first exhaust what the (9,5) ambient rep-theory determines on its own."
-grade: "exploration / conditional register throughout. COMPUTED (deterministic, tests/W168_reduction_krein_signature.py, 15/15 exit 0, positive controls first): PC1 the (9,5)=(3,1)+(6,4), q=5 arithmetic; PC2/PC2b the W126/W156 MSS interpolant -64u^2-8u+2 -> F(R)=2+R/3-R^2/9 (with the HONEST flag that the '-64' is the curvature-interpolant u^2 coefficient, NOT a Krein inner product -- the Krein argument does not rest on it); PC3/PC3b the W165 shape-blind law c_R=-(4/9)(alpha+beta); PC4 the canonical O(3)xO(1) fiber split (canon/w2-y14). NEW-DERIVED: K1 the pure trace-form signature (7,3); K2/K2b the DeWitt/gimmel fiber signature (6,4) with the conformal/full-trace direction G(eta,eta)=4-16*lambda=-12<0 at lambda=1 (Krein-NEGATIVE); K3a the geometric graviton block Sym^2_0(R^3)=(5,0) POSITIVE, K3b the time-space shift block R^3(x)sgn=(0,3) NEGATIVE (ADM constraint/gauge, non-propagating), K3c the relative-trace direction POSITIVE; K4 the DECISIVE relative signature = OPPOSITE (product -1); K5a/K5b the translation to c_R_phys=+4/9>0 (healthy) plus the W130 c_W=+2 vs c_R=-4/9 opposite-sign cross-check. NEGATIVE CONTROLS: NC1 without the DeWitt term (lambda=0) the fiber is (7,3) and the conformal mode is POSITIVE = SAME as the graviton => tachyon PHYSICAL (so OPPOSITE rides GU's genuine gimmel flip, not a convention); NC2 the conformal mode is negative IFF lambda>1/4 which is EXACTLY the (6,4) condition, so the signature datum (6,4) and the sign verdict are one fact; NC3 the named honest residual. CITED (not re-derived): W126/W130 (induced |II|^2, c_R=-4/9, c_W=+2, the spin-0/spin-2 channel split), W159 (|H|^2 slice, det=4/9, the (alpha,beta) shape family, the healthy point (-2,1)), W165 (the shape-blind c_R law, the relative-Krein-signature reduction, the gated conjecture), W131 (parallel Pi/K, verified signature (9,5)=(3,1)+(6,4) on the Lorentzian locus), W150 (the q=5 finality frontier), canon/w2-y14-spin-structure.md (the O(3)xO(1) isotypic decomposition of Sym^2). Besse Einstein Manifolds Sec 1.G (the Sym^2 decomposition) and DeWitt PR 160 (1967) 1113 (the supermetric) CITED. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; the debit count stays {1,3} pending the sibling cross-check and Joe's grading; H41 unbuilt; H59/H61a OPEN; the E2 AF/AS fork carried, not closed. No forbidden target {3,8,24,chi(K3),Ahat} assumed/inserted/hardcoded/divided-by."
+grade: "exploration / conditional register throughout. COMPUTED (deterministic, tests/W168_reduction_krein_signature.py, 20/20 exit 0, positive controls first): PC1 the (9,5)=(3,1)+(6,4), q=5 arithmetic; PC2/PC2b the W126/W156 MSS interpolant -64u^2-8u+2 -> F(R)=2+R/3-R^2/9 (with the HONEST flag that the '-64' is the curvature-interpolant u^2 coefficient, NOT a Krein inner product -- the Krein argument does not rest on it); PC3/PC3b the W165 shape-blind law c_R=-(4/9)(alpha+beta); PC4 the canonical O(3)xO(1) fiber split (canon/w2-y14). NEW-DERIVED: K1 the pure trace-form signature (7,3); K2/K2b the DeWitt/gimmel fiber signature (6,4) with the conformal/full-trace direction G(eta,eta)=4-16*lambda=-12<0 at lambda=1 (Krein-NEGATIVE); K3a the geometric graviton block Sym^2_0(R^3)=(5,0) POSITIVE, K3b the time-space shift block R^3(x)sgn=(0,3) NEGATIVE (ADM constraint/gauge, non-propagating), K3c the relative-trace direction POSITIVE; K4 the DECISIVE relative signature = OPPOSITE (product -1); K5a/K5b the translation to c_R_phys=+4/9>0 (healthy) plus the W130 c_W=+2 vs c_R=-4/9 opposite-sign cross-check.  SCOPE (coordinator sharpening): SC1 GU's LINEAR April-2021 shiab-Einstein law is second-order => c_R=0 EXACTLY => alpha+beta=0 at the LAW level (W161), so the OPPOSITE result is scoped as the signature IN THE |II|^2 SHADOW; SC2 branch A (shadow=law) tachyon SPURIOUS bar (b) CLEARS, branch B (shadow separate) no scalaron at law, tachyon ABSENT.  NEGATIVE CONTROLS: NC1 without the DeWitt term (lambda=0) the fiber is (7,3) and the conformal mode is POSITIVE = SAME as the graviton => tachyon PHYSICAL (so OPPOSITE rides GU's genuine gimmel flip, not a convention); NC2 the conformal mode is negative IFF lambda>1/4 which is EXACTLY the (6,4) condition, so the signature datum (6,4) and the sign verdict are one fact; NC3 the named honest residual. CITED (not re-derived): W126/W130 (induced |II|^2, c_R=-4/9, c_W=+2, the spin-0/spin-2 channel split), W159 (|H|^2 slice, det=4/9, the (alpha,beta) shape family, the healthy point (-2,1)), W165 (the shape-blind c_R law, the relative-Krein-signature reduction, the gated conjecture), W131 (parallel Pi/K, verified signature (9,5)=(3,1)+(6,4) on the Lorentzian locus), W150 (the q=5 finality frontier), canon/w2-y14-spin-structure.md (the O(3)xO(1) isotypic decomposition of Sym^2). Besse Einstein Manifolds Sec 1.G (the Sym^2 decomposition) and DeWitt PR 160 (1967) 1113 (the supermetric) CITED. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; the debit count stays {1,3} pending the sibling cross-check and Joe's grading; H41 unbuilt; H59/H61a OPEN; the E2 AF/AS fork carried, not closed. No forbidden target {3,8,24,chi(K3),Ahat} assumed/inserted/hardcoded/divided-by."
 construction: "program-native where the objects are GU's (Y14=Met(X4), the gimmel/DeWitt vertical fiber metric, its signature (9,5)=(3,1)+(6,4), the O(3)xO(1) isotypic split of Sym^2(T*X4), the covariant scalaron coupling c_R, the spin-0/spin-2 channel identification, the q=5 finality frontier). Standard-field where the machinery binds any construction (the DeWitt supermetric and its conformal-mode sign / conformal-factor structure; the isotypic/Schur decomposition of Sym^2 under O(p,q); the ADM lapse/shift constraint structure identifying the propagating graviton polarizations; the f(R) scalaron-sign dependence on c_R). Every analogy PORTED and labelled; none asserted of GU. Forks named per GEOMETER-VS-PHYSICS-OBJECTS.md. Tri-repo gating STRICT: the (9,5) signature is computed GU-side; only the finality INTERPRETATION (whether the Krein grading is physically operative) is flagged TaF-owned; NO cross-repo identity is asserted."
 depends_on:
   - explorations/W165-lens-abstraction-level-2026-07-14.md
+  - explorations/W161-lens-foundational-action-2026-07-14.md
   - explorations/W159-tachyon-escapes-2026-07-14.md
   - explorations/W130-native-graviton-oneloop-block-2026-07-14.md
   - explorations/W126-beyond4th-vacuum-lift-2026-07-13.md
@@ -49,14 +50,21 @@ SIGNATURE ITSELF is the `(9,5)` rep-theory GU can compute. This wave takes that 
 computes it, by the INDEPENDENT Krein-signature route (the sibling team W167 computes the same bit
 by the direct reduction).
 
-**The answer: OPPOSITE.** The record-count / conformal mode is Krein-NEGATIVE; the geometric
-graviton mode is Krein-POSITIVE. By the arc's own translation rule, OPPOSITE forces
-`alpha + beta < 0`, hence `c_R > 0`, hence a HEALTHY scalaron, hence the tachyon is SPURIOUS, hence
-bar (b) CLEARS. The signature is now COMPUTED, converting W165's conditional relocation into a
-conditional clearance.
+**The answer: OPPOSITE, in the `|II|^2` shadow.** The record-count / conformal mode is
+Krein-NEGATIVE; the geometric graviton mode is Krein-POSITIVE. By the arc's own translation rule,
+OPPOSITE forces `alpha + beta < 0`, hence `c_R > 0`, hence a HEALTHY scalaron, hence the tachyon is
+SPURIOUS, hence bar (b) CLEARS. The signature is now COMPUTED, converting W165's conditional
+relocation into a conditional clearance. One scope caveat is load-bearing and stated up front
+(Section 5.5): the signature is OF the `|II|^2` isotypic decomposition, so it characterizes the
+`|II|^2` SHADOW. If that shadow is GU's true effective action (branch A) the tachyon is SPURIOUS and
+bar (b) clears; if the shadow is a separate object (branch B), GU's actual linear (April-2021
+shiab-Einstein, second-order) law has `c_R = 0` exactly, so `alpha + beta = 0` at the law level and
+there is no fundamental scalaron at all. Either way the tachyon does not STAND as a fundamental
+debit. The signature computation is solid `(9,5)` rep-theory regardless; only its bearing on GU's law
+rides the shadow-vs-law fork (the W161/W167 question).
 
 Five personas inline, one worker, no sub-agents. Deterministic test
-`tests/W168_reduction_krein_signature.py`, 15/15 exit 0, positive controls first.
+`tests/W168_reduction_krein_signature.py`, 20/20 exit 0, positive controls first.
 
 ## 1. Construction forks (GEOMETER-VS-PHYSICS-OBJECTS.md), named
 
@@ -191,7 +199,7 @@ the clearance CONDITIONAL on activation.
 
 ## 5. Persona 4 (symbolic engineer): what the test pins
 
-`tests/W168_reduction_krein_signature.py`, 15 checks, exit 0, exact sympy, positive controls first.
+`tests/W168_reduction_krein_signature.py`, 20 checks, exit 0, exact sympy, positive controls first.
 
 - **PC1-PC4** pin the imported arc data: the `(9,5)=(3,1)+(6,4)` `q=5` arithmetic; the W126/W156
   MSS interpolant and the honest `-64`-is-a-curvature-coefficient flag; the W165 shape-blind
@@ -206,34 +214,78 @@ the clearance CONDITIONAL on activation.
   not a convention; the `lambda > 1/4` threshold IS the `(6,4)` condition; and the named honest
   residual.
 
+## 5.5 Scope -- the |II|^2 shadow vs GU's linear law (the W161/W167 fork, made explicit)
+
+The signature computed above is OF the `|II|^2` isotypic decomposition, so it characterizes the
+`|II|^2` SHADOW. This must be stated as a scope, because the shadow may not be GU's actual law.
+
+W161 read GU's foundational action (April 2021 draft, eq 9.4/9.10) as LINEAR in the Ehresmann
+curvature, reducing to the SECOND-ORDER Einstein equation `S = T`. A linear-in-curvature law
+carries NO fundamental `R^2` scalaron: its covariant coupling is `c_R = 0` EXACTLY (the W130 basis
+map `c_R = a + b/3 + c/3` with all curvature-squared coefficients `a = b = c = 0`), so
+`alpha + beta = 0` at the LAW level and the scalaron decouples (`m_0^2 -> infinity`), tachyonic or
+otherwise. The tachyon `c_R = -4/9` is a coefficient of the INDUCED `|II|^2` shadow (a Willmore
+functional, quadratic in extrinsic curvature) that W130/W154 already label the integrated-out
+shadow, not the fundamental law. It is a DIFFERENT functional class.
+
+So the sign result is scoped (test SC1/SC2): **the relative Krein signature of the
+record-count-vs-geometric components IN THE `|II|^2` SHADOW is OPPOSITE.** Two branches:
+
+- **Branch A (the `|II|^2` shadow IS GU's true effective action).** OPPOSITE signature forces
+  `alpha + beta < 0`, hence `c_R > 0`, hence a healthy scalaron: the tachyon is SPURIOUS and bar (b)
+  CLEARS.
+- **Branch B (the shadow is a SEPARATE object).** GU's linear law gives `c_R = 0`, so
+  `alpha + beta = 0` at the law level and there is NO fundamental scalaron. The tachyon question is
+  MOOT at the law level, and this Krein-signature computation characterizes the SHADOW, not GU.
+
+Either branch removes the tachyon as a standing FUNDAMENTAL debit: SPURIOUS under A (a wrong-norm
+artifact), ABSENT under B (no scalaron in the law). The A-vs-B selection is decided by the
+`I1B -> X4`-shadow reduction map (unbuilt, and the shiab is non-unique in the source, W161) -- NOT
+by the signature. This is exactly the shadow-vs-law fork the sibling W167 team is chasing; my sign
+cross-checks against W167 cleanly ONLY within the shared shadow scope (branch A). If W167's direct
+reduction is done in the same `|II|^2` shadow, our two bits must agree (both `alpha + beta < 0`); if
+W167 works at the linear-law level, it will report `alpha + beta = 0` (branch B), and the apparent
+"disagreement" would be a SCOPE difference, not a contradiction -- the honest reading being that the
+two bits are computed on different objects (the shadow vs the law).
+
 ## 6. Synthesis -- the return data
 
 | Question | Verdict | Basis |
 |---|---|---|
 | record-count / conformal mode Krein sign | NEGATIVE | K2b: DeWitt full-trace `G(eta,eta) = 4-16 lambda = -12 < 0`; the `(6,4)` flip |
 | geometric / graviton mode Krein sign | POSITIVE | K3a: `Sym^2_0(R^3)` spatial TT signature `(5,0)` |
-| RELATIVE Krein signature | **OPPOSITE** (product `-1`) | K4 |
-| translation | `alpha+beta<0 => c_R=+4/9>0 => healthy` | K5a; cross-checked by W130 `c_W=+2` vs `c_R=-4/9` (K5b) |
-| effect on the tachyon | **SPURIOUS** | the tachyon is a positive-definite-norm artifact on the Krein-negative conformal mode |
-| effect on bar (b) | **CLEARS** (conditional on grading activation) | the signature is now COMPUTED; only the finality ACTIVATION remains |
-| is a TaF input REQUIRED for the signature? | NO -- GU-computed | the `(9,5)` rep-theory fixes it; only physical ACTIVATION carries the finality reading |
+| RELATIVE Krein signature (in the `|II|^2` SHADOW) | **OPPOSITE** (product `-1`) | K4 |
+| scope: is the `|II|^2` shadow GU's law? | FORK (A shadow=law / B shadow separate) | SC1/SC2; W161 (linear law -> `c_R=0`) |
+| translation (branch A) | `alpha+beta<0 => c_R=+4/9>0 => healthy` | K5a; cross-checked by W130 `c_W=+2` vs `c_R=-4/9` (K5b) |
+| effect on the tachyon | **SPURIOUS (A)** / **ABSENT (B)** | A: wrong-norm artifact; B: `c_R=0`, no scalaron in the linear law |
+| effect on bar (b) | **CLEARS under A** (conditional on grading activation); DOWNGRADED under B | the signature is COMPUTED; the A/B fork and the finality ACTIVATION remain |
+| is a TaF input REQUIRED for the signature? | NO -- GU-computed | the `(9,5)` rep-theory fixes it; only physical ACTIVATION and the A/B fork carry the finality/law readings |
 
-**RELATIVE-KREIN-SIGNATURE RESULT: OPPOSITE -> alpha+beta < 0 -> tachyon SPURIOUS -> bar (b)
-CLEARS.** The record-count (conformal / full-trace) mode is Krein-NEGATIVE and the geometric
-(spatial transverse-traceless graviton) mode is Krein-POSITIVE, so the two isotypic components sit
-in OPPOSITE signature sectors of the `(9,5)` gimmel/DeWitt structure. By the arc's exact shape-blind
-law this forces `c_R > 0` -- a healthy scalaron -- so the tree-level tachyon is the artifact of
-grading a Krein-negative mode with a positive-definite norm-square. This CONVERTS W165's "conditional
-relocation of debit-1 to the finality frontier" into a "conditional CLEARANCE with the signature
-COMPUTED": the one datum W165 gated (the relative Krein signature) is now determined GU-side, and it
-points to health.
+**RELATIVE-KREIN-SIGNATURE RESULT (in the `|II|^2` SHADOW): OPPOSITE.** The record-count (conformal
+/ full-trace) mode is Krein-NEGATIVE and the geometric (spatial transverse-traceless graviton) mode
+is Krein-POSITIVE, so the two isotypic components of the `|II|^2` shadow sit in OPPOSITE signature
+sectors of the `(9,5)` gimmel/DeWitt structure. By the arc's exact shape-blind law this forces
+`c_R > 0` in the shadow -- a healthy scalaron -- so the tree-level tachyon is the artifact of grading
+a Krein-negative mode with a positive-definite norm-square. Scoped (Section 5.5): under **branch A**
+(the `|II|^2` shadow IS GU's effective action) the tachyon is SPURIOUS and bar (b) CLEARS; under
+**branch B** (the shadow is a separate object) GU's linear law has `c_R = 0`, `alpha + beta = 0`, and
+there is no fundamental scalaron -- the tachyon is ABSENT and the signature characterizes the shadow,
+not GU. Either branch removes the tachyon as a standing FUNDAMENTAL debit. This CONVERTS W165's
+"conditional relocation of debit-1 to the finality frontier" into a "conditional CLEARANCE with the
+signature COMPUTED": the one datum W165 gated (the relative Krein signature) is now determined
+GU-side, and in the shadow it points to health.
 
-**W167 cross-check.** W167's direct-reduction artifact is not visible at compute time (not on origin
-`main`). This route's independent sign is SPURIOUS / bar (b) CLEARS. If W167's direct reduction also
-returns `alpha + beta < 0`, the two routes AGREE: high confidence, and the agreement confirms W165's
-conjectured identity that the two "bits" are the same object. If W167 returns `alpha + beta > 0`, the
-routes DISAGREE, which is the crucial finding that the Krein-signature bit and the direct-reduction
-bit are NOT the same object -- the identity fails and the reduction must be re-examined.
+**W167 cross-check (scoped).** W167's direct-reduction artifact is not visible at compute time (not
+on origin `main`; W167's worktree exists but is uncommitted). This route's sign, IN THE `|II|^2`
+SHADOW, is `alpha + beta < 0` -> SPURIOUS -> bar (b) CLEARS (branch A). The clean cross-check holds
+only within the shared shadow scope: if W167's direct reduction is computed in the same `|II|^2`
+shadow, the two bits must AGREE (both `alpha + beta < 0`), confirming W165's conjectured identity
+that the two "bits" are the same object. If W167 computes at the LINEAR-LAW level, it will report
+`alpha + beta = 0` (branch B): that is a SCOPE difference (shadow vs law), not a genuine
+sign-disagreement, and the honest reading is that the two bits are computed on different objects. A
+true disagreement -- both in the shadow, opposite signs -- would be the crucial finding that the
+Krein-signature bit and the direct-reduction bit are NOT the same object and the reduction must be
+re-examined.
 
 **COMPLETION VERDICT + effect on the debit count.** Exploration grade; the SIGNATURE is computed and
 the sign is committed (OPPOSITE / SPURIOUS). The debit count is not moved unilaterally here: the
@@ -271,7 +323,7 @@ INDEPENDENT Krein-signature route to the decisive tachyon bit, after W165 reduce
 isotypic Krein signature and flagged the signature as GU-computable. Five personas inline in one
 worker (Cl(9,5) rep-theory specialist, Krein/indefinite-metric specialist, differential geometer,
 symbolic engineer, adversarial skeptic); no sub-agents. Reproducible:
-`python -u tests/W168_reduction_krein_signature.py` (15/15, exit 0; four positive controls first).
+`python -u tests/W168_reduction_krein_signature.py` (20/20, exit 0; positive controls first).
 Exploration grade; conditional register; no canon movement; tri-repo gating strict; the signature
 computed and the sign committed (OPPOSITE / SPURIOUS / bar (b) CLEARS, conditional on grading
 activation); the debit count unmoved pending the W167 cross-check and Joe's grading.*
