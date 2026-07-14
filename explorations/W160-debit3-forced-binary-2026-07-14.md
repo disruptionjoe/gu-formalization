@@ -25,6 +25,14 @@ scripts:
 
 # W160 -- the debit-3 forced binary on the frontier fluctuation two-point function
 
+> **FORWARD POINTER (added 2026-07-14 reconcile; hygiene, reflects an already-made verdict).** The OBSTRUCT
+> verdict below was later OVERTURNED by **W180** (`explorations/W180-build-matter-connection-bridge-c3-2026-07-14.md`):
+> the theta-identity leg's kind-mismatch dissolves under an induced/Sakharov connection, so `theta == J` is
+> discharged CONDITIONAL / PARTIAL and W160's OBSTRUCT was "not a hard wall." W160's text is retained as
+> written. Note W180's discharge rests on the reverse-engineered W154 identification (dark energy = the
+> record current), which is a HYPOTHESIS, so no canon status changes and the canon Assumption-3 wording is
+> unchanged.
+
 Test: `tests/W160_frontier_two_point_function.py` (27/27, exit 0). Deterministic (fixed seed
 20260714); the Cl(9,5) algebra runs on the repo's verified `M(64,H)` representation via
 `gen_sector_bridge`; the everpresent statistics run the same closed-form count model W154/W158 used.

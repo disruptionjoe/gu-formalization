@@ -2,8 +2,8 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-07"
-canon_sweep_at: "2026-07-03"
+updated_at: "2026-07-14"
+canon_sweep_at: "2026-07-14"
 ---
 
 # Research Status
@@ -32,6 +32,8 @@ stories, with the generation count entering as a constrained external/source/bou
 is unchanged: compatibility is not derivation, imports must be named and priced, and no verdict is inflated.
 But the status ledger should distinguish a failed "force three from the bare interior" route from a global
 negative verdict on GU.
+
+**Metadata sweep 2026-07-14.** `updated_at` and `canon_sweep_at` are bumped to 2026-07-14. The 2026-07-14 W128-W192 substrate/open-system arc is exploration-tier and changes NO canon verdict; the only additive registrations are the two exploration-tier notes in the 2026-07-14 section below.
 
 **Primary research question (2026-06-28): the Firewall-Boundary Hypothesis.** The primary
 falsification target is now whether every successful reconstruction converges on a firewall-like
@@ -87,6 +89,19 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | early frontier packets | archive | `lab/archive/` |
 | source and media provenance | source | `lab/sources/` |
 | literature briefs | source | `lab/literature/` |
+
+## 2026-07-14 Exploration-Tier Additions (W128-W192 arc)
+
+The 2026-07-14 substrate/open-system arc (W128-W192) is exploration-tier throughout; it changes NO existing
+verdict row and moves no canon status. Two additive exploration-tier notes are registered here for the
+record. Neither is a canon promotion: the W180-over-W160 result is deliberately NOT registered as a canon
+supersession (W180 is conditional on the unproven reverse-engineered W154 identification), and the canon
+Assumption-3 wording is unchanged.
+
+| item | tier / status | content |
+|---|---|---|
+| W165 shape-blind `c_R` lemma | exploration-tier; GU-INDEPENDENT; verdict-stable | The covariant scalaron coupling of the bending action `alpha \|II\|^2 + beta \|H\|^2` is `c_R = -(4/9)(alpha+beta)`, so `sign(c_R) = -sign(alpha+beta)`. Shape-blind (independent of the section's shape), pure differential geometry, GU-INDEPENDENT, machine-verified. Cite `explorations/HQW-NOTE-shape-blind-cR-lemma-2026-07-14.md`, `tests/HQW_NOTE_shape_blind_cR.py` (exit 0), and `explorations/W165-lens-abstraction-level-2026-07-14.md`. Exploration-tier; no existing verdict changes. |
+| W160 crossing-epoch honest limit | exploration-tier | GU derives dark energy's CHARACTER (sign-changing, clock-coupled, `O(1) ~ H^2`) but PROVABLY NOT the crossing epoch: the DESI `z ~ 0.405` is a fitted boundary condition, not a GU prediction (the everpresent Poisson homogeneity that fixes the amplitude forbids pinning the phase). Rests on the everpresent substrate (conditional). Cite `explorations/W160-debit3-forced-binary-2026-07-14.md` (27/27). Exploration-tier; does not alter the theta-field FLRW dark-energy verdict, which stays OPEN. |
 
 ## 2026-06-30 Chase-to-Kill Correction Sweep
 

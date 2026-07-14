@@ -27,6 +27,24 @@ external_refs:
   - "Maturana & Varela, Autopoiesis and Cognition (1980) -- persistence by continual self-production"
 ---
 
+> **SUPERSESSION BANNER (added 2026-07-14 reconcile; hygiene, reflects an already-made verdict, no new verdict).**
+> This wave grades the `a2 = -(a1)^2` keystone as STRUCTURAL-CANDIDATE and stakes its bar-(b) path on
+> later proving it structural. That keystone computation was KILLED the same day. Read this file with the
+> following forward pointers:
+> - **W157** (`explorations/W157-a2-equals-minus-a1-squared-keystone-2026-07-14.md`): `a2 = -(a1)^2` is a
+>   COINCIDENCE, an MSS-slice-basis + `a0=2` normalization artifact. The physical covariant scalaron
+>   coupling is `c_R = -4/9`, NOT `-1/9`, so the "tachyon = R^2-channel shadow of attractive gravity"
+>   identity does not hold at the covariant level.
+> - **W159** (`explorations/W159-tachyon-escapes-2026-07-14.md`): with the keystone gone, the tachyon
+>   perturbative escapes are all closed; debit-1 STANDS-AS-DEBIT (narrowed).
+> - **W167 / W168** (`explorations/W167-reduction-direct-sign-alpha-beta-2026-07-14.md`,
+>   `explorations/W168-reduction-krein-signature-2026-07-14.md`): the later convergence reduces the whole
+>   question to the single sign `sign(alpha+beta)` via `c_R = -(4/9)(alpha+beta)` (W165 shape-blind lemma),
+>   i.e. to whether `[P_ghost, S] = 0` / the Krein grading is operative (**W187**).
+>
+> Nothing below is deleted; the STRUCTURAL-CANDIDATE grade here is superseded by W157, not corrected in
+> place. No verdict or claim grade in this file is changed by this banner.
+
 # W156 -- the coherent full story: ten vantages, one spine
 
 ## 0. The capstone brief, and the assembled picture the ten must weave
@@ -349,6 +367,8 @@ cited `a0=2, a1=1/3, a2=-1/9`, and `P(u) = -64u^2 - 8u + 2` under `R = -24u` rep
   identity, confirming it is a real constraint requiring a derivation, not something automatic for any
   degree-2 `F`.
 - **S7/S7b** the consequence lock: `m^2 = -1/(6 a1) < 0` precisely when `a1 > 0`.
+
+> **INLINE SUPERSESSION NOTE (2026-07-14 reconcile):** the STRUCTURAL-CANDIDATE grade in this paragraph was KILLED the same day. W157 shows `a2 = -(a1)^2` is a COINCIDENCE (MSS-slice-basis + `a0=2` artifact); the physical covariant coupling is `c_R = -4/9`, not `-1/9`. See the supersession banner at the top of this file.
 
 **VERDICT: STRUCTURAL-CANDIDATE.** The identity is MORE than a bare coincidence -- it is exact, it
 survives the one deformation the arc can compute (the conformal/record-count mode, S5), and it reduces

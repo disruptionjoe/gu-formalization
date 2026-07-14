@@ -27,6 +27,20 @@ updated_at: "2026-07-11"
 > the credibility currency; the broader-story/interpretation channel is Joe's X (labeled intuition), never
 > the papers.
 
+> **Still-open paths the W189 register does NOT cover (co-equal North Stars, 2026-07-14 reconcile).**
+> The W189 hardening register is the LOOP-UNITARITY queue (the reservoir-Krein-sign / open-system bar-(b)
+> thread). The following are DISTINCT still-open work and must not be dropped just because they are absent
+> from that register:
+> 1. **Source-action / branch-3 gravity-leg construction** -- the source-action buildbench worklist
+>    (write/derive the branch-fixed source action; it decides gravity and pins the count).
+> 2. **The (9,5)-vs-(7,7) signature crux + the Bach-branch ELProjectedGRShadow gravity test** (the OQ2-A
+>    H/II binary; run `ELProjectedGRShadowTheorem` in the conformal/Bach branch).
+> 3. **Signed-readout OC1/OC2 noncompact + its standalone paper** (LANE-SIGNED-READOUT-PAPER).
+> 4. **LANE-SM-BOUNDARY novel-physics lane.**
+> 5. **The OBJ-DG and OBJ-NGUYEN crown-jewel writeups.**
+
+> **[SUPERSEDED by the 2026-07-14 top block]** Loop-unitarity work is tracked in the W189 register; the source-action / gravity leg is tracked separately (see the seam-fix section above) and must not be dropped.
+>
 > **2026-07-11 PRIMARY PRIORITY (top of the queue; supersedes the count/firewall thread as #1): WORK THE OTHER FOUR LEGS.**
 > The generation-count / located-not-forced / source-action thread is at MAXIMUM HARDENING (complete forcing
 > rubric + out-of-rubric hunt; the count is a rigid, finite 2-bit residual, DECOUPLED from the other legs).
@@ -115,7 +129,7 @@ updated_at: "2026-07-11"
 > internal source action in `absorbed/gu-source-action`, and re-run the generation-sector audit under a
 > different reconstruction of the rep). Attack it, do not defend it.
 
-> **2026-06-25 global status guard.** Older long rows below retain historical derivation
+> **2026-06-25 global status guard.** (See W189 hardening-register item **H29** for the current claim-status delta.) Older long rows below retain historical derivation
 > context. Current source of truth: generation count / `ind_H(D_GU)=24` is OPEN; Shiab is
 > RESOLVED for algebraic existence only; full GU anomaly cancellation is OPEN; VZ is 14D
 > CONDITIONALLY_EVADED and 4D CONDITIONALLY_RESOLVED at principal-symbol grade; dark-energy
@@ -189,7 +203,7 @@ whether GU succeeds.
 
 For the canonical mission split and guardrails, see `RESEARCH-POSTURE.md`.
 
-## 2026-07-09 Sequential-Goals Run (SG1-SG5) -- frontier hardening, count still OPEN
+## 2026-07-09 Sequential-Goals Run (SG1-SG5) -- frontier hardening, count still OPEN [historical archive: pre-arc count-route block; superseded as top-of-queue by the W189 register]
 
 Five sequential goals ran 2026-07-09 (`explorations/sequential-goals-2026-07-09/`,
 `tests/big-swing/sg{1..5}_*.py`, all certificates exit 0). None forces three; the generation-count
@@ -312,7 +326,7 @@ H-linear, Krein, and anchor checks, while preserving the `58.7215` and `155.3625
 admissible and distinct, and their raw wall differences still need projection repair. The wall lens is useful
 but underdetermined. The next hourly progress point is **GLOBAL-BOUNDARY-CONDITION-TAU-DATA**.
 
-## 2026-07-03 Big-Swing Outcomes (R1-R5) -- routes closed, do not re-chase
+## 2026-07-03 Big-Swing Outcomes (R1-R5) -- routes closed, do not re-chase [historical archive: pre-arc count-route block]
 
 Five ambitious swings ran on 2026-07-03 (`explorations/big-swing-2026-07-03/`, `tests/big-swing/`, all
 certificates exit 0). They **close routes**; future hourly runs should not re-open them:
@@ -351,7 +365,7 @@ these are pickup-eligible; several cluster on the source-action wall being ultra
   is not vindicated on the bare carrier. *Next:* pin `E_RS^eff` (BRST quotient + K-theory symbol +
   `ch₂(F)[K3]` + Y¹⁴↔K3 bridge) as concrete code on the same carrier and re-run the rank pipeline. Routes into
   the source-action wall (#1). `explorations/internal-paths-2026-07-03/oq-rk1-indh-rank-certificate.md`.
-- **#3 Lean typecheck (CLOSED for the core spine).** `Lean/GUFormalization/LocatedNotForcedLegs.lean` (Theorem 2
+- **#3 Lean typecheck (CLOSED for the core spine; further Lean-formalization of the finite core tracked as W189 register item H27).** `Lean/GUFormalization/LocatedNotForcedLegs.lean` (Theorem 2
   Krein index-nullity `chi_eq_zero`, the antilinear bound, 2-primary identities 3a-3f) elaborates **exit 0, no
   `sorry`/`axiom`** on the provisioned toolchain (elan 4.32.0-rc1, mathlib built). Upgrades the finite-dim core
   from sympy-symbolic to Lean-verified. *Next:* (a) fix `tests/big-swing/R4_TwoArena.lean`'s 2 mathlib API-drift
@@ -573,7 +587,7 @@ Full review disposition table: `papers/drafts/prepublish-review-tracker.md`. Hou
 three: executable certificates (scripts under `tests/`, RESULTS file under `canon/`), no target import,
 adversarial re-verification of every leg.
 
-### WC-ENUM-COMPLETENESS (journal-gating; priority 1)
+### WC-ENUM-COMPLETENESS (CLOSED -- folded into the located-not-forced LEAD paper; journal-gating; priority 1)
 
 **Statement.** The paper's Theorem 1 is proof-by-enumeration over 7 obstruction classes (Kramers, mod-2 Witten
 index, cross-chirality Krein signature, adjoint index 4k, Rokhlin, spinor 2-smoothness, ghost parity); the
@@ -612,7 +626,7 @@ as its lead criticism) -- Theorem 1 + abstract + intro item 1 + status table now
 (computed grade, engine-swept, sharp boundary; unrestricted / function-space open); `CHANGELOG-v2.6-enum-completeness.md`.
 CANON.md promotion of the RESULTS file still pending Joe.
 
-### WC-ANTILINEAR-BOUND (journal-gating; priority 2)
+### WC-ANTILINEAR-BOUND (CLOSED -- folded into the located-not-forced LEAD paper; journal-gating; priority 2)
 
 **Statement.** The paper's antilinear non-existence leg (caveat (d)) is a finite adversarial hunt over an
 infinite-dimensional space -- honest but not closed. Convert it into either **(a)** a non-existence proof over
@@ -653,7 +667,7 @@ verify/indep_check.py}` (all exit 0 this pass; ~39 s + ~2 s + ~4 s; 247 hard ass
 CHANGELOG-v2.5.2-antilinear-bound.md); DERIVATION-PROGRESS.md ENTRY WC-ANTILINEAR-BOUND. Publication stays
 DEFERRED: both gates now carry staged results and flip only on Joe's review.
 
-### WC-FUNCTION-SPACE-EXT (post-publication; priority 3)
+### WC-FUNCTION-SPACE-EXT (post-publication; priority 3; close-or-scope tracked as W189 register item H16)
 
 **Statement.** Extend the paper's Theorem 2 (finite-dimensional index conservation: every linear
 Krein-isometric operator on the `(+96,-96)` cross-chirality carrier conserves the net chiral index at zero) to
@@ -768,6 +782,10 @@ live in `lab/roadmap/objection-triage-register.md`. Each row below is OPEN and l
 > **OQ1 split-rank explicit matrix computation RESOLVED 2026-06-23 (`oq1-split-rank-verification-2026-06-23.md`):** Explicit bracket computation in `sl(4,R)` with the correct sigma_B involution (`dsigma_B(X) = -J X^T J^{-1}`, J=diag(1,1,1,-1)) shows `p_G cap q_B` is 6-dimensional with basis `{H_1,H_2,H_3,S_{12},S_{13},S_{23}}`. Maximal abelian subspace is `span{H_1,H_2,H_3}` (3-dimensional); brackets `[H_i,S_{jk}]` land in k=so(4). **True scalar split-rank = 3** (not 1). n5 §19 "split-rank 1" claim used sigma_A (wrong involution, different symmetric pair) or a non-maximal line. Flensted-Jensen equal-rank criterion `3 = 1` FAILS for scalar `L^2(SL(4,R)/SO_0(3,1))`. The rank-independent RS physical count (`C^32 -> C^16 -> dim_H=8`) remains separate; scalar FJ/BC1 no longer proves the generation count.
 
 > **2026-06-23 follow-up correction:** the tau-correction gate did **not** verify `rank_correction(tau_RS)=2`, and the subsequent direct Oshima-Matsuki/Kobayashi admissibility check **fails as stated**. The OQ-weyl-3 root-wall check also ran: the A3 formal-degree product does not vanish at `lambda_RS`, but this only removes a zero-factor objection; it does not restore the scalar FJ/BC1 chain.
+
+> **[historical archive] The 2026-06-23-dated sections below are detailed historical derivation rows.**
+> They are retained for provenance; current status is governed by the guards at the top of this file and
+> the W189 hardening register. Do not read them as current priorities.
 
 ## 2026-06-23 Follow-Up Execution Result
 

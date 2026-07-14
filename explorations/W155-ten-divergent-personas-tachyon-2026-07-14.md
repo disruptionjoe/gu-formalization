@@ -33,6 +33,8 @@ external_refs:
 
 # W155 -- ten divergent personas on the positive-norm tachyon: what are we missing?
 
+> **FORWARD POINTER (2026-07-14 reconcile):** this wave's headline `a2 = -(a1)^2` convergence was demoted to a COINCIDENCE by W157 (MSS-slice + `a0=2` artifact; covariant `c_R = -4/9`). No new verdict; W155 text retained.
+
 ## 0. The object, the standing verdict, and the divergent brief
 
 **The object (CITED, exact within the 4th-order truncation).** GU's induced `|II|^2` action gives a
