@@ -7,6 +7,26 @@ updated_at: "2026-07-11"
 
 # Next Steps For Contributors
 
+> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (top of the queue; HOURLY RUNS WORK THIS): the W189 HARDENING REGISTER.**
+> The 2026-07-14 substrate/open-system arc (W144-W188; full summary on JoeOps WI-068) reduced the whole
+> bar-(b) / loop-unitarity question to ONE cross-repo sign bit: W187 showed GU's own record-accretion fade
+> DYNAMICALLY DISCHARGES the coupling-magnitude leg (the good coupling grows to cross r* at a finite cosmic
+> epoch for every positive magnitude), leaving only the reservoir Krein SIGN, a TI/TaF finality datum GU
+> cannot fix alone. It also produced a full hardening register at
+> `explorations/W189-hardening-register-2026-07-14.md` (impact-vs-difficulty matrix; quick-wins; ranked
+> big-bets). The QUICK WINS (hygiene/gates, paper-honesty edits, the shape-blind c_R and a2-coincidence
+> notes, claim-status deltas) are being executed in-session -- HOURLY RUNS SHOULD NOT REDO THEM. HOURLY RUNS
+> SHOULD WORK THE RANKED BIG BETS, in order: (1) the GENERIC-CAPTURE LEMMA -- cheapest discharge is ONE
+> dressed r* computation (extends W187) that turns the open-Krein loop-unitarity result from toy to
+> class-level; (2) the ALL-ORDERS interacting keep-and-grade metric (the sole remaining unitarity resource
+> after W132; W169/W179 at conditional-on-sub-threshold); (3) the QFT-lift of the open-Krein finite-model
+> theorems; (4) the 2-loop CLOP residual (mostly closed, W124/W134). These ARE the source-action /
+> one-construction North Star named below, now organized and prioritized. Each hourly run: take ONE bounded
+> register item, leave an executable/packet receipt, keep canon/paper promotion Joe-gated. NORTH STAR
+> unchanged: drive GU to falsifiability + maximize coherent-picture learning; the GU-independent no-gos are
+> the credibility currency; the broader-story/interpretation channel is Joe's X (labeled intuition), never
+> the papers.
+
 > **2026-07-11 PRIMARY PRIORITY (top of the queue; supersedes the count/firewall thread as #1): WORK THE OTHER FOUR LEGS.**
 > The generation-count / located-not-forced / source-action thread is at MAXIMUM HARDENING (complete forcing
 > rubric + out-of-rubric hunt; the count is a rigid, finite 2-bit residual, DECOUPLED from the other legs).
