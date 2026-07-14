@@ -136,3 +136,4 @@ Routine detail stays here; it is not loaded by default.
 ## 2026-07-14
 
 - Progress fan-out repaired the root `tests/*.py` README inventory after W123-W126 raised the direct W-series frontier packet count to 87, restoring the root inventory gate without touching papers, claim status, canon verdicts, public posture, source-action math, or Lean files. See `steward/runs/2026-07-14-progress-fanout-416-tests-readme-inventory.md`.
+- Progress fan-out repaired the `papers/README.md` lifecycle map so every existing staged candidate directory is named exactly once, preserving the no-publication / no-paper-status-movement boundary. See `steward/runs/2026-07-14-progress-fanout-419-papers-readme-lifecycle-map.md`.
