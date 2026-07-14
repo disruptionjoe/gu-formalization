@@ -1,11 +1,11 @@
-# Submission Runbook — Located, Not Forced
+# Submission Runbook -- Located, Not Forced
 
 **Prepared:** 2026-07-09. **Paper version:** v2.10. **Status:** READY (staged; not submitted).
 **Purpose:** a single linear checklist Joe can follow when he sits down to submit. This consolidates the
 Joe-side steps that had accumulated across the readiness passes in `STAGING-NOTES.md` (v2.4 through v2.10).
 `STAGING-NOTES.md` remains the full history; this file is the do-this-then-this.
 
-This runbook prepares a submission. It is **not** authorization to submit. No agent performs any step here —
+This runbook prepares a submission. It is **not** authorization to submit. No agent performs any step here --
 every action below is Joe's. Agents do not touch arXiv, inspect or update the arXiv account, or post anything.
 
 ---
@@ -24,26 +24,26 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 
 ---
 
-## Pre-flight (verify before starting — 5 minutes)
+## Pre-flight (verify before starting -- 5 minutes)
 
 1. **Canon + git state.** Confirm the four staged RESULTS files are promoted in `CANON.md` and the tree is
    committed/pushed (JoeOps records this at commit `2abd12c`; verify it still holds so the public repo the
-   paper's Data Availability section points to is current). If anything is uncommitted, commit + push first —
+   paper's Data Availability section points to is current). If anything is uncommitted, commit + push first --
    the paper cites the public repo as its reproducibility backbone.
 2. **Reproducibility harness green.** From a clean checkout:
    `python papers/candidates/located-not-forced/reproduce_all.py` should exit 0 (31/31 checks). This is what an
    external reviewer will run; confirm it before they do. **Pre-verified 2026-07-09: 31/31 passed, exit 0
    (~99s, Python 3.14.3).** One cosmetic `RuntimeWarning` (divide-by-zero, line 624, inside a control
-   derivation) is non-fatal — every load-bearing number matched. Re-run only if the tree changed since.
+   derivation) is non-fatal -- every load-bearing number matched. Re-run only if the tree changed since.
 3. **`.tex`/`.md` parity.** Both at v2.10 per `STAGING-NOTES.md`; no action unless a later edit desynced them.
 
 ---
 
-## Step 1 — Endorsement (DO THIS FIRST; longest lead time; MANDATORY)
+## Step 1 -- Endorsement (DO THIS FIRST; longest lead time; MANDATORY)
 
 Per arXiv's **updated policy of 2026-01-21**, an independent researcher with no institutional affiliation
 **must** obtain a personal endorsement for `hep-th`. Institutional email alone no longer qualifies, and there is
-no bypass — you cannot "just post it" to arXiv. (Sources verified 2026-07-09:
+no bypass -- you cannot "just post it" to arXiv. (Sources verified 2026-07-09:
 `blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy`, `info.arxiv.org/help/endorsement.html`.)
 
 The good news: it's **one** endorser, one targeted email, and arXiv forbids mass-emailing them anyway. Your own
@@ -53,27 +53,27 @@ bibliography contains the eligible candidates (Wan-Wang-Yau, Juven Wang, García
 - Start the arXiv submission first to receive your endorsement code, then send the note to one endorser.
 - **Joe-only.** Agents do not inspect/modify the arXiv account or send the request.
 
-### Step 1b (parallel) — post publicly today with no endorsement
+### Step 1b (parallel) -- post publicly today with no endorsement
 
 If you want it live and citable immediately while the endorsement lead time runs, post to **Zenodo** (DOI, no
 gate, reputable). This does not block arXiv or a journal later. Checklist: `ZENODO-RELEASE-CHECKLIST.md`.
-Avoid viXra-style no-gate dumps — they undercut the qualified/serious posture.
+Avoid viXra-style no-gate dumps -- they undercut the qualified/serious posture.
 
-## Step 2 — One Overleaf compile
+## Step 2 -- One Overleaf compile
 
 No TeX toolchain on this machine, so compile once on Overleaf and confirm zero errors. Visually check:
 
-- the front-matter `\fbox` (the five load-bearing caveats box — it is tall);
+- the front-matter `\fbox` (the five load-bearing caveats box -- it is tall);
 - the wide Section 7 display equation;
 - the Section 11 `longtable`;
 - all references resolve (embedded bibliography, single file, no external `.bib`).
 
-The source is a **single self-contained `.tex`** with `\pdfoutput=1` set — no multi-file upload needed.
+The source is a **single self-contained `.tex`** with `\pdfoutput=1` set -- no multi-file upload needed.
 
-## Step 3 — Shortened metadata abstract
+## Step 3 -- Shortened metadata abstract
 
 The in-PDF abstract (~2,950 chars) **exceeds arXiv's 1,920-char metadata limit**. Paste the plain-text version
-below into the arXiv abstract field instead (no LaTeX macros; character-count it before submitting — target
+below into the arXiv abstract field instead (no LaTeX macros; character-count it before submitting -- target
 < 1,920). Adjust if the account's counter differs.
 
 > We study the chirality and generation structure of an explicit real Clifford Rarita-Schwinger sector: the
@@ -91,7 +91,7 @@ below into the arXiv abstract field instead (no LaTeX macros; character-count it
 > contingent on a torsion-theoretic treatment of the obstruction data. All verification reported here is internal
 > to the AI-directed process that produced it; no result has yet been independently replicated or peer-reviewed.
 
-## Step 4 — Submit
+## Step 4 -- Submit
 
 - **Upload:** the single `.tex` (no separate bibliography).
 - **License:** arXiv nonexclusive-distribution 1.0 (preserves journal options).
@@ -101,7 +101,7 @@ below into the arXiv abstract field instead (no LaTeX macros; character-count it
 - **Authors:** Joe Hernandez.
 - **Comments field:** note the reproducibility repo + that the count is not claimed (short, factual).
 
-## Step 5 — Post-live bookkeeping
+## Step 5 -- Post-live bookkeeping
 
 Once it is confirmed live:
 
@@ -116,7 +116,7 @@ Once it is confirmed live:
 - **Moderation hold / `gen-ph` reclassification.** First-time submitter on a GU-adjacent subject. Mitigations
   are in the text: the GU-independence framing, the explicit "does not claim three generations" box, and the
   internal-verification caveat. Nothing to do pre-submission; just expect it as a possibility.
-- **The internal-verification ceiling (caveat e)** is the paper's honest known weakness — only external human
+- **The internal-verification ceiling (caveat e)** is the paper's honest known weakness -- only external human
   replication breaks it. `reproduce_all.py` + `REVIEWER.md` make that one command away; the optional
   `HARDENING-QUEUE.md` items (H1-H9) lower the external-review barrier further but **do not gate submission**.
 

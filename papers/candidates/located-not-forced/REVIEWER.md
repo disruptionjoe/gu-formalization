@@ -1,4 +1,4 @@
-# Reviewer guide — one-command reproduction
+# Reviewer guide -- one-command reproduction
 
 *Companion to* `located-not-forced-generation-count-2026-06-29.md` *(hardening item H1).*
 
@@ -11,7 +11,7 @@ python papers/candidates/located-not-forced/reproduce_all.py
 ```
 
 Dependencies: `numpy` and `sympy` (both standard). Runtime: a few minutes. The script is
-deterministic (seeded) and self-contained — it copies the verified carrier recipe rather than
+deterministic (seeded) and self-contained -- it copies the verified carrier recipe rather than
 importing the test tree, so it runs from a clean checkout with no path setup.
 
 **Exit code 0** iff every load-bearing number in the paper reproduces; **exit 1** otherwise,
@@ -49,33 +49,33 @@ paper's number; the computed value never reads from it.
 
 ## The discriminating controls (why this is not a tautology)
 
-A harness that only restated hardcoded numbers would pass trivially — exactly the "verification
+A harness that only restated hardcoded numbers would pass trivially -- exactly the "verification
 theater" this repository warns against. So **every major check ships a control**: a scrambled or
 wrong input that *must* produce a different number (or fail the same predicate). Controls print
 inline, tagged `[CONTROL]`. The load-bearing ones:
 
 - **Clifford type.** The same derivation machinery on the wrong signature `Cl(7,7)` yields
-  `M(128,R)` — a different division algebra and size — so the `M(64,H)` result is
+  `M(128,R)` -- a different division algebra and size -- so the `M(64,H)` result is
   signature-sensitive, not a constant. (The quaternionic type of `Cl(4,0)` is *measured*: its
   8×8 real commutant is 4-dimensional with every imaginary unit squaring to −1.)
 - **Carrier dimensions.** Scrambled (non-self-dual) so(4) generators do **not** give a
-  192-dim triplet — the multiplicity requires the genuine self-dual su(2)+ structure.
+  192-dim triplet -- the multiplicity requires the genuine self-dual su(2)+ structure.
 - **Krein signature.** Replacing `beta_S` by the identity (wrong Krein metric) breaks the
   (96, 96) split.
 - **Theorem 2.** The Euclidean `(14,0)` control is grading-*aligned* and gives `|chi| = 96`,
   proving the index genuinely detects chirality; the ~0 in (9,5)/(7,7) is real cross-chirality
   content, not an automatic zero. A random linear Krein isometry preserves `chi = 0`.
-- **Antilinear leg.** A K-*definite* re-grading (not a chirality) escapes to `|chi| = 96` —
+- **Antilinear leg.** A K-*definite* re-grading (not a chirality) escapes to `|chi| = 96` --
   exactly the residual the paper says an escape would require.
 - **CRT.** A non-coprime split (`Z/8 ⊕ Z/2`) fails to reconstruct `Z/16` (max element order 8),
   so the 8·3 factorization works only because `gcd(8,3)=1`. And `Hom(Z/3, Z/3) = Z/3 ≠ 0`
   shows the vanishing `Hom(Z/3, Z)=0` is specifically about the torsion-free target.
-- **e_R.** The gauge-channel Dirac eta `(2q²−4q+1)/8` is 2-primary for every integer q — the
+- **e_R.** The gauge-channel Dirac eta `(2q²−4q+1)/8` is 2-primary for every integer q -- the
   order-3 burden lives only in the gravitational framing channel.
 - **Pati-Salam.** The naive B−L-only hypercharge (dropping SU(2)_R) fails to reproduce the
   generation's n-values.
 - **Forcing slot.** Replacing the `3·ch₂` coefficient by `1·ch₂` breaks the all-twists
-  `≡ 0 mod 3` identity — the identity is specific to the 2-primary structure, not automatic.
+  `≡ 0 mod 3` identity -- the identity is specific to the 2-primary structure, not automatic.
 
 ### Target-import guard
 
@@ -88,7 +88,7 @@ decomposition and from the order-3 part of `e_R = 1/12`.
 
 This harness is **internal-tier** in the paper's own three-tier vocabulary. What it does:
 
-- lowers the barrier to external replication — a referee re-runs every load-bearing number in
+- lowers the barrier to external replication -- a referee re-runs every load-bearing number in
   a single pass, from a clean checkout, and sees each next to its paper reference; and
 - makes the checks adversarial-by-construction (every one carries a control that must fail on
   a scrambled input).
@@ -96,14 +96,14 @@ This harness is **internal-tier** in the paper's own three-tier vocabulary. What
 What it does **not** do:
 
 - it does **not** replace external peer review. Every result remains reproduced *within the
-  same AI-directed process that produced it* — not independently replicated, not peer-reviewed,
+  same AI-directed process that produced it* -- not independently replicated, not peer-reviewed,
   not signed off by a named specialist. The paper's caveat (e) and its three-tier caveat stand
   unchanged.
 - it does **not** touch the two genuinely open analytic residuals (the function-space
   APS/end-eta and family-index terms, and the true-`Y14`-bundle computation). Those are gated,
   not closed, and the harness makes no claim about them.
 - passing this harness is **not** a claim of three generations. The paper does not claim three;
-  no computed quantity in the program equals three, and this harness reproduces exactly that —
+  no computed quantity in the program equals three, and this harness reproduces exactly that --
   the located-not-forced verdict, including the numbers that show the count is *not* internally
   forced.
 

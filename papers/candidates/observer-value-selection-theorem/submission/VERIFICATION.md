@@ -1,4 +1,4 @@
-# Release verification — 2026-07-13
+# Release verification -- 2026-07-13
 
 Paper: *A Diagonal No-Go for Self-Valuations and an Invariance Classification*
 

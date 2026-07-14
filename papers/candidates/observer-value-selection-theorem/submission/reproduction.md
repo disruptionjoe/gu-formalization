@@ -1,4 +1,4 @@
-# Reproduction pointer — diagonal self-valuation paper
+# Reproduction pointer -- diagonal self-valuation paper
 
 This note states exactly what is machine-checked for *A Diagonal No-Go for Self-Valuations and an Invariance Classification* and how to reproduce the checks. Repository: <https://github.com/disruptionjoe/gu-formalization>
 

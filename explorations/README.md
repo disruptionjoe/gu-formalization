@@ -84,7 +84,7 @@ Current cross-wave synthesis and execution:
 [`wave28`](wave28/), [`wave29`](wave29/), [`wave30`](wave30/), [`wave31`](wave31/), [`wave32`](wave32/),
 [`wave33`](wave33/), [`wave34`](wave34/), [`wave35`](wave35/), [`wave36`](wave36/), [`wave37`](wave37/),
 [`wave38`](wave38/), [`wave39`](wave39/), [`wave40`](wave40/), [`wave41`](wave41/), [`wave42`](wave42/),
-[`wave43`](wave43/), [`wave44`](wave44/), [`wave45`](wave45/)
+[`wave43`](wave43/), [`wave44`](wave44/), [`wave45`](wave45/), [`wave46`](wave46/)
 
 ## Archived
 

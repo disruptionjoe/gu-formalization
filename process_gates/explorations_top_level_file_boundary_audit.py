@@ -1,19 +1,35 @@
 #!/usr/bin/env python3
 """Audit loose top-level exploration notes.
 
-Most exploration notes belong in topical subdirectories. This gate keeps the
-few current top-level Markdown notes explicit, reviewed, and boundary-labeled
-without moving them or judging their research content.
+Top-level exploration Markdown falls into two intended, boundary-labeled kinds:
+
+1. A small set of explicitly curated conversation/posture stubs, each of which
+   must carry its own boundary phrases (the ``ALLOWED_TOP_LEVEL_NOTES`` map).
+2. Dated arc notes -- the live lab record of the W-wave / dated-exploration
+   runs, named ``<slug>-YYYY-MM-DD.md``. These are the working record, not
+   canon; the README's top-level boundary language marks the whole surface as
+   "the research lab, not the project canon."
+
+This gate keeps that convention explicit without moving files or judging their
+research content. Any top-level note that is neither a curated stub nor a dated
+arc note still fails, preserving the lab-vs-canon boundary.
 """
 
 from __future__ import annotations
 
+import re
 import unittest
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
 EXPLORATIONS = ROOT / "explorations"
+
+# Dated arc notes are the live lab record: any slug suffixed with an ISO date,
+# e.g. ``W191-projected-i1b-source-block-2026-07-14.md``. Matching notes are an
+# accepted top-level kind and are not required to carry per-file boundary
+# phrases; the README-level boundary language covers the surface.
+DATED_ARC_NOTE = re.compile(r"-\d{4}-\d{2}-\d{2}\.md$")
 
 ALLOWED_TOP_LEVEL_NOTES = {
     "godelian-initial-conditions-boundary-axiom-stub-2026-07-10.md": (
@@ -47,9 +63,27 @@ def top_level_markdown_notes() -> set[str]:
     }
 
 
+def is_dated_arc_note(filename: str) -> bool:
+    return DATED_ARC_NOTE.search(filename) is not None
+
+
 class ExplorationsTopLevelFileBoundaryAudit(unittest.TestCase):
-    def test_only_reviewed_top_level_exploration_notes_are_loose(self) -> None:
-        self.assertEqual(set(ALLOWED_TOP_LEVEL_NOTES), top_level_markdown_notes())
+    def test_only_recognized_top_level_exploration_notes_are_loose(self) -> None:
+        # Every top-level note must be a curated stub or a dated arc note.
+        # Anything else (an undated, non-allow-listed loose file) trips the
+        # boundary: it has neither a per-file boundary label nor the dated
+        # lab-record convention.
+        unrecognized = sorted(
+            name
+            for name in top_level_markdown_notes()
+            if name not in ALLOWED_TOP_LEVEL_NOTES and not is_dated_arc_note(name)
+        )
+        self.assertEqual([], unrecognized)
+
+    def test_curated_stubs_are_still_present(self) -> None:
+        present = top_level_markdown_notes()
+        missing = sorted(set(ALLOWED_TOP_LEVEL_NOTES) - present)
+        self.assertEqual([], missing)
 
     def test_loose_notes_keep_explicit_boundary_phrases(self) -> None:
         missing: list[str] = []

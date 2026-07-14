@@ -1,7 +1,7 @@
-# arXiv Endorsement Request — draft (Joe sends this himself)
+# arXiv Endorsement Request -- draft (Joe sends this himself)
 
 **Prepared:** 2026-07-09. **For:** `hep-th` endorsement of *Located, Not Forced* (v2.10).
-This is a copy-paste draft. Agents do not send it. Send at most one request to one endorser at a time —
+This is a copy-paste draft. Agents do not send it. Send at most one request to one endorser at a time --
 arXiv prohibits mass-emailing potential endorsers.
 
 ## How the mechanics work (so the note makes sense)
@@ -12,7 +12,7 @@ arXiv prohibits mass-emailing potential endorsers.
    `arxiv.org/auth/endorse` (or via the link). One positive endorsement clears the category.
 3. Only after that can you complete the submission.
 
-So the code in the note below comes from arXiv *after* you begin — fill it in then.
+So the code in the note below comes from arXiv *after* you begin -- fill it in then.
 
 ## Who to ask (verify eligibility first)
 
@@ -20,16 +20,16 @@ An eligible endorser is an established arXiv author already registered as an end
 bibliography contains the best-matched candidates. On each one's arXiv abstract page, click
 **"Which authors of this paper are endorsers?"** at the bottom to confirm before you write.
 
-- **Wan, Wang, Yau** — their mod-3 / color-triality result on the generation count is the closest work to your
+- **Wan, Wang, Yau** -- their mod-3 / color-triality result on the generation count is the closest work to your
   core argument; most topically aligned. *(Best first choice if registered.)*
-- **Juven Wang** — active hep-th, framed-bordism 24/8 = 3; directly adjacent.
-- **García-Etxebarria & Montero** — active hep-th, anomaly/bordism (the Z_9 result you cite).
+- **Juven Wang** -- active hep-th, framed-bordism 24/8 = 3; directly adjacent.
+- **García-Etxebarria & Montero** -- active hep-th, anomaly/bordism (the Z_9 result you cite).
 
 Pick the one whose paper you engage most directly; that makes the ask legitimate rather than scattershot.
 
 ## Draft note
 
-> **Subject:** arXiv endorsement request — hep-th (independent researcher)
+> **Subject:** arXiv endorsement request -- hep-th (independent researcher)
 >
 > Dear Dr. [ENDORSER NAME],
 >
@@ -38,15 +38,15 @@ Pick the one whose paper you engage most directly; that makes the ask legitimate
 > endorsement.
 >
 > My paper, *Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a
-> Clifford Rarita–Schwinger Sector*, engages directly with your work on [SPECIFIC RESULT YOU CITE — e.g. the
+> Clifford Rarita–Schwinger Sector*, engages directly with your work on [SPECIFIC RESULT YOU CITE -- e.g. the
 > mod-3 generation-count obstruction / color triality]. The theorem-grade results are independent of any
-> speculative framework, and the paper explicitly does **not** claim three generations — it proves that the
+> speculative framework, and the paper explicitly does **not** claim three generations -- it proves that the
 > sector-interior obstructions are all 2-primary and therefore cannot force a net chiral count, which relocates
 > the count to external background data.
 >
 > Two things I'd want you to know up front, in the interest of honesty: the work was produced through an
 > AI-directed research process, and every load-bearing computation is reproducible from a public repository with
-> a one-command harness (31/31 checks, exit 0). All verification to date is internal — I have not yet had
+> a one-command harness (31/31 checks, exit 0). All verification to date is internal -- I have not yet had
 > external peer review, which is exactly why I want it on arXiv where qualified people can scrutinize it.
 >
 > - Paper (PDF): [LINK]
@@ -63,7 +63,7 @@ Pick the one whose paper you engage most directly; that makes the ask legitimate
 
 ## Notes
 
-- Keep it short and specific — endorsers get these and reward brevity + a real engagement with their work.
+- Keep it short and specific -- endorsers get these and reward brevity + a real engagement with their work.
 - The "AI-directed process / internal-only verification" disclosure matches the paper's own caveat (e). Leading
   with it is the qualified-not-inflated posture; it reads as integrity, not weakness.
 - If the first endorser declines or doesn't reply within ~1–2 weeks, then approach the next candidate. One at a
