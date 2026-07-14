@@ -45,7 +45,7 @@ submit, reclassify, or advance a paper.
 | [`keep-and-grade-loop-cost/`](keep-and-grade-loop-cost/) | Keep And Grade Loop Cost; loop-cost / keep-and-grade packet. | not present; staging-note cleanup debt |
 | [`located-not-forced/`](located-not-forced/) | "Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector." The program's lead result; `.tex` is the arXiv submission source. | [`STAGING-NOTES.md`](located-not-forced/STAGING-NOTES.md) |
 | [`observer-value-selection/`](observer-value-selection/) | Observer Value Selection candidate. | not present; staging-note cleanup debt |
-| [`observer-value-selection-theorem/`](observer-value-selection-theorem/) | Observer Value Selection Theorem; theorem / submission package candidate. | not present; staging-note cleanup debt |
+| [`observer-value-selection-theorem/`](observer-value-selection-theorem/) | Observer Value Selection Theorem; theorem / submission package candidate. | [`STAGING-NOTES.md`](observer-value-selection-theorem/STAGING-NOTES.md) |
 | [`one-residual-complete-picture/`](one-residual-complete-picture/) | One Residual Complete Picture; one-residual synthesis candidate. | not present; staging-note cleanup debt |
 | [`six-axis-testability/`](six-axis-testability/) | "Six-Axis Testability" white paper; a methods / position proposal separate from the mathematical-result papers. Its empirical benchmark is unexecuted. | [`STAGING-NOTES.md`](six-axis-testability/STAGING-NOTES.md) |
 | [`uv-structure-fourth-order-gravity/`](uv-structure-fourth-order-gravity/) | UV Structure Fourth Order Gravity candidate. | not present; staging-note cleanup debt |
