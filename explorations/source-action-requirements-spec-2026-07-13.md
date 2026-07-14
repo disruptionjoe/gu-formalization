@@ -370,3 +370,28 @@ No other row's class or status changes. The acceptance criterion (5.3) was attem
 NOT met: W125's scorecard is (a) PARTIAL, (b) PASS, (c) PASS with zero prediction-grade
 emissions, (d) PARTIAL, (e) PASS -- a symbol-level construction skeleton, per the E1 rule a
 construction, not progress; gated numbers unlocked: NONE.
+
+## Status note (append-only, 2026-07-14, W131)
+
+The covariant operator on Y14 (the single object W125 named as blocking legs (a)-full and
+(d)-full, SA-G9's arena, and FC-VZ-1) was built at the frame/symbol level
+(explorations/W131-covariant-operator-y14-2026-07-14.md;
+`tests/W131_covariant_operator_y14.py`, 12/12, exit 0). Status movements:
+
+- **SA-C4, curved-Y14 clause**: was "rides an argued (cited) reduction, not a bundle
+  computation" (W125 scorecard leg (a)). Now MACHINE-CHECKED at symbol level on curved Y14:
+  [nabla, Pi] = 0 exactly (Gamma is so(9,5)-equivariant on all 91 generators, boosts
+  included, so Pi is parallel for every metric-compatible connection); the pointwise
+  characteristic variety on the actual gimmel geometry (signature (9,5) verified on the
+  Lorentzian locus) is the gimmel null cone; every covariantization-generated zeroth-order
+  insert (curvature, II_s) is subprincipal BY so(9,5) MEMBERSHIP and Pi-commuting. The
+  reopening condition is exact: a non-metric symmetric FIRST-order insert (outside the
+  algebra), which the built candidate does not contain.
+- **SA-U1, tree leg**: nabla K = 0 exactly (Krein parallelism, all 91 generators); the
+  covariant operator including connection terms is Krein-self-adjoint. The renormalized
+  [P,S] = 0 question and the loop-arena items remain open, now blocked ONLY on the analytic
+  layer (propagator/Fredholm theory on non-compact Y14), no longer on the operator itself.
+
+The row classes do not change; SA-G9 does not move; no FIT row moves; gated numbers
+unlocked: NONE (per the E1 rule W131 is a construction). Preconditions inherited and named:
+X4 spin (canon W2-01), gimmel nondegeneracy on the Lorentzian locus (pointwise-verified).
