@@ -348,3 +348,25 @@ theorist, higher-spin/causality specialist, Lakatos/honesty auditor, systems exp
 Reproducible: `python tests/spec-consistency/source_action_requirements_consistency.py`
 (33/33, exit 0). Exploration-grade; promotion, if any, goes through the runbook; no canon
 movement here.*
+
+---
+
+## Status note (append-only, 2026-07-13, W125)
+
+The first build attempt against this spec was run the same day
+(explorations/W125-source-action-first-build-2026-07-13.md). One row's status moves:
+
+- **SA-C4** (subprincipal FC-VZ-4 survival): was "FORCED (unbuilt check), no test exists".
+  A test now exists: `tests/W125_sac4_subprincipal_built.py` (9/9, exit 0). For the BUILT
+  g = 1 ker-Gamma candidate (constant equivariant projector, carrier B) the verdict is
+  **TEST-BUILT-PASSES at principal + subprincipal symbol order** on the flat 14-dim model
+  (characteristic variety exactly the eta(9,5) null cone; zeroth-order II_s inserts provably
+  subprincipal because the constant projector cannot mix symbol degrees; a first-order-insert
+  positive control shows the failure mode is detectable, with a finite causal window). The
+  row stays FORCED; the curved-Y14 clause of acceptance leg (a) remains open; the repo-level
+  VZ verdict (CONDITIONALLY_RESOLVED) is not upgraded.
+
+No other row's class or status changes. The acceptance criterion (5.3) was attempted and is
+NOT met: W125's scorecard is (a) PARTIAL, (b) PASS, (c) PASS with zero prediction-grade
+emissions, (d) PARTIAL, (e) PASS -- a symbol-level construction skeleton, per the E1 rule a
+construction, not progress; gated numbers unlocked: NONE.
