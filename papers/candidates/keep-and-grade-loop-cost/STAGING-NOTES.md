@@ -66,3 +66,27 @@ branches, and the remaining costs are explicitly localized.
 Keep this as a staged candidate until the open loop-positivity frontiers and citation checks are tight enough
 for Joe's chosen publication path. Any submission, upload, DOI/tag/release action, publication move, or
 public-posture change remains Joe-gated.
+
+## July 14 update (W133, append-only)
+
+W133 (`tests/W133_evencut_discriminator_dispersion.py`, 15/15 exit 0;
+`explorations/path2-wave5-evencut-family-discriminator-2026-07-14.md`) sharpens the candidate's central
+trade in three ways relevant to the paper's framing, none of which changes the honest grade:
+
+1. **The dispersion/sum-rule result.** Given the real part both families agree on (W124 O2, reproduced at
+   the even-cut object), real-axis analyticity + Schwarz + the agreed asymptotics force the even-cut
+   absorptive part to +1 (the graded answer), uniquely within the CLOP band; the Lee-Wick evasion is
+   exhibited as genuine off-axis (upper-half-plane) branch discontinuities, i.e. the removal family's
+   microcausality price and its even-cut deficit are the same quantity.
+2. **A symmetric cost ledger.** The Kallen-Lehmann cone deviation pair (analyticity defect, positivity
+   defect) is (0, 1) for grading and (1, 0) for removal, each the full cut at its own locus: the
+   positivity-vs-causality trade of Section 1 is now an exact, quantified partition of the two KL axioms
+   (jointly unsatisfiable for the ghost residue sign; both satisfiable for a normal sign).
+3. **Observability, honestly.** On the fixed-scale branch the two-ghost threshold sits at sub-mm scales
+   (r* ~ 19-32 um) but the family-discriminating imprint is loop-level, ~1e-61 relative (Planck-squared
+   power law at the natural radius): consistency-only; the family choice is empirically a permanent
+   declaration at accessible scales.
+
+If the candidate is revised, the natural insertion is a short subsection under the trade map: "the two
+families partition the Kallen-Lehmann axioms, and dispersion makes the partition sharp." No status or
+claim language above this note was modified.
