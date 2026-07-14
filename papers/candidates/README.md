@@ -30,12 +30,22 @@ check that:
 5. **No overlap with another staged candidate** -- if two drafts share a core, only the hardened carrier
    stages.
 
-Each candidate carries a `STAGING-NOTES.md` recording its scope, honest grade, open items, and the gate pass.
+Each candidate should carry a `STAGING-NOTES.md` recording its scope, honest grade, open items, and the gate
+pass. Missing staging notes in the inventory below are cleanup debt, not an implicit publication decision.
 
 ## Currently staged
 
-- **`located-not-forced/`** -- "Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion
-  Generation Count in a Clifford Rarita-Schwinger Sector." The program's lead result. `.tex` is the arXiv
-  submission source.
-- **`six-axis-testability/`** -- "Six-Axis Testability" white paper. A methods/position proposal (separate
-  track from the mathematical-result papers). Its empirical benchmark is unexecuted; see its STAGING-NOTES.
+This table is inventory only. Folder membership is the status signal; updating this map does not publish,
+submit, reclassify, or advance a paper.
+
+| candidate folder | paper / packet | staging note |
+|---|---|---|
+| [`generation-number-boundary-odd-primary/`](generation-number-boundary-odd-primary/) | Generation Number Boundary Odd Primary; boundary / odd-primary location packet. | not present; staging-note cleanup debt |
+| [`generation-number-located-not-forced/`](generation-number-located-not-forced/) | Generation Number Located Not Forced; class-wide forcing no-go and `{1,3}` reduction. | [`STAGING-NOTES.md`](generation-number-located-not-forced/STAGING-NOTES.md) |
+| [`keep-and-grade-loop-cost/`](keep-and-grade-loop-cost/) | Keep And Grade Loop Cost; loop-cost / keep-and-grade packet. | not present; staging-note cleanup debt |
+| [`located-not-forced/`](located-not-forced/) | "Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector." The program's lead result; `.tex` is the arXiv submission source. | [`STAGING-NOTES.md`](located-not-forced/STAGING-NOTES.md) |
+| [`observer-value-selection/`](observer-value-selection/) | Observer Value Selection candidate. | not present; staging-note cleanup debt |
+| [`observer-value-selection-theorem/`](observer-value-selection-theorem/) | Observer Value Selection Theorem; theorem / submission package candidate. | not present; staging-note cleanup debt |
+| [`one-residual-complete-picture/`](one-residual-complete-picture/) | One Residual Complete Picture; one-residual synthesis candidate. | not present; staging-note cleanup debt |
+| [`six-axis-testability/`](six-axis-testability/) | "Six-Axis Testability" white paper; a methods / position proposal separate from the mathematical-result papers. Its empirical benchmark is unexecuted. | [`STAGING-NOTES.md`](six-axis-testability/STAGING-NOTES.md) |
+| [`uv-structure-fourth-order-gravity/`](uv-structure-fourth-order-gravity/) | UV Structure Fourth Order Gravity candidate. | not present; staging-note cleanup debt |

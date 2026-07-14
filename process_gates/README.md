@@ -91,6 +91,7 @@ selected notes below and in each script header.
 - `mission_a_qft_state_space_extraction_audit.py`
 - `next_steps_frontdoor_guard_audit.py`
 - `pati_salam_readme_inventory_audit.py`
+- `papers_candidates_readme_inventory_audit.py`
 - `papers_readme_lifecycle_map_audit.py`
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
@@ -249,6 +250,15 @@ keeps the empty-published marker aligned with `papers/published/`, uses relative
 resolve from the papers README location, and preserves the Joe-confirmed candidate/published
 boundaries. This is a navigation/process guard only; it does not publish, submit, move paper
 artifacts, validate research claims, or change public posture.
+
+## Papers candidates README inventory gate
+
+`papers_candidates_readme_inventory_audit.py` checks that `papers/candidates/README.md`
+names every live staged-candidate directory exactly once, resolves local candidate and staging-note links
+from the candidate README location, preserves the candidate / not-yet-public / no-publication-action
+boundaries, and explicitly marks candidate folders that still lack `STAGING-NOTES.md` as cleanup debt. This
+is a navigation/process guard only; it does not publish, submit, move paper artifacts, validate research
+claims, or change public posture.
 
 ## Public path hygiene gate
 
