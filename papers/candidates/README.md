@@ -48,4 +48,4 @@ submit, reclassify, or advance a paper.
 | [`observer-value-selection-theorem/`](observer-value-selection-theorem/) | Observer Value Selection Theorem; theorem / submission package candidate. | [`STAGING-NOTES.md`](observer-value-selection-theorem/STAGING-NOTES.md) |
 | [`one-residual-complete-picture/`](one-residual-complete-picture/) | One Residual Complete Picture; one-residual synthesis candidate. | not present; staging-note cleanup debt |
 | [`six-axis-testability/`](six-axis-testability/) | "Six-Axis Testability" white paper; a methods / position proposal separate from the mathematical-result papers. Its empirical benchmark is unexecuted. | [`STAGING-NOTES.md`](six-axis-testability/STAGING-NOTES.md) |
-| [`uv-structure-fourth-order-gravity/`](uv-structure-fourth-order-gravity/) | UV Structure Fourth Order Gravity candidate. | not present; staging-note cleanup debt |
+| [`uv-structure-fourth-order-gravity/`](uv-structure-fourth-order-gravity/) | UV Structure Fourth Order Gravity candidate. | [`STAGING-NOTES.md`](uv-structure-fourth-order-gravity/STAGING-NOTES.md) |
