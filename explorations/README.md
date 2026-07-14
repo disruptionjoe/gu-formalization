@@ -65,6 +65,14 @@ Per-wave artifacts from the council-ranked hypothesis waves (H-numbered items; e
 and [`two-track-persona-sweep-2026-07-11/`](two-track-persona-sweep-2026-07-11/) (the ~60-persona two-track
 restructure synthesis).
 
+Current cross-wave synthesis and execution:
+
+- [`W190 -- Constraint, Reduction, Selection`](W190-constraint-reduction-selection-synthesis-2026-07-14.md)
+  states the joint architecture and pre-registers one projected law/current calculation.
+- [`W191 -- projected I1B plus native-current block`](W191-projected-i1b-source-block-2026-07-14.md)
+  executes that calculation to the available object boundary, deriving one conditional rank-one relation while
+  leaving the physical spectrum and reservoir spectral sign open.
+
 [`wave1`](wave1/), [`wave2`](wave2/), [`wave3`](wave3/), [`wave4`](wave4/), [`wave5`](wave5/),
 [`wave6`](wave6/), [`wave7`](wave7/), [`wave8`](wave8/), [`wave10`](wave10/), [`wave12`](wave12/),
 [`wave13`](wave13/), [`wave14`](wave14/), [`wave15`](wave15/), [`wave16`](wave16/), [`wave17`](wave17/),
