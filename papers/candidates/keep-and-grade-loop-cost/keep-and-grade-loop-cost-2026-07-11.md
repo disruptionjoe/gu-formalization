@@ -240,3 +240,24 @@ above have moved.
   metrics; it sits on the true boundary. Remaining gap: position-dependent local kernels with entire
   non-polynomial fiber symbols (`tests/W121`, 11/11). The all-orders interacting item and the conformal-factor
   item are unchanged.
+
+**Update 2026-07-13 (wave 4, `tests/W124` Stage A and Stage B; appended, prior text unchanged).** The
+removal-side two-loop computation named above as "the single object that would settle the family question" is
+now done at scalar core. The two-loop sunset self-energy with two ghost lines at the mixed threshold
+`s ~ 4m_2^2`, computed under both prescriptions: the graded fixed-order theory gives the unique positive
+two-ghost cut (`+Im S`, Krein weight `(-1)^2 = +1`, verified regulator-order independent), while the Lee-Wick
+pair gives zero in its proper limit order, and the CLOP order-of-limits ambiguity spans
+`{-1/2, 0, +1/2, +1}` times the graded cut depending on the deformation family: the ambiguity width equals
+exactly the graded cut, its endpoints (`0` and `+1`) are the two families' own answers, and the intermediate
+values are realizable by no Krein-signed state space (integer-multiplicity arithmetic). The genuinely
+overlapping (kite) topology with one ghost line has no real mixed pinch at all (the CLOP locus needs two or
+more ghost lines in one cut); there the prescriptions agree on ghost-free cuts as the width goes to zero and
+differ by the odd-ghost leak, and the heavy-ghost anomalous-threshold (leading Landau) hunt comes back empty:
+the graded prescription develops no two-loop ambiguity of its own. The disjoint-loci statement of the wave-3
+update is sharpened: the even mixed locus is a locus of genuine inter-family disagreement (full cut vs zero),
+not merely of removal-side ambiguity, and the CLOP ambiguity is reinterpreted as the removal contour failing
+to decide between the two families' answers rather than an independent third pathology. Remaining open on
+this item: the spin-2 tensor numerators (left OPEN as Stage C) and the finite-width Lee-Wick boundary value
+by full Euclidean continuation; inside the `O(1)` resonance window the dressed graded ghost is itself a
+physical-sheet complex pair (model-verified), so the window guard of the wave-3 update stands unchanged
+(`tests/W124_stageA`, 16/16; `tests/W124_stageB`, 11/11).
