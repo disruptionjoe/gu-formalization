@@ -26,6 +26,21 @@ scripts:
 
 # W152 -- fine marble and cheap wood: does the source-action / record structure FIX the field equations?
 
+> **FRAMING CORRECTION (appended 2026-07-14, W153; original text below UNCHANGED).** Per Joe's
+> GU-native reading, the cheap wood is the METRIC `g_munu` (imposed by hand; the space of all metrics
+> is the transcript's "lousy foundation" GU exists to leave) and `Lambda` -- NOT `T_munu`. Under the
+> substrate inversion the RECORDS ARE THE MATTER (held in Y14), so `T_munu` is KEPT (fundamental
+> content), and `G` is KEPT (coupling). W152's scorecard below grades the field-equation TERMS as
+> Weinstein's talk does literally (Einstein tensor = marble; `Lambda g` and `T_munu` = wood); that is
+> faithful at the term level but INVERTS fundamentality relative to the GU-substrate reading. The
+> corrected three-term scorecard, the marble-relocation (the Einstein tensor is the derived curvature
+> of the record-derived metric, its divergence-freedom kept as a property), and the coherence-first
+> tachyon-as-cheap-wood test live in
+> `explorations/W153-marble-corrected-and-tachyon-cheapwood-test-2026-07-14.md`. In particular W152
+> Section 6's "`T_munu` -- REPLACE-INTENDED / NOT-YET / essentially untouched" row is CORRECTED there:
+> under the inversion `T_munu` is KEPT, and "the records are the matter" is the substrate's core
+> identification, not a defect to be replaced.
+
 ## 0. The question, and the transcript's precise claim (ground everything here)
 
 Joe's question: Einstein's field equations are "fine marble and cheap wood" (Weinstein, UCSD
