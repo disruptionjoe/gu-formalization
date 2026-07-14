@@ -151,16 +151,41 @@ ITEMS = {
     #   proof or kill; a structural result. The loop-positivity question is now reframed INTO the observer
     #   conjecture (the Krein grading = the admissibility firewall) -> H61/H63. Dropped as a standalone.
     # --- OBSERVER-CONJECTURE HYPOTHESES (path 5 + the "source action = observer" conjecture, 2026-07-11) ---
-    "H61": "THE KREIN TOMITA-TAKESAKI CAMPAIGN (the observer conjecture's CRITICAL PATH): develop -- or survey the literature to decide blocked-vs-underdeveloped -- modular theory with a NON-POSITIVE separating functional on a type-III Krein/indefinite-metric region algebra, and establish whether the C-operator's antilinear partner J_K = C.PT is a genuine Krein modular conjugation (J^2=1, J A J = A', modular covariance) and whether the indefinite region algebra is type III_1. Path-5 Branch A: the modular-FLOW half of T-T survives a Krein space (Gottschalk 2002) but the conjugation/positivity/KMS half does not (no positive vacuum). Genuinely missing mathematics; a real math contribution INDEPENDENT of GU, and the single leg the whole conjecture (payoff theorem H63 + the Connes map) rests on. [wild/heterodox]",
-    "H62": "FIRM THE ARENA/VALUE PARTITION (the CHEAP GATE that governs the whole conjecture): make ARENA (forced dimensionless ratio / direction-up-to-scale / operator identity / UV-limit / discrete arena) vs VALUE (dimensionful scale / discrete selection) a PRECISE, NON-CIRCULAR partition. Path-5 Branch E flagged the split is partly SELF-SEALING -- it can reclassify any forced quantity as 'arena' -- so in-principle-unforceability is corroborated but partly definitional, and the payoff theorem risks being true-BY-DEFINITION. Cheap, and it GATES the expensive Krein-TT campaign (H61): if arena/value cannot be made non-circular, proving the no-closure theorem proves nothing. Highest leverage per unit cost. [philosopher/orthodox]",
-    "H63": "ASSEMBLE THE OBSERVER-CONJECTURE PAYOFF THEOREM (the Lawvere no-closure, within reach modulo H61 + the map): path-5 Branch D PROVED the categorical skeleton (a fixpoint-free endomorphism obstructs self-referential closure) and showed the physics mapping is GENUINE (firewall grading-flip = the swap; self-reference = the diagonal). Reduces to two lemmas: L1 (the {F_tau}<->Sect map is a point-surjection -- Branch B showed it IS the Connes Radon-Nikodym cocycle bijection at the selection level, dissolving the falsified rate reading) and L2 (the grading-flip is fixpoint-free -- needs H61's J^2=1). Prove everything provable now; state the clean reduction. Turns 'value unforceable in principle' from posture to theorem. Gated on H61 (L2), firmed by H62 (else true-by-definition). [heterodox]",
-    "H64": "THE MASS HIERARCHY AS THE OBSERVER'S SELECTION (the C2 wall = the reframed Yukawa question, subsumes H28): path-5 Branch C2 REVIVED the count leg ({1,3} + replicas FORCED by the 1+2 enclosure structure) but WALLED at the masses -- Schur forces the collective doublet mass-DEGENERATE (m_2=m_3), contradicted by the observed hierarchy; masses need family-symmetry BREAKING the enclosure structure does not supply. The conjecture reads this as: the masses are the VALUE the observer SELECTS by breaking the family symmetry. QUESTION: does the observer/source-action structure PREDICT the symmetry-breaking pattern (the hierarchy / mixings), or is it genuinely free (as arena/value predicts)? The sharpest experimental-contact question and the concrete test of whether the observer selects a PATTERN or an arbitrary value. [commercial/wild]",
+    # RETIRED 2026-07-14 full-landscape re-rank (see landscape-assessment-post-three-waves-2026-07-14.md): "H61": "THE KREIN TOMITA-TAKESAKI CAMPAIGN (the observer conjecture's CRITICAL PATH): develop -- or survey the literatur ... [superseded/resolved entry, kept for provenance]
+    # RETIRED 2026-07-14 full-landscape re-rank (see landscape-assessment-post-three-waves-2026-07-14.md): "H62": "FIRM THE ARENA/VALUE PARTITION (the CHEAP GATE that governs the whole conjecture): make ARENA (forced dimensionl ... [superseded/resolved entry, kept for provenance]
+    # RETIRED 2026-07-14 full-landscape re-rank (see landscape-assessment-post-three-waves-2026-07-14.md): "H63": "ASSEMBLE THE OBSERVER-CONJECTURE PAYOFF THEOREM (the Lawvere no-closure, within reach modulo H61 + the map): pat ... [superseded/resolved entry, kept for provenance]
+    # RETIRED 2026-07-14 full-landscape re-rank (see landscape-assessment-post-three-waves-2026-07-14.md): "H64": "THE MASS HIERARCHY AS THE OBSERVER'S SELECTION (the C2 wall = the reframed Yukawa question, subsumes H28): path- ... [superseded/resolved entry, kept for provenance]
     # H55 RESOLVED (Wave 36) = NO-CONSTRAINT. Krein-modified positivity is toothless on the gravity beta/alpha
     #   ratio (the ghost pole makes the spectral measure SIGNED -> forward c2 sign-indefinite; non-compact
     #   Sp(32,32;H) has no positive-definite invariant to restore the bound). The shape residual stays a small
     #   FAMILY (-1/4, 0], decided by SURVIVAL (H49) + structure (theta=II), not analyticity. Positivity dropped
     #   as a shape-collapse lever.
-    "H30": "Elevate the gravity conditional theorem to REFEREE grade: state the soldering as a clean axiom, prove tree-level clearance rigorously from it. Turns an assembled argument into a stated theorem. [heterodox]",
+    # --- FULL-LANDSCAPE GENERATIVE RE-RANK after the 2026-07-13 three waves (W119-W126, H46C, H52, Yukawa,
+    # spec; consolidated by W127, commit 61937e6). Writeup + full inventory/impact table:
+    # explorations/landscape-assessment-post-three-waves-2026-07-14.md. Evidence: (a) native tree-unliftable
+    # AF-branch tachyonic scalaron; (b) DE excluded as CMB-calibrated distance model (theta_star, dAIC +35.78);
+    # (c) H41 compressed onto the Y14 covariant operator, SA-C4 passing; (d) two-loop graded cleanliness with
+    # the even-cut inter-family disagreement (+1 vs 0) and the odd-cut leak as the price; (e) Yukawa no-gos +
+    # FN-sterility; (f) mu_DW floor cited (H52). DROPPED this pass:
+    #   H52 RESOLVED (wave 32): alpha=1/3 boundary CITED (lambda_max 47.6 um, Lee 2020); H36 window
+    #     EXCLUDED-CITED margin 1.9-9.8x; resolved mu_DW floor [3.4,4.7] meV. Banked.
+    #   H61 MOOTED (physical leg): the type-III wall (W84) stands AND W122's positive-norm verdict moved the
+    #     decisive physical question to the AF-vs-AS branch fork (-> H65). Abstract content lives on in H63.
+    #   H62 RESOLVED (W73): arena/value partition FIRMED non-circular (symmetry characterization); folded into
+    #     H63 as a lemma.
+    #   H30 ABSORBED: the W127 flagship consolidation carries the gravity conditional theorem at referee grade.
+    "H63": "ABSTRACT LAWVERE NO-CLOSURE PAYOFF THEOREM in symmetry-breaking language (needs only the fixpoint-free label-involution J^2=1, NOT type-III modular theory -- survives the W84 wall): 'no closure without a residual symmetry-breaking selection = observer vacuum choice'. H62's firmed non-circular arena/value partition is the lemma. The GU-independent credibility result of the observer conjecture. [heterodox/philosopher]",
+    "H64": "THE MASS HIERARCHY AS THE OBSERVER'S SELECTION, post-Yukawa-no-gos: the channel table is rigid, non-form carriers forbidden, mod-3 Froggatt-Nielsen provably STERILE (all 27 assignments), hierarchy SILENT -- so any breaking mechanism must be non-FN and non-form-carrier. Sharper question, smaller toolset. [commercial/wild]",
+    "A15": "THREAD-A NATIVE CONSTANT-BACKGROUND COEFFICIENT CHAIN (A3-A14): push through the A14 shear gate (pure trace normalization cannot cancel the A13 shear) to supply the SA-G background coefficient rows source-first; the native-computation pattern's standing home in the gravity sector, feeding OQ2-A. [orthodox]",
+    "TAFB": "TRI-REPO BOUNDARY-CONTENT LEG: what the boundary must supply, in exact mathematics (GU's leg of the ratified division of labor; TaF owns the capability measure, temporal-issuance the source question). Untouched by the waves; identity claims stay gated. [wild/philosopher]",
+    "H65": "COMPUTE THE AS/REUTER-BRANCH SCALARON NATIVELY (the tachyon's last perturbative escape; the referee's strongest vulnerability -- the tachyon chain rests on ported pure-gravity loop blocks with the AS branch UNCOMPUTED; also the sole hinge of W83's conditional observer-leg close): GU's ker-Gamma content in an f(R)+Weyl^2 FRG truncation at the Reuter FP, native heat-kernel blocks, scalaron mass sign out. Either answer is a result: escape closes (global negative at full strength) or GU acquires its one viable branch. [heterodox #1]",
+    "H66": "GU-NATIVE GRAVITON ONE-LOOP BLOCK: replace the last big ported ingredient (agravity/pure-gravity one-loop beta blocks under the tachyon chain) with a native computation on GU's own field content and gimmel conventions; discharges the W126 16/3 and c_L background-vs-TT normalization flags. The exact move that produced both blockbuster negatives. [orthodox/heterodox/wild]",
+    "H67": "OQ2 M^2-BAND SWEEP OF THE H46C DE EXCLUSION (+ ansatz variants): the exclusion is exploration-grade at M^2=8 only, BAO+theta_star only -- the cheapest computation that can flip or harden a headline claim, retiring the single-pipeline/OQ2-gated vulnerability either way. [orthodox #1, commercial #1]",
+    "H68": "BUILD THE Y14 COVARIANT OPERATOR, TIME-BOXED, BUILD-OR-PROVE-UNBUILDABLE (W125's single blocking object: the covariant propagator and vertex on the Met(X4) bundle -- blocks the full source-action build, the H59 loop packet, and SA-G9 alike). Run under the E1 discipline: deliverable is the operator or an unbuildability obstruction, NOT a further reduction (the one-object pattern just recurred here). [wild #1]",
+    "H69": "GRADED OPTICAL THEOREM ON THE PHYSICAL SUBSPACE: formulate the optical theorem restricted to the positive (physical) subspace of the graded theory and test whether the odd-ghost-cut leak at s>(2m+M)^2 violates it -- the precise form of the open loop-positivity price (H59's sharpest register), and frontier PT/Krein mathematics independent of GU. [wild/heterodox]",
+    "H70": "W124 STAGE C: SPIN-2 TENSOR NUMERATORS for the two-loop overlap/kite cuts (the leak and even-cut verdicts are scalar-core only). Bounded, standard, verdict-bearing. [orthodox]",
+    "H71": "THE EVEN-CUT INTER-FAMILY DISAGREEMENT (+1 vs 0) AS A DISCRIMINATOR between the grading and removal families: which family's answer is compatible with fixed-order causality/unitarity trades -- the loop program's first internally generated discriminator candidate (a progressive step, not a consistency pass). [philosopher/commercial]",
+    "H72": "RESIDUAL-ARITY AUDIT (the title strain as a research question): is the residual still ONE object? Formalize the residual as (field-space declaration, coefficients, branch choice) and determine whether AF-vs-AS is a derivable consequence of the declared action, a 28th spec row, or an independent second residual. Structural result either way; the honest response to the E1 recurrence at Y14. [philosopher #1]",
     # STANDING RULE (Joe, 2026-07-11): the GU council proposes RESEARCH ADVANCEMENT of this repo only.
     # Do NOT suggest external-review / submission-prep / methodology-paper / "shipping" items (Joe is aware of
     # those; they are not the advancement of the research). H31 (flagship review-ready) and H32 (methodology
@@ -254,7 +279,7 @@ ITEMS = {
     #   predictions (H36 emitted a real self-falsifying number -> not vacuous). GU's FALSIFIABILITY rests on
     #   H41 (the source action forcing mu_DW) -> H41 is the FALSIFIABILITY keystone, quintuply motivated. Verb
     #   stays ACCOMMODATES.
-    "H52": "DIGITIZE THE alpha=1/3 SHORT-RANGE-GRAVITY EXCLUSION CURVE (firm the H36 falsification, cheap): H51 put GU-under-H36's predicted Yukawa at lambda=[60.0,73.6] um, EXCLUDED by the alpha=1/3 boundary ~45-52 um -- but that boundary is ARGUED from the monotone Lee-2020/Tan-2020/Kapner curve, NOT digitized. Digitize the published alpha-vs-lambda 95% CL curves to get the CITED alpha=1/3 reach at 60-74 um: if the boundary is < 60 um -> EXCLUDED-CITED (GU-under-H36 cleanly self-falsified, book it); if > 60 um -> the m2_eff=5/4 corner is BORDERLINE and the O(1) background-vs-TT c_L normalization matters. The only remaining input converting EXCLUDED-argued to a cited result. Cheap literature/data task, decisive for the conditional-falsification claim. [orthodox/commercial]",
+    # RETIRED 2026-07-14 full-landscape re-rank (see landscape-assessment-post-three-waves-2026-07-14.md): "H52": "DIGITIZE THE alpha=1/3 SHORT-RANGE-GRAVITY EXCLUSION CURVE (firm the H36 falsification, cheap): H51 put GU-under ... [superseded/resolved entry, kept for provenance]
     # TWO-TRACK RESTRUCTURE (full-roster persona sweep, 2026-07-11, explorations/two-track-persona-sweep-*/):
     # Joe's frame: keep the NORTH STAR (force-or-falsify GU + the observer-geometry class) as the repo posture;
     # run the conditional-build as ONE branch. ~60 personas across 5 families converged. The load-bearing
@@ -298,12 +323,19 @@ ITEMS = {
 # H62 is the cheap GATE that governs whether the expensive Krein-TT campaign (H61) and the payoff theorem (H63)
 # are even worth mounting (a theorem true-by-definition is not the headline) -> H62 leads for orthodox/philosopher,
 # with heterodox leading H63 (the prize), wild leading H61 (the real math), commercial leading H64 (data contact).
+# FULL-LANDSCAPE RE-RANK ballots (2026-07-14, post-three-waves; see landscape-assessment writeup for the five
+# reflections these ballots encode). Twelve items: survivors H63/H64/A15/TAFB + drafted H65-H72. Expected and
+# realized: H65 is the Condorcet winner (the native AS/Reuter-branch scalaron -- the tachyon's last perturbative
+# escape and the referee's strongest vulnerability, one computation); H67 (OQ2 band sweep, cheap and decisive)
+# and H66 (native graviton loop block) follow. Low-tier survivors below the ballot cutoff (family-puzzle
+# follow-ons, causal-set axis, anomaly global leg, shiab selector, gauge-vacuum selection) are carried in the
+# writeup, not voted -- each is dormant or collapses into H68.
 BALLOTS = {
-    "orthodox":            ["H62", "H63", "H64", "H61", "H52", "H30"],
-    "heterodox_rigorous":  ["H63", "H62", "H61", "H64", "H30", "H52"],
-    "commercial":          ["H64", "H62", "H63", "H52", "H61", "H30"],
-    "philosopher":         ["H62", "H63", "H61", "H64", "H30", "H52"],
-    "wild_frontier":       ["H61", "H63", "H62", "H64", "H52", "H30"],
+    "orthodox":            ["H67", "H70", "H66", "H65", "H69", "A15", "H68", "H71", "H72", "H63", "H64", "TAFB"],
+    "heterodox_rigorous":  ["H65", "H66", "H68", "H67", "H69", "H70", "H71", "H72", "A15", "H63", "H64", "TAFB"],
+    "commercial":          ["H67", "H65", "H64", "H71", "H66", "H70", "H68", "A15", "H72", "H69", "TAFB", "H63"],
+    "philosopher":         ["H72", "H71", "H65", "H67", "H63", "H69", "H66", "H68", "H64", "A15", "TAFB", "H70"],
+    "wild_frontier":       ["H68", "H66", "H69", "H65", "H63", "H71", "H70", "H72", "A15", "H64", "TAFB", "H67"],
 }
 
 
