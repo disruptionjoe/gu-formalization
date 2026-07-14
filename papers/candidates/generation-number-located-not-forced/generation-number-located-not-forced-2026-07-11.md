@@ -1,9 +1,11 @@
 # The Generation Number is Located, Not Forced: A Class-Wide No-Go and the SU(2)+ Reduction
 
-**Draft, 2026-07-11. GU-INDEPENDENT: the results below are about the generation-counting problem in any framework
-that selects the count by a topological/representation-theoretic invariant; Geometric Unity appears only as the
-source of one named (unclosed) escape route. External publication is Joe-gated (no arXiv, no submission in scope
-here). Every quantitative claim ties to a reproducible test in `tests/` (W55-W60, all exit 0).**
+**Draft, 2026-07-11; revised 2026-07-13 (prior-art fixes from `review/prior-art-sweep-2026-07-13.md` folded in;
+claim-to-test verification map added, see `VERIFICATION.md` in this folder). GU-INDEPENDENT: the results below are
+about the generation-counting problem in any framework that selects the count by a
+topological/representation-theoretic invariant; Geometric Unity appears only as the source of one named (unclosed)
+escape route. External publication is Joe-gated (no arXiv, no submission in scope here). Every quantitative claim
+ties to a reproducible test in `tests/` (W55-W60, all exit 0; re-run 2026-07-13, all exit 0).**
 
 ## Abstract
 
@@ -27,8 +29,13 @@ into a theorem, and pinpoints the exact new input any derivation of 3 must add.
 The number of fermion generations, three, is among the sharpest unexplained facts in particle physics. A body of
 work has *located* the count without *deriving* it: it is odd-primary / 3-primary rather than an integer index
 (the relevant homotopy is `Z/3 subset pi_3^s = Z/24`), and it is a boundary / anomaly-inflow quantity
-(Nielsen-Ninomiya; Callan-Harvey; Kaplan; the cobordism analyses of Garcia-Etxebarria-Montero and
-Wan-Wang-Yau). What has been missing is a precise statement of whether "located, not forced" is a limitation of
+(Nielsen-Ninomiya; Callan-Harvey; Kaplan; the cobordism analyses of Garcia-Etxebarria-Montero, arXiv:1808.00009,
+and Wan-Wang, arXiv:1910.14668; the 2026 conditional-uniqueness result of Wan-Wang-Yau, arXiv:2605.26202). A
+separate literature *does* force the count, but always from added structure: `N_gen = |chi|/2` once a Calabi-Yau
+compactification is chosen (Candelas-Horowitz-Strominger-Witten 1985), `N_gen = 3` from 6d anomaly cancellation
+given two universal extra dimensions (Dobrescu-Poppitz, hep-ph/0102010), from 331-type gauge extensions, or from
+gauging baryon triality (Garcia-Etxebarria-Montero's `Z/9` result). What has been missing is a precise statement
+of whether "located, not forced" is a limitation of
 particular tools or a theorem, and of exactly what extra input would force the value.
 
 We answer both. The question decomposes into three decidable sub-questions:
@@ -53,7 +60,7 @@ frame group `SO(4) = SU(2)_+ x SU(2)_-` (`Spin(4) = SU(2) x SU(2)`). Second, the
 **The five constructions** (each a rival answer to "what is the count"):
 - **A -- Atiyah-Singer index / Dirac** (net chirality as an integer index).
 - **B -- anomaly inflow** (a boundary-localized invariant, Callan-Harvey / Kaplan).
-- **C -- K-theory / cobordism** (a torsion bordism class, Garcia-Etxebarria-Montero / Wan-Wang-Yau).
+- **C -- K-theory / cobordism** (a torsion bordism class, Garcia-Etxebarria-Montero / Wan-Wang).
 - **D -- 3-primary homotopy torsion** (a torsion class in `pi_3^s`, acting on `Lambda^2_+`).
 - **E -- adversarial no-go** (an obstruction to forcing).
 
@@ -77,7 +84,13 @@ The four constructive branches, blind to one another, converge on the same obstr
 - **Cobordism (C):** the group is `Omega^Spin_5(BG)`, framing channel `pi_3^s = Z/24`, 3-primary summand `Z/3`.
   The structure forces the modulus 3 (the arena is `Z/3`, `3 = |Z/3| = dim Lambda^2_+`) but not the value 3; the
   anomaly is a homomorphism, hence constrains only mod an order, and the Standard-Model per-generation Dai-Freed
-  anomaly vanishes (generation-blind). No-go via `Aut(Z/3) = Z/2`, `Hom(Z/3, Z) = 0`, and linearity.
+  anomaly vanishes. That generation-blindness is a known computation, not a finding of this branch: it follows
+  from the bordism groups of Davighi-Gripaios-Lohitsiri (arXiv:1910.11277, for arbitrary fermion content across
+  all four SM gauge-group quotients) and from Garcia-Etxebarria-Montero and Wan-Wang; we use only its 3-primary
+  corollary `Omega^Spin_5(BG_SM) (x) Z_(3) = 0`. Scope: this holds for `G_SM` with plain spin structure. In the
+  `Spin x_{Z2} Z4` refinement the `Z/16` anomaly DOES count fermions mod 16 (generation-sensitive), but it is
+  2-primary, coprime to the 3-primary arena where the count lives, which sharpens rather than weakens the point.
+  No-go via `Aut(Z/3) = Z/2`, `Hom(Z/3, Z) = 0`, and linearity.
 - **Homotopy torsion (D), the reachable construction:** the order-3 element acts on `Lambda^2_+ = R^3` as an
   element of `SO(3) = SU(2)_+`, splitting `R^3 = ` (fixed axis, dim 1) `(+)` (rotated pair, dim 2). The realized
   rank is odd, hence in `{1, 3}`. So the torsion bounds (ceiling 3) but does not force: the rank-1 fixed axis is
@@ -102,6 +115,14 @@ The no-go is not "nothing is forced." The constructive branches force a sharp, n
 So **the number of generations is forced to be 1 or 3, and 3-primary.** Counts of 2, 4, 5, ... are excluded by
 the self-dual 2-form structure of the 4-base. This answers "why not 2, why not 4, why 3-primary" while leaving
 exactly one thing open: 3 versus the sterile 1.
+
+Two scope notes on this bound. First, the oddness premise (a net chirality is an odd datum) is imported from a
+prior leg of this program, not re-derived here; without it the invariant ranks are `{0, 1, 2, 3}` and the forced
+content is the 3-primary/ceiling statement alone. Second, the closest published result, Wang (arXiv:2312.14928),
+derives `N_f in 3Z` in exactly this arena (`pi_3^s = Z/24`, the 3-Sylow), which EXCLUDES `N_f = 1`. There is no
+contradiction: Wang's conclusion requires his postulates (topological robustness of the 16-Weyl family and the
+`c_- = 0 mod 24` modular-invariance condition), which are precisely non-first-principles extra input by the
+standard of this paper. Our `{1, 3}` admits the sterile 1 because we do not assume them.
 
 ## 5. Result 3: the SU(2)+ reduction (the escape hatch, closed as a first-principles route)
 
@@ -129,10 +150,11 @@ an external `SU(2)_+` singlet); it does not forbid it. Hence:
 frame adjoint -- an identification of spin with flavor that first principles do not supply.**
 
 One named, unclosed route remains, and we flag it honestly rather than lean on it: a graded/"guardian" structure
-in which the supercharge closes on the spin connection (`{Q, Q} ~ Omega^1(ad)`) could make the family bundle
-frame-covariant and adjoint-valued natively, closing C1 and forcing 3. In Geometric Unity such a structure was
-examined and found *not* to be a spacetime symmetry, so this route is a long shot; in any framework it is the
-precise extra input a derivation of 3 must supply.
+(in Geometric Unity, the "super-IG" sector) in which the supercharge closes on the spin connection
+(`{Q, Q} ~ Omega^1(ad)`) could make the family bundle frame-covariant and adjoint-valued natively, closing C1
+and forcing 3. This route is named, not closed: in Geometric Unity such a structure was examined and found *not*
+to be a spacetime symmetry, so it is a long shot (`tests/W60` records it as unestablished, an explicit assert),
+and in any framework it is the precise extra input a derivation of 3 must supply.
 
 ## 6. Synthesis and honest scope
 
@@ -153,16 +175,52 @@ What this is, and is not:
 
 ## 7. Relation to prior work
 
-- **Location of the count in the 3-primary summand:** Garcia-Etxebarria-Montero (arXiv:1808.00009);
-  Wan-Wang-Yau. Delta: we prove the location is a *no-go for forcing*, not merely a locating statement, and we
-  add the `{1, 3}` bound and the `SU(2)_+` reduction.
+- **Location of the count in the 3-primary / mod-3 arena.** Garcia-Etxebarria-Montero (arXiv:1808.00009) show
+  that gauging baryon triality (a discrete `Z/3` beyond `G_SM`, with `Omega^Spin_5(BZ_3) = Z/9`) yields a `Z/9`
+  Dai-Freed anomaly cancelling only for generation numbers divisible by 3. Wang (arXiv:2312.14928) derives
+  `N_f in 3Z` from framed/string-bordism (`Z_24`) and `c_- = 0 mod 24` modular-invariance constraints.
+  Wan-Wang-Yau (arXiv:2605.26202) single out `N_c = N_f = 3` as the unique solution given odd colour number, a
+  `Z_{N_c}` colour symmetry extension, and TQFT replacement of missing sterile neutrinos. Each forces the count
+  only given a further condition (a gauged discrete symmetry; topological robustness of the 16-Weyl family; the
+  extension ansatz): instances, in our language, of extra input closing the residual freedom. In particular our
+  `{1, 3}` bound admits the sterile `N_f = 1` solution precisely because we do not assume them. Delta: we prove
+  the location is a *no-go for forcing*, not merely a locating statement, and we add the `{1, 3}` bound and the
+  `SU(2)_+` reduction.
+- **Generation-blindness of the SM anomaly (known, used, not claimed).** Freedom of the four SM gauge-group
+  quotients from global anomalies for arbitrary fermion content, hence for any generation number, was
+  established by Davighi-Gripaios-Lohitsiri (arXiv:1910.11277) via `Omega^Spin_5(B(G_SM/Gamma_n))`, and by
+  Garcia-Etxebarria-Montero and Wan-Wang (arXiv:1910.14668) in the Dai-Freed / cobordism setting; we use only
+  the 3-primary corollary `Omega^Spin_5(BG_SM) (x) Z_(3) = 0`. In the `Spin x_{Z2} Z4` refinement the `Z/16`
+  anomaly does count fermions mod 16 (arXiv:1808.00009; Wang-Wen, arXiv:1809.11171): a generation-sensitive but
+  2-primary constraint, coprime to the 3-primary arena where the count lives.
+- **Topology DOES force the count once compactification data is chosen.** `N_gen = |chi|/2` for Calabi-Yau
+  compactifications (Candelas-Horowitz-Strominger-Witten, Nucl. Phys. B258 (1985) 46) and Kaluza-Klein index
+  counting (Witten 1983). Our no-go is the statement that the choice of internal manifold and bundle is itself
+  the non-canonical extra input: no such selector is supplied by first principles. Likewise 6d anomaly
+  cancellation (Dobrescu-Poppitz, hep-ph/0102010; bordism refinement Davighi-Lohitsiri, arXiv:2012.11693) and
+  331-type gauge extensions (Pisano-Pleitez; Frampton) force 3 at the cost of assuming the enlarged arena.
+- **Frame-chirality-as-internal-quantum-number has been proposed, not derived.** Graviweak / graviGUT
+  unification identifies the self-dual `SU(2)` with weak isospin and obtains one family from `SO(3,11)`
+  (Nesti-Percacci, arXiv:0706.3307, arXiv:0909.4537; cf. Woit, arXiv:2104.05099, where the generation number is
+  explicitly left unexplained), and spinorial family unification posits families inside enlarged spin
+  representations (BenTov-Zee, arXiv:1505.04312; arXiv:1706.03116; Mankoc-Borstnik). Our Result 3 explains the
+  pattern: forcing 3 is equivalent to such an identification, which is why these constructions must insert it as
+  a premise. A precedent for a rigorous no-go about generation embedding is Distler-Garibaldi (arXiv:0905.2658)
+  for `E8`.
+- **Algebraic derivations of 3** from 3x3 octonionic / triality structure (Dubois-Violette, arXiv:1604.01247;
+  Todorov-Dubois-Violette; Boyle, arXiv:2006.16265; Furey-Hughes, arXiv:2409.17948) select the count from a
+  chosen algebra rather than from `Lambda^2_+`; the algebra choice is again extra input in our sense.
 - **The odd-primary / Hom-obstruction ("family-puzzle") result:** the prior in-repo theorem that a selector
-  forcing a 3-primary count needs nonzero 3-Sylow image. Delta: this paper closes the gap that result explicitly
-  left open ("does not derive the integer 3") by turning it into a positive residual-freedom no-go.
-- **Anomaly inflow / no net chirality without a boundary:** Nielsen-Ninomiya; Callan-Harvey; Kaplan. Delta: we
-  show inflow quantizes but does not force, and that its forced content is 2-primary.
-- **Cobordism classification of anomalies:** Freed-Hopkins. Delta: we use it to prove the anomaly is a
-  homomorphism and hence generation-blind for the Standard Model.
+  forcing a 3-primary count needs nonzero 3-Sylow image (`Hom(Z/3, Z) = 0`; `Hom(Z/3, Z/2^k) = 0`; Toda / Adams
+  / von Staudt-Clausen inputs). Delta: that theorem is Leg 1 of the present no-go (the unreachable
+  constructions); this paper adds Leg 2 (the residual `{1, 3}` freedom in the REACHABLE torsion constructions),
+  the class-wide synthesis, and the `SU(2)_+` reduction, closing the gap the family-puzzle result explicitly
+  left open ("does not derive the integer 3").
+- **Anomaly inflow / no net chirality without a boundary:** Nielsen-Ninomiya (Nucl. Phys. B185 (1981) 20);
+  Callan-Harvey (Nucl. Phys. B250 (1985) 427); Kaplan (Phys. Lett. B288 (1992) 342). Delta: we show inflow
+  quantizes but does not force, and that its forced content is 2-primary.
+- **Cobordism classification of anomalies:** Freed-Hopkins (arXiv:1604.06527). Delta: we use it to prove the
+  anomaly is a homomorphism, hence constrains the count only mod an order.
 
 ## 8. Status / open gaps
 
