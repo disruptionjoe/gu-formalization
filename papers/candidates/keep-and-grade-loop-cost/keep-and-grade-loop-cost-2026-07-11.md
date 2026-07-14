@@ -288,3 +288,31 @@ all vertices and needs none), the lift of the CLOP-band arithmetic to tensor num
 pairing of the conjugate-pair line numerators; not recomputed as a loop integral), and the finite-width
 Lee-Wick boundary value by Euclidean continuation from the wave-4 update; the resonance-window guard stands
 unchanged (`tests/W134`, 14/14).
+
+**Update 2026-07-14 (W132, `tests/W132`; appended, prior text unchanged).** The physical-subspace
+optical-theorem question, named by the wave-4 update as the frontier blocker, is now formalized and
+answered at toy level. Exact statement: for any pseudo-unitary S-matrix (`S^dag eta S = eta`,
+`eta = P_+ - P_-`), the physical-subspace block `A = P_+ S P_+` obeys `A^dag A = P_+ + B^dag B` with
+`B = P_- S P_+`, so the restriction of S to the positive (physical) subspace is an EXPANSION:
+physical-channel probabilities from a physical in-state sum to `1 + sum_odd |S_fi|^2 >= 1`, with
+equality only if the odd-ghost sector decouples. Since the odd-cut amplitudes are computed nonzero
+(the one-loop leak, the sunset, the kite, and at tensor level per the wave-5 update), physical-subspace
+unitarity on the free grading is VIOLATED, in the excess direction: probability is pumped into the
+observable channels, which also refutes the decay-width reading of the leak (dissipation contracts;
+this anti-damps). In the split-propagator toy the elastic partial-wave bound `|S_J| <= 1` holds on
+`m_2^2 < s < 2 m_2^2` and fails for every `s > 2 m_2^2` (the doubled mixed cut overtakes the
+graviton-graviton cut at exactly `s = 2 m_2^2`; the propagator-product combinatorics doubles the mixed
+channel relative to the branch-A single-counting table), maximally at the two-ghost threshold
+`s = 4 m_2^2` with deficit one quarter of the graviton-graviton cut, tail `-m_2^4/s^2`; the
+ghost-free-sector multichannel deficit is negative for all `s > m_2^2` with limit one half of the
+graviton-graviton cut, so the violation is not confined to the resonance window. The one surviving
+unitarity sense is C-metric unitarity on the full Krein space (`S^dag eta_+ S = eta_+`,
+`eta_+ = eta C > 0`), demonstrated in an exact finite-dimensional construction to coexist with the
+naive-subspace violation on the same S-matrix; in field theory that sense is conditional on the
+interacting C-operator (Result-3 territory) and priced non-local by the no-local-positive-metric
+theorem. Net effect on the cost map: the grading branch's positivity cost and the C-operator's
+non-locality cost are now ONE item, not two; there is no physical-subspace optical theorem for
+keep-and-grade independent of the C-operator program. The open items list changes accordingly: the
+physical-subspace optical-theorem sign closes (violated on the free grading, exact plus toy, with the
+crossover value `2 m_2^2` toy-grade), and the all-orders interacting metric item absorbs its weight as
+the sole remaining unitarity resource (`tests/W132`, 18/18).
