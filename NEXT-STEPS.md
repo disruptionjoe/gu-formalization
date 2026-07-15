@@ -7,6 +7,38 @@ updated_at: "2026-07-14"
 
 # Next Steps For Contributors
 
+> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (LATEST; top of the queue; HOURLY RUNS WORK THIS): the W227 GAP-ANALYSIS-TO-UNCONDITIONAL register.**
+> The hourly queue is now `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md` (machine-checkable
+> index: `tests/W227_gap_analysis_register.py`, exit 0). GOAL: move GU from "more-unified but CONDITIONAL /
+> incomplete" to UNCONDITIONAL + ONE CONFIRMED NOVEL PREDICTION -- the two things needed to honestly clear the
+> two-bar higher-order-truth test. TRUTH-SEEKING: GU is NOT proven; it survived a first non-naive falsification
+> gauntlet (W219-W226) with its structure intact and its gaps now precisely located. The flaw-ledger cannot be
+> scored clean while pieces are unbuilt, which is exactly why closing the conditionals matters. Hourly runs take
+> ONE bounded item per run, leave a receipt; promotion is Joe-gated.
+>
+> **TRACK A -- close the conditionals (priority order for hourly runs):**
+> 1. **A2 / A4 (LIVE hourly work):** the constructive source-action spine -- complete the nonlocal `Z_U`
+>    gradient-stiffness source action (A2, W203's named next blocker) and derive-or-replace the reverse-engineered
+>    `W154` identification (A4, which makes the source action unconditional and feeds A2).
+> 2. **A3:** chip the dynamical SMG realization for GU's SO(10)-16 mirror via a symmetry argument or a
+>    GU-specific toy model (the anomaly / necessary condition is met per W224; the dynamical / sufficient
+>    condition is OPEN-IN-THE-FIELD per W225).
+> 3. **A5:** pin the `(9,5)` signature via the open 2-primary Witten `Z/2` anomaly, or prove it a genuine choice.
+> 4. **A6:** state the count-import (external `Z/3`) dependence at its honest terminal (likely a characterization pass).
+> 5. **B1 (novel-prediction SCAN):** extract GU's single most distinctive checkable novel prediction and confront
+>    it, prioritizing a today-checkable SM Yukawa / mass-coupling relation over a 2027-gated dark-energy feature
+>    (the generic "GU predicts dynamical dark energy" is TOO WEAK to count).
+>
+> **A1 (KEYSTONE) is on the paper-hardening track, NOT the hourly loop:** the corrected reservoir-sign theorem
+> (does positivity FORCE the grading sign unique -> internal, or is it a continuum -> external). Hourly runs take
+> follow-ons to it. The Godel / one-bit framing was KILLED this week; no hourly run may use it as a premise.
+> **Standing MONITORS (not hourly work):** the DE amplitude tripwire (W226, 2-sigma margin +1.11, resolving with
+> DESI DR3 / Euclid ~2027) and the SMG dynamical realization (W225, OPEN-IN-THE-FIELD). Exploration-tier; no
+> canon / verdict / claim-status / posture flips; `bar(b)` and `H59` stay OPEN; the count stays `{1,3}`. This
+> block SUPERSEDES the 2026-07-14 native-good-stable / hardening-register block immediately below (retained as
+> context; its step-5 H59 completion and A1 keystone are the same paper-hardening object).
+
+> **[SUPERSEDED by the 2026-07-14 W227 register block above]**
 > **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (top of the queue; HOURLY RUNS WORK THIS): derive the native physical good stable and its grading.**
 > The adversarial hardening of
 > `papers/drafts/structurally-forced-internally-undecidable/` killed the previous one-free-`Z/2` theorem.
