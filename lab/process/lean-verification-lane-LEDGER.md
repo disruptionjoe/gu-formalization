@@ -1,119 +1,96 @@
 ---
-title: "Lean Verification Lane — Ledger and Queue"
+title: "Lean Verification Lane: Ledger and Queue"
 status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
+updated: 2026-07-15
 owner_surface: lab/process/runbooks/lean-verification-run.md
 ---
 
-# Lean Verification Lane — Ledger and Queue
+# Lean verification lane: ledger and queue
 
-**Purpose.** This is the standing work-queue for the Lean verification reserve lane. Discovery (big
-swings, new mechanisms) happens in interactive maintainer sessions. Hourly Progress works this lane only
-when `lab/process/research-portfolio.json` selects the reserve. Formalizing a finishable theorem must not
-displace the protected North-Star lane merely because Lean has a monotone success condition. The lane
-formalizes already-proven finite theorems in Lean 4 + mathlib so the paper's
-deductive spine carries machine-checked proof, not prose. Convergent by design: each item either
-typechecks to exit 0 with no `sorry`/`axiom`, or it does not. See the runbook for the run loop.
+## Purpose and boundary
 
-**The honest boundary (what Lean does and does not harden).** Lean hardens the *deductive* step:
-given the premises, the conclusion follows. It does NOT harden (a) *faithfulness* — that the numpy
-carrier is GU's actual matter module (that is a modeling audit, a separate lane), or (b) the
-*single-process ceiling* — external replication. So every Lean theorem below takes the computed
-matrix facts as HYPOTHESES (supplied by the numpy/sympy certificates) and proves the structural
-core over them. "Lean-verified" here means the deduction is machine-checked, with the premises
-explicitly the computed certificates — exactly the boundary set in
-`papers/drafts/hardening-pass-2026-07-03/A1-lean-formalization-inventory.md`.
+This is the standing queue for the Lean reserve lane. Hourly Progress uses it only when
+`lab/process/research-portfolio.json` selects the reserve. A finishable formalization must not displace
+the protected North-Star lane merely because Lean has a monotone success condition.
 
-Status vocabulary: **LEAN-VERIFIED** (typechecks, no sorry/axiom, cited by owner surface) /
-**LEAN-PARTIAL** (written, needs a bounded fix) / **NUMPY-CERT** (machine-checked in Python only) /
-**SYMPY-DERIVED** (symbolic, not Lean) / **PROSE** (hand-argued only).
+Lean hardens the deduction from explicit premises. It does not establish carrier faithfulness, physical
+realization, full-arena transfer, Proposition 1, the W235 record bit, interacting QFT, or external
+replication. Those stay in owner prose and machine certificates. Status vocabulary:
 
----
+- `LEAN-VERIFIED`: default or named target typechecks, with no `sorry` or unreported axioms, and the owner cites it.
+- `SOURCE-READY`: complete proof source exists, but the current checkout lacks a green build receipt.
+- `LEAN-PARTIAL`: source needs a bounded repair.
+- `NUMPY-CERT`: checked in Python only.
+- `SYMPY-DERIVED`: symbolic result outside Lean.
+- `PROSE`: written argument only.
 
-## Part A — Baseline: what is already Lean-verified (2026-07-07)
+## Part A: current certificate surface
 
-Provisioning is done: `lake` on PATH, `.lake` present, mathlib provisioned (per the 2026-07-03
-correction). Certified files (`Lean/README.md`):
+The toolchain and manifest are pinned. A fresh checkout currently has no compiled-artifact receipt, so
+the default target must be rebuilt before this lane claims a current green baseline.
 
-| Lean file | Scope | Status |
+| Lean file | Scope | Current source status |
 |---|---|---|
-| `GUFormalization/Status.lean` | claim-status order + dependency-monotonicity governance kernel | LEAN-VERIFIED |
-| `GUFormalization/K3IndexArithmetic.lean` | symbolic K3 / RS index arithmetic | LEAN-VERIFIED |
-| `GUFormalization/W2Polynomial.lean` | `F_2` polynomial identities behind the corrected `w2(Y14)` | LEAN-VERIFIED |
-| `GUFormalization/LocatedNotForcedLegs.lean` | located-not-forced spine: Krein index-nullity (Th 2), antilinear bound, 2-primary identities (Th 1) | LEAN-VERIFIED (per 2026-07-03 correction; re-confirm build, task L0) |
-| `tests/big-swing/R4_TwoArena.lean` | standalone two-arena rep-theory legs (R4) | LEAN-PARTIAL (2 mathlib API-drift fixes) |
+| `Lean/GUFormalization/Status.lean` | Claim-status order and dependency monotonicity | Previously `LEAN-VERIFIED`; baseline refresh due |
+| `Lean/GUFormalization/K3IndexArithmetic.lean` | Symbolic K3 and RS index arithmetic | Previously `LEAN-VERIFIED`; baseline refresh due |
+| `Lean/GUFormalization/W2Polynomial.lean` | `F_2` polynomial identities behind corrected `w2(Y14)` | Previously `LEAN-VERIFIED`; baseline refresh due |
+| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein index-nullity, antilinear bound, and 2-primary identities | Previously `LEAN-VERIFIED`; authoritative A1 certificate |
+| `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | Previously `LEAN-VERIFIED`; baseline refresh due |
+| `tests/big-swing/R4_TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `SOURCE-READY`; sorry-free and axiom-free standalone source, not yet in the default target |
 
-So the **located-not-forced paper's deductive spine is already Lean-verified.** The gap this lane
-closes is the 2026-07-06/07 swing results, none of which are yet in Lean.
+The un-typechecked draft duplicate
+`papers/drafts/hardening-pass-2026-07-03/A1-located-not-forced-legs.lean` remains outside the certificate
+surface and is scheduled for retirement at L2. It must not be cited as a certificate.
 
----
+## Part B: stable theorem-grade queue
 
-## Part B — The theorem-grade ledger (paper + 2026-07-06/07 swings)
-
-| # | Theorem-grade claim | Source | Current | Lean feasibility | Load-bearing for |
+| Id | Theorem-grade claim | Source | Current | Feasibility | Load-bearing for |
 |---|---|---|---|---|---|
-| T1 | No-go is 2-primary; no obstruction is 3-divisible (Th 1) | paper §4 | LEAN-VERIFIED | — | located-not-forced |
-| T2 | Linear Krein-isometry conserves net chiral index = 0 (Th 2) | paper §6 | LEAN-VERIFIED | — | located-not-forced |
-| T3 | Antilinear null-eigenspace bound (CII escape) | paper §6 | LEAN-VERIFIED | — | located-not-forced |
-| **A** | **Achirality: `{K,chi}=0 => Re tr(chi Pi_+) = 0` for every admissible C** | R3 (`cg_r3_pt_phase_gu_cores.py`) | NUMPY-CERT | **HIGH** (trace + anticommutation, ~10 lines) | fences the "3 chiral generations" canon reading |
-| **B** | **V7 mod-3 arithmetic: selected `m^2 = 1 (mod 3)`; `ind = 12k + 16 m^2 d' - 2 sigma`; residue `= m^2 d' + sigma`** | V7 (`vg_v7_cp2_equivariant_payoff.py`) | SYMPY-DERIVED | **HIGH** (pure Nat/Int, `omega`/`decide`, like the 2-primary legs) | closes the count import (CP^2 double import) |
-| **C** | **A1 phase boundary `lq = -l4/192`: corner min `-24/(96 l0+l4+96 lq)` vs sym min `-48/(192 l0+l4)`, diff vanishes at `-l4/192`** | A1b (`as_a1b_reduced_phase_confirm.py`) | SYMPY-DERIVED | **HIGH** (rational-function comparison, `field_simp`/`ring`) | mirror mechanism: alignment is a phase |
-| **D** | **Power-mean reduction: `tr(A^4) >= tr(A^2)^2 / n`, equality iff uniform** | A1b | NUMPY-CERT | MEDIUM (mathlib `inner_mul_le` / power-mean) | justifies the 2-scalar reduction (C) |
-| **E** | **chi-parity split: `chi K chi = -K => t_n` chi-even, `q_n` chi-odd => chi-symmetric potential cannot select orientation** | A2 (`as_a2b_native_ring_symmetry_nogo.py`) | NUMPY-CERT | MEDIUM (trace parity under conjugation) | bounded no-go: import = one sign bit |
-| **F** | **Cartan structural core: `theta^2 = id`, `B_theta > 0` on even part, even part = max compact** | V2 (`vg_v2_fourth_seat_gauge_indefiniteness.py`) | NUMPY-CERT | MEDIUM (abstract Cartan involution; the `theta = K` identity stays NUMPY-CERT) | fourth seat = quantization seat |
-| **G** | **V8 mirror map core: for an involution `Q5`, `Pi_mirror = (I - Q5)/2` projects, gaps one K-half, `[M,P]=0`** | V8 (`vg_v8_t5_map_attempt.py`) | NUMPY-CERT | MEDIUM (projector algebra of an involution) | mirror mechanism kinematics |
-| **H** | **Extremal-weight stabilizer core: the relevant raising/lowering nilradical annihilates an extremal weight vector, so an explicit nonzero nilpotent lies in its stabilizer** | W243 / GU-002 / W244 (`W243_charged_corridor_closure.py`, `W244_reverify_good_stable_nogo.py`) | STRUCTURAL + NUMPY-CERT | MEDIUM (abstract graded-representation deduction; native-carrier and full-arena premises remain explicit hypotheses) | good-stable compactification no-go |
+| T1 | No-go is 2-primary; no obstruction is 3-divisible | located-not-forced paper section 4 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
+| T2 | Linear Krein-isometry conserves net chiral index zero | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
+| T3 | Antilinear null-eigenspace bound | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
+| A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | R3 | `NUMPY-CERT` | high | fences the chiral-generation reading |
+| B | V7 mod-3 index arithmetic | V7 | `SYMPY-DERIVED` | high | count-import boundary |
+| C | Exact A1 phase boundary `lq = -l4/192` | A1b | `SYMPY-DERIVED` | high | mirror alignment phase |
+| D | Power-mean reduction | A1b | `NUMPY-CERT` | medium | supports C |
+| E | Chi-parity no-go for orientation selection | A2 | `NUMPY-CERT` | medium | sign-selection boundary |
+| F | Abstract Cartan-involution structural core | V2 | `NUMPY-CERT` | medium | quantization seat |
+| G | Involution projector algebra for the mirror map | V8 | `NUMPY-CERT` | medium | mirror kinematics |
+| H | Extremal-weight stabilizer contains an explicit nonzero nilpotent | W243, GU-002, W244 | structural plus `NUMPY-CERT` | medium | compactification no-go |
 
-The paper legs T1-T3 are done. Items A-H are the lane's work. The portfolio currently prefers H because
-it protects the newest load-bearing no-go; A, B, and C remain the highest-feasibility older kernels.
+## Part C: integrity-first execution order
 
----
+The first three items are mandatory integrity work, not a retreat from the North Star.
 
-## Part C — The prioritized queue (what an hourly run picks up)
+1. `L0 BASELINE`: run `lab/automation/check-lean.ps1` so the default `GUFormalization` target builds at
+   `-j1`; record exit status, toolchain, manifest revision, and placeholder scan.
+2. `L1 R4 INTEGRATION`: move or fold `tests/big-swing/R4_TwoArena.lean` into the default
+   `GUFormalization` target; fix only real API drift; require exit 0 with no `sorry` or unreported axioms.
+3. `L2 STALE DUPLICATE`: remove the un-typechecked A1 draft duplicate and make historical notes point to
+   `Lean/GUFormalization/LocatedNotForcedLegs.lean` as the sole authoritative certificate.
+4. `L3 THEOREM H`: formalize the extremal-weight stabilizer deduction over an explicitly graded finite
+   representation. Carrier realization, Proposition 1, W235, and compactness remain explicit premises or
+   outside the Lean conclusion. Do not formalize W241's false fixed-`P` implication.
+5. `L4 THEOREM A`: formalize the achirality trace core with matrix anticommutation supplied as a premise.
+6. `L5 THEOREM B`: formalize the pure mod-3 arithmetic using `Nat`, `Int`, `omega`, or `decide`.
+7. `L6 THEOREM C`: formalize the exact rational phase boundary with `field_simp` and `ring`.
+8. `L7 THEOREM D`: formalize the power-mean reduction.
+9. `L8 THEOREM E`: formalize trace parity under chi conjugation.
+10. `L9 THEOREMS F AND G`: formalize only the abstract involution and projector cores.
+11. `L10 OLD FILE TRIAGE`: repair or retire older broken library files only when they create certificate
+    confusion or every higher-value stable kernel is blocked.
 
-Select by portfolio value and statement stability, not finishability alone. Each item is one coherent Lean
-kernel plus its ledger receipt. The current preferred new kernel is H because it protects the recent no-go
-from the exact overstatement W244 found in W241. L0 remains mandatory after real toolchain drift.
+## Part D: lock and progress contract
 
-- **L0 — re-confirm the baseline build is green.** `lake build GUFormalization` exit 0, no
-  sorry/axiom in the four verified files. (First run only, and after any mathlib bump. Cheap,
-  always-progressable, and it protects everything downstream.)
-- **L1 — Theorem A (achirality).** New file `Lean/GUFormalization/AchiralityKrein.lean`: over a
-  finite real/complex space with `K` self-adjoint, `chi` with `{K,chi}=0` (hypothesis), and `Pi_+`
-  the positive spectral projector, prove `Re tr(chi Pi_+) = 0`. Premise "the actual 192-dim
-  matrices anticommute" stays a numpy hypothesis. Feasibility HIGH.
-- **L2 — Theorem B (V7 mod-3 arithmetic).** Extend `K3IndexArithmetic.lean` or new
-  `Cp2IndexArithmetic.lean`: `m^2 % 3 = 1` for `m in {1,2,4,5} (mod 3, m not div by 3)`;
-  `ind = 12*k + 16*m^2*d' - 2*sigma`; the mod-3 residue identity; conclude a factor 3 requires
-  `3 | m AND 3 | sigma`. Pure `Nat`/`Int`, `omega`/`decide`. Feasibility HIGH — mirrors the
-  existing 2-primary legs exactly.
-- **L3 — Theorem C (phase boundary).** New `PhaseBoundary.lean`: the two rational minima and the
-  exact root `lq = -l4/192` (as `-l4/(2*96)`); `field_simp`/`ring`. Feasibility HIGH.
-- **L4 — Theorem D (power-mean).** The Cauchy-Schwarz eigenvalue inequality from mathlib; supports
-  L3's reduction. MEDIUM.
-- **L5 — Theorem E (chi-parity no-go).** Trace-parity under `chi`-conjugation; the chi-symmetric
-  potential degeneracy. MEDIUM.
-- **L6 — Theorem F (Cartan core) & G (mirror projector core).** The abstract involution / Cartan
-  structural cores. MEDIUM.
-- **L7 — repair `R4_TwoArena.lean`** (2 API-drift fixes) and triage the 3 older broken lib files
-  (repair or retire with a note). Cleanup; always available when L1-L6 are blocked.
-- **L8 - Theorem H (extremal-weight stabilizer core).** First specify a theorem over an explicitly
-  graded finite-dimensional representation: a named nonzero raising or lowering nilpotent annihilates
-  an extremal vector and therefore belongs to its stabilizer. Keep the native `Sp(32,32;H)` realization,
-  Proposition 1, W235 record bit, and compactness interpretation outside the Lean conclusion unless they
-  are supplied as explicit hypotheses. Do not formalize W241's false frame-specific implication that every
-  compact-image isotropy commutes with one fixed `P`.
+On Windows, every invocation uses `lab/automation/check-lean.ps1`. Its exclusive file handle is host-local.
+It does not serialize another computer or cloud runner, and it cannot technically stop a direct command from
+bypassing policy. Other hosts require a runner-native single-build lock and `-j1`. No two hosts may write the
+same checkout.
 
----
-
-## Part D — Progress metric and the anti-no-op rule
-
-Unlike the discovery runbook (whose progress metric — claim promotions — keeps reading zero and
-triggering HALT), this lane's metric is concrete and monotone: **theorem files typechecked to exit
-0, no sorry/axiom, ledger status flipped.** A run makes progress iff it advances at least one queue
-item (a new LEAN-VERIFIED, a LEAN-PARTIAL repaired, or the baseline build re-confirmed green after a
-drift). If every queue item is genuinely blocked (e.g. a real mathlib gap), append a dated note here
-and escalate — do not manufacture motion. Canon status flips to `verified` still pause for the
-maintainer; formalizing and flipping the LEDGER's own row to LEAN-VERIFIED is agent-owned.
+A run makes progress only by producing a current green baseline, integrating an existing certificate,
+retiring a misleading certificate lookalike, adding a newly `LEAN-VERIFIED` kernel, repairing a
+`LEAN-PARTIAL` kernel, or recording an exact faithfulness/mathlib obstruction that prevents a false theorem
+from entering Lean. Do not manufacture a trivial theorem to appear busy.

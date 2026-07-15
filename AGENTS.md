@@ -22,10 +22,12 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Claim-status changes use `lab/process/runbooks/claim-status-consistency-quality-workflow.md`.
 - Canon promotion is agent-owned. When an exploration clears the `RESEARCH-STATUS.md` Promotion Rule you may promote it into `canon/` / `CANON.md` yourself - this no longer pauses for Joe. Every executed promotion MUST drop an awareness note in `../../../system/mailboxes/joeops/` from this repo root using `lab/process/templates/canon-promotion-joeops-notice.md`. The note is awareness-only, not an approval gate; the promotion is already done. Canon = public-spine framing, not a verdict.
 - Cross-repo actions are not executed directly and no longer pause for Joe: drop a proposal note in the target surface's mailbox (`../../../system/mailboxes/<surface>/` from this repo root) and let that surface's steward decide whether to act. Writing the proposal note is itself allowed and is not a cross-repo action.
+- When GU exposes a credible paper-shaped opportunity, send a minimal source-graded seed proposal to the Drafting Factory mailbox immediately. Drafting Factory owns paper prioritization and production capacity. GU performs source hardening only when scientifically valuable or when a capacity-backed factory request becomes a valid portfolio signal; the request does not command GU or change claim grade.
 - Verdict / scientific-status changes (e.g. OPEN -> RESOLVED), public/external consequence, and relicensing still pause for Joe.
 - CapacityOS architecture questions route to CapacityOS; JoeOps coordination questions route to JoeOps.
 - Scratch, caches, and intermediate renders belong in `_local/`.
 - Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, `lake build -j1`; do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
+- On Windows, GU Lean/Lake commands use `lab/automation/check-lean.ps1`. Its exclusive lock is host-local, not cross-computer. Other hosts need an equivalent runner-native single-build lock and `-j1`; no direct `lake` invocation may bypass the applicable lock policy.
 
 ## Operating note: two kinds of exploit (North Star vs quick payoff)
 

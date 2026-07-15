@@ -11,6 +11,8 @@ appropriate, what it is allowed to change, and what closeout evidence it must le
 - [`daily-research-portfolio-stewardship.md`](daily-research-portfolio-stewardship.md) -
   daily GU-local reconciliation of research priorities, dependencies, run receipts, and
   high-signal JoeOps routing.
+- [`draft-factory-paper-seed-handoff.md`](draft-factory-paper-seed-handoff.md) - cheap
+  paper-opportunity seed routing plus capacity-backed source-hardening requests.
 - [`five-lane-frontier-run.md`](five-lane-frontier-run.md) - maintainer-directed divergent
   frontier run for ambitious, non-overlapping proof, bridge, no-go, or computation lanes.
 - [`meaningful-hourly-progress-swing.md`](meaningful-hourly-progress-swing.md) - default hourly

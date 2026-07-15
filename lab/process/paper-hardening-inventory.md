@@ -8,11 +8,15 @@ scope: "Internal paper triage only. No publication, promotion, submission, or ex
 
 # Paper hardening inventory
 
-This inventory keeps paper work from displacing GU's protected scientific North Star. Candidate-folder membership remains the publication-stage authority. This register only records the next internal gate and whether another hourly polishing pass would add scientific value.
+This inventory keeps source-owned paper hardening from displacing GU's protected scientific North Star. Drafting Factory owns paper seeds, cross-paper priority, production capacity, and drafting. Candidate-folder membership remains GU's source-stage authority. This register records only the next GU-owned evidence gate and whether another hardening pass would add scientific value.
 
 ## Portfolio rule
 
 Paper work may be the reserve lane when it closes a substantive proof, novelty, citation, reproducibility, or referee-facing scope gap. It is not primary merely because it is finishable.
+
+As soon as GU identifies a credible paper-shaped opportunity, route a cheap seed to Drafting Factory with the source revision, evidence pointers, current grade, conditions, audience, and overlap candidates. Seed admission does not wait for the hardening criteria below and does not authorize drafting. GU should not maintain a competing publication-priority queue.
+
+Drafting Factory may request focused GU hardening only after it has lane capacity and intends to activate the seed. That capacity-backed request is a valid daily-steward signal, not an automatic priority override. GU retains proof grade, claim status, native-versus-forced judgment, and source packet authority.
 
 Once a package is ready for external eyes, stop routine polishing. External review and publication are Joe-gated. Internal personas are adversarial hardening, not independent external validation.
 
@@ -38,9 +42,9 @@ Once a package is ready for external eyes, stop routine polishing. External revi
 | `open-krein-loop-unitarity-bistability` | Conditional physical-metric and loop-unitarity draft. | Reframe any future work around boundary-conditioned `PHYSICAL-C`; the closed-interior construction is excluded. |
 | `de-cpl-proxy-vs-raw-bao-likelihood` | Data-method paper candidate separating CPL projection from raw likelihood. | Keep phenomenology-owned evidence distinct from GU-native prediction claims. |
 
-## Paper creation trigger
+## GU hardening-lane trigger
 
-A new paper lane enters this inventory only when all hold:
+A paper-shaped opportunity enters Drafting Factory earlier as a seed. A dedicated GU hardening lane enters this inventory only when all hold:
 
 1. one stable result or no-go exists at an honest named grade;
 2. the result has a clear audience and is not merely another GU status summary;
@@ -49,4 +53,4 @@ A new paper lane enters this inventory only when all hold:
 5. the package does not depend on an unresolved cross-repo identity;
 6. a limitations section states what is not established.
 
-Paper creation is not a substitute for prediction extraction, native normalization, source dynamics, or the p2c firewall adapter.
+Paper seed capture is cheap and immediate. Paper hardening is not a substitute for prediction extraction, native normalization, source dynamics, or the p2c firewall adapter.

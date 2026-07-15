@@ -21,8 +21,9 @@ been falsified or genuinely blocked.
 ## The run loop
 
 1. **Confirm portfolio selection.** The run receipt states why the protected primary lane is blocked,
-   complete for its current swing, or explicitly yielding to this reserve lane. Then pick the
-   highest-value unblocked stable kernel from the LEDGER Part C queue.
+   complete for its current swing, or explicitly yielding to this reserve lane. Then follow the
+   LEDGER Part C integrity-first order: fresh default-target baseline, existing R4 integration and
+   stale-duplicate retirement, then a new theorem kernel.
 2. **Read the source certificate.** Match the Lean statement to the computed result exactly. Carry
    computed matrix facts as explicit hypotheses. Lean proves the deduction, not that the matrices are
    GU's physical carrier.
@@ -59,5 +60,7 @@ a trivial theorem to appear busy.
   and interacting physical realization remain explicit premises or external scope conditions.
 - Never formalize W241's false frame-specific implication that every compact-image isotropy commutes with
   one fixed `P`. W244 showed the narrower order-parameter no-go survives by a different mechanism.
+- The Windows wrapper serializes only this host. It does not coordinate another computer or cloud runner,
+  and policy cannot prevent a direct `lake` command. Every run must use the applicable host lock plus `-j1`.
 - Do not let "Lean-verified deduction" become "physics proved."
 - Never use `git add -A`.

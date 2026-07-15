@@ -10,8 +10,9 @@ if (-not (Get-Command lake -ErrorAction SilentlyContinue)) {
     exit 127
 }
 
-# All GU Lean invocations use this wrapper. The exclusive file handle prevents
-# direct-chat and scheduled GU runs from starting overlapping local builds.
+# All Windows-host GU Lean invocations use this wrapper. The host-local exclusive file handle
+# prevents compliant direct-chat and scheduled GU runs on this host from starting
+# overlapping local builds. It does not coordinate another host or cloud runner.
 # The workspace contract still forbids overlapping Lean work in other repos.
 $lockRoot = Join-Path ([System.IO.Path]::GetTempPath()) "CapacityOS-locks"
 New-Item -ItemType Directory -Force -Path $lockRoot | Out-Null

@@ -29,6 +29,7 @@ Runbooks:
 
 - `runbooks/five-lane-frontier-run.md` - standard repo-local five-sub-agent frontier run.
 - `runbooks/daily-research-portfolio-stewardship.md` - daily priority and dependency reconciliation.
+- `runbooks/draft-factory-paper-seed-handoff.md` - cheap paper-seed routing and capacity-backed source-hardening requests.
 - `runbooks/meaningful-hourly-progress-swing.md` - default substantial hourly Progress swing.
 - `runbooks/three-cycle-fifteen-hole-run.md` - three sequential five-lane runs for
   fifteen quality holes without padding weak lanes.

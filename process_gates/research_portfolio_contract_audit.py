@@ -26,6 +26,9 @@ LEAN_RUNBOOK = ROOT / "lab" / "process" / "runbooks" / "lean-verification-run.md
 LEAN_LEDGER = ROOT / "lab" / "process" / "lean-verification-lane-LEDGER.md"
 LEAN_GUARD = ROOT / "lab" / "automation" / "check-lean.ps1"
 PAPER_INVENTORY = ROOT / "lab" / "process" / "paper-hardening-inventory.md"
+PAPER_SEED_RUNBOOK = (
+    ROOT / "lab" / "process" / "runbooks" / "draft-factory-paper-seed-handoff.md"
+)
 
 
 def read(path: Path) -> str:
@@ -82,6 +85,11 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertEqual("north_star", primary["track"])
         self.assertEqual("reserve_maintenance", reserve["track"])
         self.assertEqual("READY", reserve["state"])
+        self.assertEqual(
+            "DEP-NATIVE-SOURCE-DATUM", contract["deepest_open_dependency_lane_id"]
+        )
+        self.assertIn("operational North Star", contract["active_program_pivot"])
+        self.assertIn("transferred", contract["deepest_open_problem_posture"])
 
     def test_priority_scores_match_declared_formula(self) -> None:
         for lane in self.lanes:
@@ -103,6 +111,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
     def test_scientific_scope_constraints_are_not_flattened(self) -> None:
         mirror = self.by_id["MIRROR-NATIVE-ROUTE"]
         physical_c = self.by_id["PHYSICAL-C-BOUNDARY"]
+        physical_c_conditional = self.by_id["PHYSICAL-C-CONDITIONAL"]
+        source_datum = self.by_id["DEP-NATIVE-SOURCE-DATUM"]
         f1 = self.by_id["DE-F1-TRIPWIRE"]
 
         self.assertEqual("RESOLVED_NO_GO", mirror["state"])
@@ -110,11 +120,20 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("GU-non-native", mirror["next_swing"])
         self.assertEqual("GATED_P2C", physical_c["state"])
         self.assertIn("closed-interior", physical_c["current_authority"])
-        self.assertEqual({"DEP-PROP1", "DEP-W235-RECORD"}, set(physical_c["depends_on"]))
+        self.assertEqual(
+            {"DEP-NATIVE-SOURCE-DATUM", "DEP-PROP1", "DEP-W235-RECORD"},
+            set(physical_c["depends_on"]),
+        )
+        self.assertEqual("READY", physical_c_conditional["state"])
+        self.assertIn("explicit adapter assumption", physical_c_conditional["title"])
+        self.assertIn("not a GU construction", physical_c_conditional["construction_fork"])
+        self.assertEqual("GATED_P2C", source_datum["state"])
+        self.assertIn("deepest unresolved GU-native dependency", source_datum["current_authority"])
         self.assertIn("+1.11", f1["current_authority"])
         self.assertIn("+0.032", f1["current_authority"])
         self.assertIn("not the firing margin", f1["current_authority"])
         self.assertIn("never a positive GU prediction", f1["forbidden_shortcut"])
+        self.assertIn("W226-harden-de-tripwire", f1["evidence_source"])
 
     def test_id_namespace_ends_automatic_w_collisions(self) -> None:
         policy = self.portfolio["run_id_policy"]
@@ -128,10 +147,12 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
             "PRED-FLAVOR-RANK",
             "PRED-NORM-RANK",
+            "DEP-NATIVE-SOURCE-DATUM",
             "PROOF-STABLE-KERNELS",
             "DE-AMP-DIAGNOSTIC",
             "DE-F1-TRIPWIRE",
             "two-sigma edge margin is `+1.11`",
+            "W226-harden-de-tripwire-squeeze-data-2026-07-14.md",
             "GU-002 packages that result",
             "Proposition 1",
             "W235 record bit",
@@ -150,6 +171,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("Hourly runs do not edit", hourly)
         self.assertIn("Never use `git add -A`", hourly)
         self.assertIn("one meaningful research delta", hourly)
+        self.assertIn("paper_seed_proposal", hourly)
+        self.assertIn("implicitly equates fit quality", daily)
 
     def test_lean_is_reserve_and_serialized(self) -> None:
         lean_runbook = read(LEAN_RUNBOOK)
@@ -157,7 +180,10 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         lean_guard = read(LEAN_GUARD)
         self.assertIn("reserve convergent-hardening", lean_runbook)
         self.assertIn("research-portfolio.json", lean_ledger)
-        self.assertIn("Theorem H", lean_ledger)
+        self.assertIn("THEOREM H", lean_ledger)
+        self.assertIn("L0 BASELINE", lean_ledger)
+        self.assertIn("L1 R4 INTEGRATION", lean_ledger)
+        self.assertIn("host-local", lean_guard)
         self.assertIn("FileShare]::None", lean_guard)
         self.assertIn("lake build -j1", lean_guard)
 
@@ -169,6 +195,21 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("stop routine polishing", inventory)
         self.assertIn("External review and publication are Joe-gated", inventory)
 
+    def test_draft_factory_seed_seam_is_explicit(self) -> None:
+        seam = self.portfolio["publication_seed_seam"]
+        daily = read(DAILY_RUNBOOK)
+        inventory = read(PAPER_INVENTORY)
+        handoff = read(PAPER_SEED_RUNBOOK)
+
+        self.assertEqual("drafting-factory", seam["seed_owner"])
+        self.assertIn("immediately", seam["discovery_rule"])
+        self.assertIn("not a command", seam["return_rule"])
+        self.assertIn("Drafting Factory seam", daily)
+        self.assertIn("paper-shaped opportunity", inventory)
+        self.assertIn("capacity-backed", inventory)
+        self.assertIn("Status: proposed", handoff)
+        self.assertIn("Drafting Factory owns", handoff)
+
     def test_new_orchestration_files_use_no_em_dash(self) -> None:
         files = (
             PORTFOLIO,
@@ -176,6 +217,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             HOURLY_RUNBOOK,
             LEAN_RUNBOOK,
             PAPER_INVENTORY,
+            PAPER_SEED_RUNBOOK,
         )
         offenders = [path.relative_to(ROOT).as_posix() for path in files if "\u2014" in read(path)]
         self.assertEqual([], offenders)

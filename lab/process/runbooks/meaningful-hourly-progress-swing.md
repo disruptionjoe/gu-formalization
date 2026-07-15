@@ -100,7 +100,7 @@ Put the proposed priority effect in the ignored run receipt. The daily steward i
 
 Lean is a reserve method, not the default objective. Use it only for a stable finite kernel that prevents a known error and can state every modeling premise explicitly.
 
-Every GU Lean or Lake invocation must use `lab/automation/check-lean.ps1`, which acquires the GU machine-wide lock and runs `lake build -j1`. Do not run a second build while the lock is held. Do not encode interacting physics, carrier faithfulness, or native realization as an unmarked axiom.
+On this Windows host, every GU Lean or Lake invocation must use `lab/automation/check-lean.ps1`, which acquires a host-local exclusive lock and runs `lake build -j1`. The file handle does not serialize another computer or a cloud runner and cannot stop a contributor from bypassing the wrapper. Other hosts must use their runner-native single-build lock and `-j1`, and no two hosts may write the same checkout. Do not encode interacting physics, carrier faithfulness, or native realization as an unmarked axiom.
 
 ## Prediction discipline
 
@@ -123,6 +123,7 @@ The receipt must name:
 - dependency changes;
 - `priority_signal: none` or one valid signal;
 - `joe_signal: none` or the exact trigger;
+- `paper_seed_proposal: none` or the complete Drafting Factory seed payload discovered during the swing;
 - commit and push status.
 
 A blocked run is useful only when it identifies the exact missing object and a lawful next test. Repeatedly reporting the same wall is not progress.

@@ -13,20 +13,29 @@ updated_at: "2026-07-15"
 > official releases. Hourly Progress uses `lab/process/runbooks/meaningful-hourly-progress-swing.md` and takes
 > one substantial, decision-grade swing. It does not edit this block or the portfolio.
 >
+> **Deliberate program pivot:** Track B prediction extraction is the current operational North Star, not the
+> deepest unresolved GU-native problem. The Y14 `F_A` C2 spectral-section/source-action datum and native
+> normalization remain the deepest load-bearing theoretical dependency. Joe transferred construction of that
+> frontier to possibility-to-capability, so GU tracks it as `DEP-NATIVE-SOURCE-DATUM` and does not keep
+> attacking the same wall. It is parked, not solved.
+>
 > **Protected primary:** `PRED-FLAVOR-RANK`. Count the basis-invariant Yukawa coefficient freedom after every
 > built GU symmetry, quotient, and source constraint. Carry the swing through a counterexample search,
 > machine-checkable rank receipt, and written decision. Any surviving adjustable coefficient kills the current
-> zero-parameter mass/mixing family. If a zero-parameter invariant survives, freeze it before opening PDG data.
+> zero-parameter mass/mixing family. A partial result is expected to be possible: record the exact reduced but
+> nonzero residual dimension and preserve only coefficient-independent relations that survive it. If a
+> zero-parameter invariant survives, freeze it before opening PDG data.
 >
 > **Next READY North-Star lane:** `PRED-NORM-RANK`. Compute the field-rescaling invariants among `kappa`,
 > `Z_U`, `mu_DW`, source normalization, and physical pole parameters. A null result closes the fixed-range and
 > fixed-pole-scale prediction routes until new native dynamics exists. Do not import the observed dark-energy
 > density or an experimental target to fix the normalization.
 >
-> **Reserve only:** `PROOF-STABLE-KERNELS`. The next preferred Lean-sized target is the W243/GU-002
-> extremal-weight stabilizer deduction, with every native-carrier and full-arena premise explicit. W244's
-> counterexample forbids formalizing W241's stronger frame-specific claim. Lean is reserve work and cannot
-> displace the protected primary because it is easier to finish.
+> **Reserve only:** `PROOF-STABLE-KERNELS`. Its order is: establish a fresh default-target green baseline;
+> integrate the existing sorry-free and axiom-free `R4_TwoArena` certificate into that target; retire the
+> un-typechecked A1 duplicate; then attempt the W243/GU-002 extremal-weight stabilizer deduction with every
+> native-carrier and full-arena premise explicit. W244's counterexample forbids formalizing W241's stronger
+> frame-specific claim. Lean is reserve work and cannot displace the protected primary because it is easier to finish.
 >
 > **Diagnostic READY, not decisive prediction:** `DE-AMP-DIAGNOSTIC`. Re-solve the CMB-calibrated amplitude
 > with GU's own full `D_M(z_*)`, then return an official-H46B likelihood adjudication. This is data hygiene and
@@ -34,12 +43,15 @@ updated_at: "2026-07-15"
 >
 > **Passive monitor:** `DE-F1-TRIPWIRE`. It is a one-sided falsification ceiling, never a positive prediction.
 > W226 supersedes W223 for the firing statistic: the current two-sigma edge margin is `+1.11`; the old `+0.032`
-> number was one DESY5 central-value margin. No hourly run occurs until verified new data arrive.
+> number was one DESY5 central-value margin. The evidence source is
+> `explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md` plus `tests/W226_de_tripwire.py`, not the
+> config constant. No hourly run occurs until verified new data arrive.
 >
 > **Closed or gated work:** the native mirror route is resolved as a no-go by W234/W237/W240/W241/W243;
 > GU-002 packages that result. The exotic nonextremal corridor is mathematically open but GU-non-native.
-> Closed-interior `PHYSICAL-C` is excluded. A boundary-conditioned physical metric is `GATED_P2C` on a frozen
-> firewall-adapter return. Proposition 1 and the favorable W235 record bit remain explicit live conditions.
+> Closed-interior `PHYSICAL-C` is excluded. GU may run a clearly grade-capped `PHYSICAL-C-CONDITIONAL` study
+> under an explicit adapter assumption now. A physical boundary-conditioned construction remains `GATED_P2C`
+> on a frozen firewall-adapter return. Proposition 1 and the favorable W235 record bit remain explicit live conditions.
 > `bar(b)` and `H59` remain OPEN.
 >
 > **Collision rule:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
@@ -49,6 +61,11 @@ updated_at: "2026-07-15"
 > **Paper ceiling:** `observer-value-selection-theorem` is locally ready for external eyes, and
 > `located-not-forced` has been judged arXiv-ready internally while remaining Joe-deferred. They are
 > `NEEDS_JOE`, not hourly polish. See `lab/process/paper-hardening-inventory.md`.
+>
+> **Paper discovery seam:** every credible new paper opportunity becomes a cheap Drafting Factory seed as soon
+> as it is recognized. Drafting Factory owns cross-paper priority and production capacity. Only when it has room
+> and selects a seed does it send GU a scoped mailbox proposal for the exact source hardening needed. That
+> request is a valid steward signal, not a command or a claim-grade change.
 
 > **[SUPERSEDED as the hourly queue by the steward-maintained portfolio above; retained as W239/W242 prediction-workstream history.]**
 > **2026-07-15 W242 OPERATIONAL QUEUE (HISTORICAL).**
@@ -564,10 +581,10 @@ these are pickup-eligible; several cluster on the source-action wall being ultra
 - **#3 Lean typecheck (CLOSED for the core spine; further Lean-formalization of the finite core tracked as W189 register item H27).** `Lean/GUFormalization/LocatedNotForcedLegs.lean` (Theorem 2
   Krein index-nullity `chi_eq_zero`, the antilinear bound, 2-primary identities 3a-3f) elaborates **exit 0, no
   `sorry`/`axiom`** on the provisioned toolchain (elan 4.32.0-rc1, mathlib built). Upgrades the finite-dim core
-  from sympy-symbolic to Lean-verified. *Next:* (a) fix `tests/big-swing/R4_TwoArena.lean`'s 2 mathlib API-drift
-  errors (`Finset.card_sdiff` signature; `addOrderOf_eq_one_iff` rename) -- bounded; (b) update the now-stale
-  "UNVERIFIED" headers in `LocatedNotForcedLegs.lean` + the A1 inventory; (c) optionally repair the 3 older lib
-  files blocking whole-lib `lake build`. `explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md`.
+  from sympy-symbolic to Lean-verified. *Next integrity order:* establish a fresh default-target build receipt;
+  then fold `tests/big-swing/R4_TwoArena.lean` into the default target and compile it; then retire the
+  un-typechecked A1 draft duplicate in favor of `Lean/GUFormalization/LocatedNotForcedLegs.lean`. Older
+  historical failure details remain in `explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md`.
 - **#4 True-RS-Y¹⁴ bundle (PARTIAL / BLOCKED-ON-SOURCE-ACTION).** Three of the four family/APS terms close on the
   actual `Y¹⁴` bundle with no source action (bulk `21σ/8` with σ free; fiber-core APS eta on `L(2;1)` 2-primary;
   cross-chirality Chern `c1(E_-)=0`). Only **[D]**, the definite vertical fiber Dirac `L²` index over the

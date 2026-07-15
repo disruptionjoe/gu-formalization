@@ -9,6 +9,7 @@
     "firewall_adapter_owner": "possibility-to-capability",
     "native_vs_forced_owner": "gu-formalization",
     "external_data_adjudication_owner": "phenomenology role, returned by frozen packet",
+    "publication_seed_and_drafting_priority_owner": "drafting-factory",
     "verdict_and_scientific_status_gate": "Joe"
   },
   "selection_contract": {
@@ -16,6 +17,9 @@
     "score_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
     "primary_lane_id": "PRED-FLAVOR-RANK",
     "reserve_lane_id": "PROOF-STABLE-KERNELS",
+    "active_program_pivot": "Track B prediction extraction is the operational North Star. It is not the deepest unresolved GU-native construction problem.",
+    "deepest_open_dependency_lane_id": "DEP-NATIVE-SOURCE-DATUM",
+    "deepest_open_problem_posture": "The Y14 F_A C2 spectral-section/source-action datum and native normalization remain open and load-bearing. Joe transferred construction of that frontier to possibility-to-capability, so GU tracks but does not hourly attack it unless a frozen return or direct priority change occurs.",
     "max_active_technical_lanes": 1,
     "primary_is_protected_from_difficulty_demotion": true,
     "valid_switch_signals": [
@@ -26,7 +30,8 @@
       "ownership_returned_by_frozen_packet",
       "official_external_release",
       "integrity_correction",
-      "publication_gate_reached"
+      "publication_gate_reached",
+      "draft_factory_hardening_request"
     ],
     "invalid_switch_reasons": [
       "difficulty alone",
@@ -86,7 +91,23 @@
       "comparison baseline and mimics",
       "calibration and holdout status",
       "adjudication without a native-vs-forced verdict"
-    ]
+    ],
+    "phenomenology_intake_guard": "Reject or return any packet that explicitly or implicitly converts fit quality, parameter freedom, mimicry, or data preference into a GU native-versus-forced judgment. GU performs that classification independently after intake."
+  },
+  "publication_seed_seam": {
+    "seed_owner": "drafting-factory",
+    "discovery_rule": "When GU identifies a credible paper-shaped opportunity, send a minimal seed proposal to the Drafting Factory mailbox immediately. Do not wait for full hardening and do not open a parallel GU publication-priority queue.",
+    "seed_is_not": "A seed is not a drafting authorization, novelty verdict, claim-grade change, publication decision, or JoeOps notification.",
+    "minimum_seed_fields": [
+      "working title and stable seed slug",
+      "GU source revision and durable evidence pointers",
+      "possible contribution and audience",
+      "verbatim current grade and open conditionalities",
+      "known overlap or merge candidates",
+      "explicit no-external-action posture"
+    ],
+    "return_rule": "Only after Drafting Factory has production capacity and selects the seed may it send GU a scoped hardening proposal. The daily GU steward treats that proposal as a valid priority signal, not a command, and decides its weight against the protected research portfolio.",
+    "hardening_return": "GU returns source-owned proof, novelty, citation, reproducibility, or scope work through a frozen provenance-bearing packet. Drafting Factory owns drafting priority; GU retains research grade, native-versus-forced, and claim-status authority."
   },
   "joeops_signal_triggers": [
     "major claim killed, downgraded, or unexpectedly strengthened",
@@ -112,7 +133,7 @@
       "construction_fork": "Use the GU-native symmetry, quotient, and source constraints. Compare, but do not silently replace them with, the standard SM effective-field-theory parameterization.",
       "next_swing": "Compute the basis-invariant dimension of the surviving Yukawa coefficient space after every built GU symmetry, quotient, and source constraint. Carry the calculation through a counterexample search, a machine-checkable rank receipt, and a decision-grade note.",
       "kill_condition": "Any independent GU-specific coefficient that can absorb the proposed mass or mixing relation kills the zero-parameter prediction family at the current construction grade.",
-      "switch_condition": "If a zero-parameter invariant survives, freeze it before PDG confrontation and move to FLAVOR-OBS. If none survives, close the family negatively and activate NORM-RANK.",
+      "switch_condition": "Three-way branch: if a zero-parameter invariant survives, freeze it before PDG confrontation and move to FLAVOR-OBS. If the quotient only reduces freedom to a nonzero-dimensional invariant space, record the exact residual dimension and any coefficient-independent relations, close every absorbed positive prediction, and continue only with relations that survive that residual. If no invariant restriction survives, close the family negatively and activate NORM-RANK.",
       "forbidden_shortcut": "Do not count a texture support pattern, fitted coefficient, basis-dependent zero, or imported observed mass as a prediction."
     },
     {
@@ -129,7 +150,7 @@
       "next_swing": "Compute all invariant combinations under allowed field rescalings among kappa, Z_U, mu_DW, source normalization, and physical pole parameters. State exactly which absolute scales and dimensionless ratios survive.",
       "kill_condition": "If no absolute dimensionless relation survives, close the fixed-range gravity and fixed-pole-scale prediction routes until new native dynamics is supplied.",
       "switch_condition": "A surviving native invariant activates a blind POLE-PACKET. A null result redirects prediction effort away from absolute scales.",
-      "forbidden_shortcut": "Do not use the observed dark-energy density or an experimental target to select the normalization."
+      "forbidden_shortcut": "Do not use the observed dark-energy density or an experimental target to select the normalization. A rank calculation can locate surviving invariants but does not by itself construct the open native source datum."
     },
     {
       "id": "PRED-FLAVOR-OBS",
@@ -172,6 +193,7 @@
       "score": {"impact": 4, "information_gain": 5, "readiness": 2, "distinctiveness": 2, "time_sensitivity": 5, "effort": 2, "wall_risk": 2, "duplication_risk": 1},
       "depends_on": [],
       "current_authority": "W226 supersedes W223 for the firing statistic. The current preregistered two-sigma edge margin is +1.11. W223's +0.032 was the DESY5 central-value margin and is not the firing margin.",
+      "evidence_source": "explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md and tests/W226_de_tripwire.py; any frozen monitor packet must cite and rerun these sources rather than copy the config constant.",
       "next_swing": "On an official new data release, verify provenance, add the frozen row to the existing monitor, and evaluate the predeclared two-sigma edge without retuning GU.",
       "kill_condition": "F1 fires only if an admissible data combination excludes w_a/(w_0+1) > -3.5 at two sigma, meaning its least-negative two-sigma edge is below -3.5.",
       "switch_condition": "No hourly run before verified new data. A fired tripwire is a Joe signal and a scientific-status review point.",
@@ -187,10 +209,26 @@
       "priority_score": 18,
       "score": {"impact": 4, "information_gain": 4, "readiness": 4, "distinctiveness": 3, "time_sensitivity": 1, "effort": 3, "wall_risk": 2, "duplication_risk": 1},
       "depends_on": [],
-      "next_swing": "Specify the exact Lean-sized W243/GU-002 extremal-weight kernel, separating abstract nilradical/extremal-weight deduction from the GU carrier premises, then implement only if the statement is stable and mathlib-feasible.",
+      "next_swing": "First establish a fresh default-target lake build baseline through the required host-local wrapper. Then fold the already-written sorry-free and axiom-free R4_TwoArena certificate into the default target and retire the un-typechecked A1 draft duplicate so it cannot be cited as a certificate. Only after those cheap integrity wins specify the W243/GU-002 extremal-weight kernel.",
       "kill_condition": "If the proposed Lean statement requires hiding representation faithfulness, physical interpretation, full Sp(32,32;H) construction, or interacting QFT as an axiom, leave it prose/Python and choose the next eligible finite kernel.",
       "switch_condition": "Use as reserve when the primary lane is genuinely blocked or after a primary decision-grade swing. Never promote it because it is easier to finish.",
       "forbidden_shortcut": "Lean verifies deduction from explicit premises. It does not prove that the premises are GU's physical realization."
+    },
+    {
+      "id": "DEP-NATIVE-SOURCE-DATUM",
+      "title": "Track the Y14 F_A spectral-section/source-action datum and native normalization",
+      "track": "deepest_theoretical_dependency",
+      "state": "GATED_P2C",
+      "owner": "possibility-to-capability constructs the transferred source-action frontier; gu-formalization retains native-versus-forced and grade authority",
+      "hourly_eligible": false,
+      "priority_score": 16,
+      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 1},
+      "depends_on": [],
+      "current_authority": "This is the deepest unresolved GU-native dependency, not a solved or low-value problem. The Y14 F_A C2 spectral-section/source-action datum and native normalization remain load-bearing for the count value, the record-bit interpretation, bar(b), and the strongest absolute or dynamical prediction routes. Joe's Track B pivot transferred construction work to possibility-to-capability so GU does not keep attacking the same wall.",
+      "next_swing": "Track exact open inputs and accept only a frozen p2c construction or falsification packet. GU independently adjudicates which returned ingredients are native, imported, fitted, or merely assumed.",
+      "kill_condition": "No GU-local kill is available while construction is transferred. A p2c no-go or proof that the datum remains freely specifiable would close the associated forced-value routes at the returned grade.",
+      "switch_condition": "Re-enter active GU work only on a frozen p2c return, a new GU-native construction not duplicating p2c, or Joe's explicit change of the Track B pivot.",
+      "forbidden_shortcut": "Do not call the frontier solved, and do not let the operational Track B label erase its deeper foundational role."
     },
     {
       "id": "DEP-PROP1",
@@ -223,6 +261,22 @@
       "forbidden_shortcut": "Do not flatten this condition into an unconditional physical GU result."
     },
     {
+      "id": "PHYSICAL-C-CONDITIONAL",
+      "title": "Study boundary-conditioned physical-C consequences under an explicit adapter assumption",
+      "track": "conditional_byproduct",
+      "state": "READY",
+      "owner": "gu-formalization for deduction under a named assumption; possibility-to-capability retains adapter construction",
+      "hourly_eligible": true,
+      "priority_score": 16,
+      "score": {"impact": 5, "information_gain": 4, "readiness": 3, "distinctiveness": 4, "time_sensitivity": 1, "effort": 4, "wall_risk": 4, "duplication_risk": 2},
+      "depends_on": [],
+      "construction_fork": "Assume a precisely typed boundary/firewall adapter A and the required favorable branch conditions. Every theorem must be stated as GU consequences given A; A is not a GU construction or verified physical realization.",
+      "next_swing": "Choose one finite consequence whose failure would be informative even under the adapter assumption, such as consistency of a boundary-conditioned C metric or existence of one gauge-independent observable, and prove or kill it with the assumption visible in the theorem statement and title.",
+      "kill_condition": "If no positive metric or gauge-independent observable exists even under the explicit adapter axiom, return a conditional no-go to p2c and close that consequence branch.",
+      "switch_condition": "The daily steward may select this as a grade-capped conditional study when it has higher information value than reserve work. A real physical construction remains gated on a frozen p2c return.",
+      "forbidden_shortcut": "Do not count a conditional consequence as a GU-built adapter, a closed-interior quotient, H59 closure, or a physical prediction."
+    },
+    {
       "id": "PHYSICAL-C-BOUNDARY",
       "title": "Construct a boundary-conditioned physical metric and observable",
       "track": "north_star_gated",
@@ -231,11 +285,11 @@
       "hourly_eligible": false,
       "priority_score": 16,
       "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 1},
-      "depends_on": ["DEP-PROP1", "DEP-W235-RECORD"],
+      "depends_on": ["DEP-NATIVE-SOURCE-DATUM", "DEP-PROP1", "DEP-W235-RECORD"],
       "current_authority": "The closed-interior positive-C construction is excluded for every native order-parameter class. Only a boundary-conditioned version remains relevant.",
       "next_swing": "After a valid p2c adapter return, specify the constrained physical state space, boundary-conditioned C metric, and one gauge-independent interacting observable.",
       "kill_condition": "No positive boundary-conditioned physical sector or no gauge-independent observable kills downstream pole and interference packets.",
-      "switch_condition": "Activate only after frozen adapter provenance and explicit branch conditions are present.",
+      "switch_condition": "Activate the construction claim only after frozen adapter provenance and explicit branch conditions are present. Conditional studies before that return belong in PHYSICAL-C-CONDITIONAL and remain assumption-capped.",
       "forbidden_shortcut": "Do not queue a closed-interior physical quotient under a renamed description."
     },
     {
