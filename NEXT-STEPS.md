@@ -2,10 +2,29 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-14"
+updated_at: "2026-07-15"
 ---
 
 # Next Steps For Contributors
+
+> **2026-07-15 TRACK B B1 RESULT (W239): SCAN COMPLETE, NO CURRENT PASSING PREDICTION.** The focused
+> adversarial census found **no GU result that is simultaneously built-GU-forced, quantitative,
+> calibration-independent, distinctive, a physical observable, confrontable, and robust.** The priority
+> Standard Model Yukawa route is now closed negatively: the derived `Z/3` fixes three allowed matrix entries
+> but all three coefficients remain free, so it emits no mass or coupling relation. The sharpest quantitative
+> conditional is H36's `c_L=3/8` DeWitt-density to massive-spin-2 lock, `alpha=1/3` and
+> `lambda=60.0..73.6 um`; it is **not GU-forced**, imports the observed dark-energy density, is not distinctive
+> from standard massive-spin-2 phenomenology, and is **already excluded**. Retain it as
+> **KILLED_CONDITIONAL**, not as a GU prediction. The mirror sector is the most distinctive structural seed,
+> but W237 now proves its chirality-safe channel S does not compactify, while channel D compactifies only
+> by killing chirality; its interacting physical-state status, mass, splittings, and branching fractions
+> remain unbuilt.
+> **Exact Track B reopen burden:** derive one dimensionless flavor invariant with zero free coefficients, one
+> GU-native scale relation without target data, or one complete physical mirror observable. Do not substitute a
+> generic dark-energy feature, an action property, or a free-scale family. See
+> `explorations/W239-track-b-distinctive-prediction-scan-2026-07-15.md` and
+> `tests/W239_track_b_distinctive_prediction_scan.py` (exit 0). Exploration-tier only; `bar(b)` and `H59`
+> remain OPEN; no canon/verdict/claim-status movement.
 
 > **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (LATEST; top of the queue; HOURLY RUNS WORK THIS): BUILD THE DYNAMICAL GOOD-STABLE STABILIZER -- the one consolidated object.**
 > The six-lane gap-closure wave (W228-W233, consolidated in `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md`)
@@ -22,10 +41,10 @@ updated_at: "2026-07-14"
 > may use the killed Godel / one-bit framing as a premise.
 >
 > **SECONDARY hourly work:**
-> 1. **Track B (B1) -- the distinctive-novel-prediction SCAN.** Extract GU's sharpest distinctive checkable
->    prediction (not used to build GU) and confront it, **prioritizing a Yukawa / coupling relation checkable
->    NOW** over a 2027-gated dark-energy feature (generic "GU predicts dynamical dark energy" is TOO WEAK). Still
->    untouched by the wave.
+> 1. **Track B (B1) -- COMPLETE AS A NEGATIVE SCAN (W239).** No current candidate clears the seven
+>    prediction gates. The Yukawa route emits support but no values; the H36 quantitative conditional is
+>    not GU-forced and is excluded. Reopen only with a derived dimensionless flavor invariant, a native scale
+>    relation, or a complete physical mirror observable.
 > 2. **Characterize the W154 posit (`c_kin = 0`, A4):** decide whether it is **acceptable-as-axiom** (the
 >    marble/wood emergence axiom -- no fundamental kinetic term for the connection distortion) or **derivable**
 >    from GU-native structure.

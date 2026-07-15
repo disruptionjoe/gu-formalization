@@ -307,10 +307,25 @@ line: **NOT proven-modulo-one-bit.**
 **Residuals beyond the central object:**
 - The two normalization scales `{kappa, Z_U}` (W187's fade **dynamically discharges the magnitude**).
 - W154 as a named posit (A4): accept-as-axiom or seek a deeper derivation (`c_kin = 0`).
-- Track B (a confirmed novel prediction) **still untouched.**
+- Track B B1 was subsequently scanned in W239. **No current candidate passes** the forced, quantitative,
+  calibration-independent, distinctive, observable, confrontable, and robust gates. The priority Yukawa route
+  emits support but no values. The H36 DeWitt-to-spin-2 relation is the sharpest quantitative conditional, but
+  it imports the observed dark-energy density and is already excluded. Track B therefore remains unsatisfied;
+  its scan is complete, and its exact reopen burden is a dimensionless flavor invariant, a GU-native scale
+  relation without target data, or a complete physical mirror observable.
 
 **The count is now honestly an ACCOMMODATION, not a prediction** (A6). No canon or verdict moves:
 `bar(b)` and `H59` stay OPEN; the count stays `{1,3}`.
+
+## 2026-07-15 TRACK B B1 RESULT (W239)
+
+The candidate scan is complete. Its honest result is
+`NO_CURRENT_DISTINCTIVE_CONFIRMED_PREDICTION`. This is a completed negative search result, not a
+completed prediction. The full seven-gate census, conditional H36 confrontation, construction forks,
+and machine-checkable reopen conditions are in
+`explorations/W239-track-b-distinctive-prediction-scan-2026-07-15.md` and
+`tests/W239_track_b_distinctive_prediction_scan.py`. No higher-order-truth bar moves. `bar(b)` and
+`H59` remain OPEN.
 
 ---
 
