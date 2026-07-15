@@ -75,7 +75,7 @@ def listed_direct_process_files(text: str) -> set[str]:
         normalized = raw_path.replace("\\", "/")
         if "/" in normalized or "\\" in raw_path:
             continue
-        if normalized.endswith((".md", ".py")) and normalized != "README.md":
+        if normalized.endswith((".md", ".py", ".json")) and normalized != "README.md":
             listed.add(normalized)
     return listed
 

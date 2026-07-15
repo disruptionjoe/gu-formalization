@@ -103,6 +103,7 @@ selected notes below and in each script header.
 - `quantum_gravity_reframing_audit.py`
 - `reproduce_harness_scope_audit.py`
 - `reproduction_docs_consistency_audit.py`
+- `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`

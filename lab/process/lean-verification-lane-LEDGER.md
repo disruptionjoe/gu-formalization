@@ -9,9 +9,11 @@ owner_surface: lab/process/runbooks/lean-verification-run.md
 
 # Lean Verification Lane — Ledger and Queue
 
-**Purpose.** This is the standing work-queue for the Lean verification lane. Discovery (big
-swings, new mechanisms) happens in interactive maintainer sessions; **hourly / progress runs work
-THIS lane** — formalizing already-proven finite theorems in Lean 4 + mathlib so the paper's
+**Purpose.** This is the standing work-queue for the Lean verification reserve lane. Discovery (big
+swings, new mechanisms) happens in interactive maintainer sessions. Hourly Progress works this lane only
+when `lab/process/research-portfolio.json` selects the reserve. Formalizing a finishable theorem must not
+displace the protected North-Star lane merely because Lean has a monotone success condition. The lane
+formalizes already-proven finite theorems in Lean 4 + mathlib so the paper's
 deductive spine carries machine-checked proof, not prose. Convergent by design: each item either
 typechecks to exit 0 with no `sorry`/`axiom`, or it does not. See the runbook for the run loop.
 
@@ -62,15 +64,18 @@ closes is the 2026-07-06/07 swing results, none of which are yet in Lean.
 | **E** | **chi-parity split: `chi K chi = -K => t_n` chi-even, `q_n` chi-odd => chi-symmetric potential cannot select orientation** | A2 (`as_a2b_native_ring_symmetry_nogo.py`) | NUMPY-CERT | MEDIUM (trace parity under conjugation) | bounded no-go: import = one sign bit |
 | **F** | **Cartan structural core: `theta^2 = id`, `B_theta > 0` on even part, even part = max compact** | V2 (`vg_v2_fourth_seat_gauge_indefiniteness.py`) | NUMPY-CERT | MEDIUM (abstract Cartan involution; the `theta = K` identity stays NUMPY-CERT) | fourth seat = quantization seat |
 | **G** | **V8 mirror map core: for an involution `Q5`, `Pi_mirror = (I - Q5)/2` projects, gaps one K-half, `[M,P]=0`** | V8 (`vg_v8_t5_map_attempt.py`) | NUMPY-CERT | MEDIUM (projector algebra of an involution) | mirror mechanism kinematics |
+| **H** | **Extremal-weight stabilizer core: the relevant raising/lowering nilradical annihilates an extremal weight vector, so an explicit nonzero nilpotent lies in its stabilizer** | W243 / GU-002 / W244 (`W243_charged_corridor_closure.py`, `W244_reverify_good_stable_nogo.py`) | STRUCTURAL + NUMPY-CERT | MEDIUM (abstract graded-representation deduction; native-carrier and full-arena premises remain explicit hypotheses) | good-stable compactification no-go |
 
-The paper legs T1-T3 are done. Items A-G are the lane's work, roughly in priority order (A, B, C
-first: highest feasibility × load-bearing).
+The paper legs T1-T3 are done. Items A-H are the lane's work. The portfolio currently prefers H because
+it protects the newest load-bearing no-go; A, B, and C remain the highest-feasibility older kernels.
 
 ---
 
 ## Part C — The prioritized queue (what an hourly run picks up)
 
-Work top-down; each item = one Lean theorem file + a ledger status flip to LEAN-VERIFIED.
+Select by portfolio value and statement stability, not finishability alone. Each item is one coherent Lean
+kernel plus its ledger receipt. The current preferred new kernel is H because it protects the recent no-go
+from the exact overstatement W244 found in W241. L0 remains mandatory after real toolchain drift.
 
 - **L0 — re-confirm the baseline build is green.** `lake build GUFormalization` exit 0, no
   sorry/axiom in the four verified files. (First run only, and after any mathlib bump. Cheap,
@@ -94,6 +99,12 @@ Work top-down; each item = one Lean theorem file + a ledger status flip to LEAN-
   structural cores. MEDIUM.
 - **L7 — repair `R4_TwoArena.lean`** (2 API-drift fixes) and triage the 3 older broken lib files
   (repair or retire with a note). Cleanup; always available when L1-L6 are blocked.
+- **L8 - Theorem H (extremal-weight stabilizer core).** First specify a theorem over an explicitly
+  graded finite-dimensional representation: a named nonzero raising or lowering nilpotent annihilates
+  an extremal vector and therefore belongs to its stabilizer. Keep the native `Sp(32,32;H)` realization,
+  Proposition 1, W235 record bit, and compactness interpretation outside the Lean conclusion unless they
+  are supplied as explicit hypotheses. Do not formalize W241's false frame-specific implication that every
+  compact-image isotropy commutes with one fixed `P`.
 
 ---
 

@@ -28,6 +28,8 @@ consistency workflow.
 Runbooks:
 
 - `runbooks/five-lane-frontier-run.md` - standard repo-local five-sub-agent frontier run.
+- `runbooks/daily-research-portfolio-stewardship.md` - daily priority and dependency reconciliation.
+- `runbooks/meaningful-hourly-progress-swing.md` - default substantial hourly Progress swing.
 - `runbooks/three-cycle-fifteen-hole-run.md` - three sequential five-lane runs for
   fifteen quality holes without padding weak lanes.
 - `runbooks/claim-status-consistency-quality-workflow.md` - required sweep for any
@@ -44,4 +46,6 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.
+- `paper-hardening-inventory.md` - paper portfolio, external-eyes ceiling, and overlap gates.
+- `research-portfolio.json` - machine-readable GU lane states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.

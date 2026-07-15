@@ -90,6 +90,47 @@ Lightweight upward-learning pointer: from this repo root, method/workflow-module
 
 Supports CapacityOS-orchestrated and direct repo-mounted runs. Automations are thin triggers; System run-packet/mode resolution plus workflow and this steward context supply the repo-local operation.
 
+### Daily research-portfolio reconciliation
+
+The daily Stewardship run also repairs GU-local coordination drift by reconciling
+`lab/process/research-portfolio.json` against completed run receipts, new commits, accepted frozen packets,
+dependency changes, falsifiers, survivors, integrity corrections, and official external releases. This is
+repo-owned priority maintenance, not CapacityOS or JoeOps ownership of research truth.
+
+Apply `lab/process/runbooks/daily-research-portfolio-stewardship.md`:
+
+- preserve one protected North-Star primary lane and at most one reserve/maintenance lane;
+- reprioritize only on a real scientific or dependency signal, never on difficulty, activity, or
+  finishability alone;
+- keep the primary lane from being displaced by easier Lean or paper-hardening work;
+- maintain the portfolio and the top operational block of `NEXT-STEPS.md` as steward-only steering
+  surfaces;
+- receive hourly priority signals through run receipts and synthesize them once daily;
+- route only event-driven, deduplicated high-signal items to JoeOps;
+- preserve GU's sovereign native-versus-forced call and require frozen packets at every cross-repo seam.
+
+The current hourly default is `lab/process/runbooks/meaningful-hourly-progress-swing.md`. Lean verification
+is an eligible reserve method, not the default research objective.
+
+When older operational-routing prose in `RESEARCH-POSTURE.md`, historical W-series registers, or superseded
+`NEXT-STEPS.md` blocks conflicts with the current portfolio, the portfolio controls run selection. This does
+not supersede the North Star, alter a scientific claim, or change a verdict.
+
+### Identifier and shared-surface rule
+
+The historical W-series is no longer allocated by hourly or direct Progress runs. Use the namespaced run IDs
+in the portfolio and semantic dated research filenames. This removes collisions between direct-chat and
+hourly work without requiring a remote lock service.
+
+Routine write ownership:
+
+- daily steward: `lab/process/research-portfolio.json` and the top operational block of `NEXT-STEPS.md`;
+- hourly run: its declared research/test/proof paths and ignored `steward/runs/` receipt;
+- claim workflow: `CANON.md` and other governed status surfaces.
+
+Every GU Lean/Lake invocation uses `lab/automation/check-lean.ps1`, serialized at `-j1`. Do not overlap a
+GU Lean build with another local Lean job.
+
 ## Local Source References
 
 - `RESEARCH-PROGRAM.md`
@@ -99,4 +140,8 @@ Supports CapacityOS-orchestrated and direct repo-mounted runs. Automations are t
 - `CONTRIBUTING.md`
 - `CANON.md`
 - `DERIVATION-PROGRESS.md`
+- `lab/process/research-portfolio.json`
+- `lab/process/paper-hardening-inventory.md`
+- `lab/process/runbooks/daily-research-portfolio-stewardship.md`
+- `lab/process/runbooks/meaningful-hourly-progress-swing.md`
 - `lab/process/runbooks/claim-status-consistency-quality-workflow.md`

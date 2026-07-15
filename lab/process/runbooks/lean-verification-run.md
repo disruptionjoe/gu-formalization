@@ -4,58 +4,60 @@ status: canon
 doc_type: runbook
 scope: repo-local
 created: 2026-07-07
+updated: 2026-07-15
 ledger: lab/process/lean-verification-lane-LEDGER.md
 ---
 
 # Lean Verification Run
 
-The default run type for **hourly / automated progress runs**. Its job is convergent hardening:
-turn already-proven finite theorems into machine-checked Lean, advancing the queue in
-`lab/process/lean-verification-lane-LEDGER.md`. Discovery — breaking no-gos, escaping obstructions,
-new mechanisms — is reserved for maintainer-directed sessions (see the rationale in
-`../../repos/public/ai-epistemology` on the automation-vs-directed division of labor, and
-`five-lane-frontier-run.md` for the discovery run type, now session-only by default).
+The reserve convergent-hardening run type. Its job is to turn already-stable finite theorems into
+machine-checked Lean, advancing `lab/process/lean-verification-lane-LEDGER.md` when the daily portfolio
+selects this lane.
 
-Why this is the automation default: the five-lane discovery run keeps hitting its no-progress HALT
-(claim promotions read zero), because divergent discovery is not reliably automatable. Lean
-verification is the opposite — every item either typechecks (exit 0, no `sorry`/`axiom`) or it does
-not, so a run always has a well-defined, monotone success condition.
+The hourly default is `meaningful-hourly-progress-swing.md`. Lean is a method inside the reserve lane,
+not an automatic priority. Its finishability must not displace a harder North-Star lane that has not
+been falsified or genuinely blocked.
 
 ## The run loop
 
-1. **Pick the top unblocked item** from the LEDGER Part C queue (L0 first on a cold start or after
-   any mathlib bump; then L1, L2, ... in order). One item per run is fine; the point is a
-   green typecheck, not volume.
-2. **Read the source certificate** the item names (the numpy/sympy script + its route doc) so the
-   Lean statement matches the computed result exactly, and so the computed matrix facts are carried
-   as explicit HYPOTHESES (the faithfulness boundary — Lean proves the deduction, not that the
-   matrices are GU's).
-3. **Write the Lean file** under `Lean/GUFormalization/` (or extend an existing one). Keep it
-   finite and elementary; prefer `omega`/`decide`/`ring`/`field_simp`/`norm_num` and named mathlib
-   lemmas over long tactic blocks.
-4. **Typecheck: `lake build GUFormalization`** (or the targeted file). It must exit 0 with no
-   `sorry` and no `axiom`. If it does not, either fix it within the run or leave it LEAN-PARTIAL
-   with a one-line note on the exact blocker — do not commit a red or `sorry`-carrying file as
-   verified.
-5. **Update the LEDGER**: flip the item's status (NUMPY-CERT/SYMPY-DERIVED -> LEAN-VERIFIED, or ->
-   LEAN-PARTIAL with the blocker), add the file to `Lean/README.md`'s certificate table with its
-   owner surface.
-6. **Commit** the Lean file + LEDGER + README by explicit path. A canon claim's status flip to
-   `verified` (in `RESEARCH-STATUS.md` / the paper's status table) still PAUSES for the maintainer —
-   append a one-line note to `../mailboxes/joeops/` proposing it; do not flip canon yourself.
+1. **Confirm portfolio selection.** The run receipt states why the protected primary lane is blocked,
+   complete for its current swing, or explicitly yielding to this reserve lane. Then pick the
+   highest-value unblocked stable kernel from the LEDGER Part C queue.
+2. **Read the source certificate.** Match the Lean statement to the computed result exactly. Carry
+   computed matrix facts as explicit hypotheses. Lean proves the deduction, not that the matrices are
+   GU's physical carrier.
+3. **Write the Lean file.** Use `Lean/GUFormalization/` or extend an existing file. Keep it finite and
+   elementary. Prefer named mathlib lemmas and small tactics over opaque tactic blocks.
+4. **Typecheck through the serialized guard:** `./lab/automation/check-lean.ps1`. The helper acquires
+   the GU build lock and runs `lake build -j1`. The build must exit 0 with no `sorry` and no `axiom`.
+   If it does not, fix it within the run or leave it LEAN-PARTIAL with the exact blocker. Do not commit
+   a red or `sorry`-carrying file as verified.
+5. **Update the ledger and Lean map.** Flip the selected item's local Lean status and add a precise owner
+   entry to `Lean/README.md` when a certificate becomes green.
+6. **Commit by explicit path.** Stage only the Lean file, ledger, and owner map that belong to the swing.
+   A scientific-status flip still pauses for Joe under repository governance. Lean verification of a
+   deduction alone does not authorize that flip.
 
-## Progress metric and HALT
+## Progress metric and halt
 
-Progress = at least one of: a queue item newly LEAN-VERIFIED; a LEAN-PARTIAL repaired; the baseline
-build re-confirmed green after a real drift. If **every** queue item is genuinely blocked (a true
-mathlib gap, not a solvable API-name drift), append a dated `## BLOCKED` note to the LEDGER with the
-exact obstruction and the human action needed, and HALT — do not manufacture a trivial file to
-appear busy. A run that only re-states "still blocked" is not progress.
+Progress is at least one of:
+
+- a newly LEAN-VERIFIED stable kernel;
+- a LEAN-PARTIAL item repaired;
+- a baseline build reconfirmed after real toolchain drift;
+- a proposed formalization rejected with an exact faithfulness, scope, or mathlib obstruction that
+  prevents an invalid theorem from entering Lean.
+
+If every eligible item is genuinely blocked, report the exact obstruction and halt. Do not manufacture
+a trivial theorem to appear busy.
 
 ## Scope guards
 
-- Lean checks finite kernels only; markdown owns interpretation, provenance, physics scope (per
-  `Lean/README.md`). Do not let a Lean file assert a physics claim.
-- The computed premises (carrier faithfulness, the actual matrix (anti)commutations) are inputs, not
-  Lean outputs. Never upgrade "the deduction is Lean-checked" to "the physics is Lean-proved."
-- No `git add -A`; stage the Lean file, the LEDGER, and the README by explicit path.
+- Lean checks finite mathematical kernels. Markdown owns interpretation, provenance, construction fork,
+  and physics scope.
+- Carrier faithfulness, actual matrix identities, full-arena transfer, Proposition 1, the W235 record bit,
+  and interacting physical realization remain explicit premises or external scope conditions.
+- Never formalize W241's false frame-specific implication that every compact-image isotropy commutes with
+  one fixed `P`. W244 showed the narrower order-parameter no-go survives by a different mechanism.
+- Do not let "Lean-verified deduction" become "physics proved."
+- Never use `git add -A`.

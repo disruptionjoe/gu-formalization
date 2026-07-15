@@ -8,12 +8,10 @@ updated_at: "2026-07-07"
 
 # Five-Lane Frontier Run
 
-> **ROUTING (2026-07-07, maintainer-directed).** This is the **DIVERGENT PROGRESS** run type (wall-breaking
-> / escaping local minima), session-directed by default. Automated / hourly progress runs default instead to
-> **CONVERGENT PROGRESS** (`lean-verification-run.md`, queue in `../lean-verification-lane-LEDGER.md`), which
-> always has a well-defined success condition; divergent work repeatedly hits this runbook's no-progress
-> HALT because it is not reliably automatable. See the run-topology system issue in ai-epistemology
-> (`governance/SYSTEM-ISSUE-run-topology-and-cross-repo-registry-consumption.md`).
+> **ROUTING (updated 2026-07-15, maintainer-directed).** This is the multi-lane divergent Progress run and
+> remains session-directed. Automated hourly Progress uses `meaningful-hourly-progress-swing.md`, which takes
+> one substantial, decision-grade swing from the steward-maintained portfolio. Lean verification is the
+> reserve lane, not the default objective. See `daily-research-portfolio-stewardship.md` for selection.
 >
 > **REGISTRY CONSUMPTION (prototype, 2026-07-07).** A divergent-progress lane that faces a genuine wall
 > should now draw its move from a source, in this order of provenness:

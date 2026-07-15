@@ -53,16 +53,23 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
         self.assertEqual("roadmap", self.metadata.get("doc_type"))
         self.assertIn("# Next Steps For Contributors", self.text)
 
-    def test_current_front_door_names_source_action_gravity_priority(self) -> None:
+    def test_current_front_door_names_steward_portfolio_priority(self) -> None:
+        current = self.text.split(
+            "[SUPERSEDED as the hourly queue by the steward-maintained portfolio above",
+            1,
+        )[0]
         required = (
-            "2026-07-11 PRIMARY PRIORITY",
-            "WORK THE OTHER FOUR LEGS",
-            "branch-fixed source action",
-            "write/derive the branch-3 source action with fixed coefficients",
-            "The concrete top TECHNICAL task now",
-            "HIGHER-CODIMENSION Willmore first variation",
+            "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
+            "PRED-FLAVOR-RANK",
+            "PRED-NORM-RANK",
+            "PROOF-STABLE-KERNELS",
+            "DE-F1-TRIPWIRE",
+            "GU-002 packages that result",
+            "Proposition 1",
+            "W235 record bit",
+            "no longer allocate W numbers",
         )
-        missing = [phrase for phrase in required if phrase not in self.text]
+        missing = [phrase for phrase in required if phrase not in current]
         self.assertEqual([], missing)
 
     def test_firewall_boundary_historical_thread_stays_attack_not_defend(self) -> None:

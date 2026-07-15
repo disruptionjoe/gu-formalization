@@ -7,7 +7,51 @@ updated_at: "2026-07-15"
 
 # Next Steps For Contributors
 
-> **2026-07-15 CURRENT OPERATIONAL QUEUE (W242; HOURLY TRACK B PREDICTION QUEUE; THIS NOW OWNS HOURLY RUNS).**
+> **2026-07-15 CURRENT OPERATIONAL QUEUE: STEWARD-MAINTAINED RESEARCH PORTFOLIO.**
+> The machine-readable owner is `lab/process/research-portfolio.json`. Daily stewardship reconciles that
+> portfolio against real falsifiers, dependency changes, frozen packet returns, integrity corrections, and
+> official releases. Hourly Progress uses `lab/process/runbooks/meaningful-hourly-progress-swing.md` and takes
+> one substantial, decision-grade swing. It does not edit this block or the portfolio.
+>
+> **Protected primary:** `PRED-FLAVOR-RANK`. Count the basis-invariant Yukawa coefficient freedom after every
+> built GU symmetry, quotient, and source constraint. Carry the swing through a counterexample search,
+> machine-checkable rank receipt, and written decision. Any surviving adjustable coefficient kills the current
+> zero-parameter mass/mixing family. If a zero-parameter invariant survives, freeze it before opening PDG data.
+>
+> **Next READY North-Star lane:** `PRED-NORM-RANK`. Compute the field-rescaling invariants among `kappa`,
+> `Z_U`, `mu_DW`, source normalization, and physical pole parameters. A null result closes the fixed-range and
+> fixed-pole-scale prediction routes until new native dynamics exists. Do not import the observed dark-energy
+> density or an experimental target to fix the normalization.
+>
+> **Reserve only:** `PROOF-STABLE-KERNELS`. The next preferred Lean-sized target is the W243/GU-002
+> extremal-weight stabilizer deduction, with every native-carrier and full-arena premise explicit. W244's
+> counterexample forbids formalizing W241's stronger frame-specific claim. Lean is reserve work and cannot
+> displace the protected primary because it is easier to finish.
+>
+> **Diagnostic READY, not decisive prediction:** `DE-AMP-DIAGNOSTIC`. Re-solve the CMB-calibrated amplitude
+> with GU's own full `D_M(z_*)`, then return an official-H46B likelihood adjudication. This is data hygiene and
+> compatibility testing, not a native distinctive prediction.
+>
+> **Passive monitor:** `DE-F1-TRIPWIRE`. It is a one-sided falsification ceiling, never a positive prediction.
+> W226 supersedes W223 for the firing statistic: the current two-sigma edge margin is `+1.11`; the old `+0.032`
+> number was one DESY5 central-value margin. No hourly run occurs until verified new data arrive.
+>
+> **Closed or gated work:** the native mirror route is resolved as a no-go by W234/W237/W240/W241/W243;
+> GU-002 packages that result. The exotic nonextremal corridor is mathematically open but GU-non-native.
+> Closed-interior `PHYSICAL-C` is excluded. A boundary-conditioned physical metric is `GATED_P2C` on a frozen
+> firewall-adapter return. Proposition 1 and the favorable W235 record bit remain explicit live conditions.
+> `bar(b)` and `H59` remain OPEN.
+>
+> **Collision rule:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
+> and `GUS` run IDs plus semantic dated research filenames. The daily steward alone writes the portfolio and
+> this top block. Hourly runs own only their declared research/test/proof paths and ignored run receipt.
+>
+> **Paper ceiling:** `observer-value-selection-theorem` is locally ready for external eyes, and
+> `located-not-forced` has been judged arXiv-ready internally while remaining Joe-deferred. They are
+> `NEEDS_JOE`, not hourly polish. See `lab/process/paper-hardening-inventory.md`.
+
+> **[SUPERSEDED as the hourly queue by the steward-maintained portfolio above; retained as W239/W242 prediction-workstream history.]**
+> **2026-07-15 W242 OPERATIONAL QUEUE (HISTORICAL).**
 > W239's ten personas produced 30 possible prediction targets but no current passing prediction. W242 maps all
 > 30 targets exactly once into a dependency-aware queue. Each hourly run takes the **highest-ranked READY**
 > packet, attacks its first kill condition, and leaves one bounded machine or proof receipt. A negative result

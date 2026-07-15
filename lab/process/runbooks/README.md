@@ -8,10 +8,15 @@ appropriate, what it is allowed to change, and what closeout evidence it must le
 - [`claim-status-consistency-quality-workflow.md`](claim-status-consistency-quality-workflow.md) -
   required sweep before a promotion, downgrade, correction, or other status-changing
   claim edit.
+- [`daily-research-portfolio-stewardship.md`](daily-research-portfolio-stewardship.md) -
+  daily GU-local reconciliation of research priorities, dependencies, run receipts, and
+  high-signal JoeOps routing.
 - [`five-lane-frontier-run.md`](five-lane-frontier-run.md) - maintainer-directed divergent
   frontier run for ambitious, non-overlapping proof, bridge, no-go, or computation lanes.
-- [`lean-verification-run.md`](lean-verification-run.md) - convergent Lean verification lane
-  for automated or hourly progress when the selected item is already finite and checkable.
+- [`meaningful-hourly-progress-swing.md`](meaningful-hourly-progress-swing.md) - default hourly
+  GU Progress run for one substantial, decision-grade swing from the steward-maintained portfolio.
+- [`lean-verification-run.md`](lean-verification-run.md) - reserve Lean verification lane
+  when the portfolio selects an already stable, finite, checkable kernel.
 - [`three-cycle-fifteen-hole-run.md`](three-cycle-fifteen-hole-run.md) - sequential wrapper for
   three five-lane frontier cycles with integration, validation, commit, and push after each
   cycle.

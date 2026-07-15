@@ -6,16 +6,54 @@ param(
 $ErrorActionPreference = "Stop"
 
 if (-not (Get-Command lake -ErrorAction SilentlyContinue)) {
-    Write-Error "Lake is not installed or not on PATH. Install Lean/elan, then rerun this script."
+    [Console]::Error.WriteLine("Lake is not installed or not on PATH. Install Lean/elan, then rerun this script.")
     exit 127
 }
 
-if ($Update) {
-    lake update
-}
+# All GU Lean invocations use this wrapper. The exclusive file handle prevents
+# direct-chat and scheduled GU runs from starting overlapping local builds.
+# The workspace contract still forbids overlapping Lean work in other repos.
+$lockRoot = Join-Path ([System.IO.Path]::GetTempPath()) "CapacityOS-locks"
+New-Item -ItemType Directory -Force -Path $lockRoot | Out-Null
+$lockPath = Join-Path $lockRoot "lean-build.lock"
+$lockStream = $null
 
-if ($Cache) {
-    lake exe cache get
-}
+try {
+    try {
+        $lockStream = [System.IO.File]::Open(
+            $lockPath,
+            [System.IO.FileMode]::OpenOrCreate,
+            [System.IO.FileAccess]::ReadWrite,
+            [System.IO.FileShare]::None
+        )
+    }
+    catch [System.IO.IOException] {
+        [Console]::Error.WriteLine("Another Lean/Lake build holds the CapacityOS lock: $lockPath")
+        exit 75
+    }
 
-lake build
+    $receipt = [System.Text.Encoding]::UTF8.GetBytes(
+        "pid=$PID`nstarted_utc=$([DateTime]::UtcNow.ToString('o'))`nrepo=$((Get-Location).Path)`n"
+    )
+    $lockStream.SetLength(0)
+    $lockStream.Write($receipt, 0, $receipt.Length)
+    $lockStream.Flush()
+
+    if ($Update) {
+        lake update
+        if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+    }
+
+    if ($Cache) {
+        lake exe cache get
+        if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
+    }
+
+    lake build -j1
+    exit $LASTEXITCODE
+}
+finally {
+    if ($null -ne $lockStream) {
+        $lockStream.Dispose()
+    }
+}

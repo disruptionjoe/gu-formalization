@@ -3,7 +3,8 @@
 Machinery and provenance for the repository's automated research cadence (the hourly run loop), plus a Lean
 check helper. This is **operational record, not load-bearing research** -- an outsider can safely skip it.
 
-- `check-lean.ps1` — helper to run the Lean checks locally.
+- `check-lean.ps1` - required GU Lean/Lake wrapper. It acquires an exclusive CapacityOS temp lock and
+  runs `lake build -j1`, preventing direct-chat and scheduled GU builds from overlapping.
 - `runs/` — per-run prompts and logs from automated cycles.
 - `evidence/` — captured outputs / receipts from runs.
 - `logs/` — run logs.
