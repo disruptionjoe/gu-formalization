@@ -2,35 +2,49 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-11"
+updated_at: "2026-07-14"
 ---
 
 # Next Steps For Contributors
 
-> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (top of the queue; HOURLY RUNS WORK THIS): the W189 HARDENING REGISTER.**
-> The 2026-07-14 substrate/open-system arc (W144-W188; full summary on JoeOps WI-068) reduced the whole
-> bar-(b) / loop-unitarity question to ONE cross-repo sign bit: W187 showed GU's own record-accretion fade
-> DYNAMICALLY DISCHARGES the coupling-magnitude leg (the good coupling grows to cross r* at a finite cosmic
-> epoch for every positive magnitude), leaving only the reservoir Krein SIGN, a TI/TaF finality datum GU
-> cannot fix alone. It also produced a full hardening register at
-> `explorations/W189-hardening-register-2026-07-14.md` (impact-vs-difficulty matrix; quick-wins; ranked
-> big-bets). The QUICK WINS (hygiene/gates, paper-honesty edits, the shape-blind c_R and a2-coincidence
-> notes, claim-status deltas) are being executed in-session -- HOURLY RUNS SHOULD NOT REDO THEM. HOURLY RUNS
-> SHOULD WORK THE RANKED BIG BETS, in order: (1) the GENERIC-CAPTURE LEMMA -- cheapest discharge is ONE
-> dressed r* computation (extends W187) that turns the open-Krein loop-unitarity result from toy to
-> class-level; (2) the ALL-ORDERS interacting keep-and-grade metric (the sole remaining unitarity resource
-> after W132; W169/W179 at conditional-on-sub-threshold); (3) the QFT-lift of the open-Krein finite-model
-> theorems; (4) the 2-loop CLOP residual (mostly closed, W124/W134). These ARE the source-action /
-> one-construction North Star named below, now organized and prioritized. Each hourly run: take ONE bounded
-> register item, leave an executable/packet receipt, keep canon/paper promotion Joe-gated. NORTH STAR
-> unchanged: drive GU to falsifiability + maximize coherent-picture learning; the GU-independent no-gos are
-> the credibility currency; the broader-story/interpretation channel is Joe's X (labeled intuition), never
-> the papers.
+> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (top of the queue; HOURLY RUNS WORK THIS): derive the native physical good stable and its grading.**
+> The adversarial hardening of
+> `papers/drafts/structurally-forced-internally-undecidable/` killed the previous one-free-`Z/2` theorem.
+> For the assumed `O(p)xO(q)` or `SO(9)xSO(5)` compact stabilizer, the admissible fundamental symmetry is
+> UNIQUE. If a proper compact subgroup has the same irreducible type on both signs, the residual is normally
+> a CONTINUOUS homogeneous space, not one bit. Therefore the next decisive question is not "which of two
+> signs?" It is "what is GU's actual physical state, stabilizer, and observable representation?" Hourly
+> runs work the following sequence IN ORDER, taking one bounded falsifiable sub-goal per run and leaving an
+> executable or packetized receipt:
+>
+> 1. **DERIVE THE NATIVE GOOD-STABLE STATE AND STABILIZER.** Start from the program-native
+>    `Sp(32,32;H)` keep-and-grade dynamics. Identify the actual stationary vacuum or rolling attractor,
+>    its order parameter and defining tensors, then compute their stabilizer. Do not assume an operative
+>    `C`, a positive majorant, or `SO(9)xSO(5)`. If no good stable exists inside validity, prove that input
+>    failure and state what nonperturbative completion would be required.
+> 2. **BUILD THE PHYSICAL STATE SPACE AND OBSERVABLE ALGEBRA.** Specify the constrained state complex or
+>    physical quotient, the native Krein pairing, and the interacting observables whose commutant can
+>    meaningfully constrain a physical metric. A finite positive-Hilbert or BdG proxy is not a substitute.
+> 3. **COMPUTE THE REAL ISOTYPIC DECOMPOSITION.** Decompose the physical representation under the derived
+>    stabilizer, including real, complex, and quaternionic commutant types and their positive/negative
+>    multiplicity signatures.
+> 4. **READ UNIQUENESS OR MODULI FROM THE DECOMPOSITION.** Check whether any irreducible type occurs with
+>    both signs. No shared type means a unique admissible grading; shared types give the exact continuous
+>    residual dimension `sum dim_R(D_lambda) a_lambda b_lambda`. Report either result without trying to
+>    recover a predetermined `Z/2`.
+> 5. **CONSTRUCT THE INTERACTING GRADING AND TEST NATIVE UNITARITY.** Build the actual `P` or `C` and
+>    scattering/evolution operator `S`; establish or kill `[P,S]=0`, including counterterm closure,
+>    spectral/Jordan control, infrared treatment, Rarita-Schwinger constraint closure, and projected
+>    optical-theorem/Born-positivity gates. This is the H59 completion, not a positive-metric proxy.
+>
+> The W189 register remains historical input, especially for step 5, but it is NO LONGER the hourly queue.
+> W203's ultralocal source kernel and W154 dependency are inputs to steps 1 and 2, not evidence that those
+> steps are complete. No hourly run may use W211's Godel/one-bit language as a premise; the hardening report
+> supersedes it for this question. Keep bar (b) and H59 OPEN unless Joe authorizes an actual verdict change.
 
-> **Still-open paths the W189 register does NOT cover (co-equal North Stars, 2026-07-14 reconcile).**
-> The W189 hardening register is the LOOP-UNITARITY queue (the reservoir-Krein-sign / open-system bar-(b)
-> thread). The following are DISTINCT still-open work and must not be dropped just because they are absent
-> from that register:
+> **Other still-open paths (co-equal North Stars, 2026-07-14 reconcile).**
+> The following are DISTINCT still-open work and must not be dropped merely because the native-good-stable
+> derivation is now the hourly queue:
 > 1. **Source-action / branch-3 gravity-leg construction** -- the source-action buildbench worklist
 >    (write/derive the branch-fixed source action; it decides gravity and pins the count).
 > 2. **The (9,5)-vs-(7,7) signature crux + the Bach-branch ELProjectedGRShadow gravity test** (the OQ2-A
@@ -39,7 +53,7 @@ updated_at: "2026-07-11"
 > 4. **LANE-SM-BOUNDARY novel-physics lane.**
 > 5. **The OBJ-DG and OBJ-NGUYEN crown-jewel writeups.**
 
-> **[SUPERSEDED by the 2026-07-14 top block]** Loop-unitarity work is tracked in the W189 register; the source-action / gravity leg is tracked separately (see the seam-fix section above) and must not be dropped.
+> **[SUPERSEDED by the 2026-07-14 top block]** The W189 loop-unitarity register is historical input. The native-good-stable sequence above now governs hourly work; the source-action / gravity leg remains separately tracked and must not be dropped.
 >
 > **2026-07-11 PRIMARY PRIORITY (top of the queue; supersedes the count/firewall thread as #1): WORK THE OTHER FOUR LEGS.**
 > The generation-count / located-not-forced / source-action thread is at MAXIMUM HARDENING (complete forcing
@@ -785,7 +799,7 @@ live in `lab/roadmap/objection-triage-register.md`. Each row below is OPEN and l
 
 > **[historical archive] The 2026-06-23-dated sections below are detailed historical derivation rows.**
 > They are retained for provenance; current status is governed by the guards at the top of this file and
-> the W189 hardening register. Do not read them as current priorities.
+> the native-good-stable queue at the top of this file. Do not read them as current priorities.
 
 ## 2026-06-23 Follow-Up Execution Result
 
