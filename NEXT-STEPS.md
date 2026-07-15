@@ -7,6 +7,46 @@ updated_at: "2026-07-14"
 
 # Next Steps For Contributors
 
+> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (LATEST; top of the queue; HOURLY RUNS WORK THIS): BUILD THE DYNAMICAL GOOD-STABLE STABILIZER -- the one consolidated object.**
+> The six-lane gap-closure wave (W228-W233, consolidated in `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md`)
+> collapsed GU's conditionality onto essentially **ONE central object.** The hourly queue now points at it:
+>
+> **TOP HOURLY TARGET: build the DYNAMICAL good-stable stabilizer and prove or refute the operative-`C` /
+> Krein-grading at the DYNAMICAL (quantization) level.** Equivalently -- these are the same object -- decide
+> whether the **Cartan-involution `Z2` is operative** (mirror = conserved RECORD; W173) and show the dynamical
+> good-stable stabilizer **non-coincident**. Closing this single object **discharges A1's residual + A3's bit +
+> `bar-b` (loop unitarity) + the true-vacuum health AT ONCE** (and bears on W216's good-branch selection). It
+> **LEANS FAVORABLE** -- A1 forced it KINEMATICALLY, every derivable candidate stabilizer is non-coincident, A3
+> leans realizes -- but it is **UNBUILT at the dynamical level**, and it is the same object that took the
+> Godel-kill this week in a different framing. Hold the honest line: **NOT proven-modulo-one-bit.** No hourly run
+> may use the killed Godel / one-bit framing as a premise.
+>
+> **SECONDARY hourly work:**
+> 1. **Track B (B1) -- the distinctive-novel-prediction SCAN.** Extract GU's sharpest distinctive checkable
+>    prediction (not used to build GU) and confront it, **prioritizing a Yukawa / coupling relation checkable
+>    NOW** over a 2027-gated dark-energy feature (generic "GU predicts dynamical dark energy" is TOO WEAK). Still
+>    untouched by the wave.
+> 2. **Characterize the W154 posit (`c_kin = 0`, A4):** decide whether it is **acceptable-as-axiom** (the
+>    marble/wood emergence axiom -- no fundamental kinetic term for the connection distortion) or **derivable**
+>    from GU-native structure.
+>
+> **DROPPED off the active queue by the wave:**
+> - **Source action / A2 / A4 build:** now **BUILT with full field equations** (A2/W229 wrote the `Z_U` nonlocal
+>   completion, screened-Poisson / induced-YM, all coefficients forced, reducing to W203 ultralocal in the
+>   `Z_U -> 0` limit; A4/W230 reduced W154 to the single `c_kin = 0` axiom). Residual is only the two
+>   normalization scales `{kappa, Z_U}` (W187's fade dynamically discharges the magnitude) plus the W154 posit.
+> - **The generation count:** **closed-as-accommodation** (A6/W233). GU **predicts a three-fold multiplicity**
+>   (`3 = dim Lambda^2_+(R^4)`) and **ACCOMMODATES** three chiral generations via a free `Z/3` import; it does
+>   NOT predict three chiral generations. The count is now honestly an **accommodation, not a prediction.**
+> - **The `(7,7)`/count-dissolution falsifier:** **DEAD** (A5/W232; `(9,5)` provably clean, signature a free
+>   convention).
+>
+> Exploration-tier; no canon / verdict / claim-status / posture flips; `bar(b)` and `H59` stay OPEN; the count
+> stays `{1,3}`. This block SUPERSEDES the W227-register block immediately below (retained as context; the
+> register's Track-A/B structure and machine-checkable index remain valid, but the wave has since collapsed
+> A1-A6 onto the one dynamical object above).
+
+> **[SUPERSEDED as top-of-queue by the 2026-07-14 dynamical-good-stable block above; register content still valid]**
 > **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (LATEST; top of the queue; HOURLY RUNS WORK THIS): the W227 GAP-ANALYSIS-TO-UNCONDITIONAL register.**
 > The hourly queue is now `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md` (machine-checkable
 > index: `tests/W227_gap_analysis_register.py`, exit 0). GOAL: move GU from "more-unified but CONDITIONAL /

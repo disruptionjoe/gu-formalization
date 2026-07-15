@@ -227,6 +227,93 @@ run may move canon, a verdict, claim-status, or posture; `bar(b)` and `H59` stay
 
 ---
 
+## 2026-07-14 SIX-LANE GAP-CLOSURE WAVE RESULTS
+
+The six Track-A conditionals (A1-A6) were each worked to a verdict in a single wave (W228-W233).
+The register above is preserved verbatim as the pre-wave index; this section records the outcomes
+and the consolidation they force. **Additive; exploration grade; no canon/verdict/claim-status/posture
+movement. `bar(b)` and `H59` stay OPEN; the count stays `{1,3}`.**
+
+### A1 (W228) -- COMPLETED-FORCED-INTERNAL (kinematic grade)
+
+GU's actual good-stable stabilizer is the **canonical forced-unique case.** Non-coincidence of the
+irreducible types across the two grading signs holds at `SO(9)xSO(5)`, at the refined
+`SO(3)xSO(6)xSO(4)`, and in the `Sp`/`Spin` frames; the grading-sign moduli are **0**; positivity
+**forces `C = eta`.** This **corrects** W206/W211's free-`Z/2` reading, which was exactly the
+cone-vs-grading conflation the paper-hardening pass killed -- there is no free bit at the kinematic
+level. **RESIDUAL:** the **DYNAMICAL** good-stable stabilizer (the actual vacuum isotropy plus the
+observable algebra) is **unbuilt**; forcing is proven only at the **kinematic** level. See
+`explorations/W228-close-a1-corrected-sign-gu-instance-2026-07-14.md`.
+
+### A2 (W229) -- ADVANCED
+
+The `Z_U` **nonlocal completion is BUILT** and the **full field equations are written**
+(screened-Poisson / induced-YM form). The construction **reduces to W203's ultralocal source in the
+`Z_U -> 0` limit**, and **all tensor coefficients are forced** (not a free build). It remains
+**conditional** on: W154, two normalization scales `{kappa, Z_U}` (both the `eta`-from-gimmel-area
+bridge -- undetermined-by-normalization, **not data-fitted**), and the `K_IG` selector, which is
+**narrowed but not closed**. See
+`explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md`.
+
+### A4 (W230) -- COMPLETED-POSIT
+
+W154 (`theta = record current`) is a **required independent assumption**, now **reduced to ONE clean
+named axiom: `c_kin = 0`** -- the marble/wood emergence axiom. The identification holds **iff the
+connection distortion has no fundamental kinetic term**; only the **coupling sign** is forced. Fork:
+A2 built the `Z_U != 0` side (full dynamics, softened nonlocal identity); `c_kin = 0` recovers the
+clean identity. So W154 is honestly a **posit** -- accept-as-axiom or seek a deeper derivation. See
+`explorations/W230-close-a4-derive-w154-2026-07-14.md`.
+
+### A5 (W232) -- COMPLETED-GENUINE-CHOICE
+
+The Witten `Z/2` anomaly does **NOT force `(7,7)`.** `(9,5)` is **provably the clean side**: dead
+`KO`/`KSp` at dim 15; the reduced spin-bordism `Omega~15(BSp(64)) = 0` is empty; and the even
+quaternionic multiplicity kills `pi_4(Sp(64)) = Z/2`. The **signature is a free convention**, and the
+`(7,7)`/count-dissolution falsifier is therefore **DEAD.** See
+`explorations/W232-close-a5-signature-witten-anomaly-2026-07-14.md`.
+
+### A6 (W233) -- COMPLETED-CONSTRAINED
+
+Separates **multiplicity** from **chiral actuation.** Multiplicity is **predicted**: a unique **odd
+multiplicity = 3 = dim `Lambda^2_+(R^4)`** (arena, parity, operator-type). Chiral actuation is
+**imported free**: no anomaly / Dai-Freed / modular requirement forces it. **Honest downgrade:** GU
+**predicts a three-fold multiplicity** and **ACCOMMODATES** three chiral generations via a free `Z/3`
+import; it does **NOT predict three chiral generations.** Terminal state: **located, not forced.** See
+`explorations/W233-close-a6-count-import-characterization-2026-07-14.md`.
+
+### A3 (W231) -- STILL-OPEN-NEEDS-X (leans REALIZES)
+
+The SMG realization for GU's `SO(10)-16` mirror **reduces to ONE bit:** is the Cartan-involution `Z2`
+(mirror = conserved record; W173) **operative?** If yes, the chirality-killing Dirac channel `D` is
+**forbidden** and the phase **REALIZES.** **Caution:** GU's own W216 good-branch condensate
+**structurally sits in the chirality-killing channel `D`** unless the `Z2` protects it. That one bit
+**is** W173's operative-`C` / `Y14`-spectral-section datum. See
+`explorations/W231-close-a3-smg-realization-gu-mirror-2026-07-14.md`.
+
+### CONSOLIDATION (the headline)
+
+The six lanes **collapse GU's conditionality onto essentially ONE central object:** whether the
+**`C`-operator / Krein grading is operative at the DYNAMICAL (quantization) level.** Equivalently, and
+these are the same object: *is the mirror a conserved RECORD; is the Cartan-involution `Z2` operative;
+build the DYNAMICAL good-stable stabilizer and show it non-coincident.* **A1's residual, A3's bit,
+`bar-b` (loop unitarity), the true-vacuum health, and W216's good-branch selection are ALL THIS ONE
+OBJECT.**
+
+It **LEANS FAVORABLE** -- A1 forced it **kinematically**, every derivable candidate stabilizer is
+**non-coincident**, and A3 **leans realizes** -- but it is **UNBUILT at the dynamical level.** And it
+is the **same object that took the Godel-kill this morning in a different framing**, so hold the honest
+line: **NOT proven-modulo-one-bit.**
+
+**Residuals beyond the central object:**
+- The two normalization scales `{kappa, Z_U}` (W187's fade **dynamically discharges the magnitude**).
+- W154 as a named posit (A4): accept-as-axiom or seek a deeper derivation (`c_kin = 0`).
+- Track B (a confirmed novel prediction) **still untouched.**
+
+**The count is now honestly an ACCOMMODATION, not a prediction** (A6). No canon or verdict moves:
+`bar(b)` and `H59` stay OPEN; the count stays `{1,3}`.
+
+---
+
 *Filed 2026-07-14 by the W227 gap-analysis-to-unconditional register. Additive; exploration grade;
 steering; truth-seeking. Indexes Track A (A1-A6 conditionals) + Track B (B1 novel prediction) over the
 W219-W226 gauntlet corpus and the W201/W202/W203/W211/W154 + paper-hardening conditional spine.
