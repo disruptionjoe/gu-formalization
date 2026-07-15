@@ -7,6 +7,52 @@ updated_at: "2026-07-15"
 
 # Next Steps For Contributors
 
+> **2026-07-15 CURRENT OPERATIONAL QUEUE (W240; HOURLY TRACK B PREDICTION QUEUE; THIS NOW OWNS HOURLY RUNS).**
+> W239's ten personas produced 30 possible prediction targets but no current passing prediction. W240 maps all
+> 30 targets exactly once into a dependency-aware queue. Each hourly run takes the **highest-ranked READY**
+> packet, attacks its first kill condition, and leaves one bounded machine or proof receipt. A negative result
+> that retires a branch is a successful run. **Do not run another qualitative prediction brainstorm.**
+>
+> **Corrected decisive order, optimized for quick information and then the central hard object:**
+>
+> 1. **`DE-AMP` (impact 4, first-run difficulty 2, READY):** re-solve GU's own CMB acoustic-scale amplitude
+>    with its full `D_M(z_*)`, including the high-redshift tail, then rerun the official DESI DR2 likelihood.
+>    This settles whether the raw-BAO positive leg is fairly normalized. It is a model audit, not a novel prediction.
+> 2. **`FLAVOR-RANK` (impact 5, difficulty 2, READY):** count invariant Yukawa coefficient freedom after every
+>    built symmetry, quotient, and source constraint. Any independent coefficient kills the current
+>    zero-parameter mass and mixing route.
+> 3. **`NORM-RANK` (impact 5, difficulty 3, READY):** compute field-rescaling invariants among `kappa`, `Z_U`,
+>    `mu_DW`, and pole parameters. If no absolute relation survives, kill the fixed-range gravity route until
+>    new native dynamics exists.
+> 4. **`FLAVOR-OBS` (impact 5, difficulty 3, gated by `FLAVOR-RANK`):** search the surviving space for a
+>    basis-invariant rank, sign, zero, mass, mixing, or Dirac/Majorana relation that has no adjustable GU coefficient.
+> 5. **`PHYSICAL-C` (impact 5, difficulty 5, protected North Star):** build the interacting physical quotient,
+>    positive `C` metric, and one gauge-independent observable pole or interference sign. Run this long chain
+>    after the three fast gates; do not demote it merely because it is hard. This is also the operative H59 object.
+> 6. **`POLE-PACKET` (impact 5, difficulty 4, gated by `NORM-RANK` plus `PHYSICAL-C`):** predeclare a native
+>    mass or scale ratio, residue, line shape, and confrontation. Target-calibrated scales do not count.
+> 7. **`MIRROR-ESCAPE` (impact 5, difficulty 4, READY):** exhaust native compactifiers outside W237's null-pair
+>    bilinear routes. If every route kills chirality, close this prediction family negatively.
+> 8. **`MIRROR-PACKET` (impact 5, difficulty 5, gated by `MIRROR-ESCAPE` plus `PHYSICAL-C`):** derive physical
+>    cohomology survival, charges, masses, splittings, branching ratios, and a production rate.
+> 9. **`COSMO-X` (impact 4, difficulty 4, gated by `DE-AMP` and native source dynamics):** derive a frozen,
+>    parameter-free relation between GU's non-CPL expansion history and a growth observable. Do not fit `f_0`
+>    to DESI and reuse it as a prediction.
+> 10. **`RECORD-X` (impact 3, difficulty 4, backlog):** pursue transfer-function, memory, and source-pulse
+>     observables only when they close a prerequisite above; ordinary fixed-source equivalence kills novelty.
+>
+> **Hourly rules:** one active packet at a time; prerequisites before dependents; first-kill tests before full
+> builds; passive DESI five-year and Euclid DR1 monitoring consumes no run until data arrive. **No target data
+> may be used to fix a parameter and then confirm the same target.** Full 30-target mapping, DESI intake audit,
+> dependencies, and kill rules: `explorations/W240-desi-intake-and-hourly-prediction-queue-2026-07-15.md`.
+> Machine receipt: `python -u tests/W240_desi_intake_and_hourly_prediction_queue.py`.
+>
+> **DESI evidence warning:** the moved Workbench report is useful as a research map, but its alleged DR2 raw
+> distance table materially disagrees with the official paper and likelihood and must not seed calculations.
+> H46B remains the numerical authority. The report does correctly reinforce CMB-anchor dependence,
+> supernova-calibration sensitivity, and the distinction between raw BAO and CPL posteriors. Exploration-tier
+> only; no canon, verdict, claim-status, or publication movement; `bar(b)` and `H59` remain OPEN.
+
 > **2026-07-15 TRACK B B1 RESULT (W239): SCAN COMPLETE, NO CURRENT PASSING PREDICTION.** The focused
 > adversarial census found **no GU result that is simultaneously built-GU-forced, quantitative,
 > calibration-independent, distinctive, a physical observable, confrontable, and robust.** The priority
@@ -26,7 +72,8 @@ updated_at: "2026-07-15"
 > `tests/W239_track_b_distinctive_prediction_scan.py` (exit 0). Exploration-tier only; `bar(b)` and `H59`
 > remain OPEN; no canon/verdict/claim-status movement.
 
-> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE (LATEST; top of the queue; HOURLY RUNS WORK THIS): BUILD THE DYNAMICAL GOOD-STABLE STABILIZER -- the one consolidated object.**
+> **[SUPERSEDED as the hourly queue by W240 above; retained because its dynamical object is W240's protected `PHYSICAL-C` North Star.]**
+> **2026-07-14 CURRENT OPERATIONAL WORK QUEUE: BUILD THE DYNAMICAL GOOD-STABLE STABILIZER -- the one consolidated object.**
 > The six-lane gap-closure wave (W228-W233, consolidated in `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md`)
 > collapsed GU's conditionality onto essentially **ONE central object.** The hourly queue now points at it:
 >

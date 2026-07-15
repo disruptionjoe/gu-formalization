@@ -48,7 +48,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 ## Loose audit scripts at `tests/` root, by sector
 
-These 243 tracked direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
+These 244 tracked direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
 indexed here in place to keep those reproduction pointers valid. This table covers only direct `tests/*.py`
 files; organized families live under their subdirectory READMEs, and governance/process checks moved to
 `process_gates/`. The table is guarded by `process_gates/tests_root_readme_inventory_audit.py`.
@@ -64,5 +64,5 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
 | **Source / selector / control** | `oq_rk1_*.py` | 2 | OQ-RK1 representation and effective-operator assembly certificates. |
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
-| **W-series frontier packets** | `W*.py` | 193 | later root-level W-series frontier certificates, kept in place as provenance while subdirectory migration remains separate review work. |
+| **W-series frontier packets** | `W*.py` | 194 | later root-level W-series frontier certificates, including W240's DESI intake and dependency-aware prediction queue, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |
