@@ -1,0 +1,367 @@
+{
+  "schema_version": "0.2",
+  "packet_id": "GU-002",
+  "packet_status": "SOURCE_FROZEN",
+  "source": {
+    "repository": "gu-formalization",
+    "revision": "65c31a1663e8548327de3ac8453845a03d9580da",
+    "source_packet_id": "GU-002",
+    "artifact_paths": [
+      "explorations/W234-condensate-vev-isotropy-gate-2026-07-15.md",
+      "explorations/W237-channel-s-condensate-isotropy-2026-07-15.md",
+      "explorations/W240-z2even-compact-image-nogo-2026-07-15.md",
+      "explorations/W241-dynamical-vacuum-coincidence-escape-2026-07-15.md",
+      "explorations/W243-charged-corridor-closure-2026-07-15.md",
+      "tests/W234_condensate_vev_isotropy_gate.py",
+      "tests/W237_channel_s_condensate_isotropy.py",
+      "tests/W240_z2even_compact_image_nogo.py",
+      "tests/W241_dynamical_vacuum_coincidence_escape.py",
+      "tests/W243_charged_corridor_closure.py"
+    ],
+    "issued_at": "2026-07-15T12:00:00-05:00",
+    "claim_status": "exploration",
+    "evidence_grade": "exploration-grade. EXACT for the finite-model operator identities, the centralizer arithmetic (cent(P)=maximal compact; 8256/4160/4096), the non-compact non-elliptic character of the grading boost Z, and the extremal-weight nilradical closure. STRUCTURAL for the lift to the full Sp(32,32;H) arena (faithful so(n,n)/u(2,2) toy status, same as W216/W224). UNCONDITIONAL and GU-independent for the neutral, adjoint, and charged-EXTREMAL classes; SCOPED (open) for exotic non-extremal charged vectors and for denying Proposition 1. CONDITIONAL on the W235 record bit. Per-method grades are copied verbatim in the method ledger."
+  },
+  "question": {
+    "exact_question": "In Sp(32,32;H), can a chirality-safe good-stable (a Krein invariant positive majorant, Proposition 1) interior exist for any neutral, adjoint, or charged-extremal order parameter that GU natively builds?",
+    "decision_type": "negative"
+  },
+  "ownership": {
+    "source_owner": "gu-formalization",
+    "receiving_owner": "possibility-to-capability",
+    "authority_transfer": false
+  },
+  "construction_forks": [
+    {
+      "name": "Krein/native vs standard-physics reading of the order parameter",
+      "selected": "program-native (Krein indefinite arena; condensate acts on the quaternionic fiber V of Sp(32,32;H))",
+      "alternatives": [
+        "standard-physics bilinear-Higgs / compact-group reading (the W224 trap)"
+      ],
+      "transfer_status": "transfers"
+    },
+    {
+      "name": "charged order parameter: extremal-weight vs non-extremal",
+      "selected": "extremal-weight (every native definite-charge/definite-chirality condensate is an extremal tensor component)",
+      "alternatives": [
+        "non-extremal charged (interior Z-eigenvector or non-eigenvector SO(2,1)-type timelike vector)"
+      ],
+      "transfer_status": "does_not_transfer"
+    }
+  ],
+  "assumptions": [
+    "The arena is Sp(32,32;H), the non-compact real form of the GU internal gauge group, with Cl(9,5)=M(64,H) and its 96 hyperbolic null pairs in ker(Gamma) (W173); the Cl(9,5)=M(64,H) rep identification is a standing caveat.",
+    "Good-stable means an admissible Krein invariant positive majorant (eta.C > 0), which exists iff the isotropy has relatively compact image (Proposition 1).",
+    "The physical grading Z = tau3(null) = sigma1(definite) is the generation(+)/mirror(-) Cartan-involution / ghost-parity label; chirality-preservation = the discrete Z2 unbroken (no gen-mirror Dirac mass).",
+    "The comparison lives on the W235 record-CONSERVED (chirality-relevant) branch; the record bit is Joe-gated and NOT decided here.",
+    "Structural facts are established in faithful finite so(n,n)/u(2,2) models and lifted STRUCTURALLY to the full arena (same toy status as W216/W224)."
+  ],
+  "quantifiers": [
+    "For every Z-neutral VEV of any rank and any finite SET of order parameters (class A).",
+    "For every adjoint/operator-type VEV of any rank (class B).",
+    "For every Cartan involution of Sp(32,32;H) (class C: none commutes with the non-elliptic boost Z).",
+    "For every extremal-weight Z-charged vector in any finite-dimensional representation (W243), rank-independent (verified so(3,3), so(4,4), so(5,5)).",
+    "For every dynamical vacuum isotropy that reaches compact image (W241), coincidence-admitting or not."
+  ],
+  "method_ledger": [
+    {
+      "method_id": "W234",
+      "label": "operator identity: good-branch condensate tau1(null)=sigma3(definite)=P (Z2-odd compactifier)",
+      "artifact_path": "explorations/W234-condensate-vev-isotropy-gate-2026-07-15.md",
+      "artifact_revision": "65c31a1663e8548327de3ac8453845a03d9580da",
+      "result": "The only compactification-capable native condensate (the good-branch mirror pairing tau1(null)) lands EXACTLY in the ~P Cartan-involution direction (stabilizer Sp(32)xSp(32), 4096 non-compact generators broken) and is Z2-ODD, hence W231's channel-D gen-mirror chirality-killer; closing A1 dynamically and preserving chirality are coupled on one operator gated oppositely by the single W235 record bit.",
+      "grade": "EXACT for the operator identity tau1(null) = sigma_3(definite) = P and the centralizer arithmetic (hyperbolic-rotation transform machine-verified; centralizer of the Cartan involution = maximal compact confirmed numerically in a faithful so(4,4) model and reproduced by exact 4160/4096 arithmetic for Sp(32,32;H)); STRUCTURAL for the lift of the 2x2-per-null-pair BdG condensate to the full arena VEV (same toy status as W216/W224); CONDITIONAL on the W235 record bit for whether the ~P condensate is an ALLOWED vacuum, and on the W216/W211 Krein-sign branch for the condensate being real (good branch); OPEN for the interacting source action, the physical state space, and the observable algebra. Machine regression: tests/W234_condensate_vev_isotropy_gate.py (35/35, exit 0, positive controls first). No canon, RESEARCH-STATUS, verdict, bar(b), H59, or generation-count change; the record bit is FLAGGED not decided.",
+      "verification": "tests/W234_condensate_vev_isotropy_gate.py (35/35, exit 0, positive controls first); internal-tier machine regression; independent re-verification IN PROGRESS (sibling run).",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-RECORD-BIT"
+      ]
+    },
+    {
+      "method_id": "W237",
+      "label": "structural theorem COMPACTIFY <=> Z2-ODD; channel-S Z2-even but no compactification",
+      "artifact_path": "explorations/W237-channel-s-condensate-isotropy-2026-07-15.md",
+      "artifact_revision": "65c31a1663e8548327de3ac8453845a03d9580da",
+      "result": "The chirality-safe channel-S ((16bar)^4 SMG) condensate is Z2-EVEN but does NOT compactify (no SO(10)-singlet bilinear order parameter, breaks 0 of 4096); structural theorem COMPACTIFY <=> Z2-ODD for null-pair bilinears, so on the record-conserved (chirality-preserving) branch no native bilinear condensate delivers A1's dynamical good-stable -- a genuine located flaw.",
+      "grade": "EXACT for the Z2-parity of channel S (integer charge (-1)^4 = +1, mirror-only) and for the structural theorem COMPACTIFY <=> Z2-ODD (the compactifier P = tau1(null) is Z2-odd; every Z2-even bilinear maps to {singlet, boost} in the definite/Krein basis; verified on the su(2)-triple algebra AND by the so(4,4) Cartan-involution/boost centralizer model: cent(P)=maximal compact, cent(boost) != maximal compact, cent(singlet)=full). STRUCTURAL for the lift 'a symmetric-mass-generation gap has no SO(10)-singlet bilinear order parameter (channel B empty, W231) => its arena adjoint VEV is the singlet/zero level => breaks 0 of the 4096 non-compact generators' (same toy status as W224/W234; inherits W231's machine-verified rep-theory singlet counts). CONDITIONAL on the W235 record bit for channel D's availability; channel S is Z2-even hence allowed on BOTH readings. OPEN for the interacting mirror-sector quartic dynamics, the source action, the physical state space, and the observable algebra. Machine regression: tests/W237_channel_s_condensate_isotropy.py (44/44, exit 0, positive controls first). No canon, RESEARCH-STATUS, verdict, bar(b), H59, or generation-count change; the W235 record bit is FLAGGED not decided.",
+      "verification": "tests/W237_channel_s_condensate_isotropy.py (44/44, exit 0, positive controls first); internal-tier machine regression; independent re-verification IN PROGRESS (sibling run).",
+      "premise_ids": [
+        "P-CHANNEL-S-EMPTY",
+        "P-CL95-REPCANON",
+        "P-RECORD-BIT"
+      ]
+    },
+    {
+      "method_id": "W240",
+      "label": "three rank-independent no-go classes (Z-neutral, adjoint, no-Cartan-involution-commutes-with-Z); Z non-elliptic",
+      "artifact_path": "explorations/W240-z2even-compact-image-nogo-2026-07-15.md",
+      "artifact_revision": "65c31a1663e8548327de3ac8453845a03d9580da",
+      "result": "Located flaw UPGRADES to a SCOPED structural no-go across all VEV ranks: (A) Z-neutral and (B) adjoint VEVs keep the non-compact non-elliptic grading boost Z in their isotropy, and (C) no Cartan involution commutes with Z, so the maximal-compact good-stable direction is intrinsically Z2-ODD. Sole surviving escape: Z2-even but Z-CHARGED non-adjoint higher-rank VEVs, which is GU-native-empty (channel S has no order parameter).",
+      "grade": "EXACT for: the grading Z = tau3(null) = sigma1(definite) being a non-compact non-elliptic generator (ad(Z) real, nonzero: max|imag|=1e-16, max|real|=2.00 in the faithful so(4,4) model); the operator identities and the centralizer arithmetic (cent(P)=maximal compact so(4)+so(4)=12, cent(Z)!=12, cent(I)=full 28); the exact 8256/4160/4096 arithmetic for Sp(32,32;H); the anticommutator {P,Z}=0 (compactifier Z2-ODD); and the SO(2,1) charged-vector compact-stabilizer fact (stab dim 1). STRUCTURAL for the three no-go classes (A) Z-neutral any-rank/any-set, (B) adjoint/operator any-rank, (C) no Cartan involution commutes with Z -> good-stable direction intrinsically Z2-odd; these are proven in a faithful finite so(n,n) analog of the Cartan-involution / boost-centralizer phenomenon (same toy status as W216/W224/W234/W237) plus the rank/set-independent Lie-theory argument (exp(tZ) in the isotropy of any Z-neutral VEV; Z non-elliptic => not in any maximal compact). SCOPED / HONEST-OPEN for the residual corridor (Z2-even, Z-charged, non-adjoint higher-rank VEVs): shown non-empty in general Lie theory (the charged corridor is NOT closed by classes A-C) and shown GU-native-EMPTY (channel S, the only native tenant, has zero order parameter, W231/W237). CONDITIONAL on the W235 record bit for channel D's availability (the whole comparison lives on the favorable, record-conserved branch). OPEN for the interacting source action, the physical state space, and the observable algebra. Machine regression: tests/W240_z2even_compact_image_nogo.py (27/27, exit 0, positive controls first). No canon, RESEARCH-STATUS, verdict, bar(b), H59, or generation-count change; the W235 record bit is FLAGGED not decided.",
+      "verification": "tests/W240_z2even_compact_image_nogo.py (27/27, exit 0, positive controls first); internal-tier machine regression; independent re-verification IN PROGRESS (sibling run).",
+      "premise_ids": [
+        "P-CHANNEL-S-EMPTY",
+        "P-CL95-REPCANON",
+        "P-PROP1-COMPACT-IMAGE",
+        "P-RECORD-BIT"
+      ]
+    },
+    {
+      "method_id": "W241",
+      "label": "isotropy-algebra lift via Proposition 1; coincidence smaller-group front door closed",
+      "artifact_path": "explorations/W241-dynamical-vacuum-coincidence-escape-2026-07-15.md",
+      "artifact_revision": "65c31a1663e8548327de3ac8453845a03d9580da",
+      "result": "Isotropy-algebra lift: good-stable = compact image (Proposition 1) forces every generator to commute with P, allowing the gen-mirror mass and killing chirality; chirality needs an unbroken off-diagonal boost Z (non-compact), so the {good-stable AND chirality} corner is empty. The coincidence-admitting smaller-group front door is CLOSED; A+B are exhaustive modulo denying Proposition 1.",
+      "grade": "STRUCTURAL / EXACT for the finite-dimensional algebra facts (machine-verified, tests/W241_dynamical_vacuum_coincidence_escape.py, 46/46, exit 0, positive controls first; pure numpy on a faithful u(2,2) model, no hardcoded verdicts): the grading boost Z has real spectrum (non-compact, unbounded exp) while the block-diagonal anti-Hermitian generators have imaginary spectrum (compact); the invariant positive-definite majorant S=I exists on the compact set and provably fails on any boost set (Prop 1 witness both directions); [X,P]!=0 forces X off-diagonal so no compact generator forbids the mass ~ P (the steelman relative-phase R=diag(iI,-iI) commutes with P); {P,Z}=0; the coincidence detector distinguishes a genuine shared-type continuum (moduli>0) from the non-coincident unique case (moduli=0, W228); the full 2x2 table with the forbidden {good-stable AND chirality} corner EMPTY; the concrete smaller-group K' delivering a non-unique good stable yet still killing chirality. STRUCTURAL (flagged, same toy status as W224/W234/W237) for the lift of the u(2,2) two-pair model to the genuine Sp(32,32;H) arena: this is a faithful finite instance of the exact structural facts (compact = centralizer of the Cartan involution; boosts anticommute with the involution; Prop 1 = invariant-majorant-iff-relatively-compact-image), not a recomputation of the full quaternionic rep. INHERITED (flagged, not re-derived): W224/HARDENING-REPORT Proposition 1; W234's operator identity tau1(null)=sigma_3(definite)=P and the Sp(32)xSp(32) centralizer arithmetic; W237's COMPACTIFY<=>Z2-ODD structural theorem and the chirality<=>grading-boost-Z-survival identification; W228's forced-unique C-grading and the coincidence/degenerate-continuum classification; W235's record bit and its kinematic-grade forcing. CONDITIONAL on the W235 record bit (this result lives on the record-conserved, chirality-relevant branch). OPEN for the interacting source action, the physical state space, and the observable algebra. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; bar(b) and H59 stay OPEN; the count stays {1,3}; no forbidden target {3,8,24,chi(K3),Ahat} assumed or inserted. Zero em dashes.",
+      "verification": "tests/W241_dynamical_vacuum_coincidence_escape.py (46/46, exit 0, positive controls first); internal-tier machine regression; independent re-verification IN PROGRESS (sibling run).",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-PROP1-COMPACT-IMAGE",
+        "P-RECORD-BIT"
+      ]
+    },
+    {
+      "method_id": "W243",
+      "label": "extremal-weight nilradical closure of the charged corridor",
+      "artifact_path": "explorations/W243-charged-corridor-closure-2026-07-15.md",
+      "artifact_revision": "65c31a1663e8548327de3ac8453845a03d9580da",
+      "result": "The charged corridor is CLOSED for the EXTREMAL-weight case: an extremal Z-charged vector is annihilated by a nonzero nilpotent nilradical of the Z-parabolic, so its stabilizer retains a non-compact parabolic; channel S (charge -4, all-mirror) is extremal. The no-go is UNCONDITIONAL for every extremal/native order parameter, SCOPED only against exotic NON-extremal charged vectors (SO(2,1)-type), which GU does not build.",
+      "grade": "EXACT for: the ad(Z) 3-grading g = g_- + g_0 + g_+ of the faithful so(n,n) model (eigenvalues {-2,0,+2}, max|imag|=1.1e-16, max|real|=2.00); every nonzero element of the nilradicals g_+ / g_- being matrix-nilpotent hence ad-nilpotent; the raising (resp. lowering) nilradical annihilating the top (resp. bottom) Z-charge vector; the extremal charged Z-eigenvector of the fundamental being NULL with a non-compact stabilizer (dim 21 in so(4,4)); the SO(2,1) timelike vector having a compact stabilizer SO(2) yet not being a Z-eigenvector; and the channel-S additive charge = -4 = 4*(-1) being the minimal (extremal) achievable additive charge. STRUCTURAL / rank-independent for the theorem 'an extremal-weight Z-charged vector retains the boost-parabolic nilradical (nonzero nilpotents) in its stabilizer, hence a non-compact parabolic' -- proved by the highest/lowest-Z-weight annihilation argument (nothing beyond the extremal charge) plus 'a real subalgebra containing a nonzero nilpotent is non-compact', both verified in so(3,3)/so(4,4)/so(5,5) with a matched anticommuting boost (same finite-model status as W216/W224/W234/W237/W240), plus the exact 8256/4160/4096 arena arithmetic. STRUCTURAL for the reconciliation (the SO(2,1) escape requires non-extremality and does not lift to extremal weights). CONDITIONAL on the W235 record bit for channel D availability (the whole comparison lives on the favorable, record-conserved branch). HONEST-OPEN residual: NON-extremal charged VEVs (interior Z-eigenvectors, or non-eigenvector timelike vectors) -- the SO(2,1)-type orbit -- are NOT closed by this theorem; they are shown to be the only surviving mathematical escape, and they are not GU-native condensate order parameters (which are extremal tensor components). OPEN for the interacting source action, the physical state space, and the observable algebra. Machine regression: tests/W243_charged_corridor_closure.py (26/26, exit 0, positive controls first). No canon, RESEARCH-STATUS, verdict, bar(b), H59, or generation-count change; the W235 record bit is FLAGGED not decided.",
+      "verification": "tests/W243_charged_corridor_closure.py (26/26, exit 0, positive controls first); internal-tier machine regression; independent re-verification IN PROGRESS (sibling run).",
+      "premise_ids": [
+        "P-CHANNEL-S-EMPTY",
+        "P-CL95-REPCANON",
+        "P-PROP1-COMPACT-IMAGE",
+        "P-RECORD-BIT"
+      ]
+    }
+  ],
+  "evidence_structure": {
+    "premise_ledger": [
+      {
+        "premise_id": "P-CHANNEL-S-EMPTY",
+        "exact_statement": "Channel-S emptiness (W231/W237): the mirror bilinear 16bar (x) 16bar has ZERO SO(10) singlets (channel B empty), so the mirror-only (16bar)^4 SMG operator has no bilinear singlet order parameter and contributes the zero adjoint to Sp(32,32;H).",
+        "premise_type": "source_result",
+        "source_artifact_path": "explorations/W237-channel-s-condensate-isotropy-2026-07-15.md",
+        "load_bearing_for_method_ids": [
+          "W237",
+          "W240",
+          "W243"
+        ],
+        "source_status": "asserted_in_source"
+      },
+      {
+        "premise_id": "P-CL95-REPCANON",
+        "exact_statement": "The standing Cl(9,5)=M(64,H) rep-canonicity caveat: the arena Sp(32,32;H) with its 96 hyperbolic null pairs in ker(Gamma) rests on the Cl(9,5)=M(64,H) representation identification, taken as canonical; the structural facts are established in faithful finite so(n,n)/u(2,2) models and lifted STRUCTURALLY, not by full quaternionic recomputation.",
+        "premise_type": "construction_choice",
+        "source_artifact_path": "explorations/W234-condensate-vev-isotropy-gate-2026-07-15.md",
+        "load_bearing_for_method_ids": [
+          "W234",
+          "W237",
+          "W240",
+          "W241",
+          "W243"
+        ],
+        "source_status": "conditional_in_source"
+      },
+      {
+        "premise_id": "P-PROP1-COMPACT-IMAGE",
+        "exact_statement": "Proposition 1 (positive-majorant / compact-image criterion, W224/HARDENING-REPORT as stated and used in W241): a good-stable = an admissible Krein invariant positive majorant (eta.C > 0) exists iff the isotropy has relatively compact image.",
+        "premise_type": "source_result",
+        "source_artifact_path": "explorations/W241-dynamical-vacuum-coincidence-escape-2026-07-15.md",
+        "load_bearing_for_method_ids": [
+          "W240",
+          "W241",
+          "W243"
+        ],
+        "source_status": "asserted_in_source"
+      },
+      {
+        "premise_id": "P-RECORD-BIT",
+        "exact_statement": "The W235 record bit (record-CONSERVED / chirality-relevant branch): the Cartan-involution / ghost-parity Z2 (generation +, mirror -) is taken as a conserved superselection charge, which forbids the Z2-odd channel-D gen-mirror mass. This bit is Joe-gated and NOT decided; the whole comparison is conditional on this branch.",
+        "premise_type": "construction_choice",
+        "source_artifact_path": "explorations/W234-condensate-vev-isotropy-gate-2026-07-15.md",
+        "load_bearing_for_method_ids": [
+          "W234",
+          "W237",
+          "W240",
+          "W241",
+          "W243"
+        ],
+        "source_status": "conditional_in_source"
+      }
+    ],
+    "method_dependency_edges": [
+      {
+        "dependent_method_id": "W237",
+        "antecedent_method_id": "W234",
+        "dependency_type": "uses_result",
+        "exact_statement": "W237's COMPACTIFY <=> Z2-ODD theorem is built on W234's exact operator identity tau1(null)=sigma3(definite)=P."
+      },
+      {
+        "dependent_method_id": "W240",
+        "antecedent_method_id": "W234",
+        "dependency_type": "shares_derived_lemma",
+        "exact_statement": "W240 reuses W234's compactifier identity P=tau1(null) and the Sp(32)xSp(32) centralizer / 4096-generator arithmetic."
+      },
+      {
+        "dependent_method_id": "W240",
+        "antecedent_method_id": "W237",
+        "dependency_type": "uses_result",
+        "exact_statement": "W240 generalizes W237's rank-2 bilinear theorem to all adjoint/neutral ranks; W237's bilinears are the rank-2 case."
+      },
+      {
+        "dependent_method_id": "W241",
+        "antecedent_method_id": "W237",
+        "dependency_type": "uses_result",
+        "exact_statement": "W241 lifts W237's condensate-specific COMPACTIFY <=> Z2-ODD to the order-parameter-agnostic isotropy-algebra level."
+      },
+      {
+        "dependent_method_id": "W243",
+        "antecedent_method_id": "W240",
+        "dependency_type": "uses_result",
+        "exact_statement": "W243 closes the Z2-even Z-charged corridor that W240 explicitly left open, for the extremal-weight class."
+      },
+      {
+        "dependent_method_id": "W243",
+        "antecedent_method_id": "W241",
+        "dependency_type": "shares_derived_lemma",
+        "exact_statement": "W243 composes with W241's Proposition-1 front-door closure to yield the combined UNCONDITIONAL-vs-SCOPED export."
+      }
+    ],
+    "shared_load_bearing_premise_ids": [
+      "P-CHANNEL-S-EMPTY",
+      "P-CL95-REPCANON",
+      "P-PROP1-COMPACT-IMAGE",
+      "P-RECORD-BIT"
+    ],
+    "raw_method_count": 5,
+    "raw_method_count_is_independence_count": false
+  },
+  "claim": {
+    "statement": "In Sp(32,32;H), a chirality-safe good-stable requires a compact-image (positive-majorant, Proposition 1) isotropy, whose reducing direction is intrinsically Z2-ODD; the grading Z is a non-compact non-elliptic boost that no Cartan involution commutes with. No neutral, adjoint, or charged-EXTREMAL order parameter (= everything GU natively builds) delivers a chirality-safe good-stable interior. Surviving escapes: exotic NON-extremal charged vectors (GU-non-native) and denying Proposition 1 (a boundary/firewall positivity).",
+    "scope": "Sp(32,32;H) (the GU internal arena, Cl(9,5)=M(64,H)); good-stable = a Krein invariant positive majorant (Proposition 1); on the W235 record-conserved (chirality-relevant) branch; finite faithful so(n,n)/u(2,2) models for the structural facts, STRUCTURAL lift to the full arena.",
+    "independence_scope": "This is a SINGLE DEPENDENT proof chain of five legs (W234 operator identity tau1(null)=sigma3(definite)=P; W237 structural theorem COMPACTIFY <=> Z2-ODD; W240 three rank-independent no-go classes plus Z non-elliptic; W241 isotropy-algebra lift via Proposition 1; W243 extremal-weight nilradical closure of the charged corridor), NOT five independent evidential units. The legs share load-bearing premises (Proposition 1; the W235 record bit; channel-S emptiness; the Cl(9,5)=M(64,H) rep-canonicity caveat) and depend on one another directly, so their agreement is dependence-driven, not independent replication. Export status: UNCONDITIONAL and GU-independent for the neutral, adjoint, and charged-EXTREMAL classes (everything GU natively builds); SCOPED (honestly OPEN) only against exotic NON-extremal charged vectors (interior Z-eigenvectors or non-eigenvector SO(2,1)-type timelike vectors, GU-non-native) and against denying Proposition 1 (a boundary/firewall positivity). No evidential-independence type is asserted; the raw method count is NOT an independence count.",
+    "independence_type": "not_applicable",
+    "method_count": 5,
+    "convergence": "not_applicable",
+    "joint_argument_artifact": "explorations/W243-charged-corridor-closure-2026-07-15.md",
+    "source_status_unchanged": true
+  },
+  "verification": {
+    "artifacts": [
+      "tests/W234_condensate_vev_isotropy_gate.py",
+      "tests/W237_channel_s_condensate_isotropy.py",
+      "tests/W240_z2even_compact_image_nogo.py",
+      "tests/W241_dynamical_vacuum_coincidence_escape.py",
+      "tests/W243_charged_corridor_closure.py"
+    ],
+    "replication_status": "Internal-tier: five machine regressions (W234 35/35, W237 44/44, W240 27/27, W241 46/46, W243 26/26) all exit 0 with positive controls first. An independent re-verification pass is IN PROGRESS (a sibling run). Issued at exploration-grade interface per the GU-001 issuance plan; no Lean/Lake build was run."
+  },
+  "alternatives": [
+    "Exotic NON-extremal charged VEVs: an interior Z-eigenvector or a non-eigenvector timelike (SO(2,1)-type) vector can have a compact stabilizer; this class is NOT closed and is exactly the object H59 would need. It is GU-non-native (GU's definite-charge condensates are extremal).",
+    "Denying Proposition 1: a good-stable / ghost-clearance positivity that is NOT an invariant majorant (a PT / pseudo-Hermitian positivity on a subspace, or a boundary/firewall positivity on the interface rather than the bulk arena). This is a different object and the named residual keeping bar(b)/H59 OPEN.",
+    "The W235 record-BROKEN (redundancy) branch: channel D (~P) is then allowed and compactifies to Sp(32)xSp(32), delivering a dynamical good-stable at the cost of killing chirality."
+  ],
+  "residuals": [
+    "bar(b) and H59 remain OPEN and Joe-gated; no debit added or cleared.",
+    "The interacting source action, the physical state space, and the observable algebra are unbuilt (W219); unbuilt is not false.",
+    "The STRUCTURAL lift from the faithful finite so(n,n)/u(2,2) models to the full Sp(32,32;H) arena is not a full quaternionic recomputation.",
+    "The interior-charged (non-extremal Z-eigenvector) class is not closed by W243, nor is the non-eigenvector SO(2,1)-type class.",
+    "The Cl(9,5)=M(64,H) rep-canonicity caveat stands.",
+    "The W235 record bit is not decided."
+  ],
+  "nonclaims": [
+    "This does NOT claim GU has no good-stable, nor that GU is falsified; unbuilt is not false.",
+    "This does NOT assert any TI/TaF or cross-repository identity; boundary fields are typed-interface requests only.",
+    "This does NOT move any GU verdict, RESEARCH-STATUS, canon, bar(b), H59, or the generation count.",
+    "The five method rows are ONE dependent proof chain, not five independent evidential units; the raw method count is NOT an independence count.",
+    "This does NOT decide the W235 record bit.",
+    "This does NOT hijack GU-001 (separately reserved for the grading-sign five-method result); GU-001 is cross-referenced as related, not superseded."
+  ],
+  "interfaces": [
+    {
+      "target_repository": "possibility-to-capability",
+      "requested_datum": "a receiving-independence assessment of the source method-dependence typing (may preserve the source type or weaken it to unknown_or_contested; never strengthen)",
+      "ownership_status": "target_owned"
+    },
+    {
+      "target_repository": "time-as-finality",
+      "requested_datum": "the reservoir Krein sign / Y14 spectral-section record datum (the W235 bit) as a typed interface only; it remains gated and no cross-repo identity is asserted",
+      "ownership_status": "joint_seam"
+    }
+  ],
+  "integrity": {
+    "hash_algorithm": "sha256",
+    "canonicalization_profile": "ptc-frozen-bundle-v1",
+    "hash_scope": [
+      "explorations/W234-condensate-vev-isotropy-gate-2026-07-15.md",
+      "explorations/W237-channel-s-condensate-isotropy-2026-07-15.md",
+      "explorations/W240-z2even-compact-image-nogo-2026-07-15.md",
+      "explorations/W241-dynamical-vacuum-coincidence-escape-2026-07-15.md",
+      "explorations/W243-charged-corridor-closure-2026-07-15.md",
+      "tests/W234_condensate_vev_isotropy_gate.py",
+      "tests/W237_channel_s_condensate_isotropy.py",
+      "tests/W240_z2even_compact_image_nogo.py",
+      "tests/W241_dynamical_vacuum_coincidence_escape.py",
+      "tests/W243_charged_corridor_closure.py"
+    ],
+    "manifest": [
+      {
+        "path": "explorations/W234-condensate-vev-isotropy-gate-2026-07-15.md",
+        "byte_length": 17095,
+        "content_sha256": "a920eb4a649d504b7b7460c8c67215cf9510d1cccf33a0d1f3e264dd11c4852f"
+      },
+      {
+        "path": "explorations/W237-channel-s-condensate-isotropy-2026-07-15.md",
+        "byte_length": 22680,
+        "content_sha256": "e7450065612333e9f23f9323459600f36d00d766f4fe6ff65dc6386f9391e8fa"
+      },
+      {
+        "path": "explorations/W240-z2even-compact-image-nogo-2026-07-15.md",
+        "byte_length": 25087,
+        "content_sha256": "cc32a4ba97bb1e1b3f374658cd906ffcf64c3798ef8b1bc36f5e387e74074106"
+      },
+      {
+        "path": "explorations/W241-dynamical-vacuum-coincidence-escape-2026-07-15.md",
+        "byte_length": 26551,
+        "content_sha256": "d19e5e13763e74ecd619d32a28c79100a9ba4b6117d1be683fd023e6f7e7dcd8"
+      },
+      {
+        "path": "explorations/W243-charged-corridor-closure-2026-07-15.md",
+        "byte_length": 23388,
+        "content_sha256": "7a33ad50127a5bf650a9eeba9016c59e771a92315cb8939957ed8f6f1c2dd702"
+      },
+      {
+        "path": "tests/W234_condensate_vev_isotropy_gate.py",
+        "byte_length": 18420,
+        "content_sha256": "0ea11955347d3316c1e4a9c429a4d681a5905c586454712038a181e1408f6b59"
+      },
+      {
+        "path": "tests/W237_channel_s_condensate_isotropy.py",
+        "byte_length": 23455,
+        "content_sha256": "81384ccc5ce9bee2290f9f0bceb9c007deb29622379ed8799815e4e81a2b4064"
+      },
+      {
+        "path": "tests/W240_z2even_compact_image_nogo.py",
+        "byte_length": 22389,
+        "content_sha256": "fd522336e616d730da3370edb92155ec361e9deda37cf209c4b6ae26a4e65a4c"
+      },
+      {
+        "path": "tests/W241_dynamical_vacuum_coincidence_escape.py",
+        "byte_length": 19849,
+        "content_sha256": "f78b6ed90d70b76868d1a218d1277d68f7ed60ba2c316a2643486c500661ba54"
+      },
+      {
+        "path": "tests/W243_charged_corridor_closure.py",
+        "byte_length": 21869,
+        "content_sha256": "d150490d5dd72495ab728963ed2e5dbba0968d30a9069d27fb5770d13f41a70b"
+      }
+    ],
+    "manifest_digest": "9d2e2d7949d9ca5bf7315e6ce07024afaaabd4791e51cff56ee09cbc59ab502d",
+    "packet_digest": "8a5df3f26ee165953f4b7069789646dfff9a8cca9cd8c385195a6392f9b9d398",
+    "bundle_digest": "03df01f37287f4f0fa234fa65aed005ffaf191e3eda6342a7940e2662e59e261",
+    "digest": "03df01f37287f4f0fa234fa65aed005ffaf191e3eda6342a7940e2662e59e261",
+    "frozen": true
+  }
+}
