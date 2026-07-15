@@ -7,8 +7,8 @@ updated_at: "2026-07-15"
 
 # Next Steps For Contributors
 
-> **2026-07-15 CURRENT OPERATIONAL QUEUE (W240; HOURLY TRACK B PREDICTION QUEUE; THIS NOW OWNS HOURLY RUNS).**
-> W239's ten personas produced 30 possible prediction targets but no current passing prediction. W240 maps all
+> **2026-07-15 CURRENT OPERATIONAL QUEUE (W242; HOURLY TRACK B PREDICTION QUEUE; THIS NOW OWNS HOURLY RUNS).**
+> W239's ten personas produced 30 possible prediction targets but no current passing prediction. W242 maps all
 > 30 targets exactly once into a dependency-aware queue. Each hourly run takes the **highest-ranked READY**
 > packet, attacks its first kill condition, and leaves one bounded machine or proof receipt. A negative result
 > that retires a branch is a successful run. **Do not run another qualitative prediction brainstorm.**
@@ -44,8 +44,8 @@ updated_at: "2026-07-15"
 > **Hourly rules:** one active packet at a time; prerequisites before dependents; first-kill tests before full
 > builds; passive DESI five-year and Euclid DR1 monitoring consumes no run until data arrive. **No target data
 > may be used to fix a parameter and then confirm the same target.** Full 30-target mapping, DESI intake audit,
-> dependencies, and kill rules: `explorations/W240-desi-intake-and-hourly-prediction-queue-2026-07-15.md`.
-> Machine receipt: `python -u tests/W240_desi_intake_and_hourly_prediction_queue.py`.
+> dependencies, and kill rules: `explorations/W242-desi-intake-and-hourly-prediction-queue-2026-07-15.md`.
+> Machine receipt: `python -u tests/W242_desi_intake_and_hourly_prediction_queue.py`.
 >
 > **DESI evidence warning:** the moved Workbench report is useful as a research map, but its alleged DR2 raw
 > distance table materially disagrees with the official paper and likelihood and must not seed calculations.
@@ -72,7 +72,7 @@ updated_at: "2026-07-15"
 > `tests/W239_track_b_distinctive_prediction_scan.py` (exit 0). Exploration-tier only; `bar(b)` and `H59`
 > remain OPEN; no canon/verdict/claim-status movement.
 
-> **[SUPERSEDED as the hourly queue by W240 above; retained because its dynamical object is W240's protected `PHYSICAL-C` North Star.]**
+> **[SUPERSEDED as the hourly queue by W242 above; retained because its dynamical object is W242's protected `PHYSICAL-C` North Star.]**
 > **2026-07-14 CURRENT OPERATIONAL WORK QUEUE: BUILD THE DYNAMICAL GOOD-STABLE STABILIZER -- the one consolidated object.**
 > The six-lane gap-closure wave (W228-W233, consolidated in `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md`)
 > collapsed GU's conditionality onto essentially **ONE central object.** The hourly queue now points at it:

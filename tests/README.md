@@ -64,5 +64,5 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
 | **Source / selector / control** | `oq_rk1_*.py` | 2 | OQ-RK1 representation and effective-operator assembly certificates. |
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
-| **W-series frontier packets** | `W*.py` | 194 | later root-level W-series frontier certificates, including W240's DESI intake and dependency-aware prediction queue, kept in place as provenance while subdirectory migration remains separate review work. |
+| **W-series frontier packets** | `W*.py` | 194 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |

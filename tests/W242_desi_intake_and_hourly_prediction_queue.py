@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-"""W240 DESI intake and dependency-aware hourly prediction-queue audit.
+"""W242 DESI intake and dependency-aware hourly prediction-queue audit.
 
 This deterministic receipt does not validate cosmology from first principles and does
 not create a GU prediction. It checks the external-report provenance, demonstrates the
@@ -7,7 +7,7 @@ material distance-table mismatch against the already primary-source-verified H46
 values, preserves the verified CPL summaries, and proves that the ten-persona W239
 register is covered exactly once by the new work packets.
 
-Run: python -u tests/W240_desi_intake_and_hourly_prediction_queue.py
+Run: python -u tests/W242_desi_intake_and_hourly_prediction_queue.py
 """
 
 from __future__ import annotations
@@ -21,7 +21,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "lab/deep-research/desi-late-time-dark-energy-cpl-external-report-2026-07-15.md"
 W239 = ROOT / "tests/W239_track_b_distinctive_prediction_scan.py"
-W240 = ROOT / "explorations/W240-desi-intake-and-hourly-prediction-queue-2026-07-15.md"
+W242 = ROOT / "explorations/W242-desi-intake-and-hourly-prediction-queue-2026-07-15.md"
 NEXT = ROOT / "NEXT-STEPS.md"
 LAB_README = ROOT / "lab/deep-research/README.md"
 
@@ -111,7 +111,7 @@ TARGET_PACKETS = {
 def main() -> int:
     raw_bytes = RAW.read_bytes()
     raw = raw_bytes.decode("utf-8")
-    w240 = W240.read_text(encoding="utf-8")
+    w242 = W242.read_text(encoding="utf-8")
     next_steps = NEXT.read_text(encoding="utf-8")
     lab_readme = LAB_README.read_text(encoding="utf-8")
     compact_next = " ".join(next_steps.replace(">", " ").replace("**", "").split())
@@ -125,7 +125,7 @@ def main() -> int:
           and "not a numerical source" in compact_lab_readme.lower()
           and RAW.name in compact_lab_readme)
     check("R3 unusable internal citation tokens are detected rather than trusted",
-          raw.count("cite") >= 20 and "internal search tokens" in w240)
+          raw.count("cite") >= 20 and "internal search tokens" in w242)
 
     print("\n== MATERIAL DR2 DISTANCE-TABLE FAILURE ==")
     # Values claimed by the external report versus the official DR2 Table 4 values
@@ -151,7 +151,7 @@ def main() -> int:
           max(pulls.values()) > 2.5, str(max(pulls.values())))
     check("D3 the report also changes the QSO observable from DR2 anisotropic DM,DH to DV",
           "QSO" in raw and "D_V/r_d=26.10" in raw
-          and "anisotropic QSO" in w240)
+          and "anisotropic QSO" in w242)
 
     print("\n== VERIFIED CPL CONTENT AND SCOPE ==")
     cpl_tokens = (
@@ -162,28 +162,28 @@ def main() -> int:
     )
     check("C1 all four H46B-verified CPL summaries occur in the report",
           all(token in raw for token in cpl_tokens))
-    check("C2 W240 keeps raw likelihood, CPL compression, CMB anchor, and SN calibration distinct",
-          all(token in w240 for token in
+    check("C2 W242 keeps raw likelihood, CPL compression, CMB anchor, and SN calibration distinct",
+          all(token in w242 for token in
               ("raw BAO distances", "CPL posterior", "CMB", "supernova")))
     check("C3 no current prediction or gate is promoted",
-          "No current GU prediction has been found" in w240
-          and "bar(b) and H59 remain OPEN" in w240)
+          "No current GU prediction has been found" in w242
+          and "bar(b) and H59 remain OPEN" in w242)
 
     print("\n== W239 THIRTY-TARGET COVERAGE ==")
     proposals = extract_literal_assignment(W239, "persona_proposals")
     targets = [row[2] for row in proposals]
     check("M1 W239 still contains exactly 30 targets", len(targets) == 30)
     check("M2 W239 targets are unique", len(targets) == len(set(targets)))
-    check("M3 W240 packet map covers every W239 target exactly once",
+    check("M3 W242 packet map covers every W239 target exactly once",
           set(TARGET_PACKETS) == set(targets),
           f"missing={sorted(set(targets) - set(TARGET_PACKETS))}; "
           f"extra={sorted(set(TARGET_PACKETS) - set(targets))}")
     packet_keys = {packet.key for packet in PACKETS}
     check("M4 every mapped target points to a declared packet",
           set(TARGET_PACKETS.values()) <= packet_keys)
-    plain_w240 = w240.replace("`", "")
-    check("M5 the written W240 mapping carries every exact target label",
-          all(target in plain_w240 for target in targets))
+    plain_w242 = w242.replace("`", "")
+    check("M5 the written W242 mapping carries every exact target label",
+          all(target in plain_w242 for target in targets))
 
     print("\n== DEPENDENCY-AWARE HOURLY ORDER ==")
     keys = [packet.key for packet in PACKETS]
@@ -197,10 +197,10 @@ def main() -> int:
           all(keys.index(dep) < keys.index(packet.key)
               for packet in PACKETS for dep in packet.dependencies))
     check("Q4 external releases are passive monitors, not hourly work",
-          "These are not hourly work" in w240
-          and "passive release monitoring consumes no hourly run" in w240)
-    check("Q5 NEXT-STEPS names W240 as the active hourly queue",
-          "W240" in next_steps
+          "These are not hourly work" in w242
+          and "passive release monitoring consumes no hourly run" in w242)
+    check("Q5 NEXT-STEPS names W242 as the active hourly queue",
+          "W242" in next_steps
           and "HOURLY TRACK B PREDICTION QUEUE" in next_steps
           and "highest-ranked READY" in next_steps)
     check("Q6 queue forbids target calibration and qualitative re-brainstorming",
@@ -208,17 +208,17 @@ def main() -> int:
           and "Do not run another qualitative prediction brainstorm" in compact_next)
 
     print("\n== GOVERNANCE ==")
-    check("G1 W240 is exploration-tier and preserves both open gates",
-          "Exploration-tier only" in w240 and "bar(b) and H59 remain OPEN" in w240)
-    check("G2 no em dash was introduced in GU-authored W240", "\N{EM DASH}" not in w240)
+    check("G1 W242 is exploration-tier and preserves both open gates",
+          "Exploration-tier only" in w242 and "bar(b) and H59 remain OPEN" in w242)
+    check("G2 no em dash was introduced in GU-authored W242", "\N{EM DASH}" not in w242)
 
     print("\n" + "=" * 72)
     if FAIL:
-        print(f"W240 RESULT: FAIL ({len(FAIL)} checks)")
+        print(f"W242 RESULT: FAIL ({len(FAIL)} checks)")
         for name in FAIL:
             print(f" - {name}")
         return 1
-    print("W240 RESULT: PASS")
+    print("W242 RESULT: PASS")
     print("External report quarantined as evidence; 30 targets fully mapped; queue is live.")
     print("No current distinctive GU prediction. bar(b) and H59 remain OPEN.")
     return 0

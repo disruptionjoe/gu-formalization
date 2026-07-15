@@ -13,7 +13,7 @@ claims, and stress-test the lead paper.
 - `desi-late-time-dark-energy-cpl-external-report-2026-07-15.md` is an external research map, not a
   numerical source. Its internal search citation tokens are not portable, and its alleged DESI DR2 raw-distance
   table materially disagrees with the official DR2 paper and likelihood. Preserve it for provenance and use the
-  GU adjudication at `explorations/W240-desi-intake-and-hourly-prediction-queue-2026-07-15.md`; do not copy its
+  GU adjudication at `explorations/W242-desi-intake-and-hourly-prediction-queue-2026-07-15.md`; do not copy its
   distance values into calculations.
 
 The hostile-referee prompts tuned to the lead paper live alongside it under

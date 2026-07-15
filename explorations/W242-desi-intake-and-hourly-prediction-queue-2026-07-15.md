@@ -1,5 +1,5 @@
 ---
-title: "W240 DESI intake adjudication and hourly Track B prediction queue"
+title: "W242 DESI intake adjudication and hourly Track B prediction queue"
 status: exploration
 doc_type: research_register
 created_at: "2026-07-15"
@@ -11,7 +11,7 @@ inputs:
   - explorations/wave45/H46B-referee-grade-desi-verification-2026-07-13.md
   - lab/deep-research/desi-late-time-dark-energy-cpl-external-report-2026-07-15.md
 machine_receipt:
-  - tests/W240_desi_intake_and_hourly_prediction_queue.py
+  - tests/W242_desi_intake_and_hourly_prediction_queue.py
 external_refs:
   - "DESI Collaboration, DESI DR2 Results II, arXiv:2503.14738"
   - "T. J. Hoyt et al., Union3.1, arXiv:2601.19424"
@@ -20,7 +20,7 @@ external_refs:
 governance: "Exploration-tier only. No canon, verdict, claim-status, publication, or external-action change. bar(b) and H59 remain OPEN."
 ---
 
-# W240: DESI intake adjudication and hourly Track B prediction queue
+# W242: DESI intake adjudication and hourly Track B prediction queue
 
 ## Result
 
