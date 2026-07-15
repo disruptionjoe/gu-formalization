@@ -1,0 +1,399 @@
+{
+  "schema_version": "0.2",
+  "packet_id": "GU-001",
+  "packet_status": "SOURCE_FROZEN",
+  "source": {
+    "repository": "gu-formalization",
+    "revision": "d62a82f3a74731b322a5d65b5ee15a2b861e2855",
+    "source_packet_id": "GU-001",
+    "artifact_paths": [
+      "explorations/W202-signature-crux-bach-branch-2026-07-14.md",
+      "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+      "explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md",
+      "explorations/W207-decisive-bit-brst-cohomology-2026-07-14.md",
+      "explorations/W208-decisive-bit-lawvere-fixed-point-2026-07-14.md",
+      "explorations/W209-decisive-bit-topos-internal-logic-2026-07-14.md",
+      "explorations/W210-decisive-bit-helmholtz-inverse-variational-2026-07-14.md",
+      "explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md",
+      "tests/W202_signature_crux_bach_branch.py",
+      "tests/W203_branch3_source_action_fixed_coefficients.py",
+      "tests/W206_decisive_bit_counterfactual_invariance.py",
+      "tests/W207_decisive_bit_brst_cohomology.py",
+      "tests/W208_decisive_bit_lawvere_fixed_point.py",
+      "tests/W209_decisive_bit_topos_internal_logic.py",
+      "tests/W210_decisive_bit_helmholtz.py",
+      "tests/W211_five_method_convergence.py"
+    ],
+    "issued_at": "2026-07-15T12:00:00-05:00",
+    "claim_status": "exploration",
+    "evidence_grade": "exploration-grade / SYNTHESIS (W211). STRONG/EXACT on the decisive linear algebra of each method (invariant-form dimension counts, fixed-point counts, subobject-classifier and Helmholtz-multiplier computations on the (9,5)=(3,1)+(6,4) frame; all five deterministic and machine-checked, exit 0: W206 29/29, W207 31/31, W208 31/31, W209 32/32, W210 32/32, each reproducing the W203 nulldim=1 guardrail). STRUCTURAL for the lifts (Dirac-BRST H^0(Q) pairing, Lawvere/Friedrichs finite stand-in, topos observer-site rendering, Helmholtz multiplier <-> covariantly-constant form) and for the identification that all five localize the SAME external datum (the interacting C-operator / C2-closing Y14-curvature spectral section). The source action is BUILT with Schur-forced coefficients (W203) and the sign is DECOUPLED from the (9,5)/(7,7) signature crux (W202). Per-method grades are copied verbatim in the method ledger. bar (b) and H59 remain OPEN and Joe-gated; the count stays {1,3}; no canon movement."
+  },
+  "question": {
+    "exact_question": "Take the good-stable fixed point as GIVEN (real total spectrum; positive-definite total metric eta_+ = eta.C; C-operator operative). Is the C-operator grading SIGN -- whether the record-count mode is Krein-NEGATIVE on the (6,4) DeWitt fiber, equivalently whether the interacting C-operator is operative so eta_+ = eta.C is the physical positive-definite inner product, which is exactly bar (b) -- FORCED inside GU's good-stable structure, or a residual Z/2 that must be posited?",
+    "decision_type": "not_forced"
+  },
+  "ownership": {
+    "source_owner": "gu-formalization",
+    "receiving_owner": "possibility-to-capability",
+    "authority_transfer": false
+  },
+  "construction_forks": [
+    {
+      "name": "program-native Krein/C-operator objects vs standard-field invariant-theory machinery",
+      "selected": "program-native (GU's (9,5) Clifford metric eta, the C-operator grading C=sign(eta), the total metric eta_+=eta.C, the (9,5)=(3,1)+(6,4) split), with the standard machinery PORTED per method (Klein/Erlangen metric-from-stabilizer; Dirac-BRST physical inner product on H^0(Q); Lawvere/Yanofsky diagonal fixed point; topos subobject classifier / Heyting semantics; Helmholtz inverse problem of the calculus of variations)",
+      "alternatives": [
+        "a single standard-field lens taken as decisive on its own"
+      ],
+      "transfer_status": "transfers"
+    },
+    {
+      "name": "the C-operator grading SIGN: derived-in-form vs posited-in-sign",
+      "selected": "posited-in-sign (RESIDUAL-BIT-STANDS): the ungraded eta is Schur-forced (derived-in-form) but the record-count block sign is a free Z/2, Godel-independent of GU's good-stable axioms, that must be supplied by the external interacting C-operator / spectral-section datum",
+      "alternatives": [
+        "derived-in-sign (FORCED: a stabilizer large enough to glue the two C-blocks so only eta_+ survives, which would clear bar (b)) -- shown not to exist"
+      ],
+      "transfer_status": "does_not_transfer"
+    }
+  ],
+  "assumptions": [
+    "The arena is the GU internal (9,5)=(3,1)+(6,4) 14-frame with Cl(9,5)=M(64,H); the Cl(9,5)=M(64,H) rep identification is a standing caveat.",
+    "The good stable is taken as GIVEN: real total spectrum, positive-definite total metric eta_+ = eta.C (unitary to ~6e-14, W186), operative C-operator, mirror = record not redundancy (W173).",
+    "The branch-3 source action is BUILT with Schur-forced relative coefficients (W203); the sole undetermined coefficient is the overall scale kappa, undetermined by normalization (Newton's G), NOT fitted to a data window.",
+    "The reservoir Krein sign is computed on the DeWitt (6,4) fiber and is DECOUPLED from the (9,5)/(7,7) signature crux (W202), which stays UNDER_DETERMINED.",
+    "The decisive facts are established in finite faithful (9,5) linear-algebra models and lifted STRUCTURALLY per method; no Lean/Lake build was run."
+  ],
+  "quantifiers": [
+    "For every counterfactual/gauge deformation preserving all good-stable properties (the stabilizer = C-commutant = maximal compact SO(9)xSO(5), dim 46), the invariant symmetric bilinear-form space has dimension 2 (coarse) / dim 4 (DeWitt-refined so(3)+so(6)+so(4)), the basis containing both eta and eta.C (W206/W207/W208/W209/W210).",
+    "For the induced grading self-map (commuting involutions C, C^2=I) there are EXACTLY TWO consistent fixed points (C_good positive-definite; C_path indefinite), both fixed points of the same map (W208).",
+    "For the subobject classifier over the hierarchical observer/capability site, the ungraded eta is Boolean/complemented (forced) but the grading sign is an intermediate Heyting open, non-complemented, not internally decidable (W209).",
+    "For every eta-self-adjoint block-diagonal fixed-point operator L, (eta.C).L is self-adjoint iff eta.L is: Helmholtz self-adjointness is provably sign-blind; the sign is fixed only by an off-block-diagonal coupling = the interacting C-operator = #1 (W210).",
+    "Across the methods, refining the good-stable structure (base (3,1), fiber (6,4), fiber geometric(6)/record-count(4) split) only ENLARGES the residual (invariant-form dim grows to 4), never shrinks it to 1 (W206/W207)."
+  ],
+  "method_ledger": [
+    {
+      "method_id": "W206",
+      "label": "R16 counterfactual-invariance / metric-from-its-stabilizer (Klein/Erlangen): the good-stable stabilizer invariant symmetric-form space is dim 2 (basis {eta_+, eta}={I,C}); the relative block sign is a free Z/2 = the C-grading sign; the stabilizer liberates the sign, it does not force it.",
+      "artifact_path": "explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md",
+      "artifact_revision": "d62a82f3a74731b322a5d65b5ee15a2b861e2855",
+      "result": "RESIDUAL-BIT-STANDS",
+      "grade": "exploration / STRONG on the decisive linear algebra (all dimensions are exact null-space computations on the (9,5)=(3,1)+(6,4) frame, machine-checked, deterministic seed 20260714, 29/29 exit 0, positive controls first). Full-group Schur pin dim 1 = eta reproduces W203 nulldim=1 (guardrail, recover not inflate); good-stable stabilizer = C-commutant = maximal compact so(9)+so(5) dim 46; the DECISIVE number dim{G*-invariant symmetric forms}=2, basis {eta_+, eta}={I,C}, eta and eta_+ distinct so the generator is NOT unique; positivity leaves a 2-parameter cone not the single ray; the finer good-stable split gives 4 block scales (residual grows, never shrinks to 1). VERDICT RESIDUAL-BIT-STANDS. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; H59 OPEN; H41 unbuilt; bar (b) UNCHANGED.",
+      "verification": "tests/W206_decisive_bit_counterfactual_invariance.py (29/29, exit 0, positive controls first, including the W203 nulldim=1 guardrail control); internal-tier deterministic machine regression (seed 20260714).",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-EXTERNAL-C-OPERATOR",
+        "P-FIBER-KREIN",
+        "P-SCHUR-ETA",
+        "P-STABILIZER-LIBERATION"
+      ]
+    },
+    {
+      "method_id": "W207",
+      "label": "R9 Dirac-BRST / constraint cohomology: the physical inner product on H^0(Q) is a dim-2 (coarse) / dim-4 (DeWitt-refined) invariant-form family; both spectral sections eta*C_+ and eta*C_- are invariant, so H^0(Q) privileges neither = the unbuilt C2-closing spectral section.",
+      "artifact_path": "explorations/W207-decisive-bit-brst-cohomology-2026-07-14.md",
+      "artifact_revision": "d62a82f3a74731b322a5d65b5ee15a2b861e2855",
+      "result": "RESIDUAL-BIT-STANDS",
+      "grade": "EXACT for the finite-dimensional group-cohomology facts (machine-verified 31/31, residuals 0 to 1e-9): FULL so(9,5) invariant symmetric forms = dim 1 = eta (W203 Schur reproduced, the guardrail); the C-commutant stabilizer = so(9)+so(5) dim 46, preserves both eta and eta*C; its invariant symmetric-form space = dim 2 = span{eta, eta*C}, independent; the DeWitt-refined stabilizer so(3)+so(6)+so(4) dim 24 gives dim 4, and BOTH spectral sections eta*C_+/eta*C_- are invariant and independent. STRUCTURAL for the BRST lift (the H^0(Q)-pairing = invariant-form identification is the standard Dirac-BRST fact; the record class is W173's closed-not-exact mirror, reproduced not recomputed on M(64,H)). ARGUED for the identification of the free Z/2 of spectral sections with W173's unbuilt C2-closing datum. NO canon / claim-status / verdict / posture change; bar(b)/H59 NOT flipped; count {1,3} untouched; no cross-repo identity claim.",
+      "verification": "tests/W207_decisive_bit_brst_cohomology.py (31/31, exit 0, positive controls first, PC0 reproducing W203 Schur eta); internal-tier deterministic machine regression.",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-EXTERNAL-C-OPERATOR",
+        "P-FIBER-KREIN",
+        "P-SCHUR-ETA",
+        "P-STABILIZER-LIBERATION"
+      ]
+    },
+    {
+      "method_id": "W208",
+      "label": "R7 Lawvere / Cantor diagonal fixed point: the induced grading self-map has EXACTLY TWO consistent fixed points (C_good positive-definite; C_path indefinite = W186 bistability); selection is external, so the sign is Godel-independent (true in the good model, false in the pathological model of the same self-consistency theory).",
+      "artifact_path": "explorations/W208-decisive-bit-lawvere-fixed-point-2026-07-14.md",
+      "artifact_revision": "d62a82f3a74731b322a5d65b5ee15a2b861e2855",
+      "result": "RESIDUAL-BIT-STANDS",
+      "grade": "exploration / STRONG. The two decisive facts are EXACT linear algebra, machine-checked: the good-stable stabilizer's invariant symmetric-form space is 2-dimensional (compact so(9)+so(5)) vs 1-dimensional under the full non-compact so(9,5) (reproducing W203 KER1); the grading self-map (commuting involutions C, C^2=I) has exactly two consistent fixed-point classes (C_good = diag(+1x9,-1x5) positive-definite; C_path = I indefinite, the W178/W186 pathological EP), both fixed points of the SAME map so selection is EXTERNAL = W186 bistability. Matched NEGATIVE control: a positive-definite (14,0) frame shows NO dimension jump (the dim-2 result NEEDS the Krein indefiniteness). STRUCTURAL where the model lifts to GU (the W186/W183 Friedrichs/Fano finite stand-in decides the fixed-point structure, not which basin GU realizes). The Lawvere/Godel signature: the sign is TRUE in the good model and FALSE in the pathological model of the SAME self-consistency theory, so it is Godel-INDEPENDENT. NO canon / RESEARCH-STATUS / claim-status / verdict / posture / bar (b) / H59 change.",
+      "verification": "tests/W208_decisive_bit_lawvere_fixed_point.py (31/31, exit 0, positive controls first, plus a matched negative control on a (14,0) definite frame); internal-tier deterministic machine regression.",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-EXTERNAL-C-OPERATOR",
+        "P-SCHUR-ETA",
+        "P-STABILIZER-LIBERATION"
+      ]
+    },
+    {
+      "method_id": "W209",
+      "label": "R12 topos internal logic / sheaf semantics over the observer/capability site: the subobject classifier is BOOLEAN on the ungraded eta (top, complemented, forced) but INTUITIONISTIC on the grading sign (an intermediate Heyting open whose negation is bottom, not complemented, not internally decidable).",
+      "artifact_path": "explorations/W209-decisive-bit-topos-internal-logic-2026-07-14.md",
+      "artifact_revision": "d62a82f3a74731b322a5d65b5ee15a2b861e2855",
+      "result": "RESIDUAL-BIT-STANDS",
+      "grade": "exploration / conditional register throughout. EXACT (deterministic, 32/32 exit 0, positive controls first): the so(9,5) vector-rep Schur computation (91 eta-antisymmetric generators; null space over the 105-dim symmetric space is EXACTLY 1-dimensional; generator diagonal to 5.8e-17, signature (9,5) indefinite) INDEPENDENTLY re-derives W203's nulldim=1; the hierarchical observer-site frame of opens is a 4-element Heyting chain that is NON-Boolean (intermediate open has negation bottom, not complemented) while the discrete site is Boolean. The ungraded eta is TOP/complemented/Boolean/forced; the C-grading sign is an intermediate Heyting open, non-complemented, intuitionistic, NOT internally decidable => external / Godel-independent / must be posited. NEGATIVE CONTROLS confirm the residual rides the genuine refinement hierarchy and the indefinite (9,5) Krein structure. STRUCTURAL/MODELLING for the observer-site rendering. No canon / RESEARCH-STATUS / claim-status / verdict / posture change; H59 OPEN; count {1,3}; bar (b) stays where W183/W186 left it.",
+      "verification": "tests/W209_decisive_bit_topos_internal_logic.py (32/32, exit 0, positive controls first, PC1 independently re-deriving W203 nulldim=1); internal-tier deterministic machine regression.",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-EXTERNAL-C-OPERATOR",
+        "P-FIBER-KREIN",
+        "P-SCHUR-ETA",
+        "P-STABILIZER-LIBERATION"
+      ]
+    },
+    {
+      "method_id": "W210",
+      "label": "R1 Helmholtz inverse problem of the calculus of variations: the multiplier freedom is dim 3 > 1 containing both eta and eta_+; Helmholtz self-adjointness is provably SIGN-BLIND ((eta.C).L self-adjoint iff eta.L is); the sign is fixed ONLY by an off-block-diagonal coupling, which exists iff the interacting C-operator supplies it = #1 itself.",
+      "artifact_path": "explorations/W210-decisive-bit-helmholtz-inverse-variational-2026-07-14.md",
+      "artifact_revision": "d62a82f3a74731b322a5d65b5ee15a2b861e2855",
+      "result": "RESIDUAL-BIT-STANDS",
+      "grade": "exploration / STRONG on the two load-bearing facts (both exact linear-algebra statements, machine-checked): the full-gauge nulldim 1 = eta (reproducing W203's Schur), the stabilizer nulldim 3 > 1 with eta and eta_+ linearly-independent invariants, and the SIGN-BLINDNESS LEMMA (verified on 12 random eta-self-adjoint block-diagonal fixed-point operators): if eta*L is self-adjoint and C commutes with the block-diagonal fixed-point L, then (eta*C)*L is self-adjoint too, so Helmholtz self-adjointness is provably BLIND to the C-grading sign. The one loophole (an off-block-diagonal coupling that WOULD fix the sign) exists iff the interacting C-operator supplies it, which is exactly question #1, not resolved inside GU. STRUCTURAL on the Helmholtz <-> covariantly-constant-form identification and the stabilizer/Krein-sector reading. Recovers eta UP-TO-GRADING, not the unique graded eta_+. bar(b)/H59 UNCHANGED; no canon movement; count unmoved.",
+      "verification": "tests/W210_decisive_bit_helmholtz.py (32/32, exit 0, positive controls first, PC3 recovering W203 Schur eta); internal-tier deterministic machine regression.",
+      "premise_ids": [
+        "P-CL95-REPCANON",
+        "P-EXTERNAL-C-OPERATOR",
+        "P-FIBER-KREIN",
+        "P-SCHUR-ETA",
+        "P-STABILIZER-LIBERATION"
+      ]
+    }
+  ],
+  "evidence_structure": {
+    "premise_ledger": [
+      {
+        "premise_id": "P-CL95-REPCANON",
+        "exact_statement": "The standing Cl(9,5)=M(64,H) rep-canonicity caveat: the arena is the GU internal (9,5)=(3,1)+(6,4) 14-frame carrying the vector rep of so(9,5), resting on the Cl(9,5)=M(64,H) representation identification taken as canonical; the decisive facts are computed on finite faithful (9,5) linear-algebra models and lifted STRUCTURALLY per method, not by full quaternionic recomputation.",
+        "premise_type": "construction_choice",
+        "source_artifact_path": "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+        "load_bearing_for_method_ids": [
+          "W206",
+          "W207",
+          "W208",
+          "W209",
+          "W210"
+        ],
+        "source_status": "conditional_in_source"
+      },
+      {
+        "premise_id": "P-EXTERNAL-C-OPERATOR",
+        "exact_statement": "The single external Z/2 posit: the residual C-operator grading sign is the interacting C-operator = the unbuilt C2-closing Y14 connection-curvature spectral section (W173) = the TaF-owned finality activation = the finality-reservoir metric signature at the TI/time-as-finality boundary. All five methods localize the residual to this SAME external object; the sign must be posited or supplied externally and is NOT GU-native-derivable. Unbuilt and Joe-gated.",
+        "premise_type": "construction_choice",
+        "source_artifact_path": "explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md",
+        "load_bearing_for_method_ids": [
+          "W206",
+          "W207",
+          "W208",
+          "W209",
+          "W210"
+        ],
+        "source_status": "conditional_in_source"
+      },
+      {
+        "premise_id": "P-FIBER-KREIN",
+        "exact_statement": "The (9,5)=(3,1)+(6,4) base/DeWitt-fiber split with the fiber isotypic Krein signs: on the (6,4) fiber the geometric/graviton mode is Krein-POSITIVE and the record-count/conformal mode is Krein-NEGATIVE (G(eta,eta)=-12), the arena on which the reservoir relative Krein sign #1 rides (W168, reproduced in W202 B1/B2).",
+        "premise_type": "source_result",
+        "source_artifact_path": "explorations/W202-signature-crux-bach-branch-2026-07-14.md",
+        "load_bearing_for_method_ids": [
+          "W206",
+          "W207",
+          "W209",
+          "W210"
+        ],
+        "source_status": "asserted_in_source"
+      },
+      {
+        "premise_id": "P-SCHUR-ETA",
+        "exact_statement": "W203's Schur pin: under the FULL gauge group so(9,5) the 14-frame vector rep is IRREDUCIBLE, so by Schur the invariant symmetric bilinear form is UNIQUE (nulldim=1) and equals the Clifford metric eta (signature (9,5), indefinite). This is the ungraded metric; it is FORCED and is NOT the open bit. Every one of the five methods reproduces it as a positive-control guardrail.",
+        "premise_type": "source_result",
+        "source_artifact_path": "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+        "load_bearing_for_method_ids": [
+          "W206",
+          "W207",
+          "W208",
+          "W209",
+          "W210"
+        ],
+        "source_status": "asserted_in_source"
+      },
+      {
+        "premise_id": "P-STABILIZER-LIBERATION",
+        "exact_statement": "Conditioning on the good stable (preserving BOTH the indefinite eta AND the positive-definite total metric eta_+ = eta.C) forces admissible deformations to commute with C = sign(eta), so the good-stable stabilizer is the C-commutant = the MAXIMAL COMPACT SO(9)xSO(5) (dim 46); under it the 14-frame is REDUCIBLE (R^9 (+) R^5), so by Schur the invariant symmetric-form space GROWS from 1 to 2, basis {eta, eta.C}, and the relative record-count block sign becomes a FREE Z/2. The stabilizer LIBERATES the grading sign; it does not force it.",
+        "premise_type": "source_result",
+        "source_artifact_path": "explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md",
+        "load_bearing_for_method_ids": [
+          "W206",
+          "W207",
+          "W208",
+          "W209",
+          "W210"
+        ],
+        "source_status": "asserted_in_source"
+      }
+    ],
+    "method_dependency_edges": [],
+    "shared_load_bearing_premise_ids": [
+      "P-CL95-REPCANON",
+      "P-EXTERNAL-C-OPERATOR",
+      "P-FIBER-KREIN",
+      "P-SCHUR-ETA",
+      "P-STABILIZER-LIBERATION"
+    ],
+    "raw_method_count": 5,
+    "raw_method_count_is_independence_count": false
+  },
+  "claim": {
+    "statement": "Take the good stable as given. Under the full gauge group so(9,5) the 14-frame vector rep is irreducible, so Schur forces the unique ungraded invariant symmetric form eta (signature (9,5) indefinite, nulldim=1, W203). Conditioning on the good stable reduces the symmetry to the C-commutant / maximal compact SO(9)xSO(5), under which the frame is reducible and the invariant-symmetric-form space GROWS from 1 to 2 (basis {eta, eta.C}); the relative record-count block sign is a free Z/2 = the C-operator grading SIGN = bar (b). Five methodologically distinct routes (counterfactual-invariance, Dirac-BRST cohomology, Lawvere fixed point, topos internal logic, Helmholtz inverse-variational) UNANIMOUSLY return RESIDUAL-BIT-STANDS: the sign is derivable-in-FORM but posited-in-SIGN, Godel-independent of GU's good-stable axioms, and must be supplied by the external unbuilt interacting C-operator (the C2-closing Y14-curvature spectral section / TaF-owned finality activation). 'Compute harder inside GU' is RULED OUT by the convergence. The source action is BUILT with Schur-forced coefficients (W203) and the sign is DECOUPLED from the (9,5)/(7,7) signature crux (W202), so the bit is fully LOCATED but NOT FORCED; bar (b) does not self-clear.",
+    "scope": "(9,5)=(3,1)+(6,4) frame, Cl(9,5)=M(64,H) rep taken canonical; good stable = real total spectrum + positive-definite total metric eta_+ = eta.C + operative C-operator; finite faithful (9,5) linear-algebra models for the decisive dimension/fixed-point/classifier facts, STRUCTURAL lifts for the BRST/Lawvere/topos/Helmholtz renderings; on the source action built by W203 with the signature decoupled by W202.",
+    "independence_scope": "These are FIVE methodologically distinct routes (R16 counterfactual-invariance, W206; R9 Dirac-BRST constraint cohomology, W207; R7 Lawvere/Cantor diagonal fixed point, W208; R12 topos internal logic, W209; R1 Helmholtz inverse-variational, W210) that UNANIMOUSLY (5/5) return the SAME verdict RESIDUAL-BIT-STANDS. Convergence is NOT independence: all five share the SAME load-bearing premises (the W203 Schur-forced ungraded eta / nulldim=1 guardrail; the good-stable stabilizer = C-commutant = maximal compact SO(9)xSO(5), which LIBERATES the invariant-form space from 1 to 2; the (6,4)-fiber geometric-positive / record-count-negative Krein split; the Cl(9,5)=M(64,H) rep-canonicity caveat; and the SAME single external Z/2 posit, the unbuilt interacting C-operator / C2-closing Y14-curvature spectral section) and each reduces to that one external datum, so their agreement is dependence-driven shared-premise convergence, NOT premise-independent evidential replication. The raw method count (5) is NOT an independence count. The independence the RESULT establishes is proof-theoretic (Godel) independence of the C-grading SIGN from GU's good-stable axioms: the sign is TRUE in the good model and FALSE in the pathological model of the SAME self-consistency theory (W208 bistability), so it is neither derivable nor refutable inside GU and must be posited or supplied by the external TI/time-as-finality datum. No evidential-independence type is asserted for the five methods; the raw method count is NOT an independence count.",
+    "independence_type": "proof_theoretic_independence",
+    "method_count": 5,
+    "convergence": "unanimous",
+    "joint_argument_artifact": "explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md",
+    "source_status_unchanged": true
+  },
+  "verification": {
+    "artifacts": [
+      "tests/W206_decisive_bit_counterfactual_invariance.py",
+      "tests/W207_decisive_bit_brst_cohomology.py",
+      "tests/W208_decisive_bit_lawvere_fixed_point.py",
+      "tests/W209_decisive_bit_topos_internal_logic.py",
+      "tests/W210_decisive_bit_helmholtz.py",
+      "tests/W211_five_method_convergence.py"
+    ],
+    "replication_status": "Internal-tier: five deterministic machine regressions (W206 29/29, W207 31/31, W208 31/31, W209 32/32, W210 32/32) all exit 0 with positive controls first, each reproducing the W203 nulldim=1 guardrail; plus the W211 convergence certificate (tests/W211_five_method_convergence.py, exit 0, positive controls first) which recomputes the full-group nulldim=1 -> stabilizer invariant-form dim=2 jump and the five per-method verdicts. No independent external replication and no Lean/Lake build was run; issued at exploration-grade interface per the GU-001 issuance plan."
+  },
+  "alternatives": [
+    "(a) Obtain the C-grading sign externally from TI / time-as-finality: the finality-reservoir metric signature at the TI/time-as-finality boundary supplies the one bit GU cannot; now PROVEN necessary and external, not merely convenient. A gated cross-repo object; the one-way rule is respected and no identity is asserted.",
+    "(b) Posit a Krein-positivity axiom (the record-count mode is Krein-negative / the interacting C-operator is operative) and carry GU's unitarity as CONDITIONAL on it (R13's minimal-independent-axiom reading from W205).",
+    "'Compute harder inside GU' is RULED OUT by the five-method convergence: each method is a different notion of computing inside GU (invariance, cohomology, fixed-point consistency, internal logic, variational reconstruction) and all five leave the same bit free."
+  ],
+  "residuals": [
+    "bar (b) and H59 remain OPEN and Joe-gated; no debit added or cleared; the count stays {1,3}.",
+    "The interacting C-operator / C2-closing Y14-curvature spectral section is UNBUILT; the C-positive-subspace pin uses a proxy (the +1 eigenspace of the Hermitian Krein form K_S) for the actual operator.",
+    "The overall scale kappa (= the eta-from-gimmel-area / Newton's G) is undetermined by normalization (not fitted); the nonlocal Z_U gradient-stiffness completion is unbuilt (W203 is ultralocal).",
+    "The STRUCTURAL lifts (BRST H^0(Q), Lawvere/Friedrichs stand-in, topos observer-site, Helmholtz multiplier) are faithful finite renderings, not full M(64,H) recomputations.",
+    "The Cl(9,5)=M(64,H) rep-canonicity caveat stands; the (9,5)/(7,7) signature is UNDER_DETERMINED (the sign is decoupled from it, W202).",
+    "The branch-3 source action still assumes the W154 marble/wood identification (dark energy = the record current), localized through the single object J (W203)."
+  ],
+  "nonclaims": [
+    "This does NOT claim GU has no good stable, nor that GU is falsified; unbuilt is not false.",
+    "This does NOT assert any TI/TaF or cross-repository identity; the boundary fields are typed-interface requests only.",
+    "This does NOT move any GU verdict, RESEARCH-STATUS, canon, bar (b), H59, or the generation count {1,3}.",
+    "The five method rows are NOT five independent evidential units; they share ALL load-bearing premises and reduce to one external Z/2 posit; the raw method count is NOT an independence count.",
+    "This does NOT decide the C-grading sign / the interacting C-operator activation; it establishes that the sign is Godel-independent of GU's good-stable axioms, not which value it takes.",
+    "This does NOT assert the (9,5) signature is forced (it stays UNDER_DETERMINED); it asserts the sign is DECOUPLED from the signature crux."
+  ],
+  "interfaces": [
+    {
+      "target_repository": "possibility-to-capability",
+      "requested_datum": "a receiving-independence assessment of the source method-dependence typing (may preserve proof_theoretic_independence or weaken it to unknown_or_contested; never strengthen); the five methods share all load-bearing premises and reduce to one external Z/2 posit",
+      "ownership_status": "target_owned"
+    },
+    {
+      "target_repository": "time-as-finality",
+      "requested_datum": "the finality-reservoir metric signature / interacting-C-operator activation (the single external Z/2 posit, the W187 r(N) crossing / W235-family record datum) as a typed interface only; it remains gated and no cross-repo identity is asserted",
+      "ownership_status": "joint_seam"
+    }
+  ],
+  "integrity": {
+    "hash_algorithm": "sha256",
+    "canonicalization_profile": "ptc-frozen-bundle-v1",
+    "hash_scope": [
+      "explorations/W202-signature-crux-bach-branch-2026-07-14.md",
+      "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+      "explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md",
+      "explorations/W207-decisive-bit-brst-cohomology-2026-07-14.md",
+      "explorations/W208-decisive-bit-lawvere-fixed-point-2026-07-14.md",
+      "explorations/W209-decisive-bit-topos-internal-logic-2026-07-14.md",
+      "explorations/W210-decisive-bit-helmholtz-inverse-variational-2026-07-14.md",
+      "explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md",
+      "tests/W202_signature_crux_bach_branch.py",
+      "tests/W203_branch3_source_action_fixed_coefficients.py",
+      "tests/W206_decisive_bit_counterfactual_invariance.py",
+      "tests/W207_decisive_bit_brst_cohomology.py",
+      "tests/W208_decisive_bit_lawvere_fixed_point.py",
+      "tests/W209_decisive_bit_topos_internal_logic.py",
+      "tests/W210_decisive_bit_helmholtz.py",
+      "tests/W211_five_method_convergence.py"
+    ],
+    "manifest": [
+      {
+        "path": "explorations/W202-signature-crux-bach-branch-2026-07-14.md",
+        "byte_length": 26317,
+        "content_sha256": "1e6fd218576a70e6f026e15b1723940a51a69e68496ebca5a6f91e4b5ea40179"
+      },
+      {
+        "path": "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+        "byte_length": 28097,
+        "content_sha256": "789583043475e1c5b342a54aed17f5c4498d962211dad0fb44115eedfe0f069b"
+      },
+      {
+        "path": "explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md",
+        "byte_length": 19731,
+        "content_sha256": "ce58de3e68d0bf6cf252cec0cbefbb725bd3e50156f259cf72d1398f88b65501"
+      },
+      {
+        "path": "explorations/W207-decisive-bit-brst-cohomology-2026-07-14.md",
+        "byte_length": 15087,
+        "content_sha256": "ea2dfc217c6709419563d79913a09fbf3a8d9aaf30bc9b128d22297c582b7bb4"
+      },
+      {
+        "path": "explorations/W208-decisive-bit-lawvere-fixed-point-2026-07-14.md",
+        "byte_length": 21795,
+        "content_sha256": "4b253751d2f281874f4df459a8abf8eb3863b547d02f3d1c9f524efab7a695c5"
+      },
+      {
+        "path": "explorations/W209-decisive-bit-topos-internal-logic-2026-07-14.md",
+        "byte_length": 23387,
+        "content_sha256": "ce776c69e44203b66bfa2346e24c0f60de658108a7589f7a770115059d4bf8ab"
+      },
+      {
+        "path": "explorations/W210-decisive-bit-helmholtz-inverse-variational-2026-07-14.md",
+        "byte_length": 20829,
+        "content_sha256": "7aa9da5511f4e2dd05867a93657eea9e6adc8a676c9c988ce176fb98983f030a"
+      },
+      {
+        "path": "explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md",
+        "byte_length": 18102,
+        "content_sha256": "0e1c213d2ab60d644113efc4b9b4fe884186761489ba320dc37834520b9928b6"
+      },
+      {
+        "path": "tests/W202_signature_crux_bach_branch.py",
+        "byte_length": 11928,
+        "content_sha256": "9c8916ae43ab8f307a21964e37ef220181b67369414c2d0cd4c0608d45fbaff5"
+      },
+      {
+        "path": "tests/W203_branch3_source_action_fixed_coefficients.py",
+        "byte_length": 23262,
+        "content_sha256": "eb5ab14b6f992949c65d02685f5947c5bd33b3c0810e0cc1ef64c56dd6bc420b"
+      },
+      {
+        "path": "tests/W206_decisive_bit_counterfactual_invariance.py",
+        "byte_length": 18266,
+        "content_sha256": "73d267fcc74bf1b8445e9537675978721216c9b0416061c1c900a1232d43f7e5"
+      },
+      {
+        "path": "tests/W207_decisive_bit_brst_cohomology.py",
+        "byte_length": 19156,
+        "content_sha256": "dbe33d2056dbac4459594049bbe50e57998e31d43f8e2631ab2e4d3279169fba"
+      },
+      {
+        "path": "tests/W208_decisive_bit_lawvere_fixed_point.py",
+        "byte_length": 26551,
+        "content_sha256": "68c47573b1c3e2068357d15a66a5d7ea3e85d0006e2c91a3ad3bc37660525206"
+      },
+      {
+        "path": "tests/W209_decisive_bit_topos_internal_logic.py",
+        "byte_length": 22254,
+        "content_sha256": "43e28f037800148a198df9baa686a50114b5c543d222d1a676695bfe693d2b45"
+      },
+      {
+        "path": "tests/W210_decisive_bit_helmholtz.py",
+        "byte_length": 22449,
+        "content_sha256": "6e8af668d838405041b612ddafe9dbedbbe74474b28c8c98542a9049c999014a"
+      },
+      {
+        "path": "tests/W211_five_method_convergence.py",
+        "byte_length": 13299,
+        "content_sha256": "e533d9c307dc1f44248744bb0cd806042ad0be52d0db9400fe8b697066eaf234"
+      }
+    ],
+    "manifest_digest": "964f398f3292c96e649a84477f75e4734c564507e2402c7bfcb29ca852c42562",
+    "packet_digest": "a3f7fc5d99f3810ad86b783365e130749d137e227e6ac97021c26a54a9fff1be",
+    "bundle_digest": "ab64dbeaf3c949d84bfb39ce19afc2c259164535698c5f09c44e75465a23bc30",
+    "digest": "ab64dbeaf3c949d84bfb39ce19afc2c259164535698c5f09c44e75465a23bc30",
+    "frozen": true
+  }
+}
