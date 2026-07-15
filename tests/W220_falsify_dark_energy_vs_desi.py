@@ -290,6 +290,11 @@ def main():
           0.05 < z_cross < 2.0, f"z_cross={z_cross:.3f}")
 
     # --- A4 AMPLITUDE O(1) / F1 ceiling: does the data force wa/(w0+1) < -3.5 (B_i>3 M_Pl)?
+    # NOTE (W226): this central-value fc_d is SUPERSEDED for the standing amplitude tripwire by
+    # tests/W226_de_tripwire.py, which tests the canon-F1 quantity (2-sigma least-negative edge
+    # over ALL admissible current combinations, not one BASE central value). Central-only fc_d
+    # would spuriously fire on DESI+CMB+Pantheon+ (central -3.83) though F1's 2-sigma condition
+    # is not met. This block is retained for W220's record; see W226 for the hardened monitor.
     ratio = BASE["wa"] / (BASE["w0"] + 1.0)
     # 2-sigma most-negative excursion of the ratio (marginal, conservative): push wa down,
     # w0 toward -1 by their 1-sigma errors * 2 (correlation rho=-0.8 makes them co-vary the
