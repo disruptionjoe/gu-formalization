@@ -78,10 +78,15 @@ compact image.
 Why this bears on the firewall hypothesis: it is an independent EXCLUSION of a closed-interior good-stable
 completion on the grading axis, which is precisely what falsification criterion 1 would need in order to
 succeed. Instead of exhibiting a closed completion, the good-stable analysis excludes one and names the
-boundary object as the sole chirality-safe resolution. This does not settle the verdict (the no-go is
-scoped pending the charged-corridor result `W243`, and rests on the standing `Cl(9,5)=M(64,H)`
-rep-canonicity caveat that is itself falsification criterion 4). It is logged here so the convergence is
-visible and still attackable, not asserted as established. `bar (b)` and H59 stay OPEN and Joe-gated.
+boundary object as the sole chirality-safe resolution. The charged corridor is now closed (`W243`): a
+`Z`-charged EXTREMAL-weight vector is annihilated by a nilradical that sits in its stabilizer, so the
+stabilizer always retains a non-compact parabolic (rank-independent, GU-independent). Since every native
+condensate is an extremal tensor component, the no-go is UNCONDITIONAL for everything GU builds; the only
+surviving mathematical escapes are exotic NON-extremal charged vectors (GU-non-native) and denying
+Proposition 1 (this hypothesis). This still does not settle the verdict: it rests on the standing
+`Cl(9,5)=M(64,H)` rep-canonicity caveat that is itself falsification criterion 4, and the boundary reading
+is one of two remaining escapes, not a proven endpoint. It is logged here so the convergence is visible and
+still attackable, not asserted as established. `bar (b)` and H59 stay OPEN and Joe-gated.
 
 ## Explicit falsification criteria (attack these)
 
