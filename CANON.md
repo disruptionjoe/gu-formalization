@@ -66,6 +66,7 @@ See `RESEARCH-POSTURE.md` for the canonical research philosophy.
 - `canon/theta-field-flrw-dark-energy-eos.md`
 - `canon/signed-readout-boundary-theorem-RESULTS.md` (big-swing R3; GU-independent)
 - `canon/two-arena-rep-theory-core-RESULTS.md` (big-swing R4; GU-independent)
+- `canon/good-stable-compactification-no-go-RESULTS.md` (good-stable no-go; GU-independent; does not move bar(b)/H59/count)
 - `lab/specifications/six-axis/`
 - `lab/specifications/type-ii1-spectral-sm/`
 
@@ -129,6 +130,16 @@ derives three; the count verdict stays OPEN.
 |---|---|---|
 | Signed-Readout Boundary Theorem (`canon/signed-readout-boundary-theorem-RESULTS.md`) | RESOLVED (abstract core M/P/C + compact Part Z/K, unconditional + machine-certified 22/22); OC1/OC2 remain labeled hypotheses for the non-compact case | GU-independent boundary theorem in ordered-algebra + index theory; no `chi(K3)` / 24 / 8 / 3 imported. Certificate `tests/big-swing/R3_signed_readout_certificate.py` exit 0 (re-run 2026-07-03). |
 | Two-Arena Rep-Theory Core (`canon/two-arena-rep-theory-core-RESULTS.md`) | RESOLVED (three exact facts; exact-integer certified; arithmetic cores have written Lean proof terms) | (A) `dim Hom_{so(9,5)}(S^+ (x) S^+, Lambda^0) = 0` (corroborated by SHIAB-05); (B) `pi_3^s = Z/8 (+) Z/3` CRT split + 2-primary blindness; (C) class-C generator arithmetic. `R4_crt_two_arena.py` exit 0 (re-run 2026-07-03); Lean recompilation not re-reproduced in this pass. |
+
+## Canon Entry Added 2026-07-15 (good-stable compactification no-go; GU-independent, internal tier)
+
+Promoted under the agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awareness note filed in
+`../../../system/mailboxes/joeops/`. GU-independent (canonical claim 6), internal tier; does NOT move
+`bar(b)` / H59 / the generation count (those stay OPEN and Joe-gated).
+
+| entry | verdict / grade | source explorations |
+|---|---|---|
+| Good-Stable Compactification No-Go (`canon/good-stable-compactification-no-go-RESULTS.md`) | RESOLVED as a structural no-go for the neutral / adjoint / charged-EXTREMAL order-parameter classes (everything GU natively builds); SCOPED (open) only against exotic NON-extremal charged vectors and against denying Proposition 1. EXACT for the finite-dimensional facts, STRUCTURAL / rank-independent for the lift, machine-verified; internal tier. Conditional on the Krein positive-majorant definition (Prop 1) and the W235 record bit. | W234 + W237 + W240 + W241 + W243 (2026-07-15), independently re-verified by W244 (SURVIVES, 40/40 exit 0). Robust mechanism = W240(C) / W243 order-parameter formulation; W241's "compact-image <=> commutes-with-P" lemma is CORRECTED as overstated (see the W241 correction block and W244 Section 7). Cross-refs `canon/firewall-boundary-hypothesis.md` (independent-convergence evidence) and `packets/GU-002-good-stable-nogo.md` (issued frozen packet). |
 
 ## Not Yet Canon
 

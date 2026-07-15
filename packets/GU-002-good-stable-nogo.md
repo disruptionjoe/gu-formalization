@@ -102,10 +102,19 @@ Direct leg-to-leg dependencies are recorded as `method_dependency_edges`
 ## Verification status (honest)
 
 Internal-tier: five machine regressions (W234 35/35, W237 44/44, W240 27/27,
-W241 46/46, W243 26/26) all exit 0 with positive controls first. An independent
-re-verification pass is **IN PROGRESS** (a sibling run). Issued at
+W241 46/46, W243 26/26) all exit 0 with positive controls first. Issued at
 exploration-grade interface per the GU-001 issuance plan. No Lean/Lake build was
 run.
+
+> **Update (2026-07-15, post-issue; the frozen JSON above pins the pre-W244 state and is
+> intentionally not re-cut).** The independent re-verification recorded as "IN PROGRESS" in the
+> frozen JSON is now **COMPLETE**: `explorations/W244-reverify-good-stable-nogo-2026-07-15.md`
+> (`tests/W244_reverify_good_stable_nogo.py`, 40/40, exit 0) re-derived every load-bearing step
+> from an independent setup and returned **SURVIVES**, with one editorial correction (W241's
+> "compact-image <=> commutes-with-P" lemma is overstated; the robust W240(C)/W243 order-parameter
+> mechanism is canonized instead). The result was PROMOTED TO CANON on 2026-07-15:
+> `canon/good-stable-compactification-no-go-RESULTS.md`. This narrates a state after the pinned
+> revision; the digests above remain the authoritative pin of the five-leg source bundle.
 
 ## Relationship to GU-001
 

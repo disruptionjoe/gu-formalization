@@ -25,6 +25,21 @@ cross_repo:
 
 # W241 (lane B) -- the coincidence-admitting smaller-group front door
 
+> **CORRECTION W241-01 (2026-07-15, exploration-tier; added at canon promotion of the good-stable no-go).**
+> The isotropy-level lemma stated below as "good-stable = compact image `<=>` commutes with the specific `P`
+> `<=>` allows the mass `~ P`" is **OVERSTATED**. The independent re-verification W244
+> (`explorations/W244-reverify-good-stable-nogo-2026-07-15.md`, Section 7) built a tilted maximal compact
+> `k' = g K g^{-1}` (with `g = exp(0.5 Z)` a genuine boost) whose generators are still elliptic
+> (compact-image) yet do NOT commute with the specific `P`. So "compact image `=>` commutes with `P`" is
+> false, and read literally this lemma would also wrongly close the NON-extremal charged corridor that
+> W240 / W243 correctly keep open. **The conclusion of W241 (the coincidence-admitting smaller-group escape
+> is closed) is correct and unaffected.** Only the stated MECHANISM is wrong. The robust reason, which is
+> what the canon doc canonizes, is the W240(C) / W243 ORDER-PARAMETER formulation: any adjoint reducing
+> direction `P'` that takes `G` to a maximal compact must have `[P', Z] != 0`, so by Theorem C every such
+> `P'` is `Z2`-ODD -- chirality is killed by the condensate itself, independent of any post-hoc
+> `P`-commutation of the residual group. Cite `canon/good-stable-compactification-no-go-RESULTS.md` and
+> W244 Section 7. This correction annotates, and does not delete, the content below.
+
 Test / characterization certificate: `tests/W241_dynamical_vacuum_coincidence_escape.py`
 (46/46, exit 0, positive controls first). Four personas ran INLINE in one worker (Krein /
 Prop-1 positive-majorant specialist; Lie-isotropy / centralizer specialist; GU-structure /

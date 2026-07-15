@@ -88,6 +88,11 @@ Proposition 1 (this hypothesis). This still does not settle the verdict: it rest
 is one of two remaining escapes, not a proven endpoint. It is logged here so the convergence is visible and
 still attackable, not asserted as established. `bar (b)` and H59 stay OPEN and Joe-gated.
 
+The structural no-go was PROMOTED TO CANON on 2026-07-15 (public-spine framing only, no verdict move):
+`canon/good-stable-compactification-no-go-RESULTS.md`, GU-independent, internal tier, independently
+re-verified by `W244` (SURVIVES). Its deny-Proposition-1 escape IS this hypothesis. Promotion does not
+move this hypothesis's OPEN verdict, nor `bar (b)` / H59 / the count.
+
 ## Explicit falsification criteria (attack these)
 
 The hypothesis WEAKENS if any of the following succeeds:
