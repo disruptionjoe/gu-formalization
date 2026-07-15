@@ -1,95 +1,66 @@
 ---
-title: "Structurally Forced, Internally Undecidable (DRAFT)"
+title: "Structurally Forced, Internally Undecidable (DRAFT, adversarially corrected)"
 status: draft
 doc_type: draft_marker
 created: 2026-07-14
-promotion: "Joe-gated. This is NOT a candidate. Do not promote to papers/candidates/ or submit anywhere without explicit approval."
+updated: 2026-07-14
+promotion: "Joe-gated. Do not promote, submit, post, or publish without explicit approval."
 ---
 
-# Structurally Forced, Internally Undecidable -- DRAFT
+# Structurally Forced, Internally Undecidable -- draft audit
 
-**This is a FIRST-PASS DRAFT, not a finished paper and NOT a candidate.**
+The original headline thesis did not survive the requested adversarial hardening. The folder remains under its established slug for continuity, but the manuscript is now titled *Invariant metrics and fundamental symmetries for compact stabilizers: an adversarial correction of the proposed GU grading-sign argument*.
 
-Working title (Joe-approved): *Structurally Forced, Internally Undecidable: the C-operator grading sign in
-self-consistent indefinite-metric (Krein) gauge theories.*
+## Contents
 
-The paper LEADS with the general, GU-independent mechanism (a Schur / invariant-theory statement about an
-indefinite metric and its C-commutant). Geometric Unity is the worked example, not the subject.
+- [`draft-skeleton.md`](draft-skeleton.md) contains the corrected finite-dimensional theorem, written proofs, GU application audit, method-independence audit, literature positioning, and verified bibliography.
+- [`HARDENING-REPORT.md`](HARDENING-REPORT.md) records each claim's disposition, the seven-item register outcome, external dependencies, and candidate-readiness verdict.
+- [`tests/general_krein_grading_sign.py`](tests/general_krein_grading_sign.py) is a 77-assertion regression check for the corrected theorem and counterexamples. It is draft-local and is not wired into the repository greens gate.
 
-## What is in this folder
+## Current verdict
 
-- [`draft-skeleton.md`](draft-skeleton.md) -- the draft: abstract (general first), the general theorem
-  (proven, with one checkable side-hypothesis), the five-method independence backbone (W206-W211), the
-  forced-coefficient source-action context (W203), honest positioning vs the prior art, an "Honest limits"
-  section, and a light nod to the "Located, Not Forced" line.
-- [`tests/general_krein_grading_sign.py`](tests/general_krein_grading_sign.py) -- machine check of the
-  general theorem over a sweep of signatures `(p,q)` (81/81, exit 0). DRAFT-tier: it lives in this folder,
-  runs standalone, and is deliberately NOT wired into the repo greens gate.
+- For `O(p) x O(q)`, the admissible commuting fundamental symmetry is unique. There is no free `Z/2`.
+- For a proper compact subgroup, a shared irreducible constituent across positive and negative sectors produces a continuous homogeneous space of admissible fundamental symmetries. Its real dimension is `sum dim_R(D_lambda) a_lambda b_lambda`.
+- The former non-coincidence hypothesis is now fully characterized in finite dimensions. It is the exact uniqueness condition for the admissible fundamental symmetry, but it does not force one invariant scale per diagonal block.
+- GU's constructed `SO(9) x SO(5)` surrogate satisfies non-coincidence and therefore lies in the unique case. The actual interacting GU good-stable stabilizer and observable algebra are not derived.
+- W203 proves only a one-dimensional ultralocal `so(9,5)` kernel, conditional on W154. The nonlocal source action is not built.
+- The five methods are not independent. The honest inventory is one invariant-theory theorem, one conditional Helmholtz lemma, one unbuilt BRST route, and two analogies.
+- No formal undecidability theorem is present. The justified phrase is "underdetermined by the specified invariance data," and only in the nonunique cases of the corrected theorem.
+- bar (b) and H59 remain OPEN. No canon or verdict changed.
 
-## Status and governance
+## Machine check
 
-- **Grade:** exploration / DRAFT-tier. All verification is internal (reproduced and adversarially reviewed
-  within one AI-directed process; not yet independently replicated or peer-reviewed).
-- **General theorem:** came out **PROVEN** at the general level, with one explicit and checkable
-  side-hypothesis (non-coincidence of the two C-eigenspaces as representations of the good-stable
-  stabilizer), which holds automatically in the canonical maximal-compact case `O(p) x O(q)`. It is NOT left
-  as a bare conjecture; the hardening register below lists the referee-grade tightening still owed.
-- **No canon movement.** bar (b) and H59 stay OPEN. The generation count stays `{1,3}`. No forbidden target
-  is assumed or inserted. No scientific verdict is flipped into canon.
-- **No external action.** No publication, no submission, no deployment. Promotion to candidate is Joe-gated.
-- **Machine checks:**
-  - `python -u papers/drafts/structurally-forced-internally-undecidable/tests/general_krein_grading_sign.py`
-    (81/81, exit 0)
-  - `python -u tests/W211_five_method_convergence.py` (exit 0; the five-method convergence certificate)
+From the repository root:
 
-## Source material (all on origin/main, cited as used)
+```
+python -u papers/drafts/structurally-forced-internally-undecidable/tests/general_krein_grading_sign.py
+```
 
-- W203 -- source action built with Schur-forced relative coefficients (only overall scale free).
-- W202 -- signature crux: the `(6,4)` Krein sign is decoupled from the `(9,5)`/`(7,7)` signature choice.
-- W206 (R16 counterfactual-invariance), W207 (R9 Dirac-BRST), W208 (R7 Lawvere fixed point),
-  W209 (R12 topos internal logic), W210 (R1 Helmholtz inverse-variational) -- the five decisive-bit methods.
-- W211 -- five-method convergence synthesis (LOCATED-NOT-FORCED; bar (b) does not self-clear).
+Expected result: `77/77 checks passed` and exit code 0.
 
----
+## Seven-item hardening register outcome
 
-## Remaining-hardening register
+1. **General-theorem gap: closed in finite dimensions, with the old claim killed.** The compact-stabilizer moduli space and its exact residual dimension are proved. Canonical uniqueness and a proper-subgroup continuous counterexample are tested. Infinite-dimensional Krein spaces remain outside scope.
+2. **Prior art and novelty: completed as an internal literature sweep, with major downgrades.** Metric and `C` nonuniqueness, observable-dependent metric selection, physical-state reconstruction, and indefinite-sector prescriptions are prior art. All retained citations have a publisher, DOI, or arXiv record. An outside specialist novelty review is still required before candidate status.
+3. **Written methods and independence: completed as an audit, not as five proofs.** The valid theorem and conditional lemma are written out. The BRST construction is unbuilt. Lawvere and topos are analogies. The multi-formalism-independence claim is withdrawn.
+4. **Independent reader: cannot be closed inside the GU repository.** A Krein/PT-symmetric-QFT expert and a real-representation-theory expert should review the theorem, scope, and prior art. A logic expert should confirm the removal of the independence framing.
+5. **Structural owner identification: not established and kept gated.** No cross-repository identity is asserted. The actual GU `C`, stabilizer, and observable algebra must be built before any owner claim can be tested.
+6. **Venue positioning: provisionally resolved.** The corrected general theorem is likely standard background. A future paper would need a derived GU application and would fit math-ph or hep-th. The present draft is not suitable for submission.
+7. **Source-action completion context: clarified.** "Forced" applies only to the W203 ultralocal bridge kernel, conditional on W154. It does not apply to an unbuilt nonlinear or nonlocal action.
 
-What still needs doing in the GU repository before this draft could be considered candidate / arXiv grade.
-GU-repo hardening remains; this list is explicit so it can be carried into the drafting-factory seed note.
+## Remaining blockers
 
-1. **Prove the general Krein theorem in full generality (TOP priority).** The theorem is proven for the
-   canonical maximal-compact case `G* = O(p) x O(q)` and machine-checked over a signature sweep. Still owed:
-   a written proof that does not specialize to the maximal compact; the precise characterization of when the
-   non-coincidence hypothesis (the two C-eigenspaces sharing no common irreducible `G*`-constituent) can
-   FAIL for a proper subgroup `G < O(eta)`, and what happens to the residual dimension when it does; and a
-   statement of the minimal hypotheses on `G` under which the forced-form/free-sign dichotomy holds.
-2. **Full literature review.** The Section 6 positioning is a first-pass sweep. A referee-grade version needs
-   exact citations (Mostafazadeh's metric-operator papers; Bender-Boettcher and Bender-Brody-Jones for
-   PT/CPT and the C operator; Mannheim on PT-symmetric QFT, Pais-Uhlenbeck, and conformal gravity;
-   Lee-Wick, CLOP, and Anselmi-Piva fakeon), plus a check that the specific forced-form/free-sign and
-   multi-formalism-independence claims are not anticipated in literature not yet swept (Krein-space QFT,
-   Gupta-Bleuler/BRST cohomology of the physical metric, indefinite-metric representation theory).
-3. **Referee-grade written proofs of each of the five methods.** The five methods are each machine-checked
-   on their decisive linear-algebra core, but the paper currently cites them; a candidate version needs a
-   written, human-readable proof of each (invariance dim-2, BRST `H^0(Q)` non-selection, Lawvere two-fixed-
-   points, topos classifier intuitionistic-on-sign, Helmholtz sign-blindness) that a referee can check
-   without running code.
-4. **Independent-reader pass.** No result here has been read by anyone outside the AI-directed process that
-   produced it. A domain expert (Krein / PT-symmetric QFT, and separately invariant theory / representation
-   theory) should confirm (a) the general theorem and its side-hypothesis, (b) the honesty of the prior-art
-   positioning, and (c) that the five methods are genuinely independent rather than the same computation in
-   five costumes.
-5. **Tighten the structural identifications.** The claim that all five methods localize the SAME external
-   owner (the interacting C-operator = the unbuilt C2-closing spectral section = the temporal-issuance /
-   time-as-finality datum) is structural, not fully built. The cross-program object stays gated; the paper
-   asserts no cross-repository identity. A candidate version needs the GU-side identification made precise
-   and the one-way gating restated.
-6. **Venue positioning.** Decide the honest venue and framing (hep-th / math-ph general Krein result with GU
-   as an application, versus a GU-specific note). The general theorem is the publishable core; the GU
-   instance is the motivating example. Section 8's relationship to "Located, Not Forced" should be settled
-   (companion, not sequel).
-7. **Source-action completion context.** W203 builds the source action's forced coefficients but the
-   completion to the full nonlocal term is not built; a candidate version should state precisely how much of
-   "the form is forced" rests on the built part versus the schema match.
+The following cannot honestly be converted into editorial cleanup:
 
-*DRAFT marker. Promotion is Joe-gated. Zero em dashes.*
+1. derive the physical GU good-stable stabilizer and its isotypic decomposition from the native dynamics;
+2. construct the interacting grading or metric operator on the relevant state space;
+3. complete the H59 keep-and-grade requirements, including `[P,S] = 0` and projected unitarity;
+4. complete or replace the W154-dependent source-action bridge beyond the ultralocal kernel;
+5. obtain outside specialist review of the finite-dimensional classification and novelty; and
+6. if an independence claim is desired, state a formal theory and prove genuine model separation rather than use toy analogies.
+
+The single biggest remaining risk is that the native GU stabilizer and interacting observable algebra may not resemble the compact 14-frame surrogate. Until they are derived, the paper has no established GU grading-sign result.
+
+## Governance
+
+This is draft-tier only. It was not promoted, submitted, posted, deployed, or otherwise published. Promotion and publication remain Joe-gated. bar (b) and H59 remain OPEN.

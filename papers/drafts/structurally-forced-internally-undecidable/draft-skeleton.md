@@ -1,355 +1,414 @@
 ---
-title: "Structurally Forced, Internally Undecidable: the C-operator grading sign in self-consistent indefinite-metric (Krein) gauge theories"
+title: "Invariant metrics and fundamental symmetries for compact stabilizers: an adversarial correction of the proposed GU grading-sign argument"
 status: draft
-grade: "DRAFT-tier / exploration. FIRST PASS, not a finished paper. Promotion to candidate is Joe-gated. Machine checks live in the gu-formalization repo (tests/W206-W211 and this draft's tests/general_krein_grading_sign.py). No scientific verdict is flipped into canon: bar (b) and H59 stay OPEN."
+grade: "DRAFT-tier only. The original one-Z/2 and internal-undecidability thesis does not survive adversarial review. Promotion is Joe-gated. bar (b) and H59 remain OPEN."
 created: 2026-07-14
+updated: 2026-07-14
 slug: structurally-forced-internally-undecidable
-lead: "GENERAL (GU-independent) mechanism first; Geometric Unity is the worked example, not the subject."
+lead: "A GU-independent compact-stabilizer theorem is proved; its proposed one-bit GU application is not established."
 depends_on:
+  - explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md
   - explorations/W206-decisive-bit-counterfactual-invariance-2026-07-14.md
   - explorations/W207-decisive-bit-brst-cohomology-2026-07-14.md
   - explorations/W208-decisive-bit-lawvere-fixed-point-2026-07-14.md
   - explorations/W209-decisive-bit-topos-internal-logic-2026-07-14.md
   - explorations/W210-decisive-bit-helmholtz-inverse-variational-2026-07-14.md
   - explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md
-  - explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md
-  - explorations/W202-signature-crux-bach-branch-2026-07-14.md
 scripts:
   - papers/drafts/structurally-forced-internally-undecidable/tests/general_krein_grading_sign.py
-  - tests/W211_five_method_convergence.py
 ---
 
-# Structurally Forced, Internally Undecidable
+# Invariant metrics and fundamental symmetries for compact stabilizers
 
-**the C-operator grading sign in self-consistent indefinite-metric (Krein) gauge theories**
+## An adversarial correction of the proposed GU grading-sign argument
 
-*DRAFT. First pass. Not a candidate. Promotion is Joe-gated. Zero em dashes.*
-
----
+*Draft. Not a candidate. The original title claim, "Structurally Forced, Internally Undecidable," is the hypothesis tested here, not a result established by this paper.*
 
 ## Abstract
 
-Indefinite-metric ("Krein") gauge theories buy renormalizability or a larger symmetry at the price of
-negative-norm states, and their physical inner product is recovered by a grading operator (a C-operator,
-metric operator, or CPT operator) that flips the sign of the offending directions. It is known that this
-operator is not unique: pseudo-Hermitian and PT-symmetric quantum theory have long emphasized that the
-metric operator carries free data and needs external physical input. This paper isolates a sharper and, we
-argue, new structural fact about *where* that freedom sits and *how tightly* it can be pinned.
-
-The general claim (Section 2). In a self-consistent indefinite-metric gauge theory whose full gauge group
-acts irreducibly on the frame, Schur's lemma forces the ungraded indefinite metric `eta` to be unique: the
-theory's own symmetry FORCES the metric form. But requiring a positive-definite TOTAL (physical) inner
-product restricts the admissible frame deformations to the stabilizer of both `eta` and the positive metric
-`eta_+`, which is exactly the C-commutant (the maximal compact subgroup). Under that smaller group the
-frame REDUCES, the space of invariant symmetric forms GROWS from dimension one to at least two, and the
-relative sign between the two blocks -- the grading sign -- becomes a free `Z/2`. Less symmetry means more
-invariants. The very act of standing at the good, unitary configuration is what splits the frame and
-LIBERATES the grading sign. The sign is therefore STRUCTURALLY FORCED in FORM (every other datum of the
-metric is pinned) but INTERNALLY UNDECIDABLE in SIGN (the theory's own invariance data does not fix it; one
-external bit does). We prove this at the general level as a Schur / invariant-theory statement about an
-indefinite metric and its C-commutant, machine-checked over a sweep of signatures `(p,q)`.
-
-The worked example (Sections 3 to 5). Geometric Unity (GU), a candidate unification on a `Cl(9,5)` frame,
-provides an unusually clean instance: its entire quantum-consistency question reduces to ONE such bit -- is
-the record-count mode Krein-negative on the `(6,4)` DeWitt fiber, equivalently is the interacting
-C-operator operative. Five independent formalisms -- counterfactual (Klein/Erlangen) invariance, Dirac-BRST
-constraint cohomology, a Lawvere categorical fixed point, topos internal logic, and the Helmholtz inverse
-problem of the calculus of variations -- were each computed on the `(9,5) = (3,1) + (6,4)` frame and each
-returns the SAME verdict: the bit is undecidable from within (Godel-independent of the theory's good-stable
-data), and all five localize it to the SAME single `Z/2`. A companion result shows the source action's
-relative coefficients are Schur-forced (only the overall scale, GU's analogue of Newton's `G`, is free by
-normalization), so the reduction really is to one sign and not to a family of unknowns.
-
-Contribution and honest scope (Sections 6 to 8). We do NOT claim to discover that a Krein metric operator
-is non-unique; that is known. Our defensible contribution is three-fold: (a) the SHARP REDUCTION of a full
-candidate-unification's quantum consistency to one located `Z/2`; (b) the FORCED-FORM / FREE-SIGN structure
-(the good-stable stabilizer fixes the metric form and liberates precisely the grading sign); and (c)
-MULTI-FORMALISM INDEPENDENCE (five independent characterizations agree it is undecidable from within). The
-result is internally undecidable, NOT absolutely undecidable: an external datum (in the GU instance, a
-finality/temporal-issuance input) decides it, and the paper says exactly which datum and why it is
-necessary. This is exploration-tier; all computations are internal (reproduced and adversarially reviewed
-within one AI-directed process, not yet independently replicated). Machine checks live in the repository.
-
----
-
-## 1. The setting and the phenomenon
-
-An indefinite-metric field theory carries a nondegenerate but not positive-definite inner product on its
-state space. Gupta-Bleuler electrodynamics, Faddeev-Popov ghosts, higher-derivative ("quadratic") gravity,
-Lee-Wick models, and PT-symmetric field theories all live here: one accepts an indefinite metric `eta` in
-exchange for manifest covariance, renormalizability, or an enlarged symmetry, and then must recover a
-positive-definite PHYSICAL inner product on the states that matter. The standard device is a grading: an
-operator `C` with `C^2 = 1` whose `-1` eigenspace is exactly the `eta`-negative directions, so that the
-total metric
+This paper asks whether invariance in a finite-dimensional Krein space forces a metric form while leaving exactly one grading sign internally undecidable. The answer is no. For the canonical stabilizer `O(p) x O(q)`, the admissible fundamental symmetry is unique, not a free `Z/2`. For proper compact subgroups, shared irreducible constituents across positive and negative sectors produce a continuous family of admissible fundamental symmetries. More generally, if a compact group acts isotypically with multiplicity-space signatures `(a_lambda,b_lambda)` over division algebras `D_lambda` in `{R,C,H}`, the space of commuting fundamental symmetries has real dimension
 
 ```
-    eta_+  =  eta . C  =  |eta|
+sum_lambda dim_R(D_lambda) a_lambda b_lambda.
 ```
 
-is positive-definite. In pseudo-Hermitian quantum mechanics `C` is (a piece of) the metric operator; in
-Bender's PT-symmetric quantum theory it is the CPT operator; in constraint quantization it is the
-combination that makes the physical subspace a genuine Hilbert space.
+It is a singleton exactly when no irreducible type occurs on both sides. This theorem precisely characterizes the failure of the draft's former side hypothesis and replaces its claimed residual `Z/2`.
 
-The phenomenon this paper is about is a very old worry in this subject stated in an unusually sharp form:
-which grading? An indefinite metric alone does not tell you which side of the wall is physical. The sign of
-`C` on a given sector is exactly the datum that separates a good, unitary theory from a ghost-ridden one,
-and it is precisely the datum an indefinite metric leaves open. We make three moves the prior literature (to
-our knowledge) does not combine: we locate this freedom to a SINGLE `Z/2` bit in a specific candidate
-unification; we show its form is otherwise FULLY FORCED; and we show its undecidability-from-within is
-INDEPENDENT of the formalism used to interrogate it.
+The Geometric Unity application remains open. The constructed `SO(9) x SO(5)` surrogate has no shared constituents and therefore has a unique admissible fundamental symmetry. The repository does not derive that compact stabilizer, or the interacting grading operator, from the native good-stable dynamics. The built source-action result is narrower: an ultralocal `so(9,5)`-equivariant kernel is one-dimensional, conditional on the W154 current identification. It does not complete the nonlocal source action or the H59 Krein-unitarity program.
 
----
+The five proposed methods do not establish formalism-independent undecidability. Invariance supplies the theorem proved here. A Helmholtz calculation supplies a conditional operator lemma. The BRST application lacks the GU differential and cohomology. The Lawvere and topos constructions are analogies, not models of a stated GU theory. Accordingly, this draft uses "underdetermined by specified invariance data" where justified and does not claim Godel, Lawvere, topos, or absolute undecidability. An external datum could select a physical metric, but this paper proves neither the identity nor the necessity of a particular external owner.
 
-## 2. The general theorem (GU-independent)
+## 1. Question, conventions, and scope
 
-We state the mechanism abstractly. It is a clean statement in invariant theory; the proof is Schur's lemma
-applied twice, once to the full group and once to the C-commutant.
+Let `V` be a finite-dimensional real vector space with a nondegenerate symmetric bilinear form `eta`. A fundamental symmetry is an endomorphism `C` such that
 
-### 2.1 Setup
+1. `C^2 = 1`;
+2. `C` is `eta`-self-adjoint, meaning `eta(Cx,y) = eta(x,Cy)`; and
+3. `h_C(x,y) = eta(x,Cy)` is positive definite.
 
-Let `V` be a real vector space, `dim V = n = p + q`, `p, q >= 1`, carrying a nondegenerate symmetric
-bilinear form `eta` of signature `(p, q)`. Let `C = sign(eta)` be the grading involution (`C^2 = 1`), with
-`+1` eigenspace `V_+` (`dim p`) and `-1` eigenspace `V_-` (`dim q`), so that `eta_+ = eta . C = |eta|` is
-positive-definite. Let a gauge group `G <= O(eta)` act on `V`. Two hypotheses encode "self-consistent
-indefinite-metric gauge theory whose physical inner product is a C-operator grading":
+If a group `H <= O(eta)` is part of the data, an admissible `H`-commuting fundamental symmetry also satisfies `Ch = hC` for every `h in H`. Write
 
-- **(H1) Full-group irreducibility.** `V` is irreducible under `G`. By Schur's lemma the space of
-  `G`-invariant symmetric bilinear forms is one-dimensional, spanned by `eta`. (This is exactly what it
-  means for the gauge symmetry to FORCE the ungraded metric: the metric form is the unique invariant.)
+```
+F_H(eta) = {C in End_H(V) : C^2 = 1, C is eta-self-adjoint, eta(.,C.) > 0}.
+```
 
-- **(H2) Good-stable stabilizer.** The "good stable" (the physical, unitary configuration) requires
-  preserving BOTH `eta` and the positive-definite total metric `eta_+`. The subgroup that does so is
-  `G* = {g in G : g^T eta_+ g = eta_+}`. Because `C = eta_+^{-1} eta`, preserving both forms is equivalent
-  to commuting with `C`, so `G*` is the C-commutant of `G`. In the canonical maximal case `G = O(eta)` one
-  has `G* = O(eta) cap O(eta_+) = O(p) x O(q)`, the maximal compact subgroup.
+This definition avoids a circularity in the earlier draft. Writing `C = sign(eta)` already requires a positive majorant or an auxiliary Euclidean structure. It cannot then be used to prove that `eta` alone selected `C`.
 
-### 2.2 Theorem
+The finite-dimensional analysis below is a standard positive-majorant proxy. It is not the native GU ghost-clearance criterion. The native H59 program keeps the Krein structure and asks for an interacting scattering operator with `[P,S] = 0`, together with renormalization, spectral, infrared, constraint, and projected-unitarity controls. No positive-Hilbert substitution is made here.
 
-**Theorem (grading-sign liberation).** Assume (H1) and (H2). Suppose the C-eigenspaces `V_+` and `V_-`
-share no common irreducible `G*`-constituent (the NON-COINCIDENCE hypothesis, automatic in the canonical
-case `G* = O(p) x O(q)` for `p, q >= 1`, since `V_+` and `V_-` are then inequivalent standard reps of
-distinct factors). Then:
+## 2. The corrected compact-stabilizer theorem
 
-1. `eta` and `eta_+` are both `G*`-invariant and linearly independent.
-2. The space of `G*`-invariant symmetric bilinear forms decomposes as
-   `Sym^2(V^*)^{G*} = Sym^2(V_+^*)^{G*} (+) Sym^2(V_-^*)^{G*}` (no cross term, by the non-coincidence
-   hypothesis and Schur), so it has dimension `>= 2`, with one independent scale per C-block.
-3. Writing an invariant form as `B = c_+ (eta|V_+) (+) c_- (eta|V_-)`, positivity forces `c_+, c_- > 0`
-   (an open 2-parameter cone, never the single ray `R eta_+`), while the RELATIVE sign `sign(c_-/c_+)` is
-   unconstrained by `G*`. Both branches `c_-/c_+ > 0` (giving `eta_+`, the good graded metric) and
-   `c_-/c_+ < 0` (giving `eta`, the ungraded indefinite metric) are `G*`-invariant.
+### 2.1 Existence
 
-Therefore the grading sign -- which C-eigenspace is Krein-negative, equivalently whether the interacting
-C-operator is operative -- is NOT determined by the invariance data of the theory. It is one free `Z/2`,
-decided only by one external bit.
+**Proposition 1.** Let `H <= O(eta)`. Then `F_H(eta)` is nonempty if and only if the image of `H` has compact closure in `GL(V)`.
 
-**Proof.** (H1) plus Schur gives the one-dimensional invariant space `R eta` on the irreducible `V`. Under
-`G*` the involution `C` is preserved, so `V = V_+ (+) V_-` is a `G*`-stable decomposition. A `G*`-invariant
-symmetric form is a `G*`-map `V -> V^*`; its `(V_+, V_-)` block is a `G*`-map `V_+ -> V_-^*`, which vanishes
-when `V_+` and `V_-` share no irreducible constituent (Schur). The diagonal blocks are `G*`-invariant forms
-on `V_+` and `V_-` respectively; each contains the restriction of `eta` (positive-definite on `V_+`,
-negative-definite on `V_-`), so each is non-empty, giving `dim >= 2`. Independent scaling of the two blocks
-realizes both relative signs; positive-definiteness of `B` is equivalent to positivity of each block scale,
-an open cone. The map `eta_+ = P_+ + P_-` and `eta = P_+ - P_-` exhibits the two branches explicitly. QED.
+**Proof.** Suppose `C in F_H(eta)`. The positive form `h_C = eta(.,C.)` is `H`-invariant because `H` preserves `eta` and commutes with `C`. Hence the image of `H` lies in the compact orthogonal group `O(h_C)`, so its closure is compact.
 
-### 2.3 Corollary (symmetry reduction liberates the sign)
+Conversely, let `K` be the compact closure of the image of `H`. Average any positive-definite form over `K` to obtain a `K`-invariant positive form `h`. There is a unique `h`-self-adjoint invertible operator `A` with
 
-Comparing (H1) and the theorem: passing from the FULL group `G` (invariant space dimension `1`, generator
-`eta`) DOWN to the good-stable stabilizer `G*` (invariant space dimension `>= 2`) INCREASES the invariant
-space. Less symmetry, more invariants. The extra dimension is precisely the grading sign. To FORCE the sign
-one would need a stabilizer LARGE enough to glue `V_+` and `V_-` so that only `eta_+` survives; no such
-gluing exists, because the good-stable condition is exactly what splits the frame into the two C-blocks. If
-the good stable additionally respects a finer invariant splitting (more blocks), the residual only ENLARGES;
-it never collapses to one.
+```
+eta(x,y) = h(x,Ay).
+```
 
-### 2.4 Machine check
+Both forms are `K`-invariant, so `A` commutes with `K`. Functional calculus gives `C = sign(A)`. Then `C^2 = 1`, `C` commutes with `K`, and
 
-`tests/general_krein_grading_sign.py` (in this draft folder) verifies the theorem over a sweep of
-signatures `(p,q) in {(1,1), (2,1), (3,1), (6,4), (9,5), (7,7), (5,3), (4,2)}` including both GU instances:
-the full group `O(p,q)` gives invariant-form dimension `1` (generator `eta`, and `eta_+` is not invariant);
-the good-stable stabilizer `O(p) x O(q)` gives dimension exactly `2` with both `eta` and `eta_+` invariant
-and distinct; positivity leaves a 2-parameter cone while the indefinite branch stays invariant (the free
-`Z/2`); and a finer 4-block split of `(9,5)` gives dimension `4` (the residual enlarges). 81/81 checks,
-deterministic, exit 0.
+```
+eta(x,Cy) = h(x,ACy) = h(x,|A|y),
+```
 
-**Status of Section 2.** We present the theorem as PROVEN at the general level, with one explicit and
-checkable side-hypothesis (non-coincidence of the C-eigenspaces as `G*`-representations) that holds
-automatically in the canonical maximal-compact case. The remaining-hardening register (README) lists what a
-referee-grade version still needs: a written proof independent of the maximal-compact specialization, the
-precise general characterization of when the non-coincidence hypothesis can fail for a proper subgroup
-`G < O(eta)`, and an independent-reader pass.
+which is positive definite. The `eta`-self-adjointness follows from the fact that `A` and `C` are commuting `h`-self-adjoint operators. Thus `C in F_H(eta)`. QED.
 
----
+This proposition already limits the scope of the proposed mechanism. A noncompact stabilizer cannot admit an invariant positive majorant in finite dimensions.
 
-## 3. The worked example: Geometric Unity reduced to one bit
+### 2.2 Classification and residual dimension
 
-Geometric Unity (GU) is a proposed unification whose reconstructed frame carries a `Cl(9,5)` Clifford
-structure with the split `(9,5) = (3,1) + (6,4)` (a `(3,1)` base and a `(6,4)` DeWitt fiber). Within the
-repository's reconstruction, the fiber further splits `(6,4)` into six geometric modes (Krein-positive) and
-four record-count modes (Krein-negative), and the whole program's quantum consistency turns out to hinge on
-one sign: whether the record-count mode is genuinely Krein-negative on that fiber, equivalently whether the
-interacting C-operator is operative so that `eta_+ = eta . C` is the physical positive-definite inner
-product. This is exactly the general Section-2 bit for the GU frame. In the repository's tracking it is
-called question `#1` and the associated open unitarity claim is "bar (b)".
+Let `K` be the compact closure of `H`. Real compact representation theory gives an isotypic decomposition
 
-Two supporting facts make the reduction genuine rather than cosmetic:
+```
+V = direct_sum_lambda U_lambda tensor_{D_lambda} M_lambda,
+```
 
-- **The source action is BUILT and its coefficients are FORCED (W203).** Equivariance under the
-  Krein-anti-self-adjoint gauge action pins the source-action kernel by Schur to a one-dimensional space
-  whose generator is the `(9,5)` Clifford metric `eta`; every relative coefficient is forced, and the sole
-  free number is the overall scale (GU's analogue of Newton's `G`, undetermined by normalization as `G` is
-  in general relativity, not fitted). This is (H1) realized concretely.
+where `U_lambda` are pairwise nonisomorphic irreducible real `K`-modules and
 
-- **The sign is DECOUPLED from the signature choice (W202).** The relevant Krein sign is read on the
-  `(6,4)` DeWitt fiber, which is invariant under `eta -> -eta`; the sign is therefore identical on `(9,5)`
-  and `(7,7)` and does not depend on the still-open global signature. So the reduction is to one sign, not
-  to a sign entangled with other undetermined choices.
+```
+D_lambda = End_K(U_lambda) in {R,C,H}.
+```
 
-Thus GU is a maximally clean instance of the general phenomenon: FORM fully forced, exactly one SIGN free.
+After choosing a `K`-invariant positive form on each `U_lambda`, the restriction of `eta` to the corresponding isotypic component is encoded by a nondegenerate `D_lambda`-Hermitian form `q_lambda` on `M_lambda`. Let its signature be `(a_lambda,b_lambda)` and put `m_lambda = a_lambda + b_lambda`.
 
----
+**Theorem 2.** If `F_H(eta)` is nonempty, then
 
-## 4. Five-method independence (the robustness backbone)
+```
+F_H(eta) is isomorphic to
+product_lambda U_{D_lambda}(a_lambda,b_lambda)
+  / (U_{D_lambda}(a_lambda) x U_{D_lambda}(b_lambda)).
+```
 
-The strength of the GU instance is that the undecidability-from-within was not read off one calculation. Five
-mutually independent formalisms were each computed on the same `(9,5) = (3,1) + (6,4)` frame, each with its
-own deterministic machine check, each with the same guardrail (reproduce W203's `nulldim = 1` as a POSITIVE
-CONTROL, so the job is to settle the SIGN, not to re-derive `eta`). Every one returns RESIDUAL-BIT-STANDS.
+Consequently,
 
-| method | note | route | check | per-method finding |
-|---|---|---|---|---|
-| R16 | W206 | counterfactual (Klein/Erlangen) invariance: metric from its stabilizer | 29/29 | invariant-form space under the good-stable stabilizer is dim 2, basis `{eta_+, eta}`; relative block sign is a free `Z/2` |
-| R9 | W207 | Dirac-BRST / constraint cohomology (physical inner product on `H^0(Q)`) | 31/31 | `H^0(Q)` privileges neither spectral section; both `eta.C_+` and `eta.C_-` are invariant and independent |
-| R7 | W208 | Lawvere / Cantor diagonal fixed point | 31/31 | the grading self-map has exactly TWO consistent fixed points (good and pathological); selection is external |
-| R12 | W209 | topos internal logic / sheaf semantics | 32/32 | the subobject classifier is BOOLEAN on `eta` (forced) but INTUITIONISTIC on the sign (not internally decidable) |
-| R1 | W210 | Helmholtz inverse problem of the calculus of variations | 32/32 | self-adjointness is provably SIGN-BLIND; the sign is fixed only by an off-diagonal coupling that exists iff the interacting C-operator supplies it |
+```
+dim_R F_H(eta)
+  = sum_lambda dim_R(D_lambda) a_lambda b_lambda.
+```
 
-The five agree because they all reproduce the same structural fact (Section 2.3): the full group forces
-`eta`; conditioning on the good stable restricts to the C-commutant `SO(9) x SO(5)`; under it the 14-frame
-reduces and the invariant-form space grows `1 -> 2`; the residual is one relative-block sign. Each method
-then localizes that residual in its own language and they agree on its SHAPE (one `Z/2`) and its OWNER (the
-unbuilt interacting C-operator / spectral section). The synthesis note W211 records the convergence and its
-certificate `tests/W211_five_method_convergence.py` recomputes the shared linear-algebra fact from scratch
-(exit 0). The methodological point stands independent of GU: five different notions of "compute inside the
-theory" (invariance, cohomology, fixed-point consistency, internal logic, variational reconstruction) all
-leave the same bit free, which is why "compute harder inside the theory" is ruled out rather than merely
-unpromising.
+In particular, `F_H(eta)` is a singleton if and only if `a_lambda b_lambda = 0` for every `lambda`. Equivalently, no irreducible real `K`-type occurs in both the positive and negative subspaces of one, hence every, admissible fundamental symmetry.
 
----
+**Proof.** Work on one isotypic component. A `K`-commuting fundamental symmetry is the identity on `U_lambda` tensored with a `D_lambda`-linear fundamental symmetry for `q_lambda` on `M_lambda`. Such a symmetry is equivalent to a `q_lambda`-orthogonal decomposition of `M_lambda` into a positive subspace of `D_lambda`-dimension `a_lambda` and a negative subspace of dimension `b_lambda`.
 
-## 5. Why this is undecidable-from-within, not merely unknown
+The indefinite unitary group `U_{D_lambda}(a_lambda,b_lambda)` acts transitively on those decompositions. The stabilizer of a reference decomposition is the product of its compact unitary groups. This proves the homogeneous-space description. The real dimensions of the off-diagonal blocks are `dim_R(D_lambda) a_lambda b_lambda`; summing over the isotypic components proves the formula.
 
-"Undecidable from within" is a proof-grade statement about the theory's axioms, not a confession of
-ignorance. The Lawvere/fixed-point route (W208) makes the model-theoretic content explicit: the grading
-self-map has two genuine fixed points, and the sign is TRUE in the good model and FALSE in the pathological
-model of the SAME self-consistency theory, so no internal derivation can decide it (this is the Godel /
-independence signature). The topos route (W209) says the same in intuitionistic terms: the grading sign is
-an intermediate Heyting truth value whose negation is bottom, so it is not internally complemented and not
-internally decidable, even though the ungraded metric sits at a Boolean (forced) value. The two together are
-why we use the word "undecidable" and not merely "undetermined": the freedom is a structural feature of the
-theory's internal logic, reproduced by five independent interrogations.
+The homogeneous space is a point exactly when each product `a_lambda b_lambda` vanishes. This is precisely the absence of a shared irreducible type across the two signs. QED.
 
-It is INTERNALLY undecidable, not absolutely undecidable. One external datum decides it. In the GU instance
-that datum is named and shown necessary: the finality-reservoir metric signature at the temporal-issuance /
-time-as-finality boundary (a gated cross-program object; no cross-repository identity is asserted here). The
-two honest completions are (a) obtain the sign from that external datum, now proven necessary rather than
-merely convenient, or (b) posit a Krein-positivity axiom and state the theory's unitarity conditionally on
-it. Both are honest; neither is a defeat. A method-independent NEGATIVE of this kind is exactly as
-informative as a forced positive would have been.
+### 2.3 Invariant symmetric forms
 
----
+The same decomposition gives the real dimension of the full space of `K`-invariant symmetric bilinear forms:
 
-## 6. Positioning against the prior art
+```
+dim_R Sym^2(V*)^K = sum_lambda d_{D_lambda}(m_lambda),
+```
 
-The general phenomenon -- that the metric / C-operator of a pseudo-Hermitian or Krein theory is NON-UNIQUE
-and needs external input -- is KNOWN, and we credit it rather than claim it.
+where
 
-- **Mostafazadeh (pseudo-Hermitian quantum mechanics).** A non-Hermitian `H` with `H^dagger = eta H
-  eta^{-1}` admits a WHOLE FAMILY of admissible metric operators `eta`; selecting a positive-definite one
-  and hence the physical observables requires additional input, and different metrics give inequivalent
-  physics. The non-uniqueness of the metric operator, and the C-operator as one distinguished choice, are
-  his and the surrounding pseudo-Hermitian literature's, not ours.
-- **Bender and PT-symmetric quantum theory.** The CPT inner product and the C operator (`C^2 = 1`, built to
-  render the PT-symmetric inner product positive) are the canonical construction of the physical metric in
-  PT-symmetric theories; the C operator's role as the grading that fixes positivity is theirs.
-- **Mannheim (PT-symmetric QFT, Pais-Uhlenbeck, conformal gravity).** The lesson that a higher-derivative
-  or PT-symmetric theory's apparent ghost is resolved by the correct (non-naive) inner product, with the
-  Pais-Uhlenbeck oscillator as the clean toy, is his and Bender-Mannheim's.
-- **Lee-Wick / CLOP / Anselmi-Piva fakeon.** That an indefinite-metric ("ghost") sector can be made
-  consistent by a PRESCRIPTION (Lee-Wick contour, CLOP, or the fakeon prescription) rather than by a
-  derivation is a known family of resolutions; the fakeon is a specific, published way to remove the bad
-  states.
+```
+d_R(m) = m(m+1)/2,
+d_C(m) = m^2,
+d_H(m) = m(2m-1).
+```
 
-Against this backdrop, our DEFENSIBLE new contribution is exactly three things, and nothing more:
+The cross-sign block has dimension
 
-- **(a) Sharp reduction.** A full candidate-unification's quantum consistency is reduced to ONE located
-  `Z/2` (a single sign on a named fiber), with everything else in the source action Schur-forced (W203) and
-  the sign decoupled from the open signature (W202). Prior work establishes that the metric is non-unique;
-  we show that in this theory the non-uniqueness collapses to a single, exactly located bit.
-- **(b) Forced-form / free-sign structure.** The good-stable stabilizer FIXES the metric FORM (every scale
-  and relative coefficient) and LIBERATES precisely the grading SIGN, via the symmetry-reduction mechanism
-  of Section 2. This forced-form/free-sign dichotomy, and the identification of the liberated coordinate as
-  the C-block relative sign, is the structural content we claim as new.
-- **(c) Multi-formalism independence.** Five independent characterizations (invariance, BRST cohomology,
-  Lawvere fixed point, topos internal logic, Helmholtz inverse-variational) AGREE that the bit is
-  undecidable from within and localize it to the SAME `Z/2`. Establishing the undecidability as
-  formalism-independent, rather than an artifact of one method, is the robustness claim we make.
+```
+sum_lambda dim_R(D_lambda) a_lambda b_lambda.
+```
 
-We do NOT claim to have discovered metric-operator non-uniqueness, the C-operator, or that ghosts need
-external input. We claim (a) plus (b) plus (c).
+Thus the earlier "non-coincidence" condition does only one job: it kills cross terms. It does not by itself imply one invariant scale on each diagonal block. That additional conclusion requires one-dimensional invariant symmetric-form spaces on the relevant modules. Real irreducibility alone is insufficient. For example, the realification of the standard representation of `SO(3,C)` preserves the real and imaginary parts of its complex symmetric form, giving two linearly independent real invariant symmetric forms.
 
----
+### 2.4 Canonical stabilizer
 
-## 7. Honest limits
+For completeness, the standard `O(p,q)` representation has
 
-- **The good stable is taken as GIVEN.** The whole analysis conditions on the existence of the good,
-  unitary configuration (real total spectrum, positive-definite `eta_+`, C-operator operative). We do not
-  derive that such a configuration exists; we ask what its own data can and cannot fix.
-- **Internally undecidable, not absolutely undecidable.** The sign IS decided by an external datum. The
-  claim is precisely that the theory's OWN data does not fix it. Supplying the datum (or positing a
-  positivity axiom) closes the question; we say which datum and why it is necessary.
-- **Exploration-tier, internal verification only.** Every computation here is internal: reproduced from
-  scratch and adversarially reviewed within one AI-directed process, not yet independently replicated or
-  peer-reviewed. The machine checks are strong on their decisive linear-algebra cores but the surrounding
-  identifications (e.g. that the free spectral section IS the unbuilt curvature datum) are structural.
-- **The general theorem carries a side-hypothesis.** Section 2's theorem is proven with the non-coincidence
-  hypothesis, automatic in the canonical maximal-compact case; the fully general characterization for proper
-  subgroups is left to the hardening register.
-- **No canon movement.** bar (b) and H59 stay OPEN. The generation count stays `{1,3}`. No forbidden target
-  is assumed or inserted. Nothing here asserts that GU is correct, that a particular cosmological signal is
-  real, or that the sign is one value rather than the other.
+```
+Sym^2(V*)^{O(p,q)} = R eta.
+```
 
----
+Indeed, if `B` is invariant, the operator `A = eta^{-1}B` commutes with the standard `O(p,q)` action. Reflections in the coordinate axes make `A` diagonal, ordinary rotations within each equal-sign block make it scalar on that block, and a hyperbolic rotation mixing one positive and one negative coordinate equates the two scalars. Hence `A` is scalar and `B` is proportional to `eta`. This is the valid finite-dimensional forced-form statement. It does not imply that a positive metric or a grading is also forced by the full noncompact group; Proposition 1 rules out an invariant positive majorant for the full group.
 
-## 8. Relation to the "located, not forced" line (a light nod, not a sequel)
+**Corollary 3.** For `V = R^p direct_sum R^q` with
 
-This paper shares a temperament with the repository's generation-count paper "Located, Not Forced": both
-isolate an open question to a single, precisely located, external bit rather than forcing an answer, and
-both treat a clean method-independent NEGATIVE as a real result. But they are DISTINCT papers with distinct
-subjects. "Located, Not Forced" is about the fermion GENERATION COUNT and lives in index theory, framed
-bordism, and primary decomposition; this paper is about the quantum-consistency GRADING SIGN and lives in
-Krein / pseudo-Hermitian inner-product theory and invariant theory. This is not a sequel. The shared moral
-is only that in this program, some of the deepest questions turn out to be located and external rather than
-internally forced, and saying so precisely is the contribution.
+```
+eta = diag(I_p,-I_q)
+```
 
----
+and `H = O(p) x O(q)` acting in the standard way, `F_H(eta)` contains exactly
 
-## 9. Summary
+```
+C_0 = diag(I_p,-I_q).
+```
 
-In a self-consistent indefinite-metric gauge theory whose physical inner product is a C-operator grading,
-the theory's full symmetry forces the metric FORM (Schur, dimension one) but a positive-definite total
-metric restricts to the C-commutant, under which the frame reduces, the invariant-form space grows to
-dimension at least two, and the grading SIGN is liberated as a free `Z/2`. It is structurally forced in form
-and internally undecidable in sign. Geometric Unity is a maximally clean instance: its entire quantum
-consistency reduces to one such bit, five independent formalisms agree the bit is undecidable from within
-and localize it to the same `Z/2`, and the source action's coefficients are otherwise forced. The bit is
-decided by one external datum, which the paper names. We claim the sharp reduction, the forced-form/free-sign
-structure, and the multi-formalism independence; we credit the known non-uniqueness of the Krein metric to
-the pseudo-Hermitian and PT-symmetric literature.
+**Proof.** The positive and negative standard modules are inequivalent `H`-modules, so every `a_lambda b_lambda` is zero. Theorem 2 gives a singleton. Directly, every commuting involution is block scalar, `diag(epsilon_+ I_p, epsilon_- I_q)`, and positivity of `eta C` forces `(epsilon_+,epsilon_-) = (+1,-1)`. QED.
 
----
+This directly contradicts the earlier claim that the canonical maximal-compact stabilizer leaves one free grading sign. The other three sign choices are involutions, but they are not admissible fundamental symmetries.
 
-*DRAFT, first pass, exploration-tier. Promotion to candidate is Joe-gated. Machine checks:
-`python -u papers/drafts/structurally-forced-internally-undecidable/tests/general_krein_grading_sign.py`
-(81/81, exit 0) and `python -u tests/W211_five_method_convergence.py` (exit 0). No canon movement; bar (b)
-and H59 stay OPEN. Zero em dashes.*
+The invariant symmetric forms are
+
+```
+B = a P_+ + b P_-.
+```
+
+The positive cone is `a > 0` and `b > 0`. Its continuous ratio `b/a` is a metric deformation, not a grading sign. Except at the normalization compatible with `eta`, `eta^{-1}B` is not an involution. Conversely, writing
+
+```
+B = c_+ eta|V_+ + c_- eta|V_-
+```
+
+requires `c_+ > 0` and `c_- < 0` for positivity. The earlier draft's condition `c_+,c_- > 0` was a literal sign error.
+
+### 2.5 Proper subgroups and exact failure of non-coincidence
+
+Proper compact subgroups can produce either uniqueness or continuous nonuniqueness.
+
+If the positive and negative restrictions have no common irreducible type, Theorem 2 still gives a unique admissible `C`, even if there are many invariant metric scales inside either sign sector. For example, the trivial subgroup has many invariant forms but also shares every trivial constituent across the two sides, so it lies in the nonunique case.
+
+For an explicit shared-constituent example, let
+
+```
+H = {(R,R) : R in O(r)} <= O(r,r)
+```
+
+act diagonally on `R^r direct_sum R^r`. The standard `O(r)` type occurs once on each sign. In the standard-type multiplicity space the relevant signature is `(1,1)` over `R`, so Theorem 2 gives a one-dimensional homogeneous factor. A concrete family is
+
+```
+C_t = [[cosh(2t), -sinh(2t)],
+       [sinh(2t), -cosh(2t)]] tensor I_r.
+```
+
+Every `C_t` commutes with `H`, squares to one, is `eta`-self-adjoint, and makes `eta C_t` positive definite. The ambiguity is a continuum, not `Z/2`.
+
+The preceding paragraph distinguishes the real dimension of the multiplicity-space homogeneous factor, which is one here, from the dimension of an arbitrary off-diagonal `r x r` matrix before imposing `O(r)` equivariance. The machine check uses the equivariant dimension and verifies the displayed family for `r = 1,2,3`.
+
+## 3. What the GU repository actually establishes
+
+### 3.1 The W203 source-action result
+
+W203 computes the commutant of the `so(9,5)` action on the 14-dimensional current-index representation. In the tested ultralocal ansatz, an equivariant symmetric kernel is one-dimensional and proportional to `eta`. This is a real result about that representation.
+
+Its scope has two material restrictions:
+
+1. The identification `J_IG = J[Psi]` is inherited from the reverse-engineered W154 current. W203 states this dependency rather than deriving it independently.
+2. The computation covers an ultralocal auxiliary-field kernel. The gradient or nonlocal `Z_U` completion is not built.
+
+The referee-grade statement is therefore:
+
+> Conditional on the W154 current identification, the ultralocal bridge kernel is forced up to scale on the `so(9,5)` frame representation. The full nonlocal source action is not built.
+
+It does not follow that every source-action coefficient is forced or that GU quantum consistency has been reduced to one bit.
+
+### 3.2 The constructed compact surrogate
+
+W206 assumes a good stable with an operative `C` and positive `eta C`, then studies the selected-frame stabilizer `SO(9) x SO(5)`. On the 14-dimensional standard split, the two modules are inequivalent. Corollary 3 applies and yields a unique admissible fundamental symmetry. Thus the paper's own canonical worked surrogate does not exhibit the alleged free `Z/2`.
+
+This is a conditional consistency check, not a derivation of GU's actual good-stable stabilizer. The repository records the program-native group as `Sp(32,32;H)`, while the W203 calculation concerns a 14-frame `so(9,5)` current-index kernel. No argument in the cited notes derives the interacting compact stabilizer, its isotypic multiplicities, or the physical `C`-operator from the native dynamics.
+
+There is also no single consistent `C` across the five exploratory notes. W206 and W208 flip all five negative directions and obtain `eta C = I`. W210 flips only four record directions, leaving the base time direction negative. W209 sets `C = I` in its toy semantics. These choices have different stabilizers and different invariant-form dimensions. They cannot support a claim that five methods found the same physical bit.
+
+### 3.3 Native Krein unitarity remains open
+
+The native H59 standard does not replace the indefinite theory with a positive Hilbert proxy. It requires, among other things:
+
+- a renormalized interacting relation `[P,S] = 0`;
+- counterterm closure compatible with the grading;
+- a consistent rule for odd ghost loops;
+- appropriate Jordan and Krein diagonalizability controls;
+- infrared-inclusive or resummed observables;
+- Rarita-Schwinger constraint closure;
+- a projected optical theorem and spectral-density statement; and
+- projected Born-level positivity.
+
+Those objects are not supplied by the finite-dimensional theorem. bar (b) and H59 therefore remain OPEN.
+
+## 4. Written audit of the five proposed methods
+
+### 4.1 Invariant theory
+
+This is the one complete mathematical route. Proposition 1 and Theorem 2 give its referee-readable proof. Its conclusion is not the old one: the specified compact stabilizer gives either a unique admissible fundamental symmetry or a positive-dimensional homogeneous space. It does not naturally give a residual `Z/2`.
+
+### 4.2 BRST cohomology
+
+A BRST argument would require a nilpotent GU charge `Q`, a defined state complex, a computed physical cohomology `H^0(Q)`, and a descended nondegenerate pairing. To prove metric uniqueness or nonuniqueness on cohomology, one would then compute the commutant of the physical observable algebra on `H^0(Q)` and classify positive pairings there.
+
+W207 does not construct those objects. It repeats the finite-dimensional Schur calculation and labels the resulting vector space as physical cohomology. The following conditional implication is valid:
+
+> If a GU BRST complex is constructed, if its degree-zero cohomology carries the assumed two-block representation, and if the pairing descends nondegenerately, then Theorem 2 applies to the induced compact action.
+
+That is not an independent proof and does not close the GU case.
+
+### 4.3 Lawvere fixed point
+
+Lawvere's diagonal theorem requires a category with suitable products, a weakly point-surjective map, and a stated endomorphism to which the fixed-point conclusion applies. To obtain an independence theorem, one would additionally need a formal theory and two models satisfying the same axioms with opposite truth values for one sentence.
+
+W208 enumerates commuting involutions in a finite-dimensional toy model and calls them fixed points. It does not define the required category or weak point-surjectivity, and its pathological branch violates the positivity premise imposed on a fundamental symmetry. It is therefore an analogy, not a Lawvere proof and not a model-theoretic independence result.
+
+### 4.4 Topos internal logic
+
+A topos proof would have to derive a site or classifying topos from the GU theory, represent the physical-sign statement as a subobject, and show that the proposition is not complemented in every relevant model. W209 instead chooses a three-open observer site and assigns the desired sign proposition to the intermediate open. The resulting Heyting value follows from that assignment. It does not follow from GU, and the note's `C = I` conflicts with the grading used elsewhere. This construction is a useful illustration of intuitionistic truth values, not evidence for GU undecidability.
+
+### 4.5 Helmholtz inverse problem
+
+One valid operator lemma survives.
+
+**Lemma 4.** Let `g` be a nondegenerate symmetric matrix, let `L` satisfy `gL = L^T g`, let `C` satisfy `C^T g = gC`, and suppose `[C,L] = 0`. Then `(gC)L` is symmetric.
+
+**Proof.** Using the hypotheses,
+
+```
+((gC)L)^T = L^T C^T g = L^T g C = g L C = g C L.
+```
+
+QED.
+
+The lemma says that a commuting, `g`-self-adjoint grading preserves formal self-adjointness. It does not select a grading. W210 tests block-diagonal sample operators rather than the linearized GU Euler-Lagrange operator with its constraints and boundary conditions. This is a conditional operator lemma, not an independent proof of a physical sign.
+
+### 4.6 Independence verdict
+
+The five methods reduce to the following honest inventory:
+
+| route | present grade | relationship to the core |
+|---|---|---|
+| invariant theory | proved | the actual theorem |
+| Helmholtz | conditional lemma | reuses the same block commutation |
+| BRST | unbuilt conditional route | would apply the same commutant calculation on cohomology |
+| Lawvere | analogy | no categorical hypotheses or formal models supplied |
+| topos | analogy | truth value assigned on a chosen toy site |
+
+There are not five independent proofs. The former "multi-formalism independence" contribution is withdrawn.
+
+## 5. What may and may not be called undecidable
+
+The results prove statements about invariant data and commutants. They do not define a recursively axiomatized theory `T`, a target sentence `sigma`, or models of all the stated axioms with `sigma` and `not sigma`. No Godel incompleteness theorem applies. Nor do the Lawvere and topos toys supply such a replacement.
+
+The strongest justified phrase is:
+
+> The choice of positive metric is underdetermined by the specified invariance data when Theorem 2 has positive residual dimension.
+
+Even that statement is conditional on having identified the physically relevant group action and observable algebra. Additional internal dynamics or observables can reduce or eliminate the metric freedom. This is well known in quasi-Hermitian theory, where a complete family of observables may fix the metric.
+
+An external prescription or empirical datum can also select a metric. Nothing here establishes that external input is always necessary. In particular, Bender and Mannheim's Pais-Uhlenbeck analysis and Anselmi and Piva's Lee-Wick formulation explicitly present their physical structures as determined by a correctly formulated theory rather than by an arbitrary external bit. Those claims must be assessed on their own assumptions, but they refute any blanket assertion that indefinite-metric theories require an external owner.
+
+For GU, a proposed finality or temporal-issuance datum may be investigated as an external selector. This draft asserts no cross-repository identity, no ownership relation, and no necessity or sufficiency theorem for that datum.
+
+## 6. Prior art and novelty verdict
+
+Metric-operator and `C`-operator nonuniqueness is established prior art. Scholtz, Geyer, and Hahne showed that additional observables can constrain a quasi-Hermitian metric. Mostafazadeh developed pseudo-Hermiticity, positive metric operators, their symmetries, and their nonuniqueness. Bender and collaborators constructed the `C` operator in PT-symmetric quantum mechanics and later studied its nonuniqueness and unbounded versions. Krein-space, Gupta-Bleuler, and BRST literature treats physical-state selection and the induced physical inner product. Lee-Wick, CLOP, and later nonanalytic or fakeon prescriptions address indefinite or higher-derivative sectors through particular dynamical and analytic constructions.
+
+The novelty claims survive as follows:
+
+1. **One located `Z/2`: not established.** The canonical surrogate has a unique admissible `C`; shared constituents give a continuum. The native GU stabilizer is unbuilt.
+2. **Forced form, free sign: anticipated in broad form and false in the proposed theorem.** Symmetries and a chosen observable algebra constraining, but not necessarily uniquely fixing, a metric are established prior art. The claimed `Z/2` specialization does not survive.
+3. **Five-method independence: not established.** Only one theorem and one conditional lemma survive.
+4. **Correct compact-stabilizer classification: mathematically valid but likely standard.** It is a useful corrective formulation, not presently supported as a novel theorem by the literature review.
+5. **GU application: potentially specific, but presently incomplete.** Novelty cannot substitute for the missing stabilizer and interacting construction.
+
+The best eventual venue posture would be a math-ph or hep-th note centered on a genuinely derived GU application, with the compact-representation theorem presented as background. A general-theorem paper would require an outside Krein and real-representation-theory expert to confirm both novelty and the precise infinite-dimensional extension. The current manuscript is not ready for either venue.
+
+## 7. Source-action completion and dependency boundary
+
+The word "forced" must remain attached to the object actually computed. W203 establishes a one-dimensional ultralocal kernel commutant on the 14-dimensional frame representation. The statement depends on the W154 current identification and does not build the full source action.
+
+No inference in this draft upgrades that schema match into:
+
+- a derived nonlinear or nonlocal source action;
+- a renormalized interacting `C`-operator;
+- uniqueness of the physical inner product;
+- quantum unitarity; or
+- a one-bit completion theorem.
+
+These boundaries are mathematical, not editorial qualifications.
+
+## 8. Machine-checkable regression tests
+
+The draft-local script
+
+```
+python -u papers/drafts/structurally-forced-internally-undecidable/tests/general_krein_grading_sign.py
+```
+
+checks 77 deterministic assertions, including:
+
+- full `so(p,q)` invariant-form dimensions for representative signatures;
+- compact-stabilizer invariant-form dimensions;
+- uniqueness of the canonical admissible fundamental symmetry;
+- separation of the positive metric cone from involutive gradings;
+- a proper-subgroup example where non-coincidence does not imply one diagonal scale;
+- the diagonal `O(r)` shared-constituent family `C_t` for `r = 1,2,3`;
+- two independent invariant real forms on the realified `SO(3,C)` example; and
+- the `R`, `C`, and `H` invariant-form dimension formulas.
+
+The test is a finite-dimensional regression certificate, not a proof of the representation-theoretic classification and not a test of GU dynamics.
+
+## 9. Honest limits and readiness
+
+- The classification is finite dimensional. Unbounded operators, domains, completion, spectral singularities, and infinite-dimensional Krein-space topology are outside its proof.
+- Compactness and complete reducibility are essential. The physical GU stabilizer has not been derived.
+- The application uses a standard positive-majorant proxy. H59's native keep-and-grade scattering problem is not solved.
+- W203 is conditional on W154 and ultralocal.
+- The literature sweep verifies that the cited papers exist, but it is not a substitute for specialist novelty review across all Krein and indefinite-metric representation theory.
+- No external datum is identified as GU's owner. No cross-repository identity is asserted.
+- No canon or verdict changes follow. bar (b) and H59 remain OPEN.
+- This remains a draft. It has not been promoted, submitted, posted, or externally reviewed.
+
+The paper is not candidate-ready. The corrected general theorem is close to referee-readable in finite dimensions, but the proposed headline result and GU application do not survive. The single biggest remaining risk is that the physical GU stabilizer and interacting observable algebra, once actually derived, may bear no relevant relation to the compact 14-frame surrogate analyzed here.
+
+## References
+
+All entries below were checked against a publisher page, DOI record, or arXiv record. Descriptions in the text are limited to what the cited work supports.
+
+1. F. G. Scholtz, H. B. Geyer, and F. J. W. Hahne, "Quasi-Hermitian operators in quantum mechanics and the variational principle," *Annals of Physics* 213 (1992) 74-101. [DOI 10.1016/0003-4916(92)90284-S](https://doi.org/10.1016/0003-4916(92)90284-S).
+2. A. Mostafazadeh, "Pseudo-Hermiticity versus PT symmetry: The necessary condition for the reality of the spectrum of a non-Hermitian Hamiltonian," *Journal of Mathematical Physics* 43 (2002) 205-214. [arXiv:math-ph/0107001](https://arxiv.org/abs/math-ph/0107001). [DOI 10.1063/1.1418246](https://doi.org/10.1063/1.1418246).
+3. A. Mostafazadeh, "Pseudo-Hermiticity and generalized PT- and CPT-symmetries," *Journal of Mathematical Physics* 44 (2003) 974-989. [arXiv:math-ph/0209018](https://arxiv.org/abs/math-ph/0209018). [DOI 10.1063/1.1539304](https://doi.org/10.1063/1.1539304).
+4. A. Mostafazadeh, "Pseudo-Hermiticity, PT-symmetry, and the metric operator," [arXiv:quant-ph/0508214](https://arxiv.org/abs/quant-ph/0508214).
+5. A. Mostafazadeh, "Metric operators for quasi-Hermitian Hamiltonians and symmetries of equivalent Hermitian Hamiltonians," *Journal of Physics A* 41 (2008) 244017. [arXiv:0707.3075](https://arxiv.org/abs/0707.3075). [DOI 10.1088/1751-8113/41/24/244017](https://doi.org/10.1088/1751-8113/41/24/244017).
+6. A. Mostafazadeh, "Time-dependent pseudo-Hermitian Hamiltonians defining a unitary quantum system and uniqueness of the metric operator," *Physics Letters B* 650 (2007) 208-212. [arXiv:0706.1872](https://arxiv.org/abs/0706.1872). [DOI 10.1016/j.physletb.2007.04.064](https://doi.org/10.1016/j.physletb.2007.04.064).
+7. C. M. Bender and S. Boettcher, "Real spectra in non-Hermitian Hamiltonians having PT symmetry," *Physical Review Letters* 80 (1998) 5243-5246. [arXiv:physics/9712001](https://arxiv.org/abs/physics/9712001). [DOI 10.1103/PhysRevLett.80.5243](https://doi.org/10.1103/PhysRevLett.80.5243).
+8. C. M. Bender, D. C. Brody, and H. F. Jones, "Complex extension of quantum mechanics," *Physical Review Letters* 89 (2002) 270401. [arXiv:quant-ph/0208076](https://arxiv.org/abs/quant-ph/0208076). [DOI 10.1103/PhysRevLett.89.270401](https://doi.org/10.1103/PhysRevLett.89.270401).
+9. C. M. Bender, P. N. Meisinger, and Q. Wang, "Calculation of the hidden symmetry operator in PT-symmetric quantum mechanics." [arXiv:quant-ph/0211166](https://arxiv.org/abs/quant-ph/0211166). [DOI 10.1088/0305-4470/36/7/312](https://doi.org/10.1088/0305-4470/36/7/312).
+10. C. M. Bender and S. P. Klevansky, "Nonunique C operator in PT quantum mechanics," [arXiv:0905.4673](https://arxiv.org/abs/0905.4673).
+11. C. M. Bender and S. Kuzhel, "Unbounded C-symmetries and their nonuniqueness," *Journal of Physics A* 45 (2012) 444005. [arXiv:1207.1176](https://arxiv.org/abs/1207.1176). [DOI 10.1088/1751-8113/45/44/444005](https://doi.org/10.1088/1751-8113/45/44/444005).
+12. C. M. Bender and P. D. Mannheim, "No-ghost theorem for the fourth-order derivative Pais-Uhlenbeck oscillator model," *Physical Review Letters* 100 (2008) 110402. [arXiv:0706.0207](https://arxiv.org/abs/0706.0207). [DOI 10.1103/PhysRevLett.100.110402](https://doi.org/10.1103/PhysRevLett.100.110402).
+13. P. D. Mannheim, "Making the case for conformal gravity," *Fortschritte der Physik* 61 (2013) 140-177. [arXiv:1205.5717](https://arxiv.org/abs/1205.5717). [DOI 10.1002/prop.201200100](https://doi.org/10.1002/prop.201200100).
+14. T. D. Lee and G. C. Wick, "Negative metric and the unitarity of the S matrix," *Nuclear Physics B* 9 (1969) 209-243. [DOI 10.1016/0550-3213(69)90098-4](https://doi.org/10.1016/0550-3213(69)90098-4).
+15. R. E. Cutkosky, P. V. Landshoff, D. I. Olive, and J. C. Polkinghorne, "A non-analytic S matrix," *Nuclear Physics B* 12 (1969) 281-300. [DOI 10.1016/0550-3213(69)90169-2](https://doi.org/10.1016/0550-3213(69)90169-2).
+16. D. Anselmi and M. Piva, "A new formulation of Lee-Wick quantum field theory," *Journal of High Energy Physics* 06 (2017) 066. [arXiv:1703.04584](https://arxiv.org/abs/1703.04584).
+17. D. Anselmi and M. Piva, "Perturbative unitarity of Lee-Wick quantum field theory," [arXiv:1703.05563](https://arxiv.org/abs/1703.05563).
+18. D. Anselmi, "Fakeons and Lee-Wick models," *Journal of High Energy Physics* 02 (2018) 141. [arXiv:1801.00915](https://arxiv.org/abs/1801.00915). [DOI 10.1007/JHEP02(2018)141](https://doi.org/10.1007/JHEP02(2018)141).
+19. S. N. Gupta, "Theory of longitudinal photons in quantum electrodynamics," *Proceedings of the Physical Society A* 63 (1950) 681-691. [DOI 10.1088/0370-1298/63/7/301](https://doi.org/10.1088/0370-1298/63/7/301).
+20. N. Nakanishi, "Indefinite-metric quantum field theory," *Progress of Theoretical Physics Supplement* 51 (1972) 1-95. [DOI 10.1143/PTPS.51.1](https://doi.org/10.1143/PTPS.51.1).
+21. T. Kugo and I. Ojima, "Local covariant operator formalism of non-Abelian gauge theories and quark confinement problem," *Progress of Theoretical Physics Supplement* 66 (1979) 1-130. [DOI 10.1143/PTPS.66.1](https://doi.org/10.1143/PTPS.66.1).
+22. L. Jakobczyk and F. Strocchi, "Krein structures for the states of quantum gauge theories," *Journal of Mathematical Physics* 29 (1988) 1231-1235. [DOI 10.1063/1.527965](https://doi.org/10.1063/1.527965).
+23. I. A. Batalin and R. Marnelius, "Solving general gauge theories on inner product spaces," *Nuclear Physics B* 442 (1995) 669-696. [arXiv:hep-th/9501004](https://arxiv.org/abs/hep-th/9501004).
+24. F. Finster and A. Strohmaier, "Gupta-Bleuler quantization of the Maxwell field in globally hyperbolic space-times," *Annales Henri Poincare* 16 (2015) 1837-1868. [arXiv:1307.1632](https://arxiv.org/abs/1307.1632).
+25. F. W. Lawvere, "Diagonal arguments and cartesian closed categories," in *Category Theory, Homology Theory and their Applications II*, Lecture Notes in Mathematics 92 (1969) 134-145. [DOI 10.1007/BFb0080769](https://doi.org/10.1007/BFb0080769).
+26. N. S. Yanofsky, "A universal approach to self-referential paradoxes, incompleteness and fixed points," *Bulletin of Symbolic Logic* 9 (2003) 362-386. [arXiv:math/0305282](https://arxiv.org/abs/math/0305282). [DOI 10.2178/bsl/1058448677](https://doi.org/10.2178/bsl/1058448677).
+
+## Governance note
+
+This manuscript remains draft-tier. It makes no promotion, publication, canon, or verdict change. bar (b) and H59 remain OPEN. No external action has been taken.
