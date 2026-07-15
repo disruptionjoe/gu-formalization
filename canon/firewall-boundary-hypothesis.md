@@ -4,7 +4,7 @@ status: canon
 doc_type: primary_falsification_target
 verdict: "OPEN -- promoted to the repository's primary research question 2026-06-28; to be attacked, not defended"
 supersedes: "the prior default assumption that the correct endpoint of the reconstruction must be a CLOSED mathematical system"
-updated_at: "2026-06-28"
+updated_at: "2026-07-15"
 ---
 
 # The Firewall-Boundary Hypothesis
@@ -58,6 +58,30 @@ exactly a candidate for this boundary adapter. The interface-specification frami
   closed internal completion. That preference is what makes the firewall a genuine, testable hypothesis
   rather than a metaphor. The verdict (boundary vs closed) is currently undecided and the facts do not
   settle it; only sustained falsification attempts can move confidence.
+
+## Independent convergence (2026-07-15): the good-stable no-go
+
+Recorded as convergent evidence bearing on falsification criterion 1 below ("Closed completion
+exists"), not as a proof of the hypothesis. The verdict stays OPEN and the posture stays "attack it."
+
+The 2026-07-15 good-stable arc (`explorations/W224..W241`, exploration-tier) reached the same boundary
+from a completely independent direction: the dynamical good-stable / grading axis rather than the
+generation sector. The result is a SCOPED structural no-go. In `Sp(32,32;H)` a good-stable requires a
+compact-image isotropy, whose reducing direction is intrinsically `Z2`-ODD (the chirality-killing
+gen-mirror mass direction), because the mirror grading `Z` is a non-compact non-elliptic boost that no
+Cartan involution commutes with. So on the favorable record-conserved branch, no native VEV of any rank
+(W240) and no dynamical vacuum isotropy (W241) delivers a chirality-safe good-stable INTERIOR. The two
+escapes it leaves both lie outside the closed-compact-interior picture, and one is exactly THIS
+hypothesis: a non-Krein-majorant / boundary-firewall positivity that does not require a relatively
+compact image.
+
+Why this bears on the firewall hypothesis: it is an independent EXCLUSION of a closed-interior good-stable
+completion on the grading axis, which is precisely what falsification criterion 1 would need in order to
+succeed. Instead of exhibiting a closed completion, the good-stable analysis excludes one and names the
+boundary object as the sole chirality-safe resolution. This does not settle the verdict (the no-go is
+scoped pending the charged-corridor result `W243`, and rests on the standing `Cl(9,5)=M(64,H)`
+rep-canonicity caveat that is itself falsification criterion 4). It is logged here so the convergence is
+visible and still attackable, not asserted as established. `bar (b)` and H59 stay OPEN and Joe-gated.
 
 ## Explicit falsification criteria (attack these)
 
