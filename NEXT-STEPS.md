@@ -13,23 +13,40 @@ updated_at: "2026-07-15"
 > official releases. Hourly Progress uses `lab/process/runbooks/meaningful-hourly-progress-swing.md` and takes
 > one substantial, decision-grade swing. It does not edit this block or the portfolio.
 >
-> **Deliberate program pivot:** Track B prediction extraction is the current operational North Star, not the
-> deepest unresolved GU-native problem. The Y14 `F_A` C2 spectral-section/source-action datum and native
-> normalization remain the deepest load-bearing theoretical dependency. Joe transferred construction of that
-> frontier to possibility-to-capability, so GU tracks it as `DEP-NATIVE-SOURCE-DATUM` and does not keep
-> attacking the same wall. It is parked, not solved.
+> **Deliberate program pivot:** `RECOVERY-CERTIFICATION` is the current operational North Star. It tests whether
+> one frozen GU construction recovers the physical content of quantum theory, the Standard Model, general
+> relativity, and cosmological perturbations without sector-specific adjustment. The Y14 `F_A` C2
+> spectral-section/source-action datum and native normalization remain the deepest load-bearing theoretical
+> dependency. Joe transferred construction of that frontier to possibility-to-capability, so GU tracks it as
+> `DEP-NATIVE-SOURCE-DATUM` and does not keep attacking the same wall. It is parked, not solved.
 >
-> **Protected primary:** `PRED-FLAVOR-RANK`. Count the basis-invariant Yukawa coefficient freedom after every
-> built GU symmetry, quotient, and source constraint. Carry the swing through a counterexample search,
-> machine-checkable rank receipt, and written decision. Any surviving adjustable coefficient kills the current
-> zero-parameter mass/mixing family. A partial result is expected to be possible: record the exact reduced but
-> nonzero residual dimension and preserve only coefficient-independent relations that survive it. If a
-> zero-parameter invariant survives, freeze it before opening PDG data.
+> **Protected primary:** one adaptive `RECOVERY-CERTIFICATION` lane, not five competing sublanes. Each hourly
+> run takes the highest-ranked unblocked internal work item, makes one decision-grade advance, and then uses the
+> standard Next-Work Handoff to re-rank the remaining internal items before writing its receipt. Extra manual or
+> separately scoped automation may add effort to an item without creating a second active portfolio lane.
 >
-> **Next READY North-Star lane:** `PRED-NORM-RANK`. Compute the field-rescaling invariants among `kappa`,
-> `Z_U`, `mu_DW`, source normalization, and physical pole parameters. A null result closes the fixed-range and
-> fixed-pole-scale prediction routes until new native dynamics exists. Do not import the observed dark-energy
-> density or an experimental target to fix the normalization.
+> **First internal target:** `RECOVERY-CONTRACT`. Freeze the exact construction revision, native objects, free
+> parameters, imported data, fitted choices, open dependencies, and adapter assumptions. Grade every sector on
+> one ladder: not located, located, kinematically embedded, dynamically closed, quantum-consistent, and
+> phenomenologically reproduced. Build an evidence matrix and identify the first decisive missing implication in
+> each sector. Never merge incompatible forks or assumption sets into one apparent construction.
+>
+> **Initial internal order, subject to evidence-driven re-ranking:** after the contract, attack
+> `SM-CONSISTENT-SECTOR` and `GR-DYNAMICAL-BENCHMARKS`, initially tied. `QM-PHYSICAL-SECTOR` may proceed only
+> as an explicitly assumption-capped adapter study while unconditional physical closure remains gated on p2c.
+> `COSMO-PERTURBATIONS` remains gated on native dynamics and a controlled gravitational limit. Subgroup
+> containment, field location, background agreement, and parameter fitting do not establish recovery.
+> `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen, independently built p2c return.
+> `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` remain inside this same certification lane
+> but gated until new native structure supplies a data-blind relation. Thus all seven bet-changing conditions are
+> tracked in one adaptive lane even when GU does not currently own or possess the object needed to execute one.
+>
+> **Prediction-rank endpoints:** `PRED-FLAVOR-RANK` is `RESOLVED_NO_GO` at the current construction grade:
+> the Z/3 texture leaves two free dimensionless flavor ratios after phase and scale quotienting.
+> `PRED-NORM-RANK` is also `RESOLVED_NO_GO` at the current construction grade: four quotient-invariant families
+> survive, but no GU-native absolute scale fixes the range or pole. `PRED-FLAVOR-OBS` therefore has no honest
+> frozen relation to confront. These routes reopen only if new native structure removes the residual freedom
+> before target-data inspection.
 >
 > **Reserve only:** `PROOF-STABLE-KERNELS`. Its order is: establish a fresh default-target green baseline;
 > integrate the existing sorry-free and axiom-free `R4_TwoArena` certificate into that target; retire the

@@ -60,6 +60,8 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
         )[0]
         required = (
             "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
+            "RECOVERY-CERTIFICATION",
+            "RECOVERY-CONTRACT",
             "PRED-FLAVOR-RANK",
             "PRED-NORM-RANK",
             "PROOF-STABLE-KERNELS",

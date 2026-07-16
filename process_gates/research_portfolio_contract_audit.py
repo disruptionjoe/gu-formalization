@@ -89,6 +89,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             "DEP-NATIVE-SOURCE-DATUM", contract["deepest_open_dependency_lane_id"]
         )
         self.assertIn("operational North Star", contract["active_program_pivot"])
+        self.assertEqual("RECOVERY-CERTIFICATION", primary["id"])
         self.assertIn("transferred", contract["deepest_open_problem_posture"])
 
     def test_priority_scores_match_declared_formula(self) -> None:
@@ -135,6 +136,60 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("never a positive GU prediction", f1["forbidden_shortcut"])
         self.assertIn("W226-harden-de-tripwire", f1["evidence_source"])
 
+    def test_recovery_certification_is_one_adaptive_lane(self) -> None:
+        recovery = self.by_id["RECOVERY-CERTIFICATION"]
+        rerank = recovery["internal_rerank_contract"]
+        items = recovery["internal_work_items"]
+
+        self.assertEqual("ACTIVE", recovery["state"])
+        self.assertTrue(recovery["hourly_eligible"])
+        self.assertTrue(rerank["one_lane_not_sublanes"])
+        self.assertTrue(rerank["rerank_after_every_swing"])
+        self.assertIn("Next-Work Handoff", rerank["handoff_rule"])
+        self.assertIn("possibility-to-capability", recovery["owner"])
+        self.assertIn("Subgroup containment", recovery["forbidden_shortcut"])
+        self.assertEqual(
+            {
+                "RECOVERY-CONTRACT",
+                "SM-CONSISTENT-SECTOR",
+                "GR-DYNAMICAL-BENCHMARKS",
+                "QM-PHYSICAL-SECTOR",
+                "COSMO-PERTURBATIONS",
+                "ADAPTER-RETURN-CERTIFICATION",
+                "FIXED-NATIVE-QUANTITY",
+                "BLIND-QUANTITATIVE-CONFRONTATION",
+            },
+            {item["id"] for item in items},
+        )
+        self.assertEqual("RECOVERY-CONTRACT", items[0]["id"])
+        self.assertEqual("READY", items[0]["state"])
+
+        item_ids = {item["id"] for item in items}
+        for item in items:
+            score = item["score"]
+            expected = (
+                2 * score["impact"]
+                + 2 * score["information_gain"]
+                + score["readiness"]
+                + score["distinctiveness"]
+                + score["time_sensitivity"]
+                - score["effort"]
+                - score["wall_risk"]
+                - score["duplication_risk"]
+            )
+            with self.subTest(internal_work_item=item["id"]):
+                self.assertEqual(expected, item["priority_score"])
+                self.assertTrue(set(item["depends_on"]).issubset(item_ids))
+
+        flavor = self.by_id["PRED-FLAVOR-RANK"]
+        normalization = self.by_id["PRED-NORM-RANK"]
+        flavor_obs = self.by_id["PRED-FLAVOR-OBS"]
+        self.assertEqual("RESOLVED_NO_GO", flavor["state"])
+        self.assertEqual("RESOLVED_NO_GO", normalization["state"])
+        self.assertEqual("RESOLVED_NO_GO", flavor_obs["state"])
+        self.assertIn("two free dimensionless ratios", flavor["current_authority"])
+        self.assertIn("no GU-native absolute scale", normalization["current_authority"])
+
     def test_id_namespace_ends_automatic_w_collisions(self) -> None:
         policy = self.portfolio["run_id_policy"]
         self.assertIn("must not allocate a new W number", policy["w_series"])
@@ -145,6 +200,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
     def test_frontdoor_matches_the_portfolio(self) -> None:
         required = (
             "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
+            "RECOVERY-CERTIFICATION",
+            "RECOVERY-CONTRACT",
             "PRED-FLAVOR-RANK",
             "PRED-NORM-RANK",
             "DEP-NATIVE-SOURCE-DATUM",
@@ -167,7 +224,9 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         hourly = read(HOURLY_RUNBOOK)
         self.assertIn("valid scientific or dependency signal", daily)
         self.assertIn("daily steward is the only routine writer", daily)
-        self.assertIn("The hourly run does not reprioritize the portfolio", hourly)
+        self.assertIn("does not mutate or authoritatively reprioritize the portfolio", hourly)
+        self.assertIn("Adaptive lane reranking", hourly)
+        self.assertIn("Next-Work Handoff", hourly)
         self.assertIn("Hourly runs do not edit", hourly)
         self.assertIn("Never use `git add -A`", hourly)
         self.assertIn("one meaningful research delta", hourly)
