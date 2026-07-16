@@ -50,6 +50,7 @@ selected notes below and in each script header.
 - `cycle3_single_surviving_prediction_census_audit.py`
 - `cycle3_taf_transport_or_close_audit.py`
 - `decider_readme_inventory_audit.py`
+- `de_amp_diagnostic_closure_audit.py`
 - `dgu_guarded_symbol_certificate_audit.py`
 - `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
@@ -103,6 +104,7 @@ selected notes below and in each script header.
 - `quantum_gravity_reframing_audit.py`
 - `reproduce_harness_scope_audit.py`
 - `reproduction_docs_consistency_audit.py`
+- `recovery_certification_matrix_audit.py`
 - `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
 - `roadmap_current_routing_links_audit.py`
@@ -502,6 +504,14 @@ older-status promotion through the claim-status workflow, and keeps the
 research-posture contributor pointer. This is roadmap/process hygiene only; it
 does not parse formula-like links, edit roadmap content, or validate research
 claims.
+
+## DE-AMP diagnostic closure gate
+
+`de_amp_diagnostic_closure_audit.py` checks that the H46B source-input certificate,
+H46C amplitude re-solve, W129 OQ2 band sweep, and DE-AMP closure note remain wired as
+diagnostic evidence rather than prediction evidence. This is provenance and closure
+hygiene only; it does not rerun the cosmology certificates, edit the portfolio, or
+change any verdict, claim status, canon surface, or public posture.
 
 ## Decider README inventory gate
 
