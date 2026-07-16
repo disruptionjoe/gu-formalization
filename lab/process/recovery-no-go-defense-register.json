@@ -318,7 +318,7 @@
       "title": "FLRW scalar-singlet and consistent-truncation obstruction",
       "source_result": "explorations/recovery-contract-cosmo-field-type-scalar-truncation-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "SWING_2_READY",
+      "challenge_state": "SWING_3_READY",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
         "run_id": "GUH-20260716T130826Z-cosmo-nogo-defense",
@@ -464,6 +464,71 @@
             {
               "construction": "standard cosmological SVT variables",
               "status": "comparator only, not importable as GU dynamics"
+            }
+          ]
+        },
+        {
+          "id": "SWING-2-COSMO-SCALAR-CONSTRUCTION-ATTEMPT",
+          "run_id": "GUH-20260716T190718Z-cosmo-swing2",
+          "state": "COMPLETE",
+          "result": "NO_SURVIVOR",
+          "evidence": "explorations/recovery-nogo-cosmo-scalar-swing2-construction-2026-07-16.md",
+          "test": "tests/recovery-contract/cosmo_nogo_swing2_construction_gate.py",
+          "swing_1_scope_consumed": true,
+          "summary": "The best already named alternate cosmology constructions were tested, but none supplied a source-owned physical scalar projector, gauge-invariant observable map, closed SVT quadratic action, and residue discharge. Standard SVT variables remain comparator language, not importable GU dynamics.",
+          "attempted_constructions": [
+            {
+              "id": "CONSTRAINED_COMPOSITE_SCALAR",
+              "construction_class": "gauge-invariant or constrained composite scalar from frozen GU fields",
+              "axis_delta": "replace raw homogeneous s*(theta) amplitude with a GU-derived scalar composite or constrained gauge-invariant",
+              "result": "NO_SURVIVOR",
+              "reason": "Prior packets name scalar_theta_mode, Z_theta, C_Rtheta, and xi_eff as needed outputs, but the frozen fingerprint emits none of them and supplies no projector, observable map, or quadratic action.",
+              "source_owned": false,
+              "closed_truncation": false,
+              "residue_discharge": false,
+              "target_import_rejected": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "A future composite must output a scalar mode and positive kinetic normalization before DESI, CMB, or SVT-target comparison; it fails if chosen because it has the desired scalar equation."
+            },
+            {
+              "id": "MIXED_SECTOR_SCALAR",
+              "construction_class": "scalar induced by mixing among already-present GU sectors",
+              "axis_delta": "let the scalar arise from theta, normal-flux, source-current, or connection-sector mixing rather than from s*(theta) alone",
+              "result": "NO_SURVIVOR",
+              "reason": "Existing records leave source, gauge, boundary, vector, tensor, and connection residues open. A mixed-sector scalar without residue discharge is not a closed scalar truncation.",
+              "source_owned": false,
+              "closed_truncation": false,
+              "residue_discharge": false,
+              "target_import_rejected": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "The mixed quadratic action must block-diagonalize with an independently named scalar block and all non-scalar residues accounted for; it fails if vector, tensor, or connection residues feed the scalar equation at the same order."
+            },
+            {
+              "id": "BOUNDARY_CONDITIONED_SCALAR",
+              "construction_class": "boundary-conditioned scalar channel under an explicit adapter assumption",
+              "axis_delta": "use an explicit adapter assumption rather than the current unconditioned record-current branch",
+              "result": "NO_SURVIVOR",
+              "reason": "No frozen adapter packet supplies the scalar projector, physical observable, boundary data, or state-preserving perturbation dynamics.",
+              "source_owned": false,
+              "closed_truncation": false,
+              "residue_discharge": false,
+              "adapter_dependency": "absent frozen adapter packet",
+              "target_import_rejected": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "A returned adapter must provide provenance, branch conditions, scalar projection, boundary data, and a gauge-invariant observable; it fails if it merely selects the desired scalar mode as boundary data."
+            },
+            {
+              "id": "STANDARD_SVT_COMPARATOR",
+              "construction_class": "standard cosmological SVT variables as comparator",
+              "axis_delta": "none; this is the target perturbation language",
+              "result": "INVALID_ESCAPE",
+              "reason": "Standard SVT variables define the comparator benchmark. Importing them as GU dynamics or as the missing projector assumes the target theory.",
+              "source_owned": false,
+              "closed_truncation": false,
+              "residue_discharge": false,
+              "target_import_rejected": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "Reject any candidate whose scalar equation is the standard SVT equation unless the GU source action independently derives the projector and truncation first."
             }
           ]
         }
