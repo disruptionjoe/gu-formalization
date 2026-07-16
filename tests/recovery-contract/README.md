@@ -22,6 +22,11 @@ posture, or portfolio state.
 - `gr_nogo_history_scope_gate.py` - bounded history-audit and Swing 1 scope gate
   for the GR no-go defense: prior linear cheap-read clears do not cancel the
   quadratic `Q^TF(B)` obstruction under the W229 record-current vacuum source law.
+- `qm_physical_sector_conditional_gate.py` - conditional sufficiency gate for the
+  post-Swing-1 `QM-PHYSICAL-SECTOR` interleave: an explicit boundary adapter
+  assumption is typed, but the current branch still lacks the source-owned
+  physical quotient, positive QFT state space, state, observables, probabilities,
+  and state-preserving dynamics needed for conditional quantum recovery.
 - `sm_nogo_history_scope_gate.py` - bounded history-audit and Swing 1 scope gate
   for the Standard Model selector no-go defense: prior host, Type II1 selector,
   finite-control, observer-shadow, and W222 relative-arithmetic results do not

@@ -498,8 +498,102 @@
   ],
   "conditional_unitarity": {
     "id": "QM-PHYSICAL-SECTOR",
-    "state": "READY_AFTER_NOGO_SWING_1_ROUND",
+    "state": "COMPLETE_CONDITIONAL_FAIL",
+    "run_id": "GUH-20260716T160900Z-qm-physical-sector",
+    "result": "CONDITIONAL_FAIL",
+    "evidence": "explorations/recovery-qm-physical-sector-conditional-sufficiency-2026-07-16.md",
+    "test": "tests/recovery-contract/qm_physical_sector_conditional_gate.py",
     "question": "Given a precisely typed boundary adapter and favorable branch inputs, is the adapter sufficient for the frozen GU construction to produce a positive physical state space and unitary or state-preserving dynamics without further sector-specific imports?",
+    "adapter_interface": {
+      "status": "TYPED_AS_EXPLICIT_ASSUMPTION",
+      "axiom": "BoundaryAdapterAxiom(A): an independently supplied boundary/firewall adapter selects favorable branch conditions and supplies a positive-majorant or spectral-section interface for the frozen GU construction.",
+      "supplies": [
+        "explicit conditional interface",
+        "favorable branch assumptions",
+        "positive-majorant or spectral-section placeholder"
+      ],
+      "does_not_supply": [
+        "adapter provenance",
+        "physical field complex",
+        "source-defined gauge/BRST quotient",
+        "QFT state space",
+        "GU-derived state",
+        "GU-admissible observables",
+        "Born probabilities",
+        "state-preserving dynamics",
+        "spin-statistics theorem",
+        "anomaly shadow closure"
+      ]
+    },
+    "stage_results": [
+      {
+        "stage": "AdapterInterface",
+        "status": "ASSUMED_TYPED",
+        "reason": "BoundaryAdapterAxiom(A) is precise enough to test conditional sufficiency."
+      },
+      {
+        "stage": "SourceGeometryCertificate",
+        "status": "PARTIAL",
+        "reason": "The branch-local action fingerprint exists, but operator/domain, boundary data, quotient, and observables are not primary-theory frozen."
+      },
+      {
+        "stage": "PhysicalFieldComplexCertificate",
+        "status": "MISSING_SOURCE_DEFINED_QUOTIENT",
+        "reason": "The source-defined gauge/BRST differential d_RS,-1, ghost bundles, gauge fixing, exact symbol complex, and physical cohomology are missing."
+      },
+      {
+        "stage": "QFTStateSpaceExtractionCertificate",
+        "status": "MISSING",
+        "reason": "No Hilbert/Fock space or local algebra net with positive representation is derived from the source branch."
+      },
+      {
+        "stage": "QFTStateExtractionCertificate",
+        "status": "MISSING",
+        "reason": "No GU-derived vacuum, two-point function, covariance, density matrix, or rho_AB is available."
+      },
+      {
+        "stage": "ObservableAdmissibilityCertificate",
+        "status": "MISSING",
+        "reason": "No GU measurement postulate or local readout rule selects physical observables."
+      },
+      {
+        "stage": "BornProbabilityCertificate",
+        "status": "MISSING",
+        "reason": "No probabilities are derived from a GU state and GU-admissible effects."
+      },
+      {
+        "stage": "LocalityCausalityCertificate",
+        "status": "CONDITIONAL_ONLY",
+        "reason": "VZ/principal-symbol controls are relevant, but no live QFT-shadow microcausality or NAC certificate exists."
+      },
+      {
+        "stage": "UnitarityCertificate",
+        "status": "MISSING_QFT_LEVEL",
+        "reason": "W169 gives finite/QM perturbative C-operator evidence; W173 leaves record/redundancy quantization dependent. No all-orders local QFT state-preserving dynamics is supplied."
+      },
+      {
+        "stage": "SpinStatisticsCertificate",
+        "status": "MISSING",
+        "reason": "Spin labels and carrier representation data do not provide a source-owned spin-statistics theorem."
+      },
+      {
+        "stage": "AnomalyShadowCertificate",
+        "status": "OPEN_RELATIVE_ONLY",
+        "reason": "Ordinary SM anomaly checks apply only after an exact observer-facing shadow and extra-mode policy are derived."
+      }
+    ],
+    "first_missing_objects": [
+      "source-defined gauge/BRST differential d_RS,-1",
+      "QFTStateSpaceExtractionCertificate",
+      "QFTStateExtractionCertificate",
+      "ObservableAdmissibilityCertificate",
+      "BornProbabilityCertificate",
+      "UnitarityCertificate",
+      "SpinStatisticsCertificate",
+      "AnomalyShadowCertificate"
+    ],
+    "summary": "Even granting a typed boundary adapter axiom and favorable branch inputs, the current branch still lacks the source-owned quotient, state, observable, probability, locality, and dynamics certificates needed for conditional quantum recovery.",
+    "next_question": "Resume Swing 2 and Swing 3 for the registered recovery no-go targets unless daily stewardship changes the order.",
     "required_outcomes": [
       "CONDITIONAL_COMPLETE",
       "CONDITIONAL_FAIL",
