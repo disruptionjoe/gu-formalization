@@ -15,3 +15,8 @@ posture, or portfolio state.
   cancellation under the frozen W203/W229/W230/W236 record-current action fingerprint:
   the principled Schwarzschild `Q^TF(B)` residual is nonzero, while the W229
   `Psi=0` source/YM cancellation tensor is zero.
+- `sm_selector_screen_gate.py` - branch-local `NO_GO` for complete low-energy
+  Standard Model recovery under the frozen action fingerprint: current evidence
+  positively hosts a Pati-Salam / Spin(10) branch and W222's relative
+  hypercharge/anomaly arithmetic survives, but no target-free selector or
+  complete physical observer-sector closure is derived.
