@@ -52,11 +52,48 @@ objection and (ii) deletion-stability held (not guaranteed a priori). It tests *
 **H3** 2-gerbe reading E054 used (that needs the full Cech nerve with triple+ overlaps) and **not** the
 sign's uniqueness. The weight of the falsification always sat on Gate 2.
 
-## Gate 2 — PENDING (Joe-gated modeling fork)
+## Gate 2a — CONDITIONAL PASS (2026-07-15), exact 𝔽₂
 
-Gate 2 cannot be auto-run without inventing the sign-selection dynamics, which front-runs the unwritten GU
-source action. The modeling choice determines whether a result means anything, so it pauses for Joe. Options
-recorded in the chat handoff; the guard is that whatever dynamics is chosen must be declared in advance
-(not tuned to the answer) and any pass reported as conditional on that dynamics.
+The twenty-persona panel (`twenty-persona-gate2-approach-2026-07-15.md`) reframed Gate 2's core as an
+**exact 𝔽₂ / XOR-SAT computation**, not a stochastic sim. Script: `gate2a_f2_consistency.py` (pure Python).
+The sign is an Ising/ℤ2 variable `s(v)` per observer; a local rule fixes each edge coupling `J(uv) ∈ {0,1}`
+(agree/disagree). A globally consistent **unique universal sign** exists iff `s(u)+s(v)=J(uv) (mod 2)` is
+SATISFIABLE, i.e. iff `[J]=0` in `H¹(N;ℤ2)` (no frustrated cycle); the connected SAT solution space is
+exactly `2^{components}` = one global bit (bar(b)) up to the external flip. UNSAT ⇒ frustration ⇒ **domains**
+⇒ falsified. Controls: all-agree triangle SAT, frustrated triangle UNSAT.
 
-## Gate 3 — PENDING (conditional on Gate 2).
+Swept rule family (a stand-in for the C-parity; the specific source action is NOT invented):
+
+| rule | what it models | result (all models, N=100/400, 20 seeds) |
+|---|---|---|
+| **(P) vertex-potential** `J=g(u)⊕g(v)` | the sign **sourced per-observer** (Joe's "each observer issues its own sign") | **SAT 20/20 everywhere; churn-stable 20/20 after 20% deletion** |
+| **(R) random-edge(p)** | a purely **relational / edge** sign | SAT 0/20; frustrated-cycle fraction → ~0.5 |
+| **(PN) potential+noise(p)** | per-observer + relational contamination | SAT collapses by `p~0.005` (needs all `b₁` cycles clean); frustration density grows ~linearly in `p` |
+
+**Reading — conditional PASS with a sharp, falsifiable condition.** The hypothesis survives, and Gate 2a
+converts it into one crisp requirement: **universality (a unique global bar(b), no domains) holds iff the
+sign is vertex-sourced — a per-observer coboundary, cohomologically exact (`[J]=0`).** That is exactly Joe's
+"each individual observer sends back the signal it is on / issues its own sign." In that case the global sign
+is exact, robust for any `b₁`, and churn-stable. **Any genuinely relational (edge) component produces
+frustration → domains → falsified**, and perfect consistency is fragile to relational noise once `b₁` is
+large. So the whole question reduces to a single checkable physical claim: **is bar(b) a per-observer datum
+(vertex → pass) or a relational one (edge → fail)?**
+
+Scope/honesty: tests the H1 / π₁-holonomy reading (the primary obstruction), not H3; the rule family stands
+in for the C-parity and does not derive that bar(b) IS vertex-sourced, nor Krein positivity, nor the number.
+
+## Gate 2b — NOT NEEDED for the pass branch
+
+The panel's rule was: run stochastic dynamics only if 2a shows **generic degeneracy** requiring a dynamics to
+break it. 2a shows the opposite — the vertex-sourced (physical) case is **decisively unique** (SAT, one bit),
+with no degenerate regime to adjudicate. Gate 2b (consensus / spin-glass domains under churn) would only
+characterize the already-falsified relational case. **Skipped.**
+
+## Gate 3 — NEXT (records vs redundancy)
+
+Now the load-bearing follow-on. Persona 12 (threshold secret-sharing) folds it with individual-invisibility:
+model bar(b) as a `(k,n)` secret over the observer nerve — individually invisible below threshold `k`
+(= T12' zero-trace), collectively reconstructable at `≥ k`. Question: is the vertex-sourced sign a genuine
+**record** (redundantly, robustly encoded across independent observers — high redundancy `R_δ`) or
+**discardable gauge redundancy**? Plus the standing physics question that Gate 2a isolated: **is the GU/TI
+C-parity actually a per-observer (vertex) datum or a relational (edge) one?**
