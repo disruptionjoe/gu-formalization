@@ -106,6 +106,38 @@ asymmetry **is** the preferred polarity = the value. So the next probe is precis
 reversal-cost asymmetry induce a globally-aligned ℤ/2 bias on the polarity fork?** Consistency (no domains) is
 already secured by E155; only the **bias** determines the value.
 
+## TaF cross-check (2026-07-15): a THIRD independent arrival + the finality-direction object
+
+Scanning time-as-finality (which owns the finality/capability leg) is even more productive than TI:
+
+- **Three-way independent convergence on the ℤ/2 signed-graph structure.** TaF **T39** (CSP reframing) proves
+  its finality-gluing patch language is a **binary {-1,+1} CSP**, with the gluing obstruction **exactly a
+  parity-conflicting binary CSP (signed-graph 2-colorability / negative cycle)**; global satisfiability =
+  absence of negative cycles. That is the **same object** as GU **Gate 2a** (XOR-SAT / frustration) and TI
+  **E155** (fork = opposite-polarity non-confluence). Three repos, three independent derivations, one object:
+  a ℤ/2 signed-graph whose obstruction is parity frustration. This substantially **de-risks the
+  manufactured-convergence guard** — the three were built separately (T39, Gate 2a, E155/E160).
+- **TaF has a finality-DIRECTION object (T18).** "Finality-Induced Direction": a transformation is admissible
+  iff no D1 dimension decreases; strict finalization increases a D1 dimension; **the reverse of every strict
+  finalization is impossible**; finalization edges form an **acyclic partial order**. So TaF derives a
+  **one-way finality arrow** inside its model — the candidate directional bias that would fix the free global
+  bit. The 4th D1 dimension is literally **C = graph reversal cost** (the reversal asymmetry we hypothesized in
+  TI's `Finality_mu`), confidence "formal only."
+- **TaF has the UNDERDETERMINATION phenomenon (T53/T54).** "descent-underdetermined: multiple non-isomorphic
+  completions fit the same observer views." This is exactly "confluent gluing leaves one free global bit,"
+  observed directly (T53 classified underdetermined).
+- **The honest wall, flagged by TaF itself (T57).** "FRP ... does **not derive the direction of source/target
+  finality arrows**; the T56 circular-risk question remains open." So T18's direction is "only inside the
+  stated model," reversal cost is "formal only," and the fine-grained arrow direction that would FIX `bar(b)`'s
+  sign is **explicitly open** in TaF — the same formal-grade wall as TI (`Issue[S]^physical=false`) and GU
+  (source action).
+
+**Net.** A finality direction/bias EXISTS (T18); consistency / no-domains is **triple-secured**
+(T39 = Gate 2a = E155); but the global orientation can remain **underdetermined** (T53) and its arrow
+**direction is TaF-flagged open** (T57). So `bar(b)`'s value is **not yet fixed** — the same formal-grade open
+across all three repos. What genuinely strengthened is the **structure** (three-way convergence) and the
+**location** of the remaining bit (the finality-arrow direction, T18/T57), not its determination.
+
 ## Status
 
 OPEN. This is a **question**, not a claim. The identification bar(b) = finality orientation is **Joe-gated**
