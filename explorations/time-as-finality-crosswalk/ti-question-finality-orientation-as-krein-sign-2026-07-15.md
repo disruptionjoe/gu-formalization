@@ -71,6 +71,41 @@ So a binary "finality orientation" (forward = lower reversal cost = toward settl
   (TI's own `Issue[S]^physical=false`), or discharge the Joe-gated identity. The value would be "the finality
   orientation," conditional on TI's formal object.
 
+## Scoping result (2026-07-15): TI already built the machinery, and it converges
+
+Two **prior** TI results — E155 (2026-07-09) and E160 (2026-07-10), both **predating this session**, so this
+is not manufactured convergence — resolve sub-obstructions 1-3 at formal grade:
+
+- **#1 (is there a ℤ/2?): YES, as a well-posed object.** E160 built exactly `A: ExtCat -> B(ℤ/2)`. Findings:
+  bare loops do **not** derive holonomy; a consistency rule derives **trivial (identity)** transport; a
+  **nontrivial** ℤ/2 is derivable **iff C-typed admissibility carries a composition-compatible (functorial)
+  ℤ/2 label**. So the orientation is a named target with a named condition (source-side + functorial), not yet
+  constructed.
+- **#2 (coboundary or frustrate?): DECISIVELY.** E155: `Ext_S` reconciliation is **confluent**
+  (order-independent = coboundary-consistent) **exactly OFF the SBP fork locus**, and non-confluent **exactly
+  ON** the fork set (`phi` vs `not-phi`, opposite polarity, no common successor) — which is **exactly the
+  source-side issuance witness set**. Reconciliation glues consistently everywhere except at the source events
+  (the polarity choices) themselves.
+- **#3 (vertex vs edge): SUPPORTED.** The fork is a per-**site** polarity choice (a 0-cochain), not a pairwise
+  relation -> **vertex-sourced** in TI's own formalism.
+
+**The convergence.** Both repos produce the **same structure from opposite ends**: the ℤ/2 sign is a
+per-site / per-observer **source polarity (0-cochain)**, issued at forks, with **trivial (coboundary /
+confluent) transport off them** — **not** a nontrivial loop holonomy. This matches the GU walk-back exactly
+(the H1 loop-holonomy does not carry the value; it is a vertex source). E160's "nontrivial holonomy needs a
+functorial source label" plus E155's "the ℤ/2 lives at the non-confluent fork" together say **TI does not
+derive it as a loop holonomy either** — it derives it as a source-side polarity choice. Fully consistent, and
+independently arrived.
+
+**The one decisive question that remains (sharpened — this is where the VALUE lives).** Confluent gluing makes
+any per-site polarity assignment globally **consistent** (no domains) but leaves **one free global bit**:
+which orientation is "+". The value of `bar(b)` is **determined iff TI's finality supplies a directional bias
+on the fork** — a preferred polarity = the arrow of finality (all forks resolve toward "settled"). That is
+exactly `Finality_mu` (reversal/deletion cost): if resolving toward final is cheaper than reversing, that
+asymmetry **is** the preferred polarity = the value. So the next probe is precise: **does `Finality_mu`'s
+reversal-cost asymmetry induce a globally-aligned ℤ/2 bias on the polarity fork?** Consistency (no domains) is
+already secured by E155; only the **bias** determines the value.
+
 ## Status
 
 OPEN. This is a **question**, not a claim. The identification bar(b) = finality orientation is **Joe-gated**
