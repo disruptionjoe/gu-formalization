@@ -4,9 +4,9 @@ This repository is a public research truth surface for the Geometric Unity / Obs
 
 **READ FIRST before attacking any GU object:** `GEOMETER-VS-PHYSICS-OBJECTS.md`. GU is a geometer's program; many objects (the gauge group, the ghost clearance, the (9,5) signature, the guardian symmetry, the count, the |II|^2 functional, mu_DW, the metric, the RS cure) have a program-native geometric construction that DIFFERS from the standard physics version of the same-named object. The rule is NOT "prefer the geometer's version" -- it is: when an object has both, IDENTIFY which construction you are using and WHY, and stay open on which side the answer lives (we do not know a priori). Defaulting silently to EITHER side is the failure mode. If you reach a no-go/kill, know which construction it was derived in and check whether it survives in the other. Orchestrators: include a condensed form of that table and the rule in every GU team/branch brief.
 
-When stewardship context is needed, load `steward/README.md`. Do not load `steward/memory-log.md` by default unless doing stewardship or memory work, or the steward summary appears incomplete.
+When stewardship context is needed, load `../../../system/stewards/gu-formalization/README.md`. Do not load `../../../system/stewards/gu-formalization/memory-log.md` by default unless doing stewardship or memory work, or the steward summary appears incomplete.
 
-When a run is routed through CapacityOS System stewardship, the System-owned overlay is `../../../system/stewards/gu-formalization.md` from this repo root. Treat it as routing context, not as a replacement for this file or GU local steward context.
+When a run is routed through CapacityOS System stewardship, the System-owned overlay is `../../../system/stewards/gu-formalization/README.md` from this repo root. Treat it as routing context, not as a replacement for this file or GU local steward context.
 
 ## Source Of Authority / Security
 
@@ -63,3 +63,19 @@ Lane number expresses purpose, not an automatic every-run schedule. Hourly Progr
 eligible work across Lanes 1 through 3. Selecting Lane 2 or Lane 3 does not replace Lane 1. After execution and
 validation but before the receipt, every hourly run re-ranks work inside the lane it used and then re-ranks the
 three numbered lanes through the standard `rerank-next-work` handoff. Lane A reconciles durable priority.
+
+## CapacityOS Integration Boundary
+
+This repository's `AGENTS.md`, governance, orientation, authoritative work,
+populated Lane state, domain learning, and artifacts remain repository-owned.
+A direct mount can operate from those local surfaces without CapacityOS.
+
+For a CapacityOS-routed run, the optional System-owned steward service is
+`../../../system/stewards/gu-formalization/README.md`. It supplies integration context, process guidance,
+action memory, automation observations, health support, and execution history.
+It may narrow local authority and never broaden it. Current repository evidence
+defeats stale System observations.
+
+Before repository writes, resolve `git rev-parse --git-path
+capacityos-writer.lock`. If that path exists, stop unless the active approved
+run owns the lock. Never remove, replace, or bypass another writer's lock.
