@@ -318,7 +318,7 @@
       "title": "FLRW scalar-singlet and consistent-truncation obstruction",
       "source_result": "explorations/recovery-contract-cosmo-field-type-scalar-truncation-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "SWING_3_READY",
+      "challenge_state": "BOUNDED_NO_GO",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
         "run_id": "GUH-20260716T130826Z-cosmo-nogo-defense",
@@ -531,9 +531,72 @@
               "first_falsification_test": "Reject any candidate whose scalar equation is the standard SVT equation unless the GU source action independently derives the projector and truncation first."
             }
           ]
+        },
+        {
+          "id": "SWING-3-COSMO-SCALAR-ADJUDICATION",
+          "run_id": "GUH-20260716T200824Z-cosmo-swing3",
+          "state": "COMPLETE",
+          "result": "BOUNDED_NO_GO",
+          "evidence": "explorations/recovery-nogo-cosmo-scalar-swing3-adjudication-2026-07-16.md",
+          "test": "tests/recovery-contract/cosmo_nogo_swing3_adjudication_gate.py",
+          "swing_2_consumed": true,
+          "summary": "Adversarial review found no legitimate survivor after Swing 2. The current theta amplitude, constrained-composite, mixed-sector, boundary-conditioned, and standard-SVT comparator routes do not supply a source-owned physical scalar projector, observable map, closed SVT quadratic action, and residue discharge.",
+          "adversarial_checks": [
+            {
+              "id": "CURRENT_THETA_FLRW_DECOMPOSITION",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "The homogeneous s*(theta) amplitude is not a physical perturbation scalar without a source-owned projector, observable map, SVT quadratic action, and residue discharge.",
+              "target_import_rejected": true,
+              "scalar_by_rename_rejected": true,
+              "branch_mixing_rejected": true
+            },
+            {
+              "id": "CONSTRAINED_COMPOSITE_SCALAR",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "The current packets name scalar_theta_mode, Z_theta, C_Rtheta, and xi_eff as needed outputs rather than emitting a source-owned composite scalar.",
+              "target_import_rejected": true,
+              "scalar_by_rename_rejected": true,
+              "branch_mixing_rejected": true
+            },
+            {
+              "id": "MIXED_SECTOR_SCALAR",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "Theta, normal-flux, source-current, boundary, gauge, vector, tensor, and connection mixing is not a closed scalar truncation until the quadratic action block-diagonalizes and residues are discharged.",
+              "target_import_rejected": true,
+              "scalar_by_rename_rejected": true,
+              "branch_mixing_rejected": true
+            },
+            {
+              "id": "BOUNDARY_CONDITIONED_SCALAR",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "No frozen adapter packet supplies scalar projection, boundary data, physical observable, or state-preserving perturbation dynamics.",
+              "adapter_dependency": "absent frozen adapter packet",
+              "target_import_rejected": true,
+              "scalar_by_rename_rejected": true,
+              "branch_mixing_rejected": true
+            },
+            {
+              "id": "STANDARD_SVT_COMPARATOR",
+              "result": "INVALID_ESCAPE_PRESERVED",
+              "reason": "Standard SVT variables are the comparator benchmark. Importing them as GU dynamics assumes the target theory.",
+              "target_import_rejected": true,
+              "scalar_by_rename_rejected": true,
+              "branch_mixing_rejected": true
+            }
+          ],
+          "stop_decision": "BOUNDED_NO_GO",
+          "construction_space_bounded": true,
+          "resurrection_triggers": [
+            "source-owned physical scalar projector for s*(theta) or a replacement GU scalar object with provenance and a first falsification test",
+            "gauge-invariant observable map and positive kinetic normalization emitted before DESI, CMB, or standard-SVT target comparison",
+            "source-owned block-diagonal SVT quadratic action or equivalent closed scalar truncation with vector, tensor, connection, gauge, boundary, and non-scalar source residues discharged",
+            "source-owned mixed-sector quadratic action whose scalar block is independently named and whose residues do not feed the scalar equation at the same order",
+            "frozen boundary-adapter return that supplies branch conditions, scalar projection, boundary data, a gauge-invariant observable, and state-preserving perturbation dynamics"
+          ],
+          "status_boundary": "No claim status, canon verdict, public posture, paper, portfolio, license, Lean, absorbed source, or cross-repo surface moved."
         }
       ],
-      "next_question": "Is the missing scalar intrinsic to the GU carrier, or only to treating the current s*(theta) object as the physical perturbation variable rather than a constrained, composite, boundary-induced, or gauge-invariant scalar?",
+      "next_question": "The cosmology scalar defense checkpoint is bounded negative for the tested construction space. Next eligible recovery-defense work is RECOVERY-NOGO-SM-SELECTOR Swing 2 unless daily stewardship changes the order.",
       "predeclared_construction_space": [
         "current s*(theta) FLRW decomposition",
         "gauge-invariant or constrained composite scalar from the frozen GU fields",

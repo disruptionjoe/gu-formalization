@@ -19,6 +19,10 @@ posture, or portfolio state.
   for the cosmology scalar-truncation no-go defense: constrained-composite,
   mixed-sector, and boundary-conditioned scalar routes do not yet supply a
   source-owned scalar/truncation certificate, and standard SVT import is rejected.
+- `cosmo_nogo_swing3_adjudication_gate.py` - Swing 3 adjudication gate for the
+  cosmology scalar-truncation no-go defense: the Swing 2 no-survivor result is
+  preserved as a bounded no-go for the tested construction space, with exact
+  resurrection triggers and no status movement.
 - `gr_forced_coefficient_residual_test.py` - branch-local `NO_GO` for exact-vacuum GR
   cancellation under the frozen W203/W229/W230/W236 record-current action fingerprint:
   the principled Schwarzschild `Q^TF(B)` residual is nonzero, while the W229
