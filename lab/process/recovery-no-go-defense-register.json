@@ -18,9 +18,148 @@
       "title": "Exact-vacuum GR residual under the W229 record-current branch",
       "source_result": "explorations/recovery-contract-gr-forced-coefficient-residual-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "HISTORY_AUDIT_READY",
-      "history_audit": {"state": "PENDING", "prior_encounters": [], "search_receipt": null},
-      "completed_swings": [],
+      "challenge_state": "SWING_2_READY",
+      "history_audit": {
+        "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
+        "run_id": "GUH-20260716T120943Z-gr-nogo-defense",
+        "result": "NO_PRIOR_CLEARANCE_FOUND",
+        "summary": "Prior work cleared the imported-vacuum linear residual and the record-current theta row, but no prior result cleared the same nonzero Q^TF(B) plus zero W229 record-current source obstruction for this frozen construction.",
+        "search_receipt": {
+          "searched_at": "2026-07-16T12:09:43Z",
+          "search_terms": [
+            "Q^TF",
+            "Willmore residual",
+            "quadratic residual",
+            "Schwarzschild residual",
+            "O(M^2)",
+            "M^2/r^6",
+            "record-current",
+            "J[Psi]",
+            "Psi=0",
+            "theta=0",
+            "W229",
+            "source law",
+            "c_kin",
+            "bare theta",
+            "Schwarzschild",
+            "Kerr",
+            "exact-vacuum",
+            "GR recovery",
+            "W225",
+            "W236",
+            "W238"
+          ],
+          "searched_surfaces": [
+            "canon/",
+            "explorations/",
+            "tests/",
+            "steward/runs/",
+            "DERIVATION-PROGRESS.md",
+            "RESEARCH-STATUS.md",
+            "NEXT-STEPS.md",
+            "lab/process/"
+          ],
+          "boundedness_note": "Mechanism search, not exhaustive proof of every historical phrasing; sufficient to identify the material same-obstruction candidates in active GU history."
+        },
+        "prior_encounters": [
+          {
+            "id": "RFAIL-03",
+            "path": "canon/schwarzschild-weak-field-rfail.md",
+            "construction_fork": "imported Schwarzschild weak-field metric with GU-native Willmore residual bookkeeping",
+            "outcome": "Linear-in-M Willmore residual is identically zero by harmonicity; leading residual remains quadratic Q(B) and the verdict stays OPEN.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Confirms there is no linear early-disproof signal, but explicitly leaves the quadratic residual as the standing obstruction rather than clearing it."
+          },
+          {
+            "id": "WILLMORE-RESIDUAL-RECONCILIATION",
+            "path": "explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md",
+            "construction_fork": "principled graph-Hessian II with ambient-curvature and H-class/II-class alternatives",
+            "outcome": "Computes nonzero Q^TF(B), resolves the slow-falloff artifact, and identifies possible ambient or H-class balance mechanisms as different construction questions.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Supports the residual's existence; possible balances require an ambient/H-class or theta-source construction not identical to the W229 record-current vacuum source tested here."
+          },
+          {
+            "id": "W225",
+            "path": "explorations/W225-gravity-projected-shadow-schwarzschild-cheap-read-2026-07-15.md",
+            "construction_fork": "imported exact Schwarzschild, Psi=0, conservative IG branch, computable linear slice",
+            "outcome": "Every built term has zero linear-in-M residual, while the leading built contribution is the quadratic Q(B) obstruction.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Cheap-read compatibility at linear order; explicitly not exact GR recovery and not a cancellation of Q^TF(B)."
+          },
+          {
+            "id": "W236",
+            "path": "explorations/W236-gravity-theta-sector-residual-built-action-2026-07-15.md",
+            "construction_fork": "W229-built record-current theta equation in the Psi=0 vacuum",
+            "outcome": "J[Psi=0]=0 forces theta=0, so the theta-sector residual vanishes.",
+            "same_frozen_construction": true,
+            "clears_current_obstruction": false,
+            "applicability": "This is part of the current obstruction: the available W229 source/YM cancellation tensor is zero, so it cannot cancel nonzero Q^TF(B)."
+          },
+          {
+            "id": "W238",
+            "path": "explorations/W238-gravity-willmore-residual-kerr-2026-07-15.md",
+            "construction_fork": "imported exact Kerr, Psi=0, harmonic-gauge linear-in-M slice",
+            "outcome": "Linear Willmore residual clears on Kerr; the O(M^2) Q(B) obstruction remains the standing higher-order issue.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Extends linear cheap-read compatibility to rotation; does not clear the quadratic cancellation target."
+          },
+          {
+            "id": "W229",
+            "path": "explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md",
+            "construction_fork": "record-sourced induced-YM branch-3 action with screened-Poisson source law",
+            "outcome": "Builds the nonlocal record-current source law and localizes the W154 posit, with kappa and Z_U still normalization data.",
+            "same_frozen_construction": true,
+            "clears_current_obstruction": false,
+            "applicability": "Supplies the source law used by the current no-go; it does not provide a nonzero vacuum source or a Q^TF(B) canceller."
+          }
+        ]
+      },
+      "completed_swings": [
+        {
+          "id": "SWING-1-GR-W229-SCOPE-FORK",
+          "run_id": "GUH-20260716T120943Z-gr-nogo-defense",
+          "state": "COMPLETE",
+          "result": "SCOPE_CONFIRMED",
+          "evidence": "explorations/recovery-nogo-gr-w229-history-scope-2026-07-16.md",
+          "test": "tests/recovery-contract/gr_nogo_history_scope_gate.py",
+          "history_audit_consumed": true,
+          "summary": "The no-go minimizes to the current branch's nonzero principled Schwarzschild Q^TF(B) residual plus the W229 record-current vacuum rule Psi=0 -> J=0 -> theta=0. It is not contradicted by prior linear cheap-read clears.",
+          "minimized_obstruction": [
+            "principled Schwarzschild Q^TF(B) is nonzero",
+            "the W229 source law uses record current J[Psi]",
+            "Psi=0 in the imported vacuum gives J=0",
+            "finite positive screened operator gives theta=0",
+            "available source/YM cancellation tensor is zero",
+            "kappa and Z_U cannot tune a zero tensor into -Q^TF(B)"
+          ],
+          "construction_space_status": [
+            {
+              "construction": "frozen W229 record-current nonlocal branch",
+              "status": "SCOPE_CONFIRMED_NO_GO"
+            },
+            {
+              "construction": "W203 ultralocal limit",
+              "status": "same zero-source obstruction unless a different non-record source is supplied"
+            },
+            {
+              "construction": "fundamental-stiffness or bare-theta branch",
+              "status": "different construction, eligible for Swing 2 only if stated without merging with W229"
+            },
+            {
+              "construction": "boundary-conditioned adapter response",
+              "status": "explicit-assumption construction, not current-branch clearance"
+            },
+            {
+              "construction": "standard Einstein dynamics",
+              "status": "comparator only, not importable as GU dynamics"
+            }
+          ]
+        }
+      ],
       "next_question": "Does the nonzero quadratic residual survive every already-named GU action, variation, boundary, and source fork, or only the vacuum W229 record-current fingerprint where J[Psi] vanishes?",
       "predeclared_construction_space": [
         "frozen W229 record-current nonlocal branch",

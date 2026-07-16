@@ -232,13 +232,39 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             },
             {target["id"] for target in register["targets"]},
         )
-        self.assertTrue(
-            all(
-                target["challenge_state"] == "HISTORY_AUDIT_READY"
-                and target["history_audit"]["state"] == "PENDING"
-                for target in register["targets"]
-            )
-        )
+        for target in register["targets"]:
+            with self.subTest(no_go_target=target["id"]):
+                audit = target["history_audit"]
+                if audit["state"] == "PENDING":
+                    self.assertEqual("HISTORY_AUDIT_READY", target["challenge_state"])
+                    continue
+
+                self.assertIn(
+                    target["challenge_state"],
+                    {"SWING_2_READY", "INTEGRITY_CONFLICT"},
+                )
+                self.assertIn(
+                    audit["result"],
+                    {"NO_PRIOR_CLEARANCE_FOUND", "INTEGRITY_CONFLICT"},
+                )
+                self.assertIsInstance(audit["prior_encounters"], list)
+                self.assertIsInstance(audit["search_receipt"], dict)
+
+                if target["challenge_state"] == "SWING_2_READY":
+                    self.assertTrue(target["completed_swings"])
+                    self.assertTrue(
+                        any(
+                            swing["history_audit_consumed"]
+                            and swing["result"]
+                            in {
+                                "SCOPE_CONFIRMED",
+                                "CLASS_RELATIVE",
+                                "UNDERDEFINED",
+                                "INVALID_NO_GO",
+                            }
+                            for swing in target["completed_swings"]
+                        )
+                    )
         self.assertIn("Mandatory history audit", protocol)
         self.assertIn("Minimum three-swing sequence", protocol)
         self.assertIn("does not count as one of the three", protocol)

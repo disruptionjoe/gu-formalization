@@ -168,24 +168,39 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
     def test_portfolio_consumes_the_assessment_without_opening_gates(self) -> None:
         internal = {item["id"]: item for item in self.lane["internal_work_items"]}
         self.assertEqual("lab/process/recovery-certification-matrix.json", self.lane["assessment_source"])
-        self.assertEqual(set(self.by_id), set(internal))
+        self.assertTrue(set(self.by_id).issubset(internal))
+        self.assertEqual({"NO-GO-SCOPE-CHALLENGE"}, set(internal) - set(self.by_id))
+        self.assertEqual("READY", internal["NO-GO-SCOPE-CHALLENGE"]["state"])
+        self.assertIn("HISTORY_AUDIT_READY", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
+        self.assertIn("three-swing sequence", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
         self.assertEqual("GATED_P2C", internal["ADAPTER-RETURN-CERTIFICATION"]["state"])
         self.assertEqual("GATED_NEW_STRUCTURE", internal["FIXED-NATIVE-QUANTITY"]["state"])
         self.assertEqual("GATED_FIXED_QUANTITY", internal["BLIND-QUANTITATIVE-CONFRONTATION"]["state"])
         self.assertEqual(
-            "READY_AFTER_CONTRACT_FOR_FIELD_TYPE",
+            "BRANCH_NO_GO_DEFENSE_DUE",
+            internal["GR-DYNAMICAL-BENCHMARKS"]["state"],
+        )
+        self.assertEqual(
+            "BRANCH_NO_GO_DEFENSE_DUE",
             internal["COSMO-PERTURBATIONS"]["state"],
         )
-        self.assertIn("O(M^2)", internal["GR-DYNAMICAL-BENCHMARKS"]["next_swing"])
-        self.assertIn("physical scalar singlet", internal["COSMO-PERTURBATIONS"]["next_swing"])
+        self.assertEqual(
+            "BRANCH_NO_GO_DEFENSE_DUE",
+            internal["SM-CONSISTENT-SECTOR"]["state"],
+        )
+        self.assertIn("NO-GO-SCOPE-CHALLENGE", internal["GR-DYNAMICAL-BENCHMARKS"]["next_swing"])
+        self.assertIn("scalar-truncation no-go", internal["COSMO-PERTURBATIONS"]["next_swing"])
+        self.assertIn("SM selector no-go", internal["SM-CONSISTENT-SECTOR"]["next_swing"])
 
     def test_assessment_files_do_not_leak_local_paths_or_em_dashes(self) -> None:
+        windows_home = "C:" + "\\Users\\joe"
+        slash_home = "C:" + "/Users/" + "joe"
         for path in (MATRIX, ASSESSMENT):
             text = read(path)
             with self.subTest(path=path.name):
                 self.assertNotIn("\u2014", text)
-                self.assertNotIn("C:\\Users\\joe", text)
-                self.assertNotIn("C:/Users/joe", text)
+                self.assertNotIn(windows_home, text)
+                self.assertNotIn(slash_home, text)
 
 
 if __name__ == "__main__":
