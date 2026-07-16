@@ -25,7 +25,7 @@
       "title": "Exact-vacuum GR residual under the W229 record-current branch",
       "source_result": "explorations/recovery-contract-gr-forced-coefficient-residual-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "SWING_2_READY",
+      "challenge_state": "SWING_3_READY",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
         "run_id": "GUH-20260716T120943Z-gr-nogo-defense",
@@ -165,9 +165,86 @@
               "status": "comparator only, not importable as GU dynamics"
             }
           ]
+        },
+        {
+          "id": "SWING-2-GR-W229-CONSTRUCTION-ATTEMPT",
+          "run_id": "GUH-20260716T170900Z-gr-swing2",
+          "state": "COMPLETE",
+          "result": "NO_SURVIVOR",
+          "evidence": "explorations/recovery-nogo-gr-w229-swing2-construction-2026-07-16.md",
+          "test": "tests/recovery-contract/gr_nogo_swing2_construction_gate.py",
+          "swing_1_scope_consumed": true,
+          "summary": "The best already named alternative GR forks were tested as construction classes, but none supplied a source-owned cancellation tensor with the required order, trace-free slot, provenance, branch cleanliness, and first falsification test. Target-shaped stress and standard Einstein dynamics remain invalid escapes.",
+          "attempted_constructions": [
+            {
+              "id": "W203_ULTRALOCAL_LIMIT",
+              "construction_class": "W203 ultralocal record-current limit",
+              "axis_delta": "nonlocal W229 stiffness removed while record-current source law stays fixed",
+              "result": "NO_SURVIVOR",
+              "reason": "Psi=0 still gives J[Psi]=0; a different non-record source would leave the W203/W229 branch.",
+              "source_owned": false,
+              "benchmark_independent": true,
+              "trace_free_slot": false,
+              "branch_clean": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "Exact-vacuum Schwarzschild still has zero record current and therefore no cancellation tensor."
+            },
+            {
+              "id": "FUNDAMENTAL_STIFFNESS_BARE_THETA",
+              "construction_class": "fundamental-stiffness or bare-theta branch",
+              "axis_delta": "replace W154 c_kin = 0 record-current posit with an independent theta equation",
+              "result": "NO_SURVIVOR",
+              "reason": "The current record names this as a legitimate different branch, but supplies no source-owned field equation, boundary data, normalization, or trace-free stress tensor for the Q^TF(B) slot.",
+              "source_owned": false,
+              "benchmark_independent": true,
+              "trace_free_slot": false,
+              "branch_clean": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "A future bare-theta equation must predict an exact-vacuum source tensor before inspecting the Schwarzschild residual."
+            },
+            {
+              "id": "AMBIENT_H_CLASS_BALANCE",
+              "construction_class": "ambient or H-class Willmore balance",
+              "axis_delta": "change the functional/ambient-curvature contribution rather than the record current",
+              "result": "NO_SURVIVOR",
+              "reason": "Prior work maps the OQ2-A functional binary, but does not freeze the higher-codimension first variation or coefficient needed for a current cancellation tensor.",
+              "source_owned": false,
+              "benchmark_independent": true,
+              "trace_free_slot": true,
+              "branch_clean": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "A background-subtracted higher-codimension Willmore variation must derive the ambient term and coefficient without fitting Q^TF(B)."
+            },
+            {
+              "id": "BOUNDARY_CONDITIONED_ADAPTER",
+              "construction_class": "boundary-conditioned adapter response",
+              "axis_delta": "use an explicit adapter assumption rather than W229 vacuum source law",
+              "result": "NO_SURVIVOR",
+              "reason": "No frozen adapter packet supplies an exact-vacuum GR source tensor or physical state-preserving construction that cancels Q^TF(B).",
+              "source_owned": false,
+              "benchmark_independent": true,
+              "trace_free_slot": false,
+              "branch_clean": true,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "A returned adapter must provide a source-owned GR tensor and fail if that tensor is zero, metric-proportional, or target-shaped."
+            },
+            {
+              "id": "STANDARD_EINSTEIN_COMPARATOR",
+              "construction_class": "standard Einstein dynamics as comparator",
+              "axis_delta": "none; this is the target theory",
+              "result": "INVALID_ESCAPE",
+              "reason": "Einstein dynamics supplies the benchmark, not GU dynamics. A target-shaped stress tensor is target import even when it algebraically cancels Q^TF(B).",
+              "source_owned": false,
+              "benchmark_independent": false,
+              "trace_free_slot": true,
+              "branch_clean": false,
+              "has_first_falsification_test": true,
+              "first_falsification_test": "Reject any source defined as -Q^TF(B) unless it is independently derived before target confrontation."
+            }
+          ]
         }
       ],
-      "next_question": "Does the nonzero quadratic residual survive every already-named GU action, variation, boundary, and source fork, or only the vacuum W229 record-current fingerprint where J[Psi] vanishes?",
+      "next_question": "Swing 3 should adversarially adjudicate the GR no-survivor result, compare hidden imports and branch mixing, and record an exact resurrection trigger if the tested construction space remains exhausted.",
       "predeclared_construction_space": [
         "frozen W229 record-current nonlocal branch",
         "W203 ultralocal limit",

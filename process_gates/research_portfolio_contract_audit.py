@@ -276,7 +276,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
 
                 self.assertIn(
                     target["challenge_state"],
-                    {"SWING_2_READY", "INTEGRITY_CONFLICT"},
+                    {"SWING_2_READY", "SWING_3_READY", "INTEGRITY_CONFLICT"},
                 )
                 self.assertIn(
                     audit["result"],
@@ -285,7 +285,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                 self.assertIsInstance(audit["prior_encounters"], list)
                 self.assertIsInstance(audit["search_receipt"], dict)
 
-                if target["challenge_state"] == "SWING_2_READY":
+                if target["challenge_state"] in {"SWING_2_READY", "SWING_3_READY"}:
                     self.assertTrue(target["completed_swings"])
                     self.assertTrue(
                         any(
@@ -296,6 +296,20 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                                 "CLASS_RELATIVE",
                                 "UNDERDEFINED",
                                 "INVALID_NO_GO",
+                            }
+                            for swing in target["completed_swings"]
+                        )
+                    )
+                if target["challenge_state"] == "SWING_3_READY":
+                    self.assertTrue(
+                        any(
+                            swing.get("swing_1_scope_consumed") is True
+                            and swing["result"]
+                            in {
+                                "NO_SURVIVOR",
+                                "SURVIVOR_CANDIDATE",
+                                "NEW_DEPENDENCY",
+                                "INVALID_ESCAPE",
                             }
                             for swing in target["completed_swings"]
                         )
