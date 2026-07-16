@@ -1,70 +1,48 @@
 ---
-title: "RATIFIED (Joe, 2026-07-15): the GU Krein sign bar(b) IS the polarity of the finality axis — a structural cross-repo identity, with the value located as one posit"
+title: "SUPERSEDED: prior ratification of the Krein-sign/finality-polarity identity"
 status: exploration
-doc_type: ratified-cross-repo-identity
+doc_type: superseded-cross-repo-identity
 created: 2026-07-15
-grade: "Joe-ratified cross-repo IDENTITY at structural grade, on two proven adapter contracts (one Harary-theorem-strength, one functor-grade). The identity is STRUCTURAL; the VALUE remains one located posit (Krein positivity). Not physical; number still source-action-gated."
-provenance: "Joe, chat 2026-07-15: 'Let's harden, then ratify.' Hardening (functor F: Ext_S -> T18) passed; Joe's standing authorization ratifies."
-depends_on:
-  - explorations/time-as-finality-crosswalk/adapter-contract-three-object-signed-graph-2026-07-15.md
-  - explorations/time-as-finality-crosswalk/adapter2-directed-arrow-and-the-one-posit-terminus-2026-07-15.md
-runnable:
-  - explorations/time-as-finality-crosswalk/adapter_three_object.py
-  - explorations/time-as-finality-crosswalk/adapter2_directed_arrow.py
-  - explorations/time-as-finality-crosswalk/adapter2_hardening_functor.py
-verdict: "RATIFIED (structural identity). bar(b) = finality-axis polarity. Value = one located posit (Krein positivity). Physical issuance false; generation number source-action-gated."
+superseded_by: explorations/time-as-finality-crosswalk/adapter2-correction-polarity-fiber-not-axis-2026-07-15.md
+verdict: "WITHDRAWN AS A SCIENTIFIC RESULT BY ADAPTER2-01; IDENTITY RETURNS TO OPEN"
 ---
 
-# RATIFIED: the Krein sign is the polarity of the finality axis
+# Superseded ratification record
 
-## The ratified statement (precise)
+This file preserves the address used by the same-day ratification notices. It
+is not a current positive result.
 
-> **The GU Krein grading sign `bar(b)` IS the polarity of the finality axis** — the ℤ/2 orientation of the
-> TI/TaF finality arrow. This is a **structural cross-repo identity**, ratified by Joe on 2026-07-15.
+## Correction ADAPTER2-01
 
-## The basis: two proven adapter contracts (the tri-repo precondition, now met)
+The ratification depended on a claim that the functor
+`F: Ext_S -> T18` sent opposite-polarity fork states to incomparable TaF
+branches. It did not. Both fork endpoints mapped to the same profile
+`(1,1,1)`. The test checked the absence of a common successor in the source and
+reported that as target incomparability.
 
-1. **Consistency object — one signed graph (Harary-strength).** GU Gate 2a = TaF T39 = TI E155/E160 are one
-   ℤ/2 signed-graph object: balance = no negative cycle = ℤ/2 cocycle exact = XOR-SAT = 2-colourable. Three
-   independent algorithms agreed 720/720. (`adapter_three_object.py`)
-2. **Directed object — one finality poset, FUNCTOR-GRADE.** An explicit functor `F: Ext_S -> T18`
-   (`adapter2_hardening_functor.py`): `F(id)=id` and `F(g o f)=F(g) o F(f)` (2000/2000); every admissible
-   extension maps to a **non-D1-decreasing** T18 morphism (1616/1616) and every strict extension to a
-   **strict finalization** (1534/1534); forks `(p,+1)/(p,-1)` map to **incomparable branches** (500/500);
-   controls (reverse map, random map) are **rejected** (766/766). The earlier "structural-grade / flagged for
-   hardening" caveat on adapter #2 is **DISCHARGED**.
+The attempted direct repair also fails. TaF's actual local D1 profile has four
+dimensions, but any value-blind profile still maps the two opposite values to
+the same point. A D1Field-style enrichment can retain the proposition value,
+but then polarity is additional fiber data rather than the direction of the
+finality order.
 
-`>= 2` proven adapter contracts -> the tri-repo precondition for a cross-repo identity is satisfied.
+Current status:
 
-## What the identity says structurally
+```text
+common Harary predicate on a shared encoding: survives
+monotone forgetful profile functor: survives
+branch-preserving T18 adapter: fails
+bar(b) = finality-axis polarity: OPEN conjectural bridge
+bar(b): OPEN
+H59: OPEN
+```
 
-- **consistency** (no domains) — shared, proven (adapter #1);
-- **finality axis** (the direction) — shared + derived from irreversibility (adapter #2 functor + T18);
-- **polarity** (which end is positive-norm) — the single free ℤ/2 the shared object cannot fix.
+Authoritative correction and executable audit:
 
-`bar(b)` is identified with that polarity. So the Krein sign is **not** GU-internal data (GU's nerve is
-undirected and structurally cannot carry it) — it is the orientation of the finality arrow that TI/TaF own.
+- `adapter2-correction-polarity-fiber-not-axis-2026-07-15.md`
+- `adapter2_repair_audit.py`
 
-## What is NOT thereby established (the honest riders, ratified WITH the identity)
-
-- **The value is a located posit, not a derivation.** The identity says *what* `bar(b)` is (the finality-axis
-  polarity); it does **not** derive *which* polarity. That remaining bit = **Krein positivity** ("final =
-  positive-norm") — one irreducible physical posit. Ratifying the identity **locates** the posit; it does not
-  discharge it.
-- **Not physical.** TI's `Issue[S]^physical = false` stands; the finality object is formal-grade.
-- **Number still open.** The GU generation **number** (`ind_H(D_GU)` = 24 vs 32) stays behind the unwritten
-  source action. The identity is about the **sign**, not the count.
-- **TaF T57.** The finality-arrow direction carries TaF's own open flag (T57); the axis is canonical *given*
-  T18's irreversibility semantics.
-
-## Net
-
-The generation-count sign is now, by ratified structural identity, **the polarity of the finality axis**, with
-its value reduced to exactly one physically meaningful posit ("final = positive-norm") and everything else
-(consistency, the axis, the tri-repo structure) derived or shared. That is the honest terminus: the bit is
-**located and named**, not arbitrary and not free — one posit, everything else forced.
-
-## Cascade
-
-Awareness ratification notices filed to the TI, TaF, and P2C mailboxes. Going-forward home: P2C
-(`interfaces/` + `synthesis/`), import as Frozen-Packet. GU/TI/TaF source verdicts remain sovereign.
+Joe's earlier ratification is retained as historical governance provenance. It
+does not override the failed mathematical dependency, and the scientific
+identity is withdrawn under Joe's subsequent direct instruction to repair or
+downgrade.

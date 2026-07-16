@@ -1,6 +1,5 @@
 """
-Tri-repo adapter comparison: are GU Gate 2a, TaF T39, and TI E155/E160 the SAME
-Z/2 signed-graph object, under an explicit map -- or where does the adapter break?
+Tri-repo consistency-predicate comparison on one shared signed-graph encoding.
 
 Common instance: a SIGNED GRAPH -- nodes + edges labelled L in {+1,-1}
 (+1 = "agree/same", -1 = "disagree/different/opposite-polarity").
@@ -22,14 +21,14 @@ Three INDEPENDENT algorithms (they must all agree iff it is one object):
       its fundamental cycle. [J]=0 in H^1 iff all fundamental-cycle holonomies=0.
       (cohomology / loop-product bookkeeping)
 
-If all three agree on every instance -> they compute one object at the CONSISTENCY
-level (Harary balance = no negative cycle = Z2 1-cocycle exact = XOR-SAT).
+If all three agree on every instance, the three algorithms compute the same
+Harary-balance predicate on this common encoding. Agreement does not prove that
+the complete native GU, TaF, and TI objects are isomorphic.
 
 Then the DIRECTION test: orient the edges (the TI Ext_S arrow / TaF T18 finality
 arrow). Does the consistency verdict, or the value (which global sign), depend on
-the orientation? If not, the direction is FORGOTTEN STRUCTURE the shared object
-cannot see -- the adapter is an iso on balance but LOSES the orientation, which is
-exactly where bar(b)'s value lives.
+the orientation? If not, orientation is forgotten by the balance predicate.
+No physical interpretation of the resulting coloring relabeling is assumed.
 
 Pure Python.
 """
@@ -208,7 +207,8 @@ def main():
         for d in disagreements[:10]:
             print("   ", d)
     else:
-        print("  -> ISO CONFIRMED at consistency level: GU Gate2a = TaF T39 = TI E155/E160 (Harary balance).")
+        print("  -> COMMON PREDICATE CONFIRMED on the shared encoding: Harary balance.")
+        print("     Full native-object isomorphism is not tested by algorithm agreement.")
 
     print("\n=== DIRECTION / FORGOTTEN-STRUCTURE TEST ===")
     print(" Take balanced signed graphs; ORIENT edges (TI Ext_S arrow / TaF T18 finality arrow).")
@@ -242,12 +242,13 @@ def main():
     print(f" re-orientation changed the balance verdict in: {dir_changes_balance}/{checked} cases")
     print(f" global-sign solution count = 2^components; components distribution: {dict(Counter(sol_counts))}")
     print(" -> orientation is INVISIBLE to the balance object (forgotten structure);")
-    print("    each component keeps a free Z/2 (2 solutions) = the value bit the shared object cannot fix.")
+    print("    each component keeps a global Z/2 coloring relabeling; no physical meaning is assigned.")
 
     print("\n=== ADAPTER VERDICT ===")
-    print(" CONSISTENCY level: ISO (three independent algorithms agree on every instance).")
-    print(" DIRECTION/VALUE level: adapter LOSES orientation -> the free per-component Z/2 is exactly bar(b)'s")
-    print(" undetermined value. Preserved invariant = H^1 balance class; forgotten structure = the arrow.")
+    print(" CONSISTENCY level: common Harary predicate on a shared synthetic encoding.")
+    print(" NATIVE-OBJECT level: NOT ESTABLISHED; the source-to-encoding maps were not proved isomorphisms.")
+    print(" DIRECTION/VALUE level: orientation and absolute sign are forgotten.")
+    print(" No identification of the remaining graph relabeling freedom with bar(b) follows.")
 
 
 if __name__ == '__main__':

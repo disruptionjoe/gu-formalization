@@ -1,14 +1,12 @@
 """
-Second adapter contract (the DIRECTED arrows) + the is-the-arrow-canonical test.
+Historical directed-arrow shape test, corrected by ADAPTER2-01.
 
 Adapter #1 already showed the UNDIRECTED consistency objects are one signed graph.
 The VALUE lives in the directed finality arrow. This tests two things:
 
-(A) SECOND ADAPTER: are TI Ext_S (directed extension morphisms) and TaF T18
-    (finalization increases a D1 dimension; reverse impossible; acyclic) the SAME
-    directed object? Model both as a "finality structure" = an acyclic DAG with a
-    monotone potential (the finality rank). Show both instantiate it and that the
-    canonical AXIS (the increasing direction) is well-defined and reverse-forbidden.
+(A) SHAPE COMPARISON: TI Ext_S and TaF T18 can both be represented by acyclic
+    directed graphs with monotone potentials in a shared toy encoding. This
+    does not construct a functor between their native categories.
 
 (B) IS-THE-ARROW-CANONICAL: does the arrow FIX the Z/2 sign (the value), or only an
     AXIS whose POLARITY (which end is "positive-norm") is still a free posit?
@@ -99,7 +97,7 @@ def sign_assignments_compatible(N, edges, pos):
 
 
 def main():
-    print("=== (A) SECOND ADAPTER: TI Ext_S and TaF T18 as one 'acyclic monotone finality' object ===")
+    print("=== (A) SHARED DAG SHAPE, NOT A NATIVE SECOND ADAPTER ===")
     rng = random.Random(20260715)
     ok_axis = 0
     reverse_has_monotone = 0
@@ -123,12 +121,12 @@ def main():
     print(f" instances: {total}")
     print(f" canonical monotone axis exists (acyclic): {ok_axis}/{total}")
     print(f" reverse ALSO admits a monotone (topologically): {reverse_has_monotone}/{total}")
-    print(" -> BOTH TI and TaF instantiate 'acyclic + monotone'. SECOND ADAPTER HOLDS at structural grade:")
-    print("    they are one directed object (a finality poset with an intrinsic increasing AXIS).")
+    print(" -> The shared toy graph has an acyclic monotone shape.")
+    print("    This does NOT establish that native TI Ext_S and TaF T18 are one object.")
     print("    NOTE: topology alone is flip-symmetric; the ASYMMETRY (which way is 'final') is")
     print("    supplied by the monotone SEMANTICS (T18 'reverse impossible' / D1 increase), not the graph.")
 
-    print("\n=== (B) IS-THE-ARROW-CANONICAL: axis yes, polarity NO ===")
+    print("\n=== (B) AXIS/POLARITY SYMMETRY CHECK ===")
     rng2 = random.Random(7)
     both_signs_ok = 0
     unique_genesis = 0
@@ -156,11 +154,10 @@ def main():
     print(f"   -> even a canonical reference fixes WHERE to anchor, not the anchor's sign.")
 
     print("\n=== VERDICT ===")
-    print(" Adapter #2: HOLDS (structural) -> >=2 adapter contracts now proven.")
-    print(" Axis: CANONICAL / derived (acyclic + monotone semantics; reverse forbidden).")
-    print(" Polarity: NOT canonical -> exactly ONE irreducible Z/2 posit = 'final = positive-norm'")
-    print(" = Krein positivity (W211 path b / persona-20 ceiling), reached constructively.")
-    print(" Everything else (consistency, the finality axis, tri-repo structure) is derived/shared.")
+    print(" Adapter #2: NOT PROVED. A shared DAG shape is weaker than a native functor.")
+    print(" Axis: conditional on imposing T18's D1-monotone admissibility semantics.")
+    print(" Polarity: absent from the graph and not identified with the GU Krein sign.")
+    print(" See adapter2_repair_audit.py for the branch-collapse obstruction.")
 
 
 if __name__ == '__main__':
