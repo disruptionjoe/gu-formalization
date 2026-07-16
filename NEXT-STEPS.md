@@ -2,109 +2,82 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-15"
+updated_at: "2026-07-16"
 ---
 
 # Next Steps For Contributors
 
-> **2026-07-15 CURRENT OPERATIONAL QUEUE: STEWARD-MAINTAINED RESEARCH PORTFOLIO.**
-> The machine-readable owner is `lab/process/research-portfolio.json`. Daily stewardship reconciles that
-> portfolio against real falsifiers, dependency changes, frozen packet returns, integrity corrections, and
-> official releases. Hourly Progress uses `lab/process/runbooks/meaningful-hourly-progress-swing.md` and takes
-> one substantial, decision-grade swing. It does not edit this block or the portfolio.
+> **2026-07-16 CURRENT OPERATIONAL QUEUE: THREE PROGRESS LANES PLUS STEWARDSHIP.**
+> The machine-readable owner is `lab/process/research-portfolio.json`. A lane is a durable purpose-bearing
+> execution container, not each dependency, monitor, gate, closed branch, workstream, or task.
 >
-> **Deliberate program pivot:** `RECOVERY-CERTIFICATION` is the current operational North Star. It tests whether
-> one frozen GU construction recovers the physical content of quantum theory, the Standard Model, general
-> relativity, and cosmological perturbations without sector-specific adjustment. The Y14 `F_A` C2
-> spectral-section/source-action datum and native normalization remain the deepest load-bearing theoretical
-> dependency. Joe transferred construction of that frontier to possibility-to-capability, so GU tracks it as
-> `DEP-NATIVE-SOURCE-DATUM` and does not keep attacking the same wall. It is parked, not solved.
+> - **Lane 1, GU truth testing:** the protected charter-level North Star. Adversarially test whether one frozen
+>   GU construction recovers a physical quantum sector, the Standard Model, Einstein dynamics, and cosmological
+>   perturbations without sector-specific adjustment. Force, falsify, or downgrade the claim honestly.
+> - **Lane 2, prediction extraction and computation:** derive, freeze, compute, and confront GU-native
+>   predictions and falsification tripwires while separating native, imported, fitted, and free quantities.
+> - **Lane 3, result hardening and publication readiness:** harden useful results through written proof,
+>   computation, Lean where appropriate, novelty and citation checks, reproducibility, honest scope, and source
+>   packets for Drafting Factory or external eyes.
+> - **Lane A, Stewardship:** reconcile priority, packets, mailboxes, integrity, navigation, and paper seeds. It is
+>   administrative, is never selected by Progress, and never competes in the numbered-lane scientific ranking.
 >
-> **Protected primary:** one adaptive `RECOVERY-CERTIFICATION` lane, not five competing sublanes. Each hourly
-> run takes the highest-ranked unblocked internal work item, makes one decision-grade advance, and then uses the
-> standard Next-Work Handoff to re-rank the remaining internal items before writing its receipt. Extra manual or
-> separately scoped automation may add effort to an item without creating a second active portfolio lane.
+> **Selection rule:** Lane 1 always retains the North-Star purpose. Difficulty, activity, finishability, and an
+> easier proof never demote it. Lane number expresses purpose, not an automatic every-run schedule. Each hourly
+> Progress run selects the worthiest eligible work item across Lanes 1 through 3. Selecting Lane 2 or Lane 3 does
+> not replace Lane 1. After execution and validation but before the receipt, the run uses the standard
+> `rerank-next-work` flow to rank work inside the lane it used and then rank the three numbered lane leaders.
+> Lane A daily Stewardship decides whether that evidence changes durable portfolio state.
 >
-> **Current internal target:** `NO-GO-SCOPE-CHALLENGE`. The branch-local recovery manifest and action fingerprint
-> now exist. The first exact-vacuum GR, cosmological scalar-truncation, and complete-Standard-Model selector tests
-> returned scoped `NO_GO` endpoints. Preserve those results at their stated construction and grade, but do not
-> mistake them for construction-class exhaustion. Use
+> **Lane 1 current leader:** `RECOVERY-CERTIFICATION`, with `NO-GO-SCOPE-CHALLENGE` as its highest-ranked
+> adaptive component. The recovery manifest and action fingerprint exist. The first exact-vacuum GR,
+> cosmological scalar-truncation, and complete-Standard-Model selector tests returned scoped `NO_GO` endpoints.
+> Preserve them, but do not mistake them for construction-class exhaustion. `RECOVERY-CONTRACT` is a conditional
+> branch-local endpoint, not a completed unified construction. Keep
+> `lab/process/recovery-certification-matrix.json` as the common recovery ladder.
+>
+> Before challenging a new no-go, run the non-counting history audit in
 > `lab/process/recovery-no-go-defense-protocol.md` and
-> `lab/process/recovery-no-go-defense-register.json`.
-> `RECOVERY-CONTRACT` is therefore a conditional branch-local endpoint, not a completed unified construction.
-> Keep `lab/process/recovery-certification-matrix.json` as the common recovery ladder and evidence schema.
+> `lab/process/recovery-no-go-defense-register.json`. If GU cleared the same obstruction for the same frozen
+> construction, stop with an integrity conflict. Otherwise preserve the construction fork, then run the minimum three broad swings:
+> type and scope the obstruction, attempt a genuinely different construction using the
+> AI-epistemology escape registry, and adversarially adjudicate survivors. Apply Layer 0 plus L1-L7. A legitimate
+> reframe explains more rather than merely surviving, and never erases the original counterexample.
 >
-> Before challenging any new no-go, run a non-counting history audit across prior GU canon, ledgers, corrections,
-> explorations, tests, receipts, and superseded steering history. Determine whether GU already encountered and
-> cleared the same substantive obstruction. If it was cleared for the same frozen construction, stop with an
-> integrity conflict and reconcile the premises. If it was cleared only in another construction, preserve the
-> fork explicitly. Only then begin the minimum three broad swings: type and fork the obstruction; attempt a
-> genuinely different construction using the AI-epistemology escape-move registry; and adversarially adjudicate
-> every survivor. A legitimate reframe must explain more, not merely survive. A survivor creates a new frozen
-> construction candidate and never erases the original counterexample.
-> Apply the current six-axis specification form, Layer 0 plus L1-L7, to the failed class and every proposed
-> escape. Historical clearances count as same-construction only when their signatures match; a Swing-2 escape
-> needs explicit axis deltas and a first falsification test. Vague axes return `UNDERDEFINED`.
+> After the first scope-and-fork round, interleave `QM-PHYSICAL-SECTOR`: given a precisely typed boundary adapter
+> and favorable branch inputs, determine whether the same frozen GU construction yields the physical complex,
+> constraint or BRST quotient, positive state space, observables, locality, and unitary or state-preserving
+> dynamics without further imports. Return `CONDITIONAL_COMPLETE`, `CONDITIONAL_FAIL`, or `UNDERDEFINED`.
+> Conditional success does not construct the adapter. `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen
+> p2c return. `DEP-NATIVE-SOURCE-DATUM`, the Y14 `F_A` C2 source-action datum and native normalization, remains
+> parked, not solved.
 >
-> **Internal order, subject to evidence-driven re-ranking:** first complete the history-audit and scope/fork round
-> for the current three no-gos. Then interleave `QM-PHYSICAL-SECTOR` as an explicitly assumption-capped
-> sufficiency test before later rescue rounds, unless new evidence changes the ranking. The quantum question is
-> not "can GU independently build the p2c firewall adapter?" It is: given a precisely typed adapter and favorable
-> branch inputs, does the same frozen GU construction actually produce the physical complex, constraint or BRST
-> quotient, positive state space, observables, locality, and unitary or state-preserving dynamics without further
-> sector-specific imports? Return `CONDITIONAL_COMPLETE`, `CONDITIONAL_FAIL`, or `UNDERDEFINED`. A conditional
-> success is real downstream information but does not establish the adapter's existence.
->
-> Resume the registered second and third defense swings until each no-go's predeclared construction space is
-> exhausted or a new survivor passes its frozen benchmark and adversarial twin. Subgroup containment, field
-> location, background agreement, parameter fitting, and importing the target theory do not establish recovery.
-> `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen, independently built p2c return.
-> `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` remain inside this same certification lane
-> but gated until new native structure supplies a data-blind relation. Thus all seven bet-changing conditions are
-> tracked in one adaptive lane even when GU does not currently own or possess the object needed to execute one.
->
-> **Prediction-rank endpoints:** `PRED-FLAVOR-RANK` is `RESOLVED_NO_GO` at the current construction grade:
-> the Z/3 texture leaves two free dimensionless flavor ratios after phase and scale quotienting.
-> `PRED-NORM-RANK` is also `RESOLVED_NO_GO` at the current construction grade: four quotient-invariant families
-> survive, but no GU-native absolute scale fixes the range or pole. `PRED-FLAVOR-OBS` therefore has no honest
-> frozen relation to confront. These routes reopen only if new native structure removes the residual freedom
-> before target-data inspection.
->
-> **Reserve only:** `PROOF-STABLE-KERNELS`. Its order is: establish a fresh default-target green baseline;
-> integrate the existing sorry-free and axiom-free `R4_TwoArena` certificate into that target; retire the
-> un-typechecked A1 duplicate; then attempt the W243/GU-002 extremal-weight stabilizer deduction with every
-> native-carrier and full-arena premise explicit. W244's counterexample forbids formalizing W241's stronger
-> frame-specific claim. Lean is reserve work and cannot displace the protected primary because it is easier to finish.
->
-> **Diagnostic READY, not decisive prediction:** `DE-AMP-DIAGNOSTIC`. Re-solve the CMB-calibrated amplitude
-> with GU's own full `D_M(z_*)`, then return an official-H46B likelihood adjudication. This is data hygiene and
-> compatibility testing, not a native distinctive prediction.
->
-> **Passive monitor:** `DE-F1-TRIPWIRE`. It is a one-sided falsification ceiling, never a positive prediction.
-> W226 supersedes W223 for the firing statistic: the current two-sigma edge margin is `+1.11`; the old `+0.032`
-> number was one DESY5 central-value margin. The evidence source is
-> `explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md` plus `tests/W226_de_tripwire.py`, not the
-> config constant. No hourly run occurs until verified new data arrive.
->
-> **Closed or gated work:** the native mirror route is resolved as a no-go by W234/W237/W240/W241/W243;
-> GU-002 packages that result. The exotic nonextremal corridor is mathematically open but GU-non-native.
-> Closed-interior `PHYSICAL-C` is excluded. GU may run a clearly grade-capped `PHYSICAL-C-CONDITIONAL` study
-> under an explicit adapter assumption now. A physical boundary-conditioned construction remains `GATED_P2C`
-> on a frozen firewall-adapter return. Proposition 1 and the favorable W235 record bit remain explicit live conditions.
+> Closed-interior `PHYSICAL-C` is excluded. `PHYSICAL-C-CONDITIONAL` may test downstream sufficiency under an
+> explicit adapter assumption. The physical boundary construction remains `GATED_P2C`. The native mirror route
+> is a no-go under W234/W237/W240/W241/W243, and GU-002 packages that result. The exotic nonextremal corridor is
+> mathematically open but GU-non-native. Proposition 1 and the favorable W235 record bit remain live conditions.
 > `bar(b)` and `H59` remain OPEN.
 >
-> **Collision rule:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
-> and `GUS` run IDs plus semantic dated research filenames. The daily steward alone writes the portfolio and
-> this top block. Hourly runs own only their declared research/test/proof paths and ignored run receipt.
+> **Lane 2 current leader:** `DE-AMP-DIAGNOSTIC`, a data-hygiene and compatibility audit rather than a decisive
+> prediction. `PRED-FLAVOR-RANK` and `PRED-NORM-RANK` are `RESOLVED_NO_GO` at the current construction grade;
+> two dimensionless flavor ratios and the absence of a native absolute scale block their zero-parameter routes.
+> `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` now live here and remain gated on new native
+> structure frozen before target-data inspection. `DE-F1-TRIPWIRE` is a passive one-sided falsification monitor,
+> never a positive prediction. Its current two-sigma edge margin is `+1.11`; `+0.032` is the superseded DESY5
+> central-value margin. Evidence: `explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md` and
+> `tests/W226_de_tripwire.py`.
 >
-> **Paper ceiling:** `observer-value-selection-theorem` is locally ready for external eyes, and
-> `located-not-forced` has been judged arXiv-ready internally while remaining Joe-deferred. They are
-> `NEEDS_JOE`, not hourly polish. See `lab/process/paper-hardening-inventory.md`.
+> **Lane 3 current leader:** `PROOF-STABLE-KERNELS`. First establish the default-target green baseline, integrate
+> the sorry-free and axiom-free `R4_TwoArena` certificate, retire the un-typechecked A1 duplicate, and only then
+> specify the W243/GU-002 finite kernel. Lean is a method in Lane 3, not its own lane, and never rises merely
+> because it is easier. `observer-value-selection-theorem` is locally ready for external eyes and
+> `located-not-forced` is internally arXiv-ready but Joe-deferred. Both remain `NEEDS_JOE`, not routine polish.
 >
-> **Paper discovery seam:** every credible new paper opportunity becomes a cheap Drafting Factory seed as soon
-> as it is recognized. Drafting Factory owns cross-paper priority and production capacity. Only when it has room
-> and selects a seed does it send GU a scoped mailbox proposal for the exact source hardening needed. That
-> request is a valid steward signal, not a command or a claim-grade change.
+> **Lane A controls:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
+> and `GUS` run IDs plus semantic dated filenames. Lane A alone routinely writes the portfolio and this block.
+> Every credible paper opportunity becomes a cheap Drafting Factory seed immediately. Drafting Factory owns
+> paper priority and capacity; a capacity-backed source-hardening request is a valid signal, not a command or
+> claim-grade change.
 
 > **[SUPERSEDED as the hourly queue by the steward-maintained portfolio above; retained as W239/W242 prediction-workstream history.]**
 > **2026-07-15 W242 OPERATIONAL QUEUE (HISTORICAL).**

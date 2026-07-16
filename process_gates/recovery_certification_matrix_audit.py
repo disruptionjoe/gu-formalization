@@ -31,10 +31,13 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
         cls.items = cls.matrix["items"]
         cls.by_id = {item["id"]: item for item in cls.items}
         cls.lane = next(
-            lane
-            for lane in cls.portfolio["lanes"]
-            if lane["id"] == "RECOVERY-CERTIFICATION"
+            item
+            for item in cls.portfolio["work_items"]
+            if item["id"] == "RECOVERY-CERTIFICATION"
         )
+        cls.portfolio_by_id = {
+            item["id"]: item for item in cls.portfolio["work_items"]
+        }
 
     def test_exact_contract_plus_seven_conditions(self) -> None:
         expected = {
@@ -168,14 +171,20 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
     def test_portfolio_consumes_the_assessment_without_opening_gates(self) -> None:
         internal = {item["id"]: item for item in self.lane["internal_work_items"]}
         self.assertEqual("lab/process/recovery-certification-matrix.json", self.lane["assessment_source"])
-        self.assertTrue(set(self.by_id).issubset(internal))
-        self.assertEqual({"NO-GO-SCOPE-CHALLENGE"}, set(internal) - set(self.by_id))
+        lane_one_matrix_items = set(self.by_id) - {
+            "FIXED-NATIVE-QUANTITY",
+            "BLIND-QUANTITATIVE-CONFRONTATION",
+        }
+        self.assertTrue(lane_one_matrix_items.issubset(internal))
+        self.assertEqual({"NO-GO-SCOPE-CHALLENGE"}, set(internal) - lane_one_matrix_items)
         self.assertEqual("READY", internal["NO-GO-SCOPE-CHALLENGE"]["state"])
         self.assertIn("HISTORY_AUDIT_READY", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
         self.assertIn("three-swing sequence", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
         self.assertEqual("GATED_P2C", internal["ADAPTER-RETURN-CERTIFICATION"]["state"])
-        self.assertEqual("GATED_NEW_STRUCTURE", internal["FIXED-NATIVE-QUANTITY"]["state"])
-        self.assertEqual("GATED_FIXED_QUANTITY", internal["BLIND-QUANTITATIVE-CONFRONTATION"]["state"])
+        self.assertEqual("2", self.portfolio_by_id["FIXED-NATIVE-QUANTITY"]["lane_id"])
+        self.assertEqual("GATED_NEW_STRUCTURE", self.portfolio_by_id["FIXED-NATIVE-QUANTITY"]["state"])
+        self.assertEqual("2", self.portfolio_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]["lane_id"])
+        self.assertEqual("GATED_FIXED_QUANTITY", self.portfolio_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]["state"])
         self.assertEqual(
             "BRANCH_NO_GO_DEFENSE_DUE",
             internal["GR-DYNAMICAL-BENCHMARKS"]["state"],

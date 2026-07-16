@@ -48,5 +48,5 @@ Runbooks:
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.
 - `paper-hardening-inventory.md` - paper portfolio, external-eyes ceiling, and overlap gates.
-- `research-portfolio.json` - machine-readable GU lane states, dependencies, scores, and next swings.
+- `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.

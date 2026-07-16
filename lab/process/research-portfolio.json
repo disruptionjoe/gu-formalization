@@ -1,7 +1,7 @@
 {
-  "schema_version": "1.0",
-  "updated_at": "2026-07-15",
-  "artifact_role": "GU-owned operational research portfolio. It does not change claim status, canon, proof grade, verdict, or public posture.",
+  "schema_version": "2.0",
+  "updated_at": "2026-07-16",
+  "artifact_role": "GU-owned operational research portfolio with three numbered Progress lanes and one lettered Stewardship lane. It does not change claim status, canon, proof grade, verdict, or public posture.",
   "authority": {
     "research_priority_owner": "gu-formalization",
     "scheduling_and_concurrency_owner": "CapacityOS",
@@ -15,13 +15,21 @@
   "selection_contract": {
     "score_scale": "Each component is an integer from 1 to 5. Higher impact, information gain, readiness, distinctiveness, and time sensitivity help. Higher effort, wall risk, and duplication risk hurt.",
     "score_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
-    "primary_lane_id": "RECOVERY-CERTIFICATION",
-    "reserve_lane_id": "PROOF-STABLE-KERNELS",
-    "active_program_pivot": "Recovery certification is the operational North Star after the flavor-rank and normalization-rank prediction routes reached reproducible negative endpoints at the current construction grade. Prediction extraction reopens only when a new native survivor supplies a frozen relation.",
-    "deepest_open_dependency_lane_id": "DEP-NATIVE-SOURCE-DATUM",
+    "progress_lane_ids": ["1", "2", "3"],
+    "administrative_lane_ids": ["A"],
+    "protected_north_star_lane_id": "1",
+    "standard_stewardship_lane_id": "A",
+    "active_progress_lane_id": "1",
+    "active_program_pivot": "Lane 1 is GU truth testing: adversarially test or falsify whether one frozen GU construction can recover the required physical content without sector-specific adjustment. Prediction extraction and result hardening remain separate purpose-bearing Progress lanes rather than pseudo-lanes competing with the North Star.",
+    "deepest_open_dependency_work_item_id": "DEP-NATIVE-SOURCE-DATUM",
     "deepest_open_problem_posture": "The Y14 F_A C2 spectral-section/source-action datum and native normalization remain open and load-bearing. Joe transferred construction of that frontier to possibility-to-capability, so GU tracks but does not hourly attack it unless a frozen return or direct priority change occurs.",
-    "max_active_technical_lanes": 1,
-    "primary_is_protected_from_difficulty_demotion": true,
+    "max_concurrent_progress_runs": 1,
+    "lane_one_is_protected_from_difficulty_demotion": true,
+    "lane_purpose_rule": "A lane is a durable purpose-bearing execution container, not each dependency, monitor, gate, closed branch, workstream, or work item. Numbered lanes are Progress. Lettered lanes are administrative. Lane A is standard Stewardship.",
+    "north_star_rule": "Lane 1 always owns the charter-level North Star. Its purpose is not replaced by a byproduct, easier result, larger commit count, or temporary scheduling choice. Only actual falsification or Joe's explicit charter change can change that purpose.",
+    "scheduling_rule": "Lane number expresses purpose, not an automatic every-run schedule. Each Progress run selects the worthiest eligible work item across Lanes 1 through 3 using current evidence, dependencies, collision state, and the declared score. Selecting Lane 2 or Lane 3 does not demote or replace Lane 1.",
+    "end_of_run_rerank_rule": "After execution and validation but before the receipt, re-rank eligible work inside the lane just worked, then re-rank Lanes 1 through 3 by their strongest eligible work. Append both rankings to the Next-Work Handoff. Lane A never enters the scientific ranking.",
+    "durable_priority_rule": "Hourly re-ranking is advisory. Lane A Stewardship reconciles valid signals into this portfolio and the NEXT-STEPS front door.",
     "valid_switch_signals": [
       "reproducible_falsifier",
       "dependency_unblocked",
@@ -46,6 +54,8 @@
     "READY",
     "WAITING_EXTERNAL",
     "GATED_P2C",
+    "GATED_NEW_STRUCTURE",
+    "GATED_FIXED_QUANTITY",
     "MONITOR",
     "PARKED",
     "RESOLVED_NO_GO",
@@ -120,9 +130,56 @@
     "same hard blocker survives three daily steward reviews",
     "concurrent work cannot be reconciled without Joe"
   ],
-  "lanes": [
+  "lane_catalog": [
+    {
+      "id": "1",
+      "title": "GU truth testing",
+      "lane_type": "progress",
+      "purpose_priority": "protected_north_star",
+      "state": "ACTIVE",
+      "hourly_eligible": true,
+      "purpose": "Attack the highest-level GU research claim adversarially: determine whether one frozen GU construction can recover a physical quantum sector, the Standard Model, Einstein dynamics, and cosmological perturbations without sector-by-sector repair, and falsify or downgrade it honestly when it cannot.",
+      "current_top_work_item_id": "RECOVERY-CERTIFICATION",
+      "selection_note": "Difficulty never demotes this lane. A different lane may receive the next run when its strongest eligible item has higher immediate information value, time sensitivity, or dependency leverage, without changing Lane 1's protected purpose."
+    },
+    {
+      "id": "2",
+      "title": "Prediction extraction and computation",
+      "lane_type": "progress",
+      "purpose_priority": "scientific_output",
+      "state": "READY",
+      "hourly_eligible": true,
+      "purpose": "Discover, derive, freeze, compute, and confront genuinely GU-native quantitative predictions and falsification tripwires, with native, imported, fitted, and free quantities kept separate.",
+      "current_top_work_item_id": "DE-AMP-DIAGNOSTIC",
+      "selection_note": "Negative rank calculations are successful endpoints. A prediction route reopens only from new native structure frozen before target-data inspection."
+    },
+    {
+      "id": "3",
+      "title": "Result hardening and publication readiness",
+      "lane_type": "progress",
+      "purpose_priority": "scientific_output",
+      "state": "READY",
+      "hourly_eligible": true,
+      "purpose": "Harden valuable mathematical and physical results through proofs, tests, Lean where appropriate, citation and novelty checks, reproducibility, honest scope, and source packets ready for Drafting Factory or external eyes.",
+      "current_top_work_item_id": "PROOF-STABLE-KERNELS",
+      "selection_note": "Finishability alone never moves this lane above Lane 1. New paper seeds route immediately to Drafting Factory, and GU hardens a selected seed when that source work is scientifically valuable or a capacity-backed request supplies a valid signal."
+    },
+    {
+      "id": "A",
+      "title": "Stewardship",
+      "lane_type": "administrative",
+      "purpose_priority": "standard_stewardship",
+      "state": "ACTIVE",
+      "hourly_eligible": false,
+      "purpose": "Maintain portfolio truth, reconcile run handoffs, process packets and mailboxes, repair integrity and navigation drift, route paper seeds, and emit only deduplicated high-signal JoeOps notes.",
+      "current_top_work_item_id": "DAILY-PORTFOLIO-RECONCILIATION",
+      "selection_note": "Lane A is selected only by Stewardship workflows. It does not compete with numbered Progress lanes and its output is not scientific progress."
+    }
+  ],
+  "work_items": [
     {
       "id": "RECOVERY-CERTIFICATION",
+      "lane_id": "1",
       "title": "Test one frozen GU construction against quantum, Standard Model, gravitational, and cosmological recovery",
       "track": "north_star",
       "state": "ACTIVE",
@@ -136,16 +193,16 @@
       "construction_fork": "Use one frozen set of GU-native objects, equations, parameters, quotient data, and explicit conditional assumptions. Compare that construction against standard physics benchmarks without silently replacing GU objects by familiar effective-field-theory objects or adjusting a different construction in each sector.",
       "next_swing": "Run NO-GO-SCOPE-CHALLENGE. First complete the non-counting history audit for the current GR, cosmology, and Standard Model no-gos, checking whether the same obstruction was previously encountered and cleared. Then give each no-go at least three broad construction-diverse swings under the registered stop rule. After the first scope-and-fork round, interleave the QM-PHYSICAL-SECTOR conditional-sufficiency certificate before later rescue rounds unless new evidence changes the ranking.",
       "kill_condition": "If recovering the tested sectors requires sector-specific adjustable identifications, couplings, boundary conditions, normalizations, or incompatible versions of the construction, downgrade the unified-recovery claim at the current grade and record exactly what weaker compatibility or embedding result survives.",
-      "switch_condition": "After every swing, re-rank the internal work items. Keep this as the single active lane unless every unblocked internal item has reached an endpoint or gate, or a valid portfolio switch signal creates a demonstrably higher-information active frontier.",
+      "switch_condition": "After every swing, re-rank the recovery components inside Lane 1, then compare Lane 1's strongest eligible work with the strongest eligible work in Lanes 2 and 3. A scheduling switch does not demote Lane 1's protected purpose.",
       "forbidden_shortcut": "Subgroup containment, field location, matching names, parameter fitting, background-curve agreement, or sector-specific ansatz choices do not establish physical recovery. Compatibility is not derivation, and an imported standard model is not a GU prediction.",
       "internal_rerank_contract": {
-        "one_lane_not_sublanes": true,
+        "one_workstream_not_sublanes": true,
         "one_coherent_work_item_per_hour": true,
         "continue_linked_checkpoint_if_first_closes_quickly": true,
         "rerank_after_every_swing": true,
         "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
-        "handoff_rule": "The current run reads the latest Next-Work Handoff, executes the highest-ranked unblocked internal item unless new evidence invalidates it, and writes a fresh internal ranking before its receipt.",
-        "extra_effort_rule": "A maintainer-directed or separately scoped automation may add effort to one internal item without creating another active portfolio lane or silently changing portfolio authority."
+        "handoff_rule": "The current run reads the latest Next-Work Handoff, executes the highest-ranked unblocked recovery component unless new evidence invalidates it, writes a fresh Lane 1 internal ranking, and then participates in the cross-lane ranking before its receipt.",
+        "extra_effort_rule": "A maintainer-directed or separately scoped automation may add effort to one work item without creating another lane or silently changing portfolio authority."
       },
       "no_go_defense_contract": {
         "protocol": "lab/process/recovery-no-go-defense-protocol.md",
@@ -240,35 +297,14 @@
           "next_swing": "When p2c returns a frozen packet, verify provenance, independence from the GU result it is meant to enable, exact interface typing, branch assumptions, and whether the same frozen GU construction consumes it without sector-specific repair.",
           "kill_condition": "A circular adapter, an interface mismatch, or an adapter that works only after retuning the GU construction fails the independent-adapter condition.",
           "forbidden_shortcut": "GU may audit a frozen p2c return but must not construct the adapter here, assume that a conditional consequence proves it exists, or erase Proposition 1 and record-bit conditions."
-        },
-        {
-          "id": "FIXED-NATIVE-QUANTITY",
-          "title": "Derive at least one presently free quantity",
-          "state": "GATED_NEW_STRUCTURE",
-          "priority_score": 19,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 1},
-          "depends_on": ["RECOVERY-CONTRACT"],
-          "next_swing": "On a new native constraint or normalization datum, identify a parameter currently free in the relevant benchmark theory, derive it from the frozen construction, and freeze the relation before target-data inspection.",
-          "kill_condition": "Any independent coefficient, imported datum, fitted normalization, or post-data choice that can absorb the value kills the fixed-quantity claim.",
-          "forbidden_shortcut": "Do not count a reduced parameter space, a fitted best value, or a quotient invariant without an absolute prediction as fixing a quantity."
-        },
-        {
-          "id": "BLIND-QUANTITATIVE-CONFRONTATION",
-          "title": "Freeze and confront a blind distinctive prediction",
-          "state": "GATED_FIXED_QUANTITY",
-          "priority_score": 21,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 3, "effort": 4, "wall_risk": 3, "duplication_risk": 1},
-          "depends_on": ["RECOVERY-CONTRACT", "FIXED-NATIVE-QUANTITY"],
-          "next_swing": "Predeclare the native observable, numerical relation, uncertainty treatment, competitor baseline, and kill threshold, then confront independent holdout data without recalibration.",
-          "kill_condition": "Calibration to the target, equivalent freedom in a standard effective theory, a failed holdout, or a post-hoc reformulation kills the blind distinctive prediction claim.",
-          "forbidden_shortcut": "Compatibility, a one-sided survival tripwire, and a scheduled future dataset do not by themselves constitute a blind GU prediction."
         }
       ]
     },
     {
       "id": "PRED-FLAVOR-RANK",
+      "lane_id": "2",
       "title": "Count basis-invariant Yukawa freedom",
-      "track": "north_star",
+      "track": "prediction",
       "state": "RESOLVED_NO_GO",
       "owner": "gu-formalization",
       "hourly_eligible": false,
@@ -285,8 +321,9 @@
     },
     {
       "id": "PRED-NORM-RANK",
+      "lane_id": "2",
       "title": "Find normalization and field-rescaling invariants",
-      "track": "north_star",
+      "track": "prediction",
       "state": "RESOLVED_NO_GO",
       "owner": "gu-formalization",
       "hourly_eligible": false,
@@ -303,8 +340,9 @@
     },
     {
       "id": "PRED-FLAVOR-OBS",
+      "lane_id": "2",
       "title": "Confront a frozen flavor invariant",
-      "track": "north_star",
+      "track": "prediction",
       "state": "RESOLVED_NO_GO",
       "owner": "gu-formalization plus phenomenology packet",
       "hourly_eligible": false,
@@ -318,7 +356,40 @@
       "forbidden_shortcut": "No data inspection before the relation and uncertainty treatment are frozen."
     },
     {
+      "id": "FIXED-NATIVE-QUANTITY",
+      "lane_id": "2",
+      "title": "Derive at least one presently free quantity",
+      "track": "prediction_gate",
+      "state": "GATED_NEW_STRUCTURE",
+      "owner": "gu-formalization",
+      "hourly_eligible": false,
+      "priority_score": 19,
+      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 1},
+      "depends_on": ["RECOVERY-CONTRACT"],
+      "next_swing": "On a new native constraint or normalization datum, identify a parameter currently free in the relevant benchmark theory, derive it from the frozen construction, and freeze the relation before target-data inspection.",
+      "kill_condition": "Any independent coefficient, imported datum, fitted normalization, or post-data choice that can absorb the value kills the fixed-quantity claim.",
+      "switch_condition": "Activate only when new native structure removes a presently free quantity before target-data inspection.",
+      "forbidden_shortcut": "Do not count a reduced parameter space, a fitted best value, or a quotient invariant without an absolute prediction as fixing a quantity."
+    },
+    {
+      "id": "BLIND-QUANTITATIVE-CONFRONTATION",
+      "lane_id": "2",
+      "title": "Freeze and confront a blind distinctive prediction",
+      "track": "prediction_gate",
+      "state": "GATED_FIXED_QUANTITY",
+      "owner": "gu-formalization plus phenomenology packet",
+      "hourly_eligible": false,
+      "priority_score": 21,
+      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 3, "effort": 4, "wall_risk": 3, "duplication_risk": 1},
+      "depends_on": ["RECOVERY-CONTRACT", "FIXED-NATIVE-QUANTITY"],
+      "next_swing": "Predeclare the native observable, numerical relation, uncertainty treatment, competitor baseline, and kill threshold, then confront independent holdout data without recalibration.",
+      "kill_condition": "Calibration to the target, equivalent freedom in a standard effective theory, a failed holdout, or a post-hoc reformulation kills the blind distinctive prediction claim.",
+      "switch_condition": "Activate only after FIXED-NATIVE-QUANTITY yields a frozen data-blind relation.",
+      "forbidden_shortcut": "Compatibility, a one-sided survival tripwire, and a scheduled future dataset do not by themselves constitute a blind GU prediction."
+    },
+    {
       "id": "DE-AMP-DIAGNOSTIC",
+      "lane_id": "2",
       "title": "Audit the CMB-calibrated dark-energy amplitude",
       "track": "diagnostic",
       "state": "READY",
@@ -329,11 +400,12 @@
       "depends_on": [],
       "next_swing": "Re-solve theta-star with GU's own full D_M(z-star), including the high-redshift tail, then return a blind official-H46B likelihood adjudication.",
       "kill_condition": "If the corrected canonical amplitude remains strongly disfavored, close the positive raw-BAO amplitude leg. If it moves, report the shift without calling it a new prediction.",
-      "switch_condition": "Close after one complete normalization and likelihood audit. It does not outrank the protected recovery-certification lane without a new valid priority signal.",
+      "switch_condition": "Close after one complete normalization and likelihood audit. It does not outrank protected Lane 1 without a new valid priority signal or a current cross-lane ranking that makes it the strongest eligible swing.",
       "forbidden_shortcut": "This is data hygiene and compatibility testing, not a decisive or distinctive GU prediction. Only H46B-verified likelihood inputs may seed the calculation."
     },
     {
       "id": "DE-F1-TRIPWIRE",
+      "lane_id": "2",
       "title": "Monitor the one-sided dark-energy amplitude ceiling",
       "track": "monitor",
       "state": "MONITOR",
@@ -351,8 +423,9 @@
     },
     {
       "id": "PROOF-STABLE-KERNELS",
+      "lane_id": "3",
       "title": "Formalize stable finite proof kernels",
-      "track": "reserve_maintenance",
+      "track": "result_hardening",
       "state": "READY",
       "owner": "gu-formalization",
       "hourly_eligible": true,
@@ -361,11 +434,12 @@
       "depends_on": [],
       "next_swing": "First establish a fresh default-target lake build baseline through the required host-local wrapper. Then fold the already-written sorry-free and axiom-free R4_TwoArena certificate into the default target and retire the un-typechecked A1 draft duplicate so it cannot be cited as a certificate. Only after those cheap integrity wins specify the W243/GU-002 extremal-weight kernel.",
       "kill_condition": "If the proposed Lean statement requires hiding representation faithfulness, physical interpretation, full Sp(32,32;H) construction, or interacting QFT as an axiom, leave it prose/Python and choose the next eligible finite kernel.",
-      "switch_condition": "Use as reserve when the primary lane is genuinely blocked or after a primary decision-grade swing. Never promote it because it is easier to finish.",
+      "switch_condition": "Select when Lane 3 wins the cross-lane ranking through substantive hardening value, a stable-kernel integrity need, or a capacity-backed paper signal. Never promote it because it is easier to finish.",
       "forbidden_shortcut": "Lean verifies deduction from explicit premises. It does not prove that the premises are GU's physical realization."
     },
     {
       "id": "DEP-NATIVE-SOURCE-DATUM",
+      "lane_id": "1",
       "title": "Track the Y14 F_A spectral-section/source-action datum and native normalization",
       "track": "deepest_theoretical_dependency",
       "state": "GATED_P2C",
@@ -382,6 +456,7 @@
     },
     {
       "id": "DEP-PROP1",
+      "lane_id": "1",
       "title": "Track the positive-majorant definition of good-stable",
       "track": "dependency",
       "state": "GATED_P2C",
@@ -397,6 +472,7 @@
     },
     {
       "id": "DEP-W235-RECORD",
+      "lane_id": "1",
       "title": "Track the favorable record-conserved bit",
       "track": "dependency",
       "state": "MONITOR",
@@ -412,6 +488,7 @@
     },
     {
       "id": "PHYSICAL-C-CONDITIONAL",
+      "lane_id": "1",
       "title": "Study boundary-conditioned physical-C consequences under an explicit adapter assumption",
       "track": "conditional_byproduct",
       "state": "READY",
@@ -428,6 +505,7 @@
     },
     {
       "id": "PHYSICAL-C-BOUNDARY",
+      "lane_id": "1",
       "title": "Construct a boundary-conditioned physical metric and observable",
       "track": "north_star_gated",
       "state": "GATED_P2C",
@@ -444,6 +522,7 @@
     },
     {
       "id": "MIRROR-NATIVE-ROUTE",
+      "lane_id": "1",
       "title": "Native chirality-safe mirror compactification",
       "track": "closed_branch",
       "state": "RESOLVED_NO_GO",
@@ -460,8 +539,9 @@
     },
     {
       "id": "COSMO-CROSS-OBSERVABLE",
+      "lane_id": "2",
       "title": "Derive a native expansion-growth relation",
-      "track": "north_star_gated",
+      "track": "prediction_gated",
       "state": "PARKED",
       "owner": "gu-formalization plus phenomenology packet",
       "hourly_eligible": false,
@@ -475,8 +555,9 @@
     },
     {
       "id": "PAPER-EXTERNAL-EYES",
+      "lane_id": "3",
       "title": "Hold ready papers at the external-review ceiling",
-      "track": "reserve_maintenance",
+      "track": "result_hardening",
       "state": "NEEDS_JOE",
       "owner": "gu-formalization locally; external action is Joe-gated",
       "hourly_eligible": false,
@@ -491,8 +572,9 @@
     },
     {
       "id": "PAPER-UV-GRAVITY",
+      "lane_id": "3",
       "title": "Bank the stationary-vacuum gravity survivor",
-      "track": "reserve_maintenance",
+      "track": "result_hardening",
       "state": "PARKED",
       "owner": "gu-formalization",
       "hourly_eligible": false,
@@ -500,10 +582,66 @@
       "score": {"impact": 4, "information_gain": 3, "readiness": 3, "distinctiveness": 4, "time_sensitivity": 1, "effort": 3, "wall_risk": 3, "duplication_risk": 2},
       "depends_on": [],
       "current_authority": "W225/W236/W238 make the projected-shadow cheap read structurally clear for the stationary-vacuum Schwarzschild and Kerr class. This strengthens compatibility, not distinctiveness.",
-      "next_swing": "Use the paper-hardening inventory to close the highest referee-facing theorem or novelty gap only when the protected prediction lane is blocked or complete.",
+      "next_swing": "Use the paper-hardening inventory to close the highest referee-facing theorem or novelty gap when Lane 3 wins the cross-lane selection rule.",
       "kill_condition": "If the result is standard Willmore or quadratic-gravity structure with no new theorem-level assembly, narrow or merge the paper rather than multiplying publications.",
       "switch_condition": "Activate as a bounded byproduct only after an explicit overlap and novelty gate.",
       "forbidden_shortcut": "Do not call compatibility with Schwarzschild or Kerr a novel GU prediction."
+    },
+    {
+      "id": "DAILY-PORTFOLIO-RECONCILIATION",
+      "lane_id": "A",
+      "title": "Reconcile research priority and lane health",
+      "track": "stewardship",
+      "state": "ACTIVE",
+      "owner": "daily GU steward",
+      "hourly_eligible": false,
+      "depends_on": [],
+      "next_swing": "Read new Progress handoffs and valid external signals, reconcile ranking inside each numbered lane and across Lanes 1 through 3, then update the portfolio and NEXT-STEPS only when evidence warrants.",
+      "kill_condition": "None. Close no-worthy-change when no valid signal or coordination drift exists.",
+      "switch_condition": "Runs only in Stewardship mode and never enters scientific ranking.",
+      "forbidden_shortcut": "Do not convert activity, difficulty, finishability, or a handoff recommendation into a durable priority change without the declared signal test."
+    },
+    {
+      "id": "PACKET-AND-MAILBOX-INTAKE",
+      "lane_id": "A",
+      "title": "Process frozen packets and mailbox proposals",
+      "track": "stewardship",
+      "state": "READY",
+      "owner": "daily GU steward",
+      "hourly_eligible": false,
+      "depends_on": [],
+      "next_swing": "Validate provenance, ownership, construction fork, grade, conditions, and native-versus-forced boundaries before admitting any returned packet as a portfolio signal.",
+      "kill_condition": "Reject or return packets that fail provenance, smuggle a sovereign judgment, or flatten an assumption into a result.",
+      "switch_condition": "A valid frozen return may create a numbered-lane priority signal; the intake work itself remains Lane A.",
+      "forbidden_shortcut": "Mailbox prose is a proposal, not a packet, command, or scientific result."
+    },
+    {
+      "id": "INTEGRITY-AND-NAVIGATION-MAINTENANCE",
+      "lane_id": "A",
+      "title": "Repair integrity, navigation, and steering drift",
+      "track": "stewardship",
+      "state": "READY",
+      "owner": "daily GU steward",
+      "hourly_eligible": false,
+      "depends_on": [],
+      "next_swing": "Repair genuine inconsistency among the portfolio, front door, receipts, dependencies, and governed status surfaces without changing scientific truth by implication.",
+      "kill_condition": "Stop when the proposed repair would require a verdict, claim-status, canon, or public-posture change outside its workflow.",
+      "switch_condition": "Run only on observed drift or integrity failure.",
+      "forbidden_shortcut": "Do not manufacture maintenance to keep Lane A busy."
+    },
+    {
+      "id": "PAPER-SEED-ROUTING",
+      "lane_id": "A",
+      "title": "Route paper seeds and capacity-backed hardening requests",
+      "track": "stewardship",
+      "state": "READY",
+      "owner": "daily GU steward with Drafting Factory seam",
+      "hourly_eligible": false,
+      "depends_on": [],
+      "next_swing": "Route complete paper_seed_proposal payloads to Drafting Factory and treat returned capacity-backed source-hardening requests as possible Lane 3 signals.",
+      "kill_condition": "Do not route a seed that lacks source grade, evidence pointers, conditionalities, overlap candidates, or the no-external-action posture.",
+      "switch_condition": "A valid Drafting Factory request may reweight Lane 3 but cannot command GU or change scientific grade.",
+      "forbidden_shortcut": "Do not create a parallel GU drafting queue or treat seed routing as paper production."
     }
   ]
 }

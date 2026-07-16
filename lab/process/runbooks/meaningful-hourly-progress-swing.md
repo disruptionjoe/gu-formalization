@@ -9,7 +9,7 @@ portfolio: lab/process/research-portfolio.json
 
 # Meaningful Hourly Progress Swing
 
-This is the default GU hourly Progress run. It executes one coherent research swing selected from the steward-maintained portfolio. It replaces Lean-only hourly selection and tiny bounded-slice behavior.
+This is the default GU hourly Progress run. It executes one coherent research swing selected from the steward-maintained four-lane portfolio. Lanes 1 through 3 are Progress lanes. Lane A is Stewardship and is never selected by this runbook. This replaces Lean-only hourly selection and tiny bounded-slice behavior.
 
 The target is one meaningful research delta per run, not one file, one lemma, or one commit.
 
@@ -20,18 +20,20 @@ multi-lane fanout remains maintainer-directed through `five-lane-frontier-run.md
 
 1. Load the standard CapacityOS Progress workflow, GU steward context, and local instructions.
 2. Create the run plan before research work and inspect recent open run plans for collisions.
-3. Read `lab/process/research-portfolio.json`.
-4. Select the protected primary lane if it is `ACTIVE` or `READY` and its dependencies permit work.
-5. If the selected lane defines an `assessment_source`, read that artifact before ranking its internal work. If it defines `internal_work_items`, also read the most recent materially relevant `Next-Work Handoff`, recheck both against current dependencies and collisions, and select the highest-ranked unblocked internal item. These are adaptive work items inside one lane, not separately active portfolio lanes.
-6. Use the reserve lane only when the primary is genuinely blocked, waiting on external state, or has just reached a decision-grade endpoint. Record the exact reason.
-7. Never select `GATED_P2C`, `WAITING_EXTERNAL`, `MONITOR`, `PARKED`, `RESOLVED_NO_GO`, `PAPER_READY`, or `NEEDS_JOE` work as an hourly technical target.
+3. Read `lab/process/research-portfolio.json`, including the `lane_catalog`, `selection_contract`, and `work_items`.
+4. Read the most recent materially relevant `Next-Work Handoff`. Recheck its candidates against current dependencies, collisions, gates, and repo state.
+5. Build the eligible set from work items in numbered Lanes 1, 2, and 3. Never select Lane A in Progress mode.
+6. Within each numbered lane, identify its strongest eligible work item using the declared score, current evidence, dependencies, kill and switch conditions, and any adaptive internal ranking. If the selected work item defines an `assessment_source`, read it before final selection. If it defines `internal_work_items`, select its highest-ranked unblocked component.
+7. Compare the three lane leaders and select the worthiest coherent swing. Lane 1 always retains the protected North-Star purpose, but lane number is not an automatic every-run schedule. Selecting Lane 2 or Lane 3 does not demote Lane 1.
+8. Never select `GATED_P2C`, `GATED_NEW_STRUCTURE`, `GATED_FIXED_QUANTITY`, `WAITING_EXTERNAL`, `MONITOR`, `PARKED`, `RESOLVED_NO_GO`, `PAPER_READY`, or `NEEDS_JOE` work as an hourly technical target.
+9. Difficulty, activity, finishability, or an easier proof are never sufficient reasons to move work ahead of Lane 1. A non-Lane-1 selection must be justified by current information value, time sensitivity, dependency leverage, collision avoidance, a decision-grade Lane-1 endpoint, or another valid portfolio signal.
 
 When `NO-GO-SCOPE-CHALLENGE` is the selected internal item, also read
 `lab/process/recovery-no-go-defense-protocol.md` and
 `lab/process/recovery-no-go-defense-register.json`. Select the highest-information pending history audit or
 broad swing under that register. The branch-local no-go remains evidence throughout the challenge.
 
-The hourly run does not mutate or authoritatively reprioritize the portfolio. It does re-rank internal work items and recommend the next top-level lane through the reusable CapacityOS handoff flow. The daily steward decides whether that evidence changes durable portfolio state.
+The hourly run does not mutate or authoritatively reprioritize the portfolio. It does re-rank work inside the lane it used and then re-rank all three numbered lanes through the reusable CapacityOS handoff flow. The daily steward in Lane A decides whether that evidence changes durable portfolio state.
 
 ## A meaningful swing
 
@@ -148,15 +150,15 @@ On this Windows host, every GU Lean or Lake invocation must use `lab/automation/
 
 After execution and validation, but before the receipt, run the standard CapacityOS `rerank-next-work` flow and append its `Next-Work Handoff` to the run plan.
 
-For a lane with `internal_work_items`:
+1. Classify the current work item, and any selected adaptive component, with the flow's disposition vocabulary.
+2. Re-rank eligible work inside the lane just worked. When a work item has `internal_work_items`, rank those components first, then compare that workstream with the lane's other eligible work items.
+3. Record at most three within-lane candidates, explain why the first now deserves attention, and name the evidence that preserved or changed the order.
+4. Identify the strongest eligible work item in each of Lanes 1, 2, and 3. Re-rank those three lane leaders and record at most three cross-lane candidates.
+5. State explicitly whether the recommended next run stays in the current lane or switches lanes. A scheduling switch does not change Lane 1's protected purpose.
+6. Exclude Lane A from the scientific ranking. Route `steward reconciliation needed` to Lane A without treating it as Progress output.
+7. Leave durable portfolio edits to the daily steward.
 
-1. Classify the current internal item with the flow's disposition vocabulary.
-2. Re-rank eligible internal items before comparing top-level alternatives. Apply the lane's declared score, dependencies, kill conditions, and switch conditions.
-3. Rank at most three items, explain why the first now deserves attention, and name the evidence that preserved or changed the order.
-4. Recommend a top-level lane switch only when the current adaptive lane has no worthy unblocked item or a valid portfolio switch signal has fired.
-5. Leave durable portfolio edits to the daily steward.
-
-A maintainer-directed run or separately scoped automation may add effort to one internal item, but it must not silently create a second active lane, bypass a gate, or overwrite the hourly handoff.
+A maintainer-directed run or separately scoped automation may add effort to one work item, but it must not silently create another lane, bypass a gate, or overwrite the hourly handoff.
 
 ## Closeout
 
@@ -170,8 +172,9 @@ The receipt must name:
 - `priority_signal: none` or one valid signal;
 - `joe_signal: none` or the exact trigger;
 - `paper_seed_proposal: none` or the complete Drafting Factory seed payload discovered during the swing;
-- current lane and internal work-item disposition, when applicable;
-- ranked internal next work and recommended next top-level lane from the `Next-Work Handoff`;
+- current lane, work-item disposition, and adaptive component disposition when applicable;
+- ranked next work inside the lane just worked;
+- ranked Lane 1, Lane 2, and Lane 3 leaders plus the recommended next lane from the `Next-Work Handoff`;
 - commit and push status.
 
 A blocked run is useful only when it identifies the exact missing object and a lawful next test. Repeatedly reporting the same wall is not progress.

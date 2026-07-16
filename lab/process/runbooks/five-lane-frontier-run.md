@@ -11,7 +11,7 @@ updated_at: "2026-07-07"
 > **ROUTING (updated 2026-07-15, maintainer-directed).** This is the multi-lane divergent Progress run and
 > remains session-directed. Automated hourly Progress uses `meaningful-hourly-progress-swing.md`, which takes
 > one substantial, decision-grade swing from the steward-maintained portfolio. Lean verification is the
-> reserve lane, not the default objective. See `daily-research-portfolio-stewardship.md` for selection.
+> Lane 3 method, not the default objective. See `daily-research-portfolio-stewardship.md` for selection.
 >
 > **REGISTRY CONSUMPTION (prototype, 2026-07-07).** A divergent-progress lane that faces a genuine wall
 > should now draw its move from a source, in this order of provenness:

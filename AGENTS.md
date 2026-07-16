@@ -47,7 +47,19 @@ The explore/exploit binary hides a THIRD mode:
 
 **The tell (catch it in your own momentum):** the framing shifts from "can we force or kill the whole thing?" to "here is a clean result we can definitely finish, let us do that," while the North Star is merely hard, not dead. When you notice that shift, stop and re-aim at mode 2.
 
-**How to run both without losing the North Star** -- two tracks with a firewall, not a choice:
-- Track 1 = the North Star, the repo's standing posture (unconditional; force-or-falsify the big thing).
-- Track 2 = one branch that formalizes byproducts under EXPLICITLY DECLARED postulates (the conditional-theorem form: "X given S" never asserts S). It reports UP; it does not change the posture.
-- A Track-1 win collapses the branch back into the North Star. The branch de-risks and produces results; it is never the objective.
+**Standing lane contract:** a lane is a durable purpose-bearing execution container, not each dependency,
+monitor, gate, closed branch, workstream, or task.
+
+- Lane 1 = **GU truth testing**, the protected charter-level North Star. Attack the strongest GU claim
+  adversarially and force, falsify, or downgrade it honestly. Difficulty never demotes this purpose.
+- Lane 2 = **prediction extraction and computation**. Discover, derive, freeze, compute, and confront native
+  predictions and falsification tripwires without calibration leakage.
+- Lane 3 = **result hardening and publication readiness**. Harden useful results through proof, tests, Lean
+  where appropriate, novelty and citation checks, reproducibility, honest scope, and source packets.
+- Lane A = **Stewardship**. Maintain priority, integrity, packets, mailboxes, navigation, and paper-seed routing.
+  Lane A is administrative, never scientific Progress, and never competes in the numbered-lane ranking.
+
+Lane number expresses purpose, not an automatic every-run schedule. Hourly Progress selects the worthiest
+eligible work across Lanes 1 through 3. Selecting Lane 2 or Lane 3 does not replace Lane 1. After execution and
+validation but before the receipt, every hourly run re-ranks work inside the lane it used and then re-ranks the
+three numbered lanes through the standard `rerank-next-work` handoff. Lane A reconciles durable priority.

@@ -59,7 +59,12 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
             1,
         )[0]
         required = (
-            "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
+            "THREE PROGRESS LANES PLUS STEWARDSHIP",
+            "Lane 1, GU truth testing",
+            "Lane 2, prediction extraction and computation",
+            "Lane 3, result hardening and publication readiness",
+            "Lane A, Stewardship",
+            "rerank-next-work",
             "RECOVERY-CERTIFICATION",
             "RECOVERY-CONTRACT",
             "recovery-certification-matrix.json",

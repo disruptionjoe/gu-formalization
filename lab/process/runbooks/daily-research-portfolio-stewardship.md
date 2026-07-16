@@ -16,7 +16,7 @@ It does not authorize new scientific claims, claim-status changes, verdict chang
 ## Stable question
 
 ```text
-Given what GU learned since the last review, which one meaningful research lane should hourly Progress attack next, and what evidence would make us switch?
+Given what GU learned since the last review, what is the strongest eligible work inside each numbered Progress lane, which numbered lane should hourly Progress attack next, and what evidence would change either ranking?
 ```
 
 ## Required reads
@@ -40,19 +40,19 @@ Priority may change only on a valid scientific or dependency signal from this li
 - frozen packet returned by the owning repository;
 - official external data release;
 - integrity correction that changes the decision surface;
-- paper reaching or losing an external-review gate.
+- paper reaching or losing an external-review gate;
 - a capacity-backed Drafting Factory request for a specific source-hardening packet.
 
-Difficulty, activity volume, commit count, and ease of closure are not signals. A North-Star lane does not lose priority because a Lean or paper-hardening task is easier.
+Difficulty, activity volume, commit count, and ease of closure are not signals. Lane 1 retains the protected North-Star purpose even when Lane 2 or Lane 3 receives the next scheduled run. Lane A never competes in scientific ranking.
 
 ## Daily procedure
 
 1. Create the standard run plan and complete the recent-run collision check.
 2. Classify each new receipt as `no_priority_signal` or one of the valid signals above.
-3. Recompute every lane's score using the formula stored in the portfolio. The score is decision support, not an automatic scheduler.
-4. Preserve exactly one protected primary lane. Preserve at most one reserve or maintenance lane.
-5. Apply hysteresis. Keep the current primary unless a valid signal materially changes readiness, information value, ownership, or falsification status.
-6. Update lane state, dependencies, next swing, kill condition, and switch condition where the evidence requires it.
+3. Confirm the lane contract: Lane 1 is GU truth testing and the protected North Star; Lane 2 is prediction extraction and computation; Lane 3 is result hardening and publication readiness; Lane A is standard Stewardship. Dependencies, monitors, gates, closed branches, workstreams, and work items stay nested under those purposes rather than becoming new lanes.
+4. Re-rank eligible work inside each numbered lane using the stored formula and local switching rules. Then compare each lane's strongest eligible item and rank Lanes 1 through 3. The score is decision support, not an automatic scheduler.
+5. Apply hysteresis. Keep the existing scheduling order unless a valid signal materially changes readiness, information value, ownership, time sensitivity, dependency leverage, or falsification status. Never demote Lane 1's purpose because another lane is easier or currently scheduled.
+6. Reconcile the latest hourly within-lane and cross-lane handoffs. Update lane state, current top work item, work-item dependencies, next swing, kill condition, and switch condition where evidence requires it. Lane A performs this reconciliation but remains outside the scientific ranking.
    For every new branch-local recovery no-go, confirm that the non-counting history audit and the registered
    three-swing defense sequence exist in `lab/process/recovery-no-go-defense-register.json`. Do not mark a
    construction class exhausted from the first failed branch.
@@ -69,7 +69,7 @@ Difficulty, activity volume, commit count, and ease of closure are not signals. 
 - The exotic nonextremal charged corridor is mathematically open but GU-non-native.
 - The relevant GU escape is the boundary/firewall route owned by possibility-to-capability.
 - The no-go remains conditional on Proposition 1 and the favorable W235 record bit. Preserve both in summaries.
-- The deepest open theoretical dependency is the Y14 `F_A` C2 spectral-section/source-action datum plus native normalization. Joe transferred its construction to p2c. Track B prediction extraction is GU's operational North Star, not a claim that this deeper problem is solved.
+- The deepest open theoretical dependency is the Y14 `F_A` C2 spectral-section/source-action datum plus native normalization. Joe transferred its construction to p2c. Lane 1 truth testing is GU's protected operational North Star; Lane 2 prediction extraction is a separate scientific-output lane, not a claim that the deeper problem is solved.
 - The closed-interior `PHYSICAL-C` build is excluded. GU may study consequences under a precisely typed adapter assumption now, at a strict conditional grade. A physical construction claim still requires a frozen p2c return.
 - Conditional physical-sector sufficiency is GU-owned and executable now: assume a precisely typed adapter
   interface and test whether the same frozen GU construction yields the physical quotient, positive state space,
@@ -102,7 +102,7 @@ Only a Drafting Factory request backed by available production capacity is a GU 
 
 ## Shared-surface ownership
 
-- The daily steward is the only routine writer of `lab/process/research-portfolio.json` and the top operational block of `NEXT-STEPS.md`.
+- Lane A daily Stewardship is the only routine writer of `lab/process/research-portfolio.json` and the top operational block of `NEXT-STEPS.md`.
 - Hourly Progress writes its owned research artifact, test or proof artifact, and ignored run receipt. It does not edit the portfolio, `NEXT-STEPS.md`, or `CANON.md`.
 - `explorations/W227-gap-analysis-to-unconditional-2026-07-14.md` is historical input, not the live steering register.
 - `CANON.md` changes only through the claim-status or canon-promotion workflow.
@@ -126,4 +126,4 @@ Do not send new paper seeds to JoeOps. Drafting Factory receives and prioritizes
 
 ## No-worthy-change close
 
-If no valid signal occurred, leave the priority order unchanged. Repair only genuine coordination drift, record a compact no-priority-change receipt, and close. A daily rewrite with no evidence change is thrashing, not stewardship.
+If no valid signal occurred, preserve both the within-lane and cross-lane order. Repair only genuine coordination drift, record a compact no-priority-change receipt, and close. A daily rewrite with no evidence change is thrashing, not stewardship.

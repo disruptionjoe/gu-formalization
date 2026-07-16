@@ -4,24 +4,24 @@ status: canon
 doc_type: runbook
 scope: repo-local
 created: 2026-07-07
-updated: 2026-07-15
+updated: 2026-07-16
 ledger: lab/process/lean-verification-lane-LEDGER.md
 ---
 
 # Lean Verification Run
 
-The reserve convergent-hardening run type. Its job is to turn already-stable finite theorems into
+The Lane 3 convergent-hardening run type. Its job is to turn already-stable finite theorems into
 machine-checked Lean, advancing `lab/process/lean-verification-lane-LEDGER.md` when the daily portfolio
-selects this lane.
+selects the relevant Lane 3 work item.
 
-The hourly default is `meaningful-hourly-progress-swing.md`. Lean is a method inside the reserve lane,
-not an automatic priority. Its finishability must not displace a harder North-Star lane that has not
-been falsified or genuinely blocked.
+The hourly default is `meaningful-hourly-progress-swing.md`. Lean is a method inside Lane 3, not a lane
+or an automatic priority. Its finishability must not displace Lane 1 truth testing merely because it has
+a monotone success condition.
 
 ## The run loop
 
-1. **Confirm portfolio selection.** The run receipt states why the protected primary lane is blocked,
-   complete for its current swing, or explicitly yielding to this reserve lane. Then follow the
+1. **Confirm portfolio selection.** The run receipt states why Lane 3's strongest eligible item won the
+   cross-lane ranking without demoting Lane 1's protected purpose. Then follow the
    LEDGER Part C integrity-first order: fresh default-target baseline, existing R4 integration and
    stale-duplicate retirement, then a new theorem kernel.
 2. **Read the source certificate.** Match the Lean statement to the computed result exactly. Carry

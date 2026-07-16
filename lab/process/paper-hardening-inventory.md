@@ -12,7 +12,7 @@ This inventory keeps source-owned paper hardening from displacing GU's protected
 
 ## Portfolio rule
 
-Paper work may be the reserve lane when it closes a substantive proof, novelty, citation, reproducibility, or referee-facing scope gap. It is not primary merely because it is finishable.
+Paper work belongs in Lane 3 when it closes a substantive proof, novelty, citation, reproducibility, or referee-facing scope gap. It never displaces protected Lane 1 merely because it is finishable.
 
 As soon as GU identifies a credible paper-shaped opportunity, route a cheap seed to Drafting Factory with the source revision, evidence pointers, current grade, conditions, audience, and overlap candidates. Seed admission does not wait for the hardening criteria below and does not authorize drafting. GU should not maintain a competing publication-priority queue.
 

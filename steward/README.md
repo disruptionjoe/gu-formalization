@@ -99,18 +99,25 @@ repo-owned priority maintenance, not CapacityOS or JoeOps ownership of research 
 
 Apply `lab/process/runbooks/daily-research-portfolio-stewardship.md`:
 
-- preserve one protected North-Star primary lane and at most one reserve/maintenance lane;
+- preserve the standing lane contract: Lane 1 GU truth testing, Lane 2 prediction extraction and computation,
+  Lane 3 result hardening and publication readiness, and Lane A standard Stewardship;
+- keep Lane 1 as the protected charter-level North Star while treating lane number as purpose rather than an
+  automatic every-run scheduling order;
+- re-rank worthy work inside each numbered lane and then across Lanes 1 through 3; keep Lane A outside the
+  scientific ranking;
 - reprioritize only on a real scientific or dependency signal, never on difficulty, activity, or
   finishability alone;
-- keep the primary lane from being displaced by easier Lean or paper-hardening work;
+- keep Lane 1's purpose from being displaced by easier Lean or paper-hardening work;
 - maintain the portfolio and the top operational block of `NEXT-STEPS.md` as steward-only steering
   surfaces;
 - receive hourly priority signals through run receipts and synthesize them once daily;
 - route only event-driven, deduplicated high-signal items to JoeOps;
 - preserve GU's sovereign native-versus-forced call and require frozen packets at every cross-repo seam.
 
-The current hourly default is `lab/process/runbooks/meaningful-hourly-progress-swing.md`. Lean verification
-is an eligible reserve method, not the default research objective.
+The current hourly default is `lab/process/runbooks/meaningful-hourly-progress-swing.md`. Every hourly run ends
+by using the reusable `rerank-next-work` flow twice: first inside the lane it worked, then across the three
+numbered lanes. Lean verification is a method inside Lane 3 when it has substantive value, not the default
+research objective.
 
 Recovery no-gos use `lab/process/recovery-no-go-defense-protocol.md` and its machine-readable register. Before
 banking a no-go, hourly Progress checks whether the same obstruction was previously encountered and cleared.

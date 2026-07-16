@@ -49,8 +49,16 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.portfolio = json.loads(read(PORTFOLIO))
-        cls.lanes = cls.portfolio["lanes"]
-        cls.by_id = {lane["id"]: lane for lane in cls.lanes}
+        cls.lanes = cls.portfolio["lane_catalog"]
+        cls.lane_by_id = {lane["id"]: lane for lane in cls.lanes}
+        cls.work_items = cls.portfolio["work_items"]
+        cls.top_by_id = {item["id"]: item for item in cls.work_items}
+        cls.by_id = dict(cls.top_by_id)
+        for item in cls.work_items:
+            for internal in item.get("internal_work_items", []):
+                if internal["id"] in cls.by_id:
+                    raise AssertionError(f"duplicate work-item id: {internal['id']}")
+                cls.by_id[internal["id"]] = internal
         cls.next_steps = read(NEXT_STEPS)
         cls.current_frontdoor = cls.next_steps.split(
             "[SUPERSEDED as the hourly queue by the steward-maintained portfolio above",
@@ -58,11 +66,18 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         )[0]
 
     def test_ids_are_unique_and_dependencies_resolve(self) -> None:
-        ids = [lane["id"] for lane in self.lanes]
+        lane_ids = [lane["id"] for lane in self.lanes]
+        self.assertEqual(len(lane_ids), len(set(lane_ids)))
+        ids = [item["id"] for item in self.work_items]
+        ids.extend(
+            internal["id"]
+            for item in self.work_items
+            for internal in item.get("internal_work_items", [])
+        )
         self.assertEqual(len(ids), len(set(ids)))
-        for lane in self.lanes:
-            with self.subTest(lane=lane["id"]):
-                missing = [dep for dep in lane["depends_on"] if dep not in self.by_id]
+        for item_id, item in self.by_id.items():
+            with self.subTest(work_item=item_id):
+                missing = [dep for dep in item.get("depends_on", []) if dep not in self.by_id]
                 self.assertEqual([], missing)
 
     def test_states_and_hourly_eligibility_are_consistent(self) -> None:
@@ -70,41 +85,53 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         ineligible = {
             "WAITING_EXTERNAL",
             "GATED_P2C",
+            "GATED_NEW_STRUCTURE",
+            "GATED_FIXED_QUANTITY",
             "MONITOR",
             "PARKED",
             "RESOLVED_NO_GO",
             "PAPER_READY",
             "NEEDS_JOE",
         }
-        for lane in self.lanes:
-            with self.subTest(lane=lane["id"]):
-                self.assertIn(lane["state"], allowed)
-                if lane["state"] in ineligible:
-                    self.assertFalse(lane["hourly_eligible"])
+        for item in self.work_items:
+            with self.subTest(work_item=item["id"]):
+                self.assertIn(item["state"], allowed)
+                if item["state"] in ineligible:
+                    self.assertFalse(item["hourly_eligible"])
 
-    def test_one_protected_primary_and_one_reserve(self) -> None:
+    def test_three_progress_lanes_and_lane_a_stewardship(self) -> None:
         contract = self.portfolio["selection_contract"]
-        primary = self.by_id[contract["primary_lane_id"]]
-        reserve = self.by_id[contract["reserve_lane_id"]]
-        active = [lane for lane in self.lanes if lane["state"] == "ACTIVE"]
-
-        self.assertEqual(1, contract["max_active_technical_lanes"])
-        self.assertTrue(contract["primary_is_protected_from_difficulty_demotion"])
-        self.assertEqual([primary["id"]], [lane["id"] for lane in active])
-        self.assertTrue(primary["hourly_eligible"])
-        self.assertEqual("north_star", primary["track"])
-        self.assertEqual("reserve_maintenance", reserve["track"])
-        self.assertEqual("READY", reserve["state"])
+        self.assertEqual({"1", "2", "3", "A"}, set(self.lane_by_id))
+        self.assertEqual(["1", "2", "3"], contract["progress_lane_ids"])
+        self.assertEqual(["A"], contract["administrative_lane_ids"])
+        self.assertEqual("1", contract["protected_north_star_lane_id"])
+        self.assertEqual("A", contract["standard_stewardship_lane_id"])
+        self.assertEqual(1, contract["max_concurrent_progress_runs"])
+        self.assertTrue(contract["lane_one_is_protected_from_difficulty_demotion"])
+        self.assertEqual("protected_north_star", self.lane_by_id["1"]["purpose_priority"])
+        self.assertEqual("administrative", self.lane_by_id["A"]["lane_type"])
+        self.assertFalse(self.lane_by_id["A"]["hourly_eligible"])
+        self.assertIn("Lane A never enters", contract["end_of_run_rerank_rule"])
+        self.assertIn("purpose, not an automatic", contract["scheduling_rule"])
+        self.assertIn("actual falsification", contract["north_star_rule"])
         self.assertEqual(
-            "DEP-NATIVE-SOURCE-DATUM", contract["deepest_open_dependency_lane_id"]
+            "DEP-NATIVE-SOURCE-DATUM", contract["deepest_open_dependency_work_item_id"]
         )
-        self.assertIn("operational North Star", contract["active_program_pivot"])
-        self.assertEqual("RECOVERY-CERTIFICATION", primary["id"])
+        self.assertEqual(
+            {"1", "2", "3", "A"},
+            {item["lane_id"] for item in self.work_items},
+        )
+        for lane in self.lanes:
+            self.assertIn(lane["current_top_work_item_id"], self.top_by_id)
+            self.assertEqual(
+                lane["id"], self.top_by_id[lane["current_top_work_item_id"]]["lane_id"]
+            )
         self.assertIn("transferred", contract["deepest_open_problem_posture"])
 
     def test_priority_scores_match_declared_formula(self) -> None:
-        for lane in self.lanes:
-            score = lane["score"]
+        scored_items = [item for item in self.by_id.values() if "score" in item]
+        for item in scored_items:
+            score = item["score"]
             expected = (
                 2 * score["impact"]
                 + 2 * score["information_gain"]
@@ -115,8 +142,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                 - score["wall_risk"]
                 - score["duplication_risk"]
             )
-            with self.subTest(lane=lane["id"]):
-                self.assertEqual(expected, lane["priority_score"])
+            with self.subTest(work_item=item["id"]):
+                self.assertEqual(expected, item["priority_score"])
                 self.assertTrue(all(1 <= value <= 5 for value in score.values()))
 
     def test_scientific_scope_constraints_are_not_flattened(self) -> None:
@@ -151,9 +178,10 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         rerank = recovery["internal_rerank_contract"]
         items = recovery["internal_work_items"]
 
+        self.assertEqual("1", recovery["lane_id"])
         self.assertEqual("ACTIVE", recovery["state"])
         self.assertTrue(recovery["hourly_eligible"])
-        self.assertTrue(rerank["one_lane_not_sublanes"])
+        self.assertTrue(rerank["one_workstream_not_sublanes"])
         self.assertTrue(rerank["rerank_after_every_swing"])
         self.assertIn("Next-Work Handoff", rerank["handoff_rule"])
         self.assertEqual(
@@ -173,8 +201,6 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                 "QM-PHYSICAL-SECTOR",
                 "COSMO-PERTURBATIONS",
                 "ADAPTER-RETURN-CERTIFICATION",
-                "FIXED-NATIVE-QUANTITY",
-                "BLIND-QUANTITATIVE-CONFRONTATION",
             },
             {item["id"] for item in items},
         )
@@ -201,9 +227,13 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         flavor = self.by_id["PRED-FLAVOR-RANK"]
         normalization = self.by_id["PRED-NORM-RANK"]
         flavor_obs = self.by_id["PRED-FLAVOR-OBS"]
+        fixed = self.by_id["FIXED-NATIVE-QUANTITY"]
+        blind = self.by_id["BLIND-QUANTITATIVE-CONFRONTATION"]
         self.assertEqual("RESOLVED_NO_GO", flavor["state"])
         self.assertEqual("RESOLVED_NO_GO", normalization["state"])
         self.assertEqual("RESOLVED_NO_GO", flavor_obs["state"])
+        self.assertEqual("2", fixed["lane_id"])
+        self.assertEqual("2", blind["lane_id"])
         self.assertIn("two free dimensionless ratios", flavor["current_authority"])
         self.assertIn("no GU-native absolute scale", normalization["current_authority"])
 
@@ -296,7 +326,13 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
 
     def test_frontdoor_matches_the_portfolio(self) -> None:
         required = (
-            "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
+            "THREE PROGRESS LANES PLUS STEWARDSHIP",
+            "Lane 1, GU truth testing",
+            "Lane 2, prediction extraction and computation",
+            "Lane 3, result hardening and publication readiness",
+            "Lane A, Stewardship",
+            "Lane 1 always retains the North-Star purpose",
+            "rerank-next-work",
             "RECOVERY-CERTIFICATION",
             "NO-GO-SCOPE-CHALLENGE",
             "RECOVERY-CONTRACT",
@@ -324,11 +360,17 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         daily = read(DAILY_RUNBOOK)
         hourly = read(HOURLY_RUNBOOK)
         self.assertIn("valid scientific or dependency signal", daily)
-        self.assertIn("daily steward is the only routine writer", daily)
+        self.assertIn("is the only routine writer", daily)
+        self.assertIn("Lane 1 is GU truth testing", daily)
+        self.assertIn("rank Lanes 1 through 3", daily)
+        self.assertIn("Lane A", daily)
         self.assertIn("does not mutate or authoritatively reprioritize the portfolio", hourly)
         self.assertIn("Adaptive lane reranking", hourly)
         self.assertIn("Next-Work Handoff", hourly)
         self.assertIn("defines an `assessment_source`", hourly)
+        self.assertIn("Within each numbered lane", hourly)
+        self.assertIn("Re-rank those three lane leaders", hourly)
+        self.assertIn("Exclude Lane A", hourly)
         self.assertIn("Hourly runs do not edit", hourly)
         self.assertIn("Never use `git add -A`", hourly)
         self.assertIn("one meaningful research delta", hourly)
@@ -339,12 +381,13 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("history audit does not count", hourly)
         self.assertIn("three-swing defense sequence", daily)
 
-    def test_lean_is_reserve_and_serialized(self) -> None:
+    def test_lean_is_lane_three_method_and_serialized(self) -> None:
         lean_runbook = read(LEAN_RUNBOOK)
         lean_ledger = read(LEAN_LEDGER)
         lean_guard = read(LEAN_GUARD)
-        self.assertIn("reserve convergent-hardening", lean_runbook)
+        self.assertIn("Lane 3 convergent-hardening", lean_runbook)
         self.assertIn("research-portfolio.json", lean_ledger)
+        self.assertIn("Lean queue inside Lane 3", lean_ledger)
         self.assertIn("THEOREM H", lean_ledger)
         self.assertIn("L0 BASELINE", lean_ledger)
         self.assertIn("L1 R4 INTEGRATION", lean_ledger)
