@@ -11,6 +11,10 @@ posture, or portfolio state.
   under the frozen W203/W229/W230/W236 fingerprint: the branch supplies a theta
   candidate and background evidence, but no physical scalar projector, observable
   map, SVT quadratic action, or closed scalar truncation certificate.
+- `cosmo_nogo_history_scope_gate.py` - bounded history-audit and Swing 1 scope
+  gate for the cosmology scalar-truncation no-go defense: background and distance
+  evidence do not clear the missing physical scalar projector, observable map,
+  SVT quadratic action, or closed scalar truncation obstruction.
 - `gr_forced_coefficient_residual_test.py` - branch-local `NO_GO` for exact-vacuum GR
   cancellation under the frozen W203/W229/W230/W236 record-current action fingerprint:
   the principled Schwarzschild `Q^TF(B)` residual is nonzero, while the W229

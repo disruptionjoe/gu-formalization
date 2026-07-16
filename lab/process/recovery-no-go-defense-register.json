@@ -174,9 +174,156 @@
       "title": "FLRW scalar-singlet and consistent-truncation obstruction",
       "source_result": "explorations/recovery-contract-cosmo-field-type-scalar-truncation-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "HISTORY_AUDIT_READY",
-      "history_audit": {"state": "PENDING", "prior_encounters": [], "search_receipt": null},
-      "completed_swings": [],
+      "challenge_state": "SWING_2_READY",
+      "history_audit": {
+        "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
+        "run_id": "GUH-20260716T130826Z-cosmo-nogo-defense",
+        "result": "NO_PRIOR_CLEARANCE_FOUND",
+        "summary": "Prior work computed theta-background and distance evidence and repeatedly flagged the scalar-mode/source-coefficient gap, but no prior result cleared the same missing physical scalar projector, observable map, SVT quadratic action, and closed scalar truncation obstruction for this frozen branch.",
+        "search_receipt": {
+          "searched_at": "2026-07-16T13:08:26Z",
+          "search_terms": [
+            "scalar-truncation",
+            "closed scalar",
+            "scalar singlet",
+            "SVT",
+            "scalar-vector-tensor",
+            "physical scalar projector",
+            "gauge-invariant observable map",
+            "s*(theta)",
+            "spin-2 not scalar",
+            "FLRW-KG",
+            "Klein-Gordon",
+            "theta scalar",
+            "scalar_theta_mode",
+            "perturbation recovery",
+            "cosmological perturbation",
+            "field-type",
+            "H44",
+            "H46C",
+            "W129"
+          ],
+          "searched_surfaces": [
+            "canon/",
+            "explorations/",
+            "tests/",
+            "steward/runs/",
+            "DERIVATION-PROGRESS.md",
+            "RESEARCH-STATUS.md",
+            "NEXT-STEPS.md",
+            "lab/process/"
+          ],
+          "boundedness_note": "Mechanism search, not exhaustive proof of every historical phrasing; sufficient to identify the material same-obstruction candidates in active GU history."
+        },
+        "prior_encounters": [
+          {
+            "id": "THETA-FLRW-CANON",
+            "path": "canon/theta-field-flrw-dark-energy-eos.md",
+            "construction_fork": "pulled-back homogeneous theta amplitude treated as a 4D scalar for background KG dynamics",
+            "outcome": "Records useful background theta dynamics while naming scalar field type as a failure mode: if s*(theta) is spin-2, the FLRW-KG equation must be replaced.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Marks the scalar premise as conditional rather than proving a physical scalar projector or closed perturbation sector."
+          },
+          {
+            "id": "SOURCE-FORCED-THETA-COEFF",
+            "path": "explorations/hourly-cycles/hourly-cycle1-source-forced-theta-coefficient-packet-2026-06-24.md",
+            "construction_fork": "source-forced theta coefficient packet before the current W203/W229/W230/W236 fingerprint",
+            "outcome": "scalar_theta_mode, Z_theta, C_Rtheta, and xi_eff are not emitted and remain underdefined before source-forced action and FLRW scalar projection.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Supports the missing-scalar-mode obstruction; it does not clear the current branch."
+          },
+          {
+            "id": "THETA-RESIDUAL-TERRAIN",
+            "path": "explorations/hourly-cycles/hourly-20260626-0402-cycle1-theta-residual-terrain-audit.md",
+            "construction_fork": "theta residual terrain across Branch 2A constrained IG, Branch 3 dynamical IG, and related source-side routes",
+            "outcome": "Identifies missing tangent projector, FLRW scalar reduction, source-forced dynamic action, theta_eff theorem, scalar projection, and coefficient packet; also names the case where s*theta is spin-2 or constrained away.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Maps possible alternate source routes but supplies no closed scalar perturbation construction."
+          },
+          {
+            "id": "GU-ACTION-4D-PHYSICS-GATE",
+            "path": "explorations/cycle-gates-and-audits/gu-action-4d-physics-gate-2026-06-24.md",
+            "construction_fork": "future reduction of a written GU action to a homogeneous FLRW theta mode",
+            "outcome": "Names a binary gate for whether the written action generates the needed scalar-amplitude reduction and curvature term.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Defines a gate; does not execute the physical scalar projector, observable map, or SVT action closure."
+          },
+          {
+            "id": "H44-BACKREACTED-BACKGROUND",
+            "path": "explorations/wave25/H44-de-backreacted-background-2026-07-11.md",
+            "construction_fork": "coupled Friedmann plus theta KG background dynamics",
+            "outcome": "Backreacted background freedom closes for the CPL comparison scope; raw-distance scope remains distinct.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Background and distance evidence only; explicitly not new source physics or perturbation recovery."
+          },
+          {
+            "id": "W129-M2-BAND-SWEEP",
+            "path": "explorations/W129-oq2-m2-band-sweep-de-exclusion-2026-07-14.md",
+            "construction_fork": "CMB-calibrated raw-BAO theta-sector distance model across admissible M^2 choices",
+            "outcome": "Distance-likelihood exclusion holds at DESI-signal amplitudes across the admissible band; canon verdict stays OPEN.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Tests distance behavior and calibration scope, not physical scalar projection or SVT closure."
+          },
+          {
+            "id": "RECOVERY-ACTION-FINGERPRINT",
+            "path": "lab/process/recovery-contract-action-fingerprint-2026-07-16.json",
+            "construction_fork": "W203/W229/W230/W236 record-current induced-YM branch-3 action family",
+            "outcome": "Branch-local fingerprint exists, but it must not enable cosmological perturbation recovery and leaves physical observables, boundary data, and full K_IG uniqueness unfrozen.",
+            "same_frozen_construction": true,
+            "clears_current_obstruction": false,
+            "applicability": "Part of the current obstruction: the same branch declares the missing objects rather than clearing them."
+          }
+        ]
+      },
+      "completed_swings": [
+        {
+          "id": "SWING-1-COSMO-SCALAR-SCOPE-FORK",
+          "run_id": "GUH-20260716T130826Z-cosmo-nogo-defense",
+          "state": "COMPLETE",
+          "result": "SCOPE_CONFIRMED",
+          "evidence": "explorations/recovery-nogo-cosmo-scalar-history-scope-2026-07-16.md",
+          "test": "tests/recovery-contract/cosmo_nogo_history_scope_gate.py",
+          "history_audit_consumed": true,
+          "summary": "The no-go minimizes to a typed theta candidate plus background KG evidence, but no physical scalar projector, observable map, block-diagonal SVT quadratic action, or discharged non-scalar residues for a closed scalar truncation.",
+          "minimized_obstruction": [
+            "branch has a typed theta / connection-distortion candidate",
+            "existing KG and distance results use a homogeneous scalar amplitude",
+            "canon flags scalar field type as a failure mode",
+            "no physical scalar projector for s*(theta)",
+            "no gauge-invariant observable map is frozen",
+            "no block-diagonal SVT quadratic action is supplied",
+            "non-scalar source, gauge, boundary, vector, tensor, and connection residues are not discharged"
+          ],
+          "construction_space_status": [
+            {
+              "construction": "current s*(theta) FLRW decomposition",
+              "status": "SCOPE_CONFIRMED_NO_GO"
+            },
+            {
+              "construction": "gauge-invariant or constrained composite scalar from frozen GU fields",
+              "status": "different construction, eligible for Swing 2 only if it derives a physical scalar object"
+            },
+            {
+              "construction": "scalar induced by mixing among already-present GU sectors",
+              "status": "different construction, eligible for Swing 2 only with closed truncation and residue accounting"
+            },
+            {
+              "construction": "boundary-conditioned scalar channel under an explicit adapter assumption",
+              "status": "explicit-assumption construction, not current-branch clearance"
+            },
+            {
+              "construction": "standard cosmological SVT variables",
+              "status": "comparator only, not importable as GU dynamics"
+            }
+          ]
+        }
+      ],
       "next_question": "Is the missing scalar intrinsic to the GU carrier, or only to treating the current s*(theta) object as the physical perturbation variable rather than a constrained, composite, boundary-induced, or gauge-invariant scalar?",
       "predeclared_construction_space": [
         "current s*(theta) FLRW decomposition",
