@@ -105,6 +105,7 @@ selected notes below and in each script header.
 - `reproduce_harness_scope_audit.py`
 - `reproduction_docs_consistency_audit.py`
 - `recovery_certification_matrix_audit.py`
+- `recovery_contract_manifest_audit.py`
 - `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
 - `roadmap_current_routing_links_audit.py`
@@ -512,6 +513,14 @@ H46C amplitude re-solve, W129 OQ2 band sweep, and DE-AMP closure note remain wir
 diagnostic evidence rather than prediction evidence. This is provenance and closure
 hygiene only; it does not rerun the cosmology certificates, edit the portfolio, or
 change any verdict, claim status, canon surface, or public posture.
+
+## Recovery contract manifest gate
+
+`recovery_contract_manifest_audit.py` checks that the first RECOVERY-CONTRACT construction
+manifest remains process-grade only, keeps sector combination underdefined, preserves the
+W203/W229/W230/W236 source-action boundaries, refuses to consume the corrected
+finality-polarity adapter as an independent return, and avoids local home-path leaks. This
+is an overclaim-boundary guard only; it does not validate GU physics or change claim status.
 
 ## Decider README inventory gate
 

@@ -1,0 +1,217 @@
+{
+  "schema_version": "0.1",
+  "created": "2026-07-16",
+  "run_id": "GUH-20260716T050951Z-recovery-contract",
+  "source_revision": "159ca76",
+  "artifact_role": "Process-grade construction identity manifest for the RECOVERY-CERTIFICATION lane. It freezes the current evidence boundary for recovery-contract work; it does not establish recovery, change claim grade, or authorize external action.",
+  "selected_lane": "RECOVERY-CERTIFICATION",
+  "internal_item": "RECOVERY-CONTRACT",
+  "operational_result": "CONDITIONAL",
+  "scientific_claim_advanced": false,
+  "claim_status_changed": false,
+  "public_posture_changed": false,
+  "portfolio_changed": false,
+  "construction_fork_rule": "Use GU-native constructions where the program has distinct objects, name standard-field imports when they are only comparators or mathematical machinery, and leave unresolved forks visible instead of merging them.",
+  "decision_question": "Can one current construction identity support downstream recovery tests without silently combining incompatible action branches, normalization assumptions, or finality-polarity adapter claims?",
+  "construction_identity": {
+    "status": "PARTIAL_PROCESS_FREEZE_UNDERDEFINED_FOR_SECTOR_COMBINATION",
+    "current_candidate_branch": "branch-3 record-current source-action family at exploration grade, using W203 as ultralocal limit, W229 as nonlocal induced-YM completion, W230 as the W154/c_kin=0 posit boundary, and W236 as an imported-Schwarzschild theta-sector clearance under that boundary.",
+    "not_a_primary_theory": true,
+    "source_action_and_coefficient_ledger": {
+      "ultralocal_limit": {
+        "source": "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+        "status": "ULTRALOCAL_TRUNCATION",
+        "content": "Branch-3 source action has forced algebraic kernel up to one normalization kappa, with gradient stiffness Z_U not built in W203.",
+        "boundary": "Conditional on W154 and not a full primary action."
+      },
+      "nonlocal_completion": {
+        "source": "explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md",
+        "status": "STRUCTURAL_COMPLETION_WITH_ONE_FREE_MAGNITUDE",
+        "content": "Z_U sector supplies the screened-Poisson / induced-YM differential kernel and reduces to W203 in the ultralocal or zero-mode limit.",
+        "boundary": "Magnitude Z_U remains the eta-from-gimmel-area normalization residue; K_IG uniqueness is narrowed, not closed; W154 remains assumed."
+      },
+      "w154_boundary": {
+        "source": "explorations/W230-close-a4-derive-w154-2026-07-14.md",
+        "status": "COMPLETED_POSIT",
+        "content": "theta = J is necessary and sufficient for the no-fundamental-kinetic-term / marble-wood emergence posit at this grade.",
+        "boundary": "It is a named assumption, not forced by symmetry; magnitude and induced-versus-fundamental status remain unbuilt."
+      },
+      "gravity_theta_sector": {
+        "source": "explorations/W236-gravity-theta-sector-residual-built-action-2026-07-15.md",
+        "status": "CONDITIONAL_IMPORTED_METRIC_CLEARANCE",
+        "content": "On imported Schwarzschild with Psi=0 inside the W229-built action, the theta-sector residual vanishes.",
+        "boundary": "Not an exact GR recovery verdict, not a full EL solution, and still conditional on W154."
+      }
+    },
+    "native_field_and_bundle_inventory": [
+      {
+        "object": "ambient geometry",
+        "construction_side": "program_native",
+        "summary": "Y14 = Met(X4) with base metric plus DeWitt/gimmel fiber metric; do not conflate base metric with metric-on-metrics."
+      },
+      {
+        "object": "gauge and Krein arena",
+        "construction_side": "program_native",
+        "summary": "Use the noncompact Sp(32,32;H) / Krein grading discipline, not a silent positive-Hilbert substitute."
+      },
+      {
+        "object": "theta",
+        "construction_side": "record_current_side_for_this_manifest",
+        "summary": "For W229/W236 evidence, theta is the record-current-coupled connection distortion governed by the built source action, not a bare independent scalar field."
+      },
+      {
+        "object": "generation count",
+        "construction_side": "torsion_vs_index_boundary",
+        "summary": "No generation-count forcing is imported into this recovery contract; generation count remains open at prior grade."
+      }
+    ],
+    "operator_and_domain": {
+      "status": "UNDERDEFINED",
+      "source": "explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md",
+      "summary": "The repo has one typed operator spine and several action/IG branch variants, not one source-closed primary action/operator object."
+    },
+    "variation_space_and_constraints": {
+      "status": "UNDERDEFINED",
+      "required_resolution": "Select or construct the action branch, variation space, source law, and reduction maps before sector evidence is combined."
+    },
+    "boundary_and_initial_data": {
+      "status": "NOT_FROZEN",
+      "summary": "Black-hole and cosmology evidence still uses imported metrics, fixed early physics, diagnostic amplitudes, or branch-local assumptions."
+    },
+    "gauge_quotient_and_observables": {
+      "status": "UNDERDEFINED",
+      "summary": "Physical quantum quotient, positive state space, full SM selector, and downstream observables are not constructed in this manifest."
+    },
+    "adapter_axioms_and_external_inputs": {
+      "status": "OPEN_CONJECTURAL_OR_GATED",
+      "adapter_p2c_return": "none",
+      "finality_polarity_adapter": {
+        "source": "explorations/time-as-finality-crosswalk/adapter2-correction-polarity-fiber-not-axis-2026-07-15.md",
+        "status": "OPEN_CONJECTURAL_BRIDGE",
+        "content": "The surviving structure is a polarity fiber over a finality profile, not an established identity between GU Krein sign and finality-axis polarity.",
+        "must_not_consume_as": [
+          "independent adapter return",
+          "positive-norm selector",
+          "bar(b) closure",
+          "H59 closure",
+          "physical issuance direction"
+        ]
+      },
+      "cptt_triality": {
+        "source": "explorations/cptt-triality-native-action-gate-2026-07-15.md",
+        "status": "UNDERDEFINED_WITH_SCOPED_NO_GO_FOR_TYPED_2_PLUS_1",
+        "content": "Useful representation comparator, not a generation-count derivation, SM recovery step, or physical quotient."
+      }
+    },
+    "free_fitted_conventional_and_imported_quantities": {
+      "free_or_unbuilt": [
+        "kappa magnitude",
+        "Z_U magnitude",
+        "eta-from-gimmel-area bridge",
+        "c_kin = 0 induced-vs-fundamental status",
+        "K_IG selector uniqueness",
+        "p2c boundary/firewall adapter"
+      ],
+      "forbidden_as_recovery_evidence": [
+        "target-fitted amplitudes",
+        "subgroup containment alone",
+        "imported Schwarzschild or Kerr solution alone",
+        "background-only cosmology",
+        "CPTt supplied-three-generation organization",
+        "finality-polarity fiber label"
+      ]
+    },
+    "reduction_map_to_tested_sectors": [
+      {
+        "sector": "quantum",
+        "current_grade": "CONDITIONAL_ONLY",
+        "first_missing_implication": "physical field complex, BRST or constraint quotient, positivity, locality, and state-preserving dynamics from the frozen construction"
+      },
+      {
+        "sector": "standard_model",
+        "current_grade": "KINEMATICALLY_HOSTED_OR_BRANCH_LOCAL",
+        "first_missing_implication": "target-free selector, chiral low-energy closure, Higgs/Yukawa mechanism, anomaly-safe spectrum, and unwanted-mode decoupling"
+      },
+      {
+        "sector": "gravity",
+        "current_grade": "CONDITIONAL_COMPATIBILITY_ON_IMPORTED_METRICS",
+        "first_missing_implication": "one frozen action fingerprint and full EL tuple for forced-coefficient Schwarzschild/Kerr recovery"
+      },
+      {
+        "sector": "cosmology",
+        "current_grade": "BACKGROUND_DIAGNOSTIC_ONLY",
+        "first_missing_implication": "theta field type, scalar truncation, perturbation action, stability, growth, lensing, and CMB/BAO transfer"
+      },
+      {
+        "sector": "blind_prediction",
+        "current_grade": "GATED_NO_FIXED_NATIVE_QUANTITY",
+        "first_missing_implication": "a native fixed quantity frozen before target-data confrontation"
+      }
+    ]
+  },
+  "unresolved_conflicts": [
+    {
+      "id": "PRIMARY-ACTION-VARIANTS",
+      "status": "OPEN",
+      "summary": "The typed interface contract records one operator spine and multiple action/IG branches rather than one source-closed primary theory.",
+      "evidence": [
+        "explorations/cycle-gates-and-audits/primary-gu-interface-contract-2026-06-24.md"
+      ],
+      "must_not_do": "Do not cite evidence from different branches as one apparent construction."
+    },
+    {
+      "id": "ULTRALOCAL-VS-STIFFNESS",
+      "status": "OPEN_WITH_PARTIAL_ORDER",
+      "summary": "W203 is the ultralocal limit; W229 builds a nonlocal induced-YM completion; W230 keeps the c_kin=0 induced-vs-fundamental posit explicit.",
+      "evidence": [
+        "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+        "explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md",
+        "explorations/W230-close-a4-derive-w154-2026-07-14.md",
+        "explorations/W236-gravity-theta-sector-residual-built-action-2026-07-15.md"
+      ],
+      "must_not_do": "Do not treat a nonzero fundamental stiffness, an induced stiffness, and the W154 posit as interchangeable."
+    },
+    {
+      "id": "FINALITY-POLARITY-ADAPTER",
+      "status": "OPEN",
+      "summary": "The same-day adapter correction withdraws the branch-preserving finality-axis identity and leaves only a polarity fiber over a finality profile.",
+      "evidence": [
+        "explorations/time-as-finality-crosswalk/adapter2-correction-polarity-fiber-not-axis-2026-07-15.md",
+        "explorations/time-as-finality-crosswalk/adapter2_repair_audit.py"
+      ],
+      "must_not_do": "Do not consume this as a frozen p2c adapter return, a positive-norm selector, or a bar(b)/H59 closure."
+    },
+    {
+      "id": "CPTT-TRIALITY-NATIVE-ACTION",
+      "status": "UNDERDEFINED",
+      "summary": "The CPTt comparison is useful prior art and a bounded subcheck, but it does not derive the generation count or supply a physical Standard Model recovery step.",
+      "evidence": [
+        "explorations/cptt-triality-native-action-gate-2026-07-15.md",
+        "tests/cptt/cptt_triality_gate.py"
+      ],
+      "must_not_do": "Do not treat a supplied three-generation organization as GU-native forcing."
+    }
+  ],
+  "statuses_unchanged": [
+    "bar(b) OPEN",
+    "H59 OPEN",
+    "generation count OPEN",
+    "theta-field FLRW dark-energy verdict OPEN",
+    "Schwarzschild weak-field R_fail verdict OPEN",
+    "no canon movement",
+    "no RESEARCH-STATUS movement",
+    "no public-posture movement"
+  ],
+  "next_recovery_work": {
+    "recommended_internal_item": "RECOVERY-CONTRACT",
+    "next_checkpoint": "Resolve whether the W203/W229/W230 family can be stated as one branch-local action fingerprint for GR and cosmology tests, or whether the conflict itself is the first unified-recovery failure.",
+    "first_test": "Build an action-fingerprint table that names the exact action, source law, variation space, free quantities, and allowed reductions before combining sector evidence."
+  },
+  "validation_expectations": [
+    "process_gates/recovery_contract_manifest_audit.py passes",
+    "process_gates/recovery_certification_matrix_audit.py passes",
+    "process_gates/process_gate_readme_inventory_audit.py passes",
+    "process_gates/changed_public_path_hygiene_audit.py passes",
+    "process_gates/protected_surface_diff_audit.py passes"
+  ]
+}
