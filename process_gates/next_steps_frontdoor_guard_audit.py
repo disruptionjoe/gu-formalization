@@ -62,6 +62,7 @@ class NextStepsFrontdoorGuardAudit(unittest.TestCase):
             "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
             "RECOVERY-CERTIFICATION",
             "RECOVERY-CONTRACT",
+            "recovery-certification-matrix.json",
             "PRED-FLAVOR-RANK",
             "PRED-NORM-RANK",
             "PROOF-STABLE-KERNELS",

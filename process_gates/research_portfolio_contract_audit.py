@@ -29,6 +29,10 @@ PAPER_INVENTORY = ROOT / "lab" / "process" / "paper-hardening-inventory.md"
 PAPER_SEED_RUNBOOK = (
     ROOT / "lab" / "process" / "runbooks" / "draft-factory-paper-seed-handoff.md"
 )
+RECOVERY_MATRIX = ROOT / "lab" / "process" / "recovery-certification-matrix.json"
+RECOVERY_ASSESSMENT = (
+    ROOT / "lab" / "process" / "recovery-certification-assessment-2026-07-15.md"
+)
 
 
 def read(path: Path) -> str:
@@ -146,6 +150,12 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertTrue(rerank["one_lane_not_sublanes"])
         self.assertTrue(rerank["rerank_after_every_swing"])
         self.assertIn("Next-Work Handoff", rerank["handoff_rule"])
+        self.assertEqual(
+            "lab/process/recovery-certification-matrix.json",
+            recovery["assessment_source"],
+        )
+        self.assertTrue(RECOVERY_MATRIX.is_file())
+        self.assertTrue(RECOVERY_ASSESSMENT.is_file())
         self.assertIn("possibility-to-capability", recovery["owner"])
         self.assertIn("Subgroup containment", recovery["forbidden_shortcut"])
         self.assertEqual(
@@ -227,6 +237,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("does not mutate or authoritatively reprioritize the portfolio", hourly)
         self.assertIn("Adaptive lane reranking", hourly)
         self.assertIn("Next-Work Handoff", hourly)
+        self.assertIn("defines an `assessment_source`", hourly)
         self.assertIn("Hourly runs do not edit", hourly)
         self.assertIn("Never use `git add -A`", hourly)
         self.assertIn("one meaningful research delta", hourly)
@@ -277,6 +288,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             LEAN_RUNBOOK,
             PAPER_INVENTORY,
             PAPER_SEED_RUNBOOK,
+            RECOVERY_MATRIX,
+            RECOVERY_ASSESSMENT,
         )
         offenders = [path.relative_to(ROOT).as_posix() for path in files if "\u2014" in read(path)]
         self.assertEqual([], offenders)

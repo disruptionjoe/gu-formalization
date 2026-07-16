@@ -30,12 +30,17 @@ updated_at: "2026-07-15"
 > one ladder: not located, located, kinematically embedded, dynamically closed, quantum-consistent, and
 > phenomenologically reproduced. Build an evidence matrix and identify the first decisive missing implication in
 > each sector. Never merge incompatible forks or assumption sets into one apparent construction.
+> The shared vocabulary, ladder, manifest schema, evidence record, first-test cards, and negative controls are now
+> complete at schema grade in `lab/process/recovery-certification-matrix.json`. The remaining contract work is to
+> populate one construction identity and resolve the primary-action and ultralocal-versus-stiffness conflicts.
 >
 > **Initial internal order, subject to evidence-driven re-ranking:** after the contract, attack
-> `SM-CONSISTENT-SECTOR` and `GR-DYNAMICAL-BENCHMARKS`, initially tied. `QM-PHYSICAL-SECTOR` may proceed only
-> as an explicitly assumption-capped adapter study while unconditional physical closure remains gated on p2c.
-> `COSMO-PERTURBATIONS` remains gated on native dynamics and a controlled gravitational limit. Subgroup
-> containment, field location, background agreement, and parameter fitting do not establish recovery.
+> the cheap `COSMO-PERTURBATIONS` field-type and scalar-truncation gate, then the target-free
+> `SM-CONSISTENT-SECTOR` selector screen, then the forced-coefficient `GR-DYNAMICAL-BENCHMARKS` `O(M^2)`
+> Schwarzschild residual. `QM-PHYSICAL-SECTOR` may proceed only as an explicitly assumption-capped certificate
+> study while unconditional physical closure remains gated on p2c. Full cosmological perturbations remain gated
+> on a surviving scalar sector and native dynamics. Subgroup containment, field location, background agreement,
+> and parameter fitting do not establish recovery.
 > `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen, independently built p2c return.
 > `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` remain inside this same certification lane
 > but gated until new native structure supplies a data-blind relation. Thus all seven bet-changing conditions are

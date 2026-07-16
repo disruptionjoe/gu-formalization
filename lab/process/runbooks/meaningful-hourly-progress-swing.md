@@ -22,7 +22,7 @@ multi-lane fanout remains maintainer-directed through `five-lane-frontier-run.md
 2. Create the run plan before research work and inspect recent open run plans for collisions.
 3. Read `lab/process/research-portfolio.json`.
 4. Select the protected primary lane if it is `ACTIVE` or `READY` and its dependencies permit work.
-5. If the selected lane defines `internal_work_items`, read the most recent materially relevant `Next-Work Handoff`, recheck it against current dependencies and collisions, and select the highest-ranked unblocked internal item. These are adaptive work items inside one lane, not separately active portfolio lanes.
+5. If the selected lane defines an `assessment_source`, read that artifact before ranking its internal work. If it defines `internal_work_items`, also read the most recent materially relevant `Next-Work Handoff`, recheck both against current dependencies and collisions, and select the highest-ranked unblocked internal item. These are adaptive work items inside one lane, not separately active portfolio lanes.
 6. Use the reserve lane only when the primary is genuinely blocked, waiting on external state, or has just reached a decision-grade endpoint. Record the exact reason.
 7. Never select `GATED_P2C`, `WAITING_EXTERNAL`, `MONITOR`, `PARKED`, `RESOLVED_NO_GO`, `PAPER_READY`, or `NEEDS_JOE` work as an hourly technical target.
 
