@@ -6,6 +6,13 @@
   "history_audit_required_before_swing_1": true,
   "history_audit_counts_as_broad_swing": false,
   "history_conflict_rule": "If the same obstruction was previously cleared for the same frozen construction, stop with INTEGRITY_CONFLICT and reconcile the premises before banking or defending the new no-go.",
+  "six_axis_consideration": {
+    "current_form": "Layer 0 semantic alignment plus L1-L7",
+    "axes": ["L1 substrate", "L2 observer", "L3 pairing", "L4 causal order", "L5 emergence", "L6 coordination loop", "L7 positivity or state-space metric"],
+    "history_rule": "Compare prior clearances by Layer-0 and L1-L7 signature before calling them same-construction clearances.",
+    "escape_admission_rule": "Swing 2 requires a completed current template, explicit axis deltas, the target bridge claim, and one first falsification test.",
+    "underdefinition_rule": "A blank or vague axis returns UNDERDEFINED and supplies neither a rescue nor class-invariance evidence."
+  },
   "minimum_broad_swings_per_no_go": 3,
   "selection_rule": "Work the highest-information pending history audit and continue into Swing 1 in the same run when no integrity conflict appears and capacity remains. Complete Swing 1 for every newly admitted no-go before spending a second rescue swing on one target, unless a Swing-1 result exposes a cheap decisive test that would moot the others.",
   "interleave_after_swing_1_round": "QM-PHYSICAL-SECTOR",

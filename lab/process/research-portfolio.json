@@ -155,6 +155,7 @@
         "minimum_broad_swings_per_no_go": 3,
         "construction_space_must_be_predeclared": true,
         "positive_escape_requires_adversarial_twin": true,
+        "six_axis_scope_check": "Use Layer 0 semantic alignment plus L1-L7. Compare prior clearances by signature and require explicit axis deltas plus a first falsification test for every Swing-2 escape candidate.",
         "legitimate_reframe_rule": "A legitimate reframe explains more; a degenerate reframe merely survives.",
         "preservation_rule": "A survivor creates a new frozen construction candidate and does not erase the original branch-local no-go.",
         "integrity_conflict_rule": "If repo history already cleared the same obstruction for the same frozen construction, reconcile the premises before banking or defending the new no-go."

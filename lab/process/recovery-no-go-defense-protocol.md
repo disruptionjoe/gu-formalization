@@ -33,6 +33,9 @@ Relevant method sources:
 - `ai-epistemology/field-guide/branch-5-evolvability/observations/a-kill-gets-a-defense-attorney-2026-07-11.md`
 - `ai-epistemology/field-guide/branch-5-evolvability/observations/construction-fork-identify-not-default-2026-07-11.md`
 - `ai-epistemology/field-guide/branch-5-evolvability/observations/source-action-narrowing-methods-observation-2026-07-11.md`
+- `canon/six-axis-specification-protocol.md`
+- `lab/specifications/six-axis/six-axis-template.md`
+- `canon/six-axis-escape-hatch-map-RESULTS.md`
 
 ## Mandatory history audit before the three swings
 
@@ -57,6 +60,25 @@ If the audit closes without an integrity conflict and enough run capacity remain
 1 in the same hourly run. The history audit still does not count as a defense swing; the typed scope-and-fork
 work does. Do not create history-only receipts merely to increase the run count.
 
+## Six-axis consideration for class-relative scope
+
+Use the current form of GU's historically named six-axis method: Layer 0 semantic alignment plus L1 through L7
+(substrate, observer, pairing, causal order, emergence, coordination loop, and positivity or state-space metric).
+
+1. Give the failed construction a Layer-0 and L1-L7 signature. This states the exact class in which the no-go
+   was obtained.
+2. During the history audit, compare earlier clearances by signature. A prior result with a material axis change
+   is a different construction, not a same-construction clearance.
+3. For every proposed escape, state which axes change, which stay fixed, and which assumption of the no-go the
+   change is intended to break. A name change with no axis delta is not a new construction.
+4. Before Swing 2 admits an escape candidate, complete the current template, including literature anchors, the
+   bridge claim appropriate to the target, and one first falsification test.
+5. Blank or vague axes return `UNDERDEFINED`; they do not count as either a rescue or evidence that the no-go is
+   class-invariant.
+
+The six-axis map is a specification and scope discipline, not positive evidence. Its existing escape-hatch map
+also contains class-invariant hard cores, so an axis change must face the original benchmark and adversarial twin.
+
 ## Minimum three-swing sequence
 
 After the history audit, each branch-local no-go receives at least three substantial hourly swings. A run may
@@ -71,7 +93,9 @@ or a relabeling as a swing.
 4. Declare the construction space before attempting a rescue. At minimum compare the applicable GU-native
    construction, the standard-physics comparator, a boundary-conditioned construction, and any already-named
    GU action or quotient fork. Mark inapplicable members explicitly.
-5. Identify the one assumption or channel whose change would overturn the result.
+5. Record the Layer-0 and L1-L7 signature of the failed construction and the proposed axis delta for every
+   alternative.
+6. Identify the one assumption or channel whose change would overturn the result.
 
 Allowed outcomes: `SCOPE_CONFIRMED`, `CLASS_RELATIVE`, `UNDERDEFINED`, or `INVALID_NO_GO`.
 
@@ -84,7 +108,8 @@ structure guard applies.
 
 The attempt must change a load-bearing construction or derive a previously absent object. Changing notation,
 fitting a coefficient, importing the target theory, or adding the desired verdict as boundary data does not
-count. A survivor must explain at least one fact the failed construction did not explain.
+count. An admitted escape must complete the current Layer-0 plus L1-L7 template and a first falsification test.
+A survivor must explain at least one fact the failed construction did not explain.
 
 Allowed outcomes: `NO_SURVIVOR`, `SURVIVOR_CANDIDATE`, `NEW_DEPENDENCY`, or `INVALID_ESCAPE`.
 

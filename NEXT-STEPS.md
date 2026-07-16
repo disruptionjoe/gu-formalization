@@ -42,6 +42,9 @@ updated_at: "2026-07-15"
 > genuinely different construction using the AI-epistemology escape-move registry; and adversarially adjudicate
 > every survivor. A legitimate reframe must explain more, not merely survive. A survivor creates a new frozen
 > construction candidate and never erases the original counterexample.
+> Apply the current six-axis specification form, Layer 0 plus L1-L7, to the failed class and every proposed
+> escape. Historical clearances count as same-construction only when their signatures match; a Swing-2 escape
+> needs explicit axis deltas and a first falsification test. Vague axes return `UNDERDEFINED`.
 >
 > **Internal order, subject to evidence-driven re-ranking:** first complete the history-audit and scope/fork round
 > for the current three no-gos. Then interleave `QM-PHYSICAL-SECTOR` as an explicitly assumption-capped

@@ -224,6 +224,11 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertTrue(register["history_audit_required_before_swing_1"])
         self.assertFalse(register["history_audit_counts_as_broad_swing"])
         self.assertEqual("QM-PHYSICAL-SECTOR", register["interleave_after_swing_1_round"])
+        six_axis = register["six_axis_consideration"]
+        self.assertIn("Layer 0", six_axis["current_form"])
+        self.assertEqual(7, len(six_axis["axes"]))
+        self.assertIn("first falsification test", six_axis["escape_admission_rule"])
+        self.assertIn("UNDERDEFINED", six_axis["underdefinition_rule"])
         self.assertEqual(
             {
                 "RECOVERY-NOGO-GR-W229-VACUUM",
@@ -269,6 +274,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("Minimum three-swing sequence", protocol)
         self.assertIn("does not count as one of the three", protocol)
         self.assertIn("INTEGRITY_CONFLICT", protocol)
+        self.assertIn("Six-axis consideration", protocol)
+        self.assertIn("Layer 0 semantic alignment plus L1 through L7", protocol)
 
         challenge = items["NO-GO-SCOPE-CHALLENGE"]
         self.assertEqual("READY", challenge["state"])

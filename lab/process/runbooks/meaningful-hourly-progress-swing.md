@@ -65,6 +65,10 @@ no-go, apply the defense protocol: type and fork the obstruction, attempt a genu
 then adversarially adjudicate survivors. Predeclare the construction space. A reframe must explain more rather
 than merely survive, and a positive escape never erases the source counterexample.
 
+Use the current six-axis specification discipline during this work: Layer 0 semantic alignment plus L1-L7.
+Compare historical clearances by their signatures, and do not admit a Swing-2 escape until its axis deltas,
+literature anchors, target bridge, and first falsification test are explicit. Vague axes return `UNDERDEFINED`.
+
 When the history audit closes without an integrity conflict and run capacity remains, continue into Swing 1 in
 the same run. Do not emit a history-only receipt just to increase the count. After every current target completes
 Swing 1, follow the register's conditional-unitarity interleave, then resume Swing 2 and Swing 3.
