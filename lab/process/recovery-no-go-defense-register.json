@@ -345,9 +345,147 @@
       "title": "Target-free complete Standard Model selector obstruction",
       "source_result": "explorations/recovery-contract-sm-selector-screen-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "HISTORY_AUDIT_READY",
-      "history_audit": {"state": "PENDING", "prior_encounters": [], "search_receipt": null},
-      "completed_swings": [],
+      "challenge_state": "SWING_2_READY",
+      "history_audit": {
+        "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
+        "run_id": "GUH-20260716T150941Z-sm-nogo-defense",
+        "result": "NO_PRIOR_CLEARANCE_FOUND",
+        "summary": "Prior host, Type II1 selector, finite-control, observer-shadow, and W222 relative hypercharge/anomaly results identify useful branch evidence and relative passes, but no prior result clears the same target-free complete Standard Model selector obstruction for the frozen branch.",
+        "search_receipt": {
+          "searched_at": "2026-07-16T15:09:41Z",
+          "search_terms": [
+            "target-free selector",
+            "finite algebra selector",
+            "A_F",
+            "Connes algebra",
+            "Standard Model selector",
+            "SM selector",
+            "gauge quotient",
+            "hypercharge selector",
+            "chirality production",
+            "Higgs projection",
+            "surviving spectrum",
+            "unwanted modes",
+            "Pati-Salam",
+            "Spin(10)",
+            "chiral 16",
+            "selector no-go",
+            "Phi_obs",
+            "fixed-data selector"
+          ],
+          "searched_surfaces": [
+            "canon/",
+            "explorations/",
+            "tests/",
+            "steward/runs/",
+            "DERIVATION-PROGRESS.md",
+            "RESEARCH-STATUS.md",
+            "NEXT-STEPS.md",
+            "lab/process/"
+          ],
+          "boundedness_note": "Mechanism search, not exhaustive proof of every historical phrasing; sufficient to identify the material same-obstruction candidates in active and superseded GU history."
+        },
+        "prior_encounters": [
+          {
+            "id": "SM-FINITE-CONTROL-LEDGER",
+            "path": "explorations/type-ii1-spectral/sm-gauge-higgs-finite-control-extraction-ledger-2026-06-24.md",
+            "construction_fork": "typed GU carrier, Type II1 host, and finite-control extraction ledger",
+            "outcome": "Records PARTIAL_HOST_WITH_SELECTOR_NO_GO: the carrier derives Pati-Salam branch data and hosts Higgs quantum numbers, but no current selector derives A_F, G_SM/Z_6, the physical Higgs scalar, or the full anomaly-safe observer shadow.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Prior same-mechanism negative and scope map; it supports the selector obstruction rather than clearing it."
+          },
+          {
+            "id": "TYPEII1-SELECTOR-OR-NOGO",
+            "path": "explorations/type-ii1-spectral/type-ii1-selector-or-nogo-theorem-2026-06-24.md",
+            "construction_fork": "Type II1 selector classes and replacement tests",
+            "outcome": "Classifies instantiated Type II1 selectors as host-only or no-go for explanatory SM selectors, leaving only an open empty fixed-data rigidity class.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Narrows possible escape space but supplies no target-free complete SM selector."
+          },
+          {
+            "id": "FINITE-CONTROL-PROVENANCE-AUDIT",
+            "path": "explorations/cycle-gates-and-audits/finite-control-provenance-audit-2026-06-24.md",
+            "construction_fork": "allowed GU/Type II1 inputs versus forbidden target inputs",
+            "outcome": "Finds no current selector succeeds; first forbidden target is A_F, and direct GU gauge recovery fails at G_SM/Z_6 without a target-free selector.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Confirms the current obstruction lineage."
+          },
+          {
+            "id": "PHI-OBS-CONTRACT-GATE",
+            "path": "explorations/hourly-cycles/hourly-cycle1-observer-shadow-phi-obs-contract-2026-06-24.md",
+            "construction_fork": "observer-facing exact finite Connes channel or replacement-shadow contract",
+            "outcome": "Returns UNDERDEFINED_CONTRACT_GATE: neither Phi_obs^CC nor a GU-native replacement observer shadow is declared.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "States the missing observer map rather than constructing it."
+          },
+          {
+            "id": "FIXED-DATA-PHI-OBS-SECTOR-LEDGER",
+            "path": "explorations/hourly-cycles/hourly-cycle2-fixed-data-phi-obs-sector-ledger-2026-06-24.md",
+            "construction_fork": "fixed-data Phi_obs sector selector candidates",
+            "outcome": "Returns NO_CURRENT_FIXED_DATA_PHI_OBS_SELECTOR: C3/D4, C_n, equal-projection, and external K_SM routes transport chosen targets or remain open-empty.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Leaves no same-construction clearance."
+          },
+          {
+            "id": "W222-SM-HYPERCHARGE-ANOMALY",
+            "path": "explorations/W222-falsify-sm-emergence-anomaly-hypercharge-2026-07-14.md",
+            "construction_fork": "granted Pati-Salam-to-SM shadow and granted chiral 16",
+            "outcome": "Confirms relative hypercharge and anomaly arithmetic for a granted chiral shadow, while explicitly locating the residual risk in chirality production.",
+            "same_frozen_construction": false,
+            "clears_current_obstruction": false,
+            "applicability": "Clears relative arithmetic only after granting the selector and chirality shadow that the current no-go asks GU to derive."
+          }
+        ]
+      },
+      "completed_swings": [
+        {
+          "id": "SWING-1-SM-SELECTOR-SCOPE-FORK",
+          "run_id": "GUH-20260716T150941Z-sm-nogo-defense",
+          "state": "COMPLETE",
+          "result": "SCOPE_CONFIRMED",
+          "evidence": "explorations/recovery-nogo-sm-selector-history-scope-2026-07-16.md",
+          "test": "tests/recovery-contract/sm_nogo_history_scope_gate.py",
+          "history_audit_consumed": true,
+          "summary": "The no-go minimizes to real Pati-Salam / Spin(10) host and relative arithmetic evidence plus no source-native selector for the finite algebra, global gauge quotient, absolute hypercharge, chirality production, physical Higgs, complete surviving spectrum, or extra-mode decoupling.",
+          "minimized_obstruction": [
+            "typed GU carrier hosts a Pati-Salam / Spin(10) one-generation branch",
+            "W222 gives relative hypercharge and anomaly arithmetic after granting the chiral shadow",
+            "no current branch selects A_F = C + H + M_3(C) from GU-native data",
+            "no current branch selects SU(3) x SU(2) x U(1) / Z_6 including the global central quotient",
+            "no absolute U(1)_Y embedding and normalization selector is source-native",
+            "Chirality production is granted or imported rather than source-owned by the current fingerprint",
+            "Physical Higgs projection, Higgs potential, and electroweak-symmetry-breaking dynamics are not derived",
+            "no theorem proves exactly the ordinary surviving spectrum with no extra anomalous modes"
+          ],
+          "construction_space_status": [
+            {
+              "construction": "current GU-native Pati-Salam or Spin(10) host branch",
+              "status": "SCOPE_CONFIRMED_NO_GO"
+            },
+            {
+              "construction": "GU-native gauge quotient and observer-section selector",
+              "status": "different construction, eligible for Swing 2 only if it supplies target-free A_F, G_SM/Z_6, or a declared replacement observer shadow"
+            },
+            {
+              "construction": "source-owned symmetry-breaking or chirality-producing construction",
+              "status": "different construction, eligible for Swing 2 only if it derives the breaking or chirality object without importing the Standard Model target"
+            },
+            {
+              "construction": "boundary-conditioned physical-sector selection under an explicit adapter assumption",
+              "status": "explicit-assumption construction, not current-branch clearance"
+            },
+            {
+              "construction": "standard finite algebra and Standard Model structures",
+              "status": "comparators only, not importable as GU dynamics or selector evidence"
+            }
+          ]
+        }
+      ],
       "next_question": "Does the selector obstruction survive GU-native quotient, observer-section, symmetry-breaking, boundary-conditioned, and standard-physics comparison constructions, or only the current host-without-selector fingerprint?",
       "predeclared_construction_space": [
         "current GU-native Pati-Salam or Spin(10) host branch",

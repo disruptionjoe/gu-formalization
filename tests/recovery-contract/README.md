@@ -22,6 +22,10 @@ posture, or portfolio state.
 - `gr_nogo_history_scope_gate.py` - bounded history-audit and Swing 1 scope gate
   for the GR no-go defense: prior linear cheap-read clears do not cancel the
   quadratic `Q^TF(B)` obstruction under the W229 record-current vacuum source law.
+- `sm_nogo_history_scope_gate.py` - bounded history-audit and Swing 1 scope gate
+  for the Standard Model selector no-go defense: prior host, Type II1 selector,
+  finite-control, observer-shadow, and W222 relative-arithmetic results do not
+  clear the missing target-free complete-sector selector obstruction.
 - `sm_selector_screen_gate.py` - branch-local `NO_GO` for complete low-energy
   Standard Model recovery under the frozen action fingerprint: current evidence
   positively hosts a Pati-Salam / Spin(10) branch and W222's relative
