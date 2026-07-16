@@ -33,6 +33,12 @@ RECOVERY_MATRIX = ROOT / "lab" / "process" / "recovery-certification-matrix.json
 RECOVERY_ASSESSMENT = (
     ROOT / "lab" / "process" / "recovery-certification-assessment-2026-07-15.md"
 )
+NO_GO_DEFENSE_PROTOCOL = (
+    ROOT / "lab" / "process" / "recovery-no-go-defense-protocol.md"
+)
+NO_GO_DEFENSE_REGISTER = (
+    ROOT / "lab" / "process" / "recovery-no-go-defense-register.json"
+)
 
 
 def read(path: Path) -> str:
@@ -160,6 +166,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("Subgroup containment", recovery["forbidden_shortcut"])
         self.assertEqual(
             {
+                "NO-GO-SCOPE-CHALLENGE",
                 "RECOVERY-CONTRACT",
                 "SM-CONSISTENT-SECTOR",
                 "GR-DYNAMICAL-BENCHMARKS",
@@ -171,7 +178,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             },
             {item["id"] for item in items},
         )
-        self.assertEqual("RECOVERY-CONTRACT", items[0]["id"])
+        self.assertEqual("NO-GO-SCOPE-CHALLENGE", items[0]["id"])
         self.assertEqual("READY", items[0]["state"])
 
         item_ids = {item["id"] for item in items}
@@ -200,6 +207,53 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("two free dimensionless ratios", flavor["current_authority"])
         self.assertIn("no GU-native absolute scale", normalization["current_authority"])
 
+    def test_branch_no_go_defense_and_conditional_unitarity_are_executable(self) -> None:
+        recovery = self.by_id["RECOVERY-CERTIFICATION"]
+        defense = recovery["no_go_defense_contract"]
+        items = {item["id"]: item for item in recovery["internal_work_items"]}
+        register = json.loads(read(NO_GO_DEFENSE_REGISTER))
+        protocol = read(NO_GO_DEFENSE_PROTOCOL)
+
+        self.assertTrue(NO_GO_DEFENSE_PROTOCOL.is_file())
+        self.assertTrue(NO_GO_DEFENSE_REGISTER.is_file())
+        self.assertTrue(defense["history_audit_before_defense"])
+        self.assertFalse(defense["history_audit_counts_as_swing"])
+        self.assertEqual(3, defense["minimum_broad_swings_per_no_go"])
+        self.assertIn("explains more", defense["legitimate_reframe_rule"])
+        self.assertEqual(3, register["minimum_broad_swings_per_no_go"])
+        self.assertTrue(register["history_audit_required_before_swing_1"])
+        self.assertFalse(register["history_audit_counts_as_broad_swing"])
+        self.assertEqual("QM-PHYSICAL-SECTOR", register["interleave_after_swing_1_round"])
+        self.assertEqual(
+            {
+                "RECOVERY-NOGO-GR-W229-VACUUM",
+                "RECOVERY-NOGO-COSMO-SCALAR",
+                "RECOVERY-NOGO-SM-SELECTOR",
+            },
+            {target["id"] for target in register["targets"]},
+        )
+        self.assertTrue(
+            all(
+                target["challenge_state"] == "HISTORY_AUDIT_READY"
+                and target["history_audit"]["state"] == "PENDING"
+                for target in register["targets"]
+            )
+        )
+        self.assertIn("Mandatory history audit", protocol)
+        self.assertIn("Minimum three-swing sequence", protocol)
+        self.assertIn("does not count as one of the three", protocol)
+        self.assertIn("INTEGRITY_CONFLICT", protocol)
+
+        challenge = items["NO-GO-SCOPE-CHALLENGE"]
+        self.assertEqual("READY", challenge["state"])
+        self.assertIn("HISTORY_AUDIT_READY", challenge["next_swing"])
+        self.assertEqual("QM-PHYSICAL-SECTOR", challenge["interleave_after_swing_1_round"])
+
+        quantum = items["QM-PHYSICAL-SECTOR"]
+        self.assertIn("supplied boundary adapter", quantum["title"])
+        self.assertIn("Does the same frozen GU construction", quantum["conditional_input_question"])
+        self.assertIn("CONDITIONAL_COMPLETE", quantum["next_swing"])
+
     def test_id_namespace_ends_automatic_w_collisions(self) -> None:
         policy = self.portfolio["run_id_policy"]
         self.assertIn("must not allocate a new W number", policy["w_series"])
@@ -211,6 +265,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         required = (
             "STEWARD-MAINTAINED RESEARCH PORTFOLIO",
             "RECOVERY-CERTIFICATION",
+            "NO-GO-SCOPE-CHALLENGE",
             "RECOVERY-CONTRACT",
             "PRED-FLAVOR-RANK",
             "PRED-NORM-RANK",
@@ -224,6 +279,9 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             "Proposition 1",
             "W235 record bit",
             "`bar(b)` and `H59` remain OPEN",
+            "minimum three broad swings",
+            "integrity conflict",
+            "CONDITIONAL_COMPLETE",
             "no longer allocate W numbers",
         )
         missing = [phrase for phrase in required if phrase not in self.current_frontdoor]
@@ -243,6 +301,10 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("one meaningful research delta", hourly)
         self.assertIn("paper_seed_proposal", hourly)
         self.assertIn("implicitly equates fit quality", daily)
+        self.assertIn("No-go admission and defense", hourly)
+        self.assertIn("INTEGRITY_CONFLICT", hourly)
+        self.assertIn("history audit does not count", hourly)
+        self.assertIn("three-swing defense sequence", daily)
 
     def test_lean_is_reserve_and_serialized(self) -> None:
         lean_runbook = read(LEAN_RUNBOOK)
@@ -290,6 +352,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             PAPER_SEED_RUNBOOK,
             RECOVERY_MATRIX,
             RECOVERY_ASSESSMENT,
+            NO_GO_DEFENSE_PROTOCOL,
+            NO_GO_DEFENSE_REGISTER,
         )
         offenders = [path.relative_to(ROOT).as_posix() for path in files if "\u2014" in read(path)]
         self.assertEqual([], offenders)

@@ -25,22 +25,36 @@ updated_at: "2026-07-15"
 > standard Next-Work Handoff to re-rank the remaining internal items before writing its receipt. Extra manual or
 > separately scoped automation may add effort to an item without creating a second active portfolio lane.
 >
-> **First internal target:** `RECOVERY-CONTRACT`. Freeze the exact construction revision, native objects, free
-> parameters, imported data, fitted choices, open dependencies, and adapter assumptions. Grade every sector on
-> one ladder: not located, located, kinematically embedded, dynamically closed, quantum-consistent, and
-> phenomenologically reproduced. Build an evidence matrix and identify the first decisive missing implication in
-> each sector. Never merge incompatible forks or assumption sets into one apparent construction.
-> The shared vocabulary, ladder, manifest schema, evidence record, first-test cards, and negative controls are now
-> complete at schema grade in `lab/process/recovery-certification-matrix.json`. The remaining contract work is to
-> populate one construction identity and resolve the primary-action and ultralocal-versus-stiffness conflicts.
+> **Current internal target:** `NO-GO-SCOPE-CHALLENGE`. The branch-local recovery manifest and action fingerprint
+> now exist. The first exact-vacuum GR, cosmological scalar-truncation, and complete-Standard-Model selector tests
+> returned scoped `NO_GO` endpoints. Preserve those results at their stated construction and grade, but do not
+> mistake them for construction-class exhaustion. Use
+> `lab/process/recovery-no-go-defense-protocol.md` and
+> `lab/process/recovery-no-go-defense-register.json`.
+> `RECOVERY-CONTRACT` is therefore a conditional branch-local endpoint, not a completed unified construction.
+> Keep `lab/process/recovery-certification-matrix.json` as the common recovery ladder and evidence schema.
 >
-> **Initial internal order, subject to evidence-driven re-ranking:** after the contract, attack
-> the cheap `COSMO-PERTURBATIONS` field-type and scalar-truncation gate, then the target-free
-> `SM-CONSISTENT-SECTOR` selector screen, then the forced-coefficient `GR-DYNAMICAL-BENCHMARKS` `O(M^2)`
-> Schwarzschild residual. `QM-PHYSICAL-SECTOR` may proceed only as an explicitly assumption-capped certificate
-> study while unconditional physical closure remains gated on p2c. Full cosmological perturbations remain gated
-> on a surviving scalar sector and native dynamics. Subgroup containment, field location, background agreement,
-> and parameter fitting do not establish recovery.
+> Before challenging any new no-go, run a non-counting history audit across prior GU canon, ledgers, corrections,
+> explorations, tests, receipts, and superseded steering history. Determine whether GU already encountered and
+> cleared the same substantive obstruction. If it was cleared for the same frozen construction, stop with an
+> integrity conflict and reconcile the premises. If it was cleared only in another construction, preserve the
+> fork explicitly. Only then begin the minimum three broad swings: type and fork the obstruction; attempt a
+> genuinely different construction using the AI-epistemology escape-move registry; and adversarially adjudicate
+> every survivor. A legitimate reframe must explain more, not merely survive. A survivor creates a new frozen
+> construction candidate and never erases the original counterexample.
+>
+> **Internal order, subject to evidence-driven re-ranking:** first complete the history-audit and scope/fork round
+> for the current three no-gos. Then interleave `QM-PHYSICAL-SECTOR` as an explicitly assumption-capped
+> sufficiency test before later rescue rounds, unless new evidence changes the ranking. The quantum question is
+> not "can GU independently build the p2c firewall adapter?" It is: given a precisely typed adapter and favorable
+> branch inputs, does the same frozen GU construction actually produce the physical complex, constraint or BRST
+> quotient, positive state space, observables, locality, and unitary or state-preserving dynamics without further
+> sector-specific imports? Return `CONDITIONAL_COMPLETE`, `CONDITIONAL_FAIL`, or `UNDERDEFINED`. A conditional
+> success is real downstream information but does not establish the adapter's existence.
+>
+> Resume the registered second and third defense swings until each no-go's predeclared construction space is
+> exhausted or a new survivor passes its frozen benchmark and adversarial twin. Subgroup containment, field
+> location, background agreement, parameter fitting, and importing the target theory do not establish recovery.
 > `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen, independently built p2c return.
 > `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` remain inside this same certification lane
 > but gated until new native structure supplies a data-blind relation. Thus all seven bet-changing conditions are

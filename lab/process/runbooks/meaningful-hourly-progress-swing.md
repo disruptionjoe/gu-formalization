@@ -26,6 +26,11 @@ multi-lane fanout remains maintainer-directed through `five-lane-frontier-run.md
 6. Use the reserve lane only when the primary is genuinely blocked, waiting on external state, or has just reached a decision-grade endpoint. Record the exact reason.
 7. Never select `GATED_P2C`, `WAITING_EXTERNAL`, `MONITOR`, `PARKED`, `RESOLVED_NO_GO`, `PAPER_READY`, or `NEEDS_JOE` work as an hourly technical target.
 
+When `NO-GO-SCOPE-CHALLENGE` is the selected internal item, also read
+`lab/process/recovery-no-go-defense-protocol.md` and
+`lab/process/recovery-no-go-defense-register.json`. Select the highest-information pending history audit or
+broad swing under that register. The branch-local no-go remains evidence throughout the challenge.
+
 The hourly run does not mutate or authoritatively reprioritize the portfolio. It does re-rank internal work items and recommend the next top-level lane through the reusable CapacityOS handoff flow. The daily steward decides whether that evidence changes durable portfolio state.
 
 ## A meaningful swing
@@ -43,6 +48,27 @@ A swing should normally combine the linked work needed for a real decision. Depe
 
 Do not pad the run with unrelated work. Do not split one natural proof-and-test packet merely to maximize run counts.
 
+## No-go admission and defense
+
+Before an hourly result is banked as a new `NO_GO`, review prior GU work for the same substantive obstruction.
+Search canon, claim and hypothesis ledgers, corrections, explorations, tests, receipts, and superseded steering
+history by mechanism as well as label. Record whether the obstruction was previously cleared, the construction
+in which it was cleared, and whether that clearance applies to the current frozen construction.
+
+- Same obstruction, same construction, previously cleared: return `INTEGRITY_CONFLICT` in the receipt and
+  reconcile the premises before banking the new no-go.
+- Same obstruction, different construction: preserve a construction-relative no-go and identify the fork.
+- No material prior encounter: record `NO_PRIOR_CLEARANCE_FOUND` plus the bounded search receipt.
+
+The history audit does not count toward the minimum three broad defense swings. For every admitted branch-local
+no-go, apply the defense protocol: type and fork the obstruction, attempt a genuinely different construction,
+then adversarially adjudicate survivors. Predeclare the construction space. A reframe must explain more rather
+than merely survive, and a positive escape never erases the source counterexample.
+
+When the history audit closes without an integrity conflict and run capacity remains, continue into Swing 1 in
+the same run. Do not emit a history-only receipt just to increase the count. After every current target completes
+Swing 1, follow the register's conditional-unitarity interleave, then resume Swing 2 and Swing 3.
+
 ## Required result vocabulary
 
 Every technical swing ends with one operational result:
@@ -54,6 +80,7 @@ BLOCKED
 FAIL
 NO_GO
 UNDERDEFINED
+INTEGRITY_CONFLICT
 ```
 
 State what changed, what did not change, the first residual, and whether a valid daily-steward signal occurred.

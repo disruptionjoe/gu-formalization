@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-07-16",
+  "artifact_role": "Hourly-updatable register for bounded defense of branch-local recovery no-gos. It changes no claim status or verdict.",
+  "protocol": "lab/process/recovery-no-go-defense-protocol.md",
+  "history_audit_required_before_swing_1": true,
+  "history_audit_counts_as_broad_swing": false,
+  "history_conflict_rule": "If the same obstruction was previously cleared for the same frozen construction, stop with INTEGRITY_CONFLICT and reconcile the premises before banking or defending the new no-go.",
+  "minimum_broad_swings_per_no_go": 3,
+  "selection_rule": "Work the highest-information pending history audit and continue into Swing 1 in the same run when no integrity conflict appears and capacity remains. Complete Swing 1 for every newly admitted no-go before spending a second rescue swing on one target, unless a Swing-1 result exposes a cheap decisive test that would moot the others.",
+  "interleave_after_swing_1_round": "QM-PHYSICAL-SECTOR",
+  "resume_rule": "After the conditional unitarity certificate reaches an endpoint, resume Swing 2 and Swing 3 for every non-exhausted no-go target.",
+  "stop_rule": "Accept construction-class exhaustion only after the predeclared space has been tested and any survivor has faced an adversarial twin. A legitimate reframe must explain more, not merely survive.",
+  "preservation_rule": "A new survivor does not erase the original branch-local no-go. It creates a separately frozen construction candidate.",
+  "targets": [
+    {
+      "id": "RECOVERY-NOGO-GR-W229-VACUUM",
+      "title": "Exact-vacuum GR residual under the W229 record-current branch",
+      "source_result": "explorations/recovery-contract-gr-forced-coefficient-residual-2026-07-16.md",
+      "current_grade": "branch-local NO_GO",
+      "challenge_state": "HISTORY_AUDIT_READY",
+      "history_audit": {"state": "PENDING", "prior_encounters": [], "search_receipt": null},
+      "completed_swings": [],
+      "next_question": "Does the nonzero quadratic residual survive every already-named GU action, variation, boundary, and source fork, or only the vacuum W229 record-current fingerprint where J[Psi] vanishes?",
+      "predeclared_construction_space": [
+        "frozen W229 record-current nonlocal branch",
+        "W203 ultralocal limit",
+        "fundamental-stiffness or other already-named GU action fork",
+        "boundary-conditioned adapter response supplied as an explicit assumption",
+        "standard Einstein dynamics as comparator only, never imported as GU dynamics"
+      ]
+    },
+    {
+      "id": "RECOVERY-NOGO-COSMO-SCALAR",
+      "title": "FLRW scalar-singlet and consistent-truncation obstruction",
+      "source_result": "explorations/recovery-contract-cosmo-field-type-scalar-truncation-2026-07-16.md",
+      "current_grade": "branch-local NO_GO",
+      "challenge_state": "HISTORY_AUDIT_READY",
+      "history_audit": {"state": "PENDING", "prior_encounters": [], "search_receipt": null},
+      "completed_swings": [],
+      "next_question": "Is the missing scalar intrinsic to the GU carrier, or only to treating the current s*(theta) object as the physical perturbation variable rather than a constrained, composite, boundary-induced, or gauge-invariant scalar?",
+      "predeclared_construction_space": [
+        "current s*(theta) FLRW decomposition",
+        "gauge-invariant or constrained composite scalar from the frozen GU fields",
+        "scalar induced by mixing among already-present GU sectors",
+        "boundary-conditioned scalar channel under an explicit adapter assumption",
+        "standard cosmological SVT variables as comparators only"
+      ]
+    },
+    {
+      "id": "RECOVERY-NOGO-SM-SELECTOR",
+      "title": "Target-free complete Standard Model selector obstruction",
+      "source_result": "explorations/recovery-contract-sm-selector-screen-2026-07-16.md",
+      "current_grade": "branch-local NO_GO",
+      "challenge_state": "HISTORY_AUDIT_READY",
+      "history_audit": {"state": "PENDING", "prior_encounters": [], "search_receipt": null},
+      "completed_swings": [],
+      "next_question": "Does the selector obstruction survive GU-native quotient, observer-section, symmetry-breaking, boundary-conditioned, and standard-physics comparison constructions, or only the current host-without-selector fingerprint?",
+      "predeclared_construction_space": [
+        "current GU-native Pati-Salam or Spin(10) host branch",
+        "GU-native gauge quotient and observer-section selector",
+        "source-owned symmetry-breaking or chirality-producing construction",
+        "boundary-conditioned physical-sector selection under an explicit adapter assumption",
+        "standard finite-algebra and Standard Model structures as comparators only"
+      ]
+    }
+  ],
+  "conditional_unitarity": {
+    "id": "QM-PHYSICAL-SECTOR",
+    "state": "READY_AFTER_NOGO_SWING_1_ROUND",
+    "question": "Given a precisely typed boundary adapter and favorable branch inputs, is the adapter sufficient for the frozen GU construction to produce a positive physical state space and unitary or state-preserving dynamics without further sector-specific imports?",
+    "required_outcomes": [
+      "CONDITIONAL_COMPLETE",
+      "CONDITIONAL_FAIL",
+      "UNDERDEFINED"
+    ]
+  }
+}

@@ -53,6 +53,9 @@ Difficulty, activity volume, commit count, and ease of closure are not signals. 
 4. Preserve exactly one protected primary lane. Preserve at most one reserve or maintenance lane.
 5. Apply hysteresis. Keep the current primary unless a valid signal materially changes readiness, information value, ownership, or falsification status.
 6. Update lane state, dependencies, next swing, kill condition, and switch condition where the evidence requires it.
+   For every new branch-local recovery no-go, confirm that the non-counting history audit and the registered
+   three-swing defense sequence exist in `lab/process/recovery-no-go-defense-register.json`. Do not mark a
+   construction class exhausted from the first failed branch.
 7. Update the top operational block of `NEXT-STEPS.md` to match the portfolio. Do not rewrite historical blocks.
 8. Check the paper-hardening inventory for a new substantive defect, paper-shaped opportunity, Drafting Factory hardening request, or external-eyes threshold. Route every new paper-shaped opportunity to Drafting Factory as a cheap seed before doing additional paper work. Do not select cosmetic polishing as primary work.
 9. Record any `joe_signal` in the run receipt. Write one deduplicated JoeOps proposal only when a listed trigger fires.
@@ -68,6 +71,13 @@ Difficulty, activity volume, commit count, and ease of closure are not signals. 
 - The no-go remains conditional on Proposition 1 and the favorable W235 record bit. Preserve both in summaries.
 - The deepest open theoretical dependency is the Y14 `F_A` C2 spectral-section/source-action datum plus native normalization. Joe transferred its construction to p2c. Track B prediction extraction is GU's operational North Star, not a claim that this deeper problem is solved.
 - The closed-interior `PHYSICAL-C` build is excluded. GU may study consequences under a precisely typed adapter assumption now, at a strict conditional grade. A physical construction claim still requires a frozen p2c return.
+- Conditional physical-sector sufficiency is GU-owned and executable now: assume a precisely typed adapter
+  interface and test whether the same frozen GU construction yields the physical quotient, positive state space,
+  observables, locality, and unitary or state-preserving dynamics without further imports. This does not claim
+  that GU built the adapter or that an unconditional physical sector exists.
+- Every new recovery no-go gets a repo-history audit followed by at least three broad construction-diverse
+  defense swings. Preserve the original branch-local negative result, predeclare the construction space, and
+  require any reframe to explain more rather than merely survive.
 - W226's `+1.11` is the current two-sigma F1 firing margin. W223's `+0.032` is a superseded single-row central-value diagnostic. The evidence owner is `explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md` plus `tests/W226_de_tripwire.py`, not the portfolio constant.
 - F1 is a one-sided falsification tripwire, not a positive prediction.
 - `bar(b)` and `H59` remain open.

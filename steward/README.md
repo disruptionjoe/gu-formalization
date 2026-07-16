@@ -112,6 +112,11 @@ Apply `lab/process/runbooks/daily-research-portfolio-stewardship.md`:
 The current hourly default is `lab/process/runbooks/meaningful-hourly-progress-swing.md`. Lean verification
 is an eligible reserve method, not the default research objective.
 
+Recovery no-gos use `lab/process/recovery-no-go-defense-protocol.md` and its machine-readable register. Before
+banking a no-go, hourly Progress checks whether the same obstruction was previously encountered and cleared.
+That audit does not count toward the required three construction-diverse defense swings. Conditional downstream
+unitarity remains active GU work under an explicit adapter axiom; independent adapter construction remains p2c-owned.
+
 When older operational-routing prose in `RESEARCH-POSTURE.md`, historical W-series registers, or superseded
 `NEXT-STEPS.md` blocks conflicts with the current portfolio, the portfolio controls run selection. This does
 not supersede the North Star, alter a scientific claim, or change a verdict.
@@ -141,6 +146,8 @@ GU Lean build with another local Lean job.
 - `CANON.md`
 - `DERIVATION-PROGRESS.md`
 - `lab/process/research-portfolio.json`
+- `lab/process/recovery-no-go-defense-protocol.md`
+- `lab/process/recovery-no-go-defense-register.json`
 - `lab/process/paper-hardening-inventory.md`
 - `lab/process/runbooks/daily-research-portfolio-stewardship.md`
 - `lab/process/runbooks/meaningful-hourly-progress-swing.md`
