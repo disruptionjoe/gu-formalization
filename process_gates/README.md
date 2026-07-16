@@ -105,6 +105,7 @@ selected notes below and in each script header.
 - `reproduce_harness_scope_audit.py`
 - `reproduction_docs_consistency_audit.py`
 - `recovery_certification_matrix_audit.py`
+- `recovery_contract_action_fingerprint_audit.py`
 - `recovery_contract_manifest_audit.py`
 - `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
@@ -521,6 +522,14 @@ manifest remains process-grade only, keeps sector combination underdefined, pres
 W203/W229/W230/W236 source-action boundaries, refuses to consume the corrected
 finality-polarity adapter as an independent return, and avoids local home-path leaks. This
 is an overclaim-boundary guard only; it does not validate GU physics or change claim status.
+
+## Recovery contract action fingerprint gate
+
+`recovery_contract_action_fingerprint_audit.py` checks that the RECOVERY-CONTRACT action
+fingerprint remains process-grade only, names the W203/W229/W230/W236 branch-local source-action
+family, preserves the W154 / c_kin = 0 posit boundary, separates forced/free/imported quantities,
+limits allowed reductions to branch-local use, and avoids local home-path leaks. This is an
+overclaim-boundary guard only; it does not validate GU physics or change claim status.
 
 ## Decider README inventory gate
 

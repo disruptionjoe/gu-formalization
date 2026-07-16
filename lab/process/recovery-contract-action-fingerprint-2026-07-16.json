@@ -1,0 +1,350 @@
+{
+  "schema_version": "0.1",
+  "created": "2026-07-16",
+  "run_id": "GUH-20260716T061100Z-action-fingerprint",
+  "source_revision": "77879e5",
+  "artifact_role": "Process-grade action, source-law, variation-space, and reduction fingerprint for the RECOVERY-CONTRACT checkpoint. It names one branch-local testing object for later recovery tests; it does not establish recovery, change claim grade, change public posture, or authorize external action.",
+  "selected_lane": "RECOVERY-CERTIFICATION",
+  "internal_item": "RECOVERY-CONTRACT",
+  "operational_result": "CONDITIONAL",
+  "scientific_claim_advanced": false,
+  "claim_status_changed": false,
+  "public_posture_changed": false,
+  "portfolio_changed": false,
+  "decision_question": "Can W203, W229, W230, and W236 be consumed as one branch-local action fingerprint for recovery tests without pretending that W154, Z_U, induced-versus-fundamental stiffness, or imported Schwarzschild evidence are primary-theory facts?",
+  "construction_fork_rule": "Use the GU-native record-current source-action construction for this fingerprint. Standard-field machinery such as Legendre elimination, screened-Poisson form, and imported Schwarzschild is allowed only as comparator or branch-local computation, not as sector recovery evidence.",
+  "branch_local_testing_object": {
+    "status": "CONDITIONAL_BRANCH_LOCAL_TEST_OBJECT",
+    "family_name": "W203/W229/W230/W236 record-current induced-YM branch-3 action family",
+    "not_a_primary_theory": true,
+    "downstream_sector_combination_status": "UNDERDEFINED_OUTSIDE_THIS_BRANCH",
+    "usable_for": [
+      "preregistering the GR-DYNAMICAL-BENCHMARKS O(M^2) Schwarzschild cancellation test under this exact branch",
+      "testing COSMO-PERTURBATIONS field type only after the same branch action is consumed",
+      "checking whether later sector evidence uses the same action, source law, variation space, and free-quantity ledger"
+    ],
+    "must_not_enable": [
+      "exact GR recovery",
+      "cosmological perturbation recovery",
+      "blind prediction",
+      "claim-status movement",
+      "canon verdict movement",
+      "public-posture movement",
+      "consumption of imported Schwarzschild compatibility as derivation"
+    ]
+  },
+  "source_documents": [
+    {
+      "id": "W203",
+      "path": "explorations/W203-branch3-source-action-fixed-coefficients-2026-07-14.md",
+      "role": "Ultralocal record-current branch-3 source action with forced relative coefficients.",
+      "boundary": "Algebraic kernel only; conditional on W154; Z_U nonlocal completion not built in W203."
+    },
+    {
+      "id": "W229",
+      "path": "explorations/W229-close-a2-source-action-znu-completion-2026-07-14.md",
+      "role": "Nonlocal induced-YM / Z_U completion with full field equations and W203 ultralocal reduction.",
+      "boundary": "Z_U magnitude remains a normalization datum; K_IG uniqueness is narrowed, not closed; W154 remains assumed."
+    },
+    {
+      "id": "W230",
+      "path": "explorations/W230-close-a4-derive-w154-2026-07-14.md",
+      "role": "Adjudicates theta = J[Psi] as a required posit equivalent to no fundamental kinetic term.",
+      "boundary": "The posit is necessary and named, not derived from Noether II, equivariance, gauge structure, or shiab."
+    },
+    {
+      "id": "W236",
+      "path": "explorations/W236-gravity-theta-sector-residual-built-action-2026-07-15.md",
+      "role": "Applies the W229-built record-sourced theta equation to imported Schwarzschild with Psi = 0.",
+      "boundary": "Clears only the theta-sector imported-metric cheap-read under W154; not exact GR recovery."
+    }
+  ],
+  "action_family": {
+    "action_id": "RECOVERY-CONTRACT-ACTION-FINGERPRINT-2026-07-16",
+    "family_name": "record-sourced induced-YM branch-3 action with W203 ultralocal limit",
+    "native_objects": [
+      "Y14 = Met(X4) and the DeWitt/gimmel metric-on-metrics",
+      "noncompact Krein arena and eta pairing of signature (9,5)",
+      "record field Psi in carrier B / ker Gamma",
+      "record current J[Psi]",
+      "connection distortion theta / U",
+      "first-order parent field P_IG",
+      "covariant exterior derivative D_A"
+    ],
+    "action_terms": [
+      {
+        "term_id": "record_action",
+        "source": "W203",
+        "expression": "Re<Psi, K_S c(A) Psi>",
+        "status": "source_coupling_fixed_by_C3_identity",
+        "purpose": "Supplies J[Psi] = delta S_D / delta A."
+      },
+      {
+        "term_id": "ultralocal_bridge",
+        "source": "W203",
+        "expression": "(1 / (2 kappa)) <theta, eta theta> - <theta, J[Psi]>",
+        "status": "relative_coefficients_forced_up_to_kappa",
+        "purpose": "Legendre-eliminates theta pointwise to theta = kappa eta^{-1} J in the ultralocal limit."
+      },
+      {
+        "term_id": "first_order_Z_U_parent",
+        "source": "W229",
+        "expression": "int <P_IG, D_A U> - (1 / (2 Z_U)) int <P_IG, P_IG>",
+        "status": "Gaussian_parent_built",
+        "purpose": "Eliminates P_IG to produce the induced-YM gradient sector."
+      },
+      {
+        "term_id": "nonlocal_gradient_sector",
+        "source": "W229",
+        "expression": "-(Z_U / 2) <D_A U, D_A U>",
+        "status": "forced_in_shape_one_free_magnitude",
+        "purpose": "Promotes W203's algebraic kernel to a screened-Poisson Green's-function kernel."
+      }
+    ],
+    "field_equations": [
+      {
+        "equation_id": "P_IG_elimination",
+        "source": "W229",
+        "equation": "P_IG = Z_U D_A U",
+        "status": "exact_Gaussian_elimination"
+      },
+      {
+        "equation_id": "theta_screened_source_law",
+        "source": "W229",
+        "equation": "(-Z_U D_A* D_A + c_theta eta) theta = J[Psi]",
+        "conditions": [
+          "c_theta = 1 / kappa",
+          "record-current construction side",
+          "W154 / c_kin = 0 posit active"
+        ],
+        "status": "branch_local_source_law"
+      },
+      {
+        "equation_id": "connection_induced_YM_law",
+        "source": "W229",
+        "equation": "D_A* F_A = theta_eff",
+        "conditions": [
+          "theta_eff = g_A^2(c_theta theta - J_IG - cross/Psi/section terms)",
+          "J_IG = Z_U [U, D_A U]"
+        ],
+        "status": "full_induced_YM_law_at_branch_grade"
+      }
+    ]
+  },
+  "source_law": {
+    "status": "W154_POSIT_REQUIRED",
+    "record_current": "J^a[Psi] = Re<Psi, K_S e_a Psi>",
+    "vacuum_rule": "Psi = 0 implies J[Psi] = 0.",
+    "theta_identification": "theta is consumed as the record-current-coupled connection distortion governed by the W229 action.",
+    "not_forced_by": [
+      "Noether II / equivariance",
+      "gauge structure",
+      "shiab or other equivariant linear maps"
+    ],
+    "w230_boundary": "theta = J[Psi] is equivalent at this grade to the no-fundamental-kinetic-term posit c_kin = 0. A fundamental c_kin > 0 branch is a different construction and cannot be merged into this fingerprint."
+  },
+  "variation_space": {
+    "status": "FINGERPRINTED_FOR_BRANCH_LOCAL_TESTING",
+    "allowed_variations": [
+      {
+        "field": "P_IG",
+        "source": "W229",
+        "allowed_move": "Gaussian first-order variation producing P_IG = Z_U D_A U."
+      },
+      {
+        "field": "theta / U",
+        "source": "W203/W229/W230",
+        "allowed_move": "Record-sourced W154 branch with induced stiffness and no independent fundamental c_kin branch."
+      },
+      {
+        "field": "A",
+        "source": "W229",
+        "allowed_move": "Induced-YM connection variation through D_A* F_A = theta_eff."
+      },
+      {
+        "field": "section s",
+        "source": "W236",
+        "allowed_move": "Imported-metric theta-sector residual check only after the record-sourced branch sets the theta solution."
+      }
+    ],
+    "constraints": [
+      "Do not vary a bare Psi-independent theta inside this fingerprint.",
+      "Do not add a fundamental c_kin > 0 stiffness and still call the result W154.",
+      "Do not change kappa or Z_U after inspecting a sector target.",
+      "Do not combine this branch-local variation space with other primary-action variants."
+    ],
+    "not_frozen": [
+      "global primary action and operator domain",
+      "boundary and initial data beyond branch-local tests",
+      "physical gauge quotient and observables",
+      "full K_IG uniqueness beyond differential-part narrowing",
+      "native normalization of kappa and Z_U"
+    ]
+  },
+  "quantity_ledger": {
+    "forced_or_fixed_in_shape": [
+      {
+        "quantity": "eta kernel / fiber pairing",
+        "status": "geometry_forced_up_to_scale",
+        "source": "W203/W229",
+        "reason": "Schur uniqueness on the (9,5) vector representation."
+      },
+      {
+        "quantity": "source coupling <theta, J[Psi]>",
+        "status": "fixed_within_W154_branch",
+        "source": "W203/W230",
+        "reason": "C3 identity gives J = delta S_D / delta A once the W154 posit is granted."
+      },
+      {
+        "quantity": "gradient differential part",
+        "status": "forced_as_D_A_up_to_algebraic_piece",
+        "source": "W229",
+        "reason": "Gauge-covariant first-order differential part is D_A; algebraic residue stays in mass/V_src sector."
+      },
+      {
+        "quantity": "Psi=0 source",
+        "status": "exact_zero",
+        "source": "W236",
+        "reason": "Record current is bilinear in Psi."
+      }
+    ],
+    "free_or_unbuilt": [
+      {
+        "quantity": "kappa magnitude",
+        "status": "normalization_unbuilt",
+        "source": "W203/W229",
+        "boundary": "Not target-fitted; analogous to an induced-gravity normalization."
+      },
+      {
+        "quantity": "Z_U magnitude",
+        "status": "normalization_unbuilt",
+        "source": "W229",
+        "boundary": "Sets induced-YM stiffness / screening length ell^2 = Z_U * kappa."
+      },
+      {
+        "quantity": "eta-from-gimmel-area bridge",
+        "status": "unbuilt",
+        "source": "W203/W229",
+        "boundary": "Covers the native normalization of both kappa and Z_U."
+      },
+      {
+        "quantity": "c_kin = 0 induced-vs-fundamental status",
+        "status": "named_posit",
+        "source": "W230",
+        "boundary": "Necessary for theta = J[Psi]; not derived from symmetry."
+      },
+      {
+        "quantity": "K_IG uniqueness",
+        "status": "narrowed_not_closed",
+        "source": "W229",
+        "boundary": "D_A differential part fixed; algebraic selector residue remains."
+      },
+      {
+        "quantity": "interacting C-operator / record-positive grading",
+        "status": "open_condition",
+        "source": "W203/W230",
+        "boundary": "Sign pin depends on the record C-positive condition."
+      }
+    ],
+    "imported_or_comparator_only": [
+      "Legendre / Gaussian elimination",
+      "screened-Poisson / Green's-function machinery",
+      "imported exact Schwarzschild metric",
+      "standard GR/cosmology/SM sector benchmarks"
+    ],
+    "forbidden_as_recovery_evidence": [
+      "target-fitted amplitudes or epochs",
+      "subgroup containment alone",
+      "imported Schwarzschild or Kerr compatibility alone",
+      "background-only cosmology",
+      "finality-polarity fiber labels",
+      "CPTt supplied generation organization"
+    ]
+  },
+  "allowed_reductions": [
+    {
+      "id": "W229_TO_W203_ULTRALOCAL_LIMIT",
+      "condition": "Z_U -> 0, or covariantly constant / zero-mode source so the gradient term drops.",
+      "result": "theta = kappa eta^{-1} J[Psi] pointwise.",
+      "valid_use": "Connect W229's nonlocal kernel to W203's ultralocal action.",
+      "invalid_use": "Treat the ultralocal limit as the full primary action."
+    },
+    {
+      "id": "W236_IMPORTED_VACUUM_THETA_CLEARANCE",
+      "condition": "record-sourced branch, Psi = 0, finite positive c_theta = 1/kappa.",
+      "result": "J = 0, theta = 0, and E_s^theta = 0 for the imported-metric cheap-read.",
+      "valid_use": "Close W225's theta row under the branch-local W154 posit.",
+      "invalid_use": "Declare exact GR recovery or erase the O(M^2) Willmore residual."
+    },
+    {
+      "id": "STANDARD_MACHINERY_AS_COMPARATOR",
+      "condition": "Machinery is used to express the branch-local equations without importing sector verdicts.",
+      "result": "Legendre elimination and screened-Poisson form are allowed computational representations.",
+      "valid_use": "Build branch-local tests.",
+      "invalid_use": "Promote standard EFT mimicry or imported target data into GU derivation."
+    }
+  ],
+  "conflict_boundary": [
+    {
+      "id": "PRIMARY-ACTION-VARIANTS",
+      "status": "OPEN",
+      "boundary": "This fingerprint names one branch-local action family; it does not close the repo's broader primary-action variant conflict.",
+      "must_not_do": "Do not cite evidence from other action or IG branches as if it used this same variation space."
+    },
+    {
+      "id": "W154_SOURCE_IDENTIFICATION",
+      "status": "NAMED_POSIT",
+      "boundary": "theta = J[Psi] is required and not symmetry-forced.",
+      "must_not_do": "Do not call the record-current source law unconditional."
+    },
+    {
+      "id": "ULTRALOCAL_VS_NONLOCAL_STIFFNESS",
+      "status": "ORDERED_WITH_RESIDUES",
+      "boundary": "W203 is the ultralocal limit; W229 is the induced nonlocal completion; Z_U's magnitude and induced-vs-fundamental status remain visible.",
+      "must_not_do": "Do not treat induced Z_U stiffness, fundamental c_kin > 0 stiffness, and the W154 c_kin = 0 posit as interchangeable."
+    },
+    {
+      "id": "IMPORTED_GRAVITY_EVIDENCE",
+      "status": "CONDITIONAL_COMPATIBILITY_ONLY",
+      "boundary": "W236 clears the theta-sector imported-Schwarzschild cheap-read under this branch.",
+      "must_not_do": "Do not call imported Schwarzschild compatibility exact GR recovery."
+    },
+    {
+      "id": "SECTOR_COMBINATION",
+      "status": "UNDERDEFINED_PENDING_TESTS",
+      "boundary": "A branch-local fingerprint exists, but quantum, Standard Model, gravity, cosmology, and blind-prediction recovery remain below recovery grade.",
+      "must_not_do": "Do not combine downstream sector evidence until each sector consumes this same fingerprint and its free-quantity ledger."
+    }
+  ],
+  "downstream_use_contract": {
+    "valid_next_test_object": "A preregistered O(M^2) Schwarzschild/Kerr cancellation or failure test using the W229 branch equations, fixed relative coefficients, and explicit {kappa, Z_U} normalization ledger.",
+    "required_before_sector_combination": [
+      "state the branch-local action id",
+      "freeze whether the test uses the W203 limit or W229 nonlocal equation",
+      "name every free, fitted, imported, conventional, and branch-assumed quantity",
+      "record whether the result depends on W154, imported metrics, or target-sector assumptions",
+      "leave exact recovery, claim status, canon verdict, and public posture unchanged unless a separate governance path authorizes movement"
+    ],
+    "first_residual": "The branch is conditional on W154 / c_kin = 0 and on unbuilt native normalization for kappa and Z_U.",
+    "first_kill_condition": "If the next GR or cosmology test requires changing the action, source law, variation space, or free-quantity ledger after inspecting the sector target, the unified-recovery claim fails at this construction grade."
+  },
+  "statuses_unchanged": [
+    "bar(b) OPEN",
+    "H59 OPEN",
+    "generation count OPEN",
+    "theta-field FLRW dark-energy verdict OPEN",
+    "Schwarzschild weak-field R_fail verdict OPEN",
+    "no canon movement",
+    "no RESEARCH-STATUS movement",
+    "no public-posture movement",
+    "no portfolio movement"
+  ],
+  "validation_expectations": [
+    "process_gates/recovery_contract_action_fingerprint_audit.py passes",
+    "process_gates/recovery_contract_manifest_audit.py passes",
+    "process_gates/recovery_certification_matrix_audit.py passes",
+    "process_gates/process_gate_readme_inventory_audit.py passes",
+    "process_gates/changed_public_path_hygiene_audit.py passes",
+    "process_gates/protected_surface_diff_audit.py passes"
+  ]
+}
