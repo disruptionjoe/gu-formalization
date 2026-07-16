@@ -109,7 +109,19 @@ def main() -> None:
     log("C3 -- Swing 1 scope/fork is typed")
     log("=" * 82)
     swing = item["completed_swings"][0]
-    check("C3a  target moved to Swing 2 ready", item["challenge_state"] == "SWING_2_READY")
+    check(
+        "C3a  target moved to Swing 2 ready or later",
+        item["challenge_state"]
+        in {
+            "SWING_2_READY",
+            "SWING_3_READY",
+            "BOUNDED_NO_GO",
+            "CLASS_EXHAUSTED",
+            "REFRAMED_SURVIVOR",
+            "MORE_CONSTRUCTION_SPACE",
+        },
+        item["challenge_state"],
+    )
     check("C3b  completed swing result is SCOPE_CONFIRMED", swing["result"] == "SCOPE_CONFIRMED")
     check("C3c  swing evidence and test point to this note and gate", swing["evidence"] == NOTE.relative_to(ROOT).as_posix() and swing["test"] == Path(__file__).relative_to(ROOT).as_posix())
     check(

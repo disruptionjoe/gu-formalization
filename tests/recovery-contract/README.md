@@ -47,6 +47,10 @@ posture, or portfolio state.
   for the Standard Model selector no-go defense: prior host, Type II1 selector,
   finite-control, observer-shadow, and W222 relative-arithmetic results do not
   clear the missing target-free complete-sector selector obstruction.
+- `sm_nogo_swing2_construction_gate.py` - Swing 2 construction-attempt gate for
+  the Standard Model selector no-go defense: current host, quotient/observer,
+  symmetry-breaking/chirality, and boundary-conditioned routes do not yet
+  supply a complete source-owned selector, and standard SM import is rejected.
 - `sm_selector_screen_gate.py` - branch-local `NO_GO` for complete low-energy
   Standard Model recovery under the frozen action fingerprint: current evidence
   positively hosts a Pati-Salam / Spin(10) branch and W222's relative
