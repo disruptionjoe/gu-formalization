@@ -93,7 +93,18 @@ def main() -> None:
     print("=" * 82)
     check("register exists", REGISTER.exists(), str(REGISTER))
     check("human-readable note exists", NOTE.exists(), str(NOTE))
-    check("target moved to Swing 3 ready", target["challenge_state"] == "SWING_3_READY")
+    check(
+        "target reached Swing 3 or later",
+        target["challenge_state"]
+        in {
+            "SWING_3_READY",
+            "BOUNDED_NO_GO",
+            "CLASS_EXHAUSTED",
+            "REFRAMED_SURVIVOR",
+            "MORE_CONSTRUCTION_SPACE",
+        },
+        target["challenge_state"],
+    )
     check("source result still branch-local NO_GO", target["current_grade"] == "branch-local NO_GO")
     check("target source result exists", (ROOT / target["source_result"]).exists(), target["source_result"])
 

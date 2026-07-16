@@ -270,13 +270,34 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         for target in register["targets"]:
             with self.subTest(no_go_target=target["id"]):
                 audit = target["history_audit"]
+                swing1_or_later_states = {
+                    "SWING_2_READY",
+                    "SWING_3_READY",
+                    "BOUNDED_NO_GO",
+                    "CLASS_EXHAUSTED",
+                    "REFRAMED_SURVIVOR",
+                    "MORE_CONSTRUCTION_SPACE",
+                }
+                swing2_or_later_states = {
+                    "SWING_3_READY",
+                    "BOUNDED_NO_GO",
+                    "CLASS_EXHAUSTED",
+                    "REFRAMED_SURVIVOR",
+                    "MORE_CONSTRUCTION_SPACE",
+                }
+                swing3_complete_states = {
+                    "BOUNDED_NO_GO",
+                    "CLASS_EXHAUSTED",
+                    "REFRAMED_SURVIVOR",
+                    "MORE_CONSTRUCTION_SPACE",
+                }
                 if audit["state"] == "PENDING":
                     self.assertEqual("HISTORY_AUDIT_READY", target["challenge_state"])
                     continue
 
                 self.assertIn(
                     target["challenge_state"],
-                    {"SWING_2_READY", "SWING_3_READY", "INTEGRITY_CONFLICT"},
+                    swing1_or_later_states | {"INTEGRITY_CONFLICT"},
                 )
                 self.assertIn(
                     audit["result"],
@@ -285,7 +306,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                 self.assertIsInstance(audit["prior_encounters"], list)
                 self.assertIsInstance(audit["search_receipt"], dict)
 
-                if target["challenge_state"] in {"SWING_2_READY", "SWING_3_READY"}:
+                if target["challenge_state"] in swing1_or_later_states:
                     self.assertTrue(target["completed_swings"])
                     self.assertTrue(
                         any(
@@ -300,7 +321,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                             for swing in target["completed_swings"]
                         )
                     )
-                if target["challenge_state"] == "SWING_3_READY":
+                if target["challenge_state"] in swing2_or_later_states:
                     self.assertTrue(
                         any(
                             swing.get("swing_1_scope_consumed") is True
@@ -310,6 +331,20 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
                                 "SURVIVOR_CANDIDATE",
                                 "NEW_DEPENDENCY",
                                 "INVALID_ESCAPE",
+                            }
+                            for swing in target["completed_swings"]
+                        )
+                    )
+                if target["challenge_state"] in swing3_complete_states:
+                    self.assertTrue(
+                        any(
+                            swing.get("swing_2_consumed") is True
+                            and swing["result"]
+                            in {
+                                "CLASS_EXHAUSTED",
+                                "BOUNDED_NO_GO",
+                                "REFRAMED_SURVIVOR",
+                                "MORE_CONSTRUCTION_SPACE",
                             }
                             for swing in target["completed_swings"]
                         )

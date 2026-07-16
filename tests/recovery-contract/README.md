@@ -26,6 +26,10 @@ posture, or portfolio state.
   the GR no-go defense: already named alternate forks do not yet supply a
   source-owned cancellation tensor, and target-shaped or Einstein-imported
   tensors are rejected as invalid escapes.
+- `gr_nogo_swing3_adjudication_gate.py` - Swing 3 adjudication gate for the GR
+  no-go defense: the Swing 2 no-survivor result is preserved as a bounded no-go
+  for the tested construction space, with exact resurrection triggers and no
+  status movement.
 - `qm_physical_sector_conditional_gate.py` - conditional sufficiency gate for the
   post-Swing-1 `QM-PHYSICAL-SECTOR` interleave: an explicit boundary adapter
   assumption is typed, but the current branch still lacks the source-owned

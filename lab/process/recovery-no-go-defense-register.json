@@ -25,7 +25,7 @@
       "title": "Exact-vacuum GR residual under the W229 record-current branch",
       "source_result": "explorations/recovery-contract-gr-forced-coefficient-residual-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "SWING_3_READY",
+      "challenge_state": "BOUNDED_NO_GO",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
         "run_id": "GUH-20260716T120943Z-gr-nogo-defense",
@@ -242,9 +242,69 @@
               "first_falsification_test": "Reject any source defined as -Q^TF(B) unless it is independently derived before target confrontation."
             }
           ]
+        },
+        {
+          "id": "SWING-3-GR-W229-ADJUDICATION",
+          "run_id": "GUH-20260716T180915Z-gr-swing3",
+          "state": "COMPLETE",
+          "result": "BOUNDED_NO_GO",
+          "evidence": "explorations/recovery-nogo-gr-w229-swing3-adjudication-2026-07-16.md",
+          "test": "tests/recovery-contract/gr_nogo_swing3_adjudication_gate.py",
+          "swing_2_consumed": true,
+          "summary": "Adversarial review found no reframe survivor. The tested W229/W203 record-current, bare-theta or fundamental-stiffness, ambient or H-class, boundary-adapter, and standard-Einstein comparator constructions either preserve the zero-source obstruction, lack a source-owned trace-free cancellation tensor, depend on an absent frozen adapter, or import the target dynamics.",
+          "stop_decision": "BOUNDED_NO_GO",
+          "adversarial_checks": [
+            {
+              "id": "W229_W203_RECORD_CURRENT",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "The exact-vacuum record current is zero. Adding a non-record source would leave the W203/W229 branch.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "FUNDAMENTAL_STIFFNESS_BARE_THETA",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "The branch is legitimate future construction space, but current records do not supply a field equation, boundary data, normalization, or trace-free tensor in the Q^TF(B) slot.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "AMBIENT_H_CLASS_BALANCE",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "The higher-codimension first variation and coefficient are not frozen before the Schwarzschild target.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "BOUNDARY_CONDITIONED_ADAPTER",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "No frozen adapter packet supplies an exact-vacuum GR tensor or state-preserving construction.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "STANDARD_EINSTEIN_COMPARATOR",
+              "result": "INVALID_ESCAPE_PRESERVED",
+              "reason": "Einstein dynamics is the target comparator and cannot be imported as GU dynamics.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            }
+          ],
+          "resurrection_triggers": [
+            "a trace-free exact-vacuum source tensor in the Q^TF(B) slot with GU provenance, fixed coefficient, and a first falsification test",
+            "a higher-codimension |II|^2 ambient or H-class first variation whose coefficient is frozen before using the Schwarzschild residual",
+            "a bare-theta or fundamental-stiffness field equation with boundary data, normalization, and tensor shape fixed independently of the target",
+            "a frozen boundary-adapter return that supplies an exact-vacuum GR tensor or state-preserving construction with branch conditions and provenance"
+          ],
+          "status_boundary": "No claim status, canon verdict, public posture, paper, portfolio, license, Lean, absorbed source, or cross-repo surface moved."
         }
       ],
-      "next_question": "Swing 3 should adversarially adjudicate the GR no-survivor result, compare hidden imports and branch mixing, and record an exact resurrection trigger if the tested construction space remains exhausted.",
+      "next_question": "The GR defense checkpoint is bounded negative for the tested construction space. Next eligible recovery-defense work is a Swing 2 construction attempt for RECOVERY-NOGO-COSMO-SCALAR or RECOVERY-NOGO-SM-SELECTOR unless daily stewardship changes the order.",
       "predeclared_construction_space": [
         "frozen W229 record-current nonlocal branch",
         "W203 ultralocal limit",
