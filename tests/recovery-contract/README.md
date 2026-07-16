@@ -6,6 +6,11 @@ posture, or portfolio state.
 
 ## Scripts
 
+- `cosmo_field_type_scalar_truncation_gate.py` - branch-local `NO_GO` for treating
+  the theta-background Klein-Gordon object as cosmological perturbation recovery
+  under the frozen W203/W229/W230/W236 fingerprint: the branch supplies a theta
+  candidate and background evidence, but no physical scalar projector, observable
+  map, SVT quadratic action, or closed scalar truncation certificate.
 - `gr_forced_coefficient_residual_test.py` - branch-local `NO_GO` for exact-vacuum GR
   cancellation under the frozen W203/W229/W230/W236 record-current action fingerprint:
   the principled Schwarzschild `Q^TF(B)` residual is nonzero, while the W229
