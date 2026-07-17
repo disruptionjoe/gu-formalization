@@ -1,0 +1,173 @@
+lane_contract_version: '1.0'
+manifest_revision: 1
+owner:
+  owner_id: gu-formalization
+  display_name: GU Formalization
+  scope_type: repository
+  charter_ref: RESEARCH-PROGRAM.md
+  governance_refs:
+  - AGENTS.md
+  authoritative_state_refs: &id001
+  - CANON.md
+  - NEXT-STEPS.md
+  - RESEARCH-STATUS.md
+  - lab/process/research-portfolio.json
+lanes:
+- id: '1'
+  label: Lane 1
+  ordinal: 1
+  kind: progress
+  title: GU truth testing
+  north_star: true
+  purpose: Adversarially test or falsify whether one frozen GU construction recovers the required physical
+    content without sector-specific repair.
+  purpose_type: north_star
+  relation_to_lane_1: primary_operational_expression
+  environment: The owner's governed repository, its declared operating interfaces, and its authoritative
+    work surfaces.
+  beneficiaries: &id003
+  - Joe
+  - the owner's declared users
+  - authorized downstream consumers
+  admission: &id004
+    posture: governed
+    authority_ref: AGENTS.md
+  execution_posture: automation_eligible
+  health_profile: run_observed
+  directed_flow: null
+  authoritative_work_refs: *id001
+  durable_outputs: &id002
+  - Owner-governed artifacts, decisions, and state transitions that directly advance or test the named
+    Lane 1 purpose.
+  eligible_outputs: *id002
+  forbidden_outputs: &id006
+  - another owner's canon or authoritative state
+  - automation enrollment, activation, cadence, trigger, or scheduler state
+  - an external action without exact direct-chat authorization
+  control:
+    state: active
+    in_flight_policy: continue_current
+    control_revision: 1
+    scheduling_preference: normal
+    changed_at: '2026-07-16T00:00:00-05:00'
+    changed_by: Joe direct chat, 2026-07-16
+    authority_ref: Joe-approved WI-078 fleet target map
+    reason: Initial first-class Lane ratification
+  provenance:
+    revision: 1
+    approved_at: '2026-07-16T00:00:00-05:00'
+    approved_by: Joe direct chat, 2026-07-16
+- id: '2'
+  label: Lane 2
+  ordinal: 2
+  kind: progress
+  title: Prediction extraction and computation
+  north_star: false
+  purpose: Extract, freeze, compute, and confront genuinely GU-native predictions and falsification tripwires.
+  purpose_type: independent_progress
+  relation_to_lane_1: independent_progress
+  environment: The owner's governed repository, its declared operating interfaces, and its authoritative
+    work surfaces.
+  beneficiaries: *id003
+  admission: *id004
+  execution_posture: automation_eligible
+  health_profile: run_observed
+  directed_flow: null
+  authoritative_work_refs: *id001
+  durable_outputs: &id005
+  - Owner-governed artifacts, decisions, and state transitions that advance the named independent Progress
+    purpose.
+  eligible_outputs: *id005
+  forbidden_outputs: *id006
+  control:
+    state: active
+    in_flight_policy: continue_current
+    control_revision: 1
+    scheduling_preference: normal
+    changed_at: '2026-07-16T00:00:00-05:00'
+    changed_by: Joe direct chat, 2026-07-16
+    authority_ref: Joe-approved WI-078 fleet target map
+    reason: Initial first-class Lane ratification
+  provenance:
+    revision: 1
+    approved_at: '2026-07-16T00:00:00-05:00'
+    approved_by: Joe direct chat, 2026-07-16
+- id: '3'
+  label: Lane 3
+  ordinal: 3
+  kind: progress
+  title: Result hardening and publication readiness
+  north_star: false
+  purpose: Harden valuable GU results through proof, testing, citation, reproducibility, scope control,
+    and source-ready publication packets.
+  purpose_type: supporting_progress
+  relation_to_lane_1: supports:GU truth testing and durable scientific output
+  environment: The owner's governed repository, its declared operating interfaces, and its authoritative
+    work surfaces.
+  beneficiaries: *id003
+  admission: *id004
+  execution_posture: automation_eligible
+  health_profile: run_observed
+  directed_flow: null
+  authoritative_work_refs: *id001
+  durable_outputs: &id007
+  - Owner-governed supporting artifacts with an explicit relation and return path to Lane 1.
+  eligible_outputs: *id007
+  forbidden_outputs: *id006
+  control:
+    state: active
+    in_flight_policy: continue_current
+    control_revision: 1
+    scheduling_preference: normal
+    changed_at: '2026-07-16T00:00:00-05:00'
+    changed_by: Joe direct chat, 2026-07-16
+    authority_ref: Joe-approved WI-078 fleet target map
+    reason: Initial first-class Lane ratification
+  provenance:
+    revision: 1
+    approved_at: '2026-07-16T00:00:00-05:00'
+    approved_by: Joe direct chat, 2026-07-16
+- id: A
+  label: Lane A
+  letter: A
+  kind: stewardship
+  title: GU stewardship
+  north_star: false
+  purpose: Keep {owner.display_name} viable and trustworthy through integrated coordination, control,
+    audit, intelligence/adaptation, policy/identity, and escalation.
+  purpose_type: integrated_stewardship
+  relation_to_lane_1: stewardship_of_owner
+  environment: The owner's governed repository, its declared operating interfaces, and its authoritative
+    work surfaces.
+  beneficiaries: *id003
+  admission: *id004
+  execution_posture: automation_eligible
+  health_profile: run_observed
+  directed_flow: null
+  authoritative_work_refs: *id001
+  durable_outputs: &id008
+  - Governance corrections, reconciliations, integrity records, adaptation proposals, and escalations
+    that keep the owner viable.
+  eligible_outputs: *id008
+  forbidden_outputs: *id006
+  control:
+    state: active
+    in_flight_policy: continue_current
+    control_revision: 1
+    scheduling_preference: normal
+    changed_at: '2026-07-16T00:00:00-05:00'
+    changed_by: Joe direct chat, 2026-07-16
+    authority_ref: Joe-approved WI-078 fleet target map
+    reason: Initial first-class Lane ratification
+  provenance:
+    revision: 1
+    approved_at: '2026-07-16T00:00:00-05:00'
+    approved_by: Joe direct chat, 2026-07-16
+  stewardship_obligations:
+  - coordination
+  - control
+  - audit
+  - intelligence_adaptation
+  - policy_identity
+  - escalation
+special_rules: []

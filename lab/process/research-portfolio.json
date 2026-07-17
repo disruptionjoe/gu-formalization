@@ -1,7 +1,7 @@
 {
   "schema_version": "2.0",
   "updated_at": "2026-07-16",
-  "artifact_role": "GU-owned operational research portfolio with three numbered Progress lanes and one lettered Stewardship lane. It does not change claim status, canon, proof grade, verdict, or public posture.",
+  "artifact_role": "Repository-owned work and ranking portfolio. Durable Lane definitions and control state exist only in root LANES.yaml.",
   "authority": {
     "research_priority_owner": "gu-formalization",
     "scheduling_and_concurrency_owner": "CapacityOS",
@@ -15,18 +15,10 @@
   "selection_contract": {
     "score_scale": "Each component is an integer from 1 to 5. Higher impact, information gain, readiness, distinctiveness, and time sensitivity help. Higher effort, wall risk, and duplication risk hurt.",
     "score_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
-    "progress_lane_ids": ["1", "2", "3"],
-    "administrative_lane_ids": ["A"],
-    "protected_north_star_lane_id": "1",
-    "standard_stewardship_lane_id": "A",
-    "active_progress_lane_id": "1",
-    "active_program_pivot": "Lane 1 is GU truth testing: adversarially test or falsify whether one frozen GU construction can recover the required physical content without sector-specific adjustment. Prediction extraction and result hardening remain separate purpose-bearing Progress lanes rather than pseudo-lanes competing with the North Star.",
     "deepest_open_dependency_work_item_id": "DEP-NATIVE-SOURCE-DATUM",
     "deepest_open_problem_posture": "The Y14 F_A C2 spectral-section/source-action datum and native normalization remain open and load-bearing. Joe transferred construction of that frontier to possibility-to-capability, so GU tracks but does not hourly attack it unless a frozen return or direct priority change occurs.",
     "max_concurrent_progress_runs": 1,
     "lane_one_is_protected_from_difficulty_demotion": true,
-    "lane_purpose_rule": "A lane is a durable purpose-bearing execution container, not each dependency, monitor, gate, closed branch, workstream, or work item. Numbered lanes are Progress. Lettered lanes are administrative. Lane A is standard Stewardship.",
-    "north_star_rule": "Lane 1 always owns the charter-level North Star. Its purpose is not replaced by a byproduct, easier result, larger commit count, or temporary scheduling choice. Only actual falsification or Joe's explicit charter change can change that purpose.",
     "scheduling_rule": "Lane number expresses purpose, not an automatic every-run schedule. Each Progress run selects the worthiest eligible work item across Lanes 1 through 3 using current evidence, dependencies, collision state, and the declared score. Selecting Lane 2 or Lane 3 does not demote or replace Lane 1.",
     "end_of_run_rerank_rule": "After execution and validation but before the receipt, re-rank eligible work inside the lane just worked, then re-rank Lanes 1 through 3 by their strongest eligible work. Append both rankings to the Next-Work Handoff. Lane A never enters the scientific ranking.",
     "durable_priority_rule": "Hourly re-ranking is advisory. Lane A Stewardship reconciles valid signals into this portfolio and the NEXT-STEPS front door.",
@@ -47,7 +39,8 @@
       "activity alone",
       "finishability alone",
       "a maintenance lane produced more commits"
-    ]
+    ],
+    "lane_contract_ref": "LANES.yaml"
   },
   "operational_states": [
     "ACTIVE",
@@ -130,52 +123,6 @@
     "same hard blocker survives three daily steward reviews",
     "concurrent work cannot be reconciled without Joe"
   ],
-  "lane_catalog": [
-    {
-      "id": "1",
-      "title": "GU truth testing",
-      "lane_type": "progress",
-      "purpose_priority": "protected_north_star",
-      "state": "ACTIVE",
-      "hourly_eligible": true,
-      "purpose": "Attack the highest-level GU research claim adversarially: determine whether one frozen GU construction can recover a physical quantum sector, the Standard Model, Einstein dynamics, and cosmological perturbations without sector-by-sector repair, and falsify or downgrade it honestly when it cannot.",
-      "current_top_work_item_id": "RECOVERY-CERTIFICATION",
-      "selection_note": "Difficulty never demotes this lane. A different lane may receive the next run when its strongest eligible item has higher immediate information value, time sensitivity, or dependency leverage, without changing Lane 1's protected purpose."
-    },
-    {
-      "id": "2",
-      "title": "Prediction extraction and computation",
-      "lane_type": "progress",
-      "purpose_priority": "scientific_output",
-      "state": "READY",
-      "hourly_eligible": true,
-      "purpose": "Discover, derive, freeze, compute, and confront genuinely GU-native quantitative predictions and falsification tripwires, with native, imported, fitted, and free quantities kept separate.",
-      "current_top_work_item_id": "DE-AMP-DIAGNOSTIC",
-      "selection_note": "Negative rank calculations are successful endpoints. A prediction route reopens only from new native structure frozen before target-data inspection."
-    },
-    {
-      "id": "3",
-      "title": "Result hardening and publication readiness",
-      "lane_type": "progress",
-      "purpose_priority": "scientific_output",
-      "state": "READY",
-      "hourly_eligible": true,
-      "purpose": "Harden valuable mathematical and physical results through proofs, tests, Lean where appropriate, citation and novelty checks, reproducibility, honest scope, and source packets ready for Drafting Factory or external eyes.",
-      "current_top_work_item_id": "PROOF-STABLE-KERNELS",
-      "selection_note": "Finishability alone never moves this lane above Lane 1. New paper seeds route immediately to Drafting Factory, and GU hardens a selected seed when that source work is scientifically valuable or a capacity-backed request supplies a valid signal."
-    },
-    {
-      "id": "A",
-      "title": "Stewardship",
-      "lane_type": "administrative",
-      "purpose_priority": "standard_stewardship",
-      "state": "ACTIVE",
-      "hourly_eligible": false,
-      "purpose": "Maintain portfolio truth, reconcile run handoffs, process packets and mailboxes, repair integrity and navigation drift, route paper seeds, and emit only deduplicated high-signal JoeOps notes.",
-      "current_top_work_item_id": "DAILY-PORTFOLIO-RECONCILIATION",
-      "selection_note": "Lane A is selected only by Stewardship workflows. It does not compete with numbered Progress lanes and its output is not scientific progress."
-    }
-  ],
   "work_items": [
     {
       "id": "RECOVERY-CERTIFICATION",
@@ -186,7 +133,16 @@
       "owner": "gu-formalization; possibility-to-capability retains boundary-adapter construction",
       "hourly_eligible": true,
       "priority_score": 22,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 4, "distinctiveness": 5, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 1},
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 4,
+        "distinctiveness": 5,
+        "time_sensitivity": 2,
+        "effort": 4,
+        "wall_risk": 4,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "assessment_source": "lab/process/recovery-certification-matrix.json",
       "assessment_summary": "The recovery contract now has a branch-local construction manifest and action fingerprint. The first exact-vacuum GR, cosmological scalar-truncation, and complete-Standard-Model selector checkpoints returned branch-local no-gos. Those results remain valid at their stated scope, but each now enters the bounded history-audit and three-swing defense protocol before the predeclared construction class may be called exhausted.",
@@ -223,7 +179,16 @@
           "title": "Audit history and challenge branch-local recovery no-gos across predeclared construction classes",
           "state": "READY",
           "priority_score": 27,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 5, "distinctiveness": 5, "time_sensitivity": 2, "effort": 2, "wall_risk": 2, "duplication_risk": 1},
+          "score": {
+            "impact": 5,
+            "information_gain": 5,
+            "readiness": 5,
+            "distinctiveness": 5,
+            "time_sensitivity": 2,
+            "effort": 2,
+            "wall_risk": 2,
+            "duplication_risk": 1
+          },
           "depends_on": [],
           "interleave_after_swing_1_round": "QM-PHYSICAL-SECTOR",
           "resume_after_interleave": "Complete Swing 2 and Swing 3 for every non-exhausted registered no-go target.",
@@ -236,7 +201,16 @@
           "title": "Freeze the construction identity, recovery ladder, and evidence matrix",
           "state": "CONDITIONAL_ENDPOINT",
           "priority_score": 26,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 5, "distinctiveness": 4, "time_sensitivity": 2, "effort": 2, "wall_risk": 2, "duplication_risk": 1},
+          "score": {
+            "impact": 5,
+            "information_gain": 5,
+            "readiness": 5,
+            "distinctiveness": 4,
+            "time_sensitivity": 2,
+            "effort": 2,
+            "wall_risk": 2,
+            "duplication_risk": 1
+          },
           "depends_on": [],
           "next_swing": "The branch-local manifest and action fingerprint exist. Reopen contract construction only if the no-go defense produces a new source-owned fork or the daily steward identifies an unresolved identity conflict.",
           "kill_condition": "If no single construction can be frozen because the sector claims rely on mutually incompatible objects or assumptions, record that as the first unified-recovery failure rather than normalizing the variants away.",
@@ -247,8 +221,19 @@
           "title": "Establish or kill a complete low-energy Standard Model sector",
           "state": "BRANCH_NO_GO_DEFENSE_DUE",
           "priority_score": 22,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 4, "distinctiveness": 5, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 1},
-          "depends_on": ["RECOVERY-CONTRACT"],
+          "score": {
+            "impact": 5,
+            "information_gain": 5,
+            "readiness": 4,
+            "distinctiveness": 5,
+            "time_sensitivity": 2,
+            "effort": 4,
+            "wall_risk": 4,
+            "duplication_risk": 1
+          },
+          "depends_on": [
+            "RECOVERY-CONTRACT"
+          ],
           "next_swing": "Consume the SM selector no-go through NO-GO-SCOPE-CHALLENGE: audit prior selector obstructions and clearances, then test the predeclared GU-native quotient, observer-section, symmetry-breaking, boundary-conditioned, and comparator constructions without importing the Standard Model target.",
           "kill_condition": "A representation embedding without a dynamically closed, anomaly-safe, correctly coupled low-energy sector fails the complete-Standard-Model recovery claim.",
           "forbidden_shortcut": "Do not infer the Standard Model from subgroup containment or a matching field-count table."
@@ -258,8 +243,19 @@
           "title": "Recover Einstein dynamics and benchmark gravitational observables",
           "state": "BRANCH_NO_GO_DEFENSE_DUE",
           "priority_score": 22,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 4, "distinctiveness": 5, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 1},
-          "depends_on": ["RECOVERY-CONTRACT"],
+          "score": {
+            "impact": 5,
+            "information_gain": 5,
+            "readiness": 4,
+            "distinctiveness": 5,
+            "time_sensitivity": 2,
+            "effort": 4,
+            "wall_risk": 4,
+            "duplication_risk": 1
+          },
+          "depends_on": [
+            "RECOVERY-CONTRACT"
+          ],
           "next_swing": "Consume the exact-vacuum W229 no-go through NO-GO-SCOPE-CHALLENGE: audit prior gravity-residual obstructions and clearances, then test whether the residual persists across the predeclared ultralocal, stiffness, boundary-conditioned, and other already-named GU action forks.",
           "kill_condition": "Stationary Schwarzschild or Kerr compatibility without controlled Einstein dynamics, sourced perturbations, and benchmark observables is insufficient and closes the strong recovery wording.",
           "forbidden_shortcut": "Do not promote a solution-shaped projected shadow or background metric match into recovery of general relativity."
@@ -269,8 +265,19 @@
           "title": "Test whether a supplied boundary adapter is sufficient to construct the physical quantum sector",
           "state": "READY_CONDITIONAL_AFTER_NOGO_SCOPE_ROUND",
           "priority_score": 21,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 4, "distinctiveness": 5, "time_sensitivity": 2, "effort": 5, "wall_risk": 4, "duplication_risk": 1},
-          "depends_on": ["RECOVERY-CONTRACT"],
+          "score": {
+            "impact": 5,
+            "information_gain": 5,
+            "readiness": 4,
+            "distinctiveness": 5,
+            "time_sensitivity": 2,
+            "effort": 5,
+            "wall_risk": 4,
+            "duplication_risk": 1
+          },
+          "depends_on": [
+            "RECOVERY-CONTRACT"
+          ],
           "conditional_input_question": "Assume a precisely typed boundary adapter and favorable branch inputs are supplied. Does the same frozen GU construction then produce the physical field complex, BRST or constraint quotient, positive state space, observables, probabilities, locality, and unitary or state-preserving dynamics without any further sector-specific import?",
           "next_swing": "Write the minimal typed adapter interface as an explicit axiom, then carry the fixed GU construction forward as far as possible. Return CONDITIONAL_COMPLETE, CONDITIONAL_FAIL, or UNDERDEFINED, and list every datum still required beyond the adapter. A success answers conditional sufficiency; it does not claim that GU constructed the adapter.",
           "kill_condition": "Failure of positivity, constraint compatibility, unitarity, or causal observables even under the explicit adapter assumption kills that conditional realization; success remains assumption-capped.",
@@ -281,8 +288,19 @@
           "title": "Derive cosmological perturbations and observable transfer",
           "state": "BRANCH_NO_GO_DEFENSE_DUE",
           "priority_score": 16,
-          "score": {"impact": 4, "information_gain": 5, "readiness": 2, "distinctiveness": 4, "time_sensitivity": 2, "effort": 5, "wall_risk": 4, "duplication_risk": 1},
-          "depends_on": ["RECOVERY-CONTRACT"],
+          "score": {
+            "impact": 4,
+            "information_gain": 5,
+            "readiness": 2,
+            "distinctiveness": 4,
+            "time_sensitivity": 2,
+            "effort": 5,
+            "wall_risk": 4,
+            "duplication_risk": 1
+          },
+          "depends_on": [
+            "RECOVERY-CONTRACT"
+          ],
           "next_swing": "Consume the scalar-truncation no-go through NO-GO-SCOPE-CHALLENGE: audit prior scalar-channel obstructions and clearances, then test constrained, composite, mixed-sector, boundary-induced, and gauge-invariant scalar constructions before accepting class exhaustion.",
           "kill_condition": "No scalar singlet or no dynamically closed scalar truncation means the current theta-background Klein-Gordon equation is the wrong physical equation. A fitted background without stable perturbations and observable transfer also fails cosmological recovery.",
           "forbidden_shortcut": "Do not count agreement with a background expansion curve as recovery of cosmology."
@@ -292,8 +310,19 @@
           "title": "Certify an independently constructed boundary-adapter return",
           "state": "GATED_P2C",
           "priority_score": 15,
-          "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 2},
-          "depends_on": ["RECOVERY-CONTRACT"],
+          "score": {
+            "impact": 5,
+            "information_gain": 5,
+            "readiness": 1,
+            "distinctiveness": 5,
+            "time_sensitivity": 1,
+            "effort": 5,
+            "wall_risk": 5,
+            "duplication_risk": 2
+          },
+          "depends_on": [
+            "RECOVERY-CONTRACT"
+          ],
           "next_swing": "When p2c returns a frozen packet, verify provenance, independence from the GU result it is meant to enable, exact interface typing, branch assumptions, and whether the same frozen GU construction consumes it without sector-specific repair.",
           "kill_condition": "A circular adapter, an interface mismatch, or an adapter that works only after retuning the GU construction fails the independent-adapter condition.",
           "forbidden_shortcut": "GU may audit a frozen p2c return but must not construct the adapter here, assume that a conditional consequence proves it exists, or erase Proposition 1 and record-bit conditions."
@@ -309,7 +338,16 @@
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "priority_score": 27,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 5, "distinctiveness": 5, "time_sensitivity": 2, "effort": 2, "wall_risk": 2, "duplication_risk": 1},
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 5,
+        "distinctiveness": 5,
+        "time_sensitivity": 2,
+        "effort": 2,
+        "wall_risk": 2,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "construction_fork": "Use the GU-native symmetry, quotient, and source constraints. Compare, but do not silently replace them with, the standard SM effective-field-theory parameterization.",
       "current_authority": "GUH-20260716T000420Z-flavor-rank found that the GU Z/3 texture reduces nine complex Yukawa entries to three complex coefficients, but phase and overall-scale quotienting still leaves two free dimensionless ratios. No zero-parameter flavor invariant survives at the current construction grade.",
@@ -328,7 +366,16 @@
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "priority_score": 23,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 4, "distinctiveness": 5, "time_sensitivity": 1, "effort": 3, "wall_risk": 3, "duplication_risk": 1},
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 4,
+        "distinctiveness": 5,
+        "time_sensitivity": 1,
+        "effort": 3,
+        "wall_risk": 3,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "construction_fork": "Use the native DeWitt/gimmel ratio-only geometry and the built source coefficients. Do not import a standard massive-spin-2 normalization as if GU fixed it.",
       "current_authority": "GUH-20260716T021308Z-norm-rank found four invariant quotient families but no GU-native absolute scale. Fixed-range gravity and fixed-pole-scale predictions remain unavailable at the current construction grade.",
@@ -347,8 +394,19 @@
       "owner": "gu-formalization plus phenomenology packet",
       "hourly_eligible": false,
       "priority_score": 21,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 2, "effort": 3, "wall_risk": 3, "duplication_risk": 1},
-      "depends_on": ["PRED-FLAVOR-RANK"],
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 2,
+        "effort": 3,
+        "wall_risk": 3,
+        "duplication_risk": 1
+      },
+      "depends_on": [
+        "PRED-FLAVOR-RANK"
+      ],
       "current_authority": "The prerequisite zero-parameter PRED-FLAVOR-RANK invariant did not survive. There is no honest frozen flavor relation to confront with PDG data at the current construction grade.",
       "next_swing": "None. Reopen only after PRED-FLAVOR-RANK is reopened by new native structure and produces a frozen data-blind invariant.",
       "kill_condition": "Any adjustable coefficient, basis dependence, or post-data reformulation kills the candidate.",
@@ -364,8 +422,19 @@
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "priority_score": 19,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 1},
-      "depends_on": ["RECOVERY-CONTRACT"],
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 2,
+        "effort": 4,
+        "wall_risk": 4,
+        "duplication_risk": 1
+      },
+      "depends_on": [
+        "RECOVERY-CONTRACT"
+      ],
       "next_swing": "On a new native constraint or normalization datum, identify a parameter currently free in the relevant benchmark theory, derive it from the frozen construction, and freeze the relation before target-data inspection.",
       "kill_condition": "Any independent coefficient, imported datum, fitted normalization, or post-data choice that can absorb the value kills the fixed-quantity claim.",
       "switch_condition": "Activate only when new native structure removes a presently free quantity before target-data inspection.",
@@ -380,8 +449,20 @@
       "owner": "gu-formalization plus phenomenology packet",
       "hourly_eligible": false,
       "priority_score": 21,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 3, "effort": 4, "wall_risk": 3, "duplication_risk": 1},
-      "depends_on": ["RECOVERY-CONTRACT", "FIXED-NATIVE-QUANTITY"],
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 3,
+        "effort": 4,
+        "wall_risk": 3,
+        "duplication_risk": 1
+      },
+      "depends_on": [
+        "RECOVERY-CONTRACT",
+        "FIXED-NATIVE-QUANTITY"
+      ],
       "next_swing": "Predeclare the native observable, numerical relation, uncertainty treatment, competitor baseline, and kill threshold, then confront independent holdout data without recalibration.",
       "kill_condition": "Calibration to the target, equivalent freedom in a standard effective theory, a failed holdout, or a post-hoc reformulation kills the blind distinctive prediction claim.",
       "switch_condition": "Activate only after FIXED-NATIVE-QUANTITY yields a frozen data-blind relation.",
@@ -396,7 +477,16 @@
       "owner": "GU structural inputs plus phenomenology return packet",
       "hourly_eligible": true,
       "priority_score": 19,
-      "score": {"impact": 4, "information_gain": 4, "readiness": 5, "distinctiveness": 1, "time_sensitivity": 1, "effort": 2, "wall_risk": 1, "duplication_risk": 1},
+      "score": {
+        "impact": 4,
+        "information_gain": 4,
+        "readiness": 5,
+        "distinctiveness": 1,
+        "time_sensitivity": 1,
+        "effort": 2,
+        "wall_risk": 1,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "next_swing": "Re-solve theta-star with GU's own full D_M(z-star), including the high-redshift tail, then return a blind official-H46B likelihood adjudication.",
       "kill_condition": "If the corrected canonical amplitude remains strongly disfavored, close the positive raw-BAO amplitude leg. If it moves, report the shift without calling it a new prediction.",
@@ -412,7 +502,16 @@
       "owner": "gu-formalization defines the tripwire; phenomenology supplies verified data",
       "hourly_eligible": false,
       "priority_score": 22,
-      "score": {"impact": 4, "information_gain": 5, "readiness": 2, "distinctiveness": 2, "time_sensitivity": 5, "effort": 2, "wall_risk": 2, "duplication_risk": 1},
+      "score": {
+        "impact": 4,
+        "information_gain": 5,
+        "readiness": 2,
+        "distinctiveness": 2,
+        "time_sensitivity": 5,
+        "effort": 2,
+        "wall_risk": 2,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "current_authority": "W226 supersedes W223 for the firing statistic. The current preregistered two-sigma edge margin is +1.11. W223's +0.032 was the DESY5 central-value margin and is not the firing margin.",
       "evidence_source": "explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md and tests/W226_de_tripwire.py; any frozen monitor packet must cite and rerun these sources rather than copy the config constant.",
@@ -430,7 +529,16 @@
       "owner": "gu-formalization",
       "hourly_eligible": true,
       "priority_score": 18,
-      "score": {"impact": 4, "information_gain": 4, "readiness": 4, "distinctiveness": 3, "time_sensitivity": 1, "effort": 3, "wall_risk": 2, "duplication_risk": 1},
+      "score": {
+        "impact": 4,
+        "information_gain": 4,
+        "readiness": 4,
+        "distinctiveness": 3,
+        "time_sensitivity": 1,
+        "effort": 3,
+        "wall_risk": 2,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "next_swing": "First establish a fresh default-target lake build baseline through the required host-local wrapper. Then fold the already-written sorry-free and axiom-free R4_TwoArena certificate into the default target and retire the un-typechecked A1 draft duplicate so it cannot be cited as a certificate. Only after those cheap integrity wins specify the W243/GU-002 extremal-weight kernel.",
       "kill_condition": "If the proposed Lean statement requires hiding representation faithfulness, physical interpretation, full Sp(32,32;H) construction, or interacting QFT as an axiom, leave it prose/Python and choose the next eligible finite kernel.",
@@ -446,7 +554,16 @@
       "owner": "possibility-to-capability constructs the transferred source-action frontier; gu-formalization retains native-versus-forced and grade authority",
       "hourly_eligible": false,
       "priority_score": 16,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 1},
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 1,
+        "effort": 5,
+        "wall_risk": 5,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "current_authority": "This is the deepest unresolved GU-native dependency, not a solved or low-value problem. The Y14 F_A C2 spectral-section/source-action datum and native normalization remain load-bearing for the count value, the record-bit interpretation, bar(b), and the strongest absolute or dynamical prediction routes. Joe's Track B pivot transferred construction work to possibility-to-capability so GU does not keep attacking the same wall.",
       "next_swing": "Track exact open inputs and accept only a frozen p2c construction or falsification packet. GU independently adjudicates which returned ingredients are native, imported, fitted, or merely assumed.",
@@ -463,7 +580,16 @@
       "owner": "possibility-to-capability for the firewall alternative; GU retains scope wording",
       "hourly_eligible": false,
       "priority_score": 15,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 2},
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 1,
+        "effort": 5,
+        "wall_risk": 5,
+        "duplication_risk": 2
+      },
       "depends_on": [],
       "next_swing": "Wait for a frozen p2c packet that constructs or rejects a boundary/firewall positivity alternative to Proposition 1.",
       "kill_condition": "None inside GU. GU may only sharpen the exact boundary content and conditional consequences.",
@@ -479,7 +605,16 @@
       "owner": "GU owns the conditional scope; cross-repo identity remains gated",
       "hourly_eligible": false,
       "priority_score": 16,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 1},
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 1,
+        "effort": 5,
+        "wall_risk": 5,
+        "duplication_risk": 1
+      },
       "depends_on": [],
       "next_swing": "Preserve the favorable-branch dependency verbatim in every good-stable packet and await an authorized decision object. Do not infer a cross-repo identity.",
       "kill_condition": "An unfavorable record-bit decision changes the applicability of the no-go comparison. It does not retroactively falsify the mathematical theorem.",
@@ -495,7 +630,16 @@
       "owner": "gu-formalization for deduction under a named assumption; possibility-to-capability retains adapter construction",
       "hourly_eligible": true,
       "priority_score": 16,
-      "score": {"impact": 5, "information_gain": 4, "readiness": 3, "distinctiveness": 4, "time_sensitivity": 1, "effort": 4, "wall_risk": 4, "duplication_risk": 2},
+      "score": {
+        "impact": 5,
+        "information_gain": 4,
+        "readiness": 3,
+        "distinctiveness": 4,
+        "time_sensitivity": 1,
+        "effort": 4,
+        "wall_risk": 4,
+        "duplication_risk": 2
+      },
       "depends_on": [],
       "construction_fork": "Assume a precisely typed boundary/firewall adapter A and the required favorable branch conditions. Every theorem must be stated as GU consequences given A; A is not a GU construction or verified physical realization.",
       "next_swing": "Support the RECOVERY-CERTIFICATION QM-PHYSICAL-SECTOR conditional-sufficiency test. Given a precisely typed adapter axiom, determine whether the fixed GU construction yields the boundary-conditioned C metric, physical quotient, and one gauge-independent observable without further imported choices.",
@@ -512,8 +656,21 @@
       "owner": "GU after a p2c adapter packet",
       "hourly_eligible": false,
       "priority_score": 16,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 1},
-      "depends_on": ["DEP-NATIVE-SOURCE-DATUM", "DEP-PROP1", "DEP-W235-RECORD"],
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 1,
+        "effort": 5,
+        "wall_risk": 5,
+        "duplication_risk": 1
+      },
+      "depends_on": [
+        "DEP-NATIVE-SOURCE-DATUM",
+        "DEP-PROP1",
+        "DEP-W235-RECORD"
+      ],
       "current_authority": "The closed-interior positive-C construction is excluded for every native order-parameter class. Only a boundary-conditioned version remains relevant.",
       "next_swing": "After a valid p2c adapter return, specify the constrained physical state space, boundary-conditioned C metric, and one gauge-independent interacting observable.",
       "kill_condition": "No positive boundary-conditioned physical sector or no gauge-independent observable kills downstream pole and interference packets.",
@@ -529,8 +686,20 @@
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "priority_score": 14,
-      "score": {"impact": 5, "information_gain": 5, "readiness": 1, "distinctiveness": 5, "time_sensitivity": 1, "effort": 5, "wall_risk": 5, "duplication_risk": 3},
-      "depends_on": ["DEP-PROP1", "DEP-W235-RECORD"],
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 5,
+        "time_sensitivity": 1,
+        "effort": 5,
+        "wall_risk": 5,
+        "duplication_risk": 3
+      },
+      "depends_on": [
+        "DEP-PROP1",
+        "DEP-W235-RECORD"
+      ],
       "current_authority": "W234/W237/W240/W241/W243 close neutral, adjoint, and charged-extremal classes, which are everything GU natively builds. GU-002 packages the result. W244 independently reverified the robust W240(C)/W243 mechanism.",
       "next_swing": "None. Preserve GU-002 and its scope conditions. The exotic nonextremal charged corridor is mathematically open but GU-non-native.",
       "kill_condition": "Already resolved as a native no-go at the recorded conditional scope.",
@@ -546,8 +715,20 @@
       "owner": "gu-formalization plus phenomenology packet",
       "hourly_eligible": false,
       "priority_score": 15,
-      "score": {"impact": 4, "information_gain": 5, "readiness": 1, "distinctiveness": 4, "time_sensitivity": 2, "effort": 4, "wall_risk": 4, "duplication_risk": 2},
-      "depends_on": ["PRED-NORM-RANK", "DEP-PROP1"],
+      "score": {
+        "impact": 4,
+        "information_gain": 5,
+        "readiness": 1,
+        "distinctiveness": 4,
+        "time_sensitivity": 2,
+        "effort": 4,
+        "wall_risk": 4,
+        "duplication_risk": 2
+      },
+      "depends_on": [
+        "PRED-NORM-RANK",
+        "DEP-PROP1"
+      ],
       "next_swing": "Derive a parameter-free relation between non-CPL expansion structure and an independent growth observable only after native normalization and source dynamics exist.",
       "kill_condition": "A fitted amplitude, ordinary LCDM mimic with equal freedom, or absent native source dynamics kills distinctiveness.",
       "switch_condition": "Activate only when its native coefficients are frozen before data confrontation.",
@@ -562,7 +743,16 @@
       "owner": "gu-formalization locally; external action is Joe-gated",
       "hourly_eligible": false,
       "priority_score": 14,
-      "score": {"impact": 4, "information_gain": 2, "readiness": 4, "distinctiveness": 4, "time_sensitivity": 1, "effort": 2, "wall_risk": 2, "duplication_risk": 3},
+      "score": {
+        "impact": 4,
+        "information_gain": 2,
+        "readiness": 4,
+        "distinctiveness": 4,
+        "time_sensitivity": 1,
+        "effort": 2,
+        "wall_risk": 2,
+        "duplication_risk": 3
+      },
       "depends_on": [],
       "current_authority": "Observer Value Selection Theorem is locally READY FOR ZENODO. Located, Not Forced has been judged arXiv-ready internally but remains publication-deferred pending Joe's decision and outside validation.",
       "next_swing": "No routine polish. Preserve readiness, track substantive new corrections, and surface the external-eyes decision to Joe without publishing or contacting anyone.",
@@ -579,7 +769,16 @@
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "priority_score": 14,
-      "score": {"impact": 4, "information_gain": 3, "readiness": 3, "distinctiveness": 4, "time_sensitivity": 1, "effort": 3, "wall_risk": 3, "duplication_risk": 2},
+      "score": {
+        "impact": 4,
+        "information_gain": 3,
+        "readiness": 3,
+        "distinctiveness": 4,
+        "time_sensitivity": 1,
+        "effort": 3,
+        "wall_risk": 3,
+        "duplication_risk": 2
+      },
       "depends_on": [],
       "current_authority": "W225/W236/W238 make the projected-shadow cheap read structurally clear for the stationary-vacuum Schwarzschild and Kerr class. This strengthens compatibility, not distinctiveness.",
       "next_swing": "Use the paper-hardening inventory to close the highest referee-facing theorem or novelty gap when Lane 3 wins the cross-lane selection rule.",
@@ -643,5 +842,7 @@
       "switch_condition": "A valid Drafting Factory request may reweight Lane 3 but cannot command GU or change scientific grade.",
       "forbidden_shortcut": "Do not create a parallel GU drafting queue or treat seed routing as paper production."
     }
-  ]
+  ],
+  "lane_manifest_ref": "LANES.yaml",
+  "work_group_catalog": []
 }

@@ -101,3 +101,13 @@ The strongest current public posture is:
 Start with `RESEARCH-POSTURE.md` and `NEXT-STEPS.md`. The best contributions are
 constructive, falsifiable, scoped, and explicit about which GU reconstruction claim they
 advance, block, or kill.
+
+## First-Class Lanes
+
+Load root `LANES.yaml` after this repository's governance and before selecting
+work. It is the owner-authoritative source for durable Lane definitions,
+admission, and normal control state; authoritative work remains at the paths it
+references. Numbered Lanes are Progress, lettered Lanes are Stewardship, and
+Discovery is Lane-less. A direct mount uses these local surfaces without
+CapacityOS. System observations, health, schedules, and execution history are
+not Lane truth.
