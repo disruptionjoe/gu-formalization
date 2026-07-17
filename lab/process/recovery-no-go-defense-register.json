@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-16",
+  "updated_at": "2026-07-17",
   "artifact_role": "Hourly-updatable register for bounded defense of branch-local recovery no-gos. It changes no claim status or verdict.",
   "protocol": "lab/process/recovery-no-go-defense-protocol.md",
   "history_audit_required_before_swing_1": true,
@@ -610,7 +610,7 @@
       "title": "Target-free complete Standard Model selector obstruction",
       "source_result": "explorations/recovery-contract-sm-selector-screen-2026-07-16.md",
       "current_grade": "branch-local NO_GO",
-      "challenge_state": "SWING_3_READY",
+      "challenge_state": "BOUNDED_NO_GO",
       "history_audit": {
         "state": "COMPLETE_NO_PRIOR_CLEARANCE_FOUND",
         "run_id": "GUH-20260716T150941Z-sm-nogo-defense",
@@ -857,9 +857,75 @@
               "first_falsification_test": "Reject any candidate whose selector is the standard finite algebra or SM quotient unless GU independently derives the selector first."
             }
           ]
+        },
+        {
+          "id": "SWING-3-SM-SELECTOR-ADJUDICATION",
+          "run_id": "GUH-20260717T075457Z-sm-swing3",
+          "state": "COMPLETE",
+          "result": "BOUNDED_NO_GO",
+          "evidence": "explorations/recovery-nogo-sm-selector-swing3-adjudication-2026-07-17.md",
+          "test": "tests/recovery-contract/sm_nogo_swing3_adjudication_gate.py",
+          "swing_2_consumed": true,
+          "summary": "Adversarial review found no legitimate survivor. The current host branch, quotient or observer selector route, symmetry-breaking or chirality route, boundary-conditioned physical-sector route, and standard-SM comparator either preserve the missing complete selector obstruction, depend on absent source-owned objects, assume an absent adapter, or import the target Standard Model structures.",
+          "stop_decision": "BOUNDED_NO_GO",
+          "construction_space_bounded": true,
+          "adversarial_checks": [
+            {
+              "id": "CURRENT_HOST_BRANCH",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "Pati-Salam / Spin(10) host evidence and W222 relative arithmetic do not select the finite algebra, global gauge quotient, absolute hypercharge, chirality production, physical Higgs, full spectrum, or unwanted-mode decoupling.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "host_only_relabeling_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "GAUGE_QUOTIENT_OBSERVER_SELECTOR",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "Current Phi_obs, fixed-data, and Type II1 selector records name missing channels or open-empty classes rather than emitting A_F, G_SM/Z_6, or a replacement observer shadow from GU data.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "source_selector_absent": true,
+              "explains_more": false
+            },
+            {
+              "id": "SYMMETRY_BREAKING_CHIRALITY",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "No current record derives the breaking field, vacuum selection, chirality-production object, Higgs projection, or unwanted-mode decoupling before granting the ordinary chiral shadow.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "granted_chiral_shadow_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "BOUNDARY_CONDITIONED_PHYSICAL_SECTOR",
+              "result": "NO_SURVIVOR_PRESERVED",
+              "reason": "No frozen adapter packet supplies the finite algebra, quotient, chirality, Higgs, observer-sector map, physical quotient, state-space closure, or exact mode list.",
+              "adapter_dependency": "absent frozen adapter packet",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            },
+            {
+              "id": "STANDARD_SM_COMPARATOR",
+              "result": "INVALID_ESCAPE_PRESERVED",
+              "reason": "The standard finite algebra, SM quotient, ordinary hypercharge, chirality, Higgs, and spectrum are comparator structures and cannot be imported as GU selector evidence.",
+              "target_import_rejected": true,
+              "branch_mixing_rejected": true,
+              "explains_more": false
+            }
+          ],
+          "resurrection_triggers": [
+            "a source-owned target-free finite algebra selector or replacement observer shadow with provenance and a first falsification test",
+            "a source-owned global gauge quotient and absolute hypercharge normalization, including the central quotient, emitted before using Standard Model target data",
+            "a source-owned chirality-production or symmetry-breaking object that also supplies physical Higgs projection and unwanted-mode decoupling",
+            "a frozen boundary-adapter return with provenance, branch conditions, observer-sector map, physical quotient, and exact mode list",
+            "a source-owned complete surviving-spectrum theorem with anomaly and unwanted-mode controls fixed before target comparison"
+          ],
+          "status_boundary": "No claim status, canon verdict, public posture, paper, portfolio, license, Lean, absorbed source, or cross-repo surface moved."
         }
       ],
-      "next_question": "Adjudicate the SM selector Swing 2 no-survivor result: check for hidden target import, host-only relabeling, absent adapter dependency, branch mixing, and boundedness of the tested construction space.",
+      "next_question": "The SM selector defense checkpoint is bounded negative for the tested construction space. With GR and cosmology also bounded and QM physical-sector interleave complete, next recovery-certification work should be selected through a fresh portfolio rerank around a new source-owned recovery fork, frozen p2c return, or another explicitly registered component.",
       "predeclared_construction_space": [
         "current GU-native Pati-Salam or Spin(10) host branch",
         "GU-native gauge quotient and observer-section selector",

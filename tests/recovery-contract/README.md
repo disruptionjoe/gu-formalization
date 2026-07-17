@@ -51,6 +51,10 @@ posture, or portfolio state.
   the Standard Model selector no-go defense: current host, quotient/observer,
   symmetry-breaking/chirality, and boundary-conditioned routes do not yet
   supply a complete source-owned selector, and standard SM import is rejected.
+- `sm_nogo_swing3_adjudication_gate.py` - Swing 3 adjudication gate for the
+  Standard Model selector no-go defense: the Swing 2 no-survivor result is
+  preserved as a bounded no-go for the tested construction space, with exact
+  resurrection triggers and no status movement.
 - `sm_selector_screen_gate.py` - branch-local `NO_GO` for complete low-energy
   Standard Model recovery under the frozen action fingerprint: current evidence
   positively hosts a Pati-Salam / Spin(10) branch and W222's relative
