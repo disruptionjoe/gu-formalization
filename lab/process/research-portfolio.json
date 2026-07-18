@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-07-16",
+  "updated_at": "2026-07-18",
   "artifact_role": "Repository-owned work and ranking portfolio. Durable Lane definitions and control state exist only in root LANES.yaml.",
   "authority": {
     "research_priority_owner": "gu-formalization",
     "scheduling_and_concurrency_owner": "CapacityOS",
-    "cross_repo_program_sequencing_owner": "JoeOps",
+    "cross_repo_program_sequencing_owner": "JoeOps for Joe-attention-dependent decisions and orchestration; otherwise the governing owner or workflow",
     "firewall_adapter_owner": "possibility-to-capability",
     "native_vs_forced_owner": "gu-formalization",
     "external_data_adjudication_owner": "phenomenology role, returned by frozen packet",
@@ -755,7 +755,7 @@
       },
       "depends_on": [],
       "current_authority": "Observer Value Selection Theorem is locally READY FOR ZENODO. Located, Not Forced has been judged arXiv-ready internally but remains publication-deferred pending Joe's decision and outside validation.",
-      "next_swing": "No routine polish. Preserve readiness, track substantive new corrections, and surface the external-eyes decision to Joe without publishing or contacting anyone.",
+      "next_swing": "No routine polish or repeated escalation. Preserve readiness and track substantive new corrections; the existing JoeOps awareness path is sufficient unless a new material signal appears.",
       "kill_condition": "Any new contradiction, novelty failure, citation failure, or reproducibility failure returns the affected paper to hardening.",
       "switch_condition": "Joe authorization or a substantive new defect, not another formatting pass.",
       "forbidden_shortcut": "Candidate status is not publication. Internal personas are not independent external review."

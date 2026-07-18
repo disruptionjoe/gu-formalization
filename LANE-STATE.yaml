@@ -1,0 +1,34 @@
+schema_version: "1.0"
+owner_id: gu-formalization
+rule_ref: system/runtime/flows/derive-lane-health.md
+evaluated_at: "2026-07-18T09:39:18-05:00"
+run_ref: RUN-20260718-483-repository-work-cycle-cai-hourly
+lanes:
+  - lane_id: "1"
+    light: green
+    reason_code: protected_truth_testing_active
+    evidence_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
+    summary: "Lane 1 remains protected with active no-go scope challenge work."
+    evaluated_at: "2026-07-18T09:39:18-05:00"
+    run_ref: RUN-20260718-483-repository-work-cycle-cai-hourly
+  - lane_id: "2"
+    light: green
+    reason_code: prediction_work_gated_but_defined
+    evidence_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
+    summary: "Lane 2 has defined prediction and computation work gated by evidence."
+    evaluated_at: "2026-07-18T09:39:18-05:00"
+    run_ref: RUN-20260718-483-repository-work-cycle-cai-hourly
+  - lane_id: "3"
+    light: green
+    reason_code: hardening_work_defined
+    evidence_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
+    summary: "Lane 3 has hardening work; external review remains non-executable."
+    evaluated_at: "2026-07-18T09:39:18-05:00"
+    run_ref: RUN-20260718-483-repository-work-cycle-cai-hourly
+  - lane_id: A
+    light: green
+    reason_code: mailbox_processed_and_priority_boundary_repaired
+    evidence_ref: "system/mailboxes/gu-formalization/archive/20260716-lane-steering-truth-testing-and-joeops-boundary.md"
+    summary: "Lane A processed two steering notes and repaired priority wording."
+    evaluated_at: "2026-07-18T09:39:18-05:00"
+    run_ref: RUN-20260718-483-repository-work-cycle-cai-hourly

@@ -71,7 +71,8 @@ updated_at: "2026-07-16"
 > the sorry-free and axiom-free `R4_TwoArena` certificate, retire the un-typechecked A1 duplicate, and only then
 > specify the W243/GU-002 finite kernel. Lean is a method in Lane 3, not its own lane, and never rises merely
 > because it is easier. `observer-value-selection-theorem` is locally ready for external eyes and
-> `located-not-forced` is internally arXiv-ready but Joe-deferred. Both remain `NEEDS_JOE`, not routine polish.
+> `located-not-forced` is internally arXiv-ready but Joe-deferred. Both remain `NEEDS_JOE`, not routine polish
+> or repeated escalation; the existing JoeOps awareness path is sufficient unless a new material signal appears.
 >
 > **Lane A controls:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
 > and `GUS` run IDs plus semantic dated filenames. Lane A alone routinely writes the portfolio and this block.
