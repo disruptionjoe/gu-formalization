@@ -50,7 +50,9 @@ updated_at: "2026-07-16"
 > dynamics without further imports. Return `CONDITIONAL_COMPLETE`, `CONDITIONAL_FAIL`, or `UNDERDEFINED`.
 > Conditional success does not construct the adapter. `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen
 > p2c return. `DEP-NATIVE-SOURCE-DATUM`, the Y14 `F_A` C2 source-action datum and native normalization, remains
-> parked, not solved.
+> parked, not solved. The 2026-07-18 boundary source-carrier mailbox intake is a discriminator inventory for
+> typing any future packet's carrier and interface; it does not establish an external signal, source action, or
+> native GU datum.
 >
 > Closed-interior `PHYSICAL-C` is excluded. `PHYSICAL-C-CONDITIONAL` may test downstream sufficiency under an
 > explicit adapter assumption. The physical boundary construction remains `GATED_P2C`. The native mirror route
