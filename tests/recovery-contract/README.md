@@ -18,6 +18,10 @@ posture, or portfolio state.
   gate: converts the `QM-PHYSICAL-SECTOR` conditional-fail certificate into a
   per-cell R0 checklist and verifies C4's typed p2c adapter interface without
   claiming an adapter exists.
+- `construction_space_source_object_spec_p5.py` - construction-space P5
+  source-object specification gate: verifies the frozen four-leg GR/QM/COSMO/SM
+  interface contract, parent-routed p2c handoff, unchanged coverage counts, and
+  P6 conditional-interior handoff.
 - `construction_space_sm_r0_c5_harness.py` - reusable construction-space P2
   SM R0 harness for C5 candidate quotient/algebra/shadow packets; the current
   Pati-Salam / Spin(10) host seed fails source-owned selector, native

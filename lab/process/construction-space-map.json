@@ -22,6 +22,15 @@
     "evidence": "lab/process/construction-space-preregistered-endings-2026-07-19.md",
     "summary": "Empty joint R0 intersection means the predeclared construction class failed the frozen sharp lists, not a global GU verdict. A survivor means existence at the recorded minimum rung with typed imports; only R2 supports native unification."
   },
+  "source_object_interface_contract": {
+    "status": "complete",
+    "completed_at": "2026-07-19",
+    "probe": "P5-SOURCE-OBJECT-SPEC",
+    "evidence": "lab/process/source-object-interface-contract.md",
+    "test": "tests/recovery-contract/construction_space_source_object_spec_p5.py",
+    "source_owner": "possibility-to-capability",
+    "summary": "P5 froze the four-leg source-object interface contract as a typed import: GR trace-free vacuum-support slot, QM physical-sector certificates, COSMO scalar-channel certificates, and SM source-owned selector certificates. No source instance exists; p2c routing is parent/daily-steward follow-up."
+  },
   "sharp_constraint_lists": {
     "frozen_at": "2026-07-19",
     "weakening_is_joe_gated": true,
@@ -153,6 +162,7 @@
         "source_owner": "possibility-to-capability",
         "expected_artifact": "frozen source-owned boundary/firewall adapter packet",
         "interface_role": "typed import for C1-QM and construction target for P5-SOURCE-OBJECT-SPEC",
+        "contract_ref": "lab/process/source-object-interface-contract.md",
         "must_supply": [
           "adapter provenance independent of the GU consequence it enables",
           "physical field complex or exact source-defined quotient interface",
@@ -301,7 +311,7 @@
     "open": 24,
     "gated": 5,
     "r0_failed": 5,
-    "summary": "12 of 36 track-cells are now non-open: 7 carry R0/R1 grades and 5 are gated. P1 moved C3-GR to R0_FAIL and C9-GR to GATED; P2 moved the current C5-SM seed to R0_FAIL; P3 cleared retro flags for C1-SM, C1-COSMO, and C2-GR; P4 converted the C1-QM conditional fail into a checklist and typed C4's adapter interface. No exhaustion claim: C4 and C9 remain gated, and future source-owned selector packets can run through the P2 harness."
+    "summary": "12 of 36 track-cells are non-open: 7 carry R0/R1 grades and 5 are gated. P5 froze the source-object interface contract without changing counts. No exhaustion claim: C4 and C9 remain gated, and P6 can grade interior cells R0_COND/R1_COND against the typed interface."
   },
   "council_rounds": [
     {
@@ -579,6 +589,46 @@
         }
       ],
       "chairman_synthesis": "P4 complete: C1-QM is checklist-verified as R1_COND with one typed adapter import, C4's p2c adapter interface is typed, and coverage remains 12/36. Next handoff is P5-SOURCE-OBJECT-SPEC, then P6 conditional interior."
+    },
+    {
+      "round": 7,
+      "date": "2026-07-19",
+      "mode": "inline rerank after P5 source-object interface contract",
+      "bench": [
+        "logician",
+        "differential geometer",
+        "category theorist",
+        "computer scientist",
+        "statistician"
+      ],
+      "member_positions": {
+        "logician": "P5 freezes a necessary interface, not an instance. The next useful test is conditional grading against the spec and an explicit inconsistency check.",
+        "differential_geometer": "The GR leg is now precise: a source-owned trace-free order-M2 cancellation or residual-bookkeeping object with coefficient frozen before target use.",
+        "category_theorist": "The source object is a shared interface across GR, QM, COSMO, and SM, so P6 should test whether cells can consume one shared object rather than per-sector repairs.",
+        "computer_scientist": "The contract is now machine-checkable; use it as the schema for conditional interior grades instead of prose-only candidate generation.",
+        "statistician": "Coverage counts should stay unchanged after a spec run. Information gain now comes from testing whether the remaining open cells can satisfy the frozen interface."
+      },
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P6-CONDITIONAL-INTERIOR",
+          "what": "Grade reachable open cells R0_COND/R1_COND against the frozen source-object interface contract, starting with C4, C6/C7/C8, and C9 combinations where one shared source object could satisfy more than one sector.",
+          "why": "P5 supplied the shared spec; the next highest-information move is to find whether any interior family can consume it consistently without sector-specific repairs."
+        },
+        {
+          "rank": 2,
+          "probe": "P2-HARNESS-ON-NEW-C5-ONLY",
+          "what": "Rerun the SM harness only if P6 or a p2c return supplies a new source-owned selector packet.",
+          "why": "Avoid duplicating the current C5 host-seed R0 fail."
+        },
+        {
+          "rank": 3,
+          "probe": "C9-REOPEN-ON-NEW-SOURCE",
+          "what": "Reopen C9-GR only with a source-owned first variation/coefficient packet frozen before target use.",
+          "why": "Standing reopen rule; P5 produced the requirement spec but no source instance."
+        }
+      ],
+      "chairman_synthesis": "P5 complete: the source-object interface contract is frozen, parent/daily steward should route it to p2c, and coverage remains 12/36. Next handoff is P6 conditional interior; no verdict, claim-status, or public-posture movement follows."
     }
   ]
 }

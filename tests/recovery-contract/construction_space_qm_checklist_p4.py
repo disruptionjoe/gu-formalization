@@ -167,10 +167,11 @@ def main() -> None:
     check("coverage arithmetic still matches cell ledger", actual_coverage == expected_coverage, f"{actual_coverage} vs {expected_coverage}")
     check("P4 changed no coverage counts", actual_coverage["dispositioned_track_cells"] == 12 and actual_coverage["open"] == 24)
     check("no verification flags remain after P4", verification_flags(map_data) == [])
-    final_round = map_data["council_rounds"][-1]
-    check("latest council is post-P4", final_round["round"] == 6 and "P4 complete" in final_round["chairman_synthesis"])
-    check("P5 is now first ranked handoff", final_round["ranked_search_plan"][0]["probe"] == "P5-SOURCE-OBJECT-SPEC")
-    check("P6 remains second ranked handoff", final_round["ranked_search_plan"][1]["probe"] == "P6-CONDITIONAL-INTERIOR")
+    round_six = next((entry for entry in map_data["council_rounds"] if entry["round"] == 6), None)
+    check("round 6 council is post-P4", round_six is not None and "P4 complete" in round_six["chairman_synthesis"])
+    if round_six is not None:
+        check("round 6 P5 is first ranked handoff", round_six["ranked_search_plan"][0]["probe"] == "P5-SOURCE-OBJECT-SPEC")
+        check("round 6 P6 remains second ranked handoff", round_six["ranked_search_plan"][1]["probe"] == "P6-CONDITIONAL-INTERIOR")
     check("P4 note says no paper seed", "No paper seed is present." in note)
 
     if FAIL:

@@ -45,7 +45,9 @@ updated_at: "2026-07-19"
 > C5-SM host seed to R0_FAIL. P3-RETRO-VERIFY is complete: C1-SM R1 import count, C1-COSMO R0_FAIL,
 > C2-GR inherited R0_FAIL, and coverage arithmetic were verified without changing counts. P4-QM-CHECKLIST
 > is complete: the C1-QM conditional-fail row is checklist-verified as `R1_COND` with one typed adapter import,
-> and C4's p2c adapter interface is typed. Next execute P5-SOURCE-OBJECT-SPEC, then P6-CONDITIONAL-INTERIOR.
+> and C4's p2c adapter interface is typed. P5-SOURCE-OBJECT-SPEC is complete:
+> `lab/process/source-object-interface-contract.md` freezes the four-leg GR/QM/COSMO/SM source-object
+> interface as a typed import with no source instance. Next execute P6-CONDITIONAL-INTERIOR.
 > No global verdict or
 > exhaustion claim follows. `RECOVERY-CERTIFICATION` stands with its
 > `NO-GO-SCOPE-CHALLENGE` set parked after completion: the exact-vacuum GR, cosmological scalar-truncation, and

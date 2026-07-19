@@ -224,11 +224,11 @@ def main() -> None:
         remaining_flags in ([], [("C1-W229-RECORD-CURRENT", "QM")]),
         str(remaining_flags),
     )
+    round_four = next((entry for entry in map_data["council_rounds"] if entry["round"] == 4), None)
+    check("round 4 council is post-P3", round_four is not None and "P3 complete" in round_four["chairman_synthesis"])
+    if round_four is not None:
+        check("round 4 handoff is P4", round_four["ranked_search_plan"][0]["probe"] == "P4-QM-CHECKLIST")
     final_round = map_data["council_rounds"][-1]
-    check(
-        "latest council handoff is P4 or later",
-        final_round["ranked_search_plan"][0]["probe"] in {"P4-QM-CHECKLIST", "P5-SOURCE-OBJECT-SPEC"},
-    )
     check("latest council preserves P3-or-later progression", final_round["round"] >= 4)
 
     log("")

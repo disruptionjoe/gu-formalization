@@ -2,12 +2,12 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-19T16:05:00-05:00'
-run_ref: joe-direct-chat-2026-07-19-needs-joe-reconciliation
-bottom_line: L1 derives the source-object spec and explores conditionally; L3 routes
-  paper seeds to Drafting Factory. No Joe-facing ask.
-decision_default: Run P5-SOURCE-OBJECT-SPEC next, then P6 conditional interior;
-  do not rerun P1/P2/P3/P4.
+updated_at: '2026-07-19T16:45:00-05:00'
+run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
+bottom_line: L1 froze the source-object interface; parent routes p2c and Drafting
+  Factory payloads. Next P6 conditional interior.
+decision_default: Run P6-CONDITIONAL-INTERIOR next; parent routes the p2c spec
+  and Drafting Factory seed payloads.
 needs_joe: false
 lanes:
 - lane_id: '1'
@@ -17,36 +17,34 @@ lanes:
   reason_code: exploration_program_active
   evidence_ref: lab/process/construction-space-exploration-protocol.md
   work_status: moving
-  last_movement: P4 converted the QM conditional-fail certificate list into the
-    construction-space checklist.
-  movement_ref: lab/process/construction-space-map.json
+  last_movement: P5 froze the four-leg source-object interface contract.
+  movement_ref: lab/process/source-object-interface-contract.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: QM checklist is executable; source-object spec is next.
-  progress_delta: 'Since P4: C1-QM verification cleared; C4 adapter interface typed;
-    counts stayed 12 of 36 non-open.'
+  summary: Source-object spec is frozen; conditional interior is next.
+  progress_delta: 'Since P5: four-leg GR/QM/COSMO/SM interface frozen; counts stayed
+    12 of 36 non-open.'
   scope_position: 'Map: 12 of 36 track-cells non-open (7 graded, 5 gated), 24 open;
-    all P1-P4 retro/QM flags clear.'
+    P5 complete, no source instance.'
   trend_24h: up
   confidence: med
-  recommendation: Run P5 source-object spec next
-  findings: 'P4 found no new verdict: the QM leg remains conditional on one typed
-    adapter import, with quotient/state/observable/probability/ locality/dynamics
-    certificates absent natively.'
+  recommendation: Run P6 conditional interior next
+  findings: 'P5 produced no verdict: one shared source object must satisfy GR trace-free,
+    QM certificate, COSMO scalar, and SM selector legs.'
   options:
   - key: A
-    label: Run P5 source-object spec
+    label: Run P6 conditional interior
     recommended: true
   - key: B
-    label: Continue P6 conditional interior
+    label: Await p2c source packet
   - key: C
     label: Run Lane 2 DE audit
-  decision_default: Exploration proceeds P5 -> P6; the interface spec routes to
-    p2c when frozen; P1/P2/P3/P4 reopen only on new source-owned packets.
+  decision_default: Explore R0_COND/R1_COND against the frozen contract; p2c routing
+    is parent/steward follow-up.
   needs_joe: false
-  evaluated_at: '2026-07-19T15:42:00-05:00'
-  run_ref: RUN-20260719-543-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-19T16:45:00-05:00'
+  run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -123,38 +121,38 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: no_drift_detected
-  evidence_ref: lab/process/recovery-no-go-defense-register.json
+  reason_code: mailbox_reconciled_no_drift
+  evidence_ref: ../../../system/mailboxes/gu-formalization/20260719-papers-route-as-drafting-factory-seeds.md
   work_status: moving
-  last_movement: Parked completed recovery-defense steering and refreshed the front
-    door.
-  movement_ref: lab/process/research-portfolio.json
+  last_movement: Accepted paper-routing mailbox and returned parent routing payloads.
+  movement_ref: lab/process/source-object-interface-contract.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Completed recovery-defense work reconciled and parked; front door refreshed;
-    no drift detected.
-  progress_delta: Reconciled the completed defense set into the portfolio and refreshed
-    the front door; status surfaces consistent.
+  summary: Mailbox disposition accepted; parent should route seed payloads and p2c
+    spec.
+  progress_delta: Processed one GU mailbox note; no drift found; cross-owner routing
+    returned to parent.
   trend_24h: flat
   confidence: high
-  recommendation: Healthy; no action
-  findings: No drift detected across portfolio, receipts, dependencies, or status
-    surfaces after the defense-set closure cascade.
+  recommendation: Parent routes p2c and DF payloads
+  findings: Mailbox rule already reflected in portfolio; child prepared routing payloads
+    instead of writing outside checkout.
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Standing stewardship continues.
+  decision_default: Standing stewardship continues; parent archives GU mailbox after
+    routing.
   needs_joe: false
   drift_verdict: clean
   action_counts:
-    mail: 0
+    mail: 1
     reconciled: 1
-    integrity_repairs: 1
+    integrity_repairs: 0
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs you; worth knowing that the L1 defense set reached
-    its registered endpoints and was parked with wake conditions.
-  evaluated_at: '2026-07-19T09:47:00-05:00'
-  run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
+  attention_pointer: Nothing needs Joe; parent should archive GU mailbox after routing
+    payloads.
+  evaluated_at: '2026-07-19T16:45:00-05:00'
+  run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
