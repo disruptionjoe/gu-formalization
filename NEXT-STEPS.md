@@ -36,7 +36,12 @@ updated_at: "2026-07-19"
 > North Star bar — and weave survivors rung-aware. The falsification target is the joint intersection over the
 > fully dispositioned space, not any single-candidate kill; existing no-gos are boundary data that carve the
 > map. Protocol: `lab/process/construction-space-exploration-protocol.md`; first deliverable is
-> `lab/process/construction-space-map.json`. `RECOVERY-CERTIFICATION` stands with its
+> `lab/process/construction-space-map.json`. P0 pre-registration is complete at
+> `lab/process/construction-space-preregistered-endings-2026-07-19.md`: an empty joint R0 intersection
+> falsifies the predeclared construction class only, while a survivor means existence at the recorded minimum
+> rung with typed imports and not native unification unless it earns R2. Next execute P1 in lemma form
+> (GR R0, C9 before C3, with the native-vacuum sub-question explicit) and build P2 as the reusable SM R0
+> harness when capacity permits. `RECOVERY-CERTIFICATION` stands with its
 > `NO-GO-SCOPE-CHALLENGE` set parked after completion: the exact-vacuum GR, cosmological scalar-truncation, and
 > complete-Standard-Model selector defenses each completed history audit plus the minimum three broad swings and
 > now stand as bounded branch-local no-gos in `lab/process/recovery-no-go-defense-register.json`. Preserve them,

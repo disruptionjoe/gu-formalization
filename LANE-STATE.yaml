@@ -2,15 +2,15 @@ schema_version: "2.0"
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: "2026-07-19T10:30:00-05:00"
-run_ref: joe-direct-chat-2026-07-19-construction-space-exploration-install
+updated_at: "2026-07-19T10:44:00-05:00"
+run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
 bottom_line: >-
-  L1 is active again: the Joe-authorized construction-space exploration
-  program (map, sector-fit searches, weave) replaces the passive park and is
-  now top eligible work; one L3 paper still waits on you.
+  L1 moved: construction-space exploration now has its pre-registered endings
+  and import counter, so the next useful probes are the GR R0 lemma and SM R0
+  harness; one L3 paper still waits on you.
 decision_default: >-
-  Selection contract proceeds: CONSTRUCTION-SPACE-EXPLORATION (score 25) is
-  top eligible; its first deliverable is the six-axis construction map.
+  Selection contract proceeds: P0 is complete; run P1-GR-R0-LEMMA-C9-C3 and
+  P2-SM-R0-HARNESS-C5 when capacity permits.
 needs_joe: true
 lanes:
   - lane_id: "1"
@@ -22,28 +22,27 @@ lanes:
     evidence_ref: "lab/process/construction-space-exploration-protocol.md"
     work_status: moving
     last_movement: >-
-      Joe authorized the construction-space exploration program; passive park
-      replaced with an active search generator.
-    movement_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
+      P0 pre-registered the two endings of the construction-space search and
+      froze import-counter semantics before sector probes accumulate.
+    movement_ref: "lab/process/construction-space-preregistered-endings-2026-07-19.md"
     steering_attention: none
     steering_prompt: none
     steering_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
     summary: >-
-      Exploration program installed and amended: graded fit ladder (R0
-      consistency admission, R1 typed imports, R2 native as North Star bar);
-      falsification target is the joint intersection.
+      Exploration program installed and amended; P0 now prevents over-reading
+      either endpoint: empty intersection is class-scoped only, and a survivor
+      is existence at its recorded rung unless it earns R2.
     progress_delta: >-
-      Since this morning: exploration program installed, amended to the graded
-      ladder, and Stage 1 completed — map built with 9 cells, constraint lists
-      frozen, council round 1 ranked the opening probes (GR first, SM sweep
-      second).
+      Since the map install: council round 2 ranked a pre-registration page
+      before the GR lemma; P0 is complete and wired into the map, portfolio,
+      and front door.
     scope_position: >-
       Map: 9 of 36 track-cells dispositioned, 21 open, 4 gated on p2c.
-      Binding constraint is GR vacuum support; live R0-GR candidates: C3
-      bare-theta, C9 ambient/H-class (plus gated C4).
+      Track-cell grades are unchanged; round 2 now says P1 should run in
+      lemma form with C9 before C3, and P2 should be a reusable SM harness.
     trend_24h: up
     confidence: med
-    recommendation: "Run P1 (GR R0 on C3/C9), then P2 (SM sweep)"
+    recommendation: "Run P1 GR lemma and P2 SM harness; do not repeat P0"
     findings: >-
       Defense complete: the GR, cosmology, and Standard Model no-gos each
       survived history audit plus three broad construction-diverse swings and
@@ -63,8 +62,8 @@ lanes:
       Exploration proceeds; the defense register's wake conditions are
       satisfied whenever it freezes a multi-sector candidate.
     needs_joe: false
-    evaluated_at: "2026-07-19T10:30:00-05:00"
-    run_ref: joe-direct-chat-2026-07-19-construction-space-exploration-install
+    evaluated_at: "2026-07-19T10:44:00-05:00"
+    run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
   - lane_id: "2"
     objective: >-
       Extract, freeze, compute, and confront genuinely GU-native predictions

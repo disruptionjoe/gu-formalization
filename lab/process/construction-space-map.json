@@ -13,6 +13,13 @@
     "GATED": "examination blocked on a named dependency"
   },
   "retro_grading_note": "Initial grades are retro-read from existing evidence at register/canon pointers. Every retro grade carries verification_needed: true until an hourly probe confirms it against the frozen constraint list. Prior BOUNDED_NO_GO results were derivation-strength (R2) kills; they are recorded as boundary data and do not settle R0/R1.",
+  "preregistered_endings": {
+    "status": "complete",
+    "completed_at": "2026-07-19",
+    "probe": "P0-PREREGISTER-ENDINGS",
+    "evidence": "lab/process/construction-space-preregistered-endings-2026-07-19.md",
+    "summary": "Empty joint R0 intersection means the predeclared construction class failed the frozen sharp lists, not a global GU verdict. A survivor means existence at the recorded minimum rung with typed imports; only R2 supports native unification."
+  },
   "sharp_constraint_lists": {
     "frozen_at": "2026-07-19",
     "weakening_is_joe_gated": true,
@@ -347,6 +354,9 @@
         {
           "rank": 0,
           "probe": "P0-PREREGISTER-ENDINGS",
+          "state": "COMPLETE",
+          "completed_at": "2026-07-19",
+          "evidence": "lab/process/construction-space-preregistered-endings-2026-07-19.md",
           "what": "One page freezing both interpretive commitments: what the program asserts if the joint intersection empties, and what it asserts if a survivor emerges (existence-with-N-imports, not unification). Include frozen import-typing rules.",
           "why": "Vaccine against post-hoc goalpost moves in either direction; also freezes the counter semantics cross-cell comparisons depend on (philosopher, orthodox)."
         },
