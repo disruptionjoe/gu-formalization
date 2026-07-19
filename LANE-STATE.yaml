@@ -1,58 +1,196 @@
-schema_version: "1.0"
+schema_version: "2.0"
 owner_id: gu-formalization
-rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-19T09:31:00-05:00"
-run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
+group: church-of-ai
+rule_ref: system/runtime/flows/refresh-lane-state.md
+updated_at: "2026-07-19T09:47:00-05:00"
+run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
+bottom_line: >-
+  L1 defense complete: all three recovery no-gos now bounded and the lane is
+  parked awaiting a new signal; live work shifts to the L2 dark-energy audit;
+  one L3 paper waits on you.
+decision_default: >-
+  Selection contract proceeds: the DE amplitude audit is top eligible work;
+  L1 wakes only on its registered conditions.
+needs_joe: true
 lanes:
   - lane_id: "1"
-    work_status: gated
-    last_movement: "current registered recovery no-go defense set parked after bounded endpoints"
+    objective: >-
+      Test whether one frozen GU construction recovers the required physics
+      without sector-specific repair.
+    light: yellow
+    reason_code: parked_bounded_endpoints_awaiting_new_signal
+    evidence_ref: "lab/process/recovery-no-go-defense-register.json"
+    work_status: blocked
+    last_movement: >-
+      Defense set completed and parked: three no-gos bounded after history
+      audit plus three swings each.
     movement_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
-    steering_attention: none
-    steering_prompt: "Reopen Lane 1 progress only on a new source-owned fork, frozen p2c return, or registered target."
+    steering_attention: watch
+    steering_prompt: >-
+      Reopen Lane 1 progress only on a new source-owned fork, frozen p2c
+      return, or registered target.
     steering_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
-    light: green
-    reason_code: protected_truth_testing_waiting_for_new_signal
-    evidence_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
-    summary: "Lane 1 is protected but its current recovery-defense set is parked."
-    evaluated_at: "2026-07-19T09:31:00-05:00"
-    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
+    summary: >-
+      Lane 1 is protected but parked: the registered recovery-defense set
+      reached its bounded endpoints with no automatic next swing.
+    progress_delta: >-
+      Since yesterday: defense-attorney set completed — all three no-gos now
+      BOUNDED_NO_GO after 3 swings each; QM interleave CONDITIONAL_FAIL;
+      lane parked at stop rule.
+    scope_position: >-
+      Construction 1 of the predeclared class: 3 of 3 recovery targets
+      BOUNDED_NO_GO; QM physical-sector interleave CONDITIONAL_FAIL; no
+      eligible swing pending a new signal.
+    trend_24h: up
+    confidence: med
+    recommendation: "Hold the park; wake on p2c return or new fork"
+    findings: >-
+      Defense complete: the GR, cosmology, and Standard Model no-gos each
+      survived history audit plus three broad construction-diverse swings and
+      now stand as BOUNDED_NO_GO. The QM physical-sector conditional
+      sufficiency interleave returned CONDITIONAL_FAIL.
+    options:
+      - key: A
+        label: Hold the park; wake on registered conditions
+        recommended: true
+      - key: B
+        label: Register a new construction fork to reopen recovery testing
+      - key: C
+        label: Open the exhaustion question on the predeclared class
+          (Joe-gated verdict)
+    decision_default: >-
+      Park holds; Lane 1 reopens only on its registered wake conditions.
+    needs_joe: false
+    evaluated_at: "2026-07-19T09:47:00-05:00"
+    run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
   - lane_id: "2"
+    objective: >-
+      Extract, freeze, compute, and confront genuinely GU-native predictions
+      and falsification tripwires.
+    light: yellow
+    reason_code: prediction_work_thin_gated
+    evidence_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
     work_status: thin
-    last_movement: "none found in this run; prediction work remains gated but defined"
+    last_movement: none found
     movement_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
     steering_attention: none
-    steering_prompt: "none"
+    steering_prompt: none
     steering_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
-    light: green
-    reason_code: prediction_work_defined
-    evidence_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
-    summary: "Lane 2 keeps defined prediction work behind evidence gates."
-    evaluated_at: "2026-07-19T09:31:00-05:00"
-    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
+    summary: >-
+      Prediction chain gated on new native structure; the dark-energy
+      amplitude audit is now the repo's top eligible progress work.
+    progress_delta: >-
+      No movement in 24h, but with L1 parked the DE amplitude audit (READY)
+      becomes the repo's top eligible progress item.
+    scope_position: >-
+      3 of 3 attempted prediction routes no-go; 2 items live (1 ready, 1
+      monitor), 3 gated, 1 parked.
+    trend_24h: flat
+    confidence: low
+    recommendation: "Run the DE amplitude audit; it is now top eligible"
+    findings: >-
+      GU leaves too much invariant freedom at the current construction grade:
+      no basis-invariant Yukawa reduction and no absolute normalization, so
+      the freeze-and-confront chain cannot start without new native
+      structure.
+    options:
+      - key: A
+        label: Run the DE amplitude audit as the live progress item
+        recommended: true
+      - key: B
+        label: Idle on monitor only
+      - key: C
+        label: Hold Lane 2 until Lane 1 wakes
+    decision_default: >-
+      Selection contract picks the DE audit as eligible progress work.
+    needs_joe: false
+    evaluated_at: "2026-07-19T09:47:00-05:00"
+    run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
   - lane_id: "3"
-    work_status: thin
-    last_movement: "none found in this run; hardening work remains available"
+    objective: >-
+      Harden valuable results through proof, testing, reproducibility, and
+      source-ready publication packets.
+    light: yellow
+    reason_code: waiting_on_joe_paper_decision
+    evidence_ref: "lab/process/research-portfolio.json#PAPER-EXTERNAL-EYES"
+    work_status: waiting_on_joe
+    last_movement: none found
     movement_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
-    steering_attention: none
-    steering_prompt: "none"
-    steering_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
-    light: green
-    reason_code: hardening_work_available
-    evidence_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
-    summary: "Lane 3 has available proof-hardening work; external review remains gated."
-    evaluated_at: "2026-07-19T09:31:00-05:00"
-    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
+    steering_attention: watch
+    steering_prompt: >-
+      PAPER-EXTERNAL-EYES held at the external-review ceiling awaiting your
+      go.
+    steering_ref: "lab/process/research-portfolio.json#PAPER-EXTERNAL-EYES"
+    summary: >-
+      Proof cleanup available; finished papers held at the external-review
+      ceiling pending Joe.
+    progress_delta: >-
+      No new results; Lean cleanup queued (fold R4_TwoArena certificate,
+      retire un-typechecked A1 draft). Papers still held at review ceiling.
+    scope_position: >-
+      Papers: 2 banked (1 needs Joe, 1 parked); proof kernels: 1 certificate
+      ready to fold.
+    trend_24h: flat
+    confidence: med
+    recommendation: "Continue proof cleanup; paper needs your call"
+    findings: >-
+      No new science; the R4_TwoArena certificate is sorry-free and
+      axiom-free but not yet folded into the default build target, and an
+      un-typechecked A1 draft duplicate could be miscited until retired.
+    options:
+      - key: A
+        label: Continue cleanup; Joe decides the paper separately
+        recommended: true
+      - key: B
+        label: Send the held paper to external review (Joe-gated)
+      - key: C
+        label: Park the lane
+    decision_default: Cleanup proceeds; the paper stays held.
+    needs_joe: true
+    evaluated_at: "2026-07-19T09:47:00-05:00"
+    run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
   - lane_id: A
+    objective: >-
+      Keep the repo viable and trustworthy: coordination, control, audit,
+      adaptation, policy, escalation.
+    light: green
+    reason_code: no_drift_detected
+    evidence_ref: "lab/process/recovery-no-go-defense-register.json"
     work_status: moving
-    last_movement: "parked completed recovery-defense steering and refreshed front door"
+    last_movement: >-
+      Parked completed recovery-defense steering and refreshed the front
+      door.
     movement_ref: "lab/process/research-portfolio.json"
     steering_attention: none
-    steering_prompt: "none"
+    steering_prompt: none
     steering_ref: "lab/process/research-portfolio.json"
-    light: green
-    reason_code: completed_recovery_defense_steering_reconciled
-    evidence_ref: "lab/process/recovery-no-go-defense-register.json"
-    summary: "Lane A parked completed recovery-defense work and refreshed steering."
-    evaluated_at: "2026-07-19T09:31:00-05:00"
-    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
+    summary: >-
+      Completed recovery-defense work reconciled and parked; front door
+      refreshed; no drift detected.
+    progress_delta: >-
+      Reconciled the completed defense set into the portfolio and refreshed
+      the front door; status surfaces consistent.
+    trend_24h: flat
+    confidence: high
+    recommendation: "Healthy; no action"
+    findings: >-
+      No drift detected across portfolio, receipts, dependencies, or status
+      surfaces after the defense-set closure cascade.
+    options:
+      - key: A
+        label: Continue standing stewardship
+        recommended: true
+    decision_default: Standing stewardship continues.
+    needs_joe: false
+    drift_verdict: clean
+    action_counts:
+      mail: 0
+      reconciled: 1
+      integrity_repairs: 1
+      seeds_routed: 0
+      escalations: 0
+    attention_pointer: >-
+      Nothing needs you; worth knowing that the L1 defense set reached its
+      registered endpoints and was parked with wake conditions.
+    evaluated_at: "2026-07-19T09:47:00-05:00"
+    run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
