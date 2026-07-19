@@ -2,12 +2,13 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-19T17:45:38-05:00'
-run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
-bottom_line: L1 completed P6 conditional interior; the shared source-object corridor
-  is conditional, not an instance. Next P7 shared-normalization ledger.
-decision_default: Run P7-SHARED-NORMALIZATION-LEDGER next; parent still routes
-  the p2c spec and Drafting Factory seed payloads from RUN-20260719-545.
+updated_at: '2026-07-19T18:20:00-05:00'
+run_ref: joe-direct-chat-2026-07-19-channels-and-standing-axiom
+bottom_line: L1 now runs four hypothesis channels under the adapter axiom toward
+  an N<=4 minimal payload; transcript re-read reopened a vacuum-field family (C10)
+  the map had missed.
+decision_default: Channels proceed CH-GR first; no stop on adapter-needed; integration
+  when all four parameter cards freeze.
 needs_joe: false
 lanes:
 - lane_id: '1'
@@ -23,17 +24,22 @@ lanes:
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: P6 opened a conditional corridor while preserving no-instance discipline.
-  progress_delta: 'Since P6: C9-GR, C6-SM, C7-COSMO, and C8-COSMO are conditionally
-    graded against one shared source-object interface.'
-  scope_position: 'Map: 15 of 36 track-cells non-open (6 direct, 5 conditional,
-    4 gated), 21 open; P6 complete, no source instance.'
+  summary: Four hypothesis channels run under the standing axiom; no channel may
+    stop on adapter-needed; integration after all cards freeze.
+  progress_delta: Joe restructured L1 into four hypothesis channels (QM/GR/COSMO/SM)
+    under the boundary-adapter standing axiom; transcript re-read added C10 (distortion
+    vacuum field); four-leg swing produced per-channel hypotheses and a candidate
+    N<=4 minimal payload.
+  scope_position: 'Channels: 0 of 4 parameter cards frozen. Map: 10 cells; C10 new
+    (OPEN all tracks). Integration barrier after all 4 cards.'
   trend_24h: up
   confidence: med
-  recommendation: Run P7 shared-normalization ledger next
-  findings: 'P6 produced no verdict: C4 remains gated, and the conditional corridor
-    is useful only if one shared source object satisfies all four legs without
-    hidden sector retuning.'
+  recommendation: 'Run CH-GR first: formalize C10, compute VEV stress'
+  findings: 'Transcript re-read: Weinstein vacuum object is NOT metric-proportional
+    (the killed C3 family) but the distortion field with VEV — vacuum-supported,
+    direction-capable (C10). Four-leg swing: all external needs may reduce to a
+    finite payload — one Z/2 orientation (p2c-style topological), one VEV branch,
+    one absolute scale, one subgroup datum.'
   options:
   - key: A
     label: Run P7 shared ledger
@@ -45,8 +51,8 @@ lanes:
   decision_default: Test P6-CORRIDOR-A for shared identity, assumptions, normalization,
     loss ledger, import count, and rollback across all four legs.
   needs_joe: false
-  evaluated_at: '2026-07-19T17:45:38-05:00'
-  run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-19T18:20:00-05:00'
+  run_ref: joe-direct-chat-2026-07-19-channels-and-standing-axiom
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -138,8 +144,8 @@ lanes:
   trend_24h: flat
   confidence: high
   recommendation: Parent routes p2c and DF payloads
-  findings: Mailbox rule already reflected in portfolio; child prepared routing payloads
-    instead of writing outside checkout.
+  findings: Mailbox rule already reflected in portfolio; child prepared routing
+    payloads instead of writing outside checkout.
   options:
   - key: A
     label: Continue standing stewardship

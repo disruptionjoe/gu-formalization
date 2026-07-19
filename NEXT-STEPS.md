@@ -29,6 +29,19 @@ updated_at: "2026-07-19"
 > `rerank-next-work` flow to rank work inside the lane it used and then rank the three numbered lane leaders.
 > Lane A daily Stewardship decides whether that evidence changes durable portfolio state.
 >
+> **2026-07-19 evening restructure (Joe direct chat):** Lane 1 now runs as four hypothesis CHANNELS
+> (CH-QM, CH-GR, CH-COSMO, CH-SM) under the boundary-adapter STANDING AXIOM
+> (`lab/process/boundary-adapter-standing-axiom.md`): the adapter is assumed; "needs the adapter" is never a
+> stop, gate, or no-worthy-work reason — record the demand on the channel's parameter card and continue the
+> conditional construction. Each channel freezes a parameter card (sector construction parameters + realistic
+> adapter parameters); when all four cards freeze, the lane moves to integration and the welded minimal
+> payload (target N<=4: one Z/2 orientation, one VEV branch, one absolute scale, one subgroup datum) routes to
+> possibility-to-capability. Hypotheses and first tests:
+> `explorations/adapter-assumed-four-leg-swing-2026-07-19.md`. Transcript re-read added cell
+> C10-DISTORTION-VACUUM-FIELD (`explorations/transcript-reread-distortion-vacuum-field-2026-07-19.md`):
+> Weinstein's vacuum object is the distortion field with a VEV, NOT the killed scalar-isotropic family.
+> CH-GR runs first (formalize C10, compute VEV stress trace-free component).
+>
 > **Lane 1 current leader:** `CONSTRUCTION-SPACE-EXPLORATION` (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,
 > cosmology) on the graded fit ladder — Rung 0 consistency against sharp constraint lists is the admission bar,

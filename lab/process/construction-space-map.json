@@ -205,19 +205,23 @@
       "tracks": {
         "SM": {
           "grade": "GATED",
-          "gate": "frozen p2c packet (DEP-NATIVE-SOURCE-DATUM)"
+          "gate": "frozen p2c packet (DEP-NATIVE-SOURCE-DATUM)",
+          "note": "Standing axiom 2026-07-19: gate holds ONLY for unconditional validation; conditional R0_COND/R1_COND work proceeds now."
         },
         "QM": {
           "grade": "GATED",
-          "gate": "frozen p2c packet; PHYSICAL-C-CONDITIONAL (READY) is this cell's live probe"
+          "gate": "frozen p2c packet; PHYSICAL-C-CONDITIONAL (READY) is this cell's live probe",
+          "note": "Standing axiom 2026-07-19: gate holds ONLY for unconditional validation; conditional R0_COND/R1_COND work proceeds now."
         },
         "GR": {
           "grade": "GATED",
-          "gate": "frozen p2c packet"
+          "gate": "frozen p2c packet",
+          "note": "Standing axiom 2026-07-19: gate holds ONLY for unconditional validation; conditional R0_COND/R1_COND work proceeds now."
         },
         "COSMO": {
           "grade": "GATED",
-          "gate": "frozen p2c packet"
+          "gate": "frozen p2c packet",
+          "note": "Standing axiom 2026-07-19: gate holds ONLY for unconditional validation; conditional R0_COND/R1_COND work proceeds now."
         }
       }
     },
@@ -346,6 +350,29 @@
         },
         "COSMO": {
           "grade": "OPEN"
+        }
+      }
+    },
+    {
+      "id": "C10-DISTORTION-VACUUM-FIELD",
+      "family": "Theta distortion (parameterized torsion) as the vacuum-response field replacing the Lambda-times-metric slot (transcript-anchored)",
+      "axis_notes": "L1/L6/L7 delta from C1: field content of the vacuum response changes; equivariance-derived divergence-freeness; VEV-capable. Provenance: papers/drafts/Transcript into the impossible.md [00:22:26]-[00:27:00].",
+      "tracks": {
+        "SM": {
+          "grade": "OPEN",
+          "note": "H-SM: selector as VEV-conditioned finite data; transcript [00:46:40] conditions chirality on a VEV."
+        },
+        "QM": {
+          "grade": "OPEN",
+          "note": "H-QM applies at the shared-orientation level; primary QM work runs in the QM channel."
+        },
+        "GR": {
+          "grade": "OPEN",
+          "note": "H-GR primary cell: does any VEV branch carry a nonzero trace-free Q^TF(B)-slot component at O(M^2)? NOT the killed scalar-isotropic C3 family."
+        },
+        "COSMO": {
+          "grade": "OPEN",
+          "note": "H-COSMO: magnitude mode of the same VEV as the scalar channel."
         }
       }
     }
@@ -716,6 +743,40 @@
         }
       ],
       "chairman_synthesis": "P6 complete: first conditional interior grades are recorded without source-instance, verdict, claim-status, or public-posture movement. Next handoff is P7 shared-normalization ledger for P6-CORRIDOR-A."
+    },
+    {
+      "round": 6,
+      "date": "2026-07-19",
+      "mode": "Joe-directed restructure + adapter-assumed four-leg swing",
+      "steer": "Boundary adapter adopted as standing axiom (lab/process/boundary-adapter-standing-axiom.md); 'needs adapter' banned as a stop reason. Lane 1 work restructured into four hypothesis-guided CHANNELS (drafting-factory pattern): each freezes a parameter card (sector construction parameters + realistic adapter parameters), then an integration barrier flips the lane to integration.",
+      "channels": [
+        {
+          "id": "CH-QM",
+          "hypothesis": "H-QM: adapter transmits one global Z/2 orientation (topologically stored, p2c-style) fixing the Krein sign and d_RS,-1; six P4 certificates follow from the graded quotient.",
+          "first_test": "Finite graded-quotient toy: right orientation yields positive physical sector, wrong orientation visibly fails; both-work kills the hypothesis.",
+          "deliverable": "CH-QM parameter card"
+        },
+        {
+          "id": "CH-GR",
+          "hypothesis": "H-GR: adapter transmits the distortion VEV branch selection + one frozen coefficient; VEV tensor structure supplies trace-free Q^TF(B) cancellation; sign plausibly the H-QM Z/2.",
+          "first_test": "Formalize C10; compute VEV stress structure: nonzero trace-free Q^TF-slot component for ANY branch, else C10 dies like C3.",
+          "deliverable": "CH-GR parameter card"
+        },
+        {
+          "id": "CH-COSMO",
+          "hypothesis": "H-COSMO: scalar channel is the magnitude mode of the same VEV; adapter transmits the one absolute scale GU provably cannot fix (PRED-NORM-RANK).",
+          "first_test": "Does the magnitude fluctuation yield a closed SVT scalar truncation with dischargeable residues?",
+          "deliverable": "CH-COSMO parameter card"
+        },
+        {
+          "id": "CH-SM",
+          "hypothesis": "H-SM: selector is VEV-conditioned finite data (subgroup-chain datum + shared scale); chirality follows from VEV-conditioning; generation-count-from-sector-structure explicitly speculative.",
+          "first_test": "P2 harness on the VEV-conditioned selector candidate across subgroup chains.",
+          "deliverable": "CH-SM parameter card"
+        }
+      ],
+      "integration_barrier": "When all four channels freeze parameter cards, Lane 1 updates to INTEGRATION: weld the cards, check shared-payload consistency (target: N<=4 finite package — Z/2 orientation, VEV branch, absolute scale, subgroup datum), and route the sharpened minimal payload to p2c.",
+      "chairman_synthesis": "Adapter-assumed swing complete: explorations/adapter-assumed-four-leg-swing-2026-07-19.md holds the four hypotheses and first tests. Channels run independently; no channel may stop on 'needs adapter'; each records adapter demands on its parameter card instead."
     }
   ]
 }

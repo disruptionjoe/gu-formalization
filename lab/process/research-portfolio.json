@@ -352,7 +352,7 @@
       "assessment_source": "lab/process/construction-space-exploration-protocol.md",
       "assessment_summary": "Joe-authorized 2026-07-19 (direct chat, option A). The completed defense set bounded the current branch's no-gos but left reopening passive: nothing owned generating new constructions. This item makes the search first-class: map the predeclared construction space on the six-axis template, run per-sector fit searches (SM selector, QM physical sector, GR vacuum cancellation, cosmology scalar) as candidate generators, and weave multi-sector survivors into frozen candidates for the recovery ladder. Amended 2026-07-19 (Joe direct chat, option A): sector-fit admission moved from natively-produce to a graded fit ladder - Rung 0 consistency against sharp per-sector constraint lists is the admission bar, Rung 1 hosting with typed and counted imports, Rung 2 native selection reserved as survivor grading and the North Star bar. The program's falsification target is the joint intersection: an empty Rung-0 intersection over the fully dispositioned predeclared space is the real falsification-shaped result; prior no-gos are boundary data that carve the map, not verdicts on GU.",
       "construction_fork": "This item searches the fork space itself. Every probe names its cell's axis signature and which side of the standard-field versus program-native fork it occupies. Sector-fit candidates require explicit axis deltas from tested cells and a first falsification test at birth.",
-      "next_swing": "P5-SOURCE-OBJECT-SPEC completed 2026-07-19: lab/process/source-object-interface-contract.md freezes the four-leg GR/QM/COSMO/SM source-object interface as a typed import with no source instance. Next run P6-CONDITIONAL-INTERIOR: grade reachable open cells R0_COND/R1_COND against the frozen contract and check whether one shared source object can satisfy the legs without sector-specific repairs. Parent/daily steward should route the frozen spec to the p2c mailbox. Reopen rules unchanged.",
+      "next_swing": "Run the four channels under the standing axiom, hourly picking the channel with the highest-information next test: CH-GR first (formalize C10, compute VEV stress trace-free component — also unblocks CH-COSMO and CH-SM conditioning), CH-QM finite graded-quotient toy second, CH-SM harness pass third, CH-COSMO truncation check fourth. Each channel freezes its parameter card when its hypothesis survives its first tests; all four cards -> integration barrier.",
       "kill_condition": "If the predeclared construction space reaches full disposition and the joint Rung-0 intersection across the four sector tracks is empty, and the council cannot name a legitimate reparameterization that explains more, hand the exhaustion question to the daily steward and Joe; this item never enters the exhaustion verdict itself. A single cell or track failure is boundary data, never a kill.",
       "switch_condition": "After each stage boundary (map round, sector-track round, weave), rerank inside Lane 1 and then across lanes per the standard contract. Sector tracks are one workstream with an internal rotation, not sublanes.",
       "forbidden_shortcut": "A sector fit at any rung is a candidate, not a recovery claim, and claim strength always equals the rung achieved. Rung 0 means passing the track's frozen sharp constraint list; subgroup containment, matching names, field location, or parameter fitting never count as consistency. Imports at Rung 1 are typed and counted, never hidden. Council output guides search and is never evidence for or against GU. No cell is silently revisited; reopening a dispositioned cell requires the history audit. Weakening a sharp constraint list is Joe-gated.",
@@ -377,7 +377,19 @@
         "expressiveness_guard": "If a track's Rung-0 pass kills nothing across many cells, its constraint list is too weak: the council must sharpen it before the track continues. Expressiveness is priced by import counting, never mistaken for truth.",
         "conditional_interior_rule": "The source-owned object is a typed interface import until a concrete instance exists. Tracks grade cells R0_COND/R1_COND against the frozen interface contract; integration validates conditional grades when an instance arrives. The interface spec itself is falsifiable: mutually inconsistent leg demands kill the predeclared class without the object."
       },
-      "internal_work_items": []
+      "internal_work_items": [],
+      "standing_axiom": "lab/process/boundary-adapter-standing-axiom.md — the boundary adapter is assumed; \"needs adapter\" is never a stop, gate, or no-worthy-work reason; record the demand on the channel parameter card and continue.",
+      "channel_structure": {
+        "authority": "Joe direct chat 2026-07-19 (drafting-factory channel pattern applied to Lane 1; supersedes one_workstream_not_sublanes for this item)",
+        "channels": [
+          "CH-QM",
+          "CH-GR",
+          "CH-COSMO",
+          "CH-SM"
+        ],
+        "channel_contract": "Each channel is guided by its hypothesis (explorations/adapter-assumed-four-leg-swing-2026-07-19.md) and produces a frozen PARAMETER CARD: (a) construction parameters for its sector to fit within GU, (b) realistic adapter parameters that sector demands. Channels never stop on adapter-needed.",
+        "integration_barrier": "All four parameter cards frozen -> lane updates to integration: weld cards, verify shared minimal payload (target N<=4), route to p2c."
+      }
     },
     {
       "id": "PRED-FLAVOR-RANK",
@@ -620,7 +632,8 @@
       "next_swing": "Track exact open inputs and accept only a frozen p2c construction or falsification packet. The current source-object interface contract is lab/process/source-object-interface-contract.md: it asks for a shared GR/QM/COSMO/SM packet with provenance, normalizations, non-retuning conditions, and typed imports. When a packet returns, first type the carrier/interface before native-versus-forced adjudication: bit, projector or section, holonomy or K-class, field or state, compensator, current, flux/resource, stochastic process, or fixed-point equation. GU independently adjudicates which returned ingredients are native, imported, fitted, forced, or merely assumed.",
       "kill_condition": "No GU-local kill is available while construction is transferred. A p2c no-go or proof that the datum remains freely specifiable would close the associated forced-value routes at the returned grade.",
       "switch_condition": "Re-enter active GU work only on a frozen p2c return, a new GU-native construction not duplicating p2c, or Joe's explicit change of the Track B pivot.",
-      "forbidden_shortcut": "Do not call the frontier solved, and do not let the operational Track B label erase its deeper foundational role."
+      "forbidden_shortcut": "Do not call the frontier solved, and do not let the operational Track B label erase its deeper foundational role.",
+      "standing_axiom_note": "Boundary-adapter standing axiom 2026-07-19: this gate holds only for unconditional validation; conditional construction proceeds in the Lane 1 channels."
     },
     {
       "id": "DEP-PROP1",
@@ -645,7 +658,8 @@
       "next_swing": "Wait for a frozen p2c packet that constructs or rejects a boundary/firewall positivity alternative to Proposition 1.",
       "kill_condition": "None inside GU. GU may only sharpen the exact boundary content and conditional consequences.",
       "switch_condition": "Reweight the portfolio only on a frozen provenance-bearing p2c return.",
-      "forbidden_shortcut": "Do not treat denying Proposition 1 as a GU-built adapter."
+      "forbidden_shortcut": "Do not treat denying Proposition 1 as a GU-built adapter.",
+      "standing_axiom_note": "Boundary-adapter standing axiom 2026-07-19: this gate holds only for unconditional validation; conditional construction proceeds in the Lane 1 channels."
     },
     {
       "id": "DEP-W235-RECORD",
@@ -726,7 +740,8 @@
       "next_swing": "After a valid p2c adapter return, specify the constrained physical state space, boundary-conditioned C metric, and one gauge-independent interacting observable.",
       "kill_condition": "No positive boundary-conditioned physical sector or no gauge-independent observable kills downstream pole and interference packets.",
       "switch_condition": "Activate the construction claim only after frozen adapter provenance and explicit branch conditions are present. Conditional studies before that return belong in PHYSICAL-C-CONDITIONAL and remain assumption-capped.",
-      "forbidden_shortcut": "Do not queue a closed-interior physical quotient under a renamed description."
+      "forbidden_shortcut": "Do not queue a closed-interior physical quotient under a renamed description.",
+      "standing_axiom_note": "Boundary-adapter standing axiom 2026-07-19: this gate holds only for unconditional validation; conditional construction proceeds in the Lane 1 channels."
     },
     {
       "id": "MIRROR-NATIVE-ROUTE",
