@@ -6,6 +6,14 @@ posture, or portfolio state.
 
 ## Scripts
 
+- `construction_space_gr_r0_c9_c3_gate.py` - construction-space P1 GR R0
+  lemma gate: C9 ambient/H-class is gated on a source-owned first variation and
+  frozen coefficient, while the current scalar/isotropic C3 bare-theta seed
+  fails the trace-free `Q^TF(B)` cancellation slot.
+- `construction_space_sm_r0_c5_harness.py` - reusable construction-space P2
+  SM R0 harness for C5 candidate quotient/algebra/shadow packets; the current
+  Pati-Salam / Spin(10) host seed fails source-owned selector, native
+  three-generation, Higgs, spectrum, and decoupling constraints.
 - `cosmo_field_type_scalar_truncation_gate.py` - branch-local `NO_GO` for treating
   the theta-background Klein-Gordon object as cosmological perturbation recovery
   under the frozen W203/W229/W230/W236 fingerprint: the branch supplies a theta

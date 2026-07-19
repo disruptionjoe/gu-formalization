@@ -2,15 +2,15 @@ schema_version: "2.0"
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: "2026-07-19T10:44:00-05:00"
-run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
+updated_at: "2026-07-19T11:50:03-05:00"
+run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
 bottom_line: >-
-  L1 moved: construction-space exploration now has its pre-registered endings
-  and import counter, so the next useful probes are the GR R0 lemma and SM R0
-  harness; one L3 paper still waits on you.
+  L1 moved: construction-space P1/P2 completed, narrowing C3-GR,
+  C9-GR, and C5-SM; next useful probes are P3 retro-verify and P4
+  QM checklist. One L3 paper still waits on you.
 decision_default: >-
-  Selection contract proceeds: P0 is complete; run P1-GR-R0-LEMMA-C9-C3 and
-  P2-SM-R0-HARNESS-C5 when capacity permits.
+  Do not rerun P1/P2; run P3-RETRO-VERIFY then P4-QM-CHECKLIST unless a
+  new source-owned C9/C5 packet appears.
 needs_joe: true
 lanes:
   - lane_id: "1"
@@ -22,48 +22,47 @@ lanes:
     evidence_ref: "lab/process/construction-space-exploration-protocol.md"
     work_status: moving
     last_movement: >-
-      P0 pre-registered the two endings of the construction-space search and
-      froze import-counter semantics before sector probes accumulate.
-    movement_ref: "lab/process/construction-space-preregistered-endings-2026-07-19.md"
+      P1/P2 executed: C3-GR moved to R0_FAIL, C9-GR became a named gate,
+      and the reusable SM R0 harness moved the current C5-SM host seed to
+      R0_FAIL.
+    movement_ref: "lab/process/construction-space-map.json"
     steering_attention: none
     steering_prompt: none
     steering_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
     summary: >-
-      Exploration program installed and amended; P0 now prevents over-reading
-      either endpoint: empty intersection is class-scoped only, and a survivor
-      is existence at its recorded rung unless it earns R2.
+      Exploration map narrowed without an exhaustion claim; the next value is
+      integrity cleanup and making the QM checklist executable.
     progress_delta: >-
-      Since the map install: council round 2 ranked a pre-registration page
-      before the GR lemma; P0 is complete and wired into the map, portfolio,
-      and front door.
+      Since P0: P1 produced the C9/C3 GR gate lemma and P2 installed the SM
+      R0 harness for C5, with evidence in explorations/ and
+      tests/recovery-contract/.
     scope_position: >-
-      Map: 9 of 36 track-cells dispositioned, 21 open, 4 gated on p2c.
-      Track-cell grades are unchanged; round 2 now says P1 should run in
-      lemma form with C9 before C3, and P2 should be a reusable SM harness.
+      Map: 12 of 36 track-cells non-open (7 graded, 5 gated), 24 open.
+      P1/P2 moved three current-evidence track-cells; C4/C9 gates prevent
+      exhaustion.
     trend_24h: up
     confidence: med
-    recommendation: "Run P1 GR lemma and P2 SM harness; do not repeat P0"
+    recommendation: "Run P3 retro-verify, then P4 QM checklist; do not repeat P1/P2"
     findings: >-
-      Defense complete: the GR, cosmology, and Standard Model no-gos each
-      survived history audit plus three broad construction-diverse swings and
-      stand BOUNDED_NO_GO on the tested branch; hosting evidence (Pati-Salam /
-      Spin(10) plus relative arithmetic) is real — what is missing is a
-      source-native selector, which the exploration program now searches for.
+      C9 has the right residual-bookkeeping shape but needs a source-owned
+      first variation and frozen coefficient; current C3 scalar/isotropic
+      bare-theta cannot cancel trace-free Q^TF(B); current C5 host arithmetic
+      is real but lacks a source-owned selector, native three generations,
+      Higgs, spectrum, and decoupling.
     options:
       - key: A
-        label: Run the exploration program (map, sector-fit, weave)
+        label: Run P3 retro-verify, then QM checklist
         recommended: true
       - key: B
-        label: Revert to the passive park; wake on external signals only
+        label: Jump to constraint-first synthesis
       - key: C
-        label: Open the exhaustion question on the predeclared class
-          (Joe-gated verdict)
+        label: Open the exhaustion question (Joe-gated)
     decision_default: >-
-      Exploration proceeds; the defense register's wake conditions are
-      satisfied whenever it freezes a multi-sector candidate.
+      Exploration proceeds through P3/P4; P1/P2 reopen only on new
+      source-owned GR or SM selector packets.
     needs_joe: false
-    evaluated_at: "2026-07-19T10:44:00-05:00"
-    run_ref: RUN-20260719-532-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T11:50:03-05:00"
+    run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
   - lane_id: "2"
     objective: >-
       Extract, freeze, compute, and confront genuinely GU-native predictions

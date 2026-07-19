@@ -39,9 +39,12 @@ updated_at: "2026-07-19"
 > `lab/process/construction-space-map.json`. P0 pre-registration is complete at
 > `lab/process/construction-space-preregistered-endings-2026-07-19.md`: an empty joint R0 intersection
 > falsifies the predeclared construction class only, while a survivor means existence at the recorded minimum
-> rung with typed imports and not native unification unless it earns R2. Next execute P1 in lemma form
-> (GR R0, C9 before C3, with the native-vacuum sub-question explicit) and build P2 as the reusable SM R0
-> harness when capacity permits. `RECOVERY-CERTIFICATION` stands with its
+> rung with typed imports and not native unification unless it earns R2. P1/P2 are complete: C3-GR is
+> R0_FAIL for the current scalar/isotropic bare-theta seed, C9-GR is gated on a source-owned ambient/H-class
+> first variation plus coefficient fixed before target use, and the reusable SM R0 harness moved the current
+> C5-SM host seed to R0_FAIL. Next execute P3-RETRO-VERIFY, then P4-QM-CHECKLIST; use
+> P5-CONSTRAINT-FIRST-SYNTHESIS if those do not expose a cleaner immediate candidate. No global verdict or
+> exhaustion claim follows. `RECOVERY-CERTIFICATION` stands with its
 > `NO-GO-SCOPE-CHALLENGE` set parked after completion: the exact-vacuum GR, cosmological scalar-truncation, and
 > complete-Standard-Model selector defenses each completed history audit plus the minimum three broad swings and
 > now stand as bounded branch-local no-gos in `lab/process/recovery-no-go-defense-register.json`. Preserve them,

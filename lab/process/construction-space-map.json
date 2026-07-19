@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-19",
+  "updated_at": "2026-07-19T11:50:00-05:00",
   "artifact_role": "Coverage ledger for the construction-space exploration program. Cells are construction families on the six-axis template; rung grades are per sector track. This file changes no claim status or verdict.",
   "protocol": "lab/process/construction-space-exploration-protocol.md",
   "portfolio_item": "CONSTRUCTION-SPACE-EXPLORATION",
@@ -131,9 +131,10 @@
           "grade": "OPEN"
         },
         "GR": {
-          "grade": "OPEN",
-          "note": "Swing-2 killed this at derivation strength (no source-owned cancellation tensor with provenance). At R0 the question is different: can a bare-theta background supply vacuum support for cancellation with imported stiffness? Unexamined at consistency strength.",
-          "evidence": "register SWING-2-GR-W229-CONSTRUCTION-ATTEMPT"
+          "grade": "R0_FAIL",
+          "verification_needed": false,
+          "evidence": "explorations/construction-space-gr-r0-lemma-c9-c3-2026-07-19.md; tests/recovery-contract/construction_space_gr_r0_c9_c3_gate.py",
+          "note": "P1 lemma: the current scalar/isotropic bare-theta or fundamental-stiffness seed is in the wrong tensor slot for the trace-free Q^TF(B) residual. A future source-owned bare-theta equation with boundary data, normalization, and trace-free tensor shape remains a new dependency, not current evidence."
         },
         "COSMO": {
           "grade": "OPEN",
@@ -170,8 +171,10 @@
       "axis_notes": "L2/L3 delta from C1: selector built from observer-section data.",
       "tracks": {
         "SM": {
-          "grade": "OPEN",
-          "note": "The computable cell: enumerate candidate finite algebras/quotients from the Spin(10)/Pati-Salam host and run the R0 arithmetic (anomaly, chirality, generations, hypercharge). Scriptable sweep."
+          "grade": "R0_FAIL",
+          "verification_needed": false,
+          "evidence": "explorations/construction-space-sm-r0-harness-c5-2026-07-19.md; tests/recovery-contract/construction_space_sm_r0_c5_harness.py",
+          "note": "P2 harness: the current Pati-Salam/Spin(10) host seed has real relative anomaly and hypercharge arithmetic, but fails SM R0 because no source-owned target-free selector, native three-generation mechanism, physical Higgs sector, complete spectrum theorem, or extra-mode decoupling is present. The harness remains reusable for future source-owned selector packets."
         },
         "QM": {
           "grade": "OPEN"
@@ -256,9 +259,11 @@
           "grade": "OPEN"
         },
         "GR": {
-          "grade": "OPEN",
-          "note": "Named by the 2026-07-11 reconciliation as possible Q^TF(B) balance mechanisms; killed at derivation strength only. The other live R0-GR candidate besides C3.",
-          "evidence": "explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md"
+          "grade": "GATED",
+          "gate": "source-owned higher-codimension first variation plus coefficient frozen before Schwarzschild/Kerr target use",
+          "verification_needed": false,
+          "evidence": "explorations/construction-space-gr-r0-lemma-c9-c3-2026-07-19.md; tests/recovery-contract/construction_space_gr_r0_c9_c3_gate.py",
+          "note": "P1 C9-first result: ambient/H-class is the correct type of residual-bookkeeping fork and preserves the linear cheap-read clears, but current evidence does not yet freeze the first variation or coefficient. Gated, not failed."
         },
         "COSMO": {
           "grade": "OPEN"
@@ -269,11 +274,11 @@
   "coverage": {
     "cells": 9,
     "track_cells": 36,
-    "dispositioned_track_cells": 9,
-    "open": 21,
-    "gated": 4,
-    "r0_failed": 2,
-    "summary": "9 of 36 track-cells carry grades (7 retro, 2 register-confirmed); 21 OPEN; 4 GATED on the p2c packet. Binding constraint: GR vacuum support — only C3 and C9 are live R0-GR candidates besides the gated C4."
+    "dispositioned_track_cells": 12,
+    "open": 24,
+    "gated": 5,
+    "r0_failed": 5,
+    "summary": "12 of 36 track-cells are now non-open: 7 carry R0/R1 grades and 5 are gated. P1 moved C3-GR to R0_FAIL and C9-GR to GATED; P2 moved the current C5-SM seed to R0_FAIL. No exhaustion claim: C4 and C9 remain gated and future source-owned selector packets can run through the P2 harness."
   },
   "council_rounds": [
     {
@@ -392,6 +397,52 @@
         }
       ],
       "chairman_synthesis": "Adopt P0 immediately (one page, this or next run), then P1 and P2 concurrently — P1 in lemma form C9-first with the native-vacuum reframe sub-question, P2 as a reusable harness. P5 parked as the round-3 agenda if the map does not move. Convergence: binding-constraint logic holds across all five stances; the amendments are about execution discipline (lemma form, pre-registration, concurrency, harness reuse), not direction."
+    },
+    {
+      "round": 3,
+      "date": "2026-07-19",
+      "mode": "inline rerank after P1/P2 completion",
+      "bench": [
+        "differential geometer",
+        "statistician",
+        "computer scientist",
+        "logician",
+        "philosopher of science"
+      ],
+      "member_positions": {
+        "differential_geometer": "Do not rerun GR until C9 has a source-owned ambient/H-class first variation with coefficient fixed before benchmark use, or until a genuinely source-owned bare-theta vacuum equation appears.",
+        "statistician": "The first SM harness seed failed, but the harness itself is the reusable kill-rate tool for future generated C5 candidates.",
+        "computer_scientist": "P3 should normalize stale map counts and retro grades before scaled candidate generation; P4 should make the QM checklist similarly executable.",
+        "logician": "No exhaustion follows from current failures because gated cells remain and R0_FAIL is scoped to current evidence and frozen constraint lists.",
+        "philosopher_of_science": "The useful update is feasible-set narrowing, not a verdict. Preserve the pre-registered endings and make the next move reduce ambiguity rather than repeat a failed cell."
+      },
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P3-RETRO-VERIFY",
+          "what": "Confirm C1-SM import count, C1-COSMO R0 status, C2-GR inheritance, and coverage arithmetic against the frozen lists; clear stale verification_needed flags where the evidence is sufficient.",
+          "why": "The map now carries new P1/P2 dispositions, so cleaning retro grades is the highest-leverage integrity move before more probing."
+        },
+        {
+          "rank": 2,
+          "probe": "P4-QM-CHECKLIST",
+          "what": "Turn the QM physical-sector conditional-fail certificate list into the per-cell R0 checklist and type the C4 adapter gate for a future p2c return.",
+          "why": "It makes the next sector track executable without weakening the sharp list."
+        },
+        {
+          "rank": 3,
+          "probe": "P5-CONSTRAINT-FIRST-SYNTHESIS",
+          "what": "After P3/P4, invert the four sharp lists into a candidate-generation problem over the axis lattice, using the P2 harness for SM seeds.",
+          "why": "The immediate C3/C5 seeds failed and C9 is gated; broader generation is now more useful than another hand probe."
+        },
+        {
+          "rank": 4,
+          "probe": "C9/C5-REOPEN-ON-NEW-SOURCE",
+          "what": "Reopen C9 only with a source-owned first variation/coefficient, and rerun C5 only with a source-owned selector packet.",
+          "why": "Avoid duplicating P1/P2 current-evidence failures."
+        }
+      ],
+      "chairman_synthesis": "P1 and P2 completed and narrowed the feasible set without triggering exhaustion. Next handoff is P3 retro-verification, then P4 QM checklist; use P5 constraint-first synthesis if those do not produce a cleaner immediate candidate."
     }
   ]
 }
