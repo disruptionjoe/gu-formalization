@@ -109,6 +109,29 @@ This contract should be routed to the possibility-to-capability mailbox as a
 that cross-owner mailbox, so the parent should route the payload from the run
 receipt or final result.
 
+## Addendum (2026-07-19 evening): constraints recovered from the 2026-06-27 assembly
+
+Archaeology (`explorations/assembly-archaeology-recovered-parameters-2026-07-19.md`)
+recovered spec-sheet constraints the four-leg form must also satisfy:
+
+- the packet's action-level structure must FORCE `delta_2 . d_RS,-1 = 0` via
+  a Noether identity (not supply the differential as bare data);
+- a NON-EQUIVARIANT compensator (sigma_c outside the Spin(9,5) family) is
+  required — every equivariant attempt provably cannot close;
+- the physical sector must be realized cohomologically (clean decoupling is
+  Velo-Zwanziger-acausal; the ghost is causality-required);
+- generations require either an a-priori rank pin or a NON-QUATERNIONIC
+  structure (quaternionic-parity no-go: GU-native carriers have even index);
+- the three global objects stand: families pushforward over GL(4,R)/O(3,1);
+  the global boundary holonomy/spectral section of the non-compact Y14 end
+  (lineage of DEP-NATIVE-SOURCE-DATUM); a BV-to-boundary-Dirac map;
+- any compensator structure must reproduce the exact C2 scale law
+  C2(2xi)/C2(xi) = 2.
+
+Open decisive question: whether the transmitted Z/2 orientation is itself
+non-quaternionic (one bit discharging Krein sign + parity + arrow), keeping
+N <= 4; if not, generations force a fifth payload item.
+
 ## Machine-Readable Contract
 
 ```json

@@ -79,10 +79,15 @@ Grades: YES / PARTIAL / NO, each with the evidence pointer and the exact gap.
   condition; all machine-checkable via the existing P2 harness; plus a real
   observational tripwire (varying-constants bounds kill any
   drifting-alignment branch).
-- **Q3: PARTIAL, and CLOSABLE NOW.** Hypothesized: one finite
-  subgroup-chain datum + shared scale. The candidate range is a FINITE
-  ENUMERABLE LIST (Spin(10)/Pati-Salam breaking chains) that the existing
-  harness can sweep today — no dependencies.
+- **Q3: PARTIAL, and CLOSABLE NOW — with a recovered hard constraint.**
+  Hypothesized: one finite subgroup-chain datum + shared scale. The
+  candidate range is a FINITE ENUMERABLE LIST (Spin(10)/Pati-Salam breaking
+  chains) that the existing harness can sweep today — no dependencies. BUT
+  (2026-06-27 archaeology): the chain datum is NOT sufficient for
+  generations — the quaternionic-parity no-go (even index for all GU-native
+  carriers) forces either an a-priori rank pin or a non-quaternionic
+  payload structure; ch2 = -5376 kills the natural characteristic-class
+  route. Decisive joint probe: is the Z/2 orientation non-quaternionic?
 - **Gap to card-freeze:** enumerate the breaking chains and harness-sweep
   them; the surviving list IS the adapter range for this leg. Cheapest card
   on the board.
