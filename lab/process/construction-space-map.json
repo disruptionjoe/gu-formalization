@@ -375,6 +375,29 @@
           "note": "H-COSMO: magnitude mode of the same VEV as the scalar channel."
         }
       }
+    },
+    {
+      "id": "C11-SIGNATURE-77",
+      "family": "Cl(7,7) signature realization of the full construction (real class: J'^2 = +1, Kramers wall dissolves; hyperbolic Krein pairing survives per CH-QM certificate)",
+      "axis_notes": "Layer-0/L1 delta from every (9,5) cell: global signature choice changes the Clifford algebra class. Provenance: CH-QM swing 2026-07-19 exact certificate; canon quaternionic-parity no-go applies to (9,5) only.",
+      "tracks": {
+        "SM": {
+          "grade": "OPEN",
+          "note": "The fork's payoff channel: odd generation counts stop being parity-forbidden. Chain arithmetic must be re-run in (7,7)."
+        },
+        "QM": {
+          "grade": "OPEN",
+          "note": "Hyperbolic pairing survives; graded-quotient toy must be ported and re-run with J'^2=+1."
+        },
+        "GR": {
+          "grade": "OPEN",
+          "note": "Does the branch-(a) exact cancellation identity port? The identity was computed in signature-agnostic symbol form; verify."
+        },
+        "COSMO": {
+          "grade": "OPEN",
+          "note": "Projector construction is Frobenius-metric-typed; port and verify."
+        }
+      }
     }
   ],
   "coverage": {
@@ -810,6 +833,17 @@
         }
       ],
       "chairman_synthesis": "Five channels, N<=4 payload target unchanged (H-REC claims thermodynamics rides free on the Z/2). Two probes runnable immediately with no dependencies; scorecard is the standing readiness surface."
+    },
+    {
+      "round": 8,
+      "date": "2026-07-19",
+      "mode": "Joe-directed: signature competition",
+      "steer": "Two integration channels added: CH-SIG-95 and CH-SIG-77. Each consumes ALL leg-channel findings and pushes the full welded construction in its own signature to see which works more cleanly. Each channel is signature-pure internally (K6: silent mid-weld signature switching = the pre-registered mutual-inconsistency ending). Comparison criteria (cleanliness): number of legs that fit; total payload count N; number and severity of forced imports; kill-test survivals; whether any leg is outright broken. The integration barrier becomes: both signature channels report -> comparative verdict surfaced to Joe (verdict-grade signature choice stays Joe-gated).",
+      "known_starting_positions": {
+        "CH-SIG-95": "All current leg results computed here. Payload N=5 (Z/2 orientation + VEV branch[deleted->forced] + scale[pinned] + subgroup datum + rank-pin integer for generations). Kramers wall stands; generations only via rank pin.",
+        "CH-SIG-77": "Kramers wall gone (J'^2=+1 certificate); generations openly reachable; hyperbolic pairing survives. Everything else must be ported: GR cancellation identity, QM toy, COSMO projector, SM chain arithmetic. Unknown whether the legs' machinery survives the port."
+      },
+      "chairman_synthesis": "Spawn both signature workers once CH-SM and CH-SRC land (their cards are inputs). Neither channel may cite the other's failure as its own success; cleanliness is scored on the criteria, and a legitimate signature verdict must explain more, not merely dodge the parity wall."
     }
   ]
 }
