@@ -50,10 +50,43 @@
       "family": "Frozen W229 record-sourced induced-YM nonlocal branch (the tested construction)",
       "axis_notes": "Fully specified per the recovery manifest; the only cell with a complete Layer0+L1-L7 signature.",
       "tracks": {
-        "SM": { "grade": "R1", "import_count_estimate": 6, "imports": ["breaking chain to G_SM", "global quotient choice", "absolute hypercharge normalization", "Higgs identification", "spectrum completion", "decoupling mechanism"], "verification_needed": true, "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-SM-SELECTOR", "note": "R2 BOUNDED_NO_GO (no native selector); hosting evidence (Pati-Salam/Spin(10) + relative arithmetic) is real." },
-        "QM": { "grade": "R1_CONDITIONAL", "import_count_estimate": 1, "imports": ["typed boundary adapter axiom"], "verification_needed": true, "evidence": "QM-PHYSICAL-SECTOR COMPLETE_CONDITIONAL_FAIL", "note": "Certificates absent natively; the adapter axiom is exactly a typed import awaiting the p2c return." },
-        "GR": { "grade": "R0_FAIL", "verification_needed": false, "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-GR-W229-VACUUM", "note": "Vacuum source vanishes (Psi=0 -> J=0 -> theta=0); zero tensor cannot cancel nonzero Q^TF(B). Fails the sharp list at consistency strength. Binding constraint of this family." },
-        "COSMO": { "grade": "R0_FAIL", "verification_needed": true, "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-COSMO-SCALAR", "note": "No physical scalar projector/observable map/closed truncation found in-branch; retro-read as R0 fail pending one confirmation pass at consistency strength." }
+        "SM": {
+          "grade": "R1",
+          "import_count_estimate": 6,
+          "imports": [
+            "breaking chain to G_SM",
+            "global quotient choice",
+            "absolute hypercharge normalization",
+            "Higgs identification",
+            "spectrum completion",
+            "decoupling mechanism"
+          ],
+          "verification_needed": true,
+          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-SM-SELECTOR",
+          "note": "R2 BOUNDED_NO_GO (no native selector); hosting evidence (Pati-Salam/Spin(10) + relative arithmetic) is real."
+        },
+        "QM": {
+          "grade": "R1_CONDITIONAL",
+          "import_count_estimate": 1,
+          "imports": [
+            "typed boundary adapter axiom"
+          ],
+          "verification_needed": true,
+          "evidence": "QM-PHYSICAL-SECTOR COMPLETE_CONDITIONAL_FAIL",
+          "note": "Certificates absent natively; the adapter axiom is exactly a typed import awaiting the p2c return."
+        },
+        "GR": {
+          "grade": "R0_FAIL",
+          "verification_needed": false,
+          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-GR-W229-VACUUM",
+          "note": "Vacuum source vanishes (Psi=0 -> J=0 -> theta=0); zero tensor cannot cancel nonzero Q^TF(B). Fails the sharp list at consistency strength. Binding constraint of this family."
+        },
+        "COSMO": {
+          "grade": "R0_FAIL",
+          "verification_needed": true,
+          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-COSMO-SCALAR",
+          "note": "No physical scalar projector/observable map/closed truncation found in-branch; retro-read as R0 fail pending one confirmation pass at consistency strength."
+        }
       }
     },
     {
@@ -61,10 +94,22 @@
       "family": "W203 ultralocal limit of the record-current branch",
       "axis_notes": "Shares C1 signature except locality of the source law (L4/L6 delta).",
       "tracks": {
-        "SM": { "grade": "OPEN", "note": "Presumed to inherit C1 hosting; not independently examined." },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "R0_FAIL", "verification_needed": true, "evidence": "register: same zero-source obstruction unless a different non-record source is supplied", "note": "Inherits C1's vacuum-support failure." },
-        "COSMO": { "grade": "OPEN" }
+        "SM": {
+          "grade": "OPEN",
+          "note": "Presumed to inherit C1 hosting; not independently examined."
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "R0_FAIL",
+          "verification_needed": true,
+          "evidence": "register: same zero-source obstruction unless a different non-record source is supplied",
+          "note": "Inherits C1's vacuum-support failure."
+        },
+        "COSMO": {
+          "grade": "OPEN"
+        }
       }
     },
     {
@@ -72,10 +117,21 @@
       "family": "Fundamental-stiffness / bare-theta branch (theta as fundamental field, not record-sourced)",
       "axis_notes": "L1/L6 delta from C1: source ontology changes; axis template partially UNDERDEFINED.",
       "tracks": {
-        "SM": { "grade": "OPEN" },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "OPEN", "note": "Swing-2 killed this at derivation strength (no source-owned cancellation tensor with provenance). At R0 the question is different: can a bare-theta background supply vacuum support for cancellation with imported stiffness? Unexamined at consistency strength.", "evidence": "register SWING-2-GR-W229-CONSTRUCTION-ATTEMPT" },
-        "COSMO": { "grade": "OPEN", "note": "A fundamental theta is also a natural scalar-channel candidate for the COSMO track." }
+        "SM": {
+          "grade": "OPEN"
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "OPEN",
+          "note": "Swing-2 killed this at derivation strength (no source-owned cancellation tensor with provenance). At R0 the question is different: can a bare-theta background supply vacuum support for cancellation with imported stiffness? Unexamined at consistency strength.",
+          "evidence": "register SWING-2-GR-W229-CONSTRUCTION-ATTEMPT"
+        },
+        "COSMO": {
+          "grade": "OPEN",
+          "note": "A fundamental theta is also a natural scalar-channel candidate for the COSMO track."
+        }
       }
     },
     {
@@ -83,10 +139,22 @@
       "family": "Boundary-conditioned adapter constructions (explicit typed adapter assumption)",
       "axis_notes": "L2/L7 delta: observer/positivity structure supplied at the boundary.",
       "tracks": {
-        "SM": { "grade": "GATED", "gate": "frozen p2c packet (DEP-NATIVE-SOURCE-DATUM)" },
-        "QM": { "grade": "GATED", "gate": "frozen p2c packet; PHYSICAL-C-CONDITIONAL (READY) is this cell's live probe" },
-        "GR": { "grade": "GATED", "gate": "frozen p2c packet" },
-        "COSMO": { "grade": "GATED", "gate": "frozen p2c packet" }
+        "SM": {
+          "grade": "GATED",
+          "gate": "frozen p2c packet (DEP-NATIVE-SOURCE-DATUM)"
+        },
+        "QM": {
+          "grade": "GATED",
+          "gate": "frozen p2c packet; PHYSICAL-C-CONDITIONAL (READY) is this cell's live probe"
+        },
+        "GR": {
+          "grade": "GATED",
+          "gate": "frozen p2c packet"
+        },
+        "COSMO": {
+          "grade": "GATED",
+          "gate": "frozen p2c packet"
+        }
       }
     },
     {
@@ -94,10 +162,20 @@
       "family": "GU-native gauge quotient + observer-section selector routes (target-free A_F / G_SM-Z6 candidates)",
       "axis_notes": "L2/L3 delta from C1: selector built from observer-section data.",
       "tracks": {
-        "SM": { "grade": "OPEN", "note": "The computable cell: enumerate candidate finite algebras/quotients from the Spin(10)/Pati-Salam host and run the R0 arithmetic (anomaly, chirality, generations, hypercharge). Scriptable sweep." },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "OPEN", "note": "Presumed to inherit C1's source law unless combined with C3/C9; combination cells created on demand." },
-        "COSMO": { "grade": "OPEN" }
+        "SM": {
+          "grade": "OPEN",
+          "note": "The computable cell: enumerate candidate finite algebras/quotients from the Spin(10)/Pati-Salam host and run the R0 arithmetic (anomaly, chirality, generations, hypercharge). Scriptable sweep."
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "OPEN",
+          "note": "Presumed to inherit C1's source law unless combined with C3/C9; combination cells created on demand."
+        },
+        "COSMO": {
+          "grade": "OPEN"
+        }
       }
     },
     {
@@ -105,10 +183,19 @@
       "family": "Source-owned symmetry-breaking / chirality-producing constructions",
       "axis_notes": "L5 delta: breaking/chirality as emergent from source dynamics; largely UNDERDEFINED.",
       "tracks": {
-        "SM": { "grade": "OPEN", "note": "Swing-2 killed at derivation strength; R0 question (is source-owned breaking consistent with the sharp list at all?) unexamined." },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "OPEN" },
-        "COSMO": { "grade": "OPEN" }
+        "SM": {
+          "grade": "OPEN",
+          "note": "Swing-2 killed at derivation strength; R0 question (is source-owned breaking consistent with the sharp list at all?) unexamined."
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "OPEN"
+        },
+        "COSMO": {
+          "grade": "OPEN"
+        }
       }
     },
     {
@@ -116,10 +203,19 @@
       "family": "Gauge-invariant / constrained composite scalar from frozen GU fields",
       "axis_notes": "L3/L5 delta: scalar as composite of existing sectors.",
       "tracks": {
-        "SM": { "grade": "OPEN" },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "OPEN" },
-        "COSMO": { "grade": "OPEN", "note": "Primary track: does any composite admit a projector + observable map + closed truncation at consistency strength?" }
+        "SM": {
+          "grade": "OPEN"
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "OPEN"
+        },
+        "COSMO": {
+          "grade": "OPEN",
+          "note": "Primary track: does any composite admit a projector + observable map + closed truncation at consistency strength?"
+        }
       }
     },
     {
@@ -127,10 +223,18 @@
       "family": "Scalar induced by mixing among already-present GU sectors",
       "axis_notes": "L3 delta: cross-sector mixing terms.",
       "tracks": {
-        "SM": { "grade": "OPEN" },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "OPEN" },
-        "COSMO": { "grade": "OPEN" }
+        "SM": {
+          "grade": "OPEN"
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "OPEN"
+        },
+        "COSMO": {
+          "grade": "OPEN"
+        }
       }
     },
     {
@@ -138,10 +242,20 @@
       "family": "Ambient-curvature / H-class balance mechanisms for the Willmore residual",
       "axis_notes": "L1/L7 delta: residual bookkeeping uses ambient or H-class structure.",
       "tracks": {
-        "SM": { "grade": "OPEN" },
-        "QM": { "grade": "OPEN" },
-        "GR": { "grade": "OPEN", "note": "Named by the 2026-07-11 reconciliation as possible Q^TF(B) balance mechanisms; killed at derivation strength only. The other live R0-GR candidate besides C3.", "evidence": "explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md" },
-        "COSMO": { "grade": "OPEN" }
+        "SM": {
+          "grade": "OPEN"
+        },
+        "QM": {
+          "grade": "OPEN"
+        },
+        "GR": {
+          "grade": "OPEN",
+          "note": "Named by the 2026-07-11 reconciliation as possible Q^TF(B) balance mechanisms; killed at derivation strength only. The other live R0-GR candidate besides C3.",
+          "evidence": "explorations/willmore-residual-computed-and-buildbench-reconciliation-2026-07-11.md"
+        },
+        "COSMO": {
+          "grade": "OPEN"
+        }
       }
     }
   ],
@@ -159,7 +273,18 @@
       "round": 1,
       "date": "2026-07-19",
       "mode": "inline persona pass (members -> rank -> chairman), Joe-directed session",
-      "bench": ["differential geometer", "category theorist", "statistician", "computer scientist (search)", "ML researcher", "condensed-matter physicist", "numerical engineer", "logician", "optimization theorist", "historian of physics"],
+      "bench": [
+        "differential geometer",
+        "category theorist",
+        "statistician",
+        "computer scientist (search)",
+        "ML researcher",
+        "condensed-matter physicist",
+        "numerical engineer",
+        "logician",
+        "optimization theorist",
+        "historian of physics"
+      ],
       "member_positions": {
         "geometer": "C9 first: the ambient/H-class balance is a well-posed geometric question and the only structural (non-field-content) escape from Q^TF(B).",
         "category_theorist": "Type the adapter interface of C4 now so the p2c return lands typed; cheap and removes later rework.",
@@ -173,12 +298,90 @@
         "historian": "GUT-era model space died by arithmetic (anomalies, proton decay), which argues the SM sweep will genuinely kill cells; but binding-constraint logic still favors GR-first."
       },
       "ranked_search_plan": [
-        { "rank": 1, "probe": "P1-GR-R0-C3-C9", "what": "Examine C3 (bare-theta vacuum support with imported stiffness) and C9 (ambient/H-class balance) against the GR sharp list at consistency strength; machine-checkable residual computations where possible.", "why": "GR is the binding constraint and its live set is smallest; an empty GR track empties the joint intersection (optimization/ML/geometer/condensed-matter consensus)." },
-        { "rank": 2, "probe": "P2-SM-R0-SWEEP-C5", "what": "Script the R0 arithmetic sweep over candidate finite algebras/quotients from the Spin(10)/Pati-Salam host: anomaly cancellation, chirality, three generations, hypercharge normalization; emit per-candidate pass/fail into tests/.", "why": "Highest kill-rate per hour; scriptable; also calibrates SM constraint sharpness (statistician/CS/historian)." },
-        { "rank": 3, "probe": "P3-RETRO-VERIFY", "what": "Confirm the retro grades (C1-SM R1 import count, C1-COSMO R0 status, C2-GR inheritance) against the frozen lists; clear verification_needed flags.", "why": "Cheap integrity: keeps the map honest before it accumulates weight (logician)." },
-        { "rank": 4, "probe": "P4-QM-CHECKLIST", "what": "Convert the QM CONDITIONAL_FAIL certificate list into the per-cell R0 checklist and type C4's adapter interface for the p2c return.", "why": "Documentation-grade cost, removes rework when the packet lands (category theorist)." }
+        {
+          "rank": 1,
+          "probe": "P1-GR-R0-C3-C9",
+          "what": "Examine C3 (bare-theta vacuum support with imported stiffness) and C9 (ambient/H-class balance) against the GR sharp list at consistency strength; machine-checkable residual computations where possible.",
+          "why": "GR is the binding constraint and its live set is smallest; an empty GR track empties the joint intersection (optimization/ML/geometer/condensed-matter consensus)."
+        },
+        {
+          "rank": 2,
+          "probe": "P2-SM-R0-SWEEP-C5",
+          "what": "Script the R0 arithmetic sweep over candidate finite algebras/quotients from the Spin(10)/Pati-Salam host: anomaly cancellation, chirality, three generations, hypercharge normalization; emit per-candidate pass/fail into tests/.",
+          "why": "Highest kill-rate per hour; scriptable; also calibrates SM constraint sharpness (statistician/CS/historian)."
+        },
+        {
+          "rank": 3,
+          "probe": "P3-RETRO-VERIFY",
+          "what": "Confirm the retro grades (C1-SM R1 import count, C1-COSMO R0 status, C2-GR inheritance) against the frozen lists; clear verification_needed flags.",
+          "why": "Cheap integrity: keeps the map honest before it accumulates weight (logician)."
+        },
+        {
+          "rank": 4,
+          "probe": "P4-QM-CHECKLIST",
+          "what": "Convert the QM CONDITIONAL_FAIL certificate list into the per-cell R0 checklist and type C4's adapter interface for the p2c return.",
+          "why": "Documentation-grade cost, removes rework when the packet lands (category theorist)."
+        }
       ],
       "chairman_synthesis": "Run P1 and P2 as the opening probes in that order; fold P3 into whichever runs first as its closing step; P4 rides along at documentation cost. Re-convene after P1 or P2 completes, or immediately if the GR track's live set changes size in either direction."
+    },
+    {
+      "round": 2,
+      "date": "2026-07-19",
+      "mode": "inline persona pass, Joe-directed ad-hoc bench",
+      "bench": [
+        "orthodox professor",
+        "heterodox professor",
+        "commercial scientist",
+        "wild frontier scientist",
+        "philosopher of science"
+      ],
+      "member_positions": {
+        "orthodox_professor": "The bounded no-gos are the most durable assets. State P1 as a lemma with hypotheses and machine-checked arithmetic ('no bare-theta background in class X cancels Q^TF(B) at O(M^2)'); predeclare the P1 endpoint. R0-with-imports risks repeating GUT-era drift without lemma discipline.",
+        "heterodox_professor": "Young theories fail their strictest test first; the rung reframe is the correction. C9 before C3: bookkeeping change over field addition is closer to GU's geometric spirit. Deeper: re-derive what vacuum means natively (is Psi=0 native or comparator-inherited?) before treating vacuum-support failure as family-wide — a legitimate reframe candidate. Count imports without letting the counter become an orthodoxy stick.",
+        "commercial_scientist": "The map + ladder is the reusable asset. Build P2 as a harness (candidate in, constraint-arithmetic verdict out), not a one-off script; run concurrent with P1 since its kill-rate compounds. 'Surviving set after N sweeps' is a communicable deliverable regardless of outcome.",
+        "wild_frontier_scientist": "Nine cells is a shortlist of the committee's imagination. Generalize P2 into a construction compiler + constraint checker and generate candidates over the axis lattice at scale. Better: invert to constraint-first synthesis — treat the four sharp lists as simultaneous constraints and solve for the construction. Run everything concurrently.",
+        "philosopher_of_science": "Feasible-set characterization is the program's maturation. Guards: (1) freeze import-typing rules before cross-cell N comparisons (Duhem-Quine lives in the counter); (2) pre-register both endings now — empty intersection falsifies the predeclared space, not GU-the-idea, and a survivor supports existence not unification; (3) the real update-maker is a differing prediction handed to Lane 2 the moment any cell reaches joint R1."
+      },
+      "ranked_search_plan": [
+        {
+          "rank": 0,
+          "probe": "P0-PREREGISTER-ENDINGS",
+          "what": "One page freezing both interpretive commitments: what the program asserts if the joint intersection empties, and what it asserts if a survivor emerges (existence-with-N-imports, not unification). Include frozen import-typing rules.",
+          "why": "Vaccine against post-hoc goalpost moves in either direction; also freezes the counter semantics cross-cell comparisons depend on (philosopher, orthodox)."
+        },
+        {
+          "rank": 1,
+          "probe": "P1-GR-R0-LEMMA-C9-C3",
+          "what": "GR R0 probe in lemma form, C9 (ambient/H-class) before C3 (bare-theta): stated hypotheses, machine-checked residual arithmetic, predeclared endpoint. Includes the native-vacuum sub-question (is Psi=0 native or comparator-inherited?) as an explicit reframe candidate.",
+          "why": "GR remains the binding constraint; lemma discipline makes either outcome durable; the vacuum sub-question is the one reframe that could move the whole family (orthodox, heterodox)."
+        },
+        {
+          "rank": 2,
+          "probe": "P2-SM-R0-HARNESS-C5",
+          "what": "SM arithmetic sweep built as a reusable harness (candidate quotient/algebra in, anomaly/chirality/generations/hypercharge verdict out) in tests/; run concurrent with P1, not after.",
+          "why": "Kill-rate compounds; the harness is the seed of scaled generation over the axis lattice (commercial, frontier)."
+        },
+        {
+          "rank": 3,
+          "probe": "P3-RETRO-VERIFY",
+          "what": "Unchanged from round 1; fold into the first completed probe.",
+          "why": "Map integrity."
+        },
+        {
+          "rank": 4,
+          "probe": "P4-QM-CHECKLIST",
+          "what": "Unchanged from round 1; documentation cost.",
+          "why": "Removes rework at p2c return."
+        },
+        {
+          "rank": 5,
+          "probe": "P5-CONSTRAINT-FIRST-SYNTHESIS",
+          "what": "PARKED: invert enumerate-and-filter into solving the four sharp constraint lists simultaneously for a construction; also generalize candidate generation over the axis lattice beyond the 9 named families.",
+          "why": "Boldest move, correctly staged: becomes council round 3's question if P1/P2 leave the map unmoved (frontier)."
+        }
+      ],
+      "chairman_synthesis": "Adopt P0 immediately (one page, this or next run), then P1 and P2 concurrently — P1 in lemma form C9-first with the native-vacuum reframe sub-question, P2 as a reusable harness. P5 parked as the round-3 agenda if the map does not move. Convergence: binding-constraint logic holds across all five stances; the amendments are about execution discipline (lemma form, pre-registration, concurrency, harness reuse), not direction."
     }
   ]
 }
