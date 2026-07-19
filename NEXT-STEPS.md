@@ -29,11 +29,14 @@ updated_at: "2026-07-19"
 > `rerank-next-work` flow to rank work inside the lane it used and then rank the three numbered lane leaders.
 > Lane A daily Stewardship decides whether that evidence changes durable portfolio state.
 >
-> **Lane 1 current leader:** `CONSTRUCTION-SPACE-EXPLORATION` (Joe-authorized 2026-07-19): map the predeclared
-> construction space on the six-axis template, run per-sector fit searches (SM selector, QM physical sector, GR
-> vacuum cancellation, cosmology scalar) as candidate generators, and weave multi-sector survivors into frozen
-> candidates for the recovery ladder. Protocol: `lab/process/construction-space-exploration-protocol.md`; first
-> deliverable is `lab/process/construction-space-map.json`. `RECOVERY-CERTIFICATION` stands with its
+> **Lane 1 current leader:** `CONSTRUCTION-SPACE-EXPLORATION` (Joe-authorized 2026-07-19, amended same day): map
+> the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,
+> cosmology) on the graded fit ladder — Rung 0 consistency against sharp constraint lists is the admission bar,
+> Rung 1 hosting with typed and counted imports, Rung 2 native selection reserved as survivor grading and the
+> North Star bar — and weave survivors rung-aware. The falsification target is the joint intersection over the
+> fully dispositioned space, not any single-candidate kill; existing no-gos are boundary data that carve the
+> map. Protocol: `lab/process/construction-space-exploration-protocol.md`; first deliverable is
+> `lab/process/construction-space-map.json`. `RECOVERY-CERTIFICATION` stands with its
 > `NO-GO-SCOPE-CHALLENGE` set parked after completion: the exact-vacuum GR, cosmological scalar-truncation, and
 > complete-Standard-Model selector defenses each completed history audit plus the minimum three broad swings and
 > now stand as bounded branch-local no-gos in `lab/process/recovery-no-go-defense-register.json`. Preserve them,
