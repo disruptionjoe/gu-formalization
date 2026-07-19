@@ -45,13 +45,87 @@ def read(path: Path) -> str:
     return path.read_text(encoding="utf-8")
 
 
+def parse_scalar(value: str) -> object:
+    value = value.strip()
+    if value.startswith("'") and value.endswith("'"):
+        return value[1:-1]
+    if value.startswith('"') and value.endswith('"'):
+        return value[1:-1]
+    if value == "true":
+        return True
+    if value == "false":
+        return False
+    try:
+        return int(value)
+    except ValueError:
+        return value
+
+
+def parse_lane_manifest(path: Path) -> list[dict[str, object]]:
+    """Extract the small lane view this gate needs from the constrained manifest."""
+    lanes: list[dict[str, object]] = []
+    current: dict[str, object] | None = None
+    in_lanes = False
+    in_control = False
+
+    for raw in read(path).splitlines():
+        stripped = raw.strip()
+        if stripped == "lanes:":
+            in_lanes = True
+            continue
+        if not in_lanes or not stripped:
+            continue
+        if not raw.startswith(" ") and not raw.startswith("-"):
+            break
+        if raw.startswith("- id:"):
+            if current is not None:
+                lanes.append(current)
+            current = {"id": parse_scalar(raw.split(":", 1)[1])}
+            in_control = False
+            continue
+        if current is None:
+            continue
+
+        indent = len(raw) - len(raw.lstrip(" "))
+        if indent == 2 and ":" in stripped:
+            key, value = stripped.split(":", 1)
+            in_control = key == "control"
+            if value.strip():
+                current[key] = parse_scalar(value)
+        elif in_control and indent == 4 and ":" in stripped:
+            key, value = stripped.split(":", 1)
+            if key == "state":
+                current["control_state"] = parse_scalar(value)
+
+    if current is not None:
+        lanes.append(current)
+    return lanes
+
+
+def current_lane_leaders(work_items: list[dict[str, object]]) -> dict[str, str]:
+    state_rank = {"ACTIVE": 2, "READY": 1}
+    leaders: dict[str, tuple[int, int, int, str]] = {}
+    for index, item in enumerate(work_items):
+        lane_id = str(item["lane_id"])
+        eligible_rank = 3 if item.get("hourly_eligible") is True else 0
+        state = str(item.get("state", ""))
+        score = item.get("priority_score")
+        score_rank = int(score) if isinstance(score, int) else 0
+        rank = (eligible_rank + state_rank.get(state, 0), score_rank, -index)
+        if lane_id not in leaders or rank > leaders[lane_id][:3]:
+            leaders[lane_id] = (rank[0], rank[1], rank[2], str(item["id"]))
+    return {lane_id: leader[3] for lane_id, leader in leaders.items()}
+
+
 class ResearchPortfolioContractAudit(unittest.TestCase):
     @classmethod
     def setUpClass(cls) -> None:
         cls.portfolio = json.loads(read(PORTFOLIO))
-        cls.lanes = cls.portfolio["lane_catalog"]
+        lane_manifest = ROOT / cls.portfolio["lane_manifest_ref"]
+        cls.lanes = parse_lane_manifest(lane_manifest)
         cls.lane_by_id = {lane["id"]: lane for lane in cls.lanes}
         cls.work_items = cls.portfolio["work_items"]
+        cls.lane_leaders = current_lane_leaders(cls.work_items)
         cls.top_by_id = {item["id"]: item for item in cls.work_items}
         cls.by_id = dict(cls.top_by_id)
         for item in cls.work_items:
@@ -102,18 +176,30 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
     def test_three_progress_lanes_and_lane_a_stewardship(self) -> None:
         contract = self.portfolio["selection_contract"]
         self.assertEqual({"1", "2", "3", "A"}, set(self.lane_by_id))
-        self.assertEqual(["1", "2", "3"], contract["progress_lane_ids"])
-        self.assertEqual(["A"], contract["administrative_lane_ids"])
-        self.assertEqual("1", contract["protected_north_star_lane_id"])
-        self.assertEqual("A", contract["standard_stewardship_lane_id"])
+        self.assertEqual(
+            ["1", "2", "3"],
+            [lane["id"] for lane in self.lanes if lane["kind"] == "progress"],
+        )
+        self.assertEqual(
+            ["A"], [lane["id"] for lane in self.lanes if lane["kind"] == "stewardship"]
+        )
+        self.assertEqual(
+            ["1"], [lane["id"] for lane in self.lanes if lane["north_star"] is True]
+        )
+        self.assertEqual("LANES.yaml", contract["lane_contract_ref"])
+        self.assertEqual(contract["lane_contract_ref"], self.portfolio["lane_manifest_ref"])
         self.assertEqual(1, contract["max_concurrent_progress_runs"])
         self.assertTrue(contract["lane_one_is_protected_from_difficulty_demotion"])
-        self.assertEqual("protected_north_star", self.lane_by_id["1"]["purpose_priority"])
-        self.assertEqual("administrative", self.lane_by_id["A"]["lane_type"])
-        self.assertFalse(self.lane_by_id["A"]["hourly_eligible"])
+        self.assertEqual("north_star", self.lane_by_id["1"]["purpose_type"])
+        self.assertEqual("integrated_stewardship", self.lane_by_id["A"]["purpose_type"])
+        self.assertEqual("stewardship", self.lane_by_id["A"]["kind"])
+        self.assertTrue(all(lane["control_state"] == "active" for lane in self.lanes))
+        self.assertFalse(
+            any(item["hourly_eligible"] for item in self.work_items if item["lane_id"] == "A")
+        )
         self.assertIn("Lane A never enters", contract["end_of_run_rerank_rule"])
         self.assertIn("purpose, not an automatic", contract["scheduling_rule"])
-        self.assertIn("actual falsification", contract["north_star_rule"])
+        self.assertIn("difficulty alone", contract["invalid_switch_reasons"])
         self.assertEqual(
             "DEP-NATIVE-SOURCE-DATUM", contract["deepest_open_dependency_work_item_id"]
         )
@@ -122,9 +208,10 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             {item["lane_id"] for item in self.work_items},
         )
         for lane in self.lanes:
-            self.assertIn(lane["current_top_work_item_id"], self.top_by_id)
+            self.assertIn(lane["id"], self.lane_leaders)
+            self.assertIn(self.lane_leaders[lane["id"]], self.top_by_id)
             self.assertEqual(
-                lane["id"], self.top_by_id[lane["current_top_work_item_id"]]["lane_id"]
+                lane["id"], self.top_by_id[self.lane_leaders[lane["id"]]]["lane_id"]
             )
         self.assertIn("transferred", contract["deepest_open_problem_posture"])
 

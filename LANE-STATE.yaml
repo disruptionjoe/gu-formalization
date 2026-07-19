@@ -1,34 +1,58 @@
 schema_version: "1.0"
 owner_id: gu-formalization
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-18T11:39:00-05:00"
-run_ref: RUN-20260718-487-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-19T08:42:23-05:00"
+run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
+    work_status: thin
+    last_movement: "none found in this run; active recovery certification work remains available"
+    movement_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
+    steering_attention: none
+    steering_prompt: "none"
+    steering_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
     light: green
-    reason_code: protected_truth_testing_active
+    reason_code: protected_truth_testing_path_available
     evidence_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
-    summary: "Lane 1 remains protected with active no-go scope challenge work."
-    evaluated_at: "2026-07-18T11:39:00-05:00"
-    run_ref: RUN-20260718-487-repository-work-cycle-cai-hourly
+    summary: "Lane 1 remains protected with active recovery-certification work."
+    evaluated_at: "2026-07-19T08:42:23-05:00"
+    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
   - lane_id: "2"
+    work_status: thin
+    last_movement: "none found in this run; prediction work remains gated but defined"
+    movement_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
+    steering_attention: none
+    steering_prompt: "none"
+    steering_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
     light: green
-    reason_code: prediction_work_gated_but_defined
+    reason_code: prediction_work_defined
     evidence_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
-    summary: "Lane 2 has defined prediction and computation work gated by evidence."
-    evaluated_at: "2026-07-18T11:39:00-05:00"
-    run_ref: RUN-20260718-487-repository-work-cycle-cai-hourly
+    summary: "Lane 2 keeps defined prediction work behind evidence gates."
+    evaluated_at: "2026-07-19T08:42:23-05:00"
+    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
   - lane_id: "3"
+    work_status: thin
+    last_movement: "none found in this run; hardening work remains available"
+    movement_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
+    steering_attention: none
+    steering_prompt: "none"
+    steering_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
     light: green
-    reason_code: hardening_work_defined
+    reason_code: hardening_work_available
     evidence_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
-    summary: "Lane 3 has hardening work; external review remains non-executable."
-    evaluated_at: "2026-07-18T11:39:00-05:00"
-    run_ref: RUN-20260718-487-repository-work-cycle-cai-hourly
+    summary: "Lane 3 has available proof-hardening work; external review remains gated."
+    evaluated_at: "2026-07-19T08:42:23-05:00"
+    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
   - lane_id: A
+    work_status: moving
+    last_movement: "schema-2 portfolio audit restored against root LANES.yaml"
+    movement_ref: "process_gates/research_portfolio_contract_audit.py"
+    steering_attention: none
+    steering_prompt: "none"
+    steering_ref: "process_gates/research_portfolio_contract_audit.py"
     light: green
-    reason_code: mailbox_disposition_recorded
-    evidence_ref: "lab/process/research-portfolio.json#DEP-NATIVE-SOURCE-DATUM"
-    summary: "Boundary source-carrier proposal was preserved as an intake discriminator."
-    evaluated_at: "2026-07-18T11:39:00-05:00"
-    run_ref: RUN-20260718-487-repository-work-cycle-cai-hourly
+    reason_code: process_gate_drift_repaired
+    evidence_ref: "process_gates/research_portfolio_contract_audit.py"
+    summary: "Lane A repaired the research-portfolio contract audit for first-class lanes."
+    evaluated_at: "2026-07-19T08:42:23-05:00"
+    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
