@@ -218,10 +218,18 @@ def main() -> None:
     fake_coverage = dict(actual_coverage)
     fake_coverage["open"] += 1
     check("coverage detector has teeth", fake_coverage != expected_coverage)
-    check("only P4 QM retro flag remains after P3", verification_flags(map_data) == [("C1-W229-RECORD-CURRENT", "QM")])
+    remaining_flags = verification_flags(map_data)
+    check(
+        "P3 target flags are cleared; later P4 may clear the QM flag too",
+        remaining_flags in ([], [("C1-W229-RECORD-CURRENT", "QM")]),
+        str(remaining_flags),
+    )
     final_round = map_data["council_rounds"][-1]
-    check("latest council handoff is P4 first", final_round["ranked_search_plan"][0]["probe"] == "P4-QM-CHECKLIST")
-    check("latest council records P3 complete", final_round["round"] == 4 and "P3 complete" in final_round["chairman_synthesis"])
+    check(
+        "latest council handoff is P4 or later",
+        final_round["ranked_search_plan"][0]["probe"] in {"P4-QM-CHECKLIST", "P5-SOURCE-OBJECT-SPEC"},
+    )
+    check("latest council preserves P3-or-later progression", final_round["round"] >= 4)
 
     log("")
     log("=" * 82)

@@ -75,14 +75,14 @@
           "note": "P3 verified: R2 BOUNDED_NO_GO (no native selector); R1 hosting evidence (Pati-Salam/Spin(10) + relative arithmetic) is real only with six typed imports."
         },
         "QM": {
-          "grade": "R1_CONDITIONAL",
+          "grade": "R1_COND",
           "import_count_estimate": 1,
           "imports": [
             "typed boundary adapter axiom"
           ],
-          "verification_needed": true,
-          "evidence": "QM-PHYSICAL-SECTOR COMPLETE_CONDITIONAL_FAIL",
-          "note": "Certificates absent natively; the adapter axiom is exactly a typed import awaiting the p2c return."
+          "verification_needed": false,
+          "evidence": "QM-PHYSICAL-SECTOR COMPLETE_CONDITIONAL_FAIL; tests/recovery-contract/qm_physical_sector_conditional_gate.py; explorations/construction-space-qm-checklist-p4-2026-07-19.md; tests/recovery-contract/construction_space_qm_checklist_p4.py",
+          "note": "P4 verified: the current branch clears only conditional hosting with one typed adapter import; quotient, state, observable, probability, locality, and dynamics certificates remain absent natively."
         },
         "GR": {
           "grade": "R0_FAIL",
@@ -148,6 +148,27 @@
       "id": "C4-BOUNDARY-ADAPTER",
       "family": "Boundary-conditioned adapter constructions (explicit typed adapter assumption)",
       "axis_notes": "L2/L7 delta: observer/positivity structure supplied at the boundary.",
+      "typed_adapter_interface": {
+        "status": "GATED_P2C",
+        "source_owner": "possibility-to-capability",
+        "expected_artifact": "frozen source-owned boundary/firewall adapter packet",
+        "interface_role": "typed import for C1-QM and construction target for P5-SOURCE-OBJECT-SPEC",
+        "must_supply": [
+          "adapter provenance independent of the GU consequence it enables",
+          "physical field complex or exact source-defined quotient interface",
+          "positive-majorant or spectral-section interface sufficient to test state positivity",
+          "observable-admissibility and probability-rule hooks",
+          "locality or causal-compatibility hooks",
+          "state-preserving dynamics hooks",
+          "explicit branch assumptions and non-retuning conditions"
+        ],
+        "must_not_supply": [
+          "GU-constructed adapter",
+          "post-target retuning",
+          "claim of quantum recovery by assumption"
+        ],
+        "evidence": "explorations/construction-space-qm-checklist-p4-2026-07-19.md; tests/recovery-contract/construction_space_qm_checklist_p4.py"
+      },
       "tracks": {
         "SM": {
           "grade": "GATED",
@@ -280,7 +301,7 @@
     "open": 24,
     "gated": 5,
     "r0_failed": 5,
-    "summary": "12 of 36 track-cells are now non-open: 7 carry R0/R1 grades and 5 are gated. P1 moved C3-GR to R0_FAIL and C9-GR to GATED; P2 moved the current C5-SM seed to R0_FAIL; P3 cleared retro verification flags for C1-SM, C1-COSMO, and C2-GR without changing counts. No exhaustion claim: C4 and C9 remain gated, C1-QM remains for P4 checklist conversion, and future source-owned selector packets can run through the P2 harness."
+    "summary": "12 of 36 track-cells are now non-open: 7 carry R0/R1 grades and 5 are gated. P1 moved C3-GR to R0_FAIL and C9-GR to GATED; P2 moved the current C5-SM seed to R0_FAIL; P3 cleared retro flags for C1-SM, C1-COSMO, and C2-GR; P4 converted the C1-QM conditional fail into a checklist and typed C4's adapter interface. No exhaustion claim: C4 and C9 remain gated, and future source-owned selector packets can run through the P2 harness."
   },
   "council_rounds": [
     {
@@ -518,6 +539,46 @@
         }
       ],
       "chairman_synthesis": "The gate becomes a spec. P4 then P5 then P6; the interface contract is both a construction target for p2c and the conditional foundation for continued interior exploration. Mutual inconsistency of the legs' demands is a live falsification route that needs no external object."
+    },
+    {
+      "round": 6,
+      "date": "2026-07-19",
+      "mode": "inline rerank after P4 QM checklist conversion",
+      "bench": [
+        "logician",
+        "category theorist",
+        "computer scientist",
+        "differential geometer",
+        "statistician"
+      ],
+      "member_positions": {
+        "logician": "P4 clears the last verification flag without changing coverage counts or claim status; the next useful move is the four-leg source-object specification, not another retro pass.",
+        "category_theorist": "The C4 adapter interface is now typed as a source-owned p2c packet, so P5 can derive its required universal shape from the four GU legs.",
+        "computer_scientist": "The checklist makes QM executable like the P2 harness: future candidates can be tested against named certificate slots instead of prose.",
+        "differential_geometer": "GR still contributes the strongest constraint through C9's first-variation/coefficient gate and C3's trace-free residual obstruction.",
+        "statistician": "The counts are unchanged, which is the right P4 outcome; information gain is reduced ambiguity before the P5 synthesis."
+      },
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P5-SOURCE-OBJECT-SPEC",
+          "what": "Derive the frozen source-object interface contract (lab/process/source-object-interface-contract.md) from the GR, QM, COSMO, and SM sharp lists plus standing lemmas; route the frozen spec to the p2c mailbox as a follow-up.",
+          "why": "P4 supplied the QM certificate demands; the highest-information next test is whether one source object can satisfy all leg requirements without mutual inconsistency."
+        },
+        {
+          "rank": 2,
+          "probe": "P6-CONDITIONAL-INTERIOR",
+          "what": "After P5, continue grading open cells R0_COND/R1_COND conditional on the typed interface.",
+          "why": "Conditional interior work should consume a frozen spec, not run before the shared interface is derived."
+        },
+        {
+          "rank": 3,
+          "probe": "C9/C5-REOPEN-ON-NEW-SOURCE",
+          "what": "Reopen C9 only with a source-owned first variation/coefficient, and rerun C5 only with a source-owned selector packet.",
+          "why": "Standing reopen rule; no new source-owned packet exists in this P4 result."
+        }
+      ],
+      "chairman_synthesis": "P4 complete: C1-QM is checklist-verified as R1_COND with one typed adapter import, C4's p2c adapter interface is typed, and coverage remains 12/36. Next handoff is P5-SOURCE-OBJECT-SPEC, then P6 conditional interior."
     }
   ]
 }

@@ -2,15 +2,14 @@ schema_version: "2.0"
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: "2026-07-19T13:20:00-05:00"
-run_ref: joe-direct-chat-2026-07-19-source-object-reframe
+updated_at: "2026-07-19T15:42:00-05:00"
+run_ref: RUN-20260719-543-repository-work-cycle-cai-hourly
 bottom_line: >-
-  Joe reframed the p2c gate as an integration leg: L1 now derives the
-  source-object interface spec (P5) and explores the interior
-  conditionally (P6). p2c notified. One L3 paper still waits on you.
+  P4 converted the QM conditional-fail row into the construction-space
+  checklist. Next Lane 1 move is P5 source-object spec.
 decision_default: >-
-  Run P4, then P5-SOURCE-OBJECT-SPEC, then P6 conditional interior;
-  do not rerun P1/P2/P3.
+  Run P5-SOURCE-OBJECT-SPEC next, then P6 conditional interior; do
+  not rerun P1/P2/P3/P4.
 needs_joe: true
 lanes:
   - lane_id: "1"
@@ -22,47 +21,41 @@ lanes:
     evidence_ref: "lab/process/construction-space-exploration-protocol.md"
     work_status: moving
     last_movement: >-
-      P3 executed: C1-SM R1 import count, C1-COSMO R0_FAIL, and C2-GR
-      inherited R0_FAIL were verified; coverage stayed 12 of 36
-      track-cells non-open.
+      P4 converted the QM conditional-fail certificate list into the
+      construction-space checklist.
     movement_ref: "lab/process/construction-space-map.json"
     steering_attention: none
     steering_prompt: none
     steering_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
     summary: >-
-      Exploration map integrity improved without an exhaustion claim; the
-      next value is making the QM checklist executable.
+      QM checklist is executable; source-object spec is next.
     progress_delta: >-
-      Since P3: Joe reframed the p2c gate as an integration leg (council
-      round 5) — new P5 derives the source-object interface spec from all
-      four legs; P6 continues interior exploration conditional on it.
+      Since P4: C1-QM verification cleared; C4 adapter interface typed;
+      counts stayed 12 of 36 non-open.
     scope_position: >-
-      Map: 12 of 36 track-cells non-open (7 graded, 5 gated), 24 open.
-      P3 changed no counts; C4/C9 gates and the remaining QM checklist
-      prevent exhaustion.
+      Map: 12 of 36 track-cells non-open (7 graded, 5 gated), 24 open;
+      all P1-P4 retro/QM flags clear.
     trend_24h: up
     confidence: med
-    recommendation: "Run P4, then P5 source-object spec, then P6"
+    recommendation: "Run P5 source-object spec next"
     findings: >-
-      C9 has the right residual-bookkeeping shape but needs a source-owned
-      first variation and frozen coefficient; current C3 scalar/isotropic
-      bare-theta cannot cancel trace-free Q^TF(B); current C5 host arithmetic
-      is real but lacks a source-owned selector, native three generations,
-      Higgs, spectrum, and decoupling.
+      P4 found no new verdict: the QM leg remains conditional on one
+      typed adapter import, with quotient/state/observable/probability/
+      locality/dynamics certificates absent natively.
     options:
       - key: A
-        label: Run P4 QM checklist
+        label: Run P5 source-object spec
         recommended: true
       - key: B
-        label: Jump to constraint-first synthesis
+        label: Continue P6 conditional interior
       - key: C
-        label: Open the exhaustion question (Joe-gated)
+        label: Run Lane 2 DE audit
     decision_default: >-
-      Exploration proceeds P4 -> P5 -> P6; the interface spec routes to
-      p2c when frozen; P1/P2/P3 reopen only on new source-owned packets.
+      Exploration proceeds P5 -> P6; the interface spec routes to p2c
+      when frozen; P1/P2/P3/P4 reopen only on new source-owned packets.
     needs_joe: false
-    evaluated_at: "2026-07-19T13:20:00-05:00"
-    run_ref: joe-direct-chat-2026-07-19-source-object-reframe
+    evaluated_at: "2026-07-19T15:42:00-05:00"
+    run_ref: RUN-20260719-543-repository-work-cycle-cai-hourly
   - lane_id: "2"
     objective: >-
       Extract, freeze, compute, and confront genuinely GU-native predictions

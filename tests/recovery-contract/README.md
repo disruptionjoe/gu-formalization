@@ -12,7 +12,12 @@ posture, or portfolio state.
   fails the trace-free `Q^TF(B)` cancellation slot.
 - `construction_space_retro_verify_p3.py` - construction-space P3 retro
   verification gate: confirms C1-SM R1 import count, C1-COSMO R0 fail,
-  C2-GR inheritance, and coverage arithmetic before P4.
+  C2-GR inheritance, and coverage arithmetic; remains valid after P4 clears
+  the last QM verification flag.
+- `construction_space_qm_checklist_p4.py` - construction-space P4 QM checklist
+  gate: converts the `QM-PHYSICAL-SECTOR` conditional-fail certificate into a
+  per-cell R0 checklist and verifies C4's typed p2c adapter interface without
+  claiming an adapter exists.
 - `construction_space_sm_r0_c5_harness.py` - reusable construction-space P2
   SM R0 harness for C5 candidate quotient/algebra/shadow packets; the current
   Pati-Salam / Spin(10) host seed fails source-owned selector, native
