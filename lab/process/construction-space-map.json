@@ -777,6 +777,39 @@
       ],
       "integration_barrier": "When all four channels freeze parameter cards, Lane 1 updates to INTEGRATION: weld the cards, check shared-payload consistency (target: N<=4 finite package — Z/2 orientation, VEV branch, absolute scale, subgroup datum), and route the sharpened minimal payload to p2c.",
       "chairman_synthesis": "Adapter-assumed swing complete: explorations/adapter-assumed-four-leg-swing-2026-07-19.md holds the four hypotheses and first tests. Channels run independently; no channel may stop on 'needs adapter'; each records adapter demands on its parameter card instead."
+    },
+    {
+      "round": 7,
+      "date": "2026-07-19",
+      "mode": "Joe-directed second big swing + fifth leg + readiness scorecard",
+      "steer": "Fifth channel CH-REC added (records/entropy/arrow of time): H-REC identifies the arrow, the Krein sign, and the vacuum cancellation sign as ONE transmitted orientation — zero new payload items; kill test is the co-flip check in the finite toy. Deepened: H-GR' curvature-conditioned response kernel (anisotropic VEV escapes the C3 isotropy trap); CH-QM topological storage partially discharges Q4 by construction; CH-COSMO adopts Lane 2 DE audit/tripwire as its data legs; CH-SM gains the alignment-rigidity condition and the varying-constants observational tripwire. Standing readiness surface: lab/process/integration-readiness-scorecard.md (3 questions per leg; integration when all rows YES + payload weld passes).",
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "CH-GR-C10-FORMALIZE",
+          "what": "Formalize C10; compute VEV stress on curvature-locked anisotropic, homogeneous, and gradient-dominated sub-branches.",
+          "why": "Critical path; CH-COSMO and CH-SM conditioning wait on it."
+        },
+        {
+          "rank": 2,
+          "probe": "CH-SM-CHAIN-SWEEP",
+          "what": "Enumerate Spin(10)/Pati-Salam breaking chains; harness-sweep; surviving list = adapter range for the subgroup datum.",
+          "why": "Zero dependencies; computable now; freezes the first adapter-range item."
+        },
+        {
+          "rank": 3,
+          "probe": "CH-COSMO-DE-AUDIT",
+          "what": "Run the Lane 2 DE amplitude audit (READY) as CH-COSMO's empirical scale bracket.",
+          "why": "Zero dependencies; data-facing now."
+        },
+        {
+          "rank": 4,
+          "probe": "CH-QM-REC-TOY",
+          "what": "Finite graded-quotient toy with record register: positive-sector test, wrong-orientation kill, local inertness (Q4), and the CH-REC co-flip test.",
+          "why": "One build serves two channels."
+        }
+      ],
+      "chairman_synthesis": "Five channels, N<=4 payload target unchanged (H-REC claims thermodynamics rides free on the Z/2). Two probes runnable immediately with no dependencies; scorecard is the standing readiness surface."
     }
   ]
 }
