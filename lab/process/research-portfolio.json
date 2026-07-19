@@ -386,11 +386,13 @@
           "CH-GR",
           "CH-COSMO",
           "CH-SM",
-          "CH-REC"
+          "CH-REC",
+          "CH-SRC"
         ],
         "channel_contract": "Each channel is guided by its hypothesis (explorations/adapter-assumed-four-leg-swing-2026-07-19.md) and produces a frozen PARAMETER CARD: (a) construction parameters for its sector to fit within GU, (b) realistic adapter parameters that sector demands. Channels never stop on adapter-needed.",
         "integration_barrier": "All four parameter cards frozen -> lane updates to integration: weld cards, verify shared minimal payload (target N<=4), route to p2c.",
-        "readiness_scorecard": "lab/process/integration-readiness-scorecard.md — three questions per leg (construction exists? parameter boundaries known? adapter range known?); channels update rows as evidence moves; integration when all rows YES and the welded payload passes consistency."
+        "readiness_scorecard": "lab/process/integration-readiness-scorecard.md — three questions per leg (construction exists? parameter boundaries known? adapter range known?); channels update rows as evidence moves; integration when all rows YES and the welded payload passes consistency.",
+        "ch_src_contract": "CH-SRC (Joe direct chat 2026-07-19): the source-action build channel — a LAGGING INTEGRATOR. It attempts the minimal source-action skeleton (2026-06-27 spec B.1-B.4: (S,S)=0; Noether identity forcing delta_2.d_RS,-1=0; non-equivariant compensator sigma_c; cohomological realization) and continuously consumes the other five channels' cards to narrow the build parameters. It maintains the build-parameter ledger (lab/process/source-action-build-ledger.md): every frozen demand from other channels (DEM-GR-*, T3, J_quat typing, scale bracket, chain-representation demands) lands there as a build constraint. CH-SRC never blocks the other channels and never stops on adapter-needed; its own card freezes when the skeleton either exists at toy grade or is obstructed by a named computed conflict."
       }
     },
     {
