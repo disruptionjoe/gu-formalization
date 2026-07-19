@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-19T11:50:00-05:00",
+  "updated_at": "2026-07-19T12:42:00-05:00",
   "artifact_role": "Coverage ledger for the construction-space exploration program. Cells are construction families on the six-axis template; rung grades are per sector track. This file changes no claim status or verdict.",
   "protocol": "lab/process/construction-space-exploration-protocol.md",
   "portfolio_item": "CONSTRUCTION-SPACE-EXPLORATION",
@@ -68,9 +68,9 @@
             "spectrum completion",
             "decoupling mechanism"
           ],
-          "verification_needed": true,
-          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-SM-SELECTOR",
-          "note": "R2 BOUNDED_NO_GO (no native selector); hosting evidence (Pati-Salam/Spin(10) + relative arithmetic) is real."
+          "verification_needed": false,
+          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-SM-SELECTOR; explorations/construction-space-retro-verify-p3-2026-07-19.md; tests/recovery-contract/construction_space_retro_verify_p3.py",
+          "note": "P3 verified: R2 BOUNDED_NO_GO (no native selector); R1 hosting evidence (Pati-Salam/Spin(10) + relative arithmetic) is real only with six typed imports."
         },
         "QM": {
           "grade": "R1_CONDITIONAL",
@@ -90,9 +90,9 @@
         },
         "COSMO": {
           "grade": "R0_FAIL",
-          "verification_needed": true,
-          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-COSMO-SCALAR",
-          "note": "No physical scalar projector/observable map/closed truncation found in-branch; retro-read as R0 fail pending one confirmation pass at consistency strength."
+          "verification_needed": false,
+          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-COSMO-SCALAR; explorations/construction-space-retro-verify-p3-2026-07-19.md; tests/recovery-contract/construction_space_retro_verify_p3.py",
+          "note": "P3 verified: no physical scalar projector, gauge-invariant observable map, or closed SVT truncation/residue discharge exists in the current W229 branch, so it fails COSMO R0 at consistency strength."
         }
       }
     },
@@ -110,9 +110,9 @@
         },
         "GR": {
           "grade": "R0_FAIL",
-          "verification_needed": true,
-          "evidence": "register: same zero-source obstruction unless a different non-record source is supplied",
-          "note": "Inherits C1's vacuum-support failure."
+          "verification_needed": false,
+          "evidence": "lab/process/recovery-no-go-defense-register.json#RECOVERY-NOGO-GR-W229-VACUUM; explorations/construction-space-retro-verify-p3-2026-07-19.md; tests/recovery-contract/construction_space_retro_verify_p3.py",
+          "note": "P3 verified: inherits C1's same zero-source obstruction because W203 keeps the record-current Psi=0 -> J=0 source law unless a different non-record source is supplied."
         },
         "COSMO": {
           "grade": "OPEN"
@@ -278,7 +278,7 @@
     "open": 24,
     "gated": 5,
     "r0_failed": 5,
-    "summary": "12 of 36 track-cells are now non-open: 7 carry R0/R1 grades and 5 are gated. P1 moved C3-GR to R0_FAIL and C9-GR to GATED; P2 moved the current C5-SM seed to R0_FAIL. No exhaustion claim: C4 and C9 remain gated and future source-owned selector packets can run through the P2 harness."
+    "summary": "12 of 36 track-cells are now non-open: 7 carry R0/R1 grades and 5 are gated. P1 moved C3-GR to R0_FAIL and C9-GR to GATED; P2 moved the current C5-SM seed to R0_FAIL; P3 cleared retro verification flags for C1-SM, C1-COSMO, and C2-GR without changing counts. No exhaustion claim: C4 and C9 remain gated, C1-QM remains for P4 checklist conversion, and future source-owned selector packets can run through the P2 harness."
   },
   "council_rounds": [
     {
@@ -443,6 +443,46 @@
         }
       ],
       "chairman_synthesis": "P1 and P2 completed and narrowed the feasible set without triggering exhaustion. Next handoff is P3 retro-verification, then P4 QM checklist; use P5 constraint-first synthesis if those do not produce a cleaner immediate candidate."
+    },
+    {
+      "round": 4,
+      "date": "2026-07-19",
+      "mode": "inline rerank after P3 retro verification",
+      "bench": [
+        "logician",
+        "computer scientist",
+        "category theorist",
+        "differential geometer",
+        "statistician"
+      ],
+      "member_positions": {
+        "logician": "P3 cleared the intended stale retro flags without changing the map denominator or claiming exhaustion; leave C1-QM to P4 because its conditional adapter certificate needs checklist typing.",
+        "computer_scientist": "The next useful executable artifact is a reusable QM checklist, analogous to the P2 SM harness but certificate-shaped rather than arithmetic.",
+        "category_theorist": "Typing the C4 boundary adapter gate before any p2c packet returns will prevent branch-condition ambiguity and import-count drift.",
+        "differential_geometer": "Do not reopen C9 or C3 until a source-owned first variation, coefficient, or bare-theta equation appears; the current GR geometry did not move in P3.",
+        "statistician": "Counts are stable: 12 of 36 non-open. P4 should reduce ambiguity rather than add a new hand probe."
+      },
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P4-QM-CHECKLIST",
+          "what": "Turn the QM physical-sector conditional-fail certificate list into a per-cell R0 checklist and type the C4 adapter gate for a future p2c return.",
+          "why": "It is the only remaining retro verification flag and makes the quantum track executable without weakening the sharp list."
+        },
+        {
+          "rank": 2,
+          "probe": "P5-CONSTRAINT-FIRST-SYNTHESIS",
+          "what": "After P4, invert the four sharp lists into a candidate-generation problem over the axis lattice, using the P2 harness for SM seeds.",
+          "why": "Once retro/QM integrity is clean, broader generation is more useful than repeating failed C3/C5 probes."
+        },
+        {
+          "rank": 3,
+          "probe": "C9/C5-REOPEN-ON-NEW-SOURCE",
+          "what": "Reopen C9 only with a source-owned first variation/coefficient, and rerun C5 only with a source-owned selector packet.",
+          "why": "Avoid duplicating P1/P2 current-evidence failures."
+        }
+      ],
+      "chairman_synthesis": "P3 complete: C1-SM, C1-COSMO, and C2-GR retro grades are verified and coverage counts are unchanged. Next handoff is P4-QM-CHECKLIST, then P5 constraint-first synthesis if no cleaner immediate candidate appears."
     }
   ]
 }

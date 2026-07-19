@@ -2,15 +2,15 @@ schema_version: "2.0"
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: "2026-07-19T11:50:03-05:00"
-run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
+updated_at: "2026-07-19T12:42:00-05:00"
+run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
 bottom_line: >-
-  L1 moved: construction-space P1/P2 completed, narrowing C3-GR,
-  C9-GR, and C5-SM; next useful probes are P3 retro-verify and P4
-  QM checklist. One L3 paper still waits on you.
+  L1 moved: construction-space P3 retro-verified C1-SM, C1-COSMO,
+  and C2-GR map rows; next useful probe is P4 QM checklist. One L3
+  paper still waits on you.
 decision_default: >-
-  Do not rerun P1/P2; run P3-RETRO-VERIFY then P4-QM-CHECKLIST unless a
-  new source-owned C9/C5 packet appears.
+  Do not rerun P1/P2/P3; run P4-QM-CHECKLIST unless a new source-owned
+  C9/C5 packet or map-integrity fault appears.
 needs_joe: true
 lanes:
   - lane_id: "1"
@@ -22,27 +22,27 @@ lanes:
     evidence_ref: "lab/process/construction-space-exploration-protocol.md"
     work_status: moving
     last_movement: >-
-      P1/P2 executed: C3-GR moved to R0_FAIL, C9-GR became a named gate,
-      and the reusable SM R0 harness moved the current C5-SM host seed to
-      R0_FAIL.
+      P3 executed: C1-SM R1 import count, C1-COSMO R0_FAIL, and C2-GR
+      inherited R0_FAIL were verified; coverage stayed 12 of 36
+      track-cells non-open.
     movement_ref: "lab/process/construction-space-map.json"
     steering_attention: none
     steering_prompt: none
     steering_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
     summary: >-
-      Exploration map narrowed without an exhaustion claim; the next value is
-      integrity cleanup and making the QM checklist executable.
+      Exploration map integrity improved without an exhaustion claim; the
+      next value is making the QM checklist executable.
     progress_delta: >-
-      Since P0: P1 produced the C9/C3 GR gate lemma and P2 installed the SM
-      R0 harness for C5, with evidence in explorations/ and
-      tests/recovery-contract/.
+      Since P0: P1 produced the C9/C3 GR gate lemma, P2 installed the SM
+      R0 harness for C5, and P3 cleared the targeted retro verification
+      flags with evidence in explorations/ and tests/recovery-contract/.
     scope_position: >-
       Map: 12 of 36 track-cells non-open (7 graded, 5 gated), 24 open.
-      P1/P2 moved three current-evidence track-cells; C4/C9 gates prevent
-      exhaustion.
+      P3 changed no counts; C4/C9 gates and the remaining QM checklist
+      prevent exhaustion.
     trend_24h: up
     confidence: med
-    recommendation: "Run P3 retro-verify, then P4 QM checklist; do not repeat P1/P2"
+    recommendation: "Run P4 QM checklist; do not repeat P1/P2/P3"
     findings: >-
       C9 has the right residual-bookkeeping shape but needs a source-owned
       first variation and frozen coefficient; current C3 scalar/isotropic
@@ -51,18 +51,18 @@ lanes:
       Higgs, spectrum, and decoupling.
     options:
       - key: A
-        label: Run P3 retro-verify, then QM checklist
+        label: Run P4 QM checklist
         recommended: true
       - key: B
         label: Jump to constraint-first synthesis
       - key: C
         label: Open the exhaustion question (Joe-gated)
     decision_default: >-
-      Exploration proceeds through P3/P4; P1/P2 reopen only on new
-      source-owned GR or SM selector packets.
+      Exploration proceeds through P4; P1/P2/P3 reopen only on new
+      source-owned GR or SM selector packets or a map-integrity fault.
     needs_joe: false
-    evaluated_at: "2026-07-19T11:50:03-05:00"
-    run_ref: RUN-20260719-534-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T12:42:00-05:00"
+    run_ref: RUN-20260719-536-repository-work-cycle-cai-hourly
   - lane_id: "2"
     objective: >-
       Extract, freeze, compute, and confront genuinely GU-native predictions
