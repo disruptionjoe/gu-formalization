@@ -2,12 +2,12 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-19T16:45:00-05:00'
-run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
-bottom_line: L1 froze the source-object interface; parent routes p2c and Drafting
-  Factory payloads. Next P6 conditional interior.
-decision_default: Run P6-CONDITIONAL-INTERIOR next; parent routes the p2c spec
-  and Drafting Factory seed payloads.
+updated_at: '2026-07-19T17:45:38-05:00'
+run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
+bottom_line: L1 completed P6 conditional interior; the shared source-object corridor
+  is conditional, not an instance. Next P7 shared-normalization ledger.
+decision_default: Run P7-SHARED-NORMALIZATION-LEDGER next; parent still routes
+  the p2c spec and Drafting Factory seed payloads from RUN-20260719-545.
 needs_joe: false
 lanes:
 - lane_id: '1'
@@ -17,34 +17,36 @@ lanes:
   reason_code: exploration_program_active
   evidence_ref: lab/process/construction-space-exploration-protocol.md
   work_status: moving
-  last_movement: P5 froze the four-leg source-object interface contract.
-  movement_ref: lab/process/source-object-interface-contract.md
+  last_movement: P6 conditionally graded first interior cells against the frozen
+    source-object interface.
+  movement_ref: explorations/construction-space-conditional-interior-p6-2026-07-19.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: Source-object spec is frozen; conditional interior is next.
-  progress_delta: 'Since P5: four-leg GR/QM/COSMO/SM interface frozen; counts stayed
-    12 of 36 non-open.'
-  scope_position: 'Map: 12 of 36 track-cells non-open (7 graded, 5 gated), 24 open;
-    P5 complete, no source instance.'
+  summary: P6 opened a conditional corridor while preserving no-instance discipline.
+  progress_delta: 'Since P6: C9-GR, C6-SM, C7-COSMO, and C8-COSMO are conditionally
+    graded against one shared source-object interface.'
+  scope_position: 'Map: 15 of 36 track-cells non-open (6 direct, 5 conditional,
+    4 gated), 21 open; P6 complete, no source instance.'
   trend_24h: up
   confidence: med
-  recommendation: Run P6 conditional interior next
-  findings: 'P5 produced no verdict: one shared source object must satisfy GR trace-free,
-    QM certificate, COSMO scalar, and SM selector legs.'
+  recommendation: Run P7 shared-normalization ledger next
+  findings: 'P6 produced no verdict: C4 remains gated, and the conditional corridor
+    is useful only if one shared source object satisfies all four legs without
+    hidden sector retuning.'
   options:
   - key: A
-    label: Run P6 conditional interior
+    label: Run P7 shared ledger
     recommended: true
   - key: B
     label: Await p2c source packet
   - key: C
     label: Run Lane 2 DE audit
-  decision_default: Explore R0_COND/R1_COND against the frozen contract; p2c routing
-    is parent/steward follow-up.
+  decision_default: Test P6-CORRIDOR-A for shared identity, assumptions, normalization,
+    loss ledger, import count, and rollback across all four legs.
   needs_joe: false
-  evaluated_at: '2026-07-19T16:45:00-05:00'
-  run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-19T17:45:38-05:00'
+  run_ref: RUN-20260719-547-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

@@ -184,13 +184,20 @@ def main() -> None:
     c9 = cell(map_data, "C9-AMBIENT-H-CLASS")
     c3 = cell(map_data, "C3-BARE-THETA-STIFFNESS")
     check("C1a  P1 evaluates C9 before C3", c9["id"].startswith("C9") and c3["id"].startswith("C3"))
+    c9_grade = c9["tracks"]["GR"]["grade"]
     check(
-        "C1b  map records the completed P1 GR dispositions",
-        c9["tracks"]["GR"]["grade"] == "GATED"
+        "C1b  map records P1 GR disposition or later P6 conditional regrade",
+        c9_grade in {"GATED", "R0_COND"}
         and c3["tracks"]["GR"]["grade"] == "R0_FAIL"
         and c9["tracks"]["GR"]["verification_needed"] is False
         and c3["tracks"]["GR"]["verification_needed"] is False,
+        c9_grade,
     )
+    if c9_grade == "R0_COND":
+        check(
+            "C1b2  P6 conditional C9 still names the concrete integration gate",
+            "concrete p2c packet" in c9["tracks"]["GR"]["integration_gate"],
+        )
     check(
         "C1c  map evidence points back to the P1 note and test",
         "construction-space-gr-r0-lemma-c9-c3-2026-07-19.md" in c9["tracks"]["GR"]["evidence"]
@@ -259,8 +266,10 @@ def main() -> None:
     log("=" * 82)
     if not FAIL:
         log("Operational result: P1 complete.")
-        log("C9-AMBIENT-H-CLASS is GATED at GR R0 on a source-owned higher-codimension")
-        log("first variation plus coefficient frozen before target use. C3-BARE-THETA-STIFFNESS")
+        log("C9-AMBIENT-H-CLASS is gated by the P1 candidate test until a source-owned")
+        log("higher-codimension first variation and coefficient are frozen before target use.")
+        log("Later map passes may grade it R0_COND only by consuming the P5 interface as a typed import.")
+        log("C3-BARE-THETA-STIFFNESS")
         log("fails the current scalar/isotropic bare-theta GR R0 lemma: it supplies no")
         log("source-owned trace-free Q^TF(B)-slot tensor, and metric-proportional stress cannot")
         log("cancel Q^TF(B). The native-vacuum question remains a named reframe dependency,")

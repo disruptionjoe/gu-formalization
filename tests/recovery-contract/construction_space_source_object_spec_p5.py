@@ -187,10 +187,11 @@ def main() -> None:
     expected_coverage = recompute_coverage(map_data)
     actual_coverage = {key: map_data["coverage"][key] for key in expected_coverage}
     check("coverage arithmetic still matches cell ledger", actual_coverage == expected_coverage, f"{actual_coverage} vs {expected_coverage}")
-    check("P5 changed no coverage counts", actual_coverage["dispositioned_track_cells"] == 12 and actual_coverage["open"] == 24)
-    final_round = map_data["council_rounds"][-1]
-    check("latest council is post-P5", final_round["round"] == 7 and "P5 complete" in final_round["chairman_synthesis"])
-    check("P6 is now first ranked handoff", final_round["ranked_search_plan"][0]["probe"] == "P6-CONDITIONAL-INTERIOR")
+    check("current coverage has not drifted from the cell ledger", actual_coverage == expected_coverage)
+    round_seven = next((entry for entry in map_data["council_rounds"] if entry["round"] == 7), None)
+    check("round 7 council is post-P5", round_seven is not None and "P5 complete" in round_seven["chairman_synthesis"])
+    if round_seven is not None:
+        check("round 7 P6 handoff is preserved", round_seven["ranked_search_plan"][0]["probe"] == "P6-CONDITIONAL-INTERIOR")
 
     construction = work_item(portfolio, "CONSTRUCTION-SPACE-EXPLORATION")
     dependency = work_item(portfolio, "DEP-NATIVE-SOURCE-DATUM")

@@ -20,8 +20,12 @@ posture, or portfolio state.
   claiming an adapter exists.
 - `construction_space_source_object_spec_p5.py` - construction-space P5
   source-object specification gate: verifies the frozen four-leg GR/QM/COSMO/SM
-  interface contract, parent-routed p2c handoff, unchanged coverage counts, and
+  interface contract, parent-routed p2c handoff, and preserved round-7
   P6 conditional-interior handoff.
+- `construction_space_conditional_interior_p6.py` - construction-space P6
+  conditional-interior gate: verifies first conditional grades against the
+  frozen source-object interface, preserves C4 as gated until an actual p2c
+  packet exists, and hands off to a shared-normalization ledger.
 - `construction_space_sm_r0_c5_harness.py` - reusable construction-space P2
   SM R0 harness for C5 candidate quotient/algebra/shadow packets; the current
   Pati-Salam / Spin(10) host seed fails source-owned selector, native

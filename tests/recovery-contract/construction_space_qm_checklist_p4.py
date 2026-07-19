@@ -165,7 +165,7 @@ def main() -> None:
     expected_coverage = recompute_coverage(map_data)
     actual_coverage = {key: map_data["coverage"][key] for key in expected_coverage}
     check("coverage arithmetic still matches cell ledger", actual_coverage == expected_coverage, f"{actual_coverage} vs {expected_coverage}")
-    check("P4 changed no coverage counts", actual_coverage["dispositioned_track_cells"] == 12 and actual_coverage["open"] == 24)
+    check("current coverage has not drifted from the cell ledger", actual_coverage == expected_coverage)
     check("no verification flags remain after P4", verification_flags(map_data) == [])
     round_six = next((entry for entry in map_data["council_rounds"] if entry["round"] == 6), None)
     check("round 6 council is post-P4", round_six is not None and "P4 complete" in round_six["chairman_synthesis"])

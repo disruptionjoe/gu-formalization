@@ -31,6 +31,29 @@
     "source_owner": "possibility-to-capability",
     "summary": "P5 froze the four-leg source-object interface contract as a typed import: GR trace-free vacuum-support slot, QM physical-sector certificates, COSMO scalar-channel certificates, and SM source-owned selector certificates. No source instance exists; p2c routing is parent/daily-steward follow-up."
   },
+  "conditional_interior_probe": {
+    "status": "complete",
+    "completed_at": "2026-07-19",
+    "probe": "P6-CONDITIONAL-INTERIOR",
+    "evidence": "explorations/construction-space-conditional-interior-p6-2026-07-19.md",
+    "test": "tests/recovery-contract/construction_space_conditional_interior_p6.py",
+    "summary": "P6 used the frozen P5 source-object interface as one typed import to grade first conditional interior cells without claiming a source instance. C4 remains gated on an actual p2c packet. C9-GR, C6-SM, C7-COSMO, and C8-COSMO are conditionally consistent only under one shared source object with frozen normalizations and no per-sector retuning.",
+    "conditional_corridors": [
+      {
+        "id": "P6-CORRIDOR-A",
+        "status": "CONDITIONAL_NOT_INSTANCE",
+        "minimum_grade": "R0_COND",
+        "shared_import_count": 1,
+        "legs": {
+          "GR": "C9-AMBIENT-H-CLASS",
+          "QM": "C1-W229-RECORD-CURRENT or C4 packet interface",
+          "COSMO": "C7-COMPOSITE-SCALAR or C8-MIXED-SECTOR-SCALAR",
+          "SM": "C6-SOURCE-OWNED-BREAKING"
+        },
+        "first_falsification_test": "A single shared source identity, branch assumptions, normalization ledger, loss ledger, import count, and rollback rule must satisfy all four legs without hidden sector-specific retuning."
+      }
+    ]
+  },
   "sharp_constraint_lists": {
     "frozen_at": "2026-07-19",
     "weakening_is_joe_gated": true,
@@ -227,8 +250,14 @@
       "axis_notes": "L5 delta: breaking/chirality as emergent from source dynamics; largely UNDERDEFINED.",
       "tracks": {
         "SM": {
-          "grade": "OPEN",
-          "note": "Swing-2 killed at derivation strength; R0 question (is source-owned breaking consistent with the sharp list at all?) unexamined."
+          "grade": "R0_COND",
+          "import_count_estimate": 1,
+          "imports": [
+            "frozen shared source-object interface"
+          ],
+          "verification_needed": false,
+          "evidence": "lab/process/source-object-interface-contract.md; explorations/construction-space-conditional-interior-p6-2026-07-19.md; tests/recovery-contract/construction_space_conditional_interior_p6.py",
+          "note": "P6 conditional interior: source-owned breaking is conditionally consistent at SM R0 only if the same source object supplies target-free selector, chirality, three generations, absolute hypercharge normalization, physical Higgs sector, complete spectrum, and decoupling. No concrete source instance exists."
         },
         "QM": {
           "grade": "OPEN"
@@ -256,8 +285,14 @@
           "grade": "OPEN"
         },
         "COSMO": {
-          "grade": "OPEN",
-          "note": "Primary track: does any composite admit a projector + observable map + closed truncation at consistency strength?"
+          "grade": "R0_COND",
+          "import_count_estimate": 1,
+          "imports": [
+            "frozen shared source-object interface"
+          ],
+          "verification_needed": false,
+          "evidence": "lab/process/source-object-interface-contract.md; explorations/construction-space-conditional-interior-p6-2026-07-19.md; tests/recovery-contract/construction_space_conditional_interior_p6.py",
+          "note": "P6 conditional interior: a composite scalar is conditionally consistent at COSMO R0 only if the same source object binds a physical scalar projector, observable map, closed SVT quadratic truncation, and residue discharge. No concrete source instance exists."
         }
       }
     },
@@ -276,7 +311,14 @@
           "grade": "OPEN"
         },
         "COSMO": {
-          "grade": "OPEN"
+          "grade": "R0_COND",
+          "import_count_estimate": 1,
+          "imports": [
+            "frozen shared source-object interface"
+          ],
+          "verification_needed": false,
+          "evidence": "lab/process/source-object-interface-contract.md; explorations/construction-space-conditional-interior-p6-2026-07-19.md; tests/recovery-contract/construction_space_conditional_interior_p6.py",
+          "note": "P6 conditional interior: mixed-sector scalar routes are conditionally consistent at COSMO R0 only if the mixing rule is frozen before target comparison and shares the source-object normalization/loss ledger. No concrete source instance exists."
         }
       }
     },
@@ -292,11 +334,15 @@
           "grade": "OPEN"
         },
         "GR": {
-          "grade": "GATED",
-          "gate": "source-owned higher-codimension first variation plus coefficient frozen before Schwarzschild/Kerr target use",
+          "grade": "R0_COND",
+          "import_count_estimate": 1,
+          "imports": [
+            "frozen shared source-object interface"
+          ],
+          "integration_gate": "concrete p2c packet with source-owned higher-codimension first variation plus coefficient frozen before Schwarzschild/Kerr target use",
           "verification_needed": false,
-          "evidence": "explorations/construction-space-gr-r0-lemma-c9-c3-2026-07-19.md; tests/recovery-contract/construction_space_gr_r0_c9_c3_gate.py",
-          "note": "P1 C9-first result: ambient/H-class is the correct type of residual-bookkeeping fork and preserves the linear cheap-read clears, but current evidence does not yet freeze the first variation or coefficient. Gated, not failed."
+          "evidence": "explorations/construction-space-gr-r0-lemma-c9-c3-2026-07-19.md; tests/recovery-contract/construction_space_gr_r0_c9_c3_gate.py; lab/process/source-object-interface-contract.md; explorations/construction-space-conditional-interior-p6-2026-07-19.md; tests/recovery-contract/construction_space_conditional_interior_p6.py",
+          "note": "P6 conditional interior: C9 is conditionally consistent at GR R0 only if the same source object supplies the ambient/H-class first variation or equivalent trace-free source tensor and freezes its coefficient before target use. No concrete source instance exists."
         },
         "COSMO": {
           "grade": "OPEN"
@@ -307,11 +353,12 @@
   "coverage": {
     "cells": 9,
     "track_cells": 36,
-    "dispositioned_track_cells": 12,
-    "open": 24,
-    "gated": 5,
+    "dispositioned_track_cells": 15,
+    "open": 21,
+    "gated": 4,
     "r0_failed": 5,
-    "summary": "12 of 36 track-cells are non-open: 7 carry R0/R1 grades and 5 are gated. P5 froze the source-object interface contract without changing counts. No exhaustion claim: C4 and C9 remain gated, and P6 can grade interior cells R0_COND/R1_COND against the typed interface."
+    "conditional": 5,
+    "summary": "15 of 36 track-cells are non-open: 6 carry direct R0/R1 grades, 5 carry conditional R0/R1 grades, and 4 remain gated. P6 conditionally graded C9-GR, C6-SM, C7-COSMO, and C8-COSMO against the frozen source-object interface without claiming a source instance. No exhaustion claim: C4 remains gated and the conditional corridor still needs one shared normalization/loss ledger."
   },
   "council_rounds": [
     {
@@ -629,6 +676,46 @@
         }
       ],
       "chairman_synthesis": "P5 complete: the source-object interface contract is frozen, parent/daily steward should route it to p2c, and coverage remains 12/36. Next handoff is P6 conditional interior; no verdict, claim-status, or public-posture movement follows."
+    },
+    {
+      "round": 8,
+      "date": "2026-07-19",
+      "mode": "inline rerank after P6 conditional-interior first pass",
+      "bench": [
+        "logician",
+        "differential geometer",
+        "category theorist",
+        "computer scientist",
+        "statistician"
+      ],
+      "member_positions": {
+        "logician": "P6 changed only conditional grades. A conditional corridor is not an instance, and the next proof obligation is sharedness rather than sector fit.",
+        "differential_geometer": "C9 is now the GR leg of the corridor conditional on a source-owned first variation and frozen coefficient; until that packet exists, no Einstein recovery claim follows.",
+        "category_theorist": "The same source object must mediate all four legs. The next artifact should force identity, assumptions, normalization, loss, import, and rollback fields to be shared.",
+        "computer_scientist": "The P5 contract is structured enough for a ledger gate. Test the corridor schema before generating more candidate cells.",
+        "statistician": "Coverage moved to 15 of 36, but information gain now depends on whether conditional cells share one ledger or hide separate retunings."
+      },
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P7-SHARED-NORMALIZATION-LEDGER",
+          "what": "Write and test the shared source identity, branch assumptions, normalization, loss, import-count, and rollback ledger for P6-CORRIDOR-A across GR, QM, COSMO, and SM.",
+          "why": "This is the cheapest falsification test for whether P6's conditional corridor is one construction or only sector-specific repair."
+        },
+        {
+          "rank": 2,
+          "probe": "C4-PACKET-INTEGRATION-ON-RETURN",
+          "what": "When p2c returns a concrete packet, validate provenance and plug it into the P5/P6 ledger before any grade upgrade.",
+          "why": "A real source instance is still required for integration validation."
+        },
+        {
+          "rank": 3,
+          "probe": "P2-HARNESS-ON-NEW-C5-ONLY",
+          "what": "Rerun the SM harness only if P6, P7, or a p2c return supplies a new source-owned selector packet.",
+          "why": "Avoid duplicating the current C5 host-seed R0 fail."
+        }
+      ],
+      "chairman_synthesis": "P6 complete: first conditional interior grades are recorded without source-instance, verdict, claim-status, or public-posture movement. Next handoff is P7 shared-normalization ledger for P6-CORRIDOR-A."
     }
   ]
 }
