@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-07-18",
+  "updated_at": "2026-07-19",
   "artifact_role": "Repository-owned work and ranking portfolio. Durable Lane definitions and control state exist only in root LANES.yaml.",
   "authority": {
     "research_priority_owner": "gu-formalization",
@@ -131,7 +131,7 @@
       "track": "north_star",
       "state": "ACTIVE",
       "owner": "gu-formalization; possibility-to-capability retains boundary-adapter construction",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 22,
       "score": {
         "impact": 5,
@@ -145,9 +145,9 @@
       },
       "depends_on": [],
       "assessment_source": "lab/process/recovery-certification-matrix.json",
-      "assessment_summary": "The recovery contract now has a branch-local construction manifest and action fingerprint. The first exact-vacuum GR, cosmological scalar-truncation, and complete-Standard-Model selector checkpoints returned branch-local no-gos. Those results remain valid at their stated scope, but each now enters the bounded history-audit and three-swing defense protocol before the predeclared construction class may be called exhausted.",
+      "assessment_summary": "The recovery contract has a branch-local construction manifest and action fingerprint. The exact-vacuum GR, cosmological scalar-truncation, and complete-Standard-Model selector defenses each completed history audit plus three broad swings and currently stand as bounded branch-local no-gos. The QM physical-sector interleave returned CONDITIONAL_FAIL. Lane 1 remains protected, but the registered recovery-defense set has no automatic next swing until a fresh source-owned recovery fork, frozen p2c return, or explicit new registered component appears.",
       "construction_fork": "Use one frozen set of GU-native objects, equations, parameters, quotient data, and explicit conditional assumptions. Compare that construction against standard physics benchmarks without silently replacing GU objects by familiar effective-field-theory objects or adjusting a different construction in each sector.",
-      "next_swing": "Run NO-GO-SCOPE-CHALLENGE. First complete the non-counting history audit for the current GR, cosmology, and Standard Model no-gos, checking whether the same obstruction was previously encountered and cleared. Then give each no-go at least three broad construction-diverse swings under the registered stop rule. After the first scope-and-fork round, interleave the QM-PHYSICAL-SECTOR conditional-sufficiency certificate before later rescue rounds unless new evidence changes the ranking.",
+      "next_swing": "Do not rerun the completed NO-GO-SCOPE-CHALLENGE set. Current GR, cosmology, and Standard Model targets are BOUNDED_NO_GO in the defense register, and the QM-PHYSICAL-SECTOR interleave is COMPLETE_CONDITIONAL_FAIL. Reopen recovery-certification hourly work only on a fresh branch-local no-go target, new source-owned recovery fork, frozen p2c return, or explicit daily-steward portfolio signal. Otherwise compare the currently eligible Lane 2 and Lane 3 leaders.",
       "kill_condition": "If recovering the tested sectors requires sector-specific adjustable identifications, couplings, boundary conditions, normalizations, or incompatible versions of the construction, downgrade the unified-recovery claim at the current grade and record exactly what weaker compatibility or embedding result survives.",
       "switch_condition": "After every swing, re-rank the recovery components inside Lane 1, then compare Lane 1's strongest eligible work with the strongest eligible work in Lanes 2 and 3. A scheduling switch does not demote Lane 1's protected purpose.",
       "forbidden_shortcut": "Subgroup containment, field location, matching names, parameter fitting, background-curve agreement, or sector-specific ansatz choices do not establish physical recovery. Compatibility is not derivation, and an imported standard model is not a GU prediction.",
@@ -177,7 +177,7 @@
         {
           "id": "NO-GO-SCOPE-CHALLENGE",
           "title": "Audit history and challenge branch-local recovery no-gos across predeclared construction classes",
-          "state": "READY",
+          "state": "PARKED",
           "priority_score": 27,
           "score": {
             "impact": 5,
@@ -192,7 +192,7 @@
           "depends_on": [],
           "interleave_after_swing_1_round": "QM-PHYSICAL-SECTOR",
           "resume_after_interleave": "Complete Swing 2 and Swing 3 for every non-exhausted registered no-go target.",
-          "next_swing": "Read the defense protocol and register. Work the highest-information HISTORY_AUDIT_READY target first. Search prior GU results for the same substantive obstruction and any earlier clearance, record construction-relative differences, and stop on an integrity conflict. Then advance the registered three-swing sequence without weakening or erasing the source no-go.",
+          "next_swing": "The current registered target set is complete: GR, cosmology, and Standard Model each reached BOUNDED_NO_GO after history audit plus three broad swings. Reopen only for a fresh branch-local no-go target, new source-owned recovery fork, frozen p2c return, or explicit daily-steward portfolio signal.",
           "kill_condition": "The predeclared construction space is exhausted after history reconciliation, a typed scope pass, a genuinely different construction attempt, and adversarial adjudication. Record the bounded or class-exhausted no-go plus an exact resurrection trigger.",
           "forbidden_shortcut": "Do not count keyword search, persona voting, relabeling, coefficient fitting, target-theory import, or a reframe that only survives as one of the three broad swings."
         },
@@ -219,7 +219,7 @@
         {
           "id": "SM-CONSISTENT-SECTOR",
           "title": "Establish or kill a complete low-energy Standard Model sector",
-          "state": "BRANCH_NO_GO_DEFENSE_DUE",
+          "state": "PARKED",
           "priority_score": 22,
           "score": {
             "impact": 5,
@@ -234,14 +234,14 @@
           "depends_on": [
             "RECOVERY-CONTRACT"
           ],
-          "next_swing": "Consume the SM selector no-go through NO-GO-SCOPE-CHALLENGE: audit prior selector obstructions and clearances, then test the predeclared GU-native quotient, observer-section, symmetry-breaking, boundary-conditioned, and comparator constructions without importing the Standard Model target.",
+          "next_swing": "Current defense checkpoint is BOUNDED_NO_GO in the register. Reopen only if a new source-owned selector fork, frozen adapter packet, or explicit registered target changes the construction space.",
           "kill_condition": "A representation embedding without a dynamically closed, anomaly-safe, correctly coupled low-energy sector fails the complete-Standard-Model recovery claim.",
           "forbidden_shortcut": "Do not infer the Standard Model from subgroup containment or a matching field-count table."
         },
         {
           "id": "GR-DYNAMICAL-BENCHMARKS",
           "title": "Recover Einstein dynamics and benchmark gravitational observables",
-          "state": "BRANCH_NO_GO_DEFENSE_DUE",
+          "state": "PARKED",
           "priority_score": 22,
           "score": {
             "impact": 5,
@@ -256,14 +256,14 @@
           "depends_on": [
             "RECOVERY-CONTRACT"
           ],
-          "next_swing": "Consume the exact-vacuum W229 no-go through NO-GO-SCOPE-CHALLENGE: audit prior gravity-residual obstructions and clearances, then test whether the residual persists across the predeclared ultralocal, stiffness, boundary-conditioned, and other already-named GU action forks.",
+          "next_swing": "Current defense checkpoint is BOUNDED_NO_GO in the register. Reopen only if a new source-owned GR recovery fork, frozen adapter packet, or explicit registered target changes the construction space.",
           "kill_condition": "Stationary Schwarzschild or Kerr compatibility without controlled Einstein dynamics, sourced perturbations, and benchmark observables is insufficient and closes the strong recovery wording.",
           "forbidden_shortcut": "Do not promote a solution-shaped projected shadow or background metric match into recovery of general relativity."
         },
         {
           "id": "QM-PHYSICAL-SECTOR",
           "title": "Test whether a supplied boundary adapter is sufficient to construct the physical quantum sector",
-          "state": "READY_CONDITIONAL_AFTER_NOGO_SCOPE_ROUND",
+          "state": "COMPLETE_CONDITIONAL_FAIL",
           "priority_score": 21,
           "score": {
             "impact": 5,
@@ -279,14 +279,14 @@
             "RECOVERY-CONTRACT"
           ],
           "conditional_input_question": "Assume a precisely typed boundary adapter and favorable branch inputs are supplied. Does the same frozen GU construction then produce the physical field complex, BRST or constraint quotient, positive state space, observables, probabilities, locality, and unitary or state-preserving dynamics without any further sector-specific import?",
-          "next_swing": "Write the minimal typed adapter interface as an explicit axiom, then carry the fixed GU construction forward as far as possible. Return CONDITIONAL_COMPLETE, CONDITIONAL_FAIL, or UNDERDEFINED, and list every datum still required beyond the adapter. A success answers conditional sufficiency; it does not claim that GU constructed the adapter.",
+          "next_swing": "The current conditional sufficiency certificate is COMPLETE_CONDITIONAL_FAIL: even with a typed boundary adapter axiom, the branch lacks source-owned quotient, state, observable, probability, locality, and dynamics certificates. Reopen only on a stronger frozen adapter/source packet or explicit new branch input.",
           "kill_condition": "Failure of positivity, constraint compatibility, unitarity, or causal observables even under the explicit adapter assumption kills that conditional realization; success remains assumption-capped.",
           "forbidden_shortcut": "Do not equate an indefinite Krein arena, a selected sign, or a formal BRST complex with a constructed physical Hilbert space."
         },
         {
           "id": "COSMO-PERTURBATIONS",
           "title": "Derive cosmological perturbations and observable transfer",
-          "state": "BRANCH_NO_GO_DEFENSE_DUE",
+          "state": "PARKED",
           "priority_score": 16,
           "score": {
             "impact": 4,
@@ -301,7 +301,7 @@
           "depends_on": [
             "RECOVERY-CONTRACT"
           ],
-          "next_swing": "Consume the scalar-truncation no-go through NO-GO-SCOPE-CHALLENGE: audit prior scalar-channel obstructions and clearances, then test constrained, composite, mixed-sector, boundary-induced, and gauge-invariant scalar constructions before accepting class exhaustion.",
+          "next_swing": "Current defense checkpoint is BOUNDED_NO_GO in the register. Reopen only if a new source-owned scalar perturbation fork, frozen adapter packet, or explicit registered target changes the construction space.",
           "kill_condition": "No scalar singlet or no dynamically closed scalar truncation means the current theta-background Klein-Gordon equation is the wrong physical equation. A fitted background without stable perturbations and observable transfer also fails cosmological recovery.",
           "forbidden_shortcut": "Do not count agreement with a background expansion curve as recovery of cosmology."
         },
@@ -627,9 +627,9 @@
       "lane_id": "1",
       "title": "Study boundary-conditioned physical-C consequences under an explicit adapter assumption",
       "track": "conditional_byproduct",
-      "state": "READY",
+      "state": "PARKED",
       "owner": "gu-formalization for deduction under a named assumption; possibility-to-capability retains adapter construction",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 16,
       "score": {
         "impact": 5,
@@ -643,7 +643,7 @@
       },
       "depends_on": [],
       "construction_fork": "Assume a precisely typed boundary/firewall adapter A and the required favorable branch conditions. Every theorem must be stated as GU consequences given A; A is not a GU construction or verified physical realization.",
-      "next_swing": "Support the RECOVERY-CERTIFICATION QM-PHYSICAL-SECTOR conditional-sufficiency test. Given a precisely typed adapter axiom, determine whether the fixed GU construction yields the boundary-conditioned C metric, physical quotient, and one gauge-independent observable without further imported choices.",
+      "next_swing": "Current QM-PHYSICAL-SECTOR conditional sufficiency test is COMPLETE_CONDITIONAL_FAIL under the existing typed adapter axiom. Reopen only on a stronger frozen p2c adapter/source packet, a new branch input, or a daily-steward signal that changes the conditional question.",
       "kill_condition": "If no positive metric or gauge-independent observable exists even under the explicit adapter axiom, return a conditional no-go to p2c and close that consequence branch.",
       "switch_condition": "The daily steward may select this as a grade-capped conditional study when it has higher information value than reserve work. A real physical construction remains gated on a frozen p2c return.",
       "forbidden_shortcut": "Do not count a conditional consequence as a GU-built adapter, a closed-interior quotient, H59 closure, or a physical prediction. Do not describe the question as impossible internally: GU owns the conditional downstream construction test while p2c owns supplying the adapter."

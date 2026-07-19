@@ -177,29 +177,29 @@ class RecoveryCertificationMatrixAudit(unittest.TestCase):
         }
         self.assertTrue(lane_one_matrix_items.issubset(internal))
         self.assertEqual({"NO-GO-SCOPE-CHALLENGE"}, set(internal) - lane_one_matrix_items)
-        self.assertEqual("READY", internal["NO-GO-SCOPE-CHALLENGE"]["state"])
-        self.assertIn("HISTORY_AUDIT_READY", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
-        self.assertIn("three-swing sequence", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
+        self.assertEqual("PARKED", internal["NO-GO-SCOPE-CHALLENGE"]["state"])
+        self.assertIn("current registered target set is complete", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
+        self.assertIn("three broad swings", internal["NO-GO-SCOPE-CHALLENGE"]["next_swing"])
         self.assertEqual("GATED_P2C", internal["ADAPTER-RETURN-CERTIFICATION"]["state"])
         self.assertEqual("2", self.portfolio_by_id["FIXED-NATIVE-QUANTITY"]["lane_id"])
         self.assertEqual("GATED_NEW_STRUCTURE", self.portfolio_by_id["FIXED-NATIVE-QUANTITY"]["state"])
         self.assertEqual("2", self.portfolio_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]["lane_id"])
         self.assertEqual("GATED_FIXED_QUANTITY", self.portfolio_by_id["BLIND-QUANTITATIVE-CONFRONTATION"]["state"])
         self.assertEqual(
-            "BRANCH_NO_GO_DEFENSE_DUE",
+            "PARKED",
             internal["GR-DYNAMICAL-BENCHMARKS"]["state"],
         )
         self.assertEqual(
-            "BRANCH_NO_GO_DEFENSE_DUE",
+            "PARKED",
             internal["COSMO-PERTURBATIONS"]["state"],
         )
         self.assertEqual(
-            "BRANCH_NO_GO_DEFENSE_DUE",
+            "PARKED",
             internal["SM-CONSISTENT-SECTOR"]["state"],
         )
-        self.assertIn("NO-GO-SCOPE-CHALLENGE", internal["GR-DYNAMICAL-BENCHMARKS"]["next_swing"])
-        self.assertIn("scalar-truncation no-go", internal["COSMO-PERTURBATIONS"]["next_swing"])
-        self.assertIn("SM selector no-go", internal["SM-CONSISTENT-SECTOR"]["next_swing"])
+        self.assertIn("BOUNDED_NO_GO", internal["GR-DYNAMICAL-BENCHMARKS"]["next_swing"])
+        self.assertIn("BOUNDED_NO_GO", internal["COSMO-PERTURBATIONS"]["next_swing"])
+        self.assertIn("BOUNDED_NO_GO", internal["SM-CONSISTENT-SECTOR"]["next_swing"])
 
     def test_assessment_files_do_not_leak_local_paths_or_em_dashes(self) -> None:
         windows_home = "C:" + "\\Users\\joe"

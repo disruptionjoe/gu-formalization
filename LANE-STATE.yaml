@@ -1,22 +1,22 @@
 schema_version: "1.0"
 owner_id: gu-formalization
 rule_ref: system/runtime/flows/derive-lane-health.md
-evaluated_at: "2026-07-19T08:42:23-05:00"
-run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+evaluated_at: "2026-07-19T09:31:00-05:00"
+run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
 lanes:
   - lane_id: "1"
-    work_status: thin
-    last_movement: "none found in this run; active recovery certification work remains available"
+    work_status: gated
+    last_movement: "current registered recovery no-go defense set parked after bounded endpoints"
     movement_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
     steering_attention: none
-    steering_prompt: "none"
+    steering_prompt: "Reopen Lane 1 progress only on a new source-owned fork, frozen p2c return, or registered target."
     steering_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
     light: green
-    reason_code: protected_truth_testing_path_available
+    reason_code: protected_truth_testing_waiting_for_new_signal
     evidence_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
-    summary: "Lane 1 remains protected with active recovery-certification work."
-    evaluated_at: "2026-07-19T08:42:23-05:00"
-    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+    summary: "Lane 1 is protected but its current recovery-defense set is parked."
+    evaluated_at: "2026-07-19T09:31:00-05:00"
+    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
   - lane_id: "2"
     work_status: thin
     last_movement: "none found in this run; prediction work remains gated but defined"
@@ -28,8 +28,8 @@ lanes:
     reason_code: prediction_work_defined
     evidence_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
     summary: "Lane 2 keeps defined prediction work behind evidence gates."
-    evaluated_at: "2026-07-19T08:42:23-05:00"
-    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T09:31:00-05:00"
+    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
   - lane_id: "3"
     work_status: thin
     last_movement: "none found in this run; hardening work remains available"
@@ -41,18 +41,18 @@ lanes:
     reason_code: hardening_work_available
     evidence_ref: "lab/process/research-portfolio.json#PROOF-STABLE-KERNELS"
     summary: "Lane 3 has available proof-hardening work; external review remains gated."
-    evaluated_at: "2026-07-19T08:42:23-05:00"
-    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+    evaluated_at: "2026-07-19T09:31:00-05:00"
+    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly
   - lane_id: A
     work_status: moving
-    last_movement: "schema-2 portfolio audit restored against root LANES.yaml"
-    movement_ref: "process_gates/research_portfolio_contract_audit.py"
+    last_movement: "parked completed recovery-defense steering and refreshed front door"
+    movement_ref: "lab/process/research-portfolio.json"
     steering_attention: none
     steering_prompt: "none"
-    steering_ref: "process_gates/research_portfolio_contract_audit.py"
+    steering_ref: "lab/process/research-portfolio.json"
     light: green
-    reason_code: process_gate_drift_repaired
-    evidence_ref: "process_gates/research_portfolio_contract_audit.py"
-    summary: "Lane A repaired the research-portfolio contract audit for first-class lanes."
-    evaluated_at: "2026-07-19T08:42:23-05:00"
-    run_ref: RUN-20260719-526-repository-work-cycle-cai-hourly
+    reason_code: completed_recovery_defense_steering_reconciled
+    evidence_ref: "lab/process/recovery-no-go-defense-register.json"
+    summary: "Lane A parked completed recovery-defense work and refreshed steering."
+    evaluated_at: "2026-07-19T09:31:00-05:00"
+    run_ref: RUN-20260719-529-repository-work-cycle-cai-hourly

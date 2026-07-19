@@ -2,12 +2,12 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-16"
+updated_at: "2026-07-19"
 ---
 
 # Next Steps For Contributors
 
-> **2026-07-16 CURRENT OPERATIONAL QUEUE: THREE PROGRESS LANES PLUS STEWARDSHIP.**
+> **2026-07-19 CURRENT OPERATIONAL QUEUE: THREE PROGRESS LANES PLUS STEWARDSHIP.**
 > The machine-readable owner is `lab/process/research-portfolio.json`. A lane is a durable purpose-bearing
 > execution container, not each dependency, monitor, gate, closed branch, workstream, or task.
 >
@@ -29,12 +29,13 @@ updated_at: "2026-07-16"
 > `rerank-next-work` flow to rank work inside the lane it used and then rank the three numbered lane leaders.
 > Lane A daily Stewardship decides whether that evidence changes durable portfolio state.
 >
-> **Lane 1 current leader:** `RECOVERY-CERTIFICATION`, with `NO-GO-SCOPE-CHALLENGE` as its highest-ranked
-> adaptive component. The recovery manifest and action fingerprint exist. The first exact-vacuum GR,
-> cosmological scalar-truncation, and complete-Standard-Model selector tests returned scoped `NO_GO` endpoints.
-> Preserve them, but do not mistake them for construction-class exhaustion. `RECOVERY-CONTRACT` is a conditional
-> branch-local endpoint, not a completed unified construction. Keep
-> `lab/process/recovery-certification-matrix.json` as the common recovery ladder.
+> **Lane 1 current leader:** `RECOVERY-CERTIFICATION`, with the current `NO-GO-SCOPE-CHALLENGE` set parked
+> after completion. The recovery manifest and action fingerprint exist. The exact-vacuum GR, cosmological
+> scalar-truncation, and complete-Standard-Model selector defenses each completed history audit plus the minimum
+> three broad swings and now stand as bounded branch-local no-gos in
+> `lab/process/recovery-no-go-defense-register.json`. Preserve them, but do not inflate them into a global GU
+> verdict. `RECOVERY-CONTRACT` is a conditional branch-local endpoint, not a completed unified construction.
+> Keep `lab/process/recovery-certification-matrix.json` as the common recovery ladder.
 >
 > Before challenging a new no-go, run the non-counting history audit in
 > `lab/process/recovery-no-go-defense-protocol.md` and
@@ -44,18 +45,19 @@ updated_at: "2026-07-16"
 > AI-epistemology escape registry, and adversarially adjudicate survivors. Apply Layer 0 plus L1-L7. A legitimate
 > reframe explains more rather than merely surviving, and never erases the original counterexample.
 >
-> After the first scope-and-fork round, interleave `QM-PHYSICAL-SECTOR`: given a precisely typed boundary adapter
-> and favorable branch inputs, determine whether the same frozen GU construction yields the physical complex,
-> constraint or BRST quotient, positive state space, observables, locality, and unitary or state-preserving
-> dynamics without further imports. Return `CONDITIONAL_COMPLETE`, `CONDITIONAL_FAIL`, or `UNDERDEFINED`.
-> Conditional success does not construct the adapter. `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen
-> p2c return. `DEP-NATIVE-SOURCE-DATUM`, the Y14 `F_A` C2 source-action datum and native normalization, remains
-> parked, not solved. The 2026-07-18 boundary source-carrier mailbox intake is a discriminator inventory for
-> typing any future packet's carrier and interface; it does not establish an external signal, source action, or
-> native GU datum.
+> The `QM-PHYSICAL-SECTOR` interleave has reached `CONDITIONAL_FAIL` for the current typed adapter axiom:
+> the branch still lacks source-owned quotient, state, observable, probability, locality, and dynamics
+> certificates. Future conditional sufficiency tests still use the vocabulary `CONDITIONAL_COMPLETE`,
+> `CONDITIONAL_FAIL`, or `UNDERDEFINED`, but only after a stronger frozen adapter/source packet or explicit
+> new branch input changes the question. `ADAPTER-RETURN-CERTIFICATION` remains gated on a frozen p2c return.
+> `DEP-NATIVE-SOURCE-DATUM`, the Y14 `F_A` C2 source-action datum and native normalization, remains parked, not
+> solved. The 2026-07-18 boundary source-carrier mailbox intake is a discriminator inventory for typing any
+> future packet's carrier and interface; it does not establish an external signal, source action, or native GU
+> datum.
 >
-> Closed-interior `PHYSICAL-C` is excluded. `PHYSICAL-C-CONDITIONAL` may test downstream sufficiency under an
-> explicit adapter assumption. The physical boundary construction remains `GATED_P2C`. The native mirror route
+> Closed-interior `PHYSICAL-C` is excluded. `PHYSICAL-C-CONDITIONAL` is parked after the current conditional
+> sufficiency fail and reopens only on new adapter/source evidence. The physical boundary construction remains
+> `GATED_P2C`. The native mirror route
 > is a no-go under W234/W237/W240/W241/W243, and GU-002 packages that result. The exotic nonextremal corridor is
 > mathematically open but GU-non-native. Proposition 1 and the favorable W235 record bit remain live conditions.
 > `bar(b)` and `H59` remain OPEN.

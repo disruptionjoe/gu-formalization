@@ -249,7 +249,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             {"DEP-NATIVE-SOURCE-DATUM", "DEP-PROP1", "DEP-W235-RECORD"},
             set(physical_c["depends_on"]),
         )
-        self.assertEqual("READY", physical_c_conditional["state"])
+        self.assertEqual("PARKED", physical_c_conditional["state"])
+        self.assertFalse(physical_c_conditional["hourly_eligible"])
         self.assertIn("explicit adapter assumption", physical_c_conditional["title"])
         self.assertIn("not a GU construction", physical_c_conditional["construction_fork"])
         self.assertEqual("GATED_P2C", source_datum["state"])
@@ -267,7 +268,7 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
 
         self.assertEqual("1", recovery["lane_id"])
         self.assertEqual("ACTIVE", recovery["state"])
-        self.assertTrue(recovery["hourly_eligible"])
+        self.assertFalse(recovery["hourly_eligible"])
         self.assertTrue(rerank["one_workstream_not_sublanes"])
         self.assertTrue(rerank["rerank_after_every_swing"])
         self.assertIn("Next-Work Handoff", rerank["handoff_rule"])
@@ -292,7 +293,15 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             {item["id"] for item in items},
         )
         self.assertEqual("NO-GO-SCOPE-CHALLENGE", items[0]["id"])
-        self.assertEqual("READY", items[0]["state"])
+        self.assertEqual("PARKED", items[0]["state"])
+        by_internal_id = {item["id"]: item for item in items}
+        self.assertEqual("PARKED", by_internal_id["GR-DYNAMICAL-BENCHMARKS"]["state"])
+        self.assertEqual("PARKED", by_internal_id["COSMO-PERTURBATIONS"]["state"])
+        self.assertEqual("PARKED", by_internal_id["SM-CONSISTENT-SECTOR"]["state"])
+        self.assertEqual(
+            "COMPLETE_CONDITIONAL_FAIL",
+            by_internal_id["QM-PHYSICAL-SECTOR"]["state"],
+        )
 
         item_ids = {item["id"] for item in items}
         for item in items:
@@ -444,14 +453,15 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("Layer 0 semantic alignment plus L1 through L7", protocol)
 
         challenge = items["NO-GO-SCOPE-CHALLENGE"]
-        self.assertEqual("READY", challenge["state"])
-        self.assertIn("HISTORY_AUDIT_READY", challenge["next_swing"])
+        self.assertEqual("PARKED", challenge["state"])
+        self.assertIn("current registered target set is complete", challenge["next_swing"])
         self.assertEqual("QM-PHYSICAL-SECTOR", challenge["interleave_after_swing_1_round"])
 
         quantum = items["QM-PHYSICAL-SECTOR"]
+        self.assertEqual("COMPLETE_CONDITIONAL_FAIL", quantum["state"])
         self.assertIn("supplied boundary adapter", quantum["title"])
         self.assertIn("Does the same frozen GU construction", quantum["conditional_input_question"])
-        self.assertIn("CONDITIONAL_COMPLETE", quantum["next_swing"])
+        self.assertIn("COMPLETE_CONDITIONAL_FAIL", quantum["next_swing"])
 
     def test_id_namespace_ends_automatic_w_collisions(self) -> None:
         policy = self.portfolio["run_id_policy"]
