@@ -26,8 +26,8 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Verdict / scientific-status changes (e.g. OPEN -> RESOLVED), public/external consequence, and relicensing still pause for Joe.
 - CapacityOS architecture questions route to CapacityOS; JoeOps coordination questions route to JoeOps.
 - Scratch, caches, and intermediate renders belong in `_local/`.
-- Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, `lake build -j1`; do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
-- On Windows, GU Lean/Lake commands use `lab/automation/check-lean.ps1`. Its exclusive lock is host-local, not cross-computer. Other hosts need an equivalent runner-native single-build lock and `-j1`; no direct `lake` invocation may bypass the applicable lock policy.
+- Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, and use low-parallelism controls where the active Lake version supports them. Do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
+- On Windows, GU Lean/Lake commands use `lab/automation/check-lean.ps1`. Its exclusive lock is host-local, not cross-computer, and Lake 5 no longer accepts the historical `lake build -j1` form. Other hosts need an equivalent runner-native single-build lock and any supported low-parallelism control; no direct `lake` invocation may bypass the applicable lock policy.
 
 ## Operating note: two kinds of exploit (North Star vs quick payoff)
 

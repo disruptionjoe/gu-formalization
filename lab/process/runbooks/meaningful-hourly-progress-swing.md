@@ -134,7 +134,7 @@ Put the proposed priority effect in the ignored run receipt. The daily steward i
 
 Lean is a reserve method, not the default objective. Use it only for a stable finite kernel that prevents a known error and can state every modeling premise explicitly.
 
-On this Windows host, every GU Lean or Lake invocation must use `lab/automation/check-lean.ps1`, which acquires a host-local exclusive lock and runs `lake build -j1`. The file handle does not serialize another computer or a cloud runner and cannot stop a contributor from bypassing the wrapper. Other hosts must use their runner-native single-build lock and `-j1`, and no two hosts may write the same checkout. Do not encode interacting physics, carrier faithfulness, or native realization as an unmarked axiom.
+On this Windows host, every GU Lean or Lake invocation must use `lab/automation/check-lean.ps1`, which acquires a host-local exclusive lock and runs `lake build`; Lake 5 no longer accepts the historical `lake build -j1` form. The file handle does not serialize another computer or a cloud runner and cannot stop a contributor from bypassing the wrapper. Other hosts must use their runner-native single-build lock and any supported low-parallelism control, and no two hosts may write the same checkout. Do not encode interacting physics, carrier faithfulness, or native realization as an unmarked axiom.
 
 ## Prediction discipline
 

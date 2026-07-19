@@ -30,7 +30,8 @@ a monotone success condition.
 3. **Write the Lean file.** Use `Lean/GUFormalization/` or extend an existing file. Keep it finite and
    elementary. Prefer named mathlib lemmas and small tactics over opaque tactic blocks.
 4. **Typecheck through the serialized guard:** `./lab/automation/check-lean.ps1`. The helper acquires
-   the GU build lock and runs `lake build -j1`. The build must exit 0 with no `sorry` and no `axiom`.
+   the GU build lock and runs `lake build`; Lake 5 no longer accepts the historical `lake build -j1`
+   form. The build must exit 0 with no `sorry` and no `axiom`.
    If it does not, fix it within the run or leave it LEAN-PARTIAL with the exact blocker. Do not commit
    a red or `sorry`-carrying file as verified.
 5. **Update the ledger and Lean map.** Flip the selected item's local Lean status and add a precise owner
@@ -61,6 +62,7 @@ a trivial theorem to appear busy.
 - Never formalize W241's false frame-specific implication that every compact-image isotropy commutes with
   one fixed `P`. W244 showed the narrower order-parameter no-go survives by a different mechanism.
 - The Windows wrapper serializes only this host. It does not coordinate another computer or cloud runner,
-  and policy cannot prevent a direct `lake` command. Every run must use the applicable host lock plus `-j1`.
+  and policy cannot prevent a direct `lake` command. Every run must use the applicable host lock plus any
+  supported low-parallelism control.
 - Do not let "Lean-verified deduction" become "physics proved."
 - Never use `git add -A`.

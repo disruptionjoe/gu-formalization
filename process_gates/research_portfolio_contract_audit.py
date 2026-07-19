@@ -442,7 +442,8 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("L1 R4 INTEGRATION", lean_ledger)
         self.assertIn("host-local", lean_guard)
         self.assertIn("FileShare]::None", lean_guard)
-        self.assertIn("lake build -j1", lean_guard)
+        self.assertIn("Lake 5 no longer accepts", lean_guard)
+        self.assertIn("lake build", lean_guard)
 
     def test_paper_ceiling_is_recorded_without_external_action(self) -> None:
         inventory = read(PAPER_INVENTORY)
