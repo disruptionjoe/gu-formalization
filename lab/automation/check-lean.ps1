@@ -50,7 +50,9 @@ try {
         if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }
     }
 
-    lake build -j1
+    # Lake 5 no longer accepts the historical `lake build -j1` form. The
+    # wrapper's host-local lock still serializes GU Lean builds on this machine.
+    lake build
     exit $LASTEXITCODE
 }
 finally {
