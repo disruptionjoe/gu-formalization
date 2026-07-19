@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-19T12:42:00-05:00",
+  "updated_at": "2026-07-19",
   "artifact_role": "Coverage ledger for the construction-space exploration program. Cells are construction families on the six-axis template; rung grades are per sector track. This file changes no claim status or verdict.",
   "protocol": "lab/process/construction-space-exploration-protocol.md",
   "portfolio_item": "CONSTRUCTION-SPACE-EXPLORATION",
@@ -10,7 +10,9 @@
     "R2": "native selection: structure forced by the construction without sector-specific repair (North Star bar; grades survivors only)",
     "R0_FAIL": "falsified against the sharp constraint list at consistency strength; boundary data carving the map",
     "OPEN": "not yet examined at this rung; prior derivation-strength kills do NOT settle R0/R1",
-    "GATED": "examination blocked on a named dependency"
+    "GATED": "examination blocked on a named dependency",
+    "R0_COND": "consistency conditional on the frozen source-object interface contract (typed import); integration validates when a concrete instance arrives",
+    "R1_COND": "hosting conditional on the frozen source-object interface contract, imports typed and counted including the interface itself"
   },
   "retro_grading_note": "Initial grades are retro-read from existing evidence at register/canon pointers. Every retro grade carries verification_needed: true until an hourly probe confirms it against the frozen constraint list. Prior BOUNDED_NO_GO results were derivation-strength (R2) kills; they are recorded as boundary data and do not settle R0/R1.",
   "preregistered_endings": {
@@ -483,6 +485,39 @@
         }
       ],
       "chairman_synthesis": "P3 complete: C1-SM, C1-COSMO, and C2-GR retro grades are verified and coverage counts are unchanged. Next handoff is P4-QM-CHECKLIST, then P5 constraint-first synthesis if no cleaner immediate candidate appears."
+    },
+    {
+      "round": 5,
+      "date": "2026-07-19",
+      "mode": "Joe-directed steering, direct chat",
+      "steer": "Do not pause the North Star on the p2c gate. Treat the source-owned object as one integration leg among several: derive its full requirement specification from the constraint side (what must it be to fit ALL the GU legs), and keep exploring the rest of GU's interior conditional on that typed interface. Integration happens later, when a concrete instance exists.",
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P4-QM-CHECKLIST",
+          "what": "Unchanged from round 4; its per-cell certificate checklist now also feeds the QM leg of the source-object spec.",
+          "why": "Already queued; now doubly useful."
+        },
+        {
+          "rank": 2,
+          "probe": "P5-SOURCE-OBJECT-SPEC",
+          "what": "Activated and sharpened from the parked constraint-first synthesis: derive the frozen source-object interface contract (lab/process/source-object-interface-contract.md) from all four sharp lists plus the standing lemmas — GR leg (vacuum support; trace-free Q^TF(B)-slot cancellation at O(M^2) with provenance; linear clears preserved; C9's first-variation/frozen-coefficient route), QM leg (certificate demands on the source from P4), COSMO leg (scalar-channel demands), SM leg (selector linkage if any). Route the frozen spec to the p2c mailbox as a follow-up.",
+          "why": "Converts the gate into a deliverable. High-information either way: if the four legs' demands on one object are mutually inconsistent, that is a falsification-shaped result for the predeclared class under the pre-registered endings — reachable WITHOUT the object existing."
+        },
+        {
+          "rank": 3,
+          "probe": "P6-CONDITIONAL-INTERIOR",
+          "what": "Continue grading open cells conditional on the interface (R0_COND/R1_COND): QM certificates, COSMO scalar channel, SM selector characterization proceed with the source object as a typed import, so integration later plugs in the instance rather than restarting the search.",
+          "why": "Keeps the North Star moving at full speed; mirrors the C1-QM adapter-axiom pattern that already works."
+        },
+        {
+          "rank": 4,
+          "probe": "C9/C5-REOPEN-ON-NEW-SOURCE",
+          "what": "Unchanged reopen rules.",
+          "why": "Standing."
+        }
+      ],
+      "chairman_synthesis": "The gate becomes a spec. P4 then P5 then P6; the interface contract is both a construction target for p2c and the conditional foundation for continued interior exploration. Mutual inconsistency of the legs' demands is a live falsification route that needs no external object."
     }
   ]
 }
