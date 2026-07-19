@@ -2,67 +2,66 @@ schema_version: "2.0"
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: "2026-07-19T09:47:00-05:00"
-run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
+updated_at: "2026-07-19T10:30:00-05:00"
+run_ref: joe-direct-chat-2026-07-19-construction-space-exploration-install
 bottom_line: >-
-  L1 defense complete: all three recovery no-gos now bounded and the lane is
-  parked awaiting a new signal; live work shifts to the L2 dark-energy audit;
-  one L3 paper waits on you.
+  L1 is active again: the Joe-authorized construction-space exploration
+  program (map, sector-fit searches, weave) replaces the passive park and is
+  now top eligible work; one L3 paper still waits on you.
 decision_default: >-
-  Selection contract proceeds: the DE amplitude audit is top eligible work;
-  L1 wakes only on its registered conditions.
+  Selection contract proceeds: CONSTRUCTION-SPACE-EXPLORATION (score 25) is
+  top eligible; its first deliverable is the six-axis construction map.
 needs_joe: true
 lanes:
   - lane_id: "1"
     objective: >-
       Test whether one frozen GU construction recovers the required physics
       without sector-specific repair.
-    light: yellow
-    reason_code: parked_bounded_endpoints_awaiting_new_signal
-    evidence_ref: "lab/process/recovery-no-go-defense-register.json"
-    work_status: blocked
+    light: green
+    reason_code: exploration_program_active
+    evidence_ref: "lab/process/construction-space-exploration-protocol.md"
+    work_status: moving
     last_movement: >-
-      Defense set completed and parked: three no-gos bounded after history
-      audit plus three swings each.
-    movement_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
-    steering_attention: watch
-    steering_prompt: >-
-      Reopen Lane 1 progress only on a new source-owned fork, frozen p2c
-      return, or registered target.
-    steering_ref: "lab/process/research-portfolio.json#RECOVERY-CERTIFICATION"
+      Joe authorized the construction-space exploration program; passive park
+      replaced with an active search generator.
+    movement_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
+    steering_attention: none
+    steering_prompt: none
+    steering_ref: "lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION"
     summary: >-
-      Lane 1 is protected but parked: the registered recovery-defense set
-      reached its bounded endpoints with no automatic next swing.
+      Exploration program installed: map the six-axis space, run sector-fit
+      searches, weave survivors into frozen recovery candidates.
     progress_delta: >-
-      Since yesterday: defense-attorney set completed — all three no-gos now
-      BOUNDED_NO_GO after 3 swings each; QM interleave CONDITIONAL_FAIL;
-      lane parked at stop rule.
+      Since this morning: defense set stands bounded, and the new exploration
+      program makes generating constructions first-class work; first
+      deliverable is the six-axis construction map.
     scope_position: >-
-      Construction 1 of the predeclared class: 3 of 3 recovery targets
-      BOUNDED_NO_GO; QM physical-sector interleave CONDITIONAL_FAIL; no
-      eligible swing pending a new signal.
+      Map not yet built — first deliverable of CONSTRUCTION-SPACE-EXPLORATION;
+      3 of 3 prior recovery targets remain BOUNDED_NO_GO on the tested branch.
     trend_24h: up
     confidence: med
-    recommendation: "Hold the park; wake on p2c return or new fork"
+    recommendation: "Build the six-axis construction map first"
     findings: >-
       Defense complete: the GR, cosmology, and Standard Model no-gos each
       survived history audit plus three broad construction-diverse swings and
-      now stand as BOUNDED_NO_GO. The QM physical-sector conditional
-      sufficiency interleave returned CONDITIONAL_FAIL.
+      stand BOUNDED_NO_GO on the tested branch; hosting evidence (Pati-Salam /
+      Spin(10) plus relative arithmetic) is real — what is missing is a
+      source-native selector, which the exploration program now searches for.
     options:
       - key: A
-        label: Hold the park; wake on registered conditions
+        label: Run the exploration program (map, sector-fit, weave)
         recommended: true
       - key: B
-        label: Register a new construction fork to reopen recovery testing
+        label: Revert to the passive park; wake on external signals only
       - key: C
         label: Open the exhaustion question on the predeclared class
           (Joe-gated verdict)
     decision_default: >-
-      Park holds; Lane 1 reopens only on its registered wake conditions.
+      Exploration proceeds; the defense register's wake conditions are
+      satisfied whenever it freezes a multi-sector candidate.
     needs_joe: false
-    evaluated_at: "2026-07-19T09:47:00-05:00"
-    run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
+    evaluated_at: "2026-07-19T10:30:00-05:00"
+    run_ref: joe-direct-chat-2026-07-19-construction-space-exploration-install
   - lane_id: "2"
     objective: >-
       Extract, freeze, compute, and confront genuinely GU-native predictions
@@ -78,16 +77,16 @@ lanes:
     steering_ref: "lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC"
     summary: >-
       Prediction chain gated on new native structure; the dark-energy
-      amplitude audit is now the repo's top eligible progress work.
+      amplitude audit is the lane's one ready progress item.
     progress_delta: >-
-      No movement in 24h, but with L1 parked the DE amplitude audit (READY)
-      becomes the repo's top eligible progress item.
+      No movement in 24h; the DE amplitude audit (READY) is the lane's live
+      item, now ranked behind the L1 exploration program.
     scope_position: >-
       3 of 3 attempted prediction routes no-go; 2 items live (1 ready, 1
       monitor), 3 gated, 1 parked.
     trend_24h: flat
     confidence: low
-    recommendation: "Run the DE amplitude audit; it is now top eligible"
+    recommendation: "Keep DE audit ready; runs when L1 probe is blocked"
     findings: >-
       GU leaves too much invariant freedom at the current construction grade:
       no basis-invariant Yukawa reduction and no absolute normalization, so

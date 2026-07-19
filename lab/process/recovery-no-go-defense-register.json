@@ -3,6 +3,7 @@
   "updated_at": "2026-07-17",
   "artifact_role": "Hourly-updatable register for bounded defense of branch-local recovery no-gos. It changes no claim status or verdict.",
   "protocol": "lab/process/recovery-no-go-defense-protocol.md",
+  "reopen_generator": "lab/process/construction-space-exploration-protocol.md - CONSTRUCTION-SPACE-EXPLORATION actively generates new source-owned forks and registered targets; the wake conditions below are unchanged and are satisfied when it freezes a multi-sector candidate.",
   "history_audit_required_before_swing_1": true,
   "history_audit_counts_as_broad_swing": false,
   "history_conflict_rule": "If the same obstruction was previously cleared for the same frozen construction, stop with INTEGRITY_CONFLICT and reconcile the premises before banking or defending the new no-go.",

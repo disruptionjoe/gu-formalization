@@ -29,13 +29,18 @@ updated_at: "2026-07-19"
 > `rerank-next-work` flow to rank work inside the lane it used and then rank the three numbered lane leaders.
 > Lane A daily Stewardship decides whether that evidence changes durable portfolio state.
 >
-> **Lane 1 current leader:** `RECOVERY-CERTIFICATION`, with the current `NO-GO-SCOPE-CHALLENGE` set parked
-> after completion. The recovery manifest and action fingerprint exist. The exact-vacuum GR, cosmological
-> scalar-truncation, and complete-Standard-Model selector defenses each completed history audit plus the minimum
-> three broad swings and now stand as bounded branch-local no-gos in
-> `lab/process/recovery-no-go-defense-register.json`. Preserve them, but do not inflate them into a global GU
-> verdict. `RECOVERY-CONTRACT` is a conditional branch-local endpoint, not a completed unified construction.
-> Keep `lab/process/recovery-certification-matrix.json` as the common recovery ladder.
+> **Lane 1 current leader:** `CONSTRUCTION-SPACE-EXPLORATION` (Joe-authorized 2026-07-19): map the predeclared
+> construction space on the six-axis template, run per-sector fit searches (SM selector, QM physical sector, GR
+> vacuum cancellation, cosmology scalar) as candidate generators, and weave multi-sector survivors into frozen
+> candidates for the recovery ladder. Protocol: `lab/process/construction-space-exploration-protocol.md`; first
+> deliverable is `lab/process/construction-space-map.json`. `RECOVERY-CERTIFICATION` stands with its
+> `NO-GO-SCOPE-CHALLENGE` set parked after completion: the exact-vacuum GR, cosmological scalar-truncation, and
+> complete-Standard-Model selector defenses each completed history audit plus the minimum three broad swings and
+> now stand as bounded branch-local no-gos in `lab/process/recovery-no-go-defense-register.json`. Preserve them,
+> but do not inflate them into a global GU verdict; the exploration program is the active generator of the new
+> registered targets that reopen recovery testing. `RECOVERY-CONTRACT` is a conditional branch-local endpoint,
+> not a completed unified construction. Keep `lab/process/recovery-certification-matrix.json` as the common
+> recovery ladder.
 >
 > Before challenging a new no-go, run the non-counting history audit in
 > `lab/process/recovery-no-go-defense-protocol.md` and
