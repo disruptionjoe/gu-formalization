@@ -81,7 +81,13 @@ def family_point(M2, f0):
     X = np.vstack([np.ones_like(a), 1.0 - a]).T
     coef, *_ = np.linalg.lstsq(X, wf, rcond=None)
     w0_fit, wa_fit = float(coef[0]), float(coef[1])
-    return dict(h=h, w0=w0_fit, wa=wa_fit,
+    # v0.2 second invariant: curvature of w(a) beyond CPL, computed as the
+    # leading quadratic coefficient of the RESIDUAL from the (unchanged)
+    # linear fit -- the frozen v0.1 (w0, wa) numbers are not touched.
+    resid = wf - (w0_fit + wa_fit * (1.0 - a))
+    X2 = ((1.0 - a) ** 2 - np.mean((1.0 - a) ** 2)).reshape(-1, 1)
+    wb = float(np.linalg.lstsq(X2, resid, rcond=None)[0][0])
+    return dict(h=h, w0=w0_fit, wa=wa_fit, wb=wb,
                 w0_exact=float(wf[np.argmin(zf)]),
                 max_dev=float(np.max(np.abs(w + 1.0))),
                 min_wp1=float(np.min(w + 1.0)))
@@ -95,11 +101,13 @@ ref_pt = family_point(M2_MAIN, F0_EXCLUDED_REF)
 
 print()
 print("FROZEN LOCUS TABLE (M^2 = 8, CPL over z <= 2.33):")
-print(f"{'f0':>8} {'w0+1':>10} {'wa':>10} {'wa/(w0+1)':>11} {'max|w+1|':>10}")
+print(f"{'f0':>8} {'w0+1':>10} {'wa':>10} {'wa/(w0+1)':>11} "
+      f"{'wb/(w0+1)':>11} {'max|w+1|':>10}")
 for f0, p in main_pts.items():
     r = p["wa"] / (p["w0"] + 1.0)
+    s2 = p["wb"] / (p["w0"] + 1.0)
     print(f"{f0:>8.3f} {p['w0'] + 1.0:>10.5f} {p['wa']:>10.5f} "
-          f"{r:>11.4f} {p['max_dev']:>10.5f}")
+          f"{r:>11.4f} {s2:>11.4f} {p['max_dev']:>10.5f}")
 print(f"{'0.125*':>8} {ref_pt['w0'] + 1.0:>10.5f} {ref_pt['wa']:>10.5f} "
       f"{ref_pt['wa'] / (ref_pt['w0'] + 1.0):>11.4f} "
       f"{ref_pt['max_dev']:>10.5f}   (*excluded reference)")
@@ -146,6 +154,18 @@ check("E", "the slope is band-stable in sign and order across admissible "
       all(np.sign(r) == np.sign(R_MAIN) for r in R_band.values()),
       "R(3,7,8) = " + ", ".join(f"{R_band.get(m, R_MAIN):.3f}"
                                 for m in [3.0, 7.0, 8.0]))
+
+S2s = [p["wb"] / (p["w0"] + 1.0) for p in main_pts.values()]
+S2_MAIN = float(np.mean(S2s))
+check("E", "v0.2 SECOND shape invariant: the curvature of w(a) beyond CPL "
+           "is also one-parameter confined -- S2 = wb/(w0+1) is "
+           "f0-independent on the segment (the 'next decimal' the frontier "
+           "lens demanded; frozen pre-data)",
+      (max(S2s) - min(S2s)) < 0.15 * abs(S2_MAIN),
+      f"S2 = {S2_MAIN:.4f} (spread {max(S2s) - min(S2s):.4f}); band spots "
+      f"S2(3,7) = "
+      + ", ".join(f"{p['wb'] / (p['w0'] + 1.0):.3f}"
+                  for p in spot_pts.values()))
 
 devs = [p["max_dev"] for p in main_pts.values()]
 check("E", "mimic limit + monotonicity: max|w+1| increases with f0 and "

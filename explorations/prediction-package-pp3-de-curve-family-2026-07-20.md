@@ -3,7 +3,7 @@ title: "PP3 prediction package: the dark-energy curve family — conditional on 
 status: active_research
 doc_type: prediction_package
 package_id: PP3
-version: "0.1"
+version: "0.2"
 package_status: FROZEN_CONDITIONAL_CURVE_FAMILY
 frozen_at: "2026-07-20T06:48:12-05:00"
 owner_item: PRED-CANDIDATE-PACKETS
@@ -80,6 +80,19 @@ The frozen locus table (M^2 = 8, CPL over z <= 2.33, own calibration):
 
 Band spots (f0 = 0.020): M^2 = 3: (w0+1, wa) = (0.01013, -0.01343),
 R = -1.325; M^2 = 7: (0.03292, -0.03643), R = -1.107.
+
+4. (v0.2) the SECOND shape invariant — curvature confinement: the
+   deviation of w(a) from CPL linearity is also one-parameter confined,
+   S2 = wb/(w0+1) = -0.159 to -0.181 at canonical M^2 = 8 (mean -0.170;
+   wb = leading quadratic coefficient of the residual from the frozen
+   linear fit — the v0.1 numbers are untouched). Across the admissible
+   band S2 is NOT constant: S2(M^2 = 3) = -0.026, S2(M^2 = 7) = -0.135 —
+   so the curvature, unlike the slope, DISCRIMINATES M^2 within the band.
+   Frozen consequence: a Branch-D detection precise enough to measure
+   curvature reads off the root system (S^3 vs A_1 vs BC_1) — a second
+   decimal frozen pre-data, and a future refinement of the condition
+   chain rather than a near-term kill. Envelope for the band:
+   S2 in [-0.19, -0.02], sign-definite negative.
 
 The qualitative shape claim: a THAWING curve — w pinned at -1 in the deep
 past, lifting toward late times, never phantom, with the specific lift
@@ -191,6 +204,16 @@ EFT theorist: this is standard practice dressed honestly — chiPT
 predicts relations among observables with unknown LECs; f0 and lambda_0
 are GU's LECs; PP3 is the relation, and relation-level confirmation is
 the only victory claimable.
+
+## Changelog
+
+- **v0.2 (2026-07-20, same day as freeze, pre-data):** added the second
+  shape invariant S2 (curvature confinement) per the wild-frontier
+  council lens ("predict the next decimal"). Additive only: no v0.1
+  number, branch, or kill was altered; the emitter's v0.1 checks and
+  frozen table are unchanged and re-verified (`7 [E] + 1 [F] = 8`,
+  exit 0). S2 is recorded as a future discriminator (it reads M^2),
+  not a near-term kill — K1-K4 remain the operative kill set.
 
 ## Receipts
 
