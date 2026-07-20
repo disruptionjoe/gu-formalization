@@ -2,58 +2,62 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-19T22:40:00-05:00'
-run_ref: joe-direct-chat-2026-07-19-fanout-integration
-bottom_line: 'Fanout night: the conditional construction now EXISTS at toy grade
-  on every leg, both signatures are live head-to-head, and the payload is collapsing
-  toward three items. K2 gauge covariance is the make-or-break next computation.'
-decision_default: Channels proceed CH-GR first; no stop on adapter-needed; integration
-  when all four parameter cards freeze.
+updated_at: '2026-07-20T00:45:50-05:00'
+run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
+bottom_line: 'Hardening wave is now integrated at head: the one-bit complex has
+  theorem-shape exhaustiveness, an axiom-free Lean certificate, full 192-dim
+  lift evidence, class-generalization fixtures, and cited dossier v2. The honest
+  external construction need remains S_IG/B.5.'
+decision_default: Continue Lane 1 from the hardening handoff; next useful work
+  is the Lean (p,q) lift, G-H4 gap closure, drive PT-threshold, or dossier v3
+  assembly, not stale K2/P7 setup.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: exploration_program_active
-  evidence_ref: lab/process/construction-space-exploration-protocol.md
+  reason_code: hardening_wave_integrated
+  evidence_ref: lab/process/construction-space-map.json#round-13
   work_status: moving
-  last_movement: P6 conditionally graded first interior cells against the frozen
-    source-object interface.
-  movement_ref: explorations/construction-space-conditional-interior-p6-2026-07-19.md
+  last_movement: Integrated the D1 build and H1-H5 hardening wave at commit
+    91e3fae.
+  movement_ref: lab/process/construction-space-map.json#round-13
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: Four hypothesis channels run under the standing axiom; no channel may
-    stop on adapter-needed; integration after all cards freeze.
-  progress_delta: 'Seven-worker fanout returned and integrated: exact GR cancellation
-    identity (K2 pending); QM toy passes both endings; COSMO projector constructed,
-    scale pinned; 16 SM chains R0-equivalent, hypercharge bought; co-flip holds;
-    source-action skeleton EXISTS at toy grade with 20 conflict-free constraints;
-    the (7,7) port survives everything, close-path.'
-  scope_position: 'Channels: 6 of 8 have draft parameter cards; 2 live construction
-    candidates (C10 in 9,5; C11 in 7,7) head-to-head; N core -> 3 both signatures.
-    5 ranked decisive probes queued (K2 first).'
+  summary: The one-bit complex is hardened across theorem shape, Lean, lift,
+    class-generalization, and citation-dossier surfaces; it still records an
+    external source construction need rather than native closure.
+  progress_delta: 'Round 13 integrated D1 plus H1-H5: C-operator determination
+    off-degeneracy; H1 exhaustiveness over all operations; sorry-free axiom-free
+    CoflipCore Lean certificate in the default target; full 192-dim lift with
+    exact zeros; axiomatized class theorem fixtures; and dossier v2 with the
+    price-identity pitch.'
+  scope_position: 'One-bit complex: hardened. N core = 3 stands; S_IG/B.5 remains
+    the single external construction need, now with symmetry type computed
+    (chi-odd, boost-non-equivariant, K-definite-gapping).'
   trend_24h: up
   confidence: med
-  recommendation: Run P-K2 next; then P-77-REAL-INDEX
-  findings: 'One orientation datum verifiably carries Krein sign + GR cancellation
-    sign + record direction at toy grade; it provably does not carry generations
-    (J_quat theorem). Hypercharge normalization comes free from Spin(10). The adapter
-    payload is collapsing toward: one Z/2 + one pinned scale + one generation integer.'
+  recommendation: Run the Lean (p,q) lift; then close G-H4 gaps or drive PT-threshold.
+  findings: 'K2 is no longer merely pending: the map records a partial theorem
+    and K2/K5 unification. The hardening wave reduces Tier-A note blockers to
+    calculus-adequacy remainder, full-text reads of load-bearing kin, and
+    assembly. Do not select P7 from the stale P6 handoff unless the shared-ledger
+    gap is re-opened explicitly.'
   options:
   - key: A
-    label: Run P7 shared ledger
+    label: Run Lean p-q lift
     recommended: true
   - key: B
-    label: Await p2c source packet
+    label: Close G-H4 gaps
   - key: C
-    label: Run Lane 2 DE audit
-  decision_default: Test P6-CORRIDOR-A for shared identity, assumptions, normalization,
-    loss ledger, import count, and rollback across all four legs.
+    label: Assemble dossier v3
+  decision_default: Select the next Lane 1 hardening handoff from round 13 unless
+    a newer source packet or Joe-directed decision changes the frontier.
   needs_joe: false
-  evaluated_at: '2026-07-19T22:40:00-05:00'
-  run_ref: joe-direct-chat-2026-07-19-fanout-integration
+  evaluated_at: '2026-07-20T00:45:50-05:00'
+  run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -97,23 +101,27 @@ lanes:
   reason_code: seed_routing_and_proof_cleanup_active
   evidence_ref: lab/process/research-portfolio.json#PAPER-EXTERNAL-EYES
   work_status: moving
-  last_movement: none found
-  movement_ref: lab/process/research-portfolio.json#PROOF-STABLE-KERNELS
+  last_movement: CoflipCore entered the default Lean target and the one-bit
+    dossier v2 was integrated with citation posture.
+  movement_ref: Lean/GUFormalization/CoflipCore.lean
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#PAPER-EXTERNAL-EYES
-  summary: Papers route as Drafting Factory seeds per Joe pipeline; proof cleanup
-    continues; Joe gate moves to ready-to-post queue.
-  progress_delta: 'Joe reframed PAPER-EXTERNAL-EYES: plant seeds in Drafting Factory
-    (WI-089 pipeline) instead of holding at the review ceiling.'
-  scope_position: 'Papers: 2 banked (1 needs Joe, 1 parked); proof kernels: 1 certificate
-    ready to fold.'
+  summary: Result hardening moved materially through the Lean certificate and
+    dossier v2, but Lane 1 remains the priority unless a paper factory return
+    supplies a capacity-backed hardening request.
+  progress_delta: 'H2 integrated a sorry-free axiom-free Lean certificate into
+    the default target; H5 integrated cited dossier v2 and flipped the pitch to
+    the price identity.'
+  scope_position: 'Tier-A note blockers reduced to calculus-adequacy remainder,
+    full-text reads of load-bearing kin, and assembly. Paper-production actions
+    remain outside this repo.'
   trend_24h: flat
   confidence: med
-  recommendation: Route paper seeds to DF; continue Lean cleanup.
-  findings: No new science; the R4_TwoArena certificate is sorry-free and axiom-free
-    but not yet folded into the default build target, and an un-typechecked A1 draft
-    duplicate could be miscited until retired.
+  recommendation: Continue Lean cleanup only when Lane 3 wins against Lane 1 or
+    a capacity-backed hardening request returns.
+  findings: The Lean certificate is now folded into the default target; no
+    public-posture or publication action moved.
   options:
   - key: A
     label: Continue cleanup; Joe decides the paper separately
@@ -124,44 +132,47 @@ lanes:
     label: Park the lane
   decision_default: Cleanup proceeds; the paper stays held.
   needs_joe: false
-  evaluated_at: '2026-07-19T16:05:00-05:00'
-  run_ref: joe-direct-chat-2026-07-19-needs-joe-reconciliation
+  evaluated_at: '2026-07-20T00:45:50-05:00'
+  run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: mailbox_reconciled_no_drift
-  evidence_ref: ../../../system/mailboxes/gu-formalization/20260719-papers-route-as-drafting-factory-seeds.md
+  reason_code: lane_state_stale_after_hardening_head
+  evidence_ref: steward/runs/2026-07-20-repository-work-cycle-RUN-20260720-560.md
   work_status: moving
-  last_movement: Accepted paper-routing mailbox and returned parent routing payloads.
-  movement_ref: lab/process/source-object-interface-contract.md
+  last_movement: Refreshed stale Lane-state guidance after the hardening packet
+    landed cleanly at head.
+  movement_ref: LANE-STATE.yaml
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Mailbox disposition accepted; parent should route seed payloads and p2c
-    spec.
-  progress_delta: Processed one GU mailbox note; no drift found; cross-owner routing
-    returned to parent.
+  summary: Mailbox empty; writer lock absent; clean head now reflects the hardening
+    packet that blocked RUN-557.
+  progress_delta: Repaired operational drift where Lane 1 still described K2 as
+    pending and P7 as the next default despite the committed round-13 hardening
+    integration.
   trend_24h: flat
   confidence: high
-  recommendation: Parent routes p2c and DF payloads
-  findings: Mailbox rule already reflected in portfolio; child prepared routing
-    payloads instead of writing outside checkout.
+  recommendation: Continue standing stewardship; next progress child should use
+    the round-13 hardening handoff.
+  findings: No mailbox payload was present. The previous dirty hardening blocker
+    is resolved by commit 91e3fae; no central recorder or signal files were
+    touched by this child.
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Standing stewardship continues; parent archives GU mailbox after
-    routing.
+  decision_default: Standing stewardship continues; no GU mailbox archive needed.
   needs_joe: false
-  drift_verdict: clean
+  drift_verdict: repaired
   action_counts:
-    mail: 1
+    mail: 0
     reconciled: 1
-    integrity_repairs: 0
+    integrity_repairs: 1
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; parent should archive GU mailbox after routing
-    payloads.
-  evaluated_at: '2026-07-19T16:45:00-05:00'
-  run_ref: RUN-20260719-545-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; next handoff is repo-local Lane 1 hardening
+    from round 13.
+  evaluated_at: '2026-07-20T00:45:50-05:00'
+  run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
