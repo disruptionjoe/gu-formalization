@@ -29,6 +29,25 @@ sources:
   - "Autonne (1915) / Takagi (1925) factorization: an antisymmetric unitary C equals V eps V^T for the standard symplectic eps -- the exact block reduction used for R1."
 ---
 
+> **CORRECTION (2026-07-20, hostile verification — verify-torsion-arena-2026-07-20.md, commit 8d000ac).**
+> The computation stands in full: k = +-64 confirmed by two independent
+> Autonne-Takagi-free routes; order exactly 3 confirmed; R0/R2 zeroes
+> structural; H6 consistency confirmed. FOUR corrections to the
+> narrative/typing: (M1, material) the Z/8 kill is powered by the frozen
+> irrep H-dimension 64 = 2^6, NOT by Kramers/quaternionic evenness (which
+> forces only v2 >= 1 — the original's own multiplicity-4 control, order
+> 6, contradicts the prose); the "two walls become the mechanism" leg is
+> half-wrong as written. (2) The torsor demand does MORE work than the
+> merge sentence admits: the value 64 (hence order 3) requires the
+> framing to transform in the FULL carrier rep, and the machine-verified
+> Z/2 co-flip shadow is rep-weight-blind — it supports the torsor half
+> only. (3) "Only well-typed reading" is overstated: the subgroup-index
+> reading (= 8) is well-typed and was unenumerated; the dictionary gate
+> remains OPEN. (4) Carrier-independence is conditional on C-04's
+> rep/geometric fence: the geometric-3 carrier (m = 3, H^192) would give
+> the ZERO class. Original text below retained unedited per record
+> discipline.
+
 # The torsion generation arena, pinned and computed
 
 ## 0. Question, discipline, pre-declared outcomes
