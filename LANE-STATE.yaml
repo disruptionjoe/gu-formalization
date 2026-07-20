@@ -2,11 +2,11 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-19T19:05:00-05:00'
-run_ref: joe-direct-chat-2026-07-19-five-leg-swing
-bottom_line: 'Five hypothesis channels (fifth: records/arrow rides the Z/2 free);
-  readiness scorecard live; two probes runnable with zero dependencies while C10
-  formalizes.'
+updated_at: '2026-07-19T22:40:00-05:00'
+run_ref: joe-direct-chat-2026-07-19-fanout-integration
+bottom_line: 'Fanout night: the conditional construction now EXISTS at toy grade
+  on every leg, both signatures are live head-to-head, and the payload is collapsing
+  toward three items. K2 gauge covariance is the make-or-break next computation.'
 decision_default: Channels proceed CH-GR first; no stop on adapter-needed; integration
   when all four parameter cards freeze.
 needs_joe: false
@@ -26,21 +26,21 @@ lanes:
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
   summary: Four hypothesis channels run under the standing axiom; no channel may
     stop on adapter-needed; integration after all cards freeze.
-  progress_delta: 'Second big swing: fifth channel CH-REC added (arrow=Krein sign=cancellation
-    sign, zero new payload); H-GR sharpened to curvature-conditioned response kernel;
-    CH-SM gained a varying-constants observational tripwire; standing integration-readiness
-    scorecard created.'
-  scope_position: 'Channels: 0 of 5 parameter cards frozen; scorecard live. Two
-    zero-dependency probes (SM chain sweep, DE audit) runnable now; C10 formalization
-    is critical path.'
+  progress_delta: 'Seven-worker fanout returned and integrated: exact GR cancellation
+    identity (K2 pending); QM toy passes both endings; COSMO projector constructed,
+    scale pinned; 16 SM chains R0-equivalent, hypercharge bought; co-flip holds;
+    source-action skeleton EXISTS at toy grade with 20 conflict-free constraints;
+    the (7,7) port survives everything, close-path.'
+  scope_position: 'Channels: 6 of 8 have draft parameter cards; 2 live construction
+    candidates (C10 in 9,5; C11 in 7,7) head-to-head; N core -> 3 both signatures.
+    5 ranked decisive probes queued (K2 first).'
   trend_24h: up
   confidence: med
-  recommendation: CH-GR C10 first; SM sweep + DE audit concurrent
-  findings: 'Transcript re-read: Weinstein vacuum object is NOT metric-proportional
-    (the killed C3 family) but the distortion field with VEV — vacuum-supported,
-    direction-capable (C10). Four-leg swing: all external needs may reduce to a
-    finite payload — one Z/2 orientation (p2c-style topological), one VEV branch,
-    one absolute scale, one subgroup datum.'
+  recommendation: Run P-K2 next; then P-77-REAL-INDEX
+  findings: 'One orientation datum verifiably carries Krein sign + GR cancellation
+    sign + record direction at toy grade; it provably does not carry generations
+    (J_quat theorem). Hypercharge normalization comes free from Spin(10). The adapter
+    payload is collapsing toward: one Z/2 + one pinned scale + one generation integer.'
   options:
   - key: A
     label: Run P7 shared ledger
@@ -52,8 +52,8 @@ lanes:
   decision_default: Test P6-CORRIDOR-A for shared identity, assumptions, normalization,
     loss ledger, import count, and rollback across all four legs.
   needs_joe: false
-  evaluated_at: '2026-07-19T19:05:00-05:00'
-  run_ref: joe-direct-chat-2026-07-19-five-leg-swing
+  evaluated_at: '2026-07-19T22:40:00-05:00'
+  run_ref: joe-direct-chat-2026-07-19-fanout-integration
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

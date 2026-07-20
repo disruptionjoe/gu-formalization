@@ -359,20 +359,24 @@
       "axis_notes": "L1/L6/L7 delta from C1: field content of the vacuum response changes; equivariance-derived divergence-freeness; VEV-capable. Provenance: papers/drafts/Transcript into the impossible.md [00:22:26]-[00:27:00].",
       "tracks": {
         "SM": {
-          "grade": "OPEN",
-          "note": "H-SM: selector as VEV-conditioned finite data; transcript [00:46:40] conditions chirality on a VEV."
+          "grade": "R0_COND",
+          "note": "CH-SM swing: metric-type VEV forces Spin(10)->PS; 16 chains R0-equivalent; range 16->6 conditional on H-GR-prime; rank drop spinorial (126 route, matter parity).",
+          "evidence": "explorations/channel-swing-CH-SM-2026-07-19.md; tests/channel-swings/ch_sm_chain_sweep.py"
         },
         "QM": {
-          "grade": "OPEN",
-          "note": "H-QM applies at the shared-orientation level; primary QM work runs in the QM channel."
+          "grade": "R1_COND",
+          "note": "CH-QM toy: right orientation passes all six certificates; wrong fails cohomologically; bit J_quat-commuting (no generations).",
+          "evidence": "explorations/channel-swing-CH-QM-2026-07-19.md; tests/channel-swings/ch_qm_graded_quotient_toy.py"
         },
         "GR": {
-          "grade": "OPEN",
-          "note": "H-GR primary cell: does any VEV branch carry a nonzero trace-free Q^TF(B)-slot component at O(M^2)? NOT the killed scalar-isotropic C3 family."
+          "grade": "R0_COND",
+          "note": "CH-GR swing: branch-(a) exact cancellation identity (sigma*kappa^2=1, kappa^2=1, hard Z/2 gate, Kerr-robust); conditional on K2 gauge covariance. Branches (b),(c) R0_FAIL.",
+          "evidence": "explorations/channel-swing-CH-GR-2026-07-19.md; tests/channel-swings/ch_gr_vev_stress_probe.py"
         },
         "COSMO": {
-          "grade": "OPEN",
-          "note": "H-COSMO: magnitude mode of the same VEV as the scalar channel."
+          "grade": "R0_COND",
+          "note": "CH-COSMO swing: projector constructed, helicity-0 automatic, one slicing residue; multi-scalar diagonalization + Z_theta>0 pending C10 action.",
+          "evidence": "explorations/channel-swing-CH-COSMO-2026-07-19.md"
         }
       }
     },
@@ -383,32 +387,28 @@
       "tracks": {
         "SM": {
           "grade": "OPEN",
-          "note": "The fork's payoff channel: odd generation counts stop being parity-forbidden. Chain arithmetic must be re-run in (7,7)."
+          "note": "Fiber (6,4)/PS chain ports untouched; odd index TYPE-CONSISTENT but not forced; decisive: real-index generation arithmetic (KO divisor for M(128,R))."
         },
         "QM": {
-          "grade": "OPEN",
-          "note": "Hyperbolic pairing survives; graded-quotient toy must be ported and re-run with J'^2=+1."
+          "grade": "R1_COND",
+          "note": "Port: toy survives verbatim; bit retyped J-prime-sector-exchanging; Gram fork GRAM-PIN-77 to pin.",
+          "evidence": "explorations/channel-swing-CH-SIG77-port-2026-07-19.md"
         },
         "GR": {
-          "grade": "OPEN",
-          "note": "Does the branch-(a) exact cancellation identity port? The identity was computed in signature-agnostic symbol form; verify."
+          "grade": "R0_COND",
+          "note": "Port: cancellation identity survives EXACTLY under the (7,7)-inducing convention; sign gate intact."
         },
         "COSMO": {
-          "grade": "OPEN",
-          "note": "Projector construction is Frobenius-metric-typed; port and verify."
+          "grade": "R0_COND",
+          "note": "Port: projector + helicity superselection survive."
         }
       }
     }
   ],
   "coverage": {
-    "cells": 9,
-    "track_cells": 36,
-    "dispositioned_track_cells": 15,
-    "open": 21,
-    "gated": 4,
-    "r0_failed": 5,
-    "conditional": 5,
-    "summary": "15 of 36 track-cells are non-open: 6 carry direct R0/R1 grades, 5 carry conditional R0/R1 grades, and 4 remain gated. P6 conditionally graded C9-GR, C6-SM, C7-COSMO, and C8-COSMO against the frozen source-object interface without claiming a source instance. No exhaustion claim: C4 remains gated and the conditional corridor still needs one shared normalization/loss ledger."
+    "cells": 11,
+    "track_cells": 44,
+    "summary": "Fanout integration 2026-07-19 evening: C10 graded R0_COND on GR/COSMO/SM and R1_COND on QM; C11 ported R0/R1_COND on three tracks, SM open pending real-index arithmetic. C1 grades stand; C3 R0_FAIL; C4/C9 gated (conditional work proceeds under the standing axiom). Live construction candidates: C10 (9,5) and C11 (7,7), head-to-head."
   },
   "council_rounds": [
     {
@@ -844,6 +844,45 @@
         "CH-SIG-77": "Kramers wall gone (J'^2=+1 certificate); generations openly reachable; hyperbolic pairing survives. Everything else must be ported: GR cancellation identity, QM toy, COSMO projector, SM chain arithmetic. Unknown whether the legs' machinery survives the port."
       },
       "chairman_synthesis": "Spawn both signature workers once CH-SM and CH-SRC land (their cards are inputs). Neither channel may cite the other's failure as its own success; cleanliness is scored on the criteria, and a legitimate signature verdict must explain more, not merely dodge the parity wall."
+    },
+    {
+      "round": 9,
+      "date": "2026-07-19",
+      "mode": "parent integration of the seven-worker fanout",
+      "results_digest": "CH-GR exact cancellation (K2 pending); CH-QM toy both endings + J_quat negative; CH-COSMO projector + scale pinned + sign-as-relational-readout; CH-SM 16 chains R0-equivalent + hypercharge bought + chain possibly derivable + trace-reversal retrodiction; CH-REC co-flip holds, decoupling costs one bit; CH-SRC skeleton exists B.1-B.4, 20 constraints no conflict, C2 exact; CH-SIG-77 close-path, ports survive, odd type-consistent not forced, N tie.",
+      "ranked_search_plan": [
+        {
+          "rank": 1,
+          "probe": "P-K2-GAUGE-COVARIANCE",
+          "what": "Gauge-covariant recompute of the branch-(a) identity (CH-GR predeclared kill).",
+          "why": "Theorem-vs-artifact for the strongest result; everything welds through it."
+        },
+        {
+          "rank": 2,
+          "probe": "P-77-REAL-INDEX",
+          "what": "(7,7) real-index generation arithmetic with the KO divisor.",
+          "why": "Jackpot (forced-3) / tie / the fork last cheap kill."
+        },
+        {
+          "rank": 3,
+          "probe": "P-T3-W229",
+          "what": "Verify W229 record direction is Noether-derived (C_0 membership).",
+          "why": "N<=4 vs N=5 in (9,5)."
+        },
+        {
+          "rank": 4,
+          "probe": "P-54-WELD",
+          "what": "Does the curvature-locked branch overlap the Sym^2 54-direction?",
+          "why": "CH-SM conditioning co-kill check (g2)."
+        },
+        {
+          "rank": 5,
+          "probe": "P-RANK-FOLD",
+          "what": "Fold the generation integer into existing finite data.",
+          "why": "The last payload item in play."
+        }
+      ],
+      "chairman_synthesis": "Both signatures live, N core -> 3 in both; difference is typing and proof-debt. Weld guards: K6 purity, GRAM-PIN-77, SRC-COH-1. Scorecard updated; hourlies execute the ranked probes."
     }
   ]
 }
