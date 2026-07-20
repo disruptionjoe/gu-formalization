@@ -20,6 +20,7 @@ documents.
 | `GUFormalization/W2Polynomial.lean` | Algebraic `F_2` polynomial identities behind the corrected `w2(Y14)` calculation | `canon/w2-y14-spin-structure.md` |
 | `GUFormalization/LocatedNotForcedLegs.lean` | Finite located-not-forced theorem-grade legs: Krein index-nullity, antilinear bound, and 2-primary identities | `canon/core-theorems-symbolic-proof-RESULTS.md` |
 | `GUFormalization/CoflipCore.lean` | Co-flip finite core (CH-REC P1/P2): (1,1) Krein toy rigidity, zero-import diagonal action, split-costs-one, split parity | `explorations/hardening-h2-lean-coflip-2026-07-19.md` |
+| `GUFormalization/CoflipAbstract.lean` | Abstract finite `(p,q)` co-flip accounting: witnessed class theorem, all-maps zero-import diagonal, exact one-bit split price | `explorations/hardening-h1-exhaustiveness-2026-07-19.md`; `explorations/hardening-h4-class-generalization-2026-07-19.md` |
 
 ## Standalone Lean Certificates
 

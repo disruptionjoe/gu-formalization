@@ -4,3 +4,4 @@ import GUFormalization.W2Polynomial
 import GUFormalization.LocatedNotForcedLegs
 import GUFormalization.ResidualSelection
 import GUFormalization.CoflipCore
+import GUFormalization.CoflipAbstract
