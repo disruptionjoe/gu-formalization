@@ -2,53 +2,52 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T09:39:00-05:00'
-run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
-bottom_line: 'Lane 1 advanced: F2 and Dirac-Kahler side routes were bounded,
-  and F5 now has an exact signed fingerprint; next test the M2 scale dial or
-  advance N1-N3.'
-decision_default: Continue Lane 1 through the cheapest untouched B.5 rung, the
-  M2 scale-dial test, unless current resource limits require an N1-N3 handoff.
+updated_at: '2026-07-20T10:46:00-05:00'
+run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
+bottom_line: 'Lane 1 now has N2 truncated-real survival and a sector-relative
+  M2 cut-scale slot; next specify the wall clause, then advance N1 or N3.'
+decision_default: State the sector-relative spectral-section conjecture's wall
+  clause from N2's computed trichotomy before advancing N1 or N3.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_symbol_frontier_advanced
-  evidence_ref: explorations/f5-signed-fraction-2026-07-20.md
+  reason_code: n2_m2_truncated_real_advanced
+  evidence_ref: explorations/m2-cut-scale-dial-2026-07-20.md
   work_status: moving
-  last_movement: Derived the exact F5 signed fingerprint after bounding the F2
-    entropy and Dirac-Kahler chirality side routes.
-  movement_ref: explorations/f5-signed-fraction-2026-07-20.md
+  last_movement: Established a sector-relative M2 scale slot after N2 built the
+    faithful truncated-real end family.
+  movement_ref: explorations/m2-cut-scale-dial-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: B.5 survives at symbol grade with a derived signed fingerprint;
-    actual end-family construction remains open.
-  progress_delta: 'Since the prior state: F2 two-cut entropy closed negative,
-    the -13 anomaly became fork-conditional, and F5 gained an exact formula.'
-  scope_position: 'F1/F3 did not fire; F2 survives at toy grade; F5 symbol channel
-    is derived. M2 and the actual N1 pushforward, N2 family, and N3 weld remain.'
+  summary: N2 survives at truncated-real grade and M2 admits one external scale
+    on the gapped sub-end; theorem grade remains open.
+  progress_delta: 'N2 built the faithful end trichotomy; M2 then passed
+    sector-relatively without contaminating C2 homogeneity.'
+  scope_position: 'N2 truncated-real and M2 complete conditionally. The
+    sector-relative wall theorem, N1 pushforward, and N3 weld remain open.'
   trend_24h: up
   confidence: med
-  recommendation: Test M2 scale dial; then advance N1-N3
-  findings: 'The F5 datum is sign plus a universal functional fingerprint, not
-    a special 60% magnitude. Cut-only entropy supplies neither scale nor oddness.
-    The -13 chirality value depends on an imported partial form-degree split.'
+  recommendation: State wall clause; then advance N1 or N3
+  findings: 'A uniform cut interval exists only on the spacelike-gapped sub-end.
+    Boundary-only lambda_0 preserves C2 scaling, while kernel leakage fails F7.
+    The cut does not derive or read the imported scale value.'
   options:
   - key: A
-    label: Test M2 scale dial
+    label: State wall clause
     recommended: true
   - key: B
     label: Advance N1 pushforward
   - key: C
-    label: Build N2 end family
-  decision_default: Run the bounded M2 scale-dial test before deeper N-rung work;
-    keep every conclusion local to the named construction fork and grade.
+    label: Advance N3 weld
+  decision_default: Specify controlled behavior at the cone walls before deeper
+    N-rung work; keep the M2 value typed as an empirical import.
   needs_joe: false
-  evaluated_at: '2026-07-20T09:39:00-05:00'
-  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T10:46:00-05:00'
+  run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -128,25 +127,24 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: lane_state_reconciled_after_frontier_wave
+  reason_code: lane_state_reconciled_after_n2_m2
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Reconciled Lane state from the midnight hardening snapshot through
-    the completed DE, PP3, Bianconi, and F5 work.
+  last_movement: Reconciled Lane state through the N2 end-family and M2 cut-scale
+    results.
   movement_ref: LANE-STATE.yaml
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Mailbox empty, checkout clean, and stale operational guidance now
-    reflects the current B.5 and prediction frontiers.
-  progress_delta: Replaced obsolete DE-ready and Lean-first guidance with current
-    F5, PP3, entropy, and Dirac-Kahler evidence.
+  summary: Mailbox empty, checkout clean, and operational guidance now reflects
+    the N2/M2 frontier.
+  progress_delta: Replaced the completed M2 handoff with the sector-relative wall
+    clause and N1/N3 options.
   trend_24h: up
   confidence: high
   recommendation: Continue standing stewardship from current evidence
-  findings: 'No mailbox payload or writer collision exists. Scientific commits
-    advanced substantially while Lane state remained pinned to RUN-560; this
-    cycle repairs only that summary drift.'
+  findings: 'No mailbox payload or writer collision exists. N2 and M2 moved
+    after the prior state refresh; this closeout reconciles that summary drift.'
   options:
   - key: A
     label: Continue standing stewardship
@@ -155,14 +153,14 @@ lanes:
     required.
   needs_joe: false
   drift_verdict:
-  - stale_lane_state_after_frontier_wave_repaired
+  - stale_lane_state_after_n2_m2_repaired
   action_counts:
     mail: 0
     reconciled: 1
     integrity_repairs: 1
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; the next runnable frontier is Lane 1 M2,
-    subject to normal resource and collision checks.
-  evaluated_at: '2026-07-20T09:39:00-05:00'
-  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; next is the Lane 1 sector-relative wall
+    clause, subject to normal resource and collision checks.
+  evaluated_at: '2026-07-20T10:46:00-05:00'
+  run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
