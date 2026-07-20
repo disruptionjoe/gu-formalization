@@ -101,3 +101,12 @@ references. Numbered Lanes are Progress, lettered Lanes are Stewardship, and
 Discovery is Lane-less. A direct mount uses these local surfaces without
 CapacityOS. System observations, health, schedules, and execution history are
 not Lane truth.
+
+## Versioning Default
+
+After any coherent batch of repository changes that Joe has authorized, commit
+and push the current branch by default. Do not wait for a separate commit or
+push request. Do not commit or push when an active writer lock, a
+repository-specific rule, failed verification, unrelated dirty changes, or
+Joe's explicit hold blocks it. GitHub push is routine versioning, not external
+publication; all other external-action rules remain in force.
