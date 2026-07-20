@@ -66,11 +66,20 @@ record. Nothing external moves (Joe alone ever takes anything outside).
 - A superseded package remains part of the public record of the program's
   honesty; being seen to update is worth more than being right first.
 
-## Registration (adopted 2026-07-20, Joe direct chat; council-reviewed same day)
+## Registration (adopted 2026-07-20, Joe direct chat; council-reviewed same day; routing revised same day)
 
-Predictions and papers are DIFFERENT public objects with different
-mechanisms. Papers go to the Drafting Factory pipeline (seed -> draft ->
-Joe review -> venue). Frozen prediction packets get REGISTERED:
+Prediction packets become PREDICTION PAPERS — a paper TYPE, not a new
+lane or channel anywhere. They flow through the Drafting Factory's
+normal pipeline like every other paper, with exactly one routing rule
+(Joe-set, trial): **prediction papers take priority over every other
+paper type in the factory queue.** Everything posts as soon as it is
+ready; Joe alone posts. The factory sends carding/hardening feedback to
+the source repo's mailbox, and the repo routes it to the proper lane —
+prediction-side hardening to Lane 2, paper-side hardening to Lane 3.
+(The underlying realization: GU's Lane 2 and Lane 3 both ultimately
+produce papers — different TYPES of paper, one queue downstream.)
+
+Registration mechanics for the prediction-paper type:
 
 1. **Mechanism:** attempt arXiv when frictionless for the submitter; any
    gate or delay (endorsement, moderation) -> register on Zenodo the
