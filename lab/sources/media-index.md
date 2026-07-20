@@ -95,6 +95,9 @@ likely) — verify against primary papers before citing any claim.
 | --- | --- | --- | --- | --- | --- | --- |
 | `TOE-2026-BIANCONI-ENTROPY` | 2026-07-13 | Theories of Everything, "The Physicist Who (Unexpectedly) Derived Gravity From Entropy" | Ginestra Bianconi | `lab/sources/transcripts/toe-bianconi-gravity-from-entropy-2026-07-13.md` (~58 min, Joe-supplied link) | `explorations/intake-bianconi-entropic-gravity-2026-07-20.md` | `transcript-available` |
 | `TOE-2026-MANNHEIM-CONFORMAL` | 2026-07-06 | Theories of Everything, "The Story of Conformal Gravity" | Philip Mannheim | `lab/sources/transcripts/toe-mannheim-conformal-gravity-2026-07-06.md` (~2 h 34 min) | `explorations/mannheim-pt-intake-d1-method-2026-07-19.md` | `transcript-available` |
+| `TOE-2026-VERLINDE-INFO` | 2026-02 (approx) | Theories of Everything, "This Physicist (Unexpectedly) Derived Gravity from Information" | Erik Verlinde | `lab/sources/transcripts/toe-verlinde-gravity-from-information-2026-02.md` (~1 h 54 min; + Joe-supplied Grok pack `lab/sources/verlinde-jacobson-grok-source-pack-2026-07-20.md`) | `explorations/intake-verlinde-jacobson-entropic-2026-07-20.md` | `transcript-available` |
+| `TOE-MALDACENA-ADSCFT` | 2026 | Theories of Everything, "Geometry as Entanglement and the Emergence of Spacetime" | Juan Maldacena | `lab/sources/transcripts/toe-maldacena-ads-cft-2026.md` (~1 h 45 min; + Grok pack `lab/sources/maldacena-grok-source-pack-2026-07-20.md`) | `explorations/intake-maldacena-holography-2026-07-20.md` | `transcript-available` |
+| `TOE-GORARD-WOLFRAM` | (episode date TBD) | Theories of Everything, "Quantum Gravity & Wolfram Physics Project" | Jonathan Gorard | `lab/sources/transcripts/toe-gorard-wolfram-physics.md` (~3 h; + Grok pack `lab/sources/gorard-grok-source-pack-2026-07-20.md`) | `explorations/intake-gorard-wolfram-2026-07-20.md` | `transcript-available` |
 
 ## Claim-Mining Template
 
