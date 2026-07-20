@@ -66,6 +66,38 @@ record. Nothing external moves (Joe alone ever takes anything outside).
 - A superseded package remains part of the public record of the program's
   honesty; being seen to update is worth more than being right first.
 
+## Registration (adopted 2026-07-20, Joe direct chat; council-reviewed same day)
+
+Predictions and papers are DIFFERENT public objects with different
+mechanisms. Papers go to the Drafting Factory pipeline (seed -> draft ->
+Joe review -> venue). Frozen prediction packets get REGISTERED:
+
+1. **Mechanism:** attempt arXiv when frictionless for the submitter; any
+   gate or delay (endorsement, moderation) -> register on Zenodo the
+   same day; arXiv re-post later is an optional upgrade, never a
+   blocker. The external DOI/timestamp is the second notary on top of
+   the git commit.
+2. **Same-frozen-text rider:** what is registered is the frozen packet
+   note verbatim in substance — never an abridgement (an abridged
+   registration invites "the details came later").
+3. **Chain of custody rider:** any later posting (arXiv, journal) cites
+   the original registration DOI as the timestamp of record.
+4. **Supersession = new registration.** A material update is a WHOLLY
+   NEW registered prediction citing its predecessor; predecessors are
+   never withdrawn or edited. The public chain of superseded
+   registrations is the intended artifact — "this is what we learned
+   next" — per Joe's stated posture: the program registers predictions
+   as it goes and does not curate away the ones that die; open research
+   over the appearance of infallibility. Version-DOIs are minted only
+   for material supersessions (no DOI noise from minor bumps).
+5. **Per-registration release approval stays with Joe.** This section
+   standardizes HOW, never WHETHER: each registration is an external
+   action requiring Joe's explicit per-action GO on the specific
+   artifact + venue. Agents prepare; Joe releases.
+6. **Backfill:** already-frozen packets without external timestamps
+   (PP1, PP2) are standing registration candidates under the same
+   mechanism, each awaiting its own per-action GO.
+
 ## Current shelf (at rule adoption)
 
 - PP1 (frozen 2026-07-19): dark-energy sign — w0+1 > 0, w(z) >= -1
