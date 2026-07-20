@@ -133,6 +133,29 @@ Registration mechanics for the prediction-paper type:
    body = context of motivation. (PP3 precedent: GU in the title —
    theta-sector realization, M^2 root-system band, S2 reads the root
    system.)
+8. **Stopping rule (Joe-adopted, council-proposed, 2026-07-20) — when
+   to stop waiting for new learnings and ship.** "More learnings are
+   coming" is always true and therefore never a reason; the rule is
+   pre-declared so stopping cannot become motivated (waiting when weak,
+   rushing when strong = publication bias in time). Two dimensions,
+   both required: SIGNIFICANCE (external — a named audience would act
+   differently) and MATURITY (internal — stopped changing under
+   attack).
+   - PREDICTIONS: event-driven, period. Ship before the next
+     scoring-relevant data epoch; the data-blindness auto-freeze is the
+     hard backstop; improvement-waiting is legal only inside the epoch
+     window; the ~2-day READY escalation polices drift.
+   - PAPERS (three tests, all must pass): (i) CITABLE UNIT — a result
+     someone could build on or be wrong because of, as it stands;
+     (ii) TWO DRY ROUNDS — consecutive adversarial/verification passes
+     with no material revision (the loop-until-dry instrument pointed
+     at publication); (iii) NAMED-BLOCKER-OR-SHIP — any hold must name
+     the specific pending learning, the conclusion it could flip, and
+     an ETA; unnamed waiting is an automatic ship signal.
+   - Significant-but-unstable ships as a registered prediction or
+     flagged conjecture, never as a paper; stable-but-insignificant
+     stays in the repo awaiting a paper it can join. Tests are
+     evaluated by a council/steward pass, not by enthusiasm.
 
 ## Current shelf (at rule adoption)
 
