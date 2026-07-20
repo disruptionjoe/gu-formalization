@@ -24,6 +24,17 @@ canon_verdict_change: none
 public_posture_change: none
 ---
 
+> **CORRECTION (2026-07-20, second dry round — verify-section-theory-2026-07-20.md, commit 5afb44b).**
+> The census sentence in the classification section ("EXACTLY eight
+> involutions") is FALSE AS STATED: the crossed-fiber commutant algebra is
+> C^4 with SIXTEEN involutions (a ninth exhibited machine-exactly). The
+> correct and sufficient statement, proven symbolically in the verify
+> pass: the K_S-SKEW involutions are exactly +-d~ and +-J_c, and the
+> remaining eight are neither K_S-skew nor half-splittings. The Z/2
+> classification, existence, wall-matching, and all downstream
+> consequences are UNAFFECTED. Original text below retained unedited per
+> record discipline.
+
 # The sector-relative section theory, built
 
 N2 named the missing mathematics precisely: no spectral-section theorem
