@@ -2,177 +2,167 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T00:45:50-05:00'
-run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
-bottom_line: 'Hardening wave is now integrated at head: the one-bit complex has
-  theorem-shape exhaustiveness, an axiom-free Lean certificate, full 192-dim
-  lift evidence, class-generalization fixtures, and cited dossier v2. The honest
-  external construction need remains S_IG/B.5.'
-decision_default: Continue Lane 1 from the hardening handoff; next useful work
-  is the Lean (p,q) lift, G-H4 gap closure, drive PT-threshold, or dossier v3
-  assembly, not stale K2/P7 setup.
+updated_at: '2026-07-20T09:39:00-05:00'
+run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
+bottom_line: 'Lane 1 advanced: F2 and Dirac-Kahler side routes were bounded,
+  and F5 now has an exact signed fingerprint; next test the M2 scale dial or
+  advance N1-N3.'
+decision_default: Continue Lane 1 through the cheapest untouched B.5 rung, the
+  M2 scale-dial test, unless current resource limits require an N1-N3 handoff.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: hardening_wave_integrated
-  evidence_ref: lab/process/construction-space-map.json#round-13
+  reason_code: b5_symbol_frontier_advanced
+  evidence_ref: explorations/f5-signed-fraction-2026-07-20.md
   work_status: moving
-  last_movement: Integrated the D1 build and H1-H5 hardening wave at commit
-    91e3fae.
-  movement_ref: lab/process/construction-space-map.json#round-13
+  last_movement: Derived the exact F5 signed fingerprint after bounding the F2
+    entropy and Dirac-Kahler chirality side routes.
+  movement_ref: explorations/f5-signed-fraction-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The one-bit complex is hardened across theorem shape, Lean, lift,
-    class-generalization, and citation-dossier surfaces; it still records an
-    external source construction need rather than native closure.
-  progress_delta: 'Round 13 integrated D1 plus H1-H5: C-operator determination
-    off-degeneracy; H1 exhaustiveness over all operations; sorry-free axiom-free
-    CoflipCore Lean certificate in the default target; full 192-dim lift with
-    exact zeros; axiomatized class theorem fixtures; and dossier v2 with the
-    price-identity pitch.'
-  scope_position: 'One-bit complex: hardened. N core = 3 stands; S_IG/B.5 remains
-    the single external construction need, now with symmetry type computed
-    (chi-odd, boost-non-equivariant, K-definite-gapping).'
+  summary: B.5 survives at symbol grade with a derived signed fingerprint;
+    actual end-family construction remains open.
+  progress_delta: 'Since the prior state: F2 two-cut entropy closed negative,
+    the -13 anomaly became fork-conditional, and F5 gained an exact formula.'
+  scope_position: 'F1/F3 did not fire; F2 survives at toy grade; F5 symbol channel
+    is derived. M2 and the actual N1 pushforward, N2 family, and N3 weld remain.'
   trend_24h: up
   confidence: med
-  recommendation: Run the Lean (p,q) lift; then close G-H4 gaps or drive PT-threshold.
-  findings: 'K2 is no longer merely pending: the map records a partial theorem
-    and K2/K5 unification. The hardening wave reduces Tier-A note blockers to
-    calculus-adequacy remainder, full-text reads of load-bearing kin, and
-    assembly. Do not select P7 from the stale P6 handoff unless the shared-ledger
-    gap is re-opened explicitly.'
+  recommendation: Test M2 scale dial; then advance N1-N3
+  findings: 'The F5 datum is sign plus a universal functional fingerprint, not
+    a special 60% magnitude. Cut-only entropy supplies neither scale nor oddness.
+    The -13 chirality value depends on an imported partial form-degree split.'
   options:
   - key: A
-    label: Run Lean p-q lift
+    label: Test M2 scale dial
     recommended: true
   - key: B
-    label: Close G-H4 gaps
+    label: Advance N1 pushforward
   - key: C
-    label: Assemble dossier v3
-  decision_default: Select the next Lane 1 hardening handoff from round 13 unless
-    a newer source packet or Joe-directed decision changes the frontier.
+    label: Build N2 end family
+  decision_default: Run the bounded M2 scale-dial test before deeper N-rung work;
+    keep every conclusion local to the named construction fork and grade.
   needs_joe: false
-  evaluated_at: '2026-07-20T00:45:50-05:00'
-  run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T09:39:00-05:00'
+  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
   light: yellow
-  reason_code: prediction_work_thin_gated
-  evidence_ref: lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC
+  reason_code: pp3_frozen_waiting_future_data
+  evidence_ref: explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
   work_status: thin
-  last_movement: none found
-  movement_ref: lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC
+  last_movement: Froze PP3 v0.2 and recorded the zero-weight DR2 exposure risk;
+    the separate DE amplitude audit closed negative.
+  movement_ref: explorations/pp3-risk-register-2026-07-20.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC
-  summary: Prediction chain gated on new native structure; the dark-energy amplitude
-    audit is the lane's one ready progress item.
-  progress_delta: No movement in 24h; the DE amplitude audit (READY) is the lane's
-    live item, now ranked behind the L1 exploration program.
-  scope_position: 3 of 3 attempted prediction routes no-go; 2 items live (1 ready,
-    1 monitor), 3 gated, 1 parked.
-  trend_24h: flat
-  confidence: low
-  recommendation: Keep DE audit ready; runs when L1 probe is blocked
-  findings: 'GU leaves too much invariant freedom at the current construction grade:
-    no basis-invariant Yukawa reduction and no absolute normalization, so the freeze-and-confront
-    chain cannot start without new native structure.'
+  steering_ref: lab/process/research-portfolio.json#PRED-CANDIDATE-PACKETS
+  summary: PP3 is frozen with kill rules; known DR2 central values are outside
+    its band but carry zero confrontation weight.
+  progress_delta: 'PP3 added a second shape invariant and a risk register; the
+    amplitude audit found no new packageable prediction beyond existing packets.'
+  scope_position: 'PP3 frozen; PP1 sign and PP2 matter parity remain conditional;
+    DE-F1 is monitor-only until an official new data release.'
+  trend_24h: up
+  confidence: med
+  recommendation: Preserve PP3 freeze; await independent future data
+  findings: 'All four known DR2 central combinations sit outside PP3 on slope
+    and amplitude, but pre-freeze knowledge gives them zero weight. Absolute
+    DE amplitude remains ratio-only plus an imported scale.'
   options:
   - key: A
-    label: Run the DE amplitude audit as the live progress item
+    label: Monitor frozen PP3
     recommended: true
   - key: B
-    label: Idle on monitor only
+    label: Harden matter parity
   - key: C
-    label: Hold Lane 2 until Lane 1 wakes
-  decision_default: Selection contract picks the DE audit as eligible progress work.
+    label: Hold pending new data
+  decision_default: Keep PP3 immutable and monitor only genuinely future data;
+    do not retune the family or score known DR2 values.
   needs_joe: false
-  evaluated_at: '2026-07-19T09:47:00-05:00'
-  run_ref: joe-direct-chat-2026-07-19-lane-summary-views-seed
+  evaluated_at: '2026-07-20T09:39:00-05:00'
+  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
   light: green
-  reason_code: seed_routing_and_proof_cleanup_active
-  evidence_ref: lab/process/research-portfolio.json#PAPER-EXTERNAL-EYES
+  reason_code: exact_derivations_banked
+  evidence_ref: explorations/master-identity-mechanism-2026-07-20.md
   work_status: moving
-  last_movement: CoflipCore entered the default Lean target and the one-bit
-    dossier v2 was integrated with citation posture.
-  movement_ref: Lean/GUFormalization/CoflipCore.lean
+  last_movement: Banked paper-grade master-identity and F5 signed-fraction
+    derivations with standalone finite certificates.
+  movement_ref: explorations/f5-signed-fraction-2026-07-20.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#PAPER-EXTERNAL-EYES
-  summary: Result hardening moved materially through the Lean certificate and
-    dossier v2, but Lane 1 remains the priority unless a paper factory return
-    supplies a capacity-backed hardening request.
-  progress_delta: 'H2 integrated a sorry-free axiom-free Lean certificate into
-    the default target; H5 integrated cited dossier v2 and flipped the pitch to
-    the price identity.'
-  scope_position: 'Tier-A note blockers reduced to calculus-adequacy remainder,
-    full-text reads of load-bearing kin, and assembly. Paper-production actions
-    remain outside this repo.'
-  trend_24h: flat
+  steering_ref: lab/process/research-portfolio.json#PROOF-STABLE-KERNELS
+  summary: Two exact B.5 symbol identities are now derived and reproducible;
+    no capacity-backed paper hardening request is active.
+  progress_delta: 'The C2 density closed to scalar plus mixed bivector, and the
+    canonical-cut signed fraction gained a closed form and universal domain.'
+  scope_position: 'Finite NumPy certificates are present; Lean work and broader
+    publication assembly remain optional hardening, not the Lane 1 frontier.'
+  trend_24h: up
   confidence: med
-  recommendation: Continue Lean cleanup only when Lane 3 wins against Lane 1 or
-    a capacity-backed hardening request returns.
-  findings: The Lean certificate is now folded into the default target; no
-    public-posture or publication action moved.
+  recommendation: Bank derivations; await capacity-backed hardening
+  findings: 'C2 is not an index: it has an exact Euclidean-norm closed form.
+    The F5 fingerprint is exact at symbol grade but does not build the end family.'
   options:
   - key: A
-    label: Continue cleanup; Joe decides the paper separately
+    label: Bank exact derivations
     recommended: true
   - key: B
-    label: Send the held paper to external review (Joe-gated)
+    label: Formalize when resourced
   - key: C
-    label: Park the lane
-  decision_default: Cleanup proceeds; the paper stays held.
+    label: Assemble dossier update
+  decision_default: Preserve the exact derivations and keep Lane 3 behind Lane 1
+    unless a capacity-backed Drafting Factory request returns.
   needs_joe: false
-  evaluated_at: '2026-07-20T00:45:50-05:00'
-  run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T09:39:00-05:00'
+  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: lane_state_stale_after_hardening_head
-  evidence_ref: steward/runs/2026-07-20-repository-work-cycle-RUN-20260720-560.md
+  reason_code: lane_state_reconciled_after_frontier_wave
+  evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Refreshed stale Lane-state guidance after the hardening packet
-    landed cleanly at head.
+  last_movement: Reconciled Lane state from the midnight hardening snapshot through
+    the completed DE, PP3, Bianconi, and F5 work.
   movement_ref: LANE-STATE.yaml
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Mailbox empty; writer lock absent; clean head now reflects the hardening
-    packet that blocked RUN-557.
-  progress_delta: Repaired operational drift where Lane 1 still described K2 as
-    pending and P7 as the next default despite the committed round-13 hardening
-    integration.
-  trend_24h: flat
+  summary: Mailbox empty, checkout clean, and stale operational guidance now
+    reflects the current B.5 and prediction frontiers.
+  progress_delta: Replaced obsolete DE-ready and Lean-first guidance with current
+    F5, PP3, entropy, and Dirac-Kahler evidence.
+  trend_24h: up
   confidence: high
-  recommendation: Continue standing stewardship; next progress child should use
-    the round-13 hardening handoff.
-  findings: No mailbox payload was present. The previous dirty hardening blocker
-    is resolved by commit 91e3fae; no central recorder or signal files were
-    touched by this child.
+  recommendation: Continue standing stewardship from current evidence
+  findings: 'No mailbox payload or writer collision exists. Scientific commits
+    advanced substantially while Lane state remained pinned to RUN-560; this
+    cycle repairs only that summary drift.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Standing stewardship continues; no GU mailbox archive needed.
+  decision_default: Standing stewardship continues; no mailbox or Joe action is
+    required.
   needs_joe: false
-  drift_verdict: repaired
+  drift_verdict:
+  - stale_lane_state_after_frontier_wave_repaired
   action_counts:
     mail: 0
     reconciled: 1
     integrity_repairs: 1
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; next handoff is repo-local Lane 1 hardening
-    from round 13.
-  evaluated_at: '2026-07-20T00:45:50-05:00'
-  run_ref: RUN-20260720-560-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; the next runnable frontier is Lane 1 M2,
+    subject to normal resource and collision checks.
+  evaluated_at: '2026-07-20T09:39:00-05:00'
+  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
