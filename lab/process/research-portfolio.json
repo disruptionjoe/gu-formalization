@@ -40,7 +40,8 @@
       "finishability alone",
       "a maintenance lane produced more commits"
     ],
-    "lane_contract_ref": "LANES.yaml"
+    "lane_contract_ref": "LANES.yaml",
+    "prediction_package_interrupt": "Standing rule (Joe direct chat 2026-07-19, council-reviewed): when the daily steward flags PREDICTION_PACKAGE_PENDING, the next Progress hourly takes the package work ahead of normal cross-lane ranking until FROZEN or a named blocker; time-boxed at ~3 cycles; admission criteria, freeze contract, and v2 supersession rules in lab/process/prediction-package-standing-rule.md. Retrodictions never package."
   },
   "operational_states": [
     "ACTIVE",
@@ -897,7 +898,7 @@
       "owner": "daily GU steward",
       "hourly_eligible": false,
       "depends_on": [],
-      "next_swing": "Read new Progress handoffs and valid external signals, reconcile ranking inside each numbered lane and across Lanes 1 through 3, then update the portfolio and NEXT-STEPS only when evidence warrants.",
+      "next_swing": "Read new Progress handoffs and valid external signals, reconcile ranking inside each numbered lane and across Lanes 1 through 3, then update the portfolio and NEXT-STEPS only when evidence warrants. Standing duty added 2026-07-19: scan for admissible unfrozen prediction candidates per lab/process/prediction-package-standing-rule.md and flag PREDICTION_PACKAGE_PENDING when one exists.",
       "kill_condition": "None. Close no-worthy-change when no valid signal or coordination drift exists.",
       "switch_condition": "Runs only in Stewardship mode and never enters scientific ranking.",
       "forbidden_shortcut": "Do not convert activity, difficulty, finishability, or a handoff recommendation into a durable priority change without the declared signal test."
