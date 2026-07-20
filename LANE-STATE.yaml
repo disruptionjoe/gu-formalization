@@ -2,77 +2,77 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T10:46:00-05:00'
-run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
-bottom_line: 'Lane 1 now has N2 truncated-real survival and a sector-relative
-  M2 cut-scale slot; next specify the wall clause, then advance N1 or N3.'
-decision_default: State the sector-relative spectral-section conjecture's wall
-  clause from N2's computed trichotomy before advancing N1 or N3.
+updated_at: '2026-07-20T13:39:00-05:00'
+run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
+bottom_line: 'Sector-relative sections now exist at matrix grade, while the toy
+  S-matrix is sector-blind; both results leave named operator-grade fronts.'
+decision_default: Test the faithful operator-grade V-breaking escape first,
+  while preserving the separate norm-resolvent section-theorem obligation.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: n2_m2_truncated_real_advanced
-  evidence_ref: explorations/m2-cut-scale-dial-2026-07-20.md
+  reason_code: sector_section_and_smatrix_reconciled
+  evidence_ref: explorations/smatrix-sector-face-2026-07-20.md
   work_status: moving
-  last_movement: Established a sector-relative M2 scale slot after N2 built the
-    faithful truncated-real end family.
-  movement_ref: explorations/m2-cut-scale-dial-2026-07-20.md
+  last_movement: Built matrix-grade sector-relative sections and proved toy
+    S-matrix blindness, leaving operator-grade fronts.
+  movement_ref: explorations/smatrix-sector-face-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: N2 survives at truncated-real grade and M2 admits one external scale
-    on the gapped sub-end; theorem grade remains open.
-  progress_delta: 'N2 built the faithful end trichotomy; M2 then passed
-    sector-relatively without contaminating C2 homogeneity.'
-  scope_position: 'N2 truncated-real and M2 complete conditionally. The
-    sector-relative wall theorem, N1 pushforward, and N3 weld remain open.'
+  summary: The wall object exists at matrix grade; scattering cannot read its
+    absolute orientation in the tested toy class.
+  progress_delta: 'K-c fired for the sector-section prototype; S-matrix K-a/K-b
+    then strengthened external-posit typing at toy grade.'
+  scope_position: 'Symbol/matrix wall existence and toy scattering are
+    dispositioned. Operator lift, orientation, and even-degree dynamics remain open.'
   trend_24h: up
   confidence: med
-  recommendation: State wall clause; then advance N1 or N3
-  findings: 'A uniform cut interval exists only on the spacelike-gapped sub-end.
-    Boundary-only lambda_0 preserves C2 scaling, while kernel leakage fails F7.
-    The cut does not derive or read the imported scale value.'
+  recommendation: Test operator-grade V-breaking; retain section lift
+  findings: 'Sector sections are Z/2 at truncated-real grade and the EP collapse
+    has one rate. The toy S-matrix is K_S-free; odd currents require the external
+    orientation. Neither result moves claims, canon, or posture.'
   options:
   - key: A
-    label: State wall clause
+    label: Test V-breaking escape
     recommended: true
   - key: B
-    label: Advance N1 pushforward
+    label: Lift section operator
   - key: C
-    label: Advance N3 weld
-  decision_default: Specify controlled behavior at the cone walls before deeper
-    N-rung work; keep the M2 value typed as an empirical import.
+    label: Compute KR shadow
+  decision_default: Attack the faithful operator-grade dynamical residue before
+    further toy extensions; keep the norm-resolvent lift as the parallel theorem burden.
   needs_joe: false
-  evaluated_at: '2026-07-20T10:46:00-05:00'
-  run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T13:39:00-05:00'
+  run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
   light: yellow
-  reason_code: pp3_frozen_waiting_future_data
-  evidence_ref: explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
+  reason_code: pp4_smatrix_face_closed_toy_grade
+  evidence_ref: explorations/smatrix-sector-face-2026-07-20.md
   work_status: thin
-  last_movement: Froze PP3 v0.2 and recorded the zero-weight DR2 exposure risk;
-    the separate DE amplitude audit closed negative.
-  movement_ref: explorations/pp3-risk-register-2026-07-20.md
+  last_movement: Tested the sector sign's dynamical face; toy scattering yielded
+    no PP4-admissible observable.
+  movement_ref: explorations/smatrix-sector-face-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#PRED-CANDIDATE-PACKETS
-  summary: PP3 is frozen with kill rules; known DR2 central values are outside
-    its band but carry zero confrontation weight.
-  progress_delta: 'PP3 added a second shape invariant and a risk register; the
-    amplitude audit found no new packageable prediction beyond existing packets.'
-  scope_position: 'PP3 frozen; PP1 sign and PP2 matter parity remain conditional;
-    DE-F1 is monitor-only until an official new data release.'
+  summary: PP3 remains frozen; the tested S-matrix face produced no PP4 at toy
+    grade because every observable is sector-blind.
+  progress_delta: 'The PP4-shaped scattering route closed negatively at toy
+    grade; its operator-grade even-term residue belongs to Lane 1.'
+  scope_position: 'PP3 frozen; PP1/PP2 conditional; PP4 not admitted. Future
+    prediction work still requires a native observable or future data.'
   trend_24h: up
   confidence: med
-  recommendation: Preserve PP3 freeze; await independent future data
-  findings: 'All four known DR2 central combinations sit outside PP3 on slope
-    and amplitude, but pre-freeze knowledge gives them zero weight. Absolute
-    DE amplitude remains ratio-only plus an imported scale.'
+  recommendation: Preserve PP3 freeze; do not admit PP4
+  findings: 'The scattering matrix contains no K_S, and graded-current readings
+    require an already oriented preparation. This is a toy-grade negative, not
+    an operator-grade impossibility theorem.'
   options:
   - key: A
     label: Monitor frozen PP3
@@ -84,8 +84,8 @@ lanes:
   decision_default: Keep PP3 immutable and monitor only genuinely future data;
     do not retune the family or score known DR2 values.
   needs_joe: false
-  evaluated_at: '2026-07-20T09:39:00-05:00'
-  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T13:39:00-05:00'
+  run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
@@ -127,24 +127,25 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: lane_state_reconciled_after_n2_m2
+  reason_code: lane_state_reconciled_after_sector_smatrix_wave
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Reconciled Lane state through the N2 end-family and M2 cut-scale
-    results.
+  last_movement: Reconciled Lane state through the sector-section and S-matrix
+    results without changing their grades.
   movement_ref: LANE-STATE.yaml
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Mailbox empty, checkout clean, and operational guidance now reflects
-    the N2/M2 frontier.
-  progress_delta: Replaced the completed M2 handoff with the sector-relative wall
-    clause and N1/N3 options.
+  summary: Mailbox is empty and Lane guidance now reflects both completed
+    Joe-directed results and their operator-grade residues.
+  progress_delta: Replaced the completed wall-clause handoff and recorded the
+    negative PP4 disposition without promoting either result.
   trend_24h: up
   confidence: high
   recommendation: Continue standing stewardship from current evidence
-  findings: 'No mailbox payload or writer collision exists. N2 and M2 moved
-    after the prior state refresh; this closeout reconciles that summary drift.'
+  findings: 'No mailbox payload or collision exists. The section result is
+    matrix/truncated-real grade; the scattering result is toy/matrix grade. Claim,
+    canon, prediction-registration, and public-posture state remain unchanged.'
   options:
   - key: A
     label: Continue standing stewardship
@@ -153,14 +154,14 @@ lanes:
     required.
   needs_joe: false
   drift_verdict:
-  - stale_lane_state_after_n2_m2_repaired
+  - stale_lane_state_after_sector_section_and_smatrix_repaired
   action_counts:
     mail: 0
-    reconciled: 1
+    reconciled: 2
     integrity_repairs: 1
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; next is the Lane 1 sector-relative wall
-    clause, subject to normal resource and collision checks.
-  evaluated_at: '2026-07-20T10:46:00-05:00'
-  run_ref: RUN-20260720-103623-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; next test the operator-grade dynamical
+    escape while retaining the section-lift theorem burden.
+  evaluated_at: '2026-07-20T13:39:00-05:00'
+  run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
