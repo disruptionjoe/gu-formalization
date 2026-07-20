@@ -91,14 +91,30 @@ Registration mechanics for the prediction-paper type:
    registration invites "the details came later").
 3. **Chain of custody rider:** any later posting (arXiv, journal) cites
    the original registration DOI as the timestamp of record.
-4. **Supersession = new registration.** A material update is a WHOLLY
-   NEW registered prediction citing its predecessor; predecessors are
-   never withdrawn or edited. The public chain of superseded
-   registrations is the intended artifact — "this is what we learned
-   next" — per Joe's stated posture: the program registers predictions
-   as it goes and does not curate away the ones that die; open research
-   over the appearance of infallibility. Version-DOIs are minted only
-   for material supersessions (no DOI noise from minor bumps).
+4. **POSTING is the freeze (Joe, 2026-07-20).** Two notaries freeze
+   different things: git freezes WHAT WAS KNOWN WHEN (fine-grained, the
+   record of the small steps); the public posting freezes WHAT IS
+   STAKED (the severity object). Before posting, a packet MAY be
+   revised to incorporate new findings — post the best available
+   prediction — under three riders:
+   - **Data-blindness guard:** pre-posting revisions must be
+     derivation-driven, never data-driven. The moment a
+     scoring-relevant dataset becomes public, the pending version
+     auto-freezes: only the last PRE-release commit may post as
+     "pre-registered" against that release (commit timestamps vs
+     release dates adjudicate mechanically).
+   - **Revision log:** the posted note states internally-frozen /
+     revised / posted dates; band-WIDENING revisions carry a stated
+     derivation reason (tightening needs none).
+   - **Event-driven cadence:** posting is timed to beat data epochs,
+     not to chase version numbers; the ~2-day READY escalation guards
+     against improvement becoming procrastination.
+   AFTER posting, supersession = a WHOLLY NEW registered prediction
+   citing its predecessor; posted predecessors are never withdrawn or
+   edited. The public chain of superseded registrations is the intended
+   artifact — "this is what we learned next"; open research over the
+   appearance of infallibility. Version-DOIs only for material
+   post-posting supersessions.
 5. **Per-registration release approval stays with Joe — via EXISTING
    attention rails, no parallel mechanism.** Each registration is an
    external action requiring Joe's explicit per-action GO on the
