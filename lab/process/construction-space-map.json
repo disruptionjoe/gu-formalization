@@ -370,8 +370,8 @@
         },
         "GR": {
           "grade": "R0_COND",
-          "note": "CH-GR swing: branch-(a) exact cancellation identity (sigma*kappa^2=1, kappa^2=1, hard Z/2 gate, Kerr-robust); conditional on K2 gauge covariance. Branches (b),(c) R0_FAIL.",
-          "evidence": "explorations/channel-swing-CH-GR-2026-07-19.md; tests/channel-swings/ch_gr_vev_stress_probe.py"
+          "note": "P-K2 verdict PARTIAL leaning theorem: artifact mode defeated (coefficient never gauge-dependent; c=1 rigid across the harmonic class, both backgrounds); true hypothesis is gauge-invariant Ricci-flatness with the de Donder presentation class as named construction data (new shadow demand on DEM-GR-3: the source action must derive or own the presentation); K2/K5 UNIFIED (matter defect = -[<Ric.bhat>]^TF exactly); full covariant t2-slot lock dead by the 4D Lanczos no-go; C2 law and Noether identity survive covariantization.",
+          "evidence": "explorations/pk2-gauge-covariance-2026-07-19.md; tests/channel-swings/pk2_gauge_covariance_probe.py"
         },
         "COSMO": {
           "grade": "R0_COND",
@@ -386,8 +386,9 @@
       "axis_notes": "Layer-0/L1 delta from every (9,5) cell: global signature choice changes the Clifford algebra class. Provenance: CH-QM swing 2026-07-19 exact certificate; canon quaternionic-parity no-go applies to (9,5) only.",
       "tracks": {
         "SM": {
-          "grade": "OPEN",
-          "note": "Fiber (6,4)/PS chain ports untouched; odd index TYPE-CONSISTENT but not forced; decisive: real-index generation arithmetic (KO divisor for M(128,R))."
+          "grade": "R0_COND",
+          "note": "P-77-REAL-INDEX (builder + adversarial twin, independent paths, unanimous): FREE-INTEGER. Forced-3 fails (no convention-rigid value; 4-8 counts reachable); blocks-3 fails (Schur divisor 1; odd signatures exhibited). Cheap-kill window closed both directions. CAUTION T4: the Kramers wall MOVED, not vanished — base-Clifford-linear carriers still have signature in 8Z; weld must pin carrier base-typing. Advantage over (9,5) is typing-only; generation integer is a free import in BOTH signatures.",
+          "evidence": "explorations/p77-real-index-W1-builder-2026-07-19.md; explorations/p77-real-index-W2-twin-2026-07-19.md"
         },
         "QM": {
           "grade": "R1_COND",
@@ -909,6 +910,19 @@
       ],
       "philosopher_guards_adopted": "Pre-register K2 and real-index interpretations (both endings each) BEFORE computing; retrodictions logged as coherence never predictions; N-count accounting stays adversarial (SRC-COH-1 discipline).",
       "chairman_synthesis": "Housekeeping executed; next: the parallel big-swing fanout on P-77-REAL-INDEX (weighted) + P-K2, with P-T3-W229 as candidate third branch."
+    },
+    {
+      "round": 11,
+      "date": "2026-07-19",
+      "mode": "parent integration of the four-probe fanout (K2, real-index builder+twin, T3 audit)",
+      "results_digest": "K2: PARTIAL leaning theorem — artifact defeated, Ricci-flat + de Donder class is the true hypothesis, K2/K5 unified, presentation class promoted to construction data. Real-index: builder and adversarial twin UNANIMOUS on FREE-INTEGER — (7,7) neither forces nor blocks 3; wall re-enters for base-typed carriers (T4); K3 input ports but retypes (T5); lazy factorized port resurrects the quaternionic class (T2 trap). T3: W229 is a CONDITIONAL MEMBER — record direction IS the transmitted orientation, no fifth bit, N<=4 stands in (9,5); Green's-function sign is a computed consequence; GR readout anchor-invariant.",
+      "signature_comparison_evidence": "The (7,7) fork's promised advantage (escaping the parity wall) largely evaporated: the generation integer is a free import in BOTH signatures, the wall partially re-enters via carrier base-typing, and (7,7) carries retype/proof debt (eta stability in the new AZ class, K3 KO-retype, Gram + normalization + base-typing pins). (9,5) holds audited N<=4 with native machinery. Evidence favors (9,5) + explicit generation integer; the signature VERDICT stays Joe-gated.",
+      "payload_state": "In (9,5): one Z/2 orientation (carries Krein sign + GR cancellation sign + record direction, all three now computed/audited) + one pinned scale + one generation integer; chain datum conditionally derivable; N core = 3, ceiling 4.",
+      "new_demands": [
+        "DEM-GR-3-shadow: source action derives/owns the de Donder presentation class",
+        "Weld pins if (7,7) ever advances: GRAM-PIN-77, module normalization 16-vs-32, carrier base-typing (T4), K3 KO-retype declaration (T5)"
+      ],
+      "chairman_synthesis": "The three sign-questions all resolved positive for the one-orientation picture; the generation integer is the one honest external item in either signature. Remaining queued: P-54-WELD, P-RANK-FOLD, the parked P-LATTICE-SWEEP and P-OBS-LEG, and Lane 2 packet freezes. Signature choice surfaced to Joe as evidence, not verdict."
     }
   ]
 }
