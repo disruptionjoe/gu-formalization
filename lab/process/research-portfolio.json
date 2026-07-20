@@ -538,6 +538,35 @@
       "forbidden_shortcut": "Compatibility, a one-sided survival tripwire, and a scheduled future dataset do not by themselves constitute a blind GU prediction."
     },
     {
+      "id": "PRED-CANDIDATE-PACKETS",
+      "lane_id": "2",
+      "title": "Assemble one or two candidate prediction packets, honestly graded, even if not fully ready",
+      "track": "prediction_extraction",
+      "state": "READY",
+      "owner": "gu-formalization",
+      "hourly_eligible": true,
+      "priority_score": 20,
+      "score": {
+        "impact": 4,
+        "information_gain": 4,
+        "readiness": 4,
+        "distinctiveness": 4,
+        "time_sensitivity": 3,
+        "effort": 3,
+        "wall_risk": 2,
+        "duplication_risk": 1
+      },
+      "depends_on": [],
+      "assessment_source": "lab/process/integration-readiness-scorecard.md",
+      "assessment_summary": "Joe direct chat 2026-07-19: put pressure on the predictions lane to hold real candidate predictions even if not fully ready. The fanout produced candidates: (1) the DE-sign orientation readout — sgn(w0+1) as the relational readout of the payload Z/2, conditional on f0 != 0 and a derived co-variance (freeze the prediction shape BEFORE any data confrontation, per pre-registration discipline); (2) the matter-parity Z/2 emitted by the 126 spinorial rank-drop route — a stable parity-odd state is a dark-matter-shaped candidate; (3) the standing DE-F1 one-sided ceiling (already frozen). Records-track-curvature stays too soft to packet.",
+      "construction_fork": "Each packet must type its claims: what is GU-native, what is conditional on which channel card, what is imported. A packet is a frozen candidate prediction with named conditions, not a claim of readiness.",
+      "next_swing": "Draft packet 1 (DE-sign orientation readout): predeclare observable, sign convention, conditions (f0 != 0, derived co-variance from the C10 action), competitor baseline, and kill threshold — frozen before any likelihood work. Draft packet 2 (matter-parity candidate): state the 126-route condition chain and what observation classes would bear on a stable parity-odd state. Grade both honestly as CONDITIONAL; route nothing externally.",
+      "kill_condition": "A packet that cannot state its conditions and kill threshold without hedging is not a packet; drop it back to the channel card it depends on.",
+      "switch_condition": "Rerank within Lane 2 after each packet freeze; DE-AMP-DIAGNOSTIC remains the data-facing audit and is not displaced.",
+      "forbidden_shortcut": "No data peeking before packet freeze; no promotion of conditional packets to predictions in any external-facing surface; retrodictions (hypercharge, trace reversal) are logged as coherence, never packaged as predictions.",
+      "internal_work_items": []
+    },
+    {
       "id": "DE-AMP-DIAGNOSTIC",
       "lane_id": "2",
       "title": "Audit the CMB-calibrated dark-energy amplitude",
