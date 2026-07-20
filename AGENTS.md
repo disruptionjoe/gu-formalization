@@ -64,6 +64,18 @@ eligible work across Lanes 1 through 3. Selecting Lane 2 or Lane 3 does not repl
 validation but before the receipt, every hourly run re-ranks work inside the lane it used and then re-ranks the
 three numbered lanes through the standard `rerank-next-work` handoff. Lane A reconciles durable priority.
 
+**Lane-specific attention models:**
+
+- A bounded, genuinely GU-native prediction that can be assembled into a
+  prediction packet is the top internal precedent for Lane 2. Prepare and
+  advance that packet rather than letting generic prediction exploration
+  displace it; this does not demote Lane 1's North Star.
+- A capacity-backed hardening request from Drafting Factory is the top internal
+  precedent for Lane 3. Fulfill the bounded proof, novelty, citation,
+  reproducibility, or scope packet requested when it is scientifically sound;
+  it takes precedence over ordinary Lane 3 cleanup but does not change claim
+  grade or replace Lane 1.
+
 ## CapacityOS Integration Boundary
 
 This repository's `AGENTS.md`, governance, orientation, authoritative work,
