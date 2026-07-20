@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-19",
+  "updated_at": "2026-07-20",
   "artifact_role": "Coverage ledger for the construction-space exploration program. Cells are construction families on the six-axis template; rung grades are per sector track. This file changes no claim status or verdict.",
   "protocol": "lab/process/construction-space-exploration-protocol.md",
   "portfolio_item": "CONSTRUCTION-SPACE-EXPLORATION",
@@ -932,6 +932,14 @@
       "prediction_shelf": "PP1 frozen; packets 2 (matter parity) and 3 (mirror sector, weld probes W-A/W-B pending, possible mu-finite upgrade) candidates; F1 grandfathered. Standing rule active: lab/process/prediction-package-standing-rule.md.",
       "chairman_synthesis": "All five pathways advanced; two produced potentially publishable objects (PP1; Theorem V + Tier-A note). Route to p2c: the instance ladder + D-77-ETA. The hourlies inherit: weld probes W-A/W-B, packet 2 shaping, Theorem V's O(M^3) study, and the standing probes queue.",
       "verification_note": "bb_p2_vacuum_theorem_probe verification record: worker ran it four times to exit 0 / 27-27 with probe-log receipts matching the doc line-for-line; parent independent re-run reproduced Group A exactly (incl. the master-law instantiation, exact rational arithmetic) before hitting the environment background-runtime limit twice. Probe runtime exceeds the parent runner limit; full independent re-runs should use the hourly harness. No discrepancy observed anywhere."
+    },
+    {
+      "round": 13,
+      "date": "2026-07-20",
+      "mode": "parent integration of the five-worker hardening wave (H1-H5) + the D1 build",
+      "results_digest": "D1: C-operator dynamically determined off-degeneracy, grades records positive, no second anchor freedom; at the vacuum, determination fails by contractible-continuum non-uniqueness — external bit STANDS (primaries read in full, six corrections incl. the attribution guard). H1: exhaustiveness at theorem shape over ALL operations (sector rigidity welds sigma=eps; sigma*d=mu makes the import counter observable; benign miss F separates gauge-Z/2 from payload-Z/2; continuum contractible). H2: sorry-free axiom-free Lean certificate CoflipCore.lean in the default target (wrapper-built; baseline task also discharged). H3: full 192-dim lift passes both endings with exact zeros; conditionality typed to ONE chi-odd boost-non-equivariant import; compensator at 1792 dims, C2 law exact. H4: axiomatized class theorem (1408 composites, 8 instances, both signature typings, one accounting); BV-grade co-flip SURVIVES on descended observables — the G-A2 N-to-5 route closed at fixture grade, co-conditioned with D1; three-layer internal-mu enforcement stronger than H-REC-CAUS hypothesized; anchor exchange exists iff p=q. H5: literature pass retired the bare covariation (Ashtekar-Magnon 1975 etc.), NEW-AS-SEARCHED for the price identity + Noether record-direction + Z/2 collapse; dossier v2 written, pitch flipped to the price identity; venue J.Phys.A.",
+      "n_state": "Both round-11 N-to-5 routes now co-conditioned on D1's canonical-reading condition, which the D1 build verified at toy grade and H3 at 192-dim conditional grade. N core = 3 stands; the S_IG/B.5 object remains the single external construction need, now with its symmetry type computed (chi-odd, boost-non-equivariant, K-definite-gapping).",
+      "chairman_synthesis": "The one-bit complex is hardened: theorem + Lean certificate + scale lift + class generality + cited novelty. Tier-A note blockers reduced to: calculus-adequacy remainder, full-text reads of load-bearing kin, assembly. Hourlies inherit: the Lean (p,q) lift, G-H4 gaps, the drive PT-threshold, and dossier v3 assembly per H1/H4 edit proposals."
     }
   ]
 }
