@@ -2,52 +2,51 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T13:39:00-05:00'
-run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
-bottom_line: 'Sector-relative sections now exist at matrix grade, while the toy
-  S-matrix is sector-blind; both results leave named operator-grade fronts.'
-decision_default: Test the faithful operator-grade V-breaking escape first,
-  while preserving the separate norm-resolvent section-theorem obligation.
+updated_at: '2026-07-20T17:42:00-05:00'
+run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
+bottom_line: 'Native generation transport is closed in the frozen inventory;
+  one external Z/6 phase anchor is the minimal conditional input for three.'
+decision_default: Test whether the Z/6 anchor is supplied natively while preserving
+  its external-reference grade and the separate operator-grade fronts.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: sector_section_and_smatrix_reconciled
-  evidence_ref: explorations/smatrix-sector-face-2026-07-20.md
+  reason_code: conditional_forcing_minimal_input_resolved
+  evidence_ref: explorations/conditional-forcing-minimal-input-2026-07-20.md
   work_status: moving
-  last_movement: Built matrix-grade sector-relative sections and proved toy
-    S-matrix blindness, leaving operator-grade fronts.
-  movement_ref: explorations/smatrix-sector-face-2026-07-20.md
+  last_movement: Closed native transport in the frozen inventory; one external
+    Z/6 phase anchor minimally suffices conditionally.
+  movement_ref: explorations/conditional-forcing-minimal-input-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The wall object exists at matrix grade; scattering cannot read its
-    absolute orientation in the tested toy class.
-  progress_delta: 'K-c fired for the sector-section prototype; S-matrix K-a/K-b
-    then strengthened external-posit typing at toy grade.'
-  scope_position: 'Symbol/matrix wall existence and toy scattering are
-    dispositioned. Operator lift, orientation, and even-degree dynamics remain open.'
+  summary: A Z/6 reference forces order three conditionally; Z/2, Z/3, and Z/4
+    inputs do not.
+  progress_delta: 'N6 killed the native slot route; the successor ladder proved
+    Z/6 first sufficient while smaller cyclic inputs fail.'
+  scope_position: 'Frozen native transport inventory closed; conditional forcing
+    resolved at fixture grade; anchor nativity remains open.'
   trend_24h: up
   confidence: med
-  recommendation: Test operator-grade V-breaking; retain section lift
-  findings: 'Sector sections are Z/2 at truncated-real grade and the EP collapse
-    has one rate. The toy S-matrix is K_S-free; odd currents require the external
-    orientation. Neither result moves claims, canon, or posture.'
+  recommendation: Test anchor nativity; preserve conditional grade
+  findings: 'The payload bit is the cube of the sufficient Z/6 anchor. Reading
+    without anchoring fails; no integer-index or Z/2-to-three inference is earned.'
   options:
   - key: A
-    label: Test V-breaking escape
+    label: Test anchor nativity
     recommended: true
   - key: B
-    label: Lift section operator
+    label: Assemble Lawvere L1
   - key: C
-    label: Compute KR shadow
-  decision_default: Attack the faithful operator-grade dynamical residue before
-    further toy extensions; keep the norm-resolvent lift as the parallel theorem burden.
+    label: Retain operator fronts
+  decision_default: Test whether GU supplies the Z/6 anchor without importing
+    it; keep operator-grade section and dynamics obligations distinct.
   needs_joe: false
-  evaluated_at: '2026-07-20T13:39:00-05:00'
-  run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T17:42:00-05:00'
+  run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -90,78 +89,77 @@ lanes:
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
   light: green
-  reason_code: exact_derivations_banked
-  evidence_ref: explorations/master-identity-mechanism-2026-07-20.md
+  reason_code: anomaly_closure_second_dry_round
+  evidence_ref: explorations/verify-anomaly-closure-2026-07-20.md
   work_status: moving
-  last_movement: Banked paper-grade master-identity and F5 signed-fraction
-    derivations with standalone finite certificates.
-  movement_ref: explorations/f5-signed-fraction-2026-07-20.md
+  last_movement: Completed a second dry hostile verification of the anomaly
+    closure with no material revision.
+  movement_ref: explorations/verify-anomaly-closure-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#PROOF-STABLE-KERNELS
-  summary: Two exact B.5 symbol identities are now derived and reproducible;
-    no capacity-backed paper hardening request is active.
-  progress_delta: 'The C2 density closed to scalar plus mixed bivector, and the
-    canonical-cut signed fraction gained a closed form and universal domain.'
-  scope_position: 'Finite NumPy certificates are present; Lean work and broader
-    publication assembly remain optional hardening, not the Lane 1 frontier.'
+  summary: The anomaly-closure pair met its stopping rule after independent
+    re-derivation and may proceed at its stated grade.
+  progress_delta: 'A second hostile pass was dry, closed a receipt gap, and
+    strengthened provenance without changing claims or canon.'
+  scope_position: 'Anomaly closure is source-ready at its stated grade; the
+    corrected section-theory cluster needs another dry round.'
   trend_24h: up
   confidence: med
-  recommendation: Bank derivations; await capacity-backed hardening
-  findings: 'C2 is not an index: it has an exact Euclidean-norm closed form.
-    The F5 fingerprint is exact at symbol grade but does not build the end family.'
+  recommendation: Preserve dry receipt; advance source-ready packet
+  findings: 'The anomaly pair survived independent routes. Section theory had
+    one material census correction, so its dry-round counter reset.'
   options:
   - key: A
-    label: Bank exact derivations
+    label: Preserve anomaly receipt
     recommended: true
   - key: B
-    label: Formalize when resourced
+    label: Recheck section correction
   - key: C
-    label: Assemble dossier update
-  decision_default: Preserve the exact derivations and keep Lane 3 behind Lane 1
-    unless a capacity-backed Drafting Factory request returns.
+    label: Formalize when resourced
+  decision_default: Preserve the anomaly dry-round receipt and keep further
+    hardening behind Lane 1 unless a capacity-backed request returns.
   needs_joe: false
-  evaluated_at: '2026-07-20T09:39:00-05:00'
-  run_ref: RUN-20260720-093622-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T17:42:00-05:00'
+  run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: lane_state_reconciled_after_sector_smatrix_wave
+  reason_code: mailbox_proposal_overtaken_reconciled
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Reconciled Lane state through the sector-section and S-matrix
-    results without changing their grades.
+  last_movement: Dispositioned the persona proposal as non-activating and
+    reconciled the later direct research wave.
   movement_ref: LANE-STATE.yaml
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Mailbox is empty and Lane guidance now reflects both completed
-    Joe-directed results and their operator-grade residues.
-  progress_delta: Replaced the completed wall-clause handoff and recorded the
-    negative PP4 disposition without promoting either result.
+  summary: The proposal was coherent but overtaken by stronger owner evidence;
+    no new priority or claim movement was earned.
+  progress_delta: Reconciled conditional forcing, anomaly hardening, and one
+    mailbox disposition without changing their grades.
   trend_24h: up
   confidence: high
-  recommendation: Continue standing stewardship from current evidence
-  findings: 'No mailbox payload or collision exists. The section result is
-    matrix/truncated-real grade; the scattering result is toy/matrix grade. Claim,
-    canon, prediction-registration, and public-posture state remain unchanged.'
+  recommendation: Archive after receipt; steward from current evidence
+  findings: 'The proposal predates the Z/6 result and adds no new packet. Its
+    Z/2-versus-three guard agrees with owner evidence; claims and canon stay unchanged.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Standing stewardship continues; no mailbox or Joe action is
-    required.
+  decision_default: Parent may receipt and archive the proposal; standing
+    stewardship continues from current owner evidence.
   needs_joe: false
   drift_verdict:
-  - stale_lane_state_after_sector_section_and_smatrix_repaired
+  - stale_lane_state_after_direct_wave_repaired
+  - mailbox_proposal_overtaken_by_owner_evidence
   action_counts:
-    mail: 0
-    reconciled: 2
-    integrity_repairs: 1
+    mail: 1
+    reconciled: 3
+    integrity_repairs: 0
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; next test the operator-grade dynamical
-    escape while retaining the section-lift theorem burden.
-  evaluated_at: '2026-07-20T13:39:00-05:00'
-  run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; parent may receipt and archive the proposal.
+  evaluated_at: '2026-07-20T17:42:00-05:00'
+  run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
