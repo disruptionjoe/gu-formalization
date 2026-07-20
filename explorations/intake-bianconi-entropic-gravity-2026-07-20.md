@@ -33,12 +33,40 @@ intake_semantics: >
   nodes/edges/cells, DISCRETE Dirac operators, metric-induced-by-matter
   via minimal substitution. This is where the Dirac-Kahler structure
   (leg 3) is most explicit.
-- Follow-ups (unread at intake; queued): arXiv:2501.09491 (Schwarzschild
-  relative entropy + area law, Entropy 27, 266), arXiv:2509.23987
-  ("Inflation from entropy"), arXiv:2510.22545 (thermodynamics of the
-  theory, rev. 2026-05), arXiv:2510.24491 (quantum relative entropy ->
-  semiclassical Einstein equations; authorship unverified at intake),
-  arXiv:2503.14048 (entropic foundations beyond holography).
+- Follow-ups by Bianconi (unread at intake; queued): arXiv:2501.09491
+  (Schwarzschild relative entropy + area law, Entropy 27, 266),
+  arXiv:2510.22545 (thermodynamics of the theory, rev. 2026-05;
+  authorship VERIFIED Bianconi 2026-07-20), arXiv:2503.14048 (entropic
+  foundations beyond holography).
+- Independent follow-on program (Yangzhou University Center for
+  Gravitation and Cosmology, China — Thattarampilly, Zheng, + Kakkat;
+  Joe-flagged 2026-07-20; CORRECTION: 2509.23987 was previously listed
+  here as a Bianconi follow-up, it is this team's):
+  - arXiv:2509.23987 "Inflation from entropy" (EPJC 2025) — extends GfE
+    to early-universe dynamics; upgrades the mining report's
+    "inflation-without-inflaton is secondhand" flag to a primary source.
+  - arXiv:2602.13694 "Spherically symmetric black holes in gravity from
+    entropy and spontaneous emission" (PRD 2026, submitted 2026-02-14) —
+    modified vacuum equations; Schwarzschild receives r^-4 perturbative
+    corrections; constant background evaporation rate -beta/24 ("entropic
+    leakage of the vacuum") for large black holes; reproduces the
+    Hawking mass-loss law M-dot ~ M^-2 CLASSICALLY at intermediate mass.
+    Relevance: GfE now has a strong-field observational prediction
+    surface built by a second group — (a) comparator context for PP3's
+    related-work posture (GfE predictions exist but are black-hole-side,
+    still no DE locus/kills); (b) the r^-4 correction + leakage rate are
+    concrete places to check whether her measure term carries scale
+    (slate row B2) against a worked example rather than the abstract
+    action; (c) their handling of the G-field in vacuum is the first
+    third-party stress test of the mechanism our F2-entropy route
+    borrows.
+  - Possible third paper (to verify): a PRD "Thermodynamics of the
+    gravity from entropy theory" (DOI 10.1103/26kn-thgp) distinct from
+    Bianconi's 2510.22545 — confirm authorship before citing.
+- Other line (verified NOT this program's cure): arXiv:2510.24491
+  (Dorau & Much, Leipzig — quantum relative entropy -> semiclassical
+  Einstein equations; rigorous-QFT side, relevant to the Araki-route
+  read B4).
 - Provenance pointer: Joe-supplied TOE episode (2026-07-13), same intake
   channel as the Mannheim PT material (intake 2026-07-19).
 
