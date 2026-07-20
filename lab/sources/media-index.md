@@ -84,6 +84,12 @@ These entries are worth adding once direct links, dates, and transcripts are ver
 | Triggernometry 2026 appearance | TRIGGERnometry | Description says Weinstein is known for GU, but visible outline is geopolitical rather than GU-specific. | Claim-mine transcript before treating as a GU instance. |
 | X / social-media GU threads | Eric Weinstein's X account, Portal Wiki mirrors | Useful chronology for predictions, family-structure claims, and public terminology drift. | Prefer archived or mirrored pages; use only for chronology unless exact posts are independently preserved. |
 
+## Primary GU media added 2026-07-20
+
+| source_id | date | episode | guest | local transcript | related intake | status |
+| --- | --- | --- | --- | --- | --- | --- |
+| `GU-POD-TOE-WEINSTEIN-40YRS` | (episode date TBD) | Theories of Everything, "Geometric Unity: 40 Years in the Making" / "Unifying All Forces + Generations" | Eric Weinstein | `lab/sources/transcripts/toe-weinstein-gu-40-years.md` (~29.9k words) | `explorations/intake-weinstein-toe-gu-claims-2026-07-20.md` (claim-confrontation table = the deliverable) | `transcript-available` |
+
 ## Program-Adjacent Method Sources (not GU-discussion media)
 
 Episodes that do not discuss GU but supplied intake material for the
@@ -99,6 +105,8 @@ likely) — verify against primary papers before citing any claim.
 | `TOE-MALDACENA-ADSCFT` | 2026 | Theories of Everything, "Geometry as Entanglement and the Emergence of Spacetime" | Juan Maldacena | `lab/sources/transcripts/toe-maldacena-ads-cft-2026.md` (~1 h 45 min; + Grok pack `lab/sources/maldacena-grok-source-pack-2026-07-20.md`) | `explorations/intake-maldacena-holography-2026-07-20.md` | `transcript-available` |
 | `TOE-GORARD-WOLFRAM` | (episode date TBD) | Theories of Everything, "Quantum Gravity & Wolfram Physics Project" | Jonathan Gorard | `lab/sources/transcripts/toe-gorard-wolfram-physics.md` (~3 h; + Grok pack `lab/sources/gorard-grok-source-pack-2026-07-20.md`) | `explorations/intake-gorard-wolfram-2026-07-20.md` | `transcript-available` |
 | `TOE-STEINBERG-NEGTIME` | (episode date TBD) | Theories of Everything, "The Physicist Who Measured Negative Time" | Aephraim Steinberg | `lab/sources/transcripts/toe-steinberg-negative-time.md` (~2 h 21 min; + Grok pack `lab/sources/steinberg-grok-source-pack-2026-07-20.md`) | `explorations/intake-steinberg-negative-time-2026-07-20.md` | `transcript-available` |
+| `TOE-FRENKEL-LANGLANDS-P1` | (episode date TBD) | Theories of Everything, "Revolutionary Math Proof No One Could Explain... Until Now" (Part 1) | Edward Frenkel | `lab/sources/transcripts/toe-frenkel-langlands-part1.md` (~23.9k words) | `explorations/intake-frenkel-langlands-2026-07-20.md` | `transcript-available` |
+| `TOE-SHORT-ix62hjnTgEA` | — | YouTube Short (content unidentified; Joe-supplied block was a placeholder template) | — | — | — | `candidate` (identify before any use) |
 | `TOE-FRENKEL-LANGLANDS-P2` | (episode date TBD) | Theories of Everything, "Monumental Breakthrough in Mathematics (Part 2)" (Geometric Langlands) | Edward Frenkel | `lab/sources/transcripts/toe-frenkel-langlands-part2.md` (~21.8k words; + Grok pack `lab/sources/frenkel-langlands-grok-source-pack-2026-07-20.md`) | `explorations/intake-frenkel-langlands-2026-07-20.md` | `transcript-available` |
 
 ## Claim-Mining Template
