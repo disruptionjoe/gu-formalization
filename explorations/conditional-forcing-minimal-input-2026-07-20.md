@@ -24,6 +24,12 @@ sources:
   - "Torsion-arena bookkeeping k = 64c, order(J(k)) in Z/24, sustained twice (b97b798 / 8d000ac)."
 ---
 
+> **CORRECTION / FRAMING BANNER (2026-07-20, hostile verify — verify-conditional-forcing-2026-07-20.md, commit 6eb850d). Verdict: NOT-DRY. The MATH stands (X2/X1/bookkeeping confirmed by independent routes; the Z/5 exhaustion hole was closed IN FAVOR — the order-<=6 lattice is now genuinely complete). But the HEADLINE has an unresolved ATTRIBUTION FORK that turns on program semantics, not computation:**
+> - **Trit-only reading (verifier's preferred):** under the program's OWN gate semantics — where the deck/payload bit is a GATE that native structure passes (as the imported k1 machinery treats it) — the minimal EXTERNAL input is ONE TRIT (Z/3); the Z/2 is native bookkeeping.
+> - **Z/6 reading (original):** survives only under a second semantics where the anchor must itself re-supply the deck parity.
+> Which is correct is a JOE/program-semantics decision (is the payload bit "already spent" as arena bookkeeping, or a fresh external requirement for the count?), NOT a probe question. A v2 must resolve it before any paper motion.
+> Two further reframings, non-fatal: the X1.5 kill rests on the c=0 mod 3 order-killer (reader-sensitive), not on scatter (conclusion "reading is not anchoring" survives); the cube-relation's deck=payload identification was flagged open by the verifier and INDEPENDENTLY CLOSED the same night by L1 (commit 56304e8: section-Z/2 = payload-Z/2, one class) — so the bit in the anchor IS the payload orientation bit. Original text retained below per record discipline.
+
 # Conditional forcing: the minimal external input X
 
 Successor line to the ratified closure of the native-transport question
