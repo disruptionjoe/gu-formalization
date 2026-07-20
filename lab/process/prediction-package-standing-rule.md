@@ -115,14 +115,19 @@ Registration mechanics for the prediction-paper type:
    artifact — "this is what we learned next"; open research over the
    appearance of infallibility. Version-DOIs only for material
    post-posting supersessions.
-5. **Per-registration release approval stays with Joe — via EXISTING
-   attention rails, no parallel mechanism.** Each registration is an
-   external action requiring Joe's explicit per-action GO on the
-   specific artifact + venue. The Drafting Factory's papers channel
-   manages what is REGISTRATION-READY; if a time-sensitive ready item
-   sits unreleased more than ~2 days, the factory escalates through the
-   standard routing (system mailbox / JoeOps) and may flag it on its
-   LANE-STATE summary surface. Agents prepare and surface; Joe releases.
+5. **EXACTLY ONE Joe gate per artifact, at the external boundary only
+   (Joe, 2026-07-20: "I shouldn't need to say go on whether or not it
+   sends to the drafting factory — that makes me a redundant go at
+   multiple steps").** Freezing a packet AUTO-SEEDS the factory (no
+   approval); factory drafting, readiness, and venue prep under the
+   locked mechanism are AUTOMATIC (no approval); source repos do NOT
+   track factory release states (the factory surface is the single
+   owner of progression). Joe's one and only touchpoint is THE POSTING
+   ITSELF — the external act on the specific artifact. If a
+   time-sensitive posting-ready item sits more than ~2 days, the
+   factory escalates via standard routing (system mailbox / JoeOps)
+   and may flag its LANE-STATE surface. Agents do everything up to the
+   boundary; Joe crosses it.
 6. **Backfill:** already-frozen packets without external timestamps
    (PP1, PP2) are standing registration candidates under the same
    mechanism, each awaiting its own per-action GO.
