@@ -27,11 +27,18 @@ intake_semantics: >
   Lagrange multiplier; low-coupling limit reduces to Einstein equations
   with ZERO cosmological constant; the G-field produces an EMERGENT
   small positive cosmological constant "only dependent on the G-field".
+- Discrete precursor: arXiv:2404.08556, "Quantum entropy couples matter
+  with geometry" (J. Phys. A 57, 365002, 2024) — the same action on
+  higher-order networks/cell complexes; topological spinors on
+  nodes/edges/cells, DISCRETE Dirac operators, metric-induced-by-matter
+  via minimal substitution. This is where the Dirac-Kahler structure
+  (leg 3) is most explicit.
 - Follow-ups (unread at intake; queued): arXiv:2501.09491 (Schwarzschild
-  relative entropy + area law), arXiv:2510.22545 (thermodynamics of the
-  theory), arXiv:2510.24491 (quantum relative entropy -> semiclassical
-  Einstein equations), arXiv:2503.14048 (entropic foundations beyond
-  holography).
+  relative entropy + area law, Entropy 27, 266), arXiv:2509.23987
+  ("Inflation from entropy"), arXiv:2510.22545 (thermodynamics of the
+  theory, rev. 2026-05), arXiv:2510.24491 (quantum relative entropy ->
+  semiclassical Einstein equations; authorship unverified at intake),
+  arXiv:2503.14048 (entropic foundations beyond holography).
 - Provenance pointer: Joe-supplied TOE episode (2026-07-13), same intake
   channel as the Mannheim PT material (intake 2026-07-19).
 
