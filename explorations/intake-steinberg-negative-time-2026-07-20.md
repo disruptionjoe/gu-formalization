@@ -66,8 +66,20 @@ intake_semantics: >
 
 ## Named bounded next steps (not run at intake)
 
-- S1: the weak-value/K_S-linear type-check on F5 machinery (the one
-  potentially load-bearing item: a candidate reading technology for
-  the sector channel that evades the entropy kill).
+- S1 (ENRICHED, Joe direct chat 2026-07-20): the weak-value/K_S-linear
+  type-check on F5 machinery — upgraded to a FAMILY UNIFICATION test.
+  Joe's observation, transcript-confirmed: the Mannheim transcript
+  carries the same move ([01:29:11] "the Dirac formula was giving you a
+  negative answer. Not the theory. You were in the wrong Hilbert
+  space") and Curt names Turok/Latham Boyle as the adjacent program
+  ([02:01:53]); the repo's fork table already holds Bateman-Turok
+  hidden parity as the native ghost clearance. The family conjecture:
+  every legitimate negative/complex-observable formalism changes the
+  PAIRING, never the theory — Mannheim/Bender (PT-conjugate bra),
+  Bateman (dual-oscillator pairing), Boyle-Turok (CPT-mirror pairing),
+  Steinberg (post-selected bra: weak value <f|A|i>/<f|i>), and our
+  K_S-linear readings (k_sigma; both-modes cross-pairing). S1 now
+  tests whether these coincide or nest at matrix grade on our fixtures
+  — if yes, the sector channel inherits an EXPERIMENTAL literature.
 - S2: TaF mailbox pointer (with the transcript + primaries).
 - S3: five-lens claim-mining when queue permits.
