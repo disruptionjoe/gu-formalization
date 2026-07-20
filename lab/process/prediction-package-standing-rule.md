@@ -99,13 +99,24 @@ Registration mechanics for the prediction-paper type:
    as it goes and does not curate away the ones that die; open research
    over the appearance of infallibility. Version-DOIs are minted only
    for material supersessions (no DOI noise from minor bumps).
-5. **Per-registration release approval stays with Joe.** This section
-   standardizes HOW, never WHETHER: each registration is an external
-   action requiring Joe's explicit per-action GO on the specific
-   artifact + venue. Agents prepare; Joe releases.
+5. **Per-registration release approval stays with Joe — via EXISTING
+   attention rails, no parallel mechanism.** Each registration is an
+   external action requiring Joe's explicit per-action GO on the
+   specific artifact + venue. The Drafting Factory's papers channel
+   manages what is REGISTRATION-READY; if a time-sensitive ready item
+   sits unreleased more than ~2 days, the factory escalates through the
+   standard routing (system mailbox / JoeOps) and may flag it on its
+   LANE-STATE summary surface. Agents prepare and surface; Joe releases.
 6. **Backfill:** already-frozen packets without external timestamps
    (PP1, PP2) are standing registration candidates under the same
    mechanism, each awaiting its own per-action GO.
+7. **Title demarcation principle (Joe, 2026-07-20):** the program name
+   goes in a prediction paper's TITLE iff the prediction's derivation
+   locus sits in the program's construction; if the program is only the
+   motivation/driver, it goes in the body. Title = locus of derivation;
+   body = context of motivation. (PP3 precedent: GU in the title —
+   theta-sector realization, M^2 root-system band, S2 reads the root
+   system.)
 
 ## Current shelf (at rule adoption)
 
