@@ -1,0 +1,217 @@
+---
+title: "PP3 prediction package: the dark-energy curve family — conditional on the source action, any detected deviation from LCDM lies on a one-parameter thawing locus with frozen slope"
+status: active_research
+doc_type: prediction_package
+package_id: PP3
+version: "0.1"
+package_status: FROZEN_CONDITIONAL_CURVE_FAMILY
+frozen_at: "2026-07-20T06:48:12-05:00"
+owner_item: PRED-CANDIDATE-PACKETS
+lane_id: "2"
+directed_by: "Joe direct chat, 2026-07-20 (proposed by Joe; ten-lens council steelman run inline before freeze)"
+extends:
+  - lab/process/prediction-package-standing-rule.md
+  - explorations/de-amplitude-audit-2026-07-20.md
+  - explorations/blockbuster-p1-de-sign-covariance-2026-07-19.md
+  - tests/channel-swings/de_amplitude_audit_probe.py
+runnable:
+  - tests/channel-swings/pp3_curve_family_locus.py
+claim_status_change: none
+canon_verdict_change: none
+public_posture_change: none
+external_action: none
+---
+
+# PP3: the dark-energy curve family
+
+This freezes the packet Joe proposed in direct chat on 2026-07-20, immediately
+after the DE amplitude audit: GU does not predict the dark-energy amplitude
+(the audit's verdict stands untouched), but the theta-sector realization is a
+ONE-parameter curve family, and that family's SHAPE is GU-native. The packet
+therefore predicts where future data may land, conditional on the source
+action supplying the one value GU cannot.
+
+Distinction from the audit's no-PP3 adjudication: the audit correctly
+declined to package the AMPLITUDE (an import, retrodiction-shaped). This
+packet packages the CURVE FAMILY — a different observable with forward
+content. Both judgments stand together.
+
+## Predeclared observable and convention
+
+- Native observables: the BAO distance ratios D_M/r_d, D_H/r_d and their
+  redshift dependence, as measured by future official BAO releases beyond
+  the frozen DESI DR2 vector (arXiv:2503.14738 Table IV), plus SNe when
+  integrated.
+- Reporting convention for this packet: the CPL plane (w0, wa), with the
+  family's image computed by least-squares fit of w(a) = w0 + wa(1 - a)
+  over z in [0, 2.33] (the DESI range), at own-theta_star calibration,
+  exact-budget radiation treatment. CONVENTION PIN: the exact z = 0 value
+  obeys w0_exact + 1 = C_exact f0 with C_exact = 1.33-1.39 (canon Result-2
+  convention); the CPL-fit intercept is a distinct, steeper convention
+  (C_CPL = 1.99-2.16). The two must never be conflated; the locus table
+  below is in the CPL convention.
+- Emitter: `tests/channel-swings/pp3_curve_family_locus.py` (exit 0,
+  headline `6 [E] + 1 [F] = 7`, deterministic; never touches a likelihood).
+
+## The frozen prediction (two branches, decision rule predeclared)
+
+**Branch D (detection).** If a future release detects a deviation from
+LCDM in the DE equation of state, the measured point lies ON the PP3
+locus:
+
+1. non-phantom side: w0 + 1 > 0 and w(z) >= -1 pointwise (inherited leg,
+   shared with PP1);
+2. inside the surviving segment: w0 + 1 <= 0.054 (CPL convention; the
+   image of f0 <= 0.027, the frozen current-data ceiling);
+3. on the frozen slope: wa / (w0 + 1) in [-1.33, -1.00] (the M^2-band and
+   segment drift of the shape invariant R; at canonical M^2 = 8,
+   R = -1.00 to -1.06 across the segment).
+
+The frozen locus table (M^2 = 8, CPL over z <= 2.33, own calibration):
+
+| f0 | w0+1 | wa | wa/(w0+1) | max deviation of w+1 |
+|---|---|---|---|---|
+| 0.005 | 0.01082 | -0.01080 | -0.998 | 0.0094 |
+| 0.010 | 0.02121 | -0.02150 | -1.013 | 0.0183 |
+| 0.015 | 0.03122 | -0.03208 | -1.028 | 0.0267 |
+| 0.020 | 0.04086 | -0.04253 | -1.041 | 0.0348 |
+| 0.027 | 0.05380 | -0.05691 | -1.058 | 0.0456 |
+| 0.125 (excluded ref) | 0.18943 | -0.22702 | -1.199 | 0.1567 |
+
+Band spots (f0 = 0.020): M^2 = 3: (w0+1, wa) = (0.01013, -0.01343),
+R = -1.325; M^2 = 7: (0.03292, -0.03643), R = -1.107.
+
+The qualitative shape claim: a THAWING curve — w pinned at -1 in the deep
+past, lifting toward late times, never phantom, with the specific lift
+profile of the linear KG theta mode. In one sentence: **if the universe's
+dark energy deviates from a cosmological constant, GU's theta-sector says
+the deviation is small, thawing, non-phantom, and sits on a line through
+(w0, wa) = (-1, 0) of slope -1.0 to -1.3 — one number (the split
+fraction) away from fully specified.**
+
+**Branch N (null).** If no deviation is detected, the ceiling shrinks and
+the family remains an LCDM mimic. The packet SURVIVES but is confirmed
+only in shape, never in value; this is stated now so a future null cannot
+be spun as support. A permanent mimic is a permanently unfalsifiable
+corner — the packet's value dies asymptotically with the ceiling, and the
+honest close-out in that world is "indistinguishable from Lambda."
+
+## Condition chain (enumerated)
+
+1. The theta-sector two-component realization (frozen H44 model spec:
+   rho_L + linear KG mode, flat closure, slow-roll attractor IC) IS GU's
+   dark-energy sector — the construction-scoped premise.
+2. The source action exists and supplies the split fraction f0 (and the
+   absolute scale, via the B.5 slot per the P5 dossier Element 2). PP3
+   never claims GU computes f0; f0 is the one dial, and the source action
+   is its named supplier.
+3. M^2 lies in the admissible band {3, 7, 8} (S^3 / A_1 / BC_1; OQ2).
+4. Own-theta_star calibration convention (CMB-anchored distance closure).
+5. Frozen rows COSMO-A1 (confrontation-only bracket) and the DE-F1
+   tripwire; PP1's conditional chain for the sign leg.
+
+If any link fails, the packet reverts per its named kill or degrades to
+the construction-scoped statement of the audit.
+
+## Competitor baseline
+
+- LCDM: w = -1 exactly. Branch N is indistinguishable from it — stated
+  plainly; PP3 beats LCDM only in Branch D.
+- Free w0waCDM: two free parameters. PP3 is a ONE-parameter sub-locus of
+  that plane; the testable content is the lost dimension (the slope
+  confinement), plus the sign and segment bounds.
+
+## Kill thresholds (numeric, predeclared)
+
+- **K1 (phantom kill, shared with PP1):** a detected w0 + 1 < 0 or
+  pointwise w(z) < -1 at >= 3 sigma. Kills the sign leg and PP3 with it.
+- **K2 (slope kill — the PP3-specific one):** a detected deviation whose
+  wa/(w0+1) lies outside [-1.33 x 1.35, -1.00 x 0.65] = [-1.80, -0.65]
+  at >= 3 sigma (the frozen band widened by the predeclared 35% tolerance
+  of the discriminator in the emitter). Detection ON the non-phantom side
+  but OFF the slope kills the theta-sector family as the realization.
+- **K3 (segment kill):** a detected w0 + 1 > 0.06 (CPL) jointly with the
+  packet's own calibration convention — i.e., a deviation too LARGE for
+  the surviving segment. Since f0 <= 0.027 is the frozen ceiling from
+  data already in hand, a larger detected amplitude contradicts the
+  family's own likelihood structure: kill, not stretch.
+- **K4 (web kill):** a source-side derivation of f0 (the N4/F7 route)
+  that lands off the measured point once Branch D data exists.
+
+## Known-inputs disclosure (the retrodiction guard)
+
+- The DESI DR2 vector is CONSUMED in this packet's construction (it
+  produced the f0 <= 0.027 ceiling and the +5.7 sigma exclusion of
+  f0 = 0.125). Nothing derived from it is claimed as prediction.
+- The published state of the field at freeze time includes evolving-DE
+  hints in the same (w0+1 > 0, wa < 0) quadrant as this locus. PP3 claims
+  ZERO credit for that quadrant: it was known before the freeze. The
+  novel, risky content is the SLOPE CONFINEMENT (item 3) and the segment
+  bound (item 2) as future contours shrink — those numbers were computed
+  here, from GU-side structure, before any data that can resolve them.
+- Confrontation is against FUTURE releases only (post-DR2 BAO, SNe
+  integration, joint chains); the packet is scored the first time a
+  release can distinguish slope -1.0/-1.3 from its neighborhood.
+
+## Council record (ten lenses, inline, pre-freeze)
+
+Static five — orthodox: conditional predictions are respectable exactly
+when the conditional chain is enumerated and the locus is rigid; both
+hold; demanded the convention pin (done) and the known-inputs disclosure
+(done). Heterodox: the deeper content is inversion — Branch D data
+MEASURES f0, turning cosmology into the first instrument that reads the
+B.5 slot; keep that framing, it is what makes the packet research rather
+than PR. Commercial: cheap now, notarized, bounded downside, fat right
+tail; the commit is the asset either way. Wild frontier: the first
+confirmed LCDM deviation will be small and structured — having a
+pre-registered structured family in the drawer is how a small program
+wins that moment; pushed for the slope (the "next decimal"), not just
+the sign — adopted as K2. Philosopher: this converts an apparently
+degenerating move (amplitude is an import) into a progressive one (novel
+risky shape content); severity requires the freeze to PREDATE the
+discriminating data — hence freeze today, and the disclosure section
+exists so the severity claim survives audit.
+
+Specialist five — observational cosmologist: state the locus in CPL AND
+keep the native D_M/D_H machinery runnable (done via the emitter); the
+live risk is real — current hint central values may prefer steeper
+slopes; that is content, not a flaw. Neural-network expert: (a) this is
+a scaling-law epistemology — trust the conditional family, let the next
+run falsify it; (b) the locus is a 1-D manifold in observable space, so
+future confrontation is cheap (distance-to-manifold), and an off-locus
+residual DIRECTION does credit assignment on which chain link broke —
+record residual direction at confrontation, not just pass/fail (adopted
+into K2/K4 semantics). Mathematical physicist: all absolute-scale routes
+factor through one B.5 datum with three independent observable legs (DE
+scale, spectral cut, C-strip width ~0.1 mm) — an overdetermined web; PP3
+is one leg, and the web is the upgrade path. Statistician: two-branch
+decision rule with numeric thresholds predeclared (done); demanded the
+explicit statement that Branch N can never count as confirmation (done).
+EFT theorist: this is standard practice dressed honestly — chiPT
+predicts relations among observables with unknown LECs; f0 and lambda_0
+are GU's LECs; PP3 is the relation, and relation-level confirmation is
+the only victory claimable.
+
+## Receipts
+
+- Locus emitter: `tests/channel-swings/pp3_curve_family_locus.py`
+  (exit 0, `6 [E] + 1 [F] = 7`; convention pin machine-checked).
+- Underlying machinery + verdict: `explorations/de-amplitude-audit-2026-07-20.md`,
+  `tests/channel-swings/de_amplitude_audit_probe.py` (exit 0,
+  `14 [E] + 4 [F] = 18`): ratio-only structure, tail-robustness, the
+  f0 <= 0.027 ceiling, the +5.7 sigma canonical exclusion.
+- Sign leg: `explorations/blockbuster-p1-de-sign-covariance-2026-07-19.md`
+  (PP1, frozen 2026-07-19).
+- Slot analysis: `explorations/blockbuster-p5-instance-dossier-2026-07-19.md`
+  Element 2 (the B.5 scale slot); `explorations/source-packet-coflip-holonomy-freeze-2026-07-20.md`
+  (the adjacent frozen evidence packet).
+
+## Boundary
+
+Exploration tier under the standing axiom, R0_COND working grade;
+CONDITIONAL grade stated per the standing rule; construction-scoped (the
+theta-sector family as GU's DE realization). No claim-status, canon,
+scorecard, or public-posture movement; nothing external moves (Joe alone
+ever takes anything outside). Versioning per the standing rule: material
+changes supersede via v2 with reasons; this file is never edited beyond a
+superseded-by header.
