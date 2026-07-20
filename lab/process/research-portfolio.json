@@ -953,9 +953,12 @@
       "objective": "Test candidate meanings of the external trit (role-rotation; {world,access,standpoint}; observer clock; primitive phase; access-as-third) against fixture-grade discriminators; drive the lead hypothesis (trit indexes access-layer structure, P2C-formalized) toward a checkable cross-repo result.",
       "state": "ready",
       "seed_ref": "explorations/trit-interpretation-candidates-2026-07-20.md",
-      "lead_discriminator": "trit canonical Z/3 vs P2C access-restriction layer structure (cross-repo, pre-registered before looking per N6 discipline)",
+      "lead_discriminator": "Candidate 5 only survived (LEAD). RECOMMENDED SWING: test whether the trit's canonical UNORIENTED Z/3 is the cyclic CLOSURE of P2C's nested 3-chain {world >= access >= standpoint} (arities compatible 3=3, but P2C structure is a nesting / the trit is a cycle \u2014 the wrap is the hypothesis); directed-chain planted control must fail; pre-registered before looking. The deep open puzzle surfaced by triage: EVERY structural home for the triple is a NESTING; the trit's CYCLICITY is unexplained by any of them.",
       "opened": "2026-07-20",
-      "note": "Channel under Lane 1 (GU truth testing): the trit is the last-named component of the generation-forcing input; interpreting it is downstream of the located-not-forced closure and the Z/6 minimality result. Hourly may advance the triage-surviving candidates."
+      "note": "Channel under Lane 1 (GU truth testing): the trit is the last-named component of the generation-forcing input; interpreting it is downstream of the located-not-forced closure and the Z/6 minimality result. Hourly may advance the triage-surviving candidates.",
+      "triage_done": "2026-07-20",
+      "triage_grades": "role-rotation RIDICULOUS(no orientation); {world,access,standpoint}-vs-G RIDICULOUS(category error, law is a TWO); observer-clock DATA-BLOCKED; mundane-null RIDICULOUS(trit is irreducible third datum); access/P2C LEAD(weakened, arity-compatible only)",
+      "triage_ref": "explorations/trit-triage-2026-07-20.md"
     }
   ],
   "lane_manifest_ref": "LANES.yaml",
