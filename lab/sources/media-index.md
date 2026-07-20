@@ -84,6 +84,18 @@ These entries are worth adding once direct links, dates, and transcripts are ver
 | Triggernometry 2026 appearance | TRIGGERnometry | Description says Weinstein is known for GU, but visible outline is geopolitical rather than GU-specific. | Claim-mine transcript before treating as a GU instance. |
 | X / social-media GU threads | Eric Weinstein's X account, Portal Wiki mirrors | Useful chronology for predictions, family-structure claims, and public terminology drift. | Prefer archived or mirrored pages; use only for chronology unless exact posts are independently preserved. |
 
+## Program-Adjacent Method Sources (not GU-discussion media)
+
+Episodes that do not discuss GU but supplied intake material for the
+program's active methods. Same use discipline applies; local transcripts
+are auto-extracted third-party text (untrusted, transcription errors
+likely) — verify against primary papers before citing any claim.
+
+| source_id | date | episode | guest | local transcript | related intake | status |
+| --- | --- | --- | --- | --- | --- | --- |
+| `TOE-2026-BIANCONI-ENTROPY` | 2026-07-13 | Theories of Everything, "The Physicist Who (Unexpectedly) Derived Gravity From Entropy" | Ginestra Bianconi | `lab/sources/transcripts/toe-bianconi-gravity-from-entropy-2026-07-13.md` (~58 min, Joe-supplied link) | `explorations/intake-bianconi-entropic-gravity-2026-07-20.md` | `transcript-available` |
+| `TOE-2026-MANNHEIM-CONFORMAL` | 2026-07-06 | Theories of Everything, "The Story of Conformal Gravity" | Philip Mannheim | `lab/sources/transcripts/toe-mannheim-conformal-gravity-2026-07-06.md` (~2 h 34 min) | `explorations/mannheim-pt-intake-d1-method-2026-07-19.md` | `transcript-available` |
+
 ## Claim-Mining Template
 
 When a media item is processed, add rows like this beneath the relevant source entry or in a future `claim-ledger.md`:
