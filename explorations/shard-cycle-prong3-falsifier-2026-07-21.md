@@ -45,20 +45,29 @@ consistency** forbid anything (a non-vacuous third-person shadow) or is it empty
   kill is a category error), and it does NOT tie the hierarchy to sigma (Q3
   forbids that, and observation agrees). But it predicts only THAT an ordering
   exists, not the pattern; the one STRONG, structure-tied reading is falsified.
-- **(b) NON-VACUOUS shadow.** The consistency leaves a real alpha-even shadow: it
-  forbids two record-sharing observers from carrying mutually anti-oriented
-  records. It is falsifiable (one-bit, "a single global arrow"), matches
-  observation, and a null no-shadow model is cleanly separated from it. The
-  ABSOLUTE seed stays unfalsifiable -- correctly (it is the Godel-independent
-  external posit), only the RELATIVE consistency bites.
+- **(b) NON-VACUOUS shadow (tier 1) + F-SCAFFOLD residue (tier 2, KEEP).** The
+  RELATIVE consistency leaves a real alpha-even shadow: it forbids two
+  record-sharing observers from carrying mutually anti-oriented records --
+  falsifiable now (one-bit, "a single global arrow"), matches observation, cleanly
+  separated from a null no-shadow model. The ABSOLUTE seed is first-person-
+  invisible **by the model's own prediction** (zero inward capacity), so it is
+  **F-SCAFFOLD (KEEP), not F-VACUOUS**: that predicted invisibility holds
+  CONSISTENTLY (a coherence handle -- no alpha-even functional pins `s`, exactly as
+  the model claims) and points downstream to the tier-1 relative-consistency
+  observable and the tier-1 mass magnitude.
 
-The model is science and survives this test, at WEAK strength: it predicts the
-STRUCTURE (identical quantum numbers, an alpha-even ordering magnitude, one global
-record arrow), never the PATTERN (no mass ratios, no absolute seed).
+**Three-tier placement (recalibration).** Test (a) and the relative-consistency of
+test (b) are **DIRECTLY-FALSIFIABLE (tier 1)**; the absolute seed is **F-SCAFFOLD
+(tier 2, KEEP)** -- first-person invisibility is an EXPECTED FEATURE (the model's
+own ZK/Godelian self-reference prediction), sought and found consistent, not
+retired; **nothing here is F-VACUOUS (tier 3)**. The model is science and survives,
+at WEAK strength: it predicts the STRUCTURE (identical quantum numbers, an
+alpha-even ordering magnitude, one global record arrow), never the PATTERN (no mass
+ratios; the absolute seed is a KEEP-scaffold external posit, not a dead end).
 
 Receipt: `tests/channel-swings/prong3_falsifier_probe.py` -- deterministic,
 double-run byte-identical, numpy only, no network, foreground, **exit 0**,
-HEADLINE `8/8 [E] + 5/5 [F] (setup [T]=2 excluded) -- ALL PASS`.
+HEADLINE `9/9 [E] + 6/6 [F] (setup [T]=2 excluded) -- ALL PASS`.
 
 ---
 
@@ -256,13 +265,15 @@ the observable.
 ### 2.4 The control: shadow vs no-shadow is cleanly separated
 
 The pre-declared control for (b): a genuine shadow must forbid >= 1 configuration;
-construct one it forbids, or concede F-UNFALSIFIABLE. Done above (6 forbidden;
+construct one it forbids, or concede it forbids nothing. Done above (6 forbidden;
 witness `(s=+1, +1, -1, contact=1)`). The teeth: a **NULL model** with no
 consistency (per-observer bit unconstrained) forbids **nothing** -- empty shadow
 (probe [F]: `|forbidden_null| = 0`). The real consistency forbids strictly more
 (`6 > 0`). So the test distinguishes a model that casts a shadow from one that
-does not; the oriented-shard-cycle consistency is on the shadow-casting side. This
-is not F-UNFALSIFIABLE.
+does not; the oriented-shard-cycle consistency is on the shadow-casting side. The
+relative-consistency shadow is therefore **tier 1 (directly-falsifiable)**, not
+tier 3 (F-VACUOUS): it is emphatically not the "forbids nothing" case that would
+retire the reach-around.
 
 ### 2.5 The ABSOLUTE seed: F-SCAFFOLD (KEEP), not a defect (three-tier recalibration)
 
@@ -340,29 +351,38 @@ so it is science and survives this test -- but weakly.
   It does NOT force equal masses (category-error kill rejected) and does NOT tie
   the hierarchy to sigma (Q3-forbidden, and observation agrees). It predicts no
   ratios; the one strong, weight-tied reading is falsified.
-- **Is the shadow non-vacuous?** YES. The seed<->realization consistency forbids
-  record-contact ^ relative-orientation-disagreement -- an alpha-even
+- **Is the shadow non-vacuous?** YES (tier 1). The seed<->realization consistency
+  forbids record-contact ^ relative-orientation-disagreement -- an alpha-even
   (product-of-odds), third-person-visible constraint ("one global record arrow").
   A null no-consistency model forbids nothing; the two are cleanly separated. The
-  absolute seed stays unfalsifiable (Godel-independent posit); only the relative
-  consistency bites.
-- **How strongly falsifiable?** WEAK, on both tests. STRONG would mean predicting
-  the PATTERN (the mass ratios; a forced orientation value). The model predicts
-  only the STRUCTURE: (i) three copies identical in quantum numbers, (ii) distinguished
-  by an alpha-even magnitude rather than by sigma or by quantum numbers, (iii) a
-  single globally-consistent record arrow. Each is a real, could-have-failed
-  shadow -- a wrong tying (to sigma, to the weight labels, or a globally
-  inconsistent arrow) would kill it -- but each is one-bit/qualitative. Not
-  F-FALSIFIED; not F-UNFALSIFIABLE; genuinely, weakly, F-FALSIFIABLE-CONSISTENT.
+  absolute seed is **F-SCAFFOLD (tier 2, KEEP)**, not retired: its first-person
+  invisibility is the model's OWN prediction (zero inward capacity), it holds
+  CONSISTENTLY (no alpha-even functional pins `s` -- a coherence handle the model
+  passes), and it points downstream to the tier-1 relative shadow and the tier-1
+  mass magnitude. Nothing here is F-VACUOUS.
+- **How strongly falsifiable?** WEAK, on both directly-falsifiable tests. STRONG
+  would mean predicting the PATTERN (the mass ratios; a forced orientation value).
+  The model predicts only the STRUCTURE: (i) three copies identical in quantum
+  numbers, (ii) distinguished by an alpha-even magnitude rather than by sigma or by
+  quantum numbers, (iii) a single globally-consistent record arrow. Each is a real,
+  could-have-failed shadow -- a wrong tying (to sigma, to the weight labels, or a
+  globally inconsistent arrow) would kill it -- but each is one-bit/qualitative.
+  Not F-FALSIFIED; not F-VACUOUS; genuinely, weakly, F-FALSIFIABLE-CONSISTENT with
+  an F-SCAFFOLD (KEEP) residue at the absolute seed.
 
-The two falsifiable teeth that a future pass could push on (both currently
-un-refuted by observation, so the model survives): the generations' quantum
-numbers ARE identical (they are), and no two record-sharing subsystems carry
-mutually reversed record arrows (none observed). A quantitative extension -- any
-derivation that made the alpha-even issuance-rate magnitude *predict* the ratio
-pattern -- would upgrade test (a) from WEAK to STRONG; nothing in the frozen
-inventory supplies it, and the weight-tied attempt is already dead, so that upgrade
-is not available at current grade.
+The falsifiable teeth a future pass could push on (all currently un-refuted, so
+the model survives): (1) the generations' quantum numbers ARE identical (they are);
+(2) no two record-sharing subsystems carry mutually reversed record arrows (none
+observed); and (3) the coherence tooth -- the model's OWN prediction of first-person
+invisibility of the absolute seed must stay CONSISTENT (no third-person/alpha-even
+quantity may pin `s`); a leak would refute the model at the coherence level, and
+none is found. Teeth (1)-(2) are directly-falsifiable observables; tooth (3) is the
+mild third-person coherence handle that keeps the absolute-seed leg an F-SCAFFOLD
+rather than a retired dead end. A quantitative extension -- any derivation that made
+the alpha-even issuance-rate magnitude *predict* the ratio pattern -- would upgrade
+test (a) from WEAK to STRONG; nothing in the frozen inventory supplies it, and the
+weight-tied attempt is already dead, so that upgrade is not available at current
+grade.
 
 ---
 
@@ -370,7 +390,7 @@ is not available at current grade.
 
 Exploration tier under the standing axiom. One artifact + one foreground probe
 (`tests/channel-swings/prong3_falsifier_probe.py`, exit 0, deterministic,
-double-run byte-identical, `8/8 [E] + 5/5 [F] ALL PASS`). This document judges
+double-run byte-identical, `9/9 [E] + 6/6 [F] ALL PASS`). This document judges
 only the FALSIFIABILITY and observable-contact of the model; it re-derives none of
 the closed premises (sigma external; Q3-TWO-INDEPENDENT; B1 copy-isomorphism; the
 alpha-parity visibility typing) -- they are consumed from the cited receipts. The

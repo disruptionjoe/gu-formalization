@@ -137,3 +137,28 @@ every positive.
   consistent record arrow**" — forbids 6 of 16 configs, a real could-have-failed
   prediction. The ABSOLUTE seed stays correctly unfalsifiable (Gödel-independent posit
   = F-SCAFFOLD, kept); only the RELATIVE consistency bites.
+- **Prong 1 — `G-PARTIAL` (make-or-break: the circle-orientation slogan is FALSIFIED,
+  a deeper canonical object survives)** (`shard-cycle-prong1-geometry-2026-07-21.md`,
+  probe exit 0). π₁(F = GL(4,ℝ)/O(3,1)) = π₁(RP³) = **Z/2**, canonical, multi-route (F
+  retracts to RP³ = the timelike lines). σ IS a genuine orientation class — but of the
+  **arrow-of-time LINE BUNDLE L_time, NOT the cycle**: on the same canonical loop,
+  `w₁(TS¹)=0` (a circle is orientable; its "two orientations" are a trivial-class
+  torsor) while **σ = w₁(L_time) = 1** (Möbius; the section flips; = the actual
+  `K_S→−K_S` transport, residual 1.2e-16). So the slogan **"Z/2 = the two orientations
+  of a circle" is FALSIFIED**; the "2" is the non-orientability of the timelike-line
+  bundle / the **SPIN cover S³→RP³** (belt-trick class), NOT circle orientation. Null-
+  stratum closure UNESTABLISHED (the congruence transits the null cone mid-arc, not at
+  the join; `K_S`/`−K_S` isospectral `(+64,−64)` ⇒ realization-dependent, not forced;
+  the agent's first "avoids null" pass FAILED and was corrected — honest). Control
+  rejected with power. **NET: the circle mechanism does NOT construct; but σ = w₁(arrow-
+  of-time line bundle) survives as a real canonical object** (the frozen packet's
+  content) — deeper than circle-orientation, but no NEW spine for Prongs 2–3.
+
+## FINAL (all prongs in)
+The specific shard-cycle GEOMETRY is falsified (σ is not a circle-orientation), yet its
+content re-homes onto a firmer object: **σ = the non-orientability (w₁) of the arrow-of-
+time line bundle over F≃RP³ — the "2" is spin/belt-trick, not a loop.** Dynamics =
+analogy-not-mechanism, corrected to helix+type-quotient+null-seam, with one exact export
+(third-person ⇔ causal invariance ⇔ TI H¹=0). Weakly falsifiable and surviving (one
+global record arrow; masses compatible; strong weight-tied reading killed). Honest net:
+a coherent, weakly-falsifiable SCAFFOLD whose one hard geometric anchor is σ = w₁(L_time).
