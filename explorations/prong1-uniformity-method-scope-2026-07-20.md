@@ -30,9 +30,13 @@ external_action: none
 > negative control cannot test `delta -> 0`, and the implemented 512-block
 > product surrogate is not the exact commuting-tensor Stage-1 product (its
 > defining algebra fails by order `10^1`). The matched-delta per-object test
-> supports regularity, but the product clause remains `U-OBSTRUCTION`. See
-> `explorations/uniformity-hostile-verification-2026-07-20.md` before reusing
-> this method plan.
+> supports boundedness along one joint refinement path. A successor typing
+> audit then established that the Lawvere product is Cartesian/Krein-direct-
+> sum, so the product clause is algebraic and the coupled tensor is a separate
+> monoidal question. The wall-on-node fixed-grid limit is not an ordinary
+> operator resolvent. See
+> `explorations/product-typing-and-resolvent-pencil-swing-2026-07-20.md`
+> before reusing this method plan.
 
 The theorem gating both blockbuster faces (boundary-law Section 1c /
 sector Section 7.1): the delta -> 0 norm-resolvent boundary value of the

@@ -17,6 +17,14 @@ external_actions: none
 
 # Uniformity hostile verification
 
+> **SUCCESSOR RESOLUTION (2026-07-20):** The product fork below is now typed.
+> The Lawvere product is Cartesian and lifts to a finite Krein direct sum, so
+> its norm-resolvent bound is inherited algebraically from the factors. The
+> exact coupled tensor remains untyped at operator grade but is not a gate on
+> the shared theorem. Also, the wall-on-node scheme supports only a matched
+> joint refinement path, not a fixed-grid ordinary operator-resolvent limit.
+> See `explorations/product-typing-and-resolvent-pencil-swing-2026-07-20.md`.
+
 ## Bottom line
 
 The independent check separates two claims that the prior execution had

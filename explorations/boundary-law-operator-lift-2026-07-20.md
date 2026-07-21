@@ -26,6 +26,15 @@ external_action: none
 
 # Pushing the diagonal-boundary law from fixture grade toward operator grade
 
+> **PRODUCT-TYPING CORRECTION (2026-07-20):** The `A x A` used by the
+> Lawvere/diagonal argument is the declared categorical Cartesian product.
+> Its finite operator realization is the Krein direct sum, whose resolvent
+> norm is the maximum of the factor norms. The coupled graded tensor and its
+> `q_A+q_B` wall are a separate monoidal construction, not a new gate on this
+> theorem. The exact correction, operator contract, and remaining
+> single-carrier pencil target are in
+> `explorations/product-typing-and-resolvent-pencil-swing-2026-07-20.md`.
+
 The L1 assembly swing (56304e8) landed the diagonal-boundary law at
 FIXTURE grade: the six reading classes assemble into one category
 `C_read` of Z/2-sets over one Z/2, the three fixpoint-free senses
