@@ -49,14 +49,29 @@ another "GU doesn't supply X" is a circling-failure and must be re-scoped.
 
 ## The three binary resolving questions (the exploit — each returns a VERDICT)
 
-### Q1 (θ): discrete or continuous?  [HV-shaped — see sequencing]
-Is there a construction-grade reality / holonomy / Krein-positivity condition
-that collapses the `U(1)` phase to `Z/2` (i.e. `e^{iθ} ∈ {±1}`)?
-- **DISCRETE** → θ is bit-like, and is a candidate to *be* σ (unifies two objects).
-- **CONTINUOUS** → θ is a genuine free parameter; GU is underdetermined at the
-  boundary and θ is NOT the sector bit. (Honest, publishable limit.)
-- Control: a planted "positivity forces θ = π/7" must be rejected; only `Z/2`
-  (or another honest finite subgroup) may count as a discretization.
+### Q1 (θ): does θ even EXIST, and if so discrete or continuous?  [RE-SHAPED by HV 2026-07-21]
+HV of Prong B (HV-WEAKEN) established that the continuous `U(1)`/`T^2` phase was
+a **compact-collar artifact**. On the true noncompact fiber θ exists ONLY in the
+limit-circle horn; the **default** (non-degenerate Dirac end) is limit-point →
+**unique domain, no θ at all**. So Q1 is now two-staged, and the primary stage is
+UPSTREAM of the phase:
+- **Q1a (the real question now): the fiber-end limit-point/limit-circle
+  classification.** Does GU's own fiber-end geometry — in particular whether the
+  wall / principal coefficient `B = -iK_u G` DEGENERATES at the noncompact fiber
+  ends (`C_0 → 0`) — put the operator in the limit-point case (→ unique domain,
+  selector DERIVABLE, a B-FORCED-like win) or the limit-circle case (→ boundary
+  freedom survives, θ is real)? This is potentially DETERMINABLE from GU
+  structure (the wall is something GU specifies), unlike a pure free parameter —
+  which is why it is the worthy next swing, not another source-silence lap.
+- **Q1b (only in the limit-circle horn):** is there a reality / holonomy /
+  Krein-positivity condition that collapses the surviving `U(1)` phase to `Z/2`
+  (`e^{iθ} ∈ {±1}`)? DISCRETE → θ bit-like, candidate to *be* σ. CONTINUOUS → a
+  genuine free parameter. Control: a planted "positivity forces θ = π/7" must be
+  rejected; only `Z/2` (or an honest finite subgroup) counts as discretization.
+- Net: the correctly-typed θ-datum is the **D2 fiber-end classification**; the
+  phase selector is downstream and conditional. Either horn still requires an
+  imported datum (the classification itself is source-silent), so σ/θ externality
+  stands — but WHICH datum is now precisely typed.
 
 ### Q2 (σ): forced, free, or standpoint-supplied?
 Given externality, is the `Z/2`:

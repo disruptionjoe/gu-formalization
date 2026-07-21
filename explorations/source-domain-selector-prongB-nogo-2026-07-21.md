@@ -22,6 +22,29 @@ kill_conditions_declared_before_computation: true
 
 # Prong B no-go: the domain selector is a positive-dimensional moduli
 
+> **CORRECTION BANNER (2026-07-21, hostile verification — original preserved
+> below, unedited):** The headline `B-MULTIPLICITY` is **DEMOTED to
+> collar-conditional**. Hostile verify
+> (`source-domain-selector-prongB-hostile-verify-2026-07-21.md`, HV-WEAKEN,
+> probe EXIT 0) found the whole computation lives on a **compact collar**, where
+> a first-order `d×d` system has deficiency `(d,d)` and full `U(d)`
+> **automatically** — the multiplicity is manufactured by compactness *before
+> any GU structure is used*. On the true **noncompact** fiber the moduli
+> dimension is set by the **limit-point / limit-circle classification at the
+> fiber ends**, which is a function of the end-asymptotics of `B, W~` — i.e.
+> exactly the `D2` datum Prong A logged `SOURCE-SILENT`. The **default** for a
+> non-degenerate Dirac-type end is **limit-point → essentially self-adjoint →
+> UNIQUE domain** (no `θ`, no moduli); multiplicity requires the coefficient to
+> **degenerate** at the end. So the specific claims below — `T^2`, dim 2, the
+> `U(1)` floor, the "continuum of distinct spectra" — **do not transfer**, and
+> the modality "*provably* external / structurally impossible to single out" is
+> **false in the limit-point horn**. WHAT SURVIVES: an external datum must still
+> be imported *either way*, because the LP/LC classification (`D2`) that decides
+> whether any freedom exists is itself source-silent — but the correctly-typed
+> missing datum is the **fiber-end limit-classification (D2)**, UPSTREAM of the
+> boundary phase, and the phase selector is needed only in the limit-circle
+> horn. The `sigma/theta/tau` decision tree's Q1 is re-shaped accordingly.
+
 Adversarial truth-test, not advocacy. Prong A returned **S-SILENT-OPEN**: the
 Weinstein primary corpus specifies no construction-grade, `z,δ`-independent
 boundary/domain selector. Prong B asks the correctly-framed structural question
