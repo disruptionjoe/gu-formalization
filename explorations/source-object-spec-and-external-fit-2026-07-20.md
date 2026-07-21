@@ -28,6 +28,17 @@ sources:
 
 # Source-object characterization + external-program fit
 
+> **I6 CORRECTION (2026-07-20):** Hostile verification after this fit
+> established that `k_sigma` is not a normalized weak value. With the
+> natural `f = K_S i` choice, both the per-column and trace denominators
+> vanish identically. Retain I6 only as an **unnormalized `K_S`-linear,
+> conditional/post-selection-shaped pairing channel**; do not claim a
+> normalized weak value or inheritance of experimental weak-value evidence.
+> This correction narrows the requested source-object type but does not
+> change the fit table's conclusion that none of the intaken programs
+> supplies the load-bearing generation label or reading object. See
+> `explorations/verify-s1-pairing-2026-07-20.md`.
+
 The whole 2026-07-20 program converged on ONE external object. This swing does two
 things and nothing else: (1) assembles the COMPLETE spec sheet -- every typed item an
 external source object must supply, cross-referenced to its receipt; (2) runs the

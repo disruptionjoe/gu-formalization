@@ -1,5 +1,5 @@
 ---
-title: "The operator-grade end family, built and answered on one construction (NRES = 64/128/256 refinement ladder, K-self-adjointness exact): Q-A fired A3-by-the-letter -- the uniform-norm boundary value of M_op (q_op + i delta)^{-1/2} DIVERGES at the wall (ceiling ~ N^1.35, the named mode) while the NORM-RESOLVENT mode is delta-Cauchy at every resolution with rate ~ delta^1.0 and deck-oddness is machine-EXACT by pointwise algebra (A2 structurally excluded for this lift; N-uniformity of the resolvent mode left open); Q-B fired B-GAUGE -- J_op and parity transfer lift exactly, the only separator is Im k_op = the J_op-image, the classification stays Z/2; Q-C fired C-BLIND STRENGTHENED TWICE -- the V-crack opens (honest Clifford-even dressing, forced T-odd by the J-real generator census) and blindness survives via the ghost-Kramers conjugation S_VJ = (sigma2 x omega J_quat) o conj, and beyond ALL named symmetries via an exact spectral-pairing identity of graded scattering (V was sufficient, never necessary); no PP4 candidate"
+title: "Operator-grade end family (corrected): the frozen Clifford families exhibit deep blindness, but the claimed construction-wide spectral-pairing identity is retracted; the extracted sigma was post hoc and a same-scaffold counterexample breaks trace-zero and +/- pairing"
 channel: big swing (Joe direct chat, 2026-07-20: summit wave, operator-grade end family)
 directed_by: "Joe direct chat, 2026-07-20 (summit wave: operator-grade end family)"
 claim: none
@@ -7,11 +7,13 @@ canon: none
 posture: none
 status: COMPLETE. Section 0 (outcome branches) was written to this file
   BEFORE any computation ran and is unedited; results sections were
-  appended as stages completed. Probes ALL PASS, exit 0 (9 + 4 + 15
-  checks).
+  appended as stages completed. Original probes pass, but the successor
+  counterexample narrows Q-C to the sampled Clifford families and retracts
+  the construction-wide identity language.
 probes:
   - tests/channel-swings/operator_grade_end_probe.py   (Q-A, Q-B)
   - tests/channel-swings/operator_grade_face_probe.py  (Q-C, if split is cleaner)
+  - tests/channel-swings/operator_grade_sigma_counterexample_probe.py
 consumes:
   - explorations/sector-relative-section-theory-2026-07-20.md (Section 7 gap spec)
   - explorations/m1-third-reading-2026-07-20.md (universal-null, orientation gauge)
@@ -21,6 +23,22 @@ consumes:
 ---
 
 # Operator-grade end family: pre-declared outcome conditions
+
+> **Q-C CORRECTION (2026-07-20):** The involution `sig` reported in Stage
+> 3b is an a posteriori eigenpair-reversal operator, not a named or natural
+> channel-algebra symmetry. The code first diagonalizes $Q$, observes the
+> paired spectrum, and then defines `sig`; its conditional anticommutation
+> therefore adds no cause. A deterministic source-independent probe using
+> the same doubled Krein-current/channel scaffold preserves
+> $A^\dagger X+XA=0$, balanced unit flux grading, and the scattering solve,
+> while producing nonzero $\operatorname{Tr}(t^\dagger E_Rt)$ and unpaired
+> $Q$. Hence trace-zero and $\pm$ pairing are **not** identities of graded
+> scattering in general. The frozen 128-dimensional Clifford samples still
+> exhibit the reported zeros; an additional restricted-family symmetry may
+> exist, but it remains unnamed and underdefined. Construction-wide
+> "deep-blindness identity" language is retracted. First-person graded or
+> reference preparations can read the already nonzero channel values, but
+> they supply or consume the orientation datum.
 
 Written BEFORE computing (Stage 0). Every operator-grade claim below the
 line must carry a convergence column (value at each N in {64,128,256} +

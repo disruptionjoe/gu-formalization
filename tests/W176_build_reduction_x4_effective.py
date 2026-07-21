@@ -31,8 +31,9 @@ WHAT THE TEST ESTABLISHES (deterministic, numpy/sympy; exit 0 on success)
 POSITIVE CONTROLS (mandated anchors, reduction-SUFFICES side):
   PC1  W130/W154 induced action:  F(R) = 2 + R/3 - R^2/9  =>  a0=2, a1=1/3 (Einstein), a2=-1/9
        (tachyon); native channels c_R = -4/9, c_W = +2.
-  PC2  W168 DeWitt (6,4): the conformal/full-trace mode norm G(eta,eta) = 4 - 16*lambda = -12 < 0 at
-       the gimmel lambda=1 => Krein-NEGATIVE; the spatial-TT graviton block Sym^2_0(R^3) = (5,0)
+  PC2  W168 DeWitt (6,4): the conformal/full-trace mode norm G(eta,eta) = 4 - 16*lambda = -4 < 0 at
+       the source-native gimmel lambda=1/2 => Krein-NEGATIVE; the spatial-TT graviton block
+       Sym^2_0(R^3) = (5,0)
        Krein-POSITIVE => relative OPPOSITE => c_R flips to +4/9 (healthy).  NC: lambda=0 gives the
        trace-form (7,3), conformal mode POSITIVE = SAME as graviton => tachyon physical -- so OPPOSITE
        rides GU's genuine fiber flip (lambda>1/4 <=> (6,4)), not a convention.
@@ -190,15 +191,15 @@ log("\n[PC2] W168 DeWitt (6,4) fiber signature -> the Krein grading that heals t
 lam = sp.symbols('lambda', real=True)
 # DeWitt vertical metric on the full-trace/conformal direction eta_{ab}:  G(eta,eta) = 4 - 16*lambda
 G_conf = 4 - 16 * lam
-check("PC2.1  conformal-mode norm G(eta,eta) = 4 - 16*lambda; at gimmel lambda=1 it is -12 < 0 "
+check("PC2.1  conformal-mode norm G(eta,eta) = 4 - 16*lambda; at source-native gimmel lambda=1/2 it is -4 < 0 "
       "=> record-count/conformal mode is Krein-NEGATIVE",
-      G_conf.subs(lam, 1) == -12 and G_conf.subs(lam, 1) < 0,
-      f"G(eta,eta)|_lambda=1 = {G_conf.subs(lam, 1)}")
+      G_conf.subs(lam, sp.Rational(1, 2)) == -4 and G_conf.subs(lam, sp.Rational(1, 2)) < 0,
+      f"G(eta,eta)|_lambda=1/2 = {G_conf.subs(lam, sp.Rational(1, 2))}")
 # the (6,4) threshold is exactly lambda > 1/4:
 thr = sp.solve(sp.Eq(G_conf, 0), lam)[0]
 check("PC2.2  conformal mode flips negative iff lambda > 1/4 (= the (6,4) condition); the gimmel "
-      "value lambda=1 is on the (6,4) side => (6,4) fiber, not a convention",
-      thr == sp.Rational(1, 4) and (1 > thr), f"threshold lambda = {thr}")
+      "value lambda=1/2 is on the (6,4) side => (6,4) fiber, not a convention",
+      thr == sp.Rational(1, 4) and (sp.Rational(1, 2) > thr), f"threshold lambda = {thr}")
 # graviton block Sym^2_0(R^3): spatial trace-free 3x3 symmetric, dim 5, Euclidean => (5,0) POSITIVE
 check("PC2.3  geometric graviton block Sym^2_0(R^3) has dim 5, Krein-POSITIVE (5,0) "
       "(spatial transverse-traceless propagating polarizations)",

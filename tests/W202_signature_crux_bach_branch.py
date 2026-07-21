@@ -58,7 +58,7 @@ def sym_basis():
     return basis, labels
 
 
-def dewitt_norm(eta_diag, S, lam=1):
+def dewitt_norm(eta_diag, S, lam=sp.Rational(1, 2)):
     """DeWitt/gimmel vertical metric norm-square of a symmetric matrix S.
     G_lambda(S,S) = tr(eta^-1 S eta^-1 S) - lambda (tr_eta S)^2 ."""
     eta = sp.diag(*eta_diag)
@@ -68,7 +68,7 @@ def dewitt_norm(eta_diag, S, lam=1):
     return sp.simplify(term1 - lam * trS * trS)
 
 
-def dewitt_gram(eta_diag, lam=1):
+def dewitt_gram(eta_diag, lam=sp.Rational(1, 2)):
     eta = sp.diag(*eta_diag)
     etai = eta.inv()
     basis, labels = sym_basis()
@@ -119,10 +119,10 @@ check("PC2 closed form d=+2 -> p-q=4 (9,5)/H-class", pminusq(2) == 4,
 check("PC2 closed form d=-2 -> p-q=0 (7,7)/R-class", pminusq(-2) == 0,
       "real, J^2=+1, C-07 wall DISSOLVES")
 
-# PC3: W168 conformal-mode flip on the gimmel (6,4) fiber at lambda=1.
-#   G(eta,eta) = 4 - 16*lambda = -12 < 0  (conformal / full-trace Krein-NEGATIVE).
-Gcc_plus = dewitt_norm(ETA_PLUS, sp.diag(*ETA_PLUS), lam=1)
-check("PC3 W168 conformal G(eta,eta) = -12 < 0 on (9,5)", Gcc_plus == -12,
+# PC3: W168 conformal-mode flip on the gimmel (6,4) fiber at source-native lambda=1/2.
+#   G(eta,eta) = 4 - 16*lambda = -4 < 0  (conformal / full-trace Krein-NEGATIVE).
+Gcc_plus = dewitt_norm(ETA_PLUS, sp.diag(*ETA_PLUS), lam=sp.Rational(1, 2))
+check("PC3 W168 conformal G(eta,eta) = -4 < 0 on (9,5)", Gcc_plus == -4,
       "record-count/conformal mode Krein-NEGATIVE (reproduces W168 K2b)")
 
 
@@ -133,8 +133,8 @@ print("\n--- BLOCK A: base-sign is the sole H/R lever ---")
 
 # A1: the DeWitt/Frobenius fiber form is QUADRATIC in eta^-1, so eta -> -eta
 # leaves it invariant. Prove by direct symbolic equality of the whole Gram matrix.
-G_plus = dewitt_gram(ETA_PLUS, lam=1)
-G_minus = dewitt_gram(ETA_MINUS, lam=1)
+G_plus = dewitt_gram(ETA_PLUS, lam=sp.Rational(1, 2))
+G_minus = dewitt_gram(ETA_MINUS, lam=sp.Rational(1, 2))
 check("A1 DeWitt fiber Gram matrix identical for eta and -eta",
       sp.simplify(G_plus - G_minus) == sp.zeros(10, 10),
       "G_lambda invariant under eta->-eta (quadratic in eta^-1)")

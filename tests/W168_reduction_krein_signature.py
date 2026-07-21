@@ -180,19 +180,19 @@ check("K1: pure trace-form <S,T>_0 on Sym^2(R^{3,1}) has signature (7,3) "
       sig0 == (7, 3, 0), f"signature = {sig0}")
 
 # K2 -- the DeWitt term flips EXACTLY the full-trace/conformal direction -> (6,4).
-#   For any lambda > 1/4 the full-trace norm 4 - 16 lambda < 0; the gimmel/GR value
-#   lambda = 1 is used (W131 verified (6,4)).  Show (6,4) and that only ONE direction flips.
-lam = sp.Integer(1)
+#   For any lambda > 1/4 the full-trace norm 4 - 16 lambda < 0; the source-native gimmel value
+#   lambda = 1/2 is used (W131 verified (6,4)).  Show (6,4) and that only ONE direction flips.
+lam = sp.Rational(1, 2)
 Gd = gram(lambda S, T: dewitt(S, T, lam))
 sigd = signature(Gd)
-check("K2: the DeWitt/gimmel fiber metric G_{lambda=1} has signature (6,4) (W131-verified): "
+check("K2: the DeWitt/gimmel fiber metric G_{lambda=1/2} has signature (6,4) (W131-verified): "
       "the trace term flips EXACTLY ONE direction (the full-trace/conformal), (7,3) -> (6,4)",
       sigd == (6, 4, 0), f"signature = {sigd}")
 eta_tensor = sp.Matrix(eta)  # the full-trace direction is eta_{ab} itself
 ftrace_norm = dewitt(eta_tensor, eta_tensor, lam)
-check("K2b: the conformal/full-trace direction eta_{ab}: G(eta,eta) = 4 - 16*lambda = -12 < 0 at "
-      "lambda=1 -- the record-count/conformal mode is KREIN-NEGATIVE",
-      ftrace_norm == -12 and ftrace_norm < 0, f"G(eta,eta) = {ftrace_norm}")
+check("K2b: the conformal/full-trace direction eta_{ab}: G(eta,eta) = 4 - 16*lambda = -4 < 0 at "
+      "lambda=1/2 -- the record-count/conformal mode is KREIN-NEGATIVE",
+      ftrace_norm == -4 and ftrace_norm < 0, f"G(eta,eta) = {ftrace_norm}")
 
 # K3 -- the per-block Krein signs (the isotypic Krein signature, EXHIBITED).
 #   spatial-TT graviton block Sym^2_0(R^3): spatial symmetric traceless (i,j in 1,2,3).

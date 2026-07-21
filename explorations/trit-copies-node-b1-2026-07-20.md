@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration
 doc_type: results_of_preregistered_node
-status: "Execution of pre-registered Node B1 (LABEL-CAMP half of the copies/simplex fork). OUTCOME: B1-HOLDS. The three generation-sectors (SU(2)+ weight-spaces of the verified 192-dim self-dual triplet) are STRUCTURALLY ISOMORPHIC copies: each a 64-dim Krein module of identical complete invariants (dim 64, Krein signature (+32,-32), quaternionic H-dim 32), mutually K-orthogonal, pairwise Krein-isomorphic with THREE explicit isomorphisms exhibited (SU(2)+ ladder module-iso; frozen J_quat antilinear Krein-iso of the outer pair; constructed exact Krein isometries T with T^# K_j T = K_i for all pairs). The only distinction is the external S_3/weight label. Control (three non-isomorphic blocks) fails the same tester 0/3; positive control passes. Fork fires toward F-COPIES, pending B2."
+status: "Execution of pre-registered Node B1. CORRECTED OUTCOME: B1-HOLDS only for equal Cartan weight-space geometry (same dimension/signature and pairwise vector/Krein-space isometries). The three W_m are weights of one nontrivial SU(2)+ spin-1 module, not three invariant family modules; the generation-copy interpretation and 'external S3 is the only distinction' conclusion are retracted."
 created: 2026-07-20
 directed_by: "Joe direct chat, 2026-07-20 (pre-registered Node B1: identical-copies test)"
 claim_status_change: none
@@ -9,7 +9,7 @@ canon_verdict_change: none
 public_posture_change: none
 preregistration: "explorations/prereg-trit-symmetry-and-fork-2026-07-20.md (commit cafcbc7), Node B1; executed as bound, no mid-flight scope change"
 probe: tests/channel-swings/trit_copies_node_b1_probe.py
-grade: "COMPUTED (float64 with exact structural anchors; several certificates land at literal 0.0; 22 checks = 7 [T] + 10 [E] + 5 [F], ALL PASS, exit 0, 21 s, deterministic seeded). Load-bearing content is structural: the three sectors' equal Krein signatures + the exhibited isomorphisms are the whole verdict. No claim/canon/verdict/posture movement."
+grade: "COMPUTED for the Cartan weight-space facts (float64 with exact structural anchors; 22 checks all pass). REPRESENTATION-TYPING CORRECTION: equal weight spaces and ladder bijections do not make three SU(2)+ submodules or physical family copies. No claim/canon/verdict/posture movement."
 related:
   - explorations/prereg-trit-symmetry-and-fork-2026-07-20.md
   - explorations/hardening-h3-triplet-lift-2026-07-19.md
@@ -21,6 +21,26 @@ related:
 ---
 
 # Node B1: the identical-copies test (executed)
+
+> **REPRESENTATION-TYPING CORRECTION (2026-07-20):** The numerical facts
+> below remain valid after choosing the $SU(2)_+$ Cartan: the three weight
+> spaces have dimension $64$, identical Krein signatures, ladder
+> bijections, and pairwise Krein-space isometries. They are **not**, however,
+> three $SU(2)_+$-submodules or three equivariant family copies. They are
+> the $m=-2,0,+2$ weight spaces of one nontrivial spin-1 representation;
+> the ladder is an $SU(2)_+$ action between weights, not an intertwiner
+> between invariant modules. At full
+> $\operatorname{Spin}(3,1)\times\operatorname{Spin}(6,4)$ symmetry the
+> $192$-dimensional carrier is a tangential triplet, whereas three
+> conventional family copies carry a trivial three-dimensional multiplicity
+> space, so their characters differ. Consequently the B1 receipt proves
+> equal **weight-space geometry after a frame/Cartan choice**, not that the
+> weights are three physical generations or that only an external $S_3$
+> distinguishes them. A successor frozen-fiber audit also finds that the
+> first two author source slots have zero full-symmetry intertwiner into this
+> triplet; only $\ker\Gamma$ reaches it. The `B1-HOLDS` label below is
+> therefore retained only for its predeclared equal-weight-space test, while
+> the generation-sector interpretation is retracted.
 
 ## 0. What was bound, and what fired
 

@@ -64,7 +64,7 @@ Structure (positive controls first):
   [PC]   PC1 reproduce W203/Schur on the so(9,5) VECTOR rep: invariant symmetric forms are 1-dim,
          generator ~ eta, signature (9,5) INDEFINITE (the ungraded metric, forced).
          PC2 the (6,4)-fiber record-count/conformal mode is LOCALLY Krein-negative (port W168 mini:
-         DeWitt conformal norm 4-16*lambda<0 at lambda=1).
+         DeWitt conformal norm 4-16*lambda<0 at source-native lambda=1/2).
          PC3 the subobject-classifier machinery: Sub(1)=frame of opens is a Heyting algebra; the
          HIERARCHICAL observer site is NON-Boolean (intermediate open without complement), while a
          DISCRETE site is Boolean -- the machinery correctly separates the two.
@@ -198,12 +198,12 @@ def dewitt(S, T, lam):
 
 
 conf = g.copy()                                   # the full-trace / conformal (record-count) direction
-norm_conf_lam1 = dewitt(conf, conf, 1.0)          # = 4 - 16*1 = -12 at the gimmel/GR value lambda=1
-check_val("PC2a conformal/record-count mode DeWitt norm at lambda=1 (= 4-16*lambda)", norm_conf_lam1, -12.0)
-check("PC2b record-count mode LOCALLY Krein-NEGATIVE at lambda=1 (W168)", norm_conf_lam1 < 0)
+norm_conf_lam_half = dewitt(conf, conf, 0.5)      # = 4 - 16*(1/2) = -4 at source-native lambda=1/2
+check_val("PC2a conformal/record-count mode DeWitt norm at lambda=1/2 (= 4-16*lambda)", norm_conf_lam_half, -4.0)
+check("PC2b record-count mode LOCALLY Krein-NEGATIVE at lambda=1/2 (W168)", norm_conf_lam_half < 0)
 # geometric graviton (spatial trace-free) sample, Krein-positive:
 grav = np.diag([0.0, 1.0, 1.0, -2.0])             # trace-free in spatial block
-norm_grav = dewitt(grav, grav, 1.0)
+norm_grav = dewitt(grav, grav, 0.5)
 check("PC2c geometric graviton mode LOCALLY Krein-POSITIVE (OPPOSITE to record-count, W168)", norm_grav > 0)
 
 # ---- PC3: the subobject-classifier machinery on a poset site (Alexandrov space X = opens = up-sets).

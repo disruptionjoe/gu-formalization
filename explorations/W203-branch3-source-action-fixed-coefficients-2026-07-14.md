@@ -123,7 +123,7 @@ target_fitted`):
 | kernel `M` (shape) | **geometry_forced** | Schur / equivariance -> `M ~ eta` uniquely (`KER1/KER3`) |
 | source coupling `<theta, J>` | **geometry_forced** | the C3 identity `J = delta S_D/delta A` (`PC3`, W180) |
 | potential `V(theta)` | **absent** | `theta` is Gaussian; no self-interaction coefficient exists |
-| overall scale `kappa` (`= c_theta^{-1}` up to `M`'s scale) | **normalization** | `= eta-from-gimmel-area` (W151); SIGN = the Krein datum (Section 4); MAGNITUDE undetermined |
+| overall scale `kappa` (`= c_theta^{-1}` up to `M`'s scale) | **normalization** | `= eta-from-gimmel-area` (W151); any gimmel-volume derivation uses native `lambda_GU=1/2` ([normalization ledger](gimmel-dewitt-normalization-ledger-2026-07-20.md)); SIGN = the Krein datum (Section 4); MAGNITUDE undetermined |
 | gradient stiffness `Z_U` (`\|D_A U\|^2`) | **NOT BUILT** | the nonlocal completion; W180/W203 are ultralocal (Section 5) |
 
 The honest headline: **all RELATIVE coefficients are forced; exactly ONE coefficient is undetermined

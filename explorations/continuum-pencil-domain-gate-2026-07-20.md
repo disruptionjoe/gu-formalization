@@ -16,6 +16,31 @@ external_actions: none
 
 # Continuum pencil domain gate
 
+> **SUCCESSOR CORRECTION (2026-07-20):** The Dirichlet cokernel result below
+> is exact for the stated first-order pencil, but the native variable-
+> (K_u) differential expression needs an earlier typing correction. With
+> (J=K_{\rm DBL}), (G=G_{\rm col}), and
+> (A=K_u(-iG\partial_s+V)), the principal Krein-symmetry identity holds
+> while the lower-order identity has the interior defect
+> (iK_u'GJ). No endpoint condition can repair it. The formally
+> (J)-symmetric expression is
+>
+> \[
+>   \widetilde A=A+\tfrac12 B'
+>   =K_uD_{\rm op}-\frac{i}{2}K_u'G,
+>   \qquad B=-iK_uG.
+> \]
+>
+> Therefore all boundary-domain candidates in this note are conditional on
+> adopting that correction (or another explicitly proved native
+> realization). Deck compatibility is a family condition
+> (Lambda_{t+1}=(U_h\oplus U_h)\Lambda_t), not by itself the endpoint
+> equation (u(b)=U_hu(a)). Finally, the compact collar remains a surrogate
+> for the source's noncompact fiber. If the correction is inadmissible, the
+> stronger outcome is `DOMAIN-OBSTRUCTION-NATIVE`; if it is admitted, the
+> Dirichlet result and maximal-isotropic boundary analysis below apply to
+> (widetilde A-zC_0).
+
 ## Bottom line
 
 The continuum theorem cannot use the two-ended Dirichlet domain named by the
