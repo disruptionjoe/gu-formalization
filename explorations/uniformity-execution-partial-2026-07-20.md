@@ -12,6 +12,14 @@ public_posture_change: none
 
 # Uniformity execution — partial results and handoff
 
+> **HOSTILE-VERIFICATION UPDATE (2026-07-20):** This file's final
+> `U-OBSTRUCTION` ceiling was correct, but the follow-up found a second issue:
+> the numerical product carrier is not the exact Stage-1 product and fails
+> `M_2^2=q_2 I` by order `10^1`. The corrected matched-delta single-carrier
+> test is numerically regular and calibrated by an analytic Jordan control;
+> the shared product theorem remains obstructed. Current receipt:
+> `explorations/uniformity-hostile-verification-2026-07-20.md`.
+
 Executing the pre-scoped Prong-1 plan
 (explorations/prong1-uniformity-method-scope-2026-07-20.md, literature basis
 prong2-krein-resolvent-literature-2026-07-20.md). Probes:

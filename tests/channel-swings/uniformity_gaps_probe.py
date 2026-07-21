@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""UNIFORMITY GAPS (2026-07-20) -- fills only the pieces the main execution
+"""UNIFORMITY GAPS (2026-07-20) -- historical reproduction probe.
+
+SUPERSEDED FOR ADJUDICATION by uniformity_hostile_verify_probe.py. This file
+reproduces the committed fixed-delta U-OBSTRUCTION result, but its exponent-one
+negative control is not singular at fixed delta and its cheap product carrier
+is not the exact commuting-tensor product constructed in Stage 1.
+
+Fills only the pieces the main execution
 probe's harness-killed runs did not reach: the PRODUCT slope (2nd point) and
 the two CONTROLS. Reuses uniformity_execution_probe machinery verbatim.
 Already measured (committed logs): gapped tau=-0.34, crossing tau=-0.24 (2pt)

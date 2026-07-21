@@ -26,6 +26,14 @@ external_action: none
 
 # Prong 1: the method to establish-or-refute product-uniformity
 
+> **EXECUTION CORRECTION (2026-07-20):** The fixed-delta exponent-one
+> negative control cannot test `delta -> 0`, and the implemented 512-block
+> product surrogate is not the exact commuting-tensor Stage-1 product (its
+> defining algebra fails by order `10^1`). The matched-delta per-object test
+> supports regularity, but the product clause remains `U-OBSTRUCTION`. See
+> `explorations/uniformity-hostile-verification-2026-07-20.md` before reusing
+> this method plan.
+
 The theorem gating both blockbuster faces (boundary-law Section 1c /
 sector Section 7.1): the delta -> 0 norm-resolvent boundary value of the
 section operator `N_delta,op = M_op (q_op + i delta)^{-1/2}` exists on a
