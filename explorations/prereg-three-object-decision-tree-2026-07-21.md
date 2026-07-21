@@ -94,7 +94,30 @@ Given externality, is the `Z/2`:
   with a hard circularity check (a standpoint that only *reads* the bit it was
   handed is not *supplying* it).
 
-### Q3 (σ vs τ): one anchor or two?  — RESOLVED 2026-07-21: **Q3-TWO-INDEPENDENT**
+> **VERDICT: Q2-FREE** (`decision-tree-Q2-sector-bit-forced-free-supplied-2026-07-21.md`,
+> probe `5[E]+1[F]`, exit 0). σ is a **genuine free Z/2 coin**; the DE sign is a
+> free (discrete, exactly-located, record-welded) parameter GU's third-person
+> geometry does not fix.
+> - **FORCED fails.** W211 Gödel-independence is *confirmed*, not overturned — every
+>   notion of "compute inside GU" leaves the bit free. W235 (positivity) forces only
+>   that the Z/2 is a genuine RECORD (not gauge) and fixes `C` *given* `B`, never `B`
+>   itself → it *reinforces* FREE. Unitarity is σ-blind (both sectors positive-definite).
+> - **The record-access vs sector-blindness tension resolves as DIFFERENT access:**
+>   sector-*reading* is an α-even **map** (blindness lemma forbids it — the first
+>   person can't READ σ); record-arrow-*possession* is an α-odd **section** (a lift in
+>   the Z/2 torsor, not a map) — so the first person can be *dressed with* σ. Read vs
+>   select are the two legs of one Lawvere parent; no contradiction. This is the ONLY
+>   door STANDPOINT-SUPPLIED could enter.
+> - **Circularity check FAILS (both horns).** Horn 1 (standpoint defined *with* the
+>   arrow): the co-flip weld makes "having the arrow" = "having-already-chosen σ" →
+>   presupposes σ → **reads**. Horn 2 (standpoint defined *without* the arrow): it's
+>   the α-even self-encoding structure, which cannot mint an α-odd value → **blind**.
+>   No middle exists. **The first person HOSTS σ and FORCES its externality
+>   (inside→outside) but does NOT supply its value** — "the source of one datum the
+>   inside provably cannot *mint*," which is sourcing-the-need, not supplying-the-value.
+> - HV seam (flagged): exhaustiveness rests on there being no *unwelded* α-odd
+>   first-person feature; the sources exhibit none, but that is the attack point →
+>   defense-attorney pass warranted (a kill gets a defense attorney).
 Does a single external `Z/6 = Z/2 × Z/3` fix BOTH σ and τ, or are they
 independent data? This is the "one input forces the sector AND the three
 generations" test. HV-independent — ran in parallel.
