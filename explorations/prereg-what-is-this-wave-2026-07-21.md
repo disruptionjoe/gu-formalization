@@ -69,3 +69,46 @@ forced, keep any posit labeled, ground in the banked facts.
 After the wave, cross-read the four characterizations for CONVERGENCE (what do
 independent facets agree "this is"?) and for the single most productive next-step
 (likely a handle on the base-uniting lemma). Not a vote — a convergence read.
+
+## CONVERGENCE (all 4 swings in) — WHAT THIS IS
+
+**This is the SPIN DOUBLE COVER `S³ = Sp(1) → RP³ ≃ F`** (F = the fiber of spacetime
+metrics). All four independent facets land on this one object:
+
+- **THE BIT (Swing 2):** σ = w₁(L_time) = the deck class = the belt-trick twist of the
+  arrow-of-time bundle over RP³; it TRIVIALIZES on the S³ cover (H¹(S³)=0). [EXACT]
+- **THE LEMMA (Swing 1):** O-b = the operator-grade realization of that SAME spin cover
+  (F≃RP³, S³=Sp(1) = the kernel of `1→Sp(1)→G→Z/2→1`, deck = σ = w₁; probe defect 1e-15).
+  Product-uniformity is FREE; the burden reduces to a single-carrier LP/LC deficiency
+  index. [EXACT]
+- **THE OUTSIDE (Swing 3):** the boundary is EXACTLY the characteristic variety `{q=0}`
+  of the (9,5) Dirac symbol (the operator's lightcone; `det c(ξ)=0 ⟺ q=0`, probe 400/400);
+  "outside" = the timelike interior `{q<0}` where the K-definite cut fails and the
+  operator is non-constructible = the SAME seam as the info-theoretic α-odd complement.
+  **Geometry and information are two faces of one boundary: `{q<0}` is WHERE the operator
+  can't be built = WHY the bit is external.** [EXACT]
+- **THE PROCESS (Swing 4):** record-issuance = flat transport (suspension / mapping torus)
+  of the Z/2 monodromy along the α-even issuance flow, holonomy = σ; H¹ = the failure of
+  that double cover to split; the loop is a conduit, never a source. [EXACT]
+
+**One-line answer:** σ is the belt-trick — the spin/orientation twist of time's
+direction-bundle over the metric fiber; "the outside" is its double cover `S³` (where the
+twist unwinds and the bit is readable) and equivalently the timelike interior `{q<0}` (where
+the operator can't be built); the record process transports the bit by flat holonomy.
+
+## THE DECISIVE NEXT STEP (independently identified by BOTH Swing 1 and Swing 3)
+Compute the **limit-point / limit-circle (Krein/J-symmetric) deficiency indices of `A~` at
+the true `{q<0}` fiber ends** (the wall degeneration `C₀=q^{1/2}→0`; the N2 operator lift).
+Machinery already exists. EITHER horn is a result, and it resolves the pencil theorem, the
+cosmological distinctiveness, AND "what's outside" at once:
+- **limit-point / equal indices** → essentially self-adjoint → unique domain → Mourre → **O-b
+  proved, the pencil theorem (two-paper summit) closes** → a discrete finite `z*` → PP1
+  becomes DISTINCTIVE (a live future-conditioned low-ℓ signal).
+- **limit-circle / unequal** → external selector needed, and the selector IS σ = w₁ (the
+  phase `T_θ=e^{iθ}S(b)` = a spin-lift/holonomy) → continuum/washout → PP1 stays
+  non-distinctive, and "the loop closes" (the bit gating the lemma is the posited σ).
+
+EXACT: the geometry (spin cover, deck=σ=w₁), boundary=characteristic-variety, product-free,
+the reduction to LP/LC. PROPOSAL (not derived): wall=cosmological-lightcone, Sp(1)→trit,
+which-outside (only finite-z* vs ∞ touches data; self-constitution REFUTED). The LP/LC
+number has NOT been computed — until then O-b is REDUCED, not closed.
