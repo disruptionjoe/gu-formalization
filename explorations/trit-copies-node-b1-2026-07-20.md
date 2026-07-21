@@ -27,7 +27,8 @@ related:
 > spaces have dimension $64$, identical Krein signatures, ladder
 > bijections, and pairwise Krein-space isometries. They are **not**, however,
 > three $SU(2)_+$-submodules or three equivariant family copies. They are
-> the $m=-2,0,+2$ weight spaces of one nontrivial spin-1 representation;
+> the $m=-2,0,+2$ weight spaces of the spin-1 isotypic carrier
+> $\mathbb C^3_{\rm spin\,1}\otimes\mathbb C^{64}$;
 > the ladder is an $SU(2)_+$ action between weights, not an intertwiner
 > between invariant modules. At full
 > $\operatorname{Spin}(3,1)\times\operatorname{Spin}(6,4)$ symmetry the

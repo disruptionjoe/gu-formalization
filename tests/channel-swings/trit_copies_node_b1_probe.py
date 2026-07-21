@@ -1,28 +1,26 @@
-"""Node B1 probe (pre-registered): the identical-copies test for the three generation-sectors.
+"""Node B1 probe (pre-registered): equal-geometry test for three Cartan weight spaces.
 
 PRE-REGISTRATION: explorations/prereg-trit-symmetry-and-fork-2026-07-20.md, Node B1
 (commit cafcbc7). LABEL-CAMP half of the copies/simplex fork.
 
-THE QUESTION (bound before looking): are the three generation-sectors STRUCTURALLY
-ISOMORPHIC copies -- identical as Krein modules up to the external S_3 label -- so that
-the ONLY distinction among them is the label ("three shards / three degenerate copies /
-three colors")? Or are at least two of the three genuinely INEQUIVALENT (label camp wrong)?
+The original pre-registration called the spaces generation sectors. A successor
+representation audit corrected that interpretation: equal Cartan weight-space geometry
+does not make three invariant SU(2)+ modules or physical family copies.
 
-OBJECT (structural reading): the three generation-sectors are the three SU(2)+ generation
-weight-spaces W_{-2}, W_0, W_{+2} inside the verified 192-dim self-dual triplet -- literally
-"the three generations" of the spin-1 flavor multiplet, the weight label being the S_3/Weyl
-label. Each is 64-dim. (Cross-checked below against the commutant-Z/3 "cube-root sectors"
-reading, whose multiplicities (0,192,192) make it the degenerate reading.)
+OBJECT: the three SU(2)+ Cartan weight spaces W_{-2}, W_0, W_{+2} inside the
+verified 192-dim self-dual triplet. Each is 64-dimensional. They are weights of one
+the spin-1 isotypic carrier C^3_spin-1 (x) C^64, not SU(2)+-stable submodules.
 
 TEST: exhibit each sector as a concrete Krein module on the frozen fixtures; compute the
 COMPLETE Krein-module invariants (dim, Krein signature -- the H-module type is dimension-
 forced since H (x) C = M2(C)); pairwise-equal invariants => isomorphic, and EXHIBIT the
-isomorphisms explicitly (the SU(2)+ ladder as a commutant-intertwining module iso; the
+isomorphisms explicitly (the SU(2)+ ladder as a vector/Krein-space bijection; the
 frozen J_quat as an antilinear Krein iso W_{+2} = W_{-2}; a constructed Krein isometry
 T with T^# K_j T = K_i exactly). CONTROL: three deliberately non-isomorphic blocks
 (different dim / different signature) must FAIL the SAME tester -- two-sided power.
 
-OUTCOMES pre-declared (fork F-COPIES / F-NEITHER): B1-HOLDS / B1-FAILS. Exit 0 = ran honestly.
+The historical B1-HOLDS label now means only that the equal-weight-space test passes.
+Exit 0 does not certify a family interpretation.
 """
 from __future__ import annotations
 import os, sys, time
@@ -73,7 +71,7 @@ check("T", "triplet: Casimir-8 (spin-1) eigenspace of ker(Gamma), dim 192", Wt.s
 A3 = Wt.conj().T @ (1j * J[0]) @ Wt; A3 = 0.5 * (A3 + A3.conj().T)   # iJ3 in triplet coords
 mu, Q3 = np.linalg.eigh(A3)
 Pw = {m: Q3[:, np.abs(mu - m) < 1e-6] for m in (-2, 0, 2)}          # weight-space frames (192x64)
-check("T", "three generation-sectors = weight spaces {-2,0,+2} x 64 under iJ3",
+check("T", "three Cartan weight spaces = {-2,0,+2} x 64 under iJ3",
       all(Pw[m].shape[1] == 64 for m in (-2, 0, 2)))
 
 # Krein form K = etaV (x) beta_S, restricted to the triplet
@@ -84,7 +82,7 @@ bS = bS / np.sqrt(abs((bS @ bS)[0, 0].real))
 Kfull = np.kron(np.diag([1.0] * 9 + [-1.0] * 5).astype(complex), bS)
 Kt = Wt.conj().T @ Kfull @ Wt; Kt = 0.5 * (Kt + Kt.conj().T)        # 192x192 Krein form
 sig_t = np.linalg.eigvalsh(Kt)
-check("T", "K|triplet signature (+96,-96): 96 (generation,mirror) hyperbolic pairs",
+check("T", "K|triplet signature (+96,-96): 96 hyperbolic pairs",
       int(np.sum(sig_t > 1e-9)) == 96 and int(np.sum(sig_t < -1e-9)) == 96)
 
 def signature(Kblk):
@@ -126,7 +124,8 @@ check("E", "ISOMORPHISM VERDICT: all three sectors carry IDENTICAL complete inva
 # ---------------- [E] EXHIBIT isomorphism 1: the SU(2)+ ladder (commutant-intertwiner) -----
 # L = J1 + i J2 is built from gammas; it commutes with the frozen commutant H (J_quat commutes
 # with every gamma) so it intertwines the commutant module structure, and it shifts weight by
-# a fixed step. Full rank between adjacent sectors = a MODULE ISOMORPHISM of one onto the next.
+# a fixed step. Full rank gives a vector-space bijection between adjacent weights; because
+# the ladder mixes the weights, it is not an intertwiner between three SU(2)+ submodules.
 Lfull = J[1] + 1j * J[2]
 Lt = Wt.conj().T @ Lfull @ Wt
 tri_leak = float(np.linalg.norm((np.eye(N * DIM) - Wt @ Wt.conj().T) @ Lfull @ Wt))  # L preserves triplet
@@ -140,7 +139,7 @@ leak = max(float(np.linalg.norm(ladder_block(2, 2))), float(np.linalg.norm(ladde
 # instead SWAPS raising<->lowering (antilinear, J i = -i J), weaving the three into one H-structure.
 Mq = Wt.conj().T @ Cfull @ Wt.conj()                             # J_quat in triplet coords (antilinear)
 check("E", "ISO-1 (ladder L=J1+iJ2): rank-64 bijection W_{+2}->W_0 and W_0->W_{-2}, no weight "
-           "leak, preserves the triplet -> explicit C-linear MODULE isomorphism between sectors",
+           "leak, preserves the triplet -> explicit C-linear bijection between weight spaces",
       r_p0 == 64 and r_0m == 64 and leak < 1e-6 and tri_leak < 1e-6,
       f"ranks {r_p0},{r_0m}; weight-leak {leak:.1e}; triplet-leak {tri_leak:.1e}")
 
@@ -208,7 +207,7 @@ mult_cube = tuple(int(np.sum(np.abs(lam - z) < 1e-6)) for z in (1, W3, W3 ** 2))
 check("E", "cube-root-sectors reading is DEGENERATE: the C-linear order-3 element wI puts the "
            "WHOLE triplet in one eigenspace (0,192,0); N6's generic commutant element gives "
            "(0,192,192) -- either way empty sectors, NOT three equal copies. The weight-space "
-           "reading is the correct home for the identical-copies question",
+           "reading is the correct home for the equal-weight-space question",
       mult_cube == (0, 192, 0), str(mult_cube))
 
 # ---------------- [F] CONTROL: three deliberately NON-isomorphic blocks must FAIL ----------
@@ -255,23 +254,21 @@ print()
 print(f"NODE B1 PROBE: {'ALL PASS' if not FAILURES else str(len(FAILURES)) + ' FAILURES: ' + str(FAILURES)}"
       f"  ({time.time() - t0:.1f}s)")
 outcome = "B1-HOLDS" if B1_HOLDS else "B1-FAILS"
-print(f"HEADLINE: OUTCOME = {outcome}. The three generation-sectors (SU(2)+ weight-spaces "
-      f"W_{{-2}}, W_0, W_{{+2}} of the verified 192-dim self-dual triplet) are STRUCTURALLY "
-      f"ISOMORPHIC COPIES. Each is a 64-dim Krein module of IDENTICAL complete invariants "
+print(f"HEADLINE: OUTCOME = {outcome} FOR THE HISTORICAL EQUAL-WEIGHT-SPACE TEST ONLY. "
+      f"The SU(2)+ Cartan weight spaces W_{{-2}}, W_0, W_{{+2}} of the verified 192-dim "
+      f"self-dual triplet have identical 64-dim Krein-space invariants "
       f"(dim 64, Krein signature (+32,-32,0), quaternionic H-dim 32); they are mutually "
       f"K-orthogonal (iJ3 is K-self-adjoint) so each is a bona-fide Krein module, and the "
       f"invariants coincide, hence pairwise Krein-isomorphic ({real_iso}/3 pairs). Three "
-      f"explicit isomorphisms EXHIBITED: (1) the SU(2)+ ladder L=J1+iJ2, a rank-64 "
-      f"commutant-intertwining module iso between adjacent sectors; (2) the frozen J_quat, an "
+      f"explicit bijections EXHIBITED: (1) the SU(2)+ ladder L=J1+iJ2 between adjacent "
+      f"weights; (2) the frozen J_quat, an "
       f"antilinear rank-64 Krein iso W_{{+2}} = W_{{-2}}; (3) constructed invertible Krein "
-      f"isometries T_{{ij}} with T^# K_j T = K_i EXACTLY for all three pairs. The ONLY "
-      f"distinction among the sectors is the external S_3/weight label -- the LABEL CAMP. "
+      f"isometries T_{{ij}} with T^# K_j T = K_i EXACTLY for all three pairs. These facts do "
+      f"NOT make the weights invariant SU(2)+ modules or physical family copies: the ladder "
+      f"mixes them inside the spin-1 isotypic carrier C^3_spin-1 (x) C^64. "
       f"Control: a planted trio of signatures (+32,-32)/(+40,-24)/(+64,0) is 0/3 pairwise "
       f"isomorphic under the SAME tester (two independent (+32,-32) blocks pass), demonstrating "
       f"two-sided power. Cross-check: the commutant-Z/3 'cube-root sectors' reading is "
-      f"degenerate (mult (0,192,192), one empty), so the weight-space reading is the correct "
-      f"home. FORK: fires toward F-COPIES (three identical copies + external label; "
-      f"physics-favored -- generations identical except mass), pending B2.")
+      f"degenerate (mult (0,192,192), one empty). REPRESENTATION-TYPING VERDICT: equal "
+      f"weight-space geometry only; the generation-copy interpretation is retracted.")
 sys.exit(0 if (not FAILURES and B1_HOLDS) else 1)
-
-

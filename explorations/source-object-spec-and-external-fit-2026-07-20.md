@@ -39,6 +39,18 @@ sources:
 > supplies the load-bearing generation label or reading object. See
 > `explorations/verify-s1-pairing-2026-07-20.md`.
 
+> **I1 / FAMILY-TARGET CORRECTION (2026-07-20):** The three weight spaces in
+> `trit-copies-node-b1` are not three family copies. They are the Cartan
+> weights of the tangential \(SU(2)_+\) spin-1 isotypic carrier
+> \(\mathbb C^3_{\rm spin\,1}\otimes\mathbb C^{64}\) and are mixed by ladder
+> operators. The external \(S_3\) item may label an already-constructed rank-three family
+> multiplicity bundle; it cannot create that bundle or turn the three weights
+> into generations. The corrected observer restriction instead contains an
+> unlabeled \(3E_+\oplus3E_-\) isotypic character, and no source-defined
+> physical quotient removes the mirrors. Read I1 below only as an external
+> labeling requirement, conditional on a prior physical family object. See
+> `explorations/observation-to-family-b5-campaign-2026-07-20.md`.
+
 The whole 2026-07-20 program converged on ONE external object. This swing does two
 things and nothing else: (1) assembles the COMPLETE spec sheet -- every typed item an
 external source object must supply, cross-referenced to its receipt; (2) runs the

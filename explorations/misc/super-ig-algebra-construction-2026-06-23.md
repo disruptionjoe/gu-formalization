@@ -7,6 +7,21 @@ title: "Super-IG Algebra Construction over the Space of Connections"
 
 # Super-IG Algebra Construction over the Space of Connections
 
+> **SUCCESSOR CORRECTION (2026-07-20):** The zero-form-only conclusion below
+> does not exhaust the author's mixed rolled carrier. For
+> \(Q_{\rm mix}=S\oplus(T^*Y\otimes S)\), the symplectic moment map gives the
+> alpha-free complex bracket
+> \[
+> \beta((u,\psi),(v,\chi))(X)
+> =\mu_\Omega(u,\chi(X))+\mu_\Omega(v,\psi(X)).
+> \]
+> It is symmetric and full-complex-symplectic equivariant. Canonical native
+> super-IG remains unconstructed because the source does not identify this
+> field carrier as the odd parameter module, the projection to
+> \(\mathfrak{sp}(32,32;\mathbb H)\) is unproved, and no full-field/BV action
+> or Ward identity is supplied. See
+> `explorations/observation-to-family-b5-campaign-2026-07-20.md`.
+
 **Status.** Exploration-grade. This note defines the minimal algebraic object that
 would deserve the name "super-IG" and tests whether the current GU data specify a
 canonical one. No coordination or canon files are updated here.
