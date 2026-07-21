@@ -107,3 +107,25 @@ boldest bet is a direction or a scaffold.
   predicted feature per the three-tier rule), not falsifiable (washes out / scale
   unfixed without the bridge). Registry: this is entry H-H1, now with a named promotion
   path.
+
+- **Prong A — `A-NUMEROLOGY` (resolves the #1 seam: reading-B is numerology; reading-A stands)**
+  (`three-seam-prongA-class-relative-frame-2026-07-21.md`, probe exit 0). CRITICAL: this tested the
+  class-relative frame in GU's OWN deck/Krein group (the exact escape hatch that saved reading-B
+  from Prong 1's standard-topology no-go) — so it is NOT a standard-topology artifact. All four
+  reading-B constructions (MTH-CAT twisted coequalizer, MTH-SHEAF H1(S1_SIO;or_deck), EXT-HYPER
+  incidence-parity, EXT-INTER consensus coequalizer) reduce to ONE object: the shard-cycle equipped
+  with the real line bundle L_deck whose band is sign(K_S), class w1(L_deck). It is NOT sigma, at
+  four un-forced links: (1) the bare cycle is orientable (w1(TS1)=0); the record-arrow's two
+  orderings are a trivial-class Z/2 TORSOR (a choice), not a nontrivial holonomy; (2) the deck band
+  is not a function of shard-type — two helices with different sign(K_S) give the identical
+  type-quotient, so the band must be IMPORTED (no functor, per Prong 2); (3) accumulation is
+  realization-dependent (K_S,-K_S isospectral (+64,-64) => both flip and no-flip closures are
+  valid), and the fresh-token seam sign IS the free coin sigma — so "cycle-orientation = sigma" is a
+  TAUTOLOGY OF INSERTION, not a derivation; (4) the realization map f:S1_SIO->F is not canonically
+  pi1-nontrivial (GU forces neither degree). Controls PLANT-1/PLANT-2 rejected; power demonstrated
+  (forced value for the reading-A metric-fiber loop, realization-split for the cycle). NOT A-DISTINCT:
+  no canonical NONTRIVIAL cycle-orientation exists to be a second datum. VERDICT: reading-B (sigma =
+  orientation of a first-person/consensus/quotient circle) is RETIRED as numerology; exactly reading-A
+  survives — sigma = w1(L_time), an orientation class of a canonical LINE BUNDLE, not of the shard
+  cycle. The council members' OTHER legs (confluence<=>H1, generation counting, the descent/cocycle
+  relative-orientation rule) are untouched. Registry T-E2 = RESOLVED.

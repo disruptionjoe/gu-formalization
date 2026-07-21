@@ -169,6 +169,18 @@ every positive.
 > "the circle is impossible" as settled. Candidate reframe (future swing): is there a
 > GU-native / first-person / quotient structure group under which σ = the shard-cycle's
 > orientation, reconciling with the third-person `w₁(TS¹)=0`?
+>
+> **RESOLVED 2026-07-21 (the reframe swing ran — Prong A of the three-seam swing,
+> `three-seam-prongA-class-relative-frame-2026-07-21.md`, `A-NUMEROLOGY`):** the class-
+> relative frame WAS defined and tested IN GU's own deck/Krein group (not standard
+> topology) — all four reading-B realizations reduce to `w₁(L_deck)` on the shard-cycle
+> with the `sign(K_S)` band — and it is NOT σ: the band is imported (not a function of
+> shard-type), its accumulation is realization-dependent (`K_S`,`−K_S` isospectral), and
+> "cycle-orientation = σ" is a tautology of inserting the free coin as the seam sign.
+> So the class-relative caveat is DISCHARGED: reading-B (σ = circle-orientation) is
+> numerology; **exactly reading-A survives — σ = w₁(L_time), a canonical LINE-bundle
+> class, not a cycle-orientation.** The caution was still correct to keep reading-B open
+> until tested in the native frame; testing it there is what settled it.
 
 ## FINAL (all prongs in)
 The specific shard-cycle GEOMETRY is falsified (σ is not a circle-orientation), yet its
