@@ -31,6 +31,13 @@ reinterpreted from the member's substrate:
 - The shards subjective / intersubjective / objective form an oriented **helix**
   whose type-quotient looks circular; the boundary is an **asymmetric channel** (≈0
   inward capacity, ≥1 outward); GU is oracle-relative in the **logic** sense.
+- **σ's geometry (Prong 1, just landed)**: the candidate "σ = the two orientations of
+  a CIRCLE" is **FALSIFIED** — a circle is orientable (`w₁(TS¹)=0`), so a loop's two
+  directions can never be the obstruction. The surviving canonical object is
+  **σ = w₁(L_time)**, the **non-orientability class of the arrow-of-time LINE BUNDLE**
+  = the Möbius / spin-double-cover class (`S³→RP³`, the belt-trick) over `F ≃ RP³`,
+  machine-exact as the `K_S → −K_S` transport. So the "2" is the **spin /
+  non-orientability of the time-direction bundle**, NOT a loop's two directions.
 - The one banked shadow: the relative sign `c = σ_R1·σ_R2` is a product-of-odds =
   α-even = third-person-visible ⇒ **one globally consistent record arrow** (forbids
   record-contact ∧ relative-orientation-disagreement, 6 of 16 configs).
@@ -55,7 +62,14 @@ so no apparatus built from the fields inside a sector can measure which sector i
 in. That is precisely the Schur zero-capacity fact (`Hom(triv,sign)=0`): the
 sector-reading map does not exist in the observable algebra. The dark-energy sign is
 the physical content of this theta-sector — a boundary datum the bulk Lagrangian
-leaves free, fixed by the vacuum, not derived from it. It is "welded to the record
+leaves free, fixed by the vacuum, not derived from it. Geometrically the sector label
+is not the two orientations of a loop (a loop is orientable, `w₁(TS¹)=0`) but an
+ordinary **Stiefel–Whitney / spin class**: σ = **w₁(L_time)**, the non-orientability
+class of the arrow-of-time line bundle over `F ≃ RP³` (the `S³→RP³` spin double
+cover, machine-exact as the `K_S→−K_S` transport). The "2" is the `Z/2` of a spin
+structure — the most ordinary object in the differential-geometry toolkit, and exactly
+the kind of discrete topological datum a path integral is specified on, not derived
+from. It is "welded to the record
 arrow" because the same low-entropy boundary condition (the Past Hypothesis) that
 orients the thermodynamic/cosmological arrow of time also fixes the vacuum sector;
 one boundary condition, two consequences.
@@ -98,7 +112,15 @@ and geometry are downstream bookkeeping of this recording process. It-from-recor
 all the way.
 
 **THE BUILD.** σ is the **orientation of the record arrow itself** — the direction in
-which recording becomes irreversible. The first person HOSTS σ because the observer
+which recording becomes irreversible. Geometrically the record arrow is a **line
+bundle** `L_time` (a direction defined only up to sign), and σ is its
+non-orientability class **w₁(L_time)**: transport the arrow around a noncontractible
+loop of `F ≃ RP³` and it comes back **flipped** (the `K_S→−K_S` monodromy — the
+Möbius twist, the belt-trick's `S³→RP³` double cover). This is not a loop's two
+directions (a loop is orientable); it is that the arrow bundle admits **no global
+orientation at all** — which is exactly why the arrow is only ever defined relatively
+and never as a readable global absolute, and why hosting it does not amount to reading
+it. The first person HOSTS σ because the observer
 just IS the site where recording happens; the arrow is a section it carries (an α-odd
 lift in the `Z/2` torsor, "being dressed with the direction"). It cannot READ σ
 because reading it would be reading the direction of one's own record-issuance from
@@ -163,7 +185,13 @@ bit and orienting the record direction are the **same participatory stroke**.
 The oriented cycle is the self-excited circuit's actual trajectory. Honoring the
 dynamics correction: causal invariance forbids a literal spacetime cycle, so the
 circuit is really an acyclic **helix** — no backward causality — whose type-quotient
-displays the participatory loop. The null stratum is the **genesis seam**: the `q<0`,
+displays the participatory loop. And the closure is a **spin double cover**
+(`S³→RP³`, the belt-trick): the self-excited circuit does not close in a single pass —
+one loop of `F ≃ RP³` flips the time-direction bundle (`K_S→−K_S`, `w₁≠0`, the Möbius
+twist) and only a double traversal restores it. So the genesis bit σ is the
+**non-orientability the circuit must post to itself to close** — not the choice
+between a loop's two directions (a loop, being orientable, has nothing to post). The
+null stratum is the **genesis seam**: the `q<0`,
 `K_S`-null, operator-non-constructible closure is exactly where the circuit writes its
 own boundary condition to itself, and it is invisible/non-constructible because the
 universe cannot stand outside the moment it posts its own bit. The three generations
@@ -196,12 +224,15 @@ one-global-arrow — and what does building it sell or test?
 
 **THE BUILD.** The smallest simulable system is a **distributed append-only ledger
 with an orientation-hiding API**. Three components map one-to-one onto the three
-results. (1) σ-unreadability is a **superselection sector implemented as an α-even
-observable interface**: attach a hidden `Z/2` orientation to the ledger's state and
-expose only an α-even query surface, so that by construction (Schur/identical-rows)
-no client call can return the absolute orientation label — it leaks exactly 0 bits,
-prior-free, while the same interface still carries real bits about non-orientation
-content. (2) The helix is the **append-only log itself**: records are minted fresh and
+results. (1) σ-unreadability is a **non-orientable state bundle**, which is a cleaner build
+than a merely hidden field: don't attach a hidden `Z/2` label you then promise not to
+expose — make the ledger's orientation a **Möbius / non-orientable structure**
+(`w₁≠0`, a single non-orientable cycle over an `RP³`-like base, i.e. a `Z/2`
+holonomy/gauge field). Then there is **literally no global section** — no consistent
+absolute orientation exists to be read, so 0-inward-capacity is enforced by topology,
+not by access control (Schur/identical-rows is the algebraic shadow of the same fact).
+Only **holonomies around loops** — relative orientations — are defined, which is
+precisely the data the next component consumes. (2) The helix is the **append-only log itself**: records are minted fresh and
 ordered (never overwritten, never cycled); a "group-by-record-type S/I/O" view over
 the log is what looks circular — the type-quotient. (3) The one-global-arrow is a
 **causal-invariance / confluence guarantee** on the log: with a confluent update rule
@@ -250,7 +281,15 @@ it**. The first-person atlas is complete — this is the exhaustiveness/complete
 the `±1` eigenspace decomposition of `α = Ad(U_h)`: every internal observable is
 uniquely even-or-odd, no third parity — and yet σ's **value** appears nowhere in that
 atlas as a readable quantity, because reading is an α-even map into the label object
-and `Hom(triv,sign)=∅`. The first person HOSTS σ as an α-odd **section** (a lift in
+and `Hom(triv,sign)=∅`. This is not a figure of speech: σ = **w₁(L_time)** is a
+**non-orientability class**, and non-orientability is the exact mathematical shape of
+"locally chartable, globally not." Every local chart of the arrow-of-time bundle
+orients it trivially; no global orientation exists; σ is the Čech/Stiefel–Whitney
+cocycle of that failure over `F ≃ RP³` (the `S³→RP³` double cover, `K_S→−K_S`).
+"External = outside every internal chart" is, on this substrate, **literally `w₁≠0`** —
+and note the falsified circle reading confirms the point from the other side: a circle
+is orientable (`w₁(TS¹)=0`), so a loop's two directions could never be the residue no
+chart fixes; only a genuinely non-orientable bundle can be. The first person HOSTS σ as an α-odd **section** (a lift in
 the torsor: it is dressed with the index) but cannot READ it as an α-even **map**.
 That "host but cannot read" is not a curiosity — it is the derivation of
 Gödel-independence **from indexicality**: any complete internal description

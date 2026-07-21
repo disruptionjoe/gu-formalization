@@ -154,6 +154,22 @@ every positive.
   of-time line bundle) survives as a real canonical object** (the frozen packet's
   content) — deeper than circle-orientation, but no NEW spine for Prongs 2–3.
 
+> **CLASS-RELATIVE CAVEAT (Joe, 2026-07-21) — the Prong 1 "FALSIFIED" is a LOCAL, not
+> global, no-go; a kill gets a defense attorney.** The refutation holds only for
+> "σ = tangent-orientation of a LITERAL embedded S¹ under the STANDARD structure group"
+> (`w₁(TS¹)=0`). Two escape hatches remain OPEN and undefined: (i) `w₁` depends on the
+> CHOSEN structure group — the probe used the standard tangent-frame group, NOT GU's
+> native deck/Krein transition structure, under which the cycle's orientation class
+> could differ; (ii) standard topology is a THIRD-PERSON lens (it can see orientations
+> the σ-blind first person cannot), so "the circle is orientable" is itself a
+> class-relative fact that may flip first-personally — the same phenomenon the whole
+> program studies, now possibly biting our own TOOLS. So the circle/cyclic reading is
+> NEITHER confirmed NOR globally refuted; it is an OPEN class-relative question (a
+> "class-relative no-go we have not yet defined the frame for"). Do NOT propagate
+> "the circle is impossible" as settled. Candidate reframe (future swing): is there a
+> GU-native / first-person / quotient structure group under which σ = the shard-cycle's
+> orientation, reconciling with the third-person `w₁(TS¹)=0`?
+
 ## FINAL (all prongs in)
 The specific shard-cycle GEOMETRY is falsified (σ is not a circle-orientation), yet its
 content re-homes onto a firmer object: **σ = the non-orientability (w₁) of the arrow-of-
