@@ -84,13 +84,45 @@ Given externality, is the `Z/2`:
   with a hard circularity check (a standpoint that only *reads* the bit it was
   handed is not *supplying* it).
 
-### Q3 (σ vs τ): one anchor or two?
+### Q3 (σ vs τ): one anchor or two?  — RESOLVED 2026-07-21: **Q3-TWO-INDEPENDENT**
 Does a single external `Z/6 = Z/2 × Z/3` fix BOTH σ and τ, or are they
 independent data? This is the "one input forces the sector AND the three
-generations" test. HV-independent — can run first / in parallel.
+generations" test. HV-independent — ran in parallel.
 - **ONE-ANCHOR** → the strongest form of the story: one discrete external choice.
 - **TWO-INDEPENDENT** → GU needs ≥2 separate external data; the "one bit" framing
   was too tidy.
+
+> **VERDICT: Q3-TWO-INDEPENDENT** (`decision-tree-Q3-one-anchor-vs-two-2026-07-21.md`,
+> probe `7[E]+2[F] ALL PASS`, exit 0). The generation anchor's Z/2 co-flip is a
+> **different** order-2 datum from the sector bit σ; they coincide only in being
+> Z/2. Three refutations: (1) **different observables** — σ fixes the DE sign and
+> is generation-count-blind; the co-flip fixes generation-transport admissibility
+> and is DE-sign-blind; (2) **σ-flip is antipodal on S³, which preserves the
+> anchor's deck-parity rather than toggling it** (probe defect 0.0), and the 4-combo
+> `(σ±, deck odd/even)` has admissibility = f(deck) alone — neither forces the
+> other; a *free coin* (σ) and a *one-sided constraint* (co-flip) cannot be one
+> Z/2; (3) the on-the-books "anchor bit IS payload bit" identification rests on
+> **L1**, which unites only the habitat/section decks and by its own caveat "cannot
+> see a global base uniting" the internal generation fiber (a third base) — the
+> leap is **asserted, not proven** (violates anti-circling rule 3).
+>
+> **Consequence:** GU needs **≥2 independent external data** — σ (sector/DE-sign)
+> AND the generation anchor `Z/6`. The "one input fixes everything" framing is
+> false as it stood. BUT the genuine one-bit result is untouched and re-typed
+> precisely: **σ ↔ the record-direction co-flip** (holonomy over `F`, L1-grounded)
+> — σ flips the sector AND the *record arrow* (a first-person-flavored object),
+> just NOT the generation count. So the observer-connection lives on σ specifically.
+>
+> **Revive-lemma (once):** ONE-ANCHOR returns only via an operator/KR-grade
+> base-uniting map carrying the internal S³ fiber and habitat `F` onto one base
+> under `sgn_K` (L1's open N2/L² operator lift), which must ALSO defeat the
+> different-observables wall. Absent at fixture grade.
+>
+> **STEWARD/JOE FLAG (not flipped here — verdict-flips are Joe-gated):** the
+> framing banner of `conditional-forcing-minimal-input-2026-07-20.md` asserts "the
+> anchor bit IS the payload bit"; Q3 shows this is an unproven cross-base
+> identification. Route to Joe/steward for a correction-banner decision; not edited
+> autonomously.
 
 ## Synthesis (the payoff — places GU on a known spectrum, not a vibe)
 
