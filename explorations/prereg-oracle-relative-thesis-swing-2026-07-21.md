@@ -166,14 +166,51 @@ proven; "GU = complete modulo a finite external budget" is too clean.
 
 ## FINAL VERDICT (all 4 prongs in)
 
-**The EXACT, theorem-grade core — now hardened, one fact from three angles:**
-- Zero inward capacity (Prong I.1, Schur/Shannon) — modeling assumption confirmed
-  operator-grade by Prong III.
-- "Observer forces externality, cannot supply σ" (Prong III) — a THEOREM,
-  Lean-proved in TI as `no_invariant_valuation`, needs only the fixpoint-free K_S flip.
+> **CORRECTION (2026-07-21, substantiveness hostile-verify `HV-BRIDGE-GAP` —
+> `oracle-relative-externality-substantiveness-HV-2026-07-21.md`, probe exit 0):
+> the "externality is a theorem = `no_invariant_valuation`" claim below
+> OVER-ATTRIBUTED.** Reading the Lean source literally: `InvariantValuation alpha
+> v := ∀ a, alpha (v a) = v a` acts α on the CODOMAIN (the label object), with NO
+> domain action. So `no_invariant_valuation` proves only a **codomain tautology** —
+> no map into `{+K_S,−K_S}` has an α-fixed output — which is true of ANY
+> fixpoint-free Z/2 (a coin flip) and carries **zero GU-specific content** (the
+> Lean docstring itself calls it "trivial"). A genuine σ-reader is α-EQUIVARIANT
+> (co-varies with the flip), NOT α-invariant, so the Lean theorem is SILENT about
+> it (the probe exhibits `sigma` itself as an equivariant reader the theorem
+> misses). **The substantive claim ("GU's inside can't read σ") is Prong I.1's
+> Schur zero-capacity (DOMAIN-side, α-even algebra) — NOT the Lean line.** The two
+> are joined only by an OPEN bridge lemma: *every internal/first-person σ-supplier
+> is α-even (the internal observable algebra = the domain-α-even class)* — which is
+> supported by W211 (exploration grade, LOCATED-NOT-FORCED, Joe-gated, NOT canon)
+> and is NOT in the Lean files. Prong III's "exhaustiveness" hardened the
+> ±1-eigenspace COMPLETENESS, which is NOT the same as "internal = α-even," so it
+> does not close the bridge. HONEST RESTATEMENT BELOW.
+
+**What actually survives, correctly graded:**
+- **Zero inward capacity (Prong I.1, Schur/Shannon) — theorem-grade, but CONDITIONAL
+  on the bridge** "internal observables = α-even class." Unconditionally it proves:
+  no α-EVEN internal map reads σ. Whether GU's physical internal observables are
+  exactly the α-even ones is the open bridge (W211 exploration grade). Prong I.1 is
+  itself still HV-unverified — it is now the substantive carrier and should get its
+  own hostile pass before any theorem/canon grade.
+- **The TI Lean discharge is CORRECT but TRIVIAL:** it Lean-proves the codomain
+  tautology (the externality *conjunct as formally stated*), NOT the physics claim.
+  Valid Lean; do not canon-grade it as "σ is externally required."
+- **GU oracle-relative in the logic sense (Prong II)** = W211 Gödel-independence —
+  stands, but at W211's grade (exploration, five-method), not Lean-grade.
+
+**Corrected headline:** "GU's inside cannot read σ" is theorem-grade CONDITIONAL on
+one open bridge lemma (internal = α-even); the substantive carrier is Prong I's
+Schur zero-capacity (HV-pending); the Lean line is a trivial codomain fact. NOT a
+closed unconditional theorem. **The bridge lemma is the real next target.**
+
+---
+*Superseded pre-correction text (retained for the record):*
+**The EXACT, theorem-grade core — [OVER-ATTRIBUTED, see correction above]:**
+- Zero inward capacity (Prong I.1, Schur/Shannon).
+- "Observer forces externality, cannot supply σ" (Prong III) — claimed a THEOREM
+  via `no_invariant_valuation`; the HV shows this is the trivial codomain tail.
 - GU oracle-relative in the logic sense (Prong II) = W211 Gödel-independence.
-These are the SAME theorem: **σ is externally required and internally unreadable,
-provably.** This is the real, defensible result and it stands at operator/Lean grade.
 
 **Stays LEAN / ANALOGY:** the Gödel/Lawvere self-reference DRESS (gated on the
 product-uniformity theorem O-b); the FLP mechanism, complexity-oracle, import
