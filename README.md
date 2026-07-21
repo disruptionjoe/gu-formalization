@@ -2,7 +2,7 @@
 title: "The Observerse Research Program (advanced from Geometric Unity formalization)"
 status: canon
 doc_type: overview
-updated_at: "2026-07-07"
+updated_at: "2026-07-21"
 ---
 
 # The Observerse Research Program
@@ -50,6 +50,45 @@ truth-seeking method. It is not a proof of Geometric Unity, and not an attempt t
 to vindicate or refute Eric Weinstein, or to make the program look right. The posture is constructive and
 verdict-agnostic, while preserving explicit assumptions, rollback conditions, correction logs, no-go
 assumption audits, and proof-grade labels. See `RESEARCH-POSTURE.md`.
+
+## Purpose (charter, sharpened 2026-07-21)
+
+This repository exists to establish the **honest truth-status** of the observerse / Geometric Unity
+program — force it, falsify it, or place it precisely — and to determine what it would take for this class
+of geometry to be the true account of physics. GU is the generative engine, not a thesis to defend; the
+product is true structure at honest grade plus a reliable truth-seeking method.
+
+**The standard, made precise.** A theory whose subject matter includes the observer's own orientation
+cannot, from inside, *derive* the one datum that selects which world it is in — here that is a result, not a
+posture: the sector bit is Gödel-independent / oracle-relative, and the program's summit operator provably
+does not close from structure without it (the excision that would evade this is anomaly-protected, i.e.
+forbidden — proposal grade). So "the program must natively *force* all of physics" is the wrong bar; it
+demands the one thing the structure forbids. This class is a **model-schema**, and the external data select
+the model. It is therefore held to the standards that actually apply to non-derivable truth:
+
+- **Refutation-survival** — it must survive every kill test we can build. The live one is the dark-energy
+  sign (no phantom crossing, `w(z) ≥ −1`), at DESI/Euclid; that prediction is both the external kill test and
+  the license for the abduction.
+- **Best-arena abduction** — it wins to the degree it leaves the **fewest joints unexplained** and imports
+  the **fewest independent knobs** versus stated rivals (SM+QM+GR, ΛCDM+SM, modified gravity) at equal
+  empirical coverage — the question this README already refuses to collapse into "does bare GU force three."
+  Maintained as an explicit, fair **parsimony ledger**, with wired joints marked *observable* (evidence) vs
+  *internal-only* (unification, not yet evidence).
+
+**The irreducible external ledger.** Exactly two data enter from outside: **σ** — one Z/2, the
+orientation / time-reversal bit (the spin-cover deck class `w₁`) that fixes the dark-energy sign and the
+boundary — and **τ** — one Z/3, which locates the three generations. Both are provably unreadable and
+unmintable from inside; the program is complete *modulo* them, never without them. (σ's cardinality = one bit
+and its anomaly-protection are proposal grade; the DE-sign prediction is the load-bearing falsifiable.)
+
+**Honest current standing.** Given σ and τ supplied, the construction *hosts* most of physics at
+consistency-to-hosting grade and *forces* the dark-energy sign; on the unexplained-joints ledger it is the
+better arena than the rivals, but **modestly** (a factor of ~2–3, not orders of magnitude), and native
+recovery is gated on one blocked source-action spine. It does not yet *force* physics, and the bit is
+imported, not earned — and by the standard above, that is the correct posture, not a deficiency. The
+dark-energy no-phantom-crossing measurement is the one observation that turns the modest lean into a verdict.
+(Consolidates the 2026-07-21 results: `explorations/lp-lc-deficiency-decisive-…`, `pin-bordism-cardinality-…`,
+`per-leg-recovery-state-…`, `parsimony-unexplained-joints-ledger-…`, `council-reframe-arena-abduction-…`.)
 
 ## Start Here
 
