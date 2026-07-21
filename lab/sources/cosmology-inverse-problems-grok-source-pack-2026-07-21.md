@@ -30,15 +30,18 @@ external_actions: none
 
 ## GU-relevance mining (GRADED — honest, not oversold)
 
-- **R1 [STRONG / SPECIFIC — a real observational contact point].** The **low-quadrupole /
-  large-scale CMB alignment anomalies** map DIRECTLY onto the promotion path this session
-  just named for Prediction Packet 1: the two-time / final-boundary scaffold (Prong C,
-  Swing 3) predicts a **future-conditioned low-ℓ / large-scale correlation ΛCDM forbids**,
-  IF a finite cosmological `z*` is fixed. So this cosmologist's actual subject (low-ℓ
-  anomalies) is the exact observable where GU's two-time reading would become distinctive.
-  This is the LIMIT-CIRCLE horn's payoff of the pending LP/LC computation. Actionable: if
-  the LP/LC number lands limit-circle/finite-z*, the low-ℓ template is where to look, and
-  inverse/assumption-minimal analyses of the low-ℓ anomalies are the right comparison set.
+- **R1 [was STRONG — now DIMMED by the LP/LC result; CORRECTED horn association].** The
+  **low-quadrupole / large-scale CMB alignment anomalies** are the observable where GU's
+  two-time reading would become distinctive — BUT only in the **LIMIT-POINT / finite-`z*`**
+  horn (discrete datum → a distinct low-ℓ signal). [CORRECTION 2026-07-21: an earlier draft
+  wrongly attributed this to the limit-circle horn; finite-`z*`/distinctive = limit-POINT,
+  washout/non-distinctive = limit-CIRCLE — per Swings 1 & 3.] The decisive LP/LC computation
+  landed **LC-SELECTOR** (`lp-lc-deficiency-decisive-2026-07-21.md`), i.e. the **washout**
+  horn → PP1 stays non-distinctive → **this low-ℓ contact point is NOT lit up** by the
+  current result. Residual thread only: the selector is a *discrete* Z/2 (σ), and the
+  orientation-bit-cardinality / DeWitt-measure residual could in principle reopen a discrete
+  `z*` — but that is unestablished. Honest status: methodological relevance (R2) stands; the
+  observational low-ℓ hope (R1) is currently dimmed, not confirmed.
 
 - **R2 [METHODOLOGICAL — genuine alignment].** "Solve equations first, then interpret" /
   "assumptions masquerading as data" is the SAME discipline this program has been enforcing:
