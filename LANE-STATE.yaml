@@ -2,51 +2,53 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T17:42:00-05:00'
-run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
-bottom_line: 'Native generation transport is closed in the frozen inventory;
-  one external Z/6 phase anchor is the minimal conditional input for three.'
-decision_default: Test whether the Z/6 anchor is supplied natively while preserving
-  its external-reference grade and the separate operator-grade fronts.
+updated_at: '2026-07-20T19:37:05-05:00'
+run_ref: RUN-20260720-193705-repository-work-cycle-cai-hourly
+bottom_line: 'The access-question nesting recorded in GU triage cannot naturally
+  close into the trit: its symmetry is trivial, while the trit requires an external
+  S_3 label.'
+decision_default: Keep TRIT interpretation shape closed and pursue only the external
+  label-provenance question through the B.5 source-object program.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: conditional_forcing_minimal_input_resolved
-  evidence_ref: explorations/conditional-forcing-minimal-input-2026-07-20.md
+  reason_code: trit_closure_fails_naturality
+  evidence_ref: explorations/trit-closure-swing-2026-07-20.md
   work_status: moving
-  last_movement: Closed native transport in the frozen inventory; one external
-    Z/6 phase anchor minimally suffices conditionally.
-  movement_ref: explorations/conditional-forcing-minimal-input-2026-07-20.md
+  last_movement: Executed the pre-registered cyclic-closure swing; the total-order
+    nesting supplies no order-three automorphism.
+  movement_ref: explorations/trit-closure-swing-2026-07-20.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: A Z/6 reference forces order three conditionally; Z/2, Z/3, and Z/4
-    inputs do not.
-  progress_delta: 'N6 killed the native slot route; the successor ladder proved
-    Z/6 first sufficient while smaller cyclic inputs fail.'
-  scope_position: 'Frozen native transport inventory closed; conditional forcing
-    resolved at fixture grade; anchor nativity remains open.'
+  summary: The three-question nesting recorded in GU triage has trivial symmetry
+    and cannot supply the trit's order-three action without an imported wrap.
+  progress_delta: 'Candidate 5 closed adversely with seven finite checks: the
+    directed-chain plant fails and the S_3 triangle positive control passes.'
+  scope_position: 'TRIT interpretation shape closed at fixture grade; external
+    S_3-label provenance remains open in the B.5 source-object program.'
   trend_24h: up
   confidence: med
-  recommendation: Test anchor nativity; preserve conditional grade
-  findings: 'The payload bit is the cube of the sufficient Z/6 anchor. Reading
-    without anchoring fails; no integer-index or Z/2-to-three inference is earned.'
+  recommendation: Pursue label provenance; do not reopen cyclic closure without
+    materially new structure
+  findings: 'Arity 3 does not provide a cyclic action. Either wrap adds structure
+    absent from the nesting; the later external-S_3-label result stands.'
   options:
   - key: A
-    label: Test anchor nativity
+    label: Pursue label provenance
     recommended: true
   - key: B
-    label: Assemble Lawvere L1
+    label: Preserve closure result
   - key: C
     label: Retain operator fronts
-  decision_default: Test whether GU supplies the Z/6 anchor without importing
-    it; keep operator-grade section and dynamics obligations distinct.
+  decision_default: Keep the nesting/P2C closure killed at finite structural grade;
+    test only what source object supplies the external S_3 label.
   needs_joe: false
-  evaluated_at: '2026-07-20T17:42:00-05:00'
-  run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T19:37:05-05:00'
+  run_ref: RUN-20260720-193705-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -126,40 +128,39 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: mailbox_proposal_overtaken_reconciled
+  reason_code: trit_closure_pointer_reconciled
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Dispositioned the persona proposal as non-activating and
-    reconciled the later direct research wave.
-  movement_ref: LANE-STATE.yaml
+  last_movement: Reconciled the stale cyclic-closure recommendation after the
+    bound adverse result and later S_3-label evidence.
+  movement_ref: lab/process/research-portfolio.json
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: The proposal was coherent but overtaken by stronger owner evidence;
-    no new priority or claim movement was earned.
-  progress_delta: Reconciled conditional forcing, anomaly hardening, and one
-    mailbox disposition without changing their grades.
+  summary: Portfolio and Lane state now agree that interpretation shape is closed
+    and label provenance is the only live TRIT successor.
+  progress_delta: Replaced the stale closure-swing lead pointer with its adverse
+    receipt and preserved all claim, canon, and posture grades.
   trend_24h: up
   confidence: high
-  recommendation: Archive after receipt; steward from current evidence
-  findings: 'The proposal predates the Z/6 result and adds no new packet. Its
-    Z/2-versus-three guard agrees with owner evidence; claims and canon stay unchanged.'
+  recommendation: Steward from the reconciled label-provenance pointer
+  findings: 'Mailbox remains empty. No claim, canon, public-posture, or cross-owner
+    truth movement was made; the closure receipt is GU-local fixture evidence.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Parent may receipt and archive the proposal; standing
-    stewardship continues from current owner evidence.
+  decision_default: Continue from the reconciled label-provenance pointer; do not
+    revive the nesting closure on arity alone.
   needs_joe: false
   drift_verdict:
-  - stale_lane_state_after_direct_wave_repaired
-  - mailbox_proposal_overtaken_by_owner_evidence
+  - stale_trit_closure_pointer_repaired
   action_counts:
-    mail: 1
-    reconciled: 3
+    mail: 0
+    reconciled: 1
     integrity_repairs: 0
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; parent may receipt and archive the proposal.
-  evaluated_at: '2026-07-20T17:42:00-05:00'
-  run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe.
+  evaluated_at: '2026-07-20T19:37:05-05:00'
+  run_ref: RUN-20260720-193705-repository-work-cycle-cai-hourly
