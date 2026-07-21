@@ -67,6 +67,13 @@ updated_at: "2026-07-21"
 > the declared wake conditions before selecting `P-LATTICE-SWEEP` or `P-OBS-LEG`. Receipt:
 > `explorations/p-rank-fold-sector-separation-2026-07-21.md`.
 >
+> **2026-07-21 P-LATTICE-SWEEP admission:** its wake condition is satisfied, but candidate generation stopped
+> at `BLOCKED_PARAMETERIZATION`. The 11 cells have prose deltas and zero structured total axis signatures;
+> domains, compatibility constraints, and tuple canonicalization are not frozen. Inferring omitted values would
+> silently choose conventional or program-native defaults. Next bounded Lane 1 step: `P-LATTICE-SCHEMA-FREEZE`.
+> `P-OBS-LEG` is independently awake after PP1 freeze and remains the Lane 2 alternative. B5 stays parked.
+> Receipt: `explorations/p-lattice-sweep-admission-2026-07-21.md`.
+>
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,

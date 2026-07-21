@@ -54,6 +54,20 @@
       }
     ]
   },
+  "lattice_sweep_admission": {
+    "status": "BLOCKED_PARAMETERIZATION",
+    "completed_at": "2026-07-21",
+    "probe": "P-LATTICE-SWEEP-ADMISSION",
+    "wake_status": "SATISFIED",
+    "wake_evidence": "Council round 11 resolves both P-K2 and P-77-REAL-INDEX.",
+    "evidence": "explorations/p-lattice-sweep-admission-2026-07-21.md",
+    "test": "tests/recovery-contract/construction_space_lattice_admission.py",
+    "declared_cells": 11,
+    "structured_axis_signatures": 0,
+    "generated_cells": 0,
+    "blocker": "The map has prose deltas but no frozen axis domains, total structured cell signatures, cross-axis compatibility constraints, or tuple canonicalization. Candidate generation would require invented defaults.",
+    "next_probe": "P-LATTICE-SCHEMA-FREEZE"
+  },
   "sharp_constraint_lists": {
     "frozen_at": "2026-07-19",
     "weakening_is_joe_gated": true,
@@ -956,6 +970,14 @@
       "results_digest": "P-RANK-FOLD-DIRECT-FAIL: conventional chain operators have form 1_F tensor A on F tensor 16 and cannot select dim F. GU supplies a native 3 through dim Lambda^2_+ on the four-dimensional base, but the Spin(10) chain acts on the 16 factor and does not chiralize the mirror pairs or collapse the extra SU(2)- doublet. The value provenance survives; the missing datum is a qualitative generation-physicalization selector, not a free integer.",
       "payload_state": "The finite subgroup-chain datum and generation-physicalization selector remain distinct wherever both are imported. No payload merge, claim, canon, verdict, or public posture change is earned.",
       "chairman_synthesis": "P-RANK-FOLD reaches a negative endpoint. Recheck the declared wake conditions before choosing between the parked P-LATTICE-SWEEP and P-OBS-LEG queues; preserve B5 at its source gap."
+    },
+    {
+      "round": 16,
+      "date": "2026-07-21",
+      "mode": "P-LATTICE-SWEEP compiler-admission gate after wake recheck",
+      "wake_audit": "P-LATTICE-SWEEP awake because P-K2 and P-77-REAL-INDEX resolved in round 11. P-OBS-LEG also awake because PP1 froze in round 12. PRED-CANDIDATE-PACKETS remains READY at lower portfolio priority.",
+      "results_digest": "P-LATTICE-SWEEP-BLOCKED-PARAMETERIZATION: all 11 cells have prose axis_notes, zero have total structured axis_signature objects, and the map has no axis_domains, compatibility constraints, or tuple canonicalization. The protocol also calls the Layer0 plus L1-L7 list a six-axis template. A compiler cannot generate target-free candidates without inventing conventional or program-native defaults, so enumeration stopped at zero new cells.",
+      "chairman_synthesis": "Run P-LATTICE-SCHEMA-FREEZE next if Lane 1 retains the lead: freeze names/domains, preserve native-versus-conventional tags, migrate all 11 cells with explicit unknowns, and freeze compatibility/deduplication rules. P-OBS-LEG remains the strongest independent Lane 2 alternative. Keep B5 parked."
     }
   ]
 }

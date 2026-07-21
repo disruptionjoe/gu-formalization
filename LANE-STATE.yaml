@@ -2,55 +2,54 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-21T02:39:15-05:00'
-run_ref: RUN-20260721-023512-repository-work-cycle-cai-hourly
-bottom_line: 'P-RANK-FOLD failed by sector separation: the native value three
-  survives, but its physicalization selector cannot merge with the finite chain.'
-decision_default: Recheck the parked construction-space wake conditions; keep
-  B5 parked and keep chain and generation selectors distinct.
+updated_at: '2026-07-21T03:38:37-05:00'
+run_ref: RUN-20260721-033643-repository-work-cycle-cai-hourly
+bottom_line: 'P-LATTICE-SWEEP is awake but blocked before enumeration because
+  the current map is a prose ledger, not a frozen generative axis grammar.'
+decision_default: Freeze the lattice schema before generating candidates; keep
+  P-OBS-LEG as the Lane 2 alternative and B5 parked.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: p_rank_fold_direct_fail
-  evidence_ref: explorations/p-rank-fold-sector-separation-2026-07-21.md; lab/process/construction-space-map.json#council_rounds
+  reason_code: p_lattice_blocked_parameterization
+  evidence_ref: explorations/p-lattice-sweep-admission-2026-07-21.md; tests/recovery-contract/construction_space_lattice_admission.py
   work_status: moving
-  last_movement: Proved that the finite Spin(10) chain cannot act on the flavor,
-    mirror, or SU(2)-doubling factors needed to physicalize three generations.
-  movement_ref: explorations/p-rank-fold-sector-separation-2026-07-21.md
+  last_movement: Woke the lattice sweep, audited compiler admission, and stopped
+    before generating cells because the axis grammar is not frozen.
+  movement_ref: explorations/p-lattice-sweep-admission-2026-07-21.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The generation value has native geometric provenance, but the missing
-    physicalization map is a separate source datum rather than a chain label.
-  progress_delta: 'Separated conventional flavor multiplicity from internal
-    Spin(10) breaking and showed that GU''s Lambda^2_+ triplet still leaves mirror
-    selection and an SU(2)-factor collapse outside the finite chain datum.'
-  scope_position: 'P-RANK-FOLD is a negative endpoint; C10-SM remains R0_COND,
-    chain and generation selectors remain distinct, and B5 remains parked at
-    source-gap grade.'
+  summary: The construction compiler cannot safely expand prose deltas without
+    inventing native or conventional defaults and cross-axis compatibility.
+  progress_delta: 'Confirmed both lattice prerequisites resolved, inventoried
+    11 cells with zero structured signatures, and froze a zero-generation stop
+    plus the exact schema packet needed to unblock enumeration.'
+  scope_position: 'Eleven declared cells and 44 track slots remain; zero new
+    lattice cells were generated. B5 remains parked at source-gap grade.'
   trend_24h: up
   confidence: med
-  recommendation: Recheck the declared P-LATTICE-SWEEP and P-OBS-LEG wake
-    conditions before the next construction-space selection; keep B5 parked.
-  findings: 'Chain operators have form 1_F tensor A on conventional flavor
-    copies. GU supplies 3=dim Lambda^2_+, but the chain acts on the Spin(10)
-    factor and cannot remove mirrors or the extra SU(2)-doublet.'
+  recommendation: Run P-LATTICE-SCHEMA-FREEZE if Lane 1 retains the lead; keep
+    the already-awake P-OBS-LEG as the strongest Lane 2 alternative.
+  findings: 'All 11 cells have axis_notes, none has a total axis_signature,
+    and no axis domains, compatibility constraints, or canonicalization are
+    frozen. The six-axis label also enumerates Layer0 plus L1-L7.'
   options:
   - key: A
-    label: Recheck parked probes
+    label: Freeze lattice schema
     recommended: true
   - key: B
     label: Hold B5 for primary source
   - key: C
     label: Reopen source-blocked pencil
-  decision_default: Do not merge the chain and generation selectors; recheck
-    parked-probe wake conditions and do not reopen B5.
+  decision_default: Do not generate lattice candidates from prose defaults;
+    freeze the schema first and do not reopen B5.
   needs_joe: false
-  evaluated_at: '2026-07-21T02:39:15-05:00'
-  run_ref: RUN-20260721-023512-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T03:38:37-05:00'
+  run_ref: RUN-20260721-033643-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
