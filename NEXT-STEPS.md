@@ -74,6 +74,15 @@ updated_at: "2026-07-21"
 > `P-OBS-LEG` is independently awake after PP1 freeze and remains the Lane 2 alternative. B5 stays parked.
 > Receipt: `explorations/p-lattice-sweep-admission-2026-07-21.md`.
 >
+> **2026-07-21 P-LATTICE-SCHEMA-FREEZE disposition:** the legacy six-axis label is now encoded as one
+> Layer-0 semantic precondition plus the ordered L1-L7 structural signature. Finite domains, typed
+> construction-side provenance, compatibility rules, and tuple canonicalization are frozen. All 11 existing
+> cells now carry total signatures, with all 88 slots explicitly unresolved rather than inferred; unresolved
+> tuples cannot generate or deduplicate candidates. Next bounded Lane 1 step:
+> `P-LATTICE-SIGNATURE-RESOLUTION-C1`, using owner evidence to resolve the declared baseline before propagating
+> only explicit inheritance. No cell was generated or graded. `P-OBS-LEG` remains the independent Lane 2
+> alternative and B5 stays parked. Receipt: `explorations/p-lattice-schema-freeze-2026-07-21.md`.
+>
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,

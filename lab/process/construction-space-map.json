@@ -68,6 +68,52 @@
     "blocker": "The map has prose deltas but no frozen axis domains, total structured cell signatures, cross-axis compatibility constraints, or tuple canonicalization. Candidate generation would require invented defaults.",
     "next_probe": "P-LATTICE-SCHEMA-FREEZE"
   },
+  "lattice_schema": {
+    "schema_version": "1.0",
+    "legacy_name": "six-axis",
+    "canonical_shape": "Layer-0 semantic precondition plus seven structural axes L1-L7",
+    "ordered_keys": ["L0", "L1", "L2", "L3", "L4", "L5", "L6", "L7"],
+    "domain_source": "lab/specifications/six-axis/six-axis-template.md",
+    "axis_domains": {
+      "L0": ["same_object", "homonym", "uncertain"],
+      "L1": ["unknown", "a_smooth_principal_bundle", "b_connes_spectral_triple", "c_type_ii1_spectral_triple", "d_holographic_qec_chiral_mtc", "e_wolfram_multiway", "f_higher_motivic_tmf_prismatic", "g_stochastic_gff", "h_cartan_parabolic_klein", "i_asynchronous_cellular_automaton", "j_iit_maximal", "k_sorkin_causal_set", "custom"],
+      "L2": ["unknown", "a_finite_turing", "b_hypercomputing", "c_omega_oracle", "d_metastable_consensus", "e_quantum_reference_frame", "f_iit_maximal_phi", "custom"],
+      "L3": ["unknown", "a_cartesian_smooth", "b_superdeterministic", "c_iit_maximal_partition", "d_constructor_theoretic", "e_modal_selection", "f_metastable_consensus", "g_protocol_class", "custom"],
+      "L4": ["unknown", "a_total_order_lorentzian", "b_calm_partial_order", "c_gossip_consensus_partial_order", "d_sorkin_causal_set", "e_branching_multiway_dag", "custom"],
+      "L5": ["unknown", "a_specific_object", "b_rg_universality", "c_self_organized_critical", "d_autopoietic_closure", "e_topological_phase", "custom"],
+      "L6": ["unknown", "a_no_loop", "b_mean_field_game", "c_hopfield_attractor", "d_reaction_diffusion", "e_ising_spin_glass", "f_self_stabilizing_protocol", "g_stochastic_gradient_rg_flow", "custom"],
+      "L7": ["unknown", "a_positive_hilbert", "b_indefinite_krein", "c_degenerate_null", "custom"]
+    },
+    "construction_side_domain": ["program_native", "conventional", "imported", "mixed_explicit", "unknown"],
+    "relation_domain": ["baseline_declared_complete", "inherited_c1", "declared_delta", "preserved_across_port", "unknown"],
+    "compatibility_constraints": [
+      {"id": "COMP-SORKIN", "if": {"L1": "k_sorkin_causal_set"}, "requires": {"L4": "d_sorkin_causal_set"}},
+      {"id": "COMP-RG", "if": {"L5": "b_rg_universality"}, "requires": {"L6": "g_stochastic_gradient_rg_flow"}},
+      {"id": "COMP-L0-HOMONYM", "if": {"L0": "homonym"}, "requires_metadata": ["construction_object", "comparator_object", "relating_map"]},
+      {"id": "COMP-L7-KREIN", "if": {"L7": "b_indefinite_krein"}, "requires_metadata": ["signature", "superselection", "probability_rule"]},
+      {"id": "COMP-GENERATIVE", "forbids_generation_when": ["unknown", "uncertain", "custom_without_justification"]}
+    ],
+    "tuple_canonicalization": {
+      "identity_order": ["L0", "L1", "L2", "L3", "L4", "L5", "L6", "L7"],
+      "identity_fields": ["class_id", "construction_side", "spec_ref_when_present"],
+      "non_identity_fields": ["relation", "axis_notes", "evidence", "tracks"],
+      "construction_fork_rule": "program-native, conventional, imported, and mixed-explicit entries never merge solely because their class labels or object names match",
+      "unknown_policy": "non_generative_non_deduplicating",
+      "dedupe_rule": "deduplicate only fully specified compatible tuples with identical ordered identity fields; union evidence but never auto-merge track grades"
+    }
+  },
+  "lattice_schema_freeze": {
+    "status": "COMPLETE_NO_ENUMERATION",
+    "completed_at": "2026-07-21",
+    "probe": "P-LATTICE-SCHEMA-FREEZE",
+    "evidence": "explorations/p-lattice-schema-freeze-2026-07-21.md",
+    "test": "tests/recovery-contract/construction_space_lattice_schema_freeze.py",
+    "migrated_cells": 11,
+    "structured_axis_signatures": 11,
+    "unresolved_slots": 88,
+    "generated_cells": 0,
+    "next_probe": "P-LATTICE-SIGNATURE-RESOLUTION-C1"
+  },
   "sharp_constraint_lists": {
     "frozen_at": "2026-07-19",
     "weakening_is_joe_gated": true,
@@ -104,6 +150,7 @@
       "id": "C1-W229-RECORD-CURRENT",
       "family": "Frozen W229 record-sourced induced-YM nonlocal branch (the tested construction)",
       "axis_notes": "Fully specified per the recovery manifest; the only cell with a complete Layer0+L1-L7 signature.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"baseline_declared_complete"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"}},
       "tracks": {
         "SM": {
           "grade": "R1",
@@ -148,6 +195,7 @@
       "id": "C2-W203-ULTRALOCAL",
       "family": "W203 ultralocal limit of the record-current branch",
       "axis_notes": "Shares C1 signature except locality of the source law (L4/L6 delta).",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"inherited_c1"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"}},
       "tracks": {
         "SM": {
           "grade": "OPEN",
@@ -171,6 +219,7 @@
       "id": "C3-BARE-THETA-STIFFNESS",
       "family": "Fundamental-stiffness / bare-theta branch (theta as fundamental field, not record-sourced)",
       "axis_notes": "L1/L6 delta from C1: source ontology changes; axis template partially UNDERDEFINED.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"inherited_c1"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"}},
       "tracks": {
         "SM": {
           "grade": "OPEN"
@@ -194,6 +243,7 @@
       "id": "C4-BOUNDARY-ADAPTER",
       "family": "Boundary-conditioned adapter constructions (explicit typed adapter assumption)",
       "axis_notes": "L2/L7 delta: observer/positivity structure supplied at the boundary.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"unknown"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"}},
       "typed_adapter_interface": {
         "status": "GATED_P2C",
         "source_owner": "possibility-to-capability",
@@ -243,6 +293,7 @@
       "id": "C5-NATIVE-QUOTIENT-SELECTOR",
       "family": "GU-native gauge quotient + observer-section selector routes (target-free A_F / G_SM-Z6 candidates)",
       "axis_notes": "L2/L3 delta from C1: selector built from observer-section data.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"inherited_c1"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"}},
       "tracks": {
         "SM": {
           "grade": "R0_FAIL",
@@ -266,6 +317,7 @@
       "id": "C6-SOURCE-OWNED-BREAKING",
       "family": "Source-owned symmetry-breaking / chirality-producing constructions",
       "axis_notes": "L5 delta: breaking/chirality as emergent from source dynamics; largely UNDERDEFINED.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"unknown"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"}},
       "tracks": {
         "SM": {
           "grade": "R0_COND",
@@ -292,6 +344,7 @@
       "id": "C7-COMPOSITE-SCALAR",
       "family": "Gauge-invariant / constrained composite scalar from frozen GU fields",
       "axis_notes": "L3/L5 delta: scalar as composite of existing sectors.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"unknown"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"}},
       "tracks": {
         "SM": {
           "grade": "OPEN"
@@ -318,6 +371,7 @@
       "id": "C8-MIXED-SECTOR-SCALAR",
       "family": "Scalar induced by mixing among already-present GU sectors",
       "axis_notes": "L3 delta: cross-sector mixing terms.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"unknown"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"}},
       "tracks": {
         "SM": {
           "grade": "OPEN"
@@ -344,6 +398,7 @@
       "id": "C9-AMBIENT-H-CLASS",
       "family": "Ambient-curvature / H-class balance mechanisms for the Willmore residual",
       "axis_notes": "L1/L7 delta: residual bookkeeping uses ambient or H-class structure.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"unknown"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"unknown"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"}},
       "tracks": {
         "SM": {
           "grade": "OPEN"
@@ -371,6 +426,7 @@
       "id": "C10-DISTORTION-VACUUM-FIELD",
       "family": "Theta distortion (parameterized torsion) as the vacuum-response field replacing the Lambda-times-metric slot (transcript-anchored)",
       "axis_notes": "L1/L6/L7 delta from C1: field content of the vacuum response changes; equivariance-derived divergence-freeness; VEV-capable. Provenance: papers/drafts/Transcript into the impossible.md [00:22:26]-[00:27:00].",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"inherited_c1"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"inherited_c1"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"}},
       "tracks": {
         "SM": {
           "grade": "R0_COND",
@@ -398,6 +454,7 @@
       "id": "C11-SIGNATURE-77",
       "family": "Cl(7,7) signature realization of the full construction (real class: J'^2 = +1, Kramers wall dissolves; hyperbolic Krein pairing survives per CH-QM certificate)",
       "axis_notes": "Layer-0/L1 delta from every (9,5) cell: global signature choice changes the Clifford algebra class. Provenance: CH-QM swing 2026-07-19 exact certificate; canon quaternionic-parity no-go applies to (9,5) only.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"declared_delta"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"declared_delta"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"preserved_across_port"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"preserved_across_port"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"preserved_across_port"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"preserved_across_port"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"preserved_across_port"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"preserved_across_port"}},
       "tracks": {
         "SM": {
           "grade": "R0_COND",
@@ -978,6 +1035,13 @@
       "wake_audit": "P-LATTICE-SWEEP awake because P-K2 and P-77-REAL-INDEX resolved in round 11. P-OBS-LEG also awake because PP1 froze in round 12. PRED-CANDIDATE-PACKETS remains READY at lower portfolio priority.",
       "results_digest": "P-LATTICE-SWEEP-BLOCKED-PARAMETERIZATION: all 11 cells have prose axis_notes, zero have total structured axis_signature objects, and the map has no axis_domains, compatibility constraints, or tuple canonicalization. The protocol also calls the Layer0 plus L1-L7 list a six-axis template. A compiler cannot generate target-free candidates without inventing conventional or program-native defaults, so enumeration stopped at zero new cells.",
       "chairman_synthesis": "Run P-LATTICE-SCHEMA-FREEZE next if Lane 1 retains the lead: freeze names/domains, preserve native-versus-conventional tags, migrate all 11 cells with explicit unknowns, and freeze compatibility/deduplication rules. P-OBS-LEG remains the strongest independent Lane 2 alternative. Keep B5 parked."
+    },
+    {
+      "round": 17,
+      "date": "2026-07-21",
+      "mode": "P-LATTICE-SCHEMA-FREEZE without enumeration",
+      "results_digest": "P-LATTICE-SCHEMA-FROZEN: the legacy six-axis protocol is canonically encoded as a Layer-0 semantic precondition plus ordered L1-L7 structural axes. Finite axis domains, typed construction-side provenance, five compatibility rules, and tuple canonicalization are frozen. All 11 cells have total signatures; all 88 slots remain explicitly unresolved and non-generative. Zero cells were generated or graded.",
+      "chairman_synthesis": "Resolve the declared C1 baseline from owner evidence next, then propagate only explicit inheritance and retain declared deltas as unresolved until independently supported. P-OBS-LEG remains the strongest independent Lane 2 alternative. Keep B5 parked."
     }
   ]
 }

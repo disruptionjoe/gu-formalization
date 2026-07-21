@@ -54,10 +54,10 @@ def main() -> None:
 
     check("map still has 11 declared cells", len(cells) == 11, str(len(cells)))
     check("all cells retain human axis notes", all("axis_notes" in cell for cell in cells))
-    structured = sum("axis_signature" in cell for cell in cells)
-    check("no structured signatures are silently inferred", structured == 0, str(structured))
-    check("axis domains are not yet frozen", "axis_domains" not in map_data)
-    check("compatibility constraints are not yet frozen", "compatibility_constraints" not in map_data)
+    structured = lattice["structured_axis_signatures"]
+    check("admission recorded zero structured signatures", structured == 0, str(structured))
+    check("admission recorded the missing axis-domain blocker", "axis domains" in lattice["blocker"].lower())
+    check("admission recorded the missing compatibility blocker", "compatibility" in lattice["blocker"].lower())
     check("admission stops on parameterization", lattice["status"] == "BLOCKED_PARAMETERIZATION")
     check("admission records zero generated cells", lattice["generated_cells"] == 0)
     check("next step is the schema freeze", lattice["next_probe"] == "P-LATTICE-SCHEMA-FREEZE")

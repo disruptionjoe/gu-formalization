@@ -2,54 +2,53 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-21T03:38:37-05:00'
-run_ref: RUN-20260721-033643-repository-work-cycle-cai-hourly
-bottom_line: 'P-LATTICE-SWEEP is awake but blocked before enumeration because
-  the current map is a prose ledger, not a frozen generative axis grammar.'
-decision_default: Freeze the lattice schema before generating candidates; keep
-  P-OBS-LEG as the Lane 2 alternative and B5 parked.
+updated_at: '2026-07-21T04:39:29-05:00'
+run_ref: RUN-20260721-043714-repository-work-cycle-cai-hourly
+bottom_line: 'The lattice schema is frozen and all 11 cells have conservative
+  total signatures, but all 88 slots remain unresolved and non-generative.'
+decision_default: Resolve the C1 baseline signature from owner evidence before
+  propagating explicit inheritance; keep P-OBS-LEG alternative and B5 parked.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: p_lattice_blocked_parameterization
-  evidence_ref: explorations/p-lattice-sweep-admission-2026-07-21.md; tests/recovery-contract/construction_space_lattice_admission.py
+  reason_code: p_lattice_schema_frozen_resolution_pending
+  evidence_ref: explorations/p-lattice-schema-freeze-2026-07-21.md; tests/recovery-contract/construction_space_lattice_schema_freeze.py
   work_status: moving
-  last_movement: Woke the lattice sweep, audited compiler admission, and stopped
-    before generating cells because the axis grammar is not frozen.
-  movement_ref: explorations/p-lattice-sweep-admission-2026-07-21.md
+  last_movement: Froze the canonical L0 plus L1-L7 grammar, provenance,
+    compatibility, and tuple identity; migrated 11 cells without enumeration.
+  movement_ref: explorations/p-lattice-schema-freeze-2026-07-21.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The construction compiler cannot safely expand prose deltas without
-    inventing native or conventional defaults and cross-axis compatibility.
-  progress_delta: 'Confirmed both lattice prerequisites resolved, inventoried
-    11 cells with zero structured signatures, and froze a zero-generation stop
-    plus the exact schema packet needed to unblock enumeration.'
+  summary: The map is structurally total but deliberately unresolved; owner
+    evidence must fix C1 before inherited values can be propagated safely.
+  progress_delta: 'Frozen domains and five compatibility rules, made
+    construction-side provenance part of tuple identity, and migrated all 11
+    cells to total signatures with 88 explicit unresolved slots.'
   scope_position: 'Eleven declared cells and 44 track slots remain; zero new
     lattice cells were generated. B5 remains parked at source-gap grade.'
   trend_24h: up
   confidence: med
-  recommendation: Run P-LATTICE-SCHEMA-FREEZE if Lane 1 retains the lead; keep
-    the already-awake P-OBS-LEG as the strongest Lane 2 alternative.
-  findings: 'All 11 cells have axis_notes, none has a total axis_signature,
-    and no axis domains, compatibility constraints, or canonicalization are
-    frozen. The six-axis label also enumerates Layer0 plus L1-L7.'
+  recommendation: Run P-LATTICE-SIGNATURE-RESOLUTION-C1 if Lane 1 retains the
+    lead; keep P-OBS-LEG as the strongest Lane 2 alternative.
+  findings: 'The canonical shape is Layer-0 plus L1-L7. All 11 cells have total
+    typed signatures; every slot is unresolved and therefore non-generative.'
   options:
   - key: A
-    label: Freeze lattice schema
+    label: Resolve C1 signature
     recommended: true
   - key: B
     label: Hold B5 for primary source
   - key: C
     label: Reopen source-blocked pencil
-  decision_default: Do not generate lattice candidates from prose defaults;
-    freeze the schema first and do not reopen B5.
+  decision_default: Do not generate lattice candidates from unresolved tuples;
+    resolve C1 from owner evidence first and do not reopen B5.
   needs_joe: false
-  evaluated_at: '2026-07-21T03:38:37-05:00'
-  run_ref: RUN-20260721-033643-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T04:39:29-05:00'
+  run_ref: RUN-20260721-043714-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
