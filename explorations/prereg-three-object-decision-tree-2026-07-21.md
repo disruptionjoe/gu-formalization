@@ -103,6 +103,33 @@ UPSTREAM of the phase:
 > FORCED, until the true-end check returns. θ's dissolution (if it holds) hands NO
 > bit to σ — the forcing datum is a geometric non-degeneracy, not a `Z/2` choice.
 
+> **Q1a HOSTILE-VERIFY RESULT (2026-07-21): `HV-REFUTE` — FORCED does NOT close;
+> `BLOCKED` confirmed and SHARPENED.** (`decision-tree-Q1a-hostile-verify-2026-07-21.md`,
+> probe EXIT 0.) The FORCED lean reached limit-point by PLANTING bounded coefficients
+> (`P=1+0.2sin`, `T=1+0.5sin`, `φ'=0.24cos`) — a toy that never touched the
+> GL(4,R)/O(3,1) geometry, the same move Prong B made with the compact collar. At the
+> TRUE ends: (iii) `C_0=√|q|`, `V`, `W~` blow up **exponentially** on generic
+> degeneration rays (not bounded); (ii) the `min P/(P+T)=0.36` "floor" is a
+> finite-collar existence-domain floor on the surviving sector, NOT a true-end floor —
+> 10% of a 4000-ray sweep fall below it and cross into the `q<0` K-null sector where
+> no K-definite cut exists (the apparatus defining `A~` exits its domain); (D) gap D is
+> a **type error** — GL(4,R)/O(3,1) has non-compact isotropy O(3,1), carries NO
+> invariant Riemannian metric, so the Chernoff "complete metric ⇒ LP" default is
+> unavailable; (B) the J-symmetric Krein deficiency indices can be UNEQUAL (⇒ no
+> self-adjoint extension at all) and the Hermitian-reduction probe can't see it.
+> WHAT SURVIVES (theorem-grade): leg (i), `B=-iK_uG` non-degenerate (`‖B‖=‖B⁻¹‖=1`)
+> wherever `P>0` — the one forced sub-fact — but it ALONE does not force limit-point.
+> **RECONCILED VERDICT: `Q1a-BLOCKED-SHARPENED`.** The classification is genuinely
+> unfixed by committed structure; the hourly BLOCKED was right; the deeper run's
+> mechanism is real but discharges only B-non-degeneracy. **Exact remaining lemma
+> (the reopen packet, now precisely named):** *there is a GU-owned measure `w(s)ds`
+> for which (a) `A~` is J-self-adjoint with EQUAL Krein deficiency indices, (b) the
+> measure-normalized `W~`, `φ'` are bounded with `K_u` aligning at each end, and (c)
+> every genuine fiber end lies in the spacelike-gapped sector.* Under it, LP holds, θ
+> dissolves (0 bits), and `OPERATOR-END-PENCIL` closes; without it, θ is undetermined.
+> So the θ term in the external bit-budget is **conditional on this one measure-lemma**
+> — the highest-value concrete open target the swing can attack.
+
 ### Q2 (σ): forced, free, or standpoint-supplied?
 Given externality, is the `Z/2`:
 - **FORCED** by an internal necessity (positivity / unitarity / record-
