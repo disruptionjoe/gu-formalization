@@ -29,6 +29,12 @@ canon_verdict_change: none
 public_posture_change: none
 ---
 
+> **CORRECTION (2026-07-20, hostile verify — verify-s1-pairing-2026-07-20.md, commit a4a402c). Verdict NOT-DRY, outcome demoted U-a -> U-b (PARTIAL). No kill, but the headline overclaimed:**
+> - "k_sigma IS a weak value" is WRONG as stated. With f = K_S i the weak-value DENOMINATOR vanishes identically (K_S-null columns; tr(K_S A) = 0). k_sigma is a weak-value NUMERATOR-SUM over a zero normalizer — structurally NOT a normalized weak value. The 14421.0033 "reconstruction" is a TRACE TAUTOLOGY (holds for arbitrary Hermitian K, arbitrary P, arbitrary X) — zero independent information.
+> - The lattice edges are weaker than stated: P-WV->P-PT and P-WV->P-CPT are DEFINITIONAL (content-free); P-BM = P-BT is a generic 2x2 antidiagonal shape (REPRODUCED-ONLY, not a unique-object identity); only P-PT->P-BM (crossed-halves null) is genuinely fixture-specific and CONFIRMED.
+> - "Inherits the weak-value EXPERIMENTAL literature" is title-level overreach past the body's own disclosure (no interaction protocol; reading-technology shape only).
+> WHAT SURVIVES (real): the pairing-SHAPE family (they share the K_S-post-selected pairing FORM), the null-halves lemma, and — genuinely a theorem — the SELECTION-RULE BOUNDARY (K_S is a Hermitian involution, so every positive-state functional is K_S-even and sector-blind; the plant excluded structurally). Original text retained below per record discipline; do NOT cite the weak-value-identity or experimental-literature framing.
+
 # S1: the pairing family, unified at matrix grade
 
 The 2026-07-20 Steinberg intake (`explorations/intake-steinberg-negative-time-2026-07-20.md`,
