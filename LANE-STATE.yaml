@@ -2,53 +2,53 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T19:37:05-05:00'
-run_ref: RUN-20260720-193705-repository-work-cycle-cai-hourly
-bottom_line: 'The access-question nesting recorded in GU triage cannot naturally
-  close into the trit: its symmetry is trivial, while the trit requires an external
-  S_3 label.'
-decision_default: Keep TRIT interpretation shape closed and pursue only the external
-  label-provenance question through the B.5 source-object program.
+updated_at: '2026-07-20T21:36:50-05:00'
+run_ref: RUN-20260720-213637-repository-work-cycle-cai-hourly
+bottom_line: 'The operator-end theorem cannot use the probe''s two-ended Dirichlet
+  domain: the continuum first-order pencil is injective with codimension-d range
+  for every z.'
+decision_default: Freeze a deck-compatible maximal isotropic boundary condition
+  before attempting the remaining continuum pencil estimate.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: trit_closure_fails_naturality
-  evidence_ref: explorations/trit-closure-swing-2026-07-20.md
+  reason_code: dirichlet_domain_exact_cokernel
+  evidence_ref: explorations/continuum-pencil-domain-gate-2026-07-20.md
   work_status: moving
-  last_movement: Executed the pre-registered cyclic-closure swing; the total-order
-    nesting supplies no order-three automorphism.
-  movement_ref: explorations/trit-closure-swing-2026-07-20.md
+  last_movement: Fired the continuum pencil's first stop condition and excluded
+    the finite probe's two-ended Dirichlet domain exactly.
+  movement_ref: explorations/continuum-pencil-domain-gate-2026-07-20.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The three-question nesting recorded in GU triage has trivial symmetry
-    and cannot supply the trit's order-three action without an imported wrap.
-  progress_delta: 'Candidate 5 closed adversely with seven finite checks: the
-    directed-chain plant fails and the S_3 triangle positive control passes.'
-  scope_position: 'TRIT interpretation shape closed at fixture grade; external
-    S_3-label provenance remains open in the B.5 source-object program.'
+  steering_ref: lab/process/research-portfolio.json#OPERATOR-END-PENCIL
+  summary: The ordinary two-ended Dirichlet surrogate is not a viable continuum
+    domain for the first-order collar pencil; the native Krein boundary class remains open.
+  progress_delta: 'Converted an unspecified domain caveat into an exact codimension-d
+    adjoint obstruction and isolated the finite-dimensional boundary datum.'
+  scope_position: 'DOMAIN-OBSTRUCTION-DD only; no no-go for a deck-compatible
+    maximal isotropic Krein boundary condition.'
   trend_24h: up
   confidence: med
-  recommendation: Pursue label provenance; do not reopen cyclic closure without
-    materially new structure
-  findings: 'Arity 3 does not provide a cyclic action. Either wrap adds structure
-    absent from the nesting; the later external-S_3-label result stands.'
+  recommendation: Freeze the Green form and one deck-compatible Lagrangian boundary
+    relation, then test the continuum pencil on a common z-region
+  findings: 'For H1_0, the pencil is injective while its maximal-domain adjoint
+    has a d-dimensional homogeneous solution space, so surjectivity fails for every z.'
   options:
   - key: A
-    label: Pursue label provenance
+    label: Freeze native boundary domain
     recommended: true
   - key: B
-    label: Preserve closure result
+    label: Pursue B.5 label provenance
   - key: C
-    label: Retain operator fronts
-  decision_default: Keep the nesting/P2C closure killed at finite structural grade;
-    test only what source object supplies the external S_3 label.
+    label: Preserve torsor/N6 result
+  decision_default: Keep the Dirichlet surrogate excluded and advance only a
+    frozen deck-compatible maximal isotropic boundary domain.
   needs_joe: false
-  evaluated_at: '2026-07-20T19:37:05-05:00'
-  run_ref: RUN-20260720-193705-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T21:36:50-05:00'
+  run_ref: RUN-20260720-213637-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

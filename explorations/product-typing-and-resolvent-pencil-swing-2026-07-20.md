@@ -19,6 +19,13 @@ external_actions: none
 
 # Product typing and resolvent-pencil swing
 
+> **Successor (2026-07-20):**
+> `continuum-pencil-domain-gate-2026-07-20.md` fires the first stop
+> condition. The probe's two-ended Dirichlet domain makes the continuum
+> first-order pencil injective with codimension-$d$ range for every $z$.
+> This is `DOMAIN-OBSTRUCTION-DD`, not a failure of the native Krein theorem;
+> the next object is a deck-compatible Lagrangian boundary condition.
+
 ## Bottom line
 
 The highest-information swing did not require the large coupled-product run.

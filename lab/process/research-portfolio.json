@@ -946,6 +946,24 @@
       "forbidden_shortcut": "Do not create a parallel GU drafting queue or treat seed routing as paper production."
     },
     {
+      "id": "OPERATOR-END-PENCIL",
+      "lane_id": "1",
+      "channel": true,
+      "title": "Close the single-carrier continuum resolvent-pencil theorem",
+      "objective": "Construct or obstruct the exact operator domain and a common resolvent region for the native Krein section family without importing the finite-grid artifacts.",
+      "state": "ACTIVE_DOMAIN_GATE",
+      "owner": "gu-formalization",
+      "hourly_eligible": true,
+      "priority_score": 22,
+      "depends_on": [],
+      "current_authority": "The Lawvere product burden is algebraic. Two-ended Dirichlet is now exactly excluded for the continuum first-order pencil: it is injective with codimension-d range for every z. The native Krein theorem remains open on a maximal isotropic boundary domain.",
+      "evidence_ref": "explorations/continuum-pencil-domain-gate-2026-07-20.md",
+      "next_swing": "Compute the Green boundary form, freeze one deck-compatible maximal isotropic trace relation without z/delta tuning, prove closed Krein self-adjointness, and then test the resulting pencil on a common z-region.",
+      "kill_condition": "A boundary-condition-independent adjoint solution or boundary monodromy obstruction on every deck-compatible maximal isotropic domain kills this collar realization at the proved grade.",
+      "switch_condition": "Switch only if the native boundary class is exhausted, a stronger source-object packet changes the construction, or a higher-value Lane 1 falsification target becomes concretely executable.",
+      "forbidden_shortcut": "Do not treat the Hermitian central-difference inverse as a continuum Dirichlet resolvent, and do not inflate the Dirichlet-domain obstruction into a no-go for the native Krein domain."
+    },
+    {
       "id": "TRIT-INTERPRETATION",
       "lane": "1",
       "channel": true,
