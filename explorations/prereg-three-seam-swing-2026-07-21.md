@@ -78,3 +78,32 @@ formulation) — run in parallel; hostile-verify A-RECONCILED and B-THEOREM befo
 banking; classify C honestly by tier. A-RECONCILED would dissolve the top open seam;
 B-THEOREM is the hardest experimental-contact prediction; C decides whether the
 boldest bet is a direction or a scaffold.
+
+## RESULTS (Prong C in; A & B pending)
+
+- **Prong C — `C-SCAFFOLD` (keep)** (`three-seam-prongC-two-time-boundary-2026-07-21.md`,
+  probe exit 0). GU SUPPORTS two-time boundary structure, and it is NATURAL not an
+  added posit: three independent facts converge — the ultrahyperbolic (9,5) arena has
+  NO clean Cauchy problem (two-sided boundary data is the well-posed alternative),
+  Weinstein says exactly this ("no initial conditions... boundary conditions"), and
+  Prong 0's ~8% `q<0`/K_S-null stratum is a genuine FINITE boundary (the wild-frontier
+  "genesis seam" = the orthodox APS boundary, same fact). A two-boundary field carries
+  a future-conditioned two-point correlation a one-boundary (ΛCDM-analog) field forbids
+  (`max|C2−C1|=2.7e-2` at a finite final boundary) — BUT it WASHES OUT as the boundary
+  recedes (`~exp(−2κ·T_final)`); at an infinite (de Sitter far-future) boundary it is
+  observationally IDENTICAL to one-time ΛCDM. So a distinct prediction exists IFF a
+  finite, structurally-fixed final-boundary locus is supplied. Controls: PLANT-1
+  ("two-time natural for any signature") and PLANT-2 ("always observably distinct")
+  both rejected. **NAMED DOWNSTREAM FALSIFIABLE (the scaffold's target):** a
+  construction-grade bridge fixing a finite cosmological `z*` from the image of the
+  fiber null-stratum ⇒ the two-time formulation predicts a future-conditioned
+  large-scale / low-ℓ cosmological correlation at the scale set by `z*` that ΛCDM
+  forbids. This is exactly what would UPGRADE Prediction Packet 1 from its confessed
+  non-distinctiveness (bare `w≥−1`, shared with all quintessence) to a genuinely
+  distinctive prediction. **Promotion condition SCAFFOLD→FALSIFIABLE:** a
+  fiber-null-stratum → finite-`z*` map — the SAME unowned selector Prong A (source-
+  domain-selector) localized as `S-SILENT-OPEN`, carried to a cosmological locus. Tier
+  honesty: not vacuous (real coherence; inside-invisibility of the genesis seam is a
+  predicted feature per the three-tier rule), not falsifiable (washes out / scale
+  unfixed without the bridge). Registry: this is entry H-H1, now with a named promotion
+  path.
