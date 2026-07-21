@@ -129,3 +129,36 @@ boldest bet is a direction or a scaffold.
   survives — sigma = w1(L_time), an orientation class of a canonical LINE BUNDLE, not of the shard
   cycle. The council members' OTHER legs (confluence<=>H1, generation counting, the descent/cocycle
   relative-orientation rule) are untouched. Registry T-E2 = RESOLVED.
+
+- **Prong B — `B-FAILS` (the over-billed prediction dies on hostile verify — a real finding)**
+  (`three-seam-prongB-no-fourth-generation-2026-07-21.md`, probe exit 0, operator/fixture grade).
+  GU does NOT force exactly three same-signature generations and does NOT forbid a fourth; a fourth
+  same-signature copy is CONSTRUCTIBLE. The two council derivations are TWO theorems, not one, and
+  CRT-disjoint of different KIND: topological (the "3" is the ORDER of a torsion class Z/3 in
+  pi_3^s=Z/24, 3-primary, tangent-frame side) vs rep-theoretic (the "3" is a DIMENSION, dim su(2)=3,
+  2-primary, internal-fiber side). Fusing them equates an ORDER with a DIMENSION — exactly the pun
+  `canon/three-generations-locate-not-force-CRT-RESULTS.md` ALREADY quarantined. Multiplicity count
+  (probe): ker Gamma = 1664 = 640(j=0)+416(j=1/2)+64(j=1); the j=1 triplet has MULTIPLICITY 64 (not
+  1), each weight-block carrying the identical (+32,-32,0) signature; the Spin(10) 16 branches with
+  multiplicity 2 (half-spinor) / 4 (Dirac 128) — a fourth identical 16-copy is literally present; and
+  the quaternionic Kramers wall (M(64,H), J^2=-1) forces an EVEN index — it forbids the ODD count 3
+  and makes a fourth MORE natural, the OPPOSITE of "forbids a fourth." Controls both pass and expose
+  the arguments ("no j=3/2" forbids a spin-3/2 gen, not a 2nd copy of j=1; "Z/24 has no Z/4" is FALSE
+  — Z/24 has order-4 elements {6,18}). "No fourth" survives only as B-CONDITIONAL under the canon-
+  quarantined, physics-contradicted posit "generation = self-dual 2-form component."
+  **CORRECTION: the coherence-assessment "consequence #2" was half-wrong.** What SURVIVES: generation
+  UNIVERSALITY — three (or more) copies with IDENTICAL intrinsic quantum numbers / signature
+  (+32,-32,0). What FAILS: the COUNT-CAP — GU does NOT predict "exactly three / no fourth." So a
+  fourth SM-signature generation would NOT falsify GU (registry T-B1 is an INVALID GU-falsifier;
+  T-B3 = RESOLVED = FAILS).
+
+## FINAL — three-seam swing complete (A-NUMEROLOGY · B-FAILS · C-SCAFFOLD)
+Two honest kills and one kept scaffold. **A** settled the #1 seam: the circle-as-σ reading is
+numerology (tested in GU's native frame); σ = w1(L_time) stands alone. **B** killed the over-billed
+no-fourth-generation prediction (a quarantined order-vs-dimension pun; GU admits a fourth); what
+survives is generation UNIVERSALITY, not a count-cap. **C** kept the two-time boundary as a natural
+scaffold with a named path to make Prediction Packet 1 distinctive. Net: the falsification battery is
+now HONEST — one spurious "prediction" removed (no-fourth), one seam closed (circle), one real
+scaffold-with-target retained (two-time / z*-bridge). The surviving hard structures remain
+σ = w1(L_time), σ-unreadability (conditional on the α-even bridge), σ⊥τ, one-global-arrow, and the
+~8%=concurrency computation.
