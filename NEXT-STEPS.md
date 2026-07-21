@@ -179,6 +179,14 @@ updated_at: "2026-07-21"
 > central-value margin. Evidence: `explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md` and
 > `tests/W226_de_tripwire.py`.
 >
+> **2026-07-21 prediction-packet shelf reconciliation:** PP1, PP2, and PP3 remain frozen. The mirror-sector
+> candidate is unnumbered and `BLOCKED_SOURCE_GAP`, not a fourth packet and not a reuse of PP3. Its decisive
+> admission blocker is the unresolved physical-state fork between K-negative modes as producible asymptotic
+> states and those same modes as projected-out ghosts; the source-selected order parameter, native Standard
+> Model embedding, and absolute event window also remain open. `PRED-CANDIDATE-PACKETS` is not hourly-eligible
+> until all four reopen conditions in its portfolio entry are met. Receipt:
+> `explorations/mirror-sector-prediction-candidate-disposition-2026-07-21.md`.
+>
 > **Lane 3 current leader:** `PROOF-STABLE-KERNELS`. First establish the default-target green baseline, integrate
 > the sorry-free and axiom-free `R4_TwoArena` certificate, retire the un-typechecked A1 duplicate, and only then
 > specify the W243/GU-002 finite kernel. Lean is a method in Lane 3, not its own lane, and never rises merely
