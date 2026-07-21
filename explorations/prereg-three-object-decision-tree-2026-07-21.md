@@ -83,6 +83,26 @@ UPSTREAM of the phase:
 > `decision-tree-Q1a-limit-classification-2026-07-21.md`. Q1b is inactive until
 > LC boundary freedom is established; do not rerun Q1a on the same inputs.
 
+> **Q1a DIVERGENT DEEPER READ (2026-07-21, independent run) — `Q1a-FORCED` LEAN,
+> PENDING HOSTILE VERIFY.** A second, independent Q1a run
+> (`decision-tree-Q1a-fiber-end-classification-2026-07-21.md`) did NOT stop at
+> "asymptotics not committed." It derived a structural mechanism the BLOCKED read
+> missed: `B = -iK_uG` is an **involution product**, so all its singular values
+> equal 1 (`‖B‖=‖B⁻¹‖=1`) wherever `P>0` — **theorem-grade** non-degeneracy — so
+> `B` degenerates ONLY if `P→0`; section theory computes `P` **floored** (min
+> `P/(P+T)=0.36`, `P=0` stratum empty) and `W~` (carrying `C_0=√|P−T|`) bounded ⇒
+> **limit-point ⇒ unique forced domain ⇒ θ dissolves ⇒ `OPERATOR-END-PENCIL`
+> closes on the noncompact fiber with NO imported boundary datum.** This SUPERSEDES
+> BLOCKED in depth (it reduces the open question from "unknown asymptotics" to ONE
+> gap) but is explicitly a **strong structural lean, not a closed theorem** — the
+> agent named 4 hardening gaps, of which **gap C is load-bearing**: `P`-floor and
+> the winding rate `φ'`/`V` are checked at SAMPLED/COLLAR grade, not at the TRUE
+> noncompact fiber ends — the same collar-vs-true-end trap HV caught in Prong B.
+> RECONCILED STATE: the LP/LC question is reduced to one scalar's true-end
+> behavior; **HV launched to attack gap C**; verdict is FORCED-LEAN, not banked as
+> FORCED, until the true-end check returns. θ's dissolution (if it holds) hands NO
+> bit to σ — the forcing datum is a geometric non-degeneracy, not a `Z/2` choice.
+
 ### Q2 (σ): forced, free, or standpoint-supplied?
 Given externality, is the `Z/2`:
 - **FORCED** by an internal necessity (positivity / unitarity / record-
