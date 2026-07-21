@@ -68,6 +68,47 @@ numerically supported (then QUARANTINE for hostile verify; Krein-Mourre on
 the definite strip is the proof route). The verdict is NOT final until the
 over-singular control (gate power) and the product 2nd point are in.
 
+## UPDATE (same session): the gap run COMPLETED — outcome U-OBSTRUCTION
+
+The gaps probe finished (exit 0). New data:
+- PRODUCT slope: N=65=10.796, N=129=8.737 -> pr_tau = -0.309 (REGULAR;
+  product-uniformity holds at 2-block grade — U shrinks with N).
+- CONTROL neg#1 over-singular: N=65=34.246, N=129=17.896 -> os_tau = -0.947
+  (SHRINKS; did NOT diverge).
+
+**Adjudicated outcome: U-OBSTRUCTION** — every carrier (gapped, crossing,
+product) reads REGULAR (all slopes negative), which is CONSISTENT with
+U-REGULAR, BUT the gate's POWER is unconfirmed because the negative control
+did not fire.
+
+**Diagnosis (a real test-design flaw the discipline caught):** the
+over-singular control was built as exponent=1.0 on (q + i*DELTA) at FIXED
+DELTA=0.3. At fixed delta, (q+i delta)^{-1} is BOUNDED — delta regularizes
+it — so it is NOT actually singular in resolvent norm; the true singular
+behavior is the delta->0 limit, which this probe does not take. So the
+"over-singular" control tests nothing, and its non-divergence is expected,
+not informative. The gate power is therefore genuinely UNCONFIRMED: with
+this construction we cannot distinguish "the wall is regular" from "the
+metric is blind to singularity at these N/delta."
+
+**What this does NOT change:** the single-carrier + product slopes are all
+regular (encouraging, consistent with U-REGULAR). What it DOES change: the
+claim ceiling is U-OBSTRUCTION, not U-REGULAR, until a PROPER power control
+exists.
+
+## CORRECTED REMAINING WORK (supersedes the list above)
+
+The blocker is no longer runtime — it is the CONTROL DESIGN. To reach a
+real verdict:
+1. Replace the fixed-delta over-singular control with a DELTA-LADDER: show
+   that a genuinely singular reference (e.g. the section resolvent on a
+   NULL-Q ray, or (q+i delta)^{-1/2} as delta->0 on a crossing ray) has
+   U(delta) GROWING as delta->0, while the regular carriers stay bounded.
+   That establishes gate power in the correct (delta) variable.
+2. OR use a reference operator with an analytically KNOWN singular
+   resolvent as the positive-divergence control.
+3. Then re-adjudicate: regular carriers + a firing power control => U-REGULAR.
+
 ## HANDOFF
 
 A fresh agent (or a machine without the local ceiling) runs
