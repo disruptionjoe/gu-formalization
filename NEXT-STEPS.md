@@ -92,6 +92,18 @@ updated_at: "2026-07-21"
 > evidence exists, `P-OBS-LEG` remains the strongest independent Lane 2 alternative. B5 stays parked. Receipt:
 > `explorations/p-lattice-signature-resolution-c1-2026-07-21.md`.
 >
+> **2026-07-21 LANE-1 REPOINTED (Joe explicit priority change):** the hourly kept defaulting to lattice
+> enumeration because the score formula subtracts effort+wall_risk, demoting the two highest-value Lane-1
+> items below the safe lattice item — contradicting `lane_one_is_protected_from_difficulty_demotion`. Scoping
+> the pencil theorem showed its only open piece (`DOMAIN-OBSTRUCTION-SOURCE`), B5's block, and the C1 L7
+> Krein-probability gap are the SAME missing object: the source-owned boundary/domain data of the actual GU
+> construction. New Lane-1 lead: `OPERATOR-END-PENCIL` reopened (READY, hourly-eligible) to run the
+> **SOURCE-DOMAIN-SELECTOR swing** — Prong A mines the fresh Weinstein primary corpus for a construction-grade
+> endpoint/asymptotic relation (unblocks the pencil AND co-determines B5); Prong B attempts the boundary-
+> monodromy no-go if the source is silent. Pre-declared outcomes + planted-positive control + hostile verify.
+> `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. Steward flag: reconcile the difficulty-demotion
+> scoring conflict. Brief: `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
+>
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,
