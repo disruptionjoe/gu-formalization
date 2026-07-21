@@ -162,7 +162,7 @@ Registration mechanics for the prediction-paper type:
      stays in the repo awaiting a paper it can join. Tests are
      evaluated by a council/steward pass, not by enthusiasm.
 
-## Current shelf (at rule adoption)
+## Historical shelf (at rule adoption)
 
 - PP1 (frozen 2026-07-19): dark-energy sign — w0+1 > 0, w(z) >= -1
   pointwise; conditional chain per blockbuster-p1 doc; kills named.
@@ -170,5 +170,22 @@ Registration mechanics for the prediction-paper type:
 - Candidate packet 3: mirror-sector charged vectorlike replica — gated on
   weld probes W-A/W-B; possible mu-finite upgrade via the causality
   theorem.
+- Standing tripwire: DE-F1 ceiling (predates the rule; grandfathered as a
+  frozen row).
+
+## Current shelf (updated 2026-07-21)
+
+- PP1 (frozen 2026-07-19): dark-energy sign; conditional chain and kill
+  thresholds are stated in the packet.
+- PP2 (frozen 2026-07-19): matter-parity stable-state event class,
+  conditional on the 126-type rank-drop route.
+- PP3 (frozen 2026-07-20): dark-energy one-parameter thawing curve family,
+  conditional on the source action.
+- Unnumbered mirror-sector candidate (blocked 2026-07-21): W-A admits only
+  an unselected quadratic composite, W-B is spectrally silent, and the proposed
+  collider event class cannot be typed until the K-negative sector is resolved
+  as either producible asymptotic states or projected-out ghosts. Absolute mass
+  and the native Standard Model embedding also remain open. See
+  `explorations/mirror-sector-prediction-candidate-disposition-2026-07-21.md`.
 - Standing tripwire: DE-F1 ceiling (predates the rule; grandfathered as a
   frozen row).
