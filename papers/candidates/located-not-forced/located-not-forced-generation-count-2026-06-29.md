@@ -127,7 +127,7 @@ beyond C finds no sector-interior odd-prime congruence, with a demonstrably shar
 appear one step outside C: `54 -> 3`, `120 -> 7`, `126 -> 5.7`; `canon/enum-completeness-class-c-RESULTS.md`).
 **Completeness over the full unrestricted / function-space theory remains open** -- Theorem 1 is not an
 impossibility statement over all conceivable obstructions.
-Second, a **machine-verified index-conservation theorem**: the invariant Krein
+Second, a **structure-level index-conservation theorem**: the invariant Krein
 form on the generation triplet is purely cross-chirality `(+96, -96)`, so every *linear* Krein-isometric
 operator conserves the net chiral index at zero -- a finite-dimensional fact (the cross-chirality `(96,96)` form
 makes every physical subspace chirality-balanced; no Fredholm theory), confirmed in the physical signatures
@@ -736,7 +736,7 @@ feeding the two-arena reading.
 | --- | --- |
 | The no-go is 2-primary (no odd-prime congruence); the enumeration is complete for the delimited class C | theorem (enumeration); class-C completeness computed grade, engine-swept beyond C with a sharp boundary (`canon/enum-completeness-class-c-RESULTS.md`); completeness over the unrestricted / function-space theory open |
 | CRT two-arena reading (`pi_3^s = Z/8 (+) Z/3`, summands disjoint) | decomposition standard; the two-arena structural reading is the contribution, under the torsion-count reading |
-| Linear Krein-isometric operators conserve the net chiral index | theorem (machine-verified; structure-level symbolic proof over abstract cross-chirality Krein space, `canon/core-theorems-symbolic-proof-RESULTS.md`) |
+| Linear Krein-isometric operators conserve the net chiral index | theorem for the IMPLICATION (structure-level symbolic proof: a maximal-K-positive subspace meets a K-isotropic subspace only at 0 => net chiral index 0, over an abstract cross-chirality Krein space, `canon/core-theorems-symbolic-proof-RESULTS.md`); the physically load-bearing premises -- that GU's carrier has the (+96,-96) K-null cross-chirality structure -- are numpy-verified at 1e-9 (internal tier), with an exact rep-theory discharge (the MOVE-4 pattern) the path to full rigor |
 | The unique escape is antilinear (class-CII type) | corollary (Wigner) + machine-verified |
 | The antilinear chiralizer is frame-trivial, couples gauge (selector arena) | computed-confirmed; frame-triviality is evadable only into a 2-primary, index-conserving linear channel |
 | No interior operator forces an odd chiral count; the count is external by structure (modulo the function-space APS/end + family-index residual) | class-level structural no-go (GU-independent); interior even over the complete delimited class C, so an odd count is necessarily external (`canon/external-by-structure-synthesis-RESULTS.md`); linear leg theorem-grade (index conservation); antilinear leg closed over the null-eigenspace class -- all antilinear re-gradings with K-null chirality eigenspaces, strictly larger than Krein-compatible (index-nullity theorem, `canon/antilinear-bound-RESULTS.md`, `canon/antilinear-nonkrein-admissibility-RESULTS.md`; residual: a nonzero count needs a K-definite non-chirality re-grading, function-space extension open) |
