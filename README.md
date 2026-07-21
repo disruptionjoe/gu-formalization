@@ -59,10 +59,10 @@ of geometry to be the true account of physics. GU is the generative engine, not 
 product is true structure at honest grade plus a reliable truth-seeking method.
 
 **The standard, made precise.** A theory whose subject matter includes the observer's own orientation
-cannot, from inside, *derive* the one datum that selects which world it is in — here that is a result, not a
-posture: the sector bit is Gödel-independent / oracle-relative, and the program's summit operator provably
-does not close from structure without it (the excision that would evade this is anomaly-protected, i.e.
-forbidden — proposal grade). So "the program must natively *force* all of physics" is the wrong bar; it
+cannot, from inside, *derive* the one datum that selects which world it is in — here that is a result (proven
+for the *reconstructed* summit operator; GU's own source action is not yet built), not a posture: the sector
+bit is Gödel-independent / oracle-relative, and that operator provably does not close from structure without
+it (the excision that would evade this is anomaly-protected — forbidden, at proposal grade). So "the program must natively *force* all of physics" is the wrong bar; it
 demands the one thing the structure forbids. This class is a **model-schema**, and the external data select
 the model. It is therefore held to the standards that actually apply to non-derivable truth:
 
@@ -77,12 +77,16 @@ the model. It is therefore held to the standards that actually apply to non-deri
 
 **The irreducible external ledger.** Exactly two data enter from outside: **σ** — one Z/2, the
 orientation / time-reversal bit (the spin-cover deck class `w₁`) that fixes the dark-energy sign and the
-boundary — and **τ** — one Z/3, which locates the three generations. Both are provably unreadable and
-unmintable from inside; the program is complete *modulo* them, never without them. (σ's cardinality = one bit
-and its anomaly-protection are proposal grade; the DE-sign prediction is the load-bearing falsifiable.)
+boundary — and **τ** — one Z/3, associated with the generations (that the count is *three* is a native value
+present but **not forced** — an open question, not a theorem). σ is unreadable and unmintable from inside;
+given the two, the program *hosts* most physics **modulo** them — it fits, conditionally; it does not yet
+*force* it — and never stands without them. (σ's cardinality = one bit and its anomaly-protection are
+**proposal grade** — a three-link chain resting on an analogy-tagged deck action, closing only on the exact
+`Ω^{Pin⁺}₁₄` order; the DE-sign prediction is the load-bearing falsifiable.)
 
 **Honest current standing.** Given σ and τ supplied, the construction *hosts* most of physics at
-consistency-to-hosting grade and *forces* the dark-energy sign; on the unexplained-joints ledger it is the
+consistency-to-hosting grade and *fixes* the dark-energy sign (toy-grade, conditional on the SRC-COH-1
+construction axiom — not yet forced from a built source action); on the unexplained-joints ledger it is the
 better arena than the rivals, but **modestly** (a factor of ~2–3, not orders of magnitude), and native
 recovery is gated on one blocked source-action spine. It does not yet *force* physics, and the bit is
 imported, not earned — and by the standard above, that is the correct posture, not a deficiency. The
