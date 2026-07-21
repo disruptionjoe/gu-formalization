@@ -103,9 +103,7 @@ tells a truer, more complete story of physics. It matters because the static pic
 provably *exhausted* at the discrete level — its bit and trit reach only signs and counts —
 while the deepest questions still open (the arrow of time, the becoming of records, the scale
 of the dark energy) are all **continuous and dynamical**. This repository exists to find
-whether *one dynamical law* reaches them, and to settle honestly whether it does. The horizon
-is unification; the near-term test that keeps the horizon honest is whether the dynamics
-**natively deliver the dark-energy amplitude** the static data provably cannot.
+whether *one dynamical law* reaches them — and to settle it honestly, either way.
 
 ### PASSION — the agent capability this repository is a testbed for
 
@@ -147,12 +145,18 @@ sinks of learnings*, not as walls:
 repo is fully responsible for checking every learning — its own or borrowed — against what it
 knows, at honest grade. That responsibility, not a boundary, is what keeps it disciplined.
 
-**One exception the council flagged, adopted here (Joe to confirm):** self-check substitutes
-for a boundary on *ingest*, but **not** for the jointly-held tri-repo *identity* gate. A
-self-audit cannot be trusted on the very merger (GU=TaF=TI) it would want to cohere, so the
-identity stays gated — explore it, never let it become load-bearing, and **surface any
-gate-touching to Joe** rather than self-clearing it. (Capability/scope stays unbounded; only
-the cross-repo identity claim is bounded.)
+**On verification — sovereign, not dependent (Joe's revision of the council's caution).** The
+repo verifies with its **own full adversarial apparatus** — hostile-verify, planted controls,
+the rigged-ledger control, honest grading — never a naive self-audit, and **never a dependency
+on another repo to clear its work.** It can research *anything*, including the cross-repo
+identity / merger questions the tri-repo division leaves open; it is not bounded by any one
+approach and it does **not** send packets elsewhere for permission. The council's concern (an
+interested self-audit cannot be trusted on a merger it would want to cohere) is real and is
+answered by the **rigor** of the verification, not by deference: a claim about the identity
+must clear the *same hostile-verification bar* as any other claim, and until it does it is held
+at honest grade — a hypothesis, not load-bearing. Verification is a standard the repo enforces
+**on itself**, not clearance it must request. (There are always other ways to verify than
+handing the question to the repo that owns it.)
 
 ---
 
