@@ -2,53 +2,56 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T21:36:50-05:00'
-run_ref: RUN-20260720-213637-repository-work-cycle-cai-hourly
-bottom_line: 'The operator-end theorem cannot use the probe''s two-ended Dirichlet
-  domain: the continuum first-order pencil is injective with codimension-d range
-  for every z.'
-decision_default: Freeze a deck-compatible maximal isotropic boundary condition
-  before attempting the remaining continuum pencil estimate.
+updated_at: '2026-07-20T23:39:45-05:00'
+run_ref: RUN-20260720-233708-repository-work-cycle-cai-hourly
+bottom_line: 'The premium campaign localizes the highest-value open GU arrow to
+  the source-licensed B.5 middle differential; the boundary-law mailbox sharpens
+  cross-repo scope but supplies no GU claim or source object.'
+decision_default: Disposition the complete native B.5 middle-differential class
+  before independent operator-wall hardening or downstream S_3 transport.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: dirichlet_domain_exact_cokernel
-  evidence_ref: explorations/continuum-pencil-domain-gate-2026-07-20.md
+  reason_code: b5_middle_differential_priority_reconciled
+  evidence_ref: explorations/observation-to-family-b5-campaign-2026-07-20.md;
+    explorations/taf-63-persona-gu-rbt-2026-07-20/10-synthesis.md; explorations/taf-63-persona-gu-rbt-2026-07-20/14-hostile-verification.md
   work_status: moving
-  last_movement: Fired the continuum pencil's first stop condition and excluded
-    the finite probe's two-ended Dirichlet domain exactly.
-  movement_ref: explorations/continuum-pencil-domain-gate-2026-07-20.md
+  last_movement: Reconciled the hostile-verified premium campaign into the portfolio,
+    ranking the source-traceable B.5 middle-differential class above operator hardening.
+  movement_ref: lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#OPERATOR-END-PENCIL
-  summary: The ordinary two-ended Dirichlet surrogate is not a viable continuum
-    domain for the first-order collar pencil; the native Krein boundary class remains open.
-  progress_delta: 'Converted an unspecified domain caveat into an exact codimension-d
-    adjoint obstruction and isolated the finite-dimensional boundary datum.'
-  scope_position: 'DOMAIN-OBSTRUCTION-DD only; no no-go for a deck-compatible
-    maximal isotropic Krein boundary condition.'
+  steering_ref: lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL
+  summary: The exact observer-relative character ledger and zero-order obstruction
+    leave one source-licensed first-order physicalization class to construct, obstruct,
+    or source-gap.
+  progress_delta: 'Converted the premium campaign''s verified strategy into one
+    governed Lane 1 target while parking the source-blocked operator continuation.'
+  scope_position: 'B5-MIDDLE open at native GU grade; no physical family, S_3
+    transport, operational quantum sector, or four-sector recovery is earned.'
   trend_24h: up
   confidence: med
-  recommendation: Freeze the Green form and one deck-compatible Lagrangian boundary
-    relation, then test the continuum pencil on a common z-region
-  findings: 'For H1_0, the pencil is injective while its maximal-domain adjoint
-    has a d-dimensional homogeneous solution space, so surjectivity fails for every z.'
+  recommendation: Freeze the rolled source and types; stop at SOURCE-GAP if they
+    do not delimit a complete native first-order class.
+  findings: 'The compact graph-domain theorem is conditional and source-blocked;
+    the P2C access closure fails; TaF''s time face is a distinct retraction mechanism;
+    none displaces the B.5 middle-differential target.'
   options:
   - key: A
-    label: Freeze native boundary domain
+    label: Freeze B.5 source class
     recommended: true
   - key: B
-    label: Pursue B.5 label provenance
+    label: Hold source-blocked pencil
   - key: C
     label: Preserve torsor/N6 result
-  decision_default: Keep the Dirichlet surrogate excluded and advance only a
-    frozen deck-compatible maximal isotropic boundary domain.
+  decision_default: Advance only the source-traceable B.5 class; do not design a
+    favorable differential or import a conventional physics completion.
   needs_joe: false
-  evaluated_at: '2026-07-20T21:36:50-05:00'
-  run_ref: RUN-20260720-213637-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-20T23:39:45-05:00'
+  run_ref: RUN-20260720-233708-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -128,39 +131,43 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: trit_closure_pointer_reconciled
+  reason_code: boundary_law_mailbox_and_priority_reconciled
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Reconciled the stale cyclic-closure recommendation after the
-    bound adverse result and later S_3-label evidence.
+  last_movement: Dispositioned the consolidated boundary-law proposal as verified
+    awareness and repaired stale operator/trit priority text against current receipts.
   movement_ref: lab/process/research-portfolio.json
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Portfolio and Lane state now agree that interpretation shape is closed
-    and label provenance is the only live TRIT successor.
-  progress_delta: Replaced the stale closure-swing lead pointer with its adverse
-    receipt and preserved all claim, canon, and posture grades.
+  summary: Cross-repo legs are now scoped without importing sibling truth, and the
+    portfolio reflects GU''s newer source-licensed physicalization priority.
+  progress_delta: Admitted three commit-pinned owner-local receipts as awareness only;
+    corrected the false Cartan-weight-as-family wording and parked the source-blocked pencil.
   trend_24h: up
   confidence: high
-  recommendation: Steward from the reconciled label-provenance pointer
-  findings: 'Mailbox remains empty. No claim, canon, public-posture, or cross-owner
-    truth movement was made; the closure receipt is GU-local fixture evidence.'
+  recommendation: Archive the exact mailbox proposal after parent receipt and
+    continue from B5-MIDDLE-DIFFERENTIAL.
+  findings: 'TI 4474769, TaF e99f8c5, and P2C a1565a4 resolve as exploration-grade
+    sibling receipts. The proposal is not a frozen GU packet; its operator priority
+    is superseded by e370e14. No claim, canon, verdict, paper, public-posture, or
+    external-action movement occurred.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Continue from the reconciled label-provenance pointer; do not
-    revive the nesting closure on arity alone.
+  decision_default: Preserve the cross-repo mechanism distinctions and execute no
+    scientific byproduct after this fresh premium-campaign closeout.
   needs_joe: false
   drift_verdict:
-  - stale_trit_closure_pointer_repaired
+  - boundary_law_mailbox_awareness_only
+  - stale_operator_and_trit_priority_repaired
   action_counts:
-    mail: 0
-    reconciled: 1
-    integrity_repairs: 0
+    mail: 1
+    reconciled: 2
+    integrity_repairs: 2
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe.
-  evaluated_at: '2026-07-20T19:37:05-05:00'
-  run_ref: RUN-20260720-193705-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; N6 remains authorized but was not selected.
+  evaluated_at: '2026-07-20T23:39:45-05:00'
+  run_ref: RUN-20260720-233708-repository-work-cycle-cai-hourly
