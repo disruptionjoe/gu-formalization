@@ -98,4 +98,3 @@ native Spin(6,4) construction to the compact Spin(10)/Pati-Salam interpretation.
   designs around the missing differential class.
 
 Next in the standing construction-space queue is `P-RANK-FOLD`.
-
