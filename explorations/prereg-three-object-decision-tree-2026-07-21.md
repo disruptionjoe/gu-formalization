@@ -138,6 +138,22 @@ Given externality, is the `Z/2`:
 > - HV seam (flagged): exhaustiveness rests on there being no *unwelded* α-odd
 >   first-person feature; the sources exhibit none, but that is the attack point →
 >   defense-attorney pass warranted (a kill gets a defense attorney).
+> - **DEFENSE-ATTORNEY RESULT (2026-07-21): DEFENSE-FAILS — Q2-FREE is ROBUST.**
+>   (`decision-tree-Q2-defense-attorney-2026-07-21.md`, probe `10[E]+3[F]` exit 0.)
+>   All three attack lines collapse. The strongest candidate — the TaF causal-past
+>   RETRACTION π (strictly more general than the involution) — does NOT supply the
+>   middle: its orbit-cardinality axis is α-EVEN (excludes readings, cannot mint an
+>   α-odd value → Horn 2), and its orientation axis IS the σ-welded record arrow —
+>   *the retraction is the very operation that makes σ external* (→ Horn 1). Any
+>   coherence between two α-odd data is their α-EVEN product (fixes only the
+>   relative sign, never σ's absolute value → relocated Horn 1). Strengthened
+>   result: "unwelded α-odd" is not a third horn — the trichotomy (welded / α-even
+>   / unsourced-coin-with-α-even-coherence) is **exhaustive at EVERY grade** because
+>   α-parity is a grade-independent Z/2 typing. Q2 is SETTLED: the first person
+>   provably HOSTS σ and FORCES its externality but CANNOT supply its value. One
+>   named residue (stability check, not a reopener): the operator-grade base-uniting
+>   map = Q3's own missing lemma; parity predicts it only makes the coincidence
+>   harder.
 Does a single external `Z/6 = Z/2 × Z/3` fix BOTH σ and τ, or are they
 independent data? This is the "one input forces the sector AND the three
 generations" test. HV-independent — ran in parallel.
