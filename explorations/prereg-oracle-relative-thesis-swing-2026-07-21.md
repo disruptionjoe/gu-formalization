@@ -147,3 +147,52 @@ ANALOGY / WEAKENED: the FLP machinery, the hard import ceiling, and the tidy
 prescription for a stratum where the operator isn't even constructible, and the
 total budget is not provably finite. Honest headline: σ-unreadability is EXACT and
 proven; "GU = complete modulo a finite external budget" is too clean.
+
+- **Prong III — `III-LEAN-STANDS` as a SPLIT** (`oracle-relative-prongIII-exhaustiveness-theorem-2026-07-21.md`).
+  The externality claim SPLITS, and the split is the finding:
+  (a) **"The observer forces externality but cannot SUPPLY σ's value" IS a THEOREM
+  at operator/Lean grade** — it is parent conclusion (b), `no_invariant_valuation`
+  (fixpoint-free α ⇒ no α-invariant valuation), grade-independent, machine-exact for
+  GU (`U_h K_S U_h⁻¹ = −K_S`, defect ~1e-12), and **already Lean-proved in TI**. Never
+  needed L1. (b) The **Gödel-diagonal DRESS** ("σ-blindness IS a Lawvere self-reference
+  fixed point," conclusion a / L1) **stays a lean**, gated on the **product-uniform
+  norm-resolvent boundary theorem** (the shared open theorem, O-b, ~N^1.35 sup-mode
+  divergence). CRUCIAL FOR THE HEADLINE: exhaustiveness PROMOTES to operator grade —
+  it is the **completeness of the ±1 eigenspace decomposition of α=Ad(U_h)** (every
+  operator even+odd uniquely, no third parity; machine-checked), which is exactly the
+  α-even-algebra model Prong I.1 rests on — so **Prong I.1's zero-capacity theorem is
+  HARDENED, not just assumed.** The planted operator-grade α-odd feature does NOT
+  escape (its coherence with σ is α-even). Q2 stays closed and hardens.
+
+## FINAL VERDICT (all 4 prongs in)
+
+**The EXACT, theorem-grade core — now hardened, one fact from three angles:**
+- Zero inward capacity (Prong I.1, Schur/Shannon) — modeling assumption confirmed
+  operator-grade by Prong III.
+- "Observer forces externality, cannot supply σ" (Prong III) — a THEOREM,
+  Lean-proved in TI as `no_invariant_valuation`, needs only the fixpoint-free K_S flip.
+- GU oracle-relative in the logic sense (Prong II) = W211 Gödel-independence.
+These are the SAME theorem: **σ is externally required and internally unreadable,
+provably.** This is the real, defensible result and it stands at operator/Lean grade.
+
+**Stays LEAN / ANALOGY:** the Gödel/Lawvere self-reference DRESS (gated on the
+product-uniformity theorem O-b); the FLP mechanism, complexity-oracle, import
+ceiling, finite-budget framing.
+
+**OBSTRUCTED (sharper than hoped):** the pencil theorem (Prong 0) — the boundary
+operator is non-constructible at ~8% of fiber ends (K_S null); θ is a prescription
+for the `q<0` stratum, not a phase.
+
+**Actionable handoff (Prong III):** discharge the EXTERNALITY conjunct of TI's
+`cross_repo_boundary_law_TARGET` NOW as a GU instance of `no_invariant_valuation`
+— no `sorry`, no L1, no product-uniformity — gated only on encoding the machine-exact
+"K_S-sign flip is a fixpoint-free involution on {+K_S,−K_S}." Mailbox → TI. The
+`sorry`'s remaining load is the diagonal/self-closure conjunct = the product-
+uniformity obstruction (an analysis deliverable, not a Lean task).
+
+Two theorem-grade wins (Prong I.1, Prong III externality) are flagged for hostile
+verify — but unlike the two FORCED claims killed this session, they reduce to
+Schur's lemma + a lemma ALREADY Lean-proved in TI + machine-exact facts, not to a
+planted model. The one residual attack is "substantiveness" (is the externality
+theorem a trivial retreat?), pre-answered in Prong III §6 (fixpoint-freeness is
+separately machine-exact and is not what the obstruction gates).
