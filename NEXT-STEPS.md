@@ -103,6 +103,17 @@ updated_at: "2026-07-21"
 > monodromy no-go if the source is silent. Pre-declared outcomes + planted-positive control + hostile verify.
 > `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. Steward flag: reconcile the difficulty-demotion
 > scoring conflict. Brief: `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
+
+> **2026-07-21 SIGMA/THETA/TAU decision-tree status:** hostile verification
+> removed the compact-collar phase as an unconditional premise; Q3 then returned
+> `TWO-INDEPENDENT`. Q1a now returns `Q1A-END-ASYMPTOTICS-BLOCKED`: the wall
+> zero is in `C_0=q^(1/2)`, not the invertible principal coefficient
+> `B=-iK_uG`, and no frozen packet specifies the true noncompact-end asymptotics
+> needed for an LP/LC verdict. Q1b is inactive. Do not rerun Q1a without the
+> exact end packet in
+> `explorations/decision-tree-Q1a-limit-classification-2026-07-21.md`.
+> Next independent binary swing: Q2 (`sigma` forced/free/standpoint-supplied).
+> B5 remains parked.
 >
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map

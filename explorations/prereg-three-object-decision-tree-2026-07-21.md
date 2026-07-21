@@ -73,6 +73,16 @@ UPSTREAM of the phase:
   imported datum (the classification itself is source-silent), so σ/θ externality
   stands — but WHICH datum is now precisely typed.
 
+> **Q1a OUTCOME (2026-07-21): `Q1A-END-ASYMPTOTICS-BLOCKED`.** The frozen
+> operator record separates the principal coefficient `B=-iK_uG` from the
+> zero-order pencil weight `C_0=q^(1/2)`: `B` remains invertible at the wall,
+> and the zero of `C_0` does not make `B` degenerate. No committed construction
+> identifies that wall with a noncompact fiber end or supplies end asymptotics
+> for `B`, `W_tilde`, the measure, or the Krein structure. Therefore neither
+> LP nor LC is earned. Exact reopen packet and native/comparator typing:
+> `decision-tree-Q1a-limit-classification-2026-07-21.md`. Q1b is inactive until
+> LC boundary freedom is established; do not rerun Q1a on the same inputs.
+
 ### Q2 (σ): forced, free, or standpoint-supplied?
 Given externality, is the `Z/2`:
 - **FORCED** by an internal necessity (positivity / unitarity / record-
@@ -153,8 +163,10 @@ generations" test. HV-independent — ran in parallel.
    - HV-REFUTE (unique domain forced) → Q1 dissolves; the new question is "what
      forces the unique domain, and is that datum σ?"
 2. **Q3 fires now / in parallel** (HV-independent): one `Z/6` anchor vs two.
-3. **Q1 fires on HV's verdict**; **Q2 fires on Q1's** (if θ→`Z/2` = σ, Q2 folds
-   into Q1's mechanism; else Q2 is separate).
+3. **Q1a fired after HV and returned `Q1A-END-ASYMPTOTICS-BLOCKED`**: the
+   `C_0` wall is not principal-coefficient degeneration, and the true end
+   asymptotics are not frozen. Q1b is inactive. **Q2 is now the next independent
+   binary question**; Q1a reopens only on its named noncompact-end packet.
 
 Staging: this decision tree becomes the Lane-1 program that the
 SOURCE-DOMAIN-SELECTOR swing feeds into. `OPERATOR-END-PENCIL` remains the
