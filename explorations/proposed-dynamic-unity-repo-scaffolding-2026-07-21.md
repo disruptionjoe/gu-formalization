@@ -30,14 +30,17 @@ that grade. What changed in rev. 2 is the repo's *identity and scope*, per Joe.
 
 ### Posture
 
-This repository is a **unification moonshot lab**: its work is to **discover unifying
-theories and laws of reality**, and its lead vehicle is **Dynamic Unity** — the dynamical
-successor to Geometric Unity (a strong, explicit nod to GU as the originating substrate).
-The posture is **truth-seeking and verdict-agnostic**: the product is *true structure at
-honest grade plus a reliable method*, never a defense of a favored theory or originator.
-The scope is deliberately **broad** — any candidate unifying law or structure is in-bounds —
-but every claim is driven to a verdict and only what survives is kept. The lead theory
-(Dynamic Unity) **begins with its central claims OPEN** (the source action is unbuilt, the
+This repository **is the Dynamic Unity research program** — a unification effort at the
+**human-knowledge frontier**. Its **purpose** is to **discover unifying theories and laws of
+reality**; its **central organizing hypothesis** is that a theory **extending Geometric Unity
+— or a shape-class like it — combined with dynamics** tells a better, more complete story than
+the static geometry alone (a strong, explicit nod to GU as the originating substrate). Dynamic
+Unity is *this program*, not any single conjecture inside it (the tachyon-transducer, for one,
+is a *branch*, not the program). The posture is **truth-seeking and verdict-agnostic**: the
+product is *true structure at honest grade plus a reliable method*, never a defense of a
+favored theory or originator. The scope is deliberately **broad** — any candidate unifying law
+or structure is in-bounds — but every claim is driven to a verdict and only what survives is
+kept. The program **begins with its central claims OPEN** (the source action is unbuilt, the
 DE amplitude is imported, the transducer is a conjecture); stating that openly beside any
 claim of progress is the correct posture, not a deficiency.
 
@@ -92,35 +95,37 @@ done; publishing outside the repo workflow is Joe-gated.
 
 ## 2. Passion / Purpose / Practice (the triad identity card — Joe's definitions)
 
-### PURPOSE — the work + its real-world outcome
+### PURPOSE — why this repository exists (the meaningful outcome)
 
-**Discover unifying theories and laws of reality.** The moonshot itself is the purpose: to
-find genuine, unifying structure underneath physics — laws that hold across what are now
-separate stories. Dynamic Unity (the dynamical completion of the Observerse/GU program) is
-the current lead vehicle, but the purpose is not confined to it: any candidate unifying law
-that can be driven to a verdict is in-scope. The **real-world outcome** that makes it real
-rather than a story is *survived* structure — a unifying law, a natively-derived quantity
-(the dark-energy amplitude is the nearest concrete target), or a genuine no-go — banked at
-honest grade.
+To discover the **dynamical law that completes what a static geometry cannot** — the unifying
+structure that extends Geometric Unity (or a GU-like shape class) with genuine dynamics and
+tells a truer, more complete story of physics. It matters because the static picture is now
+provably *exhausted* at the discrete level — its bit and trit reach only signs and counts —
+while the deepest questions still open (the arrow of time, the becoming of records, the scale
+of the dark energy) are all **continuous and dynamical**. This repository exists to find
+whether *one dynamical law* reaches them, and to settle honestly whether it does. The horizon
+is unification; the near-term test that keeps the horizon honest is whether the dynamics
+**natively deliver the dark-energy amplitude** the static data provably cannot.
 
-### PASSION — the drive / the why
+### PASSION — the agent capability this repository is a testbed for
 
-**To see whether an agent apparatus can actually produce the novel, useful things a moonshot
-throws off** — new predictions, theorems, methods, findings, structures — when pointed at a
-problem this hard. The pull is twofold and inseparable: the physics *and* the demonstration
-that this way of working (many disciplined agents, adversarially self-checking, at a
-frontier) can generate real intellectual output. Every novel prediction/theorem/method that
-"pops out" of the attempt is a win on the passion axis even when the moonshot itself is still
-open.
+**Disciplined frontier research.** The capability under test is whether a fleet of agents can
+*generate genuinely novel structure* — theorems, predictions, methods, no-gos — at the edge of
+human knowledge **while adversarially self-falsifying**, so that what they bank is *survived*,
+not merely plausible. Physics unification is the ideal proving ground precisely because it is
+maximally hard, maximally crank-prone, and — decisively — **checkable**: here, inflation gets
+caught. A capability proven under this much adversarial pressure transfers to any high-stakes,
+low-ground-truth problem Joe faces.
 
-### PRACTICE — the how / where it lands for Joe
+### PRACTICE — the specific return to Joe's future practice
 
-**Translate the specific learnings into Joe's own capability and endeavors** — Joe himself,
-DJC, and Church of AI. The research is also a *practice ground*: the methods, the agent
-orchestration patterns, the disciplined-truth-seeking apparatus, and the concrete findings
-are harvested for use in Joe's real work. Practice asks, of every learning: *how does this
-sharpen Joe or serve DJC / Church of AI?* — and routes the transferable part accordingly (as
-a draft/receipt for Joe; Joe publishes and applies).
+The return is the **method and the proof**, not the physics. What this repository forges — the
+multi-agent orchestration patterns, the adversarial-verification-and-honest-grading discipline,
+and demonstrated proof that agent fleets can push a real research frontier *without inflating* —
+sharpens how Joe runs agent-driven work generally, gives **Disruption Joe Consulting** a
+battle-tested apparatus and credible evidence of what disciplined agents can do, and gives
+**Church of AI** substantive, honestly-graded frontier work to stand on. **Methods transfer
+freely; findings transfer only with their grade labels attached, never as doctrine.**
 
 ---
 
@@ -142,6 +147,13 @@ sinks of learnings*, not as walls:
 repo is fully responsible for checking every learning — its own or borrowed — against what it
 knows, at honest grade. That responsibility, not a boundary, is what keeps it disciplined.
 
+**One exception the council flagged, adopted here (Joe to confirm):** self-check substitutes
+for a boundary on *ingest*, but **not** for the jointly-held tri-repo *identity* gate. A
+self-audit cannot be trusted on the very merger (GU=TaF=TI) it would want to cohere, so the
+identity stays gated — explore it, never let it become load-bearing, and **surface any
+gate-touching to Joe** rather than self-clearing it. (Capability/scope stays unbounded; only
+the cross-repo identity claim is bounded.)
+
 ---
 
 ## 4. Initial objectives (program-level — Joe: the earlier ones were channel tasks)
@@ -149,9 +161,11 @@ knows, at honest grade. That responsibility, not a boundary, is what keeps it di
 1. **Discover and drive to verdict genuine unifying laws/structures of reality** — force,
    falsify, or precisely place each candidate. Dynamic Unity is the lead candidate; the lane
    stays open to others.
-2. **Generate novel, useful outputs from the attempt** — new predictions, theorems, methods,
-   and findings — and bank each at honest grade, whether or not the moonshot itself closes.
-   (This is the Passion made operational: the apparatus must *produce*, not just critique.)
+2. **Bank SURVIVED outputs** — new predictions, theorems, methods, no-gos — each *led by its
+   grade* and counted only after it survives adversarial verification; a clean kill or a
+   genuine no-go counts as fully as a positive. (Passion made operational: the apparatus must
+   produce *survived results*, not volume or story — an unsurvived output is activity, not
+   product.)
 3. **Demonstrate the agent apparatus at a genuine frontier** — that disciplined, adversarial,
    self-checking multi-agent research can pursue a moonshot and yield real intellectual
    product. The repo is itself the proof-point.
@@ -173,18 +187,29 @@ live in the lanes below.)*
 > Numbered lanes = Progress; lettered = Stewardship; Discovery = lane-less. Channels
 > (a.k.a. branches) are the durable work-surfaces within a lane.
 
-**Lane 1 — Truth-testing the unifying laws (NORTH STAR).**
-Drive candidate unifying laws/structures to a verdict — build or falsify. Broad by design:
-the lead candidate is Dynamic Unity's dynamical core, but the lane hosts any program-native
-unification candidate that carries a concrete kill/confirm test. Default-skeptical; central
-claims OPEN.
-- *Channel 1.1 — The tachyon-transducer* (the lead branch): source action → tachyonic
-  record-count roll → record-accretion → DE sign+magnitude as one object; the roll↔accretion
-  computation; the tachyon's centrality re-derived past the W157 coincidence.
-- *Channel 1.2 — Record-accretion → volume → Λ:* `N = e^{4p}`; the rolling record-count
-  vacuum; the compactifying mirror-sector condensate (W224 located gap).
-- *Channel 1.3 — Shared B5 source action (with P2C):* the blocked spine; consumed from P2C
-  when delivered; the good-stable grading it must supply.
+**Lane 1 — Dynamics beyond the static GU picture (NORTH STAR).**
+Scope: **given that the bit (σ) and the trit (τ) can be supplied in a way that makes the
+*static* GU picture coherent, determine what DYNAMICS are needed to make a clearer, more
+complete picture beyond it.** GU-anchored by design — it takes the static picture as the
+working substrate and asks what dynamics extend it. (The broad Purpose leaves room for a
+*future* lane that pursues unification without assuming GU at all; Lane 1 is not the program's
+only possible frame.) Default-skeptical; central claims OPEN. **Lead bet (broad in admission,
+focused in priority):** the B5 source action → a natively-derived dark-energy amplitude — the
+assessment's one bankable joint.
+- *Channel 1.1 — The tachyon-transducer* (the flagship dynamic reframe): source action →
+  tachyonic record-count roll (`N = e^{4p}`) → record-accretion → DE sign+magnitude+arrow as
+  one object; the roll↔accretion computation; the volume→Λ link; the compactifying
+  mirror-sector vacuum (W224 gap); the tachyon's centrality re-derived past the W157
+  coincidence.
+- *Channel 1.2 — The dynamic tension-reframe sweep:* take the GU **tension ledger** (the ~20
+  inherited tensions plus the resolved cluster) and systematically test **which tensions
+  reframe or resolve when the system is made DYNAMIC** — the generalization of the transducer
+  (which reframes the dark-energy tension) to *every* tension. The σ-council, τ-council, and
+  tachyon-as-DE-rolling are its first entries; the sweep asks, tension by tension, whether the
+  dynamics reach where the static discrete data provably could not (measurement, hierarchy,
+  confinement, the magnitudes…). The program's systematic engine.
+- *Channel 1.3 — Shared B5 source action (with P2C):* the blocked spine both channels ride on;
+  consumed from P2C when delivered; the good-stable grading it must supply.
 - *(open)* — additional unification-candidate channels admitted from Discovery as they earn a
   program-native object + a kill test.
 
