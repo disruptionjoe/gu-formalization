@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-20"
+updated_at: "2026-07-21"
 ---
 
 # Next Steps For Contributors
@@ -42,15 +42,17 @@ updated_at: "2026-07-20"
 > Weinstein's vacuum object is the distortion field with a VEV, NOT the killed scalar-isotropic family.
 > CH-GR runs first (formalize C10, compute VEV stress trace-free component).
 >
-> **2026-07-20 priority reconciliation:** `B5-MIDDLE-DIFFERENTIAL` is the current Lane 1 leader. The exact
-> observer-relative character ledger, source-gap locator, 63-persona synthesis, strategy audit, and hostile
-> verification converge on one earliest unresolved arrow: freeze the source-licensed native first-order
-> middle-differential class, then construct it, exhaustively obstruct it, or stop at `B5-MIDDLE-SOURCE-GAP`.
-> Keep native GU and conventional physics constructions separate. Do not let the source-blocked compact-pencil
-> continuation, downstream `S_3` transport, or a first-person reader displace or impersonate physicalization.
-> Authoritative item: `lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL`; receipts:
-> `explorations/observation-to-family-b5-campaign-2026-07-20.md` and
-> `explorations/taf-63-persona-gu-rbt-2026-07-20/10-synthesis.md`.
+> **2026-07-21 B.5 disposition:** `B5-MIDDLE-DIFFERENTIAL` reached
+> `B5-MIDDLE-SOURCE-GAP`. The available source fixes the full-Dirac field arena, the
+> `0 -> 1 -> 13 -> 14` degree skeleton, a spoken rolled matrix shape, and the exact observer-relative target
+> ledger, but it does not delimit a complete native first-order class. The separately spoken two-connection
+> complex was explicitly never released; its entries and signs cannot be assigned reliably or merged with the
+> roll. No mirror, closure, planted-control, symbol-exactness, or global-cohomology gate ran. Reopen only on a
+> stronger primary packet. Receipt: `explorations/b5-middle-source-freeze-2026-07-21.md`.
+>
+> **Lane 1 current leader after rerank:** `CONSTRUCTION-SPACE-EXPLORATION`. Continue only its already declared
+> round-11 handoff from `lab/process/research-portfolio.json`; do not use that channel to design around the B.5
+> source gap or import a conventional physics differential.
 >
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map

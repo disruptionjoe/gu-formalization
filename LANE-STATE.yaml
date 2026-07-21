@@ -2,56 +2,54 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-20T23:39:45-05:00'
-run_ref: RUN-20260720-233708-repository-work-cycle-cai-hourly
-bottom_line: 'The premium campaign localizes the highest-value open GU arrow to
-  the source-licensed B.5 middle differential; the boundary-law mailbox sharpens
-  cross-repo scope but supplies no GU claim or source object.'
-decision_default: Disposition the complete native B.5 middle-differential class
-  before independent operator-wall hardening or downstream S_3 transport.
+updated_at: '2026-07-21T00:38:44-05:00'
+run_ref: RUN-20260721-003510-repository-work-cycle-cai-hourly
+bottom_line: 'B5-MIDDLE-SOURCE-GAP fired: public sources fix the native arena and
+  degree skeleton but do not delimit a complete first-order differential class.'
+decision_default: Park B5 until a stronger primary packet arrives and return Lane
+  1 to CONSTRUCTION-SPACE-EXPLORATION without designing around the gap.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_middle_differential_priority_reconciled
-  evidence_ref: explorations/observation-to-family-b5-campaign-2026-07-20.md;
-    explorations/taf-63-persona-gu-rbt-2026-07-20/10-synthesis.md; explorations/taf-63-persona-gu-rbt-2026-07-20/14-hostile-verification.md
+  reason_code: b5_middle_source_gap
+  evidence_ref: explorations/b5-middle-source-freeze-2026-07-21.md; lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL
   work_status: moving
-  last_movement: Reconciled the hostile-verified premium campaign into the portfolio,
-    ranking the source-traceable B.5 middle-differential class above operator hardening.
-  movement_ref: lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL
+  last_movement: Froze the public B.5 source ledger and stopped because it does
+    not delimit a complete native first-order class.
+  movement_ref: explorations/b5-middle-source-freeze-2026-07-21.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL
-  summary: The exact observer-relative character ledger and zero-order obstruction
-    leave one source-licensed first-order physicalization class to construct, obstruct,
-    or source-gap.
-  progress_delta: 'Converted the premium campaign''s verified strategy into one
-    governed Lane 1 target while parking the source-blocked operator continuation.'
-  scope_position: 'B5-MIDDLE open at native GU grade; no physical family, S_3
-    transport, operational quantum sector, or four-sector recovery is earned.'
+  steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
+  summary: The B.5 source gap is now explicit and bounded; no repo-designed differential
+    was substituted for the missing native class.
+  progress_delta: 'Separated manuscript-grounded arena and degree data from podcast-level
+    matrix fragments, identified the missing class-defining data, and fired the predeclared
+    source-gap stop before downstream gates.'
+  scope_position: 'B5-MIDDLE parked at source-gap grade; no obstruction, construction,
+    physical family, S_3 transport, or global BV cohomology is earned.'
   trend_24h: up
   confidence: med
-  recommendation: Freeze the rolled source and types; stop at SOURCE-GAP if they
-    do not delimit a complete native first-order class.
-  findings: 'The compact graph-domain theorem is conditional and source-blocked;
-    the P2C access closure fails; TaF''s time face is a distinct retraction mechanism;
-    none displaces the B.5 middle-differential target.'
+  recommendation: Keep B5 parked until a stronger primary packet and continue the
+    independently eligible construction-space handoff.
+  findings: 'The source fixes Omega^0 plus Omega^1 fields, a 0-1-13-14 skeleton,
+    and a spoken rolled shape, but not typed entries, filtration, lower-order terms,
+    domain, real closure, super-IG/BV identity, or mirror-removing differential.'
   options:
   - key: A
-    label: Freeze B.5 source class
+    label: Continue construction-space handoff
     recommended: true
   - key: B
-    label: Hold source-blocked pencil
+    label: Hold B5 for primary source
   - key: C
-    label: Preserve torsor/N6 result
-  decision_default: Advance only the source-traceable B.5 class; do not design a
-    favorable differential or import a conventional physics completion.
+    label: Reopen source-blocked pencil
+  decision_default: Do not design around B5-MIDDLE-SOURCE-GAP; rerank to the next
+    independent Lane 1 item.
   needs_joe: false
-  evaluated_at: '2026-07-20T23:39:45-05:00'
-  run_ref: RUN-20260720-233708-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T00:38:44-05:00'
+  run_ref: RUN-20260721-003510-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
