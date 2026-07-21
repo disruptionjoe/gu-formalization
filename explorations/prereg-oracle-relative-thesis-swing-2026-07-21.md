@@ -99,3 +99,51 @@ re-characterization; externality stays a closed premise; each EXACT claim is
 hostile-verified before banking; planted controls mandatory; no claim/canon/
 verdict/posture moves without Joe. Prongs run in parallel (independent seams);
 each writes one durable artifact + a foreground probe.
+
+## SWING RESULTS (3 of 4 in; Prong III pending)
+
+- **Prong 0 — `P0-FAILS-OBSTRUCTED`** (`oracle-relative-prong0-measure-lemma-2026-07-21.md`).
+  The pencil theorem does NOT close from structure. GU DOES own a native measure
+  (DeWitt (9,5) volume `w=√|det G|`), but the sign of `q=P−T` is measure-INVARIANT
+  (built from the symbol + `K_S`), so no measure fixes clause (c). Clause (c) is
+  FALSE: the genuine ends are the diagonal FLAT geodesics (NOT boosts — boosts are
+  isometries), and ~8% of 2000 generic ends cross into `q<0`, where `K_S` is
+  exactly NULL on the spectral halves and the operator `A~` is **not constructible
+  from committed structure at all** (its K-definite cut doesn't exist). This is
+  UPSTREAM of `B` degeneracy (B-non-degeneracy survives). Gapped ends: equal Krein
+  indices ⇒ limit-point ⇒ θ dissolves there. Crossed ends: index genuinely open
+  (needs the N2 operator lift; agent refused to plant). **θ is external not as a
+  phase but as a required PRESCRIPTION for the `q<0` stratum (excision/
+  regularization).** Sharper than "θ external."
+- **Prong I — `I-MIXED`** (`oracle-relative-prongI-info-exact-2026-07-21.md`).
+  (1) **Zero inward capacity = EXACT, THEOREM-GRADE:** `Hom(triv,sign)=0` is Schur ⇒
+  the σ→internal channel has IDENTICAL ROWS ⇒ Shannon capacity exactly 0, prior-FREE;
+  non-vacuous (same α-even algebra carries 2 bits about the orbit label, 0 about σ).
+  Rests on the α-even-algebra model of "the inside" — the one HV target, and exactly
+  what Prong III tests. (2) **Hard import ceiling I2 = ANALOGY:** no ceiling theorem;
+  total bit-count uncapped because θ can be a continuum; the "finite budget" thesis
+  WEAKENS (rests on θ=0, which Prong 0 just denied, + unproven enumeration-
+  completeness). (3) **Bit-count invariant = MIXED:** coarse digital-vs-analog
+  ranking is cut-robust; the fine cross-theory integer is cut-relative.
+- **Prong II — `II-MIXED`** (`oracle-relative-prongII-flp-exact-2026-07-21.md`).
+  GU IS oracle-relative in the **logic/independence sense** — EXACT: σ internally
+  undecidable (W211 Gödel-independence, proof-grade) + one Z/2 axiom (Krein-
+  positivity) resolves it = the standard model-theoretic meaning of oracle-relative.
+  NOT oracle-relative in the complexity sense (no relativized TM). The FLP
+  MECHANISM is ANALOGY: GU's obstruction is `Hom_G(triv,sign)=0` (Schur equivariant-
+  vanishing), FLP's is bivalence/π₀-connectivity — same Lawvere/diagonal SCHEMA,
+  different invariant, no identifying functor. Chandra–Toueg ordering = bit-
+  cardinality only; FLP-faulty-process = TaF T19 = three distinct engines (already
+  certified LEG-deep not mechanism-deep). Planted Byzantine control rejected.
+
+### Consolidated (pending Prong III)
+The EXACT theorem-grade core that SURVIVES is ONE fact from two angles: **GU's
+inside has provably ZERO capacity to read σ** (Prong I.1, Schur/Shannon) = **σ is
+Gödel-independent and GU is oracle-relative in the logic sense** (Prong II, W211).
+The councils' top-2 (INFO + FLP) both reduce to this, and it is a theorem — but as
+a logic/information fact, NOT an FLP mechanism, NOT a complexity oracle. What is
+ANALOGY / WEAKENED: the FLP machinery, the hard import ceiling, and the tidy
+"finite bit-budget" framing — because Prong 0 shows θ is not a clean bit but a
+prescription for a stratum where the operator isn't even constructible, and the
+total budget is not provably finite. Honest headline: σ-unreadability is EXACT and
+proven; "GU = complete modulo a finite external budget" is too clean.
