@@ -54,6 +54,12 @@ updated_at: "2026-07-21"
 > round-11 handoff from `lab/process/research-portfolio.json`; do not use that channel to design around the B.5
 > source gap or import a conventional physics differential.
 >
+> **2026-07-21 P-54-WELD disposition:** the direct weld fails by type: native `theta` carries one vertical 10,
+> while the conventional Pati-Salam selector is `Sym^2_0(10)=54`. Only an explicitly defined quadratic vertical
+> Gram composite can enter the 54 channel, and its source/action, stabilizer, and real-form reduction remain
+> conditional. CH-GR survives; CH-SM stays `R0_COND`; no payload datum is deleted. Next standing probe:
+> `P-RANK-FOLD`. Receipt: `explorations/p54-weld-typing-2026-07-21.md`.
+>
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,

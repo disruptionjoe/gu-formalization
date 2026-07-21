@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "updated_at": "2026-07-20",
+  "updated_at": "2026-07-21",
   "artifact_role": "Coverage ledger for the construction-space exploration program. Cells are construction families on the six-axis template; rung grades are per sector track. This file changes no claim status or verdict.",
   "protocol": "lab/process/construction-space-exploration-protocol.md",
   "portfolio_item": "CONSTRUCTION-SPACE-EXPLORATION",
@@ -360,8 +360,8 @@
       "tracks": {
         "SM": {
           "grade": "R0_COND",
-          "note": "CH-SM swing: metric-type VEV forces Spin(10)->PS; 16 chains R0-equivalent; range 16->6 conditional on H-GR-prime; rank drop spinorial (126 route, matter parity).",
-          "evidence": "explorations/channel-swing-CH-SM-2026-07-19.md; tests/channel-swings/ch_sm_chain_sweep.py"
+          "note": "P-54-WELD: the native distortion carries one vertical 10, so the direct equivariant 10->54 weld fails. A 54 exists only as an explicitly defined quadratic vertical Gram composite with source-owned selection, nonzero/stabilizer proof, and native Spin(6,4)-to-conventional Spin(10)/Pati-Salam reduction. The track remains R0_COND; no chain datum is deleted.",
+          "evidence": "explorations/channel-swing-CH-SM-2026-07-19.md; explorations/p54-weld-typing-2026-07-21.md; tests/channel-swings/ch_sm_chain_sweep.py"
         },
         "QM": {
           "grade": "R1_COND",
@@ -940,6 +940,14 @@
       "results_digest": "D1: C-operator dynamically determined off-degeneracy, grades records positive, no second anchor freedom; at the vacuum, determination fails by contractible-continuum non-uniqueness — external bit STANDS (primaries read in full, six corrections incl. the attribution guard). H1: exhaustiveness at theorem shape over ALL operations (sector rigidity welds sigma=eps; sigma*d=mu makes the import counter observable; benign miss F separates gauge-Z/2 from payload-Z/2; continuum contractible). H2: sorry-free axiom-free Lean certificate CoflipCore.lean in the default target (wrapper-built; baseline task also discharged). H3: full 192-dim lift passes both endings with exact zeros; conditionality typed to ONE chi-odd boost-non-equivariant import; compensator at 1792 dims, C2 law exact. H4: axiomatized class theorem (1408 composites, 8 instances, both signature typings, one accounting); BV-grade co-flip SURVIVES on descended observables — the G-A2 N-to-5 route closed at fixture grade, co-conditioned with D1; three-layer internal-mu enforcement stronger than H-REC-CAUS hypothesized; anchor exchange exists iff p=q. H5: literature pass retired the bare covariation (Ashtekar-Magnon 1975 etc.), NEW-AS-SEARCHED for the price identity + Noether record-direction + Z/2 collapse; dossier v2 written, pitch flipped to the price identity; venue J.Phys.A.",
       "n_state": "Both round-11 N-to-5 routes now co-conditioned on D1's canonical-reading condition, which the D1 build verified at toy grade and H3 at 192-dim conditional grade. N core = 3 stands; the S_IG/B.5 object remains the single external construction need, now with its symmetry type computed (chi-odd, boost-non-equivariant, K-definite-gapping).",
       "chairman_synthesis": "The one-bit complex is hardened: theorem + Lean certificate + scale lift + class generality + cited novelty. Tier-A note blockers reduced to: calculus-adequacy remainder, full-text reads of load-bearing kin, assembly. Hourlies inherit: the Lean (p,q) lift, G-H4 gaps, the drive PT-threshold, and dossier v3 assembly per H1/H4 edit proposals."
+    },
+    {
+      "round": 14,
+      "date": "2026-07-21",
+      "mode": "hourly disposition of P-54-WELD after B5 source-gap handoff",
+      "results_digest": "P-54-WELD-COMPOSITE-ONLY: the program-native curvature distortion is valued in one vertical 10, while the conventional D-even Pati-Salam order parameter is Sym^2_0(10), the 54 after complexification. Hom_Spin(10,C)(10,54)=0, so the direct linear weld fails. CH-GR contracts vertical slots and survives unchanged. A quadratic traceless vertical Gram composite can occupy the 54 channel, but it is not the CH-GR stress and remains conditional on a source-owned rule, nonzero/stabilizer proof, and native-real-form-to-conventional reduction.",
+      "payload_state": "The CH-SM chain datum is not deleted. C10-SM remains R0_COND with an explicit composite-order-parameter demand; no claim, canon, verdict, or public posture moves.",
+      "chairman_synthesis": "Advance P-RANK-FOLD as the next highest standing construction-space probe. Keep B5 parked at its source gap and do not design around the missing differential."
     }
   ]
 }

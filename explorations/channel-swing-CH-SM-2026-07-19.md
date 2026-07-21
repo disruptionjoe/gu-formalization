@@ -25,6 +25,15 @@ public_posture_change: none
 
 # Channel swing CH-SM: the chain sweep, VEV conditioning, and the parameter card
 
+> **2026-07-21 typing correction (`P-54-WELD`):** the native distortion is
+> valued in one vertical `10`, not in `Sym^2_0(10)`. There is no linear
+> equivariant `10 -> 54` weld. A `54` can be formed only as an explicit
+> quadratic vertical Gram composite with additional source, nonzero/stabilizer,
+> and real-form data. Accordingly, statements below that the metric slot or
+> curvature-locked `theta` itself forces the Pati-Salam first step are retained
+> as historical probe hypotheses, not current conclusions. See
+> `explorations/p54-weld-typing-2026-07-21.md`.
+
 Scorecard said this was the cheapest card-freeze on the board: enumerate the
 Spin(10)/Pati-Salam breaking chains, run each through the R0 arithmetic, and
 the surviving list IS the candidate adapter range for the subgroup-chain

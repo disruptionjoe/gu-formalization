@@ -2,54 +2,56 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-21T00:38:44-05:00'
-run_ref: RUN-20260721-003510-repository-work-cycle-cai-hourly
-bottom_line: 'B5-MIDDLE-SOURCE-GAP fired: public sources fix the native arena and
-  degree skeleton but do not delimit a complete first-order differential class.'
-decision_default: Park B5 until a stronger primary packet arrives and return Lane
-  1 to CONSTRUCTION-SPACE-EXPLORATION without designing around the gap.
+updated_at: '2026-07-21T01:39:59-05:00'
+run_ref: RUN-20260721-013541-repository-work-cycle-cai-hourly
+bottom_line: 'P-54-WELD direct identification failed by representation type; only
+  an explicit quadratic 54 composite remains conditional.'
+decision_default: Advance P-RANK-FOLD next; keep B5 parked and do not design around
+  its missing source.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_middle_source_gap
-  evidence_ref: explorations/b5-middle-source-freeze-2026-07-21.md; lab/process/research-portfolio.json#B5-MIDDLE-DIFFERENTIAL
+  reason_code: p54_weld_composite_only
+  evidence_ref: explorations/p54-weld-typing-2026-07-21.md; lab/process/construction-space-map.json#council_rounds
   work_status: moving
-  last_movement: Froze the public B.5 source ledger and stopped because it does
-    not delimit a complete native first-order class.
-  movement_ref: explorations/b5-middle-source-freeze-2026-07-21.md
+  last_movement: Disproved the direct native 10-to-54 weld and isolated the only
+    surviving route as an additional quadratic composite.
+  movement_ref: explorations/p54-weld-typing-2026-07-21.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The B.5 source gap is now explicit and bounded; no repo-designed differential
-    was substituted for the missing native class.
-  progress_delta: 'Separated manuscript-grounded arena and degree data from podcast-level
-    matrix fragments, identified the missing class-defining data, and fired the predeclared
-    source-gap stop before downstream gates.'
-  scope_position: 'B5-MIDDLE parked at source-gap grade; no obstruction, construction,
-    physical family, S_3 transport, or global BV cohomology is earned.'
+  summary: The native curvature distortion and conventional 54 selector are not
+    the same typed object; the direct weld is closed without harming CH-GR.
+  progress_delta: 'Proved Hom_Spin(10,C)(10,54)=0, distinguished the invariant
+    metric singlet from a 54 deformation, and typed the quadratic Gram route as
+    an additional conditional order parameter.'
+  scope_position: 'C10-SM remains R0_COND; its first breaking step requires a
+    source-owned composite, stabilizer proof, and real-form reduction. B5 remains
+    parked at source-gap grade.'
   trend_24h: up
   confidence: med
-  recommendation: Keep B5 parked until a stronger primary packet and continue the
-    independently eligible construction-space handoff.
-  findings: 'The source fixes Omega^0 plus Omega^1 fields, a 0-1-13-14 skeleton,
-    and a spoken rolled shape, but not typed entries, filtration, lower-order terms,
-    domain, real closure, super-IG/BV identity, or mirror-removing differential.'
+  recommendation: Run P-RANK-FOLD next inside the construction-space workstream;
+    preserve the explicit composite demand and keep B5 parked.
+  findings: 'Native theta has one vertical 10 and CH-GR contracts vertical slots.
+    The conventional selector has type Sym^2_0(10)=54. No linear equivariant weld
+    exists; only a separately defined quadratic traceless vertical Gram can enter
+    the 54 channel.'
   options:
   - key: A
-    label: Continue construction-space handoff
+    label: Run P-RANK-FOLD
     recommended: true
   - key: B
     label: Hold B5 for primary source
   - key: C
     label: Reopen source-blocked pencil
-  decision_default: Do not design around B5-MIDDLE-SOURCE-GAP; rerank to the next
-    independent Lane 1 item.
+  decision_default: Advance P-RANK-FOLD; do not promote the quadratic 54 channel
+    without its source and reduction data, and do not reopen B5.
   needs_joe: false
-  evaluated_at: '2026-07-21T00:38:44-05:00'
-  run_ref: RUN-20260721-003510-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T01:39:59-05:00'
+  run_ref: RUN-20260721-013541-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

@@ -67,13 +67,14 @@ integration_note: "2026-07-19 evening: all seven fanout swings returned and are 
   physical Y-line mod Weyl). Selector still unexhibited.
 - **Q2: YES.** Sharp list + alignment rigidity + varying-constants tripwire
   with named bound classes; R1 classes (proton decay, n-nbar) staged.
-- **Q3: YES (conditional) — and possibly VANISHING.** Metric-type VEV forces
-  Spin(10)->PS (Sym^2(10)=1+54 IS the metric slot); range collapses 16->6
-  conditional on H-GR'; rank drop provably spinorial (nu_c outside all
-  tensor irreps; 126 route emits matter parity Z/2). Real form: only (6,4)
-  survives — GU's own trace reversal lands on the unique survivor
-  (retrodiction-grade). Residual free content ~ zero: the chain datum may
-  be DERIVABLE, deleting payload item 4.
+- **Q3: PARTIAL (conditional).** `P-54-WELD` closes the direct identification:
+  native `theta` carries one vertical 10, whereas the conventional selector is
+  `Sym^2_0(10)=54`; the equivariant linear weld is zero. The invariant metric is
+  the singlet, not a 54 VEV. A 54-channel quadratic vertical Gram composite can
+  be written, but its source/action, nonzero stabilizer, normalization, and
+  native Spin(6,4)-to-conventional Spin(10)/Pati-Salam reduction are unexhibited.
+  The rank drop remains spinorial (nu_c outside tensor irreps; 126 route emits
+  matter parity Z/2). The chain datum is not derivably deleted.
 
 ## CH-REC
 
@@ -127,9 +128,10 @@ integration_note: "2026-07-19 evening: all seven fanout swings returned and are 
    fork's only remaining cheap kill).
 3. **T3-on-W229 (CH-REC/CH-SRC):** is W229's record direction
    Noether-derived? The N<=4 vs N=5 decider in (9,5).
-4. **54-direction weld (CH-SIG-95, g2):** does CH-GR's curvature-locked
-   branch overlap Sym^2's 54 as CH-SM's conditioning requires?
-5. **Rank-pin fold (CH-SM/CH-QM):** can the generation integer fold into
+4. **54-direction weld (CH-SIG-95, g2): COMPLETE — COMPOSITE ONLY.** The
+   direct 10->54 weld fails; an additional quadratic order parameter is
+   algebraically available but remains source- and reduction-conditional.
+5. **Rank-pin fold (CH-SM/CH-QM), NEXT:** can the generation integer fold into
    existing finite data rather than standing as its own item?
 
 Integration proper begins when K2 and the signature comparison resolve;
