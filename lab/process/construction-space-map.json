@@ -114,6 +114,21 @@
     "generated_cells": 0,
     "next_probe": "P-LATTICE-SIGNATURE-RESOLUTION-C1"
   },
+  "lattice_signature_resolution_c1": {
+    "status": "COMPLETE_PARTIAL_NO_ENUMERATION",
+    "completed_at": "2026-07-21",
+    "probe": "P-LATTICE-SIGNATURE-RESOLUTION-C1",
+    "evidence": "explorations/p-lattice-signature-resolution-c1-2026-07-21.md",
+    "test": "tests/recovery-contract/construction_space_lattice_c1_resolution.py",
+    "resolved_slots": 1,
+    "resolved_axes": ["L5"],
+    "unresolved_axes": ["L0", "L1", "L2", "L3", "L4", "L6", "L7"],
+    "unresolved_slots_total": 87,
+    "propagated_inheritance_slots": 0,
+    "generated_cells": 0,
+    "graded_cells": 0,
+    "next_probe": "P-LATTICE-C1-SOURCE-PACKET"
+  },
   "sharp_constraint_lists": {
     "frozen_at": "2026-07-19",
     "weakening_is_joe_gated": true,
@@ -149,8 +164,8 @@
     {
       "id": "C1-W229-RECORD-CURRENT",
       "family": "Frozen W229 record-sourced induced-YM nonlocal branch (the tested construction)",
-      "axis_notes": "Fully specified per the recovery manifest; the only cell with a complete Layer0+L1-L7 signature.",
-      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"baseline_declared_complete"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L5":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"}},
+      "axis_notes": "The recovery manifest completely fingerprints one branch-local action object, but does not complete the later Layer0+L1-L7 candidate template. P-LATTICE-SIGNATURE-RESOLUTION-C1 resolves only L5; all other slots retain explicit source gaps.",
+      "axis_signature": {"L0":{"class_id":"uncertain","construction_side":"unknown","relation":"baseline_declared_complete"},"L1":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L2":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L3":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L4":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L5":{"class_id":"a_specific_object","construction_side":"program_native","relation":"baseline_declared_complete","evidence":["lab/process/recovery-contract-construction-manifest-2026-07-16.json#construction_identity","lab/process/recovery-contract-action-fingerprint-2026-07-16.json#branch_local_testing_object"]},"L6":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"},"L7":{"class_id":"unknown","construction_side":"unknown","relation":"baseline_declared_complete"}},
       "tracks": {
         "SM": {
           "grade": "R1",
@@ -1042,6 +1057,13 @@
       "mode": "P-LATTICE-SCHEMA-FREEZE without enumeration",
       "results_digest": "P-LATTICE-SCHEMA-FROZEN: the legacy six-axis protocol is canonically encoded as a Layer-0 semantic precondition plus ordered L1-L7 structural axes. Finite axis domains, typed construction-side provenance, five compatibility rules, and tuple canonicalization are frozen. All 11 cells have total signatures; all 88 slots remain explicitly unresolved and non-generative. Zero cells were generated or graded.",
       "chairman_synthesis": "Resolve the declared C1 baseline from owner evidence next, then propagate only explicit inheritance and retain declared deltas as unresolved until independently supported. P-OBS-LEG remains the strongest independent Lane 2 alternative. Keep B5 parked."
+    },
+    {
+      "round": 18,
+      "date": "2026-07-21",
+      "mode": "P-LATTICE-SIGNATURE-RESOLUTION-C1 conservative owner-evidence audit",
+      "results_digest": "P-LATTICE-C1-PARTIAL-L5-ONLY: the recovery manifest supports C1 as an L5 specific-object substrate on the program-native construction side. L0, L1-L4, L6, and L7 remain unresolved: the manifest does not freeze a cell-wide semantic comparison, substrate-menu classification, observer/pairing, causal order, coordination loop, or the superselection/probability rule required for the known Krein form. The lattice has 87 unresolved slots. Zero inheritance slots propagated; zero cells generated or graded.",
+      "chairman_synthesis": "Do not infer the remaining C1 axes from action dynamics or familiar physics defaults. Require P-LATTICE-C1-SOURCE-PACKET before further C1 resolution or inheritance propagation. P-OBS-LEG remains the strongest independent Lane 2 alternative. Keep B5 parked."
     }
   ]
 }

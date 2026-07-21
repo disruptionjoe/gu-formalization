@@ -83,6 +83,15 @@ updated_at: "2026-07-21"
 > only explicit inheritance. No cell was generated or graded. `P-OBS-LEG` remains the independent Lane 2
 > alternative and B5 stays parked. Receipt: `explorations/p-lattice-schema-freeze-2026-07-21.md`.
 >
+> **2026-07-21 P-LATTICE-SIGNATURE-RESOLUTION-C1 disposition:** owner evidence resolves exactly one C1 slot:
+> `L5 = a_specific_object / program_native`. The recovery manifest freezes one branch-local testing object,
+> but it does not complete the later Layer-0 plus L1-L7 candidate template. L0, L1-L4, L6, and L7 remain
+> explicit source gaps; in particular, the known `(9,5)` Krein form lacks the physical superselection and
+> probability rule required to resolve L7 compatibly. The lattice has 87 unresolved slots. No inheritance was
+> propagated and no cell was generated or graded. Next lattice step: `P-LATTICE-C1-SOURCE-PACKET`; until that
+> evidence exists, `P-OBS-LEG` remains the strongest independent Lane 2 alternative. B5 stays parked. Receipt:
+> `explorations/p-lattice-signature-resolution-c1-2026-07-21.md`.
+>
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,

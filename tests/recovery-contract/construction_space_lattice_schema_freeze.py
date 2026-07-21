@@ -59,12 +59,7 @@ def main() -> None:
             check(f"{cell['id']} {axis} provenance typed", entry["construction_side"] in sides)
             check(f"{cell['id']} {axis} relation typed", entry["relation"] in relations)
 
-    unresolved = sum(
-        entry["class_id"] in {"unknown", "uncertain"}
-        for cell in cells
-        for entry in cell["axis_signature"].values()
-    )
-    check("migration records all 88 unresolved slots", unresolved == 88, str(unresolved))
+    check("schema freeze recorded all 88 unresolved slots", freeze["unresolved_slots"] == 88, str(freeze["unresolved_slots"]))
     check("five compatibility rules frozen", len(schema["compatibility_constraints"]) == 5)
     check("construction side participates in tuple identity", "construction_side" in schema["tuple_canonicalization"]["identity_fields"])
     check("unknown tuples cannot generate", schema["tuple_canonicalization"]["unknown_policy"] == "non_generative_non_deduplicating")
