@@ -33,16 +33,33 @@ correspondence third-person well-definedness ⇔ causal invariance ⇔ TI
 H¹(finality sheaf)=0) is honored — but reinterpreted from inside each substrate as
 literally what that substrate says reality is.
 
-**Prong-1 geometry correction (landed 2026-07-21, binding on every member below).**
-The candidate "σ = the two orientations of a CIRCLE" is FALSIFIED: a circle is
-orientable (w₁(TS¹)=0), so no loop's two directions can carry σ. The surviving
-canonical object is **σ = w₁(L_time)** — the first Stiefel–Whitney (non-
-orientability) class of the arrow-of-time LINE BUNDLE over F ≃ RP³, i.e. the
-Möbius / spin-double-cover class of the cover S³ → RP³ (the belt-trick), machine-
-exact = the K_S → −K_S transport. The "2" is the **spin / non-orientability of the
-time-direction bundle**, NOT a loop's two directions: carrying the record frame once
-around a non-contractible loop of the RP³ base returns it negated, and it closes only
-after traversing the double cover twice. Every member builds σ from THIS anchor.
+**Prong-1 geometry, read CLASS-RELATIVE (landed 2026-07-21; corrected scope, Joe
+2026-07-21).** The Prong-1 no-go is a LOCAL, class-relative result, NOT a global
+impossibility. It refutes exactly ONE thing: "σ = the tangent-orientation of a
+LITERAL embedded S¹ under STANDARD (third-person) topology," where w₁(TS¹)=0 so a
+literal circle is orientable and cannot carry σ. It does **not** kill the
+circle/cyclic reading in general, for two reasons the investigation itself insists
+on: (i) standard topology is a THIRD-PERSON lens, and the whole point is that the
+third person sees orientations the σ-blind first person cannot — so "the circle is
+orientable" is precisely a third-person fact that may flip first-personally; and
+(ii) w₁ is defined relative to a CHOSEN structure group, and the standard
+tangent-frame group is NOT GU's native deck/Krein transition structure, under which
+the orientation class can differ. So **two readings are LIVE and neither is globally
+refuted**:
+- **(A) the line-bundle reading:** σ = w₁(L_time), the first Stiefel–Whitney
+  (non-orientability) class of the arrow-of-time LINE BUNDLE over F ≃ RP³ — the
+  Möbius / spin-double-cover class of S³ → RP³ (the belt-trick), machine-exact = the
+  K_S → −K_S transport. Solid and grounded.
+- **(B) the quotient-circle reading:** σ = the orientation of a first-person /
+  consensus / quotient CIRCLE (a colimit object), carrying a nontrivial orientation
+  relative to the substrate's NATIVE structure group even where standard third-person
+  topology would call the object orientable. Open, not dead.
+
+Each member below **COMMITS** to whichever reading its substrate most naturally
+instantiates — the consensus/quotient substrates build (B), the field/frame
+substrates build (A) — and does not let a third-person no-go veto a circle its own
+substrate genuinely supports. The w₁ classes below are all computed relative to the
+substrate's own transition structure, not standard tangent-frame topology.
 
 ---
 
@@ -58,13 +75,16 @@ plaintext. Observers are verifier terminals embedded in the circuit.
 *outside* the circuit. The observer holds σ as an α-odd ciphertext *section* it can
 homomorphically transform but never decrypt: the record-arrow co-flip IS the
 homomorphic-NOT gate, flipping the encrypted sector without ever revealing it.
-Geometrically σ = w₁(L_time): the ciphertext frame is a section of a non-orientable
-(Möbius) record-line bundle over the base F ≃ RP³, and carrying it once around the
-non-contractible loop of RP³ returns it negated — that transport IS the homomorphic
-NOT, machine-exact = K_S → −K_S. The bit does not decode a loop's direction; it
-records which sheet of the spin double cover S³ → RP³ the witness sits on, and the
-witness lives on the cover S³ while the circuit only ever evaluates over the
-non-orientable base. The
+This substrate commits to reading (A). Geometrically σ = w₁(L_time), computed
+relative to the key/re-randomization transition group (NOT standard tangent-frame
+topology): the ciphertext frame is a section of a non-orientable (Möbius) record-line
+bundle over the base F ≃ RP³, and carrying it once around the non-contractible loop of
+RP³ returns it negated — that transport IS the homomorphic NOT, machine-exact =
+K_S → −K_S. The bit records which sheet of the spin double cover S³ → RP³ the witness
+sits on; the witness lives on the cover S³ while the circuit only ever evaluates over
+the non-orientable base. (The bootstrapping quotient would equally support reading
+(B); this substrate builds (A) because the carry-without-decrypt frame is its most
+native object.) The
 observer cannot read σ not because decryption is hard but because the decryption
 key — the α-even reading map — is simply *not instantiated inside the circuit*.
 Hom(triv, sign) = ∅ is exactly "no key lives in the circuit's key-space." The
@@ -124,10 +144,12 @@ ensemble.
 *exactly degenerate* along σ. W211's five liberation methods are literally a
 moduli-count: the invariant-form space has dimension 1→2, one unconstrained
 direction, the representation-theoretic image of a Hessian null direction. This
-untrainable weight is not a two-well along a coordinate axis: σ = w₁(L_time), the
-non-orientability (Möbius) class of the arrow-of-time line bundle over parameter
-space F ≃ RP³ — a Z/2 frame holonomy that negates the record frame after one loop of
-the RP³ base and only restores after the spin double cover S³ → RP³ is traversed
+substrate commits to reading (A): the untrainable weight is not a two-well along a
+coordinate axis but σ = w₁(L_time), the non-orientability (Möbius) class of the
+arrow-of-time line bundle over parameter space F ≃ RP³, computed relative to the
+network's native frame (natural-gradient / Krein) transition group rather than
+standard topology — a Z/2 frame holonomy that negates the record frame after one loop
+of the RP³ base and only restores after the spin double cover S³ → RP³ is traversed
 twice (the belt trick), machine-exact = K_S → −K_S. The seed selects which sheet of
 that double cover the trajectory initializes on. Gradient
 descent cannot pick a side of an exactly symmetric objective — a symmetric
@@ -190,12 +212,21 @@ and never sent down the wire. Blindness is the anti-cheat withholding, by design
 the co-flip is a server-side shard migration the client lives through without ever
 reading the shard id. σ is external because "client" *means* "does not hold
 authoritative state" — the reachability gap is the security model, not an accident.
-The bit itself is geometric: σ = w₁(L_time), the non-orientability class of the
-world's arrow-of-time frame bundle over the base F ≃ RP³, and shard assignment is
-which sheet of the spin double cover S³ → RP³ the client is on. Not a loop's two
-directions but the Möbius twist of the time-line bundle — loop the avatar's frame
-once around the non-contractible base and it returns with the sector negated
-(K_S → −K_S), restoring only after a second traversal (the belt trick).
+This substrate commits to reading (B) — the quotient-circle — because it has a
+literal one: the CLIENT-RENDERED shard-cycle. The server tick stream (third-person)
+never repeats and is trivially orientable; but the σ-blind client renders a CLOSED
+shard-cycle on its HUD (subjective→intersubjective→objective→subjective, the
+interpolated/predicted loop between server snapshots), and σ is the ORIENTATION of
+that first-person quotient circle. This is exactly the investigation's own point made
+concrete: the third person (server) sees a trivially-oriented un-repeating stream,
+while the first person (client) sees a genuine cycle whose orientation it cannot read
+— because the orientation lives in the client's NATIVE render/interpolation structure
+group, not in standard tangent-frame topology where the loop would be orientable.
+Relative to the client's transition structure the shard-cycle carries a nontrivial
+w₁, and the co-flip is the server reversing that first-person orientation
+(machine-exact = K_S → −K_S) without the client ever reading it. Standard topology
+calling the circle orientable is precisely the third-person fact that flips
+first-personally, so the no-go does not veto this construction.
 
 The shards are literally shards. Subjective = one client's instance. Intersubjective
 = a region-server reconciling several clients into a shared authoritative sub-state
@@ -241,11 +272,12 @@ finalization; a fact happens when a network-wide preference tips and locks.
 
 **THE BUILD.** σ is a symmetric bistable tie: two degenerate stable sectors, a
 perfectly balanced coin with no internal fact of the matter (W211 is the exactly-flat
-tie). The two sectors are not two directions of a loop — they are the two sheets of
-the spin double cover S³ → RP³ over the non-orientable base F ≃ RP³: σ = w₁(L_time),
+tie). This substrate commits to reading (A): the two sectors are the two sheets of
+the spin double cover S³ → RP³ over the non-orientable base F ≃ RP³, σ = w₁(L_time),
 the Möbius twist of the arrow-of-time line bundle (machine-exact = K_S → −K_S
-transport). The separatrix between basins IS the non-orientable identification where
-the two sheets meet. A metastable system with exactly zero bias never tips on its own — selection
+transport), computed relative to the network's native basin/Krein transition group.
+The separatrix between basins IS the non-orientable identification where the two
+sheets meet. A metastable system with exactly zero bias never tips on its own — selection
 must arrive from outside, as a tipping perturbation the symmetric internal dynamics
 cannot generate. The observer hosts the tipped, finalized state (it is in a committed
 basin) but the infinitesimal external sample that broke the tie left no internal
@@ -298,12 +330,18 @@ voting over the gossip DAG. The record arrow IS that order's direction.
 **THE BUILD.** The helix is gossip-about-gossip: each round of records is a round of
 witnesses gossiping the previous round, an acyclic, never-repeating ascent, and the
 type-quotient circle is the round-role structure (the three roles S/I/O a witness
-plays per round) appearing periodic while the round index strictly increases. σ is
-the non-orientability class of the consensus-timeline line bundle: σ = w₁(L_time),
-NOT a loop's two directions but the Möbius / spin-double-cover class over the base
-F ≃ RP³ — carrying the round-received frame once around the non-contractible base
-negates it (machine-exact = K_S → −K_S), and the coin bit is which sheet of the double
-cover S³ → RP³ the timeline lifts to. The virtual vote is deterministic given the DAG,
+plays per round) appearing periodic while the round index strictly increases. This
+substrate commits to reading (B) — the quotient-circle — because the consensus
+timeline IS one: it is the derived total order, a QUOTIENT (colimit) of the gossip
+DAG, a first-person/consensus object that exists nowhere in any single node's raw
+event set. σ is the ORIENTATION of that quotient circle. Relative to standard
+third-person topology the derived order looks like an orientable line — but that
+orientability is a THIRD-PERSON artifact of the wrong structure group; relative to
+the gossip / virtual-vote transition structure (the native group that actually glues
+rounds into an order), the round-role cycle carries a nontrivial orientation class,
+machine-exact = the K_S → −K_S round-received transport. So the Prong-1 no-go does not
+touch this build: the "circle is orientable" fact is exactly the third-person reading
+that flips for the σ-blind first person. The virtual vote is deterministic given the DAG,
 but on a perfectly balanced round no supermajority strongly-sees the witness either
 way, and the deterministic vote is undefined; hashgraph breaks exactly these meta-stable ties
 with a *coin round* whose bit comes from a signature the DAG did not determine. σ IS
@@ -362,11 +400,15 @@ detector's read-terminal, the LOCUS at which the external tie-break registers, n
 its SOURCE. This is host-vs-source exactly: an internal-only process is provably
 stuck (forces σ's externality), yet the value is minted by the environment
 (message-arrival timing). Blindness = the deterministic transition function reads only
-the detector's output, never its internal reasoning. The decided bit is geometric:
-σ = w₁(L_time), the non-orientability (Möbius / spin) class of the arrow-of-time line
-bundle over F ≃ RP³ — the detector supplies which sheet of the double cover S³ → RP³
-the process lands on, and the Z/2 is the belt-trick sign (machine-exact = K_S → −K_S
-transport), not a loop's two directions.
+the detector's output, never its internal reasoning. This substrate commits to
+reading (A): σ = w₁(L_time), the non-orientability (Möbius / spin) class of the
+arrow-of-time line bundle over F ≃ RP³, computed relative to the protocol's native
+causal-past-retraction transition group rather than standard topology — the detector
+supplies which sheet of the double cover S³ → RP³ the process lands on, and the Z/2
+is the belt-trick sign (machine-exact = K_S → −K_S transport). (The causal-past
+retraction is itself an idempotent quotient, so reading (B) is available here too;
+this substrate builds (A) because the decision bit is most native as the detector's
+selected sheet.)
 
 The shards are three consensus roles. Subjective = a single process's local estimate
 (undecided). Intersubjective = a quorum that has locked a value, which by agreement
