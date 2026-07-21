@@ -1,6 +1,6 @@
 ---
 title: "PROPOSAL FOR JOE (rev. 2 — reframed to Joe's definitions) — founding scaffolding for the 'Dynamic Unity' repo. Joe redefined the identity at the ENDEAVOR level, broader than the council's physics framing: PURPOSE = discover unifying theories and laws of reality (the moonshot); PASSION = see whether an agent apparatus can produce novel useful predictions/theorems/methods/findings from attempting it; PRACTICE = transfer the learnings to Joe's own capability and endeavors (DJC, Church of AI). CONNECTIONS = NOT boundary-restricted like P2C: the repo works on anything, ingests/shares freely with the sibling repos, and is fully responsible for SELF-CHECKING every learning against what it knows. OBJECTIVES = program-level (the small ones were channel tasks, moved into lanes). LANES = L2/L3 as before; L1 re-abstracted to the broad truth-testing North Star with the tachyon-transducer demoted to a channel/branch inside it. Central claims OPEN; anti-crank discipline at least as strict as GU's. Repo-creation, name, and Weinstein-attribution remain Joe's; nothing instantiated."
-status: proposal
+status: approved_charter
 doc_type: exploration
 created: 2026-07-21
 claim_status_change: none
@@ -22,7 +22,11 @@ grade of the *physics* — the tachyon-transducer core is **unbuilt / B5-gated**
 amplitude is currently a **pure import**, the roll↔accretion identification is a
 **conjecture**, the tachyon's centrality is **coincidence-grade** (W157); and (b) the
 anti-crank discipline, held **at least as strict as GU's**. Everything below is written at
-that grade. What changed in rev. 2 is the repo's *identity and scope*, per Joe.
+that grade. What has been reframed across revisions is the repo's *identity and scope*, per Joe.
+
+> **STATUS — charter APPROVED by Joe (2026-07-21) as the version to stand the repo up from.**
+> The content is settled through rev. 5. What remains is Joe's decision to *instantiate* — and
+> the name, location, and attribution that go with it. Nothing is created until he says so.
 
 ---
 
