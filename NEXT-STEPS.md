@@ -103,6 +103,20 @@ updated_at: "2026-07-21"
 > monodromy no-go if the source is silent. Pre-declared outcomes + planted-positive control + hostile verify.
 > `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. Steward flag: reconcile the difficulty-demotion
 > scoring conflict. Brief: `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
+>
+> **2026-07-21 NEW LANE-1 CHANNEL `FALSIFICATION-BATTERY` (Joe-directed; steward to reconcile ranking):** the
+> 22-persona committed-construction councils produced a 51-entry hypothesis/test registry
+> (`explorations/hypothesis-and-test-registry-from-councils-2026-07-21.md`). Joe asked to make the test-set a
+> Lane-1 channel — the North Star (force/falsify GU) operationalized. Structured as TWO tracks: (1) INTERNAL
+> structural-derivation computations = hourly-runnable (T-E2 deck-class w1 = reading-A/B seam, T-D2/D3 the ~8%
+> invariant, T-B3 Cl(9,5) no-fourth-generation, T-C2 one-global-arrow parity, T-D1); 3 of these (T-E2/T-B3/T-H1)
+> are being resolved NOW by the three-seam swing (`explorations/prereg-three-seam-swing-2026-07-21.md`).
+> (2) EXPERIMENTAL directly-falsifiable predictions (T-H2 w(z)!=-1 DESI/Euclid, T-B1 a 4th generation, T-A1/A3
+> an internal σ-meter, T-C1 opposed record arrows) route to the EXISTING prediction machinery
+> (`DE-AMP-DIAGNOSTIC` / `DE-F1-TRIPWIRE` / `PRED-CANDIDATE-PACKETS` / prediction-package standing rule /
+> drafting-factory) — NO second attention mechanism. It is a FALLBACK workstream, NOT the Lane-1 lead
+> (OPERATOR-END-PENCIL + the three-seam swing stay lead). A reproducible_falsifier firing on any
+> directly-falsifiable test is a Lane-1 event routed to Joe/steward.
 
 > **2026-07-21 SIGMA/THETA/TAU decision-tree status:** hostile verification
 > removed the compact-collar phase as an unconditional premise; Q3 then returned
