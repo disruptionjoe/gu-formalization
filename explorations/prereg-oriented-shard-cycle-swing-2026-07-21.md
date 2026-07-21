@@ -86,8 +86,15 @@ external seed) forbid anything (a nonvacuous constraint)?
   the observed mass pattern ⇒ the model is science and survives this test.
 - **F-FALSIFIED** (kill): the forced magnitude ordering is incompatible with the
   generation masses ⇒ the model is wrong.
-- **F-UNFALSIFIABLE** (kill): the shadow is provably empty ⇒ retire the reach-around
-  as unfalsifiable, honestly.
+- **F-SCAFFOLD** (KEEP, do NOT retire — Joe recalibration 2026-07-21): not directly
+  falsifiable, but increases the coherence of the full story AND generates a
+  downstream question that could become falsifiable. The model ITSELF predicts
+  in-principle first-person-INSIDE unprovability (the ZK/Gödel self-reference), so
+  first-person-unfalsifiability is an EXPECTED FEATURE, not a defect; seek the
+  shadow at the right class-level (third-person / intersubjective / higher outside).
+  A legitimate exploratory leg — name the downstream falsifiable it points toward.
+- **F-VACUOUS** (retire): adds NO coherence AND generates NO downstream falsifiable.
+  Only this is retired.
 - Control: exhibit something the shadow FORBIDS, or concede it forbids nothing.
 
 ## Synthesis
@@ -96,3 +103,37 @@ numerology, and Prongs 2–3 become at most suggestive). Prong 2 tests whether t
 dynamical/issuance layer is coherent independent of Prong 1. Prong 3 decides whether
 the whole thing is falsifiable at all. Run in parallel; synthesize; hostile-verify
 every positive.
+
+## SWING RESULTS (Prongs 2 & 3 in; Prong 1 geometry pending)
+
+- **Prong 2 — `D-ANALOGY`, with a MODEL CORRECTION** (`shard-cycle-prong2-dynamics-gorard-2026-07-21.md`,
+  probe exit 0). Causal invariance does NOT close the cycle — it produces an
+  invariant ACYCLIC causal graph (a DAG) and *forbids* cycles ("you never see a
+  cycle" — Gorard). CORRECTION: the "circle" is NOT a spacetime cycle; it is the
+  **type-quotient** (collapse records by shard-type S/I/O) of an acyclic issuance
+  **HELIX**, and its paradox-freedom comes from a **fresh-token / non-causal seam**
+  = the discrete image of the q<0 null-K_S closure (σ undefined ⇒ no readable
+  direction). This PRESERVES the circle-appearance + no-backward-causality but fixes
+  the mechanism (helix + type-quotient + null-seam, not confluence). The one
+  transferable EXACT idea (functor-grade): **third-person well-definedness ⇔
+  Gorard causal invariance ⇔ TI's gluing obstruction `H¹(finality sheaf)=0`** — a
+  real triple correspondence. σ = branchial orientation is COUNTER-INDICATED by the
+  banked Q2-FREE (branchial orientation is constrained in a confluent system; σ is a
+  free coin). No functor carries `sgn K_S`, the habitat `GL(4,ℝ)/O(3,1)`, or the q<0
+  stratum onto the rewriting apparatus ⇒ illustrative, not forced. (Controls: non-
+  confluent rule caught; welded-seam rule caught as a cyclic causal graph = the
+  backward-causality paradox the fresh seam avoids.)
+- **Prong 3 — `F-FALSIFIABLE-CONSISTENT` (WEAK)** (`shard-cycle-prong3-falsifier-2026-07-21.md`,
+  probe exit 0). The model is science and survives — but weakly (predicts STRUCTURE,
+  never PATTERN). (a) Mass hierarchy: COMPATIBLE — three copies with identical α-odd
+  content (identical Krein signature `(+32,−32,0)` = observed identical gauge quantum
+  numbers) differing only in an α-even magnitude (mass, sign-blind). The STRONG
+  weight-tied reading is FALSIFIED (arithmetic weight ladder `{−2,0,+2}` cannot make
+  the geometric `1:200:3500`); the model dodges only by locating the splitting as
+  external — which is WHY it is weak. Q3 also forbids tying the hierarchy to σ, and
+  observation agrees. (b) Shadow NON-VACUOUS: the seed↔realization consistency forbids
+  `record-contact ∧ relative-orientation-disagreement` (the relative sign `c=σ_R1·σ_R2`
+  is a product-of-odds = α-even = third-person-VISIBLE), i.e. "**one globally
+  consistent record arrow**" — forbids 6 of 16 configs, a real could-have-failed
+  prediction. The ABSOLUTE seed stays correctly unfalsifiable (Gödel-independent posit
+  = F-SCAFFOLD, kept); only the RELATIVE consistency bites.
