@@ -2,90 +2,90 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-21T05:36:37-05:00'
-run_ref: RUN-20260721-053515-repository-work-cycle-cai-hourly
-bottom_line: 'C1 owner evidence resolves only L5 as a program-native specific
-  object; seven C1 axes and 87 lattice slots remain unresolved.'
-decision_default: Require a C1 source packet before further resolution or
-  inheritance; prefer P-OBS-LEG meanwhile and keep B5 parked.
+updated_at: '2026-07-21T13:42:13-05:00'
+run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+bottom_line: 'P-OBS-LEG is awake but routed to existing frozen-packet monitors;
+  run DE-AMP-DIAGNOSTIC while Lane 1 waits for source-owned end data.'
+decision_default: Keep P-OBS-LEG on monitor until an official release or finite-z*
+  bridge; select DE-AMP-DIAGNOSTIC for ordinary Lane 2 Progress.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
-  light: green
-  reason_code: p_lattice_c1_partial_l5_only
-  evidence_ref: explorations/p-lattice-signature-resolution-c1-2026-07-21.md; tests/recovery-contract/construction_space_lattice_c1_resolution.py
-  work_status: moving
-  last_movement: Resolved C1 L5 as program-native specific-object from owner
-    evidence and preserved all seven unsupported axes as unknown.
-  movement_ref: explorations/p-lattice-signature-resolution-c1-2026-07-21.md
+  light: yellow
+  reason_code: lane1_leads_source_gated_after_t_d_falsifier
+  evidence_ref: explorations/null-stratum-measure-invariance-2026-07-21.md; explorations/wave-swing1-the-lemma-2026-07-21.md
+  work_status: waiting_external
+  last_movement: Falsified fixed ~8%, preserved the qualitative null sector, and
+    localized the pencil residue to source-owned end asymptotics.
+  movement_ref: explorations/null-stratum-measure-invariance-2026-07-21.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: C1 is a branch-local program-native specific object, not a complete
-    seven-leg candidate; remaining axes require a new source packet.
-  progress_delta: 'Resolved one of eight C1 slots, corrected the old complete-
-    signature prose, and froze zero inheritance propagation or enumeration.'
-  scope_position: 'Eleven declared cells and 44 track slots remain; zero new
-    lattice cells were generated. B5 remains parked at source-gap grade.'
+  summary: The internal battery is exhausted on current inputs; operator and C1
+    leaders require source-owned end/object packets.
+  progress_delta: 'T-D1/T-D2 were decided, T-D3 was typed underdefined, and
+    repeated Q1a/Q2/T-C2 work was removed from the eligible queue.'
+  scope_position: 'Fixed ~8% failed; qualitative q<0 survives. C1 keeps seven
+    unresolved axes, and B5 remains parked at its source gap.'
   trend_24h: up
   confidence: med
-  recommendation: Require P-LATTICE-C1-SOURCE-PACKET before more lattice work;
-    select P-OBS-LEG if the independent Lane 2 alternative wins.
-  findings: 'L5 is a_specific_object/program_native. L0, L1-L4, L6, and L7
-    remain unknown; the lattice has 87 unresolved non-generative slots.'
+  recommendation: Wait for native end/C1 packets; preserve T-D results
+  findings: 'T-D2 is sampler-dependent, not a fixed 8% invariant. T-D3 lacks an
+    independent concurrency predicate/map. The LP/LC fork is exact as a reduction
+    but cannot be evaluated without native noncompact-end asymptotics.'
   options:
   - key: A
-    label: Build C1 source packet
+    label: Wait for owner source packet
     recommended: true
   - key: B
     label: Hold B5 for primary source
   - key: C
     label: Reopen source-blocked pencil
-  decision_default: Do not propagate inheritance or enumerate from partial C1;
-    require the source packet and do not reopen B5.
+  decision_default: Do not rerun Q1a, Q2, T-C2, or the T-D sampler test; wait for
+    source-owned end/C1 evidence and do not reopen B5.
   needs_joe: false
-  evaluated_at: '2026-07-21T05:36:37-05:00'
-  run_ref: RUN-20260721-053515-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T13:42:13-05:00'
+  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
   light: yellow
-  reason_code: pp4_smatrix_face_closed_toy_grade
-  evidence_ref: explorations/smatrix-sector-face-2026-07-20.md
-  work_status: thin
-  last_movement: Tested the sector sign's dynamical face; toy scattering yielded
-    no PP4-admissible observable.
-  movement_ref: explorations/smatrix-sector-face-2026-07-20.md
+  reason_code: p_obs_leg_routed_existing_prediction_machinery
+  evidence_ref: explorations/p-obs-leg-admission-and-routing-2026-07-21.md
+  work_status: moving
+  last_movement: Confirmed P-OBS-LEG wake and routed it to existing PP1/PP3
+    tripwires without rescoring consumed data.
+  movement_ref: explorations/p-obs-leg-admission-and-routing-2026-07-21.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#PRED-CANDIDATE-PACKETS
-  summary: PP3 remains frozen; the tested S-matrix face produced no PP4 at toy
-    grade because every observable is sector-blind.
-  progress_delta: 'The PP4-shaped scattering route closed negatively at toy
-    grade; its operator-grade even-term residue belongs to Lane 1.'
-  scope_position: 'PP3 frozen; PP1/PP2 conditional; PP4 not admitted. Future
-    prediction work still requires a native observable or future data.'
+  summary: P-OBS-LEG is a monitor/router; frozen PP1/PP3 surfaces wait for future
+    releases, and finite-z* distinctiveness remains bridge-gated.
+  progress_delta: 'Converted an awake but underspecified queue pointer into an
+    explicit no-duplication monitor with two exact reopen signals.'
+  scope_position: 'PP1-PP3 remain frozen; no fourth packet or second observation
+    system was created. DE-AMP-DIAGNOSTIC remains hourly-eligible.'
   trend_24h: up
   confidence: med
-  recommendation: Preserve PP3 freeze; do not admit PP4
-  findings: 'The scattering matrix contains no K_S, and graded-current readings
-    require an already oriented preparation. This is a toy-grade negative, not
-    an operator-grade impossibility theorem.'
+  recommendation: Run DE-AMP-DIAGNOSTIC; monitor P-OBS-LEG
+  findings: 'PP1 freeze satisfies the owner-declared P-OBS-LEG wake. Existing
+    packet/tripwire machinery already owns confrontation. The finite-z* low-l
+    discriminator is C-SCAFFOLD and the failed fixed-8% clause supplies no scale.'
   options:
   - key: A
-    label: Monitor frozen PP3
+    label: Run DE amplitude diagnostic
     recommended: true
   - key: B
-    label: Harden matter parity
+    label: Monitor frozen PP1/PP3
   - key: C
-    label: Hold pending new data
-  decision_default: Keep PP3 immutable and monitor only genuinely future data;
-    do not retune the family or score known DR2 values.
+    label: Wait for finite-z* bridge
+  decision_default: Keep PP1/PP3 immutable, do not rescore known DR2 values, and
+    execute DE-AMP-DIAGNOSTIC as the strongest internal hourly alternative.
   needs_joe: false
-  evaluated_at: '2026-07-20T13:39:00-05:00'
-  run_ref: RUN-20260720-133556-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T13:42:13-05:00'
+  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
@@ -127,43 +127,41 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: boundary_law_mailbox_and_priority_reconciled
+  reason_code: post_falsifier_priority_and_observation_routing_reconciled
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Dispositioned the consolidated boundary-law proposal as verified
-    awareness and repaired stale operator/trit priority text against current receipts.
+  last_movement: Reconciled stale battery/operator wording and converted P-OBS-LEG
+    from an awake pointer into a governed monitor.
   movement_ref: lab/process/research-portfolio.json
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Cross-repo legs are now scoped without importing sibling truth, and the
-    portfolio reflects GU''s newer source-licensed physicalization priority.
-  progress_delta: Admitted three commit-pinned owner-local receipts as awareness only;
-    corrected the false Cartan-weight-as-family wording and parked the source-blocked pencil.
+  summary: Portfolio, NEXT-STEPS, map, and Lane state now agree on the T-D
+    falsifier, source-gated pencil, and P-OBS-LEG routing.
+  progress_delta: Repaired two stale scientific queue descriptions and one
+    underspecified awake probe without moving claims, canon, verdicts, or posture.
   trend_24h: up
   confidence: high
-  recommendation: Archive the exact mailbox proposal after parent receipt and
-    continue from B5-MIDDLE-DIFFERENTIAL.
-  findings: 'TI 4474769, TaF e99f8c5, and P2C a1565a4 resolve as exploration-grade
-    sibling receipts. The proposal is not a frozen GU packet; its operator priority
-    is superseded by e370e14. No claim, canon, verdict, paper, public-posture, or
-    external-action movement occurred.'
+  recommendation: Preserve reconciled gates; run DE-AMP-DIAGNOSTIC
+  findings: 'Fixed ~8% failed while the qualitative null sector survived. Q2 is
+    settled FREE; the pencil still needs native end data. P-OBS-LEG is routed to
+    existing frozen-packet monitors and has exact reopen signals.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Preserve the cross-repo mechanism distinctions and execute no
-    scientific byproduct after this fresh premium-campaign closeout.
+  decision_default: Preserve P2C and scientific-status boundaries; allow Lane 2
+    DE-AMP-DIAGNOSTIC while source-gated Lane 1 targets wait.
   needs_joe: false
   drift_verdict:
-  - boundary_law_mailbox_awareness_only
-  - stale_operator_and_trit_priority_repaired
+  - stale_operator_q2_and_battery_t_d_wording_repaired
+  - p_obs_leg_duplicate_monitor_risk_closed
   action_counts:
-    mail: 1
-    reconciled: 2
-    integrity_repairs: 2
+    mail: 0
+    reconciled: 3
+    integrity_repairs: 3
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; N6 remains authorized but was not selected.
-  evaluated_at: '2026-07-20T23:39:45-05:00'
-  run_ref: RUN-20260720-233708-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; future data and source-owned end geometry are the exact reopen signals.
+  evaluated_at: '2026-07-21T13:42:13-05:00'
+  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly

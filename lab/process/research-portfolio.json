@@ -336,7 +336,7 @@
       "lane_id": "1",
       "title": "Systematically explore the construction space with sector-fit searches and weave surviving candidates",
       "track": "north_star",
-      "state": "ACTIVE",
+      "state": "WAITING_EXTERNAL",
       "owner": "gu-formalization",
       "hourly_eligible": true,
       "priority_score": 25,
@@ -400,7 +400,7 @@
         "signature_competition": "Joe direct chat 2026-07-19: CH-SIG-95 and CH-SIG-77 each weld ALL leg findings in their signature and push toward a full construction; head-to-head cleanliness comparison (legs fitting, payload N, forced imports, kill survivals). Signature-pure internally; K6 guards the weld; final signature verdict is Joe-gated. Integration barrier updated: both signature channels report before integration concludes."
       },
       "lane_one_lead": false,
-      "lead_note": "No longer the Lane-1 default (Joe 2026-07-21). C1 showed the lattice non-generative pending a source packet; that packet is what the SOURCE-DOMAIN-SELECTOR swing (OPERATOR-END-PENCIL lead) produces. Remains available; not disabled."
+      "lead_note": "No longer the Lane-1 default (Joe 2026-07-21). C1 showed the lattice non-generative pending an owner-grade source packet. The source-domain-selector and Q1a work localized the same gap but did not produce the missing native noncompact-end/object specification. Wait for materially new owner evidence; remains available, not disabled."
     },
     {
       "id": "PRED-FLAVOR-RANK",
@@ -542,6 +542,33 @@
       "forbidden_shortcut": "Compatibility, a one-sided survival tripwire, and a scheduled future dataset do not by themselves constitute a blind GU prediction."
     },
     {
+      "id": "P-OBS-LEG",
+      "lane_id": "2",
+      "title": "Route the observational leg of the frozen dark-energy sign readout",
+      "track": "prediction_confrontation",
+      "state": "MONITOR",
+      "owner": "gu-formalization defines the frozen packet; phenomenology supplies verified future data",
+      "hourly_eligible": false,
+      "priority_score": 21,
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 2,
+        "distinctiveness": 2,
+        "time_sensitivity": 2,
+        "effort": 2,
+        "wall_risk": 2,
+        "duplication_risk": 4
+      },
+      "depends_on": [],
+      "assessment_source": "explorations/p-obs-leg-admission-and-routing-2026-07-21.md",
+      "assessment_summary": "Owner-authoritative construction-map rounds 11-12 establish the wake after PP1 froze, and rounds 16-18 preserve it. The bounded admission audit routes PP1 and PP3 to the existing frozen prediction/tripwire machinery rather than creating a duplicate monitor. The WHAT-IS-THIS finite-z* low-l discriminator remains C-SCAFFOLD pending a construction-grade fiber-null-stratum-to-z* bridge; the failed fixed-~8% clause cannot supply that scale.",
+      "next_swing": "On an official future release applicable to PP1/PP3, verify provenance and apply the already-frozen kill surfaces without retuning. Alternatively reopen if a construction-grade fiber-null-stratum-to-finite-z* bridge freezes the distinctive future-conditioned observable. Otherwise monitor only; do not rescore consumed DR2 inputs or create a second observation mechanism.",
+      "kill_condition": "A pointwise phantom detection at the frozen PP1 threshold kills the sign leg; the finite-z* extension is not live until its bridge is constructed and frozen.",
+      "switch_condition": "official_external_release or a construction-grade finite-z* bridge",
+      "forbidden_shortcut": "Do not treat the sampler-dependent ~8% estimate as a physical scale, reuse packet-construction data as holdout evidence, retune a frozen threshold, or duplicate DE-F1/prediction-package monitoring."
+    },
+    {
       "id": "PRED-CANDIDATE-PACKETS",
       "lane_id": "2",
       "title": "Assemble one or two candidate prediction packets, honestly graded, even if not fully ready",
@@ -629,7 +656,7 @@
       "track": "result_hardening",
       "state": "READY",
       "owner": "gu-formalization",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 18,
       "score": {
         "impact": 4,
@@ -973,14 +1000,14 @@
       "channel": true,
       "title": "Close the single-carrier continuum resolvent-pencil theorem",
       "objective": "Construct or obstruct the exact operator domain and a common resolvent region for the native Krein section family without importing the finite-grid artifacts.",
-      "state": "READY",
+      "state": "WAITING_EXTERNAL",
       "owner": "gu-formalization",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 18,
       "depends_on": [],
-      "current_authority": "The categorical product is a direct sum and carries no coupled-product numerical burden. Two-ended Dirichlet is exactly excluded, while fixed compact graph domains satisfying T^*H(b)T=H(a) give a conditional Krein-self-adjoint realization and a finite boundary-monodromy invertibility gate. This earns COMPACT-GRAPH-CONDITIONAL and COMPACT-PENCIL-REGULAR on frozen pole-free regions, but GU supplies no source-owned endpoint phase or noncompact asymptotic domain; the native result remains DOMAIN-OBSTRUCTION-SOURCE.",
-      "evidence_ref": "explorations/continuum-pencil-domain-gate-2026-07-20.md; explorations/continuum-pencil-graph-domain-certificate-2026-07-20.md; explorations/prereg-source-domain-selector-swing-2026-07-21.md",
-      "next_swing": "The sigma/theta/tau decision tree is active. Q3 returned TWO-INDEPENDENT. Q1a returned Q1A-END-ASYMPTOTICS-BLOCKED: the committed operator keeps principal B=-iK_uG invertible at the C_0=q^(1/2) wall, while the true noncompact-end geometry and asymptotics are unspecified; Q1b is inactive unless a frozen source-owned end packet establishes limit-circle freedom. Do not re-prove externality or rerun Q1a on the same inputs. Next swing: Q2, decide whether the distinct sector bit sigma is FORCED, FREE, or STANDPOINT-SUPPLIED with the preregistered circularity check. Preserve B5 parked.",
+      "current_authority": "The categorical product is a direct sum, so product-uniformity adds no coupled-product numerical burden. Compact graph domains remain conditional and pole-free compact pencils remain regular. Q2 is settled FREE and Q3 TWO-INDEPENDENT. The WHAT-IS-THIS wave sharpens the remaining single-carrier question to an LP/LC deficiency-index fork, but Q1a already established that the committed wall model leaves principal B=-iK_uG invertible and supplies no true noncompact-end geometry/asymptotics. The native result therefore remains DOMAIN-OBSTRUCTION-SOURCE; council reduction does not manufacture the missing end packet.",
+      "evidence_ref": "explorations/continuum-pencil-domain-gate-2026-07-20.md; explorations/continuum-pencil-graph-domain-certificate-2026-07-20.md; explorations/decision-tree-Q1a-limit-classification-2026-07-21.md; explorations/wave-swing1-the-lemma-2026-07-21.md; explorations/wave-swing3-the-outside-2026-07-21.md",
+      "next_swing": "Wait for a frozen source-owned noncompact-end/operator-lift packet specifying the actual end geometry and asymptotics; then compute the native pencil's LP/LC deficiency indices. Do not rerun Q1a, Q2, externality, or a toy LP/LC calculation on the existing inputs. Q1b activates only if the packet establishes limit-circle freedom. Preserve B5 parked and the P2C boundary.",
       "kill_condition": "A boundary-condition-independent adjoint solution or boundary monodromy obstruction on every deck-compatible maximal isotropic domain kills this collar realization at the proved grade.",
       "switch_condition": "The higher-value B5 middle-differential disposition now leads Lane 1. Reopen this channel only on a source-owned domain/asymptotic packet, a defect in the compact graph certificate, or completion/blockage of the leading physicalization class.",
       "forbidden_shortcut": "Do not treat the Hermitian central-difference inverse as a continuum Dirichlet resolvent, and do not inflate the Dirichlet-domain obstruction into a no-go for the native Krein domain.",
@@ -1017,9 +1044,9 @@
       "channel": true,
       "title": "Work the council-harvested falsification battery — internal structural computations as hourly runs; experimental predictions routed to the existing prediction machinery",
       "objective": "Systematically resolve the 51-entry council hypothesis/test registry: grind the internal STRUCTURAL-DERIVATION computations (agent-runnable) as hourly work, and pre-register + monitor the DIRECTLY-FALSIFIABLE experimental predictions via the EXISTING prediction-package/tripwire machinery. This is the Lane-1 North Star (force/falsify/downgrade GU) made operational.",
-      "state": "READY",
+      "state": "MONITOR",
       "owner": "gu-formalization",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "lane_one_lead": false,
       "priority_score": 19,
       "score": {
@@ -1035,10 +1062,17 @@
       "authority": "Joe direct chat 2026-07-21 (proposed the council test-set as a Lane-1 channel). Joe's explicit research-priority change; a FALLBACK/parallel workstream, NOT the Lane-1 lead (OPERATOR-END-PENCIL + the three-seam swing stay lead). Steward to reconcile numeric ranking.",
       "source": "explorations/hypothesis-and-test-registry-from-councils-2026-07-21.md",
       "two_track_contract": {
-        "internal_structural_track": "Agent-runnable STRUCTURAL-DERIVATION computations the hourly grinds: T-E2 (deck-class w1 over the cycle = the reading-A/B seam), T-D2/T-D3 (recompute the ~8% invariant; external-datum vs concurrency stratum measures), T-B3 (Cl(9,5) automorphism no-go = no-fourth-generation), T-C2 (cup-product/Cech parity = one-global-arrow), T-D1 (0%-stratum check). NOTE: T-E2 / T-B3 / T-H1 are being resolved NOW by the three-seam swing (explorations/prereg-three-seam-swing-2026-07-21.md); bank those, then continue the remainder.",
+        "internal_structural_track": "Largely exhausted at current committed inputs. T-E2 resolved to the w1 reading with the literal-circle numerology killed; T-B3/T-B1 no-fourth failed as a GU falsifier; T-C2's Cech/one-arrow content was computed in the construction swing; T-D1 survives qualitatively, T-D2 is D2-SAMPLER-DEPENDENT (fixed ~8% fails), and T-D3 is D3-UNDERDEFINED pending an independent concurrency predicate/map and common measure. Do not repeat these computations.",
         "experimental_prediction_track": "DIRECTLY-FALSIFIABLE tests that need EXTERNAL data are NOT hourly-runnable: T-H2 (w(z)!=-1, DESI/Euclid), T-B1 (a fourth same-signature generation), T-A1/T-A3 (a working internal sigma-meter), T-C1 (a record-sharing pair with opposed arrows). Route these to the EXISTING machinery: DE-AMP-DIAGNOSTIC / DE-F1-TRIPWIRE / PRED-CANDIDATE-PACKETS / lab/process/prediction-package-standing-rule.md / drafting-factory. NO second parallel attention/monitoring mechanism (Joe standing rule)."
       },
-      "next_swing": "Three of the battery's top items resolved by the three-seam swing (T-E2 reading-A/B = reading-B numerology; T-B3/T-B1 no-fourth = B-FAILS, removed as a GU-falsifier; H-H1 two-time = C-SCAFFOLD with a named z*-bridge target). Remaining hourly-runnable internal computations: T-D2/T-D3 (recompute the ~8% invariant; external-datum vs concurrency stratum measures), T-C2 (cup-product/Cech parity = one-global-arrow), T-D1 (0%-stratum check). Experimental track unchanged except T-B1 removed: T-H2 (DE w(z)!=-1) pre-registered via the prediction machinery; the C-scaffold z*-bridge would upgrade Prediction Packet 1 to distinctive.",
+      "next_swing": "No repeated internal battery computation is hourly-worthy on current inputs. Reopen on a genuinely distinct structural test, an independent concurrency predicate/map plus common measure for T-D3, or a fired experimental falsifier. T-H2 remains routed through existing prediction machinery; the C-scaffold finite-z* bridge would upgrade PP1 only after construction-grade freeze.",
+      "post_falsifier_dispositions_2026_07_21": {
+        "T_D1": "QUALITATIVE-SURVIVES: q<0 had positive fraction under every declared full-support sampler; no canonical percentage follows.",
+        "T_D2": "D2-SAMPLER-DEPENDENT: fractions ranged from 0.5% to 25.0%; fixed ~8% failed.",
+        "T_D3": "D3-UNDERDEFINED: no independent GU-native concurrency predicate/map and common measure exist; defining concurrency as q<0 is circular.",
+        "T_C2": "ALREADY-COMPUTED: Cech/one-arrow content is banked in the construction swing; do not repeat.",
+        "boundary": "P2C ownership and all claim/canon/verdict/public-posture gates remain unchanged."
+      },
       "kill_condition": "This channel never closes by exhaustion; it closes ITEMS as their falsifiers resolve. A reproducible_falsifier firing on any DIRECTLY-FALSIFIABLE test is a Lane-1 event routed to Joe/steward (a real falsification of GU or of a sub-reading).",
       "switch_condition": "Rerank after each computation; a fired falsifier or an official_external_release (DESI/Euclid/collider) is a valid switch signal.",
       "forbidden_shortcut": "Do NOT build a second attention/monitoring mechanism for the experimental tests — route to the existing prediction machinery. Do NOT mark a SCAFFOLD-tier item 'falsified' (only DIRECTLY-FALSIFIABLE items can fire; unfalsifiable-from-inside is an expected feature, not a defect). Grade honestly — a fixture-grade structural result is not operator-grade.",

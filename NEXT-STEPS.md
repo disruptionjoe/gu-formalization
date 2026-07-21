@@ -92,25 +92,27 @@ updated_at: "2026-07-21"
 > evidence exists, `P-OBS-LEG` remains the strongest independent Lane 2 alternative. B5 stays parked. Receipt:
 > `explorations/p-lattice-signature-resolution-c1-2026-07-21.md`.
 >
-> **2026-07-21 LANE-1 REPOINTED (Joe explicit priority change):** the hourly kept defaulting to lattice
+> **2026-07-21 LANE-1 REPOINTED (Joe explicit priority change; now source-gated):** the hourly kept defaulting to lattice
 > enumeration because the score formula subtracts effort+wall_risk, demoting the two highest-value Lane-1
 > items below the safe lattice item — contradicting `lane_one_is_protected_from_difficulty_demotion`. Scoping
 > the pencil theorem showed its only open piece (`DOMAIN-OBSTRUCTION-SOURCE`), B5's block, and the C1 L7
 > Krein-probability gap are the SAME missing object: the source-owned boundary/domain data of the actual GU
-> construction. New Lane-1 lead: `OPERATOR-END-PENCIL` reopened (READY, hourly-eligible) to run the
+> construction. `OPERATOR-END-PENCIL` was reopened to run the
 > **SOURCE-DOMAIN-SELECTOR swing** — Prong A mines the fresh Weinstein primary corpus for a construction-grade
 > endpoint/asymptotic relation (unblocks the pencil AND co-determines B5); Prong B attempts the boundary-
 > monodromy no-go if the source is silent. Pre-declared outcomes + planted-positive control + hostile verify.
-> `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. Steward flag: reconcile the difficulty-demotion
-> scoring conflict. Brief: `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
+> `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. Subsequent Q1a and WHAT-IS-THIS work localized
+> the live theorem to the native noncompact-end LP/LC datum but did not supply it; both the pencil and lattice
+> are now `WAITING_EXTERNAL` / non-hourly until an owner-grade end/object packet arrives. Brief:
+> `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
 >
 > **2026-07-21 NEW LANE-1 CHANNEL `FALSIFICATION-BATTERY` (Joe-directed; steward to reconcile ranking):** the
 > 22-persona committed-construction councils produced a 51-entry hypothesis/test registry
 > (`explorations/hypothesis-and-test-registry-from-councils-2026-07-21.md`). Joe asked to make the test-set a
 > Lane-1 channel — the North Star (force/falsify GU) operationalized. Structured as TWO tracks: (1) INTERNAL
-> structural-derivation computations = hourly-runnable (T-E2 deck-class w1 = reading-A/B seam, T-D2/D3 the ~8%
-> invariant, T-B3 Cl(9,5) no-fourth-generation, T-C2 one-global-arrow parity, T-D1); 3 of these (T-E2/T-B3/T-H1)
-> are being resolved NOW by the three-seam swing (`explorations/prereg-three-seam-swing-2026-07-21.md`).
+> structural-derivation computations were hourly-runnable at admission. They are now exhausted on current inputs:
+> T-E2, T-B3/T-B1, and T-C2 are dispositioned; T-D1 survives qualitatively, T-D2 is sampler-dependent, and
+> T-D3 is underdefined pending an independent predicate/map plus common measure. Do not repeat them.
 > (2) EXPERIMENTAL directly-falsifiable predictions (T-H2 w(z)!=-1 DESI/Euclid, T-B1 a 4th generation, T-A1/A3
 > an internal σ-meter, T-C1 opposed record arrows) route to the EXISTING prediction machinery
 > (`DE-AMP-DIAGNOSTIC` / `DE-F1-TRIPWIRE` / `PRED-CANDIDATE-PACKETS` / prediction-package standing rule /
@@ -126,8 +128,31 @@ updated_at: "2026-07-21"
 > needed for an LP/LC verdict. Q1b is inactive. Do not rerun Q1a without the
 > exact end packet in
 > `explorations/decision-tree-Q1a-limit-classification-2026-07-21.md`.
-> Next independent binary swing: Q2 (`sigma` forced/free/standpoint-supplied).
-> B5 remains parked.
+> Q2 subsequently returned `Q2-FREE`; do not rerun it. Next operator action is
+> the native LP/LC deficiency-index computation only after a frozen source-owned
+> noncompact-end/operator-lift packet arrives. B5 remains parked.
+>
+> **2026-07-21 post-falsifier and WHAT-IS-THIS reconciliation:** Q2 is already
+> settled `Q2-FREE`; do not rerun it. The fixed `~8%` clause failed: T-D1 keeps
+> only a qualitative positive `q<0` sector, T-D2 is `D2-SAMPLER-DEPENDENT`
+> (`0.5%`--`25.0%` across declared samplers), and T-D3 is `D3-UNDERDEFINED`
+> without an independent concurrency predicate/map and common measure. T-C2's
+> Cech/one-arrow content is already computed. The WHAT-IS-THIS wave sharpens the
+> operator residue to an LP/LC deficiency-index fork, but it does not supply the
+> missing native noncompact-end geometry/asymptotics; `OPERATOR-END-PENCIL`
+> therefore waits for a frozen source-owned end/operator-lift packet. Preserve
+> the P2C boundary, B5 parking, and all claim/canon/verdict/posture gates.
+>
+> **2026-07-21 `P-OBS-LEG` disposition:** owner-authoritative wake is confirmed:
+> construction-map round 12 froze PP1 and satisfies the round-11 wake. The
+> bounded admission audit returns `P-OBS-LEG-ROUTED`, not a new computation.
+> PP1/PP3 retain their frozen kill surfaces in the existing prediction/tripwire
+> machinery; do not rescore DR2 inputs consumed in packet construction or build
+> a second monitor. The proposed future-conditioned low-`l` discriminator remains
+> `C-SCAFFOLD` until a construction-grade fiber-null-stratum to finite-`z*`
+> bridge exists, and the failed fixed-`~8%` clause cannot supply its scale.
+> Reopen on an official future release or that frozen bridge. Receipt:
+> `explorations/p-obs-leg-admission-and-routing-2026-07-21.md`.
 >
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
