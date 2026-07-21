@@ -34,6 +34,15 @@ public_posture_change: none
 
 # Channel swing CH-SRC: the minimal source-action toy
 
+> **2026-07-21 payload correction (`P-RANK-FOLD`):** the conditional fold
+> mentioned below has now failed by sector separation. The native value
+> `3 = dim Lambda^2_+` remains derived, but the mirror-selection and
+> `SU(2)-`-collapse map cannot be encoded by the finite Spin(10) chain datum.
+> Treat older `N = 4 iff fold / N = 5 if not` language as the historical open
+> branch, not current slot typing. Current evidence requires the chain and
+> generation-physicalization selectors to remain distinct; this correction
+> does not adjudicate the global count of unrelated slots.
+
 CH-SRC's standing role: attempt the minimal source-action skeleton (spec
 B.1-B.4) and maintain the build-parameter ledger that integrates what every
 other channel has frozen. Both deliverables exist as of this swing:

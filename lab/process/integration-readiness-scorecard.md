@@ -105,7 +105,9 @@ integration_note: "2026-07-19 evening: all seven fanout swings returned and are 
   survives; fiber (6,4)/PS chain ports untouched; (7,7) is
   TRANSCRIPT-COMPATIBLE (same trace-reversal path, opposite X4 sign
   convention). Odd index TYPE-CONSISTENT (Kramers wall gone) but
-  reachable-not-forced: the rank/count integer import survives.
+  reachable-not-forced: no convention-rigid index value or flavor selector
+  follows. `P-RANK-FOLD` keeps the physicalization demand separate from the
+  internal chain datum in this fork too.
 - **Debits (7,7):** shiab selector family doubles (quaternionic cut
   collapses); ind_H "/8" arithmetic, eta=0 mechanism (its particle-hole
   symmetry IS J_quat — possibly fatal to that proof), and Pin/KO 2-primary
@@ -113,10 +115,12 @@ integration_note: "2026-07-19 evening: all seven fanout swings returned and are 
 - **Krein Gram fork in (7,7):** canonical Gram ANTICOMMUTES with J'
   (forced scalar i, J'-odd); chirality-twisted Gram commutes. The weld
   must pin one (new named choice: GRAM-PIN-77).
-- **Payload tally:** N core heading to 3 in BOTH signatures (orientation +
-  scale + rank/count integer), with the chain item conditionally derivable
-  and the branch item computed away. The live difference is TYPING and
-  proof-debt, not count.
+- **Payload typing after P-54/P-RANK:** orientation, absolute scale, finite
+  subgroup-chain selection, and generation physicalization are distinct slots
+  wherever imported. The native value `3 = dim Lambda^2_+` survives, so the
+  last slot is not honestly an arbitrary integer; it is the missing mirror
+  selection plus `SU(2)-` factor collapse. The branch item remains computed
+  away. Exact global N-accounting must not merge the chain and generation slots.
 
 ## Overall: the decisive computations (ranked)
 
@@ -131,8 +135,9 @@ integration_note: "2026-07-19 evening: all seven fanout swings returned and are 
 4. **54-direction weld (CH-SIG-95, g2): COMPLETE — COMPOSITE ONLY.** The
    direct 10->54 weld fails; an additional quadratic order parameter is
    algebraically available but remains source- and reduction-conditional.
-5. **Rank-pin fold (CH-SM/CH-QM), NEXT:** can the generation integer fold into
-   existing finite data rather than standing as its own item?
+5. **Rank-pin fold (CH-SM/CH-QM): COMPLETE — DIRECT FAIL.** The finite chain
+   acts on the internal Spin(10) factor and cannot select the flavor/mirror
+   factor. The native triplet supplies the value three but not its physicality.
 
 Integration proper begins when K2 and the signature comparison resolve;
 the welded-payload consistency check and the P0 endings govern as before.

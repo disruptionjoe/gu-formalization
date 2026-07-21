@@ -26,6 +26,15 @@ proposal_semantics: "PROPOSAL DOSSIER. Nothing in this file asserts that the sou
 
 # Blockbuster P5: the candidate instance dossier
 
+> **2026-07-21 payload correction (`P-RANK-FOLD`):** the packet no longer has
+> an open option to merge generations with the finite subgroup-chain datum.
+> The native number three is already supplied by `dim Lambda^2_+`, but the
+> source packet must separately own the generation-physicalization selector
+> (mirror selection plus `SU(2)-` factor collapse). Statements below that the
+> packet "must answer" whether the two slots fold are retained as historical
+> proposal state. See
+> `explorations/p-rank-fold-sector-separation-2026-07-21.md`.
+
 The interface contract (`lab/process/source-object-interface-contract.md`) is a
 frozen spec with no instance. The build ledger holds 20 frozen constraints with
 no computed conflict, and the CH-SRC toy is honestly obstructed at exactly one
@@ -498,7 +507,7 @@ verdict):
 | habitat (fiber topology, twist, two-section structure) | NATIVE-PROVABLE / NATIVE-PLAUSIBLE | none (structure, not a posit) |
 | bit VALUE (which sector) | ASSUMED (p2c-owned posit) | payload item 1 (the one Z/2; same bit as tau/eps/sigma — counted once) |
 | absolute scale lambda_0 | ASSUMED (empirical bracket import, COSMO-A1) | payload item 2 |
-| generation integer via Door B property P | DEMANDED (unconstructed) | payload item 3 (or folds into the finite datum; packet must answer) |
+| generation physicalization via Door B property P | DEMANDED (unconstructed); value 3 has native `Lambda^2_+` provenance | distinct selector; does not fold into the finite chain datum (`P-RANK-FOLD`) |
 | finite subgroup datum | out of this dossier (CH-SM card; conditionally derivable per round 11) | conditional |
 | p2c witness mechanics | IMPORTED (discriminator shape only) | none |
 | Melrose–Piazza / APS / spectral-flow literature | IMPORTED (shape; theorems do not yet cover the actual case) | none |

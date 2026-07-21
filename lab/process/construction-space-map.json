@@ -360,8 +360,8 @@
       "tracks": {
         "SM": {
           "grade": "R0_COND",
-          "note": "P-54-WELD: the native distortion carries one vertical 10, so the direct equivariant 10->54 weld fails. A 54 exists only as an explicitly defined quadratic vertical Gram composite with source-owned selection, nonzero/stabilizer proof, and native Spin(6,4)-to-conventional Spin(10)/Pati-Salam reduction. The track remains R0_COND; no chain datum is deleted.",
-          "evidence": "explorations/channel-swing-CH-SM-2026-07-19.md; explorations/p54-weld-typing-2026-07-21.md; tests/channel-swings/ch_sm_chain_sweep.py"
+          "note": "P-54-WELD: the native distortion carries one vertical 10, so the direct equivariant 10->54 weld fails; only an explicit quadratic composite remains conditional. P-RANK-FOLD: the finite chain acts on the internal Spin(10) factor and cannot select flavor rank, mirrors, or the SU(2)- doubling. The native value 3=dim Lambda^2_+ survives, but its physicalization selector remains distinct from the chain datum. The track remains R0_COND.",
+          "evidence": "explorations/channel-swing-CH-SM-2026-07-19.md; explorations/p54-weld-typing-2026-07-21.md; explorations/p-rank-fold-sector-separation-2026-07-21.md; tests/channel-swings/ch_sm_chain_sweep.py; tests/channel-swings/bb_p4_generation_doors_probe.py"
         },
         "QM": {
           "grade": "R1_COND",
@@ -948,6 +948,14 @@
       "results_digest": "P-54-WELD-COMPOSITE-ONLY: the program-native curvature distortion is valued in one vertical 10, while the conventional D-even Pati-Salam order parameter is Sym^2_0(10), the 54 after complexification. Hom_Spin(10,C)(10,54)=0, so the direct linear weld fails. CH-GR contracts vertical slots and survives unchanged. A quadratic traceless vertical Gram composite can occupy the 54 channel, but it is not the CH-GR stress and remains conditional on a source-owned rule, nonzero/stabilizer proof, and native-real-form-to-conventional reduction.",
       "payload_state": "The CH-SM chain datum is not deleted. C10-SM remains R0_COND with an explicit composite-order-parameter demand; no claim, canon, verdict, or public posture moves.",
       "chairman_synthesis": "Advance P-RANK-FOLD as the next highest standing construction-space probe. Keep B5 parked at its source gap and do not design around the missing differential."
+    },
+    {
+      "round": 15,
+      "date": "2026-07-21",
+      "mode": "hourly disposition of P-RANK-FOLD after P-54-WELD",
+      "results_digest": "P-RANK-FOLD-DIRECT-FAIL: conventional chain operators have form 1_F tensor A on F tensor 16 and cannot select dim F. GU supplies a native 3 through dim Lambda^2_+ on the four-dimensional base, but the Spin(10) chain acts on the 16 factor and does not chiralize the mirror pairs or collapse the extra SU(2)- doublet. The value provenance survives; the missing datum is a qualitative generation-physicalization selector, not a free integer.",
+      "payload_state": "The finite subgroup-chain datum and generation-physicalization selector remain distinct wherever both are imported. No payload merge, claim, canon, verdict, or public posture change is earned.",
+      "chairman_synthesis": "P-RANK-FOLD reaches a negative endpoint. Recheck the declared wake conditions before choosing between the parked P-LATTICE-SWEEP and P-OBS-LEG queues; preserve B5 at its source gap."
     }
   ]
 }

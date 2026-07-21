@@ -60,6 +60,13 @@ updated_at: "2026-07-21"
 > conditional. CH-GR survives; CH-SM stays `R0_COND`; no payload datum is deleted. Next standing probe:
 > `P-RANK-FOLD`. Receipt: `explorations/p54-weld-typing-2026-07-21.md`.
 >
+> **2026-07-21 P-RANK-FOLD disposition:** direct fold fails by sector separation. A conventional Spin(10)
+> chain acts as identity on flavor multiplicity; GU's native `3 = dim Lambda^2_+` is real, but the chain
+> still does not select mirrors or collapse the extra `SU(2)-` doublet. The generation slot is therefore a
+> distinct physicalization selector, not an arbitrary integer and not part of the finite chain label. Recheck
+> the declared wake conditions before selecting `P-LATTICE-SWEEP` or `P-OBS-LEG`. Receipt:
+> `explorations/p-rank-fold-sector-separation-2026-07-21.md`.
+>
 > **2026-07-19 previous Lane 1 leader (retained context; no longer current):** `CONSTRUCTION-SPACE-EXPLORATION`
 > (Joe-authorized 2026-07-19, amended same day): map
 > the predeclared construction space on the six-axis template, run per-sector fit searches (SM, QM, GR vacuum,

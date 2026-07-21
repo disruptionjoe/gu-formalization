@@ -128,9 +128,13 @@ recovered spec-sheet constraints the four-leg form must also satisfy:
 - any compensator structure must reproduce the exact C2 scale law
   C2(2xi)/C2(xi) = 2.
 
-Open decisive question: whether the transmitted Z/2 orientation is itself
-non-quaternionic (one bit discharging Krein sign + parity + arrow), keeping
-N <= 4; if not, generations force a fifth payload item.
+Resolved payload-typing questions: the transmitted Z/2 orientation is
+quaternionic-commuting in the `(9,5)` H-class and cannot discharge generations.
+`P-RANK-FOLD` additionally shows that the finite subgroup-chain datum acts on
+the internal Spin(10) factor and cannot carry the mirror selector or collapse
+the extra `SU(2)-` doublet. The native value `3 = dim Lambda^2_+` survives, but
+the packet must supply a distinct generation-physicalization selector rather
+than an arbitrary integer. B.5 remains source-owned and unconstructed.
 
 ## Machine-Readable Contract
 
