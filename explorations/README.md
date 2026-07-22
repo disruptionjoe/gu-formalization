@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-06-29"
+updated_at: "2026-07-22"
 ---
 
 # Explorations
@@ -10,6 +10,17 @@ updated_at: "2026-06-29"
 Speculative, redirected, or under-proved research branches -- the research lab, not the project canon. Read
 these for the full working record; the durable, reviewed results live in `canon/` and the papers under
 `papers/published/`.
+
+## Current Lane-1 operator/anomaly campaign
+
+- [`operator-to-anomaly-closure-campaign-2026-07-22.md`](operator-to-anomaly-closure-campaign-2026-07-22.md)
+  is the controlling run record.  It preserves the genuine `q<0`/failed-definite-cut result while resetting
+  the unbuilt domain, exact-bit, `w1`, and anomaly bridges to `SOURCE-GAP`.
+- [`pin14-smith-route-audit-2026-07-22.md`](pin14-smith-route-audit-2026-07-22.md) executes the corrected
+  Smith degree reduction and the direct Kirby--Taylor table read:
+  `Omega^{Pin+}_14 ~= Omega^{Pin-}_12 ~= Z/2` exactly.  GU's class remains unconstructed.
+- [`pin14-bordism-wave-triple-diamond-results-2026-07-22.md`](pin14-bordism-wave-triple-diamond-results-2026-07-22.md)
+  is the preceding triple-diamond record; its top correction notice points to the governing audit.
 
 The notes are grouped into topical subfolders by subject. (Previously ~300 sat loose at the top level; they
 were sorted by reading each note's content.)

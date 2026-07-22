@@ -143,6 +143,21 @@ updated_at: "2026-07-21"
 > therefore waits for a frozen source-owned end/operator-lift packet. Preserve
 > the P2C boundary, B5 parking, and all claim/canon/verdict/posture gates.
 >
+> **2026-07-22 OPERATOR-TO-ANOMALY BIG-SWING RECONCILIATION:** the native control refutes the inference
+> that powered `LC-SELECTOR`: on the committed `Cl(9,5)` carrier a timelike generator is
+> `K_S`-self-adjoint even though both `+/-i` spectral halves are `K_S`-null.  The durable result is therefore
+> only that genuine sampled ends enter `q<0` and the `K_S`-definite spectral cut fails.  The prior reduced
+> potential/WKB run did not construct the source-owned operator domains, Green form, trace representation, or
+> deck action, so “no `J`-self-adjoint realization,” “exactly one external bit,” `sigma=w1`, and
+> anomaly-protected excision are reset to **`SOURCE-GAP`**.  Standard boundary-form controls also show a
+> continuous `U(n)` realization space and continuous deck-fixed families for `n>=2`; the two `+/-i0`
+> branches classify only the scalar section ansatz.  `OPERATOR-END-PENCIL` remains `WAITING_EXTERNAL` until
+> one frozen operator/domain/symmetry packet supplies the missing fields.  Independently, the corrected Smith
+> route and Kirby--Taylor's direct table prove `Omega^{Pin+}_14 ~= Omega^{Pin-}_12 ~= Z/2` exactly.  The
+> ambient group is closed; construction and nontriviality of GU's proposed class remain open.
+> Receipts: `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md` and
+> `explorations/pin14-smith-route-audit-2026-07-22.md`.
+>
 > **2026-07-21 `P-OBS-LEG` disposition:** owner-authoritative wake is confirmed:
 > construction-map round 12 froze PP1 and satisfies the round-11 wake. The
 > bounded admission audit returns `P-OBS-LEG-ROUTED`, not a new computation.

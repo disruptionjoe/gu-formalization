@@ -10,6 +10,16 @@ boundary: nothing promoted, frozen, flipped, or posted; no bordism order asserte
 
 # σ = w₁(L_time) keystone — adversarial-assault synthesis
 
+> **UPDATE (2026-07-22 — operator/domain/w1 bridge audit).** The assault's cautious overall verdict was
+> correct, but the post-attack update in §2 still overstates two points.  The Smith sequence gives
+> `Omega^{Pin+}_14 ~= Omega^{Pin-}_12`, not a reduction to ordinary Spin coefficients alone; ABP's exponent
+> theorem makes this a nonzero elementary 2-group, and Kirby--Taylor's direct table closes the multiplicity:
+> `Omega^{Pin+}_14 ~= Z/2` exactly.  Separately, the committed symbol
+> does not define the determinant/Pfaffian/domain line needed to type `sigma=w1`, and null spectral halves do
+> not imply absence of `J`-self-adjoint realizations.  The class and bridge remain `SOURCE-GAP`.  See
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md` and
+> `explorations/pin14-smith-route-audit-2026-07-22.md`.
+
 A maximum-effort assault (map + 7 parallel attacks + per-leg adversarial verification + synthesis) on the
 σ = w₁(L_time) external-Z/2 keystone. **Result: the assault was cartographic and disciplinary, not a
 proof.** It converted a citation-web assertion into a precisely-blocked, honestly-graded dependency DAG and
@@ -74,7 +84,9 @@ belt-trick U²=−I; dim 14 (edge-on-wall) vs 15 (bulk) unsettled. Neither is a 
 valid s−t<8). (b) The **leading ABP term vanishes at n=14** (engine-validated on n=0–7) ⇒ Ω^Pin⁺₁₄ is a
 **pure-correction** group, expected nonzero and moderate. (c) A **cheaper route than a bespoke `ext` run**
 exists: the **Smith fiber sequence** (arXiv:2405.04649) reduces it to known Ω^Spin_\*. (d) The RP⁴×M¹⁰ probe
-**provably vanishes** (false-negative, not a zero verdict). Still OPEN; no value asserted.
+**provably vanishes** (false-negative, not a zero verdict). **Final correction:** Kirby--Taylor's direct
+table gives `A(14)=1` and no higher-order summands in degree 14, so the ambient group is exactly `Z/2`.
+Only the proposed GU class remains open.
 
 ## 3. The unreadability bridge (OPEN — the "attention-winning sentence" is NOT proved)
 

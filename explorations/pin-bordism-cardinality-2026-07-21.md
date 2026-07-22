@@ -19,6 +19,18 @@ probe: tests/channel-swings/pin_bordism_cardinality_probe.py (foreground, seed 2
 
 # PIN-BORDISM cardinality + protection
 
+> **CORRECTION (2026-07-22 — bridge audit + Smith audit).** The ambient topology is now sharper:
+> `Omega^{Pin+}_14 ~= Omega^{Pin-}_12 ~= Z/2` exactly, using the Smith sequence and Kirby--Taylor's direct
+> table.  This proves the exact ambient **receptacle**, not that the proposed GU datum supplies its nonzero
+> class.  The claim that
+> there is **exactly one operator/domain bit**, its identification with `sigma=w1`, and the resulting
+> anomaly protection/excision prohibition are retracted to `SOURCE-GAP`; they depended on a missing
+> operator-domain-line construction.  `Pin+` versus `Pin-` remains a tangential-structure choice, while the
+> number of equivariant domains is uncomputed and need not be binary.  See
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md` and
+> `explorations/pin14-smith-route-audit-2026-07-22.md`.  Original proposal-grade text is retained below as
+> provenance and is superseded where it conflicts with this notice.
+
 Single synchronous pass, foreground, maximum honesty about grade. The whole result
 is **CONDITIONAL** on the proposal-grade anomaly-inflow identification banked in
 `anomaly-inflow-swing-2026-07-21.md`: that the `{q<0}` non-constructibility is a

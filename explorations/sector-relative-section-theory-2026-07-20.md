@@ -35,6 +35,15 @@ public_posture_change: none
 > consequences are UNAFFECTED. Original text below retained unedited per
 > record discipline.
 
+> **SCOPE CORRECTION (2026-07-22 — operator/domain/w1 bridge audit).** The exact two-point result in this
+> note classifies the scalar-normalized section ansatz `N=zM`, `z^2q=1` (equivalently the two `+/-i0`
+> continuations).  It is not a classification of closed realizations of a noncompact differential operator.
+> Standard balanced first-order extension theory has a `U(n)` domain family before symmetry reduction, and
+> even a swap-deck fixed set is continuous for multiplicity `n>=2`.  No operator-grade `Z/2` follows until
+> the source-owned boundary trace representation and all symmetry constraints are supplied.  See
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md`.  The matrix-grade section theorem below
+> remains valid inside its stated ansatz.
+
 # The sector-relative section theory, built
 
 N2 named the missing mathematics precisely: no spectral-section theorem

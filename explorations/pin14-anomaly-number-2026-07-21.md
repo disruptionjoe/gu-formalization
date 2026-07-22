@@ -19,6 +19,14 @@ probe: tests/channel-swings/pin14_anomaly_number_probe.py (foreground, seed 2026
 
 # PIN14 anomaly NUMBER -- a genuine reconstruction attempt at |Omega^{Pin+}_14|
 
+> **CORRECTION (2026-07-22 — primary direct table).** The ambient number is no longer blocked:
+> Kirby--Taylor define `A(n)` as the number of `Z/2` summands in `M Pin+_n`, list `A(14)=1`, and place all
+> other summands only in degrees congruent to zero modulo four.  Therefore
+> `Omega^{Pin+}_14 ~= Z/2` exactly.  The historical reconstruction below remains useful provenance but is
+> superseded wherever it calls the ambient order unknown.  This does **not** prove that the proposed GU
+> operator/domain datum exists or represents the nonzero element; that class remains `SOURCE-GAP`.  Governing
+> audit: `explorations/pin14-smith-route-audit-2026-07-22.md`.
+
 Single synchronous pass, foreground, maximum honesty about grade. This is **target T1**
 from `operator-grade-anomaly-banking`: the exact order of `Omega^{Pin+}_14` (and the
 Pin-`eta` / SW number of `sigma`'s degree-1-derived 14-class) -- the "one reconstruction

@@ -23,6 +23,11 @@ probe: tests/channel-swings/anomaly_rigor_track_a_probe.py (foreground, determin
 
 # ANOMALY-RIGOR Track A -- the w1-SW-number survival check
 
+> **CORRECTION (2026-07-22).** The ambient group is now known exactly:
+> `Omega^{Pin+}_14 ~= Z/2` by Kirby--Taylor's table.  This does not change Track A's vanishing result and does
+> not show that GU supplies the nonzero element.  The class-realization bridge remains `SOURCE-GAP`; see
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md`.
+
 Single foreground pass, maximum honesty about grade. This runs **Track A** from
 `anomaly-rigor-approach-scoping-2026-07-21.md` (rung 1): the **minimum-sufficient,
 sigma-FREE** shot at rigorously excluding `ANOMALY-TRIVIAL` **without** the group order

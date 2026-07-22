@@ -26,6 +26,19 @@ kill_conditions_declared_before_computation: true
 
 # The decisive LP/LC deficiency-index computation
 
+> **CORRECTION (2026-07-22 — operator/domain/w1 bridge audit).** This run did not construct the
+> source-owned noncompact boundary operator or its minimal/maximal domains, Green form, trace space, and
+> deck action.  Its reduced potential and WKB/Lyapunov count therefore do not prove that the crossed GU
+> expression has unequal deficiency indices or no `J`-self-adjoint realization.  More strongly, the exact
+> committed `Cl(9,5)` carrier contains a timelike generator whose `+/-i` spectral halves are `K_S`-null
+> while the full generator is still `K_S`-self-adjoint.  The result that survives is: genuine sampled ends
+> enter `q<0`, and the **`K_S`-definite spectral cut fails** there.  The conclusions “no canonical
+> `J`-self-adjoint realization,” “an external domain prescription is required,” and “that prescription is
+> exactly `sigma=w1`” are retracted to `SOURCE-GAP`.  See
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md` and
+> `tests/channel-swings/operator_domain_w1_bridge_audit.py`.  Original text is retained below as the run
+> record and is superseded where it conflicts with this notice.
+
 Adversarial truth-test, maximum skepticism, anti-toy discipline binding. A prior
 `Q1a-FORCED` (limit-point) verdict was reached by **planting a toy** (bounded
 collar coefficients `P=1+0.2sin`, etc.) and was refuted (`HV-REFUTE`). This run

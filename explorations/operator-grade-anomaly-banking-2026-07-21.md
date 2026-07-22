@@ -23,6 +23,13 @@ probe: tests/channel-swings/operator_grade_anomaly_banking_probe.py (foreground,
 
 # OPERATOR-GRADE anomaly banking -- three separated targets
 
+> **CORRECTION (2026-07-22).** T1's ambient group is now closed independently:
+> `Omega^{Pin+}_14 ~= Z/2` by the Smith audit and Kirby--Taylor's direct table.  T1's GU-class assignment,
+> T2, and T3 remain unbuilt.  More strongly, the current operator audit retracts the inference from null
+> spectral halves to absence of `J`-self-adjoint realizations: the supported result is failure of one
+> `K_S`-definite cut, not a binary external-domain theorem.  See
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md`.
+
 Single synchronous pass, foreground, maximum honesty about grade. This session has
 already caught FOUR planted-toy over-claims; the binding discipline here is that a
 positive is NEVER self-banked, an operator-grade theorem is NEVER declared from a

@@ -20,6 +20,13 @@ probe: NONE -- scoping pass only. No probe was run; no resolution engine was bui
 
 # SCOPING the anomaly-rigor approach -- the exact Omega^{Pin+}_14 computation, scoped
 
+> **CORRECTION (2026-07-22).** The ambient group computation proposed below is no longer a live task:
+> Kirby--Taylor's direct table gives `Omega^{Pin+}_14 ~= Z/2` exactly.  The scoping's more important
+> separation survives: knowing the group is neither sufficient nor a construction of the proposed GU class.
+> That class still requires the missing operator/domain/line map.  See
+> `explorations/pin14-smith-route-audit-2026-07-22.md` and
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md`.
+
 Four personas reason INLINE in this one worker (each in-character and independent,
 then a synthesis; NEVER one agent per persona -- Joe's standing rule). This is a
 **scope-the-approach** swing: it designs the best route to the number the T1 shot
