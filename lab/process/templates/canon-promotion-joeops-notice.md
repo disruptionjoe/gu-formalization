@@ -1,6 +1,8 @@
 <!--
-TEMPLATE — from the gu-formalization repo root, copy into ../../../system/mailboxes/joeops/ as
-    YYYYMMDD-canon-promotion-<slug>-to-joeops.md
+TEMPLATE — save the completed durable note in this repository as
+    attention/YYYYMMDD-canon-promotion-<slug>.md
+Then place a pointer-only envelope naming that source path in
+    ../../../repos/private/system-runtime/mailboxes/system-attention/
 Awareness note for an ALREADY-EXECUTED canon promotion in gu-formalization.
 This is not a request for approval. See RESEARCH-STATUS.md "Promotion Rule".
 Delete these comment lines when filling it in.
@@ -44,4 +46,5 @@ no `axiom`?), external validations, independent rechecks.
 How to undo cleanly: revert commit <hash>, demote the `CANON.md` row to <prior>, and
 re-open <exploration>. Note whether any downstream migration is required.
 
-<!-- JoeOps appends "## Processing Receipt" on processing, then moves this file to archive/. -->
+<!-- System Attention indexes the owner-source pointer as unread. Runtime may archive the
+pointer envelope only after the pointer appears in the Attention awareness index. -->
