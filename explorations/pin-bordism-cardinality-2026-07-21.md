@@ -31,6 +31,12 @@ probe: tests/channel-swings/pin_bordism_cardinality_probe.py (foreground, seed 2
 > `explorations/pin14-smith-route-audit-2026-07-22.md`.  Original proposal-grade text is retained below as
 > provenance and is superseded where it conflicts with this notice.
 
+> **FOLLOW-UP (2026-07-22 — class-realization ultimatum).** `SOURCE-GAP` is now typed more strongly as
+> `PIN-SMITH-NOT-DEFINED` for the committed repository: there is no closed GU degree-14 cycle or proper
+> Fredholm family carrying the required lift, action, line, and natural class map.  The exact `Z/2` target
+> therefore cannot yet be evaluated at a GU input.  See
+> `explorations/pin-smith-class-realization-ultimatum-2026-07-22.md`.
+
 Single synchronous pass, foreground, maximum honesty about grade. The whole result
 is **CONDITIONAL** on the proposal-grade anomaly-inflow identification banked in
 `anomaly-inflow-swing-2026-07-21.md`: that the `{q<0}` non-constructibility is a

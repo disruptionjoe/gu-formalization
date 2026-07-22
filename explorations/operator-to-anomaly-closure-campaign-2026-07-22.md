@@ -10,6 +10,15 @@ updated_at: "2026-07-22"
 
 # Operator-to-anomaly closure campaign
 
+> **FOLLOW-UP (2026-07-22 — class-realization ultimatum).** A complete inventory of the available geometric
+> cycles and analytic families sharpens this run's `SOURCE-GAP` to `PIN-SMITH-NOT-DEFINED` relative to the
+> committed source.  The first geometric failure is the absence of a closed compact degree-14 cycle; the
+> first analytic failure is the absence of a proper Fredholm realization.  Consequently no GU element of
+> the exact `Omega^{Pin+}_14 ~= Z/2` target is presently defined, so neither `TRIVIAL` nor `GENERATOR` can be
+> evaluated.  See `explorations/pin-smith-class-realization-ultimatum-2026-07-22.md`.  This notice preserves
+> the operator findings below and governs any looser statement that the remaining work is merely an
+> eta-invariant evaluation.
+
 ## Run plan
 
 **Controlling question.** For the program-native crossed-end construction, what is the complete space of

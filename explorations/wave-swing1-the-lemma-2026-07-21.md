@@ -19,6 +19,15 @@ probe: tests/channel-swings/wave_swing1_spin_cover_base_uniting_probe.py (foregr
 
 # Swing 1 -- THE LEMMA
 
+> **CORRECTION (2026-07-22 — operator and class audits).** The `S3 -> RP3` spin cover and its topological
+> deck bit remain exact.  The differential-expression pencil, deck-odd operator action, two-valued domain
+> selector, and identification of that bit with an orientation/Pin class are models, not source-banked
+> constructions.  The native timelike Clifford control refutes only the definite-cut realization, while
+> standard domain controls can have continuous equivariant families.  No GU Pin-plus class is currently
+> defined.  See `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md` and
+> `explorations/pin-smith-class-realization-ultimatum-2026-07-22.md`.  This notice governs conflicting
+> "banked" language below.
+
 Four personas reasoned inline in one worker, each answering "what IS this lemma,
 from my lens?", then a convergence read. Discipline: every claim tagged
 **EXACT** (forced by banked structure / machine-checkable identity) or

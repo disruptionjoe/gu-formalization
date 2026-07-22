@@ -13,9 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`pin-smith-class-realization-ultimatum-2026-07-22.md`](pin-smith-class-realization-ultimatum-2026-07-22.md)
+  is the terminal follow-up for the present committed source: `PIN-SMITH-NOT-DEFINED`.  It enumerates the
+  geometric and analytic GU candidates and finds that none yet defines an input class for the exact `Z/2`
+  receptacle; this is neither a zero-class verdict nor a generator verdict.
 - [`operator-to-anomaly-closure-campaign-2026-07-22.md`](operator-to-anomaly-closure-campaign-2026-07-22.md)
-  is the controlling run record.  It preserves the genuine `q<0`/failed-definite-cut result while resetting
-  the unbuilt domain, exact-bit, `w1`, and anomaly bridges to `SOURCE-GAP`.
+  is the controlling operator run record.  It preserves the genuine `q<0`/failed-definite-cut result while
+  resetting the unbuilt domain, exact-bit, `w1`, and anomaly bridges to `SOURCE-GAP`.
 - [`pin14-smith-route-audit-2026-07-22.md`](pin14-smith-route-audit-2026-07-22.md) executes the corrected
   Smith degree reduction and the direct Kirby--Taylor table read:
   `Omega^{Pin+}_14 ~= Omega^{Pin-}_12 ~= Z/2` exactly.  GU's class remains unconstructed.
@@ -54,6 +58,7 @@ were sorted by reading each note's content.)
 | [`big-swing-2026-07-07/`](big-swing-2026-07-07/) | July 7 big-swing continuation packets and branch-specific follow-ups |
 | [`internal-paths-2026-07-03/`](internal-paths-2026-07-03/) | bounded internal-path attacks from 2026-07-03, including OQ-RK1, Lean typecheck, true-RS-Y14, OC1/OC2, and Sp-family anomaly paths |
 | [`sequential-goals-2026-07-09/`](sequential-goals-2026-07-09/) | 2026-07-09 five-goal run: `(7,7)` both-signature control, `3\|sigma` import pricing, S2 tautology audit, source-action candidate classifier, and import-channel independence |
+| [`taf-63-persona-gu-rbt-2026-07-20/`](taf-63-persona-gu-rbt-2026-07-20/) | 63-persona TaF/GU/RBT review batches, synthesis, dissent audit, strategy audit, and hostile verification |
 
 ## Smaller / niche clusters (pre-existing)
 

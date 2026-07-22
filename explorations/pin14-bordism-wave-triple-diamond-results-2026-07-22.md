@@ -18,6 +18,12 @@ grade: exploration-tier; exact ambient group primary-source proved; no GU class 
 > withdrawn.  See `explorations/pin14-smith-route-audit-2026-07-22.md` and
 > `tests/channel-swings/pin14_smith_degree_gate.py`.  This notice governs conflicting text below.
 
+> **CLASS FOLLOW-UP (2026-07-22).** The requested class-realization ultimatum is complete.  No committed
+> geometric candidate is a closed degree-14 GU cycle, and no committed analytic candidate is a proper
+> Fredholm family with the required action and orientation line.  The current class verdict is therefore
+> `PIN-SMITH-NOT-DEFINED`, not zero and not generator.  See
+> `explorations/pin-smith-class-realization-ultimatum-2026-07-22.md`.
+
 The single bottleneck the σ=w₁ keystone reduces to (leg A) was attacked two ways in parallel: a **direct
 4-team wave** (literature / tool / hand-ABP / nonvanishing-probe) and the **triple-diamond challenge
 process**. Adjudication weights **anchoring, not agreement** (a value counts only if literature-cited or

@@ -21,6 +21,15 @@ probe: tests/channel-swings/anomaly_inflow_swing_probe.py (foreground, numpy+exa
 
 # ANOMALY-INFLOW swing -- is the {q<0} obstruction a genuine 't Hooft anomaly?
 
+> **CORRECTION (2026-07-22 — class-realization ultimatum).** The claimed exact anomaly-inflow substrate,
+> deck-odd action, and protected-wall consequences below are not committed results.  The exact result is a
+> local `q<0` failure of the definite spectral-cut construction; a full domain family, operator-grade deck
+> action, orientation line, and Pin-plus class have not been constructed.  The current terminal verdict is
+> `PIN-SMITH-NOT-DEFINED`, not anomaly-trivial and not anomaly-nontrivial.  See
+> `explorations/pin-smith-class-realization-ultimatum-2026-07-22.md` and
+> `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md`.  Original text remains below as
+> proposal provenance and is superseded where it conflicts with this notice.
+
 Three personas reason INLINE in this one worker (each in-character, then a
 synthesis; NEVER one agent per persona). Read-only interpretation of the settled
 state, adversarial on EXACT-vs-ANALOGY. Discipline: every claim tagged **EXACT**
