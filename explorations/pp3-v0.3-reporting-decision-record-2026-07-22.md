@@ -66,10 +66,13 @@ here is the program practicing its own Purpose/Passion/Practice on its flagship 
 | Amplitude-marginalized (viability) | A*=30.8059 | +1.81% vs Planck; inside Δχ²≤1 | W113_world_contact.py |
 
 ## Status and boundary
-- **Freeze-readiness:** v0.3 is freeze-READY (flags resolved, numbers reproduced, amendments logged, bet
-  certified untouched). One-story-consistency follow-on **DONE** 2026-07-22: `VERIFICATION.md` updated to
-  distinguish the two amplitude legs; the manuscript `+1.8%`→`+5.66%` correction routed apply-ready to the
-  drafting-factory mailbox (`20260722-pp3-manuscript-amplitude-attribution-correction.md`).
+- **FROZEN:** v0.3 was frozen on Joe's explicit instruction at **2026-07-22T12:03:58-05:00** as
+  `explorations/prediction-package-pp3-de-curve-family-v0.3-2026-07-22.md`; v0.2 is sealed with a
+  superseded-by header. Number-invariance verified at freeze (frozen locus/band/kill/S2 byte-identical to
+  v0.2; receipt count corrected; emitter exit 0). Flags resolved, amendments logged, bet certified
+  untouched. One-story-consistency follow-on **DONE**: `VERIFICATION.md` updated to distinguish the two
+  amplitude legs; the manuscript `+1.8%`→`+5.66%` correction routed apply-ready to the drafting-factory
+  mailbox (`20260722-pp3-manuscript-amplitude-attribution-correction.md`).
 - **Authority:** Joe-approved direction; only Joe re-freezes/posts. This record and the staged packet track
   the decision; they do not enact the freeze.
 - **Related:** staged packet `prediction-package-pp3-v0.3-STAGED-supersession-2026-07-22.md`; frozen v0.2

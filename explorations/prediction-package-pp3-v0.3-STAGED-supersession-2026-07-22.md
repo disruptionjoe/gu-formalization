@@ -1,6 +1,8 @@
 ---
 title: "PP3 v0.3 — STAGED disclosure-and-currency supersession (awaiting Joe's re-freeze; NOT frozen, NOT posted)"
-status: STAGED_UNFROZEN_AWAITING_JOE_REFREEZE
+status: REALIZED_AS_FROZEN_V0.3
+realized_as: explorations/prediction-package-pp3-de-curve-family-v0.3-2026-07-22.md
+frozen_at: "2026-07-22T12:03:58-05:00"
 doc_type: prediction-package-supersession
 created: 2026-07-22
 supersedes: explorations/prediction-package-pp3-de-curve-family-2026-07-20.md  # v0.2, FROZEN 2026-07-20T06:48:12-05:00
@@ -18,7 +20,9 @@ governance: STAGED for Joe's re-freeze. Not frozen, not posted. Only Joe approve
 
 # PP3 v0.3 — staged supersession (for Joe's re-freeze)
 
-**Do not treat as frozen or postable.** This stages the exact wording changes to (i) reconcile the frozen
+**REALIZED — Joe re-froze v0.3 on 2026-07-22T12:03:58-05:00 as
+`prediction-package-pp3-de-curve-family-v0.3-2026-07-22.md`.** This document is the change-set / decision
+record for that freeze (kept for audit). It staged the exact wording changes to (i) reconcile the frozen
 v0.2 disclosure with VERIFICATION.md / W113, (ii) bring the basis current, and (iii) resolve the two
 number-adjacent flags per the Science Council (grounded in GU's Purpose/Passion/Practice; Joe-approved
 direction). **Zero frozen physics numbers change.** Cross-modal reproduction (independent, 2026-07-22):
