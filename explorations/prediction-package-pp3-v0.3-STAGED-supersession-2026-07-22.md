@@ -19,9 +19,12 @@ governance: STAGED for Joe's re-freeze. Not frozen, not posted. Only Joe approve
 # PP3 v0.3 — staged supersession (for Joe's re-freeze)
 
 **Do not treat as frozen or postable.** This stages the exact wording changes to (i) reconcile the frozen
-v0.2 disclosure with VERIFICATION.md / W113 and (ii) bring the basis current. **Zero frozen physics
-numbers change.** Number-invariance verified: the emitter `tests/channel-swings/pp3_curve_family_locus.py`
-was re-run — exit 0, headline `7 [E] + 1 [F] = 8`, frozen locus table reproduced cell-for-cell.
+v0.2 disclosure with VERIFICATION.md / W113, (ii) bring the basis current, and (iii) resolve the two
+number-adjacent flags per the Science Council (grounded in GU's Purpose/Passion/Practice; Joe-approved
+direction). **Zero frozen physics numbers change.** Cross-modal reproduction (independent, 2026-07-22):
+emitter `pp3_curve_family_locus.py` exit 0, headline `7 [E] + 1 [F] = 8`, frozen locus table reproduced
+cell-for-cell; `W113_world_contact.py` amplitude legs reproduced; `de_amplitude_audit_probe.py` amplitude
+ledger + σ/dAIC reproduced (numbers in §E). Decision trail: see §H.
 
 ## A. Frozen numbers — PRESERVED (number-invariance evidence)
 One-parameter thawing DE locus through `(w0,wa)=(-1,0)`, parameter = split fraction `f0`; non-phantom
@@ -109,25 +112,71 @@ unchanged; its honesty envelope is TIGHTENED (accurate DESI framing) and its bas
 (source-is-observer + co-flip) and honestly GATED (roll-health). Number-invariance: emitter exit 0,
 table reproduced. Source hashes: v0.2 = a833d98 + 2da1c73; HEAD e620ff0.
 
-## E. TWO number-adjacent FLAGS — for Joe's re-freeze decision (surfaced, NOT changed)
-**FLAG A — amplitude-percentage attribution (substantive precision).** Three amplitudes circulate:
-Planck `A_CMB=30.258`; amplitude-marginalized data-preferred `A*=30.806 = +1.81% above Planck` (W113);
-GU own-θ\* `A_GU=31.9715 = +5.66% above Planck` (DE amplitude audit). VERIFICATION.md attributes the
-"+1.81%" (data-preferred-vs-Planck), while the manuscript attaches "+1.8%" to the own-θ\* calibration —
-but the own-calibration figure is +5.66%. **These describe different quantities and the docs don't phrase
-the referent identically.** NOT a frozen PP3 number; a numeric-attribution choice for you to settle so
-PP3 / VERIFICATION.md / W113 / manuscript state one amplitude story. Either framing leaves every frozen
-locus/kill number untouched.
+## E. Flag resolutions (Science Council verdict, Joe-approved direction; numbers verified 2026-07-22)
 
-**FLAG B — stale receipt count (housekeeping).** The frozen v0.2 quotes the emitter headline as
-`6 [E] + 1 [F] = 7` in two places; the current emitter and the v0.2 changelog both give `7 [E] + 1 [F]
-= 8` (locus table reproduces exactly). Correcting it makes the packet self-consistent with its own
-emitter — but it changes a *stated value*, so it's your call, not a silent fix.
+**FLAG A — resolved by disambiguation, not selection: the conditional, fiducial-anchored amplitude
+ledger.** The confusion was a floating referent — there are TWO distinct data-preferred amplitudes, and
+three distinct "%", cross-wired across PP3 / VERIFICATION.md / W113 / manuscript. Canonical ledger (each
+number carries value + baseline + source-test; independently reproduced today):
 
-## Re-freeze decision (yours)
-Options: (1) approve v0.3 as staged (B disclosure fix + C basis-currency; all numbers preserved) →
-re-freeze; (2) same, plus a ruling on FLAG A (which amplitude attribution is canonical) and FLAG B
-(correct the receipt count); (3) discuss any item. Nothing is frozen or posted until you decide.
+| Quantity | Value | Referent | Source-test |
+|---|---|---|---|
+| `A_Planck` (CMB baseline) | 30.2577 | — (import) | f0→0 limit → 30.2577 |
+| `A_GU` (own-θ\* pinned prediction) | 31.9715 | **+5.66% vs Planck** | `de_amplitude_audit_probe.py` |
+| BAO-preferred (own-θ\* confrontation) | `A*` = 31.4709 (σ_A=0.0872) | A_GU overshoots by **+5.74σ**, dAIC **+35.79** → amplitude leg disfavored/closed | `de_amplitude_audit_probe.py` |
+| Amplitude-marginalized (shape viability) | `A*` = 30.8059 | **+1.81% vs Planck**, inside Δχ²≤1 (f0∈[0.040,0.150], canonical f0=0.125 included); pinning A→Planck costs +41.3 χ² | `W113_world_contact.py` |
+
+- **Reporting rule:** lead with the **σ-tension (own-θ\* confrontation, +5.74σ) and dAIC (+35.79)**; demote
+  every bare "%" to a parenthetical carrying its baseline. **State the σ-tension as CONDITIONAL on the
+  own-θ\* pinning (condition-chain link 4)** — it is the residual of a *pinned* prediction against
+  *marginalized* data, not a calibration-independent fact. The two `A*` (31.4709 confrontation vs 30.8059
+  marginalized) are DISTINCT references and must never be collapsed.
+- **Why this fits GU's charter:** Flag A is the program's own **forced-vs-imported distinction** turned on
+  its own numbers — what the own-θ\* convention *imports* (a calibration knob) vs what the data *force*
+  (the marginalized preference). Reporting them with one referent would commit, on the load-bearing
+  falsifiable, the exact conflation the program exists to expose.
+
+**FLAG B — resolved: correct to the emitter.** Emitter headline `6 [E] + 1 [F] = 7` (stale in frozen v0.2,
+two places) → **`7 [E] + 1 [F] = 8`** (current emitter verified today; locus table reproduced exactly). Plus
+a standing *regenerate-don't-transcribe* guard so the quoted receipt is regenerated from the emitter and
+cannot drift again.
+
+## F. Amendment ledger (progressive — manipulability-reducing, before→after + certification)
+Every touched stated value, logged as a dated amendment (v0.2 stays sealed on disk; v0.3 is a new file):
+
+| # | Item | Before (v0.2) | After (v0.3) | Kind |
+|---|---|---|---|---|
+| 1 | DESI DR2 disclosure sentence | "+5.7σ exclusion of f0=0.125" as a plain data fact | calibration-scoped (own-θ\*); viable under amplitude marginalization | wording |
+| 2 | Table row f0=0.125 | "excluded ref" | "canonical ref; off-segment under own calibration; viable under amp-marg" | wording |
+| 3 | K3 justification | "ceiling from data already in hand" | "ceiling under own-calibration closure (link 4)" | wording |
+| 4 | Frozen-prediction item 2 | "current-data ceiling" | "own-calibration current-data ceiling" | wording |
+| 5 | Emitter receipt headline | `6 [E]+1 [F]=7` | `7 [E]+1 [F]=8` | **stated value (Flag B)** |
+| 6 | Amplitude story | one "%" cross-wired | 4-quantity ledger (§E) | **precision/attribution (Flag A)** |
+
+- **Reason (causal, so it reads as honesty-tightening not outcome-motivation):** the amplitude referents
+  were cross-wired (two distinct `A*`, three distinct "%"); the receipt count drifted post-freeze when the
+  emitter gained a check. Both corrections REDUCE manipulability.
+- **Certification:** **no locus / band / segment / curvature / kill (K1–K4) number changed.** Independently
+  reproduced 2026-07-22 (emitter exit 0 + table cell-for-cell; W113 legs; DE-audit ledger + σ/dAIC). The
+  bet is untouched; the corrections tighten the prose and bookkeeping around it.
+
+## G. Excluded from this freeze (future work — do NOT inject into v0.3)
+The amplitude residual `A_GU − A*` (the +5.66%-vs-Planck / +5.74σ-vs-BAO-preferred gap) is a candidate
+**future Lane-2 native prediction** (DR3-testable) — the "confusion" points at a real, nameable quantity.
+Recorded as a seed here per the byproduct-feeds-North-Star discipline; it is **not** part of v0.3's frozen
+content and must not enter until separately built and pre-declared.
+
+## H. Decision provenance (audit trail)
+`explorations/pp3-v0.3-reporting-decision-record-2026-07-22.md` — the full trail: the two flags, the
+10-persona pass, the Science Council (registered; grounded in GU Purpose/Passion/Practice), the explicit
+aggregation verdict, and the cross-modal reproduction that fixed the ledger. Plus the returned gathers and
+the source-hash / freeze lineage above.
+
+## Freeze-readiness (yours to act on)
+Flags resolved, basis current, numbers independently reproduced, amendment discipline logged — **v0.3 is
+freeze-READY for your re-freeze.** One non-blocking follow-on: propagate the §E canonical ledger to
+`VERIFICATION.md` and the manuscript so all four docs tell one amplitude story (PP3's own content is
+internally correct without it). Nothing is frozen or posted until you re-freeze.
 
 ## Boundary
 STAGED, unfrozen, unposted. Only Joe approves the superseding freeze. Return channel per the
