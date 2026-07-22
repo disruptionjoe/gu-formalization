@@ -38,5 +38,7 @@ against Zenodo (see the runbook) and add what is found here.
      paper (`located-not-forced` / `generation-number-located-not-forced`) is **NOT posted**. Corrected.
   3. The "Hernandez, Joseph" Zenodo hit (`10.5281/zenodo.21244606`, an education/pedagogy paper from
      Batangas) is a DIFFERENT person — not this author. Screened out.
-- Still unposted (post-ready or in progress), for reference: `located-not-forced` (deferred by Joe
-  2026-07-02), PP3 dark-energy pre-registration (frozen v0.3 2026-07-22), and the remaining candidates.
+- Ready for Joe to post (GO): `located-not-forced` (**deferral LIFTED; GO-to-post ratified 2026-07-22,
+  publish FIRST**; Joe-side mechanical submission steps remain) and PP3 dark-energy pre-registration (frozen
+  v0.3 2026-07-22). Sequence: after LNF, the odd-primary boundary paper (Part II, cites LNF). Other
+  candidates remain in progress.

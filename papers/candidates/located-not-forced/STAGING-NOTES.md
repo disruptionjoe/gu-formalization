@@ -1,7 +1,10 @@
 # Staging notes -- Located, Not Forced
 
-**Status:** candidate (staged; not submitted). **Publication DEFERRED 2026-07-02 (Joe)** pending
-WC-ENUM-COMPLETENESS and WC-ANTILINEAR-BOUND (see the adversarial-review section at the bottom).
+**Status:** candidate — **GO-to-post, ratified by Joe 2026-07-22 (direct chat): publish LNF FIRST, standalone.**
+The 2026-07-02 deferral is **LIFTED** (both gating cards WC-ENUM-COMPLETENESS and WC-ANTILINEAR-BOUND closed at
+computed grade the same day; see the 2026-07-22 section at the bottom). Sequence: LNF first, then the
+odd-primary boundary paper as the Part II follow-on. Remaining before public = Joe-side mechanical submission
+steps only (arXiv endorsement check, Overleaf compile, shortened metadata abstract) — Joe posts.
 `.tex` is the arXiv source; `.md` is the readable copy.
 **Honest grade:** the headline result is theorem-grade and GU-independent. Honesty discipline: clean.
 
@@ -219,3 +222,22 @@ publication remains DEFERRED.** Both copies (`.md`, `.tex`) in sync. See `CHANGE
 The peer review recommended "clean to post (hep-th)"; **publication stays Joe-gated** — the review is not
 authorization. The one pre-submission mechanical item it named (the `.md`/`.tex` consistency pass) was done
 in this fold.
+
+## Publication RATIFIED — GO, LNF first (2026-07-22, Joe direct chat)
+
+**Joe ratified in direct chat (2026-07-22): publish LNF FIRST, standalone — the 2026-07-02 deferral is
+LIFTED.** This is the authorizing decision the earlier "stays DEFERRED / Joe-gated" notes were waiting on.
+Trail: both cards that caused the deferral closed at computed grade on 2026-07-02 (WC-ENUM-COMPLETENESS,
+WC-ANTILINEAR-BOUND), the third adversarial review rated the paper arXiv-ready, and Joe's sequence decision
+(`system-runtime/mailboxes/gu-formalization/20260722-lnf-oddprimary-sequence-decision.md`) confirmed LNF is
+good/useful standalone and must not be suppressed.
+
+- **Sequence:** LNF first (this paper); the odd-primary boundary paper
+  (`papers/candidates/generation-number-boundary-odd-primary/`) is the Part II follow-on and CITES LNF —
+  keep the two distinct (LNF = the no-go/census; odd-primary = the localization).
+- **Status:** GO-to-post. LNF now joins PP3 on the "ready for Joe to post" list.
+- **Remaining (Joe-side mechanical only, unchanged from the v2.4 list):** arXiv endorsement check, one Overleaf
+  compile, shortened <1920-char metadata abstract; then submit (primary hep-th; or Zenodo), then move this
+  folder to `papers/published/` and record the DOI / arXiv id in `papers/published/INDEX.md`.
+- **Separate, still open (NOT part of this GO):** the CANON.md promotions of the RESULTS files previously
+  flagged "pending Joe" remain a distinct decision — publishing the paper does not itself promote canon.
