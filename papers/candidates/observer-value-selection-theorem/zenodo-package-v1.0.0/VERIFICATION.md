@@ -90,7 +90,7 @@ The Bell/Kochen–Specker paragraph now distinguishes Bell's Gleason-based route
 
 ## PDF receipt
 
-- Compiler: Tectonic 0.16.9, official Windows MSVC release.
+- Compiler: Tectonic 0.16.9, Homebrew macOS arm64 release.
 - Result: **PASS**, exit 0, automatic rerun completed.
 - Pages: 7, all nonempty by text extraction.
 - Final log: no TeX errors, unresolved references, unresolved citations, or overfull boxes.
@@ -103,7 +103,7 @@ The Bell/Kochen–Specker paragraph now distinguishes Bell's Gleason-based route
 
 ```text
 877A967C22A895BF87071AD593DE33D45A947BB4A3900A91C9597F17E0DC911C  submission/main.tex
-F4326CFA7253CB2DFD6056023DAE8915D338F808CBAE569B2E271B86E0791F58  submission/main.pdf
+B516E5245C2FE55D010BCED2511BC6E79A9C051CA8EDD51591A31BCB5EE8B37D  submission/main.pdf
 568FCF13F940FEBB85082277B4C466727BF3A7D50A55D41A7FB277C57F4A966B  submission/reproduction.md
 C2D2B87DC390AC354F4ECDA4B16201930518589B821A4C5EAEFDDBE35141988B  observer-value-selection-theorem-2026-07-11.md
 D5B25E99E1A3E745DAA4C0224F6EA91039B464A2F5A9331001E22667BCACCA37  Lean/GUFormalization/ResidualSelection.lean

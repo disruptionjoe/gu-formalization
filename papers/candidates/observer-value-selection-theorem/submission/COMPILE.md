@@ -4,10 +4,10 @@
 
 - Source: `main.tex`
 - PDF: `main.pdf`
-- Compiler: Tectonic 0.16.9, official Windows MSVC release
+- Compiler: Tectonic 0.16.9, Homebrew macOS arm64 release
 - Compile date: 2026-07-13
 - Pages: 7
-- PDF SHA-256: `F4326CFA7253CB2DFD6056023DAE8915D338F808CBAE569B2E271B86E0791F58`
+- PDF SHA-256: `B516E5245C2FE55D010BCED2511BC6E79A9C051CA8EDD51591A31BCB5EE8B37D`
 
 The release build completed with exit code 0. Tectonic automatically reran TeX to resolve cross-references. The final log contains no TeX errors, undefined references, undefined citations, or overfull boxes. The remaining underfull-box notices occur only in bibliography entries and do not indicate clipped or overlapping content.
 
