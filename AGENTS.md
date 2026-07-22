@@ -102,6 +102,18 @@ Discovery is Lane-less. A direct mount uses these local surfaces without
 CapacityOS. System observations, health, schedules, and execution history are
 not Lane truth.
 
+## Purpose, Passion, and Practice
+
+- **Purpose:** Adversarially establish GU's honest truth-status: force it,
+  falsify it, or place it precisely, and determine what it would take to be a
+  true account of physics.
+- **Passion:** Test whether agents can investigate serious heterodox claims
+  with disciplined skepticism, neither credulous nor prematurely dismissive.
+- **Practice:** Prove Joe can direct agents through adversarial truth-status
+  research; extract methods for kill tests, hostile verification, model-schema
+  reasoning, and forced-versus-imported distinctions; create credible
+  Capability Acceleration assets.
+
 ## Versioning Default
 
 After any coherent batch of repository changes that Joe has authorized, commit
