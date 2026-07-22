@@ -19,6 +19,7 @@ documents.
 | `GUFormalization/K3IndexArithmetic.lean` | Symbolic K3/RS index arithmetic used by current audits | `lab/active-research/topological-generation-count-families-k3-chi-gate-2026-06-26.md` |
 | `GUFormalization/W2Polynomial.lean` | Algebraic `F_2` polynomial identities behind the corrected `w2(Y14)` calculation | `canon/w2-y14-spin-structure.md` |
 | `GUFormalization/LocatedNotForcedLegs.lean` | Finite located-not-forced theorem-grade legs: Krein index-nullity, antilinear bound, and 2-primary identities | `canon/core-theorems-symbolic-proof-RESULTS.md` |
+| `GUFormalization/R4TwoArena.lean` | Two-arena weight-parity, CRT, and 2-primary-blindness proof legs | `canon/two-arena-rep-theory-core-RESULTS.md` |
 | `GUFormalization/CoflipCore.lean` | Co-flip finite core (CH-REC P1/P2): (1,1) Krein toy rigidity, zero-import diagonal action, split-costs-one, split parity | `explorations/hardening-h2-lean-coflip-2026-07-19.md` |
 | `GUFormalization/CoflipAbstract.lean` | Abstract finite `(p,q)` co-flip accounting: witnessed class theorem, all-maps zero-import diagonal, exact one-bit split price | `explorations/hardening-h1-exhaustiveness-2026-07-19.md`; `explorations/hardening-h4-class-generalization-2026-07-19.md` |
 
@@ -26,17 +27,21 @@ documents.
 
 | Lean file | Scope | Owner surface |
 |---|---|---|
-| `tests/big-swing/R4_TwoArena.lean` | Standalone two-arena rep-theory proof legs for R4 | `canon/two-arena-rep-theory-core-RESULTS.md` |
+| `tests/big-swing/R4_TwoArena.lean` | Compatibility entrypoint importing the default-target R4 module | `canon/two-arena-rep-theory-core-RESULTS.md` |
 
 ## Local Commands
 
 After installing Lean/elan:
 
 ```powershell
-lake update
 lake exe cache get
 lake build
 ```
+
+The committed `lake-manifest.json` is the dependency lock.  Do not run
+`lake update` as a routine reproduction step: the mathlib input tracks
+`master`, so an update can advance both the manifest revision and the required
+Lean toolchain.  Use it only when intentionally updating and reviewing the pin.
 
 Or use:
 

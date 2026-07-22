@@ -6,7 +6,7 @@ created: 2026-07-03
 staging_only: true
 verified_in_lean: yes-core-spine
 toolchain_available: yes
-correction: "2026-07-03: mathlib is now provisioned and Lean/GUFormalization/LocatedNotForcedLegs.lean typechecks exit 0 (no sorry/axiom), independently re-verified. The UNVERIFIED / 'mathlib not provisioned' statements below are SUPERSEDED — see explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md. (R4_TwoArena.lean still needs 2 bounded mathlib API-drift fixes; the 3 older lib files remain broken.)"
+correction: "2026-07-22: mathlib is provisioned and Lean/GUFormalization/LocatedNotForcedLegs.lean typechecks in the pinned default target, exit 0 (no sorry/axiom), independently re-verified. The UNVERIFIED / 'mathlib not provisioned' statements below are SUPERSEDED — see explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md. The former A1 draft duplicate has been retired. R4 is also integrated at Lean/GUFormalization/R4TwoArena.lean."
 ---
 
 # A1 — Which theorem-grade legs are Lean-formalizable, and at what obligation cost
@@ -21,14 +21,11 @@ recast as a power-of-two / mod-2^k arithmetic identity. Sources:
 `canon/antilinear-nonkrein-admissibility-RESULTS.md`,
 `canon/rs-boundary-eta-2primary-RESULTS.md`, `canon/two-primary-lemma.md` (referenced).
 
-**Toolchain status (checked 2026-07-03).** `lean`/`lake`/`elan` are NOT on PATH, but `elan`
-is installed at `~/.elan/bin`. Probing it caused the pinned toolchain (`leanprover/lean4:
-v4.32.0-rc1`, confirmed by `lean --version`) to install. However the repo has no `.lake`
-directory: **mathlib has never been provisioned** (a full `lake update` + `lake exe cache
-get` + `lake build`, multi-GB, would be required), which was deliberately NOT triggered as
-an unrequested large download. Consequently the main file `A1-located-not-forced-legs.lean`
-(`import Mathlib`) is **NOT typechecked** and every leg using `norm_num`/`ring`/`Nat.Prime`/
-`Submodule`/`finrank`/`Odd`/`Even`/`ℝ` remains **UNVERIFIED**.
+**Toolchain status (updated 2026-07-22).** Elan, the pinned Lean
+`v4.32.0-rc1` toolchain, and the committed mathlib revision are provisioned.
+`Lean/GUFormalization/LocatedNotForcedLegs.lean` is the sole authoritative full
+module and builds in the default target, exit 0.  The former unverified draft
+duplicate was retired.  The 2026-07-03 lack-of-mathlib condition is historical.
 
 **What WAS compiled (real, no mathlib).** A mathlib-free subset,
 `A1-arith-core-check.lean`, reproducing the arithmetic legs that need only Lean core
@@ -36,9 +33,9 @@ an unrequested large download. Consequently the main file `A1-located-not-forced
 Compiler-verified: `rs_bulk_index_on_rokhlin` (3c: `21*(16k)/8 = 42k`), `rs_bulk_even` (3c),
 `adjoint_index_div_four` (3d: `4 ∣ 4k`), `kramers_mod_two` (3f: `(2n)%2=0`),
 `ghost_parity_net_zero` (3f: `n−n=0`). These five identities are genuinely Lean-checked.
-The Krein linear-algebra core (Legs 1–2) and the `norm_num`/`Nat.Prime`/`Odd` legs
-(3a/3b/3e) are written out with full proof terms but stay UNVERIFIED pending mathlib. Do
-not cite any UNVERIFIED leg as "proved in Lean."
+The Krein linear-algebra core (Legs 1–2) and the
+`norm_num`/`Nat.Prime`/`Odd` legs (3a/3b/3e) are now verified in the authoritative
+default-target module.  The smaller file remains useful as an independent core check.
 
 An independent **Python arithmetic certificate**
 (`A1-arithmetic-certificate.py`, in this same folder) re-checks the numeric content of
@@ -182,9 +179,9 @@ prime-divisibility lemma.
 The **entire theorem-grade skeleton is Lean-formalizable at HIGH feasibility**, and Legs 1
 and 2 collapse to a single 5-line finite-dimensional lemma (`chi_eq_zero`) that is the
 cleanest possible witness to the paper's "the proof only used isotropy" claim. The 2-primary
-identities are one-liners. **Verification is partial:** the five mathlib-free arithmetic
-legs (3c/3d/3f) are compiler-checked clean by `lean` (`A1-arith-core-check.lean`, exit 0,
-no `sorry`); the Krein core (Legs 1–2) and the `norm_num`/`Nat.Prime`/`Odd` legs
-(3a/3b/3e) remain UNVERIFIED because mathlib is not provisioned. All numeric content is
+identities are one-liners. **Verification is complete for this finite kernel:** the
+authoritative `Lean/GUFormalization/LocatedNotForcedLegs.lean` module is part of the
+pinned default target (2026-07-22, exit 0, no `sorry`/unreported axioms), while the
+mathlib-free arithmetic subset remains an independent check. All numeric content is
 additionally certified by `A1-arithmetic-certificate.py` (exit 0). The generation-count
 verdict remains OPEN; nothing in this inventory derives three.

@@ -768,9 +768,10 @@ these are pickup-eligible; several cluster on the source-action wall being ultra
 - **#3 Lean typecheck (CLOSED for the core spine; further Lean-formalization of the finite core tracked as W189 register item H27).** `Lean/GUFormalization/LocatedNotForcedLegs.lean` (Theorem 2
   Krein index-nullity `chi_eq_zero`, the antilinear bound, 2-primary identities 3a-3f) elaborates **exit 0, no
   `sorry`/`axiom`** on the provisioned toolchain (elan 4.32.0-rc1, mathlib built). Upgrades the finite-dim core
-  from sympy-symbolic to Lean-verified. *Next integrity order:* establish a fresh default-target build receipt;
-  then fold `tests/big-swing/R4_TwoArena.lean` into the default target and compile it; then retire the
-  un-typechecked A1 draft duplicate in favor of `Lean/GUFormalization/LocatedNotForcedLegs.lean`. Older
+  from sympy-symbolic to Lean-verified. *Integrity follow-through completed 2026-07-22:* a fresh pinned
+  default-target baseline passed; R4 now lives at `Lean/GUFormalization/R4TwoArena.lean` in that target
+  (with the old test path retained as a compatibility import); and the un-typechecked A1 draft duplicate
+  was retired in favor of `Lean/GUFormalization/LocatedNotForcedLegs.lean`. Older
   historical failure details remain in `explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md`.
 - **#4 True-RS-Y¹⁴ bundle (PARTIAL / BLOCKED-ON-SOURCE-ACTION).** Three of the four family/APS terms close on the
   actual `Y¹⁴` bundle with no source action (bulk `21σ/8` with σ free; fiber-core APS eta on `L(2;1)` 2-primary;

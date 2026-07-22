@@ -9,6 +9,7 @@ verdict: "RESOLVED (three exact, GU-independent facts; exact-integer certified; 
 scripts:
   - tests/big-swing/R4_spin95_hom_vanishing.py
   - tests/big-swing/R4_crt_two_arena.py
+  - Lean/GUFormalization/R4TwoArena.lean
   - tests/big-swing/R4_TwoArena.lean
 source_exploration: explorations/big-swing-2026-07-03/R4-two-arena-rep-theory-core.md
 ---
@@ -40,10 +41,13 @@ count** and asserts no GU-specific physical premise.
 
 - **(B) and the arithmetic/finite cores** — exact-integer certified, re-run this session (`R4_crt_two_arena.py`,
   exit 0). Proof terms for the CRT split and the coprimality/blindness theorem are written in Lean
-  (`tests/big-swing/R4_TwoArena.lean`, `ZMod.chineseRemainder` + an `addOrderOf`/coprimality argument) with
-  no `sorry` and no `axiom`. **Lean now TYPECHECKS (2026-07-03):** after two mathlib API-drift fixes
-  (`Finset.card_sdiff_of_subset`; `AddMonoid.addOrderOf_eq_one_iff`), `tests/big-swing/R4_TwoArena.lean`
-  elaborates `lake env lean` **exit 0 with no `sorry`/`axiom`** (only a benign linter warning) — independently
+  (`Lean/GUFormalization/R4TwoArena.lean`, with the stable compatibility entrypoint
+  `tests/big-swing/R4_TwoArena.lean`; `ZMod.chineseRemainder` + an `addOrderOf`/coprimality argument) with
+  no `sorry` and no `axiom`. **Lean TYPECHECKS (2026-07-03; default-target integration reverified
+  2026-07-22):** after two mathlib API-drift fixes
+  (`Finset.card_sdiff_of_subset`; `AddMonoid.addOrderOf_eq_one_iff`), the proof-bearing module now lives in
+  the default target as `Lean/GUFormalization/R4TwoArena.lean` and `lake build` returns **exit 0 with no
+  `sorry`/`axiom`** (only benign linter warnings) — independently
   re-verified in the main loop. So the Lean leg is now machine-verified, not merely "proof terms written."
   The canonical content also stands independently on the exact-integer certificate and (A)'s canon corroboration.
 - **(A)** — re-run this session (`R4_spin95_hom_vanishing.py`, **exit 0**: `dim Hom = 0` across explicit

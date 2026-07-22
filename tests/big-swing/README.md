@@ -73,7 +73,7 @@ The public boundary stays:
 | `R3_signed_readout_certificate.py` | 2026-07-03 big swing | Signed-readout certificate. |
 | `R4_crt_two_arena.py` | 2026-07-03 big swing | CRT two-arena Python certificate. |
 | `R4_spin95_hom_vanishing.py` | 2026-07-03 big swing | Spin(9,5) Hom-vanishing certificate. |
-| `R4_TwoArena.lean` | 2026-07-03 big swing | Lean certificate for the two-arena packet. |
+| `R4_TwoArena.lean` | 2026-07-03 big swing | Stable compatibility entrypoint for the default-target `GUFormalization.R4TwoArena` certificate. |
 | `R5_chiral_tie_nogo.py` | 2026-07-03 big swing | Chiral-tie no-go check. |
 | `R5_crosscheck_bilinear.py` | 2026-07-03 big swing | Bilinear cross-check for the R5 packet. |
 | `R5_theta_signed_readout.py` | 2026-07-03 big swing | Theta signed-readout check. |

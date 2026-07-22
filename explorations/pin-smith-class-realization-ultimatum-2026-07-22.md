@@ -185,6 +185,17 @@ Reopen this leg only when one of the following packets exists.
 Only after either packet exists is the final one-bit evaluation worth running.  NumPy is not needed for
 this gate; the decisive checks are exact rational arithmetic and object typing.
 
+### 2026-07-22 Mannheim--Callias follow-through
+
+The most natural analytic reopener was tested against the committed candidate action.  It fails admission:
+on the full determinant-fixed diagonal Cartan escape family, the displayed source-action terms vanish at
+`A` flat and `Psi=0`, while the horizontal-normalized tautological LC section has `II_s^H=0`.  Thus the
+source-owned Callias left-hand side remains zero on an escaping sequence.  The unspecified compensator and
+VZ guardian cannot be assigned a coercive value by assumption.  This is
+`MANNHEIM-CALLIAS-NO-END-POTENTIAL`, not an impossibility theorem: a new explicit asymptotic term or a
+source-selected PT/Stokes/domain construction can reopen the route.  See
+[`mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md`](mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md).
+
 ## Reproduction receipt
 
 Run:

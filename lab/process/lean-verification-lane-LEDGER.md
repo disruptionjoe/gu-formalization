@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-07-16
+updated: 2026-07-22
 owner_surface: lab/process/runbooks/lean-verification-run.md
 ---
 
@@ -29,21 +29,23 @@ replication. Those stay in owner prose and machine certificates. Status vocabula
 
 ## Part A: current certificate surface
 
-The toolchain and manifest are pinned. A fresh checkout currently has no compiled-artifact receipt, so
-the default target must be rebuilt before this lane claims a current green baseline.
+The toolchain and manifest are pinned.  A fresh serialized macOS build at Lean `4.32.0-rc1` and manifest
+mathlib revision `96ec947e9b66a5e6059131fc9c6d13a14cef756e` completed successfully on 2026-07-22
+(`lake build`, 8,643 jobs, exit 0; pre-existing linter warnings only).
 
 | Lean file | Scope | Current source status |
 |---|---|---|
-| `Lean/GUFormalization/Status.lean` | Claim-status order and dependency monotonicity | Previously `LEAN-VERIFIED`; baseline refresh due |
-| `Lean/GUFormalization/K3IndexArithmetic.lean` | Symbolic K3 and RS index arithmetic | Previously `LEAN-VERIFIED`; baseline refresh due |
-| `Lean/GUFormalization/W2Polynomial.lean` | `F_2` polynomial identities behind corrected `w2(Y14)` | Previously `LEAN-VERIFIED`; baseline refresh due |
-| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein index-nullity, antilinear bound, and 2-primary identities | Previously `LEAN-VERIFIED`; authoritative A1 certificate |
-| `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | Previously `LEAN-VERIFIED`; baseline refresh due |
-| `tests/big-swing/R4_TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `SOURCE-READY`; sorry-free and axiom-free standalone source, not yet in the default target |
+| `Lean/GUFormalization/Status.lean` | Claim-status order and dependency monotonicity | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/K3IndexArithmetic.lean` | Symbolic K3 and RS index arithmetic | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/W2Polynomial.lean` | `F_2` polynomial identities behind corrected `w2(Y14)` | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein index-nullity, antilinear bound, and 2-primary identities | `LEAN-VERIFIED`; authoritative A1 certificate |
+| `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
+| `tests/big-swing/R4_TwoArena.lean` | Stable R4 compatibility entrypoint | imports the default-target proof-bearing module |
 
-The un-typechecked draft duplicate
-`papers/drafts/hardening-pass-2026-07-03/A1-located-not-forced-legs.lean` remains outside the certificate
-surface and is scheduled for retirement at L2. It must not be cited as a certificate.
+The un-typechecked draft duplicate formerly at
+`papers/drafts/hardening-pass-2026-07-03/A1-located-not-forced-legs.lean` was retired on 2026-07-22.
+`Lean/GUFormalization/LocatedNotForcedLegs.lean` is the sole authoritative certificate.
 
 ## Part B: stable theorem-grade queue
 
@@ -65,12 +67,11 @@ surface and is scheduled for retirement at L2. It must not be cited as a certifi
 
 The first three items are mandatory integrity work, not a retreat from the North Star.
 
-1. `L0 BASELINE`: run `lab/automation/check-lean.ps1` so the default `GUFormalization` target builds at
-   `-j1`; record exit status, toolchain, manifest revision, and placeholder scan.
-2. `L1 R4 INTEGRATION`: move or fold `tests/big-swing/R4_TwoArena.lean` into the default
-   `GUFormalization` target; fix only real API drift; require exit 0 with no `sorry` or unreported axioms.
-3. `L2 STALE DUPLICATE`: remove the un-typechecked A1 draft duplicate and make historical notes point to
-   `Lean/GUFormalization/LocatedNotForcedLegs.lean` as the sole authoritative certificate.
+1. `L0 BASELINE` — **DONE 2026-07-22**: exact pinned default target, serialized, exit 0; receipt above.
+2. `L1 R4 INTEGRATION` — **DONE 2026-07-22**: proof-bearing source folded into the default target; old path
+   retained as a compatibility entrypoint; post-integration build and placeholder audit required by the run receipt.
+3. `L2 STALE DUPLICATE` — **DONE 2026-07-22**: the un-typechecked A1 draft duplicate was removed;
+   `Lean/GUFormalization/LocatedNotForcedLegs.lean` is the sole authoritative certificate.
 4. `L3 THEOREM H`: formalize the extremal-weight stabilizer deduction over an explicitly graded finite
    representation. Carrier realization, Proposition 1, W235, and compactness remain explicit premises or
    outside the Lean conclusion. Do not formalize W241's false fixed-`P` implication.

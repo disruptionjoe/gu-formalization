@@ -24,6 +24,7 @@ LEAN_LIBRARY_CERTIFICATES = [
     ROOT / "Lean" / "GUFormalization" / "K3IndexArithmetic.lean",
     ROOT / "Lean" / "GUFormalization" / "W2Polynomial.lean",
     ROOT / "Lean" / "GUFormalization" / "LocatedNotForcedLegs.lean",
+    ROOT / "Lean" / "GUFormalization" / "R4TwoArena.lean",
 ]
 
 STANDALONE_LEAN_CERTIFICATES = [
@@ -33,6 +34,7 @@ STANDALONE_LEAN_CERTIFICATES = [
 OWNER_REFERENCES = {
     ROOT / "Lean" / "README.md": [
         "GUFormalization/LocatedNotForcedLegs.lean",
+        "GUFormalization/R4TwoArena.lean",
         "tests/big-swing/R4_TwoArena.lean",
     ],
     ROOT / "canon" / "w2-y14-spin-structure.md": [
@@ -150,6 +152,7 @@ class LeanCertificateSurfaceAudit(unittest.TestCase):
             "GUFormalization.K3IndexArithmetic",
             "GUFormalization.W2Polynomial",
             "GUFormalization.LocatedNotForcedLegs",
+            "GUFormalization.R4TwoArena",
         ]:
             with self.subTest(module=module):
                 self.assertIn(f"import {module}", text)

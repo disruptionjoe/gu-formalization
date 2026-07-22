@@ -1,9 +1,7 @@
 /-
-Mathlib-free subset of A1-located-not-forced-legs.lean, for actual compilation with the
-installed Lean toolchain (no mathlib provisioned on this machine). Only the arithmetic legs
-that need Lean core (omega / decide / rfl) are reproduced here. The full file with the
-Krein linear-algebra core and the norm_num/Nat.Prime/Odd legs still requires mathlib and
-remains UNVERIFIED.
+Historical mathlib-free subset of the A1 theorem legs.  The authoritative full module is now
+`Lean/GUFormalization/LocatedNotForcedLegs.lean`, which is part of the pinned default target
+and was reverified on 2026-07-22.  This smaller file remains only as an independent core check.
 -/
 
 namespace GUFormalization

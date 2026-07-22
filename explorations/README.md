@@ -13,6 +13,10 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md`](mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md)
+  tests the strongest source-owned Fredholm reopener and returns
+  `MANNHEIM-CALLIAS-NO-END-POTENTIAL`: the displayed action has a rank-3 escaping zero valley.  It also
+  verifies the already-executed DE-amplitude swing and completes the pending Lean R4 integration.
 - [`pin-smith-class-realization-ultimatum-2026-07-22.md`](pin-smith-class-realization-ultimatum-2026-07-22.md)
   is the terminal follow-up for the present committed source: `PIN-SMITH-NOT-DEFINED`.  It enumerates the
   geometric and analytic GU candidates and finds that none yet defines an input class for the exact `Z/2`

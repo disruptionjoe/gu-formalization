@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-A1 arithmetic certificate for the Lean skeleton A1-located-not-forced-legs.lean.
+A1 arithmetic certificate for the authoritative Lean module
+Lean/GUFormalization/LocatedNotForcedLegs.lean.
 
 Purpose: an independent arithmetic re-check of the NUMERIC content of every 2-primary identity
 and the two rank facts behind Theorem 2 / the antilinear bound. Toolchain status (verified
-2026-07-03): the core-Lean file A1-arith-core-check.lean DOES compile clean under Lean
-4.32.0-rc1 (elan present); the mathlib-dependent skeleton A1-located-not-forced-legs.lean is
-UNVERIFIED (no mathlib/.lake on this machine) and its legs are labeled as such. This script
+2026-07-22): the core-Lean file A1-arith-core-check.lean and the authoritative mathlib module
+both compile clean under Lean 4.32.0-rc1; the former unverified draft duplicate was retired. This script
 imports NO target count: it never divides by, normalizes to, or asserts 3 (or 8, 24, ...) as an
 answer. It only certifies that the statements the Lean theorems make are arithmetically true.
 
@@ -89,5 +89,5 @@ print("-" * 60)
 if fails:
     print(f"RESULT: {len(fails)} FAILED: {fails}")
     raise SystemExit(1)
-print("RESULT: all arithmetic certificates PASS (Lean file remains UNVERIFIED)")
+print("RESULT: all arithmetic certificates PASS (authoritative Lean module separately default-target verified)")
 raise SystemExit(0)
