@@ -196,6 +196,21 @@ VZ guardian cannot be assigned a coercive value by assumption.  This is
 source-selected PT/Stokes/domain construction can reopen the route.  See
 [`mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md`](mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md).
 
+### 2026-07-22 Bott--Callias construction follow-through
+
+The strongest conditional analytic reopener is now explicit.  After importing a complete positive
+Riemannian end and an elliptic right-`H` Dirac operator, the scalar mass `sqrt(1+r^2) I` satisfies a Callias
+estimate but is homotopic through uniformly admissible masses to a constant, so it is class-silent.  A
+continuous deck-odd real scalar cannot stay gapped on the connected `S3` cover.
+
+The first nontrivial control is matrix-valued: left quaternionic multiplication `q -> L_q`, doubled to a
+self-adjoint involution on `H (+) H`.  It is exactly right-`H`-linear, deck-equivariant, and gives a positive
+Callias bound after radial scaling; its normalized mass is the degree-one quaternionic Hopf/Bott clutching
+map.  This materially narrows the reopener, but does not change `PIN-SMITH-NOT-DEFINED`: the actual `D_GU`
+descent, global positive completion, orientation line, and natural equivariant `KSp/KR -> Pin+` pushforward
+are not constructed.  See
+[`fredholm-end-clutching-big-swing-2026-07-22.md`](fredholm-end-clutching-big-swing-2026-07-22.md).
+
 ## Reproduction receipt
 
 Run:

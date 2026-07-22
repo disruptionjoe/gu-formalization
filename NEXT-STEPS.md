@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-21"
+updated_at: "2026-07-22"
 ---
 
 # Next Steps For Contributors
@@ -157,6 +157,17 @@ updated_at: "2026-07-21"
 > ambient group is closed; construction and nontriviality of GU's proposed class remain open.
 > Receipts: `explorations/operator-to-anomaly-closure-campaign-2026-07-22.md` and
 > `explorations/pin14-smith-route-audit-2026-07-22.md`.
+>
+> **2026-07-22 FREDHOLM/CLUTCHING REOPENER:** the scalar Callias branch on the connected control end is now
+> completely dispositioned.
+> On a declared complete Riemannian/elliptic completion, `sqrt(1+r^2) I` is Fredholm-admissible but homotopic
+> to a constant and therefore class-silent; a continuous deck-odd real scalar must cross zero.  The first
+> viable nontrivial control is the doubled quaternionic clutching map `q -> L_q` on the `S3=Sp(1)` cover: it
+> is self-adjoint, right-`H`-linear, deck-equivariant, degree one, and has an exact positive Callias bound.
+> This is `BOTT-CALLIAS-CANDIDATE-BUILT-PIN14-MAP-OPEN`, not a class verdict.  Next high-value operator work is
+> one frozen equivariant descent packet: actual `D_GU` + complete positive end + common domain + deck lift +
+> gap-preserving homotopy + equivariant `KSp/KR -> Pin+` pushforward.  Do not spend another swing on scalar
+> masses.  Receipt: `explorations/fredholm-end-clutching-big-swing-2026-07-22.md`.
 >
 > **2026-07-21 `P-OBS-LEG` disposition:** owner-authoritative wake is confirmed:
 > construction-map round 12 froze PP1 and satisfies the round-11 wake. The

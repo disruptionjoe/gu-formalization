@@ -165,3 +165,14 @@ python3 tests/channel-swings/mannheim_callias_end_admission.py
 
 No NumPy is needed for the Mannheim--Callias gate.  NumPy is needed only to
 reproduce the already-existing DE likelihood certificate.
+
+## Subsequent constructive reopener
+
+The source-owned scalar search remains negative, but the strongest explicitly imported completion has now
+been built.  A positive scalar Callias mass makes a chosen complete elliptic end Fredholm while remaining
+homotopically class-zero.  Replacing it by the doubled quaternionic clutching map `q -> L_q` produces an
+exact right-`H`, deck-equivariant, nonconstant Bott--Callias control with a positive end estimate.  The
+remaining problem is no longer generic "renormalization"; it is whether the actual GU operator admits a
+gap-preserving descent to that control and whether its equivariant class maps naturally to the degree-14
+`Pin+` generator.  See
+[`fredholm-end-clutching-big-swing-2026-07-22.md`](fredholm-end-clutching-big-swing-2026-07-22.md).

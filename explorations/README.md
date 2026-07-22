@@ -13,6 +13,11 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`fredholm-end-clutching-big-swing-2026-07-22.md`](fredholm-end-clutching-big-swing-2026-07-22.md)
+  builds the strongest honest asymptotic packet so far.  A chosen scalar Callias mass Fredholmizes the end but
+  is class-silent; a deck-odd scalar must vanish.  The quaternionic mass `q -> L_q` instead gives an exact
+  right-`H`, deck-equivariant, degree-one Bott--Callias control.  The actual `D_GU` descent and natural
+  `KSp/KR -> Pin+` pushforward remain open.
 - [`mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md`](mannheim-callias-deamp-lean-orchestrated-swing-2026-07-22.md)
   tests the strongest source-owned Fredholm reopener and returns
   `MANNHEIM-CALLIAS-NO-END-POTENTIAL`: the displayed action has a rank-3 escaping zero valley.  It also
