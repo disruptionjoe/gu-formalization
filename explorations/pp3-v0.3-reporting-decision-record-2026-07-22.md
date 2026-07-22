@@ -67,8 +67,9 @@ here is the program practicing its own Purpose/Passion/Practice on its flagship 
 
 ## Status and boundary
 - **Freeze-readiness:** v0.3 is freeze-READY (flags resolved, numbers reproduced, amendments logged, bet
-  certified untouched). One **non-blocking** follow-on: propagate the ledger to `VERIFICATION.md` + the
-  manuscript for one-story consistency across all four docs.
+  certified untouched). One-story-consistency follow-on **DONE** 2026-07-22: `VERIFICATION.md` updated to
+  distinguish the two amplitude legs; the manuscript `+1.8%`→`+5.66%` correction routed apply-ready to the
+  drafting-factory mailbox (`20260722-pp3-manuscript-amplitude-attribution-correction.md`).
 - **Authority:** Joe-approved direction; only Joe re-freezes/posts. This record and the staged packet track
   the decision; they do not enact the freeze.
 - **Related:** staged packet `prediction-package-pp3-v0.3-STAGED-supersession-2026-07-22.md`; frozen v0.2

@@ -48,9 +48,14 @@ a compact verification package, and states plainly what would falsify the leadin
   wall class narrows.
 - Dark energy (in the one-residual flagship): the current honest register after the W113 joint-profile
   correction -- the shape AND the canonical f_0 = 0.125 are both viable on the DESI DR2 BAO likelihood (the old
-  "f_0 tension" was a fixed-amplitude-slice artifact); the sector's ONE residual exclusion is an
-  amplitude-calibration direction (+1.81% vs Planck). A future BAO amplitude calibration confirming the Planck
-  value at sub-percent precision would exclude it; the CPL-level falsification (H43/H44) stands regardless.
+  "f_0 tension" was a fixed-amplitude-slice artifact); the sector's residual lives entirely in the
+  amplitude-calibration direction, with two referents kept DISTINCT: under amplitude MARGINALIZATION the data
+  prefer an amplitude +1.81% above Planck (A* = 30.8059) and the shape -- canonical f_0 included -- is viable
+  inside delta-chi^2 <= 1; under the packet's OWN-theta_star calibration GU's amplitude is pinned at +5.66%
+  above Planck (A_GU = 31.9715), overshooting the BAO-preferred amplitude for this shape (A* = 31.4709) by
+  +5.74 sigma (dAIC +35.79) -- the decisively-disfavored leg the PP3 packet quotes. A future BAO amplitude
+  calibration confirming the Planck value at sub-percent precision would exclude the family; the CPL-level
+  falsification (H43/H44) stands regardless.
 - The observer conjecture's "wall becomes prediction" move: the pre-registered fork
   (`explorations/obj3-adversarial-fork-preregistered`) landed on Outcome B (wall remains); the exact evidence that
   would reverse it to A/C/D is listed there.

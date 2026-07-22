@@ -174,9 +174,11 @@ the source-hash / freeze lineage above.
 
 ## Freeze-readiness (yours to act on)
 Flags resolved, basis current, numbers independently reproduced, amendment discipline logged — **v0.3 is
-freeze-READY for your re-freeze.** One non-blocking follow-on: propagate the §E canonical ledger to
-`VERIFICATION.md` and the manuscript so all four docs tell one amplitude story (PP3's own content is
-internally correct without it). Nothing is frozen or posted until you re-freeze.
+freeze-READY for your re-freeze.** The one-story-consistency follow-on is now **DONE**: `VERIFICATION.md`
+updated to distinguish the two amplitude legs (2026-07-22); the manuscript's `+1.8%`→`+5.66%`
+attribution correction routed apply-ready to the drafting-factory mailbox
+(`20260722-pp3-manuscript-amplitude-attribution-correction.md`). All four docs now carry the same
+ledger. Nothing is frozen or posted until you re-freeze.
 
 ## Boundary
 STAGED, unfrozen, unposted. Only Joe approves the superseding freeze. Return channel per the
