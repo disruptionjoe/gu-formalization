@@ -67,6 +67,15 @@ moot. Both are needed to certify a **nonzero** order, conditional on the group b
 **Flavor/dimension caveat (proposal-grade):** Pin⁺ vs Pin⁻ is a receptacle label pinned only by the
 belt-trick U²=−I; dim 14 (edge-on-wall) vs 15 (bulk) unsettled. Neither is a second bit.
 
+**UPDATE (2026-07-22, post two-method attack — see
+`explorations/pin14-bordism-wave-triple-diamond-results-2026-07-22.md`):** (a) the ABP summand labels above
+(`Σ⁸ko⟨2⟩, Σ¹⁰ko, Σ¹²ko⟨2⟩`) are IMPRECISE — a free `Σ¹⁰ko` would need a free Z in the pure-2-torsion
+Ω^Spin₁₀; take the correct per-degree ko/ko⟨2⟩/MJ identities from the published ABP (Guo 2018; GPW §7.1,
+valid s−t<8). (b) The **leading ABP term vanishes at n=14** (engine-validated on n=0–7) ⇒ Ω^Pin⁺₁₄ is a
+**pure-correction** group, expected nonzero and moderate. (c) A **cheaper route than a bespoke `ext` run**
+exists: the **Smith fiber sequence** (arXiv:2405.04649) reduces it to known Ω^Spin_\*. (d) The RP⁴×M¹⁰ probe
+**provably vanishes** (false-negative, not a zero verdict). Still OPEN; no value asserted.
+
 ## 3. The unreadability bridge (OPEN — the "attention-winning sentence" is NOT proved)
 
 Three distinct senses of "external," only the weakest proved:
