@@ -3,7 +3,7 @@ title: "Publications index — the canonical record of what has actually been po
 status: canon
 doc_type: publications-ledger
 owner: gu-formalization
-updated: "2026-07-22"
+updated: "2026-07-23"
 purpose: >-
   Single source of truth for which of this repo's artifacts are PUBLICLY POSTED (DOI / arXiv / URL).
   Other surfaces (Drafting Factory, project management) READ this; they do not maintain a competing
@@ -26,9 +26,16 @@ against Zenodo (see the runbook) and add what is found here.
 | id | title | type | DOI (version) | concept DOI | posted | author name used | source folder | venue |
 |---|---|---|---|---|---|---|---|---|
 | OVST | A Diagonal No-Go for Self-Valuations and an Invariance Classification | preprint | 10.5281/zenodo.21343484 | 10.5281/zenodo.21343483 | 2026-07-13 | Hernandez, Joe | `published/observer-value-selection-theorem/` | Zenodo |
+| LNF | Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier | preprint | 10.5281/zenodo.21515143 | 10.5281/zenodo.21515142 | 2026-07-23 | Hernandez, Joseph | `candidates/located-not-forced/` | Zenodo |
 
 ## Reconciliation log
 
+- **2026-07-23** — Published and inspected LNF v1.0.0 at
+  `10.5281/zenodo.21515143`. The public record shows Joseph Hernandez,
+  Independent Researcher; `main.pdf` as the default 18-page preview; the
+  verified ZIP supplement; CC BY 4.0; and the repository in both the software
+  and related-work fields. Public MD5 values match the frozen local artifacts.
+  The concept DOI is `10.5281/zenodo.21515142`.
 - **2026-07-22** — Reconciled against Zenodo (author searches `"Hernandez, Joe"` and `"Hernandez, Joseph"`;
   title searches). **Result: OVST is the ONLY posted artifact.** Fixed three drifted surfaces:
   1. This repo: OVST was still under `candidates/` and `published/` was empty — moved OVST to `published/`

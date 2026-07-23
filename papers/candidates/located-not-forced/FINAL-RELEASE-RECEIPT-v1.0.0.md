@@ -1,8 +1,30 @@
 # Final release receipt — Located, Not Forced v1.0.0
 
 **Frozen:** 2026-07-23  
-**Status:** READY FOR JOSEPH HERNANDEZ'S EXPLICIT ZENODO PUBLISH APPROVAL  
+**Status:** PUBLISHED ON ZENODO
 **Source checkpoint:** `020b682d3adf166d2b90017eb18b57be554af83c`
+
+## Publication
+
+- Published: 2026-07-23
+- Version DOI: [`10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143)
+- Concept DOI: [`10.5281/zenodo.21515142`](https://doi.org/10.5281/zenodo.21515142)
+- Public record: <https://zenodo.org/records/21515143>
+- Creator: Joseph Hernandez
+- Affiliation: Independent Researcher
+- License: CC BY 4.0
+
+The public record was inspected after publication. `main.pdf` is the default
+18-page preview, both deposited files are public, and Zenodo's MD5 values match
+the frozen local artifacts:
+
+```text
+d25972628cb91ca299095c92a3a13278  main.pdf
+7ddc66f4b95d35cb90b45f6bcd07f766  located-not-forced-v1.0.0.zip
+```
+
+The repository is present both as the software repository URL and as an
+`is supplemented by` related work.
 
 ## Deposit files
 
@@ -45,8 +67,9 @@ plus the manifest itself. It contains no `.DS_Store` or `__MACOSX` payload.
 - Repository related identifier:
   `https://github.com/disruptionjoe/gu-formalization`, relation
   `is supplemented by`.
-- DOI: intentionally unset until Zenodo assigns one.
+- DOI: Zenodo assigned `10.5281/zenodo.21515143`; the frozen deposit files
+  intentionally remain byte-identical to the prepublication package.
 - Default preview: `main.pdf`, not the ZIP.
 
-No technical or metadata gate remains. The next irreversible action is Zenodo
-**Publish**, which requires Joseph Hernandez's explicit approval.
+The publication gate is closed. Future file changes require a new Zenodo
+version; metadata-only corrections can use Zenodo's record-management path.

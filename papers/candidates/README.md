@@ -4,6 +4,11 @@ Papers that have **graduated out of `papers/drafts/`** and are staged for public
 public**. A folder here means: Joe has explicitly said he intends to publish this paper, and it has passed
 the light staging gate below. It does **not** mean it has been submitted or posted.
 
+Recorded exception: *Located, Not Forced* v1.0.0 was published on 2026-07-23,
+but its active source and reproducibility tree remains at the existing path to
+avoid breaking verified scripts and provenance links. Its posted status is
+authoritatively recorded in `../published/INDEX.md`.
+
 ## Lifecycle (the three stages)
 
 1. **`papers/drafts/`** -- work in progress. All drafts, notes, and **previous/superseded versions** of a
@@ -43,7 +48,7 @@ submit, reclassify, or advance a paper.
 | [`generation-number-boundary-odd-primary/`](generation-number-boundary-odd-primary/) | Generation Number Boundary Odd Primary; boundary / odd-primary location packet. | [`STAGING-NOTES.md`](generation-number-boundary-odd-primary/STAGING-NOTES.md) |
 | [`generation-number-located-not-forced/`](generation-number-located-not-forced/) | Generation Number Located Not Forced; class-wide forcing no-go and `{1,3}` reduction. | [`STAGING-NOTES.md`](generation-number-located-not-forced/STAGING-NOTES.md) |
 | [`keep-and-grade-loop-cost/`](keep-and-grade-loop-cost/) | Keep And Grade Loop Cost; loop-cost / keep-and-grade packet. | [`STAGING-NOTES.md`](keep-and-grade-loop-cost/STAGING-NOTES.md) |
-| [`located-not-forced/`](located-not-forced/) | "Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector." The program's lead result; `.tex` is the arXiv submission source. | [`STAGING-NOTES.md`](located-not-forced/STAGING-NOTES.md) |
+| [`located-not-forced/`](located-not-forced/) | **Published v1.0.0** — "Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier." DOI [`10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143); source tree retained at this stable path. | [`STAGING-NOTES.md`](located-not-forced/STAGING-NOTES.md) |
 | [`observer-value-selection/`](observer-value-selection/) | Observer Value Selection candidate (broader physical-realization draft; distinct from the published theorem paper). | [`STAGING-NOTES.md`](observer-value-selection/STAGING-NOTES.md) |
 | [`one-residual-complete-picture/`](one-residual-complete-picture/) | One Residual Complete Picture; one-residual synthesis candidate. | [`STAGING-NOTES.md`](one-residual-complete-picture/STAGING-NOTES.md) |
 | [`six-axis-testability/`](six-axis-testability/) | "Six-Axis Testability" white paper; a methods / position proposal separate from the mathematical-result papers. Its empirical benchmark is unexecuted. | [`STAGING-NOTES.md`](six-axis-testability/STAGING-NOTES.md) |

@@ -2,14 +2,14 @@
 title: "The Observerse Research Program (advanced from Geometric Unity formalization)"
 status: canon
 doc_type: overview
-updated_at: "2026-07-21"
+updated_at: "2026-07-23"
 ---
 
 # The Observerse Research Program
 
 *This program began as a formalization of Geometric Unity (GU) and has advanced beyond it. Current framing:
-`RESEARCH-PROGRAM.md`. Lead result (submission candidate, not yet posted):
-`papers/candidates/located-not-forced/`.*
+`RESEARCH-PROGRAM.md`. Lead result: [*Located, Not Forced* v1.0.0](https://doi.org/10.5281/zenodo.21515143),
+published on Zenodo from `papers/candidates/located-not-forced/`.*
 
 ## If you are here from the paper
 
@@ -97,7 +97,8 @@ dark-energy no-phantom-crossing measurement is the one observation that turns th
 ## Start Here
 
 - **Research program (current framing):** `RESEARCH-PROGRAM.md`
-- **Lead result (submission candidate):** `papers/candidates/located-not-forced/` ("Located, Not Forced")
+- **Lead result (published preprint):** `papers/candidates/located-not-forced/`
+  ([DOI `10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143))
 - **Research posture (truth-seeking method):** `RESEARCH-POSTURE.md`
 - **Project canon:** `CANON.md`
 - **Current research status:** `RESEARCH-STATUS.md`

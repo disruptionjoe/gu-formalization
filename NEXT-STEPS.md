@@ -274,8 +274,11 @@ updated_at: "2026-07-22"
 > external replication remain declared residuals. Zenodo still does not wait
 > for external review. The TeX, 18-page PDF, and scoped ZIP are now reconciled,
 > isolated-package verified, and pinned to source checkpoint
-> `020b682d3adf166d2b90017eb18b57be554af83c`. The only publication gate is
-> Joseph Hernandez's explicit approval of the Zenodo **Publish** action.
+> `020b682d3adf166d2b90017eb18b57be554af83c`. Joseph Hernandez approved and
+> published v1.0.0 on Zenodo on 2026-07-23 at
+> [`10.5281/zenodo.21515143`](https://doi.org/10.5281/zenodo.21515143);
+> concept DOI `10.5281/zenodo.21515142`. The public record and file checksums
+> were verified after publication.
 > Restore ordinary cross-lane selection; do not rerun this
 > campaign as substitute work.
 >
