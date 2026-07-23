@@ -89,13 +89,13 @@
     {
       "id": "LBN-002",
       "runtime_ordinal": 2,
-      "public_claim": "The gamma-trace map has rank 128.",
-      "expected": "128",
+      "public_claim": "The complex gamma-trace map has rank 128.",
+      "expected": "complex rank 128",
       "source": {
         "section": "Section 2, setting",
         "anchors": [
-          "dim_R S = 128",
-          "dimension `(14-1)*128 = 1664"
+          "`S_C` be the 128-dimensional complex Dirac-spinor realization",
+          "`V_C (x) S_C` (complex dimension `14*128 = 1792`)"
         ]
       },
       "primary": {
@@ -121,12 +121,12 @@
     {
       "id": "LBN-003",
       "runtime_ordinal": 3,
-      "public_claim": "The gamma-traceless carrier has dimension 1664 = 2^7*13.",
-      "expected": "1664 = 2^7*13",
+      "public_claim": "The gamma-traceless carrier has complex dimension 1664 = 2^7*13.",
+      "expected": "complex dimension 1664 = 2^7*13",
       "source": {
         "section": "Section 2, setting",
         "anchors": [
-          "dimension `(14-1)*128 = 1664 = 2^7 * 13"
+          "`(14-1)*128 = 1664 = 2^7 * 13`"
         ]
       },
       "primary": {
@@ -217,13 +217,13 @@
     {
       "id": "LBN-006",
       "runtime_ordinal": 6,
-      "public_claim": "The j=1 triplet sector has dimension 192.",
-      "expected": "192",
+      "public_claim": "The j=1 triplet sector has complex dimension 192.",
+      "expected": "complex dimension 192",
       "source": {
         "section": "Sections 2-3",
         "anchors": [
-          "The `192`-dimensional `j=1`",
-          "64 triplets spanning the 192-dimensional `j=1` sector"
+          "`192`-dimensional `j=1` sector is the multiplicity-three structure",
+          "64 triplets spanning the complex"
         ]
       },
       "primary": {
@@ -319,7 +319,7 @@
         "section": "Section 6, Theorem 2 premises",
         "anchors": [
           "cross-chirality `(96,96)`",
-          "chirality eigenspaces `W_+`, `W_-` K-Lagrangian"
+          "chirality eigenspaces `W_+`, `W_-` maximal totally K-isotropic"
         ]
       },
       "primary": {
@@ -350,7 +350,7 @@
       "source": {
         "section": "Section 6, Theorem 2",
         "anchors": [
-          "equal projection-image ranks on graph subspaces",
+          "equal projection-image",
           "difference in `(9,5)` and `(7,7)`"
         ]
       },
@@ -476,8 +476,8 @@
       "source": {
         "section": "Section 6, antilinear null-eigenspace bound",
         "anchors": [
-          "antilinear re-gradings whose new eigenspaces are K-null",
-          "same intersection index remains zero"
+          "images of the original chiral subspaces",
+          "same intersection index relative to those images"
         ]
       },
       "primary": {
@@ -760,7 +760,7 @@
       "source": {
         "section": "Section 7, located order-3 carrier",
         "anchors": [
-          "3-primary part nonzero, order 3",
+          "projected Z/3 component is nonzero and has order 3",
           "e_R = p_1/48 = 1/12"
         ]
       },
@@ -793,14 +793,14 @@
         "section": "Section 8 and Pati-Salam reproducibility appendix",
         "anchors": [
           "`Tr Y = Tr Q = 0`",
-          "16 chiral states"
+          "directly checked linear traces"
         ]
       },
       "primary": {
         "function": "check_pati_salam",
         "method_family": "spin10_sign_weight_enumeration",
         "evidence_tokens": [
-          "the 16 is anomaly-free: Tr Y = Tr Q = 0",
+          "the displayed linear traces of the 16 vanish: Tr Y = Tr Q = 0",
           "sumY"
         ]
       },
@@ -850,21 +850,21 @@
     {
       "id": "LBN-026",
       "runtime_ordinal": 26,
-      "public_claim": "The Pati-Salam Spin(7,7) chain's 16 chiral states form one generation, chain-relative.",
-      "expected": "16//16=1, chain-relative",
+      "public_claim": "The reconstructed Pati-Salam Spin(7,7) branch normalizes one Spin(10) 16 as one Standard-Model family; it does not count copies.",
+      "expected": "16//16=1 family-unit normalization, chain-relative",
       "source": {
         "section": "Section 8 and Pati-Salam reproducibility appendix",
         "anchors": [
-          "16 chiral states = exactly one anomaly-free generation",
-          "chain-relative"
+          "normalizes a single `16` as one family",
+          "one reduction among many possible symmetry-breaking chains"
         ]
       },
       "primary": {
         "function": "check_pati_salam",
         "method_family": "spin10_sign_weight_enumeration",
         "evidence_tokens": [
-          "16 chiral states = one generation",
-          "generations == 1"
+          "one Spin(10) 16 = one family unit",
+          "family_units == 1"
         ]
       },
       "secondary": {

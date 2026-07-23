@@ -1,7 +1,8 @@
-# Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector
+# Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier
 
-**Draft for external review. This paper does NOT claim three generations.** The theorem-grade results are
-independent of Geometric Unity; every GU-specific step is marked motivated or reconstruction-grade. Five
+**Draft for external review. This paper does NOT claim three generations.** The conditional mathematical
+results do not require Geometric Unity to be physically correct, but the choice of carrier and its proposed
+physical interpretation are GU-motivated; every GU-specific step is marked motivated or reconstruction-grade. Five
 load-bearing caveats hold throughout: **(a)** the torsion-count reading is a *premise, not a result* -- under a
 literal integer-index reading the same obstructions would instead *forbid* an odd count outright; **(b)** the
 projected order-3 component cannot literally *be* an integer count, since `Hom(Z/3, Z) = 0` (no homomorphism from a torsion
@@ -14,27 +15,33 @@ transfer to the true Rarita-Schwinger `Y14` bundle remains open; **(e)** every v
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
 independently replicated or peer-reviewed. See Sections 1 and 9.
 
-*arXiv submission source: [`located-not-forced-generation-count-2026-06-29.tex`](located-not-forced-generation-count-2026-06-29.tex)
-(LaTeX; this markdown is the readable working copy). Suggested classification: primary **hep-th**; secondary
+*Canonical hardening source: this Markdown file. The adjacent
+[`located-not-forced-generation-count-2026-06-29.tex`](located-not-forced-generation-count-2026-06-29.tex)
+currently predates this review and must not be submitted until it is reconciled, compiled, and rendered.*
+Suggested classification: primary **hep-th**; secondary
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.13, 2026-07-23. The current hardening pass separates finite-torsion, integer-valued, and
-Krein-space claims; removes universal-no-go, physical-handedness, and necessary-externality overclaims; and
-keeps the true-`Y14` source-action construction open. Detailed history is retained in the adjacent changelog
-files rather than in the manuscript.
+Internal version 2.14, 2026-07-23. The current ten-lens hardening pass corrects the real/complex
+Clifford-module type, narrows the irreducible-spinor lemma, exposes the compact/Lorentzian transfer premise,
+separates family-unit normalization from generation counting, and places exact ceilings on the finite
+enumeration, Lean, framing, and anomaly evidence. Detailed history is retained in the adjacent changelog and
+review files rather than in the manuscript.
 
 ---
 
 ## Abstract
 
-We study the chirality and generation structure of an explicit real Clifford Rarita-Schwinger sector: the
-gamma-traceless rank-3/2 field of a real Clifford module `Cl(p,q)` with `p+q = 14` on a 128-dimensional
-spinor, with one generation identified with the `16` of `Spin(10)`. The sector is motivated by, and
+We study the chirality and generation structure of an explicit Clifford Rarita-Schwinger sector: the
+gamma-traceless rank-3/2 field built in a 128-dimensional **complex** Dirac-spinor model of
+`Cl(p,q)`, `p+q = 14`, with one Standard-Model family carried by the `16` of `Spin(10)`. For the physical
+`Cl(9,5) = M(64,H)` real form, the irreducible real module is `H^64` (real dimension 256); the
+128-by-128 complex matrices used here are its complex realization, and all unqualified carrier dimensions
+below are complex dimensions. The sector is motivated by, and
 reconstructed from, the matter proposal of Geometric Unity (GU); every GU-specific step is marked, and none
-of the theorem-grade results depend on GU being correct.
+of the conditional finite-dimensional deductions depends on GU being physically correct.
 
-We prove a codomain-separated **two-primary constraint theorem**: in an encoded delimited class C of
+We prove a codomain-separated **two-primary finite-census theorem**: in an encoded delimited class C of
 covariant, sector-interior structures, finite torsion constraints are 2-primary and integer-valued rows carry
 only parity/divisibility content; none supplies a mod-3 congruence or selects a particular odd integer. Listed
 first-step departures outside C are controls, not an exhaustive classification beyond C. We also prove a
@@ -54,14 +61,15 @@ torsion-count premise of caveat (a), not a further computed quantity; by `Hom(Z/
 cannot itself be a count).
 
 We then attempt a direct candidate calculation for an integer count on GU's actual 14-manifold and find
-it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger source action); the only
-unconditionally computable generation integer in this program is **one** (GU's own Pati-Salam `Spin(7,7)` chain). A toy of that source action,
+it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger source action). A reconstructed
+Pati-Salam `Spin(7,7)` branch verifies that one `Spin(10)` `16` contains one Standard-Model family; this is a
+family-unit normalization, not an observable that counts how many such families occur. A toy of the missing source action,
 built and adversarially tested four ways, does **not** fill the forcing slot -- every tested integer is even
 or one -- but this remains bounded negative evidence. None of the encoded class-C constructions or listed
 controls supplies a typed integer generation count. We do not infer that the count is necessarily external,
 because non-equivariant operators and the true Rarita-Schwinger `Y14` source-action pushforward remain open.
 We therefore do **not** claim three generations.
-We claim a scoped non-derivation that *locates*: after an explicit map into `Z/24`, the 2-primary image cannot
+We claim a scoped non-derivation that *locates*: after an explicit map into `Z/24`, a 2-primary image cannot
 determine the separate `Z/3` component; the exhibited framed class has a nonzero 3-primary projection. We pose the
 `3-primary torsion component -> integer 3` identification as the single named open conjecture (and a candidate
 category error). Primary decomposition and positive uses of its 3-primary content are prior art. The
@@ -86,7 +94,7 @@ anomaly is itself genuinely 3-primary, consistent with the thesis that an odd co
 This paper turns that obstacle into a positive structural statement, in one explicit sector, and then tests
 the strongest possible reading of it by direct computation. Our contributions:
 
-1. **A codomain-separated 2-primary constraint theorem (Section 4).** No item in the encoded class-C list
+1. **A codomain-separated 2-primary finite-census theorem (Section 4).** No item in the encoded class-C list
    supplies an odd-prime congruence or selects a particular odd integer. Finite torsion rows are 2-primary;
    integer rows remain `Z`-valued parity/divisibility constraints. Listed outside-C controls are not an
    exhaustive classification beyond C.
@@ -105,34 +113,46 @@ the strongest possible reading of it by direct computation. Our contributions:
    does not fill ("locates" is an interpretive gloss under the torsion-count reading, not an additional
    computed quantity).
 5. **The deciding computation, and the gate (Section 8).** The integer count on GU's actual 14-manifold is
-   gated on the unbuilt twisted Rarita-Schwinger source action; the only unconditionally computable integer in
-   this program is one.
+   gated on the unbuilt twisted Rarita-Schwinger source action. The explicit Pati-Salam branch normalizes one
+   `Spin(10)` `16` to one Standard-Model family but does not count the number of copies.
    We do not force three.
 6. **The open conjecture (Section 9).** `3-primary torsion component -> integer 3` is a theorem of nothing in the present
    literature and is a candidate category error. We state it as the single open bridge and request review.
 
-The robust, theory-independent content is the codomain audit, finite intersection theorem, standard CRT
-decomposition, and framed-class calculation. The GU
-identification and the generation-count reading are clearly marked reconstruction-grade or open.
+The robust content is conditional mathematics about an explicitly specified carrier: the codomain audit,
+finite intersection theorem, standard CRT decomposition, and framed-class calculation. The selection of
+that carrier, its GU identification, and the generation-count reading are clearly marked motivated,
+reconstruction-grade, or open.
 
 ---
 
 ## 2. The setting
 
-Let `S` be the real spinor module of `Cl(p,q)`, `p+q = 14`, `dim_R S = 128`. The Rarita-Schwinger field is
-the gamma-traceless part of `V (x) S`; the constraint cuts `V (x) S` (dimension `14*128 = 1792`) to
-`ker(Gamma)`, of dimension `(14-1)*128 = 1664 = 2^7 * 13`. We split `14 = 4 + 10`: a four-dimensional base
-`X^4` and a ten-dimensional internal space, with one generation the `16` of `Spin(10)`. The base frame group
-is `Spin(4) = SU(2)_+ x SU(2)_-`; the self-dual two-forms `Lambda^2_+` generate `su(2)_+`. Under `su(2)_+`,
+For the computational model, let `S_C` be the 128-dimensional complex Dirac-spinor realization of
+`Cl(p,q)`, `p+q = 14`. In the physical `(9,5)` real form this is the complex realization of
+`S_R = H^64`, `dim_R S_R = 256`; it is not a 128-dimensional real Clifford module. The
+Rarita-Schwinger carrier is the gamma-traceless part of `V_C (x) S_C`; the constraint cuts
+`V_C (x) S_C` (complex dimension `14*128 = 1792`) to `ker(Gamma)`, of complex dimension
+`(14-1)*128 = 1664 = 2^7 * 13`.
+
+We split `14 = 4 + 10`: a four-dimensional base `X^4` and a ten-dimensional internal space, with one
+Standard-Model family carried by the `16` of `Spin(10)`. The explicit compact calculation uses
+`Spin(4) = SU(2)_+ x SU(2)_-`; its self-dual two-forms `Lambda^2_+` generate `su(2)_+`. For a Lorentzian
+`(3,1)` base, `*^2 = -1` on real two-forms, so the self-dual/anti-self-dual rank-three splitting exists only
+after complexification (or after a stated Wick rotation/maximal-compact reduction). The paper uses that
+complexified/compact representation calculation; transfer of the proposed family interpretation to the
+physical Lorentzian bundle is reconstruction-grade, not silently identified with the Euclidean statement.
+Under the compact `su(2)_+` calculation,
 
 ```
 ker(Gamma) = 640 (singlets) + 832 (doublets) + 192 (triplets),
 ```
 
-verified numerically (`tests/generation-sector/h1_selfdual_family_kill.py`). The `192`-dimensional `j=1`
-sector is the native multiplicity-three structure: a genuine triplet carrying the `16`. The invariant
-bilinear is the `so(p,q)`-invariant Krein form `K = eta_V (x) beta_S`; on the triplet it is purely
-cross-chirality, signature exactly `(+96, -96)`. This is an indefinite Krein statement, not a physical
+verified numerically (`tests/generation-sector/h1_selfdual_family_kill.py`). The complex
+`192`-dimensional `j=1` sector is the multiplicity-three structure in this computational model. More precisely, its
+two chiral blocks have the form `(3,2,16)` and `(3,2,16bar)`, each of complex dimension 96. The relevant
+invariant Hermitian form is the `so(p,q)`-invariant Krein form `K = eta_V (x) beta_S`; on the triplet it is purely
+cross-chirality, Hermitian signature exactly `(+96, -96)`. This is an indefinite Krein statement, not a physical
 left-minus-right state count. The sector is multiplicity-three, while a typed physical chirality operator or
 index remains separate and unbuilt.
 
@@ -148,58 +168,69 @@ signed difference (left minus right) of Dirac zero modes; it measures chirality,
 spectrum lacks. A representation dimension and an operator index are not one number computed two ways. This sector
 supplies the first natively and does not supply the second.
 
-**The multiplicity is natively three (verified).** Under the self-dual `su(2)_+` of the 4-base, the
+**The multiplicity is three in the compact/complexified carrier calculation (verified).** Under the
+self-dual `su(2)_+` used in Section 2, the
 gamma-traceless module decomposes as in Section 2. Written by *multiplicity* rather than dimension,
 
 ```
 ker(Gamma) = 640 (j=0) + 416 (j=1/2) + 64 (j=1),   640*1 + 416*2 + 64*3 = 1664,
 ```
 
-i.e. 640 singlets, 416 doublets and 64 triplets, the 64 triplets spanning the 192-dimensional `j=1` sector of
-Section 2. On all 192 states the `Spin(10)` Casimir matches the reference `16 / 16bar` value to machine precision
-(`tests/generation-sector/h1_selfdual_family_kill.py`). A native multiplicity-three object exists, carried by the
-self-dual geometry of any oriented 4-base; the multiplicity dimension 3 is not imported.
+i.e. 640 singlets, 416 doublets and 64 triplets, the 64 triplets spanning the complex
+192-dimensional `j=1` sector of Section 2. On all 192 complex states the `Spin(10)` Casimir matches the
+reference `16 / 16bar` value to machine precision
+(`tests/generation-sector/h1_selfdual_family_kill.py`). A multiplicity-three object therefore exists in the
+specified carrier calculation; the representation dimension 3 is not inserted as a target. Its transfer from
+the compact/complexified self-dual calculation to the physical Lorentzian GU bundle has the
+reconstruction-grade scope stated in Section 2.
 
-**Lemma (spinor 2-smoothness).** *If a family symmetry `SO(m)` acts so that the multiplicity space is a sum of
-spinor representations of `SO(m)`, its dimension is a power of two, hence not divisible by 3. An odd multiplicity
-can therefore arise only from a non-spinor family representation -- a vector, an adjoint, or a self-dual tensor.*
-The Dirac spinor of `SO(m)` has dimension `2^floor(m/2)` and each half-spinor of `SO(2k)` has dimension
-`2^(k-1)`; all are powers of two, never divisible by the odd prime 3. The vector (`m`), the adjoint
-(`m(m-1)/2`) and self-dual tensors are not so constrained; `Lambda^2_+` of a 4-manifold has dimension 3. QED.
+**Lemma (irreducible spinor dimensions are 2-primary).** *A single irreducible complex Dirac or half-spinor
+representation of `Spin(m)` has power-of-two dimension and hence no factor of 3. Consequently, any factor of
+3 in a family multiplicity cannot come from the dimension of one such irreducible spinor; it must come from
+the number of spinor copies or from a non-spinor family representation.*
+The complex Dirac spinor has dimension `2^floor(m/2)` and each complex half-spinor of `Spin(2k)` has
+dimension `2^(k-1)`; all are powers of two. Dimensions of direct sums add, so the original stronger wording
+for an arbitrary “sum of spinors” would be false (three copies already supply a factor of 3). The vector,
+adjoint, and self-dual tensor dimensions are not power-of-two constrained; in the compact four-dimensional
+calculation, `Lambda^2_+` has complex dimension 3. QED.
 
 **Three is the canonical odd multiplicity (verified for the commutant of the full `Spin(10)`).** The lemma turns
-an open-ended search into a dichotomy: the spinor channels are provably 3-free, so any odd multiplicity must enter
-through a non-spinor channel. Inside `Spin(14) ⊃ Spin(10) x Spin(4)` the commutant of `Spin(10)` is
+an open-ended search into a narrower audit: an irreducible spinor dimension is 3-free, so any factor of 3
+must enter through copy multiplicity or a non-spinor channel. Inside the compact branching
+`Spin(14) ⊃ Spin(10) x Spin(4)` the commutant of `Spin(10)` is
 `so(4) = su(2)_+ (+) su(2)_-`, which up to conjugacy has exactly three `su(2)` subalgebras (self-dual,
 anti-self-dual, diagonal), and no `su(3)` embeds (by dimension, `dim su(3) = 8 > 6 = dim so(4)`). Enumerating the
 16-dimensional multiplicity space under each (`tests/generation-sector/leg3_family_embedding_enumeration.py`),
 only the self-dual and anti-self-dual `su(2)` (orientation images of one another) give an odd multiplicity, always
 the triplet of dimension 3, never a quintet or higher; the diagonal choice gives an all-even content. So for
-family symmetries commuting with the full `Spin(10)` the self-dual route is canonical and the multiplicity it
-fixes is three. *This is a statement about a representation dimension, not a net chiral count.* The case of a
+family symmetries commuting with the full `Spin(10)` the self-dual route is the unique odd-dimensional route
+in that enumerated commutant, and the odd irrep it contains is a triplet. *This is a statement about a
+representation dimension in the stated compact branching, not a net chiral count or a Lorentzian transfer
+theorem.* The case of a
 family symmetry commuting only with the Standard-Model subgroup `G_SM ⊂ Spin(10)` -- whose larger commutant could
 in principle host a horizontal `su(3)` -- is not covered here and is a bounded open computation; the lemma already
-constrains it.
+constrains the irreducible-dimension part of that search.
 
 **But the triplet does not by itself supply a chiral count.** The invariant Krein form
 `K = eta_V (x) beta_S` on the triplet is purely cross-chirality with signature `(+96, -96)`. Theorem 2 proves
 only a finite Krein-side intersection nullity: a maximal K-positive subspace contains no nonzero vector lying
 wholly in either chiral Lagrangian. It does not count the handedness of the 96 physical vectors, because a
-generic graph vector has components in both chiral spaces. Turning the native multiplicity three into a net
+generic graph vector has components in both chiral spaces. Turning the specified multiplicity three into a net
 physical three therefore requires a separately typed grading-invariant subspace, graded trace, or Fredholm/index
-construction, none of which is supplied by this finite carrier argument. **The multiplicity three is native; a
-physical chiral count is not derived here.**
+construction, none of which is supplied by this finite carrier argument. **The multiplicity-three irrep is
+present in the specified compact/complexified carrier; a physical Lorentzian chiral count is not derived
+here.**
 
 ---
 
-## 4. Theorem 1: codomain-separated 2-primary constraints
+## 4. Theorem 1: a codomain-separated 2-primary finite census
 
 A finite torsion invariant is **2-primary** when it is annihilated by a power of two. An integer-valued
 constraint is called **2-adic/parity-valued** here only when its content is divisibility by a power of two.
 These are different codomains: a `Z`-valued equality or index is not an element of `Z/8` unless an explicit
 reduction or torsion-valued map is supplied.
 
-**Theorem 1 (complete for the encoded delimited class C).** *Among the constraints on a candidate generation
+**Theorem 1 (complete for the explicitly encoded delimited class C).** *Among the constraints on a candidate generation
 count enumerated for this sector, none supplies an odd-prime congruence or selects a particular odd integer.
 The finite torsion constraints are 2-primary; the integer-valued equalities and indices are parity/divisibility
 constraints and remain `Z`-valued. The enumeration is complete for the encoded delimited class C (linear
@@ -223,13 +254,26 @@ Here **OUT** means outside the theorem's quantified class, not impossible or phy
 extension engine tests several first-step departures from C as adversarial controls; odd-primary factors appear
 only after importing data on the OUT side of this boundary.
 
-**Proof (enumeration and codomain audit).** (1) Kramers / quaternionic wall (`J^2 = -1`): a `Z/2` statement.
+**Completeness certificate and proof boundary.** “Complete” means complete for the finite generator type
+encoded by the carrier census, not complete for every map satisfying the prose description in the table by
+definition alone. The exact/computed carrier scripts
+`tests/enum-completeness/enum_class_c_generators.py` and
+`tests/enum-completeness/verify/indep_check.py` supply the two-block Schur-matching packet
+`2/2/2/2/0`; `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` proves exhaustiveness, row assignment,
+and arbitrary product/gcd/lcm 2-primary closure for the finite type built from that supplied packet. Lean
+does not reconstruct the 192-dimensional matrices or prove that the physical carrier realizes the supplied
+Hom-space census. Thus carrier faithfulness is exact-script/computed evidence; the finite deduction from the
+encoded census is machine-checked; and the unrestricted representation/function-space classification remains
+open.
+
+**Proof (enumeration and codomain audit, conditional on that certificate).** (1) Kramers / quaternionic wall (`J^2 = -1`): a `Z/2` statement.
 (2) Real / pseudoreal non-chirality: the mod-2 Witten index, `Z/2`-valued. (3) Cross-chirality Krein
 signature: the finite intersection-index nullity of Theorem 2, a `Z`-valued equality rather than a torsion
 class or physical handedness count. (4) Adjoint Dirac indices `4k`, `12k`, and `24k`: `Z`-valued divisibility
 statements, not elements of `Z/8`. (5) Rokhlin: `sign(X) = 0 (mod 16)`, mod `2^4`.
-(6) Spinor 2-smoothness: a spinor of `SO(m)` has dimension `2^floor(m/2)`, a power of two; only a non-spinor
-(vector / adjoint / self-dual) family representation can be odd-dimensional. (7) Ghost parity: a ghost-parity
+(6) Irreducible spinor dimension: a single complex irreducible Dirac or half-spinor has power-of-two
+dimension; a factor of 3 must therefore enter through copy multiplicity or a non-spinor representation.
+(7) Ghost parity: a ghost-parity
 resolution of the Krein hyperbolic pairs yields a tested `50/50` rank diagnostic. No item supplies a mod-3
 congruence or selects the integer three. The integer rows can forbid an odd value under a literal
 integer-index reading; they cannot be moved into `Z/8` without an additional map. QED.
@@ -280,10 +324,11 @@ For a maximal K-positive subspace `P`, define the **Krein-chirality intersection
 **Theorem 2.** *Every maximal K-positive subspace has `chi_cap(P)=0`; linear K-isometries preserve this
 nullity.*
 
-**Proof.** The cross-chirality `(96,96)`
-Krein form makes the chirality eigenspaces `W_+`, `W_-` K-Lagrangian (K-isotropic), with K the pairing between
-them. In the finite algebraic model, take a maximal K-positive-definite subspace `P` (dim 96). Since the
-Lagrangians are K-null
+**Proof.** The nondegenerate Hermitian cross-chirality `(96,96)`
+Krein form makes the chirality eigenspaces `W_+`, `W_-` maximal totally K-isotropic subspaces (sometimes
+called K-Lagrangian in the accompanying project notes), with K pairing them. In the finite complex
+algebraic model, take a maximal K-positive-definite subspace `P` (complex dimension 96). Since the
+two chiral subspaces are K-null
 and `P` is positive-definite, `P intersect W_+ = P intersect W_- = {0}`. A linear K-isometry maps maximal
 positive subspaces to maximal positive subspaces. QED.
 
@@ -292,24 +337,31 @@ a graded trace, spectral flow, or a Fredholm index. At canon grade, faithful sta
 APS/end/gap/family terms for a separately stated conditional section-setting model; transfer to the true
 Rarita-Schwinger `Y14` bundle/source-action pushforward remains open.
 
-The theorem is Lean-checked in `Lean/GUFormalization/LocatedNotForcedLegs.lean` using this intersection
-definition. Existing numerical scripts also report equal projection-image ranks on graph subspaces. That is a
+The abstract intersection implication is Lean-checked in
+`Lean/GUFormalization/LocatedNotForcedLegs.lean` after realification and conditional on supplied positivity
+and isotropy premises. Lean does not construct the complex 192-dimensional carrier or certify those carrier
+premises; the numerical scripts test them. Existing numerical scripts also report equal projection-image
+ranks on graph subspaces. That is a
 separate balance diagnostic, not a count of 96 left states minus 96 right states.
 The numerical signature cross-check reproduces the same-chirality block nullity and zero projection-rank
 difference in `(9,5)` and `(7,7)`; a grading-aligned Euclidean `(14,0)` control gives projection-rank difference
 `96`. These are diagnostics and controls, not physical handedness indices.
 
 **Antilinear audit boundary.** The finite theorem does not invoke Wigner's Hilbert-space ray theorem or make
-antilinearity a unique physical escape. For a separately delimited class of antilinear re-gradings whose new
-eigenspaces are K-null, the same intersection index remains zero. This is still Krein-side nullity, not a
+antilinearity a unique physical escape. For a separately delimited class of antilinear re-gradings whose
+**images of the original chiral subspaces** are K-null, the same intersection index relative to those images
+remains zero. This avoids treating complex eigenspaces of an antilinear map as ordinary linear eigenspaces.
+The result is still Krein-side nullity, not a
 physical handedness count.
 
 **A GU-motivated re-grading candidate is frame-trivial (computed).** The operator `C = J_quat . G` is built from
 `J_quat = id_14 (x) U` (the quaternionic structure) and the chiral grading -- both internal-fiber
 endomorphisms. Its tangent-frame charge is **exactly 0**:
 `max ||[J_quat, any tangent-frame so(9,5) rotation]|| = 0.00e+00`, including the `Lambda^2_+` rotation;
-`|<J_quat, Lambda^2_+>| = 0`. This is convention-independent (any `id_14 (x) U` is traceless on the frame
-factor; verified with a random `U`). Consequently this candidate carries no `p_1`, and its reduced boundary
+`|<J_quat, Lambda^2_+>| = 0`. The structural reason is that `id_14 (x) U` acts trivially on the frame
+factor, so its commutator with frame rotations vanishes; the random-`U` run is only a numerical control, not
+the proof of convention independence. Consequently this candidate carries no frame `p_1` in this construction,
+and its reduced boundary
 `eta` is the 2-primary gauge type (`(2q^2-4q+1)/8`, here forced to 0 by `C^2 = -I`). The calculation supplies no
 integer generation count. The denominator-eight diagnostic does not by itself define a map from this operator
 to the `Z/8` summand of `Z/24`.
@@ -321,9 +373,9 @@ subspace-restriction/overlap diagnostics, not a conserved physical chiral index.
 for the encoded equivariant class C and the listed controls; it does not quantify over unrestricted,
 non-equivariant, or function-space constructions.
 
-For antilinear re-gradings whose new eigenspaces are K-null, the delimited calculation proves the same
-intersection nullity as Theorem 2. Frame-nontrivial antilinear swap operators exist once symmetry is dropped;
-the theorem says only that their K-null eigenspaces have zero intersection index. It does not identify that
+For antilinear re-gradings whose images of `W_+` and `W_-` are K-null, the delimited calculation proves the
+same intersection nullity as Theorem 2. Frame-nontrivial antilinear swap operators exist once symmetry is
+dropped; the theorem says only that those K-null image subspaces have zero intersection index. It does not identify that
 index with a physical handedness count and does not close K-definite, unrestricted, or true-`Y14`
 source-action constructions.
 
@@ -337,11 +389,13 @@ named rather than inferred away.
 
 ---
 
-## 7. The located 3-primary carrier
+## 7. An exhibited 3-primary carrier
 
-The 3-primary content lives in exactly one place. The self-dual `SU(2)_+ = Lambda^2_+` structure, read as a
+The paper exhibits 3-primary content in the following place; it does not prove uniqueness over untested
+channels. Under the reconstruction that reads the self-dual `SU(2)_+ = Lambda^2_+` structure as a
 **tangential** framing on `RP^3 = L(2;1)` (the deformation-retract spine of the metric fiber
-`GL(4,R)/O(3,1)`), has framed-bordism class `+/- 2 in pi_3^s = Z/24` and Adams `e`-invariant
+`GL(4,R)/O(3,1)`), the resulting framed class is `+/- 2 in pi_3^s = Z/24` and has Adams
+`e`-invariant
 
 ```
 e_R = p_1/48 = 1/12   (p_1 = 4, Kirby-Melvin; full class 2 in Z/24 has order 12;
@@ -354,10 +408,16 @@ index 4. This is standard topology assembled from three stated conventions -- th
 `e_R` normalization; the composite `e_R = (p_1/2)/24` is ours, not a formula quoted verbatim from any one
 source (the .tex normalization-conventions paragraph fixes all three). Only the identification of GU's
 `Lambda^2_+` twist with this natural tangential framing is reconstruction-grade.
+Because the normalization is assembled across several sources rather than quoted as one theorem, an
+independent framed-bordism specialist check of the sign, factor-of-two stabilization, and `e_R` convention
+remains a named external replication target; the order statements in this draft are internally checked under
+the displayed convention.
 
 **It locates but does not fill (properties computed; "locates" is interpretation).** The carrier `Lambda^2_+`
-has net self-dual tangent-frame charge `33.94` (tangential, `p_1 = 4`) and is vectorlike in the tested finite
-representation, while `e_R = 1/12` is **homotopy-fixed**: it is a fact about `pi_3^s`, identical for
+is tangential in the stated framing reconstruction (`p_1 = 4`) and is vectorlike in the tested finite
+representation. We omit the basis- and normalization-dependent numerical overlap previously called a
+“frame charge”; it is not a topological invariant and adds no evidence beyond the stated framing
+calculation. Meanwhile `e_R = 1/12` is **homotopy-fixed**: it is a fact about `pi_3^s`, identical for
 a universe with one generation or five. So the carrier marks the 3-primary slot; it does not co-vary with the
 answer and so cannot, by itself, be the thing that counts to three. A negative control shows that the tested
 `RP^3` deck/gauge channel does not supply a 3-primary component: its deck group is `Z/2`, and the charge-`q`
@@ -379,25 +439,30 @@ a typed integer generation count, and no direct class-to-count map exists.
 A direct candidate computation that could produce an integer count on GU's *actual* geometry, rather than a
 homotopy-fixed class identical for any answer, is the net chiral index as the anomaly-inflow coefficient of
 the bulk gravitational `-p_1/24` SPT class on the 14-manifold, with the tangential-vs-gauge fork resolved by
-the computation. We constructed and ran it (`tests/decider/`, 26/26 checks across four scripts plus an
-independent from-scratch re-verification, exit 0, all controls reproduced). The result:
+the computation. We constructed and ran a gate audit of the available finite, characteristic-class, and
+toy-model inputs (`tests/decider/`, 26/26 checks across four scripts plus an independent from-scratch
+re-verification, exit 0, all controls reproduced). We did **not** construct the actual global operator whose
+index would answer the question. The gate audit found:
 
 - **The literal net-chiral integer is GATED** on the unbuilt stabilized twisted Rarita-Schwinger / IG source
   action (the `+8` Rarita-Schwinger leg of `ind_H = 8*A-hat(K3) + 8`). Every analytic route to it failed
   (ten Atiyah-Singer routes gave `{960, -288, -384, -192, -336, -128, 128, -8, -480, 60}`, none `= 16`); the
   computation explicitly refused it rather than fabricating a fit.
-- **The only unconditionally computable generation integer in this program is one.** GU's verified Pati-Salam
-  `Spin(7,7) -> Spin(6) x Spin(4)` chain gives 16 chiral states = exactly one anomaly-free generation
-  (`Tr Y = Tr Q = 0`, `16 // 16 = 1`; "2+1 effective"). The `Spin(7,7)` Pati-Salam chain is one reduction
-  among many possible symmetry-breaking chains; the integer 1 it yields is chain-relative, not
-  chain-independent. The spin-1/2 leg is `8*A-hat(K3) = 16`, with
-  `A-hat(K3) = 2` the "2" of "2+1". The tested integer outputs are `{0 (linear net-chiral, vectorlike),
-  1 (Pati-Salam), 2 (A-hat(K3))}`; none is 3.
+- **The explicit family-unit normalization is one, not a generation-count observable.** A reconstructed
+  Pati-Salam `Spin(7,7) -> Spin(6) x Spin(4)` branch decomposes one `Spin(10)` `16` into exactly one
+  Standard-Model family and verifies the listed linear traces `Tr Y = Tr Q = 0`
+  (`16 // 16 = 1`; "2+1 effective"). Full Standard-Model anomaly cancellation is standard for the
+  `16`, but the paper harness directly checks only these displayed trace and charge identities. The branch is
+  one reduction among many possible symmetry-breaking chains, and `16 // 16 = 1` normalizes a family unit; it
+  does not determine how many copies nature or the source action supplies. The spin-1/2 leg is
+  `8*A-hat(K3) = 16`, with `A-hat(K3) = 2` the "2" of "2+1". The tested outputs include
+  `{0 (linear net-chiral, vectorlike), 1 (Pati-Salam family-unit normalization), 2 (A-hat(K3))}`; none is a
+  derived generation count of 3.
 - **The tested re-grading candidate has a denominator-eight boundary diagnostic** (`e = 3/8`, 3-part zero)
   and is frame-trivial. This does not define an integer count or a canonical map into the `Z/8` summand.
 
-Under the decision rule fixed in advance, the strong reading fails: the sought integer is gated, and the only
-unconditionally computable generation integer in this program is one. Controls reproduced exactly:
+Under the decision rule fixed in advance, the strong reading fails: the sought integer is gated, while the
+explicit Pati-Salam calculation only normalizes a single `16` as one family. Controls reproduced exactly:
 `ch_2(S_X)[K3] = -5376 = -2^8 . 3 . 7` (the apparent "24" is a disguised `chi(K3)` import via `2chi+3sigma=0`,
 rejected; a `chi`-route gives `ch_2 = 0`); `A-hat(K3) = 2`; the charge-`q` `eta` family; Pati-Salam `-> 1`.
 
@@ -419,10 +484,12 @@ non-frame-trivial. We then built a toy stabilized twisted Rarita-Schwinger secto
 stabilization; the twisted spin-3/2 AGW index on K3; the RS frame-index operator on the `Cl(9,5)` substrate;
 the gravitino anomaly polynomial), each angle adversarially re-verified (`tests/forcing-slot/`,
 `canon/forcing-slot-toy-rs-RESULTS.md`). The RS sector reaches at most two of the three properties, never all
-three with a derived generation integer. The tested integers are even or equal one: `256 = 2^8`
+three with a derived generation-count integer. The tested integers are even or equal one: `256 = 2^8`
 (a tautological projector trace, with physical-sector index 0), `-672 = -2^5 . 3 . 7`, `-42 == 0 (mod 3)`
-(the `Z/3` identity), the HP^2 unit `1`. The gravitino anomaly is not an odd-prime exception: every spin-3/2
-coefficient is 2-primary up to von Staudt-Clausen denominators (no factor 3 in any numerator), and the
+(the `Z/3` identity), the HP^2 unit `1`. In the exact anomaly-polynomial expansion actually tested
+(Pontryagin degree through `p_4`, i.e. differential-form degree 16), no spin-3/2 coefficient has a factor of
+3 in its reduced numerator; factors of 3 occur in the genus denominators. This is a finite-degree
+calculation, not a theorem about every coefficient in all dimensions. In the four-dimensional K3 case, the
 twisted-by-16 index `16(-42) + 3 ch_2(V)` is `== 0 (mod 3)` for every integer twist. These are four bounded
 negative tests, not a classification of source actions. Their integer outputs do not acquire a `Z/8` type
 merely because some are even. The actual stabilized action remains unbuilt.
@@ -454,16 +521,6 @@ exists in the equivariant family (the scalar bilinear pairs only `S^+ <-> S^-`),
 from the tested equivariant family. This is a consistency remark about the spinor-square channel, not a
 statement about the 192-dimensional carrier's Dirac mass. (This Hom-vanishing is now canon as fact (A) of the
 two-arena rep-theory core, `canon/two-arena-rep-theory-core-RESULTS.md`, re-run exit 0 on 2026-07-03.)
-
-*Remark (global anomaly layer, 2026-07-03, exploration-grade).* One tested Dai-Freed/spin-bordism route asks
-whether the anomaly-free Standard Model boundary data supply a 3-primary constraint. For the actual SM gauge
-group the tested group has no 3-torsion (`Omega^Spin_5(B G_SM) (x) Z_(3) = 0`),
-because 3-locally `(SU(3) x U(1))/Z_3 = U(3)` is torsion-free and `Omega^Spin_*(pt)` is odd-torsion-free
-(Anderson-Brown-Peterson / Wall); equivalently, color triality makes every charged Weyl multiplicity a
-multiple of 3, so a concrete Dai-Freed eta on the lens space `L(3;1,1)` gives mod-3 phase 0. This removes one
-tested mechanism; it neither defines an integer count nor proves all routes absent. Exploration-grade
-(`explorations/big-swing-2026-07-03/R2-sm-boundary-mod3-arena-empty.md`,
-`explorations/anomaly-and-bordism/sm-as-boundary-cobordism-frontier-2026-07-03.md`).
 
 ---
 
@@ -520,7 +577,8 @@ structure is likewise an active lane -- e.g. the division-algebra trialities of 
 where two generations arise as spinors and a third through a Cartan factorization; our Clifford-RS route is
 mechanically distinct, but the question is not untouched. We claim no novelty for "topology constrains
 family number." (The .tex submission source carries the full verified bibliography.)
-Our narrow novelty claim (final wording in the `.tex`): Wang 2023's title arithmetic `24/8 = 3` already pulls
+Our narrow novelty claim (the deferred `.tex` reconciliation must use the same scope): Wang 2023's title
+arithmetic `24/8 = 3` already pulls
 the odd 3-primary factor out of `Z/24` as the family number, and Wan-Wang-Yau 2026 v2 explicitly separates the
 2- and 3-primary parts and uses CRT. We therefore claim **no** novelty for the bare factorization, primary
 decomposition, CRT step, or use of `pi_3^s = Z/24`. To the best of the bounded primary-source search recorded
@@ -542,17 +600,19 @@ feeding the two-arena reading.
 
 | Claim | Grade |
 | --- | --- |
-| Encoded class-C constraints do not supply an odd-prime congruence or select an odd integer | computed carrier census plus Lean-verified finite closure; finite torsion and `Z`-valued rows kept in distinct codomains; no completeness outside class C |
+| `Cl(9,5)` carrier type | `H^64` has real dimension 256; computations use its 128-dimensional complex realization, and unqualified carrier dimensions are complex |
+| Compact/complexified `su(2)_+` triplet | complex 192-dimensional carrier calculation verified; transfer to the physical Lorentzian bundle is reconstruction-grade |
+| Encoded class-C constraints do not supply an odd-prime congruence or select an odd integer | computed carrier Hom-space census plus Lean-verified deduction from the encoded finite packet; Lean does not establish carrier faithfulness; no completeness outside class C |
 | CRT decomposition `pi_3^s = Z/8 (+) Z/3` | standard; disjointness applies only after an explicit torsion-valued map into `Z/24` |
-| Every maximal K-positive subspace has zero chiral-Lagrangian intersection index | finite-dimensional theorem, Lean-checked; not a physical handedness count or Fredholm index |
-| Antilinear K-null re-gradings retain zero intersection index | delimited theorem; no Wigner-based uniqueness claim and no transfer to K-definite or unrestricted constructions |
+| Every maximal K-positive subspace has zero intersection with each maximal K-isotropic chiral subspace | finite-dimensional theorem; abstract implication Lean-checked after realification, carrier premises computed; not a physical handedness count or Fredholm index |
+| Antilinear K-null image subspaces retain zero intersection index | delimited theorem; avoids ordinary-eigenspace language for antilinear maps; no Wigner-based uniqueness claim and no transfer to K-definite or unrestricted constructions |
 | Tangential `Lambda^2_+` framing carries `e_R = 1/12` | full class has order 12; projected 3-primary component has order 3; GU identification reconstruction-grade |
 | The framed class is homotopy-fixed and does not define an integer count | computed/standard-result-applied; `Hom(Z/3,Z)=0` blocks a direct class-to-count homomorphism |
 | Toy source-action constructions supply the missing integer count | NO in four tested constructions; bounded negative evidence, not a universal theorem |
 | Carrier Dirac mass | allowed/vectorlike in the tested model; neither massive nor massless branch derives three |
 | Carrier-specific inverse assembly | search-bounded candidate delta only; primary decomposition and CRT are prior art (Wang; Wan-Wang-Yau v2) |
 | The literal generation integer on GU's 14-manifold | gated on the unbuilt true-`Y14` source action/pushforward |
-| The only unconditionally computable generation integer in this program | 1 (Pati-Salam `Spin(7,7)`, chain-relative) |
+| Pati-Salam `16 // 16 = 1` | verified family-unit normalization in a reconstructed `Spin(7,7)` branch; not a generation-count observable |
 | `3-primary torsion component -> integer 3` | open and ill-typed as a homomorphism; needs a separately constructed integer/rank/index home |
 | External backgrounds are necessary | not proved; a flux-index model is a positive control, while non-equivariant and true-`Y14` routes remain open |
 | GU forces exactly three chiral generations | not claimed; no computed quantity in this program equals three |
@@ -615,8 +675,8 @@ cross that boundary; the request for external review is a request to cross it.
 
 ## Appendix: Reproducibility -- the Pati-Salam one-generation verification
 
-The "only unconditionally computable generation integer in this program is one" of Section 8 rests on a self-contained group-theory
-verification of GU's Pati-Salam chain, reproduced here for completeness. The script
+The Pati-Salam family-unit normalization used in Section 8 rests on a self-contained group-theory
+verification of a reconstructed GU-motivated branch, reproduced here for completeness. The script
 `lab/active-research/pati_salam_chain_verification.py` (pure `numpy`) builds the `Spin(10)` chiral spinor `16`
 from its weights `(+/-1/2)^5` with an even number of minus signs, embeds Pati-Salam by partitioning the rank-5
 Cartan as `3 (color + B-L) (+) 2 (T_3L, T_3R)`, and computes hypercharge and electric charge from group theory
@@ -646,18 +706,21 @@ collapses the `16` to exactly one Standard-Model generation:
 | (1, 1)     | +6 | 1 | e^c |
 | (1, 1)     |  0 | 1 | nu^c |
 
-totalling `6 + 3 + 3 + 2 + 1 + 1 = 16` states, with `Tr Y = Tr Q = 0` (anomaly-free) and electric charges
+totalling `6 + 3 + 3 + 2 + 1 + 1 = 16` states, with the directly checked linear traces
+`Tr Y = Tr Q = 0` and electric charges
 `{0, +/-1/3, +/-2/3, +/-1}`. The integer label `n = 6Y` reproduces the GU draft's Section 11.3 table exactly; an
 embedding-ambiguity probe confirms that the naive `B-L`-only hypercharge fails, so the standard
 `Y = T_3R + (B-L)/2` embedding is forced. An independent explicit-Clifford cross-check
 (`lab/active-research/verify_clifford_explicit.py`, with 32x32 gamma matrices satisfying the `SO(10)` Clifford
 relations numerically) reproduces the same content and its exact CP conjugate (`n -> -n`, `3 <-> 3bar`).
 
-**Scope: this is a one-generation *structural* verification, not a generation count.** What is verified is that
-the `16` of `Spin(10)` carries exactly *one* anomaly-free Standard-Model generation, with the paper's hypercharge
-assignments reproduced from first principles -- i.e. internal representation-theoretic consistency of GU's group
-theory. It does **not** provide the generation count: it does not establish that nature realizes this breaking
+**Scope: this is a one-family *structural* verification, not a generation count.** What is verified is that
+the `16` of `Spin(10)` carries exactly *one* Standard-Model family, with the paper's hypercharge
+assignments and displayed linear trace checks reproduced from first principles -- i.e. internal
+representation-theoretic consistency of the reconstructed branch. It does **not** provide the generation
+count: it does not establish that nature realizes this breaking
 pattern, does not address the effective-chirality or "2+1" claims, and -- being a single generation -- says
 nothing about *how many* generations occur. Moreover the `Spin(7,7)` Pati-Salam chain is one reduction among
-many possible symmetry-breaking chains; the "1" it yields is chain-relative, not chain-independent. It is the integer "1" of Section 8, and its role in this paper is
-precisely that: the only unconditionally computable generation integer in this program, not a derivation of three.
+many possible symmetry-breaking chains; the "1" it yields is chain-relative, not chain-independent. It is
+the arithmetic normalization `16 // 16 = 1` of Section 8, and its role in this paper is
+precisely that: a normalization of one `16` as one family, not a derivation of how many families occur.

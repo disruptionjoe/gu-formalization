@@ -1,6 +1,6 @@
 # arXiv Endorsement Request -- draft (Joe sends this himself)
 
-**Prepared:** 2026-07-09. **For:** `hep-th` endorsement of *Located, Not Forced* (v2.10).
+**Prepared:** 2026-07-09; hardened 2026-07-23. **For:** `hep-th` endorsement of *Located, Not Forced* (v2.14).
 This is a copy-paste draft. Agents do not send it. Send at most one request to one endorser at a time --
 arXiv prohibits mass-emailing potential endorsers.
 
@@ -37,12 +37,14 @@ Pick the one whose paper you engage most directly; that makes the ask legitimate
 > researcher without an institutional affiliation, so under arXiv's current policy I need a personal
 > endorsement.
 >
-> My paper, *Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a
-> Clifford Rarita–Schwinger Sector*, engages directly with your work on [SPECIFIC RESULT YOU CITE -- e.g. the
-> mod-3 generation-count obstruction / color triality]. The theorem-grade results are independent of any
-> speculative framework, and the paper explicitly does **not** claim three generations -- it proves that the
-> sector-interior obstructions are all 2-primary and therefore cannot force a net chiral count, which relocates
-> the count to external background data.
+> My paper, *Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita–Schwinger Generation
+> Carrier*, engages directly with your work on [SPECIFIC RESULT YOU CITE -- e.g. the mod-3
+> generation-count obstruction / color triality]. The carrier is motivated by a reconstruction of Geometric
+> Unity, while the finite mathematical deductions do not require GU to be physically correct. The paper
+> explicitly does **not** claim three generations: for an encoded equivariant class C it separates
+> 2-primary torsion constraints from integer-valued parity/divisibility rows, exhibits a distinct
+> 3-primary framed projection under a stated reconstruction, and leaves the integer bridge,
+> non-equivariant operators, and the true Y14 source action open.
 >
 > Two things I'd want you to know up front, in the interest of honesty: the work was produced through an
 > AI-directed research process, and every load-bearing computation is reproducible from a public repository with

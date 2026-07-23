@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 r"""
 reproduce_all.py -- one-command reproducibility harness for
-    "Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion
-     Generation Count in a Clifford Rarita-Schwinger Sector"
+    "Located, Not Forced: A Scoped Two-Primary Audit of a Clifford
+     Rarita-Schwinger Generation Carrier"
     (papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md)
 
 WHAT THIS IS (hardening item H1). A single self-contained script that RECOMPUTES every
@@ -771,15 +771,15 @@ def check_eR():
 
 
 # =============================================================================== #
-# CHECK GROUP 8 -- Pati-Salam Spin(7,7) -> one generation  (Section 8, Appendix)
+# CHECK GROUP 8 -- Pati-Salam Spin(7,7) family-unit normalization  (Section 8, Appendix)
 # =============================================================================== #
 def check_pati_salam():
-    """The only unconditionally computable generation integer = 1 (chain-relative). Build the
+    """Reproduce the chain-relative family-unit normalization 16//16 = 1. Build the
     Spin(10) 16 from weights, embed Pati-Salam, compute n=6Y per weight, check Tr Y=Tr Q=0,
-    total 16 states, 16 // 16 = 1 generation, charges {0,+-1/3,+-2/3,+-1}. (pati_salam recipe.)
+    total 16 states, and charges {0,+-1/3,+-2/3,+-1}. This does not count copies.
     CONTROL: naive B-L-only hypercharge fails to reproduce the n-values.
     """
-    banner("CHECK GROUP 8 -- Pati-Salam Spin(7,7) chain -> the one computable integer = 1  (Section 8)")
+    banner("CHECK GROUP 8 -- Pati-Salam Spin(7,7) family-unit normalization 16//16 = 1  (Section 8)")
     import itertools
     half = 0.5
     all_w = list(itertools.product([half, -half], repeat=5))
@@ -801,17 +801,17 @@ def check_pati_salam():
     charges = sorted({round(r["Q"], 3) for r in rows})
     expected_charges = sorted(round(x, 3) for x in {-1.0, -2 / 3, -1 / 3, 0.0, 1 / 3, 2 / 3, 1.0})
     total = len(rows)
-    generations = total // 16
+    family_units = total // 16
 
-    ok_anom = check(abs(sumY) < 1e-9 and abs(sumQ) < 1e-9,
-                    "the 16 is anomaly-free: Tr Y = Tr Q = 0", "8",
+    ok_traces = check(abs(sumY) < 1e-9 and abs(sumQ) < 1e-9,
+                    "the displayed linear traces of the 16 vanish: Tr Y = Tr Q = 0", "8",
                     "Tr Y = Tr Q = 0", f"sum Y={sumY:g}, sum Q={sumQ:g}")
     ok_chg = check(charges == expected_charges,
                    "electric charges of the 16 = {0, +-1/3, +-2/3, +-1}", "8, App",
                    "{0,+-1/3,+-2/3,+-1}", f"{charges}")
-    ok_one = check(total == 16 and generations == 1,
-                   "Pati-Salam Spin(7,7) chain: 16 chiral states = one generation (16//16)", "8",
-                   "1 (chain-relative)", f"{total} states // 16 = {generations}")
+    ok_one = check(total == 16 and family_units == 1,
+                   "reconstructed Pati-Salam branch: one Spin(10) 16 = one family unit (16//16), not a copy count", "8",
+                   "1 family unit (chain-relative)", f"{total} states // 16 = {family_units} family unit")
 
     # CONTROL: naive B-L-only hypercharge (drop T3R) gives a DIFFERENT n-set
     naive_ns = sorted({int(round(6 * (r["BmL"] / 2.0))) for r in rows})
@@ -819,7 +819,7 @@ def check_pati_salam():
     control(f"naive (B-L only, no SU(2)_R) hypercharge n-set = {naive_ns} != correct "
             f"{correct_ns}: only the standard Y=T3R+(B-L)/2 embedding reproduces the SM generation")
     assert naive_ns != correct_ns
-    return ok_anom and ok_chg and ok_one
+    return ok_traces and ok_chg and ok_one
 
 
 # =============================================================================== #

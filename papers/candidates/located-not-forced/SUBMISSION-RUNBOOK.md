@@ -1,6 +1,6 @@
 # Submission Runbook -- Located, Not Forced
 
-**Prepared:** 2026-07-09; hardened 2026-07-23. **Paper version:** v2.13 working draft.
+**Prepared:** 2026-07-09; hardened 2026-07-23. **Paper version:** v2.14 working draft.
 **Status:** HARDENING COMPLETE FOR MARKDOWN; FINAL PUBLICATION RECONCILE DEFERRED.
 **Purpose:** a single linear checklist Joe can follow when he sits down to submit. This consolidates the
 Joe-side steps that had accumulated across the readiness passes in `STAGING-NOTES.md` (v2.4 through v2.10).
@@ -13,12 +13,15 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 
 ## Where the paper stands
 
-- Headline result is **theorem-grade and GU-independent**; honesty discipline clean.
+- Headline result is a **conditional finite-census theorem** about an explicitly specified
+  GU-motivated carrier. The deduction does not require GU to be physically correct, but carrier selection
+  and Lorentzian interpretation are not GU-independent premises.
 - Both publication-gating work cards are **closed**: `WC-ENUM-COMPLETENESS` (class-C census complete, computed
   grade) and `WC-ANTILINEAR-BOUND` (index-nullity theorem over the null-eigenspace class). Neither ever gated
   the title claim.
-- **Three independent adversarial reviews** rate the paper arXiv-ready in current form (hep-th / math-ph /
-  math.AT). The generation **count stays OPEN**; three generations is explicitly not claimed.
+- Multiple internal adversarial passes, including the single-reviewer ten-lens H11 audit, have been
+  completed. They are not independent external reviews. The generation **count stays OPEN**; three
+  generations is explicitly not claimed.
 - `.md` is the canonical hardening draft. Reconcile `.tex`, rebuild the PDF, and regenerate the release
   package only when final publication preparation resumes.
 - At canon grade the open frontier remains the function-space analytic residual. Current exploration-grade
@@ -64,7 +67,7 @@ Avoid viXra-style no-gate dumps -- they undercut the qualified/serious posture.
 
 ## Step 2 -- Compile and preview
 
-A preliminary v2.13 source compiled locally with Tectonic and was visually checked, but the Markdown has
+A preliminary v2.13 source compiled locally with Tectonic and was visually checked, but the canonical v2.14 Markdown has
 changed since. At final publication time, reconcile the TeX from the canonical Markdown, then compile and
 inspect:
 
@@ -82,28 +85,25 @@ The in-PDF abstract (~2,950 chars) **exceeds arXiv's 1,920-char metadata limit**
 below into the arXiv abstract field instead (no LaTeX macros; character-count it before submitting -- target
 < 1,920). Adjust if the account's counter differs.
 
-> We study the chirality and generation structure of an explicit real Clifford Rarita-Schwinger sector: the
-> gamma-traceless rank-3/2 field of a real Clifford module Cl(p,q) with p+q=14 on a 128-dimensional spinor, with
-> one generation identified with the 16 of Spin(10). The sector is motivated by, and reconstructed from, the
-> matter proposal of Geometric Unity (GU); every GU-specific step is marked, and no theorem-grade result depends
-> on GU being correct. We prove a two-primary meta-theorem: no enumerated obstruction to a net chiral generation
-> count in this sector is an odd-prime congruence (the enumeration is complete for a delimited class C of
-> covariant, sector-interior structures; completeness over the full function-space theory remains open). We also
-> prove an index-conservation theorem: every linear Krein-isometric operator on the generation triplet conserves
-> the net chiral index at zero, and the antilinear leg is closed over a delimited class. Via pi_3^s = Z/24 = Z/8
-> + Z/3, every sector-interior obstruction lives in the 2-primary summand, so the generation count is external by
-> structure (modulo an open analytic residual): an odd count is necessarily supplied by external background data
-> coupled through the index theorem. We do not claim three generations; the "located, not forced" reading is
-> contingent on a torsion-theoretic treatment of the obstruction data. All verification reported here is internal
-> to the AI-directed process that produced it; no result has yet been independently replicated or peer-reviewed.
+> We study an explicit gamma-traceless Clifford Rarita-Schwinger carrier motivated by Geometric Unity. The
+> Cl(9,5)=M(64,H) real module has real dimension 256; computations use its 128-dimensional complex
+> realization. In an explicitly encoded equivariant finite class C, finite torsion constraints are
+> 2-primary and integer-valued rows carry only parity or divisibility content; none supplies a mod-3
+> congruence or selects a particular odd integer. A finite Krein theorem proves zero intersection with the
+> maximal K-isotropic chiral subspaces, not a physical handedness count or Fredholm index. The standard
+> decomposition pi_3^s=Z/24=Z/8+Z/3 applies only after an explicit torsion-valued map. Under a stated
+> tangential-framing reconstruction, an exhibited class has order 12 and a nonzero order-3 projection, but
+> Hom(Z/3,Z)=0 prevents it from being an integer count. Non-equivariant operators, Lorentzian bundle
+> transfer, and the true Y14 source-action pushforward remain open. We do not claim three generations or a
+> universal no-go. All verification is internal to the same AI-directed process; external replication and
+> peer review are requested.
 
 ## Step 4 -- Submit
 
 - **Upload:** the single `.tex` (no separate bibliography).
 - **License:** arXiv nonexclusive-distribution 1.0 (preserves journal options).
 - **Primary category:** `hep-th`. **Cross-list:** `math-ph`, `math.AT`.
-- **Title:** Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a
-  Clifford Rarita-Schwinger Sector.
+- **Title:** Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier.
 - **Authors:** Joseph Hernandez (Independent Researcher).
 - **Comments field:** note the reproducibility repo + that the count is not claimed (short, factual).
 

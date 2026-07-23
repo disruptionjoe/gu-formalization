@@ -1,15 +1,16 @@
 # Zenodo release package — version 1.0.0
 
-> **Preparation scaffold, not a release artifact.** The Markdown manuscript is still being hardened.
+> **Preparation scaffold, not a release artifact.** The canonical Markdown is v2.14 and this directory has
+> not yet been regenerated from it.
 > Reconcile the final TeX/PDF, regenerate the integrity manifest, and complete `VERIFICATION.md` before upload.
 
 Primary artifact: `main.pdf`
 
-Title: *Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector*
+Title: *Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier*
 
 Author: Joseph Hernandez, Independent Researcher
 
-This package contains the article PDF and source, the readable v2.13 manuscript, a one-command
+Once regenerated, this package will contain the article PDF and source, the readable v2.14 manuscript, a one-command
 symbolic/numerical reproduction harness, a machine-readable evidence manifest, and the bounded Lean proof
 surface. It is intentionally scoped to the paper rather than the wider research repository.
 
@@ -17,7 +18,7 @@ surface. It is intentionally scoped to the paper rather than the wider research 
 
 - `main.pdf` — article of record and intended Zenodo default preview
 - `main.tex` — release LaTeX source
-- `manuscript-v2.13.md` — readable source copy
+- `manuscript-v2.14.md` — readable source copy
 - `METADATA.md` and `CITATION.cff` — copy-ready deposit metadata
 - `reproduction.md` — exact commands and dependency boundaries
 - `VERIFICATION.md` — release validation receipt

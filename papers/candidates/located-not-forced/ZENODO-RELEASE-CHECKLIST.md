@@ -26,8 +26,8 @@ All steps are Joe's. Agents do not create the account, upload, or publish.
    bundle. The PDF is the human-facing paper; the ZIP is not the default preview.
 3. **Resource type:** `Preprint`.
 4. **Metadata:**
-   - **Title:** Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a
-     Clifford Rarita–Schwinger Sector
+   - **Title:** Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita–Schwinger Generation
+     Carrier
    - **Authors:** Joseph Hernandez; affiliation: Independent Researcher (attach ORCID if available)
    - **Description:** paste the shortened abstract from the runbook (Step 3) -- it's already plain-text and
      self-contained.
