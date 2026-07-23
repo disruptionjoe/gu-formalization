@@ -2,6 +2,7 @@ import GUFormalization.Status
 import GUFormalization.K3IndexArithmetic
 import GUFormalization.W2Polynomial
 import GUFormalization.LocatedNotForcedLegs
+import GUFormalization.LocatedNotForcedFiniteCore
 import GUFormalization.ResidualSelection
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore
