@@ -6,6 +6,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -21,6 +22,7 @@ TEX = PAPER_DIR / "located-not-forced-generation-count-2026-06-29.tex"
 PACKAGE = PAPER_DIR / "zenodo-package-v1.0.0"
 BUILD = REPO_ROOT / "_local" / "lnf-v215-release-build"
 ARCHIVE = PAPER_DIR / "located-not-forced-v1.0.0.zip"
+SOURCE_DATE_EPOCH = "1784822400"  # 2026-07-23T16:00:00Z
 
 
 PREAMBLE = r"""\documentclass[11pt]{article}
@@ -456,6 +458,9 @@ def render_tex() -> None:
 
 def compile_tex(tex_path: Path, output_dir: Path) -> Path:
     output_dir.mkdir(parents=True, exist_ok=True)
+    environment = os.environ.copy()
+    environment["SOURCE_DATE_EPOCH"] = SOURCE_DATE_EPOCH
+    environment["FORCE_SOURCE_DATE"] = "1"
     subprocess.run(
         [
             "/opt/homebrew/bin/tectonic",
@@ -467,6 +472,7 @@ def compile_tex(tex_path: Path, output_dir: Path) -> Path:
             "--keep-logs",
         ],
         cwd=REPO_ROOT,
+        env=environment,
         check=True,
     )
     pdf = output_dir / tex_path.with_suffix(".pdf").name
