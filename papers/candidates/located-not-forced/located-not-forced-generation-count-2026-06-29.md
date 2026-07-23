@@ -22,9 +22,9 @@ adversarially reviewed within the same AI-directed process that produced them; n
 externally replicated or peer-reviewed. External review is welcome but is not a prerequisite for public
 Zenodo deposit; it is required before describing the work as externally validated. See Sections 1 and 9.
 
-*Canonical hardening source: this Markdown file. The adjacent
+*Canonical release source: this Markdown file. The adjacent
 [`located-not-forced-generation-count-2026-06-29.tex`](located-not-forced-generation-count-2026-06-29.tex)
-currently predates this review and must not be submitted until it is reconciled, compiled, and rendered.*
+is mechanically generated from it for the v2.15 release and must remain semantically aligned.*
 Suggested classification: primary **hep-th**; secondary
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
@@ -272,7 +272,7 @@ rows, not as a classification of every possible sector characteristic constructi
 unrestricted `C_inv`, the physical Lorentzian bundle, external backgrounds, added gauge twists, and the
 function-space/Fredholm setting remains open. Listed gauge-twist, boundary/`eta`, composition, and
 dressed-pairing departures are controls rather than a classification; odd primes appear after importing
-outside data (`54 -> 3`, `120 -> 7`, `126 -> 5.7`).*
+outside data (`54 -> 3`, `120 -> 7`, `126 -> 5.7`).
 (The loose "even" reading is near-vacuous -- `96 = 2^5 . 3` is even; the content is the modular statement, that no
 enumerated obstruction is a mod-odd-prime condition.)
 
@@ -623,7 +623,7 @@ structure is likewise an active lane -- e.g. the division-algebra trialities of 
 where two generations arise as spinors and a third through a Cartan factorization; our Clifford-RS route is
 mechanically distinct, but the question is not untouched. We claim no novelty for "topology constrains
 family number." Section 14 makes this canonical Markdown bibliographically self-contained.
-Our narrow novelty claim (the deferred `.tex` reconciliation must use the same scope): Wang 2023's title
+Our narrow novelty claim (the canonical source and release TeX use the same scope): Wang 2023's title
 arithmetic `24/8 = 3` already pulls
 the odd 3-primary factor out of `Z/24` as the family number, and Wan-Wang-Yau 2026 v2 explicitly separates the
 2- and 3-primary parts and uses CRT. We therefore claim **no** novelty for the bare factorization, primary
@@ -691,7 +691,7 @@ external review of the scoped theorems and open typing bridge is welcome as an o
 
 ## 13. Data and code availability
 
-The canonical hardening source, claim ledger, review packets, Python evidence,
+The canonical release source, claim ledger, review packets, Python evidence,
 and Lean certificates are in the public repository:
 [disruptionjoe/gu-formalization](https://github.com/disruptionjoe/gu-formalization).
 `REVIEWER.md` gives the pinned-checkout and copy-paste reproduction route.
@@ -700,8 +700,9 @@ and Lean certificates are in the public repository:
 evidence. The historical July 14 claim map remains archived in `review/` but
 is not the current release surface.
 
-The adjacent TeX, PDF, and Zenodo package are downstream release artifacts and
-must be regenerated from this v2.15 Markdown before deposit. The DOI and
+The adjacent TeX, PDF, and Zenodo package are downstream release artifacts
+generated from this v2.15 Markdown. Their integrity manifest and verification
+receipt bind the deposited files to the stated source commit. The DOI and
 publication date remain unset until Zenodo assigns and records them.
 
 ---
@@ -859,7 +860,7 @@ embedding-ambiguity probe confirms that the naive `B-L`-only hypercharge fails, 
 (`lab/active-research/verify_clifford_explicit.py`, with 32x32 gamma matrices satisfying the `SO(10)` Clifford
 relations numerically) reproduces the same content and its exact CP conjugate (`n -> -n`, `3 <-> 3bar`).
 
-**Scope: this is a one-family *structural* verification, not a generation count.** What is verified is that
+**Scope:** this is a one-family *structural* verification, not a generation count. What is verified is that
 the `16` of `Spin(10)` carries exactly *one* Standard-Model family, with the paper's hypercharge
 assignments and displayed linear trace checks reproduced from first principles -- i.e. internal
 representation-theoretic consistency of the reconstructed branch. It does **not** provide the generation

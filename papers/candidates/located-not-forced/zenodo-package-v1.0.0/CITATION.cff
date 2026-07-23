@@ -7,7 +7,8 @@ authors:
     given-names: Joseph
     affiliation: Independent Researcher
     email: joe@disruptionjoe.com
-version: 2.15-draft
+version: 1.0.0
+date-released: 2026-07-23
 license: CC-BY-4.0
 repository-code: "https://github.com/disruptionjoe/gu-formalization"
 abstract: >-

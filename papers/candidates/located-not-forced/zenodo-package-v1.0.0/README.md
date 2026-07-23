@@ -1,12 +1,9 @@
-# Draft Zenodo package scaffold — not yet version 1.0.0
+# Located, Not Forced — Zenodo package v1.0.0
 
-This directory must be rebuilt from the canonical v2.15 Markdown before
-publication. Its final date, DOI, immutable source commit, PDF, and deposit
-version remain unset.
-
-> **Preparation scaffold, not a release artifact.** The canonical Markdown is v2.15 and this directory has
-> not yet been regenerated from it.
-> Reconcile the final TeX/PDF, regenerate the integrity manifest, and complete `VERIFICATION.md` before upload.
+This release package is generated from the canonical v2.15 Markdown. The
+integrity manifest, verification receipt, and `SOURCE-COMMIT.txt` bind the PDF,
+source, and reproducibility payload to the immutable source checkpoint. The
+DOI remains unset until Zenodo assigns it.
 
 Primary artifact: `main.pdf`
 
@@ -14,7 +11,7 @@ Title: *Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Sch
 
 Author: Joseph Hernandez, Independent Researcher
 
-Once regenerated, this package will contain the article PDF and source, the readable v2.15 manuscript, a one-command
+This package contains the article PDF and source, the readable v2.15 manuscript, a one-command
 symbolic/numerical reproduction harness, a machine-readable evidence manifest, and the bounded Lean proof
 surface. It is intentionally scoped to the paper rather than the wider research repository.
 

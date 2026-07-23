@@ -25,6 +25,8 @@ The toolchain is pinned in `lean-toolchain`; dependency revisions are pinned in 
 ```text
 lake -Kjobs=1 build +GUFormalization.LocatedNotForcedFiniteCore
 lake env lean tests/located-not-forced/H2_FiniteCore.lean
+lake env lean tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean
+lake env lean tests/located-not-forced/V15_KreinTransversality.lean
 lake env lean Lean/GUFormalization/R4TwoArena.lean
 ```
 

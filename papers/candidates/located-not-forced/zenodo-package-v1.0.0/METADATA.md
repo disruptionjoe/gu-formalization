@@ -1,4 +1,4 @@
-# Draft Zenodo metadata — do not publish without final reconciliation
+# Zenodo metadata — version 1.0.0
 
 - **Title:** Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier
 - **Resource type:** Publication / Preprint
@@ -6,10 +6,9 @@
 - **Affiliation:** Independent Researcher
 - **Email:** joe@disruptionjoe.com
 - **ORCID:** Not supplied; omit rather than infer
-- **Publication date:** Unset until publication
+- **Publication date:** 2026-07-23
 - **Manuscript version:** 2.15
-- **Deposit version:** Set to `1.0.0` only when the final package is built and
-  the Zenodo record is ready to publish
+- **Deposit version:** 1.0.0
 - **Language:** English
 - **Primary license:** Creative Commons Attribution 4.0 International (`CC-BY-4.0`)
 - **Bundled code license:** MIT
@@ -59,4 +58,5 @@ for Zenodo publication.
 
 Upload `main.pdf` first and keep it as the default preview. Upload the supplementary ZIP as the source and
 reproducibility archive. Confirm that the GitHub URL is visibly populated under related identifiers before
-publishing. Do not insert a DOI until Zenodo assigns one.
+publishing. Do not insert a DOI until Zenodo assigns one. The actual publish
+action remains subject to Joseph Hernandez's explicit approval.
