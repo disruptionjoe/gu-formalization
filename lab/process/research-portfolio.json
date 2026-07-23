@@ -42,7 +42,7 @@
     ],
     "lane_contract_ref": "LANES.yaml",
     "prediction_package_interrupt": "Standing rule (Joe direct chat 2026-07-19, council-reviewed): when the daily steward flags PREDICTION_PACKAGE_PENDING, the next Progress hourly takes the package work ahead of normal cross-lane ranking until FROZEN or a named blocker; time-boxed at ~3 cycles; admission criteria, freeze contract, and v2 supersession rules in lab/process/prediction-package-standing-rule.md. Retrodictions never package.",
-    "difficulty_demotion_reconciliation_flag": "2026-07-21 Joe/scoping finding: score_formula subtracts effort+wall_risk, demoting Lane-1 theorem work (OPERATOR-END-PENCIL 18, B5 20) below the safe lattice item (25), which is why the hourly kept selecting enumeration. Contradicts lane_one_is_protected_from_difficulty_demotion. Lane-A steward to reconcile: exempt Lane-1 North-Star items from the effort/wall-risk subtraction OR gate difficulty-driven demotion behind an explicit steward note. No formula edit made autonomously."
+    "difficulty_demotion_reconciliation_flag": "RESOLVED 2026-07-23 by Joe direct chat: Lane 1 source gaps constrain native-claim grade and provenance, not whether an explicitly conditional construction or adversarial truth test is eligible. B5-INDEPENDENT-RECONSTRUCTION is the current Lane 1 lead; ANOMALY-DESCENT-HARDENING remains eligible in parallel. Difficulty or source incompleteness may not silently demote either beneath safer maintenance work."
   },
   "operational_states": [
     "ACTIVE",
@@ -55,7 +55,10 @@
     "PARKED",
     "RESOLVED_NO_GO",
     "PAPER_READY",
-    "NEEDS_JOE"
+    "NEEDS_JOE",
+    "BLOCKED_SOURCE_GAP",
+    "PARTIAL_ACTIVE",
+    "RESOLVED_INTERPRETATION_SHAPE"
   ],
   "run_id_policy": {
     "w_series": "Historical research identifiers. Automated and direct Progress runs must not allocate a new W number.",
@@ -338,7 +341,7 @@
       "track": "north_star",
       "state": "WAITING_EXTERNAL",
       "owner": "gu-formalization",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 25,
       "score": {
         "impact": 5,
@@ -549,7 +552,7 @@
       "state": "MONITOR",
       "owner": "gu-formalization defines the frozen packet; phenomenology supplies verified future data",
       "hourly_eligible": false,
-      "priority_score": 21,
+      "priority_score": 18,
       "score": {
         "impact": 5,
         "information_gain": 5,
@@ -576,7 +579,7 @@
       "state": "BLOCKED_SOURCE_GAP",
       "owner": "gu-formalization",
       "hourly_eligible": false,
-      "priority_score": 20,
+      "priority_score": 21,
       "score": {
         "impact": 4,
         "information_gain": 4,
@@ -593,7 +596,7 @@
       "construction_fork": "Each packet must type its claims: what is GU-native, what is conditional on which channel card, what is imported. A packet is a frozen candidate prediction with named conditions, not a claim of readiness.",
       "next_swing": "No hourly packet work is eligible. Reopen the unnumbered mirror-sector candidate only after owner-native evidence (1) selects and stabilizes the gapping order parameter, (2) resolves the producible-asymptotic-state versus projected-out-ghost fork, (3) supplies a compatible native Standard Model embedding, and (4) yields a predeclared event class or mass window with a kill threshold. Otherwise retain PP1, PP2, and PP3 unchanged and rerank normal Lane 2 work.",
       "kill_condition": "A packet that cannot state its conditions and kill threshold without hedging is not a packet; drop it back to the channel card it depends on.",
-      "switch_condition": "Rerank within Lane 2 after each packet freeze; DE-AMP-DIAGNOSTIC remains the data-facing audit and is not displaced.",
+      "switch_condition": "Rerank within Lane 2 after each packet freeze. The completed DE-AMP-DIAGNOSTIC no longer supplies a READY fallback; preserve its closed audit and use only a valid new release or native-structure wake.",
       "forbidden_shortcut": "No data peeking before packet freeze; no promotion of conditional packets to predictions in any external-facing surface; retrodictions (hypercharge, trace reversal) are logged as coherence, never packaged as predictions.",
       "internal_work_items": []
     },
@@ -602,9 +605,9 @@
       "lane_id": "2",
       "title": "Audit the CMB-calibrated dark-energy amplitude",
       "track": "diagnostic",
-      "state": "READY",
+      "state": "RESOLVED_NO_GO",
       "owner": "GU structural inputs plus phenomenology return packet",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 19,
       "score": {
         "impact": 4,
@@ -617,9 +620,11 @@
         "duplication_risk": 1
       },
       "depends_on": [],
-      "next_swing": "Re-solve theta-star with GU's own full D_M(z-star), including the high-redshift tail, then return a blind official-H46B likelihood adjudication.",
+      "current_authority": "The one allowed normalization/likelihood audit is complete. The full-tail D_M(z-star) re-solve was tail-robust, and the blind H46B likelihood left the canonical own-calibration amplitude strongly disfavored (Delta AIC +35.79; +5.74 sigma amplitude overshoot). The positive raw-BAO amplitude leg is closed at the frozen band/likelihood grade; no native amplitude or new prediction was produced.",
+      "evidence_ref": "explorations/de-amplitude-audit-2026-07-20.md; tests/channel-swings/de_amplitude_audit_probe.py",
+      "next_swing": "No repeat audit. Reopen only on materially new official BAO likelihood inputs, a source-side f0 derivation/native amplitude, or a separately admitted supernova integration that changes the frozen question.",
       "kill_condition": "If the corrected canonical amplitude remains strongly disfavored, close the positive raw-BAO amplitude leg. If it moves, report the shift without calling it a new prediction.",
-      "switch_condition": "Close after one complete normalization and likelihood audit. It does not outrank protected Lane 1 without a new valid priority signal or a current cross-lane ranking that makes it the strongest eligible swing.",
+      "switch_condition": "FIRED 2026-07-20 after one complete normalization and likelihood audit. Remain closed unless one of the named materially new inputs arrives.",
       "forbidden_shortcut": "This is data hygiene and compatibility testing, not a decisive or distinctive GU prediction. Only H46B-verified likelihood inputs may seed the calculation."
     },
     {
@@ -992,7 +997,27 @@
       "next_swing": "Reopen only when a stronger primary packet jointly supplies enough typed matrix/sign, exact middle contraction, filtration/lower-order, domain/boundary, real/Krein, and super-IG/BV data to delimit a complete native first-order class. Then rerun the frozen mirror, native-closure, planted-control, and symbol-exactness gates before global BV cohomology.",
       "kill_condition": "B5-MIDDLE-OBSTRUCTION requires a proved complete source-compatible class whose every member fails mirror, native real/Krein closure, symbol exactness, or global cohomology. This closes only that frozen native class.",
       "switch_condition": "FIRED 2026-07-21 at B5-MIDDLE-SOURCE-GAP. The item stays parked until a stronger frozen primary packet delimits the native class. Do not substitute independent operator hardening, downstream S_3 transport, or a conventional physics completion for the missing source.",
-      "forbidden_shortcut": "Do not invent a favorable differential after source failure, identify section pullback with physical reduction, treat the three Cartan weights as three families, use a first-person record to create its upstream family object, or promote symbol cohomology to physical BV cohomology."
+      "forbidden_shortcut": "Do not invent a favorable differential after source failure, identify section pullback with physical reduction, treat the three Cartan weights as three families, use a first-person record to create its upstream family object, or promote symbol cohomology to physical BV cohomology.",
+      "independent_build_reconciliation_2026_07_21": "Joe opened a DISTINCT Lane-1 deliverable B5-INDEPENDENT-RECONSTRUCTION (2026-07-21 direct chat): an independent operator-grade RECOVERING action with step-0 = independent symbol-class enumeration (NOT a Weinstein source check). That is a SEPARATE deliverable from THIS park's native-class question, not a substitution - the switch_condition 'do not substitute independent operator hardening for the missing source' still governs THIS node (delimiting Weinstein's exact native class), which stays parked until a stronger primary packet arrives. Both lanes run alongside each other per explorations/b5-independent-reconstruction-scope-2026-07-21.md."
+    },
+    {
+      "id": "B5-INDEPENDENT-RECONSTRUCTION",
+      "lane_id": "1",
+      "channel": true,
+      "title": "Independent operator-grade B.5 middle-differential construction on the (9,5)/RS carrier (no Weinstein dependency)",
+      "objective": "Build an explicit operator-grade source action whose middle differential acyclizes 3E_- plus X while retaining all three E_+ provenance lines, conditional on NAMED sigma/tau/global-data postulates, recovering the six legs given sigma,tau; OR return a conditional B5-MIDDLE-OBSTRUCTION-INDEPENDENT. Honest ceiling: operator-grade RECOVERING action (lifts six legs from R0_COND/R1 to R1-forced), NOT native/unique (barred by the external-sigma theorem).",
+      "state": "READY",
+      "owner": "gu-formalization (acyclization swing + native-vs-forced adjudication); possibility-to-capability (discrete-GfE / boundary-action sigma-habitat ingredient, transferred source-action lane)",
+      "hourly_eligible": true,
+      "priority_score": 22,
+      "depends_on": [],
+      "lane_one_lead": true,
+      "current_authority": "OPENED 2026-07-21 by Joe direct chat and reaffirmed 2026-07-23: replace the step-0 'check Weinstein source' gate with an INDEPENDENT symbol-class enumeration and open the build. Scoped by explorations/b5-independent-reconstruction-scope-2026-07-21.md: independent B.5 reconstruction is FEASIBLE at operator grade and strictly more uncontestable than waiting on Weinstein's unreleased cyclic two-connection complex (one un-verifiable sketch that buys nothing; we need the repo's own P_S,g, not it). The selecting datum stays EXTERNAL (sigma Godel-independent, LC-SELECTOR) so this build recovers the physics, it does not force uniqueness. Discharging SRC-COH-1 here is what turns the anomaly co-variance prediction from proposal to forced and lifts six legs from hosting to R1-forced (see ANOMALY-DESCENT-HARDENING, parsimony-unexplained-joints-ledger). Native source recovery remains valuable but does not gate this explicitly conditional truth test; every non-native input stays named.",
+      "evidence_ref": "explorations/b5-independent-reconstruction-scope-2026-07-21.md; explorations/observation-to-family-b5-campaign-2026-07-20.md (section 8, the predeclared acyclization swing); canon/source-action-seiberg-witten-construction.md; canon/shiab-existence-cl95.md; tests/channel-swings/ch_src_minimal_action_toy.py (B.1-B.4 toy)",
+      "next_swing": "Step 0 (the reframe): independently enumerate the finite observer-natural first-order symbol class on (9,5)/RS (NOT a Weinstein source check). 1: enumerate that symbol space plus the R3 mixed bracket. 2: test mirror-J commutation on every symbol plus domain; where it holds, the chain-cohomology lemma yields an obstruction. 3: for J-breaking survivors, test symbol ellipticity/exactness on 3E_- plus X. 4: compute global/BV cohomology; demand the deformation retract killing 3E_- plus X while retaining all three E_+ lines. 5: build the family superconnection; test the rank-3 frame bundle for S_3 reduction. Joint GU/P2C: evaluate whether Bianconi's entropic/discrete-Dirac sigma-habitat (arXiv:2404.08556) re-derives on the RS carrier to supply the return/forward arrows (obligations 3,4) and boundary-holonomy Z/2 (B.5-ii). Effort ~3-8 focused cycles.",
+      "kill_condition": "B5-MIDDLE-OBSTRUCTION-INDEPENDENT: the FULL enumerated finite symbol class is proved to have every member fail mirror, native real/Krein closure, symbol exactness, or global cohomology. Report as loudly as a construction.",
+      "switch_condition": "DISTINCT deliverable from B5-MIDDLE-DIFFERENTIAL (the parked native-class question). This item builds a RECOVERING action from an independently-chosen class member; it does NOT attempt to delimit Weinstein's exact native class. Joe-authorized 2026-07-21 as a separate lane running ALONGSIDE the park (not a substitution).",
+      "forbidden_shortcut": "Do NOT cherry-pick a favorable differential after any failure - enumerate the FULL finite symbol space. Grade reconstruction-proposal to operator, NEVER native/unique (the external-sigma theorem bars uniqueness). Report B5-MIDDLE-OBSTRUCTION-INDEPENDENT as loudly as a construction if the class fails. Do NOT claim to match or reconstruct Weinstein's unreleased complex. Keep all sigma/tau/global-data inputs as NAMED POSTULATES."
     },
     {
       "id": "OPERATOR-END-PENCIL",
@@ -1000,18 +1025,18 @@
       "channel": true,
       "title": "Close the single-carrier continuum resolvent-pencil theorem",
       "objective": "Construct or obstruct the exact operator domain and a common resolvent region for the native Krein section family without importing the finite-grid artifacts.",
-      "state": "WAITING_EXTERNAL",
+      "state": "RESOLVED_NO_GO",
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "priority_score": 18,
       "depends_on": [],
-      "current_authority": "The categorical product is a direct sum, so product-uniformity adds no coupled-product numerical burden. Compact graph domains remain conditional and pole-free compact pencils remain regular. Q2 is settled FREE and Q3 TWO-INDEPENDENT. The WHAT-IS-THIS wave sharpens the remaining single-carrier question to an LP/LC deficiency-index fork, but Q1a already established that the committed wall model leaves principal B=-iK_uG invertible and supplies no true noncompact-end geometry/asymptotics. The native result therefore remains DOMAIN-OBSTRUCTION-SOURCE; council reduction does not manufacture the missing end packet.",
-      "evidence_ref": "explorations/continuum-pencil-domain-gate-2026-07-20.md; explorations/continuum-pencil-graph-domain-certificate-2026-07-20.md; explorations/decision-tree-Q1a-limit-classification-2026-07-21.md; explorations/wave-swing1-the-lemma-2026-07-21.md; explorations/wave-swing3-the-outside-2026-07-21.md",
-      "next_swing": "Core question RESOLVED (LC-SELECTOR: does not close from structure, gated on external sigma). Residual open sub-items (BLOCKED-D2 sub-grade, refine not undo): (1) whether the DeWitt volume is the J-symmetrizing L^2 measure - decides the gapped {q>0} sector's LP/LC, which the computation newly showed is MEASURE/RAY-CONTINGENT ((1,1) flat vs (2,2) native-measure on drift rays), correcting even Prong 0's conceded gapped-LP; (2) the operator-grade cardinality of the orientation bit (Z/2 vs Z/2xZ/2, the N2 operator lift). Neither undoes 'the gating bit is sigma'. The two-time z*/PP1-distinctiveness path is the limit-circle horn's cosmological payoff (route to prediction machinery).",
+      "current_authority": "The decisive true-end LP/LC computation returned LC-SELECTOR: genuine flat-geodesic ends cross {q<0}, where K_S is null on the deficiency-relevant halves and no canonical J-self-adjoint realization exists. O-b therefore does not close from committed structure; it requires the external +-i0 orientation prescription sigma=w1. The later Pin-bordism cardinality computation resolves the candidate second-bit residual at PROPOSAL grade: sigma is exactly one Z/2 bit, while Pin+ versus Pin- is a receptacle label, not another bit. Its anomaly-protection/excision conclusion remains conditional on the proposal-grade inflow identification.",
+      "evidence_ref": "explorations/lp-lc-deficiency-decisive-2026-07-21.md; explorations/pin-bordism-cardinality-2026-07-21.md; tests/channel-swings/lp_lc_deficiency_decisive_probe.py; tests/channel-swings/pin_bordism_cardinality_probe.py",
+      "next_swing": "Core objective resolved negative: preserve complete-modulo-external-sigma and do not rerun Q1a/Q2 or the LP/LC fork. The DeWitt-as-J-symmetrizing-measure question and exact Pin+_14/eta reconstruction can refine grade but do not reopen O-b. Admit new Progress only if a registered source packet, certificate defect, or separately ranked hardening request changes a named residual.",
       "kill_condition": "A boundary-condition-independent adjoint solution or boundary monodromy obstruction on every deck-compatible maximal isotropic domain kills this collar realization at the proved grade.",
-      "switch_condition": "The higher-value B5 middle-differential disposition now leads Lane 1. Reopen this channel only on a source-owned domain/asymptotic packet, a defect in the compact graph certificate, or completion/blockage of the leading physicalization class.",
+      "switch_condition": "FIRED 2026-07-21 at LC-SELECTOR. Reopen the core only on a defect in the decisive true-end computation or compact graph certificate; route residual measure/bordism hardening separately after an explicit valid wake.",
       "forbidden_shortcut": "Do not treat the Hermitian central-difference inverse as a continuum Dirichlet resolvent, and do not inflate the Dirichlet-domain obstruction into a no-go for the native Krein domain.",
-      "lane_one_lead": true,
+      "lane_one_lead": false,
       "lead_authority": "Joe direct chat 2026-07-21 (explicit research-priority change: repoint Lane 1 from lattice-enumeration to the two-paper-gating theorem work). Valid switch signal: Joe's explicit research-priority change.",
       "serves": [
         "B5-MIDDLE-DIFFERENTIAL",
@@ -1021,8 +1046,28 @@
       "resolution_2026_07_21": "DECISIVE LP/LC deficiency computation (lp-lc-deficiency-decisive-2026-07-21.md) = LC-SELECTOR: O-b does NOT close from committed structure. The genuine flat-geodesic ends cross {q<0} (~8%, measure-invariant, Prong 0 confirmed) where K_S is null, no canonical J-self-adjoint realization exists, and an external prescription is required = the section's +-i0 orientation Z/2 bit = sigma=w1. The bit gating the summit IS the posited sigma (the loop closes). GU is oracle-relative at the operator level; the oracle is sigma. The pencil theorem is complete-modulo-the-external-sigma, NOT closable from structure. Steward/Joe: this resolves the 'close from structure' question as a NO (research finding, not a canon verdict flip). [UPDATE: the orientation-bit cardinality residual is RESOLVED (pin-bordism-cardinality-2026-07-21.md, PROPOSAL grade): sigma = exactly ONE Z/2 bit, NOT Z/2xZ/2 - the candidate 'second bit' (Pin+ vs Pin-, T^2=-1) is a RECEPTACLE LABEL (which bordism theory), not an independent summand; base RP^3 gives exactly one degree-1 class = sigma. The wall is ANOMALY-PROTECTED (nonzero Pin+ 2-group receptacle; Spin-side zeros are w1-blind; survives the quaternionic Kramers trivializer) => excision of {q<0} FORBIDDEN => LC-SELECTOR airtight, LP-FORCED escape RULED OUT, sigma RG-protected external at all scales. All conditional on the proposal-grade anomaly-inflow identification; one remaining reconstruction-grade number (the exact Omega^{Pin+}_14 order + SW/Pin-eta of sigma's 14-class) would exclude ANOMALY-TRIVIAL rigorously. Remaining open residual: the DeWitt-as-J-symmetrizing-measure question.]"
     },
     {
+      "id": "ANOMALY-DESCENT-HARDENING",
+      "lane_id": "1",
+      "channel": true,
+      "title": "Anomaly-inflow hardening: exact Pin+_14 number (T1), descent-with-signs to four co-varying faces (T3); deck-action T2 CLOSED sigma-circular",
+      "objective": "Make sigma's reflection-anomaly identification rigorous and harvest its observable content. T1: compute the exact Omega^Pin+_14 order + Pin-eta/SW of sigma's 14-class (excludes ANOMALY-TRIVIAL). T3: build the fiber-to-spacetime descent-with-signs exposing up to four CO-VARYING faces of the same sigma (parity/birefringence, theta_QCD/neutron-EDM, neutrino Majorana-vs-Dirac, Delta-N_eff); the forced LCDM-forbidden content is their CO-VARIANCE, gated on SRC-COH-1 (discharged by B5-INDEPENDENT-RECONSTRUCTION). T2 (bank the operator deck action) is CLOSED: proven sigma-CIRCULAR at operator grade.",
+      "state": "PARTIAL_ACTIVE",
+      "owner": "gu-formalization",
+      "hourly_eligible": true,
+      "priority_score": 19,
+      "depends_on": [
+        "B5-INDEPENDENT-RECONSTRUCTION"
+      ],
+      "current_authority": "From explorations/operator-grade-anomaly-banking-2026-07-21.md (PARTIAL, leaning BLOCKED on operator-grade banking; instrument certified, two over-claims declined). T1 = RECONSTRUCTION-GRADE, hourly-eligible: exact Omega^Pin+_14 order needs the ko-smash-(RP-infinity Thom) Adams chart through degree 14; published tables list it nonzero but reciting that is a planted-toy over-claim - genuinely reconstruct or report BLOCKED. T2 = CLOSED sigma-CIRCULAR: banking the anomaly via the operator deck action presupposes the self-adjoint realization, which on {q<0} ends requires importing sigma (LC-SELECTOR) - a proven structural dead-end, not a gap to grind; do NOT reopen. T3 = the descent map is unbuilt; the absolute parity sign is reflection-odd = itself external (= sigma), so the prediction caps at 'parity-odd nonzero without an absolute sign' UNLESS sigma supplied; the DE-co-varying sign across the four faces is the forced, LCDM-forbidden content, forced only if the descent is built AND SRC-COH-1 is discharged (via B5). Four faces: (A) parity/birefringence [primary]; (B) neutrino Dirac-forced via Omega^Pin+_4=Z/16 [source-gated]; (C) protected {q<0} mode to Delta-N_eff [bridge-gated]; (G) theta_QCD/neutron-EDM [does NOT pin theta to 0]. Banked forced-observable count = ZERO at current grade. Joe-directed 2026-07-21 and reaffirmed 2026-07-23: this is eligible conditional truth-testing work; source gaps constrain its grade and explicit inputs, not its execution.",
+      "evidence_ref": "explorations/operator-grade-anomaly-banking-2026-07-21.md; explorations/more-predictions-hunt-2026-07-21.md (the four-face structure + construction-mode deep dig); explorations/anomaly-inflow-swing-2026-07-21.md; explorations/pin-bordism-cardinality-2026-07-21.md; explorations/pin14-anomaly-number-2026-07-21.md (T1 attempt, in progress 2026-07-21)",
+      "next_swing": "T1 (hourly-eligible now, shot in progress): reconstruct the ko-smash-(RP-infinity Thom) Adams chart / ABP ko-module summand at n=14 to the exact Omega^Pin+_14 order + sigma's-class nonzero-check (grade reconstruction; BLOCKED if not genuinely computed). T3: build the descent-with-signs (general grav-theta/Chern-Simons response) exposing the four faces - its forced co-variance is gated on B5-INDEPENDENT-RECONSTRUCTION discharging SRC-COH-1. T2: no reopen (sigma-circular is structural).",
+      "kill_condition": "T1: a certified Omega^Pin+_14 computation showing sigma's 14-class is TRIVIAL would make the anomaly ANOMALY-TRIVIAL and kill the protection. T3: a built descent whose four faces do NOT co-vary (independent signs) kills the one-bit co-variance prediction.",
+      "switch_condition": "T2 is CLOSED (sigma-circular, structural) - do not reopen as operator-grade banking. T1/T3 reopen only on a registered source packet or a defect in the anomaly-inflow identification.",
+      "forbidden_shortcut": "T1: do NOT recite a published bordism-table value as if computed (the parent swing declined exactly this) - reconstruct with shown work or report BLOCKED. T3: do NOT report an absolute parity sign as internally forced (it is external = sigma); the forced content is the CO-VARIANCE and only conditional on SRC-COH-1. Do not self-bank the anomaly identification at operator grade (T2 sigma-circular)."
+    },
+    {
       "id": "TRIT-INTERPRETATION",
-      "lane": "1",
+      "lane_id": "1",
       "channel": true,
       "title": "Interpret the trit: what is the Z/3 half of the minimal Z/6 forcing input?",
       "objective": "Preserve the resolved negative interpretation tests and defer external S_3 label provenance until a physical rank-three family multiplicity object exists.",
@@ -1043,13 +1088,13 @@
       "id": "FALSIFICATION-BATTERY",
       "lane_id": "1",
       "channel": true,
-      "title": "Work the council-harvested falsification battery — internal structural computations as hourly runs; experimental predictions routed to the existing prediction machinery",
+      "title": "Work the council-harvested falsification battery - internal structural computations as hourly runs; experimental predictions routed to the existing prediction machinery",
       "objective": "Systematically resolve the 51-entry council hypothesis/test registry: grind the internal STRUCTURAL-DERIVATION computations (agent-runnable) as hourly work, and pre-register + monitor the DIRECTLY-FALSIFIABLE experimental predictions via the EXISTING prediction-package/tripwire machinery. This is the Lane-1 North Star (force/falsify/downgrade GU) made operational.",
       "state": "MONITOR",
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "lane_one_lead": false,
-      "priority_score": 19,
+      "priority_score": 21,
       "score": {
         "impact": 5,
         "information_gain": 4,
@@ -1076,7 +1121,7 @@
       },
       "kill_condition": "This channel never closes by exhaustion; it closes ITEMS as their falsifiers resolve. A reproducible_falsifier firing on any DIRECTLY-FALSIFIABLE test is a Lane-1 event routed to Joe/steward (a real falsification of GU or of a sub-reading).",
       "switch_condition": "Rerank after each computation; a fired falsifier or an official_external_release (DESI/Euclid/collider) is a valid switch signal.",
-      "forbidden_shortcut": "Do NOT build a second attention/monitoring mechanism for the experimental tests — route to the existing prediction machinery. Do NOT mark a SCAFFOLD-tier item 'falsified' (only DIRECTLY-FALSIFIABLE items can fire; unfalsifiable-from-inside is an expected feature, not a defect). Grade honestly — a fixture-grade structural result is not operator-grade.",
+      "forbidden_shortcut": "Do NOT build a second attention/monitoring mechanism for the experimental tests - route to the existing prediction machinery. Do NOT mark a SCAFFOLD-tier item 'falsified' (only DIRECTLY-FALSIFIABLE items can fire; unfalsifiable-from-inside is an expected feature, not a defect). Grade honestly - a fixture-grade structural result is not operator-grade.",
       "three_seam_resolutions_2026_07_21": {
         "T-E2_reading_A_B_seam": "RESOLVED (Prong A A-NUMEROLOGY): reading-B (sigma=circle-orientation) is numerology even in GU's native deck/Krein frame; sigma = w1(L_time) stands alone.",
         "T-B3_no_fourth_generation_structural": "RESOLVED = B-FAILS (operator/fixture grade): GU does NOT forbid a fourth same-signature generation; the no-fourth derivations equate an order (Z/3 in Z/24) with a dimension (dim su(2)=3) - a canon-quarantined pun; the quaternionic Kramers wall makes an EVEN count (incl. a fourth) more natural.",

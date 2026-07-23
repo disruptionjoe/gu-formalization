@@ -2,90 +2,90 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-21T13:42:13-05:00'
-run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
-bottom_line: 'P-OBS-LEG is awake but routed to existing frozen-packet monitors;
-  run DE-AMP-DIAGNOSTIC while Lane 1 waits for source-owned end data.'
-decision_default: Keep P-OBS-LEG on monitor until an official release or finite-z*
-  bridge; select DE-AMP-DIAGNOSTIC for ordinary Lane 2 Progress.
+updated_at: '2026-07-23T05:30:16-05:00'
+run_ref: RUN-20260723-gu-lane1-reconciliation
+bottom_line: 'LP/LC closes one source-dependent operator route, but Lane 1 has
+  eligible independent reconstruction and anomaly-hardening work under explicit assumptions.'
+decision_default: Run the independent B5 reconstruction first; preserve source
+  gaps as native-claim limits, not as a bar to explicit conditional truth testing.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
-  light: yellow
-  reason_code: lane1_leads_source_gated_after_t_d_falsifier
-  evidence_ref: explorations/null-stratum-measure-invariance-2026-07-21.md; explorations/wave-swing1-the-lemma-2026-07-21.md
-  work_status: waiting_external
-  last_movement: Falsified fixed ~8%, preserved the qualitative null sector, and
-    localized the pencil residue to source-owned end asymptotics.
-  movement_ref: explorations/null-stratum-measure-invariance-2026-07-21.md
+  light: green
+  reason_code: independent_conditional_construction_and_anomaly_work_eligible
+  evidence_ref: explorations/b5-independent-reconstruction-scope-2026-07-21.md; explorations/operator-grade-anomaly-banking-2026-07-21.md
+  work_status: moving
+  last_movement: Reconciled the closed source-dependent routes with Joe-authorized
+    independent conditional construction and anomaly-hardening channels.
+  movement_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The internal battery is exhausted on current inputs; operator and C1
-    leaders require source-owned end/object packets.
-  progress_delta: 'T-D1/T-D2 were decided, T-D3 was typed underdefined, and
-    repeated Q1a/Q2/T-C2 work was removed from the eligible queue.'
-  scope_position: 'Fixed ~8% failed; qualitative q<0 survives. C1 keeps seven
-    unresolved axes, and B5 remains parked at its source gap.'
+  steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
+  summary: Source gaps limit native reconstruction claims, not conditional
+    truth-testing; independent B5 construction and anomaly hardening are active.
+  progress_delta: 'LC-SELECTOR closed one operator route, while the independent
+    B5 symbol-class build and anomaly hardening remain eligible with named inputs.'
+  scope_position: 'Native C1/B5 branches remain source-gapped; B5 independent
+    reconstruction is the Lane 1 lead and anomaly hardening is a parallel channel.'
   trend_24h: up
   confidence: med
-  recommendation: Wait for native end/C1 packets; preserve T-D results
-  findings: 'T-D2 is sampler-dependent, not a fixed 8% invariant. T-D3 lacks an
-    independent concurrency predicate/map. The LP/LC fork is exact as a reduction
-    but cannot be evaluated without native noncompact-end asymptotics.'
+  recommendation: Run independent B5 reconstruction under named assumptions
+  findings: 'LC-SELECTOR closes only the source-dependent operator route.
+    Independent B5 reconstruction can test a finite symbol class without claiming
+    native uniqueness. Source gaps constrain grade and provenance, not exploration.'
   options:
   - key: A
-    label: Wait for owner source packet
+    label: Run independent B5 reconstruction
     recommended: true
   - key: B
-    label: Hold B5 for primary source
+    label: Run anomaly hardening T1
   - key: C
-    label: Reopen source-blocked pencil
-  decision_default: Do not rerun Q1a, Q2, T-C2, or the T-D sampler test; wait for
-    source-owned end/C1 evidence and do not reopen B5.
+    label: Recover source packet in parallel
+  decision_default: Do not rerun Q1a, Q2, or LP/LC; run the independent B5 build
+    with named postulates, then rerank against anomaly hardening and source recovery.
   needs_joe: false
-  evaluated_at: '2026-07-21T13:42:13-05:00'
-  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T15:41:25-05:00'
+  run_ref: RUN-20260721-153525-repository-work-cycle-cai-hourly
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
-  light: yellow
-  reason_code: p_obs_leg_routed_existing_prediction_machinery
-  evidence_ref: explorations/p-obs-leg-admission-and-routing-2026-07-21.md
-  work_status: moving
-  last_movement: Confirmed P-OBS-LEG wake and routed it to existing PP1/PP3
-    tripwires without rescoring consumed data.
-  movement_ref: explorations/p-obs-leg-admission-and-routing-2026-07-21.md
+  light: green
+  reason_code: de_amp_closed_monitors_waiting_external
+  evidence_ref: explorations/de-amplitude-audit-2026-07-20.md; explorations/p-obs-leg-admission-and-routing-2026-07-21.md
+  work_status: waiting_external
+  last_movement: Completed the one allowed DE amplitude audit and closed the
+    positive raw-BAO amplitude leg.
+  movement_ref: explorations/de-amplitude-audit-2026-07-20.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#PRED-CANDIDATE-PACKETS
-  summary: P-OBS-LEG is a monitor/router; frozen PP1/PP3 surfaces wait for future
-    releases, and finite-z* distinctiveness remains bridge-gated.
-  progress_delta: 'Converted an awake but underspecified queue pointer into an
-    explicit no-duplication monitor with two exact reopen signals.'
-  scope_position: 'PP1-PP3 remain frozen; no fourth packet or second observation
-    system was created. DE-AMP-DIAGNOSTIC remains hourly-eligible.'
+  steering_ref: lab/process/research-portfolio.json#DE-AMP-DIAGNOSTIC
+  summary: DE-AMP is closed; frozen packets and tripwires now wait on registered
+    future-release, bridge, or native-structure signals.
+  progress_delta: 'The full-tail blind audit met its stopping rule and removed
+    the stale READY fallback without creating another monitor.'
+  scope_position: 'PP1-PP3 remain frozen; DE-AMP is resolved, and P-OBS/DE-F1 are
+    passive monitors. No Lane 2 item is hourly-eligible.'
   trend_24h: up
   confidence: med
-  recommendation: Run DE-AMP-DIAGNOSTIC; monitor P-OBS-LEG
-  findings: 'PP1 freeze satisfies the owner-declared P-OBS-LEG wake. Existing
-    packet/tripwire machinery already owns confrontation. The finite-z* low-l
-    discriminator is C-SCAFFOLD and the failed fixed-8% clause supplies no scale.'
+  recommendation: Preserve closed audit; monitor without duplication
+  findings: 'Full-tail treatments were stable and the canonical amplitude stayed
+    strongly disfavored. The positive raw-BAO leg is closed. P-OBS and DE-F1 keep
+    their existing exact wake conditions.'
   options:
   - key: A
-    label: Run DE amplitude diagnostic
+    label: Preserve closed DE audit
     recommended: true
   - key: B
     label: Monitor frozen PP1/PP3
   - key: C
     label: Wait for finite-z* bridge
-  decision_default: Keep PP1/PP3 immutable, do not rescore known DR2 values, and
-    execute DE-AMP-DIAGNOSTIC as the strongest internal hourly alternative.
+  decision_default: Keep PP1/PP3 immutable, do not rescore consumed DR2 values or
+    rerun DE-AMP, and wait for a registered release, bridge, or native quantity.
   needs_joe: false
-  evaluated_at: '2026-07-21T13:42:13-05:00'
-  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-21T15:41:25-05:00'
+  run_ref: RUN-20260721-153525-repository-work-cycle-cai-hourly
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
@@ -127,41 +127,41 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: post_falsifier_priority_and_observation_routing_reconciled
+  reason_code: lane1_truth_seeking_eligibility_reconciled
   evidence_ref: LANE-STATE.yaml
   work_status: moving
-  last_movement: Reconciled stale battery/operator wording and converted P-OBS-LEG
-    from an awake pointer into a governed monitor.
+  last_movement: Reconciled source-quality boundaries so they no longer suppress
+    Joe-authorized independent Lane 1 truth testing.
   movement_ref: lab/process/research-portfolio.json
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Portfolio, NEXT-STEPS, map, and Lane state now agree on the T-D
-    falsifier, source-gated pencil, and P-OBS-LEG routing.
-  progress_delta: Repaired two stale scientific queue descriptions and one
-    underspecified awake probe without moving claims, canon, verdicts, or posture.
+  summary: Owner surfaces distinguish native-claim source gaps from eligible
+    conditional construction and adversarial testing.
+  progress_delta: Restored independent B5 reconstruction and anomaly hardening as
+    Lane 1 work without changing claims, canon, verdicts, or posture.
   trend_24h: up
   confidence: high
-  recommendation: Preserve reconciled gates; run DE-AMP-DIAGNOSTIC
-  findings: 'Fixed ~8% failed while the qualitative null sector survived. Q2 is
-    settled FREE; the pencil still needs native end data. P-OBS-LEG is routed to
-    existing frozen-packet monitors and has exact reopen signals.'
+  recommendation: Keep source-grade boundaries explicit; run Lane 1 lead
+  findings: 'LC-SELECTOR closes one operator route, not Lane 1. Independent B5
+    reconstruction and anomaly hardening are eligible under named postulates.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Preserve P2C and scientific-status boundaries; allow Lane 2
-    DE-AMP-DIAGNOSTIC while source-gated Lane 1 targets wait.
+  decision_default: Preserve P2C and scientific-status boundaries; select the
+    Lane 1 independent reconstruction lead before waiting on source recovery.
   needs_joe: false
   drift_verdict:
-  - stale_operator_q2_and_battery_t_d_wording_repaired
-  - p_obs_leg_duplicate_monitor_risk_closed
+  - source_gap_misclassified_as_lane1_stop_repaired
+  - completed_de_amp_ready_pointer_closed
+  - independent_construction_hourly_eligibility_restored
   action_counts:
     mail: 0
-    reconciled: 3
-    integrity_repairs: 3
+    reconciled: 5
+    integrity_repairs: 5
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; future data and source-owned end geometry are the exact reopen signals.
-  evaluated_at: '2026-07-21T13:42:13-05:00'
-  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; Lane 1 can advance through the independent B5 lead.
+  evaluated_at: '2026-07-23T05:30:16-05:00'
+  run_ref: RUN-20260723-gu-lane1-reconciliation
