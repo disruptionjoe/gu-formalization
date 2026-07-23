@@ -102,19 +102,43 @@ def parse_lane_manifest(path: Path) -> list[dict[str, object]]:
     return lanes
 
 
+def selection_priority_score(item: dict[str, object]) -> int:
+    """Return the score used by the declared cross-lane selection contract."""
+    score = item.get("score")
+    if item.get("lane_id") == "1" and isinstance(score, dict):
+        return (
+            2 * int(score["impact"])
+            + 2 * int(score["information_gain"])
+            + int(score["readiness"])
+            + int(score["distinctiveness"])
+            + int(score["time_sensitivity"])
+            - int(score["duplication_risk"])
+        )
+    priority_score = item.get("priority_score")
+    return int(priority_score) if isinstance(priority_score, int) else 0
+
+
 def current_lane_leaders(work_items: list[dict[str, object]]) -> dict[str, str]:
     state_rank = {"ACTIVE": 2, "READY": 1}
-    leaders: dict[str, tuple[int, int, int, str]] = {}
+    leaders: dict[str, tuple[int, int, int, int, int, str]] = {}
     for index, item in enumerate(work_items):
         lane_id = str(item["lane_id"])
-        eligible_rank = 3 if item.get("hourly_eligible") is True else 0
+        eligible = item.get("hourly_eligible") is True
+        eligible_rank = 1 if eligible else 0
+        directed_lead_rank = (
+            1 if lane_id == "1" and eligible and item.get("lane_one_lead") is True else 0
+        )
         state = str(item.get("state", ""))
-        score = item.get("priority_score")
-        score_rank = int(score) if isinstance(score, int) else 0
-        rank = (eligible_rank + state_rank.get(state, 0), score_rank, -index)
-        if lane_id not in leaders or rank > leaders[lane_id][:3]:
-            leaders[lane_id] = (rank[0], rank[1], rank[2], str(item["id"]))
-    return {lane_id: leader[3] for lane_id, leader in leaders.items()}
+        rank = (
+            eligible_rank,
+            directed_lead_rank,
+            state_rank.get(state, 0),
+            selection_priority_score(item),
+            -index,
+        )
+        if lane_id not in leaders or rank > leaders[lane_id][:5]:
+            leaders[lane_id] = (*rank, str(item["id"]))
+    return {lane_id: leader[5] for lane_id, leader in leaders.items()}
 
 
 class ResearchPortfolioContractAudit(unittest.TestCase):
@@ -161,9 +185,11 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
             "GATED_P2C",
             "GATED_NEW_STRUCTURE",
             "GATED_FIXED_QUANTITY",
+            "BLOCKED_SOURCE_GAP",
             "MONITOR",
             "PARKED",
             "RESOLVED_NO_GO",
+            "RESOLVED_INTERPRETATION_SHAPE",
             "PAPER_READY",
             "NEEDS_JOE",
         }
@@ -190,6 +216,14 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertEqual(contract["lane_contract_ref"], self.portfolio["lane_manifest_ref"])
         self.assertEqual(1, contract["max_concurrent_progress_runs"])
         self.assertTrue(contract["lane_one_is_protected_from_difficulty_demotion"])
+        self.assertNotIn("effort", contract["lane_one_score_formula"])
+        self.assertNotIn("wall_risk", contract["lane_one_score_formula"])
+        self.assertIn("explicit Joe or steward lead signal", contract["lane_one_selection_rule"])
+        self.assertIn("does not become runnable", contract["lane_one_selection_rule"])
+        self.assertEqual("RESOLVED", contract["difficulty_demotion_reconciliation"]["status"])
+        self.assertEqual(30, selection_priority_score(self.top_by_id["RECOVERY-CERTIFICATION"]))
+        self.assertEqual(30, selection_priority_score(self.top_by_id["CONSTRUCTION-SPACE-EXPLORATION"]))
+        self.assertEqual(19, selection_priority_score(self.top_by_id["DE-AMP-DIAGNOSTIC"]))
         self.assertEqual("north_star", self.lane_by_id["1"]["purpose_type"])
         self.assertEqual("integrated_stewardship", self.lane_by_id["A"]["purpose_type"])
         self.assertEqual("stewardship", self.lane_by_id["A"]["kind"])
@@ -260,6 +294,14 @@ class ResearchPortfolioContractAudit(unittest.TestCase):
         self.assertIn("not the firing margin", f1["current_authority"])
         self.assertIn("never a positive GU prediction", f1["forbidden_shortcut"])
         self.assertIn("W226-harden-de-tripwire", f1["evidence_source"])
+
+        construction_space = self.by_id["CONSTRUCTION-SPACE-EXPLORATION"]
+        de_amp = self.by_id["DE-AMP-DIAGNOSTIC"]
+        self.assertFalse(construction_space["hourly_eligible"])
+        self.assertEqual("RESOLVED_NO_GO", de_amp["state"])
+        self.assertFalse(de_amp["hourly_eligible"])
+        self.assertIn("Delta AIC = +35.79", de_amp["current_authority"])
+        self.assertIn("ordinary reproduction is validation", de_amp["switch_condition"])
 
     def test_recovery_certification_is_one_adaptive_lane(self) -> None:
         recovery = self.by_id["RECOVERY-CERTIFICATION"]

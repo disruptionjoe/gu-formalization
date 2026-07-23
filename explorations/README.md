@@ -13,6 +13,9 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`compute-readiness-priority-reconciliation-2026-07-22.md`](compute-readiness-priority-reconciliation-2026-07-22.md)
+  closes the already-executed DE-amplitude queue pointer, makes Lane-1 difficulty protection executable, and
+  records the shared NumPy/SciPy compute environment without changing scientific claims or verdicts.
 - [`fredholm-end-clutching-big-swing-2026-07-22.md`](fredholm-end-clutching-big-swing-2026-07-22.md)
   builds the strongest honest asymptotic packet so far.  A chosen scalar Callias mass Fredholmizes the end but
   is class-silent; a deck-odd scalar must vanish.  The quaternionic mass `q -> L_q` instead gives an exact

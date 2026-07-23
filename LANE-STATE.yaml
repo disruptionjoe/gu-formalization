@@ -2,12 +2,12 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-21T13:42:13-05:00'
-run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
-bottom_line: 'P-OBS-LEG is awake but routed to existing frozen-packet monitors;
-  run DE-AMP-DIAGNOSTIC while Lane 1 waits for source-owned end data.'
-decision_default: Keep P-OBS-LEG on monitor until an official release or finite-z*
-  bridge; select DE-AMP-DIAGNOSTIC for ordinary Lane 2 Progress.
+updated_at: '2026-07-22T21:28:01-05:00'
+run_ref: GUD-20260723T022801Z-compute-readiness-priority-reconciliation
+bottom_line: 'Lane 1 is source-gated and now difficulty-protected in executable
+  form; DE-AMP is complete, so no internal numbered-lane computation is hourly-eligible.'
+decision_default: Preserve the source gates and existing monitors; reopen only on
+  a named packet, official release, changed frozen structure, or certificate defect.
 needs_joe: false
 lanes:
 - lane_id: '1'
@@ -52,40 +52,40 @@ lanes:
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
   light: yellow
-  reason_code: p_obs_leg_routed_existing_prediction_machinery
-  evidence_ref: explorations/p-obs-leg-admission-and-routing-2026-07-21.md
-  work_status: moving
-  last_movement: Confirmed P-OBS-LEG wake and routed it to existing PP1/PP3
-    tripwires without rescoring consumed data.
-  movement_ref: explorations/p-obs-leg-admission-and-routing-2026-07-21.md
+  reason_code: de_amp_completed_no_internal_hourly_compute
+  evidence_ref: explorations/compute-readiness-priority-reconciliation-2026-07-22.md
+  work_status: waiting_external
+  last_movement: Reproduced and closed the full-tail DE amplitude diagnostic with
+    all 7 setup and 18 substantive checks passing.
+  movement_ref: explorations/compute-readiness-priority-reconciliation-2026-07-22.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#PRED-CANDIDATE-PACKETS
-  summary: P-OBS-LEG is a monitor/router; frozen PP1/PP3 surfaces wait for future
-    releases, and finite-z* distinctiveness remains bridge-gated.
-  progress_delta: 'Converted an awake but underspecified queue pointer into an
-    explicit no-duplication monitor with two exact reopen signals.'
-  scope_position: 'PP1-PP3 remain frozen; no fourth packet or second observation
-    system was created. DE-AMP-DIAGNOSTIC remains hourly-eligible.'
+  summary: DE-AMP is operationally resolved; P-OBS-LEG and DE-F1 are monitors,
+    while packet work remains source- or release-gated.
+  progress_delta: 'Removed an already-executed computation from the queue and
+    preserved exact reopen signals rather than manufacturing substitute work.'
+  scope_position: 'PP1-PP3 remain frozen; the positive raw-BAO amplitude leg is
+    closed at exploration grade and no GU-native absolute amplitude is packaged.'
   trend_24h: up
   confidence: med
-  recommendation: Run DE-AMP-DIAGNOSTIC; monitor P-OBS-LEG
-  findings: 'PP1 freeze satisfies the owner-declared P-OBS-LEG wake. Existing
-    packet/tripwire machinery already owns confrontation. The finite-z* low-l
-    discriminator is C-SCAFFOLD and the failed fixed-8% clause supplies no scale.'
+  recommendation: Monitor exact reopen signals; do not rerun DE-AMP
+  findings: 'The full-tail correction is negligible at 3.3e-5 relative. The
+    canonical point remains strongly disfavored at Delta AIC +35.79. Existing
+    packet and tripwire machinery owns any future confrontation.'
   options:
   - key: A
-    label: Run DE amplitude diagnostic
+    label: Preserve completed DE audit
     recommended: true
   - key: B
     label: Monitor frozen PP1/PP3
   - key: C
     label: Wait for finite-z* bridge
   decision_default: Keep PP1/PP3 immutable, do not rescore known DR2 values, and
-    execute DE-AMP-DIAGNOSTIC as the strongest internal hourly alternative.
+    reopen DE-AMP only on corrected data, changed frozen structure, or a defect.
   needs_joe: false
-  evaluated_at: '2026-07-21T13:42:13-05:00'
-  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-22T21:28:01-05:00'
+  run_ref: GUD-20260723T022801Z-compute-readiness-priority-reconciliation
 - lane_id: '3'
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
@@ -127,41 +127,41 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: post_falsifier_priority_and_observation_routing_reconciled
-  evidence_ref: LANE-STATE.yaml
+  reason_code: difficulty_protection_and_completed_compute_reconciled
+  evidence_ref: explorations/compute-readiness-priority-reconciliation-2026-07-22.md
   work_status: moving
-  last_movement: Reconciled stale battery/operator wording and converted P-OBS-LEG
-    from an awake pointer into a governed monitor.
+  last_movement: Made Lane-1 protection executable and removed the completed DE
+    audit from the hourly queue.
   movement_ref: lab/process/research-portfolio.json
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Portfolio, NEXT-STEPS, map, and Lane state now agree on the T-D
-    falsifier, source-gated pencil, and P-OBS-LEG routing.
-  progress_delta: Repaired two stale scientific queue descriptions and one
-    underspecified awake probe without moving claims, canon, verdicts, or posture.
+  summary: Portfolio, NEXT-STEPS, tests, and Lane state now agree on source-gated
+    Lane 1, protected selection, and the closed DE audit.
+  progress_delta: Repaired the difficulty-selection defect and one stale completed
+    computation pointer without moving claims, canon, verdicts, or posture.
   trend_24h: up
   confidence: high
-  recommendation: Preserve reconciled gates; run DE-AMP-DIAGNOSTIC
-  findings: 'Fixed ~8% failed while the qualitative null sector survived. Q2 is
-    settled FREE; the pencil still needs native end data. P-OBS-LEG is routed to
-    existing frozen-packet monitors and has exact reopen signals.'
+  recommendation: Preserve reconciled gates and exact reopen signals
+  findings: 'Lane-1 difficulty protection is now executable but never overrides
+    source gaps. DE-AMP is complete and reproducible. P-OBS-LEG and DE-F1 remain
+    monitors rather than ordinary hourly work.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Preserve P2C and scientific-status boundaries; allow Lane 2
-    DE-AMP-DIAGNOSTIC while source-gated Lane 1 targets wait.
+  decision_default: Preserve P2C and scientific-status boundaries; wait for a
+    named source packet, official release, changed structure, or certificate defect.
   needs_joe: false
   drift_verdict:
-  - stale_operator_q2_and_battery_t_d_wording_repaired
-  - p_obs_leg_duplicate_monitor_risk_closed
+  - lane_one_difficulty_demotion_reconciled
+  - completed_de_amp_pointer_closed
   action_counts:
     mail: 0
-    reconciled: 3
-    integrity_repairs: 3
+    reconciled: 2
+    integrity_repairs: 2
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; future data and source-owned end geometry are the exact reopen signals.
-  evaluated_at: '2026-07-21T13:42:13-05:00'
-  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+  attention_pointer: Nothing needs Joe; named source packets, future data, changed frozen structure, and certificate defects are the exact reopen signals.
+  evaluated_at: '2026-07-22T21:28:01-05:00'
+  run_ref: GUD-20260723T022801Z-compute-readiness-priority-reconciliation

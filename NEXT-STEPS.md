@@ -106,6 +106,12 @@ updated_at: "2026-07-22"
 > are now `WAITING_EXTERNAL` / non-hourly until an owner-grade end/object packet arrives. Brief:
 > `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
 >
+> **2026-07-22 difficulty-protection reconciliation:** Lane 1 now has an executable selection rule. Eligibility
+> and dependency state remain hard gates; among eligible Lane-1 items, an explicit Joe/steward lead signal is
+> applied first and the scientific score omits effort and wall-risk deductions. Those fields remain capacity
+> metadata only. Protection therefore prevents easy-work bias without pretending a source-gapped item is
+> runnable. `CONSTRUCTION-SPACE-EXPLORATION` is now correctly non-hourly while its owner packet is absent.
+>
 > **2026-07-21 NEW LANE-1 CHANNEL `FALSIFICATION-BATTERY` (Joe-directed; steward to reconcile ranking):** the
 > 22-persona committed-construction councils produced a 51-entry hypothesis/test registry
 > (`explorations/hypothesis-and-test-registry-from-councils-2026-07-21.md`). Joe asked to make the test-set a
@@ -235,8 +241,13 @@ updated_at: "2026-07-22"
 > mathematically open but GU-non-native. Proposition 1 and the favorable W235 record bit remain live conditions.
 > `bar(b)` and `H59` remain OPEN.
 >
-> **Lane 2 current leader:** `DE-AMP-DIAGNOSTIC`, a data-hygiene and compatibility audit rather than a decisive
-> prediction. `PRED-FLAVOR-RANK` and `PRED-NORM-RANK` are `RESOLVED_NO_GO` at the current construction grade;
+> **Lane 2 current disposition:** `DE-AMP-DIAGNOSTIC` is `RESOLVED_NO_GO` operationally because its exact
+> full-tail/H46B audit is complete and reproducible: the two tail treatments differ by `3.3e-5`, the canonical
+> point gives `chi2_GU = 66.47` against `chi2_LCDM = 30.68`, and `Delta AIC = +35.79`. The positive raw-BAO
+> amplitude leg is closed at exploration grade, with no GU-native absolute amplitude to package. Reopen only on
+> corrected official data, materially changed frozen native structure, or a demonstrated certificate defect.
+> Lane 2 therefore has no ordinary hourly-eligible internal computation; `P-OBS-LEG` and `DE-F1-TRIPWIRE` are
+> monitors, not substitute busywork. `PRED-FLAVOR-RANK` and `PRED-NORM-RANK` are `RESOLVED_NO_GO` at the current construction grade;
 > two dimensionless flavor ratios and the absence of a native absolute scale block their zero-parameter routes.
 > `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` now live here and remain gated on new native
 > structure frozen before target-data inspection. `DE-F1-TRIPWIRE` is a passive one-sided falsification monitor,

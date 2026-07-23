@@ -13,13 +13,15 @@
     "verdict_and_scientific_status_gate": "Joe"
   },
   "selection_contract": {
-    "score_scale": "Each component is an integer from 1 to 5. Higher impact, information gain, readiness, distinctiveness, and time sensitivity help. Higher effort, wall risk, and duplication risk hurt.",
+    "score_scale": "Each component is an integer from 1 to 5. Higher impact, information gain, readiness, distinctiveness, and time sensitivity help. Higher effort, wall risk, and duplication risk lower the base score, but Lane 1 treats effort and wall risk as capacity metadata rather than selection deductions.",
     "score_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
+    "lane_one_score_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - duplication_risk",
     "deepest_open_dependency_work_item_id": "DEP-NATIVE-SOURCE-DATUM",
     "deepest_open_problem_posture": "The Y14 F_A C2 spectral-section/source-action datum and native normalization remain open and load-bearing. Joe transferred construction of that frontier to possibility-to-capability, so GU tracks but does not hourly attack it unless a frozen return or direct priority change occurs.",
     "max_concurrent_progress_runs": 1,
     "lane_one_is_protected_from_difficulty_demotion": true,
-    "scheduling_rule": "Lane number expresses purpose, not an automatic every-run schedule. Each Progress run selects the worthiest eligible work item across Lanes 1 through 3 using current evidence, dependencies, collision state, and the declared score. Selecting Lane 2 or Lane 3 does not demote or replace Lane 1.",
+    "lane_one_selection_rule": "Eligibility and dependency state are gates. Among eligible Lane 1 items, apply an explicit Joe or steward lead signal first, then rank by the Lane 1 score formula. Effort and wall risk remain capacity-planning metadata and never lower Lane 1 scientific rank. A blocked or waiting item does not become runnable merely because it is protected.",
+    "scheduling_rule": "Lane number expresses purpose, not an automatic every-run schedule. Each Progress run selects the worthiest eligible work item across Lanes 1 through 3 using current evidence, dependencies, collision state, the protected Lane 1 rule, and the declared base score for Lanes 2 and 3. Selecting Lane 2 or Lane 3 does not demote or replace Lane 1.",
     "end_of_run_rerank_rule": "After execution and validation but before the receipt, re-rank eligible work inside the lane just worked, then re-rank Lanes 1 through 3 by their strongest eligible work. Append both rankings to the Next-Work Handoff. Lane A never enters the scientific ranking.",
     "durable_priority_rule": "Hourly re-ranking is advisory. Lane A Stewardship reconciles valid signals into this portfolio and the NEXT-STEPS front door.",
     "valid_switch_signals": [
@@ -42,7 +44,12 @@
     ],
     "lane_contract_ref": "LANES.yaml",
     "prediction_package_interrupt": "Standing rule (Joe direct chat 2026-07-19, council-reviewed): when the daily steward flags PREDICTION_PACKAGE_PENDING, the next Progress hourly takes the package work ahead of normal cross-lane ranking until FROZEN or a named blocker; time-boxed at ~3 cycles; admission criteria, freeze contract, and v2 supersession rules in lab/process/prediction-package-standing-rule.md. Retrodictions never package.",
-    "difficulty_demotion_reconciliation_flag": "2026-07-21 Joe/scoping finding: score_formula subtracts effort+wall_risk, demoting Lane-1 theorem work (OPERATOR-END-PENCIL 18, B5 20) below the safe lattice item (25), which is why the hourly kept selecting enumeration. Contradicts lane_one_is_protected_from_difficulty_demotion. Lane-A steward to reconcile: exempt Lane-1 North-Star items from the effort/wall-risk subtraction OR gate difficulty-driven demotion behind an explicit steward note. No formula edit made autonomously."
+    "difficulty_demotion_reconciliation": {
+      "status": "RESOLVED",
+      "date": "2026-07-22",
+      "resolution": "Lane 1 now has an executable protected selection rule: explicit lead signals and dependency state precede its difficulty-exempt score, while effort and wall risk are capacity metadata only. The ordinary base score remains recorded for audit comparability. The protection never overrides a source gap or other eligibility gate.",
+      "evidence_ref": "explorations/compute-readiness-priority-reconciliation-2026-07-22.md"
+    }
   },
   "operational_states": [
     "ACTIVE",
@@ -51,9 +58,11 @@
     "GATED_P2C",
     "GATED_NEW_STRUCTURE",
     "GATED_FIXED_QUANTITY",
+    "BLOCKED_SOURCE_GAP",
     "MONITOR",
     "PARKED",
     "RESOLVED_NO_GO",
+    "RESOLVED_INTERPRETATION_SHAPE",
     "PAPER_READY",
     "NEEDS_JOE"
   ],
@@ -158,7 +167,7 @@
         "one_coherent_work_item_per_hour": true,
         "continue_linked_checkpoint_if_first_closes_quickly": true,
         "rerank_after_every_swing": true,
-        "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
+        "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - duplication_risk",
         "handoff_rule": "The current run reads the latest Next-Work Handoff, executes the highest-ranked unblocked recovery component unless new evidence invalidates it, writes a fresh Lane 1 internal ranking, and then participates in the cross-lane ranking before its receipt.",
         "extra_effort_rule": "A maintainer-directed or separately scoped automation may add effort to one work item without creating another lane or silently changing portfolio authority."
       },
@@ -338,7 +347,7 @@
       "track": "north_star",
       "state": "WAITING_EXTERNAL",
       "owner": "gu-formalization",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 25,
       "score": {
         "impact": 5,
@@ -354,7 +363,7 @@
       "assessment_source": "lab/process/construction-space-exploration-protocol.md",
       "assessment_summary": "Joe-authorized 2026-07-19 (direct chat, option A). The completed defense set bounded the current branch's no-gos but left reopening passive: nothing owned generating new constructions. This item makes the search first-class: map the predeclared construction space on the six-axis template, run per-sector fit searches (SM selector, QM physical sector, GR vacuum cancellation, cosmology scalar) as candidate generators, and weave multi-sector survivors into frozen candidates for the recovery ladder. Amended 2026-07-19 (Joe direct chat, option A): sector-fit admission moved from natively-produce to a graded fit ladder - Rung 0 consistency against sharp per-sector constraint lists is the admission bar, Rung 1 hosting with typed and counted imports, Rung 2 native selection reserved as survivor grading and the North Star bar. The program's falsification target is the joint intersection: an empty Rung-0 intersection over the fully dispositioned predeclared space is the real falsification-shaped result; prior no-gos are boundary data that carve the map, not verdicts on GU.",
       "construction_fork": "This item searches the fork space itself. Every probe names its cell's axis signature and which side of the standard-field versus program-native fork it occupies. Sector-fit candidates require explicit axis deltas from tested cells and a first falsification test at birth.",
-      "next_swing": "P-LATTICE-SIGNATURE-RESOLUTION-C1 resolves only L5: the manifest supports C1 as a specific-object substrate on the program-native side. The other seven C1 axes remain source-gapped, leaving 87 unresolved lattice slots and no admissible inheritance propagation or enumeration. Next lattice step is P-LATTICE-C1-SOURCE-PACKET: require an owner-grade semantic comparison, substrate classification, observer/extraction pairing, causal order, coordination loop, and Krein superselection/probability specification. Until that packet exists, P-OBS-LEG is the strongest independent Lane 2 alternative. B5 remains parked at its source gap; signature choice remains Joe-gated.",
+      "next_swing": "P-LATTICE-SIGNATURE-RESOLUTION-C1 resolves only L5: the manifest supports C1 as a specific-object substrate on the program-native side. The other seven C1 axes remain source-gapped, leaving 87 unresolved lattice slots and no admissible inheritance propagation or enumeration. Next lattice step is P-LATTICE-C1-SOURCE-PACKET: require an owner-grade semantic comparison, substrate classification, observer/extraction pairing, causal order, coordination loop, and Krein superselection/probability specification. Until that packet exists, P-OBS-LEG is the strongest independent Lane 2 monitor, but no internal Lane 2 computation is hourly-eligible. B5 remains parked at its source gap; signature choice remains Joe-gated.",
       "kill_condition": "If the predeclared construction space reaches full disposition and the joint Rung-0 intersection across the four sector tracks is empty, and the council cannot name a legitimate reparameterization that explains more, hand the exhaustion question to the daily steward and Joe; this item never enters the exhaustion verdict itself. A single cell or track failure is boundary data, never a kill.",
       "switch_condition": "After each stage boundary (map round, sector-track round, weave), rerank inside Lane 1 and then across lanes per the standard contract. Sector tracks are one workstream with an internal rotation, not sublanes.",
       "forbidden_shortcut": "A sector fit at any rung is a candidate, not a recovery claim, and claim strength always equals the rung achieved. Rung 0 means passing the track's frozen sharp constraint list; subgroup containment, matching names, field location, or parameter fitting never count as consistency. Imports at Rung 1 are typed and counted, never hidden. Council output guides search and is never evidence for or against GU. No cell is silently revisited; reopening a dispositioned cell requires the history audit. Weakening a sharp constraint list is Joe-gated.",
@@ -363,7 +372,7 @@
         "one_coherent_work_item_per_hour": true,
         "continue_linked_checkpoint_if_first_closes_quickly": true,
         "rerank_after_every_swing": true,
-        "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - effort - wall_risk - duplication_risk",
+        "ranking_formula": "2*impact + 2*information_gain + readiness + distinctiveness + time_sensitivity - duplication_risk",
         "handoff_rule": "Each run reads the map and the latest council search plan, executes the highest-information-gain unblocked probe, updates the map disposition with evidence pointers, and reranks before its receipt.",
         "council_rule": "At every stage boundary run the search-strategy council as an inline persona pass in one worker (members reason independently, rank, chairman synthesizes; never one agent per persona). Record the ranked search plan in the map file."
       },
@@ -549,7 +558,7 @@
       "state": "MONITOR",
       "owner": "gu-formalization defines the frozen packet; phenomenology supplies verified future data",
       "hourly_eligible": false,
-      "priority_score": 21,
+      "priority_score": 18,
       "score": {
         "impact": 5,
         "information_gain": 5,
@@ -576,7 +585,7 @@
       "state": "BLOCKED_SOURCE_GAP",
       "owner": "gu-formalization",
       "hourly_eligible": false,
-      "priority_score": 20,
+      "priority_score": 21,
       "score": {
         "impact": 4,
         "information_gain": 4,
@@ -593,7 +602,7 @@
       "construction_fork": "Each packet must type its claims: what is GU-native, what is conditional on which channel card, what is imported. A packet is a frozen candidate prediction with named conditions, not a claim of readiness.",
       "next_swing": "No hourly packet work is eligible. Reopen the unnumbered mirror-sector candidate only after owner-native evidence (1) selects and stabilizes the gapping order parameter, (2) resolves the producible-asymptotic-state versus projected-out-ghost fork, (3) supplies a compatible native Standard Model embedding, and (4) yields a predeclared event class or mass window with a kill threshold. Otherwise retain PP1, PP2, and PP3 unchanged and rerank normal Lane 2 work.",
       "kill_condition": "A packet that cannot state its conditions and kill threshold without hedging is not a packet; drop it back to the channel card it depends on.",
-      "switch_condition": "Rerank within Lane 2 after each packet freeze; DE-AMP-DIAGNOSTIC remains the data-facing audit and is not displaced.",
+      "switch_condition": "Rerank within Lane 2 after each packet freeze. DE-AMP-DIAGNOSTIC is closed at the executed audit; reopen it only on a corrected official dataset, changed native model packet, or a demonstrated defect in its certificate.",
       "forbidden_shortcut": "No data peeking before packet freeze; no promotion of conditional packets to predictions in any external-facing surface; retrodictions (hypercharge, trace reversal) are logged as coherence, never packaged as predictions.",
       "internal_work_items": []
     },
@@ -602,9 +611,9 @@
       "lane_id": "2",
       "title": "Audit the CMB-calibrated dark-energy amplitude",
       "track": "diagnostic",
-      "state": "READY",
+      "state": "RESOLVED_NO_GO",
       "owner": "GU structural inputs plus phenomenology return packet",
-      "hourly_eligible": true,
+      "hourly_eligible": false,
       "priority_score": 19,
       "score": {
         "impact": 4,
@@ -617,9 +626,11 @@
         "duplication_risk": 1
       },
       "depends_on": [],
-      "next_swing": "Re-solve theta-star with GU's own full D_M(z-star), including the high-redshift tail, then return a blind official-H46B likelihood adjudication.",
+      "assessment_source": "explorations/de-amplitude-audit-2026-07-20.md; tests/channel-swings/de_amplitude_audit_probe.py; explorations/compute-readiness-priority-reconciliation-2026-07-22.md",
+      "current_authority": "The requested full-D_M(z-star) high-redshift-tail solve and blind H46B likelihood adjudication are complete and reproducible. Two independent tail treatments differ by 3.3e-5 relatively; the canonical point gives chi2_GU = 66.47 versus chi2_LCDM = 30.68 and Delta AIC = +35.79. The positive raw-BAO amplitude leg is closed at exploration grade, while no packageable absolute GU amplitude survives because its scale is imported.",
+      "next_swing": "None on the current construction and official dataset. Preserve the executable certificate and reopen only on a corrected official likelihood input, a materially changed frozen GU-native model packet, or a concrete defect in the audit implementation.",
       "kill_condition": "If the corrected canonical amplitude remains strongly disfavored, close the positive raw-BAO amplitude leg. If it moves, report the shift without calling it a new prediction.",
-      "switch_condition": "Close after one complete normalization and likelihood audit. It does not outrank protected Lane 1 without a new valid priority signal or a current cross-lane ranking that makes it the strongest eligible swing.",
+      "switch_condition": "Closed after the complete normalization and likelihood audit. Reopen signals are corrected official data, changed frozen native structure, or a demonstrated certificate defect; ordinary reproduction is validation, not a new research swing.",
       "forbidden_shortcut": "This is data hygiene and compatibility testing, not a decisive or distinctive GU prediction. Only H46B-verified likelihood inputs may seed the calculation."
     },
     {
@@ -1028,6 +1039,7 @@
       "title": "Interpret the trit: what is the Z/3 half of the minimal Z/6 forcing input?",
       "objective": "Preserve the resolved negative interpretation tests and defer external S_3 label provenance until a physical rank-three family multiplicity object exists.",
       "state": "RESOLVED_INTERPRETATION_SHAPE",
+      "hourly_eligible": false,
       "seed_ref": "explorations/trit-interpretation-candidates-2026-07-20.md",
       "lead_discriminator": "EXECUTED 2026-07-20: CLOSURE-FAILS-NATURALITY. The three-element total-order nesting has trivial automorphism group and supplies no order-three wrap; either cyclic orientation imports a new edge. The directed-chain plant fails and the unoriented-triangle positive control carries full S_3 with both three-cycles. Candidate 5 is killed at finite structural grade; the later external-S_3-label result stands.",
       "opened": "2026-07-20",
@@ -1044,13 +1056,13 @@
       "id": "FALSIFICATION-BATTERY",
       "lane_id": "1",
       "channel": true,
-      "title": "Work the council-harvested falsification battery — internal structural computations as hourly runs; experimental predictions routed to the existing prediction machinery",
+      "title": "Work the council-harvested falsification battery - internal structural computations as hourly runs; experimental predictions routed to the existing prediction machinery",
       "objective": "Systematically resolve the 51-entry council hypothesis/test registry: grind the internal STRUCTURAL-DERIVATION computations (agent-runnable) as hourly work, and pre-register + monitor the DIRECTLY-FALSIFIABLE experimental predictions via the EXISTING prediction-package/tripwire machinery. This is the Lane-1 North Star (force/falsify/downgrade GU) made operational.",
       "state": "MONITOR",
       "owner": "gu-formalization",
       "hourly_eligible": false,
       "lane_one_lead": false,
-      "priority_score": 19,
+      "priority_score": 21,
       "score": {
         "impact": 5,
         "information_gain": 4,
@@ -1077,7 +1089,7 @@
       },
       "kill_condition": "This channel never closes by exhaustion; it closes ITEMS as their falsifiers resolve. A reproducible_falsifier firing on any DIRECTLY-FALSIFIABLE test is a Lane-1 event routed to Joe/steward (a real falsification of GU or of a sub-reading).",
       "switch_condition": "Rerank after each computation; a fired falsifier or an official_external_release (DESI/Euclid/collider) is a valid switch signal.",
-      "forbidden_shortcut": "Do NOT build a second attention/monitoring mechanism for the experimental tests — route to the existing prediction machinery. Do NOT mark a SCAFFOLD-tier item 'falsified' (only DIRECTLY-FALSIFIABLE items can fire; unfalsifiable-from-inside is an expected feature, not a defect). Grade honestly — a fixture-grade structural result is not operator-grade.",
+      "forbidden_shortcut": "Do NOT build a second attention/monitoring mechanism for the experimental tests - route to the existing prediction machinery. Do NOT mark a SCAFFOLD-tier item 'falsified' (only DIRECTLY-FALSIFIABLE items can fire; unfalsifiable-from-inside is an expected feature, not a defect). Grade honestly - a fixture-grade structural result is not operator-grade.",
       "three_seam_resolutions_2026_07_21": {
         "T-E2_reading_A_B_seam": "RESOLVED (Prong A A-NUMEROLOGY): reading-B (sigma=circle-orientation) is numerology even in GU's native deck/Krein frame; sigma = w1(L_time) stands alone.",
         "T-B3_no_fourth_generation_structural": "RESOLVED = B-FAILS (operator/fixture grade): GU does NOT forbid a fourth same-signature generation; the no-fourth derivations equate an order (Z/3 in Z/24) with a dimension (dim su(2)=3) - a canon-quarantined pun; the quaternionic Kramers wall makes an EVEN count (incl. a fourth) more natural.",
