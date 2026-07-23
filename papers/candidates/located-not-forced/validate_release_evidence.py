@@ -26,6 +26,15 @@ ALLOWED_CLASSIFICATIONS = {
     "same_code_path",
     "no_second_path",
 }
+ALLOWED_EVIDENCE_ROLES = {
+    "computed",
+    "formal",
+    "standard_theorem_instantiated",
+    "diagnostic",
+    "interpretive",
+    "open_boundary",
+}
+ALLOWED_GU_DEPENDENCIES = {"none", "motivated", "conditional"}
 
 
 def parse_args() -> argparse.Namespace:
@@ -89,17 +98,188 @@ def count_check_calls(path: Path, errors: list[str]) -> int:
     )
 
 
+def validate_claim_ledger(
+    ledger: dict[str, Any],
+    repo_root: Path,
+    paper_text: str,
+    current_surface_text: str,
+    errors: list[str],
+) -> None:
+    """Validate the typed current-claim surface and its premise dependencies."""
+    if ledger.get("schema_version") != 1:
+        errors.append("claim_ledger.schema_version: expected 1")
+
+    premises = ledger.get("premises")
+    if not isinstance(premises, list) or not premises:
+        errors.append("claim_ledger.premises: expected a non-empty list")
+        premises = []
+    premise_ids: list[Any] = []
+    for index, premise in enumerate(premises):
+        label = f"claim_ledger.premises[{index}]"
+        if not isinstance(premise, dict):
+            errors.append(f"{label}: expected an object")
+            continue
+        premise_id = premise.get("id")
+        expected_id = f"LNF-PR-{index + 1:03d}"
+        premise_ids.append(premise_id)
+        if premise_id != expected_id:
+            errors.append(f"{label}.id: expected {expected_id!r}, got {premise_id!r}")
+        for field in ("name", "statement"):
+            if not isinstance(premise.get(field), str) or not premise[field]:
+                errors.append(f"{label}.{field}: expected a non-empty string")
+    if len(premise_ids) != len(set(premise_ids)):
+        errors.append("claim_ledger.premises: duplicate ids")
+    known_premises = set(premise_ids)
+
+    surfaces = ledger.get("current_surfaces")
+    if not isinstance(surfaces, list) or not surfaces:
+        errors.append("claim_ledger.current_surfaces: expected a non-empty list")
+    else:
+        for index, path in enumerate(surfaces):
+            resolve_repo_path(
+                repo_root,
+                path,
+                f"claim_ledger.current_surfaces[{index}]",
+                errors,
+            )
+
+    forbidden = ledger.get("forbidden_current_formulations")
+    if not isinstance(forbidden, list) or not forbidden:
+        errors.append(
+            "claim_ledger.forbidden_current_formulations: expected a non-empty list"
+        )
+        forbidden = []
+
+    claims = ledger.get("claims")
+    if not isinstance(claims, list) or not claims:
+        errors.append("claim_ledger.claims: expected a non-empty list")
+        claims = []
+    claim_ids: list[Any] = []
+    claim_statements: list[str] = []
+    for index, claim in enumerate(claims):
+        label = f"claim_ledger.claims[{index}]"
+        if not isinstance(claim, dict):
+            errors.append(f"{label}: expected an object")
+            continue
+        claim_id = claim.get("id")
+        expected_id = f"LNF-CL-{index + 1:03d}"
+        claim_ids.append(claim_id)
+        if claim_id != expected_id:
+            errors.append(f"{label}.id: expected {expected_id!r}, got {claim_id!r}")
+        if isinstance(claim_id, str) and claim_id not in paper_text:
+            errors.append(f"{label}.id: not found in canonical paper: {claim_id!r}")
+        for field in (
+            "status_anchor",
+            "statement",
+            "codomain",
+            "grade",
+            "evidence_role",
+            "gu_dependency",
+        ):
+            if not isinstance(claim.get(field), str) or not claim[field]:
+                errors.append(f"{label}.{field}: expected a non-empty string")
+        statement = claim.get("statement")
+        if isinstance(statement, str):
+            claim_statements.append(statement)
+        anchor = claim.get("status_anchor")
+        if isinstance(anchor, str) and anchor and anchor not in paper_text:
+            errors.append(f"{label}.status_anchor: not found in canonical paper: {anchor!r}")
+        if claim.get("evidence_role") not in ALLOWED_EVIDENCE_ROLES:
+            errors.append(
+                f"{label}.evidence_role: unknown value {claim.get('evidence_role')!r}"
+            )
+        if claim.get("gu_dependency") not in ALLOWED_GU_DEPENDENCIES:
+            errors.append(
+                f"{label}.gu_dependency: unknown value {claim.get('gu_dependency')!r}"
+            )
+
+        dependencies = claim.get("premises")
+        if not isinstance(dependencies, list) or not dependencies:
+            errors.append(f"{label}.premises: expected a non-empty list")
+        else:
+            for premise_id in dependencies:
+                if premise_id not in known_premises:
+                    errors.append(f"{label}.premises: unknown premise {premise_id!r}")
+
+        evidence_paths = claim.get("evidence_paths")
+        if not isinstance(evidence_paths, list) or not evidence_paths:
+            errors.append(f"{label}.evidence_paths: expected a non-empty list")
+        else:
+            for evidence_index, path in enumerate(evidence_paths):
+                resolve_repo_path(
+                    repo_root,
+                    path,
+                    f"{label}.evidence_paths[{evidence_index}]",
+                    errors,
+                )
+
+        scope_exits = claim.get("scope_exits")
+        if (
+            not isinstance(scope_exits, list)
+            or not scope_exits
+            or not all(isinstance(item, str) and item for item in scope_exits)
+        ):
+            errors.append(f"{label}.scope_exits: expected non-empty strings")
+
+    if len(claim_ids) != len(set(claim_ids)):
+        errors.append("claim_ledger.claims: duplicate ids")
+
+    text_to_guard = "\n".join(claim_statements) + "\n" + current_surface_text
+    for formulation in forbidden:
+        if not isinstance(formulation, str) or not formulation:
+            errors.append(
+                "claim_ledger.forbidden_current_formulations: entries must be "
+                "non-empty strings"
+            )
+        elif formulation in text_to_guard:
+            errors.append(
+                "claim_ledger: forbidden formulation found in current claim surface: "
+                f"{formulation!r}"
+            )
+
+
 def validate(manifest: dict[str, Any], repo_root: Path) -> tuple[list[str], dict[str, Any]]:
     errors: list[str] = []
     repo_root = repo_root.resolve()
 
-    if manifest.get("schema_version") != 1:
-        errors.append("schema_version: expected 1")
+    if manifest.get("schema_version") != 2:
+        errors.append("schema_version: expected 2")
 
     paper_path = resolve_repo_path(repo_root, manifest.get("paper"), "paper", errors)
     paper_text = paper_path.read_text(encoding="utf-8") if paper_path else ""
 
-    claim_map = resolve_repo_path(repo_root, manifest.get("claim_map"), "claim_map", errors)
+    claim_ledger_path = resolve_repo_path(
+        repo_root, manifest.get("claim_ledger"), "claim_ledger", errors
+    )
+    historical_claim_map = resolve_repo_path(
+        repo_root,
+        manifest.get("historical_claim_map"),
+        "historical_claim_map",
+        errors,
+    )
+    if claim_ledger_path:
+        try:
+            claim_ledger = load_json(claim_ledger_path)
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            errors.append(f"claim_ledger: cannot load: {exc}")
+        else:
+            surface_texts: list[str] = []
+            for index, path in enumerate(claim_ledger.get("current_surfaces", [])):
+                surface = resolve_repo_path(
+                    repo_root,
+                    path,
+                    f"claim_ledger.current_surfaces[{index}]",
+                    errors,
+                )
+                if surface:
+                    surface_texts.append(surface.read_text(encoding="utf-8"))
+            validate_claim_ledger(
+                claim_ledger,
+                repo_root,
+                paper_text,
+                "\n".join(surface_texts),
+                errors,
+            )
     lean_surface = manifest.get("lean_surface")
     if not isinstance(lean_surface, list) or not lean_surface:
         errors.append("lean_surface: expected a non-empty list")
@@ -121,13 +301,15 @@ def validate(manifest: dict[str, Any], repo_root: Path) -> tuple[list[str], dict
             )
         commands = lean_reproduction.get("commands")
         expected_commands = {
-            "lake build",
+            "lake -Kjobs=1 build +GUFormalization.LocatedNotForcedFiniteCore",
             "lake env lean tests/located-not-forced/H2_FiniteCore.lean",
+            "lake env lean tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+            "lake env lean tests/located-not-forced/V15_KreinTransversality.lean",
         }
         if not isinstance(commands, list) or set(commands) != expected_commands:
             errors.append(
-                "lean_reproduction.commands: expected the whole-project build and "
-                "targeted H2 smoke command"
+                "lean_reproduction.commands: expected the targeted finite-core build "
+                "and paper-facing smoke certificates"
             )
         if not isinstance(lean_reproduction.get("scope_note"), str) or not lean_reproduction[
             "scope_note"
@@ -367,7 +549,14 @@ def validate(manifest: dict[str, Any], repo_root: Path) -> tuple[list[str], dict
         "status": "PASS" if not errors else "FAIL",
         "manifest": str(manifest.get("title", "")),
         "paper": str(manifest.get("paper", "")),
-        "claim_map": str(manifest.get("claim_map", "")) if claim_map else None,
+        "claim_ledger": (
+            str(manifest.get("claim_ledger", "")) if claim_ledger_path else None
+        ),
+        "historical_claim_map": (
+            str(manifest.get("historical_claim_map", ""))
+            if historical_claim_map
+            else None
+        ),
         "static_check_calls": actual_static,
         "runtime_checks": len(entries),
         "coverage": {
@@ -416,7 +605,8 @@ def main() -> int:
             f"{coverage['same_code_path']} same-code-path only; "
             f"{coverage['no_second_path']} no second path"
         )
-        print(f"  claim map: {summary['claim_map']}")
+        print(f"  claim ledger: {summary['claim_ledger']}")
+        print(f"  historical claim map: {summary['historical_claim_map']}")
         print("  note: this validates declarations; run reproduce_all.py to execute evidence")
     return 1 if errors else 0
 

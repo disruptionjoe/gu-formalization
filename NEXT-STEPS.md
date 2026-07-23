@@ -263,12 +263,19 @@ updated_at: "2026-07-22"
 > until all four reopen conditions in its portfolio entry are met. Receipt:
 > `explorations/mirror-sector-prediction-candidate-disposition-2026-07-21.md`.
 >
-> **Lane 3 current leader:** `PROOF-STABLE-KERNELS`. First establish the default-target green baseline, integrate
-> the sorry-free and axiom-free `R4_TwoArena` certificate, retire the un-typechecked A1 duplicate, and only then
-> specify the W243/GU-002 finite kernel. Lean is a method in Lane 3, not its own lane, and never rises merely
-> because it is easier. `observer-value-selection-theorem` is locally ready for external eyes and
-> `located-not-forced` is internally arXiv-ready but Joe-deferred. Both remain `NEEDS_JOE`, not routine polish
-> or repeated escalation; the existing JoeOps awareness path is sufficient unless a new material signal appears.
+> **2026-07-23 Lane 3 LNF v2.15 closeout:** `LNF-V2.15-HARDENING` completed all
+> ten packages and no longer consumes the temporary direct-priority signal.
+> The queue and exact receipts are in
+> `papers/candidates/located-not-forced/HARDENING-QUEUE.md` and
+> `papers/candidates/located-not-forced/review/V15-10-hostile-closeout-2026-07-23.md`.
+> The title and finite “located, not forced” obstruction survive. The exact
+> certified domain is `C_fin`; unrestricted `C_inv`, wider C6, true-`Y14`
+> selection, physical realization beyond the computed half/closure fork, and
+> external replication remain declared residuals. Zenodo still does not wait
+> for external review. Markdown is internally hardened; TeX/PDF/package
+> rebuilding and immutable identity wait for final Joe-directed publication
+> preparation. Restore ordinary cross-lane selection; do not rerun this
+> campaign as substitute work.
 >
 > **Lane A controls:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,
 > and `GUS` run IDs plus semantic dated filenames. Lane A alone routinely writes the portfolio and this block.

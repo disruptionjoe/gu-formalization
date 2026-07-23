@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "title": "Located, Not Forced load-bearing-number evidence manifest",
   "as_of": "2026-07-23",
   "paper": "papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md",
@@ -19,20 +19,25 @@
       "runtime_minus_static": 2
     }
   },
-  "claim_map": "papers/candidates/located-not-forced/review/HQW-LEAD-premise-flag-map-and-gu-dependency-2026-07-14.md",
+  "claim_ledger": "papers/candidates/located-not-forced/CLAIM-AND-PREMISE-LEDGER.json",
+  "historical_claim_map": "papers/candidates/located-not-forced/review/HQW-LEAD-premise-flag-map-and-gu-dependency-2026-07-14.md",
   "lean_surface": [
     "Lean/GUFormalization/LocatedNotForcedLegs.lean",
     "Lean/GUFormalization/R4TwoArena.lean",
     "Lean/GUFormalization/LocatedNotForcedFiniteCore.lean",
-    "tests/located-not-forced/H2_FiniteCore.lean"
+    "tests/located-not-forced/H2_FiniteCore.lean",
+    "tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+    "tests/located-not-forced/V15_KreinTransversality.lean"
   ],
   "lean_reproduction": {
     "h2_origin_commit": "33549a781f3e2a53d1b6bd0707a838be3db59a0b",
     "commands": [
-      "lake build",
-      "lake env lean tests/located-not-forced/H2_FiniteCore.lean"
+      "lake -Kjobs=1 build +GUFormalization.LocatedNotForcedFiniteCore",
+      "lake env lean tests/located-not-forced/H2_FiniteCore.lean",
+      "lake env lean tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+      "lake env lean tests/located-not-forced/V15_KreinTransversality.lean"
     ],
-    "scope_note": "The H2 finite core proves exhaustiveness and 2-primary arithmetic closure for its encoded finite type. It does not reconstruct the explicit 192-dimensional carrier census, conflate the split/Krein row with a positive-Hilbert premise, or close the true-Y14/source-action residual."
+    "scope_note": "The finite core proves exhaustiveness and typed 2-primary closure for its encoded finite type. Only genuine finite-torsion rows have moduli; integer equality/divisibility, representation dimensions, and diagnostics remain distinct, and CRT requires an explicit torsion-valued map. The Krein module proves a finite complex Hermitian transversality implication. Lean does not reconstruct the explicit carrier, transfer the compact packet to the physical Lorentzian bundle, or close the true-Y14/source-action residual."
   },
   "classification_policy": {
     "independent_derivation": "A different file and substantively different derivation or proof path confirms the full declared expectation. A rerun of shared implementation code does not qualify.",
@@ -51,7 +56,7 @@
     "A Z/3 torsion class is not an integer generation count; Hom(Z/3,Z)=0.",
     "Krein-space and positive-Hilbert-space constructions are distinct and must not be conflated.",
     "The true-Y14/source-action relative-index residual remains open.",
-    "All evidence is internal-tier reproduction unless and until an external reviewer independently replicates it."
+    "All current evidence is internal-tier reproduction. External replication is optional for Zenodo publication and required only before claiming an external-validation grade."
   ],
   "entries": [
     {
@@ -253,9 +258,9 @@
       "expected": "(+96,-96,0)",
       "source": {
         "section": "Sections 2, 3, and 6",
-        "anchors": [
-          "signature exactly `(+96, -96)`",
-          "cross-chirality with signature `(+96, -96)`"
+      "anchors": [
+        "signature exactly `(+96, -96)`",
+        "cross-total-chirality, Hermitian signature exactly `(+96, -96)`"
         ]
       },
       "primary": {
@@ -317,9 +322,9 @@
       "expected": "both block norms < 1e-9",
       "source": {
         "section": "Section 6, Theorem 2 premises",
-        "anchors": [
-          "cross-chirality `(96,96)`",
-          "chirality eigenspaces `W_+`, `W_-` maximal totally K-isotropic"
+      "anchors": [
+        "the `(96,96)` theorem instance above",
+        "relative to two totally K-isotropic subspaces `W_+` and"
         ]
       },
       "primary": {
@@ -381,9 +386,9 @@
       "expected": "both block norms < 1e-9",
       "source": {
         "section": "Section 6, signature cross-check",
-        "anchors": [
-          "difference in `(9,5)` and `(7,7)`",
-          "cross-chirality `(96,96)`"
+      "anchors": [
+        "difference in `(9,5)` and `(7,7)`",
+        "the `(96,96)` theorem instance above"
         ]
       },
       "primary": {
@@ -493,9 +498,9 @@
         "path": "Lean/GUFormalization/LocatedNotForcedLegs.lean",
         "method_family": "lean_submodule_intersection_proof",
         "confirms": "full_expectation",
-        "evidence_tokens": [
-          "theorem antilinear_bound",
-          "chi K P CWp CWm = 0"
+      "evidence_tokens": [
+        "theorem intersectionDifference_eq_zero",
+        "intersectionDifference P Wp Wm = 0"
         ],
         "note": "Lean proves the implication from K-positive/K-isotropic premises; Python independently certifies the finite-model algebraic premises."
       }
@@ -727,9 +732,9 @@
       "expected": "1/12",
       "source": {
         "section": "Section 7, located order-3 carrier",
-        "anchors": [
-          "e_R = p_1/48 = 1/12",
-          "p_1 = 4"
+      "anchors": [
+        "e_R = +/- p_1/48 = +/- 1/12",
+        "p_1 = +/- 4"
         ]
       },
       "primary": {
@@ -759,9 +764,9 @@
       "expected": "order 12, 3-part order 3",
       "source": {
         "section": "Section 7, located order-3 carrier",
-        "anchors": [
-          "projected Z/3 component is nonzero and has order 3",
-          "e_R = p_1/48 = 1/12"
+      "anchors": [
+        "projected 3-primary components order 3",
+        "e_R = +/- p_1/48 = +/- 1/12"
         ]
       },
       "primary": {

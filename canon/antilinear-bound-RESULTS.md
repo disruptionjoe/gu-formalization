@@ -16,6 +16,18 @@ depends_on:
 
 # The antilinear bound: from finite adversarial hunt to delimited theorem
 
+> **v2.15 typing and transfer correction (2026-07-23).** The exact finite
+> theorem is a complex Hermitian transversality statement about
+> `intersectionDifference`, not a physical handedness or Fredholm index. Its
+> compact `192`-dimensional `(96,96)` instance does not transfer unchanged to
+> one physical Lorentzian Hodge half: that half is K-null and physical
+> conjugation exchanges it with the opposite half. The computed
+> conjugation-stable closure has dimension `384` and signature `(192,192)`.
+> Physical conjugation preserves total 14d chirality while swapping base and
+> internal chirality separately. Current authority:
+> `papers/candidates/located-not-forced/review/V15-1-physical-signature-transfer-audit-2026-07-23.md`
+> and `Lean/GUFormalization/LocatedNotForcedLegs.lean`.
+
 **Work card:** WC-ANTILINEAR-BOUND (NEXT-STEPS.md, 2026-07-02 publication-gating section;
 journal-gating, priority 2). **Outcome: (a)+(b) -- a non-existence PROOF over a rigorously
 delimited class, with exhaustive certificates on every rung of a declared symmetry ladder

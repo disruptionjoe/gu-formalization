@@ -7,15 +7,15 @@ authors:
     given-names: Joseph
     affiliation: Independent Researcher
     email: joe@disruptionjoe.com
-date-released: 2026-07-23
-version: 1.0.0
+version: 2.15-draft
 license: CC-BY-4.0
 repository-code: "https://github.com/disruptionjoe/gu-formalization"
 abstract: >-
-  For a delimited encoded class in an explicit Clifford Rarita-Schwinger
-  carrier, finite torsion constraints are 2-primary and integer-valued
-  rows carry parity or divisibility content; none selects the integer
-  three. A finite Krein intersection theorem and the standard
+  For the exact encoded finite type C_fin in an explicit Clifford
+  Rarita-Schwinger carrier, finite torsion constraints are 2-primary;
+  integer equality/divisibility, dimensions, and diagnostics remain
+  separately typed; none selects the integer three. A finite complex
+  Krein intersection theorem and the standard
   Z/24 = Z/8 + Z/3 decomposition are kept in their proper codomains.
   The exhibited framed class has order 12 with a nonzero order-three
   projection, not an integer generation count. The work does not derive

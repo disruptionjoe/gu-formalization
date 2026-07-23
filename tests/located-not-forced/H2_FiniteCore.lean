@@ -25,15 +25,14 @@ example : crossLinearBlockMatches = ∅ :=
   no_cross_linear_block_match
 
 example :
-    [CoreItem.kramers.modulus,
-      CoreItem.realPseudoreal.modulus,
-      CoreItem.crossChiralityKrein.modulus,
-      CoreItem.adjointComposition.modulus,
-      CoreItem.rokhlin.modulus,
-      CoreItem.spinorParity.modulus,
-      CoreItem.ghostParity.modulus] =
-      [2, 2, 4, 8, 16, 2, 2] :=
-  core_moduli_exact
+    [FiniteTorsionRow.kramers.modulus,
+      FiniteTorsionRow.realPseudoreal.modulus,
+      FiniteTorsionRow.rokhlin.modulus] =
+      [2, 2, 16] :=
+  finite_torsion_moduli_exact
+
+example : Fintype.card CoreItem = 7 :=
+  core_item_count
 
 example : Fintype.card ClassCGenerator = 15 :=
   finite_generator_count
@@ -42,9 +41,12 @@ example (generator : ClassCGenerator) :
     generator ∈ finiteGeneratorSet :=
   finite_generator_enumeration_complete generator
 
-example (generator : ClassCGenerator) :
-    IsTwoPrimaryModulus generator.modulus :=
-  generator_two_primary generator
+example (row : FiniteTorsionRow) :
+    IsTwoPrimaryModulus row.modulus :=
+  finite_torsion_row_two_primary row
+
+example : BoundedClassCConclusion :=
+  bounded_class_c_codomain_separated
 
 example (expression : CompositeModulus) :
     IsTwoPrimaryModulus expression.value :=
@@ -71,6 +73,7 @@ example (k : ℕ) : ¬ (3 ∣ 2 ^ k) :=
   TwoPrimary.spinor_dim_not_div_three k
 
 #print axioms finite_generator_count
+#print axioms bounded_class_c_codomain_separated
 #print axioms composite_modulus_two_primary
 #print axioms native_torsion_carrier_to_integer_index_zero
 

@@ -1,15 +1,16 @@
 #!/usr/bin/env python3
 """
-WC-ENUM-COMPLETENESS route (a): the class-C generator census on the Cl(9,5) carrier.
+WC-ENUM-COMPLETENESS route (a): the compact-carrier C1-C5 generator census.
 
 QUESTION.  The located-not-forced paper's Theorem 1 is proof-by-enumeration over 7 obstruction
 classes (Kramers, mod-2 Witten, cross-chirality Krein, adjoint index 4k, Rokhlin, spinor
 2-smoothness, ghost parity).  Completeness of the enumeration is open.  This script closes it
-for a precisely delimited class C by EXHAUSTIVELY COMPUTING the invariant-theoretic generators
+for the C1-C5 portion of the semantic class now called C_inv by exhaustively computing
+the invariant-theoretic generator spaces
 of all covariant sector-interior structures on the carrier and checking, generator by
 generator, that every obstruction each one can carry is 2-primary.
 
-CLASS C (the delimitation; boundary stated sharply in the RESULTS doc).  All structures on the
+SEMANTIC TARGET C_inv (the delimitation; boundary stated sharply in the RESULTS doc). Structures on the
 fixed 192-dim generation carrier W (the j=1 self-dual triplet of the gamma-traceless
 Rarita-Schwinger module of Cl(9,5), signature split 4+10) that are (anti)linear in the carrier
 and equivariant under the sector's split symmetry algebra G = so(4) (+) so(10) (real form
@@ -19,8 +20,9 @@ so(4) (+) so(5,5)), built from the sector's own data:
   (C3) G-invariant sesquilinear forms and their Krein signatures;
   (C4) G-equivariant antilinear intertwiners and their Kramers signs (C^2 = +-1);
   (C5) index-type integers of equivariant intertwiners between the chirality sectors;
-  (C6) characteristic-class invariants of the sector's own bundle data (spin structure,
-       named gauge reps, ghost grading) -- these are swept by the companion engine script.
+  (C6) the seven named characteristic/arithmetic rows -- swept by the companion
+       engine as a named finite list, not classified as all possible
+       characteristic constructions.
 EXCLUDED from C (the boundary): external backgrounds/spurion VEVs, extra global/discrete
 symmetries (e.g. a Z_9), non-equivariant operators, and function-space (Fredholm) structures.
 
@@ -53,11 +55,11 @@ structure, quaternionic per block: the Kramers wall acting within each chirality
 and NO chirality-swapping equivariant antilinear (an AZ-CII-type re-grading, the one antilinear
 shape that could escape) exists in class C at all.
 
-VERDICT CRITERION.  Class C is enumeration-complete iff every computed generator maps onto one
-of the paper's items (1)-(7) and carries only 2-primary obstruction content (any odd prime may
-enter only as the carrier multiplicity 3 multiplying a per-channel 2-primary value -- a
-dimension, not a congruence).  A generator imposing an odd-prime congruence on the net chiral
-count = FAILURE (report, do not patch).
+VERDICT CRITERION.  The C1-C5 lift is complete for the computed compact carrier
+iff every computed generator maps onto one of the encoded rows and carries
+only the declared typed content. C6 is a named-list input to C_fin, not an
+unrestricted classification theorem. A computed C1-C5 generator imposing an
+odd-prime congruence on a generation integer = FAILURE (report, do not patch).
 
 STAGING.  ENUM_STAGE=all (default) runs everything (< 90 s on a normal box).  ENUM_STAGE=1 /
 ENUM_STAGE=2 split at the robustness censuses with an .npz checkpoint, for sandboxes that cap
@@ -557,15 +559,18 @@ print(f"""
                                                      block C^2 = -1: Kramers Z/2; NO antilinear
                                                      re-grading (swap) exists in class C     [item 1/2]
     (C5) cross-chirality linear intertwiners dim 0  (commutant chirality-diagonal)           [item 3]
-    (C6) characteristic-class inputs        swept exactly by enum_extension_engine.py        [items 4-7]
+    (C6) named characteristic inputs        finite list swept by enum_extension_engine.py;   [items 4-7]
+                                            unrestricted characteristic lift remains open
 
-  Every generator's obstruction content is 2-primary (even splits, Z/2 Kramers, index 0);
-  the only odd factor anywhere is the carrier multiplicity 3 inside the DIMENSIONS
+  Every computed C1-C5 generator maps into the typed finite packet; finite-torsion
+  content is 2-primary, while equalities/dimensions remain in their own codomains.
+  The only odd factor anywhere is the carrier multiplicity 3 inside the DIMENSIONS
   192 = 2^6*3 and 96 = 2^5*3 -- located, not a congruence.  No generator imposes an
-  odd-prime congruence on a net chiral count.  Robust under shrinking the covariance
+  odd-prime congruence in the encoded finite rows.  Robust under shrinking the covariance
   to su(2)_+ + so(10) (dims 8/8/8/8) and to so(10) alone (dims 72/72/72/72).
 
-  ==> WITHIN CLASS C THE 7-ITEM ENUMERATION IS COMPLETE (computed grade; residuals above).
+  ==> C1-C5 LIFT TO C_fin IS COMPLETE FOR THIS COMPACT CARRIER (computed grade).
+      C6 and the unrestricted semantic C_inv lift remain open.
       (chirality-swapping antilinear generators found across all three covariance choices: """
       + str(n_swap_total) + """ -- must be 0)
 """)

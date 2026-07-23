@@ -1,6 +1,6 @@
 # Submission Runbook -- Located, Not Forced
 
-**Prepared:** 2026-07-09; hardened 2026-07-23. **Paper version:** v2.14 working draft.
+**Prepared:** 2026-07-09; hardened 2026-07-23. **Paper version:** v2.15 canonical Markdown.
 **Status:** HARDENING COMPLETE FOR MARKDOWN; FINAL PUBLICATION RECONCILE DEFERRED.
 **Purpose:** a single linear checklist Joe can follow when he sits down to submit. This consolidates the
 Joe-side steps that had accumulated across the readiness passes in `STAGING-NOTES.md` (v2.4 through v2.10).
@@ -13,12 +13,13 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 
 ## Where the paper stands
 
-- Headline result is a **conditional finite-census theorem** about an explicitly specified
-  GU-motivated carrier. The deduction does not require GU to be physically correct, but carrier selection
-  and Lorentzian interpretation are not GU-independent premises.
-- Both publication-gating work cards are **closed**: `WC-ENUM-COMPLETENESS` (class-C census complete, computed
-  grade) and `WC-ANTILINEAR-BOUND` (index-nullity theorem over the null-eigenspace class). Neither ever gated
-  the title claim.
+- Headline result is an exact theorem over `C_fin`, the encoded finite type,
+  plus a bounded computed lift toward semantic `C_inv`. The deduction does not
+  require GU to be physically correct, but carrier selection and physical
+  Lorentzian interpretation are not GU-independent premises.
+- The historical class-C and antilinear work cards are superseded in scope by
+  the v2.15 `C_fin`/`C_inv`, physical-signature, and typed finite Krein packets.
+  The title still survives.
 - Multiple internal adversarial passes, including the single-reviewer ten-lens H11 audit, have been
   completed. They are not independent external reviews. The generation **count stays OPEN**; three
   generations is explicitly not claimed.
@@ -38,7 +39,7 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
    the paper cites the public repo as its reproducibility backbone.
 2. **Reproducibility harness green.** From a clean checkout:
    `python papers/candidates/located-not-forced/reproduce_all.py` should exit 0 (31/31 checks). This is what an
-   external reviewer will run; confirm it before they do. **Pre-verified 2026-07-23: 31/31 passed, exit 0
+   reviewer can run; confirm it before release. **Pre-verified 2026-07-23: 31/31 passed, exit 0
    (~23s in the pinned research environment), with no runtime warning.**
 3. **`.tex`/`.md` parity.** Deferred by design during Markdown hardening. This is a publication gate, not a
    current research-draft gate.
@@ -59,15 +60,16 @@ bibliography contains the eligible candidates (Wan-Wang-Yau, Juven Wang, García
 - Start the arXiv submission first to receive your endorsement code, then send the note to one endorser.
 - **Joe-only.** Agents do not inspect/modify the arXiv account or send the request.
 
-### Step 1b (parallel) -- post publicly today with no endorsement
+### Step 1b (independent path) -- publish first on Zenodo
 
-If you want it live and citable immediately while the endorsement lead time runs, post to **Zenodo** (DOI, no
-gate, reputable). This does not block arXiv or a journal later. Checklist: `ZENODO-RELEASE-CHECKLIST.md`.
+Zenodo is the default first public stage for this research process and never waits for external review.
+External review is optional later and required only before claiming an external-validation grade. A Zenodo
+deposit does not block arXiv or a journal later. Checklist: `ZENODO-RELEASE-CHECKLIST.md`.
 Avoid viXra-style no-gate dumps -- they undercut the qualified/serious posture.
 
 ## Step 2 -- Compile and preview
 
-A preliminary v2.13 source compiled locally with Tectonic and was visually checked, but the canonical v2.14 Markdown has
+A preliminary v2.13 source compiled locally with Tectonic and was visually checked, but the canonical v2.15 Markdown has
 changed since. At final publication time, reconcile the TeX from the canonical Markdown, then compile and
 inspect:
 
@@ -87,16 +89,18 @@ below into the arXiv abstract field instead (no LaTeX macros; character-count it
 
 > We study an explicit gamma-traceless Clifford Rarita-Schwinger carrier motivated by Geometric Unity. The
 > Cl(9,5)=M(64,H) real module has real dimension 256; computations use its 128-dimensional complex
-> realization. In an explicitly encoded equivariant finite class C, finite torsion constraints are
-> 2-primary and integer-valued rows carry only parity or divisibility content; none supplies a mod-3
-> congruence or selects a particular odd integer. A finite Krein theorem proves zero intersection with the
-> maximal K-isotropic chiral subspaces, not a physical handedness count or Fredholm index. The standard
+> realization. In the explicitly encoded finite type C_fin, finite torsion constraints are 2-primary;
+> integer equality/divisibility, dimensions, and diagnostics remain separately typed; none supplies a
+> mod-3 congruence or selects a particular odd integer. A finite complex Krein theorem proves zero
+> intersection difference from positivity and isotropy, not a physical handedness count or Fredholm index.
+> Its compact (96,96) instance does not transfer unchanged: one Lorentzian Hodge half is K-null and the
+> computed conjugation-stable closure is (192,192). The standard
 > decomposition pi_3^s=Z/24=Z/8+Z/3 applies only after an explicit torsion-valued map. Under a stated
 > tangential-framing reconstruction, an exhibited class has order 12 and a nonzero order-3 projection, but
 > Hom(Z/3,Z)=0 prevents it from being an integer count. Non-equivariant operators, Lorentzian bundle
 > transfer, and the true Y14 source-action pushforward remain open. We do not claim three generations or a
 > universal no-go. All verification is internal to the same AI-directed process; external replication and
-> peer review are requested.
+> peer review are welcome as optional later validation.
 
 ## Step 4 -- Submit
 

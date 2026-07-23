@@ -1,19 +1,26 @@
 # Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier
 
-**Draft for external review. This paper does NOT claim three generations.** The conditional mathematical
+**Public preprint draft. This paper does NOT claim three generations.** The conditional mathematical
 results do not require Geometric Unity to be physically correct, but the choice of carrier and its proposed
-physical interpretation are GU-motivated; every GU-specific step is marked motivated or reconstruction-grade. Five
+physical interpretation are GU-motivated; every GU-specific step is marked motivated or reconstruction-grade. Six
 load-bearing caveats hold throughout: **(a)** the torsion-count reading is a *premise, not a result* -- under a
 literal integer-index reading the same obstructions would instead *forbid* an odd count outright; **(b)** the
 projected order-3 component cannot literally *be* an integer count, since `Hom(Z/3, Z) = 0` (no homomorphism from a torsion
-group to a torsion-free one is nonzero); **(c)** the class-C result is complete only for its encoded
-equivariant finite carrier data and listed controls; non-equivariant operators, external backgrounds, and the
+group to a torsion-free one is nonzero); **(c)** the exact theorem domain `C_fin` is the encoded
+fifteen-generator finite type; transfer to the broader semantic invariant class `C_inv` is computed for
+C1--C5 but remains conditional for the named characteristic/analytic remainder; non-equivariant operators,
+external backgrounds, and the
 true-`Y14` source-action pushforward remain open, so externality is not proved; **(d)** Theorem 2 is a finite
 Krein intersection-nullity theorem, not a physical handedness count, Hilbert-space positivity claim, or
 Fredholm index. At canon grade, faithful stand-ins discharge the conditional APS/end/gap/family terms;
-transfer to the true Rarita-Schwinger `Y14` bundle remains open; **(e)** every verification reported here is *internal* -- computations reproduced from scratch and
+transfer to the true Rarita-Schwinger `Y14` bundle remains open; **(e)** the compact/complexified
+`192`, `(96,96)`, and `(2,2,2,2,0)` packet is not silently identified with a physical Lorentzian real-form
+packet: one Lorentzian Hodge half is `192`-dimensional but Krein-null and is exchanged by physical
+conjugation, while the computed conjugation-stable closure is `384`-dimensional with signature
+`(192,192)`; **(f)** every verification reported here is *internal* -- computations reproduced from scratch and
 adversarially reviewed within the same AI-directed process that produced them; no result has yet been
-independently replicated or peer-reviewed. See Sections 1 and 9.
+externally replicated or peer-reviewed. External review is welcome but is not a prerequisite for public
+Zenodo deposit; it is required before describing the work as externally validated. See Sections 1 and 9.
 
 *Canonical hardening source: this Markdown file. The adjacent
 [`located-not-forced-generation-count-2026-06-29.tex`](located-not-forced-generation-count-2026-06-29.tex)
@@ -22,11 +29,12 @@ Suggested classification: primary **hep-th**; secondary
 **math-ph**, **math.AT**. Keywords: generation number, family puzzle, Rarita-Schwinger, primary decomposition,
 index theorem, framed bordism, Adams e-invariant, anomaly inflow, chirality.*
 
-Internal version 2.14, 2026-07-23. The current ten-lens hardening pass corrects the real/complex
-Clifford-module type, narrows the irreducible-spinor lemma, exposes the compact/Lorentzian transfer premise,
-separates family-unit normalization from generation counting, and places exact ceilings on the finite
-enumeration, Lean, framing, and anomaly evidence. Detailed history is retained in the adjacent changelog and
-review files rather than in the manuscript.
+Internal version 2.15, 2026-07-23. This hardening pass separates `C_fin` from
+`C_inv`, retypes the Lean theorem by codomain, formalizes the finite complex
+Krein lemma, audits the physical Lorentzian real-form transfer, fixes the full
+framing convention chain, and replaces the historical claim map with a
+machine-validated current ledger. Detailed history is retained in the
+adjacent changelog and review files rather than in the manuscript.
 
 ---
 
@@ -41,13 +49,17 @@ below are complex dimensions. The sector is motivated by, and
 reconstructed from, the matter proposal of Geometric Unity (GU); every GU-specific step is marked, and none
 of the conditional finite-dimensional deductions depends on GU being physically correct.
 
-We prove a codomain-separated **two-primary finite-census theorem**: in an encoded delimited class C of
-covariant, sector-interior structures, finite torsion constraints are 2-primary and integer-valued rows carry
-only parity/divisibility content; none supplies a mod-3 congruence or selects a particular odd integer. Listed
-first-step departures outside C are controls, not an exhaustive classification beyond C. We also prove a
-finite **Krein intersection theorem**: a maximal positive subspace of the cross-chirality `(96,96)` carrier
+We prove a codomain-separated **two-primary finite-census theorem** for `C_fin`, the explicitly encoded
+fifteen-generator finite type: finite torsion constraints are 2-primary; integer equality/divisibility rows,
+representation dimensions, and diagnostics remain in distinct codomains; and no constructor supplies a
+mod-3 congruence or selects a particular odd integer. A computed C1--C5 lift relates this finite type to the
+broader semantic invariant class `C_inv`, but the unrestricted characteristic/analytic lift remains open.
+Listed first-step departures are controls, not an exhaustive classification beyond `C_fin`. We also prove a
+finite **Krein intersection theorem** on the compact/complexified `(96,96)` packet: a maximal positive subspace
 intersects each chiral Lagrangian trivially. This does not count the physical left-minus-right handedness of
-its vectors and is not a Fredholm index.
+its vectors and is not a Fredholm index. The physical-signature audit keeps one Lorentzian Hodge half at
+complex dimension `192`, but finds that it is Krein-null and exchanged by physical conjugation; its
+conjugation-stable closure has complex dimension `384` and signature `(192,192)`.
 
 The standard decomposition `pi_3^s = Z/24 = Z/8 (+) Z/3` separates torsion data already mapped into those
 summands. It does not move the paper's integer-valued constraints into `Z/8` or an integer generation count
@@ -65,7 +77,7 @@ it **gated** on an unbuilt object (the stabilized twisted Rarita-Schwinger sourc
 Pati-Salam `Spin(7,7)` branch verifies that one `Spin(10)` `16` contains one Standard-Model family; this is a
 family-unit normalization, not an observable that counts how many such families occur. A toy of the missing source action,
 built and adversarially tested four ways, does **not** fill the forcing slot -- every tested integer is even
-or one -- but this remains bounded negative evidence. None of the encoded class-C constructions or listed
+or one -- but this remains bounded negative evidence. None of the `C_fin` constructions or listed
 controls supplies a typed integer generation count. We do not infer that the count is necessarily external,
 because non-equivariant operators and the true Rarita-Schwinger `Y14` source-action pushforward remain open.
 We therefore do **not** claim three generations.
@@ -73,10 +85,11 @@ We claim a scoped non-derivation that *locates*: after an explicit map into `Z/2
 determine the separate `Z/3` component; the exhibited framed class has a nonzero 3-primary projection. We pose the
 `3-primary torsion component -> integer 3` identification as the single named open conjecture (and a candidate
 category error). Primary decomposition and positive uses of its 3-primary content are prior art. The
-search-bounded candidate delta is only the carrier-specific inverse assembly: the explicit cross-chirality
+search-bounded candidate delta is only the carrier-specific inverse assembly: the explicit compact/complexified
+cross-chirality
 Clifford-RS carrier, a scoped 2-primary sector-interior result, and the inference that those data cannot
 determine the separate 3-primary torsion component. External review of both the core results and the open
-bridge is requested.
+bridge is invited as an optional later validation stage.
 
 ---
 
@@ -94,18 +107,19 @@ anomaly is itself genuinely 3-primary, consistent with the thesis that an odd co
 This paper turns that obstacle into a positive structural statement, in one explicit sector, and then tests
 the strongest possible reading of it by direct computation. Our contributions:
 
-1. **A codomain-separated 2-primary finite-census theorem (Section 4).** No item in the encoded class-C list
+1. **A codomain-separated 2-primary finite-census theorem (Section 4).** No item in the exact `C_fin` type
    supplies an odd-prime congruence or selects a particular odd integer. Finite torsion rows are 2-primary;
-   integer rows remain `Z`-valued parity/divisibility constraints. Listed outside-C controls are not an
-   exhaustive classification beyond C.
+   integer rows remain `Z`-valued parity/divisibility constraints; dimensions and diagnostics remain
+   separately typed. The C1--C5 lift toward `C_inv` is computed, while the broader lift and listed outside
+   controls are not an exhaustive classification.
 2. **A CRT two-arena structure (Section 5).** `pi_3^s = Z/24 = Z/8 (+) Z/3` splits, by the Chinese Remainder
    Theorem, into disjoint summands. If an explicit map places a finite sector constraint in `Z/8`, that image
    cannot determine the separate `Z/3` component. No such statement is made for the `Z`-valued rows or an
    integer generation count.
-3. **A finite Krein intersection theorem and bounded operator audit (Section 6).** Every maximal K-positive
+3. **A finite Krein intersection theorem and bounded operator audit (Section 6).** Every strictly K-positive
    subspace intersects each chiral Lagrangian trivially, and linear K-isometries preserve that nullity. This is
    not a physical handedness count. The same intersection statement holds for a delimited class of antilinear
-   K-null re-gradings. No encoded class-C construction supplies the missing integer generation operator;
+   K-null re-gradings. No `C_fin` construction supplies the missing integer generation operator;
    unrestricted and true-`Y14` constructions remain open.
 4. **A located 3-primary carrier (Section 7).** The self-dual `Lambda^2_+` tangential framing on the `RP^3`
    spine carries `e_R = 1/12`. The full class has order 12, while its projected `Z/3` component is nonzero and
@@ -117,7 +131,7 @@ the strongest possible reading of it by direct computation. Our contributions:
    `Spin(10)` `16` to one Standard-Model family but does not count the number of copies.
    We do not force three.
 6. **The open conjecture (Section 9).** `3-primary torsion component -> integer 3` is a theorem of nothing in the present
-   literature and is a candidate category error. We state it as the single open bridge and request review.
+   literature and is a candidate category error. We state it as the single open bridge and invite review.
 
 The robust content is conditional mathematics about an explicitly specified carrier: the codomain audit,
 finite intersection theorem, standard CRT decomposition, and framed-class calculation. The selection of
@@ -150,11 +164,23 @@ ker(Gamma) = 640 (singlets) + 832 (doublets) + 192 (triplets),
 
 verified numerically (`tests/generation-sector/h1_selfdual_family_kill.py`). The complex
 `192`-dimensional `j=1` sector is the multiplicity-three structure in this computational model. More precisely, its
-two chiral blocks have the form `(3,2,16)` and `(3,2,16bar)`, each of complex dimension 96. The relevant
+two total-chirality blocks have the form `(3,2,16)` and `(3,2,16bar)`, each of complex dimension 96. The relevant
 invariant Hermitian form is the `so(p,q)`-invariant Krein form `K = eta_V (x) beta_S`; on the triplet it is purely
-cross-chirality, Hermitian signature exactly `(+96, -96)`. This is an indefinite Krein statement, not a physical
+cross-total-chirality, Hermitian signature exactly `(+96, -96)` in the compact baseline. This is an indefinite
+Krein statement, not a physical
 left-minus-right state count. The sector is multiplicity-three, while a typed physical chirality operator or
 index remains separate and unbuilt.
+
+**Physical-real-form discriminator.** Direct construction with the
+`(3,1)+(6,4)` split preserves the complex dimension `192` and the `96+96`
+total-chirality branching for either Hodge-star half, but each half is
+Krein-null and physical quaternionic conjugation exchanges the two halves.
+Their conjugation-stable closure has complex dimension `384` and Krein
+signature `(+192,-192)`. Physical conjugation preserves total
+14-dimensional chirality while swapping base and internal chirality
+separately. Thus the compact packet is the exact premise of the finite
+theorems below; selection of a physical carrier on the true `Y14` bundle
+remains reconstruction-grade.
 
 ---
 
@@ -212,7 +238,8 @@ in principle host a horizontal `su(3)` -- is not covered here and is a bounded o
 constrains the irreducible-dimension part of that search.
 
 **But the triplet does not by itself supply a chiral count.** The invariant Krein form
-`K = eta_V (x) beta_S` on the triplet is purely cross-chirality with signature `(+96, -96)`. Theorem 2 proves
+`K = eta_V (x) beta_S` on the compact/complexified triplet is purely cross-total-chirality with signature
+`(+96, -96)`. Theorem 2 proves
 only a finite Krein-side intersection nullity: a maximal K-positive subspace contains no nonzero vector lying
 wholly in either chiral Lagrangian. It does not count the handedness of the 96 physical vectors, because a
 generic graph vector has components in both chiral spaces. Turning the specified multiplicity three into a net
@@ -230,41 +257,47 @@ constraint is called **2-adic/parity-valued** here only when its content is divi
 These are different codomains: a `Z`-valued equality or index is not an element of `Z/8` unless an explicit
 reduction or torsion-valued map is supplied.
 
-**Theorem 1 (complete for the explicitly encoded delimited class C).** *Among the constraints on a candidate generation
-count enumerated for this sector, none supplies an odd-prime congruence or selects a particular odd integer.
-The finite torsion constraints are 2-primary; the integer-valued equalities and indices are parity/divisibility
-constraints and remain `Z`-valued. The enumeration is complete for the encoded delimited class C (linear
-or antilinear on the carrier, equivariant under the sector's split symmetry `so(4) (+) so(10)`, built from the
-sector's own data). Listed first-step departures outside C -- gauge-twist, boundary/`eta`, composition and
-dressed-pairing controls -- were tested but are not an exhaustive classification outside C. Odd primes appear
-after importing OUT-side data (`54 -> 3`, `120 -> 7`, `126 -> 5.7`). Completeness over the full unrestricted operator theory -- external
-backgrounds, gauge twists by reps the sector does not contain, and the function-space / Fredholm setting --
-remains open; the claim is not an impossibility statement over all conceivable obstructions.*
+**Theorem 1 (complete for `C_fin`).** *Let `C_fin` be the fifteen-constructor finite type encoded in
+`Lean/GUFormalization/LocatedNotForcedFiniteCore.lean`, together with finite product, gcd, and lcm expressions
+over its torsion-valued atoms. Its finite-torsion rows have moduli `2`, `2`, and `16` and remain 2-primary
+under those operations. Its integer equality and divisibility rows remain `Z`-valued; its representation
+dimensions and rank diagnostics remain in their own codomains. No constructor has the codomain of a selected
+generation integer, and no encoded finite-torsion modulus has an odd-prime divisor. In particular, `C_fin`
+supplies neither a mod-3 congruence nor a particular odd integer.*
+
+The broader semantic class `C_inv` denotes all linear or antilinear structures on the fixed carrier that are
+equivariant under the stated split symmetry and use only sector-internal data. The compact carrier computation
+provides a bounded C1--C5 lift into `C_fin`; C6 is certified only as the seven named characteristic/arithmetic
+rows, not as a classification of every possible sector characteristic construction. Completeness over
+unrestricted `C_inv`, the physical Lorentzian bundle, external backgrounds, added gauge twists, and the
+function-space/Fredholm setting remains open. Listed gauge-twist, boundary/`eta`, composition, and
+dressed-pairing departures are controls rather than a classification; odd primes appear after importing
+outside data (`54 -> 3`, `120 -> 7`, `126 -> 5.7`).*
 (The loose "even" reading is near-vacuous -- `96 = 2^5 . 3` is even; the content is the modular statement, that no
 enumerated obstruction is a mod-odd-prime condition.)
 
-| Boundary | IN class C | OUT of class C |
-|---|---|---|
-| Carrier | Fixed 192-dimensional `j=1` Clifford-RS generation carrier | Added fields, representations, or spurions not present in the carrier |
-| Maps | Linear or antilinear carrier maps equivariant under `so(4) (+) so(10)` | Non-equivariant maps or an added global/discrete symmetry such as `Z/9` |
-| Data | Invariant forms, traces, graded traces, Kramers signs, sector index data, and characteristic classes from the sector's own bundles | External backgrounds, non-sector gauge twists, or background vacuum expectation values |
-| Analytic setting | Finite carrier and sector-interior algebraic/index data | Full section-space, Fredholm, APS/family-index, and true-`Y14` source-action data |
+| Boundary | Exact `C_fin` theorem domain | Conditional `C_inv` target | Outside both |
+|---|---|---|---|
+| Carrier | Fifteen encoded generators over the compact/complexified carrier packet | All invariant structures on that fixed carrier, subject to a proved/computed lift | Added fields, representations, spurions, or a different physical carrier |
+| Maps | Encoded linear, bilinear, sesquilinear, antilinear, and named characteristic rows | All linear or antilinear maps equivariant under the stated split symmetry | Non-equivariant maps or an added global/discrete symmetry such as `Z/9` |
+| Data | Three finite-torsion rows, one integer-equality row, one integer-divisibility row, one representation-dimension row, and one diagnostic row | Other sector-internal invariant data, if normalized to the finite constructors | External backgrounds, non-sector gauge twists, or background expectation values |
+| Analytic setting | Finite carrier arithmetic only | Finite invariant carrier theory | Section-space, Fredholm, APS/family-index, and true-`Y14` source-action data |
 
-Here **OUT** means outside the theorem's quantified class, not impossible or physically inadmissible. The
-extension engine tests several first-step departures from C as adversarial controls; odd-primary factors appear
+Here **outside** means outside the theorem's quantified class, not impossible or physically inadmissible. The
+extension engine tests several first-step departures from `C_fin` as adversarial controls; odd-primary factors appear
 only after importing data on the OUT side of this boundary.
 
 **Completeness certificate and proof boundary.** “Complete” means complete for the finite generator type
-encoded by the carrier census, not complete for every map satisfying the prose description in the table by
-definition alone. The exact/computed carrier scripts
+`C_fin`, not complete for every map satisfying the semantic `C_inv` prose by definition alone. The
+exact/computed compact-carrier scripts
 `tests/enum-completeness/enum_class_c_generators.py` and
 `tests/enum-completeness/verify/indep_check.py` supply the two-block Schur-matching packet
 `2/2/2/2/0`; `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` proves exhaustiveness, row assignment,
-and arbitrary product/gcd/lcm 2-primary closure for the finite type built from that supplied packet. Lean
-does not reconstruct the 192-dimensional matrices or prove that the physical carrier realizes the supplied
-Hom-space census. Thus carrier faithfulness is exact-script/computed evidence; the finite deduction from the
-encoded census is machine-checked; and the unrestricted representation/function-space classification remains
-open.
+and product/gcd/lcm closure only for genuinely torsion-valued atoms. It types integer equality/divisibility,
+representation dimensions, and diagnostics separately, and its CRT projection API accepts only an explicit
+torsion-valued map into `Z/24`. Lean does not reconstruct the matrices or prove physical carrier faithfulness.
+The bounded lift and its open exits are recorded in
+`review/V15-2-cfin-cinv-lifting-audit-2026-07-23.md`.
 
 **Proof (enumeration and codomain audit, conditional on that certificate).** (1) Kramers / quaternionic wall (`J^2 = -1`): a `Z/2` statement.
 (2) Real / pseudoreal non-chirality: the mod-2 Witten index, `Z/2`-valued. (3) Cross-chirality Krein
@@ -286,7 +319,7 @@ odd-prime congruence or selects a specific odd integer, with `Z`-valued and tors
 `so(4) (+) so(10)`-equivariant finite carrier, full chirality is central in the even Clifford algebra. By
 Schur, each irreducible summand sits wholly in one chirality, and the tested count lattice is
 `{ sum_R d_R (k_R - l_R) }`. Every appearing irreducible in this decomposition has even dimension, so this
-specific equivariant lattice is even. This corroborates the class-C census; it does not classify
+specific equivariant lattice is even. This corroborates the compact `C_fin` census; it does not classify
 non-equivariant operators, alternative physical state spaces, or function-space/source-action constructions
 (`explorations/big-swing-2026-07-03/R1-rs-operator-residual-and-odd-count-nogo.md`,
 `tests/big-swing/R1_kill_odd_index_isotypic.py`, exit 0).
@@ -318,19 +351,18 @@ mnemonics for the two torsion summands, not as types assigned to every obstructi
 
 ## 6. Theorem 2: a finite Krein intersection invariant
 
-For a maximal K-positive subspace `P`, define the **Krein-chirality intersection index**
-`chi_cap(P) = dim(P intersect W_+) - dim(P intersect W_-)`.
+For a strictly K-positive complex subspace `P`, define the finite
+**intersection difference**
+`Delta_cap(P) = dim_C(P intersect W_+) - dim_C(P intersect W_-)`.
 
-**Theorem 2.** *Every maximal K-positive subspace has `chi_cap(P)=0`; linear K-isometries preserve this
-nullity.*
+**Theorem 2.** *For a finite-dimensional complex vector space with a nondegenerate Hermitian form K, every
+strictly K-positive subspace has `Delta_cap(P)=0` relative to two totally K-isotropic subspaces `W_+` and
+`W_-`; a complex-linear K-isometry preserves this nullity after transporting all three subspaces.*
 
-**Proof.** The nondegenerate Hermitian cross-chirality `(96,96)`
-Krein form makes the chirality eigenspaces `W_+`, `W_-` maximal totally K-isotropic subspaces (sometimes
-called K-Lagrangian in the accompanying project notes), with K pairing them. In the finite complex
-algebraic model, take a maximal K-positive-definite subspace `P` (complex dimension 96). Since the
-two chiral subspaces are K-null
-and `P` is positive-definite, `P intersect W_+ = P intersect W_- = {0}`. A linear K-isometry maps maximal
-positive subspaces to maximal positive subspaces. QED.
+**Proof.** If a nonzero vector lay in both `P` and either totally K-isotropic subspace, its Hermitian
+quadratic value would be simultaneously strictly positive and zero, a contradiction. Hence both intersections
+are trivial and their complex dimensions have difference zero. A complex-linear K-isometry transports strict
+positivity and total isotropy. QED.
 
 **Scope.** This is finite-dimensional Krein linear algebra. It does not prove a physical chiral state count,
 a graded trace, spectral flow, or a Fredholm index. At canon grade, faithful stand-ins discharge the
@@ -338,14 +370,23 @@ APS/end/gap/family terms for a separately stated conditional section-setting mod
 Rarita-Schwinger `Y14` bundle/source-action pushforward remains open.
 
 The abstract intersection implication is Lean-checked in
-`Lean/GUFormalization/LocatedNotForcedLegs.lean` after realification and conditional on supplied positivity
-and isotropy premises. Lean does not construct the complex 192-dimensional carrier or certify those carrier
-premises; the numerical scripts test them. Existing numerical scripts also report equal projection-image
+`Lean/GUFormalization/LocatedNotForcedLegs.lean` directly over a complex sesquilinear Hermitian form and is
+conditional on supplied positivity, isotropy, nondegeneracy, and finite-dimensionality premises. Lean does
+not construct the compact `192`-dimensional carrier or certify those premises; the numerical scripts test
+them. Existing numerical scripts also report equal projection-image
 ranks on graph subspaces. That is a
 separate balance diagnostic, not a count of 96 left states minus 96 right states.
 The numerical signature cross-check reproduces the same-chirality block nullity and zero projection-rank
 difference in `(9,5)` and `(7,7)`; a grading-aligned Euclidean `(14,0)` control gives projection-rank difference
 `96`. These are diagnostics and controls, not physical handedness indices.
+
+**Physical-signature boundary.** The compact/complexified `192`-space supplies
+the `(96,96)` theorem instance above. On one physical Lorentzian Hodge half,
+the computed Krein restriction is zero, so that object does not instantiate
+the same premise packet. The conjugation-stable `384`-space has signature
+`(192,192)` and could instantiate the abstract theorem only after the relevant
+grading and physical subspace are typed. No such true-`Y14` selection is
+claimed here.
 
 **Antilinear audit boundary.** The finite theorem does not invoke Wigner's Hilbert-space ray theorem or make
 antilinearity a unique physical escape. For a separately delimited class of antilinear re-gradings whose
@@ -366,11 +407,11 @@ and its reduced boundary
 integer generation count. The denominator-eight diagnostic does not by itself define a map from this operator
 to the `Z/8` summand of `Z/24`.
 
-**Bounded operator audit.** The class-C and first-step-control calculations found no operator that constructs
+**Bounded operator audit.** The `C_fin` and first-step-control calculations found no operator that constructs
 an integer generation count. A frame-active linear overlap `O = L_SD (x) X_L` exists, so the stronger claim
 that frame charge and chirality support are orthogonal is false. Its reported `+16` and `+2` are
 subspace-restriction/overlap diagnostics, not a conserved physical chiral index. This audit is complete only
-for the encoded equivariant class C and the listed controls; it does not quantify over unrestricted,
+for the encoded compact equivariant packet and the listed controls; it does not quantify over unrestricted,
 non-equivariant, or function-space constructions.
 
 For antilinear re-gradings whose images of `W_+` and `W_-` are K-null, the delimited calculation proves the
@@ -381,7 +422,7 @@ source-action constructions.
 
 **What remains open.** External chiral backgrounds are one standard way to produce an integer index: a 2D
 magnetic-flux Wilson-Dirac model realizes net chiral index = flux number
-(`canon/external-topological-index-flux-RESULTS.md`). The present finite class-C audit does not prove that
+(`canon/external-topological-index-flux-RESULTS.md`). The present finite `C_fin` audit does not prove that
 external data are necessary, because it does not cover non-equivariant operators or the true
 Rarita-Schwinger `Y14` bundle/source action. The supported conclusion is narrower: none of the encoded
 sector-interior constructions supplies a typed integer generation count, and the missing map/operator is
@@ -394,24 +435,29 @@ named rather than inferred away.
 The paper exhibits 3-primary content in the following place; it does not prove uniqueness over untested
 channels. Under the reconstruction that reads the self-dual `SU(2)_+ = Lambda^2_+` structure as a
 **tangential** framing on `RP^3 = L(2;1)` (the deformation-retract spine of the metric fiber
-`GL(4,R)/O(3,1)`), the resulting framed class is `+/- 2 in pi_3^s = Z/24` and has Adams
-`e`-invariant
+`GL(4,R)/O(3,1)`), the resulting framed classes are `+2` and `-2=22` in
+`pi_3^s = Z/24`, with Adams `e`-invariants
 
 ```
-e_R = p_1/48 = 1/12   (p_1 = 4, Kirby-Melvin; full class 2 in Z/24 has order 12;
-                        its projected Z/3 component is nonzero and has order 3).
+e_R = +/- p_1/48 = +/- 1/12   (p_1 = +/- 4; each full class has order 12).
 ```
+
+Their exact CRT coordinates are `2 -> (2 mod 8, 2 mod 3)` and
+`22 -> (6 mod 8, 1 mod 3)`. The embedded 3-primary representatives are
+respectively `8` and `16` in `Z/24`, each of order 3. Thus the sign convention
+changes the representative but not nonvanishing or order.
 
 The stabilization `pi_3(SO(3)) -> pi_3(SO)` is `x2`, so the stable degree is `p_1/2 = 2`, not the Dynkin
 index 4. This is standard topology assembled from three stated conventions -- the generator of `H^4(BSpin;Z)`
 (McLaughlin; Sati-Shim), the `x2` stabilization and framing normalization (Kirby-Melvin), and Adams'
 `e_R` normalization; the composite `e_R = (p_1/2)/24` is ours, not a formula quoted verbatim from any one
-source (the .tex normalization-conventions paragraph fixes all three). Only the identification of GU's
+source. Only the identification of GU's
 `Lambda^2_+` twist with this natural tangential framing is reconstruction-grade.
-Because the normalization is assembled across several sources rather than quoted as one theorem, an
-independent framed-bordism specialist check of the sign, factor-of-two stabilization, and `e_R` convention
-remains a named external replication target; the order statements in this draft are internally checked under
-the displayed convention.
+The exact internal sensitivity audit enumerates all orientation/generator/Adams sign combinations and the
+common factor-of-two alternatives. No viable convention for the same framed cycle erases the 3-primary
+projection. A gauge/coefficient reading or a genuinely different stable framing can erase it, but either
+changes the load-bearing GU-to-natural-framing premise. External specialist review remains a useful optional
+validation target rather than a gate on Zenodo publication.
 
 **It locates but does not fill (properties computed; "locates" is interpretation).** The carrier `Lambda^2_+`
 is tangential in the stated framing reconstruction (`p_1 = 4`) and is vectorlike in the tested finite
@@ -544,7 +590,7 @@ fibered-boundary reduction, an explicit stabilized twisted Rarita-Schwinger oper
 well-typed integer extraction. Those objects are not presently built.
 
 The computations on the `RP^3 = L(2;1)` spine and their `L(3;1)` controls are evidence about specific
-constructions, not an exhaustion theorem. Likewise, the class-C census and the finite Krein theorem do not
+constructions, not an exhaustion theorem. Likewise, the `C_fin` census and the finite Krein theorem do not
 exclude non-equivariant operators, K-definite constructions, or the true-`Y14` family pushforward. The open
 question is therefore narrow but genuine: can a geometry-dependent integer index be constructed on the actual
 bundle, and can its mod-3 reduction be proved to match the exhibited torsion component? Until then, no
@@ -576,7 +622,7 @@ cyclic extensions, the `SU(2)` oddness condition, color-center matching, and fer
 structure is likewise an active lane -- e.g. the division-algebra trialities of Furey-Hughes (arXiv:2409.17948),
 where two generations arise as spinors and a third through a Cartan factorization; our Clifford-RS route is
 mechanically distinct, but the question is not untouched. We claim no novelty for "topology constrains
-family number." (The .tex submission source carries the full verified bibliography.)
+family number." Section 14 makes this canonical Markdown bibliographically self-contained.
 Our narrow novelty claim (the deferred `.tex` reconciliation must use the same scope): Wang 2023's title
 arithmetic `24/8 = 3` already pulls
 the odd 3-primary factor out of `Z/24` as the family number, and Wan-Wang-Yau 2026 v2 explicitly separates the
@@ -598,44 +644,137 @@ feeding the two-arena reading.
 
 ## 11. Status of claims
 
-| Claim | Grade |
-| --- | --- |
-| `Cl(9,5)` carrier type | `H^64` has real dimension 256; computations use its 128-dimensional complex realization, and unqualified carrier dimensions are complex |
-| Compact/complexified `su(2)_+` triplet | complex 192-dimensional carrier calculation verified; transfer to the physical Lorentzian bundle is reconstruction-grade |
-| Encoded class-C constraints do not supply an odd-prime congruence or select an odd integer | computed carrier Hom-space census plus Lean-verified deduction from the encoded finite packet; Lean does not establish carrier faithfulness; no completeness outside class C |
-| CRT decomposition `pi_3^s = Z/8 (+) Z/3` | standard; disjointness applies only after an explicit torsion-valued map into `Z/24` |
-| Every maximal K-positive subspace has zero intersection with each maximal K-isotropic chiral subspace | finite-dimensional theorem; abstract implication Lean-checked after realification, carrier premises computed; not a physical handedness count or Fredholm index |
-| Antilinear K-null image subspaces retain zero intersection index | delimited theorem; avoids ordinary-eigenspace language for antilinear maps; no Wigner-based uniqueness claim and no transfer to K-definite or unrestricted constructions |
-| Tangential `Lambda^2_+` framing carries `e_R = 1/12` | full class has order 12; projected 3-primary component has order 3; GU identification reconstruction-grade |
-| The framed class is homotopy-fixed and does not define an integer count | computed/standard-result-applied; `Hom(Z/3,Z)=0` blocks a direct class-to-count homomorphism |
-| Toy source-action constructions supply the missing integer count | NO in four tested constructions; bounded negative evidence, not a universal theorem |
-| Carrier Dirac mass | allowed/vectorlike in the tested model; neither massive nor massless branch derives three |
-| Carrier-specific inverse assembly | search-bounded candidate delta only; primary decomposition and CRT are prior art (Wang; Wan-Wang-Yau v2) |
-| The literal generation integer on GU's 14-manifold | gated on the unbuilt true-`Y14` source action/pushforward |
-| Pati-Salam `16 // 16 = 1` | verified family-unit normalization in a reconstructed `Spin(7,7)` branch; not a generation-count observable |
-| `3-primary torsion component -> integer 3` | open and ill-typed as a homomorphism; needs a separately constructed integer/rank/index home |
-| External backgrounds are necessary | not proved; a flux-index model is a positive control, while non-equivariant and true-`Y14` routes remain open |
-| GU forces exactly three chiral generations | not claimed; no computed quantity in this program equals three |
+| ID | Claim | Grade |
+| --- | --- | --- |
+| LNF-CL-001 | `Cl(9,5)` carrier type | `H^64` has real dimension 256; computations use its 128-dimensional complex realization, and unqualified carrier dimensions are complex |
+| LNF-CL-002 | Compact/complexified `su(2)_+` triplet | compact complex `192=96+96` calculation verified; a physical Lorentzian half is also dimension 192 but K-null and conjugation-exchanged, while the computed stable closure is `384` with signature `(192,192)` |
+| LNF-CL-003 | `C_fin` constraints do not supply an odd-prime congruence or select an odd integer | Lean-verified for the exact encoded finite type; compact C1--C5 carrier lift computed; unrestricted `C_inv`, C6 classification, and physical transfer remain open |
+| LNF-CL-004 | CRT decomposition `pi_3^s = Z/8 (+) Z/3` | standard; disjointness applies only after an explicit torsion-valued map into `Z/24` |
+| LNF-CL-005 | Finite Krein intersection difference vanishes | finite complex Hermitian theorem, Lean-checked from supplied premises; compact carrier instance computed; not a physical handedness count or Fredholm index |
+| LNF-CL-006 | Antilinear K-null image subspaces retain zero intersection index | delimited theorem; avoids ordinary-eigenspace language for antilinear maps; no Wigner-based uniqueness claim and no transfer to K-definite or unrestricted constructions |
+| LNF-CL-007 | Tangential `Lambda^2_+` framing carries `e_R = 1/12` | sign-complete convention audit gives `+/-1/12`; full classes have order 12 and projected 3-primary components order 3; exact GU framing identification reconstruction-grade |
+| LNF-CL-008 | The framed class is homotopy-fixed and does not define an integer count | computed/standard-result-applied; `Hom(Z/3,Z)=0` blocks a direct class-to-count homomorphism |
+| LNF-CL-009 | Toy source-action constructions supply the missing integer count | NO in four tested constructions; bounded negative evidence, not a universal theorem |
+| LNF-CL-010 | Carrier Dirac mass | allowed/vectorlike in the tested model; neither massive nor massless branch derives three |
+| LNF-CL-011 | Carrier-specific inverse assembly | search-bounded candidate delta only; primary decomposition and CRT are prior art (Wang; Wan-Wang-Yau v2) |
+| LNF-CL-012 | The literal generation integer on GU's 14-manifold | gated on the unbuilt true-`Y14` source action/pushforward |
+| LNF-CL-013 | Pati-Salam `16 // 16 = 1` | verified family-unit normalization in a reconstructed `Spin(7,7)` branch; not a generation-count observable |
+| LNF-CL-014 | `3-primary torsion component -> integer 3` | open and ill-typed as a homomorphism; needs a separately constructed integer/rank/index home |
+| LNF-CL-015 | Necessity of external backgrounds | not proved; a flux-index model is a positive control, while non-equivariant and true-`Y14` routes remain open |
+| LNF-CL-016 | GU forces exactly three chiral generations | not claimed; no computed quantity in this program equals three |
 
 ---
 
 ## 12. Conclusion
 
-The release-surviving result is narrower than the original structural reading. In the encoded equivariant
-class C, finite torsion constraints are 2-primary and integer constraints carry only parity/divisibility
-content; none supplies a mod-3 congruence or selects the integer three. The CRT decomposition separates
+The release-surviving result is narrower than the original structural reading. In exact `C_fin`, finite
+torsion constraints are 2-primary, integer constraints remain equality/divisibility statements, and
+dimensions and diagnostics remain separately typed; none supplies a mod-3 congruence or selects the integer
+three. The C1--C5 lift toward semantic `C_inv` is computed only on the compact carrier, and the unrestricted
+lift remains open. The CRT decomposition separates
 torsion data only after a map into `Z/24` is supplied. It does not convert a `Z`-valued index into `Z/8` or a
 generation count into `Z/3`.
 
-The finite Krein theorem proves zero intersection with the chiral Lagrangians, not a physical left-minus-right
-state count. The framed class `2 in Z/24` has order 12 and a nonzero order-3 projection; it is tangential,
-homotopy-fixed, and not an integer count. The true Rarita-Schwinger `Y14` source-action pushforward,
+The finite complex Krein theorem proves zero intersection difference from positivity and isotropy, not a
+physical left-minus-right state count. Its `(96,96)` instance belongs to the compact/complexified packet;
+the computed physical Lorentzian half is K-null and its conjugation-stable closure is `(192,192)`. The framed
+classes `+/-2 in Z/24` have order 12 and nonzero order-3 projections; they are tangential, homotopy-fixed, and
+not integer counts. The true Rarita-Schwinger `Y14` source-action pushforward,
 non-equivariant constructions, and a typed integer index remain open.
 
 Thus “located, not forced” means only that a 3-primary torsion component is exhibited while no tested
 construction supplies the missing integer bridge. We do not claim three generations, a universal no-go, or
-that external backgrounds are necessary. External review of the scoped theorems and the open typing bridge is
-requested.
+that external backgrounds are necessary. Zenodo publication records this internally established result;
+external review of the scoped theorems and open typing bridge is welcome as an optional later validation stage.
+
+---
+
+## 13. Data and code availability
+
+The canonical hardening source, claim ledger, review packets, Python evidence,
+and Lean certificates are in the public repository:
+[disruptionjoe/gu-formalization](https://github.com/disruptionjoe/gu-formalization).
+`REVIEWER.md` gives the pinned-checkout and copy-paste reproduction route.
+`CLAIM-AND-PREMISE-LEDGER.json` is the current claim authority;
+`LOAD-BEARING-NUMBERS.json` maps all 31 release-harness results to source and
+evidence. The historical July 14 claim map remains archived in `review/` but
+is not the current release surface.
+
+The adjacent TeX, PDF, and Zenodo package are downstream release artifacts and
+must be regenerated from this v2.15 Markdown before deposit. The DOI and
+publication date remain unset until Zenodo assigns and records them.
+
+---
+
+## 14. References
+
+1. J. F. Adams, “On the groups J(X). IV,” *Topology* **5** (1966), 21–71,
+   [DOI:10.1016/0040-9383(66)90004-8](https://doi.org/10.1016/0040-9383(66)90004-8);
+   correction, *Topology* **7** (1968), 331,
+   [DOI:10.1016/0040-9383(68)90010-4](https://doi.org/10.1016/0040-9383(68)90010-4).
+2. A. Altland and M. R. Zirnbauer, “Nonstandard symmetry classes in
+   mesoscopic normal-superconducting hybrid structures,” *Physical Review B*
+   **55** (1997), 1142–1161, [arXiv:cond-mat/9602137](https://arxiv.org/abs/cond-mat/9602137).
+3. L. Alvarez-Gaumé and E. Witten, “Gravitational anomalies,” *Nuclear
+   Physics B* **234** (1984), 269–330; erratum **244** (1984), 421.
+4. J.-M. Bismut and J. Cheeger, “η-invariants and their adiabatic limits,”
+   *Journal of the American Mathematical Society* **2** (1989), 33–70.
+5. F. Besnard and C. Brouder, “Noncommutative geometry, the Lorentzian
+   Standard Model, and its B−L extension,” *Physical Review D* **103** (2021),
+   035003, [arXiv:2010.04960](https://arxiv.org/abs/2010.04960),
+   [DOI:10.1103/PhysRevD.103.035003](https://doi.org/10.1103/PhysRevD.103.035003).
+6. C. G. Callan Jr. and J. A. Harvey, “Anomalies and fermion zero modes on
+   strings and domain walls,” *Nuclear Physics B* **250** (1985), 427–436.
+7. X. Dai and D. S. Freed, “η-invariants and determinant lines,” *Journal of
+   Mathematical Physics* **35** (1994), 5155–5194,
+   [arXiv:hep-th/9405012](https://arxiv.org/abs/hep-th/9405012),
+   [DOI:10.1063/1.530747](https://doi.org/10.1063/1.530747); erratum **42**
+   (2001), 2343–2344.
+8. B. A. Dobrescu and E. Poppitz, “Number of fermion generations derived from
+   anomaly cancellation,” *Physical Review Letters* **87** (2001), 031801,
+   [arXiv:hep-ph/0102010](https://arxiv.org/abs/hep-ph/0102010).
+9. J. L. Evans, M. Ibe, J. Kehayias, and T. T. Yanagida, “Non-anomalous
+   discrete R-symmetry decrees three generations,” *Physical Review Letters*
+   **109** (2012), 181801, [arXiv:1111.2481](https://arxiv.org/abs/1111.2481).
+10. N. Furey and M. J. Hughes, “Three generations and a trio of trialities,”
+    *Physics Letters B* (2025), 139473,
+    [arXiv:2409.17948](https://arxiv.org/abs/2409.17948),
+    [DOI:10.1016/j.physletb.2025.139473](https://doi.org/10.1016/j.physletb.2025.139473).
+11. I. García-Etxebarria and M. Montero, “Dai-Freed anomalies in particle
+    physics,” *JHEP* **08** (2019), 003,
+    [arXiv:1808.00009](https://arxiv.org/abs/1808.00009).
+12. D. B. Kaplan and S. Sun, “Spacetime as a topological insulator: mechanism
+    for the origin of the fermion generations,” *Physical Review Letters*
+    **108** (2012), 181807, [arXiv:1112.0302](https://arxiv.org/abs/1112.0302).
+13. R. Kirby and P. Melvin, “Canonical framings for 3-manifolds,” *Turkish
+    Journal of Mathematics* **23** (1999), 89–115,
+    [arXiv:math/9903056](https://arxiv.org/abs/math/9903056).
+14. D. A. McLaughlin, “Orientation and string structures on loop space,”
+    *Pacific Journal of Mathematics* **155** (1992), 143–156.
+15. T. Nguyen and T. Polya, “A response to Geometric Unity,” self-published
+    manuscript (23 February 2021),
+    [author-hosted PDF](https://files.timothynguyen.org/geometric_unity.pdf).
+16. V. A. Rokhlin, “New results in the theory of four-dimensional manifolds,”
+    *Doklady Akademii Nauk SSSR* **84** (1952), 221–224.
+17. H. Sati and H.-b. Shim, “String structures associated to indefinite Lie
+    groups,” *Journal of Geometry and Physics* **140** (2019), 246–264,
+    [arXiv:1504.02088](https://arxiv.org/abs/1504.02088),
+    [DOI:10.1016/j.geomphys.2019.02.002](https://doi.org/10.1016/j.geomphys.2019.02.002).
+18. K. G. C. von Staudt, “Beweis eines Lehrsatzes, die Bernoullischen Zahlen
+    betreffend,” *Journal für die reine und angewandte Mathematik* **21**
+    (1840), 372–374; T. Clausen, *Astronomische Nachrichten* **17** (1840),
+    351–352.
+19. Z. Wan, J. Wang, and S.-T. Yau, “Fermion Families and Pontryagin Class:
+    Topological Field Theory via Colour Symmetry Extension,”
+    [arXiv:2605.26202v2](https://arxiv.org/abs/2605.26202) (2026).
+20. J. Wang, “Family Puzzle, Framing Topology, c−=24 and 3(E8)1 Conformal
+    Field Theories: 48/16 = 45/15 = 24/8 = 3,”
+    [arXiv:2312.14928](https://arxiv.org/abs/2312.14928) (2023).
+21. E. Weinstein, “Geometric Unity (author's working draft),” self-published
+    manuscript (1 April 2021), [geometricunity.org](https://geometricunity.org/).
+22. E. P. Wigner, *Group Theory and Its Application to the Quantum Mechanics
+    of Atomic Spectra*, Academic Press, New York (1959), translated from the
+    1931 German edition.
 
 ---
 
@@ -646,8 +785,8 @@ enumerated numerical and symbolic checks in the release manifest from a clean ch
 its stated value (exit 0 iff all 31 checks match; every check ships a discriminating control that must fail on
 a scrambled input); see `REVIEWER.md`.
 
-The representation-theoretic decompositions, the Krein signature, the index-conservation check, the
-frame-charge / DECOUPLE computation, the boundary `e`-invariant controls, and the decider integers are
+The representation-theoretic decompositions, compact Krein signature, finite
+intersection-difference checks, framing convention/sensitivity controls, and decider integers are
 checked numerically in `tests/` and `tests/generation-sector/`, `tests/source-action/`, `tests/boundary-eta/`,
 `tests/decider/` (the last reproduced by an independent from-scratch script, 26/26 checks),
 `tests/forcing-slot/` (the toy RS forcing-slot test), `tests/carrier-mass/` (the Dirac-mass capstone),
@@ -663,13 +802,19 @@ deep-research reports and the per-result canon (`canon/two-primary-lemma.md`,
 `canon/external-topological-index-flux-RESULTS.md`, `canon/rs-function-space-framework-SPEC.md`) are in the
 repository. The v2.9 symbolic and external-index checks run in `tests/symbolic-proofs/` and
 `tests/function-space-ext/` (with an independent re-verification under `tests/function-space-ext/verify/`).
+The v2.15 physical-signature discriminator is
+`tests/lorentzian-transfer/physical_signature_transfer_audit.py`; the exact
+framing sensitivity check is
+`tests/boundary-eta/v15_framing_convention_sensitivity.py`; and the targeted
+Lean entrypoints are under `tests/located-not-forced/`.
 
 **Verification status.** By the project's own three-tier vocabulary, every result in this paper is at most
 *internally established*: computed, independently re-derived from scratch, and adversarially reviewed *within
 the same AI-directed process that produced it* (reproduced, not replicated). No result here is *externally
 established* -- independently replicated, peer-reviewed, or signed off by a named specialist. Because internal
 reviewers are spawned by the same process that produced the results, no internal step, however adversarial, can
-cross that boundary; the request for external review is a request to cross it.
+cross that boundary. Zenodo publication does not claim to cross it. Optional
+later external review is the route to an external-validation grade.
 
 ---
 

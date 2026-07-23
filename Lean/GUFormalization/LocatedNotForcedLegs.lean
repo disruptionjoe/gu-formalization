@@ -3,114 +3,145 @@ import Mathlib
 set_option autoImplicit false
 
 /-!
-# A1 — Located-not-forced theorem-grade legs (Lean skeleton)
+# Located-not-forced theorem-grade finite legs
 
-**VERIFIED 2026-07-03.** Mathlib IS now provisioned (Lean 4.32.0-rc1 via elan, mathlib built) and
-this `import Mathlib` file elaborates **exit 0 with no `sorry` and no `axiom`** (only benign linter
-warnings) — confirmed by the internal-paths Lean run and independently re-verified in the main loop
-(see `explorations/internal-paths-2026-07-03/lean-typecheck-core-theorems.md`). The theorem-grade legs
-(Theorem 2 Krein index-nullity `chi_eq_zero`, the antilinear bound, and the 2-primary identities 3a–3f)
-are genuinely machine-checked. The companion mathlib-free `A1-arith-core-check.lean` also compiles clean
-(exit 0). (Supersedes the prior "UNVERIFIED — mathlib not provisioned" note.)
+The transversality leg is stated over a finite-dimensional complex vector space
+with a nondegenerate Hermitian sesquilinear form. This is the program-native
+indefinite/Krein construction, not a positive inner-product replacement.
 
-Style mirrors `Lean/GUFormalization/*.lean`: `import Mathlib`, `set_option autoImplicit
-false`, `namespace GUFormalization`.
-
-Scope boundary (as in the existing Lean layer): Lean checks finite kernels only. The
-*physical* premises — that the actual 192-dim generation carrier's invariant Krein form is
-purely cross-chirality with signature `(+96,-96)`, that the chirality eigenspaces are K-null,
-that a physical subspace is maximal K-positive of dim 96 — are machine-checked in
-`tests/generation-sector/` and `tests/antilinear-bound/`, and enter here only as
-**hypotheses**. This file does not re-derive them and does not derive the generation count.
+The exact `192/96/96/96` dimensions are explicit in the carrier corollary and
+remain hypotheses. The proof uses only positivity on one subspace and total
+isotropy of the other two. The integer below is solely a difference of
+intersection dimensions; projection ranks and operator constructions are not
+part of this declaration.
 -/
 
 namespace GUFormalization
 
 /- ===================================================================== -/
-/-  Leg 1 & Leg 2 — Krein index conservation and the antilinear bound     -/
-/-  (both collapse to one finite-dimensional lemma: `chi_eq_zero`)        -/
+/-  Finite complex Krein transversality                                 -/
 /- ===================================================================== -/
 
-namespace KreinIndex
+namespace KreinTransversality
 
-variable {V : Type*} [AddCommGroup V] [Module ℝ V]
+variable {V : Type*} [AddCommGroup V] [Module ℂ V]
 
-/-- `P` is K-positive-definite: nonzero vectors have strictly positive K-norm.
-    (Models a *physical* subspace; the form `K` is left as a bare pairing since the
-    core lemma never needs bilinearity.) -/
-def KPositive (K : V → V → ℝ) (P : Submodule ℝ V) : Prop :=
-  ∀ v ∈ P, v ≠ 0 → 0 < K v v
+/-- A finite-dimensional Krein carrier uses a complex sesquilinear form,
+conjugate-linear in the first argument and linear in the second, together with
+Hermitian symmetry and nondegeneracy. Indefiniteness is witnessed in the
+application by the supplied positive and totally isotropic subspaces. -/
+structure FiniteKreinForm (V : Type*) [AddCommGroup V] [Module ℂ V] where
+  form : V →ₗ⋆[ℂ] V →ₗ[ℂ] ℂ
+  hermitian : form.IsSymm
+  nondegenerate : form.Nondegenerate
 
-/-- `W` is K-isotropic (Lagrangian / null): the K-norm vanishes on it.
-    The chirality eigenspaces `W_+`, `W_-` are of this kind, and so — by the
-    antilinear-nonkrein result — are the re-graded images `C(W_+)`, `C(W_-)` in `P_iso`. -/
-def KIsotropic (K : V → V → ℝ) (W : Submodule ℝ V) : Prop :=
-  ∀ w ∈ W, K w w = 0
+/-- Strict positivity of the Hermitian quadratic value on a complex subspace. -/
+def PositiveOn (K : FiniteKreinForm V) (P : Submodule ℂ V) : Prop :=
+  ∀ v ∈ P, v ≠ 0 → 0 < (K.form v v).re
 
-/-- Net chiral index of a physical subspace relative to two eigenspaces. -/
-noncomputable def chi (K : V → V → ℝ) (P Wp Wm : Submodule ℝ V) : ℤ :=
-  (Module.finrank ℝ (P ⊓ Wp : Submodule ℝ V) : ℤ)
-    - (Module.finrank ℝ (P ⊓ Wm : Submodule ℝ V) : ℤ)
+/-- The Hermitian form vanishes on every pair of vectors in the subspace. -/
+def TotallyIsotropic (K : FiniteKreinForm V) (W : Submodule ℂ V) : Prop :=
+  ∀ x ∈ W, ∀ y ∈ W, K.form x y = 0
 
-/-- **Core lemma.** A K-positive-definite subspace meets a K-isotropic subspace only at `0`.
-    This is the entire load-bearing content of Theorem 2 and the antilinear bound. -/
-theorem positive_inter_isotropic_trivial
-    (K : V → V → ℝ) (P W : Submodule ℝ V)
-    (hP : KPositive K P) (hW : KIsotropic K W) :
-    ∀ v, v ∈ P → v ∈ W → v = 0 := by
-  intro v hvP hvW
-  by_contra hv
-  have h1 : 0 < K v v := hP v hvP hv
-  have h2 : K v v = 0 := hW v hvW
-  rw [h2] at h1
-  exact lt_irrefl 0 h1
+/-- A complex-linear equivalence preserves the supplied Hermitian form. -/
+def Isometry (K : FiniteKreinForm V) (U : V ≃ₗ[ℂ] V) : Prop :=
+  ∀ x y, K.form (U x) (U y) = K.form x y
 
-/-- The intersection of a K-positive and a K-isotropic subspace is trivial. -/
-theorem inter_isotropic_eq_bot
-    (K : V → V → ℝ) (P W : Submodule ℝ V)
-    (hP : KPositive K P) (hW : KIsotropic K W) :
+/-- Difference of the two complex intersection dimensions. This invariant is
+independent of projection ranks and of any operator-theoretic construction. -/
+noncomputable def intersectionDifference
+    (P Wp Wm : Submodule ℂ V) : ℤ :=
+  (Module.finrank ℂ (P ⊓ Wp : Submodule ℂ V) : ℤ)
+    - (Module.finrank ℂ (P ⊓ Wm : Submodule ℂ V) : ℤ)
+
+/-- A subspace on which the form is strictly positive is transverse to every
+totally isotropic subspace. -/
+theorem positive_inf_totallyIsotropic_eq_bot
+    (K : FiniteKreinForm V) (P W : Submodule ℂ V)
+    (hP : PositiveOn K P) (hW : TotallyIsotropic K W) :
     P ⊓ W = ⊥ := by
   rw [eq_bot_iff]
   intro v hv
-  have hz : v = 0 := positive_inter_isotropic_trivial K P W hP hW v hv.1 hv.2
-  simp [Submodule.mem_bot, hz]
+  by_contra hv0
+  have hpos : 0 < (K.form v v).re := hP v hv.1 hv0
+  have hnull : K.form v v = 0 := hW v hv.2 v hv.2
+  rw [hnull] at hpos
+  exact lt_irrefl 0 hpos
 
-/-- **Theorem 2 (finite-dimensional core).** Net chiral index of any physical subspace,
-    relative to two K-isotropic eigenspaces, is `0`. -/
-theorem chi_eq_zero
-    (K : V → V → ℝ) (P Wp Wm : Submodule ℝ V)
-    (hP : KPositive K P) (hWp : KIsotropic K Wp) (hWm : KIsotropic K Wm) :
-    chi K P Wp Wm = 0 := by
-  unfold chi
-  rw [inter_isotropic_eq_bot K P Wp hP hWp, inter_isotropic_eq_bot K P Wm hP hWm]
+/-- The finite transversality statement: both intersection dimensions vanish,
+so their difference is zero. -/
+theorem intersectionDifference_eq_zero
+    [FiniteDimensional ℂ V]
+    (K : FiniteKreinForm V) (P Wp Wm : Submodule ℂ V)
+    (hP : PositiveOn K P)
+    (hWp : TotallyIsotropic K Wp) (hWm : TotallyIsotropic K Wm) :
+    intersectionDifference P Wp Wm = 0 := by
+  unfold intersectionDifference
+  rw [positive_inf_totallyIsotropic_eq_bot K P Wp hP hWp,
+    positive_inf_totallyIsotropic_eq_bot K P Wm hP hWm]
   simp
 
-/-- **Leg 2 (antilinear null-eigenspace bound).** Identical corollary: for any physical `P`
-    and any two K-isotropic images `CWp`, `CWm` (the re-graded chirality eigenspaces of an
-    admissible antilinear `C ∈ P_iso`), the re-graded net chiral index is `0`. The proof
-    uses only isotropy — never a full Krein / antiunitary condition — exactly as
-    `canon/antilinear-nonkrein-admissibility-RESULTS.md` observes. -/
-theorem antilinear_bound
-    (K : V → V → ℝ) (P CWp CWm : Submodule ℝ V)
-    (hP : KPositive K P) (hCWp : KIsotropic K CWp) (hCWm : KIsotropic K CWm) :
-    chi K P CWp CWm = 0 :=
-  chi_eq_zero K P CWp CWm hP hCWp hCWm
+/-- The manuscript carrier dimensions are recorded explicitly. The numerical
+equalities do not strengthen the transversality proof, which is dimension
+independent once finite dimensionality, positivity, and isotropy are supplied. -/
+theorem carrier_intersectionDifference_eq_zero
+    [FiniteDimensional ℂ V]
+    (K : FiniteKreinForm V) (P Wp Wm : Submodule ℂ V)
+    (_hVdim : Module.finrank ℂ V = 192)
+    (_hPdim : Module.finrank ℂ P = 96)
+    (_hWpdim : Module.finrank ℂ Wp = 96)
+    (_hWmdim : Module.finrank ℂ Wm = 96)
+    (hP : PositiveOn K P)
+    (hWp : TotallyIsotropic K Wp) (hWm : TotallyIsotropic K Wm) :
+    intersectionDifference P Wp Wm = 0 :=
+  intersectionDifference_eq_zero K P Wp Wm hP hWp hWm
 
-/-- **Boundary remark (the null condition is load-bearing).** A K-*negative-definite*
-    subspace is NOT K-isotropic: it contains some `w ≠ 0` with `K w w < 0`, hence `≠ 0`.
-    So the definite re-gradings fall outside the hypothesis of `chi_eq_zero` — matching the
-    canon's point that a nonzero count requires abandoning chirality (a non-null re-grading),
-    not merely Krein-compatibility. -/
-theorem definite_not_isotropic
-    (K : V → V → ℝ) (W : Submodule ℝ V)
-    (w : V) (hwW : w ∈ W) (hneg : K w w < 0) :
-    ¬ KIsotropic K W := by
-  intro hIso
-  have : K w w = 0 := hIso w hwW
-  rw [this] at hneg
+/-- A form isometry carries strict positivity to the mapped subspace. -/
+theorem positiveOn_map
+    (K : FiniteKreinForm V) (U : V ≃ₗ[ℂ] V) (P : Submodule ℂ V)
+    (hU : Isometry K U) (hP : PositiveOn K P) :
+    PositiveOn K (P.map U.toLinearMap) := by
+  intro v hv hv0
+  rcases hv with ⟨p, hp, rfl⟩
+  have hp0 : p ≠ 0 := fun hp0 => hv0 (by simp [hp0])
+  exact (congrArg Complex.re (hU p p)).symm ▸ hP p hp hp0
+
+/-- A form isometry carries total isotropy to the mapped subspace. -/
+theorem totallyIsotropic_map
+    (K : FiniteKreinForm V) (U : V ≃ₗ[ℂ] V) (W : Submodule ℂ V)
+    (hU : Isometry K U) (hW : TotallyIsotropic K W) :
+    TotallyIsotropic K (W.map U.toLinearMap) := by
+  intro x hx y hy
+  rcases hx with ⟨x, hx, rfl⟩
+  rcases hy with ⟨y, hy, rfl⟩
+  exact (hU x y).trans (hW x hx y hy)
+
+/-- A form isometry preserves the zero intersection difference after all three
+subspaces are transported by the same complex-linear equivalence. -/
+theorem intersectionDifference_map_eq_zero
+    [FiniteDimensional ℂ V]
+    (K : FiniteKreinForm V) (U : V ≃ₗ[ℂ] V) (P Wp Wm : Submodule ℂ V)
+    (hU : Isometry K U) (hP : PositiveOn K P)
+    (hWp : TotallyIsotropic K Wp) (hWm : TotallyIsotropic K Wm) :
+    intersectionDifference
+        (P.map U.toLinearMap) (Wp.map U.toLinearMap) (Wm.map U.toLinearMap) = 0 :=
+  intersectionDifference_eq_zero K _ _ _
+    (positiveOn_map K U P hU hP)
+    (totallyIsotropic_map K U Wp hU hWp)
+    (totallyIsotropic_map K U Wm hU hWm)
+
+/-- A subspace containing a vector of strictly negative quadratic value is not
+totally isotropic. -/
+theorem negative_value_not_totallyIsotropic
+    (K : FiniteKreinForm V) (W : Submodule ℂ V)
+    (w : V) (hwW : w ∈ W) (hneg : (K.form w w).re < 0) :
+    ¬ TotallyIsotropic K W := by
+  intro hW
+  have hnull : K.form w w = 0 := hW w hwW w hwW
+  rw [hnull] at hneg
   exact lt_irrefl 0 hneg
 
-end KreinIndex
+end KreinTransversality
 
 /- ===================================================================== -/
 /-  Leg 3 — 2-primary obstructions as power-of-two / mod-2^k identities   -/
@@ -121,7 +152,7 @@ namespace TwoPrimary
 /-- 3a. Cross-chirality Krein signature: `96` is `2^5 · 3` (its *even* part is `2^5`). -/
 theorem cross_chirality_ninety_six : (96 : ℤ) = 2 ^ 5 * 3 := by norm_num
 
-/-- 3a. The `(+96, −96)` split is net zero (vectorlike; net chirality `0`). -/
+/-- 3a. The signed-dimension sum for the `(+96, −96)` split is zero. -/
 theorem cross_chirality_net_zero : (96 : ℤ) + (-96) = 0 := by norm_num
 
 /-- 3b. Spinor 2-smoothness: a spinor dimension `2^k` is never divisible by the odd prime
@@ -156,7 +187,7 @@ theorem lens_eta_denominator_two_primary : (8 : ℤ) = 2 ^ 3 := by norm_num
 /-- 3f. Kramers / mod-2 Witten index: a doubled count is `0 mod 2`. -/
 theorem kramers_mod_two (n : ℤ) : (2 * n) % 2 = 0 := by omega
 
-/-- 3f. Ghost-parity `50/50`: a balanced physical sector has net count `0`. -/
+/-- 3f. Ghost-parity `50/50`: equal integer ranks have difference zero. -/
 theorem ghost_parity_net_zero (n : ℤ) : n - n = 0 := by ring
 
 end TwoPrimary

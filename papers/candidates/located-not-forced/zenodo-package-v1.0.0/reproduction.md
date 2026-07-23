@@ -10,7 +10,7 @@ The tested environment uses Python 3.14.6, NumPy 2.5.1, and SymPy 1.14.0.
 python -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/python reproduce_all.py
-.venv/bin/python validate_release_evidence.py --package-root .
+.venv/bin/python validate_release_evidence.py --repo-root .
 ```
 
 `reproduce_all.py` deterministically recomputes 31 load-bearing numerical and symbolic checks and executes

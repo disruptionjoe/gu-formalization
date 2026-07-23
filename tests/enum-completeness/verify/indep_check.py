@@ -243,7 +243,7 @@ assert ah < 1e-9
 print("  => F = Id is an invariant sesquilinear form: DEFINITE, signature (+192, 0), with")
 print(f"     chirality-diagonal blocks ||P+ F P+|| = {np.linalg.norm(Pp0 @ np.eye(192) @ Pp0):.1f}"
       f" != 0: the (14,0) grading-aligned CONTROL (the paper's |chi| = 96 detector) --")
-print("     the cross-chirality verdicts in (9,5)/(7,7) are physical, not a method artifact.")
+print("     the cross-chirality verdicts in (9,5)/(7,7) are signature-sensitive, not a method artifact.")
 
 # weight peeling: 7 commuting Cartans (su(2)+, su(2)-, five internal rotations)
 ASD = np.kron(lvec4(0, 1) - lvec4(2, 3), np.eye(DIM, dtype=complex)) \

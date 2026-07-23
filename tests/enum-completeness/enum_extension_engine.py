@@ -207,9 +207,10 @@ print("  q in [-12,12]: every eta_q has ODD numerator over denominator 8 = 2^3: 
 print(f"  2-primary (max odd part of any denominator = {worst_den_odd}).  Category A.")
 print("""
     Gravitational framing channel -p_1/24: 24 = 2^3 * 3 -- the ONLY odd-primary boundary object in
-    the sector's own data.  Its 3-part is exactly the located carrier e_R = p_1/48 = 1/12 (order 3
-    in Z/24 = Z/8 (+) Z/3).  It is HOMOTOPY-FIXED (a fact about pi_3^s, identical for any
-    generation count): it cannot constrain a count.  Category B -- located, not an obstruction.
+    the sector's own data.  The full framed class +/-2 and e_R = +/-1/12 have order 12;
+    only their projected 3-primary components (8 or 16 in Z/24) have order 3.
+    The class is HOMOTOPY-FIXED (a fact about pi_3^s, identical for any generation count):
+    it cannot constrain a count.  Category B -- located, not an obstruction.
 
     Dai-Freed-type extensions (FLAGGED: from-memory prior art, no new computation):
       - pin+ mod-16 (Rokhlin/eta) layer: Z/16 = 2^4                          -> category A
@@ -222,13 +223,14 @@ print("""
 
 # ------------------------------------------------- E3: products / compositions of enumerated items
 print("""
-E3. PRODUCTS AND COMPOSITIONS of enumerated obstructions (closure of 2-primariness).
+E3. PRODUCTS AND COMPOSITIONS of the genuinely finite-torsion rows.
     Lemma (arithmetic): if congruence moduli m1, m2 are 2-primary (powers of two), then so are
     lcm(m1,m2), gcd(m1,m2) and m1*m2; multiplying an INVARIANT by the carrier multiplicity 3
     scales values by 3 but leaves the per-channel modulus untouched (equivariance forces equal
     per-copy indices: 12k = 3 * 4k is three copies of a mod-4 statement, not a mod-3 congruence
-    on any single channel).  Exhaustive check over the census:""")
-core_moduli = [2, 2, 4, 8, 16, 2, 2]     # items 1-7: Kramers, Witten, Krein-pair, 4k(x2), Rokhlin, 2-smooth, ghost
+    on any single channel). Integer equalities/divisibilities, representation dimensions, and diagnostics
+    are not assigned surrogate moduli. Exhaustive check over the torsion rows:""")
+core_moduli = [2, 2, 16]     # Kramers, real/pseudoreal, Rokhlin
 mult = 3
 allok = True
 composites = set()
@@ -241,8 +243,8 @@ for a in core_moduli:
 print(f"  composite moduli generated: {sorted(composites)} -- all 2-primary: {allok}")
 assert allok
 tripled = sorted({mult * m for m in composites})
-print(f"  multiplicity-scaled values 3*m: {tripled}: odd part is ALWAYS exactly 3 = the located")
-print("  multiplicity, and the per-channel modulus stays a power of two.  Category A/B throughout.")
+print(f"  diagnostic values 3*m: {tripled}: odd part is 3, while the per-channel")
+print("  torsion modulus stays a power of two. This is value arithmetic, not a new modulus.")
 for m in tripled:
     assert odd_part(m) == 3
 
@@ -292,19 +294,20 @@ print("\n" + "#" * 98)
 print("# EXTENSION-ENGINE VERDICT")
 print("#" * 98)
 if FAILURES:
-    print("  *** CATEGORY-D FINDINGS (sector-interior odd-primary obstructions) -- THEOREM 1 FAILS: ***")
+    print("  *** CATEGORY-D FINDINGS (odd-primary finite-row moduli) -- C_fin MAPPING FAILS: ***")
     for f in FAILURES:
         print("   -", f)
     sys.exit(1)
 print("""
-  Category-D findings (sector-interior odd-primary obstruction on the generation count): NONE.
+  Category-D findings (odd-primary modulus in the encoded finite-torsion rows): NONE.
   Every candidate the engine generated lands in:
     A: 2-primary and sector-available (gauge twists by 1/10/16/16bar/45; the eta_q family; the
-       family-triplet index 4k; the frame-spinor index 8; all composites of items 1-7);
-    B: odd-primary but homotopy-fixed / count-independent (the -p_1/24 framing channel, whose
-       3-part IS the located carrier e_R = 1/12); or
+       family-triplet integer divisibility 4k; the frame-spinor dimension/index 8; all composites
+       of the three finite-torsion rows, with non-torsion rows kept separately typed);
+    B: odd-primary but homotopy-fixed / count-independent (the +/-2 framing class, whose full
+       order is 12 and whose projected 3-primary component has order 3); or
     C: external -- requires a background VEV, a non-sector gauge twist (54, 120, 126, ...), a Z/3
        deck group the spine does not have, or a global Z_9 symmetry the sector does not contain.
   data (54 -> 3, 120 -> 7, 126 -> 5*7, j=3/2 -> 5), which is precisely why the delimitation is
-  load-bearing and why Theorem 1 cannot be extended to arbitrary twists for free.
+  load-bearing and why the C_fin theorem cannot be extended to arbitrary twists for free.
 """)

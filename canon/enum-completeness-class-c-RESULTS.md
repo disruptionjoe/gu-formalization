@@ -17,6 +17,17 @@ depends_on:
 
 # Enumeration completeness for Theorem 1: the class-C census and the extension engine
 
+> **v2.15 scope correction (2026-07-23).** This 2026-07-03 result is retained
+> as the historical compact-carrier computation. Its C1--C5 Hom-space census
+> gives the computed lift into the exact fifteen-constructor type now named
+> `C_fin`. It does **not** classify the broader semantic class now named
+> `C_inv`: C6 is certified only as seven named rows, not as every possible
+> sector characteristic construction. The physical `(3,1)+(6,4)` audit also
+> distinguishes one K-null Lorentzian `192`-half from its `384`-dimensional
+> conjugation-stable closure. Current authority:
+> `papers/candidates/located-not-forced/review/V15-2-cfin-cinv-lifting-audit-2026-07-23.md`
+> and `review/V15-4-carrier-faithfulness-packet-2026-07-23.md`.
+
 **Work card:** WC-ENUM-COMPLETENESS (NEXT-STEPS.md, 2026-07-02 publication-gating section;
 journal-gating, priority 1). **Outcome: (i) with a sharply stated boundary** -- completeness
 within a delimited class C is established at computed grade, the extension engine finds no
@@ -59,7 +70,7 @@ reps the sector does not contain; extra global or discrete symmetries (e.g. a Z_
 not equivariant under G (checked down to so(10) alone -- see robustness); and function-space
 / Fredholm structures (WC-FUNCTION-SPACE-EXT).
 
-## Theorem (completeness within C; computed grade)
+## Historical theorem wording (superseded by the `C_fin` / `C_inv` split)
 
 *Every invariant-theoretic generator of class C carries only 2-primary obstruction content,
 and each generator maps onto one of the paper's enumerated items (1)-(7). Hence within C the

@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-07-22",
+  "updated_at": "2026-07-23",
   "artifact_role": "Repository-owned work and ranking portfolio. Durable Lane definitions and control state exist only in root LANES.yaml.",
   "authority": {
     "research_priority_owner": "gu-formalization",
@@ -63,6 +63,7 @@
     "PARKED",
     "RESOLVED_NO_GO",
     "RESOLVED_INTERPRETATION_SHAPE",
+    "COMPLETE",
     "PAPER_READY",
     "NEEDS_JOE"
   ],
@@ -661,6 +662,32 @@
       "forbidden_shortcut": "Call this a one-sided falsification tripwire, never a positive GU prediction. Do not use a central value as the two-sigma firing statistic."
     },
     {
+      "id": "LNF-V2.15-HARDENING",
+      "lane_id": "3",
+      "title": "Execute the Located, Not Forced v2.15 hardening campaign",
+      "track": "result_hardening",
+      "state": "COMPLETE",
+      "owner": "gu-formalization",
+      "hourly_eligible": false,
+      "priority_score": 25,
+      "score": {
+        "impact": 5,
+        "information_gain": 5,
+        "readiness": 5,
+        "distinctiveness": 5,
+        "time_sensitivity": 3,
+        "effort": 4,
+        "wall_risk": 3,
+        "duplication_risk": 1
+      },
+      "depends_on": [],
+      "current_authority": "The Joe-authorized v2.15 campaign completed 10/10 packages on 2026-07-23. The paper-local queue and V15-10 closeout are canonical. The title and finite obstruction survive; C_fin is exact, while unrestricted C_inv, wider C6, true-Y14 selection, physical realization beyond the computed Hodge-half/closure fork, and external replication remain declared residuals. Zenodo never waits for external review.",
+      "next_swing": "Do not rerun the hardening campaign. On Joe's final-publication signal, regenerate TeX, PDF, and the Zenodo package from canonical v2.15 Markdown, verify render/metadata parity and immutable source identity, then return the actual publish action for explicit approval.",
+      "kill_condition": "Stop and return to Joe if the physical-signature audit changes the central class-C/antilinear verdict, a viable framing branch erases the nonzero 3-primary component, carrier routes disagree on 192/(96,96)/(2,2,2,2,0), a load-bearing statement is false, or the title/central thesis must materially change.",
+      "switch_condition": "Reopen only for Joe-directed final publication preparation, a substantive defect, or new source evidence that changes an explicit residual. Ordinary cross-lane selection is restored.",
+      "forbidden_shortcut": "Do not substitute positive-Hilbert for program-native Krein structure, integer index for torsion carrier, compact/complexified representation theory for unproved Lorentzian transfer, internal repetition for external replication, or Lean deduction from supplied data for carrier faithfulness."
+    },
+    {
       "id": "PROOF-STABLE-KERNELS",
       "lane_id": "3",
       "title": "Formalize stable finite proof kernels",
@@ -898,10 +925,10 @@
         "duplication_risk": 3
       },
       "depends_on": [],
-      "current_authority": "Observer Value Selection Theorem is locally READY FOR ZENODO. Located, Not Forced has been judged arXiv-ready internally but remains publication-deferred pending Joe's decision and outside validation.",
-      "next_swing": "No routine polish or repeated escalation. Preserve readiness and track substantive new corrections; the existing JoeOps awareness path is sufficient unless a new material signal appears.",
+      "current_authority": "Observer Value Selection Theorem is published on Zenodo. Located, Not Forced v2.15 has completed internal hardening in canonical Markdown; final TeX/PDF/Zenodo package parity and immutable source identity remain to be built before posting. Zenodo readiness never waits for external review; later external review, arXiv, journal submission, or external-grade promotion is optional and Joe-directed.",
+      "next_swing": "Preserve LNF v2.15 until Joe authorizes final publication preparation; then build and verify the release artifacts and return the actual Zenodo publish action for explicit approval.",
       "kill_condition": "Any new contradiction, novelty failure, citation failure, or reproducibility failure returns the affected paper to hardening.",
-      "switch_condition": "Joe authorization or a substantive new defect, not another formatting pass.",
+      "switch_condition": "Specific Joe posting authorization, an optional later distribution decision, or a substantive new defect.",
       "forbidden_shortcut": "Candidate status is not publication. Internal personas are not independent external review."
     },
     {

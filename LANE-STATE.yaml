@@ -2,12 +2,14 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-22T21:28:01-05:00'
-run_ref: GUD-20260723T022801Z-compute-readiness-priority-reconciliation
-bottom_line: 'Lane 1 is source-gated and now difficulty-protected in executable
-  form; DE-AMP is complete, so no internal numbered-lane computation is hourly-eligible.'
-decision_default: Preserve the source gates and existing monitors; reopen only on
-  a named packet, official release, changed frozen structure, or certificate defect.
+updated_at: '2026-07-23T11:31:55-05:00'
+run_ref: GUD-20260723T160054Z-lnf-v215-hardening
+bottom_line: 'Lane 1 remains source-gated and Lane 2 remains monitor-only; the
+  LNF v2.15 hardening campaign completed green, releasing Lane 3 from Joe''s
+  temporary direct-priority signal.'
+decision_default: Preserve the closed v2.15 evidence; restore ordinary
+  cross-lane selection and reopen LNF only for final publication preparation,
+  a new defect, or new source evidence.
 needs_joe: false
 lanes:
 - lane_id: '1'
@@ -90,39 +92,45 @@ lanes:
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
   light: green
-  reason_code: anomaly_closure_second_dry_round
-  evidence_ref: explorations/verify-anomaly-closure-2026-07-20.md
-  work_status: moving
-  last_movement: Completed a second dry hostile verification of the anomaly
-    closure with no material revision.
-  movement_ref: explorations/verify-anomaly-closure-2026-07-20.md
+  reason_code: lnf_v215_hardening_complete
+  evidence_ref: papers/candidates/located-not-forced/review/V15-10-hostile-closeout-2026-07-23.md
+  work_status: ready
+  last_movement: Completed all ten LNF v2.15 packages, including the physical
+    signature correction, typed Lean kernels, semantic claim ledger, canonical
+    integration, and hostile closeout.
+  movement_ref: papers/candidates/located-not-forced/review/V15-10-hostile-closeout-2026-07-23.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#PROOF-STABLE-KERNELS
-  summary: The anomaly-closure pair met its stopping rule after independent
-    re-derivation and may proceed at its stated grade.
-  progress_delta: 'A second hostile pass was dry, closed a receipt gap, and
-    strengthened provenance without changing claims or canon.'
-  scope_position: 'Anomaly closure is source-ready at its stated grade; the
-    corrected section-theory cluster needs another dry round.'
+  steering_ref: lab/process/research-portfolio.json#LNF-V2.15-HARDENING
+  summary: LNF v2.15 is internally hardened in canonical Markdown and no longer
+    consumes Lane 3 priority; final release-artifact preparation remains
+    Joe-directed.
+  progress_delta: 'Closed 10/10 work packages; passed 31/31 reproduction targets,
+    53/53 physical-signature checks, 5/5 mutations, framing/enumeration checks,
+    and targeted Lean builds.'
+  scope_position: 'The title and finite obstruction survive. C_fin is exact;
+    unrestricted C_inv, wider C6, true Y14 selection, physical realization, and
+    external replication remain explicit residuals.'
   trend_24h: up
-  confidence: med
-  recommendation: Preserve dry receipt; advance source-ready packet
-  findings: 'The anomaly pair survived independent routes. Section theory had
-    one material census correction, so its dry-round counter reset.'
+  confidence: high
+  recommendation: Preserve the closeout and restore ordinary Lane 1-3 selection
+  findings: 'The compact result does not transfer unchanged to one physical
+    Lorentzian Hodge half; v2.15 now states the half/closure fork. No central
+    thesis or title change is required.'
   options:
   - key: A
-    label: Preserve anomaly receipt
+    label: Preserve completed LNF v2.15
     recommended: true
   - key: B
-    label: Recheck section correction
+    label: Resume ordinary Lane 3 selection
   - key: C
-    label: Formalize when resourced
-  decision_default: Preserve the anomaly dry-round receipt and keep further
-    hardening behind Lane 1 unless a capacity-backed request returns.
+    label: Reopen on exact signal
+  decision_default: Do not rerun the closed campaign; rebuild release artifacts
+    only for final posting preparation, and otherwise use ordinary portfolio
+    selection.
   needs_joe: false
-  evaluated_at: '2026-07-20T17:42:00-05:00'
-  run_ref: RUN-20260720-173703-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-23T11:31:55-05:00'
+  run_ref: GUD-20260723T160054Z-lnf-v215-hardening
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'

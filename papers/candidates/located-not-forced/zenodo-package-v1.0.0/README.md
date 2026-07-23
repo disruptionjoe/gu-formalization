@@ -1,6 +1,10 @@
-# Zenodo release package — version 1.0.0
+# Draft Zenodo package scaffold — not yet version 1.0.0
 
-> **Preparation scaffold, not a release artifact.** The canonical Markdown is v2.14 and this directory has
+This directory must be rebuilt from the canonical v2.15 Markdown before
+publication. Its final date, DOI, immutable source commit, PDF, and deposit
+version remain unset.
+
+> **Preparation scaffold, not a release artifact.** The canonical Markdown is v2.15 and this directory has
 > not yet been regenerated from it.
 > Reconcile the final TeX/PDF, regenerate the integrity manifest, and complete `VERIFICATION.md` before upload.
 
@@ -10,7 +14,7 @@ Title: *Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Sch
 
 Author: Joseph Hernandez, Independent Researcher
 
-Once regenerated, this package will contain the article PDF and source, the readable v2.14 manuscript, a one-command
+Once regenerated, this package will contain the article PDF and source, the readable v2.15 manuscript, a one-command
 symbolic/numerical reproduction harness, a machine-readable evidence manifest, and the bounded Lean proof
 surface. It is intentionally scoped to the paper rather than the wider research repository.
 
@@ -18,7 +22,7 @@ surface. It is intentionally scoped to the paper rather than the wider research 
 
 - `main.pdf` — article of record and intended Zenodo default preview
 - `main.tex` — release LaTeX source
-- `manuscript-v2.14.md` — readable source copy
+- `manuscript-v2.15.md` — readable source copy
 - `METADATA.md` and `CITATION.cff` — copy-ready deposit metadata
 - `reproduction.md` — exact commands and dependency boundaries
 - `VERIFICATION.md` — release validation receipt
@@ -27,9 +31,11 @@ surface. It is intentionally scoped to the paper rather than the wider research 
 - `LOAD-BEARING-NUMBERS.json` and `validate_release_evidence.py` — evidence inventory and validator
 - `reproduce_all.py` — deterministic 31-check reproduction harness
 - `Lean/GUFormalization/LocatedNotForcedLegs.lean` — existing finite theorem legs
-- `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` — bounded class-C finite-core formalization
+- `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` — bounded `C_fin` codomain-separated formalization
 - `Lean/GUFormalization/R4TwoArena.lean` — typed two-arena arithmetic boundary
 - `tests/located-not-forced/H2_FiniteCore.lean` — targeted Lean certificate
+- `tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean` — typed CRT/input certificate
+- `tests/located-not-forced/V15_KreinTransversality.lean` — finite complex Krein certificate
 - `lakefile.lean`, `lake-manifest.json`, and `lean-toolchain` — pinned Lean project
 - `requirements.txt` — tested Python package versions
 - `LICENSE-DOCS.md` and `LICENSE-CODE.md` — documentation and code licenses

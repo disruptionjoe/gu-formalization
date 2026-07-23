@@ -1,4 +1,4 @@
-# Zenodo metadata
+# Draft Zenodo metadata — do not publish without final reconciliation
 
 - **Title:** Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier
 - **Resource type:** Publication / Preprint
@@ -6,8 +6,10 @@
 - **Affiliation:** Independent Researcher
 - **Email:** joe@disruptionjoe.com
 - **ORCID:** Not supplied; omit rather than infer
-- **Publication date:** 2026-07-23
-- **Version:** 1.0.0
+- **Publication date:** Unset until publication
+- **Manuscript version:** 2.15
+- **Deposit version:** Set to `1.0.0` only when the final package is built and
+  the Zenodo record is ready to publish
 - **Language:** English
 - **Primary license:** Creative Commons Attribution 4.0 International (`CC-BY-4.0`)
 - **Bundled code license:** MIT
@@ -20,21 +22,24 @@
 We study chirality and generation structure in an explicit Clifford Rarita-Schwinger carrier motivated by
 the matter proposal of Geometric Unity, while marking every GU-specific step. For
 `Cl(9,5)=M(64,H)`, the irreducible real module has real dimension 256; the computations use its
-128-dimensional complex realization. For a delimited encoded class C, the finite torsion constraints are
-2-primary and the integer-valued rows carry parity or divisibility content; none supplies a mod-3 congruence
-or selects a particular odd integer. A bounded finite deduction from the supplied carrier census and its
-product/gcd/lcm closure are machine-checked in Lean; carrier faithfulness remains computed evidence.
+128-dimensional complex realization. For the exact encoded finite type `C_fin`, finite torsion constraints
+are 2-primary; integer equality/divisibility, representation dimensions, and diagnostics remain separately
+typed; none supplies a mod-3 congruence or selects a particular odd integer. A bounded finite deduction is
+machine-checked in Lean. The lift toward broader semantic `C_inv` remains conditional.
 
-The finite Krein theorem proves a chiral-Lagrangian intersection nullity, not a physical handedness count or
-Fredholm index. The standard decomposition `pi_3^s = Z/24 = Z/8 + Z/3` applies only to data explicitly mapped
+The finite complex Krein theorem proves an intersection-difference nullity, not a physical handedness count
+or Fredholm index. Its compact `(96,96)` instance does not transfer unchanged: one Lorentzian Hodge half is
+Krein-null and the computed stable closure has signature `(192,192)`. The standard decomposition
+`pi_3^s = Z/24 = Z/8 + Z/3` applies only to data explicitly mapped
 into that torsion group. The exhibited framed class has order 12 and a nonzero order-3 projection, but it
 cannot itself be an integer count because `Hom(Z/3,Z)=0`.
 
 The result is a scoped exhibition and non-derivation statement, not a claim of three generations or a
 universal no-go. Lorentzian bundle transfer, non-equivariant constructions, and the true-`Y14`
 source-action pushforward remain open. All
-reported checks are internal-tier reproduction from the same AI-directed process that produced the paper;
-external replication and peer review are explicitly requested.
+reported checks are internal-tier reproduction from the same AI-directed process that produced the paper.
+External replication and peer review are welcome as optional later validation; they are not prerequisites
+for Zenodo publication.
 
 ## Keywords
 
