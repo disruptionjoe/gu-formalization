@@ -76,4 +76,3 @@ observer-natural first-order symbol-class enumeration.
 - Method refs/effect: `[]` / `null`.
 - Exact wake: another material repository change or
   `2026-07-30T05:47:45-05:00`.
-
