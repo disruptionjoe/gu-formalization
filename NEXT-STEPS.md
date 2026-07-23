@@ -272,9 +272,11 @@ updated_at: "2026-07-22"
 > certified domain is `C_fin`; unrestricted `C_inv`, wider C6, true-`Y14`
 > selection, physical realization beyond the computed half/closure fork, and
 > external replication remain declared residuals. Zenodo still does not wait
-> for external review. Markdown is internally hardened; TeX/PDF/package
-> rebuilding and immutable identity wait for final Joe-directed publication
-> preparation. Restore ordinary cross-lane selection; do not rerun this
+> for external review. The TeX, 18-page PDF, and scoped ZIP are now reconciled,
+> isolated-package verified, and pinned to source checkpoint
+> `020b682d3adf166d2b90017eb18b57be554af83c`. The only publication gate is
+> Joseph Hernandez's explicit approval of the Zenodo **Publish** action.
+> Restore ordinary cross-lane selection; do not rerun this
 > campaign as substitute work.
 >
 > **Lane A controls:** automated and direct Progress no longer allocate W numbers. Use namespaced `GUH`, `GUD`,

@@ -1,7 +1,7 @@
 # Submission Runbook -- Located, Not Forced
 
 **Prepared:** 2026-07-09; hardened 2026-07-23. **Paper version:** v2.15 canonical Markdown.
-**Status:** HARDENING COMPLETE FOR MARKDOWN; FINAL PUBLICATION RECONCILE DEFERRED.
+**Status:** ZENODO ARTIFACTS VERIFIED; READY FOR JOSEPH HERNANDEZ'S EXPLICIT PUBLISH APPROVAL.
 **Purpose:** a single linear checklist Joe can follow when he sits down to submit. This consolidates the
 Joe-side steps that had accumulated across the readiness passes in `STAGING-NOTES.md` (v2.4 through v2.10).
 `STAGING-NOTES.md` remains the full history; this file is the do-this-then-this.
@@ -23,8 +23,9 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 - Multiple internal adversarial passes, including the single-reviewer ten-lens H11 audit, have been
   completed. They are not independent external reviews. The generation **count stays OPEN**; three
   generations is explicitly not claimed.
-- `.md` is the canonical hardening draft. Reconcile `.tex`, rebuild the PDF, and regenerate the release
-  package only when final publication preparation resumes.
+- The canonical v2.15 Markdown, release TeX, 18-page PDF, and scoped
+  reproducibility ZIP are reconciled at source checkpoint
+  `020b682d3adf166d2b90017eb18b57be554af83c`.
 - At canon grade the open frontier remains the function-space analytic residual. Current exploration-grade
   evidence narrows it to the true-`Y14` fiber pushforward/source action. That calculation is
   **post-publication research**, is disclosed in-text, and does not gate this release.
@@ -33,16 +34,15 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
 
 ## Pre-flight (verify before starting -- 5 minutes)
 
-1. **Canon + git state.** Confirm the four staged RESULTS files are promoted in `CANON.md` and the tree is
-   committed/pushed (JoeOps records this at commit `2abd12c`; verify it still holds so the public repo the
-   paper's Data Availability section points to is current). If anything is uncommitted, commit + push first --
-   the paper cites the public repo as its reproducibility backbone.
+1. **Canon + git state.** The release source is committed and pushed at
+   `020b682d3adf166d2b90017eb18b57be554af83c`; `SOURCE-COMMIT.txt` records that
+   checkpoint.
 2. **Reproducibility harness green.** From a clean checkout:
    `python papers/candidates/located-not-forced/reproduce_all.py` should exit 0 (31/31 checks). This is what an
    reviewer can run; confirm it before release. **Pre-verified 2026-07-23: 31/31 passed, exit 0
    (~23s in the pinned research environment), with no runtime warning.**
-3. **`.tex`/`.md` parity.** Deferred by design during Markdown hardening. This is a publication gate, not a
-   current research-draft gate.
+3. **`.tex`/`.md` parity.** Complete. The generated release TeX and final PDF
+   were rebuilt from canonical v2.15 Markdown.
 
 ---
 
@@ -69,17 +69,17 @@ Avoid viXra-style no-gate dumps -- they undercut the qualified/serious posture.
 
 ## Step 2 -- Compile and preview
 
-A preliminary v2.13 source compiled locally with Tectonic and was visually checked, but the canonical v2.15 Markdown has
-changed since. At final publication time, reconcile the TeX from the canonical Markdown, then compile and
-inspect:
+The final v2.15 source compiled with Tectonic 0.16.9 into an 18-page US-letter
+PDF. Every page was rendered and inspected, including:
 
 - the front-matter `\fbox` (the five load-bearing caveats box -- it is tall);
 - the wide Section 7 display equation;
 - the Section 11 `longtable`;
 - all references resolve (embedded bibliography, single file, no external `.bib`).
 
-The source is intended to remain a **single self-contained `.tex`** with an embedded bibliography. Do not
-reuse the preliminary PDF as the article of record.
+The deposited `main.tex` is a **single self-contained `.tex`** with an embedded
+bibliography. A clean extracted-package rebuild is byte-identical to
+`main.pdf`; see `zenodo-package-v1.0.0/VERIFICATION.md`.
 
 ## Step 3 -- Shortened metadata abstract
 

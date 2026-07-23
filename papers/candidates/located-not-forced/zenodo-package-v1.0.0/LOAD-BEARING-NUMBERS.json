@@ -1,0 +1,1048 @@
+{
+  "schema_version": 2,
+  "title": "Located, Not Forced load-bearing-number evidence manifest",
+  "as_of": "2026-07-23",
+  "paper": "papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md",
+  "primary_harness": {
+    "path": "papers/candidates/located-not-forced/reproduce_all.py",
+    "expected_exit_code": 0,
+    "expected_static_check_calls": 29,
+    "expected_runtime_checks": 31,
+    "dynamic_expansion": {
+      "function": "check_theorem2",
+      "loop_cases": [
+        "(9,5)",
+        "(7,7)"
+      ],
+      "check_calls_per_case": 2,
+      "static_calls_in_loop": 2,
+      "runtime_minus_static": 2
+    }
+  },
+  "claim_ledger": "papers/candidates/located-not-forced/CLAIM-AND-PREMISE-LEDGER.json",
+  "historical_claim_map": "papers/candidates/located-not-forced/review/HQW-LEAD-premise-flag-map-and-gu-dependency-2026-07-14.md",
+  "lean_surface": [
+    "Lean/GUFormalization/LocatedNotForcedLegs.lean",
+    "Lean/GUFormalization/R4TwoArena.lean",
+    "Lean/GUFormalization/LocatedNotForcedFiniteCore.lean",
+    "tests/located-not-forced/H2_FiniteCore.lean",
+    "tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+    "tests/located-not-forced/V15_KreinTransversality.lean"
+  ],
+  "lean_reproduction": {
+    "h2_origin_commit": "33549a781f3e2a53d1b6bd0707a838be3db59a0b",
+    "commands": [
+      "lake -Kjobs=1 build +GUFormalization.LocatedNotForcedFiniteCore",
+      "lake env lean tests/located-not-forced/H2_FiniteCore.lean",
+      "lake env lean tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+      "lake env lean tests/located-not-forced/V15_KreinTransversality.lean"
+    ],
+    "scope_note": "The finite core proves exhaustiveness and typed 2-primary closure for its encoded finite type. Only genuine finite-torsion rows have moduli; integer equality/divisibility, representation dimensions, and diagnostics remain distinct, and CRT requires an explicit torsion-valued map. The Krein module proves a finite complex Hermitian transversality implication. Lean does not reconstruct the explicit carrier, transfer the compact packet to the physical Lorentzian bundle, or close the true-Y14/source-action residual."
+  },
+  "classification_policy": {
+    "independent_derivation": "A different file and substantively different derivation or proof path confirms the full declared expectation. A rerun of shared implementation code does not qualify.",
+    "independent_value_only": "A different derivation confirms the arithmetic value but not the full interpretation attached to it; the semantic disagreement is recorded.",
+    "same_code_path": "A second file repeats, imports, or closely copies the primary implementation or formula. It is corroboration, not an independent derivation.",
+    "no_second_path": "No second executable or formal derivation of the declared expectation was found in the repository."
+  },
+  "declared_coverage": {
+    "total_runtime_checks": 31,
+    "independent_derivation": 23,
+    "independent_value_only": 1,
+    "same_code_path": 6,
+    "no_second_path": 1
+  },
+  "scope_guards": [
+    "A Z/3 torsion class is not an integer generation count; Hom(Z/3,Z)=0.",
+    "Krein-space and positive-Hilbert-space constructions are distinct and must not be conflated.",
+    "The true-Y14/source-action relative-index residual remains open.",
+    "All current evidence is internal-tier reproduction. External replication is optional for Zenodo publication and required only before claiming an external-validation grade."
+  ],
+  "entries": [
+    {
+      "id": "LBN-001",
+      "runtime_ordinal": 1,
+      "public_claim": "Cl(9,5) has Clifford Morita type M(64,H).",
+      "expected": "M(64,H)",
+      "source": {
+        "section": "Section 8, carrier-mass consistency remark",
+        "anchors": [
+          "Cl(9,5) = M(64,H)",
+          "128^2 = 16384"
+        ]
+      },
+      "primary": {
+        "function": "check_clifford_type",
+        "method_family": "cl4_commutant_plus_signature_recurrence",
+        "evidence_tokens": [
+          "carrier Clifford Morita type Cl(9,5)",
+          "M(64,H)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/chase/MOVE-5/verify/indep_check.py",
+        "method_family": "explicit_quaternionic_real_structure",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "M(64,H): an antilinear quaternionic J",
+          "J^2=-I"
+        ],
+        "note": "Constructs a commuting antilinear J with J^2=-I on an explicit Cl(9,5) representation rather than using the Cl(4,0) commutant recursion."
+      }
+    },
+    {
+      "id": "LBN-002",
+      "runtime_ordinal": 2,
+      "public_claim": "The complex gamma-trace map has rank 128.",
+      "expected": "complex rank 128",
+      "source": {
+        "section": "Section 2, setting",
+        "anchors": [
+          "`S_C` be the 128-dimensional complex Dirac-spinor realization",
+          "`V_C (x) S_C` (complex dimension `14*128 = 1792`)"
+        ]
+      },
+      "primary": {
+        "function": "check_carrier_dims",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "evidence_tokens": [
+          "rank(Gamma) (gamma-trace map V(x)S -> S)",
+          "c[\"rankGamma\"] == 128"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/hardening-pass/verify/oqrk1_indh_rank_indep_check.py",
+        "method_family": "reversed_jordan_wigner_svd_nullspace",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "DIFFERENT Pi_RS construction",
+          "ker_T_dim_C"
+        ],
+        "note": "The independent SVD null-space construction finds kernel dimension 1664 in a 1792-dimensional domain, hence rank 128."
+      }
+    },
+    {
+      "id": "LBN-003",
+      "runtime_ordinal": 3,
+      "public_claim": "The gamma-traceless carrier has complex dimension 1664 = 2^7*13.",
+      "expected": "complex dimension 1664 = 2^7*13",
+      "source": {
+        "section": "Section 2, setting",
+        "anchors": [
+          "`(14-1)*128 = 1664 = 2^7 * 13`"
+        ]
+      },
+      "primary": {
+        "function": "check_carrier_dims",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "evidence_tokens": [
+          "dim ker(Gamma) = (14-1)*128 = 2^7*13",
+          "1664 = 2^7*13"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/hardening-pass/verify/oqrk1_indh_rank_indep_check.py",
+        "method_family": "reversed_jordan_wigner_svd_nullspace",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "ker_T_dim_C",
+          "expect 1664"
+        ],
+        "note": "Uses reversed tensor ordering, timelike-first signature placement, and an SVD kernel basis."
+      }
+    },
+    {
+      "id": "LBN-004",
+      "runtime_ordinal": 4,
+      "public_claim": "ker(Gamma) decomposes under su(2)+ as 640 singlet states, 832 doublet states, and 192 triplet states.",
+      "expected": "640/832/192, sum 1664",
+      "source": {
+        "section": "Section 2, setting",
+        "anchors": [
+          "ker(Gamma) = 640 (singlets) + 832 (doublets) + 192 (triplets)"
+        ]
+      },
+      "primary": {
+        "function": "check_carrier_dims",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "evidence_tokens": [
+          "640 singlets + 832 doublets + 192 triplets",
+          "sum 1664"
+        ]
+      },
+      "secondary": {
+        "classification": "same_code_path",
+        "path": "tests/generation-sector/h1_selfdual_family_kill.py",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "SU(2)+ content of ker(Gamma)",
+          "640*1 + 416*2 + 64*3 = 1664"
+        ],
+        "shared_implementation": "The primary harness states that its carrier recipe was copied from generation-sector scripts, including h1_selfdual_family_kill.py.",
+        "note": "Corroborating rerun only; not counted independent."
+      }
+    },
+    {
+      "id": "LBN-005",
+      "runtime_ordinal": 5,
+      "public_claim": "The same decomposition has representation multiplicities 640, 416, and 64.",
+      "expected": "640,416,64",
+      "source": {
+        "section": "Section 3, multiplicity versus chirality",
+        "anchors": [
+          "640 (j=0) + 416 (j=1/2) + 64 (j=1)",
+          "640*1 + 416*2 + 64*3 = 1664"
+        ]
+      },
+      "primary": {
+        "function": "check_carrier_dims",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "evidence_tokens": [
+          "multiplicity reading 640(j=0)+416(j=1/2)+64(j=1)",
+          "640,416,64"
+        ]
+      },
+      "secondary": {
+        "classification": "same_code_path",
+        "path": "tests/generation-sector/h1_selfdual_family_kill.py",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "640*1 + 416*2 + 64*3 = 1664",
+          "64 triplets"
+        ],
+        "shared_implementation": "The primary harness copied the carrier and Casimir recipe from this generation-sector path.",
+        "note": "Corroborating rerun only; not counted independent."
+      }
+    },
+    {
+      "id": "LBN-006",
+      "runtime_ordinal": 6,
+      "public_claim": "The j=1 triplet sector has complex dimension 192.",
+      "expected": "complex dimension 192",
+      "source": {
+        "section": "Sections 2-3",
+        "anchors": [
+          "`192`-dimensional `j=1` sector is the multiplicity-three structure",
+          "64 triplets spanning the complex"
+        ]
+      },
+      "primary": {
+        "function": "check_carrier_dims",
+        "method_family": "jordan_wigner_full_rs_carrier",
+        "evidence_tokens": [
+          "triplet (j=1) sector dimension",
+          "s1 == 192"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_reduced_carrier_casimir",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "OWN gamma matrices by RECURSIVE DOUBLING",
+          "carrier j=1 Casimir-8, dim 192"
+        ],
+        "note": "Builds a reduced four-frame carrier from recursive-doubling gammas, not the primary Jordan-Wigner carrier."
+      }
+    },
+    {
+      "id": "LBN-007",
+      "runtime_ordinal": 7,
+      "public_claim": "The triplet Krein signature is (+96,-96,0).",
+      "expected": "(+96,-96,0)",
+      "source": {
+        "section": "Sections 2, 3, and 6",
+      "anchors": [
+        "signature exactly `(+96, -96)`",
+        "cross-total-chirality, Hermitian signature exactly `(+96, -96)`"
+        ]
+      },
+      "primary": {
+        "function": "check_krein",
+        "method_family": "jordan_wigner_krein_carrier",
+        "evidence_tokens": [
+          "triplet Krein signature K = eta_V (x) beta_S",
+          "(+96, -96, 0)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_krein_spectrum",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "OWN gamma matrices by RECURSIVE DOUBLING",
+          "K signature (96,96)"
+        ],
+        "note": "Rebuilds K and diagonalizes it on a different gamma substrate."
+      }
+    },
+    {
+      "id": "LBN-008",
+      "runtime_ordinal": 8,
+      "public_claim": "The spinor metric beta_S makes the spin generators pseudo-anti-Hermitian to residual below 1e-9.",
+      "expected": "residual < 1e-9",
+      "source": {
+        "section": "Section 2, invariant Krein form premise",
+        "anchors": [
+          "so(p,q)`-invariant Krein form `K = eta_V (x) beta_S"
+        ]
+      },
+      "primary": {
+        "function": "check_krein",
+        "method_family": "jordan_wigner_beta_generator_residual",
+        "evidence_tokens": [
+          "beta_S pseudo-anti-Hermiticity residual",
+          "c[\"beta_resid\"] < 1e-9"
+        ]
+      },
+      "secondary": {
+        "classification": "same_code_path",
+        "path": "tests/generation-sector/ghost_parity_krein.py",
+        "method_family": "jordan_wigner_beta_generator_residual",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "beta pseudo-anti-Herm residual",
+          "pseudo-anti-Hermitian"
+        ],
+        "shared_implementation": "The primary harness copied this beta_S and generator-residual construction.",
+        "note": "No different-method beta_S invariance derivation was located."
+      }
+    },
+    {
+      "id": "LBN-009",
+      "runtime_ordinal": 9,
+      "public_claim": "The (9,5) same-chirality Krein blocks vanish below 1e-9.",
+      "expected": "both block norms < 1e-9",
+      "source": {
+        "section": "Section 6, Theorem 2 premises",
+      "anchors": [
+        "the `(96,96)` theorem instance above",
+        "relative to two totally K-isotropic subspaces `W_+` and"
+        ]
+      },
+      "primary": {
+        "function": "check_theorem2",
+        "method_family": "jordan_wigner_krein_block_norms",
+        "evidence_tokens": [
+          "same-chirality Krein blocks",
+          "(9,5)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_isotropy_test",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Cl(9,5) [internal so(5,5)]",
+          "cross-chirality premise reproduced"
+        ],
+        "note": "Checks K-isotropy of both chirality eigenspaces on recursive-doubling gammas."
+      }
+    },
+    {
+      "id": "LBN-010",
+      "runtime_ordinal": 10,
+      "public_claim": "The (9,5) numerical projection-balance diagnostics vanish.",
+      "expected": "continuous residual < 1e-6 and projection-rank difference 0",
+      "source": {
+        "section": "Section 6, Theorem 2",
+        "anchors": [
+          "equal projection-image",
+          "difference in `(9,5)` and `(7,7)`"
+        ]
+      },
+      "primary": {
+        "function": "check_theorem2",
+        "method_family": "jordan_wigner_physical_subspace_index",
+        "evidence_tokens": [
+          "projection-balance diagnostics vanish",
+          "(9,5)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_exact_intersection_ranks",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Cl(9,5) [internal so(5,5)]",
+          "index nullity holds on P_iso"
+        ],
+        "note": "Uses exact intersection-rank differences rather than the primary continuous trace plus SVD route."
+      }
+    },
+    {
+      "id": "LBN-011",
+      "runtime_ordinal": 11,
+      "public_claim": "The (7,7) same-chirality Krein blocks vanish below 1e-9.",
+      "expected": "both block norms < 1e-9",
+      "source": {
+        "section": "Section 6, signature cross-check",
+      "anchors": [
+        "difference in `(9,5)` and `(7,7)`",
+        "the `(96,96)` theorem instance above"
+        ]
+      },
+      "primary": {
+        "function": "check_theorem2",
+        "method_family": "jordan_wigner_krein_block_norms",
+        "evidence_tokens": [
+          "same-chirality Krein blocks",
+          "(7,7)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_isotropy_test",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Cl(7,7) [internal so(3,7)]",
+          "cross-chirality premise reproduced"
+        ],
+        "note": "Independent substrate and signature run."
+      }
+    },
+    {
+      "id": "LBN-012",
+      "runtime_ordinal": 12,
+      "public_claim": "The (7,7) numerical projection-balance diagnostics vanish.",
+      "expected": "continuous residual < 1e-6 and projection-rank difference 0",
+      "source": {
+        "section": "Section 6, signature cross-check",
+        "anchors": [
+          "difference in `(9,5)` and `(7,7)`"
+        ]
+      },
+      "primary": {
+        "function": "check_theorem2",
+        "method_family": "jordan_wigner_physical_subspace_index",
+        "evidence_tokens": [
+          "projection-balance diagnostics vanish",
+          "(7,7)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_exact_intersection_ranks",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Cl(7,7) [internal so(3,7)]",
+          "index nullity holds on P_iso"
+        ],
+        "note": "Uses different gammas and exact rank differences."
+      }
+    },
+    {
+      "id": "LBN-013",
+      "runtime_ordinal": 13,
+      "public_claim": "The Euclidean (14,0) grading-aligned control has projection-rank difference 96.",
+      "expected": "projection-rank difference 96",
+      "source": {
+        "section": "Section 6, Theorem 2 control",
+        "anchors": [
+          "grading-aligned Euclidean `(14,0)` control",
+          "a grading-aligned Euclidean `(14,0)` control gives projection-rank difference"
+        ]
+      },
+      "primary": {
+        "function": "check_theorem2",
+        "method_family": "jordan_wigner_euclidean_control",
+        "evidence_tokens": [
+          "Euclidean (14,0) grading-aligned control gives projection-rank difference 96"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/antilinear-bound/verify/nonkrein_indep_check.py",
+        "method_family": "recursive_doubling_premise_failure_control",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Euclidean Cl(14,0) PREMISE-FAILURE control",
+          "K-definite re-grading carries +-96"
+        ],
+        "note": "A different gamma construction deliberately breaks the null-eigenspace premise and recovers 96."
+      }
+    },
+    {
+      "id": "LBN-014",
+      "runtime_ordinal": 14,
+      "public_claim": "The delimited K-null antilinear re-gradings have zero Krein intersection index.",
+      "expected": "chi_cap=0",
+      "source": {
+        "section": "Section 6, antilinear null-eigenspace bound",
+        "anchors": [
+          "images of the original chiral subspaces",
+          "same intersection index relative to those images"
+        ]
+      },
+      "primary": {
+        "function": "check_antilinear",
+        "method_family": "jordan_wigner_closed_form_antilinear_witness",
+        "evidence_tokens": [
+          "antilinear K-null re-grading",
+          "zero Krein intersection index"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "Lean/GUFormalization/LocatedNotForcedLegs.lean",
+        "method_family": "lean_submodule_intersection_proof",
+        "confirms": "full_expectation",
+      "evidence_tokens": [
+        "theorem intersectionDifference_eq_zero",
+        "intersectionDifference P Wp Wm = 0"
+        ],
+        "note": "Lean proves the implication from K-positive/K-isotropic premises; Python independently certifies the finite-model algebraic premises."
+      }
+    },
+    {
+      "id": "LBN-015",
+      "runtime_ordinal": 15,
+      "public_claim": "The self-dual su(2)+ multiplicity bundle has adjoint Dirac index 12k.",
+      "expected": "12k, even",
+      "source": {
+        "section": "Section 4, Theorem 1 enumeration",
+        "anchors": [
+          "Adjoint Dirac indices `4k`, `12k`, and `24k`"
+        ]
+      },
+      "primary": {
+        "function": "check_12k",
+        "method_family": "jordan_wigner_spin10_casimir_dynkin_sum",
+        "evidence_tokens": [
+          "self-dual su(2)+ multiplicity bundle = 12k",
+          "idx_p == 12"
+        ]
+      },
+      "secondary": {
+        "classification": "same_code_path",
+        "path": "tests/generation-sector/leg3_family_embedding_enumeration.py",
+        "method_family": "jordan_wigner_spin10_casimir_dynkin_sum",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "self-dual su(2)+",
+          "multiplicity space"
+        ],
+        "shared_implementation": "Both paths build the same Jordan-Wigner carrier, select the Spin(10) sector by Casimir, and sum su(2) Dynkin indices.",
+        "note": "No different-method 12k derivation was located."
+      }
+    },
+    {
+      "id": "LBN-016",
+      "runtime_ordinal": 16,
+      "public_claim": "The anti-self-dual su(2)- multiplicity bundle has adjoint Dirac index 12k.",
+      "expected": "12k, even",
+      "source": {
+        "section": "Section 4, Theorem 1 enumeration",
+        "anchors": [
+          "Adjoint Dirac indices `4k`, `12k`, and `24k`"
+        ]
+      },
+      "primary": {
+        "function": "check_12k",
+        "method_family": "jordan_wigner_spin10_casimir_dynkin_sum",
+        "evidence_tokens": [
+          "anti-self-dual su(2)- multiplicity bundle = 12k",
+          "idx_m == 12"
+        ]
+      },
+      "secondary": {
+        "classification": "same_code_path",
+        "path": "tests/generation-sector/leg3_family_embedding_enumeration.py",
+        "method_family": "jordan_wigner_spin10_casimir_dynkin_sum",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "anti-self-dual su(2)-",
+          "same (parity image)"
+        ],
+        "shared_implementation": "Same carrier, Casimir selection, and Dynkin-sum implementation family.",
+        "note": "No different-method 12k derivation was located."
+      }
+    },
+    {
+      "id": "LBN-017",
+      "runtime_ordinal": 17,
+      "public_claim": "The diagonal su(2) multiplicity bundle has adjoint Dirac index 24k.",
+      "expected": "24k, even",
+      "source": {
+        "section": "Section 4, Theorem 1 enumeration",
+        "anchors": [
+          "Adjoint Dirac indices `4k`, `12k`, and `24k`"
+        ]
+      },
+      "primary": {
+        "function": "check_12k",
+        "method_family": "jordan_wigner_spin10_casimir_dynkin_sum",
+        "evidence_tokens": [
+          "diagonal su(2) gives 24k",
+          "idx_d == 24"
+        ]
+      },
+      "secondary": {
+        "classification": "same_code_path",
+        "path": "tests/generation-sector/leg3_family_embedding_enumeration.py",
+        "method_family": "jordan_wigner_spin10_casimir_dynkin_sum",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "diagonal/vector su(2)",
+          "ONLY even"
+        ],
+        "shared_implementation": "Same carrier, Casimir selection, and Dynkin-sum implementation family.",
+        "note": "No different-method 24k derivation was located."
+      }
+    },
+    {
+      "id": "LBN-018",
+      "runtime_ordinal": 18,
+      "public_claim": "Adams image-of-J gives |pi_3^s|=24 via denom(B_2/4).",
+      "expected": "24",
+      "source": {
+        "section": "Section 5, CRT two-arena structure",
+        "anchors": [
+          "Im J` is cyclic of order `denom(B_{2s}/4s)`",
+          "for `s=1` this is `24`"
+        ]
+      },
+      "primary": {
+        "function": "check_crt",
+        "method_family": "sympy_bernoulli_denominator",
+        "evidence_tokens": [
+          "|pi_3^s| = |Im J| = denom(B_2/4)",
+          "sp.bernoulli(2)"
+        ]
+      },
+      "secondary": {
+        "classification": "no_second_path",
+        "path": null,
+        "method_family": null,
+        "confirms": "none",
+        "evidence_tokens": [],
+        "note": "Other repository scripts take |Im J_3|=24 as a standard input or assertion; none independently derives it from Adams/image-of-J by a second method."
+      }
+    },
+    {
+      "id": "LBN-019",
+      "runtime_ordinal": 19,
+      "public_claim": "Z/24 decomposes into its 2-primary Z/8 and odd Z/3 factors.",
+      "expected": "8 x 3",
+      "source": {
+        "section": "Section 5, CRT two-arena structure",
+        "anchors": [
+          "primary decomposition `Z/24 = Z/8 (+) Z/3`"
+        ]
+      },
+      "primary": {
+        "function": "check_crt",
+        "method_family": "python_integer_factorization",
+        "evidence_tokens": [
+          "primary decomposition Z/24 = Z/8 (+) Z/3",
+          "two_part == 8 and odd_p == 3"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "Lean/GUFormalization/R4TwoArena.lean",
+        "method_family": "lean_zmod_chinese_remainder_isomorphism",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "noncomputable def twoArena",
+          "ZMod 24"
+        ],
+        "note": "Lean constructs the ring/group isomorphism ZMod 24 ≃ ZMod 8 × ZMod 3."
+      }
+    },
+    {
+      "id": "LBN-020",
+      "runtime_ordinal": 20,
+      "public_claim": "gcd(8,3)=1 and the CRT reduction map is bijective.",
+      "expected": "gcd=1, bijective",
+      "source": {
+        "section": "Section 5, central structural fact",
+        "anchors": [
+          "Chinese Remainder Theorem",
+          "`Z/24 = Z/8 (+) Z/3` is into disjoint summands"
+        ]
+      },
+      "primary": {
+        "function": "check_crt",
+        "method_family": "python_exhaustive_residue_bijection",
+        "evidence_tokens": [
+          "gcd(8,3)=1 so CRT splits",
+          "distinct pairs"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "Lean/GUFormalization/R4TwoArena.lean",
+        "method_family": "lean_decidable_coprimality_and_crt",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "theorem coprime_eight_three",
+          "ZMod.chineseRemainder"
+        ],
+        "note": "Proof-checked independently of the Python residue enumeration."
+      }
+    },
+    {
+      "id": "LBN-021",
+      "runtime_ordinal": 21,
+      "public_claim": "Hom(Z/3,Z)=0 and Hom(Z/24,Z)=0.",
+      "expected": "only the zero homomorphism",
+      "source": {
+        "section": "Section 9, open conjecture and category error",
+        "anchors": [
+          "Hom(Z/3, Z) = 0",
+          "Hom(Z/24, Z) = 0"
+        ]
+      },
+      "primary": {
+        "function": "check_crt",
+        "method_family": "finite_image_equation_in_torsion_free_target",
+        "evidence_tokens": [
+          "Hom(Z/3,Z)=0 and Hom(Z/24,Z)=0",
+          "only x=0"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/big-swing/fb_f4_imageofJ_fractional_and_imports.py",
+        "method_family": "cyclic_hom_generator_equation_with_free_control",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Hom(Z/24,Z)=Hom(Z/3,Z)=Hom(Z/2,Z)=0",
+          "Hom(Z,Z)!=0 control"
+        ],
+        "note": "Standalone group-homomorphism check with a nonzero free-domain control."
+      }
+    },
+    {
+      "id": "LBN-022",
+      "runtime_ordinal": 22,
+      "public_claim": "The self-dual tangential framing has Adams e_R=1/12.",
+      "expected": "1/12",
+      "source": {
+        "section": "Section 7, located order-3 carrier",
+      "anchors": [
+        "e_R = +/- p_1/48 = +/- 1/12",
+        "p_1 = +/- 4"
+        ]
+      },
+      "primary": {
+        "function": "check_eR",
+        "method_family": "kirby_melvin_framing_fraction",
+        "evidence_tokens": [
+          "Adams e-invariant of self-dual Lambda^2_+ framing on RP^3",
+          "p1/48"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/boundary-eta/verify/plus96_eta_denominator_indep_check.py",
+        "method_family": "su2_adjoint_dynkin_ratio_to_stable_framing",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "su2_tangential_e_invariant",
+          "tangential_e == Fraction(1, 12)"
+        ],
+        "note": "Derives p1=4 from the adjoint/fundamental Dynkin ratio and then applies the stable framing degree."
+      }
+    },
+    {
+      "id": "LBN-023",
+      "runtime_ordinal": 23,
+      "public_claim": "e_R=1/12 has additive order 12 in Q/Z and a nonzero order-3 primary component.",
+      "expected": "order 12, 3-part order 3",
+      "source": {
+        "section": "Section 7, located order-3 carrier",
+      "anchors": [
+        "projected 3-primary components order 3",
+        "e_R = +/- p_1/48 = +/- 1/12"
+        ]
+      },
+      "primary": {
+        "function": "check_eR",
+        "method_family": "fraction_denominator_and_p_adic_valuation",
+        "evidence_tokens": [
+          "e_R has order 12 in Q/Z",
+          "three_order == 3"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/big-swing/R4_crt_two_arena.py",
+        "method_family": "repeated_addition_order_in_q_mod_z",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "additive order in Q/Z",
+          "3-primary component 4*e_R"
+        ],
+        "note": "Computes additive orders by repeated exact rational addition rather than reading the denominator valuation directly."
+      }
+    },
+    {
+      "id": "LBN-024",
+      "runtime_ordinal": 24,
+      "public_claim": "The Spin(10) 16 has Tr Y=Tr Q=0.",
+      "expected": "Tr Y=Tr Q=0",
+      "source": {
+        "section": "Section 8 and Pati-Salam reproducibility appendix",
+        "anchors": [
+          "`Tr Y = Tr Q = 0`",
+          "directly checked linear traces"
+        ]
+      },
+      "primary": {
+        "function": "check_pati_salam",
+        "method_family": "spin10_sign_weight_enumeration",
+        "evidence_tokens": [
+          "the displayed linear traces of the 16 vanish: Tr Y = Tr Q = 0",
+          "sumY"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/decider/adversarial_independent_recheck.py",
+        "method_family": "scratch_built_pati_salam_control",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Pati-Salam",
+          "Tr Y"
+        ],
+        "note": "The decider's explicitly independent recheck recomputes the Pati-Salam controls outside the paper harness."
+      }
+    },
+    {
+      "id": "LBN-025",
+      "runtime_ordinal": 25,
+      "public_claim": "The electric charges in the Spin(10) 16 are {0,+/-1/3,+/-2/3,+/-1}.",
+      "expected": "{0,+/-1/3,+/-2/3,+/-1}",
+      "source": {
+        "section": "Pati-Salam reproducibility appendix",
+        "anchors": [
+          "`{0, +/-1/3, +/-2/3, +/-1}`"
+        ]
+      },
+      "primary": {
+        "function": "check_pati_salam",
+        "method_family": "spin10_sign_weight_enumeration",
+        "evidence_tokens": [
+          "electric charges of the 16",
+          "expected_charges"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "lab/active-research/verify_clifford_explicit.py",
+        "method_family": "explicit_so10_clifford_cartan_eigenweights",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Builds explicit 32x32 gamma matrices",
+          "one chirality == paper n=1 table"
+        ],
+        "note": "Reads Cartan weights from explicit SO(10) Clifford matrices instead of enumerating sign tuples directly."
+      }
+    },
+    {
+      "id": "LBN-026",
+      "runtime_ordinal": 26,
+      "public_claim": "The reconstructed Pati-Salam Spin(7,7) branch normalizes one Spin(10) 16 as one Standard-Model family; it does not count copies.",
+      "expected": "16//16=1 family-unit normalization, chain-relative",
+      "source": {
+        "section": "Section 8 and Pati-Salam reproducibility appendix",
+        "anchors": [
+          "normalizes a single `16` as one family",
+          "one reduction among many possible symmetry-breaking chains"
+        ]
+      },
+      "primary": {
+        "function": "check_pati_salam",
+        "method_family": "spin10_sign_weight_enumeration",
+        "evidence_tokens": [
+          "one Spin(10) 16 = one family unit",
+          "family_units == 1"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "lab/active-research/verify_clifford_explicit.py",
+        "method_family": "explicit_so10_clifford_cartan_eigenweights",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "Both chiralities are one generation",
+          "each chirality totals 16 states"
+        ],
+        "note": "Confirms representation content only; the manifest retains the paper's explicit chain-relativity caveat."
+      }
+    },
+    {
+      "id": "LBN-027",
+      "runtime_ordinal": 27,
+      "public_claim": "The spin-1/2 Dirac index on K3 is Ahat(K3)=2.",
+      "expected": "2",
+      "source": {
+        "section": "Section 8, deciding computation and 2+1 caution",
+        "anchors": [
+          "`A-hat(K3) = 2`",
+          "spin-1/2 leg"
+        ]
+      },
+      "primary": {
+        "function": "check_forcing_slot",
+        "method_family": "k3_signature_characteristic_fraction",
+        "evidence_tokens": [
+          "spin-1/2 Dirac index on K3",
+          "Ahat(K3) = 2"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/decider/adversarial_independent_recheck.py",
+        "method_family": "sigma_only_ahat_control",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "A-hat(K3) = -p1/24",
+          "chi=24 NOT used"
+        ],
+        "note": "Re-derives p1 from sigma and explicitly rejects the Euler-characteristic target import."
+      }
+    },
+    {
+      "id": "LBN-028",
+      "runtime_ordinal": 28,
+      "public_claim": "The spin-3/2 Rarita-Schwinger index on K3 is -42, hence zero mod 3.",
+      "expected": "-42, congruent 0 mod 3",
+      "source": {
+        "section": "Section 8, forcing-slot and 2+1 analysis",
+        "anchors": [
+          "`-42 == 0 (mod 3)`",
+          "spin-3/2 leg"
+        ]
+      },
+      "primary": {
+        "function": "check_forcing_slot",
+        "method_family": "direct_7p1_over_8_fraction",
+        "evidence_tokens": [
+          "spin-3/2 RS index on K3",
+          "spin_32 == Fr(-42)"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/forcing-slot/twisted_spin32_index_k3.py",
+        "method_family": "character_valued_ahat_times_vector_minus_ghost",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "deg4{ A-hat*(tr_v exp -1) }",
+          "assert pure == F(-42)"
+        ],
+        "note": "Expands the degree-four character-valued index density before evaluating on K3."
+      }
+    },
+    {
+      "id": "LBN-029",
+      "runtime_ordinal": 29,
+      "public_claim": "For every integer twist, 16*(-42)+3*ch2(V) is zero mod 3.",
+      "expected": "zero mod 3 for every integer ch2(V)",
+      "source": {
+        "section": "Section 8, forcing-slot test",
+        "anchors": [
+          "twisted-by-16 index `16(-42) + 3 ch_2(V)` is `== 0 (mod 3)`"
+        ]
+      },
+      "primary": {
+        "function": "check_forcing_slot",
+        "method_family": "direct_modular_identity_sweep",
+        "evidence_tokens": [
+          "16*(-42)+3*ch2(V) == 0 (mod 3)",
+          "all_zero_mod3"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/forcing-slot/twisted_spin32_index_k3.py",
+        "method_family": "character_valued_twisted_index_formula",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "spin32_index(rankF: int, ch2F: int)",
+          "3*ch2F"
+        ],
+        "note": "The independent formula derives the coefficient 3 from the vector-minus-ghost character rather than assuming the modular identity."
+      }
+    },
+    {
+      "id": "LBN-030",
+      "runtime_ordinal": 30,
+      "public_claim": "The projector trace 4*64 equals 256=2^8; the paper explicitly warns that it is not a physical net-chiral index.",
+      "expected": "256=2^8, arithmetic only",
+      "source": {
+        "section": "Section 8, forcing-slot test",
+        "anchors": [
+          "`256 = 2^8`",
+          "a tautological projector trace, with physical-sector index 0"
+        ]
+      },
+      "primary": {
+        "function": "check_forcing_slot",
+        "method_family": "jordan_wigner_projector_trace",
+        "evidence_tokens": [
+          "4*64 = 256 = 2^8",
+          "net256 == 256"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_value_only",
+        "path": "tests/forcing-slot/adv_verify_rs_independent.py",
+        "method_family": "projector_trace_decomposition_and_physical_index_audit",
+        "confirms": "numeric_value_only",
+        "evidence_tokens": [
+          "Is +256 a genuine CHIRAL INDEX",
+          "projector tautology"
+        ],
+        "semantic_dispute": "The independent verifier reproduces 256 but rejects the label 'genuine net-chiral index': after the P16 sandwich it is a projector-dimension trace, while the physical-sector index is zero. The manuscript already records this caution.",
+        "note": "Not counted as a full independent confirmation of the primary harness's older label."
+      }
+    },
+    {
+      "id": "LBN-031",
+      "runtime_ordinal": 31,
+      "public_claim": "The located Lambda^2_+ carrier reaches at most two of the three forcing properties because it is tangential but vectorlike.",
+      "expected": "<=2 of 3; missing net chirality",
+      "source": {
+        "section": "Sections 7-8, carrier and forcing-slot",
+        "anchors": [
+          "tangential but vectorlike",
+          "reaches at most two of the three properties"
+        ]
+      },
+      "primary": {
+        "function": "check_forcing_slot",
+        "method_family": "assembled_carrier_property_boolean",
+        "evidence_tokens": [
+          "located carrier reaches <= 2 of 3 forcing properties",
+          "missing net-chirality"
+        ]
+      },
+      "secondary": {
+        "classification": "independent_derivation",
+        "path": "tests/decider/adversarial_independent_recheck.py",
+        "method_family": "scratch_frame_projection_plus_vectorlike_check",
+        "confirms": "full_expectation",
+        "evidence_tokens": [
+          "carrier Lambda^2_+ net self-dual frame charge",
+          "TANGENTIAL (p1=4) but this triplet is VECTORLIKE"
+        ],
+        "note": "The independent decider rebuilds frame projections and the carrier/selector split."
+      }
+    }
+  ]
+}

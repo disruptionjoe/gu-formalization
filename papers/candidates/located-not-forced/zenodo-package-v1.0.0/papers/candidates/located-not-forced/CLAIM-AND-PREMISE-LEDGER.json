@@ -1,0 +1,312 @@
+{
+  "schema_version": 1,
+  "title": "Located, Not Forced current claim-and-premise ledger",
+  "as_of": "2026-07-23",
+  "paper": "papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md",
+  "historical_claim_map": "papers/candidates/located-not-forced/review/HQW-LEAD-premise-flag-map-and-gu-dependency-2026-07-14.md",
+  "current_surfaces": [
+    "papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md",
+    "papers/candidates/located-not-forced/REVIEWER.md"
+  ],
+  "forbidden_current_formulations": [
+    "necessary antilinear escape",
+    "External backgrounds are necessary.",
+    "The full class has order 3.",
+    "e_R = 1/12 has order 3",
+    "16 // 16 is a generation count",
+    "net chiral index conservation"
+  ],
+  "premises": [
+    {
+      "id": "LNF-PR-001",
+      "name": "complex_carrier_realization",
+      "statement": "Computations use the 128-dimensional complex realization of the 256-dimensional real Cl(9,5) module."
+    },
+    {
+      "id": "LNF-PR-002",
+      "name": "computed_carrier_faithfulness",
+      "statement": "The explicit scripts, not Lean, supply the 192-dimensional carrier and its Hom-space census."
+    },
+    {
+      "id": "LNF-PR-003",
+      "name": "lorentzian_transfer_boundary",
+      "statement": "The bounded physical-signature audit shows that one Lorentzian Hodge half remains complex dimension 192 but is Krein-null and conjugation-exchanged; the stable closure is dimension 384 with signature (192,192). Selection on the true Y14 bundle remains reconstruction-grade."
+    },
+    {
+      "id": "LNF-PR-004",
+      "name": "encoded_finite_grammar",
+      "statement": "The complete formal theorem quantifies over the encoded finite class C_fin, not unrestricted operator theory."
+    },
+    {
+      "id": "LNF-PR-005",
+      "name": "codomain_separation",
+      "statement": "Finite torsion, integer equality/divisibility, dimensions, and diagnostics remain in distinct codomains."
+    },
+    {
+      "id": "LNF-PR-006",
+      "name": "framing_convention_packet",
+      "statement": "The framed-class value depends on the displayed orientation, stabilization, p1/2, and Adams conventions."
+    },
+    {
+      "id": "LNF-PR-007",
+      "name": "gu_tangential_identification",
+      "statement": "Identifying GU's Lambda^2_+ twist with the natural tangential framing is reconstruction-grade."
+    },
+    {
+      "id": "LNF-PR-008",
+      "name": "true_y14_source_action_open",
+      "statement": "The true-Y14 source action, pushforward, and integer-by-construction generation index remain unbuilt."
+    },
+    {
+      "id": "LNF-PR-009",
+      "name": "internal_evidence_ceiling",
+      "statement": "All current replication is internal to the same AI-directed process and is not external validation."
+    }
+  ],
+  "claims": [
+    {
+      "id": "LNF-CL-001",
+      "status_anchor": "`Cl(9,5)` carrier type",
+      "statement": "Cl(9,5)=M(64,H); the irreducible real module has real dimension 256 and the computations use its 128-dimensional complex realization.",
+      "codomain": "Clifford algebra type and real/complex dimensions",
+      "grade": "standard classification plus internally reproduced construction",
+      "evidence_role": "computed",
+      "gu_dependency": "none",
+      "premises": ["LNF-PR-001"],
+      "evidence_paths": [
+        "papers/candidates/located-not-forced/reproduce_all.py",
+        "tests/chase/MOVE-5/verify/indep_check.py"
+      ],
+      "scope_exits": ["physical-state interpretation", "positive-Hilbert realization"]
+    },
+    {
+      "id": "LNF-CL-002",
+      "status_anchor": "Compact/complexified `su(2)_+` triplet",
+      "statement": "The compact/complexified carrier contains a complex 192-dimensional triplet with two 96-dimensional total-chirality blocks. A physical Lorentzian Hodge half preserves those dimensions but is Krein-null and conjugation-exchanged; the computed stable closure has dimension 384 and signature (192,192).",
+      "codomain": "complex representation dimensions",
+      "grade": "compact carrier computed; bounded Lorentzian fork computed; true-Y14 selection reconstruction-grade",
+      "evidence_role": "computed",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-001", "LNF-PR-002", "LNF-PR-003"],
+      "evidence_paths": [
+        "papers/candidates/located-not-forced/reproduce_all.py",
+        "tests/enum-completeness/enum_class_c_generators.py",
+        "tests/lorentzian-transfer/physical_signature_transfer_audit.py",
+        "papers/candidates/located-not-forced/review/V15-4-carrier-faithfulness-packet-2026-07-23.md"
+      ],
+      "scope_exits": ["physical Lorentzian chirality count", "true-Y14 bundle"]
+    },
+    {
+      "id": "LNF-CL-003",
+      "status_anchor": "`C_fin` constraints do not supply an odd-prime congruence or select an odd integer",
+      "statement": "For C_fin, finite torsion rows are 2-primary and integer rows contain only stated equality or power-of-two divisibility information; none supplies a mod-3 congruence or selects a particular odd integer.",
+      "codomain": "typed finite torsion plus Z-valued constraints",
+      "grade": "computed carrier premise plus Lean-verified bounded deduction",
+      "evidence_role": "formal",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-002", "LNF-PR-004", "LNF-PR-005"],
+      "evidence_paths": [
+        "Lean/GUFormalization/LocatedNotForcedFiniteCore.lean",
+        "tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+        "tests/enum-completeness/enum_class_c_generators.py",
+        "canon/enum-completeness-class-c-RESULTS.md",
+        "papers/candidates/located-not-forced/review/V15-2-cfin-cinv-lifting-audit-2026-07-23.md"
+      ],
+      "scope_exits": ["C_inv lifting", "non-equivariant operators", "Fredholm/function-space theory"]
+    },
+    {
+      "id": "LNF-CL-004",
+      "status_anchor": "CRT decomposition `pi_3^s = Z/8 (+) Z/3`",
+      "statement": "The standard CRT decomposition applies only after an explicit torsion-valued map into Z/24.",
+      "codomain": "Z/24 isomorphic to Z/8 x Z/3",
+      "grade": "standard theorem, Lean-instantiated",
+      "evidence_role": "standard_theorem_instantiated",
+      "gu_dependency": "none",
+      "premises": ["LNF-PR-005"],
+      "evidence_paths": [
+        "Lean/GUFormalization/R4TwoArena.lean",
+        "papers/candidates/located-not-forced/reproduce_all.py"
+      ],
+      "scope_exits": ["Z-valued indices", "integer generation count"]
+    },
+    {
+      "id": "LNF-CL-005",
+      "status_anchor": "Finite Krein intersection difference vanishes",
+      "statement": "The finite Krein transversality result gives zero intersection difference under its finite-dimensional hypotheses.",
+      "codomain": "Z-valued finite intersection dimensions",
+      "grade": "finite theorem; carrier premises computed",
+      "evidence_role": "formal",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-002", "LNF-PR-005"],
+      "evidence_paths": [
+        "Lean/GUFormalization/LocatedNotForcedLegs.lean",
+        "tests/located-not-forced/V15_KreinTransversality.lean",
+        "papers/candidates/located-not-forced/reproduce_all.py"
+      ],
+      "scope_exits": ["physical handedness", "projection-rank identity", "Fredholm index"]
+    },
+    {
+      "id": "LNF-CL-006",
+      "status_anchor": "Antilinear K-null image subspaces retain zero intersection index",
+      "statement": "The tested K-null antilinear image-subspace class retains zero finite intersection difference.",
+      "codomain": "Z-valued finite intersection dimensions",
+      "grade": "delimited finite theorem and computation",
+      "evidence_role": "computed",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-002", "LNF-PR-005"],
+      "evidence_paths": [
+        "papers/candidates/located-not-forced/reproduce_all.py",
+        "tests/antilinear-bound/antilinear_ladder_census.py",
+        "tests/antilinear-bound/verify/nonkrein_indep_check.py"
+      ],
+      "scope_exits": ["K-definite gradings", "Wigner uniqueness", "unrestricted antilinear operators"]
+    },
+    {
+      "id": "LNF-CL-007",
+      "status_anchor": "Tangential `Lambda^2_+` framing carries `e_R = 1/12`",
+      "statement": "Under the displayed tangential-framing conventions, the exhibited positive-orientation representative has e_R=+1/12; the opposite orientation has -1/12.",
+      "codomain": "Q/Z and Z/24",
+      "grade": "internally checked convention-dependent reconstruction",
+      "evidence_role": "standard_theorem_instantiated",
+      "gu_dependency": "conditional",
+      "premises": ["LNF-PR-006", "LNF-PR-007", "LNF-PR-009"],
+      "evidence_paths": [
+        "papers/candidates/located-not-forced/reproduce_all.py",
+        "tests/boundary-eta/v15_framing_convention_sensitivity.py",
+        "tests/boundary-eta/verify/plus96_eta_denominator_indep_check.py",
+        "papers/candidates/located-not-forced/PRIOR-ART-DELTA.md"
+      ],
+      "scope_exits": ["specialist-settled sign convention", "GU-native derivation of the framing identification"]
+    },
+    {
+      "id": "LNF-CL-008",
+      "status_anchor": "The framed class is homotopy-fixed and does not define an integer count",
+      "statement": "The full framed class has order 12 and its nonzero 3-primary projection has order 3; no additive homomorphism from Z/3 to Z turns that projection into an integer count.",
+      "codomain": "Z/24, Z/3, and Hom(Z/3,Z)",
+      "grade": "standard-result-applied plus Lean-checked type boundary",
+      "evidence_role": "formal",
+      "gu_dependency": "conditional",
+      "premises": ["LNF-PR-005", "LNF-PR-006", "LNF-PR-007"],
+      "evidence_paths": [
+        "Lean/GUFormalization/LocatedNotForcedFiniteCore.lean",
+        "tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
+        "papers/candidates/located-not-forced/reproduce_all.py"
+      ],
+      "scope_exits": ["integer-by-construction pushforward", "generation observable"]
+    },
+    {
+      "id": "LNF-CL-009",
+      "status_anchor": "Toy source-action constructions supply the missing integer count",
+      "statement": "Four tested toy source-action constructions do not supply the missing integer count.",
+      "codomain": "bounded search verdict",
+      "grade": "bounded negative evidence",
+      "evidence_role": "diagnostic",
+      "gu_dependency": "conditional",
+      "premises": ["LNF-PR-008"],
+      "evidence_paths": [
+        "tests/forcing-slot/rs_frame_index_operator.py",
+        "tests/hessian-z3/carrier_occupancy_hessian.py",
+        "tests/decider/generation_index_fork_decider.py"
+      ],
+      "scope_exits": ["universal no-go", "true-Y14 source action"]
+    },
+    {
+      "id": "LNF-CL-010",
+      "status_anchor": "Carrier Dirac mass",
+      "statement": "A vectorlike carrier Dirac mass is allowed in the tested model, and neither tested mass branch derives three.",
+      "codomain": "finite carrier mass audit",
+      "grade": "computed",
+      "evidence_role": "computed",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-002"],
+      "evidence_paths": [
+        "tests/carrier-mass/carrier_dirac_mass_allowed_or_forbidden.py",
+        "tests/carrier-mass/verify_sw_carrier_mass_independent.py"
+      ],
+      "scope_exits": ["interacting physical spectrum", "true-Y14 dynamics"]
+    },
+    {
+      "id": "LNF-CL-011",
+      "status_anchor": "Carrier-specific inverse assembly",
+      "statement": "The candidate novelty is only the search-bounded carrier-specific inverse assembly; primary decomposition and CRT are prior art.",
+      "codomain": "novelty and prior-art posture",
+      "grade": "bounded search statement",
+      "evidence_role": "interpretive",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-009"],
+      "evidence_paths": ["papers/candidates/located-not-forced/PRIOR-ART-DELTA.md"],
+      "scope_exits": ["proof of publication novelty", "novelty of CRT or Krein transversality"]
+    },
+    {
+      "id": "LNF-CL-012",
+      "status_anchor": "The literal generation integer on GU's 14-manifold",
+      "statement": "A literal integer generation observable on the true GU 14-manifold remains open.",
+      "codomain": "Z-valued index or rank not yet constructed",
+      "grade": "open",
+      "evidence_role": "open_boundary",
+      "gu_dependency": "conditional",
+      "premises": ["LNF-PR-008"],
+      "evidence_paths": ["tests/decider/generation_index_fork_decider.py"],
+      "scope_exits": ["claim that the integer equals three"]
+    },
+    {
+      "id": "LNF-CL-013",
+      "status_anchor": "Pati-Salam `16 // 16 = 1`",
+      "statement": "The reconstructed Pati-Salam branch normalizes one Spin(10) 16 as one family unit; it does not count how many families occur.",
+      "codomain": "representation normalization",
+      "grade": "internally verified, chain-relative",
+      "evidence_role": "computed",
+      "gu_dependency": "motivated",
+      "premises": ["LNF-PR-005"],
+      "evidence_paths": [
+        "lab/active-research/pati_salam_chain_verification.py",
+        "papers/candidates/located-not-forced/reproduce_all.py"
+      ],
+      "scope_exits": ["generation count", "chain-independent physical reduction"]
+    },
+    {
+      "id": "LNF-CL-014",
+      "status_anchor": "`3-primary torsion component -> integer 3`",
+      "statement": "The bridge from a 3-primary torsion component to the integer three is open and is ill-typed as an additive homomorphism.",
+      "codomain": "missing map into a Z-valued index or rank",
+      "grade": "open with formal obstruction to the naive map",
+      "evidence_role": "formal",
+      "gu_dependency": "conditional",
+      "premises": ["LNF-PR-005", "LNF-PR-008"],
+      "evidence_paths": [
+        "Lean/GUFormalization/LocatedNotForcedFiniteCore.lean",
+        "tests/decider/generation_index_fork_decider.py"
+      ],
+      "scope_exits": ["identifying a torsion representative with an integer"]
+    },
+    {
+      "id": "LNF-CL-015",
+      "status_anchor": "Necessity of external backgrounds",
+      "statement": "The paper does not prove that external backgrounds are necessary.",
+      "codomain": "scope limitation",
+      "grade": "not proved",
+      "evidence_role": "open_boundary",
+      "gu_dependency": "none",
+      "premises": ["LNF-PR-004", "LNF-PR-008"],
+      "evidence_paths": [
+        "tests/function-space-ext/external_chiral_background_odd_count.py",
+        "canon/external-topological-index-flux-RESULTS.md"
+      ],
+      "scope_exits": ["non-equivariant operators", "true-Y14 source action"]
+    },
+    {
+      "id": "LNF-CL-016",
+      "status_anchor": "GU forces exactly three chiral generations",
+      "statement": "The paper does not claim that GU forces exactly three chiral generations.",
+      "codomain": "explicit non-claim",
+      "grade": "not claimed",
+      "evidence_role": "open_boundary",
+      "gu_dependency": "conditional",
+      "premises": ["LNF-PR-008"],
+      "evidence_paths": [
+        "papers/candidates/located-not-forced/located-not-forced-generation-count-2026-06-29.md"
+      ],
+      "scope_exits": ["physical generation-count derivation"]
+    }
+  ]
+}

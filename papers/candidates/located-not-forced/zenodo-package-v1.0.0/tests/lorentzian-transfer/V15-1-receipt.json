@@ -1,0 +1,95 @@
+{
+  "schema_version": 1,
+  "audit": "V15-1-physical-signature-transfer",
+  "date": "2026-07-23",
+  "construction_fork": {
+    "baseline": "program-native indefinite/Krein carrier on the compact/complexified (4,0)+(5,5) split",
+    "physical_complex_half": "one complex Hodge-star eigenspace for the Lorentzian (3,1)+(6,4) split",
+    "physical_real_closure": "the complex half plus its physical-conjugate anti-self-dual half",
+    "excluded": [
+      "positive-Hilbert substitution",
+      "true-Y14 source action",
+      "physical-state projector",
+      "Fredholm or net-handedness index"
+    ]
+  },
+  "expected_results": {
+    "exact_claims": {
+      "compact_selected_dimension": 192,
+      "lorentz_complex_half_dimension": 192,
+      "lorentz_real_closure_dimension": 384,
+      "compact_chiral_blocks": [
+        96,
+        96
+      ],
+      "lorentz_complex_half_chiral_blocks": [
+        96,
+        96
+      ],
+      "lorentz_real_closure_chiral_blocks": [
+        192,
+        192
+      ],
+      "compact_krein_signature": [
+        96,
+        96
+      ],
+      "lorentz_complex_half_krein_rank": 0,
+      "lorentz_real_closure_krein_signature": [
+        192,
+        192
+      ],
+      "compact_internal_even_clifford": "M(16,R)+M(16,R)",
+      "physical_internal_even_clifford": "M(16,C)"
+    },
+    "census_dimensions": {
+      "compact_selected": {
+        "linear_commutant": 2,
+        "bilinear_forms": 2,
+        "sesquilinear_forms": 2,
+        "antilinear_intertwiners": 2,
+        "cross_chirality_linear": 0
+      },
+      "lorentz_complex_half": {
+        "linear_commutant": 2,
+        "bilinear_forms": 2,
+        "sesquilinear_forms": 0,
+        "antilinear_intertwiners": 0,
+        "cross_chirality_linear": 0
+      },
+      "lorentz_real_closure": {
+        "linear_commutant": 4,
+        "bilinear_forms": 4,
+        "sesquilinear_forms": 4,
+        "antilinear_intertwiners": 4,
+        "cross_chirality_linear": 0
+      }
+    },
+    "antilinear_behavior": {
+      "compact_selected_total_chirality": "all_preserve",
+      "lorentz_complex_half_total_chirality": "none",
+      "lorentz_real_closure_total_chirality": "all_preserve",
+      "physical_conjugation_total_chirality": "preserve",
+      "physical_conjugation_base_chirality": "swap",
+      "physical_conjugation_internal_chirality": "swap",
+      "physical_conjugation_selected_half": "exchange_with_conjugate_half"
+    }
+  },
+  "claim_dispositions": {
+    "192": "survives as the complex dimension of one Lorentzian self-dual half; a real-form-stable closure has complex dimension 384",
+    "(3,2,16)+(3,2,16bar)": "survives only as complexified branching notation for one selected half; physical conjugation exchanges it with the anti-self-dual conjugate half",
+    "(96,96)": "does not transfer as a nondegenerate Krein signature on one physical complex half; that half is K-null, while the real-form-stable closure has signature (192,192)",
+    "(2,2,2,2,0)": "compact/complexified only; the physical complex half gives (2,2,0,0,0) and the real-form closure gives (4,4,4,4,0)",
+    "antilinear chirality": "physical conjugation preserves total 14d chirality but swaps base and internal chirality separately and exchanges the selected Lorentzian half"
+  },
+  "central_verdict": {
+    "changed": false,
+    "tested_scope": "representation-theoretic class-C generators C1-C5",
+    "reason": "No equivariant total-chirality-swapping linear or antilinear map appears on the real-form-stable closure, so the tested C1-C5 no-swap/2-primary conclusion is not reversed. The compact numerical packet and the meaning of chirality do not transfer unchanged.",
+    "open_scope": "C6 characteristic classes on the true physical bundle were not reconstructed, so full physical class-C transfer remains open."
+  },
+  "validation": {
+    "command": "../../../_local/venvs/research-compute/bin/python tests/lorentzian-transfer/physical_signature_transfer_audit.py",
+    "expected_exit": 0
+  }
+}

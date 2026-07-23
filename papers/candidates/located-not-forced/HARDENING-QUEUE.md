@@ -207,9 +207,9 @@ Closed 2026-07-23 with no title-level or central-thesis stop condition.
 - **V15-7:** the current claim-and-premise ledger assigns stable IDs to all
   sixteen status rows; semantic validation and five mutation tests pass.
 - **V15-8:** the canonical Markdown is self-contained, the reviewer route and
-  environment are current, and the Zenodo scaffold has no fabricated DOI,
-  publication date, or immutable release identity. Final TeX/PDF/package
-  rebuilding remains intentionally deferred until posting preparation.
+  environment are current, and the final TeX/PDF/package are reconciled and
+  verified at immutable source checkpoint `020b682d3adf166d2b90017eb18b57be554af83c`.
+  The DOI remains correctly unset until Zenodo assigns it.
 - **V15-9:** v2.15 integrates the surviving results, qualifications, evidence
   roles, references, limitations, and conclusion without changing the title.
 - **V15-10:** hostile closeout is recorded in
@@ -224,6 +224,6 @@ JSON, YAML/CFF, Python compilation, stale-language review, and
 
 Exact residuals are now declared work, not hidden defects: unrestricted
 `C_inv`; C6 beyond the named rows; the true `Y14` source/action selector;
-physical realization beyond the half/closure fork; external independent
-replication; and final TeX/PDF/Zenodo artifact parity. None is an ordinary
+physical realization beyond the half/closure fork; and external independent
+replication. Final TeX/PDF/Zenodo artifact parity is complete. None is an ordinary
 hourly continuation of this closed campaign.

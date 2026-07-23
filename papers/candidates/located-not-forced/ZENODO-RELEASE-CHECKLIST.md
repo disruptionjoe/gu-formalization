@@ -1,6 +1,6 @@
 # Zenodo Release Checklist -- post it publicly today, no endorsement
 
-**Prepared:** 2026-07-09; research draft hardened 2026-07-23. **Status:** PUBLICATION RECONCILE DEFERRED.
+**Prepared:** 2026-07-09; release verified 2026-07-23. **Status:** READY FOR JOSEPH HERNANDEZ'S EXPLICIT PUBLISH APPROVAL.
 **Purpose:** get *Located, Not Forced* public, citable, and open for review
 **immediately**, with zero gatekeeping -- in parallel with the slower arXiv endorsement path.
 
@@ -8,12 +8,13 @@ Zenodo is CERN-operated, mints a permanent citable **DOI**, requires no endorsem
 crank reputation of no-gate physics dumps (viXra etc.). Posting here does **not** block arXiv or journal
 submission later -- the arXiv nonexclusive license is preserved and most journals accept preprints.
 
-All steps are Joe's. Agents do not create the account, upload, or publish.
+Preparation and draft-field completion may be assisted. The irreversible
+Zenodo publish action requires Joseph Hernandez's explicit approval.
 
 ## One prerequisite
 
-- **Final compiled PDF.** The Markdown is currently canonical and has changed since the preliminary TeX/PDF
-  pass. Reconcile, compile, render, and inspect the final PDF before using this checklist.
+- **Final compiled PDF: complete.** The canonical Markdown, release TeX, and
+  18-page PDF are reconciled, reproducible, and visually inspected.
 - **ORCID iD** (optional but do it -- 5 min, free, at orcid.org). It strengthens the Zenodo record *and* the
   endorser ask, and ties the work to a persistent scholarly identity.
 
@@ -21,9 +22,10 @@ All steps are Joe's. Agents do not create the account, upload, or publish.
 
 1. **Account:** log in at zenodo.org with your ORCID or GitHub (either works; ORCID preferred for author
    linkage).
-2. **New upload → files:** after the deferred release package is regenerated and verified, upload `main.pdf`
-   first and keep it as the default preview. Upload the supplementary ZIP as the reproducibility/source
-   bundle. The PDF is the human-facing paper; the ZIP is not the default preview.
+2. **New upload → files:** upload
+   `zenodo-package-v1.0.0/main.pdf` first and keep it as the default preview.
+   Upload `located-not-forced-v1.0.0.zip` as the reproducibility/source bundle.
+   The PDF is the human-facing paper; the ZIP is not the default preview.
 3. **Resource type:** `Preprint`.
 4. **Metadata:**
    - **Title:** Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita–Schwinger Generation
@@ -37,8 +39,11 @@ All steps are Joe's. Agents do not create the account, upload, or publish.
      *is supplemented by*. Confirm this field is visibly populated before publishing.
    - **License:** CC BY 4.0 for the paper and documentation. The supplementary bundle identifies code
      separately under the repository's code license.
-5. **Publish only after the final-reconcile receipt is green.** The DOI is permanent and Zenodo is versioned,
-   but the current scaffold is not the publication artifact.
+5. **Final-reconcile receipt: green.** The extracted ZIP passed its integrity
+   manifest, 31/31 reproduction, 53/53 physical-signature audit, framing
+   sensitivity guard, evidence validator, targeted Lean checks, and a
+   byte-identical PDF rebuild. Stop for Joseph Hernandez's explicit approval
+   before selecting **Publish**.
 6. **Wire it back:** add the DOI badge/link to the GitHub repo README and to disruptionjoe.com, and use the DOI
    in the endorser note and anywhere you invite review.
 
