@@ -2,39 +2,40 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-23T05:30:16-05:00'
-run_ref: RUN-20260723-gu-lane1-reconciliation
-bottom_line: 'LP/LC closes one source-dependent operator route, but Lane 1 has
-  eligible independent reconstruction and anomaly-hardening work under explicit assumptions.'
-decision_default: Run the independent B5 reconstruction first; preserve source
-  gaps as native-claim limits, not as a bar to explicit conditional truth testing.
+updated_at: '2026-07-23T05:47:45-05:00'
+run_ref: RUN-20260723-054357-gu-formalization-progress-b5-symbol-contract
+bottom_line: 'The independent B5 lead now has a frozen finite intertwiner-space
+  enumeration contract; completeness and mirror parity remain to be computed.'
+decision_default: Compute the full m_ij multiplicity matrix under the frozen
+  carrier ledger before selecting or rejecting any middle differential.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: independent_conditional_construction_and_anomaly_work_eligible
-  evidence_ref: explorations/b5-independent-reconstruction-scope-2026-07-21.md; explorations/operator-grade-anomaly-banking-2026-07-21.md
+  reason_code: b5_symbol_enumeration_contract_frozen
+  evidence_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md; explorations/b5-independent-reconstruction-scope-2026-07-21.md
   work_status: moving
-  last_movement: Reconciled the closed source-dependent routes with Joe-authorized
-    independent conditional construction and anomaly-hardening channels.
-  movement_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
+  last_movement: Froze the complete intertwiner-space enumeration problem and
+    separated known symbol seeds from an unproved completeness claim.
+  movement_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: Source gaps limit native reconstruction claims, not conditional
-    truth-testing; independent B5 construction and anomaly hardening are active.
-  progress_delta: 'LC-SELECTOR closed one operator route, while the independent
-    B5 symbol-class build and anomaly hardening remain eligible with named inputs.'
-  scope_position: 'Native C1/B5 branches remain source-gapped; B5 independent
-    reconstruction is the Lane 1 lead and anomaly hardening is a parallel channel.'
+  summary: The Lane 1 lead is now a finite Hom-space matrix computation with
+    explicit carrier, typing, real/Krein, mirror, and hostile-control gates.
+  progress_delta: 'Converted the broad instruction to enumerate observer-natural
+    first-order symbols into an exact m_ij completeness contract; no favorable
+    differential, construction, or obstruction was claimed.'
+  scope_position: 'Step 0a is closed at contract grade. The next bounded result
+    is the complete multiplicity matrix and J-parity classification.'
   trend_24h: up
   confidence: med
-  recommendation: Run independent B5 reconstruction under named assumptions
-  findings: 'LC-SELECTOR closes only the source-dependent operator route.
-    Independent B5 reconstruction can test a finite symbol class without claiming
-    native uniqueness. Source gaps constrain grade and provenance, not exploration.'
+  recommendation: Compute the complete m_ij matrix and mirror parity
+  findings: 'Twistor, divergence, spin-Dirac, and projected RS-Dirac symbols are
+    admitted seeds, not a completeness proof. The mixed beta bracket constrains
+    the action but is not another principal-symbol basis vector.'
   options:
   - key: A
     label: Run independent B5 reconstruction
@@ -43,11 +44,11 @@ lanes:
     label: Run anomaly hardening T1
   - key: C
     label: Recover source packet in parallel
-  decision_default: Do not rerun Q1a, Q2, or LP/LC; run the independent B5 build
-    with named postulates, then rerank against anomaly hardening and source recovery.
+  decision_default: Do not cherry-pick. Close every Hom-space multiplicity and
+    real/Krein condition before mirror obstruction or survivor testing.
   needs_joe: false
-  evaluated_at: '2026-07-21T15:41:25-05:00'
-  run_ref: RUN-20260721-153525-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-23T05:47:45-05:00'
+  run_ref: RUN-20260723-054357-gu-formalization-progress-b5-symbol-contract
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

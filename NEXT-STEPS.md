@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-21"
+updated_at: "2026-07-23"
 ---
 
 # Next Steps For Contributors
@@ -56,6 +56,14 @@ updated_at: "2026-07-21"
 > `B5-MIDDLE-DIFFERENTIAL` remain source-gated for native reconstruction claims, but those source gaps do not
 > block explicitly conditional, independently constructed truth tests. Do not hide imports: name every sigma,
 > tau, global-data, and comparator assumption at the construction boundary.
+>
+> **2026-07-23 B5 independent enumeration contract:** Step 0a is now frozen in
+> `explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md`. The full class is the finite
+> matrix `m_ij = dim Hom_H(V tensor W_i, W_j)` over the declared carrier ledger, followed by real/Krein and
+> mirror-`J` classification. The named twistor, divergence, spin-Dirac, and projected RS-Dirac symbols are
+> admitted seeds, not a completeness proof; the mixed super-IG bracket is a compatibility constraint, not an
+> extra principal symbol. Next compute every `m_ij` before selecting a differential. Do not omit `X`, identify
+> the three provenance lines prematurely, or call symbol exactness physical BV cohomology.
 >
 > **2026-07-21 P-54-WELD disposition:** the direct weld fails by type: native `theta` carries one vertical 10,
 > while the conventional Pati-Salam selector is `Sym^2_0(10)=54`. Only an explicitly defined quadratic vertical
