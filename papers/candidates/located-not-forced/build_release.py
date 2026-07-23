@@ -587,6 +587,8 @@ def build_package(pdf: Path, source_commit: str) -> None:
             REPO_ROOT / "tests/located-not-forced/H2_FiniteCore.lean",
             REPO_ROOT / "tests/located-not-forced/V15_CodomainSeparatedFiniteCore.lean",
             REPO_ROOT / "tests/located-not-forced/V15_KreinTransversality.lean",
+            REPO_ROOT / "tests/lorentzian-transfer/README.md",
+            REPO_ROOT / "tests/lorentzian-transfer/V15-1-receipt.json",
         }
     )
     for source in sorted(nested):
