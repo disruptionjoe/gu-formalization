@@ -454,25 +454,29 @@ def render_tex() -> None:
     )
 
 
-def compile_pdf() -> Path:
-    BUILD.mkdir(parents=True, exist_ok=True)
+def compile_tex(tex_path: Path, output_dir: Path) -> Path:
+    output_dir.mkdir(parents=True, exist_ok=True)
     subprocess.run(
         [
             "/opt/homebrew/bin/tectonic",
             "-X",
             "compile",
-            str(TEX),
+            str(tex_path),
             "--outdir",
-            str(BUILD),
+            str(output_dir),
             "--keep-logs",
         ],
         cwd=REPO_ROOT,
         check=True,
     )
-    pdf = BUILD / TEX.with_suffix(".pdf").name
+    pdf = output_dir / tex_path.with_suffix(".pdf").name
     if not pdf.exists():
         raise FileNotFoundError(pdf)
     return pdf
+
+
+def compile_pdf() -> Path:
+    return compile_tex(TEX, BUILD)
 
 
 def iter_path_strings(value: object):
@@ -518,9 +522,15 @@ def sha256(path: Path) -> str:
 
 def build_package(pdf: Path, source_commit: str) -> None:
     PACKAGE.mkdir(parents=True, exist_ok=True)
-    shutil.copy2(pdf, PACKAGE / "main.pdf")
     shutil.copy2(TEX, PACKAGE / "main.tex")
     shutil.copy2(MARKDOWN, PACKAGE / "manuscript-v2.15.md")
+
+    # Compile the actual deposited source name. PDF link destinations and
+    # document internals can depend on the TeX job name, so compiling the
+    # long repository filename and merely renaming its PDF is not sufficient
+    # for a byte-reproducible `main.tex` -> `main.pdf` release.
+    package_pdf = compile_tex(PACKAGE / "main.tex", BUILD / "package")
+    shutil.copy2(package_pdf, PACKAGE / "main.pdf")
 
     root_files = {
         PAPER_DIR / "METADATA.md" if (PAPER_DIR / "METADATA.md").exists() else PACKAGE / "METADATA.md",
