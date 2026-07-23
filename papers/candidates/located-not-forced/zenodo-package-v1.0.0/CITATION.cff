@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using this metadata."
+title: "Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a Clifford Rarita-Schwinger Sector"
+type: article
+authors:
+  - family-names: Hernandez
+    given-names: Joseph
+    affiliation: Independent Researcher
+    email: joe@disruptionjoe.com
+date-released: 2026-07-23
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/disruptionjoe/gu-formalization"
+abstract: >-
+  For a delimited encoded class in an explicit Clifford Rarita-Schwinger
+  carrier, finite torsion constraints are 2-primary and integer-valued
+  rows carry parity or divisibility content; none selects the integer
+  three. A finite Krein intersection theorem and the standard
+  Z/24 = Z/8 + Z/3 decomposition are kept in their proper codomains.
+  The exhibited framed class has order 12 with a nonzero order-three
+  projection, not an integer generation count. The work does not derive
+  three generations or claim a universal no-go; non-equivariant and
+  true-Y14 source-action constructions remain open.
+keywords:
+  - generation count
+  - chirality
+  - Clifford algebra
+  - Rarita-Schwinger
+  - stable homotopy
+  - framed bordism
+  - Adams e-invariant
+  - anomaly
+  - Krein space

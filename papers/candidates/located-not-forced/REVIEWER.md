@@ -1,113 +1,190 @@
-# Reviewer guide -- one-command reproduction
+# Reviewer guide: clone, reproduce, Lean, claim map
 
-*Companion to* `located-not-forced-generation-count-2026-06-29.md` *(hardening item H1).*
+*Companion to* `located-not-forced-generation-count-2026-06-29.md`.
 
-## The one command
+This packet gives a referee a clean path from a pinned commit to the paper's
+executable evidence and claim-status map. Passing it reproduces repository
+evidence; it is not external validation, peer review, or a proof of three
+generations.
 
-From the repository root:
+## 1. Environment and pinned checkout
 
+Requirements:
+
+- Git and a POSIX shell;
+- Python 3.10 or newer with `venv`;
+- `numpy` and `sympy` for the paper harness;
+- [elan](https://github.com/leanprover/elan) for the repository-pinned Lean
+  toolchain; and
+- network access for the clone, Python installation, and a first Lean cache or
+  toolchain fetch, plus several GB of free disk and memory.
+
+The wider test tree also uses packages in `requirements.txt`, including SciPy.
+They are not required for the one-file paper harness.
+
+Obtain the exact review commit from the release record, editor, or review
+packet and substitute it below. Do not review a moving branch tip.
+
+```sh
+export REVIEW_SHA='<exact 40-character commit supplied for review>'
+git clone https://github.com/disruptionjoe/gu-formalization.git
+cd gu-formalization
+git switch --detach "$REVIEW_SHA"
+test "$(git rev-parse HEAD)" = "$REVIEW_SHA"
+
+python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install numpy sympy
 ```
+
+The repository's `lean-toolchain` and `lake-manifest.json` pin the Lean
+environment. Do not run `lake update`: that changes the dependency graph being
+reviewed.
+
+## 2. Validate the evidence declaration
+
+Run:
+
+```sh
+python papers/candidates/located-not-forced/validate_release_evidence.py
+```
+
+Expected result:
+
+```text
+PASS: release-evidence manifest is internally consistent
+  primary harness: 29 static check calls, 31 declared runtime checks
+  coverage: 23 full independent; 1 independent value only; 6 same-code-path only; 1 no second path
+```
+
+The validator reads `LOAD-BEARING-NUMBERS.json`. It fails on missing referenced
+files, missing source or evidence anchors, a changed primary check count,
+duplicate or skipped runtime ordinals, invalid independence declarations, or
+coverage totals that disagree with the 31 runtime checks. It validates the
+release declaration; it does not execute the numerical checks.
+
+The manifest is the machine-readable map from every runtime check to:
+
+- the public claim and expected value;
+- an anchor in the paper;
+- the primary function in `reproduce_all.py`; and
+- a second derivation, a disclosed shared-code rerun, or an explicit evidence
+  gap.
+
+## 3. Execute all paper-level checks
+
+Run:
+
+```sh
 python papers/candidates/located-not-forced/reproduce_all.py
 ```
 
-Dependencies: `numpy` and `sympy` (both standard). Runtime: a few minutes. The script is
-deterministic (seeded) and self-contained -- it copies the verified carrier recipe rather than
-importing the test tree, so it runs from a clean checkout with no path setup.
+Expected result is exit code 0 and:
 
-**Exit code 0** iff every load-bearing number in the paper reproduces; **exit 1** otherwise,
-with a listed summary of any failures. Each check prints one line:
-
-```
-[MATCH]/[FAIL]  <claim> (Section N):  paper = <stated value>,  computed = <value>
+```text
+load-bearing checks: 31 passed, 0 failed  (total 31)
+ALL LOAD-BEARING NUMBERS REPRODUCE. Exit 0.
 ```
 
-## What it checks
+Each check prints the paper value next to the computed value. Controls use
+wrong or scrambled inputs and must discriminate. Runtime is normally a few
+minutes and depends on BLAS and hardware. The harness is deterministic and
+does not import the test tree.
 
-Every number the paper leans on is **recomputed from first principles or from the carrier**,
-then compared against the paper's independently stated value. The comparison target is the
-paper's number; the computed value never reads from it.
+The 31 runtime results come from 29 static `check(...)` call sites: two call
+sites in `check_theorem2` execute for both `(9,5)` and `(7,7)`.
 
-| # | Load-bearing claim | Section | Paper value |
-|---|---|---|---|
-| 1 | Carrier Clifford Morita type `Cl(9,5)` | 2, 8 | `M(64,H)` |
-| 2 | `rank(Gamma)` of the gamma-trace map | 2 | 128 |
-| 3 | `dim ker(Gamma) = (14-1)*128` | 2 | 1664 = 2^7·13 |
-| 4 | self-dual su(2)+ content of `ker(Gamma)` | 2, 3 | 640 / 832 / 192 |
-| 5 | triplet (j=1) sector dimension | 2 | 192 |
-| 6 | triplet Krein signature | 2, 6 | (+96, −96, 0) |
-| 7 | `beta_S` pseudo-anti-Hermiticity residual | carrier | ~ 0 |
-| 8 | Theorem 2 net chiral index (9,5) & (7,7) | 6 | ~ 0 (cited ~ −2.4e-15) |
-| 9 | same-chirality Krein blocks ‖K(+,+)‖=‖K(−,−)‖ | 6 | ~ 0 |
-| 10 | antilinear leg: index nullity under re-grading | 6 | 0 |
-| 11 | adjoint Dirac index over su(2)±  multiplicity bundle | 4 | 12k (even); diagonal 24k |
-| 12 | `pi_3^s = Z/24 = Z/8 ⊕ Z/3`, gcd(8,3)=1 | 5 | 24 = 8·3 |
-| 13 | category error `Hom(Z/3,Z)=Hom(Z/24,Z)=0` | 9 | both 0 |
-| 14 | located carrier Adams e-invariant `e_R` | 7 | 1/12 (order-3 part) |
-| 15 | Pati-Salam `Spin(7,7)` chain → one generation | 8, App | 1 (chain-relative) |
-| 16 | forcing-slot backbone (spin-1/2 = 2, spin-3/2 = −42, 256 = 2^8, 16·(−42)+3·ch₂ ≡ 0 mod 3) | 8 | all 2-primary or 1 |
-| 17 | located carrier reaches ≤ 2 of 3 forcing properties | 8 | ≤ 2 of 3 |
+## 4. Build the Lean surface
 
-## The discriminating controls (why this is not a tautology)
+After the numerical harness succeeds, run one Lean build at a time:
 
-A harness that only restated hardcoded numbers would pass trivially -- exactly the "verification
-theater" this repository warns against. So **every major check ships a control**: a scrambled or
-wrong input that *must* produce a different number (or fail the same predicate). Controls print
-inline, tagged `[CONTROL]`. The load-bearing ones:
+```sh
+lake exe cache get
+lake build
+lake env lean tests/located-not-forced/H2_FiniteCore.lean
+```
 
-- **Clifford type.** The same derivation machinery on the wrong signature `Cl(7,7)` yields
-  `M(128,R)` -- a different division algebra and size -- so the `M(64,H)` result is
-  signature-sensitive, not a constant. (The quaternionic type of `Cl(4,0)` is *measured*: its
-  8×8 real commutant is 4-dimensional with every imaginary unit squaring to −1.)
-- **Carrier dimensions.** Scrambled (non-self-dual) so(4) generators do **not** give a
-  192-dim triplet -- the multiplicity requires the genuine self-dual su(2)+ structure.
-- **Krein signature.** Replacing `beta_S` by the identity (wrong Krein metric) breaks the
-  (96, 96) split.
-- **Theorem 2.** The Euclidean `(14,0)` control is grading-*aligned* and gives `|chi| = 96`,
-  proving the index genuinely detects chirality; the ~0 in (9,5)/(7,7) is real cross-chirality
-  content, not an automatic zero. A random linear Krein isometry preserves `chi = 0`.
-- **Antilinear leg.** A K-*definite* re-grading (not a chirality) escapes to `|chi| = 96` --
-  exactly the residual the paper says an escape would require.
-- **CRT.** A non-coprime split (`Z/8 ⊕ Z/2`) fails to reconstruct `Z/16` (max element order 8),
-  so the 8·3 factorization works only because `gcd(8,3)=1`. And `Hom(Z/3, Z/3) = Z/3 ≠ 0`
-  shows the vanishing `Hom(Z/3, Z)=0` is specifically about the torsion-free target.
-- **e_R.** The gauge-channel Dirac eta `(2q²−4q+1)/8` is 2-primary for every integer q -- the
-  order-3 burden lives only in the gravitational framing channel.
-- **Pati-Salam.** The naive B−L-only hypercharge (dropping SU(2)_R) fails to reproduce the
-  generation's n-values.
-- **Forcing slot.** Replacing the `3·ch₂` coefficient by `1·ch₂` breaks the all-twists
-  `≡ 0 mod 3` identity -- the identity is specific to the 2-primary structure, not automatic.
+`lake exe cache get` may download precompiled artifacts. If network policy
+forbids that command, `lake build` may compile dependencies locally and take
+substantially longer. A successful `lake build` checks the repository's whole
+declared Lean surface. The paper-facing files highlighted by the manifest are:
 
-### Target-import guard
+- `Lean/GUFormalization/LocatedNotForcedLegs.lean`, including the finite
+  Krein-intersection nullity statements and the 96/−96 arithmetic;
+- `Lean/GUFormalization/R4TwoArena.lean`, including the
+  `ZMod 24 ≃ ZMod 8 × ZMod 3` decomposition and typed disjointness;
+- `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean`, landed in commit
+  `33549a781f3e2a53d1b6bd0707a838be3db59a0b`, which proves exhaustiveness and
+  2-primary product/gcd/lcm closure for the encoded bounded finite class-C
+  census; and
+- `tests/located-not-forced/H2_FiniteCore.lean`, the targeted public-theorem
+  smoke certificate executed by the final command above.
 
-The integers `{3, 8, 24}` are **never hardcoded as answers**. `24` is derived as
-`denom(B_2/4)` (Adams image-of-J, via sympy Bernoulli); `8` and `3` are its 2-primary and odd
-parts, obtained by factoring the derived `24`; the multiplicity `3` is measured from the su(2)+
-decomposition and from the order-3 part of `e_R = 1/12`.
+Lean checks the formal statements present in those files. It does not certify
+the NumPy carrier construction or the manuscript's physical interpretation.
+In particular, H2 explicitly does not reconstruct the 192-dimensional carrier
+Hom-space classification. Its split-signature sesquilinear row is Krein-space
+data, not a positive-Hilbert-space premise, and it does not close the
+true-`Y14`/source-action residual.
 
-## Honest scope
+## 5. Walk the claim map
 
-This harness is **internal-tier** in the paper's own three-tier vocabulary. What it does:
+Review these four artifacts together:
 
-- lowers the barrier to external replication -- a referee re-runs every load-bearing number in
-  a single pass, from a clean checkout, and sees each next to its paper reference; and
-- makes the checks adversarial-by-construction (every one carries a control that must fail on
-  a scrambled input).
+1. `located-not-forced-generation-count-2026-06-29.md`, especially the boxed
+   disclaimer and “Status of claims” table;
+2. `LOAD-BEARING-NUMBERS.json`, for number-to-source-to-evidence traceability;
+3. `review/HQW-LEAD-premise-flag-map-and-gu-dependency-2026-07-14.md`, for the
+   premise flags and per-claim GU dependency; and
+4. `review/H8-H9-reviewer-packet-2026-07-23.md`, for this release audit and the
+   exact independent-versus-same-path inventory.
 
-What it does **not** do:
+The machine-readable view is also available with:
 
-- it does **not** replace external peer review. Every result remains reproduced *within the
-  same AI-directed process that produced it* -- not independently replicated, not peer-reviewed,
-  not signed off by a named specialist. The paper's caveat (e) and its three-tier caveat stand
-  unchanged.
-- it does **not** touch the two genuinely open analytic residuals (the function-space
-  APS/end-eta and family-index terms, and the true-`Y14`-bundle computation). Those are gated,
-  not closed, and the harness makes no claim about them.
-- passing this harness is **not** a claim of three generations. The paper does not claim three;
-  no computed quantity in the program equals three, and this harness reproduces exactly that --
-  the located-not-forced verdict, including the numbers that show the count is *not* internally
-  forced.
+```sh
+python papers/candidates/located-not-forced/validate_release_evidence.py --json
+```
 
-The heavier verifications the paper cites (the full class-C enumeration engine, the four-way
-forcing-slot toy, the decider's 26 checks, the Lean lane) live under `tests/` and `lab/` and are
-referenced from the relevant checks; this script reproduces the load-bearing *numbers*, which is
-the barrier H1 targets.
+## Coverage and interpretation
+
+The manifest classifies all 31 runtime checks, without promoting same-code
+reruns to independent evidence:
+
+| Coverage class | Checks | Meaning |
+|---|---:|---|
+| Full independent derivation | 23 | A different file and substantively different derivation confirms the full expectation |
+| Independent value only | 1 | A different derivation reproduces 256 and confirms that it is a projector trace, not a physical index |
+| Same-code-path corroboration only | 6 | A second file shares or closely copies the primary recipe |
+| No second executable/formal path found | 1 | The order-24 Adams/image-of-J derivation is present only in the primary harness |
+
+Thus 23/31 (74.19%) have full independent derivations. Including the
+value-only arithmetic cross-check gives 24/31 (77.42%) with a substantively
+different executable path for at least the stated number. It does not raise
+the full-claim figure above 23/31.
+
+The critical scope rules are:
+
+- `Z/3` is torsion, not an integer generation count:
+  `Hom(Z/3,Z)=0`;
+- the indefinite Krein construction and a positive Hilbert-space construction
+  are different objects and are not interchangeable;
+- the independently reproduced `256` is a projector trace whose second path
+  reports physical index zero, so it is value-only evidence; and
+- the true-`Y14`/source-action relative-index residual remains open.
+
+## Failure triage
+
+- Validator failure: use the reported entry and token to find a stale source,
+  function, or evidence declaration. Do not merely update an expected number
+  to make it pass.
+- Numerical `[FAIL]`: retain the complete output, Python version, platform,
+  NumPy/SymPy versions, and reviewed commit.
+- Lean failure before project compilation: record elan, network/cache, and
+  toolchain diagnostics separately from theorem failures.
+- Paper/evidence disagreement: treat the paper's status table and open
+  residual as binding; a successful computation does not by itself upgrade a
+  claim.
+
+For a review report, record `git rev-parse HEAD`, all command exit codes, and
+whether execution occurred in a genuinely fresh checkout.

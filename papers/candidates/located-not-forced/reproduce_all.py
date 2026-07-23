@@ -233,18 +233,18 @@ def build_carrier(timelike):
     nmi = int(np.sum(sig < -1e-9))
     nz = int(np.sum(np.abs(sig) < 1e-9))
 
-    # chirality projectors on the triplet; same-chirality Krein blocks; net chiral index
+    # Chirality projectors on the triplet; same-chirality Krein blocks; projection-balance diagnostic.
     cev, cU = np.linalg.eigh(Ct)
     Pp = cU[:, cev > 0.5]
     Pm = cU[:, cev < -0.5]
     Kpp = float(np.linalg.norm(Pp.conj().T @ Kt @ Pp))
     Kmm = float(np.linalg.norm(Pm.conj().T @ Kt @ Pm))
 
-    # continuous net chiral index over the K-positive physical subspace (the paper's ~ -2.4e-15)
+    # Continuous projection-balance diagnostic over a K-positive subspace.
     kev, kU = np.linalg.eigh(Kt)
     phys = kU[:, kev > 1e-9]
     net_cont = float(np.trace(phys.conj().T @ Ct @ phys).real)
-    # integer net chiral index chi = dim pi_+(P) - dim pi_-(P) (rank difference)
+    # Integer projection-image rank difference dim pi_+(P) - dim pi_-(P).
     chi_int = _chi_of_subspace(phys, Ct)
 
     # anti/comm of grading with K (cross-chirality vs grading-aligned)
@@ -260,7 +260,7 @@ def build_carrier(timelike):
 
 
 def _chi_of_subspace(P, Ct):
-    """Net chiral index of column space P in the grading Ct: rank(pi_+ P) - rank(pi_- P)."""
+    """Projection-image rank difference for column space P: rank(pi_+ P) - rank(pi_- P)."""
     cev, cU = np.linalg.eigh(0.5 * (Ct + Ct.conj().T))
     Uplus = cU[:, cev > 0.5]
     Uminus = cU[:, cev < -0.5]
@@ -431,10 +431,10 @@ def check_krein():
 
 
 # =============================================================================== #
-# CHECK GROUP 3 -- THEOREM 2: net chiral index conservation  (Section 6)
+# CHECK GROUP 3 -- NUMERICAL PROJECTION-BALANCE DIAGNOSTICS  (Section 6)
 # =============================================================================== #
 def check_theorem2():
-    banner("CHECK GROUP 3 -- Theorem 2: net chiral index ~ 0 (cross-chirality)  (Section 6)")
+    banner("CHECK GROUP 3 -- numerical projection-balance diagnostics  (Section 6)")
     ok_all = True
     nets = {}
     for tl, lab in [({4, 5, 6, 7, 8}, "(9,5)"), ({4, 5, 6, 7, 8, 9, 10}, "(7,7)")]:
@@ -444,22 +444,22 @@ def check_theorem2():
                     f"same-chirality Krein blocks ||K(+,+)||=||K(-,-)|| ~ 0 in {lab}", "6",
                     "~ 0 (< 1e-9)", f"||K(+,+)||={c['Kpp']:.1e}, ||K(-,-)||={c['Kmm']:.1e}")
         okn = check(abs(c["net_cont"]) < 1e-6 and c["chi_int"] == 0,
-                    f"net chiral index chi ~ 0 in {lab}", "6",
+                    f"projection-balance diagnostics vanish in {lab}", "6",
                     "~ 0 (paper cites ~ -2.4e-15)",
-                    f"cont={c['net_cont']:+.2e}, integer chi={c['chi_int']:+d}")
+                    f"continuous={c['net_cont']:+.2e}, rank difference={c['chi_int']:+d}")
         ok_all = ok_all and okp and okn
 
     # DISCRIMINATING CONTROL built into the paper: Euclidean (14,0) is grading-ALIGNED
-    # (Gamma commutes with K), so the SAME index detects full chirality |chi| = 96.
+    # (Gamma commutes with K), so the same projection-rank diagnostic gives 96.
     c14 = build_carrier(set())
     chi14 = abs(c14["chi_int"])
     okc = check(c14["comm"] < 1e-7 and chi14 == 96,
-                "chirality-detecting control: Euclidean (14,0) grading-aligned gives |chi|=96", "6",
-                "|chi| = 96", f"||[G,K]||={c14['comm']:.1e}, |chi|={chi14}")
-    control(f"(14,0) gives |chi|={chi14} (NOT 0): proves chi genuinely DETECTS chirality; the "
-            f"~0 in (9,5)/(7,7) is the cross-chirality content, not an automatic zero")
+                "Euclidean (14,0) grading-aligned control gives projection-rank difference 96", "6",
+                "96", f"||[G,K]||={c14['comm']:.1e}, rank difference={chi14}")
+    control(f"(14,0) gives projection-rank difference {chi14} (NOT 0), so the "
+            f"zero in (9,5)/(7,7) is not automatic")
 
-    # CONTROL 2: a random *linear Krein isometry* of the abstract (96,96) cross form preserves chi=0
+    # CONTROL 2: a random linear Krein isometry preserves the projection-rank balance in this graph model.
     n = 96
     B = _rng.standard_normal((n, n)) + 1j * _rng.standard_normal((n, n))
     Kcross = np.block([[np.zeros((n, n)), B], [B.conj().T, np.zeros((n, n))]])
@@ -474,7 +474,7 @@ def check_theorem2():
     Pphys = Uk @ V2[:, w2 > 1e-9]
     chi_after = _chi_of_subspace(Pphys, Gam)
     control(f"random linear Krein isometry (||U^dag K U - K||/||K||={iso:.1e}) preserves "
-            f"chi = {chi_after} = 0")
+            f"projection-rank difference = {chi_after}")
     assert chi_after == 0
     return ok_all and okc
 
@@ -497,15 +497,14 @@ def _expm(X):
 # CHECK GROUP 4 -- the ANTILINEAR leg: index nullity under re-grading  (Section 6)
 # =============================================================================== #
 def check_antilinear():
-    """Reproduce the antilinear index-nullity check (caveat (d)): every admissible antilinear
-    re-grading keeps the net chiral index at 0. Reuses the carrier's Krein form K and chirality
+    """Reproduce the antilinear intersection-nullity check (caveat (d)): a delimited K-null
+    re-grading has zero Krein-chirality intersection index. Reuses the carrier's Krein form K and chirality
     Gamma_c on the 192-dim triplet; builds a closed-form AZ-CII antilinear witness (C = M.conj,
-    M^dag K M = lambda K-bar, C^2 = eps I), and certifies chi_C(P) = 0 for physical subspaces.
-    CONTROL: a K-DEFINITE re-grading (not a chirality) escapes with |chi|=96 -- the paper's own
-    named residual -- proving index nullity is special to the K-null (Lagrangian) eigenspaces.
+    M^dag K M = lambda K-bar, C^2 = eps I), and certifies chi_cap(P) = 0.
+    CONTROL: a K-definite grading lies outside the K-null hypothesis and gives projection-rank difference 96.
     (Compact port of tests/antilinear-bound/antilinear_symmetry_free_bound.py.)
     """
-    banner("CHECK GROUP 4 -- antilinear leg: net chiral index nullity under re-grading  (Section 6)")
+    banner("CHECK GROUP 4 -- antilinear K-null intersection index  (Section 6)")
     c = build_carrier({4, 5, 6, 7, 8})
     Kc, Gc = c["Kt"].copy(), c["Ct"].copy()
     # normalize K to a Hermitian involution K^2 = I (rescale eigenvalues to +-1)
@@ -542,7 +541,7 @@ def check_antilinear():
     iso = max(np.linalg.norm(Wp.conj().T @ Kc @ Wp), np.linalg.norm(Wm.conj().T @ Kc @ Wm))
     iso /= (np.linalg.norm(M) ** 2 / 192)
 
-    # physical subspace (K-positive), and chi in the re-graded chirality
+    # K-positive subspace and its intersection dimensions with the re-graded K-null eigenspaces.
     kev2, kV2 = np.linalg.eigh(Kc)
     Pphys = kV2[:, kev2 > 1e-8]
 
@@ -554,17 +553,16 @@ def check_antilinear():
     dp, dm = cap_dim(Pphys, Wp), cap_dim(Pphys, Wm)
     chi_C = dp - dm
     ok = check(iso < 1e-8 and chi_C == 0,
-               "antilinear index nullity: chi stays 0 under admissible (K-null) re-grading", "6",
-               "0", f"chi_C = {chi_C} (C(W_+/-) K-isotropy residual {iso:.1e})")
+               "antilinear K-null re-grading has zero Krein intersection index", "6",
+               "0", f"chi_cap = {chi_C} (C(W_+/-) K-isotropy residual {iso:.1e})")
 
     # CONTROL: a K-DEFINITE re-grading (grade physical-vs-ghost, NOT a chirality) escapes to
-    # |chi| = 96 -- exactly the residual the paper says an escape would require.
+    # projection-rank difference 96; this is outside the theorem's K-null hypothesis.
     #   K-definite grading G_def = sign(K): its +/- eigenspaces are K-definite (not Lagrangian).
     Gdef = kV2 @ np.diag(np.sign(kev2)) @ kV2.conj().T
     chi_def = abs(_chi_of_subspace(Pphys, Gdef))
-    control(f"K-definite re-grading (physical-vs-ghost, not a chirality) gives |chi| = {chi_def} "
-            f"(= vectorlike +96): escaping index nullity needs a K-DEFINITE re-grading, which is "
-            f"not a chirality -- the paper's exact stated residual")
+    control(f"K-definite grading (physical-vs-ghost, not a K-null chirality) gives "
+            f"projection-rank difference {chi_def}; it is outside the theorem's hypothesis")
     assert chi_def == 96
     return ok
 
@@ -614,6 +612,8 @@ def check_12k():
     def adjoint_index(J3):
         c = (np.trace((J3[0] @ J3[1] - J3[1] @ J3[0]).conj().T @ J3[2])
              / np.trace(J3[2].conj().T @ J3[2])).real
+        if not np.isfinite(c) or abs(c) < 1e-12:
+            raise ValueError("generator triple does not define a nonzero su(2) normalization")
         Cas = -(J3[0] @ J3[0] + J3[1] @ J3[1] + J3[2] @ J3[2])
         Msec = sec16.conj().T @ Cas @ sec16
         Msec = 0.5 * (Msec + Msec.conj().T)
@@ -831,12 +831,12 @@ def check_forcing_slot():
        * spin-1/2 Dirac index on K3 = -p1/24 = Ahat(K3) = 2 ;
        * spin-3/2 RS index on K3 = 7 p1/8 = -42 == 0 (mod 3) -> Z/3 identity (no order-3) ;
        * the twisted-by-16 gravitino index 16*(-42) + 3*ch2(V) == 0 (mod 3) for EVERY twist ;
-       * the RS twisted net-chiral integer 256 = 2^8 (recomputed from the carrier gammas) ;
+       * the projector trace 4*64 = 256 = 2^8 (recomputed from the carrier gammas) ;
        * the located carrier reaches <= 2 of the 3 forcing properties (tangential & non-frame-
          trivial but vectorlike => NOT net-chiral).
     (Backbone of tests/forcing-slot/*; the full four-way toy lives there.)
     """
-    banner("CHECK GROUP 9 -- forcing-slot toy: <=2 of 3 properties / every integer 2-primary or 1  (Section 8)")
+    banner("CHECK GROUP 9 -- bounded forcing-slot toy checks  (Section 8)")
     # p1[K3] = 3*sigma = 3*(-16) = -48  (signature theorem, sigma(K3) = -16)
     p1_K3 = 3 * (-16)
     spin_half = Fr(-1, 24) * p1_K3            # Ahat deg-4 = -p1/24
@@ -856,7 +856,7 @@ def check_forcing_slot():
                      "== 0 mod 3 (all twists)", f"16*(-42)={base_rs}=-{primefac(base_rs)}; "
                      f"all twists 0 mod 3 = {all_zero_mod3}")
 
-    # 256 = 2^8: RS twisted net-chiral integer, recomputed from the Cl(9,5) carrier gammas
+    # 256 = 2^8: projector-dimension trace, not a physical net-chiral index.
     e = gammas({4, 5, 6, 7, 8})
 
     def chir(dirs):
@@ -872,8 +872,8 @@ def check_forcing_slot():
     tr = np.trace(g5i @ P16).real             # (Tr g5i + Tr g5i^2)/2 = (0 + 128)/2 = 64
     net256 = int(round(len((0, 1, 2, 3)) * tr))   # |BASE| * 64 = 4 * 64 = 256
     ok_256 = check(net256 == 256 and odd_part(net256) == 1,
-                   "RS twisted net-chiral integer = |BASE|*Tr(g5i.P16) = 4*64 = 256 = 2^8", "8",
-                   "256 = 2^8 (2-primary)", f"{net256} = {primefac(net256)} (odd part {odd_part(net256)})")
+                   "projector trace |BASE|*Tr(g5i.P16) = 4*64 = 256 = 2^8 (not a physical index)", "8",
+                   "256 = 2^8 (arithmetic only)", f"{net256} = {primefac(net256)}")
 
     # property count for the located carrier (reuse computed facts):
     #   tangential (carries p1): p1 = 4 != 0  -> YES

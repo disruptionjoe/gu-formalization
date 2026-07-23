@@ -1,6 +1,7 @@
 # Submission Runbook -- Located, Not Forced
 
-**Prepared:** 2026-07-09. **Paper version:** v2.10. **Status:** READY (staged; not submitted).
+**Prepared:** 2026-07-09; hardened 2026-07-23. **Paper version:** v2.13 working draft.
+**Status:** HARDENING COMPLETE FOR MARKDOWN; FINAL PUBLICATION RECONCILE DEFERRED.
 **Purpose:** a single linear checklist Joe can follow when he sits down to submit. This consolidates the
 Joe-side steps that had accumulated across the readiness passes in `STAGING-NOTES.md` (v2.4 through v2.10).
 `STAGING-NOTES.md` remains the full history; this file is the do-this-then-this.
@@ -18,9 +19,11 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
   the title claim.
 - **Three independent adversarial reviews** rate the paper arXiv-ready in current form (hep-th / math-ph /
   math.AT). The generation **count stays OPEN**; three generations is explicitly not claimed.
-- `.tex` is the arXiv source; `.md` is the readable copy; both in sync at v2.10.
-- The one open frontier (`WC-FUNCTION-SPACE-EXT`, the analytic APS/end + family-index residual) is
-  **post-publication** and disclosed in-text as caveat (c)/(e). It does not gate.
+- `.md` is the canonical hardening draft. Reconcile `.tex`, rebuild the PDF, and regenerate the release
+  package only when final publication preparation resumes.
+- At canon grade the open frontier remains the function-space analytic residual. Current exploration-grade
+  evidence narrows it to the true-`Y14` fiber pushforward/source action. That calculation is
+  **post-publication research**, is disclosed in-text, and does not gate this release.
 
 ---
 
@@ -32,10 +35,10 @@ every action below is Joe's. Agents do not touch arXiv, inspect or update the ar
    the paper cites the public repo as its reproducibility backbone.
 2. **Reproducibility harness green.** From a clean checkout:
    `python papers/candidates/located-not-forced/reproduce_all.py` should exit 0 (31/31 checks). This is what an
-   external reviewer will run; confirm it before they do. **Pre-verified 2026-07-09: 31/31 passed, exit 0
-   (~99s, Python 3.14.3).** One cosmetic `RuntimeWarning` (divide-by-zero, line 624, inside a control
-   derivation) is non-fatal -- every load-bearing number matched. Re-run only if the tree changed since.
-3. **`.tex`/`.md` parity.** Both at v2.10 per `STAGING-NOTES.md`; no action unless a later edit desynced them.
+   external reviewer will run; confirm it before they do. **Pre-verified 2026-07-23: 31/31 passed, exit 0
+   (~23s in the pinned research environment), with no runtime warning.**
+3. **`.tex`/`.md` parity.** Deferred by design during Markdown hardening. This is a publication gate, not a
+   current research-draft gate.
 
 ---
 
@@ -59,16 +62,19 @@ If you want it live and citable immediately while the endorsement lead time runs
 gate, reputable). This does not block arXiv or a journal later. Checklist: `ZENODO-RELEASE-CHECKLIST.md`.
 Avoid viXra-style no-gate dumps -- they undercut the qualified/serious posture.
 
-## Step 2 -- One Overleaf compile
+## Step 2 -- Compile and preview
 
-No TeX toolchain on this machine, so compile once on Overleaf and confirm zero errors. Visually check:
+A preliminary v2.13 source compiled locally with Tectonic and was visually checked, but the Markdown has
+changed since. At final publication time, reconcile the TeX from the canonical Markdown, then compile and
+inspect:
 
 - the front-matter `\fbox` (the five load-bearing caveats box -- it is tall);
 - the wide Section 7 display equation;
 - the Section 11 `longtable`;
 - all references resolve (embedded bibliography, single file, no external `.bib`).
 
-The source is a **single self-contained `.tex`** with `\pdfoutput=1` set -- no multi-file upload needed.
+The source is intended to remain a **single self-contained `.tex`** with an embedded bibliography. Do not
+reuse the preliminary PDF as the article of record.
 
 ## Step 3 -- Shortened metadata abstract
 
@@ -98,7 +104,7 @@ below into the arXiv abstract field instead (no LaTeX macros; character-count it
 - **Primary category:** `hep-th`. **Cross-list:** `math-ph`, `math.AT`.
 - **Title:** Located, Not Forced: Two-Primary Obstructions Cannot Force the Fermion Generation Count in a
   Clifford Rarita-Schwinger Sector.
-- **Authors:** Joe Hernandez.
+- **Authors:** Joseph Hernandez (Independent Researcher).
 - **Comments field:** note the reproducibility repo + that the count is not claimed (short, factual).
 
 ## Step 5 -- Post-live bookkeeping
