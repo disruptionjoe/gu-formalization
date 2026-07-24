@@ -8,6 +8,9 @@ check helper. This is **operational record, not load-bearing research** -- an ou
   that host from overlapping. Lake 5 no longer accepts the historical `lake build -j1` form. The wrapper
   does not serialize another computer or cloud runner and cannot technically prevent a direct command from
   bypassing policy.
+- `check-lean.sh` - required macOS/POSIX-host counterpart. It uses `shlock` on the same host-local
+  CapacityOS temp-lock identity, supports the optional update/cache preparation steps, and runs the default
+  target without the Lake-5-incompatible `-j1` argument.
 - `runs/` — per-run prompts and logs from automated cycles.
 - `evidence/` — captured outputs / receipts from runs.
 - `logs/` — run logs.
