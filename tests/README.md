@@ -19,7 +19,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 | Directory | What it covers |
 |---|---|
-| `woit-principles/` (3) | exact finite controls for the Cartan/Palatini torsion map, OS/right-handed real-form transfer, and `Gr(2,C^4)` twistor/tautological-bundle geometry |
+| `woit-principles/` (5) | exact finite controls for Cartan/Palatini soldering, OS/right-handed transfer, `Gr(2,C^4)` geometry, Lorentzian/Euclidean twistor real slices, and finite OS spectral positivity/failure witnesses |
 | `generation-sector/` (27) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen), with a local script map and README inventory gate |
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (11) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map and README inventory gate |

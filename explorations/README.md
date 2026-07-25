@@ -45,7 +45,7 @@ were sorted by reading each note's content.)
 
 | cluster | notes | what's here |
 |---|---:|---|
-| [`woit-principles/`](woit-principles/) | 4 | Woit-to-GU transfer gates: exact Cartan/Palatini soldering, OS physical-real-form obstructions, and the finite Grassmannian/twistor kernel |
+| [`woit-principles/`](woit-principles/) | 5 | Woit-to-GU transfer gates: exact Cartan/Palatini soldering, OS physical-real-form controls, the finite Grassmannian kernel, and Lorentzian/Euclidean twistor-reality reconstruction |
 | [`generation-sector/`](generation-sector/) | 35 | the three-generation count via the twisted Rarita-Schwinger index/rank and its K3 / Y14 bridges |
 | [`geometry-curvature-emergence/`](geometry-curvature-emergence/) | 41 | submanifold geometry and SM emergence: Codazzi/Gauss, hidden curvature, distortion tensor, GR-shadow recovery, Higgs/Pati-Salam |
 | [`cycle-gates-and-audits/`](cycle-gates-and-audits/) | 38 | frontier-run cycle gates, mission/goal drafts, censuses, ledgers, provenance audits, interface contracts, critique responses |
