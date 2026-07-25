@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 1
+manifest_revision: 2
 owner:
   owner_id: gu-formalization
   display_name: GU Formalization
@@ -171,3 +171,11 @@ lanes:
   - policy_identity
   - escalation
 special_rules: []
+extensions:
+  operating_architecture:
+    contract_version: "1.0"
+    operating_contract_refs: ["lab/process/OPERATING-MODEL.md"]
+    work_state_refs: ["CANON.md", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/research-portfolio.json"]
+    channel_contract_refs: []
+    lane_a_portfolio_refs: ["LANE-STATE.yaml"]
+    return_contract_refs: ["lab/process/OPERATING-MODEL.md"]
