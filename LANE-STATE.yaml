@@ -2,11 +2,12 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-25T03:14:56-05:00'
-run_ref: RUN-20260725-031112-gu-formalization-progress
-bottom_line: The B5 adjoint/mirror support class is reduced exactly to 39 joint
-  orbits; freeze ten native antilinear phase invariants and the Green/domain packet next.
-decision_default: Continue B5 with the native phase and Green/domain packet;
+updated_at: '2026-07-25T08:28:00-05:00'
+run_ref: RUN-20260725-080909-gu-formalization-progress
+bottom_line: The B5 native packet now fails closed on all five analytic inputs;
+  no native phase or domain is selected.
+decision_default: Obtain a source-owned five-field B5 packet; do not substitute
+  a positive-Hilbert domain or arbitrary phases;
   preserve the closed DE audit and published LNF release.
 needs_joe: false
 lanes:
@@ -14,44 +15,41 @@ lanes:
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_krein_mirror_orbit_reduction_complete
-  evidence_ref: explorations/shiab-operator/b5-krein-mirror-orbit-reduction-2026-07-25.md
+  reason_code: b5_native_packet_ingress_contract_complete
+  evidence_ref: explorations/shiab-operator/b5-native-phase-domain-packet-contract-2026-07-25.md
   work_status: moving
-  last_movement: Reduced the 136 complex cells to 68 formal-adjoint edges and
-    39 joint adjoint/mirror orbits without selecting a native phase or domain.
-  movement_ref: explorations/shiab-operator/b5-krein-mirror-orbit-reduction-2026-07-25.md
+  last_movement: Converted the five unresolved B5 analytic inputs into a
+    fail-closed ingress contract without selecting any of them.
+  movement_ref: explorations/shiab-operator/b5-native-phase-domain-packet-contract-2026-07-25.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: The B5 formal-adjoint and mirror support reduction is complete;
-    ten antilinear phase invariants plus the Green form/common domain are the
-    first residual.
-  progress_delta: Derived 29 four-cell and 10 phase-sensitive two-cell joint
-    orbits, a 136-real-dimensional adjoint space, linear parity dimensions
-    68/68, and all eleven antilinear dimension pairs from 58/78 through 78/58.
+  summary: B5's native residual has a machine-checkable five-field boundary;
+    the current packet remains intentionally unfrozen.
+  progress_delta: Prevented silent phase, coflip, Green-form, and domain
+    substitution in any downstream B5 exactness calculation.
   scope_position: The algebraic part of the native-adjoint reduction is closed;
     native phases and analytic domain data precede mirror obstruction or symbol
     exactness.
   trend_24h: up
   confidence: med
-  recommendation: Freeze B5 native phase and Green/domain packet
-  findings: 'Transpose and mirror commute and generate 39 support orbits. Ten
-    mirror-pair adjoint edges carry all antilinear phase sensitivity. The
-    actual coflip type/phases, differential adjoint sign, Green form, and common
-    domain remain open.'
+  recommendation: Require a source-owned five-field B5 packet before mirror or exactness testing
+  findings: 'The orbit reduction remains intact. The required native packet has
+    exactly five fields and rejects incomplete or positive-Hilbert substitutes;
+    all field values remain open.'
   options:
   - key: A
-    label: Freeze B5 phase/domain packet
+    label: Obtain source-owned B5 packet
     recommended: true
   - key: B
     label: Run anomaly hardening T1
   - key: C
     label: Recover source packet in parallel
-  decision_default: Do not cherry-pick. Freeze the ten native phase invariants
-    and one common Green/domain packet before mirror or exactness testing.
+  decision_default: Do not cherry-pick. Admit mirror or exactness work only
+    after all five program-native packet fields are supplied.
   needs_joe: false
-  evaluated_at: '2026-07-25T03:14:56-05:00'
-  run_ref: RUN-20260725-031112-gu-formalization-progress
+  evaluated_at: '2026-07-25T08:28:00-05:00'
+  run_ref: RUN-20260725-080909-gu-formalization-progress
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
