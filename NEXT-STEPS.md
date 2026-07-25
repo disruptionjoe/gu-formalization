@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-22"
+updated_at: "2026-07-23"
 ---
 
 # Next Steps For Contributors
@@ -50,9 +50,20 @@ updated_at: "2026-07-22"
 > roll. No mirror, closure, planted-control, symbol-exactness, or global-cohomology gate ran. Reopen only on a
 > stronger primary packet. Receipt: `explorations/b5-middle-source-freeze-2026-07-21.md`.
 >
-> **Lane 1 current leader after rerank:** `CONSTRUCTION-SPACE-EXPLORATION`. Continue only its already declared
-> round-11 handoff from `lab/process/research-portfolio.json`; do not use that channel to design around the B.5
-> source gap or import a conventional physics differential.
+> **Lane 1 current disposition after rerank:** `B5-INDEPENDENT-RECONSTRUCTION` is the eligible Lane 1 lead,
+> with `ANOMALY-DESCENT-HARDENING` as a parallel eligible channel. `OPERATOR-END-PENCIL` reached
+> `LC-SELECTOR` and closes only that source-dependent operator route. `CONSTRUCTION-SPACE-EXPLORATION` and
+> `B5-MIDDLE-DIFFERENTIAL` remain source-gated for native reconstruction claims, but those source gaps do not
+> block explicitly conditional, independently constructed truth tests. Do not hide imports: name every sigma,
+> tau, global-data, and comparator assumption at the construction boundary.
+>
+> **2026-07-23 B5 independent enumeration contract:** Step 0a is now frozen in
+> `explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md`. The full class is the finite
+> matrix `m_ij = dim Hom_H(V tensor W_i, W_j)` over the declared carrier ledger, followed by real/Krein and
+> mirror-`J` classification. The named twistor, divergence, spin-Dirac, and projected RS-Dirac symbols are
+> admitted seeds, not a completeness proof; the mixed super-IG bracket is a compatibility constraint, not an
+> extra principal symbol. Next compute every `m_ij` before selecting a differential. Do not omit `X`, identify
+> the three provenance lines prematurely, or call symbol exactness physical BV cohomology.
 >
 > **2026-07-21 P-54-WELD disposition:** the direct weld fails by type: native `theta` carries one vertical 10,
 > while the conventional Pati-Salam selector is `Sym^2_0(10)=54`. Only an explicitly defined quadratic vertical
@@ -92,7 +103,7 @@ updated_at: "2026-07-22"
 > evidence exists, `P-OBS-LEG` remains the strongest independent Lane 2 alternative. B5 stays parked. Receipt:
 > `explorations/p-lattice-signature-resolution-c1-2026-07-21.md`.
 >
-> **2026-07-21 LANE-1 REPOINTED (Joe explicit priority change; now source-gated):** the hourly kept defaulting to lattice
+> **2026-07-21 LANE-1 REPOINTED (Joe explicit priority change; core now resolved):** the hourly kept defaulting to lattice
 > enumeration because the score formula subtracts effort+wall_risk, demoting the two highest-value Lane-1
 > items below the safe lattice item — contradicting `lane_one_is_protected_from_difficulty_demotion`. Scoping
 > the pencil theorem showed its only open piece (`DOMAIN-OBSTRUCTION-SOURCE`), B5's block, and the C1 L7
@@ -101,10 +112,16 @@ updated_at: "2026-07-22"
 > **SOURCE-DOMAIN-SELECTOR swing** — Prong A mines the fresh Weinstein primary corpus for a construction-grade
 > endpoint/asymptotic relation (unblocks the pencil AND co-determines B5); Prong B attempts the boundary-
 > monodromy no-go if the source is silent. Pre-declared outcomes + planted-positive control + hostile verify.
-> `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. Subsequent Q1a and WHAT-IS-THIS work localized
-> the live theorem to the native noncompact-end LP/LC datum but did not supply it; both the pencil and lattice
-> are now `WAITING_EXTERNAL` / non-hourly until an owner-grade end/object packet arrives. Brief:
-> `explorations/prereg-source-domain-selector-swing-2026-07-21.md`.
+> `CONSTRUCTION-SPACE-EXPLORATION` de-defaulted, not disabled. The later decisive true-end computation returned
+> `LC-SELECTOR`: genuine ends cross `{q<0}`, no canonical J-self-adjoint realization exists there, and O-b does
+> not close from committed structure without the external `sigma=w1` orientation prescription. The Pin-bordism
+> follow-up resolves the candidate second-bit residual at PROPOSAL grade as exactly one `Z/2`, while its anomaly-
+> protection claim remains conditional on the proposal-grade inflow identification. The operator core is
+> `RESOLVED_NO_GO`; this does not stop the distinct `B5-INDEPENDENT-RECONSTRUCTION` or
+> `ANOMALY-DESCENT-HARDENING` channels. Source gaps remain grade and provenance limits for native claims,
+> not a reason to suspend adversarial conditional construction. Receipts:
+> `explorations/lp-lc-deficiency-decisive-2026-07-21.md` and
+> `explorations/pin-bordism-cardinality-2026-07-21.md`.
 >
 > **2026-07-22 difficulty-protection reconciliation:** Lane 1 now has an executable selection rule. Eligibility
 > and dependency state remain hard gates; among eligible Lane-1 items, an explicit Joe/steward lead signal is
@@ -127,27 +144,23 @@ updated_at: "2026-07-22"
 > directly-falsifiable test is a Lane-1 event routed to Joe/steward.
 
 > **2026-07-21 SIGMA/THETA/TAU decision-tree status:** hostile verification
-> removed the compact-collar phase as an unconditional premise; Q3 then returned
-> `TWO-INDEPENDENT`. Q1a now returns `Q1A-END-ASYMPTOTICS-BLOCKED`: the wall
-> zero is in `C_0=q^(1/2)`, not the invertible principal coefficient
-> `B=-iK_uG`, and no frozen packet specifies the true noncompact-end asymptotics
-> needed for an LP/LC verdict. Q1b is inactive. Do not rerun Q1a without the
-> exact end packet in
-> `explorations/decision-tree-Q1a-limit-classification-2026-07-21.md`.
-> Q2 subsequently returned `Q2-FREE`; do not rerun it. Next operator action is
-> the native LP/LC deficiency-index computation only after a frozen source-owned
-> noncompact-end/operator-lift packet arrives. B5 remains parked.
+> removed the compact-collar phase as an unconditional premise; Q3 returned
+> `TWO-INDEPENDENT`, and Q2 returned `Q2-FREE`. The later anti-toy true-end
+> computation supersedes the earlier `Q1A-END-ASYMPTOTICS-BLOCKED` routing with
+> `LC-SELECTOR`: the external selector is `sigma=w1`, so O-b is complete only
+> modulo that oracle bit. Do not rerun Q1a, Q2, or the LP/LC fork. B5 remains
+> parked at its separately frozen source gap.
 >
 > **2026-07-21 post-falsifier and WHAT-IS-THIS reconciliation:** Q2 is already
 > settled `Q2-FREE`; do not rerun it. The fixed `~8%` clause failed: T-D1 keeps
 > only a qualitative positive `q<0` sector, T-D2 is `D2-SAMPLER-DEPENDENT`
 > (`0.5%`--`25.0%` across declared samplers), and T-D3 is `D3-UNDERDEFINED`
 > without an independent concurrency predicate/map and common measure. T-C2's
-> Cech/one-arrow content is already computed. The WHAT-IS-THIS wave sharpens the
-> operator residue to an LP/LC deficiency-index fork, but it does not supply the
-> missing native noncompact-end geometry/asymptotics; `OPERATOR-END-PENCIL`
-> therefore waits for a frozen source-owned end/operator-lift packet. Preserve
-> the P2C boundary, B5 parking, and all claim/canon/verdict/posture gates.
+> Cech/one-arrow content is already computed. The later decisive LP/LC computation
+> closes the operator-core fork negatively: the canonical realization fails on
+> genuine `{q<0}` ends and requires external `sigma`. The remaining DeWitt-measure
+> and exact Pin/eta questions refine grade rather than reopen O-b. Preserve the
+> P2C boundary, B5 parking, and all claim/canon/verdict/posture gates.
 >
 > **2026-07-22 OPERATOR-TO-ANOMALY BIG-SWING RECONCILIATION:** the native control refutes the inference
 > that powered `LC-SELECTOR`: on the committed `Cl(9,5)` carrier a timelike generator is
@@ -251,9 +264,10 @@ updated_at: "2026-07-22"
 > two dimensionless flavor ratios and the absence of a native absolute scale block their zero-parameter routes.
 > `FIXED-NATIVE-QUANTITY` and `BLIND-QUANTITATIVE-CONFRONTATION` now live here and remain gated on new native
 > structure frozen before target-data inspection. `DE-F1-TRIPWIRE` is a passive one-sided falsification monitor,
-> never a positive prediction. Its current two-sigma edge margin is `+1.11`; `+0.032` is the superseded DESY5
+> never a positive prediction. `P-OBS-LEG` and `DE-F1-TRIPWIRE` remain passive monitors and wake only on their
+> registered future-release/bridge conditions. The tripwire's current two-sigma edge margin is `+1.11`; `+0.032` is the superseded DESY5
 > central-value margin. Evidence: `explorations/W226-harden-de-tripwire-squeeze-data-2026-07-14.md` and
-> `tests/W226_de_tripwire.py`.
+> `tests/W226_de_tripwire.py`. DE audit receipt: `explorations/de-amplitude-audit-2026-07-20.md`.
 >
 > **2026-07-21 prediction-packet shelf reconciliation:** PP1, PP2, and PP3 remain frozen. The mirror-sector
 > candidate is unnumbered and `BLOCKED_SOURCE_GAP`, not a fourth packet and not a reuse of PP3. Its decisive

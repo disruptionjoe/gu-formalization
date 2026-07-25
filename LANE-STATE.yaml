@@ -4,51 +4,52 @@ group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
 updated_at: '2026-07-23T12:59:21-05:00'
 run_ref: GUD-20260723T175921Z-lnf-v100-zenodo-publication
-bottom_line: 'Lane 1 remains source-gated and Lane 2 remains monitor-only; LNF
-  v1.0.0 is published and publicly verified at DOI 10.5281/zenodo.21515143.'
-decision_default: Preserve the closed v2.15 evidence; restore ordinary
-  cross-lane selection and reopen LNF only for a new version, a substantive
-  defect, or new source evidence.
+bottom_line: 'Independent B5 truth testing is eligible, Lane 2 is monitor-only,
+  and LNF v1.0.0 is published and publicly verified at DOI
+  10.5281/zenodo.21515143.'
+decision_default: Compute the frozen B5 multiplicity matrix before selecting a
+  differential; preserve the closed DE audit and published LNF release.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
-  light: yellow
-  reason_code: lane1_leads_source_gated_after_t_d_falsifier
-  evidence_ref: explorations/null-stratum-measure-invariance-2026-07-21.md; explorations/wave-swing1-the-lemma-2026-07-21.md
-  work_status: waiting_external
-  last_movement: Falsified fixed ~8%, preserved the qualitative null sector, and
-    localized the pencil residue to source-owned end asymptotics.
-  movement_ref: explorations/null-stratum-measure-invariance-2026-07-21.md
+  light: green
+  reason_code: b5_symbol_enumeration_contract_frozen
+  evidence_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md; explorations/b5-independent-reconstruction-scope-2026-07-21.md
+  work_status: moving
+  last_movement: Froze the complete intertwiner-space enumeration problem and
+    separated known symbol seeds from an unproved completeness claim.
+  movement_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md
   steering_attention: none
   steering_prompt: none
-  steering_ref: lab/process/research-portfolio.json#CONSTRUCTION-SPACE-EXPLORATION
-  summary: The internal battery is exhausted on current inputs; operator and C1
-    leaders require source-owned end/object packets.
-  progress_delta: 'T-D1/T-D2 were decided, T-D3 was typed underdefined, and
-    repeated Q1a/Q2/T-C2 work was removed from the eligible queue.'
-  scope_position: 'Fixed ~8% failed; qualitative q<0 survives. C1 keeps seven
-    unresolved axes, and B5 remains parked at its source gap.'
+  steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
+  summary: The Lane 1 lead is now a finite Hom-space matrix computation with
+    explicit carrier, typing, real/Krein, mirror, and hostile-control gates.
+  progress_delta: 'Converted the broad instruction to enumerate observer-natural
+    first-order symbols into an exact m_ij completeness contract; no favorable
+    differential, construction, or obstruction was claimed.'
+  scope_position: 'Step 0a is closed at contract grade. The next bounded result
+    is the complete multiplicity matrix and J-parity classification.'
   trend_24h: up
   confidence: med
-  recommendation: Wait for native end/C1 packets; preserve T-D results
-  findings: 'T-D2 is sampler-dependent, not a fixed 8% invariant. T-D3 lacks an
-    independent concurrency predicate/map. The LP/LC fork is exact as a reduction
-    but cannot be evaluated without native noncompact-end asymptotics.'
+  recommendation: Compute the complete m_ij matrix and mirror parity
+  findings: 'Twistor, divergence, spin-Dirac, and projected RS-Dirac symbols are
+    admitted seeds, not a completeness proof. The mixed beta bracket constrains
+    the action but is not another principal-symbol basis vector.'
   options:
   - key: A
-    label: Wait for owner source packet
+    label: Run independent B5 reconstruction
     recommended: true
   - key: B
-    label: Hold B5 for primary source
+    label: Run anomaly hardening T1
   - key: C
-    label: Reopen source-blocked pencil
-  decision_default: Do not rerun Q1a, Q2, T-C2, or the T-D sampler test; wait for
-    source-owned end/C1 evidence and do not reopen B5.
+    label: Recover source packet in parallel
+  decision_default: Do not cherry-pick. Close every Hom-space multiplicity and
+    real/Krein condition before mirror obstruction or survivor testing.
   needs_joe: false
-  evaluated_at: '2026-07-21T13:42:13-05:00'
-  run_ref: RUN-20260721-133523-repository-work-cycle-cai-hourly
+  evaluated_at: '2026-07-23T05:47:45-05:00'
+  run_ref: RUN-20260723-054357-gu-formalization-progress-b5-symbol-contract
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
@@ -129,41 +130,43 @@ lanes:
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'
   light: green
-  reason_code: difficulty_protection_and_completed_compute_reconciled
-  evidence_ref: explorations/compute-readiness-priority-reconciliation-2026-07-22.md
+  reason_code: lane1_eligibility_and_completed_compute_reconciled
+  evidence_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md; explorations/compute-readiness-priority-reconciliation-2026-07-22.md
   work_status: moving
-  last_movement: Made Lane-1 protection executable and removed the completed DE
-    audit from the hourly queue.
+  last_movement: Restored independent Lane 1 truth testing while preserving
+    source-grade limits and the completed Lane 2 audit.
   movement_ref: lab/process/research-portfolio.json
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json
-  summary: Portfolio, NEXT-STEPS, tests, and Lane state now agree on source-gated
-    Lane 1, protected selection, and the closed DE audit.
-  progress_delta: Repaired the difficulty-selection defect and one stale completed
-    computation pointer without moving claims, canon, verdicts, or posture.
+  summary: Owner surfaces distinguish native-claim source gaps from eligible
+    conditional construction and adversarial testing, and keep completed
+    computations out of the hourly queue.
+  progress_delta: Restored independent B5 reconstruction and anomaly hardening
+    while preserving the completed DE audit and all claim/posture boundaries.
   trend_24h: up
   confidence: high
-  recommendation: Preserve reconciled gates and exact reopen signals
-  findings: 'Lane-1 difficulty protection is now executable but never overrides
-    source gaps. DE-AMP is complete and reproducible. P-OBS-LEG and DE-F1 remain
-    monitors rather than ordinary hourly work.'
+  recommendation: Keep source-grade boundaries explicit; run eligible Lane 1 work
+  findings: 'LC-SELECTOR closes one operator route, not Lane 1. Independent B5
+    reconstruction and anomaly hardening are eligible under named postulates.
+    DE-AMP is complete; P-OBS-LEG and DE-F1 remain monitors.'
   options:
   - key: A
     label: Continue standing stewardship
     recommended: true
-  decision_default: Preserve P2C and scientific-status boundaries; wait for a
-    named source packet, official release, changed structure, or certificate defect.
+  decision_default: Preserve P2C and scientific-status boundaries; select the
+    eligible Lane 1 independent-construction lead before waiting on source recovery.
   needs_joe: false
   drift_verdict:
-  - lane_one_difficulty_demotion_reconciled
-  - completed_de_amp_pointer_closed
+  - source_gap_misclassified_as_lane1_stop_repaired
+  - completed_de_amp_ready_pointer_closed
+  - independent_construction_hourly_eligibility_restored
   action_counts:
     mail: 0
-    reconciled: 2
-    integrity_repairs: 2
+    reconciled: 3
+    integrity_repairs: 3
     seeds_routed: 0
     escalations: 0
-  attention_pointer: Nothing needs Joe; named source packets, future data, changed frozen structure, and certificate defects are the exact reopen signals.
-  evaluated_at: '2026-07-22T21:28:01-05:00'
-  run_ref: GUD-20260723T022801Z-compute-readiness-priority-reconciliation
+  attention_pointer: Nothing needs Joe; Lane 1 can advance through independent construction while exact source wakes remain preserved.
+  evaluated_at: '2026-07-23T12:59:21-05:00'
+  run_ref: GUD-20260723T175921Z-lnf-v100-zenodo-publication
