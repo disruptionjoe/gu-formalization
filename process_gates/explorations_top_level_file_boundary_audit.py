@@ -6,9 +6,9 @@ Top-level exploration Markdown falls into two intended, boundary-labeled kinds:
 1. A small set of explicitly curated conversation/posture stubs, each of which
    must carry its own boundary phrases (the ``ALLOWED_TOP_LEVEL_NOTES`` map).
 2. Dated arc notes -- the live lab record of the W-wave / dated-exploration
-   runs, named ``<slug>-YYYY-MM-DD.md``. These are the working record, not
-   canon; the README's top-level boundary language marks the whole surface as
-   "the research lab, not the project canon."
+   runs, named ``<slug>-YYYY-MM-DD.md`` or ``YYYY-MM-DD-<slug>.md``. These are
+   the working record, not canon; the README's top-level boundary language
+   marks the whole surface as "the research lab, not the project canon."
 
 This gate keeps that convention explicit without moving files or judging their
 research content. Any top-level note that is neither a curated stub nor a dated
@@ -30,6 +30,7 @@ EXPLORATIONS = ROOT / "explorations"
 # accepted top-level kind and are not required to carry per-file boundary
 # phrases; the README-level boundary language covers the surface.
 DATED_ARC_NOTE = re.compile(r"-\d{4}-\d{2}-\d{2}\.md$")
+DATE_PREFIXED_ARC_NOTE = re.compile(r"^\d{4}-\d{2}-\d{2}-.+\.md$")
 
 ALLOWED_TOP_LEVEL_NOTES = {
     "godelian-initial-conditions-boundary-axiom-stub-2026-07-10.md": (
@@ -64,7 +65,10 @@ def top_level_markdown_notes() -> set[str]:
 
 
 def is_dated_arc_note(filename: str) -> bool:
-    return DATED_ARC_NOTE.search(filename) is not None
+    return (
+        DATED_ARC_NOTE.search(filename) is not None
+        or DATE_PREFIXED_ARC_NOTE.search(filename) is not None
+    )
 
 
 class ExplorationsTopLevelFileBoundaryAudit(unittest.TestCase):

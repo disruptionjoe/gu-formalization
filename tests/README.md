@@ -19,6 +19,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 | Directory | What it covers |
 |---|---|
+| `woit-principles/` (3) | exact finite controls for the Cartan/Palatini torsion map, OS/right-handed real-form transfer, and `Gr(2,C^4)` twistor/tautological-bundle geometry |
 | `generation-sector/` (27) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen), with a local script map and README inventory gate |
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (11) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map and README inventory gate |
@@ -34,7 +35,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `symbolic-proofs/` (1) | symbolic structure-level certificates for the core theorem package, with a local script map and README inventory gate |
 | `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map and README inventory gate |
 | `chase/` (0) | nested MOVE-1..MOVE-5 chase-to-kill verdict scripts, with a local script map and README inventory gate |
-| `boundary-eta/` (2) | the boundary eta-invariant / tangential fork, with a local script map, nested independent denominator checks, and README inventory gate |
+| `boundary-eta/` (3) | the boundary eta-invariant / tangential fork, with a local script map, nested independent denominator checks, and README inventory gate |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate, with a local script map and README inventory gate |
 | `sm-boundary/` (1) | SM-shaped boundary anomaly-inflow toy, with a local script map, nested independent algebraic verifier, and README inventory gate |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures, with a local script map and README inventory gate |

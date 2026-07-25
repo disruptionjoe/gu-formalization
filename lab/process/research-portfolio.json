@@ -1,6 +1,6 @@
 {
   "schema_version": "2.0",
-  "updated_at": "2026-07-23",
+  "updated_at": "2026-07-24",
   "artifact_role": "Repository-owned work and ranking portfolio. Durable Lane definitions and control state exist only in root LANES.yaml.",
   "authority": {
     "research_priority_owner": "gu-formalization",
@@ -53,6 +53,7 @@
   },
   "operational_states": [
     "ACTIVE",
+    "IN_PROGRESS",
     "READY",
     "WAITING_EXTERNAL",
     "GATED_P2C",

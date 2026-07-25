@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-22"
+updated_at: "2026-07-24"
 ---
 
 # Explorations
@@ -45,6 +45,7 @@ were sorted by reading each note's content.)
 
 | cluster | notes | what's here |
 |---|---:|---|
+| [`woit-principles/`](woit-principles/) | 4 | Woit-to-GU transfer gates: exact Cartan/Palatini soldering, OS physical-real-form obstructions, and the finite Grassmannian/twistor kernel |
 | [`generation-sector/`](generation-sector/) | 35 | the three-generation count via the twisted Rarita-Schwinger index/rank and its K3 / Y14 bridges |
 | [`geometry-curvature-emergence/`](geometry-curvature-emergence/) | 41 | submanifold geometry and SM emergence: Codazzi/Gauss, hidden curvature, distortion tensor, GR-shadow recovery, Higgs/Pati-Salam |
 | [`cycle-gates-and-audits/`](cycle-gates-and-audits/) | 38 | frontier-run cycle gates, mission/goal drafts, censuses, ledgers, provenance audits, interface contracts, critique responses |

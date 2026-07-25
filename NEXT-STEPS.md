@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-23"
+updated_at: "2026-07-24"
 ---
 
 # Next Steps For Contributors
@@ -64,6 +64,20 @@ updated_at: "2026-07-23"
 > admitted seeds, not a completeness proof; the mixed super-IG bracket is a compatibility constraint, not an
 > extra principal symbol. Next compute every `m_ij` before selecting a differential. Do not omit `X`, identify
 > the three provenance lines prematurely, or call symbol exactness physical BV cohomology.
+>
+> **2026-07-24 WOIT PRINCIPLES TRANSFER:** three source-grounded Lane 1 gates now live in
+> `explorations/woit-principles/`, with exact standard-library kernels in `tests/woit-principles/`.
+> The Cartan/Palatini positive control proves the nondegenerate torsion map has rank `24/24`
+> (dropping to `18/24` for a rank-three tetrad), sharpening why H27's committed GU square does not force
+> soldering. The OS gate proves that a chosen Euclidean direction gives `gamma(n):S+ -> S-` but does not leave
+> a `Z/2` modulo `SO(4)` and does not close one Lorentzian Hodge half under ordinary conjugation. The twistor
+> kernel freezes `Gr(2,C^4)`, `T=Hom(S,Q)`, the incidence flag, and the `CP^3` tautological quotient while
+> showing that a purely right-handed tangent requires extra structure and `integral c3(Q_3)=1`, not a
+> three-generation count. Highest-information Woit-derived follow-up: `GU-OS-THETA-CONSTRUCTOR`, requiring an
+> actual GU Euclidean field space, positive-time algebra, reflection lift, action/Schwinger functional,
+> positivity or physical quotient, and Lorentzian carrier map. This is a parallel source-derived target and
+> does not displace the frozen B5 multiplicity-matrix lead absent a native carrier map. It also leaves the
+> Lane 3 `PROOF-STABLE-KERNELS` leader unchanged: these controls are research kernels, not promoted proofs.
 >
 > **2026-07-21 P-54-WELD disposition:** the direct weld fails by type: native `theta` carries one vertical 10,
 > while the conventional Pati-Salam selector is `Sym^2_0(10)=54`. Only an explicitly defined quadratic vertical
