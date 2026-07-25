@@ -2,54 +2,52 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-23T12:59:21-05:00'
-run_ref: GUD-20260723T175921Z-lnf-v100-zenodo-publication
-bottom_line: 'Independent B5 truth testing is eligible, Lane 2 is monitor-only,
-  and LNF v1.0.0 is published and publicly verified at DOI
-  10.5281/zenodo.21515143.'
-decision_default: Compute the frozen B5 multiplicity matrix before selecting a
-  differential; preserve the closed DE audit and published LNF release.
+updated_at: '2026-07-24T23:20:26-05:00'
+run_ref: GUH-20260725T041401Z-b5-observer-symbol-matrix
+bottom_line: The complete complexified B5 observer-symbol matrix is closed at
+  20 slots and 136 cells; freeze its native real/Krein adjoint and domains next.
+decision_default: Continue B5 with the native real/Krein adjoint and domain
+  freeze; preserve the closed DE audit and published LNF release.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_symbol_enumeration_contract_frozen
-  evidence_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md; explorations/b5-independent-reconstruction-scope-2026-07-21.md
+  reason_code: b5_complex_observer_symbol_matrix_complete
+  evidence_ref: explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md
   work_status: moving
-  last_movement: Froze the complete intertwiner-space enumeration problem and
-    separated known symbol seeds from an unproved completeness claim.
-  movement_ref: explorations/b5-independent-symbol-class-enumeration-contract-2026-07-23.md
+  last_movement: Closed all 20 labeled complex observer slots and 136 ordered
+    symbol cells without choosing a differential.
+  movement_ref: explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: The Lane 1 lead is now a finite Hom-space matrix computation with
-    explicit carrier, typing, real/Krein, mirror, and hostile-control gates.
-  progress_delta: 'Converted the broad instruction to enumerate observer-natural
-    first-order symbols into an exact m_ij completeness contract; no favorable
-    differential, construction, or obstruction was claimed.'
-  scope_position: 'Step 0a is closed at contract grade. The next bounded result
-    is the complete multiplicity matrix and J-parity classification.'
+  summary: The complex B5 matrix is complete; native real/Krein adjoint phases
+    and common operator domains are the first residual.
+  progress_delta: Closed the 20-slot, 136-cell complex matrix and 68 mirror-support
+    orbits while preserving every provenance copy and X.
+  scope_position: Step 0b is closed at complex algebraic grade; native real/Krein
+    reduction precedes mirror obstruction or symbol exactness.
   trend_24h: up
   confidence: med
-  recommendation: Compute the complete m_ij matrix and mirror parity
-  findings: 'Twistor, divergence, spin-Dirac, and projected RS-Dirac symbols are
-    admitted seeds, not a completeness proof. The mixed beta bracket constrains
-    the action but is not another principal-symbol basis vector.'
+  recommendation: Freeze B5 real/Krein adjoint and common domains
+  findings: 'Every complex m_ij is 0 or 1; provenance expansion yields 136
+    ordered cells. Mirror support forms 68 two-cell orbits with no fixed labeled
+    cell. Native phases, adjoint signs, boundary form, and domains remain open.'
   options:
   - key: A
-    label: Run independent B5 reconstruction
+    label: Freeze B5 native adjoint
     recommended: true
   - key: B
     label: Run anomaly hardening T1
   - key: C
     label: Recover source packet in parallel
-  decision_default: Do not cherry-pick. Close every Hom-space multiplicity and
-    real/Krein condition before mirror obstruction or survivor testing.
+  decision_default: Do not cherry-pick. Freeze the native real/Krein and domain
+    constraints across all 136 cells before mirror or exactness testing.
   needs_joe: false
-  evaluated_at: '2026-07-23T05:47:45-05:00'
-  run_ref: RUN-20260723-054357-gu-formalization-progress-b5-symbol-contract
+  evaluated_at: '2026-07-24T23:20:26-05:00'
+  run_ref: GUH-20260725T041401Z-b5-observer-symbol-matrix
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

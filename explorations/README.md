@@ -54,7 +54,7 @@ were sorted by reading each note's content.)
 | [`analytic-index-fredholm/`](analytic-index-fredholm/) | 19 | index machinery: Atiyah-Singer/APS, Fredholm parametrices, KSp upgrades, KK zero-modes on noncompact Y14/K3 |
 | [`representation-theory-noncompact/`](representation-theory-noncompact/) | 18 | harmonic analysis on noncompact groups: discrete series, Plancherel, Casimir, root multiplicities, Weyl/tau |
 | [`type-ii1-spectral/`](type-ii1-spectral/) | 17 | Connes-style type II_1 semifinite spectral Standard-Model selector and no-go theorems |
-| [`shiab-operator/`](shiab-operator/) | 16 | the shiab map, Spin(7,7) spinor branching, shiab-vs-codifferential intertwiner structure |
+| [`shiab-operator/`](shiab-operator/) | 17 | the shiab map, Spin(7,7) spinor branching, shiab-vs-codifferential intertwiner structure, and the complete complexified B5 observer-symbol matrix |
 | [`persona-and-dialectic/`](persona-and-dialectic/) | 14 | multi-persona steelman / Hegelian / N-lens adversarial review passes |
 | [`firewall-and-two-geometries/`](firewall-and-two-geometries/) | 12 | the iO/firewall obfuscation lens, two-arena adapter, escape-hatch/no-go maps, reverse-engineered source-action spec |
 | [`signed-calm-jordan/`](signed-calm-jordan/) | 12 | the signed-readout boundary theorem and its Jordan/CALM factorization provenance |
