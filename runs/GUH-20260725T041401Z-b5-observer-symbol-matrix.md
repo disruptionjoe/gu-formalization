@@ -1,7 +1,7 @@
 ---
 title: "B5 observer-symbol multiplicity matrix"
-status: active
-doc_type: run_plan
+status: completed
+doc_type: run_plan_and_receipt
 run_id: GUH-20260725T041401Z-b5-observer-symbol-matrix
 parent_run_id: RUN-20260724-230909-repository-work-cycle-nbl-hourly
 owner_id: gu-formalization
@@ -14,6 +14,7 @@ mode_revision: sha256:000ddadd52aa0c48f5653f8ffd27151770a3416c31eb48948827fc9da8
 lane_id: "1"
 starting_revision: 049b16a0698508fae960042f755360e3fc27cc17
 opened_at: 2026-07-25T04:14:01Z
+completed_at: 2026-07-25T04:21:46Z
 claim_status_change: none
 canon_change: none
 method_refs: []
@@ -116,6 +117,7 @@ Switching to Run: gu-formalization — close the complete complexified observer-
 ## Expected Writable Surfaces
 
 - `runs/GUH-20260725T041401Z-b5-observer-symbol-matrix.md`
+- `LANE-STATE.yaml`
 - `explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md`
 - `explorations/README.md`
 - `tests/shiab_b5_observer_symbol_multiplicity_matrix.py`
@@ -148,12 +150,130 @@ all non-GitHub external actions.
 
 ## Execution Notes
 
-Pending.
+The exact certificate reconstructed the frozen observer carrier rather than
+assuming the four named Dirac/twistor/divergence/RS seeds were complete.
+
+1. It branched the full associated-grade carrier under
+   `Spin(4,C) x Spin(10,C)` into 20 labeled irreducible slots. The three
+   provenance copies remain separate and the eight `X` summands close at
+   complex dimension 1536.
+2. Exact D5 Racah-Speiser decomposition and SU(2) Clebsch-Gordan adjacency
+   produced the complete 12-type matrix. Pullback to labeled provenance
+   produced 136 nonzero ordered one-dimensional cells.
+3. Vector self-duality paired those cells into 68 transpose pairs. The
+   explicit normal-chirality coflip preserved the matrix and produced 68
+   two-cell mirror-support orbits with no fixed labeled cell.
+4. Hostile controls rejected omission of `X`, provenance collapse, and
+   mistyping the mixed bracket `beta` as a principal symbol.
+5. The result stopped at the correct grade. Current GU surfaces do not freeze
+   the phase-normalized native real/Krein pairing, coflip phase or
+   antilinearity, formal-adjoint sign, Green boundary form, and common operator
+   domain on every slot. Therefore this Run closes the complex matrix but does
+   not claim `B5-SYMBOL-CLASS-COMPLETE`, mirror obstruction, symbol exactness,
+   BV cohomology, or a B5 construction.
+
+`refresh-lane-state` was invoked because the Lane 1 next bounded result moved
+from the uncomputed matrix to the real/Krein/domain freeze. No portfolio,
+`NEXT-STEPS`, claim, canon, verdict, paper, or public-posture surface changed.
 
 ## Next-Work Handoff
 
-Pending execution and validation.
+- current work: `B5-INDEPENDENT-RECONSTRUCTION`
+- current disposition: `CONTINUE`
+- durable priority owner: GU Lane A daily steward
+- recommendation status: provisionally selectable under local rules
+
+Within Lane 1:
+
+| rank | eligible work item | why now | dependencies / gates |
+|---:|---|---|---|
+| 1 | `B5-NATIVE-REAL-KREIN-ADJOINT-FREEZE` | The 136-cell complex class is complete, so the exact native admissibility reduction is now the first executable residual. | Freeze invariant pairing, coflip type/phases, formal-adjoint convention, Green form, and common domains without importing a positive-Hilbert fork. |
+| 2 | `ANOMALY-DESCENT-HARDENING` T1 | It remains the strongest independent Lane 1 alternative. | Lower leverage now because T3 still depends on B5 discharging `SRC-COH-1`; T1 must genuinely reconstruct rather than quote the bordism table. |
+
+Cross-lane:
+
+| rank | eligible lane leader | why now | dependencies / gates |
+|---:|---|---|---|
+| 1 | Lane 1 — continue B5 native adjoint/domain freeze | Highest protected information value and directly consumes this Run's complete matrix. | Program-native real/Krein data only; no favorable coefficient selection. |
+| 2 | Lane 3 — `PROOF-STABLE-KERNELS` | Ready integrity work with a finite certificate. | Ranks lower than the protected B5 lead and begins from the immediately preceding wrapper/infrastructure swing. |
+
+Lane 2 has no hourly-eligible internal computation; its current work is
+monitor-, source-, or official-release-gated.
+
+- recommended next: continue Lane 1 with
+  `B5-NATIVE-REAL-KREIN-ADJOINT-FREEZE`
+- switch signal: none; the new evidence preserves the durable Lane 1 lead
+- strongest alternative: Lane 3 `PROOF-STABLE-KERNELS`, lower scientific
+  information value now
+- overturning evidence: a defect in the 20-slot ledger or matrix; a source
+  result proving the native pairing/domain cannot be frozen; a new official
+  Lane 2 release; or a capacity-backed Lane 3 hardening request
+- steward reconciliation needed: no; `LANE-STATE.yaml` now reflects the
+  semantic movement and durable portfolio authority remains with Lane A
 
 ## Receipt
 
-Pending.
+- Result vocabulary: `CONDITIONAL`.
+- Phase result: `progressed`.
+- Service outcome: `progressed`.
+- Scientific effect:
+  `B5-COMPLEX-OBSERVER-SYMBOL-MATRIX-COMPLETE`; the full complexified matrix
+  closes at exact algebraic/reconstruction grade, with 20 slots, 136 ordered
+  cells, 68 transpose pairs, and 68 mirror-support pairs.
+- First residual:
+  `B5-NATIVE-REAL-KREIN-ADJOINT-FREEZE`.
+- Work-item disposition: `CONTINUE`.
+- Lane: `1`; manifest `5c535ae8...`; definition/control `1/1`.
+- Scientific statuses unchanged: no B5 construction, native/unique claim,
+  mirror obstruction, symbol exactness, BV cohomology, claim status, canon
+  verdict, paper state, or public posture changed.
+- Dependency effect: complex Step 0b closed; real/Krein/domain reduction is
+  now executable as the first residual. `SRC-COH-1` remains open.
+- Priority signal: `none`; the evidence preserves the Lane 1 lead.
+- Joe signal: `none`.
+- Paper seed proposal: `none`.
+- Files changed:
+  `tests/shiab_b5_observer_symbol_multiplicity_matrix.py`;
+  `explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md`;
+  `explorations/README.md`; `tests/README.md`; `LANE-STATE.yaml`; and this
+  Run record.
+- Validation:
+  the new certificate passed all 20 exact/hostile controls;
+  `tests/shiab_codiff_intertwiner_dim.py` independently preserved its exact
+  D7 result (`2` per chiral block, `4` full Dirac);
+  Python compile passed;
+  owner YAML and portfolio JSON parsed;
+  root-test inventory, test-manifest, exploration-map, changed/public-path,
+  protected-surface, research-posture, README entrypoint, and process-gate
+  inventory gates passed;
+  `git diff --check` passed.
+- Required-flow attestation:
+  `standard-run-safety-check`, `select-lane`, `create-run-plan`,
+  `revalidate-lane-selection`, and `append-run-receipt` completed with no
+  exceptions. Owner identity, authority, Lane manifest/control, local writer
+  claim, and empty emergency state were revalidated before consequential
+  effect waves and closeout.
+- Conditional flows invoked:
+  `rerank-next-work`, `classify-artifact-disposition`, and
+  `refresh-lane-state`. `evaluate-run-with-rubric` was not invoked because no
+  separate assessment artifact was needed.
+- Artifact disposition:
+  the certificate, research result, navigation updates, Lane summary, and Run
+  record are versioned knowledge. Temporary captured command outputs stayed
+  scratch and were not staged.
+- Writer claim:
+  this Run acquired and retained `.git/capacityos-writer.lock`; no competing
+  claim appeared.
+- Emergency state:
+  revision 1, entries `[]`, digest `8a992d3e...`, no matching revocation.
+- Method refs/effect: `[]` / `null`.
+- Attention route: `none`; awareness pointer: `none`; methodology-learning
+  pointer: `none`.
+- External effects:
+  authorized routine GitHub versioning only; material effect commit
+  `3ede27e0821125d24afd52e2c62edff2cab09f90` was pushed to
+  `origin/agent/operator-anomaly-big-swing`; no other external action.
+- Starting revision:
+  `049b16a0698508fae960042f755360e3fc27cc17`.
+- The enclosing owner service result records the post-receipt resulting
+  revision after the final coherent closeout commit and push.
