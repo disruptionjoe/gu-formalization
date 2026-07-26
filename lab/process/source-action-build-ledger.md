@@ -136,6 +136,17 @@ equivariant, killed).
   measures under one frozen causal-action problem. Reopen only with a natural
   common branch-to-measure map or a GU-derived self-adjoint regularization
   operator; do not fit a cosmological rate to repair that missing type.
+- **W246 faithful self-adjointization reversal**
+  (`explorations/W246-cfs-self-adjointization-selector-ambiguity-2026-07-26.md`):
+  matched finite CFS measures can be built, and metric lowering initially
+  makes the causal action favor the W216 stable branch. But the faithful,
+  unitary-equivariant family \(\Phi_\lambda\) reverses that ordering between
+  \(\lambda=7/10\) and \(\lambda=9/10\) while preserving the frozen operator
+  domain, trace, signature, weights, boundedness ceiling, and action. This is
+  an exact representation-sensitive no-selector, not a GU source action.
+  Reopen only with a physically derived local-correlation map, a
+  target-independent invariant that excludes the rival, or a robust ordering
+  over the physically justified representation class.
 - **Barandes scope correction**
   (`explorations/time-as-finality-crosswalk/barandes-stochastic-quantum-crosswalk-2026-06-24.md`):
   the published Stinespring construction recovers the distinguished

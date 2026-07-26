@@ -1,0 +1,317 @@
+---
+artifact_type: exploration
+label: W246
+status: "completed exact finite comparator; representation-sensitive no-selector; 23/23"
+created: 2026-07-26
+title: "W246 — matched CFS measures exist, but faithful self-adjointization reverses the branch ordering"
+grade: "EXACT FINITE COUNTEREXAMPLE for the frozen two-point CFS class; CONDITIONAL/EXPLORATION for every GU-to-CFS physical interpretation; no source-action or baryogenesis promotion"
+depends_on:
+  - explorations/W186-source-content-reservoir-krein-type-2026-07-14.md
+  - explorations/W216-true-vacuum-spectral-condensate-2026-07-14.md
+  - explorations/W245-finster-baryogenesis-krein-branch-collision-2026-07-26.md
+  - lab/deep-research/finster-causal-action-selector-comparator-2026-07-26.md
+scripts:
+  - tests/W246_cfs_self_adjointization_selector_ambiguity.py
+---
+
+# W246 — CFS self-adjointization selector ambiguity
+
+## Plain-English result
+
+W245 stopped because the two GU branch generators had not been turned into
+universal measures inside one common causal-fermion-system action. This swing
+constructed that missing finite comparison.
+
+The first two natural constructions looked highly encouraging:
+
+1. lowering each generator with its declared adjoint metric made the causal
+   action prefer the stable branch; and
+2. the standard faithful Hermitian dilation also made the action prefer the
+   stable branch.
+
+The hostile control then changed the conclusion. A nearby, equally faithful
+Hermitian dilation—using the same dimension, trace, signature bound, measure
+weights, constraints, and causal Lagrangian—made the action prefer the
+pathological branch.
+
+Therefore:
+
+> The finite CFS action can rank the GU branches, but the ranking is not
+> invariant under the still-unfixed map that turns a GU generator into CFS
+> operator points.
+
+That is a useful no-go. It prevents us from choosing the friendly bridge and
+mistaking the choice for a physical selector.
+
+## 1. Frozen GU branch specimens
+
+Use only the W216 matrix fork at two symmetric values \(\xi=\pm a\):
+
+\[
+H_+(\xi)=\xi\tau_3+\Delta\tau_1,
+\qquad
+H_-(\xi)=\xi\tau_3+i\Delta\tau_2 .
+\]
+
+Freeze
+
+\[
+a=\frac12,\qquad
+\Delta=1,\qquad
+c=\frac1{10},
+\]
+
+where \(c\) fixes the local trace. The pathological generator has complex
+spectrum in this regime because \(a<\Delta\).
+
+Every universal measure below has two equal-weight support points and unit
+volume. Every candidate within one comparison uses the same Hilbert
+dimension, spin dimension, local trace, boundedness ceiling, and causal
+Lagrangian
+
+\[
+\mathcal L(x,y)
+=
+\sum_i|\lambda_i^{xy}|^2
+-
+\frac1{2n}
+\left(\sum_i|\lambda_i^{xy}|\right)^2 .
+\]
+
+## 2. Positive attempt: metric lowering
+
+The most direct candidate converts a generator self-adjoint in metric \(J\)
+into an ordinary Hermitian operator by lowering with \(J\), removing the
+trace, and imposing the common local trace:
+
+\[
+x(J,H)
+=cI_2+JH-\frac12\operatorname{tr}(JH)I_2 .
+\]
+
+Use \(J_+=I\) and \(J_-=\tau_3\), exactly the metrics declared by the W216
+specimens. The resulting support points are:
+
+\[
+x_+(\pm a)=cI_2\pm a\tau_3+\Delta\tau_1,
+\]
+
+while both bad-branch points collapse to
+
+\[
+x_-(\pm a)=cI_2+\Delta\tau_1 .
+\]
+
+All four inputs are Hermitian, have fixed local trace \(2c\), and satisfy the
+spin-dimension-one signature bound \((1,1)\).
+
+The exact equal-weight actions are
+
+\[
+\mathcal S_+
+=4c^2(a^2+\Delta^2)
+=\frac1{20},
+\]
+
+\[
+\mathcal S_-
+=8c^2\Delta^2
+=\frac2{25}.
+\]
+
+Hence
+
+\[
+\mathcal S_- - \mathcal S_+
+=4c^2(\Delta^2-a^2)
+=\frac3{100}>0 .
+\]
+
+The causal action prefers the stable branch precisely in the
+complex-spectrum regime \(a<\Delta\). This is a genuine positive result for
+this particular map.
+
+It also exposes a null: at zero local trace \(c=0\), both actions vanish. The
+preference depends on a nonzero trace constraint, which is supplied by the
+variational problem rather than derived from the branch algebra.
+
+## 3. Faithful Hermitian-dilation rival class
+
+Metric lowering is simple, but simplicity does not prove that it is the
+physical CFS local-correlation map. Test a larger faithful class:
+
+\[
+\Phi_\lambda(H)
+=
+cI_4+
+\begin{pmatrix}
+0&H+\lambda H^\dagger\\
+H^\dagger+\lambda H&0
+\end{pmatrix},
+\qquad
+\lambda\neq\pm1 .
+\]
+
+This is not a lossy “take the Hermitian part” operation. Given the fixed block
+grading, its off-diagonal block
+
+\[
+T=H+\lambda H^\dagger
+\]
+
+recovers the original generator exactly:
+
+\[
+H=\frac{T-\lambda T^\dagger}{1-\lambda^2}.
+\]
+
+The map is also unitary-equivariant:
+
+\[
+\Phi_\lambda(UHU^\dagger)
+=
+(U\oplus U)\Phi_\lambda(H)(U^\dagger\oplus U^\dagger).
+\]
+
+For both values used below, every support point:
+
+- is ordinarily self-adjoint;
+- has local trace \(4c\);
+- has signature \((2,2)\), so lies in the same spin-dimension-two operator
+  space;
+- obeys one common boundedness ceiling;
+- is generated by the same branch-blind formula; and
+- retains the full input \(H\).
+
+Thus the hostile map cannot be rejected merely as non-Hermitian, lossy,
+dimension-changing between branches, trace-changing, noncovariant, or
+target-labelled.
+
+## 4. Exact ordering reversal
+
+Let
+
+\[
+p=1+\lambda,\qquad q=1-\lambda .
+\]
+
+In the frozen spectral sector, direct evaluation of the product spectra gives
+
+\[
+\mathcal S_+(\lambda)
+=8c^2p^2(a^2+\Delta^2),
+\]
+
+\[
+\mathcal S_-(\lambda)
+=
+8c^2\!\left(p^2a^2+2q^2\Delta^2\right)
++
+8p^2q^2a^2\Delta^2 .
+\]
+
+At \(\lambda=7/10\):
+
+\[
+\mathcal S_+=\frac{289}{1000},
+\qquad
+\mathcal S_-=\frac{1481}{2500},
+\]
+
+\[
+\mathcal S_- - \mathcal S_+
+=\frac{1517}{5000}>0 .
+\]
+
+This encoding favors the **stable** branch.
+
+At \(\lambda=9/10\):
+
+\[
+\mathcal S_+=\frac{361}{1000},
+\qquad
+\mathcal S_-=\frac{73}{500},
+\]
+
+\[
+\mathcal S_- - \mathcal S_+
+=-\frac{43}{200}<0 .
+\]
+
+This encoding favors the **pathological** branch.
+
+Both values lie in one connected interval on which the maps remain faithful
+and the support signatures stay \((2,2)\). The ordering crosses at
+
+\[
+\lambda_*\simeq0.802417949285 .
+\]
+
+The action itself remains invariant under a common unitary conjugation. The
+failure is not ordinary basis dependence. It is dependence on an unfixed,
+faithful self-adjointization—specifically, the relative weighting of the
+Hermitian and anti-Hermitian parts before the CFS operator point is formed.
+
+The \(\Delta=0\) control makes the two branch generators identical, and both
+encodings then give equal actions. No branch label is hidden in the code.
+
+## 5. The finite no-go
+
+### Faithful Self-Adjointization Ordering Reversal
+
+There exist two injective, unitary-equivariant, fixed-local-trace maps from the
+same two GU branch families into the same finite CFS operator space, using the
+same measure weights and causal Lagrangian, such that the induced
+causal-action ordering is reversed.
+
+Consequently:
+
+> Self-adjointness, faithfulness, unitary equivariance, fixed trace, matched
+> constraints, and an actual causal-action comparison are jointly
+> insufficient to select the GU branch while the physical local-correlation
+> map remains unspecified.
+
+This is exact for the finite class. It is not asserted as a theorem about all
+CFS constructions or the physical continuum theory.
+
+## 6. Scientific interpretation
+
+The result does **not** show that causal fermion systems are arbitrary. In a
+physical CFS construction, local correlation operators arise from a specific
+regularized physical wave-evaluation map. That additional construction may
+select one encoding and exclude the rival family.
+
+The result says GU has not derived that construction. Until it does, importing
+the CFS action and choosing a convenient self-adjointization merely relocates
+the source selector into the bridge.
+
+The two favorable maps remain valuable clues:
+
+- metric lowering produces a margin proportional to
+  \(\Delta^2-a^2\), the same quantity controlling the exceptional interval;
+  and
+- the standard Hermitian dilation also favors the stable branch.
+
+But convergence of two choices cannot survive one equally admitted faithful
+counterexample. The current verdict is:
+
+> **MATCHED CFS TOYS EXIST / REPRESENTATION-SENSITIVE NO-SELECTOR / PHYSICAL
+> LOCAL-CORRELATION MAP REQUIRED.**
+
+## 7. Stop and reopen rule
+
+Do not enumerate more arbitrary embeddings. That would only map the
+representation-dependence in greater detail.
+
+Reopen this seam only with one of:
+
+1. a GU-derived physical wave-evaluation or local-correlation operator;
+2. a universal property that selects metric lowering, the standard dilation,
+   or another map without referring to the desired branch;
+3. a proved invariant action ordering over a physically justified map class;
+   or
+4. an independently derived source action that makes the CFS comparison
+   unnecessary.
+
+No baryogenesis rate, Standard Model charge conversion, cosmological fit,
+claim status, source operator, canon, or public posture changes.

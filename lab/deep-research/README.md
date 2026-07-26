@@ -26,6 +26,13 @@ claims, and stress-test the lead paper.
   boundary only: the complex-spectrum core has no positive-metric
   self-adjoint realization, while a common branch-to-CFS-universal-measure
   map is absent, so no causal-action selection or baryogenesis rate is earned.
+- `../../explorations/W246-cfs-self-adjointization-selector-ambiguity-2026-07-26.md`
+  supplies that missing finite branch-to-measure comparison and then defeats
+  the apparent selector. Two faithful, unitary-equivariant self-adjointization
+  maps with matched trace, dimension, signature, weights, boundedness, and
+  causal Lagrangian give opposite branch orderings. The exact result is
+  representation-sensitive no-selection: a physical local-correlation map or
+  an invariant ordering over a justified map class is still required.
 
 The hostile-referee prompts tuned to the lead paper live alongside it under
 `papers/candidates/located-not-forced/` and in `papers/drafts/` (`adversarial-hardening-*`).
