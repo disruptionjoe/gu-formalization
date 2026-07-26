@@ -2,54 +2,55 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-25T08:28:00-05:00'
-run_ref: RUN-20260725-080909-gu-formalization-progress
-bottom_line: The B5 native packet now fails closed on all five analytic inputs;
-  no native phase or domain is selected.
-decision_default: Obtain a source-owned five-field B5 packet; do not substitute
-  a positive-Hilbert domain or arbitrary phases;
-  preserve the closed DE audit and published LNF release.
+updated_at: '2026-07-26T04:08:00-05:00'
+run_ref: RUN-20260726-0408-gu-formalization-progress
+bottom_line: The B5 symbol class preserves provenance multiplicity but does not
+  algebraically select the located triplet; no native phase or domain is selected.
+decision_default: Require a target-blind source/operator-domain selection mechanism
+  or a source-owned five-field B5 packet; do not substitute a positive-Hilbert
+  domain, arbitrary phases, or a raw multiplicity count.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_native_packet_ingress_contract_complete
-  evidence_ref: explorations/shiab-operator/b5-native-phase-domain-packet-contract-2026-07-25.md
+  reason_code: b5_triplet_multiplicity_not_algebraically_selected
+  evidence_ref: explorations/shiab-operator/b5-triplet-multiplicity-stress-2026-07-26.md
   work_status: moving
-  last_movement: Converted the five unresolved B5 analytic inputs into a
-    fail-closed ingress contract without selecting any of them.
-  movement_ref: explorations/shiab-operator/b5-native-phase-domain-packet-contract-2026-07-25.md
+  last_movement: Proved the frozen B5 symbol census varies uniformly across
+    one through four provenance copies and therefore does not select three.
+  movement_ref: explorations/shiab-operator/b5-triplet-multiplicity-stress-2026-07-26.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: B5's native residual has a machine-checkable five-field boundary;
-    the current packet remains intentionally unfrozen.
-  progress_delta: Prevented silent phase, coflip, Green-form, and domain
-    substitution in any downstream B5 exactness calculation.
-  scope_position: The algebraic part of the native-adjoint reduction is closed;
-    native phases and analytic domain data precede mirror obstruction or symbol
-    exactness.
+  summary: B5's symbol class preserves the triplet as input but supplies no
+    algebraic selector; the five-field packet remains intentionally unfrozen.
+  progress_delta: Ruled out raw principal-symbol multiplicity as a hidden
+    explanation of three while preserving the target-blind source-action route.
+  scope_position: The algebraic census is closed through the multiplicity stress;
+    source/operator-domain structure precedes any mirror obstruction, exactness,
+    or physical selection claim.
   trend_24h: up
   confidence: med
-  recommendation: Require a source-owned five-field B5 packet before mirror or exactness testing
-  findings: 'The orbit reduction remains intact. The required native packet has
-    exactly five fields and rejects incomplete or positive-Hilbert substitutes;
-    all field values remain open.'
+  recommendation: Require a target-blind source/operator-domain mechanism or a
+    source-owned five-field B5 packet before mirror or exactness testing
+  findings: 'The orbit reduction remains intact. The ordered cell census is
+    40, 80, 136, 208 for one through four provenance copies, so three is not
+    algebraically selected; all native packet field values remain open.'
   options:
   - key: A
-    label: Obtain source-owned B5 packet
+    label: Build target-blind selector
     recommended: true
   - key: B
     label: Run anomaly hardening T1
   - key: C
     label: Recover source packet in parallel
   decision_default: Do not cherry-pick. Admit mirror or exactness work only
-    after all five program-native packet fields are supplied.
+    after a target-blind source mechanism supplies the required packet fields.
   needs_joe: false
-  evaluated_at: '2026-07-25T08:28:00-05:00'
-  run_ref: RUN-20260725-080909-gu-formalization-progress
+  evaluated_at: '2026-07-26T04:08:00-05:00'
+  run_ref: RUN-20260726-0408-gu-formalization-progress
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.
