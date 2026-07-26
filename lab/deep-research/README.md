@@ -20,6 +20,12 @@ claims, and stress-test the lead paper.
   variational problem, selected minimizer set, unique physical selection, and
   observer-interface selection. It changes no GU claim, source-action status,
   operator, canon, or verdict.
+- `../../explorations/W245-finster-baryogenesis-krein-branch-collision-2026-07-26.md`
+  applies Finster's self-adjoint Dirac-sea rate typing to the W186/W216
+  stable/pathological fork. The exact finite result is an admissibility
+  boundary only: the complex-spectrum core has no positive-metric
+  self-adjoint realization, while a common branch-to-CFS-universal-measure
+  map is absent, so no causal-action selection or baryogenesis rate is earned.
 
 The hostile-referee prompts tuned to the lead paper live alongside it under
 `papers/candidates/located-not-forced/` and in `papers/drafts/` (`adversarial-hardening-*`).

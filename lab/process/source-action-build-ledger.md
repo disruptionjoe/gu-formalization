@@ -127,6 +127,15 @@ equivariant, killed).
   observer-interface selection separately typed. Use its nine-field
   comparator card to audit future source-action claims. It supplies no GU
   action, operator, state, generation count, or verdict.
+- **W245 Dirac-sea/Krein collision**
+  (`explorations/W245-finster-baryogenesis-krein-branch-collision-2026-07-26.md`):
+  the good W216 block admits the positive-Hilbert spectral projector required
+  by Finster's rate, while the pathological core has complex spectrum and no
+  positive-metric self-adjoint realization. This is an exact admissibility
+  boundary, not a selector: W186/W216 do not yet determine common universal
+  measures under one frozen causal-action problem. Reopen only with a natural
+  common branch-to-measure map or a GU-derived self-adjoint regularization
+  operator; do not fit a cosmological rate to repair that missing type.
 - **Barandes scope correction**
   (`explorations/time-as-finality-crosswalk/barandes-stochastic-quantum-crosswalk-2026-06-24.md`):
   the published Stinespring construction recovers the distinguished

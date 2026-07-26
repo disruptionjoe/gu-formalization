@@ -51,7 +51,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 ## Loose audit scripts at `tests/` root, by sector
 
-These 246 tracked direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
+These 253 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
 indexed here in place to keep those reproduction pointers valid. This table covers only direct `tests/*.py`
 files; organized families live under their subdirectory READMEs, and governance/process checks moved to
 `process_gates/`. The table is guarded by `process_gates/tests_root_readme_inventory_audit.py`.
@@ -59,7 +59,7 @@ files; organized families live under their subdirectory READMEs, and governance/
 | Sector | Coverage tokens | Count | Boundary |
 |---|---:|---:|---|
 | **RS / BV-BRST sector** | `rs_*.py` | 20 | Rarita-Schwinger bicomplex, ghost / Koszul-Tate / BRST structure, `c2` curvature, Clifford projector, and symbol-index certificates. |
-| **shiab selector / codifferential** | `shiab_*.py` | 13 | selector complex, gamma-trace, quaternionic H-linearity, seesaw, `Sp(64)`, codiff-obstruction certificates, the complete provenance-expanded B5 observer-symbol matrix, its exact phase-parametric Krein-adjoint/mirror reduction, and the fail-closed five-field native packet ingress contract. |
+| **shiab selector / codifferential** | `shiab_*.py` | 14 | selector complex, gamma-trace, quaternionic H-linearity, seesaw, `Sp(64)`, codiff-obstruction certificates, the complete provenance-expanded B5 observer-symbol matrix, its exact phase-parametric Krein-adjoint/mirror reduction, and the fail-closed five-field native packet ingress contract. |
 | **Cycle audits** | `cycle1_*.py`, `cycle2_*.py` | 2 | current root-level cycle gate/certificate audits; other cycle governance gates now live under `process_gates/`. |
 | **Generation count & K3** | `gen_*.py`, `sp64_octic_trace_i16.py`, `ahat_genus_y14_i16.py`, `c2_holonomy_*.py` | 6 | generation-count and K3/Y14 provenance certificates retained at the root for stable canon pointers. |
 | **Bell / QFT / measurement** | `h3_*.py`, `h3-*.py` | 4 | Pati-Salam CHSH state/correlator, measurement gate, and Cech-sheaf fixture certificates. |
@@ -67,5 +67,5 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
 | **Source / selector / control** | `oq_rk1_*.py` | 2 | OQ-RK1 representation and effective-operator assembly certificates. |
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
-| **W-series frontier packets** | `W*.py` | 198 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue, kept in place as provenance while subdirectory migration remains separate review work. |
+| **W-series frontier packets** | `W*.py` | 199 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue and W245's Finster-sea/Krein-domain discriminator, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |
