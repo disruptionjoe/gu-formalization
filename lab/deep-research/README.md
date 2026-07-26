@@ -15,6 +15,11 @@ claims, and stress-test the lead paper.
   table materially disagrees with the official DR2 paper and likelihood. Preserve it for provenance and use the
   GU adjudication at `explorations/W242-desi-intake-and-hourly-prediction-queue-2026-07-15.md`; do not copy its
   distance values into calculations.
+- `finster-causal-action-selector-comparator-2026-07-26.md` is a
+  primary-source-anchored exploration comparator. It distinguishes a supplied
+  variational problem, selected minimizer set, unique physical selection, and
+  observer-interface selection. It changes no GU claim, source-action status,
+  operator, canon, or verdict.
 
 The hostile-referee prompts tuned to the lead paper live alongside it under
 `papers/candidates/located-not-forced/` and in `papers/drafts/` (`adversarial-hardening-*`).

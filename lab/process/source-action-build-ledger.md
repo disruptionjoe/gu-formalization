@@ -120,6 +120,18 @@ equivariant, killed).
   reading is killed and inadmissible — reinforcing that DEM-GR-1/T3 sign
   provenance must be source-side, which is what SRC-COH-1 enforces at the
   action level.
+- **CFS selector comparator** (`lab/deep-research/finster-causal-action-selector-comparator-2026-07-26.md`):
+  Finster's causal action is a serious example of a variational problem
+  selecting universal measures while leaving Hilbert/operator domain,
+  constraints, regularization, sector, minimizer uniqueness, and
+  observer-interface selection separately typed. Use its nine-field
+  comparator card to audit future source-action claims. It supplies no GU
+  action, operator, state, generation count, or verdict.
+- **Barandes scope correction**
+  (`explorations/time-as-finality-crosswalk/barandes-stochastic-quantum-crosswalk-2026-06-24.md`):
+  the published Stinespring construction recovers the distinguished
+  initial-time transition family in an enlarged representation; it does not
+  select a GU channel or supply a complete multi-time process.
 
 ## Boundary
 

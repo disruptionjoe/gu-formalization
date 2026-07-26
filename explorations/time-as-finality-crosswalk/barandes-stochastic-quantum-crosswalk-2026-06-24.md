@@ -29,6 +29,35 @@ At high level, the Barandes result says a broad class of finite
 configuration-space stochastic processes can be represented as subsystems of
 unitary quantum dynamics after CPTP / Stinespring dilation.
 
+### 2026-07-26 exact-scope correction
+
+The revised
+[Stochastic-Quantum Theorem](https://arxiv.org/html/2309.03085v2) proves a
+narrower statement than this shorthand can suggest. Its construction starts
+from the distinguished initial-time family \(\Gamma(t\leftarrow0)\), and the
+enlarged process has conditioning-time set
+\(\widetilde{\mathcal T}_0=\{0\}\). The marginal recovers that base-time
+family. The proof does not by itself preserve every original
+conditioning-time kernel, full trajectory law, or intervention.
+
+For GU, use:
+
+```text
+base-time stochastic family
+    -> nonunique amplitude/Kraus/Stinespring representation
+```
+
+Do not use:
+
+```text
+Barandes selects the physical channel
+Barandes derives a GU state
+Barandes supplies a complete multi-time measurement process
+```
+
+The correction strengthens the anti-smuggling value of the crosswalk while
+preventing the null model from being applied beyond its proved scope.
+
 For GU purposes, the important imported objects are:
 
 - stochastic process on a finite configuration space,
@@ -36,6 +65,10 @@ For GU purposes, the important imported objects are:
 - Kraus decomposition,
 - unitary dilation on an enlarged Hilbert space,
 - Born-rule recovery as subsystem readout.
+
+When history, memory, or continuation matters, the comparison object must be
+enlarged independently to a process tensor, quantum comb, or consistent joint
+law.
 
 ## Best GU Contact Points
 
