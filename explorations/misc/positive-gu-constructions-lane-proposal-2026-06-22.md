@@ -68,6 +68,18 @@ The Nguyen critique itself makes this gap explicit: §3.4 correctly faults GU fo
 
 **Tractability assessment.** The Met(X) = Y¹⁴ dimension count is clean and reconstructible. The observation/pullback map via sections is standard differential geometry. The spinor-metric circularity resolution is the hard part and requires specifying a canonical spinor bundle on Y¹⁴ that does not depend on a prior choice of metric on X. This is where the construction lives or dies.
 
+**2026-07-26 alternative comparator.** A proposed exterior-algebra
+\(4+6+4\) reading is now scoped at
+`../geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md`.
+It does not replace Target 1. The full
+\(\Lambda^1\oplus\Lambda^2\oplus\Lambda^3\) bundle has rank 14 and total
+dimension 18 over \(X^4\); the correctly typed total-14 exterior comparator
+has rank-10 fibre \(\Lambda^2\oplus\Lambda^3\). No natural
+\(GL(4)\)-equivariant bridge to \(S^2T^*X\) exists without extra structure.
+The useful work is therefore to expose and test that extra structure, its
+algebraic closure, its source/action, and any held-out consequence—not to
+infer ontology from the shared number 14.
+
 ---
 
 ### Target 2: Riemannian-Ehresmannian Fusion via the 14D Geometry

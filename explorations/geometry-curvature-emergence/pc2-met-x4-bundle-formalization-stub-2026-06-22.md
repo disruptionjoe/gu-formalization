@@ -529,7 +529,27 @@ from the Levi-Civita connection of s(x); it encodes the "tilt" of the section in
 observerse. Whether it contributes to the SM gauge content or to the distortion θ is
 the PC2 open question for the torsion-for-Λ connection (see DD1 §6).
 
-### 6.4 What promotion to active_research requires
+### 6.4 2026-07-26 exterior-graded comparator
+
+An alternative \(4+6+4\) reading is now retained as a conditional comparator,
+not as a replacement for this construction.
+
+The type audit is decisive:
+
+- \(\Lambda^1T^*X\oplus\Lambda^2T^*X\oplus\Lambda^3T^*X\)
+  is a rank-14 bundle and therefore has total dimension 18 over \(X^4\);
+- a total 14-dimensional exterior bundle over \(X^4\) would instead have the
+  rank-10 fibre
+  \(\Lambda^2T^*X\oplus\Lambda^3T^*X\); and
+- that fibre is not naturally \(GL(4)\)-equivariantly isomorphic to this
+  file's \(S^2T^*X\) metric fibre.
+
+The comparator now has explicit naturality, structure-cost, closure,
+source/action, and held-out-consequence gates. Equal dimension alone cannot
+bridge the objects. See
+`graded-exterior-bundle-14d-comparator-2026-07-26.md`.
+
+### 6.5 What promotion to active_research requires
 
 PC2 should be promoted from exploration to active_research when:
 - The w_2(Y¹⁴) computation is completed (routine topology; no new math required).

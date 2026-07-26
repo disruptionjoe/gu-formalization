@@ -7,6 +7,19 @@ updated_at: "2026-07-26"
 
 # Next Steps For Contributors
 
+> **2026-07-26 GRADED EXTERIOR 14D COMPARATOR.**
+> `explorations/geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md`
+> turns the proposed `4+6+4` reading into a bounded PC2 comparator. It first
+> separates a rank-14 graded object (18-dimensional total space over `X⁴`)
+> from a total-14 exterior bundle (rank-10 fibre `Λ²⊕Λ³`) and from GU's
+> native total-14 metric bundle (rank-10 fibre `S²`). There is no natural
+> `GL(4)`-equivariant identification of the two rank-10 fibres; Hodge and
+> Clifford moves expose added metric/orientation structure; and the truncated
+> grades omit algebraically regenerated degrees 0 and 4. Reopen beyond this
+> exact audit only with a target-independent bridge, closed dynamics,
+> program-native action, or held-out consequence. This is not an ontology,
+> source action, priority change, or verdict movement.
+>
 > **2026-07-26 CONDITIONAL SOURCE-ACTION TOY LADDER.**
 > `lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md`
 > separates five grades that had been easy to conflate: engineered constraint
