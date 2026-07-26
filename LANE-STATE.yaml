@@ -2,55 +2,59 @@ schema_version: '2.0'
 owner_id: gu-formalization
 group: church-of-ai
 rule_ref: system/runtime/flows/refresh-lane-state.md
-updated_at: '2026-07-26T04:08:00-05:00'
-run_ref: RUN-20260726-0408-gu-formalization-progress
-bottom_line: The B5 symbol class preserves provenance multiplicity but does not
-  algebraically select the located triplet; no native phase or domain is selected.
-decision_default: Require a target-blind source/operator-domain selection mechanism
-  or a source-owned five-field B5 packet; do not substitute a positive-Hilbert
-  domain, arbitrary phases, or a raw multiplicity count.
+updated_at: '2026-07-26T13:09:39-05:00'
+run_ref: RUN-20260726-130939-gu-formalization-progress
+bottom_line: A standard-field imposed wall conditionally hosts accessible rank
+  N from a supplied vectorlike carrier, but does not select N=3 or transport to
+  the native GU carrier.
+decision_default: Require a target-blind dynamical source/topological sector or
+  finite selector, plus explicit mirror, anomaly/inflow, and native-transport
+  evidence; do not substitute an imposed positive-Hilbert wall for that result.
 needs_joe: false
 lanes:
 - lane_id: '1'
   objective: Test whether one frozen GU construction recovers the required physics
     without sector-specific repair.
   light: green
-  reason_code: b5_triplet_multiplicity_not_algebraically_selected
-  evidence_ref: explorations/shiab-operator/b5-triplet-multiplicity-stress-2026-07-26.md
+  reason_code: imposed_wall_hosts_but_does_not_select_triplet
+  evidence_ref: explorations/imposed-wall-triplet-comparator-2026-07-26.md
   work_status: moving
-  last_movement: Proved the frozen B5 symbol census varies uniformly across
-    one through four provenance copies and therefore does not select three.
-  movement_ref: explorations/shiab-operator/b5-triplet-multiplicity-stress-2026-07-26.md
+  last_movement: Proved the first physical toy hosts rank N under an imposed
+    wall while retaining the remote mirror and leaving both N=3 selection and
+    GU-native transport open.
+  movement_ref: explorations/imposed-wall-triplet-comparator-2026-07-26.md
   steering_attention: none
   steering_prompt: none
   steering_ref: lab/process/research-portfolio.json#B5-INDEPENDENT-RECONSTRUCTION
-  summary: B5's symbol class preserves the triplet as input but supplies no
-    algebraic selector; the five-field packet remains intentionally unfrozen.
-  progress_delta: Ruled out raw principal-symbol multiplicity as a hidden
-    explanation of three while preserving the target-blind source-action route.
-  scope_position: The algebraic census is closed through the multiplicity stress;
-    source/operator-domain structure precedes any mirror obstruction, exactness,
-    or physical selection claim.
+  summary: The imposed-wall control hosts a local chiral sector only conditional
+    on supplied multiplicity and wall index; global completion stays paired.
+  progress_delta: Established the lowest physical selection comparator and its
+    target-blind return grid without mistaking conditional hosting for a source
+    action, triplet derivation, or native GU result.
+  scope_position: The physical-toy ladder has passed its imposed-boundary
+    control. A source coordinate/topological sector must still dynamically
+    select the wall and orientation before mirror, anomaly, or exactness claims.
   trend_24h: up
   confidence: med
-  recommendation: Require a target-blind source/operator-domain mechanism or a
-    source-owned five-field B5 packet before mirror or exactness testing
-  findings: 'The orbit reduction remains intact. The ordered cell census is
-    40, 80, 136, 208 for one through four provenance copies, so three is not
-    algebraically selected; all native packet field values remain open.'
+  recommendation: Build a target-blind dynamical source/topological selector or
+    complete the Rung-1 finite coefficient enumeration before mirror or exactness testing
+  findings: 'For N=1,2,3,4 a unit imposed wall gives accessible rank N; q=0,
+    opposite, and non-target sectors remain available, and the remote mirror
+    cancels the local index. No N=3 selection or native transport is supplied.'
   options:
   - key: A
-    label: Build target-blind selector
+    label: Build dynamical target-blind selector
     recommended: true
   - key: B
     label: Run anomaly hardening T1
   - key: C
     label: Recover source packet in parallel
   decision_default: Do not cherry-pick. Admit mirror or exactness work only
-    after a target-blind source mechanism supplies the required packet fields.
+    after a target-blind source mechanism selects the wall and supplies the
+    required packet fields.
   needs_joe: false
-  evaluated_at: '2026-07-26T04:08:00-05:00'
-  run_ref: RUN-20260726-0408-gu-formalization-progress
+  evaluated_at: '2026-07-26T13:09:39-05:00'
+  run_ref: RUN-20260726-130939-gu-formalization-progress
 - lane_id: '2'
   objective: Extract, freeze, compute, and confront genuinely GU-native predictions
     and falsification tripwires.

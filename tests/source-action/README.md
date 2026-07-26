@@ -69,6 +69,7 @@ The public boundary stays:
 |---|---|---|
 | `sw_bv_master_equation_c2.py` | Tests whether the SW-sourced compensator closes the BV/BRST C2 obstruction. | Preserves the anti-trap that RS coupling must not be silently decoupled. |
 | `synth_B1_onshell_leakage.py` | Measures on-shell leakage for the SW j=1 carrier. | Keeps the B1 obstruction comparison executable as a finite stress check. |
+| `imposed_wall_triplet_comparator.py` | Runs the target-blind Rung-2 imposed-wall control. | Establishes conditional hosting only; keeps the vectorlike mirror ledger and standard-field-to-GU transport boundary explicit. |
 
 ## Process Gate
 
