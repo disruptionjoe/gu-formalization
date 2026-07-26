@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-24"
+updated_at: "2026-07-25"
 ---
 
 # Explorations
@@ -41,12 +41,20 @@ these for the full working record; the durable, reviewed results live in `canon/
 The notes are grouped into topical subfolders by subject. (Previously ~300 sat loose at the top level; they
 were sorted by reading each note's content.)
 
+## Current generation-mechanism synthesis
+
+- [`generation-sector/ten-lens-three-generation-mechanism-synthesis-2026-07-25.md`](generation-sector/ten-lens-three-generation-mechanism-synthesis-2026-07-25.md)
+  separates the three-generation question into carrier multiplicity, physical/chiral selection, and flavor
+  differentiation. It records ten divergent mechanisms and their absorbers. The integrated
+  Triplet--Boundary--Flavor proposal is frontstaged only as an active-research conjecture; the generation
+  count remains open and current Lane-1 priority is unchanged.
+
 ## Topical clusters
 
 | cluster | notes | what's here |
 |---|---:|---|
 | [`woit-principles/`](woit-principles/) | 5 | Woit-to-GU transfer gates: exact Cartan/Palatini soldering, OS physical-real-form controls, the finite Grassmannian kernel, and Lorentzian/Euclidean twistor-reality reconstruction |
-| [`generation-sector/`](generation-sector/) | 35 | the three-generation count via the twisted Rarita-Schwinger index/rank and its K3 / Y14 bridges |
+| [`generation-sector/`](generation-sector/) | 38 | the three-generation count via representation multiplicity, source/boundary spectral selection, the twisted Rarita-Schwinger index/rank, and K3 / Y14 bridge controls |
 | [`geometry-curvature-emergence/`](geometry-curvature-emergence/) | 41 | submanifold geometry and SM emergence: Codazzi/Gauss, hidden curvature, distortion tensor, GR-shadow recovery, Higgs/Pati-Salam |
 | [`cycle-gates-and-audits/`](cycle-gates-and-audits/) | 38 | frontier-run cycle gates, mission/goal drafts, censuses, ledgers, provenance audits, interface contracts, critique responses |
 | [`time-as-finality-crosswalk/`](time-as-finality-crosswalk/) | 55 | observer-finality, measurement/CHSH, Cech/Bell contextuality fixtures, Freed-Hopkins pairings, TaF crosswalk |

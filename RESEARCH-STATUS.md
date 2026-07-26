@@ -2,8 +2,8 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-15"
-canon_sweep_at: "2026-07-15"
+updated_at: "2026-07-25"
+canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
@@ -32,6 +32,15 @@ stories, with the generation count entering as a constrained external/source/bou
 is unchanged: compatibility is not derivation, imports must be named and priced, and no verdict is inflated.
 But the status ledger should distinguish a failed "force three from the bare interior" route from a global
 negative verdict on GU.
+
+**Active-research promotion GEN-TBF-01, 2026-07-25 (no canon or verdict change).** The
+Triplet--Boundary--Flavor Conjecture is frontstaged as a three-gate research
+object: the canonical self-dual triplet is the located carrier; a source-owned
+boundary/spectral operator must still derive a protected integer-three chiral
+count; and flavor differentiation is a separate downstream problem. The
+promotion prevents carrier multiplicity, physical selection, and mass/mixing
+fits from being conflated. It does not derive three, reprioritize the
+generation branch, seed a paper, or change `OPEN / located-not-forced`.
 
 **Metadata sweep 2026-07-14.** `updated_at` and `canon_sweep_at` are bumped to 2026-07-14. The 2026-07-14 W128-W192 substrate/open-system arc is exploration-tier and changes NO canon verdict; the only additive registrations are the two exploration-tier notes in the 2026-07-14 section below.
 
@@ -99,6 +108,7 @@ wording must be removed or explicitly marked superseded on owner surfaces.
 | theta-field FLRW dark energy EOS | canon (EOS-vs-DESI verdict OPEN; DARK-ENERGY-04 scope: CPL-projection comparison FALSIFIED at exploration grade, raw-distance comparison MARGINAL/LCDM-amplitude-degenerate, DE-05: excluded as a CMB-consistently-calibrated distance model for f0 >= ~0.03 at M^2=8, DE-06: exclusion HOLDS BAND-WIDE at DESI-signal amplitudes across the admissible OQ2 band, with the f0 bound M^2-dependent -- 0.027 (BC_1) / 0.039 (A_1) / 0.208 (S^3); structural machinery reconstruction-grade) | `canon/theta-field-flrw-dark-energy-eos.md` — CORRECTION DARK-ENERGY-02 (2026-06-26); DARK-ENERGY-03 (2026-06-30, MOVE-2 chase): the "w_a>0, sign-inconsistent-with-DESI, clean falsification" red-flag is RETRACTED as a local-derivative artifact — the global CPL fit over the DESI window (z<=2) gives w_0=-0.777, w_a=-0.248 (w_a NEGATIVE, same sign as DESI w_a=-0.75, ~3x smaller magnitude); the fitted w_a sign flips with fit window (z<=0.5 gives +0.025) because w_DE(z) is non-monotone; the "+1.17 f_0-independent ratio" came from a hardcoded d ln rho/dz=3 bug (only the local-derivative ratio ~+2.4 as f_0->0 is f_0-independent). Verdict KEPT OPEN; this is NOT "GU matches DESI" and the source-action bottleneck / f_0 / B_i fits are untouched. tests/chase/MOVE-2/verify/indep_check.py; DARK-ENERGY-04 (2026-07-13, Wave 45): the DE-03 "neither confirmation nor falsification" phrase is SCOPED into two comparisons — (a) the (w0,wa)-CPL-projection comparison is FALSIFIED at exploration grade (H43/H44, Waves 20/25: ~3.2 sigma global miss, robust to the admissible M^2 band, ansatz, ICs, and self-consistent backreaction); (b) the raw-distance comparison on the actual DESI DR2 BAO likelihood is MARGINAL (H46, Wave 29: excluded only at canonical f0 + CMB-fixed amplitude, dAIC=+21.6; shape-competitive once amplitude marginalized, dAIC=-3.17, not decisive; BAO-preferred f0 ~0.05 vs CPL-tuned 0.125 mutually inconsistent, factor >=2). DESI DR2 + Planck digits VERIFIED against arXiv:2503.14738 (Table 4 + official likelihood files) and arXiv:1807.06209 Table 2 — tests/wave45/H46B_referee_grade_desi_verification.py (exit 0, 33/33). Verdict stays OPEN; DARK-ENERGY-05 (2026-07-13, Wave 46): the Wave 45 blocker B1 (theta_star re-solve of GU's own CMB amplitude) is EXECUTED -- imposing Planck's 100theta*=1.04110 on GU's own H(z) (early physics fixed; frozen theta density 3.4e-5 of matter at z=30) gives H0_GU=63.75, A_GU=31.97 (+5.66% vs Planck), OVERSHOOTING the BAO-preferred amplitude for its own shape by +5.7 sigma_A; dAIC vs LCDM = +35.78 at GU's own calibration (+16.03 with omega_m h^2 profiled for both models under the Planck prior); the freed-amplitude dAIC=-3.17 shape win has NO CMB-consistent realization; with per-f0 CMB calibration the BAO-preferred f0 is the LCDM limit f0->0 (bound f0 < ~0.03), so the 'BAO-preferred f0 ~0.05' was an artifact of holding the amplitude at the Planck value. Sector at exploration grade (M^2=8 only; BAO+theta* only): falsified as a CPL fit AND excluded as a CMB-consistently-calibrated distance model for f0 >= ~0.03. tests/wave46/H46C_theta_star_cmb_calibration.py (exit 0, 20/20). Verdict stays OPEN; DARK-ENERGY-06 (2026-07-14, W129): the OQ2 M^2-band sweep is EXECUTED -- the theta_star-calibrated raw-BAO exclusion HOLDS BAND-WIDE (admissible M^2 = 3/7/8, bracketing scan [1,25], 1-component ansatz, z_start variants): every DESI-CPL-matched amplitude is excluded at dchi^2 >= +33.5 (softest point M^2=3: +14.9 with omega_m h^2 profiled for both models); the OQ2 single-band-point gate on the exclusion is RETIRED. Honest softening on the record: the "f0 < ~0.03" bound is M^2=8-specific -- across the admissible band the 3-sigma-equivalent bound is f0 < 0.027 (BC_1) / 0.039 (A_1) / 0.208 (S^3, M^2=3, where f0=0.125 alone is only mildly disfavored, dAIC +5.25, +2.0 profiled) -- but everything allowed at any admissible M^2 is an LCDM mimic (|w0+1| < 0.1 at each bound), so the band-safe exclusion is signal-level: no admissible (M^2, ansatz) point can be the DESI dark-energy signal. SNe integration + a second BAO dataset remain the named residuals. tests/W129_oq2_m2_band_sweep.py (exit 0, 13/13). Verdict stays OPEN. |
 | signed-readout boundary theorem | active_research | `lab/active-research/signed-readout/` |
 | CALM/Ginsparg-Wilson boundary | active_research | `lab/active-research/calm-gw-boundary/` |
+| Triplet--Boundary--Flavor generation mechanism | active_research (OPEN_GATED; triplet carrier located, chiral selection and flavor derivation open; no priority change) | `lab/active-research/triplet-boundary-flavor-conjecture-2026-07-25.md` |
 | ranked next steps | active_research | `lab/roadmap/` |
 | C_MPR and 9-tuple | exploration | `explorations/c-mpr/` |
 | observer-finality crosswalk | exploration | `explorations/time-as-finality-crosswalk/` |
