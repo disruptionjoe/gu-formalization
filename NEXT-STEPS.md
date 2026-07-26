@@ -2,11 +2,23 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-24"
+updated_at: "2026-07-26"
 ---
 
 # Next Steps For Contributors
 
+> **2026-07-26 CONDITIONAL SOURCE-ACTION TOY LADDER.**
+> `lab/active-research/conditional-source-action-toy-construction-program-2026-07-26.md`
+> separates five grades that had been easy to conflate: engineered constraint
+> compatibility, finite spectral selection, a dynamically generated
+> domain-wall sector, regulator-level index/anomaly/mirror control, and a
+> program-native GU lift. The first build remains the complete finite
+> coefficient-class enumeration required by `B5-INDEPENDENT-RECONSTRUCTION`;
+> the first physical comparator is a dynamic domain wall carrying a unit
+> index tensored with the independently located triplet. This is a conditional
+> construction program, not a source action, generation derivation, priority
+> change, or verdict movement.
+>
 > **2026-07-19 CURRENT OPERATIONAL QUEUE: THREE PROGRESS LANES PLUS STEWARDSHIP.**
 > The machine-readable owner is `lab/process/research-portfolio.json`. A lane is a durable purpose-bearing
 > execution container, not each dependency, monitor, gate, closed branch, workstream, or task.

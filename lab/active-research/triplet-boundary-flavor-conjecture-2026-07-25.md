@@ -139,11 +139,21 @@ idle in every complete intervention class.
 
 ## Next action
 
-Construct `OrderThreeSourceActionSpectralPacket_V0` from the actual GU
-source-action and B5 operator/domain campaign. Do not begin with a desired
-`rho`, `eta`, flux, rank, K3 quotient, or count. The cheapest informative
-result is a well-typed `UNDEFINED`, `ZERO`, or `NONTHREE` return because each
-removes a large class of false closures.
+Use
+`conditional-source-action-toy-construction-program-2026-07-26.md` as the
+graded build ladder. First complete the finite coefficient-class enumeration,
+then construct the imposed-wall control and dynamical-wall comparator, and
+only then attempt the regulator and program-native lift. These toys may
+establish conditional hosting, dynamic physical selection, or a transport
+obstruction; they do not become GU's source action merely by reproducing the
+target.
+
+The eventual target remains
+`OrderThreeSourceActionSpectralPacket_V0` from the actual GU source-action and
+B5 operator/domain campaign. Do not begin with a desired `rho`, `eta`, flux,
+rank, K3 quotient, or count. The cheapest informative result is a well-typed
+`UNDEFINED`, `ZERO`, `NONTHREE`, `TARGET_IMPORTED`, or transport-failure return
+because each removes a large class of false closures.
 
 ## Promotion-criteria audit
 
