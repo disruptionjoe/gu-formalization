@@ -50,8 +50,12 @@ The explore/exploit binary hides a THIRD mode:
 **Standing lane contract:** a lane is a durable purpose-bearing execution container, not each dependency,
 monitor, gate, closed branch, workstream, or task.
 
-- Lane 1 = **GU truth testing**, the protected charter-level North Star. Attack the strongest GU claim
-  adversarially and force, falsify, or downgrade it honestly. Difficulty never demotes this purpose.
+- Lane 1 = **Observerse/GU truth status**, the protected charter-level North
+  Star. Adversarially establish whether the Observerse / Geometric Unity
+  program is forced, falsified, or precisely placed as a candidate unifying
+  account of physics. Frozen-GU construction testing is a load-bearing
+  falsification route within this purpose, not its definition. Difficulty never
+  demotes this purpose.
 - Lane 2 = **prediction extraction and computation**. Discover, derive, freeze, compute, and confront native
   predictions and falsification tripwires without calibration leakage.
 - Lane 3 = **result hardening and publication readiness**. Harden useful results through proof, tests, Lean
@@ -115,15 +119,15 @@ not Lane truth.
 
 ## Purpose, Passion, and Practice
 
-- **Purpose:** Adversarially establish GU's honest truth-status: force it,
-  falsify it, or place it precisely, and determine what it would take to be a
-  true account of physics.
-- **Passion:** Test whether agents can investigate serious heterodox claims
-  with disciplined skepticism, neither credulous nor prematurely dismissive.
-- **Practice:** Prove Joe can direct agents through adversarial truth-status
-  research; extract methods for kill tests, hostile verification, model-schema
-  reasoning, and forced-versus-imported distinctions; create credible
-  Capability Acceleration assets.
+- **Purpose:** Establish the honest truth-status of the Observerse / Geometric
+  Unity program: force it, falsify it, or place it precisely, and determine
+  what it would take for this class of geometry to be a true account of physics.
+- **Passion:** Test whether agents can investigate a bold, contested physical
+  conjecture seriously enough to generate and attack precise hypotheses,
+  without becoming its advocates or dismissing it by reflex.
+- **Practice:** Use GU as a generative test case to produce falsifiable
+  hypotheses, drive them through adversarial verdicts, and preserve the true
+  GU-dependent or GU-independent structure that survives at honest grade.
 
 ## Versioning Default
 

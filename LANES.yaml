@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 2
+manifest_revision: 3
 owner:
   owner_id: gu-formalization
   display_name: GU Formalization
@@ -17,10 +17,11 @@ lanes:
   label: Lane 1
   ordinal: 1
   kind: progress
-  title: GU truth testing
+  title: Observerse/GU truth status
   north_star: true
-  purpose: Adversarially test or falsify whether one frozen GU construction recovers the required physical
-    content without sector-specific repair.
+  purpose: >-
+    Adversarially establish the honest truth-status of the Observerse / Geometric Unity program:
+    force it, falsify it, or place it precisely as a candidate unifying account of physics.
   purpose_type: north_star
   relation_to_lane_1: primary_operational_expression
   environment: The owner's governed repository, its declared operating interfaces, and its authoritative
@@ -47,16 +48,16 @@ lanes:
   control:
     state: active
     in_flight_policy: continue_current
-    control_revision: 1
+    control_revision: 2
     scheduling_preference: normal
-    changed_at: '2026-07-16T00:00:00-05:00'
-    changed_by: Joe direct chat, 2026-07-16
-    authority_ref: Joe-approved WI-078 fleet target map
-    reason: Initial first-class Lane ratification
+    changed_at: '2026-07-27T00:00:00-05:00'
+    changed_by: Joe direct chat, 2026-07-27
+    authority_ref: WI-084 owner-specific correction gate
+    reason: Align Lane 1 with the owner research program while retaining frozen-GU testing as a falsification route
   provenance:
-    revision: 1
-    approved_at: '2026-07-16T00:00:00-05:00'
-    approved_by: Joe direct chat, 2026-07-16
+    revision: 2
+    approved_at: '2026-07-27T00:00:00-05:00'
+    approved_by: Joe direct chat, 2026-07-27
 - id: '2'
   label: Lane 2
   ordinal: 2
