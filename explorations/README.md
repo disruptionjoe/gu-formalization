@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`three-route-construction-wave-synthesis-2026-07-29.md`](three-route-construction-wave-synthesis-2026-07-29.md)
+  integrates three executable starts. The direct
+  `S_nat=C_perp J_H` Bott--Krein deck weld is killed by incompatible
+  involution/right-`H` gates; the actual `TX + Sym²T*X` DeWitt loop retains
+  exact Krein monodromy `-1` while normalized 20-slot transport remains open;
+  and the ambient vertical scalar carrier is not yet a dynamical field of the
+  written `X4` action. The routes now meet at one source-owned
+  reduction-and-transport packet; no physical index, vacuum, B5 phase, or
+  count moves.
 - [`sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`](sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md)
   resolves the apparent `SA-Y8` contradiction as a Layer-0 homonym, proves the
   vertical connection channel is a physical 4D Lorentz-scalar Krein bilinear,
