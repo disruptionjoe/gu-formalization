@@ -34,6 +34,19 @@ outcome: "P3-IS-NOT-EXTERNAL"
 > `explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md`. Original
 > text retained below as the run record and superseded where it conflicts.
 
+> **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The reinstated three-piece
+> ledger is now conditionally reduced to two by a different construction,
+> without repeating the multiplicity/index error. `P2` is the
+> phase/orientation of the canonical vertical projected RS symbol on X.
+> The antilinear Krein-dual coflip candidate `C_perp = K J_obs` reaches both X
+> product families and gives all ten special vertical edges one uniform
+> relative parity. If the independently constructed metric-fibre loop coflip
+> is identified with `C_perp` and the written differential supplies one global
+> formal-adjoint sign, `P1` and `P2` are one orientation datum. `P3`, the
+> realized chiral-index datum, remains reinstated. Conditional ledger:
+> **one P1/P2 orientation + P3 count datum**. See
+> `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`.
+
 ## Why this exists
 
 Rather than repeatedly concluding "an external datum is needed" and stopping —

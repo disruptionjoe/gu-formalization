@@ -19,6 +19,18 @@ public_posture_change: none
 
 # The source action, term by term, against the 27-row spec
 
+> **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The `SA-Y1` and `SA-Y8`
+> entries below are superseded. At physical-channel grade, the vertical
+> `(1,10)` part of the existing `T1 + T2` connection coupling gives a nonzero,
+> Hermitian, cross-chirality 4D Lorentz-scalar Krein bilinear. `T10` is
+> therefore **not required merely to create the Yukawa carrier**; the
+> background/VEV, orbit, magnitude, texture, and dynamical closure remain open.
+> Conversely, `T3` does **not** satisfy conditional `SA-Y8`: its cross-chirality
+> moment map followed by `c(mu)` is a different object from the same-Weyl
+> `S+ tensor S+ -> Lambda^0_14` scalar excluded by `SHIAB-05`. See
+> `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`.
+> Original construction-pass text is retained below.
+
 > **CORRECTION (2026-07-29, Layer-0 pass).** **D3 is RETRACTED and D4 is
 > WEAKENED.** Both inferred from the `2+1` **multiplicity** result to claims
 > about the realized **chiral index**, which is a homonym: Rung 1 proved the

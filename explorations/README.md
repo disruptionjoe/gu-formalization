@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-25"
+updated_at: "2026-07-29"
 ---
 
 # Explorations
@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`](sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md)
+  resolves the apparent `SA-Y8` contradiction as a Layer-0 homonym, proves the
+  vertical connection channel is a physical 4D Lorentz-scalar Krein bilinear,
+  types all four B5 X residuals as vertical projected RS-symbol edges, and
+  constructs the conditional one-bit `P1`--`P2` weld
+  `C_perp = K J_obs`. The actual fibre-loop identification, written
+  differential sign, Green form, and domain remain open; no B5 phase or count
+  moves.
 - [`compute-readiness-priority-reconciliation-2026-07-22.md`](compute-readiness-priority-reconciliation-2026-07-22.md)
   closes the already-executed DE-amplitude queue pointer, makes Lane-1 difficulty protection executable, and
   records the shared NumPy/SciPy compute environment without changing scientific claims or verdicts.
@@ -54,7 +62,7 @@ were sorted by reading each note's content.)
 | cluster | notes | what's here |
 |---|---:|---|
 | [`woit-principles/`](woit-principles/) | 5 | Woit-to-GU transfer gates: exact Cartan/Palatini soldering, OS physical-real-form controls, the finite Grassmannian kernel, and Lorentzian/Euclidean twistor-reality reconstruction |
-| [`generation-sector/`](generation-sector/) | 38 | the three-generation count via representation multiplicity, source/boundary spectral selection, the twisted Rarita-Schwinger index/rank, and K3 / Y14 bridge controls |
+| `generation-sector/` | 38 | the three-generation count via representation multiplicity, source/boundary spectral selection, the twisted Rarita-Schwinger index/rank, and K3 / Y14 bridge controls; linked above through the current synthesis |
 | [`geometry-curvature-emergence/`](geometry-curvature-emergence/) | 41 | submanifold geometry and SM emergence: Codazzi/Gauss, hidden curvature, distortion tensor, GR-shadow recovery, Higgs/Pati-Salam |
 | [`cycle-gates-and-audits/`](cycle-gates-and-audits/) | 38 | frontier-run cycle gates, mission/goal drafts, censuses, ledgers, provenance audits, interface contracts, critique responses |
 | [`time-as-finality-crosswalk/`](time-as-finality-crosswalk/) | 55 | observer-finality, measurement/CHSH, Cech/Bell contextuality fixtures, Freed-Hopkins pairings, TaF crosswalk |

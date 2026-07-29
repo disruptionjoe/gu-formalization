@@ -19,6 +19,20 @@ outcome: "DISTINGUISHED-NOT-ORIENTED"
 
 # B5 chirality orientation audit
 
+> **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The four X-sector orbits
+> are no longer unclassified: all four are vertical-only projected
+> Rarita--Schwinger symbol edges, and the canonical vertical symbol is nonzero
+> on both product-rule X families. Moreover the antilinear Krein-dual map
+> `C_perp = K J_obs` has exactly the B5 dual-slot support action and gives one
+> uniform relative algebraic parity to all ten special vertical edges.
+> Therefore `P2` is typed and **conditionally** welds to the same global
+> orientation bit as `P1`; this is not yet an unconditional phase assignment,
+> because equality with the metric-fibre loop coflip, the written
+> differential's formal-adjoint sign, normalized 20-slot phases, Green form,
+> and domain remain open. See
+> `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`.
+> Original audit retained below.
+
 ## The distinction this run turns on
 
 The phase-sum audit found chirality grading is not blind to six of the ten

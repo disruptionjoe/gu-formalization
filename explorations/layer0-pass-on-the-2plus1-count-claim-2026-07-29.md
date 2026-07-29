@@ -18,6 +18,16 @@ outcome: "HOMONYM (false-escape direction)"
 
 # Layer-0 pass on the 2+1 count claim
 
+> **FOLLOW-UP (2026-07-29, vertical--Krein weld).** This correction remains
+> binding: `P3` is still required because multiplicity is not chiral index.
+> Separately, `P2` is now typed as the phase/orientation of the vertical
+> projected RS symbol on X and conditionally welds to `P1` through
+> `C_perp = K J_obs`, which gives all ten special vertical edges one coherent
+> relative parity. Thus the ledger moves from three pieces to two **only
+> conditional on the coflip/differential identification**, not because the
+> `2+1` multiplicity supplies a count. See
+> `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`.
+
 Run because Joe flagged that class-relative no-goes have proved unreliable and
 the ratified protocol must be used. Loading it surfaced two things I had not
 carried: the protocol is **seven axes plus a Layer-0 precondition** (ratified

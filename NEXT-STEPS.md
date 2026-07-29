@@ -2,11 +2,30 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-26"
+updated_at: "2026-07-29"
 ---
 
 # Next Steps For Contributors
 
+> **2026-07-29 VERTICAL--KREIN SOURCE-ACTION/B5 WELD.**
+> `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`
+> closes three semantic/construction questions without moving a formal claim.
+> `SA-Y8`'s two “Majorana blocks” are homonyms; `T3` does not supply the
+> same-Weyl scalar. The existing vertical `T1 + T2` connection channel is an
+> exact nonzero, Hermitian, cross-chirality 4D Lorentz scalar, so a separate
+> `T10` is not required merely to host `SA-Y1`. All four B5 X residuals are
+> vertical projected RS-symbol edges. Finally,
+> `C_perp = K J_obs` is an antilinear Krein-dual coflip with exactly the B5
+> dual-slot action and one uniform relative parity on all ten special vertical
+> edges. Conditional on identifying it with the verified metric-fibre loop
+> holonomy and the written differential, `P1` and `P2` become one orientation
+> bit; `P3` remains the separate chiral-index datum. Next, transport `J_obs`
+> around the existing fibre-loop construction and compare the return map with
+> `+/- C_perp`, then write the first-order B5 differential with its induced
+> 20-slot pairing table and formal-adjoint sign. Do not infer an absolute phase,
+> signed sum, Green form, domain, vacuum, mass spectrum, or count before those
+> constructions.
+>
 > **2026-07-26 GRADED EXTERIOR 14D COMPARATOR.**
 > `explorations/geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md`
 > turns the proposed `4+6+4` reading into a bounded PC2 comparator. It first

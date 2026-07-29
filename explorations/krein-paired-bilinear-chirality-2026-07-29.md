@@ -18,6 +18,18 @@ outcome: "BRIDGE-SUCCEEDS"
 
 # The Krein-paired bilinear, and why the earlier verdict was wrong
 
+> **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The four items listed below
+> as open have now split. Exact factorized `Cl(9,5)` computation proves the
+> vertical `(1,10)` channel is 4D Lorentz-scalar, nonzero, Hermitian, and
+> cross-chirality, including an observer-compatible internal connection
+> factor. Thus `SA-Y1` closes positively at **physical channel grade** and
+> `T10` is not required merely to provide a carrier. It remains true that this
+> is not the ambient full-`Spin(9,5)` `Lambda^0_14` representation, and the
+> stable VEV, vacuum orbit, magnitude, texture, and dynamical closure are
+> unbuilt. See
+> `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`.
+> Original same-day result retained below.
+
 ## The error, stated plainly
 
 The same-day vertical-vev probe asked whether the **operator** `e_vertical`
