@@ -19,6 +19,18 @@ public_posture_change: none
 
 # The source action, term by term, against the 27-row spec
 
+> **CORRECTION (2026-07-29, Layer-0 pass).** **D3 is RETRACTED and D4 is
+> WEAKENED.** Both inferred from the `2+1` **multiplicity** result to claims
+> about the realized **chiral index**, which is a homonym: Rung 1 proved the
+> index is grading-determined and unmoved by any coefficient, so a three-block
+> decomposition does not discharge `SA-C3` and does not lapse `SA-C1`'s
+> conditional forcing. **D1 and D2 survive unchanged** — both are
+> multiplicity-side questions about flavour structure and sector
+> identifiability. The "Next" section's ordering (D3 first) is superseded: **D1
+> is now first.** See
+> `explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md`. Original
+> text retained below as the run record.
+
 Written because the construction is the target and the hardening moves are only
 justified as demands the construction generates. This pass generated four.
 

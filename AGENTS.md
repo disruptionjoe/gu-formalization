@@ -2,7 +2,19 @@
 
 This repository is a public research truth surface for the Geometric Unity / Observerse program. It owns its claims, grading discipline, derivation progress, Lean scaffold, computational tests, papers, and explorations.
 
-**READ FIRST before attacking any GU object:** `GEOMETER-VS-PHYSICS-OBJECTS.md`. GU is a geometer's program; many objects (the gauge group, the ghost clearance, the (9,5) signature, the guardian symmetry, the count, the |II|^2 functional, mu_DW, the metric, the RS cure) have a program-native geometric construction that DIFFERS from the standard physics version of the same-named object. The rule is NOT "prefer the geometer's version" -- it is: when an object has both, IDENTIFY which construction you are using and WHY, and stay open on which side the answer lives (we do not know a priori). Defaulting silently to EITHER side is the failure mode. If you reach a no-go/kill, know which construction it was derived in and check whether it survives in the other. Orchestrators: include a condensed form of that table and the rule in every GU team/branch brief.
+**READ FIRST, BOTH OF THEM, before deep work on any GU object — not after, not when a result looks surprising:**
+
+1. `GEOMETER-VS-PHYSICS-OBJECTS.md` — which construction (geometer's vs physics default) you are using, and why.
+2. `lab/specifications/six-axis/six-axis-template.md` — the ratified protocol is **seven axes (L1-L7) plus a Layer-0 semantic-alignment PRECONDITION** (Joe, 2026-07-10). It is not six axes, and Layer-0 runs *before* L1-L7.
+
+**Why 2 is non-optional.** Class-relative no-goes in this program have proved unreliable in BOTH directions, and Layer-0 is the check that catches the direction agents actually fail. Its two failure modes:
+
+- **False escape (the equivocation trap):** you believe you evaded a no-go, but the term quietly changed sense and the theorem still bites the object you built.
+- **Real inapplicability (scope by homonymy):** the theorem genuinely constrains a different object, so you are outside its domain rather than contradicting it.
+
+**The failure that recurs here, in its exact form:** a *multiplicity* or *decomposition* result gets read as a *count* result. "Three blocks" is not "three generations" unless each block carries a nonzero chiral index — and Rung 1 established that the index is grading-determined and unmoved by any coefficient. A worked instance, including the retraction it forced, is `explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md`. Read it before arguing from any decomposition to a count.
+
+**The tell:** you are about to say a forced structural result *discharges* a DECLARATION row. Stop and name which object each side means by the shared term. If you have not run Layer-0, you do not know. GU is a geometer's program; many objects (the gauge group, the ghost clearance, the (9,5) signature, the guardian symmetry, the count, the |II|^2 functional, mu_DW, the metric, the RS cure) have a program-native geometric construction that DIFFERS from the standard physics version of the same-named object. The rule is NOT "prefer the geometer's version" -- it is: when an object has both, IDENTIFY which construction you are using and WHY, and stay open on which side the answer lives (we do not know a priori). Defaulting silently to EITHER side is the failure mode. If you reach a no-go/kill, know which construction it was derived in and check whether it survives in the other. Orchestrators: include a condensed form of that table and the rule in every GU team/branch brief.
 
 When stewardship context is needed, load `../../private/system-operations/stewards/gu-formalization/README.md`. Do not load `../../private/system-operations/stewards/gu-formalization/memory-log.md` by default unless doing stewardship or memory work, or the steward summary appears incomplete.
 

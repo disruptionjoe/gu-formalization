@@ -21,6 +21,19 @@ outcome: "P3-IS-NOT-EXTERNAL"
 
 # The external datum ledger, and the 2+1 product rule
 
+> **CORRECTION (2026-07-29, Layer-0 pass).** The verdict label
+> `P3-IS-NOT-EXTERNAL` is **retracted as a homonym error**. The computation below
+> is unchanged and correct: the `2+1` **multiplicity** decomposition of
+> `ker Gamma` is forced by the split plus gamma-tracelessness. But `P3` and
+> `SA-C3` are about the realized **chiral index**, and Rung 1 proved with
+> controls that the index is grading-determined and unmoved by any coefficient —
+> so a three-block multiplicity decomposition does not supply net chiral index 3.
+> **The ledger returns to three pieces; `P3` is reinstated.** What the `2+1`
+> result genuinely constrains is flavour structure and sector identifiability,
+> not the count. See
+> `explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md`. Original
+> text retained below as the run record and superseded where it conflicts.
+
 ## Why this exists
 
 Rather than repeatedly concluding "an external datum is needed" and stopping —
