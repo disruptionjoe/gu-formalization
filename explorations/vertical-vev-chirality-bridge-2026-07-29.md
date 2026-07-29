@@ -97,3 +97,30 @@ route, which was the one the Layer-0 pass named.
 Nothing in canon, verdict, count, priority, or posture. One open bridge is
 closed negative, one FORCED row's status is settled, and one term is confirmed
 required. That is the first row-status resolution the build has produced.
+
+---
+
+> **RETRACTION (2026-07-29, same day) — the `BRIDGE-FAILS` verdict above is
+> WRONG and is withdrawn.**
+>
+> This run measured **the operator** `e_vertical` against `omega_4` and found it
+> chirality-preserving. That arithmetic is correct. **The question was wrong.**
+> A mass term is not an operator, it is a **bilinear** `<Psi, M Psi>_K`, and in
+> a Krein setting the pairing carries chirality structure of its own.
+>
+> GU's Krein form is documented as *"purely cross-chirality"* and the explicit
+> computation confirms it: **`K` anticommutes with `omega_4`.** So the composite
+> `K . e_vertical` — chirality-crossing times chirality-preserving — is
+> **cross-chirality**, on all ten fibre directions and every split tested.
+>
+> Corrected verdict: **`BRIDGE-SUCCEEDS`**. A vertical vev of the IG connection
+> perturbation **can** supply a cross-chirality mass bilinear, and `T10` is
+> **not** established as required. See
+> `explorations/krein-paired-bilinear-chirality-2026-07-29.md`.
+>
+> Credit where due: the correction came from Joe, reasoning from the
+> Bateman-Turok / Mannheim ghost-parity position that one works *with* the
+> indefinite structure rather than removing it — so the pairing is not inert
+> bookkeeping and must be composed in.
+>
+> Text above retained as the run record.
