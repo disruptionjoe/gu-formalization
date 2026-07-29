@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`source-owned-reduction-transport-packet-2026-07-29.md`](source-owned-reduction-transport-packet-2026-07-29.md)
+  runs the integrated next packet. The conditional W177
+  gimmel--Levi-Civita background has a robust nonzero Yang--Mills residual, so
+  its physical Hessian interpretation is killed before mode reading. Layer 0
+  also shows that W131 is only a 12-of-20-slot proper suboperator of B5: even
+  its maximal carrier envelope leaves `2^4` relative endpoint signs. The
+  complete graph is connected, and four additional adjoint/mirror symbol
+  orbits are the exact minimum support target for the next written
+  chimeric/BV differential.
 - [`three-route-construction-wave-synthesis-2026-07-29.md`](three-route-construction-wave-synthesis-2026-07-29.md)
   integrates three executable starts. The direct
   `S_nat=C_perp J_H` Bott--Krein deck weld is killed by incompatible
