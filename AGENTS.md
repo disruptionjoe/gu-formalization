@@ -47,6 +47,57 @@ The explore/exploit binary hides a THIRD mode:
 
 **The tell (catch it in your own momentum):** the framing shifts from "can we force or kill the whole thing?" to "here is a clean result we can definitely finish, let us do that," while the North Star is merely hard, not dead. When you notice that shift, stop and re-aim at mode 2.
 
+## Operating note: the orthodox reflex (accommodation vs surplus constraint)
+
+A second failure mode that recurs in agent-driven research here, distinct from the one above. Read once; it
+changes which construction routes you are willing to open.
+
+An agent proposes building a candidate object shaped to make the known structure cohere — a posit, not a
+derivation. Another agent (or the same one, one paragraph later) rejects it with some form of *"an object
+shaped to reproduce the interior teaches nothing."* That rejection is the **orthodox reflex**, and it is
+**wrong more often than it is right in this program.**
+
+**The actual epistemics.** The information content of a fit is the **constraint surplus**:
+
+```text
+surplus = (independent constraints the object must satisfy) - (its free parameters)
+```
+
+- Surplus <= 0 — free parameters at least match constraints. Success is guaranteed, so it is uninformative.
+  The reflex is correct here.
+- Surplus > 0 — the object must satisfy more than it has freedom to satisfy. **Success was not guaranteed.
+  It could have failed and did not.** That is ordinary confirmation, and the reflex is simply wrong.
+
+The canonical demonstration is Standard Model hypercharge: **fit** to the observed particles, derived by
+nobody, and then found to cancel six independent anomaly conditions with no freedom left over. That surplus
+is most of why anyone takes grand unification seriously. Mendeleev's gaps and Dirac's sea are the same shape.
+
+**Why this program is unusually exposed to the reflex.** GU's interior is heavily over-determined and its
+residuals are small — the B5 phase residual is *one integer in eleven values*. That is exactly the regime
+where positing is informative and the reflex misfires. An agent that reaches for the reflex here is
+discarding the program's best available move.
+
+**The correction, and it is a computation, not an attitude:**
+
+1. **Compute the surplus before arguing about it.** Count independent expressible constraints; count free
+   parameters; report both. `explorations/b5-constraint-surplus-audit-2026-07-29.md` is the worked pattern.
+2. **Independence is the crux and is usually the illusory part.** W188 found phrases that sound singular
+   hiding two coordinates each; the converse — many-sounding constraints that are secretly one — inflates a
+   surplus just as badly. Rank it, do not eyeball it.
+3. **Declare the parameter count before computing consequences.** Every undeclared choice — scheme, basis,
+   regulator, ordering — silently consumes surplus. This is the same "cannot be hidden in notation" rule the
+   conditional source-action program already carries.
+4. **Planted-test any surplus matcher before reading its number.** A permissive expressibility test makes a
+   surplus look large; this failure was caught by a control in the audit above and would otherwise have
+   produced a confident wrong answer.
+5. **A posit is an instrument, graded as one.** It is not a derivation and must not be reported as one, but
+   it is not waste either. `SURPLUS-UNCOMPUTABLE` is a legitimate and useful outcome: it says the check
+   cannot run yet and names the bridge that would let it.
+
+**The tell (catch it in your own reasoning):** you are about to decline a construction route with a sentence
+of the form *"but that would just be fitting it to what we already know."* Stop and ask whether the surplus
+is positive. If you have not counted, you do not know, and the sentence is a reflex rather than an argument.
+
 **Standing lane contract:** a lane is a durable purpose-bearing execution container, not each dependency,
 monitor, gate, closed branch, workstream, or task.
 
