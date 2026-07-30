@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-29"
+updated_at: "2026-07-30"
 ---
 
 # Explorations
@@ -13,6 +13,19 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`full20-native-polarization-closure-wave-2026-07-30.md`](full20-native-polarization-closure-wave-2026-07-30.md)
+  executes the third full-20 construction swing. The native spinor Krein
+  form is fixed up to scale, the induced `imGamma/kerGamma` splitting is
+  orthogonal, and the nine written blocks close under compact-support formal
+  adjoints. The candidate Grassmann-odd polarization retains a nonempty
+  all-nine-block principal determinant locus, while an independent thin
+  20-embedding calculation rederives all 136 observer-complex support cells.
+  The five lower remainders collapse to two curvature maps: an exact
+  `S + imGamma` auxiliary gauge complex survives on every compatible
+  background, but the actual W177 `Sym2` curvature obstructs any genuine
+  `kerGamma` gauge branch at that nonstationary background. Global domain,
+  transport-normalized phases, and physical mass-channel identification
+  remain open; no compensator is selected.
 - [`full20-irrep-symbol-noether-wave-2026-07-29.md`](full20-irrep-symbol-noether-wave-2026-07-29.md)
   executes the second full-20 construction swing. The nine written
   unpolarized carrier blocks reduce to four primitive symbols and, for a
