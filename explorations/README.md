@@ -13,6 +13,17 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`full20-chimeric-bv-first-write-2026-07-29.md`](full20-chimeric-bv-first-write-2026-07-29.md)
+  executes the first construction swing. A finite nine-block coarse
+  `S/I/R` observer ansatz is typed on all 20 slots, with a chosen first-stage
+  fixed-background BV census of complex rank 4608 / underlying real rank
+  9216 and a type-correct W131 carrier restriction. The maximal 136-cell
+  allowed envelope has one normalized `Z/2` coloring, while that whole
+  bidirectional envelope cannot be degree `+1` on one copy; sparse/oriented
+  support remains open. A source-shaped four-stage carrier has rank sequence
+  `128 -> 1792 -> 1792 -> 128`, but its differential, formula-level support,
+  Hodge/Krein roll maps, native adjoint packet, and full ambient BV meaning
+  remain open.
 - [`source-owned-chimeric-bv-construction-campaign-2026-07-29.md`](source-owned-chimeric-bv-construction-campaign-2026-07-29.md)
   preregisters the next construction campaign: nine critical-path swings
   from a full typed 20-slot quadratic action through quadratic and nonlinear
