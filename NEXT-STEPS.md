@@ -7,6 +7,44 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB2 SOURCE-ACTION EXACTNESS DISPOSITION.**
+> `explorations/rb2-source-action-exactness-shootout-2026-07-30.md`
+> constructs and finite-difference checks the complete classical
+> fixed-geometry antifield-zero \(A/U/P_{\rm IG}/\epsilon_{\rm IG}/Z\)
+> bridge-sector Euler skeletons for the `N1_JD_bridge` and
+> `N1_total_current_bridge`. Both survive and are formally distinct on a
+> nondegenerate control; no full N1 system or native Ward identity is
+> claimed. The total-current bridge cancels the direct
+> \(\widehat J_D+\widehat J_F\) term but leaves
+> \(-(\mathrm d_{\mathcal F,A}\widehat J_F)^!\theta\),
+> \(-(\mathrm d_{\mathcal F,Z}\widehat J_F)^!\theta\), the original
+> \(S_{20}\) \(Q_F\) flux, and a total-only \(Z\)-Hessian Green owner.
+> The \(A\)-Hessian is an algebraic bulk response, not a second boundary
+> flux. The source
+> \((1/2,1/3)\) coefficients are uniquely selected conditional on its
+> cyclic/transgression identities; internal gauge covariance is
+> coefficient- and \(\lambda\)-blind in the finite homogeneous covariance
+> proxy. A Layer-0 correction blocks first, but does not kill, the native
+> source branch: the proved four-real Shiab family is
+> spinorial, while the bosonic action needs an
+> \(\epsilon\)-dependent
+> \(\Omega^2(\operatorname{ad}P)\to
+> \Omega^{13}(\operatorname{ad}^*P)\) map. P3 remains an external
+> relative-\(KO\) interface, not an action term.
+>
+> Next execute RB3 on the bounded pair, not on a prematurely selected
+> winner. Construct moving soldering or the maximal explicit stabilizer,
+> place one shared spin-zero full-20 \(K/C\) branch, transport every
+> current/projector response and Green term, and preregister one
+> held-out-blind discriminator between the two Euler systems. In parallel,
+> attempt at most one bounded source reopener as a separate RB1-to-RB2 side
+> track: a native density-dual
+> invariant-tensor bosonic Shiab, a stabilizer Ricci--Einstein contraction, or the explicitly
+> nontransferable source-real-form comparator. Only the first two are native
+> reentry routes; the third is comparator-only. Any changed action/current
+> map re-enters RB1 then RB2. Keep complete Diff for RB4 and keep VEV,
+> stationarity, domain, physical mass, P3 pushforward, index, and count held.
+>
 > **2026-07-30 RB1 SOURCE/REPOSITORY CURRENT DISPOSITION.**
 > `explorations/rb1-source-repo-current-musical-2026-07-30.md` completes the
 > post-N3 RB1 prerequisite without selecting an action. No source/repository

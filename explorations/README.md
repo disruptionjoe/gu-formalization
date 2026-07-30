@@ -13,6 +13,20 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`rb2-source-action-exactness-shootout-2026-07-30.md`](rb2-source-action-exactness-shootout-2026-07-30.md)
+  builds and checks two formally distinct classical fixed-geometry
+  antifield-zero N1 five-field current-bridge Euler skeletons, retains the
+  total-current \(A\)-Hessian bulk response and \(Z\)-Hessian response,
+  the common \(S_{20}\) \(Q_F\) flux, and the total-only \(Z\)-Hessian flux,
+  and shows that source \((1/2,1/3)\) is selected by conditional
+  transgression exactness rather than coefficient-blind gauge covariance.
+  It corrects the RB1 Shiab homonym: the proved four-real family is
+  spinorial and cannot fill the required bosonic
+  \(\Omega^2(\operatorname{ad}P)\to\Omega^{13}(\operatorname{ad}^*P)\)
+  slot. The source branch is blocked first, not killed, and receives two
+  native RB1-to-RB2 geometry re-openers plus one comparator-only source
+  fork; the two N1 bridge skeletons pass to RB3 with P3 still external,
+  native Ward unclaimed, and every VEV/mass/index/count readout held.
 - [`rb1-source-repo-current-musical-2026-07-30.md`](rb1-source-repo-current-musical-2026-07-30.md)
   completes the post-N3 RB1 prerequisite. It refuses every unchecked
   source/repository identity, exposes the formal affine `lambda` family
