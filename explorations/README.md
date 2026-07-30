@@ -13,6 +13,35 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`n2a-n4a-intersection-handoff-2026-07-30.md`](n2a-n4a-intersection-handoff-2026-07-30.md)
+  integrates the first two screens of the frozen source/datum packet. The
+  only nonzero fully Lorentz-preserving tested vertical representative is
+  trace-type, while the compatible Levi--Civita physical-`R` obstruction is
+  exactly half the traceless-Ricci map, so no direct algebraic
+  identification is available. It emits six finite N3 discriminators:
+  separate total Krein and charge-conjugation kernels, fermion/vertical and
+  trace-split section Euler maps, the IG parent plus
+  Clifford/projector/soldering compatibility equations, and the four-piece
+  physical-`R` Noether defect. The P3-twisted symbol is kept as a separate
+  index/causality campaign carry; no mass, CME, index, or count moves.
+- [`actual-sym2-c14-odd-orbit-knockout-2026-07-30.md`](actual-sym2-c14-odd-orbit-knockout-2026-07-30.md)
+  executes N2a on the actual symmetric-tensor fibre. It constructs both
+  native charge-conjugation components and the separate Krein kernel,
+  verifies their bare spinor algebra on zero, trace,
+  spacelike-traceless, and null representatives, kills zero, and finds trace
+  is the only nonzero tested representative preserving the full fixed
+  Lorentz algebra. Complete odd survival and the full-`Sp` kernel
+  equivariance/stabilizer remain typed unresolved until `P0`, `rho(Phi)`,
+  provenance/reality, and full-20 placement maps are supplied; no
+  bare-kernel result is called a mass or count.
+- [`full20-curvature-irrep-open-bv-factor-2026-07-30.md`](full20-curvature-irrep-open-bv-factor-2026-07-30.md)
+  executes N4a. Under metric/Clifford compatibility it derives
+  `C_RR^LC = (1/2) P_R(Ric^0_bd gamma^d)`: scalar and Weyl LC curvature
+  cancel, while traceless Ricci survives. It corrects the W177 norm without
+  changing its nonzero/full-rank verdict, constructs only a pointwise
+  Spin-compatible IG witness, and freezes a partial open-BV incidence
+  ledger. Full-`Sp` IG covariance, the equivariant Hom rank, EOM
+  factorization, and CME remain explicit construction targets.
 - [`unified-source-datum-packet-v0-2026-07-30.md`](unified-source-datum-packet-v0-2026-07-30.md)
   executes Swing N1 by writing one finite bulk-plus-defect source-action
   family on \((Y,sX)\), with the section current as the \(X^4/Y^{14}\)
