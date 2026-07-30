@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`full20-dewitt-loop-transport-wave-2026-07-30.md`](full20-dewitt-loop-transport-wave-2026-07-30.md)
+  executes the fourth full-20 construction swing. The pairing-only
+  vector-spinor coflip is caught mixing `imGamma` with low `kerGamma`;
+  requiring the written `Gamma` and `j` maps to intertwine uniquely forces
+  the missing `+TX/-Sym2` normal grading up to one global phase. The corrected
+  map preserves all 20 declared mirror slots, intertwines all 136 written
+  coefficient projections, and returns as central `-I` on every slot after
+  the non-scalar irrep motion and repeated-copy multiplicities are factored.
+  A planted relative pair phase passes static support and fails 28 actual
+  intertwiners. This closes the P1/P2 one-bit weld at finite
+  associated-bundle/formal-expression grade; global domain, nonlinear BV,
+  physical mass retention, P3, and count remain open.
 - [`full20-native-polarization-closure-wave-2026-07-30.md`](full20-native-polarization-closure-wave-2026-07-30.md)
   executes the third full-20 construction swing. The native spinor Krein
   form is fixed up to scale, the induced `imGamma/kerGamma` splitting is
