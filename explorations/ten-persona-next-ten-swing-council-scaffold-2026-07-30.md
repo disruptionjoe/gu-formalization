@@ -15,6 +15,16 @@ scientific_execution: none
 
 # Ten-persona inverse-construction council
 
+> **Post-N3 execution rebase (2026-07-30).** N1, N2a, N4a, and N3 have now
+> executed. The original scaffold below remains the preregistration and
+> provenance record, but its immediate `N3 -> N2b/N4b -> N5` continuation is
+> superseded by
+> [`post-n3-source-datum-ten-wave-rebase-2026-07-30.md`](post-n3-source-datum-ten-wave-rebase-2026-07-30.md).
+> That rebase inserts four dependency-closing waves for the source/repo
+> current dictionary, source-shaped action/exactness shootout, moving
+> symmetry plus shared-spin-zero placement, and moving-defect/N2b/N4b join.
+> The N5--N10 architecture is retained as RB5--RB10.
+
 ## Decision
 
 The next campaign is not another search for whether GU needs a source action

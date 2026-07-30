@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`post-n3-source-datum-ten-wave-rebase-2026-07-30.md`](post-n3-source-datum-ten-wave-rebase-2026-07-30.md)
+  preserves completed N1/N2a/N4a/N3 work but corrects the next dependency
+  order after the Vanchurin and Weinstein audits. RB1--RB4 now build the
+  typed current musical, run the total-residual/current-bridge exactness
+  shootout, construct moving symmetry plus the shared spin-zero full-20
+  placement, and complete the moving-defect/N2b/N4b join. RB5--RB10 retain
+  the quadratic, nonlinear BV, curved stationary, global-domain, physical
+  reduction, and actual-index campaign.
 - [`weinstein-primary-source-reinspection-overlooked-answers-2026-07-30.md`](weinstein-primary-source-reinspection-overlooked-answers-2026-07-30.md)
   compares Weinstein's already-transcribed first-order action and total
   Euler residual directly to the frozen N1/N3 construction. It emits three

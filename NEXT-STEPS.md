@@ -2,11 +2,33 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-29"
+updated_at: "2026-07-30"
 ---
 
 # Next Steps For Contributors
 
+> **2026-07-30 POST-N3 SOURCE-ACTION/DATUM REBASE.**
+> `explorations/post-n3-source-datum-ten-wave-rebase-2026-07-30.md`
+> supersedes only the unexecuted continuation of the earlier ten-swing
+> scaffold. N1, N2a, N4a, and N3 remain completed inputs. Do not jump from
+> the provisional N3 Euler map directly to N2b/N4b or the unified quadratic
+> solve. First execute RB1: build the source/repo Layer-0 dictionary, enumerate
+> every actual action dependency, and construct the
+> \(G/\star/\kappa_{\mathfrak g}\) connection-current musical. RB2 then
+> compares the current-bridge architectures with Weinstein's total-residual
+> action and its \(\frac12d_BT+\frac13[T,T]\) exactness completion. RB3
+> constructs moving soldering or an explicit stabilizer together with the
+> full-20 shared-spin-zero \(K/C\) placement. RB4 completes moving
+> restriction/emission and only then runs N2b/N4b. The late quadratic,
+> nonlinear-BV, curved, domain, physical-reduction, and index sequence remains
+> RB5--RB10. Preserve one P1/P2 orientation line, the separate action weld,
+> and the separate P3 relative-\(KO\) comparator; read no count before RB10.
+> Weinstein's source-shaped branch is a comparator, not the North Star. If it
+> fails, preserve any independent typed survivor; if the entire current class
+> fails, emit the minimal obstruction and a bounded adjacent geometry, then
+> re-enter at the earliest wave whose maps changed. Do not stop at “the source
+> action fails,” and do not buy continuation with post-hoc coefficients.
+>
 > **2026-07-29 VERTICAL--KREIN SOURCE-ACTION/B5 WELD.**
 > `explorations/sa-y8-majorana-layer0-and-vertical-krein-weld-2026-07-29.md`
 > closes three semantic/construction questions without moving a formal claim.
