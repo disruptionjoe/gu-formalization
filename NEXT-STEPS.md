@@ -7,22 +7,52 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB1 SOURCE/REPOSITORY CURRENT DISPOSITION.**
+> `explorations/rb1-source-repo-current-musical-2026-07-30.md` completes the
+> post-N3 RB1 prerequisite without selecting an action. No source/repository
+> object is promoted to identity. A formal affine comparison family
+> `A_lambda=A-lambda U`,
+> `B_lambda=Gamma(epsilon_IG)+(1-lambda)U` is explicit. `lambda=1` uniquely
+> preserves the source's displayed epsilon-only dependency; `lambda!=1` is
+> a charged reference-gauge-orbit control family, not another candidate.
+> The N1 varied-primal Euler-root DAG plus coefficient/map/background owner
+> ledger covers every term and rejects the phantom `A -> J_literal`,
+> `epsilon_IG -> D_A U`, and `epsilon_IG -> Gamma_trace` edges. The
+> fixed-geometry/projector full-20 variation is split into the algebraic
+> 13-form `J_D`, the 12-form precursor `Q_F`, and
+> `J_F=D_A^coad Q_F`, equivalently
+> `sharp_1(J_F)=D_A^dagger sharp_2(Q_F)`, with its boundary flux. The
+> native indefinite
+> `G/kappa_g` connection pseudo-musical is built pointwise and weakly; it is
+> not a positive Riesz theorem or the spinor Krein form. Next execute RB2 as
+> one shared symbolic shootout of three candidates plus one hostile control
+> family:
+> `N1_JD_bridge`, `N1_total_current_bridge`,
+> `source_reference_lambda1`, and
+> `source_orbit_constrained_lambda_not1`. Keep the Spin/stabilizer arena
+> frozen and the moving-full-`Sp` lift held to RB3. Compute complete
+> `delta_A/delta_U/delta_P_IG/delta_epsilon`, gauge contractions, Green
+> terms, and parent-elimination equivalence before selecting any survivor.
+> Keep the shared spin-zero VEV in RB3 and P3/index/count outside RB2.
+>
 > **2026-07-30 POST-N3 SOURCE-ACTION/DATUM REBASE.**
 > `explorations/post-n3-source-datum-ten-wave-rebase-2026-07-30.md`
 > supersedes only the unexecuted continuation of the earlier ten-swing
 > scaffold. N1, N2a, N4a, and N3 remain completed inputs. Do not jump from
 > the provisional N3 Euler map directly to N2b/N4b or the unified quadratic
-> solve. First execute RB1: build the source/repo Layer-0 dictionary, enumerate
-> every actual action dependency, and construct the
-> \(G/\star/\kappa_{\mathfrak g}\) connection-current musical. RB2 then
+> solve. RB1 has now built the source/repo Layer-0 dictionary, enumerated
+> every actual action dependency, and constructed the
+> \(G/\star/\kappa_{\mathfrak g}\) connection-current musical. RB2 now
 > compares the current-bridge architectures with Weinstein's total-residual
 > action and its \(\frac12d_BT+\frac13[T,T]\) exactness completion. RB3
 > constructs moving soldering or an explicit stabilizer together with the
 > full-20 shared-spin-zero \(K/C\) placement. RB4 completes moving
 > restriction/emission and only then runs N2b/N4b. The late quadratic,
 > nonlinear-BV, curved, domain, physical-reduction, and index sequence remains
-> RB5--RB10. Preserve one P1/P2 orientation line, the separate action weld,
-> and the separate P3 relative-\(KO\) comparator; read no count before RB10.
+> RB5--RB10. Preserve one P1/P2 orientation line and the separate P3
+> relative-\(KO\) comparator; the \(s_!\!/s_*\) weld and stratified measure
+> are action infrastructure, not another external datum. Read no count before
+> RB10.
 > Weinstein's source-shaped branch is a comparator, not the North Star. If it
 > fails, preserve any independent typed survivor; if the entire current class
 > fails, emit the minimal obstruction and a bounded adjacent geometry, then

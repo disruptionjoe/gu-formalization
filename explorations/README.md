@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`rb1-source-repo-current-musical-2026-07-30.md`](rb1-source-repo-current-musical-2026-07-30.md)
+  completes the post-N3 RB1 prerequisite. It refuses every unchecked
+  source/repository identity, exposes the formal affine `lambda` family
+  with a dependency-preserving `lambda=1` point and a charged
+  `lambda!=1` reference-orbit control, covers every varied N1 primal field
+  plus all coefficient/map/background owners, removes phantom and duplicate
+  edges, derives the fixed-geometry nine-block
+  `J_D/Qhat_F/Jhat_F` split with its graded Green flux, and builds the
+  native indefinite `G/kappa_g` connection pseudo-musical pointwise and
+  weakly. Three typed candidates plus one control family pass to RB2 on the
+  frozen Spin/stabilizer arena; no action, VEV, stationarity, CME, domain,
+  mass, index, or count is selected.
 - [`post-n3-source-datum-ten-wave-rebase-2026-07-30.md`](post-n3-source-datum-ten-wave-rebase-2026-07-30.md)
   preserves completed N1/N2a/N4a/N3 work but corrects the next dependency
   order after the Vanchurin and Weinstein audits. RB1--RB4 now build the
