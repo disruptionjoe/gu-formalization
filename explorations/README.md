@@ -13,6 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`unified-source-datum-variational-emission-map-2026-07-30.md`](unified-source-datum-variational-emission-map-2026-07-30.md)
+  executes N3 against the unchanged N1 action. It assigns every term a
+  first-variation owner, derives the separate total Krein and
+  charge-conjugation projections, constructs the moving-section current,
+  fixes the displayed `P_IG` parent coefficient to `+Z_U/2` without claiming
+  positivity, and finds a live Layer-0 fork: the literal bridge current is
+  not adjoint-valued, while identifying its typed repair with the
+  action-derived Dirac current cancels that direct current but leaves the
+  curvature-vertex current. A metric trace has a nonzero kinematic
+  traceless-Ricci Hessian channel but is not yet the N2 vertical trace. Under
+  stated fixed-plane hypotheses, full-`Sp` covariance is obstructed; the
+  next build joins the typed current/Riesz map, zero-order `P0/rho/Y/C`
+  placement, and dynamical soldering while preserving the P3
+  right-quaternionic carry. No stationarity, CME, domain, mass, index, or
+  count is claimed.
 - [`n2a-n4a-intersection-handoff-2026-07-30.md`](n2a-n4a-intersection-handoff-2026-07-30.md)
   integrates the first two screens of the frozen source/datum packet. The
   only nonzero fully Lorentz-preserving tested vertical representative is
