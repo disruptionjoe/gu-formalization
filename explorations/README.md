@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`unified-source-datum-packet-v0-2026-07-30.md`](unified-source-datum-packet-v0-2026-07-30.md)
+  executes Swing N1 by writing one finite bulk-plus-defect source-action
+  family on \((Y,sX)\), with the section current as the \(X^4/Y^{14}\)
+  action-domain map. It keeps the Krein and charge-conjugation bilinears
+  separate, writes a semidirect BV skeleton and finite open-algebra grammar,
+  couples the P1/P2 orientation cocycle, and instantiates a target-blind
+  relative-\(KO\) P3 input through an explicit collapse map
+  \(\nu:\overline Y\to S^4\). The executable contract rejects raw domain
+  sums, free-cell fits, a missing physics leg, an unmapped auxiliary
+  topology class, an impossible nontrivial-bundle trivialization, and
+  target-coded `n=3`. No equation, solution, CME, domain, physical index,
+  mass, or count is claimed; N2a/N4a/N3 now test this exact packet.
 - [`ten-persona-next-ten-swing-council-scaffold-2026-07-30.md`](ten-persona-next-ten-swing-council-scaffold-2026-07-30.md)
   integrates ten divergent construction specialists into the next ten
   source-action/external-datum swings. The campaign treats the known
