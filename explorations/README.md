@@ -13,6 +13,17 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`weinstein-primary-source-reinspection-overlooked-answers-2026-07-30.md`](weinstein-primary-source-reinspection-overlooked-answers-2026-07-30.md)
+  compares Weinstein's already-transcribed first-order action and total
+  Euler residual directly to the frozen N1/N3 construction. It emits three
+  falsifiable rivals: remove the separately assumed current bridge and
+  derive the source-shaped total residual; test the source
+  `1/2 d_B T + 1/3[T,T]` completion with exactness/Noether and
+  no-double-counting controls; and, only after that dictionary stabilizes,
+  place one spinless gauge-potential VEV across the full-20
+  Standard Model/Yukawa and gravity/dark-energy interfaces. All source/repo
+  identities, real-form maps, stationarity, mass, index, and count claims
+  remain open.
 - [`vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md`](vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md)
   runs 39 paper-anchored analogy rows through ten divergent network,
   learning, geometry, PDE, topology, and formal-audit lenses. The best

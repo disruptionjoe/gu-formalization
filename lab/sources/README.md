@@ -17,6 +17,15 @@ These sources are useful for provenance, terminology, chronology, and locating c
 - `media-claim-mining-report-v1.md` - what the v1 pass covered, what it skipped, and why.
 - `media-mining-coverage-gaps-v1.md` - explicit gaps before a transcript-rich v2 pass.
 - `media-contributor-tasks-v1.md` - issue-ready task stubs derived from the v1 media synthesis.
+- [`weinstein-gu-primary-source-pack-2026-07-30.md`](weinstein-gu-primary-source-pack-2026-07-30.md)
+  - re-inspects the 2021 author draft, Portal/Oxford transcript, 2020 and
+    2021 *Into the Impossible* appearances, the DarkHorse conversation, the
+    2025 UCSD transcript, and the already-mined 2025 TOE interview against
+    the exact N1/N3 source-action blockers. It separates existing source
+    ownership from three bounded next comparisons: the total
+    bosonic-plus-fermionic Euler residual, the quadratic
+    eddy/Chern--Simons exactness completion, and one shared spinless
+    gauge-potential VEV for zero-order mass and cosmology.
 - [`vanchurin-neural-network-source-pack-2026-07-30.md`](vanchurin-neural-network-source-pack-2026-07-30.md)
   - claim-mines Vitaly Vanchurin's 2026 *Theories of Everything* interview and
     maps its learning-dynamics, emergent-field, covariant-gradient,
