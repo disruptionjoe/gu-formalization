@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`ten-persona-next-ten-swing-council-scaffold-2026-07-30.md`](ten-persona-next-ten-swing-council-scaffold-2026-07-30.md)
+  integrates ten divergent construction specialists into the next ten
+  source-action/external-datum swings. The campaign treats the known
+  Standard Model/Yukawa, Krein/BV, gravity--dark-energy, index/count, and
+  UV/causality legs as one inverse constraint system. Every swing must add an
+  explicit object or eliminate a candidate stratum; rediscovering that the
+  source action, datum, vacuum, or domain is missing is inadmissible. The
+  sequence begins with one unified packet, runs the actual-`Sym2` odd
+  bilinear and curvature-irrep discriminators in parallel, and proceeds
+  through joint quadratic/nonlinear closure, stationarity, global domains,
+  physical reduction, and an actual twisted-RS analytic index realization
+  (APS only if its hypotheses and a bridge are proved).
 - [`full20-dewitt-loop-transport-wave-2026-07-30.md`](full20-dewitt-loop-transport-wave-2026-07-30.md)
   executes the fourth full-20 construction swing. The pairing-only
   vector-spinor coflip is caught mixing `imGamma` with low `kerGamma`;
