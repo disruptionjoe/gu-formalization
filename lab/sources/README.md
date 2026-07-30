@@ -2,7 +2,7 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-05-31"
+updated_at: "2026-07-30"
 ---
 
 # Source and Media Index
@@ -17,3 +17,34 @@ These sources are useful for provenance, terminology, chronology, and locating c
 - `media-claim-mining-report-v1.md` - what the v1 pass covered, what it skipped, and why.
 - `media-mining-coverage-gaps-v1.md` - explicit gaps before a transcript-rich v2 pass.
 - `media-contributor-tasks-v1.md` - issue-ready task stubs derived from the v1 media synthesis.
+- [`vanchurin-neural-network-source-pack-2026-07-30.md`](vanchurin-neural-network-source-pack-2026-07-30.md)
+  - claim-mines Vitaly Vanchurin's 2026 *Theories of Everything* interview and
+    maps its learning-dynamics, emergent-field, covariant-gradient,
+    fast--slow, criticality, and observer claims to the primary paper
+    equations and their stated limits. It stores links and paraphrased
+    timestamp rows rather than copying the transcript.
+- [`claim-mining-toe-weinstein-2026-07-20.md`](claim-mining-toe-weinstein-2026-07-20.md)
+  - timestamped five-lens claim mining of Weinstein's “40 Years in the
+    Making” TOE episode.
+- [`claim-mining-toe-mannheim-2026-07-20.md`](claim-mining-toe-mannheim-2026-07-20.md)
+  - timestamped five-lens claim mining of Mannheim's conformal-gravity TOE
+    episode.
+- [`claim-mining-toe-bianconi-2026-07-20.md`](claim-mining-toe-bianconi-2026-07-20.md)
+  - timestamped five-lens claim mining of Bianconi's gravity-from-entropy TOE
+    episode.
+- [`cosmology-inverse-problems-grok-source-pack-2026-07-21.md`](cosmology-inverse-problems-grok-source-pack-2026-07-21.md)
+  - untrusted third-party intake on inverse problems and
+    assumption-minimal cosmology.
+- [`verlinde-jacobson-grok-source-pack-2026-07-20.md`](verlinde-jacobson-grok-source-pack-2026-07-20.md)
+  - untrusted third-party source pack on entropic and thermodynamic gravity.
+- [`gorard-grok-source-pack-2026-07-20.md`](gorard-grok-source-pack-2026-07-20.md)
+  - untrusted third-party source pack on hypergraph rewriting and multiway
+    systems.
+- [`maldacena-grok-source-pack-2026-07-20.md`](maldacena-grok-source-pack-2026-07-20.md)
+  - untrusted third-party source pack on AdS/CFT and emergent spacetime.
+- [`steinberg-grok-source-pack-2026-07-20.md`](steinberg-grok-source-pack-2026-07-20.md)
+  - untrusted third-party source pack on negative dwell times and operational
+    time.
+- [`frenkel-langlands-grok-source-pack-2026-07-20.md`](frenkel-langlands-grok-source-pack-2026-07-20.md)
+  - untrusted third-party source pack on geometric Langlands and its physics
+    links.

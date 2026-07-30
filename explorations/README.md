@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md`](vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md)
+  runs 39 paper-anchored analogy rows through ten divergent network,
+  learning, geometry, PDE, topology, and formal-audit lenses. The best
+  returns are construction prompts for the typed `A`-dependency chain, the
+  `G`/Hodge/adjoint-pairing connection-current musical, and the
+  distributional pull/push square; no neural/GU target map is constructed.
+  A pre-existing determinant-line question is retargeted as a downstream
+  comparison between a possible physical P1 line and P3's separate relative
+  comparator line, only after reality, polarization, gauge-fixing, domain,
+  and Fredholm gates. Neuron/layer count, scalar invariant/KO,
+  optimizer/DeWitt/Krein metric, and neuron-number-Lambda/DE readings are
+  rejected by Layer 0.
 - [`unified-source-datum-variational-emission-map-2026-07-30.md`](unified-source-datum-variational-emission-map-2026-07-30.md)
   executes N3 against the unchanged N1 action. It assigns every term a
   first-variation owner, derives the separate total Krein and
