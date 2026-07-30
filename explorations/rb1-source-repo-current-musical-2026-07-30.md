@@ -787,3 +787,56 @@ candidates produces a real, gauge-compatible, nonduplicated Euler system
 when the source eddy and every moving-\(\epsilon\) and boundary term are
 included, and does the \(\lambda\ne1\) control family fail for the predicted
 dependency/orbit reason?
+
+## Append-only RB3 return — \(A_0\)-induced moving-\(\Gamma\) candidate
+
+RB3 constructed the moving Clifford-plane orbit and found that the frozen
+RB1 owner
+
+\[
+\Gamma_{\rm conn}(\epsilon_{\rm IG})
+\]
+
+does not determine a connection once the orbit moves. A bare orbit
+representative does not define a lift-independent connection. Using the
+already supplied \(A_0\) and the reductive
+\(\mathfrak{sp}=\mathfrak{spin}(9,5)\oplus\mathfrak m\) split gives
+
+\[
+B_0=g^{-1}A_0g+g^{-1}dg,
+\]
+
+\[
+\Gamma_{\epsilon,A_0}
+=g\operatorname{pr}_{\mathfrak{spin}}(B_0)g^{-1}
+-dg\,g^{-1}
+=A_0-g\operatorname{pr}_{\mathfrak m}(B_0)g^{-1}.
+\]
+
+This gives one economical candidate overlay:
+
+```text
+Gamma_conn^A0
+  inputs: epsilon_IG, d epsilon_IG, A0, pr_spin
+  epsilon order: 1
+  Green owner: G_Gamma_REQUIRED_UNBUILT
+  A0 role: homogeneous background-response proxy
+  identity with abstract N1 Gamma_conn: UNRESOLVED
+  global grade: conditional on Spin(9,5) reduction
+```
+
+This is an append-only candidate branch. The original owner/path record
+remains the frozen RB1 slice and its digest is not rewritten. A
+Levi--Civita/spin connection constructed from the soldering jet and an
+independent \(H\)-connection remain rival branches. The executable probe
+checks the returned \(A_0\) overlay only at homogeneous background-response
+grade and continues to keep
+\(\Gamma_{\rm conn}\) distinct from the Clifford trace
+\(\Gamma_{\rm tr}:V\otimes S\to S\).
+
+The candidate adds no local external datum because \(A_0\) was already
+supplied. Globally, either the \(Sp(32,32;\mathbb H)\) bundle is constructed
+by extension of the inherited spin frame bundle or reduction existence is
+an obstruction of the supplied bundle. A separate reduction sector is
+charged only if the variational or boundary problem independently fixes
+one.

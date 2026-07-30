@@ -13,6 +13,36 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`rb3-moving-soldering-spinzero-placement-2026-07-30.md`](rb3-moving-soldering-spinzero-placement-2026-07-30.md)
+  constructs a native full-\(Sp\) Clifford-plane motion with connected
+  \(\operatorname{Spin}_0(9,5)\) stabilizer and an 8165-dimensional formal
+  orbit, directly moves \(P_R\) and chirality, and rejects frozen-map
+  controls; the remaining transports are formula-level and framed-local.
+  The reductive
+  \(\Gamma^{A_0}(\epsilon_{\rm IG},A_0)\) is one lift-independent
+  \(A_0\)-induced candidate branch, not a forced identification with the N1
+  bridge connection. Its Green form remains required and unbuilt. The
+  artifact also constructs the unique fixed Lorentz-scalar
+  actual-\(\operatorname{Sym}^2\) trace coordinate. A homogeneous
+  chain-rule proxy is nonzero, but the literal moving
+  \(Q_F/P_R/A_0/\)Green discriminator remains open. The missing physical
+  insertion is
+  \(\widehat{\mathfrak c}_{\rho,20}(\tau\otimes\Phi_{\rm tr})\), blocked
+  first at native \(\rho_S(\Phi_{\rm tr})\); constraint surplus, VEV, mass,
+  cosmological value, index, and count remain unread.
+- [`rb1b-native-bosonic-shiab-reopener-2026-07-30.md`](rb1b-native-bosonic-shiab-reopener-2026-07-30.md)
+  kills the preregistered full-\(\operatorname{Spin}(9,5)\),
+  same-\(\Lambda^2\) Ricci--Einstein reopener by an exact central-parity
+  obstruction; the scope includes stabilizers containing the same parity
+  element, not every smaller stabilizer. It separately emits a local framed
+  epsilon-soldered full-adjoint grade-flipping candidate. Its finite
+  quaternionic/Krein fixture tests only the source-shaped three-Hodge
+  architecture, not the 14D Clifford grade flip, and passes degree, native
+  covariance, right-\(\mathbb H\), reality, and fixed-curvature epsilon
+  response. A planted complex comparator shows covariance alone is too
+  permissive, and one nondegenerate fixture shows that those properties do
+  not imply the cyclic/transgression identity (relative gap \(0.444\)); the
+  candidate stays pre-RB1 and does not enter the action.
 - [`rb2-source-action-exactness-shootout-2026-07-30.md`](rb2-source-action-exactness-shootout-2026-07-30.md)
   builds and checks two formally distinct classical fixed-geometry
   antifield-zero N1 five-field current-bridge Euler skeletons, retains the

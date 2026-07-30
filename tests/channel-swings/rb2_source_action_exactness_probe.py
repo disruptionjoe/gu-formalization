@@ -2644,6 +2644,173 @@ check(
     == "CONTROL",
 )
 
+# RB3 returned one moving-soldering candidate to this frozen-geometry
+# shootout.  The local reductive connection uses the already supplied A0.
+# This is not identified with N1's abstract Gamma_conn; it is a branch on
+# which the background response can be rerun.
+print("\nI. RB3 A0-induced moving-connection candidate response")
+
+
+def so3_generator(left: int, right: int) -> np.ndarray:
+    out = np.zeros((3, 3))
+    out[left, right] = 1.0
+    out[right, left] = -1.0
+    return out
+
+
+h_so3 = so3_generator(0, 1)
+
+
+def project_h_so3(matrix: np.ndarray) -> np.ndarray:
+    coefficient = float(
+        np.sum(matrix * h_so3) / np.sum(h_so3 * h_so3)
+    )
+    return coefficient * h_so3
+
+
+def plane_rotation(
+    left: int,
+    right: int,
+    angle: float,
+) -> np.ndarray:
+    out = np.eye(3)
+    cosine = np.cos(angle)
+    sine = np.sin(angle)
+    out[left, left] = cosine
+    out[right, right] = cosine
+    out[left, right] = sine
+    out[right, left] = -sine
+    return out
+
+
+def reductive_gamma(
+    representative: np.ndarray,
+    background: np.ndarray,
+    maurer: np.ndarray,
+) -> np.ndarray:
+    local_background = (
+        representative.T @ background @ representative + maurer
+    )
+    return (
+        representative
+        @ project_h_so3(local_background)
+        @ representative.T
+        - representative @ maurer @ representative.T
+    )
+
+
+representative = plane_rotation(0, 2, 0.31)
+gauge_group = plane_rotation(1, 2, -0.27)
+maurer = 0.23 * so3_generator(0, 2)
+background_a0 = (
+    0.37 * so3_generator(0, 1)
+    - 0.19 * so3_generator(0, 2)
+    + 0.11 * so3_generator(1, 2)
+)
+gamma_before = reductive_gamma(
+    representative,
+    background_a0,
+    maurer,
+)
+gamma_after = reductive_gamma(
+    gauge_group @ representative,
+    gauge_group @ background_a0 @ gauge_group.T,
+    maurer,
+)
+gamma_expected = gauge_group @ gamma_before @ gauge_group.T
+gamma_frozen_background = reductive_gamma(
+    gauge_group @ representative,
+    background_a0,
+    maurer,
+)
+check(
+    "Gamma(epsilon,A0) transforms covariantly when the supplied background moves",
+    np.max(np.abs(gamma_after - gamma_expected)) < TOL,
+)
+check(
+    "freezing A0 during moving-epsilon gauge transport is rejected",
+    np.linalg.norm(gamma_frozen_background - gamma_expected) > 1.0e-3,
+)
+
+rng_return = np.random.default_rng(20260731)
+return_a = rng_return.normal(size=(3, 3))
+return_u = rng_return.normal(size=(3, 3))
+return_z = rng_return.normal(size=(3, 3))
+return_z = return_z - return_z.T
+for current_kind in ("JD", "TOTAL"):
+    action_before = matrix_bridge_action(
+        current_kind,
+        return_a,
+        return_u,
+        gamma_before,
+        return_z,
+    )
+    action_after = matrix_bridge_action(
+        current_kind,
+        gauge_group @ return_a @ gauge_group.T,
+        gauge_group @ return_u @ gauge_group.T,
+        gamma_after,
+        gauge_group @ return_z @ gauge_group.T,
+    )
+    action_frozen_background = matrix_bridge_action(
+        current_kind,
+        gauge_group @ return_a @ gauge_group.T,
+        gauge_group @ return_u @ gauge_group.T,
+        gamma_frozen_background,
+        gauge_group @ return_z @ gauge_group.T,
+    )
+    check(
+        f"{current_kind} bridge retains homogeneous covariance with the A0 response",
+        abs(action_after - action_before) < TOL,
+    )
+    check(
+        f"{current_kind} bridge detects an omitted A0 background response",
+        abs(action_frozen_background - action_before) > 1.0e-4,
+    )
+
+RB3_MOVING_RETURN = {
+    "candidate": "Gamma_conn_A0_reductive",
+    "candidate_dependency": (
+        "epsilon_IG",
+        "d_epsilon_IG",
+        "A0",
+        "pr_spin_reductive",
+    ),
+    "epsilon_green_owner": "G_Gamma_REQUIRED_UNBUILT",
+    "relative_epsilon_response": (
+        "J_F[D_X Gamma]-(d_F,epsilon J_F[X])[theta]"
+    ),
+    "source_reentry": "NONE",
+    "identity_with_N1_Gamma_conn": "UNRESOLVED",
+}
+RB1B_SOURCE_RETURN = {
+    "full_Spin_same_Lambda2_Ricci": "KILLED-CENTRAL-PARITY",
+    "epsilon_soldered_grade_flip": (
+        "CONDITIONAL-PRE-RB1; CYCLIC-NONIMPLICATION-COUNTEREXAMPLE"
+    ),
+    "source_record": "STILL-BLOCKED-FIRST-AT-NATIVE-BOSONIC-SHIAB",
+}
+check(
+    "the candidate moving epsilon path requires an unbuilt Green owner and J_F map response",
+    RB3_MOVING_RETURN["epsilon_green_owner"]
+    == "G_Gamma_REQUIRED_UNBUILT"
+    and "d_F,epsilon" in RB3_MOVING_RETURN["relative_epsilon_response"],
+)
+check(
+    "the A0-induced candidate is not promoted to the unique N1 Gamma connection",
+    RB3_MOVING_RETURN["candidate"] == "Gamma_conn_A0_reductive"
+    and RB3_MOVING_RETURN["identity_with_N1_Gamma_conn"]
+    == "UNRESOLVED",
+)
+check(
+    "the killed Ricci route and pre-RB1 grade flip do not enter this action shootout",
+    RB3_MOVING_RETURN["source_reentry"] == "NONE"
+    and RB1B_SOURCE_RETURN["full_Spin_same_Lambda2_Ricci"].startswith("KILLED")
+    and RB1B_SOURCE_RETURN["epsilon_soldered_grade_flip"].startswith(
+        "CONDITIONAL-PRE-RB1"
+    ),
+)
+
 SEVEN_AXIS_SNAPSHOT = {
     f"L{index}": "UNCHANGED_FROM_RB1" for index in range(1, 8)
 }
@@ -2665,6 +2832,9 @@ print("VERDICT: SOURCE-(1/2,1/3)-EXACTNESS-CONDITIONAL; WARD-COEFFICIENT-BLIND")
 print("BLOCK: SOURCE-FIRST-AT-NATIVE-DENSITY-DUAL-BOSONIC-SHIAB")
 print("EMISSION: N1-JD + N1-TOTAL CLASSICAL FIXED-GEOMETRY PAIR TO RB3")
 print("SIDE-TRACK: TWO NATIVE SOURCE REOPENERS RETURN THROUGH RB1/RB2")
+print("RB3-RETURN: A0-INDUCED GAMMA(epsilon_IG,A0) BRANCH RESPONSE PASSES")
+print("OPEN: IDENTITY WITH N1 GAMMA_CONN; OTHER H-CONNECTION BRANCHES")
+print("RB1b-RETURN: FULL-SPIN SAME-LAMBDA2 RICCI KILLED; GRADE CANDIDATE PRE-RB1")
 print("PARTIAL: COMPLETE-DIFF-CLOSURE-HELD-RB4; NO-DIFF-BASED-KILL")
 print("NONCLAIM: NO-NATIVE-WARD; NO-CME; NO-VEV; NO-MASS; NO-DOMAIN; NO-INDEX; NO-COUNT")
 print(f"ACTION-REGISTRY-SHA256: {FROZEN_ACTION_DIGEST}")

@@ -7,6 +7,81 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB3 MOVING-SOLDERING / TRACE-PLACEMENT DISPOSITION.**
+> `explorations/rb3-moving-soldering-spinzero-placement-2026-07-30.md`
+> constructs a native full-\(Sp(32,32;\mathbb H)\) Clifford-plane motion
+> outside the connected \(\operatorname{Spin}_0(9,5)\) stabilizer. The
+> stabilizer has dimension \(91\), so the formal orbit has dimension
+> \(8165\). The native fixture directly moves \(P_R\) and chirality and
+> rejects their frozen controls; \(P_I\) follows algebraically, while
+> \(P_0,\rho,Y\), and the twenty carrier-slot transports remain
+> formula-level. These are framed-local objects and require the vector
+> frame/soldering isometry to co-transform before they descend. A local
+> orbit point does not by itself define the bridge connection. The already
+> supplied \(A_0\) and the reductive spin projection construct one
+> economical candidate
+> \(\Gamma^{A_0}_{\epsilon}
+> =A_0-g\operatorname{pr}_{\mathfrak m}
+> (g^{-1}A_0g+g^{-1}dg)g^{-1}\).
+> It is not forced: a soldering-jet Levi--Civita/spin construction or an
+> independent \(H\)-connection remains a rival, and its identity with the
+> N1 bridge \(\Gamma\) is unresolved. First-order
+> \(\epsilon_{\rm IG}\)-dependence makes \(G_\Gamma\) required but still
+> unbuilt. Both RB2 bridges survive a homogeneous constant-gauge
+> background-response proxy. A separate homogeneous chain-rule fixture
+> proves only that its relative-response polynomial is not identically
+> zero; the literal \(Q_F/P_R/A_0/\)density/boundary join remains open.
+>
+> The actual-\(\operatorname{Sym}^2\) trace coordinate is now exact:
+> \(h_{\rm tr}=-g/4\), \(\tau=\operatorname{tr}_g/4\), and the induced
+> primal and adjoint-valued dual projectors are idempotent and span the
+> unique fixed Lorentz-scalar line. It remains adjoint-valued. The missing
+> physical object is
+> \(\widehat{\mathfrak c}_{\rho,20}
+> (\tau\otimes\Phi_{\rm tr})\).
+> Its first unresolved factor is the explicit native spinor matrix
+> \(\rho_S(\Phi_{\rm tr})\); its full-20 lift is separately missing before
+> \(P_0\), \(Y_K/Y_C\), carried/imported-SM branching, coflip,
+> right-\(\mathbb H\), and the 4D cosmological Euler map can be ranked.
+> Constraint surplus is therefore
+> `SURPLUS-UNCOMPUTABLE-FIRST-rho_S(Phi_trace)`, not zero and not a
+> prose-row count.
+> Global \(H\)-reduction is constructed without a new datum if the
+> \(Sp\)-bundle is the extension of the inherited spin frame bundle;
+> for an arbitrary \(Sp\)-bundle, reduction existence is an obstruction,
+> and a separate global sector is chargeable only if the variational or
+> boundary problem independently fixes one.
+>
+> **Next main swing:** remain at the RB3 placement boundary. Construct
+> native \(\rho_S(\Phi_{\rm tr})\), branch it under the explicit stabilizer
+> and the carried/imported SM subgroup/selector, construct its full-20
+> lift, place it through native \(P_0\) and all twenty slots with separate
+> \(K/C\) reality, and test the P1/P2 coflip, P3 right-\(\mathbb H\), and
+> ambient-to-section cosmology maps. In parallel, join literal moving
+> \(Q_F/P_R\) to a selected connection branch and construct its Green form.
+> Only after this exact matrix intersection exists may RB4 consume a shared
+> spin-zero placement.
+>
+> **Parallel source swing:** the preregistered full-\(\operatorname{Spin}(9,5)\),
+> same-\(\Lambda^2\) Ricci--Einstein bosonic-Shiab route is killed by exact
+> central parity
+> obstruction in
+> `explorations/rb1b-native-bosonic-shiab-reopener-2026-07-30.md`.
+> The proof also applies to stabilizers containing the same parity element,
+> not to every smaller stabilizer. A local framed source-shaped
+> moving-\(\epsilon\) full-adjoint grade-three candidate has coherent
+> formula-level carrier architecture. A finite quaternionic fixture tests
+> its three-Hodge/source-shaped pattern, native reality,
+> right-\(\mathbb H\), covariance, and fixed-curvature epsilon response,
+> but does not implement the 14D Clifford grade flip. One nondegenerate
+> fixture gives a cyclic/transgression counterexample with relative gap
+> \(0.444\), showing those controls do not imply cyclicity. Next decide
+> grade-three admission at the full-\(Sp\) connection Euler target and
+> compute the native 14D \(\Phi_1/\Phi_2\), cyclic/Bianchi, moving-curvature,
+> descent, and Green identities. It remains pre-RB1 until those pass. Do
+> not rerun the killed full-spin same-\(\Lambda^2\) route or inject an
+> observer vector as an uncharged datum.
+>
 > **2026-07-30 RB2 SOURCE-ACTION EXACTNESS DISPOSITION.**
 > `explorations/rb2-source-action-exactness-shootout-2026-07-30.md`
 > constructs and finite-difference checks the complete classical

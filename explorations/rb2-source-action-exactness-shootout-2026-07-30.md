@@ -794,3 +794,64 @@ selector, VEV, stationary or curved solution, global common domain,
 physical reduction, positivity rule, mass spectrum, P3 pushforward,
 anomaly/index value, generation count, canon verdict, or public-posture
 change. Layer 0 changed; L1--L7 remain exactly as inherited from RB1.
+
+## Append-only RB3/RB1b return — moving-background candidate and source reopener
+
+RB3 returned one \(A_0\)-induced candidate branch over the frozen-geometry
+pair:
+
+\[
+\Gamma^{A_0}_{\rm conn}
+=\Gamma^{A_0}_{\rm conn}(\epsilon_{\rm IG},d\epsilon_{\rm IG},A_0),
+\]
+
+with first-order \(\epsilon_{\rm IG}\) dependence. It is not identified with
+the abstract N1 \(\Gamma_{\rm conn}\); a soldering-jet connection and an
+independent \(H\)-connection remain alternatives. A finite homogeneous
+reductive-coset fixture reruns both bridge actions and verifies:
+
+1. the connection transforms covariantly when the already supplied \(A_0\)
+   participates in the background response;
+2. freezing \(A_0\) breaks both bridge covariance controls;
+3. the \(\epsilon_{\rm IG}\) path requires an unbuilt \(G_\Gamma\) Green
+   form; and
+4. the exact relative moving equation would gain the current-map response
+
+   \[
+   (\Delta E_\epsilon)[X]
+   =
+   \widehat J_F[D_X\Gamma]
+   -
+   (\mathrm d_{\mathcal F,\epsilon}\widehat J_F[X])[\theta].
+   \]
+
+The separate executable discriminator is only a homogeneous chain-rule
+proxy: it uses \(\Gamma(t)=g(t)\Gamma_0g(t)^{-1}\) and a toy current, not the
+\(A_0\)-induced reductive connection or literal
+\(Q_F/P_R/V_b/\)density/boundary terms. Its nonzero response proves only that
+the proxy polynomial is not identically zero. The RB2 fixed-geometry
+gradients and action-registry digest remain valid as the original slice.
+Both bridge systems survive the moving overlay; neither is selected.
+
+The preregistered full-\(\operatorname{Spin}(9,5)\),
+same-\(\Lambda^2\) Ricci--Einstein source reopener returned:
+
+```text
+KILLED-CENTRAL-PARITY
+```
+
+There is no algebraic
+\(\operatorname{Spin}(9,5)\)-equivariant map from
+\(\Lambda^2V^*\otimes\Lambda^2V^*\) to
+\(V^*\otimes\Lambda^2V^*\). A source-shaped
+\(\epsilon\)-soldered full-adjoint grade-flipping candidate was emitted,
+but the finite fixture tests only its source-shaped three-Hodge architecture,
+not the native 14D grade flip. One nondegenerate counterexample shows that
+covariance, right-\(\mathbb H\), and reality do not imply its
+cyclic/transgression identity. It remains pre-RB1 and does not enter this
+action shootout. The parity result also applies to stabilizers containing
+the same parity element, not to every smaller stabilizer.
+
+Thus the source-shaped RB2 record remains blocked first at a native bosonic
+Shiab with the required action identities. The side-track result kills one
+geometry, not the N1 pair and not every possible full-adjoint construction.

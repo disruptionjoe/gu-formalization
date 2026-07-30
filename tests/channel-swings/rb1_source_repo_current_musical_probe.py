@@ -2796,6 +2796,64 @@ check(
     and set(SEVEN_AXIS_SNAPSHOT.values()) == {"UNCHANGED_FROM_N1"},
 )
 
+# RB3 returned one economical moving-soldering candidate after this
+# fixed-geometry register was frozen.  It is not identified with N1's
+# abstract Gamma_conn: a Levi--Civita/spin connection or independent
+# H-connection remains a Layer-0 rival.
+RB3_RETURNED_A0_GAMMA_CANDIDATE = {
+    "name": "Gamma_conn_A0_candidate",
+    "old_fixed_slice": ("epsilon_IG",),
+    "moving_inputs": (
+        "epsilon_IG",
+        "d_epsilon_IG",
+        "A0",
+        "pr_spin_reductive",
+    ),
+    "formula": (
+        "B0=g^-1 A0 g+g^-1 dg; "
+        "Gamma=A0-g pr_m(B0) g^-1"
+    ),
+    "epsilon_green_owner": "G_Gamma_REQUIRED_UNBUILT",
+    "homogeneous_background_response": "A0",
+    "global_grade": "CONDITIONAL-ON-H-REDUCTION",
+    "identity_with_N1_Gamma_conn": "UNRESOLVED",
+}
+old_gamma_owner = next(
+    owner
+    for owner in MAP_AND_BACKGROUND_OWNERS
+    if owner.name == "Gamma_conn"
+)
+check(
+    "RB3 preserves the old Gamma owner only as the frozen RB1 slice",
+    old_gamma_owner.depends_on
+    == RB3_RETURNED_A0_GAMMA_CANDIDATE["old_fixed_slice"]
+    and old_gamma_owner.status == "MOVING_ORBIT_UNBUILT",
+)
+check(
+    "the A0-induced candidate requires A0 response and an unbuilt first-order Green owner",
+    {
+        "epsilon_IG",
+        "d_epsilon_IG",
+        "A0",
+        "pr_spin_reductive",
+    }
+    == set(RB3_RETURNED_A0_GAMMA_CANDIDATE["moving_inputs"])
+    and RB3_RETURNED_A0_GAMMA_CANDIDATE["epsilon_green_owner"]
+    == "G_Gamma_REQUIRED_UNBUILT"
+    and RB3_RETURNED_A0_GAMMA_CANDIDATE["homogeneous_background_response"]
+    == "A0",
+)
+check(
+    "the returned candidate is identified with neither N1 Gamma_conn nor Gamma_trace",
+    "Gamma_conn(epsilon_IG) != Gamma_trace:VxS->S"
+    in SEMANTIC_COLLISIONS
+    and "pr_m" in RB3_RETURNED_A0_GAMMA_CANDIDATE["formula"]
+    and RB3_RETURNED_A0_GAMMA_CANDIDATE[
+        "identity_with_N1_Gamma_conn"
+    ]
+    == "UNRESOLVED",
+)
+
 if FAILURES:
     print(f"\nCONTROLS FAILED: {FAILURES}")
     print("VERDICT: VOID")
@@ -2807,5 +2865,7 @@ print("VERDICT: N1-VARIED-ROOT-DAG+OWNER-LEDGER-BUILT; PHANTOM/DUPLICATE-EDGES-R
 print("VERDICT: FIXED-GEOMETRY FULL20-JD/QHATF/JHATF-GREEN-SPLIT-BUILT")
 print("VERDICT: N3 G/KAPPA CONNECTION-PSEUDO-MUSICAL-INSTANTIATED-POINTWISE/WEAKLY")
 print("EMISSION: THREE-RB2-CANDIDATES+ONE-ORBIT-CONTROL-FAMILY; SPIN-STABILIZER-FROZEN")
+print("RB3-RETURN: A0-INDUCED GAMMA CANDIDATE DEPENDS ON EPSILON_IG,dEPSILON_IG,A0,pr_spin")
+print("OPEN: IDENTITY WITH N1 GAMMA_CONN; LEVI-CIVITA/INDEPENDENT-H-CONNECTION RIVALS")
 print("NONCLAIM: NO-STATIONARITY; NO-CME; NO-DOMAIN; NO-MASS; NO-INDEX; NO-COUNT")
 print("=" * 100)
