@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`source-owned-chimeric-bv-construction-campaign-2026-07-29.md`](source-owned-chimeric-bv-construction-campaign-2026-07-29.md)
+  preregisters the next construction campaign: nine critical-path swings
+  from a full typed 20-slot quadratic action through quadratic and nonlinear
+  BV closure, a separate curved completion and bundle retract, one common
+  Krein domain/operator retract, a Layer-0 adjudication of whether P1 has a
+  legal T9 interface or is transport-only data, and normalized
+  observer-plus-BV DeWitt transport, plus one conditional
+  stationary-background/reduction branch. The supplied P1 sign is withheld
+  from local coefficient selection; its uniform 20-observer-slot extension,
+  graded-BV compatibility, P2, and P3 remain held out.
 - [`source-owned-reduction-transport-packet-2026-07-29.md`](source-owned-reduction-transport-packet-2026-07-29.md)
   runs the integrated next packet. The conditional W177
   gimmel--Levi-Civita background has a robust nonzero Yang--Mills residual, so
