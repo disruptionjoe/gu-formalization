@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`full20-irrep-symbol-noether-wave-2026-07-29.md`](full20-irrep-symbol-noether-wave-2026-07-29.md)
+  executes the second full-20 construction swing. The nine written
+  unpolarized carrier blocks reduce to four primitive symbols and, for a
+  generic base-plus-fibre symbol, saturate all 136 independently allowed
+  observer cells, while the three gauge maps reach all 20 slots. The exactly
+  computable raw carrier composition has a nonempty
+  `det M(c)=0` carrier hypersurface and an all-nonzero raw kernel vector, but
+  it is not the action-derived native Noether defect: the five-field
+  Krein/polarization/Green-domain packet remains unfrozen, and no new
+  compensator is yet demanded. The support result is an analytic derivation
+  with executable manifest checks; a 20-projector machine rederivation remains
+  open.
 - [`full20-chimeric-bv-first-write-2026-07-29.md`](full20-chimeric-bv-first-write-2026-07-29.md)
   executes the first construction swing. A finite nine-block coarse
   `S/I/R` observer ansatz is typed on all 20 slots, with a chosen first-stage
