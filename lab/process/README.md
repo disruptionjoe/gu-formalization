@@ -83,6 +83,12 @@ Runbooks:
   connection-adapted frames. Signature `(9,5)` then kills the
   ordinary full-ambient Lorentzian Cauchy route while leaving section-pullback
   and genuinely ultrahyperbolic/Krein analytic domains open.
+- `eric-curt-wave3d-section-green-domain.json` - exact Wave 3D-A admitted
+  section principal/Green gate. The W131 gamma-traceless symbol restricts to
+  `Cl(3,1)`, preserves right-`H`, and emits a nondegenerate balanced
+  `(832,832)` Green trace. Two opposite right-`H` spectral sectors survive,
+  so principal/Krein algebra does not select a unique closed domain; analytic
+  closedness and nonlinear constraint propagation remain open.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

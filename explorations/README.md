@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-A admitted-section right-H Green-domain gate`](eric-curt-wave3d-section-green-domain-2026-07-31.md)
+  pulls the W131 gamma-traceless symbol to one supplied `(3,1)` Lorentz/spin
+  section, preserves the native right-`H` structure, and constructs a balanced
+  `(832,832)` Green trace. Two opposite right-`H` spectral trace sectors
+  survive, so the algebra does not uniquely select a closed domain. Analytic
+  closedness and nonlinear constraint propagation remain open; Curt stays a
+  rival track and no third lane is promoted.
+
 - [`Eric/Curt Wave 3C actual Y14 atlas and Cauchy-domain gate`](eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md)
   proves exact `GL(4)`/`Sym^2` vertical descent plus affine/connection-adapted
   gimmel and admitted-section-jet compatibility. The full `(9,5)`

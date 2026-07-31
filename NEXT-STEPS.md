@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -76,9 +76,22 @@ updated_at: "2026-07-31"
 > domains, nor prove a global Lorentz section, `X` spin, a right-`H` analytic
 > domain, Green form, propagator, or physical BFV reduction. Curt still owes
 > its separate `(7,7)` real atlas/domain port, and the third-lane conjunction
-> remains false. The next run is
-> `ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN`, not a restart of the action
-> search.
+> remains false. Wave 3D-A now takes one explicitly admitted flat
+> Lorentz/spin section and pulls the full W131 gamma-traceless principal
+> packet to its `(3,1)` tangent block. The section symbol has the Lorentz null
+> characteristic cone, remains right-`H` linear on complex rank 1664
+> `ker Gamma`, and emits a nondegenerate balanced Green trace of inertia
+> `(832,832,0)`. Both opposite maximal-definite Green spectral sectors are
+> right-`H` invariant and exhaust the trace space. Thus the exact
+> principal/Krein/right-`H` algebra does not uniquely select a boundary
+> domain. The Wave 3D-A probe passes `24 exact + 10 planted = 34`; it does not
+> prove a global section, variable-coefficient Sobolev/graph-domain
+> closedness, maximal dissipativity/self-adjointness, nonlinear constraint
+> propagation, a propagator, or BFV reduction. Curt still owes a separate
+> real `(7,7)` section/Green/domain port, and the third-lane conjunction
+> remains false. The next bounded gate is
+> `ECW3D-B-VARIABLE-COEFFICIENT-RIGHT-H-CLOSED-DOMAIN`, not a restart of the
+> action search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -87,6 +100,7 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md` and
 > `explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md` and
 > `explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md` and
+> `explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md` and
 >
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

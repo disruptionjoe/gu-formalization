@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-A-SECTION-PULLBACK-RIGHT-H-GREEN-TRACE",
+  "status_boundary": "PARTIAL_ECW3D_A_SECTION_PRINCIPAL_AND_RIGHT_H_GREEN_TRACE_COMPLETE__BOUNDARY_SELECTION_AND_ANALYTIC_CLOSEDNESS_OPEN",
+  "construction": {
+    "track": "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK",
+    "object": "W131 RS symbol on ker Gamma pulled to one explicitly admitted flat Lorentz/spin section",
+    "section_tangent_frame": [0, 1, 2, 9],
+    "section_signature": [3, 1],
+    "ambient_signature": [9, 5],
+    "ambient_gamma_trace_kernel_complex_rank": 1664,
+    "right_h_structure": "native antilinear J with J conjugate(J) = -1, restricted to ker Gamma",
+    "boundary_conormal": "first positive section covector",
+    "green_form": "B_n(u,v)=u^dag K sigma(n) v on ker Gamma"
+  },
+  "layer_0_dictionary": [
+    {
+      "shared_term": "Lorentz section",
+      "objects_kept_separate": [
+        "one explicitly supplied flat Lorentz/spin section",
+        "existence of a global Lorentz/spin section for arbitrary X"
+      ],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "section pullback",
+      "objects_kept_separate": [
+        "restriction of the W131 principal symbol to a (3,1) tangent block",
+        "construction of an ambient Y14 propagator"
+      ],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "Green domain",
+      "objects_kept_separate": [
+        "finite nondegenerate boundary Green trace matrix",
+        "closed or self-adjoint Sobolev realization of the variable-coefficient nonlinear operator"
+      ],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "right-H compatible",
+      "objects_kept_separate": [
+        "right-H-linear principal coefficients and right-H-invariant spectral trace sectors",
+        "right-H invariance of an arbitrary boundary condition"
+      ],
+      "disposition": "HOMONYM"
+    }
+  ],
+  "exact_results": {
+    "pulled_clifford_signature": "Cl(3,1) on section tangent covectors",
+    "characteristic_gate": "non-null spacelike and timelike section covectors are noncharacteristic; a Lorentz-null covector is characteristic",
+    "right_h_gate": "ker Gamma, the pulled symbol, and both Green spectral sectors preserve the native antilinear quaternionic structure",
+    "green_inertia": {
+      "positive": 832,
+      "negative": 832,
+      "null": 0
+    },
+    "trace_sector_gate": "the positive and negative Green spectral sectors are distinct opposite right-H-invariant maximal-definite algebraic choices and exhaust the trace space",
+    "selection_verdict": "NOT_SELECTED_BY_PRINCIPAL_KREIN_RIGHT_H_GREEN_ALGEBRA"
+  },
+  "constraint_parameter_surplus": {
+    "algebraic_constraints_checked": [
+      "ambient gamma-trace closure",
+      "Cl(3,1) pullback",
+      "right-H preservation",
+      "non-null versus null characteristic split",
+      "Hermitian nondegenerate Green trace",
+      "right-H invariance of opposite spectral sectors"
+    ],
+    "unselected_domain_data": "at least one boundary-sector choice remains; the full space of closed extensions is not enumerated",
+    "analytic_constraint_rank": "UNCOMPUTABLE_UNTIL_VARIABLE_COEFFICIENT_SECTION_OPERATOR_TRACE_SPACE_AND_BOUNDARY_CONDITION_ARE_FIXED",
+    "analytic_parameter_rank": "UNCOMPUTABLE_UNTIL_THE_SAME_DATA_ARE_FIXED",
+    "physical_surplus": "UNCOMPUTABLE"
+  },
+  "non_regression": {
+    "gravity": "OPEN_NO_SECTION_EINSTEIN_EQUATION_OR_STATIONARY_BACKGROUND",
+    "gauge": "W131_METRIC_CONNECTION_COMPATIBILITY_RETAINED__NO_GAUGE_QUOTIENT_CLOSED_DOMAIN",
+    "odd_matter": "SECTION_RS_PRINCIPAL_AND_GREEN_TRACE_ADVANCED__FULL_EINSTEIN_DIRAC_ACTION_OPEN",
+    "higgs_yukawa": "UNTOUCHED",
+    "quantum_domain": "FORMAL_GREEN_TRACE_ADVANCED__CLOSED_DOMAIN_PROPAGATOR_AND_BFV_OPEN",
+    "cosmology": "UNTOUCHED",
+    "datum_P1_P2_P3": "UNCONSUMED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "open_port": "literal real (7,7) atlas, right-structure, action, section symbol, Green trace, and common-domain discriminator",
+    "common_complexification_suffices": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_section_green_domain_probe.py",
+    "exact_checks": 24,
+    "planted_rejections": 10,
+    "result": "34_PASS"
+  },
+  "report": "explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md",
+  "next_gate": "ECW3D-B-VARIABLE-COEFFICIENT-RIGHT-H-CLOSED-DOMAIN"
+}

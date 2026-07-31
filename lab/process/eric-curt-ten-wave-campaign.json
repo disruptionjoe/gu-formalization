@@ -139,6 +139,18 @@
           "report": "explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md",
           "next_gate": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
         },
+        "wave3d": {
+          "status_boundary": "PARTIAL_ECW3D_A_SECTION_PRINCIPAL_AND_RIGHT_H_GREEN_TRACE_COMPLETE__BOUNDARY_SELECTION_AND_ANALYTIC_CLOSEDNESS_OPEN",
+          "admitted_section": "ONE_EXPLICIT_FLAT_LORENTZ_SPIN_SECTION_WITH_ADAPTED_3_1_TANGENT_FRAME",
+          "pulled_symbol": "W131_KER_GAMMA_SYMBOL_RESTRICTS_TO_CL3_1_AND_LORENTZ_NULL_CHARACTERISTIC_CONE",
+          "right_h": "PRESERVED_BY_KER_GAMMA_PULLED_SYMBOL_AND_BOTH_GREEN_SPECTRAL_SECTORS",
+          "green_trace": "HERMITIAN_NONDEGENERATE_BALANCED_INERTIA_832_832_0",
+          "domain_selection": "KILLED_UNIQUE_SELECTION_FROM_PRINCIPAL_KREIN_RIGHT_H_GREEN_ALGEBRA__TWO_OPPOSITE_SECTORS_SURVIVE",
+          "registry": "lab/process/eric-curt-wave3d-section-green-domain.json",
+          "probe": "tests/channel-swings/eric_curt_wave3d_section_green_domain_probe.py",
+          "report": "explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md",
+          "next_gate": "ECW3D-B-VARIABLE-COEFFICIENT-RIGHT-H-CLOSED-DOMAIN"
+        },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
       }
