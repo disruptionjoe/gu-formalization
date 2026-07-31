@@ -7,6 +7,22 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 GEOMETRY-FIRST ORTHODOXY AUDIT / TEN SEPARATE
+> SPECIALIST ODDS (BRANCH-LOCAL).** The same ten lenses find that only the
+> `4+10=14` metric-bundle carrier is close to automatic. Both lanes still
+> supply the Lorentz/spin sector, GU trace normalization, principal gauge
+> arena, action, domain, and datum. The independent N1/N3 lane obtains broad
+> five-leg coverage by explicitly inserting Yang--Mills, full-20 Dirac/RS,
+> SW, Yukawa/flavour, projector/spurion, defect, and vacuum templates. The
+> guided G1--G3 lane has fewer such imports and has already allowed exact
+> variation to kill Eric's compressed Euler shortcut, but it still debits the
+> IG grammar and G2 action family. Per Joe's direction, each specialist's
+> guided/control odds remain separate; there is no aggregate. Insert G3.5—a
+> target-blind natural-bundle/map/action census plus N1 term ablation—before
+> and partly alongside G4. G4 remains mandatory and may not choose its
+> retract/domain using SM, chirality, count, or PP3 labels. See
+> `explorations/geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md`.
+
 > **2026-07-31 G3 FULL VARIATIONAL/BV--BFV SPLIT PASS
 > (BRANCH-LOCAL).** Every actual owner of the G2 source action now has a
 > graph-complete bulk Euler return. The first-jet gauge identity closes only

@@ -1,0 +1,202 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-07-31",
+  "branch": "agent/weinstein-guided-source-action",
+  "comparison_branch": "agent/operator-anomaly-big-swing",
+  "run_id": "GUH-20260731T151313Z-geometry-first-orthodoxy-ten-lens",
+  "question": "Which familiar physics structures are being assumed before they emerge from X4 and Y14=Met(X), and which branch architecture is more likely to reach a coherent source action with honestly priced external datum?",
+  "odds_scope": {
+    "conditional_event": "one of the two present branch architectures reaches a coherent geometry-first source action and honestly priced external datum",
+    "not_probability_of": [
+      "Geometric Unity being physically true",
+      "either lane ultimately succeeding",
+      "the Standard Model emerging from dimension four alone"
+    ],
+    "both_fail_or_need_more_datum": "dominant unquantified unconditional research prior"
+  },
+  "provenance_classes": [
+    "FORCED_FROM_METRIC_BUNDLE",
+    "SECTORAL_OR_FIELD_ARENA_INPUT",
+    "PROGRAM_OR_AUTHOR_GUIDANCE",
+    "REPO_GEOMETRIC_CANDIDATE",
+    "ORTHODOX_TEMPLATE_INSERTION",
+    "DOWNSTREAM_HOSTILE_TEST",
+    "ACTION_DERIVED_CONSEQUENCE"
+  ],
+  "four_to_fourteen_boundary": [
+    {
+      "id": "Y14_DIMENSION",
+      "object": "Y=Met_(3,1)(X) has vertical Sym2(T*X) rank 10 and total dimension 14",
+      "class": "FORCED_FROM_METRIC_BUNDLE",
+      "caveat": "the Lorentzian component and base manifold are inputs"
+    },
+    {
+      "id": "SECTORAL_START",
+      "object": "smooth X4, Lorentz signature component, orientation/time orientation, and spin structure",
+      "class": "SECTORAL_OR_FIELD_ARENA_INPUT",
+      "caveat": "four-dimensionality alone does not select topology, smooth structure, signature, or spin structure"
+    },
+    {
+      "id": "TRACE_REVERSAL",
+      "object": "source-native GU trace metric G_lambda with lambda=1/2 and fibre signature (6,4)",
+      "class": "PROGRAM_OR_AUTHOR_GUIDANCE",
+      "caveat": "dimension four supplies a natural one-parameter family; lambda=1/2 is not forced by dimension alone"
+    },
+    {
+      "id": "CLIFFORD_REAL_FORM",
+      "object": "Cl(9,5), Krein spinors, and right-H structure after the gimmel metric is selected",
+      "class": "FORCED_FROM_METRIC_BUNDLE",
+      "caveat": "algebraic availability does not prove that the full spinor automorphism group is physically gauged"
+    },
+    {
+      "id": "GAUGE_ARENA",
+      "object": "principal H-bundle P, H=Sp(32,32;H) or stabilizer, gauge group, and freely varied ambient connection A",
+      "class": "SECTORAL_OR_FIELD_ARENA_INPUT",
+      "caveat": "both lanes currently start after this arena is supplied"
+    }
+  ],
+  "assumption_audit": [
+    {
+      "id": "GUIDED_IG",
+      "object": "IG, tilted subgroup, moving gauge-rotated reference, and distortion grammar",
+      "class": "PROGRAM_OR_AUTHOR_GUIDANCE",
+      "guided_lane": "load-bearing candidate grammar",
+      "control_lane": "present in common-base source reinspection",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "GUIDED_G2_ACTION",
+      "object": "trace-adapted first-order transgression action with 1/2, 1/3, and kappa_1",
+      "class": "PROGRAM_OR_AUTHOR_GUIDANCE",
+      "guided_lane": "selected and exactly varied; compressed Eric Euler formula killed",
+      "control_lane": "not the N1 action",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "G3_EULER_NOETHER_BOUNDARY",
+      "object": "slot-symmetrized Euler covector, coupled Ward identity, and preboundary current",
+      "class": "ACTION_DERIVED_CONSEQUENCE",
+      "guided_lane": "exactly derived from G2",
+      "control_lane": "partial N3 variational owners with missing maps",
+      "evidence_weight_for_SM_fit": 1
+    },
+    {
+      "id": "N1_YANG_MILLS",
+      "object": "ambient curvature-square Yang-Mills action",
+      "class": "ORTHODOX_TEMPLATE_INSERTION",
+      "guided_lane": "absent",
+      "control_lane": "explicit action term and fundamental/induced fork",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "N1_DIRAC_RS",
+      "object": "full-20 Dirac/Rarita-Schwinger operator, masses, coefficients, and curvature vertex",
+      "class": "ORTHODOX_TEMPLATE_INSERTION",
+      "guided_lane": "not yet welded",
+      "control_lane": "explicit coefficient-bearing operator",
+      "evidence_weight_for_SM_fit": 0,
+      "native_subobject": "Clifford principal symbol and gamma-trace decomposition"
+    },
+    {
+      "id": "N1_SW_DEFECT",
+      "object": "four-dimensional Seiberg-Witten-shaped defect square",
+      "class": "ORTHODOX_TEMPLATE_INSERTION",
+      "guided_lane": "absent; author-guided route is pullback",
+      "control_lane": "explicit repo comparator",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "N1_YUKAWA_FLAVOR",
+      "object": "K/C Yukawa defect terms, free Y_K/Y_C matrices, P0, and optional spurions",
+      "class": "ORTHODOX_TEMPLATE_INSERTION",
+      "guided_lane": "absent",
+      "control_lane": "explicit action terms and supplied selectors",
+      "evidence_weight_for_SM_fit": 0,
+      "native_subobject": "K-paired vertical cross-chirality channel"
+    },
+    {
+      "id": "N1_DEFECT",
+      "object": "bulk-plus-defect action I_Y+s_!I_X",
+      "class": "REPO_GEOMETRIC_CANDIDATE",
+      "guided_lane": "comparator only after primary-source recheck",
+      "control_lane": "load-bearing action-domain weld",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "INDUCED_GRAVITY",
+      "object": "induced |II|^2 and |II_0|^2 section-gravity family",
+      "class": "REPO_GEOMETRIC_CANDIDATE",
+      "guided_lane": "not yet included",
+      "control_lane": "explicit defect action terms",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "BARE_LAMBDA",
+      "object": "bare cosmological/vacuum offset",
+      "class": "ORTHODOX_TEMPLATE_INSERTION",
+      "guided_lane": "absent",
+      "control_lane": "available in the broader action family",
+      "evidence_weight_for_SM_fit": 0
+    },
+    {
+      "id": "SM_DIAGNOSTICS",
+      "object": "hypercharge, anomaly cancellation, representation branching, mirror gap, and observed charges",
+      "class": "DOWNSTREAM_HOSTILE_TEST",
+      "guided_lane": "sealed until physicalization",
+      "control_lane": "partly used to shape candidate terms",
+      "evidence_weight_for_SM_fit": 0,
+      "held_out_condition": "stabilizer, representation, maps, and free parameters frozen before scoring"
+    },
+    {
+      "id": "COSMO_DIAGNOSTICS",
+      "object": "observation stress, PP1/PP3, w(z), and amplitude",
+      "class": "DOWNSTREAM_HOSTILE_TEST",
+      "guided_lane": "sealed downstream",
+      "control_lane": "conditional families and inserted cosmological terms coexist",
+      "evidence_weight_for_SM_fit": 0,
+      "held_out_condition": "action, state, amplitude owner, and initial data frozen before scoring"
+    }
+  ],
+  "lens_odds": [
+    {"id": 1, "lens": "affine gauge geometry", "guided": 66, "control": 34, "reason": "G1 graph-owns the moving reference and derivative cocycle, but P/H/A remain supplied"},
+    {"id": 2, "lens": "group cohomology", "guided": 63, "control": 37, "reason": "guided separates the nontrivial derivative cocycle from its compensating field-space enlargement, though generic cocycle packaging has limited physical selection power"},
+    {"id": 3, "lens": "symplectic and derived geometry", "guided": 70, "control": 30, "reason": "G3 derives presymplectic and partial BV data from the written action while the control installs more of its BV skeleton before the full symmetry/boundary complex"},
+    {"id": 4, "lens": "variational bicomplex, BV, and Noether", "guided": 78, "control": 22, "reason": "G2/G3 let exact variation kill the desired shortcut and force coupled Ward closure"},
+    {"id": 5, "lens": "pseudo-Riemannian and Krein geometry", "guided": 55, "control": 45, "reason": "both share the native Krein advances; the control owns more matter detail while guided has cleaner graph ownership"},
+    {"id": 6, "lens": "hyperbolic and ultrahyperbolic PDE", "guided": 70, "control": 30, "reason": "guided now owns the pullback/leakage/domain question; neither has solved it"},
+    {"id": 7, "lens": "Clifford and quaternionic representation theory", "guided": 57, "control": 43, "reason": "guided preserves right-H geometry without preselecting P0, while control has stronger completed branching but more upstream physicalization"},
+    {"id": 8, "lens": "geometric complexes and index theory", "guided": 51, "control": 49, "reason": "guided may derive the physical complex target-blind, but control has more mature P3, index, and domain-obstruction infrastructure"},
+    {"id": 9, "lens": "Standard Model, anomaly, and EFT", "guided": 60, "control": 40, "reason": "guided can derive stabilizer, Higgs, and fermionic operator before scoring SM agreement, while control preloads substantial Yang-Mills/Yukawa structure"},
+    {"id": 10, "lens": "cosmology and inverse problems", "guided": 70, "control": 30, "reason": "guided can still derive stress, conservation, state, and amplitude from one distortion action, while control depends more on inserted Lambda, scalar, defect, and fitted-amplitude templates"}
+  ],
+  "odds_reporting_policy": {
+    "aggregate": "NOT_REPORTED_BY_USER_DIRECTION",
+    "reason": "the ten specialists answer different mathematical questions and their judgments must not be collapsed into one pseudo-consensus probability",
+    "comparison_axis": "each row separately estimates geometry-first source-action and datum coherence from that specialist's own domain",
+    "recognizable_physics_speed": "not scored because inserting familiar templates makes speed incomparable to emergence"
+  },
+  "decisive_tests": [
+    "enumerate target-blind natural bundles, equivariant maps, and local invariant 14-forms at bounded differential order",
+    "ablate N1 curvature-square, SW, Yukawa/flavor, bare-Lambda, and defect terms and test which re-emerge from the native action, Hessian, pullback, or elimination",
+    "construct G4 lift/retract/domain without SM, chirality, generation, or PP3 labels and test off-slice leakage",
+    "derive the fermionic Dirac/RS operator from the source-action Hessian and G4 domain rather than inserting its coefficient matrix",
+    "derive or sharply classify the physical gauging of P, H, and A from natural automorphisms of the metric-bundle spin/Krein structure",
+    "prove an auxiliary-field/reduction/replacement equivalence between G2 and retained N1 terms or record genuine double counting",
+    "freeze the stabilizer before enumerating U(1) lines; only then run hypercharge and anomaly tests",
+    "make one parent action emit the heavy Higgs and light cosmological modes, their stress, and normalization without an independent vacuum offset",
+    "rank independent constraints against all declared freedoms only after the action, domain, state, and projections are frozen"
+  ],
+  "next_swing": {
+    "id": "G3.5",
+    "title": "target-blind naturality census and orthodox-template ablation",
+    "relationship": "runs before and partly in parallel with G4; it does not replace the retract/domain construction",
+    "output": "a bounded natural-operator/action basis, provenance label for every current term, ablation matrix, and frozen downstream test wall"
+  },
+  "not_claimed": [
+    "that dimension four uniquely determines the complete GU field arena or action",
+    "that the guided lane is physically correct",
+    "that the control lane is refuted",
+    "that unfamiliar low-energy physics may ignore established experimental constraints",
+    "that anomaly cancellation or Standard Model agreement has confirmation weight before candidate freedom is frozen"
+  ]
+}

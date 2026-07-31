@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md`](geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md)
+  audits where familiar Yang--Mills, Dirac/RS, SW, Yukawa/flavour, defect,
+  Standard Model, and cosmological templates enter the guided and independent
+  constructions before emergence from `X^4 -> Met(X)`. The same ten
+  specialists give separate conditional lane odds with no aggregation. The
+  result inserts a target-blind G3.5 naturality census and N1 template
+  ablation before/alongside G4 while preserving downstream empirical kills.
 - [`g3-full-variational-bicomplex-bvbfv-2026-07-31.md`](g3-full-variational-bicomplex-bvbfv-2026-07-31.md)
   constructs the all-slot graph variation, coupled first-jet gauge identity,
   action-derived preboundary forms, and ordinary-gauge minimal BV completion.

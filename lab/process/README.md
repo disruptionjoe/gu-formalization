@@ -61,5 +61,6 @@ Runbooks:
 - `g1-derivative-cocycle-certificate.json` - branch-local machine-readable G1 certificate for the derivative connection cocycle, moving LC/reductive reference, exact quotient level, planted failures, datum boundary, and G2 handoff.
 - `g2-native-variational-shiab-certificate.json` - branch-local machine-readable G2 certificate for the selected field graph, native density-dual Shiab, killed fixed-linear source shortcut, exact slot-symmetrized Euler map, and G3 BV--BFV handoff.
 - `g3-variational-bvbfv-certificate.json` - branch-local machine-readable G3 certificate for graph-complete variation, coupled first-jet Noether closure, preboundary geometry, the forced nonabelian ghost-antifield term, and G4 domain/polarization handoff.
+- `geometry-first-orthodoxy-ten-lens-council.json` - branch-local provenance audit and ten separate specialist odds comparing the Eric-guided and independent source-action architectures without aggregating heterogeneous lens judgments.
 - `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.
