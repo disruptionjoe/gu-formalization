@@ -76,6 +76,13 @@ Runbooks:
   adjoints, nonlinear no-leakage, an invariant Krein graph domain, and
   characteristic preboundary reduction. It keeps the actual `Y^14` atlas,
   Lorentz-section existence, analytic closed domain, and BFV phase space open.
+- `eric-curt-wave3c-y14-atlas-cauchy-domain.json` - exact Wave 3C actual
+  metric-bundle gate. The `GL(4)` base transition and induced `Sym^2`
+  congruence representation descend the Lorentz and trace-reversed DeWitt
+  data, with gimmel and admitted-section-jet descent exact in affine or
+  connection-adapted frames. Signature `(9,5)` then kills the
+  ordinary full-ambient Lorentzian Cauchy route while leaving section-pullback
+  and genuinely ultrahyperbolic/Krein analytic domains open.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

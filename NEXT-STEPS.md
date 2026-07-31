@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -61,8 +61,24 @@ updated_at: "2026-07-31"
 > arbitrary `X`, establish an analytic closed right-`H`/Krein domain, or
 > produce a physical BFV phase space. Curt still owes a separate real
 > pairing/domain/preboundary port, and `TG-1 AND TG-2 AND TG-3` remains false.
-> The next run is `ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN`, not a restart
-> of the action search.
+> Wave 3C replaces ECW3B's arbitrary finite frames by the actual metric-bundle
+> transition: a base Jacobian `A` and its induced congruence action on
+> `Sym^2(T*X)`. The Lorentz metric and trace-reversed DeWitt vertical form
+> descend tensorially; the total gimmel metric and an admitted section jet
+> descend exactly in affine or connection-adapted frames. General nonlinear
+> chart shear still requires the declared horizontal split. The patch
+> inertias are `(3,1)+(6,4)=(9,5)`. The same result decisively kills the
+> ordinary full-ambient Cauchy route. Every thirteen-plane in `(9,5)` retains
+> at least four negative directions, and the characteristic quadratic is not
+> hyperbolic in any non-null direction because both inertia indices exceed
+> one. The Wave 3C probe passes `59 exact + 13 planted = 72`. This does not
+> kill section-pullback or genuinely ultrahyperbolic/Krein boundary-value
+> domains, nor prove a global Lorentz section, `X` spin, a right-`H` analytic
+> domain, Green form, propagator, or physical BFV reduction. Curt still owes
+> its separate `(7,7)` real atlas/domain port, and the third-lane conjunction
+> remains false. The next run is
+> `ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN`, not a restart of the action
+> search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -70,6 +86,7 @@ updated_at: "2026-07-31"
 > and
 > `explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md` and
 > `explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md` and
+> `explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md` and
 >
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

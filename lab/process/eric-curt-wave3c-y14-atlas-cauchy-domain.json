@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "swing_id": "ECW3C-Y14-METRIC-ATLAS-CAUCHY-DOMAIN-GATE",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "branch": "agent/weinstein-guided-source-action",
+  "status": "COMPLETE_ACTUAL_VERTICAL_TENSOR_ATLAS_SPLIT_FRAME_GIMMEL_AND_ORDINARY_AMBIENT_CAUCHY_KILL__ANALYTIC_DOMAIN_OPEN",
+  "controlling_question": "On the actual Lorentz-metric bundle Y14=Met_{3,1}(X), do the GL4-induced Sym2 transitions close the gimmel atlas, and can W131's signature-(9,5) symbol support an ordinary Lorentzian Cauchy domain on full Y14?",
+  "pre_registered_expected_verdict": "ACTUAL_TENSOR_ATLAS_PASS_POSSIBLE__FULL_AMBIENT_ORDINARY_CAUCHY_ROUTE_EXPECTED_TO_FAIL__SECTION_OR_ULTRAHYPERBOLIC_DOMAIN_REMAINS_OPEN",
+  "layer0": [
+    {
+      "term": "Met(X)",
+      "disposition": "HOMONYM",
+      "objects": ["the rank-ten finite-dimensional bundle of pointwise Lorentz metrics over X", "the infinite-dimensional space of all global metric sections"]
+    },
+    {
+      "term": "atlas descent",
+      "disposition": "HOMONYM",
+      "objects": ["tensorial GL4/Sym2 chart compatibility", "existence of a global Lorentz metric section and spin lift"]
+    },
+    {
+      "term": "null cone",
+      "disposition": "HOMONYM",
+      "objects": ["the higher-index (9,5) characteristic quadric", "a Lorentzian causal cone with one time direction"]
+    },
+    {
+      "term": "closed domain",
+      "disposition": "HOMONYM",
+      "objects": ["pointwise Krein-symmetric W131 symbol", "closed or self-adjoint right-H operator domain with global boundary/evolution data"]
+    }
+  ],
+  "actual_metric_bundle_contract": {
+    "base_rank": 4,
+    "vertical_tangent_bundle": "Sym2(T*X)",
+    "vertical_rank": 10,
+    "total_rank": 14,
+    "metric_transition": "h_target=A^{-T} h_source A^{-1}",
+    "vertical_transition": "Sym2 congruence representation induced by the same base Jacobian A",
+    "deWitt_fibre_form": "V_h(k,l)=tr(h^{-1}k h^{-1}l)-1/2 tr(h^{-1}k)tr(h^{-1}l)",
+    "inertia": {
+      "base": [3, 1],
+      "fibre": [6, 4],
+      "gimmel": [9, 5]
+    },
+    "admitted_section_jet": "graph jets transform as J_target=Sym2(A) J_source A^{-1}; existence of a global section is not inferred",
+    "frame_boundary": "the direct-sum gimmel formula descends in affine or connection-adapted frames; nonlinear coordinate transitions add horizontal-vertical shear and still require the declared connection split"
+  },
+  "ordinary_cauchy_kill": {
+    "ambient_signature": [9, 5],
+    "hypersurface_dimension": 13,
+    "negative_index_floor": 4,
+    "hyperbolicity_obstruction": "for any non-null candidate direction e, its orthogonal complement retains a same-sign direction zeta; the quadratic root discriminant is -4 q(e) q(zeta)<0 after the appropriate overall sign",
+    "verdict": "NO_ORDINARY_LORENTZIAN_CODIMENSION_ONE_CAUCHY_DOMAIN_ON_FULL_Y14",
+    "not_killed": ["four-dimensional section-pullback Lorentz route", "ultrahyperbolic/Krein boundary-value domain", "weighted Fredholm or scattering-domain construction"]
+  },
+  "inherited_evidence": {
+    "w131": "explorations/W131-covariant-operator-y14-2026-07-14.md",
+    "w131_grade": "ACTUAL_Y14_FRAME_AND_SYMBOL_ONLY__ANALYTIC_LAYER_OPEN",
+    "w131_consumed_fact": "the pointwise characteristic variety of the covariant operator is the actual gimmel null quadric and the Krein structure is parallel",
+    "prior_hypersurface_control": "tests/channel-swings/old_vs_eric_ten_lens_contract_probe.py",
+    "ecw3b": "lab/process/eric-curt-wave3b-cech-domain-quotient.json"
+  },
+  "verdict": {
+    "actual_metric_vertical_tensor_atlas": "PASS_EXACT_GL4_SYM2",
+    "trace_reversed_dewitt_descent": "PASS_EXACT",
+    "gimmel_descent": "PASS_EXACT_AFFINE_OR_CONNECTION_ADAPTED_FRAMES",
+    "admitted_section_jet_descent": "PASS_EXACT_LOCAL_CONDITIONAL",
+    "arbitrary_gl14_is_metric_atlas": "FAIL",
+    "global_lorentz_section": "OPEN_CONDITIONAL_INPUT_ONLY",
+    "x_spin": "OPEN_CONDITIONAL_PRECONDITION",
+    "nonlinear_horizontal_split": "OPEN_REQUIRES_CONNECTION",
+    "full_y14_ordinary_hyperbolicity": "KILLED_BY_INERTIA_AND_DISCRIMINANT",
+    "full_y14_spacelike_cauchy_hypersurface": "KILLED_NEGATIVE_INDEX_FLOOR_FOUR",
+    "section_pullback_lorentz_route": "LOCALLY_COMPATIBLE_ANALYTICALLY_OPEN",
+    "analytic_closed_domain": "OPEN",
+    "physical_bfv_phase_space": "OPEN"
+  },
+  "branch_ledger": [
+    {
+      "id": "R95_ACTIVE",
+      "track": "ERIC_GUIDED_ACTIVE_REAL_CARRIER",
+      "status": "ACTUAL_METRIC_BUNDLE_VERTICAL_ATLAS_EXACT__SPLIT_FRAME_GIMMEL_EXACT__ORDINARY_AMBIENT_CAUCHY_ROUTE_KILLED__ANALYTIC_DOMAIN_OPEN",
+      "owned_data": ["actual GL4/Sym2 metric-bundle atlas", "trace-reversed DeWitt and gimmel tensor descent", "W131 signature-(9,5) principal symbol", "section or ultrahyperbolic domain fork"]
+    },
+    {
+      "id": "R77_VERTICAL_FLIP",
+      "track": "CURT_CANDIDATE_SOURCE_PREFERRED_RIVAL",
+      "status": "SEPARATE_7_7_ATLAS_PAIRING_DOMAIN_PORT_REQUIRED",
+      "owned_data": ["literal real (7,7) candidate", "separately tagged deformation-complex checklist", "no completed metric-atlas/pairing/domain comparison"]
+    },
+    {
+      "id": "C14_COMMON",
+      "track": "COMMON_COMPLEX_CONTAINER",
+      "status": "INSUFFICIENT_TO_SELECT_REAL_HYPERBOLIC_OR_KREIN_DOMAIN",
+      "owned_data": ["complex algebra M(128,C) only"]
+    }
+  ],
+  "third_lane_promotion_gate": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_CURT_SPECIFIC_COMPLETE_ACTION_VARIATION_GAUGE_OBSERVATION_DOMAIN_PACKET",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_NO_REFIT_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "wave_disposition": {
+    "campaign_status": "READY_AFTER_WAVE2_FROZEN_CLASS_EXIT",
+    "scientific_status": "PARTIAL_ECW3C_ACTUAL_VERTICAL_METRIC_ATLAS_AND_SPLIT_FRAME_GIMMEL_COMPLETE__ORDINARY_FULL_Y14_CAUCHY_ROUTE_KILLED__SECTION_OR_ULTRAHYPERBOLIC_ANALYSIS_OPEN",
+    "earned": ["actual GL4/Sym2 vertical tensor atlas", "exact trace-reversed DeWitt and split-frame gimmel descent", "conditional admitted-section-jet descent", "full-ambient ordinary hyperbolicity kill", "codimension-one spacelike-hypersurface kill"],
+    "not_earned": ["global Lorentz-section existence", "X spin or spin lift", "nonlinear-chart horizontal connection", "closed right-H/Krein domain", "section Green form", "ambient propagator", "physical BFV phase space"],
+    "next_gate": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
+  },
+  "campaign_pointer_policy": {
+    "legacy_next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
+    "legacy_reason": "immutable ECW3B handoff retained for completed-wave regression",
+    "live_field": "current_next_swing",
+    "live_value": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
+  },
+  "exact_probe": {
+    "path": "tests/channel-swings/eric_curt_wave3c_y14_atlas_cauchy_domain_probe.py",
+    "expected_exact_checks": 59,
+    "expected_planted_failures": 13
+  },
+  "report": "explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md",
+  "nonclaims": [
+    "No global Lorentz metric section, spin structure, spin lift, or right-H analytic domain is constructed.",
+    "The kill applies to an ordinary codimension-one Lorentzian Cauchy/Hamiltonian route on full signature-(9,5) Y14, not to all ultrahyperbolic, boundary-value, section-pullback, or Fredholm formulations.",
+    "No actual Green boundary form, propagator, physical BFV phase space, field equation, stationary state, Standard Model sector, count, or cosmology is recovered.",
+    "No Curt-specific dynamics/discriminator or third lane is completed."
+  ]
+}

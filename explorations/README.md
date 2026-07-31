@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3C actual Y14 atlas and Cauchy-domain gate`](eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md)
+  proves exact `GL(4)`/`Sym^2` vertical descent plus affine/connection-adapted
+  gimmel and admitted-section-jet compatibility. The full `(9,5)`
+  symbol cannot support an ordinary Lorentzian codimension-one Cauchy domain;
+  section-pullback and ultrahyperbolic/Krein analytic routes remain open. Curt
+  stays a rival track and no third lane is promoted.
+
 - [`Eric/Curt Wave 3B finite Cech/domain/quotient compatibility gate`](eric-curt-wave3b-cech-domain-quotient-2026-07-31.md)
   transports the observation/Euler packet across three exact rational patches,
   including dual/adjoint naturality, nonlinear no-leakage, a finite invariant

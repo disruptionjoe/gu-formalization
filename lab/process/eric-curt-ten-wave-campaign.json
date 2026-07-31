@@ -127,7 +127,20 @@
           "probe": "tests/channel-swings/eric_curt_wave3b_cech_domain_quotient_probe.py",
           "report": "explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md"
         },
-        "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN"
+        "wave3c": {
+          "status_boundary": "PARTIAL_ECW3C_ACTUAL_VERTICAL_METRIC_ATLAS_AND_SPLIT_FRAME_GIMMEL_COMPLETE__ORDINARY_FULL_Y14_CAUCHY_ROUTE_KILLED__SECTION_OR_ULTRAHYPERBOLIC_ANALYSIS_OPEN",
+          "actual_vertical_tensor_atlas": "PASS_EXACT_GL4_BASE_PLUS_SYM2_VERTICAL_TRANSITIONS",
+          "gimmel_descent": "PASS_EXACT_IN_AFFINE_OR_CONNECTION_ADAPTED_FRAMES__NONLINEAR_HORIZONTAL_SPLIT_OPEN",
+          "ordinary_ambient_hyperbolicity": "KILLED_BOTH_INERTIA_INDICES_EXCEED_ONE",
+          "ordinary_spacelike_hypersurface": "KILLED_EVERY_CODIMENSION_ONE_SUBSPACE_RETAINS_AT_LEAST_FOUR_NEGATIVE_DIRECTIONS",
+          "remaining_domain_fork": "SECTION_PULLBACK_OR_GENUINELY_ULTRAHYPERBOLIC_KREIN_BOUNDARY_VALUE_ANALYSIS",
+          "registry": "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json",
+          "probe": "tests/channel-swings/eric_curt_wave3c_y14_atlas_cauchy_domain_probe.py",
+          "report": "explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md",
+          "next_gate": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
+        },
+        "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
+        "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
       }
     },
     {
