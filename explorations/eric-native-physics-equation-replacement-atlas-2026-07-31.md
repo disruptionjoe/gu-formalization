@@ -176,6 +176,50 @@ The machine registry contains the full equations, source anchors, observation
 maps, construction obligations, kill conditions, and datum debits for all
 fifteen rows.
 
+## Primary-source callouts as native construction directives
+
+These callouts are not passive citations. A direct Weinstein statement is
+used to identify where the corresponding object should be sought in the
+native parent geometry. If the source stops before a formula or proof, the
+atlas continues with the source-shaped carrier, action, reduction, or spectral
+test; “not supplied” is provenance, never the terminal result.
+
+The source labels are deliberately disambiguated:
+
+- **Oxford/Portal**: the 2013 Oxford address with the 2020 Portal preface and
+  supplementary presentation, locally archived as
+  [`portal-special-gu-first-look-2020-04-02.md`](../lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md);
+- **TOE 2025**: Curt Jaimungal's *Geometric Unity: 40 Years in the Making*,
+  locally archived as
+  [`toe-weinstein-gu-40-years.md`](../lab/sources/transcripts/toe-weinstein-gu-40-years.md);
+- **ITI/UCSD 2025**: the later Into the Impossible/UCSD seminar, locally
+  archived as
+  [`weinstein-ucsd-2025-04-transcript.md`](../lab/literature/weinstein-ucsd-2025-04-transcript.md);
+- **ITI 2021**: Brian Keating's earlier *Geometric Unity Revealed* official
+  editorial transcript; and
+- **GU Draft 2021**: the author's working draft, used where a formula rather
+  than a spoken description controls.
+
+| component | primary-source callout | what it directs us to seek in the GU-native parent | source/Layer-0 guard |
+| --- | --- | --- | --- |
+| Maxwell | Oxford/Portal `02:40:24`; TOE 2025 `01:44:45--01:45:42` | Do not add Maxwell separately. Search for the unique closed massless abelian summand of the same reduced G2/G3 connection Hessian that carries the nonabelian sector; then construct its physical Hodge map and action-derived electric current. | The sources give a square/abelianization relation, not the photon quotient or Maxwell equation. |
+| Yang--Mills | Oxford/Portal `00:43:47`, `01:59:12--02:03:07`; TOE 2025 `00:41:50--00:43:38`; ITI/UCSD 2025 `00:05:43--00:06:32`; GU Draft 2021 §9.1 | Treat the exact first-order G2 Euler packet as the square-root parent. Its reduced second variation must contain a nonabelian propagation/current block that intertwines with (D_A{*}F_A=J) after the explicit (F^2) control is removed. | Oxford first displays the conventional equation and then a proposed replacement. A connection or Bianchi identity alone is not Yang--Mills dynamics. |
+| Einstein gravity | Oxford/Portal `00:42:16`, `01:43:32--01:46:17`, `02:35:10--02:40:19`; TOE 2025 `02:14:44--02:23:28`; ITI/UCSD 2025 `00:09:46--00:30:05`; GU Draft 2021 §9.1 | Layer-0 identify the corrected G2 Euler covector with the total-swervature/displasion role, apply the G4 equation-dual pullback to (X), and isolate the gauge-quotiented massless spin-two block of the shared Hessian. | The spoken replacement lives on (Y) and must be pulled back. It is not yet a two-mode physical graviton theorem. |
+| Higgs | TOE 2025 `01:35:23--01:36:08`; ITI/UCSD 2025 `00:42:42--00:43:47`; Oxford/Portal `02:40:24--02:41:39`; GU Draft 2021 §12.9 | Search in the vertical ad-valued one-form coefficient of (T), not an added scalar bundle. Require one action-selected Hessian mode whose curvature expansion emits its kinetic, quadratic, and quartic terms and whose minimal coupling is the same incidence map used by the (K)-paired fermion zero-order block. | “Ad-valued one-form” and “scalar mode” are origin/carrier statements, not yet the observed doublet, VEV, or Yukawa map. |
+| Dirac | Oxford/Portal `00:45:44`, `01:57:48--02:03:07`, `02:40:24--02:41:16`; TOE 2025 `02:35:07--02:42:55`; ITI/UCSD 2025 `00:34:27--00:36:13`, `00:46:02`; GU Draft 2021 equations (9.18)--(9.20), §12.9 | Build the odd action on (Omega^0(Y,S)oplusOmega^1(Y,S)) as the square-root partner of G2/G3. Its rolled Euler/Hessian complex must jointly emit Dirac/RS propagation, the (K)-paired VEV/mass channel, current, and constraints before reduction. | Oxford explicitly says the Dirac piece was unfinished at that release. The carrier nevertheless gives a concrete construction target. |
+| Schrödinger evolution | No direct GU-native Schrödinger equation was located. Nearest directions: Oxford/Portal `00:47:35`; ITI 2021 `00:31:42`; TOE 2025 `00:14:17`. | Follow the source's broader instruction to geometrize the quantum: after G4 constructs the reduced BV/BFV phase space and positive Krein majorant, derive its Hamiltonian flow from the action and test whether the physical one-parameter evolution is unitary and admits (i\partial_t\Psi=H_{\rm phys}\Psi). | This route is a repo synthesis from the source's quantum-geometry direction, not an equation spoken by Weinstein. Generic wavefunction or Dirac-square language is not silently renamed Schrödinger. |
+| weak force | Oxford/Portal `00:43:47`, `02:08:36`; ITI/UCSD 2025 `00:32:46`, `00:40:27--00:46:40`; TOE 2025 `02:50:38--02:53:14` | Compute the action-selected maximal compact stabilizer of the stationary quotient. Test whether its massless and odd modes jointly emit (SU(2)\times U(1)), chiral currents, the Higgs incidence, photon-preserving breaking, and a (W/Z) mass block. | The sources make group/representation and breaking claims, not a separately derived weak field equation. “Dark weak” at Oxford `02:08:36` is a distinct proposed sector. |
+| strong force | Oxford/Portal `00:43:47`, `02:08:36`; ITI/UCSD 2025 `00:40:27--00:46:40`; TOE 2025 `02:50:38--02:53:14` | From the same stabilizer, test for an (SU(3)) massless connection factor with positive kinetic form and the correct odd-mode incidence. Derive its current and self-coupling from the reduced native action before asking about running or confinement. | The sources place color in a maximal-compact/Pati--Salam branching. They do not supply QCD dynamics, confinement, or a gluon quotient. |
+| dark energy | ITI/UCSD 2025 `00:03:06`, `00:09:46--00:27:00`; TOE 2025 `02:14:44--02:23:28`; Oxford/Portal `01:44:16`, `02:09:22--02:10:44`; GU Draft 2021 §9.1 | Use (T=A-B) and the coupled (E_T,E_\epsilon,E_g) family. Solve a stationary scalar/trace branch, derive its observation stress and Ward identity, and isolate a light cosmological Hessian mode distinct from the heavy Higgs mode before FLRW/PP3. | The sources give the distortion/VEV direction. They do not give PP3's quantitative sign, amplitude, or (w(z)) locus. |
+| dark matter | ITI/UCSD 2025 `00:38:09--00:41:24`; TOE 2025 `02:33:47`, `02:37:37`, `02:50:38--02:53:14`; Oxford/Portal `02:08:36--02:10:44` | Define the luminous observation image inside the physical odd complex and study its orthogonal/cohomological complement. Branch that complement under the stationary stabilizer, derive masses/charges from the common zero-order operator, and test high-curvature recoupling as mixing in the same family. | These are spectrum/representation claims, not a mass, abundance, stability, cross-section, or cosmological-fit calculation. Dark matter is not the TOE DESI/dark-energy claim. |
+
+The machine-readable crosswalk records these ten routes under
+`requested_source_crosswalk`, and each corresponding atlas component points
+back to its callout id. The key use is prospective: the passages constrain
+where and how to look inside the native construction while the hostile
+intertwining and empirical gates still decide whether the proposed object is
+actually present.
+
 ## What each specialist changed
 
 The same ten specialist lenses were asked for a replacement map, not for a

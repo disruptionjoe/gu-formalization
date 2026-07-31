@@ -4,6 +4,9 @@
 This is a type/status/dependency certificate. It does not compute the future
 stationary background, observation domain, Hessian spectrum, odd Euler
 operator, anomaly, generation index, or cosmological prediction.
+
+The source-callout checks require every requested Weinstein passage to route
+to a bounded native construction rather than ending at a missing formula.
 """
 
 from __future__ import annotations
@@ -36,6 +39,7 @@ def planted(name: str, false_claim: bool) -> None:
 def main() -> None:
     data = json.loads(ATLAS.read_text())
     rows = {row["id"]: row for row in data["components"]}
+    crosswalk = {row["id"]: row for row in data["requested_source_crosswalk"]}
 
     expected = {
         "EM_MAXWELL",
@@ -108,6 +112,44 @@ def main() -> None:
     exact("generation row forbids block-to-count inference", rows["GENERATION_INDEX"]["status"] == "DOWNSTREAM_TEST" and "three blocks" in rows["GENERATION_INDEX"]["kill"] and "P3" in rows["GENERATION_INDEX"]["datum_use"])
     exact("datum is carried as a conditional equation family", "(I_d,E_d,L_d,R_d,D_d)" in rows["EXTERNAL_DATUM_OBSERVATION"]["standard_equation"] and "For every d" in rows["EXTERNAL_DATUM_OBSERVATION"]["native_equation"])
 
+    expected_callouts = {
+        "PSC-MAXWELL",
+        "PSC-YANG-MILLS",
+        "PSC-EINSTEIN",
+        "PSC-HIGGS",
+        "PSC-DIRAC",
+        "PSC-SCHRODINGER",
+        "PSC-WEAK",
+        "PSC-STRONG",
+        "PSC-DARK-ENERGY",
+        "PSC-DARK-MATTER",
+    }
+    exact("all ten requested primary-source callouts are present once", set(crosswalk) == expected_callouts and len(crosswalk) == len(data["requested_source_crosswalk"]))
+    exact("every source callout becomes a native search directive", all(row["native_search_directive"].strip() for row in crosswalk.values()))
+    exact("every source callout retains a boundary after routing", all(row["boundary"].strip() for row in crosswalk.values()))
+    exact("all crosswalk sources resolve in the declared corpus", all(callout["source_id"] in data["source_corpus"] for row in crosswalk.values() for callout in row["callouts"]))
+    exact("the two Into the Impossible sources remain distinct", data["source_corpus"]["WG-2021-ITI-REVEALED"]["title"] != data["source_corpus"]["WG-2025-ITI-UCSD"]["title"])
+    local_sources = {
+        source_id: (ROOT / row["local"]).read_text()
+        for source_id, row in data["source_corpus"].items()
+        if row.get("local")
+    }
+    exact("every declared local primary-source transcript exists", len(local_sources) == 3)
+    exact("Oxford anchors retain equation dark-sector and Dirac-square passages", all(token in local_sources["WG-OXFORD-PORTAL"] for token in ("00:43:47", "02:08:36", "02:40:24")))
+    exact("TOE anchors retain GU-list distortion and dark-recoupling passages", all(token in local_sources["WG-2025-TOE"] for token in ("[01:35:23]", "[02:22:20]", "[02:50:38]")))
+    exact("UCSD Into the Impossible anchors retain dark-matter and Higgs passages", all(token in local_sources["WG-2025-ITI-UCSD"] for token in ("[00:38:09]", "[00:42:42]", "[00:43:04]")))
+    exact("Maxwell routes to an abelian mode of the same Hessian", "Do not add a separate Maxwell action" in crosswalk["PSC-MAXWELL"]["native_search_directive"] and "same gauge system" in crosswalk["PSC-MAXWELL"]["native_search_directive"])
+    exact("Yang-Mills routes through G2 reduction and F2 ablation", "G2" in crosswalk["PSC-YANG-MILLS"]["native_search_directive"] and "F^2 comparator" in crosswalk["PSC-YANG-MILLS"]["native_search_directive"])
+    exact("Einstein routes through Layer 0 equation dual and spin two", all(token in crosswalk["PSC-EINSTEIN"]["native_search_directive"] for token in ("Layer 0", "equation-dual", "spin-two")))
+    exact("Higgs routes to one vertical action-selected curvature mode", all(token in crosswalk["PSC-HIGGS"]["native_search_directive"] for token in ("vertical ad-valued one-form", "action-selected", "quartic", "K-paired")))
+    exact("Dirac routes to one odd action emitting operator mass and current", all(token in crosswalk["PSC-DIRAC"]["native_search_directive"] for token in ("minimal odd action", "Euler/Hessian", "K-paired", "current")))
+    exact("Schrodinger absence still routes to a native Hamiltonian test", crosswalk["PSC-SCHRODINGER"]["classification"] == "NO_LOCATED_DIRECT_GU_CLAIM" and all(token in crosswalk["PSC-SCHRODINGER"]["native_search_directive"] for token in ("BV/BFV", "Hamiltonian", "unitary", "i d_t Psi=H_phys Psi")))
+    exact("weak and strong route through one action-selected stabilizer", "action-selected maximal compact stabilizer" in crosswalk["PSC-WEAK"]["native_search_directive"] and "same action-selected maximal compact stabilizer" in crosswalk["PSC-STRONG"]["native_search_directive"])
+    exact("dark energy routes through distortion stress and two scalar modes", all(token in crosswalk["PSC-DARK-ENERGY"]["native_search_directive"] for token in ("T=A-B", "observation stress", "light cosmological", "heavy Higgs")))
+    exact("dark matter routes through the complement of the luminous odd image", all(token in crosswalk["PSC-DARK-MATTER"]["native_search_directive"] for token in ("luminous observation image", "complement", "masses and charges", "high-curvature recoupling")))
+    exact("atlas rows point only to existing source callouts", all(set(row.get("primary_source_callout_ids", ())) <= set(crosswalk) for row in rows.values()))
+    exact("requested callouts are connected back into the atlas", set().union(*(set(row.get("primary_source_callout_ids", ())) for row in rows.values())) == expected_callouts)
+
     planted("a standard equation is copied verbatim as its native replacement", any(row["standard_equation"] == row["native_equation"] for row in rows.values()))
     planted("Bianchi alone is Yang-Mills dynamics", rows["GAUGE_YANG_MILLS"]["native_equation"] == "D_A F_A=0")
     planted("a Clifford carrier is already a physical Dirac equation", rows["DIRAC_MATTER"]["status"] == "BUILT_NATIVE_PARENT")
@@ -117,6 +159,11 @@ def main() -> None:
     planted("three provenance sectors force three generations", "three blocks imply three" in rows["GENERATION_INDEX"]["native_equation"].lower())
     planted("PP3 selects the cosmological mode", "use PP3 to select" in rows["FLRW_PP3"]["next_build"])
     planted("external data may contain the Standard Model", "gauge algebra" in rows["EXTERNAL_DATUM_OBSERVATION"]["datum_use"].lower())
+    planted("no direct Schrodinger source means the native search stops", not crosswalk["PSC-SCHRODINGER"]["native_search_directive"])
+    planted("generic quantum-wave language is a spoken GU Schrodinger equation", crosswalk["PSC-SCHRODINGER"]["classification"] == "DIRECT_GU_REPLACEMENT_AND_FORMULA")
+    planted("weak group branching is already a weak-boson field equation", crosswalk["PSC-WEAK"]["classification"] == "DIRECT_STANDARD_BASELINE_AND_GU_REPLACEMENT")
+    planted("dark matter is the DESI dark-energy passage", crosswalk["PSC-DARK-MATTER"]["callouts"] == crosswalk["PSC-DARK-ENERGY"]["callouts"])
+    planted("2021 GU Revealed and 2025 UCSD are one transcript", data["source_corpus"]["WG-2021-ITI-REVEALED"] == data["source_corpus"]["WG-2025-ITI-UCSD"])
 
     print(
         "ERIC-NATIVE-PHYSICS-EQUATION-ATLAS: "
@@ -125,6 +172,7 @@ def main() -> None:
     )
     print("RESULT: one G2/G3 parent is mapped to fifteen physical jobs and conditional shadows")
     print("RESULT: every open arrow has a bounded construction and decisive kill")
+    print("RESULT: ten primary-source callouts route into native carriers/operators rather than stopping")
     print("RESULT: one stationary reduced Hessian precedes particle naming and downstream tests")
     print("BOUNDARY: no Maxwell/YM/Dirac/Einstein/Higgs/cosmology/anomaly/count recovery is claimed")
 
