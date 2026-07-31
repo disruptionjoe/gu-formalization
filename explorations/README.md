@@ -13,6 +13,22 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](rb7-stationary-nonmetric-order-parameter-2026-07-30.md)
+  executes the first RB6 stationary construction. The actual W177 residual
+  loses its stable signal when the connection-form coindex is restricted
+  vertically; the retained component is below its direct/Codazzi numerical
+  floor. A signal-preserving mixed Gram is stable but collapses again to the
+  traceless projector. Independently, the exact homogeneous
+  Yang--Mills-plus-quadratic-distortion action has nonzero
+  \(\mathfrak{su}(2)\) triplet critical points. Trace reversal makes the
+  negative triplet plus trace an exact negative four-plane, while raw
+  Frobenius does not. Every nonzero branch is nevertheless a saddle,
+  commuting directions run away, \(H_\theta,H_F\) commute, \(Q=0\), and
+  the 18-dimensional support orbit does not select the three-dimensional
+  RB4 base-induced sublocus. The next construction restores the existing
+  background/nonholonomic curvature, parent, and section terms rather than
+  adding a fitted potential. P1/P2/P3 and all five-leg boundaries remain
+  unchanged.
 - [`rb6-target-blind-spectral-grammar-2026-07-30.md`](rb6-target-blind-spectral-grammar-2026-07-30.md)
   executes RB5's source-concomitant gate. Vertical Ricci, trace reversal,
   and two curvature-square contractions give the first target-blind typed

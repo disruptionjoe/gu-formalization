@@ -7,6 +7,89 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB7 STATIONARY NON-METRIC ORDER-PARAMETER
+> DISPOSITION.**
+> [`explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md)
+> executes RB6's first finite stationary construction.
+>
+> On the isolated source-free, parent-free fundamental-Yang--Mills slice,
+> the actual W177 ambient-Yang--Mills residual is stable as a full tensor,
+> but its vertical connection-form component is not. Its central auxiliary
+> norm is `0.00361491` against a direct/Codazzi discrepancy `0.00372577`;
+> signal/floor is `0.9702`, and the component changes by a factor of nearly
+> five across the frozen derivative scales. It is killed before an
+> \(H_\theta\) spectrum is read. The signal-preserving base-form/mixed-
+> adjoint contraction is stable but returns
+> \[
+> H_{\rm mix}\simeq0.28125(I+T_{\rm tr})
+> =0.5625P_{\rm traceless},
+> \]
+> another \(1+9\) nonselector with no resolved nonzero trace commutator.
+>
+> The smallest exact homogeneous non-abelian truncation is more
+> constructive. For an \(\mathfrak{su}(2)\) triplet on a definite
+> traceless three-plane,
+> \[
+> V
+> =\frac{\sigma m^2}{2}\sum_ar_a^2
+> +\frac{\alpha}{2}\sum_{a<b}r_a^2r_b^2.
+> \]
+> Nonzero rank-two and rank-three critical points exist when
+> \(\sigma m^2\alpha<0\). On a negative triplet with
+> \(\alpha,m^2>0\), trace reversal makes
+> \(\mathbb Rt\oplus E\) an exact maximal negative four-plane, whereas
+> raw Frobenius gives inertia \((1,3)\). This is the first source-shaped
+> construction showing precisely how the trace-reversed trace line
+> completes a non-abelian triplet to the required Cartan support.
+>
+> It is not stable. The isotropic triplet Hessian is
+> \(\{-m^2,-m^2,2m^2\}\), every generic nonzero branch is a saddle, and a
+> commuting one-component field runs to \(-\infty\) because the
+> Yang--Mills quartic vanishes there. Moreover
+> \[
+> H_\theta=-r^2P_E,\qquad H_F=2r^4P_E,\qquad
+> [H_\theta,H_F]=0,
+> \]
+> so the polar complex-structure gate fails. The negative-triplet support
+> lives in an 18-dimensional Grassmannian, while the RB4 base-induced
+> image is dimension three; the current truncation does not select that
+> codimension-fifteen incidence sublocus.
+>
+> **Next efficient wave, in dependency order:**
+>
+> 1. On \(\zeta_F=1\), restore the already-owned background, derivative,
+>    and nonholonomic
+>    terms in
+>    \[
+>    F_{ij}=F^0_{ij}+D_i^0\Phi_j-D_j^0\Phi_i
+>    +[\Phi_i,\Phi_j]-C_{ij}{}^K\Phi_K.
+>    \]
+> 2. Derive the complete anisotropic finite Euler and discarded-field
+>    leakage equations before solving; require boundedness along commuting
+>    directions.
+> 3. Test \(\zeta_F=0\) separately through the parent, full-20, and section
+>    terms; do not transfer W177 curvature stabilization to it.
+> 4. Couple the \(P_{\rm IG}=Z_UD_AU\) parent and require the \(A\)- and
+>    \(U\)-equations to select the same orbit.
+> 5. Vary the actual
+>    \(\alpha_{II}|II_s|^2+\beta_0|II_s^0|^2\) functional through the
+>    normal--vertical graph; only then evaluate \(H_{II}\) and \(H_{II_0}\)
+>    as emitted words and test the unstable shape/base-incidence modes.
+> 6. Only for stable full-Euler survivors compute all \(H/Q\) gaps, polar
+>    branches, BV chain rules, global complex volume, SM/Yukawa,
+>    gravity/cosmology, causality, and P3 non-regression.
+>
+> Current boundary:
+> `TRACE-PLUS-TRIPLET-CARTAN-KINEMATICALLY-BUILT`,
+> `HOMOGENEOUS-NONZERO-BRANCH-SADDLE`,
+> `FUNDAMENTAL-YM-W177-VERTICAL-RESPONSE-KILLED`,
+> `STABLE-MIXED-RESPONSE-1+9-NONSELECTING`,
+> `Q-ZERO`,
+> `STABLE-SOURCE-DERIVED-FLAG-OPEN`.
+> P1/P2/P3 remain unchanged. No compactification, vacuum, physical
+> Hessian, mass, cosmological value, anomaly, index, or generation count is
+> claimed.
+>
 > **2026-07-30 RB6 TARGET-BLIND SOURCE-CONCOMITANT DISPOSITION.**
 > [`explorations/rb6-target-blind-spectral-grammar-2026-07-30.md`](explorations/rb6-target-blind-spectral-grammar-2026-07-30.md)
 > corrects RB5's type boundary and executes its contraction/ownership gate.

@@ -753,3 +753,67 @@ spectral/polar flag and its BV chain rule.
 
 See
 [`rb6-target-blind-spectral-grammar-2026-07-30.md`](rb6-target-blind-spectral-grammar-2026-07-30.md).
+
+## RB7 correction: first stationary non-metric ansatz
+
+RB7 executes the finite ansatz demanded above and separates two different
+failures.
+
+First, on the isolated source-free, parent-free fundamental-Yang--Mills
+slice, the full conditional W177 ambient-Yang--Mills Euler tensor is stable,
+but its vertical connection-form component is not. At the central derivative
+scale its auxiliary norm is \(0.00361491\), below the
+direct-divergence/Codazzi discrepancy \(0.00372577\), and its direction is
+scale-unstable. It cannot seed \(H_\theta\). The stable base-form/mixed-
+adjoint contraction instead returns
+\[
+H_{\rm mix}
+\simeq0.28125(I+T_{\rm tr})
+=0.5625P_{\rm traceless},
+\]
+so preserving the actual W177 signal still gives the nonselecting \(1+9\)
+algebra.
+
+Second, the exact homogeneous Yang--Mills-plus-quadratic-distortion
+\(\mathfrak{su}(2)\) truncation has nonzero critical triplets. On a negative
+traceless three-plane, trace reversal makes the triplet plus the canonical
+trace line a maximal negative four-plane. This is the first source-shaped
+Cartan-support construction. It is not stable: every nonzero branch is a
+saddle, commuting directions run to \(-\infty\), \(H_\theta\) has a
+seven-dimensional zero sector, and
+\[
+[H_\theta,H_F]=0.
+\]
+The full support orbit is eighteen-dimensional and the three-dimensional
+RB4 base-induced incidence sublocus is not selected.
+
+The corrected N3 boundary is:
+
+```text
+source-to-H/Q TYPE/FORMULA:               BUILT
+fundamental-YM W177 vertical response:     KILLED BELOW RESTRICTED FLOOR
+W177 stable mixed response:               EVALUATED / 1+9 NONSELECTING
+homogeneous nonzero Cartan support:        EXACT / STATIONARY SADDLE
+stable coupled stationary orbit:          UNBUILT
+uniform sign/polar gaps:                  FAIL IN HOMOGENEOUS ANSATZ
+base-induced support incidence:           UNSELECTED
+composite chain-rule insertion:           FORMULA BUILT / NO SURVIVOR
+```
+
+The next stationary-construction continuation must, on \(\zeta_F=1\),
+restore the already-written background and nonholonomic curvature terms:
+\[
+F_{ij}
+=F^0_{ij}+D_i^0\Phi_j-D_j^0\Phi_i
++[\Phi_i,\Phi_j]-C_{ij}{}^K\Phi_K.
+\]
+Those terms can survive along commuting directions and can therefore test
+stability without adding a fitted potential. The \(\zeta_F=0\) branch must
+be tested separately through the parent/full-20/section terms. The section
+step must vary the actual
+\(\alpha_{II}|II_s|^2+\beta_0|II_s^0|^2\) functional through the
+normal--vertical graph before using \(II_sII_s^\dagger\) or its tracefree
+rival as a spectral diagnostic.
+
+See
+[`rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](rb7-stationary-nonmetric-order-parameter-2026-07-30.md).
