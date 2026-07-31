@@ -1,0 +1,220 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-07-31",
+  "branch": "agent/weinstein-guided-source-action",
+  "run_id": "GUH-20260731T132849Z-old-eric-ten-lens-council",
+  "objective": "Advance the existing external-datum and source-action construction while preserving the Standard Model, Krein/BV, trace-reversed gravity, cosmology, and right-quaternionic count legs.",
+  "status_legend": [
+    "BUILT_LOCAL",
+    "CONDITIONAL",
+    "OPEN_TYPED",
+    "BLOCKED_FIRST",
+    "CONTRADICTED"
+  ],
+  "lenses": [
+    {"id": "LENS-1", "name": "affine gauge and principal-bundle geometry"},
+    {"id": "LENS-2", "name": "group cohomology"},
+    {"id": "LENS-3", "name": "symplectic and derived reduction"},
+    {"id": "LENS-4", "name": "variational bicomplex, BV, and Noether theory"},
+    {"id": "LENS-5", "name": "pseudo-Riemannian and Krein geometry"},
+    {"id": "LENS-6", "name": "hyperbolic and ultrahyperbolic PDE"},
+    {"id": "LENS-7", "name": "Clifford and quaternionic representation theory"},
+    {"id": "LENS-8", "name": "geometric complexes and index theory"},
+    {"id": "LENS-9", "name": "Standard Model Higgs, anomaly, and EFT"},
+    {"id": "LENS-10", "name": "relativistic cosmology and inverse problems"}
+  ],
+  "gaps": [
+    {
+      "id": "GAP-COCYCLE-DERIVATIVE",
+      "lenses": ["LENS-1", "LENS-2"],
+      "old_construction": "E0 exact zero-jet coboundary and tilted displacement identities",
+      "eric_guidance": "full inhomogeneous gauge group, tau-plus, and gauge-rotated reference",
+      "status": "BLOCKED_FIRST",
+      "missing_object": "global dg-bearing gauge cocycle and moving induced reference connection",
+      "opportunity": "general-cocycle tilted algebra works without coboundary triviality",
+      "kill": "choose g(y0)=1 with dg(y0) nonzero; any derivative-free global formula fails",
+      "next_swing": "G1"
+    },
+    {
+      "id": "GAP-QUOTIENT-LEVEL",
+      "lenses": ["LENS-1", "LENS-3"],
+      "old_construction": "finite set-level double action shadow",
+      "eric_guidance": "double coset equivalent to the connection moduli space",
+      "status": "OPEN_TYPED",
+      "missing_object": "action groupoid or quotient-stack equivalence preserving stabilizers",
+      "opportunity": "separate adjoint quotient of differences from affine connection quotient",
+      "kill": "a stabilizer mismatch rejects the claimed quotient equivalence",
+      "next_swing": "G1"
+    },
+    {
+      "id": "GAP-VARIATION-DOMAIN",
+      "lenses": ["LENS-1", "LENS-4"],
+      "old_construction": "source displays a varpi-direction derivative but leaves the full omega domain undeclared",
+      "eric_guidance": "omega=(epsilon,varpi) is the primary source field",
+      "status": "BLOCKED_FIRST",
+      "missing_object": "free, graph-constrained, or background field-space declaration and tangent complex",
+      "opportunity": "the declaration determines whether free variation collapses T to zero",
+      "kill": "a subgroup graph cannot silently restrict action variations",
+      "next_swing": "G2"
+    },
+    {
+      "id": "GAP-BOSONIC-SHIAB",
+      "lenses": ["LENS-3", "LENS-4", "LENS-7"],
+      "old_construction": "RB2 blocks at the native density-dual contraction",
+      "eric_guidance": "equivariant curvature contraction, not projection",
+      "status": "BLOCKED_FIRST",
+      "missing_object": "right-H and Krein compatible map Omega2(adP) to Omega13(ad*P)",
+      "opportunity": "coefficients one-half and one-third already have conditional exactness",
+      "kill": "zero Hom space, failed descent, or failed transgression identity",
+      "next_swing": "G2"
+    },
+    {
+      "id": "GAP-COUPLED-NOETHER",
+      "lenses": ["LENS-3", "LENS-4", "LENS-10"],
+      "old_construction": "conditional isolated divergence readings for theta and SW",
+      "eric_guidance": "automatic differential identity for the responsive distortion",
+      "status": "CONTRADICTED",
+      "missing_object": "full formal-adjoint identity including epsilon, spinor, section, and boundary responses",
+      "opportunity": "the complete identity can decide the N3 current fork and cosmological conservation together",
+      "kill": "a Stueckelberg control has nonzero isolated divergence off shell while the coupled identity vanishes",
+      "next_swing": "G3"
+    },
+    {
+      "id": "GAP-PRESYMPLECTIC-BOUNDARY",
+      "lenses": ["LENS-3", "LENS-4"],
+      "old_construction": "first variations without a complete boundary and corner packet",
+      "eric_guidance": "Chern-Simons-like action and two-sided quotient language",
+      "status": "OPEN_TYPED",
+      "missing_object": "covariant presymplectic current, 13-chain flux, and bulk-defect BFV corner",
+      "opportunity": "derive rather than assume the phase-space structure",
+      "kill": "Atiyah-Bott degree mismatch or nonzero uncancelled Q_F boundary flux",
+      "next_swing": "G3"
+    },
+    {
+      "id": "GAP-AMBIENT-DOMAIN",
+      "lenses": ["LENS-5", "LENS-6"],
+      "old_construction": "conditional four-dimensional section-reduced hyperbolic estimate",
+      "eric_guidance": "upstairs equations are ultrahyperbolic and need boundary rather than ordinary initial data",
+      "status": "BLOCKED_FIRST",
+      "missing_object": "observation lift/retract, positive majorant, admissible polarization, and closed Krein normal domain",
+      "opportunity": "a unique source-derived domain could convert a continuous datum debit into positive surplus",
+      "kill": "every 13D hypersurface in signature (9,5) retains at least four negative directions",
+      "next_swing": "G4"
+    },
+    {
+      "id": "GAP-QUATERNIONIC-SYMMETRIZER",
+      "lenses": ["LENS-5", "LENS-6", "LENS-7"],
+      "old_construction": "positive-Hilbert symmetrizer argument uses a timelike Clifford generator",
+      "eric_guidance": "native quaternionic and multi-time structure",
+      "status": "CONTRADICTED",
+      "missing_object": "explicit compatible complex polarization or Krein fundamental symmetry passing right-H",
+      "opportunity": "source-derived Cartan majorant can own the polarization",
+      "kill": "a positive-Hilbert self-adjoint operator cannot square to minus identity",
+      "next_swing": "G4"
+    },
+    {
+      "id": "GAP-CURRENT-RIESZ",
+      "lenses": ["LENS-4", "LENS-5"],
+      "old_construction": "N3 splits JD and JF and exposes cancellation rivals",
+      "eric_guidance": "distortion is the connection-shaped source sector",
+      "status": "OPEN_TYPED",
+      "missing_object": "domain-compatible DeWitt/Hodge/Krein pseudo-musical and Green identity inside the full Noether equation",
+      "opportunity": "one calculation chooses direct, total, or independently soldered current",
+      "kill": "self-cancellation, wrong chart transport, noncovariance, or uncancelled flux",
+      "next_swing": "G5"
+    },
+    {
+      "id": "GAP-STABLE-CARTAN",
+      "lenses": ["LENS-5", "LENS-9"],
+      "old_construction": "trace reversal builds trace-plus-triplet support but RB7 branch is a saddle with Q=0",
+      "eric_guidance": "observation/maximal-compact reduction and VEV language",
+      "status": "OPEN_TYPED",
+      "missing_object": "stable source-derived moving Cartan/complex flag and positive majorant",
+      "opportunity": "restored background, parent, and section terms may lift the RB7 instabilities",
+      "kill": "commuting runaway, anisotropic negative modes, raw Frobenius, or incidence miss",
+      "next_swing": "G6"
+    },
+    {
+      "id": "GAP-SHARED-PARENT-MODES",
+      "lenses": ["LENS-9", "LENS-10"],
+      "old_construction": "vertical K-paired channel exists and cosmological theta family exists conditionally",
+      "eric_guidance": "one adjoint-valued one-form supplies Higgs and responsive cosmological VEV",
+      "status": "OPEN_TYPED",
+      "missing_object": "one potential with a heavy doublet mode and protected light singlet or a constrained kinetic structure",
+      "opportunity": "two physical legs overconstrain one parent action",
+      "kill": "one canonical eigenmode cannot have both Higgs and H0-scale Hessian curvature",
+      "next_swing": "G7"
+    },
+    {
+      "id": "GAP-PHYSICAL-HIGGS",
+      "lenses": ["LENS-7", "LENS-9"],
+      "old_construction": "four-dimensional scalar channel and fixed-Cartan Pati-Salam-shaped image",
+      "eric_guidance": "Higgs arises from an adjoint-valued one-form",
+      "status": "OPEN_TYPED",
+      "missing_object": "moving bidoublet to SU2L doublet hypercharge projection, vacuum, complete zero-order kernel, and mirror gapping",
+      "opportunity": "anomaly arithmetic is already exact if a chiral Spin(10) 16 is produced",
+      "kill": "scalar-without-doublet, incomplete 16, anomaly failure, or unowned Yukawa matrices",
+      "next_swing": "G8"
+    },
+    {
+      "id": "GAP-ROLLED-PHYSICALIZATION",
+      "lenses": ["LENS-7", "LENS-8"],
+      "old_construction": "exact observer branching 3E+ plus 3E- plus X1536",
+      "eric_guidance": "Omega0 plus Omega1 generation labels and rolled 0-to-1-to-13-to-14 sequence",
+      "status": "OPEN_TYPED",
+      "missing_object": "right-H, Krein, moving, domain-compatible middle differential and deformation retract",
+      "opportunity": "test the higher-group two-equivalent/third-inequivalent claim without count leakage",
+      "kill": "dA squared set to zero with curvature, ignored mirrors/X, or sequence length read as count",
+      "next_swing": "G9"
+    },
+    {
+      "id": "GAP-DATUM-SURPLUS",
+      "lenses": ["LENS-2", "LENS-6", "LENS-8", "LENS-9"],
+      "old_construction": "P1/P2 conditional one-bit weld and separate P3",
+      "eric_guidance": "minimal starting data and claimed effective three",
+      "status": "OPEN_TYPED",
+      "missing_object": "two remaining P1/P2 identifications, exact P3 consumption equation, and Jacobian-rank surplus audit",
+      "opportunity": "price the residual domain, polarization, mass-splitting, and count data exactly",
+      "kill": "boundary data relabeled P2, multiplicity relabeled P3, or nonpositive surplus",
+      "next_swing": "G9"
+    },
+    {
+      "id": "GAP-COSMOLOGICAL-EMISSION",
+      "lenses": ["LENS-4", "LENS-5", "LENS-10"],
+      "old_construction": "frozen PP1/PP3 conditional family and trace-reversed gravity",
+      "eric_guidance": "responsive distortion VEV and qualitative future dynamic-dark-energy bet",
+      "status": "OPEN_TYPED",
+      "missing_object": "stationary state or VEV prescription, observation stress, absolute amplitude owner, and source-first w(z)",
+      "opportunity": "one action can be confronted prospectively with frozen PP3",
+      "kill": "fitted f0, independent vacuum counterterm, nonconservation, phantom crossing, or off-locus output",
+      "next_swing": "G10"
+    }
+  ],
+  "swings": [
+    {"id": "G1", "title": "derivative cocycle and moving reference", "depends_on": []},
+    {"id": "G2", "title": "field space and native bosonic Shiab", "depends_on": ["G1"]},
+    {"id": "G3", "title": "full variational bicomplex and BV-BFV", "depends_on": ["G2"]},
+    {"id": "G4", "title": "observation retract and ultrahyperbolic domain", "depends_on": ["G3"]},
+    {"id": "G5", "title": "N3 current Riesz and Green weld", "depends_on": ["G3", "G4"]},
+    {"id": "G6", "title": "stable moving Cartan and trace-reversed geometry", "depends_on": ["G5"]},
+    {"id": "G7", "title": "shared vertical parent and two-mode Hessian", "depends_on": ["G6"]},
+    {"id": "G8", "title": "physical Standard Model and zero-order kernel", "depends_on": ["G7"]},
+    {"id": "G9", "title": "rolled physicalization and datum surplus", "depends_on": ["G4", "G8"]},
+    {"id": "G10", "title": "cosmological emission and integrated hostile review", "depends_on": ["G7", "G8", "G9"]}
+  ],
+  "surplus": {
+    "global_status": "SURPLUS-UNCOMPUTABLE",
+    "reason": "The native Shiab Hom rank, domain and polarization freedom, moving reduction, stationary orbit, zero-order kernel, heavy-light splitting, VEV state, and P3 consumption map are not yet frozen.",
+    "local_receipts": [
+      "E0 selects lambda=1 in its zero-jet fixture",
+      "RB2 selects a=1/2 and b=1/3 conditional on independent transgression identities",
+      "gamma-trace branching has no fitted continuous coefficient once the 4+10 split is supplied"
+    ]
+  },
+  "demoted_but_not_killed": [
+    {
+      "item": "derivative-level super-IG lift",
+      "reason": "It becomes informative only after G3 supplies an action and G9 supplies the physical complex."
+    }
+  ]
+}

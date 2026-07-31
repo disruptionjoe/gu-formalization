@@ -209,6 +209,15 @@ these for the full working record; the durable, reviewed results live in `canon/
   a Layer-0 homonym: with curvature and affine-chart transport, the
   displacement is related to but not literally identical with its Euler
   covector.
+- [`old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md`](old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md)
+  runs ten affine/cohomological, symplectic/BV, Krein/PDE,
+  representation/index, and Standard-Model/cosmology lenses against the old
+  construction and the Eric-guided grammar. It preserves the existing
+  vertical K-paired channel and P1/P2/P3 ledger, but inserts a full derivative
+  cocycle, coupled Noether identity, and ultrahyperbolic observation-domain
+  packet before physical fitting. Its revised G1--G10 build sequence pulls the
+  shared-parent Hessian/stress test forward and demotes derivative super-IG
+  until an action and physical complex exist.
 - [`vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md`](vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md)
   runs 39 paper-anchored analogy rows through ten divergent network,
   learning, geometry, PDE, topology, and formal-audit lenses. The best

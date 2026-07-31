@@ -2,10 +2,26 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-30"
+updated_at: "2026-07-31"
 ---
 
 # Next Steps For Contributors
+
+> **2026-07-31 TEN-SPECIALIST GUIDED-LANE REORDERING (BRANCH-LOCAL).**
+> The first Eric-guided scaffold remains on the same North Star, but its next
+> sequence is superseded by the ten-lens council. Three missing layers now run
+> before physical fitting: the full `dg`-bearing gauge cocycle and moving
+> reference (E0 was a zero-jet shadow), the coupled all-field Noether/BV--BFV
+> identity, and an observation-retract/boundary-polarization packet for the
+> ultrahyperbolic `(9,5)` ambient system (which has no ordinary spacelike 13D
+> Cauchy surface). The council preserves the K-paired vertical scalar channel,
+> the already-typed conditional P1/P2 weld, separate P3, trace reversal, and
+> frozen PP3. The new order is G1 derivative cocycle; G2 field space/native
+> bosonic Shiab; G3 full variation; G4 observation/domain; G5 N3 current/Riesz;
+> G6 stable Cartan; G7 one-parent two-mode Hessian; G8 physical SM kernel; G9
+> rolled physicalization/datum surplus; G10 cosmological emission and hostile
+> review. See
+> `explorations/old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md`.
 
 > **2026-07-31 WEINSTEIN-GUIDED BRANCH FORK (BRANCH-LOCAL).**
 > `agent/weinstein-guided-source-action` begins prospectively at the exact
