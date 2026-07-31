@@ -13,6 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`rb6-target-blind-spectral-grammar-2026-07-30.md`](rb6-target-blind-spectral-grammar-2026-07-30.md)
+  executes RB5's source-concomitant gate. Vertical Ricci, trace reversal,
+  and two curvature-square contractions give the first target-blind typed
+  DeWitt-self-adjoint words on the actual symmetric metric fibre. On the
+  conditional W177 branch they collapse at the finite-difference floor to
+  the trace/traceless algebra \(\operatorname{span}\{I,T_{\rm tr}\}\):
+  sign sectors have ranks \(0,1,9\), never negative-definite rank four, and
+  no nonzero commutator \(Q\) is resolved. Under the conditional ambient-YM
+  identification, the two curvature squares are also evaluable action-owned
+  Gram words and fail the same gate. The written distortion, IG curvature,
+  vertical connection, and section fields nevertheless admit formula-level
+  \(H_\theta,H_F,H_{II}\) and exact skew commutators; their common stationary
+  values and polar branch are unevaluated. The W177 ambient background
+  remains nonstationary, so no physical Hessian or mass is read. P1/P2/P3
+  and all five-leg boundaries remain unchanged.
 - [`rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md)
   executes the first RB4 ownership test. The explicit RB3 finite-local
   \(G/\operatorname{Spin}_0(9,5)\) Clifford-plane orbit cannot descend to

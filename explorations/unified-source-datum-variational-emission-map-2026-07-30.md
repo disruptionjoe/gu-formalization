@@ -664,3 +664,92 @@ closure, and analytic domain exist.
 
 See
 [`rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md).
+
+## RB6 correction: formula-complete \(H/Q\) emission maps
+
+RB6 corrects the final sentence above. The frozen N1/N3 field register does
+not contain independent \(H,Q\) fields, but several already varied fields
+admit target-blind composite emission maps on the actual
+\(\operatorname{Sym}^2T^*X\) vertical fibre.
+
+With vertical DeWitt metric \(G_V\) and invariant adjoint pairing
+\(\kappa_{\mathfrak g}\),
+
+\[
+B^\theta_{ij}
+=\kappa_{\mathfrak g}(\theta_i,\theta_j),
+\qquad
+H_\theta=G_V^{-1}B^\theta,
+\]
+
+\[
+B^F_{ij}
+=G_V^{k\ell}\kappa_{\mathfrak g}(F_{ik},F_{j\ell}),
+\qquad
+H_F=G_V^{-1}B^F,
+\]
+
+and, after the declared normal--vertical graph identification,
+
+\[
+H_{II}=II_sII_s^\dagger.
+\]
+
+The covariant tensors \(B^\theta,B^F\) are symmetric, so the corresponding
+endomorphisms are exactly DeWitt-self-adjoint. Any two independently emitted
+words give
+
+\[
+Q_{ab}=[H_a,H_b],
+\qquad
+Q_{ab}^{\dagger_{G_V}}=-Q_{ab}.
+\]
+
+Their first variations are therefore formula-complete:
+
+\[
+\dot H_\theta
+=\dot G_V^{-1}B^\theta
++G_V^{-1}
+\left[
+\kappa(\dot\theta_i,\theta_j)
++\kappa(\theta_i,\dot\theta_j)
+\right],
+\]
+
+\[
+\dot Q_{ab}
+=[\dot H_a,H_b]+[H_a,\dot H_b].
+\]
+
+These derivatives feed the RB5 spectral/polar chain rule without adding
+independent \(H,Q\) Euler variables.
+
+On the conditional W177
+\(A_0=\operatorname{spinlift}(\nabla^{\rm gimmel})\)
+ambient-Yang--Mills branch, the all-leg and pure-vertical curvature Gram
+words are evaluable. They collapse at the finite-difference floor to the
+trace/traceless algebra \(\operatorname{span}\{I,T_{\rm tr}\}\), return
+negative ranks \(0,1,9\) rather than a negative-definite rank four, and
+resolve no nonzero commutator above the declared concomitant floor. The same
+background has the already-established nonzero isolated-Yang--Mills
+residual \(3.19904137\), so no physical Hessian is admitted there.
+
+The corrected N3 boundary is:
+
+```text
+source-to-H/Q TYPE/FORMULA:               BUILT
+W177 curvature-Gram evaluation:           BUILT / NONSELECTING
+common theta/F/II retained background:    UNBUILT
+coupled stationary orbit:                 UNBUILT
+uniform sign/polar gaps:                  UNBUILT
+composite chain-rule insertion:           FORMULA BUILT / UNEVALUATED
+```
+
+No action row is satisfied merely by this type construction. The next
+variation must insert these words into a finite target-blind non-metric
+ansatz, derive the coupled stationary equations, and only then evaluate the
+spectral/polar flag and its BV chain rule.
+
+See
+[`rb6-target-blind-spectral-grammar-2026-07-30.md`](rb6-target-blind-spectral-grammar-2026-07-30.md).

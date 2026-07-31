@@ -1408,3 +1408,65 @@ rule.
 
 P1/P2 and P3 remain unchanged. See
 [`rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md).
+
+## RB6 field-register correction
+
+RB6 constructs the first target-blind endomorphism adapters from the
+existing field register. On the actual trace-reversed
+\(\operatorname{Sym}^2T^*X\) fibre:
+
+\[
+H_\theta
+=G_V^{-1}\big(\kappa(\theta_i,\theta_j)\big),
+\qquad
+H_F
+=G_V^{-1}
+\big(G_V^{k\ell}\kappa(F_{ik},F_{j\ell})\big),
+\]
+
+and, after the separately required normal--vertical graph identification,
+
+\[
+H_{II}=II_sII_s^\dagger.
+\]
+
+These are not new independent fields. They are composite, DeWitt-self-adjoint
+words in already written distortion, curvature, and section geometry. Pairs
+of them emit the exact DeWitt-skew candidate
+
+\[
+Q_{ab}=[H_a,H_b].
+\]
+
+This changes `NO-TYPED-H/Q-ADAPTER` to
+`ACTION-H/Q-FORMULAS-TYPED/UNEVALUATED`.
+
+The first evaluable conditional action-owned representatives are the all-leg
+and pure-vertical curvature Gram words on the W177
+\(A_0=\operatorname{spinlift}(\nabla^{\rm gimmel})\) ambient-Yang--Mills
+branch. Together with Ricci and trace reversal they reduce, at the declared
+finite-difference resolution, to the \(1\oplus9\) trace/traceless algebra.
+They return no negative-definite rank-four sector and no resolved nonzero
+polar \(Q\). The fitted isotropy representatives commute exactly. The W177
+background is also nonstationary in the isolated ambient-Yang--Mills sector,
+so its spectra are not masses or a physical Hessian.
+
+The ownership decision tree is now:
+
+```text
+invariant W177 geometry/source curvature owns flag:
+    REFUTED FOR THE TESTED LOW-ORDER GRAMMAR
+non-metric theta/F/II composites at a coupled stationary orbit:
+    TYPED / UNEVALUATED
+refined epsilon_flag with a stable Euler/BV orbit:
+    TYPED / UNEVALUATED
+no stationary composite or quotient:
+    frozen flag remains a new continuous external spurion
+```
+
+The datum ledger does not change. P1/P2 remains the conditional orientation
+line and P3 remains the separate relative real-\(KO\) input. Spectral ranks,
+trace/traceless multiplicities, and commutator nullities are not counts.
+
+See
+[`rb6-target-blind-spectral-grammar-2026-07-30.md`](rb6-target-blind-spectral-grammar-2026-07-30.md).

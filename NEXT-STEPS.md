@@ -7,6 +7,84 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB6 TARGET-BLIND SOURCE-CONCOMITANT DISPOSITION.**
+> [`explorations/rb6-target-blind-spectral-grammar-2026-07-30.md`](explorations/rb6-target-blind-spectral-grammar-2026-07-30.md)
+> corrects RB5's type boundary and executes its contraction/ownership gate.
+> The actual vertical bundle
+> \(VY\simeq\pi^*\operatorname{Sym}^2T^*X\), its DeWitt metric, and
+> canonical vertical inclusion turn symmetric covariant vertical tensors
+> into typed self-adjoint endomorphisms. On the conditional W177 branch this
+> constructs
+> \[
+> H_{\rm Ric}=G_V^{-1}\operatorname{Ric}_{VV},
+> \qquad
+> H_{R^2}=G_V^{-1}(R_{IABC}R_J{}^{ABC})_{VV},
+> \]
+> together with Einstein, restricted ambient-tracefree,
+> vertical-tracefree, and vertical-only curvature-square rivals.
+>
+> These words are target-blind but nonselecting. They fit the
+> two-dimensional algebra
+> \(\operatorname{span}\{I,T_{\rm tr}\}\) at the W177 and nearby-point
+> finite-difference floor. Their sign sectors have negative ranks
+> \(0,1,\) or \(9\), with the rank-nine sector carrying DeWitt inertia
+> \((6,3)\), never the required negative-definite \((0,4)\). Every
+> non-scalar word retains a 36-dimensional
+> \(\mathfrak{so}(6,4)\) centralizer. The raw commutator norms are
+> `3.7e-7` to `8.4e-7`, below the declared `2e-5` concomitant resolution;
+> no nonzero \(Q\) is resolved, while the fitted isotropy representatives
+> commute exactly.
+>
+> Under the declared
+> \(A_0=\operatorname{spinlift}(\nabla^{\rm gimmel})\)
+> ambient-Yang--Mills identification, the all-leg and vertical-only
+> curvature squares are also the first evaluable action-owned curvature
+> Gram words, up to invariant-pairing normalization. They fail the same
+> selection gate. The isolated W177 background remains nonstationary:
+> \(\|D_{A_0}^*F_{A_0}\|=3.19904137\), so no displayed spectrum is a
+> physical Hessian or mass.
+>
+> The full source route remains constructive. The written distortion,
+> independent IG curvature, retained vertical connection, and section
+> geometry admit formula-complete words
+> \[
+> H_\theta
+> =G_V^{-1}\kappa(\theta_i,\theta_j),
+> \quad
+> H_F
+> =G_V^{-1}G_V^{k\ell}\kappa(F_{ik},F_{j\ell}),
+> \quad
+> H_{II}=II_sII_s^\dagger,
+> \]
+> and any two give the exact DeWitt-skew
+> \(Q_{ab}=[H_a,H_b]\). Their common retained values, stationary orbit,
+> normal--vertical identification, uniform gaps, and polar branch are
+> unevaluated.
+>
+> **Next efficient wave, in dependency order:**
+>
+> 1. Insert \(H_\theta,H_F,H_{II}\) into the N3 action/variation ledger,
+>    with every reduction, pairing, coefficient, and chain-rule adjoint.
+> 2. Freeze the smallest target-blind non-metric ansatz for
+>    \((\theta,F,II_s)\) and declare its free-parameter count before solving
+>    anything.
+> 3. Derive the coupled connection/distortion/section Euler equations and
+>    solve for stationary orbits that can cancel the W177 residual.
+> 4. Only on those orbits, measure the predeclared \(H_a\) sign sectors and
+>    test every \(Q_{ab}\) for the positive-real polar branch.
+> 5. Compare the all-leg/pure-vertical and \(II/II_0\) rivals, compute
+>    constraint surplus, then run the chain-rule BV, global complex-volume,
+>    SM/Yukawa, gravity/cosmology, causality, and P3 gates.
+>
+> Current boundary:
+> `W177-INVARIANT-H-TYPED/EVALUATED/NONSELECTING`,
+> `W177-NONZERO-Q-NOT-RESOLVED`,
+> `ACTION-H/Q-FORMULAS-TYPED/UNEVALUATED`,
+> `W177-PHYSICAL-HESSIAN-KILLED`,
+> `SOURCE-DERIVED-FLAG-OPEN-AT-STATIONARY-ORBIT`.
+> P1/P2/P3 remain unchanged. No compactification, VEV, mass, cosmological
+> value, anomaly, index, or generation count is claimed.
+>
 > **2026-07-30 RB5 FLAG-OWNERSHIP / SPECTRAL-PREFLIGHT
 > DISPOSITION.**
 > [`explorations/rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](explorations/rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md)
