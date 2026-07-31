@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`g2-field-space-native-variational-shiab-2026-07-31.md`](g2-field-space-native-variational-shiab-2026-07-31.md)
+  freezes the guided field graph and installs the native trace-adapted
+  density-dual Shiab in the source action. The draft-style fixed-linear
+  source shortcut fails its cyclic/Helmholtz gate, but exact variation of the
+  written action survives with a symmetric linear operator and a necessary
+  two-input cubic Euler map. G3 must use this corrected Euler packet in the
+  complete metric/reduction/section/boundary and BV--BFV variation.
 - [`g1-derivative-cocycle-moving-reference-2026-07-31.md`](g1-derivative-cocycle-moving-reference-2026-07-31.md)
   executes the first reordered guided swing. The full `dg`-bearing connection
   cocycle retains the tilted algebra; the native Levi--Civita and RB3

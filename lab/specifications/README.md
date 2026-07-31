@@ -14,3 +14,6 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
 - `g1-global-tilted-moving-reference-packet-2026-07-31.md` — G1's typed derivative-cocycle,
   moving Levi--Civita/reductive reference, patch/groupoid, quotient-level, stabilizer, and G2
   field-policy contract.
+- `g2-source-field-and-variational-shiab-packet-2026-07-31.md` — G2's selected connection/reduction
+  field graph, native trace-adapted density-dual contraction, exact slot-symmetrized Euler map,
+  killed fixed-linear source shortcut, and complete G3 graph/boundary handoff.

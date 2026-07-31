@@ -7,6 +7,21 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 G2 FIELD-SPACE/NATIVE-VARIATIONAL-SHIAB PASS WITH
+> SOURCE-FORMULA CORRECTION (BRANCH-LOCAL).** The selected guided field graph
+> is now explicit: `A` is the free endpoint connection,
+> `B=A_LC(epsilon_red,g_DW)` is a graph-constrained moving Levi--Civita
+> connection, and `T=A-B` is derived. The native trace-adapted density-dual
+> Shiab has been placed in the written fourteen-form first-order action. Its
+> fixed-linear Chern--Simons shortcut fails the required cyclic/Helmholtz
+> identities, so the compressed source `S(F_A)+kappa_1 flat(T)` is killed for
+> this map. The action itself survives: exact variation produces the symmetric
+> linear operator `1/2(L+L^!)` and a necessary two-input cubic Euler map
+> `M_epsilon(T,T)`. G3 is next and must vary that corrected action through the
+> reduction, metric, section, LC graph, Hodge/density, and boundary data before
+> testing coupled Noether and minimal BV--BFV closure. See
+> `explorations/g2-field-space-native-variational-shiab-2026-07-31.md`.
+
 > **2026-07-31 G1 DERIVATIVE-COCYCLE/MOVING-REFERENCE PASS
 > (BRANCH-LOCAL).** The genuine connection cocycle
 > `q_A(g)=A-Ad_g(A)+(dg)g^-1` retains the tilted homomorphism and
