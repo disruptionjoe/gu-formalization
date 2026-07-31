@@ -106,7 +106,19 @@
       "curt_track": "Observation-map and deformation-complex reconstruction.",
       "repo_construction": "L,R,L^vee,L^!,sharp_Y,sharp_X with global descent and nonlinear leakage.",
       "kill": "The observation image or selected reality/domain is not dynamically preserved.",
-      "exit": "One conditional physical-domain functor for each datum d."
+      "exit": "One conditional physical-domain functor for each datum d.",
+      "result": {
+        "status_boundary": "DECISIVE_FINITE_MAP_AND_LEAKAGE_GATE_ONLY__ACTUAL_Y14_FUNCTOR_OPEN",
+        "field_retract": "R L=1_DOES_NOT_IMPLY_L R=1",
+        "equation_dual": "L^vee_TYPED_SEPARATELY_FROM_R",
+        "riesz_adjoint": "L^!=sharp_X L^vee flat_Y_TYPED_ON_FROZEN_ACTIVE_REAL_PAIRINGS",
+        "observed_equation_sufficiency": "KILLED_BY_LINEAR_AND_NONLINEAR_PAIRED_OPERATOR_WITNESSES",
+        "required_gate": "(1-LR)E_YL=0_IN_ADDITION_TO_R_E_Y_L=E_X",
+        "registry": "lab/process/eric-curt-wave3a-observation-dual-leakage.json",
+        "probe": "tests/channel-swings/eric_curt_wave3a_observation_dual_leakage_probe.py",
+        "report": "explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md",
+        "next_swing": "ECW3B-GLOBAL-DESCENT-DOMAIN-QUOTIENT"
+      }
     },
     {
       "id": "ECW4-EINSTEIN-DIRAC",

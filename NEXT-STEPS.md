@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A GATE
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -44,13 +44,22 @@ updated_at: "2026-07-31"
 > monomials. The source slice has one projective parameter, support-ablation
 > rank is four, and support surplus is zero; physical surplus remains deferred
 > until observation and the later action layers. Its exact probe passes
-> `33 exact + 9 planted = 42`. The next run is `ECW3-G4-OBSERVATION`, not a
-> restart of the action search.
+> `33 exact + 9 planted = 42`. Wave 3A now freezes the observation-map gate:
+> `R L=1`, the algebraic equation dual `L^vee`, and the pairing-dependent
+> Krein adjoint `L^!` are distinct data. Exact paired linear and nonlinear
+> witnesses have the same induced equation `R E_Y L=E_X`, while one has
+> nonzero off-image leakage `(1-LR)E_YL`. Thus equation recovery alone cannot
+> establish a physical domain. The Wave 3A probe passes `34 exact + 11 planted
+> = 45`; the actual global section, closed Krein domain, polarization, and
+> preboundary quotient remain open. The next run is
+> `ECW3B-GLOBAL-DESCENT-DOMAIN-QUOTIENT`, not a restart of the action search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
 > `explorations/eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md`
 > and
+> `explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md` and
+>
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
 > **2026-07-31 PAIRED CURT--ERIC AXIOM / TWO-ACTION CORRECTION

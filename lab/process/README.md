@@ -67,6 +67,10 @@ Runbooks:
   quotient of six A/B-written candidates by two identities to four terms,
   with coefficient dimensions, support-ablation rank, carrier ports, and the
   deferred physical-surplus boundary.
+- `eric-curt-wave3a-observation-dual-leakage.json` - exact Wave 3A finite gate
+  separating field retract, algebraic equation dual, and Krein-Riesz adjoint;
+  paired linear and nonlinear ambient operators prove that a correct observed
+  equation does not imply preservation of the lifted observation image.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3A observation-dual and leakage gate`](eric-curt-wave3a-observation-dual-leakage-2026-07-31.md)
+  types the field retract, equation dual, and active-real Krein adjoint
+  separately. Exact paired linear and nonlinear witnesses induce the same
+  four-dimensional equation while only one preserves the lifted image, so
+  `R E_Y L=E_X` is insufficient without `(1-LR)E_YL=0`. The actual global
+  section, domain, polarization, and preboundary quotient remain open; Curt
+  stays a rival track and no third lane is promoted.
+
 - [`Eric/Curt Wave 2b first-layer term quotient and ablation`](eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md)
   uses Curt's actual trace-line and split-spinor reasoning to prioritize the
   vertical-sign `(7,7)` comparator, then completes the frozen G2 first-layer
