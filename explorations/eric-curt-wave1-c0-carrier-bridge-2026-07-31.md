@@ -226,6 +226,20 @@ Those are charged choices, not free successes.
 | cosmology/dark sector | untouched |
 | P1/P2/P3 | carried without consumption; no count inference |
 
+## Source-priority correction after transcript reinspection
+
+Curt's detailed argument does distinguish the two arithmetic comparators.
+He explicitly places the choice on the vertical trace line, choosing vertical
+`(4,6)` and then motivating total `(7,7)` through the split spin
+representation. The source-directed comparator is therefore
+`R77_VERTICAL_FLIP`; `R77_BASE_FLIP` is retained only as a hostile control.
+
+This does not close the source dictionary. With one ordered signature
+convention, spoken `(4,6)+(1,3)` gives `(5,9)`. The minimal reconstruction is
+that the chimeric `H*` contribution enters as `(3,1)`, giving `(7,7)`, but the
+transcript does not state that map. C0's real-form non-equivalence remains;
+only the ordering of its rival branches changes.
+
 ## Third-lane verdict
 
 - `TG-1 CARRIER`: **partial evidence only**. Literal real `(7,7)` is

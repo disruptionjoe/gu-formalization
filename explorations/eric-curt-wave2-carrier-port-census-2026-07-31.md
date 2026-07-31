@@ -1,13 +1,13 @@
 ---
-title: "Eric/Curt Wave 2: carrier-port census before the term-rank computation"
-status: partial_construction_result
+title: "Eric/Curt Wave 2: carrier-port census and frozen-class continuation"
+status: construction_result
 doc_type: exploration
 created: 2026-07-31
 run: lab/process/runs/GUH-20260731T183007Z-eric-curt-wave2-carrier-port-census/run-plan.md
 campaign: lab/process/eric-curt-ten-wave-campaign.json
 registry: lab/process/eric-curt-wave2-carrier-port-census.json
 probe: tests/channel-swings/eric_curt_wave2_carrier_port_census_probe.py
-grade: "EXACT for affine identities, trace-reversal sign invariance, Hodge-square parity, finite indefinite-adjoint commutator control, dependency/status checks, and primitive inventory. RECONSTRUCTION for cross-carrier port classification. No full term-space rank, surplus, carrier/action selection, or physical recovery."
+grade: "EXACT for affine identities, trace-reversal sign invariance, Hodge-square parity, finite indefinite-adjoint commutator control, dependency/status checks, and primitive inventory. RECONSTRUCTION for cross-carrier port classification. Wave 2b separately completes the frozen G2 first-layer quotient and support ablation; no carrier/action selection or physical recovery."
 ---
 
 # Eric/Curt Wave 2: carrier-port census
@@ -36,10 +36,11 @@ The complex container helps only with complex representation dimensions. It
 does not select a real form, physical adjoint, charge conjugation, Krein
 majorant, or right-quaternionic structure.
 
-Wave 2 is therefore honestly **partial**. It has frozen the 22-primitive port
-matrix, but it has not yet computed the full branch-specific action-term rank,
-independent coefficient count, or ablation matrix. Its constraint surplus is
-`SURPLUS-UNCOMPUTABLE`, not zero.
+This census was therefore honestly **partial at issuance**. It froze the
+22-primitive port matrix without pretending that the primitive count was a
+term rank or surplus. Wave 2b has now completed the narrower, frozen G2
+first-layer quotient; the completion is recorded below and in the linked
+Wave 2b report.
 
 ## Four retained branch readings
 
@@ -50,8 +51,11 @@ independent coefficient count, or ablation matrix. Its constraint surplus is
 | `R77_VERTICAL_FLIP` | total `(7,7)` comparator obtained by changing the vertical-block sign |
 | `C14_COMMON` | common `M(128,C)` complexification with no chosen real/reality reduction |
 
-The two `(7,7)` rows expose the unresolved source convention. They are not two
-new theories and do not imply Curt intended either formula.
+The two `(7,7)` rows expose the unresolved source convention. Transcript
+reinspection now makes `R77_VERTICAL_FLIP` the source-preferred minimal
+completion because Curt explicitly chooses the vertical trace-line sign.
+`R77_BASE_FLIP` remains a hostile arithmetic comparator, not a second theory.
+The dual-horizontal `H*` sign/order map remains reconstruction-grade.
 
 ## Exact portable core
 
@@ -150,9 +154,9 @@ Wave 2 covers `CI-13`--`CI-18` and `CI-29` as candidate prompts:
 Curt's steps therefore improve coverage without selecting a third lane or
 silently overriding the active action.
 
-## Constraint-surplus status
+## Constraint-surplus status at census issuance
 
-`SURPLUS-UNCOMPUTABLE` is mandatory here. The complete term list has not yet
+`SURPLUS-UNCOMPUTABLE` was mandatory here. The complete term list had not yet
 been quotiented by:
 
 - algebraic tensor symmetries;
@@ -181,12 +185,16 @@ physics families.
 
 ## Next swing
 
-`ECW2b-TERM-RANK-ABLATION` should construct the complete invariant monomial
-space through the declared derivative order on each branch, quotient it by
-identities and integration by parts, compute independent coefficient rank,
-and ablate terms against gravity, gauge, odd current, Higgs carrier,
-domain/quantum, and cosmology obligations. Only that result can close Wave 2
-and release Wave 3.
+Wave 2b has now returned six `A/B`-written candidates, two exact relations,
+and a four-dimensional quotient for the frozen G2 first-layer class. Its four
+support-ablation obligations also have rank four, so support surplus is zero;
+physical surplus remains deferred. See
+[`eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md`](eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md).
+
+The next swing is `ECW3-G4-OBSERVATION`: construct the observation retract,
+equation dual, nonlinear leakage test, closed domain, gauge/preboundary
+quotient, and branch-port ledger on the active construction while retaining
+the source-preferred `(7,7)` comparator honestly at schema grade.
 
 ## Nonclaims
 

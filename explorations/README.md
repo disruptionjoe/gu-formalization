@@ -13,15 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 2b first-layer term quotient and ablation`](eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md)
+  uses Curt's actual trace-line and split-spinor reasoning to prioritize the
+  vertical-sign `(7,7)` comparator, then completes the frozen G2 first-layer
+  quotient. Six A/B-written candidates modulo two exact identities give four
+  monomials; support-ablation rank is four and support surplus is zero, while
+  physical surplus remains downstream of observation and later action layers.
+
 - [`Eric/Curt Wave 2 carrier-port census`](eric-curt-wave2-carrier-port-census-2026-07-31.md)
   freezes 22 primitives across the active real `(9,5)` carrier, two
   source-ambiguous real `(7,7)` comparators, and the common complex container.
   Only the vertical sequence, trace reversal, IG grammar, derivative cocycle,
   and homogeneous distortion transfer exactly. Every metric, Hodge, Clifford,
   Krein/reality, Shiab, action-pairing, adjoint, residual-square, and odd-action
-  realization must be ported or rebuilt. This is a partial Wave 2 result:
-  term-space rank, coefficient rank, constraint rank, and ablation remain the
-  next swing, so surplus is not yet computable and no lane is promoted.
+  realization must be ported or rebuilt. The linked Wave 2b result completes
+  the bounded first-layer quotient; no lane or carrier is promoted.
 
 - [`Eric/Curt ten-wave campaign and Wave 1 C0 result`](eric-curt-wave1-c0-carrier-bridge-2026-07-31.md)
   keeps Curt's iceberg as a tagged rival/checklist inside the Eric lane and

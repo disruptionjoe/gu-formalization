@@ -2,8 +2,8 @@
 """Exact controls for the Eric/Curt Wave 2 carrier-port census.
 
 This probe certifies the ownership table and four small algebraic facts used by
-the census.  It does not compute the still-open monomial quotient, coefficient
-rank, constraint rank, or ablation matrix.
+the census.  The subsequent Wave 2b probe owns the frozen first-layer monomial
+quotient, coefficient rank, support ablation, and surplus result.
 """
 
 from __future__ import annotations
@@ -82,8 +82,8 @@ def main() -> None:
     vocabulary = set(registry["status_vocabulary"])
     wave2 = next(row for row in campaign["waves"] if row["id"] == registry["wave"])
 
-    exact("registry is explicitly partial", registry["status"] == "PARTIAL_PORT_CENSUS_COMPLETE__TERM_RANK_AND_ABLATION_OPEN")
-    exact("campaign Wave 2 records the same partial status", wave2["status"] == registry["status"])
+    exact("registry records the completed Wave 2b frozen-class continuation", registry["status"] == "PORT_CENSUS_COMPLETE__WAVE2B_FROZEN_G2_FIRST_LAYER_QUOTIENT_COMPLETE")
+    exact("campaign Wave 2 records the frozen-class exit", wave2["status"] == "COMPLETE_FROZEN_G2_FIRST_LAYER_TERM_QUOTIENT__LATER_ACTION_CLASSES_REMAIN_OWNED")
     exact("four carrier branches are frozen", set(registry["branches"]) == {"R95_ACTIVE", "R77_BASE_FLIP", "R77_VERTICAL_FLIP", "C14_COMMON"})
     exact("twenty-two primitive identifiers are unique", len(primitives) == len(registry["primitives"]) == 22)
     exact("every classification belongs to the declared vocabulary", all(row["classification"] in vocabulary for row in primitives.values()))
@@ -99,10 +99,11 @@ def main() -> None:
     exact("residual square remains pairing-dependent", primitives["CP-21"]["classification"] == "BRANCH_NATIVE_PORT")
     exact("odd action remains active-built and physically unclaimed", primitives["CP-22"]["classification"] == "ACTIVE_BUILT_OTHER_BRANCHES_OPEN" and "no branch transfer or physical mass" in primitives["CP-22"]["wave2_use"])
     exact("Curt step ownership is frozen", registry["curt_steps"] == ["CI-13", "CI-14", "CI-15", "CI-16", "CI-17", "CI-18", "CI-29"])
-    exact("constraint surplus is not fabricated", registry["constraint_surplus"]["status"] == "SURPLUS_UNCOMPUTABLE")
+    exact("historical port census did not fabricate surplus", registry["constraint_surplus"]["status"] == "SURPLUS_UNCOMPUTABLE")
     exact("next computation contains quotient rank and ablation", all(any(token in item for item in registry["constraint_surplus"]["next_computation"]) for token in ["quotient", "term-space rank", "coefficient count", "ablate"]))
     exact("Wave 2 has no third-lane effect", registry["third_lane_effect"].startswith("NONE") and campaign["third_lane_promotion_gate"]["current_verdict"] == "NOT_PROMOTED")
-    exact("next swing is term-rank ablation", registry["next_swing"].startswith("ECW2b-TERM-RANK-ABLATION"))
+    exact("Wave 2b registry is linked", registry["wave2b"] == "lab/process/eric-curt-wave2b-term-rank-ablation.json")
+    exact("next swing is observation", registry["next_swing"].startswith("ECW3-G4-OBSERVATION"))
 
     # Exact affine-gauge control: derivative shifts cancel only in A-B.
     g: Matrix = [[Q(2), Q(1)], [Q(1), Q(1)]]
@@ -157,7 +158,7 @@ def main() -> None:
     print(f"ERIC-CURT-WAVE2-PORT-CENSUS: {exact_checks} exact checks + {planted_checks} planted failures = {exact_checks + planted_checks} PASS")
     print("RESULT: affine IG, distortion, trace reversal, and the underlying bundle grammar port exactly")
     print("RESULT: metric, Hodge, Clifford, Krein/reality, action pairings, adjoints, and residual squares require branch-native ports")
-    print("STATUS: Wave 2 remains partial until term-space rank, coefficient rank, constraint rank, and ablation are computed")
+    print("STATUS: this port census remains the ownership input; Wave 2b now closes the frozen G2 first-layer quotient and releases Wave 3")
     print("LANE: no third lane; literal real (7,7) comparators remain rival carrier readings inside the Eric lane")
 
 

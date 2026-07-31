@@ -91,6 +91,25 @@ Klein--Gordon construction and is piecing it together. At
 Yang--Mills formulas his current understanding. Those are not throwaway
 caveats; they set the source grade.
 
+## Transcript correction: why Curt chooses `(7,7)`
+
+A second, narrower transcript pass changes the priority inside the signature
+fork. At `00:39:55--00:40:53`, Curt decomposes the ten-dimensional symmetric
+fibre into trace and traceless pieces, assigns the traceless piece `(3,6)`,
+and deliberately chooses the trace-line sign yielding vertical `(4,6)` rather
+than `(3,7)`. At `00:40:53--00:42:43`, he motivates the resulting total by the
+split `Spin(7,7)` spin representation, its real dimension 128, and its proposed
+capacity to carry gauge and fermion structure. This is an actual argument for
+the choice, not bare signature arithmetic.
+
+One Layer-0 gap survives. Under a fixed positive/negative ordered convention,
+the spoken `(4,6)+(1,3)` is `(5,9)`. The minimal completion consistent with
+the chimeric `H*` construction is `(4,6)+(3,1)=(7,7)`, but the transcript does
+not type that dual-horizontal sign/order map. Consequently the vertical-sign
+comparator is now source-preferred, the base-sign comparator is only hostile,
+and neither is source-verified as a complete metric formula. See
+[`curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md`](curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md).
+
 ## Paired-source supersession: the follow-up corrects the architecture
 
 This report's original single-exposition reading is superseded on action

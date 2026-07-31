@@ -47,6 +47,11 @@ These sources are useful for provenance, terminology, chronology, and locating c
     preserves the signature/real-form/group-selection/generation forks, and
     inserts the bounded C0 chimeric/Zorro bridge before the global observation
     packet. It does not promote Curt's PDE reconstructions to primary formulas.
+- [`curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md`](curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md)
+  - re-reads Curt's trace/traceless, vertical-sign, dual-horizontal, and
+    split-spinor argument at the exact transcript windows. It makes the
+    vertical-sign `(7,7)` comparator source-preferred while retaining the
+    untyped `H*` sign/order conversion as a Layer-0 gap.
 - [`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md)
   - reads the iceberg together with Weinstein's subsequent corrections and
     independent UCSD restatement. It records 40 graded axioms, nine recovery

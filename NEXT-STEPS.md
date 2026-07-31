@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 PORT
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -18,26 +18,39 @@ updated_at: "2026-07-31"
 > `Cl(7,7)=M(128,R)` is not the active
 > `Cl(9,5)=M(64,H)` real form. Both complexify to `M(128,C)`, which preserves a
 > complex container but does not transport the right-`H`/Krein/reality data.
-> Layer 0 also catches that Curt's reported ordered blocks `(4,6)+(1,3)` do
-> not literally sum to `(7,7)` under one convention; block-sign attribution
-> remains `UNCERTAIN`. Thus the literal real-signature reading supplies only
+> Transcript reinspection now recovers Curt's actual reason for choosing the
+> branch: the vertical trace/traceless split admits `(4,6)` or `(3,7)`, he
+> deliberately chooses `(4,6)`, and he wants the split `Spin(7,7)` spin
+> representation as a joint gauge/fermion carrier. The missing last map is
+> narrower: spoken `(4,6)+(1,3)` does not literally sum to `(7,7)` under one
+> convention, while the minimal chimeric completion `(4,6)+(3,1)` does.
+> Curt never types that `H*` sign/order conversion. Therefore
+> `R77_VERTICAL_FLIP` is source-preferred and `R77_BASE_FLIP` only a hostile
+> comparator, while the source dictionary remains partly uncertain. Thus the
+> literal real-signature reading supplies only
 > partial `TG-1` evidence and does not clear its convention check; dynamics and
 > discriminator gates also remain open:
 > Curt stays inside the Eric lane. The exact Wave 1 probe passes `36 exact + 9
-> planted = 45`. Wave 2's first half now freezes a 22-primitive port census
+> planted = 45`. Wave 2 freezes a 22-primitive port census
 > over the active `(9,5)`, two source-ambiguous real `(7,7)` comparators, and
 > the common complex container. Only the underlying vertical sequence, trace
 > reversal, IG grammar, derivative cocycle, and homogeneous distortion port
 > exactly. Metric musical, vertical metric, Hodge, Clifford, Krein/reality,
 > Shiab, pseudo-musical, action pairings, Euler/Green/Ward realizations,
 > RB6 evaluations, residual square, and odd bilinear are branch-native or
-> schema-only. Its exact probe passes `30 exact + 8 planted = 38`.
-> Constraint surplus remains `SURPLUS_UNCOMPUTABLE`: next run
-> `ECW2b-TERM-RANK-ABLATION`, generating and quotienting the complete
-> carrier-specific monomial spaces before any coefficient or surplus claim.
+> schema-only. Its ownership probe passes after the Wave 2b continuation.
+> Wave 2b then freezes the existing G2 first-layer action class: six
+> `A/B`-written candidates modulo two exact relations give four independent
+> monomials. The source slice has one projective parameter, support-ablation
+> rank is four, and support surplus is zero; physical surplus remains deferred
+> until observation and the later action layers. Its exact probe passes
+> `33 exact + 9 planted = 42`. The next run is `ECW3-G4-OBSERVATION`, not a
+> restart of the action search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
+> `explorations/eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md`
+> and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
 > **2026-07-31 PAIRED CURT--ERIC AXIOM / TWO-ACTION CORRECTION

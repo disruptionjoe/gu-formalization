@@ -63,6 +63,10 @@ Runbooks:
 - `g3-variational-bvbfv-certificate.json` - branch-local machine-readable G3 certificate for graph-complete variation, coupled first-jet Noether closure, preboundary geometry, the forced nonabelian ghost-antifield term, and G4 domain/polarization handoff.
 - `geometry-first-orthodoxy-ten-lens-council.json` - branch-local provenance audit and ten separate specialist odds comparing the Eric-guided and independent source-action architectures without aggregating heterogeneous lens judgments.
 - `eric-native-physics-equation-replacement-atlas.json` - branch-local fifteen-row registry mapping familiar physics jobs and equations to the G2/G3 native parent, observation/equation-dual obligations, construction/kill tests, and conditional datum ownership.
+- `eric-curt-wave2b-term-rank-ablation.json` - exact frozen G2 first-layer
+  quotient of six A/B-written candidates by two identities to four terms,
+  with coefficient dimensions, support-ablation rank, carrier ports, and the
+  deferred physical-surplus boundary.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

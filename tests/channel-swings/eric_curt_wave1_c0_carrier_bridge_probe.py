@@ -312,7 +312,7 @@ def main() -> None:
     exact("Wave 1 records local completion and open global naturality", waves["ECW1-C0-CARRIER"]["status"] == "COMPLETE_LOCAL_CARRIER_NON_EQUIVALENCE__GLOBAL_NATURALITY_OPEN")
     exact("every later dependency resolves", all(set(row["depends_on"]) <= set(waves) for row in waves.values()))
     exact("every wave has an objective kill and exit", all(row["objective"] and row["kill"] and row["exit"] for row in waves.values()))
-    exact("physics atlas routes to the ten-wave campaign", atlas["eric_curt_ten_wave_campaign"]["registry"] == "lab/process/eric-curt-ten-wave-campaign.json" and atlas["eric_curt_ten_wave_campaign"]["next_wave"].startswith(("ECW2-G3.5-CENSUS", "ECW2b-TERM-RANK-ABLATION")))
+    exact("physics atlas routes to the ten-wave campaign", atlas["eric_curt_ten_wave_campaign"]["registry"] == "lab/process/eric-curt-ten-wave-campaign.json" and atlas["eric_curt_ten_wave_campaign"]["next_wave"].startswith(("ECW2-G3.5-CENSUS", "ECW2b-TERM-RANK-ABLATION", "ECW3-G4-OBSERVATION")))
     exact("Curt crosswalk records no third-lane promotion", curt_crosswalk["c0_execution"]["third_lane"].startswith("NOT_PROMOTED") and "UNCERTAIN" in curt_crosswalk["c0_execution"]["source_dictionary"])
 
     exact("trace reversal is an involution in dimension four", matrix_equal(matmul(TAU10, TAU10), identity(10)))

@@ -60,7 +60,7 @@
     },
     {
       "id": "ECW2-G3.5-CENSUS",
-      "status": "PARTIAL_PORT_CENSUS_COMPLETE__TERM_RANK_AND_ABLATION_OPEN",
+      "status": "COMPLETE_FROZEN_G2_FIRST_LAYER_TERM_QUOTIENT__LATER_ACTION_CLASSES_REMAIN_OWNED",
       "depends_on": ["ECW1-C0-CARRIER"],
       "objective": "Enumerate and ablate every carrier-native local action monomial without physics target labels.",
       "curt_steps": ["CI-13", "CI-14", "CI-15", "CI-16", "CI-17", "CI-18", "CI-29"],
@@ -72,17 +72,33 @@
       "result": {
         "portable_exact_core": ["CP-01", "CP-04", "CP-11", "CP-12", "CP-13"],
         "branch_native_port_count": 14,
-        "constraint_surplus": "SURPLUS_UNCOMPUTABLE_UNTIL_COMPLETE_MONOMIAL_QUOTIENT_COEFFICIENT_RANK_CONSTRAINT_RANK_AND_ABLATION",
-        "status_boundary": "PORT_OWNERSHIP_CENSUS_COMPLETE__FULL_WAVE2_EXIT_NOT_REACHED",
+        "constraint_surplus": "PORT_CENSUS_HISTORICALLY_UNCOMPUTABLE__WAVE2B_SUPPORT_SURPLUS_ZERO__PHYSICAL_SURPLUS_DEFERRED",
+        "status_boundary": "FROZEN_G2_FIRST_LAYER_EXIT_REACHED__LATER_ACTION_CLASSES_REMAIN_OWNED",
         "registry": "lab/process/eric-curt-wave2-carrier-port-census.json",
         "probe": "tests/channel-swings/eric_curt_wave2_carrier_port_census_probe.py",
         "report": "explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md",
-        "next_swing": "ECW2b-TERM-RANK-ABLATION"
+        "source_reinspection": "lab/sources/curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md",
+        "source_branch_priority": "R77_VERTICAL_FLIP_SOURCE_PREFERRED_COMPLETION__R77_BASE_FLIP_HOSTILE_ONLY",
+        "wave2b": {
+          "status": "COMPLETE_FOR_FROZEN_G2_FIRST_LAYER_CLASS",
+          "candidate_count": 6,
+          "relation_rank": 2,
+          "quotient_term_rank": 4,
+          "raw_coefficient_rank": 4,
+          "source_slice_raw_dimension": 2,
+          "support_ablation_rank": 4,
+          "support_surplus": "ZERO",
+          "physical_surplus": "NOT_COMPUTABLE_UNTIL_OBSERVATION_DOMAIN_AND_LATER_ACTIONS",
+          "registry": "lab/process/eric-curt-wave2b-term-rank-ablation.json",
+          "probe": "tests/channel-swings/eric_curt_wave2b_term_rank_ablation_probe.py",
+          "report": "explorations/eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md"
+        },
+        "next_swing": "ECW3-G4-OBSERVATION"
       }
     },
     {
       "id": "ECW3-G4-OBSERVATION",
-      "status": "SCAFFOLDED",
+      "status": "READY_AFTER_WAVE2_FROZEN_CLASS_EXIT",
       "depends_on": ["ECW1-C0-CARRIER", "ECW2-G3.5-CENSUS"],
       "objective": "Construct observation, equation-dual, Riesz, leakage, global-domain, quotient, and preboundary maps.",
       "curt_steps": ["CI-03", "CI-14", "CI-15", "CI-16", "CI-18", "CI-20"],

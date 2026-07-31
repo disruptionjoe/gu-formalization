@@ -110,16 +110,21 @@ law, Clifford/Krein/reality structure, and declared datum.
 **Exit.** A finite term basis, independent-constraint rank, free-parameter
 count, ablation matrix, and explicit port list.
 
-**Current execution status — partial.** The first half freezes 22 primitives
+**Current execution status — frozen first-layer class complete.** The carrier
+port census freezes 22 primitives
 over `R95_ACTIVE`, `R77_BASE_FLIP`, `R77_VERTICAL_FLIP`, and `C14_COMMON`.
 The underlying vertical sequence, trace reversal, IG grammar, derivative
 cocycle, and homogeneous distortion are `SHARED_EXACT`. The metric musical,
 vertical metric, Hodge, Clifford, Krein/reality, Shiab, pseudo-musical,
 action-pairing, Euler/Green/Ward, RB6 evaluation, residual-square, and odd
 realizations require a branch-native port or a separately charged schema
-realization. `SURPLUS_UNCOMPUTABLE` remains the only honest verdict until
-`ECW2b-TERM-RANK-ABLATION` generates and quotients the complete monomial
-spaces and computes coefficient, constraint, and ablation ranks.
+realization. Wave 2b then freezes the G2 first-layer class and proves that six
+`A/B`-written candidates modulo two exact identities give four independent
+monomials. The source action is a two-dimensional raw coefficient slice (one
+projective parameter), the four support ablations have rank four, and support
+surplus is zero. Physical surplus and all later action classes remain owned by
+Waves 3--10. Curt's transcript makes `R77_VERTICAL_FLIP` source-preferred but
+does not type the final dual-horizontal sign/order map.
 
 ## Wave 3 — G4 observation, domain, and equation dual
 
@@ -250,7 +255,8 @@ the frozen construction.
 
 ## Efficient execution graph
 
-Wave 1 precedes everything. Wave 2 freezes the carrier-specific grammar.
+Wave 1 precedes everything. Wave 2 freezes the carrier-specific grammar and
+the bounded G2 first-layer quotient.
 Wave 3 and the source transcription portion of Wave 5 may then proceed in
 parallel. Wave 4 follows Wave 3. Waves 5 and 6 join at Wave 7. Waves 8 and 9
 use the same frozen background but keep equation recovery and count/index

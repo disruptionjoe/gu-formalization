@@ -25,7 +25,7 @@
     "underlying_bundle": "identified after tautological metric musical and a declared connection split",
     "literal_real_carriers": "(7,7) and (9,5) are not isometric by inertia and have different real Clifford types",
     "complexification": "both real Clifford types complexify to M(128,C), without a real/right-H intertwiner",
-    "source_dictionary": "UNCERTAIN because reported ordered blocks (4,6)+(1,3) do not give (7,7) under one convention",
+    "source_dictionary": "SHARPENED_BUT_UNCERTAIN: Curt explicitly chooses the vertical trace-line sign leading to (4,6) because he wants the split Spin(7,7) representation; the transcript still leaves the H* sign/order map that turns the spoken horizontal (1,3) into a (3,1) contribution implicit",
     "third_lane": "NOT_PROMOTED; literal (7,7) supplies partial TG-1 evidence but does not clear the source-convention check, while separate dynamics and a common-domain discriminator are open"
   },
   "wave2_port_census": {
@@ -33,7 +33,10 @@
     "report": "explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md",
     "portable_exact": ["underlying vertical sequence", "trace reversal", "inhomogeneous-group grammar", "derivative cocycle", "homogeneous distortion"],
     "port_required": "metric musical, vertical metric, Hodge, Clifford, Krein/reality, Shiab, pseudo-musical, action pairings, Euler/Green/Ward, RB6 evaluation, residual square, and odd bilinear",
-    "surplus": "SURPLUS_UNCOMPUTABLE_UNTIL_COMPLETE_TERM_QUOTIENT_AND_ABLATION",
+    "source_preferred_r77_branch": "R77_VERTICAL_FLIP; R77_BASE_FLIP is retained only as a hostile comparator",
+    "wave2b_registry": "lab/process/eric-curt-wave2b-term-rank-ablation.json",
+    "wave2b_result": "six A/B-written candidates modulo two exact identities give a rank-four frozen G2 first-layer quotient; support-ablation rank is four, support surplus is zero, and physical surplus remains deferred",
+    "surplus": "SUPPORT_SURPLUS_ZERO_FOR_FROZEN_G2_FIRST_LAYER_CLASS__PHYSICAL_SURPLUS_DEFERRED",
     "third_lane": "NO_CHANGE"
   },
   "three_layer_rule": {
@@ -45,10 +48,10 @@
   "load_bearing_forks": [
     {
       "id": "FORK-SIGNATURE",
-      "curt_surface": "trace-reversed vertical (4,6) plus horizontal (1,3), reported as total (7,7)",
+      "curt_surface": "trace/traceless splitting plus an explicit choice of the vertical trace-line sign gives vertical (4,6); Curt then pairs it with the dual-horizontal H* block, verbally labelled (1,3), and reports total (7,7) because he wants the split Spin(7,7) spin representation",
       "active_repo_surface": "trace-reversed symmetric fibre (6,4) plus base (3,1), reported as total (9,5)",
-      "status": "OPEN_CONVENTION_CARRIER_AND_SOURCE_ARITHMETIC_FORK",
-      "rule": "the ordered-pair sum (4,6)+(1,3) is not literally (7,7); a sign-order/dual convention must be supplied, and no spinor, Hodge, Krein, chirality, or index result transfers without a typed isometry/Clifford bridge"
+      "status": "SOURCE_PREFERENCE_IDENTIFIED__DUAL_HORIZONTAL_SIGN_MAP_OPEN",
+      "rule": "the transcript prefers the vertical-sign comparator, not the base-sign comparator. Under one ordered convention the spoken sum (4,6)+(1,3) is (5,9); the minimal completion is the H* contribution (3,1), giving (7,7). That dual/sign-order map must still be typed, and no spinor, Hodge, Krein, chirality, or index result transfers without an isometry/Clifford bridge"
     },
     {
       "id": "FORK-STRUCTURE-GROUP",
