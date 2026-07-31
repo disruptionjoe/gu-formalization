@@ -11,3 +11,6 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
 - `old-vs-eric-object-dictionary-2026-07-31.md` — branch-local Layer-0 dictionary for the existing
   source-action construction and Eric-guided grammar; separates affine/gauge, variational, domain,
   fermion/count, Higgs, and cosmology objects before the revised G1--G10 swings.
+- `g1-global-tilted-moving-reference-packet-2026-07-31.md` — G1's typed derivative-cocycle,
+  moving Levi--Civita/reductive reference, patch/groupoid, quotient-level, stabilizer, and G2
+  field-policy contract.

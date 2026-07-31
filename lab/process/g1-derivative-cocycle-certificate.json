@@ -1,0 +1,83 @@
+{
+  "certificate_id": "G1-DERIVATIVE-COCYCLE-MOVING-REFERENCE-2026-07-31",
+  "branch": "agent/weinstein-guided-source-action",
+  "run": "GUH-20260731T140229Z-g1-derivative-cocycle-moving-reference",
+  "grade": "conditional_global_construction",
+  "convention": {
+    "gauge_action": "g dot A = Ad_g(A) - (dg)g^-1",
+    "cocycle": "q_A(g) = A - g dot A",
+    "cocycle_law": "q_A(gh) = q_A(g) + Ad_g q_A(h)",
+    "ig_product": "(g,a)(h,b)=(gh,a+Ad_g b)",
+    "theta": "Theta_A(g,a)=Ad_(g^-1)(a-q_A(g))"
+  },
+  "layer0": [
+    {
+      "term": "epsilon",
+      "mark": "HOMONYM",
+      "objects": ["gauge transformation", "moving Clifford/Spin reduction field"]
+    },
+    {
+      "term": "Levi-Civita reference",
+      "mark": "CONDITIONAL_MAP_BUILT",
+      "objects": ["native LC-induced connection", "A0-induced reductive reference"],
+      "bridge": "pr_h(u^-1 A0 u + u^-1 du) = omega_LC"
+    },
+    {
+      "term": "cocycle",
+      "mark": "HOMONYM_CORRECTED",
+      "objects": ["dg-bearing connection cocycle", "zero-jet pointwise coboundary"]
+    },
+    {
+      "term": "double coset",
+      "mark": "QUOTIENT_LEVEL_RESOLVED",
+      "objects": ["fixed-reference action groupoid [V/G]_Ad", "connection moduli [Conn(P)/G]"]
+    }
+  ],
+  "constructed": [
+    "derivative cocycle",
+    "tilted subgroup graph",
+    "left-invariant/right-adjoint distortion",
+    "LC extension through a moving H-reduction",
+    "A0-induced reductive comparator",
+    "lift and patch descent",
+    "moving-reference conjugation law",
+    "fixed-reference quotient and stabilizer correspondence",
+    "right-H structural compatibility",
+    "trace-reversed Spin compatibility"
+  ],
+  "exact_results": {
+    "fixed_reference_double_quotient": "[Omega^1(ad P)/G]_Ad",
+    "moving_reference_quotient": "[E_ref x Omega^1(ad P)/G] unless E_ref is eliminated by an additional equivalence",
+    "native_local_datum": "none beyond the declared moving reduction field",
+    "global_datum": "possible reduction component/boundary selection; unresolved",
+    "constraint_surplus": "UNCOMPUTABLE"
+  },
+  "plants_rejected": [
+    "zero-jet shadow sees a pure derivative jet",
+    "full cocycle equals zero-jet shadow",
+    "raw translation is left invariant",
+    "frozen reference patches covariantly",
+    "bare Maurer-Cartan reference descends under lift change",
+    "inert A0 gives gauge covariance",
+    "arbitrary reductive reference is Levi-Civita",
+    "generic right factor stabilizes theta",
+    "adjoint quotient automatically equals fixed-reference connection quotient",
+    "arbitrary quaternionic left coefficients commute"
+  ],
+  "next_swing": {
+    "id": "G2",
+    "title": "field space and native bosonic Shiab",
+    "required_choice": "native LC graph recommended; A0-induced graph retained as comparator",
+    "required_variation": "include the first-derivative epsilon_red chain rule and boundary term"
+  },
+  "not_claimed": [
+    "selected global reduction",
+    "Conn(P)/G equivalence",
+    "source action",
+    "Noether closure",
+    "native bosonic Shiab",
+    "VEV or Higgs",
+    "index or generation count",
+    "cosmological amplitude or PP3"
+  ]
+}

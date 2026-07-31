@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-30"
+updated_at: "2026-07-31"
 ---
 
 # Explorations
@@ -10,6 +10,19 @@ updated_at: "2026-07-30"
 Speculative, redirected, or under-proved research branches -- the research lab, not the project canon. Read
 these for the full working record; the durable, reviewed results live in `canon/` and the papers under
 `papers/published/`.
+
+## Current Eric-guided construction branch
+
+- [`g1-derivative-cocycle-moving-reference-2026-07-31.md`](g1-derivative-cocycle-moving-reference-2026-07-31.md)
+  executes the first reordered guided swing. The full `dg`-bearing connection
+  cocycle retains the tilted algebra; the native Levi--Civita and RB3
+  reductive moving-reference branches now have exact lift, patch, conjugation,
+  right-quaternionic, and trace-reversed laws. The fixed-reference double
+  action is the adjoint distortion quotient with matching stabilizers, not an
+  automatic connection-moduli quotient. The global reduction component and
+  LC-versus-`A0` compatibility remain explicit G2 field-policy debits.
+- [`old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md`](old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md)
+  owns the ten-lens comparison and dependency-ordered G1--G10 scaffold.
 
 ## Current Lane-1 operator/anomaly campaign
 

@@ -7,6 +7,21 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 G1 DERIVATIVE-COCYCLE/MOVING-REFERENCE PASS
+> (BRANCH-LOCAL).** The genuine connection cocycle
+> `q_A(g)=A-Ad_g(A)+(dg)g^-1` retains the tilted homomorphism and
+> left-invariant/right-adjoint displacement. The native Levi--Civita
+> connection extends through a moving Spin reduction with exact lift, patch,
+> right-H, and trace-reversed covariance; the RB3 `A0`-induced rival agrees
+> only under an explicit compatibility equation. The tilted subgroups form a
+> conjugate family/subgroupoid over the reduction field. At fixed reference,
+> the double-action groupoid is the adjoint distortion quotient `[V/G]`, not
+> automatically `[Conn(P)/G]`; with a moving reference the reduction field
+> remains in `[E_ref x V/G]` until an additional uniqueness theorem removes
+> it. G2 is now next: declare the complete field/graph policy and construct
+> the native bosonic Shiab before full variation. See
+> `explorations/g1-derivative-cocycle-moving-reference-2026-07-31.md`.
+
 > **2026-07-31 TEN-SPECIALIST GUIDED-LANE REORDERING (BRANCH-LOCAL).**
 > The first Eric-guided scaffold remains on the same North Star, but its next
 > sequence is superseded by the ten-lens council. Three missing layers now run

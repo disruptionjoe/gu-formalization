@@ -58,5 +58,6 @@ Runbooks:
 - `recovery-no-go-defense-protocol.md` - bounded defense protocol for branch-local recovery no-gos.
 - `recovery-no-go-defense-register.json` - hourly-updatable defense register for branch-local recovery no-gos.
 - `old-vs-eric-ten-lens-gap-matrix.json` - branch-local machine-readable ten-specialist comparison of the existing source-action construction with the transcript-verified Eric-guided grammar, including typed gaps, kills, and revised G1--G10 dependencies.
+- `g1-derivative-cocycle-certificate.json` - branch-local machine-readable G1 certificate for the derivative connection cocycle, moving LC/reductive reference, exact quotient level, planted failures, datum boundary, and G2 handoff.
 - `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.
