@@ -63,5 +63,9 @@ Runbooks:
 - `g3-variational-bvbfv-certificate.json` - branch-local machine-readable G3 certificate for graph-complete variation, coupled first-jet Noether closure, preboundary geometry, the forced nonabelian ghost-antifield term, and G4 domain/polarization handoff.
 - `geometry-first-orthodoxy-ten-lens-council.json` - branch-local provenance audit and ten separate specialist odds comparing the Eric-guided and independent source-action architectures without aggregating heterogeneous lens judgments.
 - `eric-native-physics-equation-replacement-atlas.json` - branch-local fifteen-row registry mapping familiar physics jobs and equations to the G2/G3 native parent, observation/equation-dual obligations, construction/kill tests, and conditional datum ownership.
+- `eric-source-directed-native-closure-certificate.json` - branch-local ten-row
+  certificate routing the Weinstein source callouts through five shared
+  conditional parent objects, with passed finite controls and every actual
+  `Y^14` emergence gate kept open.
 - `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.

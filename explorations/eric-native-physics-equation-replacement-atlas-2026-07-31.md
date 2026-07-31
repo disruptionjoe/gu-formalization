@@ -40,6 +40,20 @@ candidate shadows, and downstream tests. It does not claim that the Standard
 Model, Einstein gravity, quantum consistency, cosmology, chirality, or three
 generations have already been recovered.
 
+## Subsequent executed closure
+
+The next construction swing has now executed the crosswalk rather than merely
+annotating it. The ten source directives close through five shared conditional
+objects—observation/equation-dual/domain, one stationary stabilizer and
+bosonic Hessian, one minimal Krein odd action and current, Frobenius-fibre
+trace reversal, and one preboundary/positive-majorant/time split. The exact
+finite control passes 1,954 positive checks and 13 planted failures. Its
+planted gauge algebra and sector blocks are compatibility fixtures, not
+`Y^14` emergence. See
+[`eric-source-directed-native-closure-swing-2026-07-31.md`](eric-source-directed-native-closure-swing-2026-07-31.md)
+and
+[`eric-source-directed-native-closure-packet-2026-07-31.md`](../lab/specifications/eric-source-directed-native-closure-packet-2026-07-31.md).
+
 ## What “replacement” means
 
 Resemblance is not enough. Having a connection does not produce Yang--Mills;

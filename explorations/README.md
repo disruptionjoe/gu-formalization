@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`eric-source-directed-native-closure-swing-2026-07-31.md`](eric-source-directed-native-closure-swing-2026-07-31.md)
+  closes the ten Weinstein-directed physics routes through five shared
+  conditional objects: observation/equation-dual/domain, one stationary
+  stabilizer and bosonic Hessian, one minimal Krein odd action and current,
+  Frobenius-fibre trace reversal, and the preboundary/majorant/time split. An
+  exact 1,967-check control proves decoder compatibility while retaining every
+  actual `Y^14`, Standard Model, gravity, domain, quantum, and cosmology gate.
 - [`eric-native-physics-equation-replacement-atlas-2026-07-31.md`](eric-native-physics-equation-replacement-atlas-2026-07-31.md)
   maps fifteen familiar physical equations/jobs to the single G2/G3 native
   parent, the required equation-dual observation maps, honest build statuses,

@@ -7,6 +7,23 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 ERIC SOURCE-DIRECTED NATIVE CLOSURE SWING
+> (BRANCH-LOCAL).** The ten Weinstein-guided physics routes now close through
+> five shared conditional objects rather than ten copied standard equations:
+> one observation/equation-dual/domain packet, one stationary stabilizer and
+> bosonic Hessian, one minimal Krein odd action and action-derived current,
+> Frobenius-fibre trace reversal, and one preboundary/positive-majorant/time
+> split. The exact fixture passes 1,954 positive checks and 13 planted failures.
+> It proves mutual decoder compatibility, not emergence: the planted
+> `u(1)+su(2)+su(3)` algebra, background blocks, and projectors are explicitly
+> controls. Every actual `Y^14`, physical-domain, Standard Model, gravity,
+> quantum, dark-sector, and cosmology gate remains open. Next lift the
+> observation packet into the exact G3 bundle/Euler system and test patch
+> descent, equation-dual Ward transport, nonlinear leakage, right-H domain
+> preservation, and preboundary reduction before solving stationary
+> backgrounds. See
+> `explorations/eric-source-directed-native-closure-swing-2026-07-31.md`.
+
 > **2026-07-31 ERIC-NATIVE PHYSICS EQUATION REPLACEMENT ATLAS
 > (BRANCH-LOCAL).** The same ten specialist lenses plus a science-council
 > synthesis now map fifteen familiar physics jobs to one G2/G3 native parent.

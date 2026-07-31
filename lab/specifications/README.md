@@ -24,3 +24,8 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
   requiring an action/Euler/domain/symmetry/observable intertwining theorem before a
   familiar four-dimensional equation counts as an earned native shadow; includes the
   G2/G3 backbone, observation gate, status vocabulary, and no-stall datum-family rule.
+- `eric-source-directed-native-closure-packet-2026-07-31.md` — branch-local
+  conditional closure of the ten Weinstein-guided readouts through one
+  observation/equation-dual packet, one shared bosonic Hessian, one minimal
+  Krein odd action, Frobenius trace reversal, and one preboundary/observed-time
+  reduction, with exact finite controls separated from actual `Y^14` emergence.
