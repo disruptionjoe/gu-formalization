@@ -59,6 +59,29 @@ That is not a claim that the model has emerged on the actual metric bundle
 the executable are deliberately planted positive controls. Every physical
 row remains `OPEN` at the `Y^14` emergence gate.
 
+## Paired-source correction: this is a compatibility control
+
+The later paired Curt--Eric reconstruction supersedes the “one reduced
+bosonic Hessian” reading as Weinstein's final action architecture. Eric says
+the Einstein--Dirac layer comes first and a second Lagrangian/action supplies
+Yang--Mills--Higgs as a square or second-order companion. This swing's finite
+one-Hessian model remains valuable: it proves that the proposed readout arrows
+can coexist and catches projector, pairing, and mode-naming errors. It does
+not decide how the two source layers are coupled.
+
+The next source-faithful object is the forked staged packet
+
+\[
+(\Upsilon_B,Q_B,I_2^B;
+ I_{\rm ED},\Upsilon_{\rm ED},Q_{\rm ED},I_2^{\rm ED};
+ \Pi_{\rm Higgs}^{\varpi},\Pi_{\rm Higgs}^{T},K,C),
+\]
+
+where the total-residual square is conjectural and the `varpi`/`T` Higgs
+carriers must be related before either is shared across the first-layer odd
+bilinear and second-layer gauge/scalar Hessian. See
+[`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](../lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md).
+
 ## What was actually filled in
 
 The earlier atlas said where to look. This swing adds the map by which an

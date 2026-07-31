@@ -40,6 +40,29 @@ candidate shadows, and downstream tests. It does not claim that the Standard
 Model, Einstein gravity, quantum consistency, cosmology, chirality, or three
 generations have already been recovered.
 
+## Paired-source correction to the one-Hessian architecture
+
+The later paired Curt--Eric reconstruction supersedes this exploration's
+“one reduced Hessian” language as a claim about Weinstein's architecture.
+Weinstein explicitly places Einstein--Dirac first and Yang--Mills--Higgs in a
+second Lagrangian/action described as a square or second-order companion. The
+one-Hessian fixture below remains a useful mutual-compatibility control; it is
+not the final source-directed construction.
+
+After C0/G3.5/C1, the corrected program first reconstructs the manuscript's
+bosonic `I_2^B[Q_B]`. It then separately assembles `I_ED`, derives
+`Upsilon_ED`, and tests the conjectural total-residual rival
+`I_2^ED[Q_ED]`. The connection carrier `varpi` and homogeneous distortion
+`T=A-B` remain distinct: construct `Pi_Higgs^varpi` and `Pi_Higgs^T`, then
+derive their relation or non-equivalence before using one in both the
+first-layer Krein fermion bilinear and second-layer gauge/scalar Hessian. The
+physical Higgs may not simply remain adjoint-valued. See
+[`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](../lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md).
+
+All later one-Hessian statements in this dated artifact should therefore be
+read as the original finite compatibility proposal, not as a source-frozen
+single-action theorem.
+
 ## Subsequent executed closure
 
 The next construction swing has now executed the crosswalk rather than merely

@@ -7,6 +7,28 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 PAIRED CURT--ERIC AXIOM / TWO-ACTION CORRECTION
+> (BRANCH-LOCAL).** The subsequent Curt--Eric conversation now supersedes the
+> iceberg's single-pass action reading. Curt's useful core survives: the Higgs
+> parent is an ad-valued one-form and connection coupling can supply a
+> Yukawa-shaped incidence. Eric's correction makes GU staged: an
+> Einstein--Dirac first layer is followed by a distinct Yang--Mills--Higgs
+> Lagrangian/action described as its square or second-order companion. Eric
+> also says the real Higgs is not simply adjoint-valued. The new
+> 40-axiom/nine-chain ledger incorporates the user-supplied Step 13 slide,
+> which explicitly types `A(P_H)`, `N=Omega^1(ad P_H)`, and the proposed odd
+> `Omega^1(S)+Omega^0(S)` carrier while leaving its bracket and Jacobi law
+> open; the transcription receipt records video locator `00:53:03` and the
+> supplied-image hash. After C0/G3.5/C1, the next high-information swing is
+> `E6-STAGED-RESIDUAL-SQUARE`: reconstruct the manuscript-exact bosonic
+> `I_2^B[Q_B]`, separately test the conjectural total-residual
+> `I_2^ED[Q_ED]`, and compare `Pi_Higgs^varpi(varpi)` with
+> `Pi_Higgs^T(T)` before using either in the K-paired fermion bilinear and
+> second-layer gauge/scalar Hessian. This supersedes later “one shared
+> Hessian” wording as source architecture; those finite fixtures remain
+> compatibility controls. See
+> `lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`.
+
 > **2026-07-31 CURT ICEBERG 30-STEP RECONCILIATION / C0 INSERTION
 > (BRANCH-LOCAL).** Curt Jaimungal's 2025 three-hour iceberg is now included
 > as a secondary construction map rather than a blanket recovery theorem. All
@@ -32,7 +54,7 @@ updated_at: "2026-07-31"
 
 > **2026-07-31 ERIC SOURCE-DIRECTED NATIVE CLOSURE SWING
 > (BRANCH-LOCAL).** The ten Weinstein-guided physics routes now close through
-> five shared conditional objects rather than ten copied standard equations:
+> five shared conditional compatibility objects rather than ten copied standard equations:
 > one observation/equation-dual/domain packet, one stationary stabilizer and
 > bosonic Hessian, one minimal Krein odd action and action-derived current,
 > Frobenius-fibre trace reversal, and one preboundary/positive-majorant/time
@@ -49,7 +71,9 @@ updated_at: "2026-07-31"
 
 > **2026-07-31 ERIC-NATIVE PHYSICS EQUATION REPLACEMENT ATLAS
 > (BRANCH-LOCAL).** The same ten specialist lenses plus a science-council
-> synthesis now map fifteen familiar physics jobs to one G2/G3 native parent.
+> synthesis now map fifteen familiar physics jobs to the G2/G3 first
+> Einsteinian parent plus a staged second-layer fork: the manuscript bosonic
+> residual square versus a conjectural total Einstein--Dirac residual square.
 > Maxwell/Yang--Mills, force decomposition, Einstein gravity, Higgs/cosmology,
 > Dirac/RS, Yukawa, BV/anomaly, generation/index, and datum/observation each
 > have an exact status, observation arrow, next construction, and decisive
@@ -58,9 +82,11 @@ updated_at: "2026-07-31"
 > at typed domain/orientation/index maps. The next highest-information wave is
 > C0 carrier adjudication, G3.5 target-blind enumeration/ablation on the
 > surviving carrier, G4 observation/domain construction,
-> one stationary native background, and one reduced bosonic Hessian whose
-> gauge, spin-two, heavy-scalar, and light-scalar blocks are named only after
-> they survive. See
+> the manuscript bosonic square, the coupled Einstein--Dirac residual and its
+> separately charged total-square rival, the `varpi`/`T` Higgs-carrier fork,
+> one stationary native background, and
+> staged Hessians whose gauge, spin-two, heavy-scalar, and light-scalar blocks
+> are named only after they survive. See
 > `explorations/eric-native-physics-equation-replacement-atlas-2026-07-31.md`.
 
 > **2026-07-31 GEOMETRY-FIRST ORTHODOXY AUDIT / TEN SEPARATE

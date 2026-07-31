@@ -67,6 +67,12 @@ Runbooks:
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the
   C0 chimeric/Zorro bridge inserted before C1/G4.
+- `paired-curt-eric-gu-axiom-graph.json` - branch-local 40-axiom and
+  nine-chain paired-source graph separating Curt reconstruction, Weinstein
+  statements/corrections, necessary implications, plausible completions, and
+  unsupported extrapolations. It separates the connection and distortion
+  Higgs carriers and the manuscript bosonic residual square from a
+  conjectural total Einstein--Dirac residual square.
 - `eric-source-directed-native-closure-certificate.json` - branch-local ten-row
   certificate routing the Weinstein source callouts through five shared
   conditional parent objects, with passed finite controls and every actual

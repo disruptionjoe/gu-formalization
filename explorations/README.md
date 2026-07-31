@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`paired Curt--Eric axiom reconstruction`](../lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md)
+  extracts 40 graded axioms and nine dependency chains from the iceberg and
+  subsequent author correction. It preserves the ad-valued one-form and
+  minimal/Yukawa incidence leads while distinguishing the manuscript bosonic
+  square from a conjectural total-residual square and the connection `varpi`
+  from homogeneous distortion `T=A-B`. The user-supplied Step 13 still adds an explicit
+  `Omega^1(S)+Omega^0(S)` odd-carrier directive without claiming the missing
+  bracket, Jacobi identity, or super-extension.
+
 - [`eric-source-directed-native-closure-swing-2026-07-31.md`](eric-source-directed-native-closure-swing-2026-07-31.md)
   closes the ten Weinstein-directed physics routes through five shared
   conditional objects: observation/equation-dual/domain, one stationary
@@ -21,15 +30,18 @@ these for the full working record; the durable, reviewed results live in `canon/
   exact 1,968-check control proves decoder compatibility while retaining every
   actual `Y^14`, Standard Model, gravity, domain, quantum, and cosmology gate.
 - [`eric-native-physics-equation-replacement-atlas-2026-07-31.md`](eric-native-physics-equation-replacement-atlas-2026-07-31.md)
-  maps fifteen familiar physical equations/jobs to the single G2/G3 native
-  parent, the required equation-dual observation maps, honest build statuses,
+  maps fifteen familiar physical equations/jobs to the G2/G3 first
+  Einsteinian parent, the manuscript bosonic square, and the conjectural
+  total-residual rival, the
+  required equation-dual observation maps, honest build statuses,
   and exact next constructions/kills. The subsequent Curt-iceberg
   reconciliation adds C0, an explicit chimeric/Zorro/gimmel metric--Clifford--
   real-form bridge, before the carrier-specific G3.5 census and G4. C0 first
   constructs the universal-metric musical map and natural connection split;
   after census/ablation, non-equivalence triggers a port of only the surviving
-  carrier-dependent G2/G3 machinery. Then one stationary background
-  and one shared reduced Hessian precede naming
+  carrier-dependent G2/G3 machinery. Then the coupled Einstein--Dirac
+  residual, invariant residual-pairing census, distinct Yang--Mills--Higgs
+  action, one stationary background, and staged Hessians precede naming
   photon/weak/strong, graviton, Higgs, or cosmological modes; odd propagation,
   currents, anomaly, and count follow from one later frozen matter action.
 - [`geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md`](geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md)

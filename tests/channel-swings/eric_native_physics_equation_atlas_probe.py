@@ -88,13 +88,14 @@ def main() -> None:
     exact("no row stalls at missing action or datum", all("source action or external datum missing" not in row["next_build"].lower() for row in rows.values()))
 
     backbone = data["native_backbone"]
-    exact("G2/G3 is the declared common native backbone", "I_G2" in backbone["action"] and "E_A=E_T" in backbone["connection_euler"])
+    exact("G2/G3 remains the declared first Einsteinian backbone", "I_G2" in backbone["action"] and "E_A=E_T" in backbone["connection_euler"] and "first Einsteinian parent" in data["thesis"])
     exact("killed compressed Euler shortcut remains recorded", backbone["killed_shortcut"] == "S_epsilon(F_(B+T))+kappa_1 T")
     exact("observation gate separates algebraic dual and Riesz adjoint", all(token in backbone["observation_gate"] for token in ("R_s L_s=1", "R_s D_Y L_s=D_X", "1-L_s R_s", "(D L_s)^vee", "(D L_s)^!", "sharp_X")))
 
     order = data["coherent_dependency_order"]
     exact("construction begins with C0 then carrier-specific census and port", order[:4] == ["C0_CHIMERIC_ZORRO_REAL_FORM_BRIDGE", "G3.5_TARGET_BLIND_NATURALITY_AND_ABLATION_ON_SURVIVING_CARRIER", "C0_TRIGGERED_G2_G3_CARRIER_PORT_IF_REQUIRED", "G4_OBSERVATION_RETRACT_DOMAIN_AND_BFV_QUOTIENT"])
-    exact("one shared Hessian precedes matter currents and particle labels", order.index("ONE_REDUCED_BOSONIC_HESSIAN") < order.index("G5_MINIMAL_ODD_EXTENSION_AND_ACTION_DERIVED_CURRENTS") < order.index("LOW_ENERGY_MODE_AND_GROUP_IDENTIFICATION"))
+    exact("odd action completes the first layer after the manuscript bosonic square is typed", order.index("G5_MINIMAL_ODD_EXTENSION_AND_ACTION_DERIVED_CURRENTS") < order.index("MANUSCRIPT_BOSONIC_RESIDUAL_AND_QB_SQUARE") < order.index("COUPLED_EINSTEIN_DIRAC_FIRST_LAYER_AND_FULL_RESIDUAL"))
+    exact("total-residual rival and Higgs carrier fork precede staged Hessians", order.index("COUPLED_EINSTEIN_DIRAC_FIRST_LAYER_AND_FULL_RESIDUAL") < order.index("CONJECTURAL_TOTAL_RESIDUAL_QED_SQUARE_RIVAL") < order.index("VARPI_VERSUS_DISTORTION_HIGGS_CARRIER_FORK") < order.index("STAGED_HESSIANS_AND_FACTORIZATION_TEST") < order.index("LOW_ENERGY_MODE_AND_GROUP_IDENTIFICATION"))
     exact("anomaly index and cosmology remain downstream", order[-3:] == ["PHYSICAL_BV_ANOMALY_TEST", "PHYSICAL_INDEX_AND_DATUM_READOUT", "COSMOLOGICAL_STATE_AND_PP3_TEST"])
 
     exact("Maxwell is a candidate reduced shadow", rows["EM_MAXWELL"]["status"] == "CANDIDATE_SHADOW" and "abelian projection" in rows["EM_MAXWELL"]["native_equation"])
@@ -129,6 +130,7 @@ def main() -> None:
     exact("every source callout retains a boundary after routing", all(row["boundary"].strip() for row in crosswalk.values()))
     exact("all crosswalk sources resolve in the declared corpus", all(callout["source_id"] in data["source_corpus"] for row in crosswalk.values() for callout in row["callouts"]))
     exact("Curt iceberg remains a secondary overlay with its own registry", data["source_corpus"]["CURT-ICEBERG-2025"]["grade"].startswith("secondary") and data["curt_iceberg_reconciliation"]["registry"] == "lab/process/curt-iceberg-native-crosswalk.json")
+    exact("paired correction points to the axiom graph", data["paired_curt_eric_reconstruction"]["registry"] == "lab/process/paired-curt-eric-gu-axiom-graph.json" and "40 typed axioms" in data["paired_curt_eric_reconstruction"]["coverage"])
     exact("Curt overlay covers every primary callout without inventing Schrodinger", set(data["curt_iceberg_overlay"]) >= expected_callouts and data["curt_iceberg_overlay"]["PSC-SCHRODINGER"] == [])
     exact("C0 overlay carries Zorro chimeric signature and real-form steps", data["curt_iceberg_overlay"]["C0_FOUNDATIONAL_BRIDGE"] == ["CI-06", "CI-07", "CI-09", "CI-10", "CI-11", "CI-12"])
     exact("the two Into the Impossible sources remain distinct", data["source_corpus"]["WG-2021-ITI-REVEALED"]["title"] != data["source_corpus"]["WG-2025-ITI-UCSD"]["title"])
@@ -142,10 +144,11 @@ def main() -> None:
     exact("TOE anchors retain GU-list distortion and dark-recoupling passages", all(token in local_sources["WG-2025-TOE"] for token in ("[01:35:23]", "[02:22:20]", "[02:50:38]")))
     exact("UCSD Into the Impossible anchors retain dark-matter and Higgs passages", all(token in local_sources["WG-2025-ITI-UCSD"] for token in ("[00:38:09]", "[00:42:42]", "[00:43:04]")))
     exact("Maxwell routes to an abelian mode of the same Hessian", "Do not add a separate Maxwell action" in crosswalk["PSC-MAXWELL"]["native_search_directive"] and "same gauge system" in crosswalk["PSC-MAXWELL"]["native_search_directive"])
-    exact("Yang-Mills routes through G2 reduction and F2 ablation", "G2" in crosswalk["PSC-YANG-MILLS"]["native_search_directive"] and "F^2 comparator" in crosswalk["PSC-YANG-MILLS"]["native_search_directive"])
+    exact("Yang-Mills separates the manuscript bosonic square from the total-residual rival", all(token in crosswalk["PSC-YANG-MILLS"]["native_search_directive"] for token in ("manuscript-exact bosonic residual", "I2_B", "I2_ED", "F^2 comparator")))
     exact("Einstein routes through Layer 0 equation dual and spin two", all(token in crosswalk["PSC-EINSTEIN"]["native_search_directive"] for token in ("Layer 0", "equation-dual", "spin-two")))
-    exact("Higgs routes to one vertical action-selected curvature mode", all(token in crosswalk["PSC-HIGGS"]["native_search_directive"] for token in ("vertical ad-valued one-form", "action-selected", "quartic", "K-paired")))
-    exact("Dirac routes to one odd action emitting operator mass and current", all(token in crosswalk["PSC-DIRAC"]["native_search_directive"] for token in ("minimal odd action", "Euler/Hessian", "K-paired", "current")))
+    exact("Higgs preserves the connection-versus-distortion extraction fork", all(token in crosswalk["PSC-HIGGS"]["native_search_directive"] for token in ("Pi_Higgs^varpi", "Pi_Higgs^T", "varpi", "T", "K-paired", "gauge-mass")))
+    exact("Higgs extraction no longer collides with principal-bundle P_H", "P_H" not in crosswalk["PSC-HIGGS"]["native_search_directive"])
+    exact("Dirac routes to the first-layer odd action and second-layer square test", all(token in crosswalk["PSC-DIRAC"]["native_search_directive"] for token in ("minimal odd action", "first Einstein-Dirac layer", "K-paired", "current", "second Yang-Mills-Higgs action")))
     exact("Schrodinger absence still routes to a native Hamiltonian test", crosswalk["PSC-SCHRODINGER"]["classification"] == "NO_LOCATED_DIRECT_GU_CLAIM" and all(token in crosswalk["PSC-SCHRODINGER"]["native_search_directive"] for token in ("BV/BFV", "Hamiltonian", "unitary", "i d_t Psi=H_phys Psi")))
     exact("weak and strong route through one action-selected stabilizer", "action-selected maximal compact stabilizer" in crosswalk["PSC-WEAK"]["native_search_directive"] and "same action-selected maximal compact stabilizer" in crosswalk["PSC-STRONG"]["native_search_directive"])
     exact("dark energy routes through distortion stress and two scalar modes", all(token in crosswalk["PSC-DARK-ENERGY"]["native_search_directive"] for token in ("T=A-B", "observation stress", "light cosmological", "heavy Higgs")))
@@ -173,10 +176,10 @@ def main() -> None:
         f"{exact_checks} exact checks + {planted_checks} planted failures = "
         f"{exact_checks + planted_checks} PASS"
     )
-    print("RESULT: one G2/G3 parent is mapped to fifteen physical jobs and conditional shadows")
+    print("RESULT: the source-exact bosonic square and conjectural total-residual rival are mapped to fifteen physical jobs and conditional shadows")
     print("RESULT: every open arrow has a bounded construction and decisive kill")
     print("RESULT: ten primary-source callouts route into native carriers/operators rather than stopping")
-    print("RESULT: one stationary reduced Hessian precedes particle naming and downstream tests")
+    print("RESULT: the residual pairing second action and staged Hessians precede particle naming and downstream tests")
     print("BOUNDARY: no Maxwell/YM/Dirac/Einstein/Higgs/cosmology/anomaly/count recovery is claimed")
 
 

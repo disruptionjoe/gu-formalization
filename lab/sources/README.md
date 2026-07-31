@@ -47,6 +47,14 @@ These sources are useful for provenance, terminology, chronology, and locating c
     preserves the signature/real-form/group-selection/generation forks, and
     inserts the bounded C0 chimeric/Zorro bridge before the global observation
     packet. It does not promote Curt's PDE reconstructions to primary formulas.
+- [`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md)
+  - reads the iceberg together with Weinstein's subsequent corrections and
+    independent UCSD restatement. It records 40 graded axioms, nine recovery
+    chains, the upstairs-adjoint versus observed-Higgs type correction, the
+    `varpi`-versus-`T` carrier fork, the manuscript bosonic square versus
+    conjectural total-residual square, and the user-supplied Step 13
+    odd-carrier table. It does not claim a Higgs, Yukawa matrix, or
+    field-equation recovery.
 - [`g3-weinstein-section-pullback-recheck-2026-07-31.md`](g3-weinstein-section-pullback-recheck-2026-07-31.md)
   - runs the Eric-lane source recheck triggered by G3's source-only section
     boundary. TOE, Portal/Oxford, and *Into the Impossible* consistently point

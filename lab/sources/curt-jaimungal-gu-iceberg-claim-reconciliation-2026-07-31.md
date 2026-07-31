@@ -29,7 +29,11 @@ The reconciliation therefore keeps four questions separate for every row:
 3. What has this repository actually built or computed?
 4. What still has to be true before the familiar physics name is earned?
 
-That separation produces one real change to the construction sequence. Before
+That separation first produced a C0 change to the construction sequence. The
+paired Curt--Eric reconstruction now adds a second change after C0: preserve
+an Einstein--Dirac first layer and construct the Yang--Mills--Higgs layer as a
+separate square/second-order companion before making the physics identifications.
+Before
 lifting the five-object closure packet globally, the branch should build a
 new **C0 chimeric/Zorro bridge**:
 
@@ -87,6 +91,48 @@ Klein--Gordon construction and is piecing it together. At
 Yang--Mills formulas his current understanding. Those are not throwaway
 caveats; they set the source grade.
 
+## Paired-source supersession: the follow-up corrects the architecture
+
+This report's original single-exposition reading is superseded on action
+architecture and Higgs typing by
+[`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md).
+
+At `00:41:50--00:43:38` in the subsequent Curt--Eric conversation, Weinstein
+explicitly says GU has an Einstein--Dirac first layer and a second
+Lagrangian/action adding Yang--Mills--Higgs. The GU replacement of the former
+is described as a square root of the replacement of the latter. This does not
+delete Curt's curvature and minimal-coupling mechanisms, but it moves them
+into a staged action diagram.
+
+There is also a Layer-0 type correction. Weinstein says both that the Higgs
+comes out of an ad-valued one-form (`01:35:23--01:36:08`) and that the real
+Higgs is not simply adjoint-valued (`01:10:37--01:10:57`). Curt's upstairs
+adjoint carrier therefore requires an equivariant observed-Higgs extraction
+map. Ordinary pullback preserves form degree; the vertical coefficient becomes
+scalar-shaped only after a typed vertical restriction/contraction and internal
+representation reduction.
+
+Two further forks are load-bearing. Curt's fermion argument uses a component
+of the variational connection `varpi`, whereas the native bosonic action is
+written in the homogeneous distortion `T=A-B`; their gauge laws differ, so
+`Pi_Higgs^varpi(varpi)` and `Pi_Higgs^T(T)` must be constructed and related
+or proved inequivalent. And the 2021 draft's exact second-order formula is the
+bosonic residual square `I_2^B=||Upsilon_omega^B||^2`. Squaring the complete
+Einstein--Dirac residual as `I_2^ED[Q_ED]` is a separately graded constructive
+rival, not a manuscript formula.
+
+Accordingly:
+
+- step 17 is the first Einsteinian bosonic root, not the entire familiar
+  action;
+- step 18 must separate first-layer curvature equations from the second-order
+  Yang--Mills--Higgs action;
+- step 24 identifies only the upstairs parent carrier;
+- step 27 identifies representation-level incidence, not a physical bilinear
+  or coefficient theorem; and
+- step 28 becomes a shared-field test across two action layers rather than an
+  assumed one-Hessian recovery.
+
 ## The complete 30-step recap, reconciled
 
 | step | Curt's recap | present repository status | physical recovery boundary |
@@ -107,18 +153,18 @@ caveats; they set the source grade.
 | 14 | right action on the affine connection space | built; affine origin/reference debit explicit | quotient-stack equivalence still open |
 | 15 | augmented torsion / gauge-rotated LC difference | built conditionally as `T=A-B`, transforming homogeneously | soldering to ordinary torsion and uniqueness open |
 | 16 | Shiab contraction | spinorial and bosonic homonyms separated; G2's density-dual map is written in the action | author-selected map and four-dimensional intertwining open |
-| 17 | first-order action | G2 source-shaped parent action written and exactly varied | selected/global differentiable action still conditional |
-| 18 | variation gives Einstein/YM analogues | full G2/G3 Euler, graph-return, Ward, and preboundary packet built | observation, quotient, principal symbol, source and residue tests open |
+| 17 | first-order action | G2 source-shaped Einsteinian parent action written and exactly varied | coupled Einstein--Dirac first layer and selected/global differentiable action still conditional |
+| 18 | variation gives Einstein/YM analogues | first-layer G2/G3 Euler, graph-return, Ward, and preboundary packet built; second residual-square/YM--Higgs action unbuilt | typed residual pairing, second variation, observation, quotient, symbol, source and residue tests open |
 | 19 | `Omega^0(S)+Omega^1(S)` Dirac--RS fields | carrier and conditional minimal odd action written | actual rolled complex, symbol, current, constraints and domain open |
 | 20 | deformation complex/cohomology | partial ordinary-gauge BV plus kinematic gamma maps | adjacent-composition, on-shell complex and physical cohomology open |
 | 21 | seesaw inside the complex | kinematic seesaw fixtures exist | action-selected mass matrix and hierarchy unbuilt |
 | 22 | `Spin(7,7)->Spin(1,3)xSpin(6,4)` and lower reductions | representation containment/branching built at stated grades | stationary action-selected stabilizer and hypercharge open |
 | 23 | three Dirac--RS pieces labelled generations | decomposition is kinematic; block-to-count inference has failed Layer 0 | physical chiral cohomology/index and P3 readout open |
-| 24 | scalar part of `pi` is Higgs | vertical ad-valued carrier and finite `U(2)` incidence control exist | doublet, VEV, photon kernel, potential, realistic bilinear and mirror gap open |
-| 25 | symmetric-fibre trace is Higgs-like; traceless part graviton-like | trace split built; particle identifications unbuilt | compare this scalar route to step 24 inside one Hessian |
+| 24 | scalar part of `pi` is Higgs | vertical ad-valued parent and finite `U(2)` incidence control exist; Eric says the physical Higgs is not simply adjoint-valued | equivariant extraction to a doublet, VEV, photon kernel, potential, realistic bilinear and mirror gap open |
+| 25 | symmetric-fibre trace is Higgs-like; traceless part graviton-like | trace split built; particle identifications unbuilt | compare this rival scalar route to step 24 across the staged actions |
 | 26 | curvature gives quartic/Mexican-hat potential | source mechanism plus a planted compatibility control | native coefficient, negative quadratic sign, stability and VEV open |
-| 27 | Yukawa is minimal coupling to the Higgs component | common representation-level incidence control exists | Krein bilinear, chiral reps, coefficient/flavour structure and masses open |
-| 28 | Higgs and Yang--Mills share the variational connection | shared-parent architecture and finite coupled control built | actual common native Hessian emission open |
+| 27 | Yukawa is minimal coupling to the Higgs component | Weinstein independently supports a common geometric origin; representation-level incidence control exists | first-layer Krein bilinear, chiral reps, coefficient/flavour structure and masses open |
+| 28 | Higgs and Yang--Mills share the variational connection | shared parent carrier and finite coupled control built | same extraction map across the Einstein--Dirac and second Yang--Mills--Higgs actions, plus their factorization, open |
 | 29 | quadratic augmented-torsion term restores covariance | G2 contains the necessary nonlinear/all-slot variation; the compressed Euler shortcut was killed | exact Layer-0 match to Curt's displayed formula open |
 | 30 | constant pullback component becomes cosmological term | distortion/cosmology carrier typed | state, VEV, amplitude, conserved stress and PP3 map open |
 
@@ -270,7 +316,8 @@ Both Higgs routes in the iceberg are included and deliberately not collapsed:
 2. the trace line in `Sym^2 T*X`, with the traceless part called
    graviton-like.
 
-They may coincide only after an explicit map and one shared Hessian says so.
+They may coincide only after an explicit map and the paired staged actions and
+their block Hessians say so.
 At present the repo has a trace coordinate, a vertical connection carrier,
 and an exact finite `U(2)` doublet compatibility fixture. That fixture shows
 that one incidence can generate a three-dimensional Goldstone orbit, a gauge
@@ -420,15 +467,21 @@ The most efficient next sequence is now:
    `L,R,L^vee,L^!,sharp_Y`, nonlinear leakage, patch descent, moving-section Ward
    transport, closed domain, and preboundary characteristic reduction on the
    carrier surviving C0.
-5. **Stationary parent background and one bosonic Hessian.** Derive the
-   stabilizer and keep all off-diagonal blocks.
-6. **Odd rolled-complex/factorization swing.** Replace the block-diagonal
-   compatibility expression with the actual source-shaped shortened complex;
-   test the square/factorization relation to the same bosonic Hessian.
-7. **Joint mode naming.** Only then test the gauge ideals, two TT modes, the
+5. **Staged action and residual-square swing.** Reconstruct the exact bosonic
+   residual square and its pairing. Separately assemble the coupled
+   Einstein--Dirac first layer, derive its complete Euler residual, and test
+   the total-residual square as a non-source-exact rival. In parallel, compare
+   the `varpi` and `T=A-B` Higgs carriers before either is shared across layers.
+6. **Stationary background and staged Hessians.** Derive the stabilizer, keep
+   all off-diagonal blocks, and test the typed factorization relation between
+   the first-layer linearized residual and the second-layer Hessian.
+7. **Odd rolled-complex completion.** Replace the block-diagonal compatibility
+   expression with the actual source-shaped shortened complex and track the
+   surviving `Pi_Higgs` extraction through both action layers.
+8. **Joint mode naming.** Only then test the gauge ideals, two TT modes, the
    two rival Higgs candidates, a distinct light cosmological mode, one-family
    `16`, physical chiral index/P3, Yukawa incidence and flavour misalignment.
-8. **Downstream physics.** Anomaly/BV completion, confinement, CKM/PMNS,
+9. **Downstream physics.** Anomaly/BV completion, confinement, CKM/PMNS,
    proton decay, FLRW/PP3/DESI, dark abundance, and empirical tests come last.
 
 This keeps the original construction goal intact. It uses Curt's iceberg to

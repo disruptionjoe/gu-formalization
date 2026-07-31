@@ -1,0 +1,589 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T172456Z-paired-curt-eric-axiom-reconstruction",
+  "branch": "agent/weinstein-guided-source-action",
+  "purpose": "Reconstruct the premises, corrections, hidden mathematical obligations, and falsifiable construction gates behind Curt Jaimungal's GU physics crosswalk when read with Eric Weinstein's subsequent corrections.",
+  "sources": {
+    "CURT-ICEBERG-2025": {
+      "title": "The Geometric Unity Iceberg... Oh Boy / In-depth Explanation of Eric Weinstein's Geometric Unity",
+      "role": "secondary reconstruction",
+      "official_video": "https://youtu.be/AThFAxF7Mgw",
+      "transcript": "https://podscripts.co/podcasts/theories-of-everything-with-curt-jaimungal/the-geometric-unity-iceberg-oh-boy"
+    },
+    "CURT-ICEBERG-STEP13-STILL": {
+      "title": "Step 13: The Inhomogeneous Gauge Group",
+      "role": "user-supplied still from the secondary iceberg exposition; the slide labels itself rough notes subject to correction",
+      "source_video": "https://youtu.be/AThFAxF7Mgw",
+      "source_video_locator": "00:53:03 dictionary overlay",
+      "custody": "visually transcribed from the image supplied in the 2026-07-31 paired-reconstruction session",
+      "supplied_image_sha256": "66a6438569fe0e1e5528b3b09de303dfa7c2f992d81ca3a322f27fa64f352fb2",
+      "supplied_image_dimensions": "1280x960 JPEG",
+      "audit_rule": "Verify the transcription against the official-video frame at 00:53:03; the temporary attachment path is not durable."
+    },
+    "WG-2025-TOE": {
+      "title": "Geometric Unity: 40 Years in the Making",
+      "role": "primary spoken correction and clarification",
+      "official_transcript": "https://theportal.group/curt-jaimungal-with-eric-weinstein-geometric-unity-40-years-in-the-making/",
+      "local_transcript": "lab/sources/transcripts/toe-weinstein-gu-40-years.md"
+    },
+    "WG-2025-ITI-UCSD": {
+      "title": "UCSD / Into the Impossible Geometric Unity seminar",
+      "role": "independent primary corroboration of the two-layer and Higgs/Yukawa claims",
+      "local_transcript": "lab/literature/weinstein-ucsd-2025-04-transcript.md",
+      "raw_local_transcript": "papers/drafts/Transcript into the impossible.md"
+    },
+    "WG-2021-DRAFT": {
+      "title": "Geometric Unity: Author's Working Draft v1.0",
+      "role": "controlling formula source",
+      "official_pdf": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf"
+    }
+  },
+  "grade_vocabulary": {
+    "EXPLICIT_CURT": "Curt says or derives this in the iceberg; it is not thereby a Weinstein formula.",
+    "EXPLICIT_ERIC": "Weinstein directly states this in a checked primary spoken source.",
+    "ERIC_CORRECTION": "Weinstein explicitly corrects or narrows Curt's treatment.",
+    "MANUSCRIPT_DEFINED": "The 2021 working draft displays the corresponding object or formula.",
+    "NECESSARY_IMPLICATION": "The step is not supplied by the speakers but is mathematically required for their next inference to be valid.",
+    "PLAUSIBLE_COMPLETION": "A concrete GU-native construction suggested by the source architecture, but not asserted or proved by the sources.",
+    "UNSUPPORTED": "The stronger conclusion is neither supplied by the source nor discharged in the repository."
+  },
+  "paired_verdict": {
+    "short": "Curt's carrier-level intuition survives, but his one-pass recovery story does not.",
+    "precise": "The paired sources support an ad-valued one-form as a geometric parent and support a Yukawa-shaped zero-order incidence from connection coupling. Weinstein's correction requires a first Einstein-Dirac layer followed by a second Yang-Mills-Higgs layer described as a square or second-order companion. The manuscript exactly writes a bosonic residual square, while a square of the combined Einstein-Dirac residual is only a plausible completion. The connection varpi and homogeneous distortion T are distinct candidate Higgs carriers. Neither transcript supplies their identification, the physical Higgs representation, a factorization theorem, a stable vacuum, a photon kernel, or realistic Yukawa coefficients and flavour data.",
+    "correction_scope": "The transcript says Weinstein disagrees with Curt's treatment because GU has two layers. It does not literally say that every part of Curt's minimal-coupling observation is false. Weinstein separately repeats that minimal and Yukawa coupling share a geometric origin.",
+    "construction_consequence": "Replace the one-Hessian naming gate with the manuscript bosonic square, a separately graded total-residual rival, a varpi-versus-T Higgs-carrier comparison, and staged factorization tests before physics labels are assigned."
+  },
+  "axioms": [
+    {
+      "id": "AX-F01",
+      "family": "foundational_geometry",
+      "name": "bare four-manifold input",
+      "statement": "Begin with a smooth four-manifold plus only explicitly charged sectoral data.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 00:03:06--00:04:18"],
+      "depends_on": [],
+      "construction_gate": "Inventory every spin, orientation, time-signature, reality, and count choice as datum rather than silently deriving it."
+    },
+    {
+      "id": "AX-F02",
+      "family": "foundational_geometry",
+      "name": "endogenous metric bundle",
+      "statement": "Construct Y of dimension fourteen from X by adjoining the ten-dimensional open Lorentz-signature orbit in the symmetric metric fibre, not an exterior-form surrogate.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 00:24:44--00:30:11", "CURT-ICEBERG recap 1"],
+      "depends_on": ["AX-F01"],
+      "construction_gate": "Use Sym^2 T*X with diagonal entries and verify global bundle type and signature component."
+    },
+    {
+      "id": "AX-F03",
+      "family": "foundational_geometry",
+      "name": "observation section",
+      "statement": "Ordinary spacetime fields are invasive pullbacks along local observation sections iota:X->Y.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Sections 2--4", "CURT-ICEBERG recap 3"],
+      "depends_on": ["AX-F02"],
+      "construction_gate": "Build local sections, patch descent, the field lift/retract, and the equation-dual map; do not equate field pullback with Euler-equation pullback."
+    },
+    {
+      "id": "AX-F04",
+      "family": "foundational_geometry",
+      "name": "vertical-horizontal split",
+      "statement": "A connection-dependent split of TY separates metric-fibre and base directions.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Sections 5--6", "CURT-ICEBERG recap 5--7"],
+      "depends_on": ["AX-F02"],
+      "construction_gate": "Construct the Zorro reference connection, prove naturality, and retain its variation when the observation data moves."
+    },
+    {
+      "id": "AX-F05",
+      "family": "foundational_geometry",
+      "name": "trace-reversed Frobenius fibre",
+      "statement": "The actual symmetric fibre uses trace-reversed Frobenius geometry; trace and traceless modes are distinct but are not yet particles.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 00:19:27--00:26:28", "WG-2025-ITI-UCSD 00:43:04"],
+      "depends_on": ["AX-F02"],
+      "construction_gate": "Carry tau_F on primal fields and tau_F^vee on Euler covectors before any scalar or spin-two readout."
+    },
+    {
+      "id": "AX-F06",
+      "family": "foundational_geometry",
+      "name": "chimeric spin carrier",
+      "statement": "A chimeric bundle assembled from vertical and horizontal-dual directions carries the pre-observation Clifford geometry.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Section 5", "WG-2025-TOE 02:41:57", "CURT-ICEBERG recap 7--12"],
+      "depends_on": ["AX-F04", "AX-F05"],
+      "construction_gate": "Resolve the source Spin(7,7)/U(64,64) presentation against the active (9,5)/right-H/Krein presentation by an explicit bundle and Clifford bridge or a non-equivalence certificate."
+    },
+    {
+      "id": "AX-S01",
+      "family": "symmetry",
+      "name": "inhomogeneous gauge arena",
+      "statement": "The primary symmetry object is a semidirect product of gauge transformations with ad-valued one-form translations.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Section 7", "WG-2025-TOE 01:35:23; 02:21:47"],
+      "depends_on": ["AX-F06"],
+      "construction_gate": "Fix the group law, derivative cocycle, affine origin, tilted embedding, left/right conventions, and global groupoid or quotient meaning."
+    },
+    {
+      "id": "AX-S02",
+      "family": "symmetry",
+      "name": "moving reference and distortion",
+      "statement": "The homogeneous field is the difference between a full connection and the gauge-rotated distinguished reference connection.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Sections 7--9", "WG-2025-TOE 02:17:22--02:23:28"],
+      "depends_on": ["AX-F04", "AX-S01"],
+      "construction_gate": "Keep the reference connection as a moving graph output and distinguish adjoint distortion one-form from ordinary torsion and contorsion."
+    },
+    {
+      "id": "AX-S03",
+      "family": "symmetry",
+      "name": "contraction not projection",
+      "statement": "The relevant Shiab-type operation is a contraction, not a projection.",
+      "grade": "ERIC_CORRECTION",
+      "locators": ["WG-2025-TOE 01:34:49--01:36:56"],
+      "depends_on": ["AX-S01"],
+      "construction_gate": "Preserve Weinstein's corrected noun and never call the Shiab operation a projection."
+    },
+    {
+      "id": "AX-S03E",
+      "family": "symmetry",
+      "name": "contraction Euler typing",
+      "statement": "For the contraction to occur in an action variation, its codomain, density degree, gauge law, and pairing must match the Euler covector dual to a connection variation.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["mathematical typing obligation generated by WG-2025-TOE 01:34:49--01:36:56 and the draft action"],
+      "depends_on": ["AX-S03"],
+      "construction_gate": "Construct the domain, codomain, density degree, equivariance, invariant pairing, and formal adjoint before inserting the contraction in either action layer."
+    },
+    {
+      "id": "AX-S04",
+      "family": "symmetry",
+      "name": "super-gauge odd carrier",
+      "statement": "Curt's Step 13 table proposes the analogue chain Lorentz group to gauge group, momenta to ad-valued one-form potentials, Minkowski space to the affine connection space, and super-Minkowski odd directions to spinor-valued one- plus zero-forms.",
+      "grade": "EXPLICIT_CURT",
+      "locators": ["CURT-ICEBERG-STEP13-STILL", "CURT-ICEBERG recap step 13"],
+      "depends_on": ["AX-F06", "AX-S01"],
+      "construction_gate": "Treat Omega^1(S) plus Omega^0(S) as a proposed odd carrier only. Supply the even action, odd bracket, chirality/reality, Jacobi identity, derivative cocycle, and proof that odd products land in N before calling it a super-unified-field group."
+    },
+    {
+      "id": "AX-A01",
+      "family": "action_architecture",
+      "name": "first Einstein-Dirac layer",
+      "statement": "GU first constructs an Einsteinian bosonic equation/action together with a first-order Dirac-type matter layer.",
+      "grade": "ERIC_CORRECTION",
+      "locators": ["WG-2025-TOE 00:41:50--00:43:38", "WG-2025-ITI-UCSD 00:05:43--00:06:32"],
+      "depends_on": ["AX-S02", "AX-S03E", "AX-F06"],
+      "construction_gate": "Assemble the G2 bosonic action and the Krein-paired odd action on one declared field graph and derive their full Euler residual."
+    },
+    {
+      "id": "AX-A02",
+      "family": "action_architecture",
+      "name": "first-order bosonic functional",
+      "statement": "The draft supplies a Chern-Simons/Einstein-like first-order bosonic functional whose Euler residual is total swervature/displasion-shaped.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Section 9.1 equations 9.1--9.7"],
+      "depends_on": ["AX-S02", "AX-S03E"],
+      "construction_gate": "Use the completed curvature expression including derivative and quadratic distortion terms; vary all independent and graph-owned fields."
+    },
+    {
+      "id": "AX-A03",
+      "family": "action_architecture",
+      "name": "Krein-paired odd functional",
+      "statement": "The physical fermion source is a bilinear action on spinor-valued zero- and one-forms, not a bare operator test.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["WG-2021-DRAFT Section 9.3", "CURT-ICEBERG 01:46:11--01:48:57"],
+      "depends_on": ["AX-F06", "AX-A01"],
+      "construction_gate": "Specify the Krein form, charge conjugation/reality, closed domain, principal symbol, zero-order block, and action-derived current."
+    },
+    {
+      "id": "AX-A04",
+      "family": "action_architecture",
+      "name": "second Yang-Mills-Higgs layer",
+      "statement": "A second Lagrangian/action adds the Yang-Mills-Higgs sector after the Einstein-Dirac layer.",
+      "grade": "ERIC_CORRECTION",
+      "locators": ["WG-2025-TOE 00:41:50--00:43:38", "WG-2025-ITI-UCSD 00:05:43--00:06:32"],
+      "depends_on": ["AX-A01"],
+      "construction_gate": "Write and vary a second native functional rather than identifying every mode of the first-layer Hessian directly with Yang-Mills-Higgs."
+    },
+    {
+      "id": "AX-A05",
+      "family": "action_architecture",
+      "name": "manuscript bosonic residual square",
+      "statement": "The draft's second-order bosonic functional is I2^B=||Upsilon_omega^B||^2, the norm square of the bosonic residual specifically.",
+      "grade": "MANUSCRIPT_DEFINED",
+      "locators": ["WG-2021-DRAFT Section 9.1 second-order bosonic functional"],
+      "depends_on": ["AX-A02", "AX-A04"],
+      "construction_gate": "Reconstruct Upsilon_omega^B exactly and type its residual bundle, density, bosonic pairing, Riesz map, adjoint, and boundary conditions before forming I2^B."
+    },
+    {
+      "id": "AX-A05T",
+      "family": "action_architecture",
+      "name": "combined Einstein-Dirac residual square extension",
+      "statement": "Extending the manuscript square from Upsilon_omega^B to the combined residual Upsilon_ED=d(I1^B+I_odd) is a concrete but non-source-exact candidate interpretation of the spoken two-layer square.",
+      "grade": "PLAUSIBLE_COMPLETION",
+      "locators": ["inference joining WG-2021-DRAFT I2^B with WG-2025-TOE and WG-2025-ITI-UCSD two-layer square language"],
+      "depends_on": ["AX-A03", "AX-A05"],
+      "construction_gate": "Construct the source-exact bosonic square first, then compare it with the total-residual extension using separately charged pairings Q_B and Q_ED; never attribute the extension to the manuscript."
+    },
+    {
+      "id": "AX-A06",
+      "family": "action_architecture",
+      "name": "derivative-order semantic",
+      "statement": "A curvature equation without a derivative in front of curvature is Einsteinian in the stated GU sense; a Yang-Millsian equation is second-order in the connection and contains a covariant derivative of curvature.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 00:42:13--00:43:10"],
+      "depends_on": ["AX-A02", "AX-A04"],
+      "construction_gate": "Compare principal symbols and differential order after observation rather than classifying equations by visual resemblance to instanton or curvature formulas."
+    },
+    {
+      "id": "AX-A07",
+      "family": "action_architecture",
+      "name": "square or double-copy relation",
+      "statement": "The GU replacement of Einstein is proposed to be a square root of the GU replacement of Yang-Mills-Higgs.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 00:43:38", "WG-2025-ITI-UCSD 00:05:43--00:06:32"],
+      "depends_on": ["AX-A01", "AX-A04", "AX-A05"],
+      "construction_gate": "At a common stationary background prove or refute a typed linearized relation H2=(D Upsilon1)^dagger Q(D Upsilon1) up to gauge, constraints, curvature lower-order terms, and boundary reduction."
+    },
+    {
+      "id": "AX-H01",
+      "family": "higgs",
+      "name": "ad-valued one-form carrier",
+      "statement": "A GU Higgs candidate must arise from an ad-valued one-form, not be added as an independent scalar field.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 01:35:23--01:36:08", "WG-2025-ITI-UCSD 00:42:42--00:43:47"],
+      "depends_on": ["AX-S01"],
+      "construction_gate": "Preserve the generic ad-valued one-form claim without silently choosing the variational connection varpi or the homogeneous distortion T."
+    },
+    {
+      "id": "AX-H01F",
+      "family": "higgs",
+      "name": "connection versus distortion Higgs-carrier fork",
+      "statement": "Curt's fermion/minimal-coupling argument uses a connection component of varpi, whereas the native bosonic first-order action is organized around the homogeneous distortion T=A-B; these fields have different gauge laws and are not interchangeable.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["CURT-ICEBERG 01:44:12--01:49:33", "WG-2021-DRAFT Sections 7--9", "paired Layer-0 comparison"],
+      "depends_on": ["AX-H01", "AX-S02"],
+      "construction_gate": "Construct both candidates phi_varpi=Pi_Higgs^varpi(Pi_vert varpi) and phi_T=Pi_Higgs^T(Pi_vert T), their gauge laws, and an explicit relation or non-equivalence certificate before using one carrier in both action layers."
+    },
+    {
+      "id": "AX-H02",
+      "family": "higgs",
+      "name": "scalarization map",
+      "statement": "A selected component of the upstairs one-form must become a four-dimensional scalar after observation while retaining a nontrivial internal representation.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["CURT-ICEBERG 01:44:12--01:49:33"],
+      "depends_on": ["AX-F03", "AX-H01F"],
+      "construction_gate": "Construct the contraction/restriction map and prove its Lorentz and internal equivariance; a vertical coefficient is not automatically a scalar doublet."
+    },
+    {
+      "id": "AX-H03",
+      "family": "higgs",
+      "name": "physical Higgs representation",
+      "statement": "The scalarized carrier must not remain an adjoint-valued Standard Model Higgs; it must reduce to the observed weak representation rather than the full adjoint representation of the large structure group.",
+      "grade": "ERIC_CORRECTION",
+      "locators": ["WG-2025-TOE 01:10:37--01:10:57 explicitly says the real Higgs is not adjoint-valued"],
+      "depends_on": ["AX-H02"],
+      "construction_gate": "Derive the action-selected stabilizer and branch the candidate to an appropriate complex weak doublet with correct hypercharge and reality."
+    },
+    {
+      "id": "AX-H04",
+      "family": "higgs",
+      "name": "curvature decomposition",
+      "statement": "For a connection split into observed gauge and scalar-shaped components, curvature contains F_alpha, D_alpha phi, and phi-wedge-phi terms.",
+      "grade": "EXPLICIT_CURT",
+      "locators": ["CURT-ICEBERG 01:15:44--01:18:05; 01:44:12--01:49:33"],
+      "depends_on": ["AX-H02", "AX-A04"],
+      "construction_gate": "Derive the split from the actual C0 carrier and second-layer action, including all off-diagonal and background-curvature terms."
+    },
+    {
+      "id": "AX-H05",
+      "family": "higgs",
+      "name": "Higgs kinetic and quartic mechanism",
+      "statement": "A norm-square of the decomposed curvature can generate a scalar kinetic term and a quartic term from D phi and phi-wedge-phi.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-ITI-UCSD 00:42:42--00:43:47", "CURT-ICEBERG 01:15:44--01:18:05"],
+      "depends_on": ["AX-A04", "AX-A05", "AX-H04"],
+      "construction_gate": "Compute the induced coefficients and signs with the actual indefinite pairing and prove boundedness on the admitted physical domain."
+    },
+    {
+      "id": "AX-H06",
+      "family": "higgs",
+      "name": "quadratic term from background curvature",
+      "statement": "The cross term between background curvature and phi-wedge-phi may supply a quadratic scalar term whose sign can be symmetry-breaking.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-ITI-UCSD 00:43:04"],
+      "depends_on": ["AX-H04", "AX-H05"],
+      "construction_gate": "Solve the native stationary background and compute the quadratic form; do not assume the required negative sign or stability."
+    },
+    {
+      "id": "AX-H07",
+      "family": "higgs",
+      "name": "vacuum and mass-kernel gate",
+      "statement": "Calling the mode the physical Higgs additionally requires a stable nonzero vacuum, three broken weak directions, one radial mode, and one unbroken photon kernel.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["standard recovery obligation; not supplied by either transcript"],
+      "depends_on": ["AX-H03", "AX-H05", "AX-H06"],
+      "construction_gate": "Derive the stationary orbit and simultaneous gauge/scalar Hessian from the second-layer action."
+    },
+    {
+      "id": "AX-H08",
+      "family": "higgs",
+      "name": "trace-line rival",
+      "statement": "Curt also proposes the symmetric-fibre trace as Higgs-like and its traceless complement as graviton-like; this is a rival route, not identical to the ad-valued one-form component.",
+      "grade": "EXPLICIT_CURT",
+      "locators": ["CURT-ICEBERG 01:14:00--01:15:07"],
+      "depends_on": ["AX-F05"],
+      "construction_gate": "Keep the trace scalar and vertical connection scalar separate until an explicit map and the staged action Hessians identify or distinguish them."
+    },
+    {
+      "id": "AX-Y01",
+      "family": "yukawa",
+      "name": "connection incidence",
+      "statement": "If the scalar-shaped carrier is a connection component, the coupled first-order spinor operator acquires a zero-order scalar incidence after observation.",
+      "grade": "EXPLICIT_CURT",
+      "locators": ["CURT-ICEBERG 01:16:54--01:18:05; 01:46:11--01:49:33"],
+      "depends_on": ["AX-A03", "AX-H02"],
+      "construction_gate": "Construct the precise Clifford/representation map m_phi and its Krein adjoint on the physical spinor domain."
+    },
+    {
+      "id": "AX-Y02",
+      "family": "yukawa",
+      "name": "minimal/Yukawa common origin",
+      "statement": "Minimal connection coupling and Yukawa-shaped coupling share the same geometric operation, with their apparent difference arising after the spin and representation decomposition.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-ITI-UCSD 00:43:04"],
+      "depends_on": ["AX-Y01"],
+      "construction_gate": "Show that the same native incidence differentiates both the gauge-boson mass matrix and the Krein-paired fermion bilinear."
+    },
+    {
+      "id": "AX-Y03",
+      "family": "yukawa",
+      "name": "bilinear and chirality",
+      "statement": "A physical mass/Yukawa term is the Krein-paired bilinear, and its left-right selection cannot be read from the bare one-form operator alone.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["paired repo Layer-0 control; not explicitly supplied by the transcripts"],
+      "depends_on": ["AX-A03", "AX-Y01"],
+      "construction_gate": "Compose the zero-order operator with the Krein form and charge conjugation/reality projections, then prove the observed chiral channel."
+    },
+    {
+      "id": "AX-Y04",
+      "family": "yukawa",
+      "name": "incidence is not coefficient prediction",
+      "statement": "The stronger claim that the geometry already fixes Yukawa magnitudes, family matrices, phases, hierarchies, or masses is not supported by the paired sources.",
+      "grade": "UNSUPPORTED",
+      "locators": ["CURT-ICEBERG 01:46:53--01:48:57 explicitly arranges a Yukawa constant", "WG-2025-TOE two-layer correction"],
+      "depends_on": ["AX-Y02", "AX-Y03"],
+      "construction_gate": "Run a target-blind naturality and multiplicity census; charge every surviving coefficient and require two independently selected mass operators before CKM/PMNS."
+    },
+    {
+      "id": "AX-Y05",
+      "family": "yukawa",
+      "name": "staged Yukawa interpretation",
+      "statement": "The fermion incidence belongs to the first-order Einstein-Dirac layer, while Higgs propagation and its potential belong to the second Yang-Mills-Higgs layer; their common carrier must be related by the square construction.",
+      "grade": "PLAUSIBLE_COMPLETION",
+      "locators": ["paired inference from WG-2025-TOE 00:41:50--00:43:38 and WG-2025-ITI-UCSD 00:43:04"],
+      "depends_on": ["AX-A03", "AX-A04", "AX-A05T", "AX-A07", "AX-H01F", "AX-Y02"],
+      "construction_gate": "Prove one shared phi-incidence across the first-layer odd action and second-layer scalar/gauge Hessian; otherwise the apparent unification is only naming."
+    },
+    {
+      "id": "AX-R01",
+      "family": "physical_recovery",
+      "name": "action before equation naming",
+      "statement": "A familiar-looking term or field decomposition does not establish a physical equation; the native action and full Euler covector must be derived first.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["paired transcript architecture and repo recovery contract"],
+      "depends_on": ["AX-A01", "AX-A04"],
+      "construction_gate": "Vary both layers, including moving background and observation owners, before comparing with Einstein, Yang-Mills, Dirac, or Klein-Gordon equations."
+    },
+    {
+      "id": "AX-R02",
+      "family": "physical_recovery",
+      "name": "observation equation-dual",
+      "statement": "Recovery on X requires the dual of the field lift, not only pullback of fields.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["WG-2021-DRAFT observerse grammar; mathematical chain rule"],
+      "depends_on": ["AX-F03", "AX-R01"],
+      "construction_gate": "Build L, R, L^vee, the Riesz adjoint L^!, leakage control, and nonlinear intertwining."
+    },
+    {
+      "id": "AX-R03",
+      "family": "physical_recovery",
+      "name": "domain and quotient",
+      "statement": "The observed operator must preserve a closed physical domain and descend through gauge, constraint, and boundary characteristic quotients.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["not supplied by either transcript"],
+      "depends_on": ["AX-R02"],
+      "construction_gate": "Construct the global analytic domain, gauge cohomology, preboundary reduction, and observable intertwiner before counting poles or modes."
+    },
+    {
+      "id": "AX-R04",
+      "family": "physical_recovery",
+      "name": "dynamic group selection",
+      "statement": "Containment of Pati-Salam or the Standard Model group does not show that the native action selects that stabilizer.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["CURT-ICEBERG group-reduction mapping", "WG-2025-TOE 01:10:05--01:13:43"],
+      "depends_on": ["AX-S01", "AX-H07"],
+      "construction_gate": "Solve stationary backgrounds and derive the stabilizer, hypercharge normalization, compact ideals, and positive-norm spectrum."
+    },
+    {
+      "id": "AX-R05",
+      "family": "physical_recovery",
+      "name": "decomposition is not generation count",
+      "statement": "The zero-form, gamma-trace, and gamma-traceless carrier decomposition does not by itself determine three physical chiral generations.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["WG-2025-TOE 02:28:46--02:31:23 exposes contraction/projection and ordinal uncertainty"],
+      "depends_on": ["AX-A03", "AX-R03"],
+      "construction_gate": "Build the rolled complex, its physical Fredholm domain and chiral index; carry P3 as external until a readout theorem exists."
+    },
+    {
+      "id": "AX-R06",
+      "family": "physical_recovery",
+      "name": "cosmological mode is distinct",
+      "statement": "A distortion or spinless gauge-potential VEV may replace a fixed cosmological constant, but it is not automatically the Higgs or a dark-energy prediction.",
+      "grade": "EXPLICIT_ERIC",
+      "locators": ["WG-2025-TOE 02:14:44--02:23:28", "WG-2021-DRAFT Section 12.9"],
+      "depends_on": ["AX-S02", "AX-F05", "AX-R02"],
+      "construction_gate": "Derive a separate light scalar mode, conserved trace-reversed observation stress, state/VEV, amplitude, and only then compare with PP3 or DESI."
+    },
+    {
+      "id": "AX-R07",
+      "family": "physical_recovery",
+      "name": "quantum and anomaly gate",
+      "statement": "Classical carrier and action recovery does not establish unitarity, anomaly cancellation, or a quantum theory.",
+      "grade": "NECESSARY_IMPLICATION",
+      "locators": ["not supplied by the paired mapping"],
+      "depends_on": ["AX-R03", "AX-R04", "AX-R05"],
+      "construction_gate": "Run BV closure, physical anomaly, positivity/Krein, and renormalization tests only on the selected reduced spectrum."
+    }
+  ],
+  "argument_chains": [
+    {
+      "id": "CHAIN-HIGGS",
+      "mapping": "ad-valued one-form to physical Higgs",
+      "nodes": ["AX-F02", "AX-F03", "AX-F04", "AX-S01", "AX-S02", "AX-H01", "AX-H01F", "AX-H02", "AX-H03", "AX-A04", "AX-A05", "AX-A05T", "AX-H04", "AX-H05", "AX-H06", "AX-H07", "AX-R02", "AX-R03", "AX-R04"],
+      "source_supported_spine": ["AX-H01", "AX-H04", "AX-H05", "AX-H06"],
+      "first_open_decisive_node": "AX-H01F",
+      "verdict": "CARRIER_AND_MECHANISM_SUGGESTED__PHYSICAL_HIGGS_OPEN"
+    },
+    {
+      "id": "CHAIN-YUKAWA",
+      "mapping": "minimal connection coupling to physical Yukawa sector",
+      "nodes": ["AX-F06", "AX-A03", "AX-H01", "AX-H01F", "AX-H02", "AX-H03", "AX-Y01", "AX-Y02", "AX-Y03", "AX-Y04", "AX-Y05", "AX-R02", "AX-R03", "AX-R05"],
+      "source_supported_spine": ["AX-Y01", "AX-Y02"],
+      "first_open_decisive_node": "AX-Y03",
+      "verdict": "INCIDENCE_SUPPORTED__BILINEAR_COEFFICIENTS_AND_FLAVOUR_OPEN"
+    },
+    {
+      "id": "CHAIN-EINSTEIN",
+      "mapping": "first GU layer to observed Einstein dynamics",
+      "nodes": ["AX-F03", "AX-F05", "AX-S02", "AX-S03", "AX-S03E", "AX-A01", "AX-A02", "AX-A06", "AX-R01", "AX-R02", "AX-R03"],
+      "source_supported_spine": ["AX-A01", "AX-A02", "AX-A06"],
+      "first_open_decisive_node": "AX-R02",
+      "verdict": "NATIVE_FIRST_ORDER_EULER_PACKET_EXISTS__PHYSICAL_SPIN_TWO_RECOVERY_OPEN"
+    },
+    {
+      "id": "CHAIN-YANG-MILLS-MAXWELL",
+      "mapping": "second GU layer to Yang-Mills and its abelian Maxwell sector",
+      "nodes": ["AX-A01", "AX-A04", "AX-A05", "AX-A05T", "AX-A06", "AX-A07", "AX-R01", "AX-R02", "AX-R03", "AX-R04"],
+      "source_supported_spine": ["AX-A04", "AX-A05", "AX-A06", "AX-A07"],
+      "first_open_decisive_node": "AX-A05T",
+      "verdict": "SECOND_LAYER_DIRECTIVE_EXISTS__PAIRING_VARIATION_AND_PHYSICAL_GAUGE_MODES_OPEN"
+    },
+    {
+      "id": "CHAIN-DIRAC",
+      "mapping": "chimeric odd carrier to observed Dirac matter",
+      "nodes": ["AX-F03", "AX-F06", "AX-S04", "AX-A01", "AX-A03", "AX-Y03", "AX-R02", "AX-R03", "AX-R05"],
+      "source_supported_spine": ["AX-F06", "AX-A01"],
+      "first_open_decisive_node": "AX-A03",
+      "verdict": "CARRIER_AND_ACTION_CLASS_CONDITIONAL__GLOBAL_OPERATOR_AND_4D_DOMAIN_OPEN"
+    },
+    {
+      "id": "CHAIN-WEAK-STRONG",
+      "mapping": "large native symmetry to observed weak and strong gauge groups",
+      "nodes": ["AX-S01", "AX-A04", "AX-H03", "AX-H07", "AX-R03", "AX-R04", "AX-R07"],
+      "source_supported_spine": ["AX-S01"],
+      "first_open_decisive_node": "AX-R04",
+      "verdict": "REPRESENTATION_CONTAINMENT_ONLY__DYNAMIC_SELECTION_OPEN"
+    },
+    {
+      "id": "CHAIN-GENERATIONS",
+      "mapping": "spinor-valued form decomposition to three observed generations",
+      "nodes": ["AX-F06", "AX-S04", "AX-A03", "AX-R03", "AX-R05", "AX-R07"],
+      "source_supported_spine": ["AX-F06"],
+      "first_open_decisive_node": "AX-R05",
+      "verdict": "THREE_KINEMATIC_PIECES__PHYSICAL_COUNT_NOT_DERIVED"
+    },
+    {
+      "id": "CHAIN-COSMOLOGY",
+      "mapping": "distortion/VEV to observed dark-energy stress",
+      "nodes": ["AX-F03", "AX-F05", "AX-S02", "AX-A01", "AX-R01", "AX-R02", "AX-R03", "AX-R06"],
+      "source_supported_spine": ["AX-S02", "AX-R06"],
+      "first_open_decisive_node": "AX-R02",
+      "verdict": "GEOMETRIC_HOME_SUGGESTED__STATE_STRESS_AMPLITUDE_AND_PREDICTION_OPEN"
+    },
+    {
+      "id": "CHAIN-FLAVOUR",
+      "mapping": "residual internal freedom to CKM and PMNS mixing",
+      "nodes": ["AX-H03", "AX-Y03", "AX-Y04", "AX-R03", "AX-R04", "AX-R05"],
+      "source_supported_spine": [],
+      "first_open_decisive_node": "AX-Y04",
+      "verdict": "UNSUPPORTED_UNTIL_TWO_ACTION_SELECTED_NONCOMMUTING_MASS_OPERATORS_EXIST"
+    }
+  ],
+  "curt_eric_disagreement": {
+    "curt_package": [
+      "decompose the pulled-back connection into gauge and scalar-shaped pieces",
+      "expand one curvature norm to obtain scalar kinetic, quadratic, and quartic terms",
+      "expand the same coupled Dirac operator to obtain a Yukawa-shaped vertex",
+      "read the resulting familiar structures as recovery"
+    ],
+    "eric_correction": [
+      "separate the Einstein-Dirac and Yang-Mills-Higgs layers",
+      "classify the layers by differential order, not by curvature vocabulary",
+      "build the second layer as a square or second-order companion of the first",
+      "retain the ad-valued one-form and minimal/Yukawa common-origin intuitions"
+    ],
+    "not_established": [
+      "an exact formula equating the complete first and second layers",
+      "a positive field-space norm in the indefinite/Krein setting",
+      "the physical weak-doublet projection",
+      "coefficient-free Yukawa matrices",
+      "physical recovery after observation and quotient"
+    ]
+  },
+  "next_swing": {
+    "id": "E6-STAGED-RESIDUAL-SQUARE",
+    "objective": "Construct the manuscript-exact bosonic residual square and a separately graded total Einstein-Dirac residual-square rival, while deciding whether the connection carrier varpi or homogeneous distortion T can coherently supply the Higgs/Yukawa bridge.",
+    "steps": [
+      "Freeze the C0-selected carrier and declare the complete first-layer field graph.",
+      "Reconstruct the manuscript bosonic residual Upsilon_B and its exact invariant pairing Q_B, then define and vary I2_B[Q_B]=one-half <Upsilon_B,Q_B Upsilon_B>.",
+      "Separately form I_ED=I1_B+I_odd and its density-dual residual Upsilon_ED with all graph returns.",
+      "Enumerate a separately charged invariant pairing Q_ED and define the non-source-exact rival I2_ED[Q_ED]=one-half <Upsilon_ED,Q_ED Upsilon_ED>.",
+      "At a common stationary background compare H2_B=(D Upsilon_B)^vee Q_B(D Upsilon_B) with H2_ED=(D Upsilon_ED)^vee Q_ED(D Upsilon_ED), retaining gauge degeneracies, lower-order curvature terms, and off-diagonal blocks.",
+      "Construct phi_varpi=Pi_Higgs^varpi(Pi_vert varpi) and phi_T=Pi_Higgs^T(Pi_vert T), then prove their relation or non-equivalence before tracking either through I_odd, the second action, and the observed equation-dual map.",
+      "Test scalar representation, kinetic sign, quartic, quadratic sign, vacuum orbit, photon kernel, and equality of gauge-mass and fermion-incidence maps.",
+      "Kill any candidate that needs an after-the-fact projector, an uncharged coefficient, a frozen Krein pairing, or a copied Standard Model term."
+    ],
+    "information_gain": "This one construction simultaneously tests Eric's two-layer correction, the manuscript's exact bosonic square, the stronger total-residual interpretation, Curt's curvature mechanism, the connection-versus-distortion carrier fork, the minimal/Yukawa common-origin claim, and the physical Higgs gates.",
+    "datum_rule": "P1/P2/P3 remain conditional inputs. The swing may locate where a datum acts, but may not infer chirality or generation count from a decomposition."
+  },
+  "anti_collapse_controls": [
+    "one-form component is not physical Higgs",
+    "curvature quartic is not stable electroweak vacuum",
+    "minimal-coupling incidence is not a Yukawa coefficient matrix",
+    "bare zero-order operator is not a mass bilinear",
+    "first-layer Hessian is not automatically the second action",
+    "spoken square-root analogy is not a proved factorization",
+    "field pullback is not Euler-equation recovery",
+    "three carrier pieces are not three chiral generations",
+    "maximal-compact containment is not dynamic gauge selection",
+    "trace scalar and vertical connection scalar remain distinct until mapped",
+    "variational connection and homogeneous distortion remain distinct until related"
+  ],
+  "nonclaims": [
+    "No physical Higgs mode, VEV, or photon kernel is claimed.",
+    "No Yukawa coefficient, flavour matrix, fermion mass, or mirror gap is claimed.",
+    "No Einstein, Yang-Mills, Maxwell, Dirac, or Klein-Gordon equation is claimed recovered on X.",
+    "No Standard Model gauge-group selection or three-generation count is claimed.",
+    "No cosmological amplitude, PP3 curve, DESI match, dark-matter abundance, anomaly closure, or quantum completion is claimed."
+  ]
+}

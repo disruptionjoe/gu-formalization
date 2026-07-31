@@ -6,7 +6,7 @@
   "executed_closure_packet": "lab/specifications/eric-source-directed-native-closure-packet-2026-07-31.md",
   "executed_closure_certificate": "lab/process/eric-source-directed-native-closure-certificate.json",
   "executed_closure_verdict": "All ten source callouts now route through five shared conditional native objects and exact finite positive controls; every actual Y14 emergence gate remains open.",
-  "thesis": "The G2/G3 system is the common native parent. Familiar four-dimensional equations count as recovered only after an action, equation-dual observation map, closed domain, symmetry identity, and observable intertwining theorem are built.",
+  "thesis": "The G2/G3 system is the first Einsteinian parent. The paired Curt-Eric reading requires a coupled Einstein-Dirac first layer and a distinct Yang-Mills-Higgs second action built as a square or second-order companion before familiar modes are named. Four-dimensional equations count as recovered only after the staged actions, equation-dual observation map, closed domain, symmetry identity, quotient, and observable intertwining theorem are built.",
   "no_stall_rule": "Carry finite data as a conditional family parameter and turn every absent arrow into a bounded construction or kill; never restart from 'source action or external datum missing'.",
   "curt_iceberg_reconciliation": {
     "source_report": "lab/sources/curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md",
@@ -14,6 +14,13 @@
     "coverage": "30 recap steps plus 14 cross-cutting recovery claims",
     "status_rule": "Curt assertion, Weinstein primary support, repository construction, and physical recovery are scored separately.",
     "sequence_change": "Run C0 chimeric/Zorro/real-form bridge and build only the primitives needed for enumeration; then run G3.5 on the surviving carrier, port only the surviving carrier-dependent G2/G3 machinery if C0 returns non-equivalence, and proceed to C1."
+  },
+  "paired_curt_eric_reconstruction": {
+    "source_report": "lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md",
+    "registry": "lab/process/paired-curt-eric-gu-axiom-graph.json",
+    "coverage": "40 typed axioms and nine recovery chains",
+    "correction": "Curt's generic ad-valued carrier and minimal/Yukawa incidence survive as construction leads, but Eric requires Einstein-Dirac first and a separate square/second-order Yang-Mills-Higgs action. The observed Higgs is not simply adjoint-valued. The variational connection varpi and homogeneous distortion T remain a typed carrier fork.",
+    "sequence_change": "After C0 and the target-blind census, reconstruct the manuscript bosonic residual square I2_B[Q_B], separately assemble I_ED and the conjectural total-residual rival I2_ED[Q_ED], and compare Pi_Higgs^varpi(varpi) with Pi_Higgs^T(T) before using either carrier across the odd bilinear and second-layer gauge/scalar Hessian."
   },
   "native_backbone": {
     "fields": "B=A_LC(epsilon_red,g_DW); T=A-B",
@@ -30,9 +37,13 @@
     "G3.5_TARGET_BLIND_NATURALITY_AND_ABLATION_ON_SURVIVING_CARRIER",
     "C0_TRIGGERED_G2_G3_CARRIER_PORT_IF_REQUIRED",
     "G4_OBSERVATION_RETRACT_DOMAIN_AND_BFV_QUOTIENT",
-    "STATIONARY_NATIVE_BACKGROUND",
-    "ONE_REDUCED_BOSONIC_HESSIAN",
     "G5_MINIMAL_ODD_EXTENSION_AND_ACTION_DERIVED_CURRENTS",
+    "MANUSCRIPT_BOSONIC_RESIDUAL_AND_QB_SQUARE",
+    "COUPLED_EINSTEIN_DIRAC_FIRST_LAYER_AND_FULL_RESIDUAL",
+    "CONJECTURAL_TOTAL_RESIDUAL_QED_SQUARE_RIVAL",
+    "VARPI_VERSUS_DISTORTION_HIGGS_CARRIER_FORK",
+    "STATIONARY_NATIVE_BACKGROUND",
+    "STAGED_HESSIANS_AND_FACTORIZATION_TEST",
     "LOW_ENERGY_MODE_AND_GROUP_IDENTIFICATION",
     "PHYSICAL_BV_ANOMALY_TEST",
     "PHYSICAL_INDEX_AND_DATUM_READOUT",
@@ -135,14 +146,20 @@
         }
       ],
       "formula_source": "WG-2021-DRAFT Section 9.1 equations (9.1)--(9.7) writes the native first-order bosonic action; it is not an ordinary F^2 Yang-Mills action.",
-      "native_search_directive": "Treat the exact G2 first-order Euler packet as the square-root parent and compute its reduced second variation. Search for a nonabelian second-order propagation block whose low-energy equation intertwines with D_A(*F_A)=J only after the explicit F^2 comparator is ablated.",
-      "boundary": "Having a connection, curvature, or Bianchi identity is not yet Yang-Mills dynamics; the reduced G2/G3 Euler/Hessian comparison remains required."
+      "native_search_directive": "First reconstruct the manuscript-exact bosonic residual Upsilon_B and I2_B[Q_B]. Separately treat the exact G2 plus odd Einstein-Dirac residual Upsilon_ED and I2_ED[Q_ED] as a conjectural stronger square. Compare both reduced Hessians for a nonabelian second-order propagation block whose low-energy equation intertwines with D_A(*F_A)=J only after the explicit F^2 comparator is ablated.",
+      "boundary": "Having a connection, curvature, Bianchi identity, first-layer Hessian, or total-residual square conjecture is not yet Yang-Mills dynamics; the source-exact bosonic pairing, rival total pairing, full variations, reduction, and physical symbol remain required."
     },
     {
       "id": "PSC-EINSTEIN",
       "component": "Einstein gravity",
       "classification": "DIRECT_STANDARD_BASELINE_AND_GU_REPLACEMENT",
       "callouts": [
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "00:41:50--00:43:38; 01:10:37--01:10:57",
+          "role": "paired correction to the iceberg mechanism",
+          "claim": "Yang-Mills-Higgs belongs to a second action after Einstein-Dirac, and the real Higgs cannot simply remain adjoint-valued even though its parent comes from an ad-valued one-form."
+        },
         {
           "source_id": "WG-OXFORD-PORTAL",
           "locator": "00:42:16; 01:43:32--01:46:17; 02:35:10--02:40:19",
@@ -191,8 +208,8 @@
         }
       ],
       "formula_source": "WG-2021-DRAFT Section 12.9 equations (12.12)--(12.17) gives a stylized scalar-curvature mass coupling and identifies a spin-zero subspace of an ad-valued one-form; it does not construct the observed doublet.",
-      "native_search_directive": "Search inside the vertical ad-valued one-form coefficient of T, not in an added scalar bundle. Require one action-selected Hessian mode whose curvature expansion emits the kinetic, quadratic, and quartic terms and whose minimal coupling is the same incidence map used by the K-paired fermion zero-order block.",
-      "boundary": "No source passage supplies the physical (1,2)_(1/2) mode, stable potential, VEV selection, photon kernel, Yukawa incidence, or mirror gap."
+      "native_search_directive": "Retain two typed candidates: Pi_Higgs^varpi(Pi_vert varpi) from the connection used by the fermion/minimal-coupling argument, and Pi_Higgs^T(Pi_vert T) from the homogeneous distortion used by the bosonic action. Derive their relation or non-equivalence before requiring one carrier to enter the first-layer K-paired zero-order block and either source-exact I2_B or conjectural I2_ED Hessian with kinetic, quadratic, quartic, vacuum-orbit, and gauge-mass data.",
+      "boundary": "No source passage identifies varpi with T as a Higgs carrier or supplies either Pi_Higgs map, the physical (1,2)_(1/2) mode, residual pairings, stable potential, VEV selection, photon kernel, realistic Yukawa bilinear, or mirror gap."
     },
     {
       "id": "PSC-DIRAC",
@@ -219,7 +236,7 @@
         }
       ],
       "formula_source": "WG-2021-DRAFT equations (9.18)--(9.20) types the fermionic Euler residual; Section 12.9 gives a stylized zero-order curvature mass term.",
-      "native_search_directive": "Build the minimal odd action on Omega^0(Y,S)+Omega^1(Y,S) whose Euler/Hessian is the square-root partner of the bosonic G2/G3 system. Its rolled complex must emit the Dirac/RS propagation, K-paired zero-order VEV channel, current, and constraint complex before reduction to X.",
+      "native_search_directive": "Build the minimal odd action on Omega^0(Y,S)+Omega^1(Y,S) as part of the first Einstein-Dirac layer and derive its action current. Its rolled complex must emit the Dirac/RS propagation, K-paired zero-order VEV channel, current, and constraint complex before reduction to X; its full residual must then be tested as the square-root parent of the distinct second Yang-Mills-Higgs action.",
       "boundary": "The checked source set still does not supply the closed physical odd domain, complete operator/action, current map, zero-order placement, or causal quotient."
     },
     {

@@ -11,6 +11,14 @@
     "grade": "secondary mathematical exposition with explicit author-caveat passages"
   },
   "verdict": "SOURCE_DIRECTIVES_INCLUDED__RECOVERY_CLAIMS_REMAIN_CONDITIONAL_OR_OPEN",
+  "paired_source_supersession": {
+    "report": "lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md",
+    "registry": "lab/process/paired-curt-eric-gu-axiom-graph.json",
+    "scope": "The subsequent Curt-Eric transcript supersedes the single-exposition reading on action architecture and Higgs typing: Einstein-Dirac comes first, a second action adds Yang-Mills-Higgs, and the observed Higgs cannot simply remain adjoint-valued.",
+    "preserved_core": "The ad-valued one-form remains the parent carrier and minimal/Yukawa coupling remains a common-origin incidence claim, not a coefficient theorem.",
+    "action_fork": "The manuscript exact formula is the bosonic residual square I2_B=||Upsilon_omega^B||^2. A square of the combined Einstein-Dirac residual is a separately graded plausible completion, not a manuscript formula.",
+    "higgs_carrier_fork": "Curt's fermion argument uses the connection varpi while the native bosonic action uses homogeneous distortion T=A-B. Construct Pi_Higgs^varpi and Pi_Higgs^T and derive their relation or non-equivalence before sharing a carrier across action layers."
+  },
   "three_layer_rule": {
     "curt_layer": "what Curt states, reconstructs, or identifies in the iceberg",
     "eric_layer": "whether a Weinstein primary source or the 2021 draft supplies the same object or formula",
@@ -214,8 +222,8 @@
       "timestamp": "03:00:22",
       "curt_claim": "Formulate a first-order GU action with Einstein-Hilbert/Chern-Simons-like structure and a quadratic distortion term.",
       "eric_support": "MANUSCRIPT_DEFINED",
-      "repo_status": "G2_PARENT_ACTION_WRITTEN_AND_VARIED",
-      "emergence_status": "CONDITIONAL_PARENT__NOT_OBSERVED_PHYSICS",
+      "repo_status": "G2_FIRST_EINSTEINIAN_PARENT_ACTION_WRITTEN_AND_VARIED",
+      "emergence_status": "OPEN_COUPLED_EINSTEIN_DIRAC_LAYER__NOT_OBSERVED_PHYSICS",
       "atlas_targets": ["GAUGE_YANG_MILLS", "EINSTEIN_GRAVITY", "STRESS_CONSERVATION"]
     },
     {
@@ -223,9 +231,9 @@
       "id": "CI-18",
       "timestamp": "03:00:51",
       "curt_claim": "Vary the action to obtain equations analogous to Einstein and Yang-Mills.",
-      "eric_support": "MANUSCRIPT_PROGRAM_AND_CURT_RECONSTRUCTION",
-      "repo_status": "FULL_G2_G3_EULER_AND_WARD_PACKET_BUILT",
-      "emergence_status": "OPEN_OBSERVATION_DOMAIN_QUOTIENT_SYMBOL_AND_SOURCE_TESTS",
+      "eric_support": "ERIC_TWO_LAYER_CORRECTION__MANUSCRIPT_FIRST_AND_SECOND_ORDER_PROGRAM",
+      "repo_status": "FIRST_LAYER_G2_G3_EULER_AND_WARD_PACKET_BUILT__SECOND_RESIDUAL_SQUARE_ACTION_OPEN",
+      "emergence_status": "OPEN_RESIDUAL_PAIRING_SECOND_VARIATION_OBSERVATION_DOMAIN_QUOTIENT_SYMBOL_AND_SOURCE_TESTS",
       "atlas_targets": ["EINSTEIN_GRAVITY", "GAUGE_YANG_MILLS", "STRESS_CONSERVATION"]
     },
     {
@@ -283,9 +291,9 @@
       "id": "CI-24",
       "timestamp": "03:02:15",
       "curt_claim": "A scalar part of the pulled-back variational one-form pi is identified with the Higgs.",
-      "eric_support": "PRIMARY_AUTHOR_ASSERTION",
-      "repo_status": "VERTICAL_AD_VALUED_CARRIER_AND_FINITE_INCIDENCE_CONTROL",
-      "emergence_status": "OPEN_DOUBLET_VEV_PHOTON_KERNEL_POTENTIAL_AND_MIRROR_GAP",
+      "eric_support": "PRIMARY_PARENT_CARRIER_ASSERTION__ERIC_SAYS_PHYSICAL_HIGGS_NOT_SIMPLY_ADJOINT",
+      "repo_status": "VERTICAL_AD_VALUED_PARENT_AND_FINITE_INCIDENCE_CONTROL__OBSERVED_EXTRACTION_OPEN",
+      "emergence_status": "OPEN_EQUIVARIANT_DOUBLET_EXTRACTION_VEV_PHOTON_KERNEL_POTENTIAL_AND_MIRROR_GAP",
       "atlas_targets": ["HIGGS_EWSB", "YUKAWA_MASS"]
     },
     {
@@ -295,7 +303,7 @@
       "curt_claim": "The trace of Sym2 is Higgs-like while the traceless part is graviton-like.",
       "eric_support": "CURT_RECONSTRUCTION_WITH_SOURCE_MOTIVATION",
       "repo_status": "TRACE_SPLIT_BUILT__PARTICLE_IDENTIFICATIONS_OPEN",
-      "emergence_status": "OPEN_SHARED_HESSIAN_MODE_AND_SPIN_TESTS",
+      "emergence_status": "OPEN_STAGED_ACTION_IDENTIFICATION_AND_SPIN_TESTS",
       "atlas_targets": ["HIGGS_EWSB", "EINSTEIN_GRAVITY", "COSMO_DISTORTION"]
     },
     {
@@ -313,7 +321,7 @@
       "id": "CI-27",
       "timestamp": "03:03:26",
       "curt_claim": "Minimal coupling to a connection containing a Higgs component yields Yukawa-shaped interactions.",
-      "eric_support": "PRIMARY_SPOKEN_INCIDENCE_CLAIM",
+      "eric_support": "PRIMARY_SPOKEN_INCIDENCE_CLAIM__FIRST_EINSTEIN_DIRAC_LAYER",
       "repo_status": "REPRESENTATION_LEVEL_INCIDENCE_CONTROL__REALISTIC_BLOCK_OPEN",
       "emergence_status": "OPEN_KREIN_BILINEAR_CHIRAL_REPRESENTATIONS_AND_FLAVOUR_COEFFICIENTS",
       "atlas_targets": ["YUKAWA_MASS", "DIRAC_MATTER"]
@@ -323,9 +331,9 @@
       "id": "CI-28",
       "timestamp": "03:03:26",
       "curt_claim": "Higgs and Yang-Mills terms share an origin in the decomposition and curvature of the variational connection.",
-      "eric_support": "PRIMARY_SPOKEN_ARCHITECTURE",
-      "repo_status": "SHARED_PARENT_PACKET_AND_FINITE_COUPLED_CONTROL",
-      "emergence_status": "OPEN_ONE_NATIVE_HESSIAN_EMISSION",
+      "eric_support": "PRIMARY_SHARED_CARRIER_CLAIM__ERIC_TWO_LAYER_CORRECTION",
+      "repo_status": "SHARED_PARENT_PACKET_AND_FINITE_COUPLED_CONTROL__STAGED_ACTION_PAIR_OPEN",
+      "emergence_status": "OPEN_SAME_HIGGS_EXTRACTION_ACROSS_FIRST_ODD_AND_SECOND_YMH_ACTIONS",
       "atlas_targets": ["HIGGS_EWSB", "GAUGE_YANG_MILLS"]
     },
     {
@@ -484,10 +492,13 @@
       "explicit resolution of the signature and real-form forks",
       "deformation-complex and seesaw tests inside the odd action rather than as labels",
       "action-selected symmetry-breaking chain and flavour misalignment",
-      "two distinct scalar-identification tests: connection-scalar versus symmetric-fibre trace"
+      "two distinct scalar-identification tests: connection-scalar versus symmetric-fibre trace",
+      "typed bosonic residual bundle and pairing for the manuscript I2_B square",
+      "separately charged total Einstein-Dirac residual-square rival",
+      "connection-versus-distortion Higgs extraction comparison"
     ],
-    "reordered_next_swing": "C0: construct the Zorro/chimeric-to-gimmel metric, Clifford, and structure-group bridge plus only the minimal primitives needed for enumeration; then run the target-blind census on the surviving carrier, port only the surviving carrier-dependent G2/G3 machinery if required, and lift C1 before stationary-background and Hessian work.",
-    "reason": "C0 adjudicates whether the source (7,7)/U(64,64) and active (9,5)/Sp(32,32;H) systems are alternative presentations of one object or different carriers. Non-equivalence preserves the IG/cocycle/distortion/action grammar but forces the Hodge/Clifford/Krein/Shiab/Euler/Green/Ward machinery to be ported or recomputed. Every recovery claim then still depends on C1's algebraic Euler dual, separately typed Riesz adjoint, global domain, quotient, and action-selected stationary state."
+    "reordered_next_swing": "C0: construct the Zorro/chimeric-to-gimmel metric, Clifford, and structure-group bridge plus only the minimal primitives needed for enumeration; then run the target-blind census on the surviving carrier, port only the surviving carrier-dependent G2/G3 machinery if required, lift C1, reconstruct the manuscript bosonic residual square, complete the coupled Einstein-Dirac first-layer residual, test its total-residual square as a separate rival, and compare the varpi/T Higgs carriers before staged stationary-background and Hessian work.",
+    "reason": "C0 adjudicates whether the source (7,7)/U(64,64) and active (9,5)/Sp(32,32;H) systems are alternative presentations of one object or different carriers. Non-equivalence preserves the IG/cocycle/distortion/action grammar but forces the Hodge/Clifford/Krein/Shiab/Euler/Green/Ward machinery to be ported or recomputed. The paired source requires Einstein-Dirac and Yang-Mills-Higgs layers to remain distinct, while the manuscript controls only the bosonic residual square; the total-residual square and shared Higgs carrier therefore remain explicit forks. Every recovery claim still depends on C1's algebraic Euler dual, separately typed Riesz adjoint, global domain, quotient, and action-selected stationary state."
   },
   "nonclaims": [
     "No Standard Model gauge group is dynamically selected.",

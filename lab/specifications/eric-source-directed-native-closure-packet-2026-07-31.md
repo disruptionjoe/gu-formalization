@@ -71,6 +71,65 @@ C0 retains a genuinely complex container without that reduction, replace them
 by the corresponding C0-selected reality/container compatibility conditions;
 do not import a quaternionic structure merely to satisfy this packet.
 
+### Subsequent paired-source action correction
+
+The later paired Curt--Eric reconstruction supersedes this packet's use of
+“one bosonic Hessian” as the source-faithful final architecture. Weinstein's
+follow-up explicitly separates an Einstein--Dirac first layer from a second
+Yang--Mills--Higgs Lagrangian/action and describes the latter as a square or
+second-order companion of the former. The finite one-Hessian fixture remains
+a valid compatibility and anti-collapse control; it is not evidence that the
+source requires one undifferentiated action.
+
+The manuscript-exact second functional first requires
+
+\[
+I_2^B[Q_B]
+=\frac12\langle\Upsilon_B,Q_B\Upsilon_B\rangle,
+\]
+
+where `Upsilon_B` is the bosonic residual. A stronger, separately graded
+`PLAUSIBLE_COMPLETION` begins with
+
+\[
+I_{\rm ED}=I_{G2}+I_{\rm odd},
+\qquad
+\Upsilon_{\rm ED}=dI_{\rm ED},
+\]
+
+and proposes the distinct rival
+
+\[
+I_2^{\rm ED}[Q_{\rm ED}]
+=\frac12\langle\Upsilon_{\rm ED},Q_{\rm ED}\Upsilon_{\rm ED}\rangle.
+\]
+
+The extension from `Upsilon_B` to `Upsilon_ED` is not attributed to the
+manuscript. `Q_B` and `Q_ED` are not silent Euclidean norms; they must be
+enumerated separately and target-blindly from their residual bundles'
+invariant density/Krein/real structures. At a stationary first-layer
+background the candidate relations
+
+\[
+H_2^B=(D\Upsilon_B)^\vee Q_B(D\Upsilon_B),
+\qquad
+H_2^{\rm ED}
+=(D\Upsilon_{\rm ED})^\vee Q_{\rm ED}(D\Upsilon_{\rm ED})
+\]
+
+must be proved or killed modulo gauge, graph-return, lower-order curvature,
+domain, and boundary terms.
+
+The Higgs carrier is also forked. The fermion/minimal-coupling argument uses
+the connection `varpi`; the bosonic first-order action uses homogeneous
+distortion `T=A-B`. Construct
+`Pi_Higgs^varpi(Pi_vert varpi)` and
+`Pi_Higgs^T(Pi_vert T)` with their different gauge laws and prove their
+relation or non-equivalence before using one carrier in both layers. The
+physical Higgs is not allowed to remain the upstairs adjoint representation.
+See
+[`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](../sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md).
+
 ## 2. Layer-0 typing
 
 Let
@@ -205,7 +264,7 @@ K_YL_d=L_dK_X.
 closed right-quaternionic Krein domain, boundary condition, causal observation
 background, and all Riesz maps that turn Euler covectors into primal fields.
 
-### C2. Stationary orbit, stabilizer, and one bosonic Hessian
+### C2. Stationary orbit, stabilizer, and first-layer Hessian control
 
 Solve the complete coupled equations before applying physics labels:
 
@@ -232,9 +291,12 @@ the relevant objects do not inhabit one quotient space:
 
 Call the descended operator `H_B^phys` only after those four steps.
 
-All gauge, spin-two, heavy-scalar, and light-scalar readouts come from this one
-operator. Off-diagonal readout blocks are predictions; they may not be erased
-to manufacture independent sectors.
+Within the original finite compatibility control, all gauge, spin-two,
+heavy-scalar, and light-scalar readouts came from this one operator. The paired
+source correction above replaces that as the final architecture with staged
+first- and second-layer Hessians. In either version, off-diagonal readout
+blocks are predictions and may not be erased to manufacture independent
+sectors.
 
 ### C3. Minimal odd action and action-derived currents
 
@@ -455,22 +517,31 @@ count, cosmological stability, or any empirical prediction.
    survives), domain
    preservation, and nonlinear primalized leakage
    `Q_off sharp_Y E_Y(L phi)=0` for the exact G3 Euler map.
-4. Solve a one-parameter family of native stationary backgrounds without
+4. Reconstruct the manuscript bosonic residual `Upsilon_B`, enumerate `Q_B`,
+   and construct/vary the source-exact `I_2^B[Q_B]`.
+5. Complete the coupled first Einstein--Dirac layer, including the rolled odd
+   action, action-derived current, and complete `Upsilon_ED` residual; then
+   enumerate `Q_ED` and construct/vary the separately conjectural
+   `I_2^ED[Q_ED]` rival.
+6. Solve a one-parameter family of native stationary backgrounds without
    Standard Model or PP3 labels.
-5. Compute C2's actual Hessian and stabilizer simultaneously, then perform the
+7. Compute the staged Hessians and stabilizer simultaneously, test the typed
+   square/factorization relation, then perform the
    staged bulk-domain, gauge-cohomology, and boundary-characteristic reductions;
    retain every off-diagonal block and prove descent.
-6. Freeze C3 on the same background/domain, vary it once, and extend the G3
-   Ward/BV packet with its exact current.
-7. Replace C3's block-diagonal compatibility expression with the source-shaped
-   shortened `0 -> 1 -> 13 -> 14` complex and test its adjacent compositions,
-   cohomology, and square/factorization relation to the bosonic Hessian.
-7. Diagonalize the bosonic Hessian while decomposing the odd operator under the
+8. Construct both `Pi_Higgs^varpi(Pi_vert varpi)` and
+   `Pi_Higgs^T(Pi_vert T)`, derive their relation or non-equivalence, and track
+   only a related carrier through the first-layer K-paired bilinear and
+   second-layer scalar/gauge Hessian, including the combined Ward/BV packet.
+9. Replace C3's block-diagonal compatibility expression with the source-shaped
+   shortened `0 -> 1 -> 13 -> 14` complex and test its adjacent compositions
+   and cohomology.
+10. Diagonalize the staged Hessians while decomposing the odd operator under the
    action-selected stabilizer. This single computation tests gauge ideals,
    spin two, EWSB, both scalar scales, odd representations, and dark mixing.
-8. Only after the physical domain and time split exist, construct C5's
+11. Only after the physical domain and time split exist, construct C5's
    Hamiltonian evolution.
-9. Run anomaly, index/P3, flavour misalignment, proton decay, confinement,
+12. Run anomaly, index/P3, flavour misalignment, proton decay, confinement,
    FLRW/PP3, DESI, abundance, and other
    empirical comparisons last and without calibration leakage.
 
