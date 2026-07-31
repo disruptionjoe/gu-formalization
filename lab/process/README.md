@@ -89,6 +89,12 @@ Runbooks:
   `(832,832)` Green trace. Two opposite right-`H` spectral sectors survive,
   so principal/Krein algebra does not select a unique closed domain; analytic
   closedness and nonlinear constraint propagation remain open.
+- `eric-curt-wave3d-b1-h1-closedness-kill.json` - exact Wave 3D-B1 analytic
+  gate. One smooth variable-coefficient Lorentz slab and an imposed right-`H`
+  Green sector admit an actual-carrier null Fourier sequence that is
+  `L2`-graph Cauchy but not spacetime `H1`. The naive `H1` realization is not
+  closed; energy/maximal-dissipative and nonlinear constraint domains remain
+  open.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

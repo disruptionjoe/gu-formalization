@@ -149,7 +149,19 @@
           "registry": "lab/process/eric-curt-wave3d-section-green-domain.json",
           "probe": "tests/channel-swings/eric_curt_wave3d_section_green_domain_probe.py",
           "report": "explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md",
-          "next_gate": "ECW3D-B-VARIABLE-COEFFICIENT-RIGHT-H-CLOSED-DOMAIN"
+          "next_gate": "ECW3D-B-VARIABLE-COEFFICIENT-RIGHT-H-CLOSED-DOMAIN",
+          "wave3d_b1": {
+            "status_boundary": "DECISIVE_ECW3D_B1_NAIVE_SPACETIME_H1_CLOSEDNESS_KILLED__ENERGY_MAXIMAL_DISSIPATIVE_AND_NONLINEAR_CONSTRAINT_DOMAINS_OPEN",
+            "geometry": "EXPLICIT_T2_TIMES_INTERVAL_TIMES_S1_LORENTZ_SPIN_SLAB_WITH_SMOOTH_POSITIVE_NONCONSTANT_TETRAD_COEFFICIENT",
+            "boundary_polarization": "IMPOSED_ECW3D_A_POSITIVE_GREEN_SECTOR__RIGHT_H_INVARIANT__NOT_NATIVELY_SELECTED",
+            "actual_carrier_sequence": "NONZERO_W131_KER_GAMMA_NULL_SYMBOL_VECTOR_WITH_GRAPH_CAUCHY_FOURIER_PARTIAL_SUMS",
+            "naive_h1_closedness": "KILLED_H1_DERIVATIVE_SERIES_DIVERGES_WHILE_L2_AND_OPERATOR_GRAPH_TAILS_CONVERGE",
+            "universal_domain_scope": "ENERGY_ANISOTROPIC_SELF_ADJOINT_MAXIMAL_DISSIPATIVE_AND_NONLINEAR_CONSTRAINT_DOMAINS_OPEN",
+            "registry": "lab/process/eric-curt-wave3d-b1-h1-closedness-kill.json",
+            "probe": "tests/channel-swings/eric_curt_wave3d_b1_h1_closedness_kill_probe.py",
+            "report": "explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md",
+            "next_gate": "ECW3D-B2-ENERGY-MAXIMAL-DISSIPATIVE-CONSTRAINT-DOMAIN"
+          }
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"

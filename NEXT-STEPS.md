@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -89,9 +89,20 @@ updated_at: "2026-07-31"
 > closedness, maximal dissipativity/self-adjointness, nonlinear constraint
 > propagation, a propagator, or BFV reduction. Curt still owes a separate
 > real `(7,7)` section/Green/domain port, and the third-lane conjunction
-> remains false. The next bounded gate is
-> `ECW3D-B-VARIABLE-COEFFICIENT-RIGHT-H-CLOSED-DOMAIN`, not a restart of the
-> action search.
+> remains false. Wave 3D-B1 then freezes one smooth variable-coefficient
+> Lorentz/spin slab, the actual W131 `ker Gamma` carrier, and an explicitly
+> imposed ECW3D-A positive Green polarization. A nonzero Lorentz-null
+> characteristic vector generates boundary-vanishing Fourier partial sums
+> that are Cauchy in the `L2` operator graph norm while their isotropic
+> spacetime-`H1` derivative energy grows linearly. Thus the naive spacetime
+> `H1` realization is not closed. The Wave 3D-B1 probe passes `21 exact + 10
+> planted = 31`. This does not kill time-slice energy, anisotropic,
+> self-adjoint, or maximal-dissipative realizations, and it does not prove
+> nonlinear Euler constraint propagation. Curt still owes its distinct real
+> domain and common-space discriminator; the third-lane conjunction remains
+> false. The next bounded gate is
+> `ECW3D-B2-ENERGY-MAXIMAL-DISSIPATIVE-CONSTRAINT-DOMAIN`, not a restart of
+> the action search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -101,7 +112,7 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md` and
 > `explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md` and
 > `explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md` and
->
+> `explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md` and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
 > **2026-07-31 PAIRED CURT--ERIC AXIOM / TWO-ACTION CORRECTION

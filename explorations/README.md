@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B1 variable-coefficient H1 closedness kill`](eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md)
+  freezes one smooth Lorentz/spin slab, the actual W131 `ker Gamma` carrier,
+  and an imposed right-`H` Green polarization. A boundary-zero null Fourier
+  sequence is graph-Cauchy but leaves isotropic spacetime `H1`, so that naive
+  realization is not closed. Energy/maximal-dissipative and nonlinear
+  constraint domains remain open; Curt stays a rival track and no third lane
+  is promoted.
+
 - [`Eric/Curt Wave 3D-A admitted-section right-H Green-domain gate`](eric-curt-wave3d-section-green-domain-2026-07-31.md)
   pulls the W131 gamma-traceless symbol to one supplied `(3,1)` Lorentz/spin
   section, preserves the native right-`H` structure, and constructs a balanced
