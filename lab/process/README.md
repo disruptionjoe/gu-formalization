@@ -73,6 +73,17 @@ Runbooks:
   unsupported extrapolations. It separates the connection and distortion
   Higgs carriers and the manuscript bosonic residual square from a
   conjectural total Einstein--Dirac residual square.
+- `eric-curt-ten-wave-campaign.json` - branch-local ten-wave dependency and
+  provenance registry. Curt remains a rival track inside the Eric lane;
+  Wave 1 identifies the underlying bundle but separates literal real `(7,7)`
+  and active `(9,5)` metric/Clifford carriers, leaving global naturality and
+  the dynamics/discriminator promotion gates open.
+- `eric-curt-wave2-carrier-port-census.json` - branch-local 22-primitive
+  carrier-port registry over the active real `(9,5)`, two source-ambiguous
+  real `(7,7)` comparators, and their common complexification. It identifies
+  the exact affine/trace core, charges every metric/Hodge/Clifford/pairing/
+  action realization that requires a port, and leaves term rank, coefficient
+  rank, constraint rank, and ablation explicitly open.
 - `eric-source-directed-native-closure-certificate.json` - branch-local ten-row
   certificate routing the Weinstein source callouts through five shared
   conditional parent objects, with passed finite controls and every actual

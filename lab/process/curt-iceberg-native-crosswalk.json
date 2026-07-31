@@ -19,6 +19,23 @@
     "action_fork": "The manuscript exact formula is the bosonic residual square I2_B=||Upsilon_omega^B||^2. A square of the combined Einstein-Dirac residual is a separately graded plausible completion, not a manuscript formula.",
     "higgs_carrier_fork": "Curt's fermion argument uses the connection varpi while the native bosonic action uses homogeneous distortion T=A-B. Construct Pi_Higgs^varpi and Pi_Higgs^T and derive their relation or non-equivalence before sharing a carrier across action layers."
   },
+  "c0_execution": {
+    "campaign_registry": "lab/process/eric-curt-ten-wave-campaign.json",
+    "wave1_report": "explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md",
+    "underlying_bundle": "identified after tautological metric musical and a declared connection split",
+    "literal_real_carriers": "(7,7) and (9,5) are not isometric by inertia and have different real Clifford types",
+    "complexification": "both real Clifford types complexify to M(128,C), without a real/right-H intertwiner",
+    "source_dictionary": "UNCERTAIN because reported ordered blocks (4,6)+(1,3) do not give (7,7) under one convention",
+    "third_lane": "NOT_PROMOTED; literal (7,7) supplies partial TG-1 evidence but does not clear the source-convention check, while separate dynamics and a common-domain discriminator are open"
+  },
+  "wave2_port_census": {
+    "registry": "lab/process/eric-curt-wave2-carrier-port-census.json",
+    "report": "explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md",
+    "portable_exact": ["underlying vertical sequence", "trace reversal", "inhomogeneous-group grammar", "derivative cocycle", "homogeneous distortion"],
+    "port_required": "metric musical, vertical metric, Hodge, Clifford, Krein/reality, Shiab, pseudo-musical, action pairings, Euler/Green/Ward, RB6 evaluation, residual square, and odd bilinear",
+    "surplus": "SURPLUS_UNCOMPUTABLE_UNTIL_COMPLETE_TERM_QUOTIENT_AND_ABLATION",
+    "third_lane": "NO_CHANGE"
+  },
   "three_layer_rule": {
     "curt_layer": "what Curt states, reconstructs, or identifies in the iceberg",
     "eric_layer": "whether a Weinstein primary source or the 2021 draft supplies the same object or formula",

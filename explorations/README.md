@@ -13,6 +13,27 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 2 carrier-port census`](eric-curt-wave2-carrier-port-census-2026-07-31.md)
+  freezes 22 primitives across the active real `(9,5)` carrier, two
+  source-ambiguous real `(7,7)` comparators, and the common complex container.
+  Only the vertical sequence, trace reversal, IG grammar, derivative cocycle,
+  and homogeneous distortion transfer exactly. Every metric, Hodge, Clifford,
+  Krein/reality, Shiab, action-pairing, adjoint, residual-square, and odd-action
+  realization must be ported or rebuilt. This is a partial Wave 2 result:
+  term-space rank, coefficient rank, constraint rank, and ablation remain the
+  next swing, so surplus is not yet computable and no lane is promoted.
+
+- [`Eric/Curt ten-wave campaign and Wave 1 C0 result`](eric-curt-wave1-c0-carrier-bridge-2026-07-31.md)
+  keeps Curt's iceberg as a tagged rival/checklist inside the Eric lane and
+  scaffolds ten dependency-ordered construction waves. Wave 1 proves that the
+  musical plus a declared horizontal split identifies the underlying rank-14
+  bundle, while literal real `(7,7)` and active `(9,5)` metric/Clifford
+  carriers remain inequivalent; complexification does not transport the
+  right-`H` reality structure. This is only partial carrier-gate evidence
+  because the source sign convention remains open, so no third lane is
+  created. Wave 2 begins with the carrier-parameterized target-blind action
+  census above.
+
 - [`paired Curt--Eric axiom reconstruction`](../lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md)
   extracts 40 graded axioms and nine dependency chains from the iceberg and
   subsequent author correction. It preserves the ad-valued one-form and

@@ -1,0 +1,197 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T181634Z-eric-curt-ten-wave-campaign-c0",
+  "branch": "agent/weinstein-guided-source-action",
+  "lane": "1",
+  "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
+  "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
+  "construction_lanes": [
+    "INDEPENDENT_NATIVE",
+    "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK"
+  ],
+  "provenance_tags": [
+    "ERIC_REQUIRED",
+    "CURT_CANDIDATE",
+    "PAIRED_IMPLICATION",
+    "REPO_SYNTHESIS",
+    "UNSUPPORTED"
+  ],
+  "third_lane_promotion_gate": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "A load-bearing carrier non-equivalence survives convention, complexification, and source-typing checks.",
+    "TG-2": "The Curt-specific carrier supports a coherent action, variation, gauge law, and observation map that cannot remain a rival inside the Eric lane.",
+    "TG-3": "At least one downstream leg gives a different no-refit discriminator on the same comparison domain.",
+    "status": {
+      "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+      "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+      "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR"
+    },
+    "current_verdict": "NOT_PROMOTED"
+  },
+  "standard_wave_outputs": [
+    "typed construction or exact obstruction",
+    "Layer-0 object dictionary",
+    "constraint and parameter surplus ledger",
+    "seven-family non-regression matrix plus P1/P2/P3",
+    "executable probe with planted false claims"
+  ],
+  "waves": [
+    {
+      "id": "ECW1-C0-CARRIER",
+      "status": "COMPLETE_LOCAL_CARRIER_NON_EQUIVALENCE__GLOBAL_NATURALITY_OPEN",
+      "depends_on": [],
+      "objective": "Construct the musical-plus-horizontal-split Zorro map and compare underlying bundle, real bilinear, real Clifford/reality, and complexified carriers.",
+      "curt_steps": ["CI-01", "CI-02", "CI-03", "CI-04", "CI-05", "CI-06", "CI-07", "CI-08", "CI-09", "CI-10", "CI-11", "CI-12"],
+      "eric_track": "Metric-bundle carrier supporting the native action and spinors.",
+      "curt_track": "Literal (7,7) chimeric carrier and U(64,64)-type complex spinor presentation.",
+      "repo_construction": "Tautological sharp_h plus declared connection split compared with the active (9,5) DeWitt/gimmel carrier.",
+      "kill": "Rank equality or complexification is the only bridge.",
+      "exit": "Real bridge or typed non-equivalence plus minimal Wave 2 primitives.",
+      "result": {
+        "underlying_bundle": "ISOMORPHIC_AFTER_TAUTOLOGICAL_METRIC_MUSICAL_AND_DECLARED_CONNECTION_SPLIT",
+        "real_metric_carrier": "LITERAL_7_7_NOT_ISOMETRIC_TO_ACTIVE_9_5_BY_SYLVESTER_INERTIA",
+        "source_block_dictionary": "UNCERTAIN_REPORTED_4_6_PLUS_1_3_DOES_NOT_SUM_TO_7_7_UNDER_ONE_ORDERING",
+        "real_clifford_carrier": "Cl9_5_M64H_NOT_REAL_ISOMORPHIC_TO_Cl7_7_M128R",
+        "complexification": "BOTH_M128C_BUT_REAL_AND_RIGHT_H_STRUCTURE_NOT_TRANSPORTED",
+        "constraint_surplus": "GLOBAL_SURPLUS_UNCOMPUTABLE_UNTIL_SOURCE_BLOCK_SIGN_CONNECTION_OWNERSHIP_AND_NATURALITY_GROUP_ARE_FIXED",
+        "probe": "tests/channel-swings/eric_curt_wave1_c0_carrier_bridge_probe.py",
+        "report": "explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md"
+      }
+    },
+    {
+      "id": "ECW2-G3.5-CENSUS",
+      "status": "PARTIAL_PORT_CENSUS_COMPLETE__TERM_RANK_AND_ABLATION_OPEN",
+      "depends_on": ["ECW1-C0-CARRIER"],
+      "objective": "Enumerate and ablate every carrier-native local action monomial without physics target labels.",
+      "curt_steps": ["CI-13", "CI-14", "CI-15", "CI-16", "CI-17", "CI-18", "CI-29"],
+      "eric_track": "Inhomogeneous group, tilted reference, contraction, distortion, and staged actions.",
+      "curt_track": "Iceberg first-order action and augmented-torsion reconstruction.",
+      "repo_construction": "Carrier-parameterized extension of the RB6 target-blind grammar and ablation matrix.",
+      "kill": "A required sector needs target-specific terms or uncharged coefficients.",
+      "exit": "Finite term basis, rank-tested surplus, and exact port list.",
+      "result": {
+        "portable_exact_core": ["CP-01", "CP-04", "CP-11", "CP-12", "CP-13"],
+        "branch_native_port_count": 14,
+        "constraint_surplus": "SURPLUS_UNCOMPUTABLE_UNTIL_COMPLETE_MONOMIAL_QUOTIENT_COEFFICIENT_RANK_CONSTRAINT_RANK_AND_ABLATION",
+        "status_boundary": "PORT_OWNERSHIP_CENSUS_COMPLETE__FULL_WAVE2_EXIT_NOT_REACHED",
+        "registry": "lab/process/eric-curt-wave2-carrier-port-census.json",
+        "probe": "tests/channel-swings/eric_curt_wave2_carrier_port_census_probe.py",
+        "report": "explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md",
+        "next_swing": "ECW2b-TERM-RANK-ABLATION"
+      }
+    },
+    {
+      "id": "ECW3-G4-OBSERVATION",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW1-C0-CARRIER", "ECW2-G3.5-CENSUS"],
+      "objective": "Construct observation, equation-dual, Riesz, leakage, global-domain, quotient, and preboundary maps.",
+      "curt_steps": ["CI-03", "CI-14", "CI-15", "CI-16", "CI-18", "CI-20"],
+      "eric_track": "Observation restriction from Y to X and physical-domain recovery.",
+      "curt_track": "Observation-map and deformation-complex reconstruction.",
+      "repo_construction": "L,R,L^vee,L^!,sharp_Y,sharp_X with global descent and nonlinear leakage.",
+      "kill": "The observation image or selected reality/domain is not dynamically preserved.",
+      "exit": "One conditional physical-domain functor for each datum d."
+    },
+    {
+      "id": "ECW4-EINSTEIN-DIRAC",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW3-G4-OBSERVATION"],
+      "objective": "Complete the first-layer odd action, residual, currents, reality projections, zero-order incidence, and Ward identity.",
+      "curt_steps": ["CI-19", "CI-20", "CI-21", "CI-27"],
+      "eric_track": "Einstein-Dirac first layer.",
+      "curt_track": "Omega0 plus Omega1 Dirac-Rarita-Schwinger and seesaw reconstruction.",
+      "repo_construction": "Action-derived J_D, J_F, Riesz maps, K/C projections, and Upsilon_ED.",
+      "kill": "No real gauge-compatible domain-preserving odd action exists.",
+      "exit": "Complete first-layer residual and current dictionary."
+    },
+    {
+      "id": "ECW5-STAGED-SQUARES",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW1-C0-CARRIER", "ECW2-G3.5-CENSUS", "ECW4-EINSTEIN-DIRAC"],
+      "objective": "Reconstruct manuscript I2_B exactly and compare it with a separately graded total Einstein-Dirac residual-square rival.",
+      "curt_steps": ["CI-17", "CI-18", "CI-26", "CI-28", "CI-29"],
+      "eric_track": "Second Yang-Mills-Higgs layer as square or second-order companion.",
+      "curt_track": "Curvature-generated gauge/scalar dynamics.",
+      "repo_construction": "Separately charged Q_B and Q_ED pairings and factorization tests.",
+      "kill": "No invariant pairing or acceptable second-order symbol survives.",
+      "exit": "Staged action fork without source-attribution collapse."
+    },
+    {
+      "id": "ECW6-HIGGS-YUKAWA-FORK",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW3-G4-OBSERVATION", "ECW4-EINSTEIN-DIRAC", "ECW5-STAGED-SQUARES"],
+      "objective": "Construct and compare Pi_Higgs^varpi, Pi_Higgs^T, and the trace-mode comparator through both action layers.",
+      "curt_steps": ["CI-24", "CI-25", "CI-26", "CI-27", "CI-28"],
+      "eric_track": "Higgs from an ad-valued one-form but not simply adjoint-valued.",
+      "curt_track": "Connection scalar, trace Higgs, curvature potential, and minimal-coupling Yukawa incidence.",
+      "repo_construction": "Gauge laws, weak-doublet extraction, Krein bilinear, vacuum orbit, gauge mass, and photon kernel.",
+      "kill": "No physical doublet/cross-chiral channel or incompatible carriers across layers.",
+      "exit": "Carrier relation/selection/non-equivalence and separate incidence/coefficient verdicts."
+    },
+    {
+      "id": "ECW7-STATIONARY-HESSIANS",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW4-EINSTEIN-DIRAC", "ECW5-STAGED-SQUARES", "ECW6-HIGGS-YUKAWA-FORK"],
+      "objective": "Solve a native stationary background and compare staged quotient Hessians and factorization.",
+      "curt_steps": ["CI-17", "CI-18", "CI-21", "CI-25", "CI-26", "CI-28", "CI-29", "CI-30"],
+      "eric_track": "Square-root/factorization architecture.",
+      "curt_track": "Mode and potential interpretation of the decomposed action.",
+      "repo_construction": "Full mixed Hessians with gauge, curvature, domain, and boundary terms.",
+      "kill": "No admissible state, instability, or factorization needs a target projector.",
+      "exit": "Common quotient spectrum and factorization verdict."
+    },
+    {
+      "id": "ECW8-JOINT-PHYSICS-LEGS",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW3-G4-OBSERVATION", "ECW7-STATIONARY-HESSIANS"],
+      "objective": "Test Einstein, Maxwell, Yang-Mills, weak/strong, Higgs/Yukawa, dark-energy, and dark-sector readouts on one frozen construction.",
+      "curt_steps": ["CI-18", "CI-22", "CI-24", "CI-25", "CI-26", "CI-27", "CI-28", "CI-29", "CI-30"],
+      "eric_track": "Native replacements and dynamically selected stabilizer/modes.",
+      "curt_track": "Iceberg recovery crosswalk.",
+      "repo_construction": "One no-refit observation/state/domain/parameter ledger and observable intertwiners.",
+      "kill": "Different legs require incompatible constructions or refits.",
+      "exit": "Constraint-surplus and recovered/open/killed leg matrix."
+    },
+    {
+      "id": "ECW9-ROLLED-INDEX-DATUM",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW4-EINSTEIN-DIRAC", "ECW7-STATIONARY-HESSIANS", "ECW8-JOINT-PHYSICS-LEGS"],
+      "objective": "Complete the rolled complex, compute physical cohomology/index, and locate P1/P2/P3 uses.",
+      "curt_steps": ["CI-19", "CI-20", "CI-21", "CI-22", "CI-23"],
+      "eric_track": "Spinor-valued form carrier and generation analogy.",
+      "curt_track": "Three labelled carrier pieces.",
+      "repo_construction": "Closed physical complex and typed index/datum readout.",
+      "kill": "Count is obtained only from decomposition, tuning, or answer-containing datum.",
+      "exit": "Physical index and honest P3 disposition."
+    },
+    {
+      "id": "ECW10-QUANTUM-COSMOLOGY",
+      "status": "SCAFFOLDED",
+      "depends_on": ["ECW8-JOINT-PHYSICS-LEGS", "ECW9-ROLLED-INDEX-DATUM"],
+      "objective": "Complete BV/BFV and physical evolution, then derive cosmological stress/state/scale and empirical tests.",
+      "curt_steps": ["CI-18", "CI-20", "CI-30"],
+      "eric_track": "Geometrized quantum problem and dynamic cosmological distortion/VEV.",
+      "curt_track": "Equation-recovery summary and constant gauge-potential cosmological term.",
+      "repo_construction": "Master equation, physical Hamiltonian/Krein domain, FLRW/PP3/DESI, and dark abundance.",
+      "kill": "Anomaly, nonunitary physical flow, missing stress, or calibration leakage.",
+      "exit": "Conditional theory packet or exact structural failure."
+    }
+  ],
+  "efficient_order": [
+    "ECW1-C0-CARRIER",
+    "ECW2-G3.5-CENSUS",
+    "ECW3-G4-OBSERVATION || ECW5 source transcription",
+    "ECW4-EINSTEIN-DIRAC",
+    "ECW5-STAGED-SQUARES",
+    "ECW6-HIGGS-YUKAWA-FORK",
+    "ECW7-STATIONARY-HESSIANS",
+    "ECW8-JOINT-PHYSICS-LEGS || ECW9-ROLLED-INDEX-DATUM with semantic separation",
+    "ECW10-QUANTUM-COSMOLOGY"
+  ],
+  "datum_rule": "Carry d=(P1,P2,P3) as a conditional family and consume it only at typed orientation, channel, domain, or index arrows; never place target physics in the datum.",
+  "nonclaims": [
+    "Curt's thirty steps are not treated as a derivation or execution order.",
+    "No third construction lane is created by this scaffold.",
+    "No Standard Model, physical field equation, generation count, anomaly closure, or cosmology is claimed."
+  ]
+}

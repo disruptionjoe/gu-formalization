@@ -71,6 +71,23 @@ C0 retains a genuinely complex container without that reduction, replace them
 by the corresponding C0-selected reality/container compatibility conditions;
 do not import a quaternionic structure merely to satisfy this packet.
 
+#### Wave 1 C0 execution result
+
+The later Eric/Curt campaign executes the local algebraic part of C0. The
+tautological musical plus a declared connection split identifies the
+underlying rank-14 bundle, but a literal real `(7,7)` carrier is not isometric
+to the active `(9,5)` carrier. Their real Clifford types are respectively
+`M(128,R)` and `M(64,H)`. Both complexify to `M(128,C)`, so a complex container
+bridge survives without transporting the real/right-`H` structure.
+
+The source block dictionary remains open: the reported ordered blocks
+`(4,6)+(1,3)` do not sum to `(7,7)` under one fixed ordering convention.
+Therefore this result is a typed local non-equivalence, not a carrier
+selection or a completed global Zorro theorem. Wave 2 must parameterize the
+action census by the surviving real and complex carrier readings and port
+carrier-dependent primitives explicitly. See
+[`eric-curt-wave1-c0-carrier-bridge-2026-07-31.md`](../../explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md).
+
 ### Subsequent paired-source action correction
 
 The later paired Curt--Eric reconstruction supersedes this packet's use of

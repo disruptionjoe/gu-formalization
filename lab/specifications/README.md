@@ -29,3 +29,8 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
   observation/equation-dual packet, one shared bosonic Hessian, one minimal
   Krein odd action, Frobenius trace reversal, and one preboundary/observed-time
   reduction, with exact finite controls separated from actual `Y^14` emergence.
+- `eric-curt-ten-wave-construction-campaign-2026-07-31.md` — branch-local
+  ten-wave Eric-guided construction campaign with Curt's thirty iceberg steps
+  retained as a separately tagged rival/checklist track. It defines the
+  conjunctive third-lane promotion gate and the standard construction,
+  Layer-0, surplus, non-regression, and planted-control outputs for every wave.

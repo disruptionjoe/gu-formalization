@@ -133,6 +133,21 @@ Accordingly:
 - step 28 becomes a shared-field test across two action layers rather than an
   assumed one-Hessian recovery.
 
+### Subsequent C0 execution
+
+The Eric/Curt ten-wave campaign now executes the local algebraic part of the
+C0 bridge. The tautological metric musical plus a declared horizontal split
+identifies the underlying rank-14 vector bundle. It does not identify a
+literal real `(7,7)` metric/Clifford carrier with the active `(9,5)` one:
+their inertias and real Clifford types differ, although both complexify to
+`M(128,C)`. The computation also exposes a Layer-0 ambiguity in step 9: the
+reported ordered blocks `(4,6)+(1,3)` give `(5,9)`, not `(7,7)`, if one
+ordering convention is used throughout. No block-sign convention is chosen
+for the source. Consequently Curt remains a rival track in the Eric lane;
+only a conditional carrier non-equivalence is established, while separate
+dynamics and common-domain discriminator gates remain open. See
+[`eric-curt-wave1-c0-carrier-bridge-2026-07-31.md`](../../explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md).
+
 ## The complete 30-step recap, reconciled
 
 | step | Curt's recap | present repository status | physical recovery boundary |
