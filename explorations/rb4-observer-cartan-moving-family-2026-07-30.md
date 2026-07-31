@@ -879,3 +879,64 @@ dependency environment for SciPy.
 No stationary solution, source-derived flag, physical compactification,
 Standard Model identification, mass, cosmological prediction, anomaly
 closure, domain, index, or generation count is claimed.
+
+## 13. RB5 ownership disposition
+
+RB5 executes the stabilizer/Hessian swing requested above and corrects the
+first ownership possibility. The sentence above saying that one swing would
+“decide the remaining ownership trilemma” was too strong: RB5 decides the
+coarse \(\epsilon_{\rm plane}\) route, but the refined dynamical and
+source-spectral routes remain conditional.
+
+The explicit RB3 finite-local realization is the coarse unframed
+Clifford-plane quotient
+
+\[
+\epsilon_{\rm plane}
+\in
+\Gamma\!\left(
+P_G/\operatorname{Spin}_0(9,5)
+\right).
+\]
+
+It cannot equivariantly descend to the complete flag. Its stabilizer moves
+even the prerequisite \(V_{3,1}\oplus V_{6,4}\) split: \(51\) of the
+\(91\) \(\mathfrak{so}(9,5)\) generators preserve that split and \(40\)
+move it. The full vector commutant is scalar. A local-lift change inside the
+same Clifford-plane coset moves a supplied vertical projector, so transporting
+one chosen seed flag is lift-dependent.
+
+The corresponding global associated bundle/reduction remains conditional;
+RB5 does not promote the local orbit calculation to a globally existing
+field.
+
+The valid construction direction is
+
+\[
+P_G/L_{\rm flag}
+\longrightarrow
+P_G/\operatorname{Spin}_0(9,5).
+\]
+
+The existing Clifford-plane transport and \(A_0\)-induced connection may be
+pulled back through this forgetful map. They do not select the refinement:
+the connection candidate factors through the coarse quotient and its
+derivative vanishes along the flag-refinement fibre.
+
+RB5 also constructs the complete **conditional** spectral/polar calculus
+
+\[
+H\mapsto P_-,
+\qquad
+Q\mapsto Q(-Q^2)^{-1/2},
+\]
+
+with exact covariance, first derivatives, and powered failure controls.
+No current source field has a target-free typed adapter to the required
+\(H,Q\), so the result is a construction preflight rather than source
+ownership. The physical Hessian remains ineligible before a source composite,
+stationary background, full coupled BV complex, retained-mode closure, and
+domain.
+
+See
+[`rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md).

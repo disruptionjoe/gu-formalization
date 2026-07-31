@@ -594,3 +594,73 @@ compensator quotient or a source-derived flag Euler/Hessian receipt.
 This continuation does not alter the current/Riesz fork, P3, or any
 physical count. See
 [`rb4-observer-cartan-moving-family-2026-07-30.md`](rb4-observer-cartan-moving-family-2026-07-30.md).
+
+## RB5 correction to missing map 6 and Hessian eligibility
+
+RB5 proves that the arrow written above does not exist for the explicit RB3
+finite-local orbit. The coarse local model is
+
+\[
+\mathcal O_{\epsilon_{\rm plane}}
+=
+G/\operatorname{Spin}_0(9,5),
+\]
+
+and its stabilizer moves the target \(4+10\) split. The corrected packet is
+
+\[
+\mathcal O_{\epsilon_{\rm flag}}
+=G/L_{\rm flag}
+\overset{q}{\longrightarrow}
+G/\operatorname{Spin}_0(9,5).
+\]
+
+Global existence of either associated reduction remains conditional.
+
+The \(A_0\)-induced connection depends only on \(q\), so
+
+\[
+D\Gamma^{A_0}_\epsilon\big|_{\ker Dq}=0.
+\]
+
+It cannot select the flag-refinement directions.
+
+For a refined independent field, the exact formal Euler map is
+
+\[
+\mathcal E_{\epsilon_{\rm flag}}
+=(Dq)^!\mathcal E_{\epsilon_{\rm plane}}
++(DP_W)^!\mathcal E_P
++(DJ)^!\mathcal E_J
++(Dt)^!\mathcal E_t
++(D\Omega_{\mathbb C})^!\mathcal E_\Omega.
+\]
+
+For a spectral composite
+
+\[
+P_W=P_-(H(\phi)),
+\qquad
+J=Q(\phi)(-Q(\phi)^2)^{-1/2},
+\]
+
+the variation returns to the original field \(\phi\):
+
+\[
+\mathcal E_\phi
+\mapsto
+\mathcal E_\phi
++(D_\phi H)^!(D_HP_W)^!\mathcal E_P
++(D_\phi Q)^!(D_QJ)^!\mathcal E_J
++\cdots.
+\]
+
+No independent flag Hessian may double-count those directions. The
+conditional spectral and polar derivatives are executable, but no current
+source field has a target-free typed \(H,Q\) adapter. A physical
+gauge-quotiented Hessian is consequently ineligible before a stationary
+source-owned background, full coupled linearized/BV complex, retained-mode
+closure, and analytic domain exist.
+
+See
+[`rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md).

@@ -1359,3 +1359,52 @@ compared with \(L_\sigma\) only by an explicit base map and equality of
 
 See
 [`rb4-observer-cartan-moving-family-2026-07-30.md`](rb4-observer-cartan-moving-family-2026-07-30.md).
+
+## RB5 field-register correction
+
+RB5 decides the first branch of the pending ownership test.
+
+The explicit RB3 finite-local realization of \(\epsilon_{\rm IG}\) is only
+the unframed Clifford-plane orbit
+
+\[
+\epsilon_{\rm plane}
+\in
+\Gamma(P_G/H_{\rm Cl}),
+\qquad
+H_{\rm Cl}^0=\operatorname{Spin}_0(9,5).
+\]
+
+It cannot own the complete flag: \(H_{\rm Cl}\) does not preserve even the
+required \(4+10\) split. The field required to carry the flag is a refinement
+
+\[
+\epsilon_{\rm flag}\in\Gamma(P_G/L_{\rm flag})
+\]
+
+with a forgetful map \(P_G/L_{\rm flag}\to P_G/H_{\rm Cl}\). The reverse
+map does not descend. Existence of either global associated reduction remains
+conditional on the bundle topology.
+
+Therefore the ownership decision tree becomes:
+
+```text
+coarse epsilon_plane owns complete flag:
+    REFUTED
+refined epsilon_flag with action factoring through the coarse quotient:
+    refinement directions invisible; gauge/BV quotient still required
+refined epsilon_flag or source composite with a stationary stable Euler orbit:
+    dynamical order parameter; no new external datum
+no quotient or source-derived stable orbit:
+    frozen flag is a new section-valued continuous external spurion
+```
+
+The conditional spectral maps \(H\mapsto P_W\) and
+\(Q\mapsto J\) are executable, including their derivatives, but \(H,Q\)
+are not emitted by the frozen N1 field register. Adding them as independent
+fields would change the packet. A zero-new-field result instead requires a
+typed natural concomitant of the already varied fields and its full chain
+rule.
+
+P1/P2 and P3 remain unchanged. See
+[`rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md).

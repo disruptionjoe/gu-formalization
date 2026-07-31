@@ -7,6 +7,87 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB5 FLAG-OWNERSHIP / SPECTRAL-PREFLIGHT
+> DISPOSITION.**
+> [`explorations/rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md`](explorations/rb5-epsilon-flag-ownership-spectral-hessian-2026-07-30.md)
+> executes RB4's next wave. The explicit RB3 finite-local soldering
+> realization is an unframed Clifford-plane orbit
+> \[
+> \epsilon_{\rm plane}\in
+> \Gamma(P_G/\operatorname{Spin}_0(9,5)).
+> \]
+> This is local orbit typing; the global associated reduction remains
+> conditional.
+> It cannot equivariantly own the complete
+> \((P_W,J,t,\Omega_{\mathbb C})\) flag. Of the \(91\)
+> \(\mathfrak{so}(9,5)\) generators, only \(51\) preserve the prerequisite
+> \(4+10\) split and \(40\) move it. The full vector commutant is scalar,
+> and a change of local lift moves the supplied vertical projector by
+> `0.404397515`. The correct arrow is the reverse refinement
+> \[
+> P_G/L_{\rm flag}\longrightarrow
+> P_G/\operatorname{Spin}_0(9,5).
+> \]
+> All RB3 Clifford-plane transport may survive through the forgetful map,
+> but the coarse field cannot recover the forgotten flag.
+>
+> The conditional spectral route is now executable. A predeclared
+> admissible real-spectral, gapped \(G_{\rm DW}\)-self-adjoint \(H\)
+> recovers a measured negative rank-four \(P_W\); an invertible
+> \(G_{\rm DW}\)-skew \(Q\) for which \(-Q^2\) has the required positive
+> real functional-calculus branch recovers
+> \(J=Q(-Q^2)^{-1/2}\). Joint covariance, analytic projector/polar
+> derivatives, raw-Frobenius, frozen-flag, gap, singularity, central
+> \(U(1)\), modulus, and instability controls pass. These \(H,Q\) are
+> planted source-shaped fixtures that intentionally encode the desired
+> \(6+4\)/complex geometry, not GU-native fields or generic-input results.
+>
+> The source-concomitant audit finds no current target-free typed map from
+> distortion, curvature, mixed vertical connection, section Hessian, or
+> the source's spinless gauge component to
+> \(\operatorname{End}(V_{6,4})\). The
+> \(A_0\)-induced connection factors through the coarse Clifford-plane
+> quotient and is flat along flag-refinement directions. A refined
+> \(\epsilon_{\rm flag}\) is therefore a typed candidate field, not an
+> already-owned compensator. A frozen flag remains a new continuous
+> external spurion.
+>
+> The local complex-trace gate detects and subtracts the extra central
+> \(U(1)\), but no global complex volume, \(\mathbb Z_6\) quotient,
+> hypercharge normalization, or fermion lift is built. The finite Hessian
+> classifier distinguishes gauge zeros, strict positivity, a modulus, and
+> instability; the physical Hessian remains ineligible without a
+> source-derived composite, stationary background, full coupled BV complex,
+> retained-mode closure, and domain.
+>
+> **Next efficient wave, in dependency order:**
+>
+> 1. Freeze a target-blind grammar of \(H,Q\) concomitants from existing
+>    distortion, curvature, mixed vertical, moving-section-Hessian, and
+>    spinless-source fields. Forbid \(u,P_W,J,\Omega_{\mathbb C}\), a
+>    chosen \(6+4\) block, rank four, and target-labelled gamma matrices.
+> 2. Type every form/adjoint/representation/Hodge/Riesz/vertical-restriction
+>    adapter. If no row reaches \(\operatorname{End}(V_{6,4})\), record
+>    `SPECTRAL-OWNERSHIP-BLOCKED-BY-TYPE`.
+> 3. On the source-owned W177 background compute
+>    \(D_{A_0}^*F_{A_0}\). A nonzero residual kills physical Hessian use at
+>    that background.
+> 4. Compare every type-correct survivor with at least one equally natural
+>    contraction; measure rather than prescribe spectral rank, signature,
+>    uniform gap, polar admissibility, and the entire stabilizer fixed set.
+> 5. Only after a unique smooth stationary composite survives, compute
+>    retained/discarded Hessian leakage and the full linearized/BV quotient,
+>    then run the global determinant-volume and five-leg gates.
+>
+> Current boundary:
+> `epsilon_plane->FLAG-REFUTED`,
+> `epsilon_flag-REFINEMENT-TYPED/UNSELECTED`,
+> `SPECTRAL/POLAR-CALCULUS-CONSTRUCTED-CONDITIONALLY`,
+> `SOURCE-H/Q-ADAPTER-UNBUILT`,
+> `PHYSICAL-HESSIAN/SM-GLOBAL-VOLUME-INELIGIBLE`.
+> P1/P2/P3 are unchanged. No compactification, VEV, mass, cosmological
+> value, anomaly, index, or generation count is claimed.
+>
 > **2026-07-30 RB4 MOVING CARTAN / COMPLEX-FLAG DISPOSITION.**
 > [`explorations/rb4-observer-cartan-moving-family-2026-07-30.md`](explorations/rb4-observer-cartan-moving-family-2026-07-30.md)
 > constructs the exact moving family required by RB3b. For a unit timelike
