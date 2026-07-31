@@ -60,5 +60,6 @@ Runbooks:
 - `old-vs-eric-ten-lens-gap-matrix.json` - branch-local machine-readable ten-specialist comparison of the existing source-action construction with the transcript-verified Eric-guided grammar, including typed gaps, kills, and revised G1--G10 dependencies.
 - `g1-derivative-cocycle-certificate.json` - branch-local machine-readable G1 certificate for the derivative connection cocycle, moving LC/reductive reference, exact quotient level, planted failures, datum boundary, and G2 handoff.
 - `g2-native-variational-shiab-certificate.json` - branch-local machine-readable G2 certificate for the selected field graph, native density-dual Shiab, killed fixed-linear source shortcut, exact slot-symmetrized Euler map, and G3 BV--BFV handoff.
+- `g3-variational-bvbfv-certificate.json` - branch-local machine-readable G3 certificate for graph-complete variation, coupled first-jet Noether closure, preboundary geometry, the forced nonabelian ghost-antifield term, and G4 domain/polarization handoff.
 - `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.

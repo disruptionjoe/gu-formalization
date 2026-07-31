@@ -34,12 +34,19 @@ These sources are useful for provenance, terminology, chronology, and locating c
     timestamp rows rather than copying the transcript.
 - [`claim-mining-toe-weinstein-complete-2026-07-31.md`](claim-mining-toe-weinstein-complete-2026-07-31.md)
   - supersedes the **scope**, not the three priority-target adjudications, of
-    the July 20 five-lens report. It records 74 material mathematical claims,
+    the July 20 five-lens report. It records 76 material mathematical claims,
     recovers the connected inhomogeneous-gauge / tilted-double-coset /
     gauge-rotated-displacement / Euler-VEV grammar, distinguishes exact speech
     from strengthened reconstructions, and compares Weinstein's qualitative
     dynamic-dark-energy/DESI statement to the stronger repo-originated PP3
-    curve family.
+  curve family.
+- [`g3-weinstein-section-pullback-recheck-2026-07-31.md`](g3-weinstein-section-pullback-recheck-2026-07-31.md)
+  - runs the Eric-lane source recheck triggered by G3's source-only section
+    boundary. TOE, Portal/Oxford, and *Into the Impossible* consistently point
+    to observation pullback/restriction from `Y^14` to `X^4`; they do not
+    supply the repo's separate bulk-plus-defect action. The receipt makes the
+    pullback/retract branch G4's source-guided priority and preserves the
+    defect action as an independently constructed comparator.
 - [`claim-mining-toe-weinstein-2026-07-20.md`](claim-mining-toe-weinstein-2026-07-20.md)
   - selective timestamped five-lens claim mining of Weinstein's “40 Years in
     the Making” TOE episode, retaining three priority-target adjudications.

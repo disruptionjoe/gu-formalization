@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`g3-full-variational-bicomplex-bvbfv-2026-07-31.md`](g3-full-variational-bicomplex-bvbfv-2026-07-31.md)
+  constructs the all-slot graph variation, coupled first-jet gauge identity,
+  action-derived preboundary forms, and ordinary-gauge minimal BV completion.
+  Isolated connection conservation fails but the moving-reduction term
+  cancels it. The result also corrects the section boundary: the selected
+  source-only action has no defect/section response, and G4 must still select
+  the ambient domain and boundary polarization.
 - [`g2-field-space-native-variational-shiab-2026-07-31.md`](g2-field-space-native-variational-shiab-2026-07-31.md)
   freezes the guided field graph and installs the native trace-adapted
   density-dual Shiab in the source action. The draft-style fixed-linear

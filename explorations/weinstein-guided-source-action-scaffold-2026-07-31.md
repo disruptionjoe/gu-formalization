@@ -122,6 +122,17 @@ candidate selection. Its global interpretation remains guidance-dependent.
 The order is chosen for information gain. Each swing either closes a required
 arrow or kills an entire downstream family before expensive physics is fitted.
 
+**Standing Eric-lane recheck rule.** If a swing finds an unexpected missing
+map or apparent failure, it must recheck the verified Weinstein primary set
+before treating that result as the guided construction's boundary. A source
+route is guidance to build and debit, not evidence that it works. An absent
+route earns a timestamped negative receipt. G3's first use of this rule found
+that Weinstein repeatedly describes four-dimensional physics by pulling back
+ambient fields/equations along a metric section; the checked sources do not
+supply the repo's separate bulk-plus-defect action. G4 therefore prioritizes
+the pullback/retract branch, with the defect action retained as a repo-originated
+comparator.
+
 | swing | build, not diagnosis | decisive output | predeclared kill / information gain |
 | --- | --- | --- | --- |
 | E1 — global tilted-field packet | Fix one left/right convention for `IG`, `tau_+`, `B_omega`, `A_omega`, and `T_omega` on `Y^14`; prove transition/descent laws and observation-slice reduction. | A global typed field packet matching the draft convention to the repo convention. | Kill a convention if `tau_+` is not a homomorphism, `T_omega` fails descent, or right-`H` reality fails. This prevents every later equation from being coordinate rhetoric. |

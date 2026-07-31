@@ -84,6 +84,29 @@ Every new `WG-*` construction atom carries:
 The exhaustive source ledger is
 `lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md`.
 
+## Primary-source recheck gate
+
+Every unexpected missing map, failed identity, obstruction, or apparent
+source-action boundary in this branch triggers a bounded primary-source
+recheck **before** it is recorded as the Eric-guided construction's final
+boundary. Future agents must:
+
+1. run Layer 0 on the failing object and the source term that may name it;
+2. search the verified Weinstein primary set—the 2021 draft/source packets,
+   Portal/Oxford, TOE, *Into the Impossible*, DarkHorse, and the UCSD
+   transcript—for the exact object and its adjacent construction;
+3. record a timestamped positive route or an exact negative receipt;
+4. if a source route exists, build and test it first, charging it as guidance;
+   and
+5. only then report the obstruction, distinguishing `not source supplied`,
+   `source supplied but unbuilt`, and `constructed then killed`.
+
+This gate does not let speech override a proof or revive a killed map. It
+prevents an agent from declaring failure after forgetting a source-native
+construction. The first worked receipt is
+`lab/sources/g3-weinstein-section-pullback-recheck-2026-07-31.md`: the sources
+select observation pullback/restriction, not a supplied defect action.
+
 ## Shared scoring surface
 
 A candidate does not win by resembling the transcript. Both lanes use the same

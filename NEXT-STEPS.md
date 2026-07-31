@@ -7,6 +7,24 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 G3 FULL VARIATIONAL/BV--BFV SPLIT PASS
+> (BRANCH-LOCAL).** Every actual owner of the G2 source action now has a
+> graph-complete bulk Euler return. The first-jet gauge identity closes only
+> jointly: its isolated connection contribution is nonzero and is canceled by
+> the moving-reduction equation. The action emits a nonzero thirteen-form
+> preboundary potential and presymplectic current, and the ordinary gauge
+> algebra admits the minimal BV completion required for CME closure through
+> antifield number one; omitting the ghost-antifield bracket term fails. Two
+> boundaries remain explicit. A preboundary form does not select G4's closed
+> Krein domain/polarization, and the selected source-only action contains no
+> observation section, matter, or defect term. The required Weinstein-source
+> recheck resolves the apparent mismatch: the author-guided route is to pull
+> ambient fields/equations back along the metric section, not to make the bulk
+> action emit a four-dimensional defect. G4 is next: construct that observation retract,
+> off-slice leakage test, admissible ultrahyperbolic polarization, closed
+> domain, and preboundary reduction needed by G5. See
+> `explorations/g3-full-variational-bicomplex-bvbfv-2026-07-31.md`.
+
 > **2026-07-31 G2 FIELD-SPACE/NATIVE-VARIATIONAL-SHIAB PASS WITH
 > SOURCE-FORMULA CORRECTION (BRANCH-LOCAL).** The selected guided field graph
 > is now explicit: `A` is the free endpoint connection,

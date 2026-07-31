@@ -25,7 +25,7 @@ statements, but it did not keep the defining cluster at official
 `01:33:59` or the distortion/double-coset cluster at official
 `02:17:07`--`02:21:xx` together as a construction grammar.
 
-This ledger records 74 material mathematical claims or qualifications. It does
+This ledger records 76 material mathematical claims or qualifications. It does
 not treat interview history, sociology, priority, or rhetoric as mathematics.
 The old report remains a useful adjudication of its three selected targets; this
 file corrects its **scope**, not its provenance.
@@ -94,6 +94,8 @@ wording itself matters; the table otherwise paraphrases.
 | WG-A08 | O `00:19:27`; L `00:24:44` | Base dimensions divisible by four with one time direction generate a GU tower such as `(1,3)`, `(1,7)`, `(1,11)`. | `AUTHOR-STATED`; no tower construction receipt in this branch. |
 | WG-A09 | same | Each higher member has analogues of Pati--Salam / standard unification structures. | `AUTHOR-STATED`; unbuilt. |
 | WG-A10 | L `00:29:16`--`00:30:11` | The “Observerse” is the package of two spaces, fibres, bundles, sections, relations, and pullbacks, not the total space alone. | `AUTHOR-STATED`; useful warning against identifying the datum with a single manifold. |
+| WG-A10a | L `01:18:26`--`01:19:15` | Observation patches are described as carrying local metric sections, while the existence and meaning of a global section are disputed in the dialogue. | `AUTHOR-STATED` but `SEMANTICALLY UNCERTAIN`; do not infer a global trivialization or globally selected observation section. |
+| WG-A10b | L `01:29:19`--`01:29:47` | One Standard Model generation is described as the pullback of a Weyl spinor from the space of pointwise Lorentz metrics to the four-manifold. | `AUTHOR-STATED`; selects an observation pullback/restriction target, not a supplied defect action or a proof of the physicalized spectrum. |
 | WG-A11 | L `00:30:49` | Most GU dynamics lives on the spinor bundle over `Y^14`, not merely on `TX`. | `AUTHOR-STATED`; native construction agrees. |
 | WG-A12 | O `02:39:xx`; L `02:41:57` | The 14-manifold carries a chimeric bundle semi-canonically related to tangent and cotangent bundles with natural indefinite metric data. | `AUTHOR-STATED`, manuscript-adjacent; exact global equivalence still needs its source definition. |
 | WG-A13 | same | This chimeric structure permits spinors without first choosing an observation metric. | `AUTHOR-STATED`; conditional on the precise chimeric construction. |
