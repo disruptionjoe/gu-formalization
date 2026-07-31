@@ -31,6 +31,46 @@ This run establishes 1 and 2. Every row remains open at 3. A fixture containing
 `u(1) + su(2) + su(3)` is intentionally target-coded and is never evidence that
 the action emits that algebra.
 
+### Subsequent C0 source-reconciliation precondition
+
+The Curt-iceberg reconciliation adds one prerequisite before C1 is globalized.
+The source chimeric carrier
+
+\[
+C(Y)=VY\oplus\pi^*T^*X
+\]
+
+must first use the tautological metric musical map and then a natural
+connection split,
+
+\[
+VY\oplus\pi^*T^*X\xrightarrow{1\oplus\sharp_h}
+VY\oplus\pi^*TX\xrightarrow{?}TY.
+\]
+
+The resulting source carrier is presented with a `(7,7)` metric and
+`U(64,64)`-type complex spinors. The
+active packet uses the DeWitt/gimmel metric on `TY`, total signature `(9,5)`,
+and a right-quaternionic `Sp(32,32;H)` reduction. No theorem presently
+identifies those carriers. C0 must construct the full Zorro map and compare
+the bilinear forms, Clifford modules, right-H structure, transition laws, and
+structure-group reductions. It may return either an explicit bridge or a
+non-equivalence certificate.
+
+C0 does not reopen the already-built inhomogeneous-group, derivative-cocycle,
+distortion, or action grammar. It determines which carrier the action census
+and C1 must use and supplies the minimal primitives needed for enumeration. If
+the carriers are inequivalent, run the target-blind census first and then port
+or recompute only the surviving carrier-dependent Hodge/Clifford/Krein/Shiab/
+Euler/Green/Ward realization before G2/G3 is treated as the source-carrier
+parent. See
+[`curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`](../sources/curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md).
+
+Accordingly, later `right-H` requirements name the active `(9,5)` branch. If
+C0 retains a genuinely complex container without that reduction, replace them
+by the corresponding C0-selected reality/container compatibility conditions;
+do not import a quaternionic structure merely to satisfy this packet.
+
 ## 2. Layer-0 typing
 
 Let
@@ -98,11 +138,18 @@ L_d:V_X\to V_Y,\qquad R_d:V_Y\to V_X,
 R_dL_d=1,\qquad P_d=L_dR_d,\qquad Q_{\rm off}=1-P_d.
 \]
 
-The field retract is not the map on Euler covectors. With pairing matrices or
-bundle pairings `G_Y,G_X`, the equation-dual is
+The field retract is not the map on Euler covectors. The algebraic dual is
 
 \[
-L_d^!=G_X^{-1}L_d^\dagger G_Y.
+L_d^\vee:V_Y^\vee\to V_X^\vee.
+\]
+
+Only after choosing bundle pairings `G_Y,G_X` may it be represented on primal
+fields by the Riesz adjoint
+
+\[
+L_d^!=\sharp_XL_d^\vee\flat_Y
+     =G_X^{-1}L_d^\dagger G_Y:V_Y\to V_X.
 \]
 
 For the restricted action
@@ -114,7 +161,7 @@ I_X[\phi;d]=I_Y[L_d\phi;d],
 the observed Euler equation is
 
 \[
-E_X(\phi;d)=L_d^!E_Y(L_d\phi;d)=0.
+E_X(\phi;d)=L_d^\vee E_Y(L_d\phi;d)=0.
 \]
 
 The action Hessian is first an Euler-space map
@@ -122,7 +169,7 @@ The action Hessian is first an Euler-space map
 \[
 H_Y:V_Y\to V_Y^\vee\otimes\operatorname{Dens},
 \qquad
-H_X=L_d^!H_YL_d.
+H_X=L_d^\vee H_YL_d.
 \]
 
 It cannot be hit by the field projector `Q_off`. Construct an explicit native
@@ -130,6 +177,14 @@ Riesz map `sharp_Y` (Hodge/DeWitt/Krein as appropriate) and only then set
 
 \[
 K_Y=\sharp_YH_Y:V_Y\to V_Y.
+\]
+
+The corresponding primalized equations and Hessian are
+
+\[
+\sharp_XE_X=L_d^!\sharp_YE_Y,
+\qquad
+K_X=\sharp_XH_X=L_d^!K_YL_d.
 \]
 
 For this primalized operator require both
@@ -277,7 +332,7 @@ coordinate matrix agree with `tau_F` but does not erase the type distinction.
 Every gravitational and cosmological observation stress uses
 
 \[
-E_{g,X}=\tau_F^\vee L_g^!E_{g,Y},
+E_{g,X}=\tau_F^\vee L_g^\vee E_{g,Y},
 \]
 
 before its transverse-traceless, scalar, or homogeneous projection. Omitting
@@ -343,14 +398,14 @@ Ambient signature `(9,5)` does not select this time or domain automatically.
 | familiar name | native readout from the shared packet | what must be true before the name is earned | actual `Y^14` gate |
 |---|---|---|---|
 | Maxwell | a one-dimensional compact ideal `u` in the centre of the action-selected stabilizer `k_d`, whose infinitesimal connection image lies in the gauge-mass kernel; current from `delta_A I_odd` | unique compact abelian ideal, one positive-residue transverse massless pole, zero leakage, physical Hodge/Riesz map | derive the stationary stabilizer, its connection image, and the closed photon domain |
-| Yang--Mills | `L_A^! E_A=0` and its nonabelian block in `H_B`, coupled to the same action-derived current | second-order hyperbolic connection block, self-coupling fixed by the bracket, Ward identity, and survival of `F^2` ablation | compute the reduced exact G2/G3 Hessian |
-| Einstein | `Pi_TT tau_F^vee L_g^! E_g=0` after the staged bulk/boundary reduction | exactly two positive-residue massless TT modes, Einstein/Lichnerowicz principal symbol, nonlinear constraint closure, universal coupling to total observation stress | construct the metric lift/domain and nonlinear reductions |
+| Yang--Mills | `L_A^vee E_A=0` and its nonabelian block in `H_B`, coupled to the same action-derived current | second-order hyperbolic connection block, self-coupling fixed by the bracket, Ward identity, and survival of `F^2` ablation | compute the reduced exact G2/G3 Hessian |
+| Einstein | `Pi_TT tau_F^vee L_g^vee E_g=0` after the staged bulk/boundary reduction | exactly two positive-residue massless TT modes, Einstein/Lichnerowicz principal symbol, nonlinear constraint closure, universal coupling to total observation stress | construct the metric lift/domain and nonlinear reductions |
 | Higgs | a heavy scalar orbit of `H_B` sourced by `Pi_vert T`, with odd incidence `partial_h M_v` | one complex weak doublet, three orbit Goldstones, one stable radial mode, one photon kernel, and the same incidence in gauge mass and fermion bilinear | obtain the representation and stationary VEV without inserting them |
 | Dirac | the `Omega^0` block of the reduced Euler Hessian of `I_odd` | closed first-order 4D Clifford principal symbol, right-H compatibility, physical chiral cohomology, K-paired zero-order channel, action-derived current | build the global operator and common domain |
 | Schrodinger | covariant Hamiltonian evolution of C5 after solving the reduced Dirac-type operator for one observed time derivative | source-selected positive majorant/time, presymplectic characteristic reduction followed by BFV closure, self-adjoint generator, preserved physical domain and norm | construct G4 boundary reduction, future BFV charge/master equation, and the time split |
 | weak force | the compact three-dimensional simple ideal of the pre-breaking stabilizer and its broken Hessian incidence | compact `A1` ideal, correct massless pre-breaking modes, rank-three breaking with one abelian kernel, compatible odd representations | derive the stabilizer and scalar orbit target-blindly |
 | strong force | the compact eight-dimensional simple ideal of the unbroken stabilizer | compact `A2` ideal, eight positive-norm massless transverse modes, compatible `3/bar(3)` odd incidence; confinement remains downstream | derive the ideal and quantum scale from the native orbit |
-| dark energy | a **candidate distinct** light scalar mode of `H_B` whose future `tau_F^vee L_g^!` variation must give conserved homogeneous stress | non-gauge positive-norm light mode, stationary amplitude, protected scale, no Higgs reuse, no fitted PP3/DESI value | solve the scalar/trace background family and observation stress |
+| dark energy | a **candidate distinct** light scalar mode of `H_B` whose future `tau_F^vee L_g^vee` variation must give conserved homogeneous stress | non-gauge positive-norm light mode, stationary amplitude, protected scale, no Higgs reuse, no fitted PP3/DESI value | solve the scalar/trace background family and observation stress |
 | dark matter | a separate physical decomposition `P_lum+Q_dark=1` **inside the admitted physical odd domain**, not the off-observation complement `Q_off`; both sectors remain in the common dynamics and stress | low-curvature suppression of `P_lum D Q_dark`, positive norm, mass/stability/abundance, and source-derived curvature threshold where mixing returns without changing either projector | derive the physical decomposition, common stress, gap, and recoupling threshold |
 
 ## 5. What the executable control establishes
@@ -359,7 +414,7 @@ The exact probe constructs and checks:
 
 - a nonorthogonal field retract with a distinct equation-dual and exact action
   chain rule;
-- a compatible-pairing fixture where `L^!=R` for a reason;
+- a compatible-pairing fixture where the Riesz adjoint `L^!=R` for a reason;
 - a leakage plant that passes `RDL` but fails `(1-LR)DL`;
 - four-dimensional Frobenius trace reversal on the ten-dimensional symmetric
   fibre;
@@ -389,23 +444,34 @@ count, cosmological stability, or any empirical prediction.
 
 ## 6. Actual emergence gates, in efficient order
 
-1. Lift C1 from matrices to global bundle/differential-operator maps, construct
-   `sharp_Y`, and prove patch descent, right-H compatibility, domain
+1. Build C0's chimeric/Zorro metric--Clifford--real-form bridge, freeze the
+   carrier, and construct only the invariant primitives required to enumerate
+   natural action terms.
+2. Run G3.5's target-blind census and ablation on that carrier. If C0 found
+   inequivalence, port or recompute only the surviving G2/G3 realization.
+3. Lift C1 from matrices to global bundle/differential-operator maps, construct
+   `sharp_Y`, and prove patch descent, compatibility with the C0-selected
+   real/container structure (including right-H compatibility if that reduction
+   survives), domain
    preservation, and nonlinear primalized leakage
    `Q_off sharp_Y E_Y(L phi)=0` for the exact G3 Euler map.
-2. Solve a one-parameter family of native stationary backgrounds without
+4. Solve a one-parameter family of native stationary backgrounds without
    Standard Model or PP3 labels.
-3. Compute C2's actual Hessian and stabilizer simultaneously, then perform the
+5. Compute C2's actual Hessian and stabilizer simultaneously, then perform the
    staged bulk-domain, gauge-cohomology, and boundary-characteristic reductions;
    retain every off-diagonal block and prove descent.
-4. Freeze C3 on the same background/domain, vary it once, and extend the G3
+6. Freeze C3 on the same background/domain, vary it once, and extend the G3
    Ward/BV packet with its exact current.
-5. Diagonalize the bosonic Hessian while decomposing the odd operator under the
+7. Replace C3's block-diagonal compatibility expression with the source-shaped
+   shortened `0 -> 1 -> 13 -> 14` complex and test its adjacent compositions,
+   cohomology, and square/factorization relation to the bosonic Hessian.
+7. Diagonalize the bosonic Hessian while decomposing the odd operator under the
    action-selected stabilizer. This single computation tests gauge ideals,
    spin two, EWSB, both scalar scales, odd representations, and dark mixing.
-6. Only after the physical domain and time split exist, construct C5's
+8. Only after the physical domain and time split exist, construct C5's
    Hamiltonian evolution.
-7. Run anomaly, index/P3, confinement, FLRW/PP3, DESI, abundance, and other
+9. Run anomaly, index/P3, flavour misalignment, proton decay, confinement,
+   FLRW/PP3, DESI, abundance, and other
    empirical comparisons last and without calibration leakage.
 
 ## 7. Kill conditions carried forward

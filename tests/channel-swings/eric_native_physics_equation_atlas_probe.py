@@ -90,10 +90,10 @@ def main() -> None:
     backbone = data["native_backbone"]
     exact("G2/G3 is the declared common native backbone", "I_G2" in backbone["action"] and "E_A=E_T" in backbone["connection_euler"])
     exact("killed compressed Euler shortcut remains recorded", backbone["killed_shortcut"] == "S_epsilon(F_(B+T))+kappa_1 T")
-    exact("observation gate includes retract intertwining leakage and equation dual", all(token in backbone["observation_gate"] for token in ("R_s L_s=1", "R_s D_Y L_s=D_X", "1-L_s R_s", "(D L_s)^!")))
+    exact("observation gate separates algebraic dual and Riesz adjoint", all(token in backbone["observation_gate"] for token in ("R_s L_s=1", "R_s D_Y L_s=D_X", "1-L_s R_s", "(D L_s)^vee", "(D L_s)^!", "sharp_X")))
 
     order = data["coherent_dependency_order"]
-    exact("construction begins with naturality then observation", order[:2] == ["G3.5_TARGET_BLIND_NATURALITY_AND_ABLATION", "G4_OBSERVATION_RETRACT_DOMAIN_AND_BFV_QUOTIENT"])
+    exact("construction begins with C0 then carrier-specific census and port", order[:4] == ["C0_CHIMERIC_ZORRO_REAL_FORM_BRIDGE", "G3.5_TARGET_BLIND_NATURALITY_AND_ABLATION_ON_SURVIVING_CARRIER", "C0_TRIGGERED_G2_G3_CARRIER_PORT_IF_REQUIRED", "G4_OBSERVATION_RETRACT_DOMAIN_AND_BFV_QUOTIENT"])
     exact("one shared Hessian precedes matter currents and particle labels", order.index("ONE_REDUCED_BOSONIC_HESSIAN") < order.index("G5_MINIMAL_ODD_EXTENSION_AND_ACTION_DERIVED_CURRENTS") < order.index("LOW_ENERGY_MODE_AND_GROUP_IDENTIFICATION"))
     exact("anomaly index and cosmology remain downstream", order[-3:] == ["PHYSICAL_BV_ANOMALY_TEST", "PHYSICAL_INDEX_AND_DATUM_READOUT", "COSMOLOGICAL_STATE_AND_PP3_TEST"])
 
@@ -128,6 +128,9 @@ def main() -> None:
     exact("every source callout becomes a native search directive", all(row["native_search_directive"].strip() for row in crosswalk.values()))
     exact("every source callout retains a boundary after routing", all(row["boundary"].strip() for row in crosswalk.values()))
     exact("all crosswalk sources resolve in the declared corpus", all(callout["source_id"] in data["source_corpus"] for row in crosswalk.values() for callout in row["callouts"]))
+    exact("Curt iceberg remains a secondary overlay with its own registry", data["source_corpus"]["CURT-ICEBERG-2025"]["grade"].startswith("secondary") and data["curt_iceberg_reconciliation"]["registry"] == "lab/process/curt-iceberg-native-crosswalk.json")
+    exact("Curt overlay covers every primary callout without inventing Schrodinger", set(data["curt_iceberg_overlay"]) >= expected_callouts and data["curt_iceberg_overlay"]["PSC-SCHRODINGER"] == [])
+    exact("C0 overlay carries Zorro chimeric signature and real-form steps", data["curt_iceberg_overlay"]["C0_FOUNDATIONAL_BRIDGE"] == ["CI-06", "CI-07", "CI-09", "CI-10", "CI-11", "CI-12"])
     exact("the two Into the Impossible sources remain distinct", data["source_corpus"]["WG-2021-ITI-REVEALED"]["title"] != data["source_corpus"]["WG-2025-ITI-UCSD"]["title"])
     local_sources = {
         source_id: (ROOT / row["local"]).read_text()

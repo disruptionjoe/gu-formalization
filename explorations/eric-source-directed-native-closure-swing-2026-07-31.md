@@ -73,26 +73,37 @@ L_d:V_X\to V_Y,\qquad R_d:V_Y\to V_X,\qquad R_dL_d=1.
 For Euler covectors, the map is instead
 
 \[
-L_d^!=G_X^{-1}L_d^\dagger G_Y,
+L_d^\vee:V_Y^\vee\to V_X^\vee,
 \qquad
-E_X(\phi)=L_d^!E_Y(L_d\phi).
+E_X(\phi)=L_d^\vee E_Y(L_d\phi).
 \]
 
 The Hessian is likewise first a covector-valued map
 
 \[
 H_Y:V_Y\to V_Y^\vee\otimes\operatorname{Dens},
-\qquad H_X=L_d^!H_YL_d.
+\qquad H_X=L_d^\vee H_YL_d.
 \]
 
-Only after an explicit Hodge/DeWitt/Krein Riesz map `sharp_Y` may we form the
-primal operator `K_Y=sharp_Y H_Y` and apply the field-space leakage projector
+Only after explicit Hodge/DeWitt/Krein Riesz maps may we define the primal
+adjoint and operators
+
+\[
+L_d^!=\sharp_XL_d^\vee\flat_Y,
+\qquad
+\sharp_XE_X=L_d^!\sharp_YE_Y,
+\qquad
+K_X=L_d^!K_YL_d,
+\]
+
+where `K_Y=sharp_Y H_Y`, and apply the field-space leakage projector
 `Q_off=1-LR`.
 
 The exact control exhibits both cases that matter:
 
-- with generic Euclidean pairings, `L^!` differs from `R`, and only `L^!`
-  gives the action chain rule;
+- the algebraic dual `L^vee`, not `R`, gives the action chain rule;
+- with generic Euclidean pairings, the matrix representing `L^vee` is also
+  the Euclidean Riesz adjoint `L^!`, and it differs from `R`;
 - with a deliberately compatible native pairing, `L^!=R` holds, but now as a
   theorem of the pairing rather than a type mistake.
 
@@ -172,7 +183,7 @@ symmetric tensors. The gravitational/cosmological Euler covector uses the
 dual trace reversal
 
 \[
-E_{g,X}=\tau_F^\vee L_g^!E_{g,Y},
+E_{g,X}=\tau_F^\vee L_g^\vee E_{g,Y},
 \]
 
 before transverse-traceless or homogeneous projection. This stays on
@@ -277,7 +288,8 @@ that an action or datum was needed.
 This lens forced the complete observation packet
 
 \[
-(L,R,L^!,P,Q,L_\partial,R_\partial,\Omega_Y,\Omega_X)
+(L,R,L^\vee,L^!,\sharp_X,\sharp_Y,
+ P,Q,L_\partial,R_\partial,\Omega_Y,\Omega_X)
 \]
 
 and distinguished a decoder from a variational transpose, an Euler Hessian
@@ -355,16 +367,22 @@ prediction, or empirical recovery is claimed.
 
 ## Next highest-information swing
 
-Do not build another finite Standard Model-shaped fixture. Lift C1 into the
-actual G3 bundle/Euler packet:
+Do not build another finite Standard Model-shaped fixture. The later Curt
+reconciliation inserts C0 before this report's C1 lift: adjudicate the
+chimeric/gimmel carrier, build only the invariant primitives required for a
+target-blind G3.5 census, ablate the candidate terms, and port only the
+surviving G2/G3 realization if the carriers are inequivalent. Then lift C1
+into the surviving actual bundle/Euler packet:
 
-1. construct local bundle/differential-operator candidates for `L_d,R_d,L_d^!`
+1. construct local bundle/differential-operator candidates for
+   `L_d,R_d,L_d^vee,L_d^!`
    from the source-directed metric section and tilted gauge geometry;
 2. prove patch descent, right-quaternionic/Krein compatibility, and preservation
    of one declared domain;
 3. construct `sharp_Y`, then compute the full nonlinear primalized leakage
    `Q_off sharp_Y E_Y(L_d phi)` and retain every cross-sector block;
-4. transport the coupled G3 Ward identity through `L_d^!`, including moving
+4. transport the coupled G3 Ward identity through `L_d^vee`, using `L_d^!`
+   only after primalization, including moving
    reduction, matter, and boundary owners;
 5. reduce the action-derived preboundary kernel and test whether a source-owned
    polarization/positive majorant exists.

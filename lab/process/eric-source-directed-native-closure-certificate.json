@@ -3,6 +3,8 @@
   "run_id": "GUH-20260731T160344Z-eric-source-directed-native-closure",
   "branch": "agent/weinstein-guided-source-action",
   "verdict": "CONDITIONAL_NATIVE_CLOSURE_WITH_EXACT_POSITIVE_CONTROL",
+  "source_reconciliation": "lab/process/curt-iceberg-native-crosswalk.json",
+  "precondition_object": "C0_CHIMERIC_ZORRO_REAL_FORM_BRIDGE: construct the universal-metric sharp_h plus connection split and compare the source C=V+H* (7,7)/U(64,64) system with the active gimmel TY (9,5)/Sp(32,32;H) system; build minimal enumeration primitives, run the carrier-specific action census, and on non-equivalence port only the surviving carrier-dependent G2/G3 machinery before C1",
   "parent_action": "I_cl[d]=I_G2[A,epsilon,g;d]+I_odd[A,epsilon,g,Psi,barPsi;d], with v=Pi_vert(A-A_LC(epsilon,g))",
   "shared_objects": [
     "C1_OBSERVATION_EQUATION_DUAL_AND_DOMAIN",
@@ -123,5 +125,5 @@
       "kill": "dark means merely projected away or recoupling occurs by changing the observation map"
     }
   ],
-  "next_highest_information_swing": "Lift C1 to the actual G3 bundle/Euler packet and test global patch descent, equation-dual Ward transport, nonlinear leakage zero, right-H domain preservation, and the action-derived preboundary quotient before solving stationary backgrounds."
+  "next_highest_information_swing": "Build C0's universal-metric-sharp/chimeric/Zorro metric-Clifford-real-form bridge plus minimal enumeration primitives; on the surviving carrier run the target-blind action census and port only surviving Hodge/Clifford/Krein/Shiab/Euler/Green/Ward machinery if required; then lift C1 with separate algebraic dual and Riesz adjoint and test global patch descent, Ward transport, nonlinear leakage zero, preservation of the C0-selected real/container structure (including right-H if retained), and the action-derived preboundary quotient before solving stationary backgrounds."
 }

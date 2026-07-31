@@ -39,7 +39,14 @@ These sources are useful for provenance, terminology, chronology, and locating c
     gauge-rotated-displacement / Euler-VEV grammar, distinguishes exact speech
     from strengthened reconstructions, and compares Weinstein's qualitative
     dynamic-dark-energy/DESI statement to the stronger repo-originated PP3
-  curve family.
+    curve family.
+- [`curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`](curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md)
+  - reconciles Curt Jaimungal's secondary three-hour iceberg exposition
+    against Weinstein primary sources and the active Eric-lane construction.
+    It includes all 30 recap steps plus 14 cross-cutting recovery claims,
+    preserves the signature/real-form/group-selection/generation forks, and
+    inserts the bounded C0 chimeric/Zorro bridge before the global observation
+    packet. It does not promote Curt's PDE reconstructions to primary formulas.
 - [`g3-weinstein-section-pullback-recheck-2026-07-31.md`](g3-weinstein-section-pullback-recheck-2026-07-31.md)
   - runs the Eric-lane source recheck triggered by G3's source-only section
     boundary. TOE, Portal/Oxford, and *Into the Impossible* consistently point

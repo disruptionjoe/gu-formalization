@@ -1,0 +1,499 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T165114Z-curt-iceberg-native-reconciliation",
+  "branch": "agent/weinstein-guided-source-action",
+  "source": {
+    "id": "CURT-ICEBERG-2025",
+    "title": "The Geometric Unity Iceberg... Oh Boy / In-depth Explanation of Eric Weinstein's Geometric Unity",
+    "date": "2025-04-23",
+    "official_video": "https://youtu.be/AThFAxF7Mgw",
+    "transcript_mirror": "https://podscripts.co/podcasts/theories-of-everything-with-curt-jaimungal/the-geometric-unity-iceberg-oh-boy",
+    "grade": "secondary mathematical exposition with explicit author-caveat passages"
+  },
+  "verdict": "SOURCE_DIRECTIVES_INCLUDED__RECOVERY_CLAIMS_REMAIN_CONDITIONAL_OR_OPEN",
+  "three_layer_rule": {
+    "curt_layer": "what Curt states, reconstructs, or identifies in the iceberg",
+    "eric_layer": "whether a Weinstein primary source or the 2021 draft supplies the same object or formula",
+    "repo_layer": "what the active branch has actually typed, varied, computed, or tested",
+    "recovery_gate": "physical recovery additionally requires observation equation-dual, closed domain, gauge/constraint quotient, and an observable intertwining theorem"
+  },
+  "load_bearing_forks": [
+    {
+      "id": "FORK-SIGNATURE",
+      "curt_surface": "trace-reversed vertical (4,6) plus horizontal (1,3), reported as total (7,7)",
+      "active_repo_surface": "trace-reversed symmetric fibre (6,4) plus base (3,1), reported as total (9,5)",
+      "status": "OPEN_CONVENTION_CARRIER_AND_SOURCE_ARITHMETIC_FORK",
+      "rule": "the ordered-pair sum (4,6)+(1,3) is not literally (7,7); a sign-order/dual convention must be supplied, and no spinor, Hodge, Krein, chirality, or index result transfers without a typed isometry/Clifford bridge"
+    },
+    {
+      "id": "FORK-STRUCTURE-GROUP",
+      "curt_surface": "complex chiral presentation with U(64,64)",
+      "active_repo_surface": "right-quaternionic/Krein presentation with Sp(32,32;H), possibly as an additional reduction inside a larger complex pseudo-unitary container",
+      "status": "OPEN_CONTAINER_REDUCTION_OR_REAL_FORM_FORK",
+      "rule": "U(64,64) is not equal to Sp(32,32;H); C0 must decide compatible reduction versus genuinely different carrier before either is made exclusive"
+    },
+    {
+      "id": "FORK-GAUGE-SELECTION",
+      "curt_surface": "Spin(6,4) contains Pati-Salam and an SU(3,2) route whose maximal compact is the SM group",
+      "active_repo_surface": "one-generation branching and maximal-compact algebra are representation-theoretic receipts; selection by the source action is open",
+      "status": "CONTAINMENT_BUILT__DYNAMICAL_SELECTION_OPEN",
+      "rule": "subgroup containment or a maximal compact is not a selected low-energy gauge group"
+    },
+    {
+      "id": "FORK-GENERATIONS",
+      "curt_surface": "Omega0 plus gamma-trace and gamma-traceless Omega1 pieces are labelled generations one, two, and three",
+      "active_repo_surface": "the decomposition is kinematic; the physical chiral index is grading-determined and the count datum P3 remains external",
+      "status": "THREE_PIECES_BUILT__THREE_PHYSICAL_GENERATIONS_NOT_DERIVED",
+      "rule": "no decomposition, block count, or 16-dimensional representation label is a generation count"
+    }
+  ],
+  "recap_steps": [
+    {
+      "step": 1,
+      "id": "CI-01",
+      "timestamp": "02:57:28",
+      "curt_claim": "Start with a smooth four-manifold X and construct the fourteen-dimensional symmetric metric bundle Y.",
+      "eric_support": "PRIMARY_ALIGNED",
+      "repo_status": "BUILT_TYPED_CARRIER",
+      "emergence_status": "NOT_A_PHYSICS_RECOVERY",
+      "atlas_targets": ["EXTERNAL_DATUM_OBSERVATION"]
+    },
+    {
+      "step": 2,
+      "id": "CI-02",
+      "timestamp": "02:57:28",
+      "curt_claim": "Construct the GL(4,R) frame bundle and lift to a double cover to admit finite-dimensional spinor representations.",
+      "eric_support": "PRIMARY_ALIGNED",
+      "repo_status": "SOURCE_TYPED__GLOBAL_LIFT_CONDITIONAL",
+      "emergence_status": "OPEN_GLOBAL_SPIN_METALINEAR_DATA",
+      "atlas_targets": ["DIRAC_MATTER", "RS_CHIMERIC"]
+    },
+    {
+      "step": 3,
+      "id": "CI-03",
+      "timestamp": "02:57:28",
+      "curt_claim": "Observation maps are local sections of Y over X.",
+      "eric_support": "PRIMARY_ALIGNED",
+      "repo_status": "FIELD_PULLBACK_DEFINED__EQUATION_DUAL_CONDITIONAL",
+      "emergence_status": "OPEN_OBSERVATION_DOMAIN_AND_INTERTWINING",
+      "atlas_targets": ["EXTERNAL_DATUM_OBSERVATION"]
+    },
+    {
+      "step": 4,
+      "id": "CI-04",
+      "timestamp": "02:58:01",
+      "curt_claim": "Construct TY and T*Y.",
+      "eric_support": "PRIMARY_ALIGNED",
+      "repo_status": "BUILT_STANDARD_GEOMETRY",
+      "emergence_status": "NOT_A_PHYSICS_RECOVERY",
+      "atlas_targets": ["EXTERNAL_DATUM_OBSERVATION"]
+    },
+    {
+      "step": 5,
+      "id": "CI-05",
+      "timestamp": "02:58:01",
+      "curt_claim": "Split TY into the canonical vertical bundle and a connection-dependent horizontal bundle.",
+      "eric_support": "PRIMARY_ALIGNED",
+      "repo_status": "BUILT_WITH_MOVING_REFERENCE",
+      "emergence_status": "OPEN_GLOBAL_OBSERVATION_REDUCTION",
+      "atlas_targets": ["EXTERNAL_DATUM_OBSERVATION", "EINSTEIN_GRAVITY"]
+    },
+    {
+      "step": 6,
+      "id": "CI-06",
+      "timestamp": "02:58:01",
+      "curt_claim": "Use the Zorro construction to pass from a section/metric choice to a Levi-Civita-type connection on the metric bundle.",
+      "eric_support": "MANUSCRIPT_DEFINED",
+      "repo_status": "PARTIAL_COMPONENTS__FULL_ZORRO_CHAIN_UNBUILT",
+      "emergence_status": "OPEN_ZORRO_NATURALITY_AND_EQUIVALENCE",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "EXTERNAL_DATUM_OBSERVATION"]
+    },
+    {
+      "step": 7,
+      "id": "CI-07",
+      "timestamp": "02:58:39",
+      "curt_claim": "Define the chimeric bundle C=V direct-sum H*.",
+      "eric_support": "MANUSCRIPT_DEFINED",
+      "repo_status": "SOURCE_TYPED__CHIMERIC_TO_GIMMEL_IDENTIFICATION_UNBUILT",
+      "emergence_status": "OPEN_GLOBAL_CLIFFORD_SOLDERING_AND_METRIC_BRIDGE",
+      "atlas_targets": ["DIRAC_MATTER", "RS_CHIMERIC"]
+    },
+    {
+      "step": 8,
+      "id": "CI-08",
+      "timestamp": "02:58:39",
+      "curt_claim": "Use the Frobenius inner product on symmetric matrices to metrize vertical fibres.",
+      "eric_support": "PRIMARY_ALIGNED",
+      "repo_status": "BUILT_ON_ACTUAL_SYM2_FIBRE",
+      "emergence_status": "NOT_YET_A_PHYSICAL_METRIC_READOUT",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "HIGGS_EWSB"]
+    },
+    {
+      "step": 9,
+      "id": "CI-09",
+      "timestamp": "02:58:39",
+      "curt_claim": "Split symmetric tensors into trace and traceless parts and choose the trace-reversed signature, reported as vertical (4,6) plus horizontal (1,3) giving (7,7).",
+      "eric_support": "SOURCE_STATED_WITH_SIGNATURE_ARITHMETIC_UNRESOLVED",
+      "repo_status": "TRACE_REVERSAL_BUILT__SIGNATURE_FORK_OPEN",
+      "emergence_status": "OPEN_TYPED_BRIDGE_TO_ACTIVE_9_5_ROUTE",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "HIGGS_EWSB", "COSMO_DISTORTION"]
+    },
+    {
+      "step": 10,
+      "id": "CI-10",
+      "timestamp": "02:59:18",
+      "curt_claim": "Construct spinor bundles on the chimeric bundle using the direct-sum tensor-product property.",
+      "eric_support": "MANUSCRIPT_DEFINED",
+      "repo_status": "FINITE_CLIFFORD_MODELS_BUILT__GLOBAL_BUNDLE_OPEN",
+      "emergence_status": "OPEN_PHYSICAL_SPINOR_DOMAIN",
+      "atlas_targets": ["DIRAC_MATTER", "RS_CHIMERIC"]
+    },
+    {
+      "step": 11,
+      "id": "CI-11",
+      "timestamp": "02:59:18",
+      "curt_claim": "For the source Spin(7,7) presentation, the real Dirac spin module has dimension 128 and real half-spin modules dimension 64; complexification gives 128-complex full and 64-complex half-spin modules.",
+      "eric_support": "PRIMARY_ALIGNED_WITH_REPRESENTATION_CAVEAT",
+      "repo_status": "FORKED_REPRESENTATION_RECEIPTS",
+      "emergence_status": "OPEN_REAL_COMPLEX_QUATERNIONIC_IDENTIFICATION",
+      "atlas_targets": ["DIRAC_MATTER", "RS_CHIMERIC"]
+    },
+    {
+      "step": 12,
+      "id": "CI-12",
+      "timestamp": "02:59:18",
+      "curt_claim": "Use a principal U(64,64)-type spinor bundle.",
+      "eric_support": "AUTHOR_SPOKEN_AND_DRAFT_PRESENTATION",
+      "repo_status": "OPEN_COMPLEX_CONTAINER_VS_RIGHT_H_REDUCTION__NOT_AN_IDENTITY",
+      "emergence_status": "OPEN_CONTAINER_REDUCTION_OR_CARRIER_SELECTION",
+      "atlas_targets": ["DIRAC_MATTER", "QUANTUM_BV"]
+    },
+    {
+      "step": 13,
+      "id": "CI-13",
+      "timestamp": "02:59:55",
+      "curt_claim": "Define the inhomogeneous gauge group as gauge transformations semidirect ad-valued one-form translations.",
+      "eric_support": "PRIMARY_AND_MANUSCRIPT_DEFINED",
+      "repo_status": "BUILT_TYPED_SEMIDIRECT_PACKET",
+      "emergence_status": "OPEN_GLOBAL_GROUP_OR_GROUPOID_COMPLETION",
+      "atlas_targets": ["GAUGE_YANG_MILLS", "STRESS_CONSERVATION"]
+    },
+    {
+      "step": 14,
+      "id": "CI-14",
+      "timestamp": "02:59:55",
+      "curt_claim": "Specify the right action of the inhomogeneous group on the affine space of connections.",
+      "eric_support": "PRIMARY_AND_MANUSCRIPT_DEFINED",
+      "repo_status": "BUILT_WITH_DERIVATIVE_COCYCLE",
+      "emergence_status": "OPEN_QUOTIENT_STACK_EQUIVALENCE",
+      "atlas_targets": ["GAUGE_YANG_MILLS", "EXTERNAL_DATUM_OBSERVATION"]
+    },
+    {
+      "step": 15,
+      "id": "CI-15",
+      "timestamp": "02:59:55",
+      "curt_claim": "Define augmented torsion from the endpoint connection and a gauge-rotated Levi-Civita reference.",
+      "eric_support": "PRIMARY_AND_MANUSCRIPT_DEFINED",
+      "repo_status": "BUILT_AS_HOMOGENEOUS_DISTORTION_T_EQUALS_A_MINUS_B",
+      "emergence_status": "OPEN_UNIQUENESS_AND_OBSERVATION_STRESS",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "COSMO_DISTORTION"]
+    },
+    {
+      "step": 16,
+      "id": "CI-16",
+      "timestamp": "03:00:22",
+      "curt_claim": "Introduce the Shiab as a gauge-equivariant curvature contraction generalizing Einstein contraction.",
+      "eric_support": "MANUSCRIPT_DEFINED__OTHER_PRIMARY_SOURCES",
+      "repo_status": "ACTION_SPECIFIC_NATIVE_DENSITY_DUAL_MAP_BUILT_WITH_KILLED_SHORTCUT",
+      "emergence_status": "OPEN_PHYSICAL_EINSTEIN_AND_YM_INTERTWINING",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "GAUGE_YANG_MILLS"]
+    },
+    {
+      "step": 17,
+      "id": "CI-17",
+      "timestamp": "03:00:22",
+      "curt_claim": "Formulate a first-order GU action with Einstein-Hilbert/Chern-Simons-like structure and a quadratic distortion term.",
+      "eric_support": "MANUSCRIPT_DEFINED",
+      "repo_status": "G2_PARENT_ACTION_WRITTEN_AND_VARIED",
+      "emergence_status": "CONDITIONAL_PARENT__NOT_OBSERVED_PHYSICS",
+      "atlas_targets": ["GAUGE_YANG_MILLS", "EINSTEIN_GRAVITY", "STRESS_CONSERVATION"]
+    },
+    {
+      "step": 18,
+      "id": "CI-18",
+      "timestamp": "03:00:51",
+      "curt_claim": "Vary the action to obtain equations analogous to Einstein and Yang-Mills.",
+      "eric_support": "MANUSCRIPT_PROGRAM_AND_CURT_RECONSTRUCTION",
+      "repo_status": "FULL_G2_G3_EULER_AND_WARD_PACKET_BUILT",
+      "emergence_status": "OPEN_OBSERVATION_DOMAIN_QUOTIENT_SYMBOL_AND_SOURCE_TESTS",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "GAUGE_YANG_MILLS", "STRESS_CONSERVATION"]
+    },
+    {
+      "step": 19,
+      "id": "CI-19",
+      "timestamp": "03:00:51",
+      "curt_claim": "Add fermions in Omega0(Y,S) direct-sum Omega1(Y,S) with a Dirac-Rarita-Schwinger operator.",
+      "eric_support": "PRIMARY_AND_MANUSCRIPT_DEFINED",
+      "repo_status": "CARRIER_BUILT__MINIMAL_ODD_ACTION_CONDITIONAL",
+      "emergence_status": "OPEN_GLOBAL_OPERATOR_DOMAIN_CONSTRAINTS_AND_CURRENT",
+      "atlas_targets": ["DIRAC_MATTER", "RS_CHIMERIC", "YUKAWA_MASS"]
+    },
+    {
+      "step": 20,
+      "id": "CI-20",
+      "timestamp": "03:01:19",
+      "curt_claim": "Construct a deformation complex whose cohomology classifies gauge-inequivalent linearized fluctuations.",
+      "eric_support": "MANUSCRIPT_PROGRAM",
+      "repo_status": "PARTIAL_ORDINARY_GAUGE_BV__KINEMATIC_GAMMA_MAPS_ONLY",
+      "emergence_status": "OPEN_ELLIPTIC_OR_HYPERBOLIC_COMPLEX_AND_PHYSICAL_COHOMOLOGY",
+      "atlas_targets": ["QUANTUM_BV", "ANOMALY_CONSISTENCY"]
+    },
+    {
+      "step": 21,
+      "id": "CI-21",
+      "timestamp": "03:01:39",
+      "curt_claim": "A seesaw structure in the Dirac-Rarita-Schwinger complex explains light/heavy spinor mixing and mass hierarchy.",
+      "eric_support": "AUTHOR_ASSERTED_MECHANISM",
+      "repo_status": "KINEMATIC_SEESAW_FIXTURES_ONLY",
+      "emergence_status": "OPEN_ACTION_SELECTED_MASS_MATRIX_AND_SPECTRUM",
+      "atlas_targets": ["YUKAWA_MASS", "DIRAC_MATTER"]
+    },
+    {
+      "step": 22,
+      "id": "CI-22",
+      "timestamp": "03:01:39",
+      "curt_claim": "Reduce Spin(7,7) to Spin(1,3) times Spin(6,4), then through Pati-Salam or SU(3,2) routes toward the SM gauge group.",
+      "eric_support": "PRIMARY_AND_MANUSCRIPT_ALIGNED",
+      "repo_status": "REPRESENTATION_BRANCHING_BUILT__DYNAMIC_SELECTION_OPEN",
+      "emergence_status": "OPEN_ACTION_SELECTED_STABILIZER_AND_HYPERCHARGE",
+      "atlas_targets": ["FORCE_DECOMPOSITION"]
+    },
+    {
+      "step": 23,
+      "id": "CI-23",
+      "timestamp": "03:02:15",
+      "curt_claim": "Label the Omega0, gamma-trace Omega1, and gamma-traceless Omega1 pieces as three generations.",
+      "eric_support": "AUTHOR_ASSERTED_LABELING",
+      "repo_status": "DECOMPOSITION_BUILT__COUNT_INFERENCE_REFUTED",
+      "emergence_status": "OPEN_PHYSICAL_INDEX_AND_P3_READOUT",
+      "atlas_targets": ["GENERATION_INDEX", "RS_CHIMERIC"]
+    },
+    {
+      "step": 24,
+      "id": "CI-24",
+      "timestamp": "03:02:15",
+      "curt_claim": "A scalar part of the pulled-back variational one-form pi is identified with the Higgs.",
+      "eric_support": "PRIMARY_AUTHOR_ASSERTION",
+      "repo_status": "VERTICAL_AD_VALUED_CARRIER_AND_FINITE_INCIDENCE_CONTROL",
+      "emergence_status": "OPEN_DOUBLET_VEV_PHOTON_KERNEL_POTENTIAL_AND_MIRROR_GAP",
+      "atlas_targets": ["HIGGS_EWSB", "YUKAWA_MASS"]
+    },
+    {
+      "step": 25,
+      "id": "CI-25",
+      "timestamp": "03:02:41",
+      "curt_claim": "The trace of Sym2 is Higgs-like while the traceless part is graviton-like.",
+      "eric_support": "CURT_RECONSTRUCTION_WITH_SOURCE_MOTIVATION",
+      "repo_status": "TRACE_SPLIT_BUILT__PARTICLE_IDENTIFICATIONS_OPEN",
+      "emergence_status": "OPEN_SHARED_HESSIAN_MODE_AND_SPIN_TESTS",
+      "atlas_targets": ["HIGGS_EWSB", "EINSTEIN_GRAVITY", "COSMO_DISTORTION"]
+    },
+    {
+      "step": 26,
+      "id": "CI-26",
+      "timestamp": "03:02:41",
+      "curt_claim": "Curvature expansion produces a quartic and quadratic scalar potential of Mexican-hat form.",
+      "eric_support": "PRIMARY_SPOKEN_MECHANISM",
+      "repo_status": "FINITE_GAUGE_DOUBLET_CONTROL_ONLY",
+      "emergence_status": "OPEN_NATIVE_COEFFICIENTS_STABILITY_AND_VEV_SELECTION",
+      "atlas_targets": ["HIGGS_EWSB"]
+    },
+    {
+      "step": 27,
+      "id": "CI-27",
+      "timestamp": "03:03:26",
+      "curt_claim": "Minimal coupling to a connection containing a Higgs component yields Yukawa-shaped interactions.",
+      "eric_support": "PRIMARY_SPOKEN_INCIDENCE_CLAIM",
+      "repo_status": "REPRESENTATION_LEVEL_INCIDENCE_CONTROL__REALISTIC_BLOCK_OPEN",
+      "emergence_status": "OPEN_KREIN_BILINEAR_CHIRAL_REPRESENTATIONS_AND_FLAVOUR_COEFFICIENTS",
+      "atlas_targets": ["YUKAWA_MASS", "DIRAC_MATTER"]
+    },
+    {
+      "step": 28,
+      "id": "CI-28",
+      "timestamp": "03:03:26",
+      "curt_claim": "Higgs and Yang-Mills terms share an origin in the decomposition and curvature of the variational connection.",
+      "eric_support": "PRIMARY_SPOKEN_ARCHITECTURE",
+      "repo_status": "SHARED_PARENT_PACKET_AND_FINITE_COUPLED_CONTROL",
+      "emergence_status": "OPEN_ONE_NATIVE_HESSIAN_EMISSION",
+      "atlas_targets": ["HIGGS_EWSB", "GAUGE_YANG_MILLS"]
+    },
+    {
+      "step": 29,
+      "id": "CI-29",
+      "timestamp": "03:03:26",
+      "curt_claim": "A quadratic augmented-torsion term is required for full gauge covariance, analogous to Yang-Mills self-interaction.",
+      "eric_support": "PRIMARY_AND_MANUSCRIPT_DEFINED",
+      "repo_status": "NONLINEAR_G2_ACTION_TERMS_BUILT__COMPRESSED_SHORTCUT_KILLED",
+      "emergence_status": "OPEN_LAYER0_MATCH_TO_CURT_DISPLAYED_EQUATION",
+      "atlas_targets": ["EINSTEIN_GRAVITY", "GAUGE_YANG_MILLS", "STRESS_CONSERVATION"]
+    },
+    {
+      "step": 30,
+      "id": "CI-30",
+      "timestamp": "03:04:10",
+      "curt_claim": "A constant component of the pulled-back gauge potential is identified with an effective cosmological term.",
+      "eric_support": "AUTHOR_ASSERTED_DECOMPOSITION",
+      "repo_status": "DISTORTION_COSMO_CARRIER_ONLY",
+      "emergence_status": "OPEN_STATE_VEV_AMPLITUDE_STRESS_AND_PP3_MAP",
+      "atlas_targets": ["COSMO_DISTORTION", "FLRW_PP3"]
+    }
+  ],
+  "cross_cutting_recovery_claims": [
+    {
+      "id": "CI-X01",
+      "topic": "physical pullback",
+      "timestamp": "00:24:12--00:28:43; 02:43:15--02:43:48",
+      "curt_claim": "Pulling fields on Y back along an observation section supplies the four-dimensional physical fields.",
+      "source_grade": "CURT_EXPOSITION_AND_PRIMARY_PROGRAM",
+      "repo_grade": "FIELD_PULLBACK_TYPED__EULER_PULLBACK_DOMAIN_AND_INTERTWINING_OPEN",
+      "directive": "Complete C1/G4 before any recovered-equation label."
+    },
+    {
+      "id": "CI-X02",
+      "topic": "one-family quantum numbers",
+      "timestamp": "01:50:58--01:55:07; 02:48:21--02:49:02",
+      "curt_claim": "The vertical reduction contains a 16-dimensional one-family packet matching Standard Model quantum numbers.",
+      "source_grade": "CURT_ASSERTION_WITH_STANDARD_PATI_SALAM_BRANCHING",
+      "repo_grade": "ONE_GENERATION_16_BRANCHING_COMPUTED__PHYSICAL_SELECTOR_OPEN",
+      "directive": "Use the 16 as a branching target and charge audit, never as evidence of three families."
+    },
+    {
+      "id": "CI-X03",
+      "topic": "gauge group",
+      "timestamp": "01:07:31--01:10:01; 01:50:58--01:54:40",
+      "curt_claim": "Pati-Salam and SU(3,2) routes contain the Standard Model group after further reduction or speciality.",
+      "source_grade": "CURT_ASSERTION_ALIGNED_WITH_AUTHOR_ROUTE",
+      "repo_grade": "CONTAINMENT_AND_BRANCHING_RECEIPTS__VACUUM_SELECTION_OPEN",
+      "directive": "Compute the action-selected stationary stabilizer and hypercharge before naming the SM gauge group."
+    },
+    {
+      "id": "CI-X04",
+      "topic": "proton decay",
+      "timestamp": "01:08:09--01:08:50",
+      "curt_claim": "The SU(3,2) real form is said to avoid classic proton-decay problems of older GUT choices.",
+      "source_grade": "CURT_REPORT_OF_AUTHOR_CLAIM",
+      "repo_grade": "UNTESTED_PHENOMENOLOGY",
+      "directive": "Require the selected representation, heavy mediators, baryon-number operators, and decay-amplitude calculation."
+    },
+    {
+      "id": "CI-X05",
+      "topic": "three generations",
+      "timestamp": "01:10:01--01:11:47; 02:48:21--02:49:02",
+      "curt_claim": "Three Dirac-Rarita-Schwinger pieces are each described as 16-dimensional generations.",
+      "source_grade": "CURT_ASSERTED_LABELING",
+      "repo_grade": "LAYER0_FAIL_AS_COUNT__P3_AND_PHYSICAL_INDEX_OPEN",
+      "directive": "Compute the physical chiral cohomology/index; preserve the exact gamma-trace ordering fork across source passages."
+    },
+    {
+      "id": "CI-X06",
+      "topic": "Yukawa",
+      "timestamp": "01:16:54--01:18:35; 01:45:33--01:49:33",
+      "curt_claim": "A Higgs component of the connection makes minimal coupling Yukawa-shaped.",
+      "source_grade": "GEOMETRIC_INCIDENCE_SUPPORTED__COEFFICIENT_FREE_CLAIM_NOT_SUPPORTED",
+      "repo_grade": "FINITE_EQUIVARIANT_INCIDENCE_CONTROL__KREIN_REALISTIC_YUKAWA_BLOCK_OPEN",
+      "directive": "Derive the common incidence, but debit Curt's explicit arranged coupling, Yukawa constant, and normalization until the action fixes them."
+    },
+    {
+      "id": "CI-X07",
+      "topic": "CKM and PMNS",
+      "timestamp": "01:21:06--01:21:45; 02:11:25--02:13:30",
+      "curt_claim": "Residual gauge-potential/generation rotations are identified with CKM, with PMNS obtained by an analogous lepton construction.",
+      "source_grade": "CURT_RECONSTRUCTION",
+      "repo_grade": "UNBUILT__FLAVOUR_MATRICES_AND_MISALIGNMENT_REMAIN_INPUT_LIKE",
+      "directive": "Construct two action-selected noncommuting mass operators and their residual-unitary mismatch before claiming mixing."
+    },
+    {
+      "id": "CI-X08",
+      "topic": "Dirac equation",
+      "timestamp": "02:14:11--02:19:25",
+      "curt_claim": "A chimeric Dirac-Rarita-Schwinger operator is presented as the GU Dirac equation.",
+      "source_grade": "CURT_RECONSTRUCTION_FROM_SOURCE_OPERATOR",
+      "repo_grade": "CARRIER_AND_CONDITIONAL_ODD_ACTION__PHYSICAL_DOMAIN_AND_4D_SYMBOL_OPEN",
+      "directive": "Derive the odd Euler operator, constraint propagation, current, and observation intertwiner on one closed domain compatible with the C0-selected reality/container structure; require right-H only if that reduction survives, and treat an independently required but absent right-H structure as a kill."
+    },
+    {
+      "id": "CI-X09",
+      "topic": "Klein-Gordon equation",
+      "timestamp": "02:19:25--02:22:57",
+      "curt_claim": "Trace/vertical scalar curvature terms are assembled into a nonlinear Klein-Gordon-like equation.",
+      "source_grade": "CURT_EXPLICITLY_SAYS_NO_SPECIFIC_SOURCE_NOTES_AND_BEST_ATTEMPT",
+      "repo_grade": "NO_Y14_KLEIN_GORDON_RECOVERY",
+      "directive": "Treat as a proposed scalar-Hessian readout, not an Eric formula; derive principal symbol, kinetic sign, potential, and observation map."
+    },
+    {
+      "id": "CI-X10",
+      "topic": "Einstein equation",
+      "timestamp": "02:22:57--02:25:45",
+      "curt_claim": "Shiab-processed curvature plus cosmological and source terms is presented as a gauge-covariant Einstein-like equation upstairs.",
+      "source_grade": "CURT_CURRENT_UNDERSTANDING_WITH_SOURCE_MOTIVATION",
+      "repo_grade": "EXACT_PARENT_EULER_BUILT__PHYSICAL_SPIN2_RECOVERY_OPEN",
+      "directive": "Use dual trace reversal and C1/C2; require two TT modes, Einstein symbol, constraints, and universal stress coupling."
+    },
+    {
+      "id": "CI-X11",
+      "topic": "Yang-Mills equation",
+      "timestamp": "02:25:45--02:30:15",
+      "curt_claim": "A curvature action on Y is varied into a familiar effective Yang-Mills form, with Shiab processing in the GU account.",
+      "source_grade": "CURT_CURRENT_UNDERSTANDING",
+      "repo_grade": "G2_FIRST_ORDER_PARENT_BUILT__ORDINARY_F2_YM_RECOVERY_OPEN",
+      "directive": "Compute the reduced Hessian, Ward transport, current, and F2 ablation before identifying Yang-Mills dynamics."
+    },
+    {
+      "id": "CI-X12",
+      "topic": "cosmological term",
+      "timestamp": "01:19:55--01:21:45; 03:04:10",
+      "curt_claim": "A constant component of pi and the quadratic augmented-torsion completion are identified with an effective cosmological term.",
+      "source_grade": "CURT_ASSERTED_RECOVERY_ALIGNED_WITH_AUTHOR_VEV_GRAMMAR",
+      "repo_grade": "DISTORTION_PARENT_AND_TRACE_READOUT_TYPED__STATE_AMPLITUDE_UNBUILT",
+      "directive": "Derive a conserved observation stress, stationary state, amplitude, and PP3 map without fitting DESI."
+    },
+    {
+      "id": "CI-X13",
+      "topic": "dark or decoupled sectors",
+      "timestamp": "02:53:47--02:55:25",
+      "curt_claim": "Unobserved decoupled sectors and their possible high-curvature recoupling are left as open questions.",
+      "source_grade": "CURT_OPEN_QUESTION",
+      "repo_grade": "CONDITIONAL_LUMINOUS_DARK_CONTROL_ONLY",
+      "directive": "Keep dark matter distinct from the off-observation complement and derive the physical decomposition, gap, stress, and recoupling threshold."
+    },
+    {
+      "id": "CI-X14",
+      "topic": "overall inevitability",
+      "timestamp": "00:19:53; 02:35:39--02:36:24; 03:04:10",
+      "curt_claim": "The known fields and equations are described rhetorically as falling inevitably from the metric-bundle geometry.",
+      "source_grade": "CURT_SYNTHESIS_OVERCLAIM_RELATIVE_TO_HIS_OWN_CAVEATS",
+      "repo_grade": "CONDITIONAL_ARCHITECTURE_ONLY",
+      "directive": "Retain every choice, reduction, action coefficient, domain, background, and observation map in the constraint-surplus ledger."
+    }
+  ],
+  "atlas_integration": {
+    "new_prerequisites": [
+      "tautological musical map pi*T*X -> pi*TX followed by a natural connection split to TY",
+      "global lifted frame/spin and chimeric-bundle descent",
+      "explicit resolution of the signature and real-form forks",
+      "deformation-complex and seesaw tests inside the odd action rather than as labels",
+      "action-selected symmetry-breaking chain and flavour misalignment",
+      "two distinct scalar-identification tests: connection-scalar versus symmetric-fibre trace"
+    ],
+    "reordered_next_swing": "C0: construct the Zorro/chimeric-to-gimmel metric, Clifford, and structure-group bridge plus only the minimal primitives needed for enumeration; then run the target-blind census on the surviving carrier, port only the surviving carrier-dependent G2/G3 machinery if required, and lift C1 before stationary-background and Hessian work.",
+    "reason": "C0 adjudicates whether the source (7,7)/U(64,64) and active (9,5)/Sp(32,32;H) systems are alternative presentations of one object or different carriers. Non-equivalence preserves the IG/cocycle/distortion/action grammar but forces the Hodge/Clifford/Krein/Shiab/Euler/Green/Ward machinery to be ported or recomputed. Every recovery claim then still depends on C1's algebraic Euler dual, separately typed Riesz adjoint, global domain, quotient, and action-selected stationary state."
+  },
+  "nonclaims": [
+    "No Standard Model gauge group is dynamically selected.",
+    "No three-generation count or chiral index is derived.",
+    "No physical Higgs doublet, Yukawa matrix, CKM matrix, or PMNS matrix is derived.",
+    "No Einstein, Yang-Mills, Dirac, or Klein-Gordon equation is recovered on a physical four-dimensional domain.",
+    "No cosmological amplitude, equation of state, dark-matter abundance, or proton-decay prediction is derived."
+  ]
+}

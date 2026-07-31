@@ -7,13 +7,36 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 CURT ICEBERG 30-STEP RECONCILIATION / C0 INSERTION
+> (BRANCH-LOCAL).** Curt Jaimungal's 2025 three-hour iceberg is now included
+> as a secondary construction map rather than a blanket recovery theorem. All
+> 30 recap steps and 14 cross-cutting claims are graded separately for Curt
+> assertion, Weinstein primary-source support, repo construction, and physical
+> recovery. The reconciliation preserves four load-bearing forks:
+> `(7,7)` versus active `(9,5)`, `U(64,64)` versus right-`H`
+> `Sp(32,32;H)`, group containment versus dynamic selection, and three
+> carrier pieces versus three physical generations. It also records that
+> Curt's Klein--Gordon construction lacks specific source notes, his
+> Einstein/Yang--Mills formulas are stated as his current understanding, and
+> the Yukawa passage still arranges a coupling/normalization. The next
+> sequence now begins with C0: construct the universal-metric musical map
+> and natural connection split between `C=V+H*` and the active DeWitt/gimmel
+> `TY` carrier, comparing metrics, Clifford modules and real forms. Then run
+> only the primitives needed for enumeration, run G3.5 on the surviving
+> carrier, port only surviving carrier-dependent machinery if needed, and
+> globalize C1/G4 with the algebraic Euler
+> dual separated from the Riesz adjoint. Do not restart the already-built
+> IG/cocycle/distortion/action grammar; if C0 finds inequivalence, port the
+> carrier-dependent Hodge/Clifford/Krein/Shiab/Euler/Green/Ward realization. See
+> `lab/sources/curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`.
+
 > **2026-07-31 ERIC SOURCE-DIRECTED NATIVE CLOSURE SWING
 > (BRANCH-LOCAL).** The ten Weinstein-guided physics routes now close through
 > five shared conditional objects rather than ten copied standard equations:
 > one observation/equation-dual/domain packet, one stationary stabilizer and
 > bosonic Hessian, one minimal Krein odd action and action-derived current,
 > Frobenius-fibre trace reversal, and one preboundary/positive-majorant/time
-> split. The exact fixture passes 1,954 positive checks and 13 planted failures.
+> split. The exact fixture passes 1,955 positive checks and 13 planted failures.
 > It proves mutual decoder compatibility, not emergence: the planted
 > `u(1)+su(2)+su(3)` algebra, background blocks, and projectors are explicitly
 > controls. Every actual `Y^14`, physical-domain, Standard Model, gravity,
@@ -33,7 +56,8 @@ updated_at: "2026-07-31"
 > kill. The program no longer restarts at “source action/external datum
 > missing”: finite data are carried as a conditional family and consumed only
 > at typed domain/orientation/index maps. The next highest-information wave is
-> G3.5 target-blind enumeration/ablation, G4 observation/domain construction,
+> C0 carrier adjudication, G3.5 target-blind enumeration/ablation on the
+> surviving carrier, G4 observation/domain construction,
 > one stationary native background, and one reduced bosonic Hessian whose
 > gauge, spin-two, heavy-scalar, and light-scalar blocks are named only after
 > they survive. See

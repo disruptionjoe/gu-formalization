@@ -42,7 +42,13 @@ def block_diag(*blocks: sp.Matrix) -> sp.Matrix:
     return sp.diag(*blocks)
 
 
-def equation_dual(lift: sp.Matrix, native_pairing: sp.Matrix, observed_pairing: sp.Matrix) -> sp.Matrix:
+def algebraic_dual(lift: sp.Matrix) -> sp.Matrix:
+    """Pull native covectors back to observed covectors."""
+    return lift.T
+
+
+def riesz_adjoint(lift: sp.Matrix, native_pairing: sp.Matrix, observed_pairing: sp.Matrix) -> sp.Matrix:
+    """Primal adjoint obtained only after the two Riesz identifications."""
     return observed_pairing.inv() * lift.T * native_pairing
 
 
@@ -56,9 +62,11 @@ def observation_and_variation_controls() -> None:
     exact("field projector is idempotent", projector * projector == projector)
     exact("complement kills admitted fields", complement * lift == sp.zeros(3, 2))
 
-    euclidean_dual = equation_dual(lift, sp.eye(3), sp.eye(2))
-    exact("generic equation dual is the formal transpose", euclidean_dual == lift.T)
-    exact("generic equation dual differs from field retract", euclidean_dual != retract)
+    pullback_dual = algebraic_dual(lift)
+    euclidean_adjoint = riesz_adjoint(lift, sp.eye(3), sp.eye(2))
+    exact("algebraic dual is the formal transpose", pullback_dual == lift.T)
+    exact("generic algebraic dual differs from field retract", pullback_dual != retract)
+    exact("Euclidean Riesz adjoint represents the algebraic dual", euclidean_adjoint == pullback_dual)
 
     parent_hessian = sp.Matrix([[2, 1, 0], [1, 3, 1], [0, 1, 4]])
     x0, x1 = sp.symbols("x0 x1", real=True)
@@ -67,11 +75,11 @@ def observation_and_variation_controls() -> None:
     action = (native.T * parent_hessian * native)[0] / 2
     action_gradient = sp.Matrix([sp.diff(action, x0), sp.diff(action, x1)])
     exact(
-        "action chain rule uses the equation dual",
-        action_gradient == euclidean_dual * parent_hessian * native,
+        "action chain rule uses the algebraic dual",
+        action_gradient == pullback_dual * parent_hessian * native,
     )
     planted(
-        "arbitrary field retract is substituted for the equation dual",
+        "arbitrary field retract is substituted for the algebraic dual",
         action_gradient == retract * parent_hessian * native,
     )
 
@@ -100,8 +108,8 @@ def observation_and_variation_controls() -> None:
     observed_pairing = sp.diag(2, 3)
     normal_pairing = sp.Matrix([[5]])
     native_pairing = shear.inv().T * block_diag(observed_pairing, normal_pairing) * shear.inv()
-    compatible_dual = equation_dual(compatible_lift, native_pairing, observed_pairing)
-    exact("pairing-compatible fixture has L-dual equal R", compatible_dual == compatible_retract)
+    compatible_adjoint = riesz_adjoint(compatible_lift, native_pairing, observed_pairing)
+    exact("pairing-compatible fixture has Riesz adjoint equal R", compatible_adjoint == compatible_retract)
     exact("pairing-compatible equality still has correct types", compatible_retract * compatible_lift == sp.eye(2))
 
 

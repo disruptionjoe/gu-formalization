@@ -18,13 +18,18 @@ these for the full working record; the durable, reviewed results live in `canon/
   conditional objects: observation/equation-dual/domain, one stationary
   stabilizer and bosonic Hessian, one minimal Krein odd action and current,
   Frobenius-fibre trace reversal, and the preboundary/majorant/time split. An
-  exact 1,967-check control proves decoder compatibility while retaining every
+  exact 1,968-check control proves decoder compatibility while retaining every
   actual `Y^14`, Standard Model, gravity, domain, quantum, and cosmology gate.
 - [`eric-native-physics-equation-replacement-atlas-2026-07-31.md`](eric-native-physics-equation-replacement-atlas-2026-07-31.md)
   maps fifteen familiar physical equations/jobs to the single G2/G3 native
   parent, the required equation-dual observation maps, honest build statuses,
-  and exact next constructions/kills. The ten-lens council recommends G3.5,
-  G4, one stationary background, and one shared reduced Hessian before naming
+  and exact next constructions/kills. The subsequent Curt-iceberg
+  reconciliation adds C0, an explicit chimeric/Zorro/gimmel metric--Clifford--
+  real-form bridge, before the carrier-specific G3.5 census and G4. C0 first
+  constructs the universal-metric musical map and natural connection split;
+  after census/ablation, non-equivalence triggers a port of only the surviving
+  carrier-dependent G2/G3 machinery. Then one stationary background
+  and one shared reduced Hessian precede naming
   photon/weak/strong, graviton, Higgs, or cosmological modes; odd propagation,
   currents, anomaly, and count follow from one later frozen matter action.
 - [`geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md`](geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md)

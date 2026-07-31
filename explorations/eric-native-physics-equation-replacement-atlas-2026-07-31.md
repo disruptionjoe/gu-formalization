@@ -47,12 +47,44 @@ annotating it. The ten source directives close through five shared conditional
 objects—observation/equation-dual/domain, one stationary stabilizer and
 bosonic Hessian, one minimal Krein odd action and current, Frobenius-fibre
 trace reversal, and one preboundary/positive-majorant/time split. The exact
-finite control passes 1,954 positive checks and 13 planted failures. Its
+finite control passes 1,955 positive checks and 13 planted failures. Its
 planted gauge algebra and sector blocks are compatibility fixtures, not
 `Y^14` emergence. See
 [`eric-source-directed-native-closure-swing-2026-07-31.md`](eric-source-directed-native-closure-swing-2026-07-31.md)
 and
 [`eric-source-directed-native-closure-packet-2026-07-31.md`](../lab/specifications/eric-source-directed-native-closure-packet-2026-07-31.md).
+
+## Curt-iceberg reconciliation and C0 insertion
+
+Curt Jaimungal's 2025 iceberg has now been reconciled step by step rather than
+used as a single recovery claim. All 30 recap steps and 14 cross-cutting
+claims are registered with separate grades for Curt's exposition, Weinstein
+primary-source support, repository construction, and physical recovery. The
+reconciliation preserves the `(7,7)`/`(9,5)`, `U(64,64)`/right-H,
+group-containment/selection, and three-pieces/three-generations forks. See
+[`curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`](../lab/sources/curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md).
+
+The one sequence change is a new C0 prerequisite before G4/C1:
+
+\[
+C(Y)=VY\oplus\pi^*T^*X
+\xrightarrow{1\oplus\sharp_h}
+VY\oplus\pi^*TX
+\xrightarrow[\mathrm{connection\ split}]{?}
+(TY,g_{\rm DW}).
+\]
+
+C0 must construct the musical map supplied by the universal/tautological
+metric on `Y`—without an observation section—compare metrics, Clifford modules, transition functions and
+structure-group reductions, and prove naturality of the connection split. It
+decides whether the source chimeric
+`Spin(7,7)/U(64,64)` system and the active gimmel
+`Spin(9,5)/Sp(32,32;H)` system are two presentations of one carrier. The
+inhomogeneous-group/cocycle/distortion/action grammar survives either result.
+If the carriers are inequivalent, however, the carrier-dependent
+Hodge/Clifford/Krein/Shiab/Euler/Green/Ward machinery that survives the
+subsequent census must be ported or recomputed before G2/G3 can remain the
+physical parent on the source carrier.
 
 ## What “replacement” means
 
@@ -66,7 +98,7 @@ field space. The native action defines
 \[
 I_i^{\rm eff}[\phi_i]=I_Y[\mathcal L_i\phi_i],
 \qquad
-E_i^{\rm eff}=(D\mathcal L_i)^!E_Y.
+E_i^{\rm eff}=(D\mathcal L_i)^\vee E_Y.
 \]
 
 A familiar equation is earned only when the construction proves, on a closed
@@ -74,11 +106,13 @@ domain and after quotienting native gauge directions,
 
 \[
 E_i^{\rm std}
-=Z_i\mathcal P_i(D\mathcal L_i)^!E_Y
+=Z_i\mathcal P_i(D\mathcal L_i)^\vee E_Y
 +\mathcal O(M_i^{-1}).
 \]
 
-The lift, equation dual, projector, normalization, background, and error scale
+Here `vee` is the algebraic dual on Euler covectors; the Riesz adjoint `!`
+appears only after both sides are primalized. The lift, equation dual,
+projector, normalization, background, and error scale
 must be frozen before the result is scored against familiar physics. Ordinary
 pullback of differential forms is not enough because an Euler derivative is a
 density-valued covector, not a field.
@@ -135,7 +169,11 @@ B=A_LC(epsilon,g),  T=A-B
         v
 I_G2  --->  (E_A, E_epsilon, E_g, Ward, Theta, omega, partial BV)
         |
-        +-- G3.5: enumerate/ablate target-blind native completions
+        +-- C0: chimeric/Zorro/gimmel metric-Clifford-real-form bridge
+        |
+        +-- G3.5: enumerate/ablate target-blind completions on that carrier
+        |
+        +-- port surviving G2/G3 machinery if C0 finds inequivalence
         |
         +-- G4: L_d, R_d, equation dual, leakage, closed Krein domain,
         |       positive majorant, preboundary quotient
@@ -241,7 +279,7 @@ fresh diagnosis that a datum/action was absent.
 
 1. **Affine and differential geometry.** Distinguished field restriction
    from Euler-covector reduction. It requires a stabilizer reduction
-   \(r_\epsilon\), lift \(L_s\), and formal transpose \((D L_s)^!\).
+   \(r_\epsilon\), lift \(L_s\), and algebraic dual \((D L_s)^\vee\).
 2. **Group cohomology and gauge groupoids.** Kept the inhomogeneous/tilted
    grammar but typed the fixed-reference quotient as an adjoint-distortion
    groupoid. It cannot be silently identified with \(\mathcal A/G\).
@@ -278,24 +316,37 @@ The council's strongest recommendation is not to construct the familiar
 equations in the order textbooks present them. The efficient order follows
 shared dependencies:
 
-1. **G3.5: target-blind census and ablation.** Enumerate natural native action
-   and odd terms from the declared geometry. Remove explicit Einstein,
-   Yang--Mills, Dirac, Higgs/Yukawa, and cosmological controls one by one.
-2. **G4: observation/domain packet.** Build \(L_d,R_d,(D L_d)^!\), differential
+1. **C0: chimeric/Zorro/real-form bridge.** Compare the source
+   `V+H*`, `(7,7)`, `U(64,64)` carrier to the active gimmel
+   `TY`, `(9,5)`, `Sp(32,32;H)` carrier, with explicit metrics,
+   Clifford modules, transition maps and reductions. Return an isomorphism/
+   reduction theorem or a non-equivalence certificate, plus the minimal
+   carrier primitives required for enumeration.
+2. **G3.5: target-blind census and ablation on the surviving carrier.**
+   Enumerate natural native action and odd terms from the declared geometry.
+   Remove explicit Einstein, Yang--Mills, Dirac, Higgs/Yukawa, and cosmological
+   controls one by one.
+3. **Carrier port if required.** After ablation, port or recompute only the
+   surviving carrier-dependent G2/G3 realization.
+4. **G4: observation/domain packet.** Build
+   \(L_d,R_d,(D L_d)^\vee,(D L_d)^!\), differential
    intertwining, leakage zero, closed Krein domain, positive majorant, and
-   preboundary quotient uniformly over the datum family.
-3. **Stationary native backgrounds.** Solve the complete coupled G2/G3 Euler
+   preboundary quotient uniformly over the datum family surviving C0.
+5. **Stationary native backgrounds.** Solve the complete coupled G2/G3 Euler
    system before interpreting any mode.
-4. **One reduced bosonic Hessian.** Compute its gauge, spin-two, and scalar
-   blocks without Standard Model or cosmological labels. This is the next
-   highest-information swing.
-5. **G5 minimal odd extension.** Freeze one target-blind matter action and
+6. **One reduced bosonic Hessian.** Compute its gauge, spin-two, and scalar
+   blocks without Standard Model or cosmological labels.
+7. **G5 minimal odd extension.** Freeze one target-blind matter action and
    derive the Dirac/RS operators, zero-order mass block, currents, and extended
    Ward/BV identities together.
-6. **Name low-energy physics last.** Only surviving native modes may be
+8. **Rolled-complex/factorization gate.** Construct the actual shortened
+   Dirac--RS complex and test whether its square/factorization is the same
+   bosonic Hessian rather than merely coexisting with it.
+9. **Name low-energy physics last.** Only surviving native modes may be
    compared with the photon, weak/strong gauge fields, graviton, Higgs,
    cosmological mode, and observed fermions.
-7. **Run downstream gates.** Anomalies, physical index/count, FLRW/PP3, and
+10. **Run downstream gates.** Anomalies, physical index/count, flavour,
+   proton decay, FLRW/PP3, and
    hostile Standard Model comparison occur after the relevant choices are
    frozen.
 
