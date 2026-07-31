@@ -7,6 +7,21 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
+> **2026-07-31 ERIC-NATIVE PHYSICS EQUATION REPLACEMENT ATLAS
+> (BRANCH-LOCAL).** The same ten specialist lenses plus a science-council
+> synthesis now map fifteen familiar physics jobs to one G2/G3 native parent.
+> Maxwell/Yang--Mills, force decomposition, Einstein gravity, Higgs/cosmology,
+> Dirac/RS, Yukawa, BV/anomaly, generation/index, and datum/observation each
+> have an exact status, observation arrow, next construction, and decisive
+> kill. The program no longer restarts at “source action/external datum
+> missing”: finite data are carried as a conditional family and consumed only
+> at typed domain/orientation/index maps. The next highest-information wave is
+> G3.5 target-blind enumeration/ablation, G4 observation/domain construction,
+> one stationary native background, and one reduced bosonic Hessian whose
+> gauge, spin-two, heavy-scalar, and light-scalar blocks are named only after
+> they survive. See
+> `explorations/eric-native-physics-equation-replacement-atlas-2026-07-31.md`.
+
 > **2026-07-31 GEOMETRY-FIRST ORTHODOXY AUDIT / TEN SEPARATE
 > SPECIALIST ODDS (BRANCH-LOCAL).** The same ten lenses find that only the
 > `4+10=14` metric-bundle carrier is close to automatic. Both lanes still

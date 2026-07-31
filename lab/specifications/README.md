@@ -20,3 +20,7 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
 - `g3-graph-variation-noether-bvbfv-packet-2026-07-31.md` — G3's all-slot owner Euler
   return, coupled gauge/diffeomorphism weak identities, action-derived preboundary forms,
   ordinary-gauge minimal BV completion, section-scope correction, and G4 domain handoff.
+- `eric-native-equation-replacement-contract-2026-07-31.md` — branch-local criterion
+  requiring an action/Euler/domain/symmetry/observable intertwining theorem before a
+  familiar four-dimensional equation counts as an earned native shadow; includes the
+  G2/G3 backbone, observation gate, status vocabulary, and no-stall datum-family rule.

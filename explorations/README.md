@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`eric-native-physics-equation-replacement-atlas-2026-07-31.md`](eric-native-physics-equation-replacement-atlas-2026-07-31.md)
+  maps fifteen familiar physical equations/jobs to the single G2/G3 native
+  parent, the required equation-dual observation maps, honest build statuses,
+  and exact next constructions/kills. The ten-lens council recommends G3.5,
+  G4, one stationary background, and one shared reduced Hessian before naming
+  photon/weak/strong, graviton, Higgs, or cosmological modes; odd propagation,
+  currents, anomaly, and count follow from one later frozen matter action.
 - [`geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md`](geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md)
   audits where familiar Yang--Mills, Dirac/RS, SW, Yukawa/flavour, defect,
   Standard Model, and cosmological templates enter the guided and independent
