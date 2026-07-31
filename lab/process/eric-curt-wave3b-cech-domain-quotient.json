@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "swing_id": "ECW3B-CECH-DOMAIN-QUOTIENT-COMPATIBILITY",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "branch": "agent/weinstein-guided-source-action",
+  "status": "COMPLETE_EXACT_FINITE_COMPATIBILITY__ACTUAL_Y14_ANALYSIS_OPEN",
+  "controlling_question": "Assuming an admitted Lorentz metric section, can observation, equation-dual/Krein-adjoint, nonlinear no-leakage, finite domain, and preboundary quotient data satisfy one exact multi-patch descent contract?",
+  "pre_registered_expected_verdict": "FINITE_COMPATIBILITY_PASS_POSSIBLE__LOCAL_SPLIT_INSUFFICIENT_FOR_DESCENT__ANALYTIC_GLOBAL_GATE_REMAINS_OPEN",
+  "layer0": [
+    {
+      "term": "global section",
+      "disposition": "HOMONYM",
+      "objects": ["a Lorentz metric section admitted by the campaign input", "a theorem that every candidate four-manifold admits such a section"]
+    },
+    {
+      "term": "descent",
+      "disposition": "HOMONYM",
+      "objects": ["local identities R_i L_i=1", "overlap and triple-cocycle compatibility of fields, equations, duals, and domains"]
+    },
+    {
+      "term": "closed domain",
+      "disposition": "HOMONYM",
+      "objects": ["finite invariant graph subspace", "analytic closed domain of an unbounded operator with boundary conditions"]
+    },
+    {
+      "term": "phase space",
+      "disposition": "HOMONYM",
+      "objects": ["finite nondegenerate quotient of a presymplectic form", "physical BFV phase space with charge/master closure and admissible boundary conditions"]
+    }
+  ],
+  "finite_contract": {
+    "arithmetic": "exact rational",
+    "patch_count": 3,
+    "ambient_rank": 14,
+    "observed_rank": 4,
+    "domain_rank": 3,
+    "domain_signature": [2, 1],
+    "preboundary_rank": 2,
+    "characteristic_kernel_rank": 2,
+    "quotient_rank": 2,
+    "required_identities": [
+      "T_ij T_jk=T_ik and H_ij H_jk=H_ik",
+      "T_ij L_j=L_i H_ij and R_i T_ij=H_ij R_j",
+      "equation-dual and Krein-adjoint naturality",
+      "R_i E_Y,i L_i=E_X,i and (1-L_i R_i)E_Y,i L_i=0",
+      "finite graph-domain invariance and positive Krein majorant",
+      "pullback of omega_G3, characteristic-kernel descent, and nondegenerate quotient"
+    ],
+    "hostile_control": "kernel-valued patch lift preserves R_2 L_2=1 but fails T_12 L_2=L_1 H_12"
+  },
+  "verdict": {
+    "cech_field_descent": "PASS_EXACT_FINITE",
+    "nonlinear_equation_and_no_leakage_descent": "PASS_EXACT_FINITE",
+    "equation_dual_descent": "PASS_EXACT_FINITE",
+    "krein_adjoint_descent": "PASS_EXACT_FINITE",
+    "finite_graph_domain_invariance": "PASS_EXACT_FINITE",
+    "finite_positive_majorant": "PASS_EXACT_FINITE",
+    "preboundary_characteristic_reduction": "PASS_EXACT_FINITE",
+    "local_split_sufficiency": "KILLED_BY_KERNEL_VALUED_PATCH_WITNESS",
+    "arbitrary_x_lorentz_section": "OPEN_CONDITIONAL_INPUT_ONLY",
+    "actual_y14_atlas": "OPEN",
+    "analytic_closed_domain": "OPEN",
+    "physical_time": "OPEN",
+    "physical_bfv_phase_space": "OPEN"
+  },
+  "branch_ledger": [
+    {
+      "id": "R95_ACTIVE",
+      "track": "ERIC_GUIDED_ACTIVE_REAL_CARRIER",
+      "status": "EXACT_FINITE_COMPATIBILITY__ACTUAL_Y14_ANALYSIS_OPEN",
+      "owned_data": ["active real pairings", "G2/G3 Euler and preboundary packet", "finite multi-patch compatibility control"]
+    },
+    {
+      "id": "R77_VERTICAL_FLIP",
+      "track": "CURT_CANDIDATE_SOURCE_PREFERRED_RIVAL",
+      "status": "PORT_REQUIRED_FOR_REAL_PAIRING_DOMAIN_AND_PREBOUNDARY_DESCENT",
+      "owned_data": ["literal real (7,7) candidate", "separately tagged deformation-complex checklist", "no completed real domain/preboundary port"]
+    },
+    {
+      "id": "C14_COMMON",
+      "track": "COMMON_COMPLEX_CONTAINER",
+      "status": "INSUFFICIENT_TO_SELECT_REAL_CLOSED_DOMAIN_OR_POLARIZATION",
+      "owned_data": ["complex algebra M(128,C) only"]
+    }
+  ],
+  "third_lane_promotion_gate": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_CURT_SPECIFIC_COMPLETE_ACTION_VARIATION_GAUGE_OBSERVATION_DOMAIN_PACKET",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_NO_REFIT_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "wave_disposition": {
+    "campaign_status": "READY_AFTER_WAVE2_FROZEN_CLASS_EXIT",
+    "scientific_status": "PARTIAL_ECW3B_FINITE_DESCENT_DOMAIN_QUOTIENT_COMPATIBILITY_COMPLETE__ACTUAL_Y14_ANALYSIS_OPEN",
+    "earned": ["three-patch Cech compatibility", "nonlinear no-leakage transport", "dual and adjoint naturality", "finite invariant Krein graph domain", "finite characteristic quotient"],
+    "not_earned": ["actual metric-bundle atlas", "unconditional Lorentz section", "analytic closed right-H/Krein domain", "actual G2/G3 no-leakage", "physical BFV phase space"],
+    "next_gate": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN"
+  },
+  "exact_probe": {
+    "path": "tests/channel-swings/eric_curt_wave3b_cech_domain_quotient_probe.py",
+    "expected_exact_checks": 91,
+    "expected_planted_failures": 11
+  },
+  "report": "explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md",
+  "nonclaims": [
+    "No actual global Y14 observation atlas or unconditional Lorentz section is constructed.",
+    "No analytic closed/self-adjoint right-H/Krein operator domain is proved.",
+    "No physical BFV phase space, time evolution, field equation, stationary state, Standard Model sector, count, or cosmology is recovered.",
+    "No Curt-specific dynamics/discriminator or third lane is completed."
+  ]
+}

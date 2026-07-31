@@ -71,6 +71,11 @@ Runbooks:
   separating field retract, algebraic equation dual, and Krein-Riesz adjoint;
   paired linear and nonlinear ambient operators prove that a correct observed
   equation does not imply preservation of the lifted observation image.
+- `eric-curt-wave3b-cech-domain-quotient.json` - exact Wave 3B finite
+  compatibility gate for three-patch field/equation descent, active-real
+  adjoints, nonlinear no-leakage, an invariant Krein graph domain, and
+  characteristic preboundary reduction. It keeps the actual `Y^14` atlas,
+  Lorentz-section existence, analytic closed domain, and BFV phase space open.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A GATE
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -50,15 +50,26 @@ updated_at: "2026-07-31"
 > witnesses have the same induced equation `R E_Y L=E_X`, while one has
 > nonzero off-image leakage `(1-LR)E_YL`. Thus equation recovery alone cannot
 > establish a physical domain. The Wave 3A probe passes `34 exact + 11 planted
-> = 45`; the actual global section, closed Krein domain, polarization, and
-> preboundary quotient remain open. The next run is
-> `ECW3B-GLOBAL-DESCENT-DOMAIN-QUOTIENT`, not a restart of the action search.
+> = 45`. Wave 3B then proves one exact finite compatibility theorem on three
+> rational patches. Field lifts/retracts, equation duals, active-real Krein
+> adjoints, nonlinear no-leakage, a signature `(2,1)` invariant graph with a
+> positive majorant, and a rank-two characteristic quotient all descend.
+> A kernel-valued hostile patch lift retains its local `R_2 L_2=1` identity
+> while failing overlap descent, so local splitting is not a globalization
+> theorem. The Wave 3B probe passes `91 exact + 11 planted = 102`; it does not
+> construct the actual `Y^14` atlas, prove a Lorentz section exists on an
+> arbitrary `X`, establish an analytic closed right-`H`/Krein domain, or
+> produce a physical BFV phase space. Curt still owes a separate real
+> pairing/domain/preboundary port, and `TG-1 AND TG-2 AND TG-3` remains false.
+> The next run is `ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN`, not a restart
+> of the action search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
 > `explorations/eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md` and
+> `explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md` and
 >
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

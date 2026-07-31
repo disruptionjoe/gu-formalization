@@ -117,7 +117,17 @@
         "registry": "lab/process/eric-curt-wave3a-observation-dual-leakage.json",
         "probe": "tests/channel-swings/eric_curt_wave3a_observation_dual_leakage_probe.py",
         "report": "explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md",
-        "next_swing": "ECW3B-GLOBAL-DESCENT-DOMAIN-QUOTIENT"
+        "wave3b": {
+          "status_boundary": "PARTIAL_ECW3B_FINITE_DESCENT_DOMAIN_QUOTIENT_COMPATIBILITY_COMPLETE__ACTUAL_Y14_ANALYSIS_OPEN",
+          "field_and_equation_descent": "PASS_ON_EXACT_THREE_PATCH_RATIONAL_CONTROL",
+          "local_split_sufficiency": "KILLED_BY_KERNEL_VALUED_PATCH_LIFT",
+          "finite_domain": "INVARIANT_SIGNATURE_2_1_GRAPH_WITH_POSITIVE_MAJORANT",
+          "preboundary_reduction": "RANK_2_FORM_MOD_RANK_2_CHARACTERISTIC_KERNEL_GIVES_NONDEGENERATE_RANK_2_QUOTIENT",
+          "registry": "lab/process/eric-curt-wave3b-cech-domain-quotient.json",
+          "probe": "tests/channel-swings/eric_curt_wave3b_cech_domain_quotient_probe.py",
+          "report": "explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md"
+        },
+        "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN"
       }
     },
     {

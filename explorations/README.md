@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3B finite Cech/domain/quotient compatibility gate`](eric-curt-wave3b-cech-domain-quotient-2026-07-31.md)
+  transports the observation/Euler packet across three exact rational patches,
+  including dual/adjoint naturality, nonlinear no-leakage, a finite invariant
+  Krein graph, and characteristic reduction. A hostile locally split lift
+  fails overlap descent. The actual `Y^14` atlas, analytic domain, and BFV
+  phase space remain open; Curt stays a rival track and no third lane is
+  promoted.
+
 - [`Eric/Curt Wave 3A observation-dual and leakage gate`](eric-curt-wave3a-observation-dual-leakage-2026-07-31.md)
   types the field retract, equation dual, and active-real Krein adjoint
   separately. Exact paired linear and nonlinear witnesses induce the same
