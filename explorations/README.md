@@ -194,6 +194,21 @@ these for the full working record; the durable, reviewed results live in `canon/
   Standard Model/Yukawa and gravity/dark-energy interfaces. All source/repo
   identities, real-form maps, stationarity, mass, index, and count claims
   remain open.
+- [`weinstein-guided-source-action-branch-contract-2026-07-31.md`](weinstein-guided-source-action-branch-contract-2026-07-31.md)
+  creates a prospective same-commit comparison between the independent
+  `operator-anomaly-big-swing` continuation and an explicitly
+  Weinstein-guided source-action lane. Guidance is charged as supplied data,
+  both lanes retain the same five-leg and constraint-surplus gates, and only
+  branch-independent lemmas with guided-discovery provenance may be proposed
+  for later transfer.
+- [`weinstein-guided-source-action-scaffold-2026-07-31.md`](weinstein-guided-source-action-scaffold-2026-07-31.md)
+  executes the exact finite opening shadow of the
+  `IG/tau+/displacement/action` chain and scaffolds ten construction swings.
+  The opening result selects the unit Maurer--Cartan coefficient, proves the
+  left-invariant/right-adjoint displacement law and Ward shadow, and corrects
+  a Layer-0 homonym: with curvature and affine-chart transport, the
+  displacement is related to but not literally identical with its Euler
+  covector.
 - [`vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md`](vanchurin-ten-persona-neural-network-analogy-audit-2026-07-30.md)
   runs 39 paper-anchored analogy rows through ten divergent network,
   learning, geometry, PDE, topology, and formal-audit lenses. The best

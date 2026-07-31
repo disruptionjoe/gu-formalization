@@ -7,6 +7,24 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-31 WEINSTEIN-GUIDED BRANCH FORK (BRANCH-LOCAL).**
+> `agent/weinstein-guided-source-action` begins prospectively at the exact
+> `agent/operator-anomaly-big-swing` base commit `3567956`; the independent
+> branch is the control and is not modified. The complete 74-row TOE
+> mathematical-claim ledger recovers the connected
+> `IG -> tau+ double coset -> gauge-rotated displacement -> equivariant
+> contraction -> Euler/VEV` grammar missed by the earlier selective ledger.
+> An exact 18-check finite opening swing selects the unit Maurer--Cartan
+> coefficient and finds that the displacement and its Euler covector require
+> curvature addition plus affine-chart transport; they are not literal
+> synonyms. The highest-information next guided swing is E1+E2: globalize the
+> tilted field packet, then vary the complete source action in `varpi` and
+> `epsilon`; the native bosonic Shiab E4 may run in parallel after E1. PP3 is
+> a stronger repo-originated sharpening of Weinstein's qualitative dynamic-DE
+> / future-DESI bet, not a transcript-derived prediction. See
+> `explorations/weinstein-guided-source-action-branch-contract-2026-07-31.md`
+> and `explorations/weinstein-guided-source-action-scaffold-2026-07-31.md`.
+
 > **2026-07-30 RB7 STATIONARY NON-METRIC ORDER-PARAMETER
 > DISPOSITION.**
 > [`explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md)

@@ -32,9 +32,17 @@ These sources are useful for provenance, terminology, chronology, and locating c
     fast--slow, criticality, and observer claims to the primary paper
     equations and their stated limits. It stores links and paraphrased
     timestamp rows rather than copying the transcript.
+- [`claim-mining-toe-weinstein-complete-2026-07-31.md`](claim-mining-toe-weinstein-complete-2026-07-31.md)
+  - supersedes the **scope**, not the three priority-target adjudications, of
+    the July 20 five-lens report. It records 74 material mathematical claims,
+    recovers the connected inhomogeneous-gauge / tilted-double-coset /
+    gauge-rotated-displacement / Euler-VEV grammar, distinguishes exact speech
+    from strengthened reconstructions, and compares Weinstein's qualitative
+    dynamic-dark-energy/DESI statement to the stronger repo-originated PP3
+    curve family.
 - [`claim-mining-toe-weinstein-2026-07-20.md`](claim-mining-toe-weinstein-2026-07-20.md)
-  - timestamped five-lens claim mining of Weinstein's “40 Years in the
-    Making” TOE episode.
+  - selective timestamped five-lens claim mining of Weinstein's “40 Years in
+    the Making” TOE episode, retaining three priority-target adjudications.
 - [`claim-mining-toe-mannheim-2026-07-20.md`](claim-mining-toe-mannheim-2026-07-20.md)
   - timestamped five-lens claim mining of Mannheim's conformal-gravity TOE
     episode.
