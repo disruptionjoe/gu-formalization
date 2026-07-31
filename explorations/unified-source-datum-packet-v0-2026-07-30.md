@@ -1293,3 +1293,69 @@ Three routes may now start from this exact packet:
 
 N2b and N4b wait for N3. No downstream run may silently substitute a
 different action, topology family, parameter budget, or held-out wall.
+
+## RB4 Layer-0 and field-register correction
+
+RB4 does not alter the frozen N1 functional. It exposes a missing
+\(\epsilon_{\rm IG}\)-dependent field map that must be inserted before the
+fixed-Cartan full-20 branch is physical.
+
+The N1 “observer section” \(s:X\to Y\) selects a Lorentzian metric. It does
+not select:
+
+- a unit timelike observer \(u\);
+- a vertical Cartan involution \(\Theta_\chi\);
+- a compatible orthogonal complex structure \(J\); or
+- a determinant-one complex volume.
+
+The exact base-induced map
+
+\[
+u\mapsto
+W_4(u)=\mathbb Rt\oplus(u^\flat\odot u^\perp)
+\]
+
+constructs one moving Cartan family, but \(u\mapsto J\) is obstructed by
+the fixed-\(u\) \(SO(3)\) stabilizer. The compatible \(J\) is a separate
+reduction/order-parameter field.
+
+Therefore the minimal common flag for the Pati--Salam and complex
+\(SU(3,2)\)-type chains is provisionally
+
+\[
+\mathfrak f=(J,\Theta_\chi;t,\Omega_{\mathbb C}),
+\]
+
+with
+
+\[
+J^2=-1,\quad
+J^{\dagger_G}=-J,\quad
+[J,\Theta_\chi]=0,\quad
+\Theta_\chi t=-t.
+\]
+
+The complex-volume/unimodularity factor is required to reduce the compact
+intersection from \(U(3)\times U(2)\) to
+\(S(U(3)\times U(2))\); otherwise an extra \(U(1)\) remains.
+
+No new external datum is added to the frozen ledger by this correction.
+Instead it defines the pending ownership test:
+
+```text
+if the epsilon_IG orbit descends to the complete flag and quotients:
+    compensator / no new physical datum
+elif the source action derives a stable flag Euler/Hessian orbit:
+    dynamical order parameter / no new external datum
+else:
+    a frozen flag is a new section-valued continuous external spurion
+```
+
+P1/P2 remains the one flat real orientation line \(L_\sigma\). P3 remains
+the separate relative real-\(KO\) input. Neither is identified with the
+continuous flag. Any future discrete flag component or orientation may be
+compared with \(L_\sigma\) only by an explicit base map and equality of
+\(w_1\)/holonomy.
+
+See
+[`rb4-observer-cartan-moving-family-2026-07-30.md`](rb4-observer-cartan-moving-family-2026-07-30.md).

@@ -536,3 +536,61 @@ pushforward, a cosmological prediction, or a generation count. It does not
 identify three provenance summands with three generations, identify the N2
 vertical trace with a metric variation, or treat a fixed Spin-compatible
 matrix as full-\(Sp\)-covariant.
+
+## RB4 continuation: the dynamical soldering target is a flag
+
+RB4 executes the finite moving-family part of missing map 6 and sharpens
+what remains.
+
+The base-induced construction
+
+\[
+u\longmapsto
+P_W(u),\qquad
+W_4(u)=\mathbb Rt\oplus(u^\flat\odot u^\perp)
+\]
+
+is exactly covariant when the Cartan split, orientations, Clifford frame,
+volumes, and conditional full-20 field move together. This repairs the
+frozen-frame obstruction at pointwise finite grade.
+
+It does not complete the \(\epsilon_{\rm IG}\) orbit. The full target is not
+merely an observer \(u\). The source-indicated complex structure \(J\)
+cannot be derived equivariantly from \(u\), and the common reduction target
+is now typed as a compatible complex--Cartan flag
+
+\[
+\mathfrak f=(J,\Theta_\chi;t,\Omega_{\mathbb C}),
+\]
+
+where \(\Omega_{\mathbb C}\) denotes the still-unbuilt
+determinant-one/complex-volume condition.
+
+Consequently missing map 6 becomes the following explicit packet:
+
+\[
+\mathcal O_{\epsilon_{\rm IG}}
+\longrightarrow
+(P_W,J,t,\Omega_{\mathbb C}),
+\]
+
+together with its stabilizer descent, covariant derivative, gauge quotient,
+and chain-rule contribution
+
+\[
+\mathcal E_\epsilon
+\mapsto
+\mathcal E_\epsilon
++(D_\epsilon P_W)^!\mathcal E_P
++(D_\epsilon J)^!\mathcal E_J
++(D_\epsilon\Omega_{\mathbb C})^!\mathcal E_\Omega.
+\]
+
+The displayed N1/N3 variation contains none of these terms because no such
+map was previously defined. A frozen flag is therefore external at the
+current grade; a zero-new-datum claim requires either a complete
+compensator quotient or a source-derived flag Euler/Hessian receipt.
+
+This continuation does not alter the current/Riesz fork, P3, or any
+physical count. See
+[`rb4-observer-cartan-moving-family-2026-07-30.md`](rb4-observer-cartan-moving-family-2026-07-30.md).

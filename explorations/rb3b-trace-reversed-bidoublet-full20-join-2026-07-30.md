@@ -741,3 +741,46 @@ VEV, physical mass, flavour hierarchy, stable potential, complete Standard
 Model recovery, stationary solution, nonlinear CME, common global domain,
 anomaly cancellation, Fredholm index, generation count, or cosmological
 prediction.
+
+## RB4 Layer-0 correction and continuation
+
+Later RB4 work constructs the exact moving base-induced family and
+supersedes the stale datum paragraph above.
+
+P2 was already typed before RB3b as the phase/orientation of the canonical
+vertical projected Rarita--Schwinger symbol and was subsequently welded
+with P1, at finite associated-bundle/first-order grade, into the one flat
+orientation line \(L_\sigma\). The continuous observer/Cartan field is not
+P2 and was never an unknown X-sector datum.
+
+For a unit timelike \(u\),
+
+\[
+W_4(u)=\mathbb Rt\oplus(u^\flat\odot u^\perp)
+\]
+
+is exactly negative of rank four, with a positive rank-six complement.
+RB4 jointly transports \(P_W,\omega_A,\omega_W\), the Clifford frame, and
+the conditional \(\Phi\) family under base Lorentz transformations. Thus
+the moving-\(u\) covariance step requested above is now constructed.
+
+That result does not supply the full source-owned reduction. The
+three-dimensional observer family is a special subfamily of the
+24-dimensional vertical Cartan space. More importantly, the compatible
+complex structure suggested by Weinstein's later source language is not
+derived from \(u\): a fixed-\(u\) \(SO(3)\) stabilizer motion leaves
+\(u,P_W,t\) fixed while moving \(J\). The observer-only map \(u\mapsto J\)
+is refuted.
+
+The sharpened remaining object is a compatible complex--Cartan flag
+
+\[
+(J,\Theta_\chi;t),
+\]
+
+plus a determinant-one/complex-volume condition if the compact
+intersection is to be \(S(U(3)\times U(2))\) rather than
+\(U(3)\times U(2)\). Its \(\epsilon_{\rm IG}\) ownership, Euler equation,
+gauge quotient, stable orbit, and retained physical mode remain unbuilt.
+See
+[`rb4-observer-cartan-moving-family-2026-07-30.md`](rb4-observer-cartan-moving-family-2026-07-30.md).

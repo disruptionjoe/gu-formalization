@@ -7,6 +7,80 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB4 MOVING CARTAN / COMPLEX-FLAG DISPOSITION.**
+> [`explorations/rb4-observer-cartan-moving-family-2026-07-30.md`](explorations/rb4-observer-cartan-moving-family-2026-07-30.md)
+> constructs the exact moving family required by RB3b. For a unit timelike
+> base observer \(u\), the native trace-reversed fibre has
+> \[
+> W_4(u)=\mathbb Rt\oplus(u^\flat\odot u^\perp)
+> \]
+> negative of rank four and a positive rank-six complement. Its Cartan
+> projector, orientations, Clifford frame, volumes, and conditional
+> four-component/full-20 map transport jointly under base Lorentz
+> transformations. Frozen-projector, frozen-soldering, and frozen-volume
+> controls fail. Internal Spin(4) covariance also closes when the trace
+> argument is explicitly moved; a canonical fixed trace line retains only
+> its Spin(3) stabilizer.
+>
+> The Into the Impossible passage adds a different field. After trace
+> reversal, the \((6,4)\) fibre admits compatible complex structures \(J\)
+> and the source language is consistent with \(t\mapsto Jt\) as a
+> Lorentz-breaking order parameter. But \(J\) is **not** derived from
+> \(u\): a fixed-\(u\) spatial rotation leaves \(u,P_W,t\) unchanged while
+> moving \(J\) by \(1.790325043\). At fixed \(P_W\) the compatible
+> \(J\)-family has local dimension eight. The minimal RB3b mover is the
+> Cartan involution \(\Theta_\chi\); the best common carrier for both source
+> group chains is a compatible flag \((J,\Theta_\chi;t)\).
+>
+> This flag is not P2. P2 is already the phase/orientation of the vertical
+> projected Rarita--Schwinger symbol and is conditionally welded with P1
+> into \(L_\sigma\). The current external-datum ledger is unchanged.
+> \(\epsilon_{\rm IG}\) can transport a chosen flag but has not been shown
+> to select it. A frozen flag would be a new continuous external spurion;
+> avoiding that cost requires either a complete gauge quotient or a
+> source-derived flag Euler equation.
+>
+> The compatible flag stabilizes \(U(3)\times U(2)\), not yet
+> \(S(U(3)\times U(2))\). A determinant-one, complex-volume, or
+> unimodularity condition is required to eliminate the extra \(U(1)\).
+> Trace reversal remains load-bearing, and a decomposable trace mode cannot
+> generate its own Yang--Mills quartic because its wedge square vanishes.
+> Mixed vertical modes or background curvature are required.
+>
+> **Next efficient wave, in dependency order:**
+>
+> 1. Type the actual \(\epsilon_{\rm IG}\) orbit and test the seed-stabilizer
+>    descent of an equivariant map to
+>    \((P_W,J,t,\Omega_{\mathbb C})\). Failure proves that the existing
+>    soldering field cannot own the flag.
+> 2. In parallel, build source-derived spectral candidates: a
+>    \(G\)-self-adjoint \(H\) whose isolated rank-four sector gives \(P_W\),
+>    and a \(G\)-skew \(Q\) whose polar normalization gives
+>    \(J=Q(-Q^2)^{-1/2}\). Search only existing distortion, curvature,
+>    mixed vertical, moving-section Hessian, and spinless
+>    gauge-potential carriers.
+> 3. Insert each survivor into the source-completed action and derive the
+>    full \(P_W/J/\Omega_{\mathbb C}/\epsilon_{\rm IG}/s/A\) variation,
+>    including \(P_0,\rho,Y_K,Y_C,C\)-reality, Hodge, density, slot, and
+>    retained-mode derivatives.
+> 4. Compute the gauge-quotiented flag Hessian. Pure gauge, a stable
+>    dynamical orbit, residual aether/moduli, and no-map/external outcomes
+>    must be reported separately.
+> 5. Test the determinant-one condition and reject any surviving extra
+>    \(U(1)\), then rerun the SM/Yukawa, Krein/BV, gravity/cosmology,
+>    UV/causality, and P3/right-\(\mathbb H\) suite. Compare a residual flag
+>    orientation with \(L_\sigma\) only through an explicit
+>    \(w_1\)/holonomy map.
+>
+> Current boundary:
+> `MOVING-u-CARTAN/CLIFFORD/Phi-CONSTRUCTED`,
+> `OBSERVER-ONLY-J-REFUTED`,
+> `COMPLEX-CARTAN-FLAG-TYPED-UNSELECTED`,
+> `epsilon_IG-OWNERSHIP/FLAG-EULER/HESSIAN-OPEN`,
+> `SM-DETERMINANT-ONE/EXTRA-U1-OPEN`.
+> No physical compactification, VEV, mass, cosmological value, anomaly,
+> index, or generation count is claimed.
+>
 > **2026-07-30 RB3b/RB3c TRACE-VERTEX AND FINITE-CURRENT
 > DISPOSITION, AFTER HOSTILE LAYER-0 REVIEW.**
 > `explorations/rb3b-trace-reversed-bidoublet-full20-join-2026-07-30.md`
@@ -20,9 +94,9 @@ updated_at: "2026-07-30"
 > split requires a moving observer/Cartan reduction \(\chi\), equivalently
 > in the base-induced realization a timelike observer line. Rotations
 > preserve the displayed split, all three boosts mix it, and a finite boost
-> moves its \(W_4\) projector. This is a concrete candidate type for the
-> unknown \(X\)-sector datum, but it is not identified with P2 without an
-> explicit Layer-0 map and is not the existing orientation bit.
+> moves its \(W_4\) projector. The later RB4 result constructs that moving
+> family and withdraws the stale P2 suggestion: P2 was already typed as a
+> discrete vertical-symbol orientation.
 >
 > The defining
 > \(\rho_S:\operatorname{ad}P\hookrightarrow
@@ -72,11 +146,10 @@ updated_at: "2026-07-30"
 >
 > **Next efficient construction wave, in dependency order:**
 >
-> 1. Construct or derive the moving observer/Cartan reduction \(\chi\) and
->    its variation. Move \(\chi,t,P_W,\omega_A,\omega_W\), and the Clifford
->    plane together and test joint induced-Lorentz covariance. Failure kills
->    the geometric \((2,2)\) reading while preserving the fixed-frame
->    algebra. Only an explicit map may identify \(\chi\) with P2.
+> 1. Superseded by RB4: the moving base-induced \(u\)-Cartan family and its
+>    finite covariance are constructed; \(u\mapsto J\) is refuted and
+>    \(\chi\ne P2\). Continue with the \(\epsilon_{\rm IG}\)-to-flag
+>    stabilizer/Hessian test in the newer disposition above.
 > 2. Conditional on that pass, insert every surviving
 >    scalar/pseudoscalar and \(\lambda\)-quotient branch into the already
 >    written N1 covariant operator; do not add a duplicate `T10`. Construct
