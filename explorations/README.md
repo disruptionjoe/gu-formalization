@@ -13,6 +13,47 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Lane-1 operator/anomaly campaign
 
+- [`rb3b-trace-reversed-bidoublet-full20-join-2026-07-30.md`](rb3b-trace-reversed-bidoublet-full20-join-2026-07-30.md)
+  corrects the first RB3 placement gap: the defining \(\rho_S\) is the
+  canonical inclusion, while the missing object was the source-owned
+  adjoint subspace/value. Trace reversal changes the metric fibre from
+  \((7,3)\) to \((6,4)\) and supplies the negative trace line, but does not
+  select the \(A_6\oplus W_4\) split used by the formula. Conditional on a
+  moving observer/Cartan reduction, it supports an explicit
+  four-component fixed-frame image. The fixed-\(t\) image is only
+  Spin(3)-equivariant; moving Spin(4) covariance remains unbuilt. Imposed
+  isometric normalization gives \(|\lambda|=1\), while the signs share one
+  image and their field-redefinition quotient remains open. Scalar and
+  pseudoscalar copies pass native right-\(\mathbb H\), Krein, \(C_\pm\),
+  frozen-spin, and cross-chirality gates; the corrected coflip makes them
+  respectively even and odd without selecting one. Their canonical
+  full-20 lift closes all twenty slots with exactly \(44\) supported
+  ordered blocks per component and no per-slot fit. The observer/Cartan
+  origin, retained mode, complete SM selector, VEV, stabilizing potential,
+  flavour, cosmological response, index, and count remain open.
+- [`rb3c-curvature-vertex-full20-green-join-2026-07-30.md`](rb3c-curvature-vertex-full20-green-join-2026-07-30.md)
+  retypes W125/N4a's curvature vertex as the actual rectangular
+  \(T_b:S\to R\) map and rejects the dimensionally invalid right-\(P_R\)
+  sandwich. Closing it with its Krein reverse gives one
+  right-\(\mathbb H\), \(K\)-self-adjoint \(S\leftrightarrow R\) full-20
+  completion of rank \(256\) and kernel \(1664\); the separately selected
+  \(G_2\)-plus-\(R\) pairing is nondegenerate. The run joins one
+  matrix-derived \(Q_F\) amplitude to one finite abelianized
+  one-dimensional \(A_0\) Green/chain-rule fixture. The full \(Q_F\) form,
+  \(D_A^{\rm coad}\) current, common mover, physical domain/boundary and
+  W125 field embedding, as well as polarization, \(\lambda_F\),
+  connection-branch, and JD-versus-total selection, remain open.
+- [`rb1c-native-grade3-curvature-admission-2026-07-30.md`](rb1c-native-grade3-curvature-admission-2026-07-30.md)
+  executes RB1b's native grade-three reopener. It is nonzero on generic
+  non-Riemannian full-adjoint curvature but loses the torsion-free
+  Levi--Civita source on the complete scalar, traceless-Ricci, and Weyl
+  algebraic-Riemann decomposition. A DeWitt trace-line adapter reopens a
+  scalar-curvature carrier yet fails the RB2 cyclic identity on
+  deterministic seeded and held-out ordering fixtures. Canonical symmetric
+  polarization is derivative-correct, with one finite moving-data
+  covariance proxy, only as a different two-input Euler-covector geometry;
+  a planted factorization counterexample prevents its promotion to one
+  linear curvature-source map.
 - [`rb3-moving-soldering-spinzero-placement-2026-07-30.md`](rb3-moving-soldering-spinzero-placement-2026-07-30.md)
   constructs a native full-\(Sp\) Clifford-plane motion with connected
   \(\operatorname{Spin}_0(9,5)\) stabilizer and an 8165-dimensional formal
@@ -23,13 +64,13 @@ these for the full working record; the durable, reviewed results live in `canon/
   \(A_0\)-induced candidate branch, not a forced identification with the N1
   bridge connection. Its Green form remains required and unbuilt. The
   artifact also constructs the unique fixed Lorentz-scalar
-  actual-\(\operatorname{Sym}^2\) trace coordinate. A homogeneous
-  chain-rule proxy is nonzero, but the literal moving
-  \(Q_F/P_R/A_0/\)Green discriminator remains open. The missing physical
-  insertion is
-  \(\widehat{\mathfrak c}_{\rho,20}(\tau\otimes\Phi_{\rm tr})\), blocked
-  first at native \(\rho_S(\Phi_{\rm tr})\); constraint surplus, VEV, mass,
-  cosmological value, index, and count remain unread.
+  actual-\(\operatorname{Sym}^2\) trace coordinate. Later RB3b/RB3c work
+  corrects \(\rho_S\) to the defining inclusion, builds a fixed-Cartan
+  full-20 insertion conditionally, and upgrades the homogeneous proxy to
+  one finite \(Q_F\)-amplitude/one-dimensional Green fixture. The moving
+  observer/Cartan reduction and full physical \(Q_F/P_R/A_0\) current
+  remain open; constraint surplus, VEV, mass, cosmological value, index,
+  and count remain unread.
 - [`rb1b-native-bosonic-shiab-reopener-2026-07-30.md`](rb1b-native-bosonic-shiab-reopener-2026-07-30.md)
   kills the preregistered full-\(\operatorname{Spin}(9,5)\),
   same-\(\Lambda^2\) Ricci--Einstein reopener by an exact central-parity

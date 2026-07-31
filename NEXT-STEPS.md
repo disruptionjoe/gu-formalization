@@ -7,6 +7,109 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-07-30 RB3b/RB3c TRACE-VERTEX AND FINITE-CURRENT
+> DISPOSITION, AFTER HOSTILE LAYER-0 REVIEW.**
+> `explorations/rb3b-trace-reversed-bidoublet-full20-join-2026-07-30.md`
+> and
+> `explorations/rb3c-curvature-vertex-full20-green-join-2026-07-30.md`
+> complete the next construction boundary exposed by RB3. Trace reversal is
+> load-bearing: raw Frobenius gives fibre \((7,3)\) and total \((10,4)\);
+> DeWitt gives \((6,4)\), total \((9,5)\), a negative trace line, and the
+> native Hodge signs. It does **not** select the particular
+> \(A_6\oplus W_4\) maximal-compact split used by the finite formula. That
+> split requires a moving observer/Cartan reduction \(\chi\), equivalently
+> in the base-induced realization a timelike observer line. Rotations
+> preserve the displayed split, all three boosts mix it, and a finite boost
+> moves its \(W_4\) projector. This is a concrete candidate type for the
+> unknown \(X\)-sector datum, but it is not identified with P2 without an
+> explicit Layer-0 map and is not the existing orientation bit.
+>
+> The defining
+> \(\rho_S:\operatorname{ad}P\hookrightarrow
+> \operatorname{End}_{\mathbb H}S\) is canonical, not missing. A
+> trace-relative four-component adjoint image is explicit **conditional on
+> \(\chi\)**. Its fixed-\(t\) image closes under the Spin(3) stabilizer but
+> leaks under each of the three Spin(4) generators that move \(t\); full
+> covariance requires the whole moving family. Imposed Hilbert--Schmidt
+> normalization gives \(|\lambda|=1\), but the two signs parameterize the
+> same image through a domain reflection and their physical quotient is
+> unresolved. The
+> scalar and independent pseudoscalar copies both pass right-\(\mathbb H\),
+> Krein, \(C_\pm\), frozen-spin, and cross-chirality bilinear gates. The
+> corrected Gamma-natural coflip makes the scalar vertex even and its
+> pseudoscalar companion odd without selecting one. The canonical
+> \(S\oplus(V\otimes S)\) lift closes all twenty thin slots and occupies
+> exactly \(4_{SS}+4_{II}+8_{IR}+8_{RI}+20_{RR}=44\) **supported
+> ordered blocks** per component,
+> including \(X\), with \(P_0\) ceilings \(44/4/4/20\).
+>
+> The curvature vertex is now retyped to its owned rectangular form
+> \(T_b:S\to R\); the formerly written right-\(P_R\) sandwich is
+> dimensionally invalid. Closing it with its Krein reverse constructs one
+> right-\(\mathbb H\), \(K\)-self-adjoint \(S\leftrightarrow R\) full-20
+> completion. The completion has rank \(256\) and kernel \(1664\); the
+> separately chosen \(G_2\)-plus-\(R\) pairing, not the vertex, is
+> nondegenerate. One matrix-derived \(Q_F\) scalar amplitude is joined to
+> one finite abelianized one-dimensional \(A_0\) Green/chain-rule fixture.
+> Its connection response, moving-amplitude response, and planted endpoint
+> flux are load-bearing. This is not yet the full \(Q_F\) 12-form,
+> \(D_A^{\rm coad}Q_F\) current, common \(\epsilon_{\rm IG}\) mover,
+> physical \(Y^{14}\) domain/boundary, or W125 field embedding.
+>
+> `explorations/rb1c-native-grade3-curvature-admission-2026-07-30.md`
+> closes the parallel source reopener. The native grade-three map is
+> nonzero on generic non-Riemannian curvature but loses the torsion-free
+> Levi--Civita source on all three algebraic-Riemann irreps: scalar,
+> traceless Ricci, and Weyl. Their \(1+104+3080=3185\) dimensions exhaust
+> the pointwise representation. A DeWitt trace-line adapter reopens a
+> carrier but fails the RB2 cyclic identity on six deterministic seeded
+> full-adjoint fixtures and a held-out ordering test. Canonical
+> polarization is derivative-correct, with one finite moving-data
+> covariance proxy, only as a different two-input Euler-covector geometry;
+> a planted factorization counterexample prevents promotion to one linear
+> curvature map. Do not re-enter RB1/RB2 with either linear grade-three
+> candidate and do not tune the exhausted four-ordering family.
+>
+> **Next efficient construction wave, in dependency order:**
+>
+> 1. Construct or derive the moving observer/Cartan reduction \(\chi\) and
+>    its variation. Move \(\chi,t,P_W,\omega_A,\omega_W\), and the Clifford
+>    plane together and test joint induced-Lorentz covariance. Failure kills
+>    the geometric \((2,2)\) reading while preserving the fixed-frame
+>    algebra. Only an explicit map may identify \(\chi\) with P2.
+> 2. Conditional on that pass, insert every surviving
+>    scalar/pseudoscalar and \(\lambda\)-quotient branch into the already
+>    written N1 covariant operator; do not add a duplicate `T10`. Construct
+>    the ambient-to-\(X^4\) retained-mode map and derive its kinetic metric,
+>    normalizability, sign, and right-\(\mathbb H\)/Krein closure.
+> 3. Derive the \(\chi\)-, trace-mode-, mixed-mode-, and
+>    background-curvature Euler terms from the existing action. Test whether
+>    the complete system selects the Cartan reduction and stabilizes a
+>    nonzero orbit; do not insert a quartic, VEV, or parity/CP rule by hand.
+> 4. Upgrade the finite RB3c fixture to the physical current: select the
+>    W125 \(S\oplus R\) field embedding, construct the full \(Q_F\) form and
+>    \(D_A^{\rm coad}Q_F\), use one common \(\epsilon_{\rm IG}\) mover, and
+>    supply the \(Y^{14}\) domain, density/Hodge variation, and boundary.
+>    Only then replace the mistyped sandwich in both RB2 Euler systems and
+>    discriminate JD-only from total-current bridges across the admitted
+>    \(G_2/\lambda_F\) family.
+> 5. Feed only survivors into RB4 and run one simultaneous five-leg
+>    non-regression: SM/Yukawa/provenance; quantum/Krein/BV; gravity and
+>    cosmological-section Euler equations; UV/causality; and the separate P3
+>    relative-\(KO\) interface. Compute constraint surplus only after the
+>    datum gauge quotient, retained modes, normalizations, and field
+>    redefinitions are explicit; read no index or count from a
+>    decomposition.
+>
+> Current boundary:
+> `TRACE-REVERSAL/NEGATIVE-TRACE-LINE-CONSTRUCTED`,
+> `FIXED-CARTAN-FOUR-COMPONENT/FULL20-ALGEBRA-CONSTRUCTED-CONDITIONALLY`,
+> `OBSERVER-CARTAN/MOVING-COVARIANCE-REQUIRED-UNBUILT`,
+> `TYPED-S<->R-COMPLETION/ONE-Q_F-AMPLITUDE/ONE-1D-GREEN-FIXTURE-CONSTRUCTED`,
+> `FULL-Q_F/D_A-CURRENT/RETAINED-MODE/SM-SELECTOR/STABILIZATION/BRIDGE-SELECTION-OPEN`.
+> No VEV, mass, stationarity, cosmological value, anomaly, index, or
+> generation count is claimed.
+>
 > **2026-07-30 RB3 MOVING-SOLDERING / TRACE-PLACEMENT DISPOSITION.**
 > `explorations/rb3-moving-soldering-spinzero-placement-2026-07-30.md`
 > constructs a native full-\(Sp(32,32;\mathbb H)\) Clifford-plane motion

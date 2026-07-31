@@ -455,3 +455,84 @@ Run:
 ```bash
 python3 tests/channel-swings/rb1b_native_bosonic_shiab_probe.py
 ```
+
+## 2026-07-30 appended RB1c native disposition
+
+[`rb1c-native-grade3-curvature-admission-2026-07-30.md`](rb1c-native-grade3-curvature-admission-2026-07-30.md)
+executes the native fourteen-dimensional grade flip that remained untested
+above. The later result supersedes only the conditional grade-admission and
+cyclicity rows; the central-parity kill of the same-\(\Lambda^2\) route is
+unchanged.
+
+The native projected map is nonzero on a generic non-Riemannian
+full-adjoint curvature, with norm \(25.2982\), and has the required degree,
+Krein reality, and right-\(\mathbb H\) type. On a powered
+constant-curvature Riemann/Bianchi fixture, the raw expression has norm
+\(1238.21\) but its native grade-three projection is exactly zero. Thus it
+does not re-enter as a torsion-free Ricci/Einstein source, while remaining a
+live non-Riemannian distortion map.
+
+Trace reversal supplies an adjacent smaller-stabilizer map:
+
+\[
+\mathscr S_{\rm tr}(F)
+=
+\pi_{\mathfrak{sp}}
+\left[c(t_{\rm tr})\mathscr S_{\rm raw}(F)\right].
+\]
+
+It reopens constant curvature with norm \(1193.17\) and passes native
+reality, but fails the RB2 cyclic current identity on six preregistered
+full-adjoint fixtures. A four-ordering repair family has full sampled rank,
+and its least-singular combination fails the held-out fixture. The earlier
+restricted grade-\(2/3\) near-pass is explicitly corrected: its apparent
+\((1,1,1,1)\) null relation is rejected held out and cannot be promoted.
+
+Canonical symmetric polarization gives a nonzero covariant derivative-correct
+Euler current. A planted pair with zero polarized curvature still gives a
+nonzero polarized current, so it cannot be represented by one linear
+curvature-to-source map in the tested fixture. It is a different two-input
+Euler geometry and would have to reopen RB1 from its action definition.
+
+```text
+full-adjoint grade-three map on generic curvature: LIVE
+torsion-free Ricci/Einstein source role: KILLED AT BIANCHI BOUNDARY
+DeWitt trace-line adapter: CARRIER LIVE / CYCLIC GATE FAILED
+canonical polarization: LIVE DIFFERENT GEOMETRY
+RB1/RB2 reentry as written: NO
+```
+
+## 2026-07-30 hostile closure correction to the RB1c append
+
+The constant-curvature-only wording above is superseded by the completed
+pointwise Levi--Civita closure. The probe now executes independent scalar,
+traceless-Ricci, and Weyl plants. Clifford reduction proves
+
+\[
+\gamma^aF_{ab}=\frac12\operatorname{Ric}_{bd}\gamma^d,
+\qquad
+\gamma^{ab}F_{ab}\ \text{is purely scalar},
+\]
+
+with the first Bianchi identity killing the possible grade-three/four
+remainders and Ricci symmetry killing grade two. The three irreps exhaust
+the \(3185\)-dimensional algebraic-Riemann representation, and the native
+grade-three source vanishes on all of it. Powered raw controls remain
+nonzero; the corrected scalar raw norm is \(82.2679\), not \(1238.21\).
+The DeWitt trace adapter has corrected scalar-plant norm \(78.2304\), not
+\(1193.17\).
+
+The six order-one cyclic fixtures are deterministic seeded fixtures, not
+preregistered fixtures. The covariance evidence for the polarized branch
+is one finite moving-data homogeneous proxy, not a theorem. Its
+factorization failure is a planted algebraic counterexample, and the
+surviving object is a two-input Euler covector rather than a new
+source-valued linear current.
+
+```text
+generic non-Riemannian grade-three response: LIVE
+all pointwise algebraic-Riemann irreps: PROJECTED SOURCE ZERO
+DeWitt trace adapter: CARRIER REOPENED / CYCLIC GATE FAILED
+polarization: DIFFERENT TWO-INPUT EULER-COVECTOR GEOMETRY
+RB1/RB2 reentry as written: NO
+```

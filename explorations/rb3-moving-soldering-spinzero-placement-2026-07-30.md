@@ -548,3 +548,111 @@ This result claims no global orbit bundle for an arbitrary \(G\)-bundle,
 complete native Ward identity, Diff closure, nonlinear CME, physical
 domain, positivity rule, stationary solution, VEV, mass, cosmological
 constant, anomaly, P3 pushforward, index, or generation count.
+
+## 2026-07-30 appended RB3b/RB3c correction
+
+The following later constructions supersede only the open-arrow
+dispositions above; the original RB3 record is retained to preserve the
+order in which the gaps were exposed.
+
+First, for the defining native bundle,
+
+\[
+\rho_S:\operatorname{ad}P
+\hookrightarrow\operatorname{End}_{\mathbb H}(S)
+\]
+
+is the canonical defining inclusion. Therefore
+\(\rho_S(\Phi_{\rm tr})=\Phi_{\rm tr}\); it was not the missing first
+factor. The missing object was the source-owned field subspace/value and its
+physical retention rule.
+
+[`rb3b-trace-reversed-bidoublet-full20-join-2026-07-30.md`](rb3b-trace-reversed-bidoublet-full20-join-2026-07-30.md)
+now constructs one trace-relative four-component adjoint image from the
+actual DeWitt \((6,4)\) fibre. Equal component normalization fixes the
+relative magnitude and leaves two opposite orientations of the same image.
+Both scalar and pseudoscalar copies pass right-\(\mathbb H\), Krein,
+charge-conjugation, Lorentz, and physical cross-chirality bilinear tests.
+The canonical
+
+\[
+M_S\oplus(1_V\otimes M_S)
+\]
+
+lift closes through \(S/I/R\) and all twenty thin slots. Every component has
+exact support
+
+\[
+4_{SS}+4_{II}+8_{IR}+8_{RI}+20_{RR}=44,
+\]
+
+with \(P_0\) ceilings \(44/4/4/20\) for
+\(1/P_S/P_I/P_R\). The corrected Gamma-natural coflip makes the scalar
+vertex even and the pseudoscalar companion odd. It distinguishes but does
+not select them. The carried Pati--Salam bidoublet interpretation remains
+conditional on a target-free SM selector, retained normalizable mode, and
+full Euler closure.
+
+Second,
+[`rb3c-curvature-vertex-full20-green-join-2026-07-30.md`](rb3c-curvature-vertex-full20-green-join-2026-07-30.md)
+corrects the W125/N4a map to its owned type
+
+\[
+T_b:S\longrightarrow R,
+\]
+
+so the formerly written right-\(P_R\) sandwich is dimensionally invalid.
+Closing \(T_b\) with its Krein adjoint constructs one nondegenerate
+right-\(\mathbb H\), \(K\)-self-adjoint \(S\leftrightarrow R\) full-20
+vertex. The run then executes the literal moving \(Q_F\), the
+\(A_0\)-connection derivative and formal adjoint, and the exact
+\(1/12/13\)-form Green identity with a nonzero boundary owner. Thus the
+earlier homogeneous discriminator is no longer the last result:
+
+```text
+rho_S defining inclusion: CONSTRUCTED/CANONICAL
+trace-relative Phi image: CONSTRUCTED CONDITIONALLY
+minimal full-20 zero-order lift: CONSTRUCTED
+literal typed moving Q_F/A0/Green join: CONSTRUCTED
+retained-mode and complete SM selector: OPEN
+G2 polarization and lambda_F: OPEN
+JD versus total-current bridge selection: OPEN
+VEV/stabilization/cosmological Euler map: OPEN
+```
+
+These corrections introduce no mass, VEV, index, count, or cosmological
+prediction.
+
+## 2026-07-30 hostile Layer-0 correction to the appended disposition
+
+The preceding append records the first finite join, but two scope
+corrections are load-bearing.
+
+First, trace reversal canonically fixes the \((6,4)\) signature and negative
+trace line; it does **not** select the displayed
+\(A_6\oplus W_4\) maximal-compact split. That split requires a moving
+observer/Cartan reduction \(\chi\). The fixed-\(t\) four-component image is
+Spin(3)-equivariant, while all three Spin(4) generators moving \(t\) leak
+from its span. Therefore the saved result is a fixed-Cartan algebraic image
+and full-20 lift conditional on \(\chi\), not a constructed moving
+Pati--Salam bidoublet. The \(44\) count is a count of supported ordered
+blocks in the fixed twenty-slot decomposition, not modes, ranks,
+parameters, or constraints.
+
+Second, the off-diagonal \(S\leftrightarrow R\) completion has rank \(256\)
+and kernel dimension \(1664\). The separately chosen
+\(G_2\)-plus-\(R\) pairing is nondegenerate; the vertex is not. The
+executable Green join uses one matrix-derived \(Q_F\) scalar amplitude and
+one planted abelianized one-dimensional \(1/12/13\)-form profile. It does
+not construct the full \(Q_F\) form, \(D_A^{\rm coad}Q_F\), a common
+\(\epsilon_{\rm IG}\) mover, the physical \(Y^{14}\) domain/boundary, or
+the W125 \(S\oplus R\) field embedding.
+
+```text
+rho_S defining inclusion: CONSTRUCTED/CANONICAL
+fixed-Cartan trace-relative image/full-20 lift: CONSTRUCTED CONDITIONALLY
+observer/Cartan reduction and moving covariance: REQUIRED / UNBUILT
+typed S<->R completion: CONSTRUCTED / RANK 256 / KERNEL 1664
+one Q_F amplitude plus one finite 1D Green fixture: CONSTRUCTED
+full Q_F/D_A current and physical W125 embedding: OPEN
+```
