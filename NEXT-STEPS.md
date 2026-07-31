@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1 GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -100,9 +100,22 @@ updated_at: "2026-07-31"
 > self-adjoint, or maximal-dissipative realizations, and it does not prove
 > nonlinear Euler constraint propagation. Curt still owes its distinct real
 > domain and common-space discriminator; the third-lane conjunction remains
-> false. The next bounded gate is
-> `ECW3D-B2-ENERGY-MAXIMAL-DISSIPATIVE-CONSTRAINT-DOMAIN`, not a restart of
-> the action search.
+> false. Wave 3D-B2A then freezes the continuous section time `t`, the native
+> W131 Krein time flux, and its canonical spectral absolute-value majorant.
+> The time symbol is noncharacteristic, but the native flux has balanced
+> inertia `(832,832)`, so it is not a positive energy. Taking its absolute
+> value yields a positive right-`H` majorant, but that majorant fails to
+> symmetrize each of the three spatial evolution matrices. The B2A probe
+> passes `27 exact + 12 planted = 39`. This kills only the native flux and
+> canonical-majorant candidate, not every positive symmetrizer or
+> maximal-dissipative domain. A new fail-closed source-collision gate records
+> the result as `SOURCE-SILENT`; Weinstein explicitly calls the upstairs
+> multiple-time problem ultrahyperbolic boundary-condition technical debt but
+> supplies no symmetrizer or record/finality arrow. Joe's record/finality idea
+> remains a typed candidate control, not an Eric datum or third lane. The next
+> bounded gate is
+> `ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH`, not a restart of the action
+> search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -113,6 +126,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md` and
 > `explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md` and
 > `explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md` and
+> `explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md`
+> and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
 > **2026-07-31 PAIRED CURT--ERIC AXIOM / TWO-ACTION CORRECTION

@@ -16,6 +16,14 @@
     "REPO_SYNTHESIS",
     "UNSUPPORTED"
   ],
+  "decisive_source_collision_gate": {
+    "status": "ACTIVE_FAIL_CLOSED",
+    "trigger": "Before grading any decisive Eric-lane pass, kill, no-go, route selection, or scope boundary",
+    "allowed_dispositions": ["SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"],
+    "required_record": "local primary-source pointer plus timestamp/section, source-silent ingredients, and repo-added construction boundary",
+    "evidence_boundary": "author statements guide construction and attribution but are not mathematical evidence",
+    "retroactive_repair": "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json"
+  },
   "third_lane_promotion_gate": {
     "logic": "TG-1 AND TG-2 AND TG-3",
     "TG-1": "A load-bearing carrier non-equivalence survives convention, complexification, and source-typing checks.",
@@ -160,11 +168,24 @@
             "registry": "lab/process/eric-curt-wave3d-b1-h1-closedness-kill.json",
             "probe": "tests/channel-swings/eric_curt_wave3d_b1_h1_closedness_kill_probe.py",
             "report": "explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md",
-            "next_gate": "ECW3D-B2-ENERGY-MAXIMAL-DISSIPATIVE-CONSTRAINT-DOMAIN"
+            "next_gate": "ECW3D-B2-ENERGY-MAXIMAL-DISSIPATIVE-CONSTRAINT-DOMAIN",
+            "wave3d_b2a": {
+              "status_boundary": "DECISIVE_ECW3D_B2A_NATIVE_TIME_FLUX_AND_CANONICAL_SPECTRAL_MAJORANT_COERCIVITY_KILLED__GENERAL_POSITIVE_SYMMETRIZER_MAXIMAL_DISSIPATIVITY_AND_NONLINEAR_CONSTRAINT_PROPAGATION_OPEN",
+              "continuous_time_symbol": "PASS_NONCHARACTERISTIC_ON_THE_ADMITTED_3_1_SECTION_WITH_SINGULAR_RANGE_6_7_TO_1",
+              "native_time_flux": "KILLED_POSITIVE_COERCIVITY_BY_BALANCED_832_832_INERTIA",
+              "canonical_spectral_majorant": "PASS_POSITIVE_AND_RIGHT_H__KILLED_AS_SPATIAL_EVOLUTION_SYMMETRIZER",
+              "source_collision": "SOURCE_SILENT_ON_SYMMETRIZER_MAXIMAL_DISSIPATIVITY_AND_RECORD_FINALITY_ARROW__WG_A16_CONTEXT_RETAINED",
+              "record_finality_candidate": "JOE_CANDIDATE_CONTROL_NOT_USED_AS_INPUT__MUST_LAND_IN_POSITIVE_RIGHT_H_SYMMETRIZER_CONE",
+              "registry": "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json",
+              "probe": "tests/channel-swings/eric_curt_wave3d_b2a_native_time_flux_coercivity_probe.py",
+              "report": "explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md",
+              "next_gate": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH"
+            }
           }
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
-        "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN"
+        "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
+        "active_next_swing": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH"
       }
     },
     {

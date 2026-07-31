@@ -95,6 +95,12 @@ Runbooks:
   `L2`-graph Cauchy but not spacetime `H1`. The naive `H1` realization is not
   closed; energy/maximal-dissipative and nonlinear constraint domains remain
   open.
+- `eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json` - Wave 3D-B2A
+  finite time-slice energy gate. The continuous section time is
+  noncharacteristic, but its native Krein time flux is balanced `(832,832)`;
+  the positive right-`H` spectral absolute value then fails to symmetrize all
+  three spatial evolution matrices. General symmetrizer and
+  maximal-dissipative searches remain open.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

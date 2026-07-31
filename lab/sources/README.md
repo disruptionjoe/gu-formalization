@@ -34,12 +34,15 @@ These sources are useful for provenance, terminology, chronology, and locating c
     timestamp rows rather than copying the transcript.
 - [`claim-mining-toe-weinstein-complete-2026-07-31.md`](claim-mining-toe-weinstein-complete-2026-07-31.md)
   - supersedes the **scope**, not the three priority-target adjudications, of
-    the July 20 five-lens report. It records 76 material mathematical claims,
+    the July 20 five-lens report. It records 77 material mathematical claims,
     recovers the connected inhomogeneous-gauge / tilted-double-coset /
     gauge-rotated-displacement / Euler-VEV grammar, distinguishes exact speech
     from strengthened reconstructions, and compares Weinstein's qualitative
     dynamic-dark-energy/DESI statement to the stronger repo-originated PP3
-    curve family.
+    curve family. `WG-A16` restores Weinstein's explicit multiple-time /
+    ultrahyperbolic boundary-condition technical-debt statement; it supplies
+    context and scope correction, not an analytic theorem or record/finality
+    arrow.
 - [`curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`](curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md)
   - reconciles Curt Jaimungal's secondary three-hour iceberg exposition
     against Weinstein primary sources and the active Eric-lane construction.

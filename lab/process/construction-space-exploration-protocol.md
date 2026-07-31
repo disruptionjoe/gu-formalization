@@ -180,3 +180,23 @@ is not evidence for or against GU and cannot move claim status.
   never the unification claim, which remains Rung 2. Weakening a sector's
   sharp constraint list is a Joe-gated contract change; extending one with
   new evidence is sovereign.
+
+## Decisive Eric-lane source-collision gate
+
+Before a decisive pass, kill, no-go, route selection, or scope boundary in an
+author-guided Eric-lane swing is graded, re-open the local primary-source pack
+at the load-bearing term. Record exactly one leading disposition:
+
+- `SOURCE-CONFIRMS` — the source explicitly states the same construction or
+  boundary at the claimed scope;
+- `SOURCE-CORRECTS` — the source changes the construction, attribution, or
+  scope, so the result must be restated before grading; or
+- `SOURCE-SILENT` — the source does not supply or judge the decisive object,
+  which must remain an explicitly repo-constructed addition.
+
+The record must cite the local source and timestamp/section, name any
+source-silent ingredients, and distinguish author context from mathematical
+evidence. Source speech can guide a construction and correct its attribution;
+it cannot verify a theorem or turn a repo addition into author-supplied data.
+If the collision is missing, the result remains ungraded and cannot advance
+the campaign pointer.

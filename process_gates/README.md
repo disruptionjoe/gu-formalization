@@ -54,6 +54,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
+- `eric_lane_decisive_source_collision_audit.py`
 - `escape_corners_readme_inventory_audit.py`
 - `explorations_top_level_file_boundary_audit.py`
 - `explorations_readme_surface_map_audit.py`
@@ -130,6 +131,14 @@ selected notes below and in each script header.
 - `y14_k3_bridge_gate.py`
 - `y14_k3_bridge_loss_audit.py`
 - `y14_k3_end_data_topography_gate_audit.py`
+
+## Eric-lane decisive source-collision gate
+
+`eric_lane_decisive_source_collision_audit.py` checks that decisive
+author-guided campaign results record a local primary-source collision as
+`SOURCE-CONFIRMS`, `SOURCE-CORRECTS`, or `SOURCE-SILENT`, including the
+retroactive ECW3C ultrahyperbolic scope repair. It is a provenance/process
+guard only; source speech is not mathematical verification.
 
 ## Current routing link gate
 

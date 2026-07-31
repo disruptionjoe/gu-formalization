@@ -6,6 +6,13 @@
   "status": "COMPLETE_ACTUAL_VERTICAL_TENSOR_ATLAS_SPLIT_FRAME_GIMMEL_AND_ORDINARY_AMBIENT_CAUCHY_KILL__ANALYTIC_DOMAIN_OPEN",
   "controlling_question": "On the actual Lorentz-metric bundle Y14=Met_{3,1}(X), do the GL4-induced Sym2 transitions close the gimmel atlas, and can W131's signature-(9,5) symbol support an ordinary Lorentzian Cauchy domain on full Y14?",
   "pre_registered_expected_verdict": "ACTUAL_TENSOR_ATLAS_PASS_POSSIBLE__FULL_AMBIENT_ORDINARY_CAUCHY_ROUTE_EXPECTED_TO_FAIL__SECTION_OR_ULTRAHYPERBOLIC_DOMAIN_REMAINS_OPEN",
+  "source_collision": {
+    "disposition": "SOURCE-CORRECTS",
+    "source_ref": "lab/sources/transcripts/toe-weinstein-gu-40-years.md L01:16:13-L01:17:35 and L01:25:01-L01:25:42; ledger WG-A16",
+    "author_context": "Weinstein explicitly identifies multiple-time upstairs equations as ultrahyperbolic, replaces ordinary codimension-one initial conditions with boundary conditions, and calls the unresolved dynamics technical debt.",
+    "corrected_scope": "ECW3C kills only the ordinary full-ambient Lorentzian Cauchy/Hamiltonian reading; genuinely ultrahyperbolic boundary-value, Krein, weighted-Fredholm, and section-pullback routes remain open.",
+    "source_is_mathematical_evidence": false
+  },
   "layer0": [
     {
       "term": "Met(X)",

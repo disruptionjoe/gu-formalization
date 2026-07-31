@@ -107,6 +107,18 @@ This kills an ordinary full-ambient Lorentzian Cauchy/Hamiltonian domain for
 the W131 symbol. It does not prove that every higher-index boundary-value,
 Krein, weighted Fredholm, or scattering construction is impossible.
 
+## Primary-source collision (retroactive process repair)
+
+Disposition: `SOURCE-CORRECTS`. At local transcript `01:16:13`--`01:17:35`
+and `01:25:01`--`01:25:42`, Weinstein explicitly distinguishes one-time
+Hamiltonian/initial-value dynamics from multiple-time ultrahyperbolic
+equations, says ordinary codimension-one initial conditions upstairs give way
+to boundary conditions, and calls the unresolved dynamics technical debt.
+That source corrects the scope if ECW3C is read too broadly: the result kills
+the ordinary Lorentzian full-ambient Cauchy route, not every ultrahyperbolic
+boundary formulation. The interview does not prove the ECW3C theorem and
+supplies no analytic domain; the mathematical result remains repo-constructed.
+
 ## Layer-0 boundary
 
 | shared term | objects kept separate | disposition |

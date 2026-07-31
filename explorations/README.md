@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2A native time-flux coercivity kill`](eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md)
+  finds that the continuous section time is noncharacteristic but its native
+  W131 Krein flux is balanced `(832,832)`. The positive right-`H` spectral
+  majorant fails to symmetrize all spatial evolution matrices, so that
+  canonical energy candidate dies while the general symmetrizer search stays
+  open. Weinstein's ultrahyperbolic statement is collided explicitly; the
+  record/finality idea remains a typed candidate control, not an assumed
+  datum or third lane.
+
 - [`Eric/Curt Wave 3D-B1 variable-coefficient H1 closedness kill`](eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md)
   freezes one smooth Lorentz/spin slab, the actual W131 `ker Gamma` carrier,
   and an imposed right-`H` Green polarization. A boundary-zero null Fourier

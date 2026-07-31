@@ -25,7 +25,7 @@ statements, but it did not keep the defining cluster at official
 `01:33:59` or the distortion/double-coset cluster at official
 `02:17:07`--`02:21:xx` together as a construction grammar.
 
-This ledger records 76 material mathematical claims or qualifications. It does
+This ledger records 77 material mathematical claims or qualifications. It does
 not treat interview history, sociology, priority, or rhetoric as mathematics.
 The old report remains a useful adjudication of its three selected targets; this
 file corrects its **scope**, not its provenance.
@@ -101,6 +101,7 @@ wording itself matters; the table otherwise paraphrases.
 | WG-A13 | same | This chimeric structure permits spinors without first choosing an observation metric. | `AUTHOR-STATED`; conditional on the precise chimeric construction. |
 | WG-A14 | same | The spoken structure group is `U(64,64)`. | `AUTHOR-STATED` but `CONTRADICTED` as the native real-form identification: the typed repo fork is quaternionic/Krein `Sp(32,32;H)` (notation variants occur). `U(64,64)` remains a comparator. |
 | WG-A15 | O `01:21:xx`; L `01:22:30` | Indefinite Killing/Krein forms are essential; maximal compact subgroups shield the observed sector and select a Pati--Salam-shaped compact subgroup. | `AUTHOR-STATED`; the indefinite form is native, the physical shielding/selection is unproved. |
+| WG-A16 | L `01:16:13`--`01:17:35`, `01:25:01`--`01:25:42` | Weinstein distinguishes elliptic zero-time, Hamiltonian/initial-value one-time, and ultrahyperbolic multiple-time equations; upstairs on `Y^14` he says ordinary codimension-one initial conditions give way to boundary conditions and treats the missing multiple-time dynamics/quantization as technical debt. | `AUTHOR-STATED`; this confirms the intended higher-index problem and corrects any reading of ECW3C as a no-go for every ultrahyperbolic boundary formulation. It supplies no positive symmetrizer, maximal-dissipative domain, record/finality arrow, or solution of the debt. ECW3C/B2 mathematics remains `REPO-CONSTRUCTED`. |
 
 ### B. Action architecture and curvature contractions
 
