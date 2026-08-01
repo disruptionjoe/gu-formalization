@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C1 source/datum projected-gauge quotient collision`](eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md)
+  shows that the previous rank-128 source-Noether/tau projected map has only a
+  rank-64 characteristic-null half at each root. Opposite halves equal the
+  Jordan image but lack an independent source/BV selection. The only fixed
+  common invariant repair is the rank-512 projected observer-section carrier,
+  so its Hermitian quotient makes observation fail to descend. The existing
+  candidate is killed; a source-derived tangent differential remains open.
+
 - [`Eric/Curt Wave 3D-B2B positive-symmetrizer Jordan obstruction`](eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md)
   finds a nonzero rank-128 square-zero quadratic remainder in every tested
   W131 spatial evolution generator. Real characteristics therefore hide a

@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C1-PREVIOUS-SOURCE-DATUM-PROJECTED-GAUGE-COLLISION",
+  "status_boundary": "DECISIVE_ECW3D_B2C1_EXISTING_SOURCE_NOETHER_PROJECTED_GAUGE_QUOTIENT_KILLED__CHARACTERISTIC_RESIDUAL_HALVES_IDENTIFY_JORDAN_IMAGE_BUT_REQUIRE_UNBUILT_SOURCE_DERIVED_TANGENT_BV_DIFFERENTIAL__FIXED_COMMON_QUOTIENT_ERASES_OBSERVER_SECTION_CARRIER",
+  "construction": {
+    "track": "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK",
+    "predecessor": "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json",
+    "geometry": "the same admitted stationary Lorentz/spin slab R_t x S1_x x [0,1]_y x S1_z",
+    "carrier": "actual W131 gamma-traceless ker Gamma of complex rank 1664",
+    "jordan_remainder": "N_xi=C(xi)^2-|xi|^2 I with rank 128 and N_xi^2=0",
+    "prior_gauge_candidate": "G(k)=Pi_ker(Gamma)(k tensor -) from the source-Noether/tau Schur projection",
+    "question": "does the prior projected map define a source- and dynamics-compatible quotient that removes the Jordan chains without deleting the observer-section carrier"
+  },
+  "previous_source_action_external_datum_attempt": {
+    "source_noether_tau": {
+      "artifact": "absorbed/gu-source-action/SOURCE-NOETHER-TAU-CARRIER-PACKET-2026-07-10.md",
+      "result": "TAU_SCHUR_PROJECTOR_ONLY",
+      "derived_map": "G(k)=Pi_ker(Gamma)(k tensor -)",
+      "derivation": "minimum-distance KKT/Schur solution subject to Gamma G=0",
+      "free_tangent_column_dimension": 1664,
+      "free_tangent_map_complex_dimension": 212992,
+      "missing_object": "a derivative-level d_aleph/tau homomorphism, source current, or equivalent source-selected tangent BV differential",
+      "not_yet_S_IG": true
+    },
+    "unified_packet": {
+      "artifact": "explorations/unified-source-datum-packet-v0-2026-07-30.md",
+      "grade": "FORMULA_BUILT_EXECUTABLE_PACKET_CONTRACT",
+      "still_open": [
+        "Euler equations",
+        "classical master equation",
+        "common closed domain",
+        "physical gauge reduction",
+        "positivity",
+        "stationary solution",
+        "mass and generation count"
+      ]
+    },
+    "external_datum": {
+      "P1_P2": "ONE_FLAT_REAL_ORIENTATION_LINE",
+      "P3": "SEPARATE_RELATIVE_REAL_KO_TWIST",
+      "supplies_gauge_projector": false,
+      "pricing_disposition": "UNCONSUMED_AND_UNCHANGED"
+    }
+  },
+  "source_collision": {
+    "disposition": "SOURCE-SILENT",
+    "source_ref": "lab/sources/transcripts/toe-weinstein-gu-40-years.md L01:16:13-L01:17:35 and L01:25:01-L01:25:42; ledger WG-A16",
+    "author_context": "Weinstein distinguishes one-time Hamiltonian/initial-value dynamics from multiple-time ultrahyperbolic boundary problems and calls the upstairs problem technical debt.",
+    "silent_on": [
+      "the source-Noether projected-gauge map",
+      "the W131 Jordan image and its characteristic residual halves",
+      "a tangent BV differential selecting those halves",
+      "a fixed invariant quotient or observer-section descent",
+      "a record/finality repair"
+    ],
+    "repo_addition": "the finite W131 collision between the prior projected map, the Jordan image, and the observer-section carrier",
+    "source_is_mathematical_evidence": false
+  },
+  "computed_collision": {
+    "tested_spatial_directions": ["y", "x", "z", "generic_1_2_3"],
+    "per_direction": {
+      "projected_gauge_rank_at_each_characteristic_root": 128,
+      "characteristic_symbol_defect_rank": 64,
+      "on_characteristic_parameter_half_rank": 64,
+      "intersection_with_jordan_image_at_each_root": 64,
+      "two_root_halves_span_rank": 128,
+      "two_root_halves_equal_jordan_image": true,
+      "full_projected_map_is_characteristic_null": false,
+      "full_projected_map_is_evolution_invariant": false
+    },
+    "across_directions": {
+      "coordinate_jordan_image_span_rank": 384,
+      "generic_1_2_3_image_lies_in_coordinate_span": true,
+      "coordinate_span_is_common_invariant": false,
+      "smallest_tested_common_invariant_closure_rank": 512,
+      "closure_equals_projected_observer_section_carrier": true,
+      "closure_is_right_h_invariant": true
+    },
+    "fixed_quotient": {
+      "dimension": 1152,
+      "reduced_generators": "HERMITIAN_CLIFFORD_INVOLUTIONS",
+      "identity_positive_symmetrizer": "PASS_ALGEBRAICALLY",
+      "observer_section_map_descends": false,
+      "observation_on_quotiented_closure_rank": 512,
+      "physical_verdict": "DEGENERATE_TARGET_ERASURE"
+    }
+  },
+  "repair_forks": {
+    "root_dependent_residual_halves": {
+      "mathematical_fact": "the two rank-64 characteristic-null halves exactly span im N_xi",
+      "defect": "the half-selection depends on the characteristic root and the target principal symbol and is not selected by the prior Schur/Noether construction",
+      "required_next_object": "independently source-derived tangent differential with BV closure and dynamics-compatible cohomology",
+      "verdict": "OPEN_ONLY_AFTER_INDEPENDENT_SOURCE_DERIVATION"
+    },
+    "fixed_common_quotient": {
+      "mathematical_fact": "the rank-512 common invariant closure produces a 1152-dimensional Hermitian Clifford quotient",
+      "defect": "the closure is exactly the full projected observer-section vector-spinor carrier, so the observation map is nonzero of rank 512 on the proposed quotient kernel and cannot descend",
+      "verdict": "KILLED_BY_OBSERVER_SECTION_CARRIER_ERASURE"
+    }
+  },
+  "constraint_parameter_surplus": {
+    "existing_projected_map_free_coefficients": 0,
+    "unfixed_tangent_map_complex_dimension_in_prior_noether_equation": 212992,
+    "root_half_selection": "NOT_SOURCE_PARAMETERIZED",
+    "surplus_verdict": "UNPRICED_UNTIL_A_SOURCE_DERIVED_TANGENT_DIFFERENTIAL_AND_BV_CLOSURE_EXIST"
+  },
+  "layer_0_dictionary": [
+    {
+      "shared_term": "gauge map",
+      "objects_kept_separate": ["orthogonal projection into ker Gamma", "principal-symbol-null characteristic mode", "source-derived tangent BV differential"],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "quotient",
+      "objects_kept_separate": ["a numerical invariant subspace deletion", "cohomology of a source- and dynamics-compatible differential", "a quotient through which the observation map descends"],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "external datum",
+      "objects_kept_separate": ["P1/P2 orientation line", "P3 relative real-KO twist", "a hypothetical gauge/BV tangent selector"],
+      "disposition": "HOMONYM"
+    }
+  ],
+  "record_finality_candidate": {
+    "tag": "JOE_CANDIDATE_CONTROL",
+    "status": "NOT_AN_INPUT_AND_CANNOT_SUPPLY_A_TANGENT_BV_DIFFERENTIAL",
+    "scope": "an ordering or record label does not turn a target-selected characteristic null half into a source-derived gauge differential",
+    "retained_route": "retest only after an independently built source/BV tangent map exists",
+    "not_an_eric_datum": true,
+    "not_a_third_lane": true
+  },
+  "non_regression": {
+    "gravity": "OPEN_NO_SECTION_EINSTEIN_EQUATION_OR_STATIONARY_BACKGROUND",
+    "gauge": "PRIOR_PROJECTED_MAP_KILLED_AS_A_DYNAMICS_COMPATIBLE_QUOTIENT__SOURCE_DERIVED_TANGENT_BV_DIFFERENTIAL_OPEN",
+    "odd_matter": "FIXED_COMMON_HYPERBOLIC_REPAIR_KILLED_BY_OBSERVER_SECTION_CARRIER_ERASURE",
+    "higgs_yukawa": "UNTOUCHED",
+    "quantum_domain": "NO_PHYSICAL_QUOTIENT_OR_MAXIMAL_DISSIPATIVE_DOMAIN_YET",
+    "cosmology": "UNTOUCHED",
+    "datum_P1_P2_P3": "UNCONSUMED_AND_UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "open_port": "literal real (7,7) principal carrier, source-derived differential, constraint/gauge quotient, observation descent, domain, and same-space discriminator",
+    "common_complexification_suffices": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c_projected_gauge_quotient_gate_probe.py",
+    "exact_checks": 48,
+    "planted_rejections": 14,
+    "result": "62_PASS"
+  },
+  "report": "explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md",
+  "next_gate": "ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE"
+}

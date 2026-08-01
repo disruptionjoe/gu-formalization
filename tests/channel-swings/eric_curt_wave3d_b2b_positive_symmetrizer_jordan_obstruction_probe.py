@@ -303,10 +303,14 @@ def main() -> int:
         == "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json"
         and b2b["status_boundary"] == registry["status_boundary"],
     )
+    live_successor = b2b.get("wave3d_b2c1")
+    expected_live_gate = (
+        live_successor["next_gate"] if live_successor else registry["next_gate"]
+    )
     check(
-        "the campaign advances only to the constraint/gauge quotient gate",
-        wave3["result"]["active_next_swing"] == registry["next_gate"]
-        and b2b["next_gate"] == registry["next_gate"],
+        "the campaign preserves B2B's historical handoff and permits only its typed successor",
+        b2b["next_gate"] == registry["next_gate"]
+        and wave3["result"]["active_next_swing"] == expected_live_gate,
     )
     promotion = registry["third_lane_promotion"]
     check(

@@ -101,6 +101,14 @@ Runbooks:
   the positive right-`H` spectral absolute value then fails to symmetrize all
   three spatial evolution matrices. General symmetrizer and
   maximal-dissipative searches remain open.
+- `eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json` - Wave
+  3D-B2C1 collision of the previous source-Noether/tau projected map with the
+  actual W131 Jordan sector. Each characteristic root retains only one
+  rank-64 null half of the rank-128 map; opposite halves equal the Jordan
+  image but lack a source-derived tangent/BV selection. The fixed rank-512
+  invariant repair equals and erases the observer-section carrier, so its
+  otherwise Hermitian Clifford quotient is inadmissible. The next gate is a
+  genuinely source-derived tangent differential and BV closure.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is

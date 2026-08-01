@@ -274,7 +274,14 @@ def main() -> int:
     wave3 = next(wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION")
     b2a = wave3["result"]["wave3d"]["wave3d_b1"]["wave3d_b2a"]
     successor = b2a.get("wave3d_b2b")
-    active_expected = successor["next_gate"] if successor else registry["next_gate"]
+    latest_successor = successor.get("wave3d_b2c1") if successor else None
+    active_expected = (
+        latest_successor["next_gate"]
+        if latest_successor
+        else successor["next_gate"]
+        if successor
+        else registry["next_gate"]
+    )
 
     check(
         "the registry records that coercivity fails before maximal dissipativity is reached",
@@ -296,7 +303,7 @@ def main() -> int:
         and registry["record_finality_candidate"]["tag"] == "JOE_CANDIDATE_CONTROL",
     )
     check(
-        "the campaign preserves B2A and advances through any recorded successor",
+        "the campaign preserves B2A and advances through its deepest recorded successor",
         b2a["registry"]
         == "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json"
         and b2a["status_boundary"] == registry["status_boundary"]

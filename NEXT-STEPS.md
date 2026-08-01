@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -133,7 +133,24 @@ updated_at: "2026-07-31"
 > killed as a selector for the unchanged defective system but may be retested
 > after a justified quotient or changed dynamics. Curt remains a formally
 > separated rival and `TG-1 AND TG-2 AND TG-3` remains false. The next bounded
-> gate is `ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL`.
+> gate is `ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL`. Wave 3D-B2C1
+> now collides the only already-built quotient candidate with that Jordan
+> sector. The prior source-Noether/tau solve derives
+> `G(k)=Pi_kerGamma(k tensor -)` only as a minimum-distance Schur projection;
+> its own tangent equation leaves 212,992 complex map dimensions free. At
+> each characteristic root the projected map has rank 128 but its symbol
+> defect has rank 64. The surviving rank-64 half is characteristic-null, and
+> the two opposite-root halves together equal the rank-128 Jordan image, but
+> the previous source does not select those root-dependent halves as a BV
+> differential. The smallest fixed common invariant closure has rank 512 and
+> gives a 1,152-dimensional Hermitian Clifford quotient, but that closure is
+> exactly the projected observer-section carrier: observation is rank 512 on
+> it and cannot descend. Thus the existing projected-gauge candidate and the
+> fixed carrier-erasing repair are killed. P1/P2 remains one orientation line
+> and P3 a separate real-`KO` twist; neither supplies a projector.
+> `SOURCE-SILENT` remains the source disposition, Curt remains formally
+> separate, and `TG-1 AND TG-2 AND TG-3` remains false. The next bounded gate
+> is `ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -147,6 +164,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

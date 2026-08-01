@@ -190,14 +190,27 @@
                 "registry": "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json",
                 "probe": "tests/channel-swings/eric_curt_wave3d_b2b_positive_symmetrizer_jordan_obstruction_probe.py",
                 "report": "explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md",
-                "next_gate": "ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL"
+                "next_gate": "ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL",
+                "wave3d_b2c1": {
+                  "status_boundary": "DECISIVE_ECW3D_B2C1_EXISTING_SOURCE_NOETHER_PROJECTED_GAUGE_QUOTIENT_KILLED__CHARACTERISTIC_RESIDUAL_HALVES_IDENTIFY_JORDAN_IMAGE_BUT_REQUIRE_UNBUILT_SOURCE_DERIVED_TANGENT_BV_DIFFERENTIAL__FIXED_COMMON_QUOTIENT_ERASES_OBSERVER_SECTION_CARRIER",
+                  "prior_source_candidate": "G_K_EQUALS_PI_KER_GAMMA_OF_K_TENSOR_MINUS_FROM_TAU_SCHUR_MINIMUM_DISTANCE_PROJECTION",
+                  "characteristic_collision": "EACH_RANK_128_PROJECTED_MAP_HAS_RANK_64_SYMBOL_DEFECT__TWO_ROOT_DEPENDENT_NULL_HALVES_EQUAL_THE_RANK_128_JORDAN_IMAGE",
+                  "fixed_quotient": "RANK_512_COMMON_INVARIANT_CLOSURE_GIVES_HERMITIAN_CLIFFORD_QUOTIENT_BUT_EQUALS_AND_ERASES_THE_PROJECTED_OBSERVER_SECTION_CARRIER",
+                  "external_datum": "P1_P2_ORIENTATION_LINE_AND_SEPARATE_P3_REAL_KO_TWIST_REMAIN_UNCONSUMED_AND_SUPPLY_NO_GAUGE_PROJECTOR",
+                  "source_collision": "SOURCE_SILENT_ON_PROJECTED_MAP_JORDAN_HALVES_TANGENT_BV_DIFFERENTIAL_OBSERVER_DESCENT_AND_RECORD_FINALITY_REPAIR__WG_A16_CONTEXT_RETAINED",
+                  "record_finality_candidate": "JOE_CANDIDATE_CONTROL_NOT_USED_AS_INPUT_AND_CANNOT_SUPPLY_THE_MISSING_TANGENT_BV_DIFFERENTIAL",
+                  "registry": "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json",
+                  "probe": "tests/channel-swings/eric_curt_wave3d_b2c_projected_gauge_quotient_gate_probe.py",
+                  "report": "explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md",
+                  "next_gate": "ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE"
+                }
               }
             }
           }
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
-        "active_next_swing": "ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL"
+        "active_next_swing": "ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE"
       }
     },
     {

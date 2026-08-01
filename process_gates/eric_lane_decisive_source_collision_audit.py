@@ -20,6 +20,7 @@ LEDGER = ROOT / "lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md"
 ECW3C = ROOT / "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json"
 B2A = ROOT / "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json"
 B2B = ROOT / "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json"
+B2C1 = ROOT / "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json"
 ALLOWED = {"SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"}
 
 
@@ -65,7 +66,7 @@ class EricLaneDecisiveSourceCollisionAudit(unittest.TestCase):
         self.assertIn("ultrahyperbolic", collision["corrected_scope"])
 
     def test_decisive_swings_record_source_silence(self) -> None:
-        for path in (B2A, B2B):
+        for path in (B2A, B2B, B2C1):
             with self.subTest(path=path.name):
                 collision = load(path)["source_collision"]
                 self.assertIn(collision["disposition"], ALLOWED)
