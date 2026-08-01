@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C12 active staged action and moving residual primalizer`](eric-curt-wave3d-b2c12-active-staged-action-2026-08-01.md)
+  constructs the trace-reversed `(9,5)` residual lowerer and its inverse
+  primalizer on an active adjoint slice, returns the moving-pairing term with
+  the correct inverse-map sign, and verifies a local differential
+  formal-adjoint plus nonzero Green endpoint identity. The selected southeast
+  action term emits its same-coefficient current, constrained `nu` plus
+  induced right-`H` partner contribution, and local `B_rot` graph return. It
+  preserves the compressed-source-residual versus exact-G2-Euler fork and
+  does not yet construct either derivative symbol, the full nonlinear `Y14`
+  graph, or a mixed closed domain.
 - [`Eric/Curt Wave 3D-B2C11 two-connection current ownership and source-action selection`](eric-curt-wave3d-b2c11-two-connection-current-ownership-2026-08-01.md)
   proves the exact `A/B` to shared/distortion covector transform and shows that
   every `T=A-B` coefficient transfers, but cannot delete, the active

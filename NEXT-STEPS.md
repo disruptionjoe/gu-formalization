@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -454,6 +454,50 @@ updated_at: "2026-08-01"
 > `27 computational exact + 6 source receipts + 34 type-level + 4 planted = 71`;
 > P1/P2/P3 remain unused. The next construction gate is
 > `ECW3D-B2C12-ACTIVE-SOUTHEAST-CURRENT-CONTRIBUTION-AND-STAGED-RESIDUAL-SQUARE-ACTION`.
+>
+> **Alternative-branch B2C12 result (2026-08-01): ACTIVE MOVING RESIDUAL
+> PRIMALIZER BUILT / DIFFERENTIAL GREEN RETURN BUILT / GLOBAL DOMAIN NOT YET.**
+> Layer 0 corrects the earlier notation: the source places its compressed
+> residual in degree 13; the density-dual reading is a repository typing, so
+> its norm uses `R_res=b_res^-1`, not another lowerer. That source residual is
+> not the exact slot-symmetrized `E_T_var` of the selected G2 first action.
+> On a 28-dimensional active adjoint slice the construction now starts from
+> the actual trace-reversed metric-on-metrics tensor with
+> `(3,1)+(6,4)=(9,5)` and defines
+> `b_res=density*G_Y^-1 tensor kappa`,
+> `R_res=density^-1*G_Y tensor kappa^-1`. Both are inverse,
+> nondegenerate, and balanced `(14,14)`. Their full metric derivatives pass,
+> including `D R_res=-R_res (D b_res) R_res`, so
+> `d I2B=<D E,u>-1/2<u,(D b_res)u>` with `u=R_res E`. Frozen-pairing,
+> wrong-sign and lowerer/primalizer plants fail. A Euclidean-positive form is
+> not the constructed active map; general positive pairings remain open.
+> A polynomial differential model using this active moving map verifies the
+> formal-adjoint bulk plus nonzero Green endpoint identity; it is a local
+> finite-jet certificate, not a closed `Y14` domain. The selected southeast
+> action term independently emits `||J_SE||=54.8261074`; constrained `nu`
+> variation includes both its direct term and induced right-`H` partner
+> contribution; and the current returns through the complete local `B_rot`
+> graph with pairing `56.4300896`. Exact direct differentiation of a composite
+> residual-square comparator returns distinct `A_tr`, epsilon, and metric
+> equations and the nonzero one-half `D R_res` term, equivalently minus
+> one-half `D b_res` in primal variables. Distortion-only coefficients still
+> cannot cancel shared current. A canceler would require a new diagonal action
+> class `L=-K`; every nonzero companion variation implied by its actual field
+> dependence must then be returned. No such compensator is forced by this
+> gate. An artificial ambient rank-three plus held-out-direction fixture tests
+> only the matcher, not admissible action terms, so global completion surplus
+> is uncomputable rather than positive. The source-written residual
+> norm, spoken inter-layer square/root, and unreleased two-connection `D^2`
+> remain three distinct objects. The active `(9,5)` right-`H` map is a
+> source-anchored repository port, not a global identification with the
+> literal `(7,7)` complex source arena. The probe passes
+> `27 computational + 5 source receipts + 15 type-level + 10 planted = 57`;
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM`:
+> differentiate both the compressed `Upsilon_B_src` and the distinct exact
+> slot-symmetrized `E_T_var`, return every moving Shiab/Hodge/density/graph
+> term, and derive both enlarged bosonic field-plus-conormal preboundary forms
+> before resuming the mixed-domain search.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

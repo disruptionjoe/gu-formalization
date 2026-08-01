@@ -176,6 +176,18 @@ Runbooks:
   finite direct-sum Green control is not an active domain replay; the active
   `Q_B`, formal adjoint, staged packet, Green matrix, and mixed domain remain
   open. P1/P2/P3 remain unused.
+- `eric-curt-wave3d-b2c12-active-staged-action.json` - Wave 3D-B2C12 active
+  staged-action and moving residual-primalizer gate. It types the manuscript
+  bosonic residual as dual/13-form shaped, constructs the inverse
+  trace-reversed `(9,5)` residual map on an active adjoint slice, returns its
+  metric variation with the required inverse-map sign, and verifies a local
+  differential formal-adjoint plus Green endpoint. The selected southeast
+  action emits the same-coefficient current, the constrained `nu` term plus
+  induced right-`H` partner contribution, and the local reduction-graph
+  return. No extra compensator is forced by this gate. The compressed source
+  residual remains distinct from the selected G2 action's exact Euler
+  covector; both derivative symbols, the enlarged preboundary forms, full
+  `Y14` graph, and mixed closed domain remain open. P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary.json` - Wave
   3D-B2C9 first-jet Euler, fermion-current, graph-return, and total-preboundary
   gate. It upgrades the bosonic Euler object with the missing horizontal

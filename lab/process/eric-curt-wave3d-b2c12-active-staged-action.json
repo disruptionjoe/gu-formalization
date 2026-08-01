@@ -1,0 +1,131 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C12-ACTIVE-SOUTHEAST-CURRENT-CONTRIBUTION-AND-STAGED-RESIDUAL-SQUARE-ACTION",
+  "status_boundary": "ACTIVE_TRACE_REVERSED_RESIDUAL_LOWERER_AND_INVERSE_PRIMALIZER_CONSTRUCTED_ON_28D_ADJOINT_SLICE__MOVING_INVERSE_VARIATION_AND_MINUS_SIGN_RETURN_PASS__ONE_DIMENSIONAL_DIFFERENTIAL_FORMAL_ADJOINT_AND_NONZERO_GREEN_ENDPOINT_PASS__SELECTED_SOUTHEAST_ACTION_VARIES_TO_SAME_COEFFICIENT_CURRENT_AND_CONSTRAINED_NU_PLUS_INDUCED_RIGHT_H_PARTNER_CONTRIBUTION_AND_NONZERO_LOCAL_BROT_GRAPH_RETURN__DIRECT_EXACT_RESIDUAL_SQUARE_DIFFERENTIATION_INCLUDES_ONE_HALF_DRRES_RETURN__T_ONLY_TRANSFER_CANNOT_CANCEL_SHARED_CURRENT__NO_EXTRA_COMPENSATOR_FORCED_BY_THIS_GATE__GLOBAL_COMPLETION_SURPLUS_SOURCE_VERSUS_G2_EULER_FORK_ACTUAL_SYMBOL_FULL_Y14_GRAPH_AND_MIXED_DOMAIN_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c11-two-connection-current-ownership.json",
+  "layer_0": {
+    "source_norm": "manuscript scalar I2B=norm(UpsilonB_src)^2 with UpsilonB_src placed in Omega^(d-1)(ad); density-dual interpretation is a repository typing",
+    "residual_fork": "compressed manuscript UpsilonB_src is not identified with the exact slot-symmetrized E_T_var of the selected reconstructed G2 first action",
+    "carrier_fork": "active trace-reversed (9,5) right-H residual-map slice is a source-anchored repository port and not globally identified with the literal (7,7) complex U(64,64)-type manuscript arena",
+    "residual_lowerer": "b_res maps primal adjoint one-form residual to dual/13-form residual",
+    "residual_primalizer": "R_res=b_res^-1 acts on the repository-typed density-dual Euler residual and is the typed map in the repository norm realization",
+    "three_squares": [
+      "draft scalar bosonic residual norm",
+      "spoken Einstein-Dirac to Yang-Mills-Higgs inter-layer DiracPair",
+      "unreleased two-connection operator D-squared complex"
+    ],
+    "connection_roles": "A_tr=A0+varpi; B_rot=A0 dot epsilon; T=A_tr-B_rot; naked A/B labels avoided",
+    "current_roles": "J_9_18 source-written; J_SE repository action-derived; j_phys observed four-dimensional current; no identification"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_CORRECTS_PLUS_SOURCE_SILENT",
+    "source_confirms": [
+      "draft 9.11-9.15 writes the bosonic residual norm and partial varpi derivative",
+      "draft 9.18-9.20 gives first-order-total and second-order-sourced alternatives",
+      "TOE and ITI/UCSD distinguish Einstein-Dirac first layer from Yang-Mills-Higgs second layer",
+      "TOE 02:44:06-02:45:13 says the modern two-connection on-shell object is unreleased"
+    ],
+    "source_corrects": [
+      "Q_B or R_res and the density-dual interpretation are typed repository realizations and not manuscript-exact",
+      "the active (9,5) right-H residual carrier is not globally identified with the literal source arena",
+      "compressed UpsilonB_src is distinct from the selected G2 action's exact E_T_var Euler covector",
+      "partial varpi variation is not complete epsilon metric graph or domain variation",
+      "three square homonyms lack a source-supplied factorization",
+      "naked A/B ownership is unsafe under draft notation drift"
+    ],
+    "source_silent_on": [
+      "residual pairing signature density domain and boundary data",
+      "complete combined fermion action and relative normalization",
+      "nonzero southeast block J_SE and compensating terms",
+      "full nonlinear Y14 graph and moving Shiab variation",
+      "common boson-fermion Green domain"
+    ]
+  },
+  "active_residual_map": {
+    "geometry": "G_Y(g)=g direct-sum trace-reversed G_DW(g)",
+    "inertia": "base (3,1), fibre (6,4), total (9,5)",
+    "adjoint_slice": "two actual active right-H Krein C-plus generators with normalized kappa=diag(-1,+1)",
+    "lowerer": "b_res=sqrt(abs(det G_Y))*G_Y^-1 tensor kappa",
+    "primalizer": "R_res=(1/sqrt(abs(det G_Y)))*G_Y tensor kappa^-1",
+    "residual_inertia": "balanced (14,14)",
+    "inverse_variation": "D R_res=-R_res (D b_res) R_res",
+    "action_variation": "dI2B=<DE,u>-1/2<u,(Db_res)u> with u=R_res E",
+    "frozen_pairing": "REJECTED",
+    "wrong_sign": "REJECTED",
+    "euclidean_substitution": "NOT_THE_CONSTRUCTED_MAP__GENERAL_POSITIVE_PAIRINGS_NOT_EXCLUDED"
+  },
+  "green_certificate": {
+    "model": "one-dimensional polynomial first-order residual with active moving R_res(g(phi))",
+    "direct_variation": -0.0179323933,
+    "bulk_return": 0.01101828592,
+    "green_endpoint": -0.02895067922,
+    "identity": "direct equals bulk plus endpoint",
+    "scope": "local finite-jet differential certificate only",
+    "global_closed_domain": "OPEN",
+    "boundary_order_correction": "bosonic field and conormal traces required before mixed first-order fermion replay"
+  },
+  "southeast_action": {
+    "current_norm": 54.8261074,
+    "graph_return": 56.4300896,
+    "connection_variation": "same selected operator coefficient emits J_SE",
+    "fermion_variation": "constrained nu variation includes the nu term and its induced right-H partner contribution",
+    "graph": "local B_rot=u omega u^-1-u_i u^-1 including d-epsilon",
+    "status": "CONDITIONAL_REPOSITORY_ACTION_TERM_NOT_SOURCE_MANDATED"
+  },
+  "staged_owner_comparator": {
+    "E_A": ["47/8", "43/8"],
+    "E_epsilon": "-73/8",
+    "E_g": "23/2",
+    "moving_pairing_return": "nonzero one-half D R_res term, equivalently minus one-half D b_res in primal variables",
+    "direct_composite_action_differentiation": "PASS_IN_ARBITRARY_DIRECTION_AND_PURE_DRRES_DIRECTION_WITH_D_E_TOY_ZERO",
+    "architecture": "reconstructed I_ED first layer followed by separate source-anchored typed I2B bosonic norm",
+    "second_order_sourced_equation": "RETAINED_RIVAL_NOT_SIMULTANEOUSLY_IMPOSED"
+  },
+  "current_completion": {
+    "owner_invariant": "J_A=qK and J_B=(1-q)K imply shared J_A+J_B=K",
+    "cancellation_requirement": "a new diagonal action class L=-K",
+    "transfer_only_cancellation": false,
+    "ambient_rank_sanity": "PLANTED_RANK_SANITY_ONLY__ONE_SELECTED_CURRENT_PLUS_TWO_ARTIFICIAL_AMBIENT_COORDINATE_DIRECTIONS_HAVE_RANK_THREE_AND_A_FOURTH_INDEPENDENT_DIRECTION_LIES_OUTSIDE",
+    "admissible_compensator_alphabet": "DECLARED_NOT_COMPUTED",
+    "selected_action_constraint_rank": 1,
+    "held_out_current_evidence_scope": "AMBIENT_LINEAR_ALGEBRA_SANITY_ONLY_NOT_ACTION_ADMISSIBILITY",
+    "global_constraint_surplus": "UNCOMPUTABLE_UNTIL_ADMISSIBLE_ACTION_TERM_ALPHABET_IS_CONSTRUCTED",
+    "extra_cyclic_or_compensating_term_forced_by_this_gate": false,
+    "completeness_claim": false
+  },
+  "external_datum": {
+    "P1": "UNCHANGED",
+    "P2": "UNCHANGED",
+    "P3": "UNCHANGED",
+    "used_for_pairing_current_action_owner_adjoint_or_domain": false
+  },
+  "curt_track": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c12_active_staged_action_probe.py",
+    "computational": 27,
+    "source_receipts": 5,
+    "type_level_controls": 15,
+    "planted_rejections": 10,
+    "result": "27_COMPUTATIONAL_PLUS_5_SOURCE_PLUS_15_TYPE_LEVEL_PLUS_10_PLANTED_EQUALS_57_PASS",
+    "count_boundary": "source and type rows are receipts or declarations; the hard-coded selected-action rank row is type-level and the ambient held-out channel is only a planted rank-mechanism sanity check; active matrix finite-difference and exact composite-action differentiation are computational evidence"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c12-active-staged-action.json",
+    "report": "explorations/eric-curt-wave3d-b2c12-active-staged-action-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM",
+  "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+}
