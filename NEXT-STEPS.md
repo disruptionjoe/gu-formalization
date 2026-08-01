@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -420,6 +420,40 @@ updated_at: "2026-08-01"
 > build both draft coupling architectures with explicit `A/B` owners and
 > determine whether the extra current is canceled, transferred, or required.
 > Run final B2C6B only after that principal action is selected.
+>
+> **Alternative-branch B2C11 result (2026-08-01): OWNER TRANSFER YES /
+> FULL-OWNER DELETION NO / ACTIVE CURRENT CONTRIBUTION REQUIRED.** The exact owner
+> chain for `C=(A+B)/2`, `T=A-B` is
+> `J_C=J_A+J_B`, `J_T=(J_A-J_B)/2`. A `T`-linear coefficient can move the
+> active `bar_nu nu` current between `A` and `B`, and at `q=1/2` can even kill
+> the distortion current, but it leaves the shared current unchanged. Once
+> `B` is returned through the actual local reduction graph, canceling the
+> `A` partial forces `q=0` while canceling the graph return forces `q=1`.
+> The active witness gives `||K||=54.826107` and one nonzero selected graph
+> pairing `56.43009`; its `q*=0.51441402` and residual `1546.2782` are
+> fixture-normalized diagnostics, not a norm of the full owner. Both draft
+> architectures have fixed-current/fixed-`Q` finite owner-sector
+> realizations. The first gives `Upsilon_B+Upsilon_F_candidate=0`; the second
+> gives the algebraic comparator
+> `(D Upsilon_B)^T Q Upsilon_B=Upsilon_F_candidate`. Both require the extra
+> contribution in that sector, and simultaneous imposition adds a
+> compatibility condition that fails on the exact fixture. Conditional on
+> keeping the nonzero-southeast operator, the other p.46 terms, and the chosen
+> owner maps, the minimal repository candidate is
+> `Upsilon_F_candidate=Upsilon_F_(9.18)+J_barnu_nu` with the same operator
+> coefficient. It adds no datum and no new current coefficient; positive
+> conditional-surplus language remains provisional pending an independent
+> held-out comparison.
+> The recommended modern staging is the first-order Einstein--Dirac action
+> with the candidate fermion current contribution plus the manuscript-exact
+> **separate** bosonic residual square. An abstract direct-sum Green control shows only that a
+> boson-only square cannot alter a stipulated fermion-sector comparator; the
+> active symmetrized Green replay, Green-Lagrangian fermion subdomain, and
+> mixed domain remain open. A final B2C6B run waits for the active staged
+> packet. The probe passes
+> `27 computational exact + 6 source receipts + 34 type-level + 4 planted = 71`;
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C12-ACTIVE-SOUTHEAST-CURRENT-CONTRIBUTION-AND-STAGED-RESIDUAL-SQUARE-ACTION`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

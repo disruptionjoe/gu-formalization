@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C11-TWO-CONNECTION-CURRENT-OWNERSHIP-AND-SOURCE-ACTION-SELECTION",
+  "status_boundary": "EXACT_OWNER_TRANSFORM_AND_FULL_GRAPH_TRANSFER_THEOREM__T_LINEAR_REPAIR_CAN_MOVE_ACTIVE_BARNU_NU_CHANNEL_BETWEEN_A_B_AND_KILL_ONE_PARTIAL_OR_DISTORTION_COMPONENT_BUT_SHARED_AND_FULL_GRAPH_OWNED_CURRENT_REMAIN_NONZERO__FIXED_CURRENT_FIXED_Q_OWNER_SECTOR_REALIZATIONS_OF_BOTH_DRAFT_ARCHITECTURES_REQUIRE_THE_CANDIDATE_EXTRA_CONTRIBUTION__CURRENT_TEST_SELECTS_NEITHER_RIVAL_ACTION__MINIMAL_ADDITIVE_REPAIR_REMAINS_CONDITIONAL_ON_PRESERVING_OTHER_TERMS_AND_OWNER_MAPS__MODERN_SOURCE_GUIDANCE_SUPPORTS_RECOMMENDED_FIRST_ORDER_EINSTEIN_DIRAC_PLUS_SEPARATE_BOSONIC_RESIDUAL_SQUARE_STAGING__ABSTRACT_PRODUCT_SECTOR_GREEN_CONTROL_ONLY__ACTIVE_QB_FORMAL_ADJOINT_FULL_VARIATION_GREEN_REPLAY_STATIONARY_BACKGROUND_AND_MIXED_DOMAIN_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c10-active-current-full-tuple-hessian.json",
+  "layer_0": {
+    "A_B_owners": "independent connection Euler covectors in a declared chart",
+    "shared_owner": "C=(A+B)/2 with J_C=J_A+J_B",
+    "distortion_owner": "T=A-B with J_T=(J_A-J_B)/2",
+    "graph_owner": "B=B(epsilon,g) returning J_B through (D B)^!",
+    "partial_varpi": "displayed translation-connection directional derivative, not full omega variation policy",
+    "second_architecture": "(D Upsilon_B)^! Q_B Upsilon_B=Upsilon_F, not raw Upsilon_B=Upsilon_F",
+    "active_extra_current": "operator-derived connection Euler current, not mass count observed current or external datum",
+    "source_square": "bosonic I2B, not total Einstein-Dirac residual square"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_CORRECTS_PLUS_SOURCE_SILENT",
+    "source_confirms": [
+      "draft 9.18-9.20 gives first-order-total and second-order-sourced alternatives",
+      "draft 9.11-9.15 gives I2B as the bosonic residual square",
+      "Section 9.1 contains a partial varpi directional derivative",
+      "TOE 02:44:06-02:45:13 says the modern two-connection on-shell object is unreleased",
+      "TOE 00:41:50-00:43:38 separates an Einstein-Dirac first layer and second Yang-Mills-Higgs action; ITI/UCSD 00:05:43-00:06:32 describes first-order theory and second-order square"
+    ],
+    "source_corrects": [
+      "partial varpi variation does not select the global omega variation domain",
+      "the source-exact square is bosonic rather than total Einstein-Dirac",
+      "D-omega-star requires a residual derivative pairing adjoint and domain before current comparison"
+    ],
+    "source_silent_on": [
+      "active nonzero-southeast owner map",
+      "complete varied-versus-fixed epsilon-varpi policy",
+      "active right-H Krein Q_B",
+      "nonlinear Y14 graph transpose",
+      "action sequencing at one stationary background",
+      "common mixed boson-fermion Green domain"
+    ]
+  },
+  "owner_theorem": {
+    "coordinate_change": "A=C+T/2; B=C-T/2",
+    "covector_change": "J_C=J_A+J_B; J_T=(J_A-J_B)/2",
+    "transfer_family": "J_A_extra=q K; J_B_extra=(1-q)K",
+    "invariant": "J_C_extra=K for every q",
+    "distortion": "J_T_extra=(q-1/2)K",
+    "graph_tuple": "(qK,(D_epsilon_g B)^!(1-q)K)",
+    "no_deletion": "A-return zero forces q=0 while nonzero graph-return zero forces q=1"
+  },
+  "active_graph_witness": {
+    "carrier": "trace-reversed (3,1)+(6,4)=(9,5), Cl(9,5)=M(64,H)",
+    "current_norm": 54.826107,
+    "graph_return": 56.43009,
+    "selected_direction_proxy_q": 0.51441402,
+    "selected_direction_proxy_residual": 1546.2782,
+    "proxy_boundary": "fixture and normalization dependent; combines four current evaluations with one supplied graph-direction pairing and is not a full-owner norm",
+    "verdict": "TRANSFER_WITHOUT_CANCELLATION"
+  },
+  "action_architectures": {
+    "first_order_total": {
+      "action": "I_first=I1B+IF_candidate in a fixed-current owner sector",
+      "euler": "Upsilon_B+Upsilon_F_candidate=0",
+      "extra_current_role": "additive required term"
+    },
+    "second_order_sourced": {
+      "action": "I_sourced=1/2<Upsilon_B,Q Upsilon_B>-IF_candidate for chosen fixed rational Q",
+      "euler": "(D Upsilon_B)^T Q Upsilon_B=Upsilon_F_candidate in the finite algebraic owner sector",
+      "extra_current_role": "required RHS term"
+    },
+    "simultaneous_imposition": "NOT_IDENTICAL_AND_INCONSISTENT_ON_EXACT_FIXTURE__ADDS_COMPATIBILITY_CONDITION",
+    "current_discriminator": "DOES_NOT_SELECT_BETWEEN_ARCHITECTURES"
+  },
+  "selected_construction": {
+    "conditional_statement": "if the nonzero-southeast semisimple operator and the other p46 terms and chosen owner maps are retained then Upsilon_F_candidate=Upsilon_F_9_18+J_barnu_nu is the minimal repository completion with the same operator coefficient; additional cyclic or compensating terms remain source-silent",
+    "not_an_external_datum": true,
+    "not_a_separate_bridge": true,
+    "recommended_staging": "I_ED=I1B+IF_candidate first layer plus separate manuscript-exact I2B bosonic residual square",
+    "second_order_sourced_status": "RETAINED_RIVAL_PENDING_ACTIVE_Q_B_ADJOINT_DOMAIN_AND_FULL_OMEGA_POLICY"
+  },
+  "constraint_surplus": {
+    "separately_fitted_current_coefficient": "one constraint minus one free coefficient equals zero",
+    "action_tied_current_coefficient": "zero new current coefficients; conditional-surplus-one bookkeeping remains provisional pending an independent held-out comparison",
+    "planted_unrelated_current_fit": false,
+    "remaining_operator_modulus": "B2C5 shape/source normalization remain construction parameters, not P1/P2/P3"
+  },
+  "green_replay": {
+    "scope": "abstract finite direct-sum product-sector Green control; not an active B2C6B matrix or domain replay",
+    "fermion_comparator": "stipulated skew nonzero on full unrestricted fermion trace space",
+    "abstract_boson_only_square_changes_fermion_restriction": false,
+    "zero_order_owner_coefficient_changes_principal_green_order": false,
+    "active_symmetrized_green_replay": "OPEN",
+    "green_lagrangian_fermion_subdomain": "OPEN_NOT_KILLED",
+    "source_selected_mixed_boundary_domain": "OPEN_NOT_KILLED"
+  },
+  "external_datum": {
+    "P1": "UNCHANGED",
+    "P2": "UNCHANGED",
+    "P3": "UNCHANGED",
+    "used_for_owner_action_or_current": false
+  },
+  "curt_track": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_action_owner_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c11_two_connection_current_ownership_probe.py",
+    "computational_exact": 27,
+    "source_receipts": 6,
+    "type_level_controls": 34,
+    "planted_rejections": 4,
+    "result": "27_COMPUTATIONAL_EXACT_PLUS_6_SOURCE_PLUS_34_TYPE_LEVEL_PLUS_4_PLANTED_EQUALS_71_PASS",
+    "count_boundary": "TYPE_LEVEL_ROWS_ARE_DECLARATIONS_NOT_INDEPENDENT_COMPUTATIONAL_EVIDENCE; only four planted rows execute hostile constructions"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c11-two-connection-current-ownership.json",
+    "report": "explorations/eric-curt-wave3d-b2c11-two-connection-current-ownership-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C12-ACTIVE-SOUTHEAST-CURRENT-CONTRIBUTION-AND-STAGED-RESIDUAL-SQUARE-ACTION",
+  "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+}

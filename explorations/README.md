@@ -13,6 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C11 two-connection current ownership and source-action selection`](eric-curt-wave3d-b2c11-two-connection-current-ownership-2026-08-01.md)
+  proves the exact `A/B` to shared/distortion covector transform and shows that
+  every `T=A-B` coefficient transfers, but cannot delete, the active
+  `bar_nu nu` current from the full variational-plus-graph Euler tuple. Both
+  draft coupling architectures have fixed-current/fixed-pairing owner-sector
+  realizations and both retain the extra contribution; the current does not
+  select between them. The displayed additive `Upsilon_F_candidate` is the
+  minimal repo completion conditional on retaining the other p.46 terms and
+  chosen owner maps, not a released source identity.
+  The recommended next repository construction is a first-order
+  Einstein--Dirac layer with the operator-tied candidate current contribution
+  plus the separate manuscript bosonic residual square. The Green result is only an abstract direct-sum
+  control; active pairing, formal adjoint, Green replay, and mixed domain stay
+  open.
+
 - [`Eric/Curt Wave 3D-B2C10 active current, graph owner, and full-tuple Hessian`](eric-curt-wave3d-b2c10-active-current-full-tuple-hessian-2026-08-01.md)
   proves the nonzero-southeast `bar_nu nu` connection current survives the
   active trace-reversed `(9,5)` right-`H`, Krein, and `C+` restrictions.

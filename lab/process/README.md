@@ -162,6 +162,20 @@ Runbooks:
   full-tuple Ward/Hessian identity pass. Zero-order `M0` leaves the Green form
   unchanged; two-connection owner/action selection and a common domain remain
   open. P1/P2/P3 remain unused.
+- `eric-curt-wave3d-b2c11-two-connection-current-ownership.json` - Wave
+  3D-B2C11 exact owner/action selection gate. The `A/B` to shared/distortion
+  cotangent transform proves every `T=A-B` correction transfers but cannot
+  delete the active `bar_nu nu` current. The actual local reduction graph sees
+  the channel, so no coefficient kills both variational and graph owners.
+  Fixed-current/fixed-pairing owner-sector realizations of the
+  first-order-total and second-order-sourced actions both retain the candidate
+  extra current contribution; current ownership does not choose between them.
+  Modern source guidance instead motivates the repository recommendation of a
+  first-order Einstein--Dirac layer plus the separate manuscript bosonic
+  residual square. A restricted
+  finite direct-sum Green control is not an active domain replay; the active
+  `Q_B`, formal adjoint, staged packet, Green matrix, and mixed domain remain
+  open. P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary.json` - Wave
   3D-B2C9 first-jet Euler, fermion-current, graph-return, and total-preboundary
   gate. It upgrades the bosonic Euler object with the missing horizontal
