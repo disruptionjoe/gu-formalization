@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -302,6 +302,37 @@ updated_at: "2026-08-01"
 > A degenerate parent/gauge fixing is considered only if that construction
 > independently generates a local odd-gauge requirement; the
 > analytic B2C6B gate may proceed independently.
+> Wave 3D-B2C7 now makes that source collision exact. The 2021 draft supplies
+> typed fermion-Euler and bosonic `F_A/d_B` arrows but explicitly warns that
+> its combined diagram is inherited and potentially inconsistent. In the
+> 2025 TOE conversation Weinstein corrects “projection” to “contraction,”
+> confirms the `0 -> 1 -> 13 -> 14` contraction-plus-star spine, and announces
+> an unreleased two-connection new `D^2` with tentative
+> `D_A,F_B,id,D_B` entries and unstable signs. That is a successor proposal,
+> not a stabilized erratum: the 2021 `F_A/d_B` and 2025 spoken `F_B` branches
+> remain rivals. The exact rational model proves that symmetric `A/B` routes
+> cancel arbitrary first and symmetric-second jets to the same
+> `Hhat_AB=F_B+(1/2)D_BT` in fundamental and adjoint representations. It then
+> reconstructs the graph-complete G2 Euler covector from all twelve variation
+> directions and forces a nonzero, coefficient-free
+> `Z_var=E_T-[S(Q_seg)+kappa flat(T)]`; no curvature-only shortcut owns the
+> full equation. Carrier linearity makes `core+Z_var=E_T` a nonvacuous typed
+> target in both representations, but does not prove either somatic square
+> independently emits `Z_var`. The geometric-quantization passage is retained
+> but typed separately: G3 has an unreduced `(13,2)` current whose integrated
+> kernel is unclassified and whose inverse is unproved, so it cannot replace
+> either the local connection-Euler pseudo-musical or the fermion
+> Krein/Hodge/right-`H` Riesz
+> map. The probe passes `28 exact + 5 type-level + 17 planted = 50`.
+> P1/P2/P3 remain unused; Curt stays separate and no third lane is promoted.
+> The next gate is
+> `ECW3D-B2C8-SOURCE-FORKED-TWO-CONNECTION-SQUARE-AND-ACTIVE-EULER-MAP-DISCRIMINATOR`:
+> type the rival source-compatible matrices and build the two local
+> primalizers before any off-shell square. Preliminary B2C6B/G4 analysis may
+> run in parallel without calling the current a field-space flat or Poisson
+> anchor. B2C9 then owns the off-diagonal `zeta/nu`, total fermion action,
+> current/stress, and total-preboundary return; final G4 reduction follows
+> B2C9, and only a later gate may attempt Poisson/prequantum construction.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -329,6 +360,8 @@ updated_at: "2026-08-01"
 > `explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md`
 > and
 > `explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

@@ -13,6 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C7 typed somatic/common-owner target and 2021/2025 source-fork gate`](eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md)
+  records Weinstein's 2025 correction from projection to contraction and
+  keeps the explicit 2021 `F_A/d_B` arrow separate from the tentative,
+  unreleased 2025 `F_B` two-connection square. Exact symmetric `A/B` routes
+  share one mixed-curvature owner in fundamental and adjoint
+  representations, while a twelve-direction reconstruction of the G2 action
+  forces a nonzero coefficient-free correction to the full Euler owner. The
+  carrier sum is only a necessary factorization target, not proof that either
+  somatic square emits the correction. The geometric-quantization analogy is
+  retained as a downstream opportunity, but G3's unreduced `(13,2)` current
+  has no constructed field-space inverse and cannot replace the two local
+  Krein--Hodge primalizers. B2C8 must type the rival source-compatible
+  operators and build those maps before composing; B2C9 then owns total
+  fermion/current/preboundary completion before final G4 reduction.
+
 - [`Eric/Curt Wave 3D-B2C6 two-connection transgression and local-reading gate`](eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md)
   gives a repo-derived, not author-stated reconstruction of the G2 curvature
   polynomial as an affine connection segment average and as the equal

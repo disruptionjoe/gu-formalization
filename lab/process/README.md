@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-07-19"
+updated_at: "2026-08-01"
 ---
 
 # Process
@@ -152,6 +152,17 @@ Runbooks:
   isotropic. Levi-Civita right-composition fixtures pass; left closure,
   admissible GU curvature/jet remainders, the differential G2/G3 Euler module,
   and analytic domain remain open.
+- `eric-curt-wave3d-b2c7-two-connection-somatic-obstruction.json` - Wave
+  3D-B2C7 typed common-owner-target and 2021/2025 source-fork gate. It keeps the
+  explicit 2021 `F_A/d_B` arrow separate from the tentative unreleased 2025
+  `F_B` two-connection square, records Weinstein's correction from projection
+  to contraction, and verifies an exact symmetric `A/B` route core in both
+  fundamental and adjoint representations. The graph-complete G2 variation
+  forces a nonzero coefficient-free correction beyond every compressed
+  curvature owner. Carrier linearity supplies only a necessary factorization
+  target, not an emitted somatic square. It also separates the local
+  connection/fermion Krein--Hodge primalizers from G3's unreduced `(13,2)`
+  current and any future reduced Poisson/prequantum route.
 - `eric-curt-wave3d-b2c6-fermion-boson-euler-factorization.json` - Wave
   3D-B2C6 two-connection transgression and local-reading gate. In a
   repo-derived construction not stated by Weinstein, the G2 source curvature

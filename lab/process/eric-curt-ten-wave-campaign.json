@@ -292,7 +292,22 @@
                             "probe": "tests/channel-swings/eric_curt_wave3d_b2c6_fermion_boson_euler_factorization_probe.py",
                             "report": "explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md",
                             "alternative_branch_next_gate": "ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION",
-                            "secondary_analytic_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION"
+                            "secondary_analytic_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION",
+                            "wave3d_b2c7": {
+                              "status_boundary": "PARTIAL_SOURCE_FORKED_CONSTRUCTION_PASS__2025_CORRECTS_CONTRACTION_NOT_PROJECTION_AND_ANNOUNCES_UNRELEASED_SIGN_UNSTABLE_TWO_CONNECTION_D_SQUARED__2021_F_A_D_B_AND_TENTATIVE_2025_F_B_BRANCHES_REMAIN_RIVALS__EXACT_SYMMETRIZED_A_B_CORE_SHARED_IN_FUNDAMENTAL_AND_ADJOINT_REPRESENTATIONS__GRAPH_COMPLETE_EULER_OWNER_RECONSTRUCTED_WITH_NONZERO_PARAMETER_FREE_ACTION_FORCED_CORRECTION__CARRIER_LINEARITY_IS_NECESSARY_TARGET_NOT_SOMATIC_EMISSION_PROOF__UNREDUCED_G3_PRESYMPLECTIC_CURRENT_CANNOT_REPLACE_LOCAL_KREIN_HODGE_PRIMALIZERS",
+                              "source_collision": "SOURCE_CONFIRMS_0_TO_1_TO_13_TO_14_CONTRACTION_STAR_SPINE__SOURCE_CORRECTS_PROJECTION_TO_CONTRACTION__SOURCE_FORKS_2021_F_A_D_B_FROM_TENTATIVE_UNRELEASED_2025_F_B_MATRIX__SOURCE_SILENT_ON_TYPED_SQUARE_AND_POISSON_PREQUANTUM_GU_ROUTE",
+                              "two_connection_core": "H_AB_E_EQUALS_RHO_E_HHAT_AB_IN_FUNDAMENTAL_AND_ADJOINT_REPRESENTATIONS_WITH_EXACT_FIRST_AND_SYMMETRIC_SECOND_JET_CANCELLATION",
+                              "graph_complete_owner": "EXACT_G2_E_T_RECONSTRUCTED_FROM_ALL_TWELVE_VARIATION_DIRECTIONS__Z_VAR_EQUALS_E_T_MINUS_S_Q_SEG_PLUS_KAPPA_FLAT_T_IS_NONZERO_PARAMETER_FREE_AND_ACTION_EMITTED",
+                              "map_separation": "GU_CURVATURE_CONTRACTION__CONNECTION_EULER_PRIMALIZER__FERMION_RIESZ__G3_13_2_CURRENT_AND_FUTURE_INTEGRATED_FLAT__REDUCED_POISSON_SHARP__PREQUANTUM_LIFT__OBSERVATION_MAPS_NOT_IDENTIFIED",
+                              "presymplectic_boundary": "G3_OMEGA_IS_AN_UNREDUCED_13_2_CURRENT__INTEGRATION_OVER_AN_ADMITTED_CHAIN_PRECEDES_ANY_FIELD_SPACE_FLAT__ACTUAL_KERNEL_UNCLASSIFIED_AND_NO_INVERSE_PROVED__RAW_E_T_IS_NOT_A_REDUCED_OBSERVABLE_DIFFERENTIAL",
+                              "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED__MISSING_LOCAL_MAPS_SOURCE_FORK_AND_REDUCED_PHASE_SPACE_ARE_CONSTRUCTION_DEBTS",
+                              "registry": "lab/process/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction.json",
+                              "probe": "tests/channel-swings/eric_curt_wave3d_b2c7_two_connection_somatic_obstruction_probe.py",
+                              "report": "explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md",
+                              "alternative_branch_next_gate": "ECW3D-B2C8-SOURCE-FORKED-TWO-CONNECTION-SQUARE-AND-ACTIVE-EULER-MAP-DISCRIMINATOR",
+                              "following_gate": "ECW3D-B2C9-OFFDIAGONAL-SOMATIC-TOTAL-CURRENT-AND-PREBOUNDARY-RETURN",
+                              "parallel_analytic_gate": "ECW3D-B2C6B-PRELIMINARY-ACTION-GREEN-DOMAIN-ANALYSIS__FINAL_G4_REPLAY_ONLY_AFTER_B2C9_TOTAL_ACTION"
+                            }
                           }
                         }
                       }
@@ -307,7 +322,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
         "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-        "alternative_branch_next_swing": "ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION"
+        "alternative_branch_next_swing": "ECW3D-B2C8-SOURCE-FORKED-TWO-CONNECTION-SQUARE-AND-ACTIVE-EULER-MAP-DISCRIMINATOR"
       }
     },
     {
