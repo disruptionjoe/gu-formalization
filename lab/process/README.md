@@ -152,6 +152,20 @@ Runbooks:
   isotropic. Levi-Civita right-composition fixtures pass; left closure,
   admissible GU curvature/jet remainders, the differential G2/G3 Euler module,
   and analytic domain remain open.
+- `eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map.json` -
+  Wave 3D-B2C8 active-primalizer and source-forked square discriminator. Finite
+  architecture controls build exact Hodge/Krein inverses for the connection
+  and independent-dual fermion slots with inherited active factors. Both
+  degree-correct minimal reconstructions of the tentative 2025 two-connection
+  matrix are rigid, source-compatible `A=B` connection-level complexes; the
+  source selects neither placement nor that locus. A nonflat
+  common-curvature fixture shows that this does not by itself supply the full
+  graph-Euler obstruction. Finite residual-alphabet fits fail with
+  fixture-local compatibility codimension. The repo-inferred 2021
+  source-shaped residual also misses `E_T`. Finite constant-conjugation
+  covariance supports a conditional `D E_T` Noether route, but the local gauge
+  tangent, coadjoint sign, and full graph-tuple Hessian remain unexecuted.
+  P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2c7-two-connection-somatic-obstruction.json` - Wave
   3D-B2C7 typed common-owner-target and 2021/2025 source-fork gate. It keeps the
   explicit 2021 `F_A/d_B` arrow separate from the tentative unreleased 2025

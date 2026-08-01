@@ -13,6 +13,22 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C8 active-primalizer and source-forked Euler discriminator`](eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md)
+  constructs exact local connection and independent-dual fermion Hodge/Krein
+  inverses on the active trace-reversed `(9,5)` right-`H` carrier. Both
+  degree-correct minimal readings of Weinstein's tentative 2025
+  two-connection matrix are rigid, source-compatible mapping cones; the source
+  selects neither placement nor their `A=B` locus. They square to zero
+  for arbitrary nonflat common curvature while the action Euler owner can
+  remain nonzero, so the bare matrix is not yet the complete Euler
+  obstruction. Fixture-local compatibility-codimension tests reject the
+  missing Euler term. Finite constant-conjugation covariance supports a
+  transparent, repo-proposed `D E_T` completion of the 2021 deformation
+  architecture, but the local gauge tangent, coadjoint sign, and full tuple
+  remain open. No external datum is consumed. B2C9 owns the
+  total constrained-real fermion action, current/stress, and preboundary
+  return.
+
 - [`Eric/Curt Wave 3D-B2C7 typed somatic/common-owner target and 2021/2025 source-fork gate`](eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md)
   records Weinstein's 2025 correction from projection to contraction and
   keeps the explicit 2021 `F_A/d_B` arrow separate from the tentative,

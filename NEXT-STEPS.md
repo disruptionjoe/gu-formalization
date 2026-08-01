@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -333,6 +333,39 @@ updated_at: "2026-08-01"
 > anchor. B2C9 then owns the off-diagonal `zeta/nu`, total fermion action,
 > current/stress, and total-preboundary return; final G4 reduction follows
 > B2C9, and only a later gate may attempt Poisson/prequantum construction.
+> Wave 3D-B2C8 now resolves that discriminator as a split result. Finite
+> architecture controls produce exact inverses for the action-owned connection
+> and independent-dual fermion lowerers, with the trace-reversed `(9,5)`,
+> right-`H`, Krein factors inherited; `C+` remains a separate
+> reality/compatibility form.
+> The two degree-correct minimal reconstructions of Weinstein's tentative
+> 2025 `D_A,F_B,id,D_B` recollection are rigid shifted mapping cones, and they
+> provide concrete source-compatible realizations of Eric's connection-level
+> program: their square measures
+> disagreement between two connections and their curvature actions. Both
+> become complexes whenever `A=B`, including at nonzero curvature. The exact
+> held-out fixture has every such square zero while the graph-derived action
+> Euler owner is `E_T=S(F_B) != 0`. Thus B2C8 constructs a useful,
+> source-compatible two-connection complex; the source selects neither its
+> shifted placement nor its `A=B` locus. It only kills the stronger, unsupported
+> identification of the bare four-entry square with the complete
+> Einstein/GU Euler obstruction. In one exact twelve-output fixture, the 2021
+> residual alphabet and a repo-expanded source-motivated two-connection
+> alphabet miss the Euler target with compatibility codimensions `10` and
+> `8`; these are fixture-local ranks, not global physical-constraint counts.
+> A planted in-span target succeeds. The constructive next route is the 2021
+> deformation architecture with its connection arrow replaced by `D E_T`.
+> Finite constant-conjugation covariance and exact core/correction orbit
+> decompositions support that route, but the local inhomogeneous gauge tangent,
+> coadjoint sign convention, and full graph-tuple Hessian remain unexecuted.
+> The probe passes `46 exact + 15 type-level + 11 planted = 72`; the type-level
+> rows are declarations, not independent computational evidence. P1/P2/P3
+> remain unused; Curt
+> stays separate and no third lane is promoted. The next gate is
+> `ECW3D-B2C9-OFFDIAGONAL-SOMATIC-TOTAL-CURRENT-AND-PREBOUNDARY-RETURN`: add
+> the moving constrained-real `zeta/nu` action, derive its current and stress
+> returns into the full graph Euler tuple, and close the total preboundary
+> current before final observation/reduction or Poisson language.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -362,6 +395,8 @@ updated_at: "2026-08-01"
 > `explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md`
 > and
 > `explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
