@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C2-PARALLEL-NULL-CLIFFORD-FULL-OMEGA1-COMPLETION",
+  "status_boundary": "EXACT_PRINCIPAL_SYMBOL_COMPLETION_ON_SOURCE_STATED_FULL_OMEGA1_CARRIER__ISOLATED_KER_GAMMA_JORDAN_SECTOR_EXACTLY_EXPLAINED_BY_NULL_DIRAC_TWISTOR_IMAGE__ROLLED_ACTION_BV_DOMAIN_AND_PHYSICAL_RECOVERY_OPEN",
+  "predecessors": [
+    "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json",
+    "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json"
+  ],
+  "source_collision": {
+    "disposition": "SOURCE-CONFIRMS",
+    "confirmed_scope": "FULL_OMEGA0_S_PLUS_OMEGA1_S_FERMION_CARRIER_AND_ROLLED_DIRAC_DERHAM_RS_ARCHITECTURE",
+    "source_refs": [
+      "lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md WG-F01 and WG-X01-WG-X04",
+      "lab/sources/transcripts/toe-weinstein-gu-40-years.md 02:28:46-02:31:53 and 02:38:12-02:42:55",
+      "lab/literature/weinstein-ucsd-2025-04-transcript.md 00:32:46-00:36:13",
+      "explorations/b5-middle-source-freeze-2026-07-21.md"
+    ],
+    "operator_disposition": "SOURCE-SILENT",
+    "source_silent_on": [
+      "the exact full rolled two-by-two matrix",
+      "the middle Shiab map, signs, coefficients, and two-connection dependence",
+      "the identification of 1 tensor c(k) with the physical rolled action",
+      "the off-shell odd Noether/BV differential",
+      "the curved lower-order closure and analytic domain"
+    ],
+    "source_is_mathematical_evidence_for_new_completion": false
+  },
+  "null_clifford_collision": {
+    "frozen_candidate": "F(k)=Pi_kerGamma(k tensor c(k))=T(k)c(k)",
+    "construction_degree_in_k": 2,
+    "target_blind_grammar": ["k", "Clifford multiplication c(k)", "existing gamma-trace projector"],
+    "forbidden_and_unused": ["characteristic-root projector", "Jordan eigenvector", "absolute spatial norm inverse", "fitted coefficient", "external datum"],
+    "tested_nonzero_null_covectors": 10,
+    "candidate_rank_each": 64,
+    "right_h_invariant": true,
+    "held_out_collision": "EACH_ROOT_IMAGE_EQUALS_THE_B2C1_RANK64_CHARACTERISTIC_NULL_HALF__OPPOSITE_ROOT_IMAGES_ARE_DISJOINT_AND_SPAN_THE_RANK128_JORDAN_IMAGE",
+    "identity": "Q(k)T(k)=12/14 T(k)c(k); therefore Q(k)F(k)=12/14 q(k)T(k)",
+    "interpretive_boundary": "ON_NULL_DIRAC_TWISTOR_RS_FACTORIZATION_NOT_AN_OFF_SHELL_FIRST_ORDER_BV_DIFFERENTIAL",
+    "off_null_and_wrong_root_controls": "REJECT_STRONGER_CLOSURE_CLAIM"
+  },
+  "full_omega1_completion": {
+    "carrier_split": "T*Y tensor S = im Gamma^dagger direct-sum ker Gamma",
+    "parent_symbol": "M(k)=1 tensor c(k)",
+    "derived_blocks": {
+      "trace_spinor_diagonal": "-12/14 c(k)",
+      "spinor_to_rs": "2/sqrt(14) T(k)",
+      "rs_diagonal": "Q(k)=Pi M(k) Pi",
+      "return_block": "DERIVED_FROM_THE_SAME_PARENT_SYMBOL_NOT_FIT"
+    },
+    "clifford_square": "M(k)^2=q(k)I",
+    "lorentz_section_positive_symmetrizer": "IDENTITY",
+    "right_h": "PRESERVED",
+    "isolated_rs_jordan_rank": 128,
+    "completed_omega1_jordan_rank": 0,
+    "observer_section_rank": 512,
+    "observer_carrier_quotiented": false,
+    "omega0_direct_sum_control": "POSITIVE_SYMMETRIC_AT_PRINCIPAL_SYMBOL_SCOPE_ONLY"
+  },
+  "layer_0": {
+    "isolated_w131": "COMPRESSED_KER_GAMMA_SYSTEM",
+    "full_source_carrier": "OMEGA0_S_PLUS_OMEGA1_S",
+    "root_half": "ON_SHELL_NATURAL_IMAGE_NOT_DECLARED_GAUGE",
+    "generation_or_count": "NOT_A_RANK_SUMMAND_COMPLEX_LENGTH_OR_JORDAN_OBJECT",
+    "external_datum": "NOT_A_PROJECTOR_SYMMETRIZER_OR_CARRIER_SELECTOR"
+  },
+  "constraint_parameter_surplus": {
+    "fitted_principal_block_parameters": 0,
+    "tested_exact_constraints": 36,
+    "principal_symbol_verdict": "POSITIVE_SURPLUS",
+    "physical_surplus": "UNCOMPUTABLE_UNTIL_THE_ROLLED_ACTION_AND_OBSERVATION_MAP_ARE_WRITTEN"
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "pricing": "UNCHANGED",
+    "supplies_completion": false
+  },
+  "non_regression": {
+    "b2b_isolated_ker_gamma_obstruction": "RETAINED_AT_EXACT_SCOPE",
+    "b2c1_existing_projected_gauge_quotient": "REMAINS_KILLED",
+    "b2c2a_ordinary_tau_bv_carrier_collision": "REMAINS_DECISIVE",
+    "rolled_action_bv_domain_physics": "OPEN",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "complex_w131_completion_transports": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c2_null_clifford_omega1_completion_probe.py",
+    "exact_checks": 36,
+    "planted_rejections": 12,
+    "result": "48_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c2-null-clifford-omega1-completion.json",
+    "report": "explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md"
+  },
+  "next_gate": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK"
+}

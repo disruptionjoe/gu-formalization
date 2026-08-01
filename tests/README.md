@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/eric_curt_wave3d_b2c2_null_clifford_omega1_completion_probe.py`
+  freezes `Pi_kerGamma(k tensor c(k))` before a held-out Jordan collision,
+  proves its null-root images exactly span the isolated W131 Jordan sector,
+  and derives the complete gamma-trace blocks from `1 tensor c(k)`. It then
+  verifies positive right-`H` section evolution, Jordan removal, observer
+  retention, and twelve planted interpretation failures.
 - `channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py`
   is the Wave 3D-B2C2A exact type-and-curvature collision. It verifies the
   nonabelian tau-tangent homomorphism and the nonflat identity

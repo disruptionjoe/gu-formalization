@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C2 parallel null-Clifford/full-Omega1 completion`](eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md)
+  identifies every isolated-W131 rank-64 characteristic half with the
+  target-blind image `im T(k)c(k)`, then restores the forced gamma-trace
+  companion. The complete `Omega1(S)` Clifford symbol has a positive
+  right-`H` Lorentz-section energy, zero Jordan remainder, and retains the
+  rank-512 observed carrier. The result selects the full rolled source action
+  as the next construction; it is not yet a BV complex or physical recovery.
+
 - [`Eric/Curt Wave 3D-B2C2A tau-tangent/BV type and curvature collision`](eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md)
   verifies that the source-backed ordinary tau tangent
   `d tau_A(xi)=(xi,D_A xi)` is an exact nonabelian Lie-algebra homomorphism,

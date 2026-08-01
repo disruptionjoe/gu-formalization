@@ -167,6 +167,26 @@ updated_at: "2026-07-31"
 > remains separate, and the conjunctive promotion gate remains false. The
 > next bounded gate is
 > `ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT`.
+> The separately authorized target-blind route now adds a complementary
+> positive result. Freezing
+> `F(k)=Pi_kerGamma(k tensor c(k))=T(k)c(k)` before revealing the B2C1 target
+> shows that, at every tested null root, its rank-64 image is exactly the
+> held-out characteristic half and opposite roots span the complete rank-128
+> Jordan image. The exact identity
+> `Q(k)T(k)=12/14 T(k)c(k)` makes this an on-null Dirac--twistor--RS
+> factorization, not an off-shell first-order BV differential. Restoring the
+> omitted gamma-trace companion reconstructs the full source-stated
+> `Omega1(S)` Clifford symbol `1 tensor c(k)`: all blocks are forced, the
+> admitted Lorentz-section system has the identity positive right-`H`
+> symmetrizer, the Jordan rank falls from 128 to zero, and the rank-512
+> observed one-form carrier is retained. The probe passes
+> `36 exact + 12 planted = 48`. The source disposition is split cleanly:
+> `SOURCE-CONFIRMS` the full `Omega0(S)+Omega1(S)` carrier and rolled
+> architecture, while `SOURCE-SILENT` applies to this exact completion as the
+> physical rolled action. B2B, B2C1, and B2C2A remain valid at their isolated
+> scopes; P1/P2/P3 remain unused. On this alternative branch the next gate is
+> `ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK`;
+> the guided branch may independently continue B2C2B.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -184,6 +204,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

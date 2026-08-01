@@ -116,6 +116,13 @@ Runbooks:
   on a nonflat control and its adjoint-valued one-form target is not the
   scalar-spinor/gamma-traceless-vector-spinor complex. Super-IG/RS BV closure
   and observer-descending cohomology remain open.
+- `eric-curt-wave3d-b2c2-null-clifford-omega1-completion.json` - parallel
+  target-blind Wave 3D-B2C2 completion. The natural null image
+  `im T(k)c(k)` exactly equals the held-out rank-64 W131 characteristic half,
+  while restoring the gamma-trace companion reconstructs the full
+  `Omega1(S)` Clifford module, removes the projected Jordan remainder, and
+  retains observation. The rolled action, BV law, and analytic domain remain
+  open.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is

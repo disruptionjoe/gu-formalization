@@ -215,6 +215,23 @@
                     "probe": "tests/channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py",
                     "report": "explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md",
                     "next_gate": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
+                  },
+                  "parallel_null_clifford_omega1_completion": {
+                    "status_boundary": "EXACT_PRINCIPAL_SYMBOL_COMPLETION_ON_SOURCE_STATED_FULL_OMEGA1_CARRIER__ISOLATED_KER_GAMMA_JORDAN_SECTOR_EXACTLY_EXPLAINED_BY_NULL_DIRAC_TWISTOR_IMAGE__ROLLED_ACTION_BV_DOMAIN_AND_PHYSICAL_RECOVERY_OPEN",
+                    "frozen_candidate": "F_K_EQUALS_PI_KER_GAMMA_OF_K_TENSOR_C_K_EQUALS_T_K_C_K",
+                    "held_out_collision": "EACH_ROOT_IMAGE_EQUALS_THE_RANK64_CHARACTERISTIC_NULL_HALF__OPPOSITE_ROOTS_SPAN_THE_RANK128_JORDAN_IMAGE",
+                    "intertwiner": "Q_K_T_K_EQUALS_12_OVER_14_T_K_C_K__Q_K_F_K_EQUALS_12_OVER_14_QFORM_K_T_K",
+                    "bv_boundary": "QUADRATIC_ON_NULL_FACTORIZATION_NOT_AN_OFF_SHELL_FIRST_ORDER_BV_DIFFERENTIAL",
+                    "full_carrier_repair": "RESTORE_IM_GAMMA_DAGGER_PLUS_KER_GAMMA_AND_DERIVE_ALL_BLOCKS_FROM_1_TENSOR_C_K",
+                    "positive_symmetrizer": "IDENTITY_ON_THE_ADMITTED_LORENTZ_SECTION__RIGHT_H_PRESERVED",
+                    "jordan_and_observation": "ISOLATED_RS_JORDAN_RANK128_TO_FULL_OMEGA1_RANK0__OBSERVER_SECTION_RANK512_RETAINED",
+                    "source_collision": "SOURCE_CONFIRMS_FULL_OMEGA0_PLUS_OMEGA1_CARRIER__SOURCE_SILENT_ON_EXACT_ROLLED_OPERATOR",
+                    "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED",
+                    "registry": "lab/process/eric-curt-wave3d-b2c2-null-clifford-omega1-completion.json",
+                    "probe": "tests/channel-swings/eric_curt_wave3d_b2c2_null_clifford_omega1_completion_probe.py",
+                    "report": "explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md",
+                    "guided_branch_next_gate_retained": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
+                    "alternative_branch_next_gate": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK"
                   }
                 }
               }
@@ -223,7 +240,9 @@
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
-        "active_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
+        "guided_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
+        "active_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
+        "alternative_branch_next_swing": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK"
       }
     },
     {
