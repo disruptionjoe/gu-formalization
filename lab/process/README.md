@@ -152,6 +152,23 @@ Runbooks:
   isotropic. Levi-Civita right-composition fixtures pass; left closure,
   admissible GU curvature/jet remainders, the differential G2/G3 Euler module,
   and analytic domain remain open.
+- `eric-curt-wave3d-b2c6-fermion-boson-euler-factorization.json` - Wave
+  3D-B2C6 two-connection transgression and local-reading gate. In a
+  repo-derived construction not stated by Weinstein, the G2 source curvature
+  is exactly the affine-segment average
+  `integral_0^1 F_(B+tT) dt` and the equal `AA/BB/AB` route barycenter; the
+  symmetrized mixed route cancels arbitrary first and second jets, with the
+  associated-bundle operator kept distinct from its curvature representative.
+  The complex mixed bracket and active projected-endomorphism space are
+  separately nonzero, while their intersection remains open; the G3 graph
+  return is exact. Right Einstein-gamma and left vector/Krein-adjoint
+  relations pass three Ricci fixtures, and pure Weyl vanishes. Conditionally
+  on an admissible bosonic solution carrying the verified B2C5 principal
+  symbol, that Hessian has no nonzero local polynomial odd gauge generator.
+  The next gate first constructs
+  the source-described physical somatic routes and tests their claimed common
+  Einstein obstruction; a degenerate parent/gauge fixing is conditional on
+  that construction generating a local redundancy. P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is

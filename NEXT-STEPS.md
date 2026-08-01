@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -269,6 +269,39 @@ updated_at: "2026-08-01"
 > `ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION`,
 > followed or paralleled by
 > `ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION`.
+> Wave 3D-B2C6 performs the mandatory source collision before treating the
+> missing odd symmetry as a failure. Weinstein's Portal account confirms two
+> connection derivative routes and a shared on-shell somatic obstruction, but
+> is silent on transformations of `A`, `epsilon_red`, `g_DW`, the odd action,
+> and BV closure. On the exact G2 graph, the written curvature polynomial now
+> has a repo-derived origin motivated by the source's two-connection geometry,
+> but not stated by Weinstein:
+> `integral_0^1 F_(B+tT) dt = F_B + (1/2)D_B T + (1/3)q(T,T)`, equivalently
+> `1/3(F_A+F_B+Hhat_AB)`, where
+> `H_AB^E=(d_A^E d_B^E+d_B^E d_A^E)/2=rho(Hhat_AB)` and
+> `Hhat_AB=F_B+(1/2)D_B T`; two independent jet replays cancel every first
+> and symmetric second derivative. A symmetric mixed-carrier symplectic
+> bracket and the active `C+`/Krein/right-`H` projected-endomorphism space are
+> separately nonzero; their actual intersection remains open. The metric
+> bilinear is nonzero before its DeWitt tangent projection, and the required
+> G3 graph return for `mu_T` is exact. After a specialist-caught
+> split-signature index correction, the right Levi-Civita route is
+> Einstein-gamma and the left its vector/Krein adjoint on positive-index,
+> tracefree mixed-sign, and off-diagonal Ricci fixtures; pure Weyl vanishes.
+> The completed B2C5 rolled symbol is invertible on an open covector set.
+> Therefore, at any admissible bosonic solution carrying that principal
+> symbol, the Hessian cannot be the ungauge-fixed operator of a finite-order
+> local polynomial odd gauge theory. The probe's formal `F_B=T=0` jet does not
+> itself construct such a Levi-Civita/DeWitt solution. This is not a no-go for
+> Weinstein's unreleased two-connection complex: B2C5 may be its gauge-fixed
+> descendant or a rigid operator. The probe passes
+> `33 exact + 4 type-level + 14 planted = 51`. P1/P2/P3 remain unchanged and
+> unused. The alternative next gate first constructs the source-described
+> physical Bose/Fermi routes and tests their common obstruction:
+> `ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION`.
+> A degenerate parent/gauge fixing is considered only if that construction
+> independently generates a local odd-gauge requirement; the
+> analytic B2C6B gate may proceed independently.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -294,6 +327,8 @@ updated_at: "2026-08-01"
 > `explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md`
 > and
 > `explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

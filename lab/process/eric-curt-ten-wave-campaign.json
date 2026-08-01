@@ -277,7 +277,23 @@
                           "probe": "tests/channel-swings/eric_curt_wave3d_b2c5_covariant_action_green_ward_probe.py",
                           "report": "explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md",
                           "alternative_branch_next_gate": "ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION",
-                          "secondary_analytic_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION"
+                          "secondary_analytic_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION",
+                          "wave3d_b2c6": {
+                            "status_boundary": "SOURCE_CORRECTED_SPLIT__REPO_DERIVED_TWO_CONNECTION_AFFINE_SEGMENT_AND_AA_BB_AB_ROUTE_TRANSGRESSION_RECONSTRUCTS_G2_SOURCE_CURVATURE__COMPLEX_MIXED_BRACKET_AND_ACTIVE_PROJECTED_ENDOMORPHISM_SPACE_SEPARATELY_NONZERO_WITH_INTERSECTION_OPEN__CURRENT_B2C5_FROZEN_PRINCIPAL_OPERATOR_CONDITIONALLY_NOT_THE_UNGAUGE_FIXED_LOCAL_ODD_PARENT__SOURCE_SUPPORTED_ON_SHELL_SOMATIC_COMPLEX_OPEN__GAUGE_PARENT_REPO_PROPOSAL",
+                            "source_correction": "SOURCE_CONFIRMS_TWO_CONNECTION_ON_SHELL_SOMATIC_FACTORIZATION_TARGET__SOURCE_SILENT_ON_ODD_TRANSFORMATIONS_ACTION_AND_BV_LAW",
+                            "two_connection_transgression": "REPO_DERIVED_NOT_AUTHOR_STATED__Q_SEG_EQUALS_INTEGRAL_0_1_F_B_PLUS_TT_DT_EQUALS_F_B_PLUS_HALF_DBT_PLUS_THIRD_QTT_EQUALS_ONE_THIRD_F_A_PLUS_F_B_PLUS_HHAT_AB",
+                            "mixed_route": "H_AB_E_EQUALS_HALF_D_A_E_D_B_E_PLUS_D_B_E_D_A_E_EQUALS_RHO_HHAT_AB__HHAT_AB_EQUALS_F_B_PLUS_HALF_DBT__ARBITRARY_FIRST_AND_SYMMETRIC_SECOND_JETS_CANCEL_EXACTLY",
+                            "candidate_odd_maps": "MIXED_SYMPLECTIC_BRACKET_EQUIVARIANT_AND_NONZERO__ACTIVE_C_PLUS_KREIN_RIGHT_H_PROJECTED_ENDOMORPHISM_SPACE_NONZERO__ACTUAL_INTERSECTION_OPEN__METRIC_BILINEAR_NONZERO_BUT_DEWITT_TANGENT_PROJECTION_OPEN__NOT_YET_AN_ACTION_SYMMETRY",
+                            "graph_return": "MU_T_EQUALS_MU_A_MINUS_D_EPSILON_B_MU_EPSILON_MINUS_D_G_B_MU_G__EXACT_G3_RETURN",
+                            "curved_compositions": "RIGHT_EINSTEIN_GAMMA_AND_LEFT_VECTOR_KREIN_ADJOINT_PASS_POSITIVE_MIXED_SIGN_AND_OFF_DIAGONAL_RICCI_FIXTURES__PURE_WEYL_VANISHES__ACTUAL_GU_ADJOINT_TORSION_AND_MOVING_JETS_OPEN",
+                            "local_odd_gate": "B2C5_NOT_UNGAUGE_FIXED_LOCAL_ODD_HESSIAN_CONDITIONAL_ON_ADMISSIBLE_SOLUTION__PARENT_REQUIRED_ONLY_IF_LOCAL_ODD_DESCENT_IS_RETAINED",
+                            "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED__MISSING_PARENT_IS_NOT_EXTERNAL_DATUM",
+                            "registry": "lab/process/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization.json",
+                            "probe": "tests/channel-swings/eric_curt_wave3d_b2c6_fermion_boson_euler_factorization_probe.py",
+                            "report": "explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md",
+                            "alternative_branch_next_gate": "ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION",
+                            "secondary_analytic_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION"
+                          }
                         }
                       }
                     }
@@ -291,7 +307,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
         "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-        "alternative_branch_next_swing": "ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION"
+        "alternative_branch_next_swing": "ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION"
       }
     },
     {

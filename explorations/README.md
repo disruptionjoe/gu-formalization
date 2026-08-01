@@ -13,6 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C6 two-connection transgression and local-reading gate`](eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md)
+  gives a repo-derived, not author-stated reconstruction of the G2 curvature
+  polynomial as an affine connection segment average and as the equal
+  `AA/BB/AB` route barycenter. Candidate
+  mixed bracket and active projected-endomorphism space are separately
+  nonzero, with their intersection open. Right Einstein-gamma and left
+  vector/Krein-adjoint relations pass positive-index, mixed-sign, and
+  off-diagonal Ricci fixtures while pure Weyl vanishes. Conditionally on an
+  admissible bosonic solution carrying the verified B2C5 principal symbol,
+  that Hessian admits no nonzero finite-order local polynomial odd gauge
+  generator. The next constructive
+  target is therefore the source-described pair of physical somatic route
+  operators and their claimed shared Einstein obstruction. A larger degenerate
+  parent is conditional, not required; P1/P2/P3 remain unused.
+
 - [`Eric/Curt Wave 3D-B2C5 frozen-principal action/Green/curved-Ward gate`](eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md)
   gives the already-filtered repair a frozen-principal independent-dual action
   candidate and separate `C+`/symplectic-Majorana principal compatibility.
