@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C5 frozen-principal action/Green/curved-Ward gate`](eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md)
+  gives the already-filtered repair a frozen-principal independent-dual action
+  candidate and separate `C+`/symplectic-Majorana principal compatibility.
+  The Dirac gate selects the reciprocal relation; one verified
+  frozen-principal chiral boost still leaves source scale plus shape, with
+  full covariant-action equivalence unproved. A common positive right-`H`
+  symmetrizer works for the normalized tied representative, while its energy
+  spectral half is not action-Green isotropic. Exact Levi-Civita
+  right-composition fixtures localize the next burden to left curved closure,
+  admissible GU curvature/jet formulas, and differential G2/G3 Euler-module
+  factorization.
+
 - [`Eric/Curt Wave 3D-B2C4 Shiab-family/southeast completion`](eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md)
   filters the complete active right-`H` contract/wedge family before PDE
   collision. A two-sided spinorial Ward analogue and native Krein symmetry

@@ -1,0 +1,207 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE",
+  "status_boundary": "FROZEN_PRINCIPAL_QUADRATIC_INDEPENDENT_DUAL_ACTION_CANDIDATE_EMITS_ALREADY_FILTERED_NONZERO_SOUTHEAST_REPAIR__COEFFICIENT_KREIN_RIGHT_H_AND_C_PLUS_SYMPLECTIC_MAJORANA_PRINCIPAL_COMPATIBILITY_PASS__FINITE_EMISSION_CONTROL_DOES_NOT_SELECT_11_OVER_12_CHIRAL_TIE_SOURCE_SCALE_OR_SHAPE__DIRAC_TYPE_GATE_DERIVES_NORMALIZED_RECIPROCAL_RELATION__EXPLICIT_CHIRAL_BOOST_LEAVES_TWO_ACTION_PARAMETERS__NORMALIZED_TIED_COMMON_POSITIVE_RIGHT_H_SYMMETRIZER_EXISTS__ENERGY_SPECTRAL_HALF_NOT_FROZEN_ACTION_GREEN_ISOTROPIC__EXACT_LEVI_CIVITA_RIGHT_COMPOSITION_FIXTURES_PASS__LEFT_CURVED_COMPOSITION_ADMISSIBLE_GU_CURVATURE_DERIVED_TORSION_MOVING_WEIGHT_DIFFERENTIAL_EULER_MODULE_AND_ANALYTIC_DOMAIN_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c4-shiab-family-southeast-completion.json",
+  "source_collision": {
+    "disposition": "SOURCE-CONFIRMS_PLUS_SOURCE-CORRECTS_PLUS_SOURCE-SILENT",
+    "source_confirms": [
+      "2021 draft equations 9.16-9.18 supply the physical Omega1(S)+Omega0(S) rolled carrier and matrix grammar",
+      "the draft note following 9.16 admits versions with a nonzero southeast map",
+      "primary sources support a gauge-rotated Levi-Civita connection in the contortion slot and a staged bosonic action architecture"
+    ],
+    "source_corrects": [
+      "modern TOE local 02:42:55 and UCSD 00:36:13 retain the zero southeast rolled/seesaw grammar, so the successful nonzero repair is source-admitted but not Eric's modern selected corner",
+      "the present active 9,5 pure-wedge realization of the zero-corner grammar has a Krein-selfadjoint frozen principal coefficient symbol but fails the tested Dirac semisimplicity gate; this is not a no-go against an unreleased cyclic or two-connection operator"
+    ],
+    "source_silent_on": [
+      "a complete fermion functional and exact barred-field convention",
+      "the active 9,5 Krein charge and right-H action",
+      "a complete constrained C-plus symplectic-Majorana action and physical-reality selection",
+      "the first-order southeast type and reciprocal 11/12 relation",
+      "the surviving overall source scale and dimensionless shape",
+      "source-compatible fermion-boson reconstruction transformations",
+      "left curved composition and differential G2/G3 Euler-module factorization",
+      "a common action-Green and positive-energy analytic domain"
+    ],
+    "source_refs": [
+      "Geometric Unity draft 2021 equations 9.16-9.20 viewer PDF p. 46",
+      "lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md WG-X04 local 02:42:55",
+      "lab/literature/weinstein-ucsd-2025-04-transcript.md local 00:36:13",
+      "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md",
+      "Portal/Oxford local 02:41:16 on the deferred Dirac piece"
+    ]
+  },
+  "active_geometry": {
+    "base_signature": [3, 1],
+    "trace_reversed_frobenius_fibre_signature": [6, 4],
+    "total_signature": [9, 5],
+    "clifford_algebra": "Cl(9,5)=M(64,H)",
+    "spinor_complex_rank": 128,
+    "rolled_complex_rank": 1920,
+    "right_h": "PRESERVED",
+    "draft_curt_real_form": "7,7",
+    "real_form_identification": false
+  },
+  "action": {
+    "carrier": "E_01=(T*Y tensor S) direct_sum S with fields zeta,nu",
+    "principal_pencil": "D(k)=[[A_w(k)W,rK(k)],[rC_g(k),c(k)E]]",
+    "barred_field_action": "one-half Re_H integral [dualbarPsi(D^a nabla_a Psi)-(nabla_a dualbarPsi)(D^a Psi)+2 dualbarPsi(M0 Psi)] dmu_G",
+    "dual_typing": "dualbarPsi is an independent K-lowered dual row represented locally as Phi dagger Krein; independent-dual and identical-field charge-reduced formulations are not yet proved equivalent",
+    "hodge_density_typing": "one-form equations pair through bar_zeta wedge star_G and zero-form equations through bar_nu star_G",
+    "independent_bar_variation": "FROZEN_FINITE_ALGEBRAIC_EMISSION_CONTROL_ONLY__NOT_COMPLETE_COVARIANT_HODGE_DENSITY_GRASSMANN_OR_IBP_VARIATION",
+    "krein_form": "diag(eta tensor beta,beta)",
+    "principal_adjoint": "K^times=C_g",
+    "coefficient_symbol_adjoint": "Krein D^a is Hermitian at frozen principal order while the native differential D^a nabla_a is formally Krein-skew after integration by parts",
+    "formal_offdiagonal_relation": "r=s is executed in the frozen pairing; d_plus=rho b_minus and d_minus=rho b_plus are analytic extrapolations not executed here",
+    "zero_order_completion": "M0 remains open subject to Krein charge and right-H reality"
+  },
+  "charge_reality": {
+    "C_plus": "inverse(gamma0 gamma2 gamma4 gamma6 gamma8 gamma10 gamma12)=-beta J0",
+    "C_minus": "REJECTED_BY_ROLLED_FIRST_ORDER_CHARGE_SYMMETRY",
+    "quaternionic_structure": "J0 conjugation with J squared=-1",
+    "single_majorana": false,
+    "physical_reality": "PRINCIPAL_CANDIDATE_SYMPLECTIC_MAJORANA_AUXILIARY_DOUBLET__NOT_SELECTED_OR_COVARIANTLY_VARIED",
+    "grassmann_condition": "Omega tensor C_plus_roll D(k) has the required principal transpose symmetry by the tested factor identities",
+    "unequal_chiral_witness": "EXACT_PASS_ON_EXPLICIT_CHIRAL_BOOST_ORBIT",
+    "chiral_tie_selected": false
+  },
+  "coefficient_ledger": {
+    "visible_real_parameters": ["c_plus", "c_minus", "w_plus", "w_minus", "ell_plus", "ell_minus", "r", "s"],
+    "independent_constraint_rank": 5,
+    "constraints": [
+      "c_plus=0",
+      "c_minus=0",
+      "r=s",
+      "12 w_plus ell_minus+11 r squared=0",
+      "12 w_minus ell_plus+11 r squared=0"
+    ],
+    "dirac_type_equations_selected_by_action_variation": false,
+    "dirac_type_equations_selected_by_pde_gate": true,
+    "constraint_variety_dimension": 3,
+    "verified_field_equivalence_rank": 1,
+    "verified_frozen_principal_field_equivalence": "explicit Krein-unitary right-H and C-plus-preserving chiral boost similarity of the principal pencils and pairings",
+    "complete_covariant_action_equivalence": "UNPROVED_FOR_M0_MOVING_HODGE_DENSITY_CONNECTION_GRAPH_BOUNDARY_ACTION_AND_DOMAIN",
+    "overall_action_ray": "TANGENT_BUT_NOT_ACTION_PRESERVING__CHANGES_GREEN_CURRENT_AND_COUPLED_SOURCE_STRENGTH",
+    "continuous_action_parameters_after_field_equivalence": 2,
+    "continuous_equation_shape_moduli_after_additional_action_ray_quotient": 1,
+    "invariant": "p=w_plus*w_minus/r^2",
+    "four_normalized_sign_witnesses_exhaust_family": false,
+    "external_datum": false
+  },
+  "principal_pde": {
+    "analytic_extrapolated_generalized_relations": [
+      "12 w_plus ell_minus+11 b_minus d_plus=0",
+      "12 w_minus ell_plus+11 b_plus d_minus=0"
+    ],
+    "time_symbol": "INVERTIBLE_ON_NONZERO_REPAIRED_FAMILY",
+    "spatial_clifford_relations": "EXACT",
+    "real_semisimple_characteristics": true,
+    "modern_zero_corner_grammar_present_realization": "ACTIVE_9_5_PURE_WEDGE_FROZEN_PRINCIPAL_COEFFICIENT_KREIN_SELFADJOINT_BUT_NONZERO_SQUARE_ZERO_JORDAN_REMAINDER__NO_CLAIM_AGAINST_UNRELEASED_OPERATOR",
+    "local_RS_shift_right_syzygy_for_complete_operator": false,
+    "observation_rank": 640,
+    "quotient_used": false
+  },
+  "common_symmetrizer": {
+    "scope": "NORMALIZED_TIED_REPRESENTATIVE_ONLY",
+    "formula": "H_star=sum over 1,Ey,Ex,Ez,EyEx,EyEz,ExEz,EyExEz of g dagger g",
+    "positive": true,
+    "simultaneous_three_direction": true,
+    "right_h": true,
+    "eigenvalue_bounds": [3.26195, 280.405]
+  },
+  "green_domain": {
+    "scope": "FROZEN_CONSTANT_COEFFICIENT_NORMALIZED_TIED_REPRESENTATIVE_AND_CHOSEN_OUTWARD_NORMAL",
+    "action_boundary_form": "B_K(n)=Krein_roll D(n)",
+    "energy_boundary_form": "B_H(n)=H_star E(n)",
+    "action_inertia": [960, 960, 0],
+    "energy_inertia": [960, 960, 0],
+    "maximally_negative_H_star_spectral_half_dimension": 960,
+    "maximally_negative_H_star_spectral_half_right_h": true,
+    "action_green_restriction_rank": 960,
+    "maximally_negative_H_star_spectral_half_action_green_isotropic": false,
+    "green_identity_receipt": "FROZEN_ONE_DIMENSIONAL_POLYNOMIAL_CONTROL_NOT_COVARIANT_DOMAIN_THEOREM",
+    "closed_graph_domain_theorem": "OPEN",
+    "continuations": [
+      "independent barred trace in the Green annihilator of the unbarred incoming trace",
+      "common right-H energy-maximal-nonpositive and Green-Lagrangian subspace",
+      "boundary action completing the variational problem"
+    ]
+  },
+  "curved_ward": {
+    "flat_principal_identities": ["A_w K=0", "C_g A_w=0"],
+    "executed_connection": "TORSION_FREE_LEVI_CIVITA_SPIN_CONNECTION_B_WITH_PARALLEL_GAMMA",
+    "levi_civita_right_composition": "EXACT_TRACLESS_RICCI_AND_SCALAR_FIXTURES_MATCH_A_w_nabla_squared_EQUALS_ONE_HALF_EINSTEIN_GAMMA__UNIVERSAL_ANALYTIC_IDENTITY_NOT_PROVED_HERE",
+    "pure_weyl_remainder": "ZERO_ON_NONZERO_ALGEBRAIC_RIEMANN_BIANCHI_AND_RICCI_FREE_CONTROL",
+    "left_composition_C_g_A_w": "UNEXECUTED",
+    "internal_curvature_control": "COMMUTING_SCALAR_ENDOMORPHISM_TWO_FORM_GIVES_GRADE_THREE__NOT_CERTIFIED_AS_ADMISSIBLE_GU_ADJOINT_CURVATURE",
+    "torsion_control": "HAND_BUILT_TYPE_LEVEL_FIRST_JET_ARRAY__NOT_DERIVED_GU_REMAINDER",
+    "moving_weight_control": "HAND_BUILT_TYPE_LEVEL_FIRST_JET_ARRAY__NOT_DERIVED_GU_REMAINDER",
+    "connection_choice": "B_VERSUS_FULL_A_EQUALS_B_PLUS_THETA_MUST_BE_FROZEN__MIXED_CHOICES_ADD_THETA_NABLA_TERMS",
+    "required_bulk_identity": "K^ddagger E_zeta+R_nu^ddagger E_nu+mu_A^ddagger E_A+mu_epsilon^ddagger E_epsilon+mu_g^ddagger E_g=0",
+    "boundary_identity": "delta L=E dot delta phi+d theta and delta_chi L=d B_chi with current theta-B_chi",
+    "fermion_boson_transformation_maps": "SOURCE_MOTIVATED_RECONSTRUCTIONS_UNBUILT",
+    "graph_complete_G2_G3_differential_euler_module_factorization": "OPEN",
+    "augmented_torsion": "PROPOSED_ADDITION_UNLESS_EXPLICITLY_DERIVED_FROM_ESTABLISHED_T_OWNER",
+    "compressed_S_FA_plus_kappa_T_sufficient": false
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "pricing": "UNCHANGED",
+    "continuous_source_scale_or_shape_is_P1_P2_or_P3": false,
+    "P3_role": "later Fredholm/index twist only"
+  },
+  "layer_0": {
+    "southeast_block": "first-order zero-form map not Higgs Yukawa or Majorana mass",
+    "ward": "principal sequence not curved Noether identity",
+    "nu": "physical zero-form spinor not ghost",
+    "positive_symmetrizer": "PDE energy majorant not native Krein or quantum Hilbert metric",
+    "incoming_domain": "energy maximal-negative not automatically action Green-Lagrangian",
+    "source_admitted": "draft permission not modern author selection"
+  },
+  "durable_nonclaims": [
+    "no source-to-active-real-form operator identity",
+    "no complete covariant fermion action",
+    "no constrained symplectic-Majorana variation or physical-reality selection",
+    "no admissible GU internal-curvature remainder computation",
+    "no derived torsion or moving-weight formula",
+    "no extension of the frozen-principal chiral boost to a complete covariant action equivalence",
+    "no no-go against Eric's unreleased zero-corner cyclic or two-connection operator"
+  ],
+  "non_regression": {
+    "b2b_isolated_w131_obstruction": "RETAINED",
+    "b2c1_fixed_observer_erasing_quotient": "REMAINS_KILLED",
+    "guided_super_ig_route": "SEPARATE_AND_RETAINED",
+    "b2c3_b2c4_principal_results": "RETAINED",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c5_covariant_action_green_ward_probe.py",
+    "exact_checks": 25,
+    "type_level_controls": 2,
+    "planted_rejections": 18,
+    "result": "25_EXACT_PLUS_2_TYPE_LEVEL_PLUS_18_PLANTED_EQUALS_45_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c5-covariant-action-green-ward.json",
+    "report": "explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md"
+  },
+  "guided_branch_revision_at_predecessor": "95aa370395621d63e63ab50a85ca5e14d345f043",
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION",
+  "secondary_next_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION"
+}

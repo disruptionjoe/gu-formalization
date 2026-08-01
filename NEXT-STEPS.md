@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -235,6 +235,40 @@ updated_at: "2026-08-01"
 > `ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE`; the guided
 > branch independently advanced to
 > `ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY`.
+> Wave 3D-B2C5 now writes the already-filtered repaired rolled principal
+> operator as a formula-built frozen-principal quadratic independent-dual
+> action candidate with explicit degree, Krein, right-`H`, and principal
+> charge data. The coefficient symbol selects the crossed off-diagonal
+> adjoint, and `C+` with an auxiliary symplectic-Majorana doublet is the
+> surviving principal candidate. The finite algebraic emission control does
+> not execute the complete covariant variation or force `11/12`. The
+> separately declared Dirac-type section gate
+> derives `12*w_plus*ell_minus+11*r^2=0` and its crossed partner. Eight visible
+> real coefficients minus five independent constraints and one explicitly
+> verified frozen-principal chiral-boost field equivalence leave two continuous
+> principal-action parameters: an overall source scale and
+> `p=w_plus*w_minus/r^2`. Extension through the complete covariant action is
+> unproved. Only an
+> additional Euler/action-ray quotient leaves `p` alone; neither is P1/P2/P3.
+> The normalized tied repaired representative has one direction-independent positive right-`H`
+> symmetrizer with bounds about `[3.262,280.405]`. Both the action and energy
+> boundary forms have inertia `(960,960,0)`, but the tied `H*` maximally
+> negative right-`H` spectral half has full-rank action-Green restriction, so it is not
+> a variational boundary domain. Exact Levi-Civita right-composition fixtures
+> match `A_w nabla^2=1/2 Einstein*gamma` and a nonzero algebraic pure-Weyl
+> control vanishes. The left curved composition, admissible GU-adjoint
+> curvature, derived torsion/moving-weight formulas, and differential G2/G3
+> Euler-module factorization remain open. The draft
+> admits the nonzero southeast fork, while modern TOE `02:42:55` and UCSD
+> `00:36:13` retain the zero-corner grammar; the repair is therefore
+> source-admitted, not Eric-selected, and no no-go is claimed against an
+> unreleased cyclic/two-connection operator. The probe passes
+> `25 exact + 2 type-level + 18 planted = 45`.
+> P1/P2/P3 remain unused, physical `nu` is not a ghost, Curt remains separate,
+> and no third lane is promoted. The alternative next gate is
+> `ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION`,
+> followed or paralleled by
+> `ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -258,6 +292,8 @@ updated_at: "2026-08-01"
 > `explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

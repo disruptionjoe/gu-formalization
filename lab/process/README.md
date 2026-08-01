@@ -141,6 +141,17 @@ Runbooks:
   right-`H` symmetrizers, and retains raw observation plus physical `nu`
   without quotient. Covariant action origin, normalization, and
   Green/Ward/domain closure remain open.
+- `eric-curt-wave3d-b2c5-covariant-action-green-ward.json` - Wave 3D-B2C5
+  principal-action, charge, common-energy, Green, and curved-Ward gate. A
+  frozen independent-dual candidate emits the already-filtered repair;
+  principal reality does not select `11/12`. The Dirac gate plus one explicit
+  frozen-principal chiral-boost equivalence leaves an overall source scale and
+  one shape; full covariant-action equivalence is unproved. A
+  common positive right-`H` symmetrizer works for the normalized tied
+  representative, but its energy spectral half is not frozen-action-Green
+  isotropic. Levi-Civita right-composition fixtures pass; left closure,
+  admissible GU curvature/jet remainders, the differential G2/G3 Euler module,
+  and analytic domain remain open.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is
