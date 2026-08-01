@@ -101,6 +101,12 @@ Runbooks:
   the positive right-`H` spectral absolute value then fails to symmetrize all
   three spatial evolution matrices. General symmetrizer and
   maximal-dissipative searches remain open.
+- `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
+  3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
+  generator has a nonzero rank-128 square-zero quadratic remainder, so it is
+  not diagonalizable and no positive simultaneous symmetrizer exists even
+  before right-`H` is imposed. A justified constraint/gauge quotient remains
+  open and is the next gate.
 - `curt-iceberg-native-crosswalk.json` - branch-local 30-step plus
   14-cross-cutting reconciliation of Curt Jaimungal's GU iceberg, with
   secondary/primary/repo/recovery grades, four explicit Layer-0 forks, and the

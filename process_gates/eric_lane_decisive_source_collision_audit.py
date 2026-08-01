@@ -19,6 +19,7 @@ CAMPAIGN = ROOT / "lab/process/eric-curt-ten-wave-campaign.json"
 LEDGER = ROOT / "lab/sources/claim-mining-toe-weinstein-complete-2026-07-31.md"
 ECW3C = ROOT / "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json"
 B2A = ROOT / "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json"
+B2B = ROOT / "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json"
 ALLOWED = {"SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"}
 
 
@@ -63,13 +64,15 @@ class EricLaneDecisiveSourceCollisionAudit(unittest.TestCase):
         self.assertFalse(collision["source_is_mathematical_evidence"])
         self.assertIn("ultrahyperbolic", collision["corrected_scope"])
 
-    def test_current_decisive_swing_records_source_silence(self) -> None:
-        collision = load(B2A)["source_collision"]
-        self.assertIn(collision["disposition"], ALLOWED)
-        self.assertEqual("SOURCE-SILENT", collision["disposition"])
-        self.assertIn("01:16:13", collision["source_ref"])
-        self.assertFalse(collision["source_is_mathematical_evidence"])
-        self.assertIn("record/finality", " ".join(collision["silent_on"]))
+    def test_decisive_swings_record_source_silence(self) -> None:
+        for path in (B2A, B2B):
+            with self.subTest(path=path.name):
+                collision = load(path)["source_collision"]
+                self.assertIn(collision["disposition"], ALLOWED)
+                self.assertEqual("SOURCE-SILENT", collision["disposition"])
+                self.assertIn("01:16:13", collision["source_ref"])
+                self.assertFalse(collision["source_is_mathematical_evidence"])
+                self.assertIn("record/finality", " ".join(collision["silent_on"]))
 
 
 if __name__ == "__main__":

@@ -115,7 +115,25 @@ updated_at: "2026-07-31"
 > remains a typed candidate control, not an Eric datum or third lane. The next
 > bounded gate is
 > `ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH`, not a restart of the action
-> search.
+> search. Wave 3D-B2B then closes that full finite cone on the same unreduced
+> W131 carrier. For each coordinate spatial direction and the generic
+> direction `(1,2,3)`,
+> `N_xi=C(xi)^2-|xi|^2 I` is nonzero of rank 128 while `N_xi^2=0`.
+> Thus the spatial generator has a repeated-root minimal polynomial and is not
+> diagonalizable even though its characteristic roots are real. Any positive
+> symmetrizer would make it similar to a Hermitian matrix, so the full
+> positive simultaneous-symmetrizer cone—and therefore its right-`H`
+> subcone—is empty. The native Krein time flux remains an exact simultaneous
+> symmetrizer but is balanced `(832,832)`, keeping the obstruction specifically
+> at positivity. The B2B probe passes `31 exact + 13 planted = 44`. This kills
+> strong/symmetric hyperbolicity only for the unreduced gamma-traceless W131
+> principal system; a source- and dynamics-justified constraint/gauge quotient
+> could still remove the rank-128 generalized characteristic chains.
+> `SOURCE-SILENT` remains the primary-source disposition. Record/finality is
+> killed as a selector for the unchanged defective system but may be retested
+> after a justified quotient or changed dynamics. Curt remains a formally
+> separated rival and `TG-1 AND TG-2 AND TG-3` remains false. The next bounded
+> gate is `ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -127,6 +145,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md` and
 > `explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md` and
 > `explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

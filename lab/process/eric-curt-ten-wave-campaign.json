@@ -179,13 +179,25 @@
               "registry": "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json",
               "probe": "tests/channel-swings/eric_curt_wave3d_b2a_native_time_flux_coercivity_probe.py",
               "report": "explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md",
-              "next_gate": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH"
+              "next_gate": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH",
+              "wave3d_b2b": {
+                "status_boundary": "DECISIVE_ECW3D_B2B_FULL_POSITIVE_SIMULTANEOUS_SYMMETRIZER_CONE_KILLED_BY_NONDIAGONALIZABLE_SPATIAL_JORDAN_PART__CONSTRAINT_GAUGE_QUOTIENT_ANISOTROPIC_PSEUDODIFFERENTIAL_AND_ULTRAHYPERBOLIC_ROUTES_OPEN",
+                "jordan_identity": "FOR_EACH_TESTED_NONZERO_SPATIAL_XI__N_XI_EQUALS_C_XI_SQUARED_MINUS_NORM_XI_SQUARED_I_IS_NONZERO_RANK_128_AND_SQUARE_ZERO",
+                "positive_symmetrizer_cone": "KILLED_BEFORE_RIGHT_H_BY_NONDIAGONALIZABLE_SPATIAL_GENERATOR",
+                "indefinite_symmetrizer": "NATIVE_TIME_FLUX_REMAINS_EXACT_WITH_BALANCED_832_832_INERTIA",
+                "source_collision": "SOURCE_SILENT_ON_JORDAN_STRUCTURE_POSITIVE_SYMMETRIZER_CONSTRAINT_QUOTIENT_AND_RECORD_FINALITY_REPAIR__WG_A16_CONTEXT_RETAINED",
+                "record_finality_candidate": "JOE_CANDIDATE_CONTROL_KILLED_FOR_UNCHANGED_W131_PRINCIPAL_SYSTEM__RETEST_ONLY_AFTER_JUSTIFIED_QUOTIENT_OR_CHANGED_DYNAMICS",
+                "registry": "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json",
+                "probe": "tests/channel-swings/eric_curt_wave3d_b2b_positive_symmetrizer_jordan_obstruction_probe.py",
+                "report": "explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md",
+                "next_gate": "ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL"
+              }
             }
           }
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
-        "active_next_swing": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH"
+        "active_next_swing": "ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL"
       }
     },
     {

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-JORDAN-OBSTRUCTION",
+  "status_boundary": "DECISIVE_ECW3D_B2B_FULL_POSITIVE_SIMULTANEOUS_SYMMETRIZER_CONE_KILLED_BY_NONDIAGONALIZABLE_SPATIAL_JORDAN_PART__CONSTRAINT_GAUGE_QUOTIENT_ANISOTROPIC_PSEUDODIFFERENTIAL_AND_ULTRAHYPERBOLIC_ROUTES_OPEN",
+  "construction": {
+    "track": "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK",
+    "predecessor": "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json",
+    "geometry": "the same admitted stationary Lorentz/spin slab R_t x S1_x x [0,1]_y x S1_z",
+    "carrier": "actual W131 gamma-traceless ker Gamma of complex rank 1664",
+    "principal_equation": "A_t partial_t u + A_y partial_y u + A_x partial_x u + A_z partial_z u = lower-order terms",
+    "evolution_generators": "C_j=A_t^{-1}A_j for j=y,x,z",
+    "candidate_cone": "H positive definite, HJ=J conjugate(H), and H C_j=C_j^dagger H for all j"
+  },
+  "source_collision": {
+    "disposition": "SOURCE-SILENT",
+    "source_ref": "lab/sources/transcripts/toe-weinstein-gu-40-years.md L01:16:13-L01:17:35 and L01:25:01-L01:25:42; ledger WG-A16",
+    "author_context": "Weinstein distinguishes one-time Hamiltonian/initial-value dynamics from multiple-time ultrahyperbolic boundary problems and calls the upstairs problem technical debt.",
+    "silent_on": [
+      "the W131 spatial-generator Jordan structure",
+      "positive simultaneous symmetrizers or strong hyperbolicity",
+      "a constraint/gauge quotient removing generalized characteristic vectors",
+      "a record/finality repair of a defective principal generator"
+    ],
+    "repo_addition": "the finite W131 nilpotent Jordan-remainder computation and positive-symmetrizer no-go",
+    "source_is_mathematical_evidence": false
+  },
+  "computed_jordan_obstruction": {
+    "identity": "for each tested nonzero spatial xi, N_xi=C(xi)^2-|xi|^2 I is nonzero of rank 128 and N_xi^2=0",
+    "tested_directions": {
+      "y": {"norm_squared": 1, "rank_N": 128, "max_abs_N": "approximately 0.3076923", "max_abs_N_squared": "below 2e-14"},
+      "x": {"norm_squared": 1, "rank_N": 128, "max_abs_N": "nonzero", "max_abs_N_squared": "below 2e-14"},
+      "z": {"norm_squared": 1, "rank_N": 128, "max_abs_N": "nonzero", "max_abs_N_squared": "below 2e-14"},
+      "generic_1_2_3": {"norm_squared": 14, "rank_N": 128, "max_abs_N": "approximately 3.04881", "max_abs_N_squared": "below 2e-12"}
+    },
+    "y_geometric_multiplicities": {"minus_1": 768, "plus_1": 768},
+    "minimal_polynomial_verdict": "HAS_A_REPEATED_CHARACTERISTIC_ROOT_AND_IS_NOT_DIAGONALIZABLE",
+    "positive_similarity_implication": "if H>0 and H C_y=C_y^dagger H, then H^(1/2) C_y H^(-1/2) is Hermitian and C_y is diagonalizable",
+    "positive_symmetrizer_cone": "EMPTY_BY_NONDIAGONALIZABLE_SPATIAL_GENERATOR",
+    "right_h_positive_subcone": "EMPTY_AS_A_SUBCONE",
+    "indefinite_symmetrizer": "NATIVE_TIME_FLUX_EXACT_WITH_BALANCED_832_832_INERTIA"
+  },
+  "constraint_parameter_surplus": {
+    "unrestricted_hermitian_H_real_parameters": 2768896,
+    "right_h_reduced_parameter_count": "NOT_ENUMERATED_BECAUSE_A_PARAMETER_FREE_NECESSARY_CONDITION_FAILS_FIRST",
+    "independent_obstruction": "one nonzero nilpotent Jordan remainder in any spatial direction forbids every positive H",
+    "search_disposition": "FULL_SDP_CONE_PRUNED_BY_EXACT_NECESSARY_CONDITION",
+    "surplus_verdict": "NEGATIVE_AT_THE_DIAGONALIZABILITY_PRECONDITION"
+  },
+  "constraint_gauge_quotient": {
+    "status": "OPEN",
+    "required_next_test": "construct a source- and dynamics-justified invariant constraint/gauge quotient and test whether it removes all rank-128 generalized characteristic chains",
+    "forbidden_shortcut": "project away the defective sector solely because the target theory requires strong hyperbolicity",
+    "success_condition": "the quotient principal generators are diagonalizable and admit a positive right-H simultaneous symmetrizer",
+    "failure_condition": "any nonzero nilpotent Jordan remainder survives on the justified quotient"
+  },
+  "boundary_domain": {
+    "native_green_trace": "the ECW3D-A y-normal form and opposite right-H Green sectors remain algebraically available",
+    "positive_energy": "KILLED_FOR_THE_UNREDUCED_W131_FIRST_ORDER_SYSTEM",
+    "maximal_dissipativity": "NOT_REACHED__A_JUSTIFIED_STRONGLY_HYPERBOLIC_CONSTRAINT_GAUGE_QUOTIENT_IS_REQUIRED_FIRST"
+  },
+  "layer_0_dictionary": [
+    {
+      "shared_term": "hyperbolic",
+      "objects_kept_separate": ["real Lorentz-null characteristic roots", "strong hyperbolicity requiring diagonalizable uniformly controlled generators", "symmetric hyperbolicity requiring one positive simultaneous symmetrizer"],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "physical carrier",
+      "objects_kept_separate": ["unreduced gamma-traceless W131 carrier", "a source- and dynamics-justified constraint/gauge quotient"],
+      "disposition": "UNCERTAIN"
+    },
+    {
+      "shared_term": "time arrow",
+      "objects_kept_separate": ["continuous Lorentz section time", "record/finality order", "a principal-symbol symmetrizer"],
+      "disposition": "HOMONYM"
+    }
+  ],
+  "record_finality_candidate": {
+    "tag": "JOE_CANDIDATE_CONTROL",
+    "status": "KILLED_AS_A_SELECTOR_FOR_THE_UNCHANGED_W131_PRINCIPAL_SYSTEM",
+    "scope": "an order-arrow or fundamental-symmetry label cannot remove a nontrivial Jordan block while leaving the principal generators unchanged",
+    "retained_route": "it may be retested only after an independently justified constraint/gauge quotient or changed principal dynamics is constructed",
+    "not_an_eric_datum": true,
+    "not_a_third_lane": true
+  },
+  "non_regression": {
+    "gravity": "OPEN_NO_SECTION_EINSTEIN_EQUATION_OR_STATIONARY_BACKGROUND",
+    "gauge": "RIGHT_H_AND_NATIVE_KREIN_SYMMETRY_RETAINED__JUSTIFIED_GAUGE_QUOTIENT_OPEN",
+    "odd_matter": "UNREDUCED_W131_POSITIVE_SYMMETRIZER_CONE_KILLED__QUOTIENT_OPEN",
+    "higgs_yukawa": "UNTOUCHED",
+    "quantum_domain": "STRONG_AND_SYMMETRIC_HYPERBOLICITY_FAIL_ON_UNREDUCED_CARRIER__MAXIMAL_DISSIPATIVE_PROPAGATOR_AND_BFV_OPEN",
+    "cosmology": "UNTOUCHED",
+    "datum_P1_P2_P3": "UNCONSUMED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "open_port": "literal real (7,7) principal carrier, constraint/gauge quotient, Jordan structure, positive symmetrizer, domain, and same-space discriminator",
+    "common_complexification_suffices": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2b_positive_symmetrizer_jordan_obstruction_probe.py",
+    "exact_checks": 31,
+    "planted_rejections": 13,
+    "result": "44_PASS"
+  },
+  "report": "explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md",
+  "next_gate": "ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL"
+}

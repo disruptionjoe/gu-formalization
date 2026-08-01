@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2B positive-symmetrizer Jordan obstruction`](eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md)
+  finds a nonzero rank-128 square-zero quadratic remainder in every tested
+  W131 spatial evolution generator. Real characteristics therefore hide a
+  defective Jordan sector: the unreduced system is not strongly hyperbolic
+  and its full positive simultaneous-symmetrizer cone is empty. A justified
+  constraint/gauge quotient remains open; Curt stays separate and no third
+  lane is promoted.
+
 - [`Eric/Curt Wave 3D-B2A native time-flux coercivity kill`](eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md)
   finds that the continuous section time is noncharacteristic but its native
   W131 Krein flux is balanced `(832,832)`. The positive right-`H` spectral
