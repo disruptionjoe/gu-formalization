@@ -132,6 +132,15 @@ Runbooks:
   null-Dirac `d nu` emission. A positive observer-nontrivial characteristic
   quotient is retained only as a conditional control; the next gate searches
   the full Shiab family and a source-derived propagated constraint.
+- `eric-curt-wave3d-b2c4-shiab-family-southeast-completion.json` - Wave
+  3D-B2C4 full-family and source-admitted southeast completion. A two-sided
+  spinorial Ward analogue plus native Krein symmetry remove both contract
+  coordinates and retain the chiral wedge pair. The zero-southeast control
+  remains Jordan-defective, while a two-real-parameter reciprocal-`11/12`
+  southeast family obeys exact spatial Clifford relations, admits positive
+  right-`H` symmetrizers, and retains raw observation plus physical `nu`
+  without quotient. Covariant action origin, normalization, and
+  Green/Ward/domain closure remain open.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is

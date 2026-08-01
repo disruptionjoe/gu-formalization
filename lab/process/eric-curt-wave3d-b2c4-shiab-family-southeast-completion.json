@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR",
+  "status_boundary": "SPINORIAL_TWO_SIDED_WARD_AND_ACTIVE_KREIN_FILTER_SELECTS_TWO_REAL_CHIRAL_WEDGE_WEIGHTS__ZERO_SOUTHEAST_STILL_JORDAN__SOURCE_ADMITTED_NONZERO_SOUTHEAST_HAS_TWO_PARAMETER_RECIPROCAL_11_OVER_12_CLIFFORD_FAMILY__NO_QUOTIENT_POSITIVE_RIGHT_H_AND_OBSERVATION_RETAINED__COVARIANT_ACTION_ORIGIN_AND_NORMALIZATION_OPEN",
+  "predecessors": [
+    "lab/process/eric-curt-wave3d-b2c3-rolled-omega-source-shiab.json",
+    "lab/process/eric-curt-wave3d-b2c2-null-clifford-omega1-completion.json"
+  ],
+  "source_collision": {
+    "disposition": "SOURCE-CONFIRMS_PLUS_SOURCE-CORRECTS_PLUS_SOURCE-SILENT",
+    "source_confirms": [
+      "2021 draft Section 8.1-8.2 gives a Shiab family and says the historical Bianchi/highest-weight selection calculation is unavailable",
+      "2021 draft equations 9.16-9.18 give the physical Omega1(S)+Omega0(S) rolled matrix",
+      "the draft note following 9.16 says other versions can have a nonzero southeast block"
+    ],
+    "source_corrects": [
+      "zero southeast is not forced in every source-admitted version",
+      "the historical bosonic Bianchi selector does not source-identify the spinorial Ward condition constructed here"
+    ],
+    "source_silent_on": [
+      "the spinorial selector C_g A_w=0",
+      "the active trace-reversed 9,5 Krein-adjoint theorem",
+      "the chiral tie or coflip choice",
+      "the reciprocal 11/12 invariant or its continuous normalization",
+      "the covariant action, curvature remainder, Green current, and analytic domain"
+    ],
+    "source_refs": [
+      "Geometric Unity draft 2021 Section 8.1-8.2 PDF pp. 41-43",
+      "Geometric Unity draft 2021 equations 9.16-9.18 PDF pp. 48-49",
+      "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "canon/shiab-existence-cl95.md"
+    ]
+  },
+  "active_geometry": {
+    "base_signature": [3, 1],
+    "trace_reversed_frobenius_fibre_signature": [6, 4],
+    "total_signature": [9, 5],
+    "clifford_algebra": "Cl(9,5)=M(64,H)",
+    "spinor_krein_form": "beta=e0e1...e8",
+    "one_form_krein_form": "eta tensor beta",
+    "right_h": "PRESERVED",
+    "draft_real_form": "7,7",
+    "real_form_identification": false
+  },
+  "shiab_family": {
+    "right_h_coordinates": [
+      "contract_plus_to_minus",
+      "wedge_plus_to_minus",
+      "contract_minus_to_plus",
+      "wedge_minus_to_plus"
+    ],
+    "dimension_real_before": 4,
+    "nonselecting_identity": "A_contract K=A_wedge K=0",
+    "contract_left_identity": "C_g A_contract=q Gamma-c(k)C_g is generically nonzero",
+    "wedge_left_identity": "C_g A_wedge=0",
+    "krein_selector": "A_wedge is self-adjoint and A_contract is not for eta tensor beta",
+    "survivor_coordinates": "contract_plus=contract_minus=0 with independent real w_plus,w_minus",
+    "dimension_real_after": 2,
+    "source_grade": "REPO_RECONSTRUCTED_NOT_HISTORICAL_BOSONIC_BIANCHI_PROOF"
+  },
+  "zero_southeast_control": {
+    "both_chiral_wedges_required_for_time_invertibility": true,
+    "one_sided_time_nullity": 832,
+    "jordan_rank": 128,
+    "jordan_square": "ZERO",
+    "strongly_hyperbolic": false
+  },
+  "southeast_ansatz": {
+    "class": "L(k)=c(k)(ell_plus P_plus+ell_minus P_minus)",
+    "source_admitted": true,
+    "source_selected": false,
+    "normalization": "unit K and unit C_g with repo-normalized wedge map"
+  },
+  "coefficient_variety": {
+    "equations": [
+      "w_plus*w_minus is nonzero",
+      "12 w_plus ell_minus+11=0",
+      "12 w_minus ell_plus+11=0"
+    ],
+    "dimension_continuous": 2,
+    "witness_rule": "any nonzero real w_plus,w_minus with ell_plus=-11/(12 w_minus) and ell_minus=-11/(12 w_plus)",
+    "tested_unequal_witnesses": ["1,2", "-2,3", "0.5,0.75"],
+    "normalized_sign_slice_witness_count": 4,
+    "chiral_similarity_invariant": "p=w_plus*w_minus under unit-K unit-C_g inverse chiral rescaling",
+    "normalized_relative_branches": ["tied_p_positive", "coflip_p_negative"],
+    "action_normalization_status": "OPEN",
+    "nearby_10_over_12_control_defect": 0.0833333333333333
+  },
+  "principal_pde": {
+    "time_symbol_invertible_for_all_tested_nonzero_family_witnesses": true,
+    "spatial_clifford_relations": "E_i^2=I and E_iE_j+E_jE_i=0",
+    "characteristic_equation": "E(xi)^2=norm(xi)^2 I",
+    "real_semisimple_characteristics": true,
+    "jordan_rank": 0,
+    "full_krein_symmetric": true,
+    "right_h": "EXACT",
+    "positive_symmetrizer": "H(xi)=I+E(xi)^dagger E(xi)",
+    "unit_sphere_bounds": [1.0294976045125, 34.9010579510432],
+    "symmetrizer_is_native_krein_form": false
+  },
+  "observation": {
+    "quotient_used": false,
+    "raw_observation_rank": 640,
+    "physical_nu_rank": 128,
+    "physical_nu_reused_as_ghost": false
+  },
+  "layer_0": {
+    "bosonic_bianchi_selector": "unavailable source calculation",
+    "spinorial_ward_selector": "repo identity C_g A_w=0",
+    "wedge_channel": "pure grade-three map not gamma-traceless wedge-minus-6-contract",
+    "southeast_block": "first-order zero-form endomorphism not source-selected mass or Yukawa",
+    "positive_symmetrizer": "PDE majorant not native Krein form or quantum Hilbert space",
+    "generation": "not a chiral block, sign witness, or coefficient count"
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "pricing": "UNCHANGED",
+    "continuous_normalization_or_tied_coflip_is_P1": false,
+    "promotion_condition": "only after the action fixes or quotients magnitude and patch orientation transport proves orientation reversal exchanges the normalized relative-sign branches",
+    "P3_role": "later Fredholm/index twist only"
+  },
+  "non_regression": {
+    "b2b_isolated_w131_obstruction": "RETAINED",
+    "b2c1_fixed_observer_erasing_quotient": "REMAINS_KILLED",
+    "b2c2a_b_guided_super_ig_rs_route": "SEPARATE_AND_RETAINED",
+    "b2c2_positive_full_clifford_completion": "RETAINED_AS_CONTROL",
+    "b2c3_contract_and_zero_southeast_results": "RETAINED",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c4_shiab_family_southeast_completion_probe.py",
+    "exact_checks": 36,
+    "planted_rejections": 13,
+    "result": "49_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c4-shiab-family-southeast-completion.json",
+    "report": "explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md"
+  },
+  "guided_branch_revision": "95aa370395621d63e63ab50a85ca5e14d345f043",
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE"
+}

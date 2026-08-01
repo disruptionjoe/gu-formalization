@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-31"
+updated_at: "2026-08-01"
 ---
 
 # Explorations
@@ -12,6 +12,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 `papers/published/`.
 
 ## Current Eric-guided construction branch
+
+- [`Eric/Curt Wave 3D-B2C4 Shiab-family/southeast completion`](eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md)
+  filters the complete active right-`H` contract/wedge family before PDE
+  collision. A two-sided spinorial Ward analogue and native Krein symmetry
+  select the wedge channel; the zero-southeast version still has the rank-128
+  Jordan defect. The source-admitted nonzero southeast class then has a
+  two-real-parameter reciprocal-`11/12` Clifford family with positive
+  right-`H` section symmetrizers, zero Jordan rank, raw observation rank 640,
+  and all physical `nu`, without quotient. The spinorial selector, action
+  normalization, and reciprocal relation remain repo-derived; the next gate
+  must derive them from the covariant action and close curvature,
+  Green-current, and domain remainders.
 
 - [`Eric/Curt Wave 3D-B2C3 rolled source matrix/canonical-Shiab collision`](eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md)
   transcribes draft equations 9.16--9.18, corrects the claim that the

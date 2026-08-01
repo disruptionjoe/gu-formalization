@@ -246,7 +246,22 @@
                       "registry": "lab/process/eric-curt-wave3d-b2c3-rolled-omega-source-shiab.json",
                       "probe": "tests/channel-swings/eric_curt_wave3d_b2c3_rolled_omega_source_shiab_probe.py",
                       "report": "explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md",
-                      "alternative_branch_next_gate": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR"
+                      "alternative_branch_next_gate": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR",
+                      "wave3d_b2c4": {
+                        "status_boundary": "SPINORIAL_TWO_SIDED_WARD_AND_ACTIVE_KREIN_FILTER_SELECTS_TWO_REAL_CHIRAL_WEDGE_WEIGHTS__ZERO_SOUTHEAST_STILL_JORDAN__SOURCE_ADMITTED_NONZERO_SOUTHEAST_HAS_TWO_PARAMETER_RECIPROCAL_11_OVER_12_CLIFFORD_FAMILY__NO_QUOTIENT_POSITIVE_RIGHT_H_AND_OBSERVATION_RETAINED__COVARIANT_ACTION_ORIGIN_AND_NORMALIZATION_OPEN",
+                        "shiab_selector": "A_CONTRACT_K_EQUALS_A_WEDGE_K_EQUALS_ZERO_IS_NONSELECTING__C_G_A_WEDGE_EQUALS_ZERO_AND_KREIN_SELFADJOINT_SELECT_PURE_WEDGE_IN_EACH_CHIRALITY",
+                        "source_boundary": "DRAFT_CONFIRMS_FAMILY_ROLLED_MATRIX_AND_NONZERO_SOUTHEAST_VERSIONS__SPINORIAL_WARD_SELECTOR_AND_RECIPROCAL_11_OVER_12_RELATION_ARE_REPO_CONSTRUCTIONS",
+                        "zero_southeast_control": "BOTH_CHIRAL_WEDGES_GIVE_INVERTIBLE_TIME_BUT_RETAIN_RANK128_SQUARE_ZERO_JORDAN__ONE_SIDED_TIME_NULLITY832",
+                        "coefficient_variety": "W_PLUS_W_MINUS_NONZERO__12_W_PLUS_ELL_MINUS_PLUS11_EQUALS0__12_W_MINUS_ELL_PLUS_PLUS11_EQUALS0__TWO_REAL_PARAMETERS__FOUR_SIGN_CHOICES_ONLY_A_NORMALIZED_SLICE",
+                        "pde_completion": "ALL_TESTED_NORMALIZED_AND_UNEQUAL_WITNESSES_HAVE_EXACT_SPATIAL_CLIFFORD_EVOLUTION_REAL_SEMISIMPLE_LIGHT_CONE_POSITIVE_RIGHT_H_SYMMETRIZER_AND_ZERO_JORDAN",
+                        "observation": "NO_QUOTIENT__RAW_RANK640_AND_PHYSICAL_NU_RANK128_RETAINED",
+                        "trace_reversed_geometry": "ACTIVE_3_1_PLUS_6_4_EQUALS_9_5_RIGHT_H_PORT__DRAFT_7_7_REAL_FORM_NOT_IDENTIFIED",
+                        "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED__CONTINUOUS_NORMALIZATION_AND_NORMALIZED_TIED_COFLIP_NOT_P1_WITHOUT_ACTION_AND_ORIENTATION_TRANSPORT",
+                        "registry": "lab/process/eric-curt-wave3d-b2c4-shiab-family-southeast-completion.json",
+                        "probe": "tests/channel-swings/eric_curt_wave3d_b2c4_shiab_family_southeast_completion_probe.py",
+                        "report": "explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md",
+                        "alternative_branch_next_gate": "ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE"
+                      }
                     }
                   }
                 }
@@ -256,9 +271,9 @@
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
-        "guided_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
-        "active_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
-        "alternative_branch_next_swing": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR"
+        "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+        "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+        "alternative_branch_next_swing": "ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE"
       }
     },
     {

@@ -2,12 +2,12 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-31"
+updated_at: "2026-08-01"
 ---
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -209,6 +209,32 @@ updated_at: "2026-07-31"
 > not identified with it. P1/P2/P3 remain unused. The alternative next gate is
 > `ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR`; the guided
 > branch may continue B2C2B independently.
+> Wave 3D-B2C4 now runs the complete active right-`H` contract/wedge Shiab
+> family before inspecting PDE outcomes. `A(k)K(k)=0` is nonselecting, but the
+> repo-reconstructed two-sided/Ward identity `C_g(k)A(k)=0` and native Krein
+> symmetry independently eliminate both contract coordinates and retain two
+> real chiral wedge weights. With the source-displayed zero southeast block,
+> the wedge operator still has a rank-128 square-zero Jordan remainder; a
+> one-sided chiral wedge has time-symbol nullity 832. The draft explicitly
+> admits nonzero southeast versions. In the frozen unit-`K`/unit-`C_g`
+> normalization, the complete spatial Clifford identities leave the
+> two-real-parameter family `w_plus*w_minus != 0`,
+> `12*w_plus*ell_minus+11=0`, and
+> `12*w_minus*ell_plus+11=0`. Three unequal-weight witnesses and the four
+> normalized sign witnesses all give invertible time symbols, exact
+> semisimple light-cone propagation, positive right-`H` symmetrizers, zero
+> Jordan remainder, raw observation rank 640, and physical-`nu` rank 128
+> without a quotient. A planted normalized `10/12` coefficient fails with
+> defect `1/12`. This is a repo construction, not Weinstein's recovered
+> bosonic Bianchi calculation: the source confirms the family, rolled matrix,
+> and permission for a nonzero southeast block, but is silent on the
+> spinorial selector, reciprocal `11/12` relation, and normalization. The
+> probe passes `36 exact + 13 planted = 49`. P1/P2/P3 remain unused; neither
+> the continuous normalization nor the normalized tied/coflip sign is P1
+> without action and patch-orientation theorems. The alternative next gate is
+> `ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE`; the guided
+> branch independently advanced to
+> `ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -230,6 +256,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
