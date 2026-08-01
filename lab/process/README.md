@@ -116,6 +116,12 @@ Runbooks:
   on a nonflat control and its adjoint-valued one-form target is not the
   scalar-spinor/gamma-traceless-vector-spinor complex. Super-IG/RS BV closure
   and observer-descending cohomology remain open.
+- `eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether.json` - Wave 3D-B2C2B
+  frozen natural-symbol gate. Gamma-tracelessness leaves the unique
+  metric/Clifford twistor symbol, whose exact W131 composition is nonzero off
+  shell. The unchanged observer sees its full and characteristic-half images;
+  an enlarged mixed-carrier action/representation and Ward identity remain
+  open.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is

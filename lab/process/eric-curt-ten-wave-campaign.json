@@ -214,7 +214,23 @@
                     "registry": "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json",
                     "probe": "tests/channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py",
                     "report": "explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md",
-                    "next_gate": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
+                    "next_gate": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
+                    "wave3d_b2c2b": {
+                      "status_boundary": "DECISIVE_BOUNDED_NEGATIVE_IN_PARITY_NEUTRAL_METRIC_CLIFFORD_FIRST_ORDER_CLASS__UNIQUE_TWISTOR_TANGENT_FAILS_OFF_SHELL_W131_NOETHER_AND_UNCHANGED_OBSERVER_DESCENT__ENLARGED_MIXED_CARRIER_SUPER_IG_ACTION_AND_WARD_IDENTITY_OPEN",
+                      "natural_class": "SPAN_OF_K_TENSOR_IDENTITY_AND_GAMMA_DAGGER_C_K__ONE_GAMMA_TRACE_CONSTRAINT_LEAVES_UNIQUE_PROJECTIVE_TWISTOR_SYMBOL",
+                      "unique_tangent": "T_K_EQUALS_PI_KER_GAMMA_K_TENSOR_IDENTITY_EQUALS_K_TENSOR_IDENTITY_MINUS_ONE_OVER_14_GAMMA_DAGGER_C_K",
+                      "w131_intertwiner": "Q_K_T_K_EQUALS_12_OVER_14_T_K_C_K",
+                      "off_shell_noether": "FAILS_RANK128_ON_NONNULL_COVECTOR__RANK64_REMAINS_ON_NULL_COVECTOR",
+                      "characteristic_half": "T_K_KER_C_K_IS_RANK64_AND_CHARACTERISTIC_EXACT_BUT_NOT_SOURCE_SELECTED_OR_OFF_SHELL",
+                      "observer_descent": "UNCHANGED_OBSERVATION_SEES_RANK128_FULL_IMAGE_AND_RANK64_CHARACTERISTIC_HALF",
+                      "mixed_super_ig_boundary": "CONDITIONAL_BRACKET_TARGETS_ADJOINT_CONNECTION_ONE_FORMS__ROLLED_FIELD_ACTION_RS_TANGENT_AND_WARD_MASTER_IDENTITY_UNSUPPLIED",
+                      "source_collision": "SOURCE_SILENT_ON_DECISIVE_TANGENT_ACTION_AND_WARD_IDENTITY__SOURCE_CONFIRMS_ONLY_SUPER_IG_AND_MIXED_FIELD_CONTEXT",
+                      "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED",
+                      "registry": "lab/process/eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether.json",
+                      "probe": "tests/channel-swings/eric_curt_wave3d_b2c2b_super_ig_rs_tangent_noether_probe.py",
+                      "report": "explorations/eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether-2026-07-31.md",
+                      "next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY"
+                    }
                   }
                 }
               }
@@ -223,7 +239,7 @@
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
-        "active_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
+        "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY"
       }
     },
     {

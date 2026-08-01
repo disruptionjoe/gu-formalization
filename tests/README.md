@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/eric_curt_wave3d_b2c2b_super_ig_rs_tangent_noether_probe.py`
+  is the Wave 3D-B2C2B natural tangent/Noether/observer gate. In the frozen
+  metric/Clifford-only first-order class, gamma-tracelessness leaves the unique
+  twistor symbol. Its W131 composition fails off shell, and unchanged
+  observation sees both its full image and characteristic-exact half. An
+  enlarged mixed-carrier super-IG action and Ward identity remain open.
 - `channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py`
   is the Wave 3D-B2C2A exact type-and-curvature collision. It verifies the
   nonabelian tau-tangent homomorphism and the nonflat identity

@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C2B natural super-IG/RS tangent and Noether gate`](eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether-2026-07-31.md)
+  proves that the frozen metric/Clifford-only first-order class has one
+  projective scalar-spinor-to-RS member, the twistor symbol. Its W131
+  composition is nonzero off shell, and unchanged observation sees both the
+  full image and its rank-64 characteristic half. The bounded negative leaves
+  an enlarged mixed-carrier super-IG action and Ward/master identity open.
+
 - [`Eric/Curt Wave 3D-B2C2A tau-tangent/BV type and curvature collision`](eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md)
   verifies that the source-backed ordinary tau tangent
   `d tau_A(xi)=(xi,D_A xi)` is an exact nonabelian Lie-algebra homomorphism,
