@@ -352,6 +352,7 @@ def main() -> int:
     wave3 = next(wave for wave in campaign["waves"] if wave["id"] == "ECW3-G4-OBSERVATION")
     b2b = wave3["result"]["wave3d"]["wave3d_b1"]["wave3d_b2a"]["wave3d_b2b"]
     b2c1 = b2b["wave3d_b2c1"]
+    b2c2a = b2c1["wave3d_b2c2a"]
 
     previous = registry["previous_source_action_external_datum_attempt"]
     check(
@@ -378,12 +379,14 @@ def main() -> int:
         and not registry["source_collision"]["source_is_mathematical_evidence"],
     )
     check(
-        "the campaign appends B2C1 and advances only to a source-derived tangent differential",
+        "the campaign preserves B2C1 and traverses its typed B2C2A successor",
         b2c1["registry"]
         == "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json"
         and b2c1["status_boundary"] == registry["status_boundary"]
         and b2c1["next_gate"] == registry["next_gate"]
-        and wave3["result"]["active_next_swing"] == registry["next_gate"],
+        and b2c2a["registry"]
+        == "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json"
+        and wave3["result"]["active_next_swing"] == b2c2a["next_gate"],
     )
     check(
         "record/finality remains a non-input and cannot supply the missing BV differential",

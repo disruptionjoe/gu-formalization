@@ -202,7 +202,20 @@
                   "registry": "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json",
                   "probe": "tests/channel-swings/eric_curt_wave3d_b2c_projected_gauge_quotient_gate_probe.py",
                   "report": "explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md",
-                  "next_gate": "ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE"
+                  "next_gate": "ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE",
+                  "wave3d_b2c2a": {
+                    "status_boundary": "DECISIVE_ECW3D_B2C2A_ORDINARY_TAU_TANGENT_EXISTS_AND_IS_A_LIE_ALGEBRA_HOMOMORPHISM__COVARIANT_LEG_NOT_NILPOTENT_ON_NONFLAT_CONNECTION__FULL_ORDINARY_BRST_WRONG_CARRIER_FOR_W131__SUPER_IG_RS_TANGENT_DIFFERENTIAL_REMAINS_OPEN",
+                    "source_scope_correction": "ORDINARY_DERIVATIVE_TAU_IS_PRESENT_AS_d_tau_A_OF_XI_EQUALS_XI_COMMA_D_A_XI__MISSING_OBJECT_IS_SPECIFICALLY_SUPER_IG_RS_SCALAR_SPINOR_TO_KER_GAMMA",
+                    "curvature_collision": "NONFLAT_EXACT_CONTROL_HAS_COMMUTATOR_OF_COVARIANT_DERIVATIVES_EQUALS_CURVATURE_ACTION_NOT_ZERO__FLAT_CONTROL_SQUARES_TO_ZERO",
+                    "ordinary_bv": "G3_NONLINEAR_Gau_P_BRST_CLOSURE_RETAINED_AT_ITS_PROVED_SCOPE__NOT_W131_PHYSICAL_COHOMOLOGY",
+                    "w131_collision": "OMEGA0_ADP_TO_OMEGA1_ADP_IS_NOT_SCALAR_SPINOR_TO_GAMMA_TRACELESS_VECTOR_SPINOR__NO_JORDAN_COHOMOLOGY_RETEST_ADMITTED",
+                    "source_collision": "SOURCE_CORRECTS_THE_SCOPE_OF_THE_MISSING_TANGENT_OBJECT_AND_IS_SILENT_ON_THE_SUPER_IG_RS_EXTENSION",
+                    "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED",
+                    "registry": "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json",
+                    "probe": "tests/channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py",
+                    "report": "explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md",
+                    "next_gate": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
+                  }
                 }
               }
             }
@@ -210,7 +223,7 @@
         },
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
-        "active_next_swing": "ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE"
+        "active_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
       }
     },
     {

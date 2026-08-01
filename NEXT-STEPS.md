@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1 GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -148,9 +148,25 @@ updated_at: "2026-07-31"
 > it and cannot descend. Thus the existing projected-gauge candidate and the
 > fixed carrier-erasing repair are killed. P1/P2 remains one orientation line
 > and P3 a separate real-`KO` twist; neither supplies a projector.
-> `SOURCE-SILENT` remains the source disposition, Curt remains formally
-> separate, and `TG-1 AND TG-2 AND TG-3` remains false. The next bounded gate
-> is `ECW3D-B2C2-SOURCE-DERIVED-TANGENT-DIFFERENTIAL-AND-BV-CLOSURE`.
+> `SOURCE-SILENT` remains the B2C1 source disposition, Curt remains formally
+> separate, and `TG-1 AND TG-2 AND TG-3` remains false. Wave 3D-B2C2A then
+> collides G1's already-built derivative cocycle with the missing W131
+> differential. The source-backed ordinary-gauge map
+> `d tau_A(xi)=(xi,D_A xi)` is an exact nonabelian Lie-algebra homomorphism,
+> so the broad statement that all derivative-level tau data are missing is
+> corrected. But `D_A` alone is not nilpotent on the nonflat exact control:
+> `[D_0,D_1]xi=[F_01,xi] != 0`. G3's nonlinear ordinary-gauge BRST complex
+> still closes with `sc=1/2[c,c]`, but it is typed
+> `Omega0(ad P) -> Omega1(ad P)`, not the required scalar-spinor to
+> gamma-traceless-vector-spinor W131 arrow. No source-derived super-IG/RS
+> soldering or tangent rule exists, so Jordan cohomology is not retested from
+> a target-built map. The B2C2A probe passes `29 exact + 13 planted = 42`.
+> Its leading source disposition is `SOURCE-CORRECTS`: the UCSD tau passage
+> supplies the ordinary derivative graph but is silent on the super-IG/RS
+> extension, W131 chains, and observer descent. P1/P2/P3 remain unused, Curt
+> remains separate, and the conjunctive promotion gate remains false. The
+> next bounded gate is
+> `ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -166,6 +182,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

@@ -21,6 +21,7 @@ ECW3C = ROOT / "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json"
 B2A = ROOT / "lab/process/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill.json"
 B2B = ROOT / "lab/process/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json"
 B2C1 = ROOT / "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json"
+B2C2A = ROOT / "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json"
 ALLOWED = {"SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"}
 
 
@@ -74,6 +75,18 @@ class EricLaneDecisiveSourceCollisionAudit(unittest.TestCase):
                 self.assertIn("01:16:13", collision["source_ref"])
                 self.assertFalse(collision["source_is_mathematical_evidence"])
                 self.assertIn("record/finality", " ".join(collision["silent_on"]))
+
+    def test_b2c2a_corrects_the_missing_object_scope_without_source_as_proof(self) -> None:
+        collision = load(B2C2A)["source_collision"]
+        self.assertIn(collision["disposition"], ALLOWED)
+        self.assertEqual("SOURCE-CORRECTS", collision["disposition"])
+        self.assertIn("00:18:03", collision["source_ref"])
+        self.assertIn("ordinary-gauge derivative-level tau", collision["correction"])
+        self.assertFalse(collision["source_is_mathematical_evidence_for_new_collision"])
+        self.assertIn(
+            "a scalar-spinor to gamma-traceless vector-spinor tangent differential",
+            collision["source_silent_on"],
+        )
 
 
 if __name__ == "__main__":

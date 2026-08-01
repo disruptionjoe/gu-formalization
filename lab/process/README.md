@@ -109,6 +109,13 @@ Runbooks:
   invariant repair equals and erases the observer-section carrier, so its
   otherwise Hermitian Clifford quotient is inadmissible. The next gate is a
   genuinely source-derived tangent differential and BV closure.
+- `eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json` - Wave 3D-B2C2A
+  collision of G1's source-backed ordinary tau tangent and G3's ordinary
+  gauge BV closure with the W131 carrier requirement. The tau tangent is an
+  exact Lie-algebra homomorphism, but its covariant leg has curvature square
+  on a nonflat control and its adjoint-valued one-form target is not the
+  scalar-spinor/gamma-traceless-vector-spinor complex. Super-IG/RS BV closure
+  and observer-descending cohomology remain open.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is
