@@ -152,6 +152,16 @@ Runbooks:
   isotropic. Levi-Civita right-composition fixtures pass; left closure,
   admissible GU curvature/jet remainders, the differential G2/G3 Euler module,
   and analytic domain remain open.
+- `eric-curt-wave3d-b2c10-active-current-full-tuple-hessian.json` - Wave
+  3D-B2C10 active-current, graph-owner, and differentiated-Hessian gate. The
+  repaired `bar_nu nu` current survives active `(9,5)` reality and a right-`H`
+  doublet. An aligned `T=A-B` `M00` witness and forced `M10/M01` blocks pass,
+  while a misaligned raw `c(T)L` component fails; `T`-linear terms only
+  transfer that current between connection owners. The observed LC spin lift,
+  trace-reversed `(6,4)` DeWitt return, local reduction graph, and exact finite
+  full-tuple Ward/Hessian identity pass. Zero-order `M0` leaves the Green form
+  unchanged; two-connection owner/action selection and a common domain remain
+  open. P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary.json` - Wave
   3D-B2C9 first-jet Euler, fermion-current, graph-return, and total-preboundary
   gate. It upgrades the bosonic Euler object with the missing horizontal

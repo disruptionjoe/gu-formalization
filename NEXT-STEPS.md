@@ -394,6 +394,32 @@ updated_at: "2026-08-01"
 > and semisimple southeast repair, execute all moving trace-reversed geometric
 > returns, and verify the full-tuple differentiated Ward identity. Only then
 > rerun B2C6B against the recomputed total Green form.
+>
+> **Alternative-branch B2C10 result (2026-08-01): ACTIVE CURRENT SURVIVES /
+> SHARED-CONNECTION READING NARROWED / OWNER SELECTION NEXT.** The B2C9
+> `ell bar_nu tensor nu` channel is nonzero after the actual trace-reversed
+> `(9,5)` right-`H`, Krein, and `C+` restrictions; a right-`H` doublet
+> reinforces it. With `zeta=0`, all three written draft `(9.18)` bilinears
+> vanish while the repaired channel remains. An aligned nonzero
+> `M00=c(T)L` witness and the `M10(T)` injection with forced `M01` adjoint
+> pass the active reality gates, while a misaligned raw `c(T)L` component
+> fails and leaves the universal completion open;
+> but every `T=A-B`-linear coefficient is blind to a shared
+> `delta A=delta B`: it can transfer the extra current between connection
+> owners, not delete it. The observed normal-frame LC spin lift, the
+> trace-reversed `Sym2` DeWitt transpose with inertia `(6,4)`, and the local
+> reduction graph return all pass. An exact finite graph-owned action closes
+> the full differentiated identity
+> `H(v,R)+(DR[v])^!G=0` with nonzero canceling terms; freezing the owner,
+> treating the isolated Hessian as a kernel, or omitting `DR` fails. The
+> symmetrized total Green comparator is skew/nonzero, and zero-order `M0`
+> leaves it unchanged, so no common domain follows. The probe passes
+> `25 computational exact + 5 source receipts + 12 type-level + 15 planted = 57`.
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C11-TWO-CONNECTION-CURRENT-OWNERSHIP-AND-SOURCE-ACTION-SELECTION`:
+> build both draft coupling architectures with explicit `A/B` owners and
+> determine whether the extra current is canceled, transferred, or required.
+> Run final B2C6B only after that principal action is selected.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

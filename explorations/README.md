@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C10 active current, graph owner, and full-tuple Hessian`](eric-curt-wave3d-b2c10-active-current-full-tuple-hessian-2026-08-01.md)
+  proves the nonzero-southeast `bar_nu nu` connection current survives the
+  active trace-reversed `(9,5)` right-`H`, Krein, and `C+` restrictions.
+  An aligned `T=A-B` zero-order witness and forced off-diagonal pair pass
+  reality, while a misaligned raw component fails; every `T`-linear term can
+  only transfer the current between `A/B` owners, not remove it on a
+  shared-connection reading.
+  The observed LC spin lift, trace-reversed `(6,4)` DeWitt owner transpose,
+  reduction graph, and a finite full-tuple differentiated Ward identity pass.
+  Zero-order `M0` leaves the Green form unchanged, so the next construction is
+  explicit two-connection owner/action selection, not datum or domain fitting.
+
 - [`Eric/Curt Wave 3D-B2C9 first-jet Euler, fermion-current, and preboundary comparators`](eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md)
   upgrades the graph-source Euler object with the missing first-jet divergence
   and proves its local coadjoint law; the old reconstruction fails a

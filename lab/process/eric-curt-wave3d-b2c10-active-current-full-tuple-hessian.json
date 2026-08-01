@@ -1,0 +1,133 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C10-ACTIVE-9_5-SOURCE-CURRENT-REPAIR-AND-FULL-TUPLE-HESSIAN",
+  "status_boundary": "ACTIVE_CURRENT_NONVANISHING_PASS__SOURCE_WRITTEN_THREE_MONOMIAL_CURRENT_AND_NONZERO_SOUTHEAST_REPAIR_CONDITIONALLY_INCOMPATIBLE_ON_SHARED_CONNECTION_READING__NATURAL_T_LINEAR_M00_AND_FORCED_M10_M01_REALITY_PASS_BUT_CAN_ONLY_TRANSFER_CURRENT_BETWEEN_A_B_OWNERS__OBSERVED_NORMAL_FRAME_LC_SPIN_LIFT_AND_TRACE_REVERSED_DEWITT_OWNER_TRANSPOSE_PASS__LOCAL_REDUCTION_GRAPH_AND_TRANSPOSE_PASS__EXACT_FINITE_GRAPH_OWNED_FULL_TUPLE_WARD_AND_DIFFERENTIATED_HESSIAN_PASS__MOVING_COEFFICIENT_RESPONSE_NONZERO__SYMMETRIZED_TOTAL_GREEN_COMPARATOR_PASS_BUT_ZERO_ORDER_M0_DOES_NOT_CHANGE_GREEN_FORM__TWO_CONNECTION_OWNER_SELECTION_FULL_AMBIENT_Y14_CONSTRAINED_GRASSMANN_ACTION_AND_COMMON_DOMAIN_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary.json",
+  "layer_0": {
+    "connection_shaped_contraction": "equivariant curvature-to-one-form Euler target, not a connection coordinate",
+    "fermion_connection_current": "connection Euler covector restricted to active sp(32,32;H) tangents",
+    "observed_current": "future Maxwell/Yang-Mills retract image, not identified here",
+    "southeast_channel": "first-order bar_nu gamma^a rho(delta B_a) nu current, not a zero-order mass",
+    "M0": "zero-order operator family with separate M11 M10 M01 M00 blocks",
+    "constrained_real_control": "right-H paired coefficient witness, not complete Grassmann/BV integration",
+    "trace_reversal": "Lorentz Sym2 raw Frobenius composed with trace reversal gives fibre inertia (6,4)",
+    "curt_literal_carrier": "separate real (7,7) rival"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_CORRECTS_PLUS_SOURCE_SILENT",
+    "source_confirms": [
+      "TOE official/local 01:34:49-01:35:13 and 01:36:35-01:36:56 types the map as a contraction to a connection/one-form Euler quantity",
+      "draft equation 9.18 supplies bar_nu zeta plus bar_zeta nu plus S bar_zeta zeta",
+      "2021 draft permits nonzero southeast versions",
+      "TOE 02:44:06-02:45:13 announces but does not release a two-connection on-shell mechanism"
+    ],
+    "source_corrects": [
+      "modern TOE local 02:42:55 and UCSD 00:36:13 retain the zero southeast corner",
+      "connection-shaped Euler does not mean the Euler covector is a connection coordinate",
+      "a T-linear zero-order block changes A/B ownership but not the shared current"
+    ],
+    "source_silent_on": [
+      "active current projection and coefficient",
+      "complete natural equivariant M0 basis",
+      "selected A/B owner combination",
+      "nonlinear ambient Y14 LC Hodge density projector response",
+      "full active constrained Grassmann BV action and Hessian",
+      "common Green domain BFV quotient Poisson anchor and prequantization"
+    ]
+  },
+  "active_current": {
+    "active_algebra": "right-H plus Krein-skew plus C-plus sp(32,32;H) tangent",
+    "witness": "X=gamma0 gamma1",
+    "repaired_L": "-11/16 P_plus -33/32 P_minus",
+    "single_field_current_nonzero": true,
+    "right_H_doublet_current_nonzero": true,
+    "right_H_partner_relation_on_fixture": "DOUBLE_EQUALS_TWO_TIMES_SINGLE",
+    "zeta_zero_written_current": "ZERO",
+    "zeta_zero_southeast_current": "NONZERO",
+    "shared_connection_written_current_compatibility": "FAILS_FOR_TESTED_NONZERO_SOUTHEAST_REPAIR"
+  },
+  "natural_M0": {
+    "M00_T": "aligned nonzero c(T)L witness",
+    "M00_reality": "RIGHT_H_KREIN_C_PLUS_PASS_ON_ALIGNED_WITNESS__MISALIGNED_RAW_COMPONENT_FAILS__UNIVERSAL_REALITY_COMPLETION_OPEN",
+    "M10_T": "nu maps to componentwise T_a nu",
+    "M01_T": "FORCED_KREIN_ADJOINT_OF_M10",
+    "offdiagonal_reality": "PASS",
+    "coefficients_tested": [-3, -1, 0, 0.5, 2],
+    "shared_current_effect": "IDENTICALLY_ZERO_BECAUSE_DELTA_T_EQUALS_DELTA_A_MINUS_DELTA_B",
+    "owner_effect": "CAN_TRANSFER_THE_SOUTHEAST_CURRENT_BETWEEN_A_AND_B_BUT_CANNOT_DELETE_IT",
+    "complete_equivariant_basis": "OPEN",
+    "contracted_curvature_seed": "TYPE_COMPATIBLE_BUT_DIFFERENTIAL_VARIATION_OPEN",
+    "epsilon_soldering_seed": "CANNOT_CHANGE_SHARED_CURRENT_WITHOUT_CONSTRUCTED_CONNECTION_DEPENDENCE"
+  },
+  "owner_return": {
+    "observed_LC_formula": "omega_mu_ab=one_half(partial_b h_mu_a-partial_a h_mu_b); rho(omega_mu)=one_quarter omega_mu_ab gamma^a gamma^b",
+    "LC_active_algebra": "PASS",
+    "trace_reversed_dewitt_inertia": [6, 4],
+    "metric_owner_transpose": "EXACT_PASS_DIRECT_DUAL_AND_DEWITT_PRIMAL_PAIRINGS_AGREE",
+    "reduction_graph": "B=u omega_LC u_inverse-u_mu u_inverse",
+    "D_epsilon_B_transpose": "EXACT_PASS_FOR_VALUE_AND_FIRST_JET_OWNERS",
+    "local_connection_law": "delta B=[chi,B]-chi_mu_PASS",
+    "ambient_nonlinear_Y14_graph": "OPEN"
+  },
+  "full_tuple_ward_hessian": {
+    "model": "exact rational one-coordinate two-by-two graph-owned action with A u u_i metric-jet scalar zeta nu barred fields first jets moving density lowerer coefficients and T-linear M0",
+    "ward_identity": "G(phi)R_chi(phi)=0_EXACT_PASS",
+    "differentiated_identity": "H(v,R)+(DR[v])^!G=0_EXACT_PASS",
+    "nonzero_terms": {
+      "H_v_R": "-736/9",
+      "G_DR_v": "736/9"
+    },
+    "moving_packet_cross_hessian": "-8077/126_NONZERO",
+    "frozen_reduction_owner": "REJECTED",
+    "isolated_hessian_kernel": "REJECTED",
+    "omit_generator_derivative": "REJECTED",
+    "active_Y14_full_tuple_theorem": "OPEN"
+  },
+  "green_replay": {
+    "symmetrized_finite_total_green": "SKEW_NONZERO_PASS",
+    "M0_coefficients_tested": ["-5", "0", "7/3"],
+    "M0_changes_principal_green": false,
+    "B2C5_positive_spectral_half_automatically_green_isotropic": false,
+    "common_closed_domain": "OPEN_PENDING_SELECTED_TWO_CONNECTION_PRINCIPAL_ACTION"
+  },
+  "construction_fork": [
+    "derive the correct two-connection owner combination",
+    "derive a source-current correction containing the active bar_nu nu channel",
+    "construct a different semisimple operator preserving the written current alphabet",
+    "construct a justified constrained complex removing the channel while preserving observation"
+  ],
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "P1_P2_P3_changed": false,
+    "missing_current_owner_coefficient_or_domain_is_datum": false
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c10_active_current_full_tuple_hessian_probe.py",
+    "computational_exact_checks": 25,
+    "source_receipts": 5,
+    "type_level_controls": 12,
+    "planted_rejections": 15,
+    "result": "25_COMPUTATIONAL_EXACT_PLUS_5_SOURCE_RECEIPTS_PLUS_12_TYPE_LEVEL_PLUS_15_PLANTED_EQUALS_57_PASS",
+    "count_boundary": "SOURCE_RECEIPTS_VERIFY_RECORDED_TEXT_AND_TYPE_LEVEL_ROWS_ARE_SCOPE_DECLARATIONS_NOT_ADDITIONAL_COMPUTATION"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c10-active-current-full-tuple-hessian.json",
+    "report": "explorations/eric-curt-wave3d-b2c10-active-current-full-tuple-hessian-2026-08-01.md"
+  },
+  "next_gate": "ECW3D-B2C11-TWO-CONNECTION-CURRENT-OWNERSHIP-AND-SOURCE-ACTION-SELECTION",
+  "following_gate": "ECW3D-B2C6B-FINAL-TOTAL-ACTION-COMMON-GREEN-DOMAIN-REPLAY",
+  "later_gate": "FINAL_G4_OBSERVATION_DOMAIN_KERNEL_CHARGE_QUOTIENT__THEN_REDUCED_POISSON_AND_PREQUANTUM"
+}
