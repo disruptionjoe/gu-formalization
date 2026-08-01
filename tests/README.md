@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/eric_curt_wave3d_b2c15_full_quotient_primalizer_lc_graph_probe.py`
+  executes all six quotient-owner grades against all seven active residual
+  grades, certifies assembled quadratic grade preservation while retaining a
+  raw ordered off-grade plant, builds the full indefinite residual inverse,
+  and derives the actual ten-owner `D_g G_Y` fourteen-dimensional LC graph.
+  It computes the bare fixed-Shiab quotient and isolated metric ranks,
+  inertias, their grade-orthogonal comparator, and a live two-trace second-jet
+  endpoint. It does not claim the full coupled block: the `h`-valued reduction
+  return, all-grade moving Shiab, and exact-G2 Euler branch remain open. Run it with
+  `uv run --with sympy --with numpy python`.
 - `channel-swings/eric_curt_wave3d_b2c14_active_y14_shiab_graph_conormal_probe.py`
   executes the repaired descended owner: `h=Lambda2`, a complete invariant
   grade-three slice of `g/h`, all vertical lift cancellations, and the

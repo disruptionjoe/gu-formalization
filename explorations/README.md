@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15 bare fixed-Shiab quotient primalizer and isolated induced LC graph`](eric-curt-wave3d-b2c15-full-quotient-primalizer-lc-graph-2026-08-01.md)
+  completes the all-grade bare fixed-Shiab quotient coefficient of the
+  compressed residual-square comparator and the isolated physical metric
+  block. The named positive representative has rank `8165`; the named null
+  image has rank `4136` but zero Gram. The actual ten-owner LC graph differs
+  from the 4D proxy. The full coupled block remains open because the
+  reduction-induced `h` return, rank strata, moving Shiab terms, and exact-G2
+  branch are unconstructed.
 - [`Eric/Curt Wave 3D-B2C14R descended quotient-grade graph coefficient`](eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal-2026-08-01.md)
   records and repairs the hostile-review discovery that the first
   78-dimensional owner was a vertical Spin lift. On the genuine invariant

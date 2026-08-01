@@ -185,6 +185,15 @@ Runbooks:
   132 null and 198 mixed are grade-three-projected lower bounds. The Gram
   block remains projected; the
   all-grade residual primalizer, induced LC graph, and domain remain open.
+- `eric-curt-wave3d-b2c15-full-quotient-primalizer-lc-graph.json` - Wave
+  3D-B2C15 bare fixed-Shiab quotient, residual-inverse, and isolated induced-LC
+  gate. It proves assembled quadratic grade preservation despite nonzero raw
+  ordered cross-grade terms, obtains rank `8165` on the named positive
+  representative, null rank `4136` with zero Gram, and residual inertia
+  `(57664,57920)`. The actual ten-owner LC graph differs from the 4D proxy.
+  Hostile review retracts the full mixed block: the reduction-induced `h`
+  return, rank strata, moving-Shiab terms, and distinct exact-G2 Euler branch
+  remain for B2C15R.
 - `eric-curt-wave3d-b2c13-dupsilon-preboundary.json` - Wave 3D-B2C13
   bifurcated residual-symbol and preboundary-jet gate. It differentiates the
   compressed source residual and the selected G2 action's exact Euler

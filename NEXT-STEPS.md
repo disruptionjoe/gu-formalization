@@ -564,6 +564,40 @@ updated_at: "2026-08-01"
 > primalizer, derive the actual induced metric/LC graph and complete `K_act`,
 > then compute the full block Hessian/characteristic candidates before the
 > prolonged preboundary packet.
+>
+> **Alternative-branch B2C15 result (2026-08-01): BARE FIXED-SHIAB QUOTIENT
+> COEFFICIENT + ISOLATED METRIC BLOCK COMPLETE; FULL GRAPH RETRACTED.** All six
+> bare quotient-owner grades were executed against all seven active residual
+> grades for the compressed residual-square comparator. A complete
+> signed-coordinate orbit certificate proves that the assembled quadratic
+> symbol preserves grade even though a planted raw ordered grade-3-to-grade-7
+> term is exactly `1/2`; it cancels only after symmetric assembly. The full
+> residual lowerer/primalizer has dimension `115584`, inertia
+> `(57664,57920)`, and satisfies both inverse and moving-inverse identities.
+> The bare reduction coefficient has rank `8165` at the named positive
+> representative and Hessian inertia `(4114,4051,0)`. At the named null
+> representative it still has rank `4136`, but
+> its entire `R_res` Gram is zero: a nonzero isotropic image, not a constructed
+> gauge quotient. The actual ten-owner `D_g G_Y` induced LC graph has rank
+> `10`; the old observed-4D proxy has rank `9` and differs by rank `10`. Its
+> isolated metric coefficient and Gram both have rank `7` on the named
+> positive and positive-plus-positive representatives, and rank `8` on the
+> named null representative. The bare quotient--metric comparator vanishes by
+> grade, but hostile review caught the unconstructed `h`-valued reduction
+> return `r_xi`, which can couple to the metric block in grade two. Therefore
+> no full cross-Hessian, summed inertia, radical, or characteristic claim is
+> admitted. The trace line also creates independent covector rank strata, so
+> no generic off-null claim follows. A
+> selected second-jet subchannel has the required nonzero two-trace Green
+> endpoint, but the full nonlinear preboundary quotient and domain remain
+> open. P1/P2/P3 remain unused. The next gate is
+> `ECW3D-B2C15R-REDUCTION-H-RETURN-RANK-STRATA-AND-COUPLED-BLOCK`: construct
+> the overlap-covariant splitting return `r_xi`, recheck all 91 lift
+> cancellations, classify `q(xi)` plus trace-component rank strata including
+> timelike cases, add the all-grade moving-Shiab/formal-adjoint contributions,
+> and keep the compressed residual separate from the exact G2 Euler branch.
+> Only then recompute the coupled block and advance to kernel/BV/preboundary
+> work.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
