@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Every major swing now requires both a pre-construction specialist
@@ -532,6 +532,38 @@ updated_at: "2026-08-01"
 > build the prolonged active trace and characteristic kernel; if zero, record
 > active order collapse and use the reduced trace before the final
 > mixed-domain replay.
+>
+> **Alternative-branch B2C14R result (2026-08-01): HOSTILE-REVIEW OWNER
+> CORRECTION / DESCENDED QUOTIENT SYMBOL NONZERO.** The first packet computed
+> a valid `3/4` coefficient on a 78-dimensional Spin stabilizer and wrongly
+> called it a reduction-field tangent. Those directions change the local
+> lift and are zero in `P/H`; the hostile council caught the Layer-0 error
+> before commit. The repaired gate uses all `91` bivectors as
+> `h=spin(9,5)`, the `8165`-dimensional complement for `g/h`, and executes the
+> complete invariant `364`-dimensional grade-three quotient slice with `5096`
+> matching residual testers. All vertical lift directions cancel when `u`
+> and `omega_LC` co-move. Even after conservatively allowing every
+> `h`-valued LC principal return in `T*Y tensor h` (dimension `1274`), its
+> grade-three residual image is zero while the quotient graph has exact rank
+> `364` on the executed owner for tested non-null normals. The tested null
+> normal gives a grade-three-projected lower bound `132`, and mixed covector
+> polarization gives projected lower bound `198`. Exact witnesses `3/4` and
+> `-3/4` agree with a native `128 x 128` representation cross-check. The
+> matching grade-three Gram block has rank `364` off the tested null cone and
+> zero on it, but it is explicitly not the all-grade Hessian. A genuine
+> quotient-grade moving-Shiab derivative is nonzero; its selected six-slot
+> `DM` value is exactly `0`, correcting the stabilizer-owned `-1`. Thus the
+> active residual operator is second order on genuine reduction tangents,
+> while the complete primalizer, prolonged conormal packet, characteristic
+> kernel, and domain remain open. The probe passes
+> `28 exact + 3 source receipts + 13 type-level + 12 planted = 56`;
+> P1/P2/P3 remain unused. The next gate is
+> `ECW3D-B2C15-FULL-QUOTIENT-GRADED-RESIDUAL-PRIMALIZER-AND-INDUCED-LC-GRAPH`:
+> execute every quotient-owner grade against every residual grade or prove
+> the cross-grade vanishing theorem, assemble the all-grade residual
+> primalizer, derive the actual induced metric/LC graph and complete `K_act`,
+> then compute the full block Hessian/characteristic candidates before the
+> prolonged preboundary packet.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

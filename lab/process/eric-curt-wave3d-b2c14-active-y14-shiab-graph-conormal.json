@@ -1,0 +1,190 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C14R-DESCENDED-QUOTIENT-GRADE-SHIAB-GRAPH-COEFFICIENT",
+  "status_boundary": "HOSTILE_REVIEW_CAUGHT_INITIAL_78D_SPIN_STABILIZER_OWNER_AS_VERTICAL_LIFT_NOT_REDUCTION_TANGENT__REPAIRED_H_EQUALS_LAMBDA2_DIM91_AND_G_MOD_H_DIM8165__COMPLETE_INVARIANT_LAMBDA3_QUOTIENT_SLICE_DIM364_EXECUTED_WITH_5096_MATCHING_TESTERS__ALL_VERTICAL_LIFTS_CANCEL_UNDER_COMOVING_U_OMEGA_LC_LAW__CONSERVATIVE_W_H_EQUALS_TSTAR_Y_TENSOR_H_DIM1274_HAS_ZERO_GRADE3_RESIDUAL_IMAGE__PROJECTED_RANK364_IS_EXACT_ON_TESTED_NONNULL_EXECUTED_OWNER__TESTED_NULL_PROJECTED_LOWER_BOUND132__MIXED_COVECTOR_PROJECTED_LOWER_BOUND198__EXACT_3_OVER4_AND_MINUS3_OVER4_WITNESSES_WITH_NATIVE_128_MATRIX_CROSSCHECK__GRADE3_PROJECTED_GRAM_RANK364_NONNULL_AND0_NULL_NOT_FULL_HESSIAN__QUOTIENT_MOVING_SHIAB_NONZERO_BUT_SELECTED_SIX_SLOT_DM_ZERO__ACTIVE_RESIDUAL_SECOND_ORDER_ON_GENUINE_REDUCTION_TANGENTS__ALL_GRADE_PRIMALIZER_INDUCED_LC_GRAPH_PREBOUNDARY_CHARACTERISTIC_KERNEL_DOMAIN_AND_PHYSICS_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c13-dupsilon-preboundary.json",
+  "hostile_correction": {
+    "initial_error": "78 trace-line-stabilizer bivectors were h-valued local-lift directions and were incorrectly labeled epsilon_red tangents",
+    "cost": "the initial 3/4 rank inertia radical prolongation and DM claims did not descend to P/H",
+    "resolution": "replace owner by a genuine invariant quotient-grade slice; plant exact vertical cancellation; quotient by every h-valued LC principal return; retract full-Hessian and mandatory-preboundary claims",
+    "control_lesson": "the first finite algebra computed its declared object correctly but Layer 0 showed it was the wrong owner"
+  },
+  "layer_0": {
+    "local_lift": "u with u equivalent to u h",
+    "reduction_field": "epsilon_red=[u] in P/H",
+    "vertical_owner": "h=spin(9,5)=Lambda2 dimension 91",
+    "reduction_tangent": "g/h represented by m=grades 3,6,7,10,11,14 dimension 8165",
+    "executed_owner": "complete invariant Lambda3 slice dimension 364",
+    "graph_sign": "in declared convention DB_rot=-xi tensor chi_m while fixed-A DT=-DB_rot=+xi tensor chi_m",
+    "lc_return": "conservatively all W_h=T*Y tensor h dimension 1274",
+    "quotient_certificate": "nonzero class of C_xi(-xi tensor chi_m) in residual/C_xi(W_h)",
+    "residual_projection": "complete grade-three testers only; sufficient for nonzero quotient class but not all-grade rank or Hessian",
+    "carrier_fork": "active trace-reversed (9,5) right-H realization remains unidentified with Curt literal (7,7) complex presentation"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_SILENT_PLUS_CONSTRUCTION_CORRECTS",
+    "source_confirms": [
+      "2021 draft p.44 eq.9.4 completed T/Shiab/F_B plus one-half D_B T plus one-third bracket grammar",
+      "TOE official/local 02:17:07/02:19:17-02:20:33 gauge-rotated Levi-Civita displacement in contorsion slot",
+      "TOE trace-reversed Frobenius and contraction-not-projection"
+    ],
+    "source_silent_on": [
+      "named Shiab in this TOE episode",
+      "repository graph sign P/H tangent complement trace-line selector and exact transpose",
+      "active quotient ranks projected Gram all-grade residual primalizer prolongation characteristic kernel and domain"
+    ],
+    "construction_corrects": [
+      "local Spin lift direction is not a reduction tangent",
+      "direct xi-wedge-xi cancellation is not the full action graph coefficient",
+      "stabilizer-owned DM=-1 does not transfer to the selected quotient-grade direction where DM=0"
+    ]
+  },
+  "active_geometry": {
+    "dimension": 14,
+    "signature": [9, 5],
+    "trace_line_sign": -1,
+    "degree_two_hodge_square": -1,
+    "raw_frobenius_hostile_hodge_square": 1,
+    "trace_reversal_changes_coefficient_tensor": true,
+    "shiab_output_degree": 13
+  },
+  "reduction_tangent": {
+    "g_dimension": 8256,
+    "h_grade": 2,
+    "h_dimension": 91,
+    "quotient_grades": [3, 6, 7, 10, 11, 14],
+    "quotient_dimension": 8165,
+    "executed_grade": 3,
+    "executed_dimension": 364,
+    "H_invariance": "EXACT_ALL_91_BY_364_COMMUTATORS",
+    "vertical_lift_cancellation": "EXACT_ALL_91_DIRECTIONS",
+    "remaining_grades": "OPEN"
+  },
+  "residual_tester": {
+    "executed_grade": 3,
+    "dimension": 5096,
+    "formula": "14*binomial(14,3)",
+    "lc_return_domain": "T*Y tensor h",
+    "lc_return_dimension": 1274,
+    "all_grade_primalizer": "OPEN",
+    "grade_three_projection_sufficiency": "a nonzero class modulo projected A_graph(W_h) proves the full residual vector is outside A_graph(W_h), but does not give complete rank or Hessian"
+  },
+  "operator": {
+    "ell": "ell_xi(a)=S_tr(xi wedge a)",
+    "C_plus": "one_half(ell_xi+ell_xi_algebraic_top); equals the B2C13 graph package because sigma(L!)=-ell_algebraic_top in the real-jet convention",
+    "C_minus_control": "one_half(ell_xi-ell_xi_algebraic_top); executed separately on W_h to make the quotient convention-robust",
+    "reference_graph": "sigma(DB_rot)(xi)chi_m=-xi tensor chi_m",
+    "fixed_A_distortion_graph": "sigma(DT)(xi)chi_m=+xi tensor chi_m; overall sign does not change ranks",
+    "direct_half": "ZERO_BY_XI_WEDGE_XI",
+    "transpose_half": "NONZERO",
+    "primary_witness": {
+      "row": 364,
+      "column": 19,
+      "exact": "3/4",
+      "matrix_crosscheck": 0.75
+    },
+    "second_witness": {
+      "row": 365,
+      "column": 29,
+      "exact": "-3/4"
+    },
+    "normalization": "exact scalar coefficient; unnormalized RB1c half-ReTr differs by fixed positive factor"
+  },
+  "quotient_census": {
+    "base_spacelike": {
+      "q": 1,
+      "projected_W_h_ranks_direct_transpose_plus_minus": [0, 0, 0, 0],
+      "joint_rank": 364,
+      "quotient_rank": 364,
+      "projected_Gram_rank": 364
+    },
+    "base_null": {
+      "q": 0,
+      "projected_W_h_ranks_direct_transpose_plus_minus": [0, 0, 0, 0],
+      "joint_rank": 132,
+      "grade3_projected_quotient_rank_lower_bound": 132,
+      "projected_Gram_rank": 0
+    },
+    "base_spacelike_second": {
+      "q": 1,
+      "projected_W_h_ranks_direct_transpose_plus_minus": [0, 0, 0, 0],
+      "joint_rank": 364,
+      "quotient_rank": 364,
+      "projected_Gram_rank": 364
+    },
+    "base_spacelike_sum": {
+      "q": 2,
+      "projected_W_h_ranks_direct_transpose_plus_minus": [0, 0, 0, 0],
+      "joint_rank": 364,
+      "quotient_rank": 364,
+      "projected_Gram_rank": 364
+    },
+    "mixed_covector_grade3_projected_quotient_rank_lower_bound": 198,
+    "full_rank_Hessian_radical_inertia_characteristic_claims": "OPEN"
+  },
+  "moving_first_jet": {
+    "owner": "genuine quotient grade-three generator",
+    "raw_moved_components": ["trace gamma", "Phi1", "Phi2"],
+    "selected_projected_supports": [12, 9, 0],
+    "total_derivative": "NONZERO",
+    "six_permutation_DM": "0",
+    "other_quotient_grade_DM": "OPEN",
+    "scalar_density_control": {
+      "direct": "107/15",
+      "bulk": "-223/15",
+      "boundary": "22",
+      "scope": "nonzero-endpoint product-rule and sign control; not full active Green adjoint"
+    }
+  },
+  "order_and_preboundary": {
+    "active_residual_operator": "SECOND_ORDER_ON_GENUINE_GRADE3_REDUCTION_TANGENTS",
+    "order_collapse": "KILLED_ON_EXECUTED_QUOTIENT_SUBCHANNEL",
+    "complete_residual_square_Hessian": "OPEN",
+    "prolonged_trace_need": "LIVE_SECOND_JET_REQUIRES_CONSIDERATION_BUT_COMPLETE_CONORMAL_PACKET_NOT_YET_CONSTRUCTED",
+    "preboundary_potential": "OPEN",
+    "domain": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNCHANGED",
+    "P2": "UNCHANGED",
+    "P3": "UNCHANGED",
+    "used_for_quotient_tangent_shiab_symbol_graph_primalizer_conormal_domain_or_action": false
+  },
+  "curt_track": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c14_active_y14_shiab_graph_conormal_probe.py",
+    "runner": "uv run --with sympy python",
+    "exact": 28,
+    "source_receipts": 3,
+    "type_level_controls": 13,
+    "planted_rejections": 12,
+    "result": "28_EXACT_PLUS_3_SOURCE_PLUS_13_TYPE_PLUS_12_PLANTED_EQUALS_56_PASS",
+    "count_boundary": "projected quotient ranks witnesses projected Gram ranks moving derivative DM and scalar Green identity are computational; source and type rows are receipts or scope declarations"
+  },
+  "hostile_specialist_review": {
+    "protocol": "initial hostile review BLOCKER resolved in B2C14R followed by separate final rereviews with no forced aggregation",
+    "affine_cohomology": "PASS_NO_BLOCKER_AFTER_OWNER_AND_DB_DT_SIGN_REPAIR",
+    "krein_pde": "PASS_NO_BLOCKER_AFTER_PROJECTED_LOWER_BOUND_AND_GATE_ORDER_REPAIR",
+    "paired_source_axiom": "PASS_NO_BLOCKER_AFTER_ALGEBRAIC_TRANSPOSE_VERSUS_FORMAL_ADJOINT_CONVENTION_RESOLUTION"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal.json",
+    "report": "explorations/eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C15-FULL-QUOTIENT-GRADED-RESIDUAL-PRIMALIZER-AND-INDUCED-LC-GRAPH",
+  "next_gate_objective": "execute every quotient-owner grade against every residual grade or prove cross-grade vanishing; assemble all-grade residual primalizer; derive actual induced metric/LC graph and complete K_act; only then compute full block Hessian radical characteristic candidates and prolonged preboundary packet",
+  "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+}

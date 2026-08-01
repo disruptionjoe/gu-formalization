@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C14R descended quotient-grade graph coefficient`](eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal-2026-08-01.md)
+  records and repairs the hostile-review discovery that the first
+  78-dimensional owner was a vertical Spin lift. On the genuine invariant
+  grade-three slice of `g/h`, all lift directions cancel and the residual
+  graph survives modulo every possible `T*Y tensor h` LC return: rank 364 is
+  exact on the executed owner for tested non-null normals, while 132 null and
+  198 mixed are grade-three-projected lower bounds. The projected Gram is not
+  promoted to a full Hessian. The active residual is second order on this
+  quotient slice; all-grade primalizer, induced LC graph, and domain remain
+  open.
 - [`Eric/Curt Wave 3D-B2C13 residual symbols and staged preboundary jets`](eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md)
   proves on the existing exact noncentral G2 fixture that the compressed
   source residual and the selected action's exact Euler covector differ in

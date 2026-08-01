@@ -176,6 +176,15 @@ Runbooks:
   finite direct-sum Green control is not an active domain replay; the active
   `Q_B`, formal adjoint, staged packet, Green matrix, and mixed domain remain
   open. P1/P2/P3 remain unused.
+- `eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal.json` - Wave
+  3D-B2C14R hostile-review repair and descended quotient-grade gate. It
+  records that the first 78-dimensional owner was a vertical Spin lift, then
+  reconstructs `h=Lambda2`, `g/h`, exact lift cancellation, and the complete
+  grade-three quotient slice. The graph survives modulo every conservative
+  `T*Y tensor h` LC return. Rank 364 is exact on the executed non-null owner;
+  132 null and 198 mixed are grade-three-projected lower bounds. The Gram
+  block remains projected; the
+  all-grade residual primalizer, induced LC graph, and domain remain open.
 - `eric-curt-wave3d-b2c13-dupsilon-preboundary.json` - Wave 3D-B2C13
   bifurcated residual-symbol and preboundary-jet gate. It differentiates the
   compressed source residual and the selected G2 action's exact Euler

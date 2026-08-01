@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/eric_curt_wave3d_b2c14_active_y14_shiab_graph_conormal_probe.py`
+  executes the repaired descended owner: `h=Lambda2`, a complete invariant
+  grade-three slice of `g/h`, all vertical lift cancellations, and the
+  quotient of its residual image by every `T*Y tensor h` LC return. It
+  extracts exact non-null rank plus projected null/mixed lower bounds, a scoped
+  grade-three Gram comparator, native matrix representation cross-check,
+  quotient-owned moving-Shiab/`DM` response, and a nonzero-endpoint scalar
+  density control. Run it with `uv run --with sympy python`.
 - `channel-swings/eric_curt_wave3d_b2c13_dupsilon_preboundary_probe.py`
   keeps the compressed source residual and exact G2 action Euler covector
   separate, extracts their exact noncentral first-jet symbols, and proves a
