@@ -7,10 +7,12 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
-> created. Wave 1 constructs
+> created. Every major swing now requires both a pre-construction specialist
+> council and a post-construction hostile specialist review; concrete
+> blockers must be resolved and the probe rerun before commit. Wave 1 constructs
 > `VY+pi*T*X --(1+sharp_h)--> VY+pi*TX --Z_nabla--> TY`: after a metric and
 > horizontal split are declared it identifies the underlying rank-14 bundle,
 > but not the displayed real carriers. Literal real `(7,7)` and active `(9,5)`
@@ -490,7 +492,7 @@ updated_at: "2026-08-01"
 > norm, spoken inter-layer square/root, and unreleased two-connection `D^2`
 > remain three distinct objects. The active `(9,5)` right-`H` map is a
 > source-anchored repository port, not a global identification with the
-> literal `(7,7)` complex source arena. The probe passes
+> draft `Y^(7,7)` plus complex `C^(64,64)`/`u(64,64)`-type carrier. The probe passes
 > `27 computational + 5 source receipts + 15 type-level + 10 planted = 57`;
 > P1/P2/P3 remain unused. The next construction gate is
 > `ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM`:
@@ -498,6 +500,38 @@ updated_at: "2026-08-01"
 > slot-symmetrized `E_T_var`, return every moving Shiab/Hodge/density/graph
 > term, and derive both enlarged bosonic field-plus-conormal preboundary forms
 > before resuming the mixed-domain search.
+>
+> **Alternative-branch B2C13 result (2026-08-01): RESIDUAL SYMBOL FORK
+> EXECUTED / EXACT BRANCH NEEDS A PROLONGED BOUNDARY JET.** The compressed
+> source residual and the selected G2 action's exact Euler covector are now
+> differentiated as separate operators. Their difference contains
+> `1/2(L^!-L)T` plus the lower-order `M(T,T)-S q(T,T)` term, so the correction
+> is not merely a changed potential. On the existing exact B2C9 noncentral
+> fixture, 60 of 144 principal-symbol entries differ. In a fixed-`A`
+> reference-graph jet, the compressed source response is exactly `0` while
+> the exact-G2 response is exactly `1/2`; a cyclic/formal-self-adjoint control
+> kills the difference. Exact polynomial squares of both residuals return
+> every representative graph, moving-Shiab, Hodge/pseudo-musical, density,
+> and primalizer term and satisfy separate bulk-plus-boundary identities.
+> The jet primalizer is now density-correct:
+> `R_jet=rho^-1 Rbar_jet`, with its inverse lowerer explicitly checked.
+> Their preboundary forms are nonzero, antisymmetric, and unequal. In the
+> finite comparator the source branch remains first order in the graph field,
+> while the exact branch is second order and has a nonzero extra `z'`
+> conormal pair. The actual trace-reversed
+> `(9,5)` active `R_res` coefficient port separately retains balanced
+> `(14,14)` inertia and `D R=-R(D b)R` on two independent test covectors,
+> not constructed images of the two residuals. This is an
+> exact finite noncentral and local-jet construction, not the full native
+> `Y14` Shiab first jet or a selected domain. The probe passes
+> `43 exact + 4 source receipts + 15 type-level + 21 planted = 83`;
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C14-ACTIVE-Y14-SHIAB-FIRST-JET-AND-GRAPH-CONORMAL-PORT`: port the
+> actual trace-adapted native Shiab, moving formal adjoint, six-slot `DM`, and
+> full `B_rot` Levi--Civita/reduction graph. Compute `K_act` first: if nonzero,
+> build the prolonged active trace and characteristic kernel; if zero, record
+> active order collapse and use the reduced trace before the final
+> mixed-domain replay.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -531,6 +565,8 @@ updated_at: "2026-08-01"
 > `explorations/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md`
 > and
 > `explorations/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

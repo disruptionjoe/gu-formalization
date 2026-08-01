@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C13 residual symbols and staged preboundary jets`](eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md)
+  proves on the existing exact noncentral G2 fixture that the compressed
+  source residual and the selected action's exact Euler covector differ in
+  60/144 principal-symbol entries, with a fixed-`A` graph response of `0`
+  versus `1/2`. Separate moving residual squares give exact, nonzero, unequal
+  preboundary forms using a density-correct inverse-density primalizer. In
+  the finite comparator the source graph packet is first order while the
+  exact branch is second order with a live extra conormal pair. Active `Y14`
+  graph nonvanishing, the native first-jet port, and mixed domain remain open.
 - [`Eric/Curt Wave 3D-B2C12 active staged action and moving residual primalizer`](eric-curt-wave3d-b2c12-active-staged-action-2026-08-01.md)
   constructs the trace-reversed `(9,5)` residual lowerer and its inverse
   primalizer on an active adjoint slice, returns the moving-pairing term with

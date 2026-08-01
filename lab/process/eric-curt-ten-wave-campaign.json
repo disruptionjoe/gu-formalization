@@ -24,6 +24,13 @@
     "evidence_boundary": "author statements guide construction and attribution but are not mathematical evidence",
     "retroactive_repair": "lab/process/eric-curt-wave3c-y14-atlas-cauchy-domain.json"
   },
+  "specialist_dual_pass_protocol": {
+    "status": "REQUIRED_FOR_EACH_MAJOR_SWING",
+    "pre_construction": "run divergent relevant specialist lenses before implementation to identify Layer-0 objects, highest-information construction, shortcuts, source collisions, and pre-registered kill conditions",
+    "post_construction": "run independent hostile specialist review after the packet and probe exist to audit mathematics, typing, source fidelity, scope, evidence accounting, and next-gate selection",
+    "disposition": "resolve every concrete blocker and rerun validation before commit; report rival specialist verdicts without forced aggregation",
+    "b2c13_receipt": "pre-pass supplied the source-versus-variational symbol and preboundary formulas; hostile pass corrected 9.15-versus-9.20 attribution, source-count categorization, inverse-density R_jet typing, active-Y14 scope, and tautological evidence rows"
+  },
   "third_lane_promotion_gate": {
     "logic": "TG-1 AND TG-2 AND TG-3",
     "TG-1": "A load-bearing carrier non-equivalence survives convention, complexification, and source-typing checks.",
@@ -379,7 +386,23 @@
                                         "probe": "tests/channel-swings/eric_curt_wave3d_b2c12_active_staged_action_probe.py",
                                         "report": "explorations/eric-curt-wave3d-b2c12-active-staged-action-2026-08-01.md",
                                         "alternative_branch_next_gate": "ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM",
-                                        "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                        "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY",
+                                        "wave3d_b2c13": {
+                                          "status_boundary": "COMPRESSED_SOURCE_RESIDUAL_AND_EXACT_G2_ACTION_EULER_DIFFERENTIATED_AS_DISTINCT_OPERATORS__EXACT_B2C9_NONCENTRAL_FIXTURE_HAS_60_OF_144_PRINCIPAL_SYMBOL_ENTRIES_DIFFERENT__FIXED_A_GRAPH_JET_SOURCE_ZERO_EXACT_G2_ONE_HALF__DENSITY_TYPED_RJET_EQUALS_RHO_INVERSE_RBAR_AND_BOTH_MOVING_SQUARE_VARIATIONS_RETURN_GRAPH_SHIAB_HODGE_DENSITY_AND_PRIMALIZER__FINITE_COMPARATOR_SOURCE_PREBOUNDARY_FIRST_ORDER_AND_EXACT_PREBOUNDARY_SECOND_ORDER_WITH_LIVE_Z_PRIME_CONORMAL__NONZERO_UNEQUAL_OMEGAS__ACTIVE_9_5_RRES_COEFFICIENT_PORT_PASS__ACTIVE_Y14_GRAPH_NONVANISHING_TRACE_CHARACTERISTIC_KERNEL_AND_MIXED_DOMAIN_OPEN",
+                                          "source_collision": "SOURCE_CONFIRMS_MANUSCRIPT_BOSONIC_NORM_FORMAL_ADJOINT_ALTERNATIVE_COUPLINGS_MODERN_TWO_LAYERS_UNRELEASED_TWO_CONNECTION_OBJECT_AND_PULLBACK_ROUTE__SOURCE_CORRECTS_COMPRESSED_RESIDUAL_VERSUS_EXACT_G2_EULER_DSTAR_HOMONYMS_REPO_RRES_AND_PREBOUNDARY_PROVENANCE__SOURCE_SILENT_ON_ACTIVE_Y14_FIRST_JET_MOVING_LSTAR_DM_TRACE_THEOREM_AND_DOMAIN",
+                                          "branch_difference": "E_VAR_MINUS_E_SRC_EQUALS_ONE_HALF_LSTAR_MINUS_L_T_PLUS_M_T_T_MINUS_S_Q_T_T__FORMAL_ADJOINT_TERM_CHANGES_PRINCIPAL_SYMBOL__CUBIC_TERM_LOWER_ORDER",
+                                          "symbol": "EXISTING_EXACT_NONCENTRAL_G2_FIXTURE_60_OF_144_ENTRIES_DIFFER__FIXED_A_GRAPH_SOURCE_ZERO_VARIATIONAL_ONE_HALF__CYCLIC_CONTROL_ZERO",
+                                          "moving_square": "BOTH_BRANCHES_PASS_COMPLETE_A_GRAPH_SHIAB_HODGE_DENSITY_DR_RETURN_AND_INVERSE_SIGN_WITH_RJET_EQUALS_RHO_INVERSE_RBAR__FROZEN_OR_OMITTED_LIVE_TERMS_REJECTED",
+                                          "preboundary": "FINITE_COMPARATOR_SOURCE_ORDERS_A1_Z1_G0_WITH_THREE_CONORMAL_SLOTS__VARIATIONAL_ORDERS_A1_Z2_G1_WITH_FIVE_CONORMAL_SLOTS__LIVE_EXTRA_ZPRIME_CONORMAL__BOTH_OMEGAS_NONZERO_ANTISYMMETRIC_UNEQUAL__NO_DOMAIN_SELECTED__ACTIVE_ORDER_OPEN",
+                                          "active_residual_port": "TRACE_REVERSED_9_5_RIGHT_H_KREIN_CPLUS_28D_PORT_RETAINS_BALANCED_14_14_BRES_RRES_AND_DR_EQUALS_MINUS_R_DB_R_ON_INDEPENDENT_TEST_COVECTORS__GLOBAL_FINITE_JET_INTERTWINER_OPEN",
+                                          "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED__NO_RESIDUAL_DERIVATIVE_SYMBOL_PAIRING_CONORMAL_DOMAIN_OR_ACTION_SUPPLIED",
+                                          "registry": "lab/process/eric-curt-wave3d-b2c13-dupsilon-preboundary.json",
+                                          "probe": "tests/channel-swings/eric_curt_wave3d_b2c13_dupsilon_preboundary_probe.py",
+                                          "report": "explorations/eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md",
+                                          "alternative_branch_next_gate": "ECW3D-B2C14-ACTIVE-Y14-SHIAB-FIRST-JET-AND-GRAPH-CONORMAL-PORT",
+                                          "next_gate_fork": "COMPUTE_K_ACT_FIRST__IF_NONZERO_BUILD_PROLONGED_TRACE_AND_CHARACTERISTIC_KERNEL__IF_ZERO_RECORD_ACTIVE_ORDER_COLLAPSE_AND_USE_REDUCED_TRACE",
+                                          "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                        }
                                       }
                                     }
                                   }
@@ -400,7 +423,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
         "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-        "alternative_branch_next_swing": "ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM"
+        "alternative_branch_next_swing": "ECW3D-B2C14-ACTIVE-Y14-SHIAB-FIRST-JET-AND-GRAPH-CONORMAL-PORT"
       }
     },
     {

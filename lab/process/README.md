@@ -176,6 +176,19 @@ Runbooks:
   finite direct-sum Green control is not an active domain replay; the active
   `Q_B`, formal adjoint, staged packet, Green matrix, and mixed domain remain
   open. P1/P2/P3 remain unused.
+- `eric-curt-wave3d-b2c13-dupsilon-preboundary.json` - Wave 3D-B2C13
+  bifurcated residual-symbol and preboundary-jet gate. It differentiates the
+  compressed source residual and the selected G2 action's exact Euler
+  covector separately. The existing exact noncentral fixture gives 60/144
+  unequal principal-symbol entries and a fixed-`A` graph witness of source
+  `0` versus exact-G2 `1/2`. Both squared residuals return live graph, Shiab,
+  Hodge, density, and moving-primalizer terms and satisfy exact Green
+  identities using `R_jet=rho^-1 Rbar_jet`. In the finite comparator the
+  source packet is first order; the exact packet is second order in the graph
+  field and has a live extra conormal pair. The active `(9,5)` coefficient
+  port passes on independent test covectors, while active graph-symbol
+  nonvanishing, the native `Y14` first jet, characteristic trace, and mixed
+  closed domain remain open. P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2c12-active-staged-action.json` - Wave 3D-B2C12 active
   staged-action and moving residual-primalizer gate. It types the manuscript
   bosonic residual as dual/13-form shaped, constructs the inverse

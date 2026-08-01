@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/eric_curt_wave3d_b2c13_dupsilon_preboundary_probe.py`
+  keeps the compressed source residual and exact G2 action Euler covector
+  separate, extracts their exact noncentral first-jet symbols, and proves a
+  60/144 symbol difference plus a fixed-`A` graph response of `0` versus
+  `1/2`. With an explicit first-jet reference graph it derives both moving
+  residual-square variations, exact bulk/Green identities, conormal packets,
+  and nonzero unequal presymplectic forms using the density-correct
+  `R_jet=rho^-1 Rbar_jet`. The finite exact-action comparator has a live
+  second-order graph/Ostrogradsky pair; the active `Y14` analogue is open.
+  Run it with
+  `uv run --with sympy python`.
 - `channel-swings/eric_curt_wave3d_b2c12_active_staged_action_probe.py`
   constructs the active trace-reversed `(9,5)` residual lowerer and inverse
   primalizer, returns its full local metric variation, and verifies the
