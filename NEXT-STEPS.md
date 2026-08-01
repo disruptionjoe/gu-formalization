@@ -7,7 +7,7 @@ updated_at: "2026-07-31"
 
 # Next Steps For Contributors
 
-> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A GATES
+> **2026-07-31 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -187,6 +187,28 @@ updated_at: "2026-07-31"
 > scopes; P1/P2/P3 remain unused. On this alternative branch the next gate is
 > `ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK`;
 > the guided branch may independently continue B2C2B.
+> Wave 3D-B2C3 now transcribes draft equations 9.16--9.18 directly and corrects
+> the remaining source premise. The draft fixes a physical
+> `Omega1(S)+Omega0(S)` matrix with Shiab-of-`d`, `d`, and `d*` blocks, but
+> explicitly leaves the Shiab in a family and says the former Bianchi-based
+> selector calculation is unavailable. Inserting the repo's canonical natural
+> Clifford contraction into that open slot gives
+> `A(k)=K(k)Gamma-M(k)`. Both displayed codifferential signs yield the same
+> exact right-`H` section evolution, but it retains a nonzero rank-128
+> square-zero Jordan remainder and therefore no positive full-carrier one-time
+> symmetrizer. The Jordan image is exactly
+> `K(k+)ker c(k+) direct-sum K(k-)ker c(k-)`: the physical null-Dirac emission
+> through `d nu`, not an established gauge orbit. A full-`d` characteristic
+> quotient is algebraically semisimple, has explicit positive right-`H`
+> symmetrizer `H=P+(PEP)^dagger(PEP)`, and leaves observed quotient rank 384 in
+> four directions. It is not promoted because `nu` is a physical field, the
+> displayed square symbol has no nonzero polynomial right syzygy, and no
+> distinct ghost/Noether identity owns the quotient. The probe passes
+> `22 exact + 11 planted = 33`. The active geometry remains the
+> trace-reversed `(3,1)+(6,4)=(9,5)` carrier; the draft's `(7,7)` real form is
+> not identified with it. P1/P2/P3 remain unused. The alternative next gate is
+> `ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR`; the guided
+> branch may continue B2C2B independently.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -206,6 +228,8 @@ updated_at: "2026-07-31"
 > `explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md`
 > and
 > `explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

@@ -231,7 +231,23 @@
                     "probe": "tests/channel-swings/eric_curt_wave3d_b2c2_null_clifford_omega1_completion_probe.py",
                     "report": "explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md",
                     "guided_branch_next_gate_retained": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
-                    "alternative_branch_next_gate": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK"
+                    "alternative_branch_next_gate": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK",
+                    "wave3d_b2c3": {
+                      "status_boundary": "SOURCE_MATRIX_EXPLICIT_BUT_SHIAB_SELECTOR_OPEN__CANONICAL_CLIFFORD_SHIAB_RETAINS_RANK128_SQUARE_ZERO_JORDAN__CONDITIONAL_CHARACTERISTIC_QUOTIENT_POSITIVE_BUT_NOT_ACTION_DERIVED__FULL_SHIAB_FAMILY_AND_SOURCE_CONSTRAINT_OPEN",
+                      "source_matrix": "PHYSICAL_OMEGA1_ZETA_PLUS_OMEGA0_NU_WITH_SHIAB_D_D_DSTAR_AND_DISPLAYED_ZERO_SOUTHEAST_BLOCK",
+                      "source_scope_correction": "DRAFT_EXPLICITLY_LEAVES_SHIAB_IN_A_FAMILY_AND_LOST_BIANCHI_SELECTOR_UNAVAILABLE__CANONICAL_CLIFFORD_CONTRACTION_NOT_UNIQUELY_SOURCE_FORCED",
+                      "canonical_middle": "A_K_EQUALS_K_GAMMA_MINUS_M_K__A_K_K_K_EQUALS_ZERO",
+                      "pde_collision": "BOTH_CODIFFERENTIAL_SIGNS_HAVE_IDENTICAL_RIGHT_H_SECTION_EVOLUTION_WITH_NONZERO_RANK128_SQUARE_ZERO_JORDAN_REMAINDER",
+                      "jordan_factorization": "IM_N_XI_EQUALS_K_KPLUS_KER_C_KPLUS_DIRECT_SUM_K_KMINUS_KER_C_KMINUS__PHYSICAL_NULL_DIRAC_EMISSION_NOT_DECLARED_GAUGE",
+                      "off_shell_gate": "D_K_TIMES_K_K_ZERO_EQUALS_ZERO_PLUS_OR_MINUS_QFORM_I__CHARACTERISTIC_ONLY__DISPLAYED_SQUARE_POLYNOMIAL_RIGHT_SYZYGY_MODULE_ZERO",
+                      "conditional_quotient": "SEMISIMPLE_POSITIVE_RIGHT_H_AND_OBSERVER_QUOTIENT_RANK384_IN_FOUR_DIRECTIONS__NOT_ACTION_DERIVED",
+                      "trace_reversed_geometry": "ACTIVE_3_1_PLUS_6_4_EQUALS_9_5_RIGHT_H_PORT__DRAFT_7_7_REAL_FORM_NOT_IDENTIFIED",
+                      "external_datum": "P1_P2_P3_UNCONSUMED_AND_UNCHANGED",
+                      "registry": "lab/process/eric-curt-wave3d-b2c3-rolled-omega-source-shiab.json",
+                      "probe": "tests/channel-swings/eric_curt_wave3d_b2c3_rolled_omega_source_shiab_probe.py",
+                      "report": "explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md",
+                      "alternative_branch_next_gate": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR"
+                    }
                   }
                 }
               }
@@ -242,7 +258,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
         "active_next_swing": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
-        "alternative_branch_next_swing": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK"
+        "alternative_branch_next_swing": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR"
       }
     },
     {

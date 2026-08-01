@@ -123,6 +123,15 @@ Runbooks:
   `Omega1(S)` Clifford module, removes the projected Jordan remainder, and
   retains observation. The rolled action, BV law, and analytic domain remain
   open.
+- `eric-curt-wave3d-b2c3-rolled-omega-source-shiab.json` - Wave 3D-B2C3
+  direct-source matrix and canonical-Shiab collision. Draft equations
+  9.16--9.18 fix the physical `Omega1(S)+Omega0(S)` block shape while the
+  manuscript explicitly leaves the Shiab selector in a family. The canonical
+  Clifford candidate gives `K Gamma-M`, retains a rank-128 square-zero Jordan
+  part, and has zero polynomial right-syzygy. Its Jordan image is the physical
+  null-Dirac `d nu` emission. A positive observer-nontrivial characteristic
+  quotient is retained only as a conditional control; the next gate searches
+  the full Shiab family and a source-derived propagated constraint.
 - `eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction.json` - Wave
   3D-B2B full positive-symmetrizer gate. Each tested nonzero spatial
   generator has a nonzero rank-128 square-zero quadratic remainder, so it is

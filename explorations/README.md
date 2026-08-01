@@ -13,13 +13,24 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C3 rolled source matrix/canonical-Shiab collision`](eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md)
+  transcribes draft equations 9.16--9.18, corrects the claim that the
+  manuscript uniquely selects a Shiab, and tests the repo's canonical
+  Clifford contraction in the open slot. The resulting right-`H` rolled
+  symbol retains a rank-128 square-zero Jordan part whose endpoints are
+  exactly the physical null-Dirac `d nu` images. A positive observed
+  characteristic quotient is only conditional; the next gate searches the
+  complete Shiab family, Bianchi/formal-adjoint selector, and a source-derived
+  propagated constraint that retains physical endpoints.
+
 - [`Eric/Curt Wave 3D-B2C2 parallel null-Clifford/full-Omega1 completion`](eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md)
   identifies every isolated-W131 rank-64 characteristic half with the
   target-blind image `im T(k)c(k)`, then restores the forced gamma-trace
   companion. The complete `Omega1(S)` Clifford symbol has a positive
   right-`H` Lorentz-section energy, zero Jordan remainder, and retains the
-  rank-512 observed carrier. The result selects the full rolled source action
-  as the next construction; it is not yet a BV complex or physical recovery.
+  rank-512 observed carrier. B2C3 above shows that the first canonical
+  source-shaped Shiab candidate does not select this positive completion; the
+  control remains valid but is not yet a BV complex or physical recovery.
 
 - [`Eric/Curt Wave 3D-B2C2A tau-tangent/BV type and curvature collision`](eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md)
   verifies that the source-backed ordinary tau tangent
