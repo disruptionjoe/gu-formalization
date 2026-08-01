@@ -13,6 +13,18 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C9 first-jet Euler, fermion-current, and preboundary comparators`](eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md)
+  upgrades the graph-source Euler object with the missing first-jet divergence
+  and proves its local coadjoint law; the old reconstruction fails a
+  pure-`dchi` control. The independent-dual fermion action shows that the
+  zero-southeast scalarized comparator matches the three draft bilinear
+  monomials, whereas the repair predicts a candidate
+  `ell bar_nu tensor nu` channel. A `T=A-B` formal owner chain is returned for
+  supplied `delta B`; a generic same-field moving-lowerer control and additive
+  unsymmetrized-fermion plus G3-shaped Green comparator close. The actual LC
+  graph, active current, constrained Grassmann/full-Hessian lift, selected
+  symmetrized total form, and common domain remain open. No datum is consumed.
+
 - [`Eric/Curt Wave 3D-B2C8 active-primalizer and source-forked Euler discriminator`](eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md)
   constructs exact local connection and independent-dual fermion Hodge/Krein
   inverses on the active trace-reversed `(9,5)` right-`H` carrier. Both
@@ -24,10 +36,10 @@ these for the full working record; the durable, reviewed results live in `canon/
   obstruction. Fixture-local compatibility-codimension tests reject the
   missing Euler term. Finite constant-conjugation covariance supports a
   transparent, repo-proposed `D E_T` completion of the 2021 deformation
-  architecture, but the local gauge tangent, coadjoint sign, and full tuple
-  remain open. No external datum is consumed. B2C9 owns the
-  total constrained-real fermion action, current/stress, and preboundary
-  return.
+  architecture. B2C9 subsequently executes the finite first-jet tangent and
+  scalarized current/Green comparators; B2C10 owns the active constrained-real
+  current/stress, selected symmetrized preboundary, and full-tuple return. No
+  external datum is consumed.
 
 - [`Eric/Curt Wave 3D-B2C7 typed somatic/common-owner target and 2021/2025 source-fork gate`](eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md)
   records Weinstein's 2025 correction from projection to contraction and

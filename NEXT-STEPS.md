@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9 GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Wave 1 constructs
@@ -366,6 +366,34 @@ updated_at: "2026-08-01"
 > the moving constrained-real `zeta/nu` action, derive its current and stress
 > returns into the full graph Euler tuple, and close the total preboundary
 > current before final observation/reduction or Poisson language.
+> Wave 3D-B2C9 now advances that gate at exact finite-architecture level. The
+> bosonic Euler object is upgraded from the old twelve-coordinate algebraic
+> partial derivative to a full first-jet Euler covector. It obeys the invariant
+> coadjoint sign with nonzero `dchi`; a pure-`dchi` plant kills the old
+> reconstruction while the completed object vanishes correctly. An
+> independent-dual two-connection fermion action closes its all-slot variation
+> and ordinary first-jet gauge Ward identity. Its separate currents are
+> `J_A=(r bar_zeta+ell bar_nu) tensor nu` and
+> `J_B=(w bar_zeta+s bar_nu) tensor zeta`. The zero-southeast shared-connection
+> comparator matches the draft's three bilinear monomials, while the nonzero
+> southeast comparator predicts a candidate `ell bar_nu tensor nu` channel;
+> active projection and nonvanishing remain open. A zero-order `T=A-B`
+> placement returns `J_A+J_T` to `A` and the intermediate `J_B-J_T` covector
+> for a supplied `delta B`; the actual LC/reduction derivatives and transposes
+> remain open. A generic same-field moving-indefinite-lowerer control carries
+> one lowerer term and `delta R=-R(delta b)R`; it is not yet the active
+> constrained-real pullback. An additive G3-shaped plus unsymmetrized-fermion
+> Green comparator closes and is nonzero, but it is not the selected B2C5
+> symmetrized total form. The probe passes
+> `22 computational exact + 4 source receipts + 17 type-level + 11 planted = 54`;
+> P1/P2/P3 remain unused and
+> unchanged. The next gate is
+> `ECW3D-B2C10-ACTIVE-9_5-SOURCE-CURRENT-REPAIR-AND-FULL-TUPLE-HESSIAN`:
+> lift the current discriminator to the actual rolled carrier, enumerate
+> natural equivariant `M0`, reconcile or separate the written source current
+> and semisimple southeast repair, execute all moving trace-reversed geometric
+> returns, and verify the full-tuple differentiated Ward identity. Only then
+> rerun B2C6B against the recomputed total Green form.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -397,6 +425,8 @@ updated_at: "2026-08-01"
 > `explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md`
 > and
 > `explorations/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 

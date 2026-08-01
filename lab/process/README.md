@@ -152,6 +152,17 @@ Runbooks:
   isotropic. Levi-Civita right-composition fixtures pass; left closure,
   admissible GU curvature/jet remainders, the differential G2/G3 Euler module,
   and analytic domain remain open.
+- `eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary.json` - Wave
+  3D-B2C9 first-jet Euler, fermion-current, graph-return, and total-preboundary
+  gate. It upgrades the bosonic Euler object with the missing horizontal
+  divergence and passes the nonzero-`dchi` coadjoint law while the old
+  zero-jet reconstruction fails a pure-`dchi` control. The independent-dual
+  action derives separate `J_A`/`J_B` currents: the zero-southeast scalarized
+  comparator matches the draft's bilinear alphabet, while the repaired
+  comparator predicts a candidate `ell bar_nu tensor nu` channel. A generic
+  same-field moving-lowerer control and an additive unsymmetrized-fermion plus
+  G3-shaped Green comparator close; neither is yet the active constrained-real
+  pullback or selected B2C5 total form. P1/P2/P3 remain unused.
 - `eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map.json` -
   Wave 3D-B2C8 active-primalizer and source-forked square discriminator. Finite
   architecture controls build exact Hodge/Krein inverses for the connection
