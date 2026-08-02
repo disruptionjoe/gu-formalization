@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-01"
+updated_at: "2026-08-02"
 ---
 
 # Explorations
@@ -13,6 +13,19 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15P source-epsilon tangent, distortion reduction, and exact Zorro/DeWitt jet`](eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt-2026-08-02.md)
+  proves the direct equivariant `h -> m` epsilon/reduction tangent bridge is
+  zero, then constructs the source-distortion alternative
+  `c3 Alt(delta T)+c11 *Alt(delta T)` as a tilted-descended rank-364 partial
+  reduction for every nonzero coefficient pair, with an explicit
+  7801-dimensional cokernel and unselected ratio.
+  It branches literal versus genuinely omega-dependent Shiab variation and
+  builds the exact curved LC-horizontal connection metric
+  `G_Y=h+D_h(theta,theta)` through its local spin-curvature jet. The
+  observation pullback passes, the product surrogate fails 40 components,
+  all 71 spin-curvature legs pass active reality, and the selected
+  diagonal-Spin stabilizer is `6` inside `91`. The full Shiab/action return,
+  nonlinear reduction completion, global BV/domain, and physics remain open.
 - [`Eric/Curt Wave 3D-B2C15O source-coordinate return and selected coefficient-fixture stabilizer`](eric-curt-wave3d-b2c15o-native-y14-background-stabilizer-2026-08-01.md)
   corrects the fixed-total-connection variation on the literal epsilon-Shiab
   branch: `E_varpi=E_T`, while the metric equation gains the live term

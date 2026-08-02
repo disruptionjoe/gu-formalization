@@ -225,6 +225,20 @@ Runbooks:
   and held-out `28`, not full Zorro/DeWitt Y14 action-jet or ambient
   stabilizers. The odot fork, epsilon tangent bridge, real-form port, full
   native coefficient, global pushforward, BV quotient, and domain remain open.
+- `eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt.json` - Wave
+  3D-B2C15P direct-tangent, distortion-reduction, and curved Zorro-jet gate.
+  Exact representation theory kills the direct equivariant source-epsilon
+  `h -> m` bridge. The tilted-descended distortion instead supplies a
+  two-parameter rank-364 grade-3/11 candidate for every nonzero coefficient
+  pair, with a 7801-dimensional cokernel and no selected ratio. Conditional
+  zero-order and differential `odot_omega` responses are returned inside the
+  existing varpi owner with the correctly scoped formal-adjoint/Green terms.
+  The LC-horizontal connection metric is constructed through exact local
+  Riemann and spin curvature; its observation pullback passes while the
+  product surrogate fails 40 components. All 71 spin-curvature legs pass
+  active right-`H`/Krein/`C+` identities, and the scoped diagonal-Spin
+  stabilizer is `6` inside `91`. Full Shiab/action return, nonlinear reduction
+  completion, BV/domain, and physics remain open.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving

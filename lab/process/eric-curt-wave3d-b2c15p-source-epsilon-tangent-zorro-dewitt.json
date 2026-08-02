@@ -1,0 +1,152 @@
+{
+  "artifact": "ECW3D_B2C15P_SOURCE_EPSILON_TANGENT_DISTORTION_REDUCTION_AND_ZORRO_DEWITT_JET",
+  "status": "PARTIAL_CONSTRUCTION_PASS_WITH_DIRECT_EPSILON_BRIDGE_KILLED_DISTORTION_BRIDGE_OPENED_AND_EXACT_CONNECTION_METRIC_JET",
+  "status_boundary": "SOURCE_EPSILON_TANGENT_H_AND_REPOSITORY_REDUCTION_TANGENT_M_SEPARATED__HOM_H_H_TO_M_ZERO_BY_EXACT_CASIMIR__TILTED_SOURCE_DIRECTION_DESCENDS_ONLY_THROUGH_DISTORTION__ALT_PLUS_HODGE_ALT_GIVES_TWO_PARAMETER_RANK364_GRADE3_11_PARTIAL_REDUCTION_WITH_COKERNEL7801_FOR_EVERY_NONZERO_COEFFICIENT_PAIR__ZERO_PAIR_RANK0__NO_COEFFICIENT_SELECTION__LITERAL_ODOT_EPSILON_AND_GENUINE_ODOT_OMEGA_BRANCHES_SEPARATED__NONZERO_ZERO_ORDER_D_VARPI_ODOT_RETURN_PRICED_IN_EXISTING_VARPI_OWNER_WITH_EXACT_BULK_PREBOUNDARY_IDENTITY_NO_NEW_COEFFICIENT_GREEN__DERIVATIVE_SIGMA_FORMAL_ADJOINT_AND_GREEN_PLANT_PASS__LC_HORIZONTAL_ZORRO_CONNECTION_METRIC_G_EQUALS_H_PLUS_DEWITT_THETA_THETA_CONSTRUCTED_AT_CONSTANT_CURVATURE_NORMAL_BASE_THREE_JET__EXACT_G_DG_D2G_LC_RIEMANN_SPIN_CURVATURE__OBSERVATION_PULLBACK_IDENTITY_PASS__PRODUCT_BLOCKDIAG_SURROGATE_FAILS40_SECOND_JET_COMPONENTS__ALL71_SPIN_CURVATURE_LEGS_PASS_ACTIVE_RIGHT_H_KREIN_CPLUS_WORDS__DIAGONAL_SPIN_STABILIZER6_INSIDE91__NOT_SOURCE_UNIQUE_FULL_SOURCE_SHIAB_ACTION_BV_DOMAIN_VACUUM_OR_PHYSICS",
+  "run": "RUN-20260802-052039-gu-formalization-ecw3d-b2c15p-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_epsilon": "H-valued gauge transformation with infinitesimal zeta in h",
+    "tilted_tangent": "d tau_A(zeta)=(zeta,D_A zeta) in the tilted-subgroup graph",
+    "repository_reduction": "epsilon_red in G/H with tangent m=g/h",
+    "source_distortion": "in the right-trivialized local source chart zeta=epsilon^-1 delta epsilon and A=q_g(epsilon)=epsilon^-1 D0 epsilon, delta T=alpha-D_A zeta; not a global formula for arbitrary A",
+    "shiab_fork": [
+      "literal equations 9.2-9.3 odot_epsilon with D_varpi odot=0",
+      "conditional genuine odot_omega with separately supplied Sigma_varpi=D_varpi odot"
+    ],
+    "metric_fork": [
+      "product-gauge blockdiag(h,D_h) comparator",
+      "LC-horizontal connection metric h+D_h(theta,theta)",
+      "arbitrary compatible pseudo-Riemannian (9,5) jet"
+    ],
+    "jet_grades": [
+      "base metric three-jet",
+      "total-space metric two-jet",
+      "LC and spin-curvature jet",
+      "full source-action coefficient jet",
+      "stationary global physical background"
+    ],
+    "real_form_fork": "source (7,7), active trace-reversed (9,5) right-H/Krein carrier, and common complexification remain distinct"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "draft pp43-44 and pp56-57 own omega=(epsilon,varpi), T=varpi-epsilon^-1 d0 epsilon, and source fixed-varpi coordinates",
+      "TOE 02:19:49 states the tilted homomorphism and double-coset pattern",
+      "Portal/Oxford 02:23:30-02:23:52 states the metric to LC to gimmel to spin chain",
+      "TOE 00:26:28-00:29:16 constrains the fibre pairing by trace reversal"
+    ],
+    "REPOSITORY_DERIVES_FROM_CONFIRMED_LITERAL_FORMULA": [
+      "draft equations 9.2-9.3 source-confirm the displayed epsilon-only Shiab syntax; direct inspection derives D_varpi Shiab=0 only for that literal formula"
+    ],
+    "SOURCE_CORRECTS": [
+      "the source tilted homogeneous-space tangent and repository finite Clifford-plane G/H tangent are homonyms, not one owner"
+    ],
+    "SOURCE_SILENT": [
+      "a direct epsilon to epsilon_red tangent bridge",
+      "the distortion-to-grade3/11 alternation bridge and its coefficient ratio",
+      "whether equation 9.4 odot_omega is the literal epsilon family or genuinely varpi-dependent",
+      "the coordinate formula or uniqueness of the reconstructed Zorro connection metric",
+      "a complete source-(7,7) to active-(9,5) connection/action port",
+      "the full native fixed-varpi Shiab coefficient, global BV quotient, analytic domain, vacuum, and physics"
+    ]
+  },
+  "direct_epsilon_bridge": {
+    "candidate": "H-equivariant zero-jet map h=Lambda2 to m=Lambda3+Lambda6+Lambda7+Lambda10+Lambda11+Lambda14",
+    "casimir_h": 24,
+    "casimir_m": [33, 48, 49, 40, 33, 0],
+    "Hom_H_h_m": 0,
+    "all_direct_projections": "91/91 ZERO",
+    "SO3_SO2_plant": "projection is zero at u=e and nonzero after a supplied exact quarter-turn reduction background",
+    "verdict": "DIRECT_CANONICAL_ZERO_JET_BRIDGE_KILLED; derivative or extra soldering/background data required"
+  },
+  "distortion_reduction_candidate": {
+    "input": "delta T=alpha-D_A zeta in V* tensor Lambda2, with zeta=epsilon^-1 delta epsilon and A=q_g(epsilon) in the right-trivialized local source chart",
+    "map": "L_(c3,c11)(delta T)=c3 Alt(delta T)+c11 star Alt(delta T)",
+    "target": "Lambda3 plus Lambda11 inside m",
+    "tilted_descent": "PASS; alpha=D_A zeta gives delta T=0",
+    "full_generator_equivariance": "91 so(9,5) generators x 1274 source basis elements PASS for Alt and star-Alt",
+    "rank_condition": "(c3,c11) != (0,0); the zero pair has rank 0 and full-m cokernel 8165",
+    "pointwise_rank": 364,
+    "pointwise_kernel": 910,
+    "full_m_cokernel": 7801,
+    "fixed_nonzero_conormal_rank": 78,
+    "fixed_nonzero_conormal_kernel": 13,
+    "fixed_nonzero_conormal_full_m_cokernel": 8087,
+    "selection": "symmetry admits independent (1,0) and (0,1) branches; no current source or datum selects the ratio",
+    "grade": "REPOSITORY_CANDIDATE_CONDITIONAL_ON_REAL_FORM_PORT; not stated by Weinstein and not a full reduction"
+  },
+  "odot_branch": {
+    "literal": "D_varpi odot_epsilon=0 and B2C15O E_varpi=E_T survives",
+    "genuine_omega": "E_varpi=E_T+sum_r (D_varpi r)^! Pi_r inside the existing varpi owner, where ! is the formal adjoint for the action density/Krein pairing and r ranges over every moving Shiab, density, pairing, Hodge, and lowerer slot",
+    "exact_noncentral_witness": "zero-order algebraic conditional coefficient insertion has nonzero Pi_odot, a zero-control, and exact bulk-plus-preboundary identity; it creates no separate coefficient Green term, while the separate derivative Sigma=D_x plant verifies Sigma^!=-D_x with direct=4/3, bulk=-5/3, and isolated Green boundary=3",
+    "owner_count": "unchanged; no second varpi owner",
+    "derivative_sigma_plant": "Sigma=D_x gives Sigma^!=-D_x, direct=4/3, bulk=-5/3, isolated Green boundary=3; omitted-boundary and raw-derivative plants fail",
+    "selection_status": "OPEN_SOURCE_SILENT; future surplus requires a preregistered finite equivariant ansatz, parameter count, constraint-Jacobian rank, planted matcher, and heldouts"
+  },
+  "zorro_connection_metric": {
+    "base_fixture": "exact unit-constant-curvature Lorentzian normal base three-jet with nabla R=0",
+    "vertical_metric": "D_h(p,q)=tr(h^-1 p h^-1 q)-1/2 tr(h^-1 p)tr(h^-1 q)",
+    "horizontal_connection": "C_i,ab=Gamma^c_ia h_cb+Gamma^c_ib h_ac",
+    "solder_form": "theta=dh-C dx",
+    "total_metric": "G_Y=h_ij dx^i dx^j+D_h(theta,theta)",
+    "inertia": {
+      "fibre": [6, 4],
+      "total": [9, 5],
+      "trace_norm": -4
+    },
+    "exact_jet": [
+      "G0",
+      "all 14 first metric derivatives",
+      "all 14x14 second metric derivatives",
+      "Levi-Civita connection",
+      "Riemann curvature",
+      "orthonormal-frame Clifford spin curvature"
+    ],
+    "controls": {
+      "second_dewitt_derivatives": "100 owner pairs symmetric",
+      "section_metricity": "dC[k][i]=g_,ik",
+      "pullback": "j2(s_g^*G_Y)=j2(g) PASS",
+      "pulled_back_curvature": "exact preregistered constant-curvature tensor",
+      "product_surrogate": "FAILS pullback identity in 40 second-jet components",
+      "lc": "torsion-free and metric-compatible",
+      "riemann": "internal skew, pair exchange, first Bianchi PASS",
+      "horizontal_response": "live and differs from product-gauge curvature",
+      "spin_support": "71 nonzero external legs, grade two only",
+      "active_reality": "all 71 legs pass exact right-H, Krein-skew, and C-plus word identities"
+    },
+    "source_grade": "CANONICAL_CONNECTION_METRIC_RECONSTRUCTION; chain and trace reversal source-confirmed, coordinate formula and uniqueness source-silent"
+  },
+  "stabilizer": {
+    "object": "observation split plus trace line plus exact reconstructed spin-curvature tuple",
+    "ambient_searched": "91-dimensional diagonal spin(9,5) only",
+    "stabilizer_dimension": 6,
+    "orbit_rank": 85,
+    "external_two_form_pullback_required": true,
+    "boundary": "not the full 8256-dimensional sp(32,32;H) action-jet, conormal-family, disconnected, or global automorphism stabilizer"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "P1/P3 and the currently instantiated P2 packet supply none of the missing continuous maps; P2 cannot be ruled in or out by final type because its ultimate type remains open",
+    "opportunity": "the distortion-derived partial reduction may eventually reduce the burden assigned to the unknown X-sector datum P2, but no ledger item changes until the remaining 7801-dimensional cokernel and coefficient selection are constructed"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 26,
+    "source_receipts": 5,
+    "type_level": 15,
+    "planted": 12,
+    "total": 58,
+    "status": "PASS_THREE_HOSTILE_SPECIALIST_REVIEWS"
+  },
+  "open": [
+    "selection or derivation of the grade3 versus grade11 distortion-bridge coefficient ratio",
+    "nonlinear source-distortion concomitants that can reach the remaining quotient grades without fitting",
+    "substitution of epsilon_red(T) into the fixed-varpi owner system with every chain-rule and Green return",
+    "equation 9.4 odot_omega identification or surplus-constrained Sigma_varpi solution against the compact source Euler formula",
+    "complete source-(7,7) to active-(9,5) connection/action port beyond the selected curvature tuple",
+    "actual Shiab/Hodge/lowerer evaluation on the reconstructed Zorro curvature and complete fixed-varpi Euler coefficient",
+    "full ambient/action-jet and conormal-family stabilizers",
+    "global descent, BV quotient, analytic Green domain, stationary background, and physical crosswalk"
+  ],
+  "next_gate": "ECW3D-B2C15Q-DISTORTION_REDUCTION_SUBSTITUTION_AND_NATIVE_ZORRO_SHIAB_OWNER_RETURN"
+}

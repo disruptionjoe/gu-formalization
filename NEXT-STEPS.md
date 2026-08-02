@@ -726,6 +726,42 @@ updated_at: "2026-08-01"
 > Zorro/DeWitt total-space jet, and only then construct the complete native
 > fixed-`varpi` coefficient and its actual stabilizer before any atlas, BV, or
 > domain promotion.
+>
+> **Alternative-branch B2C15P result (2026-08-02): DIRECT EPSILON BRIDGE
+> KILLED; DISTORTION BRIDGE AND CURVED ZORRO JET CONSTRUCTED.** The source
+> epsilon tangent is `h=Lambda2`, whereas the repository reduction tangent is
+> the six-grade quotient `m`. Exact Casimirs give
+> `Hom_H(h,m)=0`, killing every equivariant linear zero-jet direct bridge.
+> The tilted-descended distortion `delta T=alpha-D_A zeta` opens a narrower
+> route: `c3 Alt(delta T)+c11 *Alt(delta T)` is equivariant under all 91
+> generators and, for every nonzero coefficient pair, has rank `364`, kernel
+> `910`, and full-`m` cokernel `7801`; the zero pair has rank zero.
+> Symmetry does not select `c3:c11`, so this is a partial candidate rather
+> than a datum or full reduction. The literal `odot_epsilon` branch remains
+> separate from a genuinely `omega`-dependent rival; any nonzero
+> `D_varpi odot` is returned inside the existing varpi equation and its exact
+> zero-order bulk-plus-preboundary witness passes with no new isolated Green
+> term. A separate `Sigma=D_x` plant verifies the formal adjoint and nonzero
+> isolated Green term required for a differential coefficient. The product `blockdiag(h,D_h)` gimmel is
+> replaced by the LC-horizontal connection metric
+> `G_Y=h+D_h(theta,theta)` on an exact constant-curvature normal base
+> three-jet. Its complete local `G,dG,d2G`, LC, Riemann, and spin-curvature
+> jets pass pullback, base-curvature, metricity, torsion, Riemann, Bianchi,
+> trace-reversal, and active reality checks. The product surrogate fails 40
+> second-pullback-jet components. All 71 nonzero spin-curvature legs pass the
+> exact right-`H`/Krein/`C+` identities, and the split/trace/curvature tuple
+> has diagonal-Spin stabilizer `6` inside `91`. This is a canonical
+> connection-metric reconstruction, not a source-unique full Shiab/action
+> port. P1/P2/P3 remain unchanged and unused; P2's ultimate type remains
+> open, so it is neither ruled in nor consumed. The next gate is
+> `ECW3D-B2C15Q-DISTORTION-REDUCTION-SUBSTITUTION-AND-NATIVE-ZORRO-SHIAB-OWNER-RETURN`:
+> substitute the partial reduction into the fixed-varpi owner system, derive
+> every chain-rule/Green return, apply the actual Shiab/Hodge/lowerer to the
+> reconstructed curvature, and use surplus plus held-out controls to constrain
+> the distortion ratio and any genuine `Sigma_varpi` using a preregistered
+> finite equivariant ansatz, parameter count, constraint-Jacobian rank,
+> planted matcher, and held-outs before attempting
+> nonlinear completion of the missing quotient grades.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
