@@ -1,0 +1,119 @@
+{
+  "artifact_type": "pw2e_mixed_metric_frechet_native_ward_result",
+  "run_id": "RUN-20260802-210344-gu-formalization-pw2e-finite-native-metric-ward",
+  "status": "PW2E_MIXED_OWNER_INVENTORY_PASS_NATIVE_TOP_ORDER_COMPOSITION_AND_METRIC_WARD_UNASSEMBLED",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "fixed_A": "metric variation at fixed total connection",
+    "fixed_varpi": "source-coordinate metric variation with A=Gamma(g)+varpi",
+    "fixed_B": "different connection-coordinate variation",
+    "internal_ward": "residual active gauge identity fixing the metric",
+    "diffeomorphism_ward": "separate identity containing the metric Euler owner; not yet derived",
+    "jet_grades": "point metric, total-space metric two-jet, base metric three-jet, and full composed action jet are distinct"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "epsilon, varpi, B_omega, T_omega, one-half/one-third curvature grammar, and bosonic distortion-norm slot",
+      "gauge-rotated Levi-Civita in the contorsion slot"
+    ],
+    "SOURCE_SILENT_REPOSITORY_DERIVED": [
+      "active native mixed metric Frechet coefficient",
+      "native diffeomorphism Ward identity",
+      "actual necessity or cancellation of a fourth-order base-metric coefficient"
+    ],
+    "CORPUS_SCOPE": "source silence is against the reviewed draft section 9.1, TOE 02:19:17-02:19:49, and Portal 02:23:30-02:23:52",
+    "HOMONYM_GUARD": "synthetic build_source_t and the finite epsilon surrogate are not identified with source T_omega and manuscript H-valued epsilon"
+  },
+  "fixed_varpi_return": {
+    "scope": "inherited B2C15O structural one-dimensional two-component source-coordinate chain; not the actual native 1274x10 Y14 map",
+    "varpi_euler": "E_varpi=E_T in the structural fixture",
+    "metric_euler": "E_g|varpi=E_g|A+(D_g Gamma)^! E_T in the structural fixture",
+    "correction_live": true,
+    "green": "separate nonzero Gamma-graph Green companion required",
+    "top_order_cancellation": "fixed-A and Gamma-adjoint g''' coefficients are live exact negatives; fixed-varpi sum has zero g''' coefficient"
+  },
+  "native_metric_inventory": {
+    "moving_shiab_slots": {
+      "trace_gamma": 324,
+      "Phi1_first": 393,
+      "Hodge_first": 393,
+      "Phi1_outer": 194,
+      "Phi2": 151,
+      "Hodge_inner": 178,
+      "Hodge_middle": 88,
+      "Hodge_outer": 237
+    },
+    "coefficient_rows": 544,
+    "ten_owner_rank": 10,
+    "frozen_action_pairing_nonzero_owners": 4,
+    "lc_spin_graph_ranks": {
+      "nonnull": 10,
+      "null": 10
+    },
+    "actual_minus_observed_lift_ranks": {
+      "nonnull": 10,
+      "null": 10
+    },
+    "boundary": "these earned maps have not yet been composed into one native metric Euler operator"
+  },
+  "ward": {
+    "residual_active": "predecessor 2x2 structural off-shell connection/distortion/reduction comparator remains exact",
+    "scalar_under_internal_gauge": "fixed; a gauge-invariant scalar weight has a live Euler derivative while internal gauge variation remains zero",
+    "consequence": "internal Ward cannot erase or determine the metric equation",
+    "native_diffeomorphism": "formal Noether schema may be written before jet completion; native coefficient and rank remain open until the full composed action is known"
+  },
+  "jet_determinacy": {
+    "fixture_owned": "G0,DG,D2G total-space metric jet induced from a base metric three-jet",
+    "conservative_missing_test": "total-space metric third jet / base metric fourth jet",
+    "exact_comparator_witness": "for G=g', F=G', and L=F^2/2, direct E_g and (D_gG)^!E_G both equal g''''; g_a and g_b agree through order three but return a versus b",
+    "c2_control": "live A2 Z0 rank can be cancelled by same-order A1 Z1; prior subroute rank is not the complete native rank",
+    "structural_cancellation_control": "the inherited fixed-varpi chain has cancelling live third-jet terms",
+    "interpretation": "possible fourth-jet sensitivity remains open; the actual native top-order coefficient may cancel and is unassembled"
+  },
+  "pw2f_contract": [
+    "first compose the actual top-order D_g Gamma, D_g h, and literal D_g K returns",
+    "include all eight moving-Shiab slots",
+    "include Hodge distortion norm, density, Krein lowerer, and pairing motion",
+    "assemble every generated Green contribution, including at least primitive-action and Gamma-graph companions",
+    "determine whether the complete total-third/base-fourth coefficient survives or cancels",
+    "derive the formal diffeomorphism Noether schema in parallel, then evaluate its native coefficient and rank after the top-order and conditional-family decision",
+    "construct an explicit fourth-order native base-metric family only if a nonzero coefficient survives",
+    "only then test effective rank, observation descent, and the physics crosswalk"
+  ],
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED; THEY CANNOT SUPPLY ANY SURVIVING CONTINUOUS JET OR FRECHET REQUIREMENT",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "exact Clifford and reductive geometry",
+        "Krein variational PDE",
+        "symplectic and tilted-group geometry"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE_AFTER_REPAIR",
+      "lenses": [
+        "source provenance and Layer 0",
+        "reductive Clifford geometry and descent",
+        "variational PDE, Frechet, Green, and Ward"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "downgraded the fixed-varpi result to its inherited structural one-dimensional coordinate-chain scope",
+        "added the exact cancellation of live fixed-A and Gamma-adjoint third-jet coefficients",
+        "downgraded the scalar fourth-jet witness to possible sensitivity rather than actual native necessity",
+        "qualified the residual Ward as a 2x2 structural comparator and the scalar weight as nonmetric",
+        "required every generated Green term and reordered PW2F to top-order composition before any fourth-order family",
+        "replaced the invalid bare-return comparator with the derived scalar action G=g-prime, F=G-prime, L=F-squared/2 and exact direct-versus-Frechet Euler equality",
+        "removed the claim that the external datum can supply a continuous jet or Frechet owner and narrowed the frozen pairing label"
+      ],
+      "rerun_receipts": [
+        "14 exact + 3 source + 11 type + 12 planted = 40 PASS"
+      ]
+    }
+  },
+  "next_gate": "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD"
+}

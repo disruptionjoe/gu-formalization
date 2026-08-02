@@ -7,31 +7,31 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 SCOPED PW2D PASS; PW2E COMPLETE METRIC/DESCENT/HIGHER-JET GATE NEXT.**
-> PW2D composes the actual B2C15P Y14 curvature, a fixed-metric
-> covariance-completed `Q_Cl` family, literal `K_full=h^-1D_Bh`, normalized
-> source transgression, and the written `kappa1/2` mass term in one local
-> action jet. Independent differentiation corrects the tangent identity: the
-> explicit transported grade-projector derivative is zero here, while
-> freezing the live Q/Phi coefficient family fails on all four nonzero panel
-> branches.
-> Every actual coefficient-dual trace-line leg lies in `ker Alt`; the live
-> grade-3/11 bridge is therefore a separately declared source component.
-> The action response cancels at first order. Curvature second response is
-> `[0,3/8,3/8,0,0]`, the unweighted mass norm contributes `[0,2,2,0,0]`,
-> and the full response is `[0,3/8+kappa1,3/8+kappa1,0,0]`. It is Delta-only,
-> selects no coefficient ratio, and can vanish at `kappa1=-3/8`. Separately,
-> all eight coefficient slots remain live across the ten trace-reversed metric
-> owners with coefficient rank ten, but no mixed action/Euler metric rank is
-> claimed. The full `Z0+Z1` metric graph remains open.
-> A structural residual right nonabelian Ward identity closes with connection,
-> distortion, and moving-Q owners and nonzero bulk/boundary cancellation.
-> After hostile repair, the full-K structural comparator explicitly integrates
-> all old-root variation derivatives, constructs `(DF)^!`, and retains a
-> separate nonzero graph Green layer. It is local `GL(2)`, not an active
-> `Sp(32,32;H)` membership witness. Composite right-H/Krein/C+ certification,
-> the finite native Q/projector construction, and the native all-owner Ward
-> remain PW2E burdens. PW3 remains blocked.
+> **2026-08-02 SCOPED PW2E PASS; PW2F NATIVE TOP-ORDER COMPOSITION GATE NEXT.**
+> PW2E constructs the finite active grade-3/11 Shiab on exact elliptic,
+> hyperbolic, and Hodge-null branches. The generator obeys `u^2=-Delta`; all
+> branches preserve right-`H`, Krein, and `C+`. A full 16,384-blade check on
+> each branch corrects the tested projector to invariant rank `8256`, with a
+> distinct `91`-dimensional bivector sector. Shiab motion comes from the
+> trace/Phi/Hodge family, not projector motion.
+> A nonconstant three-patch active Spin fixture now has symbolic sparse Shiab
+> descent, tensorial literal `K`, and the correct affine `B+K` law. A
+> transported complete coefficient has invariant scalar pairing `9/64`; the
+> separate `91`-dimensional calculation proves a representation-covector law,
+> not actual action-Euler descent.
+> The metric inventory recomputes all eight moving-Shiab slots, a `544x10`
+> rank-ten coefficient, four live frozen pairings, and rank-ten actual
+> induced-`Y14` LC graphs on null and nonnull covectors. The inherited
+> fixed-`varpi` chain-rule/Green result is exact only in its structural 1D
+> fixture, not the native `1274x10` composition. It supplies a crucial control:
+> live fixed-`A` and Gamma-adjoint third-jet terms cancel exactly.
+> A derived scalar action shows fourth-jet sensitivity is possible, not
+> necessary. PW2F must first assemble the actual top-order `D_g Gamma`,
+> `D_g h`, `D_g K`, eight Shiab slots, distortion-norm Hodge,
+> density/Krein/pairing, and every Green contribution. Construct `D3G` only if
+> a nonzero term survives. Derive the formal diffeomorphism Noether schema in
+> parallel and evaluate its native rank only after composition. PW3 remains
+> blocked.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -53,9 +53,11 @@ updated_at: "2026-08-02"
 > the scoped PW2C result in
 > `explorations/pw2c-literal-source-jacobian-moving-action-ward-2026-08-02.md`,
 > and the scoped PW2D result in
-> `explorations/pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md`.
+> `explorations/pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md`,
+> and the scoped PW2E result in
+> `explorations/pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md`.
 > Resume at
-> `PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET`.
+> `PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

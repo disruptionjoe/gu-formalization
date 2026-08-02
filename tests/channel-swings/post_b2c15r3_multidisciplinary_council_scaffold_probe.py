@@ -17,6 +17,8 @@ PW2C = ROOT / "lab/process/pw2c-literal-source-jacobian-full-k.json"
 PW2C_ACTION = ROOT / "lab/process/pw2c-moving-action-ward-bv-registry.json"
 PW2D = ROOT / "lab/process/pw2d-native-transported-shiab-action.json"
 PW2D_WARD = ROOT / "lab/process/pw2d-right-tilted-ward-green-registry.json"
+PW2E = ROOT / "lab/process/pw2e-finite-native-shiab-descent.json"
+PW2E_METRIC = ROOT / "lab/process/pw2e-mixed-metric-frechet-native-ward-registry.json"
 
 
 class DuplicateKeyError(ValueError):
@@ -38,8 +40,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2D_PARTIAL_FIXED_METRIC_ACTION_AND_STRUCTURAL_RIGHT_TILTED_WARD_PASS_PW2E_NEXT":
-        errors.append("status must record partial PW2D pass and PW2E next")
+    if data.get("status") != "PW2E_FINITE_ACTIVE_DESCENT_AND_MIXED_OWNER_INVENTORY_PASS_PW2F_TOP_ORDER_COMPOSITION_NEXT":
+        errors.append("status must record scoped PW2E pass and PW2F next")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -91,9 +93,9 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2D_PARTIAL_FIXED_METRIC_ACTION_AND_STRUCTURAL_RIGHT_TILTED_WARD_PASS_PW2E_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2E_FINITE_ACTIVE_DESCENT_AND_MIXED_OWNER_INVENTORY_PASS_PW2F_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
-        errors.append("wave status frontier must record the scoped PW2C result/PW2D gate and keep PW3 blocked")
+        errors.append("wave status frontier must record the scoped PW2E result/PW2F gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
     if pw1_review.get("pre_assessment", {}).get("status") != "COMPLETE":
         errors.append("PW1 pre-assessment receipt incomplete")
@@ -148,6 +150,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2D hostile post-review retains must-fix items")
     if len(pw2d_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
         errors.append("PW2D hostile post-review rerun receipts missing")
+    pw2e_review = waves[1].get("pw2e_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2e_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2E pre-assessment receipt incomplete")
+    if pw2e_review.get("post_review", {}).get("status") != "COMPLETE_AFTER_REPAIR":
+        errors.append("PW2E hostile post-review receipt incomplete")
+    if pw2e_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW2E hostile post-review retains must-fix items")
+    if len(pw2e_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
+        errors.append("PW2E hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -212,6 +223,8 @@ def main() -> None:
     pw2c_action = json.loads(PW2C_ACTION.read_text(), object_pairs_hook=unique_object)
     pw2d = json.loads(PW2D.read_text(), object_pairs_hook=unique_object)
     pw2d_ward = json.loads(PW2D_WARD.read_text(), object_pairs_hook=unique_object)
+    pw2e = json.loads(PW2E.read_text(), object_pairs_hook=unique_object)
+    pw2e_metric = json.loads(PW2E_METRIC.read_text(), object_pairs_hook=unique_object)
     failures = validate(data)
     if failures:
         raise AssertionError("\n".join(failures))
@@ -230,7 +243,7 @@ def main() -> None:
         "hostile specialist post-review",
         "## Execution checkpoint",
         "PW3 stays blocked",
-        "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET",
+        "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD",
         "P1/P2/P3 remain correctly unused",
         "constraint surplus",
     ]:
@@ -258,7 +271,7 @@ def main() -> None:
     if pw2d["transported_shiab"]["explicit_transported_projector_live_branches"] != 0:
         raise AssertionError("PW2D resurrected the killed projector-motion claim")
     if pw2d["native_action_jet"]["full_quadratic_responses"] != [0, "3/8+kappa1", "3/8+kappa1", 0, 0]:
-        raise AssertionError("PW2D full mass-plus-curvature response drifted")
+        raise AssertionError("PW2D full distortion-norm-plus-curvature response drifted")
     if pw2d["metric_owner_bank"]["action_or_euler_metric_rank"] != "NOT_COMPUTED":
         raise AssertionError("PW2D promoted coefficient rank to action/Euler rank")
     if not pw2d_ward["status"].startswith("PW2D_STRUCTURAL_RESIDUAL_RIGHT_TILTED"):
@@ -267,7 +280,17 @@ def main() -> None:
         raise AssertionError("PW2D repaired total preboundary endpoint drifted")
     if pw2d["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED" or pw2d_ward["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
         raise AssertionError("PW2D spent the external datum")
-    exact_checks += 14
+    if not pw2e["status"].startswith("PW2E_FINITE_ACTIVE_NATIVE_OPERATOR"):
+        raise AssertionError("PW2E finite active scope drifted")
+    if pw2e["projector_correction"]["correct_result"].find("rank-8256") < 0:
+        raise AssertionError("PW2E projector correction drifted")
+    if not pw2e_metric["status"].startswith("PW2E_MIXED_OWNER_INVENTORY"):
+        raise AssertionError("PW2E metric-owner scope drifted")
+    if "may cancel" not in pw2e_metric["jet_determinacy"]["interpretation"]:
+        raise AssertionError("PW2E promoted possible fourth-jet sensitivity")
+    if not pw2e["external_datum"].startswith("P1/P2/P3 UNCHANGED AND UNUSED") or not pw2e_metric["external_datum"].startswith("P1/P2/P3 UNCHANGED AND UNUSED"):
+        raise AssertionError("PW2E spent the external datum")
+    exact_checks += 19
     exact_checks += len(data["specialist_lenses"])
     exact_checks += len(data["engineering_personas"])
     exact_checks += len(data["waves"])
@@ -289,6 +312,7 @@ def main() -> None:
         lambda d: d["waves"][1]["pw2b_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2c_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2d_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2e_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

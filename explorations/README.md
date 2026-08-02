@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2E finite active Shiab descent and mixed metric-Ward readiness`](pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md)
+  constructs the finite active grade-3/11 Shiab on exact elliptic, hyperbolic,
+  and Hodge-null branches; proves symbolic three-patch coefficient and affine
+  `B+K` descent; and corrects the active projector to invariant rank 8256 with
+  a 91-dimensional bivector sector. All eight moving-Shiab metric slots and ten
+  metric owners are live, but their actual action-Euler composition is open.
+  PW2F computes the complete top-order coefficient before conditionally
+  constructing a fourth-order family. P1/P2/P3 remain unused and PW3 is blocked.
 - [`PW2D fixed-metric action jet and structural residual right Ward`](pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md)
   corrects the transported-owner sign and independently finds zero grade-
   projector motion but live Q/Phi-family motion on the actual B2C15P fixture.
@@ -23,9 +31,9 @@ these for the full working record; the durable, reviewed results live in `canon/
   ratio. The eight metric slots remain a separate rank-ten coefficient bank.
   A GL2 structural comparator proves the residual nonabelian Ward identity
   and, after hostile repair, an explicit old-root Frechet adjoint plus
-  separate Green layer. PW2E must construct the finite native Q/projector,
-  mixed/full metric graph, descent, higher jet, composite reality, and native
-  all-owner Ward. P1/P2/P3 remain unused and PW3 is blocked.
+  separate Green layer. PW2E closes the finite local operator/descent part and
+  leaves the complete native metric composition to PW2F. P1/P2/P3 remain
+  unused and PW3 is blocked.
 - [`PW2C fixed-Q,g source-root Jacobian, full connection return, and structural Ward/cotangent comparators`](pw2c-literal-source-jacobian-moving-action-ward-2026-08-02.md)
   constructs the fixed-Q,g active identity-germ source-root block and
   `K_full=dexp_-u(D_Bu)`, including hostile domain, `dexp` resonance,

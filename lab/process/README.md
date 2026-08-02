@@ -38,10 +38,18 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2e-finite-native-shiab-descent.json` - PW2E exact finite active grade-3/11
+  Shiab, full-basis invariant rank-8256 projector, 91-dimensional bivector
+  sector, symbolic three-patch coefficient/affine-connection descent,
+  transported-pairing boundary, and public-port/action-Euler stop.
+- `pw2e-mixed-metric-frechet-native-ward-registry.json` - PW2E structural
+  fixed-varpi adjoint/Green certificate, all-eight-slot moving-Shiab and
+  ten-owner metric inventory, induced-Y14 LC graph, exact cancellation control,
+  and PW2F top-order-composition-first contract.
 - `pw2d-native-transported-shiab-action.json` - PW2D repaired transported-
   owner and fixed-metric action ledger: correct Q-family tangent identity,
   zero explicit grade-projector response on the fixture, all-thirteen-leg
-  `ker Alt` result, full `kappa1/2` mass-sector response, separate zero-jet
+  `ker Alt` result, full `kappa1/2` bosonic distortion-norm response, separate zero-jet
   metric coefficient bank, and PW2E finite-operator/mixed-metric boundary.
 - `pw2d-right-tilted-ward-green-registry.json` - exact structural `GL(2)`
   residual right nonabelian Ward, literal `B+K` covariance, explicit old-root
