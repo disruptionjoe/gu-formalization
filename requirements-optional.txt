@@ -1,0 +1,21 @@
+# Optional dependencies for the gu-formalization computational certificates.
+#
+# The core harness (requirements.txt) is deliberately pin-free: those certificates
+# check exact and structural facts, so a library build cannot change the verdict.
+#
+# This file is different and IS pinned with hashes. Certified-numerics certificates
+# assert rigorous enclosures rather than exact identities, so the arithmetic backend
+# is load-bearing for the claim and must be reproducible byte-for-byte.
+#
+# Install into a local venv (kept out of Git under _local/, per AGENTS.md):
+#
+#   python3 -m venv _local/cas-venv
+#   ./_local/cas-venv/bin/pip install --require-hashes -r requirements-optional.txt
+#
+# See lab/process/computational-toolchain.md for what this unblocks and what it does not.
+
+# python-flint: Python bindings to FLINT 3 (Arb merged in), for certified
+# interval / ball arithmetic. Upgrades a `NUMPY-CERT` float comparison to an
+# `ARB-CERT` rigorous enclosure. Verified: Python 3.14, macOS arm64.
+python-flint==0.9.0 \
+    --hash=sha256:57ed504043c69740b983b7dae3b44e0e06704a749cf42a7ead088e78b1eb85f5

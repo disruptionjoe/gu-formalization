@@ -13,10 +13,45 @@ exits nonzero if anything fails. This guide lets an outside skeptic re-run all o
   ```
   (Verified versions: numpy 2.4.6, scipy 1.18.0, sympy 1.14.0. Pins are not required — the
   certificates check exact and structural facts, not floating-point tolerances.)
+
+  On a Homebrew-managed Python (macOS), that bare `pip install` is refused: the interpreter is
+  PEP 668 "externally managed." Use a venv, or certs that import `scipy`/`sympy` will fail with
+  `ModuleNotFoundError` and the sweep reports `RED` for an environment reason rather than a
+  mathematical one:
+  ```
+  python3 -m venv _local/cas-venv
+  ./_local/cas-venv/bin/pip install -r requirements.txt
+  ./_local/cas-venv/bin/python scripts/reproduce_all.py --quick --tracked-only
+  ```
 - **Lean 4.32.0-rc1 via [elan](https://github.com/leanprover/elan)** — *only* for the separate Lean
   checks under `Lean/` (`lean-toolchain` pins the version). The Python harness below does **not**
   run Lean; the Lean legs are checked independently and their toolchain status is noted inline in
   the relevant certs (e.g. `papers/drafts/hardening-pass-2026-07-03/A1-arithmetic-certificate.py`).
+
+### Optional: certified numerics and CAS
+
+Neither is needed to reproduce the current certificate suite. Both are listed because specific
+named gates in this repository cite them as their resolution path — see
+`lab/process/computational-toolchain.md` for the inventory and its boundary (a tool being
+installed changes no claim, verdict, or grade).
+
+- **python-flint** (FLINT 3 / Arb) for rigorous interval arithmetic, graded `ARB-CERT`:
+  ```
+  python3 -m venv _local/cas-venv
+  ./_local/cas-venv/bin/pip install --require-hashes -r requirements-optional.txt
+  ```
+  This file *is* hash-pinned, unlike `requirements.txt`: enclosure certificates assert bounds
+  rather than exact identities, so the arithmetic backend is load-bearing for the claim.
+
+- **SageMath 10.9** for Lie-theoretic branching/multiplicity and Gröbner bases, graded
+  `CAS-VERIFIED`. On macOS, `brew install --cask sage` — note it installs a `.pkg` and so needs
+  an interactive terminal for the `sudo` prompt. The binary lives inside the app bundle rather
+  than on `PATH`:
+  ```
+  /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/Current/venv/bin/sage
+  ```
+  All tooling here is open source (SageMath GPL v3, python-flint MIT, FLINT LGPL-3.0-or-later),
+  so external replication needs no paid license.
 
 ## Run everything in one step
 

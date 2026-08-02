@@ -25,6 +25,14 @@ replication. Those stay in owner prose and machine certificates. Status vocabula
 - `LEAN-PARTIAL`: source needs a bounded repair.
 - `NUMPY-CERT`: checked in Python only.
 - `SYMPY-DERIVED`: symbolic result outside Lean.
+- `ARB-CERT`: rigorous interval/ball enclosure via python-flint (FLINT 3 / Arb), with the working
+  precision recorded. Strictly stronger than `NUMPY-CERT` for any claim that compares floats or
+  asserts a bound; strictly weaker than an exact symbolic identity. Use it for the RB-campaign
+  residual, signal/floor, and stability margins currently graded "controlled local numerics."
+- `CAS-VERIFIED`: multiplicity, branching, or rank result independently confirmed in a computer
+  algebra system (SageMath / Singular / GAP), with the session transcript or script committed.
+  Required by the gates listed in `computational-toolchain.md`. Layer-0 applies: a CAS returns a
+  decomposition, never a count.
 - `PROSE`: written argument only.
 
 ## Part A: current certificate surface

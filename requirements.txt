@@ -14,3 +14,8 @@ sympy    # exact symbolic checks in a handful of certs           (verified: 1.14
 
 # Not a Python dependency, but required for the Lean checks (separate from this harness):
 #   Lean 4.32.0-rc1 via elan  — see REPRODUCE.md.
+#
+# Optional certified-numerics dependency (python-flint / Arb) lives in
+# requirements-optional.txt and IS hash-pinned, because enclosure certificates
+# depend on the arithmetic backend in a way exact/structural certs do not.
+# Tool inventory and what each unblocks: lab/process/computational-toolchain.md
