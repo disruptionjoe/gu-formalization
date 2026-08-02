@@ -239,6 +239,18 @@ Runbooks:
   active right-`H`/Krein/`C+` identities, and the scoped diagonal-Spin
   stabilizer is `6` inside `91`. Full Shiab/action return, nonlinear reduction
   completion, BV/domain, and physics remain open.
+- `eric-curt-wave3d-b2c15q-distortion-substitution-native-zorro-shiab-owner-return.json`
+  - Wave 3D-B2C15Q quadratic-connection and native-response gate. The leading
+  BCH connection jet depends only on `c3^2-c11^2` and has common-background
+  rank 91, while a live quartic term keeps the full connection open. The
+  actual Zorro curvature gives 13 compatible internal Shiab coefficients and
+  a shaped `51/8` response. Because written `I1` contains `T`, not `q_red`, a
+  new `lambda_red` action slot is required and physical surplus is uncomputed.
+  Its inhomogeneous connection gauge variation is nonzero without a
+  Bianchi/Noether identity, boundary law, or tensorial replacement.
+  Separate Green/owner comparators, eight live fixed-curvature slots, and a
+  local rank-10 metric response pass. The full action, adjoint-order ledger,
+  and distinct supported-Gysin/equation-dual routes remain open.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving

@@ -1,0 +1,166 @@
+{
+  "artifact": "ECW3D_B2C15Q_DISTORTION_SUBSTITUTION_NATIVE_ZORRO_SHIAB_OWNER_RETURN",
+  "status": "PARTIAL_CONSTRUCTION_PASS_WITH_QUADRATIC_CONNECTION_RESPONSE_ACTION_PLACEMENT_AND_OWNER_ORDER_STOPS",
+  "status_boundary": "SOURCE_EPSILON_H_AND_DERIVED_EPSILON_RED_T_REMAIN_SEPARATE__LEADING_QUADRATIC_BCH_CONNECTION_JET_PR_H_U_DU_DEPENDS_ONLY_ON_DELTA_C3_SQUARED_MINUS_C11_SQUARED__FULL_MAURER_CARTAN_BCH_OPEN_AND_QUARTIC_H_TERM_LIVE__66066_PAIR_HODGE_IDENTITIES_AND6006_LIVE_BRACKETS_SPAN_ALL91_H_DIRECTIONS__ONE_COMMON_U_HAS_QUADRATIC_RANK91__HODGE_EIGENBRANCHES_ZERO_ONLY_AT_QUADRATIC_ORDER__ACTUAL71_LEG_ZORRO_CURVATURE_TO13_LEG_GRADE2_SHIAB__ONLY_INTERNAL_COEFFICIENT_REALITY_PROVED__SHAPED_REALIZABLE_QUADRATIC_PAIRING51_OVER8__NEW_LAMBDA_RED_ACTION_COEFFICIENT_REQUIRED__WRITTEN_SOURCE_ACTION_PLACEMENT_UNBUILT__RESPONSE_RANK1_PHYSICAL_SURPLUS_UNCOMPUTED__SEPARATE_DIFFERENTIAL_GREEN_AND_ALGEBRAIC_OWNER_COMPARATORS_PASS_NOT_NATIVE_VARIATION__ALL8_MOVING_SHIAB_SLOTS_LIVE__LOCAL_FIXED_CURVATURE_TEN_METRIC_RESPONSE_RANK10__RAW_CURVATURE_LINEARIZATION_VERSUS_FORMAL_ADJOINT_OWNER_JET_BURDENS_SEPARATED__DECLARED_ALT_NONLINEAR_RANK_CEILING364_LEAVES7801__GENERAL_T_ZERO_JET_CEILING1274_LEAVES6891__RAW13_FORM_PULLBACK_ZERO__FOUR_3_10_GYSIN_ELIGIBLE_AND_NINE_4_9_GYSIN_KILLED__EQUATION_DUAL_DISTINCT__NO_BV_DOMAIN_VACUUM_OR_PHYSICS",
+  "run": "RUN-20260802-083641-gu-formalization-ecw3d-b2c15q-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_epsilon": "H-valued gauge variable in Weinstein's first action",
+    "derived_reduction": "repository-built epsilon_red(T) in the finite Clifford-plane quotient; not source epsilon",
+    "derived_connection": "q_red^(2)=-1/2 pr_h[u,du] is the leading quadratic BCH term for u=c3 Alt(T)+c11 star Alt(T); the full pr_h(exp(-u)d exp(u)) series is open",
+    "owner_fork": [
+      "fixed-curvature moving Shiab coefficient return",
+      "curvature-input return Shiab[D_g F_spin]",
+      "conditional direct D_varpi odot_omega return"
+    ],
+    "observation_fork": [
+      "13-form coefficient of a conditional added term upstairs",
+      "ordinary observation pullback, which is zero by degree",
+      "ordinary ten-fibre Gysin, which can retain only the four bidegree-(3,10) legs and needs proper support",
+      "unbuilt equation-dual from a specified observation-variation lift",
+      "physical four-dimensional equation"
+    ],
+    "analytic_fork": [
+      "Euler bulk",
+      "Green preboundary",
+      "BV differential",
+      "analytic domain"
+    ]
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "draft pp43-44 and pp56-57 own one epsilon, one varpi, and T=varpi-epsilon^-1 d0 epsilon",
+      "draft equation 9.4 owns the curvature plus one-half d_B T plus one-third [T,T] first-action grammar",
+      "Portal/Oxford 02:23:30-02:23:52 owns the metric to LC to gimmel to spin chain",
+      "TOE 00:26:28-00:29:16 owns trace reversal in the Frobenius fibre"
+    ],
+    "SOURCE_CORRECTS": [
+      "Shiab is a contraction rather than a projector",
+      "the source epsilon and repository reduction field cannot be identified by shared notation"
+    ],
+    "SOURCE_SILENT": [
+      "the distortion-to-reduction map and c3:c11 ratio",
+      "the distortion connection, its higher BCH terms, and action placement",
+      "equation 9.4 genuine direct varpi dependence",
+      "the complete moving real-form Shiab owner return",
+      "the full curvature formal-adjoint coefficient/order ledger",
+      "the properly supported fibre-Gysin map, the separate equation-dual observation map, BV quotient, and domain"
+    ],
+    "WATCH_ONLY": "the unreleased modern D-squared construction"
+  },
+  "reductive_connection": {
+    "candidate": "q_red^(2)=-1/2 pr_h[u,du], the leading quadratic BCH connection jet for u=c3 a+c11 star a and a=Alt(T)",
+    "all_grade3_pairs": 66066,
+    "live_grade2_brackets": 6006,
+    "hodge_identities": [
+      "pr2[star a,star b]=-pr2[a,b]",
+      "pr2([a,star b]+[star a,b])=0"
+    ],
+    "coefficient": "Delta=c3^2-c11^2",
+    "grade2_span": 91,
+    "single_common_u_map_rank": 91,
+    "hodge_eigenbranches": "c11=plus/minus c3 both give q_red^(2)=0; no claim about the higher BCH connection",
+    "quartic_bch_plant": "unscaled pr2 ad_u^3(du) is live with 11 components and selected coefficient 36000 at (2,1); one same-Delta fixture agrees and is not an all-orders theorem",
+    "selection": "no ratio selection at quadratic order; the full connection remains open"
+  },
+  "native_zorro_shiab": {
+    "input": "B2C15P exact 71-leg grade-two Zorro spin curvature",
+    "output": "13 external 13-form legs and 13 internal grade-two terms",
+    "trace_pattern": "every leg contains trace index 10; missing indices are 0..9 and 11..13",
+    "reality": "all 13 coefficients pass active right-H, Krein-skew, and C-plus word identities",
+    "quadratic_connection_witnesses": 13,
+    "shaped_normalized_pairing": "51/8",
+    "conditional_added_term_response": "(51/8) lambda_red (c3^2-c11^2)",
+    "response_jacobian_rank": 1,
+    "free_parameters": 3,
+    "action_placement": "UNBUILT; Weinstein's written I1 pairs T, not q_red, with the Shiab image",
+    "physical_constraint_surplus": "UNCOMPUTED",
+    "surplus_boundary": "51/8 is a shaped realizable response and Delta=1 would be a chosen normalization, not an independent constraint; the 13 tensor legs are one covariant family"
+  },
+  "action_owner_return": {
+    "two_epsilon_branch": "source epsilon_H builds q_g and T; derived epsilon_red(T) would build a separate reduction connection if an action slot is supplied",
+    "conditional_added_term": "I_red=lambda_red <q_red,Shiab(Fspin)> is a repository ansatz, not found in the written source action",
+    "gauge_placement": "q_red transforms inhomogeneously; an exact compact-support plant gives nonzero bulk gauge variation -1/6, so the ansatz requires a proved Bianchi/Noether identity plus boundary law or tensorial replacement by a connection difference, transgression, or curvature",
+    "finite_comparator_owner_chain": [
+      "R_T=E_T+(D_T q_red)^!E_qred",
+      "E_varpi=R_T",
+      "E_epsilon=C_epsilon+(D_epsilon q_g)^!(E_B-R_T)",
+      "E_g=C_g+(D_g Gamma+D_g q_g)^!E_B-(D_g q_g)^!R_T+(D_g explicit q_red)^!E_qred plus coefficient and curvature returns"
+    ],
+    "green_fixture": {
+      "unscaled_direct": "-17/6",
+      "unscaled_bulk": "13/6",
+      "unscaled_boundary": "-5",
+      "scaled_direct": "-289/16",
+      "scaled_bulk": "221/16",
+      "scaled_boundary": "-255/8"
+    },
+    "comparator_boundary": "the differential one-dimensional Green identity and finite algebraic scalar chain-rule model are separate exact comparators, not one composed differential native variation",
+    "direct_omega_branch": "if later built, adds to the same varpi owner; it does not create another owner"
+  },
+  "moving_metric": {
+    "fixed_curvature_slot_support": {
+      "trace_gamma": 195,
+      "Phi1_first": 391,
+      "Hodge_first": 391,
+      "Phi1_outer": 107,
+      "Phi2": 52,
+      "Hodge_inner": 52,
+      "Hodge_middle": 52,
+      "Hodge_outer": 134
+    },
+    "fixed_curvature_response_rows": 339,
+    "ten_owner_rank": 10,
+    "rank_scope": "one local fixed-curvature coefficient response in the declared Clifford gauge",
+    "complete_owner_stop": "raw D_g Fspin[h] is second order in the total-metric variation; the first-order Zorro graph and subsequent formal adjoints require an explicit coefficient/order ledger before the necessary background and variation jet caps can be stated",
+    "curvature_derivative_plant": "two-dimensional conformal phi=a x^3 metrics share their origin two-jet but have dR/dx=-12a; this proves the two-jet does not determine nabla R, not that raw D_gF needs a background third jet",
+    "other_open_metric_terms": "native explicit-q_red, pairing, density, Krein-lowerer, and fixed-source graph adjoints"
+  },
+  "nonlinear_reduction_opportunity": {
+    "declared_coefficients": 8,
+    "linear_terms": ["Alt(T)", "star Alt(T)"],
+    "degree2_witnesses": ["grade10", "grade14"],
+    "degree3_witnesses": ["two grade7 Hodge-related channels with disjoint selected supports"],
+    "degree4_witnesses": ["two distinct grade6 Clifford words with disjoint selected supports; one is Hodge dual to a grade8 word"],
+    "declared_alt_based_derivative_rank_ceiling": 364,
+    "general_T_zero_jet_derivative_rank_ceiling": 1274,
+    "full_reduction_dimension": 8165,
+    "declared_minimum_transverse_remainder": 7801,
+    "general_T_minimum_transverse_remainder": 6891,
+    "boundary": "existence witnesses only; full equivariant census, coefficient selection, first-jet/nonlocal completion, and constrained-submanifold reach remain open"
+  },
+  "observation": {
+    "ordinary_pullback": "zero because a 13-form pulls back to zero on X4",
+    "bidegrees": "four legs (horizontal3,vertical10) and nine legs (horizontal4,vertical9)",
+    "ordinary_gysin": "can retain only the four (3,10) legs as base three-forms; the noncompact metric fibre requires orientation and proper/compact vertical support",
+    "equation_dual": "a separate unbuilt map L^! from a specified observation-variation lift, with leakage and descent controls",
+    "status": "OPEN_TYPED_STOP"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "none supplies c3:c11, lambda_red, the full BCH connection, action placement, curvature-adjoint jet ledger, observation map, BV differential, or domain"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 26,
+    "source_receipts": 5,
+    "type_level": 26,
+    "planted": 16,
+    "total": 73,
+    "status": "PASS_THREE_HOSTILE_SPECIALIST_REVIEWS"
+  },
+  "open": [
+    "compute the full BCH reductive connection or prove a controlled truncation",
+    "derive or reject placement of the lambda_red-weighted connection term in the action",
+    "prove the candidate term's Bianchi/Noether identity and boundary law or replace the inhomogeneous connection by tensorial transgression/curvature data",
+    "derive the raw curvature linearization, Zorro graph, formal-adjoint, Green, and coefficient-order ledger before naming jet caps",
+    "construct a properly supported fibre Gysin for the four eligible legs or a distinct equation-dual with no-leakage and overlap descent",
+    "construct and fully equivariance-test the nonlinear reduction concomitant census",
+    "find positive-surplus action or observation constraints that select c3:c11, if any",
+    "identify or construct a genuine direct D_varpi odot_omega family",
+    "complete the source-(7,7) to active-(9,5) real-form action port",
+    "construct BV closure, a common analytic domain, stationary background, and physical crosswalk"
+  ],
+  "next_gate": "ECW3D-B2C15R2-FULL-BCH-REDUCTION-ACTION-PLACEMENT-AND-CURVATURE-ADJOINT-ORDER"
+}

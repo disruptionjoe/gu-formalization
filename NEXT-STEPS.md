@@ -762,6 +762,38 @@ updated_at: "2026-08-01"
 > finite equivariant ansatz, parameter count, constraint-Jacobian rank,
 > planted matcher, and held-outs before attempting
 > nonlinear completion of the missing quotient grades.
+>
+> **Alternative-branch B2C15Q result (2026-08-02): A QUADRATIC CONNECTION
+> RESPONSE IS BUILT; ITS ACTION SLOT IS NOT.** Keeping source `epsilon_H`
+> separate from the derived reduction, the leading quadratic BCH term
+> `q_red^(2)=-1/2 pr_h[u,du]` for
+> `u=c3 Alt(T)+c11 *Alt(T)` depends exactly on
+> `Delta=c3^2-c11^2`. All `66,066` grade-three pairs pass the Hodge identities;
+> `6,006` live brackets span all `91` connection directions, and one common
+> reduction value has quadratic rank `91`. A quartic BCH plant is live, so
+> this is not the full Maurer--Cartan connection. The actual `71`-leg Zorro
+> curvature gives `13` compatible internal Shiab coefficients. A shaped,
+> realizable quadratic pattern pairs by `51/8`, but Weinstein's written `I1`
+> pairs `T`, not `q_red`, with the Shiab image. Adding
+> `I_red=lambda_red<q_red,Shiab(Fspin)>` is a new action ansatz; its response
+> rank is one but its physical constraint surplus is `UNCOMPUTED`. Separate
+> differential Green and finite algebraic three-owner comparators pass; they
+> are not one native tensorial variation. All eight fixed-curvature moving
+> slots are live and the local ten-metric-direction response has rank `10`.
+> The raw curvature linearization, first-order Zorro graph, expanded formal
+> adjoints, and remaining pairing/density/Krein/graph returns require an exact
+> order ledger before a jet cap is named. The declared nonlinear words factor
+> through `Alt(T)` and have derivative rank at most `364` into `8165`. The
+> `13` observation legs split into four `(3,10)` legs eligible for properly
+> supported ten-fibre integration and nine `(4,9)` legs killed by it; an
+> equation-dual is a separate unbuilt map. P1/P2/P3 remain unchanged and
+> unused. The next gate is
+> `ECW3D-B2C15R2-FULL-BCH-REDUCTION-ACTION-PLACEMENT-AND-CURVATURE-ADJOINT-ORDER`:
+> compute the higher connection terms, derive or reject the `lambda_red`
+> action placement and its Bianchi/Noether/boundary law or tensorial
+> replacement, build the complete raw/adjoint order ledger, and keep the
+> Gysin and equation-dual observation routes distinct before any surplus,
+> BV, domain, or physical promotion.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

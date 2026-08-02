@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15Q distortion substitution and native Zorro--Shiab owner return`](eric-curt-wave3d-b2c15q-distortion-substitution-native-zorro-shiab-owner-return-2026-08-02.md)
+  proves the leading quadratic BCH connection jet depends only on
+  `c3^2-c11^2` and reaches all 91 connection directions from one common
+  reduction value; a live quartic term keeps the full connection open. The
+  actual Zorro curvature gives a 13-leg internal Shiab coefficient and shaped
+  pairing `51/8`, but placing `q_red` in the action requires a new
+  `lambda_red` ansatz, so physical surplus is uncomputed. Separate Green and
+  owner comparators plus a nonzero gauge/Ward plant, all eight fixed-curvature moving slots, and a local
+  rank-10 metric response pass. Full action ownership, the curvature-adjoint
+  order ledger, and distinct Gysin/equation-dual observation routes remain.
 - [`Eric/Curt Wave 3D-B2C15P source-epsilon tangent, distortion reduction, and exact Zorro/DeWitt jet`](eric-curt-wave3d-b2c15p-source-epsilon-tangent-zorro-dewitt-2026-08-02.md)
   proves the direct equivariant `h -> m` epsilon/reduction tangent bridge is
   zero, then constructs the source-distortion alternative
