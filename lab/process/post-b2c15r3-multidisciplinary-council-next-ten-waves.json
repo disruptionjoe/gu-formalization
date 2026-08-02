@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "PW2_EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION_PW2A_NEXT",
+  "status": "PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS_PW2B_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -18,22 +18,25 @@
       "PW1 fail-closed exact selector algorithm scaffold",
       "PW2 exact proof that reductive projection does not automatically preserve Maurer-Cartan/source-orbit integrability",
       "PW2 structural same-dT different-symmetric-j1T and different-dK witness, with actual native K_u factorization through Alt open",
-      "PW2 symbolic/dual-number derivative reconciliation and complete order-two exceptional-locus certificate"
+      "PW2 symbolic/dual-number derivative reconciliation and complete order-two exceptional-locus certificate",
+      "PW2A exact abstract GL(2) co-moving gauge mechanism shaped like epsilon composition, with fixed B+T and literal source-H membership open",
+      "PW2A coefficient-one coset-curvature completion with the connection-level compensator kept as a separate PDE/domain problem",
+      "PW2A structural independent-B fourth-order Euler, formal-adjoint, two-Green-layer, and coupled-Ward control"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
-      "source-legal projected-K lift, compensating coset field, or explicit independent-B action extension",
+      "literal distortion-derived g_u in the source bundle, global co-moving descent, and active-native identification",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "complete native effective order-two operator after the source-domain lift",
+      "complete written-action jet-order theorem and native effective operator after the co-moving source lift",
       "action-derived BV tangent differential and physical quotient",
       "functional observed Euler pushdown and no-leakage theorem",
       "closed physical Krein or boundary domain",
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2",
-    "guided_next": "PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT",
-    "alternative_next": "PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT"
+    "datum": "P1/P2/P3 unchanged and unused through PW2A",
+    "guided_next": "PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT",
+    "alternative_next": "PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -43,7 +46,9 @@
     "native trace-reversed Krein fork != positive-Hilbert or block-product comparator",
     "section current != bulk-derived decay != functional Euler pushdown",
     "block multiplicity != chiral index != observed generation count",
-    "heuristic search lead != exact mathematical certificate"
+    "heuristic search lead != exact mathematical certificate",
+    "fixed-J projected displacement != co-moving epsilon/J source lift",
+    "coset curvature two-form return != h-valued connection compensator"
   ],
   "lanes": [
     {
@@ -344,7 +349,7 @@
     },
     {
       "id": "PW2",
-      "status": "EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION_PW2A_REQUIRED",
+      "status": "PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS_PW2B_REQUIRED",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -368,7 +373,7 @@
       ],
       "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
       "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
-      "exit": "smallest exact obstruction returned: projected connection descent does not imply membership in the epsilon-derived source orbit; full-jet and complete-order-two structural certificates pass but native promotion stops",
+      "exit": "PW2A proves an abstract co-moving gauge mechanism; literal source-H membership, admitted epsilon variation, nested reduction descent, full written-action order drop, active-native port, and physical Ward/Green closure remain for PW2B",
       "result": {
         "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
         "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
@@ -377,7 +382,10 @@
         "order_two": "C3_ZERO__C2_R_EQUALS_DIAG_MINUS_R_ZERO__GENERIC_RANK1_ON_D_R__RANK0_ON_V_R__A2Z0_FALSE_POSITIVE_AT_R0",
         "native_promotion": "STOPPED_BY_SOURCE_DOMAIN_AND_ACTIVE_PORT",
         "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
-        "next_gate": "PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT"
+        "pw2a_source_lift": "ABSTRACT_GL2_EPSILON_SHAPED_COMPOSITION__GENERIC_MOVING_INVOLUTION__B_PRIME_PLUS_T_PRIME_FIXED__NONZERO_BACKGROUND_CURVATURE_CONJUGACY__LITERAL_SOURCE_H_AND_NESTED_NATIVE_REDUCTIONS_NOT_EVALUATED",
+        "pw2a_compensator": "COSET_CURVATURE_RETURN_COEFFICIENT_FORCED_ONE__NOT_A_CONNECTION_ONE_FORM__H_ONLY_CONNECTION_REPAIR_REMAINS_NONLINEAR_PDE_COHOMOLOGY_HOLONOMY_DOMAIN_PROBLEM",
+        "pw2a_independent_B": "POLYNOMIAL_FIXTURE_LIVE_DBK_DTK_ADJOINT_ATTAINABLE_ORDER4_DERIVATIVE_AFFINE_ORDER2_TWO_GREEN_LAYERS__SEPARATE_WARD_COMPARATOR_PASS__ROOT_WARD_NOT_EVALUATED__CONNECTION_SIZED_FIELD_NOT_SOURCE_SELECTED",
+        "next_gate": "PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT"
       },
       "review_receipts": {
         "pre_assessment": {
@@ -413,6 +421,30 @@
             "sha256:a8bf87663a57213fe078791a9fe06ade7fe616e8ac89f941defd722db9dcdf0c => 38 exact + 7 planted = 45 PASS",
             "sha256:5d78847271bf685346f9f8cbdee8196c080cc67fe462fc01d65d5534c700194a => 27 exact + 8 planted = 35 PASS",
             "sha256:bd14f8c4c1ce645563e83d4ddfdd5144dab713a7da774720e0860e29db9cf0ff => 47 exact + 12 planted = 59 PASS"
+          ]
+        }
+      },
+      "pw2a_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "reductive connection geometry",
+            "variational bicomplex and PDE",
+            "exact algebra, Spencer, and cohomology"
+          ]
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": [
+            "source and reductive geometry",
+            "variational PDE and Ward-Green ownership",
+            "cohomology, evidence, campaign, and inventory"
+          ],
+          "must_fix": [],
+          "rerun_receipts": [
+            "27 algebraic exact + 14 type/registry + 3 source receipts + 14 planted = 58 PASS",
+            "21 algebraic exact + 10 type/registry + 11 planted = 42 PASS",
+            "47 exact scaffold + 12 planted = 59 PASS"
           ]
         }
       }
@@ -683,7 +715,7 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1 and PW2 were executed; PW2 stopped at a source-domain obstruction and PW3 plus all later waves remain unexecuted.",
+    "PW1, PW2, and the PW2A repair were executed; PW2B is next and PW3 plus all later waves remain unexecuted.",
     "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."

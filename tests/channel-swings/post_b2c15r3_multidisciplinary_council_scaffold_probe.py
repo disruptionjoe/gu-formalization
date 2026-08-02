@@ -32,8 +32,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2_EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION_PW2A_NEXT":
-        errors.append("status must be PW2_EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION_PW2A_NEXT")
+    if data.get("status") != "PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS_PW2B_NEXT":
+        errors.append("status must be PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS_PW2B_NEXT")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -85,9 +85,9 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION_PW2A_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS_PW2B_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
-        errors.append("wave status frontier must record the PW2 obstruction and keep PW3 blocked")
+        errors.append("wave status frontier must record the PW2A local repair/PW2B gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
     if pw1_review.get("pre_assessment", {}).get("status") != "COMPLETE":
         errors.append("PW1 pre-assessment receipt incomplete")
@@ -106,6 +106,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2 hostile post-review retains must-fix items")
     if len(pw2_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
         errors.append("PW2 hostile post-review rerun receipts missing")
+    pw2a_review = waves[1].get("pw2a_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2a_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2A pre-assessment receipt incomplete")
+    if pw2a_review.get("post_review", {}).get("status") != "COMPLETE":
+        errors.append("PW2A hostile post-review receipt incomplete")
+    if pw2a_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW2A hostile post-review retains must-fix items")
+    if len(pw2a_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
+        errors.append("PW2A hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -207,6 +216,7 @@ def main() -> None:
         lambda d: d["wave_review_protocol"].update(required=False),
         lambda d: d["waves"][0]["review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2a_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

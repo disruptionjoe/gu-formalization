@@ -1,0 +1,65 @@
+{
+  "artifact_type": "pw2a_action_extension_experiment_registry",
+  "run_id": "RUN-20260802-160851-gu-formalization-pw2a-source-legal-lift",
+  "status": "PW2A_STRUCTURAL_VARIATIONAL_EXTENSION_CERTIFICATE",
+  "date": "2026-08-02",
+  "scope": {
+    "fixture": "exact scalar polynomial comparator with source-shaped 1/2 and 1/3 coefficients",
+    "literal_native_action": "NOT_EVALUATED",
+    "use": "certify the owner-adjoint and two-layer Green grammar for an independent-B split extension"
+  },
+  "graph": {
+    "root_action": "I_hat[Bhat,That] first order",
+    "split": "Bhat=B+K, That=T-K",
+    "K": "K=zb B+z0 T+z1 D T in the structural comparator, so both D_BK and D_TK returns are live",
+    "split_response": "R_K=E_Bhat-E_That",
+    "pulled_owners": [
+      "E_B=E_Bhat+(D_B K)^!R_K",
+      "E_T=E_That+(D_T K)^!R_K",
+      "E_J=E_Jhat+(D_J K)^!R_K when J is independent",
+      "derived-J returns belong in E_epsilon_total when J=J_epsilon"
+    ]
+  },
+  "euler_certificate": {
+    "density_order_in_T": 2,
+    "Euler_order_in_T": 4,
+    "identity": "E_T=L_T-D(L_DT)+D^2(L_D2T)",
+    "chain": "direct pulled Euler equals root Euler plus the exact formal adjoints of D_B K and D_T K",
+    "fourth_order_scope": "ATTAINABLE_IN_THE_POLYNOMIAL_CONTROL_NOT_FORCED_FOR_THE_WRITTEN_ACTION",
+    "derivative_affine_control": "removing the quadratic derivative term makes the fourth-jet coefficient vanish exactly while leaving a nontrivial Euler equation"
+  },
+  "green_certificate": {
+    "layers": 2,
+    "lower": "(L_DT-D L_D2T) delta T",
+    "higher": "L_D2T D(delta T)",
+    "status": "EXACT_STRUCTURAL_IDENTITY"
+  },
+  "ward_certificate": {
+    "comparator": "q=D T+B with delta T=-chi and delta B=D chi",
+    "identity": "-D E_B-E_T=0 with both summands nonzero",
+    "root_extension_status": "NOT_EVALUATED",
+    "native_status": "NOT_EVALUATED_PENDING_EQUIVARIANT_NATIVE_K_AND_COMPLETE_MOVING_OWNER_GRAPH",
+    "source_warning": "Xi=D_omega Upsilon is not silently promoted to this identity"
+  },
+  "field_debit": {
+    "independent_B": "CONNECTION_SIZED_FUNCTIONAL_FIELD",
+    "independent_connection_compensator": "CONNECTION_SIZED_FIELD_PLUS_CONSTRAINT_BV_DOMAIN",
+    "derived_coset_return": "NO_NEW_FIELD_OR_COEFFICIENT",
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED"
+  },
+  "controls": [
+    "jet partial is not Euler",
+    "formal-adjoint derivative cannot be dropped",
+    "both Green layers are live",
+    "Ward summands are individually nonzero",
+    "the scalar K is not passed off as a native gauge-natural map",
+    "independent B is not source-selected",
+    "P1/P2/P3 does not own a Green inverse"
+  ],
+  "selector_role": "NONE_NO_ML_OR_FITTED_COEFFICIENT_USED",
+  "next_experiment": {
+    "id": "PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT",
+    "target": "substitute epsilon_prime=epsilon exp(u(T)) into every written source-action slot, transport the nested reductions, prove the true jet order and complete Euler/Green/Ward packet, and construct or exactly obstruct the literal active-native bundle port",
+    "kill": "the complete action retains an unowned Hessian, loses moving-reduction or trace-reversed compatibility, or cannot descend to the active right-H/Krein bundle"
+  }
+}

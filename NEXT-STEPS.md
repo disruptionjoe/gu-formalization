@@ -7,34 +7,29 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 PW2 EXACT SOURCE-DOMAIN OBSTRUCTION; PW2A NEXT.**
-> Thirteen specialist lenses plus ten inline engineering personas recommend
-> the following construction order. PW1 has now run the actual source/native
-> real-form port and the guided B2C2C algebra/action-interface work as a
-> coordinated rendezvous. The native bundle extends canonically into the
-> mixed-sign complex source bundle. A general source bundle first needs a
-> moving quaternionic reduction `J`, then a separate compatible identification
-> with active `P_nat`; fixed projection is killed by the nonzero coset curvature
-> return. The full-unitary real-Krein `Omega0+Omega1` odd bracket and its forced
-> one-half algebraic affine representation pass, while central `iI` kills the
-> complex-bilinear source route. The physical odd-field map and written-action
-> Ward identity remain open. PW2 then found that the projected
-> `(B,T)->(B+K,T-K)` correction is not automatically a legal move in the
-> written source coordinates: `B_omega` is epsilon-derived, and an exact
-> projected Maurer--Cartan displacement can be curved even when its full
-> unprojected parent is flat. The earlier nonzero response is retained as an
-> extended independent-`B` action result, not promoted as Weinstein's stated
-> action. A legal structural pointwise comparator also shows that exterior
-> `dT` need not own `dK`; actual native `K_u` factorization through `Alt`
-> remains open, and curvature prolongs `K(j1T)` through `j2T -> j1K` before
-> Euler/Green closure. PW2 certifies the complete order-two algebra and exact
-> rank locus on a structural fixture. Next: (2A) construct a source-legal moving-reduction
-> lift by retaining the full coset field, deriving an integrability
-> compensator, or explicitly extending the action domain; then close the
-> literal native first jet and operator; (3) derive the BV quotient and covariant
-> phase space from that action; (4) construct the global observation relation
-> and price the minimal external datum; and (5) solve the quotient domain and
-> evolution gate before advancing the complete matter and physics layers.
+> **2026-08-02 PW2A ABSTRACT CO-MOVING GAUGE MECHANISM; LITERAL PW2B NEXT.**
+> PW2 showed that projecting a full gauge displacement against a frozen
+> reduction need not remain in Weinstein's epsilon-derived connection orbit.
+> PW2A now proves the candidate escape mechanism in an exact abstract
+> `GL(2)` principal-bundle chart: move the gauge coordinate and a generic
+> linear involution together, keep `B+T` fixed, verify nonzero-background
+> curvature conjugacy, and retain the coefficient-one coset-curvature return.
+> This is source-shaped, not yet the literal finite source-`H` construction.
+> The chart's linear `J^2=+1` is not PW1's antilinear quaternionic
+> `J_H^2=-1`; the intended grade-3/11 `g_u` should stabilize `J_H` and move
+> the separate `Sp/Spin` Clifford-plane reduction. Source-group membership,
+> admitted epsilon variation, map invertibility, nested reduction descent, and
+> the actual `Y14` port remain open. The curvature return is a two-form with
+> forced coefficient, not a connection compensator. A connection-level
+> repair has flat `H2` obstruction/`H1` ambiguity and, on curved backgrounds,
+> first requires a deformation complex. The independent-`B` rival now has an
+> exact polynomial `D_BK/D_TK` adjoint and two-Green-layer certificate;
+> fourth order is attainable there, while a derivative-affine control drops
+> to order two. Its root Ward identity is unevaluated and it is not
+> source-selected. PW2B must run failure-first: construct the literal
+> source-real-form `g_u` and nested reduction descent; then substitute every
+> written action slot and determine its true order; then close the complete
+> Euler/Green/Ward packet before PW3.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -48,8 +43,10 @@ updated_at: "2026-08-02"
 > and the PW1 result is recorded in
 > `explorations/pw1-source-native-port-superig-interface-2026-08-02.md` and
 > the PW2 result in
-> `explorations/pw2-full-first-jet-action-graph-2026-08-02.md`.
-> Resume at `PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT`.
+> `explorations/pw2-full-first-jet-action-graph-2026-08-02.md`, and the PW2A
+> result in
+> `explorations/pw2a-source-legal-moving-reduction-lift-2026-08-02.md`.
+> Resume at `PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

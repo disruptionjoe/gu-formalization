@@ -1,0 +1,161 @@
+{
+  "artifact_type": "pw2a_source_legal_moving_reduction_lift_result",
+  "run_id": "RUN-20260802-160851-gu-formalization-pw2a-source-legal-lift",
+  "status": "PW2A_ABSTRACT_LOCAL_COMOVING_GAUGE_LIFT_PASS",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_roots": "(epsilon,varpi) with B_epsilon derived and T_epsilon=varpi-(B_epsilon-nabla0)",
+    "fixed_reduction_projection": "p_J K_full against the old J; not automatically source-integrable",
+    "comoving_source_lift": "epsilon_prime=epsilon g_u, J_prime=g_u^-1 J_epsilon g_u, B_prime=B_epsilon_prime, varpi fixed",
+    "old_frame_coset": "the component of K_full outside the old fixed reduction; derived from g_u and moving J, not automatically an independent field",
+    "curvature_compensator": "Q_Phi=(1/2)[Phi wedge Phi]_h; an ad-valued two-form return in wedge notation",
+    "connection_compensator": "an h-valued one-form c solving a nonlinear covariant curvature equation",
+    "curvature_compensator_degree": 2,
+    "connection_compensator_degree": 1,
+    "independent_B": "a new connection field in an explicitly extended repository action",
+    "finite_reduction_fixture": "GL(2) with a linear involution J0^2=+1; an abstract reductive mechanism, not PW1's antilinear quaternionic J_H^2=-1",
+    "first_stage_native_reduction": "J_H for U(64,64)/Sp(32,32;H); intended native g_u in Sp stabilizes J_H",
+    "second_stage_native_reduction": "Q_Cl or epsilon_red for Sp(32,32;H)/Spin0(9,5); intended grade-3/11 g_u moves this Clifford-plane reduction; not constructed by the GL(2) fixture",
+    "trace_reversed_fibre": "Sym2 T*X with DeWitt trace reversal and inertia (6,4), total native (9,5)"
+  },
+  "pre_assessment": [
+    {
+      "lens": "reductive connection geometry",
+      "instruction": "Lead with an abstract epsilon-shaped composition, keep the nested reductions separate, and test curvature conjugacy and action-order drop before projecting.",
+      "predicted_best_route": "full unprojected co-moving candidate with literal source membership left open"
+    },
+    {
+      "lens": "variational bicomplex and PDE",
+      "instruction": "Keep fixed-J independent-Phi and derived-J source branches exclusive; transpose every K/J owner and distinguish curvature completion from a connection PDE.",
+      "predicted_best_route": "source-root lift first, independent-B only as an honest rival"
+    },
+    {
+      "lens": "exact algebra, Spencer, and cohomology",
+      "instruction": "Force the coset curvature coefficient exactly, test local/global orbit separately, and check whether Maurer-Cartan cancels the apparent j2T curvature burden.",
+      "predicted_best_route": "co-moving lift; compensate only if it is more than a renamed coset"
+    }
+  ],
+  "construction": {
+    "source_composition": "in an abstract GL(2) principal-bundle chart shaped like the source formulas, epsilon=1 and epsilon_prime=g give B_prime=g^-1 dg and T_prime=varpi-g^-1 dg, so B_prime+T_prime=varpi; literal source-H membership is not evaluated",
+    "moving_reduction": "J_prime=g^-1 J0 g and D_Bprime J_prime=0 exactly",
+    "fixed_J_control": "D_Bprime J0 is nonzero for a nonstabilizer gauge lift",
+    "reductive_curvature": "F_K+Q_Phi=0 while F_K is nonzero; the component coefficient of Q_Phi is uniquely one",
+    "mixed_sign_replay": "the same full/projected/compensated pattern passes in the exact U(2,2)/Sp(1,1) comparator",
+    "curvature_conjugacy": "an exact nonzero-background GL(2) fixture verifies F_Bprime=g^-1 F_B g",
+    "curvature_order_drop": "the differentiated and quadratic Maurer-Cartan terms are separately nonzero and cancel exactly",
+    "global_control": "a flat half-holonomy circle connection is not in the trivial global gauge orbit"
+  },
+  "route_comparison": [
+    {
+      "id": "FULL-COMOVING-SOURCE-LIFT",
+      "verdict": "LEAD_ABSTRACT_STRUCTURAL_PASS_LITERAL_SOURCE_GATE_OPEN",
+      "source_grade": "ABSTRACT_PRINCIPAL_BUNDLE_STRUCTURAL_SOURCE-SHAPED__LITERAL_SOURCE_H_NOT_EVALUATED",
+      "new_field_debit": "NONE_IF_g_u_IS_DERIVED_FROM_EXISTING_ROOTS",
+      "coefficient_debit": "NO_NEW_COEFFICIENT; EXISTING c3:c11 REMAINS OPEN",
+      "earned": "exact abstract gauge split, fixed total connection, generic moving-involution compatibility, full Maurer-Cartan cancellation",
+      "open": "source-H membership, admitted epsilon variation domain, map invertibility, global descent, literal first-stage stabilization and stage-two Clifford-plane transport, native grade-3/11 exponentiation and action-order drop"
+    },
+    {
+      "id": "DERIVED-INTEGRABILITY-COMPENSATOR",
+      "verdict": "CURVATURE-LEVEL-COLLAPSES-TO-ROUTE-ONE",
+      "source_grade": "REPOSITORY-DERIVED",
+      "curvature_level": "coefficient-one Q_Phi is forced and adds no datum",
+      "connection_level": "OPEN_NONLINEAR_PDE_WITH_DOMAIN_AND_HOLONOMY_BURDEN",
+      "new_field_debit": "NONE_FOR_Q_Phi; CONNECTION_SIZED_IF_c_IS_INDEPENDENT",
+      "open": "formal integrability, global obstruction class, H1 ambiguity, right inverse, boundary/domain"
+    },
+    {
+      "id": "INDEPENDENT-B-ACTION-EXTENSION",
+      "verdict": "STRUCTURAL_VARIATIONAL-CONTROL-PASS_ONLY",
+      "source_grade": "REPOSITORY_EXTENSION_NOT_SOURCE_SELECTED",
+      "new_field_debit": "CONNECTION_SIZED_FUNCTIONAL_FIELD",
+      "earned": "exact scalar root-owner chain with live D_BK/D_TK, attainable fourth-order Euler term plus derivative-affine order-two control, formal adjoint, two Green layers, and a separate nonvacuous coupled Ward comparator",
+      "open": "native K gauge naturality, moving coefficients, source constraint/multiplier, literal action, BV rank, analytic domain"
+    }
+  ],
+  "connection_compensator_burden": {
+    "flat_linearized_equation": "D_B c=R with D_B^2=0",
+    "flat_linearized_obstruction": "[R] in H2_D_B",
+    "flat_solution_ambiguity": "H1_D_B",
+    "curved_background": "D_B^2=ad(F_B), so ordinary H1/H2 language is unavailable before a deformation complex is built"
+  },
+  "action_order_drop": "PROVED_FOR_CURVATURE_ONLY_COMPLETE_SOURCE_ACTION_NOT_EVALUATED",
+  "ward_status": "ROOT_EXTENSION_WARD_NOT_EVALUATED__SEPARATE_STRUCTURAL_WARD_COMPARATOR_PASS",
+  "constraint_surplus": "UNCOMPUTED_PENDING_LITERAL_PORT_AND_GAUGE_BV_QUOTIENT",
+  "literal_native_status": "NOT_EVALUATED_PENDING_ACTUAL_Y14_ATLAS_SOURCE_TO_ACTIVE_REAL_FORM_PORT_AND_NATIVE_g_u",
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "2021 draft Section 9.1 owns omega=(epsilon,varpi), B_epsilon, T_epsilon, and the fixed 1/2 and 1/3 transgression grammar",
+      "TOE 02:19:17-02:20:33 distinguishes the gauge-rotated Levi-Civita object and continues to the tilted double-coset grammar",
+      "TOE 00:26:28-00:29:16 and the draft own trace reversal on the symmetric ten-fibre"
+    ],
+    "SOURCE_CORRECTS": [
+      "the source B_epsilon is the full gauge-rotated connection, not a reductive projection p_J K against a frozen repository reduction"
+    ],
+    "SOURCE_SILENT": [
+      "the exact co-moving g_u construction, distortion-derived g_u, and their global source/native descent",
+      "transport of the nested quaternionic and Clifford-plane reductions through the literal active bundle",
+      "the coefficient-one coset-return theorem, an h-only compensator PDE, independent-B extension, complete source-action order drop, BV quotient, and analytic domain"
+    ],
+    "REPOSITORY_DERIVED": [
+      "the abstract GL(2) co-moving gauge-lift theorem and exact nonzero-background curvature conjugacy fixture",
+      "the coefficient-one coset curvature return and its distinction from a connection one-form",
+      "the packet-level warning that Xi=D_omega Upsilon is not silently promoted to a complete off-shell coupled Ward identity"
+    ]
+  },
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "reductive connection geometry",
+        "variational bicomplex and PDE",
+        "exact algebra, Spencer, and cohomology"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE",
+      "lenses": [
+        "source and reductive geometry",
+        "variational PDE and Ward-Green ownership",
+        "cohomology, evidence, campaign, and inventory"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "literal source-lift claim demoted to an abstract GL(2) source-shaped mechanism",
+        "linear J0^2=+1 separated from quaternionic J_H^2=-1 and Clifford-plane Q_Cl",
+        "source-H membership, admitted epsilon variation, map invertibility, and nested native transport left open",
+        "nonzero-background curvature conjugacy added",
+        "curvature two-form return separated from a connection one-form and flat H2/H1 separated from curved deformation-complex language",
+        "source confirmation, source correction, source silence, and repository derivation separated",
+        "coefficient accounting corrected to one equation minus one temporary scalar equals zero surplus with identifiability",
+        "live D_BK and D_TK adjoints added to the independent-B fixture",
+        "attainable fourth order separated from the derivative-affine order-two control",
+        "separate Ward comparator distinguished from the unevaluated root and physical Ward identities",
+        "algebraic, type/registry, source-receipt, and planted evidence counts separated",
+        "campaign, navigation, Curt/TG, datum, and 202-probe inventory surfaces reconciled"
+      ],
+      "final_verdicts": [
+        "PASS after source-group, nested-reduction, curvature, and cohomology scope repairs",
+        "PASS after B-owner, derivative-order, Ward-scope, field-debit, and staged-next-gate repairs",
+        "PASS after source-bucket, surplus, evidence-count, campaign, and inventory repairs"
+      ],
+      "reruns": [
+        "27 algebraic exact + 14 type/registry + 3 source receipts + 14 planted = 58 PASS",
+        "21 algebraic exact + 10 type/registry + 11 planted = 42 PASS",
+        "47 exact scaffold + 12 planted = 59 PASS"
+      ]
+    }
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "native_total_signature": [9, 5],
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "nonclaims": [
+    "no literal Y14 global source lift or source-to-active-native equivalence",
+    "no source-selected c3:c11 ratio or new action coefficient",
+    "no complete native Euler/Ward/Green packet or physical BV quotient",
+    "no analytic domain, no-leakage theorem, Standard Model recovery, generation count, quantum theory, or cosmological prediction"
+  ],
+  "next_gate": "PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT"
+}

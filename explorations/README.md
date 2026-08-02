@@ -13,6 +13,17 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2A abstract co-moving gauge lift`](pw2a-source-legal-moving-reduction-lift-2026-08-02.md)
+  proves a source-shaped mechanism in an exact `GL(2)` principal-bundle
+  chart: move the gauge coordinate and generic reduction together, keep
+  `B+T` fixed, and retain the coefficient-one coset-curvature return. It is
+  not yet a literal source-`H` lift or the nested quaternionic/Clifford port.
+  An independent-`B` polynomial fixture verifies live `D_BK/D_TK` adjoints
+  and both Green layers; its fourth order is attainable rather than forced,
+  and a derivative-affine control drops to order two. PW2B must construct
+  literal `g_u`, admitted variation/descent, nested active reductions, and
+  complete action order/Euler/Green/Ward. P1/P2/P3 remain unused and PW3 is
+  blocked.
 - [`PW2 full first-jet action graph and source-domain obstruction`](pw2-full-first-jet-action-graph-2026-08-02.md)
   shows that the projected `(B,T)->(B+K,T-K)` correction is not automatically
   a legal substitution into Weinstein's stated source action: `B_omega` is
@@ -41,8 +52,9 @@ these for the full working record; the durable, reviewed results live in `canon/
 - [`Post-B2C15R3 multidisciplinary council and next-ten-wave scaffold`](post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md)
   uses thirteen mathematical/computational specialist lenses and ten inline
   build-oriented engineering personas to reorder the campaign without
-  initially executing a successor swing. PW1 is now complete and advances the
-  scaffold to the source-legal PW2A lift, full-jet operator closure,
+  initially executing a successor swing. PW1 and the PW2A abstract mechanism
+  are now complete and advance the scaffold to the literal PW2B source/native
+  port and action-order closure,
   action-derived BV quotient, global observation/datum typing, and
   quotient-domain construction before the later physics layers. ML,
   statistics, counterfactuals, consensus, and proof systems are admitted only

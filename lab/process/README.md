@@ -38,12 +38,22 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2a-source-legal-moving-reduction-lift.json` - PW2A machine-readable
+  route comparison: an abstract `GL(2)` co-moving gauge mechanism passes; the
+  literal source group and nested native reductions remain open; the
+  coefficient-one coset curvature return is forced but is not a connection;
+  and an h-only repair remains a typed PDE/deformation-complex/domain problem.
+- `pw2a-action-extension-experiment-registry.json` - fixture-scoped
+  independent-`B` owner-adjoint, attainable fourth-order plus
+  derivative-affine order-two control, two-Green-layer identity, separate
+  Ward comparator, field debit, and literal-native nonpromotion ledger.
 - `pw2-full-first-jet-action-graph.json` - PW2 machine-readable Layer-0 and
   source-domain result: a projected Maurer--Cartan connection displacement is
   not automatically an epsilon-orbit lift; a structural comparator shows
   exterior `dT` need not own `dK`, with native factorization still open;
   `j2T -> j1K`, moving `Dp_J`, and coset-curvature returns remain live,
-  physical Ward evaluation stops, and PW2A is the next gate.
+  physical Ward evaluation stops. PW2A's abstract mechanism is recorded
+  above; literal PW2B source/native action closure is the current gate.
 - `pw2-action-graph-experiment-registry.json` - exact symbolic/dual-number
   derivative agreement and complete `C2=A2(2 partial Z1+Z0)+A1 Z1`
   composition/rank certificate, with a pivot-minor exceptional locus and ML
@@ -64,8 +74,8 @@ Runbooks:
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
   restricts ML and systems analogies to typed roles; requires divergent
   specialist pre-assessment and hostile post-review for every major wave; and
-  records PW1 complete and PW2 stopped at a source-domain obstruction with
-  PW2A next.
+  records PW1/PW2 complete, the PW2A abstract mechanism, and literal PW2B
+  source/native action closure next.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.
