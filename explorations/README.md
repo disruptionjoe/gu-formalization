@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15R2 full BCH, covariant split action, and curvature adjoint`](eric-curt-wave3d-b2c15r2-full-bch-action-gauge-curvature-adjoint-2026-08-02.md)
+  resums the complete linear grade-3/11 bridge to an exact `Delta`-only
+  connection, then builds its projected tensorial covariant difference and a
+  separate generic fixed-total split-action comparator without adding
+  `lambda_red`. The actual derived-`K_u` action substitution remains open. The
+  actual Zorro/curvature top symbol cancels; a full `A2 o Z0` order-two
+  subroute is live while the effective order-two assembly remains open.
+  Same-bundle descent, the complete native first variation, and a canonical
+  supported observation/equation lift remain open; P1/P2/P3 is unspent.
 - [`Eric/Curt Wave 3D-B2C15Q distortion substitution and native Zorro--Shiab owner return`](eric-curt-wave3d-b2c15q-distortion-substitution-native-zorro-shiab-owner-return-2026-08-02.md)
   proves the leading quadratic BCH connection jet depends only on
   `c3^2-c11^2` and reaches all 91 connection directions from one common

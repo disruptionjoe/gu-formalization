@@ -794,6 +794,39 @@ updated_at: "2026-08-01"
 > replacement, build the complete raw/adjoint order ledger, and keep the
 > Gysin and equation-dual observation routes distinct before any surplus,
 > BV, domain, or physical promotion.
+>
+> **Alternative-branch B2C15R2 result (2026-08-02): THE FULL LINEAR BRIDGE
+> AND A COEFFICIENT-FREE ACTION-PLACEMENT CANDIDATE GRAMMAR ARE BUILT;
+> THE DERIVED SUBSTITUTION, GLOBAL DESCENT, AND
+> OBSERVATION SUPPORT ARE NOT.** The complete grade-3/11 BCH connection
+> resums to `q_MC=-Delta pr2[ad_A phi(Delta ad_A^2)dA]`, so both Hodge-null
+> branches vanish to all orders in this controlled linear sector. A separate
+> grade-seven completion breaks same-`Delta` equality, preventing a false
+> global promotion. Covariantizing with `D_BA` gives a projected reduced
+> `h/Spin` connection candidate `q_B=B+K_u` and tensorial difference
+> `K_u=-Delta pr2[ad_A phi(Delta ad_A^2)D_BA]`; the projection removes a live
+> grade-six impostor and passes all 91 reduced grade-two `h/Spin` generators;
+> full source `H/Sp` equivariance remains part of bundle descent. Its candidate
+> action placement is the coefficient-free split
+> `(B,T)->(B+K_u,T-K_u)` inside the existing first action at fixed total
+> connection. A generic finite split-action comparator and a separate
+> derived-leading-owner Green comparator pass; the actual derived `K_u(T)`
+> has not yet been substituted into the finite/native action. The apparent
+> Zorro/curvature order-three symbol is pure gauge and cancels. The full
+> `A2 o Z0` principal-curvature subroute, including the moving DeWitt block,
+> is live with trace-adapted Shiab ranks `10` and `4`; the effective
+> order-two symbol remains open until `A1 o Z1` and subprincipal terms are
+> assembled. Four of thirteen
+> observation legs are fibre-Gysin eligible, but the noncompact homogeneous
+> metric fibre supplies no nonzero invariant compactly supported cutoff; an
+> equation-dual remains a distinct selected-lift problem. P1/P2/P3 remains
+> unchanged and unused. The next gate is
+> `ECW3D-B2C15R3-SAME-BUNDLE-COVARIANT-SPLIT-NATIVE-FIRST-VARIATION-AND-OBSERVATION-SUPPORT`:
+> prove same-bundle/overlap descent of `q_B/K_u`, differentiate the full split
+> through the actual first action with every Green and gauge/Ward return, and
+> assemble `A1 o Z1` plus every subprincipal term into the effective
+> order-two symbol, then derive proper support or a selected descended
+> no-leakage equation lift before computing physical response rank or surplus.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

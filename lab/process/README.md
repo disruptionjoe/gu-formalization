@@ -251,6 +251,19 @@ Runbooks:
   Separate Green/owner comparators, eight live fixed-curvature slots, and a
   local rank-10 metric response pass. The full action, adjoint-order ledger,
   and distinct supported-Gysin/equation-dual routes remain open.
+- `eric-curt-wave3d-b2c15r2-full-bch-action-gauge-curvature-adjoint.json` -
+  Wave 3D-B2C15R2 full-BCH, covariant-split, and curvature-adjoint gate. It
+  resums the complete fixed linear grade-3/11 bridge to a `Delta`-only
+  connection while an independent grade-seven plant blocks nonlinear
+  overgeneralization. The projected tensorial covariant difference supplies a
+  candidate placement, while a separate generic fixed-total split comparator
+  shows no new action coefficient is needed; the actual derived-`K_u`
+  substitution is open. The Zorro
+  order-three symbol is pure gauge and cancels. The full `A2 o Z0`
+  principal-curvature subroute is live at order two, while `A1 o Z1` and the
+  subprincipal effective-order assembly remain open. Same-bundle descent,
+  complete native variation, and a
+  canonical supported observation/equation lift remain open.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving
