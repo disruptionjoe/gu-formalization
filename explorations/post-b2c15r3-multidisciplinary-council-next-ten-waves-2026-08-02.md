@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH SCOPED PW2C FIXED-Q,G SOURCE-ROOT BLOCK, FULL-K, AND STRUCTURAL ACTION COMPARATORS PASS / PW2D NEXT. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW1 establishes the conditional moving-J interface; PW2 kills automatic frozen-reduction source integrability; PW2A proves an abstract GL(2) co-moving mechanism; PW2B establishes active grade-3/11 bridge membership and orbit-fixture order attainability. PW2C now proves the fixed-Q,g source-root Frechet block, literal K_full connection/curvature/nonzero-delta-B variation, equal-Delta and controlled Hodge-null discrimination, scalar mixed 2/3/4 and Green 1/2/2 comparators, a nonvacuous Abelian Ward/preboundary cancellation, an ordinary cotangent lift, and a finite Abelian BRST comparator. It separately replays the actual native eight-slot rank-ten moving coefficient but does not assemble it with literal K_full on Y14. Transported-Q/metric blocks, public source bundle, tame inverse, off-identity dexp resonance, analytic domain, actual nonabelian Ward, graded BV/BFV, physical quotient, Standard Model recovery, generation count, quantum theory, and cosmological prediction remain open."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2D PARTIAL FIXED-METRIC ACTION AND STRUCTURAL RIGHT-WARD PASS / PW2E NEXT. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW2D evaluates a fixed-metric covariance-completed Q-family, literal full-K split, normalized transgression, and written kappa1/2 mass term on the actual B2C15P Y14 fixture. Independent differentiation corrects the tangent identity: the explicit projector response is zero here, while the Q/Phi family is live. All thirteen coefficient-dual legs lie in ker Alt; the bridge is a separate repository-chosen source component. Linear response cancels and quadratic full response is [0,3/8+kappa1,3/8+kappa1,0,0], so it remains Delta-only and can vanish at kappa1=-3/8. The eight metric slots remain a separate zero-jet rank-ten coefficient bank. A structural GL2 residual right Ward closes, and hostile repair constructs an explicit old-root Frechet adjoint plus separate Green layer. Finite native Q/projector construction, public port, mixed/full Z0+Z1 metric graph, coefficient descent, higher action jet, native all-owner Ward, composite reality, analytic domain, BV/BFV, physical quotient, and physics recovery remain open."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -91,19 +91,20 @@ Clifford-plane transport. Literal source-group membership, the admitted
 epsilon-variation policy, distortion-derived \(g_u\), global descent,
 active-native port, and complete written-action jet order remained for PW2B.
 
-PW2C now constructs the fixed-Q,g active identity-germ source-root block and
-literal \(K_{\rm full}=h(T)^{-1}D_Bh(T)\). It separates finite-mode inversion
-from hostile scalar-domain, off-identity `dexp`, same-Sobolev, tame nonlinear,
-transported-owner, and global-bundle claims, and it carries an equivariant
-three-patch plus nonconstant affine-overlap control. The full connection
-distinguishes equal-Delta and Hodge-null branches erased by the grade-two
-projection. The scalar dependency comparator closes its direct pulled
-Euler/Green identity, mixed `2/3/4` ledger, Abelian Ward/preboundary,
-ordinary cotangent, and finite Abelian BRST controls; it is not the native
-symbol, a physical quotient, or a graded BV result.
-The separately verified native eight-slot moving coefficient has rank ten,
-but the two calculations are not yet one actual Y14 tensor assembly; that is
-PW2D.
+PW2D now evaluates the PW2C full-K graph with the actual B2C15P Y14 curvature,
+a fixed-metric covariance-completed Q family, normalized transgression, and
+the omitted `kappa1/2` mass term. The hostile review corrected a sign and a
+circular projector claim: explicit projector motion is zero on this fixture,
+whereas the Q/Phi family is live. All thirteen coefficient-dual legs lie in
+`ker Alt`; the live bridge is a separate repository-chosen component. Linear
+response cancels. The curvature, unweighted mass, and full second responses
+are respectively `[0,3/8,3/8,0,0]`, `[0,2,2,0,0]`, and
+`[0,3/8+kappa1,3/8+kappa1,0,0]`. The eight metric slots remain a separate
+zero-jet coefficient bank, not a mixed action derivative. A structural GL2
+right-Ward comparator closes, and hostile repair integrates its full-K map
+into an explicit old-root adjoint and separate graph Green layer. The finite
+native Q/projector operator, mixed/full metric graph, coefficient descent,
+higher jet, native Ward, quotient, and domain remain PW2E burdens.
 
 ## Layer-0 objects that must not collapse
 
@@ -282,7 +283,7 @@ unexecuted.
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — SCOPED PW2C PASS / PW2D REQUIRED** | PW2C proves the fixed-Q,g source-root block, literal full-K connection/curvature/nonzero-delta-B identities, equal-Delta and controlled Hodge-null discrimination, a scalar `2/3/4` and `1/2/2` dependency comparator, nonvacuous Abelian Ward/preboundary, ordinary cotangent, and finite Abelian BRST controls. The actual native eight-slot coefficient is separately live with metric-owner rank ten. | Does the literal full-K graph retain the comparator's coefficient and Ward closure when the transported-Q/metric blocks, actual Zorro--DeWitt curvature, and all eight native slots are assembled? | PW2D must perform that one-tensor assembly and derive the actual nonabelian source Ward/Green packet with explicit `Q_Cl`; public-bundle, analytic-domain, graded-BV, and physical-quotient burdens remain. |
+| **PW2 — full jet and effective operator — PARTIAL PW2D PASS / PW2E REQUIRED** | PW2D evaluates the fixed-metric covariance-completed full written action jet and a separate zero-jet metric bank. Linear response cancels; quadratic full response is Delta-only and equals `3/8+kappa1` on both equal-Delta branches. A structural GL2 residual Ward and explicit old-root adjoint/Green layer pass. | Does the response survive an explicit finite native Q/projector construction, mixed/full `Z0+Z1` metric graph, actual coefficient descent, higher jet, and native all-owner Ward? | PW2E must close those gates; public-bundle, composite-reality, analytic-domain, graded-BV, and physical-quotient burdens remain. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -349,14 +350,22 @@ as scoped open boundaries before commit.
 PW1 conditionally enabled PW2. PW2 returned an exact obstruction to frozen-J
 projection, PW2A supplied the abstract co-moving mechanism, and PW2B proved
 active-real-form bridge membership plus scoped orbit-fixture attainability.
-PW2C now closes the fixed-Q,g source-root block, literal full-K discriminator,
-scalar dependency comparator, Abelian Ward/preboundary, ordinary cotangent,
-and finite Abelian BRST controls. It explicitly
-does not collapse the comparator with the separately replayed native
-eight-slot coefficient or claim the public bundle, tame inverse, nonabelian
-Ward, physical quotient, or domain. The next gate is
-`PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY`; PW3 stays
-blocked. P1/P2/P3 remain correctly unused.
+PW2D now evaluates a fixed-metric covariance-completed Q family, literal
+full-K split, normalized transgression, and the written mass term on the actual
+B2C15P Y14 fixture. The explicit projector tangent is zero here; the Q/Phi
+family is live. All thirteen coefficient-dual legs lie in `ker Alt`, so the
+live bridge is a distinct repository-chosen source component. Linear response
+cancels and full quadratic response is
+`[0,3/8+kappa1,3/8+kappa1,0,0]`: Delta-only and possibly zero. The eight metric
+slots remain a separate zero-jet coefficient bank. Separately, a structural
+GL2 residual right Ward closes with moving Q and a nonzero boundary, and its
+full-K graph now has an explicit old-root adjoint plus separate Green layer.
+The finite native Q/projector operator, public bundle, mixed/full `Z0+Z1`
+metric graph, composite reality, three-patch coefficient descent, higher
+action jet, native all-owner Ward, physical quotient, and domain remain open.
+The next gate is
+`PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET`;
+PW3 stays blocked. P1/P2/P3 remain correctly unused.
 
-PW3 stays blocked until PW2D closes the actual native assembly and source
-Ward gate.
+PW3 stays blocked until PW2E closes the complete metric-owner, descent,
+higher-action-jet, and native all-owner Ward gate.

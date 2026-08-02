@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_NEXT",
+  "status": "PW2D_PARTIAL_FIXED_METRIC_ACTION_AND_STRUCTURAL_RIGHT_TILTED_WARD_PASS_PW2E_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -25,22 +25,30 @@
       "PW2B active-real-form grade-3/11 membership and moving-Clifford-projector identities, with public-source bundle identification and actual source-coordinate Jacobian open",
       "PW2B exact transgression normal form with minus one-sixth q(T,T) and a compatible pointwise curvature-orbit fixture making varying-varpi order two attainable with one Green layer",
       "PW2C fixed-Q,g active source-root Frechet block, three-patch and nonconstant affine descent, literal K_full including nonzero-delta-B variation, and equal-Delta/controlled-Hodge-null discrimination",
-      "PW2C scalar dependency comparator with direct pulled Euler-Green, mixed 2/3/4 orders, 1/2/2 Green depths, Abelian Ward/preboundary, ordinary cotangent and finite Abelian BRST controls, plus a separately replayed native eight-slot rank-ten coefficient"
+      "PW2C scalar dependency comparator with direct pulled Euler-Green, mixed 2/3/4 orders, 1/2/2 Green depths, Abelian Ward/preboundary, ordinary cotangent and finite Abelian BRST controls, plus a separately replayed native eight-slot rank-ten coefficient",
+      "PW2D fixed-metric covariance-completed Q-family, literal K_full, normalized transgression, and written kappa1/2 mass action jet on the actual B2C15P Y14 fixture",
+      "PW2D all thirteen coefficient-dual trace-line legs in ker Alt plus a separate repository-chosen Alt-bearing source bridge component",
+      "PW2D complete linear cancellation and quadratic Delta-only full response [0,3/8+kappa1,3/8+kappa1,0,0], including possible cancellation at kappa1=-3/8",
+      "PW2D independently differentiated projector response zero on this fixture and live Q/Phi-family tangent on four branches",
+      "PW2D structural GL2 derivative-bearing tilted cocycle and residual right nonabelian Ward with live moving-Q owner, explicit old-root Frechet adjoint, and separate graph Green layer"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
-      "transported Q_Cl and metric Frechet blocks; literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
+      "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; actual three-patch coefficient descent; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "one actual Y14 assembly of literal K_full with every moving Shiab/Hodge/density/Krein/trace/projector/curvature coefficient and the complete native effective operator",
+      "mixed bridge-by-metric action derivative and full Z0+Z1 total-space metric Frechet block with fixed-varpi Levi-Civita return and complete A2(2 partial Z1 plus Z0) plus A1 Z1 effective operator",
+      "explicit finite native Q/projector operator construction and composite right-H/Krein/C+ recertification",
+      "cubic and quartic native action jets determining whether the quadratic Delta-only degeneracy persists",
+      "one native all-owner hatted-Euler residual right Ward/Green composition rather than the exact structural nonabelian comparator alone",
       "action-derived BV tangent differential and physical quotient",
       "functional observed Euler pushdown and no-leakage theorem",
       "closed physical Krein or boundary domain",
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2C",
-    "guided_next": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY",
-    "alternative_next": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY"
+    "datum": "P1/P2/P3 unchanged and unused through PW2D",
+    "guided_next": "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET",
+    "alternative_next": "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -54,7 +62,10 @@
     "fixed-J projected displacement != co-moving epsilon/J source lift",
     "coset curvature two-form return != h-valued connection compensator",
     "full source displacement K_full != grade-two reduced return K_red",
-    "structural unitriangular comparator != actual source-coordinate Jacobian"
+    "structural unitriangular comparator != actual source-coordinate Jacobian",
+    "Xi redundancy != left tilted kernel != residual right action != field substitution",
+    "coefficient-dual ker-Alt sector != separately declared Alt-bearing bridge sector",
+    "quadratic Delta-only fixture != all-orders bridge theorem"
   ],
   "lanes": [
     {
@@ -355,7 +366,7 @@
     },
     {
       "id": "PW2",
-      "status": "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_REQUIRED",
+      "status": "PW2D_PARTIAL_FIXED_METRIC_ACTION_AND_STRUCTURAL_RIGHT_TILTED_WARD_PASS_PW2E_REQUIRED",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -379,7 +390,7 @@
       ],
       "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
       "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
-      "exit": "PW2C proves the fixed-Q,g source-root block, literal full-K discriminator, scalar 2/3/4 dependency comparator, Abelian Ward/preboundary, ordinary cotangent, and finite Abelian BRST controls; transported-Q/metric blocks, actual Y14 literal-full-K/eight-slot assembly, nonabelian source Ward, graded BV/BFV, public-source bundle, analytic domain, and physical quotient remain for PW2D",
+      "exit": "PW2D constructs a fixed-metric covariance-completed full written action jet and a separate zero-jet metric coefficient bank; linear response cancels and the quadratic full response is Delta-only but depends on kappa1. The structural residual right nonabelian Ward and repaired old-root Frechet-adjoint/Green comparator pass. Finite native Q/projector construction, mixed/full Z0+Z1 metric ownership, composite reality, actual coefficient descent, higher action jets, native all-owner Ward, public port, domain, BV/BFV, and physical quotient remain for PW2E.",
       "result": {
         "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
         "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
@@ -397,7 +408,12 @@
         "pw2c_source_jacobian": "FIXED_Q_G_ACTIVE_IDENTITY_GERM_SOURCE_ROOT_BLOCK_AND_FINITE_MODE_INVERSE_PASS__TRANSPORTED_Q_METRIC_OFF_IDENTITY_DEXP_INTERVAL_DOMAIN_SAME_SOBOLEV_TAME_NONLINEAR_AND_PUBLIC_BUNDLE_PORT_OPEN__THREE_PATCH_GROUP_AND_NONCONSTANT_AFFINE_DESCENT_PASS_WITH_HOSTILE_LOCAL_DEFECT",
         "pw2c_full_connection": "K_FULL_EQUALS_DEXP_MINUS_U_DB_U_AND_DIRECT_TRANSFORMED_CONNECTION__CURVATURE_CONJUGACY_AND_NONZERO_DELTA_B_VARIATION_PASS__EQUAL_DELTA_AND_CONTROLLED_ZERO_COMMUTATOR_HODGE_NULL_BRANCHES_DISTINGUISHED_FROM_K_RED__NO_COEFFICIENT_SELECTION",
         "pw2c_action_ward_cotangent": "SCALAR_DEPENDENCY_COMPARATOR_DIRECT_PULLED_EULER_GREEN_PASS__MIXED_ORDERS_2_3_3__3_4_4__3_4_4__GREEN_DEPTHS_1_2_2__SCALAR_TOP_RANK2_WITH_PLANTED_ABELIAN_GAUGE_NULL__NONVACUOUS_WARD_PREBOUNDARY_ORDINARY_COTANGENT_AND_FINITE_ABELIAN_BRST_COMPARATORS_PASS__ACTUAL_NATIVE_EIGHT_SLOT_RANK10_REPLAY_SEPARATE_NOT_ASSEMBLED__GRADED_BV_OPEN",
-        "next_gate": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY"
+        "pw2d_transported_shiab": "ACTUAL_B2C15P_Y14_CURVATURE__CORRECT_DQ_MINUS_S_ADF_EQUALS_MINUS_AD_S_IDENTITY__EXPLICIT_TRANSPORTED_GRADE_PROJECTOR_RESPONSE_ZERO__Q_PHI_FAMILY_LIVE4_AND_FROZEN_Q_PHI_DEFECTS4__FINITE_SECOND_ORDER_NATIVE_OPERATOR_PUBLIC_PORT_AND_THREE_PATCH_DESCENT_OPEN",
+        "pw2d_alt_action_coupling": "ALL13_TRACE_LINE_COEFFICIENT_DUAL_LEGS_LIE_IN_KER_ALT__SEPARATE_REPOSITORY_CHOSEN_LEXICOGRAPHIC_SOURCE_LEG_SUPPLIES_NONZERO_ALT_BRIDGE",
+        "pw2d_native_action": "NORMALIZED_MINUS_ONE_SIXTH_TRANSGRESSION__FIXED_METRIC_COVARIANCE_COMPLETED_S_ADIC_JET_INCLUDES_KAPPA1_OVER2_MASS__LINEAR_ALL_ZERO__CURVATURE_SECOND_0_3OVER8_3OVER8_0_0__MASS_NORM_SECOND_0_2_2_0_0__FULL_SECOND_0_3OVER8_PLUS_KAPPA1_3OVER8_PLUS_KAPPA1_0_0__DELTA_ONLY_AND_CAN_CANCEL_AT_KAPPA1_MINUS3OVER8__NO_SELECTION",
+        "pw2d_metric_owner": "SEPARATE_ZERO_JET_BANK_ALL_EIGHT_NATIVE_SLOTS_LIVE__TEN_OWNER_COEFFICIENT_RANK10__FOUR_FROZEN_ACTION_PAIRING_RETURNS_NONZERO__NO_ACTION_EULER_RANK_OR_MIXED_BRIDGE_METRIC_DERIVATIVE__FULL_Z0_Z1_OPEN",
+        "pw2d_right_tilted_ward": "STRUCTURAL_GL2_DERIVATIVE_COCYCLE_AND_LEFT_RIGHT_TILTED_ACTIONS_PASS__LIVE_CONNECTION_DISTORTION_MOVING_Q_NOETHER_IDENTITY__BULK38_BOUNDARY_MINUS38__EQUIVARIANT_FULL_K_TENSORIAL__EXPLICIT_OLD_ROOT_DF_ADJOINT_AND_SEPARATE_GRAPH_GREEN__TOTAL_ENDPOINT_243073_OVER216000__NATIVE_ALL_OWNER_WARD_OPEN",
+        "next_gate": "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET"
       },
       "review_receipts": {
         "pre_assessment": {
@@ -528,6 +544,41 @@
             "28 exact + 8 type + 4 source + 12 planted = 52 PASS",
             "strict unique-key JSON, Python syntax, 206-file inventory, and git diff checks PASS",
             "55 exact scaffold checks + 15 planted rejections = 70 PASS"
+          ]
+        }
+      },
+      "pw2d_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact Clifford/reductive transport and Cech scope",
+            "Krein variational PDE and native coefficient ownership",
+            "symplectic residual right-tilted Ward and Frechet geometry"
+          ],
+          "shared_prediction": "a local active transported-owner and residual-Ward pass with a public-port, full-metric-Frechet, higher-jet, domain, and physical-quotient stop"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "source, real-form bundle, and transported projector",
+            "native transgression, Krein metric, and operator scope",
+            "tilted action, Ward, Frechet, and Green boundary"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "corrected the transported-owner commutator sign and removed the circular projector residual",
+            "independently proved zero explicit projector response and live Q/Phi-family motion",
+            "extended ker Alt to all thirteen actual coefficient-dual legs and moved the split to repository-derived evidence",
+            "restored the written kappa1/2 mass sector and conditional quadratic cancellation",
+            "separated the zero-jet metric coefficient rank from mixed action and Euler rank",
+            "left full Z0+Z1, finite native Q/projector, composite reality, and positive-Hilbert substitution open",
+            "constructed literal B+K covariance, the old-root Frechet adjoint, separate graph Green layer, and corrected total endpoint",
+            "qualified the nonabelian Ward as a GL2 structural comparator rather than the native all-owner theorem"
+          ],
+          "rerun_receipts": [
+            "13 exact + 4 source + 11 type + 8 planted = 36 PASS",
+            "16 exact + 4 source + 11 type + 11 planted = 42 PASS",
+            "strict unique-key JSON, three Python syntax checks, 208-file inventory, scaffold plants, and git diff checks PASS"
           ]
         }
       }
@@ -798,7 +849,7 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1, PW2, PW2A, and the scoped PW2B and PW2C continuations were executed; PW2D is next and PW3 plus all later waves remain unexecuted.",
+    "PW1, PW2, PW2A, PW2B, PW2C, and the scoped partial PW2D continuation were executed; PW2E is next and PW3 plus all later waves remain unexecuted.",
     "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."

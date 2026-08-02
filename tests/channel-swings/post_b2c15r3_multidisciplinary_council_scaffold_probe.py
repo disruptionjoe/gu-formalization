@@ -15,6 +15,8 @@ PW2B = ROOT / "lab/process/pw2b-literal-native-source-port.json"
 PW2B_ACTION = ROOT / "lab/process/pw2b-source-composed-action-order-registry.json"
 PW2C = ROOT / "lab/process/pw2c-literal-source-jacobian-full-k.json"
 PW2C_ACTION = ROOT / "lab/process/pw2c-moving-action-ward-bv-registry.json"
+PW2D = ROOT / "lab/process/pw2d-native-transported-shiab-action.json"
+PW2D_WARD = ROOT / "lab/process/pw2d-right-tilted-ward-green-registry.json"
 
 
 class DuplicateKeyError(ValueError):
@@ -36,8 +38,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_NEXT":
-        errors.append("status must record scoped PW2C pass and PW2D next")
+    if data.get("status") != "PW2D_PARTIAL_FIXED_METRIC_ACTION_AND_STRUCTURAL_RIGHT_TILTED_WARD_PASS_PW2E_NEXT":
+        errors.append("status must record partial PW2D pass and PW2E next")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -89,7 +91,7 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2D_PARTIAL_FIXED_METRIC_ACTION_AND_STRUCTURAL_RIGHT_TILTED_WARD_PASS_PW2E_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
         errors.append("wave status frontier must record the scoped PW2C result/PW2D gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
@@ -137,6 +139,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2C hostile post-review retains must-fix items")
     if len(pw2c_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
         errors.append("PW2C hostile post-review rerun receipts missing")
+    pw2d_review = waves[1].get("pw2d_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2d_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2D pre-assessment receipt incomplete")
+    if pw2d_review.get("post_review", {}).get("status") != "COMPLETE_AFTER_REPAIR":
+        errors.append("PW2D hostile post-review receipt incomplete")
+    if pw2d_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW2D hostile post-review retains must-fix items")
+    if len(pw2d_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
+        errors.append("PW2D hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -199,6 +210,8 @@ def main() -> None:
     action = json.loads(PW2B_ACTION.read_text(), object_pairs_hook=unique_object)
     pw2c = json.loads(PW2C.read_text(), object_pairs_hook=unique_object)
     pw2c_action = json.loads(PW2C_ACTION.read_text(), object_pairs_hook=unique_object)
+    pw2d = json.loads(PW2D.read_text(), object_pairs_hook=unique_object)
+    pw2d_ward = json.loads(PW2D_WARD.read_text(), object_pairs_hook=unique_object)
     failures = validate(data)
     if failures:
         raise AssertionError("\n".join(failures))
@@ -217,7 +230,7 @@ def main() -> None:
         "hostile specialist post-review",
         "## Execution checkpoint",
         "PW3 stays blocked",
-        "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY",
+        "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET",
         "P1/P2/P3 remain correctly unused",
         "constraint surplus",
     ]:
@@ -240,7 +253,21 @@ def main() -> None:
         raise AssertionError("PW2C spent the external datum")
     if pw2c_action["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
         raise AssertionError("PW2C action spent the external datum")
-    exact_checks += 7
+    if not pw2d["status"].startswith("PW2D_PARTIAL_FIXED_METRIC"):
+        raise AssertionError("PW2D fixed-metric/partial scope drifted")
+    if pw2d["transported_shiab"]["explicit_transported_projector_live_branches"] != 0:
+        raise AssertionError("PW2D resurrected the killed projector-motion claim")
+    if pw2d["native_action_jet"]["full_quadratic_responses"] != [0, "3/8+kappa1", "3/8+kappa1", 0, 0]:
+        raise AssertionError("PW2D full mass-plus-curvature response drifted")
+    if pw2d["metric_owner_bank"]["action_or_euler_metric_rank"] != "NOT_COMPUTED":
+        raise AssertionError("PW2D promoted coefficient rank to action/Euler rank")
+    if not pw2d_ward["status"].startswith("PW2D_STRUCTURAL_RESIDUAL_RIGHT_TILTED"):
+        raise AssertionError("PW2D structural Ward scope drifted")
+    if pw2d_ward["frechet_green"]["endpoint"] != "243073/216000":
+        raise AssertionError("PW2D repaired total preboundary endpoint drifted")
+    if pw2d["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED" or pw2d_ward["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
+        raise AssertionError("PW2D spent the external datum")
+    exact_checks += 14
     exact_checks += len(data["specialist_lenses"])
     exact_checks += len(data["engineering_personas"])
     exact_checks += len(data["waves"])
@@ -261,6 +288,7 @@ def main() -> None:
         lambda d: d["waves"][1]["pw2a_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2b_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2c_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2d_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

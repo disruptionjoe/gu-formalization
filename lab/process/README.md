@@ -38,6 +38,15 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2d-native-transported-shiab-action.json` - PW2D repaired transported-
+  owner and fixed-metric action ledger: correct Q-family tangent identity,
+  zero explicit grade-projector response on the fixture, all-thirteen-leg
+  `ker Alt` result, full `kappa1/2` mass-sector response, separate zero-jet
+  metric coefficient bank, and PW2E finite-operator/mixed-metric boundary.
+- `pw2d-right-tilted-ward-green-registry.json` - exact structural `GL(2)`
+  residual right nonabelian Ward, literal `B+K` covariance, explicit old-root
+  `(DF)^!` tuple, separate graph Green layer, independently integrated raw
+  action variation, and native all-owner Ward/BV/domain boundary.
 - `pw2c-literal-source-jacobian-full-k.json` - PW2C fixed-Q,g active-germ
   source-root Frechet block, Fourier/scalar-interval/domain and `dexp`
   resonance distinctions, three-patch and nonconstant affine descent,
@@ -95,8 +104,9 @@ Runbooks:
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
   restricts ML and systems analogies to typed roles; requires divergent
   specialist pre-assessment and hostile post-review for every major wave; and
-  records PW1/PW2/PW2A and the scoped PW2B/PW2C continuations, with PW2D's
-  actual Y14 full-K/moving-coefficient and source-Ward assembly next.
+  records PW1/PW2/PW2A and the scoped PW2B/PW2C/PW2D continuations, with
+  PW2E's finite native Q/projector, mixed/full metric Frechet graph,
+  coefficient descent, higher action jet, and native Ward assembly next.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.

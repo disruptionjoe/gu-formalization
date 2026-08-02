@@ -13,6 +13,19 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2D fixed-metric action jet and structural residual right Ward`](pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md)
+  corrects the transported-owner sign and independently finds zero grade-
+  projector motion but live Q/Phi-family motion on the actual B2C15P fixture.
+  All thirteen coefficient-dual legs lie in `ker Alt`; a separate
+  repository-chosen leg carries the grade-3/11 bridge. The full written
+  fixed-metric action has zero linear response and quadratic response
+  `3/8+kappa1` on both equal-Delta branches, so it can cancel and selects no
+  ratio. The eight metric slots remain a separate rank-ten coefficient bank.
+  A GL2 structural comparator proves the residual nonabelian Ward identity
+  and, after hostile repair, an explicit old-root Frechet adjoint plus
+  separate Green layer. PW2E must construct the finite native Q/projector,
+  mixed/full metric graph, descent, higher jet, composite reality, and native
+  all-owner Ward. P1/P2/P3 remain unused and PW3 is blocked.
 - [`PW2C fixed-Q,g source-root Jacobian, full connection return, and structural Ward/cotangent comparators`](pw2c-literal-source-jacobian-moving-action-ward-2026-08-02.md)
   constructs the fixed-Q,g active identity-germ source-root block and
   `K_full=dexp_-u(D_Bu)`, including hostile domain, `dexp` resonance,
@@ -76,10 +89,11 @@ these for the full working record; the durable, reviewed results live in `canon/
 - [`Post-B2C15R3 multidisciplinary council and next-ten-wave scaffold`](post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md)
   uses thirteen mathematical/computational specialist lenses and ten inline
   build-oriented engineering personas to reorder the campaign without
-  initially executing a successor swing. PW1, PW2A, the scoped PW2B
-  active-real-form/orbit-fixture continuation, and scoped PW2C active-germ
-  Jacobian/full-K/moving-action comparator are now complete and advance the
-  scaffold to PW2D's actual Y14 full-K plus eight-slot coefficient assembly,
+  initially executing a successor swing. PW1, PW2A, the scoped PW2B/PW2C
+  continuations, and the partial PW2D fixed-metric action/structural-Ward
+  packet are now complete and advance the
+  scaffold to PW2E's finite native Q/projector, mixed/full metric assembly,
+  coefficient descent, and higher action jet,
   action-derived BV quotient, global observation/datum typing, and
   quotient-domain construction before the later physics layers. ML,
   statistics, counterfactuals, consensus, and proof systems are admitted only
