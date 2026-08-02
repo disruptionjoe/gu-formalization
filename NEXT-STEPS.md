@@ -598,6 +598,40 @@ updated_at: "2026-08-01"
 > and keep the compressed residual separate from the exact G2 Euler branch.
 > Only then recompute the coupled block and advance to kernel/BV/preboundary
 > work.
+>
+> **Alternative-branch B2C15R result (2026-08-01): NATIVE PRINCIPAL RETURN
+> VANISHES; FIXED-SHIAB PRINCIPAL DIRECT SUM EARNED.** Layer 0 separates the
+> local lift compensator, reductive connection, algebraic `h` return,
+> tensorial principal symbol, and physical metric LC response. Exact
+> differentiation of both the gauge-rotated LC graph and the repository's
+> `A0`-induced reductive comparator gives principal quotient symbol
+> `-xi tensor chi_m`. The complete Clifford check proves `[h,m] subset m`,
+> `Hom_H(m,h)=0`, and all 91 co-moving lift cancellations. Thus the native
+> splitting-induced `r_xi` is zero. The `A0` branch still has the live
+> lower-order term `pr_h[beta_m,chi_m]`. Two nonzero full-Spin first-order
+> alternatives exist from grades 10 and 14, with named-positive-`xi` ranks
+> `286` and `1`; they cost two new coefficients and remain optional operator
+> data. Trace-stabilizer covariance alone admits 25 channels. In the native
+> branch the frozen fixed-Shiab formal-symmetric exact-variational graph
+> subcoefficient has a positive quotient-plus-metric comparator with
+> `K` rank `8172` and Gram inertia `(4118,4054,3)`; at the named orthogonal
+> null representative it has `K` rank `4144` and Gram inertia
+> `(1,7,8167)`. These are principal Gram/normal comparators, not a full
+> off-shell Hessian. The trace-reversed fibre splits previously conflated
+> conormals: orthogonal-null quotient rank `4136`, trace-involving-null rank
+> `6097`, pure-trace rank `8164`, and most named nonnull representatives rank
+> `8165`. The exact named census is not yet a polynomial stratum theorem.
+> This corrects B2C15's branch label: B2C13's compressed source graph response
+> is `0`; the nonzero formal-symmetric block is not that source residual and
+> is still only a subcoefficient of the incomplete exact-G2 Euler map.
+> P1/P2/P3 remain unchanged and unused. The next gate is
+> `ECW3D-B2C15M-MOVING-SHIAB-EXACT-G2-WEIGHTED-EULER-AND-POLYNOMIAL-STRATA`:
+> certify exceptional rank loci, compute all moving Shiab/pairing slots on
+> residual-zero and off-shell fixtures, carry the algebraic connection return
+> only through the `A0`-comparator lower filtered formal-adjoint/Green packet
+> while retaining the native branch separately, and build the
+> distinct weighted source-square, variational-square, and G2 Euler symbols
+> before any BV quotient or domain replay.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

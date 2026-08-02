@@ -30,7 +30,8 @@
     "post_construction": "run independent hostile specialist review after the packet and probe exist to audit mathematics, typing, source fidelity, scope, evidence accounting, and next-gate selection",
     "disposition": "resolve every concrete blocker and rerun validation before commit; report rival specialist verdicts without forced aggregation",
     "b2c13_receipt": "pre-pass supplied the source-versus-variational symbol and preboundary formulas; hostile pass corrected 9.15-versus-9.20 attribution, source-count categorization, inverse-density R_jet typing, active-Y14 scope, and tautological evidence rows",
-    "b2c15_receipt": "pre-pass supplied the all-grade quotient, residual primalizer, induced-LC graph, and rank/Gram separation; hostile passes retracted the full coupled block because r_xi was absent, restricted ranks to named representatives, replaced numerical inertia with exact congruence, checked all ten moving inverse directions, kept moving-Shiab and exact-G2 open, and inserted the weighted Euler gauge/constraint quotient before any Green-domain replay; final three specialist verdicts PASS"
+    "b2c15_receipt": "pre-pass supplied the all-grade quotient, residual primalizer, induced-LC graph, and rank/Gram separation; hostile passes retracted the full coupled block because r_xi was absent, restricted ranks to named representatives, replaced numerical inertia with exact congruence, checked all ten moving inverse directions, kept moving-Shiab and exact-G2 open, and inserted the weighted Euler gauge/constraint quotient before any Green-domain replay; final three specialist verdicts PASS",
+    "b2c15r_receipt": "pre-pass distinguishes lift compensator, algebraic connection return, principal symbol, and metric LC response; constructs the native r_xi principal vanishing theorem, exact two-channel optional-return census, trace-stabilizer parameter burden, and named trace/covector rank census; three hostile passes corrected representation evidence, indefinite-sign musical maps, branch attribution, A0 lower-order ownership, rank scope, constraint-surplus overclaim, and inventory count; final three verdicts PASS"
   },
   "third_lane_promotion_gate": {
     "logic": "TG-1 AND TG-2 AND TG-3",
@@ -433,7 +434,21 @@
                                               "probe": "tests/channel-swings/eric_curt_wave3d_b2c15_full_quotient_primalizer_lc_graph_probe.py",
                                               "report": "explorations/eric-curt-wave3d-b2c15-full-quotient-primalizer-lc-graph-2026-08-01.md",
                                               "alternative_branch_next_gate": "ECW3D-B2C15R-REDUCTION-H-RETURN-RANK-STRATA-AND-COUPLED-BLOCK",
-                                              "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                              "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY",
+                                              "wave3d_b2c15r": {
+                                                "status_boundary": "NATIVE_LC_AND_A0_REDUCTIVE_CONNECTION_R_XI_PRINCIPAL_ZERO__H_M_INVARIANT_HOM_H_M_H_ZERO_AND_ALL91_LIFTS_CANCEL__A0_ALGEBRAIC_H_RETURN_LIVE_SUBPRINCIPAL__TWO_OPTIONAL_FULL_SPIN_FIRST_ORDER_CHANNELS_GRADES10_14_COST_TWO_COEFFICIENTS__TRACE_STABILIZER_FAMILY_DIM25__NATIVE_FIXED_SHIAB_DIRECT_SUM_POSITIVE_K8172_GRAM4118_4054_3_AND_ORTHOGONAL_NULL_K4144_GRAM1_7_8167__NAMED_TRACE_STRATIFIED_RANKS_DISTINCT__MOVING_SHIAB_EXACT_G2_POLYNOMIAL_STRATA_LOWER_FILTERED_ADJOINT_BV_QUOTIENT_AND_DOMAIN_OPEN",
+                                                "source_collision": "SOURCE_CONFIRMS_PORTAL_METRIC_TO_LC_CHAIN_AND_TOE_GAUGE_ROTATED_LC__SOURCE_CORRECTS_DRAFT6_14_TO6_22_AS_TILTED_PROJECTION_NOT_ZORRO_DERIVATIVE__CONSTRUCTION_CORRECTS_B2C15_NONZERO_K_AS_FROZEN_FORMAL_SYMMETRIC_EXACT_VARIATIONAL_SUBCOEFFICIENT_NOT_COMPRESSED_SOURCE_WHOSE_GRAPH_RESPONSE_IS_ZERO__SOURCE_SILENT_ON_FINITE_REDUCTIVE_RETURN_OPTIONAL_CHANNELS_RANK_STRATA_MOVING_SHIAB_EXACT_G2_AND_DOMAIN__PORTAL_G_OVER_H_TAU_IS_AN_INFINITE_DIMENSIONAL_HOMONYM",
+                                                "native_connection": "R_XI_SPLIT_PRINCIPAL_ZERO__A0_PR_H_BETA_CHI_ORDER_ZERO__ZERO_NEW_LOCAL_CONTINUOUS_PARAMETERS",
+                                                "optional_returns": "FULL_SPIN_DIM2_GRADES10_AND14_NAMED_POSITIVE_XI_RANKS286_AND1__GRADE14_ACTIVE_METRIC_CROSS_WITNESS_NNZ4__TRACE_STABILIZER_DIM25__ACTION_INTEGRABILITY_OPEN",
+                                                "rank_census": "ORTHOGONAL_NULL4136__TRACE_INVOLVING_NULL6097__PURE_TRACE8164__MOST_NAMED_NONNULL_AND_NULL_PERP_PLUS_TRACE8165__POINTWISE_EXACT_NOT_POLYNOMIAL_STRATUM_THEOREM",
+                                                "native_coupled_comparator": "POSITIVE_K8172_GRAM_INERTIA4118_4054_3__ORTHOGONAL_NULL_K4144_GRAM_INERTIA1_7_8167__PRINCIPAL_GRAM_NOT_FULL_OFFSHELL_HESSIAN",
+                                                "external_datum": "P1_P2_P3_UNCONSUMED_UNCHANGED_AND_WRONG_TYPE_FOR_LOCAL_CONNECTION_OR_OPERATOR_COEFFICIENT",
+                                                "registry": "lab/process/eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json",
+                                                "probe": "tests/channel-swings/eric_curt_wave3d_b2c15r_reductive_return_rank_strata_probe.py",
+                                                "report": "explorations/eric-curt-wave3d-b2c15r-reductive-return-rank-strata-2026-08-01.md",
+                                                "alternative_branch_next_gate": "ECW3D-B2C15M-MOVING-SHIAB-EXACT-G2-WEIGHTED-EULER-AND-POLYNOMIAL-STRATA",
+                                                "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                              }
                                             }
                                           }
                                         }
@@ -457,7 +472,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
         "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-        "alternative_branch_next_swing": "ECW3D-B2C15R-REDUCTION-H-RETURN-RANK-STRATA-AND-COUPLED-BLOCK"
+        "alternative_branch_next_swing": "ECW3D-B2C15M-MOVING-SHIAB-EXACT-G2-WEIGHTED-EULER-AND-POLYNOMIAL-STRATA"
       }
     },
     {

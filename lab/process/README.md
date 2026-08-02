@@ -194,6 +194,17 @@ Runbooks:
   Hostile review retracts the full mixed block: the reduction-induced `h`
   return, rank strata, moving-Shiab terms, and distinct exact-G2 Euler branch
   remain for B2C15R.
+- `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
+  3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
+  proves the splitting-induced principal `h` return is zero, while preserving
+  the live algebraic `A0` return at lower order. Exactly two optional
+  full-Spin first-order channels remain as separately priced operator data.
+  The native quotient/metric direct sum is earned at principal fixed-Shiab
+  formal-symmetric exact-variational subcoefficient scope—not the compressed
+  source residual, whose graph response is zero—and the exact named census
+  separates orthogonal-null, trace-involving-null, pure-trace, and nonnull
+  ranks. Polynomial strata, moving Shiab, exact G2, BV quotient, and domain
+  remain open.
 - `eric-curt-wave3d-b2c13-dupsilon-preboundary.json` - Wave 3D-B2C13
   bifurcated residual-symbol and preboundary-jet gate. It differentiates the
   compressed source residual and the selected G2 action's exact Euler
