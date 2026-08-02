@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15N full owner Euler and background-dependent moving atlas`](eric-curt-wave3d-b2c15n-full-owner-euler-moving-atlas-2026-08-01.md)
+  constructs the full exact finite owner return from independent `E_T` and
+  `E_B`, proves the exact Green/Helmholtz identities and the mixed
+  third-order `+9/-9` pair, and obtains a held-out irreducible bidegree
+  `(20,8)` total-symbol dispersion determinant plus a separately factored DN
+  principal determinant. It shows why the frozen trace
+  atlas cannot become the native moving atlas before the actual `Y14` action
+  background and stabilizer are built.
 - [`Eric/Curt Wave 3D-B2C15M moving Shiab, weighted Euler, and polynomial rank chart`](eric-curt-wave3d-b2c15m-moving-shiab-exact-g2-weighted-euler-2026-08-01.md)
   constructs vertical Spin-frame covariance, representative quotient-tangent
   naturality, and the local symmetric-Clifford-gauge derivative on all ten

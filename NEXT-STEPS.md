@@ -667,6 +667,38 @@ updated_at: "2026-08-01"
 > check weighted Helmholtz/right-`H`/Krein/reality identities, recompute the
 > polynomial support after moving terms, and complete the negative,
 > nonzero-null, and pure-trace charts before any characteristic/BV replay.
+>
+> **Alternative-branch B2C15N result (2026-08-01): FULL FINITE OWNER RETURN
+> CONSTRUCTED; NATIVE MOVING ATLAS NOW GATED ON ITS BACKGROUND.** Independent
+> variation of the written first action gives a live direct-`B` covector and
+> the graph-return driver `R_B=E_B-E_T`. An exact noncentral fixture with two
+> moving graph owners constructs `E_A=E_T` and
+> `E_u=C_u+(D_uB)^!R_B`, including the moving contraction, density, lowerer,
+> graph adjoint, Green endpoint, and prolonged preboundary packet. The direct
+> action chain rule and integrated Helmholtz identity pass. Returning `E_T`
+> alone has nonzero Helmholtz defect `279281447/155195040`. Direct-`B`/`T`
+> cancellation lowers the two diagonal graph blocks, but the mixed
+> third-order coefficients survive as formal-adjoint opposites `+9/-9`; the
+> realized grouped order matrix is `[[1,2,2],[2,2,3],[2,3,2]]`. On a scaled
+> background family, the owner-symbol entrywise background degrees range from
+> four to six and conormal degrees reproduce the realized order matrix; seven
+> exact interpolation nodes and two holdouts pass. The complete `4x4`
+> total-symbol dispersion determinant is a single irreducible rational
+> polynomial of bidegree `(20,8)`. The distinct Douglis--Nirenberg principal
+> determinant is
+> `16(c-3)^2(c+2)^2(3c-1)^2(c+1)^4 lambda^8`, and admissible background slices
+> have different total-symbol dispersion polynomials. Therefore B2C15M's frozen
+> positive-plus-trace theorem remains valid only at its stated scope: it
+> cannot be promoted to the moving owner atlas, or extended by its assumed
+> trace stabilizer, until the actual native action background is specified.
+> Native coefficientwise right-`H`/Krein/reality, other conormal charts, BV,
+> and domain remain open. P1/P2/P3 are unchanged and unused. The next gate is
+> `ECW3D-B2C15O-NATIVE-Y14-OWNER-BACKGROUND-STABILIZER-AND-TYPED-SUPPORT`:
+> resolve or branch the source `odot_omega` translation-dependence homonym,
+> construct the actual native `E_B`, `R_B`, quotient/metric graph returns on
+> one declared background, derive that background's true stabilizer and typed
+> support after cancellations, and only then perform the coefficientwise
+> reality and polynomial-chart calculations.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

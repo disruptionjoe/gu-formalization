@@ -205,6 +205,15 @@ Runbooks:
   two null roots on the complete positive-plus-trace chart. The full
   first-action owner coefficients, moving atlas, other charts, BV quotient,
   and domain remain open.
+- `eric-curt-wave3d-b2c15n-full-owner-euler-moving-atlas.json` - Wave
+  3D-B2C15N complete finite first-action owner-return gate. It independently
+  constructs `E_B`, returns `E_B-E_T` through two moving graph owners, passes
+  exact Green and Helmholtz checks, and realizes the mixed third-order
+  formal-adjoint pair `+9/-9`. Its held-out moving-background interpolation
+  yields one irreducible `(degree_c,degree_lambda)=(20,8)` total-symbol
+  dispersion determinant and a separately factored DN principal determinant,
+  proving that the native moving atlas requires a declared action background
+  and its actual stabilizer before the frozen trace atlas can be promoted.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving
