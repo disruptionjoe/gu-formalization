@@ -7,7 +7,7 @@ updated_at: "2026-08-01"
 
 # Next Steps For Contributors
 
-> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14 GATES
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been
 > created. Every major swing now requires both a pre-construction specialist
@@ -699,6 +699,33 @@ updated_at: "2026-08-01"
 > one declared background, derive that background's true stabilizer and typed
 > support after cancellations, and only then perform the coefficientwise
 > reality and polynomial-chart calculations.
+>
+> **Alternative-branch B2C15O result (2026-08-01): SOURCE COORDINATES
+> CORRECTED; ONE SELECTED ALGEBRAIC FIXTURE CONSTRUCTED.** On the literal
+> equations-9.2-to-9.3 epsilon-Shiab branch, the action owns
+> `(epsilon,varpi,g)`, with `A_tot=Gamma(g)+varpi`, rather than independent
+> fixed total `A`. Exact return gives `E_varpi=E_T`, while the
+> fixed-`varpi` metric equation equals the fixed-`A` equation plus the live
+> term `(D_g Gamma)^!E_T`. Its isolated Green companion is live, and reusing
+> the fixed-`A` metric equation gives Helmholtz defect
+> `79042325/279351072`; the corrected system passes and retains grouped order
+> matrix `[[1,2,2],[2,2,3],[2,3,2]]`. Whether equation 9.4's `odot_omega`
+> equals the literal epsilon family remains unverified. A trace-reversed
+> carrier-compatible fixture uses a realizable four-dimensional curvature
+> two-jet and explicit affine `B`/constant-`T` germs. Exact support,
+> right-`H`/Krein/`C+` word, and independent native-matrix checks pass. Inside
+> diagonal `Spin(9,5)`, selected tuple isotropy is `36`, its intersection with
+> the one non-null `xi=e0` stabilizer is `36`, and a held-out compatible tuple
+> has isotropy `28`. These are not full Zorro/DeWitt Y14 action-jet or ambient
+> `Sp(32,32;H)` stabilizers. P1/P2/P3 remain unchanged and unused. The next
+> gate is
+> `ECW3D-B2C15P-SOURCE-EPSILON-REDUCTION-TANGENT-BRIDGE-AND-NATIVE-FIXED-VARPI-COEFFICIENT`:
+> type the source `H`-valued epsilon tangent against the quotient reduction
+> tangent, resolve or branch `odot_omega`, port or obstruct the displayed
+> `(7,7)` Shiab on the active `(9,5)` right-`H`/Krein carrier, construct the GU
+> Zorro/DeWitt total-space jet, and only then construct the complete native
+> fixed-`varpi` coefficient and its actual stabilizer before any atlas, BV, or
+> domain promotion.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

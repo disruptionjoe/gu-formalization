@@ -214,6 +214,17 @@ Runbooks:
   dispersion determinant and a separately factored DN principal determinant,
   proving that the native moving atlas requires a declared action background
   and its actual stabilizer before the frozen trace atlas can be promoted.
+- `eric-curt-wave3d-b2c15o-native-y14-background-stabilizer.json` - Wave
+  3D-B2C15O source-coordinate and selected-fixture gate. On the literal
+  equations-9.2-to-9.3 epsilon-family branch it separates fixed-`varpi` from
+  fixed-total-`A`, proves the live `(D_g Gamma)^!E_T` metric correction and
+  Green companion, and rejects fixed-`A` reuse with a nonzero Helmholtz
+  defect. Equality with equation 9.4's `odot_omega` remains unverified. A
+  realizable four-dimensional curvature two-jet plus explicit affine
+  `B`/constant-`T` germs gives selected diagonal-Spin tuple isotropies `36`
+  and held-out `28`, not full Zorro/DeWitt Y14 action-jet or ambient
+  stabilizers. The odot fork, epsilon tangent bridge, real-form port, full
+  native coefficient, global pushforward, BV quotient, and domain remain open.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving

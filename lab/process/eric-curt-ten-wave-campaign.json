@@ -475,7 +475,20 @@
                                                     "probe": "tests/channel-swings/eric_curt_wave3d_b2c15n_full_owner_euler_moving_atlas_probe.py",
                                                     "report": "explorations/eric-curt-wave3d-b2c15n-full-owner-euler-moving-atlas-2026-08-01.md",
                                                     "alternative_branch_next_gate": "ECW3D-B2C15O-NATIVE-Y14-OWNER-BACKGROUND-STABILIZER-AND-TYPED-SUPPORT",
-                                                    "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                                    "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY",
+                                                    "wave3d_b2c15o": {
+                                                      "status_boundary": "LITERAL_EQ9_2_TO9_3_EPSILON_FAMILY_BRANCH__SOURCE_FIXED_EPSILON_VARPI_G_COORDINATES_SEPARATED_FROM_FIXED_A__METRIC_CORRECTION_GREEN_COMPANION_AND_FIXED_A_HOSTILE_HELMHOLTZ_DEFECT_NONZERO__CORRECTED_GREEN_HELMHOLTZ_AND_ORDER_TABLE_PASS__EQ9_4_ODOT_OMEGA_IDENTIFICATION_UNVERIFIED__TRACE_REVERSED_CARRIER_COMPATIBLE_ALGEBRAIC_FIXTURE_WITH_REALIZABLE_4D_METRIC_TWO_JET_AND_EXPLICIT_AFFINE_B_CONSTANT_T_GERMS__SUPPORT_AND_EXACT_WORD_PLUS128_MATRIX_REALITY_PASS__DIAGONAL_SPIN_ISOTROPIES51_42_42_36_36_HELDOUT28__NOT_ZORRO_DEWITT_TOTAL_SPACE_JET_FULL_AMBIENT_OR_ACTION_JET_STABILIZER__EPSILON_BRIDGE_REAL_FORM_PORT_FULL_NATIVE_COEFFICIENT_GLOBAL_PUSHFORWARD_BV_AND_DOMAIN_OPEN",
+                                                      "source_collision": "SOURCE_CONFIRMS_DRAFT_EPSILON_VARPI_G_ACTION_COORDINATES_RELATIVE_VARPI_ZORRO_CHAIN_AND_GAUGE_ROTATED_LC_CONTORSION__SOURCE_IMPLIES_D_VARPI_SHIAB_ZERO_ONLY_FOR_LITERAL_EQ9_2_TO9_3_EPSILON_FAMILY__SOURCE_CORRECTS_FIXED_A_METRIC_RETURN__SOURCE_SILENT_ON_EQ9_4_ODOT_OMEGA_IDENTIFICATION_EPSILON_RED_BRIDGE_7_7_TO_9_5_PORT_ZORRO_DEWITT_TOTAL_SPACE_JET_FULL_NATIVE_COEFFICIENT_GLOBAL_PUSHFORWARD_BV_AND_DOMAIN",
+                                                      "coordinate_return": "ON_LITERAL_EPSILON_FAMILY_E_VARPI_EQUALS_E_T__E_EPSILON_EQUALS_C_EPSILON_PLUS_DQ_EPSILON_ADJOINT_E_B_MINUS_E_T__E_G_SOURCE_EQUALS_C_G_PLUS_DG_GAMMA_PLUS_DG_Q_ADJOINT_E_B_MINUS_DG_Q_ADJOINT_E_T__DIFFERENCE_FROM_FIXED_A_EQUALS_DG_GAMMA_ADJOINT_E_T_NONZERO__ISOLATED_GREEN_COMPANION__FIXED_A_REUSE_HELMHOLTZ_DEFECT79042325_OVER279351072__ORDER_MATRIX1_2_2__2_2_3__2_3_2_SURVIVES",
+                                                      "selected_algebraic_fixture": "ONE_4D_NORMAL_POINT_METRIC_ZERO_JET_ETA_NONZERO_CONSTANT_CURVATURE_TWO_JET__TRACE_REVERSED_9_5_CARRIER__SPIN_CURVATURE_ONE_HALF_GAMMA_PAIR__AFFINE_RADIAL_B_AND_CONSTANT_T_DERIVE_F_B_D_B_T_ZERO_F_A_EQUALS_F_B_PLUS_QTT__SUPPORT_GRADES2_2_2_6__EXACT_WORD_AND128_MATRIX_RIGHT_H_KREIN_CPLUS_PASS__NOT_ZORRO_DEWITT_TOTAL_SPACE_JET_GLOBAL_OR_STATIONARY",
+                                                      "stabilizers": "EXACT_DIAGONAL_SPIN9_5_LIE_KERNELS_ONLY__SPLIT51__TRACE42__CURVATURE42__SELECTED_TUPLE36__TUPLE_AND_ONE_NONNULL_XI_E0_36__HELDOUT_COMPATIBLE_TUPLE28__DIFFERENT_ISOTROPY_STRATA__FULL_AMBIENT_ACTION_JET_CONORMAL_FAMILY_AND_GLOBAL_GROUP_OPEN",
+                                                      "external_datum": "P1_P2_P3_UNCONSUMED_UNCHANGED_AND_WRONG_TYPE_FOR_COORDINATE_MAP_EPSILON_BRIDGE_BACKGROUND_STABILIZER_PORT_PUSHFORWARD_BV_OR_DOMAIN",
+                                                      "registry": "lab/process/eric-curt-wave3d-b2c15o-native-y14-background-stabilizer.json",
+                                                      "probe": "tests/channel-swings/eric_curt_wave3d_b2c15o_native_y14_background_stabilizer_probe.py",
+                                                      "report": "explorations/eric-curt-wave3d-b2c15o-native-y14-background-stabilizer-2026-08-01.md",
+                                                      "alternative_branch_next_gate": "ECW3D-B2C15P-SOURCE-EPSILON-REDUCTION-TANGENT-BRIDGE-AND-NATIVE-FIXED-VARPI-COEFFICIENT",
+                                                      "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                                    }
                                                   }
                                                 }
                                               }
@@ -502,7 +515,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
         "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-        "alternative_branch_next_swing": "ECW3D-B2C15O-NATIVE-Y14-OWNER-BACKGROUND-STABILIZER-AND-TYPED-SUPPORT"
+        "alternative_branch_next_swing": "ECW3D-B2C15P-SOURCE-EPSILON-REDUCTION-TANGENT-BRIDGE-AND-NATIVE-FIXED-VARPI-COEFFICIENT"
       }
     },
     {

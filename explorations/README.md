@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15O source-coordinate return and selected coefficient-fixture stabilizer`](eric-curt-wave3d-b2c15o-native-y14-background-stabilizer-2026-08-01.md)
+  corrects the fixed-total-connection variation on the literal epsilon-Shiab
+  branch: `E_varpi=E_T`, while the metric equation gains the live term
+  `(D_g Gamma)^!E_T` and its Green companion. Reusing the fixed-`A` metric
+  equation has a nonzero Helmholtz defect. A realizable four-dimensional
+  curvature two-jet plus explicit affine `B`/constant-`T` germs gives selected
+  diagonal-Spin tuple isotropies `36` and held-out `28`; these are not full
+  Zorro/DeWitt Y14 action-jet or ambient stabilizers. The equation-9.4 odot
+  fork, source-epsilon tangent bridge, `(7,7)` to `(9,5)` port, full native
+  coefficient, global pushforward, BV quotient, and domain remain open.
 - [`Eric/Curt Wave 3D-B2C15N full owner Euler and background-dependent moving atlas`](eric-curt-wave3d-b2c15n-full-owner-euler-moving-atlas-2026-08-01.md)
   constructs the full exact finite owner return from independent `E_T` and
   `E_B`, proves the exact Green/Helmholtz identities and the mixed
