@@ -1,0 +1,152 @@
+{
+  "artifact_type": "pw2b_literal_native_source_port_result",
+  "run_id": "RUN-20260802-170319-gu-formalization-pw2b-literal-native-action",
+  "status": "PW2B_ACTIVE_REAL_FORM_BRIDGE_ADMISSIBILITY_MOVING_PROJECTOR_PASS_SOURCE_BUNDLE_JACOBIAN_OPEN_ORBIT_FIXTURE_ORDER2_ATTAINABLE",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_roots": "(epsilon,varpi,g_X)",
+    "source_reference": "B_epsilon is the gauge-rotated Levi-Civita connection",
+    "source_distortion": "T_epsilon=varpi-(B_epsilon-nabla^g)",
+    "algebraic_endpoint": "A_colon_equals_B+T=nabla^g+varpi is the repository endpoint used in the transgression identity",
+    "A_omega_warning": "the algebraic endpoint A:=B+T is not thereby identified with the draft's separately named A_omega; the source locator for that equality remains unchecked",
+    "quaternionic_reduction": "J_H for U(64,64)/Sp(32,32;H)",
+    "clifford_reduction": "Q_Cl or epsilon_red for Sp(32,32;H)/Spin0(9,5)",
+    "source_epsilon_warning": "the H-valued source epsilon is not identified with Q_Cl by notation",
+    "bridge": "u(T)=c3 Alt(pr2 T)+c11 star Alt(pr2 T) in Lambda3 plus Lambda11",
+    "candidate_source_composition": "h=exp(u), epsilon_hat=epsilon h, B_hat=B(epsilon_hat,g), T_hat=varpi-(B_hat-nabla^g)",
+    "one_shot_policy": "u is evaluated from the old T; the implicit equation u(T_hat) is a separate PDE/domain problem",
+    "full_connection_difference": "K_full=h^-1 D_B h=B_hat-B in the candidate source composition; it is not computed by the Delta-only grade-two return",
+    "reduced_connection_return": "K_red=pr_2(K_full) is the grade-two BCH/Maurer-Cartan return tested by the Delta panel; it is not K_full",
+    "curvature_return": "the curvature of K_full or K_red is an adjoint-valued two-form and is not itself a connection",
+    "action_residuals": "I1B, the exact Euler covector, compressed Upsilon, Xi=D_omega Upsilon, Ward identity, and BV differential remain distinct",
+    "trace_reversed_fibre": "Sym2 T*X with DeWitt inertia (6,4), total native signature (9,5)"
+  },
+  "pre_assessment": [
+    {
+      "lens": "variational bicomplex and hyperbolic PDE",
+      "instruction": "substitute before projecting, distinguish varying-varpi at fixed epsilon/metric, free-epsilon, and metric jet orders, and derive Green/Ward terms rather than naming them",
+      "expected_verdict": "the varying-varpi fixed-epsilon/metric order drop is plausible; full root Ward and domain likely remain open"
+    },
+    {
+      "lens": "exact Clifford representation, Spencer, and real-form algebra",
+      "instruction": "prove the odd bridge lies in the active right-H/Krein/C-plus class, transport the Clifford projector, and test local invertibility of the tangent map",
+      "expected_verdict": "canonical active-component local port can pass without proving every public source bundle is equivalent"
+    },
+    {
+      "lens": "symplectic and reductive connection geometry",
+      "instruction": "build a componentwise source-to-native action functor preserving the transition law and preboundary; do not promote a third lane",
+      "expected_verdict": "the moving reduction should be treated as source composition, with covariant phase space deferred until the full Ward owner is known"
+    }
+  ],
+  "native_port": {
+    "domain": "candidate active component P_mix=P_nat times_Sp U; identification with the public U/(7,7)-presented source bundle is open",
+    "real_form_fork": "the public source U/(7,7) presentation and active right-H Sp(32,32;H)/Spin0(9,5) bundle are not proved equivalent",
+    "first_stage": "within the active model u is in the established right-H/Krein/C-plus sp(32,32;H) word class, so h stays inside Sp and stabilizes J_H",
+    "second_stage": "Q_hat=Ad(h^-1) Q_Cl and p_hat=Ad(h^-1) p2 Ad(h)",
+    "projector_tangent": "Dp=[p2,ad_u] satisfies p2 Dp+Dp p2=Dp and has zero rank trace derivative",
+    "frozen_control": "holding p2 fixed under a non-stabilizer odd motion fails covariance",
+    "structural_tangent_comparator": "an abstract block-unitriangular I+N with N^2=0 has inverse I-N; this does not compute the source-coordinate Jacobian",
+    "source_coordinate_jacobian": "OPEN for (epsilon,varpi)->(epsilon exp u(T),varpi), including dexp, jet ownership, and admitted tangent domain",
+    "global_boundary": "no public-source-to-active-bundle equivalence, actual source-coordinate inverse, global source atlas, holonomy descent, or analytic domain theorem"
+  },
+  "coefficient_panel": {
+    "pairs": [[0, 0], [1, 0], [1.6666666666666667, 1.3333333333333333], [1, 1], [1, -1]],
+    "exact_pairs": ["(0,0)", "(1,0)", "(5/3,4/3)", "(1,1)", "(1,-1)"],
+    "delta": "c3^2-c11^2",
+    "result": "(1,0) and (5/3,4/3) have equal Delta; both Hodge-null pairs have Delta=0 and nonzero u, while only their linear-bridge grade-two reduced return K_red vanishes; no vanishing of K_full is claimed",
+    "parameter_status": "c3 and c11 remain two continuous candidate coefficients; no source-selected ratio and no quotient-by-scale theorem",
+    "constraint_surplus": "UNCOMPUTED_PENDING_INDEPENDENT_PHYSICAL_RESPONSE_JACOBIAN_AFTER_GAUGE_AND_IDENTITY_QUOTIENT"
+  },
+  "action_port": {
+    "source_curvature": "C=F_B+(1/2)D_B T+(1/3)q(T,T)",
+    "normal_form": "C=(1/2)(F_A+F_B)-(1/6)q(T,T)",
+    "sign_control": "the plus-one-sixth alternative is false under the repository q convention",
+    "candidate_source_split": "B_hat=B+K_full, T_hat=T-K_full, A_hat=A, F_Bhat=Ad(h^-1)F_B; K_red cannot be substituted for K_full without a separate theorem",
+    "jet_consequence": "on a compatible pointwise curvature-orbit jet dK is derived from curvature conjugacy rather than independently owned; actual h(T) field/atlas/domain realization remains open",
+    "varying_varpi_fixed_epsilon_metric": "an exact noncommutative compatible pointwise orbit-jet fixture varying varpi with epsilon and the metric held fixed has density ceiling one, Euler ceiling two, an attained order-two coefficient, and one Green layer; literal derived-K plus moving-Shiab coefficient is open",
+    "free_epsilon": "because T already contains d epsilon and K contains one further derivative, the same exact polynomial has a nonzero highest-jet Hessian and makes order four attainable; the literal full-root coefficient is not yet evaluated",
+    "metric": "order at most four is expected from Levi-Civita, Hodge, density, trace reversal, and Shiab slots, but the complete literal metric Hessian is open",
+    "ward": "constant-conjugation invariance passes; the field-dependent source-reparametrization chain is not itself an off-shell Noether identity; the complete root Ward/BV complex is open",
+    "domain": "global analytic closed right-H/Krein domain and covariant phase space are open"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "the draft owns (epsilon,varpi), B_epsilon, T_epsilon, and the fixed one-half/one-third action grammar",
+      "TOE owns the gauge-rotated Levi-Civita statement and the tilted/double-coset continuation",
+      "TOE 00:20:51 and 00:26:28-00:29:16 own the trace-reversal requirement; the exact (6,4) fibre and (9,5) total real form are repository-derived"
+    ],
+    "SOURCE_CORRECTS": [
+      "B_epsilon is a full gauge-rotated connection, not projection against a frozen reduction",
+      "Shiab is a covariant contraction, not the reductive projector",
+      "field pullback is not an unspecified Euler-covector pushdown",
+      "the repository endpoint A:=B+T is not silently identified with the draft's A_omega"
+    ],
+    "SOURCE_SILENT": [
+      "the distortion-derived grade-3/11 bridge and c3:c11",
+      "the identification of the public source U/(7,7) presentation with the active P_mix, Sp(32,32;H), and Spin0(9,5) bundles",
+      "the moved Clifford projector and candidate active component",
+      "the multigraded action-order comparator and conditional ceiling, complete Ward/BV differential, global domain, and covariant phase space"
+    ],
+    "REPOSITORY_DERIVED": [
+      "active-real-form bridge admissibility, the moving-projector tangent identity, and a separately graded block-unitriangular structural comparator",
+      "the exact transgression normal form and removal of an independently owned dK",
+      "the compatible-orbit-jet varying-varpi fixed-epsilon/metric order-two attainability/one-Green-layer certificate and free-epsilon order-four attainability control"
+    ]
+  },
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "variational bicomplex and hyperbolic PDE",
+        "exact Clifford representation, Spencer, and real-form algebra",
+        "symplectic and reductive connection geometry"
+      ],
+      "resolved_disagreement": "an initial plus-one-sixth/bracket normalization was rejected; under the executable G2 q convention the exact term is minus one sixth q(T,T)"
+    },
+    "post_review": {
+      "status": "COMPLETE",
+      "lenses": [
+        "source provenance, Layer-0, reductive geometry, and active real form",
+        "variational bicomplex, Euler/Green order, and Ward/BV scope",
+        "evidence accounting, campaign propagation, controls, and inventory"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "reversed fixed-varpi label corrected to varying varpi with epsilon and metric fixed",
+        "literal derived-K and moving-Shiab coefficient separated from the compatible pointwise orbit-jet order-two attainability fixture",
+        "curvature conjugacy fixture downgraded from complete legal source composition to a compatible pointwise orbit jet",
+        "repository endpoint A:=B+T separated from the draft's unverified A_omega",
+        "full K_full=h^-1 D_B h separated from Delta-only grade-two K_red",
+        "Hodge-null conclusion limited to K_red and a direct live moving-projector check added",
+        "arbitrary block-unitriangular matrix downgraded to a structural comparator; actual source-coordinate Jacobian kept open",
+        "public-source U/(7,7) presentation separated from active P_mix/Sp/Spin(9,5) bundles",
+        "trace reversal attributed to TOE timestamps while exact (6,4)/(9,5) signatures remain repository-derived",
+        "source-silent and repository-derived action-order claims downgraded to comparator and conditional ceiling",
+        "P1/P2/P3, Curt separation, conjunctive TG gate, and 204-probe inventory preserved"
+      ],
+      "final_verdicts": [
+        "PASS after source/Layer-0 and active-real-form repairs",
+        "PASS after variational-sector, literal-coefficient, and Ward-scope repairs",
+        "PASS after registry, campaign, evidence-count, control, and inventory reconciliation"
+      ],
+      "reruns": [
+        "22 exact + 12 type/registry + 4 source receipts + 7 planted = 45 PASS",
+        "16 exact + 13 type/registry + 3 source receipts + 8 planted = 40 PASS",
+        "50 exact scaffold + 14 planted = 64 PASS; PW2A predecessors, strict JSON/AST, 204-probe inventory, and diff checks PASS"
+      ]
+    }
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "native_total_signature": [9, 5],
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "nonclaims": [
+    "no public-source U/(7,7) to active right-H Sp(32,32;H)/Spin0(9,5) bundle equivalence or global Y14 source atlas",
+    "no actual source-coordinate Jacobian or inverse for (epsilon,varpi)->(epsilon exp u(T),varpi)",
+    "no source-selected c3:c11 ratio, positive constraint surplus, or new action coefficient",
+    "no complete free-epsilon/metric literal Euler-Ward-BV packet or analytic domain",
+    "no Standard Model recovery, generation count, quantum theory, or cosmological prediction"
+  ],
+  "next_gate": "PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD"
+}

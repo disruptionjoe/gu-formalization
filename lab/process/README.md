@@ -38,6 +38,14 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2b-literal-native-source-port.json` - PW2B active-real-form membership,
+  moving-projector, `K_full` versus grade-two `K_red`, public-source bundle
+  fork, structural tangent-comparator, source attribution, review, and PW2C
+  boundary ledger.
+- `pw2b-source-composed-action-order-registry.json` - exact minus-one-sixth
+  transgression identity and compatible pointwise identity-Shiab orbit-jet
+  order-attainability ledger; the literal derived-K/moving-Shiab coefficient,
+  Ward/BV, phase space, and domain remain open.
 - `pw2a-source-legal-moving-reduction-lift.json` - PW2A machine-readable
   route comparison: an abstract `GL(2)` co-moving gauge mechanism passes; the
   literal source group and nested native reductions remain open; the
@@ -74,8 +82,8 @@ Runbooks:
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
   restricts ML and systems analogies to typed roles; requires divergent
   specialist pre-assessment and hostile post-review for every major wave; and
-  records PW1/PW2 complete, the PW2A abstract mechanism, and literal PW2B
-  source/native action closure next.
+  records PW1/PW2/PW2A and the scoped PW2B continuation, with PW2C's actual
+  source-coordinate and literal derived-K/moving-action closure next.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.

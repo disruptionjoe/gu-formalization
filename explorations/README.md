@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2B active-real-form bridge and source-orbit action comparator`](pw2b-literal-native-source-composed-action-2026-08-02.md)
+  proves grade-3/11 right-`H`/Krein/`C+` membership and moving-Clifford-
+  projector identities inside the active real form. It keeps the public
+  `U/(7,7)`-type source bundle, actual source-coordinate Jacobian, and global
+  atlas open; full `K_full` is separated from Delta-only grade-two `K_red`.
+  The exact transgression has the minus-one-sixth sign, while a compatible
+  pointwise identity-Shiab orbit-jet fixture makes varying-varpi order two
+  attainable with one Green layer. The literal derived-`K_full`/moving-Shiab
+  coefficient, free-epsilon/metric Ward/BV packet, phase space, and domain
+  are PW2C. P1/P2/P3 remain unused and PW3 is blocked.
 - [`PW2A abstract co-moving gauge lift`](pw2a-source-legal-moving-reduction-lift-2026-08-02.md)
   proves a source-shaped mechanism in an exact `GL(2)` principal-bundle
   chart: move the gauge coordinate and generic reduction together, keep
@@ -52,9 +62,10 @@ these for the full working record; the durable, reviewed results live in `canon/
 - [`Post-B2C15R3 multidisciplinary council and next-ten-wave scaffold`](post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md)
   uses thirteen mathematical/computational specialist lenses and ten inline
   build-oriented engineering personas to reorder the campaign without
-  initially executing a successor swing. PW1 and the PW2A abstract mechanism
-  are now complete and advance the scaffold to the literal PW2B source/native
-  port and action-order closure,
+  initially executing a successor swing. PW1, PW2A, and the scoped PW2B
+  active-real-form/orbit-fixture continuation are now complete and advance the
+  scaffold to PW2C's actual source-coordinate Jacobian and literal derived-K
+  moving-action closure,
   action-derived BV quotient, global observation/datum typing, and
   quotient-domain construction before the later physics layers. ML,
   statistics, counterfactuals, consensus, and proof systems are admitted only

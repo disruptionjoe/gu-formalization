@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2A ABSTRACT LOCAL CO-MOVING GAUGE-LIFT PASS / PW2B NEXT. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW1 establishes the conditional moving-J source/native interface. PW2 proves that projection against a frozen reduction is not automatically in Weinstein's epsilon-derived B_omega orbit. PW2A proves an abstract GL(2) co-moving mechanism shaped like epsilon composition, keeping B+T fixed and restoring the coset curvature return with coefficient one. It does not yet prove source-H membership, admitted epsilon variation, or the nested quaternionic/Clifford reduction port. The curvature return is not a connection compensator; an h-only repair remains a PDE/domain problem. The independent-B rival earns fixture-scoped adjoint/Green controls but is not source-selected. The literal g_u source/native port, complete written-action order drop, physical quotient, analytic domain, Standard Model recovery, generation count, quantum theory, and cosmological prediction remain open."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH SCOPED PW2B ACTIVE-REAL-FORM AND SOURCE-ORBIT FIXTURE PASS / PW2C NEXT. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW1 establishes the conditional moving-J interface; PW2 kills automatic frozen-reduction source integrability; PW2A proves an abstract GL(2) co-moving mechanism. PW2B now proves grade-3/11 active right-H/Krein/C-plus membership and moving-Clifford-projector identities, while keeping the public U/(7,7)-type source bundle distinct from active P_mix/Sp/Spin(9,5) and leaving the actual source-coordinate Jacobian open. It also proves the minus-one-sixth transgression normal form and, in a compatible pointwise identity-Shiab orbit-jet fixture, makes varying-varpi Euler order two attainable with one Green layer. Literal K_full=h(T)^-1 D_B h(T), every moving action coefficient, full free-epsilon/metric Ward/BV closure, physical quotient, analytic domain, Standard Model recovery, generation count, quantum theory, and cosmological prediction remain open."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -81,7 +81,7 @@ P1/P2/P3 remain correctly unused. None currently has the type of a bundle
 morphism, jet owner, observation current, quotient projector, analytic domain,
 vote, consensus threshold, or proof witness.
 
-PW2A has now proved an abstract candidate mechanism for the source-domain
+PW2A proved an abstract candidate mechanism for the source-domain
 fork. In a finite \(GL(2)\) chart it composes a gauge coordinate and moves a
 generic linear involution with it. Exact fixtures verify the fixed total
 connection, nonzero-background curvature conjugacy, generic moving-reduction
@@ -89,7 +89,16 @@ compatibility, and the forced coefficient-one coset-curvature return. This is
 not the finite \(U/Sp\) quaternionic reduction or the \(Sp/Spin\)
 Clifford-plane transport. Literal source-group membership, the admitted
 epsilon-variation policy, distortion-derived \(g_u\), global descent,
-active-native port, and complete written-action jet order remain for PW2B.
+active-native port, and complete written-action jet order remained for PW2B.
+
+PW2B now proves the bridge's membership and moving-projector identities inside
+the active right-\(\mathbb H\)/Krein real form.  It does not identify that
+active candidate with the public \(U/(7,7)\)-type source bundle, and its
+block-unitriangular matrix is only a structural comparator rather than the
+actual source-coordinate Jacobian.  PW2B also proves the exact transgression
+normal form and an order-two attainability/one-Green-layer result on a
+compatible pointwise identity-Shiab orbit-jet fixture.  The literal
+\(K_{\rm full}=h(T)^{-1}D_Bh(T)\) and moving-Shiab coefficient remain PW2C.
 
 ## Layer-0 objects that must not collapse
 
@@ -268,7 +277,7 @@ unexecuted.
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — PW2A ABSTRACT CO-MOVING GAUGE PASS / PW2B REQUIRED** | PW2's frozen-reduction projection is not automatically source-integrable. PW2A proves the abstract GL(2) co-moving mechanism, fixed `B+T`, nonzero-background curvature conjugacy, and coefficient-one coset return. It does not prove literal source-H membership or the nested native reductions. The independent-`B` rival has fixture-scoped live `D_BK/D_TK`, Euler, formal-adjoint, two-Green-layer, derivative-affine order-drop, and separate Ward controls. | Does the candidate mechanism exist for literal `g_u` and survive every written action slot and the actual right-`H`/Krein port? | PW2B must first construct source-real-form `g_u` and the nested reduction descent, then determine action order, then close Euler/Green/Ward before PW3. |
+| **PW2 — full jet and effective operator — SCOPED PW2B PASS / PW2C REQUIRED** | PW2B proves active-real-form grade-3/11 membership and live moving-projector identities, but not the public-source bundle port or actual source-coordinate inverse. It separates full `K_full` from Delta-only grade-two `K_red`. The exact transgression has the minus-one-sixth sign, and a compatible pointwise identity-Shiab orbit-jet fixture makes varying-varpi order two attainable with one Green layer. The literal derived-`K_full` plus every moving action coefficient remains open. | Does the actual source-coordinate map and literal derived `K_full` retain the nonzero coefficient when every moving Shiab/Hodge/density/Krein owner is included? | PW2C must construct the actual Jacobian and literal action coefficient, then complete free-epsilon/metric Euler/Green/Ward before PW3. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -333,12 +342,14 @@ as scoped open boundaries before commit.
 ## Execution checkpoint
 
 PW1 conditionally enabled PW2. PW2 returned an exact obstruction to frozen-J
-projection. PW2A has now proved an abstract co-moving gauge mechanism while
-separating the forced coset-curvature return from a new connection
-compensator. Its independent-B fixtures close the tested adjoint and
-two-Green-layer grammar, but the root Ward identity and literal source/native
-action closure remain open. The next gate is
-`PW2B-LITERAL-SOURCE-COMPOSED-ACTION-ORDER-DROP-AND-NATIVE-PORT`; PW3 stays
+projection, and PW2A supplied the abstract co-moving mechanism. PW2B now
+passes active-real-form bridge membership and moving-projector tests and the
+scoped source-orbit action-order comparator. It explicitly does not close the
+public-source bundle map, actual source-coordinate Jacobian, literal
+derived-\(K_{\rm full}\)/moving-Shiab coefficient, or root Ward identity. The
+next gate is
+`PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD`; PW3 stays
 blocked. P1/P2/P3 remain correctly unused.
 
-PW3 stays blocked until that literal source/native action gate closes.
+PW3 stays blocked until PW2C closes the literal source-coordinate action and
+Ward gate.
