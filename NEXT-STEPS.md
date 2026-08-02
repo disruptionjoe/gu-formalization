@@ -632,6 +632,41 @@ updated_at: "2026-08-01"
 > while retaining the native branch separately, and build the
 > distinct weighted source-square, variational-square, and G2 Euler symbols
 > before any BV quotient or domain replay.
+>
+> **Alternative-branch B2C15M result (2026-08-01): MOVING SHIAB CONSTRUCTED;
+> POSITIVE-TRACE POLYNOMIAL RANK LOCUS CERTIFIED.** The trace-adapted native
+> Shiab satisfies `546/546` differentiated covariance checks across all 91
+> vertical Spin-frame directions and six curvature-grade representatives.
+> Separately, seven grade-generating quotient-tangent representatives pass
+> `42/42` naturality checks against the six curvature grades; this is not a
+> full 8,165-direction or global-overlap theorem. In a declared local
+> symmetric Clifford gauge, all ten actual physical metric owners
+> differentiate the Clifford relation, preserve the Hodge-square sign, and
+> move the normalized trace vector consistently; the corrected `D Phi2`
+> includes `-h_ab` and has no scalar contamination. They produce an exact
+> moving-Shiab response map of rank `10` after returning the trace, both
+> `Phi` tensors, four Hodge occurrences, and the single density contribution.
+> An exact variable-density fixture proves `D(L^!)` differs from `(DL)^!`
+> with frozen pairings and satisfies the differentiated Green identity with
+> a nonzero moving endpoint. The six-slot `DM` has a nonzero exact witness and
+> differs from the compact `(D Shiab)q` shortcut. A
+> nontrivial residual-zero fixture earns `J^! R J`; off shell the omitted
+> residual-times-second-variation and moving-primalizer corrections are
+> separately live with rank `2`. Three distinct Douglis--Nirenberg order-cap
+> skeletons are frozen for the compressed source square, exact variational
+> square, and first-action owner system; realized principal orders and the
+> full first-action owner coefficient remain open. On the full chart
+> `xi(a)=e_positive+a*e_trace`, quadratic interpolation passes at held-out
+> `a=2`, and gcds of all maximal minors prove frozen rank `8165` for
+> `a^2 != 1` and `6097` at the two null roots. This theorem does not cover
+> pure-trace, negative, or nonzero-null-perpendicular charts and does not
+> transfer to the moving coefficient, Gram, BV quotient, or domain.
+> P1/P2/P3 remain unchanged and unused. The next gate is
+> `ECW3D-B2C15N-FULL-FIRST-ACTION-OWNER-EULER-AND-MOVING-POLYNOMIAL-ATLAS`:
+> construct the complete direct-`B` plus `T=A-B` owner Euler coefficient,
+> check weighted Helmholtz/right-`H`/Krein/reality identities, recompute the
+> polynomial support after moving terms, and complete the negative,
+> nonzero-null, and pure-trace charts before any characteristic/BV replay.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15M moving Shiab, weighted Euler, and polynomial rank chart`](eric-curt-wave3d-b2c15m-moving-shiab-exact-g2-weighted-euler-2026-08-01.md)
+  constructs vertical Spin-frame covariance, representative quotient-tangent
+  naturality, and the local symmetric-Clifford-gauge derivative on all ten
+  physical metric owners, then separates moving adjoint, nonzero six-slot
+  `DM`, residual-zero, and off-shell Hessian terms and freezes three distinct
+  weighted order-cap skeletons. On the complete positive-plus-trace chart, all
+  maximal minors certify frozen rank `8165` off the two null roots and `6097`
+  at them. Full first-action owner coefficients, moving rank atlas, other
+  conormal charts, BV quotient, and domain remain open.
 - [`Eric/Curt Wave 3D-B2C15R native reductive-return vanishing and trace-stratified fixed-Shiab block`](eric-curt-wave3d-b2c15r-reductive-return-rank-strata-2026-08-01.md)
   resolves B2C15's missing-return blocker: the native connection has no
   splitting-induced `h` principal return, while its `A0` algebraic return is

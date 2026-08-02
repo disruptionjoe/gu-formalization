@@ -194,6 +194,17 @@ Runbooks:
   Hostile review retracts the full mixed block: the reduction-induced `h`
   return, rank strata, moving-Shiab terms, and distinct exact-G2 Euler branch
   remain for B2C15R.
+- `eric-curt-wave3d-b2c15m-moving-shiab-exact-g2-weighted-euler.json` - Wave
+  3D-B2C15M moving-Shiab, weighted-Euler, and polynomial-chart gate. It proves
+  vertical Spin-frame covariance on all 91 stabilizer directions and separate
+  representative quotient-tangent naturality, builds the exact local
+  symmetric-Clifford-gauge ten-owner metric derivative with response rank
+  `10`, separates the moving formal adjoint, nonzero six-slot `DM`, and
+  off-shell Hessian corrections, and freezes three DN order-cap skeletons.
+  All maximal minors certify frozen rank `8165` generically and `6097` at the
+  two null roots on the complete positive-plus-trace chart. The full
+  first-action owner coefficients, moving atlas, other charts, BV quotient,
+  and domain remain open.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving

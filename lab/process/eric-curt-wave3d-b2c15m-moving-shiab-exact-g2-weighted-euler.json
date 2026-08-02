@@ -1,0 +1,154 @@
+{
+  "artifact": "ECW3D_B2C15M_MOVING_SHIAB_EXACT_G2_WEIGHTED_EULER_AND_POLYNOMIAL_CHART",
+  "status": "PARTIAL_CONSTRUCTION_PASS",
+  "status_boundary": "VERTICAL_SPIN_FRAME_SHIAB_COVARIANCE_91_BY_6_PASS__QUOTIENT_TANGENT_NATURALITY_7_BY_6_REPRESENTATIVE_ONLY__ALL_TEN_PHYSICAL_METRIC_OWNERS_HAVE_EXACT_LOCAL_SYMMETRIC_CLIFFORD_GAUGE_DERIVATIVE_AND_JOINT_RESPONSE_RANK10__MOVING_FORMAL_ADJOINT_DIFFERENTIATED_GREEN_NONZERO_SIX_SLOT_DM_AND_SEPARATE_OFFSHELL_HESSIAN_CORRECTIONS_PASS__THREE_DOUGLIS_NIRENBERG_ORDER_CAP_SKELETONS_FROZEN__POSITIVE_PLUS_TRACE_CHART_ALL_MAXIMAL_MINOR_GCD_CERTIFICATE_RANK8165_OFF_Q_ZERO_AND6097_AT_TWO_NULL_ROOTS__FULL_FIRST_ACTION_OWNER_COEFFICIENT_MOVING_POLYNOMIAL_ATLAS_OTHER_CHARTS_BV_AND_DOMAIN_OPEN",
+  "run": "RUN-20260802-012457-gu-formalization-ecw3d-b2c15m-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "objects": [
+      "Upsilon_B_src compressed source residual",
+      "E_T_var exact partial-T Euler covector of selected G2 first action",
+      "Euler operator of source residual square",
+      "Euler operator of exact variational residual square",
+      "full owner Euler tuple of first G2 action after B=A_LC(epsilon,g) and T=A-B"
+    ],
+    "moving_distinctions": [
+      "D Shiab on fixed input versus Shiab on D input",
+      "D(L!) versus (DL)!",
+      "six-slot DM versus (D Shiab)q",
+      "DR_res versus Shiab motion",
+      "native LC versus A0 lower-filtered comparator"
+    ]
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "draft p44 eq9.4 supplies F_B plus one-half D_B T plus one-third bracket action grammar",
+      "Portal/Oxford 01:43:32-01:45:53 requires the quadratic eddy completion rather than curvature alone"
+    ],
+    "SOURCE_CORRECTS": [
+      "TOE 01:36:35-01:36:56 corrects projection to contraction",
+      "the compressed 2021 residual is not the selected native action's exact Euler covector"
+    ],
+    "SOURCE_SILENT": [
+      "selected trace-adapted Shiab sheet and local symmetric Clifford gauge",
+      "moving trace Phi Hodge density projection and primalizer slots",
+      "D(L!) all-grade DM weighted owner coefficients polynomial loci BV quotient and domain"
+    ],
+    "WATCH_ONLY": "TOE 02:44:06-02:45:13 says the modern two-connection D-squared is unreleased"
+  },
+  "moving_shiab": {
+    "vertical_spin_frame_covariance": {
+      "directions": 91,
+      "curvature_grade_representatives": 6,
+      "exact_checks": 546,
+      "live_family_responses": 492,
+      "identity": "D_S[chi_h]F + S([F,chi_h]) = [S(F),chi_h]",
+      "scope": "vertical stabilizer/Spin-frame descent, not physical quotient motion"
+    },
+    "quotient_tangent_naturality": {
+      "grade_generating_representatives": 7,
+      "curvature_grade_representatives": 6,
+      "exact_checks": 42,
+      "live_family_responses": 34,
+      "scope": "representative infinitesimal check only; not a literal 8165-direction enumeration or global overlap theorem"
+    },
+    "metric": {
+      "owners": 10,
+      "gauge": "declared local symmetric Clifford gauge D gamma_a = one-half h_ac g_cb_inverse gamma_b",
+      "clifford_relation": "verified for all 196 generator pairs for every owner",
+      "trace_vector_motion": "canonical local t(g)=g/2 derivative constructed from inverse DeWitt frame; normalized trace norm derivative zero for every owner",
+      "Phi2_derivative": "D(gamma_a gamma_b - g_ab) includes -h_ab; every owner/pair has zero scalar contamination",
+      "hodge_square_derivative": "zero for every owner",
+      "response_rank": 10,
+      "slots": [
+        "trace gamma",
+        "Phi1 first occurrence",
+        "Hodge first occurrence",
+        "Phi1 outer occurrence",
+        "Phi2",
+        "Hodge inner occurrence",
+        "Hodge middle occurrence",
+        "Hodge outer occurrence"
+      ],
+      "density_convention": "volume density occurs exactly once inside D Hodge"
+    },
+    "projection_and_internal_lowerer": "proved invariant under co-moving Spin reduction; derivative zero in that trivialization",
+    "top_weight_effect": "moving coefficients are algebraic in owner variations and do not raise the frozen graph weights"
+  },
+  "formal_adjoint_and_DM": {
+    "formal_adjoint": "exact variable-density fixture proves D(L!) differs from (DL)! with frozen pairings and the full moving family plus nonzero moving endpoint satisfies the differentiated Green identity",
+    "DM": "all six differentiated trilinear slots are assembled; exact owner0 grade-2/2/2 witness is -sqrt(2)/4 while the compact slot is -3sqrt(2)/8; no complete all-grade coefficient theorem is claimed"
+  },
+  "residual_square_hessian": {
+    "residual_zero": "nontrivial exact fixture with live nonlinear and moving-R data gives Hessian J^T R J",
+    "off_shell": "residual-times-second-variation and moving-primalizer corrections are separately live with exact rank 2; their sum equals the rank-2 full Hessian minus J^T R J",
+    "boundary": "B2C15R Gram remains a residual-zero normal comparator, not a full off-shell Hessian"
+  },
+  "douglis_nirenberg": {
+    "owners": ["A", "epsilon", "g"],
+    "interpretation": "preregistered order caps/skeletons only; realized nonzero principal orders and direct-B/T cancellations remain open",
+    "source_square": {
+      "row_weights": [1, 1, 1],
+      "column_weights": [1, 1, 1],
+      "orders": [[2, 2, 2], [2, 2, 2], [2, 2, 2]]
+    },
+    "variational_square": {
+      "row_weights": [1, 2, 2],
+      "column_weights": [1, 2, 2],
+      "orders": [[2, 3, 3], [3, 4, 4], [3, 4, 4]]
+    },
+    "first_action_owner": {
+      "row_weights": [0, 1, 1],
+      "column_weights": [1, 2, 2],
+      "orders": [[1, 2, 2], [2, 3, 3], [2, 3, 3]],
+      "coefficient_status": "OPEN__weights_are_not_the_full_owner_Euler_map"
+    }
+  },
+  "polynomial_chart": {
+    "chart": "xi(a)=e0+a*t_trace",
+    "norm": "q(xi)=1-a^2",
+    "coefficient_degree": 2,
+    "interpolation_points": [-1, 0, 1],
+    "held_out_point": 2,
+    "held_out_result": "all entries pass",
+    "certificate": "gcd of all maximal minors in every connected support block",
+    "max_owner_columns_per_block": 2,
+    "exceptional_factor": "(a-1)(a+1)",
+    "grades": {
+      "3": {"generic_rank": 364, "exceptional_rank": 298, "exceptional_blocks": 66},
+      "6": {"generic_rank": 3003, "exceptional_rank": 2211, "exceptional_blocks": 792},
+      "7": {"generic_rank": 3432, "exceptional_rank": 2508, "exceptional_blocks": 924},
+      "10": {"generic_rank": 1001, "exceptional_rank": 781, "exceptional_blocks": 220},
+      "11": {"generic_rank": 364, "exceptional_rank": 298, "exceptional_blocks": 66},
+      "14": {"generic_rank": 1, "exceptional_rank": 1, "exceptional_blocks": 0}
+    },
+    "total_generic_rank": 8165,
+    "total_exceptional_rank": 6097,
+    "scope_boundary": "complete positive-plus-trace chart only; pure-trace negative and nonzero-null charts remain open"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "cannot supply a Clifford gauge moving coefficient action branch polynomial locus BV differential or domain"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 71,
+    "source_receipts": 4,
+    "type_level": 12,
+    "planted": 12,
+    "total": 99,
+    "status": "PASS"
+  },
+  "open": [
+    "full first-action owner Euler coefficient",
+    "coefficientwise right-H Krein and reality checks for moving family",
+    "moving-Shiab polynomial support and any cross-grade coupling",
+    "negative nonzero-null and pure-trace polynomial charts",
+    "complete all-grade DM coefficient beyond the nonzero exact witness",
+    "A0 lower-filtered formal-adjoint Green comparator",
+    "source-derived tangent BV differential and observation-descended quotient",
+    "prolonged moving preboundary form and common analytic domain"
+  ],
+  "next_gate": "ECW3D-B2C15N-FULL-FIRST-ACTION-OWNER-EULER-AND-MOVING-POLYNOMIAL-ATLAS"
+}
