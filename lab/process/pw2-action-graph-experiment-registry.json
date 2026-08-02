@@ -1,0 +1,118 @@
+{
+  "artifact_type": "pw2_exact_action_graph_experiment_registry",
+  "run_id": "RUN-20260802-152647-gu-formalization-pw2-first-jet-action",
+  "status": "PW2_EXACT_DERIVATIVE_AND_RANK_CERTIFICATE",
+  "date": "2026-08-02",
+  "graph": {
+    "root_nodes": [
+      "epsilon",
+      "varpi",
+      "g",
+      "derived_J"
+    ],
+    "required_derived_nodes": [
+      "Phi_J",
+      "p_J",
+      "Dp_J",
+      "j1T",
+      "j2T_holonomic_prolongation",
+      "Alt_ext_j1T",
+      "Alt_GY_pJT",
+      "Hodge_Alt",
+      "K",
+      "j1K_from_j2T",
+      "Bhat",
+      "That",
+      "curvature",
+      "Shiab",
+      "trace_reversed_lowerer",
+      "density",
+      "action",
+      "Euler",
+      "Green",
+      "coupled_Ward"
+    ],
+    "conditional_only": [
+      "source-domain lift epsilon_K",
+      "active P_H to P_nat identification",
+      "literal native Alt/K",
+      "physical odd map iota_odd"
+    ]
+  },
+  "derivative_certificate": {
+    "engines": [
+      "SymPy symbolic component differentiation",
+      "independent exact Fraction dual-number forward AD"
+    ],
+    "agreement_surface": [
+      "action value",
+      "full directional first variation",
+      "six separate jet-coordinate partial derivatives"
+    ],
+    "fixture_grade": "structural polynomial dependency comparator, not native Shiab action or Euler/Green packet",
+    "prolongation_boundary": "K(j1T) makes dK depend on j2T; the txx variation requires two integrations by parts before Euler and two Green boundary layers",
+    "Euler_Green_status": "UNASSEMBLED"
+  },
+  "order_two_certificate": {
+    "formula": "C2=A2(2 partial Z1+Z0)+A1 Z1",
+    "order_three_gate": "A2 Z1=0",
+    "moving_identity": "partial(A2 Z1)=(partial A2)Z1+A2(partial Z1)=0",
+    "exact_family": "C2(r)=diag(-r,0)",
+    "generic_rank": 1,
+    "exceptional_locus": "V(r)",
+    "exceptional_rank": 0,
+    "abbreviated_false_positive": "at r=0, A2 Z0 has rank 1 while complete C2 has rank 0"
+  },
+  "rank_certificate": {
+    "basis": "PIVOT_MINOR_PLUS_VANISHING_MAXIMAL_MINORS",
+    "pivot_minor": "-r",
+    "upper_bound": "all 2x2 minors vanish",
+    "coordinate_ring_scope": "Q[r]",
+    "claim": "rank one on D(r), rank zero on V(r)"
+  },
+  "selector_role": "SCHEDULING_ONLY_NO_SCIENTIFIC_VERDICT",
+  "discovery_bank": {
+    "evidence_grade": "HEURISTIC_SCHEDULING",
+    "allowed_uses": [
+      "choose exact rational fixtures",
+      "rank candidate pivot minors",
+      "suggest sparse polynomial factors"
+    ],
+    "forbidden_uses": [
+      "probability GU is true",
+      "approximate rank as theorem",
+      "post-selection constraint surplus"
+    ]
+  },
+  "qualification_policy": {
+    "freeze_before_reveal": [
+      "typed graph",
+      "candidate basis",
+      "coefficients",
+      "evaluator",
+      "thresholds",
+      "content digests"
+    ],
+    "generic_points": [
+      -3,
+      -1,
+      1,
+      2,
+      5
+    ],
+    "exceptional_controls": [
+      0
+    ],
+    "post_reveal_refit": "INVALIDATES_BANK"
+  },
+  "native_promotion": "STOPPED_BY_SOURCE_DOMAIN_AND_ACTIVE_PORT",
+  "next_experiment": {
+    "id": "PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT",
+    "candidates": [
+      "retain the full unprojected gauge displacement and carry its coset field",
+      "construct a compensator making projected K Maurer-Cartan integrable",
+      "extend the action domain so B is independent and rederive every Euler/Ward/Green owner"
+    ],
+    "kill": "no candidate preserves source coordinates, moving reduction, trace-reversed native structure, and the written action variation simultaneously"
+  }
+}

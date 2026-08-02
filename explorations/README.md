@@ -13,6 +13,19 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2 full first-jet action graph and source-domain obstruction`](pw2-full-first-jet-action-graph-2026-08-02.md)
+  shows that the projected `(B,T)->(B+K,T-K)` correction is not automatically
+  a legal substitution into Weinstein's stated source action: `B_omega` is
+  epsilon-derived, while exact Maurer--Cartan witnesses show a flat full
+  gauge displacement can become curved after reductive projection. The
+  earlier nonzero response is retained as evidence for an extended
+  independent-`B` repository action. A legal structural pointwise comparator
+  shows exterior `dT` need not own `dK`; actual native `K_u` factorization
+  through `Alt` remains open, and curvature requires the `j2T -> j1K`
+  prolongation before Euler/Green closure. Exact symbolic/AD and
+  complete-order-two rank/exceptional-locus fixtures pass. Literal native
+  promotion stops at the source-domain and active-port gates; PW3 is not
+  enabled and P1/P2/P3 remain unused.
 - [`PW1 source/native port and mixed super-IG interface`](pw1-source-native-port-superig-interface-2026-08-02.md)
   proves that the active native bundle extends canonically into the mixed-sign
   complex source bundle, while the reverse direction first requires a
@@ -29,8 +42,8 @@ these for the full working record; the durable, reviewed results live in `canon/
   uses thirteen mathematical/computational specialist lenses and ten inline
   build-oriented engineering personas to reorder the campaign without
   initially executing a successor swing. PW1 is now complete and advances the
-  scaffold to the full-jet operator
-  closure, action-derived BV quotient, global observation/datum typing, and
+  scaffold to the source-legal PW2A lift, full-jet operator closure,
+  action-derived BV quotient, global observation/datum typing, and
   quotient-domain construction before the later physics layers. ML,
   statistics, counterfactuals, consensus, and proof systems are admitted only
   at explicitly typed search, scheduling, provenance, or certification roles.

@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW1 CONDITIONAL PASS / PW2 ENABLED. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW1 establishes a canonical native-to-source complex extension, a first-stage moving-J source reduction with active-native identification separately open, an exact fixed-projection curvature-return kill, the full-unitary real-Krein mixed super-IG algebra plus complex-center kill, and a fail-closed exact selector algorithm scaffold. PW2 and later waves remain unexecuted; no global active-native port, physical quotient, analytic domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2 EXACT AUTOMATIC-SOURCE-INTEGRABILITY OBSTRUCTION / PW2A NEXT. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW1 establishes the conditional moving-J source/native interface. PW2 proves that the projected split connection is not automatically in Weinstein's epsilon-derived B_omega orbit. A legal structural comparator shows exterior dT need not own dK; actual native K_u factorization through Alt remains open, and curvature prolongs j1T through j2T to j1K before Euler/Green closure. An abbreviated A2Z0 rank can be cancelled by the complete order-two return. Literal native promotion stops; PW2A must construct a source-legal full/coset/compensated lift or an explicit independent-B action extension. No global active-native port, physical quotient, analytic domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -66,7 +66,9 @@ It also exposed the decisive remaining debts:
 
 - the executable atlas is a structural `SL(2) -> Sp(4)` comparator, not the
   actual `Spin_0(9,5) -> Sp(32,32;H)` source/native port;
-- exterior `dT` does not own the complete first jet required by `dK`;
+- a structural pointwise comparator shows exterior `dT` need not own `dK`;
+  native `K_u` factorization through `Alt` remains open, and curvature uses
+  the `j2T -> j1K` prolongation;
 - the finite declared port is not yet native `Alt(T)`;
 - `A1 Z1` can cancel the live `A2 Z0` block, so the effective order-two
   operator is not assembled;
@@ -248,13 +250,15 @@ nonphysical integration fixture running throughout.
 ## The next ten big waves
 
 PW1 received a conditional construction pass in the successor Run
-`RUN-20260802-142051-gu-formalization-pw1-port-interface`. PW2 and later waves
-remain unexecuted.
+`RUN-20260802-142051-gu-formalization-pw1-port-interface`. PW2 then executed in
+`RUN-20260802-152647-gu-formalization-pw2-first-jet-action` and returned the
+automatic-source-integrability obstruction below. PW3 and later waves remain
+unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator** | Own `j1T`, moving `Alt/K`, the complete action graph, all Ward/Green returns, and `A2(2 partial Z1 + Z0) + A1 Z1` with moving coefficients. | Does the nonzero finite response survive the actual native port and complete ownership? | Complete operator/rank strata or the smallest exact missing-owner obstruction. |
+| **PW2 — full jet and effective operator — EXACT AUTOMATIC-INTEGRABILITY OBSTRUCTION / PW2A REQUIRED** | The source `B_omega` is epsilon-derived, whereas a reductively projected Maurer--Cartan displacement can be curved and leave that orbit. A legal structural comparator shows `dT` need not own `dK`; actual native `K_u` factorization remains open, and `j2T -> j1K` precedes Euler/Green closure. Exact symbolic/dual-number and complete-order-two structural certificates pass, but native promotion stops before the literal action response. | Does the nonzero finite response survive the actual native port and complete ownership? | Smallest obstruction returned: construct an integrable full/coset/compensated lift or explicitly extend the action domain, then rerun the native coefficient. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -318,6 +322,10 @@ as scoped open boundaries before commit.
 
 ## Execution checkpoint
 
-PW1 has a conditional pass that enables PW2. The next wave is PW2: the full moving-(J), (\Phi_J),
-first-jet action graph and effective order-two operator. No PW2 or later wave
-was executed in the PW1 Run. P1/P2/P3 remain correctly unused.
+PW1 conditionally enabled PW2. PW2 has now returned an exact source-domain
+obstruction before native coefficient promotion: affine descent of the
+projected correction does not imply membership in the epsilon-derived
+(B_\omega) orbit. The full-jet and complete-order-two structural harnesses
+pass, while the physical Ward graph remains not evaluable. The next gate is
+`PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT`; PW3 stays blocked. P1/P2/P3 remain
+correctly unused.

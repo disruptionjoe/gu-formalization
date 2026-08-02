@@ -7,7 +7,7 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 POST-B2C15R3 PW1 CONDITIONAL PASS; PW2 ENABLED.**
+> **2026-08-02 PW2 EXACT SOURCE-DOMAIN OBSTRUCTION; PW2A NEXT.**
 > Thirteen specialist lenses plus ten inline engineering personas recommend
 > the following construction order. PW1 has now run the actual source/native
 > real-form port and the guided B2C2C algebra/action-interface work as a
@@ -18,9 +18,20 @@ updated_at: "2026-08-02"
 > return. The full-unitary real-Krein `Omega0+Omega1` odd bracket and its forced
 > one-half algebraic affine representation pass, while central `iI` kills the
 > complex-bilinear source route. The physical odd-field map and written-action
-> Ward identity remain open. Next: (2) close the native full
-> first jet, moving `J/Phi_J`, action variation, and
-> effective order-two operator; (3) derive the BV quotient and covariant
+> Ward identity remain open. PW2 then found that the projected
+> `(B,T)->(B+K,T-K)` correction is not automatically a legal move in the
+> written source coordinates: `B_omega` is epsilon-derived, and an exact
+> projected Maurer--Cartan displacement can be curved even when its full
+> unprojected parent is flat. The earlier nonzero response is retained as an
+> extended independent-`B` action result, not promoted as Weinstein's stated
+> action. A legal structural pointwise comparator also shows that exterior
+> `dT` need not own `dK`; actual native `K_u` factorization through `Alt`
+> remains open, and curvature prolongs `K(j1T)` through `j2T -> j1K` before
+> Euler/Green closure. PW2 certifies the complete order-two algebra and exact
+> rank locus on a structural fixture. Next: (2A) construct a source-legal moving-reduction
+> lift by retaining the full coset field, deriving an integrability
+> compensator, or explicitly extending the action domain; then close the
+> literal native first jet and operator; (3) derive the BV quotient and covariant
 > phase space from that action; (4) construct the global observation relation
 > and price the minimal external datum; and (5) solve the quotient domain and
 > evolution gate before advancing the complete matter and physics layers.
@@ -35,8 +46,10 @@ updated_at: "2026-08-02"
 > The ten-wave scaffold is recorded in
 > `explorations/post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md`
 > and the PW1 result is recorded in
-> `explorations/pw1-source-native-port-superig-interface-2026-08-02.md`.
-> Resume at `PW2-FULL-FIRST-JET-ACTION-GRAPH-AND-EFFECTIVE-ORDER2-OPERATOR`.
+> `explorations/pw1-source-native-port-superig-interface-2026-08-02.md` and
+> the PW2 result in
+> `explorations/pw2-full-first-jet-action-graph-2026-08-02.md`.
+> Resume at `PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

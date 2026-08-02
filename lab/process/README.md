@@ -38,6 +38,16 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2-full-first-jet-action-graph.json` - PW2 machine-readable Layer-0 and
+  source-domain result: a projected Maurer--Cartan connection displacement is
+  not automatically an epsilon-orbit lift; a structural comparator shows
+  exterior `dT` need not own `dK`, with native factorization still open;
+  `j2T -> j1K`, moving `Dp_J`, and coset-curvature returns remain live,
+  physical Ward evaluation stops, and PW2A is the next gate.
+- `pw2-action-graph-experiment-registry.json` - exact symbolic/dual-number
+  derivative agreement and complete `C2=A2(2 partial Z1+Z0)+A1 Z1`
+  composition/rank certificate, with a pivot-minor exceptional locus and ML
+  restricted to scheduling rather than scientific verdicts.
 - `pw1-source-native-port-superig-interface.json` - PW1 machine-readable
   reduction/action-interface certificate: canonical native-to-source complex
   extension, two-stage conditional reverse port, exact fixed-projection
@@ -54,7 +64,8 @@ Runbooks:
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
   restricts ML and systems analogies to typed roles; requires divergent
   specialist pre-assessment and hostile post-review for every major wave; and
-  records PW1 complete with PW2 next.
+  records PW1 complete and PW2 stopped at a source-domain obstruction with
+  PW2A next.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.

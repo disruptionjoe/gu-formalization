@@ -1,0 +1,128 @@
+{
+  "artifact_type": "pw2_full_first_jet_action_graph_result",
+  "run_id": "RUN-20260802-152647-gu-formalization-pw2-first-jet-action",
+  "status": "PW2_EXACT_AUTOMATIC_SOURCE_INTEGRABILITY_OBSTRUCTION",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_root_fields": "omega=(epsilon,varpi,g)",
+    "B_omega": "gauge-rotated Levi-Civita connection nabla_0+epsilon^-1 d_0 epsilon; epsilon-derived",
+    "T_omega": "tensorial connection difference varpi-epsilon^-1 d_0 epsilon",
+    "A_omega": "reconstructed algebraic sum B_omega+T_omega=nabla_0+varpi",
+    "repository_split": "(B,T)->(B+K,T-K) with fixed sum",
+    "full_jet": "j1T=(T,nabla T), including symmetric Spencer data",
+    "exterior_quotient": "d_B T=Alt_ext(nabla T), not the full jet",
+    "moving_reduction": "J, p_J, Phi_J, Dp_J, D_AH Phi_J, and [Phi_J,Phi_J]",
+    "action_derivative": "Euler covector plus Green boundary and coupled Ward return; not Shiab or observation pullback",
+    "trace_reversed_fibre": "Sym2 T*X with DeWitt/Frobenius trace reversal, inertia (6,4); not Lambda2+Lambda3"
+  },
+  "pre_assessment": [
+    {
+      "lens": "covariant jet and reductive geometry",
+      "instruction": "Use the derived-J branch, own the full Spencer jet, and first prove that the projected K split lifts to a legal epsilon_K source coordinate.",
+      "predicted_smallest_obstruction": "projected K is generically not in the gauge-orbit image"
+    },
+    {
+      "lens": "variational PDE and Ward/Green",
+      "instruction": "Transpose the whole frozen graph, return derived-J terms to epsilon, and stop physical Ward evaluation until the source split and odd map exist.",
+      "predicted_smallest_obstruction": "unowned symmetric j1T return before a native coefficient can be promoted"
+    },
+    {
+      "lens": "exact AD, rank, statistics, and ML",
+      "instruction": "Reconcile exact symbolic and AD owner packets; certify generic rank by minors and use selection only to schedule fixtures.",
+      "predicted_smallest_obstruction": "source-to-active-native identification or full-jet owner, not lack of a fitted coefficient"
+    }
+  ],
+  "construction": {
+    "moving_projector": "exact finite derivative Dp_J[X]=[p_JX,zeta]-p_J[X,zeta] is nonzero",
+    "coset_curvature_return": "the reductive coset bracket returns nontrivially to h",
+    "full_gauge_displacement": "local flat-reference Maurer-Cartan point-jet witness has d omega+[omega,omega]=0; no global epsilon/holonomy theorem",
+    "projected_displacement": "p_h omega has nonzero curvature because projection drops the cancelling coset bracket",
+    "source_lift_consequence": "for a flat structural reference, B+p_h omega cannot equal an epsilon_K gauge rotation of B; actual native K_u on an admitted Y14 background is not evaluated",
+    "Spencer_witness": "two affine holonomic germs have the same T and dT but different symmetric first jets and different dK for a legal pointwise index-mixing comparator",
+    "conditional_graph": "j1T -> moving p_J/Alt/Hodge -> K, then holonomic prolongation j2T -> j1K -> (Bhat,That) curvature -> Shiab -> action -> Euler/Green/Ward",
+    "conditional_status": "typed dependency graph; literal native Alt, active bundle port, source-domain lift, twice-integrated Euler, and two-layer Green return remain unconstructed"
+  },
+  "source_coordinate_theorem": {
+    "premise": "B_omega is epsilon-derived, so replacing it by B_omega+K inside the stated action requires epsilon_K with B(epsilon_K)=B(epsilon)+K.",
+    "exact_witness": "a projected Maurer-Cartan displacement has nonzero curvature even when the unprojected displacement is flat",
+    "conclusion": "reductive projection and affine descent do not by themselves prove that the B/T split is a legal substitution into the 2021 source action",
+    "scope": "kills only automatic source-integrability; actual native K_u, admitted Y14 backgrounds, unprojected rotations, integrable loci, and explicit action extensions remain open"
+  },
+  "dispositions": [
+    "LOCAL-FLAT-MAURER-CARTAN-POINT-JET-WITNESS",
+    "INFINITESIMAL-FLAT-GAUGE-TANGENT-CONTROL",
+    "PROJECTED-GAUGE-DISPLACEMENT-NOT-AUTOMATICALLY-SOURCE-INTEGRABLE",
+    "FIXED-PROJECTOR-KILLED",
+    "COSET-CURVATURE-RETURN-LIVE",
+    "EXTERIOR-DT-DOES-NOT-OWN-GENERAL-DK",
+    "FULL-SPENCER-JET-REQUIRED-BEFORE-NATIVE-FACTORIZATION",
+    "ACTUAL-NATIVE-KU-FACTORIZATION-OPEN",
+    "TRACE-REVERSED-DEWITT-FIBRE-RETAINED",
+    "PHYSICAL-ODD-WARD-NOT-EVALUABLE",
+    "JET-COORDINATE-AD-NOT-EULER-GREEN-PACKET",
+    "J2T-PROLONGATION-AND-TWO-GREEN-LAYERS-OPEN",
+    "R3-FINITE-RESPONSE-RECLASSIFIED-AS-REPOSITORY-EXTENSION-EVIDENCE",
+    "NO-NATIVE-RANK-PROMOTION"
+  ],
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "2021 draft Section 9.1 equations 9.1-9.7: I1^B is a functional of omega=(epsilon,varpi) and the metric",
+      "B_omega=nabla_0+epsilon^-1 d_0 epsilon is epsilon-derived while T_omega=varpi-epsilon^-1 d_0 epsilon",
+      "the written action contains F_Bomega+(1/2)d_Bomega Tomega+(1/3)[Tomega,Tomega]",
+      "TOE 00:26:28-00:29:16 and the draft use trace-reversed Frobenius geometry on the ten-dimensional symmetric fibre"
+    ],
+    "SOURCE_CORRECTS": [
+      "a projected connection displacement cannot be called a source-coordinate change merely because the unprojected Maurer-Cartan displacement is gauge-generated",
+      "Xi=D_omega Upsilon is a displayed redundancy target, not the off-shell coupled Ward identity required here",
+      "Shiab is a contraction family, not the projection p_J or the source-to-native bundle port"
+    ],
+    "SOURCE_SILENT": [
+      "an integrable projected K or compensating coset field that keeps Bhat in the epsilon orbit",
+      "moving J, Phi_J, Dp_J, and the active P_H-to-P_nat identification",
+      "the literal native Alt/K first-jet graph, its complete Green return, and the physical odd-field map"
+    ]
+  },
+  "ward_status": "NOT_EVALUABLE_PHYSICAL_ODD_MAP_AND_SOURCE_LEGAL_SPLIT_OPEN",
+  "actual_native_Ku": "NOT_EVALUATED_PENDING_LITERAL_PORT_AND_ADMISSIBLE_BACKGROUND",
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "covariant jet and reductive geometry",
+        "variational PDE and Ward-Green ownership",
+        "exact AD, rank, statistics, and ML design"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE",
+      "lenses": [
+        "source and reductive geometry",
+        "variational PDE and operator composition",
+        "source provenance and evidence leakage"
+      ],
+      "must_fix": [],
+      "final_verdicts": [
+        "PASS after Lorentz-fibre, automatic-integrability, and native-factorization scope repairs",
+        "PASS after j2T-to-j1K, jet-partial, and two-Green-layer repairs",
+        "PASS after source-attribution, campaign, datum, review-receipt, and inventory propagation"
+      ],
+      "reruns": [
+        "38 exact + 7 planted = 45 PASS",
+        "27 exact + 8 planted = 35 PASS",
+        "47 exact + 12 planted = 59 PASS"
+      ]
+    }
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "nonclaims": [
+    "no literal Y14 source-to-active-native port",
+    "no native Alt/K action substitution",
+    "no complete physical Ward or BV differential",
+    "no analytic domain or no-leakage theorem",
+    "no Standard Model, generation-count, quantum, dark-energy, or dark-matter prediction"
+  ],
+  "next_gate": "PW2A-SOURCE-LEGAL-MOVING-REDUCTION-LIFT"
+}
