@@ -451,7 +451,7 @@
           "rerun_receipts": [
             "27 algebraic exact + 14 type/registry + 3 source receipts + 14 planted = 58 PASS",
             "21 algebraic exact + 10 type/registry + 11 planted = 42 PASS",
-            "47 exact scaffold + 12 planted = 59 PASS"
+            "47 exact scaffold + 13 planted = 60 PASS"
           ]
         }
       },

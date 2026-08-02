@@ -428,7 +428,7 @@ Three independent hostile passes return `PASS` after repairs.
 
 Final reruns pass: `27 algebraic exact + 14 type/registry + 3 source receipts
 + 14 planted = 58`, `21 algebraic exact + 10 type/registry + 11 planted =
-42`, and `47 exact scaffold + 12 planted = 59`. No must-fix item remains.
+42`, and `47 exact scaffold + 13 planted = 60`. No must-fix item remains.
 
 ## Boundary and next gate
 
