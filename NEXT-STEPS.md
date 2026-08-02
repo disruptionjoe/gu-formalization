@@ -827,6 +827,41 @@ updated_at: "2026-08-01"
 > assemble `A1 o Z1` plus every subprincipal term into the effective
 > order-two symbol, then derive proper support or a selected descended
 > no-leakage equation lift before computing physical response rank or surplus.
+>
+> **Alternative-branch B2C15R3 result (2026-08-02): AN ABSTRACT REDUCED
+> DESCENT THEOREM AND STRUCTURAL INDUCED-BUNDLE COMPARATOR PASS, AND A
+> DECLARED-GERM CORRECTION DERIVED FROM THE FINITE B,T VALUES HAS A NONZERO
+> ACTION RESPONSE; THE ACTIVE/LITERAL SOURCE PORTS AND COMPLETE ORDER-TWO
+> OPERATOR REMAIN OPEN.** Three exact nonconstant `SL(2) -> Sp(4)` patches
+> verify tensorial descent of `K_u` and affine descent of `B+K_u`. Together
+> with prior G1/R2 actual-equivariance receipts this gives a formal conditional
+> active-native corollary, not a newly machine-checked 128-dimensional atlas.
+> A structural fixed projector fails ambient covariance, while the conjugated
+> moving projector passes. The public source still supplies no real-form
+> principal-bundle morphism identifying its bundle with this active one. In
+> the finite action fixture, the declared structural port `L_fin(T)=T_0` plus
+> a compatible constant-`A` full first jet derives `K` and `dK`. A held-out
+> nonconstant-`A` jet with the same exterior `dT` changes `dK`, so that germ is
+> explicitly priced. Cayley--Hamilton gives
+> `f=(1-cos(sqrt(21)))/7`, the exact split polynomial is
+> `I(s)=(378s^2+280s+23)/2`, and the full derived response
+> `189f^2+140f` is positive and nonzero. The held-out `T_1,T_2` ports differ,
+> so this is not promoted to native `Alt(T)`. The trace-reversed metric fibre
+> supplies an invariant but non-normalizable density. A normalized
+> ten-fibre observation-section delta-current has exact non-unimodular `GL(4)`
+> density-Jacobian normalization and proper section-graph support. A separate
+> LC-horizontal coefficient lift has Cech/Krein-dual control, but both are
+> selected distributional data rather than bulk-derived decay; `R L=1` still
+> does not imply no leakage. The actual
+> B2C15P background has live base first derivatives, and an exact plant shows
+> `A1 Z1` can cancel a live `A2 Z0` block, so the prior ranks `10,4` are not
+> the complete effective symbol. P1/P2/P3 remains unchanged and unused. The
+> next gate is
+> `ECW3D-B2C15R4-NATIVE-ALT-SOURCE-BUNDLE-PORT-AND-FULL-EFFECTIVE-ORDER2-ASSEMBLY`:
+> construct or obstruct the literal-source/native real-form bundle map,
+> build the moving grade-two `Alt(T)` port there, rerun the full action/Ward/
+> Green return, and assemble `A2(2 partial Z1+Z0)+A1 Z1` plus every moving
+> coefficient before attempting the functional observed equation or surplus.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and

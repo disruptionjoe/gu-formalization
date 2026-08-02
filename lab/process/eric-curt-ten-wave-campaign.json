@@ -533,7 +533,22 @@
                                                             "probe": "tests/channel-swings/eric_curt_wave3d_b2c15r2_full_bch_action_gauge_curvature_adjoint_probe.py",
                                                             "report": "explorations/eric-curt-wave3d-b2c15r2-full-bch-action-gauge-curvature-adjoint-2026-08-02.md",
                                                             "alternative_branch_next_gate": "ECW3D-B2C15R3-SAME-BUNDLE-COVARIANT-SPLIT-NATIVE-FIRST-VARIATION-AND-OBSERVATION-SUPPORT",
-                                                            "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                                            "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY",
+                                                            "wave3d_b2c15r3": {
+                                                              "status_boundary": "ABSTRACT_REDUCED_CECH_DESCENT_THEOREM_EARNED__EXECUTABLE_ATLAS_ONLY_SL2_TO_SP4_STRUCTURAL__ACTIVE_NATIVE_INDUCED_DESCENT_FORMAL_CONDITIONAL_COROLLARY_TO_PRIOR_G1_R2_RECEIPTS__LITERAL_SOURCE_REAL_FORM_BUNDLE_MORPHISM_OPEN__STRUCTURAL_FIXED_AMBIENT_PROJECTOR_FAILS_AND_MOVING_PROJECTOR_REQUIRED__DECLARED_CONSTANT_A_GERM_DERIVED_K_FINITE_ACTION_RESPONSE_NONZERO__SAME_dT_NONCONSTANT_A_HELDOUT_CHANGES_dK__FINITE_L_FIN_PORT_NOT_NATIVE_ALT__NO_LAMBDA_RED__TEN_FIBRE_SECTION_DELTA_CURRENT_NORMALIZED_UNDER_NONUNIMODULAR_GL4_JACOBIAN_AND_PROPERLY_SUPPORTED__BULK_DYNAMICAL_DECAY_UNBUILT__COEFFICIENT_NO_LEAKAGE_INDEPENDENT__ACTUAL_FIXTURE_BASE_DG_LIVE__FULL_EFFECTIVE_ORDER2_OPEN_AND_A1_Z1_CAN_CANCEL_A2_Z0__NO_BV_DOMAIN_VACUUM_OR_PHYSICS",
+                                                              "source_collision": "SOURCE_CONFIRMS_ADP_T_FIRST_ACTION_ONE_HALF_ONE_THIRD_TRACE_REVERSAL_UPSTAIRS13_CURRENT_AND_OBSERVATION_SECTION_GRAMMAR__SOURCE_CORRECTS_ORDINARY13_FORM_PULLBACK_AND_FROZEN_CONTORSION_REFERENCE__SOURCE_SILENT_ON_SOURCE_TO_NATIVE_REAL_FORM_BUNDLE_MAP_MOVING_GRADE2_ALT_PORT_K_SPLIT_OBSERVATION_CURRENT_SUPPORT_NO_LEAKAGE_BV_AND_DOMAIN",
+                                                              "same_bundle": "ABSTRACT_K_TENSORIAL_AND_B_PLUSK_AFFINE_DESCENT_THEOREM__THREE_NONCONSTANT_PATCH_SL2_TO_SP4_STRUCTURAL_COMPARATOR__ENTIRE_SERIES_COEFFICIENTWISE_REDUCED_EQUIVARIANCE__ACTIVE_P_NAT_COROLLARY_CONDITIONAL_ON_PRIOR_NATIVE_RECEIPTS__LITERAL_SOURCE_P_CONDITIONAL_ON_REDUCTION_OR_BUNDLE_ISOMORPHISM__FULL_AMBIENT_REQUIRES_MOVING_PROJECTOR",
+                                                              "derived_split_action": "DECLARED_L_FIN_T_EQUALS_T0_STRUCTURAL_PORT_AND_COMPATIBLE_CONSTANT_A_FULL_FIRST_JET__DISCRIMINANT_MINUS7__FULL_SCALE_F_EQUALS_ONE_MINUS_COS_SQRT21_OVER7__ACTION_I_S_EQUALS_378S2_PLUS280S_PLUS23_OVER2__RESPONSE_189F2_PLUS140F_APPROX27_509_NONZERO__TOTAL_CONNECTION_AND_EXTERIOR_CURVATURE_JET_FIXED__SAME_dT_NONCONSTANT_A_HELDOUT_CHANGES_dK__COMMON_CONJUGATION_PASS__HELDOUT_PORTS_DIFFER__NATIVE_ALT_FULL_JET_PORT_OPEN__NO_NEW_ACTION_COEFFICIENT",
+                                                              "observation": "TRACE_REVERSED_FIBRE_INVARIANT_DENSITY_SCALE_AND_NONUNIMODULAR_GL4_CONGRUENCE_INVARIANT_BUT_RADIAL_DLambda_OVER_Lambda_INFINITE__NO_CANONICAL_POSITIVE_GAUSSIAN_OR_INVARIANT_COMPACT_CUTOFF__TEN_FIBRE_NORMALIZED_SECTION_DELTA_CURRENT_INVERSE_SYM2_JACOBIAN_PASS__SEPARATE_LC_HORIZONTAL_COEFFICIENT_LIFT_CECH_KREIN_DUAL_PASS__RL_EQUALS1_DOES_NOT_IMPLY_DESCENT_OR_NO_LEAKAGE__FOUR_VISIBLE_LEGS_NINE_REQUIRE_DERIVED_VERTICAL_SOLDERING__NO_PHYSICAL_EULER_PUSHDOWN",
+                                                              "effective_order": "ORDER3_PREVIOUSLY_CANCELLED__ACTUAL_B2C15P_BASE_DG_NONZERO14_EACH__A1_Z1_AND_PARTIAL_Z1_CANNOT_BE_ERASED__EXACT_HOSTILE_FIXTURE_CANCELS_LIVE_A2_Z0_WITH_A1_Z1__FULL_ORDER2_UNASSEMBLED__PRIOR_RANKS10_4_SUBROUTE_ONLY",
+                                                              "evidence": "46_EXACT_PLUS5_SOURCE_PLUS24_TYPE_PLUS17_LIVE_PLANTED_EQUALS92_PASS__THREE_HOSTILE_SPECIALIST_REVIEWS_PASS_AFTER_NATIVE_SCOPE_FULL_JET_AND_TEN_FIBRE_REPAIRS",
+                                                              "external_datum": "P1_P2_P3_UNCONSUMED_UNCHANGED_AND_WRONG_TYPE_FOR_SOURCE_BUNDLE_MORPHISM_MOVING_PROJECTOR_ALT_PORT_SECTION_CURRENT_SUPPORT_OR_NO_LEAKAGE",
+                                                              "registry": "lab/process/eric-curt-wave3d-b2c15r3-same-bundle-native-variation-observation-support.json",
+                                                              "probe": "tests/channel-swings/eric_curt_wave3d_b2c15r3_same_bundle_native_variation_observation_support_probe.py",
+                                                              "report": "explorations/eric-curt-wave3d-b2c15r3-same-bundle-native-variation-observation-support-2026-08-02.md",
+                                                              "alternative_branch_next_gate": "ECW3D-B2C15R4-NATIVE-ALT-SOURCE-BUNDLE-PORT-AND-FULL-EFFECTIVE-ORDER2-ASSEMBLY",
+                                                              "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+                                                            }
                                                           }
                                                         }
                                                       }
@@ -564,7 +579,7 @@
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
         "active_next_swing": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-        "alternative_branch_next_swing": "ECW3D-B2C15R2-FULL-BCH-REDUCTION-ACTION-PLACEMENT-AND-CURVATURE-ADJOINT-ORDER"
+        "alternative_branch_next_swing": "ECW3D-B2C15R4-NATIVE-ALT-SOURCE-BUNDLE-PORT-AND-FULL-EFFECTIVE-ORDER2-ASSEMBLY"
       }
     },
     {

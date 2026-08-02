@@ -264,6 +264,19 @@ Runbooks:
   subprincipal effective-order assembly remain open. Same-bundle descent,
   complete native variation, and a
   canonical supported observation/equation lift remain open.
+- `eric-curt-wave3d-b2c15r3-same-bundle-native-variation-observation-support.json`
+  - Wave 3D-B2C15R3 same-bundle, derived-split, and observation-support gate.
+  It proves an abstract reduced Cech theorem and an exact `SL(2) -> Sp(4)`
+  induced-bundle comparator; active-native descent is a formal conditional
+  corollary to prior receipts, while the literal source real-form map remains
+  open. The finite source-action correction is derived from the same `B,T`
+  values plus a declared compatible constant-`A` full first jet and has exact
+  nonzero response without a new coupling; a same-`dT` heldout proves that jet
+  is not free. The trace-reversed fibre density is invariant but
+  non-normalizable. A ten-fibre section delta-current has exact
+  non-unimodular Jacobian normalization; the separate LC coefficient lift
+  descends, while no-leakage stays independent and no physical Euler equation
+  is claimed. Live coefficient derivatives keep the full order-two symbol open.
 - `eric-curt-wave3d-b2c15r-reductive-return-rank-strata.json` - Wave
   3D-B2C15R native reductive-return and trace-stratified fixed-Shiab gate. It
   proves the splitting-induced principal `h` return is zero, while preserving

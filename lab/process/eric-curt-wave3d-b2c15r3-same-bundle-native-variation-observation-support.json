@@ -1,0 +1,113 @@
+{
+  "artifact": "ECW3D_B2C15R3_SAME_BUNDLE_NATIVE_VARIATION_OBSERVATION_SUPPORT",
+  "status": "PARTIAL_CONSTRUCTION_PASS_WITH_ABSTRACT_REDUCED_DESCENT_STRUCTURAL_INDUCED_BUNDLE_COMPARATOR_DECLARED_GERM_DERIVED_K_ACTION_RESPONSE_TEN_FIBRE_SECTION_CURRENT_AND_FULL_ORDER2_STOP",
+  "run": "RUN-20260802-122445-gu-formalization-ecw3d-b2c15r3-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "bundles": [
+      "active reduced Spin_0(9,5) bundle Q",
+      "active native induced Sp(32,32;H) bundle P_nat",
+      "literal public-source gauge bundle P"
+    ],
+    "connection_objects": [
+      "source distortion T",
+      "moving grade-two component pr_h^epsilon T",
+      "grade-three owner Alt(pr_h^epsilon T)",
+      "tensorial correction K_u",
+      "connection q_B=B+K_u"
+    ],
+    "observation_objects": [
+      "raw pullback",
+      "proper-support ten-fibre Gysin",
+      "normalized section delta-current",
+      "coefficient lift dual",
+      "Krein adjoint",
+      "physical Euler pushdown"
+    ]
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "the written first action uses adP-valued T and fixed one-half/one-third transgression weights",
+      "the trace-reversed Frobenius fibre pairing and observation-section grammar",
+      "an upstairs Shiab thirteen-form/current intended to produce observed four-dimensional physics"
+    ],
+    "SOURCE_CORRECTS": [
+      "ordinary pullback of a thirteen-form is not the missing Euler pushdown",
+      "the contorsion slot uses a gauge-rotated Levi-Civita reference rather than a frozen projector"
+    ],
+    "SOURCE_SILENT": [
+      "the active source-to-native real-form principal-bundle morphism",
+      "the moving grade-two source projection, native Alt port, K_u, and split substitution",
+      "the observation current, support law, no-leakage theorem, BV quotient, and analytic domain"
+    ]
+  },
+  "same_bundle": {
+    "reduced_spin_descent": "ABSTRACT_INTERTWINER_THEOREM_EARNED__EXECUTABLE_THREE_PATCH_ATLAS_IS_AN_SL2_COMPARATOR",
+    "native_induced_bundle_descent": "FORMAL_CONDITIONAL_COROLLARY_USING_PRIOR_G1_R2_NATIVE_INCLUSION_RECEIPTS__NOT_NEWLY_MACHINE_CHECKED_ON_128_DIMENSIONAL_OVERLAPS",
+    "literal_source_bundle_descent": "CONDITIONAL_ON_AN_UNBUILT_REAL_FORM_REDUCTION_OR_BUNDLE_ISOMORPHISM",
+    "connection_law": "K_j=Ad(h_ij^-1)K_i_AND_(B+K)_j=Ad(h_ij^-1)(B+K)_i+h_ij^-1dh_ij",
+    "raw_derivative": "REJECTED_UNDER_NONCONSTANT_OVERLAPS",
+    "full_ambient_covariance": "STRUCTURAL_FIXED_PROJECTOR_REJECTED_AND_MOVING_CONJUGATED_PROJECTOR_REQUIRED__ACTUAL_GRADE3_SP_TRANSITION_NOT_EXECUTED",
+    "signature_scope": "CECH_THEOREM_SIGNATURE_INDEPENDENT__SOURCE_ACTION_PLACEMENT_NATIVE_TRACE_REVERSED_ONLY"
+  },
+  "derived_split_action": {
+    "finite_port": "L_fin(T)=T_0__STRUCTURAL_COMPARATOR_NOT_NATIVE_ALT",
+    "discriminant": -7,
+    "full_series_scale": "f=(1-cos(sqrt(21)))/7",
+    "action_polynomial": "I(s)=(378*s^2+280*s+23)/2",
+    "response": "I(f)-I(0)=189*f^2+140*f_APPROX_27.5093637771_NONZERO",
+    "same_fixture": "Kbar_DERIVED_FROM_THE_SAME_B_T_VALUES__dKbar_USES_AN_EXPLICIT_COMPATIBLE_CONSTANT_A_FULL_FIRST_JET_NOT_DETERMINED_BY_dT",
+    "jet_heldout": "A_NONCONSTANT_A_FULL_JET_WITH_THE_SAME_EXTERIOR_dT_CHANGES_dK_AND_PROVES_THE_JET_DEBIT_IS_LIVE",
+    "fixed_endpoint": "TOTAL_CONNECTION_AND_EXTERIOR_CURVATURE_JET_FIXED",
+    "gauge": "COMMON_CONJUGATION_EQUIVARIANCE_AND_ACTION_INVARIANCE_PASS",
+    "heldouts": "T_1_AND_T_2_PORTS_GIVE_DIFFERENT_RESPONSES_SO_PORT_INDEPENDENCE_IS_REJECTED",
+    "first_variation": "E_B_beta+E_T_tau+(E_B-E_T)DK_PLUS_ALL_MOVING_SHIAB_DENSITY_KREIN_LOWERER_OWNERS_AND_GREEN_BOUNDARY",
+    "new_action_coefficient": "NONE",
+    "effective_bridge_parameters": "ONLY_DELTA=c3^2-c11^2_IN_THE_FIXED_LINEAR_SECTOR",
+    "native_boundary": "ACTUAL_pr_h^epsilon_Alt_SOURCE_BUNDLE_PORT_AND_FULL_FIRST_JET_OWNER_REMAIN_UNBUILT"
+  },
+  "observation": {
+    "native_density": "mu_F=C_abs(det h)^(-5/2)_product_dh_ab_IS_SCALE_AND_NONUNIMODULAR_GL4_CONGRUENCE_INVARIANT",
+    "normalization": "RADIAL_dlambda_over_lambda_HAS_INFINITE_MASS",
+    "positive_gaussian": "NOT_CANONICAL_ON_THE_INDEFINITE_DEWITT_6_4_FIBRE",
+    "selected_current": "O_s(E)=pi_!(delta_s E)_WITH_pi_!delta_s=1",
+    "support": "TEN_FIBRE_SECTION_DELTA_CURRENT_HAS_INVERSE_SYM2_JACOBIAN_NORMALIZATION_AND_PROPER_SECTION_GRAPH_SUPPORT_BUT_IS_DISTRIBUTIONAL_SELECTED_DATA",
+    "lift": "LEVI_CIVITA_HORIZONTAL_LIFT_AND_KREIN_LEFT_INVERSE_DESCEND_ON_THREE_PATCHES",
+    "dual": "EULER_COVECTORS_AND_COEFFICIENT_DUAL_DESCEND",
+    "no_leakage": "INDEPENDENT_CONDITION__RL=1_AND_OBSERVED_VALUE_DO_NOT_IMPLY_IT",
+    "visible_legs": "FOUR_HORIZONTAL_LEGS_SELECTED__NINE_VERTICAL_LEGS_REQUIRE_AN_INDEPENDENTLY_DERIVED_SOLDERING_BLOCK",
+    "physical_status": "NO_FOUR_DIMENSIONAL_EULER_EQUATION_EARNED"
+  },
+  "effective_order": {
+    "order_three": "CANCELLED_IN_B2C15R2",
+    "prior_A2_Z0_ranks": [10, 4],
+    "actual_fixture_base_DG_nonzero_counts": [14, 14, 14, 14],
+    "complete_order_two": "OPEN_PENDING_A2(2_PARTIAL_Z1+Z0)+A1_Z1_AND_ALL_MOVING_COEFFICIENTS",
+    "hostile_cancellation": "AN_EXACT_FIXTURE_HAS_A2_Z1=0_AND_LIVE_RANK1_A2_Z0_BUT_A1_Z1_CANCELS_THE_COMPLETE_C2",
+    "promotion": "PRIOR_A2_Z0_RANKS_REMAIN_A_LIVE_SUBROUTE_NOT_THE_COMPLETE_SYMBOL"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "NO_EXISTING_DATUM_SUPPLIES_THE_SOURCE_BUNDLE_MORPHISM_MOVING_PROJECTOR_ALT_PORT_OBSERVATION_CURRENT_SUPPORT_OR_NO_LEAKAGE"
+  },
+  "surplus": "UNCOMPUTED_PENDING_NATIVE_SOURCE_PORT_AND_A_DESCENDED_NO_LEAKAGE_OBSERVED_EQUATION",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 46,
+    "source_receipts": 5,
+    "type_level": 24,
+    "planted": 17,
+    "total": 92,
+    "status": "PASS_THREE_HOSTILE_SPECIALIST_REVIEWS_AFTER_REPAIRS"
+  },
+  "open": [
+    "construct or obstruct the literal-source to active-native real-form principal-bundle morphism componentwise",
+    "construct pr_h^epsilon T and native Alt(T) in that same bundle and rerun the full action Ward and Green return",
+    "assemble the complete effective order-two coefficient at the actual Zorro-DeWitt background",
+    "pair a surviving coefficient with the normalized section current and prove functional-adjoint descent and zero leakage",
+    "only then compute the physical response Jacobian rank and constraint surplus",
+    "retain BV quotient analytic domain fermionic and cosmological legs as unclaimed"
+  ],
+  "next_gate": "ECW3D-B2C15R4-NATIVE-ALT-SOURCE-BUNDLE-PORT-AND-FULL-EFFECTIVE-ORDER2-ASSEMBLY"
+}

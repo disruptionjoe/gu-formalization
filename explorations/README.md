@@ -13,6 +13,19 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`Eric/Curt Wave 3D-B2C15R3 same-bundle descent, derived split response, and section-current observation`](eric-curt-wave3d-b2c15r3-same-bundle-native-variation-observation-support-2026-08-02.md)
+  proves an abstract reduced descent theorem and exact structural
+  induced-bundle comparator; active-native descent remains a formal
+  conditional corollary to prior receipts. It replaces the prior independent
+  split direction with a correction derived from the same finite `B,T` values
+  plus a declared compatible full first jet, and plants a same-`dT` moving
+  germ. Its exact source-action response is nonzero with no new coupling. A
+  ten-fibre normalized section current and separate LC coefficient lift pass
+  their Jacobian/Cech controls, but remain selected observation data with an
+  independent no-leakage burden. The
+  literal source real-form bundle map, native `Alt(T)` port, complete
+  effective order-two symbol, functional Euler pushdown, BV, and domain stay
+  open; P1/P2/P3 is unspent.
 - [`Eric/Curt Wave 3D-B2C15R2 full BCH, covariant split action, and curvature adjoint`](eric-curt-wave3d-b2c15r2-full-bch-action-gauge-curvature-adjoint-2026-08-02.md)
   resums the complete linear grade-3/11 bridge to an exact `Delta`-only
   connection, then builds its projected tensorial covariant difference and a
