@@ -2,11 +2,31 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-01"
+updated_at: "2026-08-02"
 ---
 
 # Next Steps For Contributors
 
+> **2026-08-02 POST-B2C15R3 MULTIDISCIPLINARY COUNCIL / EXECUTION PAUSE.**
+> Thirteen specialist lenses plus ten inline engineering personas recommend
+> the following construction order: (1) run the actual source/native
+> real-form port and the guided B2C2C action-interface work as a coordinated
+> rendezvous; (2) close the native full first jet, action variation, and
+> effective order-two operator; (3) derive the BV quotient and covariant
+> phase space from that action; (4) construct the global observation relation
+> and price the minimal external datum; and (5) solve the quotient domain and
+> evolution gate before advancing the complete matter and physics layers.
+> ML/statistics may reduce the legal basis, choose high-information exact
+> fixtures, reconcile automatic and symbolic derivatives, and conjecture
+> polynomial factors, but every scientific gate remains exact. Consensus and
+> metastability are parked until an actual finite admissible torsor exists.
+> P1/P2/P3 remain unchanged and unused. Curt remains a formal comparator and
+> `TG-1 AND TG-2 AND TG-3` is still required for any third-lane promotion.
+> The ten-wave scaffold is recorded in
+> `explorations/post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md`
+> and no successor swing was executed in that council Run. Resume at `PW1`
+> only on Joe's next execution instruction.
+>
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
 > a mandatory, separately tagged Curt-rival column; no third lane has been

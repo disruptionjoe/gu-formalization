@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-01"
+updated_at: "2026-08-02"
 ---
 
 # Process
@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `post-b2c15r3-multidisciplinary-council-next-ten-waves.json` - machine-readable
+  thirteen-specialist and ten-engineering-persona assessment plus a
+  dependency-checked ten-wave post-B2C15R3 construction scaffold. It keeps
+  the independent-native, Eric-guided, and Curt-comparator roles distinct;
+  restricts ML and systems analogies to typed roles; and records that no
+  successor wave was executed.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.

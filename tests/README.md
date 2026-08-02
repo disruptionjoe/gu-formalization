@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py`
+  validates the post-B2C15R3 council registry: at least ten specialist lenses,
+  exactly ten engineering personas, exactly ten dependency-ordered waves,
+  explicit information-gain questions and kill routes, Layer-0/lane/datum
+  guards, an exact-ending ML pipeline, and the no-execution pause. It includes
+  live planted mutations for false execution, missing personas/waves, forward
+  dependencies, absent kill tests, ML-verdict substitution, datum smuggling,
+  and nonconjunctive Curt promotion. Run it with `python`.
 - `channel-swings/eric_curt_wave3d_b2c15r3_same_bundle_native_variation_observation_support_probe.py`
   proves an abstract reduced descent theorem through an exact three-patch
   `SL(2) -> Sp(4)` structural comparator, rejects fixed-projector ambient
