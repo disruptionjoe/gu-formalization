@@ -1,0 +1,101 @@
+{
+  "artifact_type": "pw2c_literal_source_jacobian_full_k_result",
+  "run_id": "RUN-20260802-180814-gu-formalization-pw2c-literal-source-ward",
+  "status": "PW2C_FIXED_QG_ACTIVE_SOURCE_ROOT_JACOBIAN_AND_LITERAL_FULL_K_PASS_QG_BLOCKS_ANALYTIC_NONLINEAR_AND_PUBLIC_BUNDLE_PORT_OPEN",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_map": "F(epsilon,varpi;Q,g fixed)=(epsilon exp u(T),varpi;Q,g fixed) is a first-order differential source-root substitution, not by itself a gauge symmetry",
+    "active_scope": "candidate active P_mix/Sp(32,32;H)/Spin0(9,5) component",
+    "public_scope": "public U(64,64)/(7,7)-presented source bundle is not identified with the active component",
+    "source_epsilon": "source group coordinate on the admitted active component",
+    "clifford_reduction": "a separate Q_Cl owner, fixed in this Jacobian gate; its transported block is not constructed and it is not source epsilon",
+    "full_connection": "K_full=h^-1 D_B h=dexp_-u(D_Bu)",
+    "reduced_connection": "K_red=pr_2 K_full; equal-Delta and Hodge-null statements about K_red do not determine K_full",
+    "domain_levels": "finite-mode symbol inverse, boundary-domain inverse, tame nonlinear inverse, overlap descent, and global atlas are distinct"
+  },
+  "jacobian": {
+    "scope": "fixed Q_Cl and fixed metric source-root block only; transported Q_Cl and metric Frechet blocks remain open",
+    "left_trivialized_formula": "xi_hat=Ad(h^-1)xi+dexp_-u(delta u), alpha_hat=alpha, delta u=U_T(alpha-D_B xi) at fixed Q_Cl and g, where xi=epsilon^-1 delta epsilon",
+    "root_block": "A_T=Ad(h^-1)-dexp_-u U_T D_B at fixed Q_Cl and g, using the left-trivialized tangent xi=epsilon^-1 delta epsilon",
+    "identity_active_grade_germ": "u=0 with grade-two B preserving the touched split; a structurally faithful 6x6 slice is block triangular and exactly invertible",
+    "imported_rank_ledger": {
+      "grade2_epsilon": 91,
+      "grade3_11_epsilon": 728,
+      "grade2_translation_first_jet": 1274,
+      "alternation_rank": 364,
+      "fixed_conormal_alternation_rank": 78
+    },
+    "fourier_control": "on the Abelian mode n, det A_n=1-i*n*lambda and |det|^2=1+n^2*lambda^2, nonzero for real lambda",
+    "interval_control": "HOSTILE_SCALAR_COMPARATOR_ONLY: (1-lambda d/dx)f=0 has f=C exp(x/lambda); it warns that symbol inversion need not settle a boundary domain but is not the same square-zero active-grade germ",
+    "dexp_resonance": "OPEN_OFF_IDENTITY: dexp_-u can lose rank when ad_u has nonzero 2pi i k spectrum; the proved u=0 germ is safe and the 2pi rotation plant is singular",
+    "derivative_loss": "because T contains d epsilon, the map is not a bounded same-H^s self-map without a graded/tame setup",
+    "nonlinear_inverse": "OPEN; a tangent inverse is not a solution of epsilon_hat=epsilon exp u(T(epsilon,varpi,g))",
+    "global_scope": "three-patch equivariant h group descent and a genuine nonconstant-transition affine connection overlap pass; a planted non-equivariant local h has nontrivial overlap defect"
+  },
+  "literal_full_k": {
+    "formula": "K_full=sum_n (-1)^n ad_u^n(D_Bu)/(n+1)!",
+    "variation": "delta K_full=D_(B+K) eta+(Ad(h^-1)-1)delta B with eta=dexp_-u(delta u); the executable germ includes nonzero delta B",
+    "direct_connection_check": "K_full equals B_(epsilon h)-B_epsilon in the exact nonabelian matrix germ",
+    "curvature_check": "F_(B+K)=Ad(h^-1)F_B in the exact two-coordinate matrix germ",
+    "linear_bridge_krylov": "on the controlled blade pair ad_u^2(Du)=-4 Delta Du and ad_u^3(Du)=-4 Delta ad_u(Du)",
+    "closed_form": "K_full=sinc(2 sqrt Delta) Du-(1-cos(2 sqrt Delta))/(4 Delta) [u,Du], with continuous Delta=0 limit",
+    "coefficient_panel": "same-Delta pairs have the same K_red but different K_full; the two controlled Hodge-null branches have zero commutator and therefore K_red=0 with nonzero K_full=Du; Delta=0 alone does not imply this",
+    "reality_scope": "grade3/11 input membership is inherited from PW2B; the exact K series remains in the active Lie algebra termwise"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "source roots (epsilon,varpi), homogeneous distortion T, and gauge-rotated connection grammar",
+      "fixed one-half and one-third transgression grammar",
+      "trace reversal on the symmetric metric fibre"
+    ],
+    "SOURCE_CORRECTS": [
+      "a field-dependent source substitution is not automatically a Noether symmetry or global coordinate chart"
+    ],
+    "SOURCE_SILENT_REPOSITORY_DERIVED": [
+      "grade3/11 bridge and coefficient pair",
+      "the K_full versus K_red information comparison, derived from the source-confirmed full gauge-rotated-connection pattern",
+      "fixed-Q,g source-root Frechet block and inverse-domain analysis",
+      "transported Q_Cl and metric Frechet blocks",
+      "public-to-active source bundle morphism",
+      "overlap defect theorem, nonlinear tame inverse, determinant measure, Ward/BV/domain packet"
+    ]
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "native_fibre_signature": [6, 4],
+  "native_total_signature": [9, 5],
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "global_claim": "NO_PUBLIC_BUNDLE_EQUIVALENCE_NO_TAME_NONLINEAR_INVERSE_NO_GLOBAL_SOURCE_ATLAS_NO_ANALYTIC_DOMAIN",
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "affine gauge cohomology, descent, and source Jacobian",
+        "Krein variational and hyperbolic PDE",
+        "symplectic and reductive differential substitution"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE_AFTER_REPAIR",
+      "lenses": [
+        "affine gauge cohomology, descent, and domain",
+        "Krein variational PDE and symbol scope",
+        "symplectic, Ward, cotangent, and BV typing"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "full Frechet claim narrowed to the fixed-Q_Cl fixed-metric left-trivialized source-root block",
+        "six-dimensional structural slice separated from the imported exact active rank ledger",
+        "constant group descent supplemented by a nonconstant affine-connection overlap",
+        "nonzero delta-B term added to the full K variation",
+        "Hodge-null zero commutators and the minus-one-half Delta-zero limit tested separately from a generic Delta-zero control",
+        "off-identity dexp resonance separated from PDE/domain inversion",
+        "DeWitt six-four and raw Frobenius seven-three inertias asserted exactly",
+        "K_full versus K_red attribution moved to repository-derived"
+      ],
+      "rerun_receipt": "28 exact + 9 type + 4 source + 12 planted = 53 PASS"
+    }
+  },
+  "next_gate": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY"
+}

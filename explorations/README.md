@@ -13,6 +13,20 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2C fixed-Q,g source-root Jacobian, full connection return, and structural Ward/cotangent comparators`](pw2c-literal-source-jacobian-moving-action-ward-2026-08-02.md)
+  constructs the fixed-Q,g active identity-germ source-root block and
+  `K_full=dexp_-u(D_Bu)`, including hostile domain, `dexp` resonance,
+  three-patch group, and nonconstant affine-overlap
+  controls. The full connection distinguishes equal-Delta and Hodge-null
+  branches erased by `K_red`. A source-composed comparator gives the complete
+  mixed `2/3/4` order ledger, `1/2/2` Green depths, an exact Abelian source
+  Ward/preboundary identity, ordinary cotangent lift, and finite Abelian BRST
+  comparator; the actual native eight-slot
+  moving-Shiab coefficient is separately replayed with rank ten. The two are
+  not yet one assembled Y14 tensor calculation. The public-source bundle,
+  transported-Q/metric blocks, tame inverse, actual nonabelian Ward, graded
+  BV/BFV quotient, and domain
+  remain open for PW2D. P1/P2/P3 remain unused and PW3 is blocked.
 - [`PW2B active-real-form bridge and source-orbit action comparator`](pw2b-literal-native-source-composed-action-2026-08-02.md)
   proves grade-3/11 right-`H`/Krein/`C+` membership and moving-Clifford-
   projector identities inside the active real form. It keeps the public
@@ -62,10 +76,10 @@ these for the full working record; the durable, reviewed results live in `canon/
 - [`Post-B2C15R3 multidisciplinary council and next-ten-wave scaffold`](post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md)
   uses thirteen mathematical/computational specialist lenses and ten inline
   build-oriented engineering personas to reorder the campaign without
-  initially executing a successor swing. PW1, PW2A, and the scoped PW2B
-  active-real-form/orbit-fixture continuation are now complete and advance the
-  scaffold to PW2C's actual source-coordinate Jacobian and literal derived-K
-  moving-action closure,
+  initially executing a successor swing. PW1, PW2A, the scoped PW2B
+  active-real-form/orbit-fixture continuation, and scoped PW2C active-germ
+  Jacobian/full-K/moving-action comparator are now complete and advance the
+  scaffold to PW2D's actual Y14 full-K plus eight-slot coefficient assembly,
   action-derived BV quotient, global observation/datum typing, and
   quotient-domain construction before the later physics layers. ML,
   statistics, counterfactuals, consensus, and proof systems are admitted only

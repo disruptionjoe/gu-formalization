@@ -38,6 +38,17 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2c-literal-source-jacobian-full-k.json` - PW2C fixed-Q,g active-germ
+  source-root Frechet block, Fourier/scalar-interval/domain and `dexp`
+  resonance distinctions, three-patch and nonconstant affine descent,
+  literal full Maurer--Cartan connection return, equal-Delta/Hodge-null
+  discriminator, source attribution, datum boundary, and PW2D handoff.
+- `pw2c-moving-action-ward-bv-registry.json` - PW2C scalar source-composed
+  dependency comparator, direct pulled Euler/Green identity, mixed `2/3/4`
+  order table, `1/2/2` Green depths, scalar gauge-null Hessian, Abelian
+  Ward/preboundary identity, ordinary cotangent and Abelian BRST comparators,
+  separate actual native eight-slot
+  moving-Shiab replay, and explicit actual-Y14/nonabelian-Ward boundary.
 - `pw2b-literal-native-source-port.json` - PW2B active-real-form membership,
   moving-projector, `K_full` versus grade-two `K_red`, public-source bundle
   fork, structural tangent-comparator, source attribution, review, and PW2C
@@ -60,8 +71,10 @@ Runbooks:
   not automatically an epsilon-orbit lift; a structural comparator shows
   exterior `dT` need not own `dK`, with native factorization still open;
   `j2T -> j1K`, moving `Dp_J`, and coset-curvature returns remain live,
-  physical Ward evaluation stops. PW2A's abstract mechanism is recorded
-  above; literal PW2B source/native action closure is the current gate.
+  physical Ward evaluation stops. PW2A's abstract mechanism and the scoped
+  PW2B/PW2C continuations are recorded above; the actual Y14 literal-full-K
+  plus moving-coefficient and nonabelian-source-Ward assembly is the current
+  PW2D gate.
 - `pw2-action-graph-experiment-registry.json` - exact symbolic/dual-number
   derivative agreement and complete `C2=A2(2 partial Z1+Z0)+A1 Z1`
   composition/rank certificate, with a pivot-minor exceptional locus and ML
@@ -82,8 +95,8 @@ Runbooks:
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
   restricts ML and systems analogies to typed roles; requires divergent
   specialist pre-assessment and hostile post-review for every major wave; and
-  records PW1/PW2/PW2A and the scoped PW2B continuation, with PW2C's actual
-  source-coordinate and literal derived-K/moving-action closure next.
+  records PW1/PW2/PW2A and the scoped PW2B/PW2C continuations, with PW2D's
+  actual Y14 full-K/moving-coefficient and source-Ward assembly next.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.

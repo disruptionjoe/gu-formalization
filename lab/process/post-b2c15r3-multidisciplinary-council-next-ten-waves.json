@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "PW2B_ACTIVE_REAL_FORM_BRIDGE_AND_ORBIT_FIXTURE_PASS_PW2C_NEXT",
+  "status": "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -23,22 +23,24 @@
       "PW2A coefficient-one coset-curvature completion with the connection-level compensator kept as a separate PDE/domain problem",
       "PW2A structural independent-B fourth-order Euler, formal-adjoint, two-Green-layer, and coupled-Ward control",
       "PW2B active-real-form grade-3/11 membership and moving-Clifford-projector identities, with public-source bundle identification and actual source-coordinate Jacobian open",
-      "PW2B exact transgression normal form with minus one-sixth q(T,T) and a compatible pointwise curvature-orbit fixture making varying-varpi order two attainable with one Green layer"
+      "PW2B exact transgression normal form with minus one-sixth q(T,T) and a compatible pointwise curvature-orbit fixture making varying-varpi order two attainable with one Green layer",
+      "PW2C fixed-Q,g active source-root Frechet block, three-patch and nonconstant affine descent, literal K_full including nonzero-delta-B variation, and equal-Delta/controlled-Hodge-null discrimination",
+      "PW2C scalar dependency comparator with direct pulled Euler-Green, mixed 2/3/4 orders, 1/2/2 Green depths, Abelian Ward/preboundary, ordinary cotangent and finite Abelian BRST controls, plus a separately replayed native eight-slot rank-ten coefficient"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
-      "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification, global co-moving descent, and actual source-coordinate Jacobian",
+      "transported Q_Cl and metric Frechet blocks; literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "literal K_full=h(T)^-1 D_B h(T), moving-Shiab/Hodge/density action coefficient, complete written-action jet-order theorem, and native effective operator",
+      "one actual Y14 assembly of literal K_full with every moving Shiab/Hodge/density/Krein/trace/projector/curvature coefficient and the complete native effective operator",
       "action-derived BV tangent differential and physical quotient",
       "functional observed Euler pushdown and no-leakage theorem",
       "closed physical Krein or boundary domain",
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2B",
-    "guided_next": "PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD",
-    "alternative_next": "PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD"
+    "datum": "P1/P2/P3 unchanged and unused through PW2C",
+    "guided_next": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY",
+    "alternative_next": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -353,7 +355,7 @@
     },
     {
       "id": "PW2",
-      "status": "PW2B_ACTIVE_REAL_FORM_BRIDGE_AND_ORBIT_FIXTURE_PASS_PW2C_REQUIRED",
+      "status": "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_REQUIRED",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -377,7 +379,7 @@
       ],
       "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
       "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
-      "exit": "PW2B proves active-real-form bridge admissibility and moving-projector identities plus a compatible orbit-jet order-two attainability result; public-source bundle identification, actual source-coordinate Jacobian, literal derived-K/moving-Shiab coefficient, free-epsilon/metric Euler, and physical Ward/Green closure remain for PW2C",
+      "exit": "PW2C proves the fixed-Q,g source-root block, literal full-K discriminator, scalar 2/3/4 dependency comparator, Abelian Ward/preboundary, ordinary cotangent, and finite Abelian BRST controls; transported-Q/metric blocks, actual Y14 literal-full-K/eight-slot assembly, nonabelian source Ward, graded BV/BFV, public-source bundle, analytic domain, and physical quotient remain for PW2D",
       "result": {
         "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
         "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
@@ -392,7 +394,10 @@
         "pw2b_active_bridge": "RIGHT_H_KREIN_CPLUS_GRADE3_11_MEMBERSHIP_AND_MOVING_PROJECTOR_PASS__PUBLIC_SOURCE_U77_TO_ACTIVE_PMIX_SP_SPIN95_BUNDLE_PORT_AND_ACTUAL_SOURCE_JACOBIAN_OPEN",
         "pw2b_connection_types": "K_FULL_EQUALS_H_INVERSE_D_B_H_DISTINCT_FROM_DELTA_ONLY_GRADE2_K_RED__HODGE_NULL_K_RED_ZERO_WITH_LIVE_PROJECTOR_MOTION__NO_K_FULL_VANISHING_CLAIM",
         "pw2b_action_order": "EXACT_MINUS_ONE_SIXTH_TRANSGRESSION_NORMAL_FORM__COMPATIBLE_POINTWISE_CURVATURE_ORBIT_IDENTITY_SHIAB_FIXTURE_VARPI_ORDER2_ATTAINABLE_ONE_GREEN_LAYER__LITERAL_DERIVED_K_MOVING_COEFFICIENT_OPEN",
-        "next_gate": "PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD"
+        "pw2c_source_jacobian": "FIXED_Q_G_ACTIVE_IDENTITY_GERM_SOURCE_ROOT_BLOCK_AND_FINITE_MODE_INVERSE_PASS__TRANSPORTED_Q_METRIC_OFF_IDENTITY_DEXP_INTERVAL_DOMAIN_SAME_SOBOLEV_TAME_NONLINEAR_AND_PUBLIC_BUNDLE_PORT_OPEN__THREE_PATCH_GROUP_AND_NONCONSTANT_AFFINE_DESCENT_PASS_WITH_HOSTILE_LOCAL_DEFECT",
+        "pw2c_full_connection": "K_FULL_EQUALS_DEXP_MINUS_U_DB_U_AND_DIRECT_TRANSFORMED_CONNECTION__CURVATURE_CONJUGACY_AND_NONZERO_DELTA_B_VARIATION_PASS__EQUAL_DELTA_AND_CONTROLLED_ZERO_COMMUTATOR_HODGE_NULL_BRANCHES_DISTINGUISHED_FROM_K_RED__NO_COEFFICIENT_SELECTION",
+        "pw2c_action_ward_cotangent": "SCALAR_DEPENDENCY_COMPARATOR_DIRECT_PULLED_EULER_GREEN_PASS__MIXED_ORDERS_2_3_3__3_4_4__3_4_4__GREEN_DEPTHS_1_2_2__SCALAR_TOP_RANK2_WITH_PLANTED_ABELIAN_GAUGE_NULL__NONVACUOUS_WARD_PREBOUNDARY_ORDINARY_COTANGENT_AND_FINITE_ABELIAN_BRST_COMPARATORS_PASS__ACTUAL_NATIVE_EIGHT_SLOT_RANK10_REPLAY_SEPARATE_NOT_ASSEMBLED__GRADED_BV_OPEN",
+        "next_gate": "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY"
       },
       "review_receipts": {
         "pre_assessment": {
@@ -486,6 +491,43 @@
             "22 exact + 12 type/registry + 4 source receipts + 7 planted = 45 PASS",
             "16 exact + 13 type/registry + 3 source receipts + 8 planted = 40 PASS",
             "50 exact scaffold + 14 planted = 64 PASS; PW2A predecessors, strict JSON/AST, 204-probe inventory, and diff checks PASS"
+          ]
+        }
+      },
+      "pw2c_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "affine gauge cohomology, descent, and source Jacobian",
+            "Krein variational and hyperbolic PDE",
+            "symplectic and reductive differential substitution"
+          ],
+          "shared_prediction": "a useful active finite-germ construction with a public-bundle, analytic-domain, and actual native-assembly stop"
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": [
+            "affine gauge cohomology, descent, and domain",
+            "Krein variational PDE and symbol scope",
+            "symplectic, Ward, cotangent, and BV typing"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "fixed-Q_Cl fixed-metric left-trivialized source-root scope and transported-owner boundary",
+            "structural six-dimensional slice versus imported exact rank ledger",
+            "nonconstant affine overlap and off-identity dexp resonance",
+            "nonzero delta-B variation, exact inertias, controlled Hodge-null and generic Delta-zero split",
+            "scalar dependency labels versus actual native eight-slot coefficient",
+            "direct pulled Euler-Green versus open independent J_F-adjoint chain",
+            "scalar Hessian versus native symbol and physical quotient",
+            "live Ward preboundary and bulk cancellation",
+            "ordinary cotangent and Abelian BRST comparators versus open graded BV/BFV"
+          ],
+          "rerun_receipts": [
+            "28 exact + 9 type + 4 source + 12 planted = 53 PASS",
+            "28 exact + 8 type + 4 source + 12 planted = 52 PASS",
+            "strict unique-key JSON, Python syntax, 206-file inventory, and git diff checks PASS",
+            "55 exact scaffold checks + 15 planted rejections = 70 PASS"
           ]
         }
       }
@@ -756,7 +798,7 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1, PW2, PW2A, and the scoped PW2B active-real-form/orbit-fixture continuation were executed; PW2C is next and PW3 plus all later waves remain unexecuted.",
+    "PW1, PW2, PW2A, and the scoped PW2B and PW2C continuations were executed; PW2D is next and PW3 plus all later waves remain unexecuted.",
     "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."

@@ -7,24 +7,29 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 SCOPED PW2B PASS; PW2C LITERAL ACTION/JACOBIAN GATE NEXT.**
-> PW2B proves that the grade-3/11 bridge is admissible in the active
-> right-`H`/Krein/`C+` real form and that it moves the Clifford projector while
-> stabilizing the quaternionic reduction. It does not identify the public
-> `U/(7,7)`-type source presentation with active `P_mix/Sp/Spin(9,5)`, and its
-> block-unitriangular matrix is only a structural comparator: the actual
-> Jacobian of `(epsilon,varpi)->(epsilon exp u(T),varpi)` remains open.
-> PW2B separates full `K_full=h^-1 D_B h` from the Delta-only grade-two
-> `K_red`; Hodge-null kills only `K_red`, while the projector still moves.
-> The exact transgression normal form contains `-1/6 q(T,T)`. A compatible
-> pointwise identity-Shiab curvature-orbit fixture makes varying-varpi Euler
-> order two attainable with one Green layer, but it is not the literal
-> derived-`K_full` plus every moving Shiab/Hodge/density/Krein coefficient.
-> Free-epsilon fourth order is fixture-attainable; the actual free-epsilon and
-> metric coefficients, root Ward/BV complex, phase space, and domain remain
-> open. PW2C must construct the real source-coordinate Jacobian and literal
-> action graph, evaluate those coefficients, and close Euler/Green/Ward before
-> PW3.
+> **2026-08-02 SCOPED PW2C PASS; PW2D ACTUAL-Y14 ASSEMBLY NEXT.**
+> PW2C constructs the fixed-`Q_Cl`, fixed-metric source-root Frechet block of
+> `(epsilon,varpi)->(epsilon exp u(T),varpi)`, proves finite-mode invertibility
+> on its structural identity germ, and keeps the transported-`Q_Cl`/metric
+> blocks, off-identity `dexp` resonance, boundary-domain, same-Sobolev, tame
+> nonlinear, and public-bundle burdens open. Its three-patch group control and
+> nonconstant affine-connection overlap pass.
+> The literal `K_full=h^-1 D_B h=dexp_-u(D_Bu)` passes connection and
+> curvature-conjugacy checks. Unlike the Delta-only grade-two `K_red`, it
+> distinguishes the equal-Delta pair and remains nonzero on both Hodge-null
+> controls. This gains coefficient information but does not select a ratio.
+> A scalar source-composed dependency comparator gives an exact pulled
+> Euler/Green identity, the mixed order ledger `[[2,3,3],[3,4,4],[3,4,4]]`,
+> Green depths `1/2/2`, a rank-two scalar top Hessian whose sole null is the
+> planted Abelian gauge direction, a nonvacuous Ward/preboundary cancellation,
+> an ordinary cotangent lift, and a finite Abelian BRST comparator. These are
+> not native symbol, physical quotient, or graded BV results. Separately, the actual trace-adapted native
+> eight-slot Shiab coefficient remains live on all ten metric owners.
+> PW2C intentionally does not identify those calculations as one actual Y14
+> tensor. PW2D must insert the literal full-K graph into the reconstructed
+> transported `Q_Cl` and metric blocks, Zorro--DeWitt curvature, and all eight native coefficient slots, then derive
+> the actual nonabelian tilted-source Ward/inverse-adjoint Green packet with
+> the explicit `Q_Cl` owner. PW3 remains blocked.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -42,8 +47,10 @@ updated_at: "2026-08-02"
 > result in
 > `explorations/pw2a-source-legal-moving-reduction-lift-2026-08-02.md`, and the
 > scoped PW2B result in
-> `explorations/pw2b-literal-native-source-composed-action-2026-08-02.md`.
-> Resume at `PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD`.
+> `explorations/pw2b-literal-native-source-composed-action-2026-08-02.md`, and
+> the scoped PW2C result in
+> `explorations/pw2c-literal-source-jacobian-moving-action-ward-2026-08-02.md`.
+> Resume at `PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

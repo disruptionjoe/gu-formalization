@@ -13,6 +13,8 @@ REGISTRY = ROOT / "lab/process/post-b2c15r3-multidisciplinary-council-next-ten-w
 REPORT = ROOT / "explorations/post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md"
 PW2B = ROOT / "lab/process/pw2b-literal-native-source-port.json"
 PW2B_ACTION = ROOT / "lab/process/pw2b-source-composed-action-order-registry.json"
+PW2C = ROOT / "lab/process/pw2c-literal-source-jacobian-full-k.json"
+PW2C_ACTION = ROOT / "lab/process/pw2c-moving-action-ward-bv-registry.json"
 
 
 class DuplicateKeyError(ValueError):
@@ -34,8 +36,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2B_ACTIVE_REAL_FORM_BRIDGE_AND_ORBIT_FIXTURE_PASS_PW2C_NEXT":
-        errors.append("status must record scoped PW2B pass and PW2C next")
+    if data.get("status") != "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_NEXT":
+        errors.append("status must record scoped PW2C pass and PW2D next")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -87,9 +89,9 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2B_ACTIVE_REAL_FORM_BRIDGE_AND_ORBIT_FIXTURE_PASS_PW2C_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2C_ACTIVE_GERM_AND_MOVING_ACTION_COMPARATOR_PASS_PW2D_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
-        errors.append("wave status frontier must record the scoped PW2B result/PW2C gate and keep PW3 blocked")
+        errors.append("wave status frontier must record the scoped PW2C result/PW2D gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
     if pw1_review.get("pre_assessment", {}).get("status") != "COMPLETE":
         errors.append("PW1 pre-assessment receipt incomplete")
@@ -126,6 +128,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2B hostile post-review retains must-fix items")
     if len(pw2b_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
         errors.append("PW2B hostile post-review rerun receipts missing")
+    pw2c_review = waves[1].get("pw2c_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2c_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2C pre-assessment receipt incomplete")
+    if pw2c_review.get("post_review", {}).get("status") != "COMPLETE":
+        errors.append("PW2C hostile post-review receipt incomplete")
+    if pw2c_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW2C hostile post-review retains must-fix items")
+    if len(pw2c_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
+        errors.append("PW2C hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -186,6 +197,8 @@ def main() -> None:
     data = load_registry()
     pw2b = json.loads(PW2B.read_text(), object_pairs_hook=unique_object)
     action = json.loads(PW2B_ACTION.read_text(), object_pairs_hook=unique_object)
+    pw2c = json.loads(PW2C.read_text(), object_pairs_hook=unique_object)
+    pw2c_action = json.loads(PW2C_ACTION.read_text(), object_pairs_hook=unique_object)
     failures = validate(data)
     if failures:
         raise AssertionError("\n".join(failures))
@@ -204,6 +217,7 @@ def main() -> None:
         "hostile specialist post-review",
         "## Execution checkpoint",
         "PW3 stays blocked",
+        "PW2D-ACTUAL-Y14-MOVING-COEFFICIENT-AND-SOURCE-WARD-ASSEMBLY",
         "P1/P2/P3 remain correctly unused",
         "constraint surplus",
     ]:
@@ -218,7 +232,15 @@ def main() -> None:
         raise AssertionError("PW2B action attainability scope drifted")
     if pw2b["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
         raise AssertionError("PW2B spent the external datum")
-    exact_checks += 3
+    if not pw2c["status"].startswith("PW2C_FIXED_QG_ACTIVE_SOURCE_ROOT"):
+        raise AssertionError("PW2C source-Jacobian scope drifted")
+    if not pw2c_action["status"].startswith("PW2C_STRUCTURAL_SOURCE_PULLBACK"):
+        raise AssertionError("PW2C moving-action scope drifted")
+    if pw2c["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
+        raise AssertionError("PW2C spent the external datum")
+    if pw2c_action["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
+        raise AssertionError("PW2C action spent the external datum")
+    exact_checks += 7
     exact_checks += len(data["specialist_lenses"])
     exact_checks += len(data["engineering_personas"])
     exact_checks += len(data["waves"])
@@ -238,6 +260,7 @@ def main() -> None:
         lambda d: d["waves"][1]["review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2a_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2b_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2c_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)
