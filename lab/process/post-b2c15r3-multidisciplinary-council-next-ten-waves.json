@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "SCAFFOLDED_NOT_EXECUTED",
+  "status": "PW1_CONDITIONAL_PASS_PW2_ENABLED",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -11,11 +11,15 @@
       "nonzero finite declared-port action response",
       "normalized ten-fibre section delta-current",
       "separate descended coefficient lift and no-leakage controls",
-      "exact demonstration that A1_Z1 can cancel A2_Z0"
+      "exact demonstration that A1_Z1 can cancel A2_Z0",
+      "PW1 canonical native-to-source complex extension and first-stage moving-J reverse reduction with the active-native identification separately open",
+      "PW1 exact fixed-projection curvature-return kill",
+      "PW1 full-unitary real-Krein mixed Omega0-plus-Omega1 supertranslation algebra, complex-center kill, and forced one-half algebraic affine representation",
+      "PW1 fail-closed exact selector algorithm scaffold"
     ],
     "open": [
-      "literal source-to-native real-form principal-bundle morphism",
-      "native moving Alt(T) and full first-jet owner",
+      "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
+      "native moving Alt(T), Phi_J, Dp_J, and full first-jet action owner",
       "complete effective order-two operator",
       "action-derived BV tangent differential and physical quotient",
       "functional observed Euler pushdown and no-leakage theorem",
@@ -24,8 +28,8 @@
       "one frozen no-refit joint physics construction"
     ],
     "datum": "P1/P2/P3 unchanged and unused by B2C15R3",
-    "guided_next": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
-    "alternative_next": "ECW3D-B2C15R4-NATIVE-ALT-SOURCE-BUNDLE-PORT-AND-FULL-EFFECTIVE-ORDER2-ASSEMBLY"
+    "guided_next": "PW2-FULL-FIRST-JET-ACTION-GRAPH-AND-EFFECTIVE-ORDER2-OPERATOR",
+    "alternative_next": "PW2-FULL-FIRST-JET-ACTION-GRAPH-AND-EFFECTIVE-ORDER2-OPERATOR"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -275,6 +279,7 @@
   "waves": [
     {
       "id": "PW1",
+      "status": "CONDITIONAL_PASS_PW2_ENABLED",
       "title": "Actual real-form port plus guided action-interface rendezvous",
       "depends_on": [],
       "objective": "construct or obstruct the literal source-to-native principal-bundle morphism and native legal Alt basis while the guided B2C2C path constructs the mixed-carrier action representation and Ward-owner interface",
@@ -298,10 +303,44 @@
       ],
       "route_if_killed": "retain two honest construction branches; an obstruction to source attribution does not kill the independent-native geometry",
       "ml_role": "rank exact legal candidates and choose discriminating patches; no learned verdict",
-      "exit": "one actual common port or an exact branch-separation theorem"
+      "exit": "one actual common port or an exact branch-separation theorem",
+      "review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": ["real-form/reductive geometry", "super-IG/variational Ward", "statistics/ML exact design"],
+          "preregistration_digest": "sha256:6485363c224c79150ab1ad16ea14fa9c039452a091aef8c16f76639be8714f04"
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": ["real-form/descent", "super-IG/variational Ward", "experiment leakage/integration"],
+          "must_fix": [],
+          "repaired": [
+            "two-stage source reduction versus active-native identification",
+            "operator-J versus coefficient-C Cech convention",
+            "curvature one-half wedge convention",
+            "unitary-center kill of complex bracket and real-Krein source replacement",
+            "algebraic odd coordinate versus physical-field map",
+            "independent-Euler logical plant versus written-action Ward computation",
+            "selector algorithm scaffold versus typed oracle",
+            "visible reserved controls versus sealed qualification bank",
+            "content-derived hashes, duplicate-content rejection, exact scalar validation, and payload cross-binding"
+          ],
+          "scoped_open": [
+            "global Y14 H-reduction and active P_nat isomorphism",
+            "physical iota_odd and complete written-action Ward/BV identity",
+            "full moving first jet, action graph, quotient, and domain"
+          ],
+          "rerun_digests": [
+            "sha256:68f22481591a8b590a8eea50fb7c2d9fec87e556ecb6829975060a05fb35e33e => 61 exact + 6 planted = 67 PASS",
+            "sha256:ba06a785986e6b22041ecfc9a0b1298680f49c3cdfa8b4a37487a03fe06f3326 => 26 exact + 11 planted = 37 PASS",
+            "sha256:55be3bb0364cd72ede3358d59e030a20d5d74b569379622158eeffa1cd3a7891 => 47 exact + 11 planted = 58 PASS"
+          ]
+        }
+      }
     },
     {
       "id": "PW2",
+      "status": "NEXT",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -329,6 +368,7 @@
     },
     {
       "id": "PW3",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Action-derived BV quotient and covariant phase space",
       "depends_on": ["PW2"],
       "objective": "derive the tangent differential, constraint/moment map, presymplectic current, and physical quotient from the completed action and compare its gauge image with the Jordan obstruction",
@@ -357,6 +397,7 @@
     },
     {
       "id": "PW4",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Global observation relation and minimal external-datum packet",
       "depends_on": ["PW3"],
       "objective": "turn the observation section, current, lift, domain component, and equation pushdown into one globally descended canonical/Green relation and measure the residual choice set",
@@ -385,6 +426,7 @@
     },
     {
       "id": "PW5",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Physical domain, constraint propagation, and evolution",
       "depends_on": ["PW3", "PW4"],
       "objective": "on the justified quotient and observation relation, construct a common Krein/Green domain and test ordinary Lorentz-section evolution, maximal dissipation, or an honest ultrahyperbolic boundary alternative",
@@ -413,6 +455,7 @@
     },
     {
       "id": "PW6",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Complete first-layer Einstein-Dirac and mixed-carrier action",
       "depends_on": ["PW2", "PW3", "PW5"],
       "objective": "complete JD, JF, the Hodge/Krein Riesz map, bridge-current choice, mixed-carrier Ward identity, and zero-order P0/rho/YK/YC/C-reality placement",
@@ -440,6 +483,7 @@
     },
     {
       "id": "PW7",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Second bosonic action, staged squares, and classical gauge-gravity equations",
       "depends_on": ["PW5", "PW6"],
       "objective": "construct the second action layer and test exact factorization into Einstein, Maxwell/Yang-Mills, distortion, and torsion/contorsion sectors on the same quotient and domain",
@@ -467,6 +511,7 @@
     },
     {
       "id": "PW8",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Higgs, Yukawa, vacuum, and protected-mode construction",
       "depends_on": ["PW6", "PW7"],
       "objective": "construct and compare the source-corrected ad-valued one-form, distortion, and trace-mode Higgs candidates through both action layers and solve one native stationary background",
@@ -495,6 +540,7 @@
     },
     {
       "id": "PW9",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Physical cohomology, generations, anomalies, and quantum consistency",
       "depends_on": ["PW6", "PW8"],
       "objective": "complete the rolled physical complex on the constructed quotient/domain, compute its cohomology and index, locate honest P1/P2/P3 uses, and test anomaly/BV consistency",
@@ -523,6 +569,7 @@
     },
     {
       "id": "PW10",
+      "status": "BLOCKED_ON_DEPENDENCIES",
       "title": "Frozen end-to-end physics legs, constraint surplus, and predictions",
       "depends_on": ["PW7", "PW8", "PW9"],
       "objective": "freeze one action, datum, observation, state, domain, and parameter packet; test all physics legs without refitting; compute quotient-aware constraint surplus and prospective cosmological/dark-sector predictions",
@@ -563,6 +610,18 @@
     "PW10"
   ],
   "parallelization_rule": "parallelize only sub-swings with disjoint mathematical owners and shared preregistered interfaces; merge at the named wave exit rather than by narrative synthesis",
+  "wave_review_protocol": {
+    "required": true,
+    "pre_assessment": "before construction, convene divergent relevant specialists, run Layer 0, inspect the Eric primary sources for any encountered Eric-lane obstruction, and freeze expected outcomes plus kill conditions",
+    "post_review": "after construction, convene hostile relevant specialists to attack semantics, source attribution, representation/descent, variational and PDE ownership, controls, and overclaiming; repair and rerun or record a scoped open boundary before commit",
+    "minimum_lenses": [
+      "Layer-0 object typing",
+      "source provenance",
+      "geometry or representation theory",
+      "variational/PDE or domain",
+      "verification leakage and hostile controls"
+    ]
+  },
   "constraint_surplus_rule": "surplus equals generic independent held-out physical response rank minus effective parameter dimension after quotienting gauge, field redefinitions, normalizations, boundary terms, and response-invisible directions",
   "ml_verification_pipeline": [
     "symmetry-reduced legal basis",
@@ -573,8 +632,8 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "No successor wave was executed.",
-    "No source-to-native bundle morphism, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
+    "PW1 was executed; PW2 and all later waves remain unexecuted.",
+    "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."
   ]

@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0",
+  "artifact": "PW1_TYPED_EXPERIMENT_REGISTRY",
+  "artifact_role": "SEARCH_SCHEDULER_NOT_SCIENTIFIC_EVIDENCE",
+  "status": "EXACT_SELECTOR_ALGORITHM_SCAFFOLD",
+  "candidate_kinds": [
+    "PORT",
+    "ALT",
+    "ACTION_INTERFACE"
+  ],
+  "disposition_vocabulary": [
+    "REJECTED_TYPE",
+    "EXACT_COUNTEREXAMPLE",
+    "SURVIVES_FINITE_FIXTURES",
+    "NOT_EVALUABLE"
+  ],
+  "candidates": [
+    {
+      "id": "PORT-MOVING-J",
+      "kind": "PORT",
+      "domain": "U(64,64) source bundle plus compatible J section",
+      "codomain": "Sp(32,32;H) reduction plus Phi_J",
+      "structure": ["Cech", "Krein", "right-H", "moving-projector"],
+      "owners": ["J", "A_H", "Phi_J"],
+      "coefficients": [],
+      "obligations": ["overlap", "curvature-return", "Dp_J", "global-reduction"],
+      "imported_disposition": "SURVIVES_FINITE_FIXTURES",
+      "evidence_ref": "PW1-A moving-J finite reduction fixture; global and active-native stages open"
+    },
+    {
+      "id": "PORT-COMPLEX-ONLY",
+      "kind": "PORT",
+      "domain": "complexified Cl(7,7) carrier",
+      "codomain": "complexified Cl(9,5) carrier",
+      "structure": ["complex-linear"],
+      "owners": ["complex Wick comparator"],
+      "coefficients": [],
+      "obligations": ["do not transport reality or action"],
+      "imported_disposition": "SURVIVES_FINITE_FIXTURES",
+      "evidence_ref": "PW1-A reduced complex Wick comparator"
+    },
+    {
+      "id": "PORT-FIXED-PROJECTOR",
+      "kind": "PORT",
+      "domain": "u(64,64) connection",
+      "codomain": "sp(32,32;H) connection",
+      "structure": ["fixed p_J"],
+      "owners": [],
+      "coefficients": [],
+      "obligations": ["Lie-map", "curvature"],
+      "imported_disposition": "EXACT_COUNTEREXAMPLE",
+      "evidence_ref": "PW1-A U(2,2)/Sp(1,1) coset-curvature witness"
+    },
+    {
+      "id": "ALT-GRADES-3-11",
+      "kind": "ALT",
+      "domain": "T*Y tensor Lambda2",
+      "codomain": "Lambda3 plus Lambda11",
+      "structure": ["Spin(9,5)", "right-H", "Krein"],
+      "owners": ["delta T", "moving J", "moving spin projector"],
+      "coefficients": ["c3", "c11"],
+      "obligations": ["equivariance", "Dp_J", "ratio-selection"],
+      "imported_disposition": "SURVIVES_FINITE_FIXTURES",
+      "evidence_ref": "B2C15P rank-364 Alt plus star-Alt certificate"
+    },
+    {
+      "id": "ACTION-MIXED-BETA-REAL-KREIN",
+      "kind": "ACTION_INTERFACE",
+      "domain": "Sym2_R(Omega0(S_R) plus Omega1(S_R))",
+      "codomain": "Omega1(u(K))",
+      "structure": ["real-bilinear Krein", "symmetric odd bracket", "full unitary center"],
+      "owners": ["Q_alg", "N"],
+      "coefficients": ["one-half affine coefficient"],
+      "obligations": ["equivariance", "super-Jacobi", "affine closure"],
+      "imported_disposition": "SURVIVES_FINITE_FIXTURES",
+      "evidence_ref": "PW1-B full u(2,2)-basis real-Krein bracket fixture"
+    },
+    {
+      "id": "ACTION-MIXED-BETA-NATIVE",
+      "kind": "ACTION_INTERFACE",
+      "domain": "moving-J native odd carrier",
+      "codomain": "Omega1(sp(32,32;H))",
+      "structure": ["right-H", "Krein", "moving reduction"],
+      "owners": ["J", "Dp_J", "Q_F", "Euler covectors", "boundary current"],
+      "coefficients": ["one-half affine coefficient"],
+      "obligations": ["bracket port", "action variation", "Ward", "Green"],
+      "imported_disposition": "NOT_EVALUABLE",
+      "evidence_ref": "PW1-B two-stage port and physical iota_odd/action Ward owners remain open"
+    }
+  ],
+  "response_axis_schema": [
+    "synthetic_type_axis",
+    "synthetic_curvature_axis",
+    "synthetic_bracket_axis",
+    "synthetic_affine_axis"
+  ],
+  "response_boundary": "the four response columns are synthetic algorithm-test axes and do not correspond to the six candidates or to a mathematical oracle",
+  "fixtures": [
+    {"id": "D-01-TYPE", "role": "DISCOVERY", "content_digest": "d17b99fcae42faa3d14011190e9c7b627df006332400a9c27300c214563f88e7", "response": [1, 0, 0, 0]},
+    {"id": "D-02-CURVATURE", "role": "DISCOVERY", "content_digest": "39527305a9306d9cd3a338d7b6d0b631b45e5802b31d8657a0185ecdb1fc0f7a", "response": [1, 1, 0, 0]},
+    {"id": "D-03-BRACKET", "role": "DISCOVERY", "content_digest": "17927589cc5379491de7f2ce953bc1e24a97f23fecc1605cb2b9cd0e9ebc68c2", "response": [0, 0, 1, 0]},
+    {"id": "D-04-AFFINE", "role": "DISCOVERY", "content_digest": "41066d61e0872ee8d8bf7046bf8f89af98b8cc4c171e396cc11eeacc7700d08e", "response": [0, 0, 1, 1]},
+    {"id": "D-05-CROSS", "role": "DISCOVERY", "content_digest": "b508a146d9ff6fe30d45bec7786b689a676d114e7faa32fb33bd668f08c938f4", "response": [1, 1, 1, 1]},
+    {"id": "R-01-MOVING", "role": "RESERVED_CONTROL", "content_digest": "f004f5dce028538d7f950286d36d15301dfd0f5e9d3439da9f74f9f02c20b146", "response": [1, 0, 1, 0]},
+    {"id": "R-02-WARD", "role": "RESERVED_CONTROL", "content_digest": "b3a0d17b20195f7a67677b3d506287260022ec3d5a0aa90f869ff6cd94457a85", "response": [0, 1, 0, 1]}
+  ],
+  "selection_rule": "greedily maximize exact rational rank gain; break ties by newly separated response-axis pairs and then stable fixture ID",
+  "selected_discovery_fixtures": [
+    "D-02-CURVATURE",
+    "D-01-TYPE",
+    "D-03-BRACKET",
+    "D-04-AFFINE"
+  ],
+  "reserved_control_rule": "reserved controls are visible and excluded by role; they are not sealed qualification data and cannot support prospective confirmation",
+  "future_qualification_freeze": "bind candidate/schema digest, discovery-selection digest, evaluation-code revision, thresholds, and qualification-content digest before revealing a fresh bank",
+  "reconstruction_rule": "future floating or learned proposals never pass directly; rational reconstruction followed by exact replay is mandatory, but PW1 implements no reconstruction model",
+  "future_executable_plant_backlog": [
+    "toy port relabeled native",
+    "complexification relabeled real isomorphism",
+    "scaled inclusion relabeled inverse",
+    "fixed projector relabeled connection port",
+    "raw dA substituted for curvature",
+    "raw Frobenius substituted for trace reversal",
+    "left-H substituted for right-H",
+    "exterior tens substituted for Sym2 fibre",
+    "dT substituted for j1T",
+    "physical nu identified with an odd generator",
+    "complex bracket relabeled native bracket",
+    "on-shell cancellation relabeled Ward identity",
+    "missing Euler or boundary owners",
+    "qualification leakage",
+    "duplicate fixture hash",
+    "permissive matcher",
+    "approximate rank used as exact rank",
+    "floating reconstruction accepted without replay"
+  ],
+  "executed_mutation_plants": [
+    "status promotion",
+    "evidence-role promotion",
+    "illegal disposition vocabulary",
+    "illegal candidate imported disposition",
+    "missing candidate owner",
+    "duplicate content digest",
+    "duplicate content under a different digest",
+    "nonintegral response scalar",
+    "reserved-control selection leakage",
+    "reconstruction-without-replay wording",
+    "missing future plant backlog"
+  ],
+  "next_use": "PW2 exact fixture scheduling after the complete legal action graph and candidate basis are frozen"
+}

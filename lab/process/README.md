@@ -38,12 +38,23 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw1-source-native-port-superig-interface.json` - PW1 machine-readable
+  reduction/action-interface certificate: canonical native-to-source complex
+  extension, two-stage conditional reverse port, exact fixed-projection
+  curvature kill, live `Phi_J/Dp_J` owners, real-Krein full-unitary mixed
+  super-IG algebra plus complex-center kill, open physical-field/Ward gate,
+  unchanged P1/P2/P3, and PW2 handoff.
+- `pw1-typed-experiment-registry.json` - fail-closed exact selector algorithm
+  scaffold over four declared synthetic axes, with visible reserved controls,
+  content-derived hashes, imported evidence dispositions, future prospective
+  freeze requirements, and no typed-oracle, scientific, or datum status.
 - `post-b2c15r3-multidisciplinary-council-next-ten-waves.json` - machine-readable
   thirteen-specialist and ten-engineering-persona assessment plus a
   dependency-checked ten-wave post-B2C15R3 construction scaffold. It keeps
   the independent-native, Eric-guided, and Curt-comparator roles distinct;
-  restricts ML and systems analogies to typed roles; and records that no
-  successor wave was executed.
+  restricts ML and systems analogies to typed roles; requires divergent
+  specialist pre-assessment and hostile post-review for every major wave; and
+  records PW1 complete with PW2 next.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.

@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. No successor wave is executed; no bundle port, physical quotient, analytic domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW1 CONDITIONAL PASS / PW2 ENABLED. Thirteen specialist lenses and ten inline engineering personas reorder the post-B2C15R3 construction into ten dependency-gated waves. PW1 establishes a canonical native-to-source complex extension, a first-stage moving-J source reduction with active-native identification separately open, an exact fixed-projection curvature-return kill, the full-unitary real-Krein mixed super-IG algebra plus complex-center kill, and a fail-closed exact selector algorithm scaffold. PW2 and later waves remain unexecuted; no global active-native port, physical quotient, analytic domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -247,11 +247,13 @@ nonphysical integration fixture running throughout.
 
 ## The next ten big waves
 
-No wave below was executed in this Run.
+PW1 received a conditional construction pass in the successor Run
+`RUN-20260802-142051-gu-formalization-pw1-port-interface`. PW2 and later waves
+remain unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
-| **PW1 — actual port and interface rendezvous** | In parallel, construct/obstruct the literal source-to-native real-form port and native legal `Alt` basis; construct B2C2C’s mixed-carrier action/Ward interface; bind both to one contract. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | One real port, or an exact theorem that the branches must remain separate. A source obstruction does not kill the independent-native construction. |
+| **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
 | **PW2 — full jet and effective operator** | Own `j1T`, moving `Alt/K`, the complete action graph, all Ward/Green returns, and `A2(2 partial Z1 + Z0) + A1 Z1` with moving coefficients. | Does the nonzero finite response survive the actual native port and complete ownership? | Complete operator/rank strata or the smallest exact missing-owner obstruction. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
@@ -304,9 +306,18 @@ terms, and response-invisible directions. Only then compute
 This is how a reverse-engineered fit can become informative rather than
 circular.
 
-## Explicit pause
+## Mandatory review protocol for every wave
 
-This artifact is the council result and the scaffold. It does not start PW1
-or any later swing. The next action, only after Joe resumes execution, is PW1:
-the actual real-form port plus the guided action-interface rendezvous.
+Every major wave uses divergent specialist pre-assessment before construction
+and hostile specialist post-review after the probes run. The pre-pass must run
+Layer 0, inspect the relevant Eric source material for any Eric-lane obstacle,
+and freeze expected outcomes and kill conditions. The post-pass attacks object
+typing, source attribution, representation/descent, variational/PDE ownership,
+test leakage, and overclaiming. Objections are repaired and rerun or retained
+as scoped open boundaries before commit.
 
+## Execution checkpoint
+
+PW1 has a conditional pass that enables PW2. The next wave is PW2: the full moving-(J), (\Phi_J),
+first-jet action graph and effective order-two operator. No PW2 or later wave
+was executed in the PW1 Run. P1/P2/P3 remain correctly unused.

@@ -32,8 +32,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "SCAFFOLDED_NOT_EXECUTED":
-        errors.append("status must remain SCAFFOLDED_NOT_EXECUTED")
+    if data.get("status") != "PW1_CONDITIONAL_PASS_PW2_ENABLED":
+        errors.append("status must be PW1_CONDITIONAL_PASS_PW2_ENABLED")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -85,6 +85,18 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "NEXT"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    if [wave.get("status") for wave in waves] != expected_statuses:
+        errors.append("wave status frontier must be PW1 conditional-pass and PW2 next")
+    pw1_review = waves[0].get("review_receipts", {}) if waves else {}
+    if pw1_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW1 pre-assessment receipt incomplete")
+    if pw1_review.get("post_review", {}).get("status") != "COMPLETE":
+        errors.append("PW1 hostile post-review receipt incomplete")
+    if pw1_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW1 hostile post-review retains must-fix items")
+    if len(pw1_review.get("post_review", {}).get("rerun_digests", [])) < 3:
+        errors.append("PW1 hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -117,9 +129,19 @@ def validate(data: dict[str, object]) -> list[str]:
         if token not in datum_rule:
             errors.append(f"datum anti-smuggling token missing: {token}")
 
+    review = data.get("wave_review_protocol", {})
+    if review.get("required") is not True:
+        errors.append("two-sided specialist review is not mandatory")
+    if "divergent" not in review.get("pre_assessment", ""):
+        errors.append("divergent pre-assessment missing")
+    if "hostile" not in review.get("post_review", ""):
+        errors.append("hostile post-review missing")
+    if len(review.get("minimum_lenses", [])) < 5:
+        errors.append("review lens floor missing")
+
     nonclaims = " ".join(data.get("nonclaims", []))
-    if "No successor wave was executed" not in nonclaims:
-        errors.append("explicit execution pause missing")
+    if "PW2 and all later waves remain unexecuted" not in nonclaims:
+        errors.append("explicit PW2 execution pause missing")
     return errors
 
 
@@ -146,8 +168,11 @@ def main() -> None:
         "### 7. ZK protocol and proof-circuit engineer",
         "### 10. Systems-integration and verification engineer",
         "## The next ten big waves",
-        "## Explicit pause",
-        "No wave below was executed in this Run.",
+        "## Mandatory review protocol for every wave",
+        "divergent specialist pre-assessment",
+        "hostile specialist post-review",
+        "## Execution checkpoint",
+        "No PW2 or later wave",
         "P1/P2/P3 remain correctly unused",
         "constraint surplus",
     ]:
@@ -169,6 +194,9 @@ def main() -> None:
         lambda d: d.update(ml_verification_pipeline=["neural verdict"]),
         lambda d: d.update(datum_rule="P1 selects everything"),
         lambda d: d["lanes"][2].update(rule="promote on TG-1"),
+        lambda d: d["waves"][1].update(status="COMPLETE"),
+        lambda d: d["wave_review_protocol"].update(required=False),
+        lambda d: d["waves"][0]["review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

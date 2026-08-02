@@ -13,11 +13,23 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW1 source/native port and mixed super-IG interface`](pw1-source-native-port-superig-interface-2026-08-02.md)
+  proves that the active native bundle extends canonically into the mixed-sign
+  complex source bundle, while the reverse direction first requires a
+  compatible moving quaternionic reduction `J` and then a separate
+  active-`P_nat`/Spin/DeWitt/Clifford/soldering identification. An exact
+  `U(2,2)/Sp(1,1)` witness kills fixed connection projection by its live
+  coset-curvature return; `Phi_J` and `Dp_J` become mandatory PW2 owners. The
+  full-unitary real-Krein mixed bracket and forced one-half algebraic affine
+  representation pass, while central `iI` kills the complex-bilinear route.
+  The physical odd-field map and written-action Ward identity remain open. An
+  exact selector algorithm scaffold is explicitly nonscientific. P1/P2/P3
+  remain unused.
 - [`Post-B2C15R3 multidisciplinary council and next-ten-wave scaffold`](post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md)
   uses thirteen mathematical/computational specialist lenses and ten inline
   build-oriented engineering personas to reorder the campaign without
-  executing a successor swing. It recommends an actual source/native
-  real-form port and guided B2C2C interface rendezvous, then full-jet operator
+  initially executing a successor swing. PW1 is now complete and advances the
+  scaffold to the full-jet operator
   closure, action-derived BV quotient, global observation/datum typing, and
   quotient-domain construction before the later physics layers. ML,
   statistics, counterfactuals, consensus, and proof systems are admitted only
