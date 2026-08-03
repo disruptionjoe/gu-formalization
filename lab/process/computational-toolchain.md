@@ -35,7 +35,7 @@ CAS decomposition to a physical count.
 | Python 3.14 + numpy / scipy / sympy | available | The 780-certificate harness. `requirements.txt`, pin-free by design. |
 | Lean 4.32.0-rc1 + mathlib | available | Finite proof kernels. Toolchain and mathlib revision both pinned. |
 | python-flint 0.9.0 (FLINT 3 / Arb) | **available** | Certified interval / ball arithmetic. `requirements-optional.txt`, hash-pinned. |
-| SageMath 10.9 | **NOT INSTALLED** | Lie-theoretic CAS. Cask fetched; `.pkg` needs an authorized install (below). |
+| SageMath 10.9 | **available** (2026-08-03) | Lie-theoretic CAS. App bundle at `/Applications/SageMath-10-9.app`; binary path below. |
 
 ### python-flint
 
@@ -50,21 +50,24 @@ Verified on Python 3.14 / macOS arm64. Unlike `requirements.txt`, this file is
 hash-pinned: certified-numerics certificates assert rigorous enclosures rather
 than exact identities, so the arithmetic backend is load-bearing for the claim.
 
-### SageMath — install is pending an authorized run
+### SageMath — installed 2026-08-03
 
-The Homebrew cask exists and the payload downloads, but it installs a `.pkg` that
-requires `sudo`; a non-interactive session cannot supply the password. It must be
-run from a terminal by the operator:
-
-```
-brew install --cask sage
-```
-
-The `sage` binary then lives inside the app bundle, not on `PATH`:
+Installed WITHOUT the `.pkg`/sudo route: the Homebrew cask stages the complete
+app bundle in the Caskroom, and only the optional `.pkg` step needs root. The
+bundle was verified working in place, copied to `/Applications` (admin-group
+writable, no sudo), and de-quarantined. The `sage` binary is not on `PATH`:
 
 ```
 /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/Current/venv/bin/sage
 ```
+
+Verified: `SageMath version 10.9, Release Date: 2026-05-04`, and a first live
+gate computation — FC-MULT's multiplicity of `V(omega_6)` in
+`V(omega_2) (x) V(omega_6)` for `D_7` returns **1** (dims 91/64 sanity-checked).
+That number confirms the reconstruction-grade multiplicity-1 assumption behind
+shiab uniqueness; FORMAL discharge of the gate still requires a committed
+certificate script plus the claim-status workflow — the number here is
+informational, not a filed result.
 
 Sage bundles Singular (Gröbner bases via `.groebner_basis()`) and can pull QEPCAD
 as an optional package, so it covers both the Lie-theory and the real-algebraic-
