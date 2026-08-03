@@ -105,3 +105,16 @@ only be standard-field and that gap is declared, not closed. Not GU-native
 operator status, not a derivation of three, not a packet field. At most: an
 exact statement about what a dynamical source can and cannot select at this
 rung, and a validated instrument.
+
+## Preregistered null hypothesis (added 2026-08-03, register M-H16)
+
+The null hypothesis for any dynamical-selection result at this rung is
+**|winding| = 1**: generic single-defect energetics select a unit wall, so the
+accessible count reduces entirely to the SUPPLIED multiplicity `N` and the run
+has demonstrated hosting, not selection (the Jackiw-Rebbi standard; see
+`explorations/imposed-wall-triplet-comparator-2026-07-26.md` and the
+literature-lens confirmation that the index is representation content in every
+published wall construction). A selection claim requires beating this null:
+the dynamics must pick `|winding| != 1` or an otherwise non-generic sector,
+target-blind. Reading a hosting result as selection is the Layer-0 failure
+this line preregisters against.
