@@ -1,6 +1,6 @@
 ---
 title: "Staging notes: Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)"
-status: "v1.0.0 post-ready; release engineering authorized"
+status: "v1.0.0 post-ready; release package verified"
 updated: "2026-08-03"
 ---
 
@@ -58,4 +58,6 @@ Lean kernel accompany the written proof.
 ## Current release boundary
 
 Joe approved TeX, PDF, metadata, and archive preparation after the clean final
-hostile passes. Public posting remains a separate explicit action.
+hostile passes. The resulting `zenodo-package-v1.0.0/` passed standalone
+source-archive checks and page-by-page PDF visual QA. Public posting remains a
+separate explicit action.

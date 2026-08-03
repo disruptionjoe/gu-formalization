@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it using this metadata."
+title: "Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32): Neutral, Grading-Even, and Extremal Order Parameters"
+type: article
+authors:
+  - family-names: Hernandez
+    given-names: Joseph
+    affiliation: Independent Researcher
+    email: joe@disruptionjoe.com
+date-released: 2026-08-03
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/disruptionjoe/gu-formalization"
+abstract: >-
+  Three finite-dimensional compact-image obstructions are proved for
+  stabilizers of continuously neutral vectors, grading-even operators, and
+  sign-matched extremal-weight vectors. The hypotheses are verified directly
+  for a hyperbolic grading in Sp(32,32), whose positive and negative adjoint
+  eigenspaces are 2080-dimensional abelian spaces of square-zero quaternionic
+  matrices. The paper separates continuous neutrality, discrete operator
+  parity, and extremal weight and states precise algebraic and physical scope
+  boundaries.
+keywords:
+  - compact-image obstruction
+  - Sp(32,32)
+  - quaternionic symplectic group
+  - hyperbolic grading
+  - parabolic grading
+  - extremal weight
+  - invariant inner product
+  - stabilizer

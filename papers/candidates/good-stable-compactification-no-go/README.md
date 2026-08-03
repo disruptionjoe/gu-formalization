@@ -33,3 +33,12 @@ public Zenodo deposit.
 
 The release package is built only from the source checkpoint named in its
 `SOURCE-COMMIT.txt`. Posting remains a separate user-approved action.
+
+## Release package
+
+- [`zenodo-package-v1.0.0/`](zenodo-package-v1.0.0/) contains the visually
+  verified PDF, standalone TeX, editable Markdown, clean-room-tested source
+  ZIP, copy-ready Zenodo metadata, saturation receipt, licenses, upload
+  checklist, and SHA-256 manifest.
+- The PDF is the required Zenodo default preview.
+- No public deposit or DOI assignment is implied by the package's presence.
