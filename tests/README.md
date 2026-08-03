@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b1_source_comoving_second_graph_probe.py` builds an
+  exact finite source `q/Gamma` split and one repository-derived co-moving
+  `h/theta1/Bhat2` graph. It verifies affine split identities, curvature
+  conjugacy, an independently assembled live `Bhat2`, frozen/commuting
+  controls, and direct versus two-term pullback Hessian agreement. It does not
+  compute the native C5/C4 or either `I1`/`I2B` Hessian. Run it with
+  `uv run --with sympy python`.
+- `channel-swings/pw2fr2b2b1_primary_source_collision_probe.py` re-pins the
+  primary-source corpus, keeps source epsilon separate from repository h,
+  and records the finite second graph as repository-derived. Run it with
+  `python3`.
 - `channel-swings/pw2fr2b2a_second_frechet_c4_graph_probe.py` reconstructs
   the exact rank-35 partial fixed-total-connection quartic comparator and its
   live moving-Shiab and `NONE/ANY/UNIQUE(kappa)` controls. It deliberately

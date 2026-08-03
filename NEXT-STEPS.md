@@ -2,10 +2,37 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-02"
+updated_at: "2026-08-03"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-03 PW2F-R2B2B1 SOURCE-SPLIT / CO-MOVING SECOND-GRAPH
+> PREREQUISITE PASS; COMPLETE C5/C4 STILL OPEN.** An exact finite
+> noncommutative chart now keeps `B_full=Gamma+q`, `T=varpi-q`, and
+> `A_total=Gamma+varpi` distinct in two connection components. Two source
+> tangent directions verify `deltaT=-deltaq` and
+> `deltaB_full=deltaGamma+deltaq`; the old `-deltaB_full` shortcut misses the
+> live `-deltaGamma` return.
+>
+> One repository-derived nilpotent `h=exp(u)` fixture then puts `Gamma`, `q`,
+> `varpi`, `B`, `T`, `A`, and curvature in a single co-moving frame. The
+> direct mixed derivative of `Bhat=h^-1 B h+h^-1 dh` agrees with an
+> independently assembled five-term `Bhat2` formula and is live; frozen and
+> commuting controls vanish. A finite off-shell action fixture verifies
+> `D2(S composed F)=J*H J+<E,D2F>` with a live second-graph return, while the
+> on-shell control reduces to `J*H J`.
+>
+> This does not identify source `epsilon` with repository `h`, instantiate the
+> right-`H`/Krein induced-`Y14` graph, determine differential order, or compute
+> either the source-directed `I1` or manuscript `I2B` Hessian. Resume at
+> `PW2F-R2B2B2-ACTUAL-NATIVE-SOURCE-GRAPH-COEFFICIENT-SLOTS-I1-I2B-C5-C4`:
+> port the dependency into the native 35-monomial pipeline, account for the
+> five coefficient slots, establish same-pipeline moving-Shiab liveness, and
+> compute complete C5 before C4 for the two actions separately. P1/P2/P3,
+> Curt, and the conjunctive third-lane gate are unchanged. The scoped result
+> is
+> `explorations/pw2fr2b2b1-source-comoving-second-graph-2026-08-03.md`.
 
 > **2026-08-02 PW2F-R2B2A PARTIAL QUARTIC COMPARATOR PASS; COMPLETE
 > SOURCE-COORDINATE C5/C4 BLOCKED.** R2B2A successfully reconstructs a

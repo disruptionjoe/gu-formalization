@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-02"
+updated_at: "2026-08-03"
 ---
 
 # Explorations
@@ -13,14 +13,24 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B1 source split and co-moving second-graph prerequisite`](pw2fr2b2b1-source-comoving-second-graph-2026-08-03.md)
+  constructs an exact finite `q/Gamma` source chart, proves the old
+  `-deltaB_full` shortcut misses a live `-deltaGamma` return, and builds one
+  repository-derived co-moving `h/theta1/Bhat2` second graph. Direct and
+  two-term pullback Hessians agree; the off-shell `E*D2F` return is live and
+  the on-shell control vanishes. This is not the native induced-`Y14` C5/C4
+  calculation or either `I1`/`I2B` Hessian. R2B2B2 owns that port and the five
+  coefficient slots. P1/P2/P3 remain unused; Curt and the third-lane gate are
+  unchanged.
 - [`PW2F-R2B2A partial moving-C4 comparator and source-tangent block`](pw2fr2b2a-second-frechet-c4-graph-2026-08-02.md)
   reconstructs an exact rank-35 fixed-total-connection quartic bank with
   dense held-outs, raw moving-Shiab liveness control, and guarded `kappa`
   classifier; same-pipeline contracted-bank liveness remains open.
   Hostile review blocks complete-C4 promotion because the corrected
   `deltaT=-deltaq` tangent, one co-moving frame, `h/theta1/Bhat2` second graph,
-  and five coefficient slots remain unbuilt. R2B2B owns that construction;
-  `I1` and `I2B` remain separate. P1/P2/P3 remain unused.
+  and five coefficient slots remain unbuilt. R2B2B1 now supplies only a
+  finite source-split/second-graph prerequisite; R2B2B2 owns the actual native
+  construction. `I1` and `I2B` remain separate. P1/P2/P3 remain unused.
 - [`PW2F-R2B1 source-coordinate and section-JVP prerequisite`](pw2fr2b1-section-jvp-source-coordinate-2026-08-02.md)
   corrects the literal fixed-`varpi` tangent, differentiates the normal-frame
   section/Zorro identity as one graph, proves first-JVP ownership insufficient

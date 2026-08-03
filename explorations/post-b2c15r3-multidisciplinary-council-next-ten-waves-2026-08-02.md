@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2A PARTIAL COMPARATOR / PW2F-R2B2B NEXT. R2B2A builds an exact rank-35 fixed-total-connection quartic comparator, but hostile review blocks complete C4 because the corrected source tangent, co-moving frame, h/theta1/Bhat2 second graph, and five coefficient slots remain unbuilt. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B1 FINITE SOURCE-SPLIT / CO-MOVING SECOND-GRAPH PREREQUISITE. R2B2B1 constructs an exact finite q/Gamma chart and a live repository-derived Bhat2 with two-term off-shell Hessian control, but it does not instantiate the native induced-Y14 graph or compute complete C5/C4, the five coefficient slots, or the separate I1/I2B Hessians. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -291,13 +291,19 @@ extractor. R2B2A used that extractor successfully, but hostile review found
 that its evaluator had reverted to a fixed-total-connection tangent, omitted
 the dynamic `h/theta1/Bhat2` second graph and five coefficient slots, and did
 not place every bank in one co-moving frame. The exact partial comparator is
-retained; complete source-coordinate `C5/C4` is blocked. PW3 and later waves
-remain unexecuted.
+retained. R2B2B1 now supplies a finite exact source split and one
+repository-derived noncommuting co-moving second-graph witness: the direct
+`Bhat2` matches an independent assembly, frozen/commuting controls vanish,
+and the direct pullback Hessian equals `J*H J+<E,D2F>` with a live off-shell
+return and zero on-shell control. The actual right-H/Krein induced-Y14 graph,
+complete source-coordinate `C5/C4`, five coefficient slots, same-pipeline
+moving liveness, and separate `I1/I2B` Hessians remain open. PW3 and later
+waves remain unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — PW2F-R2B2A PARTIAL COMPARATOR / PW2F-R2B2B REQUIRED** | R2B2A reconstructs the 35-monomial fixed-total-connection `J*H_action*J` bank, evaluates eight moving-Shiab slots, and installs live moving-Shiab plus `NONE/ANY/UNIQUE(kappa)` controls. Hostile review blocks promotion: source fixed-`(epsilon,varpi)` needs `deltaT=-deltaq`, not the computed `-Ad(h^-1)deltaB`; the second orbit, five coefficient slots, and co-moving frame are open. | Does the correct `q/Gamma` split and dynamic second graph preserve, cancel, or alter the partial quartic bank in both `I1` and `I2B`? | PW2F-R2B2B builds the source-coordinate tangent and one co-moving `h/theta1/Bhat2` graph, accounts for all coefficient slots, and compares vary-upstairs with restrict-first. Lower-order debt carries forward. |
+| **PW2 — full jet and effective operator — PW2F-R2B2B1 FINITE PREREQUISITE / PW2F-R2B2B2 REQUIRED** | R2B2A reconstructs the 35-monomial fixed-total comparator. R2B2B1 separately constructs a finite exact `q/Gamma` chart and a live repository-derived co-moving `Bhat2`, proving that the first-JVP-only off-shell Hessian misses `E*D2F`. The native induced-Y14 port and differential order remain uncomputed. | Does the actual right-H/Krein source graph preserve, cancel, or alter the partial quartic bank after all coefficient slots are included in both `I1` and `I2B`? | PW2F-R2B2B2 ports the dependency into the native 35-monomial pipeline, accounts for all coefficient slots, proves same-pipeline moving liveness, computes complete C5 before C4, and compares both actions separately. Lower-order debt carries forward. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -399,6 +405,7 @@ The abstract Hessian witness leaves second-graph terms uncontrolled; it does
 not prove all fourteen candidates are nonzero or degree four. R2B2A's exact
 rank-35 comparator and held-outs pass, but its fixed-total-connection tangent
 is not the corrected source tangent and its dynamic second graph is absent.
-The next gate is
-`PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4`.
+R2B2B1 now verifies the source split and a finite co-moving second-graph
+prerequisite without promoting it to the native operator. The next gate is
+`PW2F-R2B2B2-ACTUAL-NATIVE-SOURCE-GRAPH-COEFFICIENT-SLOTS-I1-I2B-C5-C4`.
 PW3 stays blocked. P1/P2/P3 remain correctly unused.

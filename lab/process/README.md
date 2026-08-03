@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-02"
+updated_at: "2026-08-03"
 ---
 
 # Process
@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b1-source-comoving-second-graph-registry.json` - PW2F-R2B2B1
+  prerequisite ledger: records the exact finite `q/Gamma` split, the live
+  `-deltaGamma` shortcut defect, one-frame affine/homogeneous transport, an
+  independently assembled live `Bhat2`, and the off-shell two-term Hessian
+  return. It explicitly leaves the native induced-`Y14` C5/C4, five
+  coefficient slots, same-pipeline moving liveness, and separate `I1`/`I2B`
+  Hessians open for R2B2B2.
 - `pw2fr2b2a-second-frechet-c4-graph-registry.json` - PW2F-R2B2A ledger:
   preserves the exact rank-35 partial fixed-total-connection comparator while
   recording the hostile complete-C4 block: source-coordinate `q/Gamma` split,
