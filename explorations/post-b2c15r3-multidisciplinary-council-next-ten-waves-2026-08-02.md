@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2E SCOPED PASS / PW2F NEXT. Thirteen specialist lenses and ten inline engineering personas order the construction into dependency-gated waves. PW2E constructs the finite active grade-3/11 Shiab on three exact branches, proves symbolic three-patch coefficient and affine B+K descent, and corrects the active projector to invariant rank 8256 with a 91-dimensional bivector sector. The mixed inventory verifies all eight moving-Shiab slots, rank ten across ten metric owners, the induced-Y14 Levi-Civita graph, and a structural fixed-varpi adjoint/Green certificate. Exact live top-order terms cancel in the inherited fixture, so possible fourth-jet sensitivity is not actual native necessity. PW2F must compose the native top-order metric coefficient and all Green returns first, then build a fourth-order family only if a nonzero term survives. Public port, action Euler descent, metric Ward evaluation, analytic domain, BV/BFV, physical quotient, and physics recovery remain open."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2F HOSTILE CORRECTION / PW2F-R NEXT. Thirteen specialist lenses and ten inline engineering personas order the construction into dependency-gated waves. PW2F proves zero alternation for all 140 LC symbol columns, but hostile review found an omitted derived-K summand live on 129 columns and non-skew vertical/mixed C3 contributions of ranks ten and five. The structural affine theorem, selected horizontal fixed-h/fixed-Shiab rank-seven C2 panel, raw moving-Shiab rank-ten bank, and formal diffeomorphism schema survive at narrowed grades. Complete derived-K top order, full skew Y14 C3, native Green/Ward, lower C2, public port, domain, quotient, and physics remain open."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -278,13 +278,15 @@ PW1 received a conditional construction pass in the successor Run
 `RUN-20260802-142051-gu-formalization-pw1-port-interface`. PW2 then executed in
 `RUN-20260802-152647-gu-formalization-pw2-first-jet-action` and returned the
 automatic-source-integrability obstruction below. The PW2A--PW2E continuation
-has now closed the finite local active operator/descent gate and isolated the
-native metric-composition gate. PW3 and later waves remain unexecuted.
+closed the finite local active operator/descent portion. PW2F's hostile review
+reopened the claimed highest metric-order gate with exact counterexamples and
+isolated the complete derived-K/full-Y14-C3 burden. PW3 and later waves remain
+unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — SCOPED PW2E PASS / PW2F REQUIRED** | PW2E constructs the finite active Shiab and exact three-patch descent, with an invariant rank-8256 projector and 91-dimensional bivector sector. It inventories all eight moving-Shiab metric slots, rank ten across ten owners, and the actual induced-Y14 LC graph. The inherited fixed-varpi comparator has live top-order terms that cancel. | Does the complete native top-order metric composition survive after every `D_g Gamma`, `D_g h`, literal `D_g K`, Shiab, lowerer, density, and Green contribution is included? | PW2F computes that coefficient first and constructs a fourth-order family only if it survives; public-bundle, action-Euler descent, analytic-domain, graded-BV, and physical-quotient burdens remain. |
+| **PW2 — full jet and effective operator — PW2F HOSTILE CORRECTION / PW2F-R REQUIRED** | PW2F proves the 140-column LC-alternation subroute. Hostile review constructs the omitted derived-K summand on 129 columns and rank-ten/rank-five non-skew vertical/mixed C3 contributions. The horizontal fixed-h/fixed-Shiab rank-seven C2 panel and raw moving-Shiab rank-ten bank remain uncomposed. | Does the complete derived-K plus all total-to-base metric paths cancel or retain fourth order, and does the fully summed Y14 C3 satisfy Helmholtz skewness? | PW2F-R completes top order and C3. Only then may PW2G compute lower C2 and literal native Ward. Public-bundle, domain, BV, quotient, observation, and physics burdens remain. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -350,16 +352,19 @@ as scoped open boundaries before commit.
 
 PW1 conditionally enabled PW2. The PW2A--PW2D continuations supplied the
 co-moving mechanism, active bridge, source-root/full-connection controls, and
-fixed-metric action. PW2E now closes the finite local active-operator and
+fixed-metric action. PW2E closes the finite local active-operator and
 three-patch descent portion: the full-basis active projector is invariant with
 rank 8256, its bivector sector has dimension 91, and the Shiab moves through
 the trace/Phi/Hodge family. All eight actual moving-Shiab metric slots are live,
 their 544-by-10 coefficient has rank ten, and the induced-Y14 LC graph has rank
-ten on both nonnull and null covectors. This is not yet their action-Euler
-composition. The inherited fixed-varpi fixture contains live fixed-A and
-Gamma-adjoint top-order terms that cancel exactly, while a derived scalar
-action shows only that fourth-jet sensitivity is possible. The next gate is
-`PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD`: compose every
-native top-order and Green return first, derive the formal diffeomorphism
-schema in parallel, and build a fourth-order family only if a coefficient
-survives. PW3 stays blocked. P1/P2/P3 remain correctly unused.
+ten on both nonnull and null covectors. PW2F then attempted the highest-order
+composition. Its LC-alternation theorem is exact, but hostile review found that
+it omitted a live `delta K` summand on 129 of 140 columns. It also found that
+the seven horizontal zero contribution does not extend to full Y14: `e10` and
+`e0+e10` give non-skew contributions of ranks ten and five. Those cannot be a
+complete variational C3 and force the missing transpose, graph, coefficient,
+and Green paths. The structural affine theorem, formal diffeomorphism schema,
+rank-seven selected C2 panel, and raw rank-ten moving bank survive only at
+their narrowed grades. The next gate is
+`PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION`.
+PW3 stays blocked. P1/P2/P3 remain correctly unused.

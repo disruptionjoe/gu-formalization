@@ -38,6 +38,16 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2f-native-top-order-metric-ward-registry.json` - PW2F hostile-corrected
+  ledger: all 140 Levi-Civita alternation columns vanish, but an omitted
+  derived-K summand is live on 129 and held-out vertical/mixed non-skew C3
+  contributions force complete top-order/Helmholtz assembly. It preserves the
+  narrowed rank-seven/rank-ten banks, structural affine theorem, and formal
+  diffeomorphism schema.
+- `pw2f-primary-source-collision-manifest.json` - fail-closed PW2F source
+  manifest with author-PDF custody, full-file and exact locator-slice hashes,
+  scoped absence-search evidence, typed source/repo objects,
+  `SOURCE-CONFIRMS/CORRECTS/SILENT` dispositions, and anti-collapse controls.
 - `pw2e-finite-native-shiab-descent.json` - PW2E exact finite active grade-3/11
   Shiab, full-basis invariant rank-8256 projector, 91-dimensional bivector
   sector, symbolic three-patch coefficient/affine-connection descent,

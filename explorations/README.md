@@ -13,14 +13,22 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F active-native top-order metric composition and diffeomorphism-Ward schema`](pw2f-native-top-order-metric-ward-2026-08-02.md)
+  proves zero alternation for all 140 induced-Y14 Levi-Civita symbol columns,
+  then records the hostile correction: an omitted derived-K term is live on
+  129 columns, while held-out vertical and mixed conormals give non-skew C3
+  contributions of ranks ten and five. The structural affine theorem, selected
+  horizontal rank-seven C2 panel, raw moving-Shiab rank-ten bank, and formal
+  diffeomorphism schema survive at narrowed grades. PW2F-R must complete top
+  order and the full skew Y14 C3 before lower C2. P1/P2/P3 remain unused.
 - [`PW2E finite active Shiab descent and mixed metric-Ward readiness`](pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md)
   constructs the finite active grade-3/11 Shiab on exact elliptic, hyperbolic,
   and Hodge-null branches; proves symbolic three-patch coefficient and affine
   `B+K` descent; and corrects the active projector to invariant rank 8256 with
   a 91-dimensional bivector sector. All eight moving-Shiab metric slots and ten
-  metric owners are live, but their actual action-Euler composition is open.
-  PW2F computes the complete top-order coefficient before conditionally
-  constructing a fourth-order family. P1/P2/P3 remain unused and PW3 is blocked.
+  metric owners are live. PW2F's hostile review shows that the highest-order
+  action-Euler question remains open through the complete derived-K route.
+  P1/P2/P3 remain unused and PW3 is blocked.
 - [`PW2D fixed-metric action jet and structural residual right Ward`](pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md)
   corrects the transported-owner sign and independently finds zero grade-
   projector motion but live Q/Phi-family motion on the actual B2C15P fixture.

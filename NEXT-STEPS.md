@@ -7,31 +7,27 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 SCOPED PW2E PASS; PW2F NATIVE TOP-ORDER COMPOSITION GATE NEXT.**
-> PW2E constructs the finite active grade-3/11 Shiab on exact elliptic,
-> hyperbolic, and Hodge-null branches. The generator obeys `u^2=-Delta`; all
-> branches preserve right-`H`, Krein, and `C+`. A full 16,384-blade check on
-> each branch corrects the tested projector to invariant rank `8256`, with a
-> distinct `91`-dimensional bivector sector. Shiab motion comes from the
-> trace/Phi/Hodge family, not projector motion.
-> A nonconstant three-patch active Spin fixture now has symbolic sparse Shiab
-> descent, tensorial literal `K`, and the correct affine `B+K` law. A
-> transported complete coefficient has invariant scalar pairing `9/64`; the
-> separate `91`-dimensional calculation proves a representation-covector law,
-> not actual action-Euler descent.
-> The metric inventory recomputes all eight moving-Shiab slots, a `544x10`
-> rank-ten coefficient, four live frozen pairings, and rank-ten actual
-> induced-`Y14` LC graphs on null and nonnull covectors. The inherited
-> fixed-`varpi` chain-rule/Green result is exact only in its structural 1D
-> fixture, not the native `1274x10` composition. It supplies a crucial control:
-> live fixed-`A` and Gamma-adjoint third-jet terms cancel exactly.
-> A derived scalar action shows fourth-jet sensitivity is possible, not
-> necessary. PW2F must first assemble the actual top-order `D_g Gamma`,
-> `D_g h`, `D_g K`, eight Shiab slots, distortion-norm Hodge,
-> density/Krein/pairing, and every Green contribution. Construct `D3G` only if
-> a nonzero term survives. Derive the formal diffeomorphism Noether schema in
-> parallel and evaluate its native rank only after composition. PW3 remains
-> blocked.
+> **2026-08-02 PW2F HOSTILE CORRECTION; PW2F-R COMPLETE TOP-ORDER GATE NEXT.**
+> PW2F proves that all `14 x 10 = 140` induced-`Y14` Levi-Civita symbol
+> columns have zero total alternation. Hostile review then caught the missing
+> object: for `K=h^-1 D_B h`, the separate
+> `(Ad_(h^-1)-1)D_gB` term is live on `129/140` exact Hodge-null columns, while
+> moving reduction/Alt/internal-Hodge contributions remain unassembled.
+> Therefore the complete base-fourth coefficient is open and `D3G` is neither
+> built nor retired.
+> On the selected seven horizontal conormals, one bare connection-incidence
+> contribution vanishes and a fixed-h/fixed-Shiab synthetic-source `7x10`
+> C2 bank has rank seven. Held-out `e10` and `e0+e10` instead give rank-ten and
+> rank-five non-skew C3 contributions. They prove the full `Y14` sum is missing
+> transpose/graph/coefficient-motion paths and must be skew after complete
+> Helmholtz assembly. The separate raw moving-Shiab `544x10` bank remains rank
+> ten but is uncomposed. FLINT certifies rational rank seven; rigorous Arb
+> excludes zero from an interval enclosing a selected multiradical minor.
+> A formal natural-lift diffeomorphism-Noether/Green schema now passes with a
+> live metric owner and current. It remains distinct from the internal Ward and
+> `Xi=D Upsilon`, but it is only a structural 1D comparator. PW2F-R must
+> assemble the complete derived-K top order and full skew `Y14` C3 before PW2G
+> may compute lower C2 and the literal native Ward. PW3 remains blocked.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -55,9 +51,11 @@ updated_at: "2026-08-02"
 > and the scoped PW2D result in
 > `explorations/pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md`,
 > and the scoped PW2E result in
-> `explorations/pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md`.
+> `explorations/pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md`, and
+> the scoped PW2F result in
+> `explorations/pw2f-native-top-order-metric-ward-2026-08-02.md`.
 > Resume at
-> `PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD`.
+> `PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

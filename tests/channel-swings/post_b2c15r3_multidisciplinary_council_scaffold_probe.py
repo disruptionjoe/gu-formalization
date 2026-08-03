@@ -19,6 +19,7 @@ PW2D = ROOT / "lab/process/pw2d-native-transported-shiab-action.json"
 PW2D_WARD = ROOT / "lab/process/pw2d-right-tilted-ward-green-registry.json"
 PW2E = ROOT / "lab/process/pw2e-finite-native-shiab-descent.json"
 PW2E_METRIC = ROOT / "lab/process/pw2e-mixed-metric-frechet-native-ward-registry.json"
+PW2F = ROOT / "lab/process/pw2f-native-top-order-metric-ward-registry.json"
 
 
 class DuplicateKeyError(ValueError):
@@ -40,8 +41,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2E_FINITE_ACTIVE_DESCENT_AND_MIXED_OWNER_INVENTORY_PASS_PW2F_TOP_ORDER_COMPOSITION_NEXT":
-        errors.append("status must record scoped PW2E pass and PW2F next")
+    if data.get("status") != "PW2F_HOSTILE_CORRECTION_LC_SUBROUTE_PASS_COMPLETE_DELTAK_AND_FULL_Y14_C3_OPEN_PW2F_R_NEXT":
+        errors.append("status must record the PW2F hostile correction and PW2F-R next")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -93,9 +94,9 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2E_FINITE_ACTIVE_DESCENT_AND_MIXED_OWNER_INVENTORY_PASS_PW2F_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2F_HOSTILE_CORRECTION_COMPLETE_DELTAK_AND_FULL_Y14_C3_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
-        errors.append("wave status frontier must record the scoped PW2E result/PW2F gate and keep PW3 blocked")
+        errors.append("wave status frontier must record the hostile-corrected PW2F/PW2F-R gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
     if pw1_review.get("pre_assessment", {}).get("status") != "COMPLETE":
         errors.append("PW1 pre-assessment receipt incomplete")
@@ -159,6 +160,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2E hostile post-review retains must-fix items")
     if len(pw2e_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
         errors.append("PW2E hostile post-review rerun receipts missing")
+    pw2f_review = waves[1].get("pw2f_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2f_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2F pre-assessment receipt incomplete")
+    if pw2f_review.get("post_review", {}).get("status") not in {"COMPLETE", "COMPLETE_AFTER_REPAIR"}:
+        errors.append("PW2F hostile post-review receipt incomplete")
+    if pw2f_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW2F hostile post-review retains must-fix items")
+    if len(pw2f_review.get("post_review", {}).get("rerun_receipts", [])) < 5:
+        errors.append("PW2F hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -225,6 +235,7 @@ def main() -> None:
     pw2d_ward = json.loads(PW2D_WARD.read_text(), object_pairs_hook=unique_object)
     pw2e = json.loads(PW2E.read_text(), object_pairs_hook=unique_object)
     pw2e_metric = json.loads(PW2E_METRIC.read_text(), object_pairs_hook=unique_object)
+    pw2f = json.loads(PW2F.read_text(), object_pairs_hook=unique_object)
     failures = validate(data)
     if failures:
         raise AssertionError("\n".join(failures))
@@ -243,7 +254,7 @@ def main() -> None:
         "hostile specialist post-review",
         "## Execution checkpoint",
         "PW3 stays blocked",
-        "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD",
+        "PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION",
         "P1/P2/P3 remain correctly unused",
         "constraint surplus",
     ]:
@@ -290,7 +301,21 @@ def main() -> None:
         raise AssertionError("PW2E promoted possible fourth-jet sensitivity")
     if not pw2e["external_datum"].startswith("P1/P2/P3 UNCHANGED AND UNUSED") or not pw2e_metric["external_datum"].startswith("P1/P2/P3 UNCHANGED AND UNUSED"):
         raise AssertionError("PW2E spent the external datum")
-    exact_checks += 19
+    if not pw2f["status"].startswith("PW2F_HOSTILE_REVIEW_CORRECTION"):
+        raise AssertionError("PW2F hostile-corrected scope drifted")
+    if not pw2f["result"]["base_fourth_metric_coefficient"].startswith("OPEN_AFTER_HOSTILE_REVIEW"):
+        raise AssertionError("PW2F fourth-order open boundary drifted")
+    if "RANK10" not in pw2f["result"]["held_out_metric_third_contributions"]:
+        raise AssertionError("PW2F held-out vertical C3 witness drifted")
+    if pw2f["result"]["selected_curvature_input_bank"]["exact_rank"] != 7:
+        raise AssertionError("PW2F selected C2 rank drifted")
+    if pw2f["result"]["moving_shiab_coefficient_bank"]["exact_rank"] != 10:
+        raise AssertionError("PW2F moving coefficient rank drifted")
+    if pw2f["diffeomorphism_ward"]["status"] != "STRUCTURAL_1D_FORMAL_NATURAL_LIFT_NOETHER_AND_GREEN_SCHEMA_PASS_NATIVE_EVALUATION_OPEN":
+        raise AssertionError("PW2F Ward scope drifted")
+    if pw2f["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
+        raise AssertionError("PW2F spent the external datum")
+    exact_checks += 25
     exact_checks += len(data["specialist_lenses"])
     exact_checks += len(data["engineering_personas"])
     exact_checks += len(data["waves"])
@@ -313,6 +338,7 @@ def main() -> None:
         lambda d: d["waves"][1]["pw2c_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2d_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2e_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2f_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

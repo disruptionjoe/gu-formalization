@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.1",
+  "status": "PW2F_FAIL_CLOSED_SOURCE_COLLISIONS_WITH_PRIMARY_CUSTODY_AND_SCOPED_ABSENCE_RECEIPT",
+  "corpus_version": "2026-08-02-PW2F-HOSTILE-REPAIR",
+  "authority_policy": "A repository transcription is never itself called primary. Draft claims require the official author-PDF SHA plus the rendered/manual custody receipt; transcript claims retain their stated official, automated, or editorial grade.",
+  "allowed_dispositions": [
+    "SOURCE-CONFIRMS",
+    "SOURCE-CORRECTS",
+    "SOURCE-SILENT"
+  ],
+  "primary_draft_custody": {
+    "title": "Eric Weinstein, Geometric Unity: Author's Working Draft v1.0, 2021-04-01",
+    "official_url": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf",
+    "pdf_sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+    "render_receipt_path": "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+    "render_receipt_sha256": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
+    "checked_pages": [43, 44, 45, 46, 47, 48, 55, 56, 57, 58],
+    "grade": "AUTHOR_PRIMARY_PDF_WITH_RENDERED_MANUAL_TRANSCRIPTION_RECEIPT"
+  },
+  "scoped_absence_search": {
+    "grade": "REPOSITORY_SEARCH_RECEIPT_NOT_GLOBAL_ABSENCE_PROOF",
+    "searched_files": [
+      {
+        "path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+        "sha256": "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f"
+      },
+      {
+        "path": "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+        "sha256": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4"
+      },
+      {
+        "path": "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+        "sha256": "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24"
+      },
+      {
+        "path": "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+        "sha256": "bd9f53ab7dc631fb01265c7a89893a773592e6a1215211b21a5833cc5cd4165d"
+      }
+    ],
+    "query_families": [
+      "complete active metric Frechet coefficient or cancellation/rank",
+      "diffeomorphism Noether identity and current",
+      "D_varpi odot_omega or identity of odot_epsilon with odot_omega",
+      "exact density, Krein-Riesz, lowerer, boundary, and Green motions",
+      "simultaneous epsilon and metric variation policy"
+    ],
+    "scope_caveat": "SOURCE-SILENT means absent from these exact local surfaces under these semantic queries. It is not a claim about all recordings, private notes, unpublished formulas, or every paraphrase, and it closes no construction blocker."
+  },
+  "rows": [
+    {
+      "id": "PW2F-SRC-01-WGS01-FIRST-ACTION-GRAMMAR",
+      "claim_ledger_id": "WGS-01",
+      "source_path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "file_sha256": "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f",
+      "line_start": 68,
+      "line_end": 112,
+      "slice_sha256": "a2dd63c96c5258f50294c076cb2ca730b6351d1e6c166a6e3de061f530cf6521",
+      "locator": "normalized transcription of author draft Section 9.1, equations 9.1-9.7; authority supplied by primary_draft_custody",
+      "evidence_grade": "NORMALIZED_TRANSCRIPTION_BACKED_BY_AUTHOR_PDF_CUSTODY",
+      "required_tokens": [
+        "I^B_1",
+        "T_\\omega",
+        "F_{B_\\omega}",
+        "\\frac12d_{B_\\omega}T_\\omega",
+        "\\frac13[T_\\omega,T_\\omega]",
+        "\\left\\langle",
+        "\\kappa_1"
+      ],
+      "disposition": "SOURCE-CONFIRMS",
+      "layer_zero_source_object": "written bosonic first-action grammar, including a formal pairing and Hodge star, in source coordinates (epsilon,varpi,g)",
+      "repository_object": "active-local normalized first-action fixture with separately constructed metric/Krein/lowerer motions",
+      "collision": "The primary-custody-backed transcription confirms the written grammar only. It does not identify the active real-form implementation or source the exact density, Krein-Riesz, lowerer, boundary, or Green motions."
+    },
+    {
+      "id": "PW2F-SRC-02-WGS04-XI",
+      "claim_ledger_id": "WGS-04",
+      "source_path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "file_sha256": "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f",
+      "line_start": 211,
+      "line_end": 234,
+      "slice_sha256": "0b8924f57c1954972886f11873340f3bf651a7ae19328c559c94436fbe0f58f7",
+      "locator": "normalized transcription of author draft equations 9.5-9.6; authority supplied by primary_draft_custody",
+      "evidence_grade": "NORMALIZED_TRANSCRIPTION_BACKED_BY_AUTHOR_PDF_CUSTODY",
+      "required_tokens": [
+        "\\Xi_\\omega=D_\\omega\\Upsilon_\\omega",
+        "redundant",
+        "not automatically the gauge Noether identity"
+      ],
+      "disposition": "SOURCE-CORRECTS",
+      "layer_zero_source_object": "displayed Euler redundancy/cohomology relation",
+      "repository_object": "diffeomorphism Noether identity with metric Euler owner and Green current",
+      "collision": "Xi=D Upsilon cannot be renamed as the diffeomorphism Ward or BV identity."
+    },
+    {
+      "id": "PW2F-SRC-03-WGA05-TRACE-REVERSAL",
+      "claim_ledger_id": "WG-A05-WG-A07",
+      "source_path": "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+      "file_sha256": "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24",
+      "line_start": 126,
+      "line_end": 138,
+      "slice_sha256": "fe7632c01db56382af3b552bc01cae524968f67445407d1968865905d3118195",
+      "locator": "local automated TOE transcript 00:26:28-00:29:16",
+      "evidence_grade": "LOCAL_AUTOMATED_TRANSCRIPT",
+      "required_tokens": [
+        "3,7 metric on the fiber, which can't work",
+        "trace reversal of the Frobenius metric",
+        "The trace reversed ones remain in the game"
+      ],
+      "disposition": "SOURCE-CORRECTS",
+      "layer_zero_source_object": "trace-reversed pointwise metric-fibre branch",
+      "repository_object": "exact active fibre inertia (6,4) and total inertia (9,5)",
+      "collision": "The transcript rejects raw 3,7 and directs trace reversal; the exact active inertias remain repository-derived."
+    },
+    {
+      "id": "PW2F-SRC-04-WGB06-CURVATURE-CONTRACTION",
+      "claim_ledger_id": "WG-B06",
+      "source_path": "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+      "file_sha256": "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24",
+      "line_start": 422,
+      "line_end": 424,
+      "slice_sha256": "3e2b23782cbb71201e55ce99d6394b7e16699231920064134227906981317102",
+      "locator": "local automated TOE transcript 01:36:35-01:36:56",
+      "evidence_grade": "LOCAL_AUTOMATED_TRANSCRIPT",
+      "required_tokens": [
+        "projection operator",
+        "contraction operator",
+        "you were correct. I'm wrong"
+      ],
+      "disposition": "SOURCE-CORRECTS",
+      "layer_zero_source_object": "relevant GU curvature contraction discussed without the name Shiab in this episode",
+      "repository_object": "active grade projector plus moving trace/Phi/Hodge contraction fixture",
+      "collision": "This passage corrects projection to contraction. It does not name Shiab or identify that contraction with the active grade projector or fixture."
+    },
+    {
+      "id": "PW2F-SRC-05-WGD01-CONTORTION-SLOT",
+      "claim_ledger_id": "WG-D01-WG-D04",
+      "source_path": "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+      "file_sha256": "f4dfda897a181369103cde913b49b1bb57a61c455092ad5eeac0664eb0da9d24",
+      "line_start": 592,
+      "line_end": 600,
+      "slice_sha256": "f2f3a9527057a7fa6b38fc0a4fdc5d77722fa64b4df13bed17c29315c041c98e",
+      "locator": "local automated TOE transcript 02:18:17-02:20:33",
+      "evidence_grade": "LOCAL_AUTOMATED_TRANSCRIPT",
+      "required_tokens": [
+        "difference between any connection",
+        "gauge rotated Levy-Chevita connection",
+        "in what would be the contortion",
+        "equivariance properties"
+      ],
+      "disposition": "SOURCE-CONFIRMS",
+      "layer_zero_source_object": "gauge-rotated Levi-Civita connection difference in the contortion slot",
+      "repository_object": "source epsilon graph plus separate repository-derived h/K bridge",
+      "collision": "The source directs a connection-difference graph but does not identify synthetic h=exp(u) with epsilon."
+    },
+    {
+      "id": "PW2F-SRC-06-PORTAL-ZORRO-CHAIN",
+      "claim_ledger_id": "PORTAL-MARK-OF-ZORRO",
+      "source_path": "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+      "file_sha256": "bd9f53ab7dc631fb01265c7a89893a773592e6a1215211b21a5833cc5cd4165d",
+      "line_start": 459,
+      "line_end": 461,
+      "slice_sha256": "7b8fb3f098ee0a10d635d7fd05fe67218b7910869de256614958805724c5ebd1",
+      "locator": "official Portal/Oxford transcript 02:23:30-02:23:52",
+      "evidence_grade": "OFFICIAL_TRANSCRIPT_PRIMARY_SPEECH",
+      "required_tokens": [
+        "Mark of Zorro",
+        "connection on the space \\(X\\)",
+        "a metric on \\(Y\\)",
+        "Levi-Civita connection of the metric on the space \\(Y\\)",
+        "spinorial bundles"
+      ],
+      "disposition": "SOURCE-CONFIRMS",
+      "layer_zero_source_object": "metric-to-X-LC-to-Y-metric-to-Y-LC/spin construction chain",
+      "repository_object": "finite exact Zorro/induced-Y14 Levi-Civita symbol",
+      "collision": "The architecture requires the whole derived chain; the public source does not supply its complete Frechet derivative."
+    },
+    {
+      "id": "PW2F-SRC-07-PORTAL-EDDY",
+      "claim_ledger_id": "WGS-03",
+      "source_path": "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+      "file_sha256": "bd9f53ab7dc631fb01265c7a89893a773592e6a1215211b21a5833cc5cd4165d",
+      "line_start": 499,
+      "line_end": 501,
+      "slice_sha256": "dd4d49b88c56b1e95d550501185432b021b601c81870fc75bb09d86bcba94beb",
+      "locator": "official Portal/Oxford transcript 02:35:10-02:36:12",
+      "evidence_grade": "OFFICIAL_TRANSCRIPT_PRIMARY_SPEECH",
+      "required_tokens": [
+        "shiab applied to the curvature tensor",
+        "does not work out to be exact",
+        "quadratic eddy tensor",
+        "total swervature"
+      ],
+      "disposition": "SOURCE-CONFIRMS",
+      "layer_zero_source_object": "source-required eddy/variational completion of the curvature contraction",
+      "repository_object": "candidate completed active metric action coefficient",
+      "collision": "The source positively requires an eddy/completion; this row makes no absence claim and does not supply the active formula."
+    },
+    {
+      "id": "PW2F-SRC-08-SCOPED-ACTIVE-METRIC-WARD-SILENCE",
+      "claim_ledger_id": "PW2F-SCOPED-ABSENCE-SEARCH",
+      "source_path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "file_sha256": "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f",
+      "line_start": 46,
+      "line_end": 64,
+      "slice_sha256": "b034c7c9195a886e9f5d77880bbeccd80bb983c81e7d45d4c7c187666be02678",
+      "locator": "repository corpus-and-custody receipt plus top-level scoped_absence_search",
+      "evidence_grade": "SCOPED_REPOSITORY_SEARCH_RECEIPT_NOT_PRIMARY_SOURCE",
+      "required_tokens": [
+        "Corpus and custody",
+        "WG-2021-DRAFT",
+        "WG-2013-2020-PORTAL",
+        "WG-2025-TOE"
+      ],
+      "disposition": "SOURCE-SILENT",
+      "layer_zero_source_object": "no complete active metric Frechet coefficient, cancellation/rank, or diffeomorphism current located in the declared exact corpus",
+      "repository_object": "complete active metric top-order coefficient and native diffeomorphism Ward",
+      "collision": "Silence is scoped to the declared corpus and semantic queries; it narrows attribution and closes no mathematical branch."
+    },
+    {
+      "id": "PW2F-SRC-09-ODOT-EPSILON-OMEGA-FORK",
+      "claim_ledger_id": "DGU01-TR-02-TR-03",
+      "source_path": "explorations/hourly-cycles/hourly-20260625-0301-cycle3-rendered-dgu01-identity-transcription.md",
+      "file_sha256": "1a8474008d7e472245367970de364c4e7c58b1e4c53784bc7324c3f8b43e8cd4",
+      "line_start": 90,
+      "line_end": 100,
+      "slice_sha256": "b124245e9cbb9141a278b6485b27dd8411dcbb175d9b83f206c61650b0512a19",
+      "locator": "rendered/manual author-draft custody receipt, p.43 equations 9.2-9.3 and p.44 equations 9.4-9.6",
+      "evidence_grade": "RENDERED_MANUAL_TRANSCRIPTION_BACKED_BY_AUTHOR_PDF_CUSTODY",
+      "required_tokens": [
+        "circledot_e",
+        "circledot_omega",
+        "I_1^B((epsilon_Y, varpi_Y), metric_X)"
+      ],
+      "disposition": "SOURCE-SILENT",
+      "layer_zero_source_object": "epsilon-indexed contraction family in equations 9.2-9.3 versus omega-indexed action coefficient in equation 9.4",
+      "repository_object": "one selected moving-Shiab family with declared metric and source owners",
+      "collision": "Both notations are source-explicit; their identity and any varpi dependence are not established in the inspected draft displays."
+    },
+    {
+      "id": "PW2F-SRC-10-VARIATION-AND-PAIRING-OWNERSHIP",
+      "claim_ledger_id": "WGS-01-VARIATION-SCOPE",
+      "source_path": "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "file_sha256": "5b50adabf067959654073f7e5c6665e8ac1e3e52ae36ae22ae9754bc9db23b5f",
+      "line_start": 68,
+      "line_end": 112,
+      "slice_sha256": "a2dd63c96c5258f50294c076cb2ca730b6351d1e6c166a6e3de061f530cf6521",
+      "locator": "normalized draft action and displayed translation-direction variation, backed by primary_draft_custody",
+      "evidence_grade": "NORMALIZED_TRANSCRIPTION_BACKED_BY_AUTHOR_PDF_CUSTODY_PLUS_SCOPED_SEARCH_RECEIPT",
+      "required_tokens": [
+        "\\left\\langle",
+        "I^B_1(\\epsilon,\\varpi+s\\alpha)",
+        "translation-direction variation",
+        "\\odot_\\omega"
+      ],
+      "disposition": "SOURCE-SILENT",
+      "layer_zero_source_object": "formal Hodge/pairing action with a displayed varpi-direction variation",
+      "repository_object": "simultaneous epsilon/metric variation policy and exact density/Krein-Riesz/lowerer/boundary motions",
+      "collision": "The displayed action confirms formal Hodge/pairing grammar and a varpi variation; the declared corpus does not supply the complete epsilon/metric owner policy or active pairing/Green formulas."
+    }
+  ],
+  "anti_collapse": {
+    "projection_vs_contraction": "DISTINCT",
+    "toe_contraction_vs_named_shiab": "DISTINCT",
+    "xi_vs_diffeomorphism_ward": "DISTINCT",
+    "source_epsilon_vs_synthetic_h": "DISTINCT",
+    "source_T_vs_synthetic_T": "DISTINCT",
+    "odot_epsilon_vs_odot_omega": "DISTINCT",
+    "formal_hodge_pairing_vs_active_krein_green": "DISTINCT",
+    "trace_reversal_vs_raw_frobenius": "DISTINCT",
+    "source_silence_closes_no_blocker": true
+  }
+}

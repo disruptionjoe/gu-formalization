@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "status": "PW2F_HOSTILE_REVIEW_CORRECTION_LC_ALTERNATION_SUBROUTE_PASS_LIVE_DELTAK_SUMMAND_COMPLETE_TOP_ORDER_OPEN",
+  "date": "2026-08-02",
+  "run_id": "RUN-20260802-223738-gu-formalization-pw2f-native-top-order-metric-ward",
+  "question": "Does the complete active-native first-action metric composition have a nonzero base-fourth coefficient, and what diffeomorphism-Ward statement is currently earned?",
+  "result": {
+    "base_fourth_metric_coefficient": "OPEN_AFTER_HOSTILE_REVIEW_FOUND_OMITTED_LIVE_DELTAK_SUMMAND",
+    "metric_self_third_coefficient_on_selected_native_panel": "EXACTLY_ZERO_ONLY_ON_SEVEN_SELECTED_HORIZONTAL_CONORMALS_NOT_COMPLETE_DELTAK_OR_FULL_Y14",
+    "held_out_metric_third_contributions": "E10_BARE_CONNECTION_INCIDENCE_10_BY10_RANK10_NON_SKEW__E0_PLUS_E10_RANK5_NON_SKEW__NOT_COMPLETE_EULER_COEFFICIENTS",
+    "first_live_selected_curvature_input_grade": "SECOND_ORDER_IN_FIXED_H_FIXED_SHIAB_SYNTHETIC_SOURCE_PANEL",
+    "selected_curvature_input_bank": {
+      "shape": [
+        7,
+        10
+      ],
+      "exact_rank": 7,
+      "rank_scope": "SELECTED_FIXED_H_FIXED_SHIAB_SYNTHETIC_SOURCE_ACTION_COEFFICIENT_NOT_COMPLETE_EULER_OR_QUOTIENT_OR_PHYSICAL_RANK"
+    },
+    "moving_shiab_coefficient_bank": {
+      "owners": 10,
+      "exact_rank": 10,
+      "slots": [
+        "trace_gamma",
+        "Phi1_first",
+        "Hodge_first",
+        "Phi1_outer",
+        "Phi2",
+        "Hodge_inner",
+        "Hodge_middle",
+        "Hodge_outer"
+      ],
+      "jet_grade": "ALGEBRAIC_IN_TOTAL_METRIC_H__BASE_METRIC_COMPOSITION_THROUGH_Z0_Z1_OPEN"
+    },
+    "D3G": "NOT_NEEDED_FOR_STRUCTURAL_AFFINE_COMPARATOR_FOURTH_CANCELLATION__WHETHER_COMPLETE_VARIABLE_COEFFICIENT_C3_C2_NEEDS_IT_REMAINS_OPEN"
+  },
+  "top_order_mechanism": {
+    "transgression": "NORMALIZED_BEFORE_DIFFERENTIATION",
+    "levi_civita_alternation": "ALT_OF_PRINCIPAL_DG_GAMMA_ZERO_ON_ALL_14_COORDINATE_CONORMALS_TIMES_10_METRIC_OWNERS",
+    "derived_bridge": "ALT_OF_DG_GAMMA_ZERO_CLOSES_ONLY_DELTA_U_SUBROUTE__AD_HINVERSE_MINUS1_DG_B_IS_NONZERO_ON129_OF140_EXACT_NULL_BRIDGE_COLUMNS__COMPLETE_DELTAK_SUM_OPEN",
+    "action_jet": "NOT_YET_SHOWN_AFFINE_IN_METRIC_SECOND_JET_AFTER_COMPLETE_DELTAK_RETURN",
+    "universal_euler_theorem": "CONDITIONAL_AFFINE_SECOND_JET_IMPLIES_ZERO_FOURTH; POSSIBLE_THIRD_IS_SKEW_VELOCITY_DERIVATIVE",
+    "active_selected_third": "ONE_CONNECTION_INCIDENCE_CONTRIBUTION_ZERO_ONLY_ON_SEVEN_HORIZONTAL_CONORMAL_PANEL__HOSTILE_MATCHER_NONZERO__HELD_OUT_E10_RANK10_AND_E0_PLUS_E10_RANK5_NON_SKEW_CONTRIBUTIONS_REQUIRE_COMPLETE_HELMHOLTZ_SUM",
+    "lower_order": "SELECTED_HORIZONTAL_SECOND_ORDER_BANK_RANK_SEVEN__FULL_Y14_HAS_LIVE_VERTICAL_AND_MIXED_C3_CONTRIBUTIONS_BUT_COMPLETE_C3_AND_DELTAK_TOP_ORDER_ARE_OPEN"
+  },
+  "green_and_helmholtz": {
+    "direct_action_route": "STRUCTURAL_TEN_OWNER_AFFINE_COMPARATOR_PASS_NOT_NATIVE_ACTION",
+    "reverse_formal_adjoint_route": "STRUCTURAL_TEN_OWNER_AFFINE_COMPARATOR_PASS_NOT_NATIVE_ACTION",
+    "two_layer_green_packet": "PASS_ON_STRUCTURAL_TEN_OWNER_AFFINE_SECOND_JET_COMPARATOR_ONLY",
+    "odd_third_helmholtz_rule": "SKEW_OWNER_MATRIX_TIMES_ODD_DERIVATIVE_IS_FORMALLY_SELF_ADJOINT",
+    "independent_predecessor": "B2C15N_RETAINS_OPPOSITE_MIXED_THIRD_ORDER_GRAPH_BLOCKS_PLUS9_MINUS9",
+    "native_full_deltaK_and_top_order_green": "OPEN_NO_NATIVE_DIRECT_REVERSE_DAG_ASSEMBLED",
+    "complete_C3_helmholtz_kill": "SUMMED_C3_MUST_BE_COEFFICIENTWISE_SKEW_OR_THE_VARIATIONAL_ASSEMBLY_FAILS",
+    "full_Y14_C3_characteristic_and_observation_disposition": "OPEN_WITH_E10_RANK10_AND_E0_PLUS_E10_RANK5_NON_SKEW_CONTRIBUTION_WITNESSES__COMPLETE_C3_MUST_BE_SKEW",
+    "native_full_lower_C2_green": "BLOCKED_BY_COMPLETE_TOP_ORDER"
+  },
+  "diffeomorphism_ward": {
+    "status": "STRUCTURAL_1D_FORMAL_NATURAL_LIFT_NOETHER_AND_GREEN_SCHEMA_PASS_NATIVE_EVALUATION_OPEN",
+    "exact_comparator": "SCALAR_PLUS_LAPSE_REPARAMETRIZATION_INVARIANT_ACTION",
+    "identity": "R_DIFF_BANG_E_EQUALS_ZERO_WITH_LIVE_METRIC_OWNER_AND_NOETHER_CURRENT",
+    "internal_ward_relation": "DISTINCT_NONVACUOUS_IDENTITY",
+    "xi_relation": "DISTINCT_SOURCE_REDUNDANCY_NOT_A_WARD",
+    "required_native_owner_ledger": {
+      "metric_zorro_lc_spin": true,
+      "source_connection_and_distortion": true,
+      "derived_bridge_h_k": true,
+      "curvature_input": true,
+      "eight_shiab_slots": true,
+      "hodge_distortion_norm": true,
+      "density_krein_pairing_lowerers": true,
+      "all_green_concomitants": true
+    },
+    "remaining": "LITERAL_SOURCE_ROOT_TRANSFORMATION_PLUS_COMPLETE_LOWER_C2_OWNER_COEFFICIENT_AND_RANK"
+  },
+  "source_disposition": {
+    "metric_chain": "SOURCE-CONFIRMS",
+    "written_first_action_grammar": "SOURCE-CONFIRMS",
+    "gauge_rotated_lc": "SOURCE-CONFIRMS",
+    "trace_reversal": "SOURCE-CORRECTS",
+    "relevant_curvature_contraction_vs_projection": "SOURCE-CORRECTS",
+    "odot_epsilon_vs_odot_omega": "SOURCE-SILENT_IDENTITY_FORK",
+    "full_metric_density_krein_pairing_motion": "SOURCE-SILENT",
+    "full_epsilon_metric_variation_policy": "SOURCE-SILENT",
+    "xi_relation": "SOURCE-CONFIRMS_REDUNDANCY_ONLY",
+    "active_top_order": "SOURCE-SILENT",
+    "diffeomorphism_ward": "SOURCE-SILENT",
+    "manifest": "lab/process/pw2f-primary-source-collision-manifest.json"
+  },
+  "layer_zero": {
+    "epsilon_vs_h": "DISTINCT",
+    "source_T_vs_synthetic_T": "DISTINCT",
+    "source_shiab_vs_active_projector_vs_active_fixture": "DISTINCT",
+    "fixed_varpi_vs_fixed_A_vs_fixed_B": "DISTINCT",
+    "action_coefficient_rank_vs_euler_rank_vs_physical_rank": "DISTINCT",
+    "diffeomorphism_vs_internal_vs_residual_right_vs_xi_vs_bv": "DISTINCT"
+  },
+  "exact_tool_crosschecks": {
+    "primary": "REPOSITORY_PYTHON_SYMPY_EXACT",
+    "sage": {
+      "version": "10.9",
+      "artifact": "tests/channel-swings/pw2f_sage_jet_helmholtz_crosscheck.sage",
+      "role": "INDEPENDENT_STRUCTURAL_CONSTANT_C_AFFINE_SECOND_JET_AND_GREEN_IDENTITY_NOT_NATIVE_ASSEMBLY"
+    },
+    "python_flint": {
+      "version": "0.9.0",
+      "artifact": "tests/channel-swings/pw2f_flint_exact_rank_crosscheck.py",
+      "role": "INDEPENDENT_EXACT_RATIONAL_RANK7_PLUS_RIGOROUS_ARB_INTERVAL_NONZERO_CERTIFICATE_ON_A_SYMPY_SELECTED_MULTIRADICAL_MINOR_NOT_NATIVE_ASSEMBLY"
+    },
+    "nonrigorous_approximate_or_ml_verdict": "FORBIDDEN"
+  },
+  "pre_assessment": {
+    "exact_clifford_reductive_y14": "COMPLETE",
+    "variational_pde": "COMPLETE",
+    "primary_source_layer_zero": "COMPLETE",
+    "expected_verdict_preregistered": "UNPHYSICAL_TOP_ORDER_CANCELS_AND_LIVE_C2_SURVIVES",
+    "kill_conditions_preregistered": true
+  },
+  "hostile_post_review": {
+    "exact_geometry": "PASS_AFTER_REPAIR__RETRACTED_COMPLETE_TOP_ORDER__ADDED_129_OF_140_DELTAK_AND_VERTICAL_MIXED_C3_WITNESSES",
+    "variational_pde": "PASS_AFTER_REPAIR__NATIVE_GREEN_NOT_ASSEMBLED__FULL_C3_HELMHOLTZ_SKEW_AND_BASE_FOURTH_REMAIN_OPEN",
+    "source_layer_zero": "PASS_AFTER_REPAIR__PRIMARY_PDF_CUSTODY__SCOPED_ABSENCE__ODOT_FORK__VARIATION_POLICY"
+  },
+  "scope_boundary": {
+    "public_source_to_active_real_form_port": "OPEN",
+    "global_y14_atlas": "OPEN",
+    "complete_deltaK_metric_top_order": "OPEN",
+    "complete_lower_C2_metric_euler": "BLOCKED_BY_COMPLETE_TOP_ORDER",
+    "native_diffeomorphism_ward_rank": "OPEN",
+    "analytic_domain": "OPEN",
+    "BV_BFV_CME": "OPEN",
+    "observation_descent_and_no_leakage": "OPEN",
+    "physics_recovery": "OPEN",
+    "canon_status_public_posture": "UNCHANGED"
+  },
+  "constraint_accounting": {
+    "free_continuous_parameters_selected": 0,
+    "structural_cancellations_counted_as_fit_constraints": 0,
+    "selected_rank_interpreted_as_physical_constraint_count": false
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION"
+}

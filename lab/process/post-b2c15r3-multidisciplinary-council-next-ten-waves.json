@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "PW2E_FINITE_ACTIVE_DESCENT_AND_MIXED_OWNER_INVENTORY_PASS_PW2F_TOP_ORDER_COMPOSITION_NEXT",
+  "status": "PW2F_HOSTILE_CORRECTION_LC_SUBROUTE_PASS_COMPLETE_DELTAK_AND_FULL_Y14_C3_OPEN_PW2F_R_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -34,15 +34,19 @@
       "PW2E exact finite active grade-3/11 Shiab on elliptic, hyperbolic, and Hodge-null branches with full-basis invariant rank-8256 projector and right-H/Krein/C-plus compatibility",
       "PW2E symbolic three-patch active coefficient descent, literal tensorial K, affine B+K, transported scalar action pairing, and grade-two contragredient covector law",
       "PW2E actual eight-slot moving-Shiab rank ten, actual induced-Y14 LC rank ten on nonnull/null covectors, and structural fixed-varpi chain-rule/Green certificate",
-      "PW2E exact inherited top-order cancellation control showing that live fixed-A and Gamma-adjoint third-jet terms can cancel"
+      "PW2E exact inherited top-order cancellation control showing that live fixed-A and Gamma-adjoint third-jet terms can cancel",
+      "PW2F exact zero alternation for all 140 coordinate-conormal by metric-owner induced-Y14 Levi-Civita symbol columns, with a live non-Levi-Civita plant",
+      "PW2F exact LC-alternation subroute plus hostile 129-of-140 live omitted deltaK summand; complete derived-K top order remains open",
+      "PW2F selected seven-horizontal fixed-h/fixed-Shiab rank-seven C2 bank, held-out e10 rank-ten and e0-plus-e10 rank-five non-skew C3 contributions, structural affine theorem, and formal diffeomorphism schema"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
       "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "actual native mixed bridge-by-metric top-order composition and full Z0+Z1 total-space metric Frechet block with complete A2(2 partial Z1 plus Z0) plus A1 Z1 and moving-coefficient operator",
+      "complete deltaK metric top-order and full Y14 C3 Helmholtz sum before any lower C2 assembly",
+      "complete lower C2 active-native metric Euler coefficient with every total-to-base metric owner, formal-adjoint Green return, kernel, and quotient rank",
       "actual action-derived Euler covector descent beyond the earned active coefficient and grade-two representation-covector laws",
-      "cubic and quartic native action jets determining whether the quadratic Delta-only degeneracy persists",
+      "higher native action jets determining whether the quadratic Delta-only degeneracy persists; D3G remains unconstructed and unearned pending the complete top-order sum",
       "one native all-owner hatted-Euler residual right Ward/Green composition rather than the exact structural nonabelian comparator alone",
       "action-derived BV tangent differential and physical quotient",
       "functional observed Euler pushdown and no-leakage theorem",
@@ -50,9 +54,9 @@
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2E",
-    "guided_next": "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD",
-    "alternative_next": "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD"
+    "datum": "P1/P2/P3 unchanged and unused through PW2F",
+    "guided_next": "PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION",
+    "alternative_next": "PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -69,7 +73,10 @@
     "structural unitriangular comparator != actual source-coordinate Jacobian",
     "Xi redundancy != left tilted kernel != residual right action != field substitution",
     "coefficient-dual ker-Alt sector != separately declared Alt-bearing bridge sector",
-    "quadratic Delta-only fixture != all-orders bridge theorem"
+    "quadratic Delta-only fixture != all-orders bridge theorem",
+    "source epsilon != induced Levi-Civita Gamma != repository-derived h",
+    "possible scalar-comparator fourth jet != surviving active-native first-action coefficient",
+    "selected action-coefficient rank != Euler rank != quotient rank != physical rank"
   ],
   "lanes": [
     {
@@ -370,7 +377,7 @@
     },
     {
       "id": "PW2",
-      "status": "PW2E_FINITE_ACTIVE_DESCENT_AND_MIXED_OWNER_INVENTORY_PASS_PW2F_REQUIRED",
+      "status": "PW2F_HOSTILE_CORRECTION_COMPLETE_DELTAK_AND_FULL_Y14_C3_REQUIRED",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -394,7 +401,7 @@
       ],
       "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
       "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
-      "exit": "PW2E constructs the finite active grade-3/11 Shiab, full-basis invariant active projector, symbolic three-patch active coefficient/B+K descent, transported scalar pairing, and grade-two covector law. It also inventories all actual metric owners and the induced-Y14 LC graph. The actual native top-order metric composition, action Euler dual, all generated Green terms, and metric/diffeomorphism Ward evaluation remain for PW2F; public port, domain, BV/BFV, physical quotient, and physics remain open.",
+      "exit": "PW2F proves the 140-column LC-alternation subroute, but hostile review constructs a live omitted deltaK summand on 129 columns and live non-skew vertical/mixed C3 contributions. The selected horizontal fixed-h/fixed-Shiab C2 bank has rank seven, the raw moving-Shiab bank rank ten, and the structural affine and formal diffeomorphism comparators pass. The complete derived-K top order, skew full-Y14 C3, native Green/Ward, lower C2, public port, domain, quotient, and physics remain open.",
       "result": {
         "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
         "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
@@ -420,7 +427,10 @@
         "pw2e_finite_active": "U_SQUARE_MINUS_DELTA__ELLIPTIC_HYPERBOLIC_NULL_FINITE_BRANCHES__FULL_16384_BASIS_PROJECTOR_COMMUTATION_ALL3__ACTIVE_PROJECTOR_RANK8256_WITH_BIVECTOR91__RIGHT_H_KREIN_CPLUS__SYMBOLIC_THREE_PATCH_COEFFICIENT_AFFINE_BPLUSK_DESCENT__TRANSPORTED_PAIRING_AND_GRADE2_COVECTOR_LAW__NO_PUBLIC_PORT_OR_ACTION_EULER_DESCENT",
         "pw2e_metric_inventory": "STRUCTURAL_1D_FIXED_VARPI_CHAIN_RULE_AND_GREEN_NOT_NATIVE1274X10__ALL8_ACTUAL_MOVING_SHIAB_SLOTS_LIVE__544_BY10_RANK10__FOUR_FROZEN_PAIRINGS__ACTUAL_LC_RANK10_NONNULL_AND_NULL_AND_DIFFERS_FROM_OBSERVED_LIFT__2X2_WARD_COMPARATOR_ONLY",
         "pw2e_top_order": "POSSIBLE_FOURTH_JET_SENSITIVITY_COMPARATOR__INHERITED_FIXED_A_AND_GAMMA_ADJOINT_LIVE_G3_TERMS_CANCEL__ACTUAL_NATIVE_TOP_ORDER_COMPOSITION_UNASSEMBLED__FOURTH_ORDER_FAMILY_ONLY_IF_NONZERO_TERM_SURVIVES",
-        "next_gate": "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD"
+        "pw2f_top_order": "ALL140_LC_ALT_ZERO__OMITTED_AD_HINVERSE_MINUS1_DGB_LIVE129__COMPLETE_DELTAK_OPEN__SEVEN_HORIZONTAL_INCIDENCE_ZERO_BUT_E10_RANK10_AND_E0_PLUS_E10_RANK5_NON_SKEW_CONTRIBUTIONS__COMPLETE_C3_MUST_BE_SKEW__SELECTED_FIXED_H_FIXED_SHIAB_C2_RANK7__RAW_MOVING_SHIAB_RANK10_UNCOMPOSED__BASE_FOURTH_OPEN",
+        "pw2f_diffeomorphism": "STRUCTURAL_1D_FORMAL_NATURAL_LIFT_NOETHER_AND_GREEN_SCHEMA_PASS__INTERNAL_WARD_AND_XI_DISTINCT__LITERAL_ACTIVE_NATIVE_OWNER_COEFFICIENT_AND_RANK_OPEN",
+        "pw2f_tools_and_sources": "PRIMARY_PDF_CUSTODY_AND_SCOPED_ABSENCE_MANIFEST__SAGE_STRUCTURAL_AFFINE5__FLINT_RATIONAL_RANK7__RIGOROUS_ARB_INTERVAL_NONZERO_SELECTED_MINOR__NO_BACKEND_NATIVE_ASSEMBLY",
+        "next_gate": "PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION"
       },
       "review_receipts": {
         "pre_assessment": {
@@ -620,6 +630,42 @@
             "15 exact + 3 source + 10 type + 10 planted = 38 PASS",
             "14 exact + 3 source + 11 type + 12 planted = 40 PASS",
             "source/Layer-0, Clifford/descent, and variational-PDE hostile reviews PASS"
+          ]
+        }
+      },
+      "pw2f_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact Clifford, reductive, and Y14 geometry",
+            "variational PDE, Helmholtz, Green, and Ward ownership",
+            "primary-source provenance and Layer-0 object typing"
+          ],
+          "shared_prediction": "the unphysical top order would cancel and a live lower C2 block would survive; kill conditions required the opposite report if any owner or source collision was missing"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "hostile exact Y14 and derived-connection geometry",
+            "hostile variational PDE, Helmholtz, and Green assembly",
+            "hostile source custody, scoped silence, and Layer 0"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "retracted the inference from Alt(Dg Gamma)=0 to complete Dg h/Dg K and added the exact 129-of-140 live Ad_hinverse-minus-one DgB witness",
+            "added held-out e10 rank-ten and e0-plus-e10 rank-five non-skew connection-incidence contributions and required the fully summed C3 to satisfy coefficientwise Helmholtz skewness",
+            "narrowed the rank-seven panel to selected horizontal fixed-h/fixed-Shiab synthetic-source scope and the rank-ten bank to a separate raw total-metric coefficient inventory",
+            "demoted direct/reverse/Green and Sage to the structural affine comparator; left native Green and base-fourth order open",
+            "replaced normalized-source-pack-as-primary with author-PDF custody plus rendered/manual receipt and split positive eddy evidence from scoped source silence",
+            "recorded the unnamed TOE contraction, odot-epsilon/odot-omega fork, formal Hodge/pairing versus active Krein/Green fork, and incomplete epsilon/metric variation policy",
+            "rerouted the next gate from lower C2 to complete derived-K top order and full-Y14 C3 Helmholtz classification"
+          ],
+          "rerun_receipts": [
+            "PW2F repaired main: 18 exact + 4 source + 13 type + 9 planted = 44 PASS",
+            "PW2F formal diffeomorphism schema: 6 exact + 2 source + 7 type + 5 planted = 20 PASS",
+            "PW2F source custody/collision: 58 exact + 3 type + 8 planted = 69 PASS",
+            "Sage structural affine/Helmholtz/Green cross-check: 5 PASS",
+            "FLINT exact rational rank plus rigorous Arb interval certificate: 4 PASS"
           ]
         }
       }
@@ -890,7 +936,7 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, and the scoped PW2E continuation were executed; PW2F is next and PW3 plus all later waves remain unexecuted.",
+    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, PW2E, and the hostile-corrected PW2F continuation were executed; PW2F-R is next and PW3 plus all later waves remain unexecuted.",
     "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."
