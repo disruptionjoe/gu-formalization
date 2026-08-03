@@ -344,7 +344,7 @@ New rows and riders; no existing verdict or grade changes.
 | ID | Item | Next step | I | E |
 |---|---|---|---|---|
 | M-H17 | **BRST/quotient exit has no register ID** (seat1 H4, VERIFIED_REPO_DISCONNECT): the hostile trichotomy review made adding this exit a required correction and no queue item followed. Five-step decomposition (seat1 DQ5): (i) nilpotent interacting BRST charge Q on the RS/ker Γ sector (W173 has only the FREE bicomplex); (ii) state complex; (iii) H⁰(Q) genuinely computed (W207 does not); (iv) nondegenerate descended pairing; (v) commutant + positive-pairing classification on the quotient. Single named blocker: C2 = 155.36 does not close without the unbuilt Y¹⁴ connection-curvature 2-form | Open the construction ledger; any partial step is progress; seat1 K6 names the payoff (positivity interior-supplied would END the boundary-supply reading — the kill most worth attempting) | H | L (blocked) |
-| M-M28 | **Layer-0 fence-row bundle** (seats 3–4): "128" three-way (Cl(7,7) Majorana dim / dim_C S / imposter block); "13" three-way (RS multiplicity in 1664=13·128 / dim of the Y¹⁴-end link / anchor-3 receptacle — no artifact relates them); "chirality" four-way (Z2 condensate parity / interior index / 4D V−A / ω-halves); F/Q/Z graded factor-2; RP³×S⁶ = working MODEL (true link: 9-dim S⁶-bundle over RP³ spine, indefinite base required) | Add fence rows via normal absorption on the READ-FIRST surfaces; NOT council fiat | H | XS–S |
+| M-M28 | **Layer-0 fence-row bundle** (seats 3–4): "128" three-way (Cl(7,7) Majorana dim / dim_C S / imposter block); "13" three-way (RS multiplicity in 1664=13·128 / dim of the Y¹⁴-end link / anchor-3 receptacle — no artifact relates them); "chirality" four-way (Z2 condensate parity / interior index / 4D V−A / ω-halves); F/Q/Z graded factor-2; RP³×S⁶ = working MODEL (true link: 9-dim S⁶-bundle over RP³ spine, indefinite base required) | **PARTLY ABSORBED** (Resolver Wave B, 2026-08-03): the Q3 operator is renamed `P_hinge`, explicitly distinct from external count/relative-KO `P3`; the 128/chirality/graded-factor fences now control the Wave-B READ-FIRST table and Wave-A handoff. The 13/link-model fences remain recorded here and must travel with the dim-13 wave. | H | XS–S |
 | M-M29 | **W224 answers DQ4 and nobody cites it** (seat4 back-pressure #1, VERIFIED_REPO_DISCONNECT): the rolling mode p's representation type — W224 (35/35): only built vacuum candidate is an internal singlet, isotropy the full non-compact Sp(32,32;H). EXACT for the singlet-isotropy/Prop-1 consequence; SOURCE-AUDIT for the identification. Also: p and the record count N are the same variable (N = e^{4p}) — the positivity anchor's cheapest item is a typing question about the cosmology anchor's mode | Wave A-3: READ-FIRST typing + absorption note; upgrade path for the identification named | H | S |
 | M-M30 | **Fork-merge absorption (JP1/JP2)**: fiber (6,4) ⇒ carrier fork collapses onto the signature fork ((3,1)→(9,5); (1,3)→(7,7); the TX^{1,3}⊕N^{6,4}⊂Y^{7,7} option is the (7,7) horn); JP1: count-edge existence (C3∧C4) + indefinite-base requirement (boundary-einvariant §7) forbids the compact carrier (4,0)+(5,5) — the finite census's side | JP2 adopted for planning (adjudication R3). JP1: hostile field-specialist review REQUIRED (J5) before any fork-table edit | H | S + review |
 | M-M31 | **M-M7 rider (adjudication R2, BINDING)**: "finite boundary κ ⇒ firewall" is unsupported and opposite-signed vs rankN at finite rank (definitizable ⇒ ghost removable ⇒ HORN Q). M-M7 may not assert either direction until the boundary operator exists (D3) and the inference is adjudicated | Rider recorded; DQ7 blocked on DQ6 + adjudication | M | — |
@@ -409,3 +409,26 @@ No scientific register row or protected verdict moves.
 - **Next named gate:** `RESOLVER-WAVE-B`, targeting Q3, DQ3, DQ1 typing, and
   M-M28 fence absorption. A2 cosmology proceeds independently and does not block
   those representation/operator targets.
+
+---
+
+## Revision 4 (2026-08-03, Resolver Wave B)
+
+Source: `explorations/cycle-gates-and-audits/resolver-wave-b-disposition-2026-08-03.md`.
+No scientific register row or protected verdict moves.
+
+- **Q3:** the internal `P_hinge` range has exact first-order quotient leakage
+  under the raw projected RS symbol in every coordinate direction. This kills
+  only invariant-block / sole-leading-II mediation at finite kinematic grade;
+  coupled, compressed, BV/physical, ellipticity, and domain routes remain open.
+- **DQ3:** the phased `(9,5)` and `(7,7)` beta involutions, metric adjoint, and
+  `Gamma Gamma-sharp=14I` give exact signature-free neutrality `(832,832)` on
+  raw `ker Gamma`; no physical-chirality or positivity inference follows.
+- **DQ1:** exact B4×B2 dimensions give `2U+2X+2Y`; standard compact-Clifford
+  reality plus the K-invariant nondegenerate cross-pairing gives three shared
+  quaternionic types and residual dimension 12 on this carrier. The actual
+  dynamical stabilizer and physical quotient remain open.
+- **Next named gate:** `RESOLVER-WAVE-C-REBASED`. Q5/Q6 compute only
+  representation-channel availability; occurrence of 126 is not a coupling,
+  mediator, mass, or A/B adjudication. Retain the full
+  bilinear→Krein→reality→VEV→induced-4D-mass checklist.

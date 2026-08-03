@@ -44,8 +44,9 @@ a fit or declaring failure from a random finite fixture.
 Proceed to **Resolver Wave B**, with divergent pre-assessment and two-sided hostile
 post-review retained. Its named construction targets are:
 
-1. compute Q3, the actual commutator `[sigma(D_RS), P3]`, without reading
-   multiplicity as count;
+1. compute Q3, the principal-symbol defect against `P_hinge`, the internal
+   projector onto `im(10 iota_B - 4 iota_F)`, without conflating it with the
+   distinct external count/relative-KO datum `P3`;
 2. run DQ3, the signature-free neutrality theorem/obstruction, separating analytic
    Clifford identities from numerical spectra;
 3. type DQ1's isotypic data and the imposter A/B referent before any physical-family

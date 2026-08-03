@@ -472,3 +472,9 @@ Current cross-wave synthesis and execution:
 
 - [`hourly-cycles/`](hourly-cycles/) -- **archived** output from the hourly research-automation cadence
   (~530 notes + transition ledgers). Not load-bearing; kept for provenance. Do not cite as a result.
+# Resolver Wave B (2026-08-03)
+
+`resolver-wave-b-q3-dq3-dq1-2026-08-03.md` records exact kinematic results for
+hinge-symbol leakage, signature-free RS neutrality, and compact isotypic
+overlap. Its route decision is `REBASE`; it leaves the physical quotient,
+dynamical stabilizer, imposter referent, and external P1/P2/P3 open.

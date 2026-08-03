@@ -71,6 +71,7 @@ The public boundary stays:
 | `signature_sweep_fast.py` | Fast signature sweep helper. | Keeps the signature-class arithmetic visible for review. |
 | `signature_sweep_leg1.py` | Broader signature sweep over Cl(p,q), p+q=14. | Searches for signature-class routes that would break the multiplicity theorem. |
 | `q2_imposter_chirality_grading.py` | Reading-A imposter block grading under `(9,5)` and `(7,7)`. | Confirms only the kinematic balanced grading; physical chirality and the A/B referent remain open. |
+| `q3_imposter_symbol_invariance.py` | Exact principal-symbol invariance test for the internal hinge projector. | Finds injective first-order leakage in every coordinate direction; external P3 and the physical quotient are unused. |
 
 ### Family / External-Base Characterization
 

@@ -20,8 +20,8 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | Directory | What it covers |
 |---|---|
 | `woit-principles/` (5) | exact finite controls for Cartan/Palatini soldering, OS/right-handed transfer, `Gr(2,C^4)` geometry, Lorentzian/Euclidean twistor real slices, and finite OS spectral positivity/failure witnesses |
-| `generation-sector/` (28) | the generation-count core: Krein signature, net chiral index, chirality kills, and the Wave-A Reading-A kinematic grading (paper-cited surface; frozen paths), with a local script map and README inventory gate |
-| `observable-algebra/` (2) | finite compression-algebra commutant/trichotomy probes, including the `(7,7)` rerun; numerical carrier evidence only, not a physical observable-algebra or signature-selection theorem |
+| `generation-sector/` (29) | the generation-count core: Krein signature, net chiral index, chirality kills, Wave-A Reading-A kinematic grading, and Wave-B hinge-symbol leakage (paper-cited surface; frozen paths remain frozen), with a local script map and README inventory gate |
+| `observable-algebra/` (5) | finite compression-algebra commutant/trichotomy probes plus exact Wave-B compact-isotypic, Sage character, and neutrality certificates; kinematic carrier evidence only, not a physical observable-algebra, quotient, or signature-selection theorem |
 | `de-certification/` (3) | Wave-A internal likelihood consistency, proxy shape-inverse witnesses, and the finite W230/conditional FLRW mapping fixture; no C10, M-H13, or native-bridge status movement |
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (12) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map and README inventory gate |
@@ -71,3 +71,16 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
 | **W-series frontier packets** | `W*.py` | 200 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue, W245's Finster-sea/Krein-domain discriminator, and W246's faithful CFS self-adjointization ordering reversal, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |
+
+## Resolver Wave B certificates
+
+`generation-sector/q3_imposter_symbol_invariance.py` separates the internal
+hinge projector from external P3 and proves the raw RS symbol leaks at first
+order. `observable-algebra/dq3_signature_free_neutrality.py` gives the exact
+constraint-restricted neutrality lemma, while
+`observable-algebra/dq1_compact_isotypic_data.py` computes the compact
+`Spin(9)xSpin(5)` branching and residual dimension on finite kinematic
+`ker Gamma`; `observable-algebra/dq1_compact_isotypic_sage.py` independently
+checks the B4/B2 character decompositions through Sage without adding Sage to
+the ordinary Python harness. These are pre-deposit certificates and do not construct the
+physical quotient or move a scientific verdict.

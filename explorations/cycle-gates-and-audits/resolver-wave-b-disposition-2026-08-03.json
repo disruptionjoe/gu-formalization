@@ -1,0 +1,72 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-03",
+  "named_gate": "RESOLVER-WAVE-B",
+  "gate_before": "OPEN",
+  "gate_after": "REBASE_REQUIRED",
+  "route_disposition": "REBASE",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "subwaves": {
+    "Q3": {
+      "status": "FIRST_ORDER_LEAKAGE_CONFIRMED_KINEMATIC",
+      "projector": "P_hinge_internal_rank_128",
+      "external_P3_used": false,
+      "full_leakage_rank": 128,
+      "per_chirality_leakage_rank": 64,
+      "scope": "raw_projected_RS_principal_symbol"
+    },
+    "DQ3": {
+      "status": "SIGNATURE_FREE_NEUTRALITY_CONFIRMED_KINEMATIC",
+      "inertia": [832, 832],
+      "required_adjoint": "Krein_metric_Gamma_sharp"
+    },
+    "DQ1": {
+      "status": "SHARED_COMPACT_TYPES_RESIDUAL_DIMENSION_12_CONDITIONAL_STANDARD_CLIFFORD_INPUTS",
+      "executable_branching_status": "EXACT_FRACTION_AND_SAGE_CHARACTER",
+      "analytic_classification_status": "EXACT_CONDITIONAL_ON_NAMED_STANDARD_CLIFFORD_REALITY_INPUTS",
+      "compact_group_cover": "Spin(9)xSpin(5)",
+      "central_quotient": "(-1,-1)",
+      "types": [
+        {"name": "U", "dimension_C": 64, "schur_type": "H", "a": 1, "b": 1},
+        {"name": "X", "dimension_C": 512, "schur_type": "H", "a": 1, "b": 1},
+        {"name": "Y", "dimension_C": 256, "schur_type": "H", "a": 1, "b": 1}
+      ],
+      "residual_dimension_R": 12,
+      "scope": "finite_kinematic_ker_Gamma"
+    }
+  },
+  "assertion_counts": {
+    "Q3": 584,
+    "DQ3": 103,
+    "DQ1_base": 21,
+    "DQ1_sage": 12,
+    "total": 720
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused",
+    "typed_arrow_to_DQ1_residual_family": "absent"
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-C-REBASED",
+    "targets": [
+      "Q5_16x144_BRANCHING",
+      "Q6_LAMBDA5_126_BRANCHING",
+      "M-H7_DIM13_RESTATEMENT"
+    ],
+    "rider": "hinge_is_coupled_first_order_not_II_only_and_126_occurrence_is_channel_availability_only"
+  },
+  "forbidden_inferences": [
+    "P_HINGE_IS_EXTERNAL_P3",
+    "KINEMATIC_NEUTRALITY_IS_PHYSICAL_CHIRALITY",
+    "RESIDUAL_DIMENSION_12_IS_SOURCE_ACTION_PARAMETER_COUNT",
+    "Q3_KILLS_ALL_COMPRESSED_OR_COUPLED_OPERATORS",
+    "Q3_LICENSES_II_ONLY_MEDIATION",
+    "COMPACT_K_IS_ACTUAL_DYNAMICAL_STABILIZER",
+    "MULTIPLICITY_IS_GENERATION_COUNT"
+  ]
+}

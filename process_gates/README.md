@@ -114,6 +114,7 @@ selected notes below and in each script header.
 - `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
 - `resolver_wave_a_scope_audit.py`
+- `resolver_wave_b_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `scripts_readme_surface_map_audit.py`
@@ -645,3 +646,9 @@ unless the selected gate depends on them as current executable inputs.
 
 Remaining content failures are governance debt to fix or retire separately; they are not
 introduced by the path repair.
+## Resolver Wave B scope gate
+
+`resolver_wave_b_scope_audit.py` checks that the internal `P_hinge` projector
+never becomes the external P3 count datum, the finite-kinematic fences survive,
+the route disposition is `REBASE`, and P1/P2/P3 remain unchanged and unused.
+It does not validate the representation calculations or move a scientific bar.
