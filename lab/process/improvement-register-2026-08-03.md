@@ -1,0 +1,299 @@
+---
+title: "Improvement Register: every audit and panel item, with impact x effort and the implementation plan"
+status: process
+doc_type: improvement-register
+created: 2026-08-03
+updated: 2026-08-03
+claim_status_change: none
+canon_change: none
+sources:
+  - lab/process/eleven-lens-audit-2026-08-03.md
+  - lab/process/mathematician-panel-synthesis-2026-08-03.md
+---
+
+# Improvement register
+
+Every item from the 2026-08-03 eleven-lens audit and five-mathematician panel,
+none dropped. Two sections (Process & Tooling; Math Research Approach), each
+graded Critical / High / Medium / Low. Columns: **I** = impact (C/H/M/L),
+**E** = effort (XS &lt; 1 h · S = hours · M = days · L = week+). Items already
+fixed this session are marked DONE. IDs are stable — cite them in commits.
+
+Severity here = value of doing the item, not blame. Claim-status-touching
+items must run `lab/process/runbooks/claim-status-consistency-quality-workflow.md`;
+they are marked (CS). Items gated on a Joe decision are marked (J#) per the
+queue in Part D.
+
+---
+
+## PART A — PROCESS & TOOLING
+
+### A-Critical
+
+| ID | Item | Fix | I | E |
+|---|---|---|---|---|
+| P-C1 | Zenodo release lineage not on `origin/main`; checkpoint `020b682d` unreachable from default branch; `zenodo-package-v1.0.0/`, v2.15, release receipt absent from main; `main.pdf` gitignored/untracked | Merge working branch to main or tag release SHA; name SHA in REVIEWER.md §1; track or de-advertise main.pdf (J3) | C | S |
+| P-C2 | MOVE-5 cert prints "NO-GO NOT established", exits 0; verify sibling `indep_check.py` likewise; owner surfaces (DERIVATION-PROGRESS:2594, RESEARCH-STATUS:146, source-action-seiberg-witten-RESULTS:108) say CONFIRMED/9e-15 | Add failure paths (assert/exit) to both; correct the three owner surfaces (CS); math side is M-H6 | C | S |
+| P-C3 | 70/780 certs have no assert/raise/exit — unconditional PASSes, concentrated in the adversarial/verify layer (all 8 gu-independent adv_verify*, 5/9 hessian-z3, forcing-slot, carrier-mass, source-action) | Certificate-shape discovery gate with explicit library allowlist; then a fix campaign over the 70 | C | M |
+| P-C4 | Seven-axis/Layer-0 ratification (Joe 2026-07-10) absent from its canon authority file `canon/six-axis-specification-protocol.md` (still six axes, zero L7/Layer-0 hits) while RESEARCH-STATUS:102 and CANON:60 point there | Update the protocol file with the ratified form + supersession note (CS) | C | XS |
+| P-C5 | `docs/OVERVIEW.md` (status canon) says "GU is substantially correct", "no longer neutral-map-first", "primary mission is GU reconstruction" — advocacy posture three canon surfaces disclaim; README routes readers to it | Rewrite to the truth-seeking posture or archive with banner (CS) | C | S |
+| P-C6 | Lean ledger row T3 "Antilinear null-eigenspace bound: LEAN-VERIFIED" — no antilinear content exists in Lean/; owning canon file says "not a Lean-checked one" | Correct T3 to SYMPY-DERIVED; audit T-rows against actual declarations (CS) | C | XS |
+| P-C7 | RESEARCH-STATUS:134 still advertises W211 "free Z/2 / five methods unanimous" — killed twice in-repo (draft-skeleton 07-14; W219) 11 days before the last sweep | Correct the row; point to the uniqueness theorem + W219 (CS) | C | XS |
+
+### A-High
+
+| ID | Item | Fix | I | E |
+|---|---|---|---|---|
+| P-H1 | Lean ledger T2 titled "conserves net chiral index zero" — the exact phrase HARDENING-QUEUE:118 bans; theorem is 0−0=0 | Retitle per the queue's own instruction | H | XS |
+| P-H2 | `LocatedNotForcedFiniteCore.lean` (the paper's headline module), CoflipCore, CoflipAbstract, ResidualSelectionAxioms have no ledger rows and are outside `process_gates/lean_certificate_surface_audit.py`'s file list | Add rows; extend the gate's LEAN_LIBRARY_CERTIFICATES | H | S |
+| P-H3 | Ledger LEAN-VERIFIED receipt (2026-07-22) predates the 2026-07-23 rewrite of two certified files; `updated:` never bumped; the valid post-change receipt (zenodo VERIFICATION.md) is unreferenced | Re-receipt or cite the 07-23 receipt; bump | H | XS |
+| P-H4 | Root VERIFICATION.md:22 cites `ResidualSelection.lean` as proof of a group-action generalization containing zero group-action content (deposit's own reproduction.md states correct scope) | Align the row to the deposit scope | H | XS |
+| P-H5 | `ResidualSelectionAxioms.lean` is a non-enforcing `#print axioms` receipt: not in default target, exits 0 even with sorryAx | Import into default target or add a CI check that greps its output | H | S |
+| P-H6 | Reproduction has no committed baseline: no green-run receipt, no expected pass count/runtime; a skeptic's RED is undiagnosable; sweep never flushes stdout (0 bytes for 30 min) | Commit a dated 780/780 receipt; add `flush=True` (reproduce_all.py:190) | H | S |
+| P-H7 | No CI runs the Python harness or process gates; lean.yml watches main only — zero CI on any working branch (75+ commits) | Add branches:["**"] + a `--quick --tracked-only` job + process_gates job | H | S |
+| P-H8 | Harness has no certificate-shape predicate: `gen_sector_bridge.py` (library imported by 112 certs, anchors never executed) and ~20 other library files counted as passing certs | Shape gate (with P-C3) + `anchors()` called under `__main__` | H | S |
+| P-H9 | Two paper certs unreachable by any sweep root (`structurally-forced.../tests/`, `observer-value-selection-theorem/zenodo.../tests/`); scope-audit gate takes the harness's own root list as ground truth (circular) | Add roots; make the gate discover `papers/**/tests/*.py` independently | H | S |
+| P-H10 | `pin14_smith_degree_gate.py`: all seven checks restate literals assigned ten lines above (cannot fail); same pattern `gu-forces/verify_legb_intersection.py`; four `a==a`-class asserts in `pin_smith_class_realization_gate.py:146-151` | Literal-derivation gate (AST; lands green-with-2-exceptions today); rewrite the two gates to derive | H | S |
+| P-H11 | `boundary-eta/verify/plus96_eta_denominator_indep_check.py` re-derives nothing (hand-typed closed forms), contradicting REPRODUCE.md's verify/ promise | Rewrite with a second derivation, or relabel the file's role honestly | H | S |
+| P-H12 | requirements "verified numpy 2.4.6" matches no installed build; 76 asserts use tolerances ≥1e-3 despite the "not floating-point tolerances" pin-free rationale | `requirements.lock` for numeric certs (pip-tools already in venv); fix the version note | H | XS |
+| P-H13 | DERIVATION-PROGRESS.md terminal entries still say the 2026-07-03 promotions are "staged … PAUSE FOR JOE" (5 occurrences) though files are canon; RESEARCH-STATUS:22 points readers there for a record that isn't there; nothing after 07-03 absorbed | Correction banner + absorb or explicitly close the log (CS) | H | S |
+| P-H14 | LANE-STATE.yaml (07-26) asserts needs_joe:false on all lanes / "Nothing needs Joe" / Lane 1 green-up-moving while portfolio holds NEEDS_JOE and 07-29/30 results (B5 BLOCKED, RB7 kill) contradict the lane story; portfolio (07-24) has B5 IN_PROGRESS vs run-plan BLOCKED | Refresh both; then P-H15 | H | S |
+| P-H15 | LANE-STATE is hand-written; every stale field is mechanically derivable (last commit touching evidence_ref; needs_joe from portfolio states) | ~50-line generator + CI check that committed == generated | H | M |
+| P-H16 | `papers/published/INDEX.md:48` lists LNF and PP3 as "Ready for Joe to post" — both published 2026-07-23 (PP3 receipt in drafting-factory); the factory's GU-based methodology paper (zenodo.21711582) uncross-referenced | Run the repo's own publication-status-reconciliation runbook | H | S |
+| P-H17 | Promotion-notice path specified 3 incompatible ways (RESEARCH-STATUS:205 `system/mailboxes/joeops/` — does not exist; AGENTS:35 system-attention; template says in-repo attention/ + envelope); actual notices live in a 4th path (joe-project-management/archive/) | Pick one path; fix all four surfaces; template too | H | XS |
+| P-H18 | RESEARCH-STATUS rows 378/397 carry unqualified "Nguyen §3.1 RESOLVED" against the same file's SHIAB-02 (selector identity OPEN); file has no "older rows are provenance" guard | Qualify rows or add the guard header (CS) | H | XS |
+| P-H19 | RESEARCH-STATUS:376 "N1 (signature audit): (9,5) confirmed — RESOLVED" vs W202/H19 UNDER-DETERMINED | Correct the row (CS; pairs with M-H4) | H | XS |
+| P-H20 | Signed-readout indexed `active_research` pointing at lab/ while `canon/signed-readout-boundary-theorem-RESULTS.md` is canon-RESOLVED (promoted 07-03); 12 canon docs (incl. the primary-question file) missing from the Current Research Map | Fix row; add missing rows (CS) | H | S |
+| P-H21 | `ghost-parity-krein-synthesis.md:128` "count is not imported from outside … latent in GU's own geometry" contradicts canon external-by-structure; its own 07-06 update banner doesn't name line 128 (Layer-0 slide) | Extend the banner to name and supersede line 128 (CS) | H | XS |
+| P-H22 | Retracted verdict alive in machine-readable frontmatter: `external-datum-ledger…07-29.md` title/outcome still "P3-IS-NOT-EXTERNAL" + body table row, against its own correction banner; companion `source-action-term-by-term…` title carries retracted D3 | Fix YAML + table rows (CS) | H | XS |
+| P-H23 | AI-authorship disclosure absent from every top-level repo surface (README, OVERVIEW, VERIFICATION, REPRODUCE, CANON, CONTRIBUTING — zero hits); manuscript discloses properly | One README paragraph: authorship model, what the human decides, what agents do | H | XS |
+| P-H24 | "Canon = agent-promoted" disclosure not co-located with the definition (CANON.md:10 defines; :125/:136 mention rule elsewhere) | One clause at CANON.md:10 | H | XS |
+| P-H25 | `docs/WHERE-GU-STANDS…` public-register breaks: "proved, with machine-checked computations, that it does not finish" (claim about GU discharged on a reconstruction), "finished, trustworthy … worth citing" (self-certification RESEARCH-POSTURE:128 forbids), ungraded ~2–3× parsimony comparison; §D recommends construction move to a separate repo — contradicted by Lane 1 with no banner | Reword bottom line; delete self-certification; grade-label; add supersession banner for §D (CS) | H | S |
+| P-H26 | Randal-Williams cited for the load-bearing e=±p₁/48 at manuscript:796 with no bibliography entry in the DOI'd deposit; W-spin hypothesis of the formula stated nowhere | Fix in a versioned Zenodo correction (v1.0.1) with M-M9; add the hypothesis | H | S |
+| P-H27 | Daily portfolio reconciliation decayed since 07-24: 59 explorations unreconciled; `PROOF-STABLE-KERNELS` READY with instructions already executed 07-22 (an agent would redo work); automation signal expired 07-21 with unclosed recheck conditions | One direct reconciliation pass | H | S |
+| P-H28 | Wave-scheduling rule absent: pw2fr suffix chain 6 levels deep, ~1.8 commits/hr, zero claim_status_change fields, open list growing (the North-Star note's failure mode) | Adopt: a wave is schedulable only if its stated outcome would move a NAMED gate; prerequisites batch | H | XS |
+| P-H29 | Exact-derivative acceptance rule absent: RB6/RB7 nulls were read inside the FD noise band | Adopt: no new interior wave until the prior wave's null is certified with exact derivatives (see M-C2) | H | XS |
+
+### A-Medium
+
+| ID | Item | Fix | I | E |
+|---|---|---|---|---|
+| P-M1 | Mutation manifest absent for the frozen paper-cited certs (9/11 mutations passed, but nothing prevents regression) | Stored claim-breaking substitutions + driver asserting mutants exit nonzero (~40 lines) | M | S |
+| P-M2 | `ghost_parity_krein.py` asserts survive the anti-self-dual triplet and identity ambient metric — certifies weaker claim than docstring/canon name | Add discriminating assert or scope the docstring | M | S |
+| P-M3 | Silent scipy-vs-Taylor `expm` fallbacks in 5 certs feed load-bearing numbers with no cross-validation | Validate fallback vs scipy once per run, or require scipy | M | S |
+| P-M4 | `gen_ch2_sx_from_codazzi.py` prints headline −5376, asserts only `!= 24`/`!= 3`; `used_chi` assert is tautological; MOVE-4 prints a placeholder `[0.0]` as a computed diagnostic | Assert the headline value; remove/label the placeholder | M | XS |
+| P-M5 | MOVE-4 sampling: i==j collisions not excluded → ~2.4% latent false-FAIL on seed change; `anomaly_inflow_toy.py` uses unseeded RNG in checks | Exclude collisions; seed the RNG | M | XS |
+| P-M6 | Asserts on hand-typed values that no computation moves (17 sites: euler_S6==2, dim_selfdual==3, etc.); boolean honesty-flags defensible, numeric ones should derive | Derive the numeric ones or mark as declared inputs | M | S |
+| P-M7 | "Positive controls first" is a real convention in 141 files but documented nowhere, and violated in 3 named certs (controls after the claim assert — machinery-dead vs claim-false indistinguishable on failure) | Document in tests/README; reorder the three | M | S |
+| P-M8 | Four grading ladders with no crosswalk (L1/L2/L3; canon tiers; README's proposal/toy/hosting grades; RESOLVED/CONDITIONALLY/OPEN) | One GRADES.md crosswalk, linked from README | M | S |
+| P-M9 | `canon/README.md` declares the whole directory "safe to cite" while 32/55 files carry non-canon YAML status (active/staged/superseded/candidate) | Scope the README claim to status:canon files | M | XS |
+| P-M10 | Repo-wide status vocabulary drift: ~8 undeclared values (active, staged, preregistration, completed, complete, blocked, verified…) vs the declared seven — makes the map non-machine-checkable | Extend the declared vocabulary or normalize frontmatter; add a lint gate | M | M |
+| P-M11 | Four authority docs lack YAML frontmatter entirely (GEOMETER-VS-PHYSICS-OBJECTS, VERIFICATION, REPRODUCE, WHERE-GU-STANDS) violating RESEARCH-STATUS:77; DERIVATION-PROGRESS + NEXT-STEPS open with UTF-8 BOM breaking strict parsers | Add frontmatter; strip BOMs | M | S |
+| P-M12 | Three provably wrong `updated_at` stamps (CANON.md 07-03 with a 07-15 section; no-go map 06-23 with 07-10 content; six-axis template 05-31 with 07-10 content) | Bump; consider a lint that flags content-date > stamp | M | XS |
+| P-M13 | `papers/published/INDEX.md` lacks the methodology-paper cross-ref; factory's `CITATION-GROUNDING` cites GU files ≤07-15 — the 07-29 surplus-audit + Layer-0 retraction are exactly its evidence class | Send a v0.6 evidence-refresh seed to the factory | M | S |
+| P-M14 | Three candidates carry `citations: PENDING` never verified (keep-and-grade, gen-number-boundary-odd-primary, observer-value-selection) | Citation passes (referee's first attack surface) | M | M |
+| P-M15 | Factory's UV-gravity hardening ask (PAPER-SEEDS:66, exact packet spec) unanswered — a valid Lane 3 signal | Answer or decline explicitly | M | S |
+| P-M16 | No referee-invitation companion to REVIEWER.md (endorser draft's bibliography-mining logic transfers; unused) | Draft "who to invite and what to ask" | M | S |
+| P-M17 | Two-arena draft undersells itself: "recompilation not reproduced, we do not advertise machine-verified" — false since 07-22 (R4TwoArena in pinned default target) | Update the caveat; cite the receipt | M | XS |
+| P-M18 | `keep-and-grade-loop-cost` W133 sharpening (Kallen-Lehmann partition) self-identified "natural insertion" never inserted (20+ days) | Insert the subsection | M | S |
+| P-M19 | `bar(b)`/H59/count labeled "Joe-gated" in CANON:138 but they are blocked on unbuilt mathematics, not a Joe decision — inflates the apparent queue | Re-label to math-gated; keep verdict-flip Joe-gated (CS) | M | XS |
+| P-M20 | `arxiv-submission-package-v7.md` is an abandoned branch (do_not_submit:true) that could be mistaken for the live arXiv path | It already carries the banner — add a pointer from papers/README to the live path | M | XS |
+| P-M21 | Sati–Schreiber 2103.01877 (nearest structured neighbor: physical count via π₃ˢ order + refined Adams e) absent from PRIOR-ART-DELTA and the novelty paragraph | Add cite-and-distinguish row | M | S |
+| P-M22 | Wan–Wang–Yau version check: LNF must cite v2 (2026-07-21, decisive for the 2/3-split) not v1; Wan 2506.19710 and three more Wang-program papers uncited | Verify bibliography; add rows | M | S |
+| P-M23 | Two 2025-26 GU formalization attempts (ResearchGate; one claims "Shiab Uniqueness") unmonitored — priority hazard | Obtain PDFs; check theorem-vs-stipulation; log | M | S |
+| P-M24 | W160's "amplitude yes, phase no" stated as GU-derived; it is the standard published everpresent-Λ property (Sorkin; Zwane+; Das+ 2307.13743) | Attribute as inherited; strengthens honesty | M | XS |
+| P-M25 | PS-chain verification file: signature-stale (rooted at Spin(7,7), no banner, updated 06-20), ships inside the LNF zenodo package while canon asserts (9,5) | Staleness/scope banner; note the (9,5)/(7,7) status (CS) | M | XS |
+| P-M26 | NEXT-STEPS.md is a 330KB append-only log whose top block is the only part read | Split live frontier into FRONTIER.md; NEXT-STEPS becomes archive | M | S |
+| P-M27 | `computational-toolchain.md` CAS-gate framing: Sage is an accelerator for the branching dictionary, not a gate for the two highest-value branchings (numpy/Racah–Speiser machinery exists in-repo) — partially corrected 2026-08-03 | DONE (OQ-RK1 row); reclassify remaining gates on next edit | M | XS |
+| P-M28 | H-07 residuals: README:100 "published preprint" one adjective strong; frozen package says "DOI remains unset" against live DOI; manuscript:706 same | "self-deposited preprint (Zenodo, not peer-reviewed)"; fix in v1.0.1 batch | M | XS |
+| P-M29 | CONTRIBUTING:27 sells "Hegelian dialectical synthesis" — aura vocabulary; posture files' honest framing (agent-methodology demonstration) not stated where contributors read | Replace with the plain description | M | XS |
+| P-M30 | Six-axis-testability venue decision ("pick a lane") pending — J-gated; its empirical core unexecuted | Joe: venue call (J-queue); then one worked demonstration | M | M |
+
+### A-Low
+
+| ID | Item | Fix | I | E |
+|---|---|---|---|---|
+| P-L1 | Lean Part B queue "Source" mnemonics unresolvable (R3, V7, A1b…); item D ("power-mean reduction") has no source doc in the repo | Add full paths; locate or drop D | L | S |
+| P-L2 | W2Polynomial `certified_theorems` include two content-free tautologies under physics names (`vertical_w2_cancels` = char-2 axiom; `y14_w2_equals_base…` = zero_add) in a machine-readable canon block | Rename or annotate as convention-encoding | L | XS |
+| P-L3 | K3IndexArithmetic "from signature" theorems are numeral checks (2=16/8) under general-relation names; header is honest | Rename or annotate | L | XS |
+| P-L4 | R4TwoArena docstring/instance-name assert Hom-vanishing the statement doesn't contain (weight-parity only; module docstring honest; ledger row honest) | Align docstring/name | L | XS |
+| P-L5 | FiniteCore census: cross-linear filter is `P ∧ ¬P` (tautological 0), sesquilinear≡bilinear and antilinear≡linear definitionally; docstring :219-220 claims derivation; :262-266 honest | Fix the :219 docstring; consider deriving the matching rules | L | S |
+| P-L6 | CoflipAbstract: `sig` field and `witnessed : Prop` formally inert (every theorem is about (ε,μ) ∈ ℤˣ×ℤˣ); README oversells | Wire the fields or descope README/docstring | L | S |
+| P-L7 | Inert numeric hypotheses (192/96/96/96) in carrier theorem read by manuscript as instantiation; Lean docstring honest; also `torsion_generator_two_primary` unused hypothesis | Annotate or remove; align V15 test copy | L | XS |
+| P-L8 | LNF deposit package `lake build` fails (no root module; only module targets work — receipts used those, so valid); reviewer hits unexplained failure | Add the root module or a README note in the package (v1.0.1 batch) | L | XS |
+| P-L9 | `no_core_item_selects_generation_integer` formalizes closure of the encoding ("I did not encode one"); manuscript reads it accurately | Optional: docstring note | L | XS |
+| P-L10 | RB7 doc says 29 preregistered controls; probe prints 30 | Reconcile | L | XS |
+| P-L11 | H44 "Deterministic RK4" is globally 2nd order (np.interp midpoints); empirically benign (1.2e-5) | Relabel or fix midpoints | L | XS |
+| P-L12 | H44 fixed-point tol 1e-12 below machine epsilon for its own quantity — loop never exits early; converged_delta is roundoff | Relative criterion | L | XS |
+| P-L13 | W129 f0_9 log-interp across a 2.5× grid gap; brentq already used elsewhere in the file | Root-solve the crossing | L | XS |
+| P-L14 | RB6 mixes absolute (1e-7) and relative (2e-5) rank tolerances for structurally similar decisions; not scale-covariant across c²/c⁴/c⁶ words; same pattern in three rs_c2 certs | Uniform relative tolerance; note in M-H2's rewrite | L | S |
+| P-L15 | DE minor set: A5 band applied GU-only vs its own "common to both" text (±6χ² swing on the ΛCDM control); digit-verification partly repo-vs-repo (A3/A4/A5/A7); radiation in θ★ leg but not BAO E(z) (~0.29 χ², common-mode); "~4.65σ (1-dof equiv)" printed for non-nested zero-parameter comparison; `chi2_marg_amplitude` is a profile not marginalisation (0.11 effect); DR1/DR2 mixing in canon file title/refs vs test chain | Shared-band fix; A-row provenance note; add radiation to E(z); delete σ print; rename; retitle + banner (CS for the last) | L→M | S |
+| P-L16 | Notation/wording: `e_R(ν)=1/24=denom(B₂/4)` (should be 24); "power-of-two balance" for 96=2⁵·3 (self-corrected later in file); "Dynkin index 4" normalization-dependent; "128" means dim_R S± and dim_C S in one canon file; Sp(64)=U(64,H) is compact — wrong real form for a Spin(9,5)-containing group (GL(64,H) or Sp(m,n)); commutant is M(14,R)⊗M(64,H) not M(14,C)⊗; PS "ambiguity #4" right conclusion wrong reason (ω²=−1 both, not "only total dim matters") | Six one-line fixes (CS-lite) | L | S |
+| P-L17 | IDX wording set: [Â]₁₆ described as classes "of TY14" (vanish on a 14-manifold; descent convention unstated); "two indices pin 5 coefficients" (2 equations, 5 unknowns — the real check is the verify/ re-derivation); APS on closed K3 with fabricated S³ boundary (decorative; η=0 does no work); DECOUPLE table lists denominator 8 for a measured 0; δ-independence argued via "compact perturbation" (bounded, not compact; conclusion right via norm-continuity); ch₂ H-line normalization mixes Cl(9,5) type into a compact Spin(14) computation | Five wording/one typing fix | L | S |
+| P-L18 | Cert-lens residue: broad `except` sites are all import-fallbacks (fine) — document the pattern; `tests/README.md` claim-map accuracy unchecked per-directory | Optional doc + one pass | L | S |
+| P-L19 | Wiki continuity: this audit/panel/register sequence is a meaningful boundary; no Thinking Wiki event routed (wiki was dirty at last attempt 07-30) | Route one create-only pointer event when wiki volume is writable | L | XS |
+
+---
+
+## PART B — MATH RESEARCH APPROACH
+
+### B-Critical
+
+| ID | Item | Next step | I | E |
+|---|---|---|---|---|
+| M-C1 | **FC3 fired, unrecorded**: repo's own cert computes ch₂(S(6,4))[K3] = −1152 ≠ 0; `ind_H = Â·rank = 16` arithmetically dead; 16+8=24 chain over; live consumers remain (decider PART C, NEXT-FRONTIER H1(c)) | Record FC3 FIRED; banner oq-rk2 + consumers; retire the chain from live docs (CS) | C | S |
+| M-C2 | **FD-noise verdict class**: RB7 vertical residual is exactly 0 (published 0.00361491 is s⁻³ roundoff; numbers machine-dependent); RB6 "no nonzero Q resolved" asserted inside declared noise band; two RB7 preregistered controls assert properties of an exactly-zero quantity (will break under any better numerics); W177 floor is FD-limited | Build the exact-derivative library (∂G, ∂²G closed-form — prototype exists in session scratchpad); re-run RB6/RB7/W177 gates; re-issue verdicts (kill likely survives; evidence becomes structural) (CS on re-issue) | C | M |
+| M-C3 | **Krein-sign trichotomy (U6/O1)**: uniqueness theorem + W219 make the sign question computable — generate the observable algebra on ker Γ (1664-dim), compute commutant (tensor shortcut), check compactness: irreducible+compact ⇒ sign FORCED; reducible ⇒ missing datum's type/dimension computed; non-compact ⇒ F=∅ ⇒ firewall positivity forced. Retires "one externally-owned bit" framing in any outcome | Run the commutant computation (existing fixtures; expected H·I); then Prop-1 compactness check; results may be J5-gated | C | S–M |
+| M-C4 | **Inflow can't carry ℤ/3 (U1)**: "anomaly inflow is the sole bridge" (CRT canon:40) + "spin Dai-Freed ledger has NO 3-primary column" (global-anomaly-leg:252) = the single-decider's SPT route (iii) dies; count-bridge forced onto framed/Pin/String structures. Near-theorem split across two files | Write the one-equation assembly + 3-primary component check; state the consequence for the decider (CS) | C | S |
+
+### B-High
+
+| ID | Item | Next step | I | E |
+|---|---|---|---|---|
+| M-H1 | **OQ-RK1 branching already filed (U2)**: B5 observer-symbol matrix contains the D₂×D₅ ledger; (3,2,16±) = 4D gravitino with Spin(10)-16 multiplicity; twist = S(6,4)^chiral rank_C 16 | Restrict existing J to branched slots; determine within-16⁺ vs 16⁺↔16⁻; Layer-0 fence: naming the H-structure factorization IS the deliverable (numpy, 4–8 h) | H | S |
+| M-H2 | **Λ⁵ = internal 126 (U5) + SHIAB-05 correction**: same-chirality channels at every odd k; Λ⁵(ℝ¹⁴) ⊃ 252 = 126⊕126̄ as Lorentz singlet (verified); "external source-action spurion" sentence is a Layer-0 equivocation (14D vs 4D scalar) | Branch Λ⁵(V₁₄) under so(3,1)⊕so(6,4) → PS; explicit Hom on the 128-dim rep (MOVE-4 harness); correct SHIAB-05's consequence sentence (CS) | H | M |
+| M-H3 | **Seesaw retrodiction page (U5b)**: SU(4)_c forces m_D^ν = m_up at PS scale ⇒ m_ν₃ ≈ m_t²/M_R ⇒ M_R ≈ 6×10¹⁴ GeV (verified arithmetic) — zero-parameter retrodiction, never written; b–τ unification same machinery | One page: RG run + seesaw formula, filed as posit with declared surplus | H | S |
+| M-H4 | **Signature crux absorption (U10/R5)**: canon "confirmed by Frobenius" is false (fiber quadratic in g — verified by hand); Kramers wall is (9,5)-only; (7,7) = M(128,ℝ) removes the halving (every dim_H restates) and its O(p,q) Krein form may FORCE the sign (9,5) leaves open; it is the signature of the verified PS chain | Correct canon sentence (CS); build the reality-class ledger table ((9,5) ℍ-value vs (7,7) ℝ-value per count-chain integer); compute the (7,7) stabilizer commutant | H | M |
+| M-H5 | **η̃ / bridge gap (i) (U4)**: ν ≅ ℝ ⊕ Sym²(Q*) (panel derivation), trivial over RP³ ⇒ link = RP³×S⁶; Lichnerowicz kills ker D^{S⁶} ⇒ BC applies with no Dai terms; fiberwise reflection candidate ⇒ η̃ = 0 — would close gap (i) from geometry alone. Referee first: reflection vs spin structure/horizontal distribution; then the twisted 7-dim base integral | Verify ν decomposition (half-day); SW/triviality check (hours); reflection lemma (1–2 d); then the base integral | H | M |
+| M-H6 | **MOVE-5 repair (with P-C2)**: alt-timelike carrier selected by round(·,3)+1e-3 window picking a 64-dim non-triplet level (Casimir 60/7), empties at 1e-4; worst_flip computed but never gated; exact Casimir spectrum {0,3,8}×{640,832,192} available | Replace with exact integer-eigenvalue clustering; gate worst_flip; document the alt-signature scope honestly (CS) | H | S |
+| M-H7 | **Dim-13 restatement (U3a)**: located-not-forced currently proved about the RP³ surrogate; π₁₃ˢ = ℤ/3 purely 3-primary, Im J₁₃ = 0, no String needed (leg_tmf gate vacuous for framed) — "boundary group cannot express the interior obstruction's type" | Restate the disjointness core in dim 13; fix leg_tmf gate; add Ω^Spin₁₃ = 0 citation | H | S–M |
+| M-H8 | **Bunke dictionary (U3b)**: universal eta derives Adams e (arXiv:1103.4217) — the dictionary canon:71 says doesn't exist; likely converts gap (iii) into a no-go (η-derived torsion invariant ≠ integer count) | 2-page specialization note; state the gap-(iii) consequence (CS if it closes) | H | S–M |
+| M-H9 | **B5 signature test (U7/O2)**: eleven parity values = inertia classes (k,10−k) on ten mirror edges; ε_e are FS-type indicators; prediction (9,5)⇒(58,78), (7,7)⇒(78,58) endpoints only — would derive B5 fields (i)–(iii) natively | Compute the ten indicators via the in-file Racah–Speiser machinery; rerun under (7,7) | H | M |
+| M-H10 | **Bär–Ballmann / boundary-triple skeleton (O3/F4)**: fields (iv)–(v) (Green form, common closed domain) are what the BVP literature constructs generically (1101.1196; non-self-adjoint 1906.08581; non-compact boundary 2401.17784 — zero repo cites); unblocks B5 + OPERATOR-END-PENCIL + RB8 at once; fail-closed contract satisfied natively (symbol-determined pairing; Krein via maximal-isotropic domains) | Write the skeleton against the frozen (9,5)/RS symbol; reorder RB8 before RB7.1 | H | L |
+| M-H11 | **RB7 inertia + coercivity (U8/O6)**: saddle verdict uses plain Hessian eigenvalues on a DeWitt-indefinite fiber — only inertia of (Hess, G_V) is invariant; may retire the kill; stabilization is a classification: coercive on the commuting cone ⇔ ker(D⁰)∩ker(C)∩{commuting} = {0} — decidable in days, replacing RB7.1's search; candidate stabilizer = the exact (9/32)(I+T_tr) Gram quartic; physics reading: index-2 saddle = anisotropic (54-direction) VEV branch self-selecting | Re-report inertia (hours, CS if verdict moves); compute the kernel condition; only then a stabilized RB7.1 | H | S–M |
+| M-H12 | **DE language + family/point split (DE-01..05)**: "~3.2σ" is 2-dof radius (≈2.7σ; 2.5–3.0 over own ρ-scan); f₀ bounds ~3× looser profiled (0.027→~0.08); "+5.7σ_A" misdiagnosis (ΛCDM +4.0σ_A; real mechanism +19.3 shape — strengthens conclusion restated); "SNe can only hurt" physics error (no H0 info in uncalibrated SNe); family dAIC +1.9..+3.2 below own decisive line — headline should read signal-level-excluded / family-unconstrained | Correct canon + RESEARCH-STATUS wording (CS); the signal-level exclusion itself STANDS | H | S |
+| M-H13 | **DESI shape ↔ record accretion (U9)**: exclusion mechanism = too little low-z evolution; W187's r(N)=κ₀√N is a GU-native monotone-in-time coefficient — never connected | Re-solve background with r(N(z)); refit θ★; report Δχ²_shape | H | M |
+| M-H14 | **GS factorization as source-action constraint B.7 (topo-6)**: with the corrected 493-density, solve which (n₁/₂, n₃/₂, n_SD-tensor) contents cancel tr R⁸; either a new hard requirement on the spec sheet or "no content cancels" (a falsification) | Extend MOVE-1's exact-Fraction engine; linear solve + factorization test (1–2 d) | H | M |
+| M-H15 | **MOVE-1 coefficient propagation (B3)**: 493/2419200 [twice independently verified; already in global-anomaly-leg 07-20] vs published 13/37800; qualitative verdict survives | Propagate to MOVE-1 owner surfaces + tests/chase/README (CS) | H | S |
+| M-H16 | **|winding|=1 null hypothesis (phys-6)**: unstated for the dynamical-wall program — hosting read as selection is the exact recurring failure | One preregistration line in the SRC-TOY-01 rung-2 prereg | H | XS |
+
+### B-Medium
+
+| ID | Item | Next step | I | E |
+|---|---|---|---|---|
+| M-M1 | Signature-independent Λ⁰ lemma (R7/RT-O1): p+q ≡ 2 mod 4 ⇒ dim Hom(S⁺⊗S⁺,Λ⁰)=0 — replaces the 4-case sweep, immunizes fact A against the fork; Lean-able | 2-line proof + corollary; optional Lean | M | S |
+| M-M2 | Form-spinor decomposition (RT-O2): Λ²⊗S⁺ = S⁺⊕Σ₁⁺⊕Σ₂⁺ etc. replaces the |W(D₇)|=322560 sum; with End=ℍ gives the corrected real count 16 | Write it; fixes RT-F3 (family dim 16 not 8 — canon 8→4 sentence also wrong constraint name) (CS) | M | S |
+| M-M3 | Parity-theorem strengthening (RT-O3): GU-native algebra = full commutant M(896,ℍ); every even index realizable; count=dim_H the natural reading | State as theorem; canon note (CS) | M | S |
+| M-M4 | Branching dictionary (R4): one Sage/Racah–Speiser module → Λ^kV⊗S^± decompositions + PS branching + reality types; discharges FC-IRR/FC-HW/FC-MULT/OQ1/OQ-CG-2 and serves M-H1/M-H2 from one build (J2-gated for Sage; D₅ machinery exists without) | Build after J2; cache to JSON | M | M |
+| M-M5 | Kobayashi program (R3): discrete decomposability for (O(9,5), O(3,1)×O(6,4)) — decidable cone criterion; minimal rep's null-cone realization = exact-math firewall instance | Literature-verify (oq3b standard), then the root-system computation | M | M |
+| M-M6 | f-invariant program (U3c): the detector for α₁β₁ where e is dead; α₁·β₁ factorization posit (3+10=13) with counted surplus; needs (U,fr)² corner data — the Y¹⁴ end has one naturally | Scope Laures/Bunke–Naumann; first number on the RP³×S⁶ model | M | L |
+| M-M7 | κ(M) firewall number (O4): boundary-triple Weyl function; N_κ vs Nevanlinna dichotomy = closed-completion vs firewall; bulk type-III result (rankN-krein-tt) blocks bulk Π_κ but NOT the boundary — the wall becomes evidence FOR the hypothesis | After M-H10; conceptual write-up now | M | L |
+| M-M8 | η=0 wall dedup + honest 13-dim η (O5/IDX-05/OPP-05): four results = one Hodge-type ansatz; odd-dim boundary has central volume element (no grading, η unobstructed); H37's (H+V)²=H² over-strong; APS-II/Donnelly tooling in-repo | Consolidation note (CS); the honest fibered η is M-H5's follow-on | M | M |
+| M-M9 | Framing composite mod-3 (topo-5/HB-02): {0,4} → decided integer; H¹(RP³;ℤ/2) shifts are 2-primary so 3-part = deg f mod 3; also fix the "independent derivation matching" language (HB-01) and add the W-spin hypothesis (with P-H26 in v1.0.1) | One-afternoon computation + text fixes (CS) | M | S |
+| M-M10 | ρ-invariant immunity lemma (topo-7): π₁=ℤ/2 ⇒ twisted-untwisted η difference ∈ ℤ[1/2] — permanently immunizes the 3-part against the four flagged 2-adic convention worries | 3–4 h write-up with Donnelly/APS-III citation | M | S |
+| M-M11 | Pin⁺₁₄ derivation promote + coprimality (topo-10/HB-06): the ABP+Smith chain (written in the audit) replaces recitation; ℤ/2 (14) ⊥ ℤ/3 (13) — Pin flavor cannot contaminate the count; fixes the portfolio-gate violation | Promote with the chain; leave class-realization open | M | S |
+| M-M12 | TQFT/Freed-Teleman axiomatization probe (strat-①): is GU's class the nontrivial element of Ω^{Pin+}₁₄ ≅ ℤ/2? If non-anomalous, the firewall has no home — bounded, well-posed | Write the functorial statement; the class-map question is ANOMALY-DESCENT T1 sharpened | M | M |
+| M-M13 | HB-05 Rokhlin retype: lives in Ω^Spin₄ ≅ ℤ (σ/16), not Ω^{Pin+}₄ ≅ ℤ/16; ladder count becomes 4 structural + 3 blocked (2-primarity itself unaffected) | Fix ladder + two-primary-lemma text (CS) | M | S |
+| M-M14 | IDX-02 decider repair: BC even/odd-fiber statement inverted; "transparent [PROVEN]" unearned; honest output is ∫Â∧η̃ over the right base (shape mismatch with "scalar e-invariant on the spine") | Fix PART B text + gate; connects to M-H5 (CS) | M | S |
+| M-M15 | IDX-04/B9: symbol-eta is content-free (±|p| automatic); remove from "honest global numbers"; "Z-valued APS eta" type error in H37 | Correct capstone + H37 (CS) | M | XS |
+| M-M16 | IDX-06: C2 = √(3328/7)·‖ξ‖_E closed-form, frame-dependent — retire "~94% global" and the derived percentages; keep the FORCED_ANALOGY verdict | Correct the two files + DERIVATION-PROGRESS echoes (CS) | M | S |
+| M-M17 | IDX-07: b-calculus half-infinite window impossible; noncompact face needs many-body/Vasy or fibered-boundary calculus; discrete-sector conditional vacuous by in-repo FJ rank count (OPP-04: promote the PRIORITY NOTE into both oc2 verdict lines); stale ind=24 import | Banner + verdict-line fixes (CS) | M | S |
+| M-M18 | DE additions (DE-12/13/14/15): DESI-w0waCDM positive control through the θ★ pipeline (~30 lines, proves pipeline unbiased); ρ from public DR2 chains; SNe pure-shape leg (M_B-marginalized — the named residual, cheap and decisive); 3-param compressed Planck likelihood (direction: strengthens exclusion) | Four bounded additions to the wave45/46/W129 chain | M | M |
+| M-M19 | Λ⁵-VEV surplus audit (R8): run the b5-constraint-surplus template on the internal-126 posit before anyone argues about it | After M-H2 | M | S |
+| M-M20 | Boundary EFT matching (phys-8): a minimal 13d defect action gives the shared object that made B5's surplus UNCOMPUTABLE; precondition for surplus-guided search | After M-H10 skeleton | M | M |
+| M-M21 | Z₃ vs Z₂ matter parity (phys-7): does the Λ⁵/126 VEV leave ℤ₃ (semi-annihilating DM — distinctive phenomenology) and is it the boundary's 3-primary structure? | Compute the residual discrete subgroup | M | M |
+| M-M22 | RG run (phys-10): sin²θ_W = 3/8 earned; metric slot forces PS-side D-even (Sym²(10)=1+54); output M_PS, M_U → τ_p / τ_{n-n̄} (flagship is n–n̄, not p→e⁺π⁰); feeds M_R into M-H3 | Standard 2-loop RGEs | M | M |
+| M-M23 | LC-SELECTOR reframe (O7): neutral-on-deficiency = the symplectic/Lagrangian regime of boundary triples, not a dead end; is the ℤ/2 orientation datum a w₁ obstruction or a choice in a connected Lagrangian Grassmannian? | After M-H10 | M | M |
+| M-M24 | κ-EP prediction (O8): finite boundary κ bounds the number of exceptional/bistability points — first quantitative firewall claim; feeds the open-krein-loop draft | After M-M7 | M | M |
+| M-M25 | Crandall–Rabinowitz on the RB7 branch family (O9): local normal form decides which branches continue into the curved problem before any completion is chosen | 1 week | M | M |
+| M-M26 | Observer-value rank-1 scoping (F10): Π₁ Tomita–Takesaki analogue published — sharpen "operator-algebra frontier" to "solved at rank 1, open at rank>1" (verify the reference first) | Citation + one sentence | M | S |
+| M-M27 | Kirby–Melvin lens table for all L(p;q) (HB-11d): adversarial control — is the nonzero 3-part special to p=2? | Table computation | M | S |
+
+### B-Low
+
+| ID | Item | Next step | I | E |
+|---|---|---|---|---|
+| M-L1 | Sage-not-a-gate reclassification residue (R9): after M-M4, re-audit which toolchain gates remain genuinely CAS-bound | Ledger edit | L | XS |
+| M-L2 | Howe-duality framing (rep-panel): the Λ•V⊗S dictionary as one osp(1|2)-commutant object — elegant unification, value mostly expository after M-M4 | Optional note | L | S |
+| M-L3 | Lattice-Y¹⁴ toy: only if SRC-TOY rung 2 proceeds (inherits hosting-not-selection otherwise) | Hold | L | — |
+| M-L4 | S-matrix positivity bounds: needs the unbuilt 4d EFT and a unitarity premise the Krein structure breaks — structurally circular today | Hold until a 4d effective action exists | L | — |
+| M-L5 | Twistor methods: guardrail file already gates this; the tangential/gauge fork it would probe is resolved | Skip | L | — |
+| M-L6 | Deformation quantization: no identified Poisson structure; live version is the started BV-BFV boundary work | Skip as separate item | L | — |
+| M-L7 | Numerical spectral geometry on the link: provably cannot see ℤ/3 (own 2-primary lemma) — wrong instrument; framed/tmf data is the right one (M-M6) | Do not schedule as spectral | L | — |
+
+---
+
+## PART C — IMPACT × EFFORT MATRIX
+
+Quadrants (impact C/H = high; effort XS/S = low). Every register item appears
+exactly once, by ID.
+
+**Q1 — HIGH IMPACT, LOW EFFORT (the low-hanging fruit; 27 items):**
+P-C1 P-C4 P-C5 P-C6 P-C7 P-C2 · P-H1 P-H3 P-H4 P-H6 P-H7 P-H12 P-H17
+P-H18 P-H19 P-H21 P-H22 P-H23 P-H24 P-H28 P-H29 ·
+M-C1 M-C3 M-C4 · M-H1 M-H3 M-H12 M-H15 M-H16 M-H6
+
+**Q2 — HIGH IMPACT, HIGHER EFFORT (schedule deliberately):**
+P-C3 P-H2 P-H5 P-H8 P-H9 P-H10 P-H11 P-H13 P-H14 P-H15 P-H16 P-H20
+P-H25 P-H26 P-H27 · M-C2 M-H2 M-H4 M-H5 M-H7 M-H8 M-H9 M-H10 M-H11
+M-H13 M-H14
+
+**Q3 — MEDIUM IMPACT, LOW EFFORT (batch alongside Q1):**
+P-M4 P-M5 P-M9 P-M12 P-M17 P-M19 P-M20 P-M24 P-M25 P-M27 P-M28 P-M29 ·
+M-M1 M-M2 M-M3 M-M10 M-M11 M-M13 M-M15 M-M16 M-M17 M-M26 M-M27 M-M9 ·
+P-L2 P-L3 P-L4 P-L7 P-L8 P-L9 P-L10 P-L11 P-L12 P-L13 P-L19
+
+**Q4 — MEDIUM/LOW IMPACT, HIGHER EFFORT (opportunistic or hold):**
+P-M1 P-M2 P-M3 P-M6 P-M7 P-M8 P-M10 P-M11 P-M13 P-M14 P-M15 P-M16
+P-M18 P-M21 P-M22 P-M23 P-M26 P-M30 · P-L1 P-L5 P-L6 P-L14 P-L15 P-L16
+P-L17 P-L18 · M-M4 M-M5 M-M6 M-M7 M-M8 M-M12 M-M14 M-M18 M-M19 M-M20
+M-M21 M-M22 M-M23 M-M24 M-M25 · M-L1 M-L2 · (hold: M-L3 M-L4 M-L5 M-L6 M-L7)
+
+---
+
+## PART D — IMPLEMENTATION PLAN
+
+### Tier 0 — Joe decisions (~40 min; unblock the batches)
+
+| J# | Decision | Unblocks |
+|---|---|---|
+| J1 | Send the arXiv endorsement email (drafted at `papers/candidates/located-not-forced/ENDORSER-REQUEST-DRAFT.md`) | External-review channel; Part-II sequencing |
+| J2 | `brew install --cask sage` in a terminal | M-M4 dictionary; remaining CAS gates |
+| J3 | Name the trunk; authorize merge/tag to main | P-C1; CI value of P-H7 |
+| J4 | Authorize seeding the 4 finished GU-independent assets to Drafting Factory | Banked value; the audit's F-03 |
+| J5 | Standing answer: may a decisive Tier-1 computation move bar(b)/H59/count (currently Joe-gated)? | M-C3, M-C4, M-H1 result deposit |
+
+### Batch 1 — Process quick wins (Q1-process + Q3 doc fixes; ~1 agent-day; no claim flips, CS items via the workflow)
+
+1. P-C6, P-H1, P-H3, P-H4 (Lean ledger truth pass) → then P-H2, P-H5.
+2. P-C4, P-C5, P-C7, P-H18, P-H19, P-H21, P-H22 (status-surface truth pass, CS).
+3. P-C2 process half (failure paths in MOVE-5 + verify; owner-surface wording).
+4. P-H6, P-H7, P-H12 (receipt, CI, lockfile) — P-H7 lands fully after J3.
+5. P-H17, P-H23, P-H24, P-H28, P-H29 (one-paragraph/one-clause items).
+6. Q3 doc-fix batch: P-M4/5/9/12/17/19/20/24/25/27/28/29, P-L2/3/4/7/8/9/10/11/12/13.
+7. P-C1 preparation (merge plan + REVIEWER.md SHA) — executes on J3.
+
+### Batch 2 — Math quick wins (Q1-math + Q3-math; ~2–3 agent-days, sequenced by dependency)
+
+1. M-C4 (inflow assembly — pure write-up of two existing results, CS).
+2. M-C1 (FC3 FIRED + chain retirement, CS).
+3. M-H15 (MOVE-1 coefficient propagation, CS) and M-M16 (C2 94% retirement, CS).
+4. M-H6 (MOVE-5 carrier fix — exact Casimir clustering; with P-C2).
+5. M-C3 (the trichotomy commutant computation; deposit gated on J5).
+6. M-H1 (J-restriction on the B5 ledger; Layer-0 fence stated first).
+7. M-H3 (seesaw retrodiction page) and M-H16 (|winding|=1 prereg line).
+8. M-H12 (DE language corrections, CS) + M-M15 (symbol-eta removal).
+9. M-M1/M-M2/M-M3 (three short rep-theory lemma write-ups).
+10. M-M10 (ρ-immunity lemma), M-M11 (Pin⁺ promote), M-M13 (Rokhlin retype),
+    M-M9 (framing mod-3 afternoon computation).
+
+### Batch 3 — Structural (Q2; schedule after Batches 1–2 land)
+
+Process: P-C3 shape-gate + 70-cert campaign; P-H8/9/10/11 harness gates;
+P-H13/14/16/27 ledger reconciliations; P-H15 derived LANE-STATE; P-H25
+capstone rewrite; P-H26 + P-M28 + P-L8 as one Zenodo v1.0.1 correction batch.
+Math: M-C2 exact-derivative library then RB re-verdicts; M-H2 Λ⁵ branching;
+M-H4 (7,7) ledger; M-H5 η̃ (referee the reflection lemma first); M-H7/M-H8
+dim-13 + Bunke; M-H9 B5 signature test; M-H11 inertia + kernel condition;
+M-H13 r(N(z)) refit; M-H14 GS/B.7 solve; M-H10 Bär–Ballmann skeleton
+(unlocks M-M7/M-M20/M-M23/M-M24).
+
+### Sequencing notes
+
+- Process and math batches are independent; run them in parallel or series
+  per capacity. CS-marked items go through the consistency workflow
+  regardless of batch.
+- The live `agent/null-clifford-omega1-repair` campaign is subject to P-H28/29
+  from the moment they are adopted; nothing else in this plan touches it.
+- Discovery risk: M-C3, M-H1, M-H9, M-H5 are fork-resolvers — any of them may
+  re-rank the remainder of Batch 3. Re-visit this register after each lands.
