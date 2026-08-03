@@ -1,7 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """WP-A4 / register item M-C3 — Krein-sign trichotomy input:
-commutant of the constructed GU-native observable algebra on the record sector ker Gamma.
+commutant of the COMPRESSION algebra of GU-native blocks on the record sector ker Gamma.
+
+CORRECTIONS APPLIED 2026-08-03 per the hostile field-specialist review
+(lab/process/hostile-reviews/2026-08-03-trichotomy-review.md), corrections 1-12:
+object retyped (COMPRESSION algebra, not a Dirac observable algebra — the census in
+section [8] shows exactly 1 of the 44 generators preserves ker Gamma); Burnside
+disclosure (A is the FULL matrix algebra); elementary warrant replacing the
+Theorem-2 invocation; "+ compact" antecedent restored in fence (3); branch
+relabeled (Prop 1 APPLIES and returns F = empty — not a "firewall"/deny-Prop-1
+escape); structural-signature derivation and covariant-contrast run added as
+asserts (section [8]).  Every previously computed number was CONFIRMED by the
+review's independent re-run.
 
 WHAT THIS COMPUTES (exact finite computation; trichotomy input only)
 --------------------------------------------------------------------
@@ -21,6 +32,18 @@ sigma_ij = (1/2) e_i e_j, 12 compressed so(9,5) frame generators M_ij (x) I, and
 compressed M_D.  Adding generators can only SHRINK a commutant, so certifying
 commutant = C.I for this sub-list certifies it for the full generating family.
 
+TYPE DISCLOSURE (review A1/A2/C9): exactly ONE of these 44 generators (the volume
+word omega) preserves ker Gamma; the other 43 are compressions of
+constraint-violating operators, and compression is not an algebra homomorphism —
+so A is a COMPRESSION algebra, not the Dirac (constraint-preserving) observable
+algebra of the surface.  Moreover the family is unital and adjoint-closed with
+trivial commutant, so by the double-commutant (Burnside) theorem A is the FULL
+matrix algebra: A_C = M(1664,C), A_R = End_H(V) = M(832,H).  Commutant-triviality
+is therefore near-tautological for THIS generating choice — the trichotomy branch
+was chosen, not discovered: the constraint-preserving covariant (diagonal
+Spin(9,5)) choice lands on the REDUCIBLE branch (contrast run, section [8],
+dim_C >= 2).
+
 Commutant method (deliberately NOT a blind 1664^2 nullspace solve):
   (i)  Spectral-graph certificate on V.  A generic Hermitian element H1 of the
        complexified algebra (legitimate: the generator list is verified adjoint-closed)
@@ -34,38 +57,61 @@ Commutant method (deliberately NOT a blind 1664^2 nullspace solve):
        H-linear scalars are span{1, i, J, iJ}; imposing the frame part forces Y = c I
        (the nullspace of Y -> [Y, so(9,5)] on 14x14 matrices is computed and is
        1-dimensional); imposing the projector and M_D is then automatic (both are
-       H-linear, verified).
+       H-linear, verified).  CONSISTENCY CHECK ONLY (review A5): compression is not
+       an algebra homomorphism, so (ii) does not independently certify the
+       record-sector commutant; certificate (i) is the one that bears.
   Antilinear leg: the fixtures' quaternionic structure J (J^2 = -1) preserves V and
   commutes with every generator (H-linearity defects ~ 1e-9), so the REAL commutant is
   (complex commutant) + (complex commutant).J.
 
 Trichotomy read-out (computed, not assumed):
   - If dim_C commutant = 1: real commutant = span_R{I, iI, J, iJ} = H.I (dim_R 4);
-    V is irreducible over H under A; the only complex-linear involutions in the
-    commutant are +/-I, and every antilinear element of the commutant squares to
-    -|c|^2 <= 0 (no antilinear involution): the Theorem-2 residual-family dimension
-    sum_lambda dim_R(D_lambda) a_lambda b_lambda = 0.  No residual family.
+    V is irreducible over H under A.  ELEMENTARY warrant (review A3; Theorem 2 is
+    NOT invoked — its hypotheses, compact closure + K-invariant positive form, fail
+    here, and forcing it would contradict the computed (832,832)): End_A(V) = H.I
+    means the commuting involution candidates are {cI : c^2 = 1} = {+/-I} together
+    with the antilinear cJ, and (cJ)^2 = -|c|^2 != 1, so F is contained in {+/-I};
+    the residual-family dimension sum_lambda dim_R(D_lambda) a_lambda b_lambda = 0
+    (reported as arithmetic, not as a Theorem-2 application).  No residual family.
   - Existence leg (Prop 1): admissibility of +/-I against the constructed Krein form
     eta_14 (x) beta restricted to V is decided by its computed signature; the algebra
     contains the compressed diagonal Spin(9,5) boost directions, and the probe exhibits
     a finite unboundedness WITNESS (exponential growth of ||exp(t D) v|| on V) for a
     boost one-parameter subgroup lying inside O(eta_V), with a compact rotation
     direction as bounded contrast control.  By the necessity leg of Prop 1, any
-    invariance group containing that subgroup admits NO positivity-majorant.  Relative
-    compactness of the closure of the FULL generated group is NOT decided by any finite
-    list of matrix identities; the witness certifies non-compactness of specific
-    directions only, and whether GU's physical observable algebra retains them is
-    exactly W219 (open).
+    invariance group containing that subgroup admits NO positivity-majorant — for
+    EVERY nondegenerate form and EVERY invariance structure containing that
+    direction (the necessity leg uses no property of eta_V; review B1).  The
+    computed signature (832,832) is STRUCTURAL, not merely numerical: omega
+    anticommutes with beta exactly, so eta_V(omega x, omega y) = -eta_V(x, y) and
+    both omega-chirality halves of V (each dim 832) are totally isotropic —
+    neutrality is forced by the Clifford algebra (asserted in section [8]).
+    Relative compactness of the closure of the FULL generated group is NOT decided
+    by any finite list of matrix identities; the witness certifies non-compactness
+    of specific directions only, and whether any physical observable algebra on a
+    derived good-stable retains them is exactly W219 (open).  F = empty here is
+    Prop 1 APPLYING and returning empty — NOT the canon "deny Proposition 1 (the
+    firewall boundary)" escape, which rejects the criterion; it is the normal
+    covariant indefinite-metric situation (Gupta-Bleuler), and the standard second
+    exit (physical-subspace selection / BRST quotient, draft skeleton §4.2) is not
+    built here either.
 
 MANDATORY FENCES (verbatim):
-  (1) this computes the commutant of the CONSTRUCTED algebra on the KINEMATIC carrier;
-      whether this is GU's physical observable algebra is exactly the open
-      dynamical-stabilizer question (W219);
+  (1) this computes the commutant of the COMPRESSION algebra of GU-native blocks on
+      the KINEMATIC carrier; A is NOT an observable algebra in the Dirac
+      (constraint-preserving) sense — 43 of its 44 generators are compressions of
+      constraint-violating operators (census, section [8]) — and by Burnside it is
+      the FULL matrix algebra End_H(V) = M(832,H); whether any physical observable
+      algebra survives on this carrier is exactly the open dynamical-stabilizer
+      question (W219);
   (2) no verdict, bar(b), H59, or claim-status change is made by this probe — per
       Joe's 2026-08-03 standing rule, moving any such bar additionally requires a
-      hostile field-specialist review, which has not happened;
-  (3) irreducible ⇒ "sign forced IF this is the observable algebra"; reducible ⇒
-      report the computed Σ dim formula value as the size of the residual family.
+      hostile field-specialist review of the bar-moving claim; the 2026-08-03
+      review of THIS probe licenses nothing verdict-adjacent;
+  (3) irreducible + compact ⇒ "sign forced IF this is the observable algebra"
+      (this run: irreducible but NON-compact — no sign is forced, F = empty);
+      reducible ⇒ report the computed Σ dim formula value as the size of the
+      residual family.
 
 Run:
   PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python -u \
@@ -361,8 +407,9 @@ def main():
           f"min gap {mingap1:.3e}, spread {spread1:.3e}")
     check("component count stable across edge thresholds 1e-4/1e-6/1e-8 (seed 101)",
           len(set(nc1.values())) == 1, str(nc1))
-    print(f"  seed 101: dim_C commutant = {nc1[1e-6]}; edge separation: largest sub-threshold "
-          f"rel entry {sep1[0]:.2e}, smallest supra-threshold {sep1[1]:.2e}", flush=True)
+    print(f"  seed 101: dim_C commutant = {nc1[1e-6]}; edge separation (diagnostic only, "
+          f"not evidence): largest sub-threshold rel entry {sep1[0]:.2e}, "
+          f"smallest supra-threshold {sep1[1]:.2e}", flush=True)
     rng2 = np.random.default_rng(555)
     sub_idx = rng2.choice(len(Klist), size=22, replace=False)
     Ksub = [Klist[i] for i in sub_idx]
@@ -464,19 +511,107 @@ def main():
     check("rotation flow bounded on V (compact contrast control)",
           abs(rates["rotation(0,1)"]) < 1e-8, f"rate {rates['rotation(0,1)']:.2e}")
 
-    # ----------------------------------------------------------------- [8] verdict
+    # ------------- [8] review additions (2026-08-03): constraint census (C9),
+    #               structural signature (C4), covariant-contrast run (C8)
+    print("== [8] review additions: constraint census, structural signature, "
+          "covariant contrast ==", flush=True)
+
+    def amb_spinor(x):  # ambient (I (x) x) B, no compression
+        y = np.tensordot(x, B.reshape(N, DIM, NV), axes=([1], [1]))
+        return np.ascontiguousarray(y.transpose(1, 0, 2)).reshape(N * DIM, NV)
+
+    def amb_vector(M):  # ambient (M (x) I) B
+        return (M.astype(complex) @ B.reshape(N, DIM * NV)).reshape(N * DIM, NV)
+
+    # C9 census: how many of the 44 generators' AMBIENT counterparts preserve ker Gamma?
+    amb_cols = [(f"cl:e{a}", amb_spinor(e[a])) for a in range(N)]
+    amb_cols += [(f"clw:{nm_w}", amb_spinor(word(e, idx))) for nm_w, idx in WORDS]
+    amb_cols += [(f"sigma:{i},{j}", amb_spinor(sigma128(e, i, j))) for (i, j) in PAIRS]
+    amb_cols += [(f"frame:{i},{j}", amb_vector(Mvec14(i, j))) for (i, j) in PAIRS]
+    amb_cols.append(("M_D", amb_spinor(cxi)))
+    check("census covers the full 44-element generator family", len(amb_cols) == 44,
+          f"{len(amb_cols)}")
+    nG = fnorm(Gamma)
+    rels = {nm: fnorm(Gamma @ XB) / (nG * fnorm(XB)) for nm, XB in amb_cols}
+    ordered = sorted(rels.items(), key=lambda kv: kv[1])
+    preserving = [nm for nm, r in ordered if r < 1e-6]
+    check("census: exactly 1/44 generators preserves ker Gamma (the volume word omega); "
+          "the other 43 are compressions of constraint-violating operators",
+          preserving == ["clw:omega=e0..e13"], f"preserving = {preserving}")
+    check("census margin: every other generator violates the constraint clearly",
+          ordered[1][1] > 1e-3,
+          f"second-smallest rel residual {ordered[1][1]:.2e} ({ordered[1][0]})")
+
+    # C4 structural signature: omega anticommutes with beta -> eta_V neutral BY FORCE
+    omega128 = word(e, tuple(range(N)))
+    ac = fnorm(omega128 @ beta + beta @ omega128)
+    check("structural: omega beta + beta omega = 0 (exact anticommutation)",
+          ac < 1e-9, f"||.|| = {ac:.2e}")
+    omV = gd["clw:omega=e0..e13"]      # omega preserves V (census), so compression = restriction
+    sq = omV @ omV
+    c_sq = complex(np.trace(sq)) / NV
+    check("omega_V^2 = c I with |c| = 1 (restricted volume involution)",
+          fnorm(sq - c_sq * np.eye(NV)) < 1e-7 and abs(abs(c_sq) - 1.0) < 1e-9,
+          f"c = {c_sq:.6f}")
+    flip = fnorm(omV.conj().T @ BV @ omV + BV) / (1.0 + fnorm(BV))
+    check("structural: eta_V(omega x, omega y) = -eta_V(x, y) on V",
+          flip < 1e-7, f"rel residual {flip:.2e}")
+    if abs(c_sq - 1.0) < 1e-6:          # eigenvalues +/-1
+        Pp = 0.5 * (np.eye(NV) + omV)
+        Pm = 0.5 * (np.eye(NV) - omV)
+    else:                               # c = -1: eigenvalues +/-i
+        Pp = 0.5 * (np.eye(NV) - 1j * omV)
+        Pm = 0.5 * (np.eye(NV) + 1j * omV)
+    dp, dm = float(np.trace(Pp).real), float(np.trace(Pm).real)
+    check("omega-chirality halves of V have dim 832 each",
+          abs(dp - 832.0) < 1e-5 and abs(dm - 832.0) < 1e-5, f"({dp:.2f}, {dm:.2f})")
+    iso = max(fnorm(Pp.conj().T @ BV @ Pp), fnorm(Pm.conj().T @ BV @ Pm)) / fnorm(BV)
+    check("both chirality halves totally eta_V-isotropic => signature (832,832) FORCED",
+          iso < 1e-7, f"max rel norm {iso:.2e}")
+    print("  => (832,832) is STRUCTURAL (neutrality forced by the Clifford algebra),")
+    print("     independently of the numerical eigenvalue count in section [6].", flush=True)
+
+    # C8 covariant contrast: the CONSTRAINT-PRESERVING diagonal Spin(9,5) algebra
+    worst_inv, worst_comm = 0.0, 0.0
+    for (i, j) in pairs_all:
+        DBij = amb_vector(Mvec14(i, j)) + amb_spinor(sigma128(e, i, j))
+        worst_inv = max(worst_inv, fnorm(Gamma @ DBij) / (nG * (1.0 + fnorm(DBij))))
+        worst_comm = max(worst_comm,
+                         fnorm(omega128 @ sigma128(e, i, j) - sigma128(e, i, j) @ omega128))
+    check("contrast: ALL 91 diagonal Spin(9,5) generators preserve ker Gamma",
+          worst_inv < 1e-7, f"max rel residual {worst_inv:.2e}")
+    check("contrast: omega commutes with all 91 spin quadratics (exact, 128 level; "
+          "[I x omega, M x I] = 0 trivially)",
+          worst_comm < 1e-9, f"max ||[omega, sigma]|| = {worst_comm:.2e}")
+    dist_scalar = fnorm(omV - (complex(np.trace(omV)) / NV) * np.eye(NV))
+    check("contrast: omega_V is NOT a scalar (independent commutant element)",
+          dist_scalar > 1.0, f"||omega_V - (tr/n) I|| = {dist_scalar:.3f}")
+    print("  => the constraint-preserving covariant algebra has commutant containing")
+    print("     span_C{I, omega_V} on V: dim_C >= 2 — the REDUCIBLE branch.  The 44-")
+    print("     generator compression choice and the covariant choice land on DIFFERENT")
+    print("     trichotomy branches: the branch is a function of the generating choice.",
+          flush=True)
+
+    # ----------------------------------------------------------------- [9] verdict
     print("=" * 78)
     print("VERDICT — M-C3 Krein-sign trichotomy input (exact finite computation)")
     print("=" * 78)
     print(f"  dim_C commutant of A on ker Gamma (1664-dim record sector) : {dimC}")
     if dimC == 1:
         print(f"  real commutant: dim_R {dimR} = span_R{{I, iI, J, iJ}}  ~  H . I")
-        print("  => V is IRREDUCIBLE over H under the constructed algebra A.")
-        print("  Theorem-2 residual-family dimension:")
-        print("      sum_lambda dim_R(D_lambda) a_lambda b_lambda = 0    (NO residual family)")
-        print("  Complex-linear involutions in the commutant: {+I, -I} only.")
+        print("  => V is IRREDUCIBLE over H under the compression algebra A.")
+        print("  TYPE (review): A is the COMPRESSION algebra (census [8]: 43/44 generators")
+        print("  violate the constraint) and, by Burnside, the FULL matrix algebra")
+        print("  A_C = M(1664,C), A_R = End_H(V) = M(832,H) — irreducibility is near-")
+        print("  tautological for this generating choice (covariant choice: REDUCIBLE, [8]).")
+        print("  Residual-family dimension, ELEMENTARY warrant (Theorem 2 NOT invoked; its")
+        print("  compact-closure / K-invariant-positive-form hypothesis fails here):")
+        print("      End_A(V) = H.I  =>  candidates {cI : c^2 = 1} = {+/-I} and cJ with")
+        print("      (cJ)^2 = -|c|^2 != 1  =>  F contained in {+I, -I};")
+        print("      sum_lambda dim_R(D_lambda) a_lambda b_lambda = 0   (NO residual family)")
         print("  Antilinear elements (c J) square to -|c|^2 <= 0: no antilinear involution")
-        print("  (the step10/step11 quaternionic Kramers wall at observable-algebra level).")
+        print("  (the quaternionic Kramers wall persists at algebra level: the real")
+        print("  commutant is H, so no antilinear involution supplies an extra sign).")
         if qV == 0:
             branch = "SINGLETON: F = {+I} (eta_V positive definite)"
         elif pV == 0:
@@ -485,15 +620,22 @@ def main():
             branch = (f"F = EMPTY for the constructed pair (A, eta_V): eta_V indefinite "
                       f"({pV},{qV}), the only candidates +/-I both fail positivity")
         print(f"  Existence leg against the constructed Krein form: {branch}")
-        print(f"  Prop-1 consistency: A contains an eta_V-orthogonal one-parameter boost")
+        print("  (structural: the (832,832) neutrality is FORCED by omega-beta")
+        print("  anticommutation, section [8]; and the branch is form/algebra-independent —")
+        print("  the necessity leg uses no property of eta_V.)")
+        print(f"  Prop-1 consistency: A contains an eta_V-skew one-parameter boost")
         print(f"  subgroup with witnessed exponential growth (rate ~ "
               f"{rates['boost(0,9)']:.3f}); by the necessity leg of Prop 1, any invariance")
         print("  group containing it admits no positivity-majorant on this carrier.")
         print("  TRICHOTOMY INPUT: classification leg = at most one admissible fundamental")
         print("  symmetry (no residual family; no free Z/2, no continuum); existence leg on")
-        print("  the KINEMATIC carrier = EMPTY (non-compact/firewall branch).  A dynamical")
-        print("  good-stable reduction to a positivity-admitting stabilizer (open W219)")
-        print("  is what could move existence from EMPTY to SINGLETON; nothing here builds it.")
+        print("  the KINEMATIC carrier = EMPTY (non-compact witness; Prop 1 APPLIES and")
+        print("  returns empty — NOT the canon 'deny-Prop-1/firewall boundary' escape,")
+        print("  which rejects the criterion).  F = empty is the normal covariant")
+        print("  indefinite-metric situation (Gupta-Bleuler QED: F_Lorentz = empty on the")
+        print("  covariant space, unitary on the physical quotient).  Exits, neither built")
+        print("  here: (a) dynamical good-stable reduction to a compact stabilizer (open")
+        print("  W219); (b) physical-subspace selection / BRST quotient (draft §4.2).")
     else:
         print(f"  REDUCIBLE branch: dim_C commutant = {dimC} > 1; component data follow.")
         sizes = np.bincount(labels1)
@@ -509,13 +651,19 @@ def main():
         print("  equivalent components; report the data above as the residual-family input.")
     print("-" * 78)
     print("MANDATORY FENCES (verbatim):")
-    print("  (1) this computes the commutant of the CONSTRUCTED algebra on the KINEMATIC")
-    print("      carrier; whether this is GU's physical observable algebra is exactly the")
-    print("      open dynamical-stabilizer question (W219);")
+    print("  (1) this computes the commutant of the COMPRESSION algebra of GU-native")
+    print("      blocks on the KINEMATIC carrier; A is NOT an observable algebra in the")
+    print("      Dirac (constraint-preserving) sense — 43 of its 44 generators are")
+    print("      compressions of constraint-violating operators (census, section [8]) —")
+    print("      and by Burnside it is the FULL matrix algebra End_H(V) = M(832,H);")
+    print("      whether any physical observable algebra survives on this carrier is")
+    print("      exactly the open dynamical-stabilizer question (W219);")
     print("  (2) no verdict, bar(b), H59, or claim-status change is made by this probe —")
     print("      per Joe's 2026-08-03 standing rule, moving any such bar additionally")
-    print("      requires a hostile field-specialist review, which has not happened;")
-    print('  (3) irreducible ⇒ "sign forced IF this is the observable algebra";')
+    print("      requires a hostile field-specialist review of the bar-moving claim; the")
+    print("      2026-08-03 review of THIS probe licenses nothing verdict-adjacent;")
+    print('  (3) irreducible + compact ⇒ "sign forced IF this is the observable algebra"')
+    print("      (this run: irreducible but NON-compact — no sign is forced, F = empty);")
     print("      reducible ⇒ report the computed Σ dim formula value as the size of the")
     print("      residual family.")
     print("-" * 78)
@@ -526,6 +674,8 @@ def main():
     assert dimR == 4, "regression pin: real commutant was H.I (dim_R 4) on 2026-08-03"
     assert (pV, qV) == (832, 832), "regression pin: signature(eta_V) was (832,832)"
     assert rates["boost(0,9)"] > 1.0, "regression pin: boost growth rate was ~1.5"
+    assert abs(c_sq - 1.0) < 1e-6, \
+        "regression pin: omega_V^2 = +I (chirality eigenvalues +/-1) on 2026-08-03"
 
     print(f"[summary] {_n_checks[0]} checks passed; elapsed {time.time() - t0:.0f}s; exit 0",
           flush=True)
