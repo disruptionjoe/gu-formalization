@@ -32,8 +32,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
   third, author-declared option TX^{1,3} ⊕ N^{6,4} ⊂ Y^{7,7} (2021 draft
   p.61, flagged 2026-08-03, unadjudicated).
 - SIGNATURE: (9,5) vs (7,7) UNDER-DETERMINED (fiber (6,4) both ways; the
-  Kramers even-index wall is (9,5)-only). Product rule fails on odd/odd
-  splits incl. (9,5) — scope your split claims.
+  Kramers even-index wall is (9,5)-only). SEPARATE FACT, do not conflate
+  (Layer-0: "(9,5)" is a homonym here): the 2+1 product rule fails on
+  odd/odd SPLITS OF 14 (e.g. 3+11, 9+5 as splits) — that is about the
+  base+fibre split, not the ambient signature. GU's split is 4+10,
+  even/even, so the product rule applies under either signature.
 - "IMPOSTER" A-vs-B: the 128 S(V)⊗S(W) (spin-1/2) vs the RS spin-3/2 family
   — different subspaces, unadjudicated; W221's SURVIVES depends on (B).
 - TWO IN-REPO "2+1"s: the ledger's block decomposition vs lega2's family
