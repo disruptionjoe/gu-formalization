@@ -5,11 +5,13 @@ reconstruction is mapped to its computational edge. It does NOT close on the exi
 ONE precisely-specified object (the RS/IG **source action**), and the obvious ways to supply or sidestep it
 have been computed and fail. This document is both the honest summary and the **spec sheet** for that object.
 
-> Plain-English bottom line: We pushed Geometric Unity to its limit and proved, with machine-checked
-> computations, that it does not finish on its own. We cornered the gap down to one missing rulebook, pinned
-> exactly what that rulebook must do, and showed the existing material cannot supply it — the natural
-> calculation for "three generations" gives a big messy number (-5376), not the clean 24 the story needs. GU
-> is not disproven; it is precisely, honestly mapped as INCOMPLETE.
+> Plain-English bottom line [reworded 2026-08-03, audit H-05: the claim is about OUR RECONSTRUCTION of GU,
+> not about GU itself]: We pushed our reconstruction of Geometric Unity to its limit and showed, with
+> machine-checked computations, that it does not close on the existing material. We cornered the gap down to
+> one missing rulebook, pinned exactly what that rulebook must do, and showed the existing material cannot
+> supply it — the natural calculation for "three generations" gives a big messy number (-5376), not the
+> clean 24 the story needs. GU is not disproven; the reconstruction is precisely, honestly mapped as
+> INCOMPLETE.
 
 ---
 
@@ -36,7 +38,12 @@ These are computed and re-checked, but the overall theory remains reconstruction
   independent order-8 invariant, so the gauge octic is GS-**reducible** and that red flag flips True->False
   (KILLED). What survives is the **reading-independent gravitational `tr R^8`** (`[A-hat(TY14)]_16` p4 coeff
   `-1/2419200`), nonzero **only** because the assumed truncated content `Omega^0(x)S^+ + Omega^1(x)S^-` has
-  net chirality `n_+ - n_- = 1 - 14 = -13` (grav coeff `13/37800`). So the obstruction is reclassified as
+  net chirality `n_+ - n_- = 1 - 14 = -13` (grav coeff `13/37800` **[CORRECTED 2026-08-03, audit
+  B3/IDX-03: the rank-only reading truncates `ch(Lambda^1 T*)`; the honest tangent-twisted p4
+  coefficient is `493/2419200` (i.e. `493/37800` in these units), ~38x larger — already computed
+  in-repo in `explorations/global-anomaly-leg-2026-07-20.md` ("honest vs convention") and
+  independently re-derived twice in the audit. The qualitative non-factorization verdict survives
+  (493 != 0), still conditional on the assumed content]**). So the obstruction is reclassified as
   **pure-gravitational / net-chirality, conditional on the assumed fermion content** — if the content were
   chirally balanced it would vanish. No promotion to an anomaly-cancellation claim; the global
   eta/Dai-Freed/spin-bordism leg stays OPEN.
@@ -47,7 +54,11 @@ These are computed and re-checked, but the overall theory remains reconstruction
 - **The final obstruction C2 is isolated** (= the BRST-invariance of the dynamics), and proven to be
   **global** (no local curvature/holonomy reduces it; ~94% global) AND proven to be **NOT an index** (it is a
   scale-dependent symbol-norm: `C2(2xi)/C2(xi) = 2` exactly, non-integer).
-- **The honest global numbers:** `ch2(S_X)[K3] = -5376` (not 24) and `APS eta = 0` for the available operator.
+- **The honest global numbers:** `ch2(S_X)[K3] = -5376` (not 24). **[The companion "`APS eta = 0` for the
+  available operator" is RETIRED from this list 2026-08-03 (audit IDX-04): that computation takes the eta
+  of the Clifford principal symbol at a point, whose ±|p| spectral symmetry is automatic for every
+  Dirac-type operator on every manifold — it is a restatement of the Clifford relation, not a global
+  datum about Y14's end.]**
 
 A strong STRUCTURAL finding (flagged, not a theorem): the obstruction appears to be **causality-required** —
 the clean "no-ghost" stabilization would decouple the RS sector and reinstate Velo-Zwanziger acausality, so
@@ -105,10 +116,13 @@ requires **new physics**: actually constructing the object in Section B (even We
 candidate and disclaimed it, "Caveat Emptor"). That is open-ended theoretical construction with a real chance
 of going nowhere — a different kind of work from this repo's honest-reconstruction-and-audit mission.
 
-**Recommendation:** treat THIS repo as the finished, trustworthy reconstruction + audit (the map of the edge
-+ this spec sheet), and pursue the construction of the missing object as a SEPARATE research program (a new
-repo) that depends on this one's spec. Keeping them separate preserves the hygiene that makes this repo
-worth citing.
+**Recommendation [SUPERSEDED 2026-08-03 — audit CG-13/H-05]:** the original recommendation (treat this repo
+as a finished reconstruction + audit and pursue construction in a separate repo) was overtaken by the
+ratified Lane 1 charter, which runs the construction program in-repo (see `../LANES.yaml`); and the original
+wording's self-certification ("finished, trustworthy … worth citing") is withdrawn per
+`RESEARCH-POSTURE.md`'s rule against advocating for this program — trust judgments belong to readers via
+`VERIFICATION.md`, not to this document about itself. The separation *hygiene* survives as the write-boundary
+and grading discipline inside the single repo.
 
 ## Pointers (the receipts)
 

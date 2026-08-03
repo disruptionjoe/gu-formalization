@@ -10,7 +10,7 @@ different method/codebase; all five reproduced (zero flips). These are real comp
 
 | Thread | Verdict | Key number | Authoritative script |
 |---|---|---|---|
-| MOVE-1 GS factorizability (Sp(1) vs Sp(64) octic) | **PARTIAL** | p4 = −1/2419200 ≠ 0; net chirality −13; Sp(64) octic = 2·P4 (irreducible) vs Sp(1) octic = 128·(y²)⁴ (reducible) | `MOVE-1/move1_octic_sp64_vs_sp1.py`, `MOVE-1/verify/indep_ahat16.py` |
+| MOVE-1 GS factorizability (Sp(1) vs Sp(64) octic) | **PARTIAL** | p4 = −1/2419200 ≠ 0; net chirality −13; Sp(64) octic = 2·P4 (irreducible) vs Sp(1) octic = 128·(y²)⁴ (reducible). CORRECTED 2026-08-03 (audit B3): the assembled gravitational coefficient is 493/2419200, not the rank-only 13/2419200 — `ch(Λ¹T*)` must not be truncated to its rank (see `explorations/global-anomaly-leg-2026-07-20.md`, "honest vs convention"); non-factorization verdict unchanged | `MOVE-1/move1_octic_sp64_vs_sp1.py`, `MOVE-1/verify/indep_ahat16.py` |
 | MOVE-2 θ-field wₐ sign vs DESI | **KILLED** | global CPL fit z≤2: w₀=−0.777, **wₐ=−0.248 (<0, same sign as DESI)**; sign flips with window | `MOVE-2/verify/indep_check.py` (authoritative) |
 | MOVE-3 Willmore-EL order on Schwarzschild | **KILLED** | H⁽¹⁾=(M/r)η harmonic → ΔH⁽¹⁾≡0; true residual O(M²/r⁴) | `MOVE-3/willmore_el_order.py` |
 | MOVE-4 Majorana channel dim, Spin(9,5) | **CONFIRMED** | checksum 16384=128²; **dim Hom(S⁺⊗S⁺, Λ⁰)=0** | `MOVE-4/move4_spinor_square_forms.py` |
