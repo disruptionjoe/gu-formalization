@@ -24,6 +24,16 @@ clean, triple-confirmed **negative that narrows the missing object decisively**:
 CANNOT reconcile C2 — **~94% of it is global/topological** — so the missing datum is the **global Y14 =
 Met(X4) end-geometry**, not anything available on a single section's local curvature.
 
+> **CORRECTION 2026-08-03 (audit IDX-06 / register M-M16).** The "~94% global/topological" reading is
+> RETIRED. The later master-identity result (`explorations/master-identity-mechanism-2026-07-20.md`) gives
+> C2 in closed form: `C2 = sqrt(3328/7) * ||xi||_Euclidean` — a fixed constant times the EUCLIDEAN norm of
+> the covector. C2 is invariant only under the compact `SO(9)xSO(5)` frame choice, NOT under `SO(9,5)`
+> boosts (it moves under an eta-preserving boost), and contains no global, spectral, or topological datum.
+> The percentages here ("~94% global residual", "0-1.8% dent", "6.2% cheating solve") are fractions of a
+> frame-dependent closed-form quantity and support NO inference that the missing datum is the global end /
+> K3 chi-gate / APS. What survives is the honest negative: the dressings tried are norm-nondecreasing on
+> `||xi||_E`. The FORCED_ANALOGY verdict of the topological-edge doc is unaffected (and was already correct).
+
 ## 1. The result: local curvature is provably insufficient
 
 The genuine so(9,5) gimmel connection-curvature 2-form `R^Y` was assembled a-priori from the in-repo

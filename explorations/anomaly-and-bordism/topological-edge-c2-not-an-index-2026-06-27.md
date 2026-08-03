@@ -53,8 +53,12 @@ integers. No computable handle maps one to the other.
 
 ## 3. CORRECTION to SOURCE-03
 
-SOURCE-03 established — correctly, and it stands — that **C2 is global**: no local curvature/holonomy can
-reduce it (~94% global residual; a holonomy carrier cannot pull a Gamma-independent C2 below bare). But
+SOURCE-03 established — correctly at the time — that no local curvature/holonomy dressing tried can
+reduce C2 (~94% residual; a holonomy carrier cannot pull a Gamma-independent C2 below bare).
+**[CORRECTED 2026-08-03 (audit IDX-06): "C2 is global" is retired — C2 = sqrt(3328/7)·||xi||_E in closed
+form (master-identity 2026-07-20), frame-dependent and containing no global/topological datum; the honest
+surviving statement is that the tried dressings are norm-nondecreasing. See the correction banner in
+c2-is-global-y14-end-data-2026-06-27.md.]** But
 SOURCE-03 then **inferred** that "the source-action line and the boundary-index line are ONE global object"
 and that C2 *is* the boundary spectral section Joe's record-issuance idea pointed at. **That inference is
 RETRACTED.** This gate tested it three ways and found **FORCED_ANALOGY**:
