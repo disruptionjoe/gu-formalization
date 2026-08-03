@@ -432,3 +432,38 @@ No scientific register row or protected verdict moves.
   representation-channel availability; occurrence of 126 is not a coupling,
   mediator, mass, or A/B adjudication. Retain the full
   bilinear→Krein→reality→VEV→induced-4D-mass checklist.
+
+---
+
+## Revision 5 (2026-08-03, Resolver Wave C rebased)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-c-rebased-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-c-review.md`.
+No scientific register row or protected verdict moves.
+
+- **Q5:** the bare same-label `16+ tensor 144+` contains no 126. Conditional
+  on a complex-linear internal operator, the dualized
+  `Hom(16+,144+)` Spin(10) factor contains one 126 also occurring in the
+  spinor bilinear. The physical Krein/C-real pairing, Spin(4), full-20,
+  one-form, and `ad(P)` types remain unbuilt. Weinstein's named passages are
+  source-silent on the Hom/126 relation.
+- **Q6:** internal `Lambda5(V10)` gives one real 252 with conjugate complex 126
+  halves and exact Pati--Salam support for a right-neutrino bilinear and dual
+  field. Existing W192/W194 typing obstructs the raw real
+  `Lambda5 subset ad(P)` shortcut: the former is K-self-adjoint while an `Sp`
+  connection generator must be K-anti-self-adjoint. Phased/reality-completed,
+  covector-plus-even-generator, and inhomogeneous/soldering constructions stay
+  open. No VEV or mass is built.
+- **M-H7:** only the abstract coefficient facts are exact:
+  `pi13S=Z/3`, `ImJ13=0`, `Omega13Spin=0`. The candidate radial boundary,
+  compactness, normal-bundle triviality, stable framing, and nonzero PT class
+  are open. The zero control applies to the external-product stable framing
+  with closed stably framed X; non-product framings remain open. This does not
+  supersede the existing degree-three spine/J route.
+- **Next named gate:** `RESOLVER-WAVE-D-NATIVE-126-CONNECTION-PLACEMENT`.
+  Derive the physical pairing first, classify admissible effective connection
+  kernels, and test full-20 provenance, observer descent, right-H, Krein,
+  C-reality, and source ownership. The independent topology successor is the
+  normal-bundle/radial-boundary/framing/clutching construction, not another
+  coefficient-table pass.

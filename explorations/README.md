@@ -478,3 +478,14 @@ Current cross-wave synthesis and execution:
 hinge-symbol leakage, signature-free RS neutrality, and compact isotypic
 overlap. Its route decision is `REBASE`; it leaves the physical quotient,
 dynamical stabilizer, imposter referent, and external P1/P2/P3 open.
+
+# Resolver Wave C rebased (2026-08-03)
+
+`resolver-wave-c-rebased-q5-q6-mh7-2026-08-03.md` proves that, conditional on a
+complex-linear internal operator, a shared 126 type occurs in the dualized
+`Hom(16,144)` factor and the matching spinor bilinear. It branches the internal
+real Lambda5 carrier through Pati--Salam and restates the abstract framed
+coefficient group in honest degree 13. Its route decision is `REBASE`: the raw
+Lambda5 connection shortcut has the wrong K-adjoint class, while the physical
+pairing, admissible effective connection placement, radial boundary, framing,
+nonzero class, VEV, mass, and integer P3 remain open.

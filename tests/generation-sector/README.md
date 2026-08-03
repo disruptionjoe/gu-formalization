@@ -73,6 +73,14 @@ The public boundary stays:
 | `q2_imposter_chirality_grading.py` | Reading-A imposter block grading under `(9,5)` and `(7,7)`. | Confirms only the kinematic balanced grading; physical chirality and the A/B referent remain open. |
 | `q3_imposter_symbol_invariance.py` | Exact principal-symbol invariance test for the internal hinge projector. | Finds injective first-order leakage in every coordinate direction; external P3 and the physical quotient are unused. |
 
+### Wave C Representation / Mass-Channel Checks
+
+| script | role | current shared outcome |
+|---|---|---|
+| `q5_spin10_vector_spinor_product.py` | Dependency-free exact D5 representation-ring derivation of all four `16x144` products. | Conditional on a complex-linear internal operator, a 126 occurs in the dualized Hom factor, not the bare same-label tensor; the physical pairing is unbuilt. |
+| `q5_spin10_vector_spinor_product_sage.py` | Independent Sage 10.9 Weyl-character certificate for the shared Q5/Q6 dictionary. | Confirms the D5 products, `Lambda5(10)`, spinor squares, and the D7 exterior-square identity. |
+| `q6_lambda5_spin10_pati_salam.py` | Bidegree-tagged Lambda5 and Pati--Salam right-neutrino channel derivation. | Complex support passes, but raw real Lambda5 has the wrong K-adjoint class for an Sp connection generator; admissible placement, C reality, VEV, and mass remain open. |
+
 ### Family / External-Base Characterization
 
 | script | role | current shared outcome |

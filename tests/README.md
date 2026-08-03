@@ -20,7 +20,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | Directory | What it covers |
 |---|---|
 | `woit-principles/` (5) | exact finite controls for Cartan/Palatini soldering, OS/right-handed transfer, `Gr(2,C^4)` geometry, Lorentzian/Euclidean twistor real slices, and finite OS spectral positivity/failure witnesses |
-| `generation-sector/` (29) | the generation-count core: Krein signature, net chiral index, chirality kills, Wave-A Reading-A kinematic grading, and Wave-B hinge-symbol leakage (paper-cited surface; frozen paths remain frozen), with a local script map and README inventory gate |
+| `generation-sector/` (32) | the generation-count core: Krein signature, net chiral index, chirality kills, Wave-A Reading-A kinematic grading, Wave-B hinge-symbol leakage, and Wave-C exact Spin(10)/Lambda5/Pati-Salam channel certificates (paper-cited surface; frozen paths remain frozen), with a local script map and README inventory gate |
 | `observable-algebra/` (5) | finite compression-algebra commutant/trichotomy probes plus exact Wave-B compact-isotypic, Sage character, and neutrality certificates; kinematic carrier evidence only, not a physical observable-algebra, quotient, or signature-selection theorem |
 | `de-certification/` (3) | Wave-A internal likelihood consistency, proxy shape-inverse witnesses, and the finite W230/conditional FLRW mapping fixture; no C10, M-H13, or native-bridge status movement |
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
@@ -53,7 +53,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 
 ## Loose audit scripts at `tests/` root, by sector
 
-These 254 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
+These 255 direct root scripts are referenced as provenance from `canon/*-RESULTS.md`, so they are
 indexed here in place to keep those reproduction pointers valid. This table covers only direct `tests/*.py`
 files; organized families live under their subdirectory READMEs, and governance/process checks moved to
 `process_gates/`. The table is guarded by `process_gates/tests_root_readme_inventory_audit.py`.
@@ -67,7 +67,7 @@ files; organized families live under their subdirectory READMEs, and governance/
 | **Bell / QFT / measurement** | `h3_*.py`, `h3-*.py` | 4 | Pati-Salam CHSH state/correlator, measurement gate, and Cech-sheaf fixture certificates. |
 | **Velo-Zwanziger** | `vz_*.py` | 2 | typed-symbol gate and subprincipal `FC-VZ-4` certificates. |
 | **GR / cosmology / dark energy** | `theta_flrw_desi_sign.py`, `willmore_el_schwarzschild_order.py` | 2 | root-level cosmology and Willmore-order certificates that remain mathematical tests rather than process gates. |
-| **Source / selector / control** | `oq_rk1_*.py` | 2 | OQ-RK1 representation and effective-operator assembly certificates. |
+| **Source / selector / control** | `oq_rk1_*.py` | 3 | OQ-RK1 representation, J-restriction, and effective-operator assembly certificates. |
 | **Temporal issuance / source-action steelman** | `temporal_issuance_source_action_steelmen_checker.py` | 1 | source-action steelman certificate retained as root test provenance, not a process-gate verdict. |
 | **W-series frontier packets** | `W*.py` | 200 | later root-level W-series frontier certificates, including W242's DESI intake and dependency-aware prediction queue, W245's Finster-sea/Krein-domain discriminator, and W246's faithful CFS self-adjointization ordering reversal, kept in place as provenance while subdirectory migration remains separate review work. |
 | **Hardening quick-win notes** | `HQW_*.py` | 1 | standalone confirming tests for the 2026-07-14 hardening quick-win lemma notes (shape-blind `c_R`), kept at root as provenance. |
@@ -84,3 +84,17 @@ constraint-restricted neutrality lemma, while
 checks the B4/B2 character decompositions through Sage without adding Sage to
 the ordinary Python harness. These are pre-deposit certificates and do not construct the
 physical quotient or move a scientific verdict.
+
+## Resolver Wave C certificates
+
+`generation-sector/q5_spin10_vector_spinor_product.py` derives all four typed
+`16x144` products and separates the bare tensor from the conditional
+complex-linear dualized Hom factor;
+`generation-sector/q5_spin10_vector_spinor_product_sage.py` independently checks
+the D5/D7 characters with Sage 10.9. The Q6 script derives the internal
+`Lambda5/126` Pati--Salam channel, rejects raw real Lambda5 as an Sp connection
+generator by K-adjoint class, and records the unbuilt admissible placement,
+reality, VEV, and mass stages. `located-not-forced/mh7_dim13_restatement.py`
+checks the purely 3-primary coefficient ledger and the external-product-framing
+zero control without claiming the actual radial boundary, framing, class, or
+integer P3.
