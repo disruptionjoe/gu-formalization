@@ -6,14 +6,14 @@
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2B-SOURCE-RESIDUAL-LEADING-SYMBOL",
-    "status": "ACTIVE_LOCAL_PRINCIPAL_Z1_METRIC_TANGENT_AND_FULL_RESIDUAL_PORT_PASS__13_COORDS_NORM981_OVER64__J3_ZERO_OBSERVED_BASE__I1_C5_ZERO__NORMAL_I2B_C6_AND_J3J2_C5_ZERO__OFFSHELL_I2B_C5_OPEN",
-    "earned": "conditional fixed-(epsilon,varpi) ten-owner active principal-Z1 tangent, explicit thirteen-coordinate full residual port, and observed-base pre-Shiab/J3 leading cancellation",
-    "scope": "reconstructed Levi-Civita principal-Z1 metric-metric branch only; global epsilon port, full tangent/conormals, actual coefficient tensors, and off-shell I2B C5 remain open",
+    "gate": "PW2F-R2B2B2C-I2B-OFFSHELL-C5-CEILING",
+    "status": "OFFSHELL_I2B_C5_CEILING_CLOSED_ON_CONDITIONAL_PRINCIPAL_Z1_OBSERVED_BASE_LC_METRIC_BRANCH__COMPLETE_I1_I2B_C4_AND_GREEN_OPEN",
+    "earned": "exact five-family off-shell I2B Hessian split on the conditional fixed-(epsilon,varpi) principal-Z1 observed-base LC metric branch, with live residual norm 981/64, exact J3 zero, fourteen inherited second-Frechet ceilings, route maxima 4/4/3/3/2, and no C5 route",
+    "scope": "reconstructed Levi-Civita principal-Z1 metric-metric branch and observed-base conormals only; global epsilon port, full tangent/conormals, actual coefficient tensors, distinct I1/I2B C4 banks, and Green analysis remain open",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2C-I1-C4-AND-I2B-OFFSHELL-C5-CEILING-THEN-C4-GREEN"
+    "next_gate": "PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN"
   },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
@@ -726,6 +726,16 @@
           "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
           "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
           "next_gate": "PW2F-R2B2B2B-ACTUAL-INDUCED-Y14-EPSILON-GRAPH-AND-35-MONOMIAL-C5-C4"
+        },
+        "post_b2c15r3_pw2fr2b2b2c": {
+          "status": "OFFSHELL_I2B_C5_CEILING_CLOSED_ON_CONDITIONAL_PRINCIPAL_Z1_OBSERVED_BASE_LC_METRIC_BRANCH__COMPLETE_I1_I2B_C4_AND_GREEN_OPEN",
+          "result": "FULL_I2B_HESSIAN_SPLIT_INTO_JRJ__ERD2E__TWO_JDRE__HALF_ED2RE_FAMILIES__LIVE_INDEPENDENT_TWO_PARAMETER_MATRIX_FIXTURE_DIRECT_MINUS4_EQUALS_MINUS2_MINUS3_MINUS3_PLUS9_MINUS5__ACTUAL_SCOPED_RESIDUAL_NORM981_OVER64__ALL10_OBSERVED_BASE_PRE_SHIAB_J3_ZERO__14_SECOND_FRECHET_ORDER_CEILINGS_IMPORTED__POST_J3_ROUTE_MAXIMA4_4_3_3_2__ZERO_OFFSHELL_I2B_C5_ROUTES__LIVE_J3_PLANTS_C6_C5__LIVE_H_CROSS_C5__LIVE_D2E_ORDER5_AND_SECOND_JET_DR_PLUS_J3_C5__NO_C4_COEFFICIENT_PROMOTION",
+          "source_disposition": "SOURCE_PACK_PINS_I1_GRAMMAR_AND_STAGED_SOURCE_RECONSTRUCTION_PINS_I2B_RESIDUAL_SQUARE__REPOSITORY_DERIVES_FIVE_FAMILY_HESSIAN_SPLIT_ORDER_CEILING_AND_HOSTILE_PLANTS__SOURCE_SILENT_ON_ACTUAL_INDUCED_COEFFICIENT_TENSORS_DISTINCT_C4_BANKS_AND_GREEN_OPERATORS",
+          "exact_tools": "MAIN41_PASS_AFTER_SOURCE_ATTRIBUTION_REPAIR__PREDECESSOR_AND_SCAFFOLD_REGRESSIONS_PASS__THREE_HOSTILE_REVIEWS_PASS_AFTER_SCOPE",
+          "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+          "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+          "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+          "next_gate": "PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN"
         }
       }
     },

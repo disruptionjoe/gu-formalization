@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2c-i2b-offshell-c5-ceiling-registry.json` -
+  PW2F-R2B2B2C ledger: records the complete five-family off-shell `I2B`
+  Hessian product rule, the live background norm `981/64`, symbolic `J3=0`,
+  all fourteen second-Frechet ceilings, route maxima `4,4,3,3,2`, and zero
+  admitted C5 routes. It assigns no C4 tensor; separate complete `I1`/`I2B`
+  quartic banks and independent Green reconciliation remain next.
 - `pw2fr2b2b2b-source-residual-leading-symbol-registry.json` -
   PW2F-R2B2B2B ledger: records the conditional fixed-`(epsilon,varpi)` active
   source-grammar tangent, thirteen-coordinate full residual port with exact

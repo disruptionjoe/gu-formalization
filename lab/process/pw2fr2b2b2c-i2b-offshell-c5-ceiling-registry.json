@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2C-I2B-OFFSHELL-C5-CEILING",
+  "status": "OFFSHELL_I2B_C5_CEILING_CLOSED_ON_CONDITIONAL_PRINCIPAL_Z1_OBSERVED_BASE_LC_METRIC_BRANCH__COMPLETE_I1_I2B_C4_AND_GREEN_OPEN",
+  "run_id": "RUN-20260803-101026-gu-formalization-pw2fr2b2b2c-i2b-offshell-c5-ceiling",
+  "verdict_scope": "conditional fixed-(epsilon,varpi) reconstructed Levi-Civita principal-Z1 metric-metric branch over observed-base conormals only",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "the pinned primary-source packet contains the first bosonic action grammar; the separately custodied staged source reconstruction retains the manuscript I2B residual-norm glyph without identifying it with I1",
+    "REPOSITORY-DERIVES": "the active residual primalizer, complete five-family off-shell Hessian expansion, symbolic J3 cancellation, fourteen-branch order ledger, and closed C5 ceiling",
+    "SOURCE-SILENT": "the active real-form port, residual primalizer, actual induced coefficient tensors, order theorem, C4 banks, Green route, domain, quotient, observation, and physics"
+  },
+  "layer0": {
+    "source_epsilon_vs_repository_h_u": "DISTINCT",
+    "source_epsilon_vs_reduction_epsilon": "DISTINCT",
+    "source_7_7_vs_active_trace_reversed_9_5": "DISTINCT_REAL_FORM_AND_PAIRING",
+    "I1_vs_I2B": "DISTINCT_ACTIONS",
+    "order_ceiling_vs_C4_coefficient_bank": "DISTINCT_RESULTS"
+  },
+  "hessian_product_rule": {
+    "families": [
+      "J_R_J",
+      "E_R_D2E",
+      "J_DR_E_LEFT",
+      "J_DR_E_RIGHT",
+      "ONE_HALF_E_D2R_E"
+    ],
+    "independent_live_control": {
+      "direct": "-4",
+      "assembled": "-4",
+      "family_values": {
+        "J_R_J": "-2",
+        "E_R_D2E": "-3",
+        "J_DR_E_LEFT": "-3",
+        "J_DR_E_RIGHT": "9",
+        "ONE_HALF_E_D2R_E": "-5"
+      }
+    }
+  },
+  "active_dependencies": {
+    "background_residual_norm": "981/64",
+    "raw_residual_first_variation_ceiling": 3,
+    "symbolic_J3": "ZERO_FOR_ALL_TEN_OWNERS_OVER_Q_ETA0_ETA1_ETA2_ETA3",
+    "surviving_residual_first_variation_ceiling": 2,
+    "second_frechet_branches": 14,
+    "first_thirteen_order_ceilings": [1, 2],
+    "h_theta1_Bhat2_order_ceilings": [2, 4],
+    "moving_shiab_owner_response": "ALGEBRAIC_LINEAR_ON_LIVE_HOSTILE_CURVATURE_FIXTURE"
+  },
+  "off_shell_order_ceiling": {
+    "D2E": 4,
+    "DR": 1,
+    "D2R": 2,
+    "route_orders": {
+      "J_R_J": 4,
+      "E_R_D2E": 4,
+      "J_DR_E_LEFT": 3,
+      "J_DR_E_RIGHT": 3,
+      "ONE_HALF_E_D2R_E": 2
+    },
+    "maximum_order": 4,
+    "C5_routes": 0,
+    "C5_monomial_bank": "NOT_ADMITTED_AFTER_MAP_LEVEL_CEILING"
+  },
+  "planted_controls": {
+    "live_J3_normal": "C6_AND_J3_J2_C5_DETECTED",
+    "live_J3_h_theta1_Bhat2_cross": "C5_DETECTED",
+    "order5_D2E": "C5_DETECTED",
+    "second_jet_DR_with_live_J3": "C5_DETECTED"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2c_i2b_offshell_c5_ceiling_probe.py",
+    "exploration": "explorations/pw2fr2b2b2c-i2b-offshell-c5-ceiling-2026-08-03.md",
+    "predecessor_probe": "tests/channel-swings/pw2fr2b2b2b_source_residual_leading_symbol_probe.py",
+    "predecessor_registry": "lab/process/pw2fr2b2b2b-source-residual-leading-symbol-registry.json"
+  },
+  "hostile_reviews": {
+    "variational_PDE": "PASS_COMPLETE_FIVE_FAMILY_PRODUCT_RULE",
+    "exact_geometry_and_order_ownership": "PASS_AFTER_SCOPE_ORDER_CEILING_ONLY",
+    "source_and_layer0": "PASS_AFTER_REPAIR_SPLIT_I1_DIRECT_SOURCE_FROM_I2B_STAGED_CUSTODY"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN"
+}

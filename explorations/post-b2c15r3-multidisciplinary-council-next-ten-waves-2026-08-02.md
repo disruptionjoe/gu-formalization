@@ -7,13 +7,23 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2B ACTIVE LOCAL SOURCE-GRAPH / FULL-RESIDUAL LEADING-SYMBOL PASS. The conditional ten-owner principal-Z1 tangent and thirteen-coordinate full residual port are built; observed-base pre-Shiab incidence kills I1 C5 and the residual-zero normal I2B C6/C5 blocks. Complete I1 C4 and the off-shell I2B C5 ceiling then C4 remain open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2C OFF-SHELL I2B C5 CEILING CLOSURE. The complete five-family residual-square Hessian and all fourteen second-Frechet ceilings now prove every admitted route stops at order four on the conditional principal-Z1 observed-base reconstructed-LC metric branch. Distinct complete I1/I2B C4 banks and independent Green reconciliation remain open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
 ---
 
 # Post-B2C15R3 multidisciplinary council
+
+> **2026-08-03 R2B2B2C successor checkpoint.** The complete off-shell `I2B`
+> Hessian product rule is expanded with all five families live. The active
+> background retains norm `981/64`; symbolic observed-base `J3=0` and the
+> fourteen second-Frechet ceilings bound the five route families by
+> `4,4,3,3,2`, so no C5 route survives on the scoped principal-`Z1` LC metric
+> branch. Resume at
+> `PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
 
 > **2026-08-03 R2B2B2B successor checkpoint.** A conditional
 > fixed-`(epsilon,varpi)` active principal-`Z1` tangent is now derived for all

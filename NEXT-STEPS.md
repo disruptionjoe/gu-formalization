@@ -7,6 +7,31 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2C OFF-SHELL I2B C5 CEILING CLOSED;
+> DISTINCT COMPLETE C4 BANKS AND GREEN REMAIN.** The complete five-family
+> Hessian of the active residual square is now expanded and independently
+> checked with every family live: `J R J`, `E R D2E`, both `J (D R) E`
+> orderings, and `E (D2 R) E / 2`. The active background remains off shell
+> with exact full-carrier norm `981/64`; no residual-zero shortcut is used.
+>
+> Combining the exact symbolic observed-base `J3=0` theorem with all fourteen
+> constructed second-Frechet ceilings gives route maxima `4,4,3,3,2`.
+> Therefore no order-five route survives and no 56-monomial C5 bank is
+> admitted on this conditional principal-`Z1` reconstructed-LC metric branch.
+> Planted live-`J3`, order-five-`D2E`, and second-jet-pairing controls restore
+> the forbidden C5/C6 routes.
+>
+> Resume at
+> `PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN`:
+> construct the actual induced coefficient tensors, compute separate
+> 35-monomial-per-entry `I1` and `I2B` quartic banks, and reconcile them by an
+> independent formal-adjoint/native Green route. This ceiling theorem assigns
+> no C4 coefficient and does not extend to vertical/mixed conormals, the global
+> epsilon port, domain, quotient, observation, or physics. P1/P2/P3 remain
+> unchanged and unused; Curt stays formally separate and the conjunctive
+> third-lane gate remains unpromoted. See
+> `explorations/pw2fr2b2b2c-i2b-offshell-c5-ceiling-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B2B ACTIVE SOURCE-GRAPH / FULL-RESIDUAL
 > LEADING-SYMBOL PASS; I1 C4 READY, OFF-SHELL I2B C5 STILL OPEN.** A
 > conditional fixed-`(epsilon,varpi)` active principal-`Z1` tangent now derives
