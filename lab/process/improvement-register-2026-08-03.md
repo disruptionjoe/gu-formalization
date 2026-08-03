@@ -333,3 +333,34 @@ Accepted corrections, applied to the rows above by reference:
   REFEREE_CONJECTURE — U4/M-H5 eta-form vanishing, M-M6 f-invariant route,
   the trichotomy's dynamical extension, the seesaw's physical reading, the
   B5 endpoint prediction (M-H9).
+
+---
+
+## Revision 2 (2026-08-03, anchor council adjudication)
+
+Source: `lab/process/anchor-council-2026-08-03/` (seats 1–4 + adjudication).
+New rows and riders; no existing verdict or grade changes.
+
+| ID | Item | Next step | I | E |
+|---|---|---|---|---|
+| M-H17 | **BRST/quotient exit has no register ID** (seat1 H4, VERIFIED_REPO_DISCONNECT): the hostile trichotomy review made adding this exit a required correction and no queue item followed. Five-step decomposition (seat1 DQ5): (i) nilpotent interacting BRST charge Q on the RS/ker Γ sector (W173 has only the FREE bicomplex); (ii) state complex; (iii) H⁰(Q) genuinely computed (W207 does not); (iv) nondegenerate descended pairing; (v) commutant + positive-pairing classification on the quotient. Single named blocker: C2 = 155.36 does not close without the unbuilt Y¹⁴ connection-curvature 2-form | Open the construction ledger; any partial step is progress; seat1 K6 names the payoff (positivity interior-supplied would END the boundary-supply reading — the kill most worth attempting) | H | L (blocked) |
+| M-M28 | **Layer-0 fence-row bundle** (seats 3–4): "128" three-way (Cl(7,7) Majorana dim / dim_C S / imposter block); "13" three-way (RS multiplicity in 1664=13·128 / dim of the Y¹⁴-end link / anchor-3 receptacle — no artifact relates them); "chirality" four-way (Z2 condensate parity / interior index / 4D V−A / ω-halves); F/Q/Z graded factor-2; RP³×S⁶ = working MODEL (true link: 9-dim S⁶-bundle over RP³ spine, indefinite base required) | Add fence rows via normal absorption on the READ-FIRST surfaces; NOT council fiat | H | XS–S |
+| M-M29 | **W224 answers DQ4 and nobody cites it** (seat4 back-pressure #1, VERIFIED_REPO_DISCONNECT): the rolling mode p's representation type — W224 (35/35): only built vacuum candidate is an internal singlet, isotropy the full non-compact Sp(32,32;H). EXACT for the singlet-isotropy/Prop-1 consequence; SOURCE-AUDIT for the identification. Also: p and the record count N are the same variable (N = e^{4p}) — the positivity anchor's cheapest item is a typing question about the cosmology anchor's mode | Wave A-3: READ-FIRST typing + absorption note; upgrade path for the identification named | H | S |
+| M-M30 | **Fork-merge absorption (JP1/JP2)**: fiber (6,4) ⇒ carrier fork collapses onto the signature fork ((3,1)→(9,5); (1,3)→(7,7); the TX^{1,3}⊕N^{6,4}⊂Y^{7,7} option is the (7,7) horn); JP1: count-edge existence (C3∧C4) + indefinite-base requirement (boundary-einvariant §7) forbids the compact carrier (4,0)+(5,5) — the finite census's side | JP2 adopted for planning (adjudication R3). JP1: hostile field-specialist review REQUIRED (J5) before any fork-table edit | H | S + review |
+| M-M31 | **M-M7 rider (adjudication R2, BINDING)**: "finite boundary κ ⇒ firewall" is unsupported and opposite-signed vs rankN at finite rank (definitizable ⇒ ghost removable ⇒ HORN Q). M-M7 may not assert either direction until the boundary operator exists (D3) and the inference is adjudicated | Rider recorded; DQ7 blocked on DQ6 + adjudication | M | — |
+| M-M32 | **M-M20 assumption disclosure** (seat4 §1, VERIFIED_REPO_DISCONNECT): "minimal 13d defect action after M-H10" schedules the consequence of A1∧A2 (13-dim count boundary ≡ firewall adapter ≡ BVP boundary) — identifications no artifact establishes; firewall canon itself says "candidate", not identification | Annotate M-M20 as conditional on A1∧A2; the identification itself is the open item (needs D3 + D4 + an exhibited map) | M | XS |
+
+**Rider on M-H13 (records↔DE refit):** gated on Wave A-2 — (a) the W230
+c_kin↔FLRW mapping question (A6), (b) DE-12 pipeline positive control,
+(c) the +19.3 inverse-problem feasibility check (with the JP4
+signed-readout extension). Pre-register pass/fail per seat2 §2.1(iv)
+before any refit is scheduled. Failure modes must be reported per seat2
+§4.1's three-way split (bridge fails / rescue spent / saturation), and a
+DE-side failure is NOT a bar-(b) failure (r typed differently).
+
+**Rider on P-C3 honest REDs (adjudication R7):** correction banner +
+re-run when each directory is next touched; the two "trap decoupling"
+labels and the Stueckelberg M_eff/M_D line join the small-fix tail.
+
+**Cross-repo:** records↔DE proposal note dispatched to
+`repos/private/system-runtime/mailboxes/time-as-finality/20260803-gu-records-de-anchor-coordination-proposal.md`.
