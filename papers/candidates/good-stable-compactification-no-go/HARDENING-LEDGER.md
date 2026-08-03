@@ -22,7 +22,9 @@ The final ten-lens pass produced four small, fixable items. Version 1.0.0 now:
 - states that the quaternionic block derivation works for every `n >= 1`,
   while retaining `n = 32` as the titled numerical specialization; and
 - separates maximal/positive and minimal/negative extremal rows in the result
-  table.
+  table; and
+- carries an explicit generative-AI-use and author-responsibility disclosure
+  consistent with the repository's prior public-paper standard.
 
 Two fresh hostile gates then attacked the exact theorem and the
 publication/reproducibility surface. Both returned

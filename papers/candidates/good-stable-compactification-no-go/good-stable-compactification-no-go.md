@@ -916,6 +916,16 @@ The result is a scoped compact-image theorem. Its value lies in making three
 often conflated obstruction mechanisms, their exact hypotheses, and their
 honest exits explicit.
 
+## Use of generative AI tools
+
+Generative AI tools were used substantially in drafting, literature discovery,
+formalization and computational support, and adversarial review. The author
+reviewed the resulting claims and sources and takes full responsibility for the
+content. The Lean, SageMath, and property-based checks provide independently
+executable tests of their disclosed narrow targets; they do not transfer
+authorship or responsibility to the tools and do not substitute for the written
+proofs.
+
 ## References
 
 - Bognár, János. *Indefinite Inner Product Spaces*. Ergebnisse der Mathematik

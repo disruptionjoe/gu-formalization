@@ -2,7 +2,7 @@
 title: "Adversarial saturation receipt: Compact-Image Obstructions v1.0.0"
 date: "2026-08-03"
 manuscript_version: "1.0.0"
-manuscript_sha256: "604dd984155f0390b40cf242d023e37ede607696a6ebf46c5bf4503ed36f50f5"
+manuscript_sha256: "406bbf731ab1f58c6de097f25b59695ee59c2217b1919745738d52c22a6e39be"
 status: "pass; zero actionable hardening remaining"
 ---
 
@@ -18,7 +18,7 @@ incorporated into v1.0.0.
 The exact reviewed manuscript has SHA-256:
 
 ```text
-604dd984155f0390b40cf242d023e37ede607696a6ebf46c5bf4503ed36f50f5
+406bbf731ab1f58c6de097f25b59695ee59c2217b1919745738d52c22a6e39be
 ```
 
 ## Gate A: hostile theorem and specialist pass
@@ -55,6 +55,7 @@ actionable_hardening_remaining=0
 | supplement visibility | Every artifact named in the paper-specific evidence map exists. The manuscript assigns no weight to unavailable supplements and requires the complete tree in an archive. |
 | executable evidence | SageMath passes 2,721 exact checks; the independent Python property suite passes 400 generated examples plus deterministic controls; the seven-declaration Lean kernel compiles with only disclosed standard axioms. |
 | frozen source | The Markdown passes a strict Pandoc parse, delimiter and placeholder scans, and `git diff --check`. The evidence manifest is regenerated after the v1.0.0 edits. |
+| AI-use transparency | A dedicated disclosure names substantial AI use in drafting, literature discovery, formalization and computational support, and adversarial review while assigning full responsibility to the author. |
 | claim boundary | No external replication, full-paper formalization, physical Hilbert space, dynamical vacuum, non-extremal classification, or infinite-dimensional theorem is claimed. |
 
 Gate B result:
