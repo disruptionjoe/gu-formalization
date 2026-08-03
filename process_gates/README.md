@@ -113,6 +113,7 @@ selected notes below and in each script header.
 - `recovery_contract_manifest_audit.py`
 - `research_portfolio_contract_audit.py`
 - `research_posture_audit.py`
+- `resolver_wave_a_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `scripts_readme_surface_map_audit.py`

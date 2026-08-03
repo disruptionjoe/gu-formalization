@@ -1,0 +1,48 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-03",
+  "named_gate": "RESOLVER-WAVE-A",
+  "gate_before": "OPEN",
+  "gate_after": "REBASE_REQUIRED",
+  "route_disposition": "REBASE",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "subwaves": {
+    "A1": {
+      "status": "COMPLETED_WITH_CORRECTIONS",
+      "earned": ["PH-K1-KINEMATIC_CONFIRMED_READING_A"],
+      "open": ["PH-K1-PHYSICAL", "IMPOSTER_A_B_REFERENT", "M-H4_ACTUAL_STABILIZER", "SIGNATURE_SELECTION"]
+    },
+    "A2": {
+      "status": "OPEN_REBASE_REQUIRED",
+      "earned": ["IN_SAMPLE_LIKELIHOOD_REPRODUCTION", "PROXY_SHAPE_FEASIBILITY", "NONZERO_ALIGNED_L_COUNTEREXAMPLE"],
+      "open": ["C10", "NATIVE_RECORD_LAW", "NATIVE_CONNECTION_TO_FLRW_MAP", "M-H13"]
+    },
+    "A3": {
+      "status": "ALREADY_DISCHARGED",
+      "commit": "b327ad6",
+      "open": ["IMPOSTER_A_B_REFERENT", "DQ4_ACTUAL_INDUCED_ACTION"]
+    }
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused",
+    "rule": "datum_selects_among_admissible_objects_but_does_not_manufacture_missing_maps"
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-B",
+    "targets": ["Q3_SIGMA_DRS_P3_COMMUTATOR", "DQ3_SIGNATURE_FREE_NEUTRALITY", "DQ1_ISOTYPIC_AND_IMPOSTER_REFERENT", "M-M28_FENCE_ABSORPTION"]
+  },
+  "forbidden_inferences": [
+    "KINEMATIC_GRADING_IMPLIES_PHYSICAL_CHIRALITY",
+    "VECTORLIKE_IMPLIES_GAUGE_ANOMALY",
+    "RANDOM_FIXTURE_IMPLIES_GLOBAL_IFF",
+    "IN_SAMPLE_FIT_IMPLIES_UNBIASED_PIPELINE",
+    "PROXY_SHAPE_IMPLIES_NATIVE_RECORD_LAW",
+    "DATUM_MANUFACTURES_MISSING_MAP",
+    "NUMERICAL_SPECTRUM_IMPLIES_EXACT_GLOBAL_THEOREM"
+  ]
+}

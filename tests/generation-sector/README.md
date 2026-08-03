@@ -70,6 +70,7 @@ The public boundary stays:
 | `signature_77_rerun.py` | Direct (7,7) rerun of representative generation-sector checks. | The tested conclusion does not become a forced count under (7,7). |
 | `signature_sweep_fast.py` | Fast signature sweep helper. | Keeps the signature-class arithmetic visible for review. |
 | `signature_sweep_leg1.py` | Broader signature sweep over Cl(p,q), p+q=14. | Searches for signature-class routes that would break the multiplicity theorem. |
+| `q2_imposter_chirality_grading.py` | Reading-A imposter block grading under `(9,5)` and `(7,7)`. | Confirms only the kinematic balanced grading; physical chirality and the A/B referent remain open. |
 
 ### Family / External-Base Characterization
 

@@ -401,7 +401,7 @@ were sorted by reading each note's content.)
 | [`woit-principles/`](woit-principles/) | 5 | Woit-to-GU transfer gates: exact Cartan/Palatini soldering, OS physical-real-form controls, the finite Grassmannian kernel, and Lorentzian/Euclidean twistor-reality reconstruction |
 | `generation-sector/` | 38 | the three-generation count via representation multiplicity, source/boundary spectral selection, the twisted Rarita-Schwinger index/rank, and K3 / Y14 bridge controls; linked above through the current synthesis |
 | [`geometry-curvature-emergence/`](geometry-curvature-emergence/) | 41 | submanifold geometry and SM emergence: Codazzi/Gauss, hidden curvature, distortion tensor, GR-shadow recovery, Higgs/Pati-Salam |
-| [`cycle-gates-and-audits/`](cycle-gates-and-audits/) | 38 | frontier-run cycle gates, mission/goal drafts, censuses, ledgers, provenance audits, interface contracts, critique responses |
+| [`cycle-gates-and-audits/`](cycle-gates-and-audits/) | 40 | frontier-run cycle gates, mission/goal drafts, censuses, ledgers, provenance audits, interface contracts, critique responses |
 | [`time-as-finality-crosswalk/`](time-as-finality-crosswalk/) | 55 | observer-finality, measurement/CHSH, Cech/Bell contextuality fixtures, Freed-Hopkins pairings, TaF crosswalk |
 | [`vz-evasion/`](vz-evasion/) | 21 | Velo-Zwanziger spin-3/2 consistency and the GU evasion / E-block program |
 | [`analytic-index-fredholm/`](analytic-index-fredholm/) | 19 | index machinery: Atiyah-Singer/APS, Fredholm parametrices, KSp upgrades, KK zero-modes on noncompact Y14/K3 |

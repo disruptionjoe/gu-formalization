@@ -386,3 +386,26 @@ TRIAGE PRIORITY: check owner surfaces citing these three as no-go support — if
 *Harness timeout list (solo runtimes):* `escape_search_chirality_odd_frame` ~1132s — **exceeds even CI's 900s**; `structural_frame_triviality_metatheorem` ~600–763s; `adv_verify_escape_hunt` ~556–652s; `rs_ghost_stueckelberg_compensator` ~479s; `rs_ghost_spin95_connection_bv_bicomplex` ~451s; `robustness_and_mechanism` ~207s; `verify_sw_carrier_mass_independent` ~240s. CI runs `--quick --tracked-only --timeout 900`; verify whether the >900s cert is inside the quick set before relying on CI green.
 
 *Label defects to reword (small-fix tail):* one-sided σ_trap "decoupled" line in 4 files (asserts only the escape-block zero, not the commutator); Stueckelberg antighost-exactness line computes with M_eff not M_D; escape_class_check "[B] rank-deficient" parenthetical contradicted by computed full rank 192/192.
+
+---
+
+## Revision 3 (2026-08-03, Resolver Wave A)
+
+Source: `explorations/cycle-gates-and-audits/resolver-wave-a-rebase-2026-08-03.md`.
+No scientific register row or protected verdict moves.
+
+- **M-M29 / Wave A-3: EXECUTED at `b327ad6`.** W224 was absorbed as the
+  conditional singlet-isotropy result; the actual induced action on the rolling
+  mode remains unbuilt. `N=e^{4p}` is retained as an exact reparameterization,
+  not a generation/count datum.
+- **M-H4 rider:** Wave A-1 closes only the canonical `J`-fixed `O(p,q)` sign
+  route: that fixed real form is symplectic. The actual stabilizer commutant and
+  global signature selection remain open. `PH-K1-KINEMATIC` is confirmed for
+  imposter Reading A; `PH-K1-PHYSICAL` remains open.
+- **M-H13 rider corrected:** DE-12 is in-sample consistency, not C10
+  certification. Corrected proxy searches reproduce the `19.346` gap and find
+  monotone and `N^p` realizers. The native record law and W230-to-FLRW
+  coefficient map remain unbuilt; no M-H13 no-go or promotion is licensed.
+- **Next named gate:** `RESOLVER-WAVE-B`, targeting Q3, DQ3, DQ1 typing, and
+  M-M28 fence absorption. A2 cosmology proceeds independently and does not block
+  those representation/operator targets.

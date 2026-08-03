@@ -20,7 +20,9 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | Directory | What it covers |
 |---|---|
 | `woit-principles/` (5) | exact finite controls for Cartan/Palatini soldering, OS/right-handed transfer, `Gr(2,C^4)` geometry, Lorentzian/Euclidean twistor real slices, and finite OS spectral positivity/failure witnesses |
-| `generation-sector/` (27) | the generation-count core: Krein signature, net chiral index, chirality kills (paper-cited; frozen), with a local script map and README inventory gate |
+| `generation-sector/` (28) | the generation-count core: Krein signature, net chiral index, chirality kills, and the Wave-A Reading-A kinematic grading (paper-cited surface; frozen paths), with a local script map and README inventory gate |
+| `observable-algebra/` (2) | finite compression-algebra commutant/trichotomy probes, including the `(7,7)` rerun; numerical carrier evidence only, not a physical observable-algebra or signature-selection theorem |
+| `de-certification/` (3) | Wave-A internal likelihood consistency, proxy shape-inverse witnesses, and the finite W230/conditional FLRW mapping fixture; no C10, M-H13, or native-bridge status movement |
 | `hardening-pass/` (2) | staged located-not-forced paper-hardening certificates: OQ-RK1 rank and route-(a) classification, with a local direct/independent script map and README inventory gate |
 | `source-action/` (12) | the twisted Rarita-Schwinger / source-action gate work (frozen alongside the paper), with a local script map and README inventory gate |
 | `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map and README inventory gate |
@@ -35,7 +37,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `symbolic-proofs/` (1) | symbolic structure-level certificates for the core theorem package, with a local script map and README inventory gate |
 | `decider/` (4) | the single-decider ("only honest computable integer is one"), with a local certificate map and README inventory gate |
 | `chase/` (0) | nested MOVE-1..MOVE-5 chase-to-kill verdict scripts, with a local script map and README inventory gate |
-| `boundary-eta/` (3) | the boundary eta-invariant / tangential fork, with a local script map, nested independent denominator checks, and README inventory gate |
+| `boundary-eta/` (4) | the boundary eta-invariant / tangential fork, with a local script map, nested independent denominator checks, and README inventory gate |
 | `anomaly/` (1) | frontstage anomaly gate validators, currently the Sp(1) 2-primary Dai-Freed AHSS gate, with a local script map and README inventory gate |
 | `sm-boundary/` (1) | SM-shaped boundary anomaly-inflow toy, with a local script map, nested independent algebraic verifier, and README inventory gate |
 | `calm-gw-boundary/` (1) | finite CALM/GW boundary gate for Jordan-component axial-charge monotonicity versus scalar/rounded readout failures, with a local script map and README inventory gate |
