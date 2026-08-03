@@ -62,3 +62,10 @@ This receipt does not certify the whole repository. It does not claim that
 Proposition 1, Haar averaging, the full real-reductive theorem, quaternionic
 Lie-group membership, or any physical interpretation is formalized in Lean.
 It certifies only the exact commands and named files in `REPRODUCE.md`.
+
+### Frozen-file checksums
+
+Result: **PASS**
+
+`evidence/checksums.sha256` freezes every paper-facing source and verification
+artifact except the checksum manifest itself.

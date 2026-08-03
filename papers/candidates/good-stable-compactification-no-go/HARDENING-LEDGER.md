@@ -87,6 +87,11 @@ is narrow and is stated identically in the manuscript and verification receipt.
 
 ## Remaining publication gate
 
+The post-hardening ten-specialist internal audit found no new theorem defect. It
+did identify and repair one test-quality issue: the mutual-product property
+generator now guarantees equal ranks, so all 160 generated pair cases execute
+rather than skipping rank-mismatched inputs.
+
 Run a fresh hostile deep-research review against the v0.5 Markdown file as a
 complete standalone submission. The post-ready gate passes only when any new
 criticism is either fixed, shown already addressed, or identified as an honest

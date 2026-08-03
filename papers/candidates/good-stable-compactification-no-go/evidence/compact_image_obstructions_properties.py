@@ -132,9 +132,7 @@ quaternion = st.builds(Q, qcoeff, qcoeff, qcoeff, qcoeff)
 pure_imaginary = st.builds(Q, st.just(0), qcoeff, qcoeff, qcoeff)
 
 
-@st.composite
-def skew_hermitian_matrices(draw):
-    n = draw(st.integers(1, 4))
+def draw_skew_hermitian(draw, n: int) -> Matrix:
     B = zeros(n)
     for a in range(n):
         B[a][a] = draw(pure_imaginary)
@@ -143,7 +141,19 @@ def skew_hermitian_matrices(draw):
             q = draw(quaternion)
             B[a][b] = q
             B[b][a] = -q.conj()
-    return n, B
+    return B
+
+
+@st.composite
+def skew_hermitian_matrices(draw):
+    n = draw(st.integers(1, 4))
+    return n, draw_skew_hermitian(draw, n)
+
+
+@st.composite
+def same_rank_skew_pairs(draw):
+    n = draw(st.integers(1, 4))
+    return n, draw_skew_hermitian(draw, n), draw_skew_hermitian(draw, n)
 
 
 @settings(max_examples=240, derandomize=True, deadline=None)
@@ -165,12 +175,9 @@ def test_exact_block_identities(data):
 
 
 @settings(max_examples=160, derandomize=True, deadline=None)
-@given(skew_hermitian_matrices(), skew_hermitian_matrices())
-def test_mutual_zero_products(left, right):
-    n, B = left
-    m, C = right
-    if n != m:
-        return
+@given(same_rank_skew_pairs())
+def test_mutual_zero_products(data):
+    _, B, C = data
     assert is_zero(mmul(x_plus(B), x_plus(C)))
     assert is_zero(mmul(x_minus(B), x_minus(C)))
 

@@ -17,6 +17,8 @@ yet approved for posting.
   the narrow executable evidence boundary.
 - [`review/referee-disposition-2026-08-03.md`](review/referee-disposition-2026-08-03.md)
   records the disposition of the hostile deep-research report.
+- [`review/post-hardening-ten-specialist-audit-2026-08-03.md`](review/post-hardening-ten-specialist-audit-2026-08-03.md)
+  records the final internal multi-lens audit and its remaining external gate.
 
 No PDF, TeX release source, Zenodo metadata, or upload archive belongs in this
 directory until Joe approves the hardened manuscript after the fresh

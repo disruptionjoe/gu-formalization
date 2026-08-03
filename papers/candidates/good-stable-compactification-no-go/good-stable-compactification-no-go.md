@@ -800,8 +800,10 @@ Only the following files are evidence for this paper:
 - `VERIFICATION.md`
 - `evidence/compact_image_obstructions_exact.py`
 - `evidence/compact_image_obstructions_properties.py`
+- `evidence/check_lean_receipt.sh`
 - `evidence/pyproject.toml`
 - `evidence/uv.lock`
+- `evidence/checksums.sha256`
 - `Lean/GUFormalization/CompactImageObstructions.lean`
 - `Lean/GUFormalization/CompactImageObstructionsAxioms.lean`
 

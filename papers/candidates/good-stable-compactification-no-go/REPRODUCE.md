@@ -78,3 +78,14 @@ its explicit no-higher-weight consequence, and mutually square-zero block maps
 over a possibly noncommutative ring. Sage and Python check the exact
 quaternionic specialization. None of these tools formalizes Haar averaging,
 the complete real-reductive group theorem, or any physical interpretation.
+
+## 4. Frozen-file checksums
+
+```bash
+shasum -a 256 -c \
+  papers/candidates/good-stable-compactification-no-go/evidence/checksums.sha256
+```
+
+The checksum manifest covers the manuscript, reproduction and verification
+notes, both exact certificates, the locked Python environment, the Lean
+wrapper, and both Lean modules. It intentionally does not hash itself.
