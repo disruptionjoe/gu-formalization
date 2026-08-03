@@ -38,12 +38,17 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2a-second-frechet-c4-graph-registry.json` - PW2F-R2B2A ledger:
+  preserves the exact rank-35 partial fixed-total-connection comparator while
+  recording the hostile complete-C4 block: source-coordinate `q/Gamma` split,
+  one co-moving frame, `h/theta1/Bhat2` second graph, five coefficient slots,
+  and separate `I1`/`I2B` Hessians remain open for R2B2B.
 - `pw2fr2b1-section-jvp-source-coordinate-registry.json` - PW2F-R2B1
   prerequisite ledger: distinguishes `q` from the full connection, preserves
   the literal fixed-`varpi` Levi-Civita Euler return, records the one-graph
   section/Zorro JVP, proves off-shell first-JVP insufficiency, and installs an
-  exact rank-35 quartic/global-`kappa1` gate while leaving a fourteen-candidate
-  principal-order audit and the actual C4 open for R2B2A.
+  exact rank-35 quartic/global-`kappa1` gate. R2B2A used that gate but exposed
+  a source-tangent/second-graph block now owned by R2B2B.
 - `pw2fr2-total-swervature-kappa-registry.json` - PW2F-R2A ledger: keeps the
   written action transgression distinct from its directional Euler-covector
   remainder and the resulting eddy candidate,

@@ -23,6 +23,7 @@ PW2F = ROOT / "lab/process/pw2f-native-top-order-metric-ward-registry.json"
 PW2FR = ROOT / "lab/process/pw2fr-complete-derived-k-c3-registry.json"
 PW2FR2 = ROOT / "lab/process/pw2fr2-total-swervature-kappa-registry.json"
 PW2FR2B1 = ROOT / "lab/process/pw2fr2b1-section-jvp-source-coordinate-registry.json"
+PW2FR2B2A = ROOT / "lab/process/pw2fr2b2a-second-frechet-c4-graph-registry.json"
 
 
 class DuplicateKeyError(ValueError):
@@ -44,8 +45,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2FR2B1_SOURCE_TANGENT_SECTION_JVP_AND_QUARTIC_GATE_PASS_SECOND_FRECHET_C4_OPEN_PW2FR2B2A_NEXT":
-        errors.append("status must record the scoped PW2F-R2B1 prerequisite and PW2F-R2B2A next")
+    if data.get("status") != "PW2FR2B2A_PARTIAL_FIXED_TOTAL_C4_COMPARATOR_PASS_COMPLETE_SOURCE_COORDINATE_C5_C4_BLOCKED_PW2FR2B2B_NEXT":
+        errors.append("status must record the partial PW2F-R2B2A comparator and PW2F-R2B2B next")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -97,7 +98,7 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2FR2B1_SOURCE_TANGENT_SECTION_JVP_QUARTIC_GATE_PASS_SECOND_FRECHET_ACTUAL_Y14_C4_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2FR2B2A_PARTIAL_FIXED_TOTAL_C4_COMPARATOR_PASS_COMPLETE_SOURCE_COORDINATE_C5_C4_BLOCKED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
         errors.append("wave status frontier must record the hostile-corrected PW2F/PW2F-R gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
@@ -199,6 +200,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2F-R2B1 hostile post-review retains must-fix items")
     if len(pw2fr2b1_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
         errors.append("PW2F-R2B1 hostile post-review rerun receipts missing")
+    pw2fr2b2a_review = waves[1].get("pw2fr2b2a_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2fr2b2a_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2F-R2B2A pre-assessment receipt incomplete")
+    if pw2fr2b2a_review.get("post_review", {}).get("status") != "COMPLETE_BLOCKING_PROMOTION":
+        errors.append("PW2F-R2B2A blocking hostile post-review receipt missing")
+    if len(pw2fr2b2a_review.get("post_review", {}).get("must_fix_before_complete_c4", [])) < 5:
+        errors.append("PW2F-R2B2A complete-C4 blockers were erased")
+    if len(pw2fr2b2a_review.get("post_review", {}).get("rerun_receipts", [])) < 3:
+        errors.append("PW2F-R2B2A hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -269,6 +279,7 @@ def main() -> None:
     pw2fr = json.loads(PW2FR.read_text(), object_pairs_hook=unique_object)
     pw2fr2 = json.loads(PW2FR2.read_text(), object_pairs_hook=unique_object)
     pw2fr2b1 = json.loads(PW2FR2B1.read_text(), object_pairs_hook=unique_object)
+    pw2fr2b2a = json.loads(PW2FR2B2A.read_text(), object_pairs_hook=unique_object)
     failures = validate(data)
     if failures:
         raise AssertionError("\n".join(failures))
@@ -287,7 +298,7 @@ def main() -> None:
         "hostile specialist post-review",
         "## Execution checkpoint",
         "PW3 stays blocked",
-        "PW2F-R2B1 PREREQUISITE PASS / PW2F-R2B2A REQUIRED",
+        "PW2F-R2B2A PARTIAL COMPARATOR / PW2F-R2B2B REQUIRED",
         "7 kappa1+6x-3",
         "7 kappa1+8x-10",
         "P1/P2/P3 remain correctly unused",
@@ -382,7 +393,17 @@ def main() -> None:
         raise AssertionError("PW2F-R2B1 second-Frechet debit drifted")
     if pw2fr2b1["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
         raise AssertionError("PW2F-R2B1 spent the external datum")
-    exact_checks += 41
+    if pw2fr2b2a["status"] != "PARTIAL_COMPARATOR_PASS_BLOCKS_COMPLETE_C4":
+        raise AssertionError("PW2F-R2B2A partial-comparator boundary drifted")
+    if "deltaq" not in pw2fr2b2a["blocking_debt"]["source_tangent"]:
+        raise AssertionError("PW2F-R2B2A source-tangent blocker drifted")
+    if "theta1" not in pw2fr2b2a["blocking_debt"]["second_graph"] or "Bhat2" not in pw2fr2b2a["blocking_debt"]["second_graph"]:
+        raise AssertionError("PW2F-R2B2A second-graph blocker drifted")
+    if pw2fr2b2a["partial_exact_results"]["universal_kappa"].find("NONE") < 0:
+        raise AssertionError("PW2F-R2B2A partial kappa result drifted")
+    if pw2fr2b2a["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
+        raise AssertionError("PW2F-R2B2A spent the external datum")
+    exact_checks += 46
     exact_checks += len(data["specialist_lenses"])
     exact_checks += len(data["engineering_personas"])
     exact_checks += len(data["waves"])
@@ -409,6 +430,7 @@ def main() -> None:
         lambda d: d["waves"][1]["pw2fr_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2fr2a_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2fr2b1_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2fr2b2a_review_receipts"]["post_review"].update(must_fix_before_complete_c4=[]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

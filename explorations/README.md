@@ -13,13 +13,21 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2A partial moving-C4 comparator and source-tangent block`](pw2fr2b2a-second-frechet-c4-graph-2026-08-02.md)
+  reconstructs an exact rank-35 fixed-total-connection quartic bank with
+  dense held-outs, raw moving-Shiab liveness control, and guarded `kappa`
+  classifier; same-pipeline contracted-bank liveness remains open.
+  Hostile review blocks complete-C4 promotion because the corrected
+  `deltaT=-deltaq` tangent, one co-moving frame, `h/theta1/Bhat2` second graph,
+  and five coefficient slots remain unbuilt. R2B2B owns that construction;
+  `I1` and `I2B` remain separate. P1/P2/P3 remain unused.
 - [`PW2F-R2B1 source-coordinate and section-JVP prerequisite`](pw2fr2b1-section-jvp-source-coordinate-2026-08-02.md)
   corrects the literal fixed-`varpi` tangent, differentiates the normal-frame
   section/Zorro identity as one graph, proves first-JVP ownership insufficient
   for an off-shell pulled Hessian, and installs the exact rank-35 quartic
-  extraction/proportionality gate. R2B2A must order-filter the fourteen
-  second-Fréchet candidates, then build or annihilate the C4-capable branches;
-  the actual induced-`Y14` C4 remains open.
+  extraction/proportionality gate. R2B2A used the extractor but exposed the
+  fixed-total/source-tangent mismatch; R2B2B now owns the complete
+  source-coordinate second graph.
 - [`PW2F-R2A action-derived eddy candidate and universal-kappa discriminator`](pw2fr2-total-swervature-kappa-2026-08-02.md)
   derives a live noncyclic directional Euler-covector remainder, an eddy
   candidate not yet identified with Portal's eddy, from the source-pinned action and
@@ -27,8 +35,9 @@ these for the full working record; the durable, reviewed results live in `canon/
   finite background families. This kills an action-intrinsic universal
   cancellation, not an exceptional value on the constrained actual induced-
   `Y14` locus. R2B1 now supplies the corrected source tangent, section JVP,
-  and complete quartic extractor; R2B2A must audit principal order and assemble
-  the C4-capable moving-coefficient and graph-curvature terms with native Green agreement.
+  and complete quartic extractor. R2B2A produced only a partial comparator;
+  R2B2B must assemble the source-coordinate co-moving graph and native Green
+  agreement.
   P1/P2/P3 remain unused.
 - [`PW2F-R corrected induced metric graph and highest-order Euler gate`](pw2fr-complete-derived-k-c3-2026-08-02.md)
   restores the derivative-bearing `Z1(nabla k)` route omitted by PW2F. The

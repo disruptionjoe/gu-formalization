@@ -7,6 +7,36 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
+> **2026-08-02 PW2F-R2B2A PARTIAL QUARTIC COMPARATOR PASS; COMPLETE
+> SOURCE-COORDINATE C5/C4 BLOCKED.** R2B2A successfully reconstructs a
+> ten-owner, 35-monomial quartic bank with three dense held-outs for the
+> evaluator it actually implements. It also evaluates eight moving-Shiab
+> slots, proves the raw eight-slot map is nonzero on a hostile fixture while
+> retaining same-pipeline contracted-bank liveness as debt, and protects the
+> partial `kappa1=NONE` result
+> with `ANY` and `UNIQUE` controls.
+>
+> Hostile review found that this is not yet the promised complete graph. The
+> executable uses `deltaT=-Ad(h^-1)deltaB`, a fixed-total-connection synthetic
+> tangent. The corrected Eric/source coordinates require
+> `deltaT=-deltaq` and `deltaB_full=deltaGamma+deltaq`. It also leaves the
+> `h/theta1/Bhat2` second derivative unbuilt, evaluates only eight of thirteen
+> possible `1+3` coefficient slots, and mixes conjugated core/mass variables
+> with an unmoved moving-Shiab background. Symmetry is by construction and the
+> Green check is a frozen ray, not an independent reverse native derivation.
+>
+> Resume at
+> `PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4`.
+> Build `deltaq` separately from `deltaGamma`; put the background, core, mass,
+> and moving contraction in one frame; construct or annihilate
+> `delta u/theta1/d theta1/Bhat2`; account for density, Krein, two lowerers,
+> and outer pairing; and compute the source-directed `I1` Hessian separately
+> from the manuscript `I2B` residual-square Hessian. Compare
+> vary-upstairs-then-observe with restrict-then-vary. P1/P2/P3 remain
+> unchanged and unused; Curt and the conjunctive third-lane gate are unchanged.
+> The scoped result is
+> `explorations/pw2fr2b2a-second-frechet-c4-graph-2026-08-02.md`.
+>
 > **2026-08-02 PW2F-R2B1 SOURCE-TANGENT/SECTION-JVP PREREQUISITE PASS;
 > SECOND-FRÉCHET C4 GATE NEXT.** PW2F-R2B1 corrects a load-bearing shorthand.
 > In literal source coordinates
@@ -29,7 +59,7 @@ updated_at: "2026-08-02"
 > `kappa1` proportionality gate. The old five-conormal panel is provably
 > incomplete because nonzero `eta_2^4` vanishes on all five points.
 >
-> PW2F-R2B2A must now order-filter the fourteen second-Fréchet candidates,
+> PW2F-R2B2A was assigned to order-filter the fourteen second-Fréchet candidates,
 > build or exactly annihilate the branches that can reach `C4`—especially the
 > `h/theta1/Bhat2` and moving-coefficient routes—retain both Hessian terms,
 > extract all 35 monomials, and reconcile Helmholtz, direct, reverse, and
@@ -76,8 +106,8 @@ updated_at: "2026-08-02"
 > `explorations/pw2fr2-total-swervature-kappa-2026-08-02.md`, and the R2B1
 > prerequisite in
 > `explorations/pw2fr2b1-section-jvp-source-coordinate-2026-08-02.md`.
-> Resume at
-> `PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH`.
+> This predecessor handoff was attempted by R2B2A and is superseded by the
+> R2B2B gate at the top of this file.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B1 / PW2F-R2B2A NEXT. R2B1 corrects the literal fixed-varpi tangent, constructs the one-graph section/Zorro JVP, proves first-JVP data insufficient for the off-shell Hessian, and installs an exact 35-monomial quartic gate. The complete second-Frechet induced-Y14 C4 remains open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2A PARTIAL COMPARATOR / PW2F-R2B2B NEXT. R2B2A builds an exact rank-35 fixed-total-connection quartic comparator, but hostile review blocks complete C4 because the corrected source tangent, co-moving frame, h/theta1/Bhat2 second graph, and five coefficient slots remain unbuilt. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -285,16 +285,19 @@ cancellation, and isolated a live fourth-order distortion coefficient.
 PW2F-R2A has now derived a noncyclic directional Euler-covector remainder and
 eddy candidate from the action and proved that no one constant `kappa1`
 cancels either exact ambient independent-`(B,T)` finite fixed-endpoint family.
-The source is silent on identifying this candidate with Portal's eddy. The
-result kills a universal action-intrinsic cancellation, not
-an exceptional value on the constrained induced-`Y14` locus. The complete
-actual-`Y14` fourth-order sum is still open. PW3 and later waves remain
-unexecuted.
+The source is silent on identifying this candidate with Portal's eddy. R2B1
+then corrected the fixed-source tangent and installed the rank-35 quartic
+extractor. R2B2A used that extractor successfully, but hostile review found
+that its evaluator had reverted to a fixed-total-connection tangent, omitted
+the dynamic `h/theta1/Bhat2` second graph and five coefficient slots, and did
+not place every bank in one co-moving frame. The exact partial comparator is
+retained; complete source-coordinate `C5/C4` is blocked. PW3 and later waves
+remain unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — PW2F-R2B1 PREREQUISITE PASS / PW2F-R2B2A REQUIRED** | R2B1 corrects `T=varpi-q`, differentiates the section/Zorro identity as one graph, preserves the live Levi-Civita Euler return, proves first-JVP ownership insufficient off shell, and builds the exact rank-35 quartic extraction/proportionality gate. It leaves every candidate's actual principal order and nonvanishing open. | Which of the fourteen second-Fréchet candidates can reach C4, and does the resulting `theta1/Bhat2`/moving-coefficient graph restrict to a special proportional geometric locus or remain fourth order? | PW2F-R2B2A first order-filters every candidate, then constructs or exactly annihilates each C4-capable branch before extracting the 35-monomial C4 and validating Helmholtz plus direct/reverse/presymplectic Green equality. Lower-order debt carries forward. |
+| **PW2 — full jet and effective operator — PW2F-R2B2A PARTIAL COMPARATOR / PW2F-R2B2B REQUIRED** | R2B2A reconstructs the 35-monomial fixed-total-connection `J*H_action*J` bank, evaluates eight moving-Shiab slots, and installs live moving-Shiab plus `NONE/ANY/UNIQUE(kappa)` controls. Hostile review blocks promotion: source fixed-`(epsilon,varpi)` needs `deltaT=-deltaq`, not the computed `-Ad(h^-1)deltaB`; the second orbit, five coefficient slots, and co-moving frame are open. | Does the correct `q/Gamma` split and dynamic second graph preserve, cancel, or alter the partial quartic bank in both `I1` and `I2B`? | PW2F-R2B2B builds the source-coordinate tangent and one co-moving `h/theta1/Bhat2` graph, accounts for all coefficient slots, and compares vary-upstairs with restrict-first. Lower-order debt carries forward. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -393,7 +396,9 @@ off-shell pulled Hessian without `<E,D2 graph>`. Finally, its exact rank-35
 quartic basis reconstructs three owner-pair columns at three held-outs, and a
 nonzero `eta_2^4` plant proves the predecessor five-conormal panel incomplete.
 The abstract Hessian witness leaves second-graph terms uncontrolled; it does
-not prove all fourteen candidates are nonzero or degree four.
+not prove all fourteen candidates are nonzero or degree four. R2B2A's exact
+rank-35 comparator and held-outs pass, but its fixed-total-connection tangent
+is not the corrected source tangent and its dynamic second graph is absent.
 The next gate is
-`PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH`.
+`PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4`.
 PW3 stays blocked. P1/P2/P3 remain correctly unused.

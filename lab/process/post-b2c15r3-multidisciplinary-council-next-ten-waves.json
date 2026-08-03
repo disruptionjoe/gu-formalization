@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "PW2FR2B1_SOURCE_TANGENT_SECTION_JVP_AND_QUARTIC_GATE_PASS_SECOND_FRECHET_C4_OPEN_PW2FR2B2A_NEXT",
+  "status": "PW2FR2B2A_PARTIAL_FIXED_TOTAL_C4_COMPARATOR_PASS_COMPLETE_SOURCE_COORDINATE_C5_C4_BLOCKED_PW2FR2B2B_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -46,13 +46,16 @@
       "PW2F-R2A exact no-universal-constant-kappa result across both finite background families plus two-layer and linearized Green certificates",
       "PW2F-R2B1 correction that literal fixed-varpi source coordinates give deltaT=-deltaq rather than minus the full-connection variation, preserving the live (D_g Gamma)^! E_T return",
       "PW2F-R2B1 one-graph normal-frame section/Zorro JVP cancellation for all ten Sym2 owners plus the exact curved second-base-jet pullback control",
-      "PW2F-R2B1 exact off-shell first-JVP insufficiency theorem and rank-35 all-quartic-monomial extraction/proportionality gate"
+      "PW2F-R2B1 exact off-shell first-JVP insufficiency theorem and rank-35 all-quartic-monomial extraction/proportionality gate",
+      "PW2F-R2B2A exact rank-35 fixed-total-connection quartic comparator with three dense held-outs",
+      "PW2F-R2B2A live raw eight-slot moving-Shiab control and exact selected contracted test-background zero, with same-pipeline contracted liveness open",
+      "PW2F-R2B2A hostile Layer-0 correction: source fixed-(epsilon,varpi) deltaT=-deltaq is not the computed deltaT=-Ad(h^-1)deltaB; complete C5/C4 remains blocked"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
       "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "owner-by-owner principal-order audit followed by construction or exact C4 annihilation of the capable second Frechet branches, including partial-Z1, theta1/Bhat2, moving-Shiab, density/Krein/lowerer/pairing, graph-curvature, and direct-reverse-presymplectic validation before any C3 or lower C2 assembly",
+      "source-coordinate q/Gamma tangent split, one co-moving background/frame, dynamic h/theta1/Bhat2 second graph, and the five unevaluated density/Krein/lowerer/outer-pairing C4 routes before any C3 or lower C2 assembly",
       "complete lower C2 active-native metric Euler coefficient with every total-to-base metric owner, formal-adjoint Green return, kernel, and quotient rank",
       "actual action-derived Euler covector descent beyond the earned active coefficient and grade-two representation-covector laws",
       "higher native action jets determining whether the quadratic Delta-only degeneracy persists; D3G remains unconstructed and unearned pending the complete top-order sum",
@@ -63,9 +66,9 @@
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B1",
-    "guided_next": "PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH",
-    "alternative_next": "PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH"
+    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B2A",
+    "guided_next": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
+    "alternative_next": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -392,7 +395,7 @@
     },
     {
       "id": "PW2",
-      "status": "PW2FR2B1_SOURCE_TANGENT_SECTION_JVP_QUARTIC_GATE_PASS_SECOND_FRECHET_ACTUAL_Y14_C4_REQUIRED",
+      "status": "PW2FR2B2A_PARTIAL_FIXED_TOTAL_C4_COMPARATOR_PASS_COMPLETE_SOURCE_COORDINATE_C5_C4_BLOCKED",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -416,7 +419,7 @@
       ],
       "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
       "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
-      "exit": "PW2F-R2B1 corrects the literal fixed-varpi tangent to deltaT=-deltaq, preserves the live Levi-Civita Euler return, differentiates the normal-frame section/Zorro identity as one graph, proves exactly that first-JVP data do not determine an off-shell pulled Hessian, and installs the exact rank-35 quartic extraction/proportionality gate. The abstract witness leaves second-graph terms uncontrolled but does not prove every candidate is nonzero or degree four. R2B2A must order-filter the candidates and build or exactly annihilate the C4-capable branches before native direct/reverse/presymplectic validation. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked.",
+      "exit": "PW2F-R2B2A constructs a sound rank-35 partial fixed-total-connection quartic comparator, but hostile review blocks complete-C4 promotion because it violates the corrected source tangent, omits the h/theta1/Bhat2 second graph and five coefficient slots, and mixes frames. R2B2B must build the source-coordinate q/Gamma split and one co-moving second graph for both I1 and I2B. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked.",
       "result": {
         "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
         "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
@@ -456,7 +459,10 @@
         "pw2fr2b1_hessian_quartic_gate": "JSTAR_H_J_PLUS_E_D2GRAPH_EXACT__SAME_VALUE_FIRST_JVP_DIFFERENT_OFFSHELL_HESSIAN__35_HOMOGENEOUS_QUARTIC_MONOMIALS__RANK35_EXACT_VANDERMONDE__THREE_OWNER_PAIR_AND_THREE_HELDOUT_RECONSTRUCTIONS_PASS__ETA2_FOURTH_KILLS_FIVE_PANEL_COMPLETENESS__GLOBAL_KAPPA_REQUIRES_FLATTENED_COEFFICIENTWISE_PROPORTIONALITY",
         "pw2fr2b1_scope": "PREREQUISITE_PASS_NOT_COMPLETE_C4__ABSTRACT_WITNESS_PROVES_D2GRAPH_UNCONTROLLED_NOT_EVERY_CANDIDATE_LIVE_OR_DEGREE4__14_SECOND_FRECHET_CANDIDATES_REQUIRE_PRINCIPAL_ORDER_AUDIT_THEN_C4_CONSTRUCTION_OR_ANNIHILATION__LOWER_ORDER_DEBT_CARRIES_TO_C3_C2_FULL_HESSIAN__SOURCE_SILENT_ON_COMPLETE_GRAPH_C4_KAPPA__P1_P2_P3_UNUSED",
         "pw2fr2b1_tools": "MAIN44_PASS__PINNED_SOURCE22_PASS__THREE_HOSTILE_REVIEWS_PASS_AFTER_REPAIR",
-        "next_gate": "PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH",
+        "pw2fr2b2a_partial_comparator": "FIXED_TOTAL_CONNECTION_SYNTHETIC_DELTAT_MINUS_ADHINV_DELTAB_NOT_SOURCE_FIXED_EPSILON_VARPI__FIXED_H_LC_ZORRO_C5_SUBROUTE_ZERO__RANK35_QUARTIC_RECONSTRUCTION_AND_THREE_HELDOUTS_PASS__FIXED_SHIAB_JSTARHACTIONJ_CORE10__EIGHT_SLOT_MOVING_SHIAB_SELECTED_CONTRACTED_TEST_BACKGROUND_ZERO_WITH_INDEPENDENT_RAW_MAP_LIVE_FIXTURE__KAPPA_MASS10__PARTIAL_BANK_UNIVERSAL_KAPPA_NONE_WITH_ANY_UNIQUE_CONTROLS",
+        "pw2fr2b2a_block": "SOURCE_DELTAT_MINUS_DELTAQ_NOT_COMPUTED__H_THETA1_BHAT2_SECOND_GRAPH_OPEN__CORE_MASS_MOVING_SHIAB_BACKGROUND_NOT_ONE_COMOVING_FRAME__DENSITY_KREIN_TWO_LOWERERS_OUTER_PAIRING_UNEVALUATED__SAME_PIPELINE_CONTRACTED_MOVING_BANK_LIVENESS_OPEN__NO_INDEPENDENT_REVERSE_ADJOINT__SOURCE_DIRECTED_I1_AND_MANUSCRIPT_I2B_HESSIANS_BOTH_OPEN",
+        "pw2fr2b2a_tools": "MAIN49_PASS__PINNED_SOURCE29_PASS__SCAFFOLD118_PASS__THREE_HOSTILE_REVIEWS_PASS_REPAIRED_PARTIAL_GRADE_AND_BLOCK_COMPLETE_C4_PROMOTION",
+        "next_gate": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
         "pw2f_diffeomorphism": "STRUCTURAL_1D_FORMAL_NATURAL_LIFT_NOETHER_AND_GREEN_SCHEMA_PASS__INTERNAL_WARD_AND_XI_DISTINCT__LITERAL_ACTIVE_NATIVE_OWNER_COEFFICIENT_AND_RANK_OPEN",
         "pw2f_tools_and_sources": "PRIMARY_PDF_CUSTODY_AND_SCOPED_ABSENCE_MANIFEST__SAGE_STRUCTURAL_AFFINE5__FLINT_RATIONAL_RANK7__RIGOROUS_ARB_INTERVAL_NONZERO_SELECTED_MINOR__NO_BACKEND_NATIVE_ASSEMBLY"
       },
@@ -801,6 +807,45 @@
             "exact geometry, variational PDE, and source/campaign hostile reviews PASS_AFTER_REPAIR"
           ]
         }
+      },
+      "pw2fr2b2a_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact differential and reductive geometry",
+            "variational PDE, principal order, Helmholtz, and Green ownership",
+            "primary-source provenance and Layer-0 source coordinates"
+          ],
+          "shared_prediction": "C5 would likely clear before C4, but any surviving result had to own the corrected source tangent and all C4-capable second-graph routes"
+        },
+        "post_review": {
+          "status": "COMPLETE_BLOCKING_PROMOTION",
+          "lenses": [
+            "hostile exact differential geometry",
+            "hostile variational PDE and formal-adjoint scope",
+            "hostile primary-source and Layer-0 custody"
+          ],
+          "must_fix_before_complete_c4": [
+            "construct deltaq separately from deltaGamma",
+            "construct h/theta1/Bhat2 second graph",
+            "place all banks in one co-moving frame",
+            "compute or exactly absorb five non-Shiab coefficient slots",
+            "retain distinct I1 and I2B Hessian branches",
+            "supply a same-pipeline nonzero control for the contracted moving-Shiab quartic bank"
+          ],
+          "repairs_applied_to_partial_comparator": [
+            "removed fixed-source and complete-C4 claims",
+            "pinned selected contracted moving-Shiab zero and added a nonzero raw-map hostile fixture while retaining same-pipeline liveness debt",
+            "pinned kappa NONE and added ANY and UNIQUE controls",
+            "renamed transpose and Green checks to owner symmetry and frozen-ray identities",
+            "corrected global-section, action-homonym, real-form, and contorsion source dispositions"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2B2A repaired main: 22 exact + 16 type + 11 planted = 49 PASS",
+            "PW2F-R2B2A repaired pinned-source collision: 2 exact + 11 source + 10 type + 6 planted = 29 PASS",
+            "exact and variational hostile reviews BLOCK complete-C4 promotion; source review PASS_AFTER_REPAIR"
+          ]
+        }
       }
     },
     {
@@ -1069,7 +1114,7 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, PW2E, PW2F, scoped PW2F-R, PW2F-R2A, and prerequisite PW2F-R2B1 were executed; PW2F-R2B2A is next and PW3 plus all later waves remain unexecuted.",
+    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, PW2E, PW2F, scoped PW2F-R, PW2F-R2A, PW2F-R2B1, and the partial PW2F-R2B2A comparator were executed; PW2F-R2B2B is next and PW3 plus all later waves remain unexecuted.",
     "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."
