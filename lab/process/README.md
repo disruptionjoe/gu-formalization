@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2f-i1-transgression-projective-kappa-registry.json` -
+  PW2F-R2B2B2F ledger: records the written transgression/path-integral match,
+  degree-five raw-density ceiling, direct full-polynomial differentiation,
+  exact rows `(3/40,-8/25)` and `(-9/50,0)`, and rank-two frozen-Shiab
+  projective comparator. Moving normalized trace and Green/Helmholtz Euler
+  reduction remain open.
 - `pw2fr2b2b2e-actual-u4-jet-realizability-registry.json` -
   PW2F-R2B2B2E ledger: records the conditional active nonlinear Zorro and
   corrected symmetric-coframe graph, all-ten owner compatibility, universal

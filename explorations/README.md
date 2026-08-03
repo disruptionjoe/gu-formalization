@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2F I1 transgression frozen-Shiab raw-density comparator`](pw2fr2b2b2f-i1-transgression-projective-kappa-2026-08-03.md)
+  constructs the written one-half/one-third transgression on the conditional
+  active coframe, matches an independent curvature-path integral and direct
+  polynomial density derivative, and obtains exact rows
+  `(3/40,-8/25)` and `(-9/50,0)` of projective rank two. Hostile review keeps
+  this at raw-density comparator grade: moving normalized-trace transport and
+  full Green/Helmholtz Euler reduction remain mandatory before classifying
+  `kappa1` for the operator. P1/P2/P3 remain unused; Curt and the third-lane
+  gate are unchanged.
 - [`PW2F-R2B2B2E conditional active principal U4 degree ceiling`](pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md)
   constructs the nonlinear two-wave Zorro metric and corrected symmetric
   coframe, proves all-ten owner compatibility, and propagates exact degrees

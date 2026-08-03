@@ -7,6 +7,27 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2F FROZEN-SHIAB RAW-DENSITY COMPARATOR; FULL
+> A4/GREEN STILL REQUIRED.** The written
+> `F_B+(1/2)D_B T+(1/3)[T,T]` transgression agrees with an independent
+> curvature-path integral under the declared probe convention
+> `[T,T]_probe:=T wedge T`; the source bracket normalization remains unported.
+> A degree-five max-plus ledger and direct
+> full-polynomial density derivative support two exact comparator rows:
+> `(A4,M4)=(3/40,-8/25)` and `(-9/50,0)`. Their projective row rank is two, so
+> this frozen-Shiab raw-density representative has no common scalar ratio.
+>
+> Hostile review caught the boundary: this is not yet an Euler-operator
+> obstruction. The off-diagonal raw density can differ by a total divergence,
+> and the symmetric coframe has not been proved adapted to Shiab's normalized
+> DeWitt trace insertion. Resume at
+> `PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4`: transport the
+> moving trace, complete `A4`, perform the four-dimensional multi-index/Krein
+> Green and Helmholtz reduction, then rerun the projective classifier and
+> assemble `I2B C4`. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2f-i1-transgression-projective-kappa-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B2E CONDITIONAL ACTIVE PRINCIPAL U4 CEILING ZERO;
 > A4 AND KAPPA1 NEXT.** An exact nonlinear two-wave Zorro metric and corrected
 > symmetric-coframe connection now reproduce all ten accepted principal owner

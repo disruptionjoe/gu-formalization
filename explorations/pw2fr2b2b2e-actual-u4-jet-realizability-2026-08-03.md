@@ -182,6 +182,12 @@ conditional active principal slot by an order theorem, not by a fit.
 
 # Boundaries and next gate
 
+Successor note (R2B2B2F): the written transgression now has a conditional
+frozen-Shiab raw-density comparator with exact rows
+`(A4,M4)=(3/40,-8/25)` and `(-9/50,0)`, of projective rank two. Hostile review
+correctly prevents promoting that density result to the Euler operator before
+moving normalized-trace transport and Green/Helmholtz reduction.
+
 The result does not cover global/source epsilon, independently varied
 `varpi`, another real form, vertical or mixed conormals, partial `Z1`, section
 tangents, or the unported 2021 action. In the canonical orthonormal coframe the
@@ -194,11 +200,14 @@ multi-index/Krein Green identity remains open. The live `C3` return also
 requires its proper odd-order formal-adjoint and moving-coefficient terms.
 
 Resume at
-`PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-KAPPA1-PROPORTIONALITY`:
+`PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4`:
 
-1. construct the distinct `A4` transgression/moving-Shiab bank;
-2. reconcile the full `I1` `C4` family by a four-dimensional Green identity;
-3. run the coefficientwise `NONE/ANY/UNIQUE(kappa1)` classifier; and
+1. transport the moving normalized DeWitt trace and construct the distinct
+   full `A4` transgression bank;
+2. reconcile the full `I1` `C4` family by a four-dimensional Green/Helmholtz
+   identity;
+3. rerun the coefficientwise `NONE/ANY/UNIQUE(kappa1)` classifier on the Euler
+   operator; and
 4. only then assemble the separate admitted `I2B` `C4` bank.
 
 P1/P2/P3 remain unchanged and unused. Curt remains
