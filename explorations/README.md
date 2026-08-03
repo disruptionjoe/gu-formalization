@@ -13,14 +13,23 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R corrected induced metric graph and highest-order Euler gate`](pw2fr-complete-derived-k-c3-2026-08-02.md)
+  restores the derivative-bearing `Z1(nabla k)` route omitted by PW2F. The
+  ten-owner metric and LC/spin banks have exact rank ten; an executable
+  structural comparator gives `C6=0`, and the exercised principal-`Z1`
+  fixed-background `C5` polynomial cancels. Its `kappa1` distortion-norm
+  `C4` contribution is exact rank ten with inertia `(4,6)` off a planted null
+  conormal and zero on it. The complete `kappa1`/total-swervature `C4`
+  assembly remains open for PW2F-R2; `C3`, lower `C2`, and PW3 stay blocked.
+  P1/P2/P3 remain unused.
 - [`PW2F active-native top-order metric composition and diffeomorphism-Ward schema`](pw2f-native-top-order-metric-ward-2026-08-02.md)
   proves zero alternation for all 140 induced-Y14 Levi-Civita symbol columns,
   then records the hostile correction: an omitted derived-K term is live on
   129 columns, while held-out vertical and mixed conormals give non-skew C3
   contributions of ranks ten and five. The structural affine theorem, selected
   horizontal rank-seven C2 panel, raw moving-Shiab rank-ten bank, and formal
-  diffeomorphism schema survive at narrowed grades. PW2F-R must complete top
-  order and the full skew Y14 C3 before lower C2. P1/P2/P3 remain unused.
+  diffeomorphism schema survive at narrowed grades. PW2F-R corrects the metric
+  graph and moves the frontier to the complete C4 sum. P1/P2/P3 remain unused.
 - [`PW2E finite active Shiab descent and mixed metric-Ward readiness`](pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md)
   constructs the finite active grade-3/11 Shiab on exact elliptic, hyperbolic,
   and Hodge-null branches; proves symbolic three-patch coefficient and affine

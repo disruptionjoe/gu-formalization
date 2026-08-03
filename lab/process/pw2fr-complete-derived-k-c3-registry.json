@@ -1,0 +1,136 @@
+{
+  "schema_version": "1.0",
+  "status": "PW2FR_Z1_GRAPH_PASS_STRUCTURAL_C6_AND_EXERCISED_C5_CANCEL_KAPPA1_C4_SUBROUTE_LIVE_COMPLETE_C4_OPEN",
+  "date": "2026-08-02",
+  "run_id": "RUN-20260803-002500-gu-formalization-pw2fr-derived-k-c3",
+  "question": "After restoring the omitted derivative-bearing induced metric graph and composing the complete highest-order derived-K incidence, which metric Euler coefficient is first allowed to survive?",
+  "layer_zero": {
+    "source_epsilon_vs_repository_h": "DISTINCT",
+    "source_epsilon_fixed_vs_same_epsilon_independently_varied_vs_metric_derived_h": "THREE_CONDITIONAL_TANGENT_POLICIES_NONE_SOURCE_SELECTED",
+    "executed_metric_tangent": "FIX_SOURCE_EPSILON_AND_VARPI__T_EQUALS_VARPI_MINUS_B_IMPLIES_DELTA_T_TOP_EQUALS_MINUS_DELTA_B_TOP__NOT_FIXED_T_OR_FIXED_B",
+    "induced_sym2_metric_graph_vs_arbitrary_metric_on_y14": "TEN_OWNERS_NOT_105",
+    "upstairs_y14_conormal_vs_observed_base_conormal": "DISTINCT",
+    "coefficient_rank_vs_complete_euler_rank_vs_physical_rank": "DISTINCT",
+    "c4_before_c3": "REQUIRED_BY_HELMHOLTZ_ORDERING"
+  },
+  "corrected_metric_graph": {
+    "predecessor_omission": "PW2F_EXERCISED_ONLY_ALGEBRAIC_Z0_COLUMNS_OF_DG_GY",
+    "restored_term": "Z1_NABLA_K_CROSS_BLOCK_OF_THE_EXACT_CONNECTION_METRIC",
+    "owner_space": "SYM2_TSTAR_X_DIMENSION_10",
+    "base_conormal_panel": [
+      "e0",
+      "e1",
+      "e3",
+      "e0_plus_e1",
+      "e0_plus_e3"
+    ],
+    "z1_metric_ranks": [10, 10, 10, 10, 10],
+    "z1_lc_spin_ranks": [10, 10, 10, 10, 10],
+    "full_z0_plus_z1_lc_spin_ranks": [10, 10, 10, 10, 10],
+    "quadratic_conormal_scaling": "EXACT",
+    "linearized_metric_compatibility": "DELTA_GAMMA_I_TRANSPOSE_G_PLUS_G_DELTA_GAMMA_I_EQUALS_ETA_I_K_ON_ALL_200_EXERCISED_OWNER_DIRECTION_CASES",
+    "torsion_free_alternation": "ZERO_ON_ALL_50_EXERCISED_COMPLETE_Z0_PLUS_Z1_LC_VARIATIONS"
+  },
+  "derived_k": {
+    "identity": "DELTA_K_EQUALS_D_BPLUSK_HINV_DELTAH_PLUS_AD_HINV_MINUS_ONE_DELTA_B",
+    "selected_background": "EXACT_NONTRIVIAL_HODGE_NULL_BRIDGE_WITH_K0_EQUALS_DU",
+    "highest_induced_jet_delta_u": "ZERO_BECAUSE_ALT_DELTA_B_EQUALS_ZERO",
+    "highest_connection_incidence": "DELTA_B_PLUS_DELTA_K_EQUALS_AD_HINV_DELTA_B",
+    "active_conjugation_norm": "EXACTLY_INVARIANT",
+    "scope": "HIGHEST_INDUCED_BASE_JET_ONLY__PARTIAL_Z1_AND_SECTION_TANGENT_REMAIN_OPEN"
+  },
+  "highest_order_euler": {
+    "density_jet_ceiling_after_z1": 6,
+    "C6": "EXECUTABLE_STRUCTURAL_Q2_Q3_EULER_COMPARATOR_ZERO_UNDER_THE_EXERCISED_PRINCIPAL_Z1_JET_LEDGER",
+    "C5": {
+      "panel_ranks": [0, 0, 0, 0, 0],
+      "all_base_conormal_polynomial_nonzero_entries": 0,
+      "verdict": "IDENTICALLY_ZERO_ON_THE_FOUR_VARIABLE_CONORMAL_POLYNOMIAL_OF_THE_EXERCISED_PRINCIPAL_Z1_FIXED_BACKGROUND_BRANCH"
+    },
+    "distortion_norm_principal_z1_kappa1_C4_contribution": {
+      "panel_ranks": [10, 10, 10, 10, 0],
+      "panel_inertias": [
+        [4, 6, 0],
+        [4, 6, 0],
+        [4, 6, 0],
+        [4, 6, 0],
+        [0, 0, 10]
+      ],
+      "nonnull_verdict": "EXACT_FULL_RANK",
+      "null_e0_plus_e3_verdict": "EXACT_SUBROUTE_ZERO__NOT_YET_A_CHARACTERISTIC_OF_THE_COMPLETE_OPERATOR",
+      "interpretation": "NONZERO_PRINCIPAL_Z1_SUBROUTE_CONTRIBUTION_MULTIPLYING_FREE_KAPPA1__MUST_BE_CANCELLED_OR_RETAINED_BY_THE_COMPLETE_KAPPA1_ASSEMBLY"
+    },
+    "z0_only_ablation_ranks": [10, 10, 10, 10, 4],
+    "complete_C4": "OPEN_PENDING_COMPLETE_KAPPA1_PARTIAL_Z1_SECTION_TOTAL_SWERVATURE_DENSITY_KREIN_LOWERER_AND_DIRECT_REVERSE_GREEN_VALIDATION",
+    "C3": "BLOCKED_UNTIL_COMPLETE_C4_IS_FIXED"
+  },
+  "transported_c5_control": "EXACT_E0_TRANSPORTED_SHIAB_OUTPUT_AND_PAIRING_COMPARATOR_PRESERVES_THE_SELECTED_NULL_H_C5_ZERO",
+  "source_disposition": {
+    "literal_gauge_rotated_connection_difference": "SOURCE-CONFIRMS",
+    "unspecified_quadratic_eddy_completion_of_shiab_contracted_curvature_for_total_swervature_exactness": "SOURCE-CONFIRMS",
+    "eddy_formula_and_whether_its_repository_realization_contributes_to_or_cancels_C4": "SOURCE-SILENT",
+    "projection_vs_contraction": "SOURCE-CORRECTS",
+    "repository_h_equals_source_epsilon": "SOURCE-SILENT",
+    "metric_dependent_epsilon_selector": "SOURCE-SILENT",
+    "admissible_epsilon_varpi_variation_domain": "SOURCE-SILENT",
+    "repository_C4_C3_coefficients": "SOURCE-SILENT",
+    "collision_artifact": "tests/channel-swings/pw2fr_primary_source_collision_probe.py"
+  },
+  "exact_tool_crosschecks": {
+    "primary": {
+      "backend": "SYMPY_EXACT_RATIONAL_AND_SYMBOLIC_POLYNOMIAL",
+      "artifact": "tests/channel-swings/pw2fr_complete_derived_k_c3_probe.py",
+      "receipt": "15 exact + 2 source + 11 type + 9 planted = 37 PASS"
+    },
+    "python_flint": {
+      "artifact": "tests/channel-swings/pw2fr_flint_rank_crosscheck.py",
+      "role": "INDEPENDENT_EXACT_ARITHMETIC_BACKEND_ON_PRIMARY_GEOMETRIC_MATRICES__NOT_AN_INDEPENDENT_GEOMETRIC_CONSTRUCTION",
+      "receipt": "4 PASS__NONNULL_RANK10__DETERMINANT_NONZERO__NULL_RANK0"
+    },
+    "sage": {
+      "artifact": "tests/channel-swings/pw2fr_sage_principal_helmholtz_crosscheck.sage",
+      "role": "INDEPENDENT_STRUCTURAL_C6_C5_C4_COMPARATOR",
+      "current_environment": "SAGE_BINARY_UNAVAILABLE__ARTIFACT_NOT_EXECUTED_IN_THIS_RUN"
+    },
+    "source_collision": {
+      "artifact": "tests/channel-swings/pw2fr_primary_source_collision_probe.py",
+      "receipt": "3 exact + 7 source + 5 type + 6 planted = 21 PASS"
+    },
+    "approximate_or_ml_scientific_verdict": "NOT_USED"
+  },
+  "pre_assessment": {
+    "exact_geometry": "COMPLETE__CAUGHT_THE_Z1_OMISSION_AND_TEN_OWNER_TARGET",
+    "variational_pde": "COMPLETE__REQUIRED_EXECUTABLE_STRUCTURAL_COMPARATOR_AND_C4_BEFORE_C3",
+    "primary_source_layer_zero": "COMPLETE__SPLIT_THREE_EPSILON_H_TANGENT_POLICIES_AND_TYPED_TOTAL_SWERVATURE_COLLISION",
+    "kill_conditions_preregistered": true
+  },
+  "hostile_post_review": {
+    "status": "COMPLETE_AFTER_REPAIR",
+    "exact_geometry": "PASS_AFTER_REPAIR__FIXED_EPSILON_VARPI_TANGENT_TYPED__METRIC_COMPATIBILITY200__TRANSPORTED_PAIRING_C5_CONTROL__NULL_ZERO_NOT_CHARACTERISTIC",
+    "variational_pde": "PASS_AFTER_REPAIR__EXECUTABLE_C6_COMPARATOR__PRINCIPAL_Z1_SUBROUTE_SCOPE__GREEN_IS_BOUNDARY_VALIDATION__C4_BEFORE_C3",
+    "source_layer_zero": "PASS_AFTER_REPAIR__ONE_UCSD_RECORDING_TWO_EDITIONS__FOUR_SURFACES_FIVE_QUERIES__UNSPECIFIED_TOTAL_SWERVATURE_EDDY__FORMULA_AND_C4_EFFECT_SILENT",
+    "must_fix": [],
+    "rerun_receipts": [
+      "PW2F-R repaired main: 15 exact + 2 source + 11 type + 9 planted = 37 PASS",
+      "PW2F-R source collision: 3 exact + 7 source + 5 type + 6 planted = 21 PASS",
+      "PW2F-R FLINT exact arithmetic backend: 4 PASS",
+      "exact geometry, variational PDE, and source Layer-0 hostile reviews PASS_AFTER_REPAIR"
+    ]
+  },
+  "scope_boundary": {
+    "partial_z1_and_section_tangent": "OPEN",
+    "complete_total_swervature_C4": "OPEN__SOURCE_DOES_NOT_FIX_THE_EDDY_FORMULA_OR_ITS_C4_CONTRIBUTION",
+    "exceptional_kappa1_selection_or_cancellation": "OPEN_AND_NOT_SOURCE_SELECTED",
+    "direct_reverse_green_native_agreement": "OPEN",
+    "complete_C3_helmholtz": "BLOCKED_BY_C4",
+    "public_source_to_active_real_form_port": "OPEN",
+    "global_y14_and_analytic_domain": "OPEN",
+    "BV_BFV_quotient": "OPEN",
+    "observation_descent_and_physics": "OPEN",
+    "canon_status_public_posture": "UNCHANGED"
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA"
+}

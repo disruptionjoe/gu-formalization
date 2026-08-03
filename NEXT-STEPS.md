@@ -7,27 +7,26 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 PW2F HOSTILE CORRECTION; PW2F-R COMPLETE TOP-ORDER GATE NEXT.**
-> PW2F proves that all `14 x 10 = 140` induced-`Y14` Levi-Civita symbol
-> columns have zero total alternation. Hostile review then caught the missing
-> object: for `K=h^-1 D_B h`, the separate
-> `(Ad_(h^-1)-1)D_gB` term is live on `129/140` exact Hodge-null columns, while
-> moving reduction/Alt/internal-Hodge contributions remain unassembled.
-> Therefore the complete base-fourth coefficient is open and `D3G` is neither
-> built nor retired.
-> On the selected seven horizontal conormals, one bare connection-incidence
-> contribution vanishes and a fixed-h/fixed-Shiab synthetic-source `7x10`
-> C2 bank has rank seven. Held-out `e10` and `e0+e10` instead give rank-ten and
-> rank-five non-skew C3 contributions. They prove the full `Y14` sum is missing
-> transpose/graph/coefficient-motion paths and must be skew after complete
-> Helmholtz assembly. The separate raw moving-Shiab `544x10` bank remains rank
-> ten but is uncomposed. FLINT certifies rational rank seven; rigorous Arb
-> excludes zero from an interval enclosing a selected multiradical minor.
-> A formal natural-lift diffeomorphism-Noether/Green schema now passes with a
-> live metric owner and current. It remains distinct from the internal Ward and
-> `Xi=D Upsilon`, but it is only a structural 1D comparator. PW2F-R must
-> assemble the complete derived-K top order and full skew `Y14` C3 before PW2G
-> may compute lower C2 and the literal native Ward. PW3 remains blocked.
+> **2026-08-02 PW2F-R CORRECTED METRIC GRAPH; COMPLETE C4 GATE NEXT.**
+> PW2F-R catches that PW2F exercised only the algebraic `Z0` part of the
+> induced metric graph and omitted the derivative-bearing `Z1(nabla k)` part.
+> Restoring `Z1` makes the ten-owner metric and Levi-Civita/spin banks exact
+> rank ten on the base-conormal panel. The complete exercised LC variation
+> still has zero alternation, so the highest derived-`K` incidence recombines
+> exactly to `Ad_(h^-1) delta B` on the selected nontrivial Hodge-null bridge.
+> The restored route raises the apparent density ceiling to six. An executable
+> q2/q3 Euler comparator gives the structural `C6` zero, and the complete
+> four-base-conormal `C5` polynomial of the exercised principal-`Z1` fixed-
+> background branch cancels identically. The first live subroute is `C4`: its
+> principal-`Z1` `kappa1` distortion-norm contribution has exact ranks
+> `[10,10,10,10,0]`, inertia `(4,6)` off the planted null conormal, and exact
+> zero on `e0+e3`. FLINT verifies rank ten, nonzero determinant, and null rank
+> zero over exact rationals. This does not determine the complete `kappa1`
+> coefficient or a characteristic. PW2F-R2 must assemble partial-`Z1`,
+> section-tangent, complete `kappa1`, source-required total swervature,
+> density/Krein/lowerer, and direct/reverse bulk-plus-Green validation before
+> asking whether an exceptional `kappa1` cancels the term. `C3`, lower `C2`,
+> the literal native Ward, and PW3 remain blocked behind that calculation.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -53,9 +52,11 @@ updated_at: "2026-08-02"
 > and the scoped PW2E result in
 > `explorations/pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md`, and
 > the scoped PW2F result in
-> `explorations/pw2f-native-top-order-metric-ward-2026-08-02.md`.
+> `explorations/pw2f-native-top-order-metric-ward-2026-08-02.md`, and the
+> scoped PW2F-R result in
+> `explorations/pw2fr-complete-derived-k-c3-2026-08-02.md`.
 > Resume at
-> `PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION`.
+> `PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

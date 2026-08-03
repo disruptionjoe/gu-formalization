@@ -20,6 +20,7 @@ PW2D_WARD = ROOT / "lab/process/pw2d-right-tilted-ward-green-registry.json"
 PW2E = ROOT / "lab/process/pw2e-finite-native-shiab-descent.json"
 PW2E_METRIC = ROOT / "lab/process/pw2e-mixed-metric-frechet-native-ward-registry.json"
 PW2F = ROOT / "lab/process/pw2f-native-top-order-metric-ward-registry.json"
+PW2FR = ROOT / "lab/process/pw2fr-complete-derived-k-c3-registry.json"
 
 
 class DuplicateKeyError(ValueError):
@@ -41,8 +42,8 @@ def load_registry() -> dict[str, object]:
 
 def validate(data: dict[str, object]) -> list[str]:
     errors: list[str] = []
-    if data.get("status") != "PW2F_HOSTILE_CORRECTION_LC_SUBROUTE_PASS_COMPLETE_DELTAK_AND_FULL_Y14_C3_OPEN_PW2F_R_NEXT":
-        errors.append("status must record the PW2F hostile correction and PW2F-R next")
+    if data.get("status") != "PW2FR_Z1_GRAPH_PASS_STRUCTURAL_C6_EXERCISED_C5_CANCEL_KAPPA1_C4_SUBROUTE_LIVE_COMPLETE_C4_OPEN_PW2F_R2_NEXT":
+        errors.append("status must record the scoped PW2F-R result and PW2F-R2 next")
 
     layer0 = data.get("layer0_distinctions", [])
     if len(layer0) < 8:
@@ -94,7 +95,7 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("wave IDs or execution order changed")
     if data.get("execution_order") != wave_ids:
         errors.append("execution_order must equal wave order")
-    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2F_HOSTILE_CORRECTION_COMPLETE_DELTAK_AND_FULL_Y14_C3_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
+    expected_statuses = ["CONDITIONAL_PASS_PW2_ENABLED", "PW2FR_STRUCTURAL_C6_EXERCISED_C5_CANCEL_KAPPA1_C4_SUBROUTE_LIVE_COMPLETE_C4_REQUIRED"] + ["BLOCKED_ON_DEPENDENCIES"] * 8
     if [wave.get("status") for wave in waves] != expected_statuses:
         errors.append("wave status frontier must record the hostile-corrected PW2F/PW2F-R gate and keep PW3 blocked")
     pw1_review = waves[0].get("review_receipts", {}) if waves else {}
@@ -169,6 +170,15 @@ def validate(data: dict[str, object]) -> list[str]:
         errors.append("PW2F hostile post-review retains must-fix items")
     if len(pw2f_review.get("post_review", {}).get("rerun_receipts", [])) < 5:
         errors.append("PW2F hostile post-review rerun receipts missing")
+    pw2fr_review = waves[1].get("pw2fr_review_receipts", {}) if len(waves) > 1 else {}
+    if pw2fr_review.get("pre_assessment", {}).get("status") != "COMPLETE":
+        errors.append("PW2F-R pre-assessment receipt incomplete")
+    if pw2fr_review.get("post_review", {}).get("status") != "COMPLETE_AFTER_REPAIR":
+        errors.append("PW2F-R hostile post-review receipt incomplete")
+    if pw2fr_review.get("post_review", {}).get("must_fix"):
+        errors.append("PW2F-R hostile post-review retains must-fix items")
+    if len(pw2fr_review.get("post_review", {}).get("rerun_receipts", [])) < 4:
+        errors.append("PW2F-R hostile post-review rerun receipts missing")
     seen: set[str] = set()
     for wave in waves:
         wave_id = wave.get("id", "UNKNOWN")
@@ -236,6 +246,7 @@ def main() -> None:
     pw2e = json.loads(PW2E.read_text(), object_pairs_hook=unique_object)
     pw2e_metric = json.loads(PW2E_METRIC.read_text(), object_pairs_hook=unique_object)
     pw2f = json.loads(PW2F.read_text(), object_pairs_hook=unique_object)
+    pw2fr = json.loads(PW2FR.read_text(), object_pairs_hook=unique_object)
     failures = validate(data)
     if failures:
         raise AssertionError("\n".join(failures))
@@ -254,7 +265,7 @@ def main() -> None:
         "hostile specialist post-review",
         "## Execution checkpoint",
         "PW3 stays blocked",
-        "PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION",
+        "PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA",
         "P1/P2/P3 remain correctly unused",
         "constraint surplus",
     ]:
@@ -315,7 +326,17 @@ def main() -> None:
         raise AssertionError("PW2F Ward scope drifted")
     if pw2f["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
         raise AssertionError("PW2F spent the external datum")
-    exact_checks += 25
+    if not pw2fr["status"].startswith("PW2FR_Z1_GRAPH_PASS_STRUCTURAL_C6"):
+        raise AssertionError("PW2F-R scoped status drifted")
+    if pw2fr["corrected_metric_graph"]["z1_metric_ranks"] != [10, 10, 10, 10, 10]:
+        raise AssertionError("PW2F-R Z1 metric ranks drifted")
+    if pw2fr["highest_order_euler"]["C5"]["all_base_conormal_polynomial_nonzero_entries"] != 0:
+        raise AssertionError("PW2F-R exercised C5 polynomial drifted")
+    if pw2fr["highest_order_euler"]["distortion_norm_principal_z1_kappa1_C4_contribution"]["panel_ranks"] != [10, 10, 10, 10, 0]:
+        raise AssertionError("PW2F-R principal-Z1 C4 contribution ranks drifted")
+    if pw2fr["external_datum"] != "P1/P2/P3 UNCHANGED AND UNUSED":
+        raise AssertionError("PW2F-R spent the external datum")
+    exact_checks += 30
     exact_checks += len(data["specialist_lenses"])
     exact_checks += len(data["engineering_personas"])
     exact_checks += len(data["waves"])
@@ -339,6 +360,7 @@ def main() -> None:
         lambda d: d["waves"][1]["pw2d_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2e_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
         lambda d: d["waves"][1]["pw2f_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
+        lambda d: d["waves"][1]["pw2fr_review_receipts"]["post_review"].update(must_fix=["live blocker"]),
     ]
     for plant in plants:
         expect_plant_failure(data, plant)

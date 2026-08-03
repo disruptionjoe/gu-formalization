@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2F HOSTILE CORRECTION / PW2F-R NEXT. Thirteen specialist lenses and ten inline engineering personas order the construction into dependency-gated waves. PW2F proves zero alternation for all 140 LC symbol columns, but hostile review found an omitted derived-K summand live on 129 columns and non-skew vertical/mixed C3 contributions of ranks ten and five. The structural affine theorem, selected horizontal fixed-h/fixed-Shiab rank-seven C2 panel, raw moving-Shiab rank-ten bank, and formal diffeomorphism schema survive at narrowed grades. Complete derived-K top order, full skew Y14 C3, native Green/Ward, lower C2, public port, domain, quotient, and physics remain open."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2F-R CORRECTION / PW2F-R2 NEXT. Thirteen specialist lenses and ten inline engineering personas order the construction into dependency-gated waves. PW2F-R restores the omitted derivative-bearing Z1 metric graph, executes the structural q2/q3 C6 comparator, proves exact C5 cancellation on the exercised principal-Z1 fixed-background branch, and finds a live full-rank principal-Z1 kappa1 C4 contribution off a planted null conormal. The complete kappa1 and total-swervature C4 assembly still needs partial-Z1, section-tangent, coefficient-motion, and bulk/Green validation. C3, lower C2, public port, domain, quotient, observation, and physics remain open."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -279,14 +279,16 @@ PW1 received a conditional construction pass in the successor Run
 `RUN-20260802-152647-gu-formalization-pw2-first-jet-action` and returned the
 automatic-source-integrability obstruction below. The PW2A--PW2E continuation
 closed the finite local active operator/descent portion. PW2F's hostile review
-reopened the claimed highest metric-order gate with exact counterexamples and
-isolated the complete derived-K/full-Y14-C3 burden. PW3 and later waves remain
+reopened the claimed highest metric-order gate. PW2F-R then restored the
+omitted derivative-bearing `Z1` graph, proved exact sixth- and fifth-order
+cancellation, and isolated a live fourth-order distortion coefficient. The
+complete fourth-order sum is still open. PW3 and later waves remain
 unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — PW2F HOSTILE CORRECTION / PW2F-R REQUIRED** | PW2F proves the 140-column LC-alternation subroute. Hostile review constructs the omitted derived-K summand on 129 columns and rank-ten/rank-five non-skew vertical/mixed C3 contributions. The horizontal fixed-h/fixed-Shiab rank-seven C2 panel and raw moving-Shiab rank-ten bank remain uncomposed. | Does the complete derived-K plus all total-to-base metric paths cancel or retain fourth order, and does the fully summed Y14 C3 satisfy Helmholtz skewness? | PW2F-R completes top order and C3. Only then may PW2G compute lower C2 and literal native Ward. Public-bundle, domain, BV, quotient, observation, and physics burdens remain. |
+| **PW2 — full jet and effective operator — PW2F-R PARTIAL PASS / PW2F-R2 REQUIRED** | PW2F-R corrects PW2F's omission of the derivative-bearing `Z1` metric graph. The restored ten-owner route is rank ten; an executable structural comparator gives `C6=0`, and the four-base-conormal `C5` polynomial of the exercised principal-`Z1` fixed-background branch cancels exactly. Its `kappa1` distortion-norm `C4` contribution is rank ten with inertia `(4,6)` off a planted null conormal and zero on it; the complete characteristic set is open. | Does the complete `kappa1` plus total-swervature, partial-`Z1`, section, and coefficient-motion `C4` assembly cancel at an exceptional `kappa1`, remain fourth order, or change the characteristic set? | PW2F-R2 completes `C4` and validates it by direct/reverse bulk equality plus Green concomitants. Only then may the campaign classify `C3`, lower `C2`, and the literal native Ward. Public-bundle, domain, BV, quotient, observation, and physics burdens remain. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -358,13 +360,16 @@ rank 8256, its bivector sector has dimension 91, and the Shiab moves through
 the trace/Phi/Hodge family. All eight actual moving-Shiab metric slots are live,
 their 544-by-10 coefficient has rank ten, and the induced-Y14 LC graph has rank
 ten on both nonnull and null covectors. PW2F then attempted the highest-order
-composition. Its LC-alternation theorem is exact, but hostile review found that
-it omitted a live `delta K` summand on 129 of 140 columns. It also found that
-the seven horizontal zero contribution does not extend to full Y14: `e10` and
-`e0+e10` give non-skew contributions of ranks ten and five. Those cannot be a
-complete variational C3 and force the missing transpose, graph, coefficient,
-and Green paths. The structural affine theorem, formal diffeomorphism schema,
-rank-seven selected C2 panel, and raw rank-ten moving bank survive only at
-their narrowed grades. The next gate is
-`PW2F-R-COMPLETE-DERIVED-K-TOP-ORDER-AND-FULL-Y14-C3-HELMHOLTZ-CLASSIFICATION`.
+composition. Its LC-alternation theorem is exact, but hostile review found a
+live omitted `delta K` summand and showed that horizontal controls do not
+decide the full conormal problem. PW2F-R found the still earlier omission: the
+derivative-bearing `Z1(nabla k)` part of the induced metric graph. Restoring
+that route raises the density ceiling to six. An executable q2/q3 Euler
+comparator gives the structural `C6` zero, and an all-four-base-conormal
+polynomial certificate kills `C5` on the exercised principal-`Z1` fixed-
+background branch. Its `kappa1` distortion-norm contribution to `C4` is exact
+rank ten and inertia `(4,6)` off the tested null conormal, and zero on it. This
+is a subroute contribution, not the complete coefficient, Euler symbol, or
+characteristic set. The next gate is
+`PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA`.
 PW3 stays blocked. P1/P2/P3 remain correctly unused.

@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr-complete-derived-k-c3-registry.json` - PW2F-R correction ledger:
+  restores the omitted derivative-bearing `Z1` induced metric graph, records
+  executable structural `C6` and scoped `C5` cancellation plus the live
+  principal-`Z1` `kappa1` distortion `C4` contribution, keeps the complete
+  total-swervature/Green-validated `C4` and `C3` open,
+  and preserves the source-epsilon/repository-h tangent-policy fork.
 - `pw2f-native-top-order-metric-ward-registry.json` - PW2F hostile-corrected
   ledger: all 140 Levi-Civita alternation columns vanish, but an omitted
   derived-K summand is live on 129 and held-out vertical/mixed non-skew C3
