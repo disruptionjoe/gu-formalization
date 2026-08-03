@@ -10,7 +10,7 @@ depends_on:
   - "docs/paper-formalization-candidates.md"
   - "canon/six-axis-specification-protocol.md"
   - "lab/literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md"
-revision_note: "2026-08-03 (Wave A-3, item Q7; anchor-council adjudication §3): added §2.6 — the Witten 1983 Rarita-Schwinger prior-art treatment and the KK-gravitino class placement of the in-repo (3,2,16±) identification (register M-H1) — plus the Witten 1983 reference and a §9.1 scope caveat. PRE-DEPOSIT: this addition moves no verdict, bar, canon claim, count, or lane status; any decisive consequence is J5-gated (hostile field-specialist review before deposit)."
+revision_note: "2026-08-03 (Wave A-3, item Q7; anchor-council adjudication §3): added §2.6 — the Witten 1983 Rarita-Schwinger prior-art treatment and the KK-gravitino class placement of the in-repo (3,2,16±) identification (register M-H1) — plus the Witten 1983 reference and a §9.1 scope caveat. PRE-DEPOSIT: this addition moves no verdict, bar, canon claim, count, or lane status; any decisive consequence is J5-gated (hostile field-specialist review before deposit). 2026-08-03 (Boyle–Turok foil campaign, Joe-directed): added the end Addendum — the Boyle–Turok anomaly-forced fermion-count mechanism (arXiv:2110.06258) typed against the survey's class taxonomy as a count-FORCING result of the added-content type, outside the interior kinematic class — plus five program references. Purely additive; same PRE-DEPOSIT / J5 gating; adjudication detail in explorations/boyle-turok-foil-class-relative-typing-2026-08-03.md."
 ---
 
 # No-Go Theorems as Class-Relative Obstructions: A Survey with a Geometric Unity Test Case
@@ -457,6 +457,12 @@ Bakircioglu, Arnault, Arrighi (2025). QCA flavoring and Nielsen-Ninomiya.
 
 Berkowitz, Cherman, Jacobson (2024). 2d anomaly-free chiral gauge theory via bosonization.
 
+Boyle, L., Finn, K., Turok, N. (2018). CPT-symmetric universe. Phys. Rev. Lett. 121, 251301 [arXiv:1803.08928].
+
+Boyle, L., Finn, K., Turok, N. (2022). The Big Bang, CPT, and neutrino dark matter. Annals of Physics 438, 168767 [arXiv:1803.08930].
+
+Boyle, L., Turok, N. (2021). Cancelling the vacuum energy and Weyl anomaly in the standard model with dimension-zero scalar fields. Preprint [arXiv:2110.06258].
+
 Braun, V., He, Y.-H., Ovrut, B. A., Pantev, T. (2005–2006). Heterotic Standard Models.
 
 Córdova, C., Ohmori, K., Shao, S.-H. (2019). Anomaly obstructions to symmetry-preserving gapped phases.
@@ -492,6 +498,10 @@ Neuberger, H. (1997). Exactly massless quarks on the lattice.
 Nielsen, H. B., Ninomiya, M. (1981). Absence of neutrinos on a lattice.
 
 Randjbar-Daemi, S., Salam, A., Strathdee, J. (1983). Spontaneous compactification with flux.
+
+Turok, N., Boyle, L. (2023). A minimal explanation of the primordial cosmological perturbations. Preprint [arXiv:2302.00344].
+
+Turok, N., Boyle, L. (2024). Gravitational entropy and the flatness, homogeneity and isotropy puzzles. Phys. Lett. B 849, 138443 [arXiv:2201.07279].
 
 Wang, J., Wen, X.-G., Witten, E. (2017). Symmetric gapped interfaces of SPT phases.
 
@@ -584,3 +594,59 @@ To restate the boundaries a referee should hold us to:
 - **Under-determined, not impossible, not derived.** 3 is reachable by some a-priori carrier; the rep does not force the rank. The bound is against GU-native *internal forcing* of an odd literal index, not against the existence of three generations and not a derivation of three.
 - **Neither refutes Nguyen nor rescues GU.** This shares Nguyen's §3.1 object by independent derivation and reinterprets its role; it is not a refutation of Nguyen and not a vindication of GU.
 - **No source action built.** The result is an operator-algebra and index specification of an interface. GU's external source action / membrane was not constructed. No claim is made that such a source exists, that 3 is explained, or that GU is a complete or correct physical theory.
+
+---
+
+<!-- Boyle-Turok addendum (foil campaign, Joe-directed 2026-08-03). PRE-DEPOSIT: additive only; moves no verdict, bar, canon claim, count, or lane status; decisive consequences J5-gated. Full adjudication: explorations/boyle-turok-foil-class-relative-typing-2026-08-03.md; source verification: lab/sources/claim-mining-boyle-turok-cpt-2026-08-03.md. -->
+
+## Addendum: Boyle–Turok anomaly-forced fermion counting — the count-forcing converse, and its class placement
+
+The survey's four families, and the generation-sector interface section above, are all *obstruction*-shaped: they say what a delimited class of structures cannot supply. There is one published mechanism that claims the *converse* — to **force** the fermion count, three generations included, from a cancellation demand. It belongs in this survey because typing it against the interface specification above is the sharpest available test of that specification: either it lands inside the delimited class (in which case the class was incomplete and the interior-even theorem's enumeration fails), or it lands outside (in which case it becomes the strongest published boundary marker for the class fence). The adjudication below finds the second. Source verification against the actual papers (not the podcast presentation) is in `lab/sources/claim-mining-boyle-turok-cpt-2026-08-03.md`; the full preregistered adjudication with surplus counts is in `explorations/boyle-turok-foil-class-relative-typing-2026-08-03.md`.
+
+### Statement (as published)
+
+Boyle–Turok (arXiv:2110.06258), within the CPT-symmetric universe program (Boyle–Finn–Turok 2018): demand that the free-field vacuum energy and **both** Weyl-anomaly coefficients cancel exactly over the full field content of a four-dimensional QFT coupled to background gravity. With the four admitted species types — dimension-one scalars n₀, Weyl fermions n_{1/2}, gauge fields n₁, and dimension-zero (four-derivative, Fradkin–Tseytlin-type) scalars n₀′ — the three conditions read (their Eqs. 13, 16a, 16b):
+
+```text
+E:  n₀ −  2·n_{1/2} +  2·n₁ +  2·n₀′ = 0     (vacuum energy per mode)
+a:  n₀ + 5.5·n_{1/2} + 62·n₁ − 28·n₀′ = 0     (Euler-density coefficient)
+c:  n₀ +  3·n_{1/2}  + 12·n₁ −  8·n₀′ = 0     (Weyl-tensor-squared coefficient)
+```
+
+Three independent homogeneous conditions on four species numbers leave a one-dimensional solution ray, and it is **unique**: (n₀, n_{1/2}, n₁, n₀′) ∝ (0, 4, 1, 3). We re-derived the ray by hand for this addendum (eliminate n₀ between pairs: 5·n_{1/2} + 10·n₁ − 10·n₀′ = 0 and 2.5·n_{1/2} + 50·n₁ − 20·n₀′ = 0 ⇒ n_{1/2} = 4·n₁, n₀′ = 3·n₁, n₀ = 0; verified in all three equations). With the Standard Model input n₁ = 12: **48 Weyl fermions** — which the authors read as "three generations of standard model fermions, including right-handed neutrinos" — **36 dimension-zero scalars** (so 36 is derived from the ray, not chosen), and **n₀ = 0**, i.e. no elementary scalar: the Higgs must be emergent/composite. The abstract states the conditional honestly: the cancellation works "if the Higgs field is emergent."
+
+### Assumptions (read from the paper's own framing)
+
+1. **The demand itself is a program posit, not a QFT consistency condition.** Gauge anomalies must cancel for consistency — and in the SM they cancel per generation, blind to the generation number. The trace (Weyl) anomaly and the vacuum energy are *not* inconsistencies; a QFT with a ≠ 0, c ≠ 0 is perfectly healthy. Demanding E = a = c = 0 is motivated by the CPT-symmetric/conformal-bang cosmology (the analytic continuation through the Weyl singularity needs quantum Weyl invariance), not by the Standard Model itself.
+2. **Free fields on a fixed background, one loop.** The authors' words: "only an initial exploration at the level of free quantum fields on a curved spacetime background"; interactions "strongly affect" both quantities (the interacting trace anomaly carries β-function terms the counting does not cancel). The graviton's own contribution is excluded.
+3. **The dimension-zero species is admitted.** It is the sole negative contributor to a and c; with only standard species every term in c is positive and cancellation is unreachable. The entire forcing power of the mechanism resides in the imported species type.
+4. **Family organization is imported.** The three conditions count *species*, blind to gauge representations: they fix the total n_{1/2} = 48 and cannot distinguish 3 × 16 from any other partition of 48 Weyl fermions. "Three generations" = 48 ÷ 16, where the 16-per-family (SM + ν_R) structure is taken from observation plus per-generation gauge anomaly freedom.
+5. **n₁ = 12 is input** (the observed gauge group dimension), not derived.
+
+### Class placement: outside the interior class; the added-content forcing type
+
+Typed against the interface specification above (the closed internal quaternionic class / the delimited class C of `canon/external-by-structure-synthesis-RESULTS.md`), the Boyle–Turok mechanism is **not inside the class, on four independent grounds**: (i) its forcing functional is a sum of one-loop effective-action coefficients over the full spacetime field content — not a covariant operator, form, index, or characteristic class of the kinematic sector's own data; (ii) the forcing power lives entirely in *added* content (the 36 dimension-zero scalars), exactly the "structural import" the parity bound names; (iii) Layer-0: their "48" is a species **multiplicity**, not a net chiral index — the repo's standing fence (multiplicity ≠ count) applies, and the object their demand fixes is not the object the interior-even theorem is about; (iv) the odd factor in their generation count enters through an input: 3 = (4 × 12)/16, so the mod-2/odd-prime split traces to the 3-part of dim G = 12, supplied by observation. EK1 (the envelope's single fatal kill: the delimited class proves incomplete) therefore does **not** fire.
+
+What the placement yields instead is the sharpest published boundary marker for the fence: **a fermion count can be forced by quantum consistency-with-added-content — a global cancellation demand over the full field content, with the negative-contributing species imported — but not by interior kinematic operators.** "External" in this survey's sense means external-to-the-kinematic-sector, and Boyle–Turok is the strongest published example of the *other* route: it pays for the count with added field content plus a cosmological Weyl-invariance posit, where the interface specification above contemplates paying for it with a boundary/topological index. Both routes agree on the structural point this survey keeps finding: the count is not free — something beyond the bare sector must be purchased to fix it.
+
+### Forgetful-image reading
+
+**Richer datum**: the Standard Model species content *plus* the 36 dimension-zero scalars *plus* the global demand E = a = c = 0.
+
+**Forgetful operation**: restriction to the standard sector's own kinematic data — discard the added species and the cancellation demand.
+
+**What gets lost**: all of the forcing. On the image, c is a sum of strictly positive terms (no cancellation is even expressible), and the kinematic sector imposes no congruence on the count — which is precisely the interior-even/under-determination result of the interface section above.
+
+**Analogy strength**: STRONG. The count-forcing mechanism lives entirely in the discarded data — the same signature as every evasion in §6, now exhibited by a forcing result rather than a no-go evasion.
+
+### Contrast with the interface specification (two external routes, one fence)
+
+| | Generation-sector interface (this survey) | Boyle–Turok 2110.06258 |
+|---|---|---|
+| Count-fixing object | boundary/topological integer index (external datum) | global cancellation demand + 36 imported dimension-zero scalars |
+| What the boundary supplies | the count (P3-type datum) and orientation (Z/2) | arrow of time, vacuum selection, DM abundance — **not** the count |
+| Interior/kinematic sector alone | provably even / under-determined; cannot force odd | no cancellation expressible; no congruence on the count |
+| Status of "3" | not derived; external index is any integer | 3 = 4·12/16; odd factor enters via input dim G = 12 |
+| Logical type | class-relative obstruction (no-go that locates) | class-relative forcing (uniqueness given demand + species menu) |
+
+The taxonomy of §5.4 gains a third logical type: alongside class-relative no-go theorems and group-specific impossibility results, Boyle–Turok is a **class-relative forcing result** — a uniqueness statement over a declared species menu under a declared demand. Its correctness as linear algebra is not in question (re-derived above); its physical force is exactly as strong as its two imports (the species menu and the demand), which is the same posture this survey applies to every class exit.
