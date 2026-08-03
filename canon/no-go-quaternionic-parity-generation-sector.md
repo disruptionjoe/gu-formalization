@@ -27,7 +27,14 @@ blocks - the Clifford generators e_a (including the timelike i*G_a), the spin ge
 vector-index generators M_ij, the constraint projector Pi_RS and its complement Q, the twisted Dirac
 symbol M_D, and the full BV/BRST/gauge-fixing/ghost apparatus - **commutes with the quaternionic
 structure J_quat** of the spinor module. Equivalently, the GU-native operator algebra is contained in
-the J_quat-commutant `M(14,C) (x) M(64,H)`, which is just the standard isomorphism `Cl(9,5) = M(64,H)`:
+the J_quat-commutant `M(14,C) (x) M(64,H)` `[CORRECTION 2026-08-03 (eleven-lens audit, rep-lens RT-F4;
+register M-M3): the J_quat-commutant is M(14,R) (x) M(64,H) = M(896,H) (dim_R 3,211,264), NOT
+M(14,C) (x) M(64,H) — i*id_14 ANTI-commutes with the antilinear J_quat, so the complex first factor
+is not in the commutant. The containment claim is a fortiori unaffected (the true commutant is
+smaller) and the Kramers argument below uses only J-commutation itself; in fact the containment is an
+EQUALITY (the primitives GENERATE the full commutant) — see
+explorations/parity-theorem-strengthening-full-commutant-2026-08-03.md. No verdict change.]`, which
+is just the standard isomorphism `Cl(9,5) = M(64,H)`:
 the real Clifford algebra IS the quaternionic-linear algebra.
 
 By **Kramers' theorem** (a Hermitian operator commuting with an antiunitary J with `J^2 = -1` has
