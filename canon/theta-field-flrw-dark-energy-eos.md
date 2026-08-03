@@ -280,3 +280,34 @@ The historical (retracted) sharpened condition read: the prediction is falsified
 - DESI Collaboration (2024). DESI 2024 VI. arXiv:2404.03002, Table 5 (BAO+CMB+Pantheon+, CPL).
 - Turner, M.S. (1983). Coherent scalar-field oscillations in an expanding universe. PRD 28, 1243. (Time-averaged w=0 for oscillating massive scalar)
 - Chevallier, M. and Polarski, D. (2001). CPL parametrization. IJMPD 10, 213.
+
+## CORRECTION DARK-ENERGY-07 (2026-08-03) — statistical-language calibration (audit DE-01..DE-05; register M-H12)
+
+Verdict unchanged (OPEN; signal-level exclusion stands). Five calibrations to how the
+existing results are STATED, from the 2026-08-03 statistical-cosmology audit (which
+byte-verified the DESI DR2 likelihood inputs and re-ran H43/H46B/H46C/W129 to exit 0):
+
+1. **"~3.2 sigma global miss" is a 2-dof Mahalanobis radius read as a 1-D sigma.** Converted
+   at 2 dof it is ~2.7 sigma (2.5-3.0 over this file's own rho scan {-0.9,-0.8,-0.7}; rho is
+   assumed, not published by DESI). The conversion convention that reproduces DESI's own
+   published 4.2 sigma for LCDM is the 2-dof one. "FALSIFIED" should be read at ~2.7 sigma
+   strength, exploration grade.
+2. **The f0 bounds are computed at omega_m h^2 fixed; profiled they are ~3x looser** (M^2=8:
+   0.027 -> ~0.08; M^2=3: 0.208 -> ~0.78). The SIGNAL-level statement (DESI-CPL-matched
+   amplitudes excluded, +14.9 profiled at the softest point) is unaffected.
+3. **The "+5.7 sigma_A amplitude overshoot" is an increment, and the honest mechanism is
+   SHAPE, not amplitude:** LCDM itself overshoots +4.0 sigma_A on the same metric (the known
+   Planck-DESI amplitude tension); at GU's own theta*-calibrated cosmology (which is
+   essentially DESI's w0waCDM best-fit H0/Omega_m) the amplitude-marginalised SHAPE chi^2 is
+   +19.3 vs LCDM at M^2=8. The exclusion mechanism: theta*-calibration forces Omega_m ~ 0.352
+   and the theta field produces too little low-z evolution to justify it. This restatement
+   STRENGTHENS the exclusion (a correctly-shaped CPL model at the same amplitude gains -22.8).
+4. **"Adding SNe can only hurt a model with H0 = 63.75" is RETRACTED as a physics error:**
+   uncalibrated SN compilations carry no H0 information (M_B degeneracy); they constrain
+   Omega_m and shape, and GU's calibrated Omega_m = 0.352 sits 0.01 sigma from DES-Y5's. The
+   SNe pure-shape leg remains the named residual and its sign is NOT established in advance.
+5. **Family-vs-point:** as a one-parameter family the theta sector is NOT excluded
+   (best-f0 dAIC +1.9..+3.2, below this file's own decisive line) — it is driven to its LCDM
+   limit. Everything decisive is the POINT/SIGNAL hypothesis (amplitude fixed from theta*).
+   The defensible headline: "excluded AS the DESI dark-energy signal; unconstrained-but-null
+   as a family." Status one-liners should not read as family exclusion.
