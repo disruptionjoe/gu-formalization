@@ -13,15 +13,26 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2E conditional active principal U4 degree ceiling`](pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md)
+  constructs the nonlinear two-wave Zorro metric and corrected symmetric
+  coframe, proves all-ten owner compatibility, and propagates exact degrees
+  through the complete declared quadratic-distortion dependency graph. The
+  route maxima are `4,3,3,3,2`, so the conditional active principal `U4` bank
+  is zero and the predecessor normal C4 bank survives for this reconstructed
+  slot. `A4`, active `kappa1`, full multi-index Green, distinct `I2B` C4, and
+  a live C3 return remain open. P1/P2/P3 remain unused; Curt and the
+  third-lane gate are unchanged.
 - [`PW2F-R2B2B2D normal kappa1 C4 subbank and identifiability boundary`](pw2fr2b2b2d-kappa-c4-identifiability-2026-08-03.md)
   reconstructs the complete 35-monomial normal `J*H*J` mass subbank on the
   corrected source tangent: seven blocks are nonzero, coefficient rank is one,
   three dense held-outs pass, all 35 coefficients match an independent formal
   adjoint, and a native-ray Green concomitant closes. Hostile review keeps
-  this separate from the complete off-shell `kappa1` coefficient because the
-  `T*D2T` and moving-pairing/lowerer `U4` returns remain open. Two admissible
-  completions certify current non-identifiability. P1/P2/P3 remain unused;
-  Curt is formally separate and the third-lane gate remains unpromoted.
+  this separate from the complete off-shell `kappa1` coefficient because its
+  quadratic-distortion jet ledger was then open. Successor correction:
+  R2B2B2E proves conditional active principal `U4=0`; the two relaxed
+  completions are algebraic ledger witnesses, not realized geometric jets.
+  P1/P2/P3 remain unused; Curt is formally separate and the third-lane gate
+  remains unpromoted.
 - [`PW2F-R2B2B2C complete off-shell I2B C5 ceiling`](pw2fr2b2b2c-i2b-offshell-c5-ceiling-2026-08-03.md)
   expands the full five-family residual-square Hessian off shell, retains the
   live `E R D2E` and moving-primalizer corrections, and combines the exact
@@ -29,8 +40,8 @@ these for the full working record; the durable, reviewed results live in `canon/
   route maxima are `4,4,3,3,2`, so no C5 route survives on the scoped
   principal-`Z1` reconstructed-LC metric branch. Actual separate `I1`/`I2B`
   C4 tensors and full independent Green agreement remain open. R2B2B2D now
-  supplies only the normal `kappa1` C4 subbank and proves the full slot is
-  underdetermined pending `U4`, `A4`, and active normalization. P1/P2/P3
+  supplies the normal `kappa1` C4 subbank; R2B2B2E now closes conditional
+  active principal `U4=0`, leaving `A4` and active normalization. P1/P2/P3
   remain unused; Curt and the third-lane gate are unchanged.
 - [`PW2F-R2B2B2B active source-graph, full residual port, and leading-symbol triage`](pw2fr2b2b2b-source-residual-leading-symbol-2026-08-03.md)
   derives a conditional fixed-`(epsilon,varpi)` ten-owner principal-`Z1`

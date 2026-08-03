@@ -1,7 +1,7 @@
 ---
 title: PW2F-R2B2B2D — active kappa1 quartic identifiability
 date: 2026-08-03
-status: NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__FULL_KAPPA1_AND_I1_C4_UNDERDETERMINED
+status: NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__RELAXED_U4_COMPLETIONS_RETRACTED_BY_SUCCESSOR
 lane: Eric-guided Lane 1; source, active reconstruction, and Curt comparator kept separate
 run: RUN-20260803-110644-gu-formalization-pw2fr2b2b2d-kappa-c4-identifiability
 registry: lab/process/pw2fr2b2b2d-kappa-c4-identifiability-registry.json
@@ -9,6 +9,16 @@ probe: tests/channel-swings/pw2fr2b2b2d_kappa_c4_identifiability_probe.py
 ---
 
 # Result
+
+> **2026-08-03 successor correction.** The two objects later called
+> “mathematical completion witnesses” were only relaxed homogeneous-quartic,
+> owner-symmetric constraint-ledger completions. They did not prove geometric
+> realizability or full-slot non-identifiability. R2B2B2E subsequently built a
+> dependency-complete quadratic-distortion jet ledger and proved that every
+> non-normal return stops at degree three or below on the conditional active
+> principal branch. Thus its conditional principal `U4` bank is zero and the
+> normal bank survives. The historical record below is retained to preserve
+> how the missing construction was exposed.
 
 The first complete quartic sub-bank on the corrected active source tangent is
 now constructed, but hostile review shows why it is not yet the complete
@@ -86,12 +96,13 @@ M_4=M^{\rm normal}_4+U_4,
 
 where `U4` remains open.
 
-This is a decisive identifiability result. The current constraints know only
+This was a decisive missing-construction diagnostic. The constraints at this gate knew only
 that `U4` is quartic and must satisfy the owner/formal-adjoint conditions. Both
 `U4=0` and `U4=-M4_normal` satisfy those checked constraints, while the first
 leaves a nonzero full coefficient and the second cancels it. These are
-mathematical completion witnesses, not proposals for the actual geometry.
-They prove that current evidence cannot determine the full `kappa1` C4 tensor.
+relaxed algebraic constraint-ledger completion witnesses, not realized
+geometric jets. They proved that R2B2B2D alone could not determine the full
+`kappa1` C4 tensor; they did not prove geometric non-identifiability.
 
 Consequently the complete first-action bank is presently
 
@@ -111,7 +122,7 @@ reinforce the normal bank.
   `kappa1/2` distortion-mass slot.
 - `REPOSITORY-DERIVES`: the conditional active `(9,5)` rotor, corrected
   `deltaT=-deltaq` tangent, normal quartic mass bank, formal-adjoint/Green
-  check, and completion non-identifiability witness.
+  check, and relaxed-completion missing-construction diagnostic.
 - `SOURCE-SILENT`: the active source-to-real-form port, active `kappa1` value
   or normalization, `U4`, `A4`, the complete `I1`/`I2B` banks, and physics.
 
@@ -128,12 +139,13 @@ Earned:
    conditional active tangent;
 2. direct, held-out, formal-adjoint, and Green agreement for that subroute;
 3. exact rejection of the old `deltaT=-deltaB_full` bank; and
-4. a constructive proof that current order/symmetry constraints do not
+4. a constructive proof that the relaxed order/symmetry ledger alone does not
    identify the full off-shell `kappa1` or `I1` C4 coefficients.
 
 Still open:
 
-- the `T*D2T` and moving-pairing/lowerer `U4` returns;
+- successor status: R2B2B2E proves the conditional active principal
+  `T*D2T` and moving-pairing/lowerer `U4` bank is zero;
 - the remaining first-action transgression/moving-coefficient `A4` bank;
 - active `kappa1` value/normalization and the coefficientwise
   `NONE/ANY/UNIQUE(kappa1)` proportionality test;
@@ -152,16 +164,16 @@ P1/P2/P3 remain unchanged and unused. Curt remains
 # Next gate
 
 Resume at
-`PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4`.
-Construct every admitted `U4` return and the distinct `A4` bank, then run the
+`PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-KAPPA1-PROPORTIONALITY`.
+Construct the distinct `A4` bank, then run the
 coefficientwise exceptional-`kappa1` classifier with independent Green
 agreement. Only after the full `I1` family is typed should the already-admitted
 off-shell `I2B` C4 bank be assembled.
 
 # Executable evidence
 
-- Main probe after hostile scope repair: `18 exact + 2 source + 16 type + 9
-  planted = 45` expected on final replay.
+- Main probe after successor correction: `18 exact + 2 source + 21 type + 4
+  planted = 45` PASS on final replay.
 - Normal bank: 35 monomials, seven nonzero blocks, flattened coefficient rank
   one, three dense held-outs, live direct entry `-8/25`.
 - Independent check: 35/35 formal adjoints, live rank-three native-ray Green

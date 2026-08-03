@@ -7,6 +7,28 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2E CONDITIONAL ACTIVE PRINCIPAL U4 CEILING ZERO;
+> A4 AND KAPPA1 NEXT.** An exact nonlinear two-wave Zorro metric and corrected
+> symmetric-coframe connection now reproduce all ten accepted principal owner
+> tangents. Frame metricity, independent action differentiation, and three
+> off-diagonal independent-conormal held-outs pass. The dependency-complete
+> quadratic-distortion Hessian route maxima are `4,3,3,3,2`: only the normal
+> `DT-DT` return reaches C4, while every background and moving-pairing return
+> stops at C3. Thus the conditional active principal `U4` bank is zero and the
+> predecessor's 35-monomial normal bank survives for this reconstructed slot;
+> its live entry remains `-8/25`.
+>
+> This is not the unported 2021 source action or the complete `I1` bank.
+> Numeric lower `U` coefficients are fixture-only, a live C3 return travels
+> forward, and the inherited normal bank still owes a full four-dimensional
+> multi-index/Krein Green identity. Resume at
+> `PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-KAPPA1-PROPORTIONALITY`: construct
+> `A4`, reconcile the complete `I1` C4 family, and run the
+> `NONE/ANY/UNIQUE(kappa1)` classifier before the distinct `I2B` C4 bank.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B2D NORMAL KAPPA1 C4 SUBBANK PASS; FULL
 > KAPPA1/I1 C4 UNDERDETERMINED.** On the corrected fixed-`(epsilon,varpi)`
 > source tangent, the complete 35-monomial normal `J*H*J` contribution of
@@ -21,9 +43,10 @@ updated_at: "2026-08-03"
 > complete off-shell `kappa1` coefficient: residual `T*D2T` plus moving
 > density/Hodge/Krein/lowerer/pairing returns remain in an unknown `U4`, while
 > the transgression/moving-coefficient bank `A4` is also open. Thus
-> `C4(I1)=A4+kappa1*(M4_normal+U4)`, and two admissible `U4` completions prove
-> current non-identifiability. Resume at
-> `PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4`.
+> `C4(I1)=A4+kappa1*(M4_normal+U4)`. Successor correction: the two relaxed
+> `U4` objects are algebraic constraint-ledger witnesses, not realized
+> geometric jets, so the geometric non-identifiability claim is retracted.
+> R2B2B2E now proves conditional active principal `U4=0`.
 > P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
 > TG-3` remains unpromoted. See
 > `explorations/pw2fr2b2b2d-kappa-c4-identifiability-2026-08-03.md`.

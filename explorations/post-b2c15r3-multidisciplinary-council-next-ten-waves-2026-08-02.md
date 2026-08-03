@@ -7,13 +7,26 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2D NORMAL KAPPA1 C4 SUBBANK CONSTRUCTION AND FULL-SLOT NON-IDENTIFIABILITY. The corrected-source-tangent normal J-star-H-J bank is exact, nonzero, formally self-adjoint, and Green-checked, but residual second-graph and moving-pairing U4 returns leave the complete off-shell kappa1 and I1 C4 coefficients underdetermined. Distinct complete I1/I2B C4 banks and full Green reconciliation remain open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2E CONDITIONAL ACTIVE PRINCIPAL U4 CEILING ZERO. The dependency-complete nonlinear Zorro/symmetric-coframe ledger proves all non-normal quadratic-distortion returns stop at C3, so the predecessor normal C4 bank survives for this reconstructed slot. A4, active kappa1 normalization, full multi-index Green, distinct I2B C4, live C3, lower C2, public port, analytic domain, quotient, observation, and physics remain open."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
 ---
 
 # Post-B2C15R3 multidisciplinary council
+
+> **2026-08-03 R2B2B2E successor checkpoint.** The corrected nonlinear
+> two-wave Zorro graph now uses the symmetric coframe
+> `omega=E Gamma E^-1-(dE)E^-1`, passes frame metricity, all-ten owner
+> compatibility, independent action differentiation, and three off-diagonal
+> independent-conormal held-outs. A dependency-complete max-degree ledger
+> gives the five quadratic-distortion Hessian maxima `4,3,3,3,2`. Hence the
+> conditional active principal `U4` bank is zero and the predecessor normal
+> C4 bank survives for this reconstructed slot. Numeric lower `U` coefficients
+> remain fixture-only; a live C3 return is carried forward. Resume at
+> `PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-KAPPA1-PROPORTIONALITY`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
 
 > **2026-08-03 R2B2B2D successor checkpoint.** The complete 35-monomial
 > normal `kappa1` `J*H*J` subbank on the corrected source tangent has seven
@@ -22,9 +35,9 @@ public_posture_change: none
 > keeps it distinct from the complete off-shell coefficient: residual
 > `T*D2T` and moving-pairing/lowerer returns form an open `U4`, while the
 > transgression bank `A4` also remains open. The honest boundary is
-> `C4(I1)=A4+kappa1*(M4_normal+U4)`, with two admissible `U4` completions
-> witnessing non-identifiability. Resume at
-> `PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4`.
+> `C4(I1)=A4+kappa1*(M4_normal+U4)`. The two relaxed `U4` objects are algebraic
+> ledger witnesses, not realized geometric jets; R2B2B2E now owns the
+> conditional active principal `U4` verdict.
 > P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
 > unpromoted.
 

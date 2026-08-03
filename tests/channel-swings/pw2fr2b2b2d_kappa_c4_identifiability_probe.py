@@ -14,12 +14,13 @@ metric branch, the corrected tangent is
 This probe computes the complete 35-monomial quartic coefficient bank of the
 normal ``J*H J`` contribution from the ``kappa1`` slot for all ten metric
 owners, verifies it by held-out conormals, direct mixed differentiation, and a
-separate formal-adjoint/Green route, and tests whether the already established
-constraints determine the slot's full off-shell C4 coefficient.  They do not:
-the still-unbuilt ``T*D2T`` and moving-pairing returns admit distinct symmetric
-order-four completions.  The probe does not compute those returns, the
-remaining transgression bank, or any ``I2B`` C4 coefficient.  P1/P2/P3 remain
-unused; Curt remains separate.
+separate formal-adjoint/Green route.  It also records two relaxed symmetric
+quartic ledger completions that exposed the missing geometric construction.
+Those objects are not realizability witnesses: R2B2B2E derives the separate
+quadratic-distortion jet ledger and decides the conditional principal ``U4``
+return.  This probe does not compute that jet, the remaining transgression
+bank, or any ``I2B`` C4 coefficient.  P1/P2/P3 remain unused; Curt remains
+separate.
 """
 
 from __future__ import annotations
@@ -331,18 +332,14 @@ def complete_mass_bank(
         any(not zero(value) for value in coefficients)
         and any(not zero(2 * value - value) for value in coefficients),
     )
-    reject(
-        "declare the complete I1 C4 bank fixed from the live normal kappa1 sub-bank alone",
-        False,
-    )
+    typed("the live normal kappa1 sub-bank alone is not the complete I1 C4 bank")
 
     # Hostile variational review: for the pulled mass action the full C4 slot
     # also contains background-T times D2T and moving pairing/lowerer returns.
-    # Their order ceilings are known but their coefficient values are not.
-    # Both completions below satisfy every currently asserted degree-four,
-    # owner-symmetry, and formal-adjoint constraint, yet disagree on the full
-    # kappa coefficient.  This is an identifiability witness, not a proposal
-    # for either completion.
+    # At this historical gate their quadratic-distortion order ceilings and
+    # coefficient values were not derived. Both objects below satisfy only a
+    # relaxed homogeneous-quartic/owner-symmetry ledger. They are neither
+    # source-derived jets nor geometric realizability witnesses.
     zero_completion = [sp.zeros(10) for _ in coefficients]
     cancelling_completion = [-value for value in coefficients]
     full_zero_return = [
@@ -354,15 +351,12 @@ def complete_mass_bank(
         for normal, unknown in zip(coefficients, cancelling_completion)
     ]
     exact(
-        "current C4 order/symmetry constraints admit distinct off-shell kappa1 completions",
+        "the relaxed homogeneous-quartic owner-symmetry ledger admits two algebraic completions",
         any(not zero(value) for value in full_zero_return)
         and all(zero(value) for value in full_cancelling_return)
         and all(value == value.T for value in cancelling_completion),
     )
-    reject(
-        "promote the normal mass Gram to the complete off-shell kappa1 C4 coefficient",
-        False,
-    )
+    typed("the relaxed completions cannot establish geometric cancellation or non-identifiability")
 
     return {
         "coefficients": coefficients,
@@ -456,15 +450,15 @@ def preserve_prior_ceiling() -> None:
 
 
 def boundary_checks() -> None:
-    typed("the complete I1 C4 bank has the form A4 + kappa1*(M4_normal + U4), with only M4_normal constructed and both A4 and U4 open")
+    typed("at the R2B2B2D historical boundary the complete I1 C4 bank had the form A4 + kappa1*(M4_normal + U4), with only M4_normal constructed")
     typed("no active kappa1 value or normalization is selected by this calculation")
-    typed("the residual T-times-D2T and moving-pairing/lowerer kappa1 returns remain open and may cancel or reinforce the normal bank")
+    typed("R2B2B2E, not this probe, owns the quadratic-distortion jet ledger and conditional principal U4 verdict")
     typed("the remaining I1 transgression/moving-coefficient bank and any exceptional-kappa proportionality relation remain open")
     typed("the distinct off-shell I2B C4 bank remains wholly uncomputed")
     typed("vertical/mixed conormals, partial-Z1, section tangents, global epsilon, C3/C2, characteristic, domain, quotient, observation, and physics remain open")
-    reject("promote the kappa1 sub-bank to a complete action or physics result", False)
-    reject("spend P1/P2/P3 to select kappa1", False)
-    reject("merge Curt or promote a third lane from this Eric-lane identifiability result", False)
+    typed("the kappa1 sub-bank is not a complete action or physics result")
+    typed("P1/P2/P3 do not select kappa1")
+    typed("Curt is not merged and no third lane is promoted")
 
 
 def main() -> int:
@@ -480,7 +474,8 @@ def main() -> int:
     print(
         "RESULT: active_kappa1_C4_nonzero_blocks="
         f"{result['nonzero_blocks']}; coefficient_rank={result['coefficient_rank']}; "
-        "complete_I1_C4=UNDERDETERMINED_PENDING_A4_U4_AND_ACTIVE_KAPPA1",
+        "historical_complete_I1_C4=PENDING_A4_U4_AND_ACTIVE_KAPPA1; "
+        "conditional_principal_U4_owned_by=R2B2B2E",
         flush=True,
     )
     print(
@@ -494,9 +489,8 @@ def main() -> int:
         return 1
     print(
         "VERDICT: COMPLETE ACTIVE NORMAL KAPPA1 MASS C4 SUB-BANK PASSES; "
-        "THE FULL OFF-SHELL KAPPA1 AND I1 C4 BANKS REMAIN UNDERDETERMINED UNTIL "
-        "THE T-D2T/MOVING-PAIRING RETURNS, TRANSGRESSION BANK, AND ACTIVE "
-        "KAPPA1/NORMALIZATION ARE FIXED"
+        "THE TWO RELAXED U4 COMPLETIONS ARE NOT GEOMETRIC WITNESSES; R2B2B2E "
+        "OWNS CONDITIONAL PRINCIPAL U4, WHILE A4 AND ACTIVE KAPPA1 REMAIN OPEN"
     )
     return 0
 

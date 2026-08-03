@@ -38,12 +38,19 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2e-actual-u4-jet-realizability-registry.json` -
+  PW2F-R2B2B2E ledger: records the conditional active nonlinear Zorro and
+  corrected symmetric-coframe graph, all-ten owner compatibility, universal
+  route maxima `4,3,3,3,2`, exact principal `U4=0`, independent action
+  differentiation, off-diagonal held-outs, the surviving normal C4 bank, and
+  the live C3/full-Green debt.
 - `pw2fr2b2b2d-kappa-c4-identifiability-registry.json` -
   PW2F-R2B2B2D ledger: records the corrected-source-tangent 35-monomial
   normal `kappa1` `J*H*J` subbank, seven nonzero blocks, rank-one coefficient
-  span, held-out/formal-adjoint/Green checks, and the hostile boundary that
-  open residual second-graph and moving-pairing `U4` returns prevent promotion
-  to the complete off-shell `kappa1` or `I1` C4 coefficient.
+  span, held-out/formal-adjoint/Green checks, and the corrected boundary that
+  its relaxed `U4` completions are algebraic ledger witnesses rather than
+  realized geometric jets. R2B2B2E owns the conditional principal `U4`
+  verdict.
 - `pw2fr2b2b2c-i2b-offshell-c5-ceiling-registry.json` -
   PW2F-R2B2B2C ledger: records the complete five-family off-shell `I2B`
   Hessian product rule, the live background norm `981/64`, symbolic `J3=0`,

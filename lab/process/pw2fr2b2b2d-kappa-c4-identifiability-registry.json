@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
   "gate": "PW2F-R2B2B2D-ACTIVE-KAPPA1-C4-IDENTIFIABILITY",
-  "status": "NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__FULL_KAPPA1_AND_I1_C4_UNDERDETERMINED",
+  "status": "NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__RELAXED_U4_COMPLETIONS_RETRACTED_BY_SUCCESSOR",
   "run_id": "RUN-20260803-110644-gu-formalization-pw2fr2b2b2d-kappa-c4-identifiability",
   "verdict_scope": "conditional fixed-(epsilon,varpi) reconstructed Levi-Civita principal-Z1 metric-metric branch over observed-base conormals only",
   "source_disposition": {
     "SOURCE-CONFIRMS": "the pinned primary-source packet explicitly places the kappa1/2 times T distortion-mass slot inside I1",
-    "REPOSITORY-DERIVES": "the corrected active deltaT=-deltaq tangent, complete normal J-star-H-J kappa1 C4 sub-bank, its formal-adjoint/Green check, and the completion non-identifiability witness",
+    "REPOSITORY-DERIVES": "the corrected active deltaT=-deltaq tangent, complete normal J-star-H-J kappa1 C4 sub-bank, its formal-adjoint/Green check, and a relaxed-completion missing-construction diagnostic",
     "SOURCE-SILENT": "the active kappa1 value and normalization, complete off-shell kappa1 owner return, remaining I1 transgression bank, I2B C4 bank, and physics"
   },
   "layer0": {
@@ -44,10 +44,10 @@
       "background_T_times_D2T",
       "moving_Hodge_density_Krein_lowerer_outer_pairing_returns"
     ],
-    "known_about_U4": "order at most four and formal-owner constraints only; coefficient values unconstructed",
-    "witness": "U4=0 and U4=-M4_normal both satisfy the currently checked degree-four owner-symmetry/formal-adjoint constraints but yield distinct full kappa1 coefficients",
-    "verdict": "FULL_KAPPA1_C4_AND_COMPLETE_I1_C4_NOT_IDENTIFIABLE_FROM_CURRENT_EVIDENCE",
-    "nonclaim": "the actual full kappa1 coefficient is not proved nonzero because U4 may cancel or reinforce the normal bank"
+    "known_about_U4_at_this_gate": "the quadratic-distortion order ledger and coefficient values were unconstructed",
+    "relaxed_algebraic_witness": "U4=0 and U4=-M4_normal satisfy a homogeneous-quartic owner-symmetry ledger but are not realized geometric jets",
+    "successor_correction": "R2B2B2E constructs the conditional active principal dependency ledger and proves U4=0; the normal bank survives",
+    "verdict": "R2B2B2D_NORMAL_BANK_VALID__GEOMETRIC_NONIDENTIFIABILITY_RETRACTED"
   },
   "formal_adjoint_green": {
     "coefficientwise_formal_adjoint": "35_OF_35_PASS",
@@ -75,5 +75,5 @@
   "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
   "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
   "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-  "next_gate": "PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4"
+  "next_gate": "PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-KAPPA1-PROPORTIONALITY"
 }
