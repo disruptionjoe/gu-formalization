@@ -177,6 +177,30 @@ def main():
     print("  Net: the TaF 'machinery match' is name-deep; lead stays `speculation`.")
     print("=" * 84)
 
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\nCERTIFICATE CHECKS")
+    print("-" * 84)
+    check("all four channels SURJECTIVE with IDENTICAL nullity (kernel leg KILLs)",
+          all_equal_null and all_surj and not kernel_leg_separates)
+    check("every channel has genuine loss (nullity > 0; wedge NOT injective)",
+          len(nullities) == 4 and nullities[0] > 0)
+    check("Clifford-degree leg SEPARATES (contract pure grade-1, wedge pure grade-3)",
+          degree_leg_separates)
+    check("metric-weight leg SEPARATES (contract _|_ wedge, overlap ~ 0)", ov < TOL)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- split result certified: PO1's forgetful/kernel leg KILLS")
+    print("         (identical kernels), while Clifford degree and metric weight do")
+    print("         separate the channels; all certificate checks PASS.")
+
     return {
         "kernel_leg_separates": kernel_leg_separates,
         "all_nullities_equal": all_equal_null,

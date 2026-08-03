@@ -41,6 +41,12 @@ def main():
     print("=" * 92)
     print("ADVERSARIAL: flat-direction curvature occ^dag dB occ  vs  the construct's trace(dB)/dim")
     print("=" * 92)
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
 
     S = C.build_substrate()
     Wt, K, B = S["Wt"], S["K"], S["B"]
@@ -55,8 +61,13 @@ def main():
     uneg = Vneg.sum(axis=1); uneg /= np.linalg.norm(uneg)
     occ = (upos + uneg); occ /= np.linalg.norm(occ)
     print(f"occ^dag B occ (flat dir second variation at eps=0) = {float((occ.conj()@B@occ).real):+.3e} (null)")
+    check("carrier signature is (+96,-96)", Vpos.shape[1] == 96 and Vneg.shape[1] == 96)
+    check("B nondegenerate: min|eig(B)| = 1 (no kernel)", abs(np.min(np.abs(evB)) - 1.0) < 1e-6)
+    check("occ is a null direction: |occ^dag B occ| < 1e-9",
+          abs(float((occ.conj() @ B @ occ).real)) < 1e-9)
 
     thetas = C.torsion_operators(S)
+    rows = {}
     print("\n" + "-" * 92)
     print(f"  {'torsion':<16}{'trace(dB)/dim':>16}{'occ^dag dB occ':>18}{'<v dB v> rand-null':>22}{'min|eig| slope':>16}")
     print("-" * 92)
@@ -83,6 +94,7 @@ def main():
         mp = np.min(np.abs(np.linalg.eigvalsh(herm(B + eps * dB))))
         mm = np.min(np.abs(np.linalg.eigvalsh(herm(B - eps * dB))))
         mineig_slope = (mp - mm) / (2 * eps)
+        rows[name] = (trace_slope, flat_slope, rand_null_rms, mineig_slope)
         print(f"  {name:<16}{trace_slope:>16.3e}{flat_slope:>18.3e}{rand_null_rms:>22.3e}{mineig_slope:>16.3e}")
 
     print("\n" + "=" * 92)
@@ -91,6 +103,29 @@ def main():
     print("If occ^dag dB occ and the random-null RMS are ALSO ~0 for the GU 'couple' torsion, the")
     print("protection is genuine. If they are O(1) while trace(dB)/dim is ~0, the construct's slope=0")
     print("is an averaging artifact (it tracked the spectrum MEAN, masking real flat-direction curvature).")
+
+    print("\n" + "=" * 92)
+    print("VERDICT (computed)")
+    print("=" * 92)
+    tr_c, fl_c, rms_c, ms_c = rows["couple"]
+    tr_g = rows["generic"][0]
+    for nm in ("iso", "contorsion"):
+        check(f"{nm} torsion is inert (Krein-anti-Hermitian: dB ~ 0, all columns 0)",
+              all(abs(x) < 1e-9 for x in rows[nm]))
+    check("couple torsion: construct's tracked object trace(dB)/dim ~ 0", abs(tr_c) < 1e-12)
+    check("couple torsion: flat-direction curvature occ^dag dB occ is NONZERO (|.| > 1e-6)",
+          abs(fl_c) > 1e-6)
+    check("couple torsion: random balanced-null RMS is NONZERO too (|.| > 1e-6)", rms_c > 1e-6)
+    check("couple torsion: spectral gap does not move (min|eig| slope ~ 0)", abs(ms_c) < 1e-6)
+    check("generic torsion: trace slope nonzero (the probe discriminates)", abs(tr_g) > 1e-6)
+    if FAILURES:
+        print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN (adversarial finding CONFIRMED): for the GU 'couple' torsion the flat")
+    print(f"direction DOES acquire curvature -- occ^dag dB occ = {fl_c:+.3e} (rand-null RMS {rms_c:.3e})")
+    print(f"while trace(dB)/dim = {tr_c:.3e}. The construct's slope=0 tracked the spectrum MEAN;")
+    print("at the genuine null-direction level it is an AVERAGING artifact (the spectral gap itself,")
+    print("min|eig|, still does not move to first order).")
 
 
 if __name__ == "__main__":

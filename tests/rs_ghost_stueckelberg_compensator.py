@@ -262,6 +262,48 @@ def main():
     print(f"  STATUS: SHARPER_OBSTRUCTION -- the missing datum is the BV antibracket / odd-")
     print(f"  symplectic pairing on the RS complex, exactly what the source action supplies.")
 
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 84)
+    print("CERTIFICATE CHECKS")
+    print("=" * 84)
+    check("anchors reproduce repo (58.7215 / 41.5224 / 169.1942)",
+          abs(comm_PiMD - 58.7215) < 1e-2 and abs(op_escape - 41.5224) < 1e-2
+          and abs(gauge_escape - 169.1942) < 1e-2)
+    check("L is a rank-1 idempotent (Euclidean longitudinal projector)",
+          fro(L @ L - L) < 1e-9 and int(np.linalg.matrix_rank(L, tol=TOL)) == 1)
+    check("minimal-leg nilpotency ||Gamma A|| ~ 0", s2_leg < 1e-6)
+    check("escape ORTHOGONAL to minimal-complex coboundaries (NOT s-exact)",
+          overlap < 1e-9)
+    check("Pi_perp = Gamma^dag (GG^dag)^-1 Gamma identity", taut < 1e-9)
+    check("master-equation residual != 0 (the sharpened obstruction)",
+          master > 1e-6 and master_bare > 1e-6)
+    check("escape split consistent (L/T orthogonal decomposition)",
+          abs(L_escape**2 + T_escape**2 - op_escape**2) < 1e-6)
+    check("sigma_c absorbs the longitudinal escape but a residual survives",
+          L_escape > 1e-6 and resid_escape > 1e-6 and resid_escape < op_escape)
+    check("ANTI-TRAP: bare AND effective commutators nonzero (RS stays coupled)",
+          abs(comm_PiMD - 58.7215) < 1e-2 and comm_PiMeff > 1e-6
+          and not decoupling_trap)
+    check("stabilizer generators fix xi (max||C y|| ~ 0)", maxCy < 1e-9)
+    check("M_D and Pi_RS covariant under Stab_eta(xi) (defect ~ 0)",
+          def_MD < 1e-6 and def_Pi < 1e-6)
+    check("sigma_c genuinely NON-equivariant (defect > 1)", def_sig > 1.0)
+    check("sigma_c exactly H-linear (J^2=-I, J central, residual ~ 0)",
+          Jsq < 1e-9 and Jcomm < 1e-9 and Hlin < 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- SHARPER_OBSTRUCTION certified: sigma_c is non-equivariant,")
+    print(f"         H-linear and anti-trap-safe, yet the escape is not s-exact and the")
+    print(f"         master-equation residual {master:.2f} != 0 survives; all checks PASS.")
+
     return {
         "comm_PiMD": comm_PiMD, "op_escape": op_escape, "gauge_escape": gauge_escape,
         "s2_leg": s2_leg, "overlap": overlap, "bv_factor": bv_factor, "master": master,

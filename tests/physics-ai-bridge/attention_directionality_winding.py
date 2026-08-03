@@ -95,6 +95,18 @@ def main():
     # The two "failed" predictions ARE the finding: the bridge does NOT hold. That is the successful,
     # honest outcome of the test (anti-relabeling discipline refuting a cute analogy), so we exit 0.
     refuted = ('(2)' in ' '.join(FAIL))
+
+    # HARD GATES -- the verdict below is itself a set of computed claims; assert the facts that back
+    # it, so the printed verdict and the exit code cannot diverge (AssertionError => nonzero exit).
+    assert w_caus == 0, \
+        f"verdict claims the causal decaying kernel is minimum-phase (winding 0); computed {w_caus}"
+    assert not jumped, \
+        f"verdict claims winding does not jump with partial causality; computed windings {windings}"
+    assert refuted, "verdict claims prediction (2) failed (bridge refuted); computed: (2) passed"
+    assert w_sym == 0, (
+        "verdict claims causal is indistinguishable from symmetric/bidirectional (both winding 0); "
+        f"computed symmetric winding = {w_sym} != 0 (prediction (1) itself failed)")
+
     print("\n[verdict -- HONEST NEGATIVE: the N-N <-> attention directionality bridge does NOT hold]")
     print("  * A causal, decaying attention kernel is MINIMUM-PHASE -> winding 0, indistinguishable from a")
     print("    symmetric/bidirectional kernel by this invariant. So 'directionality = topological winding'")

@@ -176,6 +176,39 @@ def main():
     print(f"  GU canon shiab survives in ANY block?                  = {canon_any}")
     print(f"  => selector keeps the gamma-traceless RS direction and KILLS the trace direction.")
     print(f"     The surviving RS map is a contract+wedge COMBINATION, NOT the pure GU canon shiab.")
+
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    print()
+    scale = max(1.0, max(max(r["gamma_trace_norm_contract"], r["gamma_trace_norm_wedge"])
+                         for r in reports.values()))
+    check("family dims (per-block C, full C, real) = (2, 4, 8)",
+          all(v == 2 for v in R["dim_complex_per_block"].values())
+          and R["dim_complex_full_dirac"] == 4 and R["dim_real_full_dirac"] == 8)
+    for bname, rep in reports.items():
+        check(f"{bname}: contract (canon) has NONZERO gamma-trace",
+              rep["gamma_trace_norm_contract"] > TOL * scale)
+        check(f"{bname}: wedge has NONZERO gamma-trace",
+              rep["gamma_trace_norm_wedge"] > TOL * scale)
+        check(f"{bname}: gamma-trace images collinear (|cos| ~ 1)",
+              abs(rep["gamma_traces_collinear_cos"] - 1.0) < 1e-6)
+        check(f"{bname}: surviving complex dim = 1", rep["surviving_dim_complex"] == 1)
+        check(f"{bname}: canon shiab killed by the selector", not rep["canon_shiab_survives"])
+        sc = rep["surviving_RS_coords_(contract,wedge)"]
+        check(f"{bname}: surviving RS map is a genuine contract+wedge combination",
+              sc is not None and abs(sc[0]) > 1e-6 and abs(sc[1]) > 1e-6)
+    check("total surviving dims: complex 2, real 4", total_surv == 2 and surv_real == 4)
+    check("canon shiab survives in NO block", not canon_any)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- all computed facts back the stated verdict.")
     return {"total_surviving_complex": total_surv, "total_surviving_real": surv_real,
             "canon_survives": canon_any, "per_block": reports}
 

@@ -101,6 +101,28 @@ def main():
     generic_has_diag = abs(dtr_g) > 1e-3
     print(f"\n  GU torsion block-trace protected (dlam/deps=0): {diag_protected}   "
           f"generic block-trace nonzero (critical): {generic_has_diag}")
+
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("carrier splits into +96 generation / -96 mirror",
+          Vpos.shape[1] == 96 and Vneg.shape[1] == 96)
+    check("GU torsion is block-DIAGONAL: ||gen,mir|| ~ 0", gm_ch < 1e-9)
+    check("GU torsion diagonal blocks equal at 1/sqrt(2)",
+          abs(gg_ch - 2 ** -0.5) < 1e-6 and abs(mm_ch - 2 ** -0.5) < 1e-6)
+    check("GU torsion block-trace protected: |diag trace| < 1e-6 (dlam/deps=0)", diag_protected)
+    check("generic torsion blocks all ~0.5 (unstructured)",
+          all(abs(x - 0.5) < 0.05 for x in (gg_g, mm_g, gm_g)))
+    check("generic torsion block-trace nonzero (critical): discrimination is real", generic_has_diag)
+    if FAILURES:
+        print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- protected slope=0 is the traceless-within-blocks mechanism;")
+    print("generic torsion has nonzero block trace (critical). Discrimination verified.")
     return dict(gg_ch=gg_ch, mm_ch=mm_ch, gm_ch=gm_ch, gg_g=gg_g, mm_g=mm_g, gm_g=gm_g,
                 diag_protected=diag_protected, generic_has_diag=generic_has_diag)
 

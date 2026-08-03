@@ -259,6 +259,43 @@ def main() -> dict:
           f"(image in ker(Gamma^1)? {report['shiab']['shiab_image_in_ker(Gamma^1)?']})")
     print("\nMACHINE JSON:")
     print(json.dumps(report, indent=2, default=str))
+
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    comm_MD = results_ops[list(results_ops)[0]]["commutator_[Pi,M]_fro"]
+    comm_cdstar = results_ops[list(results_ops)[1]]["commutator_[Pi,M]_fro"]
+    cex = report["iff_forward_counterexample_M=Pi"]
+    print("\n" + "=" * 84)
+    print("CERTIFICATE CHECKS")
+    print("=" * 84)
+    check("Gamma surjective (rank 128) and Pi_RS rank 1664, clean projector",
+          rank_Gamma == dim and report["Pi_RS_rank_C"] == 1664
+          and report["Pi_RS_idempotent_err"] < 1e-9
+          and report["Pi_RS_hermitian_err"] < 1e-9
+          and report["Pi_RS_kills_constraint_err"] < 1e-9)
+    check("repo number 343.73 REPRODUCED (compression-on-gauge)",
+          abs(repro_343 - 343.73) < 1e-2)
+    check("actual ||[Pi_RS,M_D]|| = 58.7215 (repo), NOT 343.73",
+          abs(comm_MD - 58.7215) < 1e-2 and abs(comm_MD - repro_343) > 1.0)
+    check("||[Pi_RS, c.d*]|| != 343.73 (claimed identification REFUTED)",
+          abs(comm_cdstar - repro_343) > 1.0)
+    check("iff-forward counterexample M=Pi: [Pi,M]=0 yet D^2 != 0",
+          cex["commutes (lhs of iff true)"] and not cex["D^2_is_zero (rhs of iff)"])
+    check("shiab image NOT inside ker(Gamma^1) (Pi_RS does not absorb shiab)",
+          fro(GammaShiab) > 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- world-model claim REFUTED and certified: 343.73 is the")
+    print("         gauge-restricted compression ||(Pi M_D Pi)|_(S+->S-) gauge||, the actual")
+    print(f"         commutator is {comm_MD:.4f}, and the 'd^2=0 iff [Pi,codiff]=0' forward")
+    print("         direction fails on M=Pi; all certificate checks PASS.")
     return report
 
 

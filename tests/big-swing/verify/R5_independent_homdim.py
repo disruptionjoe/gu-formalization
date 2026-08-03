@@ -79,6 +79,8 @@ def sanity():
     print(f"  so(14) Lie-bracket err= {lie_err:.1e}")
     print(f"  omega|S+ = +1 err     = {op_p:.1e}   omega|S- = -1 err = {op_m:.1e}")
     print(f"  Sigma off-block(S-,S+)= {off:.1e}  (chirality-even => block diagonal)")
+    return {"clifford": cerr, "lie": lie_err, "omega_plus": op_p,
+            "omega_minus": op_m, "off_block": off}
 
 
 def delta(i, j):
@@ -122,7 +124,9 @@ def main():
     print("=" * 80)
     print("INDEPENDENT R5 verifier: dense, all-91-generator invariant-Hom dims")
     print("=" * 80)
-    sanity()
+    errs = sanity()
+    for name, v in errs.items():
+        assert v < 1e-9, f"representation sanity check '{name}' failed: err = {v:.3e}"
     print("\ninvariant-Hom dims (dense eigvalsh, 91 generators):")
     cases = [
         ("Hom_lin (S+,S+)", BP, BP, False),
@@ -146,6 +150,10 @@ def main():
     ok = (swap_lin == 0 and swap_alin == 0
           and res['Hom_lin (S+,S+)'] == 1 and res['Hom_alin(S+,S+) J'] == 1)
     print(f"\n  INDEPENDENT CONFIRMATION of no-go: {ok}")
+    # falsifiability coupling: the printed confirmation and the exit code are
+    # driven by the SAME boolean.
+    if not ok:
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

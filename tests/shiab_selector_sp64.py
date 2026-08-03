@@ -196,6 +196,31 @@ def main():
     print(f"  contains canon shiab  : {resid < 1e-6}")
     print(f"  full-Sp(64) reading   : 0 (structure group does not commute with Clifford)")
     print("=" * 86)
+
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("baseline family dims: full Dirac C=4, R=8",
+          R["dim_complex_full_dirac"] == 4 and R["dim_real_full_dirac"] == 8)
+    check("J^2 = -I (quaternionic M(64,H))", Jsq_err < TOL)
+    check("J commutes with every Clifford generator", Jcomm_err < TOL)
+    check("surviving real dim = 4 (Gram null space)", surviving == 4)
+    check("surviving span has NO i*Phi component", imag_mass < 1e-7)
+    check("canon shiab contained in surviving subspace", resid < 1e-6)
+    check("honesty witness X in sp(64) is NONZERO (section non-vacuous)",
+          float(np.linalg.norm(X)) > TOL)
+    check("X is H-linear ([X,J]=0)", XJ < TOL)
+    check("family NOT Sp(64)-equivariant: [W_contract, X] != 0", cX > TOL)
+    check("family NOT Sp(64)-equivariant: [W_wedge, X] != 0", wX > TOL)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- all computed facts back the stated verdict.")
     return {"surviving_real_dim": surviving, "canon_resid": resid}
 
 

@@ -359,6 +359,53 @@ def main():
     else:
         print("  STATUS: SHARPER_OBSTRUCTION (second-class); a-priori connection does NOT")
         print("          beat 32.80; s^2=0 forced to the Dirac-bracket propagator (FIXED SOLVE).")
+
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 80)
+    print("CERTIFICATE CHECKS")
+    print("=" * 80)
+    check("anchor ||[Pi_RS,M_D]|| = 58.7215 (repo)", abs(comm_PiMD - 58.7215) < 1e-2)
+    check("anchor ||(I-Pi)M_D Pi|| = 41.5224 (repo)", abs(escape_op - 41.5224) < 1e-2)
+    check("anchor ||C2|| = 155.36 (repo secondary VZ constraint)",
+          abs(nC2 - 155.36) < 1e-2)
+    check("C2 GENUINELY INDEPENDENT of Gamma (residual > 0)",
+          C2_indep_resid > 1e-6)
+    check("second-class: Gamma.d_A = c(xi) invertible, ||c(xi)|| = 80.6136",
+          sc_invertible and abs(second_class - 80.6136) < 1e-2)
+    check("carrier is a genuine connection (non-equivariant, non-flat, inhomog)",
+          conn_defect > 1e-6 and curv_norm > 1e-6 and inhomog_size > 1e-6)
+    check("bare legs are OBSTRUCTED by c(xi) (s_KT^2 > 0 and {s_KT,s_long} > 0)",
+          s_KT2 > 1e-6 and cross > 1e-6 and s_bare2 > 1e-6)
+    check("s_long^2 trivially nilpotent (~0)", s_long2 < 1e-6)
+    check("geometric-connection carrier does NOT close the cross-bracket",
+          cross_geo > 1e-6)
+    check("Dirac carrier -d_A^dag Pi_perp CLOSES {s_KT,s_long} (~0)",
+          cross_closed < 1e-6)
+    check("closing carrier == Dirac-bracket propagator (match ~ 0)",
+          prop_match < 1e-6)
+    check("escape is s_KT-EXACT (residual ~ 0, fraction ~ 1)",
+          resid_KTexact < 1e-6 and abs(frac_in_imK2 - 1.0) < 1e-6)
+    check("full s^2 = 0 with Dirac-corrected legs (nonvacuous ranks)",
+          s2_D < 1e-6 and sKT2_D < 1e-6 and cross_D < 1e-6
+          and rK2 > 0 and rK1D > 0 and rLD > 0)
+    check("ANTI-TRAP: bare [Pi_RS,M_D] unchanged (RS coupled, VZ evaded)",
+          abs(comm_after - comm_PiMD) < 1e-9 and comm_after > 1e-6)
+    check("carrier H-linear (||[A_0,J]|| < 1e-9)", h_A0 < 1e-9)
+    check("STATUS branch consistent with computed floor",
+          beats == (geo_min < SPURION_FLOOR))
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print(f"\nVERDICT: GREEN -- certified: dressed floor {geo_min:.4f} (beats 32.80: {beats}),")
+    print("         escape s_KT-exact, s^2=0 only via the Dirac-bracket fixed solve,")
+    print("         anti-trap intact; all certificate checks PASS.")
     return R
 
 

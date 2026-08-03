@@ -106,6 +106,7 @@ def main():
     Gamma_full = np.kron(I14, gam_vol)
     Gc = herm(Wt.conj().T @ Gamma_full @ Wt)
     print(f"[carrier] dim {Wt.shape[1]}; chirality Gamma = id_14 (x) gamma_vol")
+    assert Wt.shape[1] == 192, f"carrier dim {Wt.shape[1]} != 192"
 
     # ---------------- operator basis -------------------------------------------------------
     basis = {}
@@ -251,6 +252,23 @@ def main():
     else:
         print("  EVADABLE: a frame-non-trivial, frame-SOURCED net chiral count exists. Escape found:")
         print(f"     {escape}")
+    # -- certificate coupling: this search's computed conclusion is the EVADABLE branch (the hard
+    #    random search DOES find a frame-sourced count, e.g. |count| ~ 54.6 with count_triv == 0).
+    #    Pin that conclusion and its backing facts; exit nonzero if either fails.
+    assert nb == 65 and nodd == 54, f"operator basis changed: nb={nb}, nodd={nodd}"
+    assert n_both > 0, "search vacuous: no sample ever had fc>0 AND count!=0"
+    if escape is not None:
+        _it, _fc, _cnt, _cntt = escape
+        assert _fc > 1e-6 and abs(_cnt) > 1e-6 and abs(_cntt) < 1e-6, \
+            f"recorded escape {escape} violates its own criterion"
+    if structural:
+        print("\nVERDICT: RED -- pinned conclusion violated: this certificate's recorded result is")
+        print("EVADABLE (frame-sourced count found by the hard search); the search now returned none.")
+        print("Re-examine before accepting either branch.")
+        raise SystemExit(1)
+    print(f"\nVERDICT: ESCAPE-FOUND (exit 0 = certificate self-consistent): frame-sourced count "
+          f"{max_count_zero_triv:.3f} with zero frame-trivial part; structural no-go is EVADED "
+          f"by this probe's criterion.")
     return {
         "carrier_dim": int(Wt.shape[1]),
         "basis_size": nb,

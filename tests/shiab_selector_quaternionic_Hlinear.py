@@ -196,6 +196,31 @@ def main():
           f"NOT pinned to 1.")
     print("=" * 84)
 
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("J^2 = -I on the full 128 (quaternionic M(64,H))", Jsq_err_full < TOL)
+    check("J commutes with every Clifford generator", Jcomm_err < TOL)
+    for bname, r in per_block.items():
+        check(f"{bname}: chiral J^2=-I (in and out)", r["jsq_in"] < TOL and r["jsq_out"] < TOL)
+        check(f"{bname}: J preserves chirality (no leak)",
+              r["leak_in"] < TOL and r["leak_out"] < TOL)
+        check(f"{bname}: surviving H-linear real dim = 2", r["surviving"] == 2)
+        check(f"{bname}: canon contract shiab is H-linear", r["canon_ok"])
+        check(f"{bname}: i*contract killed by the selector", r["imult_killed"])
+    check("selector cuts real dim 8 -> 4", total_surviving == 4)
+    check("canon shiab survives in EVERY block", canon_ok_all)
+    check("all i-multiples (quaternionic doubling) killed", imult_killed_all)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- all computed facts back the stated verdict.")
+
     return dict(total_surviving=total_surviving, canon_ok_all=canon_ok_all,
                 imult_killed_all=imult_killed_all, per_block=per_block,
                 Jsq_err_full=Jsq_err_full, Jcomm_err=Jcomm_err)

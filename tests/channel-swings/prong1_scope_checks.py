@@ -71,6 +71,12 @@ print(f"  -> {signflips} direction reversals across 21 consecutive N: min|q| "
       f"is a SAWTOOTH in N (grid-wall alignment). The resolvent last-pair "
       f"difference ~1/min|q| inherits it; the factor-4 gate on that ratio "
       f"(failed 5.4) measures alignment, not a divergence trend.")
+# hard checks: C1's claim is a non-monotone sawtooth whose alignment wobble
+# alone exceeds the factor-4 gate.
+assert signflips > 0, "C1: fixed-grid min|q| shows no direction reversal in N"
+assert max(minq) > 4.0 * max(1e-9, min(minq)), (
+    f"C1: wobble ratio {max(minq)/max(1e-9, min(minq)):.2f}x does not exceed "
+    f"the factor-4 gate; the confound claim is unsupported")
 
 # -- C2: wall-aligned ladder -- center window on s*, odd N -> node on wall
 print("\n=== C2  wall-aligned remedy: s* on central node, ladder odd N ===")
@@ -90,6 +96,12 @@ mono = all(mq2[i] <= mq2[i - 1] + 1e-9 for i in range(1, len(mq2)))
 print(f"  -> min|q| monotone-decreasing (controlled ~h): {mono}; the grid-"
       f"alignment degree of freedom is removed, so a log-log growth-rate "
       f"gate on the LIMIT resolvent norm is now well posed.")
+# hard checks: the remedy must actually pin the wall to the central node and
+# drive min|q| to ~0 monotonically.
+assert all(r[2] < 1e-9 for r in c2_rows), "C2: central node is not on the wall s*"
+assert all(r[1] < 1e-3 for r in c2_rows), (
+    f"C2: wall-aligned min|q| not driven to ~0: {mq2}")
+assert mono, f"C2: min|q| not monotone-decreasing on the odd-N ladder: {mq2}"
 
 # -- C3: carrier-combination relocates/creates walls. NAMED FINDING FIRST:
 # a strongly-gapped block MASKS a weak crossing (q_A+q_B stays >0), so the
@@ -107,9 +119,14 @@ def zero_cross(x, y):
 
 qA = np.array([qc(s, alpha=A_UP) for s in ss])          # gapped
 qBw = np.array([qc(s, alpha=A_DN) for s in ss])          # weak crossing
+masked_walls = zero_cross(ss, qA + qBw)
 print(f"  masking check: gapped q_A in [{qA.min():.1f},{qA.max():.1f}] + weak "
       f"crossing q_B (min {qBw.min():.2f}) -> sum walls "
-      f"{['%.4f' % z for z in zero_cross(ss, qA + qBw)] or 'NONE (masked)'}")
+      f"{['%.4f' % z for z in masked_walls] or 'NONE (masked)'}")
+# hard check: the NAMED FINDING is that the gapped block MASKS the weak
+# crossing (the sum has NO wall).
+assert not masked_walls, (
+    f"C3: gapped+weak-crossing sum has walls at {masked_walls}; masking claim fails")
 
 # two COMPARABLE crossing blocks at different loop coords -> distinct walls
 def wall_at_t(t):
@@ -143,8 +160,17 @@ if t2 is not None:
           f"-> product carrier has its OWN (relocated/multiplied) wall set, "
           f"absent from either factor at that location. 2-block toy = TWO "
           f"COMPARABLE CROSSING blocks with DISTINCT walls.")
+    # hard checks: an emergent wall must exist, and it must sit where NEITHER
+    # factor vanishes (else it is not relocated, just an inherited wall).
+    assert len(zsum) >= 1, "C3: combined q_A+q_B has no wall"
+    for z in zsum:
+        qa_z, qb_z = qc(z), qc(z, t=t2)
+        assert min(abs(qa_z), abs(qb_z)) > 1e-3, (
+            f"C3: combined wall s={z:.4f} coincides with a factor wall "
+            f"(q_A={qa_z:.2e}, q_B={qb_z:.2e}); not an emergent wall")
 else:
     print("  (no second distinct-wall crossing t found in scan; execution "
           "should widen the t-scan)")
+    raise SystemExit(1)  # C3's emergent-wall demonstration was NOT produced
 
 print("\n[prong1 scope checks complete]")

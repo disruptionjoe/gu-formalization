@@ -36,6 +36,14 @@ print(f"carrier dim = {d}")
 
 def herm(A): return 0.5*(A + A.conj().T)
 
+FAILURES = []
+def check(label, ok):
+    print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+    if not ok:
+        FAILURES.append(label)
+
+check("carrier dim = 192", d == 192)
+
 # ---------- PROXY (i) KREIN: actual eigenvalues ----------
 Kr = herm(Wt.conj().T @ K @ Wt)
 ev = np.linalg.eigvalsh(Kr)
@@ -44,6 +52,12 @@ print(f"  net signature n+ - n- (what construct reports) = {(ev>1e-7).sum() - (e
 print(f"  ACTUAL eigenvalues: min={ev.min():.4f} max={ev.max():.4f}")
 print(f"  number of TRUE zero eigenvalues (|lambda|<1e-7): {(np.abs(ev)<1e-7).sum()}")
 print(f"  smallest |eigenvalue| = {np.abs(ev).min():.4f}  <-- if >0, NO flat direction in this form")
+check("Krein form: net signature n+ - n- = 0 (vectorlike)",
+      int((ev>1e-7).sum() - (ev<-1e-7).sum()) == 0)
+check("Krein form: NO true zero eigenvalues (signature (96,96,0))",
+      int((np.abs(ev)<1e-7).sum()) == 0 and int((ev>1e-7).sum()) == 96)
+check("Krein form: smallest |eigenvalue| = 1 (no flat direction)",
+      abs(np.abs(ev).min() - 1.0) < 1e-6)
 
 # Q2: the uniform-occupancy collective coordinate. Build a few candidate "occupancy" vectors
 # and compute the scalar second variation v^dag Kr v / (v^dag v).
@@ -81,6 +95,10 @@ for seed in range(10):
     e2 = np.linalg.eigvalsh(Mt)
     nets.append((e2>1e-7).sum() - (e2<-1e-7).sum())
 print(f"  net signature across 10 random psi seeds: {nets}  (all 0 => structural, not fitted)")
+check("SW Majorana block: net signature = 0 at the probe point",
+      int((evM>1e-7).sum() - (evM<-1e-7).sum()) == 0)
+check("SW Majorana block: net signature = 0 across ALL 10 random psi seeds (structural)",
+      all(int(n) == 0 for n in nets))
 
 # ---------- PROXY (iii) boundary-eta: is the block trivially absent? ----------
 Dr = herm(Wt.conj().T @ D @ Wt)
@@ -88,6 +106,10 @@ print("\n=== PROXY (iii) boundary-eta D on carrier ===")
 print(f"  ||D Wt|| = {np.linalg.norm(D@Wt):.4f} (D acts on carrier states)")
 print(f"  ||Wt^dag D Wt|| = {np.linalg.norm(Dr):.3e}  <-- if ~0, the diagonal block is ABSENT")
 print(f"  This is a TRIVIALLY ZERO operator on the carrier, not a cancellation of a real form.")
+check("boundary-eta: D acts nontrivially on carrier states (||D Wt|| > 1)",
+      float(np.linalg.norm(D@Wt)) > 1.0)
+check("boundary-eta: diagonal block Wt^dag D Wt is ABSENT (norm < 1e-9)",
+      float(np.linalg.norm(Dr)) < 1e-9)
 
 # ---------- THE CONCEPTUAL POINT ----------
 print("\n=== SUMMARY ===")
@@ -95,3 +117,8 @@ print("  A FLAT zero mode requires an ACTUAL zero eigenvalue (n_0 > 0) along the
 print("  direction. The Krein form has signature (96,96,0): NO zero eigenvalues, smallest")
 print(f"  |lambda| = {np.abs(ev).min():.4f}. The reported '0' is the NET (n+ - n-), an INDEX-like")
 print("  signed count = the vectorlike/balanced fact, NOT a flat direction.")
+if FAILURES:
+    print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+    raise SystemExit(1)
+print("\nVERDICT: GREEN -- reported '0' is the vectorlike NET index (96,96,0), not a flat mode;")
+print("all backing facts verified across the three proxies.")

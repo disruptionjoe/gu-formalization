@@ -147,6 +147,11 @@ def main():
     results['full_128'] = report_rep("full Dirac spinor 128 (bridge DIM)", full)
     results['vector_14'] = report_rep("vector 14 (observerse)", vec)
     results['adjoint_91'] = report_rep("adjoint 91 (gauge)", adj)
+    expected_mults = {'half_pos_64': (2, 2), 'half_neg_64': (2, 2), 'full_128': (4, 4),
+                      'vector_14': (0, 0), 'adjoint_91': (0, 0)}
+    for rkey, exp in expected_mults.items():
+        assert results[rkey] == exp, \
+            f"[1] {rkey}: (mult16, mult16bar) = {results[rkey]}, expected {exp} (powers of 2, net 0)"
 
     print("\n[2] EXHAUSTIVE search over ALL GU-native maximal-rank subgroup splits Spin(10) x H,")
     print("    H = commutant from putting D5 on ANY 5 of the 7 coordinates; flavor = remaining 2 coords.")
@@ -179,6 +184,8 @@ def main():
         print("    NONE. No GU-native maximal-rank D5 split of any GU-native rep gives multiplicity or")
         print("    net chiral count = 3. Every multiplicity is a power of 2 (1,2,4) -- the Spin(4) flavor")
         print("    rep dimension -- never the odd prime 3.")
+    assert not found3, \
+        f"[2] stated conclusion is NONE, but exhaustive search found multiplicity/net 3 in {len(found3)} cases"
 
     print("\n[3] Why 3 is structurally excluded (the C-04 mechanism, re-derived for branching):")
     print("    A GU-native generation multiplicity = dim of a SPINOR rep of the commutant Spin(2k).")
@@ -194,6 +201,8 @@ def main():
         f = primes(d)
         flag = "  <-- contains 3 !" if 3 in f else ""
         print(f"      {label:22} = {d:7}  primes={sorted(f)}{flag}")
+        assert (3 in f) == (label == "|Weyl(D7)|"), \
+            f"[4] prime 3 in {label} ({d}): got primes {sorted(f)}; 3 must appear ONLY in |Weyl(D7)|"
 
     print("\n[5] SHARPEST BREAK ATTEMPT: shrink the gauge group so the commutant grows to rank 3,")
     print("    which could host a HORIZONTAL SU(3) with the families in its fundamental 3.")
@@ -207,6 +216,8 @@ def main():
     su3_in_spin4 = (8 <= 6)  # dim su(3)=8 cannot fit in dim su(2)+su(2)=6
     fits16_below10 = any(2 ** (k - 1) >= 16 for k in range(1, 5))  # Spin(2k<10) half-spinor >=16?
     print(f"      SU(3) fits in Spin(4) commutant? {su3_in_spin4}.  16 fits in some Spin(2k<10)? {fits16_below10}.")
+    assert not su3_in_spin4 and not fits16_below10, \
+        f"[5] expected both False: su3_in_spin4={su3_in_spin4}, fits16_below10={fits16_below10}"
     print("    - Net chirality of the flat 64 under Spin(10): #16 - #16bar = 2 - 2 = 0 (vector-like).")
     print("      The family index is non-chiral at rep level -- matching C-05 (metric connections give 0):")
     print("      chirality is NOT a branching multiplicity at all, so '3' cannot be read off the rep.")
@@ -217,6 +228,8 @@ def main():
     print("\n[7] VERDICT")
     any3 = bool(found3)
     print(f"    Any GU-native rep with a robust multiplicity-3 of the SM generation? {any3}")
+    # verdict line above is driven by any3; the stated conclusion is False (no multiplicity-3).
+    assert not any3, "[7] stated conclusion is False (no GU-native multiplicity-3), but found3 is nonempty"
     print("    Branching multiplicities found: 16 sits in Spin(4) doublets -> multiplicity 2 (or 4 in the")
     print("    full Dirac 128); the verified Pati-Salam chain isolates exactly ONE. Never 3.")
     print("    The ONLY place 3 appears is |Weyl(D7)| = 2^10 * 3^2 * 5 * 7 -- a GROUP-ORDER factor, not a")

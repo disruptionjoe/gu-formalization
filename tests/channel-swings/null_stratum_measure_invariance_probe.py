@@ -5,7 +5,9 @@ Reuses the committed Prong-0 end construction, then varies only the probability
 law used to sample genuine flat-end directions. All covariance matrices remain
 positive definite, so every ensemble has full support on direction space.
 
-The printed findings, not process exit, are the scientific result.
+The printed findings, not process exit, are the scientific result; hard
+asserts back the computed facts those findings report, so a violated fact
+now exits nonzero instead of printing a stale finding.
 """
 from __future__ import annotations
 
@@ -80,6 +82,12 @@ baseline = [row[2] for row in rows if row[0] == 1.0 and row[1] == 5.0][0]
 spread = float(fractions.max() - fractions.min())
 positive_rows = int(np.sum(fractions > 0.0))
 
+# hard checks on the computed facts the rows/summary report
+assert len(rows) == len(scales) * len(radii), (
+    f"expected {len(scales) * len(radii)} ensembles, got {len(rows)}")
+assert all(row[3] > 0 for row in rows), "an ensemble produced no valid directions"
+assert all(0.0 <= row[2] <= 1.0 for row in rows), "crossing fraction outside [0,1]"
+
 print(f"\n[summary] original-style baseline (scale=1,radius=5): "
       f"{100*baseline:.1f}%")
 print(f"[summary] declared full-support ensemble range: "
@@ -97,6 +105,11 @@ slope_up = volume_slope(alpha_up)
 slope_down = volume_slope(alpha_down)
 print(f"\n[volume] d/ds log sqrt|det G| conf-up   = {slope_up:+.3f}")
 print(f"[volume] d/ds log sqrt|det G| conf-down = {slope_down:+.3f}")
+# hard check backing the sentence printed next: the two genuine opposite rays
+# must actually show OPPOSITE (nonzero) radial volume slopes.
+assert slope_up * slope_down < 0.0, (
+    f"claimed opposite radial volume behavior; computed slopes "
+    f"{slope_up:+.3f} / {slope_down:+.3f}")
 print("[volume] opposite radial behavior means the native noncompact volume does")
 print("         not itself select a finite probability distribution over ends;")
 print("         a cutoff or direction weight is additional data.")

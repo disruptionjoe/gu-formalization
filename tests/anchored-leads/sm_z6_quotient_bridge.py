@@ -168,6 +168,9 @@ def report():
         print("    re-encodes the CRT firewall (Z/6 = Z/2 x Z/3) rather than bridging it. No new route.")
     else:
         print("    UNEXPECTED -- inspect numbers.")
+        # falsifiability coupling: the green verdict and the exit code are driven
+        # by the SAME booleans; any unexpected frame charge fails the cert.
+        raise SystemExit(1)
     return res
 
 

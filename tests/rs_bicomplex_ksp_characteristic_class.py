@@ -418,6 +418,58 @@ def main():
     print("  (one distinguished null plane / the actual Y14 curvature) that the intrinsic KSp")
     print("  class structurally cannot supply -- the ICO/external-datum boundary, made precise.")
 
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 84)
+    print("CERTIFICATE CHECKS")
+    print("=" * 84)
+    check("anchors reproduce repo (58.7215 / 41.5224 / 169.1942 / 80.6136)",
+          abs(comm_PiMD - 58.7215) < 1e-2 and abs(escape_op - 41.5224) < 1e-2
+          and abs(escape_gauge - 169.1942) < 1e-2 and abs(gamma_gauge - 80.6136) < 1e-2)
+    check("quaternionic structure exact (J^2=-I, J central)",
+          Jsq_err < 1e-9 and Jcomm_err < 1e-9)
+    check("Omega = U^dag genuinely symplectic (skew, nonzero scale)",
+          skew_sum < 1e-9 and skew_diff > 1.0)
+    check("null-pair nilpotency (c(n_0)^2 ~ 0, N_pol^6 ~ 0)",
+          cn0_sq < 1e-9 and Npol6 < 1e-9)
+    check("carrier a-priori & genuine: exactly H-linear, acts on c(xi), non-equivariant",
+          h_Ppol < 1e-9 and acts_on_cxi > 1e-6 and max_spin_defect > 1e-6)
+    check("CONTROL: equivariant Spin carrier cannot bend (floor stays 58.7215)",
+          abs(bestSpin - 58.7215) < 1e-2)
+    check("CONTROL: free single-plane spurion reproduces the 32.8005 floor",
+          abs(bestA[1] - 32.8005) < 1e-2)
+    check("KSp intrinsic floor does NOT beat 32.80 (and is not zero)",
+          (not below) and (not zero) and ksp_floor > 1e-6)
+    check("both legs nilpotent BY CONSTRUCTION (ranks nonvacuous)",
+          slong2 < 1e-6 and sKT2 < 1e-6
+          and min(rkL1, rkL2, rkK1, rkK2) > 0)
+    check("bicomplex NOT closed: ||s^2|| = ||{s_KT,s_long}|| > 0",
+          (not closed) and anti > 1e-6 and s2_full > 1e-6
+          and abs(s2_full - anti) < 1e-6)
+    check("escape NOT ghost/s-exact (longitudinal residual > 0)",
+          residual > 1e-6 and frac_sexact < 0.999)
+    check("ANTI-TRAP: bare [Pi_RS,M_D] = 58.7215 preserved (RS coupled)",
+          abs(comm_after - 58.7215) < 1e-2 and comm_after > 1e-6)
+    check("trap zeroes the escape block (ker becomes invariant -> disqualified)",
+          fro(Pi_perp @ (M_D + sigma_trap) @ Pi_RS) < 1e-6)
+    check("C2 = 155.36, GENUINELY INDEPENDENT of Gamma",
+          abs(nC2 - 155.36) < 1e-2 and resid_C2 > 1e-6)
+    check("C2 NOT reconciled by the carrier (dressed residual > 0)",
+          resid_C2W > 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- SHARPER_OBSTRUCTION certified: the intrinsic KSp class is")
+    print(f"         a-priori, H-linear and non-equivariant, yet floors at {ksp_floor:.4f}")
+    print("         (not below 32.80), leaves s^2 != 0, the escape non-s-exact and C2")
+    print("         unreconciled; all certificate checks PASS.")
+
     return {
         "anchors_ok": abs(comm_PiMD - 58.7215) < 1e-2,
         "ksp_floor": ksp_floor, "below_32_80": below, "zero": zero,

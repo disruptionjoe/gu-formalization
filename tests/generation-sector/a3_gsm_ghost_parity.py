@@ -55,15 +55,24 @@ om2=(np.trace(om@om)/DIM).real
 C=Wt.conj().T@np.kron(I14, om if om2>0 else (-1j)*om)@Wt; C=0.5*(C+C.conj().T)
 Ggen=[Wt.conj().T@gen(i,j)@Wt for i in range(4,14) for j in range(i+1,14)]
 # G_SM-invariance of C: C is central in even Clifford -> so(p,q)- (hence G_SM-) invariant
-print(f"chirality C: so(p,q)-invariant? max[C,Spin(10)]={max(np.linalg.norm(comm(C,g)) for g in Ggen):.1e}; C^2=I {np.linalg.norm(C@C-np.eye(192)):.1e}")
+ccom=max(np.linalg.norm(comm(C,g)) for g in Ggen); csq=np.linalg.norm(C@C-np.eye(192))
+print(f"chirality C: so(p,q)-invariant? max[C,Spin(10)]={ccom:.1e}; C^2=I {csq:.1e}")
+assert ccom<1e-9, f"[C,Spin(10)] = {ccom}, expected 0 (invariant)"
+assert csq<1e-9, f"C^2 != I: dev {csq}"
 # PHYSICAL Dirac form Kd: cross-chirality -> physical sector 50/50 -> net 0 (kill, holds for any equivariance)
 cev,cU=np.linalg.eigh(C); Pp=cU[:,cev>0.5]; Pm=cU[:,cev<-0.5]
-print(f"physical Dirac Kd: same-chirality blocks ||Kd(+,+)||={np.linalg.norm(Pp.conj().T@Kd@Pp):.1e}, ||Kd(-,-)||={np.linalg.norm(Pm.conj().T@Kd@Pm):.1e} (cross-chirality)")
+kdpp=np.linalg.norm(Pp.conj().T@Kd@Pp); kdmm=np.linalg.norm(Pm.conj().T@Kd@Pm)
+print(f"physical Dirac Kd: same-chirality blocks ||Kd(+,+)||={kdpp:.1e}, ||Kd(-,-)||={kdmm:.1e} (cross-chirality)")
+assert kdpp<1e-9 and kdmm<1e-9, f"Kd same-chirality blocks ({kdpp}, {kdmm}), expected 0 (cross-chirality)"
 kev,kU=np.linalg.eigh(Kd); phys=kU[:,kev>1e-9]
-print(f"   -> net chirality of Dirac-physical sector = {np.trace(phys.conj().T@C@phys).real:+.1e} (KILL, independent of ghost-parity equivariance)")
+net_dirac=np.trace(phys.conj().T@C@phys).real
+print(f"   -> net chirality of Dirac-physical sector = {net_dirac:+.1e} (KILL, independent of ghost-parity equivariance)")
+assert abs(net_dirac)<1e-8, f"Dirac-physical net chirality = {net_dirac}, expected 0 (kill)"
 # the sliver: a NON-Dirac so(p,q)-invariant indefinite form K'=C; its positive sector IS net-chiral
 kev2,kU2=np.linalg.eigh(C); phys2=kU2[:,kev2>0]
-print(f"non-Dirac form K'=C (so(p,q)- and G_SM-invariant, indefinite): positive sector net chirality = {np.trace(phys2.conj().T@C@phys2).real:+.0f} (NET-CHIRAL!)")
+net_nd=np.trace(phys2.conj().T@C@phys2).real
+print(f"non-Dirac form K'=C (so(p,q)- and G_SM-invariant, indefinite): positive sector net chirality = {net_nd:+.0f} (NET-CHIRAL!)")
+assert abs(net_nd-96.0)<1e-6, f"non-Dirac (K'=C) positive-sector net chirality = {net_nd}, expected +96"
 print("=> A3 verdict: the kill is a property of the PHYSICAL Dirac form (cross-chirality), unchanged by")
 print("   relaxing to G_SM-equivariance. A non-Dirac invariant form (C) CAN chiralize, but it is not the")
 print("   matter sector's physical inner product. Last open native route closed, contingent on the Dirac form.")

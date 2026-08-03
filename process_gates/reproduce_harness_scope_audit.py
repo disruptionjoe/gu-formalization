@@ -87,12 +87,19 @@ def relpath(path: Path) -> str:
     return path.relative_to(ROOT).as_posix()
 
 
+def library_module_paths(module: ModuleType) -> set[Path]:
+    """Declared library modules (shared engines, not certificates) — the one
+    sanctioned discovery exclusion beyond skip dirs. Kept honest against the
+    import graph by process_gates/certificate_shape_audit.py."""
+    return {(ROOT / rel).resolve() for rel in getattr(module, "LIBRARY_MODULES", ())}
+
+
 class ReproduceHarnessScopeAudit(unittest.TestCase):
     def test_quick_scope_matches_live_tests_tree(self) -> None:
         module = load_harness()
 
         discovered = discovered_paths(module, [module.TESTS_DIR])
-        expected = expected_python_files(TESTS_DIR)
+        expected = expected_python_files(TESTS_DIR) - library_module_paths(module)
 
         self.assertGreaterEqual(len(discovered), 1)
         self.assertEqual(
@@ -119,7 +126,7 @@ class ReproduceHarnessScopeAudit(unittest.TestCase):
         module = load_harness()
 
         discovered = discovered_paths(module, [module.TESTS_DIR], tracked_only=True)
-        expected = expected_tracked_python_files([TESTS_DIR])
+        expected = expected_tracked_python_files([TESTS_DIR]) - library_module_paths(module)
         default_scope = discovered_paths(module, [module.TESTS_DIR])
 
         self.assertGreaterEqual(len(discovered), 1)

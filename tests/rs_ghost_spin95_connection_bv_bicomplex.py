@@ -442,6 +442,53 @@ def main():
     else:
         status = "NO_IMPROVEMENT over the spurion floor"
     print(f"\n  STATUS: {status}")
+
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 80)
+    print("CERTIFICATE CHECKS")
+    print("=" * 80)
+    check("anchors reproduce repo (58.7215 / 41.5224 / 169.1942 / 80.6136 / C2 155.36)",
+          abs(comm_PiMD - 58.7215) < 1e-2 and abs(escape_op - 41.5224) < 1e-2
+          and abs(escape_gauge - 169.1942) < 1e-2 and abs(gamma_gauge - 80.6136) < 1e-2
+          and abs(nC2 - 155.36) < 1e-2 and resid_C2 > 1e-6)
+    check("carrier transforms INHOMOGENEOUSLY (connection), spurion does not",
+          fro(inhomog_part_W) > 1e-6 and inhomog_part_spurion == 0.0
+          and fro(homog_part_W) < 1e-9)
+    check("carrier xi-independent and H-linear",
+          fro(sig_a - sig_b) < 1e-12 and h_sig < 1e-9)
+    check("sigma_c(W) NON-equivariant (probe defect > 0, as the verdict claims)",
+          eqv > 1e-6)
+    check("a-priori floor > 0; fixed-solve probe <= a-priori floor",
+          apriori_floor > 1e-6 and solve_floor <= apriori_floor + 1e-9)
+    check("bicomplex carrier W* realizes the a-priori floor",
+          abs(obstruction_star - apriori_floor) < 1e-6)
+    check("Noether identity B_W A_W = 0 (gauge orbits in surface)", BWA < 1e-6)
+    check("raw (unprojected) gauge breaks the Noether identity",
+          BWgauge_raw > 1e-6)
+    check("s_KT^2 = 0 and s_long^2 = 0 (leg nilpotency)",
+          sKT2 < 1e-6 and sLong2 < 1e-6)
+    check("{s_KT,s_long} = 0 and full s^2 = 0 (target 0)",
+          anti < 1e-6 and s2 < 1e-6)
+    check("leg ranks nonvacuous; raw-gauge control BREAKS closure",
+          rk_M > 0 and rk_A > 0 and s2_raw > 1e-6)
+    check("escape Koszul-Tate-exact (residual ~ 0)", resid_in_KT < 1e-6)
+    check("escape NOT ghost-exact (off-gauge residual > 0)", resid_in_gauge > 1e-6)
+    check("dressed C2_W survives (B_W-independent residual > 0)", resid_C2_W > 1e-6)
+    check("ANTI-TRAP: bare [Pi_RS,M_D] = 58.7215 preserved (RS coupled)",
+          abs(comm_after - 58.7215) < 1e-2 and comm_after > 1e-6)
+    check("trap zeroes the escape block (ker becomes invariant -> excluded)",
+          fro(Pi_perp @ (M_D + sigma_trap) @ Pi_RS) < 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print(f"\nVERDICT: GREEN -- STATUS '{status}' certified; all certificate checks PASS.")
     return None
 
 

@@ -169,6 +169,8 @@ def main():
     Xframe = np.kron(SD_GENS[0] + SD_GENS[1] + SD_GENS[2], I128)
     Xframe = 0.5 * (Xframe - Xframe.conj().T)
 
+    c3_results = []
+
     def measure(M, label):
         # chirality commutation on carrier (antilinear C = M.K)
         A_W = Wt.conj().T @ M @ Wt.conj()
@@ -184,6 +186,7 @@ def main():
         c2 = -1 if np.linalg.norm(Csq + np.eye(N*DIM)) < np.linalg.norm(Csq - np.eye(N*DIM)) else 1
         ctype = "PRESERVING" if comm < acomm else "REVERSING"
         print(f"     {label:34s} C^2={c2:+d} chir={ctype}({comm/sc:.2e}/{acomm/sc:.2e}) leak={leak:.2e}")
+        c3_results.append((label, c2, ctype, leak))
         return c2, ctype, leak
 
     M_A = np.kron(I14, U) @ G_bulk.conj()
@@ -208,6 +211,29 @@ def main():
     print("     hence gauge-removable. The structural no-go holds, and the real mechanism is")
     print("     CONNECTEDNESS of the carrier-stabilizer, not (as the construct stated) that frame-")
     print("     active ops must be chirality-reversing (they need not be).")
+
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("carrier dim = 192", nc == 192)
+    check("[C1] all so(4) frame generators traceless (net-chiral trace frame-blind)",
+          max(tr_so4) < 1e-12)
+    check("[C1] carrier chirality split (+96,-96) vectorlike",
+          int((gev > 0.5).sum()) == 96 and int((gev < -0.5).sum()) == 96)
+    check("[C2] su(2)_+ closes under commutator (connected compact subalgebra)",
+          span_resid < 1e-9)
+    check("[C3] every inside-slot op has C^2 = -1 and is chirality-PRESERVING",
+          bool(c3_results) and all(c2 == -1 and t == "PRESERVING" for _, c2, t, _ in c3_results))
+    check("[C2] carrier-preserving frame rotations = su(2)_+ ONLY (the claimed mechanism)",
+          only_su2p)
+    if FAILURES:
+        print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- all recomputed facts back the connectedness mechanism as stated.")
     return {"only_su2p_preserves": bool(only_su2p), "su2p_closes": bool(span_resid < 1e-9)}
 
 

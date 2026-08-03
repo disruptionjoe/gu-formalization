@@ -87,6 +87,8 @@ Gt = [Wt.conj().T @ g @ Wt for g in Ggen]
 cev, cU = np.linalg.eigh(C); Pp = cU[:, cev > 0.5]; Pm = cU[:, cev < -0.5]
 Kpp = np.linalg.norm(Pp.conj().T @ K @ Pp); Kmm = np.linalg.norm(Pm.conj().T @ K @ Pm)
 print(f"[structure] K cross-chirality: ||K(+,+)||={Kpp:.1e}, ||K(-,-)||={Kmm:.1e}")
+assert Kpp < 1e-9 and Kmm < 1e-9, \
+    f"[structure] K same-chirality blocks ({Kpp}, {Kmm}), expected 0 (purely cross-chirality)"
 
 # ghost parity / fundamental symmetry J = sign(K)
 kev, kU = np.linalg.eigh(K)
@@ -105,8 +107,10 @@ print(f"[BRIDGE] physical (J=+1) sector K-positive-definite: min K-eig={minK:+.3
       f"(>0 => a consistent positive-norm Hilbert sector exists); toy K-unitary S residual={Kunit:.1e}.")
 print(f"   note: in this (9,5) build the internal block is non-compact SO(5,5), so [J,G_internal]={jg:.0f} "
       f"is a construction artifact, not a physical failure; the no-go below rests on K's cross-chirality.")
+bridge_ok = minK > 1e-9 and Kunit < 1e-8
 print(f"   => positivity bridge core HOLDS (a consistent physical sector exists): "
-      f"{'YES' if minK>1e-9 and Kunit<1e-8 else 'NO'}")
+      f"{'YES' if bridge_ok else 'NO'}")
+assert bridge_ok, f"[BRIDGE] positivity fails: min K-eig={minK}, K-unitary residual={Kunit}"
 
 # ---- CHIRAL SELECTION (no-go) ----
 net0 = np.trace(phys.conj().T @ C @ phys).real
@@ -123,11 +127,16 @@ for idx, X0 in enumerate(gens_comm):
     Kp = V @ K @ V.conj().T; kev2, kU2 = np.linalg.eigh(0.5 * (Kp + Kp.conj().T))
     phys2 = kU2[:, kev2 > 0]
     nets.append(np.trace(phys2.conj().T @ C @ phys2).real)
+maxnet = max(abs(x) for x in nets)
+chiralizes = maxnet > 1e-6
 print(f"[NO-GO] net chirality of physical sector = {net0:+.2e}; over {len(nets)} gauge-equivariant ghost "
-      f"parities: max|net| = {max(abs(x) for x in nets):.2e}")
+      f"parities: max|net| = {maxnet:.2e}")
 print(f"        => ghost parity can chiralize the physical sector: "
-      f"{'YES' if max(abs(x) for x in nets) > 1e-6 else 'NO (chiral selection impossible -- count is external)'}")
+      f"{'YES' if chiralizes else 'NO (chiral selection impossible -- count is external)'}")
+assert not chiralizes, f"[NO-GO] stated conclusion is net 0 for every ghost parity; got max|net|={maxnet}"
 
+# the verdict below restates exactly (bridge_ok, not chiralizes), both asserted above: it cannot
+# print unless those booleans hold, and any failure exits nonzero via AssertionError first.
 print("\nSWING VERDICT: the bridge splits. Ghost parity supplies CONSISTENCY (positivity bridge holds) but "
       "provably NOT CHIRALITY (net 0 for every gauge-equivariant ghost parity). The chiral count is\n"
       "necessarily external (imported flux / index). Novel no-go; the profound positive is refuted.")

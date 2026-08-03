@@ -317,3 +317,8 @@ print("Key adjudications:")
 print("  C_bilin symmetry: %s" % symlabel)
 print("  leg's b invariant under full g_H (sp(p,q))?  %s" % b_survives_gH)
 print("  antisymmetric symplectic sp-form exists?     %s" % antisym_form_exists)
+
+# Falsifiability coupling: the verdict above is computed from FAIL; the exit
+# code must agree. Any failed referee check => nonzero exit.
+if FAIL:
+    raise SystemExit(1)

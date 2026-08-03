@@ -330,6 +330,34 @@ def main():
     print("MACHINE JSON")
     print("=" * 84)
     print(json.dumps(report, indent=2))
+
+    # === HARD CERTIFICATE CHECKS (verdict is coupled to the exit code) =========
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 84)
+    print("CERTIFICATE CHECKS")
+    print("=" * 84)
+    check("verified Cl(9,5) rep (Clifford max err ~ 0)", CLIFF_ERR < 1e-10)
+    check("closure-Gram M is PSD (eigenvalues >= -tol)",
+          bool(evals[0] >= -TOL * scale))
+    check("every individual channel FAILS closure (obstruction > tol)",
+          all(np.sqrt(indiv_O1[i] + indiv_O2[i]) > TOL for i in range(NB)))
+    check("SURVIVING COMPLEX DIM = 0 (no family element closes)",
+          surviving_dim_complex == 0)
+    check("SURVIVING REAL DIM = 0", surviving_dim_real == 0)
+    check("canon shiab (1,0,1,0) does NOT close (obstruction^2 = 349440)",
+          (not canon_closes)
+          and abs(canon_obstruction2 - 349440.0) < 1e-6 * 349440.0)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- closure selector kills the whole family (surviving dim 0),"
+          "\n         canon shiab does not close; all certificate checks PASS.")
     return report
 
 

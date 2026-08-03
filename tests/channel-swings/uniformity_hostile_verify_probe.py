@@ -190,6 +190,8 @@ def main() -> None:
         f"N-slope={fixed_tau:+.6f} (analytic expectation 0)",
         flush=True,
     )
+    assert abs(fixed_tau) < 1e-12, (
+        f"fixed-delta N-slope {fixed_tau:+.6e} != 0 (analytic expectation)")
 
     gapped = single_family(
         "gapped exp=1/2", U.S_LO, U.S_STAR - 0.18, 0.5
@@ -253,6 +255,37 @@ def main() -> None:
         f"crossing_regular={crossing_regular} "
         f"crossing_cauchy={crossing_cauchy} "
         f"shared_product_valid={shared_product_valid}",
+        flush=True,
+    )
+
+    # HARD GATES.  The measured single/shared outcomes above are computed from
+    # the gate booleans and may legitimately land on either branch; what may
+    # NOT fail silently are the analytically forced facts this probe's own
+    # adjudication rests on: the planted Jordan delta^-1 singularity must
+    # fire in the measured norm, and the audited shared-factor surrogate must
+    # actually exhibit the noncommuting algebra defect that the SHARED
+    # OUTCOME verdict (and the module docstring) assert of it.
+    hard_failures = []
+    if not analytic_control_fires:
+        hard_failures.append(
+            "planted analytic Jordan singularity did not fire "
+            f"(cauchy_tau={jordan['cauchy_tau']:+.3f}, gate > 0.60)"
+        )
+    max_commutator = max(row[1] for row in product_rows)
+    max_defect = max(row[2] for row in product_rows)
+    if not (max_commutator > 1e-8 and max_defect > 1e-8):
+        hard_failures.append(
+            "shared-factor surrogate unexpectedly satisfies the section-symbol "
+            f"algebra (max ||[A,B]||={max_commutator:.3e}, "
+            f"max ||M2^2-q2I||={max_defect:.3e}); the 'algebraically different "
+            "surrogate' obstruction claim no longer holds"
+        )
+    if hard_failures:
+        print("HARD-GATE FAILURES: " + "; ".join(hard_failures), flush=True)
+        raise SystemExit(1)
+    print(
+        "HARD GATES PASSED: fixed-delta slope exactly 0; Jordan control "
+        "fires; noncommuting-surrogate defect present.",
         flush=True,
     )
 

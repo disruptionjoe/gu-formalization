@@ -73,6 +73,8 @@ def main():
     print("=" * 90)
     U, s, Jsq, Jcomm = fam.build_quaternionic_J()
     print(f"Cl(9,5)=M(64,H): ||J^2+I||={Jsq:.1e}, ||[J,Clifford]||={Jcomm:.1e}  (J = U.conj)")
+    assert Jsq < TOL, f"J^2 = -I fails: ||J^2+I|| = {Jsq:.3e}"
+    assert Jcomm < TOL, f"J does not commute with the Clifford action: {Jcomm:.3e}"
 
     candidates = [
         (U, "J = U.conj                (quaternionic structure)"),
@@ -80,6 +82,8 @@ def main():
     ]
     all_preserve = True
     any_swap = False
+    all_spin_inv = True
+    all_theta_sq_definite = True
     for Q, label in candidates:
         d = antilinear_diag(Q, label)
         sq = "-I" if d["theta_sq_plus_I"] < TOL else ("+I" if d["theta_sq_minus_I"] < TOL else "?")
@@ -87,6 +91,8 @@ def main():
         swaps = d["chirality_swap_err"] < TOL
         all_preserve = all_preserve and preserves
         any_swap = any_swap or swaps
+        all_spin_inv = all_spin_inv and (d["spin_invariance_err"] < TOL)
+        all_theta_sq_definite = all_theta_sq_definite and (sq in ("+I", "-I"))
         print("\n  " + label)
         print(f"    Spin(9,5)-invariant antilinear? defect = {d['spin_invariance_err']:.1e} "
               f"[{'YES' if d['spin_invariance_err'] < TOL else 'no'}]")
@@ -104,6 +110,13 @@ def main():
     print("     block-diagonally). Whether ANY invariant swap exists is settled in")
     print("     R5_chiral_tie_nogo.py (answer: none, linear or antilinear).")
     print("=" * 90)
+    # falsifiability coupling: the read-off above and the exit code are driven by
+    # the SAME booleans.
+    if not (all_preserve and not any_swap and all_spin_inv and all_theta_sq_definite):
+        print("  [FAIL] probe claims violated: all_preserve=%s any_swap=%s "
+              "all_spin_inv=%s theta_sq_definite=%s"
+              % (all_preserve, any_swap, all_spin_inv, all_theta_sq_definite))
+        raise SystemExit(1)
     return {"all_preserve_chirality": all_preserve, "any_swap": any_swap}
 
 

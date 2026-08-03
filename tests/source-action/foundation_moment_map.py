@@ -352,6 +352,39 @@ def main():
     print(f"  ==> the Seiberg-Witten route is NOT obstructed at step 1.")
     print("=" * 90)
     rep["mu_exists"] = bool(exists)
+
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("su(2)_+ closes on {J}", su2_res < 1e-9)
+    check("J preserves ker(Gamma)", pres < 1e-9)
+    check("K-invariance: J[k] is K-anti-self-adjoint", Kskew < 1e-9)
+    check("dim ker(Gamma) = 1664", W.shape[1] == 1664)
+    check("carrier SU(2)_+ content = {j=0: 640, j=1/2: 416, j=1: 64} irreps",
+          irrep_mult == {0.0: 640, 0.5: 416, 1.0: 64})
+    check("ad-Casimir eigenvalues all = 8 (irreducible adjoint j=1)",
+          max(abs(x - 8.0) for x in rep["ad_casimir_eig"]) < 1e-6)
+    check("mu_K VANISHES on j=0 singlets", rep["mu_K_median_norm_j0.0"] < 1e-9)
+    check("mu_K nonzero on j=1/2 sector", rep["mu_K_median_norm_j0.5"] > 1e-6)
+    check("mu_K nonzero on the j=1 triplet (carrier of the 16)",
+          rep["mu_K_median_norm_j1.0"] > 1e-6)
+    check("lift hatmu lies in span{J} = su(2)_+", resid_in_su2 < 1e-9)
+    check("infinitesimal equivariance (Krein AND Hermitian)", dK < 1e-9 and dH < 1e-9)
+    check("finite-rotation intertwiner on the j=1 triplet", fin_def < 1e-9)
+    check("Krein reality: mu_K real-valued", max_re < 1e-9)
+    check("J_q intertwines Clifford and J_q^2 = -1 (M(64,H))",
+          intert < 1e-9 and abs(Jq2 + 1.0) < 1e-6)
+    check("mu_K descends to the quaternionic module", qdef < 1e-7)
+    check("VERDICT: mu EXISTS (all gate conditions)", exists)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- all computed facts back the foundation-gate verdict.")
     return rep
 
 

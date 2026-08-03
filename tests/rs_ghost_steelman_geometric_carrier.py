@@ -267,6 +267,48 @@ def run():
     print(f"  one-term sigma_c does NOT close s^2 ({s2:.1f}); equivariant complex cannot resolve C2 "
           f"({C2_onH:.2f}).")
     print(f"  => the missing non-equivariant datum is the Dirac-bracket/propagator only S_IG supplies.")
+
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 78)
+    print("CERTIFICATE CHECKS")
+    print("=" * 78)
+    check("anchor ||Gamma d_A|| = 80.61 (repo)", abs(naive_escape - 80.6136) < 1e-2)
+    check("anchor ||[Pi_RS,M_D]|| = 58.7215 (repo)", abs(comm_PiMD - 58.7215) < 1e-2)
+    check("anchor ||(I-Pi)M_D Pi_RS|| = 41.5224 (repo)", abs(esc_op - 41.5224) < 1e-2)
+    check("anchor gauge escape = 169.1942 (repo)", abs(esc_gauge - 169.1942) < 1e-2)
+    check("equivariant constraint line nilpotent (||Gamma.D|| ~ 0)", GammaD < 1e-6)
+    check("C2 = 155.36 (repo) and GENUINELY INDEPENDENT of Gamma",
+          abs(nC2 - 155.36) < 1e-1 and resid_C2 > 1e-6)
+    check("carrier P_+ idempotent", Pdef < 1e-9)
+    check("carrier breaks Spin(9,5) along e_0 (defect > 0, stab defect ~ 0)",
+          carrier_defect > 1e-6 and carrier_defect_stab < 1e-6)
+    check("resolver unique: rank(Gamma.M_D.D) = 128", rank_GMD == dim)
+    check("escape s-exact IN PRINCIPLE (free resolver residual ~ 0)",
+          resid_free < 1e-6)
+    check("section supplies only ~0.707 of the resolver (misses the rest)",
+          abs(frac_in_section - 0.707) < 1e-2 and resid_sec > 1e-6)
+    check("one-term sigma_c does NOT close nilpotency (||s^2|| > 0)", s2 > 1e-6)
+    check("ANTI-TRAP: bare [Pi_RS,M_D] unchanged (RS coupled, VZ evaded)",
+          abs(comm_after - comm_PiMD) < 1e-9 and comm_after > 1e-6)
+    check("disqualified trap decouples ([Pi_RS,M_D+X_trap] ~ 0, escape ~ 0)",
+          trap_comm < 1e-6 and trap_escape < 1e-6)
+    check("sigma_c genuinely NON-equivariant (defect > 0)", equiv_defect > 1e-6)
+    check("sigma_c H-linear (residual ~ 0)", Hlin_defect < 1e-6)
+    check("equivariant complex cannot resolve C2 (cohomology part > 0)",
+          C2_onH > 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- SHARPER_OBSTRUCTION certified (not a closure): the resolver")
+    print("         is the global inverse, the section supplies only ~0.707 of it, and the")
+    print("         one-term sigma_c does not close s^2; all certificate checks PASS.")
     return results
 
 

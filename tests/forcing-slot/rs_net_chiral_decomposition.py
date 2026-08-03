@@ -78,11 +78,18 @@ def main():
     print(f"  Tr(g5i) = {np.trace(g5i).real:.1f} (expect 0)")
     print(f"  Tr(g5i^2) = {np.trace(g5i @ g5i).real:.1f} (expect 128 = DIM)")
     print(f"  Tr(g5i.P16) = {tr_g5i_P16:.1f}  (analytic (0+128)/2 = 64)")
+    assert abs(np.trace(g5i).real) < 1e-9, f"Tr(g5i) = {np.trace(g5i).real}, expected 0"
+    assert abs(np.trace(g5i @ g5i).real - 128.0) < 1e-9, \
+        f"Tr(g5i^2) = {np.trace(g5i@g5i).real}, expected 128"
+    assert abs(tr_g5i_P16 - 64.0) < 1e-9, f"Tr(g5i.P16) = {tr_g5i_P16}, expected 64"
     print(f"  |BASE| = {len(BASE)} base spacetime directions (= dim TX^4, NOT an assumed rank)")
     net = len(BASE) * tr_g5i_P16
     print(f"  => net-chiral integer = |BASE| * Tr(g5i.P16) = {len(BASE)} * {tr_g5i_P16:.0f} = {net:.0f}")
     t3, t2 = three_and_two_part(net)
     print(f"  primefac({int(net)}) = {primefac(net)} ; 3-part = {t3} ; 2-part = {t2}")
+    assert int(round(net)) == 256 and primefac(net) == "2^8", \
+        f"net-chiral integer = {net} ({primefac(net)}), expected 256 = 2^8"
+    assert t3 == 1 and t2 == 256, f"3-part={t3}, 2-part={t2}, expected 1 and 256"
 
     print("\n" + "=" * 88)
     print("Does ANY twist make the RS net-chiral integer 3-primary? sweep chirality gradings/twists")
@@ -114,6 +121,7 @@ def main():
             row.append(f"{gname}={iv:+d}[3p {t3},2p {t2}]")
         print(f"  twist {tname:<20}: " + "  ".join(row))
     print(f"\n  ANY net-chiral integer with a factor of 3 anywhere in the sweep? {any3}")
+    assert not any3, "sweep found a net-chiral integer with a factor of 3, contradicting the claim"
 
     print("\n" + "=" * 88)
     print("FOUR FABRICATION CHECKS on the +256")
@@ -128,6 +136,9 @@ def main():
           f"structural count, not an assumed-then-found rank.")
     print(f"  (4) fitted holonomy: NO holonomy used; O_RS_tw is built from raw Cl(9,5) gammas + the "
           f"Spin(10) chiral projector only.")
+    # gated on every assert above: reaching this line means all recomputed claims held.
+    print("\nVERDICT: PASS -- net-chiral integer 256 = 4*64 forward-derived; no factor of 3 "
+          "under any twist/grading in the sweep (exit 0)")
     return {"net_chiral_integer": int(net), "primefac": primefac(net),
             "three_part": t3, "two_part": t2, "any_3_in_sweep": any3}
 

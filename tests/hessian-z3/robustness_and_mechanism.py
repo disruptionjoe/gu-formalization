@@ -110,6 +110,28 @@ def main():
     # honesty guard: each half must actually move (else the cancellation is vacuous)
     each_half_moves = abs(shift_pos) > 1e-6 and abs(shift_neg) > 1e-6
     print(f"\n  each half actually moves (cancellation non-vacuous): {each_half_moves}")
+
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("carrier signature (+96,-96), trace(B) ~ 0",
+          int(Ppos.sum()) == 96 and int(Pneg.sum()) == 96 and abs(np.trace(B).real) < 1e-9)
+    check("(1) ROBUST discrimination: max|couple slope| < 1e-10 < min|generic slope|",
+          discrimination)
+    check("(2) MECHANISM as claimed: each half actually moves (|shift| > 1e-6 on both halves)",
+          each_half_moves)
+    check("(2) MECHANISM as claimed: halves cancel EQUAL-AND-OPPOSITE "
+          "(|pos+neg|/(|pos|+|neg|) < 1e-3)",
+          abs(shift_pos + shift_neg) / (abs(shift_pos) + abs(shift_neg) + 1e-30) < 1e-3)
+    if FAILURES:
+        print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- discrimination robust across seeds and the equal-and-opposite")
+    print("half-shift mechanism verified (each half genuinely moves).")
     return dict(discrimination=discrimination, couple_max=max(couple_slopes),
                 generic_min=min(generic_slopes), shift_pos=shift_pos, shift_neg=shift_neg,
                 net=shift_pos + shift_neg, each_half_moves=each_half_moves)

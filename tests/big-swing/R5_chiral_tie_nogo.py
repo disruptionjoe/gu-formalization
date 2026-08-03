@@ -151,6 +151,13 @@ def main():
           f"(antilinear >=1 = the quaternionic J)")
 
     no_swap = (swap_lin == 0 and swap_alin == 0)
+    # instrument controls: a broken Gram/eigsh pipeline would report dim 0 everywhere
+    # and fake a KILL. The identity map (linear) and the quaternionic J (antilinear)
+    # MUST be found on the S+ -> S+ diagonal.
+    assert same_lin >= 1, \
+        f"control failed: Hom_lin(S+,S+) = {same_lin} but must contain the identity (>=1)"
+    assert same_alin >= 1, \
+        f"control failed: Hom_alin(S+,S+) = {same_alin} but must contain the quaternionic J (>=1)"
     print("\n" + "=" * 92)
     print("VERDICT")
     print("=" * 92)
@@ -168,6 +175,10 @@ def main():
     else:
         print(f"  LIVE: an invariant chiral swap EXISTS (linear {swap_lin}, antilinear {swap_alin}).")
         print("  Build it and compute the sign eps it forces on c_(-+)=eps c_(+-) -> potential transport.")
+        # falsifiability coupling: this certificate records the KILL. If the
+        # computation finds a swap, the recorded verdict is refuted -> nonzero exit.
+        print("=" * 92)
+        raise SystemExit(1)
     print("=" * 92)
     return {"results": results, "no_invariant_swap": no_swap}
 

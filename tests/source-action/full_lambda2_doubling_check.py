@@ -149,3 +149,26 @@ print(f"  => the doubled coupling |F_A^- - mu^-(Psi)|^2 is separately gauge-inva
 print(f"     OWN Noether-II closure D_A^* THETA^- = 0. The full-Lambda^2 doubling is substrate-legitimate;")
 print(f"     it resolves the G4 refutation WITHOUT a hand-imposed self-dual projector on Psi.")
 print("=" * 80)
+
+# ---- falsifiability: hard checks on the computed facts behind the verdict ----
+FAILURES = []
+
+def check(label, cond):
+    print(f"  [{'PASS' if cond else 'FAIL'}] {label}")
+    if not cond:
+        FAILURES.append(label)
+
+check("[D1] su(2)_- closes on {Jm}", clo < 1e-9)
+check("[D1] f^-_012 = 2 (su(2) structure constant)", abs(fm[0, 1, 2].real - 2.0) < 1e-6)
+check("[D2] Jm K-anti-self-adjoint (=> mu^- real)", g1m < 1e-9)
+check("[D3] mu^- exactly su(2)_--equivariant (Noether heart)", g3m < 1e-9)
+check("[D3] mu^- reality: max|Im mu^-| ~ 0", max_im < 1e-9)
+check("[D4] mu^- image rank = 3 (onto su(2)_-)", rank == 3)
+check("[D4] mu^- nonzero (mean norm > 0)", float(np.mean(np.linalg.norm(S, axis=1))) > 1e-6)
+check("[D5] carrier Casimir_- = 3, j_- = 1/2 ((1,1/2) Spin(4) irrep)",
+      abs(casm - 3.0) < 1e-6 and abs(jminus - 0.5) < 1e-3)
+check("VERDICT: mu^- is a genuine Krein-real su(2)_--equivariant moment map", ok)
+if FAILURES:
+    print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+    raise SystemExit(1)
+print("\nCERTIFICATE: GREEN -- the full-Lambda^2 doubling facts hold as printed.")

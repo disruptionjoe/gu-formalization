@@ -55,8 +55,13 @@ oi2=(np.trace(oi@oi)/DIM).real
 W10=Wt.conj().T@np.kron(I14, oi if oi2>0 else (-1j)*oi)@Wt; W10=0.5*(W10+W10.conj().T)
 Ggen=[Wt.conj().T@gen(i,j)@Wt for i in range(4,14) for j in range(i+1,14)]
 gcom=max(np.linalg.norm(comm(W10,g)) for g in Ggen)
-print(f"Spin(10) chirality on triplet: W10^2=I? {np.linalg.norm(W10@W10-np.eye(192)):.1e}; "
-      f"[W10,Spin(10)]={gcom:.1e}; [W10,C]={np.linalg.norm(comm(W10,C)):.1e}")
+w10sq=np.linalg.norm(W10@W10-np.eye(192)); w10c=np.linalg.norm(comm(W10,C))
+print(f"Spin(10) chirality on triplet: W10^2=I? {w10sq:.1e}; "
+      f"[W10,Spin(10)]={gcom:.1e}; [W10,C]={w10c:.1e}")
+assert Wt.shape[1]==192, f"triplet dim {Wt.shape[1]}, expected 192"
+assert w10sq<1e-9, f"W10^2 != I: dev {w10sq}"
+assert gcom<1e-9, f"[W10,Spin(10)] = {gcom}, expected 0 (equivariant)"
+assert w10c<1e-9, f"[W10,C] = {w10c}, expected 0"
 # joint spectrum of (C, W10): four sectors
 cev,cU=np.linalg.eigh(C)
 from collections import Counter
@@ -69,3 +74,8 @@ print(f"joint (C, Spin10-chir) sector dims: C+/16={sect[(1,1)]}, C+/16bar={sect[
       f"C-/16={sect[(-1,1)]}, C-/16bar={sect[(-1,-1)]}")
 mixed = sect[(1,1)]>0 and sect[(1,-1)]>0 and sect[(-1,1)]>0 and sect[(-1,-1)]>0
 print(f"=> {'MIXED: each C-eigenspace has both 16 and 16bar -> grading-odd Spin(10)-equivariant maps EXIST (candidate KR Z2)' if mixed else 'PERFECT CORRELATION -> no grading-odd equivariant map -> KR collapses to even 0 (KILL)'}")
+# the verdict just printed is driven by `mixed`; assert the stated PERFECT-CORRELATION conclusion
+# and the exact computed sector dims that back it (C=+1 entirely 16bar, C=-1 entirely 16).
+assert (sect[(1,1)],sect[(1,-1)],sect[(-1,1)],sect[(-1,-1)])==(0,96,96,0), \
+    f"joint sector dims {dict(sect)}, expected C+/16=0, C+/16bar=96, C-/16=96, C-/16bar=0"
+assert not mixed, "stated conclusion is PERFECT CORRELATION (kill); computed sectors are MIXED"

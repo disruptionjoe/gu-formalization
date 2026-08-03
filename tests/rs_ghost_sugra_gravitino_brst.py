@@ -268,6 +268,43 @@ def main():
     print(f"    carrier (the gravitino's curvature/holonomy W) is required, and the symbol rep (xi alone)")
     print(f"    does NOT contain it -- that is the precise datum the SOURCE ACTION must supply.")
     print("=" * 84)
+
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 84)
+    print("CERTIFICATE CHECKS")
+    print("=" * 84)
+    check("[T0] anchors reproduce repo (Esc 41.5224, [Pi,M_D] 58.7215)",
+          abs(fro(Esc) - 41.5224) < 1e-2 and abs(comm_PiMD - 58.7215) < 1e-2)
+    check("[T1] bare gauge fails s^2=0: Gamma.g = c(xi), ||c(xi)|| = 80.6136",
+          abs(fro(Gg) - 80.6136) < 1e-2 and fro(Gg - cxi) < 1e-9)
+    check("[T2] escape IS bare-gauge-exact (rank 128, residual ~ 0)",
+          rk_PPg == dim and resid_bare < 1e-6)
+    check("[T3] gravitino sigma_c RESTORES s^2=0 (solve + nilpotency ~ 0)",
+          resid_solve < 1e-6 and nilp < 1e-6)
+    check("[T4] nilpotency puts orbit ON-surface; escape NO LONGER trivializable",
+          fro(PPGt) < 1e-6 and resid_t > 1e-6)
+    check("[T4] on-surface residual equals the full escape (nothing absorbed)",
+          abs(resid_t - fro(Esc)) < 1e-6)
+    check("[T4b] escape CO-EXACT via antighost b-leg (residual ~ 0, gap = ||Esc||)",
+          coexact_resid < 1e-6 and abs(gap - fro(Esc)) < 1e-6)
+    check("[T5] so(9,5) action correct; M_D and g xi-NATURAL (co-rotating defects ~ 0)",
+          equiv_Gamma < 1e-6 and MD_defect_corot < 1e-6 and g_defect_corot < 1e-6)
+    check("[T5] sigma_c genuinely NON-equivariant (defect > 0)", sigma_defect > 1e-6)
+    check("[T6] H-linearity exact (J^2=-I, sigma_c and Pi_RS H-linear)",
+          Jsq < 1e-9 and Jcomm < 1e-9 and Hlin_sigma < 1e-6 and Hlin_PiRS < 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- SHARP OBSTRUCTION certified: sigma_c restores s^2=0 but the")
+    print(f"         on-surface ghost orbit leaves the full escape ({resid_t:.4f}) untouched;")
+    print("         the escape is only co-exact (antighost leg); all certificate checks PASS.")
     return report
 
 

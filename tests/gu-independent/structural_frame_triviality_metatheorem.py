@@ -172,6 +172,13 @@ def main():
     sig = np.linalg.eigvalsh(m.Gc)
     print(f"[carrier] net chirality Tr(Gamma|carrier) = {netC:+.2e} ; chiral split "
           f"(+{int((sig>0.5).sum())}, -{int((sig<-0.5).sum())})  => VECTORLIKE")
+    assert m.Wt.shape[1] == 192, f"carrier dim {m.Wt.shape[1]} != 192"
+    assert abs(netC) < 1e-9, f"carrier net chirality {netC} != 0"
+    assert int((sig > 0.5).sum()) == 96 and int((sig < -0.5).sum()) == 96, "carrier not split 96/96"
+    # hard checks on the carrier facts the docstring claims (192-dim, vectorlike +96/-96)
+    assert m.Wt.shape[1] == 192, f"carrier dim {m.Wt.shape[1]} != 192"
+    assert abs(netC) < 1e-6, f"carrier net chirality {netC} != 0 (not vectorlike)"
+    assert (int((sig > 0.5).sum()), int((sig < -0.5).sum())) == (96, 96), "chiral split != (+96,-96)"
 
     # building blocks
     gam_vol = chir(range(N))
@@ -321,10 +328,28 @@ def main():
     print("\n" + "=" * 96)
     print("VERDICT")
     print("=" * 96)
-    structural = (best_escape is None and max_count_no_trivial < 1e-6)
+    structural = (best_escape is None and max_count_no_trivial < 1e-6
+                  and not escape_hits)
     print(f"  Any frame-non-trivial operation whose net count survives removing its frame-trivial chiral part?")
     print(f"     -> {'NO (none found across catalog + 4000 random)' if structural else 'YES -- ESCAPE FOUND'}")
     print(f"  Reading: {'STRUCTURAL no-go -- every net-chiral count is sourced by the frame-trivial fiber' if structural else 'EVADABLE -- a frame-sourced count exists'}")
+    # -- certificate coupling: this run's computed conclusion is the EVADABLE branch (the random
+    #    search DOES find a frame-sourced count: |count| = 32 with frame-trivial-part count == 0).
+    #    Pin that conclusion and its backing facts; the printed verdict above and the exit code
+    #    below are driven by the same booleans, so they cannot diverge.
+    assert n_both_nonzero > 0, "search vacuous: no selector ever had fc>0 AND count!=0"
+    if best_escape is not None:
+        _it, _fc, _cnt, _cnt_t = best_escape
+        assert _fc > 1e-6 and abs(_cnt) > 1e-6 and abs(_cnt_t) < 1e-6, \
+            f"recorded escape {best_escape} violates its own criterion"
+    if structural:
+        print("\nVERDICT: RED -- pinned conclusion violated: this certificate's recorded result is")
+        print("EVADABLE (a frame-sourced count exists, |count|=32 with zero frame-trivial part);")
+        print("the search now found none. Re-examine before accepting either branch.")
+        raise SystemExit(1)
+    print(f"\nVERDICT: ESCAPE-FOUND (exit 0 = certificate self-consistent): frame-sourced count "
+          f"{max_count_no_trivial:.3f} with zero frame-trivial contribution; by this probe's "
+          f"criterion the frame-triviality no-go is EVADED.")
     return {
         "carrier_dim": int(m.Wt.shape[1]),
         "carrier_net_chirality": netC,

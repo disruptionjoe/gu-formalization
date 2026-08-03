@@ -45,6 +45,15 @@ def ckm_from_yukawas(Yu, Yd):
 print("(1) KM physical CP-phase count (computed):")
 for n in range(1,6):
     print(f"    n={n}:  phases = {physical_cp_phases(n)}   ((n-1)(n-2)/2 = {(n-1)*(n-2)//2})")
+# hard checks: the parameter count equals the closed form, and n=3 is the
+# smallest n with a nonzero physical phase
+for n in range(1,6):
+    assert physical_cp_phases(n) == (n-1)*(n-2)//2, \
+        f"n={n}: counted {physical_cp_phases(n)} != (n-1)(n-2)/2 = {(n-1)*(n-2)//2}"
+assert physical_cp_phases(1) == 0 and physical_cp_phases(2) == 0, \
+    "n<3 should carry zero physical phases"
+assert physical_cp_phases(3) == 1, \
+    f"n=3 should carry exactly 1 physical phase, got {physical_cp_phases(3)}"
 print("    => smallest n with a physical phase is n=3. n>=3 is a CARDINAL inequality,")
 print("       pure U(n) counting, ZERO odd-prime/torsion content (not a Z/3 object).")
 
@@ -66,6 +75,12 @@ J_real = jarlskog(V_r)
 print("\n(2) Does a reality/antilinear-real structure SUPPLY or REMOVE the CP phase?")
 print(f"    generic complex Yukawas:  |Jarlskog| = {abs(J_generic):.4e}  (CP VIOLATED)")
 print(f"    real (reality-structured): |Jarlskog| = {abs(J_real):.4e}  (CP CONSERVED)")
+# hard checks: the generic complex pair really violates CP; the reality-structured
+# pair really conserves it (Jarlskog invariant vanishes)
+assert abs(J_generic) > 1e-6, \
+    f"generic complex Yukawas gave |J| = {abs(J_generic):.4e}, not CP-violating"
+assert abs(J_real) < 1e-12, \
+    f"real Yukawas gave |J| = {abs(J_real):.4e}, CP phase NOT removed"
 print("    => imposing a reality structure DRIVES the physical phase to ~0.")
 print("       A forced antilinear REALITY structure (GU's quaternionic Kramers wall,")
 print("       C^2=-I, giving the VECTORLIKE +96/-96 net-0 sector) is the ingredient")

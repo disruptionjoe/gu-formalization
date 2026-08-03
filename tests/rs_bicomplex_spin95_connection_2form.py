@@ -438,6 +438,53 @@ def main():
           f"(survives: {resid_C2_dressed > 1e-6})")
     print(f"  total dressed-obstruction evals = {n_eval[0]} ; wall {time.time()-t0:.1f}s")
 
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 80)
+    print("CERTIFICATE CHECKS")
+    print("=" * 80)
+    check("anchors reproduce repo (58.7215 / 41.5224 / 169.1942 / 80.6136)",
+          abs(bare_comm - 58.7215) < 1e-2 and abs(escape_op - 41.5224) < 1e-2
+          and abs(escape_gauge - 169.1942) < 1e-2 and abs(gamma_gauge - 80.6136) < 1e-2)
+    check("a-priori connection floor does NOT reach 0 (and floors below bare)",
+          apriori_floor > 1e-6 and apriori_floor < bare_comm)
+    check("fixed-solve probe consistent (solved floor <= a-priori floor, not 0)",
+          solved_floor <= apriori_floor + 1e-9 and solved_floor > 1e-6)
+    check("Noether identity B_W A_W = 0 (projected gauge orbit in surface)",
+          noether < 1e-6)
+    check("FULL BV bicomplex closes: s_KT^2, s_long^2, {s_KT,s_long}, s^2 all ~ 0",
+          sKT2 < 1e-6 and slong2 < 1e-6 and anti < 1e-6 and s2 < 1e-6)
+    check("leg ranks nonvacuous (rank M_KT > 0, rank A_W > 0)",
+          rank_MKT > 0 and rank_AW > 0)
+    check("NON-VACUITY control: raw gauge BREAKS closure (s_raw^2 > 0)",
+          noether_raw > 1e-6 and s2_raw > 1e-6)
+    check("escape KT-exact (structural) but NOT ghost-exact",
+          escape_not_KT < 1e-6 and escape_not_ghost > 1e-6)
+    check("ANTI-TRAP: bare [Pi_RS,M_D] unchanged = 58.7215 (RS coupled)",
+          abs(bare_after - bare_comm) < 1e-9 and abs(bare_after - 58.7215) < 1e-2)
+    check("excluded trap zeroes the escape block (ker becomes invariant)",
+          fro(Pi_perp @ (M_D + sigma_trap) @ Pi_RS) < 1e-6)
+    check("carrier genuine: xi-independent, inhomogeneous, non-equivariant, H-linear",
+          xi_dep < 1e-12 and pure_gauge_conn > 1e-6 and max_def > 1e-6
+          and max(h_sig, h_Pi) < 1e-7)
+    check("C2 = 155.36 bare and SURVIVES the dressing (residuals > 0)",
+          abs(nC2_bare - 155.36) < 1e-2 and resid_C2_bare > 1e-6
+          and resid_C2_dressed > 1e-6)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- certified: a-priori connection floor "
+          f"{apriori_floor:.4f} (below 32.80: {apriori_floor < 32.80}), fixed-solve "
+          f"{solved_floor:.4f},")
+    print("         full BV bicomplex closes via the Noether identity (raw control breaks),")
+    print("         escape KT-exact only, anti-trap intact, C2 survives; all checks PASS.")
+
     return {
         "apriori_floor": apriori_floor,
         "solved_floor": solved_floor,

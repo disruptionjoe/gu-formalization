@@ -37,4 +37,10 @@ for p in [9,7,10,8,11,5,12,14,13]:
     cls={0:'R',2:'R',4:'H',6:'H'}.get((p-q)%8,'C/other')
     j=Jsq(e,eta)
     print(f"({p},{q})    {(p-q)%8:<6} {cls:6} {r:<9} {ker:<6} {str(sorted(fac(ker))):12} {str(3 in fac(ker)):9} {j:+.2f}")
+    assert r==128, f"({p},{q}): rank(Gamma)={r}, expected 128 (surjective)"
+    assert ker==1664 and fac(ker)=={2:7,13:1}, f"({p},{q}): ker={ker} primes {fac(ker)}, expected 1664=2^7*13"
+    assert 3 not in fac(ker), f"({p},{q}): prime 3 in ker(Gamma) factorization"
+    assert cls in ('R','H'), f"({p},{q}): unexpected class {cls}"
+    assert (j>0.9 if cls=='R' else j<-0.9), f"({p},{q}): J^2={j:+.2f} inconsistent with class {cls}"
+# the claim line below is gated on the per-signature asserts above (any failure exits nonzero first)
 print("\nker(Gamma) = 14*128 - rank(Gamma); rank=128 (Gamma surjective, each gamma invertible) => ker=13*128=1664=2^7*13 for ALL signatures. Prime 3 absent universally (structural).")

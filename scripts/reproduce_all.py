@@ -7,7 +7,8 @@ tests/README.md). Each certificate remains directly runnable, and this harness i
 runner for sweeping them in one step. It discovers every such certificate, runs each in a fresh
 subprocess with a timeout, and prints a PASS/FAIL/TIMEOUT/ERROR summary table with totals. It
 exits nonzero iff any certificate did not pass, so a green run == every computational claim
-re-derived from scratch on your machine.
+re-derived from scratch on your machine. Shared library modules (LIBRARY_MODULES below) are
+engines imported by other certificates, not certificates, and are excluded from discovery.
 
 It changes NOTHING: it only imports the standard library and shells out to `python <cert>.py`.
 
@@ -46,6 +47,30 @@ PAPER_CERT_DIRS = [
 
 # Path fragments that mark a directory as non-certificate scratch/cache; never run these.
 SKIP_DIR_FRAGMENTS = ("__pycache__", ".cache", ".pytest_cache", ".git", "hourly-cycles")
+
+# Library modules: shared engines imported by other certificates (named seeds plus every
+# tests module imported by >= 3 other tracked tests modules). They are NOT certificates —
+# running them top-level executes none of their importers' checks — so counting them as
+# passing certs inflates the sweep (audit A8: gen_sector_bridge.py, imported by >100 certs,
+# was counted as a pass while its docstring anchors never executed). Excluded from
+# discovery here; process_gates/certificate_shape_audit.py keeps this list honest against
+# the programmatically detected import graph.
+LIBRARY_MODULES = frozenset({
+    "tests/ahat_genus_y14_i16.py",
+    "tests/channel-swings/actual_sym2_c14_orbit_probe.py",
+    "tests/channel-swings/unified_source_datum_packet_v0_probe.py",
+    "tests/channel-swings/uniformity_execution_probe.py",
+    "tests/channel-swings/w177_ym_residual_and_mode_closure_probe.py",
+    "tests/generation-sector/gen_sector_bridge.py",
+    "tests/hessian-z3/criticality_torsion_lambda_epsilon.py",
+    "tests/oq_rk1_cl95_explicit_rep.py",
+    "tests/rs_bicomplex_gimmel_curvature_physical_nullplane.py",
+    "tests/rs_clifford_projector_model.py",
+    "tests/shiab_b5_krein_mirror_orbit_reduction.py",
+    "tests/shiab_b5_native_packet_contract.py",
+    "tests/shiab_b5_observer_symbol_multiplicity_matrix.py",
+    "tests/shiab_family_basis.py",
+})
 
 # Statuses
 PASS, FAIL, TIMEOUT, ERROR = "PASS", "FAIL", "TIMEOUT", "ERROR"
@@ -104,6 +129,9 @@ def discover(roots, tracked_only=False):
     if tracked_only:
         tracked = tracked_certificate_files(roots)
         found = [path for path in found if os.path.abspath(path) in tracked]
+
+    # library modules are engines for other certs, not certs themselves — never count them
+    found = [path for path in found if repo_rel(path) not in LIBRARY_MODULES]
 
     # de-dupe (roots can overlap) and sort for a stable, reviewable order
     return sorted(set(found))

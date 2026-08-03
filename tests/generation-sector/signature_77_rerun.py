@@ -20,6 +20,7 @@ e=[G[a] if eta[a]>0 else 1j*G[a] for a in range(N)]
 # verify Clifford {e_a,e_b}=2 eta_ab
 err=max(np.linalg.norm(e[a]@e[b]+e[b]@e[a]-(2*eta[a] if a==b else 0)*np.eye(DIM)) for a in range(N) for b in range(N))
 print(f"(7,7) Clifford relations max err = {err:.1e}")
+assert err<1e-9, f"(7,7) Clifford relations fail: max err {err}"
 Gamma=np.hstack(e); Pi=np.eye(N*DIM,dtype=complex)-Gamma.conj().T@np.linalg.inv(Gamma@Gamma.conj().T)@Gamma
 XI=np.array([1,2,3,4,0.5,1.5,2.5,0.7,1.1,0.3,2.2,1.7,0.9,1.3],dtype=complex)
 M_D=np.kron(np.eye(N),sum(XI[a]*e[a] for a in range(N))); Q=np.eye(N*DIM,dtype=complex)-Pi
@@ -33,9 +34,13 @@ def fac(n):
     return f
 dimker=int(round(np.trace(Pi).real))
 print(f"(7,7): bare={bare:.3f} C2={C2:.3f}")
+assert abs(bare-58.722)<1e-3 and abs(C2-155.363)<1e-3, \
+    f"(7,7) Clifford-norm anchors: bare={bare}, C2={C2}, expected 58.722/155.363"
 print(f"=== C-04 under (7,7): dimension spectrum ===")
+assert dimker==1664, f"ker(Gamma) dim = {dimker}, expected 1664 = 2^7*13"
 for name,v in [("spinor",128),("RS vector",14),("RS space",1792),("ker(Gamma)",dimker),("rank Gamma",int(round(np.trace(Q).real)))]:
     f=fac(v); print(f"  {name:12}={v:5}  primes={sorted(f)}  {'<-- HAS 3!' if 3 in f else ''}")
+    assert 3 not in f, f"C-04: prime 3 appears in {name}={v} (primes {sorted(f)})"
 # real structure: build J (commuting antiunitary) and check J^2 sign (real class => +1, no Kramers)
 def Phi(U):
     o=np.zeros_like(U)
@@ -46,6 +51,7 @@ for _ in range(400): U=0.5*(U+Phi(U)); U/=np.linalg.norm(U)
 Us,_,Vs=np.linalg.svd(U); U=Us@Vs
 lam=np.trace(U@U.conj())/DIM
 print(f"=== parity under (7,7): J^2 = ({lam.real:+.3f})  => {'QUATERNIONIC (wall persists)' if lam.real<0 else 'REAL (NO Kramers wall)'} ===")
+assert lam.real>0.9, f"(7,7) J^2 = {lam.real}, expected +1 (real class p-q=0 mod 8, no Kramers wall)"
 def sig(A):
     ev=np.linalg.eigvalsh(0.5*(A+A.conj().T)); tol=1e-7*np.abs(ev).max(); return int((ev>tol).sum())-int((ev<-tol).sum())
 def gd(X): return Pi@X@Pi+Q@X@Q
@@ -60,9 +66,16 @@ rng2=np.random.default_rng(3)
 algv=[sig(hm(gd(1j*sum(c*Jfull(i,j) for (c,(i,j)) in zip(rng2.standard_normal(6),[(0,1),(2,3),(4,5),(0,9),(2,11),(6,13)]))))) for _ in range(3)]
 print(f"=== C-05 under (7,7): connection indices: self-dual+single={sd}  random so(7,7)={algv} ===")
 print(f"    (under (9,5) these were all 0/even; if odd/nonzero here, the C-05 leg dissolves under (7,7))")
+assert sd==[0,0] and algv==[0,0,0], \
+    f"C-05 under (7,7): connection indices sd={sd}, algv={algv}, expected all 0 (leg survives)"
 # parity: do GU-native carriers still force even? test low-rank generic + a J-linear-equivalent
 print(f"=== parity check: can GU-native carriers give ODD index now? ===")
 w,V=np.linalg.eigh(Pi); Wk=V[:,w>0.5]
 for r in [3]:
     cols=rng2.choice(Wk.shape[1],r,replace=False); M=Wk[:,cols]@Wk[:,cols].conj().T
-    print(f"  rank-3 kernel carrier sig = {sig(hm(gd(M)))} (free, as before)")
+    sig3=sig(hm(gd(M)))
+    print(f"  rank-3 kernel carrier sig = {sig3} (free, as before)")
+    assert sig3==3, f"rank-3 kernel carrier sig = {sig3}, expected 3 (odd index free, as before)"
+# gated on every assert above: reaching this line means all recomputed claims held.
+print("(7,7) RERUN VERDICT: PASS -- anchors 58.722/155.363 reproduced, no prime 3 in the spectrum, "
+      "J^2=+1 (real class), C-05 indices all 0, rank-3 carrier free (exit 0)")

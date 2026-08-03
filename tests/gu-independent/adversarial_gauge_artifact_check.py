@@ -144,6 +144,7 @@ def main():
     Pm = gU[:, gev < -0.5]
     nplus, nminus = Pp.shape[1], Pm.shape[1]
     print(f"[carrier] +chirality dim = {nplus}, -chirality dim = {nminus} (expect 96/96)")
+    assert nplus == 96 and nminus == 96, f"carrier chirality blocks ({nplus},{nminus}) != (96,96)"
 
     def net_count_reached(M):
         """The chirality-pure sector the antilinear chiralizer C=M.K selects.
@@ -161,10 +162,12 @@ def main():
     # ---- D1 continuity ----
     print("\n--- (D1) CONTINUITY: net-SD frame charge of B = exp(theta X).C_GU as theta -> 0 ---")
     print(f"    {'theta':>8} | {'NET-SD frame charge':>20}")
+    nsd_scan = {}
     for th in (0.0, 0.05, 0.1, 0.3, 0.7, 1.2):
         F = expm(th * Xgen)
         M_B = F @ M_A
         nsd = frame_netSD(M_B, sd_gens, asd_gens)
+        nsd_scan[th] = nsd
         print(f"    {th:>8.2f} | {nsd:>20.4f}")
     print("    => net-SD is a CONTINUOUS function of theta with net-SD(0)=0 (= baseline A). A genuine")
     print("       topological p_1 is an INTEGER invariant and cannot be continuously tuned to 0. Hence")
@@ -174,12 +177,14 @@ def main():
     print("\n--- (D2) COUNT FORCED: does B reach a DIFFERENT net chiral count than A? ---")
     netA, inA = net_count_reached(M_A)
     print(f"    A = C_GU            : +chirality block C-invariant? {inA:.4f}  -> net count reached = {netA}")
+    same_all = []
     for th in (0.3, 0.7, 1.2):
         F = expm(th * Xgen)
         M_B = F @ M_A
         netB, inB = net_count_reached(M_B)
         nsd = frame_netSD(M_B, sd_gens, asd_gens)
         same = (np.isfinite(netA) and np.isfinite(netB) and abs(netA - netB) < 1e-9)
+        same_all.append(same and inB > 0.99)
         print(f"    B(theta={th})        : +block C-invariant? {inB:.4f}  -> net count = {netB}   "
               f"net-SD={nsd:+.2f}   SAME COUNT AS A? {same}")
     print("    => B forces the IDENTICAL net chiral count as A (the vectorlike half, +96) -- never a")
@@ -199,9 +204,25 @@ def main():
     print("       connected frame group. Its bundle curvature is zero, so its topological p_1 = 0.")
     print("       Gauge-conjugating C_GU by a frame rotation cannot manufacture instanton charge.")
 
+    # --- couple the printed verdict to hard checks on the computed facts ---
+    ok_d1 = (abs(nsd_scan[0.0]) < 1e-9 and abs(nsd_scan[0.05]) < 1.0
+             and max(nsd_scan.values()) > 1.0)          # charge -> 0 continuously, no integer jump
+    ok_d2 = (abs(netA - nplus) < 1e-9 and inA > 0.99 and all(same_all))
+    ok_d3 = (abs(nsd_A) < 1e-9 and nsd_F > 1.0)          # C_GU alone carries 0; F alone carries it
+    FAILURES = [nm for nm, ok in
+                (("(D1) net-SD continuously tunable to 0", ok_d1),
+                 ("(D2) identical +96 count forced as baseline A", ok_d2),
+                 ("(D3) net-SD carried by the constant frame rotation F, C_GU carries 0", ok_d3))
+                if not ok]
+    if FAILURES:
+        print("\n" + "=" * 92)
+        print(f"VERDICT: RED -- {len(FAILURES)} discriminator(s) FAILED: " + "; ".join(FAILURES))
+        print("=" * 92)
+        raise SystemExit(1)
     print("\n" + "=" * 92)
     print("VERDICT: candidate B is a GAUGE DRESSING of the frame-trivial baseline, NOT a genuine escape.")
     print("=" * 92)
+    print("  [PASS] all three discriminators (D1 continuity, D2 same count, D3 gauge-removability)")
     print("  - net-SD frame charge is continuously tunable to 0 (D1): not a topological invariant.")
     print("  - identical net chiral count forced as frame-trivial A (D2): forces nothing new, and that")
     print("    count is the vectorlike +96 half, never a pinned integer.")
@@ -210,7 +231,8 @@ def main():
     print("  level. What this DOES establish: the canon's 'net-SD frame charge' is a PROXY that a gauge")
     print("  rotation can make nonzero (canon flag #2 anticipated this). The correct invariant statement")
     print("  is topological (p_1 / the e-invariant denominator), not the pointwise frame charge.")
-    return {"continuity_to_zero": True, "same_count_as_baseline": True, "p1_carried": False}
+    return {"continuity_to_zero": ok_d1, "same_count_as_baseline": ok_d2,
+            "p1_carried": not (ok_d1 and ok_d3)}
 
 
 if __name__ == "__main__":

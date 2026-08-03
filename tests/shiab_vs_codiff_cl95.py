@@ -318,6 +318,34 @@ def main():
     print("=" * 80)
     print("MACHINE JSON:")
     print(json.dumps(report, indent=2, default=str))
+
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    print("CERTIFICATE CHECKS:")
+    check("generators traceless (Clifford-odd)", report["generator_max_trace_abs"] < 1e-9)
+    check("c(e^a) swaps chirality (diag ~0, off-diag > 0)",
+          report["c_ea_Splus_to_Splus_max"] < 1e-9 and report["c_ea_Splus_to_Sminus_max"] > 0.5)
+    check("Phi surjective onto codomain (rank_C = 1792)",
+          report["Phi_rank_C"] == 1792 and report["Phi_surjective_onto_codomain"])
+    check("Phi is chirality-ODD (swaps S)", report["Phi_is_chirality_ODD_swaps_S"])
+    check("delta_xi is chirality-EVEN (preserves S)",
+          report["delta_is_chirality_EVEN_preserves_S"])
+    check("xi representative is non-null", abs(report["xi_metric_norm2_(9,5)"]) > 1e-6)
+    check("<delta_xi, Phi>_F = 0 (machine zero)",
+          abs(report["inner_product_delta_Phi_(Frobenius)"]) < 1e-8)
+    check("best lambda = 0 (machine zero)", abs(report["best_lambda"]) < 1e-12)
+    check("residual equals full ||Phi||", report["residual_equals_full_Phi_norm"])
+    check("overlap zero for ALL sampled xi", report["overlap_zero_for_all_xi"])
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- computed facts back the DISTINCT verdict.")
     return report
 
 

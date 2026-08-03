@@ -77,3 +77,26 @@ print(f"escape frac  ratio  on/off = {esc_on/esc_off:.3f}")
 better = rms_on < rms_off and esc_on < esc_off
 print(f"SW shell REDUCES obstruction per mode? {better}")
 print("-> if ratio > 1 on both, the SW shell is strictly WORSE (B1 refuted, not just no-help).")
+
+# ---- falsifiability: hard checks on the computed facts behind the verdict ----
+FAILURES = []
+
+def check(label, cond):
+    print(f"  [{'PASS' if cond else 'FAIL'}] {label}")
+    if not cond:
+        FAILURES.append(label)
+
+check("anchor: bare ||[Pi_RS,M_D]|| = 58.7215", abs(bare - 58.7215) < 1e-3)
+check("anchor: C2 = 155.3625", abs(c2 - 155.3625) < 1e-3)
+check("anchor: C2/sqrt(N) = 41.5224 (off-shell floor)", abs(c2 / np.sqrt(N) - 41.5224) < 1e-3)
+check("self-dual J preserves ker(Gamma)", cpi < 1e-6)
+check("j=1 triplet carrier dim = 192", Wtrip.shape[1] == 192)
+check("SW shell does NOT reduce the obstruction per mode", not better)
+check("on-shell strictly WORSE: per-mode RMS ratio > 1", rms_on / rms_off > 1.0)
+check("on-shell strictly WORSE: escape-fraction ratio > 1", esc_on / esc_off > 1.0)
+check("measured on/off ratio ~ 1.44 (the critique's number)",
+      abs(rms_on / rms_off - 1.44) < 0.02)
+if FAILURES:
+    print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+    raise SystemExit(1)
+print("\nCERTIFICATE: GREEN -- B1 adjudicated: the SW shell is strictly WORSE per mode.")

@@ -161,6 +161,14 @@ def main():
     Wt, Pi, J3 = build_carrier()
     nc = Wt.shape[1]
     print(f"[carrier] dim = {nc} (expect 192); full V(x)S = {N*DIM}")
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("carrier dim = 192", nc == 192)
 
     def restrict(M):
         A = Wt.conj().T @ M @ Wt
@@ -194,6 +202,9 @@ def main():
           f"(+,+)={quad[(1,1)]} (+,-)={quad[(1,-1)]} (-,+)={quad[(-1,1)]} (-,-)={quad[(-1,-1)]}")
     net_Kpos = quad[(1, 1)] - quad[(1, -1)]
     print(f"  net chirality of Krein-positive half = (+,+)-(+,-) = {net_Kpos}  (vectorlike => 0)")
+    check("Part 0 as titled: joint quadrants are the vectorlike 48/48/48/48 base",
+          all(v == 48 for v in quad.values()))
+    check("net chirality of Krein-positive half = 0", net_Kpos == 0)
 
     # ---------------------------------------------------------------- Part 1: gradings table
     print("\n" + "-" * 96)
@@ -271,7 +282,9 @@ def main():
         return fc, net
 
     # GU control: J_quat.G = id_14 (x) (U om)  -- frame-trivial, reaches +96
-    antilin_report("GU control  id14 (x) (U om)", np.kron(I14, U @ om))
+    fc_gu, net_gu = antilin_report("GU control  id14 (x) (U om)", np.kron(I14, U @ om))
+    check("GU control chiralizer is frame-trivial and reaches net +96",
+          fc_gu < 1e-9 and abs(net_gu - 96.0) < 1e-6)
     # Non-GU A: base so(4) ROTATION (x) (U om) -- linear-frame-rotated chiralizer (frame charge > 0?)
     R01 = np.eye(N, dtype=complex); R01[0, 1] = 1.0; R01[1, 0] = -1.0  # so(4) base generator direction
     from scipy.linalg import expm
@@ -308,6 +321,7 @@ def main():
     idx_kin = 0.5 * float(np.trace(GcD @ sgn).real)
     print(f"  kinetic-only chiral index Tr(Gamma.sign(D_kin))/2 = {idx_kin:+.3f}")
     # add frame-non-trivial antilinear mass term: m * (slash-coupled antilinear)
+    mass_indices = []
     for mname, Lin in [("frame-trivial GU mass id14(x)(U om)", np.kron(I14, U @ om)),
                        ("frame-NONtrivial slash mass", Aslash),
                        ("frame-NONtrivial Rrot mass", np.kron(Rrot, U @ om))]:
@@ -319,8 +333,11 @@ def main():
         GcD2 = U2.conj().T @ Gc @ U2
         idx = 0.5 * float(np.trace(GcD2 @ sgn2).real)
         fc = frame_charge(Lin)
+        mass_indices.append(idx)
         print(f"  + {mname:<40} frame charge={fc:>9.3f}  chiral index = {idx:+.3f}  "
               f"(int {int(round(idx))}, 3-part {three_part(idx)})")
+    check("no integer count forced: kinetic + mass chiral indices all |idx| < 0.75",
+          all(abs(x) < 0.75 for x in [idx_kin] + mass_indices))
 
     # ---------------------------------------------------------------- Part 4: is the "escape" real?
     print("\n" + "-" * 96)
@@ -383,6 +400,17 @@ def main():
     print(f"     ~0 -- NO integer count forced. NO fabricated 3, NO fitted frame-non-trivial chiralizer.")
     print(f"\n  STRUCTURAL NO-GO (GU-independent): on a Clifford-RS carrier of this class, frame charge and")
     print(f"  net chiral count are NEVER simultaneously nonzero for any genuine chirality re-grading.")
+    check("Rrot 'escape' illusory: frame charge of its RE-GRADING < 1e-6", fc_regrade < 1e-6)
+    check("no genuine grading with frame charge>0 AND net!=0 simultaneously", len(both) == 0)
+    check("frame-trivial volume/internal gradings are vectorlike (fc=0, net=0)",
+          all(fc < 1e-9 and abs(net) < 1e-6
+              for (nm, fc, net, sq, al) in rows
+              if nm.startswith(("volume chir", "internal chir"))))
+    if FAILURES:
+        print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- structural no-go backed: no frame-charged net-chiral re-grading found,")
+    print("Rrot flag illusory, no integer count forced by the explicit source action.")
     return {"carrier_dim": nc, "joint_quadrants": {str(k): v for k, v in quad.items()},
             "net_Kpos": net_Kpos, "kinetic_index": round(idx_kin, 4),
             "n_operator_level_flags": len(escapes),

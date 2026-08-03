@@ -113,6 +113,8 @@ def main():
     Gamma_full = np.kron(I14, chir)
     Gc = herm(Wt.conj().T @ Gamma_full @ Wt)
     print(f"[carrier] dim {Wt.shape[1]}; net chirality {np.trace(Gc).real:+.2e} (+96/-96)")
+    assert Wt.shape[1] == 192, f"carrier dim {Wt.shape[1]} != 192"
+    assert abs(np.trace(Gc).real) < 1e-9, f"carrier net chirality {np.trace(Gc).real} != 0"
 
     P = Wt @ Wt.conj().T
     G_P = herm(P @ herm(Gamma_full) @ P)
@@ -152,6 +154,13 @@ def main():
     t3, t2 = three_two(ct0)
     print(f"\n  chiral trace value = {ct0} = {primefac(ct0)} ; 3-part = {t3} ; 2-part = {t2} "
           f"; equals 3? {abs(ct0)==3} ; contains factor 3? {ct0 % 3 == 0}")
+    for k, (fc_k, ct_k, shc_k, shct_k) in enumerate(results):
+        assert abs(fc_k - 2.0) < 1e-6, f"SD{k}: frame charge {fc_k} != 2 (escape not frame-active)"
+        assert abs(ct_k - 16.0) < 1e-6, f"SD{k}: chiral trace {ct_k} != +16"
+        assert abs(shc_k - 32.0) < 1e-6, f"SD{k}: selected-half count {shc_k} != +32"
+        assert abs(shct_k) < 1e-6, f"SD{k}: frame-trivial part count {shct_k} != 0"
+    assert ct0 == 16 and t3 == 1 and t2 == 16, \
+        f"chiral trace {ct0} is not 2-primary +16 (3-part {t3}, 2-part {t2})"
 
     # ---- antilinear version: C = Oh . K_0, C^2 ? ----
     print("\n[antilinear] C = Oh . K_0 (K_0 = entrywise conj). C^2 = Oh Oh* ; report scale/identity-likeness")
@@ -179,6 +188,15 @@ def main():
     print(f"  => frame-active escape {'DOES' if forcing else 'does NOT'} force a net-chiral selected-half count.")
     print(f"  Net: the linear chiral-TRACE orthogonality is EVADABLE (self-dual entanglement channel),")
     print(f"  but the value is 2-primary (+16 = 2^4), and the forcing-level (light chiral count) {'is also forced' if forcing else 'stays 0'}.")
+    # couple verdict to exit code: the certified conclusion is escape REAL at trace level (+16,
+    # 2-primary, NO factor 3) AND frame-active forcing of the +32 selected-half count.
+    assert dev > 0.1, f"C^2 rel dev {dev} ~ scalar: Oh would be a clean AZ antilinear after all"
+    if not forcing:
+        print("\nVERDICT: RED -- pinned conclusion violated: frame-active escape no longer forces a")
+        print("frame-sourced selected-half count (forcing bool is False).")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- escape real at LINEAR trace level (+16 = 2^4, no factor 3) and the")
+    print("frame-active Oh forces selected-half count +32 with frame-trivial part count 0.")
     return {
         "carrier_dim": int(Wt.shape[1]),
         "escape_fc": fc0,

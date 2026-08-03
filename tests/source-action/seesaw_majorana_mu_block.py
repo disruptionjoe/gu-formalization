@@ -259,6 +259,32 @@ def main():
     print("  (consistent with t1a_kinematic_chirality_kill: chirality requires symmetry-breaking dynamics).")
     print("=" * 88)
 
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("j=1 generation triplet dim = 192", d == 192)
+    check("M = c(mu) is Hermitian (defect ~0)", herm_defect < 1e-6)
+    check("[C1] PASS: M chirality-preserving with nonzero mass", c1_pass)
+    check("[C2] FAIL as stated: M is NOT one-sided (vectorlike)", not one_sided)
+    check("[C2] ||M_++|| == ||M_--|| (omega_14 vectorlike)",
+          abs(npp - nmm) < 1e-6 * max(npp, 1.0))
+    check("[C2] ||M_gen,gen|| == ||M_mir,mir|| (Krein vectorlike)",
+          abs(ngg - nmmir) < 1e-6 * max(ngg, 1.0))
+    check("[C3] M spectrum on triplet = {+|mu|:64, 0:64, -|mu|:64} ('2+1')",
+          (npos, nzero, nneg) == (64, 64, 64))
+    check("[C3] FAIL as stated: net chiral index 0 in BOTH sectors (+8 NOT generated)",
+          (not c3_pass) and kp[0] == kp[1] and ip[0] == ip[1])
+    check("[C4] FAIL as stated: NO Dirac mass couples light<->heavy", not c4_pass)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- computed facts back the half-confirmed/half-refuted verdict.")
+
     return {
         "mu": mu.tolist(), "mu_norm": float(np.linalg.norm(mu)),
         "M_herm_defect": herm_defect, "M_norm": float(np.linalg.norm(Mtr)),

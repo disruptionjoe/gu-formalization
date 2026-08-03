@@ -92,7 +92,10 @@ def trphys(op, P):
 Jsw = (kU * np.sign(kev)) @ kU.conj().T
 gauge_comm = max(np.linalg.norm(comm(Jsw, g)) for g in Ggen)   # note: nonzero in (9,5) since internal is non-compact SO(5,5)
 # the load-bearing structural fact is instead that X (a gauge charge) preserves chirality and the phys sector is 50/50
-print(f"[setup] triplet dim {Wt.shape[1]}; X charge on phys sector well-defined; [X,C]={np.linalg.norm(comm(X,C)):.1e}")
+xc_norm = np.linalg.norm(comm(X, C))
+print(f"[setup] triplet dim {Wt.shape[1]}; X charge on phys sector well-defined; [X,C]={xc_norm:.1e}")
+assert Wt.shape[1] == 192, f"[setup] triplet dim {Wt.shape[1]}, expected 192"
+assert xc_norm < 1e-9, f"[setup] [X,C] = {xc_norm}, expected 0 (gauge charge preserves chirality)"
 
 # (1) hypercharge / gauge-charge weighted index over the physical sector, across ghost parities
 print("\n[A1] gauge-charge-weighted index Tr_phys(X^k C):")
@@ -101,12 +104,17 @@ for k in (1, 2, 3):
     for V in [np.eye(Wt.shape[1])] + [expm(0.3 * (g - K @ g.conj().T @ np.linalg.inv(K))) for g in ghost_gens]:
         Kp = V @ K @ V.conj().T; e2, u2 = np.linalg.eigh(0.5 * (Kp + Kp.conj().T)); P2 = u2[:, e2 > 0]
         vals.append(trphys(np.linalg.matrix_power(X, k) @ C, P2))
-    print(f"   k={k}: max|Tr_phys(X^{k} C)| over {len(vals)} ghost parities = {max(abs(v) for v in vals):.2e}")
+    mx = max(abs(v) for v in vals)
+    print(f"   k={k}: max|Tr_phys(X^{k} C)| over {len(vals)} ghost parities = {mx:.2e}")
+    assert mx < 1e-8, f"[A1] k={k}: max|Tr_phys(X^{k} C)| = {mx}, expected 0 (weighted index vanishes)"
 
 # (2) the structural reason, stated as a check: X (gauge) commutes with C, and net chirality of phys is 0,
 #     so any gauge-charge moment is 0. Verify on the canonical phys sector.
-print(f"\n[structural] net chirality Tr_phys(C) = {trphys(C, phys):+.1e}; "
-      f"Tr_phys(X^3 C) = {trphys(np.linalg.matrix_power(X,3) @ C, phys):+.1e}  (gauge weighting cannot break 50/50)")
+netC = trphys(C, phys); netX3C = trphys(np.linalg.matrix_power(X, 3) @ C, phys)
+print(f"\n[structural] net chirality Tr_phys(C) = {netC:+.1e}; "
+      f"Tr_phys(X^3 C) = {netX3C:+.1e}  (gauge weighting cannot break 50/50)")
+assert abs(netC) < 1e-8, f"[structural] Tr_phys(C) = {netC}, expected 0 (50/50 chirality)"
+assert abs(netX3C) < 1e-8, f"[structural] Tr_phys(X^3 C) = {netX3C}, expected 0"
 
 # (3) the off-axis crack: FAMILY-twisted weight X + lambda J3_fam (J3_fam = self-dual SU(2)+, NOT gauge)
 J3fam = Wt.conj().T @ J3sd[2] @ Wt if False else J3sd_t  # already restricted

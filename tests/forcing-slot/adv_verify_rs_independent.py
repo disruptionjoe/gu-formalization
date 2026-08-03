@@ -44,9 +44,15 @@ print("(0) Sanity: gammas square correctly, chirality projector idempotent")
 print("=" * 80)
 for a in BASE:
     sq = (e[a] @ e[a] / np.eye(DIM)[0, 0])
-    print(f"   e[{a}]^2 = {np.trace(e[a]@e[a]).real/DIM:+.1f} * I (base Euclidean expect +1)")
-print(f"   P16^2 - P16 norm = {np.linalg.norm(P16@P16 - P16):.2e}  (idempotent)")
-print(f"   Tr P16 = {np.trace(P16).real:.1f}  (dim of chiral-16 sector; expect 64)")
+    tsq = np.trace(e[a] @ e[a]).real / DIM
+    print(f"   e[{a}]^2 = {tsq:+.1f} * I (base Euclidean expect +1)")
+    assert abs(tsq - 1.0) < 1e-9, f"(0) e[{a}]^2 trace/DIM = {tsq}, expected +1"
+idem = float(np.linalg.norm(P16 @ P16 - P16))
+trP16 = np.trace(P16).real
+print(f"   P16^2 - P16 norm = {idem:.2e}  (idempotent)")
+print(f"   Tr P16 = {trP16:.1f}  (dim of chiral-16 sector; expect 64)")
+assert idem < 1e-9, f"(0) P16 not idempotent: ||P16^2-P16||={idem}"
+assert abs(trP16 - 64.0) < 1e-9, f"(0) Tr P16 = {trP16}, expected 64"
 
 # -------------------------------------------------------------------------
 # THE OPERATOR TRACE +256: is it an index or a tautology?
@@ -63,9 +69,13 @@ for mu in BASE:
 G_int = np.kron(I14, g5i)
 tr = np.trace(G_int @ O_tw).real
 print(f"   Tr(g5i . O_RS_tw) = {tr:+.1f}")
+assert abs(tr - 256.0) < 1e-6, f"(1) Tr(g5i . O_RS_tw) = {tr}, expected +256"
 # Decompose: frame trace forces mu=nu, e_mu^2=+1, so = sum_mu Tr(g5i P16 P16) = 4*Tr(g5i P16)
 # Tr(g5i P16) = Tr(g5i (1+g5i)/2) = (Tr g5i + Tr I)/2 = (0+128)/2 = 64 = +dim of P16 sector.
-print(f"   Decomp: 4 * Tr(g5i P16) = 4 * {np.trace(g5i@P16).real:.0f}")
+tr_dec = np.trace(g5i @ P16).real
+print(f"   Decomp: 4 * Tr(g5i P16) = 4 * {tr_dec:.0f}")
+assert abs(tr_dec - 64.0) < 1e-9, f"(1) Tr(g5i P16) = {tr_dec}, expected 64"
+assert abs(4 * tr_dec - tr) < 1e-6, f"(1) decomposition 4*{tr_dec} != trace {tr}"
 print(f"   Tr(g5i P16) = Tr(g5i on the +sector) = (+1)*dim(+sector) = +{int(np.trace(g5i@P16).real)}")
 print("   READING: g5i restricted to the image of P16 is the IDENTITY (+1). So Tr(g5i P16)")
 print("   literally COUNTS the +chirality subspace dimension. After you sandwich by P16, the")
@@ -75,6 +85,7 @@ print("   construction. n+ = 64, n- = 0 is FORCED by the P16 sandwich, not measu
 P16bar = 0.5 * (I128 - g5i)
 leak = np.linalg.norm(P16bar @ (P16 @ (e[0]@e[1]) @ P16) @ P16bar)
 print(f"   minus-sector content of a sandwiched block ||P16bar(.)P16bar|| = {leak:.2e} (deleted)")
+assert leak < 1e-9, f"(1) minus-sector leak = {leak}, expected 0 (deleted by sandwich)"
 
 # -------------------------------------------------------------------------
 # THE LEGITIMATE physical-sector net chirality (swing_ghost_parity style)
@@ -103,6 +114,7 @@ CasK = Wk.conj().T @ Cas @ Wk; CasK = 0.5 * (CasK + CasK.conj().T)
 ev, Uu = np.linalg.eigh(CasK); top = max(round(x.real, 3) for x in ev)
 Wt = Wk @ Uu[:, np.abs(ev - top) < 1e-3]
 print(f"   triplet dim = {Wt.shape[1]}  (192 = 2^6 * 3 -- note the lurking factor 3)")
+assert Wt.shape[1] == 192, f"(2) triplet dim = {Wt.shape[1]}, expected 192"
 
 
 def phys_net(grading_full, chir_full):
@@ -121,6 +133,8 @@ for nm, Cg in [("internal", np.kron(I14, g5i)), ("base", np.kron(I14, g5b))]:
     net, npp, nmm, dd = phys_net(O_tw, Cg)
     print(f"   O_RS_tw physical-sector net chirality [{nm:>8} grading] = {net:+.1f} "
           f"sig(+{npp},-{nmm}) physdim {dd}")
+    assert abs(net) < 1e-9 and npp == 0 and nmm == 0 and dd == 0, \
+        f"(2) [{nm}] physical-sector net={net} sig(+{npp},-{nmm}) dim {dd}, expected 0/empty"
 print("   => the ONLY honest net-chirality measure gives 0 / empty sector for the RS operator.")
 print("      The construct's 'net_chiral: yes' rests entirely on the projector-tautology trace.")
 
@@ -151,6 +165,9 @@ for mu in BASE:
 for tag, O in [("O_RS untwisted", O_un), ("O_RS twisted", O_tw)]:
     sd, asd = fc(O, SD_GENS), fc(O, ASD_GENS)
     print(f"   {tag:<16}: SD={sd:.3f} ASD={asd:.3f}  net(SD-ASD)={sd-asd:+.3f}  total={sd+asd:.3f}")
+    assert abs(sd - asd) < 1e-9, f"(3) {tag}: net(SD-ASD)={sd-asd}, expected 0 (vectorlike)"
+    exp_sd = 24.0 if tag == "O_RS untwisted" else 12.0 * np.sqrt(2.0)
+    assert abs(sd - exp_sd) < 1e-9, f"(3) {tag}: SD={sd}, expected {exp_sd}"
 print("   => net self-dual = 0 (vectorlike). NO net p1 => FAILS tangential leg (a).")
 
 # -------------------------------------------------------------------------
@@ -175,5 +192,11 @@ for label,val in [("net trace +256",256),("triplet dim 192",192),("chiralizer +9
     n=abs(val); k=0; t=n
     while t%3==0: t//=3;k+=1
     print(f"   {label:<18} = {pf(val):<10} 3-part={3**k}  ==24?{n==24} %24=={n%24==0}")
+assert int(round(tr)) == 256 and int(round(tr)) % 3 != 0, \
+    f"(4) net trace {tr} should be 256 with no factor of 3"
 print("   256 has NO factor of 3. The factor-3 carriers (192, 96) are either the ambient")
 print("   sector dim or the FRAME-TRIVIAL chiralizer -- neither reaches the tangential net-chiral slot.")
+
+# verdict is gated on every assert above: reaching this line means all recomputed claims held.
+print("\nADV-RS VERDICT: PASS -- +256 confirmed a P16-sandwich tautology (4*64), honest physical-sector")
+print("net chirality 0/empty, frame coupling vectorlike (SD=ASD), no factor of 3 in the net trace (exit 0)")

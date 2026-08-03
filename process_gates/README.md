@@ -94,6 +94,7 @@ selected notes below and in each script header.
 - `pati_salam_readme_inventory_audit.py`
 - `papers_candidates_readme_inventory_audit.py`
 - `papers_readme_lifecycle_map_audit.py`
+- `post_batch2_wave1a_supersession_dependency_audit.py`
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
 - `protected_surface_diff_audit.py`

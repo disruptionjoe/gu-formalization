@@ -356,6 +356,36 @@ def main():
     print(f"     the seesaw Majorana block (discharge C: sigma_rot, chirality-preserving, non-equivariant),")
     print(f"     but that block commutes with Pi_RS => decoupled from the BRST-invariance gate.")
     print("=" * 92)
+
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("anchor: anti-trap ||[Pi_RS,M_D]|| = 58.7215 (RS stays coupled)",
+          abs(anti_trap - 58.7215) < 1e-3)
+    check("anchor: bare escape = 41.5224", abs(escape0 - 41.5224) < 1e-3)
+    check("anchor: C2 = 155.3625", abs(C2_0 - 155.3625) < 1e-3)
+    check("identity: C2 = sqrt(14) * escape (tight-frame factor)",
+          abs(C2_0 / escape0 - np.sqrt(14.0)) < 1e-9)
+    check("SW vacuum moment value v = mu(Psi0) is nonzero",
+          float(np.linalg.norm(v_real)) > 1e-6)
+    check("bare escape lives purely in the +-/-+ chirality sector",
+          blocks["++"] < 1e-9 and blocks["--"] < 1e-9
+          and blocks["+-"] > 1.0 and blocks["-+"] > 1.0)
+    check("mechanism: (I-Pi_RS) sigma_c Pi_RS = 0 for ALL SW channels",
+          max(fro(Ekk) for Ekk in Ek) < 1e-6)
+    check("min escape stays at the bare obstruction (never reduced)",
+          abs(min_escape - escape0) < 1e-6)
+    check("VERDICT: master equation does NOT close (escape never ~0)", not closes)
+    check("bare bicomplex: Noether ~0 and ||s^2|| ~0", noether < 1e-9 and s2 < 1e-9)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- computed facts back the not-closable verdict.")
     return {
         "anti_trap": anti_trap, "escape0": escape0, "C2_0": C2_0,
         "min_escape_sw": min_escape, "closes": closes,

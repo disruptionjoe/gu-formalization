@@ -63,6 +63,12 @@ def build_B(timelike={4,5,6,7,8}):
 def rq(B,v):
     v = v/np.linalg.norm(v); return float((v.conj()@B@v).real)
 
+FAILURES = []
+def check(label, ok):
+    print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+    if not ok:
+        FAILURES.append(label)
+
 B = build_B()
 ev = np.linalg.eigvalsh(B)
 print("="*80)
@@ -71,11 +77,15 @@ B2 = B@B
 print(f"  ||B^2 - I||_F = {np.linalg.norm(B2-np.eye(B.shape[0])):.3e}")
 print(f"  spectrum: unique rounded eigenvalues = {sorted(set(np.round(ev,6)))}")
 print(f"  #(+1)={int((ev>0.5).sum())}, #(-1)={int((ev<-0.5).sum())}")
+check("B is a reflection: ||B^2 - I|| < 1e-9", np.linalg.norm(B2-np.eye(B.shape[0])) < 1e-9)
+check("spectrum is {+1 x96, -1 x96}", int((ev>0.5).sum()) == 96 and int((ev<-0.5).sum()) == 96)
 
 print("\n(D) IS '0' A KERNEL OF B (real flat mode) OR A NULL DIR OF A SADDLE?")
 print(f"  dim ker(B) (|eig|<1e-9) = {int((np.abs(ev)<1e-9).sum())}  "
       f"(0 -> B NONDEGENERATE; no actual flat eigen-mode)")
 print(f"  min|eig(B)| = {np.min(np.abs(ev)):.4f}  -> B has 96 strictly + and 96 strictly - dirs (a SADDLE)")
+check("dim ker(B) = 0 (nondegenerate: no actual flat eigen-mode)", int((np.abs(ev)<1e-9).sum()) == 0)
+check("min|eig(B)| = 1 (strict saddle)", abs(np.min(np.abs(ev)) - 1.0) < 1e-6)
 
 print("\n(B) IS occupancy=0 TAUTOLOGICAL? Test on a RANDOM 192-dim Hermitian reflection")
 rng = np.random.default_rng(1)
@@ -89,6 +99,8 @@ vbal = (a+b)/np.linalg.norm(a+b)
 print(f"  random reflection (NOTHING to do with GU): balanced +/- occupancy lambda = {rq(Brand,vbal):+.3e}")
 print(f"  -> EXACTLY 0 on a random operator too: the zero is a property of indefinite forms,")
 print(f"     not of the GU substrate. 'occupancy=balanced' SELECTS a null ray by construction.")
+check("occupancy=0 is tautological: random reflection gives |lambda| < 1e-9 too",
+      abs(rq(Brand, vbal)) < 1e-9)
 
 print("\n(C) THE GATING GAP: add a mass term m*I (legitimate in any quadratic action)")
 # reuse GU B's eigenbasis to build the same occupancy direction
@@ -96,13 +108,20 @@ evb, Vb = np.linalg.eigh(B)
 up = Vb[:,evb>0].sum(1); up/=np.linalg.norm(up)
 un = Vb[:,evb<0].sum(1); un/=np.linalg.norm(un)
 occ = (up+un)/np.linalg.norm(up+un)
+mass_dev = 0.0
 for m in [0.0, 0.05, 0.2, 0.5]:
     Bm = B + m*np.eye(B.shape[0])
+    mass_dev = max(mass_dev, abs(rq(Bm, occ) - m))
     print(f"  m={m:>4}:  occupancy lambda = {rq(Bm,occ):+.4f}   "
           f"(= m -> a mass/forcing term moves it OFF 0; flatness gated on m=0)")
+check("occupancy lambda of B + m*I equals m exactly (max dev < 1e-9)", mass_dev < 1e-9)
 
 print("\n" + "="*80)
 print("SUMMARY: B^2=I confirmed; occupancy=0 is tautological for ANY indefinite form")
 print("(verified on a random reflection); '0' is a NULL DIRECTION of a NONDEGENERATE")
 print("SADDLE (ker B = 0), NOT a flat zero-eigenvalue MODE; and a diagonal mass term")
 print("moves it off 0 -> the result is gated on the action being massless on the carrier.")
+if FAILURES:
+    print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+    raise SystemExit(1)
+print("\nVERDICT: GREEN -- all adversarial re-check claims verified computationally.")

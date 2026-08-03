@@ -162,11 +162,29 @@ def main():
 
     # (E) does the FULL doubled-action quadratic structure ever pair gen<->mirror within c(F)? No.
     # The genuine Dirac gen-mirror leg must come from a Clifford-ODD operator c(e_a) (kinetic D_A), tested in verify_C.
+    ok_vectorlike = (int((ev14 > 0.5).sum()) == 96 and int((ev14 < -0.5).sum()) == 96
+                     and int((evK > 1e-9).sum()) == 96 and int((evK < -1e-9).sum()) == 96)
+    ok_cf0 = min_norm > 1e-6 and worst_chiral_imbalance == 0
+    ok_genmirror = worst_genmirror < 1e-6
+    ok_chiralizer = maxc < 1e-9 and maxc_arb < 1e-9
     print("\nSUMMARY")
-    print(f"  carrier vectorlike (both gradings +96/-96): {int((ev14>0.5).sum())==96 and int((evK>1e-9).sum())==96}")
-    print(f"  c(F_0) always nonzero + always vectorlike: {min_norm>1e-6 and worst_chiral_imbalance==0}")
-    print(f"  c(F_0) is gen-mirror DIAGONAL (NOT a Dirac mass; monopole term gives Majorana-type block): {worst_genmirror<1e-6}")
-    print(f"  chiralizer frame-trivial is STRUCTURAL (any spinor-only op): {maxc<1e-9 and maxc_arb<1e-9}")
+    print(f"  carrier vectorlike (both gradings +96/-96): {ok_vectorlike}")
+    print(f"  c(F_0) always nonzero + always vectorlike: {ok_cf0}")
+    print(f"  c(F_0) is gen-mirror DIAGONAL (NOT a Dirac mass; monopole term gives Majorana-type block): {ok_genmirror}")
+    print(f"  chiralizer frame-trivial is STRUCTURAL (any spinor-only op): {ok_chiralizer}")
+
+    # hard gates: the exit code is driven by the SAME booleans the summary
+    # prints (AssertionError => nonzero exit; no silent green).
+    assert d == 192, f"carrier dim {d} != 192"
+    assert ok_vectorlike, "carrier is not (+96,-96) in both gradings"
+    assert ok_cf0, (f"c(F_0) scan failed: min||c(F_0)||={min_norm:.4f}, "
+                    f"worst chiral imbalance={worst_chiral_imbalance}")
+    assert ok_genmirror, f"gen->mirror block of c(F_0) not ~0: {worst_genmirror:.3e}"
+    assert ok_chiralizer, (f"spinor-only commutators not 0: J_quat {maxc:.3e}, "
+                           f"arbitrary {maxc_arb:.3e}")
+    assert herm_defect_real > 1e-6, (
+        "real-F_0 control produced no anti-Hermitian defect (the caught-bug "
+        "confirmation failed)")
 
 
 if __name__ == "__main__":

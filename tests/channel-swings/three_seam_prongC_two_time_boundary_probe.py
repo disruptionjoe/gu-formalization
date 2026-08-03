@@ -39,8 +39,10 @@ Two planted controls that the method MUST reject:
   PLANT-2 "two-time always makes a distinct observable" -> rejected by Q-WASHOUT
           (the future-conditioned correction decays ~ exp(-2 kappa T)).
 
-EXIT 0 = ran deterministically (two-run-identical). The printed findings, not
-the exit code, are the result.
+EXIT 0 = ran deterministically AND every printed gate boolean (Q-SUPPORT,
+Q-DISTINCT, Q-WASHOUT, decay rate ~ -2*kappa) computed True: hard asserts
+couple the exit code to the same booleans the summary prints, so a failed
+gate raises AssertionError (nonzero exit) instead of printing a stale verdict.
 """
 from __future__ import annotations
 
@@ -144,6 +146,12 @@ PLANT1_rejected = support_hyper_bvp_illposed  # hyperbolic two-time is NOT clean
 print("  PLANT-1 ('two-time natural for any signature') rejected:",
       PLANT1_rejected)
 
+# hard gate: the summary's Q-SUPPORT line prints this same boolean
+assert Q_SUPPORT, (
+    f"Q-SUPPORT failed: margin_ell_bvp={margin_ell_bvp:.3e} "
+    f"amp_ell_ivp={amp_ell_ivp:.3e} amp_hyp_ivp={amp_hyp_ivp:.3e} "
+    f"margin_hyp_bvp={margin_hyp_bvp:.3e}")
+
 # ----------------------------------------------------------------------------
 # Q-DISTINCT + Q-WASHOUT.  Gaussian field with action 1/2 * x^T L x, precision
 # L = A2 + kappa^2 I (the natural elliptic/two-time regime).  Covariance C =
@@ -200,6 +208,11 @@ print("  Q-DISTINCT =", Q_DISTINCT,
       "(two-boundary field carries a future-conditioned correlation the")
 print("             one-boundary field forbids -- at a FINITE final boundary).")
 
+# hard gate: the summary's Q-DISTINCT line prints this same boolean
+assert Q_DISTINCT, (
+    f"Q-DISTINCT failed: gap={distinct_gap:.3e} edge_1={edge_1:.3e} "
+    f"edge_2={edge_2:.3e}")
+
 # WASHOUT: recede the final boundary; measure the gap on the SAME window.
 print("\n  wash-out as the final boundary recedes (fixed present window):")
 Tfs = np.array([1.2, 1.5, 2.0, 2.5, 3.0, 3.5, 4.0])
@@ -226,6 +239,14 @@ print("            recedes -> identical to one-boundary at infinite T_final).")
 PLANT2_rejected = Q_WASHOUT
 print("  PLANT-2 ('two-time always observably distinct') rejected:",
       PLANT2_rejected)
+
+# hard gates: the summary's Q-WASHOUT line prints this same boolean, and the
+# printed decay-rate claim (~ -2*kappa) must actually fit.
+assert Q_WASHOUT, (
+    f"Q-WASHOUT failed: gaps[0]={gaps[0]:.3e} gaps[-1]={gaps[-1]:.3e} "
+    f"slope={slope:.3f}")
+assert abs(slope + 2 * kappa_c) < 0.6, (
+    f"fitted decay slope {slope:.3f} is not ~ -2*kappa = {-2*kappa_c:.3f}")
 
 # ----------------------------------------------------------------------------
 print("\n" + "=" * 74)

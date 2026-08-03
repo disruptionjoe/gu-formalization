@@ -154,6 +154,9 @@ def main():
     print(f"  Krein (gen/mirror) split : +{Kg.shape[1]} / -{Kmir.shape[1]}")
     out["chirality_split"] = [int(Pp.shape[1]), int(Pm.shape[1])]
     out["krein_split"] = [int(Kg.shape[1]), int(Kmir.shape[1])]
+    assert d == 192, f"carrier dim {d} != 192"
+    assert (Pp.shape[1], Pm.shape[1]) == (96, 96), "chirality split != (+96,-96)"
+    assert (Kg.shape[1], Kmir.shape[1]) == (96, 96), "Krein split != (+96,-96)"
 
     # ============================================================ [1] the mass operator the action gives
     print("\n" + "-" * 94)
@@ -175,6 +178,8 @@ def main():
     print(f"  ||M_SW(F_0)|| on carrier = {np.linalg.norm(M_gen):.4f}   (NONZERO => a carrier mass is ALLOWED")
     print(f"     and the built action REALIZES it; the value scales with |F_0|, action-gated)")
     out["M_SW_norm_unit_background"] = float(np.linalg.norm(M_gen))
+    assert out["M_SW_norm_unit_background"] > 1e-6, \
+        "M_SW(F_0) vanished on the carrier: mass NOT realized by the built action"
 
     # on-shell background F_0 = mu^+(Psi) (SW Euler-Lagrange) -- the self-consistent value
     Jr = [Wt.conj().T @ Jfull[k] @ Wt for k in range(3)]
@@ -187,6 +192,8 @@ def main():
     print(f"     => the EL Majorana block; matches the source-action build's vectorlike block.")
     out["mu_norm"] = mu_norm
     out["M_SW_norm_onshell"] = float(np.linalg.norm(M_os))
+    assert mu_norm > 1e-6 and out["M_SW_norm_onshell"] > 1e-6, \
+        "on-shell moment map / EL mass block vanished"
 
     # ============================================================ [2] spectrum: the 2+1 split
     print("\n" + "-" * 94)
@@ -200,6 +207,12 @@ def main():
     print(f"  => each of the {d//3} su(2)_+ generation triplets splits {{+,0,-}} = 2 massive + 1 massless")
     print(f"     (the spin-1 Jz weight diagram). A real 2+1 MASS split -- NOT a chiral anomaly index.")
     out["spectrum_pos_zero_neg"] = [npos, nzero, nneg]
+    assert (npos, nzero, nneg) == (d // 3, d // 3, d // 3), \
+        f"spectrum counts ({npos},{nzero},{nneg}) != the claimed 2+1 split ({d//3} each)"
+    evM_expected = np.concatenate([-mu_norm * np.ones(d // 3), np.zeros(d // 3),
+                                   mu_norm * np.ones(d // 3)])
+    assert np.allclose(np.sort(evM), evM_expected, atol=1e-6 * mu_norm), \
+        "spectrum is not the claimed {+|F_0|, 0, -|F_0|} set"
 
     # ============================================================ [3] vectorlike in BOTH gradings
     print("\n" + "-" * 94)
@@ -218,6 +231,8 @@ def main():
     out["krein_gg"], out["krein_mm"], out["krein_gm_dirac"] = gg, mmK, gmK
     out["vectorlike_chirality"] = bool(vl_chir)
     out["vectorlike_krein"] = bool(vl_krein)
+    assert vl_chir, f"NOT vectorlike in chirality: ||M_++||={pp:.4f} != ||M_--||={mm:.4f}"
+    assert vl_krein, f"NOT vectorlike in Krein: ||M_gg||={gg:.4f} != ||M_mm||={mmK:.4f}"
 
     # net chiral index of the massive (im M) sector
     u, s, vt = np.linalg.svd(M_os)
@@ -229,6 +244,12 @@ def main():
     print(f"  net chiral index, light sector ker(M): (+{kp[0]},-{kp[1]}) NET = {kp[0]-kp[1]}")
     out["heavy_net_chiral"] = int(ip[0] - ip[1])
     out["light_net_chiral"] = int(kp[0] - kp[1])
+    assert out["heavy_net_chiral"] == 0, \
+        f"heavy sector net chiral index {out['heavy_net_chiral']} != 0 (protection would exist)"
+    assert out["light_net_chiral"] == 0, \
+        f"light sector net chiral index {out['light_net_chiral']} != 0"
+    assert imM.shape[1] == 2 * (d // 3) and kerM.shape[1] == d // 3, \
+        f"heavy/massless dims ({imM.shape[1]},{kerM.shape[1]}) != ({2*(d//3)},{d//3})"
 
     # ============================================================ [4] decoupling consequence
     print("\n" + "-" * 94)
@@ -273,8 +294,12 @@ def main():
     print(f"     order-3 (e_R = p_1/48 = 1/12, frame charge 33.94) lives. The chiral projection that would")
     print(f"     keep 3 light is the FRAME-TRIVIAL selector-side chiralizer GU never built into the action.")
     out["chiralizer_frame_charge"] = float(max_comm)
+    assert max_comm < 1e-9, \
+        f"chiralizer J_quat carries tangent-frame charge {max_comm:.3e} (NOT frame-trivial)"
 
     # ============================================================ verdict
+    # (every fact the verdict lines print has been hard-asserted above, so the
+    # green verdict below cannot print unless the exit code is 0)
     print("\n" + "=" * 94)
     print("VERDICT")
     print("=" * 94)

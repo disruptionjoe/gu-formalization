@@ -180,6 +180,7 @@ def main():
 
     Wt, J3 = build_triplet()
     print(f"[substrate] triplet sector dim = {Wt.shape[1]} (expect 192); full V(x)S = {N*DIM}")
+    assert Wt.shape[1] == 192, f"[substrate] triplet dim {Wt.shape[1]} != 192"
     g5b = base_chirality()
     g5i = internal_chirality()
     om = volume_chirality()
@@ -197,6 +198,9 @@ def main():
     print(f"   -> TANGENTIAL: {fcA > 1.0}.  net chirality of its physical sector = {netA:+.2f}  "
           f"chiral sig (+{npA}, -{nmA}) of dim {dA}")
     print(f"   reading: nonzero frame charge (~33.94 expected) but VECTORLIKE (net ~0 / +96=-96).")
+    assert fcA > 1.0 and abs(fcA - 33.94) < 5e-3, f"[CONTROL A] frame charge {fcA}, expected ~33.94 (tangential)"
+    assert fcA_asd < 1e-9, f"[CONTROL A] ASD frame charge {fcA_asd}, expected 0 (pure self-dual)"
+    assert abs(netA) < 1e-9, f"[CONTROL A] net chirality {netA}, expected 0 (vectorlike)"
 
     # ------------------------------------------------------------------ CONTROL B: chiralizer
     print("\n[CONTROL B] internal chiralizer  id_14 (x) (chirality)  (representative of C=J_quat.G)")
@@ -206,6 +210,9 @@ def main():
     print(f"   frame charge |frame| = {fcB:.2e}  -> FRAME-TRIVIAL: {fcB < 1e-6}")
     print(f"   net chirality of its physical sector = {netB:+.1f}  chiral sig (+{npB}, -{nmB})")
     print(f"   reading: zero frame charge (id_14(x)U traceless on frame) but NET-CHIRAL (+96 expected).")
+    assert fcB < 1e-6, f"[CONTROL B] frame charge {fcB}, expected frame-trivial (<1e-6)"
+    assert abs(netB - 96.0) < 1e-6 and npB == 96 and nmB == 0, \
+        f"[CONTROL B] net {netB} sig(+{npB},-{nmB}), expected +96 sig(+96,-0)"
 
     # ------------------------------------------------------------------ THE RS FRAME-INDEX OPERATOR
     # O_RS = sum_{mu,nu in BASE} |mu><nu| (x) gamma_mu gamma_nu   -- the spin-1/2 / gamma-trace
@@ -223,6 +230,9 @@ def main():
     print(f"   Hermitian dev = {herm:.1e}")
     print(f"   (c) FRAME CHARGE |frame| = {fcR:.3f}  (SD {fcR_sd:.3f}, ASD {fcR_asd:.3f}; net s.d. {fcR_sd-fcR_asd:.3f})")
     print(f"       -> NON-FRAME-TRIVIAL: {fcR > 1e-6}")
+    assert herm < 1e-9, f"[RS] O_RS not Hermitian: dev {herm}"
+    assert abs(fcR - 48.0) < 1e-6, f"[RS] frame charge {fcR}, expected 48"
+    assert abs(fcR_sd - fcR_asd) < 1e-9, f"[RS] net s.d. {fcR_sd-fcR_asd}, expected 0"
 
     # net chirality, UNTWISTED, under base / internal / volume chirality gradings
     for name, Cg in [("base chir gamma5_base", np.kron(I14, g5b)),
@@ -230,6 +240,7 @@ def main():
                      ("volume chir om", Cful)]:
         net, npp, nmm, dd = net_chirality_of_sector(Wt, O_RS, Cg)
         print(f"   (b) UNTWISTED net chirality [{name:<24}] = {net:+.3f}  sig(+{npp},-{nmm}) dim {dd}")
+        assert abs(net) < 1e-9, f"[RS] untwisted net chirality [{name}] = {net}, expected 0"
 
     # ------------------------------------------------------------------ TWISTED by chiral 16
     print("\n[RS-TWIST] O_RS_tw = sum |mu><nu| (x) P16 gamma_mu gamma_nu P16   (twist by chiral 16 of Spin(10))")
@@ -245,6 +256,9 @@ def main():
     print(f"   Hermitian dev = {hermT:.1e}")
     print(f"   (c) FRAME CHARGE |frame| = {fcT:.3f}  (SD {fcT_sd:.3f}, ASD {fcT_asd:.3f}; net s.d. {fcT_sd-fcT_asd:.3f})")
     print(f"       -> NON-FRAME-TRIVIAL: {fcT > 1e-6}")
+    assert hermT < 1e-9, f"[RS-TWIST] O_RS_tw not Hermitian: dev {hermT}"
+    assert abs(fcT - 33.941) < 5e-3, f"[RS-TWIST] frame charge {fcT}, expected ~33.941"
+    assert abs(fcT_sd - fcT_asd) < 1e-9, f"[RS-TWIST] net s.d. {fcT_sd-fcT_asd}, expected 0"
     results_tw = {}
     for name, Cg in [("base chir", np.kron(I14, g5b)),
                      ("internal chir", np.kron(I14, g5i)),
@@ -285,6 +299,11 @@ def main():
     print(f"\n  SIMULTANEITY (forcing slot) -- nonzero frame charge AND nonzero net chirality at once:")
     simult_T = nonft_T and netchiral_T
     print(f"     untwisted: {nonft_R and False}   twisted: {simult_T}")
+    # the verdict just printed is driven by exactly these booleans; assert the stated conclusion:
+    # non-frame-trivial in both cases, NO net chirality, hence NO simultaneous forcing-slot fill.
+    assert nonft_R and nonft_T, f"VERDICT: expected non-frame-trivial (fcR={fcR}, fcT={fcT})"
+    assert not netchiral_T, f"VERDICT: stated conclusion is net-chiral=False; got [{bn}] net={bnet}"
+    assert not simult_T, "VERDICT: stated conclusion is simultaneity=False (forcing slot NOT filled)"
     return {
         "fc_LambdaPlus": fcA, "net_LambdaPlus": netA,
         "fc_chiralizer": fcB, "net_chiralizer": netB,

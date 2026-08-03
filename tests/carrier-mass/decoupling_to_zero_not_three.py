@@ -152,6 +152,9 @@ def main():
     out["chirality_split"] = [nplus, nminus]
     out["chirality_net"] = nplus - nminus
     out["krein_signature"] = [kpos, kneg]
+    assert d == 192, f"carrier dim {d} != 192"
+    assert (nplus, nminus) == (96, 96), f"chirality split (+{nplus},-{nminus}) != (+96,-96)"
+    assert (kpos, kneg) == (96, 96), f"Krein signature (+{kpos},-{kneg}) != (+96,-96)"
 
     # ------------------------------------------------------------------ build two Dirac masses
     # (A) substrate Dirac leg: chirality-flip block of c(e_a), Clifford-odd (the shiab-type Dirac mass).
@@ -183,6 +186,8 @@ def main():
     out["diracA_gamma"] = best_a
     out["diracA_rank"] = rankA
     out["diracB_rank"] = rankB
+    assert BA.shape == (96, 96) and BB.shape == (96, 96), "flip blocks not 96x96"
+    assert rankB == 96, f"generic flip block rank {rankB} != full rank 96"
 
     # The mass operator D_m = [[0, m B],[m B^dag, 0]]; its eigenvalues are {+/- m sigma_i(B)}.
     # number massless (zero modes) = total - 2*rank(B) ; net chirality of kernel = index.
@@ -222,6 +227,13 @@ def main():
 
     out["sweepA"] = sweep(BA, f"(A) substrate c(e{best_a})")
     out["sweepB"] = sweep(BB, "(B) generic random")
+    for key in ("sweepA", "sweepB"):
+        sw_res = out[key]
+        assert sw_res["index"] == 0, f"{key}: kernel index {sw_res['index']} != 0"
+        assert all(r[3] == 0 for r in sw_res["rows"]), \
+            f"{key}: some sweep row has light-sector net chirality != 0"
+        assert sw_res["rows"][-1][1] == sw_res["ker_plus"] + sw_res["ker_minus"], \
+            f"{key}: at the largest m the coupled modes did not all decouple"
 
     # ------------------------------------------------------------------ explicit-fold confirmation
     # Re-confirm the m>0 count by actually diagonalizing the full 192x192 fold at one representative m,
@@ -230,6 +242,7 @@ def main():
     print("EXPLICIT FOLD CHECK (diagonalize the full 192x192 D_m; no singular-value shortcut)")
     print("-" * 94)
     for label, B in [("A", BA), ("B", BB)]:
+        rkB = int(np.linalg.matrix_rank(B, tol=TOL))
         D = np.zeros((d, d), dtype=complex)
         D[:nplus, nplus:] = B
         D[nplus:, :nplus] = B.conj().T
@@ -242,11 +255,21 @@ def main():
             npos, nneg, netc = net_chirality(light_vecs, chir_tr)
             print(f"  mass {label}, m={mtest:8.1e}: #light(<{LAM})={light:3d}  "
                   f"light chirality (+{npos},-{nneg}) net={netc}")
+            # hard checks at the verdict-bearing endpoints of the sweep:
+            if mtest == 0.0:
+                assert light == d and netc == 0, \
+                    f"fold {label} m=0: light={light} (exp {d}), net={netc} (exp 0)"
+            if mtest == 1e3:
+                assert light == d - 2 * rkB and netc == 0, \
+                    f"fold {label} m=1e3: light={light} (exp {d - 2*rkB}), net={netc} (exp 0)"
 
     print("\n" + "=" * 94)
     print("VERDICT")
     print("=" * 94)
     iA, iB = out["sweepA"]["index"], out["sweepB"]["index"]
+    # the verdict lines below print iA/iB and the splits hard-asserted above;
+    # a failed assert aborts before any green verdict can print (exit nonzero).
+    assert iA == 0 and iB == 0, f"decoupled light net chirality (iA={iA}, iB={iB}) != 0"
     print(f"  - carrier is vectorlike (+{nplus},-{nminus}); Dirac mass symmetry-ALLOWED (no protection).")
     print(f"  - m = 0 : all {d} modes light, net chirality 0  -> a LOCATED modulus, NOT 3.")
     print(f"  - m > 0 : all coupled modes lift to mass ~ m and DECOUPLE above m; light net chirality")

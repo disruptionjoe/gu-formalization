@@ -240,6 +240,35 @@ def main():
     print(f"  outside the equivariant family.")
     print("=" * 90)
 
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
+    check("family dims (per-block C, full C, real) = (2, 4, 8)",
+          all(v == 2 for v in R["dim_complex_per_block"].values())
+          and R["dim_complex_full_dirac"] == 4 and R["dim_real_full_dirac"] == 8)
+    check("READING A: fold self-adjoint for every basis map", max(a_results) < TOL)
+    check("READING A: fold self-adjoint for random COMPLEX combos", max(combo_defects) < TOL)
+    check("READING A surviving dims = (4 complex, 8 real)",
+          surviving_complex_A == 4 and surviving_real_A == 8)
+    check("seesaw ZERO automatic: BOTH chirality-preserving (Majorana) blocks vanish",
+          all(m < TOL for pair in preserve_mass.values() for m in pair))
+    check("READING B: every family basis map has NONZERO chirality-flip mass",
+          all(m > TOL for m in flip_mass))
+    check("canon fold spectrum: rank 896, fold dim 6720, zero-multiplicity 4928",
+          rank == 896 and total == 6720 and n_zero == 4928)
+    check("canon shiab coords = [1,0,1,0] (pure contract channel)",
+          np.allclose(np.asarray(R["canon_shiab_coords"], dtype=float),
+                      [1.0, 0.0, 1.0, 0.0], atol=1e-9))
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- all computed facts back the stated verdict.")
+
     return {
         "reading_A_surviving_complex": surviving_complex_A,
         "reading_A_surviving_real": surviving_real_A,

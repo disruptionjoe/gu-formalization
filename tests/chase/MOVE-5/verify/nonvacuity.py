@@ -28,6 +28,7 @@ cev, cU = np.linalg.eigh(chir_tr)
 Pp = cU[:, cev > 0.5]; Pm = cU[:, cev < -0.5]
 np_, nm_ = Pp.shape[1], Pm.shape[1]
 print(f"triplet dim={d}, chirality split (+,-)=({np_},{nm_})")
+assert (np_, nm_) == (96, 96), f"expected the (96,96)-balanced triplet, got ({np_},{nm_})"
 
 # ---- hand-built EVEN operator with maximally imbalanced kernel ----
 Mhand = Pm @ Pm.conj().T          # = 0 on +sector, = I on -sector (chirality-even, Hermitian)
@@ -42,11 +43,18 @@ def netchir_kernel(M):
 g, kd, kpp, kmm = netchir_kernel(Mhand)
 print(f"[hand-built even op M=(0 on +, I on -)]: ker dim={kd}, net chiral index (graded tr over ker)={g:+.1f} "
       f"(kerdim+={kpp:.0f}, kerdim-={kmm:.0f})  => NONZERO index is achievable on this space")
+# hard checks: the hand-built even operator really achieves net chiral index +96
+assert kd == 96, f"hand-built kernel dim = {kd}, expected 96"
+assert abs(g - 96.0) < 1e-6, f"hand-built net chiral index = {g}, expected +96"
+assert abs(kpp - 96.0) < 1e-6 and abs(kmm) < 1e-6, \
+    f"hand-built kernel not purely +chirality: (kerdim+, kerdim-) = ({kpp}, {kmm})"
 
 # does it commute with the chirality-swap? (it should NOT)
 Pb = Wt.conj().T @ np.kron(np.eye(14, dtype=complex), e[9]) @ Wt
 c_hand = np.linalg.norm(Pb@Mhand - Mhand@Pb)/(np.linalg.norm(Mhand)*np.linalg.norm(Pb)+1e-30)
 print(f"[hand-built] [P, M_hand]/norm = {c_hand:.2e}  (NOT ~0 -> swap does not protect it, index free to be !=0)")
+assert c_hand > 1e-6, \
+    f"hand-built op unexpectedly commutes with the chirality-swap: [P,M]/norm = {c_hand:.2e}"
 
 # ---- the actual moment-map mass operator over many Psi ----
 Jr = [Wt.conj().T @ Jfull[k] @ Wt for k in range(3)]
@@ -64,6 +72,12 @@ for _ in range(150):
     worst_comm = max(worst_comm, np.linalg.norm(Pb@M-M@Pb)/(np.linalg.norm(M)*np.linalg.norm(Pb)+1e-30))
 print(f"[moment-map M(mu), 150 Psi]: max|net chiral index over ker| = {worst_idx:.2e}  "
       f"max [P,M]/norm = {worst_comm:.2e}")
+# hard checks: the moment-map mass really is pinned to index 0 (over all 150 Psi)
+# because it commutes with the chirality-swap P
+assert worst_idx < 1e-6, \
+    f"moment-map mass gave nonzero net chiral index: max = {worst_idx:.3e}"
+assert worst_comm < 1e-6, \
+    f"moment-map mass fails to commute with chirality-swap P: max = {worst_comm:.3e}"
 print()
 print("CONCLUSION: index != 0 IS achievable on the (96,96) triplet (hand-built op gives +96).")
 print("The moment-map mass operator is pinned to index 0 BECAUSE it commutes with the")

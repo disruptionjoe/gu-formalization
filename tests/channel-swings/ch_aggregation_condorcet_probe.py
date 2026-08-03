@@ -247,4 +247,46 @@ print("Copeland ordering (score):")
 for c in qorder: print(f"   {c:4} {qcope[c]:.1f}   mean={means[c]:.2f}")
 print("Smith set:", qsmith)
 
+# ----------------------------------------------------------------------
+# HARD CHECKS -- the computed facts the tables above claim. Any failure
+# flips the exit note RED and exits nonzero (falsifiable certificate).
+# ----------------------------------------------------------------------
+FAILURES=[]
+def _check(label, ok):
+    print(f"[{'PASS' if ok else 'FAIL'}] {label}")
+    if not ok: FAILURES.append(label)
+
+print("\n" + "="*70)
+print("HARD CHECKS")
+print("="*70)
+_check("12 strict ballots, each a permutation of the 12 steelmen",
+       len(STEEL_BALLOTS)==12 and all(sorted(b)==sorted(STEEL) for b in STEEL_BALLOTS.values()))
+_check("every steelman's author ballot ranks it #1 (the noted self-vote)",
+       all(STEEL_BALLOTS[STEEL_AUTHOR[s]][0]==s for s in STEEL))
+_check("36 questions x 12 persona scores, all scores in 1..5",
+       len(SCORES)==36 and all(len(v)==12 and all(1<=x<=5 for x in v) for v in SCORES.values()))
+_check("steelman pairwise matrix conserves voters: wins[a][b]+wins[b][a]==12",
+       all(abs(sw[a][b]+sw[b][a]-NV)<1e-9 for a in STEEL for b in STEEL if a!=b))
+_check("finalist pairwise matrix conserves voters (ties=0.5 each side)",
+       all(abs(qw[a][b]+qw[b][a]-NV)<1e-9 for a in FINALISTS for b in FINALISTS if a!=b))
+_check("steelman Condorcet result consistent (winner beats all pairwise, tops "
+       "Copeland at 11.0, Smith set = {winner}; or reported NONE)",
+       (cw is None) or (all(sw[cw][b]>sw[b][cw] for b in STEEL if b!=cw)
+                        and cope[cw]==len(STEEL)-1 and order[0]==cw and smith==[cw]))
+_check("steelman Smith set dominates: every member beats every non-member",
+       smith is not None and all(sw[a][b]>sw[b][a] for a in smith for b in STEEL if b not in smith))
+_check("finalists are the 10 questions with the highest means (no non-finalist "
+       "outscores a finalist)",
+       len(FINALISTS)==10 and
+       min(means[q] for q in FINALISTS) >= max(means[q] for q in SCORES if q not in FINALISTS))
+_check("finalist Condorcet result consistent (winner beats all pairwise, tops "
+       "Copeland, Smith set = {winner}; or reported NONE)",
+       (qc is None) or (all(qw[qc][b]>qw[b][qc] for b in FINALISTS if b!=qc)
+                        and qorder[0]==qc and qsmith==[qc]))
+_check("finalist Smith set dominates: every member beats every non-member",
+       qsmith is not None and all(qw[a][b]>qw[b][a] for a in qsmith for b in FINALISTS if b not in qsmith))
+
+if FAILURES:
+    print(f"\nEXIT: probe FAILED {len(FAILURES)} hard check(s): {FAILURES}")
+    raise SystemExit(1)
 print("\nEXIT: probe completed OK (deterministic, no RNG).")

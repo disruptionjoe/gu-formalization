@@ -310,6 +310,43 @@ def main():
     print(f"          obstruction from 58.72 down to {global_min:.2f} but CANNOT reach 0.")
     print("          The residual IS the invariant-surface SELECTOR the source")
     print("          action must supply (family-coordinate / holonomy / KSp class).")
+
+    # === HARD CERTIFICATE CHECKS (verdict coupled to the exit code) ============
+    failures = []
+
+    def check(label, ok):
+        print(f"  [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            failures.append(label)
+
+    print("\n" + "=" * 80)
+    print("CERTIFICATE CHECKS")
+    print("=" * 80)
+    check("anchor ||[Pi_RS,M_D]|| = 58.7215 (repo)", abs(comm_PiMD - 58.7215) < 1e-2)
+    check("anchor ||(I-Pi)M_D Pi|| = 41.5224 (repo)", abs(escape_op - 41.5224) < 1e-2)
+    check("anchor gauge escape = 169.1942 (repo)", abs(escape_gauge - 169.1942) < 1e-2)
+    check("anchor ||Gamma gauge|| = 80.6136 (repo)", abs(gamma_gauge - 80.6136) < 1e-2)
+    check("null spurion nilpotent: ||c(n)^2||, ||c(nbar)^2|| ~ 0",
+          cn2 < 1e-9 and cnb2 < 1e-9)
+    check("P_n idempotent (||P_n^2-P_n|| ~ 0)", Pn_idem < 1e-9)
+    check("non-null control m BREAKS nilpotency (||c(m)^2|| > 0)", cm2 > 1e-6)
+    check("s^2 = 0 for the explicit 3-term complex", s2 < 1e-6 and BnAn < 1e-6)
+    check("escape NOT s-exact: min ||[Pi_kerB_n,M_D]|| stays > 0", global_min > 1e-6)
+    check("spurion bends the floor below bare 58.72", global_min < comm_PiMD - 1e-6)
+    check("floor = 32.8005 (the repo null-spurion floor)",
+          abs(global_min - 32.8005) < 1e-2)
+    check("ANTI-TRAP: bare [Pi_RS,M_D] unchanged (RS coupled, VZ evaded)",
+          abs(comm_PiMD_after - comm_PiMD) < 1e-9 and comm_PiMD_after > 1e-6)
+    check("trap zeroes escape & chain-map residual TOGETHER (ker now invariant)",
+          trap_escape < 1e-6 and resid_trap < 1e-6 and resid_zero > 1e-6)
+    check("c(n) genuinely NON-equivariant (max Spin(9,5) defect > 0)",
+          max_defect > 1e-6)
+    check("exact H-linearity (max residual < 1e-9)", max_h < 1e-9)
+    if failures:
+        print(f"\nVERDICT: RED -- {len(failures)} certificate check(s) FAILED: {failures}")
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- SHARPER_OBSTRUCTION certified: s^2=0 holds, the spurion")
+    print(f"         floor is {global_min:.4f} (not 0), anti-trap intact; all checks PASS.")
     return None
 
 

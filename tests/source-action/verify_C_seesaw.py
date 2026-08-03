@@ -279,6 +279,32 @@ def main():
     print(f"     ind_H(D_RS) is NOT computed from mu: a generation/mirror (Krein) asymmetry is still required.")
     print("=" * 92)
 
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, okc):
+        print(f"  [{'PASS' if okc else 'FAIL'}] {label}")
+        if not okc:
+            FAILURES.append(label)
+
+    check("j=1 triplet dim = 192, chirality split (96, 96)",
+          d == 192 and Pp.shape[1] == 96 and Pm.shape[1] == 96)
+    check("mu(Psi) nonzero (|mu| > 0)", mu_norm > 1e-6)
+    check("CONFIRMED: Majorana block chirality-PRESERVING (flip ~0)", preserving)
+    check("Majorana block VECTORLIKE (||A_++|| == ||A_--||)", vectorlike)
+    check("pure-M spectrum = {+|mu|:64, 0:64, -|mu|:64} ('2+1 with imposter')",
+          (npos, nzero, nneg) == (64, 64, 64))
+    check("Dirac-leg fold self-adjoint", defect < 1e-9)
+    check("CONTROL: textbook uniform-heavy slope ~ 2 (fold machinery correct)", toy_ok)
+    check("canonical one-sided fold slope ~ 2", abs(s_canon - 2.0) < 0.3)
+    check("REFUTED: actual fold light slope ~ 1 (linear, NO m^2/M suppression)",
+          abs(s_actual - 1.0) < 0.3)
+    check("actual fold does NOT develop the seesaw hierarchy", not seesaw_actual)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- computed facts back the confirmed/control/refuted verdict.")
+
     return {
         "mu_norm": mu_norm, "M_norm": float(np.linalg.norm(Mtr)), "M_herm_defect": herm_defect,
         "A_pp_norm": float(np.linalg.norm(A_pp)), "A_mm_norm": float(np.linalg.norm(A_mm)),

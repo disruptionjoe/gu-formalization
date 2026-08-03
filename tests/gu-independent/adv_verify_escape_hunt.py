@@ -119,6 +119,10 @@ def main():
     evc = np.linalg.eigvalsh(Gc)
     print(f"[carrier] dim={nc}  chir split (+{int((evc>0.5).sum())},-{int((evc<-0.5).sum())}) "
           f"net={np.trace(Gc).real:+.2f}  frame(Gamma0)={frame_charge(Gamma0):.3e}")
+    assert nc == 192, f"carrier dim {nc} != 192"
+    assert int((evc > 0.5).sum()) == 96 and int((evc < -0.5).sum()) == 96, "carrier not split 96/96"
+    assert abs(np.trace(Gc).real) < 1e-6, f"carrier net chirality {np.trace(Gc).real} != 0"
+    assert frame_charge(Gamma0) < 1e-9, "control Gamma0 is not frame-trivial"
 
     hits = []
 
@@ -218,6 +222,19 @@ def main():
         print("  NO ESCAPE: every frame-charged genuine carrier involution had net trace 0 (|Tr|<=0.5).")
         print("  Construct's structural no-go SURVIVES this broader (conjugation + asymmetric + random)")
         print("  search: frame charge and net chiral count remain mutually exclusive on this carrier.")
+    # -- certificate coupling: this hunt's computed conclusion is the ESCAPE branch (the broad
+    #    slash-Hermitian search DOES return frame-charged net-chiral involutions, e.g. net = +/-64
+    #    and the +/-192 trivial-involution lifts). Pin that conclusion and its backing facts.
+    assert n_framecharged > 0, "search vacuous: no frame-charged involution ever produced"
+    assert all(f > 1e-4 and abs(n) > 0.5 for _, f, n in hits), \
+        "recorded hit violates the escape criterion (frame>1e-4 AND |Tr|>0.5)"
+    if not hits:
+        print("\nVERDICT: RED -- pinned conclusion violated: this certificate's recorded result is")
+        print("that the broad hunt FINDS escape hits (frame charge > 1e-4 AND |Tr| > 0.5); the")
+        print("search now returned zero hits. Re-examine before accepting either branch.")
+        raise SystemExit(1)
+    print(f"\nVERDICT: ESCAPE-FOUND (exit 0 = certificate self-consistent): {len(hits)} hit(s); by this")
+    print("probe's own criterion the frame-charge/net-chirality exclusivity is EVADED on this carrier.")
     return {"carrier_dim": nc, "n_hits": len(hits),
             "hits": [(nm, round(f, 4), round(n, 4)) for nm, f, n in hits]}
 

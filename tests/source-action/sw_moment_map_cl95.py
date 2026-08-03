@@ -214,6 +214,28 @@ def main():
     print(f"  ==> SW MOMENT MAP EXISTS as a genuine SU(2)_+-equivariant moment map: {ok}")
     print(f"      (pure-chirality vanishing = {max(pure_norms):.1e} confirms the GU/seesaw cross-chirality form)")
     print("=" * 84)
+
+    # ---- falsifiability: hard checks on the computed facts behind the verdict ----
+    FAILURES = []
+
+    def check(label, cond):
+        print(f"  [{'PASS' if cond else 'FAIL'}] {label}")
+        if not cond:
+            FAILURES.append(label)
+
+    check("triplet sector dim = 192", d == 192)
+    check("[1] K-skewness defect ~0", skew < 1e-9)
+    check("[1] mu lands in i*R^3 (max|Re mu| ~0)", max_real < 1e-9)
+    check("[2] equivariance defect ~0", eq_defect < 1e-7)
+    check("[3] image rank = 3 and mu nonzero", rank == 3 and typ > 1e-6)
+    check("[4] pure-chirality mu VANISHES", max(pure_norms) < 1e-9)
+    check("[4] mixed-chirality mu nonzero", float(np.median(mixed_norms)) > 1e-6)
+    check("triplet chirality split = (96, 96)", chirsplit == (96, 96))
+    check("VERDICT: SW moment map EXISTS (all gate conditions)", ok)
+    if FAILURES:
+        print(f"\nCERTIFICATE: RED -- {len(FAILURES)} check(s) FAILED: {FAILURES}")
+        raise SystemExit(1)
+    print("\nCERTIFICATE: GREEN -- computed facts back the existence verdict.")
     return {
         "triplet_dim": d, "K_skew_defect": skew, "equivariance_defect": eq_defect,
         "image_rank": rank, "median_mu_norm": typ, "max_Re_mu": max_real,

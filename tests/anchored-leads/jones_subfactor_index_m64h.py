@@ -49,6 +49,9 @@ def clifford_type(p, q):
     return mat, ring, nsum, total
 
 m, ring, nsum, total = clifford_type(9, 5)
+# hard check: the substrate type the whole lead rests on
+assert (m, ring, nsum, total) == (64, "H", 1, 16384), \
+    f"Cl(9,5) type mismatch: got {nsum} x M({m},{ring}), real dim {total}"
 print("=" * 70)
 print("(A) ALGEBRA TYPE OF Cl(9,5)")
 print("=" * 70)
@@ -93,13 +96,18 @@ print("=" * 70)
 print("\n  -- codim-1 Clifford chain (add one generator) --")
 chain = [(7,5),(8,5),(9,5)]
 prev = None
+chain_ratios = []
 for (p,q) in chain:
     mm, rr, ns, tot = clifford_type(p,q)
     label = f"Cl({p},{q}) = {ns}xM({mm},{rr})"
     if prev is not None:
         ratio = tot / prev[1]
+        chain_ratios.append(ratio)
         print(f"    {prev[0]:18s} c {label:18s}  dim ratio = {ratio:g}")
     prev = (label, tot)
+# hard check: every codim-1 Clifford step has index (dim ratio) exactly 2, never 3
+assert chain_ratios and all(r == 2.0 for r in chain_ratios), \
+    f"codim-1 chain ratios not all 2: {chain_ratios}"
 print("    => each codim-1 step has index 2 (dim doubles). 2 is in the Jones")
 print("       discrete set (n=4), but it is the index of EVERY Clifford generator")
 print("       step -- it tracks Clifford dimension, not any '3 generations'.")
@@ -111,9 +119,15 @@ def spinor_dim_real(p, q):
     mm, rr, ns, tot = clifford_type(p, q)
     rdim = {"R":1,"C":2,"H":4}[rr]
     return mm * rdim  # real dim of the irreducible (column) module
+spinor_dims = []
 for (lbl,p,q) in [("Cl(9,5) full",9,5),("Cl(3,1) Lorentz",3,1),("Cl(6,4) internal",6,4),
                   ("Cl(1,3)",1,3),("Cl(8,4)",8,4)]:
-    print(f"    {lbl:18s} spinor module real-dim = {spinor_dim_real(p,q)}")
+    sd = spinor_dim_real(p, q)
+    spinor_dims.append(sd)
+    print(f"    {lbl:18s} spinor module real-dim = {sd}")
+# hard check: every spinor-module real dimension is a power of two (2-primary)
+assert all(sd > 0 and (sd & (sd - 1)) == 0 for sd in spinor_dims), \
+    f"spinor dims not all powers of two: {spinor_dims}"
 print("    => products of these dims give the embedding multiplicities; all are")
 print("       powers of two (2-primary!), never an odd index 3.")
 
@@ -134,12 +148,18 @@ def dynkin_A(n):
         A[i, i+1] = A[i+1, i] = 1
     return A
 
+index3_hits = []
 for n in range(2, 8):
     A = dynkin_A(n)
     nrm = max(abs(np.linalg.eigvalsh(A)))
     idx = nrm**2
-    flag = "  <-- index 3 (the n=6 Jones value)" if abs(idx-3) < 1e-9 else ""
+    hit = abs(idx-3) < 1e-9
+    if hit:
+        index3_hits.append(n)
+    flag = "  <-- index 3 (the n=6 Jones value)" if hit else ""
     print(f"    A_{n} Dynkin norm = {nrm:.6f}  index ||.||^2 = {idx:.6f}{flag}")
+# hard check: index 3 is achieved by the A_5 Dynkin graph and ONLY A_5 in this range
+assert index3_hits == [5], f"index-3 graph-norm hits: A_{index3_hits} (expected exactly A_5)"
 
 print()
 print("  => Index 3 requires the inclusion's Bratteli graph to BE the A_5 Dynkin")

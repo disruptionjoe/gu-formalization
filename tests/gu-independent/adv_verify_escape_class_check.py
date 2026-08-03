@@ -49,6 +49,13 @@ SD_GENS = [lvec(0, 1) + lvec(2, 3), lvec(0, 2) + lvec(3, 1), lvec(0, 3) + lvec(1
 
 def main():
     np.set_printoptions(precision=4, suppress=True, linewidth=160)
+    FAILURES = []
+
+    def check(label, ok):
+        print(f"    [{'PASS' if ok else 'FAIL'}] {label}")
+        if not ok:
+            FAILURES.append(label)
+
     e, Gamma, Pi, M_D = gu_bridge.constraint_objects()
     e128 = gu_bridge.gammas()
     J3full = [np.kron(I14, sgen(e, a, b) + sgen(e, c, d)) + np.kron(lvec(a, b) + lvec(c, d), I128)
@@ -67,6 +74,9 @@ def main():
     d = Wt.shape[1]
     print(f"[A] carrier dim = {d}; FULL net chirality Tr(Gc) = {np.trace(Gc).real:+.3e} "
           f"(splits +{int(round((d+np.trace(Gc).real)/2))}/-{int(round((d-np.trace(Gc).real)/2))})")
+    check("carrier dim = 192", d == 192)
+    check("full net chirality Tr(Gc) = 0 (vectorlike +96/-96 baseline)",
+          abs(np.trace(Gc).real) < 1e-9)
 
     # build escape op on carrier
     P = Wt @ Wt.conj().T
@@ -92,6 +102,8 @@ def main():
           f"(full-space rel dev {unit_full:.4f}) => Oh is {'ISOMETRIC' if iso_dev<1e-6 else 'NOT isometric (rank-deficient projector-like): OUTSIDE the index theorem class'}")
     rk = np.linalg.matrix_rank(Oh, tol=1e-8)
     print(f"    rank(Oh on carrier) = {rk} of {d}")
+    check("Oh is NOT Krein-isometric (rel dev > 1e-6): OUTSIDE the linear index-theorem class",
+          iso_dev > 1e-6)
 
     # (C) is +32 special? compare to generic Hermitian selectors
     shc, hd = half_count(Oh)
@@ -111,6 +123,10 @@ def main():
     print(f"    => a chirally-imbalanced positive eigenspace is GENERIC (even frame-trivial ops give it);")
     print(f"       +32 is a subspace-restriction value, NOT a conserved/forced index. The conserved")
     print(f"       index = Tr(Gc) = {np.trace(Gc).real:+.1e} is UNCHANGED.")
+    check("escape Oh selected-half count = +32 on a 96-dim half",
+          abs(shc - 32.0) < 1e-6 and hd == 96)
+    check("frame-TRIVIAL random selectors also give |half-count| > 1 (imbalance is generic)",
+          any(abs(c) > 1 for c in counts_ft))
 
     # (D) antilinear isometry
     C = Oh @ Oh.conj()
@@ -120,6 +136,14 @@ def main():
     print(f"    => NOT a clean AZ-CII antilinear (needs Oh unitary, which [B] refutes). The construct's")
     print(f"       'escape' is a LINEAR non-isometric Hermitian selector => it does NOT meet the index")
     print(f"       theorem's escape hypothesis (antilinear). Structural no-go for ANTILINEAR ops UN-refuted.")
+    check("C^2 = Oh Oh* far from scalar identity (NOT a clean AZ-CII antilinear)", dev > 0.1)
+
+    if FAILURES:
+        print(f"\nVERDICT: RED -- {len(FAILURES)} check(s) FAILED: " + "; ".join(FAILURES))
+        raise SystemExit(1)
+    print("\nVERDICT: GREEN -- the claimed 'escape' is outside the index-theorem class (not Krein-"
+          "isometric, not clean antilinear); its +32 is a generic subspace artifact; the conserved "
+          "index Tr(Gc)=0 is unchanged. Antilinear no-go UN-refuted.")
 
     return {"carrier_dim": d, "full_net_chir": float(np.trace(Gc).real),
             "Oh_isometry_reldev": float(iso_dev), "Oh_rank": int(rk),

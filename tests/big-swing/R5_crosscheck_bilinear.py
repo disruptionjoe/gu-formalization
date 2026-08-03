@@ -118,6 +118,13 @@ def main():
     print(f"  cross-chirality bilinear S+ x S- = {cross}  (charge-conjugation pairing, >=1)")
     ok = (same == 0 and cross >= 1)
     print(f"\n  matches canon MOVE-4 (scalar bilinear only OFF-diagonal S+<->S-)? {ok}")
+    if not ok:
+        # falsifiability coupling: the confirmation below may only print when the
+        # SAME boolean that drives the exit code holds.
+        print("  => MISMATCH with canon MOVE-4: bilinear dims "
+              f"(same-chirality {same}, cross-chirality {cross}) do NOT corroborate the no-go.")
+        print("=" * 90)
+        raise SystemExit(1)
     print("  => S+ ~= (S-)^* (mutually DUAL, not isomorphic): consistent with Hom_lin(S+,S-)=0.")
     print("     The one invariant relating the blocks is the DUAL pairing; using it on the shiab")
     print("     pairs the codomain V-slot -> the metric codifferential = seesaw (dead-for-canon).")
