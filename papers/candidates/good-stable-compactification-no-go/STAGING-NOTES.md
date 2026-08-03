@@ -1,6 +1,6 @@
 ---
 title: "Staging notes: Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)"
-status: "v1.0.0 post-ready; release package verified"
+status: "v1.0.0 published on Zenodo"
 updated: "2026-08-03"
 ---
 
@@ -59,5 +59,9 @@ Lean kernel accompany the written proof.
 
 Joe approved TeX, PDF, metadata, and archive preparation after the clean final
 hostile passes. The resulting `zenodo-package-v1.0.0/` passed standalone
-source-archive checks and page-by-page PDF visual QA. Public posting remains a
-separate explicit action.
+source-archive checks and page-by-page PDF visual QA. Joe then authorized and
+completed publication on 2026-08-03. The inspected public record is
+[`10.5281/zenodo.21779705`](https://doi.org/10.5281/zenodo.21779705), with
+concept DOI [`10.5281/zenodo.21779704`](https://doi.org/10.5281/zenodo.21779704).
+The PDF is the correct default 13-page preview and all 15 deposited files match
+the frozen local artifacts. Future file changes require a new Zenodo version.

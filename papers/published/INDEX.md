@@ -3,7 +3,7 @@ title: "Publications index — the canonical record of what has actually been po
 status: canon
 doc_type: publications-ledger
 owner: gu-formalization
-updated: "2026-07-23"
+updated: "2026-08-03"
 purpose: >-
   Single source of truth for which of this repo's artifacts are PUBLICLY POSTED (DOI / arXiv / URL).
   Other surfaces (Drafting Factory, project management) READ this; they do not maintain a competing
@@ -27,9 +27,17 @@ against Zenodo (see the runbook) and add what is found here.
 |---|---|---|---|---|---|---|---|---|
 | OVST | A Diagonal No-Go for Self-Valuations and an Invariance Classification | preprint | 10.5281/zenodo.21343484 | 10.5281/zenodo.21343483 | 2026-07-13 | Hernandez, Joe | `published/observer-value-selection-theorem/` | Zenodo |
 | LNF | Located, Not Forced: A Scoped Two-Primary Audit of a Clifford Rarita-Schwinger Generation Carrier | preprint | 10.5281/zenodo.21515143 | 10.5281/zenodo.21515142 | 2026-07-23 | Hernandez, Joseph | `candidates/located-not-forced/` | Zenodo |
+| CIO | Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32): Neutral, Grading-Even, and Extremal Order Parameters | preprint | 10.5281/zenodo.21779705 | 10.5281/zenodo.21779704 | 2026-08-03 | Hernandez, Joseph | `candidates/good-stable-compactification-no-go/` | Zenodo |
 
 ## Reconciliation log
 
+- **2026-08-03** — Published and inspected *Compact-Image Obstructions*
+  v1.0.0 at `10.5281/zenodo.21779705`. The public record shows Joseph
+  Hernandez, Independent Researcher; the PDF as the default 13-page preview;
+  CC BY 4.0; the repository and exact source-revision links; and all 15
+  manifest-listed files. Every Zenodo-reported MD5 matches the frozen local
+  artifact. The concept DOI is `10.5281/zenodo.21779704`; the complete receipt
+  is `papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md`.
 - **2026-07-23** — Published and inspected LNF v1.0.0 at
   `10.5281/zenodo.21515143`. The public record shows Joseph Hernandez,
   Independent Researcher; `main.pdf` as the default 18-page preview; the

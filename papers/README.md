@@ -35,3 +35,8 @@ subfolders at a time, so its location always tells the truth about where it stan
 - **Published:** see [`published/INDEX.md`](published/INDEX.md) (the canonical posted-status ledger).
   - [Observer Value Selection Theorem](published/observer-value-selection-theorem/) — "A Diagonal No-Go for
     Self-Valuations and an Invariance Classification", DOI [10.5281/zenodo.21343484](https://doi.org/10.5281/zenodo.21343484), posted 2026-07-13.
+  - [Located, Not Forced](candidates/located-not-forced/) — retained source tree for the published v1.0.0
+    paper, DOI [10.5281/zenodo.21515143](https://doi.org/10.5281/zenodo.21515143), posted 2026-07-23.
+  - [Compact-Image Obstructions](candidates/good-stable-compactification-no-go/) — retained source and
+    reproducibility tree for the published v1.0.0 paper, DOI
+    [10.5281/zenodo.21779705](https://doi.org/10.5281/zenodo.21779705), posted 2026-08-03.

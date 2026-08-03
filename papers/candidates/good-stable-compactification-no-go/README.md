@@ -1,10 +1,10 @@
 # Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)
 
-This directory contains the post-ready v1.0.0 manuscript and its
+This directory contains the Zenodo-published v1.0.0 manuscript and its
 paper-specific proof/checking capsule. The version-bound hostile saturation
-gate passed on 2026-08-03 with zero unresolved hardening actions. Joe has
-authorized release engineering, but this status does not itself authorize a
-public Zenodo deposit.
+gate passed on 2026-08-03 with zero unresolved hardening actions. The public
+record is [`10.5281/zenodo.21779705`](https://doi.org/10.5281/zenodo.21779705),
+with concept DOI [`10.5281/zenodo.21779704`](https://doi.org/10.5281/zenodo.21779704).
 
 ## Canonical manuscript
 
@@ -13,6 +13,8 @@ public Zenodo deposit.
 ## Review state
 
 - [`STAGING-NOTES.md`](STAGING-NOTES.md) records the publication-stage boundary.
+- [`FINAL-RELEASE-RECEIPT-v1.0.0.md`](FINAL-RELEASE-RECEIPT-v1.0.0.md)
+  records the inspected public deposit, DOI pair, preview, and checksum match.
 - [`HARDENING-LEDGER.md`](HARDENING-LEDGER.md) records the adversarial corrections,
   claim grades, exact checks, and remaining adversarial-rerun target.
 - [`REPRODUCE.md`](REPRODUCE.md) and [`VERIFICATION.md`](VERIFICATION.md) define
@@ -31,8 +33,9 @@ public Zenodo deposit.
   the exact v1.0.0 manuscript hash and records zero remaining actionable
   hardening items.
 
-The release package is built only from the source checkpoint named in its
-`SOURCE-COMMIT.txt`. Posting remains a separate user-approved action.
+The release package was built only from the source checkpoint named in its
+`SOURCE-COMMIT.txt`. Its deposited files are frozen at v1.0.0; any file change
+requires a new Zenodo version.
 
 ## Release package
 
@@ -41,4 +44,5 @@ The release package is built only from the source checkpoint named in its
   ZIP, copy-ready Zenodo metadata, saturation receipt, licenses, upload
   checklist, and SHA-256 manifest.
 - The PDF is the required Zenodo default preview.
-- No public deposit or DOI assignment is implied by the package's presence.
+- Zenodo record `21779705` uses the PDF as the default 13-page preview, and all
+  15 public file checksums match the frozen local artifacts.

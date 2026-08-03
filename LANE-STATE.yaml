@@ -131,29 +131,27 @@ lanes:
   objective: Harden valuable results through proof, testing, reproducibility, and
     source-ready publication packets.
   light: green
-  reason_code: seeds_routed_published_state_preserved
+  reason_code: compact_image_published_state_reconciled
   evidence_ref: papers/candidates/located-not-forced/FINAL-RELEASE-RECEIPT-v1.0.0.md;
-    papers/candidates/good-stable-compactification-no-go/HARDENING-LEDGER.md
+    papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
   work_status: moving
-  last_movement: Delivered four Joe-authorized (J4) paper seeds to the drafting
-    factory mailbox on 2026-08-03 (good-stable compactification no-go,
-    shape-blind CR lemma, two-arena rep-theory core, Pati-Salam class-relative
-    survey) plus the good-stable hardening return, and hardened the
-    compact-image paper through a hostile ten-specialist audit to v0.6
-    (commit 0309be3).
-  movement_ref: papers/candidates/good-stable-compactification-no-go/HARDENING-LEDGER.md
+  last_movement: Published Compact-Image Obstructions v1.0.0 on Zenodo on
+    2026-08-03 after zero-action hostile saturation, exact computational and
+    Lean checks, clean-room reproduction, and 13-page visual QA. The public
+    record and all 15 deposited-file checksums were inspected and reconciled.
+  movement_ref: papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
   steering_attention: none
   steering_prompt: none
   steering_ref: papers/candidates/located-not-forced/FINAL-RELEASE-RECEIPT-v1.0.0.md
-  summary: LNF v1.0.0 (DOI 10.5281/zenodo.21515143) and the observer-value
-    deposit stand published; the finished GU-independent assets are now seeded
-    to the drafting factory; PAPER-EXTERNAL-EYES is PARKED per the 2026-08-03
-    governance change (external review is Joe-owned and optional, the repo
-    never waits on it).
-  progress_delta: 'Moved banked value outward: 4 seeds + 1 hardening return
-    routed through the seam; compact-image paper maximally hardened internally
-    (2,721 Sage checks, 400 property examples, full Lean build) pending a clean
-    hostile rerun.'
+  summary: LNF v1.0.0 (DOI 10.5281/zenodo.21515143), the observer-value
+    deposit, and Compact-Image Obstructions v1.0.0 (DOI
+    10.5281/zenodo.21779705) stand published; the remaining finished
+    GU-independent assets are seeded to the drafting factory;
+    PAPER-EXTERNAL-EYES is PARKED because external review is Joe-owned and
+    optional.
+  progress_delta: 'Converted the maximally hardened compact-image source packet
+    into a verified public archival outcome: exact 15-file checksum match,
+    correct metadata, and a clean PDF-default public preview.'
   scope_position: 'The published records are immutable; v1.0.1-class corrections
     (Randal-Williams bibliography entry, W-spin hypothesis, DOI text) remain
     batched in the register (P-H26/P-M28/P-L8); external replication remains an
@@ -163,9 +161,10 @@ lanes:
   recommendation: Preserve the frozen publications; answer drafting-factory
     returns through the seam; execute the v1.0.1 correction batch when next
     convenient
-  findings: 'PP3 and LNF both published 2026-07-23 (published/INDEX.md
-    reconciled 2026-08-03 per P-H16). The compact-image paper is not post-ready
-    until a fresh hostile rerun sees the complete supplement tree.'
+  findings: 'PP3 and LNF were published 2026-07-23. Compact-Image Obstructions
+    was published 2026-08-03 with version DOI 10.5281/zenodo.21779705 and
+    concept DOI 10.5281/zenodo.21779704; the PDF is the verified 13-page
+    default preview and the 15 public files match the frozen package.'
   options:
   - key: A
     label: Preserve published records; work the seam
@@ -176,8 +175,8 @@ lanes:
     file correction requires a new Zenodo version; external distribution is
     separately Joe-directed and never blocks repo work.
   needs_joe: false
-  evaluated_at: '2026-08-03T13:00:00-05:00'
-  run_ref: REGISTER-20260803-P-H14-lane-state-refresh
+  evaluated_at: '2026-08-03T14:50:00-05:00'
+  run_ref: papers/candidates/good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md
 - lane_id: A
   objective: 'Keep the repo viable and trustworthy: coordination, control, audit,
     adaptation, policy, escalation.'

@@ -4,10 +4,11 @@ Papers that have **graduated out of `papers/drafts/`** and are staged for public
 public**. A folder here means: Joe has explicitly said he intends to publish this paper, and it has passed
 the light staging gate below. It does **not** mean it has been submitted or posted.
 
-Recorded exception: *Located, Not Forced* v1.0.0 was published on 2026-07-23,
-but its active source and reproducibility tree remains at the existing path to
-avoid breaking verified scripts and provenance links. Its posted status is
-authoritatively recorded in `../published/INDEX.md`.
+Recorded exceptions: *Located, Not Forced* v1.0.0 was published on 2026-07-23,
+and *Compact-Image Obstructions* v1.0.0 was published on 2026-08-03. Their
+active source and reproducibility trees remain at the existing paths to avoid
+breaking verified scripts, package references, and provenance links. Their
+posted status is authoritatively recorded in `../published/INDEX.md`.
 
 ## Lifecycle (the three stages)
 
@@ -45,7 +46,7 @@ submit, reclassify, or advance a paper.
 
 | candidate folder | paper / packet | staging note |
 |---|---|---|
-| [`good-stable-compactification-no-go/`](good-stable-compactification-no-go/) | **Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)**; post-ready v1.0.0 theorem paper with exact Sage/property certificates and a narrow Lean kernel. All prior hostile findings are repaired; final adversarial saturation reports zero unresolved hardening actions; the TeX/PDF/Zenodo package passed clean-room reproduction and 13-page visual QA. Posting is not yet authorized. | [`STAGING-NOTES.md`](good-stable-compactification-no-go/STAGING-NOTES.md) |
+| [`good-stable-compactification-no-go/`](good-stable-compactification-no-go/) | **Published v1.0.0** — "Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32): Neutral, Grading-Even, and Extremal Order Parameters." DOI [`10.5281/zenodo.21779705`](https://doi.org/10.5281/zenodo.21779705); source and reproducibility tree retained at this stable path. | [`FINAL-RELEASE-RECEIPT-v1.0.0.md`](good-stable-compactification-no-go/FINAL-RELEASE-RECEIPT-v1.0.0.md) |
 | [`generation-number-boundary-odd-primary/`](generation-number-boundary-odd-primary/) | Generation Number Boundary Odd Primary; boundary / odd-primary location packet. | [`STAGING-NOTES.md`](generation-number-boundary-odd-primary/STAGING-NOTES.md) |
 | [`generation-number-located-not-forced/`](generation-number-located-not-forced/) | Generation Number Located Not Forced; class-wide forcing no-go and `{1,3}` reduction. | [`STAGING-NOTES.md`](generation-number-located-not-forced/STAGING-NOTES.md) |
 | [`keep-and-grade-loop-cost/`](keep-and-grade-loop-cost/) | Keep And Grade Loop Cost; loop-cost / keep-and-grade packet. | [`STAGING-NOTES.md`](keep-and-grade-loop-cost/STAGING-NOTES.md) |
