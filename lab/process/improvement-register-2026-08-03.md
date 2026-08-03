@@ -498,3 +498,19 @@ No scientific register row or protected verdict moves.
   equivariant source one-form, dress the split/grade by moving soldering,
   construct the full-20 reciprocal K/C blocks and P0/Y ordering, and require a
   nonzero Euler coefficient plus Ward identity before any VEV or mass claim.
+
+**Baseline-sweep triage note (2026-08-03, P-H6):** the detached 783-cert
+sweep completed VERDICT RED, 24 non-pass. It STRADDLED the e53e8ae campaign
+edits mid-run, so it is a triage input, NOT the P-H6 dated receipt; a fresh
+clean sweep is deferred until the resolver wave sequence pauses. Triage
+classes: (a) the six intentional honest REDs (by design, exit 1); (b) W242
+Q5 = stale process coupling (cert asserts NEXT-STEPS still names W242 as
+the active hourly queue — superseded; NOT a DESI data event; the real FC-d
+tripwire is clock-gated, margin +0.032, untouched); (c) environmental —
+carrier-bit-decision PDF-extraction legs (gitignored PDFs); (d) process/
+recovery-contract certs asserting queue states; (e) pre-existing physics
+REDs predating the campaign: W178, W189, anchor-scale leg1_crosscheck,
+big-swing cg_r1/cg_r3, escape-corners cluster (lega1/lega2/legb1/referee
+legs), cycle1/cycle2 audit errors, channel-swings uniformity_execution
+probe. None introduced by the campaign; (e) items are the standing triage
+backlog.

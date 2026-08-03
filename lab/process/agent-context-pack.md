@@ -39,6 +39,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
   even/even, so the product rule applies under either signature.
 - "IMPOSTER" A-vs-B: the 128 S(V)⊗S(W) (spin-1/2) vs the RS spin-3/2 family
   — different subspaces, unadjudicated; W221's SURVIVES depends on (B).
+  TYPED 2026-08-03 (explorations/imposter-reading-adjudication-2026-08-03.md:
+  homonym with disputed referent; 12-row dependency table). For Reading A the
+  block is kinematically VECTORLIKE under BOTH signatures (64+64; joint
+  32/32/32/32) — PH-K1-KINEMATIC = CONFIRMED, hostile-reviewed; the PHYSICAL
+  firing still needs the A/B referent + observation/VEV/BRST maps.
 - TWO IN-REPO "2+1"s: the ledger's block decomposition vs lega2's family
   census (roles inverted). Unadjudicated.
 - Kinematic ≠ physical carrier: Π_RS^phys does not exist (OQ-RK1
@@ -62,9 +67,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
    cross-repo proposal is pending.]
 2. FLAVOR↔GRAVITY (II-mediation): four-lens convergent conjecture — the
    imposter block is the carrier ½γ(II) couples to; GU's gravity functional
-   is |II|². Test order: [σ(D_RS),P₃] commutator (XS, may kill), block
-   index density (S), II identification (M). Control: totally geodesic ⇒
-   both decouple.
+   is |II|². Q3 EXECUTED (Resolver Wave B, 2026-08-03): [σ(D_RS),P₃] has
+   EXACT full-rank FIRST-ORDER leakage in all directions, both signatures —
+   the invariant-block / sole-leading-II route is DEAD; only coupled or
+   separately-compressed operator routes remain live. Control unchanged:
+   totally geodesic ⇒ both decouple. Follow the RESOLVER-WAVE gate chain
+   (explorations/cycle-gates-and-audits/) for the current arrow.
 3. COUNT↔BOUNDARY: interior 2-primary/even; any odd count external by
    structure; the true 13-dim receptacle is purely Z/3; spin Dai-Freed
    inflow cannot carry Z/3 (framed/String or replace the sole-bridge
@@ -72,8 +80,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 4. POSITIVITY↔BOUNDARY: the fundamental symmetry was never free (uniqueness
    theorem + W219); existence fails on the kinematic carrier (F = ∅, normal
    for covariant indefinite theories — Gupta-Bleuler; the BRST/quotient exit
-   is the unexplored route). One earned new sentence: the Kramers wall
-   persists at algebra level (real commutant H).
+   is now register-tracked as M-H17). UPDATED 2026-08-03 (DQ2/DQ1,
+   hostile-reviewed): F = ∅ is SIGNATURE-ROBUST (the boost witness
+   transfers to (7,7)). The Kramers-wall sentence is (9,5)-ONLY — under
+   (7,7) the wall is absent while linear commuting involutions stay ±I
+   ("at most one" transfers) and the canonical J-fixed carrier is
+   SYMPLECTIC, closing M-H4's O(p,q) sign-forcing route (global signature
+   fork still open). DQ1 (Wave B): the Dirac-sense constraint-preserving
+   algebra has THREE shared quaternionic compact types, residual family
+   dimension 12 — compact uniqueness does NOT transfer to that carrier.
 
 ## 2+1 mechanism (panel-settled, 2026-08-03)
 
