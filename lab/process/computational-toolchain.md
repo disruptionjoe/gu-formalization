@@ -78,7 +78,7 @@ its upgrade path; none is resolved by this file. Citations are to
 
 | Gate | What the repo already says | Bears on |
 |---|---|---|
-| `OQ-RK1` (:1255) | "Decisive circularity-free gate: CAS computation of `rank(Pi_RS * E_+ * Pi_RS)` in `M(64,H)`, which would return 4 or 8 directly." | `rank_H(S_RS^+)` = 4 vs 8 — Candidate A vs the undismissed Candidate B. Generation-sector. |
+| `OQ-RK1` (:1255) | "Decisive circularity-free gate: CAS computation of `rank(Pi_RS * E_+ * Pi_RS)` in `M(64,H)`, which would return 4 or 8 directly." **CORRECTION 2026-08-03: this gate is SPEC-blocked, not CAS-blocked** — `tests/oq_rk1_e_rs_eff_assembly.py` returns `BLOCKED_NEEDS_SPEC` because `Pi_RS^phys` / `E_RS^eff` do not exist in the repo. A CAS narrows the 416 decomposition (the D2xD5 branching is already filed in `explorations/shiab-operator/b5-observer-symbol-multiplicity-matrix-2026-07-24.md`); it cannot select the physical summand. Layer-0 applies. | `rank_H(S_RS^+)` = 4 vs 8 — Candidate A vs the undismissed Candidate B. Generation-sector. |
 | `FC2` (:1555) | "Explicit CAS computation confirming the proposed `E^{-1}` formula." | Velo-Zwanziger E-block invertibility — the precondition holding 14D at `CONDITIONALLY_EVADED`. |
 | `FC-MULT` (:1987) | "Reconstruction grade pending LiE verification: if LiE returns multiplicity > 1, `dim_H Hom > 1` and uniqueness weakens." | Shiab uniqueness. Can weaken the claim, not only confirm it. |
 | `FC-IRR` (:1987) | "A formal proof requires the `D_7` branching law or a LiE weight computation." | Irreducibility of `ker(c)`, SC1-OQ1A §3.3 Step 3. |
@@ -95,20 +95,24 @@ return an answer that *weakens* a current claim; they are not confirmation erran
 ## Certified numerics: `ARB-CERT`
 
 The RB campaign's stability and residual controls are graded "CONTROLLED LOCAL
-NUMERICS" — float comparisons without error bounds. python-flint makes those
-rigorous enclosures at arbitrary precision. Worked example, the RB7 auxiliary-norm
-comparison:
+NUMERICS" — float comparisons without error bounds. python-flint makes suitable
+quantities rigorous enclosures at arbitrary precision.
 
-```python
-from flint import arb, ctx
-ctx.prec = 200
-a, b = arb('0.00361491'), arb('0.00372577')
-assert a < b                      # certified, not a float comparison
-a / b                             # [0.97024507685659608617815914562627 +/- 4.71e-60]
-```
+**CORRECTION 2026-08-03.** The worked example that previously stood here
+enclosed the RB7 auxiliary-norm ratio `0.00361491/0.00372577` to 60 digits.
+That was the wrong target: the 2026-08-03 numerical-robustness audit showed
+both inputs are finite-difference artifacts (the exact value of the vertical
+residual is 0; the quoted digits are machine-dependent at the second decimal),
+so the enclosure certified two decimal literals, not the computed tensor.
+Rigorous enclosure of a discretization artifact converts a soft error into a
+hard-looking one — enclose only quantities whose discretization error is
+controlled or absent. A correct worked target from the same campaign is the
+RB7 mixed-Gram identity `H_mix = (9/32)(I + T_tr)`, which is an exact rational
+statement (verify symbolically in sympy, or enclose the residual of the
+identity, which converges to zero under exact derivatives).
 
-This upgrades grade without changing method or conclusion. See the ledger
-vocabulary in `lean-verification-lane-LEDGER.md`.
+This upgrades grade without changing method or conclusion where the target is
+sound. See the ledger vocabulary in `lean-verification-lane-LEDGER.md`.
 
 ## Deliberately not adopted
 
