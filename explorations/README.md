@@ -13,15 +13,23 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B1 source-coordinate and section-JVP prerequisite`](pw2fr2b1-section-jvp-source-coordinate-2026-08-02.md)
+  corrects the literal fixed-`varpi` tangent, differentiates the normal-frame
+  section/Zorro identity as one graph, proves first-JVP ownership insufficient
+  for an off-shell pulled Hessian, and installs the exact rank-35 quartic
+  extraction/proportionality gate. R2B2A must order-filter the fourteen
+  second-Fréchet candidates, then build or annihilate the C4-capable branches;
+  the actual induced-`Y14` C4 remains open.
 - [`PW2F-R2A action-derived eddy candidate and universal-kappa discriminator`](pw2fr2-total-swervature-kappa-2026-08-02.md)
   derives a live noncyclic directional Euler-covector remainder, an eddy
   candidate not yet identified with Portal's eddy, from the source-pinned action and
   proves that no single constant `kappa1` cancels either of two complete exact
   finite background families. This kills an action-intrinsic universal
   cancellation, not an exceptional value on the constrained actual induced-
-  `Y14` locus. PW2F-R2B must assemble that locus's complete C4, including the
-  section/Zorro JVP, moving coefficient and graph-curvature terms, and native
-  Green agreement. P1/P2/P3 remain unused.
+  `Y14` locus. R2B1 now supplies the corrected source tangent, section JVP,
+  and complete quartic extractor; R2B2A must audit principal order and assemble
+  the C4-capable moving-coefficient and graph-curvature terms with native Green agreement.
+  P1/P2/P3 remain unused.
 - [`PW2F-R corrected induced metric graph and highest-order Euler gate`](pw2fr-complete-derived-k-c3-2026-08-02.md)
   restores the derivative-bearing `Z1(nabla k)` route omitted by PW2F. The
   ten-owner metric and LC/spin banks have exact rank ten; an executable

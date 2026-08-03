@@ -7,27 +7,43 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 PW2F-R2A ACTION-DERIVED EDDY CANDIDATE; ACTUAL-Y14 C4 GATE NEXT.**
-> PW2F-R2A removes one ambiguity left by PW2F-R. The Portal “quadratic eddy”
-> is not inserted as another action term: the candidate is derived as the
-> directional Euler-covector remainder of the pinned one-half/one-third action.
-> Its identity with Portal's full eddy tensor is `SOURCE-SILENT`, and the
-> contraction insertion is frozen during field variation here. The remainder
-> is zero in the cyclic identity-contraction control, nonzero in the noncyclic
-> fixture, exactly `-15 r^2` at the true `B=dB=0` flat reference, and passes
-> exact constant-conjugation witnesses when the insertion gauge-co-moves. On
-> a complete exact ambient independent-`(B,T)` finite fixed-total-connection
-> family, the cyclic and moving C4 comparators are
-> `7 kappa1+6x-3` and `7 kappa1+8x-10`. Each background can be tuned, but its
-> required root changes with `x`; no one action-intrinsic constant `kappa1`
-> cancels either whole family. This does not kill a special proportionality on
-> the constrained induced-`Y14` locus. PW2F-R2B must build one differentiated
-> section/Zorro JVP, partial-`Z1`, complete `theta1` and `Bhat2`, every moving-
-> Shiab/density/Krein/lowerer path, both Hessian graph-curvature terms, and the
-> exact 35-monomial conormal C4 polynomial with native direct/reverse/
-> presymplectic Green agreement. `C3`, lower `C2`, the literal native Ward, and
-> PW3 remain blocked behind that calculation. The current Green checks are
-> formal scalar-jet identities, not an analytic or Krein/right-`H` domain.
+> **2026-08-02 PW2F-R2B1 SOURCE-TANGENT/SECTION-JVP PREREQUISITE PASS;
+> SECOND-FRÉCHET C4 GATE NEXT.** PW2F-R2B1 corrects a load-bearing shorthand.
+> In literal source coordinates
+> `B_full=Gamma(g)+q_g(epsilon)`, `T=varpi-q_g(epsilon)`, and
+> `A_total=Gamma(g)+varpi`; hence fixed-`varpi` variation gives
+> `deltaT=-deltaq`, not `-deltaB_full`. The forbidden shortcut would delete
+> the already-live `(D_g Gamma)^! E_T` source-coordinate return. The swing then
+> differentiates the normal-frame section/Zorro identity as one graph:
+> `delta C_i,ab=partial_i k_ab` for all ten `Sym2` owners and
+> `delta(s_g^*theta)=0`. The exact B2C15P connection metric still pulls back to
+> `g` through second base order; freezing the horizontal graph creates 40
+> defects and a spurious trace-reversed DeWitt mixed Hessian `12`.
+>
+> The decisive new theorem is that the current first-JVP inventory cannot
+> determine an off-shell pulled Hessian, because
+> `D2(S∘F)=J* H J + <E,D2F>` and two exact graphs with the same value/JVP can
+> differ in the second term. R2B1 also installs the complete base-conormal
+> extractor: 35 degree-four monomials, an exact rank-35 Vandermonde, three
+> owner-pair and three held-out reconstructions, and a global coefficientwise
+> `kappa1` proportionality gate. The old five-conormal panel is provably
+> incomplete because nonzero `eta_2^4` vanishes on all five points.
+>
+> PW2F-R2B2A must now order-filter the fourteen second-Fréchet candidates,
+> build or exactly annihilate the branches that can reach `C4`—especially the
+> `h/theta1/Bhat2` and moving-coefficient routes—retain both Hessian terms,
+> extract all 35 monomials, and reconcile Helmholtz, direct, reverse, and
+> presymplectic Green routes. Lower-order second-derivative debt carries to the
+> later complete `C3/C2` and full-Hessian stages.
+> `C3`, lower `C2`, the literal native Ward, and PW3 remain blocked behind that
+> calculation. This is not hardening for its own sake: R2B1 proves the missing
+> second graph is uncontrolled off shell, while leaving which candidates are
+> nonzero and degree four for the principal-order audit.
+>
+> PW2F-R2A remains the predecessor result: it derives a directional
+> Euler-covector remainder/eddy candidate and rejects one universal constant
+> `kappa1` on two ambient independent-`(B,T)` finite action families, without
+> killing an exceptional value on the constrained induced-`Y14` locus.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -57,9 +73,11 @@ updated_at: "2026-08-02"
 > scoped PW2F-R result in
 > `explorations/pw2fr-complete-derived-k-c3-2026-08-02.md`, and the scoped
 > PW2F-R2A result in
-> `explorations/pw2fr2-total-swervature-kappa-2026-08-02.md`.
+> `explorations/pw2fr2-total-swervature-kappa-2026-08-02.md`, and the R2B1
+> prerequisite in
+> `explorations/pw2fr2b1-section-jvp-source-coordinate-2026-08-02.md`.
 > Resume at
-> `PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4`.
+> `PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

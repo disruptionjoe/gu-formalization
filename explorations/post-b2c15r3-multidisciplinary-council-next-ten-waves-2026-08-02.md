@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2A / PW2F-R2B NEXT. PW2F-R2A derives a directional Euler-covector remainder and eddy candidate from the source-pinned action, then rejects one universal constant kappa1 across two exact ambient independent-(B,T) finite families. The source is silent on that identification and theorem; the actual induced-Y14 exceptional locus remains open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B1 / PW2F-R2B2A NEXT. R2B1 corrects the literal fixed-varpi tangent, constructs the one-graph section/Zorro JVP, proves first-JVP data insufficient for the off-shell Hessian, and installs an exact 35-monomial quartic gate. The complete second-Frechet induced-Y14 C4 remains open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -294,7 +294,7 @@ unexecuted.
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — PW2F-R2A PARTIAL PASS / PW2F-R2B REQUIRED** | PW2F-R restores the derivative-bearing `Z1` graph. PW2F-R2A then derives a live noncyclic directional Euler-covector remainder and eddy candidate from the pinned action and proves that the finite cyclic and moving C4 families are `7 kappa1+6x-3` and `7 kappa1+8x-10`. Their cancellation roots vary with the background, so no universal action-intrinsic constant `kappa1` exists on the ambient independent-`(B,T)` finite family. This is not a Portal-eddy identification or the complete induced-`Y14` metric graph. | Does the complete section/Zorro JVP plus `theta1`, `Bhat2`, moving-Shiab, graph-curvature, and pairing C4 restrict to a special proportional geometric locus, or remain fourth order? | PW2F-R2B constructs the actual degree-four 35-monomial conormal polynomial and validates direct/reverse/presymplectic Green equality. Only then may the campaign classify `C3`, lower `C2`, and the literal native Ward. Public-bundle, analytic domain, BV, quotient, observation, and physics burdens remain. |
+| **PW2 — full jet and effective operator — PW2F-R2B1 PREREQUISITE PASS / PW2F-R2B2A REQUIRED** | R2B1 corrects `T=varpi-q`, differentiates the section/Zorro identity as one graph, preserves the live Levi-Civita Euler return, proves first-JVP ownership insufficient off shell, and builds the exact rank-35 quartic extraction/proportionality gate. It leaves every candidate's actual principal order and nonvanishing open. | Which of the fourteen second-Fréchet candidates can reach C4, and does the resulting `theta1/Bhat2`/moving-coefficient graph restrict to a special proportional geometric locus or remain fourth order? | PW2F-R2B2A first order-filters every candidate, then constructs or exactly annihilates each C4-capable branch before extracting the 35-monomial C4 and validating Helmholtz plus direct/reverse/presymplectic Green equality. Lower-order debt carries forward. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -382,6 +382,18 @@ two C4 families are `7 kappa1+6x-3` and `7 kappa1+8x-10`, so no one constant
 `kappa1` cancels either whole ambient family. Hostile review corrected the
 flat branch to `B=dB=0`, added held-out and independent Frechet checks, made
 `SOURCE-SILENT` the leading disposition, and preserved the actual induced-
-`Y14` exceptional locus. The next gate is
-`PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4`.
+`Y14` exceptional locus. PW2F-R2B1 then corrected the literal fixed-varpi
+tangent to `deltaT=-deltaq`, not minus the full connection variation, and
+preserved the live `(D_g Gamma)^!E_T` return. Its unified normal-frame
+section/Zorro JVP closes for all ten metric owners; the exact reconstructed
+LC-horizontal curved second-base-jet pullback passes while a frozen-horizontal
+plant has 40 defects. A
+paired exact theorem shows why value plus first JVP cannot determine the
+off-shell pulled Hessian without `<E,D2 graph>`. Finally, its exact rank-35
+quartic basis reconstructs three owner-pair columns at three held-outs, and a
+nonzero `eta_2^4` plant proves the predecessor five-conormal panel incomplete.
+The abstract Hessian witness leaves second-graph terms uncontrolled; it does
+not prove all fourteen candidates are nonzero or degree four.
+The next gate is
+`PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH`.
 PW3 stays blocked. P1/P2/P3 remain correctly unused.

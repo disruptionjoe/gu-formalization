@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260803-023816-gu-formalization-pw2fr2b1-section-jvp-source-coordinate",
+  "gate": "PW2F-R2B1-SECTION-JVP-SOURCE-COORDINATE-AND-QUARTIC-BASIS",
+  "status": "PARTIAL_CONSTRUCTION_PASS_AFTER_HOSTILE_REPAIR",
+  "layer0": {
+    "q_source": "q_g(epsilon), the ad(P)-valued connection one-form/difference derived from H-valued epsilon and measured relative to Gamma(g)",
+    "B_full": "Gamma(g)+q_g(epsilon), the full gauge-rotated reference connection",
+    "T": "varpi-q_g(epsilon), not varpi-B_full",
+    "A_total": "Gamma(g)+varpi=B_full+T",
+    "section_pullback": "s_g^* G_Y=g, an observation/section identity",
+    "observation_current": "a separate section-supported distributional object, excluded from this smooth bulk calculation",
+    "constrained_hessian": "J^* H_action J + pairing(E_action,D2 graph)",
+    "c4": "matrix-valued homogeneous degree-four equation-dual coefficient over four base conormal variables"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "omega=(epsilon,varpi) and the connection-difference grammar",
+      "varpi is measured relative to the Levi-Civita connection while T is measured relative to its gauge rotation",
+      "the Zorro chain sends connection data on X to a metric and then Levi-Civita/spin data on Y",
+      "the one-half and one-third first-action transgression coefficients"
+    ],
+    "REPOSITORY_DERIVES": [
+      "q versus B_full correction and deltaT=-deltaq at fixed varpi",
+      "the live (D_g Gamma)^! E_T source-coordinate return",
+      "normal-frame section/Zorro first-JVP cancellation",
+      "first-order inventory insufficiency off shell and the exact 35-monomial extraction gate"
+    ],
+    "SOURCE_SILENT": [
+      "identity of source epsilon and repository h=exp(u)",
+      "theta1/Bhat2 and the complete second Frechet moving-action graph",
+      "the actual induced-Y14 C4 and any exceptional universal kappa1"
+    ],
+    "LEADING_DISPOSITION": "SOURCE-SILENT on the decisive complete second-Frechet graph, actual induced-Y14 C4, and kappa1"
+  },
+  "exact_results": {
+    "literal_fixed_varpi_tangent": "deltaT=-deltaq; deltaB_full=deltaGamma+deltaq; deltaT+deltaB_full=deltaGamma is live",
+    "source_metric_return": "E_g_fixed_varpi=E_g_fixed_A+(D_g Gamma)^!E_T with nonzero correction on the B2C15O fixture",
+    "section_first_jvp": "deltaC_i,ab=partial_i k_ab for all ten Sym2 owners, hence delta(s_g^*theta)=0",
+    "section_second_base_jet": "the exact reconstructed LC-horizontal B2C15P connection metric satisfies s_g^*G_Y=g through second base order; this is not a source-unique or global actual-GU metric, and the product/frozen-horizontal plant has 40 defects",
+    "frozen_section_plant": "nonzero spurious trace-reversed DeWitt mixed Hessian 12",
+    "off_shell_hessian": "two graphs with identical value and first JVP differ by pairing(E,D2 graph); the difference vanishes on shell as a control",
+    "quartic_basis": "35 homogeneous degree-four monomials with an exact rank-35 simplex-lattice Vandermonde",
+    "quartic_reconstruction": "three owner-pair coefficient columns reconstructed exactly with three held-out conormals",
+    "five_panel_counterexample": "nonzero eta_2^4 vanishes on every predecessor five-panel conormal",
+    "universal_kappa_gate": "flatten every owner-pair/monomial coefficient and classify NONE, ANY, or UNIQUE(kappa); one corrupted coefficient kills global proportionality"
+  },
+  "second_frechet_candidate_audit": [
+    "trace_gamma",
+    "Phi1_first",
+    "Hodge_first",
+    "Phi1_outer",
+    "Phi2",
+    "Hodge_inner",
+    "Hodge_middle",
+    "Hodge_outer",
+    "density",
+    "Krein_pairing",
+    "input_lowerer",
+    "output_lowerer",
+    "outer_pairing",
+    "h_theta1_Bhat2"
+  ],
+  "verdict_scope": {
+    "earned": "the source-coordinate correction, unified normal-frame section JVP, exact off-shell insufficiency theorem, and complete quartic extraction/proportionality gate",
+    "not_computed": "the owner-by-owner principal-order audit; C4-capable second Frechet graph and exact annihilation of the other C4 candidates; partial-Z1 decomposition; exact theta1/Bhat2 response; full actual-Y14 C4; direct/reverse/presymplectic agreement; Helmholtz symmetry; C3; domain; quotient; observation; or physics",
+    "consequence": "the previous five-conormal/first-derivative inventory cannot certify or refute an exceptional actual-Y14 kappa1; the abstract witness leaves second-graph terms uncontrolled but does not prove every candidate is nonzero or degree four"
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence": {
+    "main_probe": "23 exact + 11 type + 10 planted = 44 PASS",
+    "source_probe": "2 exact + 6 source + 8 type + 6 planted = 22 PASS",
+    "post_review": "three specialist verdicts PASS_AFTER_REPAIR; q typed as ad(P)-valued, all eight source/control artifacts hash-pinned, predecessor assertions made exact, B2C15P scoped to reconstructed LC-horizontal geometry, actual D2/C4 nonvanishing demoted to uncontrolled, principal-order audit inserted, and kappa gate split into NONE/ANY/UNIQUE"
+  },
+  "next_gate": "PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH"
+}
