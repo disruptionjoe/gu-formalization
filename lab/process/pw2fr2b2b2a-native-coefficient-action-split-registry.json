@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260803-080313-gu-formalization-pw2fr2b2b2a-coefficient-action-split",
+  "gate": "PW2F-R2B2B2A-ACTIVE-MOVING-SHIAB-COEFFICIENT-SLOTS-AND-STAGED-ACTION-SPLIT",
+  "status": "ACTIVE_CONTRACTED_MOVING_SHIAB_AND_FINITE_FIVE_SLOT_ACTION_SPLIT_PREREQUISITE_PASS_COMPLETE_NATIVE_C5_C4_OPEN",
+  "layer0": {
+    "source_graph": "source epsilon, q_g(epsilon), Gamma(g), full connection, distortion, and repository h/u reduction data remain distinct",
+    "carrier": "active trace-reversed (9,5) right-H/Krein port is not identified with the source (7,7) real arena",
+    "actions": "source-directed I1 and manuscript I2B residual square are differentiated separately",
+    "slot_scope": "the active moving-Shiab coefficient is repository exact; the five deterministic noncommuting slot matrices certify ownership and order but are not the actual induced-Y14 coefficient tensors"
+  },
+  "active_native_coefficient": {
+    "construction": "one coefficient of the exact B2C15M trace/Phi/Hodge metric derivative on the active trace-reversed Shiab graph, paired through the same top-form contraction",
+    "owner": 0,
+    "value": "-sqrt(6)/24",
+    "grade": "REPOSITORY_DERIVED_ACTIVE_NATIVE_CONTRACTED_COEFFICIENT"
+  },
+  "finite_ordered_product_rule": {
+    "factors": [
+      "density",
+      "outer_pairing",
+      "output_lowerer",
+      "Krein",
+      "input_lowerer",
+      "moving_Shiab_coefficient"
+    ],
+    "assembly": "6 intrinsic mixed derivatives plus 30 ordered cross derivatives equal direct mixed differentiation exactly",
+    "complete_return": "5*sqrt(6)/12",
+    "same_pipeline_slot_crosses": {
+      "density": "-sqrt(6)/6",
+      "outer_pairing": "5*sqrt(6)/6",
+      "output_lowerer": "sqrt(6)/12",
+      "Krein": "-sqrt(6)/6",
+      "input_lowerer": "-sqrt(6)/6"
+    },
+    "controls": {
+      "all_five_slots_frozen": "0",
+      "output_lowerer_Krein_reordered": "0",
+      "disposition": "both differ from the complete ordered return"
+    }
+  },
+  "staged_action_hessians": {
+    "I1_finite_source_directed_comparator": "-13*sqrt(6)/4",
+    "I2B_finite_active_residual_square": "6182 - 67*sqrt(6)/3",
+    "I2B_normal_JstarRJ": "0 on the selected mixed fixture",
+    "I2B_residual_times_second_graph": "224",
+    "I2B_moving_primalizer": "5958 - 67*sqrt(6)/3",
+    "identity": "direct I2B mixed Hessian equals normal plus residual-times-second-graph plus moving-primalizer returns",
+    "residual_zero_control": "reduces exactly to the normal JstarRJ term",
+    "verdict": "I1 and I2B finite Hessians are inequivalent and cannot stand silently for one another"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "first-order-total and second-order-sourced equation alternatives",
+      "the manuscript residual norm glyph"
+    ],
+    "SOURCE_CORRECTS": [
+      "Shiab is contraction rather than projection"
+    ],
+    "REPOSITORY_DERIVES": [
+      "active trace-reversed contracted moving-Shiab coefficient",
+      "ordered six-factor product-rule certificate",
+      "finite I1/I2B action-separation witness"
+    ],
+    "SOURCE_SILENT": [
+      "actual induced-Y14 density/Krein/lowerer/outer-pairing coefficient tensors",
+      "epsilon-to-q/u second graph on the active port",
+      "complete source-coordinate C5/C4 and 35-monomial bank",
+      "relative staged-action normalization"
+    ]
+  },
+  "hostile_reviews": {
+    "representation_geometry": "PASS_AFTER_SCOPE: one contracted active moving-Shiab coefficient is exact; the five finite slot matrices are not promoted to actual induced-Y14 tensors",
+    "variational_pde": "PASS_AFTER_SCOPE: the ordered finite product rule and separate action Hessians close exactly with frozen, reordered, off-shell, and residual-zero controls; no differential-order claim is made",
+    "source_layer0": "PASS_AFTER_SCOPE: source alternatives and norm are pinned; repository coefficient/action constructions remain repository-derived and the (7,7)/(9,5) carrier fork stays open"
+  },
+  "evidence": {
+    "main_probe": "18 exact + 3 source + 17 type + 11 planted = 49 PASS"
+  },
+  "verdict_scope": {
+    "earned": "one exact active contracted moving-Shiab coefficient, complete finite ordered five-slot product-rule accounting, and separate finite I1/I2B Hessian certificate",
+    "not_earned": "actual induced-Y14 five coefficient tensors; native epsilon-to-q/u second graph; complete C5/C4 or 35-monomial banks; independent reverse/Green route; C3/C2; characteristic; domain; quotient; observation; or physics"
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2B-ACTUAL-INDUCED-Y14-EPSILON-GRAPH-AND-35-MONOMIAL-C5-C4"
+}

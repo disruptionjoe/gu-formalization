@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2a_native_coefficient_action_split_probe.py`
+  extracts one exact contracted active moving-Shiab coefficient, enumerates
+  the complete ordered finite density/Krein/lowerer/pairing product rule, and
+  differentiates finite `I1` and `I2B` Hessians separately with frozen,
+  reordered, off-shell, and residual-zero controls. The five slot matrices
+  are ownership/order fixtures, not actual induced-`Y14` tensors. Run it with
+  `uv run --with sympy --with numpy python`.
 - `channel-swings/pw2fr2b2b1_source_comoving_second_graph_probe.py` builds an
   exact finite source `q/Gamma` split and one repository-derived co-moving
   `h/theta1/Bhat2` graph. It verifies affine split identities, curvature

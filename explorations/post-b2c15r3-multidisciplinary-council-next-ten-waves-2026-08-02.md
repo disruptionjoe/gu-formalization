@@ -15,6 +15,16 @@ public_posture_change: none
 
 # Post-B2C15R3 multidisciplinary council
 
+> **2026-08-03 R2B2B2A successor checkpoint.** The scaffold's original
+> R2B2B1 frontier remains the frozen council basis. The successor now proves
+> one exact contracted active moving-Shiab coefficient is live, carries it
+> through a complete finite ordered five-slot product rule, and differentiates
+> finite `I1` and `I2B` Hessians separately. Hostile review retains the five
+> finite slot matrices as ownership/order fixtures rather than actual
+> induced-`Y14` tensors. Resume at
+> `PW2F-R2B2B2B-ACTUAL-INDUCED-Y14-EPSILON-GRAPH-AND-35-MONOMIAL-C5-C4`.
+> P1/P2/P3, Curt, and the conjunctive third-lane gate are unchanged.
+
 ## Outcome first
 
 The campaign is making real construction progress, and it is still pursuing

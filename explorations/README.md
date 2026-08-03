@@ -13,14 +13,23 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2A active moving-Shiab coefficient slots and staged-action split`](pw2fr2b2b2a-native-coefficient-action-split-2026-08-03.md)
+  extracts one exact contracted active `(9,5)` moving-Shiab coefficient,
+  proves the complete finite ordered five-slot product rule with every slot
+  live, and differentiates finite `I1` and `I2B` Hessians separately. The five
+  deterministic slot matrices are ownership/order fixtures, not the actual
+  induced-`Y14` tensors; the active epsilon graph and 35-monomial C5/C4 bank
+  remain open for R2B2B2B. P1/P2/P3 remain unused; Curt and the third-lane
+  gate are unchanged.
 - [`PW2F-R2B2B1 source split and co-moving second-graph prerequisite`](pw2fr2b2b1-source-comoving-second-graph-2026-08-03.md)
   constructs an exact finite `q/Gamma` source chart, proves the old
   `-deltaB_full` shortcut misses a live `-deltaGamma` return, and builds one
   repository-derived co-moving `h/theta1/Bhat2` second graph. Direct and
   two-term pullback Hessians agree; the off-shell `E*D2F` return is live and
   the on-shell control vanishes. This is not the native induced-`Y14` C5/C4
-  calculation or either `I1`/`I2B` Hessian. R2B2B2 owns that port and the five
-  coefficient slots. P1/P2/P3 remain unused; Curt and the third-lane gate are
+  calculation or either `I1`/`I2B` Hessian. R2B2B2A now supplies the finite
+  coefficient/action-split prerequisite; R2B2B2B owns the actual port and
+  complete bank. P1/P2/P3 remain unused; Curt and the third-lane gate are
   unchanged.
 - [`PW2F-R2B2A partial moving-C4 comparator and source-tangent block`](pw2fr2b2a-second-frechet-c4-graph-2026-08-02.md)
   reconstructs an exact rank-35 fixed-total-connection quartic bank with

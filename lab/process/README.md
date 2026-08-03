@@ -38,13 +38,21 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2a-native-coefficient-action-split-registry.json` -
+  PW2F-R2B2B2A prerequisite ledger: records one exact active contracted
+  moving-Shiab coefficient, complete finite ordered five-slot product-rule
+  accounting, separately differentiated finite `I1`/`I2B` Hessians, and the
+  hostile boundary that the deterministic slot matrices are not the actual
+  induced-`Y14` tensors. R2B2B2B owns the active epsilon graph and complete
+  35-monomial C5/C4 bank.
 - `pw2fr2b2b1-source-comoving-second-graph-registry.json` - PW2F-R2B2B1
   prerequisite ledger: records the exact finite `q/Gamma` split, the live
   `-deltaGamma` shortcut defect, one-frame affine/homogeneous transport, an
   independently assembled live `Bhat2`, and the off-shell two-term Hessian
   return. It explicitly leaves the native induced-`Y14` C5/C4, five
   coefficient slots, same-pipeline moving liveness, and separate `I1`/`I2B`
-  Hessians open for R2B2B2.
+  Hessians open. R2B2B2A closes only the finite coefficient/action-split
+  prerequisite; R2B2B2B owns the actual induced tensors and complete bank.
 - `pw2fr2b2a-second-frechet-c4-graph-registry.json` - PW2F-R2B2A ledger:
   preserves the exact rank-35 partial fixed-total-connection comparator while
   recording the hostile complete-C4 block: source-coordinate `q/Gamma` split,

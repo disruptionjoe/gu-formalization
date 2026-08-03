@@ -7,6 +7,34 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2A ACTIVE COEFFICIENT/ACTION-SPLIT
+> PREREQUISITE PASS; COMPLETE NATIVE C5/C4 STILL OPEN.** One exact coefficient
+> of the active trace-reversed `(9,5)` trace/Phi/Hodge moving-Shiab derivative
+> survives the same top-form contraction with value `-sqrt(6)/24`. Carrying it
+> through ordered density, outer-pairing, output-lowerer, Krein, and
+> input-lowerer slots gives a direct mixed return equal to the independently
+> enumerated six intrinsic plus thirty ordered cross terms. Every named slot
+> has a live isolated cross; freezing all five or reordering the output/Krein
+> factors changes the result.
+>
+> Separate finite differentiation gives `I1=-13*sqrt(6)/4` and
+> `I2B=6182-67*sqrt(6)/3`. The latter splits exactly into normal,
+> residual-times-second-graph, and moving-primalizer returns; the last two are
+> separately live off shell and vanish back to the normal term in the
+> residual-zero control. Thus the two staged actions cannot stand silently
+> for one another.
+>
+> Hostile review keeps the five deterministic slot matrices at finite
+> ownership/order-fixture grade: they are not the actual induced-`Y14`
+> coefficient tensors. Resume at
+> `PW2F-R2B2B2B-ACTUAL-INDUCED-Y14-EPSILON-GRAPH-AND-35-MONOMIAL-C5-C4`:
+> port the R2B2B1 `q/Gamma/Bhat2` dependency into the active epsilon graph,
+> replace the fixtures by the actual coefficient tensors, and compute complete
+> C5 before C4 on the 35-monomial bank for `I1` and `I2B` separately.
+> P1/P2/P3, Curt, and `TG-1 AND TG-2 AND TG-3` remain unchanged. The scoped
+> result is
+> `explorations/pw2fr2b2b2a-native-coefficient-action-split-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B1 SOURCE-SPLIT / CO-MOVING SECOND-GRAPH
 > PREREQUISITE PASS; COMPLETE C5/C4 STILL OPEN.** An exact finite
 > noncommutative chart now keeps `B_full=Gamma+q`, `T=varpi-q`, and
