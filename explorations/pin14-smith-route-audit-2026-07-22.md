@@ -105,3 +105,15 @@ missing operator/domain/line-bundle map.
 
 `tests/channel-swings/pin14_smith_degree_gate.py` is deterministic, standard-library only, and returns
 `PIN14-EXACT-Z2`.  It is a bookkeeping/type gate, not a replacement for the cited theorems or table.
+
+## Promotion note (2026-08-03; register M-M11)
+
+The result is now canon at **derivation grade**: `canon/pin14-bordism-derivation-RESULTS.md`
+computes the multiplicity that this file closed by reciting Kirby--Taylor's `A(14) = 1`
+(via the ABP splitting through degree 15 calibrated against `Omega^Spin_8..14`, the
+`ko`-homology of `BZ/2`, and the `Sq^2 = C(5,2) = 0 mod 2` Postnikov step), demoting the
+Kirby--Taylor table to a cross-check and satisfying the portfolio's planted-toy
+anti-recitation gate.  This file's Smith reduction and type checks are unchanged inputs;
+its "direct table closes the remaining multiplicity" step is superseded.  Both
+"Not settled" items above (whether GU supplies a Pin-plus family; whether the sigma datum
+hits the nonzero class) remain OPEN and are restated in the canon file.

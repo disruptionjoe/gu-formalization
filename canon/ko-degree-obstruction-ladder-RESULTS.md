@@ -1,9 +1,9 @@
 ---
-title: "The KO-degree obstruction ladder: 'located, not forced' upgraded from EMPIRICAL to PARTIALLY STRUCTURAL. A theorem-grade GU-independent disjointness core (anything valued in a finite 2-group or a torsion-free integer index cannot carry the CRT-disjoint order-3 class) + 5 of 7 enumerated obstructions proven-2-primary-by-KO/Spin/Pin-type from cited primary sources. Two rungs (free integer indices) and the exhaustiveness-by-type premise stay open. Caught and corrected a real canon error: e_R=1/12 is NOT the order-3 element (it is order-12, mixed); the order-3 carrier is 8*nu."
+title: "The KO-degree obstruction ladder: 'located, not forced' upgraded from EMPIRICAL to PARTIALLY STRUCTURAL. A theorem-grade GU-independent disjointness core (anything valued in a finite 2-group or a torsion-free integer index cannot carry the CRT-disjoint order-3 class) + 4 of 7 enumerated obstructions proven-2-primary-by-KO/Spin/Pin-type from cited primary sources (was 5 of 7; Rokhlin rung retyped free-integer 2026-08-03, audit HB-05). Three rungs (free integer indices) and the exhaustiveness-by-type premise stay open. Caught and corrected a real canon error: e_R=1/12 is NOT the order-3 element (it is order-12, mixed); the order-3 carrier is 8*nu."
 status: staged
 doc_type: results
 created: 2026-07-10
-grade: "COMPUTED / exact (ko_ladder.py 52 asserts exit 0; independent referee 34 asserts exit 0; both re-run in-repo). Adversarially verified: 1 build + hostile math referee + overclaim auditor + completeness critic; NOT REFUTED; overclaim flagged and scoped (below). All 8 load-bearing group facts VERIFIED from primary sources this run (pi_3^s=Z/24 nLab; Im J_3=24 Adams/Wikipedia; e_KO(nu)=1/24 nLab; Omega^Pin+_4=Z/16 Kirby-Taylor CMH 65 (1990); Omega^Pin-_2=Z/8 ABK; Omega^Spin_* 2-primary ABP 1967; KO torsion Z/2 Bott; spinor dim 2^floor(m/2) ABS). Internal tier (caveat (e)) for the GU-facing corollary; the disjointness core is GU-INDEPENDENT theorem-grade. No claim-ledger row moves; the generation count stays OPEN; the FORCE step (order-3-class -> integer 3) stays the single open conjecture."
+grade: "COMPUTED / exact (ko_ladder.py 50 asserts exit 0; independent referee 34 asserts exit 0; both re-run 2026-08-03 after the HB-05 retype). Adversarially verified: 1 build + hostile math referee + overclaim auditor + completeness critic; NOT REFUTED; overclaim flagged and scoped (below). All 8 load-bearing group facts VERIFIED from primary sources (pi_3^s=Z/24 nLab; Im J_3=24 Adams/Wikipedia; e_KO(nu)=1/24 nLab; Omega^Pin+_4=Z/16 Kirby-Taylor CMH 65 (1990) [group fact stands, but per the 2026-08-03 HB-05 correction below it no longer TYPES the Rokhlin rung]; Omega^Pin-_2=Z/8 ABK; Omega^Spin_* 2-primary ABP 1967; KO torsion Z/2 Bott; spinor dim 2^floor(m/2) ABS). Internal tier (caveat (e)) for the GU-facing corollary; the disjointness core is GU-INDEPENDENT theorem-grade. No claim-ledger row moves; the generation count stays OPEN; the FORCE step (order-3-class -> integer 3) stays the single open conjecture."
 depends_on:
   - canon/two-primary-lemma.md
   - canon/three-generations-locate-not-force-CRT-RESULTS.md
@@ -28,7 +28,7 @@ any invariant valued in a finite 2-group of order `2^k`, or in a torsion-free in
 carry the order-3 class -- because `gcd(3, 2^k) = 1` and `Hom(Z/24, Z) = 0`.** This is where "locate,
 not force" gets its teeth, and it is unconditional arithmetic.
 
-## The ladder: 5 of 7 rungs proven-2-primary-by-type
+## The ladder: 4 of 7 rungs proven-2-primary-by-type (corrected 2026-08-03; was 5 of 7)
 
 | # | obstruction | KO/Spin/Pin type | group | 2-primary? | grade |
 |---|---|---|---|---|---|
@@ -36,15 +36,32 @@ not force" gets its teeth, and it is unconditional arithmetic.
 | 2 | real/pseudoreal mod-2 index (Witten) | KO mod-2 Dirac index (ABS alpha) | Z/2 | yes (Bott) | **structural** |
 | 3 | cross-chirality Krein signature `(+96,-96)` | symmetric-form signature | Z (free) | no torsion | BLOCKED (free integer index) |
 | 4 | adjoint Dirac index `4k/12k/24k` | twisted Dirac index (Atiyah-Singer) | Z (free) | no torsion | BLOCKED (24=8*3: the 3 is a Dynkin MULTIPLICAND, never a mod-3 congruence) |
-| 5 | Rokhlin mod 16 | `Omega^{Pin+}_4` | Z/16 = Z/2^4 | yes | **structural** (Kirby-Taylor CMH 65) |
+| 5 | Rokhlin mod 16 | spin-4-manifold signature: 2-power DIVISIBILITY of a free integer index (`sigma/16`) *(HB-05 retype; was `Omega^{Pin+}_4`)* | `Omega^Spin_4` = Z (free) | congruence content is mod 2^4 (unaffected) | BLOCKED (free integer index) |
 | 6 | spinor 2-smoothness | Clifford module rank (ABS) | `2^floor(m/2)` | yes (power of 2) | **structural** |
 | 7 | ghost-parity no-go | Z/2 Krein grading | Z/2 | yes | **structural** (net-0 rides rung 3) |
 
-5 structural (1,2,5,6,7), 2 BLOCKED (3,4 -- free integer indices; `Z` carries no torsion, so they miss
+4 structural (1,2,6,7), 3 BLOCKED (3,4,5 -- free integer indices; `Z` carries no torsion, so they miss
 the order-3 class too, but their blindness is contingent on the torsion-count reading, not a 2-group
 fact). Rung-1 degree label refinement (referee): the Z/2 is the Kramers mod-2 parity, not `KO^{-4}`
 torsion (`KO^{-4}=KSp=Z` is free) -- the 2-primary conclusion holds, the "by-KO-degree" attribution is
 a mod-2 parity statement.
+
+> **CORRECTION 2026-08-03 (eleven-lens audit HB-05; register M-M13; dated).** Rung 5 RETYPED.
+> Rokhlin's theorem is the statement `sigma(spin X^4) = 0 mod 16` about the **free integer**
+> signature index: it lives in `Omega^Spin_4 = Z` (generated by K3, `sigma = -16`; `sigma/16` is an
+> isomorphism onto `Z`), NOT in `Omega^{Pin+}_4 = Z/16`. Kirby-Taylor's `Omega^{Pin+}_4 = Z/16` is a
+> true, still-VERIFIED group fact -- but it is a **different group carrying a different theorem**
+> (the two 16s are related through Guillou-Marin characteristic-surface arithmetic, not equal).
+> Under this ladder's own typing rule (finite-2-group-valued vs free-integer-index) the rung
+> therefore moves from "structural by type" to the free-integer-index class, and the honest tally is
+> **4 structural + 3 blocked** (was 5 + 2). The 2-primarity of the Rokhlin statement itself (a
+> mod-2^4 congruence) is UNAFFECTED; the blindness conclusion is unchanged on every rung
+> (`gcd(3, 2^k) = 1` for the 2-group rungs, `Hom(Z/24, Z) = 0` for the free rungs); **no verdict
+> changes**. Both certificates were updated and re-run green the same day (`ko_ladder.py` 50
+> asserts, `referee_ko_ladder.py` 34 asserts, both exit 0), and the consumer text in
+> `canon/two-primary-lemma.md` (UPGRADE note) and `tests/ko-ladder/ko_ladder_analysis.md` carries
+> the same dated correction. Note the enumeration item 5 of `canon/two-primary-lemma.md` ("a
+> statement modulo 2^4 [2-primary, standard theorem]") was always correct and stands as written.
 
 ## Two things the referees caught (both make the result more honest)
 
@@ -93,16 +110,18 @@ universalization over all GU obstructions is BLOCKED.**
 ## Strongest weakest-defensible sentence
 
 In `pi_3^s = Z/24 = Z/8 (+) Z/3`, each of the seven enumerated GU generation-sector obstructions is
-valued either in a finite 2-group (rungs 1,2,5,6,7 -- `Z/2`, `Z/16`, `2^floor(m/2)`, by Bott,
-Kirby-Taylor's `Omega^{Pin+}_4 = Z/16`, and ABS) or in a torsion-free integer index (rungs 3,4), and
-because `gcd(3,2^k)=1` and `Hom(Z/24, Z)=0`, no such invariant can carry the CRT-disjoint order-3
-class -- so the enumerated no-go structurally cannot FORCE an odd generation count; it can only LOCATE
-one.
+valued either in a finite 2-group (rungs 1,2,6,7 -- `Z/2` and `2^floor(m/2)`, by Bott, ABS, and the
+Kramers / ghost-parity mod-2 parities) or in a torsion-free integer index (rungs 3,4,5 -- the Krein
+signature, the adjoint Dirac index, and the spin-4-manifold signature whose Rokhlin content is a
+2-power divisibility), and because `gcd(3,2^k)=1` and `Hom(Z/24, Z)=0`, no such invariant can carry
+the CRT-disjoint order-3 class -- so the enumerated no-go structurally cannot FORCE an odd generation
+count; it can only LOCATE one.
 
 ## Grade and what it changes
 
 - The **disjointness core** is GU-independent theorem-grade (no longer empirical).
-- The **ladder** is structural at 5/7 rungs (cited group facts), free-integer at 2/7.
+- The **ladder** is structural at 4/7 rungs (cited group facts), free-integer at 3/7 (HB-05
+  correction 2026-08-03; was 5/7 and 2/7).
 - The **universal "no obstruction can be odd-primary"** stays OPEN (exhaustiveness-by-type; `tmf`
   escape).
 - The **FORCE step** (`order-3 class -> integer 3`) stays the single open conjecture, untouched.

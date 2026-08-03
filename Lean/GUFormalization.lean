@@ -7,3 +7,5 @@ import GUFormalization.ResidualSelection
 import GUFormalization.R4TwoArena
 import GUFormalization.CoflipCore
 import GUFormalization.CoflipAbstract
+import GUFormalization.CompactImageObstructions
+import GUFormalization.CompactImageObstructionsAxioms

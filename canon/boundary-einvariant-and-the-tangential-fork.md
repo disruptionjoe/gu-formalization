@@ -108,7 +108,7 @@ The phrase "its class in π₃ˢ" grammatically favors the framing/framed-bordis
 
 **Grade:** Specialist-grade *applied* index theory / stable homotopy. **Not machine-checked.** The standard anchors are verified or standard:
 
-- π₃ˢ = Z/24 = Im J₃; e_R(ν) = 1/24 = denom(B₂/4) (von Staudt–Clausen: 3 | 6 because (3−1) | 2). Solid.
+- π₃ˢ = Z/24 = Im J₃; e_R(ν) = 1/24, with |Im J₃| = 24 = denom(B₂/4) (von Staudt–Clausen: 3 | 6 because (3−1) | 2). Solid. [Notation fixed 2026-08-03, audit HB-07: the denominator of B₂/4 is 24, not 1/24; the earlier line conflated the e-invariant value with the group order.]
 - Bare RP³ = L(2;1) Dirac reduced η = ±1/8 (numerically exact: single-term csc² sum at k = 2), signature η = 0, flat-adjoint Chern–Simons ≡ 0 (Ad(−1) = id). Solid and confirmed.
 - The four flagged subtleties are provably 2-adic. Solid.
 - The factor-of-2 correction 1/6 → 1/12 (framing degree p₁/2 = 2, from SO(3) → SO being ×2). Solid, agreed by all three referees.

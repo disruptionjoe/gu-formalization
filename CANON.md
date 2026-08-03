@@ -146,6 +146,19 @@ decision; a future verdict flip requires the hostile field-specialist review per
 |---|---|---|
 | Good-Stable Compactification No-Go (`canon/good-stable-compactification-no-go-RESULTS.md`) | RESOLVED as a structural no-go for the neutral / adjoint / charged-EXTREMAL order-parameter classes (everything GU natively builds); SCOPED (open) only against exotic NON-extremal charged vectors and against denying Proposition 1. EXACT for the finite-dimensional facts, STRUCTURAL / rank-independent for the lift, machine-verified; internal tier. Conditional on the Krein positive-majorant definition (Prop 1) and the W235 record bit. | W234 + W237 + W240 + W241 + W243 (2026-07-15), independently re-verified by W244 (SURVIVES, 40/40 exit 0). Robust mechanism = W240(C) / W243 order-parameter formulation; W241's "compact-image <=> commutes-with-P" lemma is CORRECTED as overstated (see the W241 correction block and W244 Section 7). Cross-refs `canon/firewall-boundary-hypothesis.md` (independent-convergence evidence) and `packets/GU-002-good-stable-nogo.md` (issued frozen packet). |
 
+## Canon Entry Added 2026-08-03 (Pin+ degree-14 bordism derivation; GU-independent, internal tier)
+
+Promoted under the agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awareness note filed in
+this repo's `attention/` per the corrected filing scheme (durable note
+`attention/20260803-canon-promotion-pin14-bordism-derivation.md`; pointer envelope to
+`../../../repos/private/system-runtime/mailboxes/system-attention/` is the orchestrator's step).
+GU-independent bordism computation (canonical claim 6), internal tier; moves NO verdict — the
+generation count and the GU class-realization question stay OPEN.
+
+| entry | verdict / grade | source explorations |
+|---|---|---|
+| Pin+ degree-14 bordism derivation (`canon/pin14-bordism-derivation-RESULTS.md`) | `Omega^{Pin+}_14 = Z/2` at DERIVATION grade (Smith cofiber sequence + ABP splitting through degree 15 calibrated against `Omega^Spin_8..14` + `ko`/`ko<2>`-homology of `BZ/2` with the `Sq^2 = C(5,2) = 0 mod 2` Postnikov step; Kirby-Taylor `A(14)=1` demoted to cross-check). Replaces the 2026-07-22 exact-but-recited multiplicity, satisfying the portfolio's planted-toy anti-recitation gate. Includes the coprimality remark: the 14-dim Pin wall (`Z/2`) and the 13-dim framed receptacle (`Z/3`) are CRT-disjoint, so the Pin flavor cannot contaminate the count. CLASS REALIZATION explicitly OPEN. | `explorations/pin14-smith-route-audit-2026-07-22.md` (Smith route + exponent + table recitation, now superseded on the multiplicity step); `explorations/pin14-anomaly-number-2026-07-21.md` (the anti-recitation discipline); eleven-lens audit 2026-08-03 (HB-06/P-H10); register M-M11. |
+
 ## Not Yet Canon
 
 These remain exploratory until formal obligations are met:

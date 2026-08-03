@@ -22,6 +22,7 @@ Group facts (each verified against a fetched primary/secondary source this run):
   e_KO(nu) = 1/24 (in Q/Z) .... nLab (KO e-invariant on quaternionic Hopf fib.)
   KO^{-n}(pt): Z,Z/2,Z/2,0,Z,0,0,0 ...... Bott; KSp coeffs Z,0,0,0,Z,Z/2,Z/2,0
   Omega^{Pin+}_4 = Z/16 ....... Kirby-Taylor, Comm. Math. Helv. 65 (1990) 434
+                                [group fact stands; no longer types rung 5 -- HB-05]
   Omega^{Pin-}_2 = Z/8 ........ Arf-Brown-Kervaire
   Omega^Spin_* : no odd torsion, exp 2 .. Anderson-Brown-Peterson 1967
   spinor dim = 2^floor(m/2) ... Atiyah-Bott-Shapiro (elementary)
@@ -137,7 +138,10 @@ rungs = [
     (2, "mod-2 Dirac index (alpha)", "Z/2", 2, "PROVEN", "KO^{-1/-2}=Z/2 genuine torsion"),
     (3, "Krein signature +-96", "Z", None, "BLOCKED", "free Z; net-0 integer, contingent"),
     (4, "adjoint Dirac index", "Z", None, "BLOCKED", "free Z; 24=8*3 with 3 a MULTIPLICAND"),
-    (5, "Rokhlin mod 16", "Z/16", 16, "PROVEN", "Omega^{Pin+}_4=Z/16 (Kirby-Taylor)"),
+    (5, "Rokhlin mod 16", "Z", None, "BLOCKED",
+     "HB-05 retype 2026-08-03: sigma lives in Omega^Spin_4 = Z (free; sigma/16 iso), a "
+     "2-power DIVISIBILITY of a free index; Omega^{Pin+}_4=Z/16 (Kirby-Taylor) is a true "
+     "group fact but a different group/theorem. mod-2^4 content unaffected."),
     (6, "spinor dim", "2^floor(m/2)", None, "PROVEN", "power of 2 (ABS); 3 never divides"),
     (7, "ghost parity", "Z/2", 2, "PROVEN", "Z/2 grading"),
 ]
@@ -154,8 +158,8 @@ for (i, name, grp, tg, grade, note) in rungs:
     else:
         ck(grp == "Z", "R%d %s -> Z (free): BLOCKED (no torsion; integer reading pins every prime)" % (i, name))
         blocked.append(i)
-ck(proven == [1, 2, 5, 6, 7], "PROVEN rungs {1,2,5,6,7}")
-ck(blocked == [3, 4], "BLOCKED rungs {3,4}")
+ck(proven == [1, 2, 6, 7], "PROVEN rungs {1,2,6,7}  (4 of 7; HB-05 retyped rung 5)")
+ck(blocked == [3, 4, 5], "BLOCKED rungs {3,4,5}  (3 of 7)")
 
 print("=" * 70)
 print("PART E  --  ATTACK B: does a KO invariant SEE the odd (Z/3) part of Im J?")
@@ -187,7 +191,8 @@ ck(tw == 8 and odd == 3 and tw * odd == N, "8 and 3 are prime-power parts of the
 print()
 print("-" * 70)
 print("REFEREE CHECKS PASSED: %d" % C)
-print("VERDICT: 7-rung ladder SOUND (5 proven-by-type, 2 correctly blocked).")
+print("VERDICT: 7-rung ladder SOUND (4 proven-by-type, 3 correctly blocked;")
+print("         rung 5 retyped free-integer per HB-05, 2026-08-03).")
 print("  - Canon 'e_R=1/12 = order-3 element' is WRONG; script correctly uses c=8.")
 print("  - Rung 1 KO^{-4}=Z typing is imprecise (KO^{-4} is FREE) but the mod-2")
 print("    Kramers conclusion survives via elementary rep theory.")

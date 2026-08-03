@@ -23,6 +23,8 @@ not a generation-count verdict.
 |---|---|
 | `aps_eta_antilinear_plus96_rp3.py` | Direct APS eta-bar computation on `L(2;1)`, including coefficient-channel controls, tangential framing controls, and the frame-triviality discriminator for the +96 selector. |
 | `plus96_framing_class_lens_eta.py` | Framed-bordism / e-invariant class check comparing the tangential self-dual carrier with the internal +96 selector frame charge. |
+| `framing_composite_mod3.py` | M-M9 decision certificate (audit HB-02/B6): separates the two p1=4's (Kirby-Melvin natural-framing class vs charge-1 adjoint change-of-framing degree), computes both relative signs' composites (0 and +-4) mod 3, certifies the H1(RP3;Z/2) shift-lemma arithmetic, and names the one convention datum that picks the branch. Asserts no GU branch. |
+| `v15_framing_convention_sensitivity.py` | V15-5 exact convention/sensitivity chain for the framed RP^3 class under the declared tangential-identification premise. |
 | `verify/plus96_eta_denominator_indep_check.py` | Independent denominator and frame-projection re-check that avoids importing the direct boundary-eta certificates. |
 
 ## Running

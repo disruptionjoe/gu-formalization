@@ -1,0 +1,9 @@
+import GUFormalization.CompactImageObstructions
+
+#print axioms GUFormalization.CompactImageObstructions.conjugation_fixed_iff_commutes
+#print axioms GUFormalization.CompactImageObstructions.shifted_eigenvector
+#print axioms GUFormalization.CompactImageObstructions.extremal_annihilation
+#print axioms GUFormalization.CompactImageObstructions.xPlus_comp_zero
+#print axioms GUFormalization.CompactImageObstructions.xMinus_comp_zero
+#print axioms GUFormalization.CompactImageObstructions.xPlus_square_zero
+#print axioms GUFormalization.CompactImageObstructions.xMinus_square_zero

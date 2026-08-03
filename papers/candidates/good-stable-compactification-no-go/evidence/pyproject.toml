@@ -1,0 +1,11 @@
+[project]
+name = "compact-image-obstructions-evidence"
+version = "0.1.0"
+description = "Exact property-based certificate for Compact-Image Obstructions in Sp(32,32)"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+  "hypothesis==6.163.0",
+]
+
+[tool.uv]
+package = false
