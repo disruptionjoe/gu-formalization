@@ -22,6 +22,25 @@ frontmatter_correction: "2026-08-03: outcome corrected from P3-IS-NOT-EXTERNAL, 
 
 # The external datum ledger, and the 2+1 product rule
 
+> **WAVE 1A CURRENT-STATE BANNER (2026-08-03).** The durable current ledger is
+> P1 (orientation); P2 (typed at algebraic-candidate grade as the
+> phase/orientation of the canonical vertical projected RS symbol on X); and
+> P3 (distinct integer-valued realized chiral-index/count datum, reinstated).
+> P2's coflip/differential/fibre-loop identification and the proposed P1/P2
+> weld below remain conditional. Batch 2 does not reduce this ledger: J changes a block
+> partition without changing H-rank, and the finite compression-algebra
+> commutant is not the physical observable/BV algebra. A datum may select among
+> already admissible objects after a natural receiving arrow is constructed;
+> it may not manufacture a missing bundle map, current, BV differential,
+> projector, symmetrizer, or domain. The candidate order-3 homotopy carrier is
+> not integer-valued P3; their bridge is open and possibly a category error.
+> Spin Dai--Freed inflow cannot carry that candidate order-3 class. The current
+> alternative is a framed dim-13 target; a String refinement is a separate
+> conditional candidate, not a synonym, and the sole-bridge premise may instead
+> need replacement.
+> See
+> `explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md`.
+
 > **CORRECTION (2026-07-29, Layer-0 pass).** The verdict label
 > `P3-IS-NOT-EXTERNAL` is **retracted as a homonym error**. The computation below
 > is unchanged and correct: the `2+1` **multiplicity** decomposition of

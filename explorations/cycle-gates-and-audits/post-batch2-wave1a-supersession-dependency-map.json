@@ -1,0 +1,120 @@
+{
+  "artifact_type": "supersession_dependency_map",
+  "created": "2026-08-03",
+  "named_gate": "POST-B3-LANE-RESELECTION",
+  "gate_before": "OPEN",
+  "gate_after": "BATCH2_ABSORBED_AWAITING_BATCH3_FORK_RESOLVERS",
+  "route_disposition": "DEFER",
+  "defer_reason": "Batch 2 corrections are absorbed; the listed Batch 3 items are the minimum currently known fork resolvers, while new evidence may add or retype a blocker.",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "input_revisions": {
+    "batch2_corrected_main": "c8334177045467713c37abad12ca0e183f9dedcb",
+    "current_owner_base": "0309be3330050fcf1eb684f830a6f9b1193b9ce9",
+    "integration_base_after_batch3_process": "e53e8ae",
+    "independent_native_route": "32f700d678518c85e77e674179e24370b0ec2d3a",
+    "eric_guided_route": "95aa370395621d63e63ab50a85ca5e14d345f043"
+  },
+  "layer0_corrections": [
+    {
+      "id": "B2-COMPRESSION-NOT-PHYSICAL-OBSERVABLE",
+      "object": "finite ker-Gamma compression algebra",
+      "not_object": "derived physical observable algebra or BV cohomology",
+      "effect": "No physical external bit is selected; the no-positive-majorant result is scoped to the constructed form/invariance pair and any invariance structure containing the explicit boost."
+    },
+    {
+      "id": "B2-J-PARTITION-NOT-RANK",
+      "object": "count of J-irreducible blocks",
+      "not_object": "quaternionic rank or generation count",
+      "effect": "The X-sector rank remains 768_H in every allocation."
+    },
+    {
+      "id": "B2-MULTIPLICITY-NOT-INDEX",
+      "object": "384+1152+128 multiplicity decomposition",
+      "not_object": "realized chiral index",
+      "effect": "Integer-valued P3 remains external and SA-C3 remains undischarged."
+    },
+    {
+      "id": "B2-LAMBDA5-SUPPORT-NOT-MASS",
+      "object": "odd-form 126 plus conjugate-126 carrier support",
+      "not_object": "Majorana bilinear, VEV, or four-dimensional mass operator",
+      "effect": "The internal channel is open but must pass the five-stage construction checklist."
+    },
+    {
+      "id": "B2-SPIN-INFLOW-NO-Z3",
+      "object": "spin Dai-Freed inflow wall acting on a candidate order-3 homotopy carrier",
+      "not_object": "integer-valued P3, the framed dim-13 target, or a separate conditional String refinement",
+      "effect": "Spin inflow cannot carry the candidate order-3 class; the map from that class to integer-valued P3 remains open and possibly a category error."
+    }
+  ],
+  "external_datum_state": {
+    "P1": "orientation datum; receiving arrow not yet constructed",
+    "P2": "algebraic candidate: phase/orientation of the canonical vertical projected RS symbol on X; its coflip/differential/fibre-loop identification and conditional weld to P1 remain unproved",
+    "P3": "distinct integer-valued realized chiral-index/count datum; reinstated",
+    "order3_candidate": "candidate order-3 homotopy carrier; not P3; the bridge to integer-valued P3 is open and possibly a category error",
+    "hard_rule": "A datum may select among already-admissible objects but may not manufacture a missing morphism, current, BV differential, projector, symmetrizer, or domain."
+  },
+  "route_candidates": [
+    {
+      "id": "CURRENT_INTERIOR_FULL_EULER",
+      "kind": "construction_route",
+      "standing": "SURVIVES_NOT_AUTOMATICALLY_RESUMED",
+      "batch3_barriers": ["M-C2", "M-H11"]
+    },
+    {
+      "id": "ERIC_GUIDED_NATIVE_ACTION",
+      "kind": "construction_route",
+      "standing": "SURVIVES_SOURCE_COLLISION_REQUIRED",
+      "batch3_barriers": ["M-H4", "M-H9"]
+    },
+    {
+      "id": "INDEPENDENT_NATIVE_ACTION",
+      "kind": "comparator_route_not_third_lane",
+      "standing": "SURVIVES_SAME_OBJECT_RENDEZVOUS_REQUIRED",
+      "batch3_barriers": ["M-H4", "M-H9"]
+    },
+    {
+      "id": "BOUNDARY_ODD_PRIMARY_FAMILY",
+      "kind": "candidate_family_not_single_route",
+      "standing": "HIGH_INFORMATION_RECONSTRUCTION_GRADE",
+      "subroutes": {
+        "framed_dim13": "current M-H7 target",
+        "string_refinement": "separate conditional candidate; no identification with framed_dim13"
+      },
+      "merge_rule": "No merge without a same-object map between tangential structures, operators, and domains.",
+      "batch3_barriers": ["M-H5", "M-H7", "M-H8", "M-H10"]
+    }
+  ],
+  "batch3_dependency_classes": {
+    "before_final_wave1_and_wave2": ["M-H4", "M-H9"],
+    "before_expensive_interior_euler": ["M-C2", "M-H11"],
+    "before_boundary_promotion": ["M-H5", "M-H7", "M-H8", "M-H10"],
+    "before_action_mass_anomaly_acceptance": ["M-H2", "M-H14"],
+    "before_cosmology_only": ["M-H13"]
+  },
+  "batch3_process_progress": {
+    "P-C3": "ALREADY_DISCHARGED_PROCESS at e53e8ae",
+    "effect_on_scientific_fork_resolvers": "none"
+  },
+  "forbidden_inferences": [
+    "COMPRESSION_COMMUTANT_IMPLIES_PHYSICAL_FREE_Z2",
+    "J_BLOCK_COUNT_IMPLIES_H_RANK",
+    "J_BLOCK_COUNT_IMPLIES_GENERATION_COUNT",
+    "MULTIPLICITY_DECOMPOSITION_IMPLIES_CHIRAL_INDEX",
+    "LAMBDA5_SUPPORT_IMPLIES_VEV_OR_MASS",
+    "SPIN_DAI_FREED_TRANSPORTS_ORDER3_CLASS",
+    "ORDER3_CLASS_IMPLIES_INTEGER_COUNT",
+    "DATUM_MANUFACTURES_MISSING_MAP_OR_DOMAIN",
+    "FINITE_RANK_RESULT_AUTOMATICALLY_TRANSFERS_TO_INTERACTING_THEORY",
+    "REAL_FORM_SELECTED_SILENTLY",
+    "MATCHING_DIMENSIONS_ESTABLISH_SAME_OBJECT"
+  ],
+  "next_gate": {
+    "id": "POST-B3-LANE-RESELECTION",
+    "entry_condition": "The named Batch 3 fork resolvers needed by the compared routes have durable receipts.",
+    "terminal_outputs": ["CONTINUE", "REBASE", "BRANCH", "MERGE", "KILL", "DEFER"],
+    "required_output": "Exactly one disposition and one selected next construction."
+  }
+}

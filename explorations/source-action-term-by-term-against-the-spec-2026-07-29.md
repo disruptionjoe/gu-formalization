@@ -20,6 +20,25 @@ public_posture_change: none
 
 # The source action, term by term, against the 27-row spec
 
+> **WAVE 1A CURRENT-STATE BANNER (2026-08-03).** This file is construction
+> provenance, not the current jointly typed source action. Batch 2 has now
+> been absorbed in
+> `explorations/cycle-gates-and-audits/post-batch2-wave1a-supersession-dependency-map-2026-08-03.md`.
+> In particular: the finite `ker Gamma` compression-algebra commutant does not
+> select a physical external bit; J's four/eight block partition is not an
+> H-rank or generation count; `Lambda^5` support is not a bilinear, VEV, or
+> mass; and spin Dai--Freed inflow cannot carry the candidate order-3
+> homotopy class. That class is not P3: P3 remains a distinct integer-valued
+> count/index datum, and their bridge is open and possibly a category error.
+> P2 is typed at algebraic-candidate grade as the phase/orientation of the
+> canonical vertical projected RS symbol on X; its coflip/differential/fibre-loop
+> identification and P1 weld remain conditional. P1/P2/P3 may select among already
+> admissible objects only after their receiving arrows exist; they cannot
+> manufacture the missing current/Riesz map, bundle morphism, BV differential,
+> projector, symmetrizer, or domain. The final route decision is therefore
+> `BATCH2_ABSORBED_AWAITING_BATCH3_FORK_RESOLVERS`, not a resumption of this
+> historical table as a completed action.
+
 > **FOLLOW-UP (2026-07-29, vertical--Krein weld).** The `SA-Y1` and `SA-Y8`
 > entries below are superseded. At physical-channel grade, the vertical
 > `(1,10)` part of the existing `T1 + T2` connection coupling gives a nonzero,

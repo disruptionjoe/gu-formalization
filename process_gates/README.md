@@ -31,6 +31,7 @@ selected notes below and in each script header.
 - `calm_gw_boundary_readme_inventory_audit.py`
 - `canon_readme_surface_map_audit.py`
 - `carrier_bit_decision_readme_inventory_audit.py`
+- `certificate_shape_audit.py`
 - `changed_public_path_hygiene_audit.py`
 - `contributing_guidance_audit.py`
 - `carrier_mass_readme_inventory_audit.py`
@@ -79,7 +80,9 @@ selected notes below and in each script header.
 - `lab_readme_surface_map_audit.py`
 - `lab_sources_readme_surface_map_audit.py`
 - `lab_specifications_readme_surface_map_audit.py`
+- `lane_state_freshness_audit.py`
 - `lean_certificate_surface_audit.py`
+- `literal_derivation_audit.py`
 - `live_claim_dag_audit.py`
 - `marble_wood_open_avenues_audit.py`
 - `marble_wood_reframing_audit.py`
