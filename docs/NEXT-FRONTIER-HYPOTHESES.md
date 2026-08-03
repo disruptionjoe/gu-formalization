@@ -26,6 +26,11 @@ map).
 - (b) closes the **middle map** (the `d^2` non-closure the repo has measured qualitatively);
 - (c) generates the **2+1 matter content** (H2 below), making the asserted `+8` Rarita-Schwinger term in
   `ind_H = 8*A-hat + 8` an actual computation rather than an assertion.
+  **[SUPERSEDED 2026-08-03: FC3 has FIRED — `ch2(S(6,4))[K3] = -1152 != 0` on the repo's own
+  certificate, so the `8*A-hat + 8 = 24` chain is arithmetically dead, not merely provenance-
+  downgraded; see the FC3 banner in
+  `explorations/generation-sector/generation-count-rank3-resolution-2026-06-23.md` and audit
+  finding A4. Do not spend on the `+8` RS leg of this chain.]**
 
 **First computation.** Write the monopole-type coupling explicitly on the chimeric bundle:
 self-dual `Lambda^2_+` curvature set equal to the spinor bilinear `sigma(psi)`, plus the Dirac term. Check

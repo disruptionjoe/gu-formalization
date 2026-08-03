@@ -530,7 +530,14 @@ conclusion depends on excluding this case. OQ-RK1 (CAS matrix computation of Pi_
 M(64,H)) is the required gate.
 
 **FC3: ch_2(S(6,4))[K3] != 0 changes the required A-hat value.**
-Assessment: The T^4 vs K3 disambiguation is robust (any positive A-hat value required
+**[FC3 FIRED — recorded 2026-08-03 (audit IDX-01/M-C1).** The repo's own certificate
+`tests/gen_ch2_sx_from_codazzi.py` computes `ch2(S(6,4) normal only) = 4 x (-288) = -1152 != 0`
+on exactly this data (the flat-bundle approximation is false: `p1(Sym^2 T*K3) = -288`). The
+`ind_H = A-hat(K3) x rank` formula used in `oq-rk2-aps-boundary-rs-k3` therefore drops a
+nonzero term, and the corrected twisted integrand is large and negative — the `16 + 8 = 24`
+chain is arithmetically dead on in-repo data, independent of the FC4/GEN-04 provenance
+downgrades. The count verdict was already OPEN and does not move.]**
+Assessment (pre-firing text, retained as provenance): The T^4 vs K3 disambiguation is robust (any positive A-hat value required
 selects K3 over T^4). Only an exact cancellation or reduction to A-hat < 2 would threaten
 the selection. No mechanism for this is identified.
 

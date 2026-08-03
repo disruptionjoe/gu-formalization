@@ -4,6 +4,7 @@ date: 2026-06-23
 problem_label: "oq-rk2-aps-boundary-rs-k3"
 status: reconstruction
 verdict: CONDITIONALLY_RESOLVED
+correction_2026_08_03: "FC3 FIRED (audit IDX-01): every `ind_H = A-hat(K3) * rank` step in this file drops the ch_2 term, and the repo's own certificate computes ch_2(S(6,4))[K3] = -1152 != 0 on this exact data — the flat-bundle approximation is false and the 16 / 8 / 24 arithmetic in this file is dead. See the FIRED banner in explorations/generation-sector/generation-count-rank3-resolution-2026-06-23.md. Retained as provenance; do not cite the index values."
 depends_on:
   - explorations/generation-sector/oq-rk1-rs-rank-first-principles-2026-06-23.md
   - explorations/analytic-index-fredholm/oc1-oc2-aps-closure-2026-06-23.md

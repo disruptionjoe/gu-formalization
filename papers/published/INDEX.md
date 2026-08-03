@@ -49,3 +49,11 @@ against Zenodo (see the runbook) and add what is found here.
   publish FIRST**; Joe-side mechanical submission steps remain) and PP3 dark-energy pre-registration (frozen
   v0.3 2026-07-22). Sequence: after LNF, the odd-primary boundary paper (Part II, cites LNF). Other
   candidates remain in progress.
+  **[SUPERSEDED — reconciled 2026-08-03 (audit F-02): BOTH items published 2026-07-23.**
+  LNF v1.0.0: DOI `10.5281/zenodo.21515143` (concept `…21515142`), receipt
+  `papers/candidates/located-not-forced/FINAL-RELEASE-RECEIPT-v1.0.0.md`, source tag `lnf-v1.0.0`.
+  PP3 v1.0.0: DOI `10.5281/zenodo.21502234`, receipt in
+  `drafting-factory/production/pp3-preregistration-note/ZENODO-PUBLICATION-RECEIPT-2026-07-23.md`
+  (GU source commit `15c7e63`). Cross-reference: the Factory's AI-research-methodology paper
+  (v0.5.0, DOI `10.5281/zenodo.21711582`, published 2026-07-31) cites five gu-formalization
+  canon/posture files as its GU-METHOD-RECEIPTS case study.]
