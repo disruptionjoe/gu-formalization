@@ -34,7 +34,7 @@ queue in Part D.
 |---|---|---|---|---|
 | P-C1 | Zenodo release lineage not on `origin/main`; checkpoint `020b682d` unreachable from default branch; `zenodo-package-v1.0.0/`, v2.15, release receipt absent from main; `main.pdf` gitignored/untracked | Merge working branch to main or tag release SHA; name SHA in REVIEWER.md §1; track or de-advertise main.pdf (J3) | C | S |
 | P-C2 | MOVE-5 cert prints "NO-GO NOT established", exits 0; verify sibling `indep_check.py` likewise; owner surfaces (DERIVATION-PROGRESS:2594, RESEARCH-STATUS:146, source-action-seiberg-witten-RESULTS:108) say CONFIRMED/9e-15 | Add failure paths (assert/exit) to both; correct the three owner surfaces (CS); math side is M-H6 | C | S |
-| P-C3 | 70/780 certs have no assert/raise/exit — unconditional PASSes, concentrated in the adversarial/verify layer (all 8 gu-independent adv_verify*, 5/9 hessian-z3, forcing-slot, carrier-mass, source-action) | **EXECUTED** (2026-08-03, e53e8ae): `process_gates/certificate_shape_audit.py` GREEN; 14 library modules excluded from harness discovery via live import graph (784→770 counted); 66-cert campaign landed hard asserts + exit coupling, zero violations remain. THREE HONEST REDs preserved as findings (attention_directionality_winding: symmetric-kernel winding −2 not 0; shiab_selector_sp64: identically-zero witness; rs_ghost_spin95_connection_bv_bicomplex: 4 claims fail when asserted — Noether residual 8.08e-2 not 0, s²-anticommutator 2.61e3 amplified by a ‖M_KT‖≈2.4e9 random-holonomy connection, KT-exactness residual 1.67e-5, non-equivariance probe vacuous [disjoint index pairs commute exactly]), triage pending. Known label defects to reword: one-sided σ_trap "decoupled" line in 4 files asserts only the escape-block zero, not the commutator; Stueckelberg antighost-exactness line computes with M_eff not M_D. Local-harness (180s) timeout risks: stueckelberg 479s, spin95_bv 451s, structural_frame >600s (CI 900s marginal) | C | M |
+| P-C3 | 70/780 certs have no assert/raise/exit — unconditional PASSes, concentrated in the adversarial/verify layer (all 8 gu-independent adv_verify*, 5/9 hessian-z3, forcing-slot, carrier-mass, source-action) | **EXECUTED** (2026-08-03, e53e8ae): `process_gates/certificate_shape_audit.py` GREEN; 14 library modules excluded from harness discovery via live import graph (784→770 counted); 66-cert campaign landed hard asserts + exit coupling, zero violations remain. Final accounting (G4 close-out): SIX honest REDs + THREE pinned ESCAPE-FOUND verdicts + label defects + timeout list — see Revision 2 "P-C3 final accounting". Triage pending | C | M |
 | P-C4 | Seven-axis/Layer-0 ratification (Joe 2026-07-10) absent from its canon authority file `canon/six-axis-specification-protocol.md` (still six axes, zero L7/Layer-0 hits) while RESEARCH-STATUS:102 and CANON:60 point there | Update the protocol file with the ratified form + supersession note (CS) | C | XS |
 | P-C5 | `docs/OVERVIEW.md` (status canon) says "GU is substantially correct", "no longer neutral-map-first", "primary mission is GU reconstruction" — advocacy posture three canon surfaces disclaim; README routes readers to it | Rewrite to the truth-seeking posture or archive with banner (CS) | C | S |
 | P-C6 | Lean ledger row T3 "Antilinear null-eigenspace bound: LEAN-VERIFIED" — no antilinear content exists in Lean/; owning canon file says "not a Lean-checked one" | Correct T3 to SYMPY-DERIVED; audit T-rows against actual declarations (CS) | C | XS |
@@ -364,3 +364,25 @@ labels and the Stueckelberg M_eff/M_D line join the small-fix tail.
 
 **Cross-repo:** records↔DE proposal note dispatched to
 `repos/private/system-runtime/mailboxes/time-as-finality/20260803-gu-records-de-anchor-coordination-proposal.md`.
+
+**P-C3 final accounting (2026-08-03, G4 close-out; all edits in e53e8ae):**
+
+*Six HONEST REDs (each cert now exits 1 because its printed claim fails
+when asserted; findings, not failures):*
+1. `tests/physics-ai-bridge/attention_directionality_winding.py` — symmetric-kernel winding is −2, not the claimed 0.
+2. `tests/shiab_selector_sp64.py` — "NOT Sp(64)-equivariant" rests on an identically-zero witness.
+3. `tests/rs_ghost_spin95_connection_bv_bicomplex.py` — 4 claims fail (Noether residual 8.08e-2; s² anticommutator 2.61e3 under a ‖M_KT‖≈2.4e9 random-holonomy connection; KT-exactness 1.67e-5; vacuous non-equivariance probe).
+4. `tests/gu-independent/nongu_source_action_chiral_count.py` — "48/48/48/48 vectorlike quadrant base" observed (0,0,0,0); ‖[Kr,Gc]‖=28 ⇒ the joint diagonalization behind the 48-count is invalid. Other 7 checks pass.
+5. `tests/gu-independent/verify_structural_crux_independent.py` — "only su(2)₊ preserves the carrier" is backwards: ASD generators preserve (~6e-15), all three SD generators leak 0.5. The file's own boolean already printed False against its prose.
+6. `tests/hessian-z3/robustness_and_mechanism.py` — "equal-and-opposite half shifts" observed machine-zero both halves (ratio 0.24); superseded by its sibling's docstring, never corrected. Discrimination claim (1) holds.
+
+*Three pinned ESCAPE-FOUND verdicts (exit 0 — the certs' own criteria
+refute the frame-triviality no-go they probe):*
+- `adv_verify_escape_hunt.py` (802 hits; the ±192 hits are the trivial involution whose frame charge comes from the carrier projector itself — the escape criterion may need tightening; campaign-level question).
+- `escape_search_chirality_odd_frame.py` (frame-sourced count 54.58, 25072/50000 samples).
+- `structural_frame_triviality_metatheorem.py` (frame-sourced count 32; concurrent-edit conflict resolved to pin-EVADABLE per the honesty rule — the alternative assert-the-no-go/honest-RED convention for all three search certs is a one-block change each, ADJUDICATION OPEN).
+TRIAGE PRIORITY: check owner surfaces citing these three as no-go support — if any surface states the frame-triviality no-go as certified, it now contradicts its own artifact.
+
+*Harness timeout list (solo runtimes):* `escape_search_chirality_odd_frame` ~1132s — **exceeds even CI's 900s**; `structural_frame_triviality_metatheorem` ~600–763s; `adv_verify_escape_hunt` ~556–652s; `rs_ghost_stueckelberg_compensator` ~479s; `rs_ghost_spin95_connection_bv_bicomplex` ~451s; `robustness_and_mechanism` ~207s; `verify_sw_carrier_mass_independent` ~240s. CI runs `--quick --tracked-only --timeout 900`; verify whether the >900s cert is inside the quick set before relying on CI green.
+
+*Label defects to reword (small-fix tail):* one-sided σ_trap "decoupled" line in 4 files (asserts only the escape-block zero, not the commutator); Stueckelberg antighost-exactness line computes with M_eff not M_D; escape_class_check "[B] rank-deficient" parenthetical contradicted by computed full rank 192/192.
