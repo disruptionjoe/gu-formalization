@@ -514,3 +514,38 @@ big-swing cg_r1/cg_r3, escape-corners cluster (lega1/lega2/legb1/referee
 legs), cycle1/cycle2 audit errors, channel-swings uniformity_execution
 probe. None introduced by the campaign; (e) items are the standing triage
 backlog.
+
+---
+
+## Revision 7 (2026-08-03, Resolver Wave E)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-e-source-owned-moving-252-full20-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-e-review.md`.
+No scientific register row or protected verdict moves.
+
+- The actual full-14 direct contraction is now explicit: an internal
+  five-form receives four horizontal and five vertical preimages, so
+  `delta j5=9I`. The old vertical `5I` result is retained only as an
+  observer-stabilizer comparator.
+- For one unit simple blade the full-20 horizontal/vertical family has
+  rationally reconstructed native support polynomials. The unweighted
+  reconstruction keeps one low-`R` 16 plus one X/144 per source. The
+  representative's unique clean value `lambda=1/2` removes the low-`R` copy
+  and retains rank 128, but every `B_lambda` map is `SOURCE-SILENT`; neither
+  representation-wide extension nor source selection follows from fit.
+- Diagonal direct-sum K/C reciprocals, right-`H`, coarse `P0` incidence, and
+  the trivial-provenance reality restriction are executable. The coarse
+  direct `S<->X` sandwich survives only `P0=1`; the full `G2/Y/P0` placement
+  and general complex provenance real structure remain open.
+- The displayed source bosonic kappa term and a conditional active `j5`
+  restriction have exact signed exterior-adjoint and affine Ward/Green
+  comparators. The public-source-to-active `(9,5)` port joining them is open;
+  the moving Shiab, total fermion residual, N1 `J_D/J_F` bridge fork,
+  stationary VEV, mass, quotient, domain, and no-leakage remain open.
+- **Next named gate:**
+  `RESOLVER-WAVE-F-ACTUAL-SOURCE-SHIAB-FERMION-EULER-WEIGHT-SELECTION`.
+  Build the source-to-active real-form/Zorro port, then assemble the actual
+  moving total Euler system and determine whether it selects `lambda=1/2`,
+  retains the coupled unweighted branch, or kills the rectangular route.
+  P1/P2/P3 remain unchanged and unused.

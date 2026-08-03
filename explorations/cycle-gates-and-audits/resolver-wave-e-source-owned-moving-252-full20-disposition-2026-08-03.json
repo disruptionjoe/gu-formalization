@@ -1,0 +1,139 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-03",
+  "named_gate": "RESOLVER-WAVE-E-SOURCE-OWNED-MOVING-252-FULL20-PLACEMENT",
+  "gate_before": "OPEN",
+  "gate_after": "PARTIAL_CONSTRUCTED",
+  "route_disposition": "CONTINUE",
+  "hostile_review_status": "PASS_AFTER_REPAIRS",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "source_carrier": {
+    "primary_route": "T_omega_bulk_ad_valued_one_form",
+    "n1_comparator": "Delta_A=A-A0",
+    "defect_vertical_residue": "v_s=res_s^V(Delta_A)",
+    "T_omega_equals_Delta_A": false,
+    "source_epsilon_equals_soldering_epsilon": false,
+    "zorro_splitting_required": true,
+    "source_to_native_95_port": "OPEN",
+    "joined_source_active_252_arrow": "OPEN"
+  },
+  "full14_contraction": {
+    "delta_j5": "9I",
+    "observer_coefficients": [4, 5],
+    "vertical_only_delta_j5": "5I",
+    "vertical_only_is_full_symmetry": false,
+    "real_internal_target_dimension": 252,
+    "complex_hodge_halves": ["126+", "126-"],
+    "full_exterior_adjoint": "PASS"
+  },
+  "full20_weight_family": {
+    "definition": "B_lambda=B_V+lambda*B_H",
+    "rectangular_map_source_status": "SOURCE_SILENT",
+    "unweighted_reconstruction_lambda": "1",
+    "unweighted_gamma_trace": "9phi",
+    "unweighted_has_low_R16": true,
+    "representative_unique_no_low_R_lambda": "1/2",
+    "representative_half_weight_gamma_trace": "7phi",
+    "representative_half_weight_rank": 128,
+    "representative_target_support_dimension": 1152,
+    "representative_is_surjective_to_support": false,
+    "representation_wide_half_weight": "OPEN",
+    "source_selected_lambda": null,
+    "half_weight_status": "ONE_SIMPLE_BLADE_EXACT_LOCAL_KINEMATIC_SOURCE_SILENT"
+  },
+  "pairing": {
+    "diagonal_direct_sum_K_reciprocal_built": true,
+    "full_G2_reciprocal": "OPEN",
+    "K_right_H": true,
+    "C_plus_alternating_reciprocal_built": true,
+    "C_minus_alternating_reciprocal_built": true,
+    "C_reverse_support_checked": true,
+    "C_right_H_checked": true,
+    "C_plus_reciprocal_equals_K_reverse_in_fixture": true,
+    "C_minus_reciprocal_equals_K_reverse_in_fixture": false,
+    "arbitrary_M3C_right_H_with_trivial_provenance_reality": false,
+    "coarse_direct_S_X_type_survivors": ["1"],
+    "diagonal_c_rho_type_survivors": ["1", "P_S"],
+    "total_G2_Y_P0_placement": "OPEN"
+  },
+  "moving_descent": {
+    "three_frame_constant_conjugation": "PASS",
+    "transition_cocycle": "COBOUNDARY_FIXTURE_PASS",
+    "moving_projector_chain_rule": "PASS",
+    "frozen_projector_control": "FAILS_AS_REQUIRED",
+    "actual_Y14_atlas_and_zorro_overlap": "OPEN"
+  },
+  "source_euler": {
+    "displayed_source_kappa_term": "SOURCE_OWNED",
+    "active_j5_restriction": "CONDITIONAL_ON_SOURCE_TO_ACTIVE_PORT_AND_KAPPA1",
+    "joined_source_active_252_arrow": "OPEN",
+    "full14_exterior_adjoint": "PASS",
+    "isolated_kappa_direct_equals_pulled": true,
+    "flat_curvature_fixture": "NOT_CONSTRUCTED",
+    "affine_action_comparator_Ward_Green": "PASS",
+    "ward_green_coupled_to_moving_projector": false,
+    "moving_Shiab_curvature": "OPEN",
+    "total_fermion_residual": "OPEN",
+    "n1_bridge_cancellation": "OPEN",
+    "complement_Hessian_blocks": "OPEN",
+    "complete_total_Euler_coefficient": "OPEN",
+    "stationary_VEV": "OPEN",
+    "mass": "OPEN"
+  },
+  "assertion_counts": {
+    "exact_or_deterministic_native": 24,
+    "source_receipts": 5,
+    "type_level": 16,
+    "planted": 8,
+    "total": 53
+  },
+  "source_collision": {
+    "bosonic_source_action_and_translation_residual": "SOURCE-CONFIRMS",
+    "total_bosonic_plus_fermionic_Euler_arena": "SOURCE-CONFIRMS",
+    "moving_zorro_connection_role": "SOURCE-CONFIRMS-ROLE",
+    "exact_zorro_implementation": "OPEN",
+    "adjoint_valued_one_form_origin": "SOURCE-CONFIRMS",
+    "gauge_rotated_distortion": "SOURCE-CONFIRMS",
+    "rectangular_map_family": "SOURCE-SILENT",
+    "half_weight_selector": "SOURCE-SILENT",
+    "16_144_mass": "SOURCE-CONFIRMS_OPEN"
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused"
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-F-ACTUAL-SOURCE-SHIAB-FERMION-EULER-WEIGHT-SELECTION",
+    "target": "build_source_to_active_port_then_assemble_actual_moving_source_total_Euler_and_decide_half_weight_vs_coupled_branch",
+    "required_checks": [
+      "actual_source_to_active_95_bundle_port",
+      "actual_source_admission_or_rejection_of_j5_direction",
+      "moving_zorro_and_shiab_grade6_restriction",
+      "total_fermion_adjoint_residual",
+      "n1_JD_JF_bridge_fork",
+      "full_complement_Hessian_blocks",
+      "lambda_half_selection_or_rejection",
+      "complete_nonlinear_Ward_Green_and_moving_identity"
+    ]
+  },
+  "forbidden_inferences": [
+    "VERTICAL_5PHI_IS_THE_FULL14_SOURCE_RESULT",
+    "SOURCE_OWNS_ANY_RECTANGULAR_B_LAMBDA_MAP",
+    "UNWEIGHTED_RECONSTRUCTION_REMOVES_LOW_R16",
+    "ONE_SIMPLE_BLADE_HALF_WEIGHT_IS_REPRESENTATION_WIDE",
+    "CLEAN_HALF_WEIGHT_IS_SOURCE_SELECTED_BECAUSE_IT_FITS",
+    "FOUR_144_SUPPORT_SLOTS_MEANS_RANK_OR_SURJECTIVITY_1152",
+    "THREE_FRAME_COBOUNDARY_FIXTURE_IS_GLOBAL_Y14_DESCENT",
+    "DIAGONAL_DIRECT_SUM_K_IS_THE_FULL_G2_PAIRING",
+    "COARSE_SECTOR_INCIDENCE_IS_TOTAL_P0_Y_PLACEMENT",
+    "ISOLATED_KAPPA_COMPARATOR_IS_THE_JOINED_SOURCE_ACTIVE_252_ARROW",
+    "AFFINE_COMPARATOR_IS_THE_NONLINEAR_MOVING_SOURCE_WARD_IDENTITY",
+    "NONZERO_SOURCE_HESSIAN_IS_A_STATIONARY_VEV_OR_MASS",
+    "ORDINARY_TAU_BRST_OR_AN_UNWRITTEN_PX_REMOVES_COMPANIONS",
+    "EXTERNAL_DATUM_CAN_REPLACE_SOURCE_WEIGHT_SELECTION"
+  ]
+}

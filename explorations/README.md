@@ -503,3 +503,16 @@ plus paired `imGamma16` and `kerGamma16` companions. It is not a pure 144 map
 or the written `c_rho:S->S`; moving full-Sp descent, total `P0/rho/Y/C`
 placement, source selection, VEV, and mass remain open. Route decision:
 `CONTINUE`.
+
+# Resolver Wave E (2026-08-03)
+
+`resolver-wave-e-source-owned-moving-252-full20-placement-2026-08-03.md`
+constructs a native full-14 `4+5=9` moving real-252 direction and signed
+exterior adjoint, separately verifies the displayed source bosonic kappa term,
+and leaves their public-source-to-active `(9,5)` real-form/Zorro port open. The
+unweighted rectangular reconstruction retains a low-`R` 16 companion. For one
+unit simple blade a unique half-weight removes it and leaves one X/144 slot per
+source, but all rectangular `B_lambda` maps are source-silent and
+representation-wide extension is unproved. Complete `G2/Y/P0`, moving
+Shiab/fermion/bridge Euler selection, actual `Y14` descent, VEV, mass,
+quotient, domain, and no-leakage remain open. Route decision: `CONTINUE`.

@@ -671,3 +671,14 @@ ordered K/C/P0/Y bilinear, and the separate one-form-output comparator with
 its desired 144 component and paired 16-dimensional companions. It requires
 moving full-Sp descent, source selection, VEV, mass, and P1/P2/P3 to
 remain open and does not reproduce the mathematical certificates.
+
+## Resolver Wave E scope gate
+
+`resolver_wave_e_scope_audit.py` preserves the native full-14 `9I` result
+against the vertical `5I` comparator, requires the source-to-active port to
+remain open, and keeps the source-silent unweighted reconstruction separate
+from the one-simple-blade half-weight candidate. It fences the displayed
+source kappa term and affine comparator from the joined and total
+Shiab/fermion/bridge Euler residuals. It also requires representation-wide
+half-weight, full `G2/Y/P0`, actual `Y14` Zorro descent, VEV, mass, quotient,
+domain, no-leakage, and P1/P2/P3 to remain open.
