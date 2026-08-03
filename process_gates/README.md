@@ -662,3 +662,12 @@ the conditional complex-linear dualized Hom factor, records the internal real
 shortcut, requires the admissible placement and dim-13 receiving geometry to
 remain open, and prevents order-three torsion from becoming integer P3. It does
 not validate the character calculations or build a mass.
+
+## Resolver Wave D scope gate
+
+`resolver_wave_d_scope_audit.py` preserves the distinction between a native
+grade-six connection coefficient, its real-252 effective kernel, the total
+ordered K/C/P0/Y bilinear, and the separate one-form-output comparator with
+its desired 144 component and paired 16-dimensional companions. It requires
+moving full-Sp descent, source selection, VEV, mass, and P1/P2/P3 to
+remain open and does not reproduce the mathematical certificates.

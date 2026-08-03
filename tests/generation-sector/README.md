@@ -81,6 +81,13 @@ The public boundary stays:
 | `q5_spin10_vector_spinor_product_sage.py` | Independent Sage 10.9 Weyl-character certificate for the shared Q5/Q6 dictionary. | Confirms the D5 products, `Lambda5(10)`, spinor squares, and the D7 exterior-square identity. |
 | `q6_lambda5_spin10_pati_salam.py` | Bidegree-tagged Lambda5 and Pati--Salam right-neutrino channel derivation. | Complex support passes, but raw real Lambda5 has the wrong K-adjoint class for an Sp connection generator; admissible placement, C reality, VEV, and mass remain open. |
 
+### Wave D Native Connection Placement
+
+| script | role | current shared outcome |
+|---|---|---|
+| `q7_native_126_connection_placement.py` | Exact signed exterior-algebra certificate for `V10* tensor Lambda6(V10*) -> Lambda5(V10*) plus Lambda7(V10*)`. | Constructs the canonical rank-252 real-five-form component and rank-120 seven-form component, with a 1728 hook kernel and exact pure-component projectors; source selection and mass remain open. |
+| `q7_native_126_connection_placement_sage.py` | Independent Sage 10.9 D5/D7 character certificate. | Confirms multiplicity-one conjugate 126 halves in the grade-six carrier, the explicit full-D7 irreducible decomposition, and a distinct orientation-priced abstract grade-ten comparator carrier. |
+
 ### Family / External-Base Characterization
 
 | script | role | current shared outcome |

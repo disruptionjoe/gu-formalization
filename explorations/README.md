@@ -489,3 +489,17 @@ coefficient group in honest degree 13. Its route decision is `REBASE`: the raw
 Lambda5 connection shortcut has the wrong K-adjoint class, while the physical
 pairing, admissible effective connection placement, radial boundary, framing,
 nonzero class, VEV, mass, and integer P3 remain open.
+
+# Resolver Wave D (2026-08-03)
+
+`resolver-wave-d-native-126-connection-placement-2026-08-03.md` constructs the
+canonical local map `V10* tensor Lambda6(V10*) -> Lambda5(V10*)`, verifies the actual
+grade-six coefficients are native K-anti/right-H connection generators, and
+shows the written contraction emits one real 252 with conjugate complex 126
+halves. Full Spin covariance locks the vertical coefficient five to a
+horizontal coefficient four. For the planted five-form representative, a
+distinct one-form-output comparator has one desired 144 component per source
+plus paired `imGamma16` and `kerGamma16` companions. It is not a pure 144 map
+or the written `c_rho:S->S`; moving full-Sp descent, total `P0/rho/Y/C`
+placement, source selection, VEV, and mass remain open. Route decision:
+`CONTINUE`.

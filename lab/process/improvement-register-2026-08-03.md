@@ -467,3 +467,34 @@ No scientific register row or protected verdict moves.
   C-reality, and source ownership. The independent topology successor is the
   normal-bundle/radial-boundary/framing/clutching construction, not another
   coefficient-table pass.
+
+---
+
+## Revision 6 (2026-08-03, Resolver Wave D)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-d-native-126-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-d-review.md`.
+No scientific register row or protected verdict moves.
+
+- The raw-Lambda5 carrier gap is narrowed constructively. Native grade-six
+  connection coefficients are K-anti/right-H, and the canonical contraction
+  `V10* tensor Lambda6(V10*) -> Lambda5(V10*)` is surjective onto one real 252 with
+  conjugate complex 126 halves.
+- Full Spin covariance locks an internal five-form's horizontal and vertical
+  contributions as `4+5=9`. A vertical-only coefficient is stabilizer-local;
+  moving full-Sp descent remains open.
+- Bare K and both C spinor factors admit grade five, but live provenance
+  controls reverse the result. The complete ordered `P0/rho/Y_K/Y_C` kernel
+  remains the physical object.
+- For the planted five-form representative, a distinct one-form-output map
+  has one desired 144 component per source plus paired `imGamma16` and
+  `kerGamma16` companions. It is not a pure 144 map or the source packet's
+  written `c_rho:S->S`; `P_R` retains the low-`R` 16, and a naive
+  componentwise lift leaks between imGamma and kerGamma. Source-derived
+  placement and treatment of the companions are the next construction.
+- **Next named gate:**
+  `RESOLVER-WAVE-E-SOURCE-OWNED-MOVING-252-FULL20-PLACEMENT`. Vary the actual
+  equivariant source one-form, dress the split/grade by moving soldering,
+  construct the full-20 reciprocal K/C blocks and P0/Y ordering, and require a
+  nonzero Euler coefficient plus Ward identity before any VEV or mass claim.

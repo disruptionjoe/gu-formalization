@@ -1,0 +1,113 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-03",
+  "named_gate": "RESOLVER-WAVE-D-NATIVE-126-CONNECTION-PLACEMENT",
+  "gate_before": "OPEN",
+  "gate_after": "PARTIAL_CONSTRUCTED",
+  "route_disposition": "CONTINUE",
+  "hostile_review_status": "PASS_AFTER_REPAIRS",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "connection_carrier": {
+    "native_grade": 6,
+    "internal_blades": 210,
+    "K_adjoint_class": "K_ANTI_SELF_ADJOINT",
+    "right_H_linear": true,
+    "raw_grade5_connection_allowed": false,
+    "scalar_phase_repair_native_Sp_allowed": false
+  },
+  "exterior_map": {
+    "domain": "V10* tensor Lambda6(V10*)",
+    "domain_dimension": 2100,
+    "target": "Lambda5(V10*)",
+    "target_dimension_real": 252,
+    "complex_hodge_halves": ["126+", "126-"],
+    "delta_rank": 252,
+    "wedge_rank": 120,
+    "joint_rank": 372,
+    "joint_kernel_dimension": 1728,
+    "delta_j5": "5I",
+    "wedge_j5": "0",
+    "projector": "P5=(1/5)j5delta",
+    "full14_delta_j5": "9I",
+    "observer_split_coefficients": [4, 5]
+  },
+  "pairing": {
+    "bare_K_grade5": "HERMITIAN_SURVIVES",
+    "bare_C_plus_grade5": "ALTERNATING_SURVIVES",
+    "bare_C_minus_grade5": "ALTERNATING_SURVIVES",
+    "bare_grade7": "K_ANTI_AND_C_SYMMETRIC",
+    "total_P0_rho_Y_kernel_built": false,
+    "provenance_can_reverse_bare_verdict": true
+  },
+  "full20": {
+    "written_c_rho_type": "S_TO_S",
+    "written_c_rho_real252_kernel_built": true,
+    "naive_componentwise_lift_preserves_I_R": false,
+    "one_form_output_comparator_type": "S_TO_V_TENSOR_S",
+    "chosen_representative_one_form_output_has_one_144_component_per_source": true,
+    "chosen_representative_one_form_output_has_imGamma_16_companion_per_source": true,
+    "chosen_representative_one_form_output_has_low_R_16_companion_per_source": true,
+    "one_form_output_is_pure_144_map": false,
+    "written_c_rho_identified_with_one_form_output": false,
+    "physical_full20_placement_built": false
+  },
+  "symmetry_and_source": {
+    "local_Spin64_component_built": true,
+    "full_Spin95_direct_contraction_multiplicity": 1,
+    "grade10_abstract_Lambda5_carrier_multiplicity": 1,
+    "moving_epsilon_full_Sp_descent_built": false,
+    "actual_source_one_form_fork": ["v_s=res_s^V(A-A0)", "T_omega=gauge_rotated_distortion"],
+    "source_selects_nonzero_grade6": false,
+    "Ward_identity_built": false,
+    "vev_built": false,
+    "mass_built": false
+  },
+  "assertion_counts": {
+    "exterior_exact": 31,
+    "sage_characters": 12,
+    "native_full20": 27,
+    "exact_and_boundary": 59,
+    "planted_or_hostile": 11,
+    "total": 70
+  },
+  "source_collision": {
+    "adjoint_valued_one_form_origin": "SOURCE-CONFIRMS",
+    "curvature_map_projection_corrected_to_contraction": "SOURCE-CORRECTS",
+    "gauge_rotated_distortion": "SOURCE-CONFIRMS",
+    "exact_Vstar_Lambda6_to_Lambda5_map": "SOURCE-SILENT",
+    "c_rho_to_one_form_output_identification": "SOURCE-SILENT",
+    "16_144_mass": "SOURCE-CONFIRMS_OPEN"
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused"
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-E-SOURCE-OWNED-MOVING-252-FULL20-PLACEMENT",
+    "target": "derive_source_owned_moving_fullSp_real252_and_complete_full20_K_C_P0_Y_placement",
+    "required_checks": [
+      "actual_varied_source_one_form",
+      "moving_epsilon_grade_projection",
+      "overlap_descent",
+      "written_c_rho_vs_one_form_output",
+      "full20_reciprocal_K_C_blocks",
+      "P0_and_total_Y_ordering",
+      "source_Euler_nonzero_coefficient",
+      "Ward_identity"
+    ]
+  },
+  "forbidden_inferences": [
+    "RAW_REAL_LAMBDA5_IS_AN_SP_CONNECTION_GENERATOR",
+    "SCALAR_PHASE_PRESERVES_NATIVE_RIGHT_H",
+    "REAL_252_IS_TWO_INDEPENDENT_REAL_126_FIELDS",
+    "BARE_SPINOR_ADJOINT_CLASS_SETTLES_TOTAL_YUKAWA_KERNEL",
+    "WRITTEN_C_RHO_IS_THE_ONE_FORM_OUTPUT_144_MAP",
+    "LOCAL_SPIN64_COMPONENT_IS_FULL_SP_COVARIANCE",
+    "REPRESENTATION_OR_FULL20_INCIDENCE_IS_A_SOURCE_SELECTED_VEV_OR_MASS",
+    "EXTERNAL_DATUM_CAN_REPLACE_THE_MISSING_SOURCE_OR_FULL20_MAP"
+  ]
+}
