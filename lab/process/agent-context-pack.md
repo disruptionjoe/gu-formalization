@@ -47,10 +47,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 ## Verified anchor facts (the unique cross-connections)
 
 1. RECORDS↔DE: the DESI exclusion is signal-level only and its mechanism is
-   SHAPE (too little low-z evolution at the θ★-forced Ωm); W187's
-   r(N)=κ₀√N record-accretion coefficient is the GU-native low-z-growing
-   candidate. Never connected in-repo. [Tri-repo note: records/finality
-   interpretation is TaF-owned; a cross-repo proposal is pending.]
+   SHAPE (a completion must supply ≈+19.3 amplitude-marginalised shape χ²
+   at low z; DARK-ENERGY-07). CORRECTED 2026-08-03 (council seat 2): the
+   r(N)=κ₀√N law lives in explorations/W187-gu-dressed-open-selfenergy-
+   2026-07-14.md §3 — NOT the same-label W187 law-shadow audit file.
+   Layer-0: r is a self-energy coupling ratio (bar-b basin selection),
+   NOT a DE coefficient; the genuinely shared object is N (past 4-volume).
+   Standing obstruction: the DE-native law Λ=c/√N has the WRONG
+   monotonicity for the rise (W154 RE1, W158 RISEb, both FIRED); the only
+   bridge is W230's c_kin=0 posit (θ~M⁻¹J, necessity+sufficiency
+   machine-checked), in unresolved tension with the FLRW kinetic term —
+   decide that XS–S question before scheduling any r(N(z)) refit.
+   [Tri-repo note: records/finality interpretation is TaF-owned; a
+   cross-repo proposal is pending.]
 2. FLAVOR↔GRAVITY (II-mediation): four-lens convergent conjecture — the
    imposter block is the carrier ½γ(II) couples to; GU's gravity functional
    is |II|². Test order: [σ(D_RS),P₃] commutator (XS, may kill), block
