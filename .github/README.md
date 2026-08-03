@@ -14,6 +14,7 @@ research claims or change research status.
   - [Specification proposal](ISSUE_TEMPLATE/specification-proposal.yml)
 - Workflow:
   - [Lean CI](workflows/lean.yml)
+  - [Python CI](workflows/python-ci.yml)
 
 ## Boundary
 

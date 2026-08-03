@@ -25,7 +25,22 @@ Three independent measures (must agree):
   [I]  graded trace  tr(omega * P_im)  and  tr(omega * P_ker)   (projector method)
   [II] spectral: eigendecompose M; per eigenvalue level, netchir(+,-); sum |index|
   [III] block spectra: eigs(M_++) vs eigs(M_--); identical sorted spectra => vectorlike
+Measure [I]'s premise is that M is chirality-PRESERVING; the max relative flip block is
+therefore GATED (< 1e-6) per signature block, not merely printed.
 Robustness: over many random Psi (mixed chirality) AND a few signatures.
+
+CARRIER SELECTION (exact, not windowed): the diagonal su(2)_+ Casimir on ker(Gamma) has the
+exact spectrum {0, 3, 8} (= 4j(j+1), j = 0, 1/2, 1) with multiplicities {640, 832, 192};
+eigenvalues are clustered to the nearest analytically known level, the residual must be
+< 1e-9, the multiplicities must match exactly, and the carrier is the 192-dim j=1 level.
+The vector part of the diagonal action uses the signature-correct rep matrix
+rho_V(a,b)^c_d = delta^c_a eta_bd - delta^c_b eta_ad (equal to the naive lvec only when
+both indices are spacelike). On the alt-timelike signature {0,1,2,3,4} the 4-base is
+all-timelike (negative definite), so its rotations remain a COMPACT SO(4) and the same
+192-dim j=1 triplet carrier exists; with the naive lvec the "J_k" fail to close as su(2)
+and fail to preserve ker(Gamma), producing spurious non-integer levels (e.g. 60/7) -- the
+exactness assert above kills that failure mode hard instead of silently testing the wrong
+carrier.
 Structural cause: an antilinear quaternionic J_q on the triplet with
   J_q omega = -omega J_q   (swaps chirality)  AND  J_q M = M J_q  (commutes with the mass op)
 => a chirality-swapping symmetry of M at every eigenvalue => forced equal +/- multiplicities
@@ -58,14 +73,24 @@ def sgen(e, i, j):
     return 0.25 * (e[i] @ e[j] - e[j] @ e[i])
 
 
-def lvec(i, j):
+def rho_vec(eta, i, j):
+    """Signature-correct so(9,5) vector-rep matrix matched to sigma_ij = (1/4)[e_i, e_j]:
+    (M_ij)^c_d = delta^c_i eta_jd - delta^c_j eta_id.  For a spacelike-spacelike pair this
+    is the naive lvec (+1/-1 antisymmetric); for a timelike-timelike pair it is -lvec."""
     M = np.zeros((N, N), dtype=complex)
-    M[i, j] = 1
-    M[j, i] = -1
+    M[i, j] = eta[j]
+    M[j, i] = -eta[i]
     return M
 
 
-SD = [(0, 1, 2, 3), (0, 2, 3, 1), (0, 3, 1, 2)]   # self-dual su(2)_+ on the Euclidean 4-base
+SD = [(0, 1, 2, 3), (0, 2, 3, 1), (0, 3, 1, 2)]   # self-dual su(2)_+ on the 4-base
+
+# Exact diagonal su(2)_+ Casimir levels on ker(Gamma): 4j(j+1) for j = 0, 1/2, 1,
+# with multiplicities fixed by the rep decomposition. Enforced hard in build_substrate.
+CAS_LEVELS = (0.0, 3.0, 8.0)
+CAS_MULTS = {0.0: 640, 3.0: 832, 8.0: 192}
+TRIPLET_LEVEL = 8.0
+TRIPLET_DIM = 192
 
 
 def build_substrate(timelike):
@@ -73,20 +98,34 @@ def build_substrate(timelike):
     I128, I14 = np.eye(DIM, dtype=complex), np.eye(N, dtype=complex)
     e = [(1j * base[a] if a in timelike else base[a]) for a in range(N)]
     spacelike = [a for a in range(N) if a not in timelike]
+    eta = np.array([(-1.0 if a in timelike else 1.0) for a in range(N)])
 
     Gamma = np.hstack(e)
     Pi = np.eye(N * DIM, dtype=complex) - Gamma.conj().T @ np.linalg.inv(Gamma @ Gamma.conj().T) @ Gamma
-    J = [np.kron(I14, sgen(e, a, b) + sgen(e, c, d)) + np.kron(lvec(a, b) + lvec(c, d), I128)
+    J = [np.kron(I14, sgen(e, a, b) + sgen(e, c, d))
+         + np.kron(rho_vec(eta, a, b) + rho_vec(eta, c, d), I128)
          for (a, b, c, d) in SD]
     Sig = [sgen(e, a, b) + sgen(e, c, d) for (a, b, c, d) in SD]  # spinor-only self-dual gens (128x128)
+    # the diagonal action must preserve ker(Gamma); if not, the "Casimir" below is meaningless
+    ker_pres = max(np.linalg.norm(Jk @ Pi - Pi @ Jk) / np.linalg.norm(Jk) for Jk in J)
+    assert ker_pres < 1e-10, f"diagonal su(2)_+ does not preserve ker(Gamma): {ker_pres:.3e}"
     w, Vv = np.linalg.eigh(Pi)
     W = Vv[:, w > 0.5]
     Cas = -(J[0] @ J[0] + J[1] @ J[1] + J[2] @ J[2])
     CasK = W.conj().T @ Cas @ W
     CasK = 0.5 * (CasK + CasK.conj().T)
     ev, U = np.linalg.eigh(CasK)
-    top = max(round(x.real, 3) for x in ev)          # j=1 Casimir = 8
-    W_trip = W @ U[:, np.abs(ev - top) < 1e-3]        # (14*128) x 192
+    # exact integer-eigenvalue clustering: nearest analytically known level, residual < 1e-9
+    known = np.array(CAS_LEVELS)
+    lev = known[np.argmin(np.abs(ev.real[:, None] - known[None, :]), axis=1)]
+    resid = float(np.max(np.abs(ev.real - lev)))
+    assert resid < 1e-9, (
+        f"Casimir spectrum off the exact levels {CAS_LEVELS}: max residual {resid:.3e} "
+        f"(broken su(2)_+ action on this signature)")
+    mults = {float(L): int((lev == L).sum()) for L in CAS_LEVELS}
+    assert mults == CAS_MULTS, f"Casimir multiplicities {mults} != expected {CAS_MULTS}"
+    W_trip = W @ U[:, lev == TRIPLET_LEVEL]           # (14*128) x 192, the j=1 triplet carrier
+    assert W_trip.shape[1] == TRIPLET_DIM, f"carrier dim {W_trip.shape[1]} != {TRIPLET_DIM}"
 
     bS = I128.copy()
     for s in spacelike:
@@ -94,7 +133,7 @@ def build_substrate(timelike):
     if np.linalg.norm(bS.conj().T + bS) < 1e-9:
         bS = 1j * bS
     bS = bS / np.sqrt(abs((bS @ bS)[0, 0].real))
-    etaV = np.diag([(-1.0 if a in timelike else 1.0) for a in range(N)]).astype(complex)
+    etaV = np.diag(eta).astype(complex)
     K = np.kron(etaV, bS)
 
     om = I128.copy()
@@ -211,7 +250,9 @@ def analyze(timelike, label, nsamp=200, seed=0):
         s_mm = np.sort(np.linalg.eigvalsh(0.5 * (Mmm + Mmm.conj().T)))
         worst_specdiff = max(worst_specdiff, np.max(np.abs(s_pp - s_mm)))
 
-    print(f"  M chirality-preserving:      max relative flip block      = {worst_flip:.2e}  (0 => even/Majorana)")
+    chir_preserving = worst_flip < 1e-6
+    print(f"  M chirality-preserving:      max relative flip block      = {worst_flip:.2e}  "
+          f"[GATE < 1e-6, measure-[I] premise: {'PASS' if chir_preserving else 'FAIL'}]")
     print(f"  ker(M) dim (light/imposter): {sorted(set(ker_dims))}   im(M) dim (heavy): {sorted(set(im_dims))}")
     print(f"  [I]  graded trace over image  max|tr(omega P_im)|         = {worst_gtr_im:.2e}")
     print(f"  [I]  graded trace over kernel max|tr(omega P_ker)|        = {worst_gtr_ker:.2e}")
@@ -265,6 +306,7 @@ def analyze(timelike, label, nsamp=200, seed=0):
         "worst_im_idx": worst_im_idx, "worst_ker_idx": worst_ker_idx,
         "worst_specdiff": worst_specdiff, "ker_dims": sorted(set(ker_dims)),
         "im_dims": sorted(set(im_dims)), "index_zero": verdict0, "struct_ok": struct_ok,
+        "chir_preserving": chir_preserving,
     }
 
 
@@ -285,24 +327,30 @@ def main():
     print("#" * 84)
     all_zero = all(r["index_zero"] for r in results)
     all_struct = all(r["struct_ok"] for r in results if r["struct_ok"] is not None)
+    all_flip = all(r["chir_preserving"] for r in results)
     for r in results:
         print(f"  [{r['label']:26s}] net chiral index im/ker = "
               f"{r['worst_im_idx']}/{r['worst_ker_idx']}  vectorlike(specdiff)={r['worst_specdiff']:.1e}  "
-              f"struct={r['struct_ok']}")
+              f"flip={r['worst_flip']:.1e}  struct={r['struct_ok']}")
     print()
+    print(f"  Every block ran on the exact 192-dim j=1 triplet carrier (Casimir level 8 of the")
+    print(f"  exact spectrum {{0,3,8}} x {{640,832,192}}; enforced by assert, incl. alt-timelike).")
+    print(f"  M chirality-preserving on every block (premise of measure [I]; flip < 1e-6): {all_flip}")
     print(f"  Net chiral index of the moment-map image is ROBUSTLY 0 (all measures, all samples,")
     print(f"  all signatures): {all_zero}")
     print(f"  Structural forcing (quaternionic J_q swaps chirality & commutes with all M(Psi)): {all_struct}")
     print()
-    if all_zero and all_struct:
+    established = all_zero and all_struct and all_flip
+    if established:
         print("  ==> NO-GO CONFIRMED.  A Krein-isometric SW-class source action produces a VECTORLIKE")
         print("      mass split (net chiral index 0), identically for every Psi, forced by the")
         print("      quaternionic commutant of M(64,H).  The SW-source-action chiral-generation-count")
         print("      HOPE IS KILLED: the count, if real, needs a symmetry-breaking / non-Krein import.")
     else:
-        print("  ==> NO-GO NOT established; see failing measures above.")
+        print("  ==> NO-GO NOT established; see failing measures above.  (exit 1)")
     print("#" * 84)
+    return 0 if established else 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

@@ -109,6 +109,11 @@ def main():
     sample_pairs = []
     for _ in range(400):
         i, j = int(rng.integers(n_words)), int(rng.integers(n_words))
+        while j == i:
+            # exclude i == j collisions: an equal pair has |tr| = 128 by design and
+            # would spuriously fail the OFF-diagonal orthogonality check under a
+            # different seed. Equal pairs are tested separately below.
+            j = int(rng.integers(n_words))
         sample_pairs.append((i, j))
     for i in rng.choice(n_words, size=60, replace=False):
         sample_pairs.append((int(i), int(i)))

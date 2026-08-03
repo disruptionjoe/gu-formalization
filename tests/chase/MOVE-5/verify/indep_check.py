@@ -12,10 +12,14 @@ plus deliberate BREAK attempts:
         (i)  rank(M_++) - rank(M_--)  and  ker-dim(M_++) - ker-dim(M_--)
         (ii) graded trace tr(omega) over im/ker using SVD-based projectors
         (iii) full sorted spectra of M restricted to +chirality vs -chirality sectors
-  (D) BREAK 1 (non-vacuity): replace the Krein moment map by a CHIRALITY-ODD source
-      (a single c(e_a), Clifford-odd) and show the same index machinery CAN give a
-      nonzero chiral asymmetry -> proves the "index 0" is a real property of the
-      Krein-even moment map, not a bug that always returns 0.
+  (D) BREAK 1 (non-vacuity): hand the SAME index machinery an operator with a KNOWN
+      nonzero chiral asymmetry (chirality-even, supported on the + sector only, rank r)
+      and demand it reports exactly r -> proves the "index 0" is a real property of the
+      Krein-even moment map, not a bug that always returns 0.  NOTE a chirality-ODD
+      Hermitian source (single c(e_a)) is NOT a valid control on this carrier: with an
+      equal (96,96) chirality split its diagonal blocks vanish and its off-diagonal
+      block is SQUARE, so rank-nullity forces graded index == 0 identically; that fact
+      is verified as a side check, and the one-sided even control carries the burden.
   (E) BREAK 2 (structural forcing rigor): check that the chirality-swap P=c(e_b) is
       actually INVERTIBLE on the triplet (the property the forcing proof needs but the
       chaser did not explicitly test). If P were singular on the triplet, isospectrality
@@ -77,8 +81,17 @@ def build():
     CasK = Wker.conj().T @ Cas @ Wker
     CasK = 0.5 * (CasK + CasK.conj().T)
     cev, cU = np.linalg.eigh(CasK)
-    top = max(round(x.real, 3) for x in cev)
-    Wt = Wker @ cU[:, np.abs(cev - top) < 1e-3]
+    # exact integer-eigenvalue clustering: the su(2)_+ Casimir on ker(Gamma) has the exact
+    # spectrum {0, 3, 8} (= 4j(j+1), j=0,1/2,1) with multiplicities {640, 832, 192}
+    known = np.array([0.0, 3.0, 8.0])
+    lev = known[np.argmin(np.abs(cev.real[:, None] - known[None, :]), axis=1)]
+    resid = float(np.max(np.abs(cev.real - lev)))
+    assert resid < 1e-9, f"Casimir spectrum off the exact levels {{0,3,8}}: residual {resid:.3e}"
+    mults = {float(L): int((lev == L).sum()) for L in known}
+    assert mults == {0.0: 640, 3.0: 832, 8.0: 192}, f"Casimir multiplicities {mults}"
+    top = 8.0
+    Wt = Wker @ cU[:, lev == top]
+    assert Wt.shape[1] == 192, f"triplet carrier dim {Wt.shape[1]} != 192"
     bS = I128.copy()
     for s in spacelike:
         bS = bS @ e[s]
@@ -137,31 +150,29 @@ def main():
           f"signature=({N-nt},{nt}) -> Cl(9,5) {'OK' if maxdev<1e-10 else 'FAIL'}")
 
     # ---------- (B) M(64,H): antilinear quaternionic J commuting with all gammas ----------
-    # Solve C conj(e_a) = e_a C for all a; J = C*conj; want J^2 = C conj(C) = -I.
-    # Independent construction: on M(64,H) the real Clifford algebra is quaternionic, so the
-    # antilinear J commuting with all gammas is an EXPLICIT Clifford element (product of the
-    # timelike generators, times conjugation). Build candidates from products of gammas and
-    # test C conj(e_a) - e_a C == 0 directly (no giant SVD).  A guaranteed intertwiner of the
-    # complex conjugate rep is P = prod over the imaginary (=timelike) gammas, since conj(e_a)=
-    # +e_a for real (spacelike) and -e_a for imaginary (timelike) in this JW basis.
+    # Want C with C conj(e_a) = e_a C for all a; J = C*conj; quaternionic iff J^2 = C conj(C) = -I.
+    # Independent EXPLICIT construction (no giant SVD): in this JW basis each e_a is either
+    # REAL (conj(e_a) = +e_a) or IMAGINARY (conj(e_a) = -e_a) -- MEASURED below, not assumed.
+    # (The parity is set by the s1/s2 Jordan-Wigner slot, NOT by timelike/spacelike; the old
+    # timelike-product / spacelike-product candidates were wrong for exactly that reason.)
+    # C = product of the imaginary gammas: with |S| even it commutes with every e_a outside S
+    # and anticommutes with every e_a in S, i.e. C conj(e_a) = e_a C for ALL a.
     econj = [e[a].conj() for a in range(N)]
-    best = None
-    from itertools import product as iproduct
-    tl = sorted(TIMELIKE); sl = [a for a in range(N) if a not in TIMELIKE]
-    # candidate charge-conjugation matrices: product of all timelike, or all spacelike gammas
-    for subset, tag in [(tl, "timelike-prod"), (sl, "spacelike-prod")]:
-        Cc = np.eye(DIM, dtype=complex)
-        for a in subset:
-            Cc = Cc @ e[a]
-        defect = max(np.linalg.norm(Cc @ econj[a] - e[a] @ Cc) for a in range(N)) / (np.linalg.norm(Cc)+1e-30)
-        CC = Cc @ Cc.conj(); scale = CC[0, 0]
-        quat_defect = np.linalg.norm(CC - scale*np.eye(DIM))/(abs(scale)+1e-30)
-        if best is None or defect < best[0]:
-            best = (defect, tag, scale, quat_defect)
-    defect, tag, scale, quat_defect = best
-    print(f"[B] M(64,H) antilinear J ({tag}): intertwine defect = {defect:.2e} (=0 => commutes all gammas), "
+    imag_idx = [a for a in range(N) if np.linalg.norm(econj[a] + e[a]) < 1e-12]
+    real_idx = [a for a in range(N) if np.linalg.norm(econj[a] - e[a]) < 1e-12]
+    assert sorted(imag_idx + real_idx) == list(range(N)), "each e_a must be exactly real or imaginary"
+    assert len(imag_idx) % 2 == 0, "product trick needs an even number of imaginary gammas"
+    Cc = np.eye(DIM, dtype=complex)
+    for a in imag_idx:
+        Cc = Cc @ e[a]
+    defect = max(np.linalg.norm(Cc @ econj[a] - e[a] @ Cc) for a in range(N)) / (np.linalg.norm(Cc) + 1e-30)
+    CC = Cc @ Cc.conj(); scale = CC[0, 0]
+    quat_defect = np.linalg.norm(CC - scale * np.eye(DIM)) / (abs(scale) + 1e-30)
+    quat_ok = (defect < 1e-9 and quat_defect < 1e-6 and scale.real < -0.5)
+    print(f"[B] M(64,H) antilinear J (product of the {len(imag_idx)} imaginary gammas {imag_idx}):")
+    print(f"    intertwine defect = {defect:.2e} (=0 => commutes all gammas), "
           f"J^2 scalar = {scale.real:+.3f}{scale.imag:+.3f}i, J^2=-I defect = {quat_defect:.2e} "
-          f"{'(quaternionic OK)' if scale.real<-0.5 and quat_defect<1e-6 and defect<1e-9 else '(see value)'}")
+          f"{'(quaternionic OK)' if quat_ok else '(FAIL)'}")
 
     # ---------- reduce to triplet ----------
     Jr = [Wt.conj().T @ Jfull[k] @ Wt for k in range(3)]
@@ -221,23 +232,40 @@ def main():
             forcing_valid = swap < 1e-6 and commS < 1e-6 and invertible
     print(f"   => forcing argument valid (P swaps chirality, commutes all M(Psi), invertible): {forcing_valid}")
 
-    # ---------- (D) NON-VACUITY: a chirality-ODD source CAN produce nonzero index ----------
-    print("\n[D] non-vacuity BREAK: replace Krein-even moment map by chirality-ODD source c(e_a), a in base")
-    # c(e_a) for a in {0,1,2,3} is a single gamma = product of ONE gamma = chirality-ODD (anticommutes omega)
-    odd_index_seen = 0
+    # ---------- (D) NON-VACUITY: machinery must report a KNOWN nonzero index ----------
+    print("\n[D] non-vacuity BREAK: does the index machinery report a KNOWN nonzero asymmetry?")
+    # Side fact (a theorem on this carrier, verified -- NOT the control): a chirality-ODD
+    # Hermitian source (Hermitian part of a compressed single c(e_a)) has BOTH diagonal
+    # chirality blocks == 0 and a SQUARE 96x96 off-diagonal block, so rank-nullity forces
+    # its graded index to 0 identically. Odd sources can NEVER fire on an equal-split
+    # carrier; reading 0 on them says nothing about whether the machinery works.
+    odd_max = 0.0
     for a in [0, 1, 2, 3]:
         Ma = Wt.conj().T @ np.kron(np.eye(N, dtype=complex), e[a]) @ Wt
-        Ma = 0.5 * (Ma + Ma.conj().T)   # Hermitian part
+        Ma = 0.5 * (Ma + Ma.conj().T)   # Hermitian part; chirality-odd
         ri, rk = net_index_ranks(Ma, Pp, Pm)
         gi, gk = net_index_gradtrace(Ma, chir_tr)
-        flip = np.linalg.norm(Pm.conj().T @ Ma @ Pp) / (np.linalg.norm(Ma) + 1e-30)
-        odd_index_seen = max(odd_index_seen, abs(gi), abs(gk))
-        print(f"   c(e_{a}) (odd): flip-frac={flip:.2f}  rank-asym(im)={ri}  ker-asym={rk}  "
-              f"grad-tr(im)={gi:+.2f} grad-tr(ker)={gk:+.2f}")
-    # Also: a deliberately chirality-odd Hermitian mass built to be one-sided
-    Modd = Pp @ Pp.conj().T @ (Wt.conj().T @ np.kron(np.eye(N, dtype=complex), e[0]) @ Wt) @ Pm @ Pm.conj().T
-    Modd = Modd + Modd.conj().T
-    print(f"   (Note: chirality-odd sources give nonzero grad-trace asymmetry => index machinery is NOT vacuous)")
+        odd_max = max(odd_max, abs(ri), abs(rk), abs(gi), abs(gk))
+        print(f"   c(e_{a}) (odd): rank-asym(im)={ri}  ker-asym={rk}  "
+              f"grad-tr(im)={gi:+.2f} grad-tr(ker)={gk:+.2f}   (forced 0: square off-diag block)")
+    odd_forced_zero = odd_max < 1e-9
+    print(f"   side check: odd sources give exactly 0 as the theorem demands: {odd_forced_zero}")
+    # THE CONTROL: chirality-EVEN Hermitian op supported on the + sector only, rank r.
+    # Ground truth known in advance: rank asym = +r, graded trace im = +r, ker = -r.
+    r_ctrl = 7
+    Gc = rng.standard_normal((Pp.shape[1], r_ctrl)) + 1j * rng.standard_normal((Pp.shape[1], r_ctrl))
+    Ac = Pp @ Gc                                  # columns live entirely in + chirality
+    Mctrl = Ac @ Ac.conj().T                      # Hermitian PSD, rank r_ctrl, chirality-even
+    ri_c, rk_c = net_index_ranks(Mctrl, Pp, Pm)
+    gi_c, gk_c = net_index_gradtrace(Mctrl, chir_tr)
+    print(f"   CONTROL rank-{r_ctrl} +-sector even op: rank-asym(im)={ri_c} (expect +{r_ctrl})  "
+          f"ker-asym={rk_c} (expect -{r_ctrl})")
+    print(f"                                     grad-tr(im)={gi_c:+.2f} (expect +{r_ctrl})  "
+          f"grad-tr(ker)={gk_c:+.2f} (expect -{r_ctrl})")
+    non_vacuous = (ri_c == r_ctrl and rk_c == -r_ctrl
+                   and abs(gi_c - r_ctrl) < 1e-6 and abs(gk_c + r_ctrl) < 1e-6
+                   and odd_forced_zero)
+    print(f"   => machinery detects the known nonzero chiral asymmetry exactly: {non_vacuous}")
 
     # ---------- (F) isolate the mechanism ----------
     print("\n[F] mechanism isolation: generic Hermitian perturbations")
@@ -262,12 +290,13 @@ def main():
     print(f"   => the no-go is specific: mu lands in span(Sig_k), the exact commutant of the chirality-swap.")
 
     print("\n" + "="*90)
-    verdict = index_zero and forcing_valid and (odd_index_seen > 0.5)
+    verdict = index_zero and forcing_valid and non_vacuous and quat_ok
     print(f"REPRODUCED index==0: {index_zero} | forcing rigorous(P invertible): {forcing_valid} | "
-          f"non-vacuous(odd gives !=0): {odd_index_seen>0.5}")
+          f"non-vacuous(known index detected): {non_vacuous} | quaternionic J^2=-1: {quat_ok}")
     print(f"TERMINAL: no-go {'CONFIRMED (KILLED the SW-source chiral-count hope)' if verdict else 'NOT fully established'}")
     print("="*90)
+    return 0 if verdict else 1
 
 
 if __name__ == "__main__":
-    main()
+    raise SystemExit(main())

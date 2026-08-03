@@ -25,7 +25,7 @@ EXPECTED_ISSUE_TEMPLATES = {
     "reference-pointer.yml",
     "specification-proposal.yml",
 }
-EXPECTED_WORKFLOWS = {"lean.yml"}
+EXPECTED_WORKFLOWS = {"lean.yml", "python-ci.yml"}
 
 
 def readme_text() -> str:

@@ -187,7 +187,7 @@ def main(argv=None):
         status, secs, tail = run_cert(c, args.timeout)
         results.append((status, secs, rel(c), tail))
         marker = {PASS: "ok  ", FAIL: "FAIL", TIMEOUT: "TIME", ERROR: "ERR "}[status]
-        print(f"[{i:3d}/{len(certs)}] {marker} {secs:6.1f}s  {rel(c)}")
+        print(f"[{i:3d}/{len(certs)}] {marker} {secs:6.1f}s  {rel(c)}", flush=True)
         if status != PASS and tail:
             for line in tail.splitlines():
                 print(f"            | {line}")

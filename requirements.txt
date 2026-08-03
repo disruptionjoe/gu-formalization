@@ -7,8 +7,10 @@
 #
 # Pin-free on purpose: the certificates check exact/structural facts, not floating
 # tolerances against a specific library build. Verified working on the versions noted.
+# Certificates that DO assert float tolerances should prefer the hash-pinned lockfile
+# pattern (see requirements-optional.txt) rather than relying on these pin-free floats.
 
-numpy    # linear algebra / index computations                 (verified: 2.4.6)
+numpy    # linear algebra / index computations                 (verified: 2.5.1)
 scipy    # eigenvalues, null spaces, linear algebra helpers      (verified: 1.18.0)
 sympy    # exact symbolic checks in a handful of certs           (verified: 1.14.0)
 

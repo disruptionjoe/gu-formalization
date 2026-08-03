@@ -185,6 +185,10 @@ def main():
     print(f"    ch2(tangent Dirac only) = (4/8)  p1(TK3)    =  0.5 * {p1_TK3} = {ch2_tangent}")
     print(f"    twisted int_K3 Ahat ch  = ch2 - 128*p1/24   = {ch2_full} + {-rank_SX*p1_TK3//24} = {twisted_index}")
     print(f"    H-line normalized       = ch2/64 (RANK, not 24/8) = {hline_norm}")
+    # POSITIVE certification of the headline numbers (exact integers; not just "not 24"):
+    assert isinstance(ch2_full, int) and ch2_full == -5376, f"ch2_full = {ch2_full!r} != -5376"
+    assert isinstance(ch2_normal, int) and ch2_normal == -1152, f"ch2_normal = {ch2_normal!r} != -1152"
+    assert isinstance(ch2_tangent, int) and ch2_tangent == -24, f"ch2_tangent = {ch2_tangent!r} != -24"
 
     # --- 5. Honest-number / target-import / blocked-shortcut checks -----------
     print("\n[5] TARGET-IMPORT and BLOCKED-SHORTCUT checks:")
@@ -200,6 +204,10 @@ def main():
           f"{tangent_is_disguised_chi}  (REJECTED as a derivation of 24: it is -p1/2,")
     print(f"        =chi only via the K3 identity 2chi+3sigma=0; not a generation derivation)")
     assert ch2_full != 24 and ch2_full != 3
+    # NOTE: `used_chi` is a hand-set literal (False), so the assert below is a
+    # TAUTOLOGY -- it records intent, it does not verify anything. The computed
+    # guards are the positive ch2 asserts above, `ch2_full != 24`, and the
+    # disguised-chi flag on |ch2_tangent| (which DOES equal 24 via 2chi+3sigma=0).
     assert not used_chi
 
     # contractible-fiber / pushforward guard

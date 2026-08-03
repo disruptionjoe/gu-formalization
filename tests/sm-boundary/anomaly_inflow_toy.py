@@ -35,6 +35,8 @@
 import itertools
 import numpy as np
 
+np.random.seed(0)  # the mod-2 identity sweep below uses the global RNG; keep it reproducible
+
 NASSERT = 0
 def check(c, m):
     global NASSERT
