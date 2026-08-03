@@ -107,6 +107,16 @@ with `P` -- achieves net chiral index `+96`, so the `(96,96)` balance does not t
 moment-map operator is pinned to 0 precisely because `mu` lives in `span(Sigma_k) =` commutant of `P`.
 Computed in `tests/chase/MOVE-5/krein_nogo_chiral_index.py` (400 samples x 3 signatures, terminal verdict
 "NO-GO CONFIRMED") and non-vacuity in `tests/chase/MOVE-5/verify/nonvacuity.py` (hand-built op = `+96`).
+**[REPAIR NOTE 2026-08-03 (audit A3/N1/N5; register P-C2/M-H6).** Between 2026-06-30 and 2026-08-03 the
+certificate did NOT support this paragraph as written: its alt-timelike block used a vector rep valid only
+for spacelike index pairs, selected a bogus 64-dim carrier via a rounding window, printed "NO-GO NOT
+established", and exited 0 regardless. The 2026-08-03 repair fixed the signature-correct vector rep (the
+192-dim j=1 triplet carrier exists on the alt signature; spectrum {0,3,8} x {640,832,192}), replaced the
+carrier selection with exact Casimir clustering, gated the chirality-preservation premise, and enforced
+nonzero exit on failure. The verify sibling's non-vacuity control was provably unable to fire (rank-nullity)
+and was replaced with one that fires exactly; its quaternionic leg's C construction was also corrected
+(defect 0, J^2 = -1). AFTER the repair both scripts print CONFIRMED and exit honestly — this paragraph's
+claim is now certificate-true; during the window it was prose-only.]**
 
 **Consequence.** A Krein-isometric, Seiberg-Witten-class moment-map source action -- `M = c(mu)`, `mu`
 Krein-real bilinear of a Krein isometry -- **CANNOT** produce a net chiral generation count. The `2+1` it
