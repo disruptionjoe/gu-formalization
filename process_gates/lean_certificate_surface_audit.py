@@ -24,7 +24,14 @@ LEAN_LIBRARY_CERTIFICATES = [
     ROOT / "Lean" / "GUFormalization" / "K3IndexArithmetic.lean",
     ROOT / "Lean" / "GUFormalization" / "W2Polynomial.lean",
     ROOT / "Lean" / "GUFormalization" / "LocatedNotForcedLegs.lean",
+    ROOT / "Lean" / "GUFormalization" / "LocatedNotForcedFiniteCore.lean",
+    ROOT / "Lean" / "GUFormalization" / "ResidualSelection.lean",
     ROOT / "Lean" / "GUFormalization" / "R4TwoArena.lean",
+    ROOT / "Lean" / "GUFormalization" / "CoflipCore.lean",
+    ROOT / "Lean" / "GUFormalization" / "CoflipAbstract.lean",
+    # Manual `#print axioms` receipt: not in the default lake target (run via
+    # `lake env lean`), but its source is still in scope for the placeholder scan.
+    ROOT / "Lean" / "GUFormalization" / "ResidualSelectionAxioms.lean",
 ]
 
 STANDALONE_LEAN_CERTIFICATES = [
@@ -152,7 +159,13 @@ class LeanCertificateSurfaceAudit(unittest.TestCase):
             "GUFormalization.K3IndexArithmetic",
             "GUFormalization.W2Polynomial",
             "GUFormalization.LocatedNotForcedLegs",
+            "GUFormalization.LocatedNotForcedFiniteCore",
+            "GUFormalization.ResidualSelection",
             "GUFormalization.R4TwoArena",
+            "GUFormalization.CoflipCore",
+            "GUFormalization.CoflipAbstract",
+            # GUFormalization.ResidualSelectionAxioms is intentionally absent:
+            # it is a manual `#print axioms` receipt outside the default target.
         ]:
             with self.subTest(module=module):
                 self.assertIn(f"import {module}", text)

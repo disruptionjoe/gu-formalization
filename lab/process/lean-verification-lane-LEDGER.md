@@ -4,7 +4,7 @@ status: canon
 doc_type: lane-ledger
 scope: repo-local
 created: 2026-07-07
-updated: 2026-07-22
+updated: 2026-08-03
 owner_surface: lab/process/runbooks/lean-verification-run.md
 ---
 
@@ -39,16 +39,27 @@ replication. Those stay in owner prose and machine certificates. Status vocabula
 
 The toolchain and manifest are pinned.  A fresh serialized macOS build at Lean `4.32.0-rc1` and manifest
 mathlib revision `96ec947e9b66a5e6059131fc9c6d13a14cef756e` completed successfully on 2026-07-22
-(`lake build`, 8,643 jobs, exit 0; pre-existing linter warnings only).
+(`lake build`, 8,643 jobs, exit 0; pre-existing linter warnings only).  Receipt scope note (2026-08-03):
+that 2026-07-22 build predates the 2026-07-23 edits to `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean`
+and `Lean/GUFormalization/LocatedNotForcedLegs.lean`.  The current receipt for those two files is the
+located-not-forced v1.0.0 release verification,
+`papers/candidates/located-not-forced/zenodo-package-v1.0.0/VERIFICATION.md` (verified 2026-07-23):
+targeted `lake -Kjobs=1 build +GUFormalization.LocatedNotForcedFiniteCore` (which builds
+`LocatedNotForcedLegs` via its import) plus `lake env lean` single-file checks passed, with only the
+standard mathlib axioms `propext`, `Classical.choice`, `Quot.sound` reported.
 
 | Lean file | Scope | Current source status |
 |---|---|---|
 | `Lean/GUFormalization/Status.lean` | Claim-status order and dependency monotonicity | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/K3IndexArithmetic.lean` | Symbolic K3 and RS index arithmetic | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `Lean/GUFormalization/W2Polynomial.lean` | `F_2` polynomial identities behind corrected `w2(Y14)` | `LEAN-VERIFIED`; 2026-07-22 baseline |
-| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein index-nullity, antilinear bound, and 2-primary identities | `LEAN-VERIFIED`; authoritative A1 certificate |
+| `Lean/GUFormalization/LocatedNotForcedLegs.lean` | Krein transversality (positive-definite subspace meets each totally isotropic subspace trivially; `intersectionDifference = 0`) and 2-primary identities; no antilinear operator content (scope corrected 2026-08-03) | `LEAN-VERIFIED`; authoritative A1 certificate; current receipt is the 2026-07-23 zenodo package `VERIFICATION.md` (see receipt scope note above) |
+| `Lean/GUFormalization/LocatedNotForcedFiniteCore.lean` | Finite census encoding for the LNF paper; exhaustiveness/closure by `decide` over the encoded item list; census numerals are imported data, not derivations | `LEAN-VERIFIED`; 2026-07-23 zenodo receipt (`papers/candidates/located-not-forced/zenodo-package-v1.0.0/VERIFICATION.md`) |
 | `Lean/GUFormalization/ResidualSelection.lean` | Residual-selection finite logic kernels | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/ResidualSelectionAxioms.lean` | Manual `#print axioms` receipt; NOT in the default target; informational, non-enforcing — run via `lake env lean` | `LEAN-VERIFIED`; 2026-07-22 baseline toolchain (via `lake env lean`; outside the default `lake build`) |
 | `Lean/GUFormalization/R4TwoArena.lean` | R4 weight parity, CRT, and 2-primary blindness | `LEAN-VERIFIED`; default-target integration 2026-07-22 |
+| `Lean/GUFormalization/CoflipCore.lean` | Concrete Q×Q coflip accounting, Part A derived | `LEAN-VERIFIED`; 2026-07-22 baseline |
+| `Lean/GUFormalization/CoflipAbstract.lean` | Abstract (eps,mu) sign accounting; the `FiniteSignature` field and the `witnessed` Prop are currently formally inert — noted | `LEAN-VERIFIED`; 2026-07-22 baseline |
 | `tests/big-swing/R4_TwoArena.lean` | Stable R4 compatibility entrypoint | imports the default-target proof-bearing module |
 
 The un-typechecked draft duplicate formerly at
@@ -60,15 +71,15 @@ The un-typechecked draft duplicate formerly at
 | Id | Theorem-grade claim | Source | Current | Feasibility | Load-bearing for |
 |---|---|---|---|---|---|
 | T1 | No-go is 2-primary; no obstruction is 3-divisible | located-not-forced paper section 4 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
-| T2 | Linear Krein-isometry conserves net chiral index zero | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
-| T3 | Antilinear null-eigenspace bound | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt | complete | located-not-forced |
-| A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | R3 | `NUMPY-CERT` | high | fences the chiral-generation reading |
-| B | V7 mod-3 index arithmetic | V7 | `SYMPY-DERIVED` | high | count-import boundary |
-| C | Exact A1 phase boundary `lq = -l4/192` | A1b | `SYMPY-DERIVED` | high | mirror alignment phase |
-| D | Power-mean reduction | A1b | `NUMPY-CERT` | medium | supports C |
-| E | Chi-parity no-go for orientation selection | A2 | `NUMPY-CERT` | medium | sign-selection boundary |
-| F | Abstract Cartan-involution structural core | V2 | `NUMPY-CERT` | medium | quantization seat |
-| G | Involution projector algebra for the mirror map | V8 | `NUMPY-CERT` | medium | mirror kinematics |
+| T2 | Krein transversality: positive-definite subspace meets each totally isotropic subspace trivially (`intersectionDifference = 0`) | located-not-forced paper section 6 | `LEAN-VERIFIED` at last receipt (retitled 2026-08-03: `papers/candidates/located-not-forced/HARDENING-QUEUE.md:118` bans the former "net chiral index" phrasing) | complete | located-not-forced |
+| T3 | Antilinear null-eigenspace bound | located-not-forced paper section 6 | `SYMPY-DERIVED` (corrected 2026-08-03: no antilinear operator content exists in `Lean/`; the owning canon file `canon/core-theorems-symbolic-proof-RESULTS.md` itself states "a symbolic proof, not a Lean-checked one"; the Krein-transversality Lean lemma covers T2 only) | high | located-not-forced |
+| A | Achirality: `{K,chi}=0` implies `Re tr(chi Pi_+) = 0` | `canon/ghost-parity-krein-synthesis.md:26` (statement); `explorations/big-swing-2026-07-06/R3-pt-phase-classification-gu-cores.md` | `NUMPY-CERT` | high | fences the chiral-generation reading |
+| B | V7 mod-3 index arithmetic | `explorations/big-swing-2026-07-06/VG-V7-cp2-equivariant-payoff.md` | `SYMPY-DERIVED` | high | count-import boundary |
+| C | Exact A1 phase boundary `lq = -l4/192` | `explorations/big-swing-2026-07-07/A1-native-potential-alignment.md` | `SYMPY-DERIVED` | high | mirror alignment phase |
+| D | Power-mean reduction | A1b (source document not located in repo — flagged 2026-08-03) | `NUMPY-CERT` | medium | supports C |
+| E | Chi-parity no-go for orientation selection | `explorations/big-swing-2026-07-07/A2-native-ring-symmetry-nogo.md` | `NUMPY-CERT` | medium | sign-selection boundary |
+| F | Abstract Cartan-involution structural core | `explorations/big-swing-2026-07-06/VG-V2-fourth-seat-gauge-sector.md` | `NUMPY-CERT` | medium | quantization seat |
+| G | Involution projector algebra for the mirror map | `explorations/big-swing-2026-07-06/VG-V8-t5-map-attempt.md` | `NUMPY-CERT` | medium | mirror kinematics |
 | H | Extremal-weight stabilizer contains an explicit nonzero nilpotent | W243, GU-002, W244 | structural plus `NUMPY-CERT` | medium | compactification no-go |
 
 ## Part C: integrity-first execution order
