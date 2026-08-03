@@ -45,13 +45,43 @@ chirality grading.  Then the permutation action of J is measured directly:
 The D2 x D5 subalgebra is fixed only up to the signature allocation of the
 4-plane inside (9,5) -- itself part of the UNFROZEN native real/Krein spec
 (B5-NATIVE-REAL-KREIN-ADJOINT-FREEZE).  The probe therefore sweeps all five
-allocations: base (4,0), (3,1), (2,2), (1,3), (0,4).
+allocations: base (4,0), (3,1), (2,2), (1,3), (0,4).  The two Lorentzian rows
+are DISTINCT allocations, not conventions: inside the fixed (9,5) a (1,3)
+observer base forces internal (8,2); only (3,1)+(6,4) is the named physical
+split, and the Lorentzian-vs-compact carrier split is itself the UNSETTLED
+fork of GEOMETER-VS-PHYSICS-OBJECTS.md:24 (whose compact/WITHIN row is the
+one the repo's finite census uses).
+
+HOSTILE-REVIEW CORRECTIONS (2026-08-03)
+---------------------------------------
+Applied per lab/process/hostile-reviews/2026-08-03-j-restriction-review.md:
+
+(a) The four 64-dim small-sector projectors are NOT isotypic -- each merges a
+    B5 mirror pair (e.g. SM21p = (2,1,16+) (+) (2,1,16-)) via the ledger's
+    own 10 (x) 16+/- = 144+/- + 16-/+ identity, because OmF grades by
+    spinor-factor chirality, not the so(10) type of the constituent.  The
+    probe now refines them by the equivariant J-stable provenance grading
+    Q4 = P_{R^4} (x) I, Q10 = P_{R^10} (x) I (the review's check-4 recipe:
+    R^4 (x) S = 4x96 + 4x32, R^10 (x) S = 4x288 + 4x32, both 32-dim pieces of
+    each sector carrying IDENTICAL (C4, C10, OmF, P4) labels) into the
+    ledger's eight 32-dim slots, and extends the J-permutation and the
+    mirror-coflip exclusion tests to the refined slots.
+(b) LAYER-0 HOMONYM (blocking correction 1): this probe's "4 vs 8" is a count
+    of J-irreducible UNITS (the block partition of the eight X slots);
+    OQ-RK1's "4 vs 8" is rank_H(S_RS^+), an H-DIMENSION (rank_H := rank_C/2,
+    tests/hardening-pass/oqrk1_indh_rank.py).  They are HOMONYMS.  The 768_H
+    invariant is asserted per allocation and across allocations: the X block
+    carries rank_H = 768 in EVERY allocation (EXCHANGE 2x96_H + 2x288_H =
+    WITHIN 4x48_H + 4x144_H = 768_H); within-vs-exchange moves only the
+    partition and constrains no H-dimension.
 
 HARD ASSERTS: positive controls first (Clifford, omega^2=+I, J^2=-I,
 antilinearity, J-commutation with all 91 so(9,5) generators and omega,
 structure constants, Casimir calibration, annihilating polynomials, projector
 idempotence/completeness/orthogonality/traces/equivariance), then the
-classification result.  Exit nonzero on any failure.
+classification result, the Q4/Q10 small-sector refinement (idempotence,
+traces, label identity, refined J-permutation, refined mirror exclusion), and
+the 768_H invariant.  Exit nonzero on any failure.
 """
 
 from __future__ import annotations
@@ -513,6 +543,115 @@ def run_split(tag, base_idx, e, eta, omega, M, KM, KMi, T, IdenV, primary):
     check(f"{tag}: classification consistent with J om_F J^-1 = ({sF:+.0f}) om_F",
           (classification == "WITHIN") == (sF > 0))
 
+    # -- Q4/Q10 provenance refinement of the small sectors --------------------
+    # (hostile review 2026-08-03, finding A3 + check-4 recipe: the four 64-dim
+    # SM projectors are NOT isotypic -- each merges a B5 mirror pair, e.g.
+    # SM21p = (2,1,16+) (+) (2,1,16-), via 10 (x) 16+/- = 144+/- + 16-/+, and
+    # the merge collapses the ledger's provenance separation.  The equivariant
+    # J-stable grading Q4 = P_{R^4} (x) I, Q10 = P_{R^10} (x) I refines them
+    # into the ledger's eight 32-dim slots.)
+    q4d = np.kron(np.array([1.0 if a in base else 0.0 for a in range(N14)]),
+                  np.ones(DIMS))
+    check(f"{tag}: Q4 = P_(R^4) (x) I and Q10 = P_(R^10) (x) I idempotent, "
+          f"complementary, traces 512 + 1280",
+          mx(q4d * q4d - q4d) < T_EXACT
+          and abs(q4d.sum() - 512.0) < 1e-9
+          and abs((1.0 - q4d).sum() - 1280.0) < 1e-9)
+    check(f"{tag}: Q4/Q10 are J-stable and commute with all 12 slot projectors",
+          mx((KM * q4d[None, :]) @ KMi - np.diag(q4d)) < T_EXACT
+          and max(mx(q4d[:, None] * P[n] - P[n] * q4d[None, :]) for n in P)
+          < T_PROJ)
+    X16 = [n for (n, _, c10v, _, _, _) in SLOT_DEFS[:8] if c10v == 11.25]
+    X144 = [n for (n, _, c10v, _, _, _) in SLOT_DEFS[:8] if c10v == 21.25]
+    cont = max(max(mx(q4d[:, None] * P[n] - P[n]) for n in X16),
+               max(mx((1.0 - q4d)[:, None] * P[n] - P[n]) for n in X144))
+    check(f"{tag}: check-4 split R^4(x)S = 4x96 + 4x32, R^10(x)S = 4x288 + "
+          f"4x32 (16-type X slots inside Q4, 144-type inside Q10)",
+          cont < 1e-6, f"(max containment err {cont:.1e})")
+    SM_SLOTS = [s[0] for s in SLOT_DEFS[8:]]
+    Rf = {}
+    for n in SM_SLOTS:
+        Rf[n + ".Q4"] = q4d[:, None] * P[n]
+        Rf[n + ".Q10"] = (1.0 - q4d)[:, None] * P[n]
+    ide_r = max(mx(Rf[n] @ Rf[n] - Rf[n]) for n in Rf)
+    tr_r = max(abs(np.trace(Rf[n]).real - 32.0) + abs(np.trace(Rf[n]).imag)
+               for n in Rf)
+    comp_r = mx(sum(Rf.values()) + sum(P[n] for n in X_SLOTS) - IdenV)
+    check(f"{tag}: eight refined 32-dim small slots: idempotent, traces 32, "
+          f"complete with the X slots (8x32 + 4x96 + 4x288 = 1792)",
+          ide_r < T_PROJ and tr_r < 1e-6 and comp_r < T_PROJ,
+          f"(errs {ide_r:.1e}, {tr_r:.1e}, {comp_r:.1e})")
+    lab_err = 0.0
+    for name, c4v, c10v, om, f, _dim in SLOT_DEFS[8:]:
+        for qn in (".Q4", ".Q10"):
+            Rn = Rf[name + qn]
+            lab_err = max(lab_err, mx(C4V @ Rn - c4v * Rn),
+                          mx(C10V @ Rn - c10v * Rn),
+                          mx(OmF_V @ Rn - om * Rn),
+                          mx(P4V @ Rn - (c * f) * Rn))
+    check(f"{tag}: both 32-dim pieces of every small sector carry IDENTICAL "
+          f"(C4, C10, OmF, P4) labels -- the 12 coarse projectors are NOT the "
+          f"isotypic decomposition; only Q4/Q10 separates each merged B5 "
+          f"mirror pair", lab_err < T_ANN, f"(max err {lab_err:.1e})")
+
+    # refined J-measurement (extends the permutation + mirror tests to the
+    # ledger's eight small slots; the unrefined 64-dim measurement was
+    # structurally blind to a mirror action inside a merged pair)
+    rnames = list(Rf)
+    QR = {n: KM @ np.conj(Rf[n]) @ KMi for n in rnames}
+    Dr = np.zeros((len(rnames), len(rnames)))
+    for jn, nj in enumerate(rnames):
+        for in_, ni in enumerate(rnames):
+            Dr[in_, jn] = fro(Rf[ni] - QR[nj])
+    perm_r = {}
+    matched_r, unmatched_r = [], []
+    for jn, nj in enumerate(rnames):
+        order = np.argsort(Dr[:, jn])
+        perm_r[nj] = rnames[order[0]]
+        matched_r.append(Dr[order[0], jn])
+        unmatched_r.append(Dr[order[1], jn])
+    check(f"{tag}: J maps every refined small slot exactly onto a refined "
+          f"small slot", max(matched_r) < T_MATCH,
+          f"(max matched dist {max(matched_r):.2e})")
+    check(f"{tag}: refined-slot match separation decisive",
+          min(unmatched_r) / max(max(matched_r), 1e-300) > SEP_MIN,
+          f"(min unmatched {min(unmatched_r):.3e})")
+    exp_r = {n: perm[n.split('.')[0]] + "." + n.split('.')[1] for n in rnames}
+    check(f"{tag}: refined small slots follow the parent law and J preserves "
+          f"the Q4/Q10 provenance block", perm_r == exp_r,
+          json.dumps(perm_r) if perm_r != exp_r else "")
+    mir_r = {n: MIRROR[n.split('.')[0]] + "." + n.split('.')[1]
+             for n in rnames}
+    mdist_r = min(fro(Rf[mir_r[n]] - QR[n]) for n in rnames)
+    check(f"{tag}: J does NOT implement the B5 mirror coflip on any refined "
+          f"small slot (now measured, not merely implied)",
+          all(perm_r[n] != mir_r[n] for n in rnames) and mdist_r > 1.0,
+          f"(min |P_mirror - JPJ^-1|_F {mdist_r:.3f})")
+    rec["refined_small_slot_permutation"] = perm_r
+    rec["refined_small_slot_max_matched_distance"] = max(matched_r)
+    rec["refined_mirror_coflip_min_distance"] = mdist_r
+    del QR, Rf
+
+    # -- the 768_H invariant (review finding A5 / blocking corrections 1-2) ---
+    # rank_H := rank_C/2 (allocation-invariant); the dichotomy moves only the
+    # J-irreducible-unit PARTITION of the X block, never an H-dimension.
+    dimof = {s[0]: s[5] for s in SLOT_DEFS}
+    seen, units = set(), []
+    for n in X_SLOTS:
+        if n in seen:
+            continue
+        orbit = {n, perm[n]}
+        seen |= orbit
+        units.append(sum(dimof[m] for m in orbit) // 2)
+    check(f"{tag}: 768_H invariant -- the X block carries rank_H = 768 in "
+          f"this allocation ({len(units)} J-irreducible units; the partition "
+          f"moves, the H-total does not)",
+          sum(units) == 768 and len(units) in (4, 8)
+          and len(units) == (8 if classification == "WITHIN" else 4),
+          f"(units {sorted(units)})")
+    rec["X_J_unit_count"] = len(units)
+    rec["X_H_dim_total"] = 768
+
     rec["classification"] = classification
     rec["J_permutation"] = perm
     rec["max_matched_distance"] = max_match
@@ -579,7 +718,11 @@ def main():
     # [3][4] per-split slot construction + measurement ------------------------
     SPLITS = [
         ("(3,1)", (0, 1, 2, 9), True),      # Lorentzian observer base (primary)
-        ("(1,3)", (0, 9, 10, 11), False),   # opposite Lorentzian convention
+        ("(1,3)", (0, 9, 10, 11), False),   # Lorentzian base forcing internal
+                                            # (8,2): a physically DISTINCT
+                                            # allocation, not a convention flip
+                                            # (only (3,1)+(6,4) is the named
+                                            # split; review corr. 5)
         ("(4,0)", (0, 1, 2, 3), False),     # Euclidean base
         ("(2,2)", (0, 1, 9, 10), False),    # split base
         ("(0,4)", (9, 10, 11, 12), False),  # anti-Euclidean base
@@ -613,6 +756,18 @@ def main():
           "(J preserves total chirality; the mirror flips it)",
           all(all(records[t]["J_permutation"][n] != MIRROR[n] for n in X_SLOTS)
               for t, _, _ in SPLITS))
+    check("in NO split does J implement the mirror coflip on any REFINED "
+          "small slot either (the Q4/Q10 refinement makes this measurable)",
+          all(records[t]["refined_mirror_coflip_min_distance"] > 1.0
+              for t, _, _ in SPLITS))
+    check("768_H invariant across all five allocations: the X block's "
+          "H-dimension total is 768 in EVERY allocation (EXCHANGE "
+          "2x96_H + 2x288_H = WITHIN 4x48_H + 4x144_H = 768_H); only the "
+          "J-unit PARTITION moves (8 vs 4 units) -- a unit count HOMONYMOUS "
+          "with OQ-RK1's rank_H in {4,8}, constraining no H-dimension",
+          all(records[t]["X_H_dim_total"] == 768 for t, _, _ in SPLITS)
+          and sorted({records[t]["X_J_unit_count"] for t, _, _ in SPLITS})
+          == [4, 8])
 
     print("\n" + "=" * 78)
     print("LAYER-0 FENCE (verbatim):")
@@ -622,6 +777,13 @@ def main():
     print("Π_RS^phys per tests/oq_rk1_e_rs_eff_assembly.py), and no count claim")
     print("follows. How the H-structure factorizes across the tensor splitting is")
     print("a naming/spec question this probe INFORMS, not answers.")
+    print("-" * 78)
+    print("LAYER-0 HOMONYM BLOCK (hostile review 2026-08-03, blocking corr. 1):")
+    print("this probe's '4 vs 8' is a count of J-irreducible UNITS (the block")
+    print("partition of the eight X slots); OQ-RK1's '4 vs 8' is rank_H(S_RS^+),")
+    print("an H-DIMENSION (rank_H := rank_C/2). They are HOMONYMS. The X block")
+    print("carries 768_H in EVERY allocation (2x96 + 2x288 = 4x48 + 4x144 =")
+    print("768_H): the allocation moves the partition, never any H-dimension.")
     print("=" * 78)
     print(f"\nALL {CHECKS['n']} CHECKS PASSED")
     print("\nMACHINE JSON:")
