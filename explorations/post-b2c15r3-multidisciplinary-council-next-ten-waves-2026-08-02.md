@@ -7,7 +7,7 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD WITH PW2F-R CORRECTION / PW2F-R2 NEXT. Thirteen specialist lenses and ten inline engineering personas order the construction into dependency-gated waves. PW2F-R restores the omitted derivative-bearing Z1 metric graph, executes the structural q2/q3 C6 comparator, proves exact C5 cancellation on the exercised principal-Z1 fixed-background branch, and finds a live full-rank principal-Z1 kappa1 C4 contribution off a planted null conormal. The complete kappa1 and total-swervature C4 assembly still needs partial-Z1, section-tangent, coefficient-motion, and bulk/Green validation. C3, lower C2, public port, domain, quotient, observation, and physics remain open."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2A / PW2F-R2B NEXT. PW2F-R2A derives a directional Euler-covector remainder and eddy candidate from the source-pinned action, then rejects one universal constant kappa1 across two exact ambient independent-(B,T) finite families. The source is silent on that identification and theorem; the actual induced-Y14 exceptional locus remains open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -281,14 +281,20 @@ automatic-source-integrability obstruction below. The PW2A--PW2E continuation
 closed the finite local active operator/descent portion. PW2F's hostile review
 reopened the claimed highest metric-order gate. PW2F-R then restored the
 omitted derivative-bearing `Z1` graph, proved exact sixth- and fifth-order
-cancellation, and isolated a live fourth-order distortion coefficient. The
-complete fourth-order sum is still open. PW3 and later waves remain
+cancellation, and isolated a live fourth-order distortion coefficient.
+PW2F-R2A has now derived a noncyclic directional Euler-covector remainder and
+eddy candidate from the action and proved that no one constant `kappa1`
+cancels either exact ambient independent-`(B,T)` finite fixed-endpoint family.
+The source is silent on identifying this candidate with Portal's eddy. The
+result kills a universal action-intrinsic cancellation, not
+an exceptional value on the constrained induced-`Y14` locus. The complete
+actual-`Y14` fourth-order sum is still open. PW3 and later waves remain
 unexecuted.
 
 | Wave | Construction | Highest-information question | Exit or reroute |
 | --- | --- | --- | --- |
 | **PW1 — actual port and interface rendezvous — CONDITIONAL PASS / PW2 ENABLED** | The native bundle extends canonically into the mixed-sign complex source bundle. Reverse porting has two stages: a moving-(J) source reduction, then a compatible identification with active (P_{\rm nat}); stage two is open. Fixed projection is killed by the exact (\frac12[\Phi_J\wedge\Phi_J]) return. The full-unitary real-Krein mixed bracket and forced one-half algebraic affine action pass; central (iI) kills the complex bracket. The physical odd-field map and written-action Ward symmetry remain open for PW2. | Do the source-guided and native structures inhabit one actual real bundle and action interface? | Conditional reduction-plus-coset interface. Full equivalence and naive projection are killed. PW2 may build on (J,\Phi_J,Dp_J) while preserving the open active-bundle and physical-field gates. |
-| **PW2 — full jet and effective operator — PW2F-R PARTIAL PASS / PW2F-R2 REQUIRED** | PW2F-R corrects PW2F's omission of the derivative-bearing `Z1` metric graph. The restored ten-owner route is rank ten; an executable structural comparator gives `C6=0`, and the four-base-conormal `C5` polynomial of the exercised principal-`Z1` fixed-background branch cancels exactly. Its `kappa1` distortion-norm `C4` contribution is rank ten with inertia `(4,6)` off a planted null conormal and zero on it; the complete characteristic set is open. | Does the complete `kappa1` plus total-swervature, partial-`Z1`, section, and coefficient-motion `C4` assembly cancel at an exceptional `kappa1`, remain fourth order, or change the characteristic set? | PW2F-R2 completes `C4` and validates it by direct/reverse bulk equality plus Green concomitants. Only then may the campaign classify `C3`, lower `C2`, and the literal native Ward. Public-bundle, domain, BV, quotient, observation, and physics burdens remain. |
+| **PW2 — full jet and effective operator — PW2F-R2A PARTIAL PASS / PW2F-R2B REQUIRED** | PW2F-R restores the derivative-bearing `Z1` graph. PW2F-R2A then derives a live noncyclic directional Euler-covector remainder and eddy candidate from the pinned action and proves that the finite cyclic and moving C4 families are `7 kappa1+6x-3` and `7 kappa1+8x-10`. Their cancellation roots vary with the background, so no universal action-intrinsic constant `kappa1` exists on the ambient independent-`(B,T)` finite family. This is not a Portal-eddy identification or the complete induced-`Y14` metric graph. | Does the complete section/Zorro JVP plus `theta1`, `Bhat2`, moving-Shiab, graph-curvature, and pairing C4 restrict to a special proportional geometric locus, or remain fourth order? | PW2F-R2B constructs the actual degree-four 35-monomial conormal polynomial and validates direct/reverse/presymplectic Green equality. Only then may the campaign classify `C3`, lower `C2`, and the literal native Ward. Public-bundle, analytic domain, BV, quotient, observation, and physics burdens remain. |
 | **PW3 — BV quotient and covariant phase space** | Derive the Noether/BV differential, presymplectic current, boundary charge, and physical cohomology; compare with the Jordan image. | Is the nilpotent/Jordan sector action-generated gauge, or physical pathology? | A source-derived quotient preserving the observer carrier, or the exact unremoved obstruction. |
 | **PW4 — observation and datum** | Build the admissible-object groupoid, canonical observation relation, functional Euler pushdown, no-leakage theorem, and typed `D_obs`. | After quotient, is observation unique, a finite torsor, or continuously underdetermined? | Minimal priced datum or exact hidden-mode/support failure. Do not relabel missing maps P1/P2/P3. |
 | **PW5 — domain and evolution** | Recompute the quotient symbol; construct a common right-H/Krein Green domain; test Lorentz-section evolution and the separate ultrahyperbolic boundary comparator. | Did quotienting remove the earlier Jordan and positivity obstruction? | Conditional physical evolution packet or sharply scoped domain obstruction. |
@@ -370,6 +376,12 @@ polynomial certificate kills `C5` on the exercised principal-`Z1` fixed-
 background branch. Its `kappa1` distortion-norm contribution to `C4` is exact
 rank ten and inertia `(4,6)` off the tested null conormal, and zero on it. This
 is a subroute contribution, not the complete coefficient, Euler symbol, or
-characteristic set. The next gate is
-`PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA`.
+characteristic set. PW2F-R2A next derived a directional Euler-covector
+remainder and eddy candidate on an exact noncyclic finite restriction. The
+two C4 families are `7 kappa1+6x-3` and `7 kappa1+8x-10`, so no one constant
+`kappa1` cancels either whole ambient family. Hostile review corrected the
+flat branch to `B=dB=0`, added held-out and independent Frechet checks, made
+`SOURCE-SILENT` the leading disposition, and preserved the actual induced-
+`Y14` exceptional locus. The next gate is
+`PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4`.
 PW3 stays blocked. P1/P2/P3 remain correctly unused.

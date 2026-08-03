@@ -7,26 +7,27 @@ updated_at: "2026-08-02"
 
 # Next Steps For Contributors
 
-> **2026-08-02 PW2F-R CORRECTED METRIC GRAPH; COMPLETE C4 GATE NEXT.**
-> PW2F-R catches that PW2F exercised only the algebraic `Z0` part of the
-> induced metric graph and omitted the derivative-bearing `Z1(nabla k)` part.
-> Restoring `Z1` makes the ten-owner metric and Levi-Civita/spin banks exact
-> rank ten on the base-conormal panel. The complete exercised LC variation
-> still has zero alternation, so the highest derived-`K` incidence recombines
-> exactly to `Ad_(h^-1) delta B` on the selected nontrivial Hodge-null bridge.
-> The restored route raises the apparent density ceiling to six. An executable
-> q2/q3 Euler comparator gives the structural `C6` zero, and the complete
-> four-base-conormal `C5` polynomial of the exercised principal-`Z1` fixed-
-> background branch cancels identically. The first live subroute is `C4`: its
-> principal-`Z1` `kappa1` distortion-norm contribution has exact ranks
-> `[10,10,10,10,0]`, inertia `(4,6)` off the planted null conormal, and exact
-> zero on `e0+e3`. FLINT verifies rank ten, nonzero determinant, and null rank
-> zero over exact rationals. This does not determine the complete `kappa1`
-> coefficient or a characteristic. PW2F-R2 must assemble partial-`Z1`,
-> section-tangent, complete `kappa1`, source-required total swervature,
-> density/Krein/lowerer, and direct/reverse bulk-plus-Green validation before
-> asking whether an exceptional `kappa1` cancels the term. `C3`, lower `C2`,
-> the literal native Ward, and PW3 remain blocked behind that calculation.
+> **2026-08-02 PW2F-R2A ACTION-DERIVED EDDY CANDIDATE; ACTUAL-Y14 C4 GATE NEXT.**
+> PW2F-R2A removes one ambiguity left by PW2F-R. The Portal “quadratic eddy”
+> is not inserted as another action term: the candidate is derived as the
+> directional Euler-covector remainder of the pinned one-half/one-third action.
+> Its identity with Portal's full eddy tensor is `SOURCE-SILENT`, and the
+> contraction insertion is frozen during field variation here. The remainder
+> is zero in the cyclic identity-contraction control, nonzero in the noncyclic
+> fixture, exactly `-15 r^2` at the true `B=dB=0` flat reference, and passes
+> exact constant-conjugation witnesses when the insertion gauge-co-moves. On
+> a complete exact ambient independent-`(B,T)` finite fixed-total-connection
+> family, the cyclic and moving C4 comparators are
+> `7 kappa1+6x-3` and `7 kappa1+8x-10`. Each background can be tuned, but its
+> required root changes with `x`; no one action-intrinsic constant `kappa1`
+> cancels either whole family. This does not kill a special proportionality on
+> the constrained induced-`Y14` locus. PW2F-R2B must build one differentiated
+> section/Zorro JVP, partial-`Z1`, complete `theta1` and `Bhat2`, every moving-
+> Shiab/density/Krein/lowerer path, both Hessian graph-curvature terms, and the
+> exact 35-monomial conormal C4 polynomial with native direct/reverse/
+> presymplectic Green agreement. `C3`, lower `C2`, the literal native Ward, and
+> PW3 remain blocked behind that calculation. The current Green checks are
+> formal scalar-jet identities, not an analytic or Krein/right-`H` domain.
 > ML/statistics may reduce the legal basis, choose high-information exact
 > fixtures, reconcile automatic and symbolic derivatives, and conjecture
 > polynomial factors, but every scientific gate remains exact. Consensus and
@@ -54,9 +55,11 @@ updated_at: "2026-08-02"
 > the scoped PW2F result in
 > `explorations/pw2f-native-top-order-metric-ward-2026-08-02.md`, and the
 > scoped PW2F-R result in
-> `explorations/pw2fr-complete-derived-k-c3-2026-08-02.md`.
+> `explorations/pw2fr-complete-derived-k-c3-2026-08-02.md`, and the scoped
+> PW2F-R2A result in
+> `explorations/pw2fr2-total-swervature-kappa-2026-08-02.md`.
 > Resume at
-> `PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA`.
+> `PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4`.
 >
 > **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
 > (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with

@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2-total-swervature-kappa-registry.json` - PW2F-R2A ledger: keeps the
+  written action transgression distinct from its directional Euler-covector
+  remainder and the resulting eddy candidate,
+  records a live noncyclic remainder and exact finite-family C4 polynomials,
+  rejects one universal constant `kappa1` across those families, validates
+  two Green layers, and leaves the complete actual induced-`Y14` C4 and any
+  exceptional geometric value open for PW2F-R2B.
 - `pw2fr-complete-derived-k-c3-registry.json` - PW2F-R correction ledger:
   restores the omitted derivative-bearing `Z1` induced metric graph, records
   executable structural `C6` and scoped `C5` cancellation plus the live

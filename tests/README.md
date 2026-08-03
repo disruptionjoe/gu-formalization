@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2_total_swervature_kappa_probe.py` derives a noncyclic
+  directional Euler-covector remainder and hence an eddy candidate from the pinned action,
+  rejects one universal constant `kappa1` across two exact finite background
+  families, and checks two-layer plus linearized Green identities. It leaves
+  the constrained actual-`Y14` exceptional locus open. Run it with
+  `uv run --with sympy python`.
+- `channel-swings/pw2fr2_total_swervature_source_probe.py` pins the draft and
+  Portal source claims while keeping the written action transgression, the
+  repository eddy candidate, and Portal's unspecified eddy distinct. Run it with
+  `python3`.
 - `channel-swings/pw2fr_complete_derived_k_c3_probe.py` restores the omitted
   derivative-bearing `Z1` metric graph, composes the highest derived-`K`
   incidence, executes the structural `C6` comparator, proves scoped

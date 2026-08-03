@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
-  "status": "PW2FR_Z1_GRAPH_PASS_STRUCTURAL_C6_EXERCISED_C5_CANCEL_KAPPA1_C4_SUBROUTE_LIVE_COMPLETE_C4_OPEN_PW2F_R2_NEXT",
+  "status": "PW2FR2A_ACTION_DERIVED_EDDY_LIVE_NO_UNIVERSAL_CONSTANT_KAPPA_ON_FINITE_FAMILY_ACTUAL_Y14_C4_OPEN_PW2FR2B_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -40,13 +40,16 @@
       "PW2F selected seven-horizontal fixed-h/fixed-Shiab rank-seven C2 bank, held-out e10 rank-ten and e0-plus-e10 rank-five non-skew C3 contributions, structural affine theorem, and formal diffeomorphism schema",
       "PW2F-R correction that PW2F omitted the derivative-bearing Z1 metric graph; the restored ten-owner Z1 metric and LC/spin banks have exact rank ten on the base panel",
       "PW2F-R executable q2/q3 Euler comparator C6 zero and exact four-base-conormal C5 polynomial cancellation on the exercised principal-Z1 fixed-background branch",
-      "PW2F-R exact principal-Z1 kappa1 distortion-norm C4 contribution rank ten with inertia (4,6) off the planted null conormal and exact subroute rank zero on e0 plus e3"
+      "PW2F-R exact principal-Z1 kappa1 distortion-norm C4 contribution rank ten with inertia (4,6) off the planted null conormal and exact subroute rank zero on e0 plus e3",
+      "PW2F-R2A exact action-derived noncyclic directional Euler-covector remainder and eddy candidate, with true flat-reference distortion polynomial minus15 r squared and exact gauge-co-moving-insertion conjugation witnesses",
+      "PW2F-R2A fixed-total-connection cyclic and moving action polynomials with C4 coefficients 7 kappa1 plus 6 x minus 3 and 7 kappa1 plus 8 x minus 10",
+      "PW2F-R2A exact no-universal-constant-kappa result across both finite background families plus two-layer and linearized Green certificates"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
       "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "complete partial-Z1, section-tangent, kappa1, total-swervature, density/Krein/lowerer, and direct-reverse bulk plus Green C4 validation before any C3 or lower C2 assembly",
+      "complete actual induced-Y14 section/Zorro JVP, partial-Z1, theta1 and Bhat2, eight-slot moving-Shiab, density/Krein/lowerer, graph-curvature, and direct-reverse-presymplectic C4 validation before any C3 or lower C2 assembly",
       "complete lower C2 active-native metric Euler coefficient with every total-to-base metric owner, formal-adjoint Green return, kernel, and quotient rank",
       "actual action-derived Euler covector descent beyond the earned active coefficient and grade-two representation-covector laws",
       "higher native action jets determining whether the quadratic Delta-only degeneracy persists; D3G remains unconstructed and unearned pending the complete top-order sum",
@@ -57,9 +60,9 @@
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2F-R",
-    "guided_next": "PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA",
-    "alternative_next": "PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA"
+    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2A",
+    "guided_next": "PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4",
+    "alternative_next": "PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -383,7 +386,7 @@
     },
     {
       "id": "PW2",
-      "status": "PW2FR_STRUCTURAL_C6_EXERCISED_C5_CANCEL_KAPPA1_C4_SUBROUTE_LIVE_COMPLETE_C4_REQUIRED",
+      "status": "PW2FR2A_EDDY_REMAINDER_AND_NO_UNIVERSAL_KAPPA_FINITE_FAMILY_PASS_ACTUAL_Y14_C4_REQUIRED",
       "title": "Full first-jet action graph and effective order-two operator",
       "depends_on": ["PW1"],
       "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
@@ -407,7 +410,7 @@
       ],
       "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
       "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
-      "exit": "PW2F-R restores the omitted derivative-bearing Z1 metric graph, executes the structural q2/q3 C6 comparator, proves all-base-conormal C5 cancellation on the exercised principal-Z1 fixed-background branch, and finds a live full-rank principal-Z1 kappa1 distortion-norm C4 contribution off a planted null conormal. The complete kappa1 and total-swervature C4 assembly still needs partial-Z1, section, coefficient-motion, and direct/reverse bulk-plus-Green validation. C3, lower C2, public port, domain, quotient, observation, and physics remain blocked.",
+      "exit": "PW2F-R2A derives a noncyclic directional Euler-covector remainder and eddy candidate from the pinned action and proves that no single constant kappa1 cancels either complete preregistered ambient independent-(B,T) finite fixed-endpoint family. The source is silent on identifying this candidate with Portal's eddy. The result kills an action-intrinsic universal cancellation but not an exceptional value on the constrained induced-Y14 locus. The actual Y14 C4 still needs one section/Zorro JVP, partial-Z1, theta1/Bhat2, all moving coefficient and graph-curvature terms, and native direct/reverse/presymplectic validation. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked.",
       "result": {
         "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
         "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
@@ -438,9 +441,13 @@
         "pw2fr_euler_order": "EXECUTABLE_STRUCTURAL_Q2Q3_C6_ZERO__C5_ZERO_AS_EXACT_FOUR_BASE_CONORMAL_POLYNOMIAL_OF_EXERCISED_PRINCIPAL_Z1_FIXED_BACKGROUND_BRANCH__PRINCIPAL_Z1_KAPPA1_C4_SUBROUTE_RANKS10_10_10_10_0_AND_INERTIA4_6_OFF_NULL_CONORMAL__COMPLETE_KAPPA1_AND_TOTAL_SWERVATURE_C4_OPEN__CHARACTERISTIC_OPEN__C3_BLOCKED_BY_C4",
         "pw2fr_source_forks": "SOURCE_EPSILON_HELD_FIXED__SAME_SOURCE_EPSILON_VARIED_INDEPENDENTLY__REPOSITORY_DERIVED_H_TANGENT_DISTINCT__NONE_SOURCE_SELECTED__SOURCE_CONFIRMS_CONNECTION_DIFFERENCE_AND_UNSPECIFIED_TOTAL_SWERVATURE_EDDY_COMPLETION__SOURCE_SILENT_ON_EDDY_FORMULA_H_SELECTOR_AND_C4_C3",
         "pw2fr_tools": "PRIMARY37_PASS__SOURCE21_PASS__FLINT4_PASS__SAGE_STRUCTURAL_ARTIFACT_PRESENT_BUT_BINARY_UNAVAILABLE_THIS_RUN",
+        "pw2fr2a_eddy": "DIRECTIONAL_EULER_COVECTOR_REMAINDER_AND_EDDY_CANDIDATE__CYCLIC_COMPRESSED_REMAINDER_ZERO__MOVING_NONCYCLIC_REMAINDER_MINUS20__TRUE_FLAT_B_AND_DB_ZERO_REFERENCE_MINUS15_R2__CURVED_REFERENCE_MINUS5_R_TIMES_3R_PLUS1__EXACT_GAUGE_CO_MOVING_INSERTION_CONSTANT_CONJUGATION_WITNESSES__INSERTION_FROZEN_DURING_FIELD_VARIATION__PORTAL_EDDY_IDENTITY_SOURCE_SILENT__NO_DOUBLE_INSERTION",
+        "pw2fr2a_c4": "FIXED_ENDPOINT_CURVATURE_PRESERVED_ON_SEVEN_POINT_PANEL__HELDOUT_X4_PASS__CYCLIC_C4_7KAPPA_PLUS6X_MINUS3__MOVING_C4_7KAPPA_PLUS8X_MINUS10__BACKGROUND_DEPENDENT_ROOTS__NO_UNIVERSAL_CONSTANT_KAPPA_ON_EITHER_AMBIENT_INDEPENDENT_B_T_FINITE_I1B_FAMILY__ACTUAL_INDUCED_Y14_EXCEPTIONAL_LOCUS_OPEN",
+        "pw2fr2a_green_scope": "FORMAL_1D_SCALAR_JET_TWO_LAYER_FIRST_VARIATION_GREEN_LINEARIZED_FORMAL_SELF_ADJOINT_CONCOMITANT_AND_INDEPENDENT_FRECHET_PASS__NO_ANALYTIC_BOUNDARY_OR_KREIN_RIGHT_H_DOMAIN__FINITE_G2_RESTRICTION_NOT_COMPLETE_INDUCED_Y14__OBSERVATION_DELTA_CURRENT_EXCLUDED_FROM_SMOOTH_BULK",
+        "pw2fr2a_tools": "MAIN51_PASS__PINNED_SOURCE20_PASS__PW2FR_AND_G2_PREDECESSORS_PASS__THREE_HOSTILE_REVIEWS_PASS_AFTER_REPAIR",
         "pw2f_diffeomorphism": "STRUCTURAL_1D_FORMAL_NATURAL_LIFT_NOETHER_AND_GREEN_SCHEMA_PASS__INTERNAL_WARD_AND_XI_DISTINCT__LITERAL_ACTIVE_NATIVE_OWNER_COEFFICIENT_AND_RANK_OPEN",
         "pw2f_tools_and_sources": "PRIMARY_PDF_CUSTODY_AND_SCOPED_ABSENCE_MANIFEST__SAGE_STRUCTURAL_AFFINE5__FLINT_RATIONAL_RANK7__RIGOROUS_ARB_INTERVAL_NONZERO_SELECTED_MINOR__NO_BACKEND_NATIVE_ASSEMBLY",
-        "next_gate": "PW2F-R2-COMPLETE-PARTIAL-Z1-TOTAL-SWERVATURE-C4-GREEN-AND-EXCEPTIONAL-KAPPA"
+        "next_gate": "PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4"
       },
       "review_receipts": {
         "pre_assessment": {
@@ -715,6 +722,41 @@
             "exact geometry, variational PDE, and source Layer-0 hostile reviews PASS_AFTER_REPAIR"
           ]
         }
+      },
+      "pw2fr2a_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact induced Y14, reductive, and Clifford geometry",
+            "variational PDE, Hessian, exceptional-locus, and Green ownership",
+            "primary-source provenance and Layer-0 eddy typing"
+          ],
+          "shared_prediction": "a noncyclic action-derived remainder and generic C4 survival were likely; a universal kappa had to be tested exactly rather than rejected by reflex"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "hostile exact algebra and geometry scope",
+            "hostile variational PDE and Green certificate",
+            "hostile source fidelity and campaign evidence"
+          ],
+          "must_fix": [],
+          "repairs": [
+            "corrected the flat branch from B=0 with live dB to B=dB=0 while preserving minus15 r squared",
+            "narrowed the computed object to a directional Euler-covector remainder and eddy candidate; identity with Portal's eddy is source-silent",
+            "scoped constant conjugation to exact gauge-co-moving-insertion witnesses with insertion frozen during field variation",
+            "added held-out x=4 action and mass evaluations and an independent Frechet linearization check",
+            "scoped the no-kappa result to the ambient independent-(B,T) finite I1B family and kept the induced-Y14 exceptional locus open",
+            "typed Green as formal one-dimensional scalar jet algebra with no analytic or Krein/right-H domain claim",
+            "made SOURCE-SILENT the leading decisive disposition and moved no-double-counting conclusions to REPOSITORY-DERIVES"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2A repaired main: 30 exact + 12 type + 9 planted = 51 PASS",
+            "PW2F-R2A pinned-source collision: 1 exact + 7 source + 7 type + 5 planted = 20 PASS",
+            "PW2F-R and G2 predecessor regressions PASS",
+            "exact geometry, variational PDE, and source campaign hostile reviews PASS_AFTER_REPAIR"
+          ]
+        }
       }
     },
     {
@@ -983,7 +1025,7 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, PW2E, PW2F, and scoped PW2F-R were executed; PW2F-R2 is next and PW3 plus all later waves remain unexecuted.",
+    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, PW2E, PW2F, scoped PW2F-R, and scoped PW2F-R2A were executed; PW2F-R2B is next and PW3 plus all later waves remain unexecuted.",
     "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."
