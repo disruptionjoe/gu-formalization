@@ -2,20 +2,22 @@
 title: "No-Go Theorems as Class-Relative Obstructions: A Survey with a Geometric Unity Test Case"
 status: draft
 doc_type: paper
-updated_at: "2026-06-20"
+updated_at: "2026-08-03"
 depends_on:
   - "canon/no-go-class-relative-map.md"
   - "lab/active-research/pati-salam-chain-verification.md"
   - "lab/active-research/signed-readout/signed-readout-consolidated.md"
   - "docs/paper-formalization-candidates.md"
   - "canon/six-axis-specification-protocol.md"
+  - "lab/literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md"
+revision_note: "2026-08-03 (Wave A-3, item Q7; anchor-council adjudication §3): added §2.6 — the Witten 1983 Rarita-Schwinger prior-art treatment and the KK-gravitino class placement of the in-repo (3,2,16±) identification (register M-H1) — plus the Witten 1983 reference and a §9.1 scope caveat. PRE-DEPOSIT: this addition moves no verdict, bar, canon claim, count, or lane status; any decisive consequence is J5-gated (hostile field-specialist review before deposit)."
 ---
 
 # No-Go Theorems as Class-Relative Obstructions: A Survey with a Geometric Unity Test Case
 
 ## Abstract
 
-Four families of no-go theorems — Witten (1981), Nielsen-Ninomiya (1981), Freed-Hopkins (2021, confirmed Grady 2023), and Distler-Garibaldi (2010) — constrain the emergence of chiral fermions, anomaly cancellation, and gauge unification in physics. Each is a correct theorem. Each also fixes an input class: smooth compact geometry, local on-site lattice symmetry, invertible extended functorial QFT, or single-E₈ representation theory. We survey each theorem's exact assumptions and the published literature on class exits, then organize the results through a *forgetful-image framework*: every known evasion adds structure that a class-specific forgetful operation discards, and the no-go theorem is a statement about the image of that operation.
+Four families of no-go theorems — Witten (1981, 1983), Nielsen-Ninomiya (1981), Freed-Hopkins (2021, confirmed Grady 2023), and Distler-Garibaldi (2010) — constrain the emergence of chiral fermions, anomaly cancellation, and gauge unification in physics. Each is a correct theorem. Each also fixes an input class: smooth compact geometry, local on-site lattice symmetry, invertible extended functorial QFT, or single-E₈ representation theory. We survey each theorem's exact assumptions and the published literature on class exits, then organize the results through a *forgetful-image framework*: every known evasion adds structure that a class-specific forgetful operation discards, and the no-go theorem is a statement about the image of that operation.
 
 As a concrete test case, we apply this framework to Eric Weinstein's Geometric Unity program (2021 draft), whose constructions propose specific class exits for three of the four families. We report a computational verification of the program's most falsifiable claim — the Pati-Salam reduction chain Spin(7,7) → ⋯ → SU(3) × SU(2) × U(1) and the associated 16-state quantum number table — confirming that the group theory is internally correct (19/19 assertions pass with independent cross-check). We also report a signed-readout boundary theorem that provides a partial bridge between chirality obstructions and coordination-freedom in distributed systems, addressing the Nielsen-Ninomiya family from a novel angle.
 
@@ -81,6 +83,23 @@ The 2021 Geometric Unity draft proposes a specific construction that addresses t
 This construction does not evade Witten by the standard route (adding singularities, boundaries, or flux to X). Instead, it changes the *unit*: fields do not live on a compactified internal manifold at all. They live on Met(X), and the four-dimensional fermion spectrum is read off via pullback through a metric choice, not via zero modes of a Dirac operator on a smooth internal space. Assumption (5) — that fermions are zero modes on X — does not apply, because the construction's fermions are chimeric spinors on Y observed via ι.
 
 **Assessment**: the exit is geometrically precise (the Observerse is a well-defined fiber bundle) and does not invoke any of the structures that Witten's theorem constrains. Whether it produces the correct physics is a separate question; the claim here is only that it is not *within* the Witten class.
+
+### 2.6 Witten (1983) — the Rarita-Schwinger extension and the Kaluza-Klein gravitino class
+
+Two years after the 1981 obstruction, Witten sharpened it in "Fermion Quantum Numbers in Kaluza-Klein Theory" (Witten 1983). Two results matter for this survey. First, in the absence of elementary gauge fields — when all gauge interactions arise from the metric and isometries of the internal space — an Atiyah-Hirzebruch argument implies that the higher-dimensional **Dirac** operator yields only vector-like four-dimensional fermion quantum numbers. This is the theorem-grade form of the 1981 phenomenological statement in §2.1. Second, and decisive for this subsection: Witten proves the **analogous obstruction for the Rarita-Schwinger operator on homogeneous internal spaces**. The chirality obstruction is therefore not an artifact of the spin-1/2 sector. A four-dimensional gravitino spectrum obtained by smooth Kaluza-Klein reduction, with gauge structure sourced by geometry, is subject to the same vector-like conclusion as the Dirac spectrum.
+
+Assumptions, read from the paper's own framing: (1) smooth compactification as in §2.2; (2) the four-dimensional fermion sector is read off from the ordinary higher-dimensional Dirac or Rarita-Schwinger operator; (3) gauge interactions come from geometry/isometries rather than from independent higher-dimensional gauge bundles; (4) for the Rarita-Schwinger statement, the internal space is homogeneous.
+
+**Why the 1981 treatment alone is insufficient here.** GU's exit argument in §2.5 was made for the *Dirac-sector* reading of assumption (5) — fermions as zero modes of a Dirac operator on a smooth internal space. GU's fermion carrier, however, is a Rarita-Schwinger (vector-spinor) object, and the program's generation proposals lean on the RS sector specifically. An exit argued at spin 1/2 does not transfer to spin 3/2 for free: Witten 1983 exists precisely because the RS case required (and admitted) its own theorem.
+
+**The KK-gravitino identification and its class.** The program's own branching ledger identifies the (3,2,16±) slots of the Rarita-Schwinger remainder — branched under Spin(4,ℂ) × Spin(10,ℂ) — as a four-dimensional chiral gravitino with internal Spin(10)-**16** multiplicity [in-repo: register item M-H1; the B5 observer-symbol multiplicity matrix; probe `tests/oq_rk1_j_restriction_probe.py`; literature pointer `lab/literature/04-spectral-triples-anomaly-chirality-distributed-systems-analogies.md:84`]. Read as physics, that is precisely a **Kaluza-Klein gravitino statement**: a 4D spin-3/2 field whose internal gauge multiplicity is supplied by reduction of a higher-dimensional Rarita-Schwinger field, with the gauge structure geometric in origin. If it is read inside the smooth-KK class, it lands in the class Witten 1983 constrains — not in the 1981 Dirac class that §2.5's exit addresses. Precision about the class boundary cuts both ways: Witten's RS theorem is proved for smooth compact homogeneous internal spaces, and GU's Y¹⁴ = Met(X⁴) is neither compact nor homogeneous, so the theorem does not automatically *apply* to GU — but by the same token the §2.5 exit does not automatically *transfer* to the RS sector. Class membership must be argued for the RS sector on its own, and to date it has not been.
+
+**What the class-relative argument must therefore address.** Any GU claim in which the RS sector supplies a *chiral* four-dimensional family — in particular the "2+1 imposter third generation" proposal in its RS reading, where the third family is the RS(3,1) ⊗ S(6,4) block of the gamma-traceless product rule 1664 = 384 + 1152 + 128 — must do one of two things:
+
+1. Show that the RS sector exits the 1983 class the same way §2.5 argues the Dirac sector exits the 1981 class: that the 4D gravitino-analogue spectrum is *not* read off as zero modes of a Rarita-Schwinger operator on a smooth internal geometry with isometry-sourced gauge fields, but through the Observerse pullback. That argument has been made for the Dirac sector only; restating it at spin 3/2 — where the constraint (gamma-tracelessness), gauge-fixing, and ghost structure of the RS operator all differ — is an open obligation, not a corollary.
+2. Or accept the vector-like conclusion for the RS-derived family and locate the net chirality elsewhere — which forfeits the RS family as the chiral third generation and moves the claim onto the other horn of the in-repo imposter A/B adjudication [in-repo: `explorations/imposter-reading-adjudication-2026-08-03.md`].
+
+An honest datum accompanies the burden: in the program's own ledger both chiralities appear symmetrically ((3,2,16+) and (3,2,16−), equal multiplicity 96 each), the generation-count falsification test finds equal Weyl content for both chirality projections (16 either way; `tests/W221_falsify_generation_count_structure.py`, check B9), and the chirality grading of the imposter block is an open in-repo computation predicted balanced — not yet run, so citable only as a prediction. All of this is *consistent with* the vector-like outcome the 1983 class supplies, and none of it is a verdict. What this subsection discharges is a **prior-art gate**: Witten 1983 is the closest published constraint on the class GU's KK-gravitino identification most naturally lands in, and any paper built on the RS-generation reading must engage it explicitly. The gate is a citation-and-burden-location gate, not a result.
 
 ---
 
@@ -382,7 +401,7 @@ The four no-go families divide into two logical types, and GU's relation to each
 | Nielsen-Ninomiya | Effective chirality / decoupling | L5 (emergence) | LOW — narrative claim | Not verified; under-specified |
 | Freed-Hopkins | Not addressed | — | — | Open gap |
 
-The strongest class-relative exit is against Witten, where the Observerse construction operates on a genuinely different substrate (Y¹⁴ rather than smooth compact KK). The weakest is against Nielsen-Ninomiya, where the effective chirality claim needs substantial clarification before it can be formalized.
+The strongest class-relative exit is against Witten, where the Observerse construction operates on a genuinely different substrate (Y¹⁴ rather than smooth compact KK) — with the §2.6 caveat that this exit has been argued for the Dirac sector only: the Rarita-Schwinger/gravitino sector faces Witten 1983 separately, and its exit is unargued. The weakest is against Nielsen-Ninomiya, where the effective chirality claim needs substantial clarification before it can be formalized.
 
 The signed-readout boundary theorem (§3.6) provides an independent, partial bridge for the Nielsen-Ninomiya family. It does not validate GU's specific mechanism, but it demonstrates that the structural picture — monotone provenance with signed readout as the source of apparent chirality — is mathematically coherent at the lattice level.
 
@@ -479,6 +498,8 @@ Wang, J., Wen, X.-G., Witten, E. (2017). Symmetric gapped interfaces of SPT phas
 Weinstein, E. (2021). Geometric Unity (Draft, April 1, 2021). Unpublished manuscript.
 
 Witten, E. (1981). Search for a realistic Kaluza-Klein theory.
+
+Witten, E. (1983). Fermion quantum numbers in Kaluza-Klein theory.
 
 ---
 
