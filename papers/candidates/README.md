@@ -45,6 +45,7 @@ submit, reclassify, or advance a paper.
 
 | candidate folder | paper / packet | staging note |
 |---|---|---|
+| [`good-stable-compactification-no-go/`](good-stable-compactification-no-go/) | "Structural No-Go for Chirality-Safe Good-Stable Compactification"; Markdown-only candidate under maximal hardening. Adversarial deep research remains pending, and no PDF or release package exists. | [`STAGING-NOTES.md`](good-stable-compactification-no-go/STAGING-NOTES.md) |
 | [`generation-number-boundary-odd-primary/`](generation-number-boundary-odd-primary/) | Generation Number Boundary Odd Primary; boundary / odd-primary location packet. | [`STAGING-NOTES.md`](generation-number-boundary-odd-primary/STAGING-NOTES.md) |
 | [`generation-number-located-not-forced/`](generation-number-located-not-forced/) | Generation Number Located Not Forced; class-wide forcing no-go and `{1,3}` reduction. | [`STAGING-NOTES.md`](generation-number-located-not-forced/STAGING-NOTES.md) |
 | [`keep-and-grade-loop-cost/`](keep-and-grade-loop-cost/) | Keep And Grade Loop Cost; loop-cost / keep-and-grade packet. | [`STAGING-NOTES.md`](keep-and-grade-loop-cost/STAGING-NOTES.md) |
