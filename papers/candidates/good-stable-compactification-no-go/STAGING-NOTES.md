@@ -1,6 +1,6 @@
 ---
 title: "Staging notes: Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)"
-status: "maximally hardened Markdown candidate; adversarial saturation rerun pending"
+status: "v0.6 maximally hardened Markdown candidate; clean adversarial rerun pending"
 updated: "2026-08-03"
 ---
 
@@ -9,9 +9,11 @@ updated: "2026-08-03"
 ## Publication decision
 
 Joe approved the mathematical title and the removal of the detailed GU
-application. The paper is a standalone finite-dimensional result. It is not
-post-ready until a fresh hostile deep-research pass finds no unresolved
-hardening potential.
+application. The paper is a standalone finite-dimensional result. The v0.5
+hostile specialist pass found no fatal issue and independently confirmed the
+concrete calculation, but identified eleven hardening actions. All are
+dispositioned in v0.6. The paper is not post-ready until a clean hostile rerun
+finds no unresolved hardening potential.
 
 ## Theorem-grade core
 
@@ -20,8 +22,10 @@ For a faithful finite-dimensional tested representation:
 - vectors fixed by an unbounded one-parameter group retain that group in their
   stabilizer;
 - operators commuting with its infinitesimal generator retain the same group;
-- extremal-weight vectors retain a represented nilpotent subgroup under the
-  separately stated `ad(Z)`-hyperbolicity hypotheses.
+- maximal or minimal weight vectors retain the corresponding unipotent
+  subgroup when `ad(Z)` and `dR(Z)` are real diagonalizable and the
+  sign-matched eigenspace sum has a witness with nonzero nilpotent defining
+  image.
 
 Each stabilizer therefore has non-relatively-compact represented image and
 cannot preserve a positive-definite inner product on the tested module.
@@ -35,8 +39,9 @@ The `Sp(32,32)` matrix model is now self-contained. Its `ad(Z)` decomposition is
 ```
 
 and both nonzero eigenspaces consist of mutually annihilating square-zero
-matrices. SageMath, an independent exact property suite, and a narrow Lean
-kernel accompany the written proof.
+matrices. The isotropic basis identifies the associated `|1|` parabolic and
+abelian nilradical. SageMath, an independent exact property suite, and a narrow
+Lean kernel accompany the written proof.
 
 ## Claim grade
 

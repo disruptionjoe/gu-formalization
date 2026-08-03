@@ -18,7 +18,12 @@ yet approved for posting.
 - [`review/referee-disposition-2026-08-03.md`](review/referee-disposition-2026-08-03.md)
   records the disposition of the hostile deep-research report.
 - [`review/post-hardening-ten-specialist-audit-2026-08-03.md`](review/post-hardening-ten-specialist-audit-2026-08-03.md)
-  records the final internal multi-lens audit and its remaining external gate.
+  records the v0.5 internal multi-lens audit.
+- [`review/hostile-specialist-disposition-2026-08-03.md`](review/hostile-specialist-disposition-2026-08-03.md)
+  records all eleven findings from the external v0.5 hostile-specialist pass
+  and their v0.6 dispositions.
+- [`review/post-v0.6-adversarial-audit-2026-08-03.md`](review/post-v0.6-adversarial-audit-2026-08-03.md)
+  records the consolidated internal zero-actionable check after those repairs.
 
 No PDF, TeX release source, Zenodo metadata, or upload archive belongs in this
 directory until Joe approves the hardened manuscript after the fresh

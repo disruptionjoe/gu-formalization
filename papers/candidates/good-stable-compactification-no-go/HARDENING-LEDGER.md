@@ -1,14 +1,46 @@
 ---
 title: "Hardening ledger: Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)"
-status: "maximal revision complete; fresh adversarial saturation rerun pending"
+status: "second maximal revision complete; fresh adversarial saturation rerun pending"
 updated: "2026-08-03"
 ---
 
 # Hardening ledger
 
-This ledger records the revision from the GU-facing v0.4 draft to the
-standalone mathematical v0.5 candidate. It distinguishes actual repairs from
-scope boundaries and does not promote the paper to post-ready status.
+This ledger records the revision from the GU-facing v0.4 draft through the
+standalone mathematical v0.5 candidate and the hostile-specialist-hardened
+v0.6 candidate. It distinguishes actual repairs from scope boundaries and does
+not promote the paper to post-ready status.
+
+## Second hostile-specialist intake
+
+The 2026-08-03 specialist report returned `fatal=0`, `major=2`, `minor=8`,
+`actionable_hardening_remaining=11`, and a saturation verdict of `fail`. Its
+SHA-256 is
+`f6ef374c8ad43ca3d3de4f1185be58292aeb0315aa2ff0e46a25793dbc4da08e`.
+The complete item-level disposition is recorded in
+`review/hostile-specialist-disposition-2026-08-03.md`.
+
+The core theorem and every independent quaternionic block, sign, product, and
+dimension calculation survived. The two major findings were:
+
+1. summaries of the extremal leg omitted the real-diagonalizable `dR(Z)` and
+   sign-specific represented-nilpotent-witness hypotheses; and
+2. the one-file review upload did not include the repository supplements named
+   by the manuscript.
+
+Version 0.6 repairs the first defect on every public theorem surface. The
+second is resolved at repository grade because every named artifact exists,
+is versioned, and is checksum-locked; the manuscript now also says explicitly
+that a manuscript-only circulation gives those artifacts no evidentiary
+weight, and that an archival package must contain the complete evidence tree.
+
+Additional v0.6 hardening includes sign-specific theorem clauses, smoothness
+and topology conventions, a hypothesis-minimal neutrality definition, a
+topology-precise finite-dimensional majorant statement, a complete
+fundamental-symmetry calculation, right-quaternionic/left-matrix conventions,
+the real dimension of the tested module, an exact isotropic-basis derivation of
+the `|1|` parabolic grading, more direct prior art, and consolidated scope
+language.
 
 ## Hostile-report intake
 
@@ -57,9 +89,10 @@ now disposed below.
 ### Exact SageMath certificate
 
 - Rational quaternion arithmetic only.
-- 2,266 exact checks.
+- 2,721 exact checks.
 - Checks Lie-algebra membership, `±2` commutators, nonzero square-zero blocks,
-  mutual zero products, linear truncation, and all dimensions.
+  mutual zero products, linear truncation, the isotropic basis change and
+  upper/diagonal/lower block forms, and all dimensions.
 
 ### Independent property certificate
 
@@ -87,12 +120,14 @@ is narrow and is stated identically in the manuscript and verification receipt.
 
 ## Remaining publication gate
 
-The post-hardening ten-specialist internal audit found no new theorem defect. It
-did identify and repair one test-quality issue: the mutual-product property
-generator now guarantees equal ranks, so all 160 generated pair cases execute
-rather than skipping rank-mismatched inputs.
+The v0.5 post-hardening ten-specialist internal audit found no theorem defect
+but preceded the external specialist report. After all eleven external
+findings were repaired, the consolidated v0.6 audit found no additional
+current-paper hardening action. The property generator continues to guarantee
+equal ranks, so all 160 generated pair cases execute rather than skipping
+rank-mismatched inputs.
 
-Run a fresh hostile deep-research review against the v0.5 Markdown file as a
+Run a fresh hostile deep-research review against the v0.6 Markdown file as a
 complete standalone submission. The post-ready gate passes only when any new
 criticism is either fixed, shown already addressed, or identified as an honest
 scope/trade-off rather than additional hardening potential. PDF, TeX, and Zenodo

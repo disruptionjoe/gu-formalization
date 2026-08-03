@@ -111,6 +111,11 @@ def beta(n: int) -> Matrix:
     return block(eye(n), zeros(n), zeros(n), mneg(eye(n)))
 
 
+def isotropic_change_unnormalized(n: int) -> Matrix:
+    I = eye(n)
+    return block(I, I, I, mneg(I))
+
+
 def x_plus(B: Matrix) -> Matrix:
     return block(mneg(B), B, mneg(B), B)
 
@@ -195,6 +200,24 @@ def test_dimension_formulas() -> None:
     assert 2080 + 4096 + 2080 == 8256
 
 
+def test_isotropic_basis_change() -> None:
+    # T = sqrt(2) S avoids division while checking the exact basis identities:
+    # zT = T diag(I,-I) and T* beta T = 2J.
+    for n in range(1, 5):
+        T = isotropic_change_unnormalized(n)
+        z = grading(n)
+        form = beta(n)
+        assert mmul(z, T) == mmul(T, form)
+        assert mmul(mmul(star(T), form), T) == mscale(2, z)
+
+    B = [[Q(0, 1, 2, -1)]]
+    T = isotropic_change_unnormalized(1)
+    upper = block(zeros(1), mscale(-2, B), zeros(1), zeros(1))
+    lower = block(zeros(1), zeros(1), mscale(2, B), zeros(1))
+    assert mmul(x_plus(B), T) == mmul(T, upper)
+    assert mmul(x_minus(B), T) == mmul(T, lower)
+
+
 def test_planted_mutations_are_rejected() -> None:
     # One wrong sign in X_+ destroys both the +2 commutator and square-zero law.
     B = [[Q(0, 1, 0, 0)]]
@@ -215,6 +238,7 @@ def main() -> None:
     test_exact_block_identities()
     test_mutual_zero_products()
     test_dimension_formulas()
+    test_isotropic_basis_change()
     test_planted_mutations_are_rejected()
     print(
         "PASS exact property certificate: 400 generated examples plus deterministic controls"

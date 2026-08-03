@@ -1,7 +1,7 @@
 ---
 title: "Disposition of the hostile-but-fair referee report"
 date: "2026-08-03"
-status: "all actionable items repaired; rerun required"
+status: "historical first-round disposition; superseded by v0.5 specialist rerun"
 ---
 
 # Referee-report disposition
@@ -25,5 +25,7 @@ block decomposition, a rational-quaternion Sage certificate, an independently
 implemented property suite with planted mutants, a locked dependency graph,
 and a narrow Lean proof kernel with an explicit axiom receipt.
 
-This note does not declare adversarial saturation. A hostile rerun against the
-v0.5 manuscript remains the publication-stage gate.
+This note did not declare adversarial saturation. The subsequent hostile
+specialist rerun against v0.5 is dispositioned separately in
+`hostile-specialist-disposition-2026-08-03.md`; its eleven actions are repaired
+in v0.6, which now requires a clean rerun.

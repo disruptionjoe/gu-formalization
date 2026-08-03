@@ -1,7 +1,7 @@
 ---
 title: "Post-hardening ten-specialist audit"
 date: "2026-08-03"
-status: "internal pass; fresh hostile deep-research rerun still required"
+status: "historical v0.5 internal pass; superseded by hostile-specialist report"
 ---
 
 # Post-hardening ten-specialist audit
@@ -29,6 +29,6 @@ items are disclosed scope boundaries: non-extremal vectors, alternative
 positivity predicates, infinite-dimensional extensions, and physical-model
 dictionaries.
 
-This result does not satisfy the formal post-ready gate by itself. A fresh
-hostile deep-research review must still evaluate the v0.5 manuscript as the
-complete submission.
+This internal result did not satisfy the formal post-ready gate. The subsequent
+hostile-specialist review of v0.5 found eleven hardening actions, now recorded
+in `hostile-specialist-disposition-2026-08-03.md` and repaired in v0.6.

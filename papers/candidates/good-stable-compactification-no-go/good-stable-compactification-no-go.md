@@ -5,7 +5,7 @@ author: "Joseph Hernandez"
 affiliation: "Independent Researcher"
 date: "2026-08-03"
 status: "candidate hardening draft; not yet approved for publication"
-version: "0.5.0-hardening"
+version: "0.6.0-hardening"
 claim_grade: "theorem-grade finite-dimensional core; explicit Sp(32,32) specialization; no physical-stability claim"
 license: "CC BY 4.0"
 ---
@@ -26,18 +26,21 @@ relatively compact image in $\operatorname{GL}(E)$, equivalently whether it
 preserves a positive-definite inner product on $E$. We prove three elementary
 compact-image obstructions. An $A_Z$-invariant vector retains the entire
 one-parameter group in its stabilizer. An operator commuting with
-$z=d\iota(Z)$ retains the same group in its centralizer. Under a separate
-real-diagonalizability hypothesis on $\operatorname{ad}(Z)$, a maximal or
-minimal $Z$-weight vector retains a positive or negative nilpotent subgroup.
-Whenever the retained subgroup has unbounded represented image, no invariant
-positive-definite inner product exists.
+$z=d\iota(Z)$ retains the same group in its centralizer. For the extremal leg,
+assume that $\operatorname{ad}(Z)$ and $dR(Z)$ are diagonalizable over
+$\mathbb R$. If the positive, respectively negative,
+$\operatorname{ad}(Z)$-eigenspace sum contains $X_+$, respectively $X_-$, whose
+image under $d\iota$ is nonzero nilpotent, then a maximal, respectively
+minimal, $Z$-weight vector retains the corresponding unipotent one-parameter
+subgroup. Whenever the retained subgroup has unbounded represented image, no
+invariant positive-definite inner product exists.
 
 For $G=\operatorname{Sp}(32,32)$ we verify the hypotheses directly in the
 defining quaternionic matrix model. The relevant grading has only
 $\operatorname{ad}(Z)$-eigenvalues $-2,0,2$; the two nonzero eigenspaces have
 real dimension $2080$, are abelian, and consist of square-zero matrices. When
 $z^2=1$, conjugation by $z$ separately defines a discrete involution on
-$\operatorname{End}(E)$, and a grading-even operator is precisely a
+$\operatorname{End}_{\mathbb R}(E)$, and a grading-even operator is precisely a
 $Z$-commuting operator. We do not identify continuous $A_Z$-invariance of an
 arbitrary vector representation with preservation of a discrete grading.
 
@@ -58,7 +61,7 @@ hypotheses:
 |---|---|---|
 | vector fixed by $A_Z$ | $A_Z$ | the tested image of $A_Z$ is unbounded |
 | operator $O$ with $[O,d\iota(Z)]=0$ | $A_Z\subset C_G(O)$ | the same unbounded image |
-| maximal or minimal $Z$-weight vector | a positive or negative nilpotent one-parameter subgroup | nonconstant polynomial growth |
+| maximal (respectively minimal) $Z$-weight vector, with real-diagonalizable $\operatorname{ad}(Z)$ and $dR(Z)$ and nonzero nilpotent $d\iota(X_+)$ (respectively $d\iota(X_-)$) | the corresponding positive (respectively negative) unipotent one-parameter subgroup | nonconstant polynomial growth in the tested image |
 
 For the displayed $\operatorname{Sp}(32,32)$ grading, all three mechanisms are
 visible in exact blocks. The standard compact-reducing involution has
@@ -69,8 +72,10 @@ The strongest conclusion is:
 
 > On the faithful finite-dimensional module tested here, vectors invariant
 > under the unbounded grading flow, operators commuting with its infinitesimal
-> generator, and extremal-weight vectors satisfying the stated nilpotent-witness
-> hypotheses cannot have relatively compact stabilizer image. When the
+> generator, and extremal-weight vectors for real-diagonalizable
+> $\operatorname{ad}(Z)$ and $dR(Z)$ with the corresponding sign-specific
+> witness having nonzero nilpotent $d\iota$-image cannot have relatively compact
+> stabilizer image. When the
 > generator is involutory on the tested module, the operator statement applies
 > in particular to grading-even operators.
 
@@ -99,6 +104,11 @@ be a faithful finite-dimensional representation of a connected real reductive
 group. The underlying real representation is used even when $E$ originates as
 a complex or quaternionic module.
 
+All group representations in this paper are finite-dimensional continuous,
+hence smooth, real Lie-group representations. Closures, boundedness, and
+relative compactness are taken in the usual Euclidean topology of the relevant
+real matrix space.
+
 For a vector $w$ in a finite-dimensional representation
 $R:G\to\operatorname{GL}(V)$, write
 
@@ -113,8 +123,8 @@ $$
 G_{\mathbf w}=\{g\in G:R_i(g)w_i=w_i\text{ for every }i\}.
 $$
 
-For $O\in\operatorname{End}(E)$ under conjugation, the stabilizer is the
-centralizer
+For $O\in\operatorname{End}_{\mathbb R}(E)$ under conjugation, the stabilizer
+is the centralizer
 
 $$
 C_G(O)=\{g\in G:\iota(g)O=O\iota(g)\}.
@@ -136,11 +146,19 @@ h(\iota(a)x,\iota(a)y)=h(x,y)
 \qquad(a\in H).
 $$
 
-In finite dimensions every positive-definite inner product majorizes a fixed
-continuous indefinite form. Thus “majorant” is shorthand here for an invariant
-positive-definite inner product; no infinite-dimensional notion of maximal,
-admissible, or topology-defining majorant is intended. Those distinctions are
-substantive in general Krein-space theory [Bognár 1974].
+In finite dimensions every positive-definite norm induces the same vector-space
+topology, and every bilinear form $b$ is continuous for that topology. After
+rescaling the positive form, one may arrange the conventional domination
+inequality
+
+$$
+|b(x,y)|^2\leq h(x,x)h(y,y).
+$$
+
+In this paper “majorant” means only the invariant positive-definite form
+defined above; no infinite-dimensional notion of maximal, admissible, or
+topology-defining majorant is intended. Those distinctions are substantive in
+general Krein-space theory [Bognár 1974, chs. III--VI].
 
 Suppose additionally that $E$ has a nondegenerate symmetric form $\eta$
 preserved by $G$. If $h$ and $\eta$ are both $H$-invariant, define the
@@ -150,26 +168,42 @@ $$
 \eta(x,y)=h(x,Ay).
 $$
 
-Then $A$ commutes with $H$, and finite-dimensional functional calculus gives
+To see equivariance explicitly, write $T=\iota(a)$ for $a\in H$. Simultaneous
+$h$- and $\eta$-invariance gives
 
 $$
-C=A|A|^{-1},
+h(x,T^{-1}ATy)=h(Tx,ATy)=\eta(Tx,Ty)=\eta(x,y)=h(x,Ay),
+$$
+
+so $T^{-1}AT=A$. Finite-dimensional functional calculus therefore gives
+
+$$
+|A|=(A^2)^{1/2},
+\qquad C=A|A|^{-1},
 \qquad C^2=1,
 \qquad \eta(x,Cy)=h(x,|A|y).
 $$
 
-The operator $C$ is $H$-equivariant and $\eta$-self-adjoint, and
-$\eta(x,Cx)>0$ for $x\ne0$. Conversely, if $C$ is an $H$-equivariant,
-$\eta$-self-adjoint involution satisfying $\eta(x,Cx)>0$ for every $x\ne0$,
-then
+The commuting $h$-self-adjoint operators $A$ and $C$ satisfy
+
+$$
+\eta(Cx,y)=h(Cx,Ay)=h(x,ACy)=\eta(x,Cy),
+$$
+
+so $C$ is $\eta$-self-adjoint, while $AC=|A|$ gives
+$\eta(x,Cx)=h(x,|A|x)>0$ for $x\ne0$. Conversely, suppose $C$ is an
+$H$-equivariant, $\eta$-self-adjoint involution satisfying
+$\eta(x,Cx)>0$ for every $x\ne0$. Then
 
 $$
 h_C(x,y)=\eta(x,Cy)
 $$
 
-is an $H$-invariant positive-definite inner product. This states all the
-conditions used in the fundamental-symmetry formulation rather than treating
-positivity of $\eta(\cdot,C\cdot)$ alone as its definition.
+is symmetric because $\eta$ is symmetric and $C$ is $\eta$-self-adjoint,
+positive definite by hypothesis, and $H$-invariant because $C$ commutes with
+$H$ and $\eta$ is invariant. This states all the conditions used in the
+fundamental-symmetry formulation rather than treating positivity of
+$\eta(\cdot,C\cdot)$ alone as its definition.
 
 ### 2.3 Continuous flow, hyperbolicity, and discrete operator parity
 
@@ -205,18 +239,30 @@ $$
 
 These are $\operatorname{ad}(Z)$-eigenspace sums. When $Z$ lies in a chosen
 maximal split abelian subspace, they are sums of restricted-root spaces having
-the same sign on $Z$ [Helgason 2001; Knapp 2002]. A single nonzero real
-eigenvalue of $z$ does **not** imply this real decomposition; the two
-hypotheses must not be conflated.
+the same sign on $Z$ [Helgason 2001, chs. III, VI; Knapp 2002, ch. VI]. A
+single nonzero real eigenvalue of $z$ does **not** imply this real
+decomposition; the two hypotheses must not be conflated.
 
-For a representation $R$ with $dR(Z)$ diagonalizable over $\mathbb R$, a
-vector is $Z$-neutral when $dR(Z)w=0$. Equivalently,
+For any representation $R$, a vector is **$Z$-neutral** when $dR(Z)w=0$.
+Equivalently,
 
 $$
 R(\exp tZ)w=\exp(t\,dR(Z))w=w,
 $$
 
 so it is fixed by the continuous group $A_Z$.
+
+Only the extremal leg requires a weight decomposition. When $dR(Z)$ is
+diagonalizable over $\mathbb R$, write
+
+$$
+V=\bigoplus_{\lambda\in\mathbb R}V_\lambda,
+\qquad
+V_\lambda=\{v:dR(Z)v=\lambda v\}.
+$$
+
+A nonzero $w\in V_\lambda$ has maximal, respectively minimal, $Z$-weight when
+no weight greater, respectively smaller, than $\lambda$ occurs.
 
 A separate discrete operator grading exists when $z^2=1$ on $E$. In that
 case
@@ -225,8 +271,8 @@ $$
 \sigma_Z(O)=zOz^{-1}=zOz
 $$
 
-is an involution on $\operatorname{End}(E)$. An operator is grading-even when
-$\sigma_Z(O)=O$, equivalently $[O,z]=0$, and grading-odd when
+is an involution on $\operatorname{End}_{\mathbb R}(E)$. An operator is
+grading-even when $\sigma_Z(O)=O$, equivalently $[O,z]=0$, and grading-odd when
 $\sigma_Z(O)=-O$, equivalently $\{O,z\}=0$. No corresponding order-two action
 on an arbitrary vector representation is assumed. In particular, continuous
 $A_Z$-neutrality is not called discrete grading invariance unless an additional
@@ -268,7 +314,8 @@ $\square$
 
 ## 4. Three compact-image obstructions
 
-The three parts below intentionally do not share one overstrong hypothesis.
+The four clauses below implement three mechanisms and intentionally do not
+share one overstrong hypothesis.
 
 **Theorem 3 (continuous-neutral, commuting-operator, and extremal
 obstructions).** Let $G$, $E$, $\iota$, and $Z$ be as above.
@@ -277,14 +324,16 @@ obstructions).** Let $G$, $E$, $\iota$, and $Z$ be as above.
    $w_i\in V_i$ is $Z$-neutral in its representation $R_i$, then
    $G_{\mathbf w}$ has non-relatively-compact image under $\iota$.
 2. Assume $\iota(A_Z)$ is unbounded. If
-   $O\in\operatorname{End}(E)$ satisfies $[O,z]=0$, then $C_G(O)$ has
+   $O\in\operatorname{End}_{\mathbb R}(E)$ satisfies $[O,z]=0$, then $C_G(O)$ has
    non-relatively-compact image under $\iota$.
-3. Assume $Z$ is $\operatorname{ad}$-hyperbolic. Suppose
-   $\mathfrak n_+$ contains an element $X_+$ for which $d\iota(X_+)$ is
-   nonzero nilpotent, and $\mathfrak n_-$ contains such an element $X_-$.
-   If $dR(Z)$ is diagonalizable over $\mathbb R$ and $w\ne0$ is a maximal
-   or minimal $Z$-weight vector in a finite-dimensional representation $R$,
-   then $G_w$ has non-relatively-compact image under $\iota$.
+3. Assume $Z$ is $\operatorname{ad}$-hyperbolic, $dR(Z)$ is diagonalizable
+   over $\mathbb R$, and $w\ne0$ is a maximal $Z$-weight vector. If
+   $\mathfrak n_+$ contains $X_+$ for which $d\iota(X_+)$ is nonzero
+   nilpotent, then $G_w$ has non-relatively-compact image under $\iota$.
+4. Assume $Z$ is $\operatorname{ad}$-hyperbolic, $dR(Z)$ is diagonalizable
+   over $\mathbb R$, and $w\ne0$ is a minimal $Z$-weight vector. If
+   $\mathfrak n_-$ contains $X_-$ for which $d\iota(X_-)$ is nonzero
+   nilpotent, then $G_w$ has non-relatively-compact image under $\iota$.
 
 Consequently none of these stabilizers preserves a positive-definite inner
 product on $E$.
@@ -314,8 +363,11 @@ product on $E$.
    R(\exp tX_+)w=\exp(t\,dR(X_+))w=w,
    $$
    and $\exp(\mathbb R X_+)\subset G_w$. Its image under $\iota$ is
-   unbounded by Lemma 2. For a minimal weight use $X_-$. Proposition 1
-   completes both cases. $\square$
+   unbounded by Lemma 2. Proposition 1 completes the maximal case.
+4. For a minimal weight the same calculation with $\alpha<0$ shows that
+   $dR(\mathfrak n_-)w=0$. In particular $X_-$ exponentiates to a subgroup of
+   $G_w$ whose represented image is unbounded by Lemma 2. Proposition 1
+   completes the minimal case. $\square$
 
 **Remark 4 (vector versus line stabilizers).** A parabolic subgroup generally
 stabilizes the extremal line $\mathbb Rw$ rather than the chosen vector. The
@@ -324,14 +376,14 @@ annihilates $w$, so exponentiation fixes $w$ pointwise. The vector-stabilizer
 claim is therefore stronger than, and not confused with, line stabilization.
 
 **Remark 5 (minimal hypotheses).** Faithfulness can be weakened if the tested
-representation still detects the named unbounded subgroup. Likewise, part 3
-requires only one represented nonzero nilpotent witness of the appropriate
-sign, not algebraicity of every representation or a classification of every
-root space.
+representation still detects the named unbounded subgroup. Likewise, parts
+3--4 each require only one represented nonzero nilpotent witness of the
+appropriate sign, not algebraicity of every representation or a classification
+of every root space.
 
 ## 5. Compact-reducing operators and parity
 
-Let $P'\in\operatorname{End}(E)$ be an involution such that
+Let $P'\in\operatorname{End}_{\mathbb R}(E)$ be an involution such that
 $C_G(P')$ has relatively compact represented image. This is the only property
 needed for the next result.
 
@@ -365,8 +417,12 @@ additional homogeneous condition $zP'z=-P'$.
 
 ### 6.1 Quaternionic matrix model
 
-Let $n=32$, let $E=\mathbb H^n\oplus\mathbb H^n$, and let $^*$ denote
-quaternionic conjugate transpose. Set
+Let $n=32$ and regard $E=\mathbb H^n\oplus\mathbb H^n$ as a right
+quaternionic vector space, with quaternionic matrices acting on the left and
+$^*$ denoting conjugate transpose. Unless otherwise stated,
+$\operatorname{End}(E)$ means $\operatorname{End}_{\mathbb R}(E)$ on the
+$8n$-dimensional underlying real space; at $n=32$,
+$\dim_{\mathbb R}E=256$. Set
 
 $$
 \beta=
@@ -416,6 +472,17 @@ $$
 \qquad
 \dim(G/K)=4096.
 $$
+
+The group preserves the nondegenerate real symmetric form
+
+$$
+\eta(x,y)=\operatorname{Re}(x^*\beta y).
+$$
+
+For the compact reducer $P=\beta$ used below,
+$h_P(x,y)=\eta(x,Py)=\operatorname{Re}(x^*y)$ is positive definite. Thus the
+abstract fundamental-symmetry construction of Section 2.2 and the concrete
+quaternionic model use the same positivity predicate.
 
 ### 6.2 The grading generator and a compact reducer
 
@@ -467,11 +534,68 @@ $$
 
 Here conjugation by $P$ normalizes $G$ and implements the standard Cartan
 involution. This particular $P$ is genuinely grading-odd. Corollary 6 gives the
-frame-independent statement: any involution with relatively compact
-centralizer fails to be grading-even, although a conjugate representative need
-not be purely odd in the fixed frame.
+reducer-independent statement relative to this fixed $z$: any involution with
+relatively compact centralizer fails to be grading-even, although a conjugate
+representative need not be purely odd in the fixed frame.
 
 ### 6.3 Exact $\operatorname{ad}(Z)$ decomposition
+
+The isotropic basis makes the structure transparent. Let
+
+$$
+S=\frac1{\sqrt2}
+\begin{pmatrix}
+I_n&I_n\\
+I_n&-I_n
+\end{pmatrix},
+\qquad
+J=
+\begin{pmatrix}
+0&I_n\\
+I_n&0
+\end{pmatrix}.
+$$
+
+Then
+
+$$
+S^{-1}zS=\begin{pmatrix}I_n&0\\0&-I_n\end{pmatrix},
+\qquad
+S^*\beta S=J.
+$$
+
+Writing $Y=S^{-1}XS=\begin{psmallmatrix}a&b\\c&d\end{psmallmatrix}$, the Lie
+condition $Y^*J+JY=0$ is equivalent to
+
+$$
+d=-a^*,\qquad b^*=-b,\qquad c^*=-c.
+$$
+
+Consequently
+
+$$
+\mathfrak g_2=
+\left\{\begin{pmatrix}0&b\\0&0\end{pmatrix}:b^*=-b\right\},\quad
+\mathfrak g_0=
+\left\{\begin{pmatrix}a&0\\0&-a^*\end{pmatrix}:a\in M_n(\mathbb H)\right\}
+\cong\mathfrak{gl}(n,\mathbb H),
+$$
+
+$$
+\mathfrak g_{-2}=
+\left\{\begin{pmatrix}0&0\\c&0\end{pmatrix}:c^*=-c\right\}.
+$$
+
+This immediately exhibits the nonzero eigenspaces as abelian and square-zero.
+It also identifies
+$\mathfrak p_Z=\mathfrak g_0\oplus\mathfrak g_2$ as the parabolic stabilizing
+the first, isotropic quaternionic $n$-plane, with abelian nilradical
+$\mathfrak g_2$. Rescaling the grading element by $1/2$ turns the displayed
+degrees into $-1,0,1$, so this is a $|1|$-grading rather than a depth-two
+$|2|$-grading [Čap and Slovák 2009, chs. 2--3].
+
+Conjugating this decomposition back to the original basis gives the following
+blocks and fixes every sign explicitly.
 
 For
 
@@ -575,14 +699,17 @@ $$
 is unbounded for $B\ne0$. These eigenspaces are the positive and negative
 $\operatorname{ad}(Z)$-eigenspace sums; relative to a maximal split abelian
 subspace containing $Z$, they are sums of restricted-root spaces. This block
-calculation supplies every hypothesis used by Theorem 3(3) without appealing
-to a toy model or to an unspecified algebraicity assumption.
+calculation supplies every sign-specific witness hypothesis used by Theorem
+3(3)--(4) without appealing to a toy model or to an unspecified algebraicity
+assumption.
 
 **Corollary 7 (the explicit $\operatorname{Sp}(32,32)$ obstruction).** For the
-$z$ above, stabilizers of $A_Z$-invariant vectors, grading-even operators on
-$E$, and maximal or minimal $Z$-weight vectors have non-relatively-compact
-image under the defining representation, subject in the vector cases to the
-representation hypotheses of Theorem 3.
+$z$ above, stabilizers of $A_Z$-invariant vectors and grading-even operators on
+$E$ have non-relatively-compact image under the defining representation. If
+$R$ is a finite-dimensional representation with $dR(Z)$ diagonalizable over
+$\mathbb R$, the same conclusion holds for every nonzero maximal or minimal
+$Z$-weight vector: the explicitly displayed $X_+$ or $X_-$ supplies the
+required nonzero nilpotent witness of the corresponding sign.
 
 ## 7. Why the scope conditions are necessary
 
@@ -591,10 +718,18 @@ representation hypotheses of Theorem 3.
 In a product of a split group and a compact nonabelian group, a semisimple
 element can have a split component and an elliptic component. A faithful direct
 sum representation then has a nonzero real eigenvalue and also nonreal
-eigenvalues. Its one-parameter image is unbounded, so Theorem 3(1) and (2) can
-still apply, but a real $\operatorname{ad}(Z)$-eigenspace decomposition for
-part (3) does not follow. This is why the theorem states the two hypotheses
-separately.
+eigenvalues in its complexified spectrum; on the underlying real space the
+elliptic part appears in rotation blocks and is not real diagonalizable. Its
+one-parameter image is unbounded, so Theorem 3(1) and (2) can still apply, but
+a real $\operatorname{ad}(Z)$-eigenspace decomposition for parts (3)--(4) does
+not follow. This is why the theorem states the two hypotheses separately.
+
+Nor does $\operatorname{ad}$-hyperbolicity create a nilpotent witness. For
+$G=\mathbb R_{>0}$ acting on $E=\mathbb R$ by scalar multiplication,
+$\operatorname{ad}(Z)=0$ is real diagonalizable but
+$\mathfrak n_+=\mathfrak n_-=0$; the nonzero vector $1$ is both maximal and
+minimal and has trivial, hence compact, stabilizer. The sign-specific witness
+hypothesis is therefore indispensable.
 
 ### 7.2 Not every charged vector has noncompact stabilizer
 
@@ -620,7 +755,7 @@ $$
 
 for a fixed $P$.
 
-## 8. Interpretation boundary
+## 8. Scope and interpretation boundary
 
 The theorem is entirely a finite-dimensional statement about represented
 stabilizers. “Order parameter” means a chosen vector, family of vectors, or
@@ -634,14 +769,16 @@ vector legs to the same physical grading requires an additional dictionary
 identifying the relevant vector representation and its $A_Z$ action. The
 paper does not supply or assume such a physical dictionary.
 
-In particular, the result does not establish:
+The compact boundary is:
 
 - interacting unitarity or ghost clearance;
 - a physical state space, observable algebra, or scattering operator;
 - existence or dynamical selection of a vacuum;
 - anomaly cancellation, a mass spectrum, or chirality of a field theory;
 - compactification of spacetime or extra dimensions;
-- completeness of any model-specific order-parameter census.
+- completeness of any model-specific order-parameter census;
+- a theorem for non-extremal or mixed-weight vectors, nonfaithfully detected
+  subgroups, or infinite-dimensional metric operators and domains.
 
 These are not hidden premises of the proof. They are different problems.
 
@@ -672,14 +809,15 @@ counterexample.
 
 ## 10. Machine-checked hardening and reproducibility
 
-The written proofs are load-bearing. Three paper-specific machine-checking
-layers accompany the manuscript:
+The written proofs are load-bearing. The repository candidate includes three
+paper-specific machine-checking layers:
 
 1. An exact SageMath certificate constructs rational quaternionic matrices and
    checks Lie-algebra membership, the $\pm2$ commutator equations, mutual
-   square-zero products, nonzero linear truncation witnesses, and all dimension
-   formulas. Together with $\exp(tX)=I+tX$ from $X^2=0$, the nonzero witnesses
-   certify the stated polynomial growth.
+   square-zero products, the exact isotropic basis change and triangular block
+   forms, nonzero linear truncation witnesses, and all dimension formulas.
+   Together with $\exp(tX)=I+tX$ from $X^2=0$, the nonzero witnesses certify
+   the stated polynomial growth.
 2. A property-based Python certificate generates exact small-rank quaternionic
    matrices, checks the same identities without floating point, and includes
    planted sign and parity mutations that the test suite must reject.
@@ -693,8 +831,10 @@ theory of real reductive groups, quaternionic Lie-group membership, or the
 physical interpretation. The Sage and property tests are executable
 certificates, not substitutes for the general proof. Exact file paths, commands,
 dependency locks, theorem names, expected outputs, and axiom dependencies appear
-in `REPRODUCE.md` and `VERIFICATION.md` beside this manuscript. Those files are
-intended to be included unchanged in any archival release.
+in `REPRODUCE.md` and `VERIFICATION.md` beside this manuscript. An archival
+submission must include the complete versioned evidence tree listed below and
+its checksum manifest. If this Markdown file is circulated alone, the machine
+checks are unavailable to that reader and should receive no evidentiary weight.
 
 ## 11. Prior art, novelty, and use
 
@@ -703,18 +843,26 @@ Every general ingredient is established mathematics:
 - invariant inner products can be averaged over compact groups;
 - Cartan involutions determine maximal compact subgroups, unique up to
   conjugacy;
-- real split one-parameter groups are unbounded in detecting representations;
+- a nonzero real weight makes a one-parameter group unbounded in the tested
+  representation;
 - extremal-weight directions are annihilated by the appropriate raising or
   lowering algebra;
-- nonzero nilpotent one-parameter subgroups are unbounded in faithful linear
-  representations.
+- a one-parameter subgroup with nonzero nilpotent image is unbounded in the
+  tested representation.
 
 Compact averaging and Cartan/restricted-root structure are standard in
-[Helgason 2001; Knapp 2002]. Indefinite-inner-product terminology is treated in
-[Bognár 1974]. Highest-weight faces and stabilizers appear in a broader setting
-in [Khare 2017], and real reductive orbit geometry in [Richardson and Slodowy
-1990]. Quaternionic symplectic notation and dimensions are consistent with
-[Sedano-Mendoza 2019].
+[Helgason 2001, chs. III, VI, IX; Knapp 2002, chs. IV, VI].
+Indefinite-inner-product terminology is treated in [Bognár 1974, chs.
+III--VI]. The $|1|$-graded parabolic interpretation is standard
+[Čap and Slovák 2009, chs. 2--3]. Draper and Meulewaeter [2022, §§2--4]
+classify inner ideals of finite-dimensional real simple Lie algebras up to
+automorphism; the abelian nilradicals displayed here belong to that established
+landscape, and no new classification is claimed. Khare [2017] supplies broader
+context on standard parabolic subsets, weight-set faces, and associated
+stabilizers; the local raising-operator argument used here is proved directly.
+Richardson and Slodowy [1990] is contextual literature on real reductive orbits
+and minimum vectors, not a source for the compact-image theorem. Quaternionic
+symplectic notation and dimensions are consistent with [Sedano-Mendoza 2019].
 
 Accordingly, this paper does not claim a new theorem of general Lie theory. Its
 narrow contribution is:
@@ -733,29 +881,17 @@ The practical use is diagnostic. It prevents compactness, positivity, and
 grading preservation from being bundled together by terminology when their
 stabilizer consequences are incompatible.
 
-## 12. Limitations
-
-- Finite dimensionality is essential to Proposition 1 as stated.
-- The theorem concerns represented compactness; a nonfaithful test module may
-  hide noncompact directions.
-- The extremal leg assumes a real $\operatorname{ad}(Z)$ decomposition and an
-  explicit represented nilpotent witness of the relevant sign.
-- Non-extremal and mixed-weight vectors remain outside the theorem.
-- Continuous vector neutrality is not identified with discrete operator parity.
-- Infinite-dimensional metric operators, domains, and topology-dependent
-  majorants are outside scope.
-- Machine checking covers a narrow algebraic kernel and exact concrete
-  identities, not the entire manuscript.
-- No external replication or physical realization is claimed.
-
-## 13. Conclusion
+## 12. Conclusion
 
 For a faithful finite-dimensional action, preservation of a positive-definite
 inner product is equivalent to compact closure of the represented subgroup.
 This makes three stabilizer obstructions immediate once their hypotheses are
 typed correctly: $A_Z$-invariant vectors and $Z$-commuting operators retain an
-unbounded grading flow, while extremal-weight vectors retain a nilpotent
-one-parameter subgroup.
+unbounded grading flow. When $\operatorname{ad}(Z)$ and $dR(Z)$ are real
+diagonalizable, a maximal (respectively minimal) weight vector retains a
+positive (respectively negative) unipotent one-parameter subgroup whenever the
+corresponding eigenspace sum contains $X_+$ (respectively $X_-$) with nonzero
+nilpotent $d\iota$-image.
 
 In $\operatorname{Sp}(32,32)$ the required noncompact directions are not
 inferred from general terminology. They are visible in exact quaternionic
@@ -764,25 +900,35 @@ negative $\operatorname{ad}(Z)$ eigenspaces are $2080$-dimensional abelian
 spaces of square-zero matrices. A compact-reducing involution therefore cannot
 be grading-even in this module.
 
-The result is a finite-dimensional compact-image theorem, not a physical
-compactification or stability theorem. Its value lies in making the obstruction
-and every honest exit explicit.
+The result is a scoped compact-image theorem. Its value lies in making three
+often conflated obstruction mechanisms, their exact hypotheses, and their
+honest exits explicit.
 
 ## References
 
 - Bognár, János. *Indefinite Inner Product Spaces*. Ergebnisse der Mathematik
-  und ihrer Grenzgebiete, vol. 78. Springer, 1974.
+  und ihrer Grenzgebiete, vol. 78. Springer, 1974. See chs. III--VI,
+  pp. 58--146.
   [doi:10.1007/978-3-642-65567-8](https://doi.org/10.1007/978-3-642-65567-8).
+- Čap, Andreas, and Jan Slovák. *Parabolic Geometries I: Background and
+  General Theory*. Mathematical Surveys and Monographs 154. American
+  Mathematical Society, 2009. See chs. 2--3.
+  [doi:10.1090/surv/154](https://doi.org/10.1090/surv/154).
+- Draper, Cristina, and Jeroen Meulewaeter. “Inner Ideals of Real Simple Lie
+  Algebras.” *Bulletin of the Malaysian Mathematical Sciences Society* 45
+  (2022): 2313--2345. See §§2--4.
+  [doi:10.1007/s40840-022-01321-0](https://doi.org/10.1007/s40840-022-01321-0).
 - Helgason, Sigurdur. *Differential Geometry, Lie Groups, and Symmetric Spaces*.
   Graduate Studies in Mathematics 34, corrected reprint. American Mathematical
-  Society, 2001.
+  Society, 2001. See chs. III, VI, and IX.
   [doi:10.1090/gsm/034](https://doi.org/10.1090/gsm/034).
 - Khare, Apoorva. “Standard Parabolic Subsets of Highest Weight Modules.”
   *Transactions of the American Mathematical Society* 369 (2017): 2363–2394.
   [doi:10.1090/tran/6710](https://doi.org/10.1090/tran/6710);
   [arXiv:1409.4133](https://arxiv.org/abs/1409.4133).
-- Knapp, Anthony W. *Lie Groups Beyond an Introduction*, 2nd ed. Progress in
-  Mathematics 140. Birkhäuser, 2002. ISBN 978-0-8176-4259-4.
+- Knapp, Anthony W. *Lie Groups: Beyond an Introduction*, 2nd ed. Progress in
+  Mathematics 140. Birkhäuser, 2002. See chs. IV and VI. ISBN
+  978-0-8176-4259-4.
 - Richardson, R. W., and P. J. Slodowy. “Minimum Vectors for Real Reductive
   Algebraic Groups.” *Journal of the London Mathematical Society* 42 (1990):
   409–429.

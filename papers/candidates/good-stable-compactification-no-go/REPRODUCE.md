@@ -46,11 +46,13 @@ On the Mac used for the recorded run, `sage` was:
 Expected headlines:
 
 ```text
-PASS exact SageMath certificate: 2266 checks
+PASS exact SageMath certificate: 2721 checks
 decomposition: 8256 = 2080 + 4096 + 2080
 ```
 
-All matrices use the rational quaternion algebra $(-1,-1)_{\mathbb Q}$.
+All matrices use the rational quaternion algebra $(-1,-1)_{\mathbb Q}$. The
+certificate also checks the exact unnormalized isotropic basis change
+$T=\sqrt2S$, its inverse, and the upper/diagonal/lower transformed blocks.
 
 ## 3. Lean kernel and axiom receipt
 

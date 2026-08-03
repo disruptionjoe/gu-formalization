@@ -54,6 +54,31 @@ def grading(n):
     return block_matrix([[O, I], [I, O]])
 
 
+def isotropic_change_unnormalized(n):
+    """Twice-normalized basis change: T = sqrt(2) S and T^-1 = T/2."""
+    I = eye(n)
+    return block_matrix([[I, I], [I, -I]])
+
+
+def diagonal_grading(n):
+    return beta(n)
+
+
+def y_plus(B):
+    O = zero(B.nrows())
+    return block_matrix([[O, -2 * B], [O, O]])
+
+
+def y_minus(B):
+    O = zero(B.nrows())
+    return block_matrix([[O, O], [2 * B, O]])
+
+
+def y_zero(A, B):
+    O = zero(A.nrows())
+    return block_matrix([[A + B, O], [O, A - B]])
+
+
 def x_plus(B):
     return block_matrix([[-B, B], [-B, B]])
 
@@ -108,6 +133,8 @@ def certify_rank(n):
     I2 = eye(2 * n)
     P = beta(n)
     z = grading(n)
+    T = isotropic_change_unnormalized(n)
+    Tinv = QQ(1) / 2 * T
     skew = skew_hermitian_basis(n)
     herm = hermitian_basis(n)
 
@@ -115,6 +142,9 @@ def certify_rank(n):
     check(f"n={n}: z is involutory", z * z == I2)
     check(f"n={n}: P is involutory", P * P == I2)
     check(f"n={n}: P anticommutes with z", P * z + z * P == 0)
+    check(f"n={n}: isotropic change inverse", Tinv * T == I2 and T * Tinv == I2)
+    check(f"n={n}: grading diagonalized", Tinv * z * T == diagonal_grading(n))
+    check(f"n={n}: form becomes hyperbolic", qstar(T) * P * T == 2 * z)
 
     v = vector(H, [H.one()] + [H.zero()] * (n - 1))
     v_plus = vector(H, list(v) + list(v))
@@ -143,6 +173,14 @@ def certify_rank(n):
         check(f"n={n}, plus[{index}]: square zero", xp * xp == 0)
         check(f"n={n}, minus[{index}]: square zero", xm * xm == 0)
         check(
+            f"n={n}, plus[{index}]: isotropic upper block",
+            Tinv * xp * T == y_plus(B),
+        )
+        check(
+            f"n={n}, minus[{index}]: isotropic lower block",
+            Tinv * xm * T == y_minus(B),
+        )
+        check(
             f"n={n}, plus[{index}]: linear truncation",
             (I2 + 7 * xp) * (I2 - 7 * xp) == I2,
         )
@@ -157,6 +195,10 @@ def certify_rank(n):
             check(f"n={n}, zero[{index},{jndex}]: Lie member", lie_member(x0, n))
             check(
                 f"n={n}, zero[{index},{jndex}]: ad eigenvalue 0", z * x0 - x0 * z == 0
+            )
+            check(
+                f"n={n}, zero[{index},{jndex}]: isotropic diagonal block",
+                Tinv * x0 * T == y_zero(A, B),
             )
 
     for index, B in enumerate(skew):

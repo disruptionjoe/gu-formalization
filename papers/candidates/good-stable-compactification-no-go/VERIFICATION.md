@@ -21,10 +21,13 @@ Scope: the manuscript and paper-specific evidence only
 Result: **PASS**
 
 ```text
-PASS exact SageMath certificate: 2266 checks
+PASS exact SageMath certificate: 2721 checks
 decomposition: 8256 = 2080 + 4096 + 2080
 arithmetic: rational quaternions; no floating point or tolerances
 ```
+
+The count includes exact checks of the isotropic basis change and the
+upper/diagonal/lower transformed grading blocks.
 
 ### Exact property-based certificate
 
@@ -68,4 +71,6 @@ It certifies only the exact commands and named files in `REPRODUCE.md`.
 Result: **PASS**
 
 `evidence/checksums.sha256` freezes every paper-facing source and verification
-artifact except the checksum manifest itself.
+artifact except the checksum manifest itself. An archival package must include
+this complete tree; a manuscript-only copy does not expose the computational
+evidence to its reader.
