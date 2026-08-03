@@ -7,13 +7,26 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2C OFF-SHELL I2B C5 CEILING CLOSURE. The complete five-family residual-square Hessian and all fourteen second-Frechet ceilings now prove every admitted route stops at order four on the conditional principal-Z1 observed-base reconstructed-LC metric branch. Distinct complete I1/I2B C4 banks and independent Green reconciliation remain open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2D NORMAL KAPPA1 C4 SUBBANK CONSTRUCTION AND FULL-SLOT NON-IDENTIFIABILITY. The corrected-source-tangent normal J-star-H-J bank is exact, nonzero, formally self-adjoint, and Green-checked, but residual second-graph and moving-pairing U4 returns leave the complete off-shell kappa1 and I1 C4 coefficients underdetermined. Distinct complete I1/I2B C4 banks and full Green reconciliation remain open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
 ---
 
 # Post-B2C15R3 multidisciplinary council
+
+> **2026-08-03 R2B2B2D successor checkpoint.** The complete 35-monomial
+> normal `kappa1` `J*H*J` subbank on the corrected source tangent has seven
+> nonzero blocks, coefficient rank one, three held-out passes, 35/35
+> formal-adjoint agreement, and a live native-ray Green check. Hostile review
+> keeps it distinct from the complete off-shell coefficient: residual
+> `T*D2T` and moving-pairing/lowerer returns form an open `U4`, while the
+> transgression bank `A4` also remains open. The honest boundary is
+> `C4(I1)=A4+kappa1*(M4_normal+U4)`, with two admissible `U4` completions
+> witnessing non-identifiability. Resume at
+> `PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
 
 > **2026-08-03 R2B2B2C successor checkpoint.** The complete off-shell `I2B`
 > Hessian product rule is expanded with all five families live. The active

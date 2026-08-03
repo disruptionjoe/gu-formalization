@@ -7,6 +7,27 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2D NORMAL KAPPA1 C4 SUBBANK PASS; FULL
+> KAPPA1/I1 C4 UNDERDETERMINED.** On the corrected fixed-`(epsilon,varpi)`
+> source tangent, the complete 35-monomial normal `J*H*J` contribution of
+> the `kappa1` distortion mass has seven nonzero monomial blocks and flattened
+> coefficient rank one. All 35 owner matrices are symmetric and reproduced by
+> an independent formal adjoint; three dense held-outs pass, a direct mixed
+> action derivative gives the live entry `-8/25`, and a native-ray Green
+> concomitant closes. The forbidden `deltaT=-deltaB_full` tangent gives a
+> different tensor. Exact homogeneity preserves the closed C5 ceiling.
+>
+> Hostile variational review blocks promotion of this normal subbank to the
+> complete off-shell `kappa1` coefficient: residual `T*D2T` plus moving
+> density/Hodge/Krein/lowerer/pairing returns remain in an unknown `U4`, while
+> the transgression/moving-coefficient bank `A4` is also open. Thus
+> `C4(I1)=A4+kappa1*(M4_normal+U4)`, and two admissible `U4` completions prove
+> current non-identifiability. Resume at
+> `PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2d-kappa-c4-identifiability-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B2C OFF-SHELL I2B C5 CEILING CLOSED;
 > DISTINCT COMPLETE C4 BANKS AND GREEN REMAIN.** The complete five-family
 > Hessian of the active residual square is now expanded and independently

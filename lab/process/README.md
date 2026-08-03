@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2d-kappa-c4-identifiability-registry.json` -
+  PW2F-R2B2B2D ledger: records the corrected-source-tangent 35-monomial
+  normal `kappa1` `J*H*J` subbank, seven nonzero blocks, rank-one coefficient
+  span, held-out/formal-adjoint/Green checks, and the hostile boundary that
+  open residual second-graph and moving-pairing `U4` returns prevent promotion
+  to the complete off-shell `kappa1` or `I1` C4 coefficient.
 - `pw2fr2b2b2c-i2b-offshell-c5-ceiling-registry.json` -
   PW2F-R2B2B2C ledger: records the complete five-family off-shell `I2B`
   Hessian product rule, the live background norm `981/64`, symbolic `J3=0`,

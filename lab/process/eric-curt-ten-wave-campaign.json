@@ -6,14 +6,14 @@
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2C-I2B-OFFSHELL-C5-CEILING",
-    "status": "OFFSHELL_I2B_C5_CEILING_CLOSED_ON_CONDITIONAL_PRINCIPAL_Z1_OBSERVED_BASE_LC_METRIC_BRANCH__COMPLETE_I1_I2B_C4_AND_GREEN_OPEN",
-    "earned": "exact five-family off-shell I2B Hessian split on the conditional fixed-(epsilon,varpi) principal-Z1 observed-base LC metric branch, with live residual norm 981/64, exact J3 zero, fourteen inherited second-Frechet ceilings, route maxima 4/4/3/3/2, and no C5 route",
-    "scope": "reconstructed Levi-Civita principal-Z1 metric-metric branch and observed-base conormals only; global epsilon port, full tangent/conormals, actual coefficient tensors, distinct I1/I2B C4 banks, and Green analysis remain open",
+    "gate": "PW2F-R2B2B2D-KAPPA1-C4-IDENTIFIABILITY",
+    "status": "NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__FULL_KAPPA1_AND_I1_C4_UNDERDETERMINED",
+    "earned": "complete corrected-source-tangent normal kappa1 J-star-H-J quartic subbank with 35 monomials, seven nonzero blocks, coefficient rank one, three held-outs, 35/35 formal-adjoint agreement, a live native-ray Green check, and an exact two-completion non-identifiability witness",
+    "scope": "reconstructed Levi-Civita principal-Z1 metric-metric branch and observed-base conormals only; global epsilon port, full tangent/conormals, residual and moving-pairing U4 returns, transgression A4, active kappa1 normalization, distinct I2B C4, and full Green reconciliation remain open",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN"
+    "next_gate": "PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4"
   },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
@@ -736,6 +736,16 @@
           "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
           "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
           "next_gate": "PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN"
+        },
+        "post_b2c15r3_pw2fr2b2b2d": {
+          "status": "NORMAL_KAPPA1_C4_SUBBANK_CONSTRUCTED__FULL_KAPPA1_AND_I1_C4_UNDERDETERMINED",
+          "result": "CORRECTED_FIXED_EPSILON_VARPI_TANGENT__35_MONOMIAL_NORMAL_KAPPA1_JSTARHJ_BANK__7_NONZERO_BLOCKS__COEFFICIENT_RANK1__THREE_DENSE_HELDOUTS__DIRECT_MIXED_MASS_ACTION_ENTRY_MINUS8_OVER25__ALL35_OWNER_SYMMETRIC_AND_INDEPENDENT_FORMAL_ADJOINT_PASS__LIVE_NATIVE_RAY_GREEN_CONCOMITANT__OLD_DELTAT_MINUS_DELTAB_FULL_TENSOR_DIFFERS__EXACT_DEGREE4_NO_C5__FULL_KAPPA1_SLOT_HAS_OPEN_TD2T_AND_MOVING_DENSITY_HODGE_KREIN_LOWERER_PAIRING_U4_RETURNS__TWO_ADMISSIBLE_U4_COMPLETIONS_WITNESS_NONIDENTIFIABILITY__I1_A4_AND_ACTIVE_KAPPA1_NORMALIZATION_OPEN",
+          "source_disposition": "SOURCE_CONFIRMS_KAPPA1_OVER2_DISTORTION_MASS_PLACEMENT__ACCEPTED_SOURCE_AUDIT_LEAVES_ACTIVE_KAPPA1_VALUE_AND_NORMALIZATION_OPEN__REPOSITORY_DERIVES_NORMAL_JSTARHJ_SUBBANK_AND_NONIDENTIFIABILITY_CERTIFICATE__SOURCE_SILENT_ON_U4_A4_COMPLETE_I1_I2B_C4_AND_ACTIVE_KAPPA1_SELECTION",
+          "exact_tools": "MAIN45_PASS__THREE_DENSE_HELDOUTS__35_OF_35_FORMAL_ADJOINT__LIVE_GREEN__HOSTILE_VARIATIONAL_REVIEW_REPAIRED_SCOPE",
+          "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+          "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+          "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+          "next_gate": "PW2F-R2B2B2E-COMPLETE-I1-KAPPA1-U4-AND-TRANSGRESSION-A4-THEN-PROPORTIONALITY-AND-I2B-C4"
         }
       }
     },
