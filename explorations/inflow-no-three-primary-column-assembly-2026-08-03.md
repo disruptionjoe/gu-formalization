@@ -2,7 +2,7 @@
 artifact_type: exploration
 status: exploration
 created: 2026-08-03
-title: "ASSEMBLY: anomaly inflow is the sole 2<->3 bridge (canon) AND the spin Dai-Freed ledger has no 3-primary column (computed) => inflow through the SPIN wall provably cannot carry the Z/3 count arena; any count-bridge must live on framed/Pin/String structures"
+title: "ASSEMBLY: anomaly inflow is the sole 2<->3 bridge (canon) AND the spin Dai-Freed ledger has no 3-primary column (computed) => inflow through the SPIN wall provably cannot carry the Z/3 count arena; any count-bridge must live on framed/String (or another explicitly odd-primary-capable) structures"
 grade: "ASSEMBLY OF TWO ALREADY-CERTIFIED IN-REPO RESULTS — no new computation, no new premise. The consequence for the single-decider route inventory is a re-scoping flag for that owner surface, not a verdict change."
 claim_status_change: none
 canon_verdict_change: none
@@ -34,10 +34,14 @@ that route computes is 2-primary on arrival, and `Hom(Z/3, anything-2-primary) =
 
 ## Scope — what this does NOT close
 
-- It does not touch **framed** bordism (`pi_13^s = Z/3` — purely 3-primary), or
-  **Pin**/**String** refinements: those walls are different structures, and the
-  dim-13 boundary program (audit/panel item U3) lives exactly there. This assembly
-  *redirects* the bridge search onto those structures; it does not end it.
+- It does not touch **framed** bordism (`pi_13^s = Z/3` — purely 3-primary) or
+  **String**-type refinements (tmf-capable of odd torsion), or any other
+  explicitly odd-primary-capable tangential structure: those walls are different
+  structures, and the dim-13 boundary program (audit/panel item U3) lives exactly
+  there. This assembly *redirects* the bridge search onto those structures; it
+  does not end it. [Revised 2026-08-03 per the interior-agent review: **Pin** is
+  removed from the candidate list — Pin bordism phenomena are presumptively
+  2-primary and a Pin wall should not be assumed odd-capable without proof.]
 - It does not move the generation-count verdict (OPEN), bar(b), or H59.
 - It is conditional on (A)'s "sole bridge" framing at its canon scope; if a
   non-inflow bridge mechanism were ever exhibited, (A) itself would be the thing
@@ -47,6 +51,6 @@ that route computes is 2-primary on arrival, and `Hom(Z/3, anything-2-primary) =
 
 The single-decider route inventory (wherever route (iii) / the bulk-SPT reading is
 carried) should record this closure and re-point the bridge question at the
-framed/Pin/String walls. That re-scoping is a claim-status-adjacent edit for the
+framed/String (odd-primary-capable) walls. That re-scoping is a claim-status-adjacent edit for the
 decider's owner surface under the consistency workflow, deliberately NOT executed
 in this assembly note.

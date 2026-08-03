@@ -297,3 +297,39 @@ M-H13 r(N(z)) refit; M-H14 GS/B.7 solve; M-H10 Bär–Ballmann skeleton
   from the moment they are adopted; nothing else in this plan touches it.
 - Discovery risk: M-C3, M-H1, M-H9, M-H5 are fork-resolvers — any of them may
   re-rank the remainder of Batch 3. Re-visit this register after each lands.
+
+---
+
+## Revision 1 (2026-08-03, after the interior-agent review of the panel synthesis)
+
+Accepted corrections, applied to the rows above by reference:
+
+- **M-M6 (f-invariant) RETYPED:** Laures' f-invariant lives on even stable
+  stems; `alpha_1 beta_1 in pi_13^s` is odd-stem, filtration 3. The item is a
+  candidate instrument ONLY after an even-dimensional corner/transgression
+  object is constructed; otherwise a different detector is required. Stays
+  Tier 3 (REFEREE_CONJECTURE).
+- **M-H5 (eta-form) REFEREE TARGET SHARPENED:** the trivialization statement
+  is about the 9-dim fiber link over the RP^3 spine; the honest object is the
+  S(nu)-bundle over P(TX^4) with the 4-dim base retained. The vanishing
+  mechanism in its clean form: if the fiberwise reflection preserves the
+  actual framed/Spin operator and domain, then x = -x, and on a purely
+  3-primary group 2 is invertible, forcing x = 0. Preservation of the
+  framing/operator/domain, plus global bundle control over P(TX), are THE
+  referee targets (REFEREE_CONJECTURE until then).
+- **M-H2 follow-on CHECKLIST:** channel-to-seesaw requires, in order: the
+  bilinear, the Krein pairing, the reality condition, a nonzero VEV, the
+  induced 4D mass operator. M-M19's surplus audit runs against this list.
+- **M-C4 CANDIDATE LIST NARROWED:** Pin removed (presumptively 2-primary);
+  redirect is framed/String or another explicitly odd-primary-capable
+  structure. Assembly note edited accordingly.
+- **M-H14 REFINED:** anomaly-cancellation-as-B.7 adopts quotient-aware
+  constraint-surplus accounting.
+- **HEADLINE LABELS ADOPTED** (panel output convention, retroactive):
+  VERIFIED_REPO_DISCONNECT — U1 inflow assembly, U5's odd-k/2002 arithmetic,
+  the W211/W219 propagation findings, FC3-fired. CHEAP_NEW_COMPUTATION —
+  U2/M-H1 J-restriction (executed), U6/M-C3 trichotomy at kinematic scope
+  (executed), M-H3 seesaw arithmetic (executed, POSIT grade).
+  REFEREE_CONJECTURE — U4/M-H5 eta-form vanishing, M-M6 f-invariant route,
+  the trichotomy's dynamical extension, the seesaw's physical reading, the
+  B5 endpoint prediction (M-H9).
