@@ -1,15 +1,35 @@
 ---
 title: "Hardening ledger: Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)"
-status: "second maximal revision complete; fresh adversarial saturation rerun pending"
+status: "v1.0.0 adversarially saturated; post-ready"
 updated: "2026-08-03"
 ---
 
 # Hardening ledger
 
 This ledger records the revision from the GU-facing v0.4 draft through the
-standalone mathematical v0.5 candidate and the hostile-specialist-hardened
-v0.6 candidate. It distinguishes actual repairs from scope boundaries and does
-not promote the paper to post-ready status.
+standalone mathematical v0.5 candidate, the hostile-specialist-hardened v0.6
+candidate, and the final v1.0.0 post-ready gate. It distinguishes actual
+repairs from scope boundaries.
+
+## Final v1.0.0 saturation gate
+
+The final ten-lens pass produced four small, fixable items. Version 1.0.0 now:
+
+- states that `Sp(n,n)` is connected real reductive and that its defining
+  real action is faithful;
+- quantifies the finite vector-family and smooth-representation clauses in
+  Corollary 7;
+- states that the quaternionic block derivation works for every `n >= 1`,
+  while retaining `n = 32` as the titled numerical specialization; and
+- separates maximal/positive and minimal/negative extremal rows in the result
+  table.
+
+Two fresh hostile gates then attacked the exact theorem and the
+publication/reproducibility surface. Both returned
+`fatal=0`, `major=0`, `minor_actionable=0`, and
+`actionable_hardening_remaining=0`. The exact disposition is bound to the
+v1.0.0 manuscript SHA-256 in
+`review/adversarial-saturation-receipt-v1.0.0.md`.
 
 ## Second hostile-specialist intake
 
@@ -118,17 +138,10 @@ is narrow and is stated identically in the manuscript and verification receipt.
   Lean-formalized results.
 - External replication is not required, but none is claimed.
 
-## Remaining publication gate
+## Publication gate result
 
-The v0.5 post-hardening ten-specialist internal audit found no theorem defect
-but preceded the external specialist report. After all eleven external
-findings were repaired, the consolidated v0.6 audit found no additional
-current-paper hardening action. The property generator continues to guarantee
-equal ranks, so all 160 generated pair cases execute rather than skipping
-rank-mismatched inputs.
-
-Run a fresh hostile deep-research review against the v0.6 Markdown file as a
-complete standalone submission. The post-ready gate passes only when any new
-criticism is either fixed, shown already addressed, or identified as an honest
-scope/trade-off rather than additional hardening potential. PDF, TeX, and Zenodo
-engineering remain prohibited until Joe approves after that rerun.
+The v1.0.0 gate is complete. The remaining objections ask for successor work:
+a non-extremal classification, an infinite-dimensional theorem, or a physical
+application dictionary. They do not expose an omitted proof, citation,
+qualification, test, or wording repair in the present paper. Joe authorized
+release-package engineering after this result; public posting remains separate.

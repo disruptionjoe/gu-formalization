@@ -1,7 +1,7 @@
 # Verification receipt
 
 Date: 2026-08-03  
-Scope: the manuscript and paper-specific evidence only
+Scope: the v1.0.0 manuscript and paper-specific evidence only
 
 ## Environment
 

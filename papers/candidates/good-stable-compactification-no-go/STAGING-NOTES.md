@@ -1,6 +1,6 @@
 ---
 title: "Staging notes: Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)"
-status: "v0.6 maximally hardened Markdown candidate; clean adversarial rerun pending"
+status: "v1.0.0 post-ready; release engineering authorized"
 updated: "2026-08-03"
 ---
 
@@ -12,8 +12,9 @@ Joe approved the mathematical title and the removal of the detailed GU
 application. The paper is a standalone finite-dimensional result. The v0.5
 hostile specialist pass found no fatal issue and independently confirmed the
 concrete calculation, but identified eleven hardening actions. All are
-dispositioned in v0.6. The paper is not post-ready until a clean hostile rerun
-finds no unresolved hardening potential.
+dispositioned in v0.6. The final v1.0.0 hostile rerun found no unresolved
+hardening potential. Its version-bound receipt is in
+`review/adversarial-saturation-receipt-v1.0.0.md`.
 
 ## Theorem-grade core
 
@@ -54,8 +55,7 @@ Lean kernel accompany the written proof.
 - **Open by scope:** non-extremal vectors, alternative positivity predicates,
   infinite-dimensional extensions, and all physical-model dictionaries.
 
-## Current stop
+## Current release boundary
 
-Markdown and paper-specific verification only. Do not build TeX, PDF, Zenodo
-metadata, or an upload package until Joe reviews the next hostile report and
-approves publication preparation.
+Joe approved TeX, PDF, metadata, and archive preparation after the clean final
+hostile passes. Public posting remains a separate explicit action.

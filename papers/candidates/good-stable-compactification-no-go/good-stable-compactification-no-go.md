@@ -4,8 +4,8 @@ subtitle: "Neutral, grading-even, and extremal order parameters"
 author: "Joseph Hernandez"
 affiliation: "Independent Researcher"
 date: "2026-08-03"
-status: "candidate hardening draft; not yet approved for publication"
-version: "0.6.0-hardening"
+status: "post-ready release candidate"
+version: "1.0.0"
 claim_grade: "theorem-grade finite-dimensional core; explicit Sp(32,32) specialization; no physical-stability claim"
 license: "CC BY 4.0"
 ---
@@ -61,7 +61,8 @@ hypotheses:
 |---|---|---|
 | vector fixed by $A_Z$ | $A_Z$ | the tested image of $A_Z$ is unbounded |
 | operator $O$ with $[O,d\iota(Z)]=0$ | $A_Z\subset C_G(O)$ | the same unbounded image |
-| maximal (respectively minimal) $Z$-weight vector, with real-diagonalizable $\operatorname{ad}(Z)$ and $dR(Z)$ and nonzero nilpotent $d\iota(X_+)$ (respectively $d\iota(X_-)$) | the corresponding positive (respectively negative) unipotent one-parameter subgroup | nonconstant polynomial growth in the tested image |
+| maximal $Z$-weight vector, with real-diagonalizable $\operatorname{ad}(Z)$ and $dR(Z)$ and nonzero nilpotent $d\iota(X_+)$ | the corresponding positive unipotent one-parameter subgroup | nonconstant polynomial growth in the tested image |
+| minimal $Z$-weight vector, with real-diagonalizable $\operatorname{ad}(Z)$ and $dR(Z)$ and nonzero nilpotent $d\iota(X_-)$ | the corresponding negative unipotent one-parameter subgroup | nonconstant polynomial growth in the tested image |
 
 For the displayed $\operatorname{Sp}(32,32)$ grading, all three mechanisms are
 visible in exact blocks. The standard compact-reducing involution has
@@ -417,11 +418,12 @@ additional homogeneous condition $zP'z=-P'$.
 
 ### 6.1 Quaternionic matrix model
 
-Let $n=32$ and regard $E=\mathbb H^n\oplus\mathbb H^n$ as a right
+Let $n\geq1$ and regard $E=\mathbb H^n\oplus\mathbb H^n$ as a right
 quaternionic vector space, with quaternionic matrices acting on the left and
 $^*$ denoting conjugate transpose. Unless otherwise stated,
 $\operatorname{End}(E)$ means $\operatorname{End}_{\mathbb R}(E)$ on the
-$8n$-dimensional underlying real space; at $n=32$,
+$8n$-dimensional underlying real space. The calculation below is valid for
+every $n\geq1$; the numerical specialization of interest is $n=32$, where
 $\dim_{\mathbb R}E=256$. Set
 
 $$
@@ -439,7 +441,8 @@ G=\operatorname{Sp}(n,n)
 =\{g\in\operatorname{GL}_{2n}(\mathbb H):g^*\beta g=\beta\}
 $$
 
-acts faithfully on the underlying real vector space of $E$. Its Lie algebra is
+is a connected real reductive Lie group and acts faithfully on the underlying
+real vector space of $E$ [Sedano-Mendoza 2019]. Its Lie algebra is
 
 $$
 \mathfrak g=
@@ -464,14 +467,16 @@ $$
 Since $\dim_{\mathbb R}\operatorname{Sp}(m)=m(2m+1)$,
 
 $$
-\dim G=64(129)=8256,
+\dim G=(2n)(4n+1),
 $$
 
 $$
-\dim K=2\cdot32(65)=4160,
+\dim K=2n(2n+1),
 \qquad
-\dim(G/K)=4096.
+\dim(G/K)=4n^2.
 $$
+
+At $n=32$ these are $8256$, $4160$, and $4096$, respectively.
 
 The group preserves the nondegenerate real symmetric form
 
@@ -590,7 +595,10 @@ This immediately exhibits the nonzero eigenspaces as abelian and square-zero.
 It also identifies
 $\mathfrak p_Z=\mathfrak g_0\oplus\mathfrak g_2$ as the parabolic stabilizing
 the first, isotropic quaternionic $n$-plane, with abelian nilradical
-$\mathfrak g_2$. Rescaling the grading element by $1/2$ turns the displayed
+$\mathfrak g_2$: in the $S$-basis, its matrices are exactly the displayed
+upper-triangular blocks and hence preserve
+$\mathbb H^n\oplus0$, while the lower-left block detects failure to preserve
+that plane. Rescaling the grading element by $1/2$ turns the displayed
 degrees into $-1,0,1$, so this is a $|1|$-grading rather than a depth-two
 $|2|$-grading [Čap and Slovák 2009, chs. 2--3].
 
@@ -703,13 +711,17 @@ calculation supplies every sign-specific witness hypothesis used by Theorem
 3(3)--(4) without appealing to a toy model or to an unspecified algebraicity
 assumption.
 
-**Corollary 7 (the explicit $\operatorname{Sp}(32,32)$ obstruction).** For the
-$z$ above, stabilizers of $A_Z$-invariant vectors and grading-even operators on
-$E$ have non-relatively-compact image under the defining representation. If
-$R$ is a finite-dimensional representation with $dR(Z)$ diagonalizable over
-$\mathbb R$, the same conclusion holds for every nonzero maximal or minimal
-$Z$-weight vector: the explicitly displayed $X_+$ or $X_-$ supplies the
-required nonzero nilpotent witness of the corresponding sign.
+**Corollary 7 (the $\operatorname{Sp}(n,n)$ family and the
+$\operatorname{Sp}(32,32)$ specialization).** For every $n\geq1$ and the $z$
+above, the common stabilizer of any finite family of $A_Z$-invariant vectors in
+finite-dimensional smooth representations has non-relatively-compact image
+under the defining representation. The same holds for the centralizer of every
+grading-even operator on $E$. If $R$ is a finite-dimensional representation
+with $dR(Z)$ diagonalizable over $\mathbb R$, the conclusion also holds for
+every nonzero maximal or minimal $Z$-weight vector: the explicitly displayed
+$X_+$ or $X_-$ supplies the required nonzero nilpotent witness of the
+corresponding sign. At $n=32$, the positive and negative witness spaces each
+have real dimension $2080$.
 
 ## 7. Why the scope conditions are necessary
 

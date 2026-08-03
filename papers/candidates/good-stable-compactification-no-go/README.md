@@ -1,8 +1,10 @@
 # Compact-Image Obstructions for a Hyperbolic Grading in Sp(32,32)
 
-This directory contains the active Markdown-only hardening candidate and its
-paper-specific proof/checking capsule. It is not a release package and is not
-yet approved for posting.
+This directory contains the post-ready v1.0.0 manuscript and its
+paper-specific proof/checking capsule. The version-bound hostile saturation
+gate passed on 2026-08-03 with zero unresolved hardening actions. Joe has
+authorized release engineering, but this status does not itself authorize a
+public Zenodo deposit.
 
 ## Canonical manuscript
 
@@ -24,7 +26,10 @@ yet approved for posting.
   and their v0.6 dispositions.
 - [`review/post-v0.6-adversarial-audit-2026-08-03.md`](review/post-v0.6-adversarial-audit-2026-08-03.md)
   records the consolidated internal zero-actionable check after those repairs.
+- [`review/adversarial-saturation-receipt-v1.0.0.md`](review/adversarial-saturation-receipt-v1.0.0.md)
+  binds the final specialist and publication/reproducibility hostile passes to
+  the exact v1.0.0 manuscript hash and records zero remaining actionable
+  hardening items.
 
-No PDF, TeX release source, Zenodo metadata, or upload archive belongs in this
-directory until Joe approves the hardened manuscript after the fresh
-adversarial saturation rerun.
+The release package is built only from the source checkpoint named in its
+`SOURCE-COMMIT.txt`. Posting remains a separate user-approved action.
