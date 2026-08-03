@@ -16,7 +16,8 @@ construction: "program-native: the gamma-traceless ker-Gamma RS carrier is GU's 
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
-outcome: "P3-IS-NOT-EXTERNAL"
+outcome: "P3-REINSTATED-AS-EXTERNAL"
+frontmatter_correction: "2026-08-03: outcome corrected from P3-IS-NOT-EXTERNAL, which was retracted as a homonym error by the in-body correction banner (see explorations/layer0-pass-on-the-2plus1-count-claim-2026-07-29.md); the title's 'THREE to TWO' and 'P3 is WITHDRAWN' phrasing is likewise superseded — the ledger returns to three pieces. Audit finding CG-04."
 ---
 
 # The external datum ledger, and the 2+1 product rule

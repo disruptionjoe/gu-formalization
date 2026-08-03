@@ -29,6 +29,11 @@ external_ref: "Bateman & Turok, 'Escape from Ostrogradsky via Hidden Ghost Parit
 > generations gap together (V1, theorem over the enumerated native algebra). The split into 3
 > positive-norm + 3 ghost states survives as a CONSISTENCY statement only; it is NOT a chirality
 > selection, and the mirror-selective datum is an import. The count stays OPEN.
+> CORRECTION 2026-08-03 (audit CG-03): the standing sentence later in this file — "The count is
+> not imported from outside; it is latent in GU's own self-dual geometry" — is superseded by this
+> same banner: the Lambda^2_+ triplet MULTIPLICITY is located, but the chiral COUNT is not
+> internally derived (canon external-by-structure: any odd count is necessarily external). Read
+> that sentence per Layer-0; it survives only as the located-carrier half of the claim.
 > Positive addition (V2, SUSTAINED x2): the Krein form K itself implements the Cartan involution of
 > so(9,5) (residual 0.0e+00) and equals the ghost parity on the triplet — the consistency structure,
 > the gauge-sector rescue, and the Krein geometry are one Z2 at kinematic grade.

@@ -919,8 +919,9 @@
       "lane_id": "3",
       "title": "Hold ready papers at the external-review ceiling",
       "track": "result_hardening",
-      "state": "NEEDS_JOE",
-      "owner": "gu-formalization locally; external action is Joe-gated",
+      "state": "PARKED",
+      "state_note": "Reclassified from NEEDS_JOE per Joe direct chat 2026-08-03: external review is Joe-owned and OPTIONAL; the repo never waits on it and no repo work item may block on or depend on this item.",
+      "owner": "Joe (external action); gu-formalization holds packages ready",
       "hourly_eligible": false,
       "priority_score": 14,
       "score": {

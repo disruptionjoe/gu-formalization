@@ -2,10 +2,20 @@
 title: "Six-Axis Specification Protocol"
 status: canon
 doc_type: canon
-updated_at: "2026-05-31"
+updated_at: "2026-08-03"
 ---
 
 # Six-Axis Specification Protocol
+
+> **RATIFIED UPDATE 2026-07-10 (Joe), recorded here 2026-08-03 (audit finding A5):** the
+> protocol is now **seven axes (L1–L7) plus a Layer-0 semantic-alignment PRECONDITION**.
+> **L7 = positivity / state-space metric signature**, promoted from the provisional
+> candidate (`six-axis-candidate-krein-positivity-dg.md`). **Layer-0** (semantic
+> alignment / homonymy) runs BEFORE L1–L7: identify which construction (geometer's vs
+> physics-default) each shared term denotes before any admission or no-go argument. The
+> ratified authority text is `lab/specifications/six-axis/six-axis-template.md`; read
+> the six-axis body below as historical, with "six-axis" meaning "L1–L7 + Layer-0"
+> going forward (matching `canon/no-go-class-relative-map.md`).
 
 This synthesis introduces the contributor-facing specification protocol now housed in [`../specifications/six-axis/`](../specifications/six-axis/).
 

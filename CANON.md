@@ -2,12 +2,15 @@
 title: "Project Canon"
 status: canon
 doc_type: canon
-updated_at: "2026-07-03"
+updated_at: "2026-08-03"
 ---
 
 # Project Canon
 
 Canon means: safe to cite as the current public spine of the project. It does not mean proved physics.
+Promotion into canon is executed by AI agents against the fixed Promotion Rule in `RESEARCH-STATUS.md`;
+no human reviewer signs each entry (awareness notes are filed, not approvals). Scientific verdict flips
+additionally require a hostile field-specialist review (ratified 2026-08-03).
 
 ## Canonical Posture
 
@@ -123,7 +126,7 @@ stays OPEN. The two RS function-space **SPEC** documents (`rs-function-space-fra
 ## Canon Entries Added 2026-07-03 (big-swing GU-independent results; internal tier)
 
 Promoted under the 2026-07-03 agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awareness notes filed
-in `../../../system/mailboxes/joeops/`. Both are GU-independent (canonical claim 6), internal tier, and neither
+in `../../../repos/private/system-runtime/mailboxes/joe-project-management/archive/` [path corrected 2026-08-03]. Both are GU-independent (canonical claim 6), internal tier, and neither
 derives three; the count verdict stays OPEN.
 
 | entry | verdict | note |
@@ -134,8 +137,10 @@ derives three; the count verdict stays OPEN.
 ## Canon Entry Added 2026-07-15 (good-stable compactification no-go; GU-independent, internal tier)
 
 Promoted under the agent-owned Promotion Rule (`RESEARCH-STATUS.md`); JoeOps awareness note filed in
-`../../../system/mailboxes/joeops/`. GU-independent (canonical claim 6), internal tier; does NOT move
-`bar(b)` / H59 / the generation count (those stay OPEN and Joe-gated).
+`../../../repos/private/system-runtime/mailboxes/joe-project-management/archive/` [path corrected 2026-08-03].
+GU-independent (canonical claim 6), internal tier; does NOT move
+`bar(b)` / H59 / the generation count (those stay OPEN — blocked on unbuilt mathematics, not on a Joe
+decision; a future verdict flip requires the hostile field-specialist review per the 2026-08-03 rule).
 
 | entry | verdict / grade | source explorations |
 |---|---|---|

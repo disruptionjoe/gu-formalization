@@ -133,6 +133,21 @@ Assumption-3 wording is unchanged.
 | W160 crossing-epoch honest limit | exploration-tier | GU derives dark energy's CHARACTER (sign-changing, clock-coupled, `O(1) ~ H^2`) but PROVABLY NOT the crossing epoch: the DESI `z ~ 0.405` is a fitted boundary condition, not a GU prediction (the everpresent Poisson homogeneity that fixes the amplitude forbids pinning the phase). Rests on the everpresent substrate (conditional). Cite `explorations/W160-debit3-forced-binary-2026-07-14.md` (27/27). Exploration-tier; does not alter the theta-field FLRW dark-energy verdict, which stays OPEN. |
 | W211 five-method convergence on the Krein-grading-sign bit (#1) | exploration-tier; LOCATED-NOT-FORCED / GODEL-INDEPENDENT; verdict-stable | The whole 2026-07-14 arc reduces to ONE bit: the C-operator grading SIGN (record-count mode Krein-negative on the `(6,4)` DeWitt fiber = whether the interacting C-operator is operative = bar (b)). FIVE independent methods return RESIDUAL-BIT-STANDS UNANIMOUSLY: W206 (R16 counterfactual-invariance), W207 (R9 Dirac-BRST), W208 (R7 Lawvere), W209 (R12 topos), W210 (R1 Helmholtz). Shared mechanism (each reproduces it as a positive control): the full gauge group `so(9,5)` Schur-forces the ungraded metric `eta` (nulldim 1 = W203), but conditioning on the good stable restricts to the maximal-compact stabilizer `SO(9)xSO(5)` (the C-commutant), under which the frame is reducible, so the invariant-symmetric-form space GROWS from 1 to 2 (basis `{eta, eta.C}`) -- symmetry reduction LIBERATES the sign as a free Z/2, it does not force it. The source action is BUILT with forced coefficients (W203; only the overall scale = Newton's G, free by normalization) and the signature is DECOUPLED (W202), so `#1` is not blocked on either. The one datum is EXTERNAL (the TI/TaF finality-reservoir signature); "compute harder inside GU" is ruled out by proof. Two honest paths: (a) obtain the sign from TI/time-as-finality, or (b) posit a Krein-positivity axiom and state GU's result conditionally. Cite `explorations/W211-krein-sign-godel-independent-five-method-synthesis-2026-07-14.md` and `tests/W211_five_method_convergence.py` (28/28, exit 0), the five source notes `W206`/`W207`/`W208`/`W209`/`W210` and their passing tests (29/29, 31/31, 31/31, 32/32, 32/32), plus `W203`/`W202`. Exploration-tier; bar (b) and H59 remain OPEN (UNCHANGED); count `{1,3}`; no existing verdict row altered. |
 
+## 2026-08-03 Correction W211-01 (stale free-bit row)
+
+The W211 row above (2026-07-14 table) is superseded on its central claim. The same-day
+adversarial hardening (`papers/drafts/structurally-forced-internally-undecidable/draft-skeleton.md`)
+proved that for the canonical stabilizer `O(p) x O(q)` the admissible fundamental symmetry is
+**unique, not a free Z/2**, with the general residual-dimension formula
+`sum_lambda dim_R(D_lambda) a_lambda b_lambda` (singleton iff no irrep type is shared between
+sectors); `NEXT-STEPS.md` (2026-07-14 queue block) recorded the kill, and
+`explorations/W219-native-good-stable-stabilizer-input-gate-2026-07-14.md` re-proved uniqueness at
+the program-native `Sp(32)xSp(32)` level (no shared types). The five-method "residual bit stands
+unanimously" verdict was computed on the 14-frame surrogate `SO(9)xSO(5)` and does not survive.
+What remains open is deriving the PHYSICAL stabilizer/observable algebra from the dynamics —
+a sharper question than "which of two signs." `bar(b)` and H59 remain OPEN. This correction was
+identified by the 2026-08-03 eleven-lens audit (`lab/process/eleven-lens-audit-2026-08-03.md`, A7).
+
 ## 2026-06-30 Chase-to-Kill Correction Sweep
 
 Five canon corrections applied by the MOVE chase-to-kill runs (adversarial re-derivation of the strongest surviving red-flags and side-claims), then cascaded to this index. Each correction cites a runnable script under `tests/chase/`. This is a rationale/red-flag correction pass, not a promotion sweep: every affected verdict is KEPT OPEN (or unchanged). No result is promoted to a physics derivation of GU, and the source-action bottleneck is untouched.
@@ -200,9 +215,9 @@ An exploration can move toward canon only when it has:
 5. no dependency on internal work artifacts for its next action,
 6. no stale stronger status remains in `RESEARCH-STATUS.md`, `CANON.md`, affected `canon/*`, `NEXT-STEPS.md`, live paper drafts, or lab/process/DAG/firewall artifacts after a claim-status consistency sweep.
 
-**Who promotes (2026-07-03).** Agents own the promotion decision and may execute it directly once all six criteria are met — canon promotion no longer pauses for Joe. Canon means public-spine framing, not a verdict; flipping a scientific verdict/status (e.g. `OPEN -> RESOLVED`) is a separate action that still pauses for Joe.
+**Who promotes (2026-07-03).** Agents own the promotion decision and may execute it directly once all six criteria are met — canon promotion no longer pauses for Joe. Canon means public-spine framing, not a verdict; flipping a scientific verdict/status (e.g. `OPEN -> RESOLVED`) is a separate action that, as of 2026-08-03 (Joe direct chat), no longer pauses for Joe PROVIDED the flip is accompanied by a hostile adversarial review by field-relevant specialists, filed with the change. Public/external consequence and relicensing still pause for Joe.
 
-**Mandatory awareness note.** Every executed promotion MUST drop a note in `../../../system/mailboxes/joeops/` using the template `lab/process/templates/canon-promotion-joeops-notice.md`. The note is for awareness, not approval — it states what was promoted, the case FOR, the steelmanned case AGAINST, how the call was made, the risks, and the supporting certificates, plus how to reverse it. Filing the note is part of the promotion, not optional.
+**Mandatory awareness note.** Every executed promotion MUST follow the filing scheme in the template `lab/process/templates/canon-promotion-joeops-notice.md` (durable note in this repo's `attention/`, pointer envelope in `../../../repos/private/system-runtime/mailboxes/system-attention/` from this repo root). [Path corrected 2026-08-03; the previously named `system/mailboxes/joeops/` does not exist — historical notes were filed in `system-runtime/mailboxes/joe-project-management/archive/`.] The note is for awareness, not approval — it states what was promoted, the case FOR, the steelmanned case AGAINST, how the call was made, the risks, and the supporting certificates, plus how to reverse it. Filing the note is part of the promotion, not optional.
 
 ## Current Caution
 
@@ -373,9 +388,9 @@ Four parallel agents (A-D) ran following the Layer 1-3 completions and the UCSD 
 
 | finding | status | file |
 |---|---|---|
-| N1 (signature audit): (9,5) confirmed, Cl(9,5) ≅ M(64,H) | RESOLVED | `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (prior session) |
+| N1 (signature audit): (9,5) confirmed, Cl(9,5) ≅ M(64,H) | RESOLVED **[CORRECTED 2026-08-03: the total signature is UNDER-DETERMINED — the DeWitt fiber is (6,4) under BOTH base conventions (quadratic in g), so only the base (3,1)/(1,3) convention selects (9,5) vs (7,7); see `explorations/W202-signature-crux-bach-branch-2026-07-14.md` and `explorations/wave14/H19-seven-seven-signature-branch-2026-07-11.md`. Cl(9,5) ≅ M(64,H) itself stands.]** | `explorations/anomaly-and-bordism/n1-signature-audit-y14-clifford-algebra-2026-06-22.md` (prior session) |
 | N2 (shiab): algebraic map exists under (9,5); anomaly structure partially defused via Sp(64) | SUBSTANTIALLY ADVANCED | `canon/shiab-existence-cl95.md`; `explorations/anomaly-and-bordism/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
-| Nguyen §3.1 (complexification gap) | RESOLVED | See N1/N2 files above |
+| Nguyen §3.1 (complexification gap) | RESOLVED (existence-only rebuttal; GU's actual operator NOT identified — selector identity OPEN per SHIAB-02) | See N1/N2 files above |
 | Nguyen §2 (anomaly pincer) | SUBSTANTIALLY ADDRESSED — Sp(64) replaces U(128) and defuses the original pincer; full local/global GU anomaly cancellation remains open/non-canon | `explorations/anomaly-and-bordism/anomaly-audit-cl95-gauge-group-2026-06-22.md` |
 | Residual: IG dimension matching (sp(64) dim = 8256 vs. desired 16384) | OPEN | `NEXT-STEPS.md` N4 |
 
@@ -394,7 +409,7 @@ The Nguyen synthesis document has been updated with §3.1 RESOLVED, §3.2 reclas
 
 | area | status | note |
 |---|---|---|
-| Nguyen §3.1 | **RESOLVED** | Complexification not needed in (9,5)/quaternionic setting |
+| Nguyen §3.1 | **RESOLVED** (existence-only; selector identity OPEN per SHIAB-02) | Complexification not needed in (9,5)/quaternionic setting |
 | Nguyen §2 (anomaly) | **SUBSTANTIALLY ADDRESSED / full cancellation OPEN** | Sp(64) replaces U(128) and removes Nguyen's original U(1) pincer; local/global anomaly cancellation still needs explicit I_16 and bordism/eta checks |
 | Shiab existence | **RESOLVED (existence only)** | One natural real-linear Spin(9,5)-equivariant Clifford-contraction map exists; injectivity/rank/kernel/uniqueness not claimed |
 | Dark energy divergence-free | **CONDITIONALLY_RESOLVED** | Noether route depends on unproved action-level structural identification of theta as the relevant Euler-Lagrange sector |

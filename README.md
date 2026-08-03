@@ -20,7 +20,19 @@ For readers arriving from "A Diagonal No-Go for Self-Valuations and an Invarianc
 - **Finite-instance confirmations:** `tests/W70_path5_D_lawvere.py`, `tests/W73_H62_arena_value_partition.py`,
   and `tests/W99_theorem_finite_instances.py` (run each with `python <file>`).
 - **Claim-level honesty map:** `VERIFICATION.md`.
-- **Paper source:** `papers/candidates/observer-value-selection-theorem/submission/`.
+- **Paper source:** `papers/published/observer-value-selection-theorem/` (published on Zenodo; the
+  previously listed `papers/candidates/observer-value-selection-theorem/submission/` path no longer exists).
+
+## How this repository is produced
+
+This repository is produced by AI agents (Claude- and Codex-class) operating under a single human
+director (Joe / Joseph Hernandez). Agents perform the construction, computation, certification, and
+canon promotion; the human sets research direction, ratifies governance changes, and owns all
+external actions (publication, licensing, distribution). Scientific verdict changes additionally
+require a hostile adversarial review by field-relevant specialist agents. All verification reported
+here is internal-tier — reproduced and adversarially reviewed within the same AI-directed process
+that produced it — unless explicitly marked otherwise. See `VERIFICATION.md` for the claim-level
+honesty map.
 
 One caution: this is a large, active research repository. The paper is self-contained and does not depend on
 the rest of it.

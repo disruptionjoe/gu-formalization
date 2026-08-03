@@ -8,6 +8,13 @@ status: in_progress
 
 Three-layer program to move from the distortion residue (proved in TI E049) and Weinstein's GU constructions to concrete physical derivations.
 
+> **2026-08-03 terminal guard.** This log's last research entry is 2026-07-03 and everything in it
+> is provenance thereafter; current status lives in `RESEARCH-STATUS.md` / `CANON.md`. In
+> particular, the terminal entries reading "staged at canon/... ; CANON.md promotion PAUSE FOR
+> JOE" are superseded: those files were promoted to canon on 2026-07-03 under the agent-owned
+> Promotion Rule (see `CANON.md`), and the promotion-pause rule itself has since changed
+> (2026-08-03). Identified by the eleven-lens audit (`lab/process/eleven-lens-audit-2026-08-03.md`, B14).
+
 > **2026-06-25 global status guard.** Older rows in this progress log are provenance, not
 > current verdicts, when they conflict with the status ledgers. Current boundaries:
 > generation count / `ind_H(D_GU)=24` is OPEN; Shiab is RESOLVED for algebraic existence

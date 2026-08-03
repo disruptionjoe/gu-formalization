@@ -12,9 +12,13 @@ Unity.
 
 ## Central Hypothesis
 
-The working hypothesis is that Geometric Unity is substantially correct, and that the
-missing mathematics can either be reconstructed, extended, or precisely shown not to
-exist.
+The working posture is truth-seeking, not advocacy (see `../RESEARCH-POSTURE.md` and
+`../CANON.md`): Geometric Unity is the bold, contested conjecture used as a generative
+test case, and the task is to find the true structure that survives driving its
+falsifiable consequences to resolution — reconstructed, extended, or precisely shown
+not to exist — not to vindicate or refute it. [Corrected 2026-08-03: this section
+previously asserted a "substantially correct" working hypothesis, which contradicted
+the ratified posture; audit finding A6.]
 
 The hypothesis is not established. The repo is designed so either outcome is a success:
 a rigorous GU reconstruction that derives new physics, or a precise mathematical account
@@ -35,9 +39,9 @@ alternatives.
 
 ## What Is Canonical Here?
 
-The canon is disciplined, but no longer neutral-map-first:
+The canon is disciplined (canon = citable public spine, not a verdict — see `../CANON.md`):
 
-- The primary mission is GU reconstruction under a bold working hypothesis.
+- The primary mission is truth-status: force, falsify, or precisely place GU (reconstruction is the method, not the mission).
 - The repo should optimize for information gain about whether GU is true.
 - No-go results must be handled by their exact assumptions and known class exits.
 - Candidate constructions must be specified before they are promoted.
@@ -48,7 +52,7 @@ See `RESEARCH-POSTURE.md`, `CANON.md`, and `canon/`.
 
 ## What Is Active Research?
 
-Active research should prioritize constructive GU reconstruction: source-to-shadow maps,
+Active research prioritizes driving falsifiable GU-generated hypotheses to resolution: source-to-shadow maps,
 exact GR recovery, QFT state extraction, matter/gauge selection, anomaly control,
 generation-count machinery, measurement channels, and Lambda/dark-energy provenance.
 
