@@ -100,6 +100,15 @@ Under `Cl(7,7) = M(128,R)`: real commutant is `R·I` not `H·I`, and `J² = +1` 
 The review's C4 already proves the signature structurally: `ωβ + βω = 0` ⇒ both chirality halves totally isotropic ⇒ neutral. State it as a signature-free lemma ("volume word anticommuting with the Krein involution and preserving the constraint surface ⇒ restricted form neutral"). Cheapest hardening available; makes Export E2 below signature-robust.
 
 **DQ4 — W219's own next sub-goal: the representation type of the rolling mode `p(τ)`. DECIDABLE NOW (typing question). Cost S; M–L only on the nontrivial branch.** `VERIFIED_REPO_DISCONNECT`
+
+> **CORRECTION (2026-08-03, Wave A-3).** "No follow-up artifact" below is
+> wrong as filed: `explorations/W224-native-good-stable-dynamical-vacuum-2026-07-15.md`
+> (35/35) answers DQ4 at split grade — EXACT for the singlet-isotropy /
+> Prop-1 consequence, SOURCE-AUDIT for the identification itself; and
+> "forecast singlet" under-reports (W224 states the singlet as its result).
+> See `explorations/dq4-rolling-mode-representation-type-2026-08-03.md`
+> and register row M-M29. The disconnect finding stands in modified form:
+> the artifact exists but was uncited on this anchor's critical path.
 W219 §6 specifies it completely: is `p` a singlet under `Sp(32,32;H)`, a field in the 91-dim spin-lift image, or a section-space variable the group does not act on? If singlet ⇒ its roll **cannot compactify** the noncompact group ⇒ isotropy stays the full noncompact arena ⇒ Prop 1 forbids an invariant positive majorant ⇒ **exit (a) closes negatively, cheaply**. W219 called this "the next hourly pickup" on 2026-07-14; three weeks later there is no follow-up artifact (only a passing mention in `explorations/council-dynamic-unity-assessment-2026-07-21.md`, which describes `p` as the record-count/conformal-scale mode with `N = e^{4p}` — i.e. scalar-shaped, i.e. *forecast singlet*). The cheapest decisive item on the anchor's own critical path is unclaimed.
 
 **DQ5 — The physical-quotient / BRST construction on the record sector. CONSTRUCTION-BLOCKED, with a named blocker.** Cost: M–L *if* the blocker existed; unbounded to build the blocker.
