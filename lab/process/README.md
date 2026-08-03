@@ -38,6 +38,11 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2b-source-residual-leading-symbol-registry.json` -
+  PW2F-R2B2B2B ledger: records the conditional fixed-`(epsilon,varpi)` active
+  source-grammar tangent, thirteen-coordinate full residual port with exact
+  norm `981/64`, observed-base pre-Shiab/J3 cancellation, and the split next
+  gate: `I1` C4 may proceed while off-shell `I2B` C5 must close first.
 - `pw2fr2b2b2a-native-coefficient-action-split-registry.json` -
   PW2F-R2B2B2A prerequisite ledger: records one exact active contracted
   moving-Shiab coefficient, complete finite ordered five-slot product-rule

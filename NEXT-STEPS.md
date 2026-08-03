@@ -7,6 +7,28 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2B ACTIVE SOURCE-GRAPH / FULL-RESIDUAL
+> LEADING-SYMBOL PASS; I1 C4 READY, OFF-SHELL I2B C5 STILL OPEN.** A
+> conditional fixed-`(epsilon,varpi)` active principal-`Z1` tangent now derives
+> `deltaB=Ad(epsilon^-1)deltaGamma`, `deltaT=-deltaq`, and
+> `deltaA=deltaGamma` for all ten metric owners. Thirteen sparse active Shiab
+> terms are embedded in the full 115,584-dimensional residual carrier with
+> exact norm `981/64`. On observed-base conormals,
+> `eta wedge deltaGamma^(2)=0` before Shiab, so `I1` C5 and the residual-zero
+> normal `I2B` C6 / `J3-J2` C5 blocks vanish identically. This is a scoped
+> Levi--Civita incidence theorem, not an all-`T*Y` or off-shell square-action
+> theorem.
+>
+> Resume at
+> `PW2F-R2B2B2C-I1-C4-AND-I2B-OFFSHELL-C5-CEILING-THEN-C4-GREEN`:
+> build the actual induced coefficient tensors and complete the
+> 35-monomial-per-entry `I1` C4 bank; independently close the off-shell `I2B`
+> C5 ceiling before attempting its C4 bank, then reconcile every admitted
+> term by a formal-adjoint/Green route. P1/P2/P3 remain unchanged and unused;
+> Curt stays formally separate and the conjunctive third-lane gate remains
+> unpromoted. See
+> `explorations/pw2fr2b2b2b-source-residual-leading-symbol-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B2A ACTIVE COEFFICIENT/ACTION-SPLIT
 > PREREQUISITE PASS; COMPLETE NATIVE C5/C4 STILL OPEN.** One exact coefficient
 > of the active trace-reversed `(9,5)` trace/Phi/Hodge moving-Shiab derivative

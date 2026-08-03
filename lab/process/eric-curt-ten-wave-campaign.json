@@ -5,6 +5,16 @@
   "lane": "1",
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
+  "latest_successor_checkpoint": {
+    "gate": "PW2F-R2B2B2B-SOURCE-RESIDUAL-LEADING-SYMBOL",
+    "status": "ACTIVE_LOCAL_PRINCIPAL_Z1_METRIC_TANGENT_AND_FULL_RESIDUAL_PORT_PASS__13_COORDS_NORM981_OVER64__J3_ZERO_OBSERVED_BASE__I1_C5_ZERO__NORMAL_I2B_C6_AND_J3J2_C5_ZERO__OFFSHELL_I2B_C5_OPEN",
+    "earned": "conditional fixed-(epsilon,varpi) ten-owner active principal-Z1 tangent, explicit thirteen-coordinate full residual port, and observed-base pre-Shiab/J3 leading cancellation",
+    "scope": "reconstructed Levi-Civita principal-Z1 metric-metric branch only; global epsilon port, full tangent/conormals, actual coefficient tensors, and off-shell I2B C5 remain open",
+    "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+    "next_gate": "PW2F-R2B2B2C-I1-C4-AND-I2B-OFFSHELL-C5-CEILING-THEN-C4-GREEN"
+  },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
     "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK"

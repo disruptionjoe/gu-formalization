@@ -7,13 +7,24 @@ branch: agent/null-clifford-omega1-repair
 run: system-runtime#meta/runs/RUN-20260802-132225-gu-formalization-post-r3-council/run-plan.md
 registry: lab/process/post-b2c15r3-multidisciplinary-council-next-ten-waves.json
 probe: tests/channel-swings/post_b2c15r3_multidisciplinary_council_scaffold_probe.py
-grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B1 FINITE SOURCE-SPLIT / CO-MOVING SECOND-GRAPH PREREQUISITE. R2B2B1 constructs an exact finite q/Gamma chart and a live repository-derived Bhat2 with two-term off-shell Hessian control, but it does not instantiate the native induced-Y14 graph or compute complete C5/C4, the five coefficient slots, or the separate I1/I2B Hessians. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
+grade: "MULTIDISCIPLINARY AND ENGINEERING COUNCIL SCAFFOLD THROUGH PW2F-R2B2B2B ACTIVE LOCAL SOURCE-GRAPH / FULL-RESIDUAL LEADING-SYMBOL PASS. The conditional ten-owner principal-Z1 tangent and thirteen-coordinate full residual port are built; observed-base pre-Shiab incidence kills I1 C5 and the residual-zero normal I2B C6/C5 blocks. Complete I1 C4 and the off-shell I2B C5 ceiling then C4 remain open. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
 ---
 
 # Post-B2C15R3 multidisciplinary council
+
+> **2026-08-03 R2B2B2B successor checkpoint.** A conditional
+> fixed-`(epsilon,varpi)` active principal-`Z1` tangent is now derived for all
+> ten metric owners, and all thirteen active residual coordinates are ported
+> into the full 115,584-dimensional carrier with exact norm `981/64`. On
+> observed-base conormals, `eta wedge deltaGamma^(2)` vanishes before Shiab,
+> so `I1` C5 and only the residual-zero normal `I2B` C6 / `J3-J2` C5 blocks
+> vanish. Resume at
+> `PW2F-R2B2B2C-I1-C4-AND-I2B-OFFSHELL-C5-CEILING-THEN-C4-GREEN`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
 
 > **2026-08-03 R2B2B2A successor checkpoint.** The scaffold's original
 > R2B2B1 frontier remains the frozen council basis. The successor now proves

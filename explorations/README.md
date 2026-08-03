@@ -13,6 +13,13 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2B active source-graph, full residual port, and leading-symbol triage`](pw2fr2b2b2b2b-source-residual-leading-symbol-2026-08-03.md)
+  derives a conditional fixed-`(epsilon,varpi)` ten-owner principal-`Z1`
+  tangent, embeds all thirteen active residual coordinates in the full
+  115,584-dimensional carrier with norm `981/64`, and proves the observed-base
+  pre-Shiab incidence and `J3` maps vanish identically. This clears `I1` C5
+  and only the residual-zero normal `I2B` C6/C5 blocks. Complete `I1` C4 and
+  the off-shell `I2B` C5 ceiling/C4 remain for R2B2B2C.
 - [`PW2F-R2B2B2A active moving-Shiab coefficient slots and staged-action split`](pw2fr2b2b2a-native-coefficient-action-split-2026-08-03.md)
   extracts one exact contracted active `(9,5)` moving-Shiab coefficient,
   proves the complete finite ordered five-slot product rule with every slot
