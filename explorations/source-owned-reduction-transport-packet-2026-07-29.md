@@ -295,3 +295,57 @@ python3 tests/channel-swings/b5_normalized_transport_from_differential_probe.py
 
 The run also re-executes the W177 curvature carrier, vertical-reduction,
 actual-fibre naturality, and native-packet fail-closed controls before close.
+
+---
+
+## Re-verdict addendum (2026-08-03): stationarity gate re-certified with exact derivatives
+
+`claim_status_change: none` — the `W177-AMBIENT-YM-NONSTATIONARY` verdict
+is unchanged; the evidence is upgraded from FD-limited to exact. Executed
+under register item M-C2, eleven-lens-audit finding B4 (2026-08-03), and
+the P-H29 acceptance rule (nulls must be certified with exact derivatives),
+implemented by the new closed-form derivative library.
+
+Code:
+
+```text
+tests/lib/exact_gimmel_derivatives.py                           (library + self-test)
+tests/channel-swings/verify/w177_exact_derivative_reverdict.py  (this re-verdict)
+```
+
+The stationarity gate's Section-A numerical receipt was produced by a
+three-layer nested finite-difference pipeline whose floor — the
+direct-divergence / contracted-Bianchi defect `3.73e-3` — was itself FD
+truncation. Re-deriving with exact Christoffel/Riemann/Ricci derivatives
+(no interior FD layers):
+
+| item | published (all-FD) | exact re-derivation |
+| --- | ---: | ---: |
+| residual norm | `3.19903939..3.19904935` (scale band) | `3.199039136463136` (single exact value; the band's h→0 limit) |
+| contracted-Bianchi defect | `3.73e-3` | `1.3e-14` (fully exact); `2.1e-9` with one outer FD layer at `h=1e-5` |
+| planted `Ric=lambda*g` control | `2.51e-11` | `1.9e-15` |
+| Ricci-symmetry defect | `5.60e-6` | `1.1e-15` |
+| metric-compatibility defect | `2.19e-11` | `2.6e-15` |
+| signal / numerical floor | `858.6` | `1.55e9` (outer-FD floor at `h=1e-5`); `3.2e12` against the fully exact defect clamped at the probe's `1e-12` guard |
+| planted non-Codazzi control | `21.6839` | `21.6839` (unchanged) |
+
+The remaining outer-FD floor is pure O(h^2) truncation (defect ratio 100.0
+per 10x step from `1e-3` to `1e-4`; 90.4 at the `1e-5` rung where float
+roundoff begins to contribute) — a ~six-decade drop from the published
+floor. The preregistered NONSTATIONARY classifier re-passes with exact
+numbers: minimum residual `3.199039136 > 1e-6`, relative spread `1.5e-11`,
+separation `~3.2e12 > 20`. **The kill verdict survives**; the consequences
+drawn above (physical Hessian killed at this background, mode closure not
+run, constructive repair required first) stand on strictly stronger
+evidence, and the "strong local numerical/construction evidence" grade for
+the stationarity gate upgrades to exact-at-the-point (the statement remains
+local to the deterministic W177 point, not a global theorem on Y14).
+
+All 13 re-verdict checks pass:
+
+```text
+python3 -B tests/channel-swings/verify/w177_exact_derivative_reverdict.py
+```
+
+The B5 transport-normalization branch (Section B) is untouched by this
+addendum.

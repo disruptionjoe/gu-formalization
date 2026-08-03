@@ -581,3 +581,91 @@ python3 -B tests/channel-swings/rb7_stationary_nonmetric_order_parameter_probe.p
 ```
 
 No canon, claim-status, or public-posture change is made.
+
+---
+
+## Re-verdict addendum (2026-08-03): exact derivatives supersede the Track-A FD numbers
+
+`claim_status_change: none` — the verdicts are unchanged; the evidence is
+upgraded. Executed under register item M-C2, eleven-lens-audit finding B4
+(2026-08-03), and the P-H29 acceptance rule ("no new interior wave until the
+prior wave's null is certified with exact derivatives"), which the new
+exact-derivative library now implements.
+
+Code:
+
+```text
+tests/lib/exact_gimmel_derivatives.py                          (library + self-test)
+tests/channel-swings/verify/rb7_exact_derivative_reverdict.py  (this re-verdict)
+```
+
+The library replaces every interior finite-difference layer of the Track-A
+pipeline with closed forms (`d_k g = E_k`; `d_k A_i = -A_k A_i`;
+`d_k d_l A_i = A_k A_l A_i + A_l A_k A_i`; third order by the same
+recursion), assembles exact `Gamma`, `dGamma`, `d2Gamma`, Riemann,
+`dRiemann`, Ricci, and `dRicci`, and is verified against this probe's own FD
+at coarse steps with O(step^2) ratio-100 convergence asserts before use.
+
+### What the exact computation shows
+
+1. **The vertical connection-form residual is exactly zero — structural,
+   not merely below a numerical floor.** The fully exact evaluation (zero
+   FD layers anywhere) gives `|vertical| = 1.45e-14` against the full
+   residual norm `3.199039136463136`. The published `0.00361491` (this
+   machine: `0.00355180` — machine-dependent past two digits, as B4 found)
+   was `s^-3` roundoff of the three nested FD layers. Section 2.1's table
+   is superseded: those three "vertical-form residual" values are noise
+   samples of an identically zero quantity.
+2. **The kill verdict SURVIVES and becomes scale-robust.** With exact inner
+   layers and one outer central-FD step `h`, the vertical residual
+   collapses to zero at clean O(h^2) — the ratio-100 table:
+
+   | outer step h | vertical residual | vertical discrepancy | signal/floor | ratio |
+   | ---: | ---: | ---: | ---: | ---: |
+   | 1e-2 | 1.372851e-03 | 1.855072e-03 | 0.7401 | — |
+   | 1e-3 | 1.372752e-05 | 1.854625e-05 | 0.7402 | 100.01 |
+   | 1e-4 | 1.372717e-07 | 1.854762e-07 | 0.7401 | 100.00 |
+
+   The separation is `0.740` at every scale — three decades of step —
+   always below the frozen 1.1 kill line. The published `0.9702446` was a
+   ratio of two noise norms; the kill gate itself was correct.
+3. **Two preregistered Track-A controls asserted properties of the noise
+   and are superseded, exactly as M-C2 predicted.** "Vertical residual is
+   nonzero numerically (>1e-6)" and "vertical residual is scale-unstable
+   (spread > 1)" are both false in the exact pipeline (`1.45e-14`;
+   deterministic O(h^2) line). They were properties of the FD artifact,
+   not of the mathematical object. The frozen probe is left unedited as
+   the historical record.
+4. **The mixed Gram is an exact rational identity, not a fit.**
+
+   \[
+   H_{\rm mix} = \tfrac{9}{32}\,(I + T_{\rm tr})
+   = \tfrac{9}{16}\,P_{\rm traceless}
+   \]
+
+   holds with relative residual `2.2e-15`; the lstsq coefficients equal
+   `9/32` to `1e-12`; the trace commutator is `2.8e-15` (exact, not
+   floor-limited); and `sqrt(2)·|mixed| = |full|` holds to `4e-16`.
+   Section 2.2's fitted `0.28125001 I + 0.28125005 T_tr` with residual
+   `4.13e-7` is superseded by the exact statement. This is a *stronger*
+   form of the same 1+9 nonselector conclusion.
+
+### Grade movement
+
+The frontmatter grade sentence "The W177 residual tensor, mixed Gram, and
+support-incidence counterexample are finite numerical controls" is
+superseded for the first two items: the W177 vertical residual and the
+mixed Gram are now **EXACT** (CONTROLLED LOCAL NUMERICS → EXACT). Track B
+was already exact and is untouched. The Track-A verdict lines become:
+
+```text
+W177 VERTICAL EULER RESPONSE:  KILLED — STRUCTURALLY ZERO (exact), not
+                               merely below a numerical floor
+W177 STABLE MIXED GRAM:        EXACTLY (9/32)(I + T_tr); 1+9 NONSELECTING
+```
+
+All 16 re-verdict checks pass:
+
+```text
+python3 -B tests/channel-swings/verify/rb7_exact_derivative_reverdict.py
+```
