@@ -55,12 +55,18 @@ theorem w2TensorLineRank3_trivial_line (a b c : F2) :
   rw [w2TensorLineRank3_eq_e2_add_l_sq]
   ring_nf
 
-/-- The corrected vertical degree-two contribution cancels over `F_2`. -/
+/-- The corrected vertical degree-two contribution cancels over `F_2`.
+    CONVENTION-ENCODING NOTE (2026-08-03, P-L2): as a Lean statement this is just
+    `b + b = 0` in characteristic 2 — content-free as mathematics; its value is that
+    it ENCODES the sign convention under the physics name listed in the canon block. -/
 theorem vertical_w2_cancels (baseObstruction : F2) :
     baseObstruction + baseObstruction = 0 := by
   exact CharTwo.add_self_eq_zero baseObstruction
 
-/-- Algebraic form of the corrected final assembly: if vertical `w2` is zero, base survives. -/
+/-- Algebraic form of the corrected final assembly: if vertical `w2` is zero, base survives.
+    CONVENTION-ENCODING NOTE (2026-08-03, P-L2): as a Lean statement this is just
+    `0 + b = b` (`zero_add`) — content-free as mathematics; it records the assembly
+    convention under the physics name listed in the canon block. -/
 theorem y14_w2_equals_base_when_vertical_zero (baseObstruction : F2) :
     0 + baseObstruction = baseObstruction := by
   ring

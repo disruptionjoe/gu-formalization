@@ -1,4 +1,15 @@
 #!/usr/bin/env python3
+# =============================================================================
+# HONEST RED (2026-08-03): this cert exits 1 because its printed claim fails
+# when asserted. What failed: mechanism claim (2) — the "equal-and-opposite
+# half shifts" are observed machine-zero on BOTH halves (ratio 0.24, i.e.
+# noise/noise); the sibling cert's docstring already superseded this reading
+# and it was never corrected here. Discrimination claim (1) HOLDS. The exit-1
+# is a finding, not a harness failure: do NOT change the math or the exit
+# behavior.
+# Accounting: lab/process/improvement-register-2026-08-03.md, Revision 2,
+# "P-C3 final accounting" (G4 close-out), honest-RED item 6.
+# =============================================================================
 r"""
 ROBUSTNESS + MECHANISM for the criticality verdict.
 

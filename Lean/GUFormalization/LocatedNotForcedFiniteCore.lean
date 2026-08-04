@@ -216,8 +216,13 @@ and distinct source/target chirality.  No pair satisfies both conditions. -/
 def crossLinearBlockMatches : Finset BlockPair :=
   allBlockPairs.filter fun pair => pair.2 = pair.1 ∧ pair.2 ≠ pair.1
 
-/-- Exact finite Schur-block counts.  These derive `2/2/2/2/0` from the encoded
-two-block matching rules rather than storing those five outputs as independent numerals. -/
+/-- Exact finite Schur-block counts.  The `2/2/2/2/0` outputs are checked by `decide`
+against the encoded two-block matching rules, but this records closure of the
+ENCODING, not five independent derivations: the sesquilinear filter coincides
+definitionally with the bilinear one and the antilinear filter with the linear one,
+and the cross-linear filter is `P ∧ ¬P`, so its `0` is tautological.  (Docstring
+corrected 2026-08-03, P-L5; the data-import disclosure below at
+`GeneratorFamily.basisDimension` was already honest.) -/
 theorem block_match_dimensions :
     linearBlockMatches.card = 2 ∧
     bilinearBlockMatches.card = 2 ∧

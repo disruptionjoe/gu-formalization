@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+# =============================================================================
+# HONEST RED (2026-08-03): this cert exits 1 because its printed claim fails
+# when asserted. What failed: "only su(2)_+ preserves the carrier" is
+# BACKWARDS — the ASD generators preserve it (~6e-15) while all three SD
+# generators leak 0.5; the file's own boolean already printed False against
+# its prose. The exit-1 is a finding, not a harness failure: do NOT change
+# the math or the exit behavior.
+# Accounting: lab/process/improvement-register-2026-08-03.md, Revision 2,
+# "P-C3 final accounting" (G4 close-out), honest-RED item 5.
+# =============================================================================
 r"""
 INDEPENDENT ADVERSARIAL RECOMPUTATION of the frame-triviality structural no-go.
 

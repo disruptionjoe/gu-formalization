@@ -256,8 +256,9 @@ def main():
           f"escape = {escape_op:.4f}")
     print(f"    sigma_trap   : chain-map residual ||Gamma(M_D+s)Pi_RS||    = {resid_trap:.2e}, "
           f"escape = {trap_escape:.2e}")
-    print(f"    sigma_trap also forces ||[Pi_RS, M_D+sigma_trap]|| = {trap_comm:.2e}  "
-          f"(DECOUPLED => DISQUALIFIED)")
+    print(f"    sigma_trap zeroes the ESCAPE BLOCK only (ker Gamma made invariant => acausal "
+          f"=> DISQUALIFIED);")
+    print(f"    it does NOT kill the commutator: ||[Pi_RS, M_D+sigma_trap]|| = {trap_comm:.2e}")
     print("    => ANY compensator closing the EQUIVARIANT complex IS the trap; ours")
     print("       deforms the CONSTRAINT surface instead and never touches M_D.")
 

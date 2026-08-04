@@ -24,9 +24,15 @@ def sigmaK3 : Int := -16
 
 def p1K3 : Int := -48
 
+/-- NUMERAL-CHECK NOTE (2026-08-03, P-L3): despite the general-relation name, this
+    checks only `2 = -(-16)/8` on the stored K3 control values above; it does not
+    derive the Â-genus/signature relation. -/
 theorem ahat_from_signature : ahatK3 = -sigmaK3 / 8 := by
   norm_num [ahatK3, sigmaK3]
 
+/-- NUMERAL-CHECK NOTE (2026-08-03, P-L3): despite the general-relation name, this
+    checks only `-48 = 3 * (-16)` on the stored K3 control values above; it does not
+    derive the `p1 = 3 sigma` relation. -/
 theorem p1_from_signature : p1K3 = 3 * sigmaK3 := by
   norm_num [p1K3, sigmaK3]
 

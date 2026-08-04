@@ -572,7 +572,7 @@ STABLE ORBIT, OR DOES THE CARTAN SUPPORT STILL REQUIRE EXTERNAL STRUCTURE?
 
 ## Validation
 
-The executable passes all 29 preregistered tensor, floor, frame, stationary,
+The executable passes all 30 preregistered tensor, floor, frame, stationary,
 anisotropy, Hessian, Gram, polar, trace-reversal, incidence, and surplus
 controls:
 

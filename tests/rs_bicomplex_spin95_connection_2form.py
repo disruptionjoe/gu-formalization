@@ -353,8 +353,8 @@ def main():
     print("\n(C) ANTI-TRAP (M_D never modified):")
     print(f"   bare ||[Pi_RS,M_D]||              = {bare_after:.4f}   "
           f"(MUST be 58.72: {abs(bare_after-bare_comm)<1e-9}; RS coupled, VZ evaded)")
-    print(f"   EXCLUDED trap ||[Pi_RS,M_D+s_trap]|| = {trap_comm:.2e}  "
-          f"(acausal decoupling -> DISQUALIFIED)")
+    print(f"   EXCLUDED trap zeroes the ESCAPE BLOCK (ker Gamma made invariant -> acausal -> "
+          f"DISQUALIFIED); commutator NOT killed: ||[Pi_RS,M_D+s_trap]|| = {trap_comm:.2e}")
 
     # === (D) GENUINE-GEOMETRIC-OBJECT discriminators ==========================
     # (i) xi-independence: sigma_c(W) does not read xi

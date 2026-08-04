@@ -99,7 +99,7 @@ def main():
     iso_dev = np.linalg.norm(Oh.conj().T @ Oh - np.eye(d)) / d
     unit_full = np.linalg.norm(Oh_full.conj().T @ Oh_full - np.eye(N * DIM)) / (N * DIM)
     print(f"[B] Oh^dag Oh = I on carrier? rel dev = {iso_dev:.4f}  "
-          f"(full-space rel dev {unit_full:.4f}) => Oh is {'ISOMETRIC' if iso_dev<1e-6 else 'NOT isometric (rank-deficient projector-like): OUTSIDE the index theorem class'}")
+          f"(full-space rel dev {unit_full:.4f}) => Oh is {'ISOMETRIC' if iso_dev<1e-6 else 'NOT isometric (though FULL RANK per the rank line below -- NOT a rank-deficient projector): OUTSIDE the index theorem class'}")
     rk = np.linalg.matrix_rank(Oh, tol=1e-8)
     print(f"    rank(Oh on carrier) = {rk} of {d}")
     check("Oh is NOT Krein-isometric (rel dev > 1e-6): OUTSIDE the linear index-theorem class",

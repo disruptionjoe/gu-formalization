@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+# =============================================================================
+# HONEST RED (2026-08-03): this cert exits 1 because its printed claims fail
+# when asserted. What failed (4 claims): (i) Noether residual 8.08e-2, not ~0;
+# (ii) s^2 anticommutator 2.61e3 under a random-holonomy connection with
+# ||M_KT|| ~ 2.4e9; (iii) KT-exactness residual 1.67e-5, above tolerance;
+# (iv) the non-equivariance probe is vacuous. The exit-1 is a finding, not a
+# harness failure: do NOT change the math or the exit behavior.
+# Accounting: lab/process/improvement-register-2026-08-03.md, Revision 2,
+# "P-C3 final accounting" (G4 close-out), honest-RED item 3.
+# =============================================================================
 """CLIMACTIC GATE (2026-06-27): drive the RS closure obstruction with a
 SOURCE-DERIVED CARRIER (a genuine Spin(9,5)-CONNECTION 2-FORM) + the FULL BV
 BICOMPLEX (Koszul-Tate leg s_KT + longitudinal/ghost leg s_long).
@@ -417,8 +427,8 @@ def main():
     print("=" * 80)
     print(f"    bare ||[Pi_RS, M_D]|| (M_D NEVER modified)      = {comm_after:.4f} "
           f"(STILL 58.72: RS coupled, VZ evaded)")
-    print(f"    disqualified trap ||[Pi_RS, M_D+sigma_trap]||   = {trap_comm:.2e} "
-          f"(decoupled => acausal => excluded)")
+    print(f"    disqualified trap zeroes the ESCAPE BLOCK (ker Gamma made invariant => acausal "
+          f"=> excluded); commutator NOT killed: ||[Pi_RS, M_D+sigma_trap]|| = {trap_comm:.2e}")
 
     # === VERDICT ===============================================================
     print("\n" + "=" * 80)

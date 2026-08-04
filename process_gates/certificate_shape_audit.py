@@ -58,6 +58,7 @@ LIBRARY_IMPORTER_THRESHOLD = 3
 LIBRARY_ALLOWLIST = frozenset({
     "tests/ahat_genus_y14_i16.py",
     "tests/channel-swings/actual_sym2_c14_orbit_probe.py",
+    "tests/channel-swings/full20_dewitt_loop_transport_probe.py",
     "tests/channel-swings/unified_source_datum_packet_v0_probe.py",
     "tests/channel-swings/uniformity_execution_probe.py",
     "tests/channel-swings/w177_ym_residual_and_mode_closure_probe.py",

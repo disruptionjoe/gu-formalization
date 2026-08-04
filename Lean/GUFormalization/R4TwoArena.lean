@@ -80,9 +80,12 @@ theorem neg_flips_chirality {r : ℕ} (hr : Odd r) (w : Weight r)
   rw [Nat.odd_iff] at hr
   omega
 
-/-- **Leg A, exact combinatorial obstruction.**  For `Spin(2r)` with `r` odd,
-    NO even-chirality weight `w` has an even-chirality negative — the zero-weight
-    count inside `S⁺ ⊗ S⁺` is `0`, hence `dim Hom(S⁺ ⊗ S⁺, Λ⁰) = 0`. -/
+/-- **Leg A, exact combinatorial obstruction (weight-parity core).**  For `Spin(2r)`
+    with `r` odd, NO even-chirality weight `w` has an even-chirality negative — the
+    same-chirality zero-weight count is `0`.  SCOPE NOTE (2026-08-03, P-L4): the
+    further step "hence `dim Hom(S⁺ ⊗ S⁺, Λ⁰) = 0`" is the standard weight-space
+    consequence described in the module docstring; it is NOT contained in this Lean
+    statement, which proves the weight-parity fact only. -/
 theorem no_same_chirality_zero_weight {r : ℕ} (hr : Odd r) :
     ∀ w : Weight r, Even (minusCount w) → ¬ Even (minusCount (neg w)) := by
   intro w hw
@@ -111,7 +114,9 @@ theorem spin14_r7_odd : Odd (7 : ℕ) := by decide
 theorem so10_r5_odd : Odd (5 : ℕ) := by decide
 
 /-- Instantiated statement for `r = 7` (Spin(9,5)): the same-chirality zero-weight
-    count vanishes. -/
+    count vanishes.  NAME NOTE (2026-08-03, P-L4): despite the `hom_vanishing` name,
+    the statement is the weight-parity core only; the `Hom`-vanishing reading is the
+    standard consequence, not formalized here. -/
 theorem spin95_hom_vanishing_weight_core :
     ∀ w : Weight 7, Even (minusCount w) → ¬ Even (minusCount (neg w)) :=
   no_same_chirality_zero_weight spin14_r7_odd

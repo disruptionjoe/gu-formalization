@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+# =============================================================================
+# HONEST RED (2026-08-03): this cert exits 1 because its printed claim fails
+# when asserted. What failed: the claimed "48/48/48/48 vectorlike quadrant
+# base" is observed as (0,0,0,0), and ||[Kr,Gc]|| = 28 != 0 — so the joint
+# diagonalization behind the 48-count is invalid. The other 7 checks pass.
+# The exit-1 is a finding, not a harness failure: do NOT change the math or
+# the exit behavior.
+# Accounting: lab/process/improvement-register-2026-08-03.md, Revision 2,
+# "P-C3 final accounting" (G4 close-out), honest-RED item 4.
+# =============================================================================
 r"""
 NON-GU Clifford-RS source action: genuinely TRY to force a nonzero chiral generation count.
 

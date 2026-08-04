@@ -35,6 +35,8 @@ formal_certificate:
   certified_theorems:
     - w2Sym2Rank3_eq_e1_sq_add_e2
     - w2TensorLineRank3_eq_e2_add_l_sq
+    # P-L2 annotation (2026-08-03): the next two rows are convention-encoding, not
+    # mathematical content (`b+b=0` in char 2; `0+b=b`); see their Lean docstrings.
     - vertical_w2_cancels
     - y14_w2_equals_base_when_vertical_zero
   scope: algebraic_F2_splitting_principle_polynomial_identities_only

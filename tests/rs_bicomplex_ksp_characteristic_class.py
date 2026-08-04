@@ -358,7 +358,8 @@ def main():
     print("\n(7) ANTI-TRAP (M_D NEVER modified):")
     print(f"    bare ||[Pi_RS, M_D]||        = {comm_after:.4f}  (MUST be 58.7215; "
           f"RS coupled, VZ evaded: {comm_after > 1e-6})")
-    print(f"    DISQUALIFIED trap would give = {trap_comm:.2e}  (decoupled => acausal)")
+    print(f"    DISQUALIFIED trap zeroes the ESCAPE BLOCK (ker Gamma made invariant => acausal); "
+          f"commutator NOT killed: ||[Pi_RS, M_D+sigma_trap]|| = {trap_comm:.2e}")
 
     # === (8) NON-EQUIVARIANCE of the carrier W =================================
     print("\n(8) NON-EQUIVARIANCE of carrier W:")

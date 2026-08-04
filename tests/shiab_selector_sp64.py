@@ -1,4 +1,13 @@
 #!/usr/bin/env python3
+# =============================================================================
+# HONEST RED (2026-08-03): this cert exits 1 because its printed claim fails
+# when asserted. What failed: the "NOT Sp(64)-equivariant" verdict rests on an
+# identically-zero witness (the non-equivariance probe evaluates to 0, so the
+# claimed discrimination never actually fires). The exit-1 is a finding, not a
+# harness failure: do NOT change the math or the exit behavior.
+# Accounting: lab/process/improvement-register-2026-08-03.md, Revision 2,
+# "P-C3 final accounting" (G4 close-out), honest-RED item 2.
+# =============================================================================
 """SELECTOR TEST: Sp(64) / right-H (quaternionic) gauge-equivariance on the shiab family.
 
 CONTEXT (SHIAB-03)

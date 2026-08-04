@@ -173,7 +173,10 @@ def main():
     bv_factor = fro(escape - Pi_perp_id @ M_eff @ Pi_RS)
     print(f"    [BV antifield] ||Pi_perp - Gamma^dag(GG^dag)^-1 Gamma|| = {taut:.2e} (identity)")
     print(f"       => antighost 'exactness' ||escape - Gamma^dag(..)Gamma M_eff Pi_RS|| = "
-          f"{bv_factor:.2e}  (structurally forced, NOT content)")
+          f"{bv_factor:.2e}")
+    print(f"       LABEL NOTE (2026-08-03): this number is computed with M_eff = M_D + sigma_c,")
+    print(f"       NOT M_D. Only the M_D version is the structural tautology (the Pi_perp identity")
+    print(f"       above); with M_eff the smallness also folds in sigma_c's escape cancellation.")
     #  the REAL test: closing the nilpotent BV differential WITH the dynamics
     #  (master-equation / antibracket round-trip).
     master = fro(Pi_RS @ M_eff @ Pi_perp @ M_eff @ Pi_RS)

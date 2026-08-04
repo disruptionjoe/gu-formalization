@@ -79,7 +79,10 @@ def H2_lcdm(a):
 # NO DESI anywhere in this block.
 # ===========================================================================
 def _rk4_kg(Ngrid, H2, H2_mid, HpoH, HpoH_mid, M2, B0, BN0):
-    """Deterministic fixed-step RK4 for the linear KG field on the grid Ngrid.
+    """Deterministic fixed-step RK4-form integrator for the linear KG field on the grid Ngrid.
+    LABEL NOTE (2026-08-03, P-L11): the midpoint background values are linear
+    np.interp of the current iterate (see solve_backreacted), so the scheme is
+    globally ~2nd order, not classical 4th; empirically benign here (~1.2e-5).
     Background H^2 and H'/H are supplied on the grid AND at midpoints (precomputed
     once per fixed-point iteration), so the inner loop has NO interpolation calls.
     y = (B, B'),  B'' = -(3 + H'/H) B' - (M^2/H^2) B."""
@@ -123,7 +126,8 @@ def solve_backreacted(M2, f0, z_start=Z_START, npts=1400, n_iter=60, tol=1e-12):
     field from the slow-roll IC B=1 at z_start; rescale its density so rho_theta(0)
     hits OL f0/(1+f0); rebuild H^2 = Om a^-3 + rho_L + rho_theta; repeat.  Because KG
     is linear in B the rescaling A is exact and the map is a contraction (rho_theta is
-    a modest fraction of H^2), so it converges geometrically.  Deterministic RK4.
+    a modest fraction of H^2), so it converges geometrically.  Deterministic RK4-form
+    stepper (globally ~2nd order via np.interp midpoints; see _rk4_kg docstring).
     """
     rho_L = OL / (1.0 + f0)
     rho_theta0 = OL * f0 / (1.0 + f0)

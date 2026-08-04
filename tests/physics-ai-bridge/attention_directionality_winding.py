@@ -1,3 +1,11 @@
+# =============================================================================
+# HONEST RED (2026-08-03): this cert exits 1 because its printed claim fails
+# when asserted. What failed: prediction (1) — the SYMMETRIC (bidirectional)
+# kernel does NOT have winding 0; the computed winding is -2. The exit-1 is a
+# finding, not a harness failure: do NOT change the math or the exit behavior.
+# Accounting: lab/process/improvement-register-2026-08-03.md, Revision 2,
+# "P-C3 final accounting" (G4 close-out), honest-RED item 1.
+# =============================================================================
 """Physics<->AI bridge: is directionality in attention a topological (Nielsen-Ninomiya) invariant?
 
 Thesis (dual-use, honest test): read an attention relative-position kernel a(d) as a 1D lattice
