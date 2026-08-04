@@ -964,3 +964,45 @@ character, the datum's natural home is a TIME-ORIENTATION OF THE
 LORENTZIAN BASE, not a boundary framing — never asked in that form.
 Scope caveat: the loop lives in the metric fibre F; transfer to L^13 is
 hostage to M-H7 gaps O2/O3 (the framing negative is robust either way).
+
+**TIME-ORIENTATION HOME (2026-08-04) — the DC-H1 follow-on, and the
+strongest external-datum result of the campaign.** CARRIER: the datum is a
+time-orientation of the tautological timelike LINE of X^4 — not of F, not
+of Y^14. Exact and Clifford-free at its core: the DeWitt loop is a path of
+Lorentzian metrics on ONE fixed tangent space with h_1 = h_0 but
+v_1 = -v_0 — the SAME metric returned with future and past cones
+EXCHANGED. On the Clifford side chi factors over the fourteen gimmel legs
+as chi = chi_base * chi_fibre with chi_fibre == +1 EXHAUSTIVELY over
+O(3,1) (all four pi_0 components), for an exhibited reason: the only
+flippable fibre legs are the three purely spatial off-diagonals, flipping
+in count k(3-k) in {0,2,2,0}, always even — specific to THREE spatial
+dimensions. STRUCTURAL CONSEQUENCE: the nontriviality is FIBREWISE (the
+loop lies inside one fibre), so the class is NOT in the image of
+H^1(X^4;Z/2) -> H^1(Y^14;Z/2), and **the tautological Lorentzian
+structure on the observerse is NEVER time-orientable, for any X^4**.
+FIXED-VS-PRESUPPOSED: all seven candidates PRESUPPOSE, none FIXES, under a
+rule fixed before classification (W166's mode and the Friedmann first
+equation are exactly T-EVEN — T exchanges growing and decaying branches,
+so "N grows" names a branch, not a direction; record accretion and the
+causal-order route are T-odd only by importing the past cone; the
+indefinite-base requirement supplies O(3,1)'s four components, not the
+orthochronous reduction, so it is the datum's PRECONDITION not its
+supplier). A synthetic control classifies FIXES, so the empty result is
+not vacuous. Independent of the candidate audit, a BASE-SIDE NO-GO closes
+it: a base-side supply has the wrong shape to cancel a fibrewise
+obstruction. LEDGER: unchanged in count, relocated and better typed — D1
+is w_1 of the orientation cover of the timelike line over the metric
+fibre; not a value, not a framing holonomy. BY-PRODUCTS: DC-H1's asserted
+fibre signature (6,4) is now DERIVED (exact orthogonality, exact norms,
+lambda > 1/4); a fourth homonym excluded (the induced 14-frame return has
+det +1, so this is NOT Y^14's spacetime-orientation class). NEW LAYER-0
+PAYLOAD: three pairwise-distinct characters — sigma_J(J_obs) = det
+(spacetime orientation), sigma_K(K_S) = det*orth (space orientation, =
+the spatial 3x3 determinant), chi(C_perp) = orth (time orientation), with
+chi = sigma_K * sigma_J. CHEAPEST REOPENER, possible existing Layer-0
+error: does CH-REC's eps attach to the LINEAR Krein involution or the
+ANTILINEAR coflip? If the former, "the arrow is eps" welds the arrow to
+the SPACE-orientation character and is wrong. JOINT ITEM: identifying this
+Z/2 with TaF's finality direction needs a TaF-side statement of what that
+direction is a direction OF; GU can now hand over three candidate
+characters and an exhaustive pi_0 table to test against.
