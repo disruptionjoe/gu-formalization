@@ -7,6 +7,26 @@ updated_at: "2026-08-04"
 
 # Next Steps For Contributors
 
+> **2026-08-04 PW2F-R2B2B2H4 PUBLIC-SOURCE REAL-FORM PORT EXITS
+> EVIDENCE SCOPE; SEPARATE CONDITIONAL-ACTIVE C4 BANKS NEXT.** Exact inertia
+> and reality checks obstruct a literal source-directed `(7,7)` to active `(9,5)` real
+> identification: the real Clifford carriers are `M(128,R)` versus
+> `M(64,H)`, the minimal real modules have dimensions 128 versus 256, and
+> every real intertwiner between square-`+1` and square-`-1` realities is
+> zero. Both sides still share the `M(128,C)` complex container, but that is
+> not a real/right-H bundle port.
+>
+> PW1's surviving two-stage moving-J construction remains open. The pinned
+> public-source packet supplies none of the global transition, classifying,
+> odd-Chern, `P_H`-to-`P_nat`, Spin/DeWitt/Clifford/soldering, or descent data
+> required to evaluate it. H4 therefore earns a source-attribution
+> `EVIDENCE_SCOPE_EXIT`, not a global nonexistence theorem. Resume at
+> `PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ`;
+> build both banks separately and do not call either source-derived.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h4-source-active-real-form-scope-exit-2026-08-04.md`.
+
 > **2026-08-04 PW2F-R2B2B2H3 CONDITIONAL LOCAL SOURCE-EPSILON
 > CONNECTION/CURVATURE/OPERATOR ORBIT CLOSED; GLOBAL REAL-FORM PORT NEXT.**
 > An independent exact noncommuting connection fixture proves

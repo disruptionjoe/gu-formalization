@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT",
+  "status": "PUBLIC_SOURCE_TO_ACTIVE_REAL_FORM_PORT_EVIDENCE_SCOPE_EXIT__INDEPENDENT_MOVING_J_PORT_OPEN__SEPARATE_CONDITIONAL_ACTIVE_BANKS_ADMITTED",
+  "run_id": "RUN-20260804-092420-gu-formalization-pw2fr2b2b2h4-source-active-scope-exit",
+  "verdict_scope": "the pinned public-source packet, PW1 two-stage reverse-port contract, H3 local epsilon-orbit closure, and exact finite real-form/reality/Clifford obstruction fixtures",
+  "source_disposition": {
+    "SOURCE_CONFIRMS": "epsilon/connection-difference grammar, mixed-sign complex notation, and a real-form fork requiring construction",
+    "SOURCE_SILENT": "global U-to-Sp reduction, transition/classifying data, odd Chern screens, P_H-to-P_nat identification, active Spin/DeWitt/Clifford/soldering descent, and both complete quartic banks",
+    "REPOSITORY_DERIVES": "literal real-form obstruction, moving-J two-stage conditional interface, exact evidence-scope decision, and conditional-active downstream admission boundary"
+  },
+  "layer0": {
+    "literal_source_directed_7_7_comparator": "REAL_METRIC_AND_CL77_REALITY_PRESENTATION_RETAINED_AS_CURT_RIVAL_TRACK",
+    "public_complex_source_container": "MIXED_SIGN_U64_64_COMMON_COMPLEX_CONTAINER",
+    "moving_J_reduction": "POSSIBLE_SP32_32H_REDUCTION_REQUIRING_GLOBAL_SECTION_AND_TOPOLOGY",
+    "active_native_bundle": "SPIN9_5_RIGHT_H_KREIN_DEWITT_CLIFFORD_SOLDERED_P_NAT",
+    "complexification_vs_real_port": "SAME_M128C_CONTAINER__NOT_A_REAL_RIGHT_H_IDENTIFICATION",
+    "source_scope_exit_vs_nonexistence": "EVIDENCE_SCOPE_EXIT__GLOBAL_EXISTENCE_NOT_DECIDED"
+  },
+  "exact_real_form_certificate": {
+    "source_inertia": [7, 7],
+    "active_inertia": [9, 5],
+    "real_metric_isometry": "OBSTRUCTED_BY_SYLVESTER_INERTIA",
+    "source_reality_square": "+1",
+    "active_quaternionic_reality_square": "-1",
+    "real_reality_intertwiner": "ZERO_ONLY",
+    "Cl77": "M128R",
+    "Cl95": "M64H",
+    "minimal_real_module_dimensions": [128, 256],
+    "common_complexification": "M128C",
+    "dim_U64_64": 16384,
+    "dim_Sp32_32H": 8256,
+    "moving_J_coset_dimension": 8128
+  },
+  "global_port_obligations": {
+    "stage_one": "global section J of P_src times_G G/H plus actual source transition/classifying data and necessary odd-Chern screens",
+    "stage_two": "H-bundle isomorphism P_H to P_nat preserving Spin9_5 reduction, trace-reversed DeWitt Clifford representation, soldering, and transition class",
+    "published_source_evaluability": "NOT_EVALUABLE__REQUIRED_GLOBAL_DATA_NOT_SUPPLIED_IN_PINNED_SOURCE_PACKET",
+    "independent_native_status": "RECONSTRUCTION_OPEN_NOT_DISPROVED",
+    "global_nonexistence": "NOT_CLAIMED"
+  },
+  "admission": {
+    "source_attributed_global_real_form_port": "EVIDENCE_SCOPE_EXIT",
+    "literal_7_7_to_9_5_real_identification": "EXACTLY_OBSTRUCTED",
+    "independent_moving_J_native_port": "OPEN_REPOSITORY_CONSTRUCTION",
+    "complete_I1_A4": "ELIGIBLE_NEXT_AS_SEPARATE_CONDITIONAL_ACTIVE_BANK__NOT_ASSEMBLED",
+    "complete_I2B_C4": "ELIGIBLE_NEXT_AS_SEPARATE_CONDITIONAL_ACTIVE_BANK__NOT_ASSEMBLED",
+    "bank_identity": "FORBIDDEN__DISTINCT_ACTION_OBJECTS",
+    "source_derived_bank_claim": "FORBIDDEN",
+    "multiindex_Green_Helmholtz": "BLOCKED_UNTIL_BANK_ASSEMBLY",
+    "projective_kappa1": "NOT_RUN"
+  },
+  "planted_controls": {
+    "literal_real_isometry": "REJECTED",
+    "nonzero_plus_to_minus_reality_intertwiner": "REJECTED",
+    "complexification_as_real_equivalence": "REJECTED",
+    "absent_global_data_as_passed_reduction": "REJECTED",
+    "source_scope_exit_as_global_nonexistence": "REJECTED",
+    "merged_or_source_derived_C4_banks": "REJECTED",
+    "Curt_or_third_lane_promotion": "REJECTED"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2h4_source_active_real_form_scope_exit_probe.py",
+    "exploration": "explorations/pw2fr2b2b2h4-source-active-real-form-scope-exit-2026-08-04.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-04-pw2fr2b2b2h4-review.md",
+    "main": "10_EXACT_PLUS_3_SOURCE_PLUS_12_TYPE_PLUS_7_PLANTED_EQUALS_32_PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ"
+}

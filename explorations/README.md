@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2H4 source-to-active real-form port evidence-scope exit`](pw2fr2b2b2h4-source-active-real-form-scope-exit-2026-08-04.md)
+  proves the literal source-directed `(7,7)` and active `(9,5)` real carriers cannot be
+  directly identified: inertia differs, square-`+1` to square-`-1` reality
+  intertwiners are zero, and the real Clifford modules differ despite their
+  shared `M(128,C)` complexification. The published source supplies no global
+  data needed to evaluate PW1's surviving two-stage moving-J reduction, so
+  source attribution exits evidence scope while independent construction
+  stays open. Separate conditional-active `I1 A4` and `I2B C4` banks are now
+  eligible but not assembled. P1/P2/P3 remain unused; Curt and the third-lane
+  gate are unchanged.
 - [`PW2F-R2B2B2H3 conditional source-epsilon curvature-orbit graph`](pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-2026-08-04.md)
   proves exact connection-level curvature conjugacy through a live mixed
   source-coordinate slot, with a four-entry defect when the Maurer--Cartan

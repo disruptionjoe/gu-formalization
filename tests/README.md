@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2h4_source_active_real_form_scope_exit_probe.py`
+  verifies the exact `(7,7)` versus `(9,5)` inertia, real-reality,
+  Clifford-module, common-complexification, and group/coset boundaries, then
+  audits the pinned source/PW1/H3 records for the two-stage global port data.
+  It earns a source-attribution evidence-scope exit while keeping the
+  independent moving-J construction open and admitting only separate
+  conditional-active C4 banks downstream. Run it with
+  `uv run --with sympy==1.14.0 python`.
 - `channel-swings/pw2fr2b2b2h3_source_epsilon_curvature_orbit_graph_probe.py`
   verifies exact connection-level gauge curvature through a live mixed source
   slot, rejects omission of `epsilon^-1 d epsilon`, and constructs the formal

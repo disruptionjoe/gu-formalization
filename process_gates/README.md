@@ -104,6 +104,7 @@ selected notes below and in each script header.
 - `pw2fr2b2b2h_mixed_shiab_second_jet_scope_audit.py`
 - `pw2fr2b2b2h2_i2b_second_residual_primalizer_pairing_scope_audit.py`
 - `pw2fr2b2b2h3_source_epsilon_curvature_orbit_graph_scope_audit.py`
+- `pw2fr2b2b2h4_source_active_real_form_scope_exit_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`

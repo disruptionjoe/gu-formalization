@@ -4,14 +4,14 @@
   "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED_PW2FR2B2B2_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2H3-SOURCE-EPSILON-CURVATURE-ORBIT-GRAPH",
-    "status": "CONDITIONAL_ACTIVE_LOCAL_SOURCE_EPSILON_CONNECTION_CURVATURE_OPERATOR_ORBIT_GRAPH_CLOSED__GLOBAL_REAL_FORM_BUNDLE_MORPHISM_OPEN",
-    "earned": "exact connection-level curvature conjugacy and four-entry Maurer-Cartan omission defect; active Spin(9,5) curvature jet (360,132,121,121), explicit moved-operator/transport agreement, residual jet (13,2,2,2), invariant norm jet (981/64,0,0,0), and six hostile plants",
-    "scope": "one exact noncommuting source-coordinate connection fixture plus one formal two-direction conditional active Spin(9,5) orbit; local curvature/operator orbit closed only; global public-source-to-active real-form bundle morphism/descent atlas, complete I1 A4 and I2B C4 banks, multi-index Green/Helmholtz, kappa1 classification, and physics remain open",
+    "gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT",
+    "status": "PUBLIC_SOURCE_TO_ACTIVE_REAL_FORM_PORT_EVIDENCE_SCOPE_EXIT__INDEPENDENT_MOVING_J_PORT_OPEN__SEPARATE_CONDITIONAL_ACTIVE_BANKS_ADMITTED",
+    "earned": "literal (7,7)/(9,5) inertia obstruction, zero-only incompatible-reality intertwiner, inequivalent real Clifford modules with common complexification retained, and exact source-silence audit for the PW1 global two-stage port obligations",
+    "scope": "public-source attribution exits evidence scope without claiming global nonexistence; independent moving-J reduction remains open; separate conditional-active I1 A4 and I2B C4 banks are admitted next but not assembled",
     "external_datum": "P1/P2/P3 unchanged and unused",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ"
   },
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -72,14 +72,16 @@
       "PW2F-R2B2B2F frozen-Shiab raw-density transgression comparator with exact rows (3/40,-8/25) and (-9/50,0), projective rank two, and explicit hostile-review demotion from density to Euler-operator status",
       "PW2F-R2B2B2G exact normalized-trace transport with six full-metric moving-Phi first-slot matches, preserved negative-unit norm, five live Zorro-horizontal corrections, three live mixed trace slots, and a fail-closed full-C4 admission blocker",
       "PW2F-R2B2B2H exact bivariate trace/Phi/Hodge/Shiab operator jet with 196 Clifford relations, both first-order API matches, Hodge square, owner swap, curvature linearity, two omission plants, and 515 live mixed coordinates",
-      "PW2F-R2B2B2H2 exact active 13-coordinate residual and moving Hodge primalizer/pairing second jet with base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, complete five-family reassembly, and three live routes"
+      "PW2F-R2B2B2H2 exact active 13-coordinate residual and moving Hodge primalizer/pairing second jet with base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, complete five-family reassembly, and three live routes",
+      "PW2F-R2B2B2H3 exact conditional local source-epsilon connection/curvature/operator orbit closure with live mixed Maurer-Cartan omission control, active curvature jet (360,132,121,121), residual jet (13,2,2,2), and invariant norm (981/64,0,0,0)",
+      "PW2F-R2B2B2H4 exact literal real-form obstruction plus public-source port evidence-scope exit, retaining the independent moving-J construction and admitting only separate conditional-active C4 banks"
     ],
     "open": [
-      "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
-      "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
+      "independent repository moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14 beyond the closed source-attribution scope",
+      "global co-moving descent, tame nonlinear source inverse, off-identity dexp resonance, and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
-      "global source-to-active epsilon/real-form port, full source tangent, vertical/mixed conormals, partial-Z1 and section tangents",
-      "global/source-epsilon curvature graph before separate I1/I2B C4 banks, Green/Helmholtz Euler reduction, projective classification, and the live C3 return",
+      "full source tangent, vertical/mixed conormals, partial-Z1 and section tangents beyond the scoped active port",
+      "separate conditional-active I1 A4 and I2B C4 banks before Green/Helmholtz Euler reduction, projective classification, and the live C3 return",
       "complete lower C2 active-native metric Euler coefficient with every total-to-base metric owner, formal-adjoint Green return, kernel, and quotient rank",
       "actual action-derived Euler covector descent beyond the earned active coefficient and grade-two representation-covector laws",
       "higher native action jets determining whether the quadratic Delta-only degeneracy persists; D3G remains unconstructed and unearned pending the complete top-order sum",
@@ -87,13 +89,12 @@
       "action-derived BV tangent differential and physical quotient",
       "functional observed Euler pushdown and no-leakage theorem",
       "closed physical Krein or boundary domain",
-      "PW2F-R2B2B2H3 exact conditional local source-epsilon connection/curvature/operator orbit closure with live mixed Maurer-Cartan omission control, active curvature jet (360,132,121,121), residual jet (13,2,2,2), invariant norm (981/64,0,0,0), and global source-to-active real-form morphism retained as the exact blocker",
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B2B2H3",
-    "guided_next": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS",
-    "alternative_next": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
+    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B2B2H4",
+    "guided_next": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ",
+    "alternative_next": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",
@@ -1210,8 +1211,8 @@
   ],
   "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
   "nonclaims": [
-    "PW1, PW2, PW2A, PW2B, PW2C, PW2D, PW2E, PW2F, scoped PW2F-R, PW2F-R2A, PW2F-R2B1, and the partial PW2F-R2B2A comparator were executed; PW2F-R2B2B is next and PW3 plus all later waves remain unexecuted.",
-    "No global source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
+    "PW1 through the scoped PW2F-R2B2B2H4 successor chain were executed; separate conditional-active I1 A4 and I2B C4 banks are next; PW3 plus all later waves remain unexecuted.",
+    "No global moving-J source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed; H4 is a source-attribution evidence-scope exit, not global nonexistence.",
     "No third lane was promoted.",
     "No scientific-status, canon, or public-posture change was made."
   ]

@@ -6,14 +6,14 @@
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2H3-SOURCE-EPSILON-CURVATURE-ORBIT-GRAPH",
-    "status": "CONDITIONAL_ACTIVE_LOCAL_SOURCE_EPSILON_CONNECTION_CURVATURE_OPERATOR_ORBIT_GRAPH_CLOSED__GLOBAL_REAL_FORM_BUNDLE_MORPHISM_OPEN",
-    "earned": "exact connection-level curvature conjugacy through one live four-entry mixed source slot; four-entry omitted-Maurer-Cartan defect; noncommuting active Spin(9,5) curvature jet coordinates (360,132,121,121); explicit moved trace/Phi/Hodge/projector/Shiab graph equals transport with residual coordinates (13,2,2,2); co-moving residual norm jet (981/64,0,0,0); six hostile plants reject",
-    "scope": "one exact matrix source-coordinate fixture and one formal two-direction conditional active Spin(9,5) orbit on the accepted reconstructed curvature/operator/residual port; closes only the local conditional connection/curvature/operator orbit through mixed order; the global public-source-to-active real-form bundle morphism/descent atlas, complete I1 A4 and I2B C4 banks, multi-index Green/Helmholtz, live C3, projective kappa1, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
+    "gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT",
+    "status": "PUBLIC_SOURCE_TO_ACTIVE_REAL_FORM_PORT_EVIDENCE_SCOPE_EXIT__INDEPENDENT_MOVING_J_PORT_OPEN__SEPARATE_CONDITIONAL_ACTIVE_BANKS_ADMITTED",
+    "earned": "literal (7,7) versus active (9,5) inertia obstruction; zero-only real intertwiner between square-plus-one and square-minus-one realities; M128R versus M64H real-module non-equivalence with common M128C complex container retained; pinned source lacks the global transition/classifying/reduction/active-identification data required by PW1; seven hostile plants reject",
+    "scope": "the exact literal real-form identification is obstructed and the public-source-attributed global port exits evidence scope; this is not a global nonexistence theorem, the independent moving-J H-reduction and P_H-to-P_nat construction remain open, and complete I1 A4 and I2B C4 banks are only admitted next as separate conditional-active objects",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ"
   },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
@@ -796,6 +796,16 @@
           "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
           "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
           "next_gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
+        },
+        "post_b2c15r3_pw2fr2b2b2h4": {
+          "status": "PUBLIC_SOURCE_TO_ACTIVE_REAL_FORM_PORT_EVIDENCE_SCOPE_EXIT__INDEPENDENT_MOVING_J_PORT_OPEN__SEPARATE_CONDITIONAL_ACTIVE_BANKS_ADMITTED",
+          "result": "LITERAL_7_7_VERSUS_ACTIVE_9_5_INERTIA_OBSTRUCTION__REALITY_PLUS1_TO_MINUS1_INTERTWINER_ZERO_ONLY__CL77_M128R_MODULE128_VERSUS_CL95_M64H_MODULE256__COMMON_M128C_NOT_REAL_PORT__U64_64_DIM16384_SP32_32H_DIM8256_COSET8128__SOURCE_GLOBAL_TRANSITION_CLASSIFYING_CHERN_PH_TO_PNAT_SPIN_DEWITT_CLIFFORD_SOLDERING_DESCENT_DATA_NOT_SUPPLIED__SOURCE_ATTRIBUTION_SCOPE_EXIT__INDEPENDENT_MOVING_J_CONSTRUCTION_OPEN__SEPARATE_CONDITIONAL_ACTIVE_BANKS_ADMITTED_NOT_ASSEMBLED",
+          "source_disposition": "SOURCE_CONFIRMS_REAL_FORM_FORK_AND_MAP_MUST_BE_CONSTRUCTED__SOURCE_SILENT_ON_GLOBAL_REDUCTION_AND_ACTIVE_IDENTIFICATION_DATA__REPOSITORY_DERIVES_LITERAL_OBSTRUCTION_TWO_STAGE_CONSTRUCTION_BOUNDARY_AND_SCOPE_EXIT__GLOBAL_NONEXISTENCE_NOT_CLAIMED",
+          "exact_tools": "MAIN32_PASS__INERTIA__REALITY_INTERTWINER__CLIFFORD_MODULE__COMMON_COMPLEXIFICATION__GROUP_COSET__SOURCE_HASH_PINS__SEVEN_PLANTED_REJECTIONS",
+          "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+          "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+          "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+          "next_gate": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ"
         }
       }
     },

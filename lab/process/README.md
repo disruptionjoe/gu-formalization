@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2h4-source-active-real-form-scope-exit-registry.json` -
+  PW2F-R2B2B2H4 ledger: records the literal source-directed `(7,7)` versus active `(9,5)`
+  inertia obstruction, zero-only real reality intertwiner, inequivalent real
+  Clifford modules, common `M(128,C)` complex container, and the exact global
+  data absent from the pinned public source. Source attribution exits evidence
+  scope; the independent moving-J construction remains open; separate
+  conditional-active I1/I2B banks are admitted but not assembled.
 - `pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-registry.json` -
   PW2F-R2B2B2H3 ledger: records exact mixed connection-level curvature
   conjugacy, the live Maurer--Cartan omission defect, active curvature jet
