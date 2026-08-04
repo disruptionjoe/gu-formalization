@@ -1,0 +1,50 @@
+{
+  "artifact": "K77_WAVE2_TRACE_Q_COEFFICIENT_ZERO_ORDER_REALITY_SELECTION",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "K77_D916_TRACE_Q_COEFFICIENT_ZERO_ORDER_REALITY_SELECTION",
+  "source_collision": {
+    "curt_zero_order_port": "SOURCE_CONFIRMS_AS_RECONSTRUCTION_TARGET",
+    "single_layer_minimal_coupling": "SOURCE_CORRECTS_BY_WEINSTEIN_TWO_LAGRANGIAN_STATEMENT",
+    "physical_higgs_as_adjoint_scalar": "SOURCE_CORRECTS_ADAPTER_REQUIRED",
+    "exact_varpi_rs_higgs_cell": "SOURCE_SILENT",
+    "barred_unbarred_reality": "SOURCE_SILENT_DRAFT_STATES_INDEPENDENT",
+    "trace_q_coefficient": "SOURCE_SILENT"
+  },
+  "construction": {
+    "d916_cells": 16,
+    "q_repaired_shiab_cells": 4,
+    "first_order_cells": 6,
+    "southeast_zero_cells": 4,
+    "uniform_projective_coefficient": true,
+    "cellwise_retuning": false,
+    "degree_reality_solutions": [
+      [-1, 1, 1, -1],
+      [1, -1, -1, 1]
+    ],
+    "degree_one_cell_factor": -1
+  },
+  "selection": {
+    "native_c_reality_rank": 0,
+    "independent_bar_sensitivity_rank": 2,
+    "source_euler_selection_rank": 0,
+    "majorana_principal_self_rank": 2,
+    "majorana_principal_skew_rank": 2,
+    "majorana_zero_self_rank": 2,
+    "majorana_zero_skew_rank": 2,
+    "majorana_projective_survivors": 0,
+    "source_faithful_projective_free_parameters": 1,
+    "source_faithful_constraint_surplus": -1
+  },
+  "kill_scope": "OPTIONAL_REAL_MAJORANA_FIXED_LOCUS_ON_CURRENT_TRACE_Q_REPAIRED_GAMMA_TRACE_SHIAB_FAMILY_WITH_PREDECESSOR_FULL_FORM_INDEX_KREIN_PRIMALIZATION_AND_CONNECTION_DOMAIN_CONTAINING_TESTED_EVEN_SPIN77_DIRECTION",
+  "surviving_branch": "SOURCE_FAITHFUL_COMPLEX_DIRAC_INDEPENDENT_BAR_COEFFICIENT_FAMILY",
+  "result": "PARTIAL__FULL16_TRACE_Q_FAMILY_ASSEMBLED__CURT_ZERO_ORDER_PORT_NARROWED__NATIVE_REALITY_SELECTS_NOTHING__MAJORANA_RIVAL_EMPTY__COMMON_TWO_LAYER_ACTION_EULER_SELECTION_OPEN",
+  "next_required_build": "K77_COMMON_TWO_LAYER_DIRAC_YANG_MILLS_HIGGS_ACTION_EULER_COEFFICIENT_SELECTION",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

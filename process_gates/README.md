@@ -74,10 +74,12 @@ selected notes below and in each script header.
 - `issue_template_validation_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
+- `k77_wave2_actual_draft916_blockwise_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
-- `k77_wave2_source_sign_shiab_duality_scope_audit.py`
 - `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
+- `k77_wave2_source_sign_shiab_duality_scope_audit.py`
+- `k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -931,3 +933,13 @@ requires the hostile-review repairs separating the coefficient-algebra magic
 bracket from the Clifford placement and replacing floating or coefficient-only
 fixtures. It keeps zero-order reality, moving Hodge/pairing/density, full-`H`
 descent, domain, observation, physics, Wave 3, and P1/P2/P3 use open.
+
+## K77 Wave 2 trace-q coefficient / zero-order reality scope gate
+
+`k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py` requires the
+full sixteen-cell `q=g/2` assembly, Curt Iceberg placement plus Weinstein's
+two-layer correction, native reality selection rank zero, the source-faithful
+projective surplus `-1`, and the empty optional Majorana rival on the current
+full-index family. It forbids promotion to a commutator/anticommutator result,
+keeps the restricted Higgs orbit and barred/unbarred adapter open, and requires
+the common two-layer action Euler system before Wave 3 can open.

@@ -7,6 +7,22 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 TRACE-q COEFFICIENT / ZERO-ORDER REALITY
+> DISPOSITION.**
+> [`explorations/k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md`](explorations/k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md)
+> assembles all sixteen draft-9.16 cells around the canonical `q=g/2`
+> receiver and collides the construction with Curt Jaimungal's Iceberg
+> explanation. Curt supplies the zero-order connection/Higgs/Yukawa placement
+> target, while Eric Weinstein's later correction requires a distinct
+> Yang--Mills--Higgs layer rather than a one-layer Einstein--Dirac reading.
+> Native real `Cl(7,7)` conjugation fixes both coefficient placements and has
+> selection rank zero. The source-faithful independent-bar action therefore
+> retains one projective coefficient, with surplus `-1`. An optional Majorana
+> fixed locus is not source-owned and, on the current full-index family, kills
+> both placements instead of selecting one. P1/P2/P3 remain unused and Wave 3
+> remains closed. Next gate:
+> `K77_COMMON_TWO_LAYER_DIRAC_YANG_MILLS_HIGGS_ACTION_EULER_COEFFICIENT_SELECTION`.
+
 > **2026-08-04 K77 WAVE-2 TRACE-q OWNERSHIP / ADJOINT / WARD
 > DISPOSITION.**
 > [`explorations/k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md`](explorations/k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md)

@@ -1277,3 +1277,35 @@ count, Wave-3 admission, or P1/P2/P3 status moves.
 - When a composite field supplies the needed object, pull its current back
   into the owner's Euler equation; do not add a second independent field and
   accidentally double-count variation directions.
+
+---
+
+## Revision 25 (2026-08-04, Curt zero-order port and reality non-selection)
+
+Sources:
+`explorations/k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md`,
+`lab/sources/curt-iceberg-fermion-zero-order-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-trace-q-coefficient-zero-order-reality-selection.json`,
+and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-trace-q-coefficient-zero-order-reality-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, Wave-3 admission, or P1/P2/P3 status moves.
+
+- Pair explanatory secondary sources with later author corrections. Curt's
+  Iceberg walk-through locates the zero-order connection term, while Eric's
+  later response changes the action architecture from one layer to two.
+- A source may identify a support slot without selecting its coefficient.
+  Record placement rank and coefficient-selection rank separately.
+- Do not impose a Majorana fixed locus merely because the ambient real
+  Clifford module exists. The draft's barred/unbarred fields are independent,
+  and the optional fixed-locus rival can be strictly more destructive.
+- Factor-only adjoint intuition is not a substitute for the full form-index
+  times spinor Krein adjoint. The latter can turn an apparent one-dimensional
+  eigenspace into an empty projective family.
+- Lower-order moving Hodge, density, pairing, or receiver terms cannot repair
+  a principal-symbol reality failure, though they remain mandatory in any
+  surviving variational action.
+- Once isolated symmetry/reality selectors all have rank zero or kill the
+  family, stop descending through more selectors. Carry the residual family
+  into the smallest common action and let its coupled Euler equations spend
+  the remaining freedom.

@@ -813,3 +813,16 @@ direction distinguishes the coefficients. Every linear combination descends,
 so Ward selection rank is zero. Surplus improves from `-14` to `-1`;
 zero-order reality, moving pairing/density, full-`H` descent, and the common
 domain remain open. Wave 3 is not admitted.
+
+# K77 Wave 2 trace-q coefficient / zero-order reality selection (2026-08-04)
+
+[`k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md`](k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md)
+assembles the complete sixteen-cell draft-9.16 operator around the canonical
+trace receiver and performs the requested Curt Iceberg source reinspection.
+Curt supplies a useful connection/Higgs/Yukawa placement target, but Eric's
+later correction separates Einstein--Dirac from the added
+Yang--Mills--Higgs layer. Exact native real conjugation selects no coefficient;
+the source-faithful independent-bar action retains one projective freedom,
+while an optional Majorana locus kills the current family instead of selecting
+a bracket. The next gate carries the family into the common two-layer action
+and derives its actual Euler selection. Wave 3 and P1/P2/P3 use remain closed.
