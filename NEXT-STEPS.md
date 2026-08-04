@@ -7,6 +7,28 @@ updated_at: "2026-08-03"
 
 # Next Steps For Contributors
 
+> **2026-08-03 PW2F-R2B2B2G NORMALIZED-TRACE TRANSPORT PASS; FULL C4
+> INTERPOLATION BLOCKED ON THE MIXED SHIAB JET.** The geometric trace
+> `t(g)=g/2` is now transported through the same exact nonlinear Zorro
+> symmetric coframe used by R2B2B2F. Across trace-diagonal, off-diagonal, and
+> mixed owner/conormal cases, all six first slots agree with an independent
+> full-metric moving-`Phi` derivative, the norm jet is exactly `(-1,0,0,0)`,
+> and the mixed trace slot is live in all three cases. Five directional slots
+> also show a live Zorro-horizontal correction beyond the older pure-metric
+> trace fixture.
+>
+> This blocks, rather than licenses, the complete quartic interpolation. The
+> accepted moving-Shiab constructor is first-order only and has no mixed
+> trace/Phi/Hodge/Shiab input. Therefore full `I1 A4` is
+> `BLOCKED_ON_MIXED_SHIAB_JET`; distinct off-shell `I2B C4` remains separately
+> `BLOCKED_ON_COMPLETE_SECOND_PRIMALIZER_JET`. Resume at
+> `PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET-THEN-FULL-A4-I2B-C4`; construct both
+> complete second jets before the 35-monomial banks, multi-index Green /
+> Helmholtz checks, live C3 return, or projective classifier. P1/P2/P3 remain
+> unused; Curt stays formally separate; `TG-1 AND TG-2 AND TG-3` remains
+> unpromoted. See
+> `explorations/pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-2026-08-03.md`.
+
 > **2026-08-03 PW2F-R2B2B2F FROZEN-SHIAB RAW-DENSITY COMPARATOR; FULL
 > A4/GREEN STILL REQUIRED.** The written
 > `F_B+(1/2)D_B T+(1/3)[T,T]` transgression agrees with an independent

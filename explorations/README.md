@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2G normalized-trace transport and full-C4 admission blocker`](pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-2026-08-03.md)
+  transports `t(g)=g/2` through the exact nonlinear Zorro coframe. Six first
+  slots match the independent full-metric moving-`Phi` derivative; the norm
+  jet stays `(-1,0,0,0)`, but all three tested mixed trace slots are live and
+  the horizontal split adds live first-order corrections. The current Shiab
+  constructor is first-order only, so full `I1 A4` stops at the mixed-Shiab
+  jet and distinct `I2B C4` stops at the complete second-primalizer jet. No
+  interpolation or `kappa1` classification is admitted. P1/P2/P3 remain
+  unused; Curt and the third-lane gate are unchanged.
 - [`PW2F-R2B2B2F I1 transgression frozen-Shiab raw-density comparator`](pw2fr2b2b2f-i1-transgression-projective-kappa-2026-08-03.md)
   constructs the written one-half/one-third transgression on the conditional
   active coframe, matches an independent curvature-path integral and direct

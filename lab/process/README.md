@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-registry.json` -
+  PW2F-R2B2B2G ledger: records exact normalized-trace transport through the
+  full nonlinear Zorro coframe, six first-slot moving-`Phi` matches, preserved
+  negative-unit norm, live horizontal corrections, and live mixed trace slots.
+  Full `I1 A4` is blocked on the mixed Shiab jet; distinct `I2B C4` is blocked
+  on the complete second primalizer/pairing jet.
 - `pw2fr2b2b2f-i1-transgression-projective-kappa-registry.json` -
   PW2F-R2B2B2F ledger: records the written transgression/path-integral match,
   degree-five raw-density ceiling, direct full-polynomial differentiation,

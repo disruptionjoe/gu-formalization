@@ -100,6 +100,7 @@ selected notes below and in each script header.
 - `protected_surface_diff_audit.py`
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
+- `pw2fr2b2b2g_full_a4_multiindex_green_distinct_i2b_c4_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
