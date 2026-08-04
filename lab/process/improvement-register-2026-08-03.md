@@ -1344,3 +1344,35 @@ count, Wave-3 admission, or P1/P2/P3 status moves.
 - When a source names unfinished paths, turn the path diagram into the next
   construction. Do not paraphrase the named cancellation into whichever
   current left/right family happens to be available.
+
+---
+
+## Revision 27 (2026-08-04, two-connection target and cross-map typing)
+
+Sources:
+`explorations/k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md`,
+`lab/sources/gu-up-back-over-square-root-source-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-up-back-over-path-adapter-independent-square-root-target.json`,
+and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-up-back-over-target-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, Wave-3 admission, or P1/P2/P3 status moves.
+
+- An unreleased spoken formula may bound a reconstruction without sourcing it.
+  Attach the source caveat to every reuse and grade the derived algebra
+  separately from the attribution.
+- When a spoken sign pattern is ambiguous, use a noncommuting exact fixture.
+  Here the two-minus placement is uniquely selected among all four choices;
+  scalar fixtures would not discriminate the mixed-Bianchi structure.
+- Type path-composition language with a block totalization before borrowing an
+  available operator. Diagonal `VU/UV` and off-diagonal `DV+VF/UD+FU` require
+  cross-carrier maps, not just coefficients of the diagonal operators.
+- Full coefficient-column rank from any exact evaluation is a global kernel
+  kill for that finite coefficient family. State it as a candidate-map kill,
+  not a lane or mechanism kill.
+- A candidate kill must emit a reconstruction debt at the same type. The
+  failed trace-`q` shortcut emits `U:B->F` and `V:F->B`; it does not emit
+  another request for an unspecified external datum.
+- Existing cell-typing archaeology remains authoritative even after a fresh
+  visual source pass. New synthesis should cite and extend it, not rediscover
+  it as a novel result.

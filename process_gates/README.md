@@ -81,6 +81,7 @@ selected notes below and in each script header.
 - `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
 - `k77_wave2_source_sign_shiab_duality_scope_audit.py`
 - `k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py`
+- `k77_wave2_up_back_over_target_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -955,3 +956,13 @@ locus, literal middle-cancellation rank two, all-covector anticommutator
 scalarity, quadratic square span rank three, field-dependent optional-modulus
 roots, surplus `-1`, and the full-moving-action scope fence. It keeps the
 up/back/over adapter, target, observation, physics, Wave 3, and P1/P2/P3 open.
+
+## K77 Wave 2 up/back/over target scope gate
+
+`k77_wave2_up_back_over_target_scope_audit.py` requires the source-bounded
+two-connection square, unique two-minus sign fixture, and universal
+Bose--Fermi totalization while preserving the unreleased/caveated source
+boundary. It requires full rank two for both direct K77 trace-`q` path signs
+and limits that result to a candidate-map kill. Stabilized action-derived
+cross maps `U,V`, target matching, observation, physics, Wave 3, and P1/P2/P3
+remain open.

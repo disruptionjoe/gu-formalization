@@ -839,3 +839,16 @@ three independent quadratic tensors in the self-derived square. The scalar
 branch is a live `alpha=beta` Laplace-type lead, but selection awaits the
 source's unfinished up/back/over path adapter and an independent target. The
 surplus remains `-1`; Wave 3 and P1/P2/P3 remain closed.
+
+# K77 Wave 2 up/back/over target and direct-adapter test (2026-08-04)
+
+[`k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md`](k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md)
+turns the Portal path language and the later unreleased two-connection mnemonic
+into two exact objects: a source-bounded cyclic square leaving curvature and
+connection differences, and the universal block-totalization formula with
+diagonal up-and-back and off-diagonal up-and-over paths. An exact actual-K77
+test rejects the direct use of the trace-`q` left/right family as the missing
+cross paths: both possible path signs have full coefficient rank two. The
+scoped kill narrows the next build to stabilized, action-derived mixed
+Bose--Fermi maps `U,V`; it does not kill the trace-`q` operator or common
+action. Wave 3 and P1/P2/P3 use remain closed.

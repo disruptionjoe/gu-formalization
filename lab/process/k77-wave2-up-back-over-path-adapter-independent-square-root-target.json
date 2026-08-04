@@ -1,0 +1,66 @@
+{
+  "artifact": "K77_WAVE2_UP_BACK_OVER_PATH_ADAPTER_INDEPENDENT_SQUARE_ROOT_TARGET",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "K77_TWO_LAYER_UP_OVER_PATH_ADAPTER_AND_INDEPENDENT_SQUARE_ROOT_TARGET",
+  "source_collision": {
+    "portal_two_complex_architecture": "SOURCE_CONFIRMS",
+    "portal_up_back_over_roles": "SOURCE_CONFIRMS_UNFINISHED",
+    "toe_two_connection_tokens_and_signs": "SOURCE_BOUNDS_RECONSTRUCTION",
+    "toe_cyclic_formula": "SOURCE_UNRELEASED",
+    "draft_1010_mixed_cross_map_cells": "SOURCE_DISPLAYS_CAVEATED",
+    "stabilized_cross_maps": "SOURCE_SILENT"
+  },
+  "layer0": {
+    "bosonic_connection_difference_vs_fermionic_trace_q": "DISTINCT",
+    "diagonal_up_back_vs_offdiagonal_up_over": "DISTINCT",
+    "source_bound_reconstruction_vs_source_exact_formula": "DISTINCT",
+    "formal_order_cancellation_vs_physical_field_equation": "DISTINCT"
+  },
+  "two_connection_target": {
+    "operator": "[[d_A,-F_B],[1,-d_B]]",
+    "square": "[[F_A-F_B,0],[d_A-d_B,0]]",
+    "relations": ["d_A^2=F_A", "d_B^2=F_B", "d_A F_B=F_B d_B"],
+    "exact_algebra": true,
+    "finite_noncommuting_sign_solution_count": 1,
+    "finite_noncommuting_sign_solutions": [[-1, -1]],
+    "grade": "SOURCE_BOUND_RECONSTRUCTION_WITH_EXACT_ALGEBRA"
+  },
+  "totalization": {
+    "operator": "Delta=[[D,V],[U,F]]",
+    "square_diagonal": ["D^2+VU", "UV+F^2"],
+    "square_offdiagonal": ["DV+VF", "UD+FU"],
+    "universal_noncommutative_identity": true,
+    "stabilized_mixed_cross_maps_built": false
+  },
+  "direct_k77_adapter": {
+    "candidate": "BARE_K77_MIDDLE_WITH_TRACE_Q_LEFT_RIGHT_AS_CROSS_PATHS",
+    "path_plus_coefficient_rank": 2,
+    "path_minus_coefficient_rank": 2,
+    "coefficient_columns": 2,
+    "surviving_projective_points": 0,
+    "disposition": "CANDIDATE_MAP_KILL_ONLY"
+  },
+  "selection": {
+    "source_owned_coefficient_constraints": 0,
+    "projective_free_parameters": 1,
+    "constraint_surplus": -1
+  },
+  "result": "PARTIAL__SOURCE_BOUND_TWO_CONNECTION_SQUARE_EXACT__UNIVERSAL_UP_BACK_OVER_TOTALIZATION_BUILT__DIRECT_K77_TRACE_Q_PATH_ADAPTER_KILLED__STABILIZED_MIXED_CROSS_MAPS_OPEN",
+  "next_required_build": "K77_STABILIZED_MIXED_BOSE_FERMI_CROSS_MAPS_AND_TARGET_MATCH",
+  "probe_receipt": {
+    "source": 11,
+    "type": 17,
+    "exact": 15,
+    "planted": 8,
+    "total": 51,
+    "failures": 0
+  },
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

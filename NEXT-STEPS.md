@@ -7,6 +7,21 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 UP/BACK/OVER TARGET DISPOSITION.**
+> [`explorations/k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md`](explorations/k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md)
+> reconstructs the strongest two-connection square compatible with Eric
+> Weinstein's unreleased 2025 mnemonic and proves its algebra exactly:
+> `[[d_A,-F_B],[1,-d_B]]^2=[[F_A-F_B,0],[d_A-d_B,0]]` under the two curvature
+> and mixed-Bianchi relations. It also writes the universal Bose--Fermi block
+> totalization that types up-and-back on the diagonal and up-and-over /
+> over-and-up off diagonal. The direct shortcut using the current K77
+> trace-`q` left/right family as those mixed paths fails with coefficient rank
+> two for both path signs, so no nonzero projective coefficient survives.
+> This kills that adapter only; it leaves the trace-`q` operator and common
+> action live. The missing build is now the action-derived mixed cross-map pair
+> `U,V`. Surplus remains `-1`; P1/P2/P3 are unused and Wave 3 stays closed.
+> Next gate: `K77_STABILIZED_MIXED_BOSE_FERMI_CROSS_MAPS_AND_TARGET_MATCH`.
+
 > **2026-08-04 K77 WAVE-2 COMMON TWO-LAYER ACTION DISPOSITION.**
 > [`explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md`](explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md)
 > writes the source-guided first-layer action plus norm-square second layer and
