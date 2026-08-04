@@ -879,3 +879,17 @@ The smallest one-way Hodge roll is constructed and fails slot-preserving D916
 equality, while the reverse arrow, action owner and general chain relation
 remain open. Selection rank is zero, surplus `-1`, and Wave 3 and P1/P2/P3
 remain closed.
+
+# K77 Wave 2 shifted two-connection operator / action shell (2026-08-04)
+
+[`k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md`](k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md)
+uses an internal `[1]` shift to construct both algebraic parity restrictions
+of Eric's four-block two-connection mnemonic from one total-odd operator. Its
+exact noncommutative square retains a live mixed `-T wedge F_B` defect. A broad
+source collision locates the pre-existing `I1B` action and identifies its
+`1/2,1/3` curvature packet as the connection-path transgression, with exact
+finite first-variation and Helmholtz controls. The naive IG diagonal shell
+`T=0` does not equal the source Euler shell on a curved background. The actual
+moving K77 bosonic Euler primalizer, action-shell pair lift, Ward/Bianchi
+closure, domain, observation and physics remain open; Wave 3 and P1/P2/P3
+remain closed.

@@ -7,6 +7,22 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 SHIFTED TWO-CONNECTION / ACTION-SHELL
+> DISPOSITION.**
+> [`explorations/k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md`](explorations/k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md)
+> corrects the predecessor twice. A `[1]` internal shift makes Eric's four
+> spoken blocks one total-odd operator, so both algebraic parity arrows are
+> built without inventing a reverse formula. Exact noncommutative exterior
+> algebra retains a live northeast `-T wedge F_B` mixed defect that a scalar
+> toy erases. Repository archaeology also locates the pre-existing 2021
+> bosonic `I1B` action: its `1/2,1/3` packet is exactly connection-path-average
+> curvature and passes finite cyclic first/Hessian checks. But its Euler shell
+> is swervature equals displasion, whereas the naive IG pair becomes a complex
+> at `T=0`; an exact curved control proves those shells differ. The next build
+> is the moving bosonic Euler-density-to-connection primalizer and the
+> action-shell pair lift. P1/P2/P3 remain unused and Wave 3 stays closed. Next
+> gate: `K77_BOSONIC_EULER_PRIMALIZER_AND_ACTION_SHELL_TWO_CONNECTION_LIFT`.
+
 > **2026-08-04 K77 WAVE-2 PRIMALIZER / TWO-CONNECTION DISPOSITION.**
 > [`explorations/k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md`](explorations/k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md)
 > constructs the four-field moving density/Krein primalizer on the admissible

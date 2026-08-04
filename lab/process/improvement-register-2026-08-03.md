@@ -1443,3 +1443,35 @@ admission, or P1/P2/P3 status moves.
 - Keep two hostile reviewers with opposite compression charges: one hunts
   summaries that outrun artifacts, and one hunts rigorous artifacts aimed at
   stale or superseded objects.
+
+---
+
+## Revision 30 (2026-08-04, a shifted operator and its action shell are separate builds)
+
+Sources:
+`explorations/k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md`,
+`lab/sources/gu-two-connection-shifted-superconnection-source-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-two-connection-shifted-superconnection-action-owner.json`,
+and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-two-connection-action-owner-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Before searching for a reverse arrow, test whether an internal degree shift
+  makes one total-odd operator own both parity restrictions.
+- Square block operators in a noncommutative exterior DGA. A commuting scalar
+  fixture can erase precisely the mixed curvature defect that distinguishes
+  two connections.
+- Ordinary Bianchi is connection-specific. Never replace
+  `d_A F_B-F_B d_B` by zero without constructing a mixed transport law.
+- Search the full repository before calling an action owner absent. Here the
+  source-owned first-order action was already recorded; only its ownership of
+  the later cyclic operator was absent.
+- The `1/2,1/3` packet is connection-path-average curvature in the normalized
+  wedge convention. Uniqueness from two constraints on two parameters has
+  surplus zero, not positive surplus.
+- `D^2=0`, `T=0`, `Upsilon=0` and `dI=0` are four different statements until
+  Layer 0 supplies the maps between them.
+- When an algebraic complex shell misses an action shell, emit the
+  Euler-density-to-field primalizer and pair lift as the construction debt;
+  an external datum cannot manufacture that map.

@@ -1,0 +1,89 @@
+{
+  "artifact": "K77_WAVE2_TWO_CONNECTION_SHIFTED_SUPERCONNECTION_ACTION_OWNER",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "K77_TWO_CONNECTION_CYCLIC_FERMION_FULL_ARROW_PAIR_AND_ACTION_OWNER",
+  "source_collision": {
+    "toe_four_block_mnemonic": "SOURCE_CONFIRMS",
+    "toe_full_construction": "SOURCE_UNRELEASED",
+    "toe_pair_identification": "SOURCE_SILENT",
+    "ig_biconnection": "SOURCE_CONFIRMS",
+    "ig_pair_difference": "SOURCE_CONFIRMS_AUGMENTED_TORSION",
+    "i1b_bosonic_action": "SOURCE_CONFIRMS_PREEXISTING",
+    "i1b_owns_2025_cyclic_operator": "SOURCE_SILENT",
+    "chern_simons_analogy": "SOURCE_CONFIRMS"
+  },
+  "layer0": {
+    "ig_biconnection_vs_2025_shifted_pair": "DISTINCT_UNLESS_CONSTRUCTED",
+    "augmented_torsion_vs_bosonic_euler_density": "DISTINCT",
+    "cyclic_square_vs_action_variation": "DISTINCT",
+    "fermionic_density_primalizer_vs_bosonic_euler_primalizer": "DISTINCT",
+    "diagonal_complex_shell_vs_i1b_critical_shell": "EXACT_CONTROL_SHOWS_DIFFERENT"
+  },
+  "shifted_operator": {
+    "carrier": "OMEGA_STAR_E0_PLUS_OMEGA_STAR_E1_SHIFT_1",
+    "internal_degrees": [0, 1],
+    "slots": [["D_A", "MINUS_F_B"], ["IDENTITY", "MINUS_D_B"]],
+    "all_blocks_total_degree_one": true,
+    "total_parity_odd_exact": true,
+    "even_to_odd_restriction_nonzero": true,
+    "odd_to_even_restriction_nonzero": true,
+    "algebraic_full_parity_pair_built": true,
+    "analytic_complex_built": false
+  },
+  "square": {
+    "northwest": "F_A_MINUS_F_B",
+    "northeast": "MINUS_D_A_F_B_PLUS_F_B_D_B",
+    "southwest": "D_A_MINUS_D_B",
+    "southeast": "ZERO_BY_D_B_SQUARED_EQUALS_F_B",
+    "noncommutative_mixed_defect_nonzero": true,
+    "ig_left_module_mixed_defect": "MINUS_T_WEDGE_F_B",
+    "scalar_commuting_fixture_erases_defect": true,
+    "diagonal_A_equals_B_square_zero": true
+  },
+  "source_action": {
+    "owner": "PREEXISTING_I1B",
+    "normalized_quadratic_convention": "T_WEDGE_T",
+    "curvature_packet": "INTEGRAL_0_1_F_B_PLUS_tT_dt",
+    "linear_coefficient": "1/2",
+    "quadratic_coefficient": "1/3",
+    "coefficient_solution_unique": true,
+    "finite_cyclic_first_variation_endpoint_curvature_exact": true,
+    "finite_indefinite_hessian_symmetric": true,
+    "actual_moving_k77_shiab_selected": false,
+    "action_for_2025_operator_established": false
+  },
+  "shell_comparison": {
+    "naive_ig_pair_complex_shell": "T_ZERO",
+    "source_action_shell": "UPSILON_EQUALS_SWERVATURE_MINUS_DISPLASION_ZERO",
+    "curved_background_action_derivative_at_T_zero_nonzero": true,
+    "naive_shell_match": false,
+    "bosonic_euler_primalizer_built": false,
+    "candidate_pair_difference": "R_B_APPLIED_TO_UPSILON"
+  },
+  "selection": {
+    "transgression_parameters": 2,
+    "transgression_constraints": 2,
+    "transgression_constraint_surplus": 0,
+    "trace_q_selection_rank_added": 0,
+    "trace_q_projective_parameters": 1,
+    "trace_q_constraint_surplus": -1
+  },
+  "result": "PARTIAL__SHIFTED_TOTAL_ODD_OPERATOR_SUPPLIES_BOTH_PARITY_ARROWS__FULL_OFFSHELL_SQUARE_HAS_MIXED_DEFECT__PREEXISTING_I1B_ACTION_LOCATED_AS_TRANSGRESSION__NAIVE_IG_PAIR_ACTION_SHELL_MATCH_FAILS__BOSONIC_EULER_PRIMALIZER_OPEN",
+  "next_required_build": "K77_BOSONIC_EULER_PRIMALIZER_AND_ACTION_SHELL_TWO_CONNECTION_LIFT",
+  "probe_receipt": {
+    "source": 14,
+    "type": 20,
+    "exact": 22,
+    "planted": 12,
+    "total": 68,
+    "failures": 0
+  },
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

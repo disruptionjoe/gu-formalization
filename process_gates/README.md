@@ -79,6 +79,7 @@ selected notes below and in each script header.
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
 - `k77_wave2_mixed_primalizer_comparison_scope_audit.py`
+- `k77_wave2_two_connection_action_owner_scope_audit.py`
 - `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
 - `k77_wave2_source_sign_shiab_duality_scope_audit.py`
 - `k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py`
@@ -990,3 +991,14 @@ typed one-way `0+13 -> 1+14` Hodge roll, and the slot/principal-order mismatch
 with D916. It keeps the reverse arrow, cyclic pair, action/Helmholtz owner,
 general chain relation, global analytic domain, coefficient selection,
 observation and physics open; P1/P2/P3 remain unused and Wave 3 remains closed.
+
+## K77 Wave 2 shifted two-connection / action-shell scope gate
+
+`k77_wave2_two_connection_action_owner_scope_audit.py` requires the internal
+shift, both algebraic parity restrictions, the complete square with live
+noncommutative mixed defect, the pre-existing `I1B` action/source correction,
+the exact path-average `1/2,1/3` transgression controls, and the diagonal-shell
+versus action-shell mismatch. It forbids identifying `I1B` with the unreleased
+2025 operator, keeps the actual moving K77 Shiab and bosonic Euler primalizer
+open, requires zero transgression surplus and trace-`q` surplus `-1`, and keeps
+P1/P2/P3 unused and Wave 3 closed.
