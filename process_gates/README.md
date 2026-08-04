@@ -770,3 +770,21 @@ to a Ward theorem, or one port fixture to global descent. It also preserves
 the source's fundamental-nonchirality/effective-chirality distinction and
 keeps K77 real spinors, atomic particle mapping, the decoupling theorem,
 domain, physics, and P1/P2/P3 open.
+
+## Resolver Wave K77-A scope gate
+
+`resolver_wave_k77a_scope_audit.py` preserves the exact real
+`Cl(7,7)=M128(R)` carrier, the four complex `2 x 16` observation blocks, the
+invariant cross-half pairing, and the one-family representation/charge packet
+without importing any right-`H`/quaternionic `(9,5)` structure. It requires
+every one of the 37 atomic physics rows to retain its program-mandatory,
+SM-shadow, or source-lane obligation separately from moving candidate status,
+and enforces the ordered
+fixture/map/mechanism/lane/program kill ladder. It keeps Eric/Curt source
+descriptions as locators rather than proofs, fences the stale exterior-spinor
+construction, fences stale fixed-`c(v)` and `R128 -> C64` claims, preserves
+the vertical `KX` channel as classified but unselected, downgrades F/Q/Z to
+source arithmetic until actual K77 projectors exist, kills only the
+three-block-to-three-generation map, and requires physical
+action, VEV, observation, domain, pole/residue, count, dark-sector identity,
+and P1/P2/P3 use to remain open.

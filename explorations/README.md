@@ -628,3 +628,25 @@ carrier. Primary sources make GU fundamentally non-chiral but propose a VEV/
 curvature-dependent Dirac-to-Weyl effective chirality. K77 real spinors,
 atomic particle crosswalk, source action, and decoupling theorem are now the
 ordered primary route. P1/P2/P3 remain unchanged and unused.
+
+# Resolver Wave K77-A (2026-08-04)
+
+`resolver-wave-k77a-real-spinor-observation-atomic-particle-crosswalk-2026-08-04.md`
+constructs the exact source-aligned `Cl(7,7)=M128(R)` real spinor carrier,
+its split invariant symmetric bilinear and alternating companion, and the
+`Spin(1,3) x Spin(6,4)` observation branching into four complex rank-32
+`2 x 16` blocks. An independent `D7 -> D2+D5` weight certificate agrees.
+An independently verified internal D5/Pati--Salam 16 supplies the tested
+one-family charges and local anomaly cancellations; K77-A imports rather than
+derives its weights. The K77 gamma image/kernel dimensions are exact, while
+`F=64`, `Q=192`, `Z=576` remain source branch arithmetic pending actual K77
+subspaces/projectors. The bare-operator versus constructed-Gram-bilinear census
+finds a vertical-coefficient cross-Weyl/ambient-preserving channel but does
+not select it. A 37-row atomic target ledger attaches Eric/Curt source
+locators, typed mechanisms, local and joint status, and reconstruction debt.
+It keeps program-mandatory, SM-shadow, and source-lane obligations distinct
+from fixture, map, mechanism, lane, and conditional-program kills. No physical row is complete: action,
+vacuum, global observation, quotient, domain, poles/residues, effective
+chirality, generation count, and dark-sector identity remain open. The
+three-block-to-three-generations inference is killed at Layer 0; P1/P2/P3
+remain unchanged and unused.

@@ -803,3 +803,46 @@ No scientific register row or protected verdict moves.
   crosswalk; K77-B bracket-normalized source Shiab/B1; K77-C effective-
   chirality and hidden-parity dynamics; then a comparative K95 audit.
   P1/P2/P3 remain unchanged and unused.
+
+---
+
+## Revision 14 (2026-08-04, Resolver Wave K77-A)
+
+Sources:
+`explorations/resolver-wave-k77a-real-spinor-observation-atomic-particle-crosswalk-2026-08-04.md`
+and `lab/process/hostile-reviews/2026-08-04-resolver-wave-k77a-review.md`.
+No scientific register row or protected verdict moves.
+
+- Atomic rows now separate program-mandatory empirical targets, SM-shadow
+  requirements, and source-lane obligations from the candidate mechanism's
+  moving evidence grade. Killing a fixture, map, or mechanism emits
+  reconstruction debt; it does not delete a required target within its scope.
+- Negative results use an ordered scope ladder: fixture, candidate map,
+  mechanism (including `LOCAL_PASS__JOINT_FAIL`), lane, then full conditional
+  program. Lane and program kills require explicit mechanism/route exhaustion
+  and the latter requires Layer 0 plus the full seven-axis protocol.
+- The crosswalk has four linked surfaces: atomic target ledger, Eric/Curt
+  source-claim registry, typed mechanism registry, and cross-row coherence
+  matrix. Sources are navigation directives graded independently from the
+  mathematics.
+- The real `(7,7)` matter carrier now has exact four-block observation
+  branching, invariant pairings, and K77 gamma image/kernel dimensions. The
+  one-family charge packet is imported from the independently verified
+  internal D5/Pati--Salam chain. F/Q/Z remain source branch arithmetic until
+  actual K77 invariant subspaces/projectors are built. None are physical poles
+  or a selected vacuum.
+- Bare operator incidence and physical Krein-bilinear incidence are recorded
+  separately. A vertical coefficient has the desired cross-Weyl/
+  ambient-preserving incidence but remains unselected.
+- The `F/Q/Z -> three generations` inference is killed at Layer 0 while the
+  mandatory three-family target and unspent P3 datum remain live.
+- A stale PC1 construction is fenced: left Clifford multiplication is not the
+  natural exterior Spin action. The corrected derivation remains authoritative.
+- Hostile review also fenced fixed-`c(v)` as a non-equivariant half-spin map
+  and the stale `R128 -> C64 -> Weyl C32` story. Exact rank claims now use
+  projector/intertwiner/inverse identities rather than floating SVD.
+- The executable inventory audit corrected the stale channel-swings manifest
+  count from 161 to the actual post-K77-A count of 160.
+- **Next named gate:**
+  `RESOLVER-WAVE-K77B-SOURCE-BRACKET-NORMALIZATION-DISPLAYED-SHIAB-AND-B1-VARIATION`.
+  P1/P2/P3 remain unchanged and unused.
