@@ -7,6 +7,28 @@ updated_at: "2026-08-04"
 
 # Next Steps For Contributors
 
+> **2026-08-04 PW2F-R2B2B2I COMPLETE C4-BANK PROMOTION STOPS AT THE
+> UNIVERSAL OWNER/CONORMAL COVERAGE GATE.** A complete conditional-active bank
+> has `55` symmetric pairs of ten metric owners and `35` homogeneous quartic
+> conormal monomials, hence `1,925` cells per action. The accepted H and H2
+> receipts exercise one shared owner/conormal pair; their parameterized
+> constructors remain valid, but no accepted all-owner lattice certificate or
+> bank-preserving symmetry reduction closes the remaining `54` owner pairs and
+> `34` lattice settings. The exact probe passes `11 exact + 2 source + 11 type
+> + 6 planted = 30`.
+>
+> Neither `I1 A4` nor the separate `I2B C4` bank is promoted, and this is not
+> a theorem that either bank vanishes or cannot exist. A bounded serial H2
+> replay passed source/type prechecks but remained inside the first mixed Shiab
+> kernel after more than five minutes, so no unbounded `1,925`-cell grid was
+> launched. Resume at
+> `PW2F-R2B2B2I1-UNIVERSAL-OWNER-CONORMAL-COVERAGE-ENGINE-THEN-SEPARATE-C4-BANKS`:
+> prove an exact owner-pair symmetry reduction or build a validated sparse,
+> resumable evaluator, then assemble the two banks separately before
+> Green/Helmholtz. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i-separate-conditional-active-c4-banks-2026-08-04.md`.
+
 > **2026-08-04 PW2F-R2B2B2H4 PUBLIC-SOURCE REAL-FORM PORT EXITS
 > EVIDENCE SCOPE; SEPARATE CONDITIONAL-ACTIVE C4 BANKS NEXT.** Exact inertia
 > and reality checks obstruct a literal source-directed `(7,7)` to active `(9,5)` real

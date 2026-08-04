@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2I separate C4-bank universal-coverage gate`](pw2fr2b2b2i-separate-conditional-active-c4-banks-2026-08-04.md)
+  proves that each complete active bank needs `55` symmetric owner pairs times
+  `35` quartic conormal monomials, while the accepted H/H2 receipts exercise
+  one shared pair at one setting. Their parameterized formulas survive, but
+  neither separate bank is promoted without a universal symmetry reduction or
+  exact sparse/resumable full-bank evaluator. The bounded H2 replay supplies a
+  resource signal only, not bank nonexistence. P1/P2/P3 remain unused; Curt and
+  the third-lane gate are unchanged.
 - [`PW2F-R2B2B2H4 source-to-active real-form port evidence-scope exit`](pw2fr2b2b2h4-source-active-real-form-scope-exit-2026-08-04.md)
   proves the literal source-directed `(7,7)` and active `(9,5)` real carriers cannot be
   directly identified: inertia differs, square-`+1` to square-`-1` reality

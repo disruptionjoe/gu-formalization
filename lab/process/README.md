@@ -38,6 +38,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2i-separate-conditional-active-c4-banks-registry.json` -
+  PW2F-R2B2B2I ledger: records the exact `55 x 35 = 1,925` cell requirement
+  per bank, the accepted one-pair/one-setting H/H2 coverage, the retained
+  parameterized formulas, the bounded serial resource signal, and the
+  fail-closed universal-coverage boundary. Neither separate active bank is
+  promoted and bank nonexistence is not claimed.
 - `pw2fr2b2b2h4-source-active-real-form-scope-exit-registry.json` -
   PW2F-R2B2B2H4 ledger: records the literal source-directed `(7,7)` versus active `(9,5)`
   inertia obstruction, zero-only real reality intertwiner, inequivalent real

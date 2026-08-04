@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2i_separate_conditional_active_c4_banks_probe.py`
+  byte-pins the accepted quartic-basis, bank-grade precedent, H/H2/H3, and H4
+  evidence; proves the `55` owner-pair, `35` monomial, and `1,925` cell-per-bank
+  requirements; and audits the accepted H/H2 coverage as one shared pair at
+  one setting. It retains their parameterized constructors while failing
+  complete-bank promotion closed. It uses the standard library only.
 - `channel-swings/pw2fr2b2b2h4_source_active_real_form_scope_exit_probe.py`
   verifies the exact `(7,7)` versus `(9,5)` inertia, real-reality,
   Clifford-module, common-complexification, and group/coset boundaries, then
