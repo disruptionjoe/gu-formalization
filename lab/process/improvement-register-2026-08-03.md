@@ -901,3 +901,64 @@ NEW VERIFIED_REPO_DISCONNECT: W230 calls W180's Frobenius Gram "the fixed
 equivariant ultralocal Krein kernel"; W203 KER4 proves it is not
 (3 of 13 generators violate it, reproduced). Does not change W230's [NEC]
 conclusion; logged for repair, not repaired.
+
+---
+
+## Revision 16 (2026-08-04, Resolver Wave K77-B2)
+
+Sources:
+`explorations/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md`
+and `lab/process/hostile-reviews/2026-08-04-resolver-wave-k77b2-review.md`.
+No scientific register row or protected verdict moves.
+
+- The algebraic Riemann module is now explicitly the rank-3,185 first-Bianchi
+  kernel inside rank-4,186 pair-symmetric curvature and is injected into the
+  rank-1,490,944 ambient real-adjoint spin-curvature domain. It is not the
+  whole source curvature space.
+- Exact complexified D7 arithmetic gives `3185=1+104+3080` and target
+  multiplicities `2,2,0`. Weyl-killing is automatic for an equivariant zero-
+  order map on this submodule and cannot be used as the missing selector.
+- The complete displayed low/high factorized family reduces to lifted
+  features `(a,b,ac,ad,bc,bd)`. Only two product patterns meet the ambient
+  fourteen-dimensional Einstein ratio; exact same-action transgression
+  witnesses force both to the zero map.
+- The kill is scoped to the displayed ansatz under the joint ambient-Einstein/
+  same-action reading. Observed four-dimensional and Frobenius-fibre trace
+  maps, the broader bounded grammar, and the K77 lane remain live.
+- A two-coordinate low/high ambient-Einstein restriction survives exactly on
+  algebraic Riemann curvature. The next construction is its source-natural,
+  cyclically variational full-domain extension plus differential Green data,
+  not a return to the dead printed endpoint.
+- **Next named gate:**
+  `RESOLVER-WAVE-K77-B3-BOUNDED-SHIAB-DAG-CYCLIC-EULER-COMPLETION-AND-GREEN`.
+  K77-C and all atomic physics rows remain blocked; P1/P2/P3 remain unchanged
+  and unused.
+
+**DC-H1 result (2026-08-04) — (c) PARTIAL, ledger UNCHANGED, one retyping
+and one new question.** Path-type YES: the DeWitt metric-fibre loop is
+shown exactly to generate pi_1(F) = Z/2 (its GL(4,R) lift ends at
+diag(-1,1,1,-1), the PT / non-orthochronous component; an independently
+built Gaussian-integer Cl(9,5) gives chi(loop) = -1, chi(loop^2) = +1,
+reproducing the published central -1 without importing it). So the
+orientation datum is a Z/2 LOCAL SYSTEM with computed nonzero holonomy,
+not a value awaiting supply. Framing-type NO — the kill: chi is QUADRATIC
+in the Clifford lift, so it descends to SO and cannot see the double
+cover (the genuine deck element has chi(-I) = +1; chi(T) = chi(-T) on 40
+lifts; chi invariant under arbitrary retrivialization, defect 5.6e-15),
+hence the [L^13, SO] reframing freedom acts through the ZERO
+homomorphism, and the loop's own lift has T^2 = +I so the double cover is
+not merely invisible but NOT ENGAGED. LAYER-0: exhaustively over the 16
+diagonal elements of O(3,1), chi is exactly the ORTHOCHRONOUS
+(time-orientation) character — a REFLECTION Z/2, not a double-cover Z/2.
+Same group order, different mechanism: HOMONYM. The netcode
+quaternion-double-cover rhyme does NOT transfer, exactly as the
+hypothesis note's weakest-evidence-class warning anticipated. LEDGER: D1
+(one Z/2 orientation, P1+P2) and D2 (P3) unchanged; nothing derived,
+nothing leaves. PROCESS FINDING: the preregistered binary was
+UNDER-SPECIFIED — (a)'s consequent fails and (b)'s "stays value-type" is
+also wrong; the split was reported rather than forced to a nearest match.
+CHEAPEST NEW QUESTION: if the orbit-sign Z/2 IS the time-orientation
+character, the datum's natural home is a TIME-ORIENTATION OF THE
+LORENTZIAN BASE, not a boundary framing — never asked in that form.
+Scope caveat: the loop lives in the metric fibre F; transfer to L^13 is
+hostage to M-H7 gaps O2/O3 (the framing negative is robust either way).
