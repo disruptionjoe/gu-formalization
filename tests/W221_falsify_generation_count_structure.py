@@ -1,6 +1,31 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 r"""
+RE-SCOPE BANNER (2026-08-03; J5-passed:
+lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md).
+The imposter A/B fork is RESOLVED(A) at 0.90: the source's "Imposter Third
+Generation" (2021 draft eq 12.22 underbrace, sec 12.10, p.65 ix) is the
+S(V)(x)S(W) spin-1/2 slot (dim 128), NOT the RS(3,1)(x)S(6,4) term this
+test treats as the third family. Consequences:
+  * The computed rep theory below is UNCHANGED and remains green: the
+    branching S+(10) -> (4,2,1)(+)(4bar,1,2), the RS internal Weyl content
+    16, and the H-line arithmetic are exact facts about the subspaces.
+  * The verdict "SURVIVES" is RE-SCOPED, not fired: it certifies only that
+    the 2+1 assembly THIS test modeled (2 generations in the spinor legs
+    + 1 RS generation -- Reading B) is not structurally forbidden. Under
+    the source-corrected reading that assembly is not the author's: the RS
+    term is a NON-generation sector (the draft's "new cousin spin-3/2
+    'generation'", p.52), and the two true families are nu and the
+    gamma-trace part of zeta upstairs on Y14 (draft p.62, p.65 viii-ix).
+  * This test therefore no longer certifies anything about the program's
+    actual (source-corrected) generation story, and no falsification of
+    the A-assembly has been run here. The 128's internal content is
+    VECTORLIKE -- 16(+)16bar per ambient omega-half, base-Weyl
+    multiplicity 2 (P-Q2-3: 32/32/32/32). Do NOT cite this file as "one
+    generation from the imposter slot" or as a survival of the
+    generation-count leg under Reading A.
+Verdict logic and exit coupling below are untouched (regression value).
+
 W221 -- FALSIFICATION test of the GENERATION-COUNT leg of Geometric Unity.
 
 METHOD (strict, NON-NAIVE). ASSUME GU IS CORRECT and GRANT every unbuilt piece

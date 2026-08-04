@@ -37,13 +37,23 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
   odd/odd SPLITS OF 14 (e.g. 3+11, 9+5 as splits) — that is about the
   base+fibre split, not the ambient signature. GU's split is 4+10,
   even/even, so the product rule applies under either signature.
-- "IMPOSTER" A-vs-B: the 128 S(V)⊗S(W) (spin-1/2) vs the RS spin-3/2 family
-  — different subspaces, unadjudicated; W221's SURVIVES depends on (B).
-  TYPED 2026-08-03 (explorations/imposter-reading-adjudication-2026-08-03.md:
-  homonym with disputed referent; 12-row dependency table). For Reading A the
-  block is kinematically VECTORLIKE under BOTH signatures (64+64; joint
-  32/32/32/32) — PH-K1-KINEMATIC = CONFIRMED, hostile-reviewed; the PHYSICAL
-  firing still needs the A/B referent + observation/VEV/BRST maps.
+- "IMPOSTER" A-vs-B: **RESOLVED(A) 2026-08-03, confidence 0.90** (J5-passed:
+  lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md). The
+  imposter/third-generation LABEL attaches to the 128 S(V)⊗S(W) spin-1/2
+  slot: the 2021 draft's eq (12.22) underbrace, §12.10, and p.65 ix concur
+  on the F-shaped term; the graded factor-2 is typed BY THE SOURCE as the
+  two ambient chirality halves (printed 64±/832±; F↦128, Q↦384, Z↦1152);
+  the RS 384 carries the draft's separate "new cousin spin-3/2
+  'generation'" label. LABEL ONLY: the block is kinematically VECTORLIKE
+  (PH-K1-KINEMATIC CONFIRMED, 64+64, joint 32/32/32/32); PH-K1-PHYSICAL
+  stays OPEN/BLOCKED; P3, Rung 1, and the Π_RS^phys fence stand; any chiral
+  use of the 384 still owes the Witten-1983 exit. W221's SURVIVES is
+  RE-SCOPED to the B-shaped assembly (a non-generation RS sector — see the
+  W221 banner); under (A) the "2" of 2+1 are ν and the γ-trace part of ζ
+  upstairs, not product-rule occupants. Recorded residual (non-blocking):
+  the draft p.53 table applies imposter particle names to 144-internal
+  (Z-side) content — a second, looser usage; it cannot host the observed
+  family (draft p.52: non-F sectors are dark).
 - TWO IN-REPO "2+1"s: the ledger's block decomposition vs lega2's family
   census (roles inverted). Unadjudicated.
 - Kinematic ≠ physical carrier: Π_RS^phys does not exist (OQ-RK1

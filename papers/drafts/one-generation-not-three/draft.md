@@ -602,13 +602,17 @@ falsified* — a hypothesis this program raised, tested against the source, and 
 ### 10.3 The F/Q/Z decode
 
 The draft's eq (11.6) letters decode against the program's banked numbers as: Q = 6⊗16 (192, spin-3/2),
-Z = 2⊗144 (576), and F = 2⊗16 (64) — F being "the imposter — identical in form to a true generation."
-Ungraded, 384 + 1152 + 128 are the banked product-rule numbers, now carrying the author's own labels; and
-the author's "reunify" is recombination into the single Spin(7,7) irrep of dimension 832. **Open typing
-gate, carried honestly:** the map from F (64, graded) to the imposter block (128, ungraded) runs through a
-factor of two that is currently untyped; until that factor is typed, the textual identification of F with
-the §4 block is a supported reading, not a settled one. (This gate is also decision criterion #1 in the
-§11 fork.)
+Z = 2⊗144 (576), and F = 2⊗16 (64). On F the draft's own words are: "merely effectively identical to the
+other two and, presumably, only at low energy" (p.51) and "not a true generation as it has a different
+representation structure than the other two" (p.63), with the form-match point carried by p.62's "its
+Spin−1/2 appearance on X is the result of branching rules under pull back from Y where it is native." (An
+earlier gloss quoted here — "identical in form to a true generation" — occurs nowhere in the draft and is
+retracted; exact-string search, twice independently.) Ungraded, 384 + 1152 + 128 are the banked
+product-rule numbers, now carrying the author's own labels; and the author's "reunify" is recombination
+into the single Spin(7,7) irrep of dimension 832. **Typing gate closed (2026-08-03):** the factor of two
+is typed by the source itself as the two ambient chirality halves — the draft prints 64± and 832± as
+graded dimensions and eq (12.20) dimension-superscripts one chirality half as S̸⁶⁴_{L/R} — closing
+decision criterion #1 in the §11 fork.
 
 ### 10.4 The statement census and the assignment discrepancy
 
@@ -671,17 +675,29 @@ transfers to the 384 in the Witten-1983 form (§12), and the program's older SUR
 rather than fired. If Reading A wins: the older branching-closure statements about the RS term as a
 generation need correction banners, and the spin-3/2 family faces §12 directly anyway.
 
-### 11.3 Decision criteria and status
+### 11.3 Resolution (2026-08-03): the label attaches to Reading A
 
-The typed adjudication row (2026-08-03) fixes the decision criteria: (1) a primary-source ingestion of
-draft §11–§12.10 mapping eq (12.22)'s third term onto the banked numbers through a *typed* F/Q/Z factor-2;
-(2) the phenomenological burden — the measured third generation (t, b, τ, ν_τ) is spin-1/2 with V−A
-currents, so Reading B owes a mechanism for a spin-3/2 fundamental family to present as spin-1/2, while
-Reading A's "pairs like spin-1/2" datum is kinematic-only and non-transportable — a typing constraint, not
-evidence; (3) the queued computational deciders, none of which resolves the referent alone; (4) the prior-
-art asymmetry of §12. **Status: OPEN.** A resolution proposal is under preparation within the program; per
-its governance it becomes citable only after passing hostile field-specialist review, and this paper must
-be updated at that time. Until then, this paper's every label-attachment is explicitly conditional.
+The named decider ran. The April 2021 draft was ingested directly (SHA-256-matched to the program's prior
+receipt) and both preregistered prongs held. Under the draft's own grading convention the eq (11.6)
+letters map F ↦ 128 = S(V)⊗S(W), Q ↦ 384 = RS(V)⊗S(W), Z ↦ 1152 = S(V)⊗RS(W), with the factor of two
+typed by the source itself as the two ambient chirality halves: the draft prints 64± and 832± as graded
+dimensions, and eq (12.20) dimension-superscripts one chirality half of the plain spinor bundle as
+S̸⁶⁴_{L/R}. The "Imposter Third Generation" underbrace at eq (12.22) sits on the third, S̸(TX)⊗S̸(Nג)
+term — set in bold — and on nothing else; §12.10's prose ("its Spin−1/2 appearance on X is the result of
+branching rules under pull back") and the p.65 synopsis item ix concur; and the Q-shaped RS slot carries
+the draft's own different label ("a new cousin spin-3/2 'generation'", p.52). Two further source facts
+close the loop: the p.52 darkness assignment (sectors not labeled F "are currently dark to us") and
+eq (12.20)'s "Luminous Light Standard Model Family Matter" overbrace place the observed, luminous third
+family in F-shaped content — the RS and Z sectors could not host (t, b, τ, ν_τ) on the draft's own terms.
+**Status: RESOLVED(A), confidence 0.90** (hostile field-specialist review passed 2026-08-03; label
+attachment only). This paper's Reading-A voice in §§4–7 and 9 is now source-licensed rather than
+conditional. Unchanged: the 128 is kinematically vectorlike (§9), the count kills stand, and nothing here
+asserts a physical chiral third generation. One residual is carried honestly: the draft's p.53 table
+applies imposter particle names to content summing to the Z-internal 144 — a second, looser usage of
+"imposter" (§11.2's heading is plural), recorded as a source caveat; under no reading does it attach the
+label to the RS slot. The older Reading-B artifacts (the generation-count falsification test, the
+2026-06-22 branching closure, PC2 item B2) are re-scoped per the resolution's dependency table, and §12's
+Witten-1983 gate remains binding on any future chiral use of the RS 384.
 
 ---
 
