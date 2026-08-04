@@ -736,3 +736,20 @@ full-field odd action (`TG-2`), and odd Ward/BV closure (`TG-3`) remain open,
 so Wave 2 is partial and the campaign does not yet advance to observation or
 external data. The result makes no domain, vacuum, particle, physics, or
 P1/P2/P3 claim.
+
+# K77 Wave 2 Dirac--de Rham and super-IG requirement rebase (2026-08-04)
+
+[`k77-wave2-dirac-derham-superig-rebase-2026-08-04.md`](k77-wave2-dirac-derham-superig-rebase-2026-08-04.md)
+recovers the missing source-native fermion-operator gate. It distinguishes the
+ordinary Hodge--de Rham Dirac, Weinstein's truncated
+`Omega0 -> Omega1 -> Omega13 -> Omega14` chain, the rolled seesaw operator,
+the draft's four-field slash-`D_omega` matrix, and the unreleased cyclic
+two-connection proposal. The exact real K77 principal candidate is invertible
+off the null cone and has rank `1024` with an explicit 896-dimensional kernel
+on it. Curt's complete iceberg steps 19--23 are retained as the detailed
+secondary construction witness, but three kinematic pieces remain distinct
+from a physical chiral generation count. Source reinspection also removes a
+full odd action/Ward identity as a default GU prerequisite; algebraic
+super-IG bracket/Jacobi/real-form/global-descent obligations remain. Wave 2 is
+still partial on exact draft placement, global Hodge/Krein adjoint,
+preboundary, and common domain. No physics or P1/P2/P3 status moves.

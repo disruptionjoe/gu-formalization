@@ -1103,3 +1103,39 @@ P1/P2/P3 status moves.
   simultaneous Krein compatibility, field-versus-parameter identification,
   the full odd action, and odd Ward/BV closure. An even gauge Ward identity or
   `Xi=D Upsilon` cannot substitute for `TG-2/TG-3`.
+
+---
+
+## Revision 20 (2026-08-04, Dirac--de Rham/super-IG requirement correction)
+
+Sources:
+`explorations/k77-wave2-dirac-derham-superig-rebase-2026-08-04.md`,
+`lab/process/k77-wave2-dirac-derham-superig-rebase.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-dirac-derham-superig-rebase-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, or
+P1/P2/P3 status moves.
+
+- Before declaring a Dirac operator absent, distinguish the ordinary
+  Hodge--de Rham Dirac, a truncated form chain, its rolled two-by-two operator,
+  a displayed source matrix, and an unreleased cyclic completion. Shared
+  “Dirac/de Rham” language is not an identity receipt.
+- A fibrewise zero-order contraction composed **after a differential** is a
+  first-order operator. Do not let a component's standalone order erase the
+  order of the composed middle map.
+- For a rank computation over the rationals, a full-rank modular minor is a
+  lower certificate. Pair it with an explicit complementary kernel or another
+  upper bound before reporting exact deficient rank. Independent Sage replay
+  is corroboration, not a substitute for that two-sided certificate.
+- In an indefinite/nonchiral setting, failure of a bare middle block to be
+  self-adjoint does not kill the fermion action. Test the cross-paired operator
+  with its Krein adjoint. Keep that completion conditional until the source's
+  actual block placement and global pairing are identified.
+- A supersymmetry-like **algebraic extension** does not automatically demand
+  an odd action symmetry. Source-check that requirement before spending waves
+  on an odd Noether/BV identity. Preserve bracket, Jacobi, real-form, source-
+  group, and global descent obligations even when the action demand is
+  removed.
+- Keep detailed secondary derivations such as Curt's 30-step iceberg as
+  construction witnesses, primary author statements as source locators, and
+  exact repo computations as a third grade. None may silently promote the
+  others.

@@ -399,6 +399,47 @@ active evasion mechanism, and guardian symmetry is presently unnecessary.
 
 ---
 
+## 10. Successor correction: algebraic super-IG does not default to an odd action (2026-08-04)
+
+The modern source resolves one requirement question which this note left too
+strong. In the TOE conversation at `01:43:43--01:44:14`, the question “Do you
+have an action?” is explicitly raised in connection with the supersymmetry-
+like extension, and Weinstein says that is not what is needed to do GU. Portal
+2020 `01:29:47` likewise says spinorial products should land in the linear
+sector and that mapping them into the nonlinear sector is not wanted.
+
+Accordingly, items 4--5 in the older “upgrade” list are **conditional** rather
+than mandatory:
+
+- if super-IG is asserted only as an algebraic/group extension, require the
+  odd module, symmetric bracket into the linear connection sector, even
+  equivariance, Jacobi, real-pairing/source-group compatibility, and global
+  descent;
+- if a future construction additionally asserts an odd action symmetry, then
+  require the odd field action, Ward/BV identity, domain preservation, and
+  preboundary/master-equation data.
+
+The K77 successor supplies a new pointwise positive result. Let `B` be the
+split symmetric invariant pairing, `J` ambient chirality, and `Omega=BJ`.
+For opposite-half inputs, the mixed moment map
+
+\[
+\mu_\Omega(u_+,v_-)=u_+v_-^T\Omega+v_-u_+^T\Omega
+\]
+
+is nonzero and simultaneously preserves `B` and `Omega`, equivalently it
+commutes with `J` while lying in `so(B)`. After choosing the perfect
+cross-half pairing, the simultaneous infinitesimal stabilizer is
+conditionally `gl(64,R)`. This closes the earlier pointwise simultaneous-
+pairing compatibility question on that reduced algebra. It does **not**
+identify the reduction with the full source `H`/`U(64,64)`, integrate a global
+supergroup, or count generations.
+
+See `explorations/k77-wave2-dirac-derham-superig-rebase-2026-08-04.md` and its
+exact probe.
+
+---
+
 ## References
 
 - `NEXT-STEPS.md`, "UCSD Transcript Analysis - New Tasks" section.

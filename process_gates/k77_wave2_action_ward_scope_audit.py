@@ -12,6 +12,7 @@ REGISTRY = ROOT / "lab/process/k77-wave2-action-current-riesz-superig-ward-rende
 REPORT = ROOT / "explorations/k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md"
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-04-k77-wave2-action-ward-review.md"
 CAMPAIGN = ROOT / "lab/process/k77-post-b2-next-eight-wave-campaign.json"
+SUCCESSOR = ROOT / "lab/process/k77-wave2-dirac-derham-superig-rebase.json"
 
 
 def unique_object(pairs):
@@ -30,6 +31,7 @@ def load_json(path: Path):
 def main() -> None:
     registry = load_json(REGISTRY)
     campaign = load_json(CAMPAIGN)
+    successor = load_json(SUCCESSOR)
     report = " ".join(REPORT.read_text(encoding="utf-8").lower().split())
     review = " ".join(REVIEW.read_text(encoding="utf-8").lower().split())
 
@@ -58,14 +60,23 @@ def main() -> None:
     assert registry["external_datum"] == {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"}
     assert all(value is False for value in registry["status_boundary"].values())
 
+    # The original action/current result remains immutable evidence.  The
+    # campaign itself has a source-triggered successor which rebases the odd
+    # action demand and exposes the missing Dirac--de Rham operator gate.
     wave2 = campaign["waves"][1]
-    assert wave2["status"] == "PARTIAL_FROZEN_LOCAL_ACTION_EVEN_WARD__ODD_SUPERIG_ACTION_OPEN"
-    assert wave2["result_ref"].endswith("k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md")
+    assert wave2["status"] == "PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN"
+    assert wave2["result_ref"].endswith("k77-wave2-dirac-derham-superig-rebase-2026-08-04.md")
     assert "ACTION_FIRST_NO_SEPARATE_BRIDGE" in wave2["emitted"]
-    assert "TG2_FULL_FIELD_ODD_ACTION" in wave2["open_blockers"]
-    assert "TG3_ODD_WARD_BV" in wave2["open_blockers"]
+    assert "EXACT_DRAFT_916_GLOBAL_OPERATOR_PLACEMENT" in wave2["open_blockers"]
+    assert "GLOBAL_HODGE_KREIN_REALITY_ADJOINT_AND_PREBOUNDARY" in wave2["open_blockers"]
     assert campaign["frontier"]["next_wave"] == 2
     assert campaign["frontier"]["next_named_gate"] == "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
+    assert successor["gate_status"] == wave2["status"]
+    assert successor["superig_rebase"]["not_source_required"] == [
+        "FULL_ODD_ACTION_SYMMETRY",
+        "ODD_NOETHER_WARD_BV_IDENTITY",
+        "ODD_MAP_TO_NONLINEAR_IG_SECTOR",
+    ]
 
     for token in (
         "source-faithful, nonduplicating primary construction",
@@ -88,7 +99,7 @@ def main() -> None:
         assert token in review, f"missing review token: {token}"
 
     print("k77_wave2_action_ward_scope_audit: PASS")
-    print("  action-first current ownership, indefinite musical, even Ward, TG1/TG2/TG3 boundary, and held-out wall retained")
+    print("  original action/current evidence retained; successor Dirac--de Rham rebase recognized without rewriting provenance")
 
 
 if __name__ == "__main__":

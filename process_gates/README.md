@@ -74,6 +74,7 @@ selected notes below and in each script header.
 - `issue_template_validation_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
+- `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -862,3 +863,17 @@ the bridge policy, and records the real mixed rolled bracket as partial
 `TG-1` only. `TG-2`, `TG-3`, source-group/Krein compatibility, observation,
 domain, vacuum, physics, and P1/P2/P3 remain open; the campaign frontier stays
 on the same named Wave-2 gate.
+
+## K77 Wave 2 Dirac--de Rham/super-IG rebase scope gate
+
+`k77_wave2_dirac_derham_superig_rebase_scope_audit.py` fail-closes the
+five-object Layer-0 split between ordinary de Rham Dirac, truncated chain,
+rolled seesaw operator, displayed draft matrix, and unreleased cyclic
+completion. It requires the exact `1920/1920/1024` symbol ranks and 896 null
+kernel, retains the bare-middle adjoint failure and conditional nonchiral
+cross-pairing, and recognizes the source correction from a mandatory odd
+action/Ward to an algebraic super-IG extension. It preserves Curt's three
+kinematic pieces without a count inference, keeps full source-group/global
+descent and the draft-9.16/Krein/preboundary/domain placement open, and
+forbids observation, physics, P1/P2/P3, lane, canon, or public-posture
+promotion.

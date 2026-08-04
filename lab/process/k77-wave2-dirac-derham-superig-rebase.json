@@ -1,0 +1,106 @@
+{
+  "artifact": "K77_WAVE2_DIRAC_DERHAM_SUPERIG_REQUIREMENT_REBASE",
+  "version": "2026-08-04",
+  "named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+  "gate_status": "PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN",
+  "layer0_objects": [
+    "ORDINARY_CONNECTION_COUPLED_HODGE_DERHAM_DIRAC",
+    "TRUNCATED_OMEGA0_OMEGA1_OMEGA13_OMEGA14_CHAIN",
+    "ROLLED_TWO_BY_TWO_DIRAC_RARITA_SCHWINGER_SEESAW_OPERATOR",
+    "DRAFT_916_SLASH_D_OMEGA_FOUR_FIELD_MATRIX",
+    "UNRELEASED_CYCLIC_TWO_CONNECTION_D_SQUARED"
+  ],
+  "source_collision": {
+    "curt_iceberg_steps_19_23": "SECONDARY_DETAILED_CONSTRUCTION_WITNESS",
+    "eric_truncated_chain_middle_contraction_hodge": "SOURCE_CONFIRMS",
+    "southeast_zero_seesaw": "SOURCE_CONFIRMS",
+    "draft_916_global_exact_placement": "SOURCE_DISPLAYED_BUT_LOCAL_EXTRACTION_INCOMPLETE",
+    "cyclic_two_connection_completion": "SOURCE_UNRELEASED",
+    "full_odd_action_and_odd_Ward_requirement": "SOURCE_CORRECTS_TO_NOT_REQUIRED_FOR_GU",
+    "superig_linear_sector_bracket": "SOURCE_CONFIRMS_AS_ALGEBRAIC_TARGET"
+  },
+  "operator": {
+    "domain": "OMEGA1_S_PLUS_OMEGA0_S",
+    "codomain": "OMEGA13_S_PLUS_OMEGA14_S",
+    "hodge_identified_symbol": "[[PHI_XI_WEDGE, XI_WEDGE],[-IOTA_XI,0]]",
+    "middle_symbol": "A_XI_ZETA_A_EQUALS_GAMMA_B_TIMES_XI_B_ZETA_A_MINUS_XI_A_ZETA_B",
+    "southeast": "ZERO_SOURCE_STATED",
+    "grade": "SOURCE_GUIDED_K77_PRINCIPAL_CANDIDATE",
+    "global_selected_operator": "OPEN"
+  },
+  "exact_fixture": {
+    "carrier": "REAL_CL77_M128R_SPINOR_DIMENSION_128",
+    "matrix_dimension": 1920,
+    "positive_nonnull_rank": 1920,
+    "negative_nonnull_rank": 1920,
+    "null_rank": 1024,
+    "null_kernel_dimension": 896,
+    "characteristic_set": "K77_NULL_CONE",
+    "rank_certificate": "NONZERO_MINOR_MOD_1000003_PLUS_EXPLICIT_COMPLEMENTARY_KERNEL",
+    "independent_route": "SAGE_GF1000003_REPLAY_1920_1920_1024",
+    "checks": {
+      "source": 11,
+      "type": 14,
+      "exact": 20,
+      "planted": 7,
+      "total": 52
+    }
+  },
+  "variational_placement": {
+    "bare_middle_B_selfadjoint": false,
+    "bare_middle_B_skew": false,
+    "conditional_completion": "CROSS_PAIR_D_WITH_KREIN_ADJOINT_ACROSS_NONCHIRAL_PARTNER",
+    "current_policy": "CONNECTION_VARIATION_EMITS_JD_PLUS_JF_ONCE__NO_SEPARATE_BRIDGE",
+    "exact_draft_identity": "OPEN",
+    "global_hodge_krein_boundary_domain": "OPEN"
+  },
+  "superig_rebase": {
+    "required": [
+      "ODD_MODULE",
+      "SYMMETRIC_BRACKET_TO_LINEAR_CONNECTION_SECTOR",
+      "EVEN_EQUIVARIANCE",
+      "JACOBI",
+      "GLOBAL_DESCENT",
+      "REAL_PAIRING_COMPATIBILITY"
+    ],
+    "not_source_required": [
+      "FULL_ODD_ACTION_SYMMETRY",
+      "ODD_NOETHER_WARD_BV_IDENTITY",
+      "ODD_MAP_TO_NONLINEAR_IG_SECTOR"
+    ],
+    "pointwise_result": "MIXED_OPPOSITE_HALF_BRACKET_LANDS_IN_SIMULTANEOUS_B_OMEGA_STABILIZER",
+    "conditional_reduced_algebra": "gl(64,R)",
+    "full_source_group_identification": "OPEN",
+    "global_supergroup": "OPEN",
+    "third_lane": "NOT_PROMOTED"
+  },
+  "curt_family_disposition": {
+    "omega0_gamma_trace_gamma_traceless_pieces": "LOCATED_KINEMATICALLY",
+    "three_physical_chiral_generations": "NOT_DERIVED",
+    "P3": "UNUSED"
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIRS__GATE_PARTIAL",
+  "next_gate": "K77_WAVE2_GLOBAL_DRAFT916_KREIN_ADJOINT_PREBOUNDARY_AND_COMMON_DOMAIN",
+  "held_open": [
+    "EXACT_DRAFT_916_BLOCK_PLACEMENT",
+    "GLOBAL_HODGE_KREIN_REALITY_ADJOINT",
+    "PREBOUNDARY_PAIRING_AND_CLOSED_DOMAIN",
+    "COUPLED_BOSON_FERMION_EULER_CURRENT_WARD_ON_ONE_DOMAIN",
+    "OBSERVATION_BV_GROUPOID",
+    "VACUUM_AND_PARTICLE_RECOVERY",
+    "PHYSICAL_CHIRALITY_ANOMALY_AND_GENERATION_COUNT"
+  ],
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "status_boundary": {
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "lane_change": false,
+    "public_posture_change": false,
+    "third_lane_promoted": false,
+    "physics_status_change": false
+  }
+}

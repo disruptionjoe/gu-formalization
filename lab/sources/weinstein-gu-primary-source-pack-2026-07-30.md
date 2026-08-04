@@ -413,3 +413,29 @@ Those are construction prompts, not answers by quotation. The next swing
 must write the rival action and its first variation, then let the result
 either reduce the current/placement freedom or kill the source-native
 branch.
+
+## 2026-08-04 addendum: released Dirac--de Rham grammar versus unreleased cyclic completion
+
+The modern TOE transcript supplies a stronger fermion-operator directive than
+the earlier `SOURCE-NEGATIVE` summary captured:
+
+| window | source content | construction disposition |
+|---|---|---|
+| TOE `02:38:12--02:39:51` | couple the de Rham differential to a non-flat connection, lose `d_A^2=0`, and roll `d_A,d_A*` into a one-step operator rather than a complex | `SOURCE-CONFIRMS` rolled curved operator grammar |
+| TOE `02:40:30--02:43:30` | truncate `0 -> 1 -> 13 -> 14`; differentiate `Omega1` to `Omega2`, contract to `Omega1`, then Hodge-star; keep a southeast zero | `SOURCE-CONFIRMS` first-order middle and seesaw block shape |
+| Into the Impossible `00:34:27--00:36:13` | independently names the de Rham--Dirac--Einstein/Dirac--Rarita--Schwinger object and the two-form-to-one-form Shiab symbol | `SOURCE-CONFIRMS` same released arena |
+| draft p.46 eqs. 9.16--9.20 | displays slash-`D_omega` on four signed `zeta/nu` fields | `SOURCE-DISPLAYS`; exact global coefficient/reality/lower-right identity remains incomplete in the local extraction |
+| TOE `02:44:06--02:45:43` | describes a new cyclic two-connection `D^2` as never released | `SOURCE-UNRELEASED`; no reconstruction from the spoken mnemonic |
+
+Layer 0 now forbids identifying the released first-order middle
+`star Phi d_A` with the older `(9,5)` schematic `d_A+d_A*+Phi`, whose `Phi`
+was treated as additive zero-order. The exact K77 principal candidate and
+rank certificate are in
+`explorations/k77-wave2-dirac-derham-superig-rebase-2026-08-04.md`.
+
+The same reinspection corrects the super-IG requirement. TOE
+`01:43:43--01:44:14` explicitly declines the action question as unnecessary
+for doing GU, and Portal `01:29:47` places spinor products in the linear IG
+sector. The source burden is an algebraic super-extension unless odd action
+symmetry is separately asserted; a full odd Ward/BV identity is not a default
+source prerequisite.

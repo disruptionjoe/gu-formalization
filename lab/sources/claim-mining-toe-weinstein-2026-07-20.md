@@ -481,3 +481,46 @@ posture moves; no probe run; N6 not run (Joe-gated); no existing file
 edited. The three priority-target verdicts are typed evidence for the
 next N6 gate discussion and for the claim ledger's next update, both of
 which happen outside this pass.
+
+---
+
+## 9. Successor correction: the de Rham operator and the odd-action homonym (2026-08-04)
+
+The K77 Wave-2 reinspection changes two dispositions without changing any
+generation/count claim.
+
+### 9.1 The released operator grammar is stronger than a zero-order Shiab
+
+Rows 18 and 25 must be read with the complete `02:38:12--02:45:43` window.
+The released portion distinguishes:
+
+1. the curved connection-coupled de Rham sequence, where `d_A^2=F_A`;
+2. rolling `d_A` and `d_A*` into an operator because it is no longer a
+   complex;
+3. truncating to `Omega0 -> Omega1 -> Omega13 -> Omega14`;
+4. the middle differential `star o Phi o d_A`; and
+5. a southeast-zero two-by-two seesaw operator.
+
+Therefore the older reconstruction `d_A+d_A*+Phi`, with `Phi` classified as
+an additive zero-order term, is not an identity to the modern spoken
+operator. The composed middle `Phi o d_A` is first-order. The separate cyclic
+two-connection `D^2` remains author-claimed and unreleased.
+
+### 9.2 “Do you have an action?” does not impose an odd action on GU
+
+At `01:43:43--01:44:14`, the spacetime-supersymmetry action question is raised
+and Weinstein says it is not what is needed to do GU. Read with Portal 2020
+`01:29:47`, the positive claim is algebraic: products of fractional-spin/
+spinorial fields land in the **linear connection sector** of the
+inhomogeneous gauge group. This supports an odd module and bracket; it does
+not source-require an odd action symmetry, odd Noether identity, or map into
+the nonlinear sector.
+
+**Disposition:** `SOURCE-CORRECTS` the prior Wave-2 requirement. Full odd
+action/Ward is no longer a GU construction prerequisite unless a future
+source or construction separately asserts odd action symmetry. Global
+super-IG bracket descent, Jacobi, real-form compatibility, and source-group
+identification remain open.
+
+The exact successor construction and boundary are recorded in
+`explorations/k77-wave2-dirac-derham-superig-rebase-2026-08-04.md`.
