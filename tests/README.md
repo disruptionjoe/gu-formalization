@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2h3_source_epsilon_curvature_orbit_graph_probe.py`
+  verifies exact connection-level gauge curvature through a live mixed source
+  slot, rejects omission of `epsilon^-1 d epsilon`, and constructs the formal
+  active Spin(9,5) curvature/trace/Phi/Shiab orbit through `(1,r,s,rs)`. The
+  moved residual equals transport, both partial routes are live, and the full
+  residual norm stays `(981/64,0,0,0)`. It closes only the conditional local
+  orbit, not the global real-form bundle port or either C4 bank. Run it with
+  `uv run --with sympy==1.14.0 python`.
 - `channel-swings/pw2fr2b2b2h2_i2b_second_residual_primalizer_pairing_probe.py`
   constructs the conditional active residual, Hodge primalizer, and symmetric
   pairing second jet on the accepted nonlinear coframe. It recovers the

@@ -13,6 +13,16 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2H3 conditional source-epsilon curvature-orbit graph`](pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-2026-08-04.md)
+  proves exact connection-level curvature conjugacy through a live mixed
+  source-coordinate slot, with a four-entry defect when the Maurer--Cartan
+  term is omitted. On the conditional active Spin(9,5) port, curvature and
+  explicitly moved operator jets close with coordinate counts
+  `(360,132,121,121)` and residual counts `(13,2,2,2)`; the fully co-moving
+  residual norm stays `(981/64,0,0,0)`. This is a local conditional orbit,
+  not the missing global public-source-to-active real-form bundle morphism.
+  Both complete C4 banks remain open. P1/P2/P3 remain unused; Curt and the
+  third-lane gate are unchanged.
 - [`PW2F-R2B2B2H2 conditional I2B residual/primalizer/pairing second jet`](pw2fr2b2b2h2-complete-i2b-second-residual-primalizer-pairing-2026-08-04.md)
   applies the accepted mixed Shiab operator to the active 13-coordinate
   off-shell residual and constructs its moving Hodge primalizer/pairing. The

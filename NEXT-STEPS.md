@@ -7,6 +7,27 @@ updated_at: "2026-08-04"
 
 # Next Steps For Contributors
 
+> **2026-08-04 PW2F-R2B2B2H3 CONDITIONAL LOCAL SOURCE-EPSILON
+> CONNECTION/CURVATURE/OPERATOR ORBIT CLOSED; GLOBAL REAL-FORM PORT NEXT.**
+> An independent exact noncommuting connection fixture proves
+> `F(epsilon^-1 Gamma epsilon + epsilon^-1 d epsilon) =
+> epsilon^-1 F(Gamma) epsilon` through a live mixed slot. Omitting the
+> Maurer--Cartan term leaves a four-entry defect. On the conditional active
+> Spin(9,5) port, the curvature jet has coordinates `(360,132,121,121)`, the
+> explicitly moved trace/Phi/Hodge/projector/Shiab graph equals transport,
+> and the residual jet has `(13,2,2,2)` coordinates. Curvature-only and
+> operator-only routes are separately live, while the fully co-moving
+> residual norm is exactly `(981/64,0,0,0)`.
+>
+> This closes only the local conditional source orbit. The public-source to
+> active real-form bundle morphism and descent atlas remain open, so neither
+> 35-monomial `I1 A4` nor `I2B C4` bank is assembled. Resume at
+> `PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS`
+> before multi-index Green/Helmholtz, the live C3 return, or projective
+> classification. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-2026-08-04.md`.
+
 > **2026-08-04 PW2F-R2B2B2H2 FIXED-BACKGROUND I2B SECOND
 > RESIDUAL/PRIMALIZER/PAIRING JET CLOSED; GLOBAL SOURCE-EPSILON CURVATURE
 > GRAPH NEXT.** The accepted mixed Shiab operator now acts on the active

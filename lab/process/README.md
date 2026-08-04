@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-registry.json` -
+  PW2F-R2B2B2H3 ledger: records exact mixed connection-level curvature
+  conjugacy, the live Maurer--Cartan omission defect, active curvature jet
+  `(360,132,121,121)`, explicit moved-operator/transport agreement, residual
+  jet `(13,2,2,2)`, and invariant norm `(981/64,0,0,0)`. It closes only the
+  conditional local source orbit; the global source-to-active real-form
+  bundle morphism and both complete C4 banks remain open.
 - `pw2fr2b2b2h2-i2b-second-residual-primalizer-pairing-registry.json` -
   PW2F-R2B2B2H2 ledger: records the active 13-coordinate off-shell residual,
   full-carrier norm `981/64`, moving pairing jet

@@ -6,14 +6,14 @@
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2H2-I2B-SECOND-RESIDUAL-PRIMALIZER-PAIRING",
-    "status": "CONDITIONAL_ACTIVE_FIXED_BACKGROUND_I2B_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET_CLOSED__GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_OPEN",
-    "earned": "exact active 13-coordinate residual plus moving Hodge primalizer/pairing jet; base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, and complete five-family reassembly with three live routes; frozen-primalizer, omitted-mixed-residual, nonzero-D2R, positive-Hilbert, and bank-promotion plants reject",
-    "scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair on the accepted fixed spin-curvature background; closes the scoped residual/operator/primalizer/pairing second jet only; the global/source-epsilon curvature graph, complete I1 A4 and I2B C4 banks, multi-index Green/Helmholtz, live C3, projective kappa1, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
+    "gate": "PW2F-R2B2B2H3-SOURCE-EPSILON-CURVATURE-ORBIT-GRAPH",
+    "status": "CONDITIONAL_ACTIVE_LOCAL_SOURCE_EPSILON_CONNECTION_CURVATURE_OPERATOR_ORBIT_GRAPH_CLOSED__GLOBAL_REAL_FORM_BUNDLE_MORPHISM_OPEN",
+    "earned": "exact connection-level curvature conjugacy through one live four-entry mixed source slot; four-entry omitted-Maurer-Cartan defect; noncommuting active Spin(9,5) curvature jet coordinates (360,132,121,121); explicit moved trace/Phi/Hodge/projector/Shiab graph equals transport with residual coordinates (13,2,2,2); co-moving residual norm jet (981/64,0,0,0); six hostile plants reject",
+    "scope": "one exact matrix source-coordinate fixture and one formal two-direction conditional active Spin(9,5) orbit on the accepted reconstructed curvature/operator/residual port; closes only the local conditional connection/curvature/operator orbit through mixed order; the global public-source-to-active real-form bundle morphism/descent atlas, complete I1 A4 and I2B C4 banks, multi-index Green/Helmholtz, live C3, projective kappa1, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
   },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
@@ -786,6 +786,16 @@
           "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
           "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
           "next_gate": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
+        },
+        "post_b2c15r3_pw2fr2b2b2h3": {
+          "status": "CONDITIONAL_ACTIVE_LOCAL_SOURCE_EPSILON_CONNECTION_CURVATURE_OPERATOR_ORBIT_GRAPH_CLOSED__GLOBAL_REAL_FORM_BUNDLE_MORPHISM_OPEN",
+          "result": "EXACT_NONCOMMUTING_SOURCE_CONNECTION_CURVATURE_CONJUGACY__LIVE_MIXED4__OMITTED_MAURER_CARTAN_DEFECT4__ACTIVE_SPIN9_5_CURVATURE_JET_360_132_121_121__FIRST_AND_MIXED_COMMUTATOR_REASSEMBLY__GRADE2_RIGHT_H_KREIN_CPLUS_ALL_SLOTS__EXPLICIT_MOVED_TRACE_PHI_HODGE_PROJECTOR_SHIAB_EQUALS_TRANSPORT__RESIDUAL_JET_13_2_2_2__CURVATURE_ONLY_AND_OPERATOR_ONLY_ROUTES_LIVE__FULL_RESIDUAL_NORM_JET_981_OVER64_0_0_0__SIX_PLANTS_REJECT",
+          "source_disposition": "SOURCE_CONFIRMS_EPSILON_CONNECTION_DIFFERENCE_GRAMMAR__REPOSITORY_DERIVES_LOCAL_ACTIVE_CURVATURE_OPERATOR_ORBIT__SOURCE_SILENT_ON_PUBLIC_SOURCE_TO_ACTIVE_REAL_FORM_BUNDLE_MORPHISM_DESCENT_ATLAS_COMPLETE_BANKS_GREEN_DOMAIN_AND_PHYSICS",
+          "exact_tools": "MAIN35_PASS__MATRIX_CURVATURE_CONJUGACY__FOUR_FAMILY_MIXED_REASSEMBLY__ACTIVE_REALITY__EXPLICIT_OPERATOR_VS_TRANSPORT__INVARIANT_RESIDUAL_NORM__SIX_PLANTED_REJECTIONS",
+          "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+          "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+          "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+          "next_gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
         }
       }
     },
