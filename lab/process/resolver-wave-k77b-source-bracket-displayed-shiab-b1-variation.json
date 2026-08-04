@@ -1,0 +1,69 @@
+{
+  "artifact": "resolver_wave_k77b_source_bracket_displayed_shiab_b1_variation",
+  "created": "2026-08-04",
+  "named_gate": "RESOLVER-WAVE-K77B-SOURCE-BRACKET-NORMALIZATION-DISPLAYED-SHIAB-AND-B1-VARIATION",
+  "layer_0": {
+    "source_quadratic": "matrix-valued exterior product T_omega wedge T_omega",
+    "graded_self_bracket": "[T_omega,T_omega]_graded",
+    "connection_difference": "SOURCE_DERIVED_IF_REFERENCE_CONNECTION_SYMBOLS_MATCH__NOT_SEPARATELY_PRINTED_AS_A_EQUALS_B_PLUS_T",
+    "ordinary_spacetime_torsion": "DISTINCT_OBJECT",
+    "b1_density": "DISTINCT_FROM_TRANSLATION_EULER_COVECTOR",
+    "observed_equation": "DISTINCT_FROM_AMBIENT_TRANSLATION_EULER_COVECTOR"
+  },
+  "bracket_normalization": {
+    "source_object": "T_WEDGE_MATRIX_T",
+    "graded_relation": "[T,T]_graded=2*T_wedge_matrix_T",
+    "source_status": "SOURCE_INTERNAL_NORMALIZATION_WITNESS"
+  },
+  "source_collision": {
+    "classification": "SOURCE_CORRECTS",
+    "finding": "Draft equation 9.4 writes one third [T,T], while equation 12.4 rewrites the same B1 term as one third T wedge T; the action's operative quadratic is therefore the matrix-valued exterior product, not a separately doubled graded bracket.",
+    "magic_bracket_classification": "SOURCE_CONFIRMS_MAGIC_BRACKET_FREEDOM_NOT_INDEPENDENT_NODEWISE_SELECTION",
+    "boundary": "This resolves normalization only; it does not select an invariant Shiab, independently authorize all nodewise product triples, prove a Green identity, or derive an observed field equation."
+  },
+  "shiab_family": {
+    "displayed_raw_product_status": "CANONICAL_LOW_GRADE_RAW_REALIZATION_KILLED_AT_AD_CODOMAIN_ON_EXACT_K77_FIXTURES",
+    "source_inspired_repair_bank": "NODEWISE_UNHALVED_COMMUTATOR_OR_I_ANTICOMMUTATOR",
+    "source_authorization_boundary": "OPERATIONS_SOURCE_EMITTED__INDEPENDENT_CHOICE_AT_EACH_NODE_NOT_SOURCE_SELECTED",
+    "low_grade_channel_count": 8,
+    "representation_multiplicity": {
+      "phi_1_copies": 2,
+      "phi_2_copies": 2,
+      "status": "SAGE_D7_CERTIFIED"
+    },
+    "real_equivariance": "ALL_FOUR_LOW_HIGH_PHI_COPIES_PASS_91_INFINITESIMAL_SPIN77_GENERATORS",
+    "broader_source_natural_rival_table": "OPEN__CONTRACTION_VOLUME_BRACKET_SYMMETRIC_PRODUCT_AND_SUM_VARIANTS",
+    "selector_status": "OPEN"
+  },
+  "b1_variation": {
+    "scope": "FIXED_EPSILON_FIXED_METRIC_LOCAL_TRANSLATION_VARIATION",
+    "constant_fixture_bank_status": "SIX_LIVE_CHANNELS_FAIL__TWO_ZERO_DEFECT_CHANNELS_VACUOUS",
+    "passing_live_low_grade_channels": [],
+    "derivative_green_sector": "OPEN",
+    "full_euler_noether_domain": "OPEN"
+  },
+  "verdict": {
+    "earned_result": "SOURCE_BRACKET_NORMALIZED__CANONICAL_LOW_GRADE_RAW_SHIAB_KILLED_AT_AD_CODOMAIN__SIX_LIVE_SOURCE_INSPIRED_LOW_GRADE_MAPS_KILLED_AT_ENDPOINT_IDENTITY",
+    "kill_scope": "CANDIDATE_MAP_KILL",
+    "k77_lane_killed": false,
+    "atomic_targets_preserved": true
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-K77-SHIAB-FAMILY-SELECTOR-AND-TRANSGRESSION-EXACTNESS",
+    "status": "OPEN"
+  },
+  "assertion_counts_final": {
+    "exact": 28,
+    "sage": 1,
+    "source": 6,
+    "type": 12,
+    "planted": 8,
+    "total": 55
+  },
+  "hostile_review_status": "PASS_AFTER_MATERIAL_NORMALIZATION_AND_SCOPE_REPAIR"
+}

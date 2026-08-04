@@ -1,0 +1,86 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-04",
+  "named_gate": "RESOLVER-WAVE-K77B-SOURCE-BRACKET-NORMALIZATION-DISPLAYED-SHIAB-AND-B1-VARIATION",
+  "gate_before": "NONCHIRAL_PARENT_AND_OBSERVATION_BLOCKS_CONFIRMED__VEV_BLOCK_CLASSIFIED_NOT_SELECTED__EFFECTIVE_CHIRALITY_NOT_DERIVED",
+  "gate_after": "SOURCE_BRACKET_NORMALIZED__CANONICAL_LOW_GRADE_RAW_SHIAB_CODOMAIN_KILL__LOW_GRADE_REPAIRS_NOT_VARIATIONALLY_CERTIFIED",
+  "route_disposition": "CONTINUE_K77_THROUGH_DISPLAYED_ANSATZ_AND_BROADER_SHIAB_RIVAL_CENSUS",
+  "hostile_review_status": "PASS_AFTER_MATERIAL_NORMALIZATION_AND_SCOPE_REPAIR",
+  "source_collision": [
+    "SOURCE_CORRECTS_BRACKET_NORMALIZATION",
+    "SOURCE_CONFIRMS_MAGIC_BRACKET_FREEDOM_AND_MISSING_SELECTOR"
+  ],
+  "bracket_normalization": {
+    "source_quadratic": "T_WEDGE_MATRIX_T",
+    "graded_self_bracket": "2*T_WEDGE_MATRIX_T",
+    "independent_cyclic_transgression_check": "PASS"
+  },
+  "literal_shiab": {
+    "reading": "CANONICAL_LOW_GRADE_RAW_ASSOCIATIVE_COEFFICIENT_PRODUCTS",
+    "advertised_codomain": "Omega13(real_u64_64)",
+    "fixture_A_B_skew_B_self": [10, 4],
+    "fixture_B_B_skew_B_self": [2, 12],
+    "status": "CANDIDATE_MAP_KILL"
+  },
+  "low_grade_repairs": {
+    "source_grade": "SOURCE_INSPIRED_NODEWISE_BANK__OPERATIONS_SOURCE_EMITTED__INDEPENDENT_NODE_CHOICES_NOT_SOURCE_SELECTED",
+    "product_channels": 8,
+    "ad_closed": 8,
+    "nonvacuous_on_endpoint_bank": 6,
+    "nonvacuous_passing": 0,
+    "zero_defect_vacuous": 2,
+    "status": "NOT_VARIATIONALLY_CERTIFIED"
+  },
+  "invariant_family": {
+    "phi1_multiplicity": 2,
+    "phi2_multiplicity": 2,
+    "low_high_grades": [[1, 13], [2, 12]],
+    "sage_D7_status": "PASS",
+    "real_equivariance": "ALL_FOUR_COPIES_PASS_91_GENERATORS",
+    "scope": "FULL_PHI_CARRIER_INSIDE_DISPLAYED_ANSATZ__NOT_FULL_SHIAB_RIVAL_FAMILY",
+    "broader_source_natural_rival_table": "OPEN",
+    "algebraic_curvature_selector": "OPEN_PENDING_EXPLICIT_INJECTION_INTO_OMEGA2_AD_AND_BIANCHI_RESTRICTION",
+    "selector_status": "OPEN"
+  },
+  "scope": {
+    "fixed_epsilon_metric_translation_variation": true,
+    "constant_algebraic_cubic_mass_sector": true,
+    "derivative_green": false,
+    "full_euler_noether_bv_domain": false,
+    "observation_descent": false,
+    "physics_recovery": false
+  },
+  "kill_policy": {
+    "highest_earned_scope": "CANDIDATE_MAP_KILL",
+    "mechanism_killed": false,
+    "lane_killed": false,
+    "conditional_program_killed": false,
+    "atomic_targets_preserved": true
+  },
+  "assertion_counts_initial": {
+    "exact": 21,
+    "sage": 1,
+    "source": 6,
+    "type": 12,
+    "planted": 8,
+    "total": 48
+  },
+  "assertion_counts_repaired": {
+    "exact": 28,
+    "sage": 1,
+    "source": 6,
+    "type": 12,
+    "planted": 8,
+    "total": 55
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused"
+  },
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "next_gate": "RESOLVER-WAVE-K77-SHIAB-FAMILY-SELECTOR-AND-TRANSGRESSION-EXACTNESS"
+}

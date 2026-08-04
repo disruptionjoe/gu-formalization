@@ -650,3 +650,19 @@ vacuum, global observation, quotient, domain, poles/residues, effective
 chirality, generation count, and dark-sector identity remain open. The
 three-block-to-three-generations inference is killed at Layer 0; P1/P2/P3
 remain unchanged and unused.
+
+# Resolver Wave K77-B (2026-08-04)
+
+`resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md`
+uses the draft's equations (9.4) and (12.4) to close the old bracket ambiguity:
+the source quadratic is matrix-valued `T wedge T`, one half of the graded
+self-bracket. On the real K77 carrier, the literal associative-product Shiab
+leaves its advertised real-adjoint codomain. All eight low-grade
+source-inspired commutator/`i`-symmetric reconstructions are ad-closed, but six live channels fail the
+same-action endpoint bank and the two zero-defect channels are vacuous. Exact
+D7 multiplicities expose independent high-grade Phi copies, so this is a
+candidate-map result rather than a lane kill. The next gate constructs the
+full low/high Phi carrier inside the displayed ansatz, enumerates broader
+source-natural rivals, and imposes Bianchi, algebraic-curvature,
+transgression, and derivative/Green selectors. K77-C, physical particles,
+and P1/P2/P3 use remain open.

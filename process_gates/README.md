@@ -122,6 +122,9 @@ selected notes below and in each script header.
 - `resolver_wave_g_scope_audit.py`
 - `resolver_wave_h_scope_audit.py`
 - `resolver_wave_i_scope_audit.py`
+- `resolver_wave_k77a_scope_audit.py`
+- `resolver_wave_k77b_scope_audit.py`
+- `resolver_wave_k_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `scripts_readme_surface_map_audit.py`
@@ -788,3 +791,16 @@ source arithmetic until actual K77 projectors exist, kills only the
 three-block-to-three-generation map, and requires physical
 action, VEV, observation, domain, pole/residue, count, dark-sector identity,
 and P1/P2/P3 use to remain open.
+
+## Resolver Wave K77-B scope gate
+
+`resolver_wave_k77b_scope_audit.py` preserves the draft-internal normalization
+`T wedge T = one-half [T,T]_graded`, distinguishes the literal raw
+associative-product Shiab from the source-permitted commutator/`i`-symmetric
+family, and retains the exact raw-adjoint-codomain counterexamples. It requires
+the six live low-grade channels to remain failed on the same-action endpoint
+bank and the two zero-defect channels to remain explicitly vacuous. It keeps
+the high-grade invariant copies and full Phi family open, forbids promotion
+from a constant algebraic fixture to derivative/Green, Euler/Noether/BV,
+domain, observation, or physics, and holds the result at candidate-map rather
+than mechanism/lane/program scope. P1/P2/P3 remain unused.

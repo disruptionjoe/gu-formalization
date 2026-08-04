@@ -846,3 +846,33 @@ No scientific register row or protected verdict moves.
 - **Next named gate:**
   `RESOLVER-WAVE-K77B-SOURCE-BRACKET-NORMALIZATION-DISPLAYED-SHIAB-AND-B1-VARIATION`.
   P1/P2/P3 remain unchanged and unused.
+
+---
+
+## Revision 15 (2026-08-04, Resolver Wave K77-B)
+
+Sources:
+`explorations/resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation-2026-08-04.md`
+and `lab/process/hostile-reviews/2026-08-04-resolver-wave-k77b-review.md`.
+No scientific register row or protected verdict moves.
+
+- A primary-source internal collision closes the quadratic convention:
+  equation (12.4)'s `T wedge T` fixes equation (9.4)'s bracket notation to one
+  half of the graded self-bracket. Future waves may not reopen the old factor
+  without a new source or mathematical contradiction.
+- Layer 0 now separates connection difference, ordinary spacetime torsion,
+  B1 top-form density, ambient translation Euler covector, and observed
+  four-dimensional equation.
+- The literal associative-product reading of the displayed Shiab fails its
+  real-adjoint codomain on exact K77 fixtures. This is a candidate-map kill,
+  not a theory or lane verdict.
+- All eight source-inspired low-grade commutator/`i`-symmetric product
+  channels are ad-closed. Six are nonvacuous and fail the same-action endpoint
+  bank; the remaining two are zero/zero and receive no promotion.
+- Sage D7 character arithmetic finds two invariant Phi1 and two Phi2 copies,
+  exposing a four-coordinate low/high-grade family. The next gate applies the
+  algebraic-curvature/Bianchi and transgression/Helmholtz selectors before
+  adding derivative/Green ownership.
+- K77-C effective chirality and the 37 atomic targets do not advance until a
+  common bosonic action candidate exists. P1/P2/P3 remain unchanged and
+  unused.
