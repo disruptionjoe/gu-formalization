@@ -75,6 +75,7 @@ selected notes below and in each script header.
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
+- `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -877,3 +878,16 @@ kinematic pieces without a count inference, keeps full source-group/global
 descent and the draft-9.16/Krein/preboundary/domain placement open, and
 forbids observation, physics, P1/P2/P3, lane, canon, or public-posture
 promotion.
+
+## K77 Wave 2 draft-9.16/primalizer-template scope gate
+
+`k77_wave2_global_draft916_krein_preboundary_scope_audit.py` preserves the
+identity-grade page-46 matrix while fail-closing the distinction between the
+local source bilinear, a density-dual operator, its Hodge/Krein primalizer,
+the primalized formal adjoint, a candidate variational core, and a physical
+domain. It requires the `(7,7)` Hodge signs, exact general/finite template
+receipts, model labels on overlap/current/Ward fixtures, and the corrected
+gamma-trace splitting. It keeps the actual sixteen-block D916 assembly,
+`rho(epsilon)` descent, common connection variation, observation, physics,
+families, and P1/P2/P3 open, and prevents the campaign from advancing beyond
+Wave 2.

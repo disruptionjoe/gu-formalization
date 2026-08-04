@@ -753,3 +753,18 @@ full odd action/Ward identity as a default GU prerequisite; algebraic
 super-IG bracket/Jacobi/real-form/global-descent obligations remain. Wave 2 is
 still partial on exact draft placement, global Hodge/Krein adjoint,
 preboundary, and common domain. No physics or P1/P2/P3 status moves.
+
+# K77 Wave 2 rendered draft-9.16 and primalizer templates (2026-08-04)
+
+[`k77-wave2-global-draft916-krein-preboundary-common-domain-2026-08-04.md`](k77-wave2-global-draft916-krein-preboundary-common-domain-2026-08-04.md)
+visually fixes the complete four-field matrix from draft equation 9.16 and
+then separates the local bilinear `D916:E->E!` from the missing primalizer
+`R:E!->E`, the primalized formal adjoint, a candidate variational core, and a
+closed physical domain. Exact controls fix the `(7,7)` Hodge signs, finite
+primalizer inverses, moving-pairing Green template, and discriminating model
+fixtures. Three hostile reviewers unanimously rejected the initial promotion
+of those templates to an actual global K77 operator. Wave 2 remains partial
+until all sixteen blocks, actual primalizer/multi-index adjoint,
+`rho(epsilon)` descent, and common `J_D+J_F`/even-Ward core are assembled. The
+observer-provenance incidence census remains a Wave-3 preflight; no physics,
+family count, or P1/P2/P3 status moves.

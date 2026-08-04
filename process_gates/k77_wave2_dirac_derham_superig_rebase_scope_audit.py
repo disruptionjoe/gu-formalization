@@ -12,6 +12,7 @@ REGISTRY = ROOT / "lab/process/k77-wave2-dirac-derham-superig-rebase.json"
 REPORT = ROOT / "explorations/k77-wave2-dirac-derham-superig-rebase-2026-08-04.md"
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-04-k77-wave2-dirac-derham-superig-rebase-review.md"
 CAMPAIGN = ROOT / "lab/process/k77-post-b2-next-eight-wave-campaign.json"
+CURRENT = ROOT / "lab/process/k77-wave2-global-draft916-krein-preboundary.json"
 
 
 def unique_object(pairs):
@@ -34,6 +35,7 @@ def normalized(path: Path) -> str:
 def main() -> None:
     registry = load_json(REGISTRY)
     campaign = load_json(CAMPAIGN)
+    current = load_json(CURRENT)
     report = normalized(REPORT)
     review = normalized(REVIEW)
 
@@ -73,11 +75,13 @@ def main() -> None:
     assert all(value is False for value in registry["status_boundary"].values())
 
     wave2 = campaign["waves"][1]
-    assert wave2["status"] == registry["gate_status"]
+    assert wave2["status"] == current["gate_status"]
     assert "SOURCE_TYPED_0_1_13_14_CHAIN" in wave2["emitted"]
     assert "ODD_ACTION_WARD_REQUIREMENT_FORMALLY_REBASED" in wave2["emitted"]
     assert campaign["frontier"]["next_wave"] == 2
-    assert campaign["frontier"]["next_required_build"] == "GLOBAL_DRAFT916_KREIN_ADJOINT_PREBOUNDARY_AND_COMMON_DOMAIN"
+    assert campaign["frontier"]["next_required_build"] == "ACTUAL_DRAFT916_K77_BLOCKWISE_ADJOINT_DESCENT_AND_COMMON_CONNECTION_VARIATION"
+    assert current["built_now"]["formal_adjoint"].startswith("EXACT_GENERAL_PRIMALIZED_FIRST_ORDER_TEMPLATE")
+    assert current["campaign_disposition"]["wave2"] == "PARTIAL"
 
     for token in (
         "five nearby objects",

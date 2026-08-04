@@ -13,6 +13,7 @@ REPORT = ROOT / "explorations/k77-wave2-action-current-riesz-superig-ward-rendez
 REVIEW = ROOT / "lab/process/hostile-reviews/2026-08-04-k77-wave2-action-ward-review.md"
 CAMPAIGN = ROOT / "lab/process/k77-post-b2-next-eight-wave-campaign.json"
 SUCCESSOR = ROOT / "lab/process/k77-wave2-dirac-derham-superig-rebase.json"
+CURRENT = ROOT / "lab/process/k77-wave2-global-draft916-krein-preboundary.json"
 
 
 def unique_object(pairs):
@@ -32,6 +33,7 @@ def main() -> None:
     registry = load_json(REGISTRY)
     campaign = load_json(CAMPAIGN)
     successor = load_json(SUCCESSOR)
+    current = load_json(CURRENT)
     report = " ".join(REPORT.read_text(encoding="utf-8").lower().split())
     review = " ".join(REVIEW.read_text(encoding="utf-8").lower().split())
 
@@ -61,17 +63,20 @@ def main() -> None:
     assert all(value is False for value in registry["status_boundary"].values())
 
     # The original action/current result remains immutable evidence.  The
-    # campaign itself has a source-triggered successor which rebases the odd
-    # action demand and exposes the missing Dirac--de Rham operator gate.
+    # campaign itself has source-triggered successors which rebase the odd
+    # action demand, build the Dirac--de Rham symbol, and then expose the
+    # still-open actual D916 assembly. Historical registries remain immutable.
     wave2 = campaign["waves"][1]
-    assert wave2["status"] == "PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN"
-    assert wave2["result_ref"].endswith("k77-wave2-dirac-derham-superig-rebase-2026-08-04.md")
+    assert wave2["status"] == current["gate_status"]
+    assert wave2["result_ref"].endswith("k77-wave2-global-draft916-krein-preboundary-common-domain-2026-08-04.md")
     assert "ACTION_FIRST_NO_SEPARATE_BRIDGE" in wave2["emitted"]
-    assert "EXACT_DRAFT_916_GLOBAL_OPERATOR_PLACEMENT" in wave2["open_blockers"]
-    assert "GLOBAL_HODGE_KREIN_REALITY_ADJOINT_AND_PREBOUNDARY" in wave2["open_blockers"]
+    assert "ACTUAL_DRAFT916_SIXTEEN_BLOCK_K77_ASSEMBLY" in wave2["carried_debt"]
+    assert "ACTUAL_DENSITY_DUAL_PRIMALIZER_AND_MULTIINDEX_ADJOINT" in wave2["carried_debt"]
     assert campaign["frontier"]["next_wave"] == 2
     assert campaign["frontier"]["next_named_gate"] == "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
-    assert successor["gate_status"] == wave2["status"]
+    assert campaign["frontier"]["next_required_build"] == "ACTUAL_DRAFT916_K77_BLOCKWISE_ADJOINT_DESCENT_AND_COMMON_CONNECTION_VARIATION"
+    assert successor["gate_status"] == "PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN"
+    assert current["campaign_disposition"]["wave2"] == "PARTIAL"
     assert successor["superig_rebase"]["not_source_required"] == [
         "FULL_ODD_ACTION_SYMMETRY",
         "ODD_NOETHER_WARD_BV_IDENTITY",

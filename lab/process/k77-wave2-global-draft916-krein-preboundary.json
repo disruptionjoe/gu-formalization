@@ -1,0 +1,120 @@
+{
+  "artifact": "K77_WAVE2_GLOBAL_DRAFT916_KREIN_PREBOUNDARY_COMMON_DOMAIN",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+  "gate_status": "PARTIAL__DRAFT916_SOURCE_MATRIX_AND_FORMAL_PRIMALIZER_TEMPLATES_BUILT__ACTUAL_D916_K77_ASSEMBLY_OPEN",
+  "source_receipt": {
+    "official_pdf_sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+    "page": 46,
+    "equations": ["9.16", "9.17", "9.18", "9.19", "9.20"],
+    "rendered_identity_grade": true,
+    "barred_fields_independent": true,
+    "column_order": ["ZETA_PLUS", "ZETA_MINUS", "NU_PLUS", "NU_MINUS"],
+    "row_order": ["BAR_ZETA_MINUS", "BAR_ZETA_PLUS", "BAR_NU_MINUS", "BAR_NU_PLUS"]
+  },
+  "source_collision": {
+    "four_field_matrix": "SOURCE_DISPLAYS_CANDIDATE",
+    "southeast_zero": "SOURCE_DISPLAYS_2021__REITERATES_PROSPECTIVELY_2025",
+    "nonzero_southeast": "SOURCE_ADMITS_UNSPECIFIED_RIVAL",
+    "global_krein_adjoint": "SOURCE_SILENT__CONSTRUCTION_REQUIRED",
+    "preboundary_and_domain": "SOURCE_SILENT__CONSTRUCTION_REQUIRED",
+    "three_kinematic_pieces": "SOURCE_ASSERTS_WITH_HEDGES",
+    "three_observed_chiral_families": "SOURCE_ASSERTS_WITH_HEDGES__DOES_NOT_DERIVE"
+  },
+  "layer0_objects": [
+    "DRAFT_916_LOCAL_BILINEAR",
+    "DENSITY_DUAL_OPERATOR_D916_E_TO_EBANG",
+    "PRIMALIZER_R_EBANG_TO_E",
+    "PRIMALIZED_OPERATOR_R_D916",
+    "FORMAL_KREIN_ADJOINT",
+    "CANDIDATE_VARIATIONAL_CORE",
+    "CLOSED_PHYSICAL_EVOLUTION_DOMAIN",
+    "OBSERVED_EQUIVARIANT_CHIRAL_FAMILY_INDEX"
+  ],
+  "built_now": {
+    "rendered_draft_916_matrix": "EXACT_SOURCE_TRANSCRIPTION",
+    "k77_hodge_square_signs": "EXACT_FOR_DEGREES_0_1_13_14",
+    "primalizer": "FINITE_EXACT_COORDINATE_TEMPLATE__ACTUAL_128_SPINOR_MAP_OPEN",
+    "formal_adjoint": "EXACT_GENERAL_PRIMALIZED_FIRST_ORDER_TEMPLATE__ACTUAL_D916_SUBSTITUTION_OPEN",
+    "green_density": "EXACT_GENERAL_TEMPLATE",
+    "overlap_descent": "EXACT_NONCONSTANT_O11_THREE_PATCH_MODEL__ACTUAL_D916_DESCENT_OPEN",
+    "southeast_fork": "FINITE_KSKEW_NONUNIQUENESS_CONTROL__ACTUAL_NONZERO_K77_RIVAL_OPEN",
+    "current_and_ward": "FINITE_ONE_INSERTION_AND_CONJUGATION_CONTROLS__ACTUAL_JD_JF_AND_EVEN_IG_INHERITED_NOT_RECOMPUTED",
+    "variational_core": "CANDIDATE_COMPACT_SUPPORT_PRODUCT_TYPED__COMMON_INVARIANCE_OPEN"
+  },
+  "actual_d916_burden": [
+    "INSTANTIATE_ALL_SIXTEEN_K77_BLOCKS_AND_FORM_DEGREES",
+    "CONSTRUCT_DENSITY_DUAL_LIFT_AND_ACTUAL_PRIMALIZER",
+    "DERIVE_FULL_MULTIINDEX_FORMAL_ADJOINT",
+    "COMPARE_LOWER_LEFT_AFTER_SOURCE_ROW_PERMUTATION",
+    "PROVE_ACTUAL_RHO_EPSILON_TRANSITION_DESCENT",
+    "PROVE_COMMON_BOSON_FERMION_COMPACT_SUPPORT_CORE",
+    "REDERIVE_JD_PLUS_JF_ONCE_ON_SAME_CORE",
+    "REDERIVE_MOVING_EVEN_IG_WARD_ON_SAME_CORE"
+  ],
+  "hodge_primalizer": {
+    "formula": "STAR_SQUARE_P_EQUALS_MINUS_ONE_POWER_P_TIMES_14_MINUS_P_PLUS_7",
+    "degree_0": -1,
+    "degree_1": 1,
+    "degree_13": 1,
+    "degree_14": -1,
+    "omega13_to_omega1_inverse_sign": "PLUS_STAR_B_INVERSE",
+    "omega14_to_omega0_inverse_sign": "MINUS_STAR_B_INVERSE",
+    "density_convention": "FIXED_BEFORE_COORDINATE_REALIZATION"
+  },
+  "observer_family_disposition": {
+    "kinematic_pieces": [
+      "OMEGA0_S",
+      "CHOSEN_SPLITTING_IMAGE_S_GAMMA_OF_IM_GAMMA_IN_OMEGA1_S",
+      "KER_GAMMA_IN_OMEGA1_S"
+    ],
+    "three_complex_observer_carriers": "EXISTING_EXACT_CHARACTER_RESULT__REAL_K77_OPERATOR_INCIDENCE_OPEN",
+    "three_observed_chiral_families": "NOT_DERIVED",
+    "wave3_preflight": "K77_OBSERVER_PROVENANCE_SYMBOL_INCIDENCE_CENSUS__NOT_ADMITTED_UNTIL_WAVE2_CLOSES",
+    "p3_receiver": "NOT_YET_BUILT"
+  },
+  "exact_fixture": {
+    "source": 7,
+    "type": 23,
+    "exact": 19,
+    "planted": 5,
+    "total": 54,
+    "failures": 0
+  },
+  "review_contract": {
+    "divergent_preassessment": [
+      "KREIN_OPERATOR_HYPERBOLIC_PDE",
+      "PRIMARY_SOURCE_ARCHAEOLOGY",
+      "OBSERVER_REPRESENTATION_THEORY"
+    ],
+    "hostile_post_charges": [
+      "SUMMARY_OUTRUNS_ARTIFACT",
+      "ARTIFACT_DEFENDS_SUPERSEDED_OBJECT",
+      "FORMAL_VARIATIONAL_DOMAIN_PROMOTED_TO_PHYSICAL_DOMAIN"
+    ],
+    "hostile_review": "COMPLETE__UNANIMOUS_REPAIR_AND_PARTIAL_DISPOSITION",
+    "review_ref": "lab/process/hostile-reviews/2026-08-04-k77-wave2-global-draft916-krein-preboundary-review.md"
+  },
+  "campaign_disposition": {
+    "wave2": "PARTIAL",
+    "current_wave": 2,
+    "current_named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+    "next_required_build": "ACTUAL_DRAFT916_K77_BLOCKWISE_ADJOINT_DESCENT_AND_COMMON_CONNECTION_VARIATION",
+    "wave3_preflight_retained": "K77_OBSERVER_PROVENANCE_SYMBOL_INCIDENCE_CENSUS"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "status_boundary": {
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "lane_change": false,
+    "third_lane_promoted": false,
+    "physics_recovery_claim": false,
+    "generation_count_claim": false
+  }
+}

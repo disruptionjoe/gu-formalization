@@ -1139,3 +1139,38 @@ P1/P2/P3 status moves.
   construction witnesses, primary author statements as source locators, and
   exact repo computations as a third grade. None may silently promote the
   others.
+
+---
+
+## Revision 21 (2026-08-04, draft-9.16 primalizer/template promotion repair)
+
+Sources:
+`explorations/k77-wave2-global-draft916-krein-preboundary-common-domain-2026-08-04.md`,
+`lab/process/k77-wave2-global-draft916-krein-preboundary.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-global-draft916-krein-preboundary-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, or P1/P2/P3 status moves.
+
+- An exact generic formal-adjoint theorem or finite overlap fixture is not an
+  actual global operator assembly. Every result must say whether coefficients,
+  form degrees, transitions, and the full displayed block matrix were really
+  instantiated.
+- When a source bilinear naturally types as `D:E->E!`, construct the
+  density/Hodge/pairing primalizer `R:E!->E` before asking whether `R D` is
+  Krein self-adjoint. In `(7,7)`, track the different Hodge-square signs on
+  degrees `0/14` and `1/13`; never copy the inverse sign between them.
+- A principal-symbol test must extract derivative coefficients from the
+  computed operator. Comparing an expected expression to itself is a planted
+  theater failure even if the formula on both sides is correct.
+- Source bars and stars are adjoint-shaped ingredients, not an
+  integration-by-parts theorem. Displayed `rho(epsilon)` factors are a
+  covariance ansatz, not a global descent proof.
+- Finite current, Ward, and K-skew comparators retain their value when labeled
+  honestly. They do not recompute an actual moving action or establish
+  form-degree/gauge-compatible southeast rivals.
+- Type the gamma-trace decomposition as `Omega0`, a chosen splitting image
+  `s_Gamma(im Gamma) subset Omega1`, and `ker Gamma subset Omega1`; the raw
+  image of `Gamma:Omega1->Omega0` does not live in `Omega1`.
+- Hostile post-review must compare the summary to the instantiated object
+  before campaign advancement. Here all three reviewers caught the same
+  compression error and reverted Wave 3 to Wave 2 partial.

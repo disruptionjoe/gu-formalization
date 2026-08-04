@@ -421,9 +421,9 @@ the earlier `SOURCE-NEGATIVE` summary captured:
 
 | window | source content | construction disposition |
 |---|---|---|
-| TOE `02:38:12--02:39:51` | couple the de Rham differential to a non-flat connection, lose `d_A^2=0`, and roll `d_A,d_A*` into a one-step operator rather than a complex | `SOURCE-CONFIRMS` rolled curved operator grammar |
-| TOE `02:40:30--02:43:30` | truncate `0 -> 1 -> 13 -> 14`; differentiate `Omega1` to `Omega2`, contract to `Omega1`, then Hodge-star; keep a southeast zero | `SOURCE-CONFIRMS` first-order middle and seesaw block shape |
-| Into the Impossible `00:34:27--00:36:13` | independently names the de Rham--Dirac--Einstein/Dirac--Rarita--Schwinger object and the two-form-to-one-form Shiab symbol | `SOURCE-CONFIRMS` same released arena |
+| TOE `02:38:12--02:39:51` | couple the de Rham differential to a non-flat connection, lose `d_A^2=0`, and roll `d_A,d_A*` into a one-step operator rather than a complex | `SOURCE-STATES` rolled curved-operator grammar; no global realization theorem follows from the statement |
+| TOE `02:40:30--02:43:30` | truncate `0 -> 1 -> 13 -> 14`; differentiate `Omega1` to `Omega2`, contract to `Omega1`, then Hodge-star; keep a southeast zero | `SOURCE-STATES` first-order middle grammar and `SOURCE-REITERATES-PROSPECTIVELY` the seesaw zero |
+| Into the Impossible `00:34:27--00:36:13` | independently names the de Rham--Dirac--Einstein/Dirac--Rarita--Schwinger object and the two-form-to-one-form Shiab symbol | `SOURCE-STATES` the same released arena |
 | draft p.46 eqs. 9.16--9.20 | displays slash-`D_omega` on four signed `zeta/nu` fields | `SOURCE-DISPLAYS`; exact global coefficient/reality/lower-right identity remains incomplete in the local extraction |
 | TOE `02:44:06--02:45:43` | describes a new cyclic two-connection `D^2` as never released | `SOURCE-UNRELEASED`; no reconstruction from the spoken mnemonic |
 
@@ -439,3 +439,27 @@ for doing GU, and Portal `01:29:47` places spinor products in the linear IG
 sector. The source burden is an algebraic super-extension unless odd action
 symmetry is separately asserted; a full odd Ward/BV identity is not a default
 source prerequisite.
+
+## 2026-08-04 addendum: rendered identity-grade draft equation 9.16
+
+The official draft's page 46 has now been inspected visually and transcribed
+at identity grade in
+`lab/sources/gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md`.
+The receipt fixes the barred row order, unbarred column order, all sixteen
+blocks, the negative formal-adjoint-shaped lower-left quadrant, and the
+displayed southeast zero. The draft immediately admits versions with a
+nonzero lower-right map; the 2025 TOE conversation makes zero the strongest
+prospective source branch but does not prove it unique.
+
+The source collision for the next construction is now sharp:
+
+- `SOURCE-DISPLAYS-CANDIDATE`: the four-field bilinear and its
+  Hodge/Shiab/formal-star ingredients;
+- `SOURCE-DISPLAYS-2021 / REITERATES-PROSPECTIVELY-2025`: southeast zero;
+- `SOURCE-ADMITS-UNSPECIFIED-RIVAL`: a nonzero southeast map;
+- `SOURCE-SILENT`: the global density/Krein/reality adjoint, Green current,
+  common domain, and physical boundary selection.
+
+Accordingly, bars and stars in the display are inputs to an
+integration-by-parts construction, not a source proof of global
+self-adjointness.

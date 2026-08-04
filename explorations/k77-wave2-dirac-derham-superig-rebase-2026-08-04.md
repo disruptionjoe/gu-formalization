@@ -283,3 +283,17 @@ vacuum, four-dimensional observation theorem, Standard Model field equation,
 mass, pole, residue, anomaly, dark-sector prediction, chirality value,
 generation count, P1/P2/P3 use, lane change, canon change, or public-posture
 change is claimed.
+
+## Successor advance and correction (2026-08-04)
+
+`explorations/k77-wave2-global-draft916-krein-preboundary-common-domain-2026-08-04.md`
+visually transcribes the complete draft-9.16 four-field matrix, types it as a
+density-dual bilinear, fixes the K77 Hodge signs, and builds exact finite or
+general templates for the required primalizer, moving-pairing formal adjoint,
+Green density, overlap descent, southeast fork, and candidate variational
+core. Hostile review rejected promoting those templates to the actual global
+K77 operator. Wave 2 therefore remains `PARTIAL` until all sixteen D916 blocks,
+the actual primalizer, multi-index adjoint, `rho(epsilon)` descent, and common
+connection variation are assembled on the same core. A closed physical
+evolution domain, observation theorem, and physical family index remain later
+and separate gates.
