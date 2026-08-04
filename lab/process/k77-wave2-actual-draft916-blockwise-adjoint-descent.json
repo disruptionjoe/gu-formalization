@@ -1,0 +1,113 @@
+{
+  "artifact": "K77_WAVE2_ACTUAL_DRAFT916_BLOCKWISE_ADJOINT_DESCENT",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+  "gate_status": "PARTIAL__CONDITIONAL_TOTAL_GRADED_D916_RIVAL_BUILT__SOURCE_SIGN_IDENTIFICATION_FULL_CONNECTION_VARIATION_AND_FULL_H_DESCENT_OPEN",
+  "source_receipt": {
+    "official_pdf_sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+    "equation_916_page": 46,
+    "section_112_page": 51,
+    "equation_916_matrix": "SOURCE_DISPLAYS_CANDIDATE",
+    "section_112_field_signs": "SOURCE_STATES_AMBIENT_HALF_SPINOR",
+    "shia_b_family": "SOURCE_STATES_FAMILY__PREFERRED_SELECTION_NOT_LOCATED",
+    "southeast_zero": "SOURCE_DISPLAYS_2021__NONZERO_RIVAL_ADMITTED"
+  },
+  "source_sign_collision": {
+    "source_fields": {
+      "ZETA_MINUS": "OMEGA1_S_MINUS",
+      "ZETA_PLUS": "OMEGA1_S_PLUS",
+      "NU_PLUS": "OMEGA0_S_PLUS",
+      "NU_MINUS": "OMEGA0_S_MINUS"
+    },
+    "selected_ambient_j_parities": {
+      "PHI_D": -1,
+      "D": 1,
+      "MINUS_D_TIMES": 1
+    },
+    "uniform_same_or_cross_row_duality_solutions": 0,
+    "auxiliary_total_grading": "G_EQUALS_FORM_PARITY_TIMES_J__ALL_THREE_PRINCIPAL_CLASSES_ODD",
+    "disposition": "TOTAL_GRADED_RIVAL_WORKS_AFTER_ONE_FORM_RELABEL__SOURCE_IDENTIFICATION_NOT_ESTABLISHED"
+  },
+  "built_now": {
+    "real_k77_carrier": "CL77_M128R__B_SPLIT_SYMMETRIC__J_BALANCED_64_64",
+    "rolled_auxiliary_grading": "BALANCED_960_960",
+    "sixteen_cell_ledger": "ALL_CELLS_TYPED__SIX_FIRST_ORDER__FOUR_SOUTHEAST_ZERO",
+    "hodge_primalizer": "EXACT_FROZEN_DEGREES_0_1_13_14_WITH_SIGNS_MINUS_PLUS_PLUS_MINUS",
+    "formal_adjoint": "NONTRIVIAL_EVEN_SPIN_CONNECTION_WEDGE_EXACT__FULL_PHI_D_MULTIINDEX_OPEN",
+    "moving_epsilon": "EXACT_NONCONSTANT_THREE_PATCH_128_SPINOR_MOVING_CLIFFORD_AND_CONNECTION_DESCENT",
+    "current": "ONE_NONTRIVIAL_SPIN_CONNECTION_DIRECTION_EMITS_JD_ONCE__COMPLETE_SHARED_CORE_OPEN",
+    "superig": "INVERSE_TRACE_WEIGHTED_SPIN77_EQUIVARIANT_TWO_STEP_BRACKET__FULL_H_OPEN"
+  },
+  "superig_correction": {
+    "first_pass": "UNWEIGHTED_BIVECTOR_BASIS_SUM",
+    "failure": "NONCOMPACT_SPIN_EQUIVARIANCE_DEFECT",
+    "repair": "INVERSE_TRACE_METRIC_WEIGHTS_MINUS_ETA_A_ETA_B",
+    "repaired_equivariance": "EXACT_ON_THREE_INDEPENDENT_GENERATORS",
+    "moving_reduction_descent": "EXACT",
+    "full_source_h_descent": "OPEN"
+  },
+  "remaining_wave2_burden": [
+    "RECONCILE_SOURCE_AMBIENT_SIGNS_WITH_SHIAB_PARITY_OR_DEGREE_DEPENDENT_DUALITY",
+    "CONSTRUCT_ACTUAL_ZERO_ORDER_W_RS_COEFFICIENTS",
+    "DERIVE_FULL_MOVING_DENSITY_MULTIINDEX_ADJOINT",
+    "REDERIVE_ALL_CONNECTION_DIRECTIONS_WITH_PREDECESSOR_JD_JF_QF_ON_ONE_CORE",
+    "REDERIVE_COMPLETE_MOVING_EVEN_WARD_ON_THE_SAME_CORE",
+    "PROVE_MOVING_REDUCTION_EXISTENCE_OR_FULL_SOURCE_H_DESCENT"
+  ],
+  "next_gate": {
+    "id": "K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION",
+    "branches": [
+      "AMBIENT_PARITY_COMPATIBLE_SHIAB_MIDDLE_MAP",
+      "DEGREE_DEPENDENT_BARRED_FIELD_DUALITY_REALITY_MAP",
+      "PRIMARY_SOURCE_JUSTIFIED_SIGN_CORRECTION_OR_RELABEL"
+    ],
+    "wave3_admitted": false
+  },
+  "exact_fixture": {
+    "source": 8,
+    "type": 23,
+    "exact": 39,
+    "planted": 9,
+    "total": 79,
+    "failures": 0
+  },
+  "review_contract": {
+    "divergent_preassessment": [
+      "PRIMARY_SOURCE_ARCHAEOLOGY",
+      "CLIFFORD_REPRESENTATION_THEORY",
+      "DIFFERENTIAL_GEOMETRY",
+      "KREIN_GEOMETRY",
+      "VARIATIONAL_BICOMPLEX",
+      "HYPERBOLIC_OPERATOR_THEORY",
+      "LIE_SUPERALGEBRA_GROUP_COHOMOLOGY",
+      "SYMPLECTIC_GEOMETRY",
+      "FERMION_PHENOMENOLOGY",
+      "PROOF_ENGINEERING"
+    ],
+    "hostile_post_charges": [
+      "SUMMARY_OUTRUNS_SOURCE_FIELD_LABELS",
+      "AUXILIARY_GRADING_REPORTED_AS_SOURCE_GRADING",
+      "BASIS_DEPENDENT_BRACKET_REPORTED_AS_EQUIVARIANT",
+      "MOVING_FIXTURE_REPORTED_AS_GLOBAL_FULL_H_DESCENT",
+      "ONE_DIRECTION_CURRENT_REPORTED_AS_COMPLETE_COMMON_VARIATION",
+      "TYPED_ZERO_ORDER_SLOTS_REPORTED_AS_ACTUAL_COEFFICIENTS"
+    ],
+    "hostile_review": "COMPLETE__MATERIAL_SCOPE_REPAIR__WAVE2_PARTIAL",
+    "review_ref": "lab/process/hostile-reviews/2026-08-04-k77-wave2-actual-draft916-blockwise-review.md"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "status_boundary": {
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "lane_change": false,
+    "third_lane_promoted": false,
+    "physics_recovery_claim": false,
+    "generation_count_claim": false
+  }
+}

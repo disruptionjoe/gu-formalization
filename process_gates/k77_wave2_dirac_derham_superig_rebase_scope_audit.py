@@ -75,11 +75,11 @@ def main() -> None:
     assert all(value is False for value in registry["status_boundary"].values())
 
     wave2 = campaign["waves"][1]
-    assert wave2["status"] == current["gate_status"]
+    assert wave2["status"] == current["campaign_disposition"]["successor_status"]
     assert "SOURCE_TYPED_0_1_13_14_CHAIN" in wave2["emitted"]
     assert "ODD_ACTION_WARD_REQUIREMENT_FORMALLY_REBASED" in wave2["emitted"]
     assert campaign["frontier"]["next_wave"] == 2
-    assert campaign["frontier"]["next_required_build"] == "ACTUAL_DRAFT916_K77_BLOCKWISE_ADJOINT_DESCENT_AND_COMMON_CONNECTION_VARIATION"
+    assert campaign["frontier"]["next_required_build"] == "K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION"
     assert current["built_now"]["formal_adjoint"].startswith("EXACT_GENERAL_PRIMALIZED_FIRST_ORDER_TEMPLATE")
     assert current["campaign_disposition"]["wave2"] == "PARTIAL"
 

@@ -1174,3 +1174,32 @@ count, or P1/P2/P3 status moves.
 - Hostile post-review must compare the summary to the instantiated object
   before campaign advancement. Here all three reviewers caught the same
   compression error and reverted Wave 3 to Wave 2 partial.
+
+---
+
+## Revision 22 (2026-08-04, actual-carrier D916 rival and source-sign obstruction)
+
+Sources:
+`explorations/k77-wave2-actual-draft916-k77-blockwise-adjoint-descent-2026-08-04.md`,
+`lab/process/k77-wave2-actual-draft916-blockwise-adjoint-descent.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-actual-draft916-blockwise-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, or P1/P2/P3 status moves.
+
+- Reopen later source sections before assigning meanings to equation glyphs.
+  Here equation 9.16 alone permitted a total-grading interpretation, while
+  section 11.2 identity-grades the same `zeta+/-` and `nu+/-` glyphs as
+  ambient half-spinors.  The construction survives only as an explicit rival.
+- A decomposition that fits every matrix cell can still fail Layer 0.  Record
+  which labels were relabeled and run the incidence/parity problem under the
+  source's own typing before calling the fit source-native.
+- A functional on a noncompact Lie algebra becomes an algebra element only
+  after an invariant duality is supplied.  A same-basis coordinate sum is not
+  the inverse trace metric; it can pass compact-looking directions and fail
+  boosts.  Plant a noncompact equivariance test.
+- A moving-frame conjugation test establishes naturality of the moving
+  reduction, not equivariance under the full fixed source group.  Keep global
+  reduction existence and full-group descent as separate obligations.
+- One nonzero connection direction verifies current ownership and
+  non-vacuity.  It is not the complete connection derivative, common-core
+  Ward identity, or multi-index formal adjoint.

@@ -30,6 +30,14 @@ The source is the official April 1, 2021 Author's Working Draft v1.0:
 This closes the earlier identity-grade source-extraction gap. It does not
 turn the displayed candidate into a unique or globally defined operator.
 
+The candidate status is explicit. Section 9.3 says the fields can **"begin
+with operators like"** equation 9.16. Section 8 is titled **"The Family of
+Shiab Operators"**; section 8.2 says the author cannot locate the historical
+calculation selecting the operator of choice. The later deformation diagram,
+equation 10.10, is labeled as inherited from an older version and possibly
+inconsistent. Thus the draft supplies a construction-bearing matrix grammar,
+not a unique stabilized fermion operator.
+
 ## Fields and order
 
 The draft says that at classical level the barred and unbarred fields are
@@ -94,6 +102,10 @@ minus-bar-varpi-mm-star
 southeast-zero
 southeast-zero
 ```
+
+This is an identity-grade ledger of all sixteen displayed cells. It does not
+define the plus/minus grading or prove that those labels are ambient spin
+chirality.
 
 The `rho(epsilon)` factors wrap the matrix on the barred and unbarred sides.
 They are a displayed covariance ansatz. The draft does not prove overlap
@@ -179,6 +191,96 @@ boundary condition, or closed domain.
    complement / ker Gamma` decomposition.
 
 These six objects are related but not interchangeable.
+
+## Successor source collision: equation 9.16 versus section 11.2 signs
+
+Rendered PDF page 51 supplies a second identity-grade locator that must travel
+with equation 9.16.  In the rolled fermionic diagram it places
+
+```text
+zeta_minus in Omega1(S_minus)
+zeta_plus  in Omega1(S_plus)
+nu_plus    in Omega0(S_plus)
+nu_minus   in Omega0(S_minus).
+```
+
+The `plus/minus` field glyphs are therefore ambient half-spinor labels in
+section 11.2.  They cannot silently be redefined as the product of form parity
+with ambient chirality.
+
+This exposes a precise construction fork.  The real-K77 rolled symbol already
+built in the repository has three principal classes:
+
+```text
+Phi d on Omega1: flips ambient J;
+d from Omega0 to Omega1: preserves ambient J;
+-d-times from Omega1 to Omega0: preserves ambient J.
+```
+
+Yet the equation-9.16 derivative cells apply the first two classes to inputs
+with the same displayed sign and place them in rows with the same displayed
+sign.  Under either natural uniform convention for barred rows--a dual of the
+same half or a vector representative paired with the opposite half--those two
+classes must have the same ambient-J parity.  The selected gamma-contraction
+and exterior derivative do not.
+
+The product grading
+
+```text
+G = (-1)^form J
+```
+
+does make all three principal classes odd and reproduces the six derivative
+cell locations after reversing the one-form labels.  It is a coherent
+**conditional rival**, but that reversal conflicts with the identity-grade
+section-11.2 field labels.  The present disposition is therefore:
+
+- section-11.2 field signs: `SOURCE-STATES-AMBIENT-HALF-SPINOR`;
+- six equation-9.16 derivative-cell locations: `SOURCE-DISPLAYS`;
+- auxiliary total grading: `CONSTRUCTION-WORKS-AFTER-ONE-FORM-RELABEL`;
+- identification of that relabeling with the source glyphs:
+  `LAYER0-COLLISION / NOT-ESTABLISHED`;
+- source-faithful parity or duality convention reconciling the selected
+  `Phi d`, `d`, and `-d-times`: `OPEN`.
+
+This is narrower than saying equation 9.16 is inconsistent.  A different
+Shiab contraction, a degree-dependent duality/reality map, or a corrected
+source sign convention may repair it.  Each is a different construction and
+must be written explicitly.
+
+## Earlier provisional total-grading reading (superseded)
+
+The rendered matrix puts `d0` or `d0-star` in exactly six cells:
+
+```text
+(row,column), zero-indexed:
+(0,1), (0,3), (1,0), (1,2), (2,1), (3,0).
+```
+
+That placement is source data.  The earlier provisional interpretation was
+that, on the real K77 rolled carrier, the product grading
+
+```text
+G = (-1)^form J
+```
+
+makes `Phi d_A`, `d_A`, and `-d_A-times` all odd. Ambient spin chirality `J`
+alone makes only `Phi d_A` odd and gives the wrong support for the other four
+derivative cells.  Page 51 shows that the source **does** contradict using
+`G` as the meaning of its field subscripts unless the one-form labels are
+explicitly corrected or reinterpreted.  The repaired disposition is:
+
+- six derivative-cell locations: `SOURCE-DISPLAYS`;
+- `G=(-1)^form J`: `CONSTRUCTION-SELECTED-RIVAL`;
+- identifying source plus/minus with ambient `J`: `SOURCE-STATES`, while its
+  compatibility with the selected gamma-contraction remains open;
+- identifying equation 9.16 uniquely with the 2025 unreleased cyclic
+  operator: `FORBIDDEN`.
+
+The same distinction applies to `rho(epsilon)`. The source displays active
+conjugation. A moving Clifford, chirality, pairing, and contraction orbit is a
+construction that can realize that conjugation; it is not a quotation that
+the draft already proved global descent.
 
 ## Honest boundary
 

@@ -891,3 +891,17 @@ gamma-trace splitting. It keeps the actual sixteen-block D916 assembly,
 `rho(epsilon)` descent, common connection variation, observation, physics,
 families, and P1/P2/P3 open, and prevents the campaign from advancing beyond
 Wave 2.
+
+## K77 Wave 2 actual-carrier D916 rival scope gate
+
+`k77_wave2_actual_draft916_blockwise_scope_audit.py` requires the exact
+section-11.2 ambient half-spinor source receipt and the zero-solution parity
+obstruction before permitting the total grading to be called only a
+conditional rival.  It requires the corrected inverse-trace weights and
+noncompact Spin-equivariance control for the algebraic bracket, preserves the
+moving three-patch witness at conditional reduction grade, and refuses to
+promote one connection-current direction to the complete shared-core
+variation.  It keeps zero-order coefficients, full multi-index adjoint,
+full-source-group descent, observation, physics, families, and P1/P2/P3 open;
+the campaign remains on Wave 2 with the source-sign/duality/Shiab-parity
+reconciliation as its next build.

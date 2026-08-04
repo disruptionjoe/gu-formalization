@@ -86,13 +86,17 @@ def main() -> None:
 
     wave2 = campaign["waves"][1]
     frontier = campaign["frontier"]
-    assert wave2["status"] == expected_status
-    assert "ACTUAL_DRAFT916_SIXTEEN_BLOCK_K77_ASSEMBLY" in wave2["carried_debt"]
+    successor_status = (
+        "PARTIAL__CONDITIONAL_TOTAL_GRADED_D916_RIVAL_BUILT__"
+        "SOURCE_SIGN_IDENTIFICATION_FULL_CONNECTION_VARIATION_AND_FULL_H_DESCENT_OPEN"
+    )
+    assert wave2["status"] == successor_status
+    assert "SOURCE_AMBIENT_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION" in wave2["carried_debt"]
     assert frontier["completed_waves"] == [1]
     assert frontier["partial_waves"] == [2]
     assert frontier["next_wave"] == 2
     assert frontier["next_named_gate"] == "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
-    assert frontier["next_required_build"] == "ACTUAL_DRAFT916_K77_BLOCKWISE_ADJOINT_DESCENT_AND_COMMON_CONNECTION_VARIATION"
+    assert frontier["next_required_build"] == "K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION"
     assert frontier["wave3_preflight_retained"].endswith("NOT_YET_ADMITTED")
 
     for token in (
@@ -104,6 +108,8 @@ def main() -> None:
         "chosen splitting image",
         "wave 2 therefore remains `partial`",
         "p1/p2/p3 use",
+        "successor advance and correction",
+        "source_sign_duality_shiab_parity_reconciliation",
     ):
         assert token in report, f"missing report token: {token}"
 

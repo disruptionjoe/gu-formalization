@@ -360,3 +360,23 @@ core, graded fermion Hessian, closed physical evolution domain,
 maximal-dissipative generator, spectrum, vacuum, particle mass, Standard
 Model equation, anomaly cancellation, physical chirality, generation count,
 P1/P2/P3 use, canon change, lane change, or public-posture change is claimed.
+
+## Successor advance and correction (actual-carrier attempt)
+
+The successor
+`explorations/k77-wave2-actual-draft916-k77-blockwise-adjoint-descent-2026-08-04.md`
+builds a conditional real-K77 total-graded D916 rival, an exact nonconstant
+moving-Clifford/connection descent witness, a nontrivial frozen K77 adjoint and
+current direction, and an inverse-trace-weighted Spin-equivariant algebraic
+super-IG bracket.
+
+Hostile review also found the exact remaining Layer-0 obstruction: section
+11.2 fixes `zeta+/-` and `nu+/-` as ambient half-spinor labels, while the
+successful total-grading fit reverses the one-form labels.  With the source
+ambient labels, the selected gamma `Phi d` and exterior `d` have opposite
+ambient-J parities even though equation 9.16 requires them to share the same
+row/input incidence parity.  The successor therefore advances but does not
+close Wave 2.  The next build is now
+`K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION`, followed by actual
+zero-order coefficients, full multi-index adjoint, complete shared-core
+connection variation, and full-source-group descent.

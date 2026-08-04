@@ -768,3 +768,19 @@ until all sixteen blocks, actual primalizer/multi-index adjoint,
 `rho(epsilon)` descent, and common `J_D+J_F`/even-Ward core are assembled. The
 observer-provenance incidence census remains a Wave-3 preflight; no physics,
 family count, or P1/P2/P3 status moves.
+
+# K77 Wave 2 actual-carrier D916 rival and source-sign obstruction (2026-08-04)
+
+[`k77-wave2-actual-draft916-k77-blockwise-adjoint-descent-2026-08-04.md`](k77-wave2-actual-draft916-k77-blockwise-adjoint-descent-2026-08-04.md)
+builds a conditional real-K77 total-graded four-field rival on the actual
+128-spinor carrier, including exact degree-sensitive Hodge signs, a nontrivial
+K77 adjoint/current direction, nonconstant moving-Clifford/connection descent,
+and a repaired inverse-trace-weighted Spin-equivariant two-step bracket.  The
+hostile review finds a decisive Layer-0 collision: section 11.2 fixes the
+source field signs as ambient half-spinor labels, while the successful total
+grading reverses the one-form labels.  The exact selected `Phi d`/`d` parities
+have no uniform same-half or cross-half row-duality solution.  Wave 2 therefore
+advances but remains partial on source-sign/Shiab/duality reconciliation,
+actual zero-order coefficients, full multi-index adjoint, complete common
+connection/Ward variation, and full-source-group descent.  Observation,
+physics, family count, and P1/P2/P3 remain held out.
