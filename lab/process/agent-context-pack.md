@@ -73,8 +73,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
    bridge is W230's c_kin=0 posit (θ~M⁻¹J, necessity+sufficiency
    machine-checked), in unresolved tension with the FLRW kinetic term —
    decide that XS–S question before scheduling any r(N(z)) refit.
-   [Tri-repo note: records/finality interpretation is TaF-owned; a
-   cross-repo proposal is pending.]
+   [Tri-repo note ANSWERED 2026-08-03 (two-sided-reviewed; mailbox
+   response 20260803-taf-response-records-de-typings.md): T1 record-vs-
+   redundancy bit = OPEN AS BINARY but asymmetric — redundancy pole
+   INADMISSIBLE as record content at TaF grade; conserved pole
+   conditional; TaF's native record object is a third construction
+   (graded, observer-indexed); settling object = a declared bridge map.
+   T2 = records-that-count are the CONFIRMED/frontier-side, access-
+   audited count (bulk past = reachability bookkeeping); CONSTRAINT: a
+   single global scalar N is TaF's refuted ledger shape — N(z) must be
+   typed per-observer or regional-reconciling; quantitative bulk↔boundary
+   relation (π√N_bulk, exponent-1/2) has NO earned TaF surface and stays
+   a GU-side import.]
 2. FLAVOR↔GRAVITY (II-mediation): four-lens convergent conjecture — the
    imposter block is the carrier ½γ(II) couples to; GU's gravity functional
    is |II|². Q3 EXECUTED (Resolver Wave B, 2026-08-03): [σ(D_RS),P₃] has

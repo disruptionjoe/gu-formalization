@@ -679,3 +679,21 @@ No scientific register row or protected verdict moves.
   the connection-dependent horizontal/contact coframe, trace-reversed metric
   naturality, and the Spin/J/source/Psrc triple cocycle before total
   Euler/Green/domain work. P1/P2/P3 remain unchanged and unused.
+
+**TaF response absorbed (2026-08-03, two-sided-reviewed PASS-WITH-CORRECTIONS):**
+T1 (the W237 record-vs-redundancy bit): OPEN as the binary, ASYMMETRIC —
+redundancy pole inadmissible as record content at TaF grade (Q1A
+bookkeeping_only + executable witness); conserved pole conditional (H7
+weakened_conditional; T110 obstructs strict SCALAR finality monotones in
+closed reversible systems); TaF's native record object is a third,
+graded/observer-indexed construction. W237's verdict table now carries
+this as an EXTERNAL DATUM with provenance; the coupling leans toward the
+no-compactification/chirality-kept row but the fork may NOT be collapsed;
+settling object = a declared GU-record→TaF bridge map (new joint item).
+T2 (N normalization): qualitative half TYPED — N(z) in any M-H13 refit
+must be the confirmed/frontier-side count, and must be typed per-observer
+or regional-reconciling (the single global scalar ledger is TaF's refuted
+shape; FLRW-homogeneity coincidence must be stated as a condition, not
+assumed); quantitative half OPEN — no earned TaF surface for any area-law/
+exponent-1/2/π√N relation; W185's magnitude remains a GU-side import
+(A7 halved: qualitative choice typed, quantitative form free).
