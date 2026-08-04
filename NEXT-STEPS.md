@@ -7,6 +7,21 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 COMMON TWO-LAYER ACTION DISPOSITION.**
+> [`explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md`](explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md)
+> writes the source-guided first-layer action plus norm-square second layer and
+> derives its exact variational architecture. The norm-square contribution is
+> `H_Upsilon^! G Upsilon` (plus moving-pairing terms), so every first-layer
+> solution remains a second-layer solution for every fixed trace-`q`
+> coefficient. It therefore has coefficient-selection rank zero on that
+> locus. On the actual K77 family, literal middle-arrow cancellation has rank
+> two, the anticommutator is scalar for every covector, and the self-derived
+> square has three independent quadratic coefficient tensors. Thus
+> `alpha=beta` is retained as a Laplace-type lead but not selected without the
+> full composed target. The projective surplus remains `-1`; P1/P2/P3 remain
+> unused and Wave 3 stays closed. Next gate:
+> `K77_TWO_LAYER_UP_OVER_PATH_ADAPTER_AND_INDEPENDENT_SQUARE_ROOT_TARGET`.
+
 > **2026-08-04 K77 WAVE-2 TRACE-q COEFFICIENT / ZERO-ORDER REALITY
 > DISPOSITION.**
 > [`explorations/k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md`](explorations/k77-wave2-trace-q-coefficient-zero-order-reality-selection-2026-08-04.md)

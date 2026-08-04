@@ -1309,3 +1309,38 @@ count, Wave-3 admission, or P1/P2/P3 status moves.
   family, stop descending through more selectors. Carry the residual family
   into the smallest common action and let its coupled Euler equations spend
   the remaining freedom.
+
+---
+
+## Revision 26 (2026-08-04, two-layer norm-square versus square-root target)
+
+Sources:
+`explorations/k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md`,
+`lab/sources/gu-two-layer-action-source-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-common-two-layer-action-euler-coefficient-selection.json`,
+and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-common-two-layer-action-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, Wave-3 admission, or P1/P2/P3 status moves.
+
+- Run Layer 0 on the word “square.” A residual norm, an operator composition,
+  a deformation-differential square, and amplitudes double copy are different
+  objects even when one speaker moves between them in one explanation.
+- A norm-square layer derived from `Upsilon` is structurally redundant on
+  `Upsilon=0`. It cannot select a fixed coupling on that locus merely by
+  adding more Euler equations; its derivative factors through `Upsilon`.
+- Field equations depending on a coupling are not coupling-selection
+  equations. Add a coefficient/modulus Euler row only after constructing its
+  field-space owner, symmetry, action term, and datum invoice.
+- A self-derived comparator cannot select itself. `D(c)^times D(c)` is a
+  family indexed by `c`; it becomes a constraint only when compared with an
+  independent target not defined using the same `c`.
+- One exact evaluation can prove operator-tensor independence when its output
+  vectors attain the maximum possible rank: evaluation cannot increase rank.
+  State this lower-bound logic and keep domain/spectrum claims separate.
+- A scalar middle symbol is a useful Laplace-type lead, not a Lichnerowicz
+  theorem. Require the composed full operator, lower-order curvature, form
+  indices, and target before promoting the coefficient.
+- When a source names unfinished paths, turn the path diagram into the next
+  construction. Do not paraphrase the named cancellation into whichever
+  current left/right family happens to be available.

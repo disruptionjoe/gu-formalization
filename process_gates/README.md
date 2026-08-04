@@ -75,6 +75,7 @@ selected notes below and in each script header.
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
 - `k77_wave2_actual_draft916_blockwise_scope_audit.py`
+- `k77_wave2_common_two_layer_action_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
 - `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
@@ -943,3 +944,14 @@ projective surplus `-1`, and the empty optional Majorana rival on the current
 full-index family. It forbids promotion to a commutator/anticommutator result,
 keeps the restricted Higgs orbit and barred/unbarred adapter open, and requires
 the common two-layer action Euler system before Wave 3 can open.
+
+## K77 Wave 2 common two-layer action / coefficient-selection scope gate
+
+`k77_wave2_common_two_layer_action_scope_audit.py` requires the source-confirmed
+two-layer norm-square architecture and unfinished cancellation burden, while
+keeping the exact K77 path identification and independent target
+source-silent. It checks fixed-coupling selection rank zero on the first-order
+locus, literal middle-cancellation rank two, all-covector anticommutator
+scalarity, quadratic square span rank three, field-dependent optional-modulus
+roots, surplus `-1`, and the full-moving-action scope fence. It keeps the
+up/back/over adapter, target, observation, physics, Wave 3, and P1/P2/P3 open.

@@ -826,3 +826,16 @@ the source-faithful independent-bar action retains one projective freedom,
 while an optional Majorana locus kills the current family instead of selecting
 a bracket. The next gate carries the family into the common two-layer action
 and derives its actual Euler selection. Wave 3 and P1/P2/P3 use remain closed.
+
+# K77 Wave 2 common two-layer action / Euler coefficient selection (2026-08-04)
+
+[`k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md`](k77-wave2-common-two-layer-action-euler-coefficient-selection-2026-08-04.md)
+writes the first Einstein--Dirac action plus the source-directed norm-square
+second layer and derives the exact `Upsilon+H^!G Upsilon` variational form.
+The second layer is redundant on first-order solutions and therefore cannot
+select the fixed trace-`q` coupling there. Actual K77 algebra gives literal
+middle-cancellation rank two, all-covector scalar anticommutator support, and
+three independent quadratic tensors in the self-derived square. The scalar
+branch is a live `alpha=beta` Laplace-type lead, but selection awaits the
+source's unfinished up/back/over path adapter and an independent target. The
+surplus remains `-1`; Wave 3 and P1/P2/P3 remain closed.
