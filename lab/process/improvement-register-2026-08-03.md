@@ -876,3 +876,28 @@ No scientific register row or protected verdict moves.
 - K77-C effective chirality and the 37 atomic targets do not advance until a
   common bosonic action candidate exists. P1/P2/P3 remain unchanged and
   unused.
+
+**DC-H2 result (2026-08-04) — H2 DEAD, blocker STRENGTHENED:** reciprocity
+cannot fix Z_U's (c_b : c_f) ratio, and the reason excludes a whole class:
+self-adjointness of the source pairing is exactly invariant under the
+blockwise congruence group whose orbits ARE the block ratios (verified
+exactly; the congruence moves c_f/c_b from 1 to 25/36). The sharp version
+is circular — (c_b : c_f) IS the gimmel metric's horizontal:vertical
+scale, so stating a constraining reciprocity condition presupposes it.
+CONSEQUENCE: any condition invariant under blockwise congruence (every
+symmetry-of-pairing / self-adjointness demand) is scale-blind, and A4
+needs a scale. M-H13 item (a) does not move. THREE BY-PRODUCTS: (1) exact
+nullities 1/2/3 for so(9,5) / so(3,1)+so(6,4) / so(3)+so(6,4) — the three
+A4 coefficients are precisely the residual symmetry's invariants; (2) the
+residue REDUCES from three coefficients to ONE dimensionful scale, whose
+only in-repo value is canon's R_s = c/H_0 import — H44's equation is the
+choice (c_b : c_f) = 1:1 PLUS that import (exact demo: l = R_s, 2R_s,
+R_s/2 -> M^2 = 8, 2, 32 continuously, which also excludes outcome (b));
+(3) a FORK that cannot be double-banked — full so(9,5) equivariance WOULD
+fix the ratio uniquely, but it forces L proportional to M, landing in
+W230 [NEC]'s escape variety and destroying W230's necessity leg (the
+theta = J <=> c_kin = 0 equivalence the A4 COMPLETED-POSIT rests on).
+NEW VERIFIED_REPO_DISCONNECT: W230 calls W180's Frobenius Gram "the fixed
+equivariant ultralocal Krein kernel"; W203 KER4 proves it is not
+(3 of 13 generators violate it, reproduced). Does not change W230's [NEC]
+conclusion; logged for repair, not repaired.
