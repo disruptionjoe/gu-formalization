@@ -1,0 +1,142 @@
+{
+  "artifact": "RESOLVER_WAVE_K77B3_FULL_DOMAIN_CYCLIC_KERNEL_OBSTRUCTION",
+  "version": "2026-08-04",
+  "named_gate": "RESOLVER-WAVE-K77-B3-FULL-DOMAIN-EXTENSION-CYCLIC-EULER-EXISTENCE-AND-GREEN",
+  "gate_status": "COMPLETED_WITH_ZERO_ORDER_LINEAR_MECHANISM_KILL",
+  "verdict": "ZERO_ORDER_LINEAR_FULL_DOMAIN_EINSTEIN_CYCLIC_INTERSECTION_ZERO",
+  "kill_scope": "FIXED_METRIC_FIXED_EPSILON_LINEAR_POINTWISE_SHIAB_AS_UNIT_WEIGHT_CUBIC_EULER_ENDPOINT_ON_FULL_TRANSLATION_TANGENT_WITH_AMBIENT_14D_EINSTEIN_RESTRICTION",
+  "source_collision": {
+    "classification": "SOURCE_CORRECTS_TO_COMPLETED_RESIDUAL__SOURCE_CONFIRMS_WRITTEN_TRANSLATION_DIRECTION__SOURCE_SILENT_ON_RESTRICTED_DOMAIN_EVASION",
+    "rows": [
+      {
+        "locator": "2021 draft section 9.1 equations 9.1-9.7 / source pack WGS-01",
+        "status": "SOURCE-CONFIRMS",
+        "content": "written varpi+s alpha translation variation and proposed residual"
+      },
+      {
+        "locator": "Portal/Oxford 01:43:32-01:45:25 and 02:35:10 / source pack WGS-03",
+        "status": "SOURCE-CORRECTS",
+        "content": "curvature alone is not exact; test completed F_B plus one-half d_BT plus one-third T wedge T"
+      },
+      {
+        "locator": "source pack WGS-01 boundary",
+        "status": "SOURCE-SILENT",
+        "content": "complete admissible global variation domain or invariant restricted tangent"
+      }
+    ]
+  },
+  "layer0": {
+    "ambient_curvature": "Lambda2 V* tensor ad",
+    "algebraic_riemann": "ker(Alt:Sym2 Lambda2 -> Lambda4)",
+    "ambient_einstein": "Ric_14-(1/2)Scal_14 g_14",
+    "observed_einstein": "OPEN_AND_NOT_IDENTIFIED",
+    "frobenius_fibre_trace_reversal": "OPEN_AND_DISTINCT",
+    "translation_tangent": "local Omega1(Y,ad P) direction varpi+s alpha",
+    "cyclicity": "local constant-jet Helmholtz necessity",
+    "green_domain": "NOT_REACHED"
+  },
+  "equivariant_hom": {
+    "complexified_full_dimension": 200,
+    "ambient_domain_dimension": 1490944,
+    "target_dimension": 229376,
+    "grade2_to_low_dimension": 3,
+    "grade2_to_high_dimension": 3,
+    "riemann_to_low_dimension": 2,
+    "riemann_to_high_dimension": 2,
+    "explicit_real_grade2_basis": [
+      "CROSS_RICCI",
+      "TRANSPOSED_CROSS_RICCI",
+      "SCALAR_TIMES_METRIC"
+    ],
+    "volume_dual_high_copy": true,
+    "all_91_generator_fixture_checks": "PASS",
+    "six_maps_exhaust_full_hom": false
+  },
+  "full_domain_einstein_extensions": {
+    "low": "alpha*C+(1-alpha)*C^T-(1/2)tr(C)g",
+    "high": "volume-dual independent copy",
+    "pure_grade1_necessary_selector": "alpha=0",
+    "pair_symmetrized_alpha_half": "FAILS_EXACT_GRADE1_FIXTURE"
+  },
+  "kernel_witnesses": {
+    "low": {
+      "c": "sum_i=0^11 e^i tensor gamma_i gamma_12",
+      "b": "e^13 tensor gamma_13",
+      "Q_b_c": "ZERO",
+      "Q_c_c": "SCALE_TWO_CONSTANT_ALGEBRAIC_RIEMANN_ON_12_PLANE",
+      "scalar_curvature": 264,
+      "endpoint_pairing": -16896,
+      "direct_derivative": -5632,
+      "defect": 11264,
+      "isolated_coefficient": "p_LOW"
+    },
+    "high": {
+      "c": "sum_i=0^12 e^i tensor gamma_i",
+      "b": "e^13 tensor gamma_13 volume_14",
+      "Q_b_c": "ZERO",
+      "Q_c_c": "SCALE_TWO_CONSTANT_ALGEBRAIC_RIEMANN_ON_13_PLANE",
+      "scalar_curvature": 312,
+      "endpoint_pairing": 19968,
+      "direct_derivative": 6656,
+      "defect": -13312,
+      "isolated_coefficient": "q_HIGH"
+    },
+    "joint_ideal": [
+      "p_LOW",
+      "q_HIGH"
+    ],
+    "nonzero_survivors": 0
+  },
+  "why_expression_dag_stopped": "KERNEL_WITNESSES_DEPEND_ONLY_ON_RIEMANN_RESTRICTION_AND_Q_B_C_ZERO__OFF_RIEMANN_VALUES_CANNOT_REPAIR",
+  "reconstruction_return": "DERIVATIVE_OR_MOVING_FIELD_ACTION",
+  "wave2_rivals": [
+    "ACTUAL_SYMMETRIZED_EULER",
+    "MOVING_SHIAB_EPSILON_SOLDERING_HODGE",
+    "INDEPENDENT_PARENT_CURVATURE_OR_SOLDERING",
+    "ACTION_DERIVED_INVARIANT_RESTRICTED_DOMAIN"
+  ],
+  "held_open": [
+    "NONLINEAR_OR_FIELD_DEPENDENT_SHIAB",
+    "DERIVATIVE_ACTION",
+    "MOVING_EPSILON_METRIC_HODGE",
+    "PARENT_BF_PALATINI_ACTION",
+    "LAWFUL_INVARIANT_FIELD_SUBDOMAIN",
+    "OBSERVED_4D_TRACE",
+    "FROBENIUS_FIBRE_TRACE_REVERSAL",
+    "ASSOCIATED_BUNDLE_DESCENT",
+    "GREEN_DOMAIN",
+    "OBSERVATION",
+    "PHYSICS"
+  ],
+  "review": {
+    "preassessment_lenses": [
+      "DIFFERENTIAL_GEOMETRY",
+      "REPRESENTATION_AND_INVARIANT_THEORY",
+      "VARIATIONAL_BICOMPLEX",
+      "PDE_OPERATOR_AND_SOURCE"
+    ],
+    "hostile_post_lenses": [
+      "REPRESENTATION_REALITY_SCOPE",
+      "ALGEBRAIC_RIEMANN_LEGITIMACY",
+      "LOCAL_HELMHOLTZ_AND_COMPLETED_SOURCE_ACTION",
+      "GREEN_NOT_REACHED",
+      "SUMMARY_OUTRUNS_ARTIFACT",
+      "ARTIFACT_DEFENDS_SUPERSEDED_OBJECT"
+    ],
+    "status": "PASSED_WITH_SCOPE_REPAIRS"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "physics_status_change": false,
+  "status_boundary": {
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "lane_change": false,
+    "public_posture_change": false,
+    "third_lane_promoted": false
+  },
+  "next_named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
+}

@@ -1042,3 +1042,32 @@ status moves.
   where rigor is defending a superseded object. ML remains optional search
   infrastructure; only exact reconstruction and held-out identities can admit
   a result.
+
+---
+
+## Revision 18 (2026-08-04, K77-B3 full-domain cyclic-kernel result)
+
+Sources:
+`explorations/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md`,
+`lab/process/resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction.json`,
+and `lab/process/hostile-reviews/2026-08-04-resolver-wave-k77b3-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, or
+P1/P2/P3 status moves.
+
+- Replace brute-force expression-DAG enumeration with representation-first
+  exhaustion whenever the relevant full equivariant Hom can be computed.
+  Here its complexified dimension is `200`, while the actionable grade-two
+  low/high blocks each reduce to three explicit real contraction coordinates.
+- A Riemann-only selector can pass its own restriction test while failing the
+  written translation-field action. Exact low/high kernel witnesses show that
+  every fixed-metric, fixed-epsilon, zero-order linear full-domain extension
+  with the ambient fourteen-dimensional Einstein restriction fails the
+  unit-weight cubic Euler identity unless both Einstein coefficients vanish.
+- Record the result at mechanism scope. It does not kill K77, `(7,7)`, the
+  fermion carrier, gravity, source actions generally, or physics. Green/domain
+  is not reached because the algebraic survivor set is empty.
+- The next common-action wave must compare four real rebuild mechanisms: the
+  actual symmetrized Euler derivative, moving Shiab/epsilon/soldering/Hodge
+  terms, an independent parent curvature/soldering field, and an
+  action/BV-derived invariant restricted domain. External datum cannot repair
+  a missing variational map.

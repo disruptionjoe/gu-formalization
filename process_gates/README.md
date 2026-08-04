@@ -126,6 +126,7 @@ selected notes below and in each script header.
 - `resolver_wave_k77a_scope_audit.py`
 - `resolver_wave_k77b_scope_audit.py`
 - `resolver_wave_k77b2_scope_audit.py`
+- `resolver_wave_k77b3_scope_audit.py`
 - `resolver_wave_k_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
@@ -835,3 +836,15 @@ requires the D1 receiving-arrow boundary, early atomic-ledger regrading,
 Wave-4 breadth reset, ten specialist lenses, and exact held-out certification
 for any ML-assisted search. It makes no scientific, canon, lane, public-
 posture, or P1/P2/P3 status change.
+
+## Resolver Wave K77-B3 scope gate
+
+`resolver_wave_k77b3_scope_audit.py` fail-closes the exact distinction between
+the full equivariant Hom, its grade-two low/high coordinates, and the two
+ambient-Einstein restriction coefficients tested by the cyclic-kernel
+witnesses. It records a zero-order linear mechanism kill and forbids promotion
+to a K77, `(7,7)`, gravity, source-action, domain, or physics kill. It also
+requires the source-normalized one-third quadratic comparison, preserves the
+unidentified observed and Frobenius-fibre trace reversals, leaves Green/domain
+not reached, keeps P1/P2/P3 unused, and moves the campaign frontier to the
+derivative-or-moving-field common action/current/Riesz/Ward rendezvous.

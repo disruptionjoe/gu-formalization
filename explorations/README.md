@@ -703,3 +703,21 @@ External data may select a constructed receiving object but may not create a
 missing map, action, Ward differential, quotient, or domain. This is a campaign
 sequence decision only: no claim, canon verdict, lane, public posture, or
 P1/P2/P3 status changes.
+
+# Resolver Wave K77-B3 (2026-08-04)
+
+[`resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md`](resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction-2026-08-04.md)
+computes the complete complexified full-domain equivariant Hom dimension
+(`200`) and constructs all three real low- and high-grade contraction
+coordinates relevant to the ambient Einstein restriction. Exact low/high
+kernel witnesses then isolate the two Einstein coefficients and force both to
+zero when the same fixed, zero-order linear Shiab is required to be the
+unit-weight endpoint of the written cubic translation action. This is a
+mechanism-level kill only: it does not kill K77, `(7,7)`, the fermion carrier,
+gravity, source actions generally, or physics. Green/domain is `NOT_REACHED`.
+The returned construction debt is an actual symmetrized Euler derivative,
+moving Shiab/epsilon/soldering/Hodge fields, an independent parent
+curvature/soldering action, or an action-derived invariant restricted domain.
+External datum is not an eligible repair for this missing variational
+structure. The campaign now advances to the common action/current/Riesz/Ward
+rendezvous.
