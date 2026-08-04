@@ -6,6 +6,12 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2h_mixed_shiab_second_jet_probe.py` constructs the
+  exact sparse bivariate normalized-trace/Phi/Hodge/Shiab operator jet, checks
+  all 196 Clifford relations, both accepted first-order constructors, Hodge
+  square, owner swap, curvature linearity, and frozen-trace/omitted-cross
+  plants. It closes only the scoped operator dependency, not either complete
+  C4 bank. Run it with `uv run --with sympy==1.14.0 python`.
 - `channel-swings/pw2fr2b2b2f_i1_transgression_projective_kappa_probe.py`
   constructs the written transgression in the conditional active canonical
   coframe, matches an independent curvature-path integral and direct

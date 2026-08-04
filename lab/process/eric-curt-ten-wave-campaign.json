@@ -6,14 +6,14 @@
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4",
-    "status": "REBASE_BLOCKED_ON_MIXED_SHIAB_SECOND_JET_AND_COMPLETE_I2B_PRIMALIZER",
-    "earned": "exact t(g)=g/2 transport through the nonlinear Zorro symmetric coframe; six first slots match the independent full-metric moving-Phi derivative, the norm jet is (-1,0,0,0), five directional slots expose live horizontal corrections, and all three tested mixed trace slots are live",
-    "scope": "conditional active observed-base nonlinear-Zorro owner/conormal cases; the current moving-Shiab constructor is first-order only, so complete I1 A4 is blocked on the mixed trace/Phi/Hodge/Shiab jet and distinct I2B C4 on the complete second residual-primalizer/pairing jet; full multi-index Green/Helmholtz, live C3, global/source epsilon, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
+    "gate": "PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET",
+    "status": "CONDITIONAL_ACTIVE_MIXED_SHIAB_OPERATOR_JET_CLOSED__DISTINCT_I2B_SECOND_PRIMALIZER_OPEN",
+    "earned": "exact sparse bivariate normalized-trace/Phi/Hodge/Shiab operator jet; all 196 Clifford pairs, both first-Hodge and first-Shiab constructor comparisons, Hodge square, owner/conormal swap, curvature linearity, and frozen-trace/omitted-Hodge-cross plants pass; the mixed Shiab slot has 515 coordinates",
+    "scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair plus its r/s swap; closes the mixed operator dependency only; complete I1 A4 is not assembled and distinct I2B C4 remains blocked on the complete second residual-primalizer/pairing jet; full coefficient banks, multi-index Green/Helmholtz, live C3, global/source epsilon, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET-THEN-FULL-A4-I2B-C4"
+    "next_gate": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
   },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
@@ -766,6 +766,16 @@
           "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
           "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
           "next_gate": "PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4"
+        },
+        "post_b2c15r3_pw2fr2b2b2h": {
+          "status": "CONDITIONAL_ACTIVE_MIXED_SHIAB_OPERATOR_JET_CLOSED__DISTINCT_I2B_SECOND_PRIMALIZER_OPEN",
+          "result": "EXACT_SPARSE_1_R_S_RS_TRACE_PHI1_PHI2_DENSITY_INVERSE_METRIC_HODGE_RAW_AND_PROJECTED_SHIAB_OPERATOR_JET__CLIFFORD196_PASS__FIRST_HODGE2_AND_FIRST_SHIAB2_MATCH__HODGE_SQUARE_MINUS1__MIXED_SHIAB515_COORDINATES__OWNER_SWAP_AND_CURVATURE_LINEARITY_PASS__FROZEN_TRACE_AND_OMITTED_HODGE_CROSS_PLANTS_REJECTED",
+          "source_disposition": "SOURCE_CONFIRMS_I1_TRANSGRESSION_GRAMMAR__REPOSITORY_DERIVES_ACTIVE9_5_MIXED_OPERATOR_JET__SOURCE_SILENT_ON_ACTIVE_SECOND_JET_I2B_PRIMALIZER_COMPLETE_BANKS_GREEN_DOMAIN_AND_PHYSICS",
+          "exact_tools": "MAIN26_PASS__196_CLIFFORD_RELATIONS__TWO_FIRST_ORDER_API_MATCHES__HODGE_SQUARE__OWNER_SWAP__CURVATURE_LINEARITY__TWO_NONVACUOUS_OMISSION_PLANTS",
+          "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+          "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+          "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+          "next_gate": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
         }
       }
     },

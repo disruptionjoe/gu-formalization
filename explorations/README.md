@@ -2,7 +2,7 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-03"
+updated_at: "2026-08-04"
 ---
 
 # Explorations
@@ -13,6 +13,14 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2H exact mixed trace/Phi/Hodge/Shiab operator jet`](pw2fr2b2b2h-mixed-shiab-second-jet-2026-08-04.md)
+  composes the full sparse bivariate operator jet on an independent active
+  owner/conormal pair. All Clifford relations, first-order constructor
+  comparisons, Hodge square, owner swap, curvature linearity, and omission
+  plants pass; the mixed Shiab response has 515 live coordinates. This closes
+  only the operator dependency. Complete `I1 A4`, the distinct `I2B` second
+  primalizer/C4 bank, Green/Helmholtz, and projective classification remain
+  open. P1/P2/P3 remain unused; Curt and the third-lane gate are unchanged.
 - [`PW2F-R2B2B2G normalized-trace transport and full-C4 admission blocker`](pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-2026-08-03.md)
   transports `t(g)=g/2` through the exact nonlinear Zorro coframe. Six first
   slots match the independent full-metric moving-`Phi` derivative; the norm

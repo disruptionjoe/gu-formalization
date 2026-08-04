@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-03"
+updated_at: "2026-08-04"
 ---
 
 # Process
@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2h-mixed-shiab-second-jet-registry.json` -
+  PW2F-R2B2B2H ledger: records the exact bivariate moving-Clifford,
+  `Phi1/Phi2`, density/inverse-metric Hodge, normalized-trace, and Shiab
+  operator jet; 196 Clifford relations, both first-order API comparisons,
+  Hodge square, owner swap, curvature linearity, and two omission plants pass.
+  The separate `I2B` residual-primalizer second jet and both complete C4 banks
+  remain open.
 - `pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-registry.json` -
   PW2F-R2B2B2G ledger: records exact normalized-trace transport through the
   full nonlinear Zorro coframe, six first-slot moving-`Phi` matches, preserved

@@ -2,10 +2,29 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-03"
+updated_at: "2026-08-04"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-04 PW2F-R2B2B2H MIXED TRACE/PHI/HODGE/SHIAB OPERATOR JET
+> CLOSED; DISTINCT I2B SECOND PRIMALIZER NEXT.** An exact sparse
+> `(1,r,s,rs)` construction now composes the nonlinear Zorro metric, moving
+> Clifford `Phi1/Phi2`, full density/inverse-metric Hodge map, geometric
+> normalized trace, and projected Shiab response. All 196 Clifford relations,
+> both accepted first-Hodge and first-Shiab comparisons, Hodge square, owner
+> swap, and curvature linearity pass. The mixed Shiab slot is live in 515
+> coordinates; frozen-trace and omitted-Hodge-cross plants both change it.
+>
+> This closes only the scoped conditional active operator dependency. The
+> 35-monomial `I1 A4` bank is not assembled, and distinct off-shell `I2B C4`
+> remains blocked on its complete second residual-primalizer/pairing jet.
+> Resume at
+> `PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS`;
+> construct that jet before separate banks, multi-index Green/Helmholtz, the
+> live C3 return, or projective classification. P1/P2/P3 remain unused; Curt
+> stays formally separate; `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h-mixed-shiab-second-jet-2026-08-04.md`.
 
 > **2026-08-03 PW2F-R2B2B2G NORMALIZED-TRACE TRANSPORT PASS; FULL C4
 > INTERPOLATION BLOCKED ON THE MIXED SHIAB JET.** The geometric trace
