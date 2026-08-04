@@ -7,6 +7,26 @@ updated_at: "2026-08-04"
 
 # Next Steps For Contributors
 
+> **2026-08-04 PW2F-R2B2B2H2 FIXED-BACKGROUND I2B SECOND
+> RESIDUAL/PRIMALIZER/PAIRING JET CLOSED; GLOBAL SOURCE-EPSILON CURVATURE
+> GRAPH NEXT.** The accepted mixed Shiab operator now acts on the active
+> 13-coordinate off-shell residual through the exact nonlinear Zorro
+> coframe. Its moving Hodge/primalizer pairing has base norm `981/64` and jet
+> `(981/64,0,4293/128,0)`. The direct mixed residual-square coefficient is
+> `-103/256`, exactly the sum of all five off-shell Hessian families; three
+> routes are live and the two zeros are exact. Frozen-primalizer,
+> omitted-mixed-residual, planted-`D2R`, positive-Hilbert, and bank-promotion
+> controls reject.
+>
+> This closes only the fixed-background second-jet dependency on the scoped
+> pair. The complete global/source-epsilon curvature graph remains open, so
+> neither 35-monomial `I1 A4` nor `I2B C4` bank is assembled. Resume at
+> `PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS`
+> before multi-index Green/Helmholtz, the live C3 return, or projective
+> classification. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h2-complete-i2b-second-residual-primalizer-pairing-2026-08-04.md`.
+
 > **2026-08-04 PW2F-R2B2B2H MIXED TRACE/PHI/HODGE/SHIAB OPERATOR JET
 > CLOSED; DISTINCT I2B SECOND PRIMALIZER NEXT.** An exact sparse
 > `(1,r,s,rs)` construction now composes the nonlinear Zorro metric, moving

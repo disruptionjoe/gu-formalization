@@ -1,0 +1,72 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2H2-I2B-SECOND-RESIDUAL-PRIMALIZER-PAIRING",
+  "status": "CONDITIONAL_ACTIVE_FIXED_BACKGROUND_I2B_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET_CLOSED__GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_OPEN",
+  "run_id": "RUN-20260804-062944-gu-formalization-pw2fr2b2b2h2-i2b-second-primalizer",
+  "verdict_scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair on the accepted fixed spin-curvature background, with exact metric/trace swap control",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "I1 grammar and the separately custodied manuscript I2B residual-square glyph",
+    "REPOSITORY-DERIVES": "active 9,5 residual jet, Hodge primalizer/pairing jet, and five-family mixed I2B action coefficient",
+    "SOURCE-SILENT": "active residual-primalizer second jet, global source-epsilon curvature graph, coefficient banks, Green/domain, and physics"
+  },
+  "layer0": {
+    "source_I1_vs_manuscript_I2B_vs_active_repository_port": "THREE_DISTINCT_ACTION_OBJECTS",
+    "residual_density_vs_Hodge_primalizer_vs_scalar_pairing": "THREE_EXPLICITLY_COMPOSED_TYPED_OBJECTS",
+    "active_9_5_vs_source_7_7": "UNPORTED_REAL_FORM_ACTION_PAIRING_FORK",
+    "fixed_background_operator_jet_vs_global_source_epsilon_curvature_graph": "LOCAL_DEPENDENCY_CLOSED__GLOBAL_PORT_OPEN",
+    "second_jet_vs_C4_bank": "DISTINCT_LEVELS"
+  },
+  "residual_primalizer_pairing_jet": {
+    "base_residual_coordinates": 13,
+    "base_full_carrier_norm": "981/64",
+    "fixed_residual_pairing_jet": [
+      "981/64",
+      "0",
+      "4293/128",
+      "0"
+    ],
+    "first_pairing_slots": "2_OF_2_MATCH_ACCEPTED_DSTAR",
+    "Hodge_square": "SIGN_PLUS_ONE_THROUGH_RS_ON_RESIDUAL_13_FORM",
+    "mixed_action": "-103/256",
+    "five_family_routes": {
+      "normal_JR_J": "-409/1024",
+      "residual_R_D2E": "3/1024",
+      "J_DR_E_left": "0",
+      "J_DR_E_right": "-3/512",
+      "residual_D2R_residual": "0"
+    },
+    "live_family_count": 3,
+    "direct_equals_five_family_sum": true,
+    "owner_conormal_swap": "METRIC_AND_TRACE_FIRST_SLOTS_EXCHANGE__MIXED_DATA_PRESERVED"
+  },
+  "hostile_repair": {
+    "initial_overbroad_rule": "REQUIRE_INTRINSIC_MIXED_PAIRING_NONZERO",
+    "exact_correction": "MIXED_PAIRING_ZERO_WITH_LIVE_FIRST_SLOT_AND_LIVE_MIXED_ACTION",
+    "repaired_rule": "REQUIRE_EXACT_NONVACUOUS_FIVE_FAMILY_REASSEMBLY_WITHOUT_PRESELECTING_EACH_FAMILY_VALUE"
+  },
+  "planted_controls": {
+    "frozen_primalizer": "CHANGES_MIXED_I2B_ACTION",
+    "omitted_mixed_residual": "CHANGES_MIXED_I2B_ACTION",
+    "planted_nonzero_D2R": "REJECTED",
+    "positive_Hilbert_substitution": "REJECTED",
+    "second_jet_to_complete_C4_bank": "REJECTED"
+  },
+  "admission": {
+    "scoped_fixed_background_second_residual_primalizer_pairing": "CLOSED",
+    "global_source_epsilon_curvature_graph": "OPEN",
+    "complete_I1_A4": "NOT_ASSEMBLED",
+    "complete_I2B_C4": "BLOCKED_ON_GLOBAL_CURVATURE_GRAPH_AND_COMPLETE_BANK_ASSEMBLY",
+    "multiindex_Green_Helmholtz": "BLOCKED_DOWNSTREAM_OF_COMPLETE_COEFFICIENT_BANKS",
+    "projective_kappa1": "NOT_RUN"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2h2_i2b_second_residual_primalizer_pairing_probe.py",
+    "exploration": "explorations/pw2fr2b2b2h2-complete-i2b-second-residual-primalizer-pairing-2026-08-04.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-04-pw2fr2b2b2h2-review.md",
+    "main": "8_EXACT_PLUS_2_SOURCE_PLUS_12_TYPE_PLUS_5_PLANTED_EQUALS_27_PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
+}

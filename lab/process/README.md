@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2h2-i2b-second-residual-primalizer-pairing-registry.json` -
+  PW2F-R2B2B2H2 ledger: records the active 13-coordinate off-shell residual,
+  full-carrier norm `981/64`, moving pairing jet
+  `(981/64,0,4293/128,0)`, exact mixed action `-103/256`, and complete
+  five-family reassembly with three live routes. The scoped fixed-background
+  dependency closes; the global/source-epsilon curvature graph and both
+  complete C4 banks remain open.
 - `pw2fr2b2b2h-mixed-shiab-second-jet-registry.json` -
   PW2F-R2B2B2H ledger: records the exact bivariate moving-Clifford,
   `Phi1/Phi2`, density/inverse-metric Hodge, normalized-trace, and Shiab

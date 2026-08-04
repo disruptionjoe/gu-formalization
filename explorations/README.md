@@ -13,6 +13,15 @@ these for the full working record; the durable, reviewed results live in `canon/
 
 ## Current Eric-guided construction branch
 
+- [`PW2F-R2B2B2H2 conditional I2B residual/primalizer/pairing second jet`](pw2fr2b2b2h2-complete-i2b-second-residual-primalizer-pairing-2026-08-04.md)
+  applies the accepted mixed Shiab operator to the active 13-coordinate
+  off-shell residual and constructs its moving Hodge primalizer/pairing. The
+  base norm is `981/64`, the fixed-residual pairing jet is
+  `(981/64,0,4293/128,0)`, and the exact five-family mixed action is
+  `-103/256` with three live families. This closes the scoped fixed-background
+  dependency only; the global/source-epsilon curvature graph, both complete
+  C4 banks, Green/Helmholtz, and projective classification remain open.
+  P1/P2/P3 remain unused; Curt and the third-lane gate are unchanged.
 - [`PW2F-R2B2B2H exact mixed trace/Phi/Hodge/Shiab operator jet`](pw2fr2b2b2h-mixed-shiab-second-jet-2026-08-04.md)
   composes the full sparse bivariate operator jet on an independent active
   owner/conormal pair. All Clifford relations, first-order constructor

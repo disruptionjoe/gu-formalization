@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2h2_i2b_second_residual_primalizer_pairing_probe.py`
+  constructs the conditional active residual, Hodge primalizer, and symmetric
+  pairing second jet on the accepted nonlinear coframe. It recovers the
+  full-carrier norm `981/64`, matches both accepted first Hodge slots, and
+  reassembles mixed action `-103/256` from all five off-shell `I2B` Hessian
+  families with frozen/omitted/positive-Hilbert plants. It closes only the
+  scoped fixed-background dependency, not the global curvature graph or C4
+  banks. Run it with `uv run --with sympy==1.14.0 python`.
 - `channel-swings/pw2fr2b2b2h_mixed_shiab_second_jet_probe.py` constructs the
   exact sparse bivariate normalized-trace/Phi/Hodge/Shiab operator jet, checks
   all 196 Clifford relations, both accepted first-order constructors, Hodge

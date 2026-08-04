@@ -4,14 +4,14 @@
   "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED_PW2FR2B2B2_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET",
-    "status": "CONDITIONAL_ACTIVE_MIXED_SHIAB_OPERATOR_JET_CLOSED__DISTINCT_I2B_SECOND_PRIMALIZER_OPEN",
-    "earned": "exact sparse bivariate normalized-trace/Phi/Hodge/Shiab operator jet with 196 Clifford relations, both first-order constructor comparisons, Hodge square, owner swap, curvature linearity, two omission plants, and 515 mixed response coordinates",
-    "scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair plus r/s swap; operator dependency closed only; complete I1 A4 is not assembled and distinct I2B C4 remains blocked on the complete second residual-primalizer/pairing jet; coefficient banks, multi-index Green/Helmholtz, kappa1 classification, and physics remain open",
+    "gate": "PW2F-R2B2B2H2-I2B-SECOND-RESIDUAL-PRIMALIZER-PAIRING",
+    "status": "CONDITIONAL_ACTIVE_FIXED_BACKGROUND_I2B_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET_CLOSED__GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_OPEN",
+    "earned": "exact active 13-coordinate residual and moving Hodge primalizer/pairing jet with base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, exact five-family reassembly, three live routes, and five hostile plants",
+    "scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair on the accepted fixed spin-curvature background; scoped residual/operator/primalizer/pairing second jet closed only; global/source-epsilon curvature graph, complete I1 A4 and I2B C4 banks, multi-index Green/Helmholtz, kappa1 classification, and physics remain open",
     "external_datum": "P1/P2/P3 unchanged and unused",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
   },
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {
@@ -71,14 +71,15 @@
       "PW2F-R2B2B2E corrected symmetric-coframe nonlinear Zorro graph and dependency-complete route maxima 4/3/3/3/2, proving conditional active principal U4 zero while preserving the normal C4 bank and carrying a live C3 return",
       "PW2F-R2B2B2F frozen-Shiab raw-density transgression comparator with exact rows (3/40,-8/25) and (-9/50,0), projective rank two, and explicit hostile-review demotion from density to Euler-operator status",
       "PW2F-R2B2B2G exact normalized-trace transport with six full-metric moving-Phi first-slot matches, preserved negative-unit norm, five live Zorro-horizontal corrections, three live mixed trace slots, and a fail-closed full-C4 admission blocker",
-      "PW2F-R2B2B2H exact bivariate trace/Phi/Hodge/Shiab operator jet with 196 Clifford relations, both first-order API matches, Hodge square, owner swap, curvature linearity, two omission plants, and 515 live mixed coordinates"
+      "PW2F-R2B2B2H exact bivariate trace/Phi/Hodge/Shiab operator jet with 196 Clifford relations, both first-order API matches, Hodge square, owner swap, curvature linearity, two omission plants, and 515 live mixed coordinates",
+      "PW2F-R2B2B2H2 exact active 13-coordinate residual and moving Hodge primalizer/pairing second jet with base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, complete five-family reassembly, and three live routes"
     ],
     "open": [
       "global moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14",
       "literal public-source U/(7,7) to active P_mix/Sp/Spin(9,5) bundle identification; global co-moving descent; tame nonlinear source inverse; off-identity dexp resonance; and analytic boundary-domain inverse",
       "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
       "global source-to-active epsilon/real-form port, full source tangent, vertical/mixed conormals, partial-Z1 and section tangents",
-      "complete residual-primalizer/pairing second jet before separate I1/I2B C4 banks, Green/Helmholtz Euler reduction, projective classification, and the live C3 return",
+      "global/source-epsilon curvature graph before separate I1/I2B C4 banks, Green/Helmholtz Euler reduction, projective classification, and the live C3 return",
       "complete lower C2 active-native metric Euler coefficient with every total-to-base metric owner, formal-adjoint Green return, kernel, and quotient rank",
       "actual action-derived Euler covector descent beyond the earned active coefficient and grade-two representation-covector laws",
       "higher native action jets determining whether the quadratic Delta-only degeneracy persists; D3G remains unconstructed and unearned pending the complete top-order sum",
@@ -89,9 +90,9 @@
       "complete zero-order Standard Model and Yukawa placement",
       "one frozen no-refit joint physics construction"
     ],
-    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B2B2H",
-    "guided_next": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS",
-    "alternative_next": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
+    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B2B2H2",
+    "guided_next": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS",
+    "alternative_next": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
   },
   "layer0_distinctions": [
     "public source bundle != active native bundle != reduced Spin bundle",

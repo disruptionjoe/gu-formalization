@@ -6,14 +6,14 @@
   "campaign_specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
   "controlling_objective": "Execute the paired Eric architecture with Curt's iceberg as a separately tagged rival/checklist track, while constructing the external datum and source action as one conditional theory family.",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET",
-    "status": "CONDITIONAL_ACTIVE_MIXED_SHIAB_OPERATOR_JET_CLOSED__DISTINCT_I2B_SECOND_PRIMALIZER_OPEN",
-    "earned": "exact sparse bivariate normalized-trace/Phi/Hodge/Shiab operator jet; all 196 Clifford pairs, both first-Hodge and first-Shiab constructor comparisons, Hodge square, owner/conormal swap, curvature linearity, and frozen-trace/omitted-Hodge-cross plants pass; the mixed Shiab slot has 515 coordinates",
-    "scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair plus its r/s swap; closes the mixed operator dependency only; complete I1 A4 is not assembled and distinct I2B C4 remains blocked on the complete second residual-primalizer/pairing jet; full coefficient banks, multi-index Green/Helmholtz, live C3, global/source epsilon, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
+    "gate": "PW2F-R2B2B2H2-I2B-SECOND-RESIDUAL-PRIMALIZER-PAIRING",
+    "status": "CONDITIONAL_ACTIVE_FIXED_BACKGROUND_I2B_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET_CLOSED__GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_OPEN",
+    "earned": "exact active 13-coordinate residual plus moving Hodge primalizer/pairing jet; base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, and complete five-family reassembly with three live routes; frozen-primalizer, omitted-mixed-residual, nonzero-D2R, positive-Hilbert, and bank-promotion plants reject",
+    "scope": "one independent conditional active off-diagonal nonlinear-Zorro owner/conormal pair on the accepted fixed spin-curvature background; closes the scoped residual/operator/primalizer/pairing second jet only; the global/source-epsilon curvature graph, complete I1 A4 and I2B C4 banks, multi-index Green/Helmholtz, live C3, projective kappa1, unported 7,7 action pairing, vertical/mixed conormals, partial-Z1, section tangents, domain, observation, and physics remain open",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
   },
   "construction_lanes": [
     "INDEPENDENT_NATIVE",
@@ -776,6 +776,16 @@
           "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
           "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
           "next_gate": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
+        },
+        "post_b2c15r3_pw2fr2b2b2h2": {
+          "status": "CONDITIONAL_ACTIVE_FIXED_BACKGROUND_I2B_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET_CLOSED__GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_OPEN",
+          "result": "ACTIVE_RESIDUAL13_COORDINATES__FULL_CARRIER_NORM981_OVER64__FIXED_RESIDUAL_PAIRING_JET_981_OVER64_0_4293_OVER128_0__HODGE_SQUARE_PLUS1_ON_13_FORM__MIXED_I2B_ACTION_MINUS103_OVER256__FIVE_FAMILY_ROUTES_MINUS409_OVER1024_PLUS3_OVER1024_PLUS0_MINUS3_OVER512_PLUS0__THREE_LIVE_FAMILIES__DIRECT_EQUALS_ASSEMBLED__FROZEN_PRIMALIZER_OMITTED_MIXED_RESIDUAL_PLANTED_D2R_POSITIVE_HILBERT_AND_BANK_PROMOTION_REJECTED",
+          "source_disposition": "SOURCE_CONFIRMS_SEPARATE_I1_AND_I2B_GRAMMARS__REPOSITORY_DERIVES_ACTIVE9_5_FIXED_BACKGROUND_RESIDUAL_PRIMALIZER_PAIRING_SECOND_JET__SOURCE_SILENT_ON_ACTIVE_JET_GLOBAL_SOURCE_EPSILON_CURVATURE_GRAPH_COMPLETE_BANKS_GREEN_DOMAIN_AND_PHYSICS",
+          "exact_tools": "MAIN27_PASS__BASE_FULL_CARRIER_AND_TWO_FIRST_DSTAR_MATCHES__HODGE_SQUARE__FIVE_FAMILY_REASSEMBLY__METRIC_TRACE_OWNER_SWAP__FIVE_PLANTED_REJECTIONS",
+          "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+          "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+          "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+          "next_gate": "PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS"
         }
       }
     },
