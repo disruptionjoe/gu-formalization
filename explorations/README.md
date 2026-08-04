@@ -666,3 +666,24 @@ full low/high Phi carrier inside the displayed ansatz, enumerates broader
 source-natural rivals, and imposes Bianchi, algebraic-curvature,
 transgression, and derivative/Green selectors. K77-C, physical particles,
 and P1/P2/P3 use remain open.
+
+# Resolver Wave K77-B2 (2026-08-04)
+
+`resolver-wave-k77b2-shiab-family-curvature-selector-transgression-2026-08-04.md`
+constructs the algebraic Riemann module as the exact rank-3,185 first-Bianchi
+kernel inside rank-4,186 pair-symmetric curvature and explicitly injects it
+pointwise in a fixed frame into the rank-1,490,944 ambient spin-valued
+curvature domain. Exact complexified D7 arithmetic gives `3185=1+104+3080`
+with target multiplicities
+`2,2,0`; Weyl-killing is therefore automatic for equivariant zero-order maps,
+not a selector. The complete K77-B source-inspired low/high factorized repair
+family reduces to four Riemann Hom coordinates. Only two product patterns
+meet the ambient
+fourteen-dimensional Einstein ratio, and exact low/volume-dual transgression
+counterexamples force both to the zero map. This kills the displayed ansatz
+only for the joint ambient-Einstein/same-action reading. An exact two-
+coordinate low/high Einstein restriction is explicitly constructed pointwise
+on Riemann curvature, but its associated-bundle descent, source-natural full-
+domain extension, executable grammar typing and bounded expression-DAG census,
+differential Bianchi/Green, moving fields, observation, K77-C, physics, and
+P1/P2/P3 use remain open.

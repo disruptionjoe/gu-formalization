@@ -124,6 +124,7 @@ selected notes below and in each script header.
 - `resolver_wave_i_scope_audit.py`
 - `resolver_wave_k77a_scope_audit.py`
 - `resolver_wave_k77b_scope_audit.py`
+- `resolver_wave_k77b2_scope_audit.py`
 - `resolver_wave_k_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
@@ -804,3 +805,18 @@ the high-grade invariant copies and full Phi family open, forbids promotion
 from a constant algebraic fixture to derivative/Green, Euler/Noether/BV,
 domain, observation, or physics, and holds the result at candidate-map rather
 than mechanism/lane/program scope. P1/P2/P3 remain unused.
+
+## Resolver Wave K77-B2 scope gate
+
+`resolver_wave_k77b2_scope_audit.py` preserves ambient adjoint curvature
+versus the algebraic Riemann submodule, algebraic versus differential versus
+historical Bianchi, and ambient versus observed versus Frobenius-fibre trace
+reversal. It requires the exact `3185=1+104+3080` decomposition and target
+multiplicities `2,2,0`, forbids using Weyl-killing as a uniqueness selector,
+and holds the complete K77-B source-inspired factorized repair-family kill to
+the joint ambient-Einstein/same-action burden. It preserves the two-coordinate Riemann-
+restriction construction at pointwise fixed-frame grade while requiring its
+associated-bundle descent, full-domain extension, executable grammar typing,
+bounded expression-DAG census, differential Bianchi/Green, moving fields,
+observation, physics, and P1/P2/P3 use to remain open. It forbids promotion from displayed
+ansatz to bounded grammar, K77 lane, or conditional-program scope.

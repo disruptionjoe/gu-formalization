@@ -912,25 +912,27 @@ and `lab/process/hostile-reviews/2026-08-04-resolver-wave-k77b2-review.md`.
 No scientific register row or protected verdict moves.
 
 - The algebraic Riemann module is now explicitly the rank-3,185 first-Bianchi
-  kernel inside rank-4,186 pair-symmetric curvature and is injected into the
-  rank-1,490,944 ambient real-adjoint spin-curvature domain. It is not the
+  kernel inside rank-4,186 pair-symmetric curvature and is injected pointwise
+  in a fixed frame into the rank-1,490,944 ambient real-adjoint spin-curvature
+  domain. Associated-bundle/soldering descent remains open. It is not the
   whole source curvature space.
 - Exact complexified D7 arithmetic gives `3185=1+104+3080` and target
   multiplicities `2,2,0`. Weyl-killing is automatic for an equivariant zero-
   order map on this submodule and cannot be used as the missing selector.
-- The complete displayed low/high factorized family reduces to lifted
-  features `(a,b,ac,ad,bc,bd)`. Only two product patterns meet the ambient
+- The complete K77-B source-inspired low/high factorized repair family reduces
+  to lifted features `(a,b,ac,ad,bc,bd)`. Only two product patterns meet the ambient
   fourteen-dimensional Einstein ratio; exact same-action transgression
   witnesses force both to the zero map.
 - The kill is scoped to the displayed ansatz under the joint ambient-Einstein/
   same-action reading. Observed four-dimensional and Frobenius-fibre trace
   maps, the broader bounded grammar, and the K77 lane remain live.
-- A two-coordinate low/high ambient-Einstein restriction survives exactly on
-  algebraic Riemann curvature. The next construction is its source-natural,
-  cyclically variational full-domain extension plus differential Green data,
-  not a return to the dead printed endpoint.
+- Explicit low/high maps construct a two-coordinate ambient-Einstein
+  restriction exactly on algebraic Riemann curvature at pointwise fixed-frame
+  grade. The next construction must first find a source-natural full-domain
+  extension, then test cyclic/Helmholtz existence and differential Green data;
+  it is not a return to the dead raw printed endpoint.
 - **Next named gate:**
-  `RESOLVER-WAVE-K77-B3-BOUNDED-SHIAB-DAG-CYCLIC-EULER-COMPLETION-AND-GREEN`.
+  `RESOLVER-WAVE-K77-B3-FULL-DOMAIN-EXTENSION-CYCLIC-EULER-EXISTENCE-AND-GREEN`.
   K77-C and all atomic physics rows remain blocked; P1/P2/P3 remain unchanged
   and unused.
 

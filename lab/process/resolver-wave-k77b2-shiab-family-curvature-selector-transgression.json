@@ -1,0 +1,125 @@
+{
+  "artifact": "RESOLVER_WAVE_K77B2_SHIAB_FAMILY_CURVATURE_SELECTOR_TRANSGRESSION",
+  "version": "2026-08-04",
+  "named_gate": "RESOLVER-WAVE-K77-SHIAB-FAMILY-SELECTOR-AND-TRANSGRESSION-EXACTNESS",
+  "source_collision": {
+    "classification": "SOURCE-CONFIRMS-CANDIDATE__SOURCE-SILENT-ON-EXECUTABLE-SELECTOR",
+    "locators": [
+      "2021 draft page 42 section 8.2",
+      "2021 draft page 43 equations 9.2-9.3 and footnote 10",
+      "2021 draft page 44 equation 9.4",
+      "2021 draft page 57 equations 12.4-12.7",
+      "2021 draft page 66 equations 12.24-12.27"
+    ],
+    "historical_bianchi_identity_type": "AMBIGUOUS"
+  },
+  "layer0": {
+    "algebraic_riemann": "ker(Alt:Sym2(Lambda2 V*) -> Lambda4 V*)",
+    "ambient_curvature": "Lambda2 V* tensor u(64,64)",
+    "algebraic_bianchi": "R_[ijk]l=0",
+    "differential_bianchi": "D_A F_A=0",
+    "ambient_einstein_trace": "14D Ric-1/2 Scal g",
+    "observed_einstein_trace": "4D pullback/quotient object, OPEN",
+    "frobenius_fibre_trace_reversal": "(6,4) vertical metric operation, distinct and OPEN here"
+  },
+  "dimension_ladder": {
+    "ambient_omega2_ad": 1490944,
+    "sym2_lambda2": 4186,
+    "lambda4_bianchi_rows": 1001,
+    "algebraic_riemann": 3185,
+    "algebraic_riemann_irreps": {
+      "scalar": 1,
+      "traceless_ricci": 104,
+      "weyl": 3080
+    }
+  },
+  "riemann_restriction_hom": {
+    "dimension": 4,
+    "dimension_scope": "REAL_POINTWISE_FIXED_FRAME__COMPLEX_D7_UPPER_BOUND_PLUS_FOUR_EXPLICIT_REAL_MAPS",
+    "multiplicities": {
+      "scalar": 2,
+      "traceless_ricci": 2,
+      "weyl": 0
+    },
+    "basis": ["Q_LOW", "Z_LOW", "Q_HIGH", "Z_HIGH"],
+    "weyl_killing_selects": false
+  },
+  "candidate_tiers": [
+    {
+      "id": "TIER_A_DISPLAYED_FACTORIZED_LOW_HIGH",
+      "continuous_parameters": ["a", "b", "c", "d"],
+      "lifted_features": ["a", "b", "ac", "ad", "bc", "bd"],
+      "discrete_product_patterns": 8,
+      "complete_within_declared_tier": true,
+      "verdict": "ZERO_NONVACUOUS_INTERSECTION_UNDER_AMBIENT_EINSTEIN_PLUS_SAME_ACTION",
+      "kill_scope": "DISPLAYED_ANSATZ_KILL"
+    },
+    {
+      "id": "TIER_B_ZERO_ORDER_SOURCE_NATURAL_DAG_G_LE_2",
+      "generators": [
+        "HODGE",
+        "WEDGE",
+        "CONTRACTION",
+        "UNHALVED_COMMUTATOR",
+        "I_SYMMETRIC_PRODUCT",
+        "COEFFICIENT_VOLUME",
+        "ADJOINT_PROJECTION",
+        "FINITE_SUM"
+      ],
+      "depth_bound": 2,
+      "complete_within_declared_tier": false,
+      "exhausts_all_shiabs": false,
+      "status": "PROVISIONAL_SIGNATURE_DECLARED__EXECUTABLE_TYPING_AND_CANONICAL_DAG_ENUMERATION_OPEN"
+    },
+    {
+      "id": "TIER_C_DERIVATIVE_OR_MOVING_FIELD_RIVALS",
+      "status": "OPEN_NOT_IN_ZERO_ORDER_GATE"
+    }
+  ],
+  "constructive_survivor": {
+    "object": "p*J_LOW(G_14)+q*J_HIGH(G_14) on algebraic Riemann curvature",
+    "riemann_restriction_dimension": 2,
+    "grade": "EXACT_POINTWISE_FIXED_FRAME_EQUIVARIANT_RESTRICTION",
+    "explicit_maps": ["J_LOW_G14", "J_HIGH_G14"],
+    "associated_bundle_descent": "OPEN",
+    "full_domain_extension": "OPEN",
+    "same_action_transgression": "OPEN",
+    "source_selection": "NOT_CLAIMED"
+  },
+  "constraint_accounting": {
+    "displayed_continuous_parameters": 4,
+    "lifted_linear_row_rank": 4,
+    "factorized_parameter_ideal_height": 2,
+    "zero_map_parameter_fibre_dimension": 2,
+    "positive_constraint_surplus": "NOT_EARNED",
+    "nonzero_solution": false,
+    "interpretation": "OBSTRUCTION_NOT_CONFIRMATION"
+  },
+  "open_gates": {
+    "historical_bianchi_selector": "OPEN",
+    "bounded_grammar_enumeration": "OPEN",
+    "full_domain_einstein_extension": "OPEN",
+    "associated_bundle_soldering_descent": "OPEN",
+    "differential_bianchi": "OPEN",
+    "derivative_green": "OPEN",
+    "moving_epsilon_metric": "OPEN",
+    "observation_descent": "OPEN",
+    "physics": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "verdict": {
+    "displayed_ambient_einstein_same_action": "KILLED",
+    "k77_lane_killed": false,
+    "gu_program_killed": false,
+    "atomic_targets_preserved": true,
+    "canon_or_public_status_change": false
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-K77-B3-FULL-DOMAIN-EXTENSION-CYCLIC-EULER-EXISTENCE-AND-GREEN",
+    "status": "OPEN"
+  }
+}

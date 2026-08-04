@@ -1,0 +1,80 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-04",
+  "named_gate": "RESOLVER-WAVE-K77-SHIAB-FAMILY-SELECTOR-AND-TRANSGRESSION-EXACTNESS",
+  "gate_before": "SOURCE_BRACKET_NORMALIZED__CANONICAL_LOW_GRADE_RAW_SHIAB_CODOMAIN_KILL__LOW_GRADE_REPAIRS_NOT_VARIATIONALLY_CERTIFIED",
+  "gate_after": "RIEMANN_INJECTION_AND_FOUR_COORDINATE_HOM_CONSTRUCTED__DISPLAYED_AMBIENT_EINSTEIN_SAME_ACTION_INTERSECTION_ZERO__BROADER_EXTENSION_OPEN",
+  "route_disposition": "CONTINUE_K77_THROUGH_BOUNDED_FULL_DOMAIN_EXTENSION_AND_CYCLIC_EULER_EXISTENCE_SEARCH",
+  "hostile_review_status": "PASS_AFTER_REPAIRS",
+  "source_collision": "SOURCE_CONFIRMS_CANDIDATE__SOURCE_SILENT_ON_EXECUTABLE_SELECTOR",
+  "curvature_module": {
+    "ambient_dimension": 1490944,
+    "pair_symmetric_dimension": 4186,
+    "bianchi_rank": 1001,
+    "riemann_dimension": 3185,
+    "irreducible_dimensions": [1, 104, 3080],
+    "target_multiplicities": [2, 2, 0],
+    "explicit_spin_injection": true,
+    "spin_injection_scope": "POINTWISE_FIXED_FRAME__ASSOCIATED_BUNDLE_DESCENT_OPEN",
+    "real_hom_basis_explicit": ["Q_LOW", "Z_LOW", "Q_HIGH", "Z_HIGH"]
+  },
+  "displayed_family": {
+    "continuous_parameters": 4,
+    "lifted_features": ["a", "b", "ac", "ad", "bc", "bd"],
+    "product_patterns": 8,
+    "ambient_einstein_viable_patterns": ["comm/symi/comm", "comm/symi/symi"],
+    "joint_nonzero_survivors": 0,
+    "verdict": "DISPLAYED_ANSATZ_KILL_UNDER_AMBIENT_EINSTEIN_PLUS_SAME_ACTION"
+  },
+  "constructive_survivor": {
+    "object": "p_J_LOW_G14_PLUS_q_J_HIGH_G14_ON_RIEMANN_SUBMODULE",
+    "dimension": 2,
+    "full_domain_extension": "OPEN",
+    "source_selection": "NOT_CLAIMED",
+    "grade": "EXACT_POINTWISE_FIXED_FRAME_EQUIVARIANT_RESTRICTION",
+    "associated_bundle_descent": "OPEN"
+  },
+  "bounded_grammar": {
+    "typed": false,
+    "status": "PROVISIONAL_SIGNATURE_DECLARED",
+    "canonical_dag_enumeration": "OPEN",
+    "exhausts_all_shiabs": false
+  },
+  "scope": {
+    "ambient_einstein_trace": true,
+    "observed_four_dimensional_trace": false,
+    "frobenius_fibre_trace_reversal": false,
+    "algebraic_bianchi": true,
+    "differential_bianchi": false,
+    "constant_cubic_transgression_counterexamples": true,
+    "derivative_green": false,
+    "moving_fields": false,
+    "observation_descent": false,
+    "physics_recovery": false
+  },
+  "kill_policy": {
+    "highest_earned_scope": "DISPLAYED_ANSATZ_KILL_UNDER_AMBIENT_EINSTEIN_PLUS_SAME_ACTION",
+    "bounded_grammar_killed": false,
+    "lane_killed": false,
+    "conditional_program_killed": false,
+    "atomic_targets_preserved": true
+  },
+  "assertion_counts_final": {
+    "exact": 34,
+    "sage": 1,
+    "source": 6,
+    "type": 11,
+    "planted": 9,
+    "total": 61
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused"
+  },
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "next_gate": "RESOLVER-WAVE-K77-B3-FULL-DOMAIN-EXTENSION-CYCLIC-EULER-EXISTENCE-AND-GREEN"
+}
