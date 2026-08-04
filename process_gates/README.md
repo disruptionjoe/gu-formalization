@@ -73,6 +73,7 @@ selected notes below and in each script header.
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
+- `k77_wave2_action_ward_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -848,3 +849,16 @@ requires the source-normalized one-third quadratic comparison, preserves the
 unidentified observed and Frobenius-fibre trace reversals, leaves Green/domain
 not reached, keeps P1/P2/P3 unused, and moves the campaign frontier to the
 derivative-or-moving-field common action/current/Riesz/Ward rendezvous.
+
+## K77 Wave 2 action/current/Riesz/Ward scope gate
+
+`k77_wave2_action_ward_scope_audit.py` requires the primary architecture to
+use the written action's actual symmetrized Euler derivative, emit `J_D+J_F`
+once without a second current bridge, and keep the Hodge/invariant-pairing map
+at indefinite pointwise pseudo-musical grade. It preserves the distinction
+between the complete even local-IG Ward contraction and the source
+`Xi=D Upsilon` redundancy equation, prevents gauge covariance from selecting
+the bridge policy, and records the real mixed rolled bracket as partial
+`TG-1` only. `TG-2`, `TG-3`, source-group/Krein compatibility, observation,
+domain, vacuum, physics, and P1/P2/P3 remain open; the campaign frontier stays
+on the same named Wave-2 gate.

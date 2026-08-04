@@ -721,3 +721,18 @@ curvature/soldering action, or an action-derived invariant restricted domain.
 External datum is not an eligible repair for this missing variational
 structure. The campaign now advances to the common action/current/Riesz/Ward
 rendezvous.
+
+# K77 Wave 2 action/current/Riesz/Ward rendezvous (2026-08-04)
+
+[`k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md`](k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md)
+freezes one local action-first K77 architecture. It uses the action's actual
+symmetrized Euler derivative, emits `J_D+J_F` once from the varied fermion
+action, inserts no second current bridge, uses the real indefinite connection
+pseudo-musical only as a carrier map, and derives an exact even local-IG Ward
+contraction with the moving compensator and inhomogeneous connection response
+retained. A real pointwise mixed rolled bracket constructs partial `TG-1` at
+`Sp(S,Omega)` grade. Source-group/simultaneous-Krein compatibility, the
+full-field odd action (`TG-2`), and odd Ward/BV closure (`TG-3`) remain open,
+so Wave 2 is partial and the campaign does not yet advance to observation or
+external data. The result makes no domain, vacuum, particle, physics, or
+P1/P2/P3 claim.

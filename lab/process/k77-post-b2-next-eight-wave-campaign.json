@@ -116,6 +116,21 @@
         "NOETHER_BV_IDENTITY",
         "ONE_EULER_SYSTEM"
       ],
+      "status": "PARTIAL_FROZEN_LOCAL_ACTION_EVEN_WARD__ODD_SUPERIG_ACTION_OPEN",
+      "result_ref": "explorations/k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md",
+      "emitted": [
+        "ACTION_FIRST_NO_SEPARATE_BRIDGE",
+        "ACTUAL_SYMMETRIZED_EULER",
+        "JD_PLUS_JF_EMITTED_ONCE",
+        "INDEFINITE_CONNECTION_PSEUDO_MUSICAL",
+        "EVEN_LOCAL_IG_WARD",
+        "TG1_PARTIAL_REAL_POINTWISE_MIXED_ROLLED_BRACKET"
+      ],
+      "open_blockers": [
+        "TG2_FULL_FIELD_ODD_ACTION",
+        "TG3_ODD_WARD_BV",
+        "SOURCE_GROUP_AND_SIMULTANEOUS_KREIN_COMPATIBILITY"
+      ],
       "exit": "ONE_FROZEN_EULER_WARD_ARCHITECTURE_OR_MINIMAL_INCONSISTENT_EQUATIONS",
       "kill_scope": "ACTION_ARCHITECTURE_OR_SHARED_ACTION_MECHANISM",
       "held_out": ["OBSERVATION_QUOTIENT", "VACUUM", "DOMAIN", "PARTICLE_RECOVERY"]
@@ -238,10 +253,13 @@
   },
   "frontier": {
     "completed_waves": [1],
+    "partial_waves": [2],
     "next_wave": 2,
     "next_named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
     "wave1_result": "ZERO_ORDER_LINEAR_FULL_DOMAIN_EINSTEIN_CYCLIC_INTERSECTION_ZERO",
-    "required_bosonic_rebuild": "DERIVATIVE_OR_MOVING_FIELD_ACTION"
+    "required_bosonic_rebuild": "SATISFIED_BY_ACTUAL_SYMMETRIZED_EULER_ACTION_FIRST_ARCHITECTURE",
+    "wave2_partial_result": "FROZEN_LOCAL_ACTION_FIRST_NO_BRIDGE_EVEN_WARD_WITH_TG1_PARTIAL",
+    "next_required_build": "FULL_FIELD_ODD_ACTION_AND_ODD_WARD_BV_OR_FORMAL_REQUIREMENT_REBASE"
   },
   "review_contract": {
     "inline_divergent_preassessment_each_wave": true,

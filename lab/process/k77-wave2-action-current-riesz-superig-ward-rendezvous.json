@@ -1,0 +1,94 @@
+{
+  "artifact": "K77_WAVE2_ACTION_CURRENT_RIESZ_SUPERIG_WARD_RENDEZVOUS",
+  "version": "2026-08-04",
+  "named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+  "gate_status": "PARTIAL_FROZEN_LOCAL_ACTION_EVEN_WARD__ODD_SUPERIG_ACTION_OPEN",
+  "source_collision": {
+    "first_order_action_and_coefficients": "SOURCE-CONFIRMS",
+    "combined_bosonic_fermionic_residual": "SOURCE-CONFIRMS",
+    "separate_matter_current_bridge": "ABSENT_IN_CHECKED_SOURCE",
+    "Xi_equals_DUpsilon_as_Noether": "SOURCE-CORRECTS_TO_REDUNDANCY_OR_DEFORMATION_EQUATION",
+    "complete_Dirac_action": "SOURCE-SILENT_OR_DEFERRED",
+    "native_K77_odd_action_Ward_and_domain": "SOURCE-SILENT"
+  },
+  "selected_architecture": {
+    "id": "ACTION_FIRST_NO_SEPARATE_BRIDGE_LOCAL_K77",
+    "bosonic_euler": "ACTUAL_SYMMETRIZED_DERIVATIVE_OF_WRITTEN_ACTION",
+    "current": "JD_PLUS_JF_EMITTED_ONCE_BY_S20",
+    "bridge": "NONE_IN_PRIMARY_ACTION",
+    "current_carrier_map": "INDEFINITE_POINTWISE_CONNECTION_PSEUDO_MUSICAL",
+    "ward": "EVEN_LOCAL_IG_OFFSHELL_WITH_MOVING_EPSILON_AND_INHOMOGENEOUS_CONNECTION",
+    "selection_grade": "SOURCE_FAITHFUL_PRIMARY_NOT_MATHEMATICALLY_UNIQUE"
+  },
+  "bosonic_rebuilds": {
+    "actual_symmetrized_euler": "SELECTED_PRIMARY",
+    "moving_shiab_epsilon_soldering_hodge": "REQUIRED_IN_E_EPSILON_AND_WARD__NOT_A_FIXED_EPSILON_TRANSLATION_REPAIR",
+    "regular_parent_field": "REDUCES_TO_ACTUAL_SYMMETRIZED_EULER__DISTINCT_ONLY_WITH_NEW_GEOMETRY_OR_CONSTRAINTS",
+    "action_BV_restricted_domain": "OPEN_REOPENER__ONE_DIMENSIONAL_CONTROL_PASSES__NO_PHYSICAL_DOMAIN_CONSTRUCTED"
+  },
+  "exact_fixture": {
+    "actual_translation_derivative": "-211/21",
+    "advertised_translation_pairing": "-68/7",
+    "defect": "-1/3",
+    "moving_shiab_response": "-58/3",
+    "even_ward_contraction": "0",
+    "checks": {
+      "exact": 25,
+      "source": 6,
+      "type": 14,
+      "planted": 7,
+      "total": 52
+    }
+  },
+  "current_comparison": {
+    "no_bridge": "JD_PLUS_JF_ONCE",
+    "JD_bridge": "JD_CANCELS__JF_REMAINS",
+    "total_bridge": "DIRECT_JD_PLUS_JF_CANCELS__HESSIAN_AND_BOUNDARY_RESPONSES_REMAIN",
+    "ward_selects_bridge_policy": false,
+    "physical_JF_owner": "RB1_DIFFERENTIAL_JF_EQUALS_DA_COAD_QF_WITH_PREBOUNDARY"
+  },
+  "superig": {
+    "odd_module_candidate": "Q_MIX_EQUALS_S_PLUS_VSTAR_TENSOR_S",
+    "bracket": "BETA_CROSS_MOMENT_MAP_TO_VSTAR_TENSOR_sp_S_OMEGA",
+    "TG1": "PARTIAL_REAL_POINTWISE_SP_OMEGA_BRACKET_CONSTRUCTED",
+    "TG2": "OPEN_FULL_FIELD_ODD_ACTION",
+    "TG3": "OPEN_ODD_WARD_BV_CLOSURE",
+    "conjunction": "NOT_PROMOTED",
+    "open_compatibility": [
+      "SOURCE_GROUP_IDENTIFICATION_OR_PROJECTION",
+      "SIMULTANEOUS_KREIN_PAIRING_COMPATIBILITY",
+      "FERMION_FIELD_VERSUS_ODD_PARAMETER_IDENTIFICATION",
+      "GAMMA_PROJECTOR_DOMAIN_PRESERVATION",
+      "PREBOUNDARY_AND_MASTER_EQUATION"
+    ]
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIRS__GATE_PARTIAL",
+  "held_open": [
+    "GLOBAL_ASSOCIATED_BUNDLE_DESCENT",
+    "OBSERVATION_BV_GROUPOID",
+    "ANALYTIC_KREIN_GREEN_DOMAIN",
+    "VACUUM_AND_ZERO_ORDER_PLACEMENT",
+    "LOCAL_AND_GLOBAL_PHYSICS_RECOVERY",
+    "PARTICLE_POLES_AND_RESIDUES",
+    "MASS_CHIRALITY_ANOMALY_INDEX_COUNT",
+    "DARK_ENERGY_AND_DARK_MATTER"
+  ],
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "status_boundary": {
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "lane_change": false,
+    "public_posture_change": false,
+    "third_lane_promoted": false,
+    "physics_status_change": false
+  },
+  "frontier": {
+    "wave": 2,
+    "named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+    "next_build": "FULL_FIELD_ODD_ACTION_AND_ODD_WARD_BV_OR_FORMAL_REQUIREMENT_REBASE"
+  }
+}

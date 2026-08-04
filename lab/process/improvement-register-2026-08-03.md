@@ -1071,3 +1071,35 @@ P1/P2/P3 status moves.
   terms, an independent parent curvature/soldering field, and an
   action/BV-derived invariant restricted domain. External datum cannot repair
   a missing variational map.
+
+---
+
+## Revision 19 (2026-08-04, K77 Wave-2 action/even-Ward rendezvous)
+
+Sources:
+`explorations/k77-wave2-action-current-riesz-superig-ward-rendezvous-2026-08-04.md`,
+`lab/process/k77-wave2-action-current-riesz-superig-ward-rendezvous.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-action-ward-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, or
+P1/P2/P3 status moves.
+
+- The source-guided primary action now emits the fermionic connection current
+  once, through `delta_A S_20=J_D+J_F`, rather than inserting a second bridge
+  made from the same derivative. The `J_D` and total-current bridge actions
+  remain mathematically gauge-invariant negative-test comparators; source
+  fidelity is not reported as uniqueness.
+- After a full-domain Helmholtz failure, retain the written action and use its
+  actual symmetrized Euler derivative. A moving Shiab response belongs to the
+  epsilon equation and Ward identity; it cannot repair a translation
+  derivative whose variation explicitly holds epsilon fixed.
+- A regular parent-field rewrite is not a new mechanism: after auxiliary
+  elimination it returns the same symmetrized Euler derivative. Count a parent
+  as a reopener only when it supplies new nonregular geometry or constraints.
+- The connection current map is an indefinite pointwise pseudo-musical. Never
+  let the word Riesz import positivity, boundedness, a Hilbert completion, or a
+  common domain.
+- The mixed rolled symplectic moment-map bracket constructs only partial
+  `TG-1`. Before any super-IG action claim, construct source-group projection,
+  simultaneous Krein compatibility, field-versus-parameter identification,
+  the full odd action, and odd Ward/BV closure. An even gauge Ward identity or
+  `Xi=D Upsilon` cannot substitute for `TG-2/TG-3`.
