@@ -120,6 +120,7 @@ selected notes below and in each script header.
 - `resolver_wave_e_scope_audit.py`
 - `resolver_wave_f_scope_audit.py`
 - `resolver_wave_g_scope_audit.py`
+- `resolver_wave_h_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `scripts_readme_surface_map_audit.py`
@@ -713,3 +714,18 @@ separate from a combined `Psrc(T_omega)` and actual `Theta_Z`/Zorro
 nonconstant overlap descent. It also keeps the global density/Krein adjoint,
 source variation domain, total active/transverse Euler, Ward/Green data,
 domain, no-leakage, and P1/P2/P3 open.
+
+## Resolver Wave H scope gate
+
+`resolver_wave_h_scope_audit.py` preserves the Layer-0 real-form fork between
+the public U-type source presentation and native right-`H` Sp geometry. It
+requires `J_red` to remain a chosen, source-silent local reduction field; the
+Reynolds map to be restricted to the explicitly typed real public `u(K)`
+carrier; public covariance to move the codomain to `sp(K,J_h)`; and the map
+to remain non-homomorphic. It keeps the rank-252 `Psrc(T_omega)` and projector
+first jet local/fixed-coindex, and prevents the auxiliary quadratic from
+becoming the displayed source action or an Euler covector. Actual
+`Met(X)`/`Theta_Z` descent, source-action variation, total Euler tangency,
+global density/Krein adjoints, Ward/Green/domain, observation no-leakage, and
+P1/P2/P3 coupling remain open. It does not reproduce the Clifford, matrix,
+Sage, source, or symbolic first-jet certificates.

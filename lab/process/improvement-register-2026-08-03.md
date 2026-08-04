@@ -636,3 +636,46 @@ No scientific register row or protected verdict moves.
   obstruct the actual bundle reduction and global moving port,
   then join it to the displayed first source action and derive both Euler
   sectors. P1/P2/P3 remain unchanged and unused.
+
+---
+
+## Revision 10 (2026-08-03, Resolver Wave H)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-h-public-native-combined-port-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-h-review.md`.
+No scientific register row or protected verdict moves.
+
+- The repo's previously unpromoted right-`H` averaging involution is now a
+  chosen local map `P_J:u(K)->sp(K,J)` on an explicitly phase-typed real
+  public carrier. `J_red` is an extra local `U/Sp`-type reduction field with
+  source-silent ownership, not a source-owned or bundle-level reduction. Exact
+  dimensions are `16384=8256+8128`; the one-form dimensions are
+  `229376 -> 115584`.
+- The whole chosen-`J`, `q6`, `Pext`, and Chevalley-reincluded source map is
+  instantiated. It has rank 252 and kernel 229124, is idempotent and locally
+  trace-self-adjoint, and kills both the imaginary public complement and the
+  native grade-ten near-miss.
+- The same composite now receives an exact `T_omega` first jet. It is left
+  tilted basic and right adjoint-covariant conditional on a stipulated paired
+  Clifford-frame law, including a public K-unitary mover outside native `Sp`.
+  Freezing `J`/the frame fails; moving `J` repairs covariance into the moved
+  codomain `sp(K,J_h)`, not one fixed native group.
+- `R_J` is not a Lie-algebra homomorphism: two projected-away public coset
+  generators have a nonzero native commutator. Therefore the map may project
+  tensorial `T_omega` but cannot silently project a connection or curvature;
+  coset action/Euler ownership remains required.
+- Exact symbolic differentiation verifies the moving-projector formula and
+  differentiated idempotence. A live auxiliary quadratic projector-chain
+  term has derivative `-4`; this is not a variation of the displayed source
+  action, an Euler covector, or a global Euler result.
+- Three hostile lenses required and verified repairs to public-carrier typing,
+  chosen-`J` ownership, numeric `(K,J)` controls, local adjoint decomposition,
+  tilted/frame scope, and source-action wording. The repaired probe passes
+  `79/79` checks.
+- **Next named gate:**
+  `RESOLVER-WAVE-I-ACTUAL-METX-ZORRO-THETA-DESCENT`. Build integrable
+  nonconstant base-coordinate changes, their `Sym2` metric-fibre transitions,
+  the connection-dependent horizontal/contact coframe, trace-reversed metric
+  naturality, and the Spin/J/source/Psrc triple cocycle before total
+  Euler/Green/domain work. P1/P2/P3 remain unchanged and unused.

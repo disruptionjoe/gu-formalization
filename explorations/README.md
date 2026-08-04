@@ -556,3 +556,23 @@ reduction, actual `Theta_Z`/Zorro
 nonconstant descent, global lift and Riesz map, source variation domain, total
 active/transverse Euler, Ward/Green data, domain, and no-leakage remain open.
 Route decision: `CONTINUE`; P1/P2/P3 remain unchanged and unused.
+
+# Resolver Wave H (2026-08-03)
+
+`resolver-wave-h-public-native-combined-port-2026-08-03.md` constructs the
+chosen local real-linear map `P_J:u(K)->sp(K,J)` after explicitly typing the
+real public carrier. `J_red` is an extra local `U/Sp`-type field with
+source-silent ownership, not a source-owned or bundle-level reduction. It
+composes that map with `q6`, the `1/9` exterior projector, and Chevalley
+reinclusion to obtain a rank-252 local projector on the full public one-form
+domain. The same executable feeds `T_omega` through the complete moving map
+and proves conditional left tilted basicness and right covariance using a
+stipulated paired Clifford-frame law plus a public K-unitary mover outside
+native `Sp`. The moving projector derivative and differentiated idempotence
+pass. A nonzero `-4` chain term belongs only to an auxiliary quadratic, not
+the displayed source action or an Euler covector. The public/native relation remains a source
+`REAL-FORM-FORK`; the reduction is not a Lie-algebra homomorphism and cannot
+be applied silently to a connection curvature. Actual nonconstant
+`Met(X)`/`Theta_Z` descent, Spin/J/source/Psrc cocycles, global adjoints,
+source-action variation, total Euler, Ward/Green data, domain, and no-leakage remain open. Route
+decision: `CONTINUE`; P1/P2/P3 remain unchanged and unused.
