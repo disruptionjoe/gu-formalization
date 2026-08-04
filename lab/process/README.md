@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2i1-s3-geometric-transport-certificate.json` -
+  PW2F-R2B2B2I1 ledger: records the exact order-two/order-three S3
+  generators, ten-owner and 1,925-label actions, complete DeWitt derivative,
+  connection-column, normalized-trace, nonlinear metric/coframe/density
+  transport certificate, 380-orbit census, Burnside check, dense held-out,
+  and fail-closed boundary. The reduction engine is admitted but unpromoted;
+  the 1,925-cell fallback and separate active banks remain live.
 - `pw2fr2b2b2i-separate-conditional-active-c4-banks-registry.json` -
   PW2F-R2B2B2I ledger: records the exact `55 x 35 = 1,925` cell requirement
   per bank, the accepted one-pair/one-setting H/H2 coverage, the retained

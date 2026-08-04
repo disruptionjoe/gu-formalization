@@ -7,6 +7,26 @@ updated_at: "2026-08-04"
 
 # Next Steps For Contributors
 
+> **2026-08-04 PW2F-R2B2B2I1 BOTH S3 GENERATORS CERTIFIED ON THE
+> UNIVERSAL OWNER/CONORMAL GEOMETRIC-TRANSPORT LAYER.** The exact reflection
+> and three-cycle preserve `G4` and active `ETA`, biject all ten `Sym2`
+> owners, transport the DeWitt base tensor plus all `10` first and `100`
+> ordered second owner derivatives, close all `40` connection-column
+> generators and `10` normalized-trace owner directions, and preserve the
+> nonlinear Zorro metric, symmetric coframe, trace, and density on a dense
+> held-out. The complete `55 x 35 = 1,925` label grid has 380 S3 orbits with
+> census `{1:2,3:115,6:263}`, independently confirmed by Burnside.
+>
+> This admits but does not promote a 380-representative evaluator. Universal
+> `Phi`/Hodge/Shiab, residual, moving-primalizer, and action evaluation remain
+> unexecuted at durable grade, so the unconditional 1,925-cell-per-bank
+> fallback remains live and neither `I1 A4` nor `I2B C4` is promoted. Resume
+> at
+> `PW2F-R2B2B2I1-REMAINING-EVALUATOR-LAYERS-ON-ORBIT-REPRESENTATIVES-PLUS-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i1-s3-geometric-transport-certificate-2026-08-04.md`.
+
 > **2026-08-04 PW2F-R2B2B2I COMPLETE C4-BANK PROMOTION STOPS AT THE
 > UNIVERSAL OWNER/CONORMAL COVERAGE GATE.** A complete conditional-active bank
 > has `55` symmetric pairs of ten metric owners and `35` homogeneous quartic

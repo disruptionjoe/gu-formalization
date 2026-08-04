@@ -15,6 +15,20 @@ public_posture_change: none
 
 # Post-B2C15R3 multidisciplinary council
 
+> **2026-08-04 R2B2B2I1 successor checkpoint.** Both exact S3 generators now
+> preserve the full owner/conormal geometric input layer: `G4`, active `ETA`,
+> all ten `Sym2` owners, DeWitt base/first/second derivatives, forty connection
+> columns, ten normalized-trace directions, the nonlinear Zorro metric,
+> symmetric coframe, density, and a dense held-out. The 1,925 joint labels
+> form 380 exact orbits with census `{1:2,3:115,6:263}` and an independent
+> Burnside match. This admits but does not promote the 380-representative
+> evaluator: `Phi`/Hodge/Shiab, residual, moving primalizer, and action layers
+> remain open at universal grade, and the 1,925-cell fallback stays live.
+> Resume at
+> `PW2F-R2B2B2I1-REMAINING-EVALUATOR-LAYERS-ON-ORBIT-REPRESENTATIVES-PLUS-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
+
 > **2026-08-03 R2B2B2F successor checkpoint.** The written one-half/one-third
 > transgression agrees with an independent curvature-path integral. A
 > dependency-complete raw-density ledger stops at common-conormal degree five,
