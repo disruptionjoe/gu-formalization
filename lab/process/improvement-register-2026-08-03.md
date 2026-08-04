@@ -586,3 +586,42 @@ No scientific register row or protected verdict moves.
   `Sp` tangency, then the actual tilted `epsilon_src/Theta_Z` transport before
   testing both active and transverse total Euler equations. P1/P2/P3 remain
   unchanged and unused.
+
+---
+
+## Revision 9 (2026-08-03, Resolver Wave G)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-g-q6-native-tilted-source-port-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-g-review.md`.
+No scientific register row or protected verdict moves.
+
+- `q6` is no longer formula-only: the Clifford number-operator polynomial is
+  exhaustively checked on all 16,384 blades and all 8,256 native adjoint
+  blades. It fixes 3,003 grade-six blades and kills the other 5,253.
+- The generic native one-form domain has dimension 115,584; `q6` has rank
+  42,042 and kernel 73,542. Composing Wave F's now fixed-pairing-self-adjoint
+  `Pext^0` gives rank 252 and kernel 115,332.
+- Sage certifies that Spin equivariance alone admits five one-form maps: four
+  grade-six amplitudes and one grade-ten near-miss. The selected map is
+  characterized by coefficientwise grade-six identity plus cross-grade
+  annihilation, not equivariance alone.
+- A square-zero grade-three native K-anti/right-`H` mover gives an exact
+  counterexample to frozen full-`Sp` equivariance. Conjugating the projector
+  with the moving Clifford frame repairs covariance.
+- Exact noncommuting rational first jets prove left tilted invariance, right
+  `Ad(h^-1)` covariance of `T_omega`, the `tau` homomorphism, and semidirect
+  associativity in a chosen `A0=0` local convention, with planted untilted
+  and wrong-Maurer--Cartan failures. A separate `GL(2)` frame surrogate has
+  the expected transformation law but is not a Clifford/`Theta_Z` frame and
+  never enters a combined `Psrc(T_omega)` computation.
+- The construction remains local and conditional. Public U-type to native
+  `Sp` reduction, actual `Theta_Z` coindex/nonconstant overlap descent,
+  global lift/Riesz, source variation domain, total active/transverse Euler,
+  Ward/Green, domain, and no-leakage remain open.
+- **Next named gate:**
+  `RESOLVER-WAVE-H-PUBLIC-NATIVE-REDUCTION-THETA-Z-DESCENT-AND-TOTAL-EULER`.
+  First instantiate the combined local `Psrc(T_omega)`, then construct or
+  obstruct the actual bundle reduction and global moving port,
+  then join it to the displayed first source action and derive both Euler
+  sectors. P1/P2/P3 remain unchanged and unused.

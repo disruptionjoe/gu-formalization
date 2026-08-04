@@ -116,6 +116,10 @@ selected notes below and in each script header.
 - `resolver_wave_a_scope_audit.py`
 - `resolver_wave_b_scope_audit.py`
 - `resolver_wave_c_scope_audit.py`
+- `resolver_wave_d_scope_audit.py`
+- `resolver_wave_e_scope_audit.py`
+- `resolver_wave_f_scope_audit.py`
+- `resolver_wave_g_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `scripts_readme_surface_map_audit.py`
@@ -696,3 +700,16 @@ quotient, domain, no-leakage, and P1/P2/P3 to remain open. It also prevents
 the isolated `AUXILIARY_CAN_FORCE` comparator from becoming source ownership
 or coupled nonpropagation, and prevents an arbitrary vectorlike `chi=0`
 object from becoming a canonical KO/index basepoint.
+
+## Resolver Wave G scope gate
+
+`resolver_wave_g_scope_audit.py` preserves the distinction between the exact
+fixed-reduction native `q6`, the local rank-252 composite, the moving
+conjugated projector family, and the still-missing public source port. It
+requires the five-intertwiner Sage census and grade-ten near-miss to remain
+visible; records that a frozen projector is not full-`Sp` equivariant; and
+keeps the chosen-`A0=0` tilted first-jet fixture and `GL(2)` frame surrogate
+separate from a combined `Psrc(T_omega)` and actual `Theta_Z`/Zorro
+nonconstant overlap descent. It also keeps the global density/Krein adjoint,
+source variation domain, total active/transverse Euler, Ward/Green data,
+domain, no-leakage, and P1/P2/P3 open.

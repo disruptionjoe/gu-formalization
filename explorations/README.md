@@ -535,3 +535,24 @@ nonpropagation is open. The `chi=0` side audit keeps the auxiliary KO zero
 separate from a physical canonical basepoint. Route decision: `REBASE` around
 `q6`, native-`Sp`, the actual source transport, and transverse Euler closure;
 P1/P2/P3 remain unchanged and unused.
+
+# Resolver Wave G (2026-08-03)
+
+`resolver-wave-g-q6-native-tilted-source-port-2026-08-03.md` constructs the
+Clifford grade-six projector directly on a generic fixed-reduction native
+adjoint coefficient as a polynomial in the number operator. It fixes all
+3,003 grade-six blades, kills all 5,253 other native blades, and composes with
+Wave F's now fixed-pairing-self-adjoint exterior projector to give a rank-252
+local active component. Sage independently finds five Spin-equivariant
+one-form routes, including the load-bearing grade-ten near-miss, so exact
+cross-grade annihilation—not equivariance alone—selects `q6`. A native
+K-unitary/right-`H` nilpotent full-`Sp` mover refutes frozen-projector
+equivariance and validates the conjugated moving family. Exact rational first
+jets prove left tilted cancellation and right adjoint covariance of
+`T_omega` in a chosen `A0=0` local convention. A separate `GL(2)` frame
+surrogate verifies only the expected transformation pattern; the combined
+`Psrc(T_omega)` is formula-only and untested. The public U-type to native-`Sp`
+reduction, actual `Theta_Z`/Zorro
+nonconstant descent, global lift and Riesz map, source variation domain, total
+active/transverse Euler, Ward/Green data, domain, and no-leakage remain open.
+Route decision: `CONTINUE`; P1/P2/P3 remain unchanged and unused.

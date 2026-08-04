@@ -1,0 +1,162 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-03",
+  "named_gate": "RESOLVER-WAVE-G-Q6-NATIVE-SP-TILTED-SOURCE-PORT-AND-TRANSVERSE-EULER",
+  "gate_before": "OPEN_REBASED_COMPONENT_PROJECTOR_BUILT",
+  "gate_after": "PARTIAL_NATIVE_Q6_AND_LOCAL_TILTED_SCHEMA_CONSTRUCTED",
+  "route_disposition": "CONTINUE",
+  "hostile_review_status": "PASS_AFTER_REPAIRS",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "fixed_native_q6": {
+    "formula": "product_(roots=10,-8,0,-6,8,-14)(N-root)/122880",
+    "number_operator": "sum_a c(e_a) X c(e^a)",
+    "native_grades": [2, 3, 6, 7, 10, 11, 14],
+    "native_grade_dimensions": [91, 364, 3003, 3432, 1001, 364, 1],
+    "native_coefficient_dimension": 8256,
+    "all_clifford_blades_checked": 16384,
+    "grade6_blades_fixed": 3003,
+    "cross_grade_blades_killed": 5253,
+    "one_form_domain_dimension": 115584,
+    "one_form_rank": 42042,
+    "one_form_kernel_dimension": 73542,
+    "fixed_coefficient_pairing_self_adjoint": true,
+    "global_density_Krein_adjoint": "OPEN"
+  },
+  "intertwiner_census": {
+    "method": "Sage_D7_Weyl_characters",
+    "coefficientwise_Hom_dimension": 1,
+    "one_form_Hom_dimension": 5,
+    "per_input_grade": {
+      "2": 0,
+      "3": 0,
+      "6": 4,
+      "7": 0,
+      "10": 1,
+      "11": 0,
+      "14": 0
+    },
+    "Spin_equivariance_alone_selects_q6": false,
+    "grade10_near_miss_annihilated": true
+  },
+  "rank252_composite": {
+    "formula": "P252_0=j5*(1/9)*pi_Lambda5V*delta*q6",
+    "rank": 252,
+    "composite_kernel_dimension": 115332,
+    "all_internal_five_blade_images_checked": 252,
+    "Pext_fixed_pairing_self_adjoint": true,
+    "normalization": "1/9",
+    "internal_1_over_5_rejected": true,
+    "complex_126_halves_independent_real_fields": false
+  },
+  "full_Sp_mover": {
+    "generator": "X=(e0+e3)e4e5",
+    "generator_grade": 3,
+    "X_squared": 0,
+    "finite_g": "1+(1/2)X",
+    "native_K_anti_right_H": true,
+    "finite_g_K_unitary": true,
+    "Ad_g_grade6_witness": "e012345-e123-e012",
+    "fixed_q6_full_Sp_equivariant": false,
+    "moving_q6_covariant": true,
+    "moving_q6_idempotent": true
+  },
+  "tilted_source": {
+    "scope": "CHOSEN_A0_EQUALS_0_LOCAL_CONVENTION_FIXTURE",
+    "group_law": "(e1,v1)(e2,v2)=(e1e2,Ad(e2^-1)v1+v2)",
+    "tau": "tau(h)=(h,h^-1 dh)",
+    "distortion": "T=varpi-epsilon^-1 d epsilon",
+    "left_tilted_T": "invariant",
+    "right_tilted_T": "Ad(h^-1)-equivariant",
+    "untilted_left_control": "fails_as_required",
+    "wrong_Maurer_Cartan_side_control": "fails_as_required",
+    "tau_homomorphism_fixture": "PASS",
+    "semidirect_associativity_fixture": "PASS",
+    "frame_surrogate": "F=epsilon^-1 s_ref",
+    "frame_surrogate_type": "GL2_LEFT_FRAME_FIXTURE_ONLY_NOT_CLIFFORD_NOT_THETA_Z",
+    "left_frame_surrogate": "invariant_when_epsilon_and_s_ref_transform",
+    "right_frame_surrogate": "h^-1 F",
+    "combined_Psrc_Tomega_naturality": "NOT_TESTED"
+  },
+  "global_port": {
+    "intrinsic_chimeric_split_owner": "C=V10+pi*T*X4",
+    "epsilon_src_invents_split": false,
+    "coarse_epsilon_plane_invents_split": false,
+    "actual_Theta_Z_coindex": "OPEN",
+    "nonconstant_overlap_descent": "OPEN",
+    "global_adapted_Spin_native_lift": "OPEN",
+    "public_U_to_native_Sp_reduction": "OPEN",
+    "total_Euler_tangency_to_native_fixed_locus": "OPEN",
+    "local_Psrc": "FORMULA_ONLY_UNINSTANTIATED",
+    "status": "LOCAL_SCHEMA_ONLY"
+  },
+  "variational_boundary": {
+    "fixed_q6_order": 0,
+    "fixed_q6_independent_Green_current": false,
+    "source_epsilon_root": "deltaT=alpha-D_B xi",
+    "source_epsilon_derivative_order_added": 1,
+    "restricted_action_chain_term": "(D_rho Pi[delta rho] T)^* E",
+    "source_variation_domain": "UNDECLARED",
+    "diagnostic_Euler_split_equals_restricted_action_variation": false,
+    "active_Euler_complete": false,
+    "transverse_Euler_complete": false,
+    "RL_equals_1_implies_no_leakage": false,
+    "global_Ward_Green_domain": "OPEN"
+  },
+  "source_collision": {
+    "T_omega_and_tilted_group": "SOURCE-CONFIRMS",
+    "intrinsic_chimeric_split": "SOURCE-CONFIRMS",
+    "epsilon_src_equals_epsilon_IG": "SOURCE_SILENT_ON_IDENTITY_LAYER0_DISTINCT_UNTIL_MAP",
+    "native_Sp_reduction": "SOURCE-SILENT",
+    "q6": "SOURCE-SILENT_RECONSTRUCTION",
+    "Pext_and_1_over_9": "SOURCE-SILENT_RECONSTRUCTION",
+    "source_variation_domain": "SOURCE-SILENT_UNDECLARED"
+  },
+  "assertion_counts": {
+    "exact": 29,
+    "independent_Sage": 3,
+    "source_receipts": 6,
+    "type_level": 17,
+    "planted": 9,
+    "total": 64
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused"
+  },
+  "next_gate": {
+    "id": "RESOLVER-WAVE-H-PUBLIC-NATIVE-REDUCTION-THETA-Z-DESCENT-AND-TOTAL-EULER",
+    "required_checks": [
+      "public_U_type_to_native_right_H_Sp_bundle_reduction_or_obstruction",
+      "combined_local_Psrc_Tomega_tilted_naturality",
+      "total_Euler_tangency_to_native_fixed_locus",
+      "actual_Theta_Z_coindex_direction_and_adapted_transitions",
+      "nonconstant_three_overlap_descent_and_global_lift_obstruction",
+      "global_density_Hodge_Krein_adjoint_and_derivative",
+      "actual_source_field_variation_domain",
+      "moving_port_chain_and_Green_owner",
+      "complete_first_source_action_bosonic_plus_fermionic_Euler",
+      "active_and_transverse_Euler",
+      "Ward_identity_domain_and_observation_no_leakage"
+    ]
+  },
+  "forbidden_inferences": [
+    "LOCAL_NATIVE_Q6_IS_THE_PUBLIC_SOURCE_PORT",
+    "SPIN_EQUIVARIANCE_ALONE_SELECTS_Q6",
+    "FIXED_Q6_IS_FULL_SP_EQUIVARIANT",
+    "MOVING_GRADE_SIX_IS_FIXED_EXTERIOR_GRADE_SIX",
+    "SOURCE_EPSILON_EQUALS_EPSILON_IG",
+    "SOURCE_EPSILON_OR_COARSE_CLIFFORD_PLANE_INVENTS_THE_4_PLUS_10_SPLIT",
+    "LOCAL_RATIONAL_FIRST_JETS_PROVE_GLOBAL_Y14_DESCENT",
+    "FIXED_COEFFICIENT_ADJOINT_IS_THE_GLOBAL_DENSITY_KREIN_ADJOINT",
+    "DIAGNOSTIC_EULER_SPLIT_EQUALS_RESTRICTED_ACTION_VARIATION",
+    "PROJECTED_ACTIVE_EULER_IMPLIES_TRANSVERSE_EULER",
+    "RL_EQUALS_1_IMPLIES_NO_LEAKAGE",
+    "EXTERNAL_DATUM_CAN_MANUFACTURE_THE_MISSING_BUNDLE_MAP_OR_DOMAIN",
+    "REAL_252_IS_TWO_INDEPENDENT_REAL_126_FIELDS",
+    "LOCAL_SCHEMA_IMPLIES_A_CONSTRUCTED_PORT_VEV_MASS_INDEX_COUNT_OR_COSMOLOGY"
+  ]
+}
