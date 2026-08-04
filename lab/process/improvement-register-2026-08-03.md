@@ -350,6 +350,17 @@ New rows and riders; no existing verdict or grade changes.
 | M-M31 | **M-M7 rider (adjudication R2, BINDING)**: "finite boundary κ ⇒ firewall" is unsupported and opposite-signed vs rankN at finite rank (definitizable ⇒ ghost removable ⇒ HORN Q). M-M7 may not assert either direction until the boundary operator exists (D3) and the inference is adjudicated | Rider recorded; DQ7 blocked on DQ6 + adjudication | M | — |
 | M-M32 | **M-M20 assumption disclosure** (seat4 §1, VERIFIED_REPO_DISCONNECT): "minimal 13d defect action after M-H10" schedules the consequence of A1∧A2 (13-dim count boundary ≡ firewall adapter ≡ BVP boundary) — identifications no artifact establishes; firewall canon itself says "candidate", not identification | Annotate M-M20 as conditional on A1∧A2; the identification itself is the open item (needs D3 + D4 + an exhibited map) | M | XS |
 
+**Rider on M-H13 update (2026-08-03, DE certification redo):** item (b)
+DISCHARGED — the synthetic-injection positive control passed all
+preregistered thresholds (tests/de-certification/de12b_*, exit 0); the
+pipeline is certified unbiased and C10 stands on it. Item (a) SHARPENED to
+BLOCKED-ON-A4: the observation→…→equation composition fails first at the
+normalization arrow, which needs the unbuilt native Z_U = |D_A U|² (W203
+ledger); the k=0 limit annihilates exactly and only the base-spatial
+sub-block, so it cannot decide c_kin — the bridge is BLOCKED, not failed.
+Decisive object named: Z_U's (c_b : c_f) block ratio on the A3
+configuration. Original rider below stands otherwise.
+
 **Rider on M-H13 (records↔DE refit):** gated on Wave A-2 — (a) the W230
 c_kin↔FLRW mapping question (A6), (b) DE-12 pipeline positive control,
 (c) the +19.3 inverse-problem feasibility check (with the JP4
