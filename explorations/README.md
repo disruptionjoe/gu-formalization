@@ -865,3 +865,17 @@ controls show that the composable up/back maps depend on unbuilt primalizers,
 and that the two-connection grading needs a comparison functor before target
 matching is meaningful. Selection rank remains zero, surplus `-1`, and Wave 3
 and P1/P2/P3 remain closed.
+
+# K77 Wave 2 mixed primalizers and two-connection comparison (2026-08-04)
+
+[`k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md`](k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md)
+builds the moving density/Krein primalizers on the admissible real-K77
+four-field sector, including exact inverse-variation, nonorthogonal frame and
+actual Spin-transition controls. Absolute metric density makes the action
+dual orientation-free, so P1 is not consumed. Primary-source collision
+corrects the inherited “bosonic two-connection target” label: Eric introduces
+the unreleased construction as a cyclic fermion-complex completion or rival.
+The smallest one-way Hodge roll is constructed and fails slot-preserving D916
+equality, while the reverse arrow, action owner and general chain relation
+remain open. Selection rank is zero, surplus `-1`, and Wave 3 and P1/P2/P3
+remain closed.

@@ -1,0 +1,75 @@
+{
+  "artifact": "K77_WAVE2_MIXED_PRIMALIZERS_TWO_CONNECTION_COMPARISON",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "K77_MIXED_HESSIAN_PRIMALIZERS_AND_TWO_CONNECTION_COMPARISON_FUNCTOR",
+  "source_collision": {
+    "toe_released_roll": "SOURCE_CONFIRMS_FERMION_ZERO_ONE_THIRTEEN_FOURTEEN",
+    "toe_two_connection_context": "SOURCE_CONFIRMS_IMMEDIATE_FERMION_CONTEXT",
+    "toe_full_cyclic_completion": "SOURCE_UNRELEASED",
+    "portal_bose_fermi_paths": "SOURCE_CONFIRMS_UNFINISHED_CROSS_SECTOR_ARCHITECTURE",
+    "reverse_arrow": "SOURCE_SILENT",
+    "cyclic_action_owner": "SOURCE_SILENT"
+  },
+  "layer0": {
+    "d916_vs_two_connection_rival": "DISTINCT",
+    "two_connection_rival_vs_bose_fermi_mixed_hessians": "DISTINCT",
+    "one_way_arrow_vs_full_cyclic_complex": "DISTINCT",
+    "density_vs_oriented_top_form": "DISTINCT",
+    "sensitivity_rank_vs_selection_rank": "DISTINCT"
+  },
+  "primalizer": {
+    "scope": "ADMISSIBLE_REAL_K77_ASSOCIATED_BUNDLE_DENSITY_SECTOR",
+    "real_clifford_relations_exact": true,
+    "split_pairing_cross_chiral": true,
+    "hodge_square_signs_0_1_13_14": [-1, 1, 1, -1],
+    "four_field_inverse_exact": true,
+    "moving_inverse_variation_exact": true,
+    "nonorthogonal_frame_naturality_exact": true,
+    "actual_spin_transition_naturality_exact": true,
+    "free_coefficients": 0,
+    "orientation_required_for_density_formulation": false,
+    "global_closed_analytic_domain_built": false
+  },
+  "two_connection_reconstruction": {
+    "source_context": "FERMION_CYCLIC_COMPLETION_OR_RIVAL",
+    "even_raw": ["OMEGA0_S", "OMEGA13_S"],
+    "odd_raw": ["OMEGA1_S", "OMEGA14_S"],
+    "one_way_hodge_rolled_arrow_built": true,
+    "rolled_slots": [["D_A", "MINUS_F_B"], ["IDENTITY", "MINUS_DELTA_B"]],
+    "reverse_arrow_built": false,
+    "full_cyclic_pair_built": false,
+    "action_owner_built": false
+  },
+  "d916_comparison": {
+    "shared_top_left_connection_slot": true,
+    "northeast_principal_order_match": false,
+    "southwest_slot_match": false,
+    "southeast_owner_match": false,
+    "slot_preserving_match": false,
+    "general_chain_equivalence_tested": false,
+    "replacement_completion_or_rival_decided": false
+  },
+  "selection": {
+    "action_hessian_selection_rank": 0,
+    "projective_free_parameters": 1,
+    "constraint_surplus": -1
+  },
+  "result": "PARTIAL__ACTUAL_MOVING_DENSITY_KREIN_PRIMALIZERS_BUILT__TWO_CONNECTION_RETYPED_TO_FERMION_CYCLIC_RIVAL__ONE_WAY_HODGE_ROLLING_BUILT__FULL_CYCLIC_ARROW_PAIR_AND_ACTION_OWNER_OPEN",
+  "next_required_build": "K77_TWO_CONNECTION_CYCLIC_FERMION_FULL_ARROW_PAIR_AND_ACTION_OWNER",
+  "probe_receipt": {
+    "source": 9,
+    "type": 19,
+    "exact": 22,
+    "planted": 8,
+    "total": 58,
+    "failures": 0
+  },
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

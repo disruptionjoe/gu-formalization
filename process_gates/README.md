@@ -78,6 +78,7 @@ selected notes below and in each script header.
 - `k77_wave2_common_two_layer_action_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
+- `k77_wave2_mixed_primalizer_comparison_scope_audit.py`
 - `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
 - `k77_wave2_source_sign_shiab_duality_scope_audit.py`
 - `k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py`
@@ -978,3 +979,14 @@ rank two from selection rank zero, requires the primalizer-dependence control,
 and forbids direct entrywise matching to the two-connection square without a
 typed comparison functor. It keeps full sixteen-cell closure, global
 primalizers, observation, physics, Wave 3 and P1/P2/P3 use open.
+
+## K77 Wave 2 mixed-primalizer / two-connection comparison scope gate
+
+`k77_wave2_mixed_primalizer_comparison_scope_audit.py` requires the actual
+real-K77 density/Krein four-field inverse, its moving-inverse identity and its
+form-frame plus Spin-transition naturality. It requires the source correction
+from a bosonic target to an unreleased fermion-cyclic completion/rival, the
+typed one-way `0+13 -> 1+14` Hodge roll, and the slot/principal-order mismatch
+with D916. It keeps the reverse arrow, cyclic pair, action/Helmholtz owner,
+general chain relation, global analytic domain, coefficient selection,
+observation and physics open; P1/P2/P3 remain unused and Wave 3 remains closed.

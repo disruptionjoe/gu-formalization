@@ -1410,3 +1410,36 @@ admission, or P1/P2/P3 status moves.
 - When a Layer-0 correction blocks the requested numerical match, emit the
   missing typed adapter and rerun order, rather than reporting a numerical
   failure for a comparison that was never defined.
+
+---
+
+## Revision 29 (2026-08-04, source context can invalidate the comparison object)
+
+Sources:
+`explorations/k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md`,
+`lab/sources/gu-primalizer-two-connection-comparison-source-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-mixed-primalizers-two-connection-comparison.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-primalizer-comparison-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Reinspect a spoken construction in its immediately preceding question and
+  paragraph. A formula's local context can type it more strongly than a later
+  thematic synthesis; here it corrected “bosonic target” to “unreleased
+  fermion-cyclic completion or rival.”
+- When source correction invalidates a planned test, discard the test as
+  wrong-target work. Do not dignify its prospective output as a scoped kill.
+- A density-valued Euler action can have canonical pseudo-musicals without an
+  orientation choice. Separate absolute density from ordinary top-form Hodge
+  notation before assigning an orientation datum.
+- For a moving inverse, test `dR=-R(dK)R` and transition naturality. Pointwise
+  inversion alone is insufficient evidence of an associated-bundle map.
+- A two-by-two mnemonic gives at most one typed arrow until its source and
+  target degrees are assigned. A cyclic square requires the reverse arrow and
+  both composites; never infer them from the desired result.
+- Compare rival block operators by both slot owner and differential order.
+  Sharing one connection slot does not make a zero-order curvature block
+  equivalent to a first-order Clifford derivative.
+- Keep two hostile reviewers with opposite compression charges: one hunts
+  summaries that outrun artifacts, and one hunts rigorous artifacts aimed at
+  stale or superseded objects.

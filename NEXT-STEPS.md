@@ -7,6 +7,20 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 PRIMALIZER / TWO-CONNECTION DISPOSITION.**
+> [`explorations/k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md`](explorations/k77-wave2-mixed-primalizers-two-connection-comparison-2026-08-04.md)
+> constructs the four-field moving density/Krein primalizer on the admissible
+> real-K77 associated-bundle sector and verifies its inverse variation plus
+> form-frame and actual Spin-transition naturality. The density formulation
+> does not consume P1. Mandatory source collision corrects the inherited
+> comparison: Eric's unreleased two-connection `D^2` is introduced in the
+> fermionic rolled-complex discussion, not as a bosonic target. A one-way
+> `0+13 -> 1+14` Hodge roll is built and differs slotwise and in principal
+> order from D916, but the reverse arrow and action owner remain unreleased and
+> unbuilt. Selection rank remains zero, surplus `-1`, P1/P2/P3 are unused and
+> Wave 3 stays closed. Next gate:
+> `K77_TWO_CONNECTION_CYCLIC_FERMION_FULL_ARROW_PAIR_AND_ACTION_OWNER`.
+
 > **2026-08-04 K77 WAVE-2 MIXED-HESSIAN / TARGET-MATCH DISPOSITION.**
 > [`explorations/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md`](explorations/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md)
 > restores equation `10.10` to its actual rectangular topology: symmetry
