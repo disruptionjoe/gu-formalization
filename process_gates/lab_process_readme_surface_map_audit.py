@@ -20,10 +20,14 @@ README = PROCESS / "README.md"
 BACKTICK_PATH = re.compile(r"`([^`]+)`")
 
 EXPECTED_PROCESS_DIRS = {
+    "anchor-council-2026-08-03",
     "dialectics",
     "hegelian-method",
+    "hostile-reviews",
     "persona-passes",
     "public-surface-refresh-2026-05-31",
+    "queue-reviews",
+    "runs",
     "runbooks",
     "syntheses",
     "templates",
@@ -75,7 +79,10 @@ def listed_direct_process_files(text: str) -> set[str]:
         normalized = raw_path.replace("\\", "/")
         if "/" in normalized or "\\" in raw_path:
             continue
-        if normalized.endswith((".md", ".py", ".json")) and normalized != "README.md":
+        if (
+            normalized.endswith((".md", ".py", ".json", ".yaml", ".yml"))
+            and normalized != "README.md"
+        ):
             listed.add(normalized)
     return listed
 

@@ -1,0 +1,280 @@
+# Layer-0 fork registry
+#
+# One row per discrete Layer-0 fork the program stands on: the horns, whether it
+# is settled, and - when settled - HOW and by WHICH artifacts. A wave disposition
+# names a row id in its `fork_assumed:` frontmatter field
+# (process_gates/wave_disposition_schema_audit.py); the depth counter in
+# process_gates/fork_depth_audit.py reads this file to decide which declared
+# horns are still undetermined.
+#
+# Why this file exists: the 2026-08-04 program-efficiency council measured the
+# cost of deciding a fork late. The highest-fan-out fork in the program - which
+# real Clifford algebra the source actually uses - was determined at Wave K,
+# AFTER waves D-J had stacked seven constructions on the other horn. Every one
+# of those waves passed its own review. The defect was in the queue, and nothing
+# in the process was positioned to look at the queue. This registry is the queue
+# surface.
+#
+# This file records typing and status only. It creates no claim, no verdict, no
+# grade, no priority, no lane movement and no public posture, and it is not
+# evidence for any physics statement. Settlements cite the artifact that did the
+# work; the artifact remains the authority.
+#
+# HOW TO ADD A FORK: see lab/process/wave-discipline-gates-2026-08-04.md.
+# Every row needs: id, title, horns (>= 2), status, fan_out, sources. A row with
+# status `settled` additionally needs settled_side, settled_how, settled_at and
+# settled_by (non-empty, repo-relative paths that resolve). Ids are stable:
+# rename a title freely, never an id, because dispositions cite ids.
+
+version: 1
+updated: 2026-08-04
+maintained_by: lab/process/wave-discipline-gates-2026-08-04.md
+
+# Consecutive dispositions that may declare the same still-open horn before an
+# explicit `fork_stack_acknowledged:` is required. Not a refusal threshold -
+# proceeding is allowed; the acknowledgment is what becomes mandatory, so the
+# cost lands in the record instead of staying invisible.
+fork_stack_threshold: 3
+
+forks:
+
+  - id: CARRIER-SPLIT
+    title: "Physical 4+10 carrier split"
+    horns:
+      - "Lorentzian (3,1)+(6,4) with reality/conjugation closure"
+      - "compact/complexified (4,0)+(5,5) self-dual carrier (the finite census uses this side)"
+      - "author-declared TX^{1,3} + N^{6,4} inside Y^{7,7} (2021 draft p.61, flagged 2026-08-03)"
+    status: open
+    fan_out: "high - every packet transfer between the finite census and the physical-real-form work"
+    notes: >-
+      Not a two-horn fork: a third, author-declared option was flagged
+      2026-08-03 and is unadjudicated. One Lorentzian Hodge half is complex
+      dimension 192 but K-null and conjugation-exchanged; the computed stable
+      closure is dimension 384, signature (192,192). The compact packet stays
+      useful and is not the same physical-real-form object. Nothing transfers
+      across this fork silently.
+    sources:
+      - GEOMETER-VS-PHYSICS-OBJECTS.md
+      - lab/process/agent-context-pack.md
+
+  - id: SIGNATURE-AMBIENT
+    title: "Ambient signature (9,5) vs (7,7)"
+    horns:
+      - "(9,5)"
+      - "(7,7)"
+    status: open
+    fan_out: "high - Krein apparatus, involution walls, positivity witnesses"
+    notes: >-
+      UNDER-DETERMINED; the fibre is (6,4) both ways. The Kramers even-index
+      wall is (9,5)-ONLY: under (7,7) the wall is absent while linear commuting
+      involutions stay +/-I ("at most one" transfers) and the canonical J-fixed
+      carrier is symplectic. F = empty is signature-ROBUST (the boost witness
+      transfers to (7,7)). Layer-0 homonym warning, do not conflate with this
+      row - the 2+1 product rule fails on odd/odd SPLITS of 14 (3+11, 9+5 as
+      splits); that is the base+fibre split, not the ambient signature, and
+      GU's split is 4+10, even/even, so the product rule applies either way.
+      Distinct from REAL-CLIFFORD-FORM, which IS settled.
+    sources:
+      - lab/process/agent-context-pack.md
+      - explorations/resolver-wave-b-q3-dq3-dq1-2026-08-03.md
+
+  - id: REAL-CLIFFORD-FORM
+    title: "Which real Clifford algebra the source actually uses"
+    horns:
+      - "Cl(7,7) = M128(R) - real 128x128 matrices"
+      - "Cl(9,5) = M64(H) - right-H quaternionic"
+    status: settled
+    settled_side: "Cl(7,7) = M128(R)"
+    settled_at: 2026-08-04
+    settled_how: >-
+      Wave K derived the real form from Curt/Eric's exact source-typed
+      arithmetic rather than choosing it. The disposition makes (7,7) "the
+      primary source-aligned reconstruction burden" and demotes (9,5) to "a
+      conditional comparator", with an explicit import ban - do not import the
+      (9,5) right-H / chosen-J machinery into Cl(7,7). The two algebras are not
+      real-isomorphic and complexification does not carry the real pairing or
+      the right-H structure, so nothing built on the other horn transfers.
+    settled_by:
+      - explorations/cycle-gates-and-audits/resolver-wave-k-conditional-active-shiab-b1-variation-disposition-2026-08-04.md
+      - explorations/resolver-wave-k-conditional-active-shiab-b1-variation-2026-08-04.md
+      - explorations/k77-post-b2-science-council-next-eight-wave-rendezvous-2026-08-04.md
+    fan_out: "highest measured in the program"
+    measured_cost: >-
+      SETTLED LATE. Waves D-J stacked seven constructions on the Cl(9,5) horn
+      before Wave K determined it; that stack is now formally reclassified as a
+      rival implementation and negative-test bank, and further investment in it
+      is gated on the rendezvous demonstrably needing it. This is the one
+      measured queue defect in the 2026-08-03/04 window and the reason this
+      registry and process_gates/fork_depth_audit.py exist.
+    sources:
+      - lab/process/science-council-program-efficiency-2026-08-04.md
+      - lab/process/agent-context-pack.md
+
+  - id: IMPOSTER-LABEL-AB
+    title: "\"Imposter\" / third-generation label attachment, reading A vs reading B"
+    horns:
+      - "A: the label attaches to the 128 S(V)(x)S(W) spin-1/2 slot"
+      - "B: the label attaches to the RS-shaped spin-3/2 384"
+    status: settled
+    settled_side: "A"
+    settled_at: 2026-08-03
+    confidence: 0.90
+    settled_how: >-
+      Hostile field-specialist review, J5-passed. The 2021 draft's eq (12.22)
+      underbrace, section 12.10 and p.65 ix concur on the F-shaped term; the
+      graded factor-2 is typed BY THE SOURCE as the two ambient chirality
+      halves (printed 64+/-, 832+/-; F -> 128, Q -> 384, Z -> 1152), and the RS
+      384 carries the draft's separate "new cousin spin-3/2 generation" label.
+      LABEL ONLY - the block is kinematically VECTORLIKE (PH-K1-KINEMATIC
+      confirmed, 64+64, joint 32/32/32/32); PH-K1-PHYSICAL stays OPEN/BLOCKED,
+      P3, Rung 1 and the Pi_RS^phys fence stand, and any chiral use of the 384
+      still owes the Witten-1983 exit. Recorded residual, non-blocking - the
+      draft p.53 table applies imposter particle names to 144-internal (Z-side)
+      content, a second looser usage that cannot host the observed family.
+    settled_by:
+      - lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md
+      - explorations/imposter-reading-adjudication-2026-08-03.md
+    fan_out: "medium - W221 scope, the 2+1 occupancy reading, generation labelling"
+    sources:
+      - lab/process/agent-context-pack.md
+      - GEOMETER-VS-PHYSICS-OBJECTS.md
+
+  - id: TWO-IN-REPO-2PLUS1
+    title: "Two in-repo \"2+1\" decompositions with inverted roles"
+    horns:
+      - "the ledger's block decomposition"
+      - "lega2's family census"
+    status: open
+    fan_out: "medium - any count statement that cites a 2+1"
+    notes: >-
+      Unadjudicated. The roles are inverted between the two, so a 2+1 cited
+      without naming which decomposition it comes from is a Layer-0 homonym.
+      Panel-settled mechanism context, which does NOT adjudicate this fork: the
+      imposter is the relative gamma-trace mode, (10,-4) antidiagonal,
+      allocation-invariant, the unique cut vertex between the two native
+      blocks; blocks are 3:9:1, not peers; 4+10 is forced and uniquely
+      mod-3-clean, fenced as multiplicity, not index.
+    sources:
+      - lab/process/agent-context-pack.md
+      - lab/process/hinge-panel-synthesis-2026-08-03.md
+
+  - id: KINEMATIC-VS-PHYSICAL-CARRIER
+    title: "Kinematic carrier vs physical carrier"
+    horns:
+      - "kinematic: the ker-Gamma projector carrier that exists and is computed"
+      - "physical: a Pi_RS^phys carrier that would license physical/chiral use"
+    status: open
+    fan_out: "high - every physical reading of a kinematic block result"
+    notes: >-
+      Pi_RS^phys DOES NOT EXIST; OQ-RK1 is BLOCKED_NEEDS_SPEC. Kinematic results
+      are not physical results and the fence is standing, so a wave that wants a
+      physical reading of a kinematic computation is assuming this horn and must
+      declare it.
+    sources:
+      - lab/process/agent-context-pack.md
+      - lab/process/improvement-register-2026-08-03.md
+
+  - id: EPS-CHARACTER
+    title: "What CH-REC's eps attaches to"
+    horns:
+      - "the linear Krein involution sigma_K = det . orth"
+      - "the antilinear coflip chi = orth"
+    status: open
+    fan_out: "medium, but the downside is a Layer-0 error in a BANKED accounting identity"
+    notes: >-
+      Named by the time-orientation run as "the cheapest new question this check
+      generated": finite linear algebra on objects that already exist. If eps
+      attaches to the linear structure, CH-REC's "the arrow is eps" welds the
+      arrow to the SPACE-orientation character, which would be a Layer-0 error
+      in a banked identity. Cheap and unscheduled - exactly the shape that cost
+      seven waves once.
+    sources:
+      - explorations/time-orientation-home-for-the-orientation-datum-2026-08-04.md
+      - lab/process/science-council-program-efficiency-2026-08-04.md
+
+  - id: SECTION-VS-OBSERVERSE
+    title: "Which carrier the physics actually runs on"
+    horns:
+      - "a section of the bundle"
+      - "the full observerse"
+    status: open
+    fan_out: "high - obstruction visibility itself depends on it"
+    notes: >-
+      Flagged by the time-orientation run: if some part of the program silently
+      works on a section, the obstruction is INVISIBLE there. A silent default
+      on this fork does not produce a wrong answer, it produces a missing one.
+      The K77 stack is several waves deep on it.
+    sources:
+      - explorations/time-orientation-home-for-the-orientation-datum-2026-08-04.md
+      - lab/process/science-council-program-efficiency-2026-08-04.md
+
+  - id: J-RED-OWNERSHIP
+    title: "Who owns J_red"
+    horns:
+      - "source-owned (the source selects the reduction field)"
+      - "chosen (a local, source-silent reduction the construction picks)"
+    status: open
+    fan_out: "medium - the Wave-H/I (9,5) port stack"
+    notes: >-
+      Introduced by Wave H as an explicitly "source-silent" chosen local
+      reduction field and never retired; the codomain drifted sp(K,J) ->
+      sp(K,J_h) in the same wave. This is the council's PRE-3 exemplar: a wave
+      introduced a new un-owned object and it was still un-owned four waves
+      later. free_object_delta = +1 for Wave H is this object.
+    sources:
+      - explorations/cycle-gates-and-audits/resolver-wave-h-public-native-combined-port-disposition-2026-08-03.md
+      - lab/process/science-council-program-efficiency-2026-08-04.md
+
+  - id: VERTICAL-FROBENIUS-TRACE
+    title: "Ambient vs observed vs Frobenius-fibre trace reversal"
+    horns:
+      - "ambient trace reversal"
+      - "observed (four-dimensional) trace reversal"
+      - "vertical Frobenius-fibre trace reversal"
+    status: open
+    fan_out: "medium - the Einstein-sector rows of the residue ledger"
+    notes: >-
+      K77-B2 explicitly does NOT decide this fork; its kill is a
+      displayed-ansatz kill under the joint ambient-Einstein / same-action
+      reading only. The three reversals are unidentified with one another and
+      the gimmel/DeWitt metric's vertical block is the trace-reversed Frobenius
+      fibre (7,3) -> (6,4), so "the trace reversal" is a homonym.
+    sources:
+      - explorations/cycle-gates-and-audits/resolver-wave-k77b2-shiab-family-curvature-selector-transgression-disposition-2026-08-04.md
+      - GEOMETER-VS-PHYSICS-OBJECTS.md
+
+  - id: GENERATION-COUNT-CODOMAIN
+    title: "Codomain of the generation count"
+    horns:
+      - "an integer index/rank in Z"
+      - "a torsion reading in the 3-primary arena Z/3 inside pi_3^s = Z/24"
+    status: open
+    fan_out: "high - every count claim"
+    notes: >-
+      Explicitly UNSETTLED, and explicitly not a settled native-side win.
+      Hom(Z/3,Z) = 0 blocks a direct additive identification, so a separately
+      constructed integer observable AND a bridge would be required. Keep both
+      codomains typed; "torsion component -> integer 3" is the open question.
+      Related banked facts, which do not settle the fork: the true 13-dim
+      receptacle is purely Z/3; spin Dai-Freed inflow cannot carry Z/3; the
+      e-invariant is dead in dim 13 and the f-invariant needs a corner object.
+    sources:
+      - GEOMETER-VS-PHYSICS-OBJECTS.md
+      - lab/process/agent-context-pack.md
+
+  - id: NUMBER-14-METRIC-VS-EXTERIOR
+    title: "The number 14: metric total space vs exterior grading"
+    horns:
+      - "Y^14 = Met(X^4), a total 14-dim space with rank-10 symmetric fibre S^2T*X"
+      - "a rank-14 graded exterior object Lambda^1 V* + Lambda^2 V* + Lambda^3 V*"
+    status: open
+    fan_out: "low-medium - comparator arguments that reuse the coincidence of 14"
+    notes: >-
+      Typed fork, NO identification. The full 4+6+4 bundle over X^4 has total
+      dimension 18; the total-14 exterior comparator uses fibre 6+4; there is no
+      natural GL(4)-equivariant isomorphism S^2V* = Lambda^2V* + Lambda^3V*.
+      Hodge identifications add metric and orientation, and truncated grades are
+      not algebraically closed.
+    sources:
+      - GEOMETER-VS-PHYSICS-OBJECTS.md
+      - explorations/geometry-curvature-emergence/graded-exterior-bundle-14d-comparator-2026-07-26.md

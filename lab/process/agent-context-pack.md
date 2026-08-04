@@ -3,7 +3,7 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-03
+updated: 2026-08-04
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
@@ -15,7 +15,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
   UNCERTAIN before use. Multiplicity ≠ count (five independent buttresses).
 - Verdict flips: agent-executable ONLY with a filed hostile field-specialist
   review (two-sided charge: overclaim AND over-fencing). External review is
-  Joe-owned, optional, never blocks.
+  Joe-owned, optional, never blocks. POST: every hostile review emits the
+  disposition tuple (fork_assumed / search_space_dim / free_object_delta /
+  residue T-grades) and a T-grade T0–T4 for each conditional match it touches.
 - P-H28: a wave must move a NAMED gate. P-H29: FD-read nulls/kills are not
   citable until certified with exact derivatives (instrument:
   tests/lib/exact_gimmel_derivatives.py) or interval arithmetic.
@@ -24,6 +26,34 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
   VERIFIED_REPO_DISCONNECT / CHEAP_NEW_COMPUTATION / REFEREE_CONJECTURE.
 - Python: ./_local/cas-venv/bin/python with PYTHONDONTWRITEBYTECODE=1.
   SageMath: /Applications/SageMath-10-9.app/.../venv/bin/sage.
+
+### PRE-WAVE (binding)
+
+Answer all three, in writing, in the wave's opening artifact, BEFORE any
+construction. A wave that cannot answer them is not started.
+
+1. **WHICH FORK ARE YOU ASSUMING?** Name the Layer-0 fork horn this wave
+   stands on — or write "none". Registry:
+   `lab/process/layer0-fork-registry.yaml`. State what it costs if the other
+   horn is right. (Waves D–J stacked seven constructions on a real-form fork
+   that Wave K then flipped; that is the price of skipping this.)
+2. **WHAT IS THE DIMENSION OF THE SPACE YOU ARE ABOUT TO SEARCH — and can you
+   decide the question by COMPUTING THAT DIMENSION AND EXCLUDING WHOLESALE,
+   rather than testing candidates one at a time?** Precedents, all in-repo:
+   DC-H2's congruence-orbit exclusion (the target IS a coordinate on the
+   orbits, so no condition of that type can ever supply it); Wave G (3,003
+   grade-six blades fixed, 5,253 killed, one move); K77-B3 (`dim Hom = 200`
+   exact, then every full-domain zero-order extension forced to zero). Sharp
+   sub-form whenever a wave proposes to test a selector: *is the target
+   quantity a coordinate on the orbits of a group under which all candidate
+   selectors are invariant?* If yes, the whole class dies in one theorem and
+   the enumeration is waste. On 2026-08-04 three probes attacked the same
+   trace-`q` coefficient with three different selectors and all three
+   returned "does not select."
+3. **DOES SUCCESS INTRODUCE A NEW UN-OWNED OBJECT?** If yes, name it AND its
+   owner before starting — or do not introduce it. `free_object_delta` is a
+   reported metric, and it is the one number that cannot be gamed by writing
+   more artifacts. (Wave H's `J_red` is still un-owned.)
 
 ## Live forks (nothing transfers across them silently)
 
@@ -133,6 +163,9 @@ lab/process/hinge-panel-synthesis-2026-08-03.md.
   are binding on the corrected artifacts.
 - LANE-STATE.yaml is now freshness-gated
   (process_gates/lane_state_freshness_audit.py).
+- lab/process/queue-reviews/ — the QUEUE review (PRE-1 across all live forks,
+  not per wave); RED at 5 unreviewed dispositions
+  (process_gates/queue_review_freshness_audit.py).
 
 ## Session hygiene
 

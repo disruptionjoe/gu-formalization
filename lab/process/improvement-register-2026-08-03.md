@@ -1475,3 +1475,19 @@ admission, or P1/P2/P3 status moves.
 - When an algebraic complex shell misses an action shell, emit the
   Euler-density-to-field primalizer and pair lift as the construction debt;
   an external datum cannot manufacture that map.
+
+**Surface drift, PARTIALLY REPAIRED 2026-08-04 (P-L-class, new):**
+`lab_process_readme_surface_map_audit.py` had two failing halves.
+(1) FIXED: the directory half — `anchor-council-2026-08-03/`,
+`hostile-reviews/`, `queue-reviews/` and `runs/` were live but undeclared;
+gate constant and `lab/process/README.md` both updated, that half is green.
+(2) OPEN, different owner: the file half still fails because the resolver
+campaign writes its per-wave registry JSON directly into `lab/process/`
+(k77-wave2-*.json, resolver-wave-k77b-*.json, k77-post-b2-*.json, and
+growing one-per-wave). Listing each in the README is not the fix; the
+options are a `lab/process/registries/` subdirectory or an explicit gate
+exemption for machine-written registries. NOT repaired here because the
+files are the active campaign's and moving them mid-run risks breaking its
+own references — flagged for the campaign owner. The gate remains in the
+CI skip list, so this does not break CI; it does mean the surface map is
+not a trustworthy inventory until (2) is chosen.

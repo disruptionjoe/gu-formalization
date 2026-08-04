@@ -61,6 +61,7 @@ selected notes below and in each script header.
 - `finite_control_provenance_audit.py`
 - `forcing_slot_readme_inventory_audit.py`
 - `flrw_theta_xi_branch_gate.py`
+- `fork_depth_audit.py`
 - `function_space_ext_readme_inventory_audit.py`
 - `generation_sector_readme_inventory_audit.py`
 - `github_readme_surface_map_audit.py`
@@ -116,6 +117,7 @@ selected notes below and in each script header.
 - `protected_surface_diff_audit.py`
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
+- `queue_review_freshness_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -158,6 +160,7 @@ selected notes below and in each script header.
 - `three_generation_route_alternatives_audit.py`
 - `topological_generation_count_families_k3_chi_gate_audit.py`
 - `unified_marble_wood_closure_audit.py`
+- `wave_disposition_schema_audit.py`
 - `y14_k3_bridge_gate.py`
 - `y14_k3_bridge_loss_audit.py`
 - `y14_k3_end_data_topography_gate_audit.py`
@@ -483,6 +486,23 @@ paths that scheduled Progress runs should not touch without explicit review: can
 surfaces, protected licenses, papers, Lean proof surfaces, active-research packets, absorbed
 source-action material, and the claim-status ledger/runbook. This is a governance guard for
 staging discipline, not a mathematical certificate and not a verdict on the changed content.
+
+## Queue review freshness gate
+
+`queue_review_freshness_audit.py` fails when wave dispositions have piled up since the last
+filed queue review. Both existing review mechanisms examine *waves*; nothing examined the
+*queue*, and the program's seven-wave `(9,5)` loss was a queue defect — every wave D-J passed
+its own hostile review while the whole stack rested on an undetermined Layer-0 real-form fork
+that Wave K then flipped. The gate discovers one disposition of record per resolver wave under
+`explorations/` and `explorations/cycle-gates-and-audits/` (discovery and ordering rules are
+stated in the script docstring), finds the queue review under `lab/process/queue-reviews/`
+whose `covers_through:` reaches furthest along that order, and goes RED at
+`MAX_UNREVIEWED_DISPOSITIONS = 5`. A queue review must also declare
+`doc_type: queue-review`, name a real disposition id, and visibly answer the four queue
+questions: undetermined-fork stacking, high-fan-out items worked late, redundant probes
+attacking one object with different selectors, and conditional-match T-grade movement. This is
+a process-discipline gate only; a green run says the queue has been examined recently and says
+nothing about whether any wave is mathematically correct.
 
 ## Process gate README inventory gate
 
@@ -1002,3 +1022,41 @@ versus action-shell mismatch. It forbids identifying `I1B` with the unreleased
 2025 operator, keeps the actual moving K77 Shiab and bosonic Euler primalizer
 open, requires zero transgression surplus and trace-`q` surplus `-1`, and keeps
 P1/P2/P3 unused and Wave 3 closed.
+
+## Wave disposition schema gate
+
+`wave_disposition_schema_audit.py` requires every wave/cycle disposition artifact to
+declare, in frontmatter, what it assumed and what it left open: `fork_assumed:` (the
+Layer-0 horn the wave stands on, or `none`), `search_space_dim:` (an integer or stated
+expression, or `not_computed` with a `search_space_dim_reason:`), `free_object_delta:`
+(new un-owned objects introduced minus retired), and `residue_touched:` (conditional-match
+ids each carrying a T0-T4 constrainedness grade, or `none`). These are the 2026-08-04
+program-efficiency council's PRE-1/PRE-2/PRE-3 and POST-1/POST-2 questions made mechanical.
+The discovery rule is stated in the script docstring and is a three-clause union - placement
+plus `-disposition-`/`-rebase-` naming under `explorations/cycle-gates-and-audits/`, a
+declared wave `doc_type`, or a declared `route_disposition:` key anywhere under
+`explorations/` - and the gate fails if any clause stops matching. Grandfathering is dated:
+artifacts whose effective creation date precedes `SCHEMA_CUTOVER` (2026-08-05) are reported
+as `legacy` and never fail, the legacy count is printed on every run so the backlog stays
+visible, and a legacy artifact that opts into a field must still declare it well-formed.
+Effective creation date is the maximum of every date the artifact declares about itself and
+its git add date, so backdating a filename does not buy an exemption. This is a disposition-
+shape guard only; it reads files as data, executes nothing, and evaluates no research claim.
+
+## Layer-0 fork registry / fork-stack depth gate
+
+`fork_depth_audit.py` checks `lab/process/layer0-fork-registry.yaml` and then counts how deep
+the wave queue has stacked on forks that registry still calls open. The registry carries one
+row per Layer-0 fork - stable id, the horns, status, fan-out, sources, and for a settled fork
+which side won, how, when, and by which artifacts - and the gate requires every cited path to
+resolve, refuses half-settled rows, and pins a minimum set of fork ids so a row cannot be
+quietly deleted. It also pins the record of the program's one measured queue defect: the
+`Cl(7,7) = M128(R)` vs `Cl(9,5) = M64(H)` real-form fork was settled at Wave K after seven
+waves had been built on the other horn. The depth counter reads `fork_assumed:` declarations,
+resolves each against the registry, and requires an explicit `fork_stack_acknowledged:` with a
+stated reason on every disposition past `fork_stack_threshold` (default 3) on a still-open
+fork. Proceeding on an undetermined fork is not refused - the acknowledgment is what becomes
+mandatory, so the cost lands in the record instead of staying invisible. Working on a
+different fork in between does not reset the counter; settling the fork does. This is a queue-
+discipline guard only; whether a settlement is mathematically correct is the settling
+artifact's business, not this gate's.

@@ -17,11 +17,15 @@ consistency workflow.
 
 ## Directories
 
+- `anchor-council-2026-08-03/` - the anchor-and-triangulate council's seat reports and adjudication.
 - `dialectics/` - dialectical method and dialogue records.
+- `hostile-reviews/` - filed hostile field-specialist reviews; their corrections bind the artifacts they review.
 - `hegelian-method/` - Hegelian method material.
 - `persona-passes/` - persona-pass records and method variants.
 - `public-surface-refresh-2026-05-31/` - public surface refresh provenance.
+- `queue-reviews/` - periodic reviews of the QUEUE (not of individual waves); freshness-gated by `process_gates/queue_review_freshness_audit.py`.
 - `runbooks/` - standard repo-local process workflows.
+- `runs/` - per-run working records and their receipts.
 - `syntheses/` - synthesis history and consolidation notes.
 - `templates/` - reusable local templates.
 
@@ -48,6 +52,7 @@ Runbooks:
 - `deflation-false-negative-audit-2026-07-03.md` - deflation false-negative audit.
 - `fanout-recent-run-convergence-2026-07-06.md` - recent fan-out convergence addendum.
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
+- `layer0-fork-registry.yaml` - Layer-0 fork registry: horns, status, and the artifacts that settled each fork; read by the fork-stack depth gate.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.
 - `paper-hardening-inventory.md` - paper portfolio, external-eyes ceiling, and overlap gates.
@@ -59,3 +64,4 @@ Runbooks:
 - `recovery-no-go-defense-register.json` - hourly-updatable defense register for branch-local recovery no-gos.
 - `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.
+- `wave-discipline-gates-2026-08-04.md` - what the wave-disposition schema gate and the fork-stack depth gate enforce, the dated grandfathering cutover, and how to add a fork to the registry.
