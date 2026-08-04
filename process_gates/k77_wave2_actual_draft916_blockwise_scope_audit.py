@@ -92,11 +92,14 @@ def main() -> None:
 
     wave2 = campaign["waves"][1]
     frontier = campaign["frontier"]
-    assert wave2["status"] == expected_status
+    assert wave2["status"] == (
+        "PARTIAL__NATIVE_EVEN_SHIAB_HOM0__DEGREE_REALITY_SAT_REQUIRES_ONE_ODD_COVECTOR__"
+        "EXACT_Q_REPAIRS_BUILT__OWNERSHIP_ADJOINT_WARD_OPEN"
+    )
     assert frontier["completed_waves"] == [1]
     assert frontier["partial_waves"] == [2]
     assert frontier["next_wave"] == 2
-    assert frontier["next_required_build"] == "K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION"
+    assert frontier["next_required_build"] == "K77_D916_Q_RECEIVER_OWNERSHIP_ADJOINT_WARD_SELECTION"
 
     for token in (
         "smallest exact reason",

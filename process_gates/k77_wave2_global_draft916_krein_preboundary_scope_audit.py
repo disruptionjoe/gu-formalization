@@ -87,16 +87,16 @@ def main() -> None:
     wave2 = campaign["waves"][1]
     frontier = campaign["frontier"]
     successor_status = (
-        "PARTIAL__CONDITIONAL_TOTAL_GRADED_D916_RIVAL_BUILT__"
-        "SOURCE_SIGN_IDENTIFICATION_FULL_CONNECTION_VARIATION_AND_FULL_H_DESCENT_OPEN"
+        "PARTIAL__NATIVE_EVEN_SHIAB_HOM0__DEGREE_REALITY_SAT_REQUIRES_ONE_ODD_COVECTOR__"
+        "EXACT_Q_REPAIRS_BUILT__OWNERSHIP_ADJOINT_WARD_OPEN"
     )
     assert wave2["status"] == successor_status
-    assert "SOURCE_AMBIENT_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION" in wave2["carried_debt"]
+    assert "Q_RECEIVER_OWNERSHIP_AND_DEGREE_REALITY_VS_LEFT_RIGHT_SHIAB_PLACEMENT" in wave2["carried_debt"]
     assert frontier["completed_waves"] == [1]
     assert frontier["partial_waves"] == [2]
     assert frontier["next_wave"] == 2
     assert frontier["next_named_gate"] == "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
-    assert frontier["next_required_build"] == "K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION"
+    assert frontier["next_required_build"] == "K77_D916_Q_RECEIVER_OWNERSHIP_ADJOINT_WARD_SELECTION"
     assert frontier["wave3_preflight_retained"].endswith("NOT_YET_ADMITTED")
 
     for token in (

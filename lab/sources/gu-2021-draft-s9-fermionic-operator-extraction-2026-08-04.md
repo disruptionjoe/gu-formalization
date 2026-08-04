@@ -288,3 +288,37 @@ This extraction closes the source identity of equation 9.16. It does not
 prove that its stars are the K77 Krein formal adjoints, that its matrix
 descends globally, that a physical boundary condition exists, or that any
 of its representation pieces is an observed chiral family.
+
+## Successor collision: the released 2025 spoken explanation
+
+The repository transcript of Weinstein's 2025 conversation with Curt
+Jaimungal narrows the middle-arrow grammar without correcting the sign
+collision above.
+
+- At `02:38:12--02:39:51`, Weinstein starts from a de Rham complex tensored
+  with a connection and describes rolling `d_A+d_A^*` after curvature spoils
+  `d_A^2=0`.
+- At `02:40:30--02:42:55`, he says the truncated sequence is
+  `0 -> 1 -> 13 -> 14`: a two-form is **contracted back to a one-form and
+  then starred**.  He explicitly associates the southeast zero of the rolled
+  two-by-two operator with a possible seesaw mechanism.
+- At `02:44:06--02:45:13`, he describes a different cyclic `D^2` construction,
+  says that it has never been released, and recalls its entries and signs
+  tentatively.
+
+This is `SOURCE-CONFIRMS` for the contraction-plus-star grammar and the
+importance of the southeast-zero branch.  It is `SOURCE-SILENT` on an
+ambient-half-spinor relabel or a correction to equation 9.16.  The unreleased
+cyclic construction cannot repair the released matrix by implication.
+
+```text
+SOURCE-CORRECTS-SIGNS: NONE FOUND
+```
+
+The draft's own section 8 also makes the parity issue structural for the
+simple native contraction.  Its `Phi_r` are invariant differential-form /
+Clifford tensors, and the `2 -> 1` map uses the invariant one-form `Phi_1`.
+Conjugating `Phi_1` and ambient chirality by the same `epsilon` preserves their
+relative odd parity.  An ambient-even replacement therefore requires either
+a different non-native tensor grammar or an additional moving odd tensor; it
+does not follow merely from writing `rho(epsilon)`.

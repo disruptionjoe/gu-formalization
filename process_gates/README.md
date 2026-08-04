@@ -76,6 +76,7 @@ selected notes below and in each script header.
 - `k77_wave2_action_ward_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
+- `k77_wave2_source_sign_shiab_duality_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -905,3 +906,15 @@ variation.  It keeps zero-order coefficients, full multi-index adjoint,
 full-source-group descent, observation, physics, families, and P1/P2/P3 open;
 the campaign remains on Wave 2 with the source-sign/duality/Shiab-parity
 reconciliation as its next build.
+
+## K77 Wave 2 source-sign/Shiab/degree-reality reconciliation scope gate
+
+`k77_wave2_source_sign_shiab_duality_scope_audit.py` requires the released
+source dispositions, exact `D7` Hom dimensions `(0,2)`, zero barred-row-only
+solutions, two full degree-reality sign solutions, no bare half-spinor flip,
+and the one vector-supplied flip channel. It requires both exact moving-`q`
+repairs, the fixed-`q` failure, surplus `-14`, the material hostile-review
+correction, and append-only correction of the predecessor Runtime revision
+typo. It keeps `q` source ownership, placement, full adjoint/current/Ward,
+full-`H` descent, observation, physics, and P1/P2/P3 use open while holding
+Wave 3 closed.

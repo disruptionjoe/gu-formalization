@@ -1,0 +1,95 @@
+{
+  "artifact": "K77_WAVE2_SOURCE_SIGN_SHIAB_DUALITY_RECONCILIATION",
+  "version": "2026-08-04",
+  "named_gate": "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD",
+  "gate_status": "PARTIAL__NATIVE_EVEN_SHIAB_HOM0__DEGREE_REALITY_SAT_REQUIRES_ONE_ODD_COVECTOR__EXACT_Q_REPAIRS_BUILT__OWNERSHIP_ADJOINT_WARD_OPEN",
+  "source_receipt": {
+    "draft_equation_916": "SOURCE_DISPLAYS_CANDIDATE",
+    "draft_section_112_signs": "SOURCE_STATES_AMBIENT_HALF_SPINOR",
+    "toe_2025_contraction_2_to_1_then_star": "SOURCE_CONFIRMS",
+    "toe_2025_southeast_zero": "SOURCE_CONFIRMS",
+    "toe_2025_cyclic_d_squared": "SOURCE_UNRELEASED",
+    "released_sign_correction": "SOURCE_SILENT"
+  },
+  "branch_results": {
+    "native_ambient_even_shiab": {
+      "complex_hom_same_half": 0,
+      "complex_hom_opposite_half": 2,
+      "disposition": "KILLED_WITHIN_SOURCE_NATIVE_SPIN77_INVARIANT_TENSOR_CLASS"
+    },
+    "degree_sensitive_duality_reality": {
+      "barred_row_only_solutions": 0,
+      "full_row_and_column_sign_solutions": 2,
+      "solutions_mod_global_sign": 1,
+      "bare_half_spinor_flip_hom": 0,
+      "vector_supplied_half_spinor_flip_hom": 1,
+      "disposition": "ALGEBRAIC_SAT__NATURAL_REALIZATION_REQUIRES_Q_TYPE_ODD_INTERTWINER"
+    },
+    "released_sign_correction": {
+      "disposition": "SOURCE_SILENT__FUTURE_RELEASE_COULD_REOPEN"
+    },
+    "additional_odd_covector": {
+      "left_repair": "EXACT_NONZERO_J_EVEN",
+      "right_repair": "EXACT_NONZERO_J_EVEN",
+      "fixture_span_dimension": 2,
+      "principal_adjacency": "PRESERVED",
+      "moving_transition": "PASS",
+      "fixed_q_transition_plant": "FAILS_AS_REQUIRED",
+      "source_ownership": "OPEN",
+      "placement_selection": "OPEN"
+    }
+  },
+  "constraint_surplus": {
+    "free_q_projective_parameters": 13,
+    "left_right_projective_parameters": 1,
+    "current_selecting_constraint_rank": 0,
+    "surplus": -14,
+    "disposition": "NONPOSITIVE_AT_THIS_GATE__CARRY_TO_FULL_ADJOINT_AND_WARD_FOR_NEW_CONSTRAINTS"
+  },
+  "review_contract": {
+    "hostile_review": "COMPLETE__ONE_MATERIAL_LAYER0_REPAIR",
+    "summary_outruns_artifact_charge": "PASS_AFTER_REPAIR",
+    "superseded_fence_charge": "PASS_AFTER_FULL_ROW_AND_COLUMN_DUALITY_ENUMERATION",
+    "runtime_revision_correction": {
+      "incorrect_prior_receipt_value": "57f14ca25d2e6dce70a80c1e69b2a6742985ff2b",
+      "actual_owner_revision": "57f14ca25d2e4081b8a30682b4561dfd830c878c"
+    }
+  },
+  "exact_fixture": {
+    "source": 7,
+    "type": 15,
+    "exact": 22,
+    "planted": 5,
+    "total": 49,
+    "failures": 0,
+    "sage_version": "10.9"
+  },
+  "external_datum": {
+    "P1": "UNUSED__CAN_ORIENT_ONLY_AFTER_Q_LINE_EXISTS",
+    "P2": "UNUSED__Q_LINE_IS_RECEIVER_HYPOTHESIS_NOT_IDENTIFICATION",
+    "P3": "UNUSED"
+  },
+  "next_gate": {
+    "id": "K77_D916_Q_RECEIVER_OWNERSHIP_ADJOINT_WARD_SELECTION",
+    "constructs": [
+      "SOURCE_OR_GEOMETRIC_OWNER_FOR_Q",
+      "DEGREE_REALITY_VS_LEFT_SHIAB_VS_RIGHT_SHIAB_PLACEMENT",
+      "FULL_MULTIINDEX_KREIN_ADJOINT_WITH_DQ_TERMS",
+      "COMMON_CONNECTION_FERMION_Q_CURRENT_AND_WARD",
+      "COEFFICIENT_CONSTRAINT_RANK_AND_SURPLUS",
+      "FULL_H_DESCENT_OR_HONEST_STABILIZER"
+    ],
+    "wave3_admitted": false
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1_AND_TG-2_AND_TG-3_NOT_PROMOTED",
+  "status_boundary": {
+    "claim_status_change": false,
+    "canon_verdict_change": false,
+    "public_posture_change": false,
+    "physical_chirality_claim": false,
+    "generation_count_claim": false,
+    "seesaw_mass_claim": false,
+    "wave3_opened": false
+  }
+}

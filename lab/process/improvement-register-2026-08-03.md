@@ -1203,3 +1203,40 @@ count, or P1/P2/P3 status moves.
 - One nonzero connection direction verifies current ownership and
   non-vacuity.  It is not the complete connection derivative, common-core
   Ward identity, or multi-index formal adjoint.
+
+---
+
+## Revision 23 (2026-08-04, source-sign branches converge on an odd-covector receiver)
+
+Sources:
+`explorations/k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md`,
+`lab/process/k77-wave2-source-sign-shiab-duality-reconciliation.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-source-sign-shiab-duality-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, Wave-3 admission, or P1/P2/P3 status moves.
+
+- A degree-dependent duality question must vary every map the phrase could
+  name.  Varying only barred rows falsely killed this branch; adding the
+  unbarred column reality maps produced two exact sign solutions.
+- A sign-level SAT solution is not yet a natural bundle map.  Compute the
+  relevant intertwiner Hom space.  Here `Hom_Spin(S+,S-)=0`, while supplying
+  one vector gives a one-dimensional flip channel.
+- For natural Clifford contractions, tensor-valence parity is a cheap analytic
+  filter; corroborate the claimed exhaustive target with an independent
+  character calculation.  The `D7` result is same-half Hom `0`, opposite-half
+  Hom `2`.
+- Conjugating an odd invariant tensor and chirality by the same moving field
+  preserves their relative parity.  Do not count a gauge conjugator as the
+  extra vector index needed to make an even map.
+- A fixed odd covector can make a local formula fit while destroying
+  covariance.  Move the tensor under transitions and plant the fixed version.
+- Time orientation selects `q` versus `-q` only after a timelike line exists;
+  it does not manufacture the line.  Treat the line/covector as a receiving
+  type hypothesis, not as P1 consumption.
+- Compute constraint surplus at the first successful fit.  The free-`q`
+  principal-symbol repair has surplus `-14` here, so it is construction
+  infrastructure whose evidence must come from later adjoint, Ward, current,
+  and ownership constraints.
+- Completed Runtime receipts are append-only evidence.  If a summary records
+  a mistyped commit hash, document the actual revision in the successor review
+  rather than rewriting the old receipt.

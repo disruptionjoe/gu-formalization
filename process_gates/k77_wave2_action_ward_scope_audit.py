@@ -67,14 +67,17 @@ def main() -> None:
     # action demand, build the Dirac--de Rham symbol, and then expose the
     # still-open actual D916 assembly. Historical registries remain immutable.
     wave2 = campaign["waves"][1]
-    assert wave2["status"] == current["campaign_disposition"]["successor_status"]
-    assert wave2["result_ref"].endswith("k77-wave2-actual-draft916-k77-blockwise-adjoint-descent-2026-08-04.md")
+    assert wave2["status"] == (
+        "PARTIAL__NATIVE_EVEN_SHIAB_HOM0__DEGREE_REALITY_SAT_REQUIRES_ONE_ODD_COVECTOR__"
+        "EXACT_Q_REPAIRS_BUILT__OWNERSHIP_ADJOINT_WARD_OPEN"
+    )
+    assert wave2["result_ref"].endswith("k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md")
     assert "ACTION_FIRST_NO_SEPARATE_BRIDGE" in wave2["emitted"]
-    assert "SOURCE_AMBIENT_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION" in wave2["carried_debt"]
+    assert "Q_RECEIVER_OWNERSHIP_AND_DEGREE_REALITY_VS_LEFT_RIGHT_SHIAB_PLACEMENT" in wave2["carried_debt"]
     assert "ACTUAL_ZERO_ORDER_W_RS_COEFFICIENTS_AND_MULTIINDEX_ADJOINT" in wave2["carried_debt"]
     assert campaign["frontier"]["next_wave"] == 2
     assert campaign["frontier"]["next_named_gate"] == "RENDEZVOUS-ACTION-CURRENT-RIESZ-SUPERIG-WARD"
-    assert campaign["frontier"]["next_required_build"] == "K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION"
+    assert campaign["frontier"]["next_required_build"] == "K77_D916_Q_RECEIVER_OWNERSHIP_ADJOINT_WARD_SELECTION"
     assert successor["gate_status"] == "PARTIAL_DIRAC_DERHAM_SYMBOL_BUILT__SOURCE_SELECTED_ACTION_AND_DOMAIN_OPEN"
     assert current["campaign_disposition"]["wave2"] == "PARTIAL"
     assert successor["superig_rebase"]["not_source_required"] == [

@@ -271,6 +271,20 @@ The next build is narrower than “assemble D916”:
 K77_D916_SOURCE_SIGN_DUALITY_SHIAB_PARITY_RECONCILIATION
 ```
 
+## Successor disposition (2026-08-04)
+
+The named three-branch reconciliation is now executed in
+`k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md`.
+It does not overturn this result.  It kills a barred-row-only form-degree
+duality, but finds two full row-and-column degree-reality sign solutions.  An
+exact `D7` Hom calculation shows that naturally realizing either solution
+requires the same extra odd vector/covector as an ambient-even middle-symbol
+repair.  No released source sign correction was found, and the source-native
+invariant `2 -> 1` contraction is necessarily ambient-`J` odd.  The smallest
+exact escape supplies one additional moving odd covector.  That escape is a
+conditional observation-relative receiver candidate, not yet source-owned and
+not yet identified with P1, P2, or P3.  Wave 2 therefore remains partial.
+
 It should enumerate, then construct or kill, the three smallest repairs:
 
 1. an ambient-parity-compatible Shiab middle map;

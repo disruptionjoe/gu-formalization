@@ -784,3 +784,17 @@ advances but remains partial on source-sign/Shiab/duality reconciliation,
 actual zero-order coefficients, full multi-index adjoint, complete common
 connection/Ward variation, and full-source-group descent.  Observation,
 physics, family count, and P1/P2/P3 remain held out.
+
+# K77 Wave 2 source-sign/Shiab/degree-reality reconciliation (2026-08-04)
+
+[`k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md`](k77-wave2-source-sign-shiab-duality-reconciliation-2026-08-04.md)
+reduces the previous three-way fork to one missing geometric type. Exact Sage
+`D7` characters prove there is no source-native same-half middle map and that
+the opposite-half map space has dimension two. A barred-row-only duality has
+no solution, but full row-and-column degree reality has two sign solutions;
+realizing either requires the same vector-supplied half-spinor flip as the
+exact left/right `gamma(q)` middle-symbol repairs. The repairs descend only
+when the additional odd covector moves. Their present free-`q` surplus is
+`-14`, so they are receiver candidates rather than confirmation. Source
+ownership, full adjoint/current/Ward selection, full-`H` descent, observation,
+physics, and P1/P2/P3 use remain open; Wave 3 is not admitted.
