@@ -1240,3 +1240,40 @@ count, Wave-3 admission, or P1/P2/P3 status moves.
 - Completed Runtime receipts are append-only evidence.  If a summary records
   a mistyped commit hash, document the actual revision in the successor review
   rather than rewriting the old receipt.
+
+---
+
+## Revision 24 (2026-08-04, trace-q ownership and Ward non-selection)
+
+Sources:
+`explorations/k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md`,
+`lab/process/k77-wave2-q-receiver-trace-adjoint-ward-selection.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-q-receiver-trace-adjoint-ward-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, family
+count, Wave-3 admission, or P1/P2/P3 status moves.
+
+- Before pricing a newly required tensor as external datum, search earlier
+  native geometry for a type-correct tautological section. Here the DeWitt
+  trace line was already constructed before the later odd receiver appeared;
+  connecting them removes thirteen free projective parameters.
+- Distinguish a Clifford vector from its musically lowered covector. Shared
+  coordinates do not repair a type mismatch, while a native nondegenerate
+  chimeric metric does.
+- A canonical line and a canonical signed section are different. The radial
+  Euler section `t_g=g` fixes the sign on one fixed-signature metric component,
+  so an orientation bit is not automatically consumed.
+- Associated-family covariance may hold for every coefficient in a candidate
+  span. In that case the Ward identity has selection rank zero even when
+  other held-out currents have full sensitivity rank.
+- Do not identify commutators or anticommutators across algebraic factors by
+  name. The source coefficient-algebra magic bracket does not select the
+  ordering of a Clifford receiver and a form-spinor contraction.
+- If a check is labeled exact, avoid floating inversion, eigensolvers, and
+  numerical rank when an integral frame, Sylvester minors, or a small exact
+  determinant is available.
+- A one-form coefficient response is not yet a connection current. Insert an
+  actual Lie-algebra generator and state whether one direction or the whole
+  current was computed.
+- When a composite field supplies the needed object, pull its current back
+  into the owner's Euler equation; do not add a second independent field and
+  accidentally double-count variation directions.

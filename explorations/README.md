@@ -798,3 +798,18 @@ when the additional odd covector moves. Their present free-`q` surplus is
 `-14`, so they are receiver candidates rather than confirmation. Source
 ownership, full adjoint/current/Ward selection, full-`H` descent, observation,
 physics, and P1/P2/P3 use remain open; Wave 3 is not admitted.
+
+# K77 Wave 2 trace-q ownership / adjoint / Ward selection (2026-08-04)
+
+[`k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md`](k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md)
+connects the preceding odd-vector receiver to the already-native
+trace-reversed metric fibre. The tautological vertical trace section
+`t_(x,g)=g` has DeWitt norm `-4`, so `q=t/2` is a global natural unit-negative
+chimeric Clifford vector and removes all thirteen free projective `q`
+parameters without using P1/P2/P3. Exact full form-index times spinor Krein
+adjunction exchanges the left/right placements, moving `q` produces nonzero
+formal-adjoint and fermion-current terms, and one actual even connection
+direction distinguishes the coefficients. Every linear combination descends,
+so Ward selection rank is zero. Surplus improves from `-14` to `-1`;
+zero-order reality, moving pairing/density, full-`H` descent, and the common
+domain remain open. Wave 3 is not admitted.

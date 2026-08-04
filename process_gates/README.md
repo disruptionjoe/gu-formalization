@@ -77,6 +77,7 @@ selected notes below and in each script header.
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
 - `k77_wave2_source_sign_shiab_duality_scope_audit.py`
+- `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -918,3 +919,15 @@ correction, and append-only correction of the predecessor Runtime revision
 typo. It keeps `q` source ownership, placement, full adjoint/current/Ward,
 full-`H` descent, observation, physics, and P1/P2/P3 use open while holding
 Wave 3 closed.
+
+## K77 Wave 2 trace-q ownership / adjoint / Ward scope gate
+
+`k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py` requires the
+source-confirm/source-silent split, exact tautological DeWitt-negative trace
+receiver, corrected Clifford-vector type, full form-index/spinor left-right
+adjoint exchange, nonzero `dq` and actual even connection-direction currents,
+Ward selection rank zero, and the surplus change from `-14` to `-1`. It also
+requires the hostile-review repairs separating the coefficient-algebra magic
+bracket from the Clifford placement and replacing floating or coefficient-only
+fixtures. It keeps zero-order reality, moving Hodge/pairing/density, full-`H`
+descent, domain, observation, physics, Wave 3, and P1/P2/P3 use open.

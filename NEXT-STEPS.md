@@ -7,6 +7,24 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 TRACE-q OWNERSHIP / ADJOINT / WARD
+> DISPOSITION.**
+> [`explorations/k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md`](explorations/k77-wave2-q-receiver-trace-adjoint-ward-selection-2026-08-04.md)
+> identifies the preceding odd receiver with the canonical tautological
+> vertical trace vector of the trace-reversed metric bundle:
+> `q_(x,g)=g/2`, with exact DeWitt norm `-1`. This conditionally removes
+> thirteen free projective `q` parameters without using P1/P2/P3. The exact
+> multi-index Krein adjoint exchanges left/right placements, moving `q`
+> produces nonzero lower-order and fermion-current terms, and one actual even
+> connection direction distinguishes the coefficients. But every linear
+> combination descends, so Ward coefficient-selection rank is zero and
+> surplus is `-1`, not closure. Source use of trace `q` in D916 is
+> `SOURCE-SILENT`. Next gate:
+> `K77_D916_TRACE_Q_COEFFICIENT_ZERO_ORDER_REALITY_SELECTION`, assembling all
+> sixteen blocks, zero-order `varpi`, barred/unbarred `C`-reality, moving
+> Hodge/pairing/density variation, full-`H` descent or honest reduction, and a
+> common Green-domain precheck. Wave 3 remains closed.
+
 > **2026-07-30 RB7 STATIONARY NON-METRIC ORDER-PARAMETER
 > DISPOSITION.**
 > [`explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md)
