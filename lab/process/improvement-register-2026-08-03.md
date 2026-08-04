@@ -697,3 +697,38 @@ shape; FLRW-homogeneity coincidence must be stated as a condition, not
 assumed); quantitative half OPEN — no earned TaF surface for any area-law/
 exponent-1/2/π√N relation; W185's magnitude remains a GU-side import
 (A7 halved: qualitative choice typed, quantitative form free).
+
+---
+
+## Revision 11 (2026-08-03, Resolver Wave I)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-i-actual-metx-zorro-theta-descent-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-i-review.md`.
+No scientific register row or protected verdict moves.
+
+- A local nonlinear three-chart `Met(X)` fixture now has exact inverses,
+  full 14-dimensional first-jet composition, nonzero Hessians, transformed
+  Levi-Civita connections, and `Theta_recon DPhi=L Theta_recon` on `01`,
+  `12`, `02`, and the triple.
+- Exact trace reversal changes vertical `(7,3)` to `(6,4)` and gives the
+  chosen Wave-H total `(9,5)` branch. The live rival `(7,7)` branch remains
+  untested and not killed.
+- A pointwise arbitrary-fibre adapted frame and coherent Spin lift pass. The
+  negative triple sign is a planted inconsistent lift, not a global `w2`
+  result.
+- Hostile review found a real raw-covector/raised-vector error. A rational
+  Lorentz boost exposes `O != O^-T`; raw `C*` now uses `O^-T`, while the
+  inherited projector uses Riesz-raised `C`. The repaired map is
+  `Psrc_raw=flat_eta Psrc_raised sharp_eta`, and the old vector law fails.
+- All 252 selected image basis vectors and representative kernel sectors
+  intertwine. The previously constructed `T_omega` remains raw, is raised
+  only at the port, and is not retyped into a new source.
+- Three hostile lenses returned final `PASS` after repairs. The probe passes
+  `43 exact + 1 numeric + 7 source + 13 type + 13 planted = 77`.
+- **Next named gate:**
+  `RESOLVER-WAVE-J-DESCENDED-SOURCE-ACTION-TOTAL-EULER-AND-WARD`. Write and
+  vary the actual source action on the reconstructed local carrier, including
+  moving Theta/J/Psrc/connection/density/spinor terms, then test Euler
+  tangency, Ward/Green/BV data, a common domain, and no-leakage. External-
+  ledger P1/P2/P3 remain unchanged and unused.

@@ -121,6 +121,7 @@ selected notes below and in each script header.
 - `resolver_wave_f_scope_audit.py`
 - `resolver_wave_g_scope_audit.py`
 - `resolver_wave_h_scope_audit.py`
+- `resolver_wave_i_scope_audit.py`
 - `roadmap_current_routing_links_audit.py`
 - `rs_function_space_readme_inventory_audit.py`
 - `scripts_readme_surface_map_audit.py`
@@ -729,3 +730,15 @@ becoming the displayed source action or an Euler covector. Actual
 global density/Krein adjoints, Ward/Green/domain, observation no-leakage, and
 P1/P2/P3 coupling remain open. It does not reproduce the Clifford, matrix,
 Sage, source, or symbolic first-jet certificates.
+
+## Resolver Wave I scope gate
+
+`resolver_wave_i_scope_audit.py` preserves the local connection-induced
+Theta reconstruction/global source-owned Theta boundary, raw `C*` versus
+Riesz-raised `C` first-leg law, chosen Wave-H `(9,5)` versus live rival
+`(7,7)` branch, and coherent Spin lift versus planted sign inconsistency. It
+requires the rank-252 projector to remain an associated
+`flat Psrc_raised sharp` family on a pointwise local fixture; keeps the A9F
+rank-128 hinge, both tilted-connection assembly, actual source variation,
+Euler/Ward/Green/domain, no-leakage, and external-ledger P1/P2/P3 open; and
+does not reproduce the symbolic, Clifford, source, or 128-by-128 certificates.

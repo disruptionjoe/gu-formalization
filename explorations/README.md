@@ -576,3 +576,21 @@ be applied silently to a connection curvature. Actual nonconstant
 `Met(X)`/`Theta_Z` descent, Spin/J/source/Psrc cocycles, global adjoints,
 source-action variation, total Euler, Ward/Green data, domain, and no-leakage remain open. Route
 decision: `CONTINUE`; P1/P2/P3 remain unchanged and unused.
+
+# Resolver Wave I (2026-08-03)
+
+`resolver-wave-i-actual-metx-zorro-theta-descent-2026-08-03.md` constructs a
+local exact nonlinear three-chart `Met(X)` fixture and a connection-induced
+`Theta_recon` candidate. The full fourteen-dimensional first jets,
+Christoffel/Hessian cancellation, trace-reversed chosen-`(9,5)` gimmel
+metric, determinant/density, and all three Theta overlap diagrams pass. A
+pointwise arbitrary-fibre adapted-frame witness supplies a coherent Spin
+lift and chosen-`J` naturality. Hostile review exposed and repaired the raw
+source-one-form type: `C*` uses `O^-T`, while Wave H's projector carrier is
+Riesz-raised and uses `O`; the repaired associated family is
+`flat_eta Psrc_raised sharp_eta`. The wrong law fails under a rational boost;
+all 252 image basis vectors and representative kernel sectors pass. This is
+not a source-owned/global Theta, an assembly of both tilted connections on
+the charts, source-action variation, Euler/Ward/Green/domain, or physical
+no-leakage result. The live rival `(7,7)` branch, A9F rank-128 hinge, and
+external-ledger P1/P2/P3 are untouched. Route decision: `CONTINUE`.
