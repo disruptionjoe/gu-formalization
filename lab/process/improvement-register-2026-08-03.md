@@ -549,3 +549,40 @@ No scientific register row or protected verdict moves.
   moving total Euler system and determine whether it selects `lambda=1/2`,
   retains the coupled unweighted branch, or kills the rectangular route.
   P1/P2/P3 remain unchanged and unused.
+
+---
+
+## Revision 8 (2026-08-03, Resolver Wave F)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-f-source-port-action-ownership-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-f-review.md`.
+No scientific register row or protected verdict moves.
+
+- The fixed `4+10` exterior algebra supplies an exact rank-252 projector
+  `Pext^0=j5(1/9)pi_V5 delta` once the input is already typed in
+  `C* tensor Lambda6(C*)`; `delta j5=9I` forces the normalization. This does
+  not construct `q6` from a generic native adjoint field, and full Krein
+  self-adjointness of `Pext^0` is not independently certified.
+- Constant signed-permutation fixtures verify a narrow two-leg transport,
+  composition, one split-preserving commutant example, one split mover, and
+  one infinitesimal projector-chain identity. They do not construct the
+  actual tilted `epsilon_src` action, `Theta_Z` overlap descent, or global
+  source-to-active port. The coarse `epsilon_plane` obstruction survives.
+- The downstream real exterior Hom-space has dimension four after Hodge-star
+  twists. `[a:b]` is only its star-even two-dimensional subansatz; the clean
+  `[2:1]` result remains one-simple-blade and source-silent.
+- The displayed kappa field registry contains no `[a:b]`, and its hostile
+  collapsed quadratic `5a^2+4b^2` does not directly select the half-weight.
+  Complete moving Shiab plus fermion selection is not evaluable. An isolated
+  zero-jet multiplier can force the representative ratio, but coupled
+  nonpropagation is open and the field is not source-derived or required.
+- The `chi=0` side audit retains `e_hat_0` only as the zero of its supplied
+  auxiliary KO family. It supplies no canonical physical basepoint, P3
+  identification, or count.
+- **Next named gate:**
+  `RESOLVER-WAVE-G-Q6-NATIVE-SP-TILTED-SOURCE-PORT-AND-TRANSVERSE-EULER`.
+  Construct the generic-adjoint `q6`, its density/Krein adjoint and native
+  `Sp` tangency, then the actual tilted `epsilon_src/Theta_Z` transport before
+  testing both active and transverse total Euler equations. P1/P2/P3 remain
+  unchanged and unused.

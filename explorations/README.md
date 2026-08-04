@@ -516,3 +516,22 @@ source, but all rectangular `B_lambda` maps are source-silent and
 representation-wide extension is unproved. Complete `G2/Y/P0`, moving
 Shiab/fermion/bridge Euler selection, actual `Y14` descent, VEV, mass,
 quotient, domain, and no-leakage remain open. Route decision: `CONTINUE`.
+
+# Resolver Wave F (2026-08-03)
+
+`resolver-wave-f-source-port-action-ownership-2026-08-03.md` constructs the
+rank-252 exterior projector `Pext^0=j5(1/9)pi_V5 delta` after its input is
+already typed in `C* tensor Lambda6(C*)`. It leaves `q6` from the generic
+native adjoint open. Constant signed-permutation fixtures provide a
+split-transport/composition and one derivative schema; they are not the
+actual tilted `epsilon_src` action or `Theta_Z`/`Y14` overlap descent. A live
+split-moving control reproduces the obstruction to the coarse Clifford-plane
+field owning the internal `4+10` split. The downstream real exterior
+Hom-space has dimension four; `[a:b]` is its star-even two-dimensional
+subansatz, and the displayed kappa term does not directly select the
+one-simple-blade `lambda=1/2` point. An isolated auxiliary can force that
+representative ratio but is neither source-derived nor required, and coupled
+nonpropagation is open. The `chi=0` side audit keeps the auxiliary KO zero
+separate from a physical canonical basepoint. Route decision: `REBASE` around
+`q6`, native-`Sp`, the actual source transport, and transverse Euler closure;
+P1/P2/P3 remain unchanged and unused.

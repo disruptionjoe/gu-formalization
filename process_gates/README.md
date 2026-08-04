@@ -682,3 +682,17 @@ source kappa term and affine comparator from the joined and total
 Shiab/fermion/bridge Euler residuals. It also requires representation-wide
 half-weight, full `G2/Y/P0`, actual `Y14` Zorro descent, VEV, mass, quotient,
 domain, no-leakage, and P1/P2/P3 to remain open.
+
+## Resolver Wave F scope gate
+
+`resolver_wave_f_scope_audit.py` preserves the distinction between the fixed
+`1/9` projector on an already grade-six exterior carrier, the missing `q6`
+and actual source `U_(Theta,epsilon)`, and the separate downstream full-20
+placement. It records the full real exterior Hom-space as four-dimensional
+and `[a:b]` as only its star-even subansatz. It requires public native-`Sp`
+reduction, actual tilted `epsilon_src` split descent, `Theta_Z` overlap/Riesz,
+transverse Euler closure, complete Shiab/fermion selection, VEV, mass,
+quotient, domain, no-leakage, and P1/P2/P3 to remain open. It also prevents
+the isolated `AUXILIARY_CAN_FORCE` comparator from becoming source ownership
+or coupled nonpropagation, and prevents an arbitrary vectorlike `chi=0`
+object from becoming a canonical KO/index basepoint.
