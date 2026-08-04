@@ -852,3 +852,16 @@ cross paths: both possible path signs have full coefficient rank two. The
 scoped kill narrows the next build to stabilized, action-derived mixed
 Bose--Fermi maps `U,V`; it does not kill the trace-`q` operator or common
 action. Wave 3 and P1/P2/P3 use remain closed.
+
+# K77 Wave 2 stabilized mixed Hessians and target typing (2026-08-04)
+
+[`k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md`](k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md)
+visually reinspects draft equation `10.10` and retypes it as a rectangular
+symmetry-to-fields-to-Euler complex, rather than a Bose--Fermi endomorphism
+square. A common action supplies both raw density-dual mixed Hessian blocks;
+an exact finite action and the frozen real-K77 one-form family verify
+reciprocity, nonzero response and coefficient sensitivity rank two. Exact
+controls show that the composable up/back maps depend on unbuilt primalizers,
+and that the two-connection grading needs a comparison functor before target
+matching is meaningful. Selection rank remains zero, surplus `-1`, and Wave 3
+and P1/P2/P3 remain closed.

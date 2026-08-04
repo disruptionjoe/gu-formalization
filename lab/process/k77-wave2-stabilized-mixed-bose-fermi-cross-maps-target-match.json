@@ -1,0 +1,69 @@
+{
+  "artifact": "K77_WAVE2_STABILIZED_MIXED_BOSE_FERMI_CROSS_MAPS_TARGET_MATCH",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "K77_STABILIZED_MIXED_BOSE_FERMI_CROSS_MAPS_AND_TARGET_MATCH",
+  "source_collision": {
+    "draft_1010_topology": "SOURCE_CONFIRMS_RECTANGULAR_DEFORMATION_TO_EULER_COMPLEX",
+    "draft_1010_mixed_cells": "SOURCE_DISPLAYS_CAVEATED",
+    "portal_crossed_path_architecture": "SOURCE_CONFIRMS_UNFINISHED",
+    "toe_two_connection_target": "SOURCE_BOUNDS_UNRELEASED_RECONSTRUCTION",
+    "global_primalizers": "SOURCE_SILENT",
+    "comparison_functor": "SOURCE_SILENT"
+  },
+  "layer0": {
+    "equation_1010_vs_bose_fermi_endomorphism_square": "DISTINCT",
+    "field_space_vs_density_dual": "DISTINCT",
+    "raw_hessian_block_vs_primalized_cross_map": "DISTINCT",
+    "two_connection_grading_vs_bose_fermi_grading": "DISTINCT",
+    "sensitivity_rank_vs_selection_rank": "DISTINCT"
+  },
+  "common_action": {
+    "raw_u_type": "B_TO_F_DENSITY_DUAL",
+    "raw_v_type": "F_TO_B_DENSITY_DUAL",
+    "finite_hessian_symmetric": true,
+    "both_raw_blocks_nonzero": true,
+    "independent_bridge_equation_added": false
+  },
+  "actual_k77_witness": {
+    "scope": "FROZEN_ONE_FORM_TRACE_Q_AND_ONE_ACTUAL_CONNECTION_DIRECTION",
+    "clifford_relations_exact": true,
+    "mixed_hessian_reciprocity_exact": true,
+    "mixed_map_coefficient_rank": 2,
+    "coefficient_columns": 2,
+    "global_sixteen_cell_hessian_built": false
+  },
+  "primalizer_gate": {
+    "fermion_primalizer_built_globally": false,
+    "boson_primalizer_built_globally": false,
+    "bosonic_composite_depends_on_primalizer": true,
+    "fermionic_composite_depends_on_primalizer": true
+  },
+  "target_match": {
+    "two_connection_comparison_functor_built": false,
+    "direct_entrywise_match": "ILL_TYPED_WITHOUT_COMPARISON_FUNCTOR",
+    "numerical_mismatch_claimed": false
+  },
+  "selection": {
+    "action_hessian_selection_rank": 0,
+    "projective_free_parameters": 1,
+    "constraint_surplus": -1
+  },
+  "result": "PARTIAL__ACTION_DERIVED_RAW_MIXED_HESSIAN_BLOCKS_BUILT__EQ1010_RETYPED_AS_RECTANGULAR_DEFORMATION_COMPLEX__DIRECT_TWO_CONNECTION_TARGET_MATCH_ILL_TYPED__PRIMALIZERS_AND_COMPARISON_FUNCTOR_OPEN",
+  "next_required_build": "K77_MIXED_HESSIAN_PRIMALIZERS_AND_TWO_CONNECTION_COMPARISON_FUNCTOR",
+  "probe_receipt": {
+    "source": 11,
+    "type": 15,
+    "exact": 13,
+    "planted": 7,
+    "total": 46,
+    "failures": 0
+  },
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

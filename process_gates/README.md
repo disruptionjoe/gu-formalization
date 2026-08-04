@@ -82,6 +82,7 @@ selected notes below and in each script header.
 - `k77_wave2_source_sign_shiab_duality_scope_audit.py`
 - `k77_wave2_trace_q_coefficient_zero_order_reality_scope_audit.py`
 - `k77_wave2_up_back_over_target_scope_audit.py`
+- `k77_wave2_stabilized_mixed_cross_map_scope_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -966,3 +967,14 @@ boundary. It requires full rank two for both direct K77 trace-`q` path signs
 and limits that result to a candidate-map kill. Stabilized action-derived
 cross maps `U,V`, target matching, observation, physics, Wave 3, and P1/P2/P3
 remain open.
+
+## K77 Wave 2 stabilized mixed-cross-map scope gate
+
+`k77_wave2_stabilized_mixed_cross_map_scope_audit.py` requires equation `10.10`
+to remain a rectangular deformation-to-Euler complex, the common-action raw
+mixed Hessian blocks to retain their density-dual codomains, and the finite and
+frozen-K77 reciprocity receipts to pass. It separates coefficient sensitivity
+rank two from selection rank zero, requires the primalizer-dependence control,
+and forbids direct entrywise matching to the two-connection square without a
+typed comparison functor. It keeps full sixteen-cell closure, global
+primalizers, observation, physics, Wave 3 and P1/P2/P3 use open.

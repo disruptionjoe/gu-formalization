@@ -1376,3 +1376,37 @@ count, Wave-3 admission, or P1/P2/P3 status moves.
 - Existing cell-typing archaeology remains authoritative even after a fresh
   visual source pass. New synthesis should cite and extend it, not rediscover
   it as a novel result.
+
+---
+
+## Revision 28 (2026-08-04, raw mixed Hessians are not yet cross-carrier maps)
+
+Sources:
+`explorations/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md`,
+`lab/sources/gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match.json`,
+and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-stabilized-mixed-cross-map-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Read a diagram by node topology before importing a block-square grammar.
+  Equation `10.10` is a rectangular deformation-to-Euler complex, not an
+  endomorphism square on one Bose--Fermi carrier.
+- A scalar common action owns both mixed Hessian directions without an
+  independent bridge equation, but their native codomains are equation duals.
+  Record `B->F!` and `F->B!` before any musical identification.
+- In a Krein setting, dual-to-field maps are moving Hodge/pairing/density
+  structures. Identity coordinates are not a source-selected primalizer.
+- Mixed-Hessian reciprocity is a Helmholtz condition and may hold across an
+  entire coefficient family. Sensitivity rank and coefficient-selection rank
+  must be reported separately.
+- Before comparing two block matrices entrywise, prove that their gradings
+  name the same decomposition. Here the two-connection grading and the
+  Bose--Fermi/Euler grading require a comparison functor.
+- A frozen one-form witness can prove nonvacuity and exact coefficient rank; it
+  cannot stand in for the moving sixteen-cell Hessian, associated-bundle
+  descent, Green identity or physical source.
+- When a Layer-0 correction blocks the requested numerical match, emit the
+  missing typed adapter and rerun order, rather than reporting a numerical
+  failure for a comparison that was never defined.

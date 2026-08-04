@@ -7,6 +7,20 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 MIXED-HESSIAN / TARGET-MATCH DISPOSITION.**
+> [`explorations/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md`](explorations/k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match-2026-08-04.md)
+> restores equation `10.10` to its actual rectangular topology: symmetry
+> tangent to mixed fields to Euler-density duals. One common action constructs
+> both raw mixed Hessian blocks, and exact finite plus frozen real-K77 controls
+> verify their reciprocity and nonvacuity; the K77 coefficient family has
+> sensitivity rank two but selection rank zero. The raw blocks are
+> `B->F!` and `F->B!`, so diagonal/crossed composites require moving
+> Hodge/Krein/density primalizers. Entrywise matching to the later
+> two-connection square is also ill-typed until a comparison functor relates
+> its internal grading to the common Bose--Fermi Euler complex. Surplus remains
+> `-1`; P1/P2/P3 are unused and Wave 3 stays closed. Next gate:
+> `K77_MIXED_HESSIAN_PRIMALIZERS_AND_TWO_CONNECTION_COMPARISON_FUNCTOR`.
+
 > **2026-08-04 K77 WAVE-2 UP/BACK/OVER TARGET DISPOSITION.**
 > [`explorations/k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md`](explorations/k77-wave2-up-back-over-path-adapter-independent-square-root-target-2026-08-04.md)
 > reconstructs the strongest two-connection square compatible with Eric
