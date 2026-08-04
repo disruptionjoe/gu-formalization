@@ -72,6 +72,7 @@ selected notes below and in each script header.
 - `internal_paths_readme_inventory_audit.py`
 - `internal_ops_gitignore_audit.py`
 - `issue_template_validation_audit.py`
+- `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `lab_active_research_readme_surface_map_audit.py`
 - `lab_automation_readme_surface_map_audit.py`
 - `lab_deep_research_readme_surface_map_audit.py`
@@ -820,3 +821,17 @@ associated-bundle descent, full-domain extension, executable grammar typing,
 bounded expression-DAG census, differential Bianchi/Green, moving fields,
 observation, physics, and P1/P2/P3 use to remain open. It forbids promotion from displayed
 ansatz to bounded grammar, K77 lane, or conditional-program scope.
+
+## Post-K77-B2 eight-wave rendezvous scaffold gate
+
+`k77_post_b2_next_eight_wave_scaffold_audit.py` fail-closes the council's
+campaign sequence rather than a mathematical result. It preserves K77 as the
+primary source-faithful real `(7,7)` construction and the active `(9,5)`
+right-`H` work as a distinct rival implementation/negative-test bank; requires
+K77-B3 to be the last isolated selector wave; and checks eight sequential named
+gates through a common action, Ward/BV, observation, local-physics, domain,
+vacuum, fermion/count, and frozen integrated-acceptance interface. It also
+requires the D1 receiving-arrow boundary, early atomic-ledger regrading,
+Wave-4 breadth reset, ten specialist lenses, and exact held-out certification
+for any ML-assisted search. It makes no scientific, canon, lane, public-
+posture, or P1/P2/P3 status change.

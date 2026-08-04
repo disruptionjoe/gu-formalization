@@ -687,3 +687,19 @@ on Riemann curvature, but its associated-bundle descent, source-natural full-
 domain extension, executable grammar typing and bounded expression-DAG census,
 differential Bianchi/Green, moving fields, observation, K77-C, physics, and
 P1/P2/P3 use remain open.
+
+# Post-K77-B2 science council and eight-wave rendezvous (2026-08-04)
+
+[`k77-post-b2-science-council-next-eight-wave-rendezvous-2026-08-04.md`](k77-post-b2-science-council-next-eight-wave-rendezvous-2026-08-04.md)
+records the inline science-council and ten-specialist review. Its decision is
+`CONTINUE_WITH_REBASE_AND_RENDEZVOUS`: K77 remains the primary source-faithful
+real `(7,7)` construction, while the active `(9,5)` right-`H` work remains a
+formally separate rival implementation and negative-test bank. K77-B3 is the
+last isolated selector wave. The following waves force a rendezvous at one
+action/Euler/Ward/observation interface, emit local physics in Wave 4, perform
+a mandatory breadth reset, then construct the physical domain, vacuum,
+fermion/anomaly/count coupling, and frozen integrated acceptance packet.
+External data may select a constructed receiving object but may not create a
+missing map, action, Ward differential, quotient, or domain. This is a campaign
+sequence decision only: no claim, canon verdict, lane, public posture, or
+P1/P2/P3 status changes.

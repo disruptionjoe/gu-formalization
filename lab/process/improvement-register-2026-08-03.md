@@ -1006,3 +1006,39 @@ the SPACE-orientation character and is wrong. JOINT ITEM: identifying this
 Z/2 with TaF's finality direction needs a TaF-side statement of what that
 direction is a direction OF; GU can now hand over three candidate
 characters and an exhaustive pi_0 table to test against.
+
+---
+
+## Revision 17 (2026-08-04, post-K77-B2 council and eight-wave rendezvous)
+
+Sources:
+`explorations/k77-post-b2-science-council-next-eight-wave-rendezvous-2026-08-04.md`
+and `lab/process/k77-post-b2-next-eight-wave-campaign.json`. No scientific
+register row, protected verdict, lane, canon, public posture, or P1/P2/P3
+status moves.
+
+- The route remains worth pursuing, but the sequence is rebased. The real
+  `(7,7)` K77 construction is primary and source-faithful; the active `(9,5)`
+  right-`H` construction remains a formally distinct rival implementation and
+  negative-test bank. Complexification is not permission to import real
+  pairing, chirality, or right-`H` results across the fork.
+- K77-B3 is the last isolated selector wave. It must either produce a descended
+  full-domain cyclic/action member or bank an exact bounded zero-order no-go
+  and return to derivative/moving-field geometry.
+- The next three gates force a common source-action rendezvous, an action-owned
+  current/Riesz and Noether/BV identity, and an observation/BFV groupoid with
+  a typed receiving arrow for any external datum. D1 is treated as a lift of
+  the timelike-line orientation cover, not a free scalar repair.
+- Physics begins at Wave 4 with local Einstein, Dirac/RS, Maxwell/Yang--Mills,
+  gauge-rotated contorsion, and trace-reversed Frobenius-fibre emission from the
+  same frozen action. The 37-row atomic ledger is regraded then, rather than
+  being reserved for final validation.
+- A mandatory breadth reset follows Wave 4. Remaining waves construct the
+  coupled Krein/Green/BFV domain, common Higgs/Yukawa/cosmological vacuum,
+  physical fermion/chirality/anomaly/count coupling, and one frozen integrated
+  held-out acceptance packet.
+- Every wave retains lightweight divergent pre-assessment and two hostile
+  post-review charges: find where the summary outruns the artifact, and find
+  where rigor is defending a superseded object. ML remains optional search
+  infrastructure; only exact reconstruction and held-out identities can admit
+  a result.
