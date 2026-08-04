@@ -732,3 +732,38 @@ No scientific register row or protected verdict moves.
   moving Theta/J/Psrc/connection/density/spinor terms, then test Euler
   tangency, Ward/Green/BV data, a common domain, and no-leakage. External-
   ledger P1/P2/P3 remain unchanged and unused.
+
+---
+
+## Revision 12 (2026-08-03, Resolver Wave J)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-j-descended-source-action-total-euler-ward-disposition-2026-08-03.md`
+and `lab/process/hostile-reviews/2026-08-03-resolver-wave-j-review.md`.
+No scientific register row or protected verdict moves.
+
+- A pointwise already-composed source-shaped scalar-density fixture obeys
+  Wave I's exact three-chart/Jacobian transport. It is not the displayed
+  `I_B^1` and does not construct the native `Omega2 -> Omega13` Shiab.
+- Exact cyclic noncommutative differentiation verifies the source
+  `1/2,1/3` coefficient arithmetic and independence of the linear/quadratic
+  channels. It is a transgression comparator, not the native B1 Euler map.
+- Separate finite fixtures expose a live Green boundary and the necessity of
+  the inhomogeneous `d xi` gauge response. They are not B1's preboundary,
+  native Ward identity, or common domain.
+- The exact public-coset pair `i e0`, `i e45678` projects individually to
+  zero but returns native curvature `-2 e045678`. This kills the naive
+  `F_(R_J A)` shortcut unless `R_J(m wedge m)` is retained.
+- Hostile review caught a Layer-0/type failure: isolated coindex components
+  of one `Psrc`-fixed one-form were not themselves projector-fixed. Claims of
+  image bracket nonclosure, bosonic tangency failure, and selected
+  post-variation projection were retracted. The live quadratic coefficient
+  is `Omega2`, while `Psrc` acts on `Omega1`.
+- Corrected reduced `(a,m)` and full-public/projected-residual constructions
+  both remain open. Native Shiab, monolithic B1, degree-correct port order,
+  bosonic/total tangency, native Ward/Green/domain, typed fermion residual,
+  and no-leakage remain open.
+- **Next named gate:**
+  `RESOLVER-WAVE-K-NATIVE-SHIAB-MONOLITHIC-B1-VARIATION-AND-PORT-PLACEMENT`.
+  Construct and vary the actual bosonic map before adding a typed fermion
+  residual. P1/P2/P3 remain unchanged and unused.

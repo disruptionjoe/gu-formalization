@@ -742,3 +742,16 @@ requires the rank-252 projector to remain an associated
 rank-128 hinge, both tilted-connection assembly, actual source variation,
 Euler/Ward/Green/domain, no-leakage, and external-ledger P1/P2/P3 open; and
 does not reproduce the symbolic, Clifford, source, or 128-by-128 certificates.
+
+## Resolver Wave J scope gate
+
+`resolver_wave_j_scope_audit.py` preserves the distinction between the
+pointwise already-composed scalar-density fixture and the displayed B1
+action; the cyclic coefficient comparator and native Euler covector; the
+finite Green/`GL(2)` covariance fixtures and native preboundary/Ward objects;
+and the `Omega1` source port versus the `Omega2` quadratic coefficient. It
+records the exact `R_J([m,m])` coset-curvature obstruction while requiring
+both corrected-reduced and full-public/projected-residual port orders,
+bosonic and total tangency, native Shiab, monolithic B1, domain, no-leakage,
+and P1/P2/P3 coupling to remain open. It does not reproduce the exact
+Clifford, matrix, source, transport, or moving-geometry certificates.

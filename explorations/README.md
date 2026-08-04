@@ -594,3 +594,21 @@ not a source-owned/global Theta, an assembly of both tilted connections on
 the charts, source-action variation, Euler/Ward/Green/domain, or physical
 no-leakage result. The live rival `(7,7)` branch, A9F rank-128 hinge, and
 external-ledger P1/P2/P3 are untouched. Route decision: `CONTINUE`.
+
+# Resolver Wave J (2026-08-03)
+
+`resolver-wave-j-descended-source-action-total-euler-ward-2026-08-03.md`
+closes only a comparator layer, not its advertised total-Euler/Ward gate. A
+pointwise source-shaped scalar-density fixture obeys the exact Wave-I
+three-chart transport law; separate rational cyclic differentiation verifies
+the source `1/2,1/3` coefficient arithmetic; and finite Green plus `GL(2)`
+covariance fixtures expose live preboundary and inhomogeneous-response owners.
+The exact public-coset pair `i e0`, `i e45678` is killed componentwise by
+`R_J` but returns native curvature `-2 e045678`, so the naive
+`F_(R_J A)` shortcut is killed unless `R_J(m wedge m)` is retained. Hostile
+review retracted image-nonclosure, bosonic-tangency-failure, and forced
+post-variation-port claims: the live quadratic coefficient is in `Omega2`,
+while `Psrc` acts on `Omega1`. Native Shiab, monolithic B1, degree-correct
+port order, native Ward/Green/domain, typed fermion residual, total tangency,
+and no-leakage remain open. Route decision: `REBASE`; P1/P2/P3 remain
+unchanged and unused.
