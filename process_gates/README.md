@@ -755,3 +755,18 @@ both corrected-reduced and full-public/projected-residual port orders,
 bosonic and total tangency, native Shiab, monolithic B1, domain, no-leakage,
 and P1/P2/P3 coupling to remain open. It does not reproduce the exact
 Clifford, matrix, source, transport, or moving-geometry certificates.
+
+## Resolver Wave K scope gate
+
+`resolver_wave_k_scope_audit.py` preserves Curt/Eric's exact source-typed
+`(7,7)` arithmetic alongside the distinct conditional-active `(9,5)` branch,
+forbids dualization from changing inertia, and keeps the real Clifford forms
+separate. It requires the raw displayed Shiab word to remain outside `R_J`
+unless public-`u(K)` typed, the active grade projection to remain
+repository-derived, the normalized trace to remain `e10`, and the live exact
+defect to remain scoped to the repository `q_wedge` comparator. It forbids
+promoting that result to a source `[T,T]` obstruction, an owner cancellation
+to a Ward theorem, or one port fixture to global descent. It also preserves
+the source's fundamental-nonchirality/effective-chirality distinction and
+keeps K77 real spinors, atomic particle mapping, the decoupling theorem,
+domain, physics, and P1/P2/P3 open.

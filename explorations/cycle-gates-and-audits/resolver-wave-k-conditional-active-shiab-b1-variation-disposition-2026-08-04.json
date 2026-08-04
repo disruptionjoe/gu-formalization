@@ -1,0 +1,127 @@
+{
+  "artifact_type": "resolver_wave_gate",
+  "created": "2026-08-04",
+  "named_gate": "RESOLVER-WAVE-K-NATIVE-SHIAB-MONOLITHIC-B1-VARIATION-AND-PORT-PLACEMENT",
+  "gate_before": "LOCAL_SOURCE_DENSITY_AND_TRANSLATION_COMPARATORS_WITH_COSET_CURVATURE_OBSTRUCTION",
+  "gate_after": "NORMALIZED_TRACE_FIXED_ACTIVE_95_QWEDGE_B1_CANDIDATE_MISMATCH",
+  "route_disposition": "REBASE",
+  "hostile_review_status": "PASS_AFTER_REPAIRS_AND_SCOPE_NARROWING",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "third_lane_promoted": false,
+  "signature_ledger": {
+    "raw_vertical": [7, 3],
+    "trace_reversed_vertical": [6, 4],
+    "source_horizontal": [1, 3],
+    "source_total": [7, 7],
+    "active_horizontal": [3, 1],
+    "active_total": [9, 5],
+    "Hstar_flips_inertia": false,
+    "Cl77": "M128_R",
+    "Cl95": "M64_H",
+    "source_77_arithmetic": "SOURCE_CONFIRMS",
+    "four_metrics_two_viable_selector": "SPOKEN_UNDERIVED_NOT_USED"
+  },
+  "layer_0": {
+    "public_bosonic_shiab": "OMEGA2_AD_TO_OMEGA13_ADSTAR_SOURCE_CANDIDATE",
+    "canon_spinor_shiab": "DISTINCT_OMEGA2_TENSOR_S_TO_OMEGA1_TENSOR_S",
+    "active_shiab": "FIXED_95_NORMALIZED_TRACE_NATIVE_GRADE_REPOSITORY_CANDIDATE",
+    "trace_selector": "NORMALIZED_DEWITT_E10",
+    "strict_RJ_on_raw_shiab": "TYPE_REJECTED",
+    "native_grade_projection": "FIXED_FRAME_REPOSITORY_CANDIDATE_NOT_SOURCE_PORT",
+    "lowerer": "DUAL13_WRAPPER_NONDEGENERATE_ON_EXERCISED_THREE_BIVECTOR_PANEL_ONLY",
+    "source_quadratic": "BRACKET_T_T_NORMALIZATION_OPEN",
+    "repository_quadratic": "QWEDGE_T_EQUALS_T_WEDGE_T",
+    "Psrc": "OMEGA1_TO_OMEGA1_DISTINCT",
+    "P13": "ONE_FIXED_BACKGROUND_HODGE_CONJUGATION_WITNESS",
+    "fundamental_chirality": "SOURCE_DENIES",
+    "effective_chirality": "SOURCE_PROPOSES_VEV_CURVATURE_DEPENDENT_DIRAC_TO_WEYL_DECOUPLING"
+  },
+  "action": {
+    "monolithic_qwedge_B1_constructed": true,
+    "F_B_live": true,
+    "D_B_T_live": true,
+    "q_wedge_T_live": true,
+    "kappa_T_live": true,
+    "source_part_nonzero_at_kappa_zero": true,
+    "direct_owner_B": "-3/4",
+    "direct_owner_T": "13*kappa_1/4 + 221/36",
+    "direct_owner_simultaneous": "13*kappa_1/4 + 97/18",
+    "coefficient_calibration": "WAVE_J_POSITIVE_EXACT_CYCLIC_COMPARATOR",
+    "source_coefficients_live_in_candidate": true
+  },
+  "translation_gate": {
+    "repository_target": "active_shiab(F_B+D_B_T+q_wedge_T)+star(kappa_1*T)",
+    "defect": "-x^2 + 3*x*y^2/2 + 3*x*y/2 - 5*x/4 + 3*y/2 - 1/4",
+    "defect_zero": false,
+    "fixed_active_qwedge_candidate": "MISMATCH",
+    "source_bracket_identity": "NOT_TESTED_UNTIL_BRACKET_NORMALIZATION_AND_CL77_ACTION_ARE_BUILT",
+    "moving_active_operator_owner": "REPOSITORY_HYPOTHESIS_NOT_SOURCE_OWED"
+  },
+  "ward_green_port": {
+    "active_gauge_owner_cancellation": "ONE_NONVACUOUS_INFINITESIMAL_FIXTURE",
+    "independent_Ward_theorem": "OPEN",
+    "frozen_operator_control": "NONZERO_FAILURE",
+    "omitted_maurer_cartan_control": "NONZERO_FAILURE",
+    "selected_green_channel": "ZEROTH_ORDER_ZERO_BOUNDARY_NOT_ANALYTIC_DOMAIN",
+    "P13_fixture_idempotent": true,
+    "P13_fixture_adjoint_identity": true,
+    "global_rank_descent_moving_port_and_tangency": "OPEN"
+  },
+  "matter_route": {
+    "primary_reconstruction": "SOURCE_TYPED_CL77",
+    "active_95_role": "CONDITIONAL_COMPARATOR_OR_INDEPENDENT_ALTERNATIVE",
+    "source_matter_carrier": "CHIMERIC_SPINORS_AND_OMEGA0_PLUS_OMEGA1_SPINOR_VALUED_FORMS",
+    "visible_chirality_burden": "DERIVE_EFFECTIVE_STANDARD_MODEL_WEYL_SECTOR",
+    "hidden_parity_partner_burden": "CONSTRUCT_AND_IDENTIFY",
+    "shared_complexification_is_real_form_bridge": false,
+    "atomic_physics_crosswalk": "REQUIRED_BEFORE_SECTOR_LEVEL_RECOVERY_CLAIMS"
+  },
+  "source_collision": {
+    "B1_grammar_coefficients": "SOURCE_CONFIRMS",
+    "bracket_normalization": "SOURCE_SILENT_OPEN",
+    "trace_reversal": "SOURCE_CONFIRMS",
+    "source_77": "SOURCE_CONFIRMS_AND_CORRECTS_PRIOR_RIVAL_ONLY_WORDING",
+    "spinors_as_matter": "SOURCE_CONFIRMS",
+    "fundamental_nonchirality": "SOURCE_CONFIRMS",
+    "effective_chirality_mechanism": "SOURCE_PROPOSES_WITHOUT_DECOUPLING_THEOREM",
+    "preferred_Phi_selector": "SOURCE_SILENT_OPEN",
+    "active_95_grade_projection": "REPOSITORY_DERIVED"
+  },
+  "assertion_counts": {
+    "exact": 24,
+    "source_receipts": 8,
+    "type_level": 20,
+    "planted": 8,
+    "total": 60
+  },
+  "external_datum": {
+    "P1": "unchanged_unused",
+    "P2": "unchanged_unused",
+    "P3": "unchanged_unused"
+  },
+  "next_gates": [
+    "RESOLVER-WAVE-K77A-REAL-SPINOR-CARRIER-OBSERVATION-BRANCHING-AND-ATOMIC-PARTICLE-CROSSWALK",
+    "RESOLVER-WAVE-K77B-SOURCE-BRACKET-NORMALIZATION-DISPLAYED-SHIAB-AND-B1-VARIATION",
+    "RESOLVER-WAVE-K77C-VEV-DIRAC-TO-WEYL-EFFECTIVE-CHIRALITY-AND-HIDDEN-PARITY-SECTOR",
+    "RESOLVER-WAVE-K95-COMPARATIVE-REAL-FORM-PHYSICS-AUDIT"
+  ],
+  "forbidden_inferences": [
+    "CURT_77_IS_AN_ARITHMETIC_ERROR",
+    "HSTAR_DUALIZATION_FLIPS_SIGNATURE",
+    "ACTIVE_95_IS_SOURCE_DERIVED_FROM_TRACE_REVERSAL_ALONE",
+    "SHARED_COMPLEXIFICATION_IDENTIFIES_REAL_SPINOR_PHYSICS",
+    "RAW_DISPLAYED_SHIAB_CAN_BE_PASSED_THROUGH_RJ",
+    "ACTIVE_GRADE_PROJECTION_IS_A_SOURCE_TO_ACTIVE_REAL_PORT",
+    "QWEDGE_T_IS_SOURCE_BRACKET_T_T_WITHOUT_NORMALIZATION",
+    "QWEDGE_CANDIDATE_MISMATCH_KILLS_SOURCE_UPSILON",
+    "ONE_OWNER_CANCELLATION_IS_A_WARD_THEOREM",
+    "ONE_FIXED_PORT_FIXTURE_IS_GLOBAL_RANK252_DESCENT",
+    "FUNDAMENTAL_NONCHIRALITY_REMOVES_THE_EFFECTIVE_CHIRAL_SM_BURDEN",
+    "SECTOR_LEVEL_MAPPING_IS_AN_ATOMIC_PARTICLE_CROSSWALK",
+    "K95_RIGHT_H_J_PSRC_MACHINERY_TRANSFERS_TO_CL77",
+    "EXTERNAL_DATUM_REPAIRS_A_MISSING_MAP_OR_VARIATION_OWNER",
+    "LOCAL_ACTION_IMPLIES_FERMIONS_VEV_MASS_INDEX_COUNT_DARK_MATTER_OR_COSMOLOGY"
+  ]
+}

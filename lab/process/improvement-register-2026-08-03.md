@@ -767,3 +767,39 @@ No scientific register row or protected verdict moves.
   `RESOLVER-WAVE-K-NATIVE-SHIAB-MONOLITHIC-B1-VARIATION-AND-PORT-PLACEMENT`.
   Construct and vary the actual bosonic map before adding a typed fermion
   residual. P1/P2/P3 remain unchanged and unused.
+
+---
+
+## Revision 13 (2026-08-04, Resolver Wave K)
+
+Sources:
+`explorations/cycle-gates-and-audits/resolver-wave-k-conditional-active-shiab-b1-variation-disposition-2026-08-04.md`
+and `lab/process/hostile-reviews/2026-08-04-resolver-wave-k-review.md`.
+No scientific register row or protected verdict moves.
+
+- Curt/Eric's `(7,7)` is no longer called an unexplained rival. Exact inertia
+  arithmetic gives raw vertical `(7,3)`, trace-reversed vertical `(6,4)`, and
+  source `(1,3)+(6,4)=(7,7)`. The active `(9,5)` route used `(3,1)`; `H*`
+  does not flip inertia. The different real Clifford/spinor types make this a
+  matter-carrier fork, not notation.
+- The raw displayed Shiab word is not automatically in Wave H's typed
+  public-`u(K)` domain. `R_J` rejects it; the exercised active grade
+  projection is repository-derived and carries no source-port attribution.
+- Hostile review replaced an arbitrary `e8` selector with the normalized
+  DeWitt trace `e10`. The repaired monolithic B1 candidate retains independent
+  curvature, covariant-derivative, `q_wedge`, and mass channels; direct and
+  owner first variations agree exactly.
+- The fixed candidate differs from the repository translated-curvature
+  comparator by `-x^2+3*x*y^2/2+3*x*y/2-5*x/4+3*y/2-1/4`. The source equation
+  is not killed: its `[T,T]` normalization relative to `T wedge T` is open.
+- Ward and port claims were narrowed to one nonvacuous owner-cancellation
+  witness and one fixed-background Hodge-conjugation fixture. The Green
+  channel remains zeroth-order with zero boundary.
+- Primary sources put matter in chimeric spinors and explicitly propose
+  fundamental nonchirality plus VEV/curvature-controlled effective Weyl
+  sectors. The next burden is an atomic particle crosswalk, not a coarse
+  “Standard Model” row.
+- **Ordered next gates:** K77-A real spinors/observation branching/atomic
+  crosswalk; K77-B bracket-normalized source Shiab/B1; K77-C effective-
+  chirality and hidden-parity dynamics; then a comparative K95 audit.
+  P1/P2/P3 remain unchanged and unused.

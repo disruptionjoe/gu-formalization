@@ -612,3 +612,19 @@ while `Psrc` acts on `Omega1`. Native Shiab, monolithic B1, degree-correct
 port order, native Ward/Green/domain, typed fermion residual, total tangency,
 and no-leakage remain open. Route decision: `REBASE`; P1/P2/P3 remain
 unchanged and unused.
+
+# Resolver Wave K (2026-08-04)
+
+`resolver-wave-k-conditional-active-shiab-b1-variation-2026-08-04.md`
+constructs a nonvacuous normalized-trace fixed `(9,5)` B1 candidate with live
+`F_B`, `D_BT`, repository `q_wedge(T)=T wedge T`, and kappa channels. Direct
+and owner variations agree in independent B/T directions. Its selected Euler
+coefficient has an exact nonzero `q_wedge` comparator mismatch, but hostile
+review prevents promotion to a source obstruction: Weinstein writes `[T,T]`
+and its normalization is open. The same wave restores Curt/Eric's source
+`(7,7)` explanation—trace-reversed vertical `(6,4)` plus horizontal `(1,3)`—
+and records why its real spinor/matter carrier is not the quaternionic `(9,5)`
+carrier. Primary sources make GU fundamentally non-chiral but propose a VEV/
+curvature-dependent Dirac-to-Weyl effective chirality. K77 real spinors,
+atomic particle crosswalk, source action, and decoupling theorem are now the
+ordered primary route. P1/P2/P3 remain unchanged and unused.
