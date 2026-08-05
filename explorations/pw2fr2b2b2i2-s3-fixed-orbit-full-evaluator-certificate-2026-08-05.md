@@ -119,7 +119,7 @@ PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THE
 ```
 
 Build a resumable exact evaluator over the remaining 378 representatives,
-reusing the canonical transport witnesses and the already certified affine
-first-moving basis. Only complete 380-representative coverage plus the
-preregistered dense held-outs may replace the 1,925-cell fallback. Assemble
-`I1 A4` and `I2B C4` separately afterward.
+reusing the canonical transport witnesses and durably integrating the
+scratch-certified affine first-moving basis. Only complete 380-representative
+coverage plus the preregistered dense held-outs may replace the 1,925-cell
+fallback. Assemble `I1 A4` and `I2B C4` separately afterward.
