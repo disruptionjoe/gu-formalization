@@ -7,6 +7,22 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 AUGMENTED-TORSION FOUR-PLUS-TEN RECEIVER.**
+> [`explorations/k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md`](explorations/k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md)
+> collides the predecessor with Weinstein's pullback and augmented-torsion
+> sources. Augmented torsion is a full adjoint-valued one-form on `Y`, and the
+> existing N1 field map already retains both its four pulled-back connection
+> coefficients and ten vertical scalar-like coefficients. Along any supplied
+> section their combined map is an exact rank-fourteen bundle isomorphism; its
+> inverse transpose uniquely preserves the first-variation pairing and emits
+> four degree-three connection equations plus ten vertical-valued degree-four
+> equations. A nonzero-`kappa` conormal fixture kills automatic horizontality
+> on the displayed full local translation stratum, while leaving a possible
+> source-derived constrained domain open. No new datum, projector, particle or
+> Higgs claim is made; P1/P2/P3 remain unused and Wave 3 stays closed. Next
+> gate:
+> `K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT`.
+
 > **2026-08-05 K77 WAVE-2 ACTUAL-Y14 RECEIVER ORDERING.**
 > [`explorations/k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md`](explorations/k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md)
 > fixes the form-degree order hidden by the preceding abstract receiver.

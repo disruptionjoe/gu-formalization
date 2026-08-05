@@ -1,0 +1,145 @@
+{
+  "artifact": "K77_WAVE2_AUGMENTED_TORSION_DEFECT_EULER_RECEIVER",
+  "version": "2026-08-05",
+  "lane": "1",
+  "named_gate": "K77_ACTION_DERIVED_HORIZONTAL_EULER_IMAGE_OR_DEFECT_VARIATIONAL_RECEIVER",
+  "gate_status": "PARTIAL_WITH_DECISIVE_ROUTE_SELECTION",
+  "gate_after": "K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT",
+  "source_collision": {
+    "augmented_torsion_full_upstairs_one_form": "SOURCE_CONFIRMS",
+    "two_connection_difference": "SOURCE_CONFIRMS",
+    "tilted_equivariance_intent": "SOURCE_CONFIRMS_NOT_FULL_WARD_THEOREM",
+    "nonzero_kappa_term_and_translation_variation": "SOURCE_CONFIRMS",
+    "observation_pullback_obligation": "SOURCE_CONFIRMS",
+    "pullback_only_observer_reading": "SOURCE_CORRECTS_NAIVE_READING",
+    "pullback_plus_vertical_coefficient_retention": "SOURCE_GUIDES_AND_REPO_ALREADY_BUILT",
+    "inverse_transpose_euler_receiver": "SOURCE_SILENT_RECONSTRUCTION",
+    "defect_localization_and_moving_ward_bv": "SOURCE_SILENT_WITH_PRIOR_N3_DERIVATIVE",
+    "common_green_domain": "SOURCE_SILENT_OR_UNRELEASED"
+  },
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE-AMBIENT",
+    "fork_horn": "K77",
+    "other_horn_cost": "K95_CARRIER_PAIRING_PRIMALIZER_AND_TRANSITION_REPORT_REQUIRED",
+    "search_space_dim": "0_SELECTOR_PARAMETERS_AFTER_SECTION_AND_EXISTING_VERTICAL_RESTRICTION",
+    "free_object_delta": 0,
+    "residue_touched": [
+      {"id": "K77-W2-ACTUAL-Y14-RECEIVER", "grade": "T3"}
+    ],
+    "preregistered_kill": "REJECT_IF_COMBINED_FIELD_MAP_NOT_FAITHFUL_OR_INVERSE_TRANSPOSE_FAILS_FULL_VARIATION_PAIRING"
+  },
+  "layer0": {
+    "ordinary_torsion_vs_augmented_torsion": "DISTINCT",
+    "augmented_torsion_vs_euler_residual": "DISTINCT",
+    "form_pullback_vs_vertical_coefficient_restriction": "DISTINCT",
+    "field_map_vs_equation_dual": "DISTINCT",
+    "normal_direction_vs_gauge_direction": "DISTINCT",
+    "vertical_scalar_like_field_vs_physical_higgs": "DISTINCT",
+    "vertical_density_vs_oriented_vertical_volume": "DISTINCT",
+    "local_receiver_vs_global_defect_action": "DISTINCT",
+    "fibrewise_pairing_vs_common_closed_domain": "DISTINCT"
+  },
+  "field_receiver": {
+    "carrier": "S_STAR_TSTAR_Y_TENSOR_ADP",
+    "target": "TSTAR_X_TENSOR_S_STAR_ADP_PLUS_S_STAR_VSTAR_Y_TENSOR_S_STAR_ADP",
+    "map": "F_S_EQUALS_PAIR_S_STAR_AND_RES_S_VERTICAL",
+    "local_matrix": "M_EQUALS_BLOCK_I4_JT_ZERO_I10",
+    "pullback_rank": 4,
+    "vertical_restriction_rank": 10,
+    "combined_rank": 14,
+    "determinant": 1,
+    "inverse_exact": true,
+    "new_field_introduced": false
+  },
+  "equation_receiver": {
+    "map": "R_DEFECT_EQUALS_M_INVERSE_TRANSPOSE",
+    "local_matrix": "BLOCK_I4_ZERO_MINUS_J_I10",
+    "rank": 14,
+    "ambient_recovery": "M_TRANSPOSE_R_DEFECT_EQUALS_I14",
+    "connection_row": "E_H",
+    "vertical_row": "E_V_MINUS_J_E_H",
+    "complete_pairing_exact": true,
+    "coefficient_factor_equivariance_exact": true,
+    "moving_jet_pairing_exact": true,
+    "global_tilted_and_diffeomorphism_descent": "OPEN"
+  },
+  "degree_receiver": {
+    "ambient_degree": 13,
+    "split": "LAMBDA3_HSTAR_TENSOR_LAMBDA10_VSTAR_PLUS_LAMBDA4_HSTAR_TENSOR_LAMBDA9_VSTAR",
+    "connection_equation_count": 4,
+    "vertical_equation_count": 10,
+    "connection_output_degree": 3,
+    "vertical_output_degree": 4,
+    "vertical_output_bundle": "V_TENSOR_ADSTAR_WITH_VERTICAL_DENSITY_LINE",
+    "top_form_pairing_exact": true,
+    "uses_oriented_volume": false,
+    "uses_p1": false
+  },
+  "action_horizontal_route": {
+    "automatic_horizontality": "KILLED_ON_DISPLAYED_NONZERO_KAPPA_FULL_LOCAL_TRANSLATION_STRATUM",
+    "fixture": "CONSTANT_ONE_GENERATOR_GRAPH_CONORMAL_AUGMENTED_TORSION",
+    "exterior_derivative": 0,
+    "self_bracket": 0,
+    "curvature_contribution": 0,
+    "kappa_value_nonzero": true,
+    "emitted_primal_euler": "KAPPA_TIMES_T_CONORMAL",
+    "ordinary_pullback": 0,
+    "vertical_receiver_nonzero": true,
+    "source_derived_restricted_variation_domain_could_exclude_fixture": true,
+    "kappa_zero_case_proves_horizontality": false,
+    "global_source_domain_characterized": false
+  },
+  "localization_route": {
+    "selected_successor": "FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_WITH_FOUR_PLUS_TEN_FIELDS",
+    "literal_top_form_pullback_allowed": false,
+    "current_or_induced_vertical_density_required": true,
+    "prior_moving_support_derivative": "BUILT_IN_N3",
+    "moving_section_jet_variation": "OPEN",
+    "moving_vertical_density_variation": "OPEN",
+    "moving_hodge_shiab_connection_variation": "OPEN",
+    "full_tilted_ward_bv_identity": "OPEN",
+    "patch_descent": "OPEN",
+    "complete_source_action_weld": "OPEN"
+  },
+  "domain_boundary": {
+    "actual_post_observation_coefficient_module": "OPEN",
+    "common_closed_krein_green_domain": "OPEN",
+    "constraint_propagation": "OPEN",
+    "physical_bfv_phase_space": "OPEN",
+    "local_physics_recovery": "OPEN"
+  },
+  "accounting": {
+    "selector_parameters": 0,
+    "new_free_coefficients": 0,
+    "new_projectors": 0,
+    "new_data": 0,
+    "free_object_delta": 0,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {
+    "source": 11,
+    "type": 28,
+    "exact": 43,
+    "planted": 9,
+    "total": 91,
+    "failures": 0
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIR__FULL_LOCAL_TRANSLATION_DOMAIN_AND_NONZERO_KAPPA_CONDITIONALIZED__DEFECT_LOCALIZATION_NOT_CLAIMED",
+  "held_open": [
+    "COMPLETE_SOURCE_ACTION_DEFECT_CURRENT_LOCALIZATION",
+    "MOVING_SECTION_AND_VERTICAL_DENSITY_VARIATION",
+    "FULL_TILTED_WARD_BV_AND_GLOBAL_DESCENT",
+    "ACTUAL_POST_OBSERVATION_COEFFICIENT_MODULE_AND_IMAGE_FAITHFULNESS",
+    "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
+    "PHYSICAL_BFV_PHASE_SPACE",
+    "LOCAL_AND_GLOBAL_PHYSICS_RECOVERY"
+  ],
+  "next_required_build": "K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

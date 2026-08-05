@@ -1587,3 +1587,33 @@ admission, or P1/P2/P3 status moves.
   normal operator block can be invisible after restriction.
 - A tangent-plus-normal decoder is algebraically faithful but does not identify
   the ten normal components as gauge, constraints, particles, or dark content.
+
+---
+
+## Revision 34 (2026-08-05, pullback and vertical coefficient restriction precede normal loss)
+
+Sources:
+`explorations/k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md`,
+`lab/sources/gu-pullback-augmented-torsion-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-augmented-torsion-defect-euler-receiver.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-augmented-torsion-defect-euler-receiver-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Before declaring that observation loses normal coefficients, check every
+  coefficient restriction already owned by the field construction. Along a
+  section, `(s*,res_s^V)` is an isomorphism for one-form coefficients.
+- Derive an equation receiver as the dual of the complete field map. For a
+  moving graph section its matrix is inverse transpose, and the vertical
+  equation includes a forced section-jet correction.
+- Source collision precedes new fields: Weinstein's full upstairs augmented
+  torsion and N1's existing vertical restriction jointly type the ten outputs,
+  so a new normal projector or datum would be redundant.
+- A published quadratic term can test action-image horizontality cheaply. A
+  constant commuting conormal witness isolates the nonzero-`kappa` term from
+  curvature, but the verdict must be scoped to the displayed variation domain.
+- A faithful fibrewise receiver is not a reduced action. The current/density,
+  moving support, density/Hodge/Shiab variation, Ward/BV descent and domain
+  remain independent construction obligations.
+- Keep vertical scalar-like coefficients bundle-valued until representation,
+  vacuum and physics gates identify them; rank ten is not a Higgs derivation.

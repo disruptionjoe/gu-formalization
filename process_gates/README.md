@@ -75,6 +75,7 @@ selected notes below and in each script header.
 - `issue_template_validation_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
+- `k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit.py`
 - `k77_wave2_actual_y14_receiver_ordering_scope_audit.py`
 - `k77_wave2_actual_draft916_blockwise_scope_audit.py`
 - `k77_wave2_common_two_layer_action_scope_audit.py`
@@ -1046,6 +1047,19 @@ image. It preserves source silence for the receiver theorem, finite/model
 grades for Ward and preboundary checks, zero selector parameters,
 `free_object_delta=0`, the actual `Y14` receiver/BV/common-domain debt,
 P1/P2/P3 non-use, and closed Wave 3.
+
+## K77 Wave 2 augmented-torsion four-plus-ten receiver scope gate
+
+`k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit.py` requires
+the primary-source collision on augmented torsion and pullback, the existing
+pullback-plus-vertical coefficient field map, its exact rank-fourteen inverse
+and inverse-transpose Euler receiver, and the degree-thirteen four-plus-ten
+bigrading. It checks the nonzero-`kappa` conormal source-action witness while
+restricting the kill to automatic horizontality on the displayed full local
+translation stratum. It forbids promotion to a localized nonlinear action,
+physical Higgs, tilted Ward/BV descent, common Green domain, datum use,
+physics movement or Wave 3, and requires the successor gate to own the full
+moving defect-action weld.
 
 ## Wave disposition schema gate
 

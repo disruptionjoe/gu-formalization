@@ -937,3 +937,20 @@ reduction as a third live route and flags literal top-form section pullback as
 dimensionally invalid notation. Common Green/BV domain, physics, Wave 3 and
 P1/P2/P3 remain open. Next gate:
 `K77_ACTION_DERIVED_HORIZONTAL_EULER_IMAGE_OR_DEFECT_VARIATIONAL_RECEIVER`.
+
+# K77 Wave 2 augmented-torsion four-plus-ten defect Euler receiver (2026-08-05)
+
+[`k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md`](k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md)
+reinspects Weinstein's pullback and augmented-torsion sources before selecting
+the successor route. Along an observation section, ordinary pullback plus the
+existing vertical coefficient restriction is a canonical rank-fourteen field
+isomorphism. Its inverse transpose gives the exact equation dual: four
+connection equations and ten vertical-scalar equations with the forced
+section-jet correction. The degree-thirteen Euler carrier splits exactly into
+four degree-three and ten vertical-valued degree-four outputs. A constant
+one-generator conormal augmented torsion shows that the published nonzero
+`kappa` term prevents automatic horizontality on the displayed full local
+translation stratum. The full moving defect action, vertical-density
+variation, tilted Ward/BV descent, common Green domain and physical meaning
+remain open. Wave 3 and P1/P2/P3 remain closed. Next gate:
+`K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT`.
