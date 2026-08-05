@@ -109,3 +109,19 @@ why. Over-determined rows receive an independent owner before propagation.
    currently unranked quotients.
 
 P1/P2/P3, canon status, public posture and observed physics are unchanged.
+
+## Subsequent ratification — 2026-08-05
+
+Joe subsequently ratified the proposed functional-channel method in direct
+chat and requested that it become durable before the next scientific wave.
+The ratified human and machine contracts are:
+
+- `lab/process/functional-channel-operating-contract-v1.0.md`;
+- `lab/process/functional-channel-operating-contract-v1.0.json`.
+
+The historical statement above that the contract was not ratified **in this
+Run** remains true and is preserved for provenance. Ratification does not alter
+0A/0B/0C's scientific results, the six adverse rows, P1/P2/P3, canon or public
+posture. It adds the functional dispatch, ledger freshness, independent
+adjudication and two-sided hostile-review rules, plus the binding
+`GU-COSMO-DYNAMIC-01` Layer-0 split hold on the Einstein/cosmological mapping.

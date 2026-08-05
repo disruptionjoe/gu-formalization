@@ -1,5 +1,5 @@
 lane_contract_version: '1.0'
-manifest_revision: 3
+manifest_revision: 4
 owner:
   owner_id: gu-formalization
   display_name: GU Formalization
@@ -171,12 +171,20 @@ lanes:
   - intelligence_adaptation
   - policy_identity
   - escalation
-special_rules: []
+special_rules:
+- id: functional-channel-contract-v1
+  owner: Lane A reconciliation; channel execution remains inside the selected purpose Lane
+  rule: >-
+    Work inside purpose-bearing Lanes routes through the ratified Build, Compose,
+    Source and Verify functional-channel contract. The current conditional-physics
+    ledger is the compositional progress surface, and GU-COSMO-DYNAMIC-01 holds
+    Einstein/cosmology work at Layer 0 until its source objects are separated.
+  authority_ref: lab/process/functional-channel-operating-contract-v1.0.md
 extensions:
   operating_architecture:
-    contract_version: "1.0"
-    operating_contract_refs: ["lab/process/OPERATING-MODEL.md"]
-    work_state_refs: ["CANON.md", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/research-portfolio.json"]
-    channel_contract_refs: []
+    contract_version: "2.0"
+    operating_contract_refs: ["lab/process/OPERATING-MODEL.md", "lab/process/functional-channel-operating-contract-v1.0.md", "lab/process/functional-channel-operating-contract-v1.0.json"]
+    work_state_refs: ["CANON.md", "NEXT-STEPS.md", "RESEARCH-STATUS.md", "lab/process/research-portfolio.json", "lab/process/conditional-physics-ledger-v0.2.json", "explorations/conditional-build/conditional-physics-ledger-v0.2.md"]
+    channel_contract_refs: ["lab/process/functional-channel-operating-contract-v1.0.md", "lab/process/functional-channel-operating-contract-v1.0.json"]
     lane_a_portfolio_refs: ["LANE-STATE.yaml"]
-    return_contract_refs: ["lab/process/OPERATING-MODEL.md"]
+    return_contract_refs: ["lab/process/OPERATING-MODEL.md", "lab/process/functional-channel-operating-contract-v1.0.md"]

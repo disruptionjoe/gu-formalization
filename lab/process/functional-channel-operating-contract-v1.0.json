@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "status": "RATIFIED",
+  "ratified_at": "2026-08-05",
+  "ratified_by": "Joe direct chat",
+  "purpose_lanes_preserved": ["1", "2", "3", "A"],
+  "functional_channels_are_not_lanes": true,
+  "thin_trigger_rule": "LOAD_OWNER_AND_LANES_REFS__DO_NOT_DUPLICATE_SCIENTIFIC_INSTRUCTIONS_IN_TRIGGER",
+  "durability_level": "OWNER_LOCAL_MANDATORY_CONTEXT_PLUS_MACHINE_TESTED_CONTRACT",
+  "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
+  "standing_ledger": {
+    "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
+    "ref": "lab/process/conditional-physics-ledger-v0.2.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.2.md",
+    "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
+    "particles_are_separate_denominator_axis": false,
+    "append_only": true,
+    "unknown_kind_rule": "NEW_KIND_REQUIRED__FORCED_FIT_FORBIDDEN",
+    "row_required_fields": ["id", "axis", "summary", "verdict", "reason_kind", "distance", "revival_trigger", "evidence", "mapping_grade"],
+    "wave_required_fields": ["ledger_rows_declared_before_work", "ledger_meter_after", "ledger_row_changes_or_explicit_no_change_reason"],
+    "freshness_failure": "ROW_TOUCHED_WITHOUT_LEDGER_MIGRATION_OR_EXPLICIT_EVIDENCE_BACKED_NO_CHANGE_REASON"
+  },
+  "channels": {
+    "BUILD": {
+      "owns": ["new_objects", "action_terms", "maps", "quotients", "domains", "data", "typed_scoped_no_goes"],
+      "admission": ["named_ledger_rows", "current_layer0_typing", "current_source_premise_when_eric_lane", "pre_registered_pass_kill_revival"],
+      "success": ["distance_reduced", "residue_reduced", "missing_object_supplied", "prediction_sharpened", "scoped_route_killed_with_replacement", "mistyped_target_returned_to_compose"]
+    },
+    "COMPOSE": {
+      "owns": ["denominator", "aliases", "migration_edges", "row_typings", "taxonomy", "progress_meter", "residue_inventory", "contradiction_discovery", "cross_composition"],
+      "success": ["target_added_at_grade", "coverage_moved", "distance_or_tightness_moved", "residue_moved", "over_determined_row_found", "build_task_retired_or_redirected_or_reduced"],
+      "cadence": {
+        "after_material_build_outputs": 3,
+        "immediate_triggers": ["verdict_changed", "residue_changed", "discrete_fork_changed", "high_fanout_premise_changed", "source_corrects", "over_determined_row_found"]
+      }
+    },
+    "SOURCE": {
+      "owns": ["primary_source_locator", "typed_claim", "timestamp_or_page", "attribution", "source_omissions"],
+      "return_codes": ["SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"],
+      "generic_success_forbidden": true,
+      "cannot_promote": ["mathematical_proof", "datum_selection", "observed_physics", "canon"]
+    },
+    "VERIFY": {
+      "owns": ["changed_claim_attack", "high_fanout_claim_attack", "named_integrity_risk_replay", "two_sided_hostile_review"],
+      "unchanged_replay_is_progress": false,
+      "replay_admission": ["dependency_changed", "environment_changed", "scope_changed", "implementation_changed", "result_surface_changed", "unresolved_hostile_objection"],
+      "hostile_charges": ["SUMMARY_OUTRUNS_ARTIFACT", "DEFENDS_SUPERSEDED_OR_MISTYPED_OBJECT"]
+    }
+  },
+  "dispatch": {
+    "fixed_percentages": false,
+    "ordered_conditions": [
+      "SOURCE_OR_COMPOSE_IF_TARGET_OR_PREMISE_UNCERTAIN",
+      "INDEPENDENT_ADJUDICATION_IF_HIGH_FANOUT_OVER_DETERMINED",
+      "BUILD_IF_TYPED_DISTANCE_IS_BUILDABLE_AND_PREMISES_CURRENT",
+      "COMPOSE_AFTER_THREE_MATERIAL_BUILDS_OR_IMMEDIATE_TRIGGER",
+      "VERIFY_ONLY_CHANGED_HIGH_FANOUT_OR_NAMED_INTEGRITY_RISK"
+    ],
+    "busy_owner_claim": "ALLOW_DISJOINT_READ_ONLY_SOURCE_COMPOSE_OR_VERIFY__FORBID_COMPETING_OWNER_WRITE",
+    "construction_is_target": true,
+    "hardening_requires_generated_demand": true
+  },
+  "reservation": {
+    "level_1": "RUNTIME_CENTRAL_OWNER_CLAIM_FOR_CLOSED_ENVELOPE",
+    "level_2": ["NAMED_GATE", "NAMED_LEDGER_ROWS", "EXACT_WRITABLE_PATHS"],
+    "reconciliation_before_close": ["CURRENT_HEAD", "LATEST_LEDGER_VERSION_AND_METER", "ACTIVE_SOURCE_DIRECTIVES", "OVERLAPPING_RUN_PLANS", "CHANGED_HIGH_FANOUT_PREMISES"]
+  },
+  "over_determined": {
+    "finder_may_adjudicate": false,
+    "independent_owner_required": true,
+    "allowed_dispositions": ["GENUINE_FALSIFICATION", "FORK_ARTIFACT", "SCOPE_ERROR", "STALE_PREMISE"]
+  },
+  "active_scientific_directives": [
+    {
+      "id": "GU-COSMO-DYNAMIC-01",
+      "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
+      "status": "BINDING_LAYER0_SPLIT_HOLD",
+      "held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
+      "primary_row_on_hold": "LT-GR2",
+      "trigger_scope": ["einstein_recovery", "stress_energy", "cosmological_term", "olive_varpi_vev", "dark_energy"],
+      "source_refs": [
+        "lab/sources/claim-mining-toe-weinstein-2026-07-20.md:rows-11-12",
+        "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md:cosmological-and-into-impossible-sections"
+      ],
+      "required_layer0_objects": [
+        "OBSERVED_EINSTEIN_TENSOR",
+        "ACTION_DERIVED_MATTER_STRESS_ENERGY",
+        "LITERAL_CONSTANT_LAMBDA_G",
+        "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV",
+        "EINSTEIN_CURVATURE_COVARIATION",
+        "VEV_SIGN_MAGNITUDE_NORMALIZATION",
+        "EFFECTIVE_W_OF_Z_OBSERVABLE"
+      ],
+      "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
+      "current_evidence_boundary": "VARIABLE_DIVERGENCE_FREE_ANALOG_SUPPORTED__COMPLETE_ACTION_OWNERSHIP_AND_AMPLITUDE_OPEN",
+      "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION"
+    }
+  ],
+  "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE", "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]
+}

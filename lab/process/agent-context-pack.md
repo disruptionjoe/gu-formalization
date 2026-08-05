@@ -3,11 +3,11 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-04
+updated: 2026-08-05
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (as of 2026-08-03, commit ~45b604a)
+# Agent context pack (updated 2026-08-05)
 
 ## Standing rules (binding)
 
@@ -26,6 +26,30 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
   VERIFIED_REPO_DISCONNECT / CHEAP_NEW_COMPUTATION / REFEREE_CONJECTURE.
 - Python: ./_local/cas-venv/bin/python with PYTHONDONTWRITEBYTECODE=1.
   SageMath: /Applications/SageMath-10-9.app/.../venv/bin/sage.
+
+### Functional channels and progress surface (binding)
+
+Read `lab/process/functional-channel-operating-contract-v1.0.md` and its JSON
+contract after `LANES.yaml`. Lanes remain purpose-bearing; Build, Compose,
+Source and Verify are functions inside them. The conditional-physics ledger is
+the standing compositional deliverable and progress meter. Build/Compose waves
+name rows before work and emit row changes plus the meter, or an explicit
+evidence-backed no-change reason. Compose runs after three material Build
+outputs or immediately after a verdict, residue, fork, high-fanout premise,
+source correction or adverse-row change. No fixed channel percentages apply.
+
+Over-determined finders escalate; independent owners adjudicate. Eric-lane
+decisions return `SOURCE-CONFIRMS`, `SOURCE-CORRECTS` or `SOURCE-SILENT`.
+Verify attacks changed/high-fanout claims and does not relabel unchanged replay
+as progress. Hostile review checks both summary-overreach and rigorous defense
+of a superseded/mistyped object.
+
+`GU-COSMO-DYNAMIC-01` is active: `LT-GR2` and dependent Einstein/cosmology
+work are on a Layer-0 split hold until primary sources separately type the
+Einstein tensor, matter stress-energy, constant `Lambda g`, variable
+olive/`varpi`/augmented-torsion VEV, curvature co-variation, VEV scale and
+observable `w(z)`. Einstein-equation recovery alone does not recover GU's
+claimed dynamical cosmological sector.
 
 ### PRE-WAVE (binding)
 
@@ -171,5 +195,6 @@ lab/process/hinge-panel-synthesis-2026-08-03.md.
 
 Read-only inspection: no ceremony. Writes: session-sync scoped start/finish
 from the CapacityOS root. Never commit unless you are the orchestrator.
-Do not touch tests/channel-swings/pw2* or files modified in the last 24h by
-the interior campaign (agent/null-clifford-omega1-repair).
+Do not rely on a static branch or path warning to infer a live writer. Inspect
+the current Runtime owner claim, open Run plans and declared writable paths;
+choose a disjoint read-only channel or wait rather than duplicate active work.

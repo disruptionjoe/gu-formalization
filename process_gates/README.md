@@ -59,6 +59,7 @@ selected notes below and in each script header.
 - `explorations_top_level_file_boundary_audit.py`
 - `explorations_readme_surface_map_audit.py`
 - `finite_control_provenance_audit.py`
+- `functional_channel_operating_contract_scope_audit.py`
 - `forcing_slot_readme_inventory_audit.py`
 - `flrw_theta_xi_branch_gate.py`
 - `fork_depth_audit.py`
@@ -1254,3 +1255,15 @@ descent, domain, physics, P1/P2/P3, canon and public posture open.
 `conditional_physics_ledger_v02_scope_audit.py` preserves v0.1 as immutable,
 requires exactly the scoped `LT-GR1b` migration, keeps `LT-GR1` unchanged, and
 preserves the frozen 78-row denominator and verdict counts.
+
+## Functional-channel operating-contract scope gate
+
+`functional_channel_operating_contract_scope_audit.py` requires the ratified
+Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
+`LANES.yaml` and the operating model while purpose Lanes 1/2/3/A remain
+unchanged. It enforces information-preserving ledger fields, source return
+codes, independent adverse-row adjudication, condition-based dispatch,
+two-sided hostile review and the `GU-COSMO-DYNAMIC-01` Layer-0 split hold. It
+also forbids treating Einstein recovery as recovery of a constant or dynamical
+cosmological sector and records that this reset changes no scheduler, trigger,
+activation grant, verdict, canon, datum or public posture.

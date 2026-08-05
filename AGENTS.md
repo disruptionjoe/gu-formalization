@@ -44,6 +44,38 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, and use low-parallelism controls where the active Lake version supports them. Do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
 - On Windows, GU Lean/Lake commands use `lab/automation/check-lean.ps1`. Its exclusive lock is host-local, not cross-computer, and Lake 5 no longer accepts the historical `lake build -j1` form. Other hosts need an equivalent runner-native single-build lock and any supported low-parallelism control; no direct `lake` invocation may bypass the applicable lock policy.
 
+## Functional Channel Operating Contract
+
+After `LANES.yaml`, read
+`lab/process/functional-channel-operating-contract-v1.0.md` and its machine
+contract before selecting or dispatching GU work. Purpose remains in Lanes
+1/2/3/A; Build, Compose, Source and Verify are functional channels inside those
+Lanes, not additional Lanes.
+
+- Build and Compose declare conditional-ledger rows before work and emit the
+  current meter plus row changes, or an explicit evidence-backed no-change
+  reason.
+- Compose is a standing deliverable. It runs after three material Build
+  outputs and immediately after a verdict, residue, fork, high-fanout premise,
+  source correction or adverse-row change.
+- The finder of an over-determined row escalates it; an independent owner
+  adjudicates it as genuine falsification, fork artifact, scope error or stale
+  premise.
+- Eric-lane decisive dispositions require `SOURCE-CONFIRMS`,
+  `SOURCE-CORRECTS` or `SOURCE-SILENT`. Source language directs and types work;
+  it does not substitute for construction.
+- Verify attacks new, changed or high-fanout claims. Unchanged replay is not
+  progress without a named integrity risk.
+- Hostile review carries both charges: find where the summary outruns the
+  artifact, and find where rigor is defending a superseded or mistyped object.
+
+Standing directive `GU-COSMO-DYNAMIC-01`: before another wave uses Einstein
+recovery, `LT-GR2` or dark-energy recovery, run the contract's Layer-0 source
+split. Do not collapse the Einstein tensor, matter stress-energy, constant
+`Lambda g`, Weinstein's variable olive/`varpi`/VEV sector, or its observable
+cosmology into one row. Recovering an Einstein equation does not by itself
+recover GU's claimed dynamical cosmological mechanism.
+
 ## Operating note: two kinds of exploit (North Star vs quick payoff)
 
 A failure mode that recurs in agent-driven research. Read once; it changes how you prioritize.

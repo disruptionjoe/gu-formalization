@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-07-19"
+updated_at: "2026-08-05"
 ---
 
 # Process
@@ -42,6 +42,7 @@ Runbooks:
 
 ## Direct Process Files
 
+- `agent-context-pack.md` - one-read current rules, forks, anchors, functional-channel contract pointer and active scientific directives for GU agents.
 - `convergence-deep-read-2026-07-03.md` - deeper convergence readout.
 - `convergence-read-2026-07-03.md` - convergence readout.
 - `convergence_metrics_2026-07-03.py` - convergence metrics helper.
@@ -52,6 +53,8 @@ Runbooks:
 - `deflation-false-negative-audit-2026-07-03.md` - deflation false-negative audit.
 - `fanout-recent-run-convergence-2026-07-06.md` - recent fan-out convergence addendum.
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
+- `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
+- `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
 - `layer0-fork-registry.yaml` - Layer-0 fork registry: horns, status, and the artifacts that settled each fork; read by the fork-stack depth gate.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.

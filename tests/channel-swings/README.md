@@ -29,3 +29,12 @@ the ledger probe uses the standard Python interpreter.
   `sage -python <path>`.
 - `conditional_physics_ledger_v02_probe.py` pins immutable v0.1 hashes and
   checks exactly one scoped evidence migration while `LT-GR1` remains unchanged.
+
+# Functional-channel operating-contract probe
+
+- `functional_channel_operating_contract_probe.py` checks that purpose Lanes
+  remain separate from Build/Compose/Source/Verify, dispatch has no fixed
+  percentages, row-touching waves carry the ledger meter/freshness fields,
+  adverse-row finders cannot self-adjudicate, unchanged replay is rejected,
+  and the cosmological directive cannot collapse the Einstein tensor,
+  stress-energy, constant `Lambda g`, variable olive/`varpi`/VEV and `w(z)`.
