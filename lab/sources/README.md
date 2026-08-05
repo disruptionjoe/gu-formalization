@@ -106,3 +106,6 @@ identifications as separate grades.
   - quadratic-eddy action, printed endpoint, and action-Euler supersession check.
 - [`gu-action-owned-degree14-northeast-source-reinspection-2026-08-05.md`](gu-action-owned-degree14-northeast-source-reinspection-2026-08-05.md)
   - adjoint Shiab, full even Noether, and degree-three northeast-owner source collision.
+- [`full-domain-shiab-observed-receiver-source-reinspection-2026-08-05.md`](full-domain-shiab-observed-receiver-source-reinspection-2026-08-05.md)
+  - upstairs action and observation grammar confirmed; faithful ambient-Shiab-
+    to-observed-Einstein receiver and Gauss/`II` action ownership remain source-silent.

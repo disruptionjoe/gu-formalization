@@ -1239,3 +1239,18 @@ cross-wave ledger dispositions, the automatic meter and residue, immediate
 Compose-plus-Source ordering, the full-domain observed-receiver next gate and
 all no-promotion fences. It explicitly refuses to ratify the future operating
 contract or change P1/P2/P3, canon, public posture or observed physics.
+
+## Selected-Shiab observed Einstein receiver scope gate
+
+`full_domain_shiab_observed_einstein_receiver_scope_audit.py` requires the
+rank-ten image of the observed Einstein map on the Bianchi-selected
+displayed-family candidate's complete Riemann kernel
+kernel. It kills only post-Shiab factorization, retains the pre-Shiab Gauss
+map at local first-variation grade, and leaves source-action ownership, global
+descent, domain, physics, P1/P2/P3, canon and public posture open.
+
+## Conditional physics ledger v0.2 scope gate
+
+`conditional_physics_ledger_v02_scope_audit.py` preserves v0.1 as immutable,
+requires exactly the scoped `LT-GR1b` migration, keeps `LT-GR1` unchanged, and
+preserves the frozen 78-row denominator and verdict counts.

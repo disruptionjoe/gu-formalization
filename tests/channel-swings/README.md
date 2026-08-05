@@ -18,3 +18,14 @@ The repository-wide family inventory remains in `tests/README.md`.
 
 Run the SymPy-bearing probes with `uv run --with sympy==1.14.0 python <path>`;
 the ledger probe uses the standard Python interpreter.
+
+# Selected-Shiab observed-receiver probes
+
+- `full_domain_shiab_observed_einstein_receiver_probe.py` proves the complete
+  rank-ten kernel obstruction and checks the canonical Riemann/Gauss repair,
+  exact first variation, equation dual and planted scope failures.
+- `full_domain_shiab_observed_einstein_receiver_independent.sage` independently
+  rebuilds the kernel rank and Gauss variation over `QQ`; run with
+  `sage -python <path>`.
+- `conditional_physics_ledger_v02_probe.py` pins immutable v0.1 hashes and
+  checks exactly one scoped evidence migration while `LT-GR1` remains unchanged.

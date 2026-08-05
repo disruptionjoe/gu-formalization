@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "gate_id": "FULL_DOMAIN_SHIAB_ACTION_ADAPTER_PLUS_OBSERVED_EQUATION_RECEIVER",
+  "status": "COMPLETE_WITH_ROUTE_KILL_AND_LOCAL_REPAIR",
+  "layer0": {
+    "bianchi_selected_candidate_shiab": "DISPLAYED_FAMILY_CANDIDATE_WITH_COMPLETE_RIEMANN_RESPONSE_MINUS_2_J_G14__ACTION_HELMHOLTZ_SELECTION_OPEN",
+    "reconstructed_spinor_shiab": "SEPARATE_LATER_OPERATOR_WITH_RICCI_RIEMANN_DECODING",
+    "ambient_einstein": "RIEM_TY_TO_SYM2_TY",
+    "observed_einstein": "RIEM_TX_TO_SYM2_TX_AFTER_GAUSS_OBSERVATION",
+    "field_observation": "FOUR_PLUS_TEN_FIELD_ISOMORPHISM",
+    "equation_observation": "COTANGENT_DUAL_NOT_ORDINARY_PULLBACK",
+    "fibre_trace_reversal": "UPSTREAM_BILINEAR_FORM_NOT_EINSTEIN_TRACE"
+  },
+  "source_collision": {
+    "overall": "SOURCE_CONFIRMS_INGREDIENTS__SOURCE_SILENT_ON_RECEIVER",
+    "selected_historical_product": "SOURCE_SILENT",
+    "section_pullback_grammar": "SOURCE_CONFIRMS",
+    "augmented_torsion_upstairs": "SOURCE_CONFIRMS",
+    "faithful_equation_receiver": "SOURCE_SILENT",
+    "gauss_as_full_action_euler": "SOURCE_SILENT",
+    "direct_top_form_pullback": "SOURCE_CONFIRMS_PLUS_TYPE_REPO_CORRECTS"
+  },
+  "exact_results": {
+    "selected_shiab_kernel_observed_rank": 10,
+    "observed_target_dimension": 10,
+    "scalar_witness": {
+      "k_HH": "1",
+      "k_HN": "-3/10",
+      "k_NN": "2/15",
+      "ambient_ricci_rank": 0,
+      "observed_einstein": "-3*g_H"
+    },
+    "traceless_family_dimension": 9,
+    "traceless_family_observed_response": "2*S",
+    "post_shiab_linear_adapter_exists": false,
+    "post_shiab_nonlinear_adapter_exists": false,
+    "riemann_projector": "EXACT_RANK_3185_WITH_FOUR_FORM_KERNEL_1001__NONZERO_FIXTURE_IDEMPOTENCE_REPLAY",
+    "gauss_first_variation": "FORMULA_EXACT_BY_PRODUCT_RULE__FOUR_SLOT_DUAL_NUMBER_REPLAY",
+    "equation_dual": "TWO_INPUT_TEN_OUTPUT_FIXTURE_JACOBIAN_TRANSPOSE_PAIRING",
+    "normal_vertical_relation": "N_s_EQUALS_V_s_ONLY_ON_FIXED_ORTHOGONAL_FIXTURE__MOVING_TRANSITION_OPEN",
+    "cl5_and_normal_residue_blocks": "OPEN_FOR_NEXT_TOTAL_RECEIVER"
+  },
+  "route_disposition": {
+    "selected_post_shiab_factorization": "KILLED_EXACT",
+    "pre_shiab_gauss_receiver": "PARAMETER_FREE_LOCAL_FORMULA__FIXTURE_VARIATION_AND_EQUATION_DUAL",
+    "source_action_ownership": "OPEN",
+    "global_ig_descent": "OPEN",
+    "closed_krein_green_bfv_domain": "OPEN"
+  },
+  "ledger_row_changes": [
+    {
+      "row_id": "LT-GR1b",
+      "old": ["OVER_DETERMINED", "SCOPE_ERROR", "AMBIENT_KILL_EXACT_OBSERVED_OPEN"],
+      "new": ["OVER_DETERMINED", "GENUINE_FALSIFICATION", "T4_SELECTED_POST_SHIAB_FACTOR_ROUTE_KILLED"],
+      "scope": "SELECTED_POST_SHIAB_AMBIENT_TO_OBSERVED_EINSTEIN_FACTORIZATION"
+    }
+  ],
+  "no_ledger_change": [
+    "LT-GR1",
+    "LT-SM3b",
+    "LT-GR5",
+    "LT-GR6",
+    "all_representation_rows",
+    "all_anomaly_rows",
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "validation": {
+    "sympy": "48 exact + 3 source + 3 repo + 11 type + 8 planted = 73 PASS",
+    "sage": "independent QQ ambient-kernel rank-10, Riemann-projector, and Gauss-variation replay PASS",
+    "hostile_review": "PASS_AFTER_MATERIAL_SCOPE_AND_CERTIFICATE_REPAIRS"
+  },
+  "next_gate": "OBSERVED_GAUSS_RECEIVER_SOURCE_ACTION_OWNERSHIP_AND_MOVING_DEFECT_VARIATIONAL_CLOSURE",
+  "untouched": [
+    "observed_general_relativity",
+    "standard_model_recovery",
+    "cosmology",
+    "physical_solution_space",
+    "canon",
+    "public_posture",
+    "Wave_3"
+  ]
+}

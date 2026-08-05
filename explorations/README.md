@@ -1058,3 +1058,15 @@ rank-91 Riemann orbit banks to ranks `0/1` and erase traceless Ricci, so a
 larger source-natural degree-three basis and the full odd-Clifford action
 closure remain open. Wave 3, P1/P2/P3, domain, observation and physics do not
 move.
+
+# Selected Shiab / observed Einstein receiver (2026-08-05)
+
+[`full-domain-shiab-observed-einstein-receiver-2026-08-05.md`](full-domain-shiab-observed-einstein-receiver-2026-08-05.md)
+proves that the selected degree-two Shiab's algebraic-Riemann kernel maps onto
+all ten restriction-first Einstein components, so no receiver depending only
+on that post-Shiab output can recover the target. A canonical pre-Shiab Riemann/Gauss receiver and its local
+first variation survive; complete K77 source-action ownership remains open.
+
+[`conditional-build/conditional-physics-ledger-v0.2.md`](conditional-build/conditional-physics-ledger-v0.2.md)
+preserves immutable v0.1 history and records one scoped evidence migration without
+manufacturing coverage or verdict-count movement.
