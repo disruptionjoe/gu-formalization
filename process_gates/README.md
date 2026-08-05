@@ -1179,3 +1179,16 @@ transport without added selection, and the commuting two-connection
 curvature comparison square. It forbids attribution to Weinstein's missing
 sheet, full source-natural Shiab uniqueness, an eddy-completed chain or full
 Euler functor, observed gravity, domain, physics, P1/P2/P3 or Wave-3 promotion.
+
+## K77 Wave 2 eddy / augmented-torsion Euler prolongation scope gate
+
+`k77_wave2_eddy_augmented_torsion_euler_prolongation_scope_audit.py`
+requires the source-collided quadratic-eddy path average, exact replay of the
+K77-B3 printed-endpoint obstruction, and the action's actual
+Fréchet/formal-adjoint Euler formula. It requires complete rank-182 grade-one
+generic-adjoint carriers on all three covector orbits and rank-13 symbols to
+be owned by the **printed rival**, alongside rank-91 Riemann closure. It
+forbids transferring `Xi_print` to the action Euler, reviving the printed
+endpoint, or assigning the raw northeast block without a typed owner,
+homotopy, quotient or rival disposition. No Noether/BV, domain, observation,
+physics, P1/P2/P3 or Wave-3 promotion is allowed.

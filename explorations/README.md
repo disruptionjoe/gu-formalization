@@ -1031,3 +1031,16 @@ epsilon chain and complete finite even Ward owner identity but does not select
 a product channel. A compact-core trace-compatible Green graph closes at
 `H10 -> H9`; global coupled Krein/observation domain, odd BV, preferred Shiab
 and physics remain open. Wave 3 and P1/P2/P3 remain closed/unused.
+
+# K77 Wave 2 eddy-completed augmented-torsion Euler prolongation (2026-08-05)
+
+[`k77-wave2-eddy-augmented-torsion-euler-prolongation-2026-08-05.md`](k77-wave2-eddy-augmented-torsion-euler-prolongation-2026-08-05.md)
+reconstructs the source's `1/2,1/3` quadratic-eddy path average, but retracts
+an initial attempt to revive the already-killed printed endpoint. The
+action-owned row is
+`S(barF)+(D_T barF)^!S^!T+*kappa T`; the printed `S(F_A)+*kappa T`
+remains a rival. Its printed degree-14 companion has rank 13 on complete
+rank-182 grade-one generic-adjoint carriers while closing on the rank-91
+Riemann subcarrier. That rank is not transferred to the action Euler. The
+selected full-Clifford formal adjoint, action-owned degree 14, raw northeast
+owner, domain, observation, physics, Wave 3 and P1/P2/P3 remain open.

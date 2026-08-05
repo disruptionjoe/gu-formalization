@@ -2,10 +2,25 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-30"
+updated_at: "2026-08-05"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-05 K77 WAVE-2 EDDY / AUGMENTED-TORSION EULER PROLONGATION.**
+> [`explorations/k77-wave2-eddy-augmented-torsion-euler-prolongation-2026-08-05.md`](explorations/k77-wave2-eddy-augmented-torsion-euler-prolongation-2026-08-05.md)
+> reconstructs the source's `1/2,1/3` quadratic-eddy path average from the
+> two-connection operator, then catches and retracts an attempted revival of
+> the already-killed printed endpoint. The action-owned equation is the
+> Fréchet-adjoint row
+> `E_act=S(barF)+(D_T barF)^!S^!T+*kappa T`; the printed
+> `S(F_A)+*kappa T` remains a source rival, not the selected full-domain
+> variation. Its printed degree-14 companion has rank 13 on complete rank-182
+> grade-one generic-adjoint carriers and rank zero on the Riemann subcarrier,
+> but that rank is not transferred to the action Euler. The raw northeast
+> `-T wedge F_B` block and action-owned degree 14 remain open. Next:
+> `K77_ACTION_OWNED_SELECTED_SHIAB_EULER_AND_DEGREE14_TOTALIZATION_WITH_RAW_NORTHEAST_OWNER`.
+> P1/P2/P3, Wave 3, domain, observation and physics remain open/unmoved.
 
 > **2026-08-05 K77 WAVE-2 PRINCIPAL-BIANCHI PRODUCT SELECTOR.**
 > [`explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md`](explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md)

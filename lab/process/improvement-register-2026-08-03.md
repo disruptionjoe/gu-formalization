@@ -1805,3 +1805,41 @@ admission, or P1/P2/P3 status moves.
 - Build comparison diagrams one carrier at a time. The two-connection
   curvature square is now real; augmented torsion and full Euler comparison
   remain the successor rather than being smuggled into the square's label.
+
+## Revision 41 (2026-08-05, never pull a noncyclic Shiab through the variation)
+
+Sources:
+`explorations/k77-wave2-eddy-augmented-torsion-euler-prolongation-2026-08-05.md`,
+`lab/sources/gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-eddy-augmented-torsion-euler-prolongation.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-eddy-augmented-torsion-euler-prolongation-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- The `1/2,1/3` coefficients reconstruct the path-average curvature, but that
+  does not make a general Shiab behave like the identity under variation.
+  Preserve the Fréchet-adjoint companion
+  `(D_T barF)^! S^! T` in the action Euler row.
+- A breadth/supersession pass must run before promoting a synthesis. The first
+  draft of this wave revived the printed endpoint already killed by K77-B3;
+  the paired hostile charge caught and retracted it before commit.
+- Keep source-displayed and action-owned equations separate. Here
+  `Upsilon_print=S(F_A)+*kappa T` is a typed rival, while
+  `E_act=S(barF)+(D_T barF)^!S^!T+*kappa T` is the variational primary.
+- Do not impose a metric-Riemann closure condition on generic adjoint
+  connection curvature. Here the rank-91 Riemann defect is zero while the
+  complete grade-one generic carrier has a live rank-13 image for the
+  **printed** degree-14 rival. Do not transfer that rank to the action Euler.
+- `Xi_print=D Upsilon_print` cannot be inherited by `E_act` after the
+  degree-13 rows separate. Derive an action-owned degree-14/Noether row or
+  leave it open.
+- A nonzero extra block must have an owner, homotopy, quotient or explicit
+  rival disposition. Source hints about an up-and-back stress-energy term are
+  search directives, not permission to assign an unreleased block.
+- State bracket conventions. A normalized `T^2` coefficient cannot be copied
+  unchanged into a raw Lie-bracket convention with `[T,T]=2T wedge T`.
+- Use symmetry-orbit checks as robustness, not surplus. The three covector
+  orbit ranks are one equivariant structural result, not three independent
+  constraints.
+- When a residual block meets an already-open total-action debt, join them in
+  one successor gate instead of creating another suffix-only wave.
