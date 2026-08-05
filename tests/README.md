@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2i2_resumable_second_size6_full_evaluator_probe.py`
+  byte-pins the committed `4/380` predecessor ledger, selects the first
+  remaining canonical key before evaluator output, and certifies owners
+  `(0,0)` at quartic point `(0,0,2,2)`. Its complete six-cell orbit passes all
+  twelve non-self generator edges and `48/48` slots per evaluator layer, with
+  exact mixed actions `-31/144`, `-697/144`, `-31/144`, `-409/144`, `871/72`,
+  and `1015/72`. Durable coverage is `5/380`; dense heldouts remain `0/6`
+  executed, the other 375 representatives stay open, and the 1,925-cell
+  fallback remains live. Run it with
+  `uv run --with sympy==1.14.0 --with numpy==2.5.1 python`.
 - `channel-swings/pw2fr2b2b2i2_resumable_first_size6_full_evaluator_probe.py`
   creates the append-only exact coverage chain and certifies the
   lexicographically first representative outside the durable `3/380`

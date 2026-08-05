@@ -7,6 +7,23 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 PW2F-R2B2B2I2 SECOND APPEND-ONLY SIZE-SIX ORBIT
+> CERTIFIED; 375 REPRESENTATIVES REMAIN.** The committed `4/380` predecessor
+> ledger is byte-pinned before output-blind selection. The next canonical key
+> is owners `(0,0)` at quartic point `(0,0,2,2)`. Its six-label orbit passes
+> all twelve non-self generator edges; geometry, `Phi1`, `Phi2`, Hodge,
+> residual, moving primalizer, and action each pass `48/48`; all mixed controls
+> pass `6/6`; the obsolete forward lift rejects. Exact mixed actions are
+> `-31/144`, `-697/144`, `-31/144`, `-409/144`, `871/72`, and `1015/72`.
+>
+> Durable coverage is exactly `5/380`. The six dense heldout inputs remain
+> frozen but `0/6` executed. The engine is unpromoted, the 1,925-cell fallback
+> stays live, and `I1 A4` and `I2B C4` remain separate and unassembled. Resume
+> at `PW2F-R2B2B2I2-RESUMABLE-REMAINING-375-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-resumable-second-size6-full-evaluator-certificate-2026-08-05.md`.
+
 > **2026-08-05 PW2F-R2B2B2I2 RESUMABLE COVERAGE LEDGER CREATED; FIRST
 > UNCOVERED SIZE-SIX ORBIT CERTIFIED; 376 REPRESENTATIVES REMAIN.** The
 > append-only ledger chains to the byte-pinned durable `3/380` predecessor and

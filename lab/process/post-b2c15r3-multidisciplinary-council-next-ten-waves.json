@@ -4,14 +4,14 @@
   "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED_PW2FR2B2B2_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2I2-RESUMABLE-FIRST-UNCOVERED-SIZE6-FULL-EVALUATOR",
-    "status": "RESUMABLE_LEDGER_CREATED__FIRST_UNCOVERED_SIZE6_CERTIFIED__DURABLE_4_OF_380__UNIVERSAL_376_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED",
-    "earned": "the append-only coverage ledger chains to the byte-pinned 3/380 predecessor; the lexicographically first uncovered representative, owners (0,0) at quartic point (0,0,1,3), has a complete six-label orbit and passes all twelve non-self generator edges with every evaluator layer at 48/48, six live mixed controls, obsolete-lift rejection, and exact mixed actions -523/144, -1379/288, -523/144, -1235/288, 3499/288, and 3643/288",
-    "scope": "durable full-evaluator coverage is exactly 4/380 representatives; the other 376 remain open, six dense heldout inputs are preregistered but 0/6 executed, the reduction engine is unpromoted, the 1,925-cell fallback remains live, and both separate banks plus Green/Helmholtz remain blocked",
+    "gate": "PW2F-R2B2B2I2-RESUMABLE-SECOND-UNCOVERED-SIZE6-FULL-EVALUATOR",
+    "status": "SECOND_UNCOVERED_SIZE6_CERTIFIED__DURABLE_5_OF_380__UNIVERSAL_375_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED",
+    "earned": "the append-only ledger reconstructs and byte-pins the committed 4/380 predecessor before output-blind selection; the next representative, owners (0,0) at quartic point (0,0,2,2), has a complete six-label orbit and passes all twelve non-self generator edges with every evaluator layer at 48/48, six live mixed controls, obsolete-lift rejection, and exact mixed actions -31/144, -697/144, -31/144, -409/144, 871/72, and 1015/72",
+    "scope": "durable full-evaluator coverage is exactly 5/380 representatives; the other 375 remain open, six dense heldout inputs are preregistered but 0/6 executed, the reduction engine is unpromoted, the 1,925-cell fallback remains live, and both separate banks plus Green/Helmholtz remain blocked",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-376-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-375-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS"
   },
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {

@@ -15,6 +15,19 @@ public_posture_change: none
 
 # Post-B2C15R3 multidisciplinary council
 
+> **2026-08-05 R2B2B2I2 resumable second-size-six checkpoint.** The exact
+> committed `4/380` ledger is byte-pinned before output-blind selection of
+> `(0,0;0,0,2,2)`. Its complete six-cell orbit passes all twelve non-self
+> generator edges and every evaluator layer `48/48`; mixed controls pass
+> `6/6`, the obsolete lift rejects, and exact mixed actions are `-31/144`,
+> `-697/144`, `-31/144`, `-409/144`, `871/72`, and `1015/72`. Durable
+> coverage is exactly `5/380`; the other `375` remain open, dense heldouts stay
+> `0/6` executed, the engine is unpromoted, and the 1,925-cell fallback stays
+> live. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-375-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
+
 > **2026-08-05 R2B2B2I2 resumable first-size-six checkpoint.** The new
 > append-only ledger chains to the exact `3/380` predecessor and selects the
 > lexicographically first uncovered representative before evaluator output:
