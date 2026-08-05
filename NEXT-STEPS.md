@@ -7,6 +7,22 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 SELECTED K77 VACUUM / P2-NORM GATE.**
+> [`explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md`](explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md)
+> derives the former `P2_norm` fork from the written augmented-torsion action:
+> the canonical horizontal Gauss receiver has rank 100, its action-adjoint
+> insertion is exact, and the action restricts to full `|II|^2`, not the
+> rank-ten trace-first rival. The construction-selected TT determinant is
+> `z*(alpha_II*kappa_1-z)`, retaining one simple massless Einstein pole plus
+> one distinct massive GU partner and the exact plus/cross carrier. The
+> selected non-cyclic K77 scalar action also has the exact nonzero algebraic
+> stationary branch `t*=-kappa_1/312`; its radial Hessian is
+> `-14*kappa_1`, so physical stability is not claimed. Ledger v0.12 is
+> `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`. External `P2_datum`, P1/P3, canon and
+> public posture do not move. Next:
+> `CLOSE_SELECTED_BRANCH_LINEARIZED_TOTALIZATION_STRESS_CURRENT_AND_COMMON_KREIN_GREEN_DOMAIN__THEN_CLASSIFY_MASSIVE_PARTNER_STABILITY_AND_TEST_VACUUM_SHIFT_SCREENING`.
+
 > **2026-08-05 FULL-NORM POLE SPLIT / NONLINEAR T-VACUUM GATE.**
 > [`explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md`](explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md)
 > corrects the predecessor's one-pole-total target. The exact conditional

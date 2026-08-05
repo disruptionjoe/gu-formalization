@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-05",
+  "gate": "SELECTED_MOVING_K77_VACUUM_AND_P2_NORM_PLACEMENT",
+  "status": "P2_NORM_DERIVED_FULL_II_ON_CANONICAL_GAUSS_SECTOR__SELECTED_K77_NONZERO_ALGEBRAIC_STATIONARY_BRANCH_EXACT__PHYSICAL_STABILITY_TOTALIZATION_AND_DOMAIN_OPEN",
+  "source_return": "SOURCE-CONFIRMS_INGREDIENTS__REPO_DERIVES_COMPOSITION",
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR2c",
+    "LT-GR2d",
+    "LT-GR3",
+    "LT-GR5",
+    "LT-GR6"
+  ],
+  "layer0": {
+    "horizontal_gauss_receiver": "SYM2_HSTAR_TENSOR_V_TO_HSTAR_TENSOR_SO_H_PLUS_V__RANK_100",
+    "vertical_q_receiver": "VSTAR_TENSOR_AD_TO_V__RANK_10__DISTINCT",
+    "p2_norm": "ACTION_NORM_PREMISE__DERIVED_FULL_II",
+    "p2_datum": "EXTERNAL_DATUM_LEDGER_OBJECT__UNCHANGED_UNUSED",
+    "algebraic_stationary": "CONSTANT_FLAT_REFERENCE_ZERO_JET",
+    "physical_vacuum": "REQUIRES_STABILITY_CONSTRAINTS_DOMAIN_OBSERVATION_DYNAMICS",
+    "printed_endpoint": "GLOBAL_RIVAL__COINCIDES_ONLY_ON_SELECTED_INVARIANT_BRANCH"
+  },
+  "gauss_norm": {
+    "horizontal_augmented_torsion_dimension": 364,
+    "ii_dimension": 100,
+    "receiver_rank": 100,
+    "insertion_right_inverse": true,
+    "projector_rank": 100,
+    "projector_orthogonal_for_action_pairing": true,
+    "full_ii_quadratic_rank": 100,
+    "trace_first_quadratic_rank": 10,
+    "traceless_directions_lost_by_trace": 90,
+    "p2_norm_status": "DERIVED_FULL_II_ON_CANONICAL_GAUSS_SECTOR",
+    "new_field_delta": 0,
+    "new_datum_delta": 0,
+    "fitted_coefficient_delta": 0
+  },
+  "selected_vacuum": {
+    "shiab_products": ["comm", "symi", "symi"],
+    "scope": "FLAT_B_CONSTANT_T_FIXED_METRIC_ZERO_JET_WITH_MOVING_EPSILON_ORBIT_CONTROL",
+    "ansatz": "T=t*Phi1",
+    "raw_cubic_coefficient": 4368,
+    "path_average_cubic_coefficient": 1456,
+    "mass_norm": 14,
+    "action": "1456*t^3+7*kappa_1*t^2",
+    "stationary_branches": ["t=0", "t=-kappa_1/312"],
+    "selected_nonzero_branch": "t=-kappa_1/312",
+    "grade1_translation_derivatives": "196/196_ZERO",
+    "grade13_translation_derivatives": "196/196_ZERO",
+    "full_algebraic_gradient_basis": "CLOSED_BY_SPIN_INVARIANT_LINE_CLASSIFICATION",
+    "moving_epsilon_orbit_derivative": "ZERO",
+    "printed_endpoint_on_branch": "ZERO_SPECIAL_COINCIDENCE_LOCUS",
+    "printed_endpoint_global_identity": false,
+    "radial_hessian": "-14*kappa_1",
+    "stable_physical_vacuum": "OPEN"
+  },
+  "gravity": {
+    "p2_norm_selection": "CONSTRUCTION_SELECTED",
+    "tt_matrix": [["alpha_II*z", "z"], ["z", "kappa_1"]],
+    "determinant": "z*(alpha_II*kappa_1-z)",
+    "massless_einstein_pole": "ONE_SIMPLE",
+    "massive_gu_partner": "ONE_DISTINCT__PHYSICAL_SIGN_AND_DOMAIN_OPEN",
+    "plus_cross": "RETAINED_FROM_PREDECESSOR"
+  },
+  "residue": {
+    "continuous_real_before_quotient": 84,
+    "function_valued_at_least": 19,
+    "open_discrete_forks_before": 10,
+    "open_discrete_forks_after": 9,
+    "retired_fork": "P2_NORM_FULL_II_VS_TRACE_FIRST",
+    "external_P1_P2_P3": "UNCHANGED_UNUSED",
+    "global_physical_residue_reduction": false
+  },
+  "hostile_review": "PASS_WITH_FOUR_MATERIAL_LAYER0_COEFFICIENT_AND_CONTROL_CORRECTIONS",
+  "next_gate": "CLOSE_SELECTED_BRANCH_LINEARIZED_TOTALIZATION_STRESS_CURRENT_AND_COMMON_KREIN_GREEN_DOMAIN__THEN_CLASSIFY_MASSIVE_PARTNER_STABILITY_AND_TEST_VACUUM_SHIFT_SCREENING",
+  "probe_receipt": {
+    "exact": 22,
+    "planted": 7,
+    "repo": 7,
+    "source": 3,
+    "type": 14,
+    "total": 53,
+    "failures": 0,
+    "independent_sage": "PASS"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "canon_verdict_lane_public_posture_changed": false
+}

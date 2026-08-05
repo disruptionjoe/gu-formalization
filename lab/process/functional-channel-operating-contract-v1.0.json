@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.11.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.11.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.12.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.12.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,7 +74,7 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "ONE_POLE_TOTAL_OVERFENCE_CORRECTED__ACTION_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_RETAINED__CONDITIONAL_FULL_NORM_MASSLESS_PLUS_MASSIVE_SIMPLE_POLES__CYCLIC_NONLINEAR_SADDLES_EXACT__P2_AND_SELECTED_K77_VACUUM_OPEN",
+      "status": "P2_NORM_FULL_II_DERIVED_ON_CANONICAL_GAUSS_SECTOR__SELECTED_K77_NONZERO_ALGEBRAIC_STATIONARY_BRANCH_EXACT__MASSLESS_PLUS_MASSIVE_SIMPLE_POLES_SELECTED__PHYSICAL_STABILITY_TOTALIZATION_AND_DOMAIN_OPEN",
       "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
       "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR5", "LT-GR6"],
       "primary_row_on_hold": null,
@@ -98,7 +98,9 @@
         "lab/sources/observed-upback-stress-source-reinspection-2026-08-05.md",
         "explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md",
         "lab/sources/full-norm-gravity-source-reinspection-2026-08-05.md",
-        "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md"
+        "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md",
+        "lab/sources/selected-moving-k77-vacuum-p2-source-reinspection-2026-08-05.md",
+        "explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -110,13 +112,13 @@
         "EFFECTIVE_W_OF_Z_OBSERVABLE"
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
-      "source_return": "SOURCE-SILENT",
-      "current_evidence_boundary": "ACTION_OWNED_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_PLUS_CROSS_RETAINED__ONE_POLE_TOTAL_TARGET_CORRECTED_AS_ORTHODOX_OVERFENCE__CONDITIONAL_FULL_NORM_TT_RESPONSE_HAS_ONE_SIMPLE_MASSLESS_EINSTEIN_POLE_PLUS_ONE_DISTINCT_MASSIVE_GU_PARTNER__P2_SOURCE_SILENT__FINITE_NONCOMMUTATIVE_CYCLIC_FULL_T_CUBIC_HAS_TWO_GENUINELY_NONLINEAR_REAL_NONDEGENERATE_SADDLE_BRANCHES__ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_VACUUM_PHYSICAL_KREIN_GREEN_DOMAIN_MAGNITUDE_SCREENING_SOURCE_TOTALIZATION_AND_CURRENT_RELATION_OPEN",
+      "source_return": "SOURCE-CONFIRMS",
+      "current_evidence_boundary": "ACTION_OWNED_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_PLUS_CROSS_RETAINED__CANONICAL_HORIZONTAL_GAUSS_RECEIVER_RANK100__WRITTEN_AUGMENTED_TORSION_NORM_RESTRICTS_TO_FULL_II_NOT_TRACE_FIRST__P2_NORM_FORK_RETIRED__EXTERNAL_P2_DATUM_UNCHANGED__MASSLESS_PLUS_DISTINCT_MASSIVE_SIMPLE_POLES_CONSTRUCTION_SELECTED__SELECTED_NONCYCLIC_K77_ACTION_HAS_NONZERO_ALGEBRAIC_STATIONARY_BRANCH_T_MINUS_KAPPA1_OVER312__RADIAL_HESSIAN_MINUS14KAPPA1__PHYSICAL_STABILITY_KREIN_GREEN_DOMAIN_MAGNITUDE_SCREENING_SOURCE_TOTALIZATION_AND_CURRENT_RELATION_OPEN",
       "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
       "release_condition_met": true,
-      "resolved_by": "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md",
-      "next_gate": "CONSTRUCT_ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_NONLINEAR_VACUUM_AND_SETTLE_P2_ACTION_NORM_PLACEMENT__THEN_CLOSE_SOURCE_TOTALIZATION_STRESS_CURRENT_CHAIN_AND_PHYSICAL_KREIN_GREEN_DOMAIN"
+      "resolved_by": "explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md",
+      "next_gate": "CLOSE_SELECTED_BRANCH_LINEARIZED_TOTALIZATION_STRESS_CURRENT_AND_COMMON_KREIN_GREEN_DOMAIN__THEN_CLASSIFY_MASSIVE_PARTNER_STABILITY_AND_TEST_VACUUM_SHIFT_SCREENING"
     }
   ],
-  "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE", "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]
+  "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]
 }

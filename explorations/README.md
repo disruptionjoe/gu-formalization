@@ -7,6 +7,19 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Selected K77 algebraic vacuum and P2 norm placement (2026-08-05)
+
+`conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md`
+derives full `|II|^2` from the written connection-difference norm on the
+canonical horizontal Gauss sector. The rank-100 receiver/right-inverse pair
+excludes the rank-ten trace-first rival and retires the `P2_norm` binary fork,
+selecting one simple massless Einstein pole plus one distinct massive GU
+partner. The selected non-cyclic K77 action has an exact nonzero algebraic
+stationary branch `t*=-kappa_1/312`, with radial Hessian `-14*kappa_1`;
+physical stability, totalization/current closure, common Krein/Green domain,
+magnitude and screening remain open. Ledger v0.12 moves one verdict and one
+fork; external `P2_datum` is unchanged.
+
 ## Full-norm pole split and nonlinear T vacuum (2026-08-05)
 
 `conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md`

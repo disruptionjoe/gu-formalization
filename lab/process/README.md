@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.11.json` - current machine ledger; 82 active targets, corrected one-pole-total over-fence, conditional full-`|II|^2` massless-plus-massive simple-pole split, exact cyclic nonlinear saddle branches, and unchanged 84-real prequotient residue. v0.10 remains frozen history.
+- `conditional-physics-ledger-v0.12.json` - current machine ledger; 82 active targets, canonical-Gauss derivation of full `|II|^2`, selected nonzero K77 algebraic branch, verdict counts `33/19/24/6`, and residue `84 + >=19 functions + 9 forks`. v0.11 remains frozen history.
+- `selected-moving-k77-vacuum-p2-norm-placement.json` - machine receipt for the rank-100 full-II action restriction, selected branch `-kappa_1/312`, hostile-review corrections and physical-domain boundary.
+- `conditional-physics-ledger-v0.11.json` - frozen predecessor ledger for the corrected one-pole-total over-fence, conditional full-`|II|^2` split and cyclic nonlinear saddle controls.
 - `full-norm-pole-split-nonlinear-t-vacuum.json` - machine receipt for the conditional full-norm TT pole split, primary-source silence, exact finite cyclic nonlinear stationary branches, hostile-review boundary and selected-moving-K77 successor.
 - `conditional-physics-ledger-v0.10.json` - frozen predecessor ledger for the action-owned Hilbert-stress transgression, exact observed `10 -> 6 -> 2` constraint quotient, adverse coincident double pole and scoped quadratic-vacuum result.
 - `conditional-physics-ledger-schema-v0.1.json` - append-only conditional-physics ledger schema.

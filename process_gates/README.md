@@ -45,6 +45,7 @@ selected notes below and in each script header.
 - `conditional_physics_ledger_v09_scope_audit.py`
 - `conditional_physics_ledger_v010_scope_audit.py`
 - `conditional_physics_ledger_v011_scope_audit.py`
+- `conditional_physics_ledger_v012_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1354,6 +1355,18 @@ and records the exact finite cyclic nonlinear saddle branches. It requires P2,
 the selected moving-K77 Fréchet-adjoint vacuum, source totalization/current
 identity and physical Krein/Green domain to remain open.
 
+## Conditional physics ledger v0.12 scope gate
+
+`conditional_physics_ledger_v012_scope_audit.py` preserves v0.11
+byte-for-byte, recomputes the unchanged 82-row denominator, requires exactly
+seven row migrations and verifies the verdict move to `33/19/24/6`. It wires
+the rank-100 canonical Gauss restriction of the written connection norm, the
+rank-ten trace-first negative control, the selected nonzero K77 algebraic
+branch `-kappa_1/312` and the one-fork residue reduction to nine. It keeps the
+physical stability, selected-branch totalization/current chain, common
+Krein/Green domain, massive-partner classification and external `P2_datum`
+open.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1363,9 +1376,11 @@ unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
 two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
 receiver, formal homogeneous-gauge CME, null physical quotient, exact
-first-jet section-germ observation, action-owned Hilbert stress, corrected
-massless-plus-massive simple-pole target and nonlinear cyclic saddle control.
-It keeps P2 and the selected moving-K77 Fréchet-adjoint vacuum open. It
+first-jet section-germ observation, action-owned Hilbert stress, canonical
+full-II norm selection, massless-plus-massive simple-pole response and
+selected nonzero K77 algebraic stationary branch. It keeps physical stability,
+totalization/current closure, the common Krein/Green domain and external
+`P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
-activation grant, verdict, canon, datum or public posture.
+activation grant, canon, external datum or public posture.

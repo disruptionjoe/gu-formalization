@@ -86,6 +86,10 @@ identifications as separate grades.
 - [`full-norm-gravity-source-reinspection-2026-08-05.md`](full-norm-gravity-source-reinspection-2026-08-05.md)
   - exact-locus check for the full-`|II|^2` action-norm and total pole-count
     choice; returns `SOURCE-SILENT`.
+- [`selected-moving-k77-vacuum-p2-source-reinspection-2026-08-05.md`](selected-moving-k77-vacuum-p2-source-reinspection-2026-08-05.md)
+  - confirms the full connection-difference norm, Gauss-compatible reference
+    and moving-Phi ingredients; the repository derives the rank-100
+    composition and selected branch coefficient.
 
 - [`claim-mining-boyle-turok-cpt-2026-08-03.md`](claim-mining-boyle-turok-cpt-2026-08-03.md)
   - CPT-symmetric cosmology claim mining used as a conditional comparison surface.
