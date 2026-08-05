@@ -2,7 +2,7 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-07-30"
+updated_at: "2026-08-05"
 ---
 
 # Source and Media Index
@@ -57,3 +57,52 @@ These sources are useful for provenance, terminology, chronology, and locating c
 - [`frenkel-langlands-grok-source-pack-2026-07-20.md`](frenkel-langlands-grok-source-pack-2026-07-20.md)
   - untrusted third-party source pack on geometric Langlands and its physics
     links.
+
+## Recent GU construction source-collision packets
+
+These packets record scoped reinspection against a named construction gate.
+They preserve source statements, repository derivations, and unresolved
+identifications as separate grades.
+
+- [`claim-mining-boyle-turok-cpt-2026-08-03.md`](claim-mining-boyle-turok-cpt-2026-08-03.md)
+  - CPT-symmetric cosmology claim mining used as a conditional comparison surface.
+- [`gu-2021-draft-s11-s12-extraction-2026-08-03.md`](gu-2021-draft-s11-s12-extraction-2026-08-03.md)
+  - 2021 draft sections 11--12 extraction for the rolled and super-IG construction.
+- [`gu-up-back-over-square-root-source-reinspection-2026-08-04.md`](gu-up-back-over-square-root-source-reinspection-2026-08-04.md)
+  - up/back/over and connection-square-root source collision.
+- [`gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md`](gu-mixed-bose-fermi-cross-map-source-reinspection-2026-08-04.md)
+  - mixed Bose--Fermi cross-map and Euler-topology reinspection.
+- [`gu-primalizer-two-connection-comparison-source-reinspection-2026-08-04.md`](gu-primalizer-two-connection-comparison-source-reinspection-2026-08-04.md)
+  - moving primalizer and two-connection comparison source boundary.
+- [`gu-two-connection-shifted-superconnection-source-reinspection-2026-08-04.md`](gu-two-connection-shifted-superconnection-source-reinspection-2026-08-04.md)
+  - shifted two-connection operator and source-action ownership collision.
+- [`gu-euler-shell-two-connection-source-reinspection-2026-08-04.md`](gu-euler-shell-two-connection-source-reinspection-2026-08-04.md)
+  - Euler-shell and two-connection nilpotence reinspection.
+- [`gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md`](gu-2021-draft-s9-fermionic-operator-extraction-2026-08-04.md)
+  - typed extraction of the draft section-9 fermionic operator.
+- [`curt-iceberg-fermion-zero-order-reinspection-2026-08-04.md`](curt-iceberg-fermion-zero-order-reinspection-2026-08-04.md)
+  - Curt's fermion/Higgs/Yukawa zero-order account, retained as rival guidance.
+- [`gu-two-layer-action-source-reinspection-2026-08-04.md`](gu-two-layer-action-source-reinspection-2026-08-04.md)
+  - two-layer action and norm-square source collision.
+- [`gu-actual-y14-receiver-ordering-source-reinspection-2026-08-05.md`](gu-actual-y14-receiver-ordering-source-reinspection-2026-08-05.md)
+  - observation pullback, primalization, and receiver-ordering source check.
+- [`gu-euler-lift-ward-observation-source-reinspection-2026-08-05.md`](gu-euler-lift-ward-observation-source-reinspection-2026-08-05.md)
+  - Euler-lift, Ward naturality, and observation no-leakage reinspection.
+- [`gu-pullback-augmented-torsion-source-reinspection-2026-08-05.md`](gu-pullback-augmented-torsion-source-reinspection-2026-08-05.md)
+  - pullback and augmented-torsion receiver source collision.
+- [`gu-defect-localization-ward-bv-source-reinspection-2026-08-05.md`](gu-defect-localization-ward-bv-source-reinspection-2026-08-05.md)
+  - moving-defect localization and Ward/BV source boundary.
+- [`gu-i1b-conormal-weld-domain-source-reinspection-2026-08-05.md`](gu-i1b-conormal-weld-domain-source-reinspection-2026-08-05.md)
+  - I1B conormal symbol, bulk/defect weld, and domain reinspection.
+- [`gu-moving-shiab-epsilon-green-source-reinspection-2026-08-05.md`](gu-moving-shiab-epsilon-green-source-reinspection-2026-08-05.md)
+  - moving Shiab, primitive epsilon, and Green-domain source collision.
+- [`gu-action-polarization-domain-source-reinspection-2026-08-05.md`](gu-action-polarization-domain-source-reinspection-2026-08-05.md)
+  - action-polarization and common-domain source check.
+- [`gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md`](gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md)
+  - full-adjoint Shiab, Bianchi, and independent target reinspection.
+- [`gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md`](gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md)
+  - principal differential-Bianchi and product-selector source collision.
+- [`gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md`](gu-eddy-augmented-torsion-euler-functor-source-reinspection-2026-08-05.md)
+  - quadratic-eddy action, printed endpoint, and action-Euler supersession check.
+- [`gu-action-owned-degree14-northeast-source-reinspection-2026-08-05.md`](gu-action-owned-degree14-northeast-source-reinspection-2026-08-05.md)
+  - adjoint Shiab, full even Noether, and degree-three northeast-owner source collision.

@@ -1843,3 +1843,38 @@ admission, or P1/P2/P3 status moves.
   constraints.
 - When a residual block meets an already-open total-action debt, join them in
   one successor gate instead of creating another suffix-only wave.
+
+## Revision 42 (2026-08-05, totalize Noether and keep the forced Clifford grades)
+
+Sources:
+`explorations/k77-wave2-action-owned-degree14-northeast-totalization-2026-08-05.md`,
+`lab/sources/gu-action-owned-degree14-northeast-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-action-owned-degree14-northeast-totalization.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-action-owned-degree14-northeast-totalization-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- A selected contraction must be closed on its actual coefficient grades
+  before it is interpreted physically. The exact Shiab is surjective onto the
+  rank-196 `Cl1` receiver but also forces rank-1001 `Cl5`; projecting the
+  latter away would defend a superseded Einstein-only object.
+- Construct a formal adjoint entrywise under the declared pairing, and name
+  its grade. Invertible diagonal transpose proves the rank exactly but does
+  not prove positivity, closability, boundary cancellation or a physical
+  Krein domain.
+- The action-owned top-degree relation is the coefficient of one gauge
+  parameter after all transforming-field Euler terms are integrated by
+  parts. `D_B E_act`, `Xi=D Upsilon`, and the full even Noether totalization
+  are three distinct objects.
+- Test proposed cross-arena owners first by form degree and zero-sector
+  controls. A degree-13 fermion current cannot directly equal a degree-3
+  cyclic block, and the raw block survives when fermions vanish.
+- The right degree is necessary, not sufficient. The minimal pure-trace
+  degree-three Shiabs map into degree 14 but erase traceless Ricci on every
+  principal-covector orbit.
+- A candidate-map kill must emit its remaining search space. Portal's general
+  degree law confirms the degree-three arena while its “many bespoke Shiabs”
+  statement keeps the larger source-natural basis open.
+- Use modular arithmetic where it becomes a theorem: full column rank modulo
+  a prime proves rational injectivity when the column count is the absolute
+  upper bound.

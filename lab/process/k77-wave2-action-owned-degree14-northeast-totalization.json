@@ -1,0 +1,112 @@
+{
+  "artifact": "K77_WAVE2_ACTION_OWNED_DEGREE14_NORTHEAST_TOTALIZATION",
+  "date": "2026-08-05",
+  "lane": "1",
+  "fork": "SIGNATURE_AMBIENT_7_7",
+  "gate_before": "K77_ACTION_OWNED_SELECTED_SHIAB_EULER_AND_DEGREE14_TOTALIZATION_WITH_RAW_NORTHEAST_OWNER",
+  "gate_after": "K77_FULL_ODD_CLIFFORD_ACTION_CLOSURE_AND_SOURCE_NATURAL_DEGREE3_SHIAB_NORTHEAST_NOETHER_RENDEZVOUS",
+  "verdict": "SELECTED_FORMAL_ADJOINT_BUILT__ACTION_DEGREE14_TYPED_AS_FULL_EVEN_NOETHER__DIRECT_FERMION_CURRENT_OWNER_KILLED__RAW_NORTHEAST_INJECTIVE__MINIMAL_PHI3_OWNER_KILLED_ON_RIEMANN__GENERAL_DEGREE3_RENDEZVOUS_OPEN",
+  "source_disposition": {
+    "general_shiab_degree_law": "SOURCE_CONFIRMS",
+    "degree3_to_degree14_arena": "SOURCE_CONFIRMS",
+    "adjoint_shiab": "SOURCE_CONFIRMS",
+    "degree3_selector": "SOURCE_SILENT",
+    "cyclic_two_connection_square": "SOURCE_UNRELEASED",
+    "raw_northeast_stress_energy_identity": "SOURCE_SILENT",
+    "direct_JD_plus_JF_owner": "REPO_KILLS_BY_TYPE_AND_ZERO_FERMION_CONTROL",
+    "Xi_as_action_noether": "SOURCE_CORRECTS_NOT_AUTOMATIC"
+  },
+  "layer0": {
+    "status": "PASS",
+    "degree2_shiab_vs_degree3_shiab": "DISTINCT",
+    "action_euler_vs_full_even_noether": "DISTINCT",
+    "source_Xi_vs_action_noether": "DISTINCT",
+    "raw_Omega3_vs_current_Omega13": "DISTINCT",
+    "formal_bilinear_adjoint_vs_closed_positive_Krein_adjoint": "DISTINCT",
+    "generic_Cl2_vs_algebraic_Riemann": "DISTINCT",
+    "candidate_map_kill_vs_theory_kill": "DISTINCT"
+  },
+  "selected_degree2_shiab": {
+    "products": ["comm", "symi", "symi"],
+    "domain": "Omega2_tensor_Cl2",
+    "domain_dimension": 8281,
+    "nonzero_columns": 8281,
+    "support_entries": 63336,
+    "output_coordinates": 10206,
+    "total_rank": 1197,
+    "cl1_rank": 196,
+    "cl5_rank": 1001,
+    "einstein_only_receiver_closed_on_generic_carrier": false
+  },
+  "formal_adjoint": {
+    "type": "Omega1_tensor_Cl1_plus_Cl5_TO_Omega12_tensor_Cl2",
+    "pairing": "TOP_FORM_WEDGE_TIMES_CLIFFORD_SCALAR_BILINEAR",
+    "entrywise_identities": 63336,
+    "rank": 1197,
+    "grade": "FINITE_FORMAL_BILINEAR",
+    "positive_closed_analytic_Krein_adjoint": "OPEN"
+  },
+  "action_degree14": {
+    "owner": "FULL_EVEN_NOETHER_TOTALIZATION",
+    "schematic_formula": "D_B_coad_E_B+ad_T_top_E_T+rho_epsilon_top_E_epsilon+rho_Z_top_E_Z+backgrounds+ghosts",
+    "D_B_E_act_alone": "INSUFFICIENT",
+    "Xi_equals_D_Upsilon": "DISTINCT_SOURCE_REDUNDANCY",
+    "native_global_Ward_BV_closure": "OPEN"
+  },
+  "raw_northeast": {
+    "formula": "-Phi1_wedge_F_B",
+    "type": "Omega3_Cl1_plus_Cl3",
+    "total_rank": 8281,
+    "cl1_rank": 5096,
+    "cl3_rank": 8281,
+    "principal_Riemann_rank_by_orbit": {
+      "positive": 91,
+      "negative": 91,
+      "null": 91
+    },
+    "injective": true,
+    "direct_JD_plus_JF_owner": "KILLED",
+    "kill_reasons": ["FORM_DEGREE_3_VS_13", "NONZERO_AT_ZERO_FERMION"]
+  },
+  "minimal_degree3_shiab": {
+    "ansatz": "Phi3_equals_one_sixth_Phi1_cubed_pure_trace",
+    "generic_raw_image_rank": {
+      "comm": 1092,
+      "symi": 1093
+    },
+    "principal_Riemann_rank_by_orbit": {
+      "positive": {"comm": 0, "symi": 1},
+      "negative": {"comm": 0, "symi": 1},
+      "null": {"comm": 0, "symi": 1}
+    },
+    "fixture_response": {
+      "scalar": {"comm": 0, "symi": 1},
+      "traceless_Ricci": {"comm": 0, "symi": 0},
+      "Weyl": {"comm": 0, "symi": 0}
+    },
+    "universal_Einstein_stress_energy_owner": "KILLED",
+    "all_source_natural_degree3_Shiabs": "OPEN"
+  },
+  "checks": {
+    "main": "8 source + 13 type + 15 exact + 10 planted = 46 PASS",
+    "independent_sage": "FULL_RAW_RANK_8281__THREE_RIEMANN_BANKS_91_0_1__GAUSSIAN_SELECTED_ADJOINT_SLICE_PASS",
+    "hostile_review": "PASS_AFTER_NARROWING_PARTIAL_GATE_MOVEMENT_ONLY",
+    "machine_learning": "NOT_WARRANTED_FINITE_EXACT_CANDIDATE_SET"
+  },
+  "held_open": [
+    "full_odd_Clifford_action_closure",
+    "source_natural_degree3_Shiab_basis_and_selector",
+    "raw_northeast_to_action_Noether_commuting_map",
+    "moving_epsilon_background_Green_boundary_completion",
+    "global_closed_Krein_domain",
+    "observation_no_leakage",
+    "physics",
+    "P1_P2_P3",
+    "Wave3"
+  ],
+  "p1_p2_p3_changed": false,
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3",
+  "third_lane_status": "NOT_PROMOTED",
+  "next_required_build": "K77_FULL_ODD_CLIFFORD_ACTION_CLOSURE_AND_SOURCE_NATURAL_DEGREE3_SHIAB_NORTHEAST_NOETHER_RENDEZVOUS"
+}
