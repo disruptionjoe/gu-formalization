@@ -39,6 +39,7 @@ selected notes below and in each script header.
 - `constraint_first_ig_tangent_gate.py`
 - `conditional_physics_ledger_v04_scope_audit.py`
 - `conditional_physics_ledger_v05_scope_audit.py`
+- `conditional_physics_ledger_v06_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1286,6 +1287,15 @@ even-BV quotient rank 16. It rejects promotion past the missing global
 `sigma_epsilon` soldering map, nonlinear bulk/defect weld and null/Green
 domain, and requires `SOURCE-SILENT` plus unchanged P1/P2/P3.
 
+## Conditional physics ledger v0.6 scope gate
+
+`conditional_physics_ledger_v06_scope_audit.py` preserves v0.5 byte-for-byte,
+recomputes the unchanged 82-row denominator and verdict/residue counts, and
+requires only `LT-GR2c` to move. It wires the exact K77 rank-ten receiver,
+adjoint isometric right inverse/projector and same-stratum orthogonal action
+weld while refusing promotion past global full-reduction existence,
+bulk/defect support normalization, nonlinear BV or the null/Green domain.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1293,8 +1303,8 @@ Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
 `LANES.yaml` and the operating model while purpose Lanes 1/2/3/A remain
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
-two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` fixed-slot
-pre-Shiab even-BV result plus global soldering/weld/null-domain successor gate. It
+two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
+receiver/same-stratum weld plus global reduction/support/BV/domain successor gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

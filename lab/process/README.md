@@ -55,9 +55,10 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.5.json` - current machine ledger; 82 active targets, the scoped current-`I1B` ownership kill, one conditional local non-null even-BV quotient, and the global soldering/weld/null-domain boundary. v0.4 remains frozen history.
+- `conditional-physics-ledger-v0.6.json` - current machine ledger; 82 active targets, the scoped current-`I1B` ownership kill, one conditional local non-null even-BV quotient, exact K77 rank-ten receiver/same-stratum weld, and the global full-reduction/bulk-defect/BV/domain boundary. v0.5 remains frozen history.
 - `source-native-curvature-vev-euler-rank.json` - exact action-owned ambient curvature/distortion rank, observation obstruction, BV boundary and next-gate registry.
 - `pre-shiab-gauss-defect-action-bv-symbol.json` - exact current-action obstruction, repaired fixed-slot action, trace-reversed symbol complex, adverse null/zero-gain controls and next global soldering/weld gate.
+- `k77-epsilon-gravitational-soldering-weld.json` - exact K77 rank-ten receiver, adjoint isometric insertion/projector, equivariance-nonuniqueness lower bound, same-stratum weld and surviving global reduction/support/BV/domain gate.
 - `layer0-fork-registry.yaml` - Layer-0 fork registry: horns, status, and the artifacts that settled each fork; read by the fork-stack depth gate.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.

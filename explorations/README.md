@@ -1067,16 +1067,25 @@ all ten restriction-first Einstein components, so no receiver depending only
 on that post-Shiab output can recover the target. A canonical pre-Shiab Riemann/Gauss receiver and its local
 first variation survive; complete K77 source-action ownership remains open.
 
-[`conditional-build/conditional-physics-ledger-v0.5.md`](conditional-build/conditional-physics-ledger-v0.5.md)
-is the current human ledger view. It retains v0.4 unchanged and advances only
+[`conditional-build/conditional-physics-ledger-v0.6.md`](conditional-build/conditional-physics-ledger-v0.6.md)
+is the current human ledger view. It retains v0.5 unchanged and advances only
 `LT-GR2c`. The current `I1B` action cannot own the pre-Shiab receiver at the
 homogeneous `T=0` locus. A conditional repaired fixed-gravitational-slot
 action has an exact non-null linearized `4 -> 20 -> 20 -> 4` even-BV complex
-and quotient rank 16, with trace-reversed inertia `(6,4)`. The global
-`epsilon_IG` soldering map, nonlinear bulk/defect weld and null/Green domain
-remain open, so no physical recovery or global residue reduction is booked.
+and quotient rank 16, with trace-reversed inertia `(6,4)`. The K77 receiver is
+now explicit, rank ten and equipped with an adjoint orthogonal projector
+conditional on a full `epsilon_IG` reduction; its same-stratum action weld is
+exact. Global reduction existence, bulk/defect support normalization,
+nonlinear BV and the null/Green domain remain open, so no physical recovery or
+global residue reduction is booked.
 
 `conditional-build/pre-shiab-gauss-defect-action-bv-symbol-2026-08-05.md`
 contains the action-level obstruction, repaired horn, exact SymPy/Sage symbol
 certificate, zero-gain and null controls, source-silent disposition and next
 construction gate.
+
+`conditional-build/k77-epsilon-gravitational-soldering-weld-2026-08-05.md`
+contains the explicit receiver/right-inverse/projector, five-map
+equivariance-nonuniqueness control, same-stratum no-double-counting action
+identity, primitive nonlinear owner ledger and the surviving global
+reduction/support/BV/domain gate.

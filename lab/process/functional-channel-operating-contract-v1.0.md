@@ -194,7 +194,7 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.5
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.6
 retains the exact v0.4 result identifying source `theta` with the action's
 connection difference `T` up to the
 tilted trivialization and computes exact ambient curvature-covariation rank
@@ -204,10 +204,16 @@ geometry. The new action-level test instead proves that current `I1B` cannot
 own the pre-Shiab receiver at homogeneous `T=0`: its curvature Hessian still
 factors through that selected Shiab. A rival restriction-first defect horn is
 now written and, on a fixed gravitational slot, has an exact non-null
-linearized even-BV complex `4 -> 20 -> 20 -> 4` and quotient rank 16. Global
-ownership remains open: the ten-dimensional equivariant `sigma_epsilon`
-soldering map, nonlinear bulk/defect weld, null/Green domain and physical
-quotient have not been constructed. The repaired claim is `SOURCE-SILENT`.
+linearized even-BV complex `4 -> 20 -> 20 -> 4` and quotient rank 16. The
+formerly arbitrary receiver is now explicit:
+`sigma_epsilon(v_T)=pr_V pi1_epsilon(v_T(g/2))`. On the faithful K77 carrier it
+has exact rank ten, an adjoint right inverse and an orthogonal projector; the
+same-stratum gravitational sector split is exact. Global ownership remains
+open because a full `epsilon_IG` Clifford soldering reduction has not been
+constructed on the actual bundle, and the projector does not supply the
+bulk/defect support line or relative normalization. Nonlinear BV, the
+null/Green domain and the physical quotient also remain open. The receiver
+and weld claim is `SOURCE-SILENT`.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -220,15 +226,16 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_EPSILON_IG_GRAVITATIONAL_SOLDERING_MAP_AND_NONLINEAR_PRE_SHIAB_DEFECT_WELD
+CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION__THEN_ASSEMBLE_NONLINEAR_EVEN_BV_AND_NULL_GREEN_DOMAIN
 ```
 
-It must construct the actual bundle map (or state an honest stabilizer
-restriction), insert the repaired term into one nonduplicating action, derive
-nonlinear Ward/BV closure and address the null characteristic domain before
-ranking a physical map. Requiring the new geometry to factor through the old
-contraction-first receiver would remain circular; crediting a fixed-slot
-coefficient as a global adjoint-to-`Sym2` soldering map would be equally wrong.
+It must construct or obstruct the global full reduction needed by the actual
+bundle map, choose and normalize one of the typed bulk/defect support horns,
+derive nonlinear Ward/BV closure and address the null characteristic domain
+before ranking a physical map. Requiring the new geometry to factor through
+the old contraction-first receiver would remain circular; treating the exact
+same-stratum projector identity as a cross-dimensional density theorem would
+be equally wrong.
 
 ## Contract boundary
 

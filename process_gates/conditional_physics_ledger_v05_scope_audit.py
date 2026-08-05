@@ -45,11 +45,11 @@ assert rows["LT-GR2c"]["reason_kind"] == "MISSING_CONSTRUCTION"
 assert "BV_QUOTIENT_RANK16_EXACT" in rows["LT-GR2c"]["mapping_grade"]
 assert "GLOBAL_SOLDERING_WELD_NULL_DOMAIN_OPEN" in rows["LT-GR2c"]["mapping_grade"]
 
-assert contract["standing_ledger"]["ref"].endswith("v0.5.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.5.md")
-assert "conditional-physics-ledger-v0.5.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("v0.6.json")
+assert contract["standing_ledger"]["human_ref"].endswith("v0.6.md")
+assert "conditional-physics-ledger-v0.6.json" in lanes
 assert directive["source_return"] == "SOURCE-SILENT"
-assert directive["next_gate"] == "CONSTRUCT_EPSILON_IG_GRAVITATIONAL_SOLDERING_MAP_AND_NONLINEAR_PRE_SHIAB_DEFECT_WELD"
+assert directive["next_gate"] == "CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION__THEN_ASSEMBLE_NONLINEAR_EVEN_BV_AND_NULL_GREEN_DOMAIN"
 
 exact = registry["exact_results"]
 assert exact["trace_reversed_frobenius_inertia"] == [6, 4]

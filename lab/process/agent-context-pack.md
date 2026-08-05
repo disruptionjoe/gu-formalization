@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.5:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.6:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -66,10 +66,13 @@ sector, but using that old receiver as a kill of the new fluctuating geometry
 would be circular: moving `T`, the section and Gauss/`II` lie outside it.
 Current `I1B` nevertheless fails a direct action-level ownership test at
 `T=0`. A conditional fixed-slot repaired action has an exact non-null
-linearized even-BV quotient of rank 16, but its global `epsilon_IG` soldering
-map, nonlinear bulk/defect weld and null/Green domain remain open. The repaired
-claim is `SOURCE-SILENT`. Vacuum shifts currently track into `T` but are not
-screened.
+linearized even-BV quotient of rank 16. Its K77 receiver is now explicit:
+`pr_V pi1_epsilon(v_T(g/2))`, with exact rank ten, adjoint right inverse and
+orthogonal projector conditional on a full `epsilon_IG` Clifford soldering
+reduction. The same-stratum sector weld is exact; global full-reduction
+existence, bulk/defect support normalization, nonlinear BV and the null/Green
+domain remain open. The claim is `SOURCE-SILENT`. Vacuum shifts currently
+track into `T` but are not screened.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

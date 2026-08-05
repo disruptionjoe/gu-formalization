@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "gate": "K77_EPSILON_GRAVITATIONAL_SOLDERING_WELD",
+  "status": "RANK10_RECEIVER_AND_SAME_STRATUM_ORTHOGONAL_WELD_EXACT__GLOBAL_REDUCTION_BULK_DEFECT_NORMALIZATION_NONLINEAR_BV_DOMAIN_OPEN",
+  "source_return": "SOURCE-SILENT",
+  "fork": "SIGNATURE_AMBIENT_K77__FULL_CLIFFORD_SOLDERING_REDUCTION_CONDITIONAL",
+  "ledger_rows": ["LT-GR1b", "LT-GR2c", "LT-GR2d", "LT-SM8"],
+  "layer0": {
+    "source_epsilon_vs_epsilon_IG": "HOMONYM_RISK__IDENTITY_UNCONSTRUCTED",
+    "coarse_plane_vs_full_soldering_reduction": "DISTINCT",
+    "q_line_vs_sigma_image": "DISTINCT__ENDOMORPHISM_EVALUATION_IS_SURJECTIVE",
+    "K95_IC1_vs_K77_receiver": "RIVAL_FORK_AND_OPPOSITE_ARROW",
+    "same_stratum_split_vs_bulk_defect_weld": "DISTINCT",
+    "finite_Ward_vs_nonlinear_BV": "DISTINCT"
+  },
+  "receiver": {
+    "formula": "sigma_epsilon(v_T)=pr_V pi1_epsilon(v_T(q)), q=g/2",
+    "domain": "V_STAR_TENSOR_AD_P",
+    "codomain": "V_ISOMORPHIC_TO_SYM2_TSTAR_X",
+    "globality": "CONDITIONAL_ON_GLOBAL_FULL_CLIFFORD_SOLDERING_REDUCTION",
+    "new_fields": 0,
+    "new_receiver_coefficients": 0,
+    "rank_on_grade1_carrier": 10,
+    "kernel_dimension_on_grade1_carrier": 130
+  },
+  "projector": {
+    "right_inverse": "iota(u)=q_flat/G_DW(q,q) tensor gamma_epsilon(u)",
+    "q_norm": -1,
+    "domain_pairing": "G_DW_INVERSE_TENSOR_NEGATIVE_G_C",
+    "krein_reason": "REAL_K77_GRADE1_GENERATORS_ARE_B_SKEW",
+    "right_inverse_exact": true,
+    "isometry_exact": true,
+    "projector_rank": 10,
+    "projector_idempotent": true,
+    "projector_self_adjoint": true
+  },
+  "equivariance_boundary": {
+    "moving_spin_frame_test": "PASS",
+    "frozen_frame_plant": "REJECTED",
+    "independent_lorentz_equivariant_sym2_bilinear_maps_lower_bound": 5,
+    "uniqueness_claim": "NOT_MADE"
+  },
+  "action_weld": {
+    "grade": "SAME_STRATUM_ORTHOGONAL_SECTOR_REPLACEMENT",
+    "old_receiver_reconstruction": "EXACT",
+    "faithful_receiver_difference": "ONE_GRAVITATIONAL_PAIRING_ONLY",
+    "quadratic_gain_split": "EXACT_SAME_SIGN_AFTER_KREIN_CANCELLATION",
+    "double_counting_plant": "REJECTED",
+    "bulk_defect_support": "OPEN",
+    "normal_density_or_relative_normalization": "OPEN"
+  },
+  "ward_bv": {
+    "finite_stabilizer_naturality": "EXACT",
+    "primitive_derivative_owners": ["D_EPSILON_PI1_SIGMA_P", "D_G_Q_GDW", "D_S_GAUSS_SECTION_CURRENT", "D_A_BARF_HODGE_RIESZ", "GREEN_CONORMAL_PREBOUNDARY"],
+    "nonlinear_CME": "OPEN",
+    "null_Green_domain": "OPEN",
+    "global_quotients_ranked": 0
+  },
+  "residue": {
+    "global_full_epsilon_reduction": "OPEN_EXISTENCE_TOPOLOGY",
+    "bulk_defect_support_and_relative_normalization": "OPEN",
+    "nonlinear_even_BV": "OPEN",
+    "null_Green_domain": "OPEN",
+    "P1_P2_P3": "UNCHANGED_UNUSED",
+    "lane_count_canon_public_posture": "UNCHANGED",
+    "Curt": "FORMALLY_SEPARATE",
+    "TG_1_AND_TG_2_AND_TG_3": "NOT_PROMOTED"
+  },
+  "probe_receipt": {
+    "source": 2,
+    "repo": 7,
+    "exact": 26,
+    "type": 14,
+    "planted": 11,
+    "total": 60,
+    "failures": 0,
+    "independent_sage": "PASS"
+  },
+  "next_gate": "CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION__THEN_ASSEMBLE_NONLINEAR_EVEN_BV_AND_NULL_GREEN_DOMAIN"
+}

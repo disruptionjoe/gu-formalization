@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.5.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.5.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.6.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.6.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,7 +74,7 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "CURRENT_I1B_T0_OWNER_KILLED__CONDITIONAL_PRE_SHIAB_NONNULL_EVEN_BV_EXACT__GLOBAL_SOLDERING_WELD_AND_NULL_DOMAIN_OPEN",
+      "status": "K77_SIGMA_RANK10_AND_SAME_STRATUM_ORTHOGONAL_WELD_EXACT__GLOBAL_FULL_EPSILON_REDUCTION_BULK_DEFECT_NORMALIZATION_NONLINEAR_BV_AND_NULL_DOMAIN_OPEN",
       "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
       "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR5", "LT-GR6"],
       "primary_row_on_hold": null,
@@ -87,7 +87,9 @@
         "explorations/conditional-build/dynamic-cosmological-sector-constraint-rank-2026-08-05.md",
         "explorations/conditional-build/source-native-curvature-vev-euler-rank-2026-08-05.md",
         "explorations/conditional-build/pre-shiab-gauss-defect-action-bv-symbol-2026-08-05.md",
-        "lab/sources/pre-shiab-gauss-defect-action-bv-source-reinspection-2026-08-05.md"
+        "lab/sources/pre-shiab-gauss-defect-action-bv-source-reinspection-2026-08-05.md",
+        "explorations/conditional-build/k77-epsilon-gravitational-soldering-weld-2026-08-05.md",
+        "lab/sources/k77-epsilon-gravitational-soldering-weld-source-reinspection-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -100,11 +102,11 @@
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
       "source_return": "SOURCE-SILENT",
-      "current_evidence_boundary": "CURRENT_I1B_T0_SELECTED_SHIAB_VALUE_HESSIAN_CANNOT_OWN_PRE_SHIAB_RECEIVER__CONDITIONAL_FIXED_GRAVITATIONAL_SLOT_REPAIRED_ACTION_HAS_EXACT_NONNULL_4_20_20_4_EVEN_BV_COMPLEX_AND_QUOTIENT_RANK16__GLOBAL_SIGMA_EPSILON_SOLDERING_NONLINEAR_WELD_NULL_GREEN_DOMAIN_AND_PHYSICAL_COSMOLOGY_OPEN__VACUUM_SHIFT_TRACKED_NOT_SCREENED",
+      "current_evidence_boundary": "CURRENT_I1B_T0_SELECTED_SHIAB_VALUE_HESSIAN_CANNOT_OWN_PRE_SHIAB_RECEIVER__K77_SIGMA_EPSILON_FORMULA_HAS_EXACT_RANK10_ADJOINT_RIGHT_INVERSE_AND_ORTHOGONAL_PROJECTOR_CONDITIONAL_ON_GLOBAL_FULL_EPSILON_IG_REDUCTION__SAME_STRATUM_ACTION_WELD_EXACT__BULK_DEFECT_SUPPORT_NORMALIZATION_NONLINEAR_BV_NULL_GREEN_DOMAIN_AND_PHYSICAL_COSMOLOGY_OPEN__VACUUM_SHIFT_TRACKED_NOT_SCREENED",
       "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
       "release_condition_met": true,
-      "resolved_by": "explorations/conditional-build/pre-shiab-gauss-defect-action-bv-symbol-2026-08-05.md",
-      "next_gate": "CONSTRUCT_EPSILON_IG_GRAVITATIONAL_SOLDERING_MAP_AND_NONLINEAR_PRE_SHIAB_DEFECT_WELD"
+      "resolved_by": "explorations/conditional-build/k77-epsilon-gravitational-soldering-weld-2026-08-05.md",
+      "next_gate": "CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION__THEN_ASSEMBLE_NONLINEAR_EVEN_BV_AND_NULL_GREEN_DOMAIN"
     }
   ],
   "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE", "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]
