@@ -7,6 +7,19 @@ updated_at: "2026-07-30"
 
 # Explorations
 
+## K77 Wave 2 principal-Bianchi product selector (2026-08-05)
+
+[`k77-wave2-principal-bianchi-product-selector-2026-08-05.md`](k77-wave2-principal-bianchi-product-selector-2026-08-05.md)
+tests the displayed eight-row Shiab grammar on the complete rank-91
+algebraic-Riemann differential-Bianchi principal carrier for positive,
+negative and null covectors. Exact Python and an independent Sage rebuild
+select `comm/symi/symi` as the unique Bianchi-compatible nonzero row. It is
+`-2` times the ambient fourteen-dimensional Einstein contraction and kills
+Weyl. The selection is conditional on the displayed grammar, not full Shiab
+uniqueness. A two-connection curvature comparison square is built; the
+eddy-completed augmented-torsion chain and full Euler comparison remain open.
+Wave 3, physics and P1/P2/P3 remain closed/unused.
+
 ## K77 Wave 2 full-adjoint Shiab/Bianchi/two-connection target (2026-08-05)
 
 [`k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md`](k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md)

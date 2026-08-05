@@ -1777,3 +1777,31 @@ admission, or P1/P2/P3 status moves.
 - Preserve immediate source context. The unreleased two-connection mnemonic
   follows the fermion roll; using its curvature blocks does not create a full
   bosonic Euler-complex comparison.
+
+## Revision 40 (2026-08-05, test Bianchi on the right carrier and reject vacuous passes)
+
+Sources:
+`explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md`,
+`lab/sources/gu-shiab-derivation-principal-bianchi-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-principal-bianchi-product-selector.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-principal-bianchi-product-selector-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- A differential-Bianchi test on generic adjoint two-forms asks the wrong
+  question. Intersect first with algebraic Riemann pair symmetry and first
+  Bianchi; the complete principal carrier is the rank-91
+  `(k tensor k) KN Sym2` image.
+- Test every principal-covector orbit. Positive/negative axes do not cover the
+  null orbit in indefinite signature; exact null controls are mandatory.
+- A kernel condition needs a nonvacuity gate. Three product rows passed
+  Bianchi only by erasing the entire Riemann sector; zero is not a useful
+  selector success.
+- Count constraint independence before claiming surplus. Contracted Bianchi
+  and the Einstein trace ratio are linked, so the separately assembled
+  Einstein match corroborates the selector but is not another surplus row.
+- A finite discrete grammar can yield an exact conditional selector without
+  yielding full operator uniqueness. Preserve both statements.
+- Build comparison diagrams one carrier at a time. The two-connection
+  curvature square is now real; augmented torsion and full Euler comparison
+  remain the successor rather than being smuggled into the square's label.

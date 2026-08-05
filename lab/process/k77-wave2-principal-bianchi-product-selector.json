@@ -1,0 +1,78 @@
+{
+  "artifact": "K77_WAVE2_PRINCIPAL_BIANCHI_PRODUCT_SELECTOR",
+  "date": "2026-08-05",
+  "lane": "1",
+  "fork": "SIGNATURE_AMBIENT_7_7",
+  "gate_before": "K77_PRODUCT_SENSITIVE_MOVING_PHI_EPSILON_BIANCHI_CHAIN_MAP_AND_TYPED_TWO_CONNECTION_TO_EULER_COMPARISON_FUNCTOR",
+  "gate_after": "K77_EDDY_COMPLETED_AUGMENTED_TORSION_CHAIN_MAP_AND_FULL_EULER_COMPARISON_FUNCTOR",
+  "verdict": "DISPLAYED_EIGHT_ROW_PRODUCT_SELECTOR_CONDITIONALLY_RESOLVED__CURVATURE_COMPARISON_BUILT__FULL_FUNCTOR_OPEN",
+  "source_disposition": {
+    "derivation_and_bianchi_intent": "SOURCE_CONFIRMS",
+    "historical_selector": "SOURCE_CONFIRMS_MISSING",
+    "principal_symbol_criterion": "RECONSTRUCTION",
+    "selected_product_attribution": "NOT_ATTRIBUTED_TO_WEINSTEIN"
+  },
+  "layer0": {
+    "status": "PASS_WITH_EXPLICIT_FENCES",
+    "generic_adjoint_vs_riemann": "DISTINCT",
+    "algebraic_vs_differential_bianchi": "DISTINCT",
+    "principal_symbol_vs_global_chain": "DISTINCT",
+    "discrete_product_vs_full_shiab_uniqueness": "DISTINCT",
+    "ambient14_vs_observed4_gravity": "DISTINCT",
+    "curvature_square_vs_full_functor": "DISTINCT"
+  },
+  "search_space": {
+    "displayed_product_rows": 8,
+    "full_displayed_map_span": 5,
+    "fitted_continuous_parameters": 0,
+    "fixed_relative_coefficient": "-1/2",
+    "phi_bank": "SOURCE_LOW_PHI1_PHI2"
+  },
+  "principal_carrier": {
+    "covector_orbits": ["positive", "negative", "null"],
+    "jet_rank_per_orbit": 91,
+    "construction": "R=(k tensor k) Kulkarni-Nomizu S",
+    "input_symbol": "k wedge F=0"
+  },
+  "selector": {
+    "bianchi_passing_rows": 4,
+    "bianchi_defect_rank": 1,
+    "continuous_kernel_dimension": 4,
+    "unique_bianchi_nonzero_row": ["comm", "symi", "symi"],
+    "riemann_response": "-2_TIMES_AMBIENT14_EINSTEIN",
+    "weyl_response": 0,
+    "moving_epsilon_adds_selection": false,
+    "scope": "ONLY_THE_EIGHT_FIXED_DISPLAYED_PRODUCT_ASSIGNMENTS"
+  },
+  "two_connection_comparison": {
+    "input_relation": "DeltaF=D_B_T+T2",
+    "projection": "F_B+(1/2)DeltaF-(1/6)T2",
+    "path_average": "F_B+(1/2)D_B_T+(1/3)T2",
+    "curvature_square_commutes": true,
+    "postselected_shiab_square_commutes": true,
+    "full_euler_functor": "OPEN"
+  },
+  "checks": {
+    "main": "5 source + 22 type + 25 exact + 6 planted = 58 PASS",
+    "independent_sage": "PASS",
+    "predecessors": [
+      "K77_WAVE2_MOVING_SHIAB_EPSILON_WARD_GREEN_DOMAIN",
+      "K77_WAVE2_FULL_ADJOINT_SHIAB_BIANCHI_TWO_CONNECTION_TARGET"
+    ]
+  },
+  "held_open": [
+    "full_source_natural_shiab_uniqueness",
+    "eddy_completed_non_riemann_chain_map",
+    "augmented_torsion_euler_comparison",
+    "degree14_companion",
+    "fermion_complex_functor",
+    "global_domain",
+    "observed_physics",
+    "P1_P2_P3",
+    "Wave3"
+  ],
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3",
+  "third_lane_status": "NOT_PROMOTED",
+  "next_required_build": "K77_EDDY_COMPLETED_AUGMENTED_TORSION_CHAIN_MAP_AND_FULL_EULER_COMPARISON_FUNCTOR"
+}

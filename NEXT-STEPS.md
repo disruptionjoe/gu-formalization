@@ -7,6 +7,21 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 PRINCIPAL-BIANCHI PRODUCT SELECTOR.**
+> [`explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md`](explorations/k77-wave2-principal-bianchi-product-selector-2026-08-05.md)
+> constructs the complete rank-91 algebraic-Riemann differential-Bianchi
+> principal carrier on positive, negative and null `Spin(7,7)` covector
+> orbits. Four of the eight fixed displayed product assignments pass, but
+> three vanish on the entire Riemann sector. The unique nonzero survivor is
+> `comm/symi/symi`; it is exactly `-2` times the ambient fourteen-dimensional
+> Einstein contraction and kills Weyl. This conditionally resolves product
+> selection only inside the displayed eight-row grammar. Moving epsilon
+> transports the result without adding selection. The two-connection
+> curvature projection now forms an exact commuting square with the source
+> path average, but the augmented-torsion/full-Euler comparison remains open.
+> Next: `K77_EDDY_COMPLETED_AUGMENTED_TORSION_CHAIN_MAP_AND_FULL_EULER_COMPARISON_FUNCTOR`.
+> P1/P2/P3, Wave 3, global domain and all physics rows remain open/unmoved.
+
 > **2026-08-05 K77 WAVE-2 FULL-ADJOINT SHIAB / BIANCHI / TWO-CONNECTION TARGET.**
 > [`explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md`](explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md)
 > proves structurally that the three prior relations hold on the complete

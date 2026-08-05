@@ -1167,3 +1167,15 @@ syzygy, plus the independent two-connection reconstruction
 defect and requires selection rank zero to be scoped to the pre-Shiab target.
 The moving `Phi(epsilon)` chain map, typed fermion-to-boson Euler comparison,
 preferred Shiab, physical domain, Wave 3, physics and P1/P2/P3 remain open.
+
+## K77 Wave 2 principal-Bianchi product-selector scope gate
+
+`k77_wave2_principal_bianchi_product_selector_scope_audit.py` requires exact
+rank-91 algebraic-Riemann differential-Bianchi jet carriers for positive,
+negative and null covectors, four Bianchi-passing displayed rows, defect rank
+one, and `comm/symi/symi` as the unique nonzero Riemann survivor. It requires
+the exact `-2` ambient-Einstein response, zero Weyl response, moving-epsilon
+transport without added selection, and the commuting two-connection
+curvature comparison square. It forbids attribution to Weinstein's missing
+sheet, full source-natural Shiab uniqueness, an eddy-completed chain or full
+Euler functor, observed gravity, domain, physics, P1/P2/P3 or Wave-3 promotion.
