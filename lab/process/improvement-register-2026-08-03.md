@@ -1878,3 +1878,61 @@ admission, or P1/P2/P3 status moves.
 - Use modular arithmetic where it becomes a theorem: full column rank modulo
   a prime proves rational injectivity when the column count is the absolute
   upper bound.
+
+## Revision 43 (2026-08-05, source-locus verification and the scale-blindness pairing)
+
+Sources:
+`lab/sources/keating-interview-2025-06-12-source-record.md` and
+`explorations/conditional-build/cb-e-source-contact-rows-2026-08-05.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves. No external datum touched.
+
+- **NEW NAMED CHECK — `SRC-LOCUS` (locus verification, distinct from truth
+  verification).** A secondary pass attributed the UCSD seminar's own content
+  (`ε_ω`, three generations, Pati-Salam) to a later Keating interview. Every
+  attributed claim was genuinely Weinstein's, so no truth check could catch it;
+  what was wrong was the LOCUS. This is the second provenance-drift instance in
+  three days, with polarity reversed from the 2026-08-04 imposter-quote case
+  (source-absent content cited as primary). **Before citing any media claim,
+  verify the claim exists at the named locus, not merely that the speaker said
+  it somewhere.** Cheapest instrument: grep the in-repo transcript first — both
+  instances would have been caught in one command.
+- A uniqueness claim from a source is worth pairing with the repo's
+  scale-blindness results before it is filed as agreement or tension. Doing so
+  here QUANTIFIED it: the divergence-free demand is linear and homogeneous in
+  the candidate term, so its solution set is a linear subspace and can never be
+  a single nonzero point — it forces the ray (form) and cannot fix the point on
+  it (scale). DC-H2's congruence-orbit exclusion is the general version of the
+  same one-line argument. Corollary worth carrying: no strengthening of the
+  divergence-free demand will ever produce the DE magnitude, so the 120-orders
+  problem is a different TYPE of problem, not a harder version of this one.
+- When a source's claim looks like it threatens a repo result, check whether
+  the source refutes the threatening reading itself. Here the magnitude-included
+  reading is killed by Weinstein's own next sentence ("once it's constant, it
+  has no explanation", `papers/drafts/Transcript into the impossible.md:44`).
+  Cheaper and more durable than an adjudication that only cites the repo.
+- **Adverse row entered, not softened:** GU derives its DE divergence-freeness
+  FROM EQUIVARIANCE, which DC-H2 proved is a member of exactly the scale-blind
+  class. GU therefore inherits the residue it objects to in `Λ` — and on CB-D's
+  count, twice (two independent length-squareds) where GR had it once. The
+  genuine win in this sector is DYNAMISM, never magnitude; canon already scopes
+  it correctly at `canon/dark-energy-theta-divergence-free.md:96`.
+- **`VERIFIED_REPO_DISCONNECT`, reported not repaired (protected directory).**
+  `explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-2026-06-22.md:50-56`
+  displays the DE replacement as `(d_A π)` with `π` an ad-valued 1-form, then
+  asserts in the next sentence that the result "lives in ad-valued 1-forms" —
+  a one-degree self-contradiction, with `ε_ω` present in the prose and absent
+  from the formula. Canon has it right. Fence added to
+  `lab/process/agent-context-pack.md` Layer-0.
+- **Filing defects in `lab/sources/media-index.md` (canon; not edited).**
+  (a) Row `GU-MEDIA-2025-UCSD-SEMINAR` (`:65`) records the local transcript
+  path but **no source URL or video ID**, which is exactly what leaves
+  undecidable whether the 2025-06-12 upload is a separate video or a ~2h23m
+  superset whose first ~50 min are the seminar. (b) Row
+  `GU-POD-2025-KEATING-DESI-GU` (`:64`) should point at the new source record;
+  its cell must **stay** `metadata-checked`/`timestamp-needed` — the record
+  does not discharge it, because no timestamp was transmitted into this repo.
+  (c) The seminar transcript exists twice — `lab/literature/weinstein-ucsd-
+  2025-04-transcript.md` (with provenance front-matter) and `papers/drafts/
+  Transcript into the impossible.md` (without) — and nearly every exploration
+  cites the copy that carries no provenance.

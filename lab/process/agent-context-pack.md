@@ -13,6 +13,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 - Layer-0: every load-bearing shared term is typed SAME-OBJECT / HOMONYM /
   UNCERTAIN before use. Multiplicity ≠ count (five independent buttresses).
+  - **DE-replacement notation (HOMONYM, 2026-08-05).** Canon's dark-energy
+    object is `θ = π − ε⁻¹Bε ∈ Ω¹(Y, ad P)`, **degree 1**
+    (canon/dark-energy-theta-divergence-free.md:21). The shorthands
+    `ε_ω ∘ d_A` (DERIVATION-PROGRESS.md:84) and the displayed `(d_A π)`
+    (explorations/cycle-gates-and-audits/weinstein-ucsd-2025-04-analysis-
+    2026-06-22.md:52) name the SAME intended object but are **one form
+    degree off** and drop the `ε`. They reconcile only via τ⁺, where
+    `B = d_A(ε)ε⁻¹` so `θ = π − ε⁻¹d_Aε` — the gauge transformation is the
+    ARGUMENT of `d_A`, not a post-composition. **Never use the shorthand in a
+    degree-sensitive computation; cite canon's θ.** Source `θ_ω` is
+    SAME-OBJECT as canon's θ (formula matches at character level,
+    Transcript into the impossible.md:80 `[00:23:02]`). Detail:
+    explorations/conditional-build/cb-e-source-contact-rows-2026-08-05.md §2.
 - Verdict flips: agent-executable ONLY with a filed hostile field-specialist
   review (two-sided charge: overclaim AND over-fencing). External review is
   Joe-owned, optional, never blocks. POST: every hostile review emits the
