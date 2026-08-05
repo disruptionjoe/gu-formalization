@@ -1,0 +1,118 @@
+{
+  "named_gate": "K77_FULL_ADJOINT_SHIAB_CHANNEL_RELATION_EXTENSION_BIANCHI_COMPLEX_AND_INDEPENDENT_TWO_CONNECTION_TARGET",
+  "gate_status": "PARTIAL_WITH_FULL_ADJOINT_EXTENSION_AND_INDEPENDENT_PRE_SHIAB_TARGET",
+  "gate_after": "K77_PRODUCT_SENSITIVE_MOVING_PHI_EPSILON_BIANCHI_CHAIN_MAP_AND_TYPED_TWO_CONNECTION_TO_EULER_COMPARISON_FUNCTOR",
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE_AMBIENT",
+    "fork_horn": "K77",
+    "search_space_dim": "8_DISPLAYED_DISCRETE_PRODUCT_MAPS",
+    "free_object_delta": 0,
+    "residue_touched": [
+      {
+        "id": "K77-W2-BIANCHI-TWO-CONNECTION-TARGET",
+        "grade": "T4"
+      }
+    ],
+    "preregistered_kills": [
+      "REPRESENTATIVE_GRADES_DO_NOT_PROVE_FULL_ADJOINT",
+      "PRE_SHIAB_TARGET_CANNOT_SELF_SELECT_A_PRODUCT",
+      "ORDINARY_BIANCHI_CANNOT_ERASE_MIXED_TWO_CONNECTION_DEFECT",
+      "DIFFERENTIAL_VARIATIONAL_REDUNDANCY_NOETHER_BV_EXACTNESS_REMAIN_DISTINCT",
+      "UNRELEASED_FERMION_COMPLEX_IS_NOT_A_READY_BOSONIC_TARGET",
+      "P1_P2_P3_AND_PHYSICS_CANNOT_SELECT_THE_PRODUCT"
+    ]
+  },
+  "source_collision": {
+    "displayed_separable_shiab_formula": "SOURCE_CONFIRMS",
+    "historical_bianchi_selector": "SOURCE_CONFIRMS_MISSING",
+    "quadratic_eddy_completion": "SOURCE_CONFIRMS",
+    "one_half_one_third_coefficients": "SOURCE_CONFIRMS",
+    "two_connection_target_context": "SOURCE_CORRECTS_TO_UNRELEASED_FERMION_COMPLEX_COMPLETION_OR_RIVAL",
+    "moving_product_sensitive_chain_map": "SOURCE_SILENT",
+    "two_connection_to_euler_comparison_functor": "SOURCE_SILENT"
+  },
+  "layer0": {
+    "grade_one_relation_vs_full_operator_identity": "DISTINCT",
+    "algebraic_vs_differential_bianchi": "DISTINCT",
+    "differential_bianchi_vs_variational_exactness": "DISTINCT",
+    "xi_dupsilon_vs_noether_bv": "DISTINCT",
+    "shifted_square_vs_action_euler": "DISTINCT",
+    "independent_target_vs_candidate_derived_target": "DISTINCT",
+    "fermion_complex_vs_bosonic_euler_complex": "DISTINCT",
+    "ambient_target_vs_observed_physics": "DISTINCT"
+  },
+  "full_adjoint_channel_span": {
+    "displayed_product_maps": 8,
+    "decomposition_coordinates": 6,
+    "structural_formula": "S_f_i_o_EQUALS_A_f_PLUS_B_i_o",
+    "incidence_rank": 5,
+    "universal_relation_count": 3,
+    "complete_grade_one_lower_bound_rank": 5,
+    "full_operator_span_rank": 5,
+    "full_map_projective_classes": 8,
+    "corroborating_coefficient_grades": 15,
+    "all_grade_representative_relations_pass": true,
+    "scope": "EIGHT_DISPLAYED_EQUATION_9_3_PRODUCT_SUBSTITUTIONS_NOT_ALL_POSSIBLE_SHIABS"
+  },
+  "eddy_bianchi_complex": {
+    "carrier": "FREE_NONCOMMUTATIVE_DIFFERENTIAL_GRADED_ALGEBRA",
+    "path": "B_t_EQUALS_B_PLUS_tT",
+    "average_curvature": "F_B_PLUS_ONE_HALF_D_B_T_PLUS_ONE_THIRD_T_SQUARED",
+    "first_moment": "ONE_HALF_F_B_PLUS_ONE_THIRD_D_B_T_PLUS_ONE_FOURTH_T_SQUARED",
+    "identity": "D_B_AVERAGE_PLUS_BRACKET_T_FIRST_MOMENT_EQUALS_ZERO",
+    "ordinary_bianchi": true,
+    "eddy_live": true,
+    "coefficient_solution": ["1/2", "1/3"],
+    "coefficient_constraint_surplus": 0,
+    "global_moving_k77_chain_map": "OPEN"
+  },
+  "two_connection_target": {
+    "source_context": "UNRELEASED_FERMION_COMPLEX_COMPLETION_OR_RIVAL",
+    "northwest_block": "DELTA_F_EQUALS_D_B_T_PLUS_T_SQUARED",
+    "southwest_block": "T_EQUALS_A_MINUS_B",
+    "northeast_block": "MINUS_T_WEDGE_F_B_NONZERO",
+    "independent_pre_shiab_reconstruction": "F_B_PLUS_ONE_HALF_DELTA_F_MINUS_ONE_SIXTH_T_SQUARED",
+    "matches_path_average": true,
+    "uses_shiab_product": false,
+    "typed_full_comparison_functor": "OPEN"
+  },
+  "selection": {
+    "pre_shiab_constraint_matrix_shape": [0, 5],
+    "pre_shiab_selection_rank": 0,
+    "remaining_full_map_span_dimension": 5,
+    "historical_product_sensitive_bianchi_selector": "OPEN",
+    "next_required_operator": "D_OUT_COMPOSE_SHIAB_MINUS_SHIAB_COMPOSE_D_IN_WITH_MOVING_PHI_EPSILON"
+  },
+  "independent_sage": {
+    "incidence_rank": 5,
+    "relation_dimension": 3,
+    "path_average_reconstruction": "EXACT",
+    "mixed_two_connection_defect": "NONZERO"
+  },
+  "accounting": {
+    "fitted_selector_parameters": 0,
+    "selection_constraints_from_pre_shiab_bianchi": 0,
+    "selection_constraints_from_two_connection_target": 0,
+    "new_fields": 0,
+    "new_projectors": 0,
+    "new_data": 0,
+    "free_object_delta": 0,
+    "p1_p2_p3_used": false,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {
+    "source": 6,
+    "type": 25,
+    "exact": 21,
+    "planted": 9,
+    "total": 61,
+    "failures": 0
+  },
+  "next_required_build": "K77_PRODUCT_SENSITIVE_MOVING_PHI_EPSILON_BIANCHI_CHAIN_MAP_AND_TYPED_TWO_CONNECTION_TO_EULER_COMPARISON_FUNCTOR",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

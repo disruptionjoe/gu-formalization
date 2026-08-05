@@ -7,6 +7,20 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 FULL-ADJOINT SHIAB / BIANCHI / TWO-CONNECTION TARGET.**
+> [`explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md`](explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md)
+> proves structurally that the three prior relations hold on the complete
+> adjoint carrier for all eight displayed product maps. Their full operator
+> span is exactly five and the eight maps remain pairwise nonproportional. It
+> constructs the quadratic-eddy connection-path average and exact
+> first-moment Bianchi syzygy, then independently reconstructs the same
+> pre-Shiab target from the shifted two-connection curvature-difference and
+> torsion blocks. These input-side constraints have product-selection rank
+> zero; the unreleased two-connection object remains fermion-context guidance,
+> not a published bosonic target. Next:
+> `K77_PRODUCT_SENSITIVE_MOVING_PHI_EPSILON_BIANCHI_CHAIN_MAP_AND_TYPED_TWO_CONNECTION_TO_EULER_COMPARISON_FUNCTOR`.
+> P1/P2/P3, Wave 3, physical domain and all physics rows remain open/unmoved.
+
 > **2026-08-05 K77 WAVE-2 ACTION POLARIZATION / COMMON OBSERVATION DOMAIN.**
 > [`explorations/k77-wave2-action-polarization-common-observation-domain-2026-08-05.md`](explorations/k77-wave2-action-polarization-common-observation-domain-2026-08-05.md)
 > proves that the proposed action/Helmholtz selector has rank zero: all eight

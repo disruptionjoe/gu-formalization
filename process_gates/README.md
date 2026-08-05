@@ -1155,3 +1155,15 @@ section as an interior trace rather than a Green boundary, and leaves closed
 `L2`/Krein/hyperbolic/BFV domains open. The independent Sage free-product
 rank-eight result is fenced from the represented K77 rank-five block.
 P1/P2/P3, physics, Wave 3 and `TG-1 AND TG-2 AND TG-3` remain unchanged.
+
+## K77 Wave 2 full-adjoint Shiab / Bianchi / two-connection target scope gate
+
+`k77_wave2_full_adjoint_shiab_bianchi_two_connection_target_scope_audit.py`
+requires the structural `S_(f,i,o)=A_f+B_(i,o)` proof, exact full displayed
+map span five, three universal relations and eight projective classes. It
+requires the free-DGA quadratic-eddy path average and first-moment Bianchi
+syzygy, plus the independent two-connection reconstruction
+`F_B+(1/2)DeltaF-(1/6)T^2`. It retains the nonzero mixed `-T wedge F_B`
+defect and requires selection rank zero to be scoped to the pre-Shiab target.
+The moving `Phi(epsilon)` chain map, typed fermion-to-boson Euler comparison,
+preferred Shiab, physical domain, Wave 3, physics and P1/P2/P3 remain open.

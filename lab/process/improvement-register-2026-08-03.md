@@ -1748,3 +1748,32 @@ admission, or P1/P2/P3 status moves.
 - When self-consistency conditions are shared by the entire candidate family,
   stop polishing them as selectors. Move to an independently constructed
   Bianchi/exactness or two-connection target.
+
+## Revision 39 (2026-08-05, factor before enumerating and type independent targets)
+
+Sources:
+`explorations/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md`,
+`lab/sources/gu-shiab-bianchi-two-connection-target-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-full-adjoint-shiab-bianchi-two-connection-target.json`,
+and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-full-adjoint-bianchi-target-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Before enumerating a huge carrier, factor the displayed operator formula.
+  The exact separation `S_(f,i,o)=A_f+B_(i,o)` plus one complete restriction
+  lower bound proved the full eight-map rank in seconds and superseded a
+  `91 x 16384 x 8` census.
+- Representative tests may corroborate a structural theorem but must not own
+  it. The fifteen grade representatives are plants; incidence plus the
+  complete grade-one lower bound is the proof.
+- Build an independent target before applying the candidate map. The
+  connection-path average reconstructed from `(F_B,Delta F,T)` is genuinely
+  pre-Shiab and therefore cannot reward a product for matching itself.
+- Distinguish input-side Bianchi closure from a product-sensitive chain-map
+  law. A pre-Shiab identity has selection rank zero by type; selection can
+  enter only through `D_out S-S D_in` or another independently typed codomain
+  constraint.
+- Preserve immediate source context. The unreleased two-connection mnemonic
+  follows the fermion roll; using its curvature blocks does not create a full
+  bosonic Euler-complex comparison.

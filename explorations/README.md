@@ -7,6 +7,19 @@ updated_at: "2026-07-30"
 
 # Explorations
 
+## K77 Wave 2 full-adjoint Shiab/Bianchi/two-connection target (2026-08-05)
+
+[`k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md`](k77-wave2-full-adjoint-shiab-bianchi-two-connection-target-2026-08-05.md)
+uses the displayed formula's exact separation `S_(f,i,o)=A_f+B_(i,o)` and
+the predecessor's complete grade-one lower bound to prove the eight full
+displayed K77 maps span exactly five directions with three universal
+relations. It builds the quadratic-eddy path-average curvature and exact
+first-moment Bianchi syzygy, then reconstructs the same pre-Shiab target from
+the shifted two-connection square. The target is independent but
+channel-blind; product selection rank remains zero until the moving
+`Phi(epsilon)` chain-map defect and a typed two-connection-to-Euler comparison
+functor are constructed. Wave 3, physics and P1/P2/P3 remain closed/unused.
+
 ## K77 Wave 2 action polarization and common observation domain (2026-08-05)
 
 [`k77-wave2-action-polarization-common-observation-domain-2026-08-05.md`](k77-wave2-action-polarization-common-observation-domain-2026-08-05.md)
