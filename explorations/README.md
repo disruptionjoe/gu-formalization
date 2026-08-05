@@ -893,3 +893,17 @@ finite first-variation and Helmholtz controls. The naive IG diagonal shell
 moving K77 bosonic Euler primalizer, action-shell pair lift, Ward/Bianchi
 closure, domain, observation and physics remain open; Wave 3 and P1/P2/P3
 remain closed.
+
+# K77 Wave 2 Euler-shell two-connection lift (2026-08-04)
+
+[`k77-wave2-euler-shell-two-connection-lift-2026-08-04.md`](k77-wave2-euler-shell-two-connection-lift-2026-08-04.md)
+constructs the action-owned dependent pair
+`A_E=B+sharp_conn(E_T^{B,act})` using the existing K77
+metric-density/invariant-adjoint pseudo-musical. The restricted natural-map
+space is one-dimensional and action-normalized. A complete exact
+noncommutative square retains the mixed off-shell defect and proves
+translation-Euler-shell iff nilpotence on a faithful coefficient module. The
+pair identification remains source-silent, and full stationarity, local/global
+Ward/BV descent, domain, observation and physics remain open; Wave 3 and
+P1/P2/P3 remain closed. Next gate:
+`K77_EULER_LIFT_FULL_FIELD_WARD_DOMAIN_OBSERVATION_PORT`.

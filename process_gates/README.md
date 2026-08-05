@@ -78,6 +78,7 @@ selected notes below and in each script header.
 - `k77_wave2_actual_draft916_blockwise_scope_audit.py`
 - `k77_wave2_common_two_layer_action_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`
+- `k77_wave2_euler_shell_two_connection_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
 - `k77_wave2_mixed_primalizer_comparison_scope_audit.py`
 - `k77_wave2_two_connection_action_owner_scope_audit.py`
@@ -1022,6 +1023,17 @@ versus action-shell mismatch. It forbids identifying `I1B` with the unreleased
 2025 operator, keeps the actual moving K77 Shiab and bosonic Euler primalizer
 open, requires zero transgression surplus and trace-`q` surplus `-1`, and keeps
 P1/P2/P3 unused and Wave 3 closed.
+
+## K77 Wave 2 Euler-shell dependent-pair scope gate
+
+`k77_wave2_euler_shell_two_connection_scope_audit.py` requires the existing
+indefinite K77 density/adjoint pseudo-musical, dimension-one restricted
+natural-map class, actual rather than advertised Euler owner, and dependent
+pair `A_E=B+sharp_conn(E_T^{B,act})`. It requires the complete square with
+both off-shell defects and the bidirectional shell theorem only on a faithful
+coefficient module. It enforces source silence, zero surplus,
+`free_object_delta=-1`, full-field Ward/domain/observation debt, P1/P2/P3
+non-use, and closed Wave 3.
 
 ## Wave disposition schema gate
 

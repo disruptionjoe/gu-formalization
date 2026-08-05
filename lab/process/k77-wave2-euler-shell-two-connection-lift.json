@@ -1,0 +1,106 @@
+{
+  "artifact": "K77_WAVE2_EULER_SHELL_TWO_CONNECTION_LIFT",
+  "version": "2026-08-04",
+  "lane": "1",
+  "named_gate": "K77_BOSONIC_EULER_PRIMALIZER_AND_ACTION_SHELL_TWO_CONNECTION_LIFT",
+  "gate_status": "PARTIAL_WITH_NAMED_MOVEMENT",
+  "source_collision": {
+    "toe_four_blocks_and_onshell_complex": "SOURCE_CONFIRMS",
+    "toe_full_construction": "SOURCE_UNRELEASED",
+    "ig_biconnection_difference": "SOURCE_CONFIRMS",
+    "draft_euler_degrees": "SOURCE_CONFIRMS",
+    "advertised_vs_actual_noncyclic_euler": "REPO_CORRECTS_USE_ACTUAL",
+    "euler_primalized_pair_identification": "SOURCE_SILENT_CONDITIONAL"
+  },
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE-AMBIENT",
+    "fork_horn": "K77",
+    "other_horn_cost": "K95_CARRIER_ALGEBRA_AND_TRANSITION_REPORT_REQUIRED",
+    "search_space_dim": 1,
+    "search_space_scope": "ORDER_ZERO_METRIC_DENSITY_TIMES_INVARIANT_ADJOINT_PAIRING",
+    "free_object_delta": -1,
+    "residue_touched": [
+      {"id": "K77-W2-ACTION-SHELL", "grade": "T3"}
+    ]
+  },
+  "layer0": {
+    "advertised_upsilon_vs_actual_euler": "DISTINCT",
+    "euler_covector_vs_primal_one_form": "DISTINCT",
+    "ig_augmented_torsion_vs_euler_pair_difference": "DISTINCT",
+    "translation_shell_vs_full_stationarity": "DISTINCT",
+    "algebraic_complex_vs_closed_domain": "DISTINCT",
+    "faithful_module_vs_physical_quotient": "DISTINCT"
+  },
+  "primalizer": {
+    "formula": "SHARP_CONN_EQUALS_STAR_G77_INVERSE_COMPOSE_KAPPA_G_SHARP",
+    "domain": "OMEGA13_ADSTAR_DENSITY",
+    "codomain": "OMEGA1_AD",
+    "associated_bundle_density_grade": "BUILT",
+    "indefinite": true,
+    "inverse_exact": true,
+    "moving_inverse_identity_exact": true,
+    "orientation_datum_required": false,
+    "positive_riesz": false,
+    "closed_analytic_domain": false
+  },
+  "pair_lift": {
+    "euler_owner": "E_T_B_ACTUAL_SYMMETRIZED_DERIVATIVE",
+    "tau_E": "SHARP_CONN_E_T_B_ACTUAL",
+    "A_E": "B_PLUS_TAU_E",
+    "dependent_not_free": true,
+    "source_identified": false,
+    "source_grade": "SOURCE_COMPATIBLE_CONDITIONAL"
+  },
+  "square": {
+    "northwest": "F_OF_B_PLUS_TAU_E_MINUS_F_B",
+    "northeast": "MINUS_RHO_TAU_E_F_B",
+    "southwest": "RHO_TAU_E",
+    "southeast": "ZERO",
+    "off_shell_southwest_live": true,
+    "off_shell_northeast_live": true,
+    "translation_shell_implies_nilpotence": true,
+    "nilpotence_implies_translation_shell": "TRUE_IF_COEFFICIENT_ACTION_FAITHFUL_OR_ADJOINT_CENTERLESS",
+    "exact_fixture_module": "FAITHFUL_LEFT_REGULAR",
+    "full_action_stationarity_equivalence": false
+  },
+  "naturality": {
+    "coadjoint_to_adjoint": "CONDITIONAL_ON_ACTION_WARD",
+    "homogeneous_transition_exact": true,
+    "shared_inhomogeneous_term_cancels_exact": true,
+    "curvature_homogeneous_transport_exact": true,
+    "full_moving_local_gauge_descent": false,
+    "even_ward_owner": "K77_WAVE2_ACTION_CURRENT_RIESZ_SUPERIG_WARD_RENDEZVOUS"
+  },
+  "accounting": {
+    "natural_map_parameters": 1,
+    "duality_constraints": 1,
+    "constraint_surplus": 0,
+    "new_free_coefficients": 0,
+    "free_object_delta": -1
+  },
+  "probe_receipt": {
+    "source": 8,
+    "type": 30,
+    "exact": 29,
+    "planted": 9,
+    "total": 76,
+    "failures": 0
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIRS__PARTIAL_NAMED_GATE_MOVEMENT",
+  "held_open": [
+    "TOE_COEFFICIENT_MODULE_IDENTIFICATION_AND_FAITHFULNESS",
+    "FULL_ACTION_STATIONARITY",
+    "FULL_MOVING_LOCAL_GAUGE_WARD_BV_AND_PREBOUNDARY",
+    "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
+    "OBSERVATION_DESCENT_AND_NO_LEAKAGE",
+    "LOCAL_AND_GLOBAL_PHYSICS_RECOVERY"
+  ],
+  "next_required_build": "K77_EULER_LIFT_FULL_FIELD_WARD_DOMAIN_OBSERVATION_PORT",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

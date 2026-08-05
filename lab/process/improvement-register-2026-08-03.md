@@ -1491,3 +1491,34 @@ files are the active campaign's and moving them mid-run risks breaking its
 own references — flagged for the campaign owner. The gate remains in the
 CI skip list, so this does not break CI; it does mean the surface map is
 not a trustworthy inventory until (2) is chosen.
+
+---
+
+## Revision 31 (2026-08-04, action-shell lift needs a faithful carrier)
+
+Sources:
+`explorations/k77-wave2-euler-shell-two-connection-lift-2026-08-04.md`,
+`lab/sources/gu-euler-shell-two-connection-source-reinspection-2026-08-04.md`,
+`lab/process/k77-wave2-euler-shell-two-connection-lift.json`, and
+`lab/process/hostile-reviews/2026-08-04-k77-wave2-euler-shell-two-connection-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Before testing candidate primalizers, compute the whole natural-map space.
+  Scope the dimension to the tensors actually allowed; extra active epsilon,
+  Shiab or derivative owners define a larger problem.
+- An action Euler density can own a connection difference without introducing
+  a new free field: apply the action's own indefinite density/adjoint
+  pseudo-musical and mark the resulting connection dependent.
+- Use the actual derivative of the written action. A source-advertised endpoint
+  that fails Helmholtz on the full domain cannot be substituted into the lift.
+- In a two-connection square the southwest block is the cheapest converse
+  detector, but only on a faithful coefficient module (or centerless adjoint
+  carrier). Carry faithfulness through every later quotient.
+- Do not erase a mixed northeast defect. Make it proportional to the actual
+  Euler residual and verify that it is live off shell and zero on shell.
+- Shared inhomogeneous-term cancellation proves the difference has the right
+  affine typing; it is not the complete moving local-gauge Ward theorem.
+- A dependent shell equivalence has zero selection surplus. Its value is that
+  it makes the construction coherent and retires an unowned debt, not that it
+  already predicts physics.

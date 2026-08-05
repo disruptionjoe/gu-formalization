@@ -7,6 +7,20 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-04 K77 WAVE-2 EULER-SHELL TWO-CONNECTION LIFT.**
+> [`explorations/k77-wave2-euler-shell-two-connection-lift-2026-08-04.md`](explorations/k77-wave2-euler-shell-two-connection-lift-2026-08-04.md)
+> ports the existing indefinite density/adjoint pseudo-musical to the active
+> K77 bosonic translation row and defines the dependent pair
+> `A_E=B+sharp_conn(E_T^{B,act})`. The relevant pairing-generated natural-map
+> space has dimension one and the action fixes its scale. An exact
+> noncommutative square keeps both off-shell defects and proves that the
+> shifted operator is nilpotent iff this translation Euler row vanishes on a
+> faithful coefficient module. The identification is source-compatible but
+> source-silent; full stationarity, local/global Ward/BV descent, a common
+> analytic domain, observation and physics remain open. P1/P2/P3 remain
+> unused and Wave 3 stays closed. Next gate:
+> `K77_EULER_LIFT_FULL_FIELD_WARD_DOMAIN_OBSERVATION_PORT`.
+
 > **2026-08-04 K77 WAVE-2 SHIFTED TWO-CONNECTION / ACTION-SHELL
 > DISPOSITION.**
 > [`explorations/k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md`](explorations/k77-wave2-two-connection-shifted-superconnection-action-owner-2026-08-04.md)
