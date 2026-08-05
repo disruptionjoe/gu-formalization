@@ -1715,3 +1715,36 @@ admission, or P1/P2/P3 status moves.
 - After a partial gate, name the narrower successor: action-derived product
   discrimination plus a global coupled domain, not another generic request for
   a source action or external datum.
+
+## Revision 38 (2026-08-05, variational consistency and common regularity are not selectors)
+
+Sources:
+`explorations/k77-wave2-action-polarization-common-observation-domain-2026-08-05.md`,
+`lab/sources/gu-action-polarization-domain-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-action-polarization-common-observation-domain.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-action-polarization-common-observation-domain-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Polarize the scalar action before comparing it with a separately printed
+  endpoint. Helmholtz symmetry certifies each action-derived Euler pair; when
+  every family member is defined by a scalar action, its selection rank is
+  zero.
+- Compute both projective classes and linear span. Eight pairwise
+  nonproportional grade-one restrictions can still span five directions and
+  obey three exact relations.
+- State the coefficient grade on every rank or relation. A complete
+  `91 x 14` grade-one bank is not the full adjoint carrier.
+- Use an independent exact engine at a genuinely different layer. Sage proves
+  the free threefold product transform has rank eight and determinant 4096;
+  the represented K77 grade-one rank-five collapse is therefore a
+  Clifford/Hodge restriction effect, not a malformed product encoding.
+- A common Sobolev regularity scale is useful construction infrastructure but
+  supplies no boundary selection. Channel-dependent principal coefficients
+  may change Green forms while preserving `H10 -> H9` mapping regularity.
+- Run dimension Layer 0 before calling observation a boundary: `X4` has
+  codimension ten in `Y14`, while an ordinary Green boundary has codimension
+  one. A defect/current/interface owner is required to connect them.
+- When self-consistency conditions are shared by the entire candidate family,
+  stop polishing them as selectors. Move to an independently constructed
+  Bianchi/exactness or two-connection target.

@@ -7,6 +7,21 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 ACTION POLARIZATION / COMMON OBSERVATION DOMAIN.**
+> [`explorations/k77-wave2-action-polarization-common-observation-domain-2026-08-05.md`](explorations/k77-wave2-action-polarization-common-observation-domain-2026-08-05.md)
+> proves that the proposed action/Helmholtz selector has rank zero: all eight
+> displayed product choices define exact scalar-action Euler pairs with
+> symmetric polarization. On the complete `91 x 14` grade-one coefficient
+> block the eight restrictions remain pairwise nonproportional but span only
+> five directions, with three exact Clifford/Hodge relations. Under explicit
+> bounded-geometry hypotheses they share a conditional `H10 -> H9`
+> associated-bundle observation scale. The codimension-ten observation section
+> is an interior trace locus, not a Green boundary absent a defect/interface
+> owner. Full-adjoint relation extension, the missing Bianchi/exactness target,
+> independent two-connection target, arbitrary-`Y14` closed physical domain,
+> physics and P1/P2/P3 remain open; Wave 3 stays closed. Next:
+> `K77_FULL_ADJOINT_SHIAB_CHANNEL_RELATION_EXTENSION_BIANCHI_COMPLEX_AND_INDEPENDENT_TWO_CONNECTION_TARGET`.
+
 > **2026-08-05 K77 WAVE-2 MOVING SHIAB / EPSILON WARD / GREEN DOMAIN.**
 > [`explorations/k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md`](explorations/k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md)
 > exhausts all eight commutator/`i`-anticommutator channels of the displayed

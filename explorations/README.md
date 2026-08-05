@@ -7,6 +7,20 @@ updated_at: "2026-07-30"
 
 # Explorations
 
+## K77 Wave 2 action polarization and common observation domain (2026-08-05)
+
+[`k77-wave2-action-polarization-common-observation-domain-2026-08-05.md`](k77-wave2-action-polarization-common-observation-domain-2026-08-05.md)
+finds that all eight source-permitted product choices are exact scalar-action
+Euler/Helmholtz systems, so action variationality has product-selection rank
+zero. Their complete grade-one restrictions are pairwise nonproportional but
+span five directions and obey three exact relations. A conditional
+bounded-geometry `H10 -> H9` associated-bundle observation scale is common to
+all channels, while the codimension-ten section is not an ordinary Green
+boundary. Full-adjoint relation extension, the source-guided Bianchi/exactness
+complex, independent two-connection target and physical closed domain remain
+open. Wave 3 and P1/P2/P3 remain closed/unused. Next gate:
+`K77_FULL_ADJOINT_SHIAB_CHANNEL_RELATION_EXTENSION_BIANCHI_COMPLEX_AND_INDEPENDENT_TWO_CONNECTION_TARGET`.
+
 Speculative, redirected, or under-proved research branches -- the research lab, not the project canon. Read
 these for the full working record; the durable, reviewed results live in `canon/` and the papers under
 `papers/published/`.

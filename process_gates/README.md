@@ -75,6 +75,7 @@ selected notes below and in each script header.
 - `issue_template_validation_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
+- `k77_wave2_action_polarization_common_observation_domain_scope_audit.py`
 - `k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit.py`
 - `k77_wave2_full_source_action_defect_localization_scope_audit.py`
 - `k77_wave2_actual_y14_receiver_ordering_scope_audit.py`
@@ -1139,3 +1140,18 @@ turning epsilon orbit transport into a selector, bundling metric/Hodge/density
 or section motion into the primitive epsilon row, or promoting compact-core
 Dirichlet closure to a global physical domain. P1/P2/P3, physics, Wave 3 and
 the `TG-1 AND TG-2 AND TG-3` conjunction remain unchanged.
+
+## K77 Wave 2 action-polarization / common-observation-domain scope gate
+
+`k77_wave2_action_polarization_common_observation_domain_scope_audit.py`
+requires the complete `91 x 14` grade-one channel block, eight pairwise
+nonproportional restrictions, span rank five, and three exact restricted
+Clifford/Hodge relations while forbidding promotion to a full-adjoint rank
+theorem. It requires all eight frozen action polarizations to satisfy the
+Euler/Helmholtz check with selection rank zero, and it keeps the printed
+endpoint distinct. It accepts only a conditional bounded-geometry
+`H10 -> H9` associated-bundle observation scale, types the codimension-ten
+section as an interior trace rather than a Green boundary, and leaves closed
+`L2`/Krein/hyperbolic/BFV domains open. The independent Sage free-product
+rank-eight result is fenced from the represented K77 rank-five block.
+P1/P2/P3, physics, Wave 3 and `TG-1 AND TG-2 AND TG-3` remain unchanged.

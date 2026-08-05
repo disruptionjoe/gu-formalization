@@ -1,0 +1,103 @@
+{
+  "artifact": "K77_WAVE2_ACTION_POLARIZATION_COMMON_OBSERVATION_DOMAIN",
+  "version": "2026-08-05",
+  "lane": "1",
+  "named_gate": "K77_ACTION_DERIVED_POLARIZED_EULER_SHIAB_PRODUCT_SELECTOR_AND_GLOBAL_COUPLED_KREIN_GREEN_OBSERVATION_DOMAIN",
+  "gate_status": "PARTIAL_WITH_EXACT_HELMHOLTZ_NONSELECTION_AND_CONDITIONAL_COMMON_OBSERVATION_SCALE",
+  "gate_after": "K77_FULL_ADJOINT_SHIAB_CHANNEL_RELATION_EXTENSION_BIANCHI_COMPLEX_AND_INDEPENDENT_TWO_CONNECTION_TARGET",
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE_AMBIENT",
+    "fork_horn": "K77",
+    "search_space_dim": "8_DISCRETE_SOURCE_CHANNELS_ZERO_FITTED_PARAMETERS",
+    "free_object_delta": 0,
+    "residue_touched": [{"id": "K77-W2-ACTION-POLARIZATION-DOMAIN", "grade": "T4"}],
+    "preregistered_kills": [
+      "HELMHOLTZ_SYMMETRY_PROMOTED_TO_PRODUCT_SELECTOR",
+      "GRADE_ONE_SPAN_PROMOTED_TO_FULL_ADJOINT_THEOREM",
+      "PRINTED_ENDPOINT_SUBSTITUTED_FOR_ACTION_EULER",
+      "CONDITIONAL_SOBOLEV_SCALE_PROMOTED_TO_CLOSED_L2_DOMAIN",
+      "OBSERVATION_SECTION_MISTYPED_AS_GREEN_BOUNDARY",
+      "DATUM_OR_PHYSICS_TARGET_USED_AS_SELECTOR"
+    ]
+  },
+  "source_collision": {
+    "shiab_inside_bosonic_action": "SOURCE_CONFIRMS",
+    "preferred_historical_bianchi_selector": "SOURCE_CONFIRMS_MISSING",
+    "multiple_time_ambient_domain": "SOURCE_IDENTIFIES_TECHNICAL_DEBT",
+    "global_physical_domain": "SOURCE_SILENT"
+  },
+  "layer0": {
+    "printed_endpoint_vs_action_euler_pair": "DISTINCT",
+    "helmholtz_integrability_vs_product_selection": "DISTINCT",
+    "grade_one_map_span_vs_full_adjoint_span": "DISTINCT",
+    "sobolev_scale_vs_closed_l2_realization": "DISTINCT",
+    "codimension_ten_observation_vs_green_boundary": "DISTINCT",
+    "formal_green_flux_vs_physical_domain": "DISTINCT"
+  },
+  "grade_one_channel_block": {
+    "input_dimension": 1274,
+    "formal_labels": 8,
+    "nonzero_restrictions": 8,
+    "projective_restriction_classes": 8,
+    "linear_span_rank": 5,
+    "relation_count": 3,
+    "full_grade_one_ranks": [1190, 1190, 1190, 1190, 14, 14, 374, 374],
+    "relations": [
+      "S_CCC_MINUS_S_CCA_MINUS_S_ACC_PLUS_S_ACA_EQUALS_ZERO",
+      "S_CCC_MINUS_S_CAC_MINUS_S_ACC_PLUS_S_AAC_EQUALS_ZERO",
+      "S_CCC_MINUS_S_CAA_MINUS_S_ACC_PLUS_S_AAA_EQUALS_ZERO"
+    ],
+    "full_adjoint_span": "OPEN"
+  },
+  "action_polarization": {
+    "frozen_bilinear_block": "A_C_T_P_EQUALS_PAIR_T_S_C_P",
+    "all_eight_direct_derivatives_exact": true,
+    "all_eight_polarized_hessians_symmetric": true,
+    "helmholtz_selection_rank": 0,
+    "channel_euler_row": false,
+    "moving_full_action_expansion": "OPEN_BUT_STRUCTURALLY_HELMHOLTZ_AS_ONE_SCALAR_ACTION"
+  },
+  "common_domain": {
+    "grade": "CONDITIONAL_GLOBAL_BOUNDED_GEOMETRY_SOBOLEV_OBSERVATION_SCALE",
+    "field_domain": "H10_Y",
+    "euler_codomain": "H9_Y",
+    "field_value_trace": "H5_X",
+    "field_first_jet_trace": "H4_X",
+    "euler_value_trace": "H4_X",
+    "channels_sharing_scale": 8,
+    "observation_is_green_boundary": false,
+    "actual_boundary_dimension": 13,
+    "observation_dimension": 4,
+    "arbitrary_y14_global_hypotheses": "OPEN",
+    "closed_l2_realization": "OPEN",
+    "krein_self_adjoint_extension": "OPEN",
+    "hyperbolic_maximal_dissipative": "OPEN",
+    "physical_bfv_phase_space": "OPEN"
+  },
+  "independent_sage": {
+    "free_product_transform_rank": 8,
+    "determinant": 4096,
+    "planted_duplicate_rank": 7,
+    "scope": "FORMAL_PRODUCT_BASIS_NOT_FULL_K77_MAP"
+  },
+  "accounting": {
+    "fitted_selector_parameters": 0,
+    "selection_constraints_from_action": 0,
+    "selection_constraints_from_common_domain": 0,
+    "new_fields": 0,
+    "new_projectors": 0,
+    "new_data": 0,
+    "free_object_delta": 0,
+    "p1_p2_p3_used": false,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {"source": 7, "type": 18, "exact": 30, "planted": 8, "total": 63, "failures": 0},
+  "hostile_review": "PASS_WITH_SCOPE_REPAIR",
+  "next_required_build": "K77_FULL_ADJOINT_SHIAB_CHANNEL_RELATION_EXTENSION_BIANCHI_COMPLEX_AND_INDEPENDENT_TWO_CONNECTION_TARGET",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}
