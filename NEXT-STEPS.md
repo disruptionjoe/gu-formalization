@@ -7,6 +7,21 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 ACTUAL-Y14 RECEIVER ORDERING.**
+> [`explorations/k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md`](explorations/k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md)
+> fixes the form-degree order hidden by the preceding abstract receiver.
+> Literal pullback of the ambient 13-form Euler residual to `X4` is zero.
+> Primalizing it to an upstairs one-form first gives a nontrivial section
+> receiver, but exact local K77 `Met(X)` geometry proves it has rank four and
+> a complete rank-ten conormal kernel. The trace-reversed metric supplies a
+> horizontal right inverse, while the actual action-image horizontality
+> condition remains unproved. Hostile review restored the prior moving-defect
+> variation as a third route: reduce/localize the action by a genuine
+> codimension-ten density/current and vary on `X`, rather than literally
+> pulling back a top form. P1/P2/P3 remain unused and Wave 3 stays closed.
+> Next gate:
+> `K77_ACTION_DERIVED_HORIZONTAL_EULER_IMAGE_OR_DEFECT_VARIATIONAL_RECEIVER`.
+
 > **2026-08-05 K77 WAVE-2 EULER-LIFT OBSERVATION RECEIVER.**
 > [`explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md`](explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md)
 > computes the complete observation detector

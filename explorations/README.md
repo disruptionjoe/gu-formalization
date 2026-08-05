@@ -921,3 +921,19 @@ naturality, finite invariant-image and preboundary-quotient checks pass at
 their stated grades, while the actual `Y14` receiver, odd BV differential and
 common closed domain remain open. Wave 3 and P1/P2/P3 remain closed. Next gate:
 `K77_ACTUAL_Y14_EULER_RECEIVER_FAITHFUL_MODULE_AND_COMMON_GREEN_DOMAIN`.
+
+# K77 Wave 2 actual-Y14 receiver ordering and conormal obstruction (2026-08-05)
+
+[`k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md`](k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md)
+instantiates the observation map on an exact local `Y=Met(X)` graph with the
+mostly-minus horizontal metric and trace-reversed Frobenius fibre, giving
+total inertia `(7,7)`. Direct pullback of the density-dual 13-form Euler row
+to `X4` is identically zero. Primalize-then-restrict has rank four and a
+complete rank-ten conormal kernel. A metric horizontal right inverse and an
+algebraically faithful tangent-plus-normal decoder are exact, but neither
+proves the actual source-action Euler image horizontal or supplies physical
+normal equations. Hostile review restores honest defect/induced-density action
+reduction as a third live route and flags literal top-form section pullback as
+dimensionally invalid notation. Common Green/BV domain, physics, Wave 3 and
+P1/P2/P3 remain open. Next gate:
+`K77_ACTION_DERIVED_HORIZONTAL_EULER_IMAGE_OR_DEFECT_VARIATIONAL_RECEIVER`.

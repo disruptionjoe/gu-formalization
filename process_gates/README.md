@@ -75,6 +75,7 @@ selected notes below and in each script header.
 - `issue_template_validation_audit.py`
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
+- `k77_wave2_actual_y14_receiver_ordering_scope_audit.py`
 - `k77_wave2_actual_draft916_blockwise_scope_audit.py`
 - `k77_wave2_common_two_layer_action_scope_audit.py`
 - `k77_wave2_dirac_derham_superig_rebase_scope_audit.py`

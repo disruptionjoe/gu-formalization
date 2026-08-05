@@ -1552,3 +1552,38 @@ admission, or P1/P2/P3 status moves.
   differential and boundary conditions.
 - Reuse existing observation machinery. The remaining debt is the actual K77
   Euler receiver and common domain, not a generic proof that descent can exist.
+
+---
+
+## Revision 33 (2026-08-05, form degree precedes observation rank)
+
+Sources:
+`explorations/k77-wave2-actual-y14-receiver-ordering-conormal-2026-08-05.md`,
+`lab/sources/gu-actual-y14-receiver-ordering-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-actual-y14-receiver-ordering-conormal.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-actual-y14-receiver-ordering-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Run the form-degree Layer-0 check before constructing an observation map.
+  Literal pullback of a 13-form or 14-form to a four-manifold is zero.
+- A density-dual Euler row may be primalized before restriction, but ordinary
+  section restriction from fourteen to four covector directions then has a
+  complete rank-ten conormal kernel.
+- Downstream coefficient faithfulness cannot recover geometry already erased
+  by section restriction. Receiver faithfulness and representation
+  faithfulness are sequential gates.
+- A trace-reversed pseudo-metric supplies a horizontal right inverse for a
+  nondegenerate section graph; it does not prove the actual action Euler image
+  horizontal. That image condition must be derived, not target-selected.
+- Do not present “horizontal action image or retain normal equations” as an
+  exhaustive theory fork. A genuine defect/current or induced-density
+  reduction of the action followed by variation is a third route, and the N3
+  build already contains its moving-support derivative.
+- Never write `s*(dvol_Y)` for a lower-dimensional volume form without naming
+  the intended induced-density or current-pairing operation. Preserve older
+  provenance, but do not reuse the literal notation as proof.
+- Matching tangential observed evolution does not establish no-leakage; a live
+  normal operator block can be invisible after restriction.
+- A tangent-plus-normal decoder is algebraically faithful but does not identify
+  the ten normal components as gauge, constraints, particles, or dark content.

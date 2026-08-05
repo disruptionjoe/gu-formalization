@@ -1,0 +1,118 @@
+{
+  "artifact": "K77_WAVE2_ACTUAL_Y14_RECEIVER_ORDERING_CONORMAL",
+  "version": "2026-08-05",
+  "lane": "1",
+  "named_gate": "K77_ACTUAL_Y14_EULER_RECEIVER_FAITHFUL_MODULE_AND_COMMON_GREEN_DOMAIN",
+  "gate_status": "PARTIAL_WITH_NAMED_MOVEMENT",
+  "source_collision": {
+    "observerse_section_field_pullback": "SOURCE_CONFIRMS",
+    "ten_plus_four_trace_reversed_geometry": "SOURCE_CONFIRMS",
+    "contracted_euler_one_form_reading": "SOURCE_GUIDES",
+    "direct_omega13_equation_pullback": "SOURCE_SILENT_AND_DIMENSIONALLY_ZERO",
+    "primalize_before_observe_formula": "SOURCE_SILENT_RECONSTRUCTION",
+    "action_euler_image_horizontality": "SOURCE_SILENT",
+    "normal_equation_receiver": "SOURCE_SILENT",
+    "defect_or_induced_density_reduction": "SOURCE_SILENT_WITH_PRIOR_N3_CONSTRUCTION",
+    "common_green_domain": "SOURCE_SILENT_OR_UNRELEASED"
+  },
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE-AMBIENT",
+    "fork_horn": "K77",
+    "other_horn_cost": "K95_CARRIER_PRIMALIZER_AND_TRANSITION_REPORT_REQUIRED",
+    "search_space_dim": "0_SELECTOR_PARAMETERS_IN_ORDINARY_SECTION_PULLBACK_CLASS",
+    "free_object_delta": 0,
+    "residue_touched": [
+      {"id": "K77-W2-ACTUAL-Y14-RECEIVER", "grade": "T3"}
+    ]
+  },
+  "layer0": {
+    "direct_omega13_pullback_vs_primalize_then_restrict": "DISTINCT",
+    "section_restriction_vs_fibre_pushforward": "DISTINCT",
+    "field_pullback_vs_equation_dual": "DISTINCT",
+    "conormal_covector_vs_gauge_direction": "DISTINCT",
+    "horizontal_action_image_vs_fitted_projector": "DISTINCT",
+    "literal_top_form_pullback_vs_induced_density_or_defect_pairing": "DISTINCT",
+    "pointwise_invariant_image_vs_common_closed_domain": "DISTINCT",
+    "normal_equation_components_vs_physical_particles": "DISTINCT"
+  },
+  "k77_local_geometry": {
+    "horizontal_inertia": [1, 3],
+    "raw_fibre_inertia": [7, 3],
+    "trace_reversed_fibre_inertia": [6, 4],
+    "total_inertia": [7, 7],
+    "section_graph_rank": 4,
+    "section_graph_nontrivial": true,
+    "induced_graph_metric_nondegenerate": true,
+    "global_section_existence_claimed": false
+  },
+  "receiver_theorem": {
+    "direct_omega13_pullback_rank": 0,
+    "primalize_then_restrict_rank": 4,
+    "primalize_then_restrict_kernel_dimension": 10,
+    "kernel_identification": "SECTION_CONORMAL_BUNDLE",
+    "conormal_basis": "N_EQUALS_STACK_MINUS_J_TRANSPOSE_ID10",
+    "faithful_downstream_module_repairs_conormal_loss": false,
+    "metric_horizontal_right_inverse_exact": true,
+    "horizontal_projector_exact": true,
+    "action_image_horizontality_condition": "Q_RY_UPSILON_T_EQUALS_ZERO",
+    "action_image_horizontality_proved": false
+  },
+  "alternative_receiver": {
+    "tangent_plus_normal_decoder_rank": 14,
+    "normal_output_dimension": 10,
+    "algebraically_faithful": true,
+    "source_owned": false,
+    "physical_identification": "OPEN",
+    "fibre_pushforward_degree": 3,
+    "fibre_pushforward_support_and_normalization": "OPEN"
+  },
+  "action_reduction_route": {
+    "literal_omega14_pullback_rank": 0,
+    "prior_moving_defect_first_variation": "BUILT_IN_N3",
+    "induced_density_or_thom_current_required": true,
+    "complete_source_action_defect_weld": "OPEN",
+    "projection_variation_commutation": "OPEN"
+  },
+  "domain_boundary": {
+    "finite_horizontal_invariance_condition": "Q_D_H_EQUALS_ZERO",
+    "hostile_same_observed_block_with_normal_leakage": true,
+    "actual_operator_invariance_built": false,
+    "common_closed_krein_green_domain_built": false,
+    "odd_bv_closure_built": false,
+    "physical_bfv_phase_space_built": false
+  },
+  "accounting": {
+    "selector_parameters": 0,
+    "new_free_coefficients": 0,
+    "new_normal_fields_admitted": 0,
+    "free_object_delta": 0,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {
+    "source": 7,
+    "type": 31,
+    "exact": 33,
+    "planted": 8,
+    "total": 79,
+    "failures": 0
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIR__THIRD_DEFECT_VARIATIONAL_ROUTE_RESTORED",
+  "held_open": [
+    "COMPLETE_ACTION_EULER_IMAGE_HORIZONTALITY",
+    "TYPED_NORMAL_RECEIVER_IF_HORIZONTALITY_FAILS",
+    "PHYSICAL_COEFFICIENT_MODULE_AND_FAITHFULNESS",
+    "ACTUAL_OPERATOR_IMAGE_INVARIANCE",
+    "FULL_ODD_BV_MASTER_CLOSURE",
+    "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
+    "PHYSICAL_BFV_PHASE_SPACE",
+    "LOCAL_AND_GLOBAL_PHYSICS_RECOVERY"
+  ],
+  "next_required_build": "K77_ACTION_DERIVED_HORIZONTAL_EULER_IMAGE_OR_DEFECT_VARIATIONAL_RECEIVER",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}
