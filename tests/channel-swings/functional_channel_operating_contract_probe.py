@@ -130,13 +130,14 @@ print("\nD. DYNAMIC COSMOLOGICAL SECTOR")
 directive = next(d for d in contract["active_scientific_directives"]
                  if d["id"] == "GU-COSMO-DYNAMIC-01")
 required = directive["required_layer0_objects"]
-check("exact", "LT-GR2 is on a binding Layer-0 split hold",
-      directive["primary_row_on_hold"] == "LT-GR2"
-      and directive["status"] == "BINDING_LAYER0_SPLIT_HOLD")
+check("exact", "the original Layer-0 split hold is released into typed successor rows",
+      directive["primary_row_on_hold"] is None
+      and directive["release_condition_met"] is True
+      and "PHYSICAL_COHOMOLOGY_AND_TWO_FIELD_COSMOLOGY_OPEN" in directive["status"])
 check("type", "Source plus Compose own the split independently from Build",
       directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER")
-check("type", "the held rows exist in the current ledger",
-      set(directive["held_rows"]) <= set(rows))
+check("type", "historical and active directive rows exist in the current ledger",
+      set(directive["historically_held_rows"] + directive["active_rows"]) <= set(rows))
 check("exact", "seven cosmological Layer-0 objects are separately named",
       len(required) == len(set(required)) == 7)
 check("type", "Einstein tensor and action-derived stress-energy are separate",
@@ -151,9 +152,18 @@ check("type", "curvature co-variation, VEV scale and w(z) remain separate burden
 check("planted", "PLANT Einstein recovery cannot discharge cosmology",
       directive["forbidden_collapse"] ==
       "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY")
-check("type", "evidence boundary keeps structural support and open ownership together",
-      directive["current_evidence_boundary"] ==
-      "VARIABLE_DIVERGENCE_FREE_ANALOG_SUPPORTED__COMPLETE_ACTION_OWNERSHIP_AND_AMPLITUDE_OPEN")
+check("type", "evidence boundary keeps exact movement and open ownership together",
+      "GAUSS_TRACE_AND_TRACELESS_HESSIANS_100_OVER117_AND_124_OVER117"
+      in directive["current_evidence_boundary"]
+      and "COUPLED_OBSERVED_DEFECT_KREIN_GREEN_DOMAIN"
+      in directive["current_evidence_boundary"]
+      and "FULL_METRIC_COFRAME_SOLDERING_BV_PHYSICAL_COHOMOLOGY_AND_TWO_FIELD_CURVATURE_VEV_COSMOLOGY_OPEN"
+      in directive["current_evidence_boundary"])
+check("source", "current composed-locus source disposition is typed",
+      directive["source_return"] == "SOURCE-CORRECTS")
+check("type", "next gate preserves both physical-cohomology and two-field cosmology branches",
+      "BV_PHYSICAL_COHOMOLOGY" in directive["next_gate"]
+      and "TWO_FIELD_CURVATURE_VEV_FLRW" in directive["next_gate"])
 
 toe = (ROOT / "lab/sources/claim-mining-toe-weinstein-2026-07-20.md").read_text(encoding="utf-8")
 pack = (ROOT / "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md").read_text(encoding="utf-8")
@@ -174,8 +184,8 @@ check("exact", "two hostile charges remain mandatory",
 check("exact", "reset changes no scheduler, trigger, grants, lane count or scientific posture",
       set(contract["non_effects"]) >= {
           "NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE",
-          "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE",
-          "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
+          "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE",
+          "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
       })
 
 print("\nCOUNTS " + " ".join(f"{kind}={count}" for kind, count in sorted(COUNTS.items())))
