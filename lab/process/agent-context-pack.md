@@ -57,12 +57,17 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active: `LT-GR2` and dependent Einstein/cosmology
-work are on a Layer-0 split hold until primary sources separately type the
-Einstein tensor, matter stress-energy, constant `Lambda g`, variable
-olive/`varpi`/augmented-torsion VEV, curvature co-variation, VEV scale and
-observable `w(z)`. Einstein-equation recovery alone does not recover GU's
-claimed dynamical cosmological sector.
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is complete in ledger v0.4:
+source `theta` and action `T` are the same connection difference up to the
+tilted trivialization; the action has exact ambient curvature-covariation rank
+105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
+The contraction-first post-Shiab receiver loses a rank-10 observed Einstein
+sector, but using that old receiver as a kill of the new fluctuating geometry
+would be circular: moving `T`, the section and Gauss/`II` lie outside it. The
+next gate action-owns the pre-Shiab moving receiver and constructs the native
+BV quotient. Vacuum shifts currently track into `T` but are not screened.
+Einstein-equation recovery alone still does not recover GU's claimed dynamic
+cosmological sector.
 
 ### PRE-WAVE (binding)
 

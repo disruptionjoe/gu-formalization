@@ -1067,9 +1067,12 @@ all ten restriction-first Einstein components, so no receiver depending only
 on that post-Shiab output can recover the target. A canonical pre-Shiab Riemann/Gauss receiver and its local
 first variation survive; complete K77 source-action ownership remains open.
 
-[`conditional-build/conditional-physics-ledger-v0.3.md`](conditional-build/conditional-physics-ledger-v0.3.md)
-is the current human ledger view. It retains
-`conditional-build/conditional-physics-ledger-v0.2.md` unchanged, supersedes
-the conflated cosmological row with five active successors, and points to the
-source-confirmed but action-open E10/E11 analysis in
-`conditional-build/dynamic-cosmological-sector-constraint-rank-2026-08-05.md`.
+[`conditional-build/conditional-physics-ledger-v0.4.md`](conditional-build/conditional-physics-ledger-v0.4.md)
+is the current human ledger view. It retains v0.3 unchanged and advances the
+dynamic-cosmological successors using
+`conditional-build/source-native-curvature-vev-euler-rank-2026-08-05.md`.
+The existing action has exact ambient curvature/`T` covariation rank 105 and
+total homogeneous `T`-Euler rank 196. This does not pass through the killed
+contraction-first observed receiver; the complete fluctuating pre-Shiab
+Gauss/`II` geometry and native BV quotient are the next target. Vacuum shifts
+track into `T` but are not screened.

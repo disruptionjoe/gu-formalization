@@ -641,3 +641,32 @@ hostile-review charges. Run:
 sage tests/channel-swings/dynamic_cosmological_sector_constraint_rank_probe.sage
 python3 tests/channel-swings/conditional_physics_ledger_v03_probe.py
 ```
+
+## Source-native curvature/VEV Euler-rank and ledger v0.4 certificates
+
+`channel-swings/source_native_curvature_vev_euler_rank_probe.py` types the
+source distortion as the action's two-connection difference, varies `B` and
+`T` independently, and computes the complete homogeneous value ranks. It
+separates ambient curvature covariation rank 105 from total `T`-Euler rank 196
+and its 91 `T`-only rows, retains the rank-10 observed post-Shiab kernel
+obstruction without using it circularly against the complete moving geometry,
+marks native BV quotient rank undefined, and shows an independent vacuum shift
+is tracked rather than screened. Nine plants prevent ambient/observed,
+rank/support, action/density, BV and magnitude promotions. Independent Sage
+rebuilds the QQ ranks and scalar ambient-kernel witness.
+
+`channel-swings/conditional_physics_ledger_v04_probe.py` freezes v0.3,
+recomputes the unchanged denominator and verdict counts, checks only
+`LT-GR2b/c/d` migrated, validates the new
+`PROVEN_UNABLE_BY_CURRENT_ACTION` kind, and enforces the circularity, quotient
+and hostile-review fences. Run:
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/source_native_curvature_vev_euler_rank_probe.py
+DOT_SAGE=/private/tmp/gu-source-native-sage \
+  /Applications/SageMath-10-9.app/Contents/Frameworks/Sage.framework/Versions/Current/venv/bin/sage \
+  tests/channel-swings/source_native_curvature_vev_euler_rank_independent.sage
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v04_probe.py
+```

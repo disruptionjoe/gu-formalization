@@ -69,7 +69,8 @@ kind creates `NEW_KIND_REQUIRED`; forced fitting is forbidden. In particular:
 - `DIFFERS` distinguishes predictions, convention artifacts, inert
   statements, structural differences and killed routes;
 - `NEEDS` distinguishes a bit, finite choice, real/integer datum, external
-  datum, missing construction and a proven-unsupplyable source; and
+  datum, missing construction, a proven-unsupplyable source, and a construction
+  proven unable to close the row in its current action; and
 - `OVER_DETERMINED` distinguishes genuine falsification, fork artifact, scope
   error and stale premise.
 
@@ -179,9 +180,9 @@ Directive `GU-COSMO-DYNAMIC-01` is binding before the next scientific wave
 that uses `LT-GR1`, `LT-GR1b`, `LT-GR2`, `LT-GR5`, `LT-GR6`, Einstein recovery
 or dark-energy recovery.
 
-The current `LT-GR2` label, “positive cosmological-term sign,” is on
-`LAYER0_SPLIT_HOLD`. Source and Compose must reinspect the primary Weinstein
-material and separately type:
+The historical `LT-GR2` label, “positive cosmological-term sign,” was placed
+on `LAYER0_SPLIT_HOLD` and is now superseded by five typed successors. Source
+and Compose separately typed:
 
 1. the observed Einstein tensor and Bianchi/Noether identity;
 2. the matter stress-energy tensor and its action-derived source;
@@ -193,9 +194,13 @@ material and separately type:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Existing repo
-work supports a divergence-free variable analog but leaves its complete action
-ownership and amplitude open. Both facts travel together.
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.4 now
+identifies source `theta` with the action's connection difference `T` up to the
+tilted trivialization and computes exact ambient curvature-covariation rank
+105 and total homogeneous `T`-Euler rank 196. These results travel with three
+boundaries: the killed contraction-first post-Shiab observed receiver is not a
+kill of the complete fluctuating geometry; the pre-Shiab moving Gauss/`II`
+equation is not yet action-owned; and the native odd BV quotient is undefined.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -205,8 +210,15 @@ vacuum-selection rule and observable behavior. The historical Einstein
 context rather than a mathematical premise unless checked against a primary
 Einstein source.
 
-If reinspection shows that `LT-GR2` conflates targets, Compose creates a new
-ledger version with successor/split edges. It does not rewrite v0.2.
+Current gate:
+
+```text
+CONSTRUCT_ACTION_OWNED_PRE_SHIAB_GAUSS_CURVATURE_TO_T_EULER_RECEIVER_AND_NATIVE_BV_QUOTIENT
+```
+
+It must assemble curvature, moving distortion and observation geometry in one
+Euler equation before ranking the physical map. Requiring the new geometry to
+factor through the old contraction-first receiver would be circular.
 
 ## Contract boundary
 

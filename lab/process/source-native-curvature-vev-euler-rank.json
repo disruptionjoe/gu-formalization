@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0",
+  "gate_id": "CONSTRUCT_SOURCE_NATIVE_CURVATURE_VEV_EULER_COUPLING_AND_RANK_MODULO_WARD_BIANCHI_BV",
+  "status": "AMBIENT_ACTION_COUPLING_AND_RANK_EXACT__OBSERVED_RECEIVER_AND_NATIVE_BV_OPEN",
+  "source_return": "SOURCE-CONFIRMS",
+  "fork_assumed": "SIGNATURE_AMBIENT_K77__SELECTED_DISPLAYED_SHIAB_COMM_SYMI_SYMI",
+  "search_space": {
+    "selector_parameters": 0,
+    "ambient_riemann_decomposition": [1, 104, 3080],
+    "distortion_receiver_dimension": 196,
+    "free_object_delta": 0
+  },
+  "layer0": {
+    "source_theta_vs_action_T": "SAME_OBJECT_UP_TO_TILTED_TRIVIALIZATION",
+    "theta_vs_vev": "DISTINCT_FIELD_VS_SELECTED_VACUUM_VALUE",
+    "theta_vs_stress": "DISTINCT_ONE_FORM_VS_QUADRATIC_OR_OBSERVED_RECEIVER",
+    "ambient_G14_vs_observed_G4": "DISTINCT__POST_SHIAB_FACTORIZATION_KILLED",
+    "action_Euler_vs_printed_endpoint": "DISTINCT__ACTION_EULER_SELECTED",
+    "even_Ward_vs_odd_BV": "DISTINCT"
+  },
+  "action": {
+    "barF": "F_B + 1/2 D_B T + 1/3 T^2",
+    "E_T": "S(barF) + (D_T barF)^! S^! T + * kappa_1 T",
+    "E_B": "D_B^! S^! T + 1/2 ad_T^! S^! T__UP_TO_FIXED_ADJOINT_SIGN_CONVENTIONS",
+    "homogeneous_B_value_rank_at_T0": 0
+  },
+  "exact_results": {
+    "ambient_riemann_dimension": 3185,
+    "ambient_scalar_plus_traceless_ricci_dimension": 105,
+    "ambient_weyl_kernel_dimension": 3080,
+    "ambient_curvature_covariation_rank": 105,
+    "total_homogeneous_T_Euler_rank_fixed_nonzero_gain": 196,
+    "T_only_row_count": 91,
+    "zero_gain_total_rank": 105,
+    "even_Ward_homogeneous_zero_jet_rank": 0,
+    "observed_G4_rank_on_kernel_G14": 10,
+    "native_BV_quotient_rank": "UNDEFINED",
+    "vacuum_shift": "TRACKED_INTO_T__NOT_SCREENED",
+    "free_gain": "ADDS_ONE_VARIABLE_WITHOUT_ONE_EQUATION"
+  },
+  "ledger": {
+    "version": "0.4",
+    "meter": "82/82; 32 SAME; 19 DIFFERS; 25 NEEDS; 6 OVER-DETERMINED",
+    "residue": "83 continuous + >=19 function-valued + 10 discrete forks; quotients ranked 0",
+    "row_changes": {
+      "LT-GR2b": "AMBIENT_ACTION_EULER_EXACT__NONZERO_OBSERVED_VACUUM_OPEN",
+      "LT-GR2c": "AMBIENT_RANK105_EXACT__POST_SHIAB_OBSERVED_ROUTE_KILLED__BV_UNDEFINED",
+      "LT-GR2d": "NEEDS_PROVEN_UNABLE_BY_CURRENT_ACTION__TRACKS_NOT_SCREENS"
+    }
+  },
+  "validation": {
+    "python": "3 source + 3 repo + 19 exact + 4 type + 9 planted = 38 PASS",
+    "sage": "independent QQ rank and kernel-witness reconstruction PASS",
+    "hostile_review": "PASS_AFTER_SCOPE_AND_REASON_KIND_REPAIRS"
+  },
+  "next_gate": "CONSTRUCT_ACTION_OWNED_PRE_SHIAB_GAUSS_CURVATURE_TO_T_EULER_RECEIVER_AND_NATIVE_BV_QUOTIENT",
+  "untouched": ["P1", "P2", "P3", "canon", "public_posture", "lane_count", "observed_magnitude", "w_of_z"]
+}

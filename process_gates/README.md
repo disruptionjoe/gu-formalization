@@ -37,6 +37,7 @@ selected notes below and in each script header.
 - `carrier_mass_readme_inventory_audit.py`
 - `chase_readme_inventory_audit.py`
 - `constraint_first_ig_tangent_gate.py`
+- `conditional_physics_ledger_v04_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1264,6 +1265,16 @@ targets, and wires the official interview source, Layer-0 flatness fence,
 released directive and next curvature/VEV Euler gate. It rejects a source-only
 field equality as an action-parameter or magnitude result.
 
+## Conditional physics ledger v0.4 scope gate
+
+`conditional_physics_ledger_v04_scope_audit.py` preserves v0.3, recomputes the
+unchanged 82-row denominator and verdict counts, requires the exact ambient
+curvature/`T` ranks `105/196` and 91-row split, keeps native BV quotient rank
+undefined, and enforces the noncircular transition from the killed
+contraction-first receiver to the complete pre-Shiab moving Gauss/`II` action
+owner. It also requires the current action's vacuum-shift result to remain
+tracking rather than screening.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1271,8 +1282,8 @@ Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
 `LANES.yaml` and the operating model while purpose Lanes 1/2/3/A remain
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
-two-sided hostile review and the completed `GU-COSMO-DYNAMIC-01` Layer-0 split
-with its successor Build gate. It
+two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` ambient-action
+rank plus pre-Shiab receiver/BV successor gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.
