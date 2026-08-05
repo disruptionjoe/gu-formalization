@@ -15,6 +15,19 @@ public_posture_change: none
 
 # Post-B2C15R3 multidisciplinary council
 
+> **2026-08-05 R2B2B2I2 successor checkpoint.** The exact resolver's two
+> one-cell S3 orbits now pass the complete mixed evaluator under both
+> generators. Geometry, `Phi1`, `Phi2`, Hodge, Shiab residual, moving
+> primalizer, and action each pass `16/16` slots; mixed liveness and both
+> moving-Hodge controls fire, and the exact mixed actions are `215/8` and
+> `87/16`. This closes the complete fixed stratum but only `2/380`
+> representatives. The remaining `378` and dense universal held-outs remain
+> open, the 380 engine is unpromoted, and the 1,925-cell fallback stays live.
+> Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
+
 > **2026-08-04 R2B2B2I1 successor checkpoint.** Both exact S3 generators now
 > preserve the full owner/conormal geometric input layer: `G4`, active `ETA`,
 > all ten `Sym2` owners, DeWitt base/first/second derivatives, forty connection

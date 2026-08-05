@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2I2-S3-FIXED-ORBIT-FULL-EVALUATOR",
+  "status": "FULL_EVALUATOR_CERTIFIED_ON_COMPLETE_S3_FIXED_ORBIT_STRATUM__UNIVERSAL_378_OPEN",
+  "run_id": "RUN-20260805-054616-gu-formalization-pw2fr2b2b2i2-fixed-orbit-full-evaluator",
+  "verdict_scope": "the two one-cell S3 orbits only, using the registered diagonal-conormal bank convention and the active mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action jet under both exact S3 generators",
+  "source_disposition": {
+    "REPOSITORY_DERIVES": "the active S3 fixed-orbit full-evaluator certificate",
+    "SOURCE_SILENT": "the active S3 reduction, fixed-orbit evaluator, remaining 378 representatives, complete active coefficient banks, Green/Helmholtz quotient, and physics",
+    "PREDECESSOR_REQUIRES": "full evaluator certification over every orbit representative plus dense held-outs before the 380-representative engine can replace the 1,925-cell fallback"
+  },
+  "layer0": {
+    "active_9_5_vs_public_7_7": "DISTINCT_REAL_FORM_ACTION_PRESENTATIONS",
+    "geometric_transport_vs_full_evaluator_transport": "DISTINCT_CERTIFICATE_LAYERS",
+    "fixed_orbit_stratum_vs_universal_representative_coverage": "DISTINCT_COVERAGE_LEVELS",
+    "orbit_representatives_vs_complete_bank": "DISTINCT_EXECUTION_AND_PROMOTION_LEVELS",
+    "I1_A4_vs_I2B_C4": "SEPARATE_BANKS_WITH_SHARED_FINITE_INDEX_ACTION_ONLY"
+  },
+  "dependencies": {
+    "i1_geometric_probe_sha256": "ef8e488bcd0353a5f1790ccb8e5c42f298d2aa31e18133034d1102ca9d10d7dc",
+    "h_mixed_shiab_probe_sha256": "cd5c20f848d8384e5b2f56c097fedb2da30422833a2c387ef93338a0a79c7e90",
+    "i1_registry_sha256": "84cef126da1396a4f4c21f12525e9c53446abd345f1230d359cd772ef5e2a3f0"
+  },
+  "fixed_representatives": [
+    {
+      "owner_pair": [9, 9],
+      "quartic_point": [0, 0, 0, 4],
+      "mixed_action": "215/8"
+    },
+    {
+      "owner_pair": [9, 9],
+      "quartic_point": [1, 1, 1, 1],
+      "mixed_action": "87/16"
+    }
+  ],
+  "coverage": {
+    "joint_labels": 1925,
+    "canonical_representatives": 380,
+    "fixed_orbit_representatives": 2,
+    "fixed_orbit_representatives_certified": 2,
+    "remaining_representatives": 378,
+    "representative_coverage": "2/380",
+    "fixed_orbit_coverage": "2/2"
+  },
+  "exact_checks": {
+    "dependency_hashes": "3/3",
+    "fixed_label_group_stabilizers": "12/12",
+    "generator_edges": "4/4",
+    "geometry_slots": "16/16",
+    "Phi1_slots": "16/16",
+    "Phi2_slots": "16/16",
+    "Hodge_slots": "16/16",
+    "residual_slots": "16/16",
+    "moving_primalizer_slots": "16/16",
+    "action_slots": "16/16",
+    "mixed_residual_liveness": "2/2",
+    "mixed_primalizer_liveness": "2/2",
+    "mixed_action_liveness": "2/2",
+    "moving_Hodge_product_rule_controls": "2/2",
+    "old_forward_lift_control": "PASS",
+    "summary": "19 exact + 2 source + 8 type + 6 planted = 35 PASS"
+  },
+  "constraint_parameter_ledger": {
+    "fitted_parameters": 0,
+    "raw_transport_equalities": 112,
+    "independent_constraint_rank": "NOT_COMPUTED",
+    "physical_surplus": "NOT_APPLICABLE_AT_EVALUATOR_TRANSPORT_SCOPE",
+    "disposition": "NO_REFIT_CERTIFICATE_WITH_RAW_CHECK_COUNT_ONLY__NO_INDEPENDENCE_OR_PHYSICS_SURPLUS_CLAIM"
+  },
+  "admission": {
+    "finite_S3_action": "ADMITTED",
+    "universal_owner_conormal_geometric_transport": "CERTIFIED",
+    "fixed_orbit_full_evaluator_transport": "CERTIFIED_2_OF_2_FIXED_REPRESENTATIVES",
+    "remaining_full_evaluator_transport": "OPEN_378_OF_380_REPRESENTATIVES",
+    "complete_I1_A4": "NOT_PROMOTED",
+    "complete_I2B_C4": "NOT_PROMOTED",
+    "multiindex_Green_Helmholtz": "NOT_ADMITTED"
+  },
+  "reduction_engine": "ADMITTED_NOT_PROMOTED",
+  "unconditional_fallback_cells_per_bank": 1925,
+  "non_regression": {
+    "gravity": "UNCHANGED",
+    "gauge": "UNCHANGED",
+    "odd_matter": "UNCHANGED",
+    "Higgs_Yukawa": "UNCHANGED",
+    "quantum_domain": "UNCHANGED",
+    "cosmology": "UNCHANGED",
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_probe.py",
+    "exploration": "explorations/pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certificate-2026-08-05.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-05-pw2fr2b2b2i2-fixed-orbit-review.md",
+    "scope_audit": "process_gates/pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_scope_audit.py"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS"
+}

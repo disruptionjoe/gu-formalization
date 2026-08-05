@@ -4,14 +4,14 @@
   "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED_PW2FR2B2B2_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2I1-S3-UNIVERSAL-OWNER-CONORMAL-GEOMETRIC-TRANSPORT",
-    "status": "BOTH_S3_GENERATORS_CERTIFIED_ON_UNIVERSAL_OWNER_CONORMAL_GEOMETRIC_TRANSPORT_LAYER",
-    "earned": "both exact S3 generators preserve G4/ETA, biject all ten Sym2 owners and the full 1,925-label grid, transport the complete DeWitt derivative and connection-column layers, and pass nonlinear metric/coframe/trace/density dense held-outs; exact orbit and Burnside counts give 380 representatives with census {1:2,3:115,6:263}",
-    "scope": "the finite action and geometric input layer are durably certified; the remaining evaluator layers and both action banks are not; the 380 engine is admitted but unbuilt and unpromoted, with the 1,925-cell fallback retained and Green/Helmholtz blocked",
-    "external_datum": "P1/P2/P3 unchanged and unused",
+    "gate": "PW2F-R2B2B2I2-S3-FIXED-ORBIT-FULL-EVALUATOR",
+    "status": "FULL_EVALUATOR_CERTIFIED_ON_COMPLETE_S3_FIXED_ORBIT_STRATUM__UNIVERSAL_378_OPEN",
+    "earned": "both one-cell S3 orbits pass the complete mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action evaluator under the reflection and three-cycle; all seven layers pass 16/16 slots, mixed liveness and both moving-Hodge controls fire, and the exact mixed actions are 215/8 and 87/16",
+    "scope": "the complete fixed-orbit stratum is durably certified at 2/380 representatives; the remaining 378 and dense universal held-outs are open, the reduction engine is unpromoted, the 1,925-cell fallback remains live, and both separate banks plus Green/Helmholtz remain blocked",
+    "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2I1-REMAINING-EVALUATOR-LAYERS-ON-ORBIT-REPRESENTATIVES-PLUS-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS"
   },
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {

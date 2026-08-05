@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-04"
+updated_at: "2026-08-05"
 ---
 
 # Process
@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certificate.json` -
+  PW2F-R2B2B2I2 ledger: records the two exact one-cell S3 orbits, their
+  complete mixed metric/Phi/Hodge/Shiab/residual/moving-primalizer/action
+  transport under both generators, nonzero exact mixed actions `215/8` and
+  `87/16`, no-refit constraint ledger, and fail-closed `2/380` coverage
+  boundary. The other 378 representatives, both separate banks,
+  Green/Helmholtz, and physics remain open; the 1,925-cell fallback stays live.
 - `pw2fr2b2b2i1-s3-geometric-transport-certificate.json` -
   PW2F-R2B2B2I1 ledger: records the exact order-two/order-three S3
   generators, ten-owner and 1,925-label actions, complete DeWitt derivative,

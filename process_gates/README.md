@@ -107,6 +107,7 @@ selected notes below and in each script header.
 - `pw2fr2b2b2h4_source_active_real_form_scope_exit_scope_audit.py`
 - `pw2fr2b2b2i_separate_conditional_active_c4_banks_scope_audit.py`
 - `pw2fr2b2b2i1_s3_geometric_transport_scope_audit.py`
+- `pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`

@@ -2,10 +2,29 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-04"
+updated_at: "2026-08-05"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-05 PW2F-R2B2B2I2 FULL EVALUATOR CERTIFIED ON THE COMPLETE
+> S3-FIXED ORBIT STRATUM; THE OTHER 378 REPRESENTATIVES REMAIN OPEN.** The
+> exact 1,925-label resolver has two one-cell orbits, `(9,9;0,0,0,4)` and
+> `(9,9;1,1,1,1)`. Both fixed labels pass the reflection and three-cycle
+> through every mixed geometry, `Phi1`, `Phi2`, Hodge, Shiab residual, moving
+> primalizer, and action slot: `16/16` per layer. Mixed residual, primalizer,
+> action, and both moving-Hodge controls are live; exact mixed actions are
+> `215/8` and `87/16`. The durable probe passes
+> `19 exact + 2 source + 8 type + 6 planted = 35`.
+>
+> This is complete coverage of the fixed stratum but only `2/380`
+> representatives. The reduction engine remains unpromoted, the unconditional
+> 1,925-cell fallback remains live, and neither `I1 A4` nor `I2B C4` is
+> assembled. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certificate-2026-08-05.md`.
 
 > **2026-08-04 PW2F-R2B2B2I1 BOTH S3 GENERATORS CERTIFIED ON THE
 > UNIVERSAL OWNER/CONORMAL GEOMETRIC-TRANSPORT LAYER.** The exact reflection
