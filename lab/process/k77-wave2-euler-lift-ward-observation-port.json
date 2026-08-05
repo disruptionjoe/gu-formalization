@@ -1,0 +1,97 @@
+{
+  "artifact": "K77_WAVE2_EULER_LIFT_WARD_OBSERVATION_PORT",
+  "version": "2026-08-05",
+  "lane": "1",
+  "named_gate": "K77_EULER_LIFT_FULL_FIELD_WARD_DOMAIN_OBSERVATION_PORT",
+  "gate_status": "PARTIAL_WITH_NAMED_MOVEMENT",
+  "source_collision": {
+    "observerse_section_pullback": "SOURCE_CONFIRMS",
+    "curt_connection_pullback_decomposition": "CURT_RECONSTRUCTS_ERIC_GUIDES",
+    "equation_dual_receiver": "SOURCE_SILENT",
+    "euler_no_leakage": "SOURCE_SILENT",
+    "observed_coefficient_faithfulness": "SOURCE_SILENT",
+    "odd_bv_common_domain": "SOURCE_SILENT_OR_UNRELEASED"
+  },
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE-AMBIENT",
+    "fork_horn": "K77",
+    "other_horn_cost": "K95_CARRIER_PRIMALIZER_AND_TRANSITION_REPORT_REQUIRED",
+    "search_space_dim": "0_SELECTOR_PARAMETERS",
+    "search_space_scope": "KERNEL_OF_RHO_X_COMPOSE_SHARP_X_COMPOSE_O_E",
+    "free_object_delta": 0,
+    "residue_touched": [
+      {"id": "K77-W2-OBSERVATION-PORT", "grade": "T3"}
+    ]
+  },
+  "layer0": {
+    "upstairs_euler_vs_observed_euler": "DISTINCT",
+    "observed_euler_vs_physical_equation": "DISTINCT",
+    "field_retract_vs_equation_dual": "DISTINCT",
+    "no_leakage_vs_module_faithfulness": "DISTINCT",
+    "finite_image_vs_analytic_domain": "DISTINCT",
+    "characteristic_quotient_vs_physical_bfv": "DISTINCT"
+  },
+  "receiver_theorem": {
+    "detection_map": "RHO_X_COMPOSE_SHARP_X_COMPOSE_O_E",
+    "unconditional_observed_shell": "UPSTAIRS_EULER_MODULO_DETECTION_KERNEL",
+    "equation_no_leakage_required": true,
+    "faithfulness_on_observed_tau_image_required": true,
+    "pseudo_musical_naturality_required": true,
+    "restricted_bidirectional_shell_theorem": true,
+    "actual_y14_receiver_built": false
+  },
+  "exact_fixture": {
+    "upstairs_equation_dimension": 4,
+    "observed_equation_dimension": 2,
+    "equation_blind_dimension": 2,
+    "blind_detector_rank": 1,
+    "complete_blind_kernel_dimension": 3,
+    "additional_representation_blind_dimension": 1,
+    "faithful_restricted_detector_rank": 2,
+    "faithful_restricted_kernel_dimension": 0,
+    "false_shell_by_equation_leakage": true,
+    "false_shell_by_representation_blindness": true
+  },
+  "ward_preboundary_domain": {
+    "even_ward_naturality_exact_finite": true,
+    "ward_implies_no_leakage": false,
+    "finite_invariant_image_condition_exact": true,
+    "preboundary_pullback_exact_finite": true,
+    "characteristic_quotient_nondegenerate_finite": true,
+    "derived_bv_differential_built": false,
+    "common_closed_analytic_domain_built": false,
+    "physical_bfv_phase_space_built": false
+  },
+  "accounting": {
+    "selector_parameters": 0,
+    "new_free_coefficients": 0,
+    "free_object_delta": 0,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {
+    "source": 7,
+    "type": 29,
+    "exact": 32,
+    "planted": 7,
+    "total": 75,
+    "failures": 0
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIRS__PARTIAL_NAMED_GATE_MOVEMENT",
+  "held_open": [
+    "ACTUAL_Y14_EQUATION_LIFT_AND_DUAL",
+    "ACTUAL_ACTION_IMAGE_NO_LEAKAGE",
+    "PHYSICAL_COEFFICIENT_MODULE_AND_FAITHFULNESS",
+    "FULL_ODD_BV_MASTER_CLOSURE",
+    "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
+    "PHYSICAL_BFV_PHASE_SPACE",
+    "LOCAL_AND_GLOBAL_PHYSICS_RECOVERY"
+  ],
+  "next_required_build": "K77_ACTUAL_Y14_EULER_RECEIVER_FAITHFUL_MODULE_AND_COMMON_GREEN_DOMAIN",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

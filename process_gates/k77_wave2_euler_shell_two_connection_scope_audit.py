@@ -124,16 +124,17 @@ def main() -> None:
     assert registry["public_posture_change"] is False
 
     wave2 = campaign["waves"][1]
-    assert wave2["result_ref"].endswith(
-        "k77-wave2-euler-shell-two-connection-lift-2026-08-04.md"
-    )
+    # This is a predecessor audit, so campaign-latest pointers may advance.
+    # Preserve the predecessor by its emitted result and require any successor
+    # to begin at the next gate recorded in this registry.
     latest = wave2["latest_advance"]
-    assert latest["named_gate"] == registry["named_gate"]
-    assert latest["next_required_build"] == registry["next_required_build"]
-    assert "ACTUAL_K77_BOSONIC_EULER_PRIMALIZER" in latest["supersedes_carried_debt"]
-    assert "ACTION_SHELL_TWO_CONNECTION_LIFT" in latest["supersedes_carried_debt"]
-    assert "TOE_COEFFICIENT_MODULE_IDENTIFICATION_AND_FAITHFULNESS" in latest["replacement_debt"]
-    assert "FULL_FIELD_MOVING_WARD_BV_PREBOUNDARY" in latest["replacement_debt"]
+    if latest["named_gate"] == registry["named_gate"]:
+        assert latest["next_required_build"] == registry["next_required_build"]
+    else:
+        assert latest["named_gate"] == registry["next_required_build"]
+        assert wave2["result_ref"].endswith(
+            "k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md"
+        )
     for emitted in (
         "K77_BOSONIC_DENSITY_ADJOINT_PSEUDO_MUSICAL",
         "DIMENSION_ONE_PAIRING_GENERATED_NATURAL_MAP_SPACE",
@@ -144,8 +145,13 @@ def main() -> None:
         assert emitted in wave2["emitted"]
     assert "ACTUAL_K77_BOSONIC_EULER_PRIMALIZER" not in wave2["carried_debt"]
     assert "ACTION_SHELL_TWO_CONNECTION_LIFT" not in wave2["carried_debt"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    current_next = (
+        wave2["continuations"][-1]["next_required_build"]
+        if wave2.get("continuations")
+        else latest["next_required_build"]
+    )
+    assert campaign["frontier"]["next_required_build"] == current_next
+    assert campaign["frontier"]["latest"]["next_required_build"] == current_next
 
     for phrase in (
         "source-silent",
@@ -182,7 +188,7 @@ def main() -> None:
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-euler-shell-two-connection-lift-2026-08-04.md" in surface
         assert "k77_euler_lift_full_field_ward_domain_observation_port" in surface
-    assert "channel-swings/` (176)" in tests_readme
+    assert "channel-swings/` (177)" in tests_readme
     assert "k77_wave2_euler_shell_two_connection_probe.py" in tests_readme
     assert "k77_wave2_euler_shell_two_connection_scope_audit.py" in gates_readme
     assert "revision 31" in improvement

@@ -1522,3 +1522,33 @@ admission, or P1/P2/P3 status moves.
 - A dependent shell equivalence has zero selection surplus. Its value is that
   it makes the construction coherent and retires an unowned debt, not that it
   already predicts physics.
+
+---
+
+## Revision 32 (2026-08-05, observation has two independent false-shell kernels)
+
+Sources:
+`explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md`,
+`lab/sources/gu-euler-lift-ward-observation-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-euler-lift-ward-observation-port.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-euler-lift-ward-observation-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- An observed complex detects an upstairs Euler equation only modulo the
+  kernel of the complete receiver `rho_X sharp_X O_E`.
+- There are two independent false-shell mechanisms: the equation dual can
+  erase a normal Euler component, and the observed coefficient representation
+  can erase a connection difference that survived equation observation.
+- Compute the whole composite kernel before testing observation projectors.
+  Local `R L=1` and observed-equation transport do not prove no-leakage.
+- The minimal conditional repair is conjunctive: equation no-leakage on the
+  lifted field image plus coefficient faithfulness on the observed `tau_E`
+  image. Either condition alone is insufficient.
+- Ward naturality does not imply no-leakage. A normal Euler covector can pair
+  trivially with every tangent gauge generator while remaining nonzero.
+- A leakage vector lying in a finite preboundary characteristic kernel is not
+  thereby gauge. Quotienting it requires an action-derived tangent/BV
+  differential and boundary conditions.
+- Reuse existing observation machinery. The remaining debt is the actual K77
+  Euler receiver and common domain, not a generic proof that descent can exist.

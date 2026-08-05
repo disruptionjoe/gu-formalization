@@ -7,6 +7,19 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 EULER-LIFT OBSERVATION RECEIVER.**
+> [`explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md`](explorations/k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md)
+> computes the complete observation detector
+> `rho_X sharp_X O_E`. Observed square-zero detects the upstairs action Euler
+> row only modulo its kernel. Exact controls separate two false shells:
+> equation leakage and post-observation representation blindness. On the
+> no-leakage image, a coefficient action faithful on the observed connection
+> difference restores the bidirectional shell theorem. Even Ward naturality
+> and a finite characteristic quotient port, but neither supplies no-leakage,
+> odd BV closure, or a common analytic domain. P1/P2/P3 remain unused and Wave
+> 3 stays closed. Next gate:
+> `K77_ACTUAL_Y14_EULER_RECEIVER_FAITHFUL_MODULE_AND_COMMON_GREEN_DOMAIN`.
+
 > **2026-08-04 K77 WAVE-2 EULER-SHELL TWO-CONNECTION LIFT.**
 > [`explorations/k77-wave2-euler-shell-two-connection-lift-2026-08-04.md`](explorations/k77-wave2-euler-shell-two-connection-lift-2026-08-04.md)
 > ports the existing indefinite density/adjoint pseudo-musical to the active

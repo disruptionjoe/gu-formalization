@@ -907,3 +907,17 @@ pair identification remains source-silent, and full stationarity, local/global
 Ward/BV descent, domain, observation and physics remain open; Wave 3 and
 P1/P2/P3 remain closed. Next gate:
 `K77_EULER_LIFT_FULL_FIELD_WARD_DOMAIN_OBSERVATION_PORT`.
+
+# K77 Wave 2 Euler-lift Ward and observation receiver (2026-08-05)
+
+[`k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md`](k77-wave2-euler-lift-full-field-ward-observation-port-2026-08-05.md)
+computes the whole fixed observation detector
+`rho_X sharp_X O_E` instead of testing receiver candidates. Its kernel has two
+independent sources: an equation component lost by observation and a surviving
+connection difference killed by the observed coefficient representation.
+Exact false-shell witnesses realize both; no-leakage plus faithfulness on the
+observed `tau_E` image restores the upstairs Euler-shell converse. Even Ward
+naturality, finite invariant-image and preboundary-quotient checks pass at
+their stated grades, while the actual `Y14` receiver, odd BV differential and
+common closed domain remain open. Wave 3 and P1/P2/P3 remain closed. Next gate:
+`K77_ACTUAL_Y14_EULER_RECEIVER_FAITHFUL_MODULE_AND_COMMON_GREEN_DOMAIN`.

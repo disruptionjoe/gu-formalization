@@ -1035,6 +1035,17 @@ coefficient module. It enforces source silence, zero surplus,
 `free_object_delta=-1`, full-field Ward/domain/observation debt, P1/P2/P3
 non-use, and closed Wave 3.
 
+## K77 Wave 2 Euler-lift observation receiver scope gate
+
+`k77_wave2_euler_lift_ward_observation_scope_audit.py` requires the exact
+detector `rho_X sharp_X O_E`, separately realized equation-leakage and
+representation-blindness false shells, and the repaired restricted converse
+only under no-leakage plus faithfulness on the observed connection-difference
+image. It preserves source silence for the receiver theorem, finite/model
+grades for Ward and preboundary checks, zero selector parameters,
+`free_object_delta=0`, the actual `Y14` receiver/BV/common-domain debt,
+P1/P2/P3 non-use, and closed Wave 3.
+
 ## Wave disposition schema gate
 
 `wave_disposition_schema_audit.py` requires every wave/cycle disposition artifact to
