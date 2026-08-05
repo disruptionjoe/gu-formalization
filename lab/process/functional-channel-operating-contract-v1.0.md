@@ -194,29 +194,29 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.7
-retains the exact v0.4 result identifying source `theta` with the action's
-connection difference `T` up to the
-tilted trivialization and computes exact ambient curvature-covariation rank
-105 and total homogeneous `T`-Euler rank 196. The killed contraction-first
-post-Shiab observed receiver remains no kill of the complete fluctuating
-geometry. The new action-level test instead proves that current `I1B` cannot
-own the pre-Shiab receiver at homogeneous `T=0`: its curvature Hessian still
-factors through that selected Shiab. A rival restriction-first defect horn is
-now written and, on a fixed gravitational slot, has an exact non-null
-linearized even-BV complex `4 -> 20 -> 20 -> 4` and quotient rank 16. The
-formerly arbitrary receiver is now explicit:
-`sigma_epsilon(v_T)=pr_V pi1_epsilon(v_T(g/2))`. On the faithful K77 carrier it
-has exact rank ten, an adjoint right inverse and an orthogonal projector; the
-same-stratum gravitational sector split is exact. On the admitted K77 branch,
-the spin structure on `X`, tautological Lorentz metric, chimeric spinor
-extension and source `epsilon` now construct the global full labelled
-Clifford frame. The primary support horn keeps one bulk action plus
-independently typed `X` terms through `s_!`, requiring no transverse profile.
-The relative coefficient `lambda_def` is an unresolved alias to the existing
-`kappa_1`/source normalization or one additional real. Nonlinear BV, the
-null/Green domain and the physical quotient also remain open. The global
-ownership source return is `SOURCE-CORRECTS`.
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.8
+retains the exact identification of source `theta` with action connection
+difference `T` up to tilted trivialization, the exact global K77
+`gamma_epsilon` frame and rank-ten receiver, and the profile-free
+bulk-plus-independent-`X` support horn. It now composes the selected displayed
+Shiab, primitive `epsilon` Euler row and complete homogeneous even Ward owner
+into a formal minimal homogeneous-gauge BV action/CME. This is not the
+diffeomorphism or odd super-IG BV algebra and not positive cohomology.
+
+At the null defect symbol, the earlier six-direction uncertainty is now an
+exact dimension filtration: the coupled kernel has dimension ten, four
+independent harmonic constraints leave dimension six, and quotient by four
+residual diffeomorphisms leaves two explicit plus/cross physical
+polarizations. On the flat globally hyperbolic observation background,
+harmonic gauge gives a conditional advanced/retarded defect Green complex. A
+curved normally-hyperbolic completion and the global coupled noncompact
+`Y14` Krein/Green/BFV domain remain open.
+
+The relative coefficient `lambda_def` is distinct in role from the internal
+`T` gain `kappa_1` and was not one of CB-D's charged 83 coordinates.
+Prequotient residue is therefore 84 continuous reals; the alias fork is
+retired and any normalization quotient remains unranked. The new composed-
+locus source return is `SOURCE-SILENT`.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -229,16 +229,16 @@ Einstein source.
 Current gate:
 
 ```text
-ASSEMBLE_GLOBAL_GAMMA_EPSILON_NONLINEAR_EVEN_BV_PRIMITIVE_OWNER_LEDGER__TEST_EXISTING_SOURCE_NORMALIZATION_ON_LAMBDA_DEF__AND_CONSTRUCT_NULL_TRACE_COMPATIBLE_KREIN_GREEN_DOMAIN
+CONSTRUCT_MOVING_OBSERVATION_NO_LEAKAGE_AND_GLOBAL_COUPLED_Y14_KREIN_GREEN_BFV_DOMAIN_OR_SHARP_OBSTRUCTION__THEN_DERIVE_THE_OBSERVED_EINSTEIN_STRESS_ENERGY_AND_DYNAMIC_COSMOLOGICAL_EQUATIONS
 ```
 
-It must assemble the global `gamma_epsilon` nonlinear Ward/BV primitive and
-moving-owner ledger, decide whether `lambda_def` is an existing normalization
-or a new real, and address the null characteristic/trace-compatible
-Krein-Green domain before ranking a physical map. Requiring the new geometry
-to factor through the old contraction-first receiver would remain circular;
-treating the profile-free support choice as proof of its relative coefficient
-would be equally wrong.
+It must carry the complete action and the exact two-mode null quotient through
+moving observation without leakage, then construct the global coupled `Y14`
+domain or state a sharp obstruction. Only after that should the observed
+Einstein, stress-energy and dynamic cosmological Euler equations be derived.
+Requiring the new geometry to factor through the old contraction-first
+receiver remains circular; promoting the flat defect Green complex to the
+upstairs domain would be equally wrong.
 
 ## Contract boundary
 

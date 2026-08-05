@@ -2,11 +2,26 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-07-25"
+updated_at: "2026-08-05"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Active construction update 2026-08-05 (no canon or verdict change).** The
+K77 gravitational route now has a global full labelled Clifford frame and
+rank-ten receiver, a profile-free bulk-plus-independent-`X` support horn, a
+composed formal minimal homogeneous-gauge CME, and an exact null
+constraint/gauge quotient with two explicit physical polarizations. A flat
+globally hyperbolic defect Green complex is conditional; the curved
+completion, moving-observation no-leakage and global coupled noncompact
+`Y14` Krein/Green/BFV domain remain open. Prequotient continuous residue is
+84 after charging `lambda_def`; this is not 84 observables and no
+normalization quotient is yet ranked. The next construction target is the
+global domain/observation gate, followed by the observed Einstein,
+stress-energy and dynamic cosmological Euler equations. See
+`explorations/conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md`
+and conditional ledger v0.8.
 
 The internal work-artifact system was the originating workspace for this project. The
 public repository is now the durable research authority.

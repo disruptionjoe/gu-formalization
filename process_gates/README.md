@@ -40,6 +40,8 @@ selected notes below and in each script header.
 - `conditional_physics_ledger_v04_scope_audit.py`
 - `conditional_physics_ledger_v05_scope_audit.py`
 - `conditional_physics_ledger_v06_scope_audit.py`
+- `conditional_physics_ledger_v07_scope_audit.py`
+- `conditional_physics_ledger_v08_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1306,6 +1308,15 @@ bulk-plus-independent-`X` support horn while refusing to book `lambda_def`
 until its normalization alias is adjudicated. Nonlinear BV, null/Green domain,
 physical cosmology and P1/P2/P3 remain open/unchanged.
 
+## Conditional physics ledger v0.8 scope gate
+
+`conditional_physics_ledger_v08_scope_audit.py` preserves v0.7 byte-for-byte,
+recomputes the unchanged 82-row denominator and verdict counts, and requires
+only `LT-GR2c` to move. It wires the formal minimal homogeneous-gauge CME,
+exact null `10 -> 6 -> 2` constraint/gauge quotient, conditional flat-defect
+Green complex and 84-real prequotient count while requiring the curved/global
+`Y14` domain, observation, positivity, vacuum and cosmology to remain open.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1314,7 +1325,8 @@ Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
 two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
-receiver/same-stratum weld plus global reduction/support/BV/domain successor gate. It
+receiver, formal homogeneous-gauge CME, null physical quotient and global
+`Y14` observation/domain successor gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

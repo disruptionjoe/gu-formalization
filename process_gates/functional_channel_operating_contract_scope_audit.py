@@ -57,8 +57,8 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.7.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.7.json")
+assert "conditional-physics-ledger-v0.8.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.8.json")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -74,17 +74,17 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "K77_GLOBAL_FULL_CHIMERIC_CLIFFORD_REDUCTION_CONSTRUCTED__PRIMARY_INDEPENDENT_X_SUPPORT_HORN_SELECTED__LAMBDA_DEF_ALIAS_NONLINEAR_BV_NULL_GREEN_DOMAIN_OPEN"
-assert directive["source_return"] == "SOURCE-CORRECTS"
+assert directive["status"] == "GLOBAL_HOMOGENEOUS_EVEN_OWNER_AND_FORMAL_MINIMAL_CME_COMPOSED__NULL_10_TO_6_TO_2_PHYSICAL_QUOTIENT_EXACT__FLAT_DEFECT_GREEN_DOMAIN_CONDITIONAL__LAMBDA_DEF_84TH_PREQUOTIENT_REAL__GLOBAL_Y14_DOMAIN_OBSERVATION_PHYSICS_OPEN"
+assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "ASSEMBLE_GLOBAL_GAMMA_EPSILON_NONLINEAR_EVEN_BV" in directive["next_gate"]
-assert "LAMBDA_DEF" in directive["next_gate"]
-assert "would remain circular" in human
+assert "MOVING_OBSERVATION_NO_LEAKAGE" in directive["next_gate"]
+assert "GLOBAL_COUPLED_Y14_KREIN_GREEN_BFV_DOMAIN" in directive["next_gate"]
+assert "remains circular" in human
 assert "the Einstein equation was recovered” is not a completion result" in human
 assert "historical Einstein" in human
 
@@ -96,4 +96,4 @@ assert set(contract["non_effects"]) >= {
     "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels, v0.7 ledger, adverse-row independence, source-corrected global K77 frame, circularity fence and the lambda-alias/BV/null-domain gate are wired without lane or system promotion")
+print("PASS: functional channels, v0.8 ledger, adverse-row independence, source-silent formal homogeneous-gauge CME/null quotient/flat-defect Green boundary and the global Y14 observation-domain gate are wired without lane or system promotion")

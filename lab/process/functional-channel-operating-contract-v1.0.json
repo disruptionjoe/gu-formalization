@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.7.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.7.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.8.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.8.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,7 +74,7 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "K77_GLOBAL_FULL_CHIMERIC_CLIFFORD_REDUCTION_CONSTRUCTED__PRIMARY_INDEPENDENT_X_SUPPORT_HORN_SELECTED__LAMBDA_DEF_ALIAS_NONLINEAR_BV_NULL_GREEN_DOMAIN_OPEN",
+      "status": "GLOBAL_HOMOGENEOUS_EVEN_OWNER_AND_FORMAL_MINIMAL_CME_COMPOSED__NULL_10_TO_6_TO_2_PHYSICAL_QUOTIENT_EXACT__FLAT_DEFECT_GREEN_DOMAIN_CONDITIONAL__LAMBDA_DEF_84TH_PREQUOTIENT_REAL__GLOBAL_Y14_DOMAIN_OBSERVATION_PHYSICS_OPEN",
       "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
       "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR5", "LT-GR6"],
       "primary_row_on_hold": null,
@@ -91,7 +91,8 @@
         "explorations/conditional-build/k77-epsilon-gravitational-soldering-weld-2026-08-05.md",
         "lab/sources/k77-epsilon-gravitational-soldering-weld-source-reinspection-2026-08-05.md",
         "explorations/conditional-build/k77-global-chimeric-spin-reduction-and-support-normalization-2026-08-05.md",
-        "lab/sources/k77-global-chimeric-spin-reduction-source-reinspection-2026-08-05.md"
+        "lab/sources/k77-global-chimeric-spin-reduction-source-reinspection-2026-08-05.md",
+        "explorations/conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -103,12 +104,12 @@
         "EFFECTIVE_W_OF_Z_OBSERVABLE"
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
-      "source_return": "SOURCE-CORRECTS",
-      "current_evidence_boundary": "CURRENT_I1B_T0_SELECTED_SHIAB_VALUE_HESSIAN_CANNOT_OWN_PRE_SHIAB_RECEIVER__ADMITTED_SPIN_X_SOURCE_P_H_AND_SOURCE_EPSILON_CONSTRUCT_GLOBAL_FULL_LABELLED_K77_CLIFFORD_FRAME__SIGMA_EPSILON_RANK10_PROJECTOR_GLOBAL__PRIMARY_BULK_PLUS_INDEPENDENT_X_SUPPORT_HORN_REQUIRES_NO_TRANSVERSE_PROFILE__LAMBDA_DEF_ALIAS_NONLINEAR_BV_NULL_GREEN_DOMAIN_AND_PHYSICAL_COSMOLOGY_OPEN__VACUUM_SHIFT_TRACKED_NOT_SCREENED",
+      "source_return": "SOURCE-SILENT",
+      "current_evidence_boundary": "GLOBAL_K77_GAMMA_EPSILON_AND_RANK10_RECEIVER_EXACT__SELECTED_DISPLAYED_SHIAB_PRIMITIVE_EPSILON_AND_FULL_HOMOGENEOUS_EVEN_WARD_OWNER_COMPOSED__FORMAL_MINIMAL_HOMOGENEOUS_GAUGE_CME_PASS__NULL_CHARACTERISTIC_DIMENSION_FILTRATION_10_TO_6_TO_2_EXACT_WITH_PLUS_CROSS_PHYSICAL_MODES__FLAT_GLOBALLY_HYPERBOLIC_DEFECT_GREEN_COMPLEX_CONDITIONAL__LAMBDA_DEF_CHARGED_AS_84TH_PREQUOTIENT_REAL__CURVED_COMPLETION_GLOBAL_COUPLED_Y14_DOMAIN_OBSERVATION_POSITIVITY_VACUUM_AND_COSMOLOGY_OPEN",
       "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
       "release_condition_met": true,
-      "resolved_by": "explorations/conditional-build/k77-global-chimeric-spin-reduction-and-support-normalization-2026-08-05.md",
-      "next_gate": "ASSEMBLE_GLOBAL_GAMMA_EPSILON_NONLINEAR_EVEN_BV_PRIMITIVE_OWNER_LEDGER__TEST_EXISTING_SOURCE_NORMALIZATION_ON_LAMBDA_DEF__AND_CONSTRUCT_NULL_TRACE_COMPATIBLE_KREIN_GREEN_DOMAIN"
+      "resolved_by": "explorations/conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md",
+      "next_gate": "CONSTRUCT_MOVING_OBSERVATION_NO_LEAKAGE_AND_GLOBAL_COUPLED_Y14_KREIN_GREEN_BFV_DOMAIN_OR_SHARP_OBSTRUCTION__THEN_DERIVE_THE_OBSERVED_EINSTEIN_STRESS_ENERGY_AND_DYNAMIC_COSMOLOGICAL_EQUATIONS"
     }
   ],
   "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE", "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]

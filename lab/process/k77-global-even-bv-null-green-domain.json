@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-05",
+  "status": "GLOBAL_EVEN_OWNER_AND_FORMAL_MINIMAL_CME_COMPOSED__NULL_4_CONSTRAINT_4_GAUGE_2_PHYSICAL_EXACT__DEFECT_GREEN_DOMAIN_CONDITIONAL__GLOBAL_Y14_DOMAIN_OPEN",
+  "ledger_rows": ["LT-GR1b", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-SM8"],
+  "source_return": "SOURCE-SILENT",
+  "layer0": {
+    "primitive_epsilon_vs_gauge_epsilon": "DISTINCT",
+    "ward_vs_cme": "DISTINCT",
+    "even_bv_vs_odd_super_ig": "DISTINCT",
+    "constraint_vs_gauge_vs_physical_null": "DISTINCT",
+    "defect_green_vs_global_y14_domain": "DISTINCT",
+    "lambda_def_vs_kappa1_vs_source_norm": "DISTINCT"
+  },
+  "composed_owner_chain": {
+    "global_gamma_epsilon": true,
+    "selected_displayed_shiab": "COMM_SYMI_SYMI",
+    "primitive_epsilon_euler": "D_B_BANG(E_B_MINUS_E_T)_PLUS_D_EPSILON_SHIAB_BANG_K_SHIAB",
+    "complete_homogeneous_even_ward": true,
+    "metric_section_density_projector_background_preboundary_owners_retained": true
+  },
+  "formal_minimal_even_bv": {
+    "classical_master_equation": "PASS_FORMAL_CLOSED_HOMOGENEOUS_EVEN_LIE_ALGEBRA_GRADE",
+    "hypotheses": ["FULL_OWNER_ACTION_INVARIANCE", "REPRESENTATION_CLOSURE", "JACOBI"],
+    "nonabelian_control": "SO3_ADJOINT_EXACT",
+    "odd_super_ig_closure": "OPEN",
+    "quantum_master_equation": "OPEN",
+    "analytic_bv_phase_space": "OPEN",
+    "positive_physical_cohomology": "OPEN"
+  },
+  "null_split": {
+    "covector": [1, 1, 0, 0],
+    "coupled_hessian_rank": 10,
+    "characteristic_kernel_dimension": 10,
+    "harmonic_constraint_rank_on_kernel": 4,
+    "constraint_compatible_kernel_dimension": 6,
+    "residual_gauge_rank": 4,
+    "physical_quotient_dimension": 2,
+    "explicit_representatives": ["PLUS", "CROSS"],
+    "all_six_removed": false
+  },
+  "green_domain": {
+    "scope": "FOUR_DIMENSIONAL_FLAT_DEFECT_OR_SEPARATELY_PROVED_NORMALLY_HYPERBOLIC_COMPLETION_ONLY",
+    "hypotheses": ["FLAT_GLOBALLY_HYPERBOLIC_X_OR_NORMALLY_HYPERBOLIC_CURVED_COMPLETION", "HARMONIC_GAUGE", "COMPACT_SUPPORT_TO_SPACELIKE_COMPACT_GREEN_IMAGES", "NONDEGENERATE_TRACE_REVERSED_DEWITT_PAIRING"],
+    "trace_reversal_involutive": true,
+    "advanced_retarded_green_operators": "CONDITIONAL_PASS",
+    "composition_stability_reference": "BAER_ARXIV_1310_0738",
+    "compact_boundary_dirichlet_graph": "PREDECESSOR_H10_INTERSECT_H1_0_TO_H9",
+    "preboundary_flux_without_dirichlet": "RETAINED",
+    "curved_lower_order_completion": "OPEN",
+    "global_coupled_noncompact_y14_domain": "OPEN"
+  },
+  "normalization": {
+    "cb_d_packet_plus_gimmel_count": 83,
+    "lambda_def_role": "RELATIVE_COEFFICIENT_OF_INDEPENDENTLY_TYPED_X_ACTION",
+    "lambda_def_equals_kappa1": false,
+    "lambda_def_already_charged_as_source_norm": false,
+    "prequotient_continuous_real_count": 84,
+    "normalization_quotient_ranked": false,
+    "retired_discrete_fork": "LAMBDA_DEF_ALIAS"
+  },
+  "residue": {
+    "continuous_real_before_quotient": 84,
+    "function_valued_at_least": 19,
+    "open_discrete_forks": 10,
+    "open_fork_horn_product": 2304,
+    "quotients_ranked": 2,
+    "global_residue_reduction_booked": false,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "row_dispositions": {
+    "LT-GR1b": "NO_CHANGE_SELECTED_POST_SHIAB_FACTOR_ROUTE_REMAINS_KILLED",
+    "LT-GR2b": "NO_CHANGE_NONZERO_VACUUM_OPEN",
+    "LT-GR2c": "MIGRATED_DISTANCE_REDUCED",
+    "LT-GR2d": "NO_CHANGE_MAGNITUDE_SCREENING_STABILITY_OPEN",
+    "LT-SM8": "NO_CHANGE_POSITIVE_PHYSICAL_COHOMOLOGY_OPEN"
+  },
+  "held_open": [
+    "MOVING_OBSERVATION_NO_LEAKAGE",
+    "GLOBAL_COUPLED_NONCOMPACT_Y14_KREIN_GREEN_BFV_DOMAIN",
+    "ODD_SUPER_IG_CLIFFORD_ACTION_CLOSURE",
+    "POSITIVE_PHYSICAL_COHOMOLOGY",
+    "OBSERVED_EINSTEIN_STRESS_ENERGY_DYNAMIC_COSMOLOGICAL_EULER_SYSTEM",
+    "NONZERO_VACUUM_BRANCH",
+    "DARK_ENERGY_SCREENING_MAGNITUDE_AND_W_OF_Z"
+  ],
+  "next_gate": "CONSTRUCT_MOVING_OBSERVATION_NO_LEAKAGE_AND_GLOBAL_COUPLED_Y14_KREIN_GREEN_BFV_DOMAIN_OR_SHARP_OBSTRUCTION__THEN_DERIVE_THE_OBSERVED_EINSTEIN_STRESS_ENERGY_AND_DYNAMIC_COSMOLOGICAL_EQUATIONS"
+}

@@ -7,6 +7,19 @@ updated_at: "2026-07-30"
 
 # Explorations
 
+## K77 global homogeneous-even BV, null quotient and defect Green domain (2026-08-05)
+
+[`conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md`](conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md)
+composes the global K77 frame, selected displayed Shiab, primitive `epsilon`
+row and complete homogeneous even Ward owner into a formal minimal
+homogeneous-gauge CME. Exact SymPy and independent Sage reconstruct the null
+dimension filtration `10 -> 6 -> 2`, with explicit plus/cross physical
+representatives after harmonic constraint and residual gauge. The
+flat-background defect Green complex is conditional; curved completion and
+the global coupled noncompact `Y14` domain remain open. `lambda_def` becomes
+the 84th prequotient real and its unproved alias fork is retired. No observed
+physics or verdict is promoted.
+
 ## K77 Wave 2 principal-Bianchi product selector (2026-08-05)
 
 [`k77-wave2-principal-bianchi-product-selector-2026-08-05.md`](k77-wave2-principal-bianchi-product-selector-2026-08-05.md)
@@ -1067,18 +1080,16 @@ all ten restriction-first Einstein components, so no receiver depending only
 on that post-Shiab output can recover the target. A canonical pre-Shiab Riemann/Gauss receiver and its local
 first variation survive; complete K77 source-action ownership remains open.
 
-[`conditional-build/conditional-physics-ledger-v0.7.md`](conditional-build/conditional-physics-ledger-v0.7.md)
-is the current human ledger view. It retains v0.6 unchanged and advances only
-`LT-GR2c`. The current `I1B` action cannot own the pre-Shiab receiver at the
-homogeneous `T=0` locus. A conditional repaired fixed-gravitational-slot
-action has an exact non-null linearized `4 -> 20 -> 20 -> 4` even-BV complex
-and quotient rank 16, with trace-reversed inertia `(6,4)`. The K77 receiver is
-now global, rank ten and equipped with an adjoint orthogonal projector. The
-admitted spin structure, source-built chimeric spinor bundle and source
-`epsilon` construct the full labelled K77 Clifford frame. The primary horn is
-one bulk action plus an independent `X` action with no transverse profile.
-The `lambda_def` normalization alias, nonlinear BV and null/Green domain remain
-open, so no physical recovery or global residue reduction is booked.
+`conditional-build/conditional-physics-ledger-v0.8.md` is the current human
+ledger view. It retains v0.7 unchanged and advances only
+`LT-GR2c`. The global K77 frame, selected displayed Shiab, primitive
+`epsilon` row and full homogeneous even Ward owner now compose to a formal
+minimal homogeneous-gauge CME. The exact null dimension filtration is
+`10 -> 6 -> 2`, retaining explicit plus/cross physical modes after harmonic
+constraint and residual gauge. A flat defect Green complex is conditional;
+curved completion and the global coupled noncompact `Y14` domain remain open.
+`lambda_def` is charged as the 84th prequotient real, the alias fork is
+retired, and no global residue reduction or physical recovery is booked.
 
 `conditional-build/pre-shiab-gauss-defect-action-bv-symbol-2026-08-05.md`
 contains the action-level obstruction, repaired horn, exact SymPy/Sage symbol
