@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2i2_affine_first_size3_full_evaluator_probe.py`
+  certifies all ten owners at the zero plus four coordinate conormal
+  directions with exact affine spanning under both S3 generators, then
+  certifies the lexicographically first non-fixed size-three orbit through the
+  full mixed evaluator. The affine layer passes 100/100 generator edges and
+  800/800 moving-family checks; the selected orbit passes 24/24 slots per
+  layer with exact actions `-727/144`, `-727/144`, and `107/9`. Durable
+  coverage is exactly `3/380`; the other 377 representatives remain open.
+  Run it with `uv run --with sympy==1.14.0 --with numpy python`.
 - `channel-swings/pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_probe.py`
   certifies the complete mixed geometry, Phi1/Phi2, Hodge, Shiab residual,
   moving-primalizer, and action evaluator on both one-cell S3 orbits under

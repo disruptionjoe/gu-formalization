@@ -4,14 +4,14 @@
   "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED_PW2FR2B2B2_NEXT",
   "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
   "latest_successor_checkpoint": {
-    "gate": "PW2F-R2B2B2I2-S3-FIXED-ORBIT-FULL-EVALUATOR",
-    "status": "FULL_EVALUATOR_CERTIFIED_ON_COMPLETE_S3_FIXED_ORBIT_STRATUM__UNIVERSAL_378_OPEN",
-    "earned": "both one-cell S3 orbits pass the complete mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action evaluator under the reflection and three-cycle; all seven layers pass 16/16 slots, mixed liveness and both moving-Hodge controls fire, and the exact mixed actions are 215/8 and 87/16",
-    "scope": "the complete fixed-orbit stratum is durably certified at 2/380 representatives; the remaining 378 and dense universal held-outs are open, the reduction engine is unpromoted, the 1,925-cell fallback remains live, and both separate banks plus Green/Helmholtz remain blocked",
+    "gate": "PW2F-R2B2B2I2-AFFINE-FIRST-MOVING-FIRST-SIZE3-FULL-EVALUATOR",
+    "status": "AFFINE_FIRST_MOVING_CERTIFIED__FIRST_SIZE3_ORBIT_CERTIFIED__DURABLE_3_OF_380__UNIVERSAL_377_OPEN",
+    "earned": "all ten owners pass the zero-plus-four affine first-moving basis and both exact S3 generators through geometry, eight moving Shiab families, residual, moving primalizer, and action derivative; the lexicographically first non-fixed size-three orbit passes all six full-evaluator edges with 24/24 slots per layer and exact mixed actions -727/144, -727/144, and 107/9",
+    "scope": "the affine first-moving layer and exactly one non-fixed size-three orbit are durably certified at 3/380 representatives; the remaining 377 and dense universal held-outs are open, the reduction engine is unpromoted, the 1,925-cell fallback remains live, and both separate banks plus Green/Helmholtz remain blocked",
     "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
     "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
     "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
-    "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS"
+    "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-377-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS"
   },
   "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
   "current_state": {

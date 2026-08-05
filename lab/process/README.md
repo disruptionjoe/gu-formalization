@@ -38,6 +38,13 @@ Runbooks:
 
 ## Direct Process Files
 
+- `pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate.json` -
+  PW2F-R2B2B2I2 successor ledger: records all ten zero-plus-four affine
+  first-moving owner cases, two dense affine controls, 100 both-generator
+  edges, and the lexicographically first non-fixed size-three full-evaluator
+  orbit with exact actions `-727/144`, `-727/144`, and `107/9`. Durable
+  coverage is exactly `3/380`; the other 377 representatives, separate banks,
+  Green/Helmholtz, and physics remain open, and the fallback stays live.
 - `pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certificate.json` -
   PW2F-R2B2B2I2 ledger: records the two exact one-cell S3 orbits, their
   complete mixed metric/Phi/Hodge/Shiab/residual/moving-primalizer/action

@@ -7,6 +7,27 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 PW2F-R2B2B2I2 AFFINE FIRST-MOVING LAYER AND FIRST
+> NON-FIXED SIZE-THREE ORBIT CERTIFIED; 377 REPRESENTATIVES REMAIN.** Every
+> one of ten owners at the zero plus four coordinate conormal directions
+> passes both S3 generators through geometry, eight moving Shiab families,
+> residual, moving primalizer, and action derivative: `50/50` basis cases,
+> `2/2` dense affine spans, `100/100` generator edges, and `800/800` moving
+> family checks. The affine origin is essential; the obsolete forward lift
+> rejects.
+>
+> Output-blind lexicographic selection then chooses the first non-fixed
+> three-cell orbit, owners `(0,0)`, `(4,4)`, and `(7,7)` at quartic point
+> `(0,0,0,4)`. All six directed edges pass every full-evaluator layer
+> `24/24`; mixed liveness and moving-Hodge controls pass `3/3`; exact mixed
+> actions are `-727/144`, `-727/144`, and `107/9`. Durable coverage is now
+> exactly `3/380`. The engine remains unpromoted, the 1,925-cell fallback
+> remains live, and the two banks remain separate and unassembled. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-377-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate-2026-08-05.md`.
+
 > **2026-08-05 PW2F-R2B2B2I2 FULL EVALUATOR CERTIFIED ON THE COMPLETE
 > S3-FIXED ORBIT STRATUM; THE OTHER 378 REPRESENTATIVES REMAIN OPEN.** The
 > exact 1,925-label resolver has two one-cell orbits, `(9,9;0,0,0,4)` and

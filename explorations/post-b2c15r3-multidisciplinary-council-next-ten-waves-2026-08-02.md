@@ -15,6 +15,20 @@ public_posture_change: none
 
 # Post-B2C15R3 multidisciplinary council
 
+> **2026-08-05 R2B2B2I2 affine-plus-first-size-three successor
+> checkpoint.** All ten owners at the zero plus four coordinate conormal
+> directions pass exact affine spanning and both generators: `100/100`
+> geometry/residual/primalizer/action edges and `800/800` moving Shiab family
+> transports. The lexicographically first non-fixed size-three orbit, owners
+> `(0,0)`, `(4,4)`, `(7,7)` at `(0,0,0,4)`, passes all six directed full-
+> evaluator edges and every layer `24/24`; exact mixed actions are
+> `-727/144`, `-727/144`, and `107/9`. Durable coverage is exactly `3/380`.
+> The remaining `377` and dense universal heldouts remain open, the engine is
+> unpromoted, and the 1,925-cell fallback stays live. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-377-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
+
 > **2026-08-05 R2B2B2I2 successor checkpoint.** The exact resolver's two
 > one-cell S3 orbits now pass the complete mixed evaluator under both
 > generators. Geometry, `Phi1`, `Phi2`, Hodge, Shiab residual, moving
