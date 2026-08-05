@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "gate": "PRE_SHIAB_GAUSS_DEFECT_ACTION_AND_BV_SYMBOL",
+  "status": "CURRENT_I1B_OWNER_KILLED_AT_T0__CONDITIONAL_REPAIRED_ACTION_AND_NONNULL_BV_SYMBOL_EXACT__GLOBAL_SOLDERING_WELD_AND_NONLINEAR_BV_OPEN",
+  "source_return": "SOURCE-SILENT",
+  "fork": "SIGNATURE_AMBIENT_K77__RESTRICTION_FIRST_GAUSS_REPLACEMENT_HORN",
+  "ledger_rows": ["LT-GR1b", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-SM8"],
+  "layer0": {
+    "ambient_shiab_vs_observed_gauss": "HOMONYM_WITH_NAMED_FACTOR_MAP",
+    "raw_vertical_T_vs_symmetric_tensor": "HOMONYM__REQUIRES_SIGMA_EPSILON",
+    "even_BV_symbol_vs_positive_physical_cohomology": "HOMONYM",
+    "current_I1B_vs_repaired_defect_action": "RIVAL_ACTION_HORNS"
+  },
+  "current_action_result": {
+    "locus": "HOMOGENEOUS_T_ZERO_VALUE_HESSIAN",
+    "curvature_factorization": "THROUGH_SELECTED_SHIAB",
+    "moving_section_curvature_terms": "ZERO_BECAUSE_EXPLICIT_T_FACTOR",
+    "pre_shiab_owner": "KILLED_ON_EXISTING_RANK10_KERNEL_WITNESS",
+    "scope": "DOES_NOT_EXCLUDE_NONZERO_T_DIFFERENT_SHIAB_NONREGULAR_PARENT_OR_REPAIRED_ACTION"
+  },
+  "repaired_action": {
+    "classification": "CONDITIONAL_GRAVITATIONAL_SLOT__PUT_IN_BY_CONSTRUCTION",
+    "formula": "<sigma_epsilon(v_T),G4(res_H P_R barF+Q(II_s))>_DW + kappa_1/2 <sigma_epsilon(v_T),sigma_epsilon(v_T)>_DW",
+    "new_fields": 0,
+    "new_continuous_coefficients_on_unit_replacement_horn": 0,
+    "new_discrete_architecture_horns": 1,
+    "discrete_residue_booking": "REFINES_EXISTING_LT_GR1B_LT_GR2C_ACTION_ARCHITECTURE_FORK__NO_NEW_INDEPENDENT_FORK",
+    "global_sigma_epsilon": "OPEN_EXISTING_EPSILON_IG_OWNER",
+    "bulk_defect_weld": "OPEN"
+  },
+  "exact_results": {
+    "covariant_operator_ansatz_dimension": 5,
+    "ward_bianchi_constraint_rank": 4,
+    "selected_operator_line": [-1, 1, -1, -1, 1],
+    "trace_reversed_frobenius_inertia": [6, 4],
+    "nonnull_einstein_symbol_rank": 6,
+    "nonnull_diffeomorphism_tangent_rank": 4,
+    "nonnull_repaired_hessian_rank_nonzero_gain": 16,
+    "nonnull_repaired_hessian_kernel_dimension": 4,
+    "nonnull_BV_quotient_dimension": 16,
+    "zero_gain_hessian_rank": 12,
+    "zero_gain_kernel_dimension": 8,
+    "null_einstein_symbol_rank": 4,
+    "null_repaired_hessian_rank_nonzero_gain": 10,
+    "null_kernel_dimension": 10,
+    "null_non_gauge_characteristic_kernel_dimension": 6,
+    "local_symbol_quotients_ranked": 1,
+    "global_nonlinear_quotients_ranked": 0
+  },
+  "exact_complex": {
+    "dimensions": [4, 20, 20, 4],
+    "differential": "d0(k)xi=(k_(mu xi_nu),0)",
+    "nonnull_exactness": ["J_d0_ZERO", "d0_STAR_J_ZERO", "KER_J_EQUALS_IM_d0", "IM_J_EQUALS_KER_d0_STAR"],
+    "null_disposition": "CHARACTERISTIC_NOT_EXACT_AFTER_GAUGE"
+  },
+  "boundaries": {
+    "source_attribution": "REPAIRED_TERM_AND_BV_COMPLEX_NOT_PRINTED",
+    "soldering": "FULL_TEN_DIMENSIONAL_EQUIVARIANT_MAP_OPEN__TRACE_q_ONLY_ONE_DIMENSION",
+    "BV": "LINEARIZED_EVEN_NONNULL_SYMBOL_ONLY",
+    "analytic": "NULL_CONE_GREEN_DOMAIN_AND_CONSTRAINT_PROPAGATION_OPEN",
+    "physics": "NO_POSITIVITY_VACUUM_SCREENING_FLRW_WZ_PARTICLE_OR_DEGREE_COUNT",
+    "data": "P1_P2_P3_UNCHANGED_UNUSED"
+  },
+  "next_gate": "CONSTRUCT_EPSILON_IG_GRAVITATIONAL_SOLDERING_MAP_AND_NONLINEAR_PRE_SHIAB_DEFECT_WELD",
+  "probe_receipt": {
+    "source": 1,
+    "repo": 3,
+    "exact": 36,
+    "type": 7,
+    "planted": 11,
+    "total": 58,
+    "failures": 0,
+    "independent_sage": "PASS"
+  }
+}

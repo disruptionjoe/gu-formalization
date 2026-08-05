@@ -194,13 +194,20 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.4 now
-identifies source `theta` with the action's connection difference `T` up to the
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.5
+retains the exact v0.4 result identifying source `theta` with the action's
+connection difference `T` up to the
 tilted trivialization and computes exact ambient curvature-covariation rank
-105 and total homogeneous `T`-Euler rank 196. These results travel with three
-boundaries: the killed contraction-first post-Shiab observed receiver is not a
-kill of the complete fluctuating geometry; the pre-Shiab moving Gauss/`II`
-equation is not yet action-owned; and the native odd BV quotient is undefined.
+105 and total homogeneous `T`-Euler rank 196. The killed contraction-first
+post-Shiab observed receiver remains no kill of the complete fluctuating
+geometry. The new action-level test instead proves that current `I1B` cannot
+own the pre-Shiab receiver at homogeneous `T=0`: its curvature Hessian still
+factors through that selected Shiab. A rival restriction-first defect horn is
+now written and, on a fixed gravitational slot, has an exact non-null
+linearized even-BV complex `4 -> 20 -> 20 -> 4` and quotient rank 16. Global
+ownership remains open: the ten-dimensional equivariant `sigma_epsilon`
+soldering map, nonlinear bulk/defect weld, null/Green domain and physical
+quotient have not been constructed. The repaired claim is `SOURCE-SILENT`.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -213,12 +220,15 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_ACTION_OWNED_PRE_SHIAB_GAUSS_CURVATURE_TO_T_EULER_RECEIVER_AND_NATIVE_BV_QUOTIENT
+CONSTRUCT_EPSILON_IG_GRAVITATIONAL_SOLDERING_MAP_AND_NONLINEAR_PRE_SHIAB_DEFECT_WELD
 ```
 
-It must assemble curvature, moving distortion and observation geometry in one
-Euler equation before ranking the physical map. Requiring the new geometry to
-factor through the old contraction-first receiver would be circular.
+It must construct the actual bundle map (or state an honest stabilizer
+restriction), insert the repaired term into one nonduplicating action, derive
+nonlinear Ward/BV closure and address the null characteristic domain before
+ranking a physical map. Requiring the new geometry to factor through the old
+contraction-first receiver would remain circular; crediting a fixed-slot
+coefficient as a global adjoint-to-`Sym2` soldering map would be equally wrong.
 
 ## Contract boundary
 

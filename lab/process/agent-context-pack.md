@@ -57,15 +57,19 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is complete in ledger v0.4:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.5:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
 The contraction-first post-Shiab receiver loses a rank-10 observed Einstein
 sector, but using that old receiver as a kill of the new fluctuating geometry
-would be circular: moving `T`, the section and Gauss/`II` lie outside it. The
-next gate action-owns the pre-Shiab moving receiver and constructs the native
-BV quotient. Vacuum shifts currently track into `T` but are not screened.
+would be circular: moving `T`, the section and Gauss/`II` lie outside it.
+Current `I1B` nevertheless fails a direct action-level ownership test at
+`T=0`. A conditional fixed-slot repaired action has an exact non-null
+linearized even-BV quotient of rank 16, but its global `epsilon_IG` soldering
+map, nonlinear bulk/defect weld and null/Green domain remain open. The repaired
+claim is `SOURCE-SILENT`. Vacuum shifts currently track into `T` but are not
+screened.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

@@ -38,6 +38,7 @@ selected notes below and in each script header.
 - `chase_readme_inventory_audit.py`
 - `constraint_first_ig_tangent_gate.py`
 - `conditional_physics_ledger_v04_scope_audit.py`
+- `conditional_physics_ledger_v05_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1275,6 +1276,16 @@ contraction-first receiver to the complete pre-Shiab moving Gauss/`II` action
 owner. It also requires the current action's vacuum-shift result to remain
 tracking rather than screening.
 
+## Conditional physics ledger v0.5 scope gate
+
+`conditional_physics_ledger_v05_scope_audit.py` preserves v0.4 byte-for-byte,
+recomputes the unchanged 82-row denominator and verdict counts, requires
+`LT-GR2c` to remain `NEEDS/MISSING_CONSTRUCTION`, and wires the scoped
+current-`I1B` `T=0` ownership kill to the conditional fixed-slot non-null
+even-BV quotient rank 16. It rejects promotion past the missing global
+`sigma_epsilon` soldering map, nonlinear bulk/defect weld and null/Green
+domain, and requires `SOURCE-SILENT` plus unchanged P1/P2/P3.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1282,8 +1293,8 @@ Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
 `LANES.yaml` and the operating model while purpose Lanes 1/2/3/A remain
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
-two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` ambient-action
-rank plus pre-Shiab receiver/BV successor gate. It
+two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` fixed-slot
+pre-Shiab even-BV result plus global soldering/weld/null-domain successor gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

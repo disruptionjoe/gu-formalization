@@ -39,18 +39,18 @@ assert rows["LT-GR2"]["row_status"] == "SUPERSEDED"
 assert set(rows["LT-GR2"]["successors"]) == {
     "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"
 }
-assert contract["standing_ledger"]["ref"].endswith("v0.4.json")
-assert contract["standing_ledger"]["human_ref"].endswith("v0.4.md")
-assert "conditional-physics-ledger-v0.4.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("v0.5.json")
+assert contract["standing_ledger"]["human_ref"].endswith("v0.5.md")
+assert "conditional-physics-ledger-v0.5.json" in lanes
 assert "conditional-physics-ledger-v0.2.json" not in lanes
 
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
-assert directive["status"] == "AMBIENT_ACTION_RANK_EXACT__OBSERVED_PRE_SHIAB_RECEIVER_AND_NATIVE_BV_OPEN"
-assert directive["source_return"] == "SOURCE-CONFIRMS"
+assert directive["status"] == "CURRENT_I1B_T0_OWNER_KILLED__CONDITIONAL_PRE_SHIAB_NONNULL_EVEN_BV_EXACT__GLOBAL_SOLDERING_WELD_AND_NULL_DOMAIN_OPEN"
+assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["primary_row_on_hold"] is None
 assert set(directive["successor_rows"]) == set(rows["LT-GR2"]["successors"])
-assert "PRE_SHIAB_GAUSS_CURVATURE_TO_T" in directive["next_gate"]
+assert "EPSILON_IG_GRAVITATIONAL_SOLDERING" in directive["next_gate"]
 
 assert "00:44:13" in source and "00:45:52" in source
 assert "SOURCE-CONFIRMS" in source
@@ -62,4 +62,4 @@ assert "No reduction is booked" in report
 assert "83 continuous real" in view and "Quotients ranked: 0" in view
 assert "P1/P2/P3" in report
 
-print("PASS: historical v0.3 split remains intact beneath current v0.4 wiring and its source, action, observation, quotient and magnitude fences")
+print("PASS: historical v0.3 split remains intact beneath current v0.5 wiring and its source, action, observation, quotient and magnitude fences")
