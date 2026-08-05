@@ -1,0 +1,144 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2I2-RESUMABLE-FIRST-UNCOVERED-SIZE6-FULL-EVALUATOR",
+  "status": "RESUMABLE_LEDGER_CREATED__FIRST_UNCOVERED_SIZE6_CERTIFIED__DURABLE_4_OF_380__UNIVERSAL_376_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED",
+  "run_id": "RUN-20260805-085253-gu-formalization-pw2fr2b2b2i2-resumable-first-size6",
+  "verdict_scope": "the lexicographically first canonical representative not covered by the durable 3/380 predecessor, its complete six-label S3 orbit, and all twelve directed generator edges through the active mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action jet",
+  "source_disposition": {
+    "REPOSITORY_DERIVES": "the append-only finite S3 coverage ledger, selected size-six certificate, and dense-heldout input bank",
+    "SOURCE_SILENT": "the finite S3 reduction, representative and heldout coverage, complete active coefficient banks, Green/Helmholtz quotient, and physics",
+    "PREDECESSOR_REQUIRES": "complete 380-representative coverage plus executed dense universal heldouts before engine promotion or fallback replacement"
+  },
+  "layer0": {
+    "active_9_5_vs_public_7_7": "DISTINCT_REAL_FORM_ACTION_PRESENTATIONS",
+    "canonical_lattice_coverage_vs_dense_heldouts": "DISTINCT_CONFIRMATION_BANKS",
+    "preregistered_heldout_input_vs_executed_heldout": "DISTINCT_EVIDENCE_STATES",
+    "one_size6_orbit_vs_universal_representative_coverage": "DISTINCT_COVERAGE_LEVELS",
+    "I1_A4_vs_I2B_C4": "SEPARATE_BANKS_WITH_SHARED_FINITE_INDEX_ACTION_ONLY"
+  },
+  "dependencies": {
+    "predecessor_probe": "tests/channel-swings/pw2fr2b2b2i2_affine_first_size3_full_evaluator_probe.py",
+    "predecessor_probe_sha256": "9d2a0d87eabfed56801f0dd8d36149ab674b473f89fdf43b5ab95f8aa66c967a",
+    "predecessor_registry": "lab/process/pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate.json",
+    "predecessor_registry_sha256": "5d7a177d2e04d14953d6abb4026876bac3049757fda28f358e31f56352ac9318"
+  },
+  "resumption_contract": {
+    "ledger_style": "APPEND_ONLY_CERTIFICATE_CHAIN",
+    "selection_rule": "LEXICOGRAPHICALLY_FIRST_CANONICAL_REPRESENTATIVE_NOT_IN_DURABLE_PREDECESSOR_COVERAGE_BEFORE_EVALUATOR_OUTPUT",
+    "shard_unit": "ONE_COMPLETE_CANONICAL_S3_ORBIT",
+    "failure_rule": "FIRST_EXACT_COUNTEREXAMPLE_STOPS_PROMOTION_AND_RETAINS_1925_CELL_FALLBACK",
+    "resource_rule": "SERIALIZED_ONE_HEAVY_EXACT_PROCESS_AT_A_TIME",
+    "next_resume_index": 4
+  },
+  "coverage_chain": {
+    "base": {
+      "representatives_certified": 3,
+      "representative_coverage": "3/380",
+      "certificate": "lab/process/pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate.json"
+    },
+    "entries": [
+      {
+        "coverage_index": 4,
+        "representative": {
+          "owner_pair": [0, 0],
+          "quartic_point": [0, 0, 1, 3]
+        },
+        "orbit_size": 6,
+        "selection": "OUTPUT_BLIND_FIRST_UNCOVERED",
+        "labels": [
+          {"owner_pair": [0, 0], "quartic_point": [0, 0, 1, 3], "mixed_action": "-523/144"},
+          {"owner_pair": [0, 0], "quartic_point": [0, 1, 0, 3], "mixed_action": "-1379/288"},
+          {"owner_pair": [4, 4], "quartic_point": [0, 0, 1, 3], "mixed_action": "-523/144"},
+          {"owner_pair": [4, 4], "quartic_point": [1, 0, 0, 3], "mixed_action": "-1235/288"},
+          {"owner_pair": [7, 7], "quartic_point": [0, 1, 0, 3], "mixed_action": "3499/288"},
+          {"owner_pair": [7, 7], "quartic_point": [1, 0, 0, 3], "mixed_action": "3643/288"}
+        ],
+        "probe": "tests/channel-swings/pw2fr2b2b2i2_resumable_first_size6_full_evaluator_probe.py"
+      }
+    ]
+  },
+  "dense_heldout_bank": {
+    "selection": "PREREGISTERED_BEFORE_HELDOUT_EVALUATOR_OUTPUT",
+    "status": "6_INPUTS_FROZEN__0_EXECUTED",
+    "seeds": [
+      {"owner_pair": [0, 9], "conormal_point": [1, -1, 2, 3]},
+      {"owner_pair": [1, 8], "conormal_point": [1, 2, 3, -2]},
+      {"owner_pair": [2, 5], "conormal_point": [3, 1, -2, 4]},
+      {"owner_pair": [3, 7], "conormal_point": [-2, 1, 4, 5]},
+      {"owner_pair": [4, 4], "conormal_point": [2, 3, -1, 1]},
+      {"owner_pair": [6, 9], "conormal_point": [5, -2, 1, 3]}
+    ],
+    "lattice_exclusion": "6/6",
+    "closed_nontrivial_S3_orbits": "6/6",
+    "executed": "0/6"
+  },
+  "coverage": {
+    "joint_labels": 1925,
+    "canonical_representatives": 380,
+    "durable_representatives_predecessor": 3,
+    "new_size_six_representatives_certified": 1,
+    "durable_representatives_certified": 4,
+    "remaining_representatives": 376,
+    "representative_coverage": "4/380",
+    "selected_orbit_coverage": "6/6_LABELS",
+    "dense_heldouts_preregistered": 6,
+    "dense_heldouts_executed": 0
+  },
+  "exact_checks": {
+    "dependency_hashes": "2/2",
+    "selected_orbit_generator_edges": "12/12",
+    "selected_orbit_nonself_edges": "12/12",
+    "geometry_slots": "48/48",
+    "Phi1_slots": "48/48",
+    "Phi2_slots": "48/48",
+    "Hodge_slots": "48/48",
+    "residual_slots": "48/48",
+    "moving_primalizer_slots": "48/48",
+    "action_slots": "48/48",
+    "mixed_residual_liveness": "6/6",
+    "mixed_primalizer_liveness": "6/6",
+    "mixed_action_liveness": "6/6",
+    "moving_Hodge_product_rule_controls": "6/6",
+    "old_forward_lift_control": "PASS",
+    "mixed_action_fingerprint": ["-523/144", "-1379/288", "-523/144", "-1235/288", "3499/288", "3643/288"],
+    "summary": "26 exact + 2 source + 9 type + 7 planted = 44 PASS"
+  },
+  "constraint_parameter_ledger": {
+    "fitted_parameters": 0,
+    "raw_transport_equalities": 336,
+    "independent_constraint_rank": "NOT_COMPUTED",
+    "physical_surplus": "NOT_APPLICABLE_AT_EVALUATOR_TRANSPORT_SCOPE",
+    "disposition": "NO_REFIT_CERTIFICATE_WITH_RAW_CHECK_COUNT_ONLY__NO_INDEPENDENCE_OR_PHYSICS_SURPLUS_CLAIM"
+  },
+  "admission": {
+    "finite_S3_action": "ADMITTED",
+    "resumable_coverage_ledger": "ADMITTED_APPEND_ONLY",
+    "full_evaluator_transport": "CERTIFIED_4_OF_380_REPRESENTATIVES",
+    "remaining_full_evaluator_transport": "OPEN_376_OF_380_REPRESENTATIVES",
+    "dense_universal_heldouts": "PREREGISTERED_6__EXECUTED_0",
+    "complete_I1_A4": "NOT_PROMOTED",
+    "complete_I2B_C4": "NOT_PROMOTED",
+    "multiindex_Green_Helmholtz": "NOT_ADMITTED"
+  },
+  "reduction_engine": "ADMITTED_NOT_PROMOTED",
+  "unconditional_fallback_cells_per_bank": 1925,
+  "non_regression": {
+    "gravity": "UNCHANGED",
+    "gauge": "UNCHANGED",
+    "odd_matter": "UNCHANGED",
+    "Higgs_Yukawa": "UNCHANGED",
+    "quantum_domain": "UNCHANGED",
+    "cosmology": "UNCHANGED",
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2i2_resumable_first_size6_full_evaluator_probe.py",
+    "exploration": "explorations/pw2fr2b2b2i2-resumable-first-size6-full-evaluator-certificate-2026-08-05.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-05-pw2fr2b2b2i2-resumable-first-size6-review.md",
+    "scope_audit": "process_gates/pw2fr2b2b2i2_resumable_first_size6_scope_audit.py"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-376-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS"
+}

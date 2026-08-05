@@ -15,6 +15,20 @@ public_posture_change: none
 
 # Post-B2C15R3 multidisciplinary council
 
+> **2026-08-05 R2B2B2I2 resumable first-size-six checkpoint.** The new
+> append-only ledger chains to the exact `3/380` predecessor and selects the
+> lexicographically first uncovered representative before evaluator output:
+> `(0,0;0,0,1,3)`. Its complete six-cell orbit passes all twelve non-self
+> generator edges and every evaluator layer `48/48`; mixed controls pass
+> `6/6`, the obsolete lift rejects, and exact mixed actions are `-523/144`,
+> `-1379/288`, `-523/144`, `-1235/288`, `3499/288`, and `3643/288`. Durable
+> coverage is exactly `4/380`. The other `376` remain open; six dense heldout
+> inputs are preregistered but `0/6` executed; the engine is unpromoted and
+> the 1,925-cell fallback stays live. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-376-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused, Curt remains separate, and the third-lane gate is
+> unpromoted.
+
 > **2026-08-05 R2B2B2I2 affine-plus-first-size-three successor
 > checkpoint.** All ten owners at the zero plus four coordinate conormal
 > directions pass exact affine spanning and both generators: `100/100`

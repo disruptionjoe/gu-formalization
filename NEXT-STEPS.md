@@ -7,6 +7,25 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 PW2F-R2B2B2I2 RESUMABLE COVERAGE LEDGER CREATED; FIRST
+> UNCOVERED SIZE-SIX ORBIT CERTIFIED; 376 REPRESENTATIVES REMAIN.** The
+> append-only ledger chains to the byte-pinned durable `3/380` predecessor and
+> selects the next representative before evaluator output: owners `(0,0)` at
+> quartic point `(0,0,1,3)`. Its complete six-label orbit passes all twelve
+> non-self generator edges. Geometry, `Phi1`, `Phi2`, Hodge, residual, moving
+> primalizer, and action each pass `48/48`; all mixed controls pass `6/6`; the
+> obsolete forward lift rejects. Exact mixed actions are `-523/144`,
+> `-1379/288`, `-523/144`, `-1235/288`, `3499/288`, and `3643/288`.
+>
+> Durable coverage is exactly `4/380`. Six dense heldout inputs are now frozen
+> outside the lattice but remain `0/6` executed. The engine is unpromoted, the
+> 1,925-cell fallback stays live, and the two banks remain separate and
+> unassembled. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-376-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-resumable-first-size6-full-evaluator-certificate-2026-08-05.md`.
+
 > **2026-08-05 PW2F-R2B2B2I2 AFFINE FIRST-MOVING LAYER AND FIRST
 > NON-FIXED SIZE-THREE ORBIT CERTIFIED; 377 REPRESENTATIVES REMAIN.** Every
 > one of ten owners at the zero plus four coordinate conormal directions

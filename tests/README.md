@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/pw2fr2b2b2i2_resumable_first_size6_full_evaluator_probe.py`
+  creates the append-only exact coverage chain and certifies the
+  lexicographically first representative outside the durable `3/380`
+  predecessor. Its six-cell orbit passes all twelve non-self generator edges
+  and `48/48` slots per evaluator layer, with exact mixed actions `-523/144`,
+  `-1379/288`, `-523/144`, `-1235/288`, `3499/288`, and `3643/288`.
+  Durable coverage is `4/380`; six dense heldout inputs are preregistered but
+  unexecuted, the other 376 representatives remain open, and the 1,925-cell
+  fallback stays live. Run it with
+  `uv run --with sympy==1.14.0 --with numpy==2.5.1 python`.
 - `channel-swings/pw2fr2b2b2i2_affine_first_size3_full_evaluator_probe.py`
   certifies all ten owners at the zero plus four coordinate conormal
   directions with exact affine spanning under both S3 generators, then
