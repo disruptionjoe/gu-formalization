@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "gate_id": "PRECONTRACT-0C-TYPED-IDENTITY-AND-THEOREM-SCOPE",
+  "status": "COMPLETE",
+  "source_collision": "SOURCE-CORRECTS",
+  "spinor_identity": {
+    "shiab04_line": "WEDGE_MINUS_6_CONTRACT",
+    "w125_t3": "CONTRACT_MINUS_ONE_SIXTH_WEDGE",
+    "projective_relation": "SHIAB04=-6*W125_T3",
+    "same_typed_object": true,
+    "full_sa_c2_same_object": false,
+    "gamma_trace_rank": 2,
+    "kernel_real_dimension": 2,
+    "projective_chiral_tie_dimension": 1
+  },
+  "shiab_relation": {
+    "spinor_type": "OMEGA2_S_TO_OMEGA1_S",
+    "adjoint_type": "OMEGA2_AD_TO_OMEGA13_AD",
+    "same_as_written": false,
+    "common_action_codomain": "HOM_S_OMEGA1_S",
+    "riemann_spinor_response": [13, 1],
+    "riemann_adjoint_response": [156, -2],
+    "scalar_adapter": false,
+    "trace_reversal_adapter_on_riemann": true,
+    "full_domain_adapter": "OPEN"
+  },
+  "scale_theorem": {
+    "excluded": [
+      "BLOCKWISE_CONGRUENCE_INVARIANT_RECIPROCITY",
+      "ENDOGENOUS_SELF_ADJOINTNESS",
+      "RANK_INERTIA_AND_REPRESENTATION_TYPE_CONDITIONS",
+      "ANY_OTHER_CONDITION_ONLY_AFTER_ACTUAL_INVARIANCE_IS_PROVED"
+    ],
+    "not_excluded": [
+      "COMPETING_HOMOGENEITY_VACUUM_EQUATION",
+      "NONINVARIANT_FLUX_OR_LATTICE_QUANTIZATION",
+      "FIXED_SPECTRAL_OR_BOUNDARY_DATA",
+      "DIMENSIONAL_TRANSMUTATION",
+      "INDEPENDENTLY_NORMALIZED_SOURCE_TERM",
+      "HONEST_EXTERNAL_FIT"
+    ],
+    "exact_counterexample": "V(r)=r+4/r_selects_r=2"
+  },
+  "ledger_change": {
+    "row_id": "LT-SM3b",
+    "verdict": "OVER_DETERMINED",
+    "old_reason_kind": "SCOPE_ERROR",
+    "new_reason_kind": "STALE_PREMISE",
+    "disposition": "ADJUDICATED_STALE_PREMISE_BY_0C_HOSTILE_REVIEW"
+  },
+  "next_object": "FULL_DOMAIN_SHIAB_ACTION_ADAPTER_COMPOSED_WITH_0B_OBSERVED_EQUATION_RECEIVER",
+  "untouched": ["P1", "P2", "P3", "physical_GR", "full_source_action", "canon_status"]
+}

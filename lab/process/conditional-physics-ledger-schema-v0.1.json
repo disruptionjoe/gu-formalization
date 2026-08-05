@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "gu-formalization:conditional-physics-ledger-schema-v0.1",
+  "title": "Conditional physics ledger v0.1",
+  "type": "object",
+  "required": ["schema_version", "denominator", "taxonomy", "progress", "residue", "rows", "aliases", "over_determined_escalations"],
+  "properties": {
+    "schema_version": {"const": "0.1"},
+    "denominator": {
+      "type": "object",
+      "required": ["canonical_target_count", "source_row_count", "alias_count", "axes", "freeze_rule", "migration_rule"]
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": ["extensible", "unknown_kind_rule", "verdict_kinds"]
+    },
+    "progress": {
+      "type": "object",
+      "required": ["mapped", "total", "coverage_fraction", "verdict_counts"]
+    },
+    "residue": {
+      "type": "object",
+      "required": ["continuous_real", "function_valued_at_least", "open_discrete_forks", "quotients_ranked"]
+    },
+    "rows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "axis", "source_row", "summary", "verdict", "reason_kind", "distance", "revival_trigger", "evidence", "mapping_grade"],
+        "properties": {
+          "id": {"type": "string"},
+          "axis": {"enum": ["REPRESENTATION", "LAGRANGIAN", "ANOMALY_CONSISTENCY"]},
+          "source_row": {"type": "string"},
+          "summary": {"type": "string"},
+          "verdict": {"enum": ["SAME", "DIFFERS", "NEEDS", "OVER_DETERMINED"]},
+          "reason_kind": {"type": "string"},
+          "distance": {"type": "string", "minLength": 1},
+          "revival_trigger": {"type": "string", "minLength": 1},
+          "evidence": {"type": "string", "minLength": 1},
+          "mapping_grade": {"type": "string", "minLength": 1}
+        },
+        "additionalProperties": false
+      }
+    },
+    "aliases": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source_row", "canonical_target_ids", "reason"]
+      }
+    },
+    "over_determined_escalations": {"type": "array"}
+  },
+  "additionalProperties": true
+}

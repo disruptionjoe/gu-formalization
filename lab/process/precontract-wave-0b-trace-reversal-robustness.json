@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "gate_id": "PRECONTRACT-0B-TRACE-REVERSAL-ROBUSTNESS",
+  "status": "COMPLETE",
+  "layer0": {
+    "vertical_frobenius": "BILINEAR_FORM_ON_SYM2_TX_UPSTREAM_OF_AMBIENT_HODGE_AND_PAIRING",
+    "ambient_einstein": "RIEM_TY_TO_SYM2_TY",
+    "observed_einstein": "RIEM_TX_TO_SYM2_TX_AFTER_OBSERVATION",
+    "three_way_switch": "REJECTED_ILL_TYPED"
+  },
+  "exact_results": {
+    "raw_fibre_inertia": [7, 3, 0],
+    "trace_reversed_fibre_inertia": [6, 4, 0],
+    "total_inertia": [7, 7, 0],
+    "metric_update_rank": 1,
+    "ambient_to_observed_scalar_ratio": 26,
+    "ambient_to_observed_traceless_ricci_ratio": 6,
+    "scalar_adapter_exists": false
+  },
+  "source_collision": "SOURCE-CORRECTS",
+  "ambient_result": "DISPLAYED_FACTORIZED_AMBIENT_ANSATZ_KILL_RETAINED",
+  "observed_result": "OPEN_REQUIRES_NONSCALAR_EQUATION_RECEIVER",
+  "channel_primacy": "COMPOSE_PLUS_SOURCE_BEFORE_FURTHER_BUILD_ON_THIS_GATE",
+  "ledger_disposition": {
+    "row": "GR-1b",
+    "verdict": "OVER_DETERMINED",
+    "reason_kind": "SCOPE_ERROR",
+    "scope": "DISPLAYED_FACTORIZED_AMBIENT_14D_ANSATZ",
+    "distance": "construct an equation-level observed receiver and rerun the full pairing-adjoint-transgression square",
+    "revival_trigger": "exact source-natural adapter with nonzero scalar and traceless-Ricci response"
+  },
+  "untouched": [
+    "full_domain_shiab",
+    "physical_general_relativity",
+    "green_domain",
+    "P1",
+    "P2",
+    "P3"
+  ]
+}

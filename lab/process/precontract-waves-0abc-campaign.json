@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "campaign_id": "PRECONTRACT-WAVES-0ABC",
+  "status": "COMPLETE",
+  "execution_order": ["0B", "0A", "0C"],
+  "contract_ratified": false,
+  "controlling_objective": "Aim construction at the typed observed-physics target while making the conditional mapping and its residue measurable without collapsing opposite prognoses.",
+  "waves": {
+    "0B": {
+      "status": "COMPLETE",
+      "source_collision": "SOURCE-CORRECTS",
+      "result": "THREE_TRACE_SWITCH_REJECTED_AS_ILL_TYPED__AMBIENT_KILL_RETAINED__OBSERVED_RECEIVER_OPEN",
+      "ledger_row_changes": ["LT-GR1b"],
+      "tests": {"exact": 9, "planted": 3, "source": 5, "type": 6, "total": 23}
+    },
+    "0A": {
+      "status": "COMPLETE",
+      "result": "FROZEN_78_ROW_DENOMINATOR__EXTENSIBLE_PROGNOSIS_TAXONOMY__AUTOMATIC_METER_AND_RESIDUE",
+      "ledger_row_changes": ["CREATE_V0_1_ROWS_78", "CREATE_ALIASES_8", "ESCALATE_OVER_DETERMINED_6"],
+      "tests": {"exact": 25, "planted": 4, "total": 29}
+    },
+    "0C": {
+      "status": "COMPLETE",
+      "source_collision": "SOURCE-CORRECTS",
+      "result": "SPINOR_LINE_IDENTITY_EXACT__WRITTEN_ADJOINT_SHIAB_DISTINCT__RIEMANN_TRACE_REVERSAL_ADAPTER_EXACT__FULL_DOMAIN_OPEN",
+      "ledger_row_changes": ["LT-SM3b"],
+      "tests": {"exact": 13, "planted": 5, "source": 5, "type": 6, "total": 29}
+    }
+  },
+  "ledger": {
+    "version": "0.1",
+    "source_rows": 86,
+    "canonical_targets": 78,
+    "aliases": 8,
+    "axis_counts": {"representation": 35, "lagrangian": 17, "anomaly_consistency": 26},
+    "verdict_counts": {"SAME": 32, "DIFFERS": 18, "NEEDS": 22, "OVER_DETERMINED": 6},
+    "residue": {"continuous_real": 83, "function_valued_at_least": 19, "open_discrete_forks": 10, "quotients_ranked": 0},
+    "independently_adjudicated_over_determined_rows": ["LT-GR1b", "LT-SM3b"],
+    "freshness_rule": "EVERY_BUILD_OR_COMPOSE_WAVE_NAMES_LEDGER_ROW_CHANGES__NO_CHANGE_REQUIRES_EXPLICIT_NONE_AND_REASON"
+  },
+  "channel_primacy": {
+    "immediate": "COMPOSE_PLUS_SOURCE",
+    "reason": "The ambient Build result is exact, but 0B proved that naive restriction is not the observed equation and 0C supplied only a Riemann-restricted adapter.",
+    "return_to_build_when": "A full-domain action adapter and observed equation receiver define the actual target.",
+    "fixed_percentages": false
+  },
+  "recommended_channel_functions": {
+    "BUILD": "construct new mathematical objects against a typed ledger target",
+    "COMPOSE": "maintain the target ledger, cross-compose existing results, rank residue and expose contradictions",
+    "SOURCE": "return SOURCE_CONFIRMS, SOURCE_CORRECTS or SOURCE_SILENT before decisive Eric-lane disposition",
+    "VERIFY": "independently attack new or changed claims and refuse redundant replay as make-work"
+  },
+  "dispatch_rules": [
+    "ESCALATED_OVER_DETERMINED_ROWS_GET_INDEPENDENT_DISPOSITION_BEFORE_PROPAGATION",
+    "COMPOSE_RUNS_AFTER_THREE_MATERIAL_BUILD_OUTPUTS_OR_ANY_VERDICT_RESIDUE_CHANGE",
+    "BUILD_NAMES_LEDGER_ROWS_BEFORE_CONSTRUCTION_AND_REPORTS_THEIR_AFTER_STATE",
+    "SOURCE_COLLISION_PRECEDES_DECISIVE_ERIC_LANE_KILL_OR_PASS",
+    "VERIFY_TARGETS_CHANGED_OR_HIGH_FANOUT_CLAIMS_ONLY",
+    "NEW_REASON_KIND_BEATS_FORCED_FIT"
+  ],
+  "next_gates": [
+    "FULL_DOMAIN_SHIAB_ACTION_ADAPTER_PLUS_OBSERVED_EQUATION_RECEIVER",
+    "NATIVE_R2_RUNNING_SIGN",
+    "REAL_CLIFFORD_ANOMALY_SURFACE_PROPAGATION",
+    "HIGH_FANOUT_NORM_AND_STABILIZER_DECISION",
+    "NON_INFLOW_P3_COUNT_BRIDGE_OR_NO_GO",
+    "LEDGER_V0_2_APPEND_ONLY_TARGET_DISCOVERY_AND_QUOTIENT_RANKING"
+  ],
+  "untouched": ["P1", "P2", "P3", "canon_status", "public_posture", "observed_physics", "future_operating_contract"]
+}

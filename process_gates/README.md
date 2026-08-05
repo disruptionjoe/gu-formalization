@@ -1206,3 +1206,36 @@ degree 14 as the full even Noether totalization and forbids substituting
 formal adjoint to a closed positive Krein domain or extending the minimal
 candidate kill to all source-natural Shiabs. P1/P2/P3, physics, Wave 3 and the
 third-lane conjunction remain unchanged.
+
+## Pre-contract 0B trace-reversal robustness scope gate
+
+`precontract_wave_0b_trace_reversal_robustness_scope_audit.py` preserves the
+Layer-0 separation between the vertical Frobenius fibre metric, the ambient
+fourteen-dimensional Einstein contraction and the observed four-dimensional
+Einstein equation. It retains the exact ambient displayed-ansatz kill and the
+incompatible `26` versus `6` naive-restriction responses, while leaving a
+non-scalar observed receiver, physical GR and P1/P2/P3 open.
+
+## Conditional physics ledger v0.1 scope gate
+
+`conditional_physics_ledger_v01_scope_audit.py` freezes 86 enumerated source
+rows into 78 canonical targets plus eight aliases, requires the extensible
+verdict/reason taxonomy, distance and revival fields, recomputes the residue
+and ensures all six over-determined rows remain independently owned. The
+`78/78` meter means frozen-map coverage, not construction completion.
+
+## Pre-contract 0C typed identity and theorem-scope gate
+
+`precontract_wave_0c_typed_identity_theorem_scope_audit.py` preserves the
+narrow T3/spinor-Shiab projective identity without equating the whole SA-C2
+cure or Eric's degree-thirteen adjoint Shiab. It retains the exact
+Riemann-restricted trace-reversal adapter, leaves the full action domain open,
+and fences the scale-blindness theorem to genuinely invariant suppliers.
+
+## Pre-contract 0B/0A/0C campaign reconciliation gate
+
+`precontract_waves_0abc_campaign_scope_audit.py` checks execution order,
+cross-wave ledger dispositions, the automatic meter and residue, immediate
+Compose-plus-Source ordering, the full-domain observed-receiver next gate and
+all no-promotion fences. It explicitly refuses to ratify the future operating
+contract or change P1/P2/P3, canon, public posture or observed physics.
