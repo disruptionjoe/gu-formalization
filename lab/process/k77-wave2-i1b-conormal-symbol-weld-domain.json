@@ -1,0 +1,148 @@
+{
+  "artifact": "K77_WAVE2_I1B_CONORMAL_SYMBOL_NONDUPLICATING_WELD_DOMAIN",
+  "version": "2026-08-05",
+  "lane": "1",
+  "named_gate": "K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN",
+  "gate_status": "PARTIAL_WITH_EXACT_FAMILY_SYMBOL_AND_WELD_SELECTION",
+  "gate_after": "K77_MOVING_SHIAB_MIXED_NORMAL_COEFFICIENT_DEPENDENT_EPSILON_WARD_AND_TRACE_CLOSED_GREEN_DOMAIN",
+  "source_collision": {
+    "i1b_transgression_grammar": "SOURCE_CONFIRMS",
+    "fixed_epsilon_translation_variation": "SOURCE_CONFIRMS",
+    "augmented_torsion_two_connection_owner": "SOURCE_CONFIRMS",
+    "upstairs_action_and_pullback_observation": "SOURCE_CONFIRMS",
+    "two_lagrangian_layers": "SOURCE_CONFIRMS_DISTINCT_LAYERS_NOT_STRATA",
+    "direct_x_fields_possible": "SOURCE_CONFIRMS_RARE_DIRECT_X_FIELDS",
+    "no_duplicate_weld": "SOURCE_GUIDES_RECONSTRUCTION_NOT_UNIQUENESS_THEOREM",
+    "preferred_k77_shiab": "SOURCE_SILENT_UNSELECTED_FAMILY_MEMBER",
+    "normal_density_normalization": "SOURCE_SILENT",
+    "complete_variation_green_bfv_domain": "SOURCE_SILENT"
+  },
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE_AMBIENT",
+    "fork_horn": "K77",
+    "search_space_dim": "0_FITTED_SELECTOR_PARAMETERS",
+    "free_object_delta": 0,
+    "residue_touched": [
+      {"id": "K77-W2-I1B-CONORMAL-WELD-DOMAIN", "grade": "T4"}
+    ],
+    "preregistered_kills": [
+      "UNEARNED_SELECTED_K77_SHIAB_COEFFICIENT",
+      "ZERO_JET_DEFECT_ACTION_WITH_LIVE_MIXED_NORMAL_SYMBOL",
+      "K95_OR_GENERIC_FIXTURE_PROMOTED_TO_K77_SOURCE_IDENTITY",
+      "BULK_PLUS_LOCALIZED_BULK_WITHOUT_NORMAL_DENSITY_AND_DOUBLE_COUNTING_THEOREM",
+      "COMMON_DOMAIN_WITHOUT_CODIMENSION_TEN_TRACE_REGULARITY"
+    ]
+  },
+  "layer0": {
+    "source_action_family_vs_preferred_shiab": "DISTINCT",
+    "family_symbol_vs_representative_coefficients": "DISTINCT",
+    "fixed_epsilon_translation_vs_dependent_epsilon_chain": "DISTINCT",
+    "bulk_green_cancellation_vs_defect_conormal_polarization": "DISTINCT",
+    "observation_pullback_vs_action_duplication": "DISTINCT",
+    "independent_x_density_vs_restricted_y_coefficient": "DISTINCT",
+    "normal_jet_vs_external_datum": "DISTINCT",
+    "normal_density_debt_vs_unconditional_length_power": "DISTINCT",
+    "variation_core_vs_closed_green_domain": "DISTINCT",
+    "preboundary_symbol_vs_gauge_bv_quotient": "DISTINCT"
+  },
+  "principal_symbol": {
+    "grade": "EXACT_FAMILY_LEVEL_FIXED_EPSILON",
+    "b_symbol": "MU_S_PAIR_T_SHIAB_NU_WEDGE_BETA",
+    "t_symbol": "MU_S_OVER_2_PAIR_T_SHIAB_NU_WEDGE_ALPHA",
+    "b_to_t_ratio_same_direction": "2_TO_1",
+    "graph_conormal": "NU_A_EQUALS_DY_A_MINUS_S_I_A_DX_I",
+    "mass_contribution": 0,
+    "cubic_eddy_principal_contribution": 0,
+    "direct_jet_differentiation_exact": true,
+    "generic_rational_nonvacuity_fixture": true,
+    "fixture_is_selected_k77_shiab": false,
+    "preferred_k77_coefficient_table": "OPEN"
+  },
+  "factorization": {
+    "ambient_two_form_dimension": 91,
+    "fixed_tangent_two_form_dimension": 6,
+    "fixed_mixed_normal_two_form_dimension": 85,
+    "fixed_zero_symbol_entries_per_paired_adjoint_block": 1190,
+    "fixed_unconstrained_tangential_entries_per_paired_adjoint_block": 84,
+    "all_section_entries_per_paired_adjoint_block": 1274,
+    "fixed_section_verdict": "FACTORIZATION_IFF_MIXED_NORMAL_SHIAB_IMAGE_ANNIHILATED",
+    "all_section_theorem": "ARBITRARY_T_PLUS_NONDEGENERATE_PAIRING_PLUS_ALL_SPLITTINGS_FORCES_SHIAB_ZERO",
+    "normal_first_jet_retained": true,
+    "new_extension_law": false,
+    "new_datum": false
+  },
+  "weld": {
+    "selected_primary": "BULK_SOURCE_LAYERS_PLUS_ONLY_INDEPENDENT_DIRECT_X_ACTIONS",
+    "bulk_i1b_copies": 1,
+    "observation_role": "FIELD_AND_EULER_RECEIVER_NOT_SECOND_ACTION_OWNER",
+    "ambient_equation": "E_Y_PLUS_R_S_BANG_E_X_INDEPENDENT_EQUALS_ZERO",
+    "duplicate_localized_bulk": "NOT_INSERTED",
+    "duplicate_invariant_debt": "NORMAL_DENSITY_VALUE_OR_TRANSVERSE_PROFILE",
+    "homogeneous_length_comparator": "LENGTH_POWER_10",
+    "homogeneous_units_claimed_for_metric_fibre": false,
+    "independent_defect_distribution": "DELTA_S_TIMES_L_X",
+    "selection_basis": "SOURCE_FIDELITY_NO_DOUBLE_COUNTING_FREE_OBJECT_ECONOMY",
+    "uniqueness_claimed": false
+  },
+  "variation_domain": {
+    "smooth_core": "SMOOTH_COMPACT_SUPPORTED_OR_BOUNDARY_VANISHING_ALL_PRIMITIVE_FIELDS_AND_SECTION_VARIATIONS",
+    "fixed_section_ambient_fields": "H9",
+    "fixed_section_gauge_parameters": "H10",
+    "y_dimension": 14,
+    "x_dimension": 4,
+    "codimension": 10,
+    "banach_algebra_threshold": "R_GREATER_THAN_7",
+    "c1_threshold": "R_GREATER_THAN_8",
+    "value_trace": "H9_Y_TO_H4_X",
+    "first_jet_trace": "H9_Y_TO_H3_X",
+    "gauge_derivative": "H10_TO_H9",
+    "compact_core_or_bounded_geometry_condition": true,
+    "moving_section_sobolev_composition": "OPEN",
+    "closed_krein_green_hyperbolic_bfv_domain": "OPEN"
+  },
+  "primitive_owner_ledger": {
+    "fixed_epsilon_t_symbol": "BUILT",
+    "independent_b_owner_audit": "BUILT_NOT_INDEPENDENT_PHYSICAL_ROOT",
+    "d_epsilon_b_chain": "OPEN",
+    "moving_shiab_owner": "OPEN",
+    "moving_hodge_density_soldering_owner": "OPEN",
+    "conormal_preboundary_form": "BUILT_AT_PRINCIPAL_FAMILY_GRADE",
+    "gauge_projector": false,
+    "physical_bfv": false
+  },
+  "accounting": {
+    "fitted_selector_parameters": 0,
+    "new_free_coefficients_inserted": 0,
+    "new_fields": 0,
+    "new_projectors": 0,
+    "new_data": 0,
+    "free_object_delta": 0,
+    "p1_p2_p3_used": false,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {
+    "source": 11,
+    "type": 31,
+    "exact": 25,
+    "planted": 8,
+    "total": 75,
+    "failures": 0
+  },
+  "hostile_review": "PASS_WITH_SCOPE_REPAIR__FAMILY_SYMBOL_AND_NO_DUPLICATE_WELD_BUILT__PREFERRED_SHIAB_DEPENDENT_EPSILON_AND_CLOSED_DOMAIN_OPEN",
+  "held_open": [
+    "PREFERRED_SOURCE_COMPATIBLE_MOVING_OR_DERIVATIVE_K77_SHIAB",
+    "FULL_FIXED_SECTION_85_COLUMN_MIXED_NORMAL_COEFFICIENT_BLOCK",
+    "DEPENDENT_EPSILON_B_SHIAB_HODGE_DENSITY_SOLDERING_SYMBOL",
+    "FULL_PRIMITIVE_EVEN_WARD_BV_PREBOUNDARY_LEDGER",
+    "MOVING_SECTION_SOBOLEV_COMPOSITION",
+    "TRACE_COMPATIBLE_CLOSED_KREIN_GREEN_DOMAIN",
+    "CONSTRAINT_PROPAGATION_PHYSICAL_BFV_AND_PHYSICS"
+  ],
+  "next_required_build": "K77_MOVING_SHIAB_MIXED_NORMAL_COEFFICIENT_DEPENDENT_EPSILON_WARD_AND_TRACE_CLOSED_GREEN_DOMAIN",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

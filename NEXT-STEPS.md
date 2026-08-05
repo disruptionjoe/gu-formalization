@@ -7,6 +7,23 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 I1B CONORMAL SYMBOL / WELD / DOMAIN.**
+> [`explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md`](explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md)
+> computes the selector-independent principal symbol of the written I1B family.
+> At fixed `epsilon`, the independent `B` symbol is exactly twice the
+> augmented-torsion symbol; mass and cubic eddy terms do not enter. For a fixed
+> `4+10` section, zero-jet factorization requires annihilating 85 of 91
+> two-form directions per paired adjoint block, while all-section
+> factorization forces a nonzero observer-independent Shiab to zero under the
+> stated nondegeneracy/arbitrary-field hypotheses. The construction therefore
+> retains normal first jets without new datum. Source collision selects one
+> bulk I1B plus only independently owned direct-`X` defect actions; a duplicate
+> localized bulk copy owes a normal-density/transverse-profile normalization.
+> A smooth common core and fixed-section `H9` fields/`H10` gauge trace class are
+> built, but the preferred moving Shiab, dependent epsilon owner chain and
+> closed Green/BFV domain remain open. P1/P2/P3 and Wave 3 do not move. Next:
+> `K77_MOVING_SHIAB_MIXED_NORMAL_COEFFICIENT_DEPENDENT_EPSILON_WARD_AND_TRACE_CLOSED_GREEN_DOMAIN`.
+
 > **2026-08-05 K77 WAVE-2 FULL SOURCE-ACTION DEFECT LOCALIZATION.**
 > [`explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md`](explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md)
 > constructs the coordinate-invariant localization of an ambient action-density

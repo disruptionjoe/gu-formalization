@@ -1652,3 +1652,38 @@ admission, or P1/P2/P3 status moves.
 - Localization is not the bulk/defect weld. Replacement, addition and
   independently owned defect terms carry different double-counting and
   dimensional-normalization burdens; fit none of them by default.
+
+---
+
+## Revision 36 (2026-08-05, compute an unselected-family symbol before choosing a representative)
+
+Sources:
+`explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md`,
+`lab/sources/gu-i1b-conormal-weld-domain-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-i1b-conormal-symbol-weld-domain.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-i1b-conormal-symbol-weld-domain-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- When a source supplies an action family but no preferred operator, compute
+  the principal symbol as a formula in the family member before searching for
+  coefficients. This can close factorization and domain questions without an
+  unearned representative.
+- Distinguish an action-family result from a selected-coefficient result in
+  both prose and executable receipts. A live generic matrix proves nonvacuity,
+  not source identity.
+- For a `4+10` section, count the conormal-generated input block before trying
+  a zero-jet closure: 85 of 91 two-form directions contain a normal leg.
+- State annihilator counts per paired coefficient block when suppressed
+  internal indices remain. Compression that drops this qualifier recreates
+  the owner-surface overstatement problem.
+- Pullback observation is not a second action owner. Keep the bulk law once
+  and add only independently typed defect densities unless a localized rival
+  supplies its normal-density/transverse-profile normalization and a
+  double-counting theorem.
+- Type density lines before physical dimensions. `length^10` is a valid
+  homogeneous-coordinate comparator for codimension ten, not an invariant
+  statement when metric-fibre coordinate units are undeclared.
+- Separate three domain grades mechanically: smooth common variation core,
+  trace-regular Sobolev completion, and closed Green/hyperbolic/BFV domain.
+  The first two do not imply the third.

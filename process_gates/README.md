@@ -1075,6 +1075,20 @@ between a source-shaped normal-jet witness and the actual moving K77 Shiab
 symbol, and leaves the bulk/defect normalization, primitive BV ledger, common
 domain, physics, Wave 3 and P1/P2/P3 open.
 
+## K77 Wave 2 I1B conormal-symbol / weld / domain scope gate
+
+`k77_wave2_i1b_conormal_symbol_weld_domain_scope_audit.py` requires the
+selector-independent fixed-`epsilon` I1B symbols, their exact `B:T=2:1`
+principal ratio, graph-conormal mixing, and the fixed-section `85/91`
+annihilator count per paired adjoint coefficient block. It preserves the
+preferred K77 Shiab as unselected, types the all-section zero theorem with its
+arbitrary-`T`/nondegenerate-pairing/all-splitting hypotheses, and refuses to
+promote a generic matrix fixture. It requires the source-guided no-duplicate
+weld, the invariant normal-density debt rather than an unconditional
+`length^10` claim, and the smooth plus fixed-section `H9/H10` trace-regular
+variation class. The dependent epsilon owner chain, moving-section Sobolev
+composition, closed Green/BFV domain, physics, Wave 3 and P1/P2/P3 stay open.
+
 ## Wave disposition schema gate
 
 `wave_disposition_schema_audit.py` requires every wave/cycle disposition artifact to

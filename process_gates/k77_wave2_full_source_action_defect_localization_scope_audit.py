@@ -191,7 +191,11 @@ def main() -> None:
     assert registry["public_posture_change"] is False
 
     wave2 = campaign["waves"][1]
-    continuation = wave2["continuations"][-1]
+    continuation = next(
+        item
+        for item in wave2["continuations"]
+        if item["named_gate"] == registry["named_gate"]
+    )
     assert continuation["named_gate"] == registry["named_gate"]
     assert continuation["result_ref"] == (
         "explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md"
@@ -217,8 +221,9 @@ def main() -> None:
         "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
     ):
         assert debt in continuation["replacement_debt"]
-    assert campaign["frontier"]["next_required_build"] == registry["next_required_build"]
-    assert campaign["frontier"]["latest"]["next_required_build"] == registry["next_required_build"]
+    assert registry["named_gate"] in {
+        item["named_gate"] for item in wave2["continuations"]
+    }
 
     for phrase in (
         "canonical induced-density localization",
@@ -276,14 +281,14 @@ def main() -> None:
     for surface in (next_steps, explorations_readme):
         assert "k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md" in surface
         assert "k77_actual_i1b_conormal_legendre_symbol_bulk_defect_weld_and_common_variation_domain" in surface
-    assert "channel-swings/` (180)" in tests_readme
+    assert "channel-swings/` (181)" in tests_readme
     assert "k77_wave2_full_source_action_defect_localization_probe.py" in tests_readme
     assert "k77_wave2_full_source_action_defect_localization_scope_audit.py" in gates_readme
     assert "revision 35" in improvement
     assert "localizing a first-order action emits normal dipoles" in improvement
 
     actual_channel_probes = len(list((ROOT / "tests/channel-swings").glob("*.py")))
-    assert actual_channel_probes == 180
+    assert actual_channel_probes == 181
 
     print("k77_wave2_full_source_action_defect_localization_scope_audit: PASS")
     print("  canonical density localization; exact monopole/dipole and shape calculus")

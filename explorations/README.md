@@ -11,6 +11,20 @@ Speculative, redirected, or under-proved research branches -- the research lab, 
 these for the full working record; the durable, reviewed results live in `canon/` and the papers under
 `papers/published/`.
 
+## K77 Wave 2 I1B conormal symbol, weld and domain (2026-08-05)
+
+[`k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md`](k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md)
+derives the selector-independent fixed-`epsilon` I1B conormal symbol and its
+exact `B:T=2:1` principal ratio. The fixed-section annihilator covers 85 of 91
+two-form directions per paired adjoint block; the ambient normal first jet is
+retained without new datum. Source collision selects a nonduplicating bulk
+action plus independently owned direct-`X` terms and exposes the normal-density
+debt of any localized bulk rival. A smooth common core and fixed-section
+`H9/H10` trace completion are built. Preferred moving Shiab coefficients, the
+dependent epsilon chain, moving-section Sobolev composition, closed Green/BFV
+domain and physics remain open; P1/P2/P3 and Wave 3 stay closed. Next gate:
+`K77_MOVING_SHIAB_MIXED_NORMAL_COEFFICIENT_DEPENDENT_EPSILON_WARD_AND_TRACE_CLOSED_GREEN_DOMAIN`.
+
 ## K77 Wave 2 full source-action defect localization (2026-08-05)
 
 [`k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md`](k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md)
