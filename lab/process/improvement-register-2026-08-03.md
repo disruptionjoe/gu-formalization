@@ -1936,3 +1936,27 @@ admission, or P1/P2/P3 status moves. No external datum touched.
   2025-04-transcript.md` (with provenance front-matter) and `papers/drafts/
   Transcript into the impossible.md` (without) — and nearly every exploration
   cites the copy that carries no provenance.
+
+**CB-E CORRECTION (2026-08-05) — SRC-LOCUS fires a second time, same day.**
+Rows E3 and E9 RETRACTED. E3 priced GU's answer to the dark-energy
+MAGNITUDE question as if that answer were divergence-freeness, proved
+(correctly) that a linear homogeneous condition cannot fix a scale, and
+concluded GU inherits an unexplained magnitude "twice where GR had it
+once." Divergence-freeness is Weinstein's answer to the FORM question.
+His answer to the MAGNITUDE question is a two-field identification: the
+dark-energy VEV is set equal to a curvature-side field which sits near
+zero, so it is lured toward zero with it — his diagnosis being that the
+disaster is the FIXEDNESS, not the smallness, since a constant cannot
+track anything. He explicitly claims only to trade TWO problems for ONE,
+not to derive the magnitude. DC-H2 excludes SYMMETRY-type scale
+suppliers; a dynamical identification with another field is a different
+class and DC-H2 does not reach it — citing it there is a scope error.
+E9 ("the coincidence remark supplies no constraint") is retracted for the
+same reason: the coincidence argument IS the mechanism, not an aside.
+NEW OPEN ROWS: E10 does the identification genuinely reduce the free
+count or relocate it (surplus computation, the row that matters); E11 is
+the identification inside or outside Weinberg's no-go class for
+self-adjusting Lambda mechanisms (same procedure as the Boyle-Turok
+foil); E12 is the standard fine-tuning framing itself sound (Keating
+raises percent-level rather than parts-per-million; the repo's own DE
+lane cites the standard framing). E1/E2/E4-E8 stand unchanged.

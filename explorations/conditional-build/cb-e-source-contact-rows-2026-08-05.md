@@ -331,13 +331,13 @@ Ledger rows this work produces. Nothing is discharged; two rows are adverse.
 |---|---|---|---|
 | E1 | The source's dark-energy uniqueness claim is FORM-forced and SCALE-free; the scale is left free by construction, not by omission | **CLOSED, compatible** | `Transcript:47` + `:44`; Lovelock (`05-general-relativist.md:32`); linearity argument §1.2 A3 |
 | E2 | No divergence-freeness- or equivariance-type condition can ever supply the DE magnitude | **CLOSED, exclusion** | `dc-h2:232-235`, `:281`; §1.2 A3-A4 |
-| E3 | GU inherits that residue via its own equivariance route, and on CB-D's count inherits it TWICE (two independent length-squareds) | **OPEN, adverse** | `dc-h2:281`; `pred-norm-rank:6,90`; `cb-d` frontmatter (INDEPENDENT); `comparative-tensions-ledger-cosmo-gravity:86` |
+| E3 | ~~GU inherits that residue via its own equivariance route... TWICE~~ **RETRACTED 2026-08-05, see CORRECTION E3/E9 below** — measured against the wrong argument | **RETRACTED** | `dc-h2:281`; `pred-norm-rank:6,90`; `cb-d` frontmatter (INDEPENDENT); `comparative-tensions-ledger-cosmo-gravity:86` |
 | E4 | GU's genuine win in this sector is DYNAMISM (the term is not forced constant), never magnitude | **CLOSED, scoped** | `Transcript:86`; `canon/dark-energy-theta-divergence-free.md:96` |
 | E5 | `theta_omega` = canon's `theta` | **CLOSED, SAME-OBJECT** | §2.1 table |
 | E6 | The repo's two DE-replacement shorthands are a HOMONYM as written (one form degree off; `epsilon` dropped) | **OPEN, defect** | §2.2; `weinstein-ucsd-2025-04-analysis:50-56`; `DERIVATION-PROGRESS:84` |
 | E7 | The interview supplies no shiab, signature, 2+1/imposter, source-action, chirality, anomaly or numerical content | **CLOSED, negative** | `lab/sources/keating-interview-2025-06-12-source-record.md` §3 |
 | E8 | The interview's DESI-independence clause is its only non-redundant technical item, and it is UNVERIFIED | **OPEN, unbuilt** | source record §1, §2 row 1 |
-| E9 | The coincidence/parsimony remark supplies no constraint; the why-now cell stays SILENT | **CLOSED, no movement** | §1.4; `council-inherited-tension-resolution:288-290` |
+| E9 | ~~The coincidence/parsimony remark supplies no constraint; why-now stays SILENT~~ **RETRACTED 2026-08-05, see CORRECTION E3/E9 below** — the remark IS the mechanism, not an aside | **RETRACTED, reopened as E10** | §1.4; `council-inherited-tension-resolution:288-290` |
 
 ## 4. Disposition
 
@@ -355,3 +355,64 @@ is promoted to citable status.
 *Filed 2026-08-05. Conditional-build lane, cluster E. Pre-deposit, J5-gated.
 Adjudication and typing only; no computation, no script, no canon, claim,
 verdict, bar, count, or LANE-STATE movement.*
+
+
+---
+
+# CORRECTION E3/E9 (2026-08-05, Joe-supplied primary passage)
+
+**What forced this.** Joe supplied the interview passage in which
+Weinstein gives his actual answer to the MAGNITUDE question. E3 and E9
+were written without it and are wrong — not in their internal steps,
+which stand, but in what they were attached to.
+
+**The error, named.** E3 evaluated GU's answer to the magnitude question
+as if that answer were DIVERGENCE-FREENESS, then correctly showed a
+linear homogeneous condition cannot fix a scale, then concluded GU
+inherits an unexplained magnitude. **Divergence-freeness is not his
+answer to the magnitude question.** It is his answer to the FORM
+question. This is a second instance of the `SRC-LOCUS` check filed the
+same day: every individual step was true and the argument it was attached
+to was not the one the source makes.
+
+**What he actually argues** (paraphrase; the passage is quoted in the
+source record):
+- There are two standing puzzles — the smallness of the cosmological
+  constant, and spatial flatness.
+- His diagnosis is that the disaster is not the smallness but the
+  FIXEDNESS: when two things are set equal and one of them is declared
+  constant, that is the real problem. A constant cannot track anything.
+- If instead the dark-energy quantity is a field with a vacuum
+  expectation value set equal to a curvature-side field, and the
+  curvature side sits near zero, the dark-energy side is *lured* toward
+  zero with it — depress one and you depress the other.
+- Therefore "why now / why this value" is not a coincidence to be
+  explained, because the two quantities were never independent.
+- He explicitly does NOT claim the magnitude is derived. The stated goal
+  is to trade **two problems for one**.
+
+**Why this is outside DC-H2's reach.** DC-H2 excludes SYMMETRY-TYPE
+conditions (reciprocity, self-adjointness, Ward, reality, equivariance)
+as scale-suppliers, and that exclusion stands. The mechanism above is a
+DYNAMICAL IDENTIFICATION WITH ANOTHER FIELD, which is a different class
+of scale-setting mechanism entirely. DC-H2's theorem does not touch it,
+and citing it against this claim is a scope error.
+
+**Corrected rows.**
+
+| id | row | status | why |
+|---|---|---|---|
+| E3' | GU's magnitude answer is a two-field identification, not a symmetry condition; DC-H2 does not bear on it | **OPEN** | scope correction |
+| E10 | Does the identification REDUCE the free-parameter count (two unexplained quantities -> one), or relocate it (something must still explain why both are small rather than both large)? | **OPEN, surplus computation — the row that matters** | constraint-surplus doctrine; this is a countable question |
+| E11 | Is the geometric identification inside or outside the class of Weinberg's no-go for self-adjusting cosmological-constant mechanisms? | **OPEN, class-relative check** | same procedure as the Boyle-Turok foil adjudication |
+| E12 | Is the standard fine-tuning framing itself sound? Keating raises percent-level rather than parts-per-million tuning. The repo's own DE lane cites the standard framing | **OPEN, independent of GU** | check before citing the framing again |
+
+**What survives from E1-E9 unchanged:** E1 (form forced, scale free by
+that route), E2 (no divergence-freeness- or equivariance-type condition
+can supply the magnitude), E4 (dynamism is the genuine win of that
+route), E5-E8. Only E3 and E9 are retracted.
+
+**Standing lesson, second instance in one day.** Before pricing a source
+claim, locate the ARGUMENT the source actually gives for it. A correct
+refutation of a reconstructed argument is worth less than nothing,
+because it reads as a result.
