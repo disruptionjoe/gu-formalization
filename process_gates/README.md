@@ -1367,6 +1367,17 @@ physical stability, selected-branch totalization/current chain, common
 Krein/Green domain, massive-partner classification and external `P2_datum`
 open.
 
+## Conditional physics ledger v0.13 scope gate
+
+`conditional_physics_ledger_v013_scope_audit.py` preserves v0.12 byte-for-
+byte, recomputes the unchanged 82-row denominator, verdict and residue counts,
+and requires exactly seven row migrations. It separates the radial Clifford-
+one Hessian from the trace/traceless gravitational Gauss Hessians, wires the
+common observed defect Krein/Green domain, records the exact opposite pole
+residues and types the one-action direct-plus-soldered current chain. It keeps
+the full metric/coframe soldering derivative, positive physical BV cohomology,
+ambient `Y14` domain and two-field curvature/VEV cosmology open.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1378,9 +1389,12 @@ two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
 receiver, formal homogeneous-gauge CME, null physical quotient, exact
 first-jet section-germ observation, action-owned Hilbert stress, canonical
 full-II norm selection, massless-plus-massive simple-pole response and
-selected nonzero K77 algebraic stationary branch. It keeps physical stability,
-totalization/current closure, the common Krein/Green domain and external
-`P2_datum` open. It
+selected nonzero K77 algebraic stationary branch. It now also enforces ledger
+v0.13, the distinct `100/117` and `124/117` Gauss Hessians, the common defect
+Krein/Green domain, exact opposite residues, the direct-plus-soldered current
+chain and `SOURCE-CORRECTS`. It keeps the full metric/coframe soldering
+derivative, positive physical BV cohomology, ambient `Y14` domain, two-field
+curvature/VEV cosmology and external `P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, canon, external datum or public posture.

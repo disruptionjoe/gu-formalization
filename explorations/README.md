@@ -7,6 +7,19 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Selected-branch Gauss Hessian, totalization and common domain (2026-08-05)
+
+`conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md`
+separates the radial Clifford-one Hessian from the gravitational Gauss carrier
+and obtains exact trace/traceless coefficients `100*kappa_1/117` and
+`124*kappa_1/117`. It types the one-action direct-plus-soldered current/stress
+chain, constructs one common normally-hyperbolic observed defect Krein/Green
+domain and classifies the distinct partner's mass and opposite pole residue.
+Full metric/coframe soldering, positive physical BV cohomology, the ambient
+`Y14` domain and Weinstein's two-field curvature/VEV magnitude mechanism remain
+open. The source return is `SOURCE-CORRECTS`; ledger v0.13 migrates seven rows
+without spending P1/P2/P3.
+
 ## Selected K77 algebraic vacuum and P2 norm placement (2026-08-05)
 
 `conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md`

@@ -90,6 +90,10 @@ identifications as separate grades.
   - confirms the full connection-difference norm, Gauss-compatible reference
     and moving-Phi ingredients; the repository derives the rank-100
     composition and selected branch coefficient.
+- [`selected-branch-totalization-current-source-reinspection-2026-08-05.md`](selected-branch-totalization-current-source-reinspection-2026-08-05.md)
+  - returns `SOURCE-CORRECTS`: the sources support an unfinished rolled/up-and-
+    back architecture but not literal connection-current equals Hilbert-stress
+    or a partial-`D E` totalization identity.
 
 - [`claim-mining-boyle-turok-cpt-2026-08-03.md`](claim-mining-boyle-turok-cpt-2026-08-03.md)
   - CPT-symmetric cosmology claim mining used as a conditional comparison surface.

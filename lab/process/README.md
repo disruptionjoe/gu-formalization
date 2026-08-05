@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.12.json` - current machine ledger; 82 active targets, canonical-Gauss derivation of full `|II|^2`, selected nonzero K77 algebraic branch, verdict counts `33/19/24/6`, and residue `84 + >=19 functions + 9 forks`. v0.11 remains frozen history.
+- `conditional-physics-ledger-v0.13.json` - current machine ledger; 82 active targets, selected-branch Gauss Hessians, common observed defect domain, exact opposite pole residues and direct-plus-soldered current typing, with verdict counts `33/19/24/6` and residue `84 + >=19 functions + 9 forks`. v0.12 remains frozen history.
+- `selected-branch-linearized-totalization-current-green-domain.json` - machine receipt for the exact trace/traceless Gauss Hessians, one-action current/stress chain, common defect Krein/Green domain, pole-residue classification and two-field cosmology boundary.
+- `conditional-physics-ledger-v0.12.json` - frozen predecessor ledger for the canonical-Gauss full `|II|^2` derivation and selected nonzero K77 algebraic branch.
 - `selected-moving-k77-vacuum-p2-norm-placement.json` - machine receipt for the rank-100 full-II action restriction, selected branch `-kappa_1/312`, hostile-review corrections and physical-domain boundary.
 - `conditional-physics-ledger-v0.11.json` - frozen predecessor ledger for the corrected one-pole-total over-fence, conditional full-`|II|^2` split and cyclic nonlinear saddle controls.
 - `full-norm-pole-split-nonlinear-t-vacuum.json` - machine receipt for the conditional full-norm TT pole split, primary-source silence, exact finite cyclic nonlinear stationary branches, hostile-review boundary and selected-moving-K77 successor.

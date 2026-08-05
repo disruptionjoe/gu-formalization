@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.12.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.12.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.13.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.13.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,7 +74,7 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "P2_NORM_FULL_II_DERIVED_ON_CANONICAL_GAUSS_SECTOR__SELECTED_K77_NONZERO_ALGEBRAIC_STATIONARY_BRANCH_EXACT__MASSLESS_PLUS_MASSIVE_SIMPLE_POLES_SELECTED__PHYSICAL_STABILITY_TOTALIZATION_AND_DOMAIN_OPEN",
+      "status": "SELECTED_BRANCH_GAUSS_HESSIAN_EXACT__FULL_WARD_AND_STRESS_CURRENT_CHAIN_TYPED__COMMON_DEFECT_KREIN_GREEN_DOMAIN__MASSIVE_PARTNER_OPPOSITE_RESIDUES_CLASSIFIED__PHYSICAL_COHOMOLOGY_AND_TWO_FIELD_COSMOLOGY_OPEN",
       "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
       "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR5", "LT-GR6"],
       "primary_row_on_hold": null,
@@ -100,7 +100,9 @@
         "lab/sources/full-norm-gravity-source-reinspection-2026-08-05.md",
         "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md",
         "lab/sources/selected-moving-k77-vacuum-p2-source-reinspection-2026-08-05.md",
-        "explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md"
+        "explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md",
+        "lab/sources/selected-branch-totalization-current-source-reinspection-2026-08-05.md",
+        "explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -112,12 +114,12 @@
         "EFFECTIVE_W_OF_Z_OBSERVABLE"
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
-      "source_return": "SOURCE-CONFIRMS",
-      "current_evidence_boundary": "ACTION_OWNED_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_PLUS_CROSS_RETAINED__CANONICAL_HORIZONTAL_GAUSS_RECEIVER_RANK100__WRITTEN_AUGMENTED_TORSION_NORM_RESTRICTS_TO_FULL_II_NOT_TRACE_FIRST__P2_NORM_FORK_RETIRED__EXTERNAL_P2_DATUM_UNCHANGED__MASSLESS_PLUS_DISTINCT_MASSIVE_SIMPLE_POLES_CONSTRUCTION_SELECTED__SELECTED_NONCYCLIC_K77_ACTION_HAS_NONZERO_ALGEBRAIC_STATIONARY_BRANCH_T_MINUS_KAPPA1_OVER312__RADIAL_HESSIAN_MINUS14KAPPA1__PHYSICAL_STABILITY_KREIN_GREEN_DOMAIN_MAGNITUDE_SCREENING_SOURCE_TOTALIZATION_AND_CURRENT_RELATION_OPEN",
+      "source_return": "SOURCE-CORRECTS",
+      "current_evidence_boundary": "ACTION_HILBERT_STRESS_EXACT__FULL_STATIONARY_WARD_LINEARIZATION__DIRECT_PLUS_ADJOINT_SOLDERED_CURRENT_CHAIN_TYPED__SOURCE_CORRECTS_LITERAL_CURRENT_EQUALS_STRESS_AND_PARTIAL_TOTALIZATION__SELECTED_BRANCH_GAUSS_TRACE_AND_TRACELESS_HESSIANS_100_OVER117_AND_124_OVER117__COUPLED_OBSERVED_DEFECT_KREIN_GREEN_DOMAIN__MASSLESS_POLE_PLUS_PARTNER_MASS_SQUARED_124_ALPHA_KAPPA_OVER117__OPPOSITE_RESIDUES_EXACT__FULL_METRIC_COFRAME_SOLDERING_BV_PHYSICAL_COHOMOLOGY_AND_TWO_FIELD_CURVATURE_VEV_COSMOLOGY_OPEN",
       "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
       "release_condition_met": true,
-      "resolved_by": "explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md",
-      "next_gate": "CLOSE_SELECTED_BRANCH_LINEARIZED_TOTALIZATION_STRESS_CURRENT_AND_COMMON_KREIN_GREEN_DOMAIN__THEN_CLASSIFY_MASSIVE_PARTNER_STABILITY_AND_TEST_VACUUM_SHIFT_SCREENING"
+      "resolved_by": "explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md",
+      "next_gate": "CONSTRUCT_SELECTED_BRANCH_FULL_METRIC_COFRAME_SOLDERING_DERIVATIVE_AND_BV_PHYSICAL_COHOMOLOGY_FOR_THE_OPPOSITE_RESIDUE_PARTNER__IN_PARALLEL_BUILD_THE_OBSERVED_TWO_FIELD_CURVATURE_VEV_FLRW_PARAMETER_COUNT_AND_SHIFT_RESPONSE"
     }
   ],
   "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]

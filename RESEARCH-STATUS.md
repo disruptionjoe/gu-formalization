@@ -9,23 +9,24 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Active construction update 2026-08-05 (no canon/public-posture change).**
-The former binary action premise `P2_norm` is now construction-derived on the
-canonical K77 Gauss sector. The horizontal off-diagonal connection receiver
-has rank 100, an exact action-adjoint right inverse and an orthogonal
-projector; the written augmented-torsion norm restricts to full `|II|^2`.
-The trace-first rival has rank ten and loses 90 traceless directions. The
-construction therefore selects the observed determinant
-`z*(alpha_II*kappa_1-z)`: one simple massless Einstein pole plus one distinct
-massive GU partner, with the exact `10 -> 6 -> 2` plus/cross carrier retained.
-The selected non-cyclic K77 scalar action also has a nonzero algebraic
-stationary branch `t*=-kappa_1/312`; all grade-one and grade-thirteen
-translation derivatives vanish, but the radial Hessian is `-14*kappa_1` and
-physical stability, totalization/current closure and the common Krein/Green
-domain remain open. Ledger v0.12 moves `LT-GR1` to
-`SAME/DERIVED_CONDITIONAL`: `82/82`, `33/19/24/6`, with 84 real and at least
-19 function-valued slots plus 9 open forks. External `P2_datum` and P1/P3 are
-unchanged. See
-`explorations/conditional-build/selected-moving-k77-vacuum-p2-norm-placement-2026-08-05.md`.
+The selected K77 branch is now linearized on the correctly typed gravitational
+carrier. The earlier `-14*kappa_1` radial result belongs to `Cl1`; the Gauss
+trace/traceless `Cl2` coefficients are exactly `100*kappa_1/117` and
+`124*kappa_1/117`. Their native inertia is `(54,46)`, so the gravitational
+sector is nondegenerate but indefinite. The observed coupled `(h,v)` operator
+has one common normally-hyperbolic defect Krein/Green domain, one simple
+massless pole and a partner with
+`m^2=124*alpha_II*kappa_1/117`. The two residues are opposite, making the
+physical Krein/BV cohomology—not Green existence—the decisive partner gate.
+At the selected stationary branch the complete Ward identity linearizes to
+`R^!H=0=HR`, and the typed current/stress chain is
+`T_reduced=E_g^direct+(D_g A)^!J_A`. The full metric/coframe soldering
+derivative remains open. A direct source has susceptibility
+`1/(14*kappa_1)`; the actual two-field curvature/VEV magnitude claim remains
+untested. `SOURCE-CORRECTS`. Ledger v0.13 stays `82/82`, `33/19/24/6`, with
+84 real and at least 19 function-valued slots plus 9 open forks. External
+P1/P2/P3 are unchanged. See
+`explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md`.
 
 **Predecessor construction update 2026-08-05.**
 The predecessor's coincident gravity double pole is real, but its one-pole-

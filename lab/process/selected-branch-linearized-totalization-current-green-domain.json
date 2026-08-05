@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "gate": "CLOSE_SELECTED_BRANCH_LINEARIZED_TOTALIZATION_STRESS_CURRENT_AND_COMMON_KREIN_GREEN_DOMAIN__THEN_CLASSIFY_MASSIVE_PARTNER_STABILITY_AND_TEST_VACUUM_SHIFT_SCREENING",
+  "status": "PARTIAL_WITH_DECISIVE_LINEARIZED_AND_DOMAIN_MOVEMENT",
+  "source_return": "SOURCE-CORRECTS",
+  "fork_assumed": "SIGNATURE_AMBIENT_K77__SELECTED_NONCYCLIC_BRANCH__CANONICAL_GAUSS_FULL_II__OBSERVED_GLOBALLY_HYPERBOLIC_DEFECT_HORN",
+  "search_space_dim": "two invariant Gauss Hessian scalars on trace dimension 10 and traceless dimension 90; zero fitted coefficients",
+  "free_object_delta": 0,
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "exact_results": {
+    "cl1_sector_coefficients": ["-1", "15/13", "41/39"],
+    "gauss_trace_coefficient": "100/117*kappa_1",
+    "gauss_traceless_coefficient": "124/117*kappa_1",
+    "gauss_native_inertia": [54, 46],
+    "tt_mass_squared": "124/117*alpha_II*kappa_1",
+    "tt_residues": ["1/alpha_II", "-1/alpha_II"],
+    "kinetic_determinant": -1,
+    "direct_shift_susceptibility": "1/(14*kappa_1)"
+  },
+  "domain": {
+    "closed_grade": "coupled normally-hyperbolic observed defect Krein/Green complex",
+    "test_core": "C_c_infinity",
+    "green_images": "spacelike_compact",
+    "ambient_y14_domain": "OPEN",
+    "positive_physical_cohomology": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2_datum": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "third_lane": "NOT_PROMOTED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "next_gate": "CONSTRUCT_SELECTED_BRANCH_FULL_METRIC_COFRAME_SOLDERING_DERIVATIVE_AND_BV_PHYSICAL_COHOMOLOGY_FOR_THE_OPPOSITE_RESIDUE_PARTNER__IN_PARALLEL_BUILD_THE_OBSERVED_TWO_FIELD_CURVATURE_VEV_FLRW_PARAMETER_COUNT_AND_SHIFT_RESPONSE",
+  "review_receipt": "lab/process/hostile-reviews/2026-08-05-selected-branch-totalization-domain-review.md"
+}
