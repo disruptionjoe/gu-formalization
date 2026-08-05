@@ -1,0 +1,130 @@
+{
+  "artifact": "K77_GLOBAL_CHIMERIC_SPIN_REDUCTION_AND_SUPPORT_NORMALIZATION",
+  "version": "2026-08-05",
+  "lane": "1",
+  "functional_channels": ["BUILD", "SOURCE", "COMPOSE", "VERIFY"],
+  "named_gate": "CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION",
+  "gate_status": "GLOBAL_REDUCTION_CONSTRUCTED__PRIMARY_SUPPORT_HORN_SELECTED__EXISTING_RELATIVE_NORMALIZATION_OPEN",
+  "source_return": "SOURCE-CORRECTS",
+  "layer0": {
+    "spin_TY_vs_spin_C": "DISTINCT",
+    "spin_C_existence_vs_induced_lift": "DISTINCT",
+    "base_spin_datum_vs_new_fibre_bit": "DISTINCT",
+    "source_epsilon_vs_gamma_epsilon": "DISTINCT_DEPENDENT_CONSTRUCTION",
+    "P_H_vs_independent_gauge_bundle": "SOURCE_P_H_IS_CHIMERIC_SPINOR_FRAME_EXTENSION",
+    "full_frame_vs_unframed_plane": "FULL_LABELLED_FRAME",
+    "same_stratum_projector_vs_support": "DISTINCT",
+    "support_choice_vs_relative_action_coefficient": "DISTINCT"
+  },
+  "characteristic_classes": {
+    "bundle": "C_EQUALS_SYM2_E_DUAL_PLUS_E_DUAL",
+    "w1_sym2_rank4": "w1_E",
+    "w2_sym2_rank4": "w1_E_SQUARED",
+    "w1_C": 0,
+    "w2_C": "PI_STAR_w2_TX",
+    "unconditional_spin_claim": false,
+    "GU_branch_spin_precondition": "ADMITTED_ACTIVE_SPIN_STRUCTURE_ON_X"
+  },
+  "induced_spin_lift": {
+    "domain_group": "SPIN_0_1_3_IS_SL2C_SIMPLY_CONNECTED",
+    "chimeric_representation": "SPIN_0_1_3_TO_SO_0_7_7",
+    "lift": "UNIQUE_IDENTITY_PRESERVING_LIFT_TO_SPIN_0_7_7",
+    "absolute_uniqueness_of_all_C_spin_structures": false,
+    "relative_canonicity": "CANONICAL_RELATIVE_TO_SUPPLIED_X_SPIN_STRUCTURE"
+  },
+  "signature": {
+    "vertical_DeWitt": [6, 4],
+    "horizontal_dual": [1, 3],
+    "chimeric": [7, 7],
+    "vertical_Gram_determinant": 64
+  },
+  "principal_bundle": {
+    "real_Clifford": "Cl_7_7_EQUALS_M128_R",
+    "real_spinor_rank": 128,
+    "spinor_form_signature": [64, 64],
+    "grade1_is_B_skew": true,
+    "complex_Krein_extension": "U_64_64",
+    "P_H_owner": "P_SPIN_C_EXTENDED_BY_SPINOR_REPRESENTATION_TO_U_64_64",
+    "independent_bundle_isomorphism_required": false
+  },
+  "global_full_reduction": {
+    "reference_map": "gamma_0_FROM_GLOBAL_CLIFFORD_MULTIPLICATION",
+    "moved_map": "gamma_epsilon_EQUALS_AD_EPSILON_INVERSE_COMPOSE_GAMMA_0",
+    "global": true,
+    "labelled_rank": 14,
+    "Clifford_relations_preserved": true,
+    "Krein_form_preserved": true,
+    "vertical_horizontal_domain_split_preserved": true,
+    "new_field_count": 0,
+    "new_discrete_datum_count": 0
+  },
+  "receiver_inheritance": {
+    "predecessor": "K77_EPSILON_GRAVITATIONAL_SOLDERING_WELD",
+    "receiver_rank": 10,
+    "right_inverse_exact": true,
+    "orthogonal_projector_rank": 10,
+    "global_reduction_condition": "DISCHARGED_ON_ADMITTED_X_SPIN_SOURCE_P_H_BRANCH"
+  },
+  "support_horns": {
+    "primary": {
+      "id": "BULK_PLUS_INDEPENDENT_X",
+      "action": "S_Y_ED_PLUS_S_Y_YMH_PLUS_S_X_INDEPENDENT",
+      "support_map": "CANONICAL_CURRENT_PUSHFORWARD_s_BANG",
+      "normal_density_trivialization_required": false,
+      "transverse_profile_required": false,
+      "new_support_fields": 0,
+      "new_support_coefficients": 0,
+      "selection_basis": "SOURCE_FIDELITY_NO_DOUBLE_COUNTING_FREE_OBJECT_ECONOMY",
+      "uniqueness_claimed": false
+    },
+    "localized_bulk_rival": {
+      "normal_density_dual_or_profile_required": true,
+      "function_valued_freedom_at_least": 1,
+      "double_counting_if_added_without_replacement": true,
+      "selected": false
+    },
+    "pullback_only_rival": {
+      "changes_upstairs_Y_dynamics": true,
+      "source_compatible_as_primary_GU_action": false,
+      "selected": false
+    }
+  },
+  "normalization": {
+    "support_specific_parameter_delta": 0,
+    "relative_action_coefficient": "lambda_def",
+    "fixed_by_covariance": false,
+    "residue_owner": "ALIAS_FORK__EXISTING_KAPPA1_OR_SOURCE_NORM__VERSUS_ONE_ADDITIONAL_REAL",
+    "new_continuous_parameter_added": "NOT_BOOKED_PENDING_ALIAS_ADJUDICATION",
+    "dark_energy_magnitude_fixed": false
+  },
+  "probe_receipt": {
+    "source": 6,
+    "repo": 5,
+    "exact": 21,
+    "type": 11,
+    "planted": 10,
+    "total": 53,
+    "failures": 0,
+    "independent_sage": "21_OF_21_PASS"
+  },
+  "held_open": [
+    "EXISTING_RELATIVE_ACTION_SOURCE_NORMALIZATION",
+    "FULL_PRIMITIVE_NONLINEAR_EVEN_WARD_BV_LEDGER",
+    "MOVING_SHIAB_HODGE_DENSITY_SECTION_PREBOUNDARY_OWNERS",
+    "NULL_CHARACTERISTIC_CONSTRAINT_PROPAGATION",
+    "TRACE_COMPATIBLE_CLOSED_KREIN_GREEN_BFV_DOMAIN",
+    "PHYSICAL_OBSERVATION_POSITIVITY_VACUUM_AND_COSMOLOGY"
+  ],
+  "residue": {
+    "continuous_real_lower_bound": 83,
+    "continuous_real_upper_if_lambda_def_independent": 84,
+    "function_valued_at_least": 19,
+    "open_discrete_forks": 11,
+    "new_fork": "LAMBDA_DEF_ALIAS_TO_EXISTING_NORMALIZATION_VS_INDEPENDENT_REAL",
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "next_gate": "ASSEMBLE_GLOBAL_GAMMA_EPSILON_NONLINEAR_EVEN_BV_PRIMITIVE_OWNER_LEDGER__TEST_EXISTING_SOURCE_NORMALIZATION_ON_LAMBDA_DEF__AND_CONSTRUCT_NULL_TRACE_COMPATIBLE_KREIN_GREEN_DOMAIN",
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

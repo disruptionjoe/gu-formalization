@@ -194,7 +194,7 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.6
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.7
 retains the exact v0.4 result identifying source `theta` with the action's
 connection difference `T` up to the
 tilted trivialization and computes exact ambient curvature-covariation rank
@@ -208,12 +208,15 @@ linearized even-BV complex `4 -> 20 -> 20 -> 4` and quotient rank 16. The
 formerly arbitrary receiver is now explicit:
 `sigma_epsilon(v_T)=pr_V pi1_epsilon(v_T(g/2))`. On the faithful K77 carrier it
 has exact rank ten, an adjoint right inverse and an orthogonal projector; the
-same-stratum gravitational sector split is exact. Global ownership remains
-open because a full `epsilon_IG` Clifford soldering reduction has not been
-constructed on the actual bundle, and the projector does not supply the
-bulk/defect support line or relative normalization. Nonlinear BV, the
-null/Green domain and the physical quotient also remain open. The receiver
-and weld claim is `SOURCE-SILENT`.
+same-stratum gravitational sector split is exact. On the admitted K77 branch,
+the spin structure on `X`, tautological Lorentz metric, chimeric spinor
+extension and source `epsilon` now construct the global full labelled
+Clifford frame. The primary support horn keeps one bulk action plus
+independently typed `X` terms through `s_!`, requiring no transverse profile.
+The relative coefficient `lambda_def` is an unresolved alias to the existing
+`kappa_1`/source normalization or one additional real. Nonlinear BV, the
+null/Green domain and the physical quotient also remain open. The global
+ownership source return is `SOURCE-CORRECTS`.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -226,16 +229,16 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_GLOBAL_FULL_EPSILON_IG_REDUCTION_OR_OBSTRUCTION_AND_TYPED_BULK_DEFECT_SUPPORT_NORMALIZATION__THEN_ASSEMBLE_NONLINEAR_EVEN_BV_AND_NULL_GREEN_DOMAIN
+ASSEMBLE_GLOBAL_GAMMA_EPSILON_NONLINEAR_EVEN_BV_PRIMITIVE_OWNER_LEDGER__TEST_EXISTING_SOURCE_NORMALIZATION_ON_LAMBDA_DEF__AND_CONSTRUCT_NULL_TRACE_COMPATIBLE_KREIN_GREEN_DOMAIN
 ```
 
-It must construct or obstruct the global full reduction needed by the actual
-bundle map, choose and normalize one of the typed bulk/defect support horns,
-derive nonlinear Ward/BV closure and address the null characteristic domain
-before ranking a physical map. Requiring the new geometry to factor through
-the old contraction-first receiver would remain circular; treating the exact
-same-stratum projector identity as a cross-dimensional density theorem would
-be equally wrong.
+It must assemble the global `gamma_epsilon` nonlinear Ward/BV primitive and
+moving-owner ledger, decide whether `lambda_def` is an existing normalization
+or a new real, and address the null characteristic/trace-compatible
+Krein-Green domain before ranking a physical map. Requiring the new geometry
+to factor through the old contraction-first receiver would remain circular;
+treating the profile-free support choice as proof of its relative coefficient
+would be equally wrong.
 
 ## Contract boundary
 

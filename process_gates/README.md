@@ -1296,6 +1296,16 @@ adjoint isometric right inverse/projector and same-stratum orthogonal action
 weld while refusing promotion past global full-reduction existence,
 bulk/defect support normalization, nonlinear BV or the null/Green domain.
 
+## Conditional physics ledger v0.7 scope gate
+
+`conditional_physics_ledger_v07_scope_audit.py` preserves v0.6 byte-for-byte,
+recomputes the unchanged 82-row denominator and verdict counts, and requires
+only `LT-GR2c` to move. It wires the admitted spin-X/source-`P_H`/source-
+`epsilon` global full labelled K77 Clifford frame and the source-guided
+bulk-plus-independent-`X` support horn while refusing to book `lambda_def`
+until its normalization alias is adjudicated. Nonlinear BV, null/Green domain,
+physical cosmology and P1/P2/P3 remain open/unchanged.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified

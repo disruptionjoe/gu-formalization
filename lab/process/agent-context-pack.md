@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.6:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.7:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -68,10 +68,15 @@ Current `I1B` nevertheless fails a direct action-level ownership test at
 `T=0`. A conditional fixed-slot repaired action has an exact non-null
 linearized even-BV quotient of rank 16. Its K77 receiver is now explicit:
 `pr_V pi1_epsilon(v_T(g/2))`, with exact rank ten, adjoint right inverse and
-orthogonal projector conditional on a full `epsilon_IG` Clifford soldering
-reduction. The same-stratum sector weld is exact; global full-reduction
-existence, bulk/defect support normalization, nonlinear BV and the null/Green
-domain remain open. The claim is `SOURCE-SILENT`. Vacuum shifts currently
+orthogonal projector. On the admitted oriented/time-oriented K77 branch, the
+supplied spin structure on `X`, tautological Lorentz metric, chimeric spinor
+extension and source `epsilon` construct the global full labelled Clifford
+frame, so the former global-reduction condition is discharged. The primary
+support horn is one bulk action plus independently typed `X` terms using
+`s_!`; it needs no transverse profile. Whether `lambda_def` is the existing
+`kappa_1`/source normalization or one additional real remains an explicit
+alias fork. Nonlinear BV and the null/trace-compatible Krein-Green domain
+remain open. The source return is `SOURCE-CORRECTS`. Vacuum shifts currently
 track into `T` but are not screened.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.

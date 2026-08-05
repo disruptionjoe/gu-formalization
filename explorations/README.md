@@ -1067,17 +1067,18 @@ all ten restriction-first Einstein components, so no receiver depending only
 on that post-Shiab output can recover the target. A canonical pre-Shiab Riemann/Gauss receiver and its local
 first variation survive; complete K77 source-action ownership remains open.
 
-[`conditional-build/conditional-physics-ledger-v0.6.md`](conditional-build/conditional-physics-ledger-v0.6.md)
-is the current human ledger view. It retains v0.5 unchanged and advances only
+[`conditional-build/conditional-physics-ledger-v0.7.md`](conditional-build/conditional-physics-ledger-v0.7.md)
+is the current human ledger view. It retains v0.6 unchanged and advances only
 `LT-GR2c`. The current `I1B` action cannot own the pre-Shiab receiver at the
 homogeneous `T=0` locus. A conditional repaired fixed-gravitational-slot
 action has an exact non-null linearized `4 -> 20 -> 20 -> 4` even-BV complex
 and quotient rank 16, with trace-reversed inertia `(6,4)`. The K77 receiver is
-now explicit, rank ten and equipped with an adjoint orthogonal projector
-conditional on a full `epsilon_IG` reduction; its same-stratum action weld is
-exact. Global reduction existence, bulk/defect support normalization,
-nonlinear BV and the null/Green domain remain open, so no physical recovery or
-global residue reduction is booked.
+now global, rank ten and equipped with an adjoint orthogonal projector. The
+admitted spin structure, source-built chimeric spinor bundle and source
+`epsilon` construct the full labelled K77 Clifford frame. The primary horn is
+one bulk action plus an independent `X` action with no transverse profile.
+The `lambda_def` normalization alias, nonlinear BV and null/Green domain remain
+open, so no physical recovery or global residue reduction is booked.
 
 `conditional-build/pre-shiab-gauss-defect-action-bv-symbol-2026-08-05.md`
 contains the action-level obstruction, repaired horn, exact SymPy/Sage symbol
@@ -1089,3 +1090,8 @@ contains the explicit receiver/right-inverse/projector, five-map
 equivariance-nonuniqueness control, same-stratum no-double-counting action
 identity, primitive nonlinear owner ledger and the surviving global
 reduction/support/BV/domain gate.
+
+`conditional-build/k77-global-chimeric-spin-reduction-and-support-normalization-2026-08-05.md`
+constructs that global full labelled Clifford frame on the admitted K77
+branch, selects the source-guided bulk-plus-independent-`X` support horn, and
+keeps the `lambda_def` alias, nonlinear BV and null/Green domain explicit.
