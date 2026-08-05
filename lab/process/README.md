@@ -40,10 +40,10 @@ Runbooks:
 
 - `pw2fr2b2b2i2-resumable-full-evaluator-coverage.json` -
   PW2F-R2B2B2I2 append-only coverage ledger: chains to the exact `3/380`
-  predecessor, records the first two uncovered six-cell orbits with all twelve
+  predecessor, records the first three uncovered six-cell orbits with all twelve
   generator edges and exact action fingerprints, byte-pins each immediate
   predecessor, and freezes six dense heldout inputs outside the lattice.
-  Durable coverage is exactly `5/380`; the other 375 representatives and all
+  Durable coverage is exactly `6/380`; the other 374 representatives and all
   six heldout executions remain open, the separate banks stay unpromoted, and
   the 1,925-cell fallback stays live.
 - `pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate.json` -
