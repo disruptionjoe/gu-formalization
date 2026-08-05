@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.9:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.10:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -85,12 +85,18 @@ jet promoted to global-shell faithfulness are killed. Signature `(7,7)` admits
 no spacelike codimension-one hypersurface, sharply obstructing the standard
 ambient globally-hyperbolic Cauchy route while leaving observation-first
 constraint propagation and constrained ultrahyperbolic boundary data live.
-The observed equation `C_s + kappa_1 v + J_X^conn + E_X^(defect/BV)=0` is
-typed, but its connection current is not the Hilbert or source-proposed
-up-and-back stress tensor. `lambda_def` is charged as the 84th prequotient
-real, while any normalization quotient remains unranked. The composed-locus
-source return is `SOURCE-CORRECTS`. Vacuum shifts currently track into `T` but
-are not screened or selected nonzero.
+The action-owned nonlinear Hilbert stress is now exact with no new map or
+datum: it is the radial transgression of the existing mixed metric/matter
+return block. Literal diagonal `VU` is a Hessian response, not stress; the
+connection current and source-proposed up-and-back totalization remain
+separately typed. The exact flat null quotient remains `10 -> 6 -> 2`, but the
+repaired pre-Shiab metric response is a **double pole**, not the Einstein
+single pole. The observed homogeneous quadratic distortion horn has only the
+zero indefinite stationary point and transmits independent shifts; the full
+existing nonlinear `T`-cubic and non-equilibrium vacuum are still uncomputed.
+`lambda_def` is charged as the 84th prequotient real, while any normalization
+quotient remains unranked. The composed-locus source return is
+`SOURCE-CORRECTS`.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

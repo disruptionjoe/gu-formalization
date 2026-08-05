@@ -7,6 +7,24 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 ACTION-OWNED STRESS / OBSERVED PROPAGATOR / VACUUM GATE.**
+> [`explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md`](explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md)
+> reconstructs the nonlinear Hilbert stress exactly as the zero-parameter
+> radial transgression of the common action's existing mixed return block. An
+> exact Krein-Dirac control makes it symmetric, conserved and trace-free on
+> shell. Literal `VU` is a Hessian response, not stress, and the connection
+> current remains separately typed. The inherited observed null system keeps
+> the exact `10 -> 6 -> 2` plus/cross quotient, but the repaired pre-Shiab
+> gravity placement has a double-pole metric response rather than the Einstein
+> single pole. Its observed quadratic vacuum is only the zero indefinite
+> stationary point and tracks independent shifts; the full nonlinear `T`-
+> cubic/non-equilibrium vacuum remains open. `SOURCE-CORRECTS`; ledger v0.10
+> remains `82/82`, `32/19/25/6`, with residue `84 + >=19 functions + 10
+> forks`. Next:
+> `CONSTRUCT_SOURCE_OWNED_UP_BACK_CANCELLATION_OR_ALTERNATIVE_ACTION_PLACEMENT_THAT_YIELDS_ONE_EINSTEIN_POLE_WITH_ACTION_HILBERT_STRESS_AND_PLUS_CROSS__THEN_COMPUTE_THE_EXISTING_FULL_NONLINEAR_T_CUBIC_VACUUM_BEFORE_ADDING_ANY_SELECTOR`.
+> The constrained-ultrahyperbolic domain remains a rival horn. P1/P2/P3,
+> canon, verdict counts and public posture do not move.
+
 > **2026-08-05 K77 MOVING OBSERVATION / Y14 DOMAIN / OBSERVED EQUATION GATE.**
 > [`explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md`](explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md)
 > constructs the complete first-jet observation along a moving section and its

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-05",
+  "gate": "OBSERVED_UPBACK_STRESS_NORMAL_CONSTRAINT_VACUUM",
+  "status": "ACTION_HILBERT_STRESS_EXACT__OBSERVED_CONSTRAINT_QUOTIENT_RETAINED__REPAIRED_GRAVITY_DOUBLE_POLE__QUADRATIC_VACUUM_ZERO_INDEFINITE_ONLY",
+  "source_return": "SOURCE-CORRECTS",
+  "fork": "K77_OBSERVATION_FIRST_PRE_SHIAB_REPAIRED_ACTION",
+  "ledger_rows": ["LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR5", "LT-GR6"],
+  "layer0": {
+    "connection_current_vs_hilbert_stress": "DISTINCT",
+    "hilbert_stress_vs_mixed_return_derivative": "DISTINCT_WITH_RADIAL_RECONSTRUCTION",
+    "literal_VU_vs_nonlinear_stress": "TYPE_MISMATCH",
+    "source_up_back_path_vs_released_map": "SOURCE_PATH_ONLY_MAP_UNRELEASED",
+    "constraint_quotient_vs_pole_multiplicity": "DISTINCT",
+    "quadratic_vacuum_vs_full_nonlinear_T_vacuum": "DISTINCT"
+  },
+  "stress": {
+    "formula": "T_H(g,psi)=integral_0^1 V_raw(g,t psi)[psi] dt",
+    "owner": "COMMON_MATTER_ACTION_METRIC_EULER",
+    "free_object_delta": 0,
+    "mixed_reciprocity": "V_RAW_EQUALS_U_RAW_TRANSPOSE_IN_ACTION_PAIRING",
+    "literal_VU_equals_stress": false,
+    "symmetry": "BY_METRIC_OR_COFRAME_VARIATION",
+    "conservation": "ON_COMPLETE_MATTER_OWNER_SHELL_BY_DIFFEOMORPHISM_WARD",
+    "source_totalization_equality": "OPEN_SOURCE_BOUNDED_RECONSTRUCTION",
+    "connection_current_equality": "OPEN_REQUIRES_DERIVATIVE_SOLDERING_RELATION"
+  },
+  "krein_dirac_control": {
+    "signature": "+---",
+    "krein_pairing": "K_EQUALS_GAMMA0",
+    "momentum": [1, 0, 0, 1],
+    "spinor": [1, 0, 1, 0],
+    "dirac_shell": true,
+    "current": [2, 0, 0, 2],
+    "stress_symmetric": true,
+    "stress_conserved": true,
+    "stress_trace_free": true,
+    "momentum_free_current_to_stress_map": "KILLED_BY_NULL_MOMENTUM_SCALING"
+  },
+  "observed_constraints": {
+    "scope": "FLAT_LORENTZIAN_DEFECT_HARMONIC_SYMBOL",
+    "trace_reversed_gram_rank": 10,
+    "trace_reversed_gram_inertia": [6, 4],
+    "characteristic_kernel_dimension": 10,
+    "harmonic_constraint_rank_on_kernel": 4,
+    "constraint_compatible_dimension": 6,
+    "residual_gauge_rank": 4,
+    "physical_quotient_dimension": 2,
+    "representatives": ["PLUS", "CROSS"],
+    "full_moving_85_direction_propagation": "OPEN"
+  },
+  "propagator": {
+    "TT_field_matrix": [["0", "z"], ["z", "kappa_1"]],
+    "determinant": "-z^2",
+    "metric_metric_response": "-kappa_1/z^2",
+    "pole_order": 2,
+    "einstein_single_pole": false,
+    "green_composition": "CONDITIONAL_ON_PREDECESSOR_FLAT_DEFECT_DOMAIN",
+    "generalized_partner": "REMAINS",
+    "next_burden": "SOURCE_OWNED_CANCELLATION_CONSTRAINT_OR_ALTERNATIVE_ACTION_PLACEMENT"
+  },
+  "vacuum": {
+    "scope": "HOMOGENEOUS_OBSERVED_RANK10_QUADRATIC_HORN_FIXED_NONZERO_GAIN",
+    "unshifted_stationary_solution": "V_EQUALS_ZERO_ONLY",
+    "stationary_hessian_inertia": [6, 4],
+    "stable_minimum": false,
+    "independent_trace_shift": "LINEARLY_TRACKED_NOT_SCREENED",
+    "full_nonlinear_T_cubic": "OPEN",
+    "non_equilibrium_selection": "OPEN",
+    "magnitude_wz": "OPEN"
+  },
+  "residue": {
+    "continuous_real_before_quotient": 84,
+    "function_valued_at_least": 19,
+    "open_discrete_forks": 10,
+    "quotients_ranked": 2,
+    "global_residue_reduction_booked": false,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "row_dispositions": {
+    "LT-GR2b": "MIGRATED_DISTANCE_REDUCED_QUADRATIC_VACUUM_ZERO_INDEFINITE",
+    "LT-GR2c": "MIGRATED_STRESS_EXACT_AND_DOUBLE_POLE_EXPOSED",
+    "LT-GR2d": "MIGRATED_SCOPE_CORRECTION_FULL_NONLINEAR_VACUUM_OPEN",
+    "LT-GR5": "MIGRATED_CONSTRAINTS_PASS_GENERALIZED_PARTNER_REMAINS",
+    "LT-GR6": "MIGRATED_HILBERT_STRESS_EXACT_SOURCE_TOTALIZATION_CURRENT_SINGLE_POLE_OPEN"
+  },
+  "next_gate": "CONSTRUCT_SOURCE_OWNED_UP_BACK_CANCELLATION_OR_ALTERNATIVE_ACTION_PLACEMENT_THAT_YIELDS_ONE_EINSTEIN_POLE_WITH_ACTION_HILBERT_STRESS_AND_PLUS_CROSS__THEN_COMPUTE_THE_EXISTING_FULL_NONLINEAR_T_CUBIC_VACUUM_BEFORE_ADDING_ANY_SELECTOR",
+  "probe_receipt": {
+    "exact": 48,
+    "planted": 8,
+    "repo": 4,
+    "source": 1,
+    "type": 11,
+    "total": 72,
+    "failures": 0,
+    "independent_sage": "PASS"
+  }
+}

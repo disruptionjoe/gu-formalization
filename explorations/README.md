@@ -2,10 +2,23 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-07-30"
+updated_at: "2026-08-05"
 ---
 
 # Explorations
+
+## Action-owned stress, observed double pole and quadratic vacuum (2026-08-05)
+
+`conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md`
+reconstructs the nonlinear Hilbert stress as the exact radial transgression of
+the existing mixed return block and verifies an on-shell symmetric conserved
+Krein-Dirac control. It kills literal `VU`-as-stress by type while retaining
+the connection-current and source-totalization burdens. The observed
+`10 -> 6 -> 2` plus/cross quotient survives, but the repaired pre-Shiab metric
+response is double-pole rather than Einstein single-pole. The observed
+quadratic vacuum is zero/indefinite and tracks shifts; the full nonlinear
+`T`-cubic/non-equilibrium vacuum remains open. Ledger v0.10 migrates five row
+distances without changing coverage, verdict counts or residue.
 
 ## K77 moving observation, ambient-domain obstruction and observed equation (2026-08-05)
 

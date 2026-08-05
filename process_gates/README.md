@@ -1329,6 +1329,18 @@ and conditional observed curvature/distortion equation. It keeps constrained
 domain construction, the physical up-and-back stress map, nonzero vacuum,
 positive cohomology and P1/P2/P3 open/unchanged.
 
+## Conditional physics ledger v0.10 scope gate
+
+`conditional_physics_ledger_v010_scope_audit.py` preserves v0.9
+byte-for-byte, recomputes the unchanged 82-row denominator, verdict and
+residue counts, and requires exactly five row migrations. It wires the
+zero-parameter radial reconstruction of action-owned Hilbert stress, the
+retained observed `10 -> 6 -> 2` quotient, the adverse double-pole propagator
+diagnosis and the scope correction that reopens the existing full nonlinear
+`T`-cubic vacuum. It forbids promotion to a released source totalization,
+connection-current equality, Einstein recovery, screening, cosmology or a
+P1/P2/P3 change.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1338,8 +1350,8 @@ unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
 two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
 receiver, formal homogeneous-gauge CME, null physical quotient, exact
-first-jet section-germ observation, sharp standard ambient-Cauchy obstruction
-and constraint-propagation/up-and-back-stress successor gate. It
+first-jet section-germ observation, action-owned Hilbert stress, adverse
+double-pole diagnosis and single-pole/full-nonlinear-vacuum successor gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

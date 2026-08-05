@@ -194,7 +194,7 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.9
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.10
 retains the exact identification of source `theta` with action connection
 difference `T` up to tilted trivialization, the exact global K77
 `gamma_epsilon` frame and rank-ten receiver, and the profile-free
@@ -231,12 +231,35 @@ observation/dynamic-field direction, explicitly calls the multiple-time
 upstairs problem technical debt, and says the proposed stress-energy
 up-and-back construction was unfinished.
 
-The conditional observed connection equation is now typed as
-`C_s + kappa_1 v + J_X^conn + E_X^(defect/BV) = 0`. The projected connection
-current, an independently varied Hilbert tensor, and the source-proposed
-up-and-back stress tensor remain three distinct objects. The trace of `v`
-locates a variable cosmological-like field; it does not select a nonzero VEV,
-magnitude, screening law or `w(z)`.
+The action-owned physical Hilbert stress is now constructed rather than merely
+named. If `V_raw=D_psi E_g^matter` and the metric Euler term vanishes at zero
+matter field, then
+
+```text
+T_H(g,psi) = integral_0^1 V_raw(g,t psi)[psi] dt.
+```
+
+This zero-parameter radial transgression is symmetric by metric variation and
+conserved on the matter shell by the complete diffeomorphism Ward identity.
+An exact Krein-Dirac control verifies symmetry and conservation. A literal
+diagonal `VU` is a Hessian-response operator, not the nonlinear stress, and
+the projected connection current remains distinct pending a derivative/
+soldering relation. The source return stays `SOURCE-CORRECTS`: Weinstein names
+an unfinished up-and-back path but does not publish the literal maps or
+cancellations.
+
+The flat observed harmonic constraint quotient remains exactly `10 -> 6 ->
+2`, retaining plus/cross. That does not yet recover Einstein propagation. On
+each transverse-traceless polarization the repaired pre-Shiab quadratic action
+has determinant `-z^2` and metric response `-kappa_1/z^2`: a double pole, not
+the Einstein single pole. The generalized partner must be cancelled,
+constrained or removed by a different action placement.
+
+The observed quadratic distortion horn has only the zero unshifted stationary
+point, with `(6,4)` Hessian inertia, and transmits an independent trace shift
+linearly rather than screening it. This is not a whole-action vacuum no-go:
+the existing nonlinear `T`-cubic and non-equilibrium branches remain open and
+must be computed before any new selector is added.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -249,18 +272,18 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_OBSERVATION_FIRST_NORMAL_JET_CONSTRAINT_PROPAGATION_AND_SOURCE_DIRECTED_UP_AND_BACK_SYMMETRIC_CONSERVED_STRESS_MAP__OR_BUILD_A_CONSTRAINED_ULTRAHYPERBOLIC_DOMAIN__THEN_SELECT_AND_SHIFT_TEST_A_NONZERO_VARIABLE_COSMOLOGICAL_VACUUM
+CONSTRUCT_SOURCE_OWNED_UP_BACK_CANCELLATION_OR_ALTERNATIVE_ACTION_PLACEMENT_THAT_YIELDS_ONE_EINSTEIN_POLE_WITH_ACTION_HILBERT_STRESS_AND_PLUS_CROSS__THEN_COMPUTE_THE_EXISTING_FULL_NONLINEAR_T_CUBIC_VACUUM_BEFORE_ADDING_ANY_SELECTOR
 ```
 
-It must prove normal-jet constraint propagation on the primary
-observation-first horn and construct the symmetric conserved source-directed
-up-and-back stress map. A constrained ultrahyperbolic domain is an explicit
-rival horn, not a hidden prerequisite. Only after one domain horn and the
-stress map close should a nonzero variable vacuum be selected and tested under
-shifts without retuning `lambda_def` or `kappa_1`. Requiring the new geometry
-to factor through the old contraction-first receiver remains circular;
-promoting the flat defect Green complex to the upstairs domain would be
-equally wrong.
+It must turn the repaired double pole into one Einstein pole without erasing
+the action-derived stress or plus/cross, and construct the typed comparison to
+the unfinished source totalization and projected connection current. A
+constrained ultrahyperbolic domain is an explicit rival horn, not a hidden
+prerequisite. The next vacuum calculation uses the full already-present
+nonlinear `T` action before inventing a potential, datum or boundary selector.
+Requiring the new geometry to factor through the old contraction-first
+receiver remains circular; promoting the flat defect Green complex to the
+upstairs domain would be equally wrong.
 
 ## Contract boundary
 
