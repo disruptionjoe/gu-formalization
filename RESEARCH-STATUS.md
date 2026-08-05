@@ -10,18 +10,20 @@ canon_sweep_at: "2026-07-25"
 
 **Active construction update 2026-08-05 (no canon or verdict change).** The
 K77 gravitational route now has a global full labelled Clifford frame and
-rank-ten receiver, a profile-free bulk-plus-independent-`X` support horn, a
-composed formal minimal homogeneous-gauge CME, and an exact null
-constraint/gauge quotient with two explicit physical polarizations. A flat
-globally hyperbolic defect Green complex is conditional; the curved
-completion, moving-observation no-leakage and global coupled noncompact
-`Y14` Krein/Green/BFV domain remain open. Prequotient continuous residue is
-84 after charging `lambda_def`; this is not 84 observables and no
-normalization quotient is yet ranked. The next construction target is the
-global domain/observation gate, followed by the observed Einstein,
-stress-energy and dynamic cosmological Euler equations. See
-`explorations/conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md`
-and conditional ledger v0.8.
+rank-ten receiver, a formal minimal homogeneous-gauge CME, and two explicit
+physical null polarizations. Complete first-jet observation along a moving
+section and its equation dual are exact, giving section-germ no-leakage. This
+does not determine the unrestricted global bulk shell. Signature `(7,7)`
+sharply obstructs an ordinary codimension-one globally-hyperbolic ambient
+Cauchy domain; observation-first normal-jet propagation and constrained
+ultrahyperbolic boundary data remain live. The conditional observed
+curvature/distortion equation is typed, while connection current, Hilbert
+stress and Weinstein's unfinished up-and-back stress map remain distinct.
+The variable trace locates a cosmological-like field but does not select a
+nonzero vacuum, magnitude, screening law or `w(z)`. Prequotient residue stays
+84 reals plus at least 19 function-valued slots and 10 forks. See
+`explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md`
+and conditional ledger v0.9.
 
 The internal work-artifact system was the originating workspace for this project. The
 public repository is now the durable research authority.

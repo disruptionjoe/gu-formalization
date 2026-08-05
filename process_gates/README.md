@@ -42,6 +42,7 @@ selected notes below and in each script header.
 - `conditional_physics_ledger_v06_scope_audit.py`
 - `conditional_physics_ledger_v07_scope_audit.py`
 - `conditional_physics_ledger_v08_scope_audit.py`
+- `conditional_physics_ledger_v09_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1317,6 +1318,17 @@ exact null `10 -> 6 -> 2` constraint/gauge quotient, conditional flat-defect
 Green complex and 84-real prequotient count while requiring the curved/global
 `Y14` domain, observation, positivity, vacuum and cosmology to remain open.
 
+## Conditional physics ledger v0.9 scope gate
+
+`conditional_physics_ledger_v09_scope_audit.py` preserves v0.8 byte-for-byte,
+recomputes the unchanged 82-row denominator, verdict and residue counts, and
+requires exactly four row-distance migrations. It wires the determinant-one
+complete first-jet section observation, inverse-transpose equation dual,
+finite-jet global-shell fence, sharp standard K77 ambient-Cauchy obstruction
+and conditional observed curvature/distortion equation. It keeps constrained
+domain construction, the physical up-and-back stress map, nonzero vacuum,
+positive cohomology and P1/P2/P3 open/unchanged.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1325,8 +1337,9 @@ Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
 two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
-receiver, formal homogeneous-gauge CME, null physical quotient and global
-`Y14` observation/domain successor gate. It
+receiver, formal homogeneous-gauge CME, null physical quotient, exact
+first-jet section-germ observation, sharp standard ambient-Cauchy obstruction
+and constraint-propagation/up-and-back-stress successor gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

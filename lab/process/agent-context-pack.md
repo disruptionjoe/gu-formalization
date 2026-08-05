@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.8:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.9:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -78,11 +78,19 @@ Shiab, primitive `epsilon` row and complete homogeneous even Ward owner now
 compose to a formal minimal homogeneous-gauge CME. The exact null dimension
 filtration is `10 -> 6 -> 2`: two plus/cross physical modes remain after
 harmonic constraint and residual gauge. A flat globally hyperbolic defect
-Green complex is conditional; the curved completion and global coupled
-noncompact `Y14` domain remain open. `lambda_def` is charged as the 84th
-prequotient real, while any normalization quotient remains unranked. The
-composed-locus source return is `SOURCE-SILENT`. Vacuum shifts currently track
-into `T` but are not screened.
+Green complex is conditional. Complete first-jet observation along the moving
+section is now an exact determinant-one isomorphism with inverse-transpose
+equation dual and section-germ no-leakage; value-only pullback and every finite
+jet promoted to global-shell faithfulness are killed. Signature `(7,7)` admits
+no spacelike codimension-one hypersurface, sharply obstructing the standard
+ambient globally-hyperbolic Cauchy route while leaving observation-first
+constraint propagation and constrained ultrahyperbolic boundary data live.
+The observed equation `C_s + kappa_1 v + J_X^conn + E_X^(defect/BV)=0` is
+typed, but its connection current is not the Hilbert or source-proposed
+up-and-back stress tensor. `lambda_def` is charged as the 84th prequotient
+real, while any normalization quotient remains unranked. The composed-locus
+source return is `SOURCE-CORRECTS`. Vacuum shifts currently track into `T` but
+are not screened or selected nonzero.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

@@ -55,7 +55,8 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.8.json` - current machine ledger; 82 active targets, composed formal homogeneous-gauge CME, exact null `10 -> 6 -> 2` physical quotient, conditional flat-defect Green complex, and 84 continuous reals before quotient. v0.7 remains frozen history.
+- `conditional-physics-ledger-v0.9.json` - current machine ledger; 82 active targets, exact first-jet section-germ no-leakage, sharp obstruction to the standard codimension-one globally-hyperbolic K77 ambient horn, typed conditional observed curvature/distortion equation, and unchanged 84-real prequotient residue. v0.8 remains frozen history.
+- `k77-moving-observation-y14-domain-obstruction.json` - machine receipt for the first-jet observation/equation dual, finite-jet global-shell fence, all three K77 hypersurface inertias, observed-equation typing and next constraint-propagation/up-and-back-stress gate.
 - `k77-global-even-bv-null-green-domain.json` - machine receipt for the composed owner chain, null quotient, defect-domain scope, normalization adjudication and next global `Y14` observation/domain gate.
 - `source-native-curvature-vev-euler-rank.json` - exact action-owned ambient curvature/distortion rank, observation obstruction, BV boundary and next-gate registry.
 - `pre-shiab-gauss-defect-action-bv-symbol.json` - exact current-action obstruction, repaired fixed-slot action, trace-reversed symbol complex, adverse null/zero-gain controls and next global soldering/weld gate.

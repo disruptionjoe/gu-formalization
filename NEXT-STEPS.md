@@ -7,6 +7,24 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 MOVING OBSERVATION / Y14 DOMAIN / OBSERVED EQUATION GATE.**
+> [`explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md`](explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md)
+> constructs the complete first-jet observation along a moving section and its
+> inverse-transpose equation dual. Section-germ no-leakage is exact; value-only
+> pullback fails because the selected Shiab has all 85 mixed-normal directions
+> live, and no finite section jet determines the unrestricted global bulk
+> shell. Signature `(7,7)` admits no spacelike codimension-one hypersurface, so
+> the standard ambient globally-hyperbolic Cauchy/Green/BFV horn is sharply
+> obstructed. Observation-first normal-jet propagation and constrained
+> ultrahyperbolic boundary data remain live. The conditional observed equation
+> is typed, while connection current, Hilbert stress and Weinstein's unfinished
+> up-and-back stress map stay distinct. The trace of the variable distortion
+> locates a cosmological-like field but does not select a nonzero vacuum.
+> `SOURCE-CORRECTS`; ledger v0.9 remains `82/82`, `32/19/25/6`, with residue
+> `84 + >=19 functions + 10 forks`. Next:
+> `CONSTRUCT_OBSERVATION_FIRST_NORMAL_JET_CONSTRAINT_PROPAGATION_AND_SOURCE_DIRECTED_UP_AND_BACK_SYMMETRIC_CONSERVED_STRESS_MAP__OR_BUILD_A_CONSTRAINED_ULTRAHYPERBOLIC_DOMAIN__THEN_SELECT_AND_SHIFT_TEST_A_NONZERO_VARIABLE_COSMOLOGICAL_VACUUM`.
+> P1/P2/P3, canon, verdicts and public posture do not move.
+
 > **2026-08-05 K77 GLOBAL HOMOGENEOUS-EVEN BV / NULL / GREEN GATE.**
 > [`explorations/conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md`](explorations/conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md)
 > composes the global `gamma_epsilon`, selected displayed Shiab, primitive

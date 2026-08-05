@@ -7,9 +7,24 @@ updated_at: "2026-07-30"
 
 # Explorations
 
+## K77 moving observation, ambient-domain obstruction and observed equation (2026-08-05)
+
+[`conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md`](conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md)
+constructs the complete first-jet moving-section observation and its
+inverse-transpose equation dual. Section-germ no-leakage is exact, while
+value-only pullback and finite-jet promotion to the unrestricted global bulk
+shell fail. Signature `(7,7)` admits no spacelike codimension-one
+hypersurface, sharply obstructing the standard ambient globally-hyperbolic
+Cauchy horn. Observation-first normal-jet propagation and constrained
+ultrahyperbolic boundary data remain live. The observed curvature/distortion
+equation is typed without equating its connection current to physical stress;
+the source-directed up-and-back stress map and nonzero variable vacuum are the
+next physics constructions. Ledger v0.9 records four distance migrations with
+unchanged coverage, verdict counts and residue.
+
 ## K77 global homogeneous-even BV, null quotient and defect Green domain (2026-08-05)
 
-[`conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md`](conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md)
+`conditional-build/k77-global-even-bv-null-green-domain-2026-08-05.md`
 composes the global K77 frame, selected displayed Shiab, primitive `epsilon`
 row and complete homogeneous even Ward owner into a formal minimal
 homogeneous-gauge CME. Exact SymPy and independent Sage reconstruct the null

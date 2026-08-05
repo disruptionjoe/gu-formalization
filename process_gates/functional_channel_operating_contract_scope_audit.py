@@ -57,8 +57,8 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.8.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.8.json")
+assert "conditional-physics-ledger-v0.9.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.9.json")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -74,16 +74,17 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "GLOBAL_HOMOGENEOUS_EVEN_OWNER_AND_FORMAL_MINIMAL_CME_COMPOSED__NULL_10_TO_6_TO_2_PHYSICAL_QUOTIENT_EXACT__FLAT_DEFECT_GREEN_DOMAIN_CONDITIONAL__LAMBDA_DEF_84TH_PREQUOTIENT_REAL__GLOBAL_Y14_DOMAIN_OBSERVATION_PHYSICS_OPEN"
-assert directive["source_return"] == "SOURCE-SILENT"
+assert directive["status"] == "FIRST_JET_SECTION_GERM_NO_LEAKAGE_EXACT__FINITE_JET_GLOBAL_SHELL_ROUTE_KILLED__STANDARD_K77_CODIM1_GLOBALLY_HYPERBOLIC_DOMAIN_SHARPLY_OBSTRUCTED__CONDITIONAL_OBSERVED_CURVATURE_DISTORTION_EQUATION_TYPED__UP_AND_BACK_STRESS_CONSTRAINED_DOMAIN_AND_VACUUM_OPEN"
+assert directive["source_return"] == "SOURCE-CORRECTS"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "MOVING_OBSERVATION_NO_LEAKAGE" in directive["next_gate"]
-assert "GLOBAL_COUPLED_Y14_KREIN_GREEN_BFV_DOMAIN" in directive["next_gate"]
+assert "OBSERVATION_FIRST_NORMAL_JET_CONSTRAINT_PROPAGATION" in directive["next_gate"]
+assert "SOURCE_DIRECTED_UP_AND_BACK_SYMMETRIC_CONSERVED_STRESS_MAP" in directive["next_gate"]
+assert "CONSTRAINED_ULTRAHYPERBOLIC_DOMAIN" in directive["next_gate"]
 assert "remains circular" in human
 assert "the Einstein equation was recovered” is not a completion result" in human
 assert "historical Einstein" in human
@@ -96,4 +97,4 @@ assert set(contract["non_effects"]) >= {
     "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels, v0.8 ledger, adverse-row independence, source-silent formal homogeneous-gauge CME/null quotient/flat-defect Green boundary and the global Y14 observation-domain gate are wired without lane or system promotion")
+print("PASS: functional channels, v0.9 ledger, adverse-row independence, source-corrected first-jet observation/ambient-domain obstruction and the constraint-propagation/up-and-back-stress gate are wired without lane or system promotion")

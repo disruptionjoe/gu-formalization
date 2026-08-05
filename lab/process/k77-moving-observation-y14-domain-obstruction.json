@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-05",
+  "status": "FIRST_JET_SECTION_GERM_NO_LEAKAGE_EXACT__STANDARD_K77_CODIM1_GLOBALLY_HYPERBOLIC_DOMAIN_SHARPLY_OBSTRUCTED__CONDITIONAL_OBSERVED_EQUATION_TYPED__CONSTRAINED_DOMAIN_STRESS_AND_VACUUM_OPEN",
+  "ledger_rows": ["LT-GR1b", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "source_return": "SOURCE-CORRECTS",
+  "layer0": {
+    "value_pullback_vs_first_jet_observation": "DISTINCT",
+    "section_germ_no_leakage_vs_global_shell_faithfulness": "DISTINCT",
+    "defect_green_vs_ambient_domain": "DISTINCT",
+    "ordinary_cauchy_vs_constrained_ultrahyperbolic_boundary": "DISTINCT",
+    "connection_current_vs_hilbert_stress_vs_up_and_back": "THREE_DISTINCT_OBJECTS",
+    "variable_trace_vev_vs_constant_lambda_g": "DISTINCT"
+  },
+  "observation": {
+    "zero_jet_four_plus_ten_map": "COMPOSED_NOT_RECOMPUTED",
+    "first_jet_graph_matrix": "BLOCK_I_JT_0_I",
+    "first_jet_determinant": 1,
+    "equation_observation": "INVERSE_TRANSPOSE",
+    "section_germ_no_leakage": true,
+    "moving_section_chain_owner_included": true,
+    "selected_shiab": "COMM_SYMI_SYMI",
+    "selected_mixed_normal_live_directions": 85,
+    "selected_mixed_normal_slice_rank": 85,
+    "selected_full_grade_one_mixed_normal_rank": 1190,
+    "value_only_observation": "KILLED"
+  },
+  "global_shell": {
+    "finite_jet_faithful": false,
+    "counterexample_family": "NORMAL_COORDINATE_Y_POWER_K_PLUS_1",
+    "correct_scope": "FIRST_ORDER_SECTION_SUPPORTED_EULER_CURRENT_AND_SECTION_GERM",
+    "bulk_equation_still_independent": true
+  },
+  "ambient_domain": {
+    "principal_signature": [7, 7],
+    "positive_normal_hypersurface_inertia": [6, 7, 0],
+    "negative_normal_hypersurface_inertia": [7, 6, 0],
+    "null_normal_hypersurface_inertia": [6, 6, 1],
+    "codimension_one_spacelike_hypersurface": false,
+    "standard_lorentzian_globally_hyperbolic_route": "SHARPLY_OBSTRUCTED",
+    "revival_horns": [
+      "SOURCE_DERIVED_LORENTZIAN_POLARIZATION_OR_REDUCTION",
+      "CONSTRAINED_ULTRAHYPERBOLIC_BOUNDARY_VALUE_DOMAIN",
+      "OBSERVATION_FIRST_NORMAL_JET_CONSTRAINT_PROPAGATION"
+    ]
+  },
+  "observed_equations": {
+    "curvature_owner": "G4_RES_H_P_R_BARF_PLUS_Q_II",
+    "distortion_owner": "SIGMA_EPSILON_V_T",
+    "connection_current": "IOTA_EPSILON_BANG_O_E_FIRST_JET_J_D_PLUS_J_F_PLUS_OTHER_CONNECTION_OWNERS",
+    "curvature_distortion_equation": "C_S_PLUS_KAPPA1_V_PLUS_J_CONN_PLUS_E_DEFECT_BV_EQUALS_ZERO",
+    "hilbert_stress_owner": "INDEPENDENT_X_MATTER_VARIATION_IN_METRIC_SECTION_EQUATION",
+    "up_and_back_stress_map": "OPEN_SOURCE_DIRECTED",
+    "eliminate_v_result": "CURVATURE_CURRENT_SQUARED_NOT_AUTOMATIC_EINSTEIN_HILBERT",
+    "variable_cosmological_trace_field": "LOCATED",
+    "nonzero_vacuum_magnitude_screening_wz": "OPEN"
+  },
+  "null_physics": {
+    "predecessor_physical_quotient_dimension": 2,
+    "representatives": ["PLUS", "CROSS"],
+    "preserved_by_first_jet_isomorphism": true,
+    "positive_cohomology": "OPEN"
+  },
+  "residue": {
+    "continuous_real_before_quotient": 84,
+    "function_valued_at_least": 19,
+    "open_discrete_forks": 10,
+    "open_fork_horn_product": 2304,
+    "quotients_ranked": 2,
+    "global_residue_reduction_booked": false,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "row_dispositions": {
+    "LT-GR1b": "NO_CHANGE_POST_SHIAB_FACTOR_ROUTE_REMAINS_KILLED",
+    "LT-GR2b": "MIGRATED_ACTION_OWNED_VARIABLE_DISTORTION_HAS_FIRST_JET_OBSERVED_EQUATION_NONZERO_VACUUM_OPEN",
+    "LT-GR2c": "MIGRATED_FIRST_JET_NO_LEAKAGE_EXACT_STANDARD_AMBIENT_DOMAIN_HORN_OBSTRUCTED_CONSTRAINED_DOMAIN_AND_STRESS_OPEN",
+    "LT-GR2d": "NO_CHANGE_MAGNITUDE_SCREENING_STABILITY_OPEN",
+    "LT-GR5": "MIGRATED_OBSERVED_AUGMENTED_TORSION_JET_EQUATION_TYPED_EXTRA_MODE_PROPAGATION_OPEN",
+    "LT-GR6": "MIGRATED_OBSERVED_RECEIVER_AND_CONNECTION_CURRENT_TYPED_PHYSICAL_UP_AND_BACK_STRESS_OPEN",
+    "LT-SM8": "NO_CHANGE_POSITIVE_PHYSICAL_COHOMOLOGY_OPEN"
+  },
+  "probe_receipt": {
+    "exact": 23,
+    "planted": 10,
+    "repo": 7,
+    "source": 1,
+    "type": 11,
+    "total": 52,
+    "failures": 0,
+    "independent_sage": "PASS"
+  },
+  "next_gate": "CONSTRUCT_OBSERVATION_FIRST_NORMAL_JET_CONSTRAINT_PROPAGATION_AND_SOURCE_DIRECTED_UP_AND_BACK_SYMMETRIC_CONSERVED_STRESS_MAP__OR_BUILD_A_CONSTRAINED_ULTRAHYPERBOLIC_DOMAIN__THEN_SELECT_AND_SHIFT_TEST_A_NONZERO_VARIABLE_COSMOLOGICAL_VACUUM",
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}

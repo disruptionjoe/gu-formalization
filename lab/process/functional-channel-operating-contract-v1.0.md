@@ -194,29 +194,49 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.8
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.9
 retains the exact identification of source `theta` with action connection
 difference `T` up to tilted trivialization, the exact global K77
 `gamma_epsilon` frame and rank-ten receiver, and the profile-free
-bulk-plus-independent-`X` support horn. It now composes the selected displayed
-Shiab, primitive `epsilon` Euler row and complete homogeneous even Ward owner
-into a formal minimal homogeneous-gauge BV action/CME. This is not the
-diffeomorphism or odd super-IG BV algebra and not positive cohomology.
+bulk-plus-independent-`X` support horn. It also retains the formal minimal
+homogeneous-gauge BV action/CME. This is not the diffeomorphism or odd
+super-IG BV algebra and not positive cohomology.
 
 At the null defect symbol, the earlier six-direction uncertainty is now an
 exact dimension filtration: the coupled kernel has dimension ten, four
 independent harmonic constraints leave dimension six, and quotient by four
 residual diffeomorphisms leaves two explicit plus/cross physical
 polarizations. On the flat globally hyperbolic observation background,
-harmonic gauge gives a conditional advanced/retarded defect Green complex. A
-curved normally-hyperbolic completion and the global coupled noncompact
-`Y14` Krein/Green/BFV domain remain open.
+harmonic gauge gives a conditional advanced/retarded defect Green complex.
+The complete first-jet observation along a moving section is now an exact
+block-triangular isomorphism, and its inverse transpose carries the full
+first-order Euler monopole and normal dipole without section-germ leakage.
+Value-only pullback is insufficient because the selected Shiab has all 85
+mixed-normal directions live. No finite section jet is faithful on the
+unrestricted global bulk shell.
+
+The standard ambient Lorentzian Cauchy horn is now sharply obstructed: a
+codimension-one hypersurface in signature `(7,7)` has inertia `(6,7)`, `(7,6)`
+or `(6,6,1)`, never a definite induced form. This does not exclude a
+constrained ultrahyperbolic boundary-value domain, a source-derived Lorentzian
+reduction, or observation-first normal-jet constraint propagation on the
+Lorentzian defect.
 
 The relative coefficient `lambda_def` is distinct in role from the internal
 `T` gain `kappa_1` and was not one of CB-D's charged 83 coordinates.
 Prequotient residue is therefore 84 continuous reals; the alias fork is
 retired and any normalization quotient remains unranked. The new composed-
-locus source return is `SOURCE-SILENT`.
+locus source return is `SOURCE-CORRECTS`: Weinstein confirms the
+observation/dynamic-field direction, explicitly calls the multiple-time
+upstairs problem technical debt, and says the proposed stress-energy
+up-and-back construction was unfinished.
+
+The conditional observed connection equation is now typed as
+`C_s + kappa_1 v + J_X^conn + E_X^(defect/BV) = 0`. The projected connection
+current, an independently varied Hilbert tensor, and the source-proposed
+up-and-back stress tensor remain three distinct objects. The trace of `v`
+locates a variable cosmological-like field; it does not select a nonzero VEV,
+magnitude, screening law or `w(z)`.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -229,16 +249,18 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_MOVING_OBSERVATION_NO_LEAKAGE_AND_GLOBAL_COUPLED_Y14_KREIN_GREEN_BFV_DOMAIN_OR_SHARP_OBSTRUCTION__THEN_DERIVE_THE_OBSERVED_EINSTEIN_STRESS_ENERGY_AND_DYNAMIC_COSMOLOGICAL_EQUATIONS
+CONSTRUCT_OBSERVATION_FIRST_NORMAL_JET_CONSTRAINT_PROPAGATION_AND_SOURCE_DIRECTED_UP_AND_BACK_SYMMETRIC_CONSERVED_STRESS_MAP__OR_BUILD_A_CONSTRAINED_ULTRAHYPERBOLIC_DOMAIN__THEN_SELECT_AND_SHIFT_TEST_A_NONZERO_VARIABLE_COSMOLOGICAL_VACUUM
 ```
 
-It must carry the complete action and the exact two-mode null quotient through
-moving observation without leakage, then construct the global coupled `Y14`
-domain or state a sharp obstruction. Only after that should the observed
-Einstein, stress-energy and dynamic cosmological Euler equations be derived.
-Requiring the new geometry to factor through the old contraction-first
-receiver remains circular; promoting the flat defect Green complex to the
-upstairs domain would be equally wrong.
+It must prove normal-jet constraint propagation on the primary
+observation-first horn and construct the symmetric conserved source-directed
+up-and-back stress map. A constrained ultrahyperbolic domain is an explicit
+rival horn, not a hidden prerequisite. Only after one domain horn and the
+stress map close should a nonzero variable vacuum be selected and tested under
+shifts without retuning `lambda_def` or `kappa_1`. Requiring the new geometry
+to factor through the old contraction-first receiver remains circular;
+promoting the flat defect Green complex to the upstairs domain would be
+equally wrong.
 
 ## Contract boundary
 
