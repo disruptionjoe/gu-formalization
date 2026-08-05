@@ -11,6 +11,18 @@ Speculative, redirected, or under-proved research branches -- the research lab, 
 these for the full working record; the durable, reviewed results live in `canon/` and the papers under
 `papers/published/`.
 
+## K77 Wave 2 full source-action defect localization (2026-08-05)
+
+[`k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md`](k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md)
+builds the canonical induced-density localization on a moving observation
+section. The first-order field variation is exactly a section monopole plus a
+graph-mixed normal dipole, and the section equation includes support plus
+density motion. Patch and conditional even Ward/BV descent pass at their stated
+grades. The actual K77 `I1B` conormal Legendre symbol, nonduplicating
+bulk/defect weld, primitive owner ledger, common domain and all physics remain
+open; Wave 3 and P1/P2/P3 remain closed. Next gate:
+`K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN`.
+
 ## Current Lane-1 operator/anomaly campaign
 
 - [`rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](rb7-stationary-nonmetric-order-parameter-2026-07-30.md)

@@ -7,6 +7,21 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 FULL SOURCE-ACTION DEFECT LOCALIZATION.**
+> [`explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md`](explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md)
+> constructs the coordinate-invariant localization of an ambient action-density
+> scalar on a moving four-dimensional section. Its exact first-order variation
+> is a section-supported Euler monopole plus a graph-mixed normal dipole, while
+> section variation contains both support and induced-density motion. Patch
+> descent survives a normal-coordinate orientation reversal without P1, and a
+> complete even Ward identity descends conditionally to the localized action;
+> the optional odd super-IG action remains open but is not a source prerequisite.
+> A source-shaped witness proves that zero-jet plus tangential-jet factorization
+> is not automatic, but hostile review forbids promoting it to the actual moving
+> K77 Shiab coefficient. The bulk/defect relative normalization, primitive
+> full-field BV ledger and common domain remain open. Next gate:
+> `K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN`.
+
 > **2026-08-05 K77 WAVE-2 AUGMENTED-TORSION FOUR-PLUS-TEN RECEIVER.**
 > [`explorations/k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md`](explorations/k77-wave2-augmented-torsion-defect-euler-receiver-2026-08-05.md)
 > collides the predecessor with Weinstein's pullback and augmented-torsion

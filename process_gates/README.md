@@ -76,6 +76,7 @@ selected notes below and in each script header.
 - `k77_post_b2_next_eight_wave_scaffold_audit.py`
 - `k77_wave2_action_ward_scope_audit.py`
 - `k77_wave2_augmented_torsion_defect_euler_receiver_scope_audit.py`
+- `k77_wave2_full_source_action_defect_localization_scope_audit.py`
 - `k77_wave2_actual_y14_receiver_ordering_scope_audit.py`
 - `k77_wave2_actual_draft916_blockwise_scope_audit.py`
 - `k77_wave2_common_two_layer_action_scope_audit.py`
@@ -1060,6 +1061,19 @@ translation stratum. It forbids promotion to a localized nonlinear action,
 physical Higgs, tilted Ward/BV descent, common Green domain, datum use,
 physics movement or Wave 3, and requires the successor gate to own the full
 moving defect-action weld.
+
+## K77 Wave 2 full source-action defect-localization scope gate
+
+`k77_wave2_full_source_action_defect_localization_scope_audit.py` requires the
+scalar-coefficient/induced-density localization rather than literal top-form
+pullback, its orientation-free patch descent, the exact first-order Euler
+monopole plus graph-mixed normal dipole, and the moving support plus density
+shape equation. It requires gauge/diffeomorphism localization functoriality
+only given a complete even owner ledger and keeps the minimal BV theorem at
+closed-algebra, boundary-free grade. It enforces the hostile-review fence
+between a source-shaped normal-jet witness and the actual moving K77 Shiab
+symbol, and leaves the bulk/defect normalization, primitive BV ledger, common
+domain, physics, Wave 3 and P1/P2/P3 open.
 
 ## Wave disposition schema gate
 

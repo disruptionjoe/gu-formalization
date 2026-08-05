@@ -1617,3 +1617,38 @@ admission, or P1/P2/P3 status moves.
   remain independent construction obligations.
 - Keep vertical scalar-like coefficients bundle-valued until representation,
   vacuum and physics gates identify them; rank ten is not a Higgs derivation.
+
+---
+
+## Revision 35 (2026-08-05, localizing a first-order action emits normal dipoles)
+
+Sources:
+`explorations/k77-wave2-full-source-action-defect-localization-moving-section-ward-bv-2026-08-05.md`,
+`lab/sources/gu-defect-localization-ward-bv-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-full-source-action-defect-localization.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-full-source-action-defect-localization-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Localize an ambient top-density by evaluating its scalar coefficient on the
+  section jet and pairing with the induced section density. Literal pullback
+  is dimensionally zero.
+- First-order ambient normal derivatives produce derivative-of-delta sources.
+  The exact conormal Legendre coefficient is `P^a-s_i^a P^i`; neither the
+  zero-jet four-plus-ten receiver nor tangential integration by parts erases it.
+- Vary support and induced density separately, then recombine them in the
+  graph shape Euler operator. Freezing either owner can fake a Ward failure or
+  a false simplification.
+- Coordinate-density descent introduces no new vertical orientation or P1,
+  but it does not repeal orientation/Hodge assumptions already owned upstairs.
+- A localization functor preserves a complete even Ward identity; it cannot
+  manufacture omitted `epsilon/B/Shiab/background` transformations.
+- Keep the BV grade explicit: closed nilpotent even algebra and boundary-free
+  descent is not a primitive full-field receipt, odd super-IG action, physical
+  BFV phase space, or Green domain.
+- A source-shaped proxy can prove a failure mode possible without proving its
+  actual coefficient nonzero. Compute the moving K77 conormal symbol before
+  promoting zero-jet nonfactorization.
+- Localization is not the bulk/defect weld. Replacement, addition and
+  independently owned defect terms carry different double-counting and
+  dimensional-normalization burdens; fit none of them by default.

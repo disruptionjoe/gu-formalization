@@ -1,0 +1,139 @@
+{
+  "artifact": "K77_WAVE2_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV",
+  "version": "2026-08-05",
+  "lane": "1",
+  "named_gate": "K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT",
+  "gate_status": "PARTIAL_WITH_EXACT_LOCALIZATION_AND_VARIATION_DESCENT",
+  "gate_after": "K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN",
+  "source_collision": {
+    "first_order_i1b_and_full_augmented_torsion": "SOURCE_CONFIRMS",
+    "completed_curvature_eddy_packet": "SOURCE_CONFIRMS",
+    "even_tilted_equivariance_intent": "SOURCE_CONFIRMS_NOT_FULL_GLOBAL_WARD_PROOF",
+    "observation_on_x_obligation": "SOURCE_CONFIRMS",
+    "xi_equals_d_upsilon_as_noether_bv": "SOURCE_CORRECTS_FALSE_IDENTIFICATION",
+    "odd_action_as_default_gu_prerequisite": "SOURCE_CORRECTS_NOT_REQUIRED_UNLESS_SEPARATELY_ASSERTED",
+    "induced_density_defect_localization": "SOURCE_SILENT_RECONSTRUCTION",
+    "actual_i1b_conormal_legendre_symbol": "SOURCE_SILENT_AND_UNCOMPUTED",
+    "bulk_defect_relative_normalization_and_common_domain": "SOURCE_SILENT_OR_UNRELEASED"
+  },
+  "pre_wave": {
+    "fork_assumed": "SIGNATURE_AMBIENT",
+    "fork_horn": "K77",
+    "search_space_dim": "0_SELECTOR_PARAMETERS_FOR_CANONICAL_LOCALIZATION",
+    "free_object_delta": 0,
+    "residue_touched": [
+      {"id": "K77-W2-MOVING-DEFECT-WARD-BV", "grade": "T3"}
+    ],
+    "preregistered_kills": [
+      "LITERAL_AMBIENT_TOP_FORM_PULLBACK",
+      "EULER_FORMULA_WITHOUT_NORMAL_DIPOLE_OR_GRAPH_MIXING",
+      "SHAPE_EQUATION_WITHOUT_SUPPORT_OR_DENSITY_MOTION",
+      "WARD_OR_BV_CLAIM_WITH_FROZEN_REQUIRED_OWNER"
+    ]
+  },
+  "layer0": {
+    "ambient_density_vs_scalar_coefficient": "DISTINCT",
+    "top_form_pullback_vs_induced_density_localization": "DISTINCT",
+    "zero_jet_vs_normal_first_jet": "DISTINCT",
+    "euler_monopole_vs_normal_dipole": "DISTINCT",
+    "normal_jet_vs_gauge_direction": "DISTINCT",
+    "field_euler_vs_section_shape": "DISTINCT",
+    "ward_vs_xi_redundancy": "DISTINCT",
+    "even_bv_vs_odd_superig_bv": "DISTINCT",
+    "localization_operation_vs_bulk_defect_weld": "DISTINCT",
+    "source_shaped_proxy_vs_actual_k77_shiab": "DISTINCT"
+  },
+  "localization": {
+    "definition": "LOC_S_L_EQUALS_INTEGRAL_X_OF_SCALAR_COEFFICIENT_AT_J1PHI_ON_S_TIMES_INDUCED_DENSITY",
+    "literal_top_form_pullback": false,
+    "coordinate_invariant": true,
+    "vertical_chart_orientation_reversal_exact": true,
+    "uses_vertical_orientation": false,
+    "uses_p1": false,
+    "selector_parameters": 0,
+    "new_datum": 0
+  },
+  "first_variation": {
+    "monopole": "E0_EQUALS_MU_LPHI_MINUS_DI_MU_PI",
+    "normal_dipole": "EA_EQUALS_MU_PA_MINUS_SIA_PI",
+    "ambient_distribution": "DELTA_S_E0_MINUS_PARTIAL_A_DELTA_S_EA",
+    "graph_slope_mixing_exact": true,
+    "direct_polynomial_variation_exact": true,
+    "normal_dipole_nonzero_in_active_fixture": true,
+    "bundle_covariant_extension": "FORMULA_GRADE_REPLACE_DERIVATIVES_AND_PAIRINGS",
+    "actual_i1b_expansion": "OPEN"
+  },
+  "moving_section": {
+    "shape_euler": "PARTIAL_LHAT_PARTIAL_S_MINUS_DI_PARTIAL_LHAT_PARTIAL_SI",
+    "support_motion_exact": true,
+    "induced_density_motion_exact": true,
+    "direct_graph_derivative_exact": true,
+    "n3_current_derivative_extended": true,
+    "actual_full_shiab_hodge_connection_expansion": "OPEN"
+  },
+  "normal_jet_factorization": {
+    "criterion": "ALL_CONORMAL_LEGENDRE_COEFFICIENTS_PA_MINUS_SIA_PI_VANISH",
+    "source_shaped_proxy_nonfactorization_exact": true,
+    "same_zero_jet": true,
+    "same_tangential_first_jet": true,
+    "different_normal_first_jet": true,
+    "actual_moving_k77_i1b_symbol": "OPEN_NOT_INFERRED_FROM_PROXY",
+    "retained_ambient_jet_is_new_datum": false,
+    "source_unowned_extension_law_introduced": false
+  },
+  "ward_bv": {
+    "even_gauge_localization_functoriality": "EXACT_GIVEN_COMPLETE_INVARIANT_SCALAR_AND_OWNER_LEDGER",
+    "simultaneous_diffeomorphism_descent": "EXACT_TO_TANGENTIAL_BOUNDARY_TERM",
+    "section_motion_required": true,
+    "density_motion_required": true,
+    "dependent_b_epsilon_shiab_paths_required": true,
+    "minimal_even_bv": "CONDITIONAL_CLOSED_NILPOTENT_ALGEBRA_BOUNDARY_FREE_THEOREM",
+    "primitive_full_field_even_bv_receipt": "OPEN",
+    "odd_superig_action_and_bv": "OPEN_OPTIONAL_NOT_SOURCE_PREREQUISITE",
+    "physical_bfv_green_domain": "OPEN"
+  },
+  "bulk_defect_weld": {
+    "localization_operation_built": true,
+    "at_least_three_presentations": "REPLACE_BULK__ADD_LOCALIZED_COPY__OR_LOCALIZE_ONLY_INDEPENDENT_DEFECT_TERMS__UNSELECTED_NONEXHAUSTIVE",
+    "relative_normalization": "AT_LEAST_ONE_TYPED_NORMALIZATION_CLASS_OR_CANONICAL_UNIT_PROOF__OPEN_NOT_FITTED",
+    "dimensional_typing": "OPEN",
+    "double_counting_audit": "OPEN",
+    "common_variation_domain": "OPEN"
+  },
+  "accounting": {
+    "selector_parameters": 0,
+    "new_free_coefficients_inserted": 0,
+    "unselected_weld_normalization_classes": "AT_LEAST_1_NOT_COUNTED_AS_A_PARAMETER",
+    "new_fields": 0,
+    "new_projectors": 0,
+    "new_data": 0,
+    "free_object_delta": 0,
+    "phenomenological_constraint_surplus_claimed": false
+  },
+  "probe_receipt": {
+    "source": 11,
+    "type": 22,
+    "exact": 22,
+    "planted": 14,
+    "total": 69,
+    "failures": 0
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_SCOPE_REPAIRS__ACTUAL_I1B_NORMAL_SYMBOL_AND_BULK_DEFECT_WELD_NOT_CLAIMED",
+  "held_open": [
+    "ACTUAL_MOVING_K77_I1B_CONORMAL_LEGENDRE_SYMBOL",
+    "FULL_PRIMITIVE_EPSILON_B_SHIAB_VARIATION_AND_EVEN_BV_LEDGER",
+    "BULK_DEFECT_NON_DUPLICATING_WELD_AND_RELATIVE_NORMALIZATION",
+    "ACTUAL_POST_OBSERVATION_COEFFICIENT_MODULE_AND_IMAGE_FAITHFULNESS",
+    "COMMON_CLOSED_KREIN_GREEN_DOMAIN",
+    "CONSTRAINT_PROPAGATION_AND_PHYSICAL_BFV_PHASE_SPACE",
+    "LOCAL_AND_GLOBAL_PHYSICS_RECOVERY"
+  ],
+  "next_required_build": "K77_ACTUAL_I1B_CONORMAL_LEGENDRE_SYMBOL_BULK_DEFECT_WELD_AND_COMMON_VARIATION_DOMAIN",
+  "wave3_open": false,
+  "curt_status": "FORMALLY_SEPARATE_GUIDANCE_INSIDE_ERIC_LANE",
+  "tg_promotion": "TG_1_AND_TG_2_AND_TG_3_NOT_PROMOTED",
+  "p1_p2_p3_used": false,
+  "claim_status_change": false,
+  "canon_verdict_change": false,
+  "public_posture_change": false
+}
