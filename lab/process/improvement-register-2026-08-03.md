@@ -1687,3 +1687,31 @@ admission, or P1/P2/P3 status moves.
 - Separate three domain grades mechanically: smooth common variation core,
   trace-regular Sobolev completion, and closed Green/hyperbolic/BFV domain.
   The first two do not imply the third.
+## Revision 37 (2026-08-05, family motion is not family selection)
+
+Sources:
+`explorations/k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md`,
+`lab/sources/gu-moving-shiab-epsilon-green-source-reinspection-2026-08-05.md`,
+`lab/process/k77-wave2-moving-shiab-epsilon-ward-green-domain.json`, and
+`lab/process/hostile-reviews/2026-08-05-k77-wave2-moving-shiab-epsilon-ward-green-domain-review.md`.
+No protected claim, canon verdict, lane, public posture, physics row, Wave-3
+admission, or P1/P2/P3 status moves.
+
+- Enumerate a finite source-permitted family exactly before introducing ML or
+  fitting. Eight discrete channels need no surrogate.
+- Report exterior support, a chosen witness-slice rank and full coefficient
+  rank separately. The live-85/rank-14 channel is the planted control against
+  expressibility inflation.
+- A moving gauge orbit supplies covariance, not a selector. Invertible
+  conjugation transports rank and cannot create an annihilator.
+- Derive primitive equations through the actual dependency graph. For fixed
+  metric and section, epsilon moves `B`, `T` and conjugated invariant forms;
+  Hodge, density, metric and section motion remain separate rows.
+- Test Ward identities with all transformed owners present. Omitting either
+  the moving operator or inhomogeneous connection direction can create a fake
+  obstruction.
+- Keep formal Green closure, preboundary data and physical evolution as three
+  grades. Compact-core Dirichlet zero flux proves only the first.
+- After a partial gate, name the narrower successor: action-derived product
+  discrimination plus a global coupled domain, not another generic request for
+  a source action or external datum.

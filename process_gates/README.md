@@ -84,6 +84,7 @@ selected notes below and in each script header.
 - `k77_wave2_euler_shell_two_connection_scope_audit.py`
 - `k77_wave2_global_draft916_krein_preboundary_scope_audit.py`
 - `k77_wave2_mixed_primalizer_comparison_scope_audit.py`
+- `k77_wave2_moving_shiab_epsilon_ward_green_domain_scope_audit.py`
 - `k77_wave2_two_connection_action_owner_scope_audit.py`
 - `k77_wave2_q_receiver_trace_adjoint_ward_scope_audit.py`
 - `k77_wave2_source_sign_shiab_duality_scope_audit.py`
@@ -1126,3 +1127,15 @@ mandatory, so the cost lands in the record instead of staying invisible. Working
 different fork in between does not reset the counter; settling the fork does. This is a queue-
 discipline guard only; whether a settlement is mathematically correct is the settling
 artifact's business, not this gate's.
+## K77 Wave 2 moving-Shiab / epsilon-Ward / Green-domain scope gate
+
+`k77_wave2_moving_shiab_epsilon_ward_green_domain_scope_audit.py` requires
+exhaustive enumeration of the eight source-permitted product channels, all-85
+mixed-normal support, and the distinct selected-slice and full-grade-one rank
+vectors. It requires exact moving-Phi dual-number agreement, the primitive
+`D_B^!(E_B-E_T)+(D_epsilon Shiab)^!K_S` chain, the complete homogeneous even
+Ward owner fixture, and the compact-core `H10 -> H9` Green graph. It forbids
+turning epsilon orbit transport into a selector, bundling metric/Hodge/density
+or section motion into the primitive epsilon row, or promoting compact-core
+Dirichlet closure to a global physical domain. P1/P2/P3, physics, Wave 3 and
+the `TG-1 AND TG-2 AND TG-3` conjunction remain unchanged.

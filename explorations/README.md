@@ -980,3 +980,14 @@ translation stratum. The full moving defect action, vertical-density
 variation, tilted Ward/BV descent, common Green domain and physical meaning
 remain open. Wave 3 and P1/P2/P3 remain closed. Next gate:
 `K77_FULL_SOURCE_ACTION_DEFECT_LOCALIZATION_MOVING_SECTION_WARD_BV_DESCENT`.
+# K77 Wave 2 moving Shiab, epsilon Ward and Green domain (2026-08-05)
+
+[`k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md`](k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md)
+enumerates the complete eight-channel low-grade moving-Shiab family on the
+real `Cl(7,7)` carrier. All channels see 85/85 mixed-normal directions, but
+their exact full grade-one ranks are `1190,1190,1190,1190,14,14,374,374`.
+Moving epsilon is an invertible conjugation orbit: it supplies the primitive
+epsilon chain and complete finite even Ward owner identity but does not select
+a product channel. A compact-core trace-compatible Green graph closes at
+`H10 -> H9`; global coupled Krein/observation domain, odd BV, preferred Shiab
+and physics remain open. Wave 3 and P1/P2/P3 remain closed/unused.

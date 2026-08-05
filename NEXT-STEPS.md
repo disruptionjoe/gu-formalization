@@ -7,6 +7,20 @@ updated_at: "2026-07-30"
 
 # Next Steps For Contributors
 
+> **2026-08-05 K77 WAVE-2 MOVING SHIAB / EPSILON WARD / GREEN DOMAIN.**
+> [`explorations/k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md`](explorations/k77-wave2-moving-shiab-epsilon-ward-green-domain-2026-08-05.md)
+> exhausts all eight commutator/`i`-anticommutator channels of the displayed
+> moving-Phi Shiab on the real K77 carrier. Every channel has all 85
+> mixed-normal exterior directions live, while the full grade-one rank vector
+> is exactly `1190,1190,1190,1190,14,14,374,374`; support is not rank.
+> Epsilon conjugation preserves these ranks, so it supplies family motion and
+> the primitive equation `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`, but not the
+> missing product selector. The complete homogeneous even Ward owner fixture
+> and a compact-core `H10 -> H9` closed Green graph pass. Global coupled
+> Krein/observation domain, odd BV, selector and physics remain open;
+> P1/P2/P3 are unused and Wave 3 stays closed. Next:
+> `K77_ACTION_DERIVED_POLARIZED_EULER_SHIAB_PRODUCT_SELECTOR_AND_GLOBAL_COUPLED_KREIN_GREEN_OBSERVATION_DOMAIN`.
+
 > **2026-08-05 K77 WAVE-2 I1B CONORMAL SYMBOL / WELD / DOMAIN.**
 > [`explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md`](explorations/k77-wave2-i1b-conormal-symbol-bulk-defect-weld-domain-2026-08-05.md)
 > computes the selector-independent principal symbol of the written I1B family.
