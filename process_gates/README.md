@@ -1256,6 +1256,14 @@ descent, domain, physics, P1/P2/P3, canon and public posture open.
 requires exactly the scoped `LT-GR1b` migration, keeps `LT-GR1` unchanged, and
 preserves the frozen 78-row denominator and verdict counts.
 
+## Conditional physics ledger v0.3 scope gate
+
+`conditional_physics_ledger_v03_scope_audit.py` preserves v0.2 byte-for-byte,
+requires the append-only five-way `LT-GR2` split, recomputes the 82 active
+targets, and wires the official interview source, Layer-0 flatness fence,
+released directive and next curvature/VEV Euler gate. It rejects a source-only
+field equality as an action-parameter or magnitude result.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1263,7 +1271,8 @@ Build/Compose/Source/Verify contract to remain wired through `AGENTS.md`,
 `LANES.yaml` and the operating model while purpose Lanes 1/2/3/A remain
 unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
-two-sided hostile review and the `GU-COSMO-DYNAMIC-01` Layer-0 split hold. It
+two-sided hostile review and the completed `GU-COSMO-DYNAMIC-01` Layer-0 split
+with its successor Build gate. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

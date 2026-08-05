@@ -160,3 +160,42 @@ Two checks, both filed in
 
 *Filed 2026-08-05. Attributed-speech record; not primary-verified. No canon,
 claim, verdict, bar, count, or LANE-STATE movement.*
+
+---
+
+## 7. Primary-verification correction (2026-08-05)
+
+The earlier fence above is preserved as provenance and is now superseded on
+one narrow point. The official Portal Group page contains a full transcript of
+the distinct 2025-06-12 interview:
+
+- [official transcript](https://theportal.group/eric-weinstein-and-brian-keating-eric-weinsteins-theory-of-everything-confirmed/)
+- `00:44:13`: Keating asks about the coincidence between the dark-energy value
+  and spatial flatness.
+- `00:44:31`: Weinstein names two problems and proposes reducing them to one.
+- `00:44:43`: he describes two movable fields set equal, with one near zero.
+- `00:45:25`: he identifies the dark-energy side as a field with a VEV that
+  can move with the curvature-side field.
+
+**Return: `SOURCE-CONFIRMS`.** Row 6 above is not merely a parsimony
+preference. It is a source-stated dynamical-identification proposal whose
+claimed bar is two puzzles reduced to one, not a first-principles derivation of
+the magnitude. E3/E9's correction in
+`explorations/conditional-build/cb-e-source-contact-rows-2026-08-05.md`
+therefore survives primary contact.
+
+The source does not close the mathematics. It never identifies whether the
+“curvature field” is spatial three-curvature, four-dimensional scalar
+curvature, the Einstein tensor, a Shiab image, or another GU-native field; it
+does not write an action or show that the equality is independent modulo
+Bianchi/Noether/gauge identities; and it does not demonstrate radiative
+adjustment. Spatially flat de Sitter is the decisive Layer-0 warning:
+`k/a^2=0` while four-dimensional curvature is nonzero.
+
+The record may now be cited for this timestamped interview argument. The April
+2025 seminar remains the source for the separate `theta_omega` formula and
+field-equation placement. The two sources must not be merged.
+
+*Primary verification appended 2026-08-05. Historical text above retained;
+the timestamp and citation fences in Sections 2, 4 and 6 are superseded only
+for the `00:44:13--00:45:52` magnitude/flatness passage.*

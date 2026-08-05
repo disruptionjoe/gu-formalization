@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.2.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.2.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.3.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.3.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,13 +74,17 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "BINDING_LAYER0_SPLIT_HOLD",
-      "held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
-      "primary_row_on_hold": "LT-GR2",
+      "status": "LAYER0_SPLIT_COMPLETED__BUILD_GATES_OPEN",
+      "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
+      "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR5", "LT-GR6"],
+      "primary_row_on_hold": null,
+      "successor_rows": ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"],
       "trigger_scope": ["einstein_recovery", "stress_energy", "cosmological_term", "olive_varpi_vev", "dark_energy"],
       "source_refs": [
         "lab/sources/claim-mining-toe-weinstein-2026-07-20.md:rows-11-12",
-        "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md:cosmological-and-into-impossible-sections"
+        "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md:cosmological-and-into-impossible-sections",
+        "lab/sources/keating-interview-2025-06-12-source-record.md:primary-verification-correction",
+        "explorations/conditional-build/dynamic-cosmological-sector-constraint-rank-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -92,8 +96,12 @@
         "EFFECTIVE_W_OF_Z_OBSERVABLE"
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
-      "current_evidence_boundary": "VARIABLE_DIVERGENCE_FREE_ANALOG_SUPPORTED__COMPLETE_ACTION_OWNERSHIP_AND_AMPLITUDE_OPEN",
-      "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION"
+      "source_return": "SOURCE-CONFIRMS",
+      "current_evidence_boundary": "VARIABLE_EQUIVARIANT_ANALOG_SUPPORTED__ABSTRACT_TWO_FIELD_RANK_ONE__CURVATURE_MAP_ACTION_QUOTIENT_MAGNITUDE_AND_RADIATIVE_STABILITY_OPEN",
+      "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
+      "release_condition_met": true,
+      "resolved_by": "explorations/conditional-build/dynamic-cosmological-sector-constraint-rank-2026-08-05.md",
+      "next_gate": "CONSTRUCT_SOURCE_NATIVE_CURVATURE_VEV_EULER_COUPLING_AND_RANK_MODULO_WARD_BIANCHI_BV"
     }
   ],
   "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE", "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]

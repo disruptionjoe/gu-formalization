@@ -57,7 +57,8 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.2.json" in lanes
+assert "conditional-physics-ledger-v0.3.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.3.json")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -72,12 +73,16 @@ assert "Thin automation triggers" in human
 directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
-assert directive["primary_row_on_hold"] == "LT-GR2"
-assert directive["status"] == "BINDING_LAYER0_SPLIT_HOLD"
+assert directive["primary_row_on_hold"] is None
+assert directive["status"] == "LAYER0_SPLIT_COMPLETED__BUILD_GATES_OPEN"
+assert directive["source_return"] == "SOURCE-CONFIRMS"
+assert directive["release_condition_met"] is True
+assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
+assert "CURVATURE_VEV_EULER_COUPLING" in directive["next_gate"]
 assert "the Einstein equation was recovered” is not a completion result" in human
 assert "historical Einstein" in human
 
@@ -89,4 +94,4 @@ assert set(contract["non_effects"]) >= {
     "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels, ledger meter, adverse-row independence, source returns, two-sided review and dynamic-cosmology split are wired without lane or system promotion")
+print("PASS: functional channels, v0.3 ledger, adverse-row independence, source return, two-sided review and the completed dynamic-cosmology split are wired without lane or system promotion")

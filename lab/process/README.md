@@ -55,6 +55,7 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
+- `conditional-physics-ledger-v0.3.json` - current machine ledger; 82 active targets, five-way dynamic-cosmological-sector split, exact prognoses, distances and revival triggers. v0.2 remains frozen history.
 - `layer0-fork-registry.yaml` - Layer-0 fork registry: horns, status, and the artifacts that settled each fork; read by the fork-stack depth gate.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.
