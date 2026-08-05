@@ -9,21 +9,20 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Active construction update 2026-08-05 (no canon or verdict-count change).**
-The action-owned physical Hilbert stress is now exact: it is the radial
-transgression of the common action's existing mixed return block, with no new
-map or datum. An exact Krein-Dirac control verifies symmetry and on-shell
-conservation. This does not identify the projected connection current or
-Weinstein's unfinished up-and-back totalization with that tensor. The flat
-observed null system retains the exact `10 -> 6 -> 2` plus/cross quotient, but
-the repaired pre-Shiab gravity placement has a **double-pole** metric response,
-not the Einstein single pole. The observed quadratic distortion vacuum is
-only the zero indefinite stationary point and transmits independent shifts;
-the existing full nonlinear `T`-cubic/non-equilibrium vacuum remains open.
-The standard codimension-one K77 ambient Cauchy horn remains obstructed, with
-constrained ultrahyperbolic data a rival. Prequotient residue stays 84 reals
-plus at least 19 function-valued slots and 10 forks. See
-`explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md`
-and conditional ledger v0.10.
+The predecessor's coincident gravity double pole is real, but its one-pole-
+total successor target was an orthodox over-fence. Conditional on the still-
+open full-`|II|^2` P2 horn, the Gauss-induced direct Einstein term factors the
+observed TT determinant as `z*(alpha_II*kappa_1-z)`: one simple massless
+Einstein pole plus one distinct massive GU partner, with the exact `10 -> 6 ->
+2` plus/cross carrier and action-owned Hilbert stress retained. Released
+source material is silent on P2 and total pole count. The full finite
+noncommutative cyclic `T`-cubic has three real stationary branches, two
+genuinely nonlinear and both nondegenerate saddles; the selected moving-K77
+Frechet-adjoint vacuum, stability, screening and physical Krein/Green domain
+remain open. Prequotient residue stays 84 reals plus at least 19 function-
+valued slots and 10 forks. See
+`explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md`
+and conditional ledger v0.11.
 
 The internal work-artifact system was the originating workspace for this project. The
 public repository is now the durable research authority.

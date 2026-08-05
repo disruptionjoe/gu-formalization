@@ -57,8 +57,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.10.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.10.json")
+assert "conditional-physics-ledger-v0.11.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.11.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.11.md")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -74,20 +75,24 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "ACTION_HILBERT_STRESS_RADIAL_TRANSGRESSION_EXACT__OBSERVED_NULL_10_TO_6_TO_2_RETAINED__REPAIRED_GRAVITY_DOUBLE_POLE__QUADRATIC_VACUUM_ZERO_INDEFINITE__FULL_NONLINEAR_VACUUM_OPEN"
-assert directive["source_return"] == "SOURCE-CORRECTS"
+assert directive["status"] == "ONE_POLE_TOTAL_OVERFENCE_CORRECTED__ACTION_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_RETAINED__CONDITIONAL_FULL_NORM_MASSLESS_PLUS_MASSIVE_SIMPLE_POLES__CYCLIC_NONLINEAR_SADDLES_EXACT__P2_AND_SELECTED_K77_VACUUM_OPEN"
+assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "SOURCE_OWNED_UP_BACK_CANCELLATION" in directive["next_gate"]
-assert "ONE_EINSTEIN_POLE" in directive["next_gate"]
-assert "FULL_NONLINEAR_T_CUBIC_VACUUM" in directive["next_gate"]
-assert "RADIAL_TRANSGRESSION" in directive["current_evidence_boundary"]
-assert "DOUBLE_POLE_NOT_EINSTEIN_SINGLE_POLE" in directive["current_evidence_boundary"]
-assert "FULL_NONLINEAR_T_CUBIC_VACUUM" in directive["current_evidence_boundary"]
+assert "ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_NONLINEAR_VACUUM" in directive["next_gate"]
+assert "P2_ACTION_NORM_PLACEMENT" in directive["next_gate"]
+assert "PHYSICAL_KREIN_GREEN_DOMAIN" in directive["next_gate"]
+assert "ONE_POLE_TOTAL_TARGET_CORRECTED" in directive["current_evidence_boundary"]
+assert "MASSLESS_EINSTEIN_POLE" in directive["current_evidence_boundary"]
+assert "CYCLIC_FULL_T_CUBIC" in directive["current_evidence_boundary"]
+assert "ACTUAL_SELECTED_MOVING_K77" in directive["current_evidence_boundary"]
+assert "one pole\ntotal" in human
+assert "z*(alpha_II*kappa_1-z)" in human
+assert "nondegenerate saddles" in human
 assert "remains circular" in human
 assert "the Einstein equation was recovered” is not a completion result" in human
 assert "historical Einstein" in human
@@ -100,4 +105,4 @@ assert set(contract["non_effects"]) >= {
     "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels, v0.10 ledger, zero-parameter Hilbert-stress transgression, adverse double-pole diagnosis and full-nonlinear-vacuum successor are wired without lane or system promotion")
+print("PASS: functional channels, v0.11 ledger, corrected massless-plus-massive pole target and nonlinear cyclic saddle control are wired while P2 and the selected moving-K77 vacuum remain open")

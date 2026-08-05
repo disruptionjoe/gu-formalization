@@ -194,7 +194,7 @@ and Compose separately typed:
 
 The local primary-source ledger records Weinstein saying there is no constant
 cosmological term in the intended mechanism, that the replacement is variable
-and should move with Einstein curvature, and that it is a VEV. Ledger v0.10
+and should move with Einstein curvature, and that it is a VEV. Ledger v0.11
 retains the exact identification of source `theta` with action connection
 difference `T` up to tilted trivialization, the exact global K77
 `gamma_epsilon` frame and rank-ten receiver, and the profile-free
@@ -249,17 +249,24 @@ an unfinished up-and-back path but does not publish the literal maps or
 cancellations.
 
 The flat observed harmonic constraint quotient remains exactly `10 -> 6 ->
-2`, retaining plus/cross. That does not yet recover Einstein propagation. On
-each transverse-traceless polarization the repaired pre-Shiab quadratic action
-has determinant `-z^2` and metric response `-kappa_1/z^2`: a double pole, not
-the Einstein single pole. The generalized partner must be cancelled,
-constrained or removed by a different action placement.
+2`, retaining plus/cross. The prior repaired action's determinant `-z^2` is a
+real coincident-double-pole defect, but the earlier demand for **one pole
+total** was a Layer-0 over-fence. The conditional GU mapping already owns a
+massive GR-3 partner. On the favored but unselected full-`|II|^2` horn, the
+Gauss-induced direct Einstein term changes the TT determinant exactly to
+`z*(alpha_II*kappa_1-z)`: one simple massless Einstein pole plus one distinct
+massive GU partner. The repair target is to derive and physically classify
+that split, not reflexively erase the second pole. P2 remains open and the
+latest exact-locus source return is `SOURCE-SILENT`.
 
-The observed quadratic distortion horn has only the zero unshifted stationary
-point, with `(6,4)` Hessian inertia, and transmits an independent trace shift
-linearly rather than screening it. This is not a whole-action vacuum no-go:
-the existing nonlinear `T`-cubic and non-equilibrium branches remain open and
-must be computed before any new selector is added.
+The observed quadratic distortion horn still has only the zero unshifted
+stationary point, with `(6,4)` Hessian inertia, and transmits an independent
+trace shift linearly rather than screening it. The full finite noncommutative
+cyclic transgression is now computed: it has three real stationary branches,
+two with a provably nonzero cubic pairing, and both genuinely nonlinear
+branches are nondegenerate saddles. This is not the actual selected K77
+vacuum. The selected moving Shiab is non-cyclic and its action Euler contains
+the Frechet-adjoint companion; stability, magnitude and screening remain open.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -272,15 +279,17 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_SOURCE_OWNED_UP_BACK_CANCELLATION_OR_ALTERNATIVE_ACTION_PLACEMENT_THAT_YIELDS_ONE_EINSTEIN_POLE_WITH_ACTION_HILBERT_STRESS_AND_PLUS_CROSS__THEN_COMPUTE_THE_EXISTING_FULL_NONLINEAR_T_CUBIC_VACUUM_BEFORE_ADDING_ANY_SELECTOR
+CONSTRUCT_ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_NONLINEAR_VACUUM_AND_SETTLE_P2_ACTION_NORM_PLACEMENT__THEN_CLOSE_SOURCE_TOTALIZATION_STRESS_CURRENT_CHAIN_AND_PHYSICAL_KREIN_GREEN_DOMAIN
 ```
 
-It must turn the repaired double pole into one Einstein pole without erasing
-the action-derived stress or plus/cross, and construct the typed comparison to
-the unfinished source totalization and projected connection current. A
-constrained ultrahyperbolic domain is an explicit rival horn, not a hidden
-prerequisite. The next vacuum calculation uses the full already-present
-nonlinear `T` action before inventing a potential, datum or boundary selector.
+It must derive the direct full-norm placement from the actual selected action,
+retain one simple massless Einstein pole plus the distinct GU partner and the
+action-derived stress/plus/cross, and construct the typed comparison to the
+unfinished source totalization and projected connection current. A constrained
+ultrahyperbolic domain remains an explicit rival horn, not a hidden
+prerequisite. The next vacuum calculation uses the selected non-cyclic
+Frechet-adjoint `T` action before inventing a potential, datum or boundary
+selector.
 Requiring the new geometry to factor through the old contraction-first
 receiver remains circular; promoting the flat defect Green complex to the
 upstairs domain would be equally wrong.

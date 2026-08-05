@@ -43,6 +43,8 @@ selected notes below and in each script header.
 - `conditional_physics_ledger_v07_scope_audit.py`
 - `conditional_physics_ledger_v08_scope_audit.py`
 - `conditional_physics_ledger_v09_scope_audit.py`
+- `conditional_physics_ledger_v010_scope_audit.py`
+- `conditional_physics_ledger_v011_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1341,6 +1343,17 @@ diagnosis and the scope correction that reopens the existing full nonlinear
 connection-current equality, Einstein recovery, screening, cosmology or a
 P1/P2/P3 change.
 
+## Conditional physics ledger v0.11 scope gate
+
+`conditional_physics_ledger_v011_scope_audit.py` preserves v0.10
+byte-for-byte, recomputes the unchanged 82-row denominator, verdict and
+residue counts, and requires exactly seven row migrations. It corrects the
+mistyped one-pole-total target, wires the conditional full-`|II|^2` response
+with one simple massless Einstein pole plus one distinct massive GU partner,
+and records the exact finite cyclic nonlinear saddle branches. It requires P2,
+the selected moving-K77 Fréchet-adjoint vacuum, source totalization/current
+identity and physical Krein/Green domain to remain open.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1350,8 +1363,9 @@ unchanged. It enforces information-preserving ledger fields, source return
 codes, independent adverse-row adjudication, condition-based dispatch,
 two-sided hostile review and the current `GU-COSMO-DYNAMIC-01` K77 rank-ten
 receiver, formal homogeneous-gauge CME, null physical quotient, exact
-first-jet section-germ observation, action-owned Hilbert stress, adverse
-double-pole diagnosis and single-pole/full-nonlinear-vacuum successor gate. It
+first-jet section-germ observation, action-owned Hilbert stress, corrected
+massless-plus-massive simple-pole target and nonlinear cyclic saddle control.
+It keeps P2 and the selected moving-K77 Fréchet-adjoint vacuum open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, verdict, canon, datum or public posture.

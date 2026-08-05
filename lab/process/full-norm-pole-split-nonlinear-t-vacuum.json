@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-05",
+  "gate": "FULL_NORM_POLE_SPLIT_AND_NONLINEAR_T_VACUUM",
+  "status": "PRIOR_ONE_POLE_TOTAL_TARGET_CORRECTED__CONDITIONAL_FULL_NORM_TWO_SIMPLE_POLES_EXACT__CYCLIC_NONABELIAN_STATIONARY_BRANCHES_EXACT__ACTUAL_SELECTED_K77_VACUUM_OPEN",
+  "source_return": "SOURCE-SILENT",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "layer0": {
+    "einstein_recovery": "ONE_SIMPLE_MASSLESS_SPIN2_POLE_WITH_PLUS_CROSS",
+    "orthodox_gr_target": "ONE_POLE_TOTAL",
+    "coincident_double_pole": "PURE_SQUARED_WAVE_JORDAN_HORN",
+    "gu_full_norm_target": "ONE_MASSLESS_EINSTEIN_POLE_PLUS_ONE_DISTINCT_MASSIVE_SPIN2_PARTNER",
+    "cyclic_control_vs_selected_k77": "DISTINCT",
+    "stationary_branch_vs_stable_vacuum": "DISTINCT"
+  },
+  "gravity": {
+    "predecessor_matrix": [["0", "z"], ["z", "kappa_1"]],
+    "predecessor_determinant": "-z^2",
+    "full_norm_conditional_matrix": [["alpha_II*z", "z"], ["z", "kappa_1"]],
+    "full_norm_conditional_determinant": "z*(alpha_II*kappa_1-z)",
+    "metric_response": "kappa_1/[z*(alpha_II*kappa_1-z)]",
+    "partial_fraction": "1/(alpha_II*z)+1/[alpha_II*(alpha_II*kappa_1-z)]",
+    "massless_residue": "1/alpha_II",
+    "pole_count": 2,
+    "pole_multiplicity": [1, 1],
+    "plus_cross_retained": true,
+    "new_field_delta": 0,
+    "new_datum_delta": 0,
+    "p2_action_norm_selection": "OPEN_SOURCE_SILENT",
+    "physical_mass_sign_and_domain": "OPEN"
+  },
+  "nonlinear_vacuum_control": {
+    "scope": "PREEXISTING_FINITE_NONCOMMUTATIVE_CYCLIC_TWO_CONNECTION_TRANSGRESSION",
+    "action": "2*(x*y*q+x*y+x*q+x+y*q+y+q)+(x^2-y^2+2*q^2)/2",
+    "cubic_mixed_derivative": 2,
+    "background_forced_branch": ["0", "0", "-1"],
+    "quartic_parameter": "a=2*(q+1)",
+    "quartic": "a^4-2*a^3+2*a^2-6*a+1",
+    "real_quartic_root_intervals": ["(1/6,1/5)", "(2,9/4)"],
+    "real_stationary_branch_count": 3,
+    "genuinely_nonlinear_real_branch_count": 2,
+    "cubic_pairing_nonzero_resultant": 144,
+    "hessian_nonzero_resultant": -5439488,
+    "hessian_inertia_class": "INDEFINITE_AT_EVERY_BRANCH",
+    "stable_minimum_found": false,
+    "selected_moving_k77_frechet_adjoint_vacuum": "OPEN",
+    "magnitude_screening": "OPEN"
+  },
+  "row_dispositions": {
+    "LT-GR1": "MIGRATED_FULL_NORM_CONSEQUENCE_EXACT_P2_SELECTION_OPEN",
+    "LT-GR2b": "MIGRATED_NONLINEAR_CYCLIC_BRANCHES_EXIST_BUT_ARE_SADDLES_AND_SELECTED_K77_OPEN",
+    "LT-GR2c": "MIGRATED_ONE_POLE_TOTAL_OVERFENCE_CORRECTED__MASSLESS_PLUS_DISTINCT_MASSIVE_POLES_CONDITIONAL",
+    "LT-GR2d": "MIGRATED_FULL_CYCLIC_NONLINEAR_VACUUM_COMPUTED__STABLE_SELECTED_K77_BRANCH_AND_SCREENING_OPEN",
+    "LT-GR3": "MIGRATED_NATIVE_MASSIVE_PARTNER_NOW_COMPOSED_WITH_ACTION_STRESS_PLACEMENT",
+    "LT-GR5": "MIGRATED_COINCIDENT_PARTNER_REPLACED_BY_DISTINCT_GU_PARTNER_CONDITIONAL_ON_P2",
+    "LT-GR6": "MIGRATED_ACTION_STRESS_CAN_LAND_ON_SIMPLE_MASSLESS_POLE_INSIDE_TWO_POLE_RESPONSE__TOTALIZATION_CURRENT_OPEN"
+  },
+  "residue": {
+    "continuous_real_before_quotient": 84,
+    "function_valued_at_least": 19,
+    "open_discrete_forks": 10,
+    "P1_P2_P3": "UNCHANGED_UNUSED",
+    "verdict_counts_changed": false
+  },
+  "hostile_review": "PASS_WITH_MATERIAL_TARGET_AND_SCOPE_CORRECTIONS",
+  "next_gate": "CONSTRUCT_ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_NONLINEAR_VACUUM_AND_SETTLE_P2_ACTION_NORM_PLACEMENT__THEN_CLOSE_SOURCE_TOTALIZATION_STRESS_CURRENT_CHAIN_AND_PHYSICAL_KREIN_GREEN_DOMAIN",
+  "probe_receipt": {
+    "exact": 22,
+    "planted": 7,
+    "repo": 5,
+    "source": 1,
+    "type": 12,
+    "total": 47,
+    "failures": 0,
+    "independent_sage": "PASS"
+  }
+}

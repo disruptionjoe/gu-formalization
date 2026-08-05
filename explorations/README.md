@@ -7,6 +7,19 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Full-norm pole split and nonlinear T vacuum (2026-08-05)
+
+`conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md`
+corrects the one-pole-total over-fence and composes the Gauss-induced Einstein
+term with the action-owned mixed gravity placement. Conditional on P2, the
+coincident double pole becomes one simple massless pole plus one distinct
+massive GU partner while plus/cross remain. It also solves the full finite
+noncommutative cyclic transgression: two genuinely nonlinear real branches
+exist, both nondegenerate saddles. Source selection of P2, the selected moving-
+K77 vacuum, physical domain, stability and cosmology remain open. Ledger v0.11
+migrates seven row distances without changing coverage, verdict counts or
+residue.
+
 ## Action-owned stress, observed double pole and quadratic vacuum (2026-08-05)
 
 `conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md`

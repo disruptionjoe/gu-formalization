@@ -64,6 +64,29 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`keating-interview-2025-06-12-source-record.md`](keating-interview-2025-06-12-source-record.md)
+  - primary-source correction for Weinstein's dynamic two-field dark-energy
+    magnitude argument.
+- [`secondary-summary-boyle-turok-circulating-claims-2026-08-05.md`](secondary-summary-boyle-turok-circulating-claims-2026-08-05.md)
+  - provenance-only intake for circulating Boyle--Turok claims.
+- [`precontract-wave-0b-trace-fork-source-reinspection-2026-08-05.md`](precontract-wave-0b-trace-fork-source-reinspection-2026-08-05.md)
+  - trace-reversal and action-norm fork reinspection.
+- [`precontract-wave-0c-identity-scope-source-reinspection-2026-08-05.md`](precontract-wave-0c-identity-scope-source-reinspection-2026-08-05.md)
+  - typed-identity and claim-scope reinspection.
+- [`pre-shiab-gauss-defect-action-bv-source-reinspection-2026-08-05.md`](pre-shiab-gauss-defect-action-bv-source-reinspection-2026-08-05.md)
+  - pre-Shiab Gauss, defect-action and BV source collision.
+- [`k77-epsilon-gravitational-soldering-weld-source-reinspection-2026-08-05.md`](k77-epsilon-gravitational-soldering-weld-source-reinspection-2026-08-05.md)
+  - epsilon gravitational receiver and soldering-weld source collision.
+- [`k77-global-chimeric-spin-reduction-source-reinspection-2026-08-05.md`](k77-global-chimeric-spin-reduction-source-reinspection-2026-08-05.md)
+  - global chimeric-spin reduction and support-normalization reinspection.
+- [`k77-moving-observation-y14-domain-source-reinspection-2026-08-05.md`](k77-moving-observation-y14-domain-source-reinspection-2026-08-05.md)
+  - moving observation and ambient-domain source boundary.
+- [`observed-upback-stress-source-reinspection-2026-08-05.md`](observed-upback-stress-source-reinspection-2026-08-05.md)
+  - action stress, up-and-back totalization and observed equation reinspection.
+- [`full-norm-gravity-source-reinspection-2026-08-05.md`](full-norm-gravity-source-reinspection-2026-08-05.md)
+  - exact-locus check for the full-`|II|^2` action-norm and total pole-count
+    choice; returns `SOURCE-SILENT`.
+
 - [`claim-mining-boyle-turok-cpt-2026-08-03.md`](claim-mining-boyle-turok-cpt-2026-08-03.md)
   - CPT-symmetric cosmology claim mining used as a conditional comparison surface.
 - [`gu-2021-draft-s11-s12-extraction-2026-08-03.md`](gu-2021-draft-s11-s12-extraction-2026-08-03.md)

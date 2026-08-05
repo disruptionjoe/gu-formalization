@@ -55,7 +55,63 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.10.json` - current machine ledger; 82 active targets, zero-parameter action-owned Hilbert-stress transgression, exact observed `10 -> 6 -> 2` constraint quotient, adverse repaired-gravity double pole, scoped quadratic-vacuum result, and unchanged 84-real prequotient residue. v0.9 remains frozen history.
+- `conditional-physics-ledger-v0.11.json` - current machine ledger; 82 active targets, corrected one-pole-total over-fence, conditional full-`|II|^2` massless-plus-massive simple-pole split, exact cyclic nonlinear saddle branches, and unchanged 84-real prequotient residue. v0.10 remains frozen history.
+- `full-norm-pole-split-nonlinear-t-vacuum.json` - machine receipt for the conditional full-norm TT pole split, primary-source silence, exact finite cyclic nonlinear stationary branches, hostile-review boundary and selected-moving-K77 successor.
+- `conditional-physics-ledger-v0.10.json` - frozen predecessor ledger for the action-owned Hilbert-stress transgression, exact observed `10 -> 6 -> 2` constraint quotient, adverse coincident double pole and scoped quadratic-vacuum result.
+- `conditional-physics-ledger-schema-v0.1.json` - append-only conditional-physics ledger schema.
+- `conditional-physics-ledger-v0.1.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.2.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.3.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.4.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.5.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.6.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.7.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.8.json` - frozen ledger history.
+- `conditional-physics-ledger-v0.9.json` - frozen ledger history.
+- `boundary-adapter-standing-axiom.md` - standing boundary-adapter typing rule.
+- `computational-toolchain.md` - approved exact-computation toolchain and routing.
+- `eleven-lens-audit-2026-08-03.md` - divergent specialist audit packet.
+- `hinge-panel-synthesis-2026-08-03.md` - hinge-panel synthesis.
+- `mathematician-panel-synthesis-2026-08-03.md` - mathematician-panel synthesis.
+- `science-council-program-efficiency-2026-08-04.md` - science-council efficiency assessment.
+- `improvement-register-2026-08-03.md` - process-improvement register.
+- `integration-readiness-scorecard.md` - integration-readiness progress surface.
+- `prediction-package-standing-rule.md` - standing prediction-package rule.
+- `source-action-build-ledger.md` - source-action construction ledger.
+- `source-object-interface-contract.md` - typed source/object interface contract.
+- `precontract-waves-0abc-campaign.json` - pre-contract campaign registry.
+- `precontract-wave-0b-trace-reversal-robustness.json` - trace-reversal robustness receipt.
+- `precontract-wave-0c-typed-identity-theorem-scope.json` - typed-identity scope receipt.
+- `k77-post-b2-next-eight-wave-campaign.json` - K77 post-B2 campaign scaffold.
+- `resolver-wave-k77a-atomic-particle-crosswalk.json` - atomic particle-crosswalk receipt.
+- `resolver-wave-k77b-source-bracket-displayed-shiab-b1-variation.json` - source-bracket/Shiab variation receipt.
+- `resolver-wave-k77b2-shiab-family-curvature-selector-transgression.json` - Shiab-family selector receipt.
+- `resolver-wave-k77b3-full-domain-cyclic-kernel-obstruction.json` - cyclic-kernel obstruction receipt.
+- `full-domain-shiab-observed-einstein-receiver.json` - full-domain observed-Einstein receiver receipt.
+- `k77-wave2-action-current-riesz-superig-ward-rendezvous.json` - action/current/Riesz/super-IG rendezvous receipt.
+- `k77-wave2-action-owned-degree14-northeast-totalization.json` - degree-14 northeast totalization receipt.
+- `k77-wave2-action-polarization-common-observation-domain.json` - action-polarization/common-domain receipt.
+- `k77-wave2-actual-draft916-blockwise-adjoint-descent.json` - actual draft-9.16 adjoint-descent receipt.
+- `k77-wave2-actual-y14-receiver-ordering-conormal.json` - actual-Y14 receiver-ordering receipt.
+- `k77-wave2-augmented-torsion-defect-euler-receiver.json` - augmented-torsion defect-Euler receiver receipt.
+- `k77-wave2-common-two-layer-action-euler-coefficient-selection.json` - two-layer action coefficient receipt.
+- `k77-wave2-dirac-derham-superig-rebase.json` - Dirac--de Rham/super-IG rebase receipt.
+- `k77-wave2-eddy-augmented-torsion-euler-prolongation.json` - eddy/augmented-torsion Euler receipt.
+- `k77-wave2-euler-lift-ward-observation-port.json` - Euler-lift/Ward/observation receipt.
+- `k77-wave2-euler-shell-two-connection-lift.json` - Euler-shell/two-connection lift receipt.
+- `k77-wave2-full-adjoint-shiab-bianchi-two-connection-target.json` - full-adjoint Shiab/Bianchi target receipt.
+- `k77-wave2-full-source-action-defect-localization.json` - source-action defect-localization receipt.
+- `k77-wave2-global-draft916-krein-preboundary.json` - global draft-9.16 Krein/preboundary receipt.
+- `k77-wave2-i1b-conormal-symbol-weld-domain.json` - I1B conormal/weld/domain receipt.
+- `k77-wave2-mixed-primalizers-two-connection-comparison.json` - mixed-primalizer comparison receipt.
+- `k77-wave2-moving-shiab-epsilon-ward-green-domain.json` - moving-Shiab/Ward/Green receipt.
+- `k77-wave2-principal-bianchi-product-selector.json` - principal-Bianchi selector receipt.
+- `k77-wave2-q-receiver-trace-adjoint-ward-selection.json` - q-receiver/trace-adjoint receipt.
+- `k77-wave2-source-sign-shiab-duality-reconciliation.json` - source-sign/Shiab-duality receipt.
+- `k77-wave2-stabilized-mixed-bose-fermi-cross-maps-target-match.json` - stabilized mixed cross-map receipt.
+- `k77-wave2-trace-q-coefficient-zero-order-reality-selection.json` - trace-q/reality-selection receipt.
+- `k77-wave2-two-connection-shifted-superconnection-action-owner.json` - shifted-superconnection action-owner receipt.
+- `k77-wave2-up-back-over-path-adapter-independent-square-root-target.json` - up/back/over adapter receipt.
 - `observed-upback-stress-normal-constraint-vacuum.json` - machine receipt for the Hilbert-stress construction, Krein-Dirac control, observed constraint quotient, double-pole diagnosis, quadratic-vacuum scope correction and next single-pole/full-nonlinear-vacuum gate.
 - `k77-moving-observation-y14-domain-obstruction.json` - frozen v0.9 receipt for the first-jet observation/equation dual, finite-jet global-shell fence, all three K77 hypersurface inertias and observed-equation typing.
 - `k77-global-even-bv-null-green-domain.json` - machine receipt for the composed owner chain, null quotient, defect-domain scope, normalization adjudication and next global `Y14` observation/domain gate.

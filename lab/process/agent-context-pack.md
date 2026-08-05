@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.10:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.11:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -89,14 +89,18 @@ The action-owned nonlinear Hilbert stress is now exact with no new map or
 datum: it is the radial transgression of the existing mixed metric/matter
 return block. Literal diagonal `VU` is a Hessian response, not stress; the
 connection current and source-proposed up-and-back totalization remain
-separately typed. The exact flat null quotient remains `10 -> 6 -> 2`, but the
-repaired pre-Shiab metric response is a **double pole**, not the Einstein
-single pole. The observed homogeneous quadratic distortion horn has only the
-zero indefinite stationary point and transmits independent shifts; the full
-existing nonlinear `T`-cubic and non-equilibrium vacuum are still uncomputed.
+separately typed. The exact flat null quotient remains `10 -> 6 -> 2`. The
+repaired pre-Shiab metric response's coincident double pole is real, but
+requiring one pole total was a mistyped orthodox over-fence. Conditional on
+the unselected full-`|II|^2` P2 horn, the Gauss-induced direct Einstein term
+gives one simple massless pole plus one distinct massive GU partner. The
+finite noncommutative cyclic full `T`-cubic now has two genuinely nonlinear
+real stationary branches, both nondegenerate saddles. The selected moving-K77
+Frechet-adjoint vacuum, stability and screening remain open.
 `lambda_def` is charged as the 84th prequotient real, while any normalization
 quotient remains unranked. The composed-locus source return is
-`SOURCE-CORRECTS`.
+`SOURCE-SILENT` at the P2/pole-count locus; prior source corrections about the
+dynamic-field and unfinished up-and-back architecture remain in force.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

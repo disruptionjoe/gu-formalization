@@ -7,6 +7,21 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 FULL-NORM POLE SPLIT / NONLINEAR T-VACUUM GATE.**
+> [`explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md`](explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md)
+> corrects the predecessor's one-pole-total target. The exact conditional
+> full-`|II|^2` TT matrix has determinant
+> `z*(alpha_II*kappa_1-z)`: one simple massless Einstein pole plus one
+> distinct massive GU partner, with action-owned Hilbert stress and the exact
+> plus/cross quotient retained. No new field or datum is added, but P2 remains
+> open and the source is silent on the norm choice/pole count. The full finite
+> noncommutative cyclic `T`-cubic has three real stationary branches; two are
+> genuinely nonlinear and both are nondegenerate saddles. This is not the
+> selected moving-K77 vacuum. Ledger v0.11 remains `82/82`, `32/19/25/6`,
+> residue `84 + >=19 functions + 10 forks`. Next:
+> `CONSTRUCT_ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_NONLINEAR_VACUUM_AND_SETTLE_P2_ACTION_NORM_PLACEMENT__THEN_CLOSE_SOURCE_TOTALIZATION_STRESS_CURRENT_CHAIN_AND_PHYSICAL_KREIN_GREEN_DOMAIN`.
+> P1/P2/P3, canon, verdict counts and public posture do not move.
+
 > **2026-08-05 ACTION-OWNED STRESS / OBSERVED PROPAGATOR / VACUUM GATE.**
 > [`explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md`](explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md)
 > reconstructs the nonlinear Hilbert stress exactly as the zero-parameter

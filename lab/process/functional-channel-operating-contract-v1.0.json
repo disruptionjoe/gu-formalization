@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.10.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.10.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.11.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.11.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,7 +74,7 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "ACTION_HILBERT_STRESS_RADIAL_TRANSGRESSION_EXACT__OBSERVED_NULL_10_TO_6_TO_2_RETAINED__REPAIRED_GRAVITY_DOUBLE_POLE__QUADRATIC_VACUUM_ZERO_INDEFINITE__FULL_NONLINEAR_VACUUM_OPEN",
+      "status": "ONE_POLE_TOTAL_OVERFENCE_CORRECTED__ACTION_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_RETAINED__CONDITIONAL_FULL_NORM_MASSLESS_PLUS_MASSIVE_SIMPLE_POLES__CYCLIC_NONLINEAR_SADDLES_EXACT__P2_AND_SELECTED_K77_VACUUM_OPEN",
       "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
       "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR5", "LT-GR6"],
       "primary_row_on_hold": null,
@@ -96,7 +96,9 @@
         "lab/sources/k77-moving-observation-y14-domain-source-reinspection-2026-08-05.md",
         "explorations/conditional-build/k77-moving-observation-y14-domain-obstruction-2026-08-05.md",
         "lab/sources/observed-upback-stress-source-reinspection-2026-08-05.md",
-        "explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md"
+        "explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md",
+        "lab/sources/full-norm-gravity-source-reinspection-2026-08-05.md",
+        "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -108,12 +110,12 @@
         "EFFECTIVE_W_OF_Z_OBSERVABLE"
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
-      "source_return": "SOURCE-CORRECTS",
-      "current_evidence_boundary": "ACTION_OWNED_HILBERT_STRESS_EXACT_BY_RADIAL_TRANSGRESSION_OF_EXISTING_MIXED_RETURN_BLOCK__KREIN_DIRAC_SYMMETRY_AND_CONSERVATION_EXACT__LITERAL_VU_AS_NONLINEAR_STRESS_KILLED_BY_TYPE__OBSERVED_NULL_CONSTRAINT_QUOTIENT_10_TO_6_TO_2_RETAINED__REPAIRED_PRE_SHIAB_GRAVITY_METRIC_RESPONSE_DOUBLE_POLE_NOT_EINSTEIN_SINGLE_POLE__OBSERVED_QUADRATIC_VACUUM_ZERO_INDEFINITE_ONLY_AND_SHIFT_TRACKED__FULL_NONLINEAR_T_CUBIC_VACUUM_CONSTRAINED_AMBIENT_DOMAIN_SOURCE_TOTALIZATION_CURRENT_RELATION_AND_COSMOLOGY_OPEN",
+      "source_return": "SOURCE-SILENT",
+      "current_evidence_boundary": "ACTION_OWNED_HILBERT_STRESS_EXACT__OBSERVED_10_TO_6_TO_2_PLUS_CROSS_RETAINED__ONE_POLE_TOTAL_TARGET_CORRECTED_AS_ORTHODOX_OVERFENCE__CONDITIONAL_FULL_NORM_TT_RESPONSE_HAS_ONE_SIMPLE_MASSLESS_EINSTEIN_POLE_PLUS_ONE_DISTINCT_MASSIVE_GU_PARTNER__P2_SOURCE_SILENT__FINITE_NONCOMMUTATIVE_CYCLIC_FULL_T_CUBIC_HAS_TWO_GENUINELY_NONLINEAR_REAL_NONDEGENERATE_SADDLE_BRANCHES__ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_VACUUM_PHYSICAL_KREIN_GREEN_DOMAIN_MAGNITUDE_SCREENING_SOURCE_TOTALIZATION_AND_CURRENT_RELATION_OPEN",
       "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
       "release_condition_met": true,
-      "resolved_by": "explorations/conditional-build/observed-upback-stress-normal-constraint-vacuum-2026-08-05.md",
-      "next_gate": "CONSTRUCT_SOURCE_OWNED_UP_BACK_CANCELLATION_OR_ALTERNATIVE_ACTION_PLACEMENT_THAT_YIELDS_ONE_EINSTEIN_POLE_WITH_ACTION_HILBERT_STRESS_AND_PLUS_CROSS__THEN_COMPUTE_THE_EXISTING_FULL_NONLINEAR_T_CUBIC_VACUUM_BEFORE_ADDING_ANY_SELECTOR"
+      "resolved_by": "explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md",
+      "next_gate": "CONSTRUCT_ACTUAL_SELECTED_MOVING_K77_FRECHET_ADJOINT_NONLINEAR_VACUUM_AND_SETTLE_P2_ACTION_NORM_PLACEMENT__THEN_CLOSE_SOURCE_TOTALIZATION_STRESS_CURRENT_CHAIN_AND_PHYSICAL_KREIN_GREEN_DOMAIN"
     }
   ],
   "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_VERDICT_CHANGE", "NO_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]
