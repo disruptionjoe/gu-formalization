@@ -58,6 +58,7 @@ Runbooks:
 - `layer0-fork-registry.yaml` - Layer-0 fork registry: horns, status, and the artifacts that settled each fork; read by the fork-stack depth gate.
 - `lean-verification-lane-LEDGER.md` - Lean verification lane ledger.
 - `loop-adversarial-log.md` - loop adversarial log.
+- `OPERATING-MODEL.md` - owner-local relationship between purpose Lanes, portfolio authority, functional channels, ledger progress and condition-based dispatch.
 - `paper-hardening-inventory.md` - paper portfolio, external-eyes ceiling, and overlap gates.
 - `recovery-certification-assessment-2026-07-15.md` - recovery-certification status assessment.
 - `recovery-certification-matrix.json` - recovery-certification matrix and sector checkpoints.
