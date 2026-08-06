@@ -1511,3 +1511,12 @@ the mandatory symplectic nonpromotion and the K95-to-K77 real-form fence. It
 requires exactly three append-only distance migrations, leaves `LT-GR3` and
 all verdict/reason kinds unchanged, preserves residue and four scoped
 quotients, and consumes no P1/P2/P3.
+
+## Selected gauge-rotated LC / Ward owner and ledger v0.21 scope gate
+
+`selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py` enforces the exact
+`(14/3)(p.q)(h0:hm)` shell kernel, zero complete LC--Gauss block, stationary
+radial second-jet elimination and the rank-five connection-gauge obstruction.
+It requires the mandatory symplectic nonpromotion, five append-only
+distance-only migrations, unchanged `LT-GR3`, verdicts, reason kinds, residue,
+four scoped quotients and unused P1/P2/P3.

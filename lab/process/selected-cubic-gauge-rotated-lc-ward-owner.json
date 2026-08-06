@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "LC_MIXED_TT_REPRESENTATIVE_NONZERO__GAUGE_GAUGE_RANK5__WARD_DESCENT_OPEN",
+  "functional_channels": ["BUILD", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS",
+  "source_scope": "GAUGE_ROTATED_LEVI_CIVITA_OWNER_IN_CONTORSION_SLOT__NOT_COEFFICIENT_OR_QUOTIENT",
+  "ledger_from": "0.20",
+  "ledger_to": "0.21",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "independent_distortion_vs_dependent_lc_response": "DISTINCT_OBJECTS",
+    "spin_connection_vs_christoffel": "SPIN_CONNECTION_REQUIRED",
+    "representative_vs_quotient_class": "DISTINCT_OBJECTS",
+    "bulk_density_vs_physical_transition": "HOMONYM"
+  },
+  "exact_result": {
+    "lc_first_jet": "L_k(h)_(mu_ab)=1/2*(k_b*h_(mu_a)-k_a*h_(mu_b))",
+    "mixed_tt_kernel": "(14/3)*(p.q)*(h0:hm)",
+    "back_to_back_shell_kernel": "(7/3)*(mu^2-M^2)*(h0:hm)",
+    "mass_pairs": [[3, 1], [5, 3], [7, 1], [11, 5]],
+    "plus_plus": "NONZERO_WHEN_MU2_NE_M2",
+    "cross_cross": "NONZERO_WHEN_MU2_NE_M2",
+    "plus_cross": "ZERO"
+  },
+  "carrier_exhaustion": {
+    "lc_carrier_dimension": 24,
+    "gauss_carrier_dimension": 100,
+    "lc_gauss_radial_block": "ZERO_ON_24_BY_100",
+    "radial_hessian_full_k77_cl2": "ZERO_ON_1274_DIRECTIONS",
+    "lc_lc_bilinear_rank": 24,
+    "second_lc_jet_stationary_t_only_radial_channel": "ELIMINATED"
+  },
+  "quotient_test": {
+    "one_sided_gauge_tt": "ZERO",
+    "connection_gauge_symbol_dimension": 6,
+    "gauge_gauge_block_rank": 5,
+    "disposition": "NONZERO_REPRESENTATIVE_WARD_REQUIRED",
+    "fifth_quotient": "NOT_COUNTED"
+  },
+  "remaining_packages": [
+    "CO_MOVING_EPSILON_WARD_BV_PREBOUNDARY_TOTALIZATION",
+    "DIRECT_CURVATURE_FULL_II_AND_DEFECT_D3",
+    "MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_AND_OBSERVATION"
+  ],
+  "cost": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_selectors": 0,
+    "new_real_form_identifications": 0
+  },
+  "ledger": {
+    "version": "0.21",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "continuous_residue": 84,
+    "function_valued_residue_lower_bound": 19,
+    "discrete_forks": 9,
+    "scoped_quotients_ranked": 4,
+    "row_changes": "FIVE_DISTANCE_MIGRATIONS__ZERO_VERDICT_OR_REASON_KIND_CHANGES"
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "review_receipts": {
+    "primary_probe": "51_51_PASS__30_EXACT_8_PLANTED_3_REPO_3_SOURCE_7_TYPE__PINNED_SYMPY_1_14_0",
+    "independent_sage": "PASS__LC_TT_KERNEL_14_OVER_3_P_DOT_Q_H_DOT_K__GAUGE_GAUGE_RANK5",
+    "hostile_review": "PASS_AFTER_NINE_SCOPE_CORRECTIONS",
+    "symplectic_review": "RANK5_GAUGE_BLOCK_PREVENTS_QUOTIENT__NO_TRANSITION_OR_FIFTH_QUOTIENT"
+  },
+  "next_gate": "FUSED_CO_MOVING_EPSILON_WARD_BV_TOTALIZATION_PLUS_DIRECT_AND_MOVING_OWNER_ASSEMBLY_THEN_REDUCED_PREBOUNDARY_CLASS_AND_Q1"
+}

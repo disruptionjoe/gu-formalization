@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active construction update 2026-08-06 (ledger v0.21; no verdict, residue,
+canon or public-posture change).** The source-directed symmetric-frame
+Levi-Civita first jet supplies an exact nonzero mixed helicity-two shell
+kernel `(14/3)(p.q)(h0:hm)` inside the selected augmented-torsion cubic. The
+complete LC--Gauss radial block is zero on the `24 x 100` carriers, and the
+radial Hessian is zero against all 1274 K77 `Cl2` connection directions, so
+the second LC jet is absent from this stationary `T`-only package. The
+representative is not yet physical: the connection-gauge/gauge block has rank
+five. LC and co-moving epsilon/Ward/BV/preboundary completion are therefore a
+single owner. Five ledger distances move; counts, residue, four scoped
+quotients and P1/P2/P3 remain unchanged. See
+`explorations/conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md`.
+
 **Active construction update 2026-08-06 (ledger v0.20; no verdict, residue,
 canon or public-posture change).** The selected augmented-torsion cubic now has
 an exact intrinsic owner. Relative to the native pairing its trace and

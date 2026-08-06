@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-cubic gauge-rotated LC / Ward owner (2026-08-06)
+
+`conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md`
+constructs the source-directed symmetric-frame Levi-Civita first-jet owner.
+Its mixed TT shell kernel is exactly `(14/3)(p.q)(h0:hm)`. Complete carrier
+tests make the LC--Gauss block and radial second-jet channel zero, but the
+connection-gauge/gauge block has rank five. The nonzero representative is
+therefore not a quotient class; LC and co-moving epsilon/Ward/BV completion
+become one Build package. Ledger v0.21 migrates five distances and leaves all
+verdicts, residue, four scoped quotients and P1/P2/P3 unchanged.
+
 ## Selected augmented-torsion D3 owner decomposition (2026-08-06)
 
 `conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md`

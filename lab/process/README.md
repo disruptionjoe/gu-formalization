@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-05"
+updated_at: "2026-08-06"
 ---
 
 # Process
@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.20.json` - current machine ledger; the first exact selected-cubic owner migrates three distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.21.json` - current machine ledger; the exact LC mixed TT representative migrates five distances while its rank-five Ward obstruction preserves `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-cubic-gauge-rotated-lc-ward-owner.json` - exact symmetric-frame LC first-jet shell kernel, carrier exhaustion, stationary second-jet elimination, rank-five gauge obstruction and fused LC/Ward successor.
+- `conditional-physics-ledger-v0.20.json` - frozen predecessor ledger for the intrinsic augmented-torsion D3 owner.
 - `selected-cubic-augmented-torsion-d3-owner-decomposition.json` - exact intrinsic augmented-torsion D3 owner, stationary pullback jet-order receipt, real-form fence and four-package successor.
 - `conditional-physics-ledger-v0.19.json` - frozen predecessor ledger for the shared trace-omega Higgs/chirality construction.
 - `trace-omega-higgs-chirality-compose-reconciliation.json` - mandatory post-`SOURCE-CORRECTS` Compose receipt for the four append-only distance migrations, zero-datum accounting, hostile/symplectic boundary and unchanged rank-one full-moving-cubic gate.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.20.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.20.md`.
+`lab/process/conditional-physics-ledger-v0.21.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.21.md`.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -402,6 +402,16 @@ background the bulk pullback D3 has no third-lift-jet term, but a tadpole
 control restores it away from stationarity. No unreduced density is promoted
 to a physical transition.
 
+The source-directed gauge-rotated Levi-Civita first-jet owner is now exact on
+the mixed massless/massive TT shell. It contributes
+`(14/3)(p.q)(h0:hm)`, while the complete `24 x 100` LC--Gauss radial block
+vanishes. The radial Hessian vanishes against all 1274 K77 `Cl2` connection
+directions, so the second LC jet is absent from this stationary `T`-only
+package. This is not yet a reduced interaction: the full six-dimensional
+connection-gauge block has rank five. The LC owner and co-moving epsilon/Ward/
+BV/preboundary completion are therefore one fused Build package. Source return
+is `SOURCE-CONFIRMS` for the owner, not for the coefficient or quotient.
+
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
 constant without deriving its action placement, conservation identity,
@@ -413,7 +423,7 @@ Einstein source.
 Current gate:
 
 ```text
-ASSEMBLE_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_LC_SOLDERING_FIRST_SECOND_JETS_PLUS_MOVING_PAIRING_OBSERVATION_PLUS_PREBOUNDARY_REDUCTION__THEN_Q1_OR_REGULAR_CANCELLATION__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+FUSED_CO_MOVING_EPSILON_WARD_BV_TOTALIZATION_OF_LC_GAUGE_RANK5_PLUS_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_MOVING_PAIRING_OBSERVATION__THEN_REDUCED_PREBOUNDARY_CLASS_AND_Q1__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 The next work has three independent owners. Interaction positivity must derive

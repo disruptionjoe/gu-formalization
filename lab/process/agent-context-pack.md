@@ -83,7 +83,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.20.json`:
+`lab/process/conditional-physics-ledger-v0.21.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -193,6 +193,17 @@ and conditional normalized global projector are repo-derived. External
 P1/P2/P3 remain unchanged and unused.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
+
+The source-named gauge-rotated Levi-Civita first-jet owner is now exact inside
+the selected cubic. On the mixed massless/massive TT shell it contributes
+`(14/3)(p.q)(h0:hm)`. The complete LC--Gauss radial block vanishes on the
+`24 x 100` carriers, and the radial Hessian vanishes on all 1274 K77 `Cl2`
+connection directions, eliminating the second LC jet from this stationary
+`T`-only package. The nonzero representative does **not** yet descend: its
+six-dimensional connection-gauge/gauge block has rank five. Fuse the LC and
+co-moving epsilon/Ward/BV/preboundary owners; do not promote the representative
+to Q1 or count a fifth quotient. This scoped owner return is
+`SOURCE-CONFIRMS`; the coefficient and quotient remain repo constructions.
 
 ### PRE-WAVE (binding)
 

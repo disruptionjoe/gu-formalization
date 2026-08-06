@@ -7,6 +7,19 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 GAUGE-ROTATED LEVI-CIVITA / WARD OWNER.**
+> [`explorations/conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md`](explorations/conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md)
+> constructs the next selected-cubic owner. The symmetric-frame LC first jet
+> gives the exact mixed TT shell kernel `(14/3)(p.q)(h0:hm)`. The complete
+> `24 x 100` LC--Gauss block and all 1274 radial-Hessian/connection entries
+> vanish, removing the second LC jet from this stationary `T`-only package.
+> But the six-dimensional connection-gauge block has rank five, so the
+> nonzero representative does not descend. Ledger v0.21 remains `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`; five distances move
+> and P1/P2/P3 remain unused. Next: fuse the co-moving epsilon/Ward/BV/
+> preboundary completion with LC while assembling direct curvature/full-`II`/
+> defect and moving pairing/observation, then test the reduced class at Q1.
+
 > **2026-08-06 SELECTED AUGMENTED-TORSION D3 OWNER.**
 > [`explorations/conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md`](explorations/conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md)
 > constructs the first exact owner inside the full-moving selected cubic. For
