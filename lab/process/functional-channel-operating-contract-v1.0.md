@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.36.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.36.md`.
+`lab/process/conditional-physics-ledger-v0.37.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.37.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -479,16 +479,21 @@ Einstein source.
 Current gate:
 
 ```text
-TYPE_POSITIVE_N2_TWO_MODE_KERNEL_UNDER_NULL_LITTLE_GROUP_AND_GREEN_FORM__THEN_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_TOTALIZATION__IN_PARALLEL_WITH_SECOND_LAYER_OWNER_MAP_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+CONSTRUCT_OR_REFUTE_I2B_TO_OBSERVER_FULL_II_MOVING_OWNER_MAP_WITH_CUBIC_EULER_HELICITY_AND_PREBOUNDARY_CLASSES__THEN_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
-The next work has three independent owners. The first-order gravitational
-owner must type the exact positive `N2` two-mode source kernel under the null
-little group and Green form, then construct the common right-`H`/Krein domain
-and odd BV/BFV totalization. Interaction positivity must derive the full
-moving third derivative and preboundary class on the mixed/massive shells,
-then construct regular Q1 or carry a unique nonzero result into physical-
-sheet H59 and the common BV/Green/Fock domain.
+The next work has three independent owners. The first-layer gravitational
+`N2` locus is now exactly typed as a helicity-one doublet, not spin two. Its
+rank-two local principal Green flux is definite and gauge-descending, but a
+live flux does not repair wrong representation type. Do not spend a global-
+domain campaign on that superseded carrier. The gravitational Build instead
+constructs or refutes the distinct second-layer
+`I2B <-> observer ||II||^2` moving owner map, including cubic, Euler, helicity
+and preboundary classes. Only a correctly typed helicity-two carrier advances
+to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity
+must derive the full moving third derivative and preboundary class on the
+mixed/massive shells, then construct regular Q1 or carry a unique nonzero
+result into physical-sheet H59 and the common BV/Green/Fock domain.
 Super-IG must globalize the mixed odd bracket without manufacturing an odd
 action. Cosmology must derive or explicitly supply the normalized functional
 and insert its projector into one action before FLRW or `w(z)` work. A

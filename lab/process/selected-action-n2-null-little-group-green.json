@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "EXACT_N2_COMPACT_NULL_LITTLE_GROUP_HELICITY_ONE__LOCAL_PRINCIPAL_GREEN_FLUX_LIVE__SPIN_TWO_ROUTE_KILLED_IN_COMPLETE_GRADE1_BANK",
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "source_typing": {
+    "confirmed": "the public source places the selected Shiab family inside the action and aims at an upstairs Einstein replacement",
+    "silent": "the source does not publish the N2 coefficient locus, its polarization representation, its principal Green flux or a global physical domain"
+  },
+  "layer0": {
+    "kept_distinct": [
+      "two-dimensional algebraic kernel",
+      "real helicity representation under compact null rotations",
+      "principal Green flux from the differentiated symbol",
+      "covariant presymplectic or BFV two-form",
+      "global right-H Krein domain",
+      "selected physical coupling"
+    ]
+  },
+  "exact_result": {
+    "reconstructed_null_ranks": {
+      "raw_forward": 12,
+      "formal_dbt_euler": 11,
+      "full_cross": 15,
+      "schur": 14,
+      "principal_zero": 28,
+      "gauge": 4
+    },
+    "N2": "z^2+(1352/615)z-1178198372/69047075",
+    "positive_root_approx": 3.17537838044882,
+    "kernel_dimension": 6,
+    "gauge_dimension": 4,
+    "extra_mode_dimension": 2,
+    "compact_null_rotation": {
+      "quotient_generator": [[0, -1], [1, 0]],
+      "characteristic_polynomial": "x^2+1",
+      "helicity_absolute_value": 1,
+      "spin_two_target_polynomial": "x^2+4",
+      "disposition": "WRONG_HELICITY_FOR_GRAVITON"
+    },
+    "principal_green_flux": {
+      "construction": "exact derivative at k0=1 of the degree-at-most-four filtered Schur pencil, obtained by five-node Lagrange differentiation",
+      "rank_on_two_mode_quotient": 2,
+      "gauge_cross_rank": 0,
+      "form": "[600329995/1382653597*a-111263815960284/35822959328735]*I2",
+      "positive_embedding_value_approx": -1.72722841269413,
+      "finite_sign": "DEFINITE_UP_TO_OVERALL_ACTION_CONVENTION",
+      "global_domain": "OPEN_AND_NOT_REACHED_FOR_N2_AFTER_HELICITY_KILL"
+    }
+  },
+  "disposition": {
+    "fired": "N2_WRONG_HELICITY",
+    "scope": "the positive N2 locus is killed as a spin-two Einstein carrier in the completed first-layer grade-one bank",
+    "not_killed": "the constant-T graph theorem on its declared subspace, the distinct second-layer I2B owner, every possible source-action completion, or GU as a whole",
+    "next_gate": "CONSTRUCT_OR_REFUTE_I2B_TO_OBSERVER_FULL_II_MOVING_OWNER_MAP_WITH_HELICITY_AND_PREBOUNDARY_CLASSES"
+  },
+  "ledger_effect": {
+    "version": "0.37",
+    "verdict_change": "NONE",
+    "distance_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6", "LT-SM8"],
+    "priority_change": "SECOND_LAYER_I2B_TO_OBSERVER_FULL_II_OWNER_MAP_NOW_RANK_ONE",
+    "residue_change": "NONE",
+    "quotient_change": "NONE"
+  },
+  "free_object_delta": 0,
+  "quotient_count_delta": 0,
+  "canon_verdict_change": "NONE",
+  "claim_status_change": "NONE",
+  "public_posture_change": "NONE",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "nonclaims": [
+    "two source modes are not two graviton polarizations",
+    "a definite finite principal flux is not positive energy",
+    "compact SO(2) typing is not a complete noncompact little-group or global-domain theorem",
+    "the N2 root is not a selected or measured coupling",
+    "no Einstein cosmology particle unitarity or external-datum claim is promoted"
+  ]
+}

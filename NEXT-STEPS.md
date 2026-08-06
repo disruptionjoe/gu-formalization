@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 N2 HELICITY KILL AND SECOND-LAYER PRIORITY.**
+> [`explorations/conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md`](explorations/conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md)
+> types the sole positive two-extra-mode locus of the completed first-layer
+> grade-one source symbol. Modulo gauge, the transverse null rotation has
+> polynomial `x^2+1`: helicity `±1`, not the helicity-`±2` graviton module.
+> Its exact local principal Green flux is rank two, definite and gauge-
+> descending, but cannot repair the representation mismatch. Ledger v0.37
+> keeps `82/82`, `32/19/25/6`, residue and four quotients unchanged. Next:
+> construct or refute the distinct `I2B <-> observer ||II||^2` moving owner
+> map with cubic, Euler, helicity and preboundary classes; build a global
+> domain only if a helicity-two carrier survives.
+
 > **2026-08-06 GRADE-ONE SOURCE SCHUR AND CAUSAL CANDIDATE.**
 > [`explorations/conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md`](explorations/conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md)
 > completes the 196-dimensional grade-one selected Hessian, the full

@@ -1678,3 +1678,13 @@ generic graph-only `LT-GR1` match, and records the exact positive N2 two-mode
 causal candidate without calling it a graviton, selecting `kappa_1`, reducing
 residue or promoting a fifth quotient. Symplectic/Green/common-domain/BV/BFV
 typing remains mandatory.
+
+## Selected-action N2 little-group, Green flux and ledger v0.37 gate
+
+`selected_action_n2_null_little_group_green_scope_audit.py` enforces the exact
+gauge-four-plus-two N2 kernel, its helicity-one rather than helicity-two
+compact null-rotation module and its rank-two gauge-descending local principal
+Green flux. It requires N2 to be retired only as the completed first-layer
+spin-two carrier, preserves the graph-only scoped theorem, and promotes the
+distinct second-layer I2B/observer-full-II owner map without changing verdict
+counts, residue, quotients, P1/P2/P3, canon or public posture.

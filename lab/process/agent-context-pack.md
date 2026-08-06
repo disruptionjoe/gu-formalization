@@ -9,18 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
-> **CURRENT GRADE-ONE SOURCE SCHUR FENCE.** The complete 196-dimensional
-> grade-one selected Hessian is invertible and indefinite, with positive-
-> `kappa_1` inertia `(97,99)`. The corrected curvature-plus-`d_B T` source
-> cross has ranks `13/15/15` and Schur ranks `13/15/14`. It passes the full
-> source Ward identity, and the paired `(s*,res_s^V)` receiver preserves it.
-> At `kappa_1^2=1`, timelike, spacelike and null quotient symbols all have
-> only gauge four: the graph-only null tensor pair is lifted. Exact Sage
-> factorization leaves one positive two-extra-mode null coefficient candidate,
-> but its metric projection is not the old TT plane modulo gauge. Do not call
-> it a graviton, select `kappa_1`, reduce residue, or book a quotient before
-> null-little-group, Green-form and common-domain typing. Current ledger:
-> v0.36. The v0.35 parity theorem remains exact but is absorbed here.
+> **CURRENT N2 HELICITY FENCE.** The completed grade-one source symbol's
+> unique positive two-extra-mode locus is exactly gauge four plus a real
+> helicity-one doublet: the compact null rotation descends as
+> `[[0,-1],[1,0]]`, with polynomial `x^2+1`, not the spin-two polynomial
+> `x^2+4`. Its exact local principal Green flux is rank two, definite at the
+> positive embedding and gauge-descending. A live flux does not repair wrong
+> helicity. Retire N2 as the spin-two carrier of this first-layer bank; do not
+> select `kappa_1`, reduce residue, book a quotient or spend on its global
+> domain. The distinct `I2B <-> observer ||II||^2` moving owner map is now the
+> primary gravitational gate and must include helicity and preboundary typing.
+> Current ledger: v0.37. The v0.36 Schur theorem remains exact and is absorbed
+> here.
 
 > **CURRENT CURVATURE-GRAPH SIX-VERSUS-FOUR FENCE.** On the source-native
 > constant-augmented-torsion graph `varpi=B_LC(g)+T*`, the selected

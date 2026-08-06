@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action N2 little-group and Green flux (2026-08-06)
+
+`conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md`
+shows that the sole positive two-extra-mode first-layer locus is a real
+helicity-one doublet rather than the helicity-two graviton module. Its local
+principal Green flux is nondegenerate, definite and gauge-descending, so the
+failure is representation-theoretic rather than a null-flux accident. Ledger
+v0.37 makes the distinct `I2B <-> observer ||II||^2` owner map primary without
+changing verdict counts, residue, quotients or P1/P2/P3.
+
 ## Selected-action grade-one Schur and observation (2026-08-06)
 
 `conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md`

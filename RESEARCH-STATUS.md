@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose correction 2026-08-06 (ledger v0.37; priority and six
+distances change, no verdict, residue, quotient, datum, canon or public-posture
+change).** The positive `N2` kernel of the completed first-layer grade-one
+source symbol is gauge four plus an exact helicity-one doublet, not the
+helicity-two graviton representation. Its action-derived local principal
+Green flux is rank two, definite at the positive embedding and gauge-
+descending. This kills `N2` only as the first-layer spin-two carrier. The
+distinct second-layer `I2B <-> observer ||II||^2` owner map is now the primary
+gravitational gate. See
+`explorations/conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md`.
+
 **Active Build/Compose correction 2026-08-06 (ledger v0.36; one verdict
 change, no residue, quotient, datum, canon or public-posture change).** The
 complete 196-dimensional grade-one selected Hessian is nondegenerate with
