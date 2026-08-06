@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active construction update 2026-08-06 (ledger v0.23; no verdict, residue,
+canon or public-posture change).** After the two-connection difference removes
+the shared principal derivative, the intrinsic selected augmented-torsion
+scalar has exact homogeneous inner-gauge Ward closure when `T`, `Phi1/Phi2`
+and Shiab move together. Cubic and quadratic variation vanish for all 91 K77
+bivector generators. A frozen Shiab leaves four exact defects, proving the
+moving owner is load-bearing. This closes only the intrinsic pointwise even
+internal-gauge package; direct curvature/full-`II`/defect, moving metric/
+pairing/observation, primitive epsilon Green, diffeomorphism/odd BV and
+preboundary/BFV remain open. Five ledger distances move; counts, residue,
+four scoped quotients and P1/P2/P3 remain unchanged. See
+`explorations/conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md`.
+
 **Active construction update 2026-08-06 (ledger v0.22; no verdict, residue,
 canon or public-posture change).** GU's augmented torsion is a two-connection
 difference. Its exact tangent map on the complete `24+24` LC carrier has rank

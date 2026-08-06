@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "INTRINSIC_HOMOGENEOUS_WARD_EXACT__MOVING_SHIAB_LOAD_BEARING__FULL_DIRECT_MOVING_PREBOUNDARY_CLASS_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "ledger_version": "0.23",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "principal_vs_homogeneous": "DISTINCT",
+    "primitive_epsilon_vs_simultaneous_gauge": "DISTINCT",
+    "input_vs_moving_shiab": "DISTINCT",
+    "pointwise_vs_preboundary": "DISTINCT",
+    "even_gauge_vs_odd_bv": "DISTINCT",
+    "ward_zero_vs_physical_transition": "DISTINCT"
+  },
+  "source": {
+    "return_code": "SOURCE-CONFIRMS",
+    "scope": "MOVING_PHI_SHIAB_AND_TWO_CONNECTION_EQUIVARIANCE_ARENA__NOT_EXACT_WARD_OR_PHYSICS",
+    "full_moving_ward_bv_domain": "SOURCE-SILENT"
+  },
+  "production": {
+    "coefficient_domain": "EXACT_K77_CLIFFORD_BACKEND",
+    "bivector_generators": 91,
+    "moving_shiab_covariance": 91,
+    "cubic_ward_zero": 91,
+    "quadratic_ward_zero": 91,
+    "frozen_shiab_nonzero_defects": 4,
+    "wrong_sign_nonzero_defects": 4,
+    "frozen_values": ["-8", "-8/3", "-8/3", "-8/3"],
+    "radial_branch_nonvacuous": true
+  },
+  "independent_control": {
+    "engine": "SAGE_EXACT_QQ_EXTERIOR_MATRIX_MODEL",
+    "scope": "STRUCTURAL_CONTROL__NOT_FULL_K77",
+    "moving_covariance": "EXACT",
+    "cubic_ward": "0",
+    "quadratic_ward": "0",
+    "frozen_defect": "-4"
+  },
+  "structural_theorem_scope": "POINTWISE_INNER_ACTION_WITH_INVARIANT_TOP_SCALAR_PAIRING_AND_MOVING_INSERTIONS",
+  "constraint_cost": {
+    "fitted_coefficients": 0,
+    "new_external_datum": 0,
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "non_effects": [
+    "NO_FIFTH_QUOTIENT",
+    "NO_Q1_POLE",
+    "NO_FULL_PREBOUNDARY_OR_BFV",
+    "NO_ODD_SUPER_IG_OR_DIFFEO_BV",
+    "NO_POSITIVITY_OR_UNITARITY",
+    "NO_PHYSICS_OR_COSMOLOGY",
+    "NO_CANON_OR_PUBLIC_POSTURE_CHANGE"
+  ],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-06-selected-cubic-intrinsic-homogeneous-ward-closure-review.md",
+  "next_gate": "ASSEMBLE_DIRECT_CURVATURE_FULL_II_DEFECT_D3_PLUS_MOVING_METRIC_HODGE_DEWITT_KREIN_PAIRING_OBSERVATION_AND_DERIVE_EULER_WARD_PREBOUNDARY__THEN_COMPLETE_REDUCED_CLASS_AND_Q1"
+}

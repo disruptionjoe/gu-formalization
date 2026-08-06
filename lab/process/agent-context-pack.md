@@ -83,7 +83,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.22.json`:
+`lab/process/conditional-physics-ledger-v0.23.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -201,12 +201,16 @@ five for one connection in isolation, but GU's source-owned augmented torsion
 is the two-connection difference `A-B`. Its complete `24+24` tangent map has
 rank 24 and kernel the 24-dimensional diagonal, so simultaneous
 inhomogeneous principal gauge motion has rank zero while the physical LC
-kernel survives. This is **principal descent only**. The lower-order
-homogeneous orbit at nonzero `T`, moving Shiab/Hodge/DeWitt/Krein pairing and
-observation, direct curvature/`II`/defect, nonlinear Ward/BV and preboundary
-remain open. Do not promote this to Q1 or count a fifth quotient. Scoped
-source return is `SOURCE-CONFIRMS` for the difference owner, not for the rank,
-coefficient or quotient.
+kernel survives. The intrinsic lower-order homogeneous orbit is now also
+exact when `T`, `Phi1/Phi2` and Shiab move together: cubic and quadratic Ward
+variation vanish for all 91 K77 bivector generators, while a frozen Shiab
+leaves four exact defects. This remains a pointwise intrinsic even
+internal-gauge result. Direct curvature/`II`/defect, moving metric/Hodge/
+DeWitt/Krein pairing and observation, primitive epsilon Green,
+diffeomorphism/odd BV and preboundary/BFV remain open. Do not promote this to
+Q1 or count a fifth quotient. Scoped source return is `SOURCE-CONFIRMS` for
+the moving equivariance arena, not for the exact theorem, global descent or
+physics.
 
 ### PRE-WAVE (binding)
 

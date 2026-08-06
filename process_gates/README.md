@@ -142,6 +142,7 @@ selected notes below and in each script header.
 - `queue_review_freshness_audit.py`
 - `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
 - `selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py`
+- `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`
 - `selected_cubic_reduced_numerator_scope_audit.py`
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
@@ -1533,3 +1534,14 @@ mandatory symplectic fence between principal descent and the full
 Ward/BV/preboundary quotient, exactly five append-only distance migrations,
 unchanged `LT-GR3`, verdicts, reason kinds, residue and four scoped quotients,
 and unused P1/P2/P3.
+
+## Selected intrinsic homogeneous Ward closure and ledger v0.23 scope gate
+
+`selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py` enforces
+the exact 91-generator moving-Shiab covariance and intrinsic cubic/quadratic
+Ward closure, the four frozen-Shiab and wrong-sign defects, nonvacuity and the
+independent Sage structural control. It requires the mandatory symplectic
+fence between pointwise homogeneous invariance and primitive epsilon Green,
+full direct/moving geometry and preboundary/BFV reduction; exactly five
+distance-only migrations; unchanged `LT-GR3`, verdicts, reason kinds, revival
+triggers, residue and four scoped quotients; and unused P1/P2/P3.

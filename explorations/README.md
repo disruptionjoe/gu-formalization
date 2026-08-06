@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-cubic intrinsic homogeneous Ward closure (2026-08-06)
+
+`conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md`
+varies the intrinsic selected augmented-torsion scalar under the homogeneous
+inner orbit after principal two-connection descent. With moving `Phi1/Phi2`
+and Shiab, all 91 K77 bivector generators give exact zero variation; freezing
+Shiab leaves four live defects. This closes only the pointwise intrinsic even
+internal-gauge package. Direct and moving geometry, primitive epsilon Green,
+diffeomorphism/odd BV and preboundary/BFV remain open. Ledger v0.23 migrates
+five distances and leaves all verdicts, residue, four scoped quotients and
+P1/P2/P3 unchanged.
+
 ## Selected-cubic two-connection principal Ward descent (2026-08-06)
 
 `conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md`

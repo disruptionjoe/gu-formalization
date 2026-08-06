@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 INTRINSIC HOMOGENEOUS WARD CLOSURE.**
+> [`explorations/conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md`](explorations/conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md)
+> closes the lower-order inner-gauge variation of the intrinsic selected
+> augmented-torsion scalar. Moving `T`, `Phi1/Phi2` and Shiab together gives
+> exact zero cubic and quadratic variation for all 91 K77 bivector generators;
+> freezing Shiab leaves four exact defects, so the moving owner is
+> load-bearing. Ledger v0.23 stays `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`, and four scoped quotients; five distances
+> move and P1/P2/P3 remain unused. Next: assemble direct curvature/full-`II`/
+> defect `D3` with moving metric/Hodge/DeWitt/Krein pairing and observation,
+> then derive their Euler/Ward/preboundary rows before Q1.
+
 > **2026-08-06 TWO-CONNECTION PRINCIPAL WARD DESCENT.**
 > [`explorations/conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md`](explorations/conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md)
 > corrects the preceding quotient target to GU's source-owned connection
