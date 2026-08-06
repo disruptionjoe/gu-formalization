@@ -7,6 +7,21 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 TRACE-OMEGA HIGGS/CHIRALITY COMPOSE RECONCILIATION.**
+> [`explorations/conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md`](explorations/conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md)
+> advances the current ledger to v0.19 without changing a verdict or residue.
+> Rows `RA-D2`, `RA-G2`, `RA-E3` and `RA-E5` now share one explicit
+> no-new-datum construction:
+> `T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`.
+> `RA-D2` remains `OVER_DETERMINED/GENUINE_FALSIFICATION`; bare `gamma(q)`
+> did not meet its revival trigger. Global `epsilon_IG`, the common K77
+> fermion carrier, action-selected non-null vacuum, observed scalar doublet,
+> physical BV/Krein quotient and doublet--triplet mass separation remain open.
+> Ledger v0.19 is `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`; P1/P2/P3 remain unused. The full-moving
+> selected-cubic third derivative remains Build rank one; the common
+> connection-derived Higgs/chirality gate is rank two.
+
 > **2026-08-05 TRACE-Q / HIGGS / CHIRALITY PRE-WAVE CORRECTION.**
 > [`explorations/conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md`](explorations/conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md)
 > does not admit bare `gamma(q)` as a K-definite balance-breaking chiralizer:

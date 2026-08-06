@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Compose reconciliation 2026-08-05 (ledger v0.19; no verdict, residue,
+canon or public-posture change).** The mandatory checkpoint after the
+trace-`q` `SOURCE-CORRECTS` result migrates four work distances. `RA-D2`,
+`RA-G2`, `RA-E3` and `RA-E5` now share the typed chain
+`T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`, with zero
+new fields, coefficients, selectors or external datum. `RA-D2` remains
+`OVER_DETERMINED/GENUINE_FALSIFICATION`: neither bare `gamma(q)` nor the
+conditional chain supplies a physical chiral quotient. The current meter is
+`82/82`, `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, with four
+scoped quotients. The full-moving selected-cubic third derivative remains
+Build rank one; the common K77 Higgs/chirality construction becomes rank two.
+See `explorations/conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md`.
+
 **Pre-wave correction 2026-08-05 (no verdict or ledger movement).** The
 literal proposal to promote the canonical K77 trace receiver `q=g/2` to a
 standalone K-definite chiralizer is not admitted on the current finite carrier

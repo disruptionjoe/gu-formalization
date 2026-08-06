@@ -1488,3 +1488,15 @@ fences. `conditional_physics_ledger_v018_scope_audit.py` preserves the 82-row
 denominator, `33/19/24/6` verdict counts, residue and four quotient count,
 requires exactly four append-only migrations, and corrects `LT-SM8` from
 `PROVEN_UNSUPPLYABLE` to `MISSING_CONSTRUCTION` without consuming P1/P2/P3.
+
+## Trace-omega Higgs/chirality Compose and ledger v0.19 scope gate
+
+`trace_omega_higgs_chirality_compose_scope_audit.py` enforces the mandatory
+post-`SOURCE-CORRECTS` migration of exactly `RA-D2`, `RA-G2`, `RA-E3` and
+`RA-E5` to the typed no-new-datum
+`T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)` chain. It
+preserves all verdicts/reason kinds, the `RA-D2` genuine-falsification
+disposition, residue, four quotient count, P1/P2/P3, Curt separation and the
+full-moving selected-cubic Build at rank one. The companion v0.19 channel
+probe checks predecessor equivalence for every untouched row and all four
+append-only migration edges.

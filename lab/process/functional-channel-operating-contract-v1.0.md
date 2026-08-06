@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.18.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.18.md`.
+`lab/process/conditional-physics-ledger-v0.19.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.19.md`.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

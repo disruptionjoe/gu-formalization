@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "status": "FOUR_DISTANCE_MIGRATION__ONE_SHARED_NO_NEW_DATUM_CHAIN__VERDICTS_AND_RESIDUE_FROZEN",
+  "functional_channels": ["COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-CORRECTS",
+  "ledger_from": "0.18",
+  "ledger_to": "0.19",
+  "touched_rows": ["RA-D2", "RA-G2", "RA-E3", "RA-E5"],
+  "shared_chain": {
+    "input": "T_OMEGA_IN_OMEGA1_Y_ADP",
+    "vertical_restriction": "RES_V_T_OMEGA_IN_VSTAR_TENSOR_ADP",
+    "adapter": "H_OMEGA_EQUALS_SIGMA_EPSILON_RES_V_T_OMEGA",
+    "fermion_candidate": "GAMMA_H_OMEGA",
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_selectors": 0
+  },
+  "boundaries": {
+    "q_role": "CANONICAL_EVALUATION_INPUT_NOT_HIGGS",
+    "bare_gamma_q": "NOT_ADMITTED_AS_K_DEFINITE_CHIRALIZER_ON_LEGACY_CARRIER",
+    "global_epsilon_ig": "OPEN",
+    "common_k77_fermion_carrier": "OPEN",
+    "action_selected_non_null_vacuum": "OPEN",
+    "observed_scalar_doublet": "OPEN",
+    "physical_bv_krein_quotient": "OPEN",
+    "doublet_triplet_mass_separation": "OPEN"
+  },
+  "row_disposition": {
+    "RA-D2": "OVER_DETERMINED_GENUINE_FALSIFICATION_PRESERVED",
+    "RA-G2": "DIFFERS_PREDICTION_PRESERVED",
+    "RA-E3": "DIFFERS_PREDICTION_PRESERVED",
+    "RA-E5": "DIFFERS_PREDICTION_PRESERVED"
+  },
+  "ledger": {
+    "version": "0.19",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "continuous_residue": 84,
+    "function_valued_residue_lower_bound": 19,
+    "discrete_forks": 9,
+    "scoped_quotients_ranked": 4,
+    "row_changes": "FOUR_DISTANCE_MIGRATIONS__ZERO_VERDICT_OR_REASON_KIND_CHANGES"
+  },
+  "priority": {
+    "rank_1": "FULL_MOVING_SELECTED_CUBIC_D3I_AND_PREBOUNDARY_CLASS",
+    "rank_2": "T_OMEGA_SIGMA_EPSILON_H_OMEGA_COMMON_K77_HIGGS_CHIRALITY_GATE"
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "review_receipts": {
+    "compose_probe": "34_34_PASS__3_SOURCE_4_REPO_13_COMPOSE_6_TYPE_8_PLANTED",
+    "ledger_probe": "24_24_PASS",
+    "hostile_review": "PASS_AFTER_SEVEN_SCOPE_CORRECTIONS",
+    "symplectic_review": "NO_FIFTH_QUOTIENT_OR_PHYSICAL_CLAIM"
+  },
+  "next_gate": "FULL_MOVING_SELECTED_CUBIC_D3I_REMAINS_PRIMARY__H_OMEGA_COMMON_K77_GATE_IS_RANK_TWO_NONCONFLICTING"
+}

@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.18.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.18.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.18.md")
+assert "conditional-physics-ledger-v0.19.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.19.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.19.md")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -151,4 +151,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.18 ledger wire the diagonal bulk cancellation, mixed full-moving completion fork, preboundary fence, conditional global screening and algebraic super-IG descent without consuming P2")
+print("PASS: functional channels and v0.19 ledger preserve the selected-cubic rank-one Build gate while wiring the trace-omega Higgs/chirality rank-two composition without consuming P1/P2/P3")

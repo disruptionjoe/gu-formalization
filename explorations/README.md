@@ -7,6 +7,17 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Trace-omega Higgs/chirality Compose reconciliation (2026-08-05)
+
+`conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md`
+migrates four representation/Higgs distances to the shared chain
+`T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`. This avoids
+four independent searches and adds no datum, but constructs no observed
+doublet, K-definite quotient, mirror removal or triplet splitting. `RA-D2`
+remains a genuine falsification of the mass-splitting route. Ledger v0.19
+preserves `82/82`, `33/19/24/6`, the full residue and four scoped quotients;
+the full-moving selected-cubic Build remains rank one.
+
 ## Trace-q Higgs/chirality admission correction (2026-08-05)
 
 `conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md`
