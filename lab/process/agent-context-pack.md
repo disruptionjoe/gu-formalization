@@ -9,16 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
-> **CURRENT COUPLED DIFFEOMORPHISM WARD FENCE.** The v0.31 rank-34,
-> affine-21 theorem is exact only on the metric-only slice. The source action
-> also moves its adjoint-valued connection one-form; its horizontal
-> invariant-background Lie symbol has rank four. Holding the metric Hessian
-> fixed, the coupled Ward system is rank 98 with affine dimension 198 and
-> admits diagnostic symmetric completions without a new metric-metric block.
-> This is not action derivation, 198 parameters, BV or BFV. Differentiate the
-> actual same-`I1B` `H_gg/H_gT/H_TT` blocks and complete gauge lift, then test
-> both block equations. Do not fit a ten-by-ten companion or import `I2B`/
-> observer full-II. Current ledger: v0.32.
+> **CURRENT SOURCE-VARIABLE HESSIAN FENCE.** The selected tautological
+> `Phi1` has zero full-slot Lie response; v0.32's rank-four frozen-slot
+> surrogate remains diagnostic only. The source variables are `(g,varpi)`
+> with `T=varpi-B_LC(g)`. The selected zero-jet source Hessian is rank 24 with
+> a ten-dimensional kernel: four gauge plus six nongauge constant-torsion
+> directions. Both Ward block equations close exactly. This is not full
+> `I1B`, ten physical modes, six parameters, BV or BFV. Assemble the
+> derivative/curvature/density/observation blocks and require the six to lift
+> while the four remain. Do not import `I2B`/observer full-II. Current ledger:
+> v0.33.
 
 > **CURRENT STATIONARY ACTION-SPIN HESSIAN FENCE.** The prior rank-ten
 > theorem is a coordinate-Christoffel theorem. The selected action uses the
@@ -30,7 +30,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > to the action spin map, and do not call this a physical quotient. Next
 > assemble direct curvature/full-II/defect/observation Ward terms, then odd
 > BV, global domain and BFV. This predecessor fence is absorbed into the
-> v0.32 coupled-Ward retype packet.
+> v0.33 source-variable Hessian packet.
 
 > **CURRENT NONLINEAR SECOND-JET FENCE.** The symmetric-frame spin
 > Levi-Civita connection has an exact nonzero symmetric second metric jet.

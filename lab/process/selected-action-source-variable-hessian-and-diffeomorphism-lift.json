@@ -1,0 +1,56 @@
+{
+  "artifact_type": "selected_action_source_variable_hessian_and_diffeomorphism_lift",
+  "created": "2026-08-06",
+  "status": "ZERO_JET_SOURCE_VARIABLE_HESSIAN_EXACT__FULL_I1B_DERIVATIVE_CURVATURE_OPEN",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "COMPOSE",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "source_return": "SOURCE-CORRECTS",
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR5",
+    "LT-GR6",
+    "LT-SM8"
+  ],
+  "layer0_correction": {
+    "obsolete_intermediate": "COVECTOR_SLOT_ONLY_LIE_SYMBOL_ON_T_MU_NU_EQUALS_DELTA",
+    "selected_background": "TAUTOLOGICAL_PHI1_WITH_COVECTOR_AND_INTERNAL_SLOTS_CO_MOVING",
+    "source_variables": "METRIC_G_AND_INDEPENDENT_CONNECTION_VARPI_WITH_T_EQUALS_VARPI_MINUS_B_LC",
+    "action_scope": "SELECTED_ZERO_JET_AUGMENTED_TORSION_SUMMAND_NOT_FULL_FIRST_ORDER_I1B"
+  },
+  "exact_result": {
+    "tautological_full_slot_lie_response": "ZERO",
+    "horizontal_lorentz_connection_carrier_dimension": 24,
+    "spin_lc_rank": 9,
+    "connection_principal_diffeomorphism_lift_rank": 3,
+    "complete_diffeomorphism_generator_rank": 4,
+    "source_difference_tangent": "(-L_SPIN,I_24)",
+    "zero_jet_source_variable_hessian": {
+      "carrier_dimension": 34,
+      "rank": 24,
+      "nullity": 10,
+      "gauge_rank": 4,
+      "nongauge_nullity": 6
+    },
+    "both_coupled_ward_block_equations": "EXACT_ALL_THREE_CAUSAL_ORBITS",
+    "full_i1b_derivative_curvature_density_observation_blocks": "OPEN",
+    "full_i1b_required_effect": "LIFT_SIX_NONGAUGE_ZERO_JET_NULL_DIRECTIONS_WHILE_RETAINING_FOUR_GAUGE_DIRECTIONS"
+  },
+  "free_object_delta": 0,
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "FULL_I1B_DERIVATIVE_CURVATURE_DENSITY_OBSERVATION_HESSIAN_ON_SOURCE_VARIABLES_AND_SIX_VERSUS_FOUR_NULLITY_TEST"
+}

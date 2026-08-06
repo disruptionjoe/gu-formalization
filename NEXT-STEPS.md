@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 SOURCE-VARIABLE ZERO-JET HESSIAN.**
+> [`explorations/conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md`](explorations/conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md)
+> corrects the v0.32 construction target. The selected tautological `Phi1`
+> has zero complete-slot Lie response; the source variables are `(g,varpi)`
+> with `T=varpi-B_LC(g)`. The action-derived zero-jet Hessian is rank 24 with
+> four gauge plus six nongauge null directions, and both Ward block equations
+> close on all causal representatives. Ledger v0.33 keeps `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four scoped
+> quotients. Next: assemble full first-order `I1B` derivative/curvature/
+> density/observation blocks and require six nongauge nulls to lift while four
+> gauge nulls remain.
+
 > **2026-08-06 COUPLED DIFFEOMORPHISM WARD RETYPE.**
 > [`explorations/conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md`](explorations/conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md)
 > corrects the v0.31 target without retracting its arithmetic. The source

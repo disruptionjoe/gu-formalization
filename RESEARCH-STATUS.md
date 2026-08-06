@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose correction 2026-08-06 (ledger v0.33; no verdict,
+residue, canon or public-posture change).** The selected tautological `Phi1`
+has zero full-slot Lie response, so v0.32's frozen-slot surrogate is retained
+only as a diagnostic. On source variables `(g,varpi)` with
+`T=varpi-B_LC(g)`, the action-derived selected zero-jet Hessian has rank 24
+and nullity ten: four gauge plus six nongauge constant-torsion directions.
+Both Ward block equations close exactly. Full first-order `I1B` must lift the
+six while retaining the four; BV, domain, BFV and physics remain open. See
+`explorations/conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md`.
+
 **Active Compose/Build correction 2026-08-06 (ledger v0.32; no verdict,
 residue, canon or public-posture change).** The v0.31 rank-34 affine-21 theorem
 is retained for the metric-only slice, but the source-action diffeomorphism

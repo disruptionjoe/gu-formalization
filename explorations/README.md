@@ -7,6 +7,15 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action source-variable Hessian (2026-08-06)
+
+`conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md`
+replaces the frozen-slot one-form surrogate with the source-native variables
+`(g,varpi)` and `T=varpi-B_LC(g)`. The selected zero-jet Hessian has exact
+rank 24 and nullity ten, comprising four gauge plus six nongauge directions,
+and both Ward block equations close. Ledger v0.33 migrates five distances
+only. Full first-order `I1B`, BV, domain and BFV remain open.
+
 ## Selected-action coupled diffeomorphism Ward retype (2026-08-06)
 
 `conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md`

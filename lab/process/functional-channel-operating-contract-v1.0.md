@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.32.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.32.md`.
+`lab/process/conditional-physics-ledger-v0.33.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.33.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -47,13 +47,14 @@ rank-ten statement is coordinate-Christoffel only: the action spin map has
 rank nine with longitudinal kernel, and its exact stationary Hessian retains
 a rank-three metric-block diffeomorphism cross residual. The rank-34,
 affine-21 symmetric completion theorem is exact only on the metric-only slice.
-The source action's connection-one-form Lie symbol is rank four, and the
-coupled fixed-metric-block Ward system is rank 98 with affine dimension 198;
-diagnostic completions need no added metric-metric block. Do not rebuild these
-objects, restore coordinate rank ten, fit either diagnostic completion, book
-198 directions as residue or import separately owned full-II. Differentiate
-the actual same-`I1B` metric--connection block Hessian and complete gauge lift
-before diffeomorphism/odd BV, global-domain or BFV promotion.
+The selected tautological `Phi1` has zero full-slot Lie response, and the
+source variables `(g,varpi)` with `T=varpi-B_LC(g)` yield an exact rank-24
+zero-jet Hessian with four gauge plus six nongauge null directions. Both Ward
+block equations close. Do not rebuild these objects, restore coordinate rank
+ten, revive the diagnostic completion, book nullity as residue or import
+separately owned full-II. Complete the derivative/curvature/density/
+observation `I1B` Hessian and require the six nongauge nulls to lift while the
+four gauge nulls remain before odd BV, global-domain or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

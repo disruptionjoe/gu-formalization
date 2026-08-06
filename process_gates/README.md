@@ -149,6 +149,7 @@ selected notes below and in each script header.
 - `selected_action_second_soldering_observation_jets_scope_audit.py`
 - `selected_action_stationary_spin_lc_hessian_scope_audit.py`
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
+- `selected_action_source_variable_hessian_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
@@ -1636,3 +1637,13 @@ the v0.31 metric-only theorem at its scoped grade while enforcing the
 rank-four one-form Lie symbol, coupled rank-98/affine-198 target, diagnostic-
 completion fence and actual same-`I1B` block-Hessian burden. It forbids
 booking the affine freedom as residue or promoting BV/BFV or physics.
+
+## Selected-action source-variable Hessian and ledger v0.33 gate
+
+`selected_action_source_variable_hessian_scope_audit.py` enforces the Layer-0
+correction from a frozen-slot one-form surrogate to source variables
+`(g,varpi)` with `T=varpi-B_LC(g)`, the exact rank-24 zero-jet Hessian, its
+four gauge plus six nongauge null directions and both Ward block equations.
+It keeps the full first-order derivative/curvature/density/observation
+six-versus-four test, BV, global domain and BFV open and forbids booking
+zero-jet nullity as residue or a quotient.
