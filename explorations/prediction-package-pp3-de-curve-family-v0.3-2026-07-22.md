@@ -4,8 +4,10 @@ status: active_research
 doc_type: prediction_package
 package_id: PP3
 version: "0.3"
-package_status: FROZEN_CONDITIONAL_CURVE_FAMILY
+package_status: SUPERSEDED_BY_V0.4
 frozen_at: "2026-07-22T12:03:58-05:00"
+superseded_at: "2026-07-22T17:38:45-05:00"
+superseded_by: explorations/prediction-package-pp3-de-curve-family-v0.4-2026-07-22.md
 supersedes: explorations/prediction-package-pp3-de-curve-family-2026-07-20.md
 owner_item: PRED-CANDIDATE-PACKETS
 lane_id: "2"
@@ -26,6 +28,11 @@ external_action: none
 ---
 
 # PP3: the dark-energy curve family
+
+> **Superseded, sealed record.** PP3 v0.4 replaces this packet. An adversarial
+> release audit found that v0.3 had applied the M²=8 calibration ceiling and a
+> partial-grid curvature envelope to the unresolved M²∈{3,7,8} union. The body
+> below is retained unchanged as the historical frozen record.
 
 This freezes the packet Joe proposed in direct chat on 2026-07-20, immediately
 after the DE amplitude audit: GU does not predict the dark-energy amplitude

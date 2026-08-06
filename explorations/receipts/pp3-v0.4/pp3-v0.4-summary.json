@@ -1,0 +1,94 @@
+{
+  "calibration_endpoints": {
+    "3": {
+      "R": -1.3610834582181357,
+      "S2": -0.013012131515923545,
+      "f0": 0.2076,
+      "w0": -0.9177171448749092,
+      "wa": -0.11199383300572045,
+      "wb": -0.0010706753323933653
+    },
+    "7": {
+      "R": -1.063459994158342,
+      "S2": -0.1591658706192527,
+      "f0": 0.0389,
+      "w0": -0.9418220345766665,
+      "wa": -0.0618699387692425,
+      "wb": -0.009259946517461662
+    },
+    "8": {
+      "R": -0.9584228086218793,
+      "S2": -0.20457994461816226,
+      "f0": 0.0274,
+      "w0": -0.9483070345374426,
+      "wa": -0.04954371714461808,
+      "wb": -0.01057534401147857
+    }
+  },
+  "checks": [
+    {
+      "name": "mimic calibration returns the imported Planck point",
+      "pass": true,
+      "tag": "T"
+    },
+    {
+      "name": "all computed points are pointwise non-phantom",
+      "pass": true,
+      "tag": "E"
+    },
+    {
+      "name": "w0+1 is monotone along every branch",
+      "pass": true,
+      "tag": "E"
+    },
+    {
+      "name": "R and S2 are finite on the full extended grid",
+      "pass": true,
+      "tag": "E"
+    },
+    {
+      "name": "the three calibration ceilings are branch-specific",
+      "pass": true,
+      "tag": "E"
+    },
+    {
+      "name": "resolution doubling meets the frozen numerical tolerances",
+      "pass": true,
+      "tag": "V"
+    }
+  ],
+  "f0_calibration_limits": {
+    "3": 0.2076,
+    "7": 0.0389,
+    "8": 0.0274
+  },
+  "f0_extended_endpoints": {
+    "3": 1.7908,
+    "7": 0.2508,
+    "8": 0.19140000000000001
+  },
+  "masses_M2_over_H0_squared": [
+    3.0,
+    7.0,
+    8.0
+  ],
+  "package": "PP3",
+  "projection": {
+    "fit": "linear CPL w(x)=w0+wa*x; wb from quadratic residual",
+    "samples_uniform_in_x": 512,
+    "x": "1-a",
+    "z_range": [
+      0.0,
+      2.33
+    ]
+  },
+  "resolution_doubling_maxima": {
+    "dDH": 1.8531235700416134e-05,
+    "dDM": 1.8258660691282232e-05,
+    "dR": 2.7508172456003344e-05,
+    "dS2": 5.743405176728e-06,
+    "dw0": 2.903136794407679e-06,
+    "dwa": 7.2250094527714914e-06
+  },
+  "version": "0.4"
+}
