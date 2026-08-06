@@ -7,6 +7,22 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 SELECTED-CUBIC REDUCED-NUMERATOR FORK.**
+> [`explorations/conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md`](explorations/conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md)
+> executes Wave 1. The exact full-pencil external legs make the compact-core
+> `theta-q0-q0` bulk numerator zero on shell, so the predecessor's real
+> two-massless denominator shell is not a Q1 pole. The mixed `theta-q0-qm`
+> numerator is not selected by the inherited constant-background `hh` block:
+> an `hh`-only completion gives `d*M^2/2`, while a full-pencil nonlinear field-
+> redefinition completion has the same inherited `hh` block and vanishes on
+> every free shell. This is a completion fork, not a choice. `SOURCE-SILENT`;
+> compact-core bulk, unrestricted preboundary/BFV and native-`Y14` quantum
+> classes remain distinct. Ledger v0.18 remains `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`; four rows migrate and `LT-SM8` returns from
+> `PROVEN_UNSUPPLYABLE` to `MISSING_CONSTRUCTION`. P1/P2/P3 remain unused.
+> Next:
+> `FULL_MOVING_D3_I_SELECTED_ON_THETA_Q0_QM_AND_THETA_QM_QM__INCLUDING_HV_OBSERVATION_SHIAB_PAIRING_COMPENSATOR_AND_PREBOUNDARY_RESPONSE__THEN_RESTRICT_THE_REDUCED_CLASS_TO_THE_EXACT_SHELLS`.
+
 > **2026-08-05 CROSS-THEORY DONOR CHECKPOINT / FIVE-WAVE RESET.**
 > [`explorations/conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md`](explorations/conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md)
 > classifies eight candidate transfers from Connes NCG, string/higher gauge,

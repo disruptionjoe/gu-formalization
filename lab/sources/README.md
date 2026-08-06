@@ -64,6 +64,12 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`selected-cubic-reduced-numerator-source-reinspection-2026-08-05.md`](selected-cubic-reduced-numerator-source-reinspection-2026-08-05.md)
+  - returns `SOURCE-SILENT`: released GU material confirms the native-`Y14` /
+    observed-`X4` arena and moving connection/observation burden but supplies
+    neither the selected `h-v` trilinear response nor a Q1/BFV/physical-sheet
+    prescription.
+
 - [`selected-cubic-qft-threshold-and-numerator-gate-source-reinspection-2026-08-05.md`](selected-cubic-qft-threshold-and-numerator-gate-source-reinspection-2026-08-05.md)
   - returns `SOURCE-SILENT`: released GU material supplies no C-operator,
     continuum threshold or selected on-shell numerator. It preserves

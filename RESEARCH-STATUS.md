@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active construction update 2026-08-05 (Wave 1; no canon/public-posture
+change).** The selected-cubic numerator gate now has an exact partial answer.
+The compact-core bulk numerator for `theta-q0-q0` is zero on the free shell:
+the moving kinetic vertex is proportional to the massless external inverse
+propagators. The mixed `theta-q0-qm` class is not determined by the inherited
+constant-background `hh` block. Two exact completions share that block; the
+`hh`-only completion is nonzero (`d*M^2/2`) while the full-pencil field-
+redefinition completion is shell-zero. The complete moving third derivative,
+including `h-v`, observation, Shiab/pairing, compensator and preboundary
+responses, is now the exact next owner. `SOURCE-SILENT`; no Q1, physical-sheet,
+loop or native-`Y14` quantum claim is made. Ledger v0.18 stays `82/82`,
+`33/19/24/6`, residue `84 + >=19 functions + 9 forks`; `LT-SM8` is corrected
+to `MISSING_CONSTRUCTION`. P1/P2/P3 remain unused. See
+`explorations/conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md`.
+
 **Compose checkpoint 2026-08-05 (no ledger/canon/public-posture change).**
 A bounded donor assessment has separated reusable mechanisms from attractive
 homonyms across Connes NCG, string/higher gauge, LQG and asymptotic safety. Two

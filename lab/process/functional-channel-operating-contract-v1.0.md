@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.17.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.17.md`.
+`lab/process/conditional-physics-ledger-v0.18.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.18.md`.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -379,12 +379,17 @@ exactly. The background is not proved stationary, and this is not a nonlinear
 action symmetry, Fock-space metric, common domain or UV theorem. Weinstein's
 released GU sources are `SOURCE-SILENT` on this construction.
 
-The complete selected cubic now has a real odd continuum shell for either scalar
-grading, but this is not a booked Q1 pole. Its full three-field Hessian is zero
-at the zero-field point, so the prior scalar-enlargement instruction was
-mistyped. The next object is the selected momentum-space numerator after
-observation, Ward/BV and presymplectic reduction; only a nonzero reduced class
-on the exact shell may advance to Q1 and the physical-sheet test.
+The complete selected cubic has real odd continuum denominator shells, but the
+first numerator construction now narrows their meaning. The compact-core
+`theta-q0-q0` bulk numerator is exactly zero on the free shell. The mixed
+`theta-q0-qm` numerator is not selected by the inherited constant-background
+`hh` block: exact `hh`-only and full-pencil field-redefinition completions
+share that block and give nonzero and zero shell classes respectively. The
+next object is the complete moving third derivative after observation,
+Shiab/pairing, compensator, Ward/BV and presymplectic/preboundary reduction.
+Only its unique nonzero reduced class may advance to Q1 and the physical-sheet
+test. `LT-SM8` is `MISSING_CONSTRUCTION`, not `PROVEN_UNSUPPLYABLE`, at this
+grade.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -397,13 +402,13 @@ Einstein source.
 Current gate:
 
 ```text
-SELECTED_Y14_CUBIC_MOMENTUM_NUMERATOR_ON_EVEN_BV_SHELL__THEN_Q1_OR_PHYSICAL_SHEET_H59__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+FULL_MOVING_D3_I_SELECTED_ON_THETA_Q0_QM_AND_THETA_QM_QM__INCLUDING_HV_OBSERVATION_SHIAB_PAIRING_COMPENSATOR_AND_PREBOUNDARY_RESPONSE__THEN_Q1_OR_REGULAR_CANCELLATION__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 The next work has three independent owners. Interaction positivity must derive
-the full selected momentum numerator on the exact odd shells, then construct
-regular Q1 or carry a nonzero result into physical-sheet H59 and the common
-BV/Green/Fock domain.
+the full moving third derivative and preboundary class on the mixed/massive
+shells, then construct regular Q1 or carry a unique nonzero result into
+physical-sheet H59 and the common BV/Green/Fock domain.
 Super-IG must globalize the mixed odd bracket without manufacturing an odd
 action. Cosmology must derive or explicitly supply the normalized functional
 and insert its projector into one action before FLRW or `w(z)` work. A

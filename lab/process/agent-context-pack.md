@@ -71,7 +71,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.17.json`:
+`lab/process/conditional-physics-ledger-v0.18.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -142,14 +142,19 @@ is not proved stationary; full scalar fluctuations, nonlinear action symmetry,
 Fock/common BV-Green domain, loops and UV remain open. `SOURCE-SILENT`; this is
 not the unresolved July D1 192-dimensional record-sector lift.
 
-The complete three-field cubic Hessian now vanishes at the zero-field point;
-fixed `theta_bar` reproduces only that predecessor TT block. Carrying the
-scalar as a state instead reveals a real odd continuum shell for either scalar
-parity because `q0` is massless. This is not a booked Q1 pole: the selected
-momentum-space numerator after observation and even-BV reduction, its native
-`Y^14` identification, physical sheet and common domain remain open. The next
-interaction gate is the numerator on those exact shells, not another enlarged
-background matrix.
+The complete three-field cubic Hessian vanishes at the zero-field point; fixed
+`theta_bar` reproduces only the predecessor TT block. The exact numerator
+continuation now proves that the compact-core `theta-q0-q0` bulk class is zero
+on the free shell: the moving kinetic vertex is proportional to the massless
+external inverse propagators. The mixed `theta-q0-qm` class is not selected by
+the inherited `hh` block. An `hh`-only completion is nonzero while a nonlinear
+field-redefinition completion of the full `(h,v)` pencil shares the same
+inherited `hh` block and vanishes on every free shell. Do not choose between
+them. Construct the complete moving third derivative, including `h-v`,
+observation, Shiab/Hodge/DeWitt pairing, compensator and preboundary responses.
+The unrestricted BFV class, native `Y^14` state space, Q1, physical sheet and
+common domain remain open. `LT-SM8` is therefore `MISSING_CONSTRUCTION`, not
+`PROVEN_UNSUPPLYABLE` at this grade.
 
 Super-IG is a separate algebraic global-descent problem. The source requires
 an odd bracket into connection one-forms, equivariance, Jacobi and compatible
@@ -169,11 +174,11 @@ open until the global functional is placed in one action.
 `lambda_def` is charged as the 84th prequotient real. The finite zero-mode
 complement is the fourth scoped ranked quotient after its measure is supplied,
 but no global residue reduction is booked. The latest source return is
-`SOURCE-CORRECTS`: it
-removes the inherited full-odd-action/cohomology target. The first-interaction
-parity obstruction, finite-local zero-mode theorem and conditional normalized
-global projector are repo-derived. External P1/P2/P3 remain unchanged and
-unused.
+`SOURCE-SILENT` on the selected cubic numerator and physical quotient. The
+earlier `SOURCE-CORRECTS` removal of the inherited full-odd-action/cohomology
+target remains in force. The numerator fork, finite-local zero-mode theorem
+and conditional normalized global projector are repo-derived. External
+P1/P2/P3 remain unchanged and unused.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

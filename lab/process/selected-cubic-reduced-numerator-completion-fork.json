@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "status": "Q0Q0_COMPACT_CORE_BULK_NUMERATOR_ZERO__Q0QM_COMPLETION_FORK__FULL_MOVING_D3I_AND_PREBOUNDARY_OPEN",
+  "functional_channel": "BUILD",
+  "source_return": "SOURCE-SILENT",
+  "ledger_rows": ["LT-GR2b", "LT-GR3", "LT-GR5", "LT-SM8"],
+  "layer0": {
+    "scalar_horn_vs_complete_y14_action": "UNCERTAIN",
+    "fixed_hh_block_vs_moving_trilinear_kernel": "HOMONYM_IF_CALLED_NUMERATOR",
+    "compact_core_bulk_vs_unrestricted_preboundary": "UNCERTAIN",
+    "energy_shell_vs_physical_pole": "HOMONYM_IF_CALLED_RESONANCE"
+  },
+  "free_pencil": {
+    "matrix": "J(z)=[[alpha*z,z],[z,b]]",
+    "mass_squared": "M2=alpha*b",
+    "massless_leg": "u0=(1,0)",
+    "massive_leg": "um=(1,-alpha)",
+    "krein_norms": ["+alpha", "-alpha"],
+    "observed_metric_projection": [1, 1]
+  },
+  "inherited_block": {
+    "hh_only": "deltaJ_hh=d*z*E_hh",
+    "field_redefinition": "deltaJ_fr=R^T*J+J*R__R=diag(d/(2*alpha),0)",
+    "shared_hh_entry": "d*z",
+    "unmeasured_difference": "deltaJ_fr_hv=d*z/(2*alpha)__deltaJ_hh_hv=0"
+  },
+  "shell_numerators": {
+    "hh_only_q0_q0": "0",
+    "hh_only_q0_qm": "d*M2/2",
+    "hh_only_qm_qm": "d*M2",
+    "full_pencil_field_redefinition_q0_q0": "0",
+    "full_pencil_field_redefinition_q0_qm": "0",
+    "full_pencil_field_redefinition_qm_qm": "0",
+    "selected_q0_q0_bulk_class": "ZERO_ON_COMPACT_CORE_FREE_SHELL",
+    "selected_q0_qm_class": "NOT_IDENTIFIED_BY_CURRENT_INHERITED_DATA"
+  },
+  "symplectic_disposition": {
+    "nonzero_mixed_comparator": "NONZERO_HAMILTONIAN_VECTOR_FIELD",
+    "field_redefinition_comparator": "ZERO_EOM_CLASS_ON_COMPACT_CORE",
+    "native_bfv_phase_space": "OPEN",
+    "unrestricted_preboundary_charge": "OPEN"
+  },
+  "missing_owner": {
+    "object": "D3_I_SELECTED_ON_THETA_Q0_QM_AND_THETA_QM_QM",
+    "required_responses": [
+      "H_V_BLOCK",
+      "MOVING_OBSERVATION_AND_SECTION",
+      "SHIAB_HODGE_DEWITT_KREIN_PAIRING",
+      "GAUGE_ROTATED_LEVI_CIVITA_SOLDERING",
+      "TRACE_AND_TRACELESS_DISTORTION",
+      "EVEN_GAUGE_COMPENSATOR",
+      "GREEN_PREBOUNDARY_CURRENT_AND_BOUNDARY_GENERATORS"
+    ]
+  },
+  "ncg_control": {
+    "disposition": "INAPPLICABLE_NO_FERMION_OR_HIGGS_EXTERNAL_LEG",
+    "finite_algebra_imported": false,
+    "ko6_imported": false,
+    "finite_dirac_imported": false
+  },
+  "ledger": {
+    "version": "0.18",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "continuous_residue": 84,
+    "function_valued_residue_lower_bound": 19,
+    "discrete_forks": 9,
+    "scoped_quotients_ranked": 4,
+    "touched_rows": ["LT-GR2b", "LT-GR3", "LT-GR5", "LT-SM8"],
+    "reason_kind_change": "LT-SM8:PROVEN_UNSUPPLYABLE_TO_MISSING_CONSTRUCTION",
+    "row_changes": "FOUR_DISTANCE_MIGRATIONS__ONE_REASON_KIND_CORRECTION__NO_VERDICT_OR_RESIDUE_CHANGE"
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "review_receipts": {
+    "primary_probe": "54/54_PASS__2_SOURCE_3_REPO_19_EXACT_20_TYPE_10_PLANTED",
+    "independent_sage": "PASS__Q0Q0_0__Q0QM_HH_d_alpha_b_over_2__Q0QM_FIELD_REDEFINITION_0",
+    "hostile_review": "PASS_AFTER_EIGHT_SCOPE_CORRECTIONS"
+  },
+  "next_gate": "FULL_MOVING_D3_I_SELECTED_PLUS_PREBOUNDARY_CLASS_ON_MIXED_AND_MASSIVE_SHELLS"
+}

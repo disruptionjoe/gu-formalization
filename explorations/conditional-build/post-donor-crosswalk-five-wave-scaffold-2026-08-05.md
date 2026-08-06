@@ -34,6 +34,18 @@ algebra or `D_F`.
 **Pass:** a nonzero reduced numerator or an exact cancellation theorem.
 **Kill:** numerator is exact/gauge or zero on every selected shell.
 
+**Wave-1 result (2026-08-05): partial pass; continuation generated.** The exact
+full-pencil legs make the compact-core `theta-q0-q0` bulk numerator zero on the
+free shell. The inherited `hh` response does not select the mixed
+`theta-q0-qm` class: an `hh`-only completion gives `dM^2/2`, while a
+full-pencil field-redefinition completion with the same inherited `hh` block
+is EOM-exact and gives zero on every free shell. This is a construction fork,
+not a theory kill and not a Q1 pole. Before Wave 2, Wave 1A must construct the
+complete moving `D^3 I_selected`, including the `h-v` block, observation and
+section response, Shiab/Hodge/DeWitt/Krein pairing, gauge-rotated
+Levi--Civita soldering, trace/traceless distortion, compensator and
+Green/preboundary response. The unrestricted BFV class remains open.
+
 ## Wave 2 — native normalized observer/domain functional
 
 **Channel:** Build. **Primary rows:** `LT-GR2b`, `LT-GR2d`, `LT-GR3`.

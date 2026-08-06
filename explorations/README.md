@@ -7,6 +7,18 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Selected-cubic reduced numerator and completion fork (2026-08-05)
+
+`conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md`
+executes the first post-donor Build wave. The compact-core `theta-q0-q0` bulk
+numerator is exactly zero on the free shell. The mixed `theta-q0-qm` numerator
+is not determined by the inherited constant-background `hh` block: exact
+`hh`-only and full-pencil field-redefinition completions share that block but
+give nonzero and zero mixed shell classes respectively. The full moving third
+derivative and unrestricted preboundary/BFV class remain open. Source return
+is `SOURCE-SILENT`; ledger v0.18 preserves counts/residue, migrates four rows
+and consumes no P1/P2/P3.
+
 ## Cross-theory mechanism-donor checkpoint (2026-08-05)
 
 `conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md`

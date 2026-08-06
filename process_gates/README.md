@@ -50,6 +50,8 @@ selected notes below and in each script header.
 - `conditional_physics_ledger_v014_scope_audit.py`
 - `conditional_physics_ledger_v015_scope_audit.py`
 - `conditional_physics_ledger_v016_scope_audit.py`
+- `conditional_physics_ledger_v017_scope_audit.py`
+- `conditional_physics_ledger_v018_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -138,6 +140,7 @@ selected notes below and in each script header.
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
 - `queue_review_freshness_audit.py`
+- `selected_cubic_reduced_numerator_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -1467,3 +1470,13 @@ to the predecessor TT block, and the real odd-channel continuum shells for
 both scalar parities. It requires the selected on-shell momentum numerator,
 Q1, physical sheet, common BV/Green/Fock domain and native `Y14` state-space
 identification to remain open, and does not consume P1/P2/P3.
+
+## Selected-cubic reduced-numerator and ledger v0.18 scope gates
+
+`selected_cubic_reduced_numerator_scope_audit.py` enforces the compact-core
+`q0-q0` bulk zero, the unselected mixed completion fork, `SOURCE-SILENT`, the
+symplectic bulk/preboundary distinction and the Q1/native-`Y14` nonpromotion
+fences. `conditional_physics_ledger_v018_scope_audit.py` preserves the 82-row
+denominator, `33/19/24/6` verdict counts, residue and four quotient count,
+requires exactly four append-only migrations, and corrects `LT-SM8` from
+`PROVEN_UNSUPPLYABLE` to `MISSING_CONSTRUCTION` without consuming P1/P2/P3.
