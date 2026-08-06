@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action stationary spin-LC Hessian (2026-08-06)
+
+`conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md`
+separates the rank-ten coordinate Christoffel map from the rank-nine action
+spin-Levi-Civita map, computes the exact stationary selected metric Hessian on
+all three causal orbits, and finds a rank-three diffeomorphism cross residual.
+Ledger v0.30 migrates five distances without changing verdicts, residue,
+quotients or P1/P2/P3. Direct curvature/full-II/defect/observation Ward
+totalization, BV, global domain and BFV remain open.
+
 ## Selected-action second soldering / observation jets (2026-08-06)
 
 `conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md`

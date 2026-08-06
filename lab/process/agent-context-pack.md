@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT STATIONARY ACTION-SPIN HESSIAN FENCE.** The prior rank-ten
+> theorem is a coordinate-Christoffel theorem. The selected action uses the
+> symmetric-frame spin Levi-Civita map, whose exact principal rank is nine
+> with kernel `span{k tensor k}`. On the full algebraically stationary branch,
+> the selected metric Hessian has timelike/spacelike/null ranks `9/9/6`; the
+> second lift-Hessian term vanishes there, while the isolated block retains a
+> rank-three diffeomorphism cross residual. Do not restore coordinate rank ten
+> to the action spin map, and do not call this a physical quotient. Next
+> assemble direct curvature/full-II/defect/observation Ward terms, then odd
+> BV, global domain and BFV. Current ledger: v0.30.
+
 > **CURRENT NONLINEAR SECOND-JET FENCE.** The symmetric-frame spin
 > Levi-Civita connection has an exact nonzero symmetric second metric jet.
 > The complete observation map is affine: pure-section Frechet `D2=0`, the
@@ -17,7 +28,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > and preboundary owners are exact. Do not substitute Christoffel `D2` for
 > the spin-connection `D2`, and do not rebuild these owners. Next expand the
 > actual selected-action metric/Hodge/Shiab/Krein/density/observation
-> coefficients, then BV, global domain and BFV. Current ledger: v0.29.
+> coefficients, then BV, global domain and BFV. This predecessor fence is
+> absorbed into the v0.30 stationary-Hessian packet.
 
 > **CURRENT LOCAL PHYSICAL-RESPONSE FENCE.** The exact rank-ten
 > gauge-rotated Levi-Civita soldering symbol now composes with complete

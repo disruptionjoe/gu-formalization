@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "ACTION_SPIN_LC_RANK9__STATIONARY_SELECTED_METRIC_HESSIAN_EXACT__DIFFEO_WARD_RESIDUAL_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "SOURCE", "COMPOSE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "source": {
+    "confirms": [
+      "gauge-rotated Levi-Civita connection in the contorsion comparison slot",
+      "augmented torsion as a difference of connections",
+      "observation as richer than naive form pullback"
+    ],
+    "silent": [
+      "coordinate-Christoffel versus action-spin rank",
+      "the stationary selected-action metric Hessian coefficients",
+      "the diffeomorphism-radical ranks",
+      "the direct curvature/full-II/defect completion"
+    ],
+    "exact_coefficient_attribution": "REPOSITORY_DERIVED"
+  },
+  "layer0_correction": {
+    "prior_rank_ten_object": "COORDINATE_CHRISTOFFEL_SYMBOL",
+    "action_object": "SYMMETRIC_FRAME_SPIN_LEVI_CIVITA_CONNECTION",
+    "same_object": false,
+    "effect": "PRIOR_RANK10_SURJECTIVITY_DOES_NOT_TRANSFER_TO_THE_ACTION_SPIN_MAP"
+  },
+  "exact_result": {
+    "coordinate_christoffel_rank": 10,
+    "action_spin_lc_rank": {
+      "timelike": 9,
+      "spacelike": 9,
+      "null": 9
+    },
+    "action_spin_lc_kernel": "SPAN_K_TENSOR_K",
+    "stationary_branch": "T_STAR_EQUALS_MINUS_KAPPA1_OVER_312__FULL_ALGEBRAIC_GRADIENT_ZERO",
+    "second_spin_lc_and_observation_jet_hessian_term": 0,
+    "selected_metric_hessian": {
+      "timelike": {"rank": 9, "inertia_for_positive_kappa1": [3, 6, 1]},
+      "spacelike": {"rank": 9, "inertia_for_positive_kappa1": [6, 3, 1]},
+      "null": {"rank": 6, "inertia_for_positive_kappa1": [3, 3, 4]}
+    },
+    "complete_first_jet_observation_preserves_congruence_class": true,
+    "diffeomorphism_cross_rank": {"timelike": 3, "spacelike": 3, "null": 3},
+    "diffeomorphism_quadratic_rank": {"timelike": 3, "spacelike": 3, "null": 2},
+    "isolated_spin_lc_block_is_diffeomorphism_radical": false,
+    "direct_curvature_full_ii_defect_observation_ward_completion": "OPEN",
+    "diffeomorphism_odd_bv": "OPEN",
+    "global_krein_green_domain": "OPEN",
+    "bfv": "OPEN"
+  },
+  "free_object_delta": 0,
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "ledger_change": "DISTANCE_ONLY_WITH_LAYER0_SCOPE_CORRECTION",
+  "verdict_change": false,
+  "residue_change": false,
+  "quotient_change": false,
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "ASSEMBLE_DIRECT_CURVATURE_FULL_II_DEFECT_AND_OBSERVATION_TERMS_WITH_THE_SPIN_LC_BLOCK__CANCEL_OR_RETAIN_THE_EXACT_RANK3_DIFFEO_WARD_RESIDUAL__THEN_ODD_BV_GLOBAL_DOMAIN_AND_BFV"
+}

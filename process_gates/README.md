@@ -147,6 +147,7 @@ selected notes below and in each script header.
 - `selected_cubic_reduced_numerator_scope_audit.py`
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
 - `selected_action_second_soldering_observation_jets_scope_audit.py`
+- `selected_action_stationary_spin_lc_hessian_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -1604,3 +1605,14 @@ Hessians, the spatial second-section total-derivative owner, and the nonlinear
 formal-adjoint Euler/preboundary owner. It keeps direct selected-action
 coefficient expansion, BV, global domain and BFV open and preserves all ledger
 counts plus unused P1/P2/P3.
+
+## Selected-action stationary spin-LC Hessian and ledger v0.30 gate
+
+`selected_action_stationary_spin_lc_hessian_scope_audit.py` enforces the
+Layer-0 separation between the rank-ten coordinate Christoffel map and the
+rank-nine action spin-Levi-Civita map, its longitudinal kernel, the exact
+stationary selected metric-Hessian causal ranks/inertias, the vanishing
+stationary second-lift chain term and the nonzero rank-three diffeomorphism
+cross residual. It keeps direct curvature/full-II/defect/observation Ward
+totalization, BV, global domain and BFV open and preserves all ledger counts
+plus unused P1/P2/P3.

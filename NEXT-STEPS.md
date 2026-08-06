@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 STATIONARY SELECTED-ACTION SPIN-LC HESSIAN.**
+> [`explorations/conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md`](explorations/conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md)
+> corrects a Layer-0 transfer: the prior rank-ten theorem is for the coordinate
+> Christoffel symbol, while the action's symmetric-frame spin Levi-Civita map
+> has rank nine with kernel `span{k tensor k}`. On the stationary selected
+> branch, its exact metric Hessian has timelike/spacelike/null ranks `9/9/6`
+> and a rank-three diffeomorphism cross residual. Ledger v0.30 remains
+> `82/82`, `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four
+> scoped quotients. Next: assemble direct curvature/full-II/defect/observation
+> contributions and cancel or retain that Ward residual before BV, domain or
+> BFV promotion.
+
 > **2026-08-06 EXACT SECOND SOLDERING / OBSERVATION JETS.**
 > [`explorations/conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md`](explorations/conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md)
 > constructs the nonzero symmetric second metric jet of the symmetric-frame

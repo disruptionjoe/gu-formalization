@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-06 (ledger v0.30; no verdict, residue,
+canon or public-posture change).** A Layer-0 correction separates the prior
+rank-ten coordinate Christoffel symbol from the selected action's
+symmetric-frame spin Levi-Civita principal map, which has exact rank nine and
+kernel `span{k tensor k}` on all causal orbits. The stationary selected metric
+Hessian is exact, with timelike/spacelike/null ranks `9/9/6`; its isolated
+diffeomorphism cross residual has rank three. Direct curvature/full-II/defect/
+observation Ward totalization therefore precedes odd BV, global domain and
+BFV. Five distances move; all counts and P1/P2/P3 are unchanged. See
+`explorations/conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md`.
+
 **Active Build/Compose update 2026-08-06 (ledger v0.29; no verdict, residue,
 canon or public-posture change).** The symmetric-frame spin Levi-Civita
 connection has an exact nonzero symmetric second metric jet. The complete
