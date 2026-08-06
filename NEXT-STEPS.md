@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 OFF-GRAPH `d_B T` PARITY COMPLETION.**
+> [`explorations/conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md`](explorations/conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md)
+> proves that the written first-order torsion term is same-grade zero on the
+> horizontal and complete `Cl2` banks but has a live adjacent `Cl1`--`Cl2`
+> formal-adjoint Euler block of ranks `12/12/11`. The current 34-variable
+> metric-plus-horizontal-Lorentz truncation is therefore not action-invariant.
+> Ledger v0.35 preserves `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks` and four scoped quotients. Next: compute
+> the grade-one algebraic Hessian, assemble the filtered mixed-order symbol,
+> and build the observation receiver before common-domain or BV/BFV claims.
+
 > **2026-08-06 SELECTED CURVATURE GRAPH SIX-VERSUS-FOUR.**
 > [`explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md`](explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md)
 > composes the selected `comm/symi/symi` Riemann response with the source-native

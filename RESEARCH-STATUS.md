@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose correction 2026-08-06 (ledger v0.35; no verdict,
+residue, quotient, datum, canon or public-posture change).** The selected
+`d_B T/2` term has zero same-grade formal-adjoint Euler symbol on both the
+24-dimensional horizontal and complete 1,274-dimensional `Cl2` one-form
+banks, despite live derivative images. Its adjacent `Cl1`--horizontal-`Cl2`
+Euler ranks are `12/12/11`, so the current 34-variable truncation is not
+action-invariant. The graph curvature theorem is unchanged. The grade-one
+algebraic Hessian, filtered mixed-order total symbol, observation receiver,
+common domain, odd BV and BFV remain open. See
+`explorations/conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md`.
+
 **Active Build/Compose correction 2026-08-06 (ledger v0.34; no verdict,
 residue, quotient, datum, canon or public-posture change).** On the
 source-native constant-augmented-torsion graph, the selected curvature term

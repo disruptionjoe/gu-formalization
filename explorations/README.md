@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action off-graph dBT principal symbol (2026-08-06)
+
+`conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md`
+derives the formal-adjoint Euler symbol of the written `d_B T/2` term. The
+same-grade `Cl2` block is zero although the selected derivative image is live;
+the adjacent `Cl1`--horizontal-`Cl2` ranks are `12/12/11`. Thus the current
+34-variable source truncation is not action-invariant. Ledger v0.35 moves five
+distances only. The grade-one algebraic Hessian, filtered total symbol,
+observation receiver, common domain, odd BV and BFV remain open.
+
 ## Selected-action curvature graph six-versus-four (2026-08-06)
 
 `conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md`

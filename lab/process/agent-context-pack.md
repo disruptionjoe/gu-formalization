@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT OFF-GRAPH `d_B T` PARITY FENCE.** The written `d_B T/2`
+> density is not an ordinary additional Hessian on the current metric-ten plus
+> horizontal-`Cl2`-twenty-four carrier. Its same-grade formal-adjoint Euler
+> symbol is exactly zero on both the 24-dimensional and complete
+> 1,274-dimensional `Cl2` banks, while the adjacent `Cl1`--horizontal-`Cl2`
+> Euler block has ranks `12/12/11`. The current 34-variable truncation is not
+> action-invariant. Do not generalize same-grade zero across Clifford parity,
+> call the cross rank a parameter/particle/quotient, or add a first-order rank
+> to the second-order curvature Hessian. Next build the grade-one algebraic
+> Hessian, filtered mixed-order symbol and observation receiver. Current
+> ledger: v0.35. The v0.34 graph theorem remains exact.
+
 > **CURRENT CURVATURE-GRAPH SIX-VERSUS-FOUR FENCE.** On the source-native
 > constant-augmented-torsion graph `varpi=B_LC(g)+T*`, the selected
 > `comm/symi/symi` Riemann response has exact gain `-1/26`. Composed with the
@@ -20,6 +32,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > terms on `(g,varpi)`, then observation reception and a common Green/Krein
 > domain while retaining the two null characteristics. Do not erase the
 > full-ambient-curvature no-go; its carrier is larger. Current ledger: v0.34.
+> This predecessor fence is absorbed into the v0.35 off-graph packet.
 
 > **CURRENT SOURCE-VARIABLE HESSIAN FENCE.** The selected tautological
 > `Phi1` has zero full-slot Lie response; v0.32's rank-four frozen-slot

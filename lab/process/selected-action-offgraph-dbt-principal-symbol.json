@@ -1,0 +1,40 @@
+{
+  "artifact_type": "selected_action_offgraph_dbt_principal_symbol",
+  "created": "2026-08-06",
+  "status": "ADJACENT_GRADE_DBT_EULER_LIVE__CURRENT_34_VARIABLE_TRUNCATION_NOT_ACTION_INVARIANT",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "raw_density_symbol": "A_K_U_V_EQUALS_PAIR_U_SELECTED_SHIAB_K_WEDGE_V",
+    "bulk_euler_symbol": "ONE_HALF_TIMES_A_K_MINUS_A_K_TRANSPOSE",
+    "current_observed_torsion_bank": "HORIZONTAL_FORM_ONE_TENSOR_CLIFFORD_GRADE_TWO_DIMENSION_24",
+    "parity_companion": "FULL_FORM_ONE_TENSOR_CLIFFORD_GRADE_ONE_DIMENSION_196",
+    "not_tested": "COMPLETE_ADP_ALL_CLIFFORD_GRADES_OBSERVATION_RECEIVER_OR_COMMON_CLOSED_DOMAIN"
+  },
+  "exact_result": {
+    "same_grade_horizontal_cl2_raw_and_euler_ranks": {"timelike": 0, "spacelike": 0, "null": 0},
+    "same_grade_full_cl2_dimension": 1274,
+    "same_grade_full_cl2_raw_and_euler_ranks": {"timelike": 0, "spacelike": 0, "null": 0},
+    "selected_derivative_image_live_counts_full_cl2": {"timelike": 1183, "spacelike": 1183, "null": 1274},
+    "same_grade_cl1_and_cl13_raw_and_euler_ranks": {"timelike": 0, "spacelike": 0, "null": 0},
+    "cl1_horizontal_cl2_raw_cross_ranks": {"timelike": 12, "spacelike": 12, "null": 12},
+    "cl1_horizontal_cl2_formal_euler_cross_ranks": {"timelike": 12, "spacelike": 12, "null": 11},
+    "parity_completed_offdiagonal_euler_ranks": {"timelike": 24, "spacelike": 24, "null": 22},
+    "cl13_horizontal_cl2_cross_rank": 0,
+    "first_exact_witness": "TIMELIKE_CL1_FORM1_CLIFF0_VS_HCL2_COLUMN0_EQUALS_MINUS1",
+    "constant_torsion_curvature_graph_effect": "UNCHANGED",
+    "current_34_variable_source_truncation": "NOT_ACTION_INVARIANT_UNDER_DBT",
+    "complete_grade1_algebraic_hessian_observation_receiver_common_domain": "OPEN"
+  },
+  "free_object_delta": 0,
+  "quotient_count_delta": 0,
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "GRADE1_ALGEBRAIC_HESSIAN_PLUS_DBT_MIXED_ORDER_COMPLETION_AND_OBSERVATION_RECEIVER"
+}

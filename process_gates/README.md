@@ -147,6 +147,7 @@ selected notes below and in each script header.
 - `selected_cubic_reduced_numerator_scope_audit.py`
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
 - `selected_action_curvature_graph_six_versus_four_scope_audit.py`
+- `selected_action_offgraph_dbt_principal_symbol_scope_audit.py`
 - `selected_action_second_soldering_observation_jets_scope_audit.py`
 - `selected_action_stationary_spin_lc_hessian_scope_audit.py`
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
@@ -1658,3 +1659,11 @@ four plus two tensor characteristics. It preserves the ambient-curvature
 no-go on its larger carrier, keeps off-graph `d_B T`, observation, common
 domain, BV and BFV open, and forbids booking characteristics as residue or a
 new quotient.
+
+## Selected-action off-graph dBT principal symbol and ledger v0.35 gate
+
+`selected_action_offgraph_dbt_principal_symbol_scope_audit.py` enforces the
+formal-adjoint distinction between raw density and Euler symbol, records the
+exact adjacent-grade `Cl1`--horizontal-`Cl2` ranks `12/12/11`, rejects the
+current 34-variable truncation as action-invariant, preserves the graph
+curvature theorem and requires the mandatory symplectic hostile review.

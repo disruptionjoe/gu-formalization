@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.34.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.34.md`.
+`lab/process/conditional-physics-ledger-v0.35.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.35.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -53,12 +53,15 @@ zero-jet Hessian with four gauge plus six nongauge null directions. Both Ward
 block equations close. On the source-native constant-augmented-torsion graph,
 selected curvature has exact gain `-1/26`: it lifts the six nongauge nulls off
 cone while leaving gauge four, and on cone retains gauge four plus two
-transverse tensor characteristics. Do not rebuild these objects, restore
-coordinate rank ten, revive the diagnostic completion, book nullity or
-characteristics as residue, or import separately owned full-II. Construct the
-off-graph `d_B T` torsion principal block on the independent `(g,varpi)`
-carrier, then observation reception and a common Green/Krein domain before
-odd BV or BFV promotion.
+transverse tensor characteristics. Off graph, the `d_B T/2` formal-adjoint
+Euler symbol is same-grade zero on horizontal and full `Cl2`, but the adjacent
+`Cl1`--horizontal-`Cl2` block has exact ranks `12/12/11`; therefore the current
+34-variable truncation is not action-invariant. Do not rebuild these objects,
+generalize same-grade zero across Clifford parity, restore coordinate rank
+ten, book ranks or characteristics as residue, or import separately owned
+full-II. Construct the grade-one algebraic Hessian, filtered mixed-order total
+symbol and observation receiver, then a common Green/Krein domain before odd
+BV or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
