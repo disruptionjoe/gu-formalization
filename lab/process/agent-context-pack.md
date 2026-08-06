@@ -3,11 +3,20 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-05
+updated: 2026-08-06
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-05)
+# Agent context pack (updated 2026-08-06)
+
+> **CURRENT TWO-LAYER ACTION FENCE.** Do not use “curvature-squared” as an
+> action owner. The source's first-order transgression `I1B`, its residual
+> `Upsilon_B`, the second-layer norm square `I2B=||Upsilon_B||^2/2`, and the
+> observer `||II||^2` functional are distinct. Source confirms the first three
+> typings and is silent on `I2B <-> ||II||^2`. Exact finite controls show
+> `D3I1B` and `D3I2B` are generically not proportional. Advance first-order
+> full-moving/preboundary completion and the second-layer/observer owner map as
+> separate packages; reconcile before `LT-GR3` Q1. Current ledger: v0.24.
 
 > **CURRENT TRACE-Q / LEVI-CIVITA CORRECTION.** Do not treat `q=g/2`,
 > `varpi`, augmented torsion and a Higgs cell as the same type. Bare
@@ -83,7 +92,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.23.json`:
+`lab/process/conditional-physics-ledger-v0.24.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.

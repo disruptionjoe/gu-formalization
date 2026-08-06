@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Two-layer action / selected-cubic owner retype (2026-08-06)
+
+`conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md`
+splits a category-collapsed Build queue. Source and exact Layer-0 checks keep
+the first-order `I1B`, residual `Upsilon_B`, second-layer `I2B`, and observer
+`||II||^2` owners distinct. Only `LT-GR3`'s distance migrates in ledger v0.24;
+all verdicts, residue, four scoped quotients and P1/P2/P3 remain unchanged.
+The first-order full-moving/preboundary completion and second-layer/observer
+owner map may advance separately but must reconcile before Q1.
+
 ## Selected-cubic intrinsic homogeneous Ward closure (2026-08-06)
 
 `conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md`

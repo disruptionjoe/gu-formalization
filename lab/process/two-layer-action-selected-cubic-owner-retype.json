@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "TWO_LAYER_QUEUE_SPLIT_CONFIRMED__LT_GR3_OWNER_MAP_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "ledger_version": "0.24",
+  "ledger_rows": ["LT-GR3"],
+  "layer0": {
+    "first_action_vs_residual": "DISTINCT",
+    "first_action_vs_residual_norm_square": "DISTINCT",
+    "residual_norm_square_vs_observer_full_ii": "NOT_ESTABLISHED",
+    "curvature_squared_descriptor_vs_action_owner": "DISTINCT",
+    "bulk_cubic_vs_preboundary_class": "DISTINCT"
+  },
+  "source": {
+    "return_code": "SOURCE-CORRECTS",
+    "confirms": "TWO_ACTION_LAYERS_AND_ONE_WAY_FIRST_LAYER_SOLUTION_REDUNDANCY",
+    "corrects": "SINGLE_OWNER_WORDING_IN_CURRENT_BUILD_QUEUE",
+    "silent": "I2B_EQUALS_OBSERVER_FULL_II_OR_EQUAL_CUBIC_EULER_PREBOUNDARY_CLASSES"
+  },
+  "exact_probe": {
+    "generic_d3_i2_over_d3_i1_ratios": ["3", "4", "5", "6"],
+    "generic_common_scale": false,
+    "one_dimensional_accidental_scale": "21",
+    "first_layer_solutions_imply_second_layer_stationarity": true,
+    "second_layer_extra_critical_point": "x=0 with Upsilon=-1"
+  },
+  "queue": {
+    "first_order_completion": "MOVING_METRIC_HODGE_DEWITT_KREIN_OBSERVATION_PLUS_PRIMITIVE_EPSILON_DIFFEO_ODD_BV_PREBOUNDARY",
+    "second_layer_owner_map": "CONSTRUCT_I2B_TO_OBSERVER_FULL_II_MAP_THEN_D3_EULER_PREBOUNDARY_AND_LT_GR3",
+    "reconciliation_before_q1": true
+  },
+  "constraint_cost": {
+    "fitted_coefficients": 0,
+    "new_external_datum": 0,
+    "residue_reduction": 0,
+    "new_quotients": 0
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "non_effects": [
+    "NO_LT_GR3_VERDICT_CHANGE",
+    "NO_Q1",
+    "NO_ACTION_EQUIVALENCE",
+    "NO_PREBOUNDARY_EQUIVALENCE",
+    "NO_PHYSICS_OR_COSMOLOGY",
+    "NO_CANON_OR_PUBLIC_POSTURE_CHANGE"
+  ],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-06-two-layer-action-selected-cubic-owner-retype-review.md",
+  "next_gate": "PARALLEL_FIRST_ORDER_FULL_MOVING_PREBOUNDARY_COMPLETION_AND_SECOND_LAYER_I2B_TO_FULL_II_OWNER_MAP__RECONCILE_BEFORE_Q1"
+}

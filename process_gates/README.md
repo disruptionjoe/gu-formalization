@@ -1545,3 +1545,13 @@ fence between pointwise homogeneous invariance and primitive epsilon Green,
 full direct/moving geometry and preboundary/BFV reduction; exactly five
 distance-only migrations; unchanged `LT-GR3`, verdicts, reason kinds, revival
 triggers, residue and four scoped quotients; and unused P1/P2/P3.
+
+## Two-layer selected-cubic owner retype and ledger v0.24 scope gate
+
+`two_layer_action_selected_cubic_owner_retype_scope_audit.py` enforces the
+Layer-0 split among first-order `I1B`, residual `Upsilon_B`, second-layer
+`I2B`, and observer `||II||^2`; generic cubic independence and the accidental
+one-dimensional plant; one-way solution redundancy; exactly one LT-GR3
+distance migration; the split non-conflicting queue; mandatory symplectic
+preboundary fence; unchanged verdicts, residue and four scoped quotients; and
+unused P1/P2/P3.

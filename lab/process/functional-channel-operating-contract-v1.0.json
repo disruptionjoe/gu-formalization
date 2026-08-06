@@ -10,15 +10,16 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.23.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.23.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.24.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.24.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
     "unknown_kind_rule": "NEW_KIND_REQUIRED__FORCED_FIT_FORBIDDEN",
     "row_required_fields": ["id", "axis", "summary", "verdict", "reason_kind", "distance", "revival_trigger", "evidence", "mapping_grade"],
     "wave_required_fields": ["ledger_rows_declared_before_work", "ledger_meter_after", "ledger_row_changes_or_explicit_no_change_reason"],
-    "freshness_failure": "ROW_TOUCHED_WITHOUT_LEDGER_MIGRATION_OR_EXPLICIT_EVIDENCE_BACKED_NO_CHANGE_REASON"
+    "freshness_failure": "ROW_TOUCHED_WITHOUT_LEDGER_MIGRATION_OR_EXPLICIT_EVIDENCE_BACKED_NO_CHANGE_REASON",
+    "action_owner_directive": "CURVATURE_SQUARED_IS_NOT_AN_OWNER__NAME_FIRST_ORDER_TRANSGRESSION_OR_RESIDUAL_NORM_SQUARE_OR_OBSERVER_FULL_II__CONSTRUCT_EULER_AND_PREBOUNDARY_MAP_BEFORE_Q1"
   },
   "channels": {
     "BUILD": {

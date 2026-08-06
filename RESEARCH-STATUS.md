@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Compose correction 2026-08-06 (ledger v0.24; no verdict, residue,
+canon or public-posture change).** The previous rank-one queue collapsed the
+first-order selected action, its residual norm-square second action, and the
+observer full-`II` functional under “curvature-squared D3.” The source
+distinguishes the first two and is silent on the map to the third. Exact
+finite controls show the two cubic tensors are generically independent, with
+an accidental one-dimensional proportional plant. `LT-GR3` therefore moves
+only in distance: construct the `I2B <-> ||II||^2` Euler/preboundary owner map
+before a Weyl/Bach Q1 claim. First-order full-moving/preboundary completion
+may proceed independently. See
+`explorations/conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md`.
+
 **Active construction update 2026-08-06 (ledger v0.23; no verdict, residue,
 canon or public-posture change).** After the two-connection difference removes
 the shared principal derivative, the intrinsic selected augmented-torsion

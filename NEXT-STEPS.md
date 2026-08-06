@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 TWO-LAYER SELECTED-CUBIC OWNER RETYPE.**
+> [`explorations/conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md`](explorations/conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md)
+> separates the first-order transgression action `I1B`, its residual
+> `Upsilon_B`, the second-layer norm square `I2B`, and the observer
+> `||II||^2` functional. Exact finite controls show `D3 I1B` and `D3 I2B`
+> are generically not proportional; the source supplies no
+> `I2B <-> ||II||^2` owner map. Ledger v0.24 stays `82/82`, `33/19/24/6`,
+> residue `84 + >=19 functions + 9 forks`, and four scoped quotients; only
+> `LT-GR3`'s distance moves. Next work splits into non-conflicting packages:
+> finish the first-order moving/preboundary class, and separately construct
+> the second-layer/observer owner map. Reconcile them before Q1.
+
 > **2026-08-06 INTRINSIC HOMOGENEOUS WARD CLOSURE.**
 > [`explorations/conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md`](explorations/conditional-build/selected-cubic-intrinsic-homogeneous-ward-closure-2026-08-06.md)
 > closes the lower-order inner-gauge variation of the intrinsic selected
