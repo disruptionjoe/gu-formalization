@@ -43,6 +43,9 @@ assert contract["channels"]["VERIFY"]["unchanged_replay_is_progress"] is False
 assert contract["channels"]["VERIFY"]["hostile_charges"] == [
     "SUMMARY_OUTRUNS_ARTIFACT", "DEFENDS_SUPERSEDED_OR_MISTYPED_OBJECT"
 ]
+symplectic = contract["channels"]["VERIFY"]["conditional_specialist_lenses"]["SYMPLECTIC_GEOMETRY"]
+assert "PHYSICAL_TRANSITION" in symplectic["trigger"]
+assert symplectic["forbidden_promotion"] == "UNREDUCED_DENSITY_IS_NOT_A_PHYSICAL_TRANSITION"
 
 for ref in [
     "lab/process/functional-channel-operating-contract-v1.0.md",
@@ -57,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.16.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.16.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.16.md")
+assert "conditional-physics-ledger-v0.17.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.17.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.17.md")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -68,6 +71,8 @@ assert "There are no fixed channel percentages" in human
 assert "unchanged packet" in human
 assert "summary outruns the artifact" in human
 assert "superseded or mistyped" in human
+assert "include a symplectic-geometry lens" in human
+assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 
@@ -75,7 +80,7 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "FIXED_BACKGROUND_TT_SPECTRAL_C_BUILT_ON_FREE_CONNECTED_COMPONENT__FULL_NONLINEAR_FOCK_DOMAIN_C_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["status"] == "SELECTED_CUBIC_ODD_CONTINUUM_SHELLS_EXACT__ONSHELL_NUMERATOR_AND_Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
 assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
@@ -83,14 +88,18 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FULL_CUBIC_SCALAR_FLUCTUATION_C_AND_COMMON_BV_GREEN_FOCK_DOMAIN" in directive["next_gate"]
-assert "MIXED_SUPER_IG_GLOBAL_DESCENT" in directive["next_gate"]
-assert "COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION" in directive["next_gate"]
+assert "SELECTED_Y14_CUBIC_MOMENTUM_NUMERATOR_ON_EVEN_BV_SHELL" in directive["next_gate"]
+assert "SUPER_IG_DESCENT" in directive["next_gate"]
+assert "NORMALIZED_OBSERVER_FUNCTIONAL" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
 assert "FIXED_CONSTANT_SCALAR_BACKGROUND_SELECTED_ACTION_TT_HESSIAN_HAS_UNIQUE_POSITIVE_SPECTRAL_C" in directive["current_evidence_boundary"]
 assert "FIRST_C_CORRECTION_FOUR_COEFFICIENTS_CONSTRAINT_RANK_FOUR_ZERO_FREEDOM" in directive["current_evidence_boundary"]
 assert "BACKGROUND_NOT_PROVED_STATIONARY" in directive["current_evidence_boundary"]
+assert "FULL_THREE_FIELD_CUBIC_HESSIAN_ZERO_AT_ZERO_FIELD" in directive["current_evidence_boundary"]
+assert "EVERY_SCALAR_PARITY_HAS_REAL_ODD_CONTINUUM_ENERGY_SHELL" in directive["current_evidence_boundary"]
+assert "SELECTED_ONSHELL_MOMENTUM_NUMERATOR_UNBUILT" in directive["current_evidence_boundary"]
+assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
 assert "NORMALIZED_GLOBAL_PROJECTOR_SCREENS_CONSTANT_SHIFTS_EXACTLY" in directive["current_evidence_boundary"]
@@ -114,6 +123,8 @@ assert "declines an odd action" in human
 assert "SOURCE-SILENT" in human
 assert "four first-order matrix entries" in human
 assert "Generic Jordan walls" in human
+assert "real odd continuum shell for either scalar" in human
+assert "not a booked Q1 pole" in human
 assert "remains circular" in human
 assert "the Einstein equation was recovered” is not a completion result" in human
 assert "historical Einstein" in human
@@ -126,4 +137,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.16 ledger wire the fixed-background spectral C, exact exceptional loci, conditional global screening and algebraic super-IG descent without consuming P2")
+print("PASS: functional channels and v0.17 ledger wire the fixed-background C, exact three-species odd shells, selected-numerator fence, conditional global screening and algebraic super-IG descent without consuming P2")

@@ -7,6 +7,18 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Selected-cubic QFT threshold and numerator gate (2026-08-05)
+
+`conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md`
+proves that scalar fluctuation adds no new zero-field Hessian block and replaces
+that mistyped gate with the exact three-species continuum threshold atlas.
+Every scalar parity leaves a real Krein-odd energy-denominator shell because
+the ordinary TT graviton is massless. The result does not book a Q1 pole: the
+selected momentum-space numerator on the shell, native/observed descent,
+physical sheet and common domain remain open. Source return is
+`SOURCE-SILENT`; ledger v0.17 retains `82/82`, `33/19/24/6` and the global
+residue while migrating four rows without spending P1/P2/P3.
+
 ## First perturbative background C-operator (2026-08-05)
 
 `conditional-build/first-perturbative-background-c-operator-2026-08-05.md`

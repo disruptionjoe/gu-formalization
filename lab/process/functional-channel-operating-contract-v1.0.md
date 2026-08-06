@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.16.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.16.md`.
+`lab/process/conditional-physics-ledger-v0.17.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.17.md`.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -117,6 +117,13 @@ Every material claim receives the two-sided hostile review:
 1. find where the summary outruns the artifact; and
 2. find where a rigorous fence or lane is defending a superseded or mistyped
    object.
+
+Reviews that touch an action, variational map, constraint/BV quotient,
+boundary charge, observation descent or claimed physical transition must also
+include a symplectic-geometry lens. That reviewer asks whether the candidate
+Hamiltonian or current descends to a nonzero class on reduced covariant phase
+space after the presymplectic characteristic kernel and exact boundary
+generators are quotiented. An unreduced density is not a physical transition.
 
 When the work has substantial specialist judgment, a lightweight divergent
 preassessment names the relevant lenses before construction. A separate
@@ -348,6 +355,13 @@ exactly. The background is not proved stationary, and this is not a nonlinear
 action symmetry, Fock-space metric, common domain or UV theorem. Weinstein's
 released GU sources are `SOURCE-SILENT` on this construction.
 
+The complete selected cubic now has a real odd continuum shell for either scalar
+grading, but this is not a booked Q1 pole. Its full three-field Hessian is zero
+at the zero-field point, so the prior scalar-enlargement instruction was
+mistyped. The next object is the selected momentum-space numerator after
+observation, Ward/BV and presymplectic reduction; only a nonzero reduced class
+on the exact shell may advance to Q1 and the physical-sheet test.
+
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
 constant without deriving its action placement, conservation identity,
@@ -359,12 +373,13 @@ Einstein source.
 Current gate:
 
 ```text
-FULL_CUBIC_SCALAR_FLUCTUATION_C_AND_COMMON_BV_GREEN_FOCK_DOMAIN__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION
+SELECTED_Y14_CUBIC_MOMENTUM_NUMERATOR_ON_EVEN_BV_SHELL__THEN_Q1_OR_PHYSICAL_SHEET_H59__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
-The next work has three independent owners. Interaction positivity must lift
-the fixed-background `C` through scalar fluctuations and the full cubic bank,
-then construct the common BV/Green/Fock domain or return a scoped obstruction.
+The next work has three independent owners. Interaction positivity must derive
+the full selected momentum numerator on the exact odd shells, then construct
+regular Q1 or carry a nonzero result into physical-sheet H59 and the common
+BV/Green/Fock domain.
 Super-IG must globalize the mixed odd bracket without manufacturing an odd
 action. Cosmology must derive or explicitly supply the normalized functional
 and insert its projector into one action before FLRW or `w(z)` work. A

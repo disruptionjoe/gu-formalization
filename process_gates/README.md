@@ -1414,9 +1414,12 @@ v0.15 first-interaction and global-zero-mode update, followed by the v0.16
 fixed-background field-mixing spectral `C` and exact exceptional-locus
 classification. The latest return is `SOURCE-SILENT` for this C construction;
 the predecessor source correction still holds that algebraic super-IG descent
-is not a default odd action. It keeps the full nonlinear/Fock `C`, scalar
-fluctuations, full cubic bank, common domain, domain/measure functional,
-algebraic global descent, action-owned `w(z)` and external `P2_datum` open. It
+is not a default odd action. It now also enforces v0.17's zero vacuum cubic
+Hessian, three-species odd-channel shells, numerator-before-pole fence and
+symplectic descent veto. It keeps the full nonlinear/Fock `C`, selected
+on-shell numerator, physical-sheet test, full cubic bank, common domain,
+domain/measure functional, algebraic global descent, action-owned `w(z)` and
+external `P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, canon, external datum or public posture.
@@ -1443,3 +1446,14 @@ complex-spectrum, disconnected-real and scalar-nonselection loci. It keeps
 stationary-vacuum selection, the full nonlinear action, scalar fluctuations,
 the full cubic bank, common BV/Green/Fock domain and UV positivity open, and
 does not consume P1/P2/P3.
+
+## Conditional physics ledger v0.17 scope gate
+
+`conditional_physics_ledger_v017_scope_audit.py` preserves v0.16 byte-for-
+byte, recomputes the unchanged 82-row denominator, verdict and global residue
+counts, and requires exactly four row migrations. It wires the exact zero of
+the complete cubic Hessian at the zero-field point, the fixed-theta reduction
+to the predecessor TT block, and the real odd-channel continuum shells for
+both scalar parities. It requires the selected on-shell momentum numerator,
+Q1, physical sheet, common BV/Green/Fock domain and native `Y14` state-space
+identification to remain open, and does not consume P1/P2/P3.

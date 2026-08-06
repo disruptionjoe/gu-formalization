@@ -7,6 +7,22 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 SELECTED-CUBIC QFT THRESHOLD / NUMERATOR GATE.**
+> [`explorations/conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md`](explorations/conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md)
+> corrects the previous next-gate typing: scalar fluctuation contributes no new
+> zero-field Hessian block, so appending a scalar row to the fixed-background
+> `C(u)` would repeat the old calculation. Carrying all three cubic monomials
+> into continuum kinematics instead shows a real Krein-odd energy-denominator
+> shell for either scalar parity because `q0` is massless. This is not yet a
+> Q1 pole: the selected momentum-space numerator after observation and even-BV
+> reduction is unbuilt and may vanish on shell. Weinstein's sources are
+> `SOURCE-SILENT` on the C/threshold prescription and preserve the native
+> `Y^14` versus observed `X^4` arena boundary. Ledger v0.17 remains `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`; four rows migrate and
+> P1/P2/P3 remain unused. Current progress surface:
+> `explorations/conditional-build/conditional-physics-ledger-v0.17.md`. Next:
+> `SELECTED_Y14_CUBIC_MOMENTUM_NUMERATOR_ON_EVEN_BV_SHELL__THEN_Q1_OR_PHYSICAL_SHEET_H59__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL`.
+
 > **2026-08-05 FIRST PERTURBATIVE BACKGROUND-C GATE.**
 > [`explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md`](explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md)
 > lifts the spectral Krein construction from the free TT pencil to the exact

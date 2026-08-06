@@ -58,7 +58,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.16.json`:
+`lab/process/conditional-physics-ledger-v0.17.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -128,6 +128,15 @@ reversed positive orientation, and a scalar nonselection point. The background
 is not proved stationary; full scalar fluctuations, nonlinear action symmetry,
 Fock/common BV-Green domain, loops and UV remain open. `SOURCE-SILENT`; this is
 not the unresolved July D1 192-dimensional record-sector lift.
+
+The complete three-field cubic Hessian now vanishes at the zero-field point;
+fixed `theta_bar` reproduces only that predecessor TT block. Carrying the
+scalar as a state instead reveals a real odd continuum shell for either scalar
+parity because `q0` is massless. This is not a booked Q1 pole: the selected
+momentum-space numerator after observation and even-BV reduction, its native
+`Y^14` identification, physical sheet and common domain remain open. The next
+interaction gate is the numerator on those exact shells, not another enlarged
+background matrix.
 
 Super-IG is a separate algebraic global-descent problem. The source requires
 an odd bracket into connection one-forms, equivariance, Jacobi and compatible

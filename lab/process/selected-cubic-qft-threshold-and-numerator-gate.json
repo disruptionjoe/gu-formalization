@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "status": "PASS_AFTER_NINE_MATERIAL_SCOPE_CORRECTIONS",
+  "source_return": "SOURCE-SILENT",
+  "result": {
+    "zero_field_full_cubic_hessian": "ZERO",
+    "fixed_theta_hessian": "PREDECESSOR_TWO_BY_TWO_BLOCK_ONLY",
+    "scalar_mixing_hessian": "REQUIRES_NONZERO_TT_BACKGROUND",
+    "even_theta_odd_channel": "THETA_Q0_QM__REAL_SHELL_FOR_UNEQUAL_POSITIVE_MASSES__SOFT_AT_EQUALITY",
+    "odd_theta_odd_channel": "THETA_Q0_Q0__REAL_TWO_MASSLESS_SHELL_FOR_POSITIVE_SCALAR_MASS",
+    "q1_pole": "CONDITIONAL_ON_SELECTED_ONSHELL_NUMERATOR_NONZERO",
+    "physical_transition": "CONDITIONAL_ON_NONZERO_REDUCED_COVARIANT_PHASE_SPACE_HAMILTONIAN_VECTOR_FIELD",
+    "full_interacting_c": "OPEN"
+  },
+  "formulae": {
+    "massive_tt_mass_squared": "124*alpha_II*kappa_1/117",
+    "scalar_mass_squared_stable_branch": "a*kappa/(3*beta^2)",
+    "mass_ratio_squared": "124*alpha_II*kappa_1*beta^2/(39*a*kappa)",
+    "heavy_to_light_plus_massless_momentum": "(A^2-B^2)/(2*A)",
+    "homological_generator": "Q1=-2*N/D"
+  },
+  "checks": {
+    "primary": {
+      "source": 2,
+      "repo": 4,
+      "type": 9,
+      "exact": 19,
+      "planted": 13,
+      "total": 47,
+      "failures": 0
+    },
+    "independent_sage": "PASS"
+  },
+  "review": {
+    "receipt": "lab/process/hostile-reviews/2026-08-05-selected-cubic-qft-threshold-and-numerator-gate-review.md",
+    "lenses": [
+      "SUMMARY_OUTRUNS_ARTIFACT",
+      "SUPERSEDED_OR_MISTYPED_OBJECT",
+      "VARIATIONAL_PDE",
+      "KREIN_QFT",
+      "SYMPLECTIC_GEOMETRY",
+      "SOURCE_CRITICISM"
+    ],
+    "symplectic_veto": "UNREDUCED_CUBIC_DENSITY_OR_DENOMINATOR_SHELL_DOES_NOT_ESTABLISH_A_PHYSICAL_TRANSITION"
+  },
+  "ledger_rows": ["LT-GR2b", "LT-GR3", "LT-GR5", "LT-SM8"],
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "SELECTED_Y14_CUBIC_MOMENTUM_NUMERATOR_ON_EVEN_BV_SHELL__THEN_Q1_OR_PHYSICAL_SHEET_H59__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL"
+}

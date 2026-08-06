@@ -9,6 +9,19 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Active construction update 2026-08-05 (no canon/public-posture change).**
+The complete selected `theta(q0+qm)^2` cubic now has its first correctly typed
+continuum state-space gate. Its full three-field Hessian vanishes at the
+zero-field point; fixed `theta_bar` reproduces only the already-built TT block.
+For even `theta`, the odd mixed channel has a real heavier-to-lighter-plus-
+massless shell whenever the two positive masses differ; equality is soft. For
+odd `theta`, the odd `theta q0^2` channel lies above the two-massless threshold.
+No Q1 pole or unitarity failure is claimed because the selected on-shell
+momentum numerator is unbuilt and may cancel the denominator. `SOURCE-SILENT`;
+ledger v0.17 stays `82/82`, `33/19/24/6`, with residue
+`84 + >=19 functions + 9 forks`; P1/P2/P3 remain unused. See
+`explorations/conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md`.
+
+**Predecessor construction update 2026-08-05.**
 The first action-owned cubic now supplies an exact nontrivial field-mixing
 answer at fixed scalar background. Its two-field TT Hessian has a unique
 positive spectral fundamental symmetry on the real component connected to
@@ -22,7 +35,7 @@ action, a physical Fock-space metric or a common BV/Green domain.
 `84 + >=19 functions + 9 forks`; P1/P2/P3 remain unused. See
 `explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md`.
 
-**Predecessor construction update 2026-08-05.**
+**Earlier predecessor construction update 2026-08-05.**
 The selected branch retains its positive finite TT spectral majorant at
 quadratic grade, but the simplest interaction extension is now killed. The
 written `(a+beta theta)R` term contains `theta h^2`; in the massless/massive

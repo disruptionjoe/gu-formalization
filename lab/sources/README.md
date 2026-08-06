@@ -64,6 +64,12 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`selected-cubic-qft-threshold-and-numerator-gate-source-reinspection-2026-08-05.md`](selected-cubic-qft-threshold-and-numerator-gate-source-reinspection-2026-08-05.md)
+  - returns `SOURCE-SILENT`: released GU material supplies no C-operator,
+    continuum threshold or selected on-shell numerator. It preserves
+    Weinstein's native-`Y^14` quantum versus observed-`X^4` distinction and
+    leaves the exact shell/numerator decision to the selected action.
+
 - [`first-perturbative-background-c-operator-source-reinspection-2026-08-05.md`](first-perturbative-background-c-operator-source-reinspection-2026-08-05.md)
   - returns `SOURCE-SILENT`: released GU material does not state the fixed-
     background spectral `C` construction; Mannheim is used only as a method
