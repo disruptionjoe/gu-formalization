@@ -7,6 +7,15 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action physical soldering / observation compose (2026-08-06)
+
+`conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md`
+composes the exact rank-ten gauge-rotated Levi-Civita symbol with complete
+first-jet observation/equation duality. The local formal-adjoint metric Euler
+receiver and unrestricted preboundary potential are exact and nonzero. Ledger
+v0.28 migrates five distances without changing verdicts, residue, quotients or
+P1/P2/P3. Full nonlinear second jets, BV, global domain and BFV remain open.
+
 ## Selected-action co-moving-frame naturality (2026-08-06)
 
 `conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md`

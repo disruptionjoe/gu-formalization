@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-06 (ledger v0.28; no verdict, residue,
+canon or public-posture change).** The exact rank-ten gauge-rotated
+Levi-Civita soldering symbol composes without leakage through the complete
+first-jet observation/equation dual. Its formal adjoint gives a nonzero metric
+Euler receiver, the moving-section chain term is live, and exact Green
+summation produces a nonzero unrestricted preboundary potential. This closes
+the local principal physical chain, not the full nonlinear equation: second
+observation/soldering jets, diffeomorphism/odd BV, global Krein/Green domain
+and unrestricted BFV remain. Five distances move; all counts and P1/P2/P3 are
+unchanged. See
+`explorations/conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md`.
+
 **Active Build/Compose update 2026-08-06 (ledger v0.27; no verdict, residue,
 canon or public-posture change).** Exact compound-matrix arithmetic on the
 actual trace-reversed gimmel metric transports the degree-one/two Hodge maps,

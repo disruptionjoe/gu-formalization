@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 LOCAL PHYSICAL SOLDERING / OBSERVATION CHAIN.**
+> [`explorations/conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md`](explorations/conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md)
+> composes the exact rank-ten gauge-rotated Levi-Civita symbol with complete
+> first-jet observation/equation duality. The formal adjoint gives a nonzero
+> metric Euler receiver, the moving-section term is live, and an exact Green
+> identity owns the unrestricted preboundary potential. Ledger v0.28 remains
+> `82/82`, `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four
+> scoped quotients. This is local principal closure, not nonlinear
+> stationarity or BFV. Next: construct second observation/soldering jets and
+> the full nonlinear Euler/presymplectic class, then diffeomorphism/odd BV,
+> global Krein/Green domain, unrestricted BFV and Q1.
+
 > **2026-08-06 SELECTED-ACTION CO-MOVING-FRAME NATURALITY.**
 > [`explorations/conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md`](explorations/conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md)
 > proves exact Hodge naturality in degrees one and two, tautological

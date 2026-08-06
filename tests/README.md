@@ -52,13 +52,12 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
 
 The latest channel-swing additions are
-`selected_action_comoving_frame_naturality_probe.py` and
-`conditional_physics_ledger_v027_probe.py`. They prove exact degree-one/two
-Hodge, tautological Phi and low-grade Clifford-pairing naturality, exhibit a
-nonzero selected intrinsic action with zero pure-frame derivative, and freeze
-five distance-only migrations with unchanged verdicts, residue, quotients and
-P1/P2/P3. Physical soldering/field/observation Euler, presymplectic, BV and BFV
-completion remains open.
+`selected_action_physical_soldering_observation_compose_probe.py` and
+`conditional_physics_ledger_v028_probe.py`. They prove the exact rank-ten
+Levi-Civita soldering image survives complete first-jet observation, produces
+a nonzero formal-adjoint metric Euler receiver and an unrestricted
+preboundary potential, and freeze five distance-only migrations. Full
+nonlinear second jets, BV, global domain and BFV remain open.
 
 ## Loose audit scripts at `tests/` root, by sector
 

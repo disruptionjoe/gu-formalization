@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "LOCAL_PRINCIPAL_PHYSICAL_CHAIN_EXACT__FULL_NONLINEAR_SECOND_JET_ODD_BV_GLOBAL_DOMAIN_BFV_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "SOURCE", "COMPOSE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "source": {
+    "confirms": [
+      "gauge-rotated Levi-Civita in the contorsion slot",
+      "augmented torsion as a difference of connections",
+      "observation as more than naive form pullback"
+    ],
+    "silent": [
+      "the exact inverse-transpose local physical chain",
+      "the exact soldered Euler receiver",
+      "the exact presymplectic preboundary identity",
+      "global nonlinear odd-BV BFV and Krein domain"
+    ],
+    "exact_composition_attribution": "REPOSITORY_DERIVED"
+  },
+  "exact_result": {
+    "levi_civita_null_symbol_rank": 10,
+    "formal_adjoint_metric_receiver_rank": 10,
+    "complete_first_jet_observation_determinant": 1,
+    "observed_soldering_rank": 10,
+    "lifted_observed_soldering_equals_original": true,
+    "moving_section_response_nonzero": true,
+    "unrestricted_preboundary_nonzero": true,
+    "local_principal_chain": "CLOSED",
+    "full_nonlinear_euler": "OPEN_SECOND_JETS",
+    "global_bulk_shell": "NOT_IMPLIED",
+    "odd_bv": "OPEN",
+    "bfv": "OPEN",
+    "global_krein_green_domain": "OPEN"
+  },
+  "free_object_delta": 0,
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "ledger_change": "DISTANCE_ONLY",
+  "verdict_change": false,
+  "residue_change": false,
+  "quotient_change": false,
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "CONSTRUCT_SECOND_OBSERVATION_AND_SOLDERING_JETS_AND_DERIVE_THE_FULL_NONLINEAR_EULER_PRESYMPLECTIC_CLASS__THEN_DIFFEO_ODD_BV_GLOBAL_DOMAIN_AND_BFV"
+}

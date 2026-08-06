@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT LOCAL PHYSICAL-RESPONSE FENCE.** The exact rank-ten
+> gauge-rotated Levi-Civita soldering symbol now composes with complete
+> first-jet observation/equation duality. Its formal adjoint gives a nonzero
+> metric Euler receiver, the moving-section term is live, and an exact Green
+> identity owns the unrestricted preboundary potential. Do not rebuild the
+> Levi-Civita rank theorem or first-jet dual. This is local principal closure,
+> not full nonlinear stationarity: second observation/soldering jets,
+> diffeomorphism/odd BV, global Krein/Green domain and unrestricted BFV remain.
+> Current ledger: v0.28.
+
 > **CURRENT SELECTED-ACTION FRAME FENCE.** On the actual trace-reversed
 > gimmel metric, degree-one/two Hodge, tautological `Phi1/Phi2` and low-grade
 > Clifford scalar pairings are exactly natural in the co-moving frame. A
@@ -16,7 +26,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > derivative. Do not rebuild those coefficients. This is not physical
 > stationarity: insert gauge-rotated Levi-Civita/soldering, physical fields and
 > observation jets before deriving Euler, presymplectic, odd-BV or BFV claims.
-> Current ledger: v0.27.
+> This predecessor fence is absorbed into the v0.28 physical-response packet.
 
 > **CURRENT FIRST-ORDER PREBOUNDARY FENCE.** The selected
 > `comm/symi/symi` branch already has the primitive epsilon Euler row and a

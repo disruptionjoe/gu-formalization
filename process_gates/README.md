@@ -1584,3 +1584,12 @@ selected intrinsic action. It requires the mandatory symplectic fence between
 frame naturality and physical Euler/presymplectic/BV/BFV stationarity, exactly
 five distance-only migrations, unchanged verdicts/residue/quotients and unused
 P1/P2/P3.
+
+## Selected-action physical soldering/observation and ledger v0.28 gate
+
+`selected_action_physical_soldering_observation_compose_scope_audit.py`
+enforces the exact rank-ten Levi-Civita soldering symbol, complete first-jet
+observation/equation dual, nonzero metric Euler receiver, moving-section term
+and unrestricted preboundary potential. It requires the symplectic fence
+between a preboundary owner and BFV reduction, exactly five distance-only
+migrations, unchanged verdicts/residue/quotients and unused P1/P2/P3.
