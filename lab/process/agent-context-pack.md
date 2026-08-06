@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-05)
 
+> **CURRENT TRACE-Q / LEVI-CIVITA CORRECTION.** Do not treat `q=g/2`,
+> `varpi`, augmented torsion and a Higgs cell as the same type. Bare
+> `gamma(q)` is not admitted as a K-definite chiralizer on the legacy carrier;
+> `q` remains the D9.16 receiver. Weinstein's GU object is a gauge-rotated
+> Levi-Civita connection placed in the contorsion slot, yielding a displaced
+> ad-valued one-form. The corrected conditional construction is
+> `T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`. It still
+> needs global `epsilon_IG`, a common K77 fermion carrier, action-selected
+> non-null vacuum, observed scalar-doublet descent and the Krein/BV/Green
+> domain. Preserve the southeast-zero direct-mass result separately from the
+> unbuilt odd-form Majorana route.
+
 ## Standing rules (binding)
 
 - Layer-0: every load-bearing shared term is typed SAME-OBJECT / HOMONYM /

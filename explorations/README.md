@@ -7,6 +7,19 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Trace-q Higgs/chirality admission correction (2026-08-05)
+
+`conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md`
+rejects the literal promotion of canonical `q=g/2` to a standalone K-definite
+chiralizer on the legacy 192-dimensional carrier: all scanned eigenspaces are
+K-null or balanced, and the K77-to-K95 real-form port is unbuilt. It preserves
+`q` as the D9.16 receiver and identifies the better conditional construction
+already latent in the repo:
+`T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`. Weinstein's
+gauge-rotated Levi-Civita statement confirms the displaced-connection arena,
+not the adapter or Higgs/chiral descent. Source return is `SOURCE-CORRECTS`;
+ledger v0.18 and P1/P2/P3 do not move.
+
 ## Selected-cubic reduced numerator and completion fork (2026-08-05)
 
 `conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md`

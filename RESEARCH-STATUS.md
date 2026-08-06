@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Pre-wave correction 2026-08-05 (no verdict or ledger movement).** The
+literal proposal to promote the canonical K77 trace receiver `q=g/2` to a
+standalone K-definite chiralizer is not admitted on the current finite carrier
+evidence. The legacy 192-dimensional scan has no K-definite `gamma(q)`
+eigenspace, and no canonical K77-to-K95 real-form bridge has been built. This
+does not kill moving connection-derived chiralizers. The corrected conditional
+route uses the already constructed rank-ten soldering receiver:
+`T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`. Primary
+source reinspection confirms Weinstein's gauge-rotated Levi-Civita / displaced
+connection arena but does not identify `q` with `varpi`, a Higgs doublet or a
+physical chiral quotient. Ledger rows `RA-D2`, `RA-G2`, `RA-E3`, `RA-E5`, the
+v0.18 meter and P1/P2/P3 remain unchanged. See
+`explorations/conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md`.
+
 **Active construction update 2026-08-05 (Wave 1; no canon/public-posture
 change).** The selected-cubic numerator gate now has an exact partial answer.
 The compact-core bulk numerator for `theta-q0-q0` is zero on the free shell:

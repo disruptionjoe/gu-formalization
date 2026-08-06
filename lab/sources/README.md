@@ -64,6 +64,14 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`weinstein-levi-civita-contorsion-reinspection-2026-08-05.md`](weinstein-levi-civita-contorsion-reinspection-2026-08-05.md)
+  - narrow Layer-0 synthesis over the existing primary packets: Weinstein
+    replaces ordinary torsion/contorsion with a gauge-rotated Levi-Civita
+    connection in the contorsion slot, yielding a displaced ad-valued one-form.
+    This confirms the two-connection arena but corrects any direct
+    `q=varpi/Higgs` identification; the `sigma_epsilon` adapter remains a
+    repository construction.
+
 - [`selected-cubic-reduced-numerator-source-reinspection-2026-08-05.md`](selected-cubic-reduced-numerator-source-reinspection-2026-08-05.md)
   - returns `SOURCE-SILENT`: released GU material confirms the native-`Y14` /
     observed-`X4` arena and moving connection/observation burden but supplies

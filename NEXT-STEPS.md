@@ -7,6 +7,23 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 TRACE-Q / HIGGS / CHIRALITY PRE-WAVE CORRECTION.**
+> [`explorations/conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md`](explorations/conditional-build/trace-q-higgs-chirality-admission-test-2026-08-05.md)
+> does not admit bare `gamma(q)` as a K-definite balance-breaking chiralizer:
+> the legacy 192-dimensional carrier scan yields only K-null or balanced
+> eigenspaces, and a K77-to-K95 real-form bridge is absent. The note's free-`q`
+> premise was already superseded by canonical `q=g/2`, and its missing-adapter
+> premise was partly superseded by the conditional rank-ten `sigma_epsilon`
+> weld. The corrected route is
+> `T_omega -> res^V -> sigma_epsilon -> h_omega -> gamma(h_omega)`; Weinstein's
+> gauge-rotated Levi-Civita construction confirms the displaced ad-valued
+> connection arena but not the adapter, Higgs doublet, chiral quotient or
+> action-selected vacuum. `SOURCE-CORRECTS`; ledger v0.18 remains `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`; P1/P2/P3 remain
+> unused. The scheduled full-moving selected-cubic Build gate stays primary;
+> this corrected route is the next nonconflicting Higgs/chirality admission
+> gate when a Build reservation is available.
+
 > **2026-08-05 SELECTED-CUBIC REDUCED-NUMERATOR FORK.**
 > [`explorations/conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md`](explorations/conditional-build/selected-cubic-reduced-numerator-completion-fork-2026-08-05.md)
 > executes Wave 1. The exact full-pencil external legs make the compact-core

@@ -28,7 +28,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `gu-independent/` (11) | the GU-independent class-level structural no-go, with a local script map and README inventory gate |
 | `hessian-z3/` (9) | Hessian / Z3 carrier-occupancy checks, with a local script map and README inventory gate |
 | `forcing-slot/` (8) | the forcing-slot toy stabilized-source test, with a local script map and README inventory gate |
-| `carrier-mass/` (7) | the carrier Dirac-mass capstone, with a local script/output map and README inventory gate |
+| `carrier-mass/` (8) | the carrier Dirac-mass capstone plus the trace-`q` chiralizer admission screen, with a local script/output map and README inventory gate |
 | `carrier-bit-decision/` (13) | the carrier-bit decision campaign: four analysis legs plus independent referees, with a local script/analysis map and README inventory gate |
 | `escape-corners/` (16) | the carrier-bit escape-corners campaign: four analysis legs, corner-open audits, independent referees, and checked-in run logs, with a local script/analysis/log map and README inventory gate |
 | `anchored-leads/` (7) | the anchored-leads candidate screens, including an independent Jones-index finite-type recheck, with a local script map and README inventory gate |

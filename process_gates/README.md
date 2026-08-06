@@ -652,6 +652,14 @@ names every direct carrier-mass Python certificate plus the local JSON output, a
 the vectorlike zero-not-three / action-gated boundary for the carrier-mass family. This is a
 map and posture guard only; it does not run the carrier-mass scripts or change verdicts.
 
+`trace_q_higgs_chirality_admission_scope_audit.py` fail-closes the pre-wave
+trace-`q` / Higgs / chirality admission result. It preserves the distinction
+between the canonical K77 trace receiver, Weinstein's ad-valued displaced
+connection, and the conditional `sigma_epsilon`-derived moving chimeric vector;
+requires the K-null/balanced finite-screen result, the mandatory symplectic
+boundary, unchanged ledger rows and unused P1/P2/P3; and forbids promoting the
+literal K77-to-K95 port to a global chiral no-go.
+
 ## Carrier-bit decision README inventory gate
 
 `carrier_bit_decision_readme_inventory_audit.py` checks that

@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "status": "MISTYPED_LITERAL_PORT__RECEIVER_ONLY_ON_CURRENT_EVIDENCE__CORRECTED_MOVING_CONNECTION_ROUTE_CONDITIONAL",
+  "functional_channels": ["SOURCE", "COMPOSE", "VERIFY"],
+  "source_return": "SOURCE-CORRECTS",
+  "ledger_rows": ["RA-D2", "RA-G2", "RA-E3", "RA-E5"],
+  "layer0": {
+    "q": "CANONICAL_VERTICAL_TRACE_VECTOR_G_OVER_2",
+    "varpi": "CONNECTION_ONE_FORM_ON_Y",
+    "augmented_torsion": "TWO_CONNECTION_DIFFERENCE_IN_OMEGA1_Y_ADP",
+    "literal_q_varpi_identification": "MISTYPED",
+    "k77_to_k95_carrier_bridge": "UNBUILT"
+  },
+  "finite_screen": {
+    "carrier_dimension": 192,
+    "carrier_krein_signature": [96, 96, 0],
+    "canonical_axes_scanned": 10,
+    "carrier_preserving_axes": 10,
+    "full_rank_axes": 10,
+    "k_definite_eigenspaces": 0,
+    "krein_vector_negative_axis_eigenspaces": "K_NULL_0_0_96",
+    "clifford_negative_axis_eigenspaces": "BALANCED_48_48_0",
+    "legacy_frame_charge": "IDENTICALLY_ZERO_FOR_SPINOR_FACTOR_GAMMA_Q"
+  },
+  "corrected_route": {
+    "chain": "T_OMEGA_TO_VERTICAL_RESTRICTION_TO_SIGMA_EPSILON_TO_H_OMEGA_TO_GAMMA_H_OMEGA",
+    "new_external_datum": false,
+    "global_full_epsilon_reduction": "OPEN",
+    "common_k77_fermion_carrier": "OPEN",
+    "action_selected_non_null_vacuum": "OPEN",
+    "observed_scalar_doublet": "OPEN",
+    "krein_bv_green_domain": "OPEN"
+  },
+  "seesaw": {
+    "southeast_zero_fold": "DIRECT_VECTORLIKE_MASS_SLOPE_1__NOT_SEESAW",
+    "distinct_odd_form_majorana_route": "OPEN_AND_UNTESTED_BY_THIS_SCREEN"
+  },
+  "ledger": {
+    "version": "0.18",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "continuous_residue": 84,
+    "function_valued_residue_lower_bound": 19,
+    "discrete_forks": 9,
+    "scoped_quotients_ranked": 4,
+    "row_changes": "NONE",
+    "revival_triggers_met": []
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "review_receipts": {
+    "primary_probe": "43_43_PASS__5_SOURCE_5_REPO_13_FINITE_12_TYPE_8_PLANTED",
+    "hostile_review": "PASS_AFTER_SIX_SCOPE_CORRECTIONS",
+    "symplectic_review": "NO_ACTION_OWNED_PHYSICAL_QUOTIENT__NO_LEDGER_MIGRATION"
+  },
+  "next_gate": "T_OMEGA_SIGMA_EPSILON_H_OMEGA_COMMON_K77_FERMION_CARRIER_AND_ACTION_SELECTED_OBSERVED_SCALAR_DOUBLET"
+}

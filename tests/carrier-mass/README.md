@@ -45,6 +45,7 @@ The public boundary stays:
 | `decoupling_to_zero_not_three.py` | Sweeps massive and massless carrier cases for light-sector net chirality. | Massive cases decouple to net zero; massless case stays vectorlike. |
 | `verify_decoupling_independent.py` | Independent adversarial recheck of the decoupling sweep. | Reconfirms vectorlike index conservation and no net-three light sector. |
 | `chiral_projection_requirement.py` | Computes what a chiral projection would need to supply. | The required selector-side chiralizer is frame-trivial and not the tangential order-3 carrier. |
+| `trace_q_chiralizer_admission.py` | Tests the proposed K77 trace-`q` receiver as a standalone chiralizer across both canonical-axis sign placements visible in the legacy 192-dimensional carrier. | Every scanned eigenspace is K-null or balanced; bare `gamma(q)` is not admitted, while the distinct connection-derived `gamma(h_omega)` route remains conditional. |
 | `sw_action_carrier_mass.py` | Tests the built Seiberg-Witten proxy mass structure on the carrier. | The proxy realizes nonzero, vectorlike carrier mass structure; the actual value remains action-gated. |
 | `verify_sw_carrier_mass_independent.py` | Independent recheck of the Seiberg-Witten proxy mass claims. | Rechecks vectorlike grading, nonzero proxy mass scans, and the chiralizer split. |
 | `decoupling_results.json` | Recorded output from the decoupling sweep. | Documents the current vectorlike, zero-not-three sweep result for review. |
