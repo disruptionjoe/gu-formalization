@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.14:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.15:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -110,18 +110,35 @@ operator has one common normally-hyperbolic Krein/Green domain. Its partner has
 `m^2=124*alpha_II*kappa_1/117`, and the two poles have exact opposite residues.
 The partner survives ordinary even diffeomorphism BV with at least two TT
 classes. Its finite two-field pencil has a canonical spectral Krein majorant
-that is positive for `alpha_II>0`. Full odd super-IG cohomology, the complete
-massive multiplet, loop/RG and uniform ultraviolet positivity remain open.
-The local action-derived curvature/VEV horn now passes the limited two-values-
-to-one count but fails screening exactly: `dR/d rho_vac=2/a`. Spatial flatness
-is not four-dimensional scalar-curvature flatness. An ambient/global/nonlocal
-horn and action-owned `w(z)` remain open.
-`lambda_def` is charged as the 84th prequotient real, while any normalization
-quotient remains unranked. The composed-locus source return is
-`SOURCE-CONFIRMS` at the latest limited locus: the source confirms the
-two-connection and two-problems-to-one architecture, while the metric
-derivative, BV classes, finite Krein majorant and local FLRW formulas are
-repo-derived. External P1/P2/P3 remain unchanged and unused.
+that is positive for `alpha_II>0`. The written `(a+beta theta)R` horn supplies
+the first owned cubic `theta h^2`. In the free `P` eigenbasis it has diagonal
+and mixed mass-parity monomials, so no multiplicative scalar sign extends the
+free involution. This is not a kill of field mixing, nonlinear grading or the
+nonlocal interacting `C`.
+
+Super-IG is a separate algebraic global-descent problem. The source requires
+an odd bracket into connection one-forms, equivariance, Jacobi and compatible
+real form; Weinstein expressly declines an odd action as a prerequisite for
+GU. Do not block the physical positivity action on an unasserted odd BV
+symmetry.
+
+The local action-derived curvature/VEV horn passes the limited two-values-to-
+one count but fails screening exactly. The whole finite local derivative class
+now closes at the constant mode: `K(0)!=0` retains susceptibility and
+`K(0)=0` is zero-mode-unsolvable for a nonzero constant source. A normalized
+global projector screens constant shifts exactly after a domain and invariant
+measure functional are supplied. That functional is not derived on noncompact
+Lorentzian spacetime and is not identified with `P2_datum`. Spatial flatness
+is not four-dimensional scalar-curvature flatness. Action-owned `w(z)` remains
+open until the global functional is placed in one action.
+`lambda_def` is charged as the 84th prequotient real. The finite zero-mode
+complement is the fourth scoped ranked quotient after its measure is supplied,
+but no global residue reduction is booked. The latest source return is
+`SOURCE-CORRECTS`: it
+removes the inherited full-odd-action/cohomology target. The first-interaction
+parity obstruction, finite-local zero-mode theorem and conditional normalized
+global projector are repo-derived. External P1/P2/P3 remain unchanged and
+unused.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

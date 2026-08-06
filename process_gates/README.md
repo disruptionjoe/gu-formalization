@@ -1405,11 +1405,22 @@ full-II norm selection, massless-plus-massive simple-pole response and
 selected nonzero K77 algebraic stationary branch. It now also enforces ledger
 v0.13, the distinct `100/117` and `124/117` Gauss Hessians, the common defect
 Krein/Green domain, exact opposite residues, the direct-plus-soldered current
-chain, then the v0.14 metric-soldering, even-BV TT, finite Krein and local
-curvature/VEV results. The latest return is narrowly `SOURCE-CONFIRMS`. It
-keeps full nonlinear chimeric soldering, odd super-IG cohomology, the complete
-massive multiplet, uniform UV positivity, ambient/global/nonlocal cosmology,
-action-owned `w(z)` and external `P2_datum` open. It
+chain, then the v0.14 metric-soldering/even-BV/local-curvature results and the
+v0.15 first-interaction and global-zero-mode update. The latest return is
+`SOURCE-CORRECTS`: algebraic super-IG descent is not a default odd action. It
+keeps the interacting `C`, full cubic bank, domain/measure functional,
+algebraic global descent, action-owned `w(z)` and external `P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, canon, external datum or public posture.
+## Conditional physics ledger v0.15 scope gate
+
+`conditional_physics_ledger_v015_scope_audit.py` preserves v0.14 byte-for-
+byte, recomputes the unchanged 82-row denominator, verdict and global residue
+counts, and requires exactly six row migrations. It wires the exact failure of
+every multiplicative scalar-sign extension of the free spectral involution on
+the first owned cubic, the full finite-local constant-mode no-screening/
+solvability dichotomy, and the conditional normalized global projector. It
+ranks a fourth scoped zero-mode quotient without global residue reduction and
+requires the domain/measure functional, interacting `C`, algebraic super-IG
+global descent, FLRW `w(z)` and P2 identification to remain open.

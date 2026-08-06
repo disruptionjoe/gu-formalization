@@ -55,7 +55,8 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.14.json` - current machine ledger; 82 active targets, metric soldering modulo gauge, massive-partner even-BV TT survival, finite tree-level positive Krein grading, and local curvature/VEV tracking without screening, with verdict counts `33/19/24/6` and residue `84 + >=19 functions + 9 forks`. Three scoped quotients are ranked without booking a global residue reduction; v0.13 remains frozen history.
+- `conditional-physics-ledger-v0.15.json` - current machine ledger; 82 active targets, first-interaction free-parity obstruction, finite-local constant-mode closure, conditional global zero-mode screening and algebraic super-IG source correction, with verdict counts `33/19/24/6` and residue `84 + >=19 functions + 9 forks`. Four scoped quotients are ranked without booking a global residue reduction; v0.14 remains frozen history.
+- `conditional-physics-ledger-v0.14.json` - frozen predecessor ledger for metric soldering modulo gauge, massive-partner even-BV TT survival, finite tree-level positive Krein grading and local curvature/VEV tracking without screening.
 - `selected-branch-bv-tt-curvature-vev-flrw.json` - machine receipt for the rank-ten metric-to-gauge-rotated-LC derivative, two surviving even-BV TT classes, finite spectral Krein majorant, local two-to-one curvature/VEV horn and exact non-screening susceptibility.
 - `conditional-physics-ledger-v0.13.json` - frozen predecessor ledger for the selected-branch Gauss Hessians, common observed defect domain, opposite pole residues and direct-plus-soldered current typing.
 - `selected-branch-linearized-totalization-current-green-domain.json` - machine receipt for the exact trace/traceless Gauss Hessians, one-action current/stress chain, common defect Krein/Green domain, pole-residue classification and two-field cosmology boundary.
@@ -139,3 +140,9 @@ Runbooks:
 - `research-portfolio.json` - machine-readable GU Lane 1/2/3/A purposes, nested work-item states, dependencies, scores, and next swings.
 - `repo-organization-plan-2026-06-29.md` - repository organization plan.
 - `wave-discipline-gates-2026-08-04.md` - what the wave-disposition schema gate and the fork-stack depth gate enforce, the dated grandfathering cutover, and how to add a fork to the registry.
+- `first-interaction-krein-global-zero-mode.json` — exact registry for the
+  first owned cubic parity obstruction, finite-local constant-mode theorem,
+  conditional global zero-mode projector and unowned normalized-functional
+  boundary; source return `SOURCE-CORRECTS`, P1/P2/P3 unused.
+- `hostile-reviews/2026-08-05-first-interaction-krein-global-zero-mode-review.md`
+  — two-sided hostile review with six material scope corrections.

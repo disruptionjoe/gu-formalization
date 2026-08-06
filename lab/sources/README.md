@@ -148,3 +148,7 @@ identifications as separate grades.
 - [`full-domain-shiab-observed-receiver-source-reinspection-2026-08-05.md`](full-domain-shiab-observed-receiver-source-reinspection-2026-08-05.md)
   - upstairs action and observation grammar confirmed; faithful ambient-Shiab-
     to-observed-Einstein receiver and Gauss/`II` action ownership remain source-silent.
+- [`first-interaction-krein-global-zero-mode-source-reinspection-2026-08-05.md`](first-interaction-krein-global-zero-mode-source-reinspection-2026-08-05.md)
+  - returns `SOURCE-CORRECTS`: Weinstein's super-IG claim requires algebraic
+    bracket/Jacobi/real-form/global descent but not a default odd action;
+    parity and normalized-global-projector results remain repo-derived.

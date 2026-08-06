@@ -307,16 +307,29 @@ ultraviolet positivity.
 The smallest action-derived local scalar curvature/VEV horn with no new
 fitted coefficient gives `R=2*rho_vac/a` and
 `theta=-2*beta*rho_vac/(a*kappa)`. One input controls both values, so the
-source's limited two-problems-to-one bar passes locally. But
-`dR/d rho_vac=2/a`: the local horn tracks an independent vacuum shift and does
-not screen it. Its trace equation is
-`a R + 3 beta^2 box(R)/kappa = 2 rho_vac`. Spatial flatness `k=0` is not
-four-dimensional scalar-curvature flatness; flat-slicing de Sitter is the
-control. The local horn stays inside the static/local Weinberg burden, while
-an ambient, global or nonlocal GU horn remains open. The current source return
-is narrowly `SOURCE-CONFIRMS`: Weinstein supplies the two-connection and
-two-values-to-one architecture, not the repo-derived derivative, BV, Krein or
-FLRW formulas.
+source's limited two-problems-to-one bar passes locally. But the entire finite
+local derivative class now closes the same way on the constant mode: when
+`K(0)` is nonzero the susceptibility remains nonzero, and when `K(0)=0` a
+nonzero constant source violates the zero-mode solvability condition.
+
+A normalized global projector `Q=1-Pi0` screens constant shifts exactly on a
+finite connected domain once a normalized invariant functional is supplied.
+The projector is unique with zero residual weight freedom after that domain
+and measure class are fixed. The upstream domain/measure functional is not
+derived on noncompact Lorentzian spacetime and is not identified with P2.
+Spatial flatness `k=0` remains distinct from four-dimensional scalar-curvature
+flatness.
+
+The free TT spectral involution also meets its first interaction test. The
+written `(a+beta theta)R` horn contains `theta h^2`; in the massless/massive
+eigenbasis it has both diagonal and mixed parity monomials. No scalar sign
+extends the free `P` through that vertex. General field-mixing, nonlinear and
+nonlocal interacting `C` operators remain open. Source reinspection returns
+`SOURCE-CORRECTS`: Weinstein's super-IG claim is an algebraic bracket into the
+linear connection sector with Jacobi, real-form and global-descent duties; he
+expressly declines an odd action as a prerequisite for GU. The physical
+interacting positivity problem and algebraic super-IG descent are separate
+Build targets.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -329,18 +342,16 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_FULL_ODD_SUPER_IG_INTERACTING_COHOMOLOGY_AND_UV_UNIFORM_KREIN_MAJORANT__IN_PARALLEL_TEST_THE_AMBIENT_GLOBAL_NONLOCAL_CURVATURE_VEV_HORN_AND_DERIVE_ACTION_OWNED_FLRW_PERTURBATIONS
+FIRST_PERTURBATIVE_INTERACTING_C_OR_FULL_CUBIC_OBSTRUCTION__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION
 ```
 
-It must extend the scoped metric-soldering and even-BV TT results through the
-actual odd super-IG interacting complex and test whether the finite positive
-Krein majorant extends uniformly into the ultraviolet. In parallel it must
-construct an ambient, global or nonlocal curvature/VEV horn and rerun the
-independent vacuum-shift test before claiming magnitude progress. Only a horn
-that survives earns action-owned FLRW perturbation and held-out `w(z)` work. A
+The next work has three independent owners. Interaction positivity must build
+the first perturbative `C` or broaden the obstruction beyond scalar signs.
+Super-IG must globalize the mixed odd bracket without manufacturing an odd
+action. Cosmology must derive or explicitly supply the normalized functional
+and insert its projector into one action before FLRW or `w(z)` work. A
 constrained ultrahyperbolic domain remains an explicit rival, not a hidden
-prerequisite. Neither route may invent an unowned potential, datum or boundary
-selector.
+prerequisite. None may invent or silently identify P1/P2/P3.
 Requiring the new geometry to factor through the old contraction-first
 receiver remains circular; promoting the flat defect Green complex to the
 upstairs domain would be equally wrong.

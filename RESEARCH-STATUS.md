@@ -9,23 +9,24 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Active construction update 2026-08-05 (no canon/public-posture change).**
-The selected K77 branch now has an exact gauge-rotated Levi-Civita metric
-derivative modulo connection gauge on the linear observed defect, with rank-ten
-symbol on all three covector orbit types. Ordinary even diffeomorphism BV does
-not erase the massive partner: at least two TT classes remain. Its finite
-two-field Krein pencil admits the canonical spectral involution
-`P=I+2L/m^2`, and `KP` is positive for `alpha_II>0`. This is a finite
-tree-level keep-and-grade result, not full odd cohomology, loop/RG or uniform
-UV positivity. The action-derived local scalar curvature/VEV horn gives
-`R=2*rho_vac/a` and `theta=-2*beta*rho_vac/(a*kappa)`, so one input controls
-both values, but `dR/d rho_vac=2/a`: it tracks rather than screens independent
-vacuum shifts. Spatial flatness is not four-dimensional scalar-curvature
-flatness. An ambient/global/nonlocal horn and action-owned FLRW perturbations
-remain open. `SOURCE-CONFIRMS` only this limited architecture. Ledger v0.14
-stays `82/82`, `33/19/24/6`, with 84 real and at least 19 function-valued
-slots plus 9 open forks; three scoped quotients are ranked without booking a
-global residue reduction. External P1/P2/P3 are unchanged. See
-`explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md`.
+The selected branch retains its positive finite TT spectral majorant at
+quadratic grade, but the simplest interaction extension is now killed. The
+written `(a+beta theta)R` term contains `theta h^2`; in the massless/massive
+eigenbasis its diagonal and mixed monomials require opposite scalar parities.
+The live positivity target is a field-mixing/nonlocal interacting `C` or a
+full-cubic obstruction, not another free two-by-two grading pass.
+
+For the cosmological constant, every finite local derivative completion has
+the same constant-mode dichotomy: nonzero `K(0)` retains vacuum-shift response,
+while zero `K(0)` creates a solvability obstruction. A normalized global
+projector screens exactly after a domain and measure functional are supplied.
+That functional is a concrete candidate datum type, but is not derived or
+identified with P2. `SOURCE-CORRECTS` super-IG to algebraic bracket/Jacobi/
+real-form/global descent rather than a default odd action. Ledger v0.15 stays
+`82/82`, `33/19/24/6`, with 84 real and at least 19 function-valued slots plus
+9 open forks; four scoped quotients are ranked without global residue
+reduction. External P1/P2/P3 are unchanged. See
+`explorations/conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md`.
 
 **Predecessor construction update 2026-08-05.**
 The predecessor's coincident gravity double pole is real, but its one-pole-

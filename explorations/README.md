@@ -7,6 +7,21 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## First-interaction Krein and global zero-mode horn (2026-08-05)
+
+`conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md`
+tests the finite TT spectral grading against the first action-owned
+`theta h^2` interaction. Diagonal and mixed mass-parity monomials require
+opposite scalar signs, so no multiplicative scalar-sign extension of the free
+involution exists; general interacting field mixing and nonlocal `C` remain
+open. It also proves the full finite-local constant-mode dichotomy and builds
+an exact conditional global projector that screens constant shifts after a
+normalized domain/measure functional is supplied. That functional is not
+derived or identified with P2. Source reinspection corrects super-IG to an
+algebraic global-descent burden rather than a default odd action. Ledger v0.15
+retains `82/82`, `33/19/24/6` and the global residue while ranking a fourth
+scoped quotient.
+
 ## Selected-branch BV, Krein grading and curvature/VEV FLRW horn (2026-08-05)
 
 `conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md`

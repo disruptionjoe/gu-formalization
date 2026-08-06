@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "status": "PASS_AFTER_SIX_MATERIAL_SCOPE_CORRECTIONS",
+  "source_return": "SOURCE-CORRECTS",
+  "result": {
+    "free_spectral_parity": "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENSION_ON_ACTION_OWNED_THETA_H2_VERTEX",
+    "interacting_c_operator": "OPEN",
+    "finite_local_constant_mode": "K0_NONZERO_IMPLIES_NONSCREENING__K0_ZERO_IMPLIES_SOLVABILITY_OBSTRUCTION",
+    "global_projector_horn": "EXACT_CONDITIONAL_ON_NORMALIZED_DOMAIN_MEASURE_FUNCTIONAL",
+    "datum_identification": "TYPE_LOCATED__NOT_IDENTIFIED_WITH_P2"
+  },
+  "constraint_surplus": {
+    "finite_model_raw_weights": 4,
+    "independent_normalization_and_cyclic_constraints": 4,
+    "remaining_freedom_after_domain_measure_supplied": 0,
+    "upstream_domain_measure_selection": "OPEN"
+  },
+  "checks": {
+    "primary": {
+      "source": 2,
+      "repo": 3,
+      "exact": 27,
+      "type": 7,
+      "planted": 10,
+      "total": 49,
+      "failures": 0
+    },
+    "independent_sage": "PASS"
+  },
+  "ledger_rows": ["LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-SM8"],
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED_NOT_IDENTIFIED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "FIRST_PERTURBATIVE_INTERACTING_C_OR_FULL_CUBIC_OBSTRUCTION__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION"
+}
