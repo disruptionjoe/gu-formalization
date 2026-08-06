@@ -60,14 +60,15 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.28.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.28.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.28.md")
+assert "conditional-physics-ledger-v0.29.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.29.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.29.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "LOCAL_PRINCIPAL_GAUGE_ROTATED_LEVI_CIVITA_SOLDERING" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "CONSTRUCT_SECOND_OBSERVATION_SOLDERING_JETS" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "SECOND_SPIN_LEVI_CIVITA_JET" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "EXPAND_DIRECT_SELECTED_ACTION" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -103,8 +104,8 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "SECOND_OBSERVATION_AND_SOLDERING_JETS" in directive["next_gate"]
-assert "FULL_NONLINEAR_EULER_PRESYMPLECTIC_CLASS" in directive["next_gate"]
+assert "EXPAND_DIRECT_SELECTED_ACTION" in directive["next_gate"]
+assert "METRIC_HODGE_SHIAB_KREIN_DENSITY_OBSERVATION_COEFFICIENTS" in directive["next_gate"]
 assert "SECOND_LAYER_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -131,10 +132,10 @@ assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
 assert "LC_SOLDERING_RANK10" in directive["latest_build_evidence"]
 assert "COMPLETE_FIRST_JET_OBSERVATION_NO_LEAKAGE" in directive["latest_build_evidence"]
-assert "FORMAL_ADJOINT_METRIC_EULER_NONZERO" in directive["latest_build_evidence"]
-assert "MOVING_SECTION_TERM_NONZERO" in directive["latest_build_evidence"]
-assert "UNRESTRICTED_PREBOUNDARY_NONZERO" in directive["latest_build_evidence"]
-assert "FULL_NONLINEAR_SECOND_JET_OPEN" in directive["latest_build_evidence"]
+assert "SECOND_SPIN_LEVI_CIVITA_JET_EXACT_NONZERO" in directive["latest_build_evidence"]
+assert "OBSERVATION_PURE_SECTION_D2_ZERO_SECTION_FIELD_CROSS_D2_NONZERO" in directive["latest_build_evidence"]
+assert "NONLINEAR_FORMAL_ADJOINT_EULER_PREBOUNDARY_OWNER_EXACT" in directive["latest_build_evidence"]
+assert "DIRECT_SELECTED_ACTION_COEFFICIENT_EXPANSION_OPEN" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -174,4 +175,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.28 ledger preserve local principal physical-response closure without nonlinear stationarity, BV/BFV or physics promotion")
+print("PASS: functional channels and v0.29 ledger preserve exact second-jet/nonlinear-owner closure without direct coefficient, stationarity, BV/BFV or physics promotion")

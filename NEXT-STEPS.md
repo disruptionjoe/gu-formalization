@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 EXACT SECOND SOLDERING / OBSERVATION JETS.**
+> [`explorations/conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md`](explorations/conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md)
+> constructs the nonzero symmetric second metric jet of the symmetric-frame
+> spin Levi-Civita connection, separates zero pure-section observation `D2`
+> from nonzero section--field cross response and spatial second section jets,
+> and closes the nonlinear formal-adjoint Euler/preboundary owner. Ledger
+> v0.29 remains `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`, and four scoped quotients. No datum is
+> added. Next: expand the actual selected-action metric/Hodge/Shiab/Krein/
+> density/observation coefficients on this packet, then diffeomorphism/odd BV,
+> global Krein/Green domain, unrestricted BFV and Q1.
+
 > **2026-08-06 LOCAL PHYSICAL SOLDERING / OBSERVATION CHAIN.**
 > [`explorations/conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md`](explorations/conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md)
 > composes the exact rank-ten gauge-rotated Levi-Civita symbol with complete

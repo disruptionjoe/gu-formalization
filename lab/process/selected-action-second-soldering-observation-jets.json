@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "SECOND_SPIN_LEVI_CIVITA_AND_OBSERVATION_JETS_EXACT__NONLINEAR_FORMAL_ADJOINT_OWNER_EXACT__DIRECT_SELECTED_ACTION_COEFFICIENT_ASSEMBLY_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "SOURCE", "COMPOSE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "source": {
+    "confirms": [
+      "gauge-rotated Levi-Civita in the contorsion slot",
+      "augmented torsion as a difference of connections",
+      "observation richer than naive form pullback"
+    ],
+    "silent": [
+      "the exact symmetric-frame second Levi-Civita jet",
+      "the exact second Frechet observation jet",
+      "the nonlinear formal-adjoint Euler and preboundary owner formula",
+      "the expanded direct selected-action metric coefficients"
+    ],
+    "exact_jet_attribution": "REPOSITORY_DERIVED"
+  },
+  "exact_result": {
+    "christoffel_second_metric_jet": "EXACT_NONZERO_SYMMETRIC",
+    "symmetric_frame_second_spin_connection_jet": "EXACT_NONZERO_SYMMETRIC",
+    "tetrad_identity_through_mixed_order": "EXACT",
+    "tetrad_postulate_through_mixed_order": "EXACT",
+    "spin_connection_eta_skew_through_mixed_order": "EXACT",
+    "observation_pure_section_second_frechet_jet": 0,
+    "observation_section_field_cross_jet": "EXACT_NONZERO",
+    "equation_dual_pure_section_second_frechet_jet": 0,
+    "spatial_second_section_jet_owner": "DERIVED_BY_TOTAL_DERIVATIVE",
+    "nonlinear_formal_adjoint_euler_owner": "EXACT",
+    "nonlinear_preboundary_owner": "EXACT",
+    "direct_selected_action_metric_coefficients": "OPEN",
+    "diffeomorphism_odd_bv": "OPEN",
+    "global_krein_green_domain": "OPEN",
+    "bfv": "OPEN"
+  },
+  "free_object_delta": 0,
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "ledger_change": "DISTANCE_ONLY",
+  "verdict_change": false,
+  "residue_change": false,
+  "quotient_change": false,
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "EXPAND_DIRECT_SELECTED_ACTION_METRIC_HODGE_SHIAB_KREIN_DENSITY_AND_OBSERVATION_COEFFICIENTS_ON_THE_EXACT_SECOND_JET_PACKET__THEN_DIFFEO_ODD_BV_GLOBAL_DOMAIN_AND_BFV"
+}

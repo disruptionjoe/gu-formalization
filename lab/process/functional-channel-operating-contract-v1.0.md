@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.28.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.28.md`.
+`lab/process/conditional-physics-ledger-v0.29.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.29.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -38,13 +38,15 @@ Dirichlet Green closure are already exact on the selected product row. Do not
 rebuild them. Preserve unrestricted boundary flux and route the remaining
 Build to moving geometry/observation, diffeomorphism/odd BV and global BFV.
 
-Current selected-action physical-response directive: co-moving Hodge/Phi/
-Clifford naturality and the local principal gauge-rotated Levi-Civita
-soldering/first-jet observation chain are exact. The latter owns a nonzero
-metric Euler receiver and unrestricted preboundary potential. Do not rebuild
-those first-order owners. Construct second observation/soldering jets before
-full nonlinear Euler/presymplectic, diffeomorphism/odd BV, global-domain or BFV
-promotion.
+Current selected-action nonlinear-response directive: co-moving Hodge/Phi/
+Clifford naturality, the local principal gauge-rotated Levi-Civita
+soldering/first-jet observation chain, the symmetric-frame spin
+Levi-Civita second jet, the affine observation-Hessian decomposition and the
+nonlinear formal-adjoint Euler/preboundary owners are exact. Do not rebuild
+those objects or substitute Christoffel `D2` for spin-connection `D2`. Expand
+the actual selected-action metric/Hodge/Shiab/Krein/density/observation
+coefficients before full nonlinear stationarity, diffeomorphism/odd BV,
+global-domain or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action second soldering / observation jets (2026-08-06)
+
+`conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md`
+constructs the exact nonzero symmetric second metric jet of the
+symmetric-frame spin Levi-Civita connection, types the affine observation
+Hessian and spatial second section jet, and closes the nonlinear
+formal-adjoint Euler/preboundary owner. Ledger v0.29 migrates five distances
+without changing verdicts, residue, quotients or P1/P2/P3. Direct
+selected-action coefficient assembly, BV, global domain and BFV remain open.
+
 ## Selected-action physical soldering / observation compose (2026-08-06)
 
 `conditional-build/selected-action-physical-soldering-observation-compose-2026-08-06.md`

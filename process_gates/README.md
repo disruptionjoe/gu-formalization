@@ -146,6 +146,7 @@ selected notes below and in each script header.
 - `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`
 - `selected_cubic_reduced_numerator_scope_audit.py`
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
+- `selected_action_second_soldering_observation_jets_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -1593,3 +1594,13 @@ observation/equation dual, nonzero metric Euler receiver, moving-section term
 and unrestricted preboundary potential. It requires the symplectic fence
 between a preboundary owner and BFV reduction, exactly five distance-only
 migrations, unchanged verdicts/residue/quotients and unused P1/P2/P3.
+
+## Selected-action second soldering/observation jets and ledger v0.29 gate
+
+`selected_action_second_soldering_observation_jets_scope_audit.py` enforces
+the exact nonzero symmetric-frame spin Levi-Civita second jet, the distinction
+from Christoffel `D2`, zero pure-section and nonzero section--field observation
+Hessians, the spatial second-section total-derivative owner, and the nonlinear
+formal-adjoint Euler/preboundary owner. It keeps direct selected-action
+coefficient expansion, BV, global domain and BFV open and preserves all ledger
+counts plus unused P1/P2/P3.

@@ -55,8 +55,10 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.28.json` - current machine ledger; exact local principal Levi-Civita soldering, complete first-jet observation/equation dual, metric Euler receiver and preboundary potential migrate five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
-- `selected-action-physical-soldering-observation-compose.json` - exact local principal physical-response receipt; nonlinear second jets, BV, global domain and BFV remain open.
+- `conditional-physics-ledger-v0.29.json` - current machine ledger; exact second spin-Levi-Civita/observation jets and nonlinear Euler/preboundary owners migrate five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-action-second-soldering-observation-jets.json` - exact second soldering/observation and nonlinear-owner receipt; direct selected-action coefficient assembly, BV, global domain and BFV remain open.
+- `conditional-physics-ledger-v0.28.json` - frozen predecessor for the exact local principal Levi-Civita soldering/first-observation chain.
+- `selected-action-physical-soldering-observation-compose.json` - frozen exact local principal physical-response receipt.
 - `conditional-physics-ledger-v0.27.json` - frozen predecessor ledger for exact Hodge/Phi/low-grade Clifford-pairing frame naturality.
 - `selected-action-comoving-frame-naturality.json` - frozen selected-action frame-naturality receipt.
 - `conditional-physics-ledger-v0.26.json` - immutable predecessor for the local TT gimmel density and Hodge/coframe owner fusion.

@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-06 (ledger v0.29; no verdict, residue,
+canon or public-posture change).** The symmetric-frame spin Levi-Civita
+connection has an exact nonzero symmetric second metric jet. The complete
+observation map has zero pure-section Frechet `D2`, a nonzero section--field
+cross jet, and a spatial second-section owner through total differentiation.
+The nonlinear formal-adjoint Euler and preboundary owners are exact. Direct
+selected-action metric/Hodge/Shiab/Krein/density/observation coefficient
+assembly, diffeomorphism/odd BV, global domain and BFV remain open. Five
+distances move; all counts and P1/P2/P3 are unchanged. See
+`explorations/conditional-build/selected-action-second-soldering-observation-jets-2026-08-06.md`.
+
 **Active Build/Compose update 2026-08-06 (ledger v0.28; no verdict, residue,
 canon or public-posture change).** The exact rank-ten gauge-rotated
 Levi-Civita soldering symbol composes without leakage through the complete
