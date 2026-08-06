@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action co-moving-frame naturality (2026-08-06)
+
+`conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md`
+transports the actual Hodge maps, tautological `Phi1/Phi2` and low-grade
+Clifford scalar pairing through the exact co-moving frame. A selected intrinsic
+action witness is nonzero (`-7/2`) while its pure-frame derivative is zero.
+Ledger v0.27 migrates five distances without changing verdicts, residue,
+quotients or P1/P2/P3. Physical soldering/field/observation motion and the
+Euler/presymplectic/BV/BFV classes remain open.
+
 ## Moving gimmel / Hodge / frame owner (2026-08-06)
 
 `conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md` computes

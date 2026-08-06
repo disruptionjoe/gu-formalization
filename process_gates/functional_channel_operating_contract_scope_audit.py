@@ -60,12 +60,13 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.26.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.26.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.26.md")
+assert "conditional-physics-ledger-v0.27.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.27.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.27.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
-assert "HODGE_COFRAME_ONE_OWNER_PACKET" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "PHYSICAL_FIELDS_AND_OBSERVATION_JETS" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -101,8 +102,9 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FUSED_MOVING_GIMMEL_FRAME_PHI_SHIAB_KREIN_SOLDERING_FIELD_OWNER" in directive["next_gate"]
-assert "SELECTED_ACTION_AND_OBSERVATION" in directive["next_gate"]
+assert "GAUGE_ROTATED_LEVI_CIVITA_SOLDERING_AND_OBSERVATION_JETS" in directive["next_gate"]
+assert "COMOVING_SELECTED_ACTION_PACKET" in directive["next_gate"]
+assert "EULER_AND_PRESYMPLECTIC_CLASS" in directive["next_gate"]
 assert "SECOND_LAYER_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -126,10 +128,12 @@ assert "MOVING_SHIAB_LOAD_BEARING" in directive["current_evidence_boundary"]
 assert "FROZEN_SHIAB_DEFECTS4" in directive["current_evidence_boundary"]
 assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
 assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
-assert "FIXED_FRAME_HODGE_LIVE" in directive["latest_build_evidence"]
 assert "A_MINUS_K_OVER_TWO_EXACT" in directive["latest_build_evidence"]
-assert "HODGE_COFRAME_FUSED" in directive["latest_build_evidence"]
-assert "NO_ACTION_CANCELLATION_OR_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
+assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
+assert "NONZERO_SELECTED_ACTION_MINUS_7_OVER_2" in directive["latest_build_evidence"]
+assert "PURE_FRAME_D1_ZERO" in directive["latest_build_evidence"]
+assert "PHYSICAL_SOLDERING_FIELD_OBSERVATION_EULER_PRESYMPLECTIC_OPEN" in directive["latest_build_evidence"]
+assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
 assert "NORMALIZED_GLOBAL_PROJECTOR_SCREENS_CONSTANT_SHIFTS_EXACTLY" in directive["current_evidence_boundary"]
@@ -168,4 +172,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.26 ledger fuse the local TT gimmel/Hodge/coframe owner without action, BV/BFV or physics promotion")
+print("PASS: functional channels and v0.27 ledger preserve pure-frame selected-action naturality without physical stationarity, BV/BFV or physics promotion")

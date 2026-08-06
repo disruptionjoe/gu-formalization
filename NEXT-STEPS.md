@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 SELECTED-ACTION CO-MOVING-FRAME NATURALITY.**
+> [`explorations/conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md`](explorations/conditional-build/selected-action-comoving-frame-naturality-2026-08-06.md)
+> proves exact Hodge naturality in degrees one and two, tautological
+> `Phi1/Phi2` transport, low-grade Clifford scalar-pairing naturality and zero
+> pure-frame derivative of a nonzero selected intrinsic action witness
+> (`-7/2`). Ledger v0.27 stays `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`, and four scoped quotients. This is not a
+> physical Euler or BV result. Next: insert the gauge-rotated
+> Levi-Civita/soldering, physical fields and observation jets into this packet,
+> then derive Euler/presymplectic, odd BV, global BFV and Q1.
+
 > **2026-08-06 MOVING GIMMEL / HODGE / FRAME OWNER.**
 > [`explorations/conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md`](explorations/conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md)
 > computes the exact local TT derivative of the actual trace-reversed

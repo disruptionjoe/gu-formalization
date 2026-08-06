@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.26.json` - current machine ledger; the exact local TT gimmel derivative has zero density response and fuses fixed-frame Hodge with the co-moving frame owner, migrating five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.27.json` - current machine ledger; exact Hodge/Phi/low-grade Clifford-pairing naturality and a nonzero selected action with zero pure-frame derivative migrate five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-action-comoving-frame-naturality.json` - exact selected-action frame-naturality receipt; physical soldering/field/observation Euler and presymplectic response remains open.
+- `conditional-physics-ledger-v0.26.json` - immutable predecessor for the local TT gimmel density and Hodge/coframe owner fusion.
 - `moving-gimmel-hodge-frame-owner.json` - exact `(6,4)` DeWitt / `(7,7)` gimmel inertia, TT trace and density, live fixed-frame Hodge and co-moving-frame fusion receipt; complete selected-action observation/BV/BFV remains open.
 - `conditional-physics-ledger-v0.25.json` - immutable predecessor composing selected gauge, primitive-epsilon and compact-Dirichlet Green owners.
 - `selected-first-order-epsilon-preboundary-compose.json` - machine receipt for selected-product inclusion in the prior epsilon domain, exact compact Dirichlet flux closure and live unrestricted preboundary flux.

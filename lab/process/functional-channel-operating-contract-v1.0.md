@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.26.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.26.md`.
+`lab/process/conditional-physics-ledger-v0.27.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.27.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -38,13 +38,12 @@ Dirichlet Green closure are already exact on the selected product row. Do not
 rebuild them. Preserve unrestricted boundary flux and route the remaining
 Build to moving geometry/observation, diffeomorphism/odd BV and global BFV.
 
-Current moving-gimmel directive: on the exact local TT `Sym2` family the
-fourteen-dimensional density response is zero, fixed-frame Hodge motion is
-live, and `A=-G^-1(delta G)/2` supplies the co-moving-frame compensator. Treat
-metric/DeWitt/Hodge/coframe as one functorial owner packet. Do not recount
-Hodge and frame as independent coefficients, and do not infer selected-action
-cancellation until Phi/Shiab/Krein/soldering/fields and observation are
-transported through the same packet.
+Current selected-action frame directive: degree-one/two Hodge, tautological
+`Phi1/Phi2`, low-grade Clifford scalar pairings and a nonzero selected
+intrinsic action are exactly natural in the co-moving frame. Do not rebuild
+them as physical coefficients. Insert gauge-rotated Levi-Civita/soldering,
+physical fields and observation jets before any Euler, presymplectic, odd-BV,
+global-domain or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

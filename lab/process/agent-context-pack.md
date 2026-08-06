@@ -9,15 +9,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
-> **CURRENT MOVING-GIMMEL OWNER FENCE.** On the actual local
-> `Sym2(T*X)` trace-reversed DeWitt family, observed TT motion gives exact
-> `(7,7)` total inertia, zero fourteen-dimensional density first variation and
-> nonzero fixed-frame Hodge motion. `A=-G^-1(delta G)/2` exactly compensates
-> the metric in a co-moving frame. Therefore metric/DeWitt/Hodge/coframe are
-> one functorial owner packet; do not count Hodge and frame separately. This is
-> not selected-action cancellation: Phi/Shiab/Krein/gauge-rotated
-> Levi-Civita/soldering/fields and observation must move in the same packet.
-> Current ledger: v0.26.
+> **CURRENT SELECTED-ACTION FRAME FENCE.** On the actual trace-reversed
+> gimmel metric, degree-one/two Hodge, tautological `Phi1/Phi2` and low-grade
+> Clifford scalar pairings are exactly natural in the co-moving frame. A
+> selected intrinsic action witness is nonzero (`-7/2`) with zero pure-frame
+> derivative. Do not rebuild those coefficients. This is not physical
+> stationarity: insert gauge-rotated Levi-Civita/soldering, physical fields and
+> observation jets before deriving Euler, presymplectic, odd-BV or BFV claims.
+> Current ledger: v0.27.
 
 > **CURRENT FIRST-ORDER PREBOUNDARY FENCE.** The selected
 > `comm/symi/symi` branch already has the primitive epsilon Euler row and a

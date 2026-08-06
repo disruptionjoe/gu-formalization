@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "PURE_FRAME_SELECTED_ACTION_NATURAL__PHYSICAL_SOLDERING_FIELD_OBSERVATION_DERIVATIVE_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "ledger_version": "0.27",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "pure_frame_transport_vs_physical_field_variation": "DISTINCT",
+    "frame_isometry_vs_gauge_bv_quotient": "DISTINCT",
+    "clifford_scalar_pairing_vs_global_krein_domain": "DISTINCT",
+    "local_top_form_vs_integrated_presymplectic_class": "DISTINCT"
+  },
+  "source": {
+    "return_code": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+    "confirms": "MOVING_METRIC_OBSERVATION_PHI_SHIAB_CONNECTION_ARENA",
+    "silent": "EXACT_GL_COMOVING_FRAME_HODGE_NATURALITY_AND_PURE_FRAME_SELECTED_ACTION_DERIVATIVE",
+    "exact_naturality_attribution": "REPOSITORY_DERIVED"
+  },
+  "hodge": {
+    "actual_metric": "TRACE_REVERSED_SYM2_GIMMEL",
+    "tested_degrees": [1, 2],
+    "fixed_frame_derivative": "NONZERO",
+    "infinitesimal_isometry_naturality": "EXACT"
+  },
+  "phi": {
+    "phi1": "TAUTOLOGICAL_IDENTITY",
+    "phi1_pure_frame_derivative": 0,
+    "phi2": "ONE_HALF_PHI1_WEDGE_PHI1",
+    "phi2_pure_frame_derivative": 0
+  },
+  "clifford_scalar_pairing": {
+    "tested_grades": [1, 2],
+    "comoving_derivative": 0,
+    "global_krein_domain": "OPEN"
+  },
+  "selected_action": {
+    "branch": ["comm", "symi", "symi"],
+    "nonzero_witness": true,
+    "pure_frame_derivative": 0,
+    "physical_soldering_field_observation_derivative": "OPEN"
+  },
+  "constraint_cost": {
+    "fitted_coefficients": 0,
+    "new_external_datum": 0,
+    "residue_reduction": 0,
+    "new_quotients": 0
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "held_open": [
+    "GAUGE_ROTATED_LEVI_CIVITA_AND_SOLDERING_FIELD_DERIVATIVE_IN_THE_COMOVING_PACKET",
+    "OBSERVATION_FIRST_AND_SECOND_JET_SELECTED_ACTION_COMPOSITION",
+    "PHYSICAL_KREIN_FUNDAMENTAL_SYMMETRY_AND_COMMON_DOMAIN",
+    "DIFFEO_AND_ODD_SUPERIG_BV",
+    "GLOBAL_PHYSICAL_GREEN_DOMAIN",
+    "UNRESTRICTED_PREBOUNDARY_BFV_REDUCTION_AND_Q1"
+  ],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-06-selected-action-comoving-frame-naturality-review.md",
+  "next_gate": "INSERT_THE_EXACT_GAUGE_ROTATED_LEVI_CIVITA_SOLDERING_AND_OBSERVATION_JETS_INTO_THE_COMOVING_SELECTED_ACTION_PACKET__THEN_DERIVE_EULER_AND_PRESYMPLECTIC_CLASS"
+}

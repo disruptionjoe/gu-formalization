@@ -1574,3 +1574,13 @@ density derivative zero, live fixed-frame Hodge response, exact co-moving
 frame compensator and Hodge/coframe owner fusion. It requires the mandatory
 symplectic fence against action/BV/BFV cancellation, exactly five distance-only
 migrations, unchanged verdicts/residue/quotients and unused P1/P2/P3.
+
+## Selected-action co-moving-frame naturality and ledger v0.27 gate
+
+`selected_action_comoving_frame_naturality_scope_audit.py` enforces exact
+degree-one/two Hodge naturality, tautological Phi transport, low-grade
+Clifford scalar-pairing naturality and zero pure-frame derivative of a nonzero
+selected intrinsic action. It requires the mandatory symplectic fence between
+frame naturality and physical Euler/presymplectic/BV/BFV stationarity, exactly
+five distance-only migrations, unchanged verdicts/residue/quotients and unused
+P1/P2/P3.
