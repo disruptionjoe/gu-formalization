@@ -141,6 +141,7 @@ selected notes below and in each script header.
 - `public_path_hygiene_audit.py`
 - `queue_review_freshness_audit.py`
 - `selected_cubic_reduced_numerator_scope_audit.py`
+- `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -1500,3 +1501,13 @@ disposition, residue, four quotient count, P1/P2/P3, Curt separation and the
 full-moving selected-cubic Build at rank one. The companion v0.19 channel
 probe checks predecessor equivalence for every untouched row and all four
 append-only migration edges.
+
+## Selected augmented-torsion D3 owner and ledger v0.20 scope gate
+
+`selected_cubic_augmented_torsion_d3_owner_scope_audit.py` enforces the exact
+intrinsic trace/traceless D3 coefficients, the zero `theta_rad-q0-qm` and
+nonzero `theta_rad-qm-qm` classes, the stationary pullback jet-order theorem,
+the mandatory symplectic nonpromotion and the K95-to-K77 real-form fence. It
+requires exactly three append-only distance migrations, leaves `LT-GR3` and
+all verdict/reason kinds unchanged, preserves residue and four scoped
+quotients, and consumes no P1/P2/P3.

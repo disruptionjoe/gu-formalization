@@ -2,10 +2,22 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-05"
+updated_at: "2026-08-06"
 ---
 
 # Explorations
+
+## Selected augmented-torsion D3 owner decomposition (2026-08-06)
+
+`conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md`
+constructs the intrinsic `T`-only third derivative before the remaining moving
+owners are assembled. It finds exact trace/traceless coefficients `136/3` and
+`-56/3`, zero intrinsic radial-`q0-qm`, and nonzero intrinsic radial-`qm-qm`.
+The stationary pullback chain rule bounds the compact-core bulk lift burden to
+first and second jets, while unrestricted preboundary data remain open. The
+mandatory symplectic review forbids reading the nonzero density as a physical
+transition. Ledger v0.20 moves three distances, preserves every verdict and
+residue, leaves `LT-GR3` untouched, and consumes no P1/P2/P3.
 
 ## Trace-omega Higgs/chirality Compose reconciliation (2026-08-05)
 

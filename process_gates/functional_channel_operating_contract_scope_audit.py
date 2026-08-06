@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.19.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.19.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.19.md")
+assert "conditional-physics-ledger-v0.20.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.20.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.20.md")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -90,7 +90,7 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "Q0Q0_COMPACT_CORE_BULK_NUMERATOR_ZERO__Q0QM_FULL_MOVING_COMPLETION_FORK__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["status"] == "INTRINSIC_AUGMENTED_TORSION_D3_Q0QM_ZERO_QMQM_NONZERO__FULL_MOVING_OWNER_ASSEMBLY_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
 assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
@@ -98,7 +98,9 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FULL_MOVING_D3_I_SELECTED_ON_THETA_Q0_QM_AND_THETA_QM_QM" in directive["next_gate"]
+assert "ASSEMBLE_DIRECT_CURVATURE_II_DEFECT_D3" in directive["next_gate"]
+assert "LC_SOLDERING_FIRST_SECOND_JETS" in directive["next_gate"]
+assert "MOVING_PAIRING_OBSERVATION_PLUS_PREBOUNDARY_REDUCTION" in directive["next_gate"]
 assert "SUPER_IG_DESCENT" in directive["next_gate"]
 assert "NORMALIZED_OBSERVER_FUNCTIONAL" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
@@ -111,7 +113,11 @@ assert "REAL_ODD_CONTINUUM_ENERGY_DENOMINATOR_SHELLS_EXACT" in directive["curren
 assert "Q0Q0_COMPACT_CORE_BULK_NUMERATOR_ZERO_ON_FREE_SHELL" in directive["current_evidence_boundary"]
 assert "Q0QM_HH_ONLY_NUMERATOR_NONZERO" in directive["current_evidence_boundary"]
 assert "FULL_PENCIL_FIELD_REDEFINITION_COMPLETION_ZERO_ON_ALL_FREE_SHELLS" in directive["current_evidence_boundary"]
-assert "FULL_MOVING_D3I_AND_UNRESTRICTED_PREBOUNDARY_CLASS_OPEN" in directive["current_evidence_boundary"]
+assert "INTRINSIC_AUGMENTED_TORSION_D3_TRACE_136_OVER_3_TRACELESS_MINUS_56_OVER_3" in directive["current_evidence_boundary"]
+assert "INTRINSIC_THETA_RAD_Q0QM_ZERO" in directive["current_evidence_boundary"]
+assert "INTRINSIC_THETA_RAD_QMQM_NONZERO" in directive["current_evidence_boundary"]
+assert "STATIONARY_BULK_PULLBACK_USES_FIRST_SECOND_LIFT_JETS" in directive["current_evidence_boundary"]
+assert "DIRECT_CURVATURE_II_DEFECT_LC_SOLDERING_MOVING_PAIRING_OBSERVATION_AND_PREBOUNDARY_OPEN" in directive["current_evidence_boundary"]
 assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -151,4 +157,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.19 ledger preserve the selected-cubic rank-one Build gate while wiring the trace-omega Higgs/chirality rank-two composition without consuming P1/P2/P3")
+print("PASS: functional channels and v0.20 ledger preserve the narrowed selected-cubic owner assembly while wiring the intrinsic augmented-torsion D3 without consuming P1/P2/P3")

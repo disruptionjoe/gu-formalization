@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "INTRINSIC_AUGMENTED_TORSION_D3_CLOSED__Q0QM_ZERO__QMQM_NONZERO__FULL_MOVING_OPEN",
+  "functional_channels": ["BUILD", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-SILENT",
+  "ledger_from": "0.19",
+  "ledger_to": "0.20",
+  "ledger_rows": ["LT-GR2b", "LT-GR5", "LT-SM8"],
+  "layer0": {
+    "theta_rad_vs_dark_energy_scalar": "UNCERTAIN",
+    "independent_q0_distortion_vs_dependent_lc_response": "HOMONYM_IF_CALLED_T_LEG",
+    "intrinsic_t_cubic_vs_full_moving_numerator": "HOMONYM_IF_CALLED_SELECTED_CUBIC",
+    "bulk_density_vs_physical_transition": "HOMONYM"
+  },
+  "exact_d3": {
+    "trace_over_native_norm": "136/3",
+    "traceless_diagonal_over_native_norm": "-56/3",
+    "traceless_offdiagonal_over_native_norm": "-56/3",
+    "normal_representatives": [4, 5, 10],
+    "direct_formula_equals_eight_corner": true,
+    "hessian_slope_crosscheck": true,
+    "quadratic_kappa_third_derivative": "ZERO"
+  },
+  "free_pencil": {
+    "q0": "(h,0)",
+    "qm": "(h,-alpha_II*v)",
+    "theta_rad_q0_qm_intrinsic": "ZERO",
+    "theta_rad_qm_qm_intrinsic": "-(56/3)*alpha_II^2*<v,*v>",
+    "theta_rad_identification": "CONDITIONAL_INVARIANT_PHI1_RADIAL_BRANCH"
+  },
+  "pullback_jet_order": {
+    "stationary_D3": "D3I[DF,DF,DF]+CYCLIC_D2I[D2F,DF]",
+    "third_lift_jet": "ABSENT_WHEN_DI_EQUALS_ZERO",
+    "tadpole_control": "RESTORES_DI_D3F",
+    "unrestricted_preboundary": "OPEN"
+  },
+  "remaining_mixed_packages": [
+    "DIRECT_CURVATURE_FULL_II_AND_DEFECT_D3",
+    "GAUGE_ROTATED_LC_SOLDERING_FIRST_AND_SECOND_JETS",
+    "MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_DENSITY_OBSERVATION",
+    "WARD_BV_GREEN_PREBOUNDARY_REDUCTION"
+  ],
+  "wrong_real_form_comparator": {
+    "ref": "agent/null-clifford-omega1-repair",
+    "use": "METHOD_AND_COVERAGE_COMPARATOR_ONLY",
+    "imported": false,
+    "reason": "CONDITIONAL_ACTIVE_9_5_PORT_HAS_NO_CONSTRUCTED_REAL_FORM_MORPHISM_TO_SOURCE_K77_7_7"
+  },
+  "row_disposition": {
+    "LT-GR2b": "DISTANCE_MIGRATES__VERDICT_AND_REASON_KIND_FROZEN",
+    "LT-GR5": "DISTANCE_MIGRATES__VERDICT_AND_REASON_KIND_FROZEN",
+    "LT-SM8": "DISTANCE_MIGRATES__VERDICT_AND_REASON_KIND_FROZEN",
+    "LT-GR3": "UNCHANGED__DIRECT_CURVATURE_D3_NOT_COMPUTED"
+  },
+  "cost": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_selectors": 0,
+    "new_real_form_identifications": 0
+  },
+  "ledger": {
+    "version": "0.20",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "continuous_residue": 84,
+    "function_valued_residue_lower_bound": 19,
+    "discrete_forks": 9,
+    "scoped_quotients_ranked": 4,
+    "row_changes": "THREE_DISTANCE_MIGRATIONS__ZERO_VERDICT_OR_REASON_KIND_CHANGES"
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "review_receipts": {
+    "primary_probe": "45_45_PASS__3_SOURCE_3_REPO_21_EXACT_10_TYPE_8_PLANTED",
+    "independent_sage": "PASS__TRACE_136_OVER_3__TT_MINUS_56_OVER_3__Q0QM_ZERO__QMQM_NONZERO",
+    "hostile_review": "PASS_AFTER_EIGHT_SCOPE_CORRECTIONS",
+    "symplectic_review": "NO_PHYSICAL_TRANSITION_OR_FIFTH_QUOTIENT"
+  },
+  "next_gate": "ASSEMBLE_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_LC_SOLDERING_FIRST_SECOND_JETS_PLUS_MOVING_PAIRING_OBSERVATION_PLUS_PREBOUNDARY_REDUCTION"
+}

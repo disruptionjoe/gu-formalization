@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.19.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.19.md`.
+`lab/process/conditional-physics-ledger-v0.20.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.20.md`.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -391,6 +391,17 @@ Only its unique nonzero reduced class may advance to Q1 and the physical-sheet
 test. `LT-SM8` is `MISSING_CONSTRUCTION`, not `PROVEN_UNSUPPLYABLE`, at this
 grade.
 
+The first exact owner inside that derivative is now closed. The intrinsic
+selected augmented-torsion term has trace/traceless Gauss coefficients
+`136/3` and `-56/3`; its conditional radial leg vanishes on `q0-qm` and is
+nonzero on `qm-qm`. This localizes rather than completes the mixed class.
+Direct curvature/`II`/defect D3, gauge-rotated Levi-Civita and soldering first
+and second jets, moving Shiab/Hodge/Krein pairing and observation, and the
+Ward/BV/Green/preboundary reduction remain separate owners. At a stationary
+background the bulk pullback D3 has no third-lift-jet term, but a tadpole
+control restores it away from stationarity. No unreduced density is promoted
+to a physical transition.
+
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
 constant without deriving its action placement, conservation identity,
@@ -402,7 +413,7 @@ Einstein source.
 Current gate:
 
 ```text
-FULL_MOVING_D3_I_SELECTED_ON_THETA_Q0_QM_AND_THETA_QM_QM__INCLUDING_HV_OBSERVATION_SHIAB_PAIRING_COMPENSATOR_AND_PREBOUNDARY_RESPONSE__THEN_Q1_OR_REGULAR_CANCELLATION__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+ASSEMBLE_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_LC_SOLDERING_FIRST_SECOND_JETS_PLUS_MOVING_PAIRING_OBSERVATION_PLUS_PREBOUNDARY_REDUCTION__THEN_Q1_OR_REGULAR_CANCELLATION__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 The next work has three independent owners. Interaction positivity must derive

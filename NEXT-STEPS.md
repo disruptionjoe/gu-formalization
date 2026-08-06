@@ -2,10 +2,26 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-05"
+updated_at: "2026-08-06"
 ---
 
 # Next Steps For Contributors
+
+> **2026-08-06 SELECTED AUGMENTED-TORSION D3 OWNER.**
+> [`explorations/conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md`](explorations/conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md)
+> constructs the first exact owner inside the full-moving selected cubic. For
+> the conditional radial `T` perturbation, the intrinsic augmented-torsion
+> action gives trace coefficient `136/3`, traceless coefficient `-56/3`, zero
+> `theta_rad-q0-qm`, and nonzero
+> `theta_rad-qm-qm=-(56/3) alpha_II^2 <v,*v>`. This is an owner decomposition,
+> not a full numerator or physical transition: direct curvature/`II`/defect,
+> gauge-rotated Levi-Civita/soldering jets, moving pairing/observation and the
+> Ward/BV/Green/preboundary quotient remain. At a stationary background the
+> bulk pullback `D3` needs first and second observation jets, not a third lift
+> jet; unrestricted preboundary remains open. Ledger v0.20 is `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`; three distances move
+> and P1/P2/P3 remain unused. Next: assemble the four remaining owner packages
+> before any Q1 or physical-sheet claim.
 
 > **2026-08-05 TRACE-OMEGA HIGGS/CHIRALITY COMPOSE RECONCILIATION.**
 > [`explorations/conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md`](explorations/conditional-build/trace-omega-higgs-chirality-compose-reconciliation-2026-08-05.md)

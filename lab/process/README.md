@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.19.json` - current machine ledger; four representation/Higgs distances now share the typed `T_omega -> sigma_epsilon -> h_omega` chain. Verdicts remain `33/19/24/6`, residue remains `84 + >=19 functions + 9 forks`, `RA-D2` remains a genuine falsification, four quotients remain ranked and P1/P2/P3 remain unused.
+- `conditional-physics-ledger-v0.20.json` - current machine ledger; the first exact selected-cubic owner migrates three distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-cubic-augmented-torsion-d3-owner-decomposition.json` - exact intrinsic augmented-torsion D3 owner, stationary pullback jet-order receipt, real-form fence and four-package successor.
+- `conditional-physics-ledger-v0.19.json` - frozen predecessor ledger for the shared trace-omega Higgs/chirality construction.
 - `trace-omega-higgs-chirality-compose-reconciliation.json` - mandatory post-`SOURCE-CORRECTS` Compose receipt for the four append-only distance migrations, zero-datum accounting, hostile/symplectic boundary and unchanged rank-one full-moving-cubic gate.
 - `cross-theory-mechanism-donor-crosswalk.json` - bounded Compose receipt for eight NCG/string/LQG/AS mechanism candidates, the two selected method ports, zero-datum admission fences and the post-checkpoint construction order.
 - `conditional-physics-ledger-v0.18.json` - frozen predecessor ledger for the exact compact-core `q0-q0` bulk-numerator zero, typed mixed `q0-qm` completion fork and `LT-SM8` correction.

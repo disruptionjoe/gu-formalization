@@ -83,7 +83,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.19.json`:
+`lab/process/conditional-physics-ledger-v0.20.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.

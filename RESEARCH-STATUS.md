@@ -2,11 +2,26 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-05"
+updated_at: "2026-08-06"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Active construction update 2026-08-06 (ledger v0.20; no verdict, residue,
+canon or public-posture change).** The selected augmented-torsion cubic now has
+an exact intrinsic owner. Relative to the native pairing its trace and
+traceless Gauss coefficients are `136/3` and `-56/3`; on the free pencil the
+conditional radial `T` leg gives zero `q0-qm` and nonzero
+`qm-qm=-(56/3) alpha_II^2 <v,*v>`. Neither result is the complete moving
+numerator: direct curvature/`II`/defect, metric-induced gauge-rotated
+Levi-Civita and soldering jets, moving Shiab/Hodge/Krein pairing and
+observation, and Ward/BV/Green/preboundary reduction remain. At stationarity
+the bulk pullback third derivative depends on first and second lift jets; a
+tadpole control shows why a nonstationary background restores the third lift
+jet. Ledger v0.20 migrates only `LT-GR2b`, `LT-GR5` and `LT-SM8`; `LT-GR3`,
+all verdicts, residue and P1/P2/P3 remain unchanged. See
+`explorations/conditional-build/selected-cubic-augmented-torsion-d3-owner-decomposition-2026-08-06.md`.
 
 **Compose reconciliation 2026-08-05 (ledger v0.19; no verdict, residue,
 canon or public-posture change).** The mandatory checkpoint after the
