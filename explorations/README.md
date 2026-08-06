@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action curvature graph six-versus-four (2026-08-06)
+
+`conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md`
+closes the graph-restricted curvature part of the six-versus-four gate. The
+selected Riemann contraction contributes exact gain `-1/26`; together with
+the v0.33 zero-jet source Hessian it leaves only gauge nulls off cone and
+gauge plus two transverse tensor characteristics on cone. Ledger v0.34 moves
+five distances without changing verdicts, residue, quotients or P1/P2/P3.
+The independent off-graph `d_B T` torsion block, observation receiver, common
+domain, odd BV and BFV remain open.
+
 ## Selected-action source-variable Hessian (2026-08-06)
 
 `conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md`

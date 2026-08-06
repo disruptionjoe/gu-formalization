@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.33.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.33.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.33.md")
+assert "conditional-physics-ledger-v0.34.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.34.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.34.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -72,7 +72,10 @@ assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in contract["standing_ledger"]["moving_g
 assert "TAUTOLOGICAL_PHI1_FULL_SLOT_RESPONSE_ZERO" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "SOURCE_VARIABLES_G_VARPI_T_EQUALS_VARPI_MINUS_BLC" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ZERO_JET_SOURCE_HESSIAN_RANK24_NULLITY10_GAUGE4_NONGAUGE6" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "FULL_I1B_DERIVATIVE_CURVATURE_DENSITY_OBSERVATION_SIX_VERSUS_FOUR_OPEN" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "SELECTED_GRAPH_CURVATURE_GAIN_MINUS1_OVER26" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "NONNULL_KERNEL_GAUGE4" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "NULL_KERNEL_GAUGE4_PHYSICAL2" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "OFF_GRAPH_DBT_OBSERVATION_COMMON_DOMAIN_OPEN" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -100,7 +103,7 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "INTRINSIC_HOMOGENEOUS_WARD_EXACT__MOVING_SHIAB_LOAD_BEARING__FULL_DIRECT_MOVING_PREBOUNDARY_CLASS_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["status"] == "CONSTANT_TORSION_GRAPH_CURVATURE_EXACT__OFF_GRAPH_DBT_OBSERVATION_COMMON_DOMAIN_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
 assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
@@ -108,8 +111,10 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FULL_I1B_DERIVATIVE_CURVATURE_DENSITY_OBSERVATION_HESSIAN_ON_SOURCE_VARIABLES" in directive["next_gate"]
-assert "LIFT_SIX_NONGAUGE_ZERO_JET_NULLS_WHILE_RETAINING_FOUR_GAUGE_NULLS" in directive["next_gate"]
+assert "OFF_GRAPH_DBT_TORSION_PRINCIPAL_BLOCK_ON_FULL_INDEPENDENT_G_VARPI_CARRIER" in directive["next_gate"]
+assert "OBSERVATION_RECEIVER" in directive["next_gate"]
+assert "COMMON_GREEN_KREIN_DOMAIN" in directive["next_gate"]
+assert "RETAIN_NULL_PHYSICAL2" in directive["next_gate"]
 assert "I2B_OBSERVER_FULL_II_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -146,7 +151,10 @@ assert "TAUTOLOGICAL_PHI1_FULL_SLOT_RESPONSE_ZERO" in directive["latest_build_ev
 assert "SOURCE_VARIABLES_G_VARPI_T_EQUALS_VARPI_MINUS_BLC" in directive["latest_build_evidence"]
 assert "ZERO_JET_SOURCE_HESSIAN_RANK24_NULLITY10_GAUGE4_NONGAUGE6" in directive["latest_build_evidence"]
 assert "BOTH_WARD_BLOCKS_EXACT" in directive["latest_build_evidence"]
-assert "FULL_I1B_SIX_VERSUS_FOUR_OPEN" in directive["latest_build_evidence"]
+assert "SELECTED_GRAPH_CURVATURE_GAIN_MINUS1_OVER26" in directive["latest_build_evidence"]
+assert "NONNULL_TOTAL_RANK30_KERNEL_GAUGE4" in directive["latest_build_evidence"]
+assert "NULL_TOTAL_RANK28_KERNEL_GAUGE4_PHYSICAL2" in directive["latest_build_evidence"]
+assert "OFF_GRAPH_DBT_OBSERVATION_COMMON_DOMAIN_OPEN" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -186,4 +194,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.33 ledger preserve the exact zero-jet source Hessian and full-I1B six-versus-four burden without BV/BFV or physics promotion")
+print("PASS: functional channels and v0.34 ledger preserve the exact curvature-graph six-versus-four result and off-graph burden without BV/BFV or physics promotion")

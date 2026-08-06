@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 SELECTED CURVATURE GRAPH SIX-VERSUS-FOUR.**
+> [`explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md`](explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md)
+> composes the selected `comm/symi/symi` Riemann response with the source-native
+> constant-augmented-torsion graph. The exact curvature gain is `-1/26`.
+> Combined with the v0.33 zero-jet Hessian, the total symbol has rank 30 and
+> gauge-only nullity four off cone, and rank 28 with gauge four plus the two
+> transverse tensor characteristics on cone. Ledger v0.34 keeps `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four scoped
+> quotients. Next: construct the off-graph `d_B T` torsion principal block on
+> the full independent `(g,varpi)` carrier, then the observation receiver and
+> common Green/Krein domain. Do not promote the graph result to full `I1B`.
+
 > **2026-08-06 SOURCE-VARIABLE ZERO-JET HESSIAN.**
 > [`explorations/conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md`](explorations/conditional-build/selected-action-source-variable-hessian-and-diffeomorphism-lift-2026-08-06.md)
 > corrects the v0.32 construction target. The selected tautological `Phi1`

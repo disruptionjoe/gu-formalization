@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.33.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.33.md`.
+`lab/process/conditional-physics-ledger-v0.34.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.34.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -50,11 +50,15 @@ affine-21 symmetric completion theorem is exact only on the metric-only slice.
 The selected tautological `Phi1` has zero full-slot Lie response, and the
 source variables `(g,varpi)` with `T=varpi-B_LC(g)` yield an exact rank-24
 zero-jet Hessian with four gauge plus six nongauge null directions. Both Ward
-block equations close. Do not rebuild these objects, restore coordinate rank
-ten, revive the diagnostic completion, book nullity as residue or import
-separately owned full-II. Complete the derivative/curvature/density/
-observation `I1B` Hessian and require the six nongauge nulls to lift while the
-four gauge nulls remain before odd BV, global-domain or BFV promotion.
+block equations close. On the source-native constant-augmented-torsion graph,
+selected curvature has exact gain `-1/26`: it lifts the six nongauge nulls off
+cone while leaving gauge four, and on cone retains gauge four plus two
+transverse tensor characteristics. Do not rebuild these objects, restore
+coordinate rank ten, revive the diagnostic completion, book nullity or
+characteristics as residue, or import separately owned full-II. Construct the
+off-graph `d_B T` torsion principal block on the independent `(g,varpi)`
+carrier, then observation reception and a common Green/Krein domain before
+odd BV or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.33.json` - current machine ledger; the selected zero-jet source Hessian is rank 24 with four gauge plus six nongauge null directions, and five distances are corrected while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.34.json` - current machine ledger; selected graph curvature lifts the six zero-jet nongauge null directions off cone and retains exactly two tensor characteristics on cone, moving five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-action-curvature-graph-six-versus-four.json` - exact constant-augmented-torsion graph curvature receipt; off-graph `d_B T`, observation receiver, common domain, odd BV and BFV remain open.
+- `conditional-physics-ledger-v0.33.json` - frozen predecessor machine ledger for the rank-24 zero-jet source Hessian.
 - `selected-action-source-variable-hessian-and-diffeomorphism-lift.json` - exact source-variable zero-jet Hessian and Ward receipt; full first-order `I1B`, BV, domain and BFV remain open.
 - `conditional-physics-ledger-v0.31.json` - frozen metric-only Ward predecessor.
 - `selected-action-ward-completion-identifiability.json` - exact Ward-target/owner-class receipt; same-`I1B` direct coefficient assembly, BV, global domain and BFV remain open.

@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose correction 2026-08-06 (ledger v0.34; no verdict,
+residue, quotient, datum, canon or public-posture change).** On the
+source-native constant-augmented-torsion graph, the selected curvature term
+has exact gain `-1/26`. With the source-variable zero-jet Hessian it lifts all
+six nongauge null directions off cone: timelike/spacelike rank 30 with
+gauge-only nullity four. On the null cone the total rank is 28 and the kernel
+is gauge four plus exactly the two transverse tensor characteristics. This is
+not full off-graph `I1B`; `d_B T`, the observation receiver, common Green/Krein
+domain, odd BV and BFV remain open. See
+`explorations/conditional-build/selected-action-curvature-graph-six-versus-four-2026-08-06.md`.
+
 **Active Build/Compose correction 2026-08-06 (ledger v0.33; no verdict,
 residue, canon or public-posture change).** The selected tautological `Phi1`
 has zero full-slot Lie response, so v0.32's frozen-slot surrogate is retained

@@ -146,6 +146,7 @@ selected notes below and in each script header.
 - `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`
 - `selected_cubic_reduced_numerator_scope_audit.py`
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
+- `selected_action_curvature_graph_six_versus_four_scope_audit.py`
 - `selected_action_second_soldering_observation_jets_scope_audit.py`
 - `selected_action_stationary_spin_lc_hessian_scope_audit.py`
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
@@ -1647,3 +1648,13 @@ four gauge plus six nongauge null directions and both Ward block equations.
 It keeps the full first-order derivative/curvature/density/observation
 six-versus-four test, BV, global domain and BFV open and forbids booking
 zero-jet nullity as residue or a quotient.
+
+## Selected-action curvature graph six-versus-four and ledger v0.34 gate
+
+`selected_action_curvature_graph_six_versus_four_scope_audit.py` enforces the
+exact selected Riemann response, trace ratio twelve, stationary graph gain
+`-1/26`, rank-30 gauge-only nonnull kernel and rank-28 null kernel with gauge
+four plus two tensor characteristics. It preserves the ambient-curvature
+no-go on its larger carrier, keeps off-graph `d_B T`, observation, common
+domain, BV and BFV open, and forbids booking characteristics as residue or a
+new quotient.

@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT CURVATURE-GRAPH SIX-VERSUS-FOUR FENCE.** On the source-native
+> constant-augmented-torsion graph `varpi=B_LC(g)+T*`, the selected
+> `comm/symi/symi` Riemann response has exact gain `-1/26`. Composed with the
+> zero-jet source Hessian, it gives rank 30 with gauge-only nullity four for
+> timelike and spacelike covectors, and rank 28 with gauge four plus exactly
+> two transverse tensor characteristics for null covectors. This is not the
+> complete off-graph `I1B` Hessian, a presymplectic quotient or GR recovery.
+> Next construct the independent `d_B T` torsion principal block and cross
+> terms on `(g,varpi)`, then observation reception and a common Green/Krein
+> domain while retaining the two null characteristics. Do not erase the
+> full-ambient-curvature no-go; its carrier is larger. Current ledger: v0.34.
+
 > **CURRENT SOURCE-VARIABLE HESSIAN FENCE.** The selected tautological
 > `Phi1` has zero full-slot Lie response; v0.32's rank-four frozen-slot
 > surrogate remains diagnostic only. The source variables are `(g,varpi)`
@@ -17,8 +29,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > directions. Both Ward block equations close exactly. This is not full
 > `I1B`, ten physical modes, six parameters, BV or BFV. Assemble the
 > derivative/curvature/density/observation blocks and require the six to lift
-> while the four remain. Do not import `I2B`/observer full-II. Current ledger:
-> v0.33.
+> while the four remain. Do not import `I2B`/observer full-II. This predecessor
+> fence is absorbed into the v0.34 curvature-graph packet.
 
 > **CURRENT STATIONARY ACTION-SPIN HESSIAN FENCE.** The prior rank-ten
 > theorem is a coordinate-Christoffel theorem. The selected action uses the
