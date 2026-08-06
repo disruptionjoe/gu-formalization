@@ -9,6 +9,20 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Active construction update 2026-08-05 (no canon/public-posture change).**
+The first action-owned cubic now supplies an exact nontrivial field-mixing
+answer at fixed scalar background. Its two-field TT Hessian has a unique
+positive spectral fundamental symmetry on the real component connected to
+the free point, and the four first-order correction coefficients are fixed by
+a rank-four system. The discriminant gives exact Jordan, complex-spectrum,
+disconnected-real and scalar-nonselection loci. This repairs the killed fixed
+scalar-parity route locally by allowing the Hessian eigenspaces to move; it
+does not prove the background is a vacuum, a symmetry of the full nonlinear
+action, a physical Fock-space metric or a common BV/Green domain.
+`SOURCE-SILENT`; ledger v0.16 stays `82/82`, `33/19/24/6`, with residue
+`84 + >=19 functions + 9 forks`; P1/P2/P3 remain unused. See
+`explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md`.
+
+**Predecessor construction update 2026-08-05.**
 The selected branch retains its positive finite TT spectral majorant at
 quadratic grade, but the simplest interaction extension is now killed. The
 written `(a+beta theta)R` term contains `theta h^2`; in the massless/massive
@@ -28,7 +42,7 @@ real-form/global descent rather than a default odd action. Ledger v0.15 stays
 reduction. External P1/P2/P3 are unchanged. See
 `explorations/conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md`.
 
-**Predecessor construction update 2026-08-05.**
+**Earlier predecessor construction update 2026-08-05.**
 The predecessor's coincident gravity double pole is real, but its one-pole-
 total successor target was an orthodox over-fence. Conditional on the still-
 open full-`|II|^2` P2 horn, the Gauss-induced direct Einstein term factors the

@@ -57,7 +57,8 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.15:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
+`lab/process/conditional-physics-ledger-v0.16.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -115,6 +116,18 @@ the first owned cubic `theta h^2`. In the free `P` eigenbasis it has diagonal
 and mixed mass-parity monomials, so no multiplicative scalar sign extends the
 free involution. This is not a kill of field mixing, nonlinear grading or the
 nonlocal interacting `C`.
+
+The first field-mixing repair is now exact at fixed constant scalar background.
+The action-owned cubic shifts the two-field TT Hessian, and on the distinct-
+real-spectrum component connected to the free point the spectral `C(u)` is the
+unique positive fundamental symmetry for fixed native `K`. Its four first-
+order coefficients face rank four and leave zero correction freedom after the
+action inputs and background are supplied. The exact discriminant separates
+generic Jordan walls, a complex interval, a disconnected real branch with
+reversed positive orientation, and a scalar nonselection point. The background
+is not proved stationary; full scalar fluctuations, nonlinear action symmetry,
+Fock/common BV-Green domain, loops and UV remain open. `SOURCE-SILENT`; this is
+not the unresolved July D1 192-dimensional record-sector lift.
 
 Super-IG is a separate algebraic global-descent problem. The source requires
 an odd bracket into connection one-forms, equivariance, Jacobi and compatible

@@ -64,6 +64,11 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`first-perturbative-background-c-operator-source-reinspection-2026-08-05.md`](first-perturbative-background-c-operator-source-reinspection-2026-08-05.md)
+  - returns `SOURCE-SILENT`: released GU material does not state the fixed-
+    background spectral `C` construction; Mannheim is used only as a method
+    precedent, and the nonlinear/Fock/domain burdens remain repository work.
+
 - [`selected-branch-bv-flrw-source-reinspection-2026-08-05.md`](selected-branch-bv-flrw-source-reinspection-2026-08-05.md)
   - returns narrowly `SOURCE-CONFIRMS`: Weinstein states the two-connection,
     gauge-rotated Levi-Civita/distortion architecture and the limited

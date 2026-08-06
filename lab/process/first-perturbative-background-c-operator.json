@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-05",
+  "status": "PASS_AFTER_EIGHT_MATERIAL_SCOPE_CORRECTIONS",
+  "source_return": "SOURCE-SILENT",
+  "result": {
+    "owned_object": "SELECTED_ACTION_FIXED_CONSTANT_SCALAR_BACKGROUND_TT_HESSIAN",
+    "background_c": "EXACT_UNIQUE_POSITIVE_ON_REAL_COMPONENT_CONNECTED_TO_FREE_POINT",
+    "first_order_correction": "FOUR_COEFFICIENTS__CONSTRAINT_RANK_FOUR__ZERO_FREEDOM",
+    "generic_discriminant_wall": "NONSCALAR_JORDAN__POSITIVE_C_ABSENT",
+    "intermediate_region": "COMPLEX_CONJUGATE_SPECTRUM__POSITIVE_C_ABSENT",
+    "disconnected_real_region": "POSITIVE_ORIENTATION_REVERSES",
+    "special_alpha1_wall": "SCALAR_DYNAMICS__POSITIVE_C_NONUNIQUE",
+    "full_nonlinear_or_qft_c": "OPEN"
+  },
+  "formulae": {
+    "background_parameter": "u=2*c*theta_bar",
+    "discriminant": "(b+u)*(alpha^2*b+(alpha-2)^2*u)",
+    "c_operator": "(2*L-tr(L)*I)/sqrt(discriminant)",
+    "majorant_determinant": "1"
+  },
+  "constraint_surplus": {
+    "first_order_coefficients": 4,
+    "independent_constraint_rank": 4,
+    "remaining_freedom": 0,
+    "upstream_action_coefficients_and_background": "SUPPLIED_NOT_DERIVED_BY_THIS_COUNT"
+  },
+  "checks": {
+    "primary": {
+      "source": 2,
+      "repo": 3,
+      "exact": 22,
+      "type": 3,
+      "planted": 12,
+      "total": 42,
+      "failures": 0
+    },
+    "independent_sage": "PASS"
+  },
+  "ledger_rows": ["LT-GR2b", "LT-GR3", "LT-GR5", "LT-SM8"],
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "d1_toy": "NOT_FULLY_DISCHARGED__192_DIMENSIONAL_RECORD_LIFT_REMAINS_OPEN",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "FULL_CUBIC_SCALAR_FLUCTUATION_C_AND_COMMON_BV_GREEN_FOCK_DOMAIN__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION"
+}

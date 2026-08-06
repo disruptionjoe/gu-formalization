@@ -46,6 +46,10 @@ selected notes below and in each script header.
 - `conditional_physics_ledger_v010_scope_audit.py`
 - `conditional_physics_ledger_v011_scope_audit.py`
 - `conditional_physics_ledger_v012_scope_audit.py`
+- `conditional_physics_ledger_v013_scope_audit.py`
+- `conditional_physics_ledger_v014_scope_audit.py`
+- `conditional_physics_ledger_v015_scope_audit.py`
+- `conditional_physics_ledger_v016_scope_audit.py`
 - `cycle1_branch3_dynamical_ig_current_audit.py`
 - `cycle1_qft_positive_two_point_certificate_audit.py`
 - `cycle1_source_selected_pati_salam_stabilizer_audit.py`
@@ -1406,9 +1410,12 @@ selected nonzero K77 algebraic stationary branch. It now also enforces ledger
 v0.13, the distinct `100/117` and `124/117` Gauss Hessians, the common defect
 Krein/Green domain, exact opposite residues, the direct-plus-soldered current
 chain, then the v0.14 metric-soldering/even-BV/local-curvature results and the
-v0.15 first-interaction and global-zero-mode update. The latest return is
-`SOURCE-CORRECTS`: algebraic super-IG descent is not a default odd action. It
-keeps the interacting `C`, full cubic bank, domain/measure functional,
+v0.15 first-interaction and global-zero-mode update, followed by the v0.16
+fixed-background field-mixing spectral `C` and exact exceptional-locus
+classification. The latest return is `SOURCE-SILENT` for this C construction;
+the predecessor source correction still holds that algebraic super-IG descent
+is not a default odd action. It keeps the full nonlinear/Fock `C`, scalar
+fluctuations, full cubic bank, common domain, domain/measure functional,
 algebraic global descent, action-owned `w(z)` and external `P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
@@ -1424,3 +1431,15 @@ solvability dichotomy, and the conditional normalized global projector. It
 ranks a fourth scoped zero-mode quotient without global residue reduction and
 requires the domain/measure functional, interacting `C`, algebraic super-IG
 global descent, FLRW `w(z)` and P2 identification to remain open.
+
+## Conditional physics ledger v0.16 scope gate
+
+`conditional_physics_ledger_v016_scope_audit.py` preserves v0.15 byte-for-
+byte, recomputes the unchanged 82-row denominator, verdict and global residue
+counts, and requires exactly four row migrations. It wires the exact positive
+spectral fundamental symmetry of the first action-owned fixed-background TT
+Hessian, the rank-four/zero-freedom first correction, and the generic Jordan,
+complex-spectrum, disconnected-real and scalar-nonselection loci. It keeps
+stationary-vacuum selection, the full nonlinear action, scalar fluctuations,
+the full cubic bank, common BV/Green/Fock domain and UV positivity open, and
+does not consume P1/P2/P3.

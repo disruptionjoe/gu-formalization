@@ -23,6 +23,10 @@ fall, a prediction becomes sharper, or a scoped adverse result rules out a
 route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
+The current machine progress surface is
+`lab/process/conditional-physics-ledger-v0.16.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.16.md`.
+
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
@@ -331,6 +335,19 @@ expressly declines an odd action as a prerequisite for GU. The physical
 interacting positivity problem and algebraic super-IG descent are separate
 Build targets.
 
+The first field-mixing continuation is now exact at fixed constant scalar
+background. The action-owned cubic changes the two-field TT Hessian, and on
+the distinct-real-spectrum component connected to the free point the spectral
+formula `C=(2L-tr(L)I)/sqrt(Delta)` is the unique positive fundamental
+symmetry for the fixed native Krein form. Its four first-order matrix entries
+face constraint rank four, leaving zero correction freedom after the action
+coefficients and background are supplied. Generic Jordan walls, the intervening
+complex-spectrum region, the disconnected real branch with reversed positive
+orientation and the special scalar nonselection collision are classified
+exactly. The background is not proved stationary, and this is not a nonlinear
+action symmetry, Fock-space metric, common domain or UV theorem. Weinstein's
+released GU sources are `SOURCE-SILENT` on this construction.
+
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
 constant without deriving its action placement, conservation identity,
@@ -342,11 +359,12 @@ Einstein source.
 Current gate:
 
 ```text
-FIRST_PERTURBATIVE_INTERACTING_C_OR_FULL_CUBIC_OBSTRUCTION__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION
+FULL_CUBIC_SCALAR_FLUCTUATION_C_AND_COMMON_BV_GREEN_FOCK_DOMAIN__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION
 ```
 
-The next work has three independent owners. Interaction positivity must build
-the first perturbative `C` or broaden the obstruction beyond scalar signs.
+The next work has three independent owners. Interaction positivity must lift
+the fixed-background `C` through scalar fluctuations and the full cubic bank,
+then construct the common BV/Green/Fock domain or return a scoped obstruction.
 Super-IG must globalize the mixed odd bracket without manufacturing an odd
 action. Cosmology must derive or explicitly supply the normalized functional
 and insert its projector into one action before FLRW or `w(z)` work. A

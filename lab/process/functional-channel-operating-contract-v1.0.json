@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.15.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.15.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.16.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.16.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,
@@ -74,7 +74,7 @@
     {
       "id": "GU-COSMO-DYNAMIC-01",
       "owner": "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER",
-      "status": "FREE_SPECTRAL_PARITY_FAILS_FIRST_OWNED_CUBIC__INTERACTING_C_OPEN__FINITE_LOCAL_CONSTANT_MODE_CLASS_CLOSED_NOSCREEN__GLOBAL_PROJECTOR_SCREENS_CONDITIONALLY__DOMAIN_MEASURE_DATUM_AND_SUPER_IG_GLOBAL_DESCENT_OPEN",
+      "status": "FIXED_BACKGROUND_TT_SPECTRAL_C_BUILT_ON_FREE_CONNECTED_COMPONENT__FULL_NONLINEAR_FOCK_DOMAIN_C_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN",
       "historically_held_rows": ["LT-GR1", "LT-GR1b", "LT-GR2", "LT-GR5", "LT-GR6"],
       "active_rows": ["LT-GR1", "LT-GR1b", "LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR3", "LT-GR5", "LT-GR6"],
       "primary_row_on_hold": null,
@@ -106,7 +106,9 @@
         "lab/sources/selected-branch-bv-flrw-source-reinspection-2026-08-05.md",
         "explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md",
         "lab/sources/first-interaction-krein-global-zero-mode-source-reinspection-2026-08-05.md",
-        "explorations/conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md"
+        "explorations/conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md",
+        "lab/sources/first-perturbative-background-c-operator-source-reinspection-2026-08-05.md",
+        "explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -118,12 +120,12 @@
         "EFFECTIVE_W_OF_Z_OBSERVABLE"
       ],
       "forbidden_collapse": "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY",
-      "source_return": "SOURCE-CORRECTS",
-      "current_evidence_boundary": "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE__ACTION_OWNED_CONSTANT_THETA_H_SQUARED_VERTEX_HAS_DIAGONAL_AND_MIXED_MASS_PARITY_SUPPORT__NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P__GENERAL_FIELD_MIXING_NONLINEAR_OR_NONLOCAL_INTERACTING_C_OPEN__ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE__NORMALIZED_GLOBAL_PROJECTOR_SCREENS_CONSTANT_SHIFTS_EXACTLY_ON_SUPPLIED_DOMAIN_MEASURE__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_NOT_DERIVED_OR_IDENTIFIED_WITH_P2__SOURCE_CORRECTS_SUPER_IG_TO_ALGEBRAIC_BRACKET_JACOBI_REAL_FORM_GLOBAL_DESCENT_NOT_DEFAULT_ODD_ACTION__FLRW_W_OF_Z_OPEN",
+      "source_return": "SOURCE-SILENT",
+      "current_evidence_boundary": "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE__NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P__FIXED_CONSTANT_SCALAR_BACKGROUND_SELECTED_ACTION_TT_HESSIAN_HAS_UNIQUE_POSITIVE_SPECTRAL_C_ON_DISTINCT_REAL_COMPONENT_CONNECTED_TO_FREE_POINT__FIRST_C_CORRECTION_FOUR_COEFFICIENTS_CONSTRAINT_RANK_FOUR_ZERO_FREEDOM_AFTER_UPSTREAM_INPUTS__GENERIC_JORDAN_COMPLEX_INTERVAL_DISCONNECTED_REAL_ORIENTATION_AND_SCALAR_NONSELECTION_LOCI_CLASSIFIED__BACKGROUND_NOT_PROVED_STATIONARY__FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN__ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE__NORMALIZED_GLOBAL_PROJECTOR_SCREENS_CONSTANT_SHIFTS_EXACTLY_ON_SUPPLIED_DOMAIN_MEASURE__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_NOT_DERIVED_OR_IDENTIFIED_WITH_P2__SUPER_IG_ALGEBRAIC_BRACKET_JACOBI_REAL_FORM_GLOBAL_DESCENT_NOT_DEFAULT_ODD_ACTION__FLRW_W_OF_Z_OPEN",
       "release_condition": "PRIMARY_SOURCE_REINSPECTION_PLUS_APPEND_ONLY_LEDGER_SPLIT_OR_EXPLICIT_NO_SPLIT_JUSTIFICATION",
       "release_condition_met": true,
-      "resolved_by": "explorations/conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md",
-      "next_gate": "FIRST_PERTURBATIVE_INTERACTING_C_OR_FULL_CUBIC_OBSTRUCTION__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION"
+      "resolved_by": "explorations/conditional-build/first-perturbative-background-c-operator-2026-08-05.md",
+      "next_gate": "FULL_CUBIC_SCALAR_FLUCTUATION_C_AND_COMMON_BV_GREEN_FOCK_DOMAIN__MIXED_SUPER_IG_GLOBAL_DESCENT__COVARIANT_NORMALIZED_OBSERVER_FUNCTIONAL_IN_ONE_ACTION"
     }
   ],
   "non_effects": ["NO_SCHEDULER_CHANGE", "NO_TRIGGER_CHANGE", "NO_ACTIVATION_GRANT_CHANGE", "NO_LANE_COUNT_CHANGE", "NO_CANON_CHANGE", "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"]

@@ -7,6 +7,20 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## First perturbative background C-operator (2026-08-05)
+
+`conditional-build/first-perturbative-background-c-operator-2026-08-05.md`
+constructs the exact positive spectral fundamental symmetry for the
+selected-action two-field TT Hessian at fixed constant scalar background.
+The first correction has four coefficients and constraint rank four, leaving
+no C-correction freedom after the action coefficients and background are
+supplied. Exact discriminant factorization separates generic Jordan walls,
+the complex-spectrum interval, the disconnected real component and a scalar
+nonselection point. It is not a stationary-vacuum, complete nonlinear-action,
+Fock-space or domain theorem. Source return is `SOURCE-SILENT`; ledger v0.16
+retains `82/82`, `33/19/24/6` and the global residue while migrating four rows
+without spending P1/P2/P3.
+
 ## First-interaction Krein and global zero-mode horn (2026-08-05)
 
 `conditional-build/first-interaction-krein-and-global-zero-mode-horn-2026-08-05.md`
