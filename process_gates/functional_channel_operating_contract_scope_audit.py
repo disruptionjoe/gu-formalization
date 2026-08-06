@@ -60,10 +60,11 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.24.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.24.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.24.md")
+assert "conditional-physics-ledger-v0.25.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.25.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.25.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
+assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -167,4 +168,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.24 ledger split first-order, residual-square and observer-full-II action owners before Q1 while preserving unused P1/P2/P3")
+print("PASS: functional channels and v0.25 ledger retain the action-owner split while composing selected primitive epsilon and compact Dirichlet Green closure without BFV promotion")

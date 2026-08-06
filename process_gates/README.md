@@ -1555,3 +1555,12 @@ one-dimensional plant; one-way solution redundancy; exactly one LT-GR3
 distance migration; the split non-conflicting queue; mandatory symplectic
 preboundary fence; unchanged verdicts, residue and four scoped quotients; and
 unused P1/P2/P3.
+
+## Selected first-order epsilon/preboundary Compose and ledger v0.25 gate
+
+`selected_first_order_epsilon_preboundary_compose_scope_audit.py` enforces the
+selected row's inclusion in the prior eight-product epsilon domain, exact
+principal/homogeneous/primitive owner composition, compact Dirichlet zero
+flux, live unrestricted flux, repository-not-source product attribution,
+mandatory symplectic/BFV fence, exactly five distance-only migrations,
+unchanged verdicts/residue/quotients and unused P1/P2/P3.

@@ -55,7 +55,8 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.24.json` - current machine ledger; source and exact Layer-0 checks split the first-order selected action, its residual norm-square second action and the observer full-II functional, migrating only `LT-GR3`'s distance while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.25.json` - current machine ledger; the selected first-order branch now composes exact principal, homogeneous, primitive-epsilon and compact-Dirichlet Green owners, migrating five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-first-order-epsilon-preboundary-compose.json` - machine receipt for selected-product inclusion in the prior epsilon domain, exact compact Dirichlet flux closure and live unrestricted preboundary flux.
 - `two-layer-action-selected-cubic-owner-retype.json` - machine receipt for the two-layer queue split, generic cubic independence, one-way residual redundancy and open `I2B`-to-observer-full-II owner map.
 - `conditional-physics-ledger-v0.22.json` - immutable predecessor that closes principal diagonal descent while leaving the intrinsic homogeneous orbit open.
 - `selected-cubic-intrinsic-homogeneous-ward-closure.json` - exact 91-generator intrinsic Ward closure, frozen/wrong-sign Shiab plants, independent Sage structural control and full direct/moving/preboundary successor.

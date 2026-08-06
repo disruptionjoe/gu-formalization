@@ -7,6 +7,15 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected first-order epsilon / preboundary Compose (2026-08-06)
+
+`conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md`
+specializes the existing all-eight-row primitive epsilon and Green theorem to
+the later-selected `comm/symi/symi` action branch. It composes exact principal,
+homogeneous and primitive-epsilon owners and retains the unrestricted boundary
+flux while closing compact Dirichlet flux. Ledger v0.25 migrates five distances
+without changing verdicts, residue, quotient count or P1/P2/P3.
+
 ## Two-layer action / selected-cubic owner retype (2026-08-06)
 
 `conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md`

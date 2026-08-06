@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT FIRST-ORDER PREBOUNDARY FENCE.** The selected
+> `comm/symi/symi` branch already has the primitive epsilon Euler row and a
+> compact-core Dirichlet Green closure because the earlier exact theorem
+> covered all eight displayed products. Do not rebuild that row. Principal,
+> homogeneous and primitive-epsilon owners now compose at fixed metric.
+> Unrestricted flux, moving metric/Hodge/DeWitt/Krein/density,
+> selected-action observation composition, diffeomorphism/odd BV, global
+> domain and physical BFV remain open. Current ledger: v0.25.
+
 > **CURRENT TWO-LAYER ACTION FENCE.** Do not use “curvature-squared” as an
 > action owner. The source's first-order transgression `I1B`, its residual
 > `Upsilon_B`, the second-layer norm square `I2B=||Upsilon_B||^2/2`, and the
@@ -92,7 +101,7 @@ as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
 `GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in
-`lab/process/conditional-physics-ledger-v0.24.json`:
+`lab/process/conditional-physics-ledger-v0.25.json`:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.

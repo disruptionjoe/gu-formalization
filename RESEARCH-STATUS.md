@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Compose update 2026-08-06 (ledger v0.25; no verdict, residue, canon
+or public-posture change).** The selected first-order `comm/symi/symi` branch
+is inside the prior exact all-eight-row primitive epsilon/Green theorem. It now
+composes with principal two-connection descent and homogeneous moving-Shiab
+Ward closure. The compact-core `H10 intersect H1_0 -> H9` Green graph has zero
+Dirichlet flux; unrestricted boundary flux remains live and is not a physical
+BFV class. Five distances move. The first-order remaining burden is moving
+metric/pairing/density, selected-action observation composition,
+diffeomorphism/odd BV, global domain and unrestricted reduction. See
+`explorations/conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md`.
+
 **Active Compose correction 2026-08-06 (ledger v0.24; no verdict, residue,
 canon or public-posture change).** The previous rank-one queue collapsed the
 first-order selected action, its residual norm-square second action, and the

@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 SELECTED FIRST-ORDER EPSILON / PREBOUNDARY COMPOSE.**
+> [`explorations/conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md`](explorations/conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md)
+> composes the selected `comm/symi/symi` row with the already-exact primitive
+> epsilon Euler/Green theorem, two-connection principal descent and homogeneous
+> moving-Shiab Ward closure. Compact-core Dirichlet flux is exactly zero while
+> unrestricted flux stays live; no BFV quotient is claimed. Ledger v0.25 keeps
+> `82/82`, `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four
+> scoped quotients; five distances move. Next: moving metric/Hodge/DeWitt/
+> Krein/density plus selected-action observation composition, then
+> diffeomorphism/odd BV and global unrestricted preboundary/BFV.
+
 > **2026-08-06 TWO-LAYER SELECTED-CUBIC OWNER RETYPE.**
 > [`explorations/conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md`](explorations/conditional-build/two-layer-action-selected-cubic-owner-retype-2026-08-06.md)
 > separates the first-order transgression action `I1B`, its residual

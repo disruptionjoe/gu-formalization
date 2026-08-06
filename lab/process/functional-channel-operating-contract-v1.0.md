@@ -24,14 +24,19 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.24.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.24.md`.
+`lab/process/conditional-physics-ledger-v0.25.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.25.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
 transgression action, its residual norm-square second action, or the observer
 full-II functional. A map between them must be constructed and must compare
 Euler and preboundary classes before Q1.
+
+Current first-order boundary directive: primitive epsilon and compact-core
+Dirichlet Green closure are already exact on the selected product row. Do not
+rebuild them. Preserve unrestricted boundary flux and route the remaining
+Build to moving geometry/observation, diffeomorphism/odd BV and global BFV.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

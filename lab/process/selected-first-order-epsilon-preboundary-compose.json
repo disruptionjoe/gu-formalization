@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "SELECTED_FIXED_METRIC_EPSILON_PREBOUNDARY_COMPOSED__COMPACT_DIRICHLET_GREEN_EXACT__UNRESTRICTED_GLOBAL_BFV_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "ledger_version": "0.25",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "principal_vs_homogeneous": "DISTINCT",
+    "homogeneous_vs_primitive_epsilon": "DISTINCT",
+    "dirichlet_vs_unrestricted_boundary": "DISTINCT",
+    "preboundary_flux_vs_bfv_class": "DISTINCT",
+    "fixed_metric_epsilon_vs_moving_geometry": "DISTINCT"
+  },
+  "source": {
+    "return_code": "SOURCE-CORRECTS",
+    "confirms": "MOVING_SHIAB_FAMILY_TWO_CONNECTION_EPSILON_CHAIN_AND_EQUIVARIANCE",
+    "corrects": "HODGE_METRIC_DENSITY_SECTION_ARE_SEPARATE_PRIMITIVE_VARIATIONS",
+    "silent": "SELECTED_PRODUCT_ATTRIBUTION_GLOBAL_Y14_DOMAIN_DIFFEO_ODD_BV_AND_PHYSICAL_BFV"
+  },
+  "selected_product": {
+    "row": ["comm", "symi", "symi"],
+    "selection_owner": "REPOSITORY_PRINCIPAL_BIANCHI_NONZERO_CRITERION",
+    "source_attribution": "NOT_ATTRIBUTED_TO_WEINSTEIN",
+    "member_of_prior_eight_row_epsilon_domain": true
+  },
+  "composed_chain": {
+    "principal_diagonal_rank": 0,
+    "homogeneous_moving_shiab_generators": 91,
+    "primitive_epsilon_euler": "D_B_ADJOINT_E_B_MINUS_E_T_PLUS_D_EPSILON_SHIAB_ADJOINT_K_SHIAB",
+    "compact_green_graph": "D_B_H10_INTERSECT_H1_0_TO_H9",
+    "dirichlet_flux": 0,
+    "unrestricted_flux": "ETA_TRACE_PAIRED_WITH_NORMAL_E_B_MINUS_E_T"
+  },
+  "independent_control": {
+    "model": "EXACT_RATIONAL_ORIENTED_INTERVAL_SUMMATION_BY_PARTS",
+    "unrestricted_flux": 11,
+    "dirichlet_flux": 0
+  },
+  "constraint_cost": {
+    "fitted_coefficients": 0,
+    "new_external_datum": 0,
+    "residue_reduction": 0,
+    "new_quotients": 0
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "held_open": [
+    "MOVING_METRIC_HODGE_DEWITT_KREIN_DENSITY_EULER_AND_PRESYMPLECTIC_OWNER",
+    "SELECTED_ACTION_OBSERVATION_FIRST_AND_NONLINEAR_JET_COMPOSITION",
+    "DIFFEO_AND_ODD_SUPERIG_BV",
+    "GLOBAL_PHYSICAL_GREEN_DOMAIN",
+    "UNRESTRICTED_PREBOUNDARY_BFV_REDUCTION",
+    "COMMON_INTERACTING_POSITIVITY_AND_Q1"
+  ],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-06-selected-first-order-epsilon-preboundary-compose-review.md",
+  "next_gate": "FIRST_ORDER_MOVING_METRIC_HODGE_DEWITT_KREIN_DENSITY_AND_OBSERVATION_ACTION_COMPOSITION_PLUS_DIFFEO_ODD_BV_AND_GLOBAL_UNRESTRICTED_PREBOUNDARY__SECOND_LAYER_OWNER_MAP_REMAINS_SEPARATE"
+}
