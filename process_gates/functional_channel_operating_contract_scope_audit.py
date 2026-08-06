@@ -76,6 +76,16 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 
+donor = contract["cross_theory_mechanism_donor_policy"]
+assert donor["standing_role"] == "BOUNDED_COMPOSE_CHECKPOINT__NOT_A_LANE"
+assert donor["selection_cap"] == 2
+assert donor["selected_ports"] == ["NCG-CONTROL", "STRING-LINF"]
+assert donor["wrong_type_is_not_gap"] is True
+assert donor["frg_admission"] == "STABLE_ACTION_NUMERATOR_FIELD_CONTENT_AND_COMMON_DOMAIN_REQUIRED"
+assert "Cross-theory mechanism donors" in human
+assert "wrong-type object is not relabelled" in human
+assert "A free level or period choice is a new datum" in human
+
 directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"

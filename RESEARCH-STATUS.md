@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Compose checkpoint 2026-08-05 (no ledger/canon/public-posture change).**
+A bounded donor assessment has separated reusable mechanisms from attractive
+homonyms across Connes NCG, string/higher gauge, LQG and asymptotic safety. Two
+method ports survive: the finite spectral-SM checklist as a control over the
+GU-native zero-order/SM recovery map, and CE/L-infinity integration as a route
+for the already-open algebraic super-IG global descent. The finite NCG object,
+string compactification and the current LQG measure are wrong-type; string
+anomaly and AS/FRG controls are already substantially present, with FRG delayed
+until the action, numerator and common domain stabilize. This does not add a
+Lane, consume data or migrate a physics row. The next Build remains the selected
+`Y14` cubic on-shell numerator, in parallel with the native normalized observer
+functional and super-IG descent. See
+`explorations/conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md`.
+
 **Active construction update 2026-08-05 (no canon/public-posture change).**
 The complete selected `theta(q0+qm)^2` cubic now has its first correctly typed
 continuum state-space gate. Its full three-field Hessian vanishes at the

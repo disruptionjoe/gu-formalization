@@ -77,6 +77,20 @@
     "independent_owner_required": true,
     "allowed_dispositions": ["GENUINE_FALSIFICATION", "FORK_ARTIFACT", "SCOPE_ERROR", "STALE_PREMISE"]
   },
+  "cross_theory_mechanism_donor_policy": {
+    "standing_role": "BOUNDED_COMPOSE_CHECKPOINT__NOT_A_LANE",
+    "trigger": "CURRENT_BUILD_DISTANCE_HAS_NO_NATIVE_ROUTE_OR_THREE_MATERIAL_BUILDS_CREATE_NEW_COMPOSITION_DEBT",
+    "required_fields": ["recipient", "translation_map", "datum_cost", "constraint_effect", "kill_condition", "revival_trigger"],
+    "classifications": ["EXACT_PORT", "METHOD_PORT", "ANALOGY_ONLY", "WRONG_TYPE", "ALREADY_PRESENT"],
+    "selection_cap": 2,
+    "selected_ports": ["NCG-CONTROL", "STRING-LINF"],
+    "wrong_type_is_not_gap": true,
+    "ncg_object_import_forbidden": ["A_F", "KO6_REAL_STRUCTURE", "FINITE_D_F"],
+    "linfinity_free_level_rule": "FREE_LEVEL_OR_PERIOD_CHOICE_IS_NEW_DATUM_AND_KILLS_ZERO_DATUM_PORT",
+    "lqg_measure_revival": "EXPLICIT_GU_TO_PROJECTIVE_CONNECTION_SYSTEM_FUNCTOR_PRESERVING_CARRIER_COVARIANCE_AND_ZERO_MODE",
+    "frg_admission": "STABLE_ACTION_NUMERATOR_FIELD_CONTENT_AND_COMMON_DOMAIN_REQUIRED",
+    "standing_receipt": "lab/process/cross-theory-mechanism-donor-crosswalk.json"
+  },
   "active_scientific_directives": [
     {
       "id": "GU-COSMO-DYNAMIC-01",

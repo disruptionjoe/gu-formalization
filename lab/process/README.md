@@ -55,6 +55,7 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
+- `cross-theory-mechanism-donor-crosswalk.json` - bounded Compose receipt for eight NCG/string/LQG/AS mechanism candidates, the two selected method ports, zero-datum admission fences and the post-checkpoint construction order.
 - `conditional-physics-ledger-v0.17.json` - current machine ledger; 82 active targets, exact zero-field scalar-Hessian correction and three-species odd-channel continuum shells, with the selected on-shell numerator, Q1, physical sheet and common domain preserved as open. Verdict counts remain `33/19/24/6`, residue remains `84 + >=19 functions + 9 forks`, and four scoped quotients remain ranked without booking a global residue reduction.
 - `selected-cubic-qft-threshold-and-numerator-gate.json` - machine receipt for the full cubic Hessian typing, scalar-parity support, selected mass ratio, exact massless threshold atlas and numerator-before-pole fence.
 - `conditional-physics-ledger-v0.16.json` - frozen predecessor ledger for the exact fixed-background field-mixing TT `C`, classified Jordan/complex/disconnected/scalar loci and preserved full nonlinear/Fock/domain boundary.

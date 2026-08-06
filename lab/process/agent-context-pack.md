@@ -51,6 +51,19 @@ evidence-backed no-change reason. Compose runs after three material Build
 outputs or immediately after a verdict, residue, fork, high-fanout premise,
 source correction or adverse-row change. No fixed channel percentages apply.
 
+### Cross-theory donor checkpoint (binding)
+
+Cross-theory borrowing is a bounded Compose function, never a new Lane. Read
+`lab/process/cross-theory-mechanism-donor-crosswalk.json`. Every port requires a
+typed recipient/translation/datum-cost/constraint-effect/kill/revival contract;
+`WRONG_TYPE` is not a gap. Exactly two current method ports are admitted:
+`NCG-CONTROL` for the GU-native SM recovery checklist and `STRING-LINF` for
+algebraic super-IG global descent. Never import the Connes finite algebra, KO-6
+or finite `D_F`; a free L-infinity level/period is a new datum. The LQG measure
+does not supply the observer functional without an explicit carrier-preserving
+functor. Do not run FRG until the action, numerator, field content and common
+domain are stable.
+
 Over-determined finders escalate; independent owners adjudicate. Eric-lane
 decisions return `SOURCE-CONFIRMS`, `SOURCE-CORRECTS` or `SOURCE-SILENT`.
 Verify attacks changed/high-fanout claims and does not relabel unchanged replay

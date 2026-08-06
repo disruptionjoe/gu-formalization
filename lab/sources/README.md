@@ -86,6 +86,11 @@ identifications as separate grades.
 - [`keating-interview-2025-06-12-source-record.md`](keating-interview-2025-06-12-source-record.md)
   - primary-source correction for Weinstein's dynamic two-field dark-energy
     magnitude argument.
+- [`cross-theory-mechanism-donor-source-audit-2026-08-05.md`](cross-theory-mechanism-donor-source-audit-2026-08-05.md)
+  - primary-method audit for Connes spectral controls, Ashtekar--Lewandowski
+    projective integration, asymptotic-safety evidence/scheme dependence and
+    higher-gauge/L-infinity integration; returns `SOURCE-SILENT` on the GU
+    translations.
 - [`secondary-summary-boyle-turok-circulating-claims-2026-08-05.md`](secondary-summary-boyle-turok-circulating-claims-2026-08-05.md)
   - provenance-only intake for circulating Boyle--Turok claims.
 - [`precontract-wave-0b-trace-fork-source-reinspection-2026-08-05.md`](precontract-wave-0b-trace-fork-source-reinspection-2026-08-05.md)

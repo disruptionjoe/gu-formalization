@@ -7,6 +7,16 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Cross-theory mechanism-donor checkpoint (2026-08-05)
+
+`conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md`
+classifies eight precise candidate ports from NCG, string/higher gauge, LQG and
+asymptotic safety. It selects only the NCG finite-control method and L-infinity
+global-integration method, imports no rival ontology and moves no ledger row.
+`conditional-build/post-donor-crosswalk-five-wave-scaffold-2026-08-05.md`
+returns those controls to the selected numerator, observer-functional,
+super-IG, SM-map and conditional-UV construction order.
+
 ## Selected-cubic QFT threshold and numerator gate (2026-08-05)
 
 `conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md`

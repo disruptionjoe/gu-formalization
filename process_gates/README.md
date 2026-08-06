@@ -1423,6 +1423,16 @@ external `P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, canon, external datum or public posture.
+## Cross-theory mechanism-donor scope gate
+
+`cross_theory_mechanism_donor_crosswalk_scope_audit.py` enforces that the donor
+assessment remains a bounded Compose checkpoint, selects exactly the two
+method ports `NCG-CONTROL` and `STRING-LINF` under the two-port cap, moves no
+ledger row or external datum, preserves Curt separation/no-third-lane, and
+wires the five-wave construction front door. It also requires the operating
+contract to forbid wrong-type-as-gap, finite-NCG-object import, free higher-
+gauge levels and premature FRG.
+
 ## Conditional physics ledger v0.15 scope gate
 
 `conditional_physics_ledger_v015_scope_audit.py` preserves v0.14 byte-for-

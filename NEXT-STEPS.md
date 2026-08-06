@@ -7,6 +7,22 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
+> **2026-08-05 CROSS-THEORY DONOR CHECKPOINT / FIVE-WAVE RESET.**
+> [`explorations/conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md`](explorations/conditional-build/cross-theory-mechanism-donor-crosswalk-2026-08-05.md)
+> classifies eight candidate transfers from Connes NCG, string/higher gauge,
+> LQG and asymptotic safety. Exactly two method ports are selected:
+> `NCG-CONTROL` for the GU-native SM recovery checklist and `STRING-LINF` for
+> algebraic super-IG global descent. No rival-theory object is imported. The
+> LQG measure is wrong-type at the current observer-functional gate; FRG is
+> already present and must wait for a stable action/numerator/domain. Ledger
+> v0.17 remains `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`; `ledger_row_changes: none`, P1/P2/P3 remain
+> unused. The next five-wave order is: (1) selected reduced on-shell numerator,
+> (2) native normalized observer functional, (3) super-IG bracket/global
+> L-infinity descent, then mandatory Compose reconciliation, (4) full SM
+> control map and (5) conditional UV/FRG only if admitted. See
+> [`explorations/conditional-build/post-donor-crosswalk-five-wave-scaffold-2026-08-05.md`](explorations/conditional-build/post-donor-crosswalk-five-wave-scaffold-2026-08-05.md).
+
 > **2026-08-05 SELECTED-CUBIC QFT THRESHOLD / NUMERATOR GATE.**
 > [`explorations/conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md`](explorations/conditional-build/selected-cubic-qft-threshold-and-numerator-gate-2026-08-05.md)
 > corrects the previous next-gate typing: scalar fluctuation contributes no new

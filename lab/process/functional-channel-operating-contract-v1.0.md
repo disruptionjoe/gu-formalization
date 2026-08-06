@@ -151,6 +151,30 @@ eligible condition:
 Construction remains the target. Hardening is scheduled when a construction,
 claim transition or publication dependency creates the demand.
 
+## Cross-theory mechanism donors
+
+Cross-theory borrowing is a bounded **Compose checkpoint**, not a new Lane.
+Every proposed port names its GU recipient, a typed translation map, datum cost,
+constraint effect, kill condition and revival trigger before it is selected.
+Classifications are `EXACT_PORT`, `METHOD_PORT`, `ANALOGY_ONLY`, `WRONG_TYPE`
+and `ALREADY_PRESENT`; a wrong-type object is not relabelled as a construction
+gap. At most two ports may be selected in one checkpoint.
+
+The standing assessment selects two method ports only:
+
+- `NCG-CONTROL` applies the finite spectral-Standard-Model control roles to the
+  GU-native recovery map while forbidding import of `A_F`, KO-6 or finite
+  `D_F` as GU data.
+- `STRING-LINF` applies CE/L-infinity integration gates to the source-required
+  super-IG global descent. A free level or period choice is a new datum and
+  kills the zero-datum port.
+
+The LQG cylindrical measure is wrong-type for the current normalized observer
+functional until a carrier/covariance/zero-mode-preserving functor is built.
+Asymptotic-safety FRG is already present and is admitted again only after the
+selected action, numerator, field content and common domain stabilize. The
+standing receipt is `lab/process/cross-theory-mechanism-donor-crosswalk.json`.
+
 ## Reservation and reconciliation
 
 Two reservation levels apply:
