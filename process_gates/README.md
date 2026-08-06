@@ -1688,3 +1688,14 @@ Green flux. It requires N2 to be retired only as the completed first-layer
 spin-two carrier, preserves the graph-only scoped theorem, and promotes the
 distinct second-layer I2B/observer-full-II owner map without changing verdict
 counts, residue, quotients, P1/P2/P3, canon or public posture.
+
+## Selected second-layer I2B/Gauss owner map and ledger v0.38 gate
+
+`selected_second_layer_i2b_gauss_owner_map_scope_audit.py` enforces the exact
+rank-100 Gauss insertion and projected trace-reversed form inside the complete
+rank-1,274 `Cl2` residual carrier. It also requires the explicit `2/39`
+orthogonal leakage witness, the `I2B_GAUSS_WRONG_TYPE` disposition,
+`SOURCE-SILENT`, mandatory variational/symplectic refusal of a physical phase-
+space promotion, and the complete 1,274-by-100 residual target as successor.
+It forbids verdict, residue, quotient, P1/P2/P3, canon and public-posture
+movement.

@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.37.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.37.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.37.md")
+assert "conditional-physics-ledger-v0.38.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.38.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.38.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -83,7 +83,9 @@ assert "FULL_CURVATURE_PLUS_DBT_SOURCE_CROSS_RANKS13_15_15" in contract["standin
 assert "SCHUR_RANKS13_15_14" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "N2_KERNEL_GAUGE4_PLUS_HELICITY1_DOUBLE_NOT_HELICITY2" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "N2_LOCAL_PRINCIPAL_GREEN_FLUX_RANK2_DEFINITE_GAUGE_DESCENDING" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "SECOND_LAYER_I2B_OBSERVER_FULL_II_OWNER_MAP_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "I2B_GAUSS_PROJECTED_RANK100_INERTIA54_46" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "FULL_1274_BY_100_RESIDUAL_TARGET_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -111,16 +113,16 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "GRADE1_SCHUR_LIVE__N2_HELICITY1_NOT_SPIN2__N2_LOCAL_GREEN_FLUX_LIVE__SECOND_LAYER_OWNER_MAP_PRIMARY__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
-assert directive["source_return"] == "SOURCE-CONFIRMS_AND_SOURCE-SILENT"
+assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__I2B_GAUSS_PROJECTED_COMPONENT_EXACT__FULL_RESIDUAL_LEAKAGE_LIVE__FULL_RESIDUAL_TARGET_PRIMARY__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "CONSTRUCT_OR_REFUTE_I2B_TO_OBSERVER_FULL_II" in directive["next_gate"]
-assert "CUBIC_EULER_HELICITY_AND_PREBOUNDARY_CLASSES" in directive["next_gate"]
+assert "BUILD_FULL_1274_BY_100_RESIDUAL_TARGET" in directive["next_gate"]
+assert "FULL_I2B_QUADRATIC_CUBIC_EULER_PREBOUNDARY_HELICITY" in directive["next_gate"]
 assert "COMMON_RIGHT_H_KREIN_DOMAIN" in directive["next_gate"]
 assert "ODD_BV_BFV" in directive["next_gate"]
 assert "ONLY_IF_HELICITY2_SURVIVES" in directive["next_gate"]
@@ -147,7 +149,9 @@ assert "FROZEN_SHIAB_DEFECTS4" in directive["current_evidence_boundary"]
 assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
 assert "N2_HELICITY1_NOT_SPIN2" in directive["current_evidence_boundary"]
 assert "N2_LOCAL_GREEN_FLUX_LIVE" in directive["current_evidence_boundary"]
-assert "SECOND_LAYER_OWNER_MAP_PRIMARY" in directive["current_evidence_boundary"]
+assert "I2B_GAUSS_PROJECTED_COMPONENT_EXACT" in directive["current_evidence_boundary"]
+assert "FULL_RESIDUAL_LEAKAGE_LIVE" in directive["current_evidence_boundary"]
+assert "FULL_1274_BY_100_RESIDUAL_TARGET_PRIMARY" in directive["current_evidence_boundary"]
 assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in directive["latest_build_evidence"]
@@ -177,7 +181,10 @@ assert "UNIQUE_POSITIVE_N2_TWO_EXTRA_MODE_LOCUS_APPROX3_175378" in directive["la
 assert "N2_ROTATION_POLYNOMIAL_X2_PLUS1_NOT_X2_PLUS4" in directive["latest_build_evidence"]
 assert "N2_LOCAL_PRINCIPAL_GREEN_FLUX_RANK2_DEFINITE_GAUGE_DESCENDING" in directive["latest_build_evidence"]
 assert "N2_SPIN2_ROUTE_KILLED" in directive["latest_build_evidence"]
-assert "I2B_OBSERVER_FULL_II_OWNER_MAP_PRIMARY" in directive["latest_build_evidence"]
+assert "I2B_GAUSS_INSERTION_ISOMETRY_RANK100" in directive["latest_build_evidence"]
+assert "GAUSS_PROJECTED_INERTIA54_46" in directive["latest_build_evidence"]
+assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in directive["latest_build_evidence"]
+assert "I2B_GAUSS_WRONG_TYPE" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -217,4 +224,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.37 ledger preserve predecessor theorems, retire the N2 helicity-one locus as spin two, and route the distinct second-layer owner map without residue or quotient promotion")
+print("PASS: functional channels and v0.38 ledger preserve predecessor theorems, retain the N2 helicity-one kill, type the projected Gauss block and its live Cl2 leakage, and route the full residual target without residue or quotient promotion")

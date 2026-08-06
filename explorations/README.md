@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected second-layer I2B/Gauss owner map (2026-08-06)
+
+`conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`
+computes the exact rank-100 Gauss projection inside the rank-1,274 `Cl2`
+residual carrier. The projected form has inertia `(54,46)` and exact
+trace-reversed coefficients, but a `2/39` orthogonal leakage witness proves
+that it is not the full `I2B` pullback. Ledger v0.38 moves five distances only
+and routes the next Build to the full 1,274-by-100 residual target, other
+Clifford grades and co-moving epsilon/frame/observation terms.
+
 ## Selected-action N2 little-group and Green flux (2026-08-06)
 
 `conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md`

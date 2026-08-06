@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.37.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.37.md`.
+`lab/process/conditional-physics-ledger-v0.38.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.38.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -61,11 +61,18 @@ grade-one Hessian is invertible with positive-`kappa_1` inertia `(97,99)`, and
 the full curvature-plus-`d_B T` source cross has ranks `13/15/15` with Schur
 ranks `13/15/14`. The paired observation receiver preserves the block.
 Generic `kappa_1` lifts the graph-only null tensor pair; the unique positive
-two-extra-mode null coefficient locus remains physically untyped. Do not
-rebuild these objects, restore the graph-only match, call auxiliary elimination
-a quotient, select the coefficient, reduce residue, or import separately
-owned full-II. Type the candidate under the null little group and Green form,
-then construct the common right-`H`/Krein domain before odd BV/BFV promotion.
+two-extra-mode null coefficient locus is a helicity-one doublet, not spin two.
+The distinct second-layer Gauss insertion is an exact isometry from the
+rank-100 observer full-`II` carrier into the rank-1,274 `Cl2` residual carrier,
+and its orthogonal projection has inertia `(54,46)` with exact form
+`kappa_1^2[(15376/13689)||II||^2-(448/4563)||tr II||^2]`. This is not the
+full `I2B` pullback: the input `II_(00)^4` leaks with coefficient `2/39` into
+the orthogonal direction `e^5 tensor gamma_4 gamma_5`. Do not rebuild these
+objects, restore the graph-only match, call auxiliary elimination a quotient,
+select the coefficient, reduce residue, or identify the projected Gauss block
+with full observer full-`II`. Build the complete 1,274-by-100 residual target,
+other Clifford-grade support and co-moving epsilon/frame/observation terms
+before cubic, Euler, preboundary or helicity promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -479,7 +486,7 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_OR_REFUTE_I2B_TO_OBSERVER_FULL_II_MOVING_OWNER_MAP_WITH_CUBIC_EULER_HELICITY_AND_PREBOUNDARY_CLASSES__THEN_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+BUILD_FULL_1274_BY_100_RESIDUAL_TARGET_PLUS_OTHER_GRADE_SUPPORT_AND_COMOVING_EPSILON_FRAME_OBSERVATION__THEN_DERIVE_FULL_I2B_QUADRATIC_CUBIC_EULER_PREBOUNDARY_HELICITY__TEST_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 The next work has three independent owners. The first-layer gravitational
@@ -487,9 +494,11 @@ The next work has three independent owners. The first-layer gravitational
 rank-two local principal Green flux is definite and gauge-descending, but a
 live flux does not repair wrong representation type. Do not spend a global-
 domain campaign on that superseded carrier. The gravitational Build instead
-constructs or refutes the distinct second-layer
-`I2B <-> observer ||II||^2` moving owner map, including cubic, Euler, helicity
-and preboundary classes. Only a correctly typed helicity-two carrier advances
+constructs the complete second-layer 1,274-by-100 residual pullback, including
+the rank-100 Gauss projection, its live orthogonal leakage, the other Clifford
+grades and co-moving epsilon/frame/observation terms. It must then compare the
+full `I2B` quadratic/cubic, Euler, helicity and preboundary classes with the
+observer full-`II` functional. Only a correctly typed helicity-two carrier advances
 to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity
 must derive the full moving third derivative and preboundary class on the
 mixed/massive shells, then construct regular Q1 or carry a unique nonzero

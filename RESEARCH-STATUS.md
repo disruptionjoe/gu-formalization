@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose correction 2026-08-06 (ledger v0.38; five distances
+change, no verdict, residue, quotient, datum, canon or public-posture
+change).** The canonical Gauss insertion is an exact rank-100 isometry into
+the 1,274-dimensional `Cl2` residual carrier. Its orthogonal projected block
+has inertia `(54,46)` and exact trace-reversed full-`II` form, but the full
+second-layer pullback leaks outside that carrier: `II_(00)^4` produces the
+orthogonal direction `e^5 tensor gamma_4 gamma_5` with coefficient `2/39`.
+The projected block therefore cannot be identified with the full `I2B`
+owner. The next gate is the complete 1,274-by-100 residual target plus other
+Clifford grades and co-moving epsilon/frame/observation. See
+`explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`.
+
 **Active Build/Compose correction 2026-08-06 (ledger v0.37; priority and six
 distances change, no verdict, residue, quotient, datum, canon or public-posture
 change).** The positive `N2` kernel of the completed first-layer grade-one

@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 SECOND-LAYER GAUSS OWNER MAP TYPE CORRECTION.**
+> [`explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`](explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md)
+> constructs the canonical rank-100 Gauss insertion into the 1,274-dimensional
+> `Cl2` residual carrier. Its orthogonal projection is exact, with inertia
+> `(54,46)` and form
+> `kappa_1^2[(15376/13689)||II||^2-(448/4563)||tr II||^2]`, but it is not the
+> full `I2B` pullback: `II_(00)^4` leaks by `2/39` into an orthogonal vertical/
+> normal-bivector direction. Ledger v0.38 keeps `82/82`, `32/19/25/6`, residue
+> and four quotients unchanged. Next build the complete 1,274-by-100 residual
+> target, other Clifford grades and co-moving epsilon/frame/observation terms;
+> only then derive cubic, Euler, preboundary and helicity classes.
+
 > **2026-08-06 N2 HELICITY KILL AND SECOND-LAYER PRIORITY.**
 > [`explorations/conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md`](explorations/conditional-build/selected-action-n2-null-little-group-green-2026-08-06.md)
 > types the sole positive two-extra-mode locus of the completed first-layer

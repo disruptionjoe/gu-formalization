@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT SECOND-LAYER GAUSS OWNER FENCE.** The canonical Gauss insertion
+> maps the rank-100 observer full-`II` carrier isometrically into the complete
+> rank-1,274 `Cl2` residual carrier. Its orthogonal projected quadratic form is
+> exactly `kappa_1^2[(15376/13689)||II||^2-(448/4563)||tr II||^2]` with
+> inertia `(54,46)`. It is not the full `I2B` pullback: `II_(00)^4` has exact
+> coefficient `2/39` along the orthogonal direction
+> `e^5 tensor gamma_4 gamma_5`. Do not report the projected block as observer
+> full-`II`, and do not start a common domain. Build the complete 1,274-by-100
+> residual target, other Clifford grades and co-moving epsilon/frame/
+> observation terms, then derive cubic, Euler, preboundary and helicity
+> classes. Current ledger: v0.38. SOURCE-SILENT on the map.
+
 > **CURRENT N2 HELICITY FENCE.** The completed grade-one source symbol's
 > unique positive two-extra-mode locus is exactly gauge four plus a real
 > helicity-one doublet: the compact null rotation descends as

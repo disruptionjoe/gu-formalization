@@ -1,0 +1,59 @@
+{
+  "artifact_type": "construction_registry",
+  "created": "2026-08-06",
+  "status": "I2B_GAUSS_WRONG_TYPE__PROJECTED_FULL_II_PLUS_TRACE_SQUARE_EXACT__FULL_RESIDUAL_LEAKAGE_LIVE",
+  "source_return": "SOURCE-SILENT",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "layer0": {
+    "first_action": "I1B",
+    "residual": "Upsilon_B=E_T(I1B)",
+    "second_action": "I2B=1/2<Upsilon_B,G_full^-1 Upsilon_B>",
+    "gauss_projection": "rank-100 Sym2(H*) tensor V_normal inside the full residual target",
+    "observer_target": "I_II=1/2<II,II>",
+    "forbidden_identification": "GAUSS_PROJECTED_RESIDUAL_NORM_IS_NOT_THE_FULL_I2B_PULLBACK"
+  },
+  "exact_result": {
+    "full_cl2_residual_dimension": 1274,
+    "gauss_dimension": 100,
+    "gauss_orthogonal_complement_rank": 1174,
+    "gauss_hessian_rank": 100,
+    "projected_i2b_rank": 100,
+    "projected_i2b_inertia": [54, 46, 0],
+    "relative_square_trace_magnitude": "(100/117)^2",
+    "relative_square_traceless_magnitude": "(124/117)^2",
+    "projected_full_ii_coefficient": "15376/13689",
+    "projected_trace_square_coefficient": "-448/4563",
+    "leakage_witness": {
+      "gauss_input": "II_(00)^4",
+      "orthogonal_output_test": "e^5 tensor gamma_4 gamma_5",
+      "coefficient": "2/39"
+    }
+  },
+  "disposition": {
+    "fired": "I2B_GAUSS_WRONG_TYPE",
+    "constructed": "complete Gauss-projected Hessian square",
+    "killed": "identifying the projected rank-100 block with the full I2B pullback",
+    "not_killed": "a full residual-target/observation map or the possibility of a helicity-two second-layer carrier",
+    "next_gate": "BUILD_COMPLETE_1274_BY_100_CL2_RESIDUAL_TARGET_PULLBACK_PLUS_OTHER_GRADE_SUPPORT_AND_COMOVING_EPSILON_FRAME_OBSERVATION"
+  },
+  "ledger_effect": {
+    "version": "0.38",
+    "row_changes": "FIVE_DISTANCE_ONLY",
+    "verdict_change": "NONE",
+    "residue_change": "NONE",
+    "quotient_change": "NONE"
+  },
+  "free_object_delta": 0,
+  "quotient_count_delta": 0,
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "verification": {
+    "primary_probe": "tests/channel-swings/selected_second_layer_i2b_gauss_owner_map_probe.py",
+    "expected": "PASS 40/40",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-06-selected-second-layer-i2b-gauss-owner-map-review.md"
+  }
+}
