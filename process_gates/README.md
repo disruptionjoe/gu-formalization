@@ -148,6 +148,7 @@ selected notes below and in each script header.
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
 - `selected_action_second_soldering_observation_jets_scope_audit.py`
 - `selected_action_stationary_spin_lc_hessian_scope_audit.py`
+- `selected_action_ward_completion_identifiability_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -1616,3 +1617,13 @@ stationary second-lift chain term and the nonzero rank-three diffeomorphism
 cross residual. It keeps direct curvature/full-II/defect/observation Ward
 totalization, BV, global domain and BFV open and preserves all ledger counts
 plus unused P1/P2/P3.
+
+## Selected-action Ward-completion identifiability and ledger v0.31 gate
+
+`selected_action_ward_completion_identifiability_scope_audit.py` enforces the
+exact rank-34 symmetric Ward system, its 21-dimensional quotient-form
+ambiguity, the non-natural diagnostic-completion fence, the separately
+invariant-block and observation-transport controls, and the correction to a
+same-`I1B` direct metric/coframe owner. It keeps action-derived completion,
+BV, global domain and BFV open and preserves ledger counts plus unused
+P1/P2/P3.

@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action Ward-completion identifiability (2026-08-06)
+
+`conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md`
+solves the symmetric Ward target for the stationary spin-LC residual. The
+system fixes 34 of 55 coefficient directions and leaves 21 quotient-form
+directions to the action; separately invariant blocks and observation
+congruence cannot cancel the residual. Ledger v0.31 migrates five distances
+without changing verdicts, residue, quotients or P1/P2/P3. The same-`I1B`
+explicit metric/coframe packet, BV, global domain and BFV remain open.
+
 ## Selected-action stationary spin-LC Hessian (2026-08-06)
 
 `conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md`

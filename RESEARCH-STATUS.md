@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-06 (ledger v0.31; no verdict, residue,
+canon or public-posture change).** The symmetric Ward-completion system for
+the stationary action-spin residual is compatible and has exact rank 34
+inside 55 symmetric metric coefficients, leaving 21 quotient-form directions
+to the written action. Separately diffeomorphism-invariant Einstein blocks
+and invertible observation cannot cancel the residual. The required companion
+is narrowed to the same-`I1B` explicit metric/coframe/Hodge/Shiab/Krein/
+density/field/observation packet; `I2B` to observer full-II remains the
+separate `LT-GR3` gate. Five distances move; all counts and P1/P2/P3 are
+unchanged. See
+`explorations/conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md`.
+
 **Active Build/Compose update 2026-08-06 (ledger v0.30; no verdict, residue,
 canon or public-posture change).** A Layer-0 correction separates the prior
 rank-ten coordinate Christoffel symbol from the selected action's

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.30.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.30.md`.
+`lab/process/conditional-physics-ledger-v0.31.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.31.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -45,9 +45,12 @@ Levi-Civita second jet, the affine observation-Hessian decomposition and the
 nonlinear formal-adjoint Euler/preboundary owners are exact. The prior
 rank-ten statement is coordinate-Christoffel only: the action spin map has
 rank nine with longitudinal kernel, and its exact stationary Hessian retains
-a rank-three diffeomorphism cross residual. Do not rebuild those objects or
-restore coordinate rank ten to the action spin map. Assemble direct curvature/
-full-II/defect/observation Ward contributions before diffeomorphism/odd BV,
+a rank-three diffeomorphism cross residual. Its symmetric Ward target has
+rank 34 inside 55 coefficients and leaves 21 quotient-form directions to the
+action. Do not rebuild those objects, restore coordinate rank ten, fit a
+diagnostic completion or import separately owned full-II. Expand the same-
+`I1B` metric/coframe/Hodge/Shiab/Krein/density/field/observation packet before
+diffeomorphism/odd BV,
 global-domain or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and

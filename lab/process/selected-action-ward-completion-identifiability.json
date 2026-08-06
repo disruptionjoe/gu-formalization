@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "WARD_COMPLETION_TARGET_EXACT__AFFINE_DIMENSION21__SAME_I1B_DIRECT_PACKET_OPEN",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "SOURCE",
+    "COMPOSE",
+    "VERIFY"
+  ],
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR5",
+    "LT-GR6",
+    "LT-SM8"
+  ],
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "source": {
+    "confirms": [
+      "the completed Einstein-type tensor must be perpendicular to diffeomorphism orbits",
+      "action exactness is the reason for the corrected divergence identity",
+      "gauge-rotated Levi-Civita and two-connection augmented torsion are source-native"
+    ],
+    "silent": [
+      "the missing same-I1B direct metric/coframe coefficients",
+      "the 34-plus-21 Ward-completion count",
+      "a map from I1B or I2B to observer full-II",
+      "the BV/BFV and analytic completion"
+    ],
+    "exact_linear_algebra_attribution": "REPOSITORY_DERIVED"
+  },
+  "layer0": {
+    "isolated_block": "I1B_STATIONARY_SPIN_LEVI_CIVITA_HESSIAN",
+    "required_companion_if_i1b_closes_diffeomorphism_ward": "SAME_I1B_EXPLICIT_METRIC_COFRAME_HODGE_SHIAB_KREIN_DENSITY_FIELD_OBSERVATION_VARIATION",
+    "wrong_owner": "SEPARATELY_OWNED_I2B_OR_OBSERVER_FULL_II_WITHOUT_A_CONSTRUCTED_OWNER_MAP",
+    "coordinate_transport": "INVERTIBLE_OBSERVATION_CONGRUENCE",
+    "physical_reduction": "DIFFEO_ODD_BV_GLOBAL_BFV",
+    "objects_are_distinct": true
+  },
+  "exact_result": {
+    "symmetric_metric_coefficient_dimension": 55,
+    "diffeomorphism_symbol_rank": 4,
+    "ward_completion_linear_system_rank": 34,
+    "ward_fixed_symmetric_directions": 34,
+    "ward_unfixed_quotient_form_directions": 21,
+    "symmetric_completion_exists": {
+      "timelike": true,
+      "spacelike": true,
+      "null": true
+    },
+    "diagnostic_projector_completion": "EXACT_NONNATURAL_TARGET_ONLY__NOT_ACTION_DERIVED",
+    "diagnostic_completion_rank": {
+      "timelike": 3,
+      "spacelike": 3,
+      "null": 6
+    },
+    "diagnostic_total_rank": {
+      "timelike": 6,
+      "spacelike": 6,
+      "null": 2
+    },
+    "separately_diffeomorphism_invariant_block_can_cancel_spin_residual": false,
+    "einstein_control_rank": {
+      "timelike": 6,
+      "spacelike": 6,
+      "null": 4
+    },
+    "observation_congruence_residual_rank": {
+      "timelike": 3,
+      "spacelike": 3,
+      "null": 3
+    },
+    "same_i1b_direct_metric_coframe_completion": "OPEN",
+    "off_shell_and_cubic_completion": "OPEN",
+    "diffeomorphism_odd_bv": "OPEN",
+    "global_krein_green_domain": "OPEN",
+    "bfv": "OPEN"
+  },
+  "queue_correction": "REMOVE_SEPARATELY_OWNED_FULL_II_FROM_I1B_WARD_CANCELLATION__BUILD_SAME_I1B_DIRECT_METRIC_COFRAME_PACKET__KEEP_I2B_TO_OBSERVER_FULL_II_AS_SEPARATE_LT_GR3_GATE",
+  "free_object_delta": 0,
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "ledger_change": "DISTANCE_ONLY_WITH_OWNER_CLASS_CORRECTION",
+  "verdict_change": false,
+  "residue_change": false,
+  "quotient_change": false,
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "next_gate": "EXPAND_SAME_I1B_EXPLICIT_METRIC_COFRAME_HODGE_SHIAB_KREIN_DENSITY_FIELD_OBSERVATION_SECOND_VARIATION__MATCH_THE_34_FIXED_WARD_DIRECTIONS__LEAVE_21_QUOTIENT_COEFFICIENTS_TO_THE_ACTION__THEN_BV_DOMAIN_BFV"
+}

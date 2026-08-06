@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 WARD-COMPLETION IDENTIFIABILITY.**
+> [`explorations/conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md`](explorations/conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md)
+> proves that the stationary spin-LC residual has symmetric companions: Ward
+> fixes 34 of 55 metric-coefficient directions and leaves 21 quotient-form
+> directions to the written action. Separately invariant Einstein blocks and
+> invertible observation cannot cancel the residual. Ledger v0.31 remains
+> `82/82`, `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four
+> scoped quotients. Next: expand the same-`I1B` explicit metric/coframe/Hodge/
+> Shiab/Krein/density/field/observation packet; keep `I2B` to observer full-II
+> as the separate `LT-GR3` gate.
+
 > **2026-08-06 STATIONARY SELECTED-ACTION SPIN-LC HESSIAN.**
 > [`explorations/conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md`](explorations/conditional-build/selected-action-stationary-spin-lc-hessian-2026-08-06.md)
 > corrects a Layer-0 transfer: the prior rank-ten theorem is for the coordinate

@@ -60,17 +60,17 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.30.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.30.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.30.md")
+assert "conditional-physics-ledger-v0.31.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.31.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.31.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "LOCAL_PRINCIPAL_GAUGE_ROTATED_LEVI_CIVITA_SOLDERING" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "SECOND_SPIN_LEVI_CIVITA_JET" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "COORDINATE_CHRISTOFFEL_RANK10_SCOPED" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "ASSEMBLE_DIRECT_CURVATURE_FULL_II_DEFECT_OBSERVATION_WARD" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "WARD_COMPLETION_SYSTEM_RANK34_AFFINE_DIM21" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "EXPAND_SAME_I1B_EXPLICIT_METRIC_COFRAME" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -106,9 +106,10 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "ASSEMBLE_DIRECT_CURVATURE_FULL_II_DEFECT_OBSERVATION_WARD" in directive["next_gate"]
-assert "RANK3_DIFFEO_RESIDUAL" in directive["next_gate"]
-assert "SECOND_LAYER_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
+assert "EXPAND_SAME_I1B_EXPLICIT_METRIC_COFRAME" in directive["next_gate"]
+assert "MATCH_RANK34_WARD_TARGET" in directive["next_gate"]
+assert "ACTION_DETERMINES_21_QUOTIENT_DIRECTIONS" in directive["next_gate"]
+assert "I2B_OBSERVER_FULL_II_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
 assert "FIXED_CONSTANT_SCALAR_BACKGROUND_SELECTED_ACTION_TT_HESSIAN_HAS_UNIQUE_POSITIVE_SPECTRAL_C" in directive["current_evidence_boundary"]
@@ -132,16 +133,18 @@ assert "FROZEN_SHIAB_DEFECTS4" in directive["current_evidence_boundary"]
 assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
 assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
-assert "COORDINATE_CHRISTOFFEL_RANK10_SCOPED" in directive["latest_build_evidence"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in directive["latest_build_evidence"]
 assert "COMPLETE_FIRST_JET_OBSERVATION_NO_LEAKAGE" in directive["latest_build_evidence"]
 assert "SECOND_SPIN_LEVI_CIVITA_JET_EXACT_NONZERO" in directive["latest_build_evidence"]
 assert "OBSERVATION_PURE_SECTION_D2_ZERO_SECTION_FIELD_CROSS_D2_NONZERO" in directive["latest_build_evidence"]
 assert "NONLINEAR_FORMAL_ADJOINT_EULER_PREBOUNDARY_OWNER_EXACT" in directive["latest_build_evidence"]
 assert "STATIONARY_SELECTED_METRIC_HESSIAN_CAUSAL_RANKS_9_9_6" in directive["latest_build_evidence"]
-assert "SECOND_LIFT_HESSIAN_TERM_ZERO" in directive["latest_build_evidence"]
 assert "DIFFEO_CROSS_RANK3" in directive["latest_build_evidence"]
-assert "DIRECT_CURVATURE_FULL_II_DEFECT_OBSERVATION_WARD_OPEN" in directive["latest_build_evidence"]
+assert "WARD_COMPLETION_SYSTEM_RANK34_AFFINE_DIM21" in directive["latest_build_evidence"]
+assert "DIAGNOSTIC_COMPLETION_NOT_ACTION_DERIVED" in directive["latest_build_evidence"]
+assert "SEPARATELY_INVARIANT_BLOCK_CANNOT_CANCEL" in directive["latest_build_evidence"]
+assert "OBSERVATION_TRANSPORTS_RESIDUAL" in directive["latest_build_evidence"]
+assert "SAME_I1B_DIRECT_METRIC_COFRAME_PACKET_OPEN" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -181,4 +184,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.30 ledger preserve the action-spin rank-nine correction and stationary Hessian without Ward, BV/BFV or physics promotion")
+print("PASS: functional channels and v0.31 ledger preserve the exact Ward target and same-I1B owner correction without action-completion, BV/BFV or physics promotion")

@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **CURRENT WARD-COMPLETION OWNER FENCE.** The stationary action-spin
+> residual admits symmetric companions. Ward fixes 34 of 55 symmetric metric-
+> coefficient directions and leaves 21 quotient-form directions to the
+> written action. This is a target, not a derived completion or 21 new
+> parameters. Separately invariant Einstein blocks and invertible observation
+> cannot cancel the residual. Build the same-`I1B` explicit metric/coframe/
+> Hodge/Shiab/Krein/density/field/observation packet; do not import `I2B` or
+> observer full-II without the separate owner map. Then proceed to odd BV,
+> global domain and BFV. Current ledger: v0.31.
+
 > **CURRENT STATIONARY ACTION-SPIN HESSIAN FENCE.** The prior rank-ten
 > theorem is a coordinate-Christoffel theorem. The selected action uses the
 > symmetric-frame spin Levi-Civita map, whose exact principal rank is nine
@@ -18,7 +28,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > rank-three diffeomorphism cross residual. Do not restore coordinate rank ten
 > to the action spin map, and do not call this a physical quotient. Next
 > assemble direct curvature/full-II/defect/observation Ward terms, then odd
-> BV, global domain and BFV. Current ledger: v0.30.
+> BV, global domain and BFV. This predecessor fence is absorbed into the
+> v0.31 Ward-identifiability packet.
 
 > **CURRENT NONLINEAR SECOND-JET FENCE.** The symmetric-frame spin
 > Levi-Civita connection has an exact nonzero symmetric second metric jet.

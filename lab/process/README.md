@@ -55,8 +55,10 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.30.json` - current machine ledger; the action-spin rank-nine Layer-0 correction and exact stationary selected metric Hessian migrate five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
-- `selected-action-stationary-spin-lc-hessian.json` - exact stationary action-spin Hessian receipt; direct curvature/full-II/defect/observation Ward totalization, BV, global domain and BFV remain open.
+- `conditional-physics-ledger-v0.31.json` - current machine ledger; the exact rank-34/affine-dimension-21 Ward target and same-`I1B` owner correction migrate five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-action-ward-completion-identifiability.json` - exact Ward-target/owner-class receipt; same-`I1B` direct coefficient assembly, BV, global domain and BFV remain open.
+- `conditional-physics-ledger-v0.30.json` - frozen predecessor for the action-spin rank-nine correction and stationary selected metric Hessian.
+- `selected-action-stationary-spin-lc-hessian.json` - frozen stationary action-spin Hessian receipt.
 - `conditional-physics-ledger-v0.29.json` - frozen predecessor for exact second spin-Levi-Civita/observation jets and nonlinear Euler/preboundary owners.
 - `selected-action-second-soldering-observation-jets.json` - frozen second soldering/observation and nonlinear-owner receipt.
 - `conditional-physics-ledger-v0.28.json` - frozen predecessor for the exact local principal Levi-Civita soldering/first-observation chain.
