@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.35.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.35.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.35.md")
+assert "conditional-physics-ledger-v0.36.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.36.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.36.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -78,6 +78,10 @@ assert "NULL_KERNEL_GAUGE4_PHYSICAL2" in contract["standing_ledger"]["moving_gim
 assert "SAME_GRADE_CL2_DBT_EULER_ZERO_ON_HORIZONTAL24_AND_FULL1274" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ADJACENT_GRADE_CL1_HCL2_EULER_RANKS_12_12_11" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "CURRENT_34_VARIABLE_TRUNCATION_NOT_ACTION_INVARIANT" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "GRADE1_HESSIAN_RANK196_INERTIA97_99" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "FULL_CURVATURE_PLUS_DBT_SOURCE_CROSS_RANKS13_15_15" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "SCHUR_RANKS13_15_14" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "N2_POSITIVE_TWO_MODE_CAUSAL_CANDIDATE_PHYSICAL_TYPING_OPEN" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -105,7 +109,7 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "ADJACENT_GRADE_DBT_EULER_LIVE__CURRENT_34_VARIABLE_TRUNCATION_NOT_ACTION_INVARIANT__GRADE1_HESSIAN_OBSERVATION_DOMAIN_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["status"] == "GRADE1_SCHUR_LIVE__GENERIC_GRAPH_EINSTEIN_MATCH_RETRACTED__N2_TWO_MODE_CAUSAL_CANDIDATE_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
 assert directive["source_return"] == "SOURCE-CONFIRMS_AND_SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
@@ -113,11 +117,10 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "GRADE1_ALGEBRAIC_HESSIAN_AT_TSTAR" in directive["next_gate"]
-assert "FILTERED_METRIC_CL2_CL1_EULER_SYMBOL" in directive["next_gate"]
-assert "OBSERVATION_RECEIVER" in directive["next_gate"]
-assert "COMMON_GREEN_KREIN_DOMAIN" in directive["next_gate"]
-assert "PRESERVE_GRAPH_THEOREM" in directive["next_gate"]
+assert "TYPE_POSITIVE_N2_TWO_MODE_KERNEL" in directive["next_gate"]
+assert "NULL_LITTLE_GROUP_AND_GREEN_FORM" in directive["next_gate"]
+assert "COMMON_RIGHT_H_KREIN_DOMAIN" in directive["next_gate"]
+assert "ODD_BV_BFV_TOTALIZATION" in directive["next_gate"]
 assert "I2B_OBSERVER_FULL_II_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -162,6 +165,11 @@ assert "ADJACENT_GRADE_CL1_HCL2_EULER_RANKS_12_12_11" in directive["latest_build
 assert "PARITY_COMPLETED_OFFDIAGONAL_RANKS_24_24_22" in directive["latest_build_evidence"]
 assert "CURRENT_34_VARIABLE_TRUNCATION_NOT_ACTION_INVARIANT" in directive["latest_build_evidence"]
 assert "GRADE1_HESSIAN_FILTERED_SYMBOL_OBSERVATION_COMMON_DOMAIN_OPEN" in directive["latest_build_evidence"]
+assert "GRADE1_HESSIAN_RANK196_INERTIA97_99" in directive["latest_build_evidence"]
+assert "FULL_CURVATURE_PLUS_DBT_SOURCE_CROSS_RANKS13_15_15" in directive["latest_build_evidence"]
+assert "SCHUR_RANKS13_15_14" in directive["latest_build_evidence"]
+assert "UNIQUE_POSITIVE_N2_TWO_EXTRA_MODE_LOCUS_APPROX3_175378" in directive["latest_build_evidence"]
+assert "N2_METRIC_PROJECTION_NOT_ORIGINAL_GRAPH_TT_MOD_GAUGE" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -201,4 +209,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.35 ledger preserve the graph theorem, exact dBT parity result and mixed-order completion burden without BV/BFV or physics promotion")
+print("PASS: functional channels and v0.36 ledger preserve predecessor theorems, retract the generic graph-only Einstein match, and route the exact N2 causal candidate to physical typing without residue or quotient promotion")

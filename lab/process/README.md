@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.35.json` - current machine ledger; off-graph `d_B T` is same-grade zero but has live adjacent `Cl1`--horizontal-`Cl2` Euler ranks `12/12/11`, so the current 34-variable truncation is not action-invariant; five distances move while `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3 remain fixed.
+- `conditional-physics-ledger-v0.36.json` - current machine ledger; the complete grade-one Schur correction generically lifts the graph-only null tensor pair, while an exact positive two-mode causal coefficient locus remains physically untyped; `LT-GR1` moves to `NEEDS`, giving `32/19/25/6` with residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3 fixed.
+- `selected-action-grade1-dbt-schur-observation.json` - exact grade-one Hessian, full source-cross, Schur, observation and coefficient-locus receipt; little-group/Green/common-domain/BV/BFV typing remains open.
+- `conditional-physics-ledger-v0.35.json` - immutable predecessor recording the adjacent-grade `d_B T` block and obsolete 34-variable truncation.
 - `conditional-physics-ledger-v0.34.json` - immutable predecessor recording the selected graph-curvature six-versus-four theorem.
 - `selected-action-offgraph-dbt-principal-symbol.json` - exact raw-density/formal-Euler parity receipt; the grade-one algebraic Hessian, filtered total symbol, observation receiver and common domain remain open.
 - `selected-action-curvature-graph-six-versus-four.json` - exact constant-augmented-torsion graph curvature receipt; off-graph `d_B T`, observation receiver, common domain, odd BV and BFV remain open.

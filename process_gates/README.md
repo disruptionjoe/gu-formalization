@@ -1667,3 +1667,14 @@ formal-adjoint distinction between raw density and Euler symbol, records the
 exact adjacent-grade `Cl1`--horizontal-`Cl2` ranks `12/12/11`, rejects the
 current 34-variable truncation as action-invariant, preserves the graph
 curvature theorem and requires the mandatory symplectic hostile review.
+
+## Selected-action grade-one Schur, observation and ledger v0.36 gate
+
+`selected_action_grade1_dbt_schur_observation_scope_audit.py` enforces the
+complete rank-196 indefinite grade-one Hessian, the corrected
+curvature-plus-`d_B T` source cross, exact Ward identity and Schur ranks. It
+requires the paired observation receiver to preserve the cross, retracts the
+generic graph-only `LT-GR1` match, and records the exact positive N2 two-mode
+causal candidate without calling it a graviton, selecting `kappa_1`, reducing
+residue or promoting a fifth quotient. Symplectic/Green/common-domain/BV/BFV
+typing remains mandatory.

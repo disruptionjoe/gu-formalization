@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose correction 2026-08-06 (ledger v0.36; one verdict
+change, no residue, quotient, datum, canon or public-posture change).** The
+complete 196-dimensional grade-one selected Hessian is nondegenerate with
+positive-`kappa_1` inertia `(97,99)`. The full curvature-plus-`d_B T`
+source-variable cross has ranks `13/15/15` and Schur ranks `13/15/14`.
+At `kappa_1^2=1` it lifts the graph-only null tensor pair, leaving only gauge
+four. A unique positive exact coefficient locus adds two null source modes
+without timelike/spacelike collision, but their physical little-group and
+Green/domain type is open. `LT-GR1` is therefore `NEEDS`, not `SAME`. See
+`explorations/conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md`.
+
 **Active Build/Compose correction 2026-08-06 (ledger v0.35; no verdict,
 residue, quotient, datum, canon or public-posture change).** The selected
 `d_B T/2` term has zero same-grade formal-adjoint Euler symbol on both the

@@ -7,6 +7,19 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 GRADE-ONE SOURCE SCHUR AND CAUSAL CANDIDATE.**
+> [`explorations/conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md`](explorations/conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md)
+> completes the 196-dimensional grade-one selected Hessian, the full
+> curvature-plus-`d_B T` source cross and the paired observation receiver.
+> The Schur correction generically lifts the graph-only null tensor pair;
+> at `kappa_1^2=1` every causal symbol has only gauge nulls. Exact Sage
+> factorization finds a unique positive coefficient locus with two extra
+> null source modes, but their metric projection is not the old TT plane.
+> Ledger v0.36 moves `LT-GR1` from `SAME` to `NEEDS`, giving
+> `32/19/25/6` with residue and four quotients unchanged. Next: type that
+> two-mode kernel under the null little group and Green form, then construct
+> the common right-`H`/Krein domain and odd BV/BFV totalization.
+
 > **2026-08-06 OFF-GRAPH `d_B T` PARITY COMPLETION.**
 > [`explorations/conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md`](explorations/conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md)
 > proves that the written first-order torsion term is same-grade zero on the

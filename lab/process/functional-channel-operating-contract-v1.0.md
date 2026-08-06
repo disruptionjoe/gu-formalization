@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.35.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.35.md`.
+`lab/process/conditional-physics-ledger-v0.36.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.36.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -55,13 +55,17 @@ selected curvature has exact gain `-1/26`: it lifts the six nongauge nulls off
 cone while leaving gauge four, and on cone retains gauge four plus two
 transverse tensor characteristics. Off graph, the `d_B T/2` formal-adjoint
 Euler symbol is same-grade zero on horizontal and full `Cl2`, but the adjacent
-`Cl1`--horizontal-`Cl2` block has exact ranks `12/12/11`; therefore the current
-34-variable truncation is not action-invariant. Do not rebuild these objects,
-generalize same-grade zero across Clifford parity, restore coordinate rank
-ten, book ranks or characteristics as residue, or import separately owned
-full-II. Construct the grade-one algebraic Hessian, filtered mixed-order total
-symbol and observation receiver, then a common Green/Krein domain before odd
-BV or BFV promotion.
+`Cl1`--horizontal-`Cl2` block has exact ranks `12/12/11`; therefore the prior
+34-variable truncation is not action-invariant. Its completed 196-dimensional
+grade-one Hessian is invertible with positive-`kappa_1` inertia `(97,99)`, and
+the full curvature-plus-`d_B T` source cross has ranks `13/15/15` with Schur
+ranks `13/15/14`. The paired observation receiver preserves the block.
+Generic `kappa_1` lifts the graph-only null tensor pair; the unique positive
+two-extra-mode null coefficient locus remains physically untyped. Do not
+rebuild these objects, restore the graph-only match, call auxiliary elimination
+a quotient, select the coefficient, reduce residue, or import separately
+owned full-II. Type the candidate under the null little group and Green form,
+then construct the common right-`H`/Krein domain before odd BV/BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -475,13 +479,16 @@ Einstein source.
 Current gate:
 
 ```text
-COMPOSE_ONE_FUSED_MOVING_GIMMEL_FRAME_PHI_SHIAB_KREIN_SOLDERING_FIELD_OWNER_WITH_SELECTED_ACTION_AND_OBSERVATION__THEN_DIFFEO_ODD_BV_GLOBAL_BFV_AND_Q1__IN_PARALLEL_WITH_SECOND_LAYER_OWNER_MAP_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+TYPE_POSITIVE_N2_TWO_MODE_KERNEL_UNDER_NULL_LITTLE_GROUP_AND_GREEN_FORM__THEN_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_TOTALIZATION__IN_PARALLEL_WITH_SECOND_LAYER_OWNER_MAP_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
-The next work has three independent owners. Interaction positivity must derive
-the full moving third derivative and preboundary class on the mixed/massive
-shells, then construct regular Q1 or carry a unique nonzero result into
-physical-sheet H59 and the common BV/Green/Fock domain.
+The next work has three independent owners. The first-order gravitational
+owner must type the exact positive `N2` two-mode source kernel under the null
+little group and Green form, then construct the common right-`H`/Krein domain
+and odd BV/BFV totalization. Interaction positivity must derive the full
+moving third derivative and preboundary class on the mixed/massive shells,
+then construct regular Q1 or carry a unique nonzero result into physical-
+sheet H59 and the common BV/Green/Fock domain.
 Super-IG must globalize the mixed odd bracket without manufacturing an odd
 action. Cosmology must derive or explicitly supply the normalized functional
 and insert its projector into one action before FLRW or `w(z)` work. A

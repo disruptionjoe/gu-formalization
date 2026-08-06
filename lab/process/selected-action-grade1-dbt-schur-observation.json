@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "EXACT_GRADE1_AUXILIARY_COMPLETION__GENERIC_NULL_POLARIZATIONS_LIFTED__DISCRETE_CAUSAL_CANDIDATE_LOCUS_OPEN",
+  "source_return": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+  "source_typing": {
+    "confirmed": "T is the full adjoint-valued connection difference and observation retains both s-star T and vertical coefficient restriction",
+    "silent": "the source does not publish the grade-one Hessian, Schur ranks, coefficient factors, physical mode identification or global domain"
+  },
+  "exact_result": {
+    "grade1_hessian": {
+      "dimension": 196,
+      "rank": 196,
+      "irreducible_dimensions": [1, 104, 91],
+      "relative_eigenvalues": ["-kappa_1", "15*kappa_1/13", "41*kappa_1/39"],
+      "inertia_positive_kappa": [97, 99, 0]
+    },
+    "raw_forward_ranks": {"timelike": 12, "spacelike": 12, "null": 12},
+    "formal_dbt_euler_ranks": {"timelike": 12, "spacelike": 12, "null": 11},
+    "full_cross_ranks": {"timelike": 13, "spacelike": 15, "null": 15},
+    "schur_ranks": {"timelike": 13, "spacelike": 15, "null": 14},
+    "normalized_kappa_squared_one": {
+      "timelike": {"rank": 30, "nullity": 4, "kernel": "GAUGE4"},
+      "spacelike": {"rank": 30, "nullity": 4, "kernel": "GAUGE4"},
+      "null": {"rank": 30, "nullity": 4, "kernel": "GAUGE4__GRAPH_ONLY_PHYSICAL2_LIFTED"}
+    },
+    "observation": {
+      "horizontal_full_cross_ranks": {"timelike": 12, "spacelike": 14, "null": 14},
+      "vertical_full_cross_rank": {"timelike": 1, "spacelike": 1, "null": 1},
+      "paired_receiver": "PRESERVES_COMPLETE_FULL_CROSS__DOES_NOT_ERASE_ADJACENT_GRADE"
+    },
+    "quotient_pencil": "for kappa_1 nonzero the source quotient kernel is that of z*P0-Q with z=kappa_1^2",
+    "null_factors": {
+      "N1": "z^2-(3016/3)z+4183088/369",
+      "N1_multiplicity": 1,
+      "N1_positive_roots_approx": [11.4055386146302, 993.927794718703],
+      "N1_extra_kernel_dimension": 1,
+      "N2": "z^2+(1352/615)z-1178198372/69047075",
+      "N2_multiplicity": 2,
+      "N2_positive_root_approx": 3.17537838044882,
+      "N2_extra_kernel_dimension": 2,
+      "gcd_with_all_nonnul_factors": 1
+    },
+    "causal_candidate": "the unique positive two-extra-mode locus is the positive root of N2; its metric projection is not the original graph TT plane modulo gauge, so physical graviton identification remains open"
+  },
+  "ledger_effect": {
+    "version": "0.36",
+    "verdict_change": "LT-GR1 SAME/DERIVED_CONDITIONAL -> NEEDS/MISSING_CONSTRUCTION",
+    "reason": "the graph-only Einstein kernel does not survive the first source-required adjacent Clifford bank at generic kappa_1; a discrete two-mode causal candidate exists but is not yet typed as the physical graviton",
+    "distance_only_rows": ["LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+    "residue_change": "NONE__candidate coefficient locus is not booked before physical mode and domain closure"
+  },
+  "free_object_delta": 0,
+  "quotient_count_delta": 0,
+  "canon_verdict_change": "NONE",
+  "claim_status_change": "NONE",
+  "public_posture_change": "NONE",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "nonclaims": [
+    "the Schur complement is not a BV symplectic or physical quotient",
+    "the N2 two-mode kernel is not yet a physical graviton theorem",
+    "the algebraic kappa locus is not an observed coupling prediction",
+    "no common closed Green Krein BFV or Fock domain is constructed",
+    "no cosmological unitarity particle or external-datum claim changes"
+  ],
+  "next_gate": "TYPE_THE_N2_TWO_MODE_KERNEL_UNDER_THE_NULL_LITTLE_GROUP_AND_GREEN_FORM__THEN_TEST_COMMON_DOMAIN_AND_ODD_BV_BFV"
+}

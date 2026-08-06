@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action grade-one Schur and observation (2026-08-06)
+
+`conditional-build/selected-action-grade1-dbt-schur-observation-2026-08-06.md`
+constructs the complete rank-196 grade-one Hessian, the corrected
+curvature-plus-`d_B T` source cross and its Schur pencil. Generic coefficient
+values lift the graph-only null tensor pair. An exact positive two-mode null
+coefficient locus survives, but its modes are mixed and physical typing is
+open. The paired observation receiver preserves the block. Ledger v0.36
+retracts the generic graph-only `LT-GR1` match without changing residue,
+quotients or P1/P2/P3.
+
 ## Selected-action off-graph dBT principal symbol (2026-08-06)
 
 `conditional-build/selected-action-offgraph-dbt-principal-symbol-2026-08-06.md`
