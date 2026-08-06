@@ -7,6 +7,19 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 MOVING GIMMEL / HODGE / FRAME OWNER.**
+> [`explorations/conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md`](explorations/conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md)
+> computes the exact local TT derivative of the actual trace-reversed
+> `Sym2(T*X)` gimmel family. Vertical inertia is `(6,4)`, total inertia is
+> `(7,7)`, the fourteen-dimensional density derivative is zero and the
+> fixed-frame Hodge response is nonzero. The exact compensator
+> `A=-G^-1(delta G)/2` fuses Hodge and coframe into one natural owner packet;
+> it does not cancel the selected action. Ledger v0.26 stays `82/82`,
+> `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, and four scoped
+> quotients. Next: transport Phi/Shiab/Krein/gauge-rotated Levi-Civita,
+> soldering and fields through that one packet and compose the selected action
+> with observation, then diffeomorphism/odd BV, global BFV and Q1.
+
 > **2026-08-06 SELECTED FIRST-ORDER EPSILON / PREBOUNDARY COMPOSE.**
 > [`explorations/conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md`](explorations/conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md)
 > composes the selected `comm/symi/symi` row with the already-exact primitive

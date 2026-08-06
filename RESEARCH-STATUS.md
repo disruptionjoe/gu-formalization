@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-06 (ledger v0.26; no verdict, residue,
+canon or public-posture change).** On the actual local `Sym2(T*X)`
+trace-reversed DeWitt family, an observed TT base-metric perturbation gives
+exact vertical inertia `(6,4)`, total gimmel inertia `(7,7)`, zero
+fourteen-dimensional density first variation and nonzero fixed-frame Hodge
+motion. The exact co-moving-frame compensator `A=-G^-1(delta G)/2` shows that
+moving Hodge and moving coframe are one functorial owner packet, not two action
+coefficients. Complete Phi/Shiab/Krein/gauge-rotated Levi-Civita/soldering/
+field transport, selected-action observation composition, BV/domain/BFV and
+Q1 remain open. Five distances move; all counts and P1/P2/P3 are unchanged.
+See `explorations/conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md`.
+
 **Active Compose update 2026-08-06 (ledger v0.25; no verdict, residue, canon
 or public-posture change).** The selected first-order `comm/symi/symi` branch
 is inside the prior exact all-eight-row primitive epsilon/Green theorem. It now

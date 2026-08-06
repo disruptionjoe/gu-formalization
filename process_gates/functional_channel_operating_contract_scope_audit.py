@@ -60,11 +60,12 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.25.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.25.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.25.md")
+assert "conditional-physics-ledger-v0.26.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.26.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.26.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
+assert "HODGE_COFRAME_ONE_OWNER_PACKET" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -100,10 +101,9 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "ASSEMBLE_DIRECT_CURVATURE_FULL_II_DEFECT_D3" in directive["next_gate"]
-assert "MOVING_METRIC_HODGE_DEWITT_KREIN_PAIRING_OBSERVATION" in directive["next_gate"]
-assert "SUPER_IG_DESCENT" in directive["next_gate"]
-assert "NORMALIZED_OBSERVER_FUNCTIONAL" in directive["next_gate"]
+assert "FUSED_MOVING_GIMMEL_FRAME_PHI_SHIAB_KREIN_SOLDERING_FIELD_OWNER" in directive["next_gate"]
+assert "SELECTED_ACTION_AND_OBSERVATION" in directive["next_gate"]
+assert "SECOND_LAYER_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
 assert "FIXED_CONSTANT_SCALAR_BACKGROUND_SELECTED_ACTION_TT_HESSIAN_HAS_UNIQUE_POSITIVE_SPECTRAL_C" in directive["current_evidence_boundary"]
@@ -125,11 +125,11 @@ assert "INTRINSIC_HOMOGENEOUS_WARD_ZERO_91_OF_91" in directive["current_evidence
 assert "MOVING_SHIAB_LOAD_BEARING" in directive["current_evidence_boundary"]
 assert "FROZEN_SHIAB_DEFECTS4" in directive["current_evidence_boundary"]
 assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
-assert "SOURCE_OWNED_TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT" in directive["latest_build_evidence"]
-assert "INTRINSIC_HOMOGENEOUS_WARD_ZERO_91_OF_91" in directive["latest_build_evidence"]
-assert "MOVING_SHIAB_COVARIANCE_91_OF_91" in directive["latest_build_evidence"]
-assert "FROZEN_SHIAB_DEFECTS4" in directive["latest_build_evidence"]
-assert "NO_FIFTH_QUOTIENT_OR_Q1" in directive["latest_build_evidence"]
+assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
+assert "FIXED_FRAME_HODGE_LIVE" in directive["latest_build_evidence"]
+assert "A_MINUS_K_OVER_TWO_EXACT" in directive["latest_build_evidence"]
+assert "HODGE_COFRAME_FUSED" in directive["latest_build_evidence"]
+assert "NO_ACTION_CANCELLATION_OR_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
 assert "NORMALIZED_GLOBAL_PROJECTOR_SCREENS_CONSTANT_SHIFTS_EXACTLY" in directive["current_evidence_boundary"]
@@ -168,4 +168,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.25 ledger retain the action-owner split while composing selected primitive epsilon and compact Dirichlet Green closure without BFV promotion")
+print("PASS: functional channels and v0.26 ledger fuse the local TT gimmel/Hodge/coframe owner without action, BV/BFV or physics promotion")

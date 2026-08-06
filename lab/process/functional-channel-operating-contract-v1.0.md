@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.25.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.25.md`.
+`lab/process/conditional-physics-ledger-v0.26.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.26.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -37,6 +37,14 @@ Current first-order boundary directive: primitive epsilon and compact-core
 Dirichlet Green closure are already exact on the selected product row. Do not
 rebuild them. Preserve unrestricted boundary flux and route the remaining
 Build to moving geometry/observation, diffeomorphism/odd BV and global BFV.
+
+Current moving-gimmel directive: on the exact local TT `Sym2` family the
+fourteen-dimensional density response is zero, fixed-frame Hodge motion is
+live, and `A=-G^-1(delta G)/2` supplies the co-moving-frame compensator. Treat
+metric/DeWitt/Hodge/coframe as one functorial owner packet. Do not recount
+Hodge and frame as independent coefficients, and do not infer selected-action
+cancellation until Phi/Shiab/Krein/soldering/fields and observation are
+transported through the same packet.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -433,9 +441,11 @@ isolation. The intrinsic lower-order homogeneous orbit is subsequently exact
 when `T`, `Phi1/Phi2` and Shiab move together: all 91 K77 bivector generators
 give zero cubic and quadratic intrinsic Ward variation, while a frozen Shiab
 leaves four exact defects. This is still not full descent. Direct curvature/
-`II`/defect, moving metric/Hodge/DeWitt/Krein pairing and observation,
-primitive epsilon Green, diffeomorphism/odd BV and preboundary/BFV remain
-open. The corrected package is not counted as a fifth quotient.
+`II`/defect and the complete moving
+gimmel/frame/Phi/Shiab/Krein/soldering/field observation owner remain open.
+The local TT density subowner is zero and Hodge/coframe motion is one packet;
+primitive epsilon Green is exact. Diffeomorphism/odd BV and preboundary/BFV
+remain open. The corrected package is not counted as a fifth quotient.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -448,7 +458,7 @@ Einstein source.
 Current gate:
 
 ```text
-ASSEMBLE_DIRECT_CURVATURE_FULL_II_DEFECT_D3_PLUS_MOVING_METRIC_HODGE_DEWITT_KREIN_PAIRING_OBSERVATION_AND_DERIVE_EULER_WARD_PREBOUNDARY__THEN_COMPLETE_REDUCED_CLASS_AND_Q1__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+COMPOSE_ONE_FUSED_MOVING_GIMMEL_FRAME_PHI_SHIAB_KREIN_SOLDERING_FIELD_OWNER_WITH_SELECTED_ACTION_AND_OBSERVATION__THEN_DIFFEO_ODD_BV_GLOBAL_BFV_AND_Q1__IN_PARALLEL_WITH_SECOND_LAYER_OWNER_MAP_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 The next work has three independent owners. Interaction positivity must derive

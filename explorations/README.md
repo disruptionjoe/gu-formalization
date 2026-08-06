@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Moving gimmel / Hodge / frame owner (2026-08-06)
+
+`conditional-build/moving-gimmel-hodge-frame-owner-2026-08-06.md` computes
+the exact local TT derivative of the actual trace-reversed `Sym2(T*X)` gimmel
+family. The total density derivative is zero, fixed-frame Hodge motion is live,
+and an exact co-moving-frame compensator fuses Hodge and coframe into one
+natural owner packet. Ledger v0.26 migrates five distances without changing
+verdicts, residue, quotient count or P1/P2/P3. The complete selected-action
+observation/BV/BFV composition remains open.
+
 ## Selected first-order epsilon / preboundary Compose (2026-08-06)
 
 `conditional-build/selected-first-order-epsilon-preboundary-compose-2026-08-06.md`

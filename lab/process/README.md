@@ -55,9 +55,13 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.25.json` - current machine ledger; the selected first-order branch now composes exact principal, homogeneous, primitive-epsilon and compact-Dirichlet Green owners, migrating five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.26.json` - current machine ledger; the exact local TT gimmel derivative has zero density response and fuses fixed-frame Hodge with the co-moving frame owner, migrating five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `moving-gimmel-hodge-frame-owner.json` - exact `(6,4)` DeWitt / `(7,7)` gimmel inertia, TT trace and density, live fixed-frame Hodge and co-moving-frame fusion receipt; complete selected-action observation/BV/BFV remains open.
+- `conditional-physics-ledger-v0.25.json` - immutable predecessor composing selected gauge, primitive-epsilon and compact-Dirichlet Green owners.
 - `selected-first-order-epsilon-preboundary-compose.json` - machine receipt for selected-product inclusion in the prior epsilon domain, exact compact Dirichlet flux closure and live unrestricted preboundary flux.
 - `two-layer-action-selected-cubic-owner-retype.json` - machine receipt for the two-layer queue split, generic cubic independence, one-way residual redundancy and open `I2B`-to-observer-full-II owner map.
+- `conditional-physics-ledger-v0.24.json` - immutable predecessor that separates first-order, residual-norm-square and observer-full-II action owners.
+- `conditional-physics-ledger-v0.23.json` - immutable predecessor that closes the intrinsic homogeneous Ward orbit while retaining direct/moving/preboundary owners.
 - `conditional-physics-ledger-v0.22.json` - immutable predecessor that closes principal diagonal descent while leaving the intrinsic homogeneous orbit open.
 - `selected-cubic-intrinsic-homogeneous-ward-closure.json` - exact 91-generator intrinsic Ward closure, frozen/wrong-sign Shiab plants, independent Sage structural control and full direct/moving/preboundary successor.
 - `conditional-physics-ledger-v0.21.json` - older immutable predecessor that records the correct isolated one-connection rank-five result before the Layer-0 two-connection correction.

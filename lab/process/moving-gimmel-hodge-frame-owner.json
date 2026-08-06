@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "TT_DENSITY_ZERO__FIXED_FRAME_HODGE_LIVE__MOVING_HODGE_AND_COFRAME_FUSED__SELECTED_ACTION_COMPOSITION_OPEN",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "ledger_version": "0.26",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "base_metric_vs_gimmel_metric": "DISTINCT_BUT_FUNCTORIALLY_RELATED",
+    "fixed_coordinate_frame_vs_comoving_orthonormal_frame": "DISTINCT",
+    "hodge_coefficient_motion_vs_action_euler_cancellation": "DISTINCT",
+    "pointwise_inertia_vs_hyperbolic_energy": "DISTINCT",
+    "frame_compensation_vs_bv_quotient": "DISTINCT"
+  },
+  "source": {
+    "return_code": "SOURCE-CONFIRMS_AND_SOURCE-SILENT",
+    "confirms": "METRIC_BUNDLE_GIMMEL_TRACE_REVERSED_FIBRE_AND_MOVING_OBSERVATION_ARE_THE_ARENA",
+    "silent": "EXACT_TT_DEWITT_DERIVATIVE_DENSITY_ZERO_FRAME_COMPENSATOR_AND_SELECTED_ACTION_CUBIC",
+    "exact_derivative_attribution": "REPOSITORY_DERIVED",
+    "tt_density_zero": "SOURCE-SILENT"
+  },
+  "gimmel": {
+    "base_metric": "DIAG_1_MINUS1_MINUS1_MINUS1",
+    "vertical_metric": "TRACE_REVERSED_DEWITT_ON_SYM2_TSTAR",
+    "vertical_dimension": 10,
+    "vertical_determinant": 64,
+    "base_inertia": [1, 3, 0],
+    "vertical_inertia": [6, 4, 0],
+    "total_inertia": [7, 7, 0]
+  },
+  "tt_variation": {
+    "base_h": "DIAG_0_1_MINUS1_0",
+    "horizontal_trace": 0,
+    "vertical_trace": 0,
+    "total_trace": 0,
+    "density_derivative": 0,
+    "metric_derivative_rank": 8,
+    "fixed_frame_hodge": "NONZERO"
+  },
+  "frame_fusion": {
+    "metric_endomorphism": "K_EQUALS_G_INVERSE_H",
+    "vector_frame_compensator": "A_EQUALS_MINUS_ONE_HALF_K",
+    "metric_compensation": "H_PLUS_A_TRANSPOSE_G_PLUS_G_A_EQUALS_ZERO",
+    "compensator_trace": 0,
+    "conclusion": "MOVING_HODGE_METRIC_AND_COMOVING_FRAME_ARE_ONE_FUNCTORIAL_OWNER_PACKET"
+  },
+  "control": {
+    "conformal_horizontal_trace": 4,
+    "conformal_vertical_trace": -20,
+    "conformal_total_density_derivative": -8,
+    "frozen_frame_hodge": "NONZERO"
+  },
+  "independent_exact_route": {
+    "engine": "SAGE_10_9_RATIONAL_QUADRATIC_FORM",
+    "vertical_determinant": 64,
+    "vertical_signature_difference": 2,
+    "total_signature_difference": 0,
+    "total_trace": 0,
+    "metric_derivative_rank": 8,
+    "frame_compensation": "EXACT"
+  },
+  "constraint_cost": {
+    "fitted_coefficients": 0,
+    "new_external_datum": 0,
+    "residue_reduction": 0,
+    "new_quotients": 0
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "held_open": [
+    "MOVING_PHI_SHIAB_KREIN_AND_SOLDERING_COMPOSITION_IN_THE_SAME_FRAME_PACKET",
+    "SELECTED_ACTION_EULER_AND_PRESYMPLECTIC_OBSERVATION_COMPOSITION",
+    "DIFFEO_AND_ODD_SUPERIG_BV",
+    "GLOBAL_PHYSICAL_GREEN_DOMAIN",
+    "UNRESTRICTED_PREBOUNDARY_BFV_REDUCTION",
+    "COMMON_INTERACTING_POSITIVITY_AND_Q1"
+  ],
+  "review_receipt": "lab/process/hostile-reviews/2026-08-06-moving-gimmel-hodge-frame-owner-review.md",
+  "next_gate": "COMPOSE_ONE_FUSED_MOVING_GIMMEL_FRAME_PHI_SHIAB_KREIN_SOLDERING_OWNER_WITH_THE_SELECTED_ACTION_AND_OBSERVATION_MAP__DO_NOT_RECOUNT_HODGE_AS_AN_INDEPENDENT_COEFFICIENT"
+}

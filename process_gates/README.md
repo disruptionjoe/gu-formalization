@@ -129,6 +129,7 @@ selected notes below and in each script header.
 - `mission_a_matter_gauge_selector_audit.py`
 - `mission_a_metric_shadow_extraction_audit.py`
 - `mission_a_qft_state_space_extraction_audit.py`
+- `moving_gimmel_hodge_frame_owner_scope_audit.py`
 - `next_steps_frontdoor_guard_audit.py`
 - `pati_salam_readme_inventory_audit.py`
 - `papers_candidates_readme_inventory_audit.py`
@@ -1564,3 +1565,12 @@ principal/homogeneous/primitive owner composition, compact Dirichlet zero
 flux, live unrestricted flux, repository-not-source product attribution,
 mandatory symplectic/BFV fence, exactly five distance-only migrations,
 unchanged verdicts/residue/quotients and unused P1/P2/P3.
+
+## Moving gimmel/Hodge/frame owner and ledger v0.26 gate
+
+`moving_gimmel_hodge_frame_owner_scope_audit.py` enforces the exact
+trace-reversed `Sym2` inertia `(6,4)`, total gimmel inertia `(7,7)`, local TT
+density derivative zero, live fixed-frame Hodge response, exact co-moving
+frame compensator and Hodge/coframe owner fusion. It requires the mandatory
+symplectic fence against action/BV/BFV cancellation, exactly five distance-only
+migrations, unchanged verdicts/residue/quotients and unused P1/P2/P3.
