@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.21.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.21.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.21.md")
+assert "conditional-physics-ledger-v0.22.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.22.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.22.md")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -90,7 +90,7 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "LC_MIXED_TT_REPRESENTATIVE_NONZERO__GAUGE_GAUGE_RANK5__FUSED_WARD_COMPLETION_OPEN__DIRECT_AND_MOVING_OWNERS_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["status"] == "LC_TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT__PHYSICAL_KERNEL_NONZERO__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN__DIRECT_AND_MOVING_OWNERS_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
 assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
@@ -98,9 +98,9 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FUSED_CO_MOVING_EPSILON_WARD_BV_TOTALIZATION_OF_LC_GAUGE_RANK5" in directive["next_gate"]
+assert "ASSEMBLE_LOWER_ORDER_HOMOGENEOUS_ADJOINT_ORBIT" in directive["next_gate"]
 assert "DIRECT_CURVATURE_II_DEFECT_D3" in directive["next_gate"]
-assert "MOVING_PAIRING_OBSERVATION" in directive["next_gate"]
+assert "MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_OBSERVATION" in directive["next_gate"]
 assert "SUPER_IG_DESCENT" in directive["next_gate"]
 assert "NORMALIZED_OBSERVER_FUNCTIONAL" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
@@ -117,12 +117,14 @@ assert "INTRINSIC_AUGMENTED_TORSION_D3_TRACE_136_OVER_3_TRACELESS_MINUS_56_OVER_
 assert "INTRINSIC_THETA_RAD_Q0QM_ZERO" in directive["current_evidence_boundary"]
 assert "INTRINSIC_THETA_RAD_QMQM_NONZERO" in directive["current_evidence_boundary"]
 assert "STATIONARY_BULK_PULLBACK_USES_FIRST_SECOND_LIFT_JETS" in directive["current_evidence_boundary"]
-assert "DIRECT_CURVATURE_II_DEFECT_AND_MOVING_PAIRING_OBSERVATION_OPEN__LC_FIRST_JET_MIXED_TT_NONZERO_GAUGE_GAUGE_RANK5_FUSED_WARD_BV_PREBOUNDARY_OPEN" in directive["current_evidence_boundary"]
+assert "TWO_CONNECTION_DIFFERENCE_RANK24_KERNEL_DIAGONAL24" in directive["current_evidence_boundary"]
+assert "PRINCIPAL_DIAGONAL_GAUGE_RANK0" in directive["current_evidence_boundary"]
+assert "LOWER_ORDER_HOMOGENEOUS_WARD_BV_PREBOUNDARY_OPEN" in directive["current_evidence_boundary"]
 assert "NO_Q1_POLE_OR_PHYSICAL_SHEET_RESULT_BOOKED" in directive["current_evidence_boundary"]
-assert "MIXED_TT_KERNEL_14_OVER_3_P_DOT_Q_H_DOT_K_NONZERO" in directive["latest_build_evidence"]
-assert "LC_GAUSS_24_BY_100_ZERO" in directive["latest_build_evidence"]
-assert "RADIAL_HESSIAN_ZERO_ON_1274_CL2_DIRECTIONS" in directive["latest_build_evidence"]
-assert "CONNECTION_GAUGE_GAUGE_RANK5" in directive["latest_build_evidence"]
+assert "MIXED_TT_KERNEL_14_OVER_3_P_DOT_Q_H_DOT_K_PRESERVED" in directive["latest_build_evidence"]
+assert "COMPLETE_MAP_RANK24_KERNEL_DIAGONAL24" in directive["latest_build_evidence"]
+assert "ISOLATED_CONNECTION_GAUGE_BLOCK_RANK5" in directive["latest_build_evidence"]
+assert "TWO_CONNECTION_DIAGONAL_GAUGE_BLOCK_RANK0" in directive["latest_build_evidence"]
 assert "NO_Q1_OR_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -162,4 +164,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.21 ledger fuse the exact nonzero LC representative with its rank-five Ward burden without consuming P1/P2/P3")
+print("PASS: functional channels and v0.22 ledger carry exact two-connection principal descent while fencing lower-order Ward/BV/preboundary and preserving unused P1/P2/P3")

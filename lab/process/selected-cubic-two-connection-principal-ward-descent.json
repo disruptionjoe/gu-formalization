@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-06",
+  "status": "TWO_CONNECTION_PRINCIPAL_DESCENT_EXACT__PHYSICAL_LC_KERNEL_PRESERVED__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN",
+  "functional_channels": ["BUILD", "SOURCE", "COMPOSE", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS",
+  "source_scope": "TWO_CONNECTION_DIFFERENCE_AND_GAUGE_ROTATED_LC_OWNER__NOT_RANK_COEFFICIENT_OR_FULL_QUOTIENT",
+  "ledger_from": "0.21",
+  "ledger_to": "0.22",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "layer0": {
+    "isolated_connection_vs_connection_difference": "DISTINCT_OBJECTS",
+    "principal_affine_motion_vs_homogeneous_orbit": "DISTINCT_OBJECTS",
+    "principal_radical_vs_full_bv_preboundary_quotient": "DISTINCT_OBJECTS",
+    "source_difference_vs_fitted_counterterm": "DISTINCT_OBJECTS",
+    "descended_kernel_vs_transition": "HOMONYM"
+  },
+  "difference_map": {
+    "formula": "W(delta_A,delta_B)=delta_A-delta_B",
+    "domain_dimension": 48,
+    "rank": 24,
+    "kernel_dimension": 24,
+    "kernel": "COMPLETE_DIAGONAL_CONNECTION_CARRIER",
+    "anti_diagonal_rank": 24,
+    "unique_normalized_coefficients": [1, -1]
+  },
+  "exact_result": {
+    "mixed_tt_kernel": "(14/3)*(p.q)*(h0:hm)",
+    "back_to_back_shell_kernel": "(7/3)*(mu^2-M^2)*(h0:hm)",
+    "mass_pairs": [[3, 1], [5, 3], [7, 1], [11, 5]],
+    "plus_plus": "NONZERO_WHEN_MU2_NE_M2",
+    "cross_cross": "NONZERO_WHEN_MU2_NE_M2",
+    "plus_cross": "ZERO"
+  },
+  "quotient_test": {
+    "connection_gauge_symbol_dimension": 6,
+    "isolated_connection_gauge_block_rank": 5,
+    "two_connection_diagonal_gauge_block_rank": 0,
+    "principal_diagonal_two_sided_radical": "EXACT",
+    "lower_order_homogeneous_orbit": "OPEN",
+    "disposition": "PRINCIPAL_DESCENT_EXACT__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN",
+    "fifth_quotient": "NOT_COUNTED"
+  },
+  "remaining_packages": [
+    "LOWER_ORDER_HOMOGENEOUS_ADJOINT_ORBIT",
+    "MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_AND_OBSERVATION",
+    "DIRECT_CURVATURE_FULL_II_AND_DEFECT_D3",
+    "NONLINEAR_WARD_BV_AND_PREBOUNDARY_TOTALIZATION"
+  ],
+  "cost": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_selectors": 0,
+    "new_real_form_identifications": 0
+  },
+  "ledger": {
+    "version": "0.22",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "continuous_residue": 84,
+    "function_valued_residue_lower_bound": 19,
+    "discrete_forks": 9,
+    "scoped_quotients_ranked": 4,
+    "row_changes": "FIVE_DISTANCE_MIGRATIONS__ZERO_VERDICT_OR_REASON_KIND_CHANGES"
+  },
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "review_receipts": {
+    "primary_probe": "54_54_PASS__33_EXACT_8_PLANTED_4_REPO_3_SOURCE_6_TYPE__PINNED_SYMPY_1_14_0",
+    "independent_sage": "PASS__DIFFERENCE_RANK24_KERNEL_DIAGONAL24__GAUGE_RANK0__PHYSICAL_KERNEL_PRESERVED",
+    "ledger_probe": "47_47_PASS__31_EXACT_5_PLANTED_4_PROGRAM_7_TYPE",
+    "hostile_review": "PASS_AFTER_EIGHT_SCOPE_CORRECTIONS",
+    "symplectic_review": "PRINCIPAL_RADICAL_EXACT__LOWER_ORDER_WARD_BV_PREBOUNDARY_OPEN__NO_Q1_OR_FIFTH_QUOTIENT"
+  },
+  "next_gate": "ASSEMBLE_LOWER_ORDER_HOMOGENEOUS_ADJOINT_ORBIT_AND_MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_OBSERVATION_WARD_TOTALIZATION_PLUS_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_PREBOUNDARY__THEN_COMPLETE_REDUCED_CLASS_AND_Q1"
+}

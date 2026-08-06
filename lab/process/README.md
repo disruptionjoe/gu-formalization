@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.21.json` - current machine ledger; the exact LC mixed TT representative migrates five distances while its rank-five Ward obstruction preserves `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.22.json` - current machine ledger; the source-owned two-connection difference removes the isolated rank-five principal gauge obstruction while preserving the nonzero LC mixed TT kernel, migrating five distances and preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.21.json` - immutable predecessor that records the correct isolated one-connection rank-five result before the Layer-0 two-connection correction.
+- `selected-cubic-two-connection-principal-ward-descent.json` - exact complete-carrier difference-map rank/kernel theorem, principal diagonal gauge cancellation, preserved physical LC kernel and lower-order Ward/BV/preboundary successor.
 - `selected-cubic-gauge-rotated-lc-ward-owner.json` - exact symmetric-frame LC first-jet shell kernel, carrier exhaustion, stationary second-jet elimination, rank-five gauge obstruction and fused LC/Ward successor.
 - `conditional-physics-ledger-v0.20.json` - frozen predecessor ledger for the intrinsic augmented-torsion D3 owner.
 - `selected-cubic-augmented-torsion-d3-owner-decomposition.json` - exact intrinsic augmented-torsion D3 owner, stationary pullback jet-order receipt, real-form fence and four-package successor.

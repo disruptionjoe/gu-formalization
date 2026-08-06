@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.21.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.21.md`.
+`lab/process/conditional-physics-ledger-v0.22.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.22.md`.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -412,6 +412,17 @@ connection-gauge block has rank five. The LC owner and co-moving epsilon/Ward/
 BV/preboundary completion are therefore one fused Build package. Source return
 is `SOURCE-CONFIRMS` for the owner, not for the coefficient or quotient.
 
+That rank-five obstruction was subsequently retyped on GU's complete source
+object. Augmented torsion is the two-connection difference `A-B`, whose
+`24+24 -> 24` tangent map has rank 24 and kernel exactly the diagonal.
+Simultaneous inhomogeneous principal connection-gauge motion therefore has
+rank zero after the source-owned difference, while the nonzero mixed TT kernel
+survives. The old rank-five result remains correct for one connection in
+isolation. Principal cancellation is not full descent: the lower-order
+homogeneous orbit at nonzero `T`, moving Shiab/Hodge/DeWitt/Krein pairing and
+observation, direct curvature/`II`/defect, nonlinear Ward/BV and preboundary
+class remain open. The corrected quotient is not counted again.
+
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
 constant without deriving its action placement, conservation identity,
@@ -423,7 +434,7 @@ Einstein source.
 Current gate:
 
 ```text
-FUSED_CO_MOVING_EPSILON_WARD_BV_TOTALIZATION_OF_LC_GAUGE_RANK5_PLUS_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_MOVING_PAIRING_OBSERVATION__THEN_REDUCED_PREBOUNDARY_CLASS_AND_Q1__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+ASSEMBLE_LOWER_ORDER_HOMOGENEOUS_ADJOINT_ORBIT_AND_MOVING_SHIAB_HODGE_DEWITT_KREIN_PAIRING_OBSERVATION_WARD_TOTALIZATION_PLUS_DIRECT_CURVATURE_II_DEFECT_D3_PLUS_PREBOUNDARY__THEN_COMPLETE_REDUCED_CLASS_AND_Q1__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 The next work has three independent owners. Interaction positivity must derive

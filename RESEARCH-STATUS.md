@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active construction update 2026-08-06 (ledger v0.22; no verdict, residue,
+canon or public-posture change).** GU's augmented torsion is a two-connection
+difference. Its exact tangent map on the complete `24+24` LC carrier has rank
+24 and kernel equal to the complete diagonal, so simultaneous inhomogeneous
+principal connection-gauge motion has rank zero. The predecessor's rank-five
+block remains correct for one connection in isolation; it is no longer the
+final principal quotient obstruction. The physical mixed TT kernel
+`(14/3)(p.q)(h0:hm)` survives unchanged. Lower-order homogeneous adjoint
+motion, moving Shiab/pairing/observation, direct curvature/`II`/defect,
+nonlinear Ward/BV and preboundary remain open. Five ledger distances move;
+counts, residue, four scoped quotients and P1/P2/P3 remain unchanged. See
+`explorations/conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md`.
+
 **Active construction update 2026-08-06 (ledger v0.21; no verdict, residue,
 canon or public-posture change).** The source-directed symmetric-frame
 Levi-Civita first jet supplies an exact nonzero mixed helicity-two shell

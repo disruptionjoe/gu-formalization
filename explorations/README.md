@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-cubic two-connection principal Ward descent (2026-08-06)
+
+`conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md`
+retypes the preceding rank-five gauge obstruction on GU's source-owned
+connection difference. The complete difference map has rank 24 and kernel the
+24-dimensional diagonal, making simultaneous principal gauge motion rank zero
+without erasing the nonzero mixed TT kernel. This is principal descent only:
+the homogeneous orbit at nonzero `T`, moving owners, nonlinear Ward/BV and
+preboundary class remain open. Ledger v0.22 migrates five distances and leaves
+all verdicts, residue, four scoped quotients and P1/P2/P3 unchanged.
+
 ## Selected-cubic gauge-rotated LC / Ward owner (2026-08-06)
 
 `conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md`

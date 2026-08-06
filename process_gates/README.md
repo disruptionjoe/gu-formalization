@@ -140,8 +140,10 @@ selected notes below and in each script header.
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
 - `queue_review_freshness_audit.py`
-- `selected_cubic_reduced_numerator_scope_audit.py`
 - `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
+- `selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py`
+- `selected_cubic_reduced_numerator_scope_audit.py`
+- `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -1520,3 +1522,14 @@ radial second-jet elimination and the rank-five connection-gauge obstruction.
 It requires the mandatory symplectic nonpromotion, five append-only
 distance-only migrations, unchanged `LT-GR3`, verdicts, reason kinds, residue,
 four scoped quotients and unused P1/P2/P3.
+
+## Selected two-connection principal Ward descent and ledger v0.22 scope gate
+
+`selected_cubic_two_connection_principal_ward_descent_scope_audit.py` enforces
+the complete `24+24 -> 24` difference-map rank/kernel theorem, unique
+normalized `(1,-1)` coefficients, isolated rank-five versus diagonal rank-zero
+gauge blocks, and preservation of the nonzero mixed TT kernel. It requires the
+mandatory symplectic fence between principal descent and the full
+Ward/BV/preboundary quotient, exactly five append-only distance migrations,
+unchanged `LT-GR3`, verdicts, reason kinds, residue and four scoped quotients,
+and unused P1/P2/P3.

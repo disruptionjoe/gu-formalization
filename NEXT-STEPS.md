@@ -7,6 +7,20 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 TWO-CONNECTION PRINCIPAL WARD DESCENT.**
+> [`explorations/conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md`](explorations/conditional-build/selected-cubic-two-connection-principal-ward-descent-2026-08-06.md)
+> corrects the preceding quotient target to GU's source-owned connection
+> difference `W(delta A,delta B)=delta A-delta B`. On the complete `24+24`
+> carrier, `W` has rank 24 and kernel exactly the diagonal. The isolated
+> connection gauge block remains rank five, but simultaneous principal gauge
+> motion has rank zero after `W`; the physical mixed TT kernel
+> `(14/3)(p.q)(h0:hm)` survives. Ledger v0.22 stays `82/82`, `33/19/24/6`,
+> residue `84 + >=19 functions + 9 forks`, and four scoped quotients; five
+> distances move and P1/P2/P3 remain unused. Next: assemble the lower-order
+> homogeneous orbit, moving Shiab/pairing/observation, direct
+> curvature/full-`II`/defect and preboundary current into one complete Ward/BV
+> class before Q1.
+
 > **2026-08-06 GAUGE-ROTATED LEVI-CIVITA / WARD OWNER.**
 > [`explorations/conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md`](explorations/conditional-build/selected-cubic-gauge-rotated-lc-ward-owner-2026-08-06.md)
 > constructs the next selected-cubic owner. The symmetric-frame LC first jet
