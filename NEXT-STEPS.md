@@ -7,22 +7,23 @@ updated_at: "2026-08-05"
 
 # Next Steps For Contributors
 
-> **2026-08-05 SELECTED-BRANCH TOTALIZATION / CURRENT / DOMAIN GATE.**
-> [`explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md`](explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md)
-> separates the radial `Cl1` Hessian from the gravitational `Cl2` Gauss
-> carrier. The exact trace/traceless coefficients are
-> `100*kappa_1/117` and `124*kappa_1/117`; the native Gauss inertia is
-> `(54,46)`. The coupled observed `(h,v)` system is normally hyperbolic on one
-> common defect Krein/Green domain. Its partner has
-> `m^2=124*alpha_II*kappa_1/117` and the two pole residues are opposite. The
-> full stationary Ward linearization and
-> `T_reduced=E_g^direct+(D_g A)^!J_A` chain are typed; full metric/coframe
-> soldering and physical BV cohomology remain open. A direct branch source has
-> susceptibility `1/(14*kappa_1)`, but the actual curvature/VEV two-field
-> magnitude argument is untested. `SOURCE-CORRECTS`. Ledger v0.13 remains
-> `82/82`, `33/19/24/6`, residue `84 + >=19 functions + 9 forks`. External
+> **2026-08-05 SELECTED-BRANCH BV / KREIN / CURVATURE-VEV GATE.**
+> [`explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md`](explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md)
+> constructs the gauge-rotated Levi-Civita metric derivative modulo connection
+> gauge on the linear observed defect; its symbol has rank ten on timelike,
+> spacelike and null covectors. The massive partner survives the ordinary even
+> BV quotient with at least two TT classes, and its finite two-field Krein
+> pencil has a canonical positive spectral majorant for `alpha_II>0`. These do
+> not close the nonlinear ambient soldering, odd super-IG cohomology, full
+> massive multiplet or uniform UV problem. The smallest action-derived local
+> curvature/VEV horn controls `R` and `theta` with one input, but has
+> `dR/d rho_vac=2/a`, so it tracks rather than screens vacuum shifts. Spatial
+> flatness is not `R=0`; ambient/global/nonlocal cosmology and action-owned
+> `w(z)` remain open. `SOURCE-CONFIRMS` only the limited two-connection and
+> two-to-one architecture. Ledger v0.14 remains `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`, with three scoped quotients ranked. External
 > P1/P2/P3, canon and public posture do not move. Next:
-> `CONSTRUCT_SELECTED_BRANCH_FULL_METRIC_COFRAME_SOLDERING_DERIVATIVE_AND_BV_PHYSICAL_COHOMOLOGY_FOR_THE_OPPOSITE_RESIDUE_PARTNER__IN_PARALLEL_BUILD_THE_OBSERVED_TWO_FIELD_CURVATURE_VEV_FLRW_PARAMETER_COUNT_AND_SHIFT_RESPONSE`.
+> `CONSTRUCT_FULL_ODD_SUPER_IG_INTERACTING_COHOMOLOGY_AND_UV_UNIFORM_KREIN_MAJORANT__IN_PARALLEL_TEST_THE_AMBIENT_GLOBAL_NONLOCAL_CURVATURE_VEV_HORN_AND_DERIVE_ACTION_OWNED_FLRW_PERTURBATIONS`.
 
 > **2026-08-05 FULL-NORM POLE SPLIT / NONLINEAR T-VACUUM GATE.**
 > [`explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md`](explorations/conditional-build/full-norm-pole-split-nonlinear-t-vacuum-2026-08-05.md)

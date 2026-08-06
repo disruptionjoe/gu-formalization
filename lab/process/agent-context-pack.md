@@ -57,7 +57,7 @@ Verify attacks changed/high-fanout claims and does not relabel unchanged replay
 as progress. Hostile review checks both summary-overreach and rigorous defense
 of a superseded/mistyped object.
 
-`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.13:
+`GU-COSMO-DYNAMIC-01` is active. The Layer-0 split is current in ledger v0.14:
 source `theta` and action `T` are the same connection difference up to the
 tilted trivialization; the action has exact ambient curvature-covariation rank
 105 and total homogeneous `T`-Euler rank 196. This is not observed cosmology.
@@ -90,7 +90,10 @@ it is the radial transgression of the existing mixed metric/matter return
 block. Literal diagonal `VU` is a Hessian response, not stress, and the one-
 action chain rule is now typed as
 `T_reduced = E_g^direct + (D_g A)^! J_A`; the connection current alone is not
-the Hilbert stress. The full metric/coframe soldering derivative remains open.
+the Hilbert stress. The gauge-rotated Levi-Civita metric derivative is now
+exact modulo connection gauge on the linear observed defect, with rank-ten
+symbol on timelike, spacelike and null covectors. Full nonlinear ambient
+chimeric soldering remains open.
 The exact flat null quotient remains `10 -> 6 -> 2`. The written connection-
 difference norm is composed with the correctly typed horizontal Gauss block:
 its receiver has rank 100, its insertion is the exact action-adjoint right
@@ -104,15 +107,21 @@ gravitational Hessian. On the actual Gauss carrier the trace and traceless
 coefficients are respectively `100*kappa_1/117` and `124*kappa_1/117`, with
 native pairing inertia `(54,46)`. The coupled second-order observed defect
 operator has one common normally-hyperbolic Krein/Green domain. Its partner has
-`m^2=124*alpha_II*kappa_1/117`, and the two poles have exact opposite residues;
-positive physical BV cohomology and the ambient `Y14` domain remain open. A
-direct source susceptibility `1/(14*kappa_1)` does not test Weinstein's
-two-field curvature/VEV magnitude mechanism, which also remains open.
+`m^2=124*alpha_II*kappa_1/117`, and the two poles have exact opposite residues.
+The partner survives ordinary even diffeomorphism BV with at least two TT
+classes. Its finite two-field pencil has a canonical spectral Krein majorant
+that is positive for `alpha_II>0`. Full odd super-IG cohomology, the complete
+massive multiplet, loop/RG and uniform ultraviolet positivity remain open.
+The local action-derived curvature/VEV horn now passes the limited two-values-
+to-one count but fails screening exactly: `dR/d rho_vac=2/a`. Spatial flatness
+is not four-dimensional scalar-curvature flatness. An ambient/global/nonlocal
+horn and action-owned `w(z)` remain open.
 `lambda_def` is charged as the 84th prequotient real, while any normalization
 quotient remains unranked. The composed-locus source return is
-`SOURCE-CORRECTS`: the source confirms the unfinished rolled/up-and-back
-architecture but corrects literal current-equals-stress and partial-`D E`
-totalization readings.
+`SOURCE-CONFIRMS` at the latest limited locus: the source confirms the
+two-connection and two-problems-to-one architecture, while the metric
+derivative, BV classes, finite Krein majorant and local FLRW formulas are
+repo-derived. External P1/P2/P3 remain unchanged and unused.
 Einstein-equation recovery alone still does not recover GU's claimed dynamic
 cosmological sector.
 

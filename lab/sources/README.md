@@ -64,6 +64,14 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`selected-branch-bv-flrw-source-reinspection-2026-08-05.md`](selected-branch-bv-flrw-source-reinspection-2026-08-05.md)
+  - returns narrowly `SOURCE-CONFIRMS`: Weinstein states the two-connection,
+    gauge-rotated Levi-Civita/distortion architecture and the limited
+    two-problems-to-one dark-energy bar. The exact soldering derivative,
+    even-BV TT classes, finite Krein majorant and local FLRW/non-screening
+    formulas are repository derivations; spatial flatness is not identified
+    with four-dimensional scalar-curvature flatness.
+
 - [`keating-interview-2025-06-12-source-record.md`](keating-interview-2025-06-12-source-record.md)
   - primary-source correction for Weinstein's dynamic two-field dark-energy
     magnitude argument.

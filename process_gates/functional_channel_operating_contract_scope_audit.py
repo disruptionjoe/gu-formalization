@@ -57,9 +57,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.13.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.13.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.13.md")
+assert "conditional-physics-ledger-v0.14.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.14.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.14.md")
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -75,21 +75,22 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "SELECTED_BRANCH_GAUSS_HESSIAN_EXACT__FULL_WARD_AND_STRESS_CURRENT_CHAIN_TYPED__COMMON_DEFECT_KREIN_GREEN_DOMAIN__MASSIVE_PARTNER_OPPOSITE_RESIDUES_CLASSIFIED__PHYSICAL_COHOMOLOGY_AND_TWO_FIELD_COSMOLOGY_OPEN"
-assert directive["source_return"] == "SOURCE-CORRECTS"
+assert directive["status"] == "METRIC_SOLDERING_MOD_GAUGE_EXACT__MASSIVE_PARTNER_SURVIVES_EVEN_BV_TT__FINITE_TREE_KREIN_MAJORANT_POSITIVE__LOCAL_TWO_FIELD_TRACKING_EXACT__LOCAL_SCREENING_FAILS__ODD_UV_AND_AMBIENT_GLOBAL_HORNS_OPEN"
+assert directive["source_return"] == "SOURCE-CONFIRMS"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FULL_METRIC_COFRAME_SOLDERING_DERIVATIVE" in directive["next_gate"]
-assert "BV_PHYSICAL_COHOMOLOGY" in directive["next_gate"]
-assert "TWO_FIELD_CURVATURE_VEV_FLRW" in directive["next_gate"]
-assert "GAUSS_TRACE_AND_TRACELESS_HESSIANS_100_OVER117_AND_124_OVER117" in directive["current_evidence_boundary"]
-assert "COUPLED_OBSERVED_DEFECT_KREIN_GREEN_DOMAIN" in directive["current_evidence_boundary"]
-assert "OPPOSITE_RESIDUES_EXACT" in directive["current_evidence_boundary"]
-assert "TWO_FIELD_CURVATURE_VEV_COSMOLOGY_OPEN" in directive["current_evidence_boundary"]
+assert "FULL_ODD_SUPER_IG_INTERACTING_COHOMOLOGY" in directive["next_gate"]
+assert "UV_UNIFORM_KREIN_MAJORANT" in directive["next_gate"]
+assert "AMBIENT_GLOBAL_NONLOCAL_CURVATURE_VEV_HORN" in directive["next_gate"]
+assert "GAUGE_ROTATED_LEVI_CIVITA_METRIC_DERIVATIVE_MOD_CONNECTION_GAUGE_RANK10" in directive["current_evidence_boundary"]
+assert "MASSIVE_PARTNER_HAS_AT_LEAST_TWO_NONEXACT_EVEN_BV_TT_CLASSES" in directive["current_evidence_boundary"]
+assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
+assert "LOCAL_VACUUM_SHIFT_SUSCEPTIBILITY_2_OVER_A_NONSCREENING" in directive["current_evidence_boundary"]
+assert "AMBIENT_GLOBAL_NONLOCAL_HORN" in directive["current_evidence_boundary"]
 assert "one pole\ntotal" in human
 assert "z*(alpha_II*kappa_1-z)" in human
 assert "t=-kappa_1/312" in human
@@ -98,6 +99,10 @@ assert "100*kappa_1/117" in human
 assert "124*kappa_1/117" in human
 assert "opposite the Einstein pole" in human
 assert "T_reduced=E_g^direct+(D_g A)^!J_A" in human
+assert "rank ten on\ntimelike, spacelike and null" in human
+assert "P=I+2L/m^2" in human
+assert "dR/d rho_vac=2/a" in human
+assert "Spatial flatness `k=0` is not" in human
 assert "remains circular" in human
 assert "the Einstein equation was recovered” is not a completion result" in human
 assert "historical Einstein" in human
@@ -110,4 +115,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.13 ledger wire the selected-branch Gauss Hessians, one-action current chain, common defect domain and opposite residues while physical cohomology and two-field cosmology remain open")
+print("PASS: functional channels and v0.14 ledger wire metric soldering modulo gauge, even-BV TT survival, finite Krein positivity and local tracking-without-screening while odd, UV and ambient/global horns remain open")

@@ -1378,6 +1378,19 @@ residues and types the one-action direct-plus-soldered current chain. It keeps
 the full metric/coframe soldering derivative, positive physical BV cohomology,
 ambient `Y14` domain and two-field curvature/VEV cosmology open.
 
+## Conditional physics ledger v0.14 scope gate
+
+`conditional_physics_ledger_v014_scope_audit.py` preserves v0.13 byte-for-
+byte, recomputes the unchanged 82-row denominator, verdict and global residue
+counts, and requires exactly eight row migrations. It wires the rank-ten
+gauge-rotated Levi-Civita metric derivative modulo gauge, the lower bound of
+two surviving massive even-BV TT classes, the canonical finite tree-level
+positive Krein majorant, and the local curvature/VEV two-to-one horn with
+exact shift susceptibility `2/a`. It explicitly keeps full nonlinear ambient
+soldering, odd super-IG cohomology, loop/UV positivity, ambient/global/nonlocal
+cosmology and action-owned `w(z)` open. The third scoped quotient is ranked
+without booking a global residue reduction.
+
 ## Functional-channel operating-contract scope gate
 
 `functional_channel_operating_contract_scope_audit.py` requires the ratified
@@ -1392,9 +1405,11 @@ full-II norm selection, massless-plus-massive simple-pole response and
 selected nonzero K77 algebraic stationary branch. It now also enforces ledger
 v0.13, the distinct `100/117` and `124/117` Gauss Hessians, the common defect
 Krein/Green domain, exact opposite residues, the direct-plus-soldered current
-chain and `SOURCE-CORRECTS`. It keeps the full metric/coframe soldering
-derivative, positive physical BV cohomology, ambient `Y14` domain, two-field
-curvature/VEV cosmology and external `P2_datum` open. It
+chain, then the v0.14 metric-soldering, even-BV TT, finite Krein and local
+curvature/VEV results. The latest return is narrowly `SOURCE-CONFIRMS`. It
+keeps full nonlinear chimeric soldering, odd super-IG cohomology, the complete
+massive multiplet, uniform UV positivity, ambient/global/nonlocal cosmology,
+action-owned `w(z)` and external `P2_datum` open. It
 also forbids treating Einstein recovery as recovery of a constant or dynamical
 cosmological sector and records that this reset changes no scheduler, trigger,
 activation grant, canon, external datum or public posture.

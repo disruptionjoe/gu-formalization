@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "gate": "SELECTED_BRANCH_METRIC_SOLDERING_EVEN_BV_TT_AND_CURVATURE_VEV_FLRW",
+  "status": "DECISIVE_SCOPED_MOVEMENT",
+  "source_return": "SOURCE-CONFIRMS",
+  "fork_assumed": "K77_SELECTED_BRANCH__OBSERVED_GLOBALLY_HYPERBOLIC_DEFECT__LOCAL_SCALAR_CURVATURE_HORN",
+  "search_space_dim": "zero fitted coefficients; rank-ten metric derivative, two TT polarizations, two scalar field values",
+  "free_object_delta": 0,
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "exact_results": {
+    "metric_to_levi_civita_symbol_rank": 10,
+    "massive_partner_even_bv_tt_classes": 2,
+    "spectral_parity": "I+2L/m_squared",
+    "majorant_determinant": 1,
+    "constant_curvature": "2*rho_vac/a",
+    "constant_distortion": "-2*beta*rho_vac/(a*kappa)",
+    "curvature_shift_susceptibility": "2/a",
+    "flrw_trace": "a*R4+3*beta^2*box(R4)/kappa=2*rho_vac"
+  },
+  "boundaries": {
+    "full_odd_super_ig_cohomology": "OPEN",
+    "full_massive_multiplet": "OPEN",
+    "loop_rg_majorant": "OPEN",
+    "ambient_y14_domain": "OPEN",
+    "radiative_screening_local_horn": "FAILS",
+    "ambient_global_nonlocal_cosmology_horn": "OPEN",
+    "action_owned_w_of_z": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2_datum": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "third_lane": "NOT_PROMOTED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "next_gate": "CONSTRUCT_FULL_ODD_SUPER_IG_INTERACTING_COHOMOLOGY_AND_UV_UNIFORM_KREIN_MAJORANT__IN_PARALLEL_TEST_THE_AMBIENT_GLOBAL_NONLOCAL_CURVATURE_VEV_HORN_AND_DERIVE_ACTION_OWNED_FLRW_PERTURBATIONS"
+}

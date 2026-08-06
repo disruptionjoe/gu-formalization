@@ -7,6 +7,21 @@ updated_at: "2026-08-05"
 
 # Explorations
 
+## Selected-branch BV, Krein grading and curvature/VEV FLRW horn (2026-08-05)
+
+`conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md`
+constructs the rank-ten gauge-rotated Levi-Civita metric derivative modulo
+connection gauge on the linear observed defect. It proves that the massive
+partner leaves at least two non-exact ordinary even-BV TT classes and builds
+the canonical finite tree-level positive Krein majorant for `alpha_II>0`.
+The local action-derived curvature/VEV horn reduces two field values to one
+input but has exact shift susceptibility `2/a`, so it tracks rather than
+screens vacuum shifts. Spatial flatness is explicitly fenced from `R=0`.
+Full nonlinear ambient soldering, odd super-IG cohomology, uniform UV
+positivity and an ambient/global/nonlocal cosmology horn remain open. The
+source return is narrowly `SOURCE-CONFIRMS`; ledger v0.14 migrates eight rows
+without spending P1/P2/P3.
+
 ## Selected-branch Gauss Hessian, totalization and common domain (2026-08-05)
 
 `conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md`

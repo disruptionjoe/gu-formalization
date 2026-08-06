@@ -9,24 +9,23 @@ canon_sweep_at: "2026-07-25"
 # Research Status
 
 **Active construction update 2026-08-05 (no canon/public-posture change).**
-The selected K77 branch is now linearized on the correctly typed gravitational
-carrier. The earlier `-14*kappa_1` radial result belongs to `Cl1`; the Gauss
-trace/traceless `Cl2` coefficients are exactly `100*kappa_1/117` and
-`124*kappa_1/117`. Their native inertia is `(54,46)`, so the gravitational
-sector is nondegenerate but indefinite. The observed coupled `(h,v)` operator
-has one common normally-hyperbolic defect Krein/Green domain, one simple
-massless pole and a partner with
-`m^2=124*alpha_II*kappa_1/117`. The two residues are opposite, making the
-physical Krein/BV cohomology—not Green existence—the decisive partner gate.
-At the selected stationary branch the complete Ward identity linearizes to
-`R^!H=0=HR`, and the typed current/stress chain is
-`T_reduced=E_g^direct+(D_g A)^!J_A`. The full metric/coframe soldering
-derivative remains open. A direct source has susceptibility
-`1/(14*kappa_1)`; the actual two-field curvature/VEV magnitude claim remains
-untested. `SOURCE-CORRECTS`. Ledger v0.13 stays `82/82`, `33/19/24/6`, with
-84 real and at least 19 function-valued slots plus 9 open forks. External
-P1/P2/P3 are unchanged. See
-`explorations/conditional-build/selected-branch-linearized-totalization-current-green-domain-2026-08-05.md`.
+The selected K77 branch now has an exact gauge-rotated Levi-Civita metric
+derivative modulo connection gauge on the linear observed defect, with rank-ten
+symbol on all three covector orbit types. Ordinary even diffeomorphism BV does
+not erase the massive partner: at least two TT classes remain. Its finite
+two-field Krein pencil admits the canonical spectral involution
+`P=I+2L/m^2`, and `KP` is positive for `alpha_II>0`. This is a finite
+tree-level keep-and-grade result, not full odd cohomology, loop/RG or uniform
+UV positivity. The action-derived local scalar curvature/VEV horn gives
+`R=2*rho_vac/a` and `theta=-2*beta*rho_vac/(a*kappa)`, so one input controls
+both values, but `dR/d rho_vac=2/a`: it tracks rather than screens independent
+vacuum shifts. Spatial flatness is not four-dimensional scalar-curvature
+flatness. An ambient/global/nonlocal horn and action-owned FLRW perturbations
+remain open. `SOURCE-CONFIRMS` only this limited architecture. Ledger v0.14
+stays `82/82`, `33/19/24/6`, with 84 real and at least 19 function-valued
+slots plus 9 open forks; three scoped quotients are ranked without booking a
+global residue reduction. External P1/P2/P3 are unchanged. See
+`explorations/conditional-build/selected-branch-bv-tt-and-curvature-vev-flrw-2026-08-05.md`.
 
 **Predecessor construction update 2026-08-05.**
 The predecessor's coincident gravity double pole is real, but its one-pole-

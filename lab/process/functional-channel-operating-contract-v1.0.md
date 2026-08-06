@@ -289,11 +289,34 @@ open. The latest composed-locus return is `SOURCE-CORRECTS`: Weinstein's
 material confirms an unfinished up-and-back path but does not publish the
 literal equality.
 
-A direct algebraic source has susceptibility `1/(14*kappa_1)`, so that narrow
-branch does not screen it. This does not test Weinstein's actual magnitude
-argument, which identifies the dark-energy field with a curvature-side field
-and claims two unexplained values collapse to one. The two-field homogeneous
-and FLRW parameter-count/shift test remains open.
+The gauge-rotated Levi-Civita metric derivative is now exact modulo connection
+gauge on the linear observed defect. Its flat `64 x 10` symbol has rank ten on
+timelike, spacelike and null covector representatives, and a moving-`epsilon`
+compensator lies in the connection-gauge image. This instantiates the typed
+direct-plus-soldered chain at that grade. Full nonlinear ambient chimeric
+soldering and the odd super-IG complex remain open.
+
+Ordinary even diffeomorphism BV does not erase the massive partner: its TT
+carrier has dimension two and intersects the rank-four diffeomorphism image
+trivially. The finite two-field Krein pencil has a canonical spectral
+involution `P=I+2L/m^2`; `P^2=I`, it commutes with `L`, is `K`-self-adjoint,
+and `KP` is positive for `alpha_II>0`. This is finite tree-level
+keep-and-grade evidence, not full massive-multiplet, odd, loop/RG or uniform
+ultraviolet positivity.
+
+The smallest action-derived local scalar curvature/VEV horn with no new
+fitted coefficient gives `R=2*rho_vac/a` and
+`theta=-2*beta*rho_vac/(a*kappa)`. One input controls both values, so the
+source's limited two-problems-to-one bar passes locally. But
+`dR/d rho_vac=2/a`: the local horn tracks an independent vacuum shift and does
+not screen it. Its trace equation is
+`a R + 3 beta^2 box(R)/kappa = 2 rho_vac`. Spatial flatness `k=0` is not
+four-dimensional scalar-curvature flatness; flat-slicing de Sitter is the
+control. The local horn stays inside the static/local Weinberg burden, while
+an ambient, global or nonlocal GU horn remains open. The current source return
+is narrowly `SOURCE-CONFIRMS`: Weinstein supplies the two-connection and
+two-values-to-one architecture, not the repo-derived derivative, BV, Krein or
+FLRW formulas.
 
 Consequently, “the Einstein equation was recovered” is not a completion result
 for this sector. Nor may a variable field be renamed a solved cosmological
@@ -306,17 +329,18 @@ Einstein source.
 Current gate:
 
 ```text
-CONSTRUCT_SELECTED_BRANCH_FULL_METRIC_COFRAME_SOLDERING_DERIVATIVE_AND_BV_PHYSICAL_COHOMOLOGY_FOR_THE_OPPOSITE_RESIDUE_PARTNER__IN_PARALLEL_BUILD_THE_OBSERVED_TWO_FIELD_CURVATURE_VEV_FLRW_PARAMETER_COUNT_AND_SHIFT_RESPONSE
+CONSTRUCT_FULL_ODD_SUPER_IG_INTERACTING_COHOMOLOGY_AND_UV_UNIFORM_KREIN_MAJORANT__IN_PARALLEL_TEST_THE_AMBIENT_GLOBAL_NONLOCAL_CURVATURE_VEV_HORN_AND_DERIVE_ACTION_OWNED_FLRW_PERTURBATIONS
 ```
 
-It must instantiate the typed direct-plus-soldered current/stress chain with
-the actual full metric/coframe derivative and compute the BV/constraint
-physical cohomology that decides the opposite-residue partner. In parallel it
-must build the source-claimed curvature/VEV two-field system and test the
-parameter-count reduction plus an independent shift on homogeneous/FLRW
-backgrounds. A constrained ultrahyperbolic domain remains an explicit rival
-horn, not a hidden prerequisite. Neither route may invent an unowned
-potential, datum or boundary selector.
+It must extend the scoped metric-soldering and even-BV TT results through the
+actual odd super-IG interacting complex and test whether the finite positive
+Krein majorant extends uniformly into the ultraviolet. In parallel it must
+construct an ambient, global or nonlocal curvature/VEV horn and rerun the
+independent vacuum-shift test before claiming magnitude progress. Only a horn
+that survives earns action-owned FLRW perturbation and held-out `w(z)` work. A
+constrained ultrahyperbolic domain remains an explicit rival, not a hidden
+prerequisite. Neither route may invent an unowned potential, datum or boundary
+selector.
 Requiring the new geometry to factor through the old contraction-first
 receiver remains circular; promoting the flat defect Green complex to the
 upstairs domain would be equally wrong.
