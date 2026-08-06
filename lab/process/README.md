@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.31.json` - current machine ledger; the exact rank-34/affine-dimension-21 Ward target and same-`I1B` owner correction migrate five distances while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `conditional-physics-ledger-v0.32.json` - current machine ledger; the metric-only rank-34/affine-21 theorem is scoped, the coupled field-space Ward target is rank 98/affine 198, and five distances are corrected while preserving `33/19/24/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3.
+- `selected-action-coupled-diffeomorphism-ward-retype.json` - exact Layer-0 correction and coupled Ward receipt; actual same-`I1B` cross/connection blocks, BV, domain and BFV remain open.
+- `conditional-physics-ledger-v0.31.json` - frozen metric-only Ward predecessor.
 - `selected-action-ward-completion-identifiability.json` - exact Ward-target/owner-class receipt; same-`I1B` direct coefficient assembly, BV, global domain and BFV remain open.
 - `conditional-physics-ledger-v0.30.json` - frozen predecessor for the action-spin rank-nine correction and stationary selected metric Hessian.
 - `selected-action-stationary-spin-lc-hessian.json` - frozen stationary action-spin Hessian receipt.

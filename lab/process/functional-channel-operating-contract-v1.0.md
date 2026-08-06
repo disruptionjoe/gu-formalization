@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.31.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.31.md`.
+`lab/process/conditional-physics-ledger-v0.32.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.32.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -45,13 +45,15 @@ Levi-Civita second jet, the affine observation-Hessian decomposition and the
 nonlinear formal-adjoint Euler/preboundary owners are exact. The prior
 rank-ten statement is coordinate-Christoffel only: the action spin map has
 rank nine with longitudinal kernel, and its exact stationary Hessian retains
-a rank-three diffeomorphism cross residual. Its symmetric Ward target has
-rank 34 inside 55 coefficients and leaves 21 quotient-form directions to the
-action. Do not rebuild those objects, restore coordinate rank ten, fit a
-diagnostic completion or import separately owned full-II. Expand the same-
-`I1B` metric/coframe/Hodge/Shiab/Krein/density/field/observation packet before
-diffeomorphism/odd BV,
-global-domain or BFV promotion.
+a rank-three metric-block diffeomorphism cross residual. The rank-34,
+affine-21 symmetric completion theorem is exact only on the metric-only slice.
+The source action's connection-one-form Lie symbol is rank four, and the
+coupled fixed-metric-block Ward system is rank 98 with affine dimension 198;
+diagnostic completions need no added metric-metric block. Do not rebuild these
+objects, restore coordinate rank ten, fit either diagnostic completion, book
+198 directions as residue or import separately owned full-II. Differentiate
+the actual same-`I1B` metric--connection block Hessian and complete gauge lift
+before diffeomorphism/odd BV, global-domain or BFV promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`

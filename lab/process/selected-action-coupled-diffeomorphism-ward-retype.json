@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "status": "COUPLED_DIFFEO_ORBIT_CORRECTS_METRIC_ONLY_WARD_TARGET__ACTUAL_I1B_BLOCKS_OPEN",
+  "created": "2026-08-06",
+  "lane": "1",
+  "functional_channels": ["COMPOSE", "BUILD", "SOURCE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR5", "LT-GR6", "LT-SM8"],
+  "source_return": "SOURCE-CORRECTS",
+  "source": {
+    "domain": "I1B_ON_INHOMOGENEOUS_GAUGE_DATA_TIMES_MET_X",
+    "moving_object": "T_OMEGA_IN_OMEGA1_Y_AD_P",
+    "correction": "DIFFEOMORPHISM_WARD_ORBIT_IS_NOT_METRIC_ONLY",
+    "exact_linear_algebra_attribution": "REPOSITORY_DERIVED"
+  },
+  "layer0": {
+    "metric_only_slice": "R_G_EQUALS_D_AND_NONMETRIC_GAUGE_COMPONENT_SUPPRESSED",
+    "source_native_principal_slice": "R_FULL_EQUALS_STACK_D_G_T",
+    "one_form_lie_symbol": "G_T_XI_COMPONENT_MU_NU_EQUALS_K_MU_XI_NU_AT_T_MU_NU_EQUALS_DELTA_MU_NU",
+    "objects_are_distinct": true
+  },
+  "exact_result": {
+    "metric_symbol_rank": {"timelike": 4, "spacelike": 4, "null": 4},
+    "connection_one_form_lie_symbol_rank": {"timelike": 4, "spacelike": 4, "null": 4},
+    "coupled_generator_rank": {"timelike": 4, "spacelike": 4, "null": 4},
+    "metric_only_ward_system": {
+      "rank": 34,
+      "affine_dimension": 21,
+      "status": "VALID_ONLY_WHEN_NONMETRIC_GAUGE_COMPONENT_IS_SUPPRESSED"
+    },
+    "coupled_unknown_dimension": 296,
+    "coupled_count_scope": "MINIMAL_OBSERVED_HORIZONTAL_VECTOR_ONE_FORM_SUBCARRIER_10_PLUS_16__NOT_FULL_ADJOINT_VALUED_ONE_FORM_CARRIER",
+    "coupled_fixed_metric_block_system": {"rank": 98, "affine_dimension": 198},
+    "coupled_completion_preserving_metric_block_exists": {"timelike": true, "spacelike": true, "null": true},
+    "metric_metric_companion_required_by_ward": false,
+    "diagnostic_coupled_completion": "EXACT_NOT_ACTION_DERIVED",
+    "actual_i1b_cross_and_connection_blocks": "OPEN",
+    "diffeomorphism_odd_bv": "OPEN",
+    "global_krein_green_domain": "OPEN",
+    "bfv": "OPEN"
+  },
+  "queue_correction": "COMPUTE_FULL_I1B_BLOCK_HESSIAN_H_GG_H_GT_H_TT_AND_COMPLETE_PRINCIPAL_DIFFEO_LIFT__TEST_HR_ZERO__DO_NOT_SEARCH_FOR_ARBITRARY_10_BY_10_METRIC_COMPANION",
+  "ledger_meter": {
+    "version": "0.32",
+    "mapped": 82,
+    "total": 82,
+    "verdict_counts": {"SAME": 33, "DIFFERS": 19, "NEEDS": 24, "OVER_DETERMINED": 6},
+    "residue": {"continuous_real": 84, "function_valued_at_least": 19, "open_discrete_forks": 9, "quotients_ranked": 4}
+  },
+  "free_object_delta": 0,
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "next_gate": "EXPAND_ACTUAL_SAME_I1B_COUPLED_METRIC_CONNECTION_HESSIAN_AND_PRINCIPAL_DIFFEO_LIFT__VERIFY_BOTH_BLOCK_WARD_EQUATIONS__THEN_ODD_BV_DOMAIN_BFV"
+}

@@ -148,6 +148,7 @@ selected notes below and in each script header.
 - `selected_cubic_two_connection_principal_ward_descent_scope_audit.py`
 - `selected_action_second_soldering_observation_jets_scope_audit.py`
 - `selected_action_stationary_spin_lc_hessian_scope_audit.py`
+- `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
@@ -1627,3 +1628,11 @@ invariant-block and observation-transport controls, and the correction to a
 same-`I1B` direct metric/coframe owner. It keeps action-derived completion,
 BV, global domain and BFV open and preserves ledger counts plus unused
 P1/P2/P3.
+
+## Selected-action coupled diffeomorphism Ward retype and ledger v0.32 gate
+
+`selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py` preserves
+the v0.31 metric-only theorem at its scoped grade while enforcing the
+rank-four one-form Lie symbol, coupled rank-98/affine-198 target, diagnostic-
+completion fence and actual same-`I1B` block-Hessian burden. It forbids
+booking the affine freedom as residue or promoting BV/BFV or physics.

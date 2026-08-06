@@ -7,6 +7,17 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **2026-08-06 COUPLED DIFFEOMORPHISM WARD RETYPE.**
+> [`explorations/conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md`](explorations/conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md)
+> corrects the v0.31 target without retracting its arithmetic. The source
+> action's principal diffeomorphism orbit moves metric and connection one-form
+> together. The one-form Lie symbol has rank four; the fixed-metric-block
+> coupled Ward system is rank 98 with affine dimension 198 and needs no added
+> metric-metric companion. Ledger v0.32 keeps `82/82`, `33/19/24/6`, residue
+> `84 + >=19 functions + 9 forks`, and four scoped quotients. Next: derive the
+> actual same-`I1B` cross/connection Hessian blocks and complete gauge lift,
+> then test both block Ward equations.
+
 > **2026-08-06 WARD-COMPLETION IDENTIFIABILITY.**
 > [`explorations/conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md`](explorations/conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md)
 > proves that the stationary spin-LC residual has symmetric companions: Ward

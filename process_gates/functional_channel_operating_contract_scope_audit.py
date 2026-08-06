@@ -60,17 +60,18 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.31.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.31.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.31.md")
+assert "conditional-physics-ledger-v0.32.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.32.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.32.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "LOCAL_PRINCIPAL_GAUGE_ROTATED_LEVI_CIVITA_SOLDERING" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "SECOND_SPIN_LEVI_CIVITA_JET" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "WARD_COMPLETION_SYSTEM_RANK34_AFFINE_DIM21" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "EXPAND_SAME_I1B_EXPLICIT_METRIC_COFRAME" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "METRIC_ONLY_WARD_RANK34_AFFINE21_SCOPED" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "COUPLED_FIXED_METRIC_BLOCK_WARD_RANK98_AFFINE198" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "ACTUAL_SAME_I1B_CROSS_CONNECTION_BLOCKS_OPEN" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -106,9 +107,9 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "EXPAND_SAME_I1B_EXPLICIT_METRIC_COFRAME" in directive["next_gate"]
-assert "MATCH_RANK34_WARD_TARGET" in directive["next_gate"]
-assert "ACTION_DETERMINES_21_QUOTIENT_DIRECTIONS" in directive["next_gate"]
+assert "DIFFERENTIATE_ACTUAL_SAME_I1B_H_GG_H_GT_H_TT_BLOCKS" in directive["next_gate"]
+assert "CONSTRUCT_COMPLETE_PRINCIPAL_DIFFEO_LIFT" in directive["next_gate"]
+assert "TEST_BOTH_BLOCK_WARD_EQUATIONS" in directive["next_gate"]
 assert "I2B_OBSERVER_FULL_II_OWNER_MAP_REMAINS_SEPARATE" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -140,11 +141,11 @@ assert "OBSERVATION_PURE_SECTION_D2_ZERO_SECTION_FIELD_CROSS_D2_NONZERO" in dire
 assert "NONLINEAR_FORMAL_ADJOINT_EULER_PREBOUNDARY_OWNER_EXACT" in directive["latest_build_evidence"]
 assert "STATIONARY_SELECTED_METRIC_HESSIAN_CAUSAL_RANKS_9_9_6" in directive["latest_build_evidence"]
 assert "DIFFEO_CROSS_RANK3" in directive["latest_build_evidence"]
-assert "WARD_COMPLETION_SYSTEM_RANK34_AFFINE_DIM21" in directive["latest_build_evidence"]
-assert "DIAGNOSTIC_COMPLETION_NOT_ACTION_DERIVED" in directive["latest_build_evidence"]
-assert "SEPARATELY_INVARIANT_BLOCK_CANNOT_CANCEL" in directive["latest_build_evidence"]
-assert "OBSERVATION_TRANSPORTS_RESIDUAL" in directive["latest_build_evidence"]
-assert "SAME_I1B_DIRECT_METRIC_COFRAME_PACKET_OPEN" in directive["latest_build_evidence"]
+assert "METRIC_ONLY_WARD_RANK34_AFFINE21_SCOPED" in directive["latest_build_evidence"]
+assert "CONNECTION_ONE_FORM_LIE_SYMBOL_RANK4" in directive["latest_build_evidence"]
+assert "COUPLED_FIXED_METRIC_BLOCK_WARD_RANK98_AFFINE198" in directive["latest_build_evidence"]
+assert "DIAGNOSTIC_COUPLED_COMPLETION_NOT_ACTION_DERIVED" in directive["latest_build_evidence"]
+assert "ACTUAL_SAME_I1B_CROSS_CONNECTION_BLOCKS_OPEN" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -184,4 +185,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.31 ledger preserve the exact Ward target and same-I1B owner correction without action-completion, BV/BFV or physics promotion")
+print("PASS: functional channels and v0.32 ledger preserve the coupled Ward retype and actual same-I1B block burden without action-completion, BV/BFV or physics promotion")

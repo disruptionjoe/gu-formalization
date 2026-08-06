@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Compose/Build correction 2026-08-06 (ledger v0.32; no verdict,
+residue, canon or public-posture change).** The v0.31 rank-34 affine-21 theorem
+is retained for the metric-only slice, but the source-action diffeomorphism
+orbit also moves its adjoint-valued one-form. That Lie symbol has rank four on
+all nonzero causal orbits. With the metric block fixed, the coupled Ward
+system has rank 98 and affine dimension 198 and admits exact diagnostic
+completions without an added metric-metric companion. The actual same-`I1B`
+cross/connection blocks and complete lift remain open; the 198 directions are
+not residue. See
+`explorations/conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md`.
+
 **Active Build/Compose update 2026-08-06 (ledger v0.31; no verdict, residue,
 canon or public-posture change).** The symmetric Ward-completion system for
 the stationary action-spin residual is compatible and has exact rank 34

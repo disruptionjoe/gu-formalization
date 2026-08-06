@@ -9,15 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
-> **CURRENT WARD-COMPLETION OWNER FENCE.** The stationary action-spin
-> residual admits symmetric companions. Ward fixes 34 of 55 symmetric metric-
-> coefficient directions and leaves 21 quotient-form directions to the
-> written action. This is a target, not a derived completion or 21 new
-> parameters. Separately invariant Einstein blocks and invertible observation
-> cannot cancel the residual. Build the same-`I1B` explicit metric/coframe/
-> Hodge/Shiab/Krein/density/field/observation packet; do not import `I2B` or
-> observer full-II without the separate owner map. Then proceed to odd BV,
-> global domain and BFV. Current ledger: v0.31.
+> **CURRENT COUPLED DIFFEOMORPHISM WARD FENCE.** The v0.31 rank-34,
+> affine-21 theorem is exact only on the metric-only slice. The source action
+> also moves its adjoint-valued connection one-form; its horizontal
+> invariant-background Lie symbol has rank four. Holding the metric Hessian
+> fixed, the coupled Ward system is rank 98 with affine dimension 198 and
+> admits diagnostic symmetric completions without a new metric-metric block.
+> This is not action derivation, 198 parameters, BV or BFV. Differentiate the
+> actual same-`I1B` `H_gg/H_gT/H_TT` blocks and complete gauge lift, then test
+> both block equations. Do not fit a ten-by-ten companion or import `I2B`/
+> observer full-II. Current ledger: v0.32.
 
 > **CURRENT STATIONARY ACTION-SPIN HESSIAN FENCE.** The prior rank-ten
 > theorem is a coordinate-Christoffel theorem. The selected action uses the
@@ -29,7 +30,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > to the action spin map, and do not call this a physical quotient. Next
 > assemble direct curvature/full-II/defect/observation Ward terms, then odd
 > BV, global domain and BFV. This predecessor fence is absorbed into the
-> v0.31 Ward-identifiability packet.
+> v0.32 coupled-Ward retype packet.
 
 > **CURRENT NONLINEAR SECOND-JET FENCE.** The symmetric-frame spin
 > Levi-Civita connection has an exact nonzero symmetric second metric jet.

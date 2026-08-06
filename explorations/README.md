@@ -7,6 +7,16 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected-action coupled diffeomorphism Ward retype (2026-08-06)
+
+`conditional-build/selected-action-coupled-diffeomorphism-ward-retype-2026-08-06.md`
+restores the connection-one-form component of the source action's principal
+diffeomorphism orbit. Its rank-four Lie symbol changes the relevant Ward
+problem from the metric-only `34+21` slice to a coupled rank-98,
+affine-dimension-198 system, which admits exact diagnostic completions without
+altering the metric block. Ledger v0.32 migrates five distances only. Actual
+same-`I1B` block coefficients, BV, domain and BFV remain open.
+
 ## Selected-action Ward-completion identifiability (2026-08-06)
 
 `conditional-build/selected-action-ward-completion-identifiability-2026-08-06.md`
