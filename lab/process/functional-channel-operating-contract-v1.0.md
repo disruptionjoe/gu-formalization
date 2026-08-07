@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.42.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.42.md`.
+`lab/process/conditional-physics-ledger-v0.43.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.43.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -524,22 +524,22 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-FULL_COMOVING_DUPSILON__COUPLED_WARD_DESCENT__THEN_DERIVE_SPIN0_POLYNOMIAL_AND_MASSLESS_CONSTRAINT_COMPLEX__COUPLED_NONZERO_FERMION_HESSIAN_AND_COMMON_DOMAIN_ONLY_AFTERWARD
+ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_DIFFEO_COLUMNS__COMPARE_TO_FORCED_RANK4_WELD__ONLY_THEN_TWELVE_TRANSVERSE_CONNECTION_DIRECTIONS_PLUS_SECTION_OBSERVATION__SPIN0_AND_MASSLESS_CONSTRAINT_COMPLEX_AFTER_DESCENT
 ```
 
-Current execution method, ratified by the v0.42 Build/Compose result:
+Current execution method, ratified by the v0.43 Build/Compose result:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
    current as fixed sub-blocks.
-2. Construct the full co-moving `D Upsilon` in metric, connection, section and
-   observation variables. The metric-only pullback exactly reproduces TT but
-   has Ward-defect rank four; its restricted `1157/3589` scalar candidate is
-   not a characteristic root. Do not import the old observer/full-`B`
-   first-variation coefficient into this distinct stationary residual owner.
-3. Prove the total Hessian annihilates the coupled diffeomorphism image. Only
-   on that descended quotient derive the scalar characteristic polynomial,
-   then assemble the distinct massless diffeomorphism/constraint complex and
+2. Differentiate the actual selected `Upsilon` on the four source-native
+   connection diffeomorphism columns and compare it with the unique diagnostic
+   rank-four orbit weld. Rank matching forces the needed correction's size but
+   does not prove that the action supplies it.
+3. Only if those four columns match, extend to the twelve transverse connection
+   directions and section/observation jets and prove that the full Hessian is
+   basic. On that descended quotient derive the scalar characteristic
+   polynomial, then assemble the distinct massless constraint complex and
    classify every surviving null-little-group quotient class. Do not recount
    the massive axial weights `0,+/-1` as extra representations; they are
    already forced spin-two partners.
@@ -549,10 +549,11 @@ Current execution method, ratified by the v0.42 Build/Compose result:
 5. Open a common Green/Krein domain and odd BV/BFV only after the complete
    quotient, with the symplectic lens mandatory.
 
-The current source return types the spinor Euler equations as a separate
-direct summand; re-inspect that premise only if a new primary-source collision
-appears. Compose migrates the ledger only if that work or the Build changes a
-row distance or high-fanout premise.
+The current source return confirms the independent metric and connection
+diffeomorphism orbits and is silent on the selected action cross-block. It
+therefore neither supplies nor refutes the required four columns. Compose
+migrates the ledger only if that work or the Build changes a row distance or
+high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,
 variational PDE, symplectic geometry, Krein/operator theory and source
 criticism. A projected quadratic match is never an Euler, preboundary,
@@ -565,8 +566,9 @@ live flux does not repair wrong representation type. Do not spend a global-
 domain campaign on that superseded carrier. The second-layer gravitational
 Build has now closed both the massless helicity-two type and the massive
 five-state spin-two type. Its immediate owner is the one remaining
-full co-moving `D Upsilon` and coupled Ward descent. Only after the metric,
-connection, section and observation blocks form a basic Hessian may it derive
+four selected-`Upsilon` connection gauge columns. Only if they match the
+forced orbit weld should it build the twelve transverse connection directions
+and section/observation jets. Only after those blocks form a basic Hessian may it derive
 the rest-frame spin-zero polynomial and the separate massless constraint
 complex. Only the resulting complete bosonic quotient
 advances to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity

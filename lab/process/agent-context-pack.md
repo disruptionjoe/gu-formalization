@@ -9,15 +9,24 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT OFF-TT WARD/OWNER FENCE.** The metric-only pullback of the selected
+> **CURRENT D UPSILON GAUGE-ORBIT WELD FENCE.** The metric Hessian Ward load
+> and the source-native connection-one-form diffeomorphism orbit both have
+> exact rank four. At stationary residual-square grade this forces the missing
+> residual gauge response to rank four; the diagnostic cancellation map is
+> unique on that orbit. It is not the selected action derivative and is not
+> unique on the other twelve connection directions. Ledger v0.43; next
+> differentiate the actual selected `Upsilon` on the four connection gauge
+> columns and compare it with the forced weld. A mismatch kills this action
+> owner on the orbit; a match opens the twelve transverse directions plus
+> section/observation jets. Scalar, massless-constraint, domain and BV/BFV
+> claims remain downstream.
+
+> **PREDECESSOR OFF-TT WARD/OWNER FENCE.** The metric-only pullback of the selected
 > second-layer residual exactly reproduces the TT polynomial, but the full
 > metric Hessian has Ward-defect rank four and is nonsingular at the restricted
 > scalar candidate `s=-1157/3589`. That candidate is not a characteristic
 > root. The old A12/A14 full-`B` coefficient belongs to the observer/full-II
-> first-variation family, not this stationary residual norm. Ledger v0.42;
-> next construct full co-moving `D Upsilon(g,varpi,section,observation)` and
-> prove coupled Ward descent before scalar, massless-constraint, domain or BV
-> claims.
+> first-variation family, not this stationary residual norm. Ledger v0.42.
 
 > **PREDECESSOR MASSIVE SO(3) CLOSURE FENCE.** The selected massive axial
 > weight-`+/-2` plus/cross plane closes exactly under rest-frame `SO(3)` to
@@ -29,12 +38,13 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Construct the full co-moving `D Upsilon` from the
-> metric, connection, section and observation variations and prove the total
-> Hessian is basic for the coupled diffeomorphism image. Only then derive the
-> independent scalar characteristic polynomial and build and descend the
-> massless constraint complex. Coupled nonzero-fermion, common-domain and odd
-> BV/BFV work remain ordered successors. Mandatory pre/post lenses remain
+> massive-spin-two blocks. Compute only the four actual selected-`Upsilon`
+> connection-diffeomorphism columns first and compare them to the unique
+> orbit weld. Extend to the twelve transverse connection directions and
+> section/observation jets only after that cheap decisive comparison passes.
+> Then derive the scalar polynomial and massless constraint complex. Coupled
+> nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
+> Mandatory pre/post lenses remain
 > differential geometry, representation theory, variational PDE, symplectic
 > geometry, Krein/operator theory and source criticism.
 

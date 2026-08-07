@@ -7,7 +7,26 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 OFF-TT WARD AND ACTION-OWNER CORRECTION.**
+> **2026-08-07 RANK-FOUR D UPSILON GAUGE-ORBIT WELD.**
+> [`explorations/conditional-build/selected-second-layer-dupsilon-gauge-orbit-weld-2026-08-07.md`](explorations/conditional-build/selected-second-layer-dupsilon-gauge-orbit-weld-2026-08-07.md)
+> composes the rank-four metric Hessian Ward load with the independently exact
+> rank-four source-native connection-one-form diffeomorphism orbit. At a
+> stationary residual-square point the missing residual response therefore
+> has rank exactly four, and the diagnostic cross-block that cancels it is
+> unique on that orbit. It is not yet the derivative of the selected action:
+> the other twelve connection directions, section/observation jets, scalar
+> quotient and BV/BFV all remain open. Ledger v0.43 moves five distances and
+> priorities only; headline counts, residue, four scoped quotients and
+> P1/P2/P3 remain fixed.
+
+> **NEXT RUN: FOUR ACTUAL D UPSILON COLUMNS.** Differentiate the actual selected
+> `Upsilon` in the four source-native connection diffeomorphism directions and
+> compare those columns with the unique forced orbit weld. A mismatch kills
+> this action owner on the gauge orbit. A match permits the twelve transverse
+> connection directions plus section/observation jets. Do not build the larger
+> block first; symplectic review remains mandatory.
+
+> **PREDECESSOR — 2026-08-07 OFF-TT WARD AND ACTION-OWNER CORRECTION.**
 > [`explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md)
 > exactly reproduces the TT polynomial from the metric pullback, but the full
 > metric Hessian has diffeomorphism-Ward defect rank four and is nonsingular at
@@ -16,13 +35,6 @@ updated_at: "2026-08-07"
 > first-variation coefficient from the selected stationary residual norm.
 > Ledger v0.42 moves five distances/priorities only; headline counts, residue,
 > four scoped quotients and P1/P2/P3 remain fixed.
-
-> **NEXT RUN: FULL CO-MOVING D UPSILON.** Construct `D Upsilon` in metric,
-> connection, section and observation variables and prove that the total
-> Hessian descends through the coupled diffeomorphism image. Only then derive
-> the scalar polynomial and massless constraint complex. Coupled fermions,
-> common domain and odd BV/BFV remain downstream; symplectic review is
-> mandatory.
 
 > **PREDECESSOR — 2026-08-07 MASSIVE SO(3) CLOSURE.**
 > [`explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md`](explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md)

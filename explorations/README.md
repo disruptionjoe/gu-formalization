@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer D Upsilon gauge-orbit weld (2026-08-07)
+
+`conditional-build/selected-second-layer-dupsilon-gauge-orbit-weld-2026-08-07.md`
+proves that the missing stationary residual response and the source-native
+connection diffeomorphism orbit both have exact rank four. The corresponding
+diagnostic Hessian cross-block is unique on that orbit but is not yet the
+selected action derivative and says nothing about the other twelve connection
+directions. Ledger v0.43 makes the four actual `D Upsilon` columns the cheap
+decisive successor before the transverse block, scalar or BV/BFV work.
+
 ## Selected second-layer off-TT scalar/Ward owner (2026-08-07)
 
 `conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md`

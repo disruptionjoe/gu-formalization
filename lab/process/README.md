@@ -42,11 +42,21 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-dupsilon-gauge-orbit-weld.json` - exact rank-four
+  metric/connection orbit matching, unique diagnostic orbit weld and the
+  four-column selected-`Upsilon` successor fence.
+- `conditional-physics-ledger-v0.43.json` - current append-only conditional
+  physics ledger after the rank-four gauge-orbit weld.
+- `selected-action-coupled-diffeomorphism-ward-retype.json` - predecessor
+  coupled metric/connection diffeomorphism-orbit theorem composed by the
+  current weld.
+- `conditional-physics-ledger-v0.32.json` - immutable predecessor ledger for
+  that coupled-orbit theorem.
 - `selected-second-layer-offtt-scalar-ward-owner.json` - exact metric-only
   off-TT TT reproduction, rank-four Ward defect, rejected restricted scalar
   root and full co-moving `D Upsilon` successor owner.
-- `conditional-physics-ledger-v0.42.json` - current append-only conditional
-  physics ledger after the off-TT Ward/action-owner correction.
+- `conditional-physics-ledger-v0.42.json` - predecessor conditional physics
+  ledger after the off-TT Ward/action-owner correction.
 
 - `selected-second-layer-massive-so3-closure-identifiability.json` - exact
   five-dimensional massive spin-two `SO(3)` closure, independent spin-zero

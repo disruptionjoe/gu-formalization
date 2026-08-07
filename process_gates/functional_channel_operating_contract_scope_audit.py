@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.42.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.42.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.42.md")
+assert "conditional-physics-ledger-v0.43.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.43.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.43.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -89,7 +89,7 @@ assert "FULL_CL2_TARGET_1274_BY_100_NNZ640" in contract["standing_ledger"]["movi
 assert "MASSLESS_HELICITY2" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "RESTRICTED_SCALAR_1157_OVER3589_NOT_CHARACTERISTIC" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "FULL_COMOVING_DUPSILON_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_COLUMNS_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -103,7 +103,7 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 assert "Predecessor execution method, ratified by Joe on 2026-08-06" in human
-assert "Current execution method, ratified by the v0.42 Build/Compose result" in human
+assert "Current execution method, ratified by the v0.43 Build/Compose result" in human
 assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
@@ -123,16 +123,17 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__SELECTED_CL2_MASSLESS_HELICITY2__MASSIVE_SO3_SPIN2_DIM5_EXACT__METRIC_ONLY_OFFTT_WARD_DEFECT_RANK4__RESTRICTED_SCALAR_CANDIDATE_NOT_CHARACTERISTIC__FULL_COMOVING_DUPSILON_AND_MASSLESS_CONSTRAINT_COMPLEX_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN"
+assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__SELECTED_CL2_MASSLESS_HELICITY2__MASSIVE_SO3_SPIN2_DIM5_EXACT__RANK4_CONNECTION_ORBIT_WELD_FORCED__ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_COLUMNS_OPEN__TWELVE_TRANSVERSE_CONNECTION_DIRECTIONS_OPEN__MASSLESS_CONSTRAINT_COMPLEX_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN"
 assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "FULL_COMOVING_DUPSILON_AND_COUPLED_WARD_DESCENT"
+assert next_method["target"] == "ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_DIFFEO_COLUMNS"
 assert next_method["ordered_steps"] == [
     "PRESERVE_EXACT_MASSLESS_HELICITY2_AND_MASSIVE_SO3_SPIN2_DIM5_SUBBLOCK",
-    "CONSTRUCT_DUPSILON_IN_METRIC_CONNECTION_SECTION_AND_OBSERVATION_VARIABLES",
-    "PROVE_THE_TOTAL_HESSIAN_ANNIHILATES_THE_COUPLED_DIFFEO_GAUGE_IMAGE",
+    "DIFFERENTIATE_THE_ACTUAL_SELECTED_UPSILON_ON_THE_FOUR_SOURCE_NATIVE_CONNECTION_DIFFEO_COLUMNS",
+    "COMPARE_THE_RESULT_TO_THE_UNIQUE_RANK4_DIAGNOSTIC_ORBIT_WELD",
+    "ONLY_IF_THAT_PASSES_EXTEND_TO_THE_TWELVE_TRANSVERSE_CONNECTION_DIRECTIONS_AND_SECTION_OBSERVATION_JETS",
     "DERIVE_THE_OFF_TT_SPIN0_CHARACTERISTIC_POLYNOMIAL_ONLY_ON_THE_DESCENDED_QUOTIENT",
     "ONLY_THEN_ASSEMBLE_AND_DESCEND_THE_MASSLESS_CONSTRAINT_COMPLEX",
     "CLASSIFY_EVERY_REMAINING_MASSLESS_QUOTIENT_CLASS_WITHOUT_RECOUNTING_MASSIVE_SPIN2_PARTNERS",
@@ -146,16 +147,15 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_RETURN_ALREADY_TYPES_SPINOR_EULER_AS_SEPARATE_DIRECT_SUMMAND__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_RETURN_CONFIRMS_METRIC_AND_CONNECTION_ORBITS_BUT_IS_SILENT_ON_THE_ACTION_CROSS_BLOCK__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "FULL_COMOVING_DUPSILON" in directive["next_gate"]
-assert "COUPLED_WARD_DESCENT" in directive["next_gate"]
-assert "SPIN0_POLYNOMIAL_AND_MASSLESS_CONSTRAINT_COMPLEX" in directive["next_gate"]
-assert "COUPLED_NONZERO_FERMION_HESSIAN" in directive["next_gate"]
-assert "COMMON_DOMAIN" in directive["next_gate"]
+assert "ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_DIFFEO_COLUMNS" in directive["next_gate"]
+assert "FORCED_RANK4_WELD" in directive["next_gate"]
+assert "TWELVE_TRANSVERSE_CONNECTION_DIRECTIONS" in directive["next_gate"]
+assert "SPIN0_AND_MASSLESS_CONSTRAINT_COMPLEX" in directive["next_gate"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -264,4 +264,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.42 ledger preserve the exact spin-two block, reject the non-basic restricted scalar root, and route full co-moving D Upsilon plus coupled Ward descent without residue or quotient promotion")
+print("PASS: functional channels and v0.43 ledger preserve the exact spin-two block, force only the rank-four diagnostic orbit weld, and route the four actual selected-Upsilon columns before transverse expansion without residue or quotient promotion")

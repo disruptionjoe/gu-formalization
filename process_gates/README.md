@@ -1764,3 +1764,14 @@ native full-`B`, background-subtracted off-TT section variation before the
 massless constraint complex. It requires all six hostile lenses, including
 symplectic geometry, and forbids physical-state, scalar-coefficient, domain,
 BV/BFV, residue, fifth-quotient, datum, canon and public-posture inflation.
+
+## Selected second-layer D Upsilon gauge-orbit weld and ledger v0.43 gate
+
+`selected_second_layer_dupsilon_gauge_orbit_weld_scope_audit.py` enforces the
+exact rank-four metric Ward load and source-native connection diffeomorphism
+orbit, the rank-four forced residual response, and uniqueness of the diagnostic
+weld only on that orbit. It keeps the actual selected-`Upsilon` derivative,
+twelve transverse connection directions, scalar/constraint quotient,
+domain/BV/BFV, residue, fifth quotient, datum, canon and public posture open.
+It also requires differential-geometric, representation, variational,
+symplectic, Krein/operator, source-critical and archaeology hostile lenses.

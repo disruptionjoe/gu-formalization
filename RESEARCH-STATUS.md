@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose update 2026-08-07 (ledger v0.42; five distance/priority
+**Active Build/Compose update 2026-08-07 (ledger v0.43; five distance/priority
+migrations).** The metric Hessian Ward load and source-native connection-one-
+form diffeomorphism orbit both have exact rank four. Stationary residual-square
+rank monotonicity forces the missing residual gauge response to have rank four,
+and injectivity of the connection orbit makes its diagnostic cancellation
+unique on that orbit. This is not yet the actual `D Upsilon` action cross-block
+and is not unique on the other twelve connection directions. The next Build
+differentiates the selected `Upsilon` on the four connection diffeomorphism
+columns and compares it with the forced weld before extending transversely.
+No verdict, residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose update 2026-08-07 (ledger v0.42; five distance/priority
 migrations).** The exact metric-only off-TT pullback reproduces the selected
 TT polynomial, but its full ten-component Hessian has diffeomorphism-Ward
 defect rank four and remains rank ten at the restricted scalar candidate
