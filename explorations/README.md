@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected invariant constituent operator naturality (2026-08-07)
+
+`conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md`
+constructs the selected nonzero raw curvature/torsion constituents and proves
+their invariant branch-tangent natural operator packet is zero on all four
+graph columns. It supplies none of transverse 117. Ledger v0.54 routes the next
+Build to independent ambient field/connection/soldering/observation normal
+jets without moving verdicts, residue, quotients, datum or posture.
+
 ## Selected second-layer residual-constituent operator correction (2026-08-07)
 
 `conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md`

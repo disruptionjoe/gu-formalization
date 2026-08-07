@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT RESIDUAL-CONSTITUENT OPERATOR CORRECTION.** Preserve v0.52's
+> **CURRENT SELECTED-CONSTITUENT NATURALITY FENCE.** The selected raw source
+> constituents are exact: `T*=-(kappa_1/312)Phi1` and
+> `F_A*=T* wedge T*`. Their separately nonzero selected Shiab/Hodge outputs
+> cancel coefficientwise. Because `Phi1` and its square are invariant under the
+> fused moving-gimmel/frame packet, the branch-tangent natural operator response
+> is zero on all four graph columns and supplies none of transverse 117. Ledger
+> v0.54; next construct independent `delta F_A`, `delta T`, connection,
+> soldering and observation normal jets. This is not a full moving-geometry,
+> action, Euler, BV/BFV, domain or physical-spectrum kill.
+
+> **PREDECESSOR RESIDUAL-CONSTITUENT OPERATOR CORRECTION.** Preserve v0.52's
 > universal result that every connection-curvature principal response is
 > `q wedge delta A` and cannot own the transverse 117. Retract its stronger
 > operator inference: total `Upsilon_0=0` does not imply
@@ -81,14 +91,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks, the non-null Koszul odd packet split, fixed-`B`
-> support 28 and the connection q-exact exclusion for transverse 117. Construct
-> the selected stationary constituents `(F_A*,T*)`, then compute the physical
-> metric-normal `(D Shiab)F_A*+(D Hodge)kappa T*` and ambient field normal jet
-> on the same four graph columns. Compare them with transverse 117 before the
-> null characteristic screen and total Bianchi/raw-`Upsilon` naturality. Do
-> not infer constituent zero from total residual zero or use background
-> subtraction without an action/counterterm owner.
+> massive-spin-two blocks, the non-null Koszul split, fixed-`B` support 28, the
+> q-exact connection exclusion and the zero invariant branch-tangent operator
+> packet. Construct independent `delta F_A` and `delta T` from the ambient
+> connection, gauge-rotated Levi-Civita, soldering and observation normal jets
+> on the same four graph columns. Compose them with fixed selected Shiab/Hodge,
+> compare with transverse 117, then build the null screen and test total
+> Bianchi/raw-`Upsilon` naturality. Do not infer input-jet cancellation from
+> branch-tangent operator naturality or use background subtraction without an
+> action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain

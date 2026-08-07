@@ -7,6 +7,19 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
+> **2026-08-07 SELECTED CONSTITUENT OPERATOR NATURALITY (ledger v0.54).**
+> [`explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md`](explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md)
+> constructs `T*=-(kappa_1/312)Phi1` and source raw curvature
+> `F_A*=T* wedge T*`. Their nonzero Shiab/Hodge outputs cancel
+> coefficientwise. The invariant branch-tangent natural operator packet is zero
+> on all four graph columns and supplies none of transverse 117.
+
+> **NEXT RUN: INDEPENDENT AMBIENT FIELD NORMAL JET.** Construct `delta F_A`
+> and `delta T` from the ambient connection, gauge-rotated Levi-Civita,
+> soldering and observation normal jets. Compose them with fixed selected
+> Shiab/Hodge and compare with transverse 117. Do not reuse branch-tangent
+> naturality as an input-jet cancellation. Symplectic review remains mandatory.
+
 > **2026-08-07 RESIDUAL-CONSTITUENT OPERATOR CORRECTION (ledger v0.53).**
 > [`explorations/conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md`](explorations/conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md)
 > retracts only v0.52's inference that total `Upsilon_0=0` kills the moving

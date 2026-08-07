@@ -12,6 +12,9 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_invariant_constituent_operator_naturality_scope_audit.py` audits
+  the v0.54 branch-tangent naturality result, independent-field-jet fence,
+  mandatory symplectic review and frozen datum/lane/posture boundary.
 - `selected_second_layer_residual_constituent_operator_correction_scope_audit.py`
   audits the v0.53 retraction, selected nonzero constituent, source return,
   mandatory symplectic review and frozen datum/lane/posture boundary.

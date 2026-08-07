@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_invariant_constituent_operator_naturality_probe.py`
+  constructs exact selected `F_A*,T*`, checks their nonzero coefficientwise
+  cancellation and proves the invariant branch-tangent natural operator packet
+  is zero while fixed-coordinate Hodge/target transport controls stay live.
+- `channel-swings/conditional_physics_ledger_v054_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
 - `channel-swings/selected_second_layer_residual_constituent_operator_correction_probe.py`
   preserves the q-exact connection-class theorem and separates zero total
   residual/common co-motion from a live independent constituent-operator

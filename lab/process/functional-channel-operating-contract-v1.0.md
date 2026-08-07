@@ -24,8 +24,17 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.53.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.53.md`.
+`lab/process/conditional-physics-ledger-v0.54.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.54.md`.
+
+Current selected-constituent directive: preserve
+`T*=-(kappa_1/312)Phi1`, `F_A*=T* wedge T*` and their exact nonzero
+coefficientwise cancellation. On the fused moving-gimmel/frame packet the
+invariant branch-tangent operator response is zero and contributes none of the
+transverse 117. Do not reuse that naturality identity as an input-jet
+cancellation. Construct independent `delta F_A` and `delta T` from the ambient
+connection, soldering and observation normal jets on the same four graph
+columns. Symplectic review remains mandatory.
 
 Current transverse-owner correction: the universal connection-curvature
 principal image remains `q`-exact and cannot own the transverse 117. However,

@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose result 2026-08-07 (ledger v0.54; five distance-only
+migrations).** The selected raw-residual constituents are exact:
+`T*=-(kappa_1/312)Phi1` and `F_A*=T* wedge T*`. Their separately nonzero
+Shiab/Hodge outputs cancel coefficientwise. Since `Phi1` and its square are
+invariant on the fused moving-gimmel/frame packet, the branch-tangent natural
+operator response is zero on all four graph columns and supplies none of
+transverse 117. Independent ambient field/connection/soldering/observation
+normal jets remain open. No verdict, residue, quotient, datum, canon or public-
+posture change follows.
+
 **Current Build/Compose correction 2026-08-07 (ledger v0.53; five distance-
 only migrations).** The universal connection-curvature principal image remains
 `q`-exact and cannot own the transverse 117. The stronger v0.52 inference is

@@ -7,6 +7,12 @@ updated_at: "2026-08-07"
 
 # Process
 
+Current append-only progress surface: ledger v0.54. The selected nonzero
+`F_A*,T*` constituents are constructed and their invariant branch-tangent
+operator packet is zero. The next gate is the independent ambient field,
+connection, soldering and observation normal jet. See
+`selected-invariant-constituent-operator-naturality.json`.
+
 Current append-only progress surface: ledger v0.53. It preserves the q-exact
 connection-class exclusion for the transverse 117 and retracts only the v0.52
 moving-operator inference. The next gate constructs the selected nonzero

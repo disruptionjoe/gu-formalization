@@ -101,8 +101,9 @@ assert "CL2_SOURCE8281_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in contract["standin
 assert "DIRECT_GCR_AND_SINGLE_Q_OWNER_KILLED" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "FIXED_B_DB_T_SUPPORT28_PARTIAL_OWNER" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "CONNECTION_CURVATURE_CLASS_Q_EXACT_AND_CANNOT_OWN_TRANSVERSE117" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
-assert "V052_MOVING_OPERATOR_KILL_RETRACTED" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
-assert "SELECTED_FA_STAR_T_STAR_AND_PHYSICAL_DSHIAB_DHODGE_NORMAL_RESPONSE_PRIMARY" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "SELECTED_FA_STAR_T_STAR_EXACT" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET_ZERO" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "INDEPENDENT_AMBIENT_DELTA_FA_DELTA_T_CONNECTION_SOLDERING_OBSERVATION_NORMAL_JET_PRIMARY" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -137,15 +138,16 @@ assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
 assert "CONNECTION_Q_EXACT_CLASS_CANNOT_OWN_TRANSVERSE117" in directive["status"]
-assert "V052_MOVING_OPERATOR_KILL_RETRACTED" in directive["status"]
+assert "SELECTED_FA_STAR_T_STAR_EXACT" in directive["status"]
+assert "INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET_ZERO" in directive["status"]
 assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "SELECTED_CONSTITUENT_BACKGROUND_AND_PHYSICAL_DSHIAB_DHODGE_NORMAL_RESPONSE"
+assert next_method["target"] == "INDEPENDENT_AMBIENT_FIELD_CONNECTION_SOLDERING_OBSERVATION_NORMAL_JET_ON_FOUR_GRAPH_COLUMNS"
 assert "PRESERVE_THE_CONNECTION_Q_EXACT_CLASS_EXCLUSION_FOR_TRANSVERSE117" in next_method["ordered_steps"]
-assert "CONSTRUCT_THE_SELECTED_STATIONARY_CONSTITUENTS_FA_STAR_AND_T_STAR_WITH_T_STAR_NONZERO" in next_method["ordered_steps"]
-assert "COMPUTE_THE_PHYSICAL_METRIC_NORMAL_RESPONSE_DSHIAB_ON_FA_STAR_PLUS_DHODGE_ON_KAPPA_T_STAR" in next_method["ordered_steps"]
+assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
+assert "CONSTRUCT_INDEPENDENT_DELTA_FA_AND_DELTA_T_FROM_CONNECTION_SOLDERING_AND_OBSERVATION_NORMAL_JETS" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
     "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
@@ -153,13 +155,13 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_CONFIRMS_DISTINCT_UPSILON_CONSTITUENTS_AND_IS_SILENT_ON_PHYSICAL_METRIC_OPERATOR_DERIVATIVE__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_CONFIRMS_RAW_RESIDUAL_CONSTITUENTS_AND_IS_SILENT_ON_SELECTED_BRANCH_TANGENT_NATURALITY__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "CONSTRUCT_FA_STAR_T_STAR_AND_PHYSICAL_DSHIAB_DHODGE_NORMAL_RESPONSE" in directive["next_gate"]
-assert "V052_MOVING_OPERATOR_KILL_RETRACTED" in directive["latest_correction_evidence"]
+assert "CONSTRUCT_INDEPENDENT_AMBIENT_DELTA_FA_DELTA_T_CONNECTION_SOLDERING_OBSERVATION_NORMAL_JET" in directive["next_gate"]
+assert "INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET_ZERO" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -285,4 +287,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.53 preserve the q-exact connection-class theorem, retract only the v0.52 moving-operator inference, and route to the selected constituent Shiab/Hodge response without residue or quotient promotion")
+print("PASS: functional channels and v0.54 preserve the q-exact connection theorem, close only the selected invariant branch-tangent operator packet, and route to independent ambient field jets without residue or quotient promotion")
