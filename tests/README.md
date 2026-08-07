@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_second_layer_residual_constituent_operator_correction_probe.py`
+  preserves the q-exact connection-class theorem and separates zero total
+  residual/common co-motion from a live independent constituent-operator
+  derivative with an exact counterexample.
+- `channel-swings/conditional_physics_ledger_v053_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
 - `channel-swings/conditional_physics_ledger_v052_probe.py` freezes verdicts,
   residue and quotients while migrating exactly five row distances to the
   residual-zero owner-class retype.

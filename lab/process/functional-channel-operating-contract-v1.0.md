@@ -24,8 +24,18 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.51.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.51.md`.
+`lab/process/conditional-physics-ledger-v0.53.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.53.md`.
+
+Current transverse-owner correction: the universal connection-curvature
+principal image remains `q`-exact and cannot own the transverse 117. However,
+v0.52's stronger moving-operator kill is retracted. Total
+`Upsilon_0=Shiab(F_A*)+Hodge(kappa T*)=0` is not constituent zero, and the
+selected branch already has nonzero `T*=-(kappa_1/312)Phi1`. Common equivariant
+co-motion can vanish while an independent physical metric variation of Shiab
+and Hodge remains live. Construct `(F_A*,T*)`, compute that response together
+with the ambient field normal jet, and only then compare the four graph columns
+with the transverse 117. Symplectic review remains mandatory.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order

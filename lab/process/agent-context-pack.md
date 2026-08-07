@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT TRANSVERSE-117 OWNER-CLASS FENCE.** Fixed-`B` `D_B T` owns the 28
+> **CURRENT RESIDUAL-CONSTITUENT OPERATOR CORRECTION.** Preserve v0.52's
+> universal result that every connection-curvature principal response is
+> `q wedge delta A` and cannot own the transverse 117. Retract its stronger
+> operator inference: total `Upsilon_0=0` does not imply
+> `F_A*=T*=0`. The selected branch has nonzero
+> `T*=-(kappa_1/312)Phi1`. Common equivariant co-motion can vanish while an
+> independent physical metric variation
+> `(D Shiab)F_A*+(D Hodge)kappa T*` is nonzero. Ledger v0.53; next construct
+> `(F_A*,T*)`, that physical metric-normal response and the ambient field
+> normal jet on the same four graph columns. This is not a transverse-owner,
+> full-action, Euler, BV/BFV, domain or physical-spectrum result.
+
+> **SUPERSEDED TRANSVERSE-117 OWNER-CLASS FENCE.** Fixed-`B` `D_B T` owns the 28
 > q-exact coefficients. Every moving local connection-curvature principal
 > response remains `q wedge delta A` and cannot reach the transverse 117. At
 > the current `Upsilon_0=0` quadratic background, moving Shiab/frame/Hodge
@@ -69,13 +81,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks and the exact non-null Koszul odd packet split.
-> Construct its source-native augmented-torsion/translation-curvature or
-> richer moving epsilon/soldering owner and the null characteristic screen.
-> Then assemble gauge-
-> rotated Levi-Civita, moving Hodge/Shiab and graph terms and test total
-> Bianchi/raw-`Upsilon` naturality. Do not use background subtraction without
-> an action/counterterm owner.
+> massive-spin-two blocks, the non-null Koszul odd packet split, fixed-`B`
+> support 28 and the connection q-exact exclusion for transverse 117. Construct
+> the selected stationary constituents `(F_A*,T*)`, then compute the physical
+> metric-normal `(D Shiab)F_A*+(D Hodge)kappa T*` and ambient field normal jet
+> on the same four graph columns. Compare them with transverse 117 before the
+> null characteristic screen and total Bianchi/raw-`Upsilon` naturality. Do
+> not infer constituent zero from total residual zero or use background
+> subtraction without an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain

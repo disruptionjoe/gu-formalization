@@ -7,6 +7,17 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer residual-constituent operator correction (2026-08-07)
+
+`conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md`
+preserves v0.52's q-exact connection-class theorem but retracts its inference
+from total residual zero to zero constituent operator response. The selected
+stationary torsion is nonzero, and an exact two-component control separates
+vanishing common co-motion from a live independent operator derivative. Ledger
+v0.53 routes the next Build to the selected constituent background and physical
+Shiab/Hodge metric-normal response without moving verdicts, residue, quotients,
+datum or posture.
+
 ## Selected second-layer transverse-117 residual-zero owner class (2026-08-07)
 
 `conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md`

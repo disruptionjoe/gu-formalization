@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "V052_MOVING_OPERATOR_KILL_RETRACTED__CONNECTION_Q_EXACT_CLASS_SURVIVES__CONSTITUENT_BACKGROUND_RESPONSE_OPEN",
+  "source_return": "SOURCE-CONFIRMS__UPSILON_HAS_DISTINCT_CURVATURE_AND_TORSION_CONSTITUENTS__SOURCE-SILENT__PHYSICAL_METRIC_OPERATOR_DERIVATIVE_ON_SELECTED_BACKGROUND",
+  "predecessor": "lab/process/selected-second-layer-transverse117-residual-zero-owner-class.json",
+  "survives": ["connection curvature principal image is q-exact", "support 28 owned", "support 117 transverse"],
+  "retracted": "MOVING_SHIAB_HODGE_OPERATOR_TERMS_VANISH_FROM_TOTAL_RESIDUAL_ZERO",
+  "exact_counterexample": {"constituents_nonzero": true, "total_residual_zero": true, "independent_operator_derivative_nonzero": true, "common_comotion_derivative_zero": true},
+  "selected_background": {"torsion": "T*=-(kappa_1/312)Phi1", "torsion_nonzero": true, "curvature_constituent": "OPEN_TO_CONSTRUCT"},
+  "next_gate": "CONSTRUCT_FA_STAR_T_STAR_AND_PHYSICAL_DSHIAB_DHODGE_NORMAL_RESPONSE__THEN_COMPARE_TRANSVERSE117",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 1, "remaining_named_conditions": 5},
+  "rerun": "17/17 PASS"
+}

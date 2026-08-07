@@ -10,6 +10,12 @@ etc.) - they do **not** perform mathematics. A green run here means the prose/go
 contracts hold; it says nothing about whether a GU claim is mathematically checked. For that,
 see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
+Current correction gate:
+
+- `selected_second_layer_residual_constituent_operator_correction_scope_audit.py`
+  audits the v0.53 retraction, selected nonzero constituent, source return,
+  mandatory symplectic review and frozen datum/lane/posture boundary.
+
 ## Why top-level (same depth as `tests/`)
 
 Each gate computes the repo root as `Path(__file__).resolve().parents[1]`, which assumes the

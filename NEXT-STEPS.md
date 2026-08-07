@@ -7,6 +7,21 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
+> **2026-08-07 RESIDUAL-CONSTITUENT OPERATOR CORRECTION (ledger v0.53).**
+> [`explorations/conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md`](explorations/conditional-build/selected-second-layer-residual-constituent-operator-correction-2026-08-07.md)
+> retracts only v0.52's inference that total `Upsilon_0=0` kills the moving
+> Shiab/Hodge response. The connection-curvature principal image remains
+> q-exact and still cannot own the transverse 117. The selected branch has
+> nonzero `T*=-(kappa_1/312)Phi1`, so cancelling constituents can have zero
+> total residual while an independent physical metric operator derivative is
+> nonzero.
+
+> **NEXT RUN: SELECTED CONSTITUENT BACKGROUND RESPONSE.** Construct
+> `(F_A*,T*)`; compute `(D Shiab)F_A*+(D Hodge)kappa T*` for physical
+> metric-normal variation and the ambient field normal jet on the same four
+> graph columns; then compare with the transverse 117. Preserve the q-exact
+> connection-class theorem. Symplectic review remains mandatory.
+
 > **2026-08-07 TRANSVERSE-117 RESIDUAL-ZERO OWNER RETYPE (ledger v0.52).**
 > [`explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md`](explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md)
 > proves that every moving local connection-curvature principal symbol remains

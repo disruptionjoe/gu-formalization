@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose correction 2026-08-07 (ledger v0.53; five distance-
+only migrations).** The universal connection-curvature principal image remains
+`q`-exact and cannot own the transverse 117. The stronger v0.52 inference is
+retracted: total `Upsilon_0=0` does not imply zero curvature and torsion
+constituents, and the selected stationary branch already has nonzero
+`T*=-(kappa_1/312)Phi1`. Common equivariant co-motion may vanish while the
+independent physical metric-normal `(D Shiab)F_A*+(D Hodge)kappa T*` remains
+live. The next Build constructs those selected constituents and their response,
+plus the ambient field normal jet. No verdict, residue, quotient, datum, canon
+or public-posture change follows.
+
 **Current Build/Compose correction 2026-08-07 (ledger v0.52; five distance-
 only migrations).** Every local connection-curvature principal response is
 `q wedge delta A`, so the moving Levi-Civita/epsilon/connection class cannot

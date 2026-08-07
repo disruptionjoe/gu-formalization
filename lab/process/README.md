@@ -7,6 +7,12 @@ updated_at: "2026-08-07"
 
 # Process
 
+Current append-only progress surface: ledger v0.53. It preserves the q-exact
+connection-class exclusion for the transverse 117 and retracts only the v0.52
+moving-operator inference. The next gate constructs the selected nonzero
+curvature/torsion constituents and the physical Shiab/Hodge metric-normal
+response. See `selected-second-layer-residual-constituent-operator-correction.json`.
+
 Persona passes, dialectical method, synthesis history, runbooks, templates, and
 process-quality notes.
 
