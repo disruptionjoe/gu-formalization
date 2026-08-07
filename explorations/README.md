@@ -7,7 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
-## Selected second-layer observation-owner retype (2026-08-07)
+## Selected second-layer normal-jet carrier compatibility (2026-08-07)
+
+`conditional-build/selected-second-layer-normal-jet-carrier-compatibility-2026-08-07.md`
+corrects the owner map: a difference of two residual Gram forms is not the
+Gram form of a residual difference. It preserves the raw rank-four orbit and
+proves all four required correction columns lie in the exact source-native
+mixed-normal carrier. Ledger v0.46 therefore opens the actual prolonged
+diffeomorphism field jet without adding a datum or promoting a physics claim.
+
+## Predecessor selected second-layer observation-owner retype (2026-08-07)
 
 `conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md`
 rejects an independent observation action column: the metric and graph section

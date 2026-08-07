@@ -1793,3 +1793,12 @@ column, preserves the source-normal-jet chain-rule route, and routes the next
 Build to source-native `j1 Upsilon` before the conditional full-`II` owner-map
 comparison. It requires the symplectic lens and forbids scalar, domain, BV/BFV,
 datum, quotient or posture inflation.
+
+## Selected second-layer normal-jet carrier compatibility and ledger v0.46 gate
+
+`selected_second_layer_normal_jet_carrier_compatibility_scope_audit.py`
+rejects the false residual-Gram factorization, retains the raw rank-four orbit,
+and requires all four needed columns to lie in the source-native mixed-normal
+carrier. It keeps the actual prolonged source jet, background-subtraction
+owner, scalar/domain/BV/BFV, external datum, fifth quotient, canon and public
+posture open, with the symplectic lens mandatory.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.45.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.45.md`.
+`lab/process/conditional-physics-ledger-v0.46.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.46.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -524,24 +524,27 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-SOURCE_NATIVE_J1_UPSILON_NORMAL_JET__TOTAL_METRIC_SECTION_DERIVATIVE_ON_CONNECTION_KERNEL__COMPARE_CONDITIONAL_FULL_II_OWNER_MAP__ONLY_THEN_TRANSVERSE_SOURCE_VARIABLES
+CONSTRUCT_J1_LIE_XI_A_AND_TOTAL_RAW_UPSILON_DIFFERENTIAL_ON_FOUR_GRAPH_ORBIT_COLUMNS__COMPARE_CONDITIONAL_FULL_II_MAP__NO_BACKGROUND_SUBTRACTION_WITHOUT_OWNER
 ```
 
-Current execution method, ratified by the v0.45 Build/Compose result:
+Current execution method, ratified by the v0.46 Build/Compose correction:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
    current as fixed sub-blocks.
-2. Preserve the v0.43 rank-four linear theorem as a diagnostic proxy result,
-   but do not use that covector-slot-only proxy as an action target. The actual
-   independent connection lift `L D` has rank three and kills the time
-   generator, while the metric Ward load is nonzero on that generator.
+2. Preserve the raw rank-four residual orbit, but retract v0.43's owner
+   inference: the background-subtracted Hessian is a difference of Gram forms,
+   not the Gram form of a residual difference. Rank monotonicity for
+   `J^! G J` cannot be applied to that difference.
 3. Do not add an independent observation field: `g` and its graph section
    `s_g` have the same tangent, and the invertible receiver only transports the
-   Ward load. Construct the ambient source-native normal first jet of
-   `Upsilon` and its dependent total metric-section derivative on the missing
-   time direction; prove coefficientwise naturality on all four generators.
-4. Compare that source derivative with the conditional full-`II` owner map.
+   Ward load. The exact source-native mixed-normal carrier contains all four
+   required raw correction columns, but containment is not the actual field
+   jet. Construct `j1(L_xi A)` plus the moving Hodge, Shiab, Levi-Civita and
+   graph-section terms in raw `D Upsilon` on all four generators.
+4. Compare those four source-owned columns coefficientwise with the
+   conditional full-`II` owner map. Any background subtraction requires an
+   explicit action or counterterm owner.
    Only if the owner comparison closes, extend to transverse source variables.
    On the descended quotient derive the scalar characteristic
    polynomial, then assemble the distinct massless constraint complex and
@@ -554,9 +557,9 @@ Current execution method, ratified by the v0.45 Build/Compose result:
 6. Open a common Green/Krein domain and odd BV/BFV only after the complete
    quotient, with the symplectic lens mandatory.
 
-The current source return corrects observation to a receiver rather than an
-independent action field; it is silent on the normal first jet of `Upsilon`
-and its comparison with the conditional full-`II` owner map. Compose
+The current source return corrects the calculation to raw `Upsilon`; it is
+silent on a background-subtraction owner and on the actual prolonged orbit
+coefficients. Compose
 migrates the ledger only if that work or the Build changes a row distance or
 high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,
@@ -570,10 +573,10 @@ rank-two local principal Green flux is definite and gauge-descending, but a
 live flux does not repair wrong representation type. Do not spend a global-
 domain campaign on that superseded carrier. The second-layer gravitational
 Build has now closed both the massless helicity-two type and the massive
-five-state spin-two type. Its immediate owner is the source-native normal jet
-and dependent total metric-section derivative on the connection-kernel time
-direction. Only if that derivative closes naturality and matches the
-conditional full-`II` map should it build transverse source directions. Only
+five-state spin-two type. Its immediate owner is the actual source-owned
+prolongation and the complete raw `D Upsilon` on all four graph-orbit
+directions. Only if those columns close naturality and match the conditional
+full-`II` map should it build transverse source directions. Only
 after those blocks form a basic Hessian may it derive
 the rest-frame spin-zero polynomial and the separate massless constraint
 complex. Only the resulting complete bosonic quotient

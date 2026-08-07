@@ -42,11 +42,18 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-normal-jet-carrier-compatibility.json` - retracts
+  the false residual-Gram owner inference, proves raw source-carrier
+  compatibility for all four graph-orbit columns, and leaves the actual
+  prolonged source coefficients open.
+- `conditional-physics-ledger-v0.46.json` - current append-only conditional
+  physics ledger after the normal-jet owner correction.
+
 - `selected-second-layer-observation-owner-retype.json` - rejects an
   independent observation action field, preserves the dependent moving-section
   normal-jet route, and selects the source-native `j1 Upsilon` successor.
-- `conditional-physics-ledger-v0.45.json` - current append-only conditional
-  physics ledger after the observation-owner correction.
+- `conditional-physics-ledger-v0.45.json` - immutable predecessor ledger after
+  the observation-owner correction.
 - `selected-second-layer-actual-source-lift-rank-mismatch.json` - source-
   corrected rank-three independent-connection lift, its time-direction kernel,
   the nonzero metric Ward load there, and the section/observation successor.

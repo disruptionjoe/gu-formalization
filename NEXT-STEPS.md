@@ -7,7 +7,24 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 OBSERVATION-OWNER RETYPE.**
+> **2026-08-07 NORMAL-JET OWNER CORRECTION (ledger v0.46).**
+> [`explorations/conditional-build/selected-second-layer-normal-jet-carrier-compatibility-2026-08-07.md`](explorations/conditional-build/selected-second-layer-normal-jet-carrier-compatibility-2026-08-07.md)
+> finds that v0.42's background-subtracted Hessian is a difference of two
+> Gram forms, not the Gram form of a residual difference. Therefore the v0.43
+> rank-forcing inference does not construct `D Upsilon`. The raw conditional
+> residual orbit still has rank four, and all four required correction columns
+> lie in the exact source-native mixed-normal carrier, so there is no carrier
+> obstruction and no new datum is needed merely for expressibility.
+
+> **NEXT RUN: ACTUAL RAW PROLONGED ORBIT.** Construct the source-owned first
+> prolongation `j1(L_xi A)` together with moving Hodge, Shiab,
+> Levi-Civita and graph-section terms in raw `D Upsilon`; evaluate all four
+> graph-diffeomorphism columns coefficientwise and compare them with the
+> conditional full-`II` residual map. Any background subtraction must first
+> acquire an explicit action or counterterm owner. Symplectic review remains
+> mandatory.
+
+> **PREDECESSOR — 2026-08-07 OBSERVATION-OWNER RETYPE.**
 > [`explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md)
 > proves that the metric and its graph section carry the same rank-four
 > diffeomorphism tangent. Complete observation is an invertible receiver and
@@ -17,13 +34,6 @@ updated_at: "2026-08-07"
 > full-`II` pullback does not determine it. Ledger v0.45 moves five
 > distances/priorities; headline counts, residue, four scoped quotients and
 > P1/P2/P3 remain fixed.
-
-> **NEXT RUN: SOURCE-NATIVE NORMAL JET.** Construct `j^1 Upsilon` in the
-> observation-normal directions, assemble its dependent total metric-section
-> derivative on the time generator in `ker(L D)`, and then test all four
-> diffeomorphism generators. Compare that source derivative with the
-> conditional full-`II` owner map before transverse or scalar work.
-> Symplectic review remains mandatory.
 
 > **PREDECESSOR — 2026-08-07 SOURCE-CORRECTED CONNECTION-RANK MISMATCH.**
 > The v0.44 theorem still kills connection-only cancellation on the time

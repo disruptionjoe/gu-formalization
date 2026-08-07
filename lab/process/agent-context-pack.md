@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT OBSERVATION-OWNER FENCE.** The metric and its graph section have
+> **CURRENT NORMAL-JET OWNER FENCE.** The v0.42 background-subtracted Hessian
+> is a difference of Gram forms, not the Gram of a residual difference. Do not
+> infer `D Upsilon` or a rank lower bound from it. The raw conditional residual
+> orbit has rank four, and all four required corrections lie in the exact
+> source-native mixed-normal carrier, but carrier containment is not the
+> actual prolonged field jet. Ledger v0.46; next construct
+> `j1(L_xi A)` plus every moving raw-`Upsilon` term and compare all four
+> columns coefficientwise. Background subtraction requires an explicit action
+> or counterterm owner. Scalar, domain and BV/BFV claims remain downstream.
+
+> **PREDECESSOR OBSERVATION-OWNER FENCE.** The metric and its graph section have
 > the same rank-four diffeomorphism tangent; observation is not a second action
 > field. Its invertible equation receiver transports rather than cancels a
 > Ward defect. A dependent moving-section contribution remains live through
@@ -41,12 +51,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Construct the source-native first normal jet of
-> `Upsilon` along the metric graph section and assemble the dependent total
-> metric-section derivative on the time generator in the kernel of the
-> rank-three connection lift. Test all four generators coefficientwise and
-> compare with the conditional full-`II` owner map. Extend to transverse source
-> variables only after that cheap decisive comparison passes.
+> massive-spin-two blocks. Construct the actual source-owned first
+> prolongation `j1(L_xi A)` and the moving Hodge/Shiab/Levi-Civita/graph terms
+> in raw `D Upsilon`. Test all four graph generators coefficientwise against
+> the conditional full-`II` map. Do not use background subtraction without an
+> action or counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain

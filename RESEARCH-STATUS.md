@@ -8,7 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose correction 2026-08-07 (ledger v0.45; five
+**Active Build/Compose correction 2026-08-07 (ledger v0.46; five
+distance/priority migrations).** The background-subtracted Hessian used in
+v0.42 is a difference of Gram forms, not the Gram of a residual difference, so
+the v0.43 rank-forcing step did not construct a source-owned `D Upsilon`.
+The raw conditional residual orbit remains rank four and all four required
+columns lie in the exact rank-1190 source-native mixed-normal carrier. This
+removes a carrier obstruction only; the actual prolonged diffeomorphism field
+jet and coefficientwise equality remain open. No verdict, residue, quotient,
+datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose correction 2026-08-07 (ledger v0.45; five
 distance/priority migrations).** The metric and graph-section diffeomorphism
 tangents are the same rank-four column, and invertible observation transports
 rather than cancels a Ward defect. An independent observation action field is
@@ -23,20 +33,20 @@ datum, canon or public-posture change follows.
 distance/priority migrations).** The actual connection lift has rank three and
 cannot cancel the conditional rank-four metric load on its time kernel.
 
-**Predecessor Build/Compose update 2026-08-07 (ledger v0.43; five
-distance/priority migrations).** The rank-four diagnostic weld remains exact
-on its proxy carrier but is retracted as the source-native action target.
+**Predecessor diagnostic update 2026-08-07 (ledger v0.43; five
+distance/priority migrations).** The rank-four proxy arithmetic remains exact,
+but v0.46 retracts its residual-Gram owner inference.
 
-**Predecessor Build/Compose update 2026-08-07 (ledger v0.42; five distance/priority
+**Predecessor conditional comparator 2026-08-07 (ledger v0.42; five distance/priority
 migrations).** The exact metric-only off-TT pullback reproduces the selected
 TT polynomial, but its full ten-component Hessian has diffeomorphism-Ward
 defect rank four and remains rank ten at the restricted scalar candidate
 `s=-1157/3589`. The candidate is not a characteristic root. Layer 0 also
 separates the old observer/full-`B` first-variation coefficient from the
-selected stationary residual norm. The next Build constructs full co-moving
-`D Upsilon` in metric, connection, section and observation variables and
-proves coupled Ward descent. No verdict, residue, quotient, datum, canon or
-public-posture change follows.
+selected stationary residual norm. Its TT/SO3/off-TT formulas remain
+conditional observer/full-`II` comparators; v0.46 shows that the
+background-subtracted Hessian is not itself a residual Gram. No verdict,
+residue, quotient, datum, canon or public-posture change follows.
 
 **Predecessor Build/Compose update 2026-08-07 (ledger v0.41; five
 distance/priority migrations).** Exact rest-frame rotations close the selected massive
