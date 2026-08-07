@@ -7,7 +7,17 @@ updated_at: "2026-08-07"
 
 # Explorations
 
-## Selected second-layer GCR Clifford-grade owner retype (2026-08-07)
+## AC-G1 propagation, pointer and inherited baseline (2026-08-07)
+
+`conditional-build/ac-g1-propagation-pointer-baseline-2026-08-07.md` scopes the
+`Sp(64)` pincer-defusal result to conditional `Cl(9,5)`, leaves settled
+`Cl(7,7)` anomaly construction open, supersedes stale ledger row `AC-G1` with
+`AC-G1a NEEDS/MISSING_CONSTRUCTION`, reconciles the historical campaign
+pointer to the functional-channel frontier and deposits the 49-failure branch-
+integration baseline as historical inherited debt. Ledger v0.50; no anomaly
+cancellation, datum, quotient or public-posture claim is promoted.
+
+## Predecessor selected second-layer GCR Clifford-grade owner retype (2026-08-07)
 
 `conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md`
 exhausts all 8,281 classical `Cl2` curvature inputs and proves they have zero

@@ -7,7 +7,14 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 GCR CLIFFORD-GRADE OWNER RETYPE (ledger v0.49).**
+> **2026-08-07 PROPAGATION COMPLETE (ledger v0.50).** The `Sp(64)` anomaly-
+> pincer result is now scoped to conditional `Cl(9,5)`; settled `Cl(7,7)` needs
+> its own group and local/global anomaly calculation. The shared Eric/Curt
+> campaign pointer now defers to this file and the functional-channel contract.
+> The 49 failures at the August 6 branch integration are recorded as historical
+> inherited baseline debt, not as the current live gate count.
+
+> **PREDECESSOR — 2026-08-07 GCR CLIFFORD-GRADE OWNER RETYPE (ledger v0.49).**
 > [`explorations/conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md)
 > exhausts all 8,281 `Cl2` Levi-Civita/GCR curvature basis columns under the
 > selected Shiab. They land only in grades one and five and have zero entries

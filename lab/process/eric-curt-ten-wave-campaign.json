@@ -650,7 +650,10 @@
         "next_swing": "ECW3C-ACTUAL-Y14-DESCENT-AND-CLOSED-DOMAIN",
         "current_next_swing": "ECW3D-SECTION-PULLBACK-RIGHT-H-GREEN-DOMAIN",
         "guided_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
-        "active_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
+        "active_next_swing": "SOURCE_NATIVE_ODD_CURVATURE_OR_RICHER_SOLDERING_OWNER_AND_NULL_SCREEN",
+        "active_next_swing_owner": "lab/process/functional-channel-operating-contract-v1.0.json#active_scientific_directives[GU-COSMO-DYNAMIC-01].next_run_method",
+        "historical_active_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
+        "active_next_swing_reconciled_at": "2026-08-07",
         "alternative_branch_next_swing": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4",
         "post_b2c15r3_pw1": {
           "status": "CONDITIONAL_PASS_PW2_ENABLED",

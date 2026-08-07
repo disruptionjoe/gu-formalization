@@ -9,11 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
+> **CURRENT AC-G1 HORN FENCE AND POINTER.** `Sp(64)` defuses Nguyen's
+> original `U(128)` pincer only on the conditional `Cl(9,5)=M(64,H)` horn.
+> It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
+> local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
+> stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
+> next gate is the functional-contract odd-curvature/richer-soldering owner and
+> null-screen target; historical campaign-local pointers are not queue truth.
+
 > **CURRENT GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
 > a `Cl1`-valued odd/vector two-form packet, not direct `Cl2` Levi-Civita/GCR
 > curvature. All 8,281 `Cl2` source columns land only in selected-Shiab grades
 > one and five and have zero grade-two target entries. Single-`q` contraction
-> also fails. Ledger v0.49; next construct the source-native odd augmented-
+> also fails. Ledger v0.50; next construct the source-native odd augmented-
 > torsion/translation-curvature packet or richer moving epsilon/soldering map,
 > then the null screen and total Bianchi/raw-`Upsilon` naturality. Scalar,
 > domain and BV/BFV claims remain downstream.

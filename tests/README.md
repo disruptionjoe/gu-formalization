@@ -6,6 +6,10 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/conditional_physics_ledger_v050_probe.py` preserves all
+  predecessor rows, supersedes only stale `AC-G1`, appends `AC-G1a` as the
+  settled-horn missing construction, verifies active counts `32/19/26/5`, and
+  freezes residue, quotient and P1/P2/P3 boundaries.
 - `channel-swings/selected_second_layer_gcr_exterior_degree_owner_retype_probe.py`
   exhausts all 8,281 classical `Cl2` curvature columns, proves their selected-
   Shiab outputs occupy only Clifford grades one and five with zero grade-two

@@ -42,12 +42,20 @@ Runbooks:
 
 ## Direct Process Files
 
+- `ac-g1-propagation-pointer-baseline.json` - horn-scopes the `Sp(64)` pincer
+  result, supersedes stale `AC-G1` with `AC-G1a`, reconciles the authoritative
+  next pointer and preserves the historical inherited-gate baseline boundary.
+- `branch-integration-inherited-failure-baseline-2026-08-07.json` - records
+  the August 6 integration's 49 inherited failures, `44+5` provenance split
+  and zero-regression/zero-fix result without treating it as current-head truth.
+- `conditional-physics-ledger-v0.50.json` - current append-only conditional
+  physics ledger after the AC-G1 stale-premise propagation.
+- `conditional-physics-ledger-v0.49.json` - immutable predecessor after the
+  GCR Clifford-grade owner correction.
 - `selected-second-layer-gcr-exterior-degree-owner-retype.json` - exhausts
   all 8,281 `Cl2` GCR source columns, excludes their direct grade-two target
   ownership and the single-`q` adapter, and selects an odd source/soldering
   owner as the next gate.
-- `conditional-physics-ledger-v0.49.json` - current append-only conditional
-  physics ledger after the GCR Clifford-grade owner correction.
 - `selected-second-layer-nonnull-koszul-gcr-split.json` - constructs the
   canonical non-null connection part, measures the transverse completion
   burden, and is retyped by v0.49 as an odd vector-valued two-form split.

@@ -10,8 +10,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.49.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.49.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.50.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.50.md",
     "denominator_axes": ["LAGRANGIAN", "REPRESENTATION", "ANOMALY_CONSISTENCY"],
     "particles_are_separate_denominator_axis": false,
     "append_only": true,

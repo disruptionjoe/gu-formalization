@@ -1831,3 +1831,12 @@ the next Build to a source-native odd augmented-torsion/translation-curvature
 packet or richer moving epsilon/soldering map, keeps null continuation and
 total Bianchi/raw-`Upsilon` naturality open, requires symplectic review and
 forbids residue, fifth-quotient, datum, canon or public-posture promotion.
+
+## AC-G1 propagation, pointer reconciliation and ledger v0.50 gate
+
+`ac_g1_propagation_pointer_baseline_scope_audit.py` enforces the real-Clifford
+horn boundary, requires current canon/status wording to scope `Sp(64)` to
+conditional `Cl(9,5)`, makes the functional-channel target authoritative while
+preserving the old PW2F pointer, and types the 49-failure integration record as
+historical inherited debt rather than current-head truth. It forbids anomaly,
+datum, quotient, canon-verdict or public-posture inflation.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.49.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.49.md`.
+`lab/process/conditional-physics-ledger-v0.50.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.50.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -527,7 +527,7 @@ Current gate:
 CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_OR_TRANSLATION_CURVATURE_PACKET_OR_RICHER_MOVING_EPSILON_SOLDERING_OWNER__THEN_NULL_SCREEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY
 ```
 
-Current execution method, ratified by the v0.49 Build/Compose correction:
+Current execution method, preserved through the v0.50 AC-G1 propagation correction:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
