@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.50.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.50.md`.
+`lab/process/conditional-physics-ledger-v0.51.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.51.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -524,10 +524,10 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_OR_TRANSLATION_CURVATURE_PACKET_OR_RICHER_MOVING_EPSILON_SOLDERING_OWNER__THEN_NULL_SCREEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY
+CONSTRUCT_MOVING_GAUGE_ROTATED_LEVI_CIVITA_EPSILON_SOLDERING_RESPONSE_FOR_TRANSVERSE_117__COMBINE_WITH_FIXED_B_DB_T_SUPPORT28__THEN_NULL_SCREEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY
 ```
 
-Current execution method, preserved through the v0.50 AC-G1 propagation correction:
+Current execution method, advanced by the v0.51 fixed-B translation-curvature partial-owner theorem:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
@@ -548,9 +548,12 @@ Current execution method, preserved through the v0.50 AC-G1 propagation correcti
    selected odd `Cl1 -> Cl2` map remains the rank-1,274 isomorphism. A single
    moving covector is also insufficient: contraction by non-null `q` has rank
    thirteen and cannot supply the seven-component packet along `q`.
-5. Construct a source-native odd augmented-torsion/translation-curvature
-   packet, or a richer moving epsilon/soldering map with the required grade
-   conversion. Separately construct a null characteristic screen/gauge
+5. Preserve fixed-`B` `D_B T` as the exact owner of all 28 q-wedge
+   coefficients and not of the complete 145-coefficient packet. Construct the
+   moving gauge-rotated Levi-Civita, epsilon or soldering principal response
+   for the independent 117 transverse coefficients; `T wedge T` is algebraic
+   and cannot enlarge the odd first-order symbol. Separately construct a null
+   characteristic screen/gauge
    quotient; the non-null normalization may not be continued through
    `q^2=0`. Then assemble moving Hodge/Shiab and graph terms and test total
    differential Bianchi and raw-`Upsilon` naturality. Any subtraction requires

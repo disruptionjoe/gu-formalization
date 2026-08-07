@@ -9,6 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
+> **CURRENT TRANSLATION-CURVATURE PARTIAL-OWNER FENCE.** At fixed reference
+> `B`, the source-written `D_B T` principal symbol `q wedge delta T` owns all
+> 28 q-containing coefficients of the exact selected odd packet and none of
+> the 117 transverse coefficients. `T wedge T` cannot enlarge the odd first-
+> order image. Ledger v0.51; next construct the moving gauge-rotated Levi-
+> Civita, epsilon or soldering response for the transverse 117, then the null
+> screen and total Bianchi/raw-`Upsilon` naturality. Partial owner is not full
+> Euler, presymplectic, quotient or physical closure.
+
 > **CURRENT AC-G1 HORN FENCE AND POINTER.** `Sp(64)` defuses Nguyen's
 > original `U(128)` pincer only on the conditional `Cl(9,5)=M(64,H)` horn.
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
@@ -17,7 +26,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > next gate is the functional-contract odd-curvature/richer-soldering owner and
 > null-screen target; historical campaign-local pointers are not queue truth.
 
-> **CURRENT GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
+> **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
 > a `Cl1`-valued odd/vector two-form packet, not direct `Cl2` Levi-Civita/GCR
 > curvature. All 8,281 `Cl2` source columns land only in selected-Shiab grades
 > one and five and have zero grade-two target entries. Single-`q` contraction

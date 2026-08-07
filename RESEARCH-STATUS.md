@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose result 2026-08-07 (ledger v0.51; five distance-only
+migrations).** The source-written fixed-reference translation-curvature
+symbol `q wedge delta T` owns exactly the 28 q-containing coefficients of the
+selected odd inverse packet. The independent 117-coefficient transverse
+rank-four family lies outside that principal image. The algebraic `T wedge T`
+term cannot enlarge the odd first-order symbol. The next Build computes the
+moving gauge-rotated Levi-Civita/epsilon/soldering response for those 117
+coefficients, then the null screen and total Bianchi/raw-`Upsilon` test. No
+verdict, residue, quotient, datum, canon or public-posture change follows.
+
 **Current Compose propagation correction 2026-08-07 (ledger v0.50; one
 verdict-class migration).** Historical `AC-G1` is superseded: its `Sp(64)`
 pincer-defusal claim was specific to conditional `Cl(9,5)` but had propagated

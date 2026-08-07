@@ -7,6 +7,18 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
+> **2026-08-07 FIXED-B TRANSLATION-CURVATURE PARTIAL OWNER (ledger v0.51).**
+> [`explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md)
+> proves that the source-written fixed-reference `D_B T` principal symbol owns
+> exactly the 28 q-wedge coefficients and none of the 117 transverse
+> coefficients. `T wedge T` cannot enlarge the odd first-order symbol.
+
+> **NEXT RUN: MOVING-REFERENCE TRANSVERSE OWNER.** Compute the moving gauge-
+> rotated Levi-Civita, epsilon or soldering principal response on the same
+> exact carrier and compare it coefficientwise with the 117 transverse
+> coefficients. Then combine both parts before the null screen and total
+> Bianchi/raw-`Upsilon` test. Symplectic review remains mandatory.
+
 > **2026-08-07 PROPAGATION COMPLETE (ledger v0.50).** The `Sp(64)` anomaly-
 > pincer result is now scoped to conditional `Cl(9,5)`; settled `Cl(7,7)` needs
 > its own group and local/global anomaly calculation. The shared Eric/Curt
@@ -22,7 +34,7 @@ updated_at: "2026-08-07"
 > so direct GCR ownership is wrong-type. Single-`q` contraction is also
 > excluded because every required packet has seven Clifford-`q` components.
 
-> **NEXT RUN: ODD SOURCE OWNER, THEN NULL SCREEN.** Construct the source-native
+> **SUPERSEDED NEXT RUN: ODD SOURCE OWNER, THEN NULL SCREEN.** Construct the source-native
 > odd augmented-torsion/translation-curvature packet or a richer moving
 > epsilon/soldering map and compare all 145 inverse coefficients. Then build
 > the null characteristic screen and test total Bianchi plus raw-`Upsilon`

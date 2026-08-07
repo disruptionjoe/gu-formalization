@@ -1840,3 +1840,12 @@ conditional `Cl(9,5)`, makes the functional-channel target authoritative while
 preserving the old PW2F pointer, and types the 49-failure integration record as
 historical inherited debt rather than current-head truth. It forbids anomaly,
 datum, quotient, canon-verdict or public-posture inflation.
+
+## Translation-curvature partial owner and ledger v0.51 gate
+
+`selected_second_layer_translation_curvature_principal_owner_scope_audit.py`
+requires the exact fixed-`B` `q wedge delta T` image, support `28` ownership,
+support `117` exclusion, rank-four owned and transverse families, mandatory
+symplectic review and current-ledger/contract wiring. It routes the next Build
+to the moving gauge-rotated Levi-Civita/epsilon/soldering response and forbids
+Euler, BV/BFV, quotient, datum, canon or posture inflation.

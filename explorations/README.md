@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer translation-curvature principal owner (2026-08-07)
+
+`conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md`
+composes the source-written fixed-`B` symbol `q wedge delta T` with the exact
+odd inverse packet. It owns all 28 q-wedge coefficients and none of the 117
+transverse coefficients; both families retain rank four. Ledger v0.51 routes
+the next Build to the moving gauge-rotated Levi-Civita/epsilon/soldering
+response without moving verdicts, residue, quotients, datum or posture.
+
 ## AC-G1 propagation, pointer and inherited baseline (2026-08-07)
 
 `conditional-build/ac-g1-propagation-pointer-baseline-2026-08-07.md` scopes the

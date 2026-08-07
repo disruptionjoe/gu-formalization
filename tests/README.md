@@ -6,6 +6,13 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/conditional_physics_ledger_v051_probe.py` freezes all
+  verdicts and residue while migrating exactly five row distances to the
+  fixed-B partial-owner result.
+- `channel-swings/selected_second_layer_translation_curvature_principal_owner_probe.py`
+  proves the fixed-`B` `q wedge delta T` image owns support 28 and not the
+  transverse support 117, retains ranks four and four, and excludes
+  `T wedge T` as an odd first-order principal enlargement.
 - `channel-swings/conditional_physics_ledger_v050_probe.py` preserves all
   predecessor rows, supersedes only stale `AC-G1`, appends `AC-G1a` as the
   settled-horn missing construction, verifies active counts `32/19/26/5`, and
