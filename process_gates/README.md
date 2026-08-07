@@ -1744,3 +1744,14 @@ constraint quotient, coupled nonzero-fermion Hessian, common global domain,
 odd BV/BFV, positivity and Einstein recovery open. It also requires the
 symplectic hostile lens and forbids residue, fifth-quotient, datum, canon or
 public-posture promotion.
+
+## Selected second-layer massive SO3 closure and ledger v0.41 gate
+
+`selected_second_layer_massive_so3_closure_scope_audit.py` requires the exact
+five-dimensional spin-two orbit closure and Casimir, the distinct one-state
+spin-zero complement, the two-dimensional commutant and the explicit
+TT-to-scalar non-identifiability witness. It routes the next Build to the
+native full-`B`, background-subtracted off-TT section variation before the
+massless constraint complex. It requires all six hostile lenses, including
+symplectic geometry, and forbids physical-state, scalar-coefficient, domain,
+BV/BFV, residue, fifth-quotient, datum, canon and public-posture inflation.

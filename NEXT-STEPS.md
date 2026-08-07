@@ -7,25 +7,34 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 SECOND-LAYER TT EULER/PREBOUNDARY: HELICITY TWO SURVIVES.**
+> **2026-08-07 MASSIVE SO(3) CLOSURE AND SCALAR IDENTIFIABILITY.**
+> [`explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md`](explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md)
+> proves that the massive axial-weight-`+/-2` pair closes under rest-frame
+> rotations to the five-dimensional spin-two irrep, with exact Casimir `-6`.
+> The axial weights `0,+/-1` are forced partners, not extra fields. The one
+> remaining spatial trace is a separate spin-zero irrep, and the exact
+> two-dimensional commutant proves TT data cannot determine its polynomial.
+> Ledger v0.41 moves five distances/priorities only; all headline counts,
+> residue, four scoped quotients and P1/P2/P3 remain fixed.
+
+> **NEXT RUN: OFF-TT SPIN-ZERO ACTION BLOCK.** Compose the native full-`B`
+> ambient coefficient and background subtraction into the selected action's
+> actual off-TT metric-section second variation. Derive the spin-zero
+> characteristic polynomial without fitting the free commutant block. Then
+> build the separate massless constraint complex. Coupled fermions, common
+> domain and odd BV/BFV remain downstream.
+
+> **PREDECESSOR — 2026-08-07 SECOND-LAYER TT EULER/PREBOUNDARY.**
 > [`explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md`](explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md)
 > composes the complete selected-`Cl2` form with the exact Gauss identity. The
 > zero-fermion TT Euler polynomial is
 > `kappa_1^2(14356/13689) box(box+1922/3589)`: a massless helicity-`+/-2`
 > pair and a massive TT plus/cross plane of axial spin weight `+/-2`, with
-> opposite local Green signs. The massive full `SO(3)` type is open. The fourth-order
-> preboundary potential/current is exact and nonzero. Ledger v0.40 moves four
-> distances only. Next complete the scalar/vector/constraint characteristic
-> quotient and classify any modes beyond the intended two TT pairs; preserve
-> the bosonic block when the nonzero-fermion Hessian is composed. Global
-> domain, odd BV/BFV, positive energy and Einstein recovery remain open.
-
-> **NEXT RUN: COMPLETE SECOND-LAYER CONSTRAINT QUOTIENT.** Derive the full
-> scalar/vector/tensor symbol from the selected action, prove diffeomorphism
-> and constraint descent, and determine whether any physical classes survive
-> beyond the exact massless helicity-two and massive axial-weight-two TT pairs.
-> Only after that
-> gate should the common right-`H`/Krein and odd BV/BFV domain become primary.
+> opposite local Green signs. The massive full `SO(3)` type was open here and
+> is closed by the current gate above. The fourth-order preboundary
+> potential/current is exact and nonzero. Ledger v0.40 moved four distances
+> only. Global domain, odd BV/BFV, positive energy and Einstein recovery remain
+> open.
 
 > **PREDECESSOR — 2026-08-07 SELECTED CL2 PULLBACK COMPLETE.**
 > [`explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md`](explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md)

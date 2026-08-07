@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.40.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.40.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.40.md")
+assert "conditional-physics-ledger-v0.41.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.41.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.41.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -86,9 +86,9 @@ assert "N2_LOCAL_PRINCIPAL_GREEN_FLUX_RANK2_DEFINITE_GAUGE_DESCENDING" in contra
 assert "I2B_GAUSS_PROJECTED_RANK100_INERTIA54_46" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "FULL_CL2_TARGET_1274_BY_100_NNZ640" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "MASSIVE_SO3_TYPE_OPEN" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "COMPLETE_SCALAR_VECTOR_CONSTRAINT_QUOTIENT_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "MASSLESS_HELICITY2" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "SPIN0_DIM1_POLYNOMIAL_UNIDENTIFIED" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -102,7 +102,7 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 assert "Predecessor execution method, ratified by Joe on 2026-08-06" in human
-assert "Current execution method, ratified by the v0.40 Build/Compose result" in human
+assert "Current execution method, ratified by the v0.41 Build/Compose result" in human
 assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
@@ -122,18 +122,18 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__SELECTED_CL2_TT_MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2__MASSIVE_SO3_TYPE_OPEN__EULER_PREBOUNDARY_EXACT__COMPLETE_PHYSICAL_QUOTIENT_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__SELECTED_CL2_MASSLESS_HELICITY2__MASSIVE_SO3_SPIN2_DIM5_EXACT__SPIN0_POLYNOMIAL_AND_MASSLESS_CONSTRAINT_COMPLEX_OPEN__EULER_PREBOUNDARY_EXACT__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
 assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "COMPLETE_ZERO_FERMION_SCALAR_VECTOR_CONSTRAINT_CHARACTERISTIC_QUOTIENT"
+assert next_method["target"] == "ACTUAL_BACKGROUND_SUBTRACTED_OFF_TT_SECTION_SECOND_VARIATION_AND_SPIN0_POLYNOMIAL"
 assert next_method["ordered_steps"] == [
-    "PRESERVE_EXACT_TT_EULER_PREBOUNDARY_MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2_SUBBLOCK",
-    "ASSEMBLE_ZERO_FERMION_SCALAR_VECTOR_CONSTRAINT_PRINCIPAL_COMPLEX_AT_BOTH_TT_ROOTS",
-    "PROVE_DIFFEO_AND_CONSTRAINT_DESCENT",
-    "CLASSIFY_LITTLE_GROUP_TYPE_OF_EVERY_SURVIVING_QUOTIENT_CLASS",
-    "CLASSIFY_MASSIVE_SO3_COMPLETION_AND_DISTINGUISH_INTENDED_TT_POLES_FROM_ADDITIONAL_REPRESENTATIONS",
+    "PRESERVE_EXACT_MASSLESS_HELICITY2_AND_MASSIVE_SO3_SPIN2_DIM5_SUBBLOCK",
+    "COMPOSE_NATIVE_FULL_B_AMBIENT_COEFFICIENT_AND_BACKGROUND_SUBTRACTION",
+    "DERIVE_THE_OFF_TT_SPIN0_CHARACTERISTIC_POLYNOMIAL_FROM_THE_SELECTED_ACTION",
+    "ONLY_THEN_ASSEMBLE_AND_DESCEND_THE_MASSLESS_CONSTRAINT_COMPLEX",
+    "CLASSIFY_EVERY_REMAINING_MASSLESS_QUOTIENT_CLASS_WITHOUT_RECOUNTING_MASSIVE_SPIN2_PARTNERS",
     "ONLY_AFTER_BOSONIC_QUOTIENT_COUPLE_SEPARATELY_TYPED_NONZERO_FERMION_HESSIAN",
     "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV",
 ]
@@ -143,19 +143,18 @@ assert next_method["mandatory_reviews"] == [
     "SYMPLECTIC_GEOMETRY", "KREIN_OPERATOR_THEORY", "SOURCE_CRITICISM",
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
-assert "NO_MASSIVE_AXIAL_WEIGHT2_PLANE_PROMOTED_TO_A_FULL_SO3_SPIN2_REPRESENTATION" in next_method["stop_conditions"]
+assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
 assert "SOURCE_RETURN_ALREADY_TYPES_SPINOR_EULER_AS_SEPARATE_DIRECT_SUMMAND__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "COMPLETE_ZERO_FERMION_SCALAR_VECTOR_CONSTRAINT_CHARACTERISTIC_QUOTIENT" in directive["next_gate"]
-assert "MASSIVE_SO3_TYPE" in directive["next_gate"]
-assert "MASSLESS_HELICITY2_PLUS_MASSIVE_AXIAL_WEIGHT2_TT" in directive["next_gate"]
-assert "COUPLE_SEPARATELY_TYPED_NONZERO_FERMION_HESSIAN" in directive["next_gate"]
+assert "BACKGROUND_SUBTRACTED_OFF_TT_SECTION_SECOND_VARIATION" in directive["next_gate"]
+assert "DERIVE_SPIN0_POLYNOMIAL" in directive["next_gate"]
+assert "BUILD_MASSLESS_CONSTRAINT_COMPLEX" in directive["next_gate"]
+assert "COUPLED_NONZERO_FERMION_HESSIAN" in directive["next_gate"]
 assert "COMMON_DOMAIN" in directive["next_gate"]
-assert "ODD_BV_BFV" in directive["next_gate"]
-assert "ONLY_AFTER_COMPLETE_QUOTIENT" in directive["next_gate"]
+assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
 assert "FIXED_CONSTANT_SCALAR_BACKGROUND_SELECTED_ACTION_TT_HESSIAN_HAS_UNIQUE_POSITIVE_SPECTRAL_C" in directive["current_evidence_boundary"]
@@ -181,11 +180,11 @@ assert "N2_HELICITY1_NOT_SPIN2" in directive["current_evidence_boundary"]
 assert "N2_LOCAL_GREEN_FLUX_LIVE" in directive["current_evidence_boundary"]
 assert "I2B_GAUSS_PROJECTED_COMPONENT_EXACT" in directive["current_evidence_boundary"]
 assert "FULL_RESIDUAL_LEAKAGE_LIVE" in directive["current_evidence_boundary"]
-assert "FULL_1274_BY_100_RESIDUAL_TARGET_PRIMARY" in directive["current_evidence_boundary"]
+assert "FULL_1274_BY_100_RESIDUAL_TARGET_COMPLETE" in directive["current_evidence_boundary"]
 assert "FULL_CL2_TARGET_1274_BY_100_RANK100_NNZ640" in directive["current_full_cl2_evidence"]
-assert "MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2" in directive["current_full_cl2_evidence"]
-assert "MASSIVE_SO3_TYPE_OPEN" in directive["current_full_cl2_evidence"]
-assert "COMPLETE_SCALAR_VECTOR_CONSTRAINT_QUOTIENT_OPEN" in directive["current_full_cl2_evidence"]
+assert "MASSLESS_HELICITY2" in directive["current_full_cl2_evidence"]
+assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in directive["current_full_cl2_evidence"]
+assert "SPIN0_POLYNOMIAL_OPEN" in directive["current_full_cl2_evidence"]
 assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in directive["latest_build_evidence"]
@@ -220,10 +219,10 @@ assert "GAUSS_PROJECTED_INERTIA54_46" in directive["latest_build_evidence"]
 assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in directive["latest_build_evidence"]
 assert "I2B_GAUSS_WRONG_TYPE" in directive["latest_build_evidence"]
 assert "TT_MASS2_1922_OVER3589" in directive["latest_build_evidence"]
-assert "MASSLESS_HELICITY2_AND_MASSIVE_AXIAL_WEIGHT2" in directive["latest_build_evidence"]
-assert "MASSIVE_SO3_TYPE_OPEN" in directive["latest_build_evidence"]
+assert "MASSLESS_HELICITY2" in directive["latest_build_evidence"]
+assert "MASSIVE_SO3_SPIN2_DIM5_CASIMIR_MINUS6" in directive["latest_build_evidence"]
 assert "TT_PREBOUNDARY_NONZERO" in directive["latest_build_evidence"]
-assert "COMPLETE_SCALAR_VECTOR_CONSTRAINT_QUOTIENT_OPEN" in directive["latest_build_evidence"]
+assert "BACKGROUND_SUBTRACTED_OFF_TT_SPIN0_AND_MASSLESS_CONSTRAINT_COMPLEX_OPEN" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -263,4 +262,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.40 ledger preserve predecessor theorems, retain the N2 helicity-one kill, derive the selected TT massless-helicity-two/massive-axial-weight-two Euler/preboundary subquotient, and route the massive-SO3 plus complete constraint quotient without residue or quotient promotion")
+print("PASS: functional channels and v0.41 ledger preserve predecessor theorems, retain the N2 helicity-one kill, close the massive SO(3) orbit to an exact five-state spin-two carrier, and route the independent spin-zero polynomial plus massless constraint complex without residue or quotient promotion")

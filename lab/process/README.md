@@ -42,13 +42,20 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-massive-so3-closure-identifiability.json` - exact
+  five-dimensional massive spin-two `SO(3)` closure, independent spin-zero
+  complement and TT-to-scalar identifiability boundary; the off-TT action,
+  massless constraints and domain remain open.
+- `conditional-physics-ledger-v0.41.json` - current append-only conditional
+  physics ledger after the massive little-group closure gate.
+
 - `selected-second-layer-tt-euler-preboundary-helicity.json` - exact
   zero-fermion selected-I2B TT Euler polynomial, fourth-order preboundary
   current, massless helicity-two quotient, massive axial-weight-two TT plane
   and opposite local pole Green signs; the massive full `SO(3)` type,
   complete constrained spectrum and global domain remain open.
-- `conditional-physics-ledger-v0.40.json` - current append-only conditional
-  physics ledger after the selected second-layer TT carrier gate.
+- `conditional-physics-ledger-v0.40.json` - immutable predecessor after the
+  selected second-layer TT carrier gate.
 
 - `agent-context-pack.md` - one-read current rules, forks, anchors, functional-channel contract pointer and active scientific directives for GU agents.
 

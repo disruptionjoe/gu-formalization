@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.40.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.40.md`.
+`lab/process/conditional-physics-ledger-v0.41.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.41.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -76,13 +76,18 @@ return typed the spinor Euler equations as a separate direct summand on the
 zero-fermion stationary branch, rather than as missing bosonic Clifford
 grades. On that branch the exact selected coefficients give
 `(14356/13689) box(box+1922/3589)` on TT modes. The ordinary diffeomorphism
-quotient has one massless helicity-`+/-2` pair and one massive axial
-spin-weight-`+/-2` TT plane whose full `SO(3)` type remains open; the local
-fourth-order preboundary current is nonzero and the pole Green signs are
-opposite. This is a TT subquotient only. Complete the scalar/vector/constraint
-characteristic quotient and classify any additional physical modes before a
-common global domain or odd BV/BFV; couple the nonzero-fermion Hessian only as
-a separately typed successor.
+quotient has one massless helicity-`+/-2` pair. At the massive pole, exact
+`SO(3)` closure sends the axial spin-weight-`+/-2` plane to the full
+five-dimensional spin-two irrep with Casimir `-6`. The three additional axial
+weights are mandatory partners, not optional extra fields. The independent
+spatial trace is spin zero, and the two-dimensional `SO(3)` commutant proves
+that TT fixes no coefficient on that block. The local fourth-order
+preboundary current remains nonzero and the pole Green signs remain opposite.
+Next compose the native full-`B` ambient coefficient and actual
+background-subtracted off-TT section second variation to derive the scalar
+polynomial, then build the massless constraint complex. Couple the
+nonzero-fermion Hessian only as a separately typed successor; a common domain
+and odd BV/BFV remain downstream.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -519,20 +524,22 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-COMPLETE_ZERO_FERMION_SCALAR_VECTOR_CONSTRAINT_CHARACTERISTIC_QUOTIENT__PROVE_DIFFEO_CONSTRAINT_DESCENT__CLASSIFY_MASSIVE_SO3_TYPE_AND_MODES_BEYOND_MASSLESS_HELICITY2_PLUS_MASSIVE_AXIAL_WEIGHT2_TT__THEN_COUPLE_SEPARATELY_TYPED_NONZERO_FERMION_HESSIAN__COMMON_DOMAIN_ODD_BV_BFV_ONLY_AFTER_COMPLETE_QUOTIENT
+COMPOSE_NATIVE_FULL_B_AMBIENT_COEFFICIENT_AND_BACKGROUND_SUBTRACTED_OFF_TT_SECTION_SECOND_VARIATION__DERIVE_SPIN0_POLYNOMIAL__THEN_BUILD_MASSLESS_CONSTRAINT_COMPLEX__COUPLED_NONZERO_FERMION_HESSIAN_AND_COMMON_DOMAIN_ONLY_AFTERWARD
 ```
 
-Current execution method, ratified by the v0.40 Build/Compose result:
+Current execution method, ratified by the v0.41 Build/Compose result:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
-   massive axial-weight-two plane and nonzero action preboundary current as a
-   fixed sub-block.
-2. Assemble the zero-fermion scalar/vector/constraint principal complex at
-   both TT roots and prove its diffeomorphism/constraint descent.
-3. Compute the little-group type of every surviving quotient class. Determine
-   whether the massive axial plane completes to a massive `SO(3)` spin-two
-   representation; the massive TT pole itself is intended, while additional
-   representations are possible extras.
+   massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
+   current as fixed sub-blocks.
+2. Compose the old native full-`B` ambient coefficient and background
+   subtraction into the selected action's actual off-TT metric-section second
+   variation. Use it to derive the independent spin-zero characteristic
+   polynomial; do not fit the free `SO(3)` commutant block from TT.
+3. Assemble the distinct massless diffeomorphism/constraint complex and
+   classify every surviving null-little-group quotient class. Do not recount
+   the massive axial weights `0,+/-1` as extra representations; they are
+   already forced spin-two partners.
 4. Keep the source-typed spinor Euler equations separate until the bosonic
    quotient is complete, then construct the coupled nonzero-fermion Hessian
    without erasing the TT block.
@@ -552,13 +559,13 @@ The next work has three independent owners. The first-layer gravitational
 `N2` locus is now exactly typed as a helicity-one doublet, not spin two. Its
 rank-two local principal Green flux is definite and gauge-descending, but a
 live flux does not repair wrong representation type. Do not spend a global-
-domain campaign on that superseded carrier. The gravitational Build instead
-types and computes any total-residual other-Clifford-grade support beyond the
-complete selected `Cl2` rank-100 pullback. It must then compare the complete
-quadratic carrier and, only if it survives, the cubic/Euler/helicity/
-preboundary classes with the observer full-`II` functional. Only a correctly
-typed helicity-two carrier advances
-to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity
+domain campaign on that superseded carrier. The second-layer gravitational
+Build has now closed both the massless helicity-two type and the massive
+five-state spin-two type. Its immediate owner is the one remaining
+rest-frame spin-zero polynomial, derived from the native full-`B` ambient and
+background-subtracted off-TT section variation, followed by the separate
+massless constraint complex. Only the resulting complete bosonic quotient
+advances to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity
 must derive the full moving third derivative and preboundary class on the
 mixed/massive shells, then construct regular Q1 or carry a unique nonzero
 result into physical-sheet H59 and the common BV/Green/Fock domain.

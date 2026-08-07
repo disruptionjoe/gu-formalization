@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer massive SO(3) closure (2026-08-07)
+
+`conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md`
+closes the massive axial pair to the exact five-dimensional spin-two irrep and
+isolates a separate spin-zero trace whose characteristic polynomial TT data
+cannot determine. Ledger v0.41 moves five distances/priorities and routes the
+next Build to the native background-subtracted off-TT section variation,
+followed by the massless constraint complex.
+
 ## Selected second-layer TT Euler, preboundary and helicity (2026-08-07)
 
 `conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md`

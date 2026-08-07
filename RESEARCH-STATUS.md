@@ -8,12 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-07 (ledger v0.41; five distance/priority
+migrations).** Exact rest-frame rotations close the selected massive
+axial-weight-two pair to the five-dimensional spin-two irrep with Casimir
+`-6`. Its axial weights `0,+/-1` are mandatory representation partners. The
+six-dimensional spatial metric quotient splits as spin two plus one
+independent spin-zero trace, and the exact two-dimensional commutant proves
+that the TT polynomial does not determine the scalar polynomial. The next
+Build is the native full-`B`, background-subtracted off-TT metric-section
+second variation, followed by the massless constraint complex. No verdict,
+residue, quotient, datum, canon or public-posture change follows.
+
 **Active Build/Compose update 2026-08-07 (ledger v0.40; four distance-only
 migrations).** On the exact zero-fermion selected second layer, the TT Euler
 polynomial is
 `kappa_1^2(14356/13689) box(box+1922/3589)`. The massless root carries real
 helicity `+/-2`; the massive root has an axial `SO(2)` weight-`+/-2`
-plus/cross plane, with its full `SO(3)` representation open. Their local Green signs are opposite, and
+plus/cross plane, whose full `SO(3)` representation is closed by v0.41. Their local Green signs are opposite, and
 the action-derived fourth-order preboundary current is exact and nonzero.
 This is a TT subquotient, not a complete graviton spectrum: the
 scalar/vector/constraint quotient, coupled nonzero-fermion Hessian, common

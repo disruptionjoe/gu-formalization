@@ -9,21 +9,41 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT SECOND-LAYER TT FENCE.** On the zero-fermion pure-Gauss branch,
+> **CURRENT MASSIVE SO(3) CLOSURE FENCE.** The selected massive axial
+> weight-`+/-2` plus/cross plane closes exactly under rest-frame `SO(3)` to
+> the five-dimensional spin-two irrep with Casimir `-6`. The weights
+> `0,+/-1` are forced partners, not extra fields. The sixth spatial-symmetric
+> direction is an independent spin-zero trace. The exact commutant has
+> dimension two, so TT fixes the spin-two polynomial and cannot fix the scalar
+> polynomial. Ledger v0.41; next derive that scalar from the native full-`B`,
+> background-subtracted off-TT section variation, then build the separate
+> massless constraint complex. Do not call five carrier states positive
+> physical degrees of freedom or open domain/BV/BFV work.
+
+> **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
+> massive-spin-two blocks. Compose the old native full-`B` ambient coefficient
+> and background subtraction into the selected action's actual off-TT
+> metric-section second variation. Derive the independent spin-zero
+> characteristic polynomial without fitting. Only then build and descend the
+> massless constraint complex. Coupled nonzero-fermion, common-domain and odd
+> BV/BFV work remain ordered successors. Mandatory pre/post lenses remain
+> differential geometry, representation theory, variational PDE, symplectic
+> geometry, Krein/operator theory and source criticism.
+
+> **PREDECESSOR SECOND-LAYER TT FENCE.** On the zero-fermion pure-Gauss branch,
 > the complete selected `Cl2` coefficients give the exact TT polynomial
 > `(14356/13689) box (box+1922/3589)`. The ordinary diffeomorphism quotient
 > contains a massless real helicity-`+/-2` pair and a massive axial
-> spin-weight-`+/-2` TT plane whose full `SO(3)` type is open; the local
+> spin-weight-`+/-2` TT plane whose full `SO(3)` type was then open; the local
 > fourth-order preboundary current is nonzero, and the two pole Green signs
 > are opposite. This is a TT subquotient, not the complete physical spectrum,
 > positive energy, Einstein recovery or a common domain. Complete the
-> scalar/vector/constraint characteristic complex and classify any additional
-> physical modes before global Krein/domain or odd BV/BFV work. Keep the
+> off-TT scalar and massless constraint blocks before global Krein/domain or odd BV/BFV work. Keep the
 > coupled nonzero-fermion Hessian separate. Ledger v0.40;
 > `SOURCE-CONFIRMS` the norm-square architecture and is `SOURCE-SILENT` on
 > the TT owner map.
 
-> **CURRENT NEXT-RUN METHOD.** Construct the complete zero-fermion bosonic
+> **SUPERSEDED NEXT-RUN METHOD.** Construct the complete zero-fermion bosonic
 > scalar/vector/constraint symbol complex around both intended TT poles.
 > Prove diffeomorphism and constraint descent, compute the little-group type
 > of every surviving quotient class, and classify only modes beyond the
