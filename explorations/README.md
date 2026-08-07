@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer transverse-117 residual-zero owner class (2026-08-07)
+
+`conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md`
+proves that every moving local connection-curvature principal symbol remains
+q-exact and that moving Shiab/frame terms vanish at the current zero residual.
+A nonzero-background plant revives the latter term. Ledger v0.52 retypes the
+next Build to the actual raw-`Upsilon` normal jet or a source-owned nonzero
+background; no verdict, residue, quotient, datum or posture moves.
+
 ## Selected second-layer translation-curvature principal owner (2026-08-07)
 
 `conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md`

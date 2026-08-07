@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/conditional_physics_ledger_v052_probe.py` freezes verdicts,
+  residue and quotients while migrating exactly five row distances to the
+  residual-zero owner-class retype.
+- `channel-swings/selected_second_layer_transverse117_residual_zero_owner_class_probe.py`
+  proves the whole connection-curvature principal class remains q-exact,
+  checks moving-operator vanishing at zero residual and plants a live nonzero-
+  background control.
+
 - `channel-swings/conditional_physics_ledger_v051_probe.py` freezes all
   verdicts and residue while migrating exactly five row distances to the
   fixed-B partial-owner result.

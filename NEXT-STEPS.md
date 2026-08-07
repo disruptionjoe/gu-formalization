@@ -7,6 +7,20 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
+> **2026-08-07 TRANSVERSE-117 RESIDUAL-ZERO OWNER RETYPE (ledger v0.52).**
+> [`explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md`](explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md)
+> proves that every moving local connection-curvature principal symbol remains
+> q-exact and cannot own the transverse 117. Moving Shiab/frame terms vanish
+> at `Upsilon_0=0`; a nonzero-background plant revives them. Source epsilon is
+> not silently identified with the missing diffeomorphism soldering datum.
+
+> **NEXT RUN: ACTUAL RAW-UPSILON NORMAL JET OR NONZERO BACKGROUND.** Construct
+> the ambient raw-`Upsilon` normal first jet on the four graph columns, or
+> supply a source-owned nonzero stationary background and compute `(DS)F_0`.
+> Another connection-coefficient search is forbidden at the current zero
+> background. Then build the null screen and total naturality. Symplectic
+> review remains mandatory.
+
 > **2026-08-07 FIXED-B TRANSLATION-CURVATURE PARTIAL OWNER (ledger v0.51).**
 > [`explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md)
 > proves that the source-written fixed-reference `D_B T` principal symbol owns

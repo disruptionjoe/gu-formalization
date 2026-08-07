@@ -1849,3 +1849,13 @@ support `117` exclusion, rank-four owned and transverse families, mandatory
 symplectic review and current-ledger/contract wiring. It routes the next Build
 to the moving gauge-rotated Levi-Civita/epsilon/soldering response and forbids
 Euler, BV/BFV, quotient, datum, canon or posture inflation.
+
+## Transverse-117 residual-zero owner class and ledger v0.52 gate
+
+`selected_second_layer_transverse117_residual_zero_owner_class_scope_audit.py`
+requires the universal q-exact connection-curvature symbol, support-117
+disjointness, zero-background moving-operator product rule, live nonzero-
+background control, source epsilon/soldering Layer-0 fence, mandatory
+symplectic review and v0.52 ledger/contract wiring. It routes the next Build
+to raw-`Upsilon` normal jet or a source-owned nonzero stationary background
+and forbids full-action, Euler, BV/BFV, datum, canon or posture inflation.

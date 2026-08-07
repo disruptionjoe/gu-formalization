@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose correction 2026-08-07 (ledger v0.52; five distance-
+only migrations).** Every local connection-curvature principal response is
+`q wedge delta A`, so the moving Levi-Civita/epsilon/connection class cannot
+own the 117 transverse coefficients. At the current `Upsilon_0=0` quadratic
+background, moving Shiab/frame/Hodge terms also vanish; an exact nonzero-
+background control revives them. The next Build is the actual ambient raw-
+`Upsilon` normal first jet on four graph columns or a source-owned nonzero
+stationary background. No verdict, residue, quotient, datum, canon or public-
+posture change follows.
+
 **Current Build/Compose result 2026-08-07 (ledger v0.51; five distance-only
 migrations).** The source-written fixed-reference translation-curvature
 symbol `q wedge delta T` owns exactly the 28 q-containing coefficients of the

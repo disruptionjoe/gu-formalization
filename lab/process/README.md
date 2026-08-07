@@ -42,8 +42,14 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.51.json` - current append-only conditional
-  physics ledger after exact fixed-B translation-curvature partial ownership.
+- `conditional-physics-ledger-v0.52.json` - current append-only conditional
+  physics ledger after the residual-zero transverse owner-class retype.
+- `selected-second-layer-transverse117-residual-zero-owner-class.json` - kills
+  the moving connection/operator class for transverse support 117 at the
+  current zero background and routes to raw-Upsilon normal jet or nonzero
+  stationary background.
+- `conditional-physics-ledger-v0.51.json` - immutable predecessor after exact
+  fixed-B translation-curvature partial ownership.
 - `selected-second-layer-translation-curvature-principal-owner.json` - proves
   `D_B T` owns support 28, leaves transverse support 117 to the moving
   reference/epsilon/soldering response, and fences all Euler/BV/BFV inflation.

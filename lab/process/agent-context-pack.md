@@ -9,14 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT TRANSLATION-CURVATURE PARTIAL-OWNER FENCE.** At fixed reference
-> `B`, the source-written `D_B T` principal symbol `q wedge delta T` owns all
-> 28 q-containing coefficients of the exact selected odd packet and none of
-> the 117 transverse coefficients. `T wedge T` cannot enlarge the odd first-
-> order image. Ledger v0.51; next construct the moving gauge-rotated Levi-
-> Civita, epsilon or soldering response for the transverse 117, then the null
-> screen and total Bianchi/raw-`Upsilon` naturality. Partial owner is not full
-> Euler, presymplectic, quotient or physical closure.
+> **CURRENT TRANSVERSE-117 OWNER-CLASS FENCE.** Fixed-`B` `D_B T` owns the 28
+> q-exact coefficients. Every moving local connection-curvature principal
+> response remains `q wedge delta A` and cannot reach the transverse 117. At
+> the current `Upsilon_0=0` quadratic background, moving Shiab/frame/Hodge
+> terms also vanish as `(D S)Upsilon_0`; a nonzero-background plant revives
+> them. Source epsilon is a gauge-orbit variable, not automatically the repo's
+> diffeomorphism soldering datum. Ledger v0.52; next construct the actual raw-
+> `Upsilon` ambient normal first jet on the four graph columns, or a source-
+> owned nonzero stationary background, before null screen and total
+> naturality. This is not a full action, Euler, BV/BFV or domain kill.
 
 > **CURRENT AC-G1 HORN FENCE AND POINTER.** `Sp(64)` defuses Nguyen's
 > original `U(128)` pincer only on the conditional `Cl(9,5)=M(64,H)` horn.

@@ -524,10 +524,10 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-CONSTRUCT_MOVING_GAUGE_ROTATED_LEVI_CIVITA_EPSILON_SOLDERING_RESPONSE_FOR_TRANSVERSE_117__COMBINE_WITH_FIXED_B_DB_T_SUPPORT28__THEN_NULL_SCREEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY
+CONSTRUCT_ACTUAL_RAW_UPSILON_NORMAL_JET_OR_SOURCE_OWNED_NONZERO_BACKGROUND__CONNECTION_SEARCH_FOR_TRANSVERSE117_FORBIDDEN_AT_CURRENT_ZERO_BACKGROUND__THEN_NULL_SCREEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY
 ```
 
-Current execution method, advanced by the v0.51 fixed-B translation-curvature partial-owner theorem:
+Current execution method, advanced by the v0.52 residual-zero owner-class theorem:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
@@ -549,10 +549,16 @@ Current execution method, advanced by the v0.51 fixed-B translation-curvature pa
    moving covector is also insufficient: contraction by non-null `q` has rank
    thirteen and cannot supply the seven-component packet along `q`.
 5. Preserve fixed-`B` `D_B T` as the exact owner of all 28 q-wedge
-   coefficients and not of the complete 145-coefficient packet. Construct the
-   moving gauge-rotated Levi-Civita, epsilon or soldering principal response
-   for the independent 117 transverse coefficients; `T wedge T` is algebraic
-   and cannot enlarge the odd first-order symbol. Separately construct a null
+   coefficients and not of the complete 145-coefficient packet. Every local
+   moving connection-curvature principal response remains `q wedge delta A`,
+   so it cannot own the independent 117 transverse coefficients. At the
+   current residual-zero quadratic background, moving Shiab/frame/Hodge terms
+   multiply `Upsilon_0` and vanish. Source epsilon is a gauge-orbit variable,
+   not automatically the missing diffeomorphism soldering datum. Construct
+   the actual ambient raw-`Upsilon` normal first jet on the four graph columns,
+   or first supply a source-owned nonzero stationary background on which
+   `(D Shiab) Upsilon_0` can live. `T wedge T` remains algebraic and cannot
+   enlarge the odd first-order symbol. Separately construct a null
    characteristic screen/gauge
    quotient; the non-null normalization may not be continued through
    `q^2=0`. Then assemble moving Hodge/Shiab and graph terms and test total
