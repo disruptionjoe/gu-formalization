@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET",
+  "status": "CONDITIONAL_ACTIVE_MIXED_SHIAB_OPERATOR_JET_CLOSED__DISTINCT_I2B_SECOND_PRIMALIZER_OPEN",
+  "run_id": "RUN-20260804-052005-gu-formalization-pw2fr2b2b2h-mixed-shiab-second-jet",
+  "verdict_scope": "exact sparse (1,r,s,rs) trace/Phi/Hodge/Shiab operator jet on one independent off-diagonal conditional active nonlinear-Zorro owner/conormal pair, with r/s swap control",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "the pinned manuscript source fixes the I1 transgression grammar and one-half/one-third coefficients",
+    "REPOSITORY-DERIVES": "moving Clifford generators, Phi1/Phi2, inverse-metric exterior action, density/Hodge jet, normalized-trace insertion, and projected mixed Shiab response",
+    "SOURCE-SILENT": "the active (9,5) mixed operator jet, distinct I2B residual-primalizer/pairing second jet, complete coefficient banks, active kappa1, Green/domain, and physics"
+  },
+  "layer0": {
+    "geometric_trace_vs_Clifford_generator_vs_Shiab_insertion": "THREE_EXPLICITLY_COMPOSED_TYPED_OBJECTS",
+    "inverse_metric_exterior_action_vs_density": "BOTH_PRESENT_EXACTLY_ONCE_IN_HODGE",
+    "operator_jet_vs_I1_A4_vs_I2B_C4": "THREE_DISTINCT_LEVELS",
+    "source_I1_vs_manuscript_I2B": "DISTINCT_ACTIONS",
+    "active_9_5_vs_source_7_7": "UNPORTED_REAL_FORM_ACTION_PAIRING_FORK"
+  },
+  "operator_jet": {
+    "moving_Clifford_relations": "196_OF_196_PAIRS_PASS_THROUGH_RS",
+    "Phi_base_recovery": "PHI1_AND_PHI2_PASS",
+    "Phi2_scalar_contamination": "ZERO_THROUGH_RS",
+    "first_Hodge_slots": "2_OF_2_MATCH_ACCEPTED_DSTAR",
+    "Hodge_square": "SIGN_MINUS_ONE_THROUGH_RS",
+    "first_Shiab_slots": "BASE_PLUS_2_OF_2_MATCH_ACCEPTED_CONSTRUCTORS",
+    "mixed_Shiab_coordinates": 515,
+    "first_coordinate_counts": [93, 194],
+    "owner_conormal_swap": "FIRST_SLOTS_EXCHANGE_AND_RS_IS_INVARIANT",
+    "curvature_linearity": "ALL_FOUR_JET_SLOTS_PASS"
+  },
+  "planted_controls": {
+    "frozen_normalized_trace": "CHANGES_MIXED_SHIAB",
+    "omitted_distinct_slot_Hodge_cross": "CHANGES_MIXED_SHIAB",
+    "operator_to_complete_bank_promotion": "REJECTED",
+    "operator_to_Green_or_physics_promotion": "REJECTED"
+  },
+  "admission": {
+    "mixed_trace_Phi_Hodge_Shiab_operator_jet": "CLOSED_ON_SCOPED_CONDITIONAL_ACTIVE_PAIR",
+    "complete_I1_A4": "NOT_ASSEMBLED",
+    "distinct_I2B_second_primalizer_pairing": "OPEN",
+    "distinct_I2B_C4": "BLOCKED_ON_COMPLETE_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET",
+    "multiindex_Green_Helmholtz": "BLOCKED_DOWNSTREAM_OF_COMPLETE_COEFFICIENT_BANKS",
+    "projective_kappa1": "NOT_RUN"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2h_mixed_shiab_second_jet_probe.py",
+    "exploration": "explorations/pw2fr2b2b2h-mixed-shiab-second-jet-2026-08-04.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-04-pw2fr2b2b2h-review.md",
+    "main": "8_EXACT_PLUS_2_SOURCE_PLUS_12_TYPE_PLUS_4_PLANTED_EQUALS_26_PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS"
+}

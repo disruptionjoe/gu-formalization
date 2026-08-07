@@ -1,0 +1,142 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B1-VARIABLE-COEFFICIENT-RIGHT-H-NAIVE-H1-CLOSEDNESS",
+  "status_boundary": "DECISIVE_ECW3D_B1_NAIVE_SPACETIME_H1_CLOSEDNESS_KILLED__ENERGY_MAXIMAL_DISSIPATIVE_AND_NONLINEAR_CONSTRAINT_DOMAINS_OPEN",
+  "construction": {
+    "track": "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK",
+    "carrier": "actual W131 gamma-traceless vector-spinor carrier ker Gamma from ECW3D-A",
+    "operator": "P_RS gamma(e_a) nabla_ea P_RS on the frozen Lorentz slab",
+    "subprincipal": "the induced Levi-Civita vector-plus-spin connection B_a(y), smooth and bounded on the stationary spatial slab",
+    "hilbert_space": "L2(M, ker Gamma) with a fixed smooth positive density",
+    "predecessor": "lab/process/eric-curt-wave3d-section-green-domain.json"
+  },
+  "geometry": {
+    "manifold": "R_t x S1_x x [0,1]_y x S1_z",
+    "section_tangent_frame": {
+      "y": 0,
+      "x": 1,
+      "z": 2,
+      "t": 9
+    },
+    "signature": [3, 1],
+    "tetrad": [
+      "e_t=a(y) partial_t",
+      "e_x=a(y) partial_x",
+      "e_y=partial_y",
+      "e_z=partial_z"
+    ],
+    "coefficient": "a(y)=1+(1/4)cos(2 pi y)",
+    "coefficient_bounds": [0.75, 1.25],
+    "metric": "a(y)^(-2)(-dt^2+dx^2)+dy^2+dz^2",
+    "global_section_status": "NOT_PROVED__ONE_EXPLICIT_ADMITTED_SECTION_MODEL_ONLY"
+  },
+  "domain": {
+    "name": "D_H1_PLUS",
+    "definition": "H1(M,ker Gamma) fields whose two boundary traces lie in the outward-normal positive Green spectral sector",
+    "boundary_polarization": "IMPOSED_POSITIVE_GREEN_SPECTRAL_SECTOR_FROM_ECW3D_A",
+    "selection_grade": "EXPLICIT_ADDITIONAL_ANALYTIC_DATA__NOT_NATIVELY_SELECTED",
+    "right_h_status": "INVARIANT_BY_ECW3D_A_GREEN_SECTOR_AND_REAL_METRIC_CONNECTION_COEFFICIENTS"
+  },
+  "layer_0_dictionary": [
+    {
+      "shared_term": "closed domain",
+      "objects_kept_separate": [
+        "closed unbounded operator from isotropic spacetime H1 to L2",
+        "well-posed time-slice energy evolution or maximal-dissipative generator"
+      ],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "selected boundary polarization",
+      "objects_kept_separate": [
+        "one imposed positive Green trace sector",
+        "a polarization forced by the GU source action or native geometry"
+      ],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "constraint preservation",
+      "objects_kept_separate": [
+        "pointwise ker-Gamma and right-H preservation by the principal/connection packet",
+        "nonlinear Euler constraint propagation in an analytic evolution space"
+      ],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "variable-coefficient section",
+      "objects_kept_separate": [
+        "one explicit smooth Lorentz/spin slab model",
+        "existence and control of a global Lorentz/spin section on arbitrary X"
+      ],
+      "disposition": "HOMONYM"
+    }
+  ],
+  "countersequence": {
+    "null_covector": "dt+dx",
+    "null_vector": "q has equal x and t vector slots s=(gamma_x+gamma_t)r, so Gamma q=0 and sigma(dt+dx)q=0",
+    "partial_sums": "u_N=psi(t) sin(pi y) sum_(k=1)^N k^-1 exp(i k(t+x)) q for fixed real psi in C_c_infinity(R)",
+    "boundary_trace": "ZERO_AT_Y_0_AND_Y_1",
+    "graph_tail_series": "SUM_K_GE_1_K_MINUS_2_CONVERGES",
+    "h1_derivative_series": "SUM_K_GE_1_K2_TIMES_K_MINUS_2_EQUALS_SUM_1_DIVERGES",
+    "bounded_remainder_effect": "the time-cutoff derivative and B_a(y) are bounded multipliers and therefore use the same convergent coefficient tail"
+  },
+  "exact_results": {
+    "actual_carrier_characteristic_vector": "PASS_NONZERO_Q_IN_KER_GAMMA_AND_KERNEL_OF_SIGMA_DT_PLUS_DX",
+    "variable_coefficient_gate": "PASS_SMOOTH_NONCONSTANT_0_75_LE_A_LE_1_25_AND_NULL_CANCELLATION_SURVIVES",
+    "boundary_gate": "PASS_EVERY_PARTIAL_SUM_HAS_ZERO_TRACE_AND_SATISFIES_THE_IMPOSED_POLARIZATION",
+    "right_h_gate": "PASS_COEFFICIENT_CONNECTION_CARRIER_AND_IMPOSED_BOUNDARY_POLARIZATION",
+    "naive_h1_closedness": "KILLED_BY_CHARACTERISTIC_FOURIER_SEQUENCE",
+    "nonlinear_constraint_propagation": "OPEN_FULL_NONLINEAR_EULER_OPERATOR_AND_ENERGY_ESTIMATE_NOT_CONSTRUCTED",
+    "universal_domain_verdict": "NOT_TESTED__ENERGY_ANISOTROPIC_SELF_ADJOINT_AND_MAXIMAL_DISSIPATIVE_REALIZATIONS_REMAIN_OPEN"
+  },
+  "constraint_parameter_surplus": {
+    "constraints_checked": [
+      "actual W131 ker-Gamma membership",
+      "Lorentz-null characteristic annihilation",
+      "smooth positive nonconstant tetrad coefficient",
+      "right-H carrier and imposed boundary-sector compatibility",
+      "zero boundary trace",
+      "L2 and graph-tail summability",
+      "spacetime H1 derivative divergence"
+    ],
+    "imposed_parameters": [
+      "one admitted slab geometry",
+      "one variable coefficient a(y)",
+      "one positive Green polarization",
+      "one isotropic spacetime H1 domain"
+    ],
+    "closedness_surplus": "NEGATIVE_RESULT__THE_FROZEN_DOMAIN_FAILS_ITS_REQUIRED_CLOSEDNESS_CONSTRAINT",
+    "energy_domain_surplus": "UNCOMPUTABLE_UNTIL_A_TIME_FUNCTION_ENERGY_NORM_BOUNDARY_FLUX_AND_NONLINEAR_OPERATOR_ARE_FIXED"
+  },
+  "non_regression": {
+    "gravity": "OPEN_NO_SECTION_EINSTEIN_EQUATION_OR_STATIONARY_BACKGROUND",
+    "gauge": "W131_METRIC_CONNECTION_COMPATIBILITY_RETAINED__NO_GAUGE_QUOTIENT_ENERGY_DOMAIN",
+    "odd_matter": "NAIVE_H1_REALIZATION_KILLED__EINSTEIN_DIRAC_ENERGY_DOMAIN_OPEN",
+    "higgs_yukawa": "UNTOUCHED",
+    "quantum_domain": "BOUNDARY_POLARIZATION_IMPOSED_AND_NAIVE_H1_KILLED__MAXIMAL_DISSIPATIVE_PROPAGATOR_AND_BFV_OPEN",
+    "cosmology": "UNTOUCHED",
+    "datum_P1_P2_P3": "UNCONSUMED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "open_port": "literal real (7,7) section operator, right-structure, Green polarization, domain, and same-space discriminator",
+    "common_complexification_suffices": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b1_h1_closedness_kill_probe.py",
+    "exact_checks": 21,
+    "planted_rejections": 10,
+    "result": "31_PASS"
+  },
+  "report": "explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md",
+  "next_gate": "ECW3D-B2-ENERGY-MAXIMAL-DISSIPATIVE-CONSTRAINT-DOMAIN"
+}

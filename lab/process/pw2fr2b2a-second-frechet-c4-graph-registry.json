@@ -1,0 +1,82 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260803-040328-gu-formalization-pw2fr2b2a-moving-c4",
+  "gate": "PW2F-R2B2A-SECOND-FRECHET-PRINCIPAL-ORDER-AUDIT-AND-MOVING-C4-GRAPH",
+  "status": "PARTIAL_COMPARATOR_PASS_BLOCKS_COMPLETE_C4",
+  "columns": {
+    "source_aligned_chartwise": "OPEN: source T=varpi-epsilon^-1 d_Gamma epsilon and gauge-rotated LC/contorsion grammar are supported; exact q/Gamma tangent split, selected Shiab, epsilon-to-h map, carrier port, second graph, and C5/C4 are not supplied",
+    "active_reconstruction": "PARTIAL COMPARATOR: modern trace-reversed (9,5) arithmetic, repository right-H/Krein implementation, reconstructed B2C15P LC-horizontal connection metric, fixed Hodge-null conjugator, and synthetic test/T background"
+  },
+  "layer0": {
+    "source_coordinates": "fixed (epsilon,varpi) requires deltaT=-deltaq and deltaB_full=deltaGamma+deltaq; executable instead prices a fixed-total-connection synthetic deltaT=-Ad(h^-1)deltaB",
+    "projection_variation_fork": "vary-upstairs-then-observe is not identified with restrict-then-vary",
+    "shiab": "TOE corrects the named map to a contraction; it is not the active grade projector, while other historical source projection language remains separately typed",
+    "action_homonym": "D2(I1 composed graph), manuscript I2B residual square, and second-order equations are distinct",
+    "trace_reversal": "historical (7,7)/U(64,64), modern trace-reversed (9,5) arithmetic, and repository right-H/Krein bridge are distinct",
+    "global_section": "SOURCE-UNCERTAIN because TOE 01:18:06 and 01:19:15 disagree"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "connection-fundamental to metric-emergent architecture",
+      "moving theta/section grammar",
+      "connection-difference and tilted grammar",
+      "trace-reversed Frobenius fibre",
+      "Shiab equation-dual degree",
+      "upstairs equation followed by pullback",
+      "gauge-rotated Levi-Civita connection in the contorsion slot at TOE 02:19:17"
+    ],
+    "SOURCE_CORRECTS": [
+      "the named TOE map from projection to contraction",
+      "unique preferred Shiab to a family/bespoke choice"
+    ],
+    "SOURCE_UNCERTAIN": [
+      "global section existence"
+    ],
+    "REPOSITORY_DERIVES": [
+      "D2(I1 composed graph) is not manuscript I2B residual square"
+    ],
+    "SOURCE_SILENT": [
+      "exact q/Gamma tangent split",
+      "source epsilon equals repository h=exp(u)",
+      "theta1/Bhat2 second graph",
+      "right-H/Krein carrier bridge",
+      "complete source-coordinate C5/C4 and kappa1"
+    ],
+    "LEADING_DISPOSITION": "SOURCE-SILENT on the decisive source-coordinate second graph and C5/C4 port"
+  },
+  "partial_exact_results": {
+    "quartic_basis": "35 monomials, exact rank-35 reconstruction, 3 dense held-outs and 6/6 action/mass comparisons",
+    "fixed_total_C5": "0 on the fixed-h torsion-free LC/Zorro comparator only",
+    "moving_shiab_eight_slots": "0 contracted quartic blocks on selected synthetic test/T background; independent hostile fixture proves only the raw eight-slot map is nonzero",
+    "fixed_shiab_JHJ": "10 nonzero quartic monomial blocks",
+    "kappa_mass": "10 nonzero quartic monomial blocks",
+    "universal_kappa": "NONE on the partial comparator bank with live ANY and UNIQUE controls",
+    "owner_symmetry": "even-order symmetry by construction; no independent reverse formal-adjoint derivation",
+    "green": "one-dimensional frozen-principal live three-owner identity"
+  },
+  "blocking_debt": {
+    "source_tangent": "construct deltaq separately from deltaGamma",
+    "second_graph": "construct or annihilate delta u, theta1, d theta1, Bhat2, and E-times-D2 graph",
+    "frame": "put core, mass, moving Shiab, and background in one co-moving frame",
+    "coefficient_slots": "differentiate or exactly absorb density, Krein, two lowerers, and outer pairing",
+    "contracted_moving_liveness": "run a hostile fixture through top_scalar, owner/curvature differentiation, symmetrization, and quartic reconstruction",
+    "staged_actions": "compute source-directed I1 Hessian and manuscript I2B residual-square Hessian separately",
+    "projection_variation": "compare vary-upstairs-then-observe and restrict-then-vary"
+  },
+  "verdict_scope": {
+    "earned": "partial fixed-total-connection J*H_action*J plus eight-slot moving-Shiab quartic comparator",
+    "not_earned": "complete active or source-coordinate C5/C4; independent reverse route; characteristic; domain; BV quotient; observation equation; or physics",
+    "kappa_scope": "no single kappa cancels the partial selected-background comparator bank; no source-selected or physical-locus theorem"
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence": {
+    "main_probe": "22 exact + 16 type + 11 planted = 49 PASS",
+    "source_probe": "2 exact + 11 source + 10 type + 6 planted = 29 PASS",
+    "exact_post_review": "BLOCK_COMPLETE_C4",
+    "pde_post_review": "BLOCK_COMPLETE_C4_PARTIAL_COMPARATOR_SURVIVES",
+    "source_post_review": "PASS_AFTER_REPAIR"
+  },
+  "next_gate": "PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4"
+}

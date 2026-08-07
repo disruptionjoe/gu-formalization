@@ -1,0 +1,193 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C15-FULL-QUOTIENT-GRADED-RESIDUAL-PRIMALIZER-AND-INDUCED-LC-GRAPH",
+  "status_boundary": "ALL_SIX_BARE_QUOTIENT_OWNER_GRADES_EXECUTED_AGAINST_ALL_SEVEN_RESIDUAL_GRADES__COMPLETE_SIGNED_PERMUTATION_ORBIT_CERTIFICATE_PROVES_ASSEMBLED_QUADRATIC_GRADE_PRESERVATION_WHILE_RAW_ORDERED_OFFGRADE_TERMS_ARE_NONZERO__NAMED_POSITIVE_NONNULL_BARE_REDUCTION_K_RANK8165_AND_HESSIAN_INERTIA4114_4051_0__NAMED_NULL_BARE_REDUCTION_K_RANK4136_BUT_RRES_GRAM_IDENTICALLY_ZERO__FULL_RESIDUAL_BRES_RRES_DIM115584_INERTIA57664_57920_AND_ALL_TEN_MOVING_INVERSE_IDENTITIES_PASS__ACTUAL_TEN_OWNER_DG_GY_TO_14D_LC_GRAPH_RANK10_DIFFERS_FROM_OBSERVED4D_PROXY__ISOLATED_METRIC_K_AND_GRAM_RANK7_NAMED_NONNULL_INERTIA4_3_3_AND_RANK8_NAMED_NULL_INERTIA1_7_2__BARE_QUOTIENT_METRIC_CROSS_COMPARATOR_ZERO_BY_GRADE__REDUCTION_INDUCED_H_RETURN_R_XI_UNCONSTRUCTED_SO_NO_FULL_OWNER_BLOCK_RANK_INERTIA_RADICAL_OR_CHARACTERISTIC_CLAIM__SELECTED_SECOND_JET_TWO_TRACE_GREEN_PACKET_PASS__R_XI_RANK_STRATA_FULL_NONLINEAR_VARIATION_PREBOUNDARY_QUOTIENT_ANALYTIC_DOMAIN_AND_PHYSICS_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c14-active-y14-shiab-graph-conormal.json",
+  "layer_0": {
+    "local_lift": "u modulo right H",
+    "reduction_field": "epsilon_red=[u] in P/H",
+    "vertical_owner": "h=spin(9,5)=Lambda2 dimension 91",
+    "reduction_owner": "m=g/h with grades 3,6,7,10,11,14 dimension 8165",
+    "metric_owner": "physical Sym2(T*X) variation dimension 10 mapped through D_g G_Y",
+    "residual": "T*Y tensor g density-dual carrier dimension 115584",
+    "induced_lc": "fourteen-dimensional LC spin response of the Gimmel metric",
+    "observed_lc": "four-dimensional truncated LC proxy; a hostile comparator, not the induced graph",
+    "coefficient_kernel": "ker K",
+    "gram_radical": "radical of K^top R_res K; not automatically ker K in an indefinite target",
+    "characteristic_kernel": "kernel of the future full weighted coupled Euler symbol; not yet identified with either prior kernel"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONSTRAINED_REPOSITORY_CONSTRUCTED",
+    "source_confirms": [
+      "2021 draft section 6 supplies the Zorro metric-to-induced-Y-metric-to-distinguished-Levi-Civita/reference chain",
+      "TOE local 02:19:17-02:20:33 places gauge-rotated Levi-Civita displacement in the contorsion slot",
+      "2021 draft p.44 eq.9.4 supplies the completed F_B plus one-half d_B T plus one-third bracket action grammar",
+      "TOE local 00:20:51-00:29:16 and 01:34:49-01:36:56 supplies trace reversal and contraction-not-projection"
+    ],
+    "source_corrects": [
+      "naked torsion is replaced by displacement from a gauge-rotated LC reference",
+      "curvature-only square is incomplete relative to the written residual",
+      "the observed four-dimensional LC lift cannot stand in for the induced Y14 response"
+    ],
+    "source_silent_on": [
+      "active grade set and grade-preservation theorem",
+      "all-grade residual lowerer and inverse primalizer",
+      "Frechet D_g G_Y graph",
+      "metric coefficient kernels and Hessian inertias",
+      "reduction-induced h-valued return r_xi",
+      "all-grade moving-Shiab and formal-adjoint completion",
+      "exact-G2 Euler return on the all-grade coupled graph",
+      "source-derived tangent or BV differential",
+      "preboundary quotient and analytic domain"
+    ],
+    "unreleased_2025_two_connection_d_squared": "WATCH_ONLY_NOT_USED"
+  },
+  "active_algebra": {
+    "dimension": 8256,
+    "grades": [2, 3, 6, 7, 10, 11, 14],
+    "h_grade": 2,
+    "h_dimension": 91,
+    "quotient_grades": [3, 6, 7, 10, 11, 14],
+    "quotient_dimension": 8165,
+    "quotient_H_invariance": "EXACT_ALL_GRADES",
+    "vertical_lift_cancellation": "EXACT_ALL_91"
+  },
+  "residual_pairing": {
+    "dimension": 115584,
+    "lowerer": "b_res=rho G_Y^-1 tensor kappa",
+    "primalizer": "R_res=rho^-1 G_Y tensor kappa^-1",
+    "inertia": [57664, 57920, 0],
+    "inverse_identity": "PASS",
+    "moving_identity": "D R_res=-R_res(D b_res)R_res PASS_ON_ACTUAL_TEN_OWNER_DG_GY",
+    "positive_hilbert_riesz": false,
+    "internal_grade_inertias": {
+      "2": [45, 46],
+      "3": [190, 174],
+      "6": [1479, 1524],
+      "7": [1716, 1716],
+      "10": [491, 510],
+      "11": [174, 190],
+      "14": [1, 0]
+    }
+  },
+  "grade_support_theorem": {
+    "assembled_support": [[3, 3], [6, 6], [7, 7], [10, 10], [11, 11], [14, 14]],
+    "certificate": "three diagonal and five mixed signed-coordinate orbit representatives cover every quadratic covector monomial under the trace-line-preserving metric symmetry",
+    "raw_ordered_crossgrade_witness": "grade3_to_grade7_equals_one_half",
+    "assembled_crossgrade_value": "zero",
+    "interpretation": "off-grade terms cancel under symmetric xi_a xi_b assembly and were not projected away"
+  },
+  "reduction_coefficient": {
+    "scope": "bare fixed-Shiab graph coefficient of the compressed residual-square comparator",
+    "nonnull_representative": "named positive coordinate representative",
+    "nonnull_grade_ranks": {
+      "3": 364,
+      "6": 3003,
+      "7": 3432,
+      "10": 1001,
+      "11": 364,
+      "14": 1
+    },
+    "nonnull_total_rank": 8165,
+    "nonnull_gram_inertia": [4114, 4051, 0],
+    "null_grade_ranks": {
+      "3": 132,
+      "6": 1584,
+      "7": 1848,
+      "10": 440,
+      "11": 132,
+      "14": 0
+    },
+    "null_rank_formula": "2*binomial(12,grade-1)",
+    "null_total_rank": 4136,
+    "null_gram": "IDENTICALLY_ZERO",
+    "null_interpretation": "nonzero isotropic image; not a gauge differential or selected quotient"
+  },
+  "metric_lc_graph": {
+    "owner_dimension": 10,
+    "ambient_metric_owner_dimension_used": 10,
+    "arbitrary_sym2_ty_dimension_used": false,
+    "induced_lc_graph_rank": 10,
+    "observed_4d_proxy_rank": 9,
+    "difference_rank": 10,
+    "residual_grade_support": [2],
+    "nonnull_positive": {
+      "K_rank": 7,
+      "Gram_rank": 7,
+      "Gram_inertia": [4, 3, 3]
+    },
+    "nonnull_mixed": {
+      "K_rank": 7,
+      "Gram_rank": 7,
+      "Gram_inertia": [4, 3, 3]
+    },
+    "null_positive_negative": {
+      "K_rank": 8,
+      "Gram_rank": 8,
+      "Gram_inertia": [1, 7, 2]
+    },
+    "kernel_interpretation": "the reported metric radicals are coefficient kernels because K rank equals Gram rank on all three representatives",
+    "kernel_geometric_identity": "OPEN"
+  },
+  "bare_quotient_plus_isolated_metric_comparator": {
+    "owner_dimension": 8175,
+    "bare_quotient_metric_cross_rank": 0,
+    "bare_cross_reason": "the bare -xi tensor chi_m term lands in quotient grades while metric LC lands in grade2 and R_res is grade diagonal",
+    "missing_reduction_return": "r_xi(chi_m) in T*Y tensor h",
+    "why_missing_return_matters": "C_xi r_xi and C_xi Omega_metric can both land in residual grade2, changing the reduction Gram, cross block, total inertia, and radicals",
+    "direct_sum_arithmetic_not_promoted": "the bare quotient plus isolated metric blocks can be added only after r_xi is proved zero or orthogonal",
+    "nonnull_rank_stratum_scope": "named positive coordinate representative only; trace-line stabilizer has independent q(xi) and trace-component orbit data",
+    "full_coupled_euler_characteristic_claim": "OPEN"
+  },
+  "preboundary": {
+    "selected_principal_subchannel": "SECOND_ORDER",
+    "complete_scalarized_second_jet_variation": "PASS",
+    "highest_jet_momentum": "NONZERO",
+    "two_trace_green_endpoint": "NONZERO_WITH_EXACT_SIGN",
+    "coefficient_anchor": "exact reduction witness 3/4",
+    "endpoint_value": "-3075/8",
+    "scope": "principal residual-square subchannel only",
+    "full_nonlinear_active_preboundary": "OPEN",
+    "selected_domain": "OPEN",
+    "physical_bfv_quotient": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNCHANGED",
+    "P2": "UNCHANGED",
+    "P3": "UNCHANGED",
+    "used_for_grade_graph_primalizer_kernel_characteristic_preboundary_or_domain": false,
+    "current_type_boundary": "P1/P2/P3 do not type as a tangent differential or analytic boundary condition; a new declared datum could select among independently admissible domains but cannot be silently treated as a source-derived gauge identity"
+  },
+  "curt_track": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c15_full_quotient_primalizer_lc_graph_probe.py",
+    "runner": "uv run --with sympy --with numpy python",
+    "exact": 44,
+    "source_receipts": 3,
+    "type_level_controls": 14,
+    "planted_rejections": 13,
+    "expected_total": 74,
+    "result": "PASS_44_EXACT_PLUS_3_SOURCE_PLUS_14_TYPE_PLUS_13_PLANTED_EQUALS_74"
+  },
+  "hostile_review": {
+    "affine_cohomology": "PASS_AFTER_RETRACTING_FULL_BLOCK__SCOPING_RANKS_TO_NAMED_REPRESENTATIVES__DEFERRING_R_XI_AND_TRACE_STABILIZER_STRATA",
+    "krein_pde": "PASS_AFTER_EXACT_RATIONAL_INERTIA__ALL_TEN_MOVING_INVERSE_CHECKS__AND_WEIGHTED_EULER_QUOTIENT_BEFORE_DOMAIN",
+    "paired_axiom_source": "PASS_AFTER_SCOPING_TO_BARE_FIXED_SHIAB_COMPRESSED_COMPARATOR__DEFERRING_MOVING_SHIAB_AND_DISTINCT_EXACT_G2_EULER",
+    "unresolved_blockers": 0
+  },
+  "next_gate": "ECW3D-B2C15R-REDUCTION-H-RETURN-RANK-STRATA-AND-COUPLED-BLOCK",
+  "next_gate_objective": "choose or derive the connection/splitting of 0 to h to g to m to 0; construct the overlap-covariant r_xi:m to T*Y tensor h return and recheck all 91 lift cancellations; classify ranks by the independent q(xi) and trace-component orbit data including timelike and trace-involving null strata; add all-grade moving-Shiab/formal-adjoint terms while keeping the compressed residual and exact-G2 Euler branches distinct; recompute the genuinely coupled reduction-metric Gram, inertia, and radicals; derive or kill a source-owned tangent/BV differential and quotient the nonlinear preboundary form; then construct and gauge/constraint-quotient the weighted coupled Euler symbol including lower G2/G3 layers before any common Green-domain replay",
+  "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+}

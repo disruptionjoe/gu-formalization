@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4",
+  "status": "REBASE_BLOCKED_ON_MIXED_SHIAB_SECOND_JET_AND_COMPLETE_I2B_PRIMALIZER",
+  "run_id": "RUN-20260804-042834-gu-formalization-pw2fr2b2b2g-full-c4",
+  "verdict_scope": "exact normalized-DeWitt-trace first and mixed transport on three conditional active nonlinear-Zorro owner/conormal cases; admission blocker before full quartic interpolation",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "the pinned manuscript source fixes the I1 transgression grammar and one-half/one-third coefficients",
+    "REPOSITORY-DERIVES": "coordinate t(g)=g/2, exact full-Zorro moving-coframe transport, first-order moving-Phi agreement, live horizontal correction, preserved norm jet, and live mixed trace slots",
+    "SOURCE-SILENT": "the active mixed trace/Phi/Hodge/Shiab jet, complete residual primalizer jet, active kappa1 normalization, full coefficient banks, Green/domain, and physics"
+  },
+  "layer0": {
+    "geometric_trace_vs_fixed_coordinates_vs_moving_coframe": "THREE_TYPED_OBJECTS_WITH_EXPLICIT_MAPS",
+    "moving_coframe_trace_vs_Clifford_insertion": "VECTOR_TRANSPORT_THEN_SHIAB_INSERTION",
+    "pure_metric_trace_fixture_vs_full_Zorro_trace": "FULL_ZORRO_HAS_LIVE_HORIZONTAL_SPLIT_CORRECTIONS",
+    "source_I1_vs_repository_A4_vs_manuscript_I2B": "THREE_DISTINCT_OBJECTS",
+    "raw_density_vs_Euler_vs_Green_vs_Helmholtz": "FOUR_DISTINCT_LEVELS",
+    "source_7_7_vs_active_9_5": "UNPORTED_REAL_FORM_ACTION_PAIRING_FORK"
+  },
+  "trace_transport": {
+    "base_vector": "negative-unit DeWitt trace blade",
+    "cases": ["trace-diagonal", "offdiagonal", "mixed"],
+    "first_slots_match_full_moving_Phi": "6_OF_6_PASS",
+    "legacy_pure_metric_slots_with_live_Zorro_correction": ["trace-diagonal:r", "trace-diagonal:s", "offdiagonal:s", "mixed:r", "mixed:s"],
+    "norm_jet": ["-1", "0", "0", "0"],
+    "mixed_trace_live": ["trace-diagonal", "offdiagonal", "mixed"],
+    "mixed_coframe_metricity": "3_OF_3_PASS"
+  },
+  "admission": {
+    "moving_Shiab_api": "FIRST_ORDER_ONLY_CURVATURE_H_TRACE_MOTION",
+    "mixed_trace_Shiab_input": "ABSENT",
+    "full_I1_A4": "BLOCKED_ON_MIXED_SHIAB_JET",
+    "multiindex_Green_Helmholtz": "BLOCKED_DOWNSTREAM_OF_COMPLETE_COEFFICIENT_BANK",
+    "distinct_I2B_C4": "BLOCKED_ON_COMPLETE_SECOND_RESIDUAL_PRIMALIZER_PAIRING_JET",
+    "projective_kappa1": "NOT_RUN",
+    "arbitrary_symmetric_completion": "FORBIDDEN"
+  },
+  "predecessor_preserved": {
+    "status": "CONDITIONAL_ACTIVE_COFRAME_FROZEN_SHIAB_RAW_DENSITY_NONE__EULER_OPEN",
+    "panel": [["3/40", "-8/25"], ["-9/50", "0"]],
+    "rank": 2
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2g_full_a4_multiindex_green_distinct_i2b_c4_probe.py",
+    "exploration": "explorations/pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-2026-08-03.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-03-pw2fr2b2b2g-review.md",
+    "main": "19_EXACT_PLUS_2_SOURCE_PLUS_14_TYPE_PLUS_4_PLANTED_EQUALS_39_PASS",
+    "predecessor": "12_EXACT_PLUS_2_SOURCE_PLUS_17_TYPE_PLUS_6_PLANTED_EQUALS_37_PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET-THEN-FULL-A4-I2B-C4"
+}

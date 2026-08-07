@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "swing_id": "ECW3A-OBSERVATION-DUAL-LEAKAGE",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "branch": "agent/weinstein-guided-source-action",
+  "status": "COMPLETE_DECISIVE_FINITE_GATE__FULL_WAVE3_OPEN",
+  "controlling_question": "Can field lift/retract, equation dual, and Krein-Riesz adjoint be typed separately, and can an observed four-dimensional equation be correct while the ambient dynamics leaks out of the observation image?",
+  "pre_registered_expected_verdict": "YES_TO_TYPED_SEPARATION__OBSERVED_EQUATION_INSUFFICIENT_WITHOUT_ZERO_LEAKAGE",
+  "layer0": [
+    {
+      "term": "observation section",
+      "disposition": "HOMONYM",
+      "objects": ["pullback/restriction of ambient fields and equations Y->X", "defect pushforward or delta-supported action X->Y"]
+    },
+    {
+      "term": "dual map",
+      "disposition": "HOMONYM",
+      "objects": ["field retract R", "algebraic equation dual L^vee", "pairing-dependent Krein-Riesz adjoint L^!"]
+    },
+    {
+      "term": "Riesz map",
+      "disposition": "HOMONYM",
+      "objects": ["native indefinite pseudo-musical on the active (9,5) carrier", "positive Hilbert Riesz map"]
+    },
+    {
+      "term": "recovered equation",
+      "disposition": "HOMONYM",
+      "objects": ["correct observed equation R E_Y L=E_X", "preserved physical domain (1-LR)E_YL=0"]
+    }
+  ],
+  "map_contract": {
+    "field_lift": "L:F_X->F_Y",
+    "field_retract": "R:F_Y->F_X with R L=1_X",
+    "image_projector": "P=L R; P^2=P but P need not be 1_Y",
+    "equation_dual": "L^vee:E_Y^*->E_X^* from the algebraic pairing",
+    "riesz_adjoint": "L^!=sharp_X composed with L^vee composed with flat_Y after both real pairings and domains are fixed",
+    "observed_equation": "R_E E_Y L=E_X or, at finite field/equation identification, R E_Y L=E_X",
+    "no_leakage": "(1-LR)E_YL=0",
+    "nonlinear_requirement": "the no-leakage identity must hold for the full Euler map, not only its linearized symbol"
+  },
+  "finite_model": {
+    "arithmetic": "exact rational",
+    "ambient_dimension": 14,
+    "observed_dimension": 4,
+    "ambient_real_signature": [9, 5],
+    "observed_real_signature": [3, 1],
+    "field_retract_policy": "declared non-orthogonal left inverse",
+    "paired_operator_witness": "one image-preserving and one kernel-leaking ambient operator with the same induced D_X",
+    "paired_nonlinear_witness": "one image-preserving and one kernel-leaking quadratic Euler map with the same induced E_X"
+  },
+  "verdict": {
+    "field_retract_left_inverse": "PASS",
+    "equation_dual_typing": "PASS",
+    "krein_riesz_adjoint_typing": "PASS_ON_FROZEN_ACTIVE_REAL_FINITE_MODEL",
+    "induced_equation_sufficiency": "KILLED_BY_PAIRED_OPERATOR_WITNESS",
+    "linear_no_leakage_independence": "PROVED_EXACT_FINITE",
+    "nonlinear_no_leakage_independence": "PROVED_EXACT_FINITE",
+    "actual_y14_observation_functor": "OPEN",
+    "actual_closed_krein_domain": "OPEN",
+    "actual_preboundary_quotient": "OPEN"
+  },
+  "branch_ledger": [
+    {
+      "id": "R95_ACTIVE",
+      "track": "ERIC_GUIDED_ACTIVE_REAL_CARRIER",
+      "status": "EXACT_FINITE_GATE_ONLY__GLOBAL_Y14_OPEN",
+      "owned_data": ["real signature (9,5)", "native Krein pseudo-musical", "right-H carrier", "G2/G3 Euler and preboundary packet"]
+    },
+    {
+      "id": "R77_VERTICAL_FLIP",
+      "track": "CURT_CANDIDATE_SOURCE_PREFERRED_RIVAL",
+      "status": "PORT_REQUIRED_FOR_PAIRING_ADJOINT_DOMAIN_AND_DYNAMICS",
+      "owned_data": ["literal real signature (7,7) candidate", "split Spin(7,7) motivation", "separately tagged observation/deformation-complex checklist"]
+    },
+    {
+      "id": "C14_COMMON",
+      "track": "COMMON_COMPLEX_CONTAINER",
+      "status": "INSUFFICIENT_TO_SELECT_REAL_KREIN_ADJOINT_OR_DOMAIN",
+      "owned_data": ["complex algebra M(128,C) only"]
+    }
+  ],
+  "third_lane_promotion_gate": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_CURT_SPECIFIC_COMPLETE_ACTION_VARIATION_GAUGE_OBSERVATION_PACKET",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_NO_REFIT_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "wave_disposition": {
+    "campaign_status": "READY_AFTER_WAVE2_FROZEN_CLASS_EXIT",
+    "scientific_status": "PARTIAL_ECW3A_TYPED_DUAL_AND_LEAKAGE_GATE_COMPLETE__GLOBAL_DOMAIN_QUOTIENT_OPEN",
+    "earned": ["typed map separation", "exact real-signature adjoint control", "linear leakage discriminator", "nonlinear leakage discriminator"],
+    "not_earned": ["global section descent", "actual Y14 dynamics preservation", "closed Krein domain", "admissible polarization", "preboundary-kernel quotient"],
+    "next_gate": "ECW3B-GLOBAL-DESCENT-DOMAIN-QUOTIENT"
+  },
+  "exact_probe": {
+    "path": "tests/channel-swings/eric_curt_wave3a_observation_dual_leakage_probe.py",
+    "expected_exact_checks": 34,
+    "expected_planted_failures": 11
+  },
+  "report": "explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md",
+  "nonclaims": [
+    "No actual global observation section or physical-domain functor is constructed.",
+    "No field equation, Standard Model sector, stationary state, index, count, or cosmology is recovered.",
+    "No Curt-specific action or discriminator is completed.",
+    "No carrier or third lane is selected or promoted."
+  ]
+}

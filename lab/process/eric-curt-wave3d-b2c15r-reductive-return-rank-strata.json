@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C15R-NATIVE-REDUCTIVE-RETURN-AND-TRACE-STRATIFIED-FIXED-SHIAB-BLOCK",
+  "status_boundary": "NATIVE_GAUGE_ROTATED_LC_AND_A0_REDUCTIVE_CONNECTION_PRINCIPAL_RETURN_R_XI_ZERO__ALL_91_LIFTS_CANCEL__H_M_INVARIANT_AND_HOM_H_M_H_ZERO__A0_ALGEBRAIC_PR_H_BETA_CHI_LIVE_BUT_SUBPRINCIPAL__EXACTLY_TWO_OPTIONAL_FULL_SPIN_FIRST_ORDER_CHANNELS_FROM_GRADES10_AND14_WITH_TWO_NEW_COEFFICIENTS__TRACE_STABILIZER_ONLY_FAMILY_DIM25__NATIVE_FIXED_SHIAB_POSITIVE_DIRECT_SUM_K_RANK8172_GRAM_INERTIA4118_4054_3__ORTHOGONAL_NULL_DIRECT_SUM_K_RANK4144_GRAM_INERTIA1_7_8167__NAMED_TRACE_STRATIFIED_QUOTIENT_RANKS_4136_6097_8164_8165_DISTINCT__POLYNOMIAL_STRATA_MOVING_SHIAB_EXACT_G2_LOWER_FILTERED_ADJOINT_BV_QUOTIENT_AND_DOMAIN_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c15-full-quotient-primalizer-lc-graph.json",
+  "layer_0": {
+    "local_lift": "u_i with u_i=u_j h_ij",
+    "reduction_field": "epsilon_red=[u] in finite P/H Clifford-plane orbit",
+    "vertical_compensator": "lambda_h=pr_h(u^-1 delta u), gauge-dependent and canceled by co-moving LC",
+    "canonical_reductive_connection": "pr_h(u^-1 du), inhomogeneous overlap law",
+    "native_principal_symbol": "tensorial homogeneous overlap law on m",
+    "a0_algebraic_return": "pr_h[beta_m,chi_m], order zero",
+    "optional_principal_return": "separate H-natural map V* tensor m to V* tensor h",
+    "metric_lc_response": "Omega_xi(D_g G_Y[h_X]) from ten physical Sym2(T*X) owners",
+    "source_epsilon": "not identified with repository epsilon_red or epsilon_IG",
+    "external_data": "P1/P2, P3 have no local connection-symbol type"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONSTRAINED__REPOSITORY_IMPLIED__STANDARD_REDUCTIVE_CONSTRUCTION_CONFIRMS",
+    "source_confirms": [
+      "Portal/Oxford 2020 02:23:30-02:23:52 gives metric X to LC X to metric Y to LC/spin Y chain",
+      "TOE local 02:19:17-02:20:33 gives gauge-rotated Levi-Civita displacement in the contorsion slot"
+    ],
+    "source_corrects": [
+      "draft PDF equations 6.14-6.22 are the tilted-action projection proof, not the Zorro Frechet derivative",
+      "B2C15's nonzero K block is the frozen fixed-Shiab formal-symmetric exact-variational graph subcoefficient; B2C13's compressed source graph response is zero"
+    ],
+    "source_silent_on": [
+      "finite Sp/Spin reductive splitting and principal-return theorem",
+      "two optional full-Spin first-order return channels and their coefficients",
+      "trace-stratified exact ranks and polynomial exceptional loci",
+      "moving-Shiab, exact-G2 Euler, lower filtered formal adjoint, BV quotient, and domain"
+    ],
+    "layer0_homonym": "Portal G/H_tau is the infinite-dimensional tilted inhomogeneous-gauge homogeneous space, not the finite Clifford-plane P/H orbit",
+    "unreleased_2025_two_connection_d_squared": "WATCH_ONLY_NOT_USED"
+  },
+  "native_reductive_connection": {
+    "h": "Lambda2",
+    "m_grades": [3, 6, 7, 10, 11, 14],
+    "commutator_invariance": "[h,m] subset m EXACT_COMPLETE_BASIS",
+    "casimirs": {
+      "2": 24,
+      "3": 33,
+      "6": 48,
+      "7": 49,
+      "10": 40,
+      "11": 33,
+      "14": 0
+    },
+    "Hom_H_m_h_dimension": 0,
+    "invariant_linear_splitting": "UNIQUE",
+    "vertical_lift_cancellation": "EXACT_ALL_91",
+    "nonconstant_overlap": "FINITE_JET_EXACT_PASS",
+    "native_linearization": "-D_omega chi_m + delta_g omega_LC[h_X]",
+    "A0_linearization": "-D_omega chi_m + pr_h[beta_m,chi_m]",
+    "split_principal_r_xi": "ZERO",
+    "A0_h_return_order": 0,
+    "new_local_continuous_parameters": 0
+  },
+  "optional_first_order_returns": {
+    "full_spin_dimension": 2,
+    "grade_multiplicities_for_3_6_7_10_11_14": [0, 0, 0, 1, 0, 1],
+    "grade10": {
+      "formula": "j3 star(xi_sharp wedge chi10), with j3 lowering the external leg into V*",
+      "named_positive_xi_rank": 286,
+      "executed_fixed_shiab_metric_cross_witness_nnz": 0,
+      "scope": "ONE_PROPAGATED_WITNESS_NOT_AN_ALL_GRADE10_KERNEL_THEOREM"
+    },
+    "grade14": {
+      "formula": "f(g_ab xi_c-g_ac xi_b), with lowered internal bivector indices",
+      "named_positive_xi_rank": 1,
+      "executed_fixed_shiab_metric_cross_witness_nnz": 4
+    },
+    "free_coefficients": ["c10", "c14"],
+    "trace_stabilizer_natural_dimension": 25,
+    "action_integrability_and_reciprocal_formal_adjoint": "OPEN",
+    "external_datum_supplied": false,
+    "constraint_surplus": "UNCOMPUTED__NATIVE_HAS_SMALLEST_DECLARED_LOCAL_PARAMETER_BURDEN_ZERO"
+  },
+  "named_trace_stratified_reduction_ranks": {
+    "orbit_coordinates": "q=G^-1(xi,xi), s=<xi,t>, q_perp=q+s^2 plus zero/nonzero/null component data",
+    "positive_nontrace": {
+      "q_s_qperp": [1, 0, 1],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 1],
+      "total": 8165
+    },
+    "negative_nontrace": {
+      "q_s_qperp": [-1, 0, -1],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 1],
+      "total": 8165
+    },
+    "orthogonal_null": {
+      "q_s_qperp": [0, 0, 0],
+      "grade_ranks": [132, 1584, 1848, 440, 132, 0],
+      "total": 4136
+    },
+    "pure_trace": {
+      "q_s_qperp": [-1, -1, 0],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 0],
+      "total": 8164
+    },
+    "positive_half_trace": {
+      "q_s_qperp": ["3/4", "-1/2", 1],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 1],
+      "total": 8165
+    },
+    "trace_involving_null": {
+      "q_s_qperp": [0, -1, 1],
+      "grade_ranks": [298, 2211, 2508, 781, 298, 1],
+      "total": 6097
+    },
+    "positive_double_trace": {
+      "q_s_qperp": [-3, -2, 1],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 1],
+      "total": 8165
+    },
+    "negative_plus_trace": {
+      "q_s_qperp": [-2, -1, -1],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 1],
+      "total": 8165
+    },
+    "null_perp_plus_trace": {
+      "q_s_qperp": [-1, -1, 0],
+      "grade_ranks": [364, 3003, 3432, 1001, 364, 1],
+      "total": 8165
+    },
+    "null_cone_single_stratum": false,
+    "q_s_complete_at_degenerate_qperp_zero": false,
+    "polynomial_exceptional_locus_theorem": "OPEN"
+  },
+  "native_fixed_shiab_direct_sum": {
+    "scope": "frozen fixed-Shiab formal-symmetric exact-variational graph subcoefficient principal Gram/normal comparator",
+    "compressed_source_graph_response": "ZERO_NOT_THIS_BLOCK",
+    "complete_exact_G2_Euler": false,
+    "owner_dimension": 8175,
+    "cross_block": "ZERO_BY_GRADE_AND_R_XI_SPLIT_ZERO",
+    "positive_nontrace": {
+      "quotient_K_rank": 8165,
+      "metric_K_rank": 7,
+      "combined_K_rank": 8172,
+      "combined_Gram_inertia": [4118, 4054, 3]
+    },
+    "orthogonal_null": {
+      "quotient_K_rank": 4136,
+      "quotient_Gram": "IDENTICALLY_ZERO",
+      "metric_K_rank": 8,
+      "combined_K_rank": 4144,
+      "combined_Gram_inertia": [1, 7, 8167]
+    },
+    "full_off_shell_hessian": false,
+    "characteristic_or_gauge_claim": false
+  },
+  "external_datum": {
+    "P1": "UNCHANGED",
+    "P2": "UNCHANGED",
+    "P3": "UNCHANGED",
+    "used": false,
+    "boundary": "a datum may select among independently admissible global reductions or domains but cannot manufacture covariance or a local connection coefficient"
+  },
+  "curt_track": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c15r_reductive_return_rank_strata_probe.py",
+    "runner": "uv run --with sympy --with numpy python",
+    "exact": 32,
+    "source_receipts": 4,
+    "type_level_controls": 10,
+    "planted_rejections": 11,
+    "expected_total": 57,
+    "result": "PASS_32_EXACT_PLUS_4_SOURCE_PLUS_10_TYPE_PLUS_11_PLANTED_EQUALS_57"
+  },
+  "hostile_review": {
+    "reductive_geometry": "PASS_AFTER_EXECUTABLE_MULTIPLICITY_BRANCHING__INDEPENDENT_ALL91_LIFT_SUMMANDS__A0_BRANCH_LABEL__AND_TYPED_MUSICAL_MAPS",
+    "clifford_representation": "PASS_AFTER_728_OF_728_EQUIVARIANCE__EXACT_0_AND4_OPTIONAL_CROSS_WITNESSES__NAMED_XI_SCOPE__AND_SURPLUS_RETRACTION",
+    "variational_pde": "PASS_AFTER_CORRECTING_NONZERO_K_TO_FROZEN_FORMAL_SYMMETRIC_EXACT_VARIATIONAL_SUBCOEFFICIENT_NOT_COMPRESSED_SOURCE__A0_LOWER_ORDER_BRANCH_SEPARATION__AND_EXACT_G2_DEFERRAL",
+    "unresolved_blockers": 0
+  },
+  "next_gate": "ECW3D-B2C15M-MOVING-SHIAB-EXACT-G2-WEIGHTED-EULER-AND-POLYNOMIAL-STRATA",
+  "next_gate_objective": "certify fraction-free polynomial exceptional rank loci; compute all-grade moving trace Phi Hodge density primalizer and six-slot DM terms on residual-zero and off-shell fixtures; carry the algebraic pr_h[beta,chi] return only through the A0-comparator lower filtered formal adjoint and Green packet while retaining the native -D_omega chi plus metric-LC branch separately; keep source square variational square and G2 Euler branches separate; build the Douglis-Nirenberg weighted symbol before any source-derived tangent/BV quotient or common Green-domain replay",
+  "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+}

@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T183007Z-eric-curt-wave2-carrier-port-census",
+  "campaign": "lab/process/eric-curt-ten-wave-campaign.json",
+  "wave": "ECW2-G3.5-CENSUS",
+  "status": "PORT_CENSUS_COMPLETE__WAVE2B_FROZEN_G2_FIRST_LAYER_QUOTIENT_COMPLETE",
+  "branches": {
+    "R95_ACTIVE": "real (9,5) DeWitt/gimmel carrier with Cl(9,5)=M(64,H) and the built right-H packet",
+    "R77_BASE_FLIP": "real total-(7,7) comparator obtained by reversing the base block; hostile arithmetic comparator only",
+    "R77_VERTICAL_FLIP": "real total-(7,7) comparator obtained by reversing the vertical block; source-preferred minimal completion with the dual-horizontal sign/order map still open",
+    "C14_COMMON": "common M(128,C) complexification with no selected real, Krein, or right-H reduction"
+  },
+  "source_branch_priority": {
+    "preferred": "R77_VERTICAL_FLIP",
+    "reason": "Curt explicitly locates the choice on the vertical trace line: raw vertical (3,7) is trace-reversed to (4,6). Interpreting the dual-horizontal contribution as (3,1) then gives total (7,7).",
+    "remaining_gap": "The transcript speaks of horizontal (1,3) and never types the sign/order map to the dual-horizontal (3,1) contribution.",
+    "hostile_only": "R77_BASE_FLIP"
+  },
+  "status_vocabulary": {
+    "SHARED_EXACT": "The same typed construction is defined before a carrier-specific metric/reality choice.",
+    "SHARED_CONDITIONAL": "The schema is common after separately declared auxiliary structure.",
+    "SHARED_SCHEMA_PORT_REQUIRED": "The formal expression is common but its pairing, adjoint, density, or operator realization must be rebuilt per branch.",
+    "BRANCH_NATIVE_PORT": "An analogue exists on every branch but is not the same operator and needs an explicit intertwiner/port.",
+    "ACTIVE_BUILT_OTHER_BRANCHES_OPEN": "The active (9,5) object is built; no lawful transfer to the other branches is claimed.",
+    "COMPLEX_CONTAINER_ONLY": "Only the common complex object is shared; physical real/reality data remain unselected."
+  },
+  "forbidden_inputs": [
+    "chosen four-plane or flag",
+    "Standard Model gauge algebra or particle labels",
+    "Higgs doublet or target Yukawa matrix",
+    "rank-four target",
+    "P3, generation count, or chiral-index answer",
+    "PP3 or cosmological target",
+    "target-labelled gamma matrices or projector"
+  ],
+  "primitives": [
+    {
+      "id": "CP-01",
+      "name": "underlying metric-bundle vertical sequence",
+      "classification": "SHARED_EXACT",
+      "formula": "0 -> VY -> TY -> pi*TX -> 0; VY=Sym2 T*X",
+      "carrier_dependence": "none at vector-bundle level",
+      "wave2_use": "common field/slot grammar"
+    },
+    {
+      "id": "CP-02",
+      "name": "tautological metric musical",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "sharp_h: pi*T*X -> pi*TX",
+      "carrier_dependence": "depends on the branch base metric and its sign convention",
+      "wave2_use": "type connection/section contractions separately"
+    },
+    {
+      "id": "CP-03",
+      "name": "horizontal Zorro split",
+      "classification": "SHARED_CONDITIONAL",
+      "formula": "Z_(h,nabla)(v,alpha)=v+hor_nabla(sharp_h alpha)",
+      "carrier_dependence": "requires a declared connection and naturality group; not canonical from bare X",
+      "wave2_use": "common schema with charged connection ownership"
+    },
+    {
+      "id": "CP-04",
+      "name": "four-dimensional trace reversal",
+      "classification": "SHARED_EXACT",
+      "formula": "tau_h(k)=k-(1/2)tr_h(k)h; tau_h^2=1",
+      "carrier_dependence": "tau_(-h)=tau_h; pairing placement remains branch-dependent",
+      "wave2_use": "shared symmetric-fibre involution"
+    },
+    {
+      "id": "CP-05",
+      "name": "vertical DeWitt or sign-reversed metric",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "G_V(k,l)=F_h(k,tau_h l), with branch block sign",
+      "carrier_dependence": "inertia and adjoint change with the real block reading",
+      "wave2_use": "rebuild all vertical sharps and adjoints"
+    },
+    {
+      "id": "CP-06",
+      "name": "volume density and Hodge operator",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "dvol_G and star_G",
+      "carrier_dependence": "orientation, real signature, and metric; equal star-square parity does not identify star",
+      "wave2_use": "rebuild density and integration-by-parts tables"
+    },
+    {
+      "id": "CP-07",
+      "name": "Clifford multiplication",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "c_G(xi)c_G(eta)+c_G(eta)c_G(xi)=2G^{-1}(xi,eta)",
+      "carrier_dependence": "M(64,H) versus M(128,R); common only after complexification",
+      "wave2_use": "rebuild spinor and principal-symbol realizations"
+    },
+    {
+      "id": "CP-08",
+      "name": "Krein or invariant spinor pairing",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "[psi,chi]_(K_r)",
+      "carrier_dependence": "branch spinor module and real form; complex container alone does not select it",
+      "wave2_use": "charge every residual and odd-action pairing"
+    },
+    {
+      "id": "CP-09",
+      "name": "right-quaternionic structure",
+      "classification": "ACTIVE_BUILT_OTHER_BRANCHES_OPEN",
+      "formula": "J_H^2=-1 on the active H^64 carrier",
+      "carrier_dependence": "not present on M(128,R) without new structure; unselected on M(128,C)",
+      "wave2_use": "active-only constraint until a branch intertwiner is constructed"
+    },
+    {
+      "id": "CP-10",
+      "name": "charge conjugation and reality projection",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "C_r and the C0-selected real operation",
+      "carrier_dependence": "real-Clifford type and observed reduction",
+      "wave2_use": "rebuild zero-order and odd-bilinear admissibility"
+    },
+    {
+      "id": "CP-11",
+      "name": "inhomogeneous gauge semidirect product",
+      "classification": "SHARED_EXACT",
+      "formula": "IG=H semidirect Omega1(ad P)",
+      "carrier_dependence": "the abstract affine grammar is common; H itself remains branch-specific",
+      "wave2_use": "reuse group-law schema without reusing a branch representation"
+    },
+    {
+      "id": "CP-12",
+      "name": "derivative cocycle and tilted reference",
+      "classification": "SHARED_EXACT",
+      "formula": "alpha_h=-(D_B h)h^-1; tau_B(h)=(h,h^-1 D_B h)",
+      "carrier_dependence": "abstract connection-affine identity",
+      "wave2_use": "reuse G1 cocycle law"
+    },
+    {
+      "id": "CP-13",
+      "name": "homogeneous distortion",
+      "classification": "SHARED_EXACT",
+      "formula": "T=A-B; T^g=Ad_g T when A and B share the affine connection law",
+      "carrier_dependence": "abstract affine identity",
+      "wave2_use": "reuse distortion grammar"
+    },
+    {
+      "id": "CP-14",
+      "name": "Shiab contraction realization",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "S_r: curvature slots -> density-dual connection Euler slots",
+      "carrier_dependence": "Clifford, metric, density, pairing, and adjoint",
+      "wave2_use": "retain the contraction type; rebuild the operator"
+    },
+    {
+      "id": "CP-15",
+      "name": "connection-current pseudo-musical",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "sharp_conn,r from G_r, star_r, and kappa_g,r",
+      "carrier_dependence": "metric/Hodge/invariant-pairing signs and real form",
+      "wave2_use": "rebuild before comparing bridge currents"
+    },
+    {
+      "id": "CP-16",
+      "name": "first-order bosonic action grammar",
+      "classification": "SHARED_SCHEMA_PORT_REQUIRED",
+      "formula": "integral T wedge S_r(F_B + (1/2)D_B T + (1/3)q(T,T)) + (kappa_1/2)integral T wedge flat_r(T)",
+      "carrier_dependence": "S_r, flat_r, density, invariant pairing, and boundary terms",
+      "wave2_use": "same monomial skeleton; independently charge each branch realization"
+    },
+    {
+      "id": "CP-17",
+      "name": "Euler Green and Ward realization",
+      "classification": "SHARED_SCHEMA_PORT_REQUIRED",
+      "formula": "variation, formal adjoint, Green split, and coupled Noether identity",
+      "carrier_dependence": "pairings, density, domain, boundary, and reality",
+      "wave2_use": "reuse chain rule only; recompute all adjoints and domains"
+    },
+    {
+      "id": "CP-18",
+      "name": "RB6 invariant H-word grammar",
+      "classification": "SHARED_SCHEMA_PORT_REQUIRED",
+      "formula": "I, tau, G_V^-1 Ric_VV, curvature-square sharps, and trace subtractions",
+      "carrier_dependence": "G_V inverse, curvature, stationary background, and real adjoint",
+      "wave2_use": "formula list transfers; active W177 values do not"
+    },
+    {
+      "id": "CP-19",
+      "name": "RB6 action-field Gram H words",
+      "classification": "SHARED_SCHEMA_PORT_REQUIRED",
+      "formula": "G_V^-1 B^theta, G_V^-1 B^F, and G_V^-1 B^II",
+      "carrier_dependence": "field values, invariant pairing, vertical metric, graph identification, and stationary state",
+      "wave2_use": "typed rival order parameters; unevaluated off active branch"
+    },
+    {
+      "id": "CP-20",
+      "name": "commutator Q grammar",
+      "classification": "SHARED_CONDITIONAL",
+      "formula": "Q_ab=[H_a,H_b]; Q_ab is G_V-skew when H_a,H_b are G_V-self-adjoint",
+      "carrier_dependence": "requires two branch-native self-adjoint H words; nonzero value and polar gap are open",
+      "wave2_use": "common exact algebraic implication without selected Q"
+    },
+    {
+      "id": "CP-21",
+      "name": "bosonic residual square pairing",
+      "classification": "BRANCH_NATIVE_PORT",
+      "formula": "I2_B[Q_B]=(1/2)<Upsilon_B,Q_B Upsilon_B>",
+      "carrier_dependence": "residual bundle, density, real/Krein pairing, adjoint, and domain",
+      "wave2_use": "Wave 5 source-exact square waits for branch-specific Q_B census"
+    },
+    {
+      "id": "CP-22",
+      "name": "odd action and K-paired zero-order bilinear",
+      "classification": "ACTIVE_BUILT_OTHER_BRANCHES_OPEN",
+      "formula": "Re_F integral h_F(Psi,K_F(D+M)Psi)",
+      "carrier_dependence": "spinor module, K_F, C/reality, domain, and observed chirality",
+      "wave2_use": "active incidence scaffold only; no branch transfer or physical mass"
+    }
+  ],
+  "portable_exact_ids": ["CP-01", "CP-04", "CP-11", "CP-12", "CP-13"],
+  "right_h_active_only_ids": ["CP-09", "CP-22"],
+  "explicit_port_ids": ["CP-02", "CP-05", "CP-06", "CP-07", "CP-08", "CP-10", "CP-14", "CP-15", "CP-16", "CP-17", "CP-18", "CP-19", "CP-21", "CP-22"],
+  "constraint_surplus": {
+    "status": "SURPLUS_UNCOMPUTABLE",
+    "reason": "Historical status at port-census issuance: this swing classified primitive ownership before the frozen first-layer quotient. Wave 2b now supplies support surplus zero for that bounded class; physical surplus and later action classes remain deferred.",
+    "next_computation": [
+      "generate all local invariant monomials through the declared derivative order for each branch",
+      "quotient by algebraic symmetry, Bianchi/cyclic identities, integration by parts, and field redefinitions",
+      "compute the exact term-space rank and independent coefficient count",
+      "ablate each surviving term against gravity, gauge, odd-current, Higgs-carrier, domain, and cosmology obligations without target labels"
+    ]
+  },
+  "curt_steps": ["CI-13", "CI-14", "CI-15", "CI-16", "CI-17", "CI-18", "CI-29"],
+  "third_lane_effect": "NONE: branch-native ports remain rival realizations inside the Eric lane; no separate complete Curt dynamics or discriminator exists.",
+  "wave2b": "lab/process/eric-curt-wave2b-term-rank-ablation.json",
+  "next_swing": "ECW3-G4-OBSERVATION: the frozen G2 first-layer quotient is complete; construct observation, equation-dual, domain, leakage, quotient, and preboundary maps while retaining every branch-native port debit."
+}

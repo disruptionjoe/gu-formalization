@@ -1,0 +1,170 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION",
+  "status_boundary": "PARTIAL_CONSTRUCTION_PASS__2021_DRAFT_SUPPLIES_TYPED_F_A_D_B_ARROWS_BUT_CAVEATS_COMBINED_DIAGRAM__2025_CORRECTS_PROJECTION_TO_CONTRACTION_AND_ANNOUNCES_UNRELEASED_SIGN_UNSTABLE_TWO_CONNECTION_D_SQUARED_WITH_TENTATIVE_F_B_ENTRY__SOURCE_FORK_NOT_BLENDED__SYMMETRIZED_A_B_ROUTE_HAS_ONE_HHAT_AB_CORE_IN_FUNDAMENTAL_AND_ADJOINT_REPRESENTATIONS__GRAPH_COMPLETE_G2_EULER_RECONSTRUCTED_AND_NONZERO_PARAMETER_FREE_Z_VAR_FORCED__CARRIER_LINEARITY_IS_ONLY_A_NECESSARY_COMMON_OWNER_TARGET_NOT_SOMATIC_EMISSION_PROOF__LOCAL_KREIN_RIESZ_NOT_REPLACED_BY_UNREDUCED_G3_PRESYMPLECTIC_CURRENT__ACTIVE_SOURCE_FORKED_SQUARE_PRIMALIZERS_OFFDIAGONAL_CURRENT_AND_REDUCED_PHASE_SPACE_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization.json",
+  "layer_0": {
+    "physical_fermion": "Psi=(zeta,nu) in Omega1(S_H) direct_sum Omega0(S_H)",
+    "bose_complex": "ordinary-gauge deformation complex of the graph-complete free bosonic field space",
+    "common_obstruction": "one graph-complete Euler owner represented by different typed Bose and Fermi intertwiners",
+    "not_raw_operator_equality": true,
+    "on_shell_complex": "bosonic Hessian kills ordinary gauge tangent at a stationary background",
+    "off_shell_relation": "Euler covariance along the gauge orbit, generically nonzero",
+    "mixed_route": "H_AB^E associated-bundle curvature composition",
+    "euler_owner": "density-valued action derivative E_T, returned through full G3 graph",
+    "gu_curvature_map": "equivariant contraction with separately typed Hodge-density conversion; not an idempotent projection",
+    "local_euler_primalizers": "connection-density pseudo-musical and fermion-equation C_plus/Krein/right_H Riesz are distinct local maps",
+    "g3_preboundary": "Omega^(13,2) presymplectic current before chain integration domain and kernel quotient",
+    "reduced_poisson_anchor": "future inverse only on a nondegenerate reduced phase space; not Shiab or raw Euler primalization",
+    "prequantum_lift": "future covariant derivative along a Hamiltonian vector field; not a bulk Euler-to-connection map",
+    "observation_maps": "L_s R_s L_s^vee and L_s^! retain separate field equation and pairing roles",
+    "nu_is_ghost": false
+  },
+  "source_collision": {
+    "disposition": "SOURCE-CONFIRMS_PLUS_SOURCE-CORRECTS_PLUS_SOURCE-SILENT",
+    "official_pdf": {
+      "url": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf",
+      "sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+      "inspected_pages": [46, 47, 48, 49]
+    },
+    "source_confirms": [
+      "Portal 01:47:01-01:54:09 gives the physical spinor-form carrier, two connection derivatives, high-low cancellation target, and common Bose/Fermi generalized-Einstein obstruction",
+      "Portal 01:55:03-01:58:27 types zeta and nu as separate physical coupled fields",
+      "draft p46 eqs 9.16-9.17 proposes a fermion block only as MANUSCRIPT-CANDIDATE_UNSTABLE and retains alternate lower-right blocks",
+      "draft p46 eqs 9.18-9.20 explicitly gives the Upsilon_F Euler packet",
+      "draft pp47-48 eqs 10.1-10.9 gives the bosonic deformation complex, delta1=(d_A,DL_epsilon), delta2a=Shiab d_A+kappa star, and delta2b=F_A wedge Shiab-kappa star d_B",
+      "2025 TOE 02:38:12-02:42:55 gives d_A squared equals curvature, the rolled operator, and the shortened 0-to-1-to-13-to-14 contraction-plus-star spine"
+    ],
+    "source_corrects": [
+      "2025 TOE 01:36:35-01:36:56 definitively corrects projection to contraction for the Einstein-Shiab-like curvature operation"
+    ],
+    "source_negative": [
+      "draft p49 eq 10.10 explicitly says the combined diagram is from an older version and may contain inconsistencies until stabilized"
+    ],
+    "source_adds_unreleased": [
+      "2025 TOE 02:44:06-02:45:13 announces a new unreleased two-connection D-squared with tentatively spoken D_A F_B identity D_B entries and unstable second-column signs; it does not repair 2021 equation 10.10",
+      "2025 TOE says the unreleased operator becomes a complex on shell but supplies no stable matrix formula or checked square"
+    ],
+    "repo_necessary_implications": [
+      "common obstruction must be reconstructed as one owner with typed intertwiners rather than cited as raw operator equality",
+      "the bosonic delta1 has ordinary adjoint gauge domain and is not a spinorial minus-one map",
+      "the explicit 2021 F_A/d_B arrow and tentative 2025 F_B entry are rival source branches and may not be blended"
+    ],
+    "source_silent_on": [
+      "active trace-reversed 9_5 native-real-form port",
+      "C_plus Krein right_H Riesz map and Green domain",
+      "stable off-diagonal zeta_nu completion",
+      "moving Hodge density Clifford Shiab and observation jets",
+      "fermion current and stress return into the full graph-complete bosonic Euler tuple",
+      "local odd symmetry and BV closure",
+      "typed equality between the unreleased two-connection square and the graph-complete Euler owner",
+      "GU reduced phase space Poisson anchor prequantum bundle integrality polarization and observable-to-operator map",
+      "map from bulk E_T to the differential of a nontrivial reduced observable"
+    ],
+    "geometric_quantization_boundary": "2025 TOE 00:13:44-00:18:17 gives a deliberately approximate general chain f to df to Hamiltonian vector to prequantum covariant derivative; it is not stated as the GU Euler intertwiner",
+    "unfinished_receipt": "Portal 02:03:07 says the stress-energy up-and-back and Dirac up-and-over versus over-and-up cancellations were still being assembled"
+  },
+  "typed_routes": {
+    "bose_domain": "Q_B^-1=Omega0(ad P)",
+    "bose_fields": "Q_B^0=Omega1(ad P) direct_sum T_epsilon R direct_sum T_g G_DW",
+    "bose_first_arrow": "ordinary gauge tangent gamma maps to (-D_A gamma,gamma epsilon,0) up to convention",
+    "bose_second_arrow": "full linearization of (E_A,E_epsilon,E_g) including B=A_LC(epsilon,g), moving S/flat/Hodge/density, and graph returns",
+    "fermi_fields": "Q_F=Omega1(S_H) direct_sum Omega0(S_H)",
+    "fermi_equations": "Q_F^vee approximately Omega13(S_H*) direct_sum Omega14(S_H*)",
+    "connection_euler_primalizer": "OPEN_ACTIVE_TRACE_REVERSED_KREIN_HODGE_DENSITY_PSEUDO_MUSICAL",
+    "fermi_riesz": "OPEN_ACTIVE_MOVING_C_PLUS_KREIN_RIGHT_H_MAP",
+    "active_hodge_signs_p_0_1_2_13_14": [-1, 1, -1, 1, -1]
+  },
+  "source_forked_two_connection_square": {
+    "stable_2021_branch": "bosonic delta2b uses F_A wedge contraction minus kappa star d_B",
+    "tentative_2025_branch": "unreleased spoken entry list resembles D_A F_B identity D_B with two negative signs in the second column",
+    "source_selected_matrix": false,
+    "matrix_order_degree_shifts_curvature_action_and_signs": "OPEN",
+    "may_silently_replace_F_A_with_F_B": false,
+    "required_next_test": "enumerate degree-correct candidates and square each off shell against the same graph-complete represented Euler owner"
+  },
+  "map_separation": {
+    "connection_euler_primalizer": "OPEN local trace-reversed Krein/Hodge/density pseudo-musical into the adjoint one-form carrier",
+    "fermion_riesz": "OPEN local C_plus/Krein/right_H map Q_F^vee to Q_F",
+    "g3_current_to_flat": "omega_G3 in Omega13_2 must first be integrated over an admitted Sigma to Omega_Sigma before any Omega_Sigma_flat exists; actual kernel remains unclassified",
+    "reduced_poisson_sharp": "INELIGIBLE until final total-action domain chain constraint boundary-charge classification and quotient; full-cotangent sharp requires a strong symplectic topological isomorphism, otherwise only an admissible-image partial inverse is eligible",
+    "prequantum_lift": "DOWNSTREAM and requires reduced observable prequantum bundle curvature integrality and polarization",
+    "raw_E_T_is_reduced_observable_differential": false,
+    "static_J_equals_hamiltonian_anchor": false,
+    "parallel_dependency": "B2C6B/G4 may run only provisionally on existing sector packets; final reduction follows B2C9 and must be replayed on the completed total action"
+  },
+  "two_connection_core": {
+    "operator": "H_AB^E=1/2(d_A^E d_B^E+d_B^E d_A^E) restricted to Omega0(E)",
+    "owner": "Hhat_AB=F_B+1/2 D_B T",
+    "fundamental_fermi_control": "EXACT_FIRST_AND_SYMMETRIC_SECOND_JETS_CANCEL",
+    "adjoint_bose_control": "EXACT_FIRST_AND_SYMMETRIC_SECOND_JETS_CANCEL",
+    "asymmetric_routes": "REJECTED_RETAIN_JET_DEPENDENCE",
+    "interpretation": "one adjoint-valued mixed-curvature core in two representations; not the graph-complete Euler covector"
+  },
+  "graph_complete_owner": {
+    "owner": "G=E_A=E_T=S_epsilon(F_B)+1/2(L+L^ddagger)T+M_epsilon(T,T)+kappa_1 flat_1(T)",
+    "full_returned_tuple": "mathfrak_G=(E_A,E_epsilon,E_g)",
+    "reconstruction": "unique rational density-dual Euler form recovered by inverting the wedge-pairing matrix over all 12 independent finite variation directions",
+    "affine_core": "S_epsilon(Q_seg)+kappa_1 flat_1(T)",
+    "forced_correction": "Z_var=E_T-[S_epsilon(Q_seg)+kappa_1 flat_1(T)]",
+    "forced_correction_nonzero": true,
+    "new_free_coefficient_count": 0,
+    "compressed_draft_owner_equals_E_T": false,
+    "Q_seg_core_equals_E_T": false,
+    "Hhat_AB_equals_E_T": false,
+    "nonfactorization_witness": "q(y,z)=0 with nonzero polarized variational-Euler response"
+  },
+  "common_owner_intertwiners": {
+    "durable_target": "independently constructed J_B(G) and J_F(G) should share G while living on different carriers",
+    "finite_fundamental": "DEFINITIONAL_LINEARITY_CONTROL_ONLY__core plus Z_var equals owner componentwise",
+    "finite_adjoint": "DEFINITIONAL_LINEARITY_CONTROL_ONLY__core plus Z_var equals owner componentwise",
+    "physical_zeta_nu": "DEFINITIONAL_BLOCK_COMPATIBILITY_ONLY before source-silent off-diagonal couplings",
+    "somatic_square_emits_Z_var": "OPEN_NOT_PROVED_BY_DEFINING_Z_VAR_AS_E_T_MINUS_CORE",
+    "actual_active_static_J_B_and_J_F": "OPEN_TYPE_LEVEL_TWO_LOCAL_PRIMALIZERS",
+    "actual_full_tuple_current_return": "OPEN_TYPE_LEVEL",
+    "hamiltonian_or_prequantum_J": "SEPARATE_DOWNSTREAM_OBJECT_NOT_A_SUBSTITUTE",
+    "raw_bose_fermi_operator_equality": false
+  },
+  "symmetry_disposition": {
+    "ordinary_bose_gauge": "ON_SHELL_COMPLEX__OFF_SHELL_EULER_COVARIANT_CURVED_COMPLEX",
+    "physical_fermi": "SOMATIC_OPERATOR_PARTIAL__NOT_GHOST_OR_GAUGE_COMPLEX",
+    "local_odd_noether": "NOT_CONSTRUCTED_OR_REQUIRED_BY_THIS_RESULT",
+    "parent_action": "NOT_INTRODUCED"
+  },
+  "coefficient_and_datum": {
+    "Z_var_parameter_count": 0,
+    "P1_P2_P3_used": false,
+    "missing_riesz_current_or_offdiagonal_map_is_external_datum": false,
+    "global_constraint_surplus": "UNCOMPUTABLE_UNTIL_ACTIVE_MAP_RANKS_AND_COEFFICIENTS_ARE_BUILT",
+    "count_or_chirality_inference": false
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c7_two_connection_somatic_obstruction_probe.py",
+    "exact_checks": 28,
+    "type_level_controls": 5,
+    "planted_rejections": 17,
+    "result": "28_EXACT_PLUS_5_TYPE_LEVEL_PLUS_17_PLANTED_EQUALS_50_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction.json",
+    "report": "explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C8-SOURCE-FORKED-TWO-CONNECTION-SQUARE-AND-ACTIVE-EULER-MAP-DISCRIMINATOR",
+  "following_gate": "ECW3D-B2C9-OFFDIAGONAL-SOMATIC-TOTAL-CURRENT-AND-PREBOUNDARY-RETURN",
+  "parallel_analytic_gate": "ECW3D-B2C6B-PRELIMINARY-ACTION-GREEN-DOMAIN-ANALYSIS__FINAL_G4_REPLAY_REQUIRED_AFTER_B2C9_TOTAL_ACTION",
+  "later_gate": "REDUCED-POISSON-ANCHOR-MOMENT-MAP-AND-PREQUANTUM-LIFT__ONLY_AFTER_FINAL_G4_REDUCTION"
+}

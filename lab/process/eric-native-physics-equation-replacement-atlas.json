@@ -1,0 +1,598 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T153226Z-eric-native-equation-replacement-atlas",
+  "branch": "agent/weinstein-guided-source-action",
+  "replacement_contract": "lab/specifications/eric-native-equation-replacement-contract-2026-07-31.md",
+  "executed_closure_packet": "lab/specifications/eric-source-directed-native-closure-packet-2026-07-31.md",
+  "executed_closure_certificate": "lab/process/eric-source-directed-native-closure-certificate.json",
+  "executed_closure_verdict": "All ten source callouts now route through five shared conditional native objects and exact finite positive controls; every actual Y14 emergence gate remains open.",
+  "thesis": "The G2/G3 system is the first Einsteinian parent. The paired Curt-Eric reading requires a coupled Einstein-Dirac first layer and a distinct Yang-Mills-Higgs second action built as a square or second-order companion before familiar modes are named. Four-dimensional equations count as recovered only after the staged actions, equation-dual observation map, closed domain, symmetry identity, quotient, and observable intertwining theorem are built.",
+  "no_stall_rule": "Carry finite data as a conditional family parameter and turn every absent arrow into a bounded construction or kill; never restart from 'source action or external datum missing'.",
+  "curt_iceberg_reconciliation": {
+    "source_report": "lab/sources/curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md",
+    "registry": "lab/process/curt-iceberg-native-crosswalk.json",
+    "coverage": "30 recap steps plus 14 cross-cutting recovery claims",
+    "status_rule": "Curt assertion, Weinstein primary support, repository construction, and physical recovery are scored separately.",
+    "sequence_change": "Run C0 chimeric/Zorro/real-form bridge and build only the primitives needed for enumeration; then run G3.5 on the surviving carrier, port only the surviving carrier-dependent G2/G3 machinery if C0 returns non-equivalence, and proceed to C1."
+  },
+  "paired_curt_eric_reconstruction": {
+    "source_report": "lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md",
+    "registry": "lab/process/paired-curt-eric-gu-axiom-graph.json",
+    "coverage": "40 typed axioms and nine recovery chains",
+    "correction": "Curt's generic ad-valued carrier and minimal/Yukawa incidence survive as construction leads, but Eric requires Einstein-Dirac first and a separate square/second-order Yang-Mills-Higgs action. The observed Higgs is not simply adjoint-valued. The variational connection varpi and homogeneous distortion T remain a typed carrier fork.",
+    "sequence_change": "After C0 and the target-blind census, reconstruct the manuscript bosonic residual square I2_B[Q_B], separately assemble I_ED and the conjectural total-residual rival I2_ED[Q_ED], and compare Pi_Higgs^varpi(varpi) with Pi_Higgs^T(T) before using either carrier across the odd bilinear and second-layer gauge/scalar Hessian."
+  },
+  "eric_curt_ten_wave_campaign": {
+    "specification": "lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md",
+    "registry": "lab/process/eric-curt-ten-wave-campaign.json",
+    "wave1_report": "explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md",
+    "wave2_port_report": "explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md",
+    "wave2b_report": "explorations/eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md",
+    "channel_rule": "Curt is a separately tagged rival/checklist track inside the Eric lane; promotion requires carrier non-equivalence, separate complete dynamics, and a common-domain discriminator.",
+    "wave1_verdict": "The musical plus declared horizontal split identifies the underlying rank-14 bundle. Literal real (7,7) and active (9,5) metric/Clifford carriers are inequivalent; both complexify to M(128,C) without transporting the right-H structure. Source block-sign attribution and global Zorro naturality remain open.",
+    "wave2_port_verdict": "The 22-primitive carrier census finds only the vertical sequence, trace reversal, IG grammar, derivative cocycle, and homogeneous distortion shared exactly. All metric/Hodge/Clifford/Krein/reality/action-pairing/adjoint/residual realizations require explicit ports. Curt's transcript prefers the vertical-sign (7,7) comparator while leaving the H* sign/order map implicit.",
+    "wave2b_verdict": "For the frozen G2 first-layer class, six A/B-written candidates quotient by the exact curvature and covariant-derivative identities to four independent monomials. The source slice has one projective coefficient, four support obligations have rank four, support surplus is zero, and physical surplus remains deferred until observation and later action layers.",
+    "next_wave": "ECW3-G4-OBSERVATION: construct the observation retract, equation dual, nonlinear leakage test, closed domain, gauge/preboundary quotient, and branch-port ledger."
+  },
+  "native_backbone": {
+    "fields": "B=A_LC(epsilon_red,g_DW); T=A-B",
+    "action": "I_G2=integral_Y T wedge S_epsilon(F_B+1/2 D_B T+1/3 q(T,T)) + kappa_1/2 integral_Y T wedge flat_1(T)",
+    "connection_euler": "E_A=E_T=S_epsilon(F_B)+1/2(L+L^!)T+M_epsilon(T,T)+kappa_1 flat_1(T)",
+    "graph_euler": "E_epsilon=(D_epsilon B)^vee(E_B^circ-E_T)+(D_epsilon S)^vee E_S+(D_epsilon flat_1)^vee E_flat; E_g analogous; Riesz adjoints enter only after primalization",
+    "ward_identity": "<E_A,-D_A chi>+<E_epsilon,chi epsilon>+boundary=0",
+    "preboundary": "Theta_G3 in Omega^(13,1); omega_G3=delta Theta_G3 in Omega^(13,2)",
+    "observation_gate": "R_s L_s=1; R_s D_Y L_s=D_X; (1-L_s R_s)D_Y L_s=0; physical Euler covector=(D L_s)^vee E_Y; after Riesz primalization sharp_X E_X=(D L_s)^! sharp_Y E_Y",
+    "killed_shortcut": "S_epsilon(F_(B+T))+kappa_1 T"
+  },
+  "coherent_dependency_order": [
+    "C0_CHIMERIC_ZORRO_REAL_FORM_BRIDGE",
+    "G3.5_TARGET_BLIND_NATURALITY_AND_ABLATION_ON_SURVIVING_CARRIER",
+    "C0_TRIGGERED_G2_G3_CARRIER_PORT_IF_REQUIRED",
+    "G4_OBSERVATION_RETRACT_DOMAIN_AND_BFV_QUOTIENT",
+    "G5_MINIMAL_ODD_EXTENSION_AND_ACTION_DERIVED_CURRENTS",
+    "MANUSCRIPT_BOSONIC_RESIDUAL_AND_QB_SQUARE",
+    "COUPLED_EINSTEIN_DIRAC_FIRST_LAYER_AND_FULL_RESIDUAL",
+    "CONJECTURAL_TOTAL_RESIDUAL_QED_SQUARE_RIVAL",
+    "VARPI_VERSUS_DISTORTION_HIGGS_CARRIER_FORK",
+    "STATIONARY_NATIVE_BACKGROUND",
+    "STAGED_HESSIANS_AND_FACTORIZATION_TEST",
+    "LOW_ENERGY_MODE_AND_GROUP_IDENTIFICATION",
+    "PHYSICAL_BV_ANOMALY_TEST",
+    "PHYSICAL_INDEX_AND_DATUM_READOUT",
+    "COSMOLOGICAL_STATE_AND_PP3_TEST"
+  ],
+  "source_corpus": {
+    "WG-OXFORD-PORTAL": {
+      "title": "2013 Oxford lecture with 2020 Portal preface and supplementary presentation",
+      "local": "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md",
+      "grade": "official transcript / primary speech"
+    },
+    "WG-2021-ITI-REVEALED": {
+      "title": "Into the Impossible: Geometric Unity Revealed",
+      "local": null,
+      "official": "https://theportal.group/into-the-impossible-eric-weinstein-geometric-unity-revealed/",
+      "grade": "official editorial transcript"
+    },
+    "WG-2025-ITI-UCSD": {
+      "title": "UCSD / Into the Impossible Geometric Unity seminar",
+      "local": "lab/literature/weinstein-ucsd-2025-04-transcript.md",
+      "raw_local": "papers/drafts/Transcript into the impossible.md",
+      "grade": "edited local reading copy plus raw automated transcript"
+    },
+    "WG-2025-TOE": {
+      "title": "Theories of Everything: Geometric Unity, 40 Years in the Making",
+      "local": "lab/sources/transcripts/toe-weinstein-gu-40-years.md",
+      "grade": "local automated transcript cross-checked against official transcript"
+    },
+    "WG-2021-DRAFT": {
+      "title": "Geometric Unity: Author's Working Draft v1.0",
+      "official": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf",
+      "grade": "author primary working draft / controlling formula source"
+    },
+    "CURT-ICEBERG-2025": {
+      "title": "The Geometric Unity Iceberg... Oh Boy / In-depth Explanation of Eric Weinstein's Geometric Unity",
+      "official": "https://youtu.be/AThFAxF7Mgw",
+      "transcript": "https://podscripts.co/podcasts/theories-of-everything-with-curt-jaimungal/the-geometric-unity-iceberg-oh-boy",
+      "grade": "secondary mathematical exposition; several PDE recoveries are explicitly Curt reconstructions"
+    }
+  },
+  "curt_iceberg_overlay": {
+    "PSC-MAXWELL": ["CI-18", "CI-28", "CI-X11"],
+    "PSC-YANG-MILLS": ["CI-16", "CI-17", "CI-18", "CI-28", "CI-29", "CI-X11"],
+    "PSC-EINSTEIN": ["CI-15", "CI-16", "CI-17", "CI-18", "CI-25", "CI-29", "CI-X10"],
+    "PSC-HIGGS": ["CI-24", "CI-25", "CI-26", "CI-27", "CI-28", "CI-X06"],
+    "PSC-DIRAC": ["CI-10", "CI-11", "CI-19", "CI-20", "CI-21", "CI-27", "CI-X08"],
+    "PSC-SCHRODINGER": [],
+    "PSC-WEAK": ["CI-22", "CI-24", "CI-X03"],
+    "PSC-STRONG": ["CI-22", "CI-X03"],
+    "PSC-DARK-ENERGY": ["CI-15", "CI-25", "CI-29", "CI-30", "CI-X12"],
+    "PSC-DARK-MATTER": ["CI-X13"],
+    "GENERATION_INDEX": ["CI-19", "CI-20", "CI-21", "CI-23", "CI-X02", "CI-X05"],
+    "FLAVOUR_MIXING": ["CI-X06", "CI-X07"],
+    "C0_FOUNDATIONAL_BRIDGE": ["CI-06", "CI-07", "CI-09", "CI-10", "CI-11", "CI-12"]
+  },
+  "requested_source_crosswalk": [
+    {
+      "id": "PSC-MAXWELL",
+      "component": "Maxwell",
+      "classification": "DIRECT_GU_RELATION_NOT_DERIVATION",
+      "callouts": [
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "02:40:24",
+          "role": "GU placement",
+          "claim": "The Yang-Mills/Maxwell part is proposed to arise in the square of the augmented Einstein/Dirac square-root system."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "01:44:45--01:45:42",
+          "role": "relationship dictionary",
+          "claim": "Yang-Mills is described as nonabelian Maxwell and Maxwell as abelian Yang-Mills; this is a relation, not an emitted Maxwell equation."
+        }
+      ],
+      "native_search_directive": "Do not add a separate Maxwell action. In the stationary reduced G2/G3 connection Hessian, search for the unique closed abelian massless summand of the same gauge system, then derive its physical Hodge map and electric current through G4/G5.",
+      "boundary": "No checked source constructs the unique physical abelian mode, observation Hodge map, electric current, or photon quotient required by the atlas."
+    },
+    {
+      "id": "PSC-YANG-MILLS",
+      "component": "Yang-Mills",
+      "classification": "DIRECT_STANDARD_BASELINE_AND_GU_REPLACEMENT",
+      "callouts": [
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:43:47; 01:59:12--02:03:07",
+          "role": "baseline plus proposed replacement",
+          "claim": "The standard equation d_A^*F_A=J is displayed, then a second-order Shiab/adjoint-Shiab system is proposed as its GU generalization."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "00:41:50--00:43:38",
+          "role": "two-layer action architecture",
+          "claim": "An Einstein-Dirac layer is followed by a second action adding Yang-Mills-Higgs; the two replacement sectors are related by a square/double-copy analogy."
+        },
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:05:43--00:06:32",
+          "role": "modern architecture restatement",
+          "claim": "The first-order Einstein/Dirac system and its second-order square are contrasted with the standard Yang-Mills-plus-Dirac-plus-Higgs action."
+        }
+      ],
+      "formula_source": "WG-2021-DRAFT Section 9.1 equations (9.1)--(9.7) writes the native first-order bosonic action; it is not an ordinary F^2 Yang-Mills action.",
+      "native_search_directive": "First reconstruct the manuscript-exact bosonic residual Upsilon_B and I2_B[Q_B]. Separately treat the exact G2 plus odd Einstein-Dirac residual Upsilon_ED and I2_ED[Q_ED] as a conjectural stronger square. Compare both reduced Hessians for a nonabelian second-order propagation block whose low-energy equation intertwines with D_A(*F_A)=J only after the explicit F^2 comparator is ablated.",
+      "boundary": "Having a connection, curvature, Bianchi identity, first-layer Hessian, or total-residual square conjecture is not yet Yang-Mills dynamics; the source-exact bosonic pairing, rival total pairing, full variations, reduction, and physical symbol remain required."
+    },
+    {
+      "id": "PSC-EINSTEIN",
+      "component": "Einstein gravity",
+      "classification": "DIRECT_STANDARD_BASELINE_AND_GU_REPLACEMENT",
+      "callouts": [
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "00:41:50--00:43:38; 01:10:37--01:10:57",
+          "role": "paired correction to the iceberg mechanism",
+          "claim": "Yang-Mills-Higgs belongs to a second action after Einstein-Dirac, and the real Higgs cannot simply remain adjoint-valued even though its parent comes from an ad-valued one-form."
+        },
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:42:16; 01:43:32--01:46:17; 02:35:10--02:40:19",
+          "role": "baseline and main early replacement",
+          "claim": "The Einstein equation is displayed, then replaced upstairs on Y by the total-swervature/displasion equation which must be pulled back to X."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "00:41:50--00:43:38; 02:14:44--02:23:28",
+          "role": "two-layer and distortion update",
+          "claim": "The Einstein-Dirac layer and the gauge-rotated distortion/cosmological replacement are linked in the modern spoken construction."
+        },
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:09:46--00:30:05",
+          "role": "dark-energy fragment derivation sketch",
+          "claim": "The Einstein tensor, differential identity, two-connection distortion, and curvature-to-one-form contraction are developed as the replacement grammar."
+        }
+      ],
+      "formula_source": "WG-2021-DRAFT Section 9.1 gives the first-order action and distortion T_omega used by the guided lane.",
+      "native_search_directive": "Identify the corrected G2 total Euler covector with the source's total-swervature/displasion role at Layer 0, then apply the G4 equation-dual pullback and isolate the gauge-quotiented massless spin-two block of the shared Hessian.",
+      "boundary": "The sources do not prove a four-dimensional massless spin-two quotient, its two physical modes, Newton normalization, or universal source coupling."
+    },
+    {
+      "id": "PSC-HIGGS",
+      "component": "Higgs",
+      "classification": "DIRECT_GU_ORIGIN_AND_MECHANISM_CLAIMS",
+      "callouts": [
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "01:35:23--01:36:08",
+          "role": "definitional GU callout",
+          "claim": "The 'you are in GU' list says the Higgs field comes out of an ad-valued one-form."
+        },
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:42:42--00:43:47",
+          "role": "most explicit spoken mechanism",
+          "claim": "The Higgs is described as a gauge-sector appearance: curvature expansion supplies quartic and quadratic terms, while minimal and Yukawa coupling are claimed to be the same geometric operation up to spin."
+        },
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:45:44--00:55:59; 02:40:24--02:41:39",
+          "role": "standard baseline and Dirac-square placement",
+          "claim": "The conventional Higgs/Yukawa sector is introduced as the artificial vertex; the GU square is then said to contain the Higgs Klein-Gordon and quartic pieces."
+        }
+      ],
+      "formula_source": "WG-2021-DRAFT Section 12.9 equations (12.12)--(12.17) gives a stylized scalar-curvature mass coupling and identifies a spin-zero subspace of an ad-valued one-form; it does not construct the observed doublet.",
+      "native_search_directive": "Retain two typed candidates: Pi_Higgs^varpi(Pi_vert varpi) from the connection used by the fermion/minimal-coupling argument, and Pi_Higgs^T(Pi_vert T) from the homogeneous distortion used by the bosonic action. Derive their relation or non-equivalence before requiring one carrier to enter the first-layer K-paired zero-order block and either source-exact I2_B or conjectural I2_ED Hessian with kinetic, quadratic, quartic, vacuum-orbit, and gauge-mass data.",
+      "boundary": "No source passage identifies varpi with T as a Higgs carrier or supplies either Pi_Higgs map, the physical (1,2)_(1/2) mode, residual pairings, stable potential, VEV selection, photon kernel, realistic Yukawa bilinear, or mirror gap."
+    },
+    {
+      "id": "PSC-DIRAC",
+      "component": "Dirac",
+      "classification": "DIRECT_GU_CARRIER_AND_OPERATOR_PROGRAM",
+      "callouts": [
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:45:44; 01:57:48--02:03:07; 02:40:24--02:41:16",
+          "role": "baseline, complex, and explicit open boundary",
+          "claim": "The standard Dirac equation is displayed; coupled complexes are proposed to play its role; the Dirac piece is explicitly deferred and said to contain Rarita-Schwinger content."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "00:41:50; 02:35:07--02:42:55",
+          "role": "modern carrier and VEV account",
+          "claim": "The Einstein-Dirac first layer, Dirac-Rarita-Schwinger carrier, VEV-induced effective chirality, and rolled 0/1/13/14 sequence are described."
+        },
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:05:43; 00:34:27--00:36:13; 00:46:02",
+          "role": "rolled-complex and variable-mass restatement",
+          "claim": "The first-order layer, rolled Dirac-de Rham-Rarita-Schwinger complex, and VEV-mediated Dirac-to-Weyl splitting are presented."
+        }
+      ],
+      "formula_source": "WG-2021-DRAFT equations (9.18)--(9.20) types the fermionic Euler residual; Section 12.9 gives a stylized zero-order curvature mass term.",
+      "native_search_directive": "Build the minimal odd action on Omega^0(Y,S)+Omega^1(Y,S) as part of the first Einstein-Dirac layer and derive its action current. Its rolled complex must emit the Dirac/RS propagation, K-paired zero-order VEV channel, current, and constraint complex before reduction to X; its full residual must then be tested as the square-root parent of the distinct second Yang-Mills-Higgs action.",
+      "boundary": "The checked source set still does not supply the closed physical odd domain, complete operator/action, current map, zero-order placement, or causal quotient."
+    },
+    {
+      "id": "PSC-SCHRODINGER",
+      "component": "Schrodinger",
+      "classification": "NO_LOCATED_DIRECT_GU_CLAIM",
+      "callouts": [
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:47:35",
+          "role": "nearest quantum context only",
+          "claim": "Quantum mechanics/QFT is described as an additional interpretation whose present formulation may not survive; no Schrodinger equation is proposed."
+        },
+        {
+          "source_id": "WG-2021-ITI-REVEALED",
+          "locator": "00:31:42",
+          "role": "nearest geometric-quantization context only",
+          "claim": "The quantum is discussed as something to geometrize via geometric quantization; this is not a GU-native time-evolution equation."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "00:14:17",
+          "role": "nearest quantum-wave context only",
+          "claim": "A classical phase space is said to bootstrap a medium for quantum waves; no Hamiltonian or Schrodinger evolution law is given."
+        }
+      ],
+      "native_search_directive": "Use the source's geometrize-the-quantum direction rather than copying a Schrodinger equation. After G4 forms the reduced BV/BFV phase space and positive Krein majorant, construct the action-derived Hamiltonian flow and test whether its one-parameter evolution is unitary and can be written i d_t Psi=H_phys Psi on the physical domain.",
+      "boundary": "A literal search of the checked Weinstein GU transcripts found no Schrodinger/Schrödinger occurrence and no GU-native unitary evolution equation. The atlas must retain this as absent, not infer it from Dirac-square or wavefunction language."
+    },
+    {
+      "id": "PSC-WEAK",
+      "component": "Weak force",
+      "classification": "DIRECT_GROUP_THEORETIC_CARRIER_NOT_FORCE_EQUATION",
+      "callouts": [
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:43:47; 02:08:36",
+          "role": "standard gauge group and dark-sector variant",
+          "claim": "SU(2) weak isospin and U(1) weak hypercharge are displayed in the Standard Model breaking pattern; a possible dark weak force is separately proposed."
+        },
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:32:46; 00:40:27--00:46:40",
+          "role": "GU group/representation claim",
+          "claim": "Weak hypercharge/isospin are claimed to arise without separate specification via pullback, maximal-compact reduction, and the Pati-Salam-shaped branch; exact charges are said to be readable after breaking."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "02:50:38--02:53:14",
+          "role": "high-curvature branching claim",
+          "claim": "The broken SU(3) x SU(2) x U(1) representation is said to recombine at a Pati-Salam level in the high-curvature sector."
+        }
+      ],
+      "native_search_directive": "In the stationary quotient Hessian, compute the action-selected maximal compact stabilizer and branch its massless gauge and odd modes without Standard Model labels. Test whether an SU(2) x U(1) sector, chiral current, Higgs incidence, photon-preserving breaking, and W/Z mass block emerge together.",
+      "boundary": "These are group and representation statements. No checked passage separately derives a weak-boson field equation, coupling, W/Z mass matrix, or chiral current."
+    },
+    {
+      "id": "PSC-STRONG",
+      "component": "Strong force",
+      "classification": "DIRECT_GROUP_THEORETIC_CARRIER_NOT_FORCE_EQUATION",
+      "callouts": [
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "00:43:47; 02:08:36",
+          "role": "standard gauge group and dark-sector variant",
+          "claim": "SU(3) color is displayed in the standard gauge group; a possible dark strong force is separately proposed."
+        },
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:40:27--00:46:40",
+          "role": "GU maximal-compact/Pati-Salam claim",
+          "claim": "SU(3) x SU(2) x U(1) is described as a maximal compact subgroup and the color sector as embedded in the Pati-Salam-shaped geometry."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "02:50:38--02:53:14",
+          "role": "high-curvature branching claim",
+          "claim": "SU(3) color is said to sit inside an SU(4)/Spin(6) Pati-Salam recombination with leptons as a fourth color."
+        }
+      ],
+      "native_search_directive": "From the same action-selected maximal compact stabilizer, test whether the massless connection kernel contains an SU(3) color factor with the correct odd-mode incidence and positive kinetic form, then derive its current and nonlinear self-coupling from the reduced native action before studying confinement/running.",
+      "boundary": "The sources do not separately derive a physical gluon quotient, QCD coupling/running, confinement, or the strong-current equation."
+    },
+    {
+      "id": "PSC-DARK-ENERGY",
+      "component": "Dark energy",
+      "classification": "DIRECT_GU_REPLACEMENT_AND_FORMULA",
+      "callouts": [
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:03:06; 00:09:46--00:27:00",
+          "role": "most sustained spoken construction",
+          "claim": "The cosmological term is replaced by an equivariant two-connection distortion field with an automatic differential identity and curvature-responsive VEV."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "02:14:44--02:23:28",
+          "role": "modern definition and DESI context",
+          "claim": "A variable dark-energy replacement, gauge-rotated Levi-Civita displacement, double coset, and schematic varpi/epsilon/olive expression are presented."
+        },
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "01:44:16; 02:09:22--02:10:44",
+          "role": "early VEV/cosmological role",
+          "claim": "A scalar-curvature-driven augmented-torsion VEV is proposed to play the role of the cosmological constant."
+        }
+      ],
+      "formula_source": "WG-2021-DRAFT Section 9.1 equations (9.1)--(9.7) gives T_omega=varpi-epsilon^{-1}d_0 epsilon and the first-order action.",
+      "native_search_directive": "Use T=A-B and the coupled E_T/E_epsilon/E_g system as the native distortion family. Solve a stationary scalar/trace branch, derive its equation-dual observation stress and automatic Ward identity, then identify a light cosmological Hessian mode distinct from the heavy Higgs mode before FLRW/PP3 scoring.",
+      "boundary": "No source derives the observation stress tensor, amplitude, stationary state, FLRW equations, or PP3's quantitative non-phantom/thawing prediction."
+    },
+    {
+      "id": "PSC-DARK-MATTER",
+      "component": "Dark matter",
+      "classification": "DIRECT_REPRESENTATION_SECTOR_CLAIM_NOT_DYNAMICS",
+      "callouts": [
+        {
+          "source_id": "WG-2025-ITI-UCSD",
+          "locator": "00:38:09--00:41:24",
+          "role": "most explicit spectrum claim",
+          "claim": "Nonluminous spinor/Rarita-Schwinger representation sectors are identified structurally, with proposed high-energy/high-curvature recoupling and partially stated charges."
+        },
+        {
+          "source_id": "WG-2025-TOE",
+          "locator": "02:33:47; 02:37:37; 02:50:38--02:53:14",
+          "role": "visibility and recoupling claim",
+          "claim": "Weak coupling/mass/configuration are discussed as hiding mechanisms; luminous and dark matter are said to recouple in high curvature, with new spin-3/2 and spin-1/2 sectors predicted."
+        },
+        {
+          "source_id": "WG-OXFORD-PORTAL",
+          "locator": "02:08:36--02:10:44",
+          "role": "early dark-sector proposal",
+          "claim": "Additional unseen matter with dark electromagnetic, strong, and weak forces is proposed, followed by curvature-dependent sector decoupling."
+        }
+      ],
+      "native_search_directive": "Define the luminous observation image inside the reduced odd complex and study its orthogonal/cohomological complement rather than adding a dark field by hand. Branch the complement under the stationary stabilizer, compute its masses and charges from the shared zero-order operator, and test the claimed high-curvature recoupling as parameter-dependent mixing in the same family.",
+      "boundary": "No checked source supplies a dark-matter mass scale, abundance, stability proof, production history, scattering cross section, or astrophysical/cosmological fit."
+    }
+  ],
+  "components": [
+    {
+      "id": "EM_MAXWELL",
+      "primary_source_callout_ids": ["PSC-MAXWELL"],
+      "standard_job": "Propagate a massless abelian gauge field and couple it to conserved electric current.",
+      "standard_equation": "dF=0; d(*_4 F)=J; F=dA",
+      "native_carrier": "An abelian massless Hessian mode, if one is emitted by the stationary stabilizer of the ambient connection/distortion system.",
+      "native_equation": "Bianchi identity D_A F_A=0 plus the abelian projection of (D L_s)^vee E_A=0 after the stationary Hessian is frozen.",
+      "observation_map": "Construct r_epsilon: ad(P_H)|_(sX)->u(1), L_s^(1), its equation dual, curvature naturality, leakage zero, and the induced physical Hodge operator.",
+      "status": "CANDIDATE_SHADOW",
+      "source_anchors": ["WG-B01", "WG-B04", "WG-SH1", "G2", "G3"],
+      "next_build": "Find stationary native backgrounds and compute the target-blind reduced Hessian; test whether it has a unique closed massless abelian line and derive the current from the same completed action.",
+      "kill": "No canonical abelian quotient, nonzero off-slice leakage, wrong-sign kinetic form, a mass gap, or recovery only after an explicit Maxwell term is restored.",
+      "datum_use": "P1/P2/P3 may label a conditional domain or orientation only; none may select the abelian mode."
+    },
+    {
+      "id": "GAUGE_YANG_MILLS",
+      "primary_source_callout_ids": ["PSC-YANG-MILLS"],
+      "standard_job": "Propagate and self-couple nonabelian gauge fields and receive a covariantly conserved matter current.",
+      "standard_equation": "D_A F_A=0; D_A(*_4 F_A)=J_A",
+      "native_carrier": "Ambient H-connection A with moving reference B and distortion T=A-B.",
+      "native_equation": "E_A=E_T=S_epsilon(F_B)+1/2(L+L^!)T+M_epsilon(T,T)+kappa_1 flat_1(T)=0; D_A F_A=0 remains a kinematic identity.",
+      "observation_map": "Reduce by a stationary stabilizer K, apply the algebraic dual (D L_s)^vee to E_A, quotient gauge directions using the G3 preboundary/BV packet, and compare the reduced principal and subprincipal symbols.",
+      "status": "BUILT_NATIVE_PARENT",
+      "source_anchors": ["WG-SA0", "WG-B01", "WG-B04", "WG-B05", "WG-B06", "G2", "G3"],
+      "next_build": "Ablate conventional curvature-square controls in G3.5, then compute the reduced Hessian and action-derived density-dual matter current in G5.",
+      "kill": "Calling the Bianchi identity dynamics, copying D_A(*F_A), or obtaining the Yang-Mills shadow only from an inserted F^2 comparator.",
+      "datum_use": "No datum selects K, its representation, or its coupling normalization."
+    },
+    {
+      "id": "FORCE_DECOMPOSITION",
+      "primary_source_callout_ids": ["PSC-WEAK", "PSC-STRONG"],
+      "standard_job": "Identify the photon, weak bosons, and gluons with the observed gauge algebra, charges, and kinetic signs.",
+      "standard_equation": "Gauge algebra su(3)+su(2)+u(1) with sector field equations and spontaneous electroweak breaking.",
+      "native_carrier": "Low-energy gauge zero modes of the quotient of the reduced G2/G3 Hessian at a stationary native orbit.",
+      "native_equation": "Kernel and small-eigenvalue complex of the reduced bosonic Hessian, not a separately postulated Standard Model connection.",
+      "observation_map": "Branch the stationary stabilizer representation only after G4 fixes the retract, closed domain, preboundary quotient, and leakage test.",
+      "status": "CANDIDATE_PARENT",
+      "source_anchors": ["WG-SA0", "WG-B01", "WG-A10b", "G3"],
+      "next_build": "Classify the Hessian's massless gauge algebra and its matter incidence without using Standard Model labels; only then compare it with su(3)+su(2)+u(1).",
+      "kill": "Standard Model group or charge labels are required to select the orbit, projector, domain, or retained modes; kinetic signs are indefinite on the physical quotient.",
+      "datum_use": "The external packet cannot contain the gauge algebra or charge table."
+    },
+    {
+      "id": "DIRAC_MATTER",
+      "primary_source_callout_ids": ["PSC-DIRAC"],
+      "standard_job": "Propagate spin-1/2 matter, define its conserved current, and supply the mass/Yukawa bilinear.",
+      "standard_equation": "(i gamma^mu D_mu-m)psi=0 with current j^mu=bar(psi)gamma^mu psi.",
+      "native_carrier": "Omega^0(Y,S) inside Omega^0(Y,S)+Omega^1(Y,S), on a right-H Krein domain.",
+      "native_equation": "Future odd Euler operator D_Y^odd=D_(barPsi)(delta I_full/delta barPsi)|_(Phi_0); physical equation D_X=R_s D_Y^odd L_s with leakage and domain gates.",
+      "observation_map": "Build a closed right-quaternionic Krein domain, source-derived fundamental symmetry/positive majorant, observation retract, and equation-dual current map.",
+      "status": "NATIVE_CARRIER_ONLY",
+      "source_anchors": ["WG-F01", "WG-F08", "WG-F09", "WG-A10b"],
+      "next_build": "Enumerate the minimal target-blind odd G3.5 action terms, freeze one survivor, vary it to obtain propagation and current together, and compose every mass channel with the Krein pairing K.",
+      "kill": "A physical Dirac operator or mass matrix must be copied from the Standard Model, an arbitrary quaternionic imaginary unit supplies positivity, or the observed current is not the derivative of the frozen action.",
+      "datum_use": "P1 may orient a conditional physical domain; it may not insert chirality or a mass matrix."
+    },
+    {
+      "id": "RS_CHIMERIC",
+      "standard_job": "Propagate the spinor-valued one-form sector and control its gamma-trace, gauge, constraint, and causal degrees of freedom.",
+      "standard_equation": "Rarita-Schwinger-type first-order equation with gamma-trace and gauge constraints.",
+      "native_carrier": "Omega^1(Y,S), decomposed by Clifford multiplication Gamma into image and kernel sectors.",
+      "native_equation": "The odd Hessian/Euler complex of the future completed native action; Gamma decomposition is presently kinematic, not dynamics.",
+      "observation_map": "Prove a deformation retract of the physical odd complex, construct the closed constrained domain and normal operator, then reduce its cohomology and causal propagation.",
+      "status": "NATIVE_CARRIER_ONLY",
+      "source_anchors": ["WG-F01", "WG-F02", "WG-F03", "WG-F04", "WG-X01", "WG-X02"],
+      "next_build": "Test target-blind odd action candidates for constraint closure, hyperbolic/ultrahyperbolic admissibility, and compatibility with the G3 preboundary form.",
+      "kill": "The constraints fail to propagate, the physical quotient has ghosts or no closed domain, or generation labels are used to choose the operator.",
+      "datum_use": "P3 remains outside the Gamma block decomposition until a physical Fredholm/readout map exists."
+    },
+    {
+      "id": "HIGGS_EWSB",
+      "primary_source_callout_ids": ["PSC-HIGGS"],
+      "standard_job": "Provide a physical electroweak doublet, a stable potential and VEV, and masses for weak gauge bosons while leaving a photon massless.",
+      "standard_equation": "D_mu D^mu Phi+dV/dPhi=Yukawa source with V=-mu^2|Phi|^2+lambda|Phi|^4.",
+      "native_carrier": "Candidate vertical coefficient res_s^V(T) of the ad-valued one-form/distortion, with the conditional trace-reversed moving-Cartan W4 channel.",
+      "native_equation": "Scalar-sector projection of the stationary reduced G2/G3 Hessian and nonlinear Euler system; no independent Higgs potential is presently derived.",
+      "observation_map": "Construct an action-selected moving complex-Cartan flag, identify a stable (1,2)_(1/2) mode in the Hessian, and compute its gauge incidence and VEV without a fixed Standard Model projector.",
+      "status": "CANDIDATE_PARENT",
+      "source_anchors": ["WG-C02", "WG-SA0", "RB3b", "RB4", "RB5"],
+      "next_build": "Use the same stationary Hessian as the gauge/gravity/cosmology rows to test a heavy scalar mode, its quartic stabilization, photon kernel, and W/Z mass map.",
+      "kill": "Any vertical scalar is simply renamed Higgs; doublet, hypercharge, potential, or VEV is inserted independently; the photon acquires mass; or the scalar direction is a saddle/runaway.",
+      "datum_use": "No datum selects the doublet, Cartan flag, VEV, or electroweak scale."
+    },
+    {
+      "id": "YUKAWA_MASS",
+      "standard_job": "Couple left/right fermion sectors to the Higgs order parameter and produce a constrained mass spectrum.",
+      "standard_equation": "bar(psi_L) Y Phi psi_R+h.c.; M=Y<Phi>.",
+      "native_carrier": "Zero-order part of the same odd operator, using the K-paired vertical channel K e_vertical and eventual P0/rho(Phi)/Y_K/Y_C/C-reality placement.",
+      "native_equation": "Zero-order block of D_Y^odd derived from the completed action; K e_vertical is a channel-admission result, not yet a Yukawa equation.",
+      "observation_map": "Reduce the K-self-adjoint zero-order operator on the physical odd domain and prove the selected scalar incidence, C-reality, mirror gap, and flavour surplus.",
+      "status": "CANDIDATE_PARENT",
+      "source_anchors": ["WG-F08", "WG-F09", "SA-Y1", "RB3b"],
+      "next_build": "Write the minimal zero-order action term, vary it, and derive P0/rho/Y_K/Y_C/C placement rather than entering free Yukawa matrices as the native answer.",
+      "kill": "A free Standard Model Yukawa table is needed to define the native operator, the K-paired bilinear has the wrong reality/chirality incidence, or mirrors remain ungapped.",
+      "datum_use": "P2 may become a typed zero-order orientation/channel datum only after its incidence map is constructed; it may not contain flavour values."
+    },
+    {
+      "id": "EINSTEIN_GRAVITY",
+      "primary_source_callout_ids": ["PSC-EINSTEIN"],
+      "standard_job": "Propagate two massless spin-two polarizations and couple universally to conserved stress-energy.",
+      "standard_equation": "G_mn+Lambda g_mn=8 pi G T_mn.",
+      "native_carrier": "The metric/reduction graph owners g_DW and epsilon_red coupled to B=A_LC(epsilon_red,g_DW), T, and the G2 action.",
+      "native_equation": "Exact graph-return equation E_g=0 together with E_epsilon=0 and E_A=0; the four-dimensional Einstein tensor is only a candidate reduced shadow.",
+      "observation_map": "Form E_g^X=(D L_s^g)^vee E_g, quotient gauge/preboundary degeneracies, linearize at a stationary orbit, and compare the spin-two symbol, source incidence, and Newton normalization.",
+      "status": "BUILT_NATIVE_PARENT",
+      "source_anchors": ["WG-SA0", "WG-SH1", "G2", "G3"],
+      "next_build": "Extract the spin-two block from the shared reduced Hessian and test two physical modes, correct sign, two-derivative low-energy symbol, and universal action-derived stress coupling.",
+      "kill": "No massless spin-two quotient, wrong kinetic sign, nonuniversal source, extra propagating ghost, or Einstein behavior only after an explicit Einstein-Hilbert comparator is restored.",
+      "datum_use": "No datum sets Newton's constant or selects the spin-two block."
+    },
+    {
+      "id": "STRESS_CONSERVATION",
+      "standard_job": "Ensure source conservation required by gauge invariance and diffeomorphism invariance.",
+      "standard_equation": "nabla_mu T^(mu nu)=0; D_mu J^mu=0.",
+      "native_carrier": "The complete set of G3 Euler covectors for A, epsilon, g, and all later matter owners.",
+      "native_equation": "Coupled Ward identity <E_A,-D_A chi>+<E_epsilon,chi epsilon>+boundary=0, extended when matter and diffeomorphism owners are added.",
+      "observation_map": "Descend the complete identity through the equation-dual observation map and preboundary quotient; do not isolate one Euler row off shell.",
+      "status": "BUILT_IDENTITY_ONLY",
+      "source_anchors": ["G3"],
+      "next_build": "Add the G5 odd action and current, recompute the joint Ward identity, and prove its four-dimensional descent including boundary flux.",
+      "kill": "Claiming isolated connection-current conservation while epsilon/g/matter Euler terms or boundary flux remain nonzero.",
+      "datum_use": "No datum may repair a failed Ward identity."
+    },
+    {
+      "id": "COSMO_DISTORTION",
+      "primary_source_callout_ids": ["PSC-DARK-ENERGY"],
+      "standard_job": "Provide the gravitational vacuum/order-parameter contribution usually represented by a cosmological term, with a dynamical amplitude and stress owner.",
+      "standard_equation": "G_mn+Lambda g_mn=8 pi G T_mn with a state-dependent vacuum sector.",
+      "native_carrier": "Gauge-rotated Levi-Civita displacement/distortion T, matching the transcript's varpi/olive-connection grammar at proposal level.",
+      "native_equation": "The exact coupled E_T=E_epsilon=E_g=0 system and its scalar/trace blocks at a stationary native state.",
+      "observation_map": "Define I_red=I_Y[L_s fields], T_obs=-(2/sqrt|g|) delta I_red/delta g, then restrict the stationary scalar modes to homogeneous cosmology.",
+      "status": "CANDIDATE_SHADOW",
+      "source_anchors": ["WG-DE1", "WG-DE2", "WG-DE3", "G2", "G3"],
+      "next_build": "Use the shared Hessian to separate the heavy Higgs-like and light cosmological scalar modes, identify the amplitude owner, and derive observation stress before evaluating w(z).",
+      "kill": "A nonzero distortion is equated with dark energy without stress/amplitude, one eigenmode is forced to be both Higgs and H0, or a fitted vacuum counterterm is added.",
+      "datum_use": "P1 may choose a sign/orientation branch only after the native state family exists; it cannot set the vacuum amplitude."
+    },
+    {
+      "id": "FLRW_PP3",
+      "primary_source_callout_ids": ["PSC-DARK-ENERGY"],
+      "standard_job": "Produce homogeneous expansion histories and a falsifiable dark-energy equation of state.",
+      "standard_equation": "H^2=(8 pi G/3)rho-k/a^2; dot(H)=-4 pi G(rho+p)+k/a^2; w(z)=p/rho.",
+      "native_carrier": "Homogeneous observation-sector reduction of the action-derived metric/distortion stress in a selected stationary state.",
+      "native_equation": "FLRW restriction of (D L_s)^vee(E_g,E_epsilon,E_T)=0 after the observation stress and domain are constructed.",
+      "observation_map": "Reduce only after G4 and the stationary Hessian; define observables H(z), rho(z), p(z), and w(z) from the same reduced action.",
+      "status": "DOWNSTREAM_TEST",
+      "source_anchors": ["WG-DE1", "WG-DE2", "WG-DE3", "PP3"],
+      "next_build": "After amplitude ownership and the two scalar modes are established, derive the homogeneous equations and submit the frozen PP3 sign/shape prediction to data without refitting.",
+      "kill": "Using DESI/PP3 to select the action, background, scalar projector, or sign before derivation; or claiming a transcript-level numerical prediction that the source does not state.",
+      "datum_use": "The pre-existing PP3 prediction is a downstream test, not construction data."
+    },
+    {
+      "id": "QUANTUM_BV",
+      "primary_source_callout_ids": ["PSC-SCHRODINGER"],
+      "standard_job": "Resolve gauge redundancy, define the physical phase space/measure, and support unitary or positive probabilistic evolution on the observable sector.",
+      "standard_equation": "Classical/master equation (S,S)=0, BFV boundary charge, and quantum master/anomaly conditions.",
+      "native_carrier": "G3 preboundary potential/current and ordinary-gauge minimal BV action through antifield number one.",
+      "native_equation": "S_min=I_G2+<A^+,-D_A c>+<epsilon^+,c epsilon>+<c^+,1/2[c,c]> on the currently resolved gauge sector.",
+      "observation_map": "Complete diffeomorphism, matter, RS/super-IG, reducibility, boundary BFV, closed Krein domain, fundamental symmetry, and preboundary-kernel quotient.",
+      "status": "PARTIAL_BV",
+      "source_anchors": ["G3"],
+      "next_build": "Use G4 to construct the boundary/domain quotient and G5 to extend the BV complex with the frozen odd action before any quantum or unitarity claim.",
+      "kill": "CME/QME fails for the completed owner set, the physical quotient retains negative-norm modes, or positivity requires an arbitrary extra complex structure.",
+      "datum_use": "A datum may orient/select a declared admissible domain but cannot cancel a computed anomaly."
+    },
+    {
+      "id": "ANOMALY_CONSISTENCY",
+      "standard_job": "Test whether the emitted chiral gauge/fermion quantum theory is globally and locally consistent.",
+      "standard_equation": "Vanishing local anomaly polynomial and trivial determinant/Pfaffian anomaly line/holonomy.",
+      "native_carrier": "The eventual physical BV cohomology and determinant/Pfaffian line of the reduced odd complex.",
+      "native_equation": "No native replacement equation; this is a downstream obstruction class of the constructed quantum complex.",
+      "observation_map": "Compute the anomaly class only after the physical group, representation, chirality, domain, and family are emitted by the frozen construction.",
+      "status": "DOWNSTREAM_TEST",
+      "source_anchors": ["SA-C2", "SA-U4", "canon anomaly results"],
+      "next_build": "After G5 and low-energy mode identification, construct the determinant/Pfaffian family and evaluate local plus global anomaly classes without changing the spectrum afterward.",
+      "kill": "A nontrivial anomaly remains, or anomaly cancellation is used to choose the spectrum and then reported as an independent prediction without a surplus accounting.",
+      "datum_use": "No finite datum is allowed to erase an anomaly class; supplied representation data must be debited before surplus scoring."
+    },
+    {
+      "id": "GENERATION_INDEX",
+      "primary_source_callout_ids": ["PSC-DARK-MATTER"],
+      "standard_job": "Explain or conditionally encode the number and inequivalence of observed fermion generations.",
+      "standard_equation": "Index/cohomology/readout of a closed physical fermion complex; not a local propagation equation.",
+      "native_carrier": "Omega^0(Y,S)+Omega^1(Y,S) with Gamma-image/kernel provenance sectors and a future closed Fredholm family.",
+      "native_equation": "Family index or typed readout of the reduced physical odd complex after G4/G5; the current block decomposition is not a count.",
+      "observation_map": "Prove a physical deformation retract and Fredholm domain, then attach P3 at the declared index/readout map and test stability under allowed deformations.",
+      "status": "DOWNSTREAM_TEST",
+      "source_anchors": ["WG-F02", "WG-F03", "WG-F04", "WG-X01", "WG-X02", "P3"],
+      "next_build": "Construct the odd complex and domain first; only then calculate its index/cohomology and determine whether P3 is consumed, reduced, or contradicted.",
+      "kill": "Reading three from three blocks, complex length, torsion order, or a supplied label; or allowing P3 to select the operator/domain whose count it later 'predicts'.",
+      "datum_use": "P3 is carried intact and consumed only at a typed physical index/readout map."
+    },
+    {
+      "id": "EXTERNAL_DATUM_OBSERVATION",
+      "standard_job": "Specify the finite orientation/channel/count choices and the physical observation slice without using them to fit the dynamics.",
+      "standard_equation": "A conditional family (I_d,E_d,L_d,R_d,D_d) over declared finite datum d, with R_d L_d=1 and zero leakage.",
+      "native_carrier": "P1/P2/P3 plus the section/retract/domain packet connecting Y to X.",
+      "native_equation": "For every d: E_d=(D L_d)^vee E_Y=0; data are consumed only by typed orientation, channel, domain, or index maps. Riesz-primalized form: sharp_X E_d=(D L_d)^! sharp_Y E_Y.",
+      "observation_map": "Construct L_d,R_d, their differential intertwining, equation dual, closed right-H Krein domain, positive majorant, and preboundary quotient before identifying particles.",
+      "status": "CANDIDATE_PARENT",
+      "source_anchors": ["G3", "G4", "P1", "P2", "P3"],
+      "next_build": "Implement G4 as a finite family over P1/P2/P3, report which arrows depend on which datum, and run all later Hessian/current/index tests uniformly across the family.",
+      "kill": "The datum contains a Standard Model group, charge table, Yukawa matrix, cosmological amplitude, or target projector; or the observation map has leakage/no closed domain.",
+      "datum_use": "This row is the typed ownership ledger: P1 orientation, P2 channel type still to be constructed, P3 count readout only."
+    }
+  ]
+}

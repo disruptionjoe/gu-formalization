@@ -1,0 +1,111 @@
+{
+  "artifact": "ECW3D_B2C15R2_FULL_BCH_ACTION_GAUGE_CURVATURE_ADJOINT",
+  "status": "PARTIAL_CONSTRUCTION_PASS_WITH_FULL_LINEAR_BRIDGE_BCH_PROJECTED_COVARIANT_SPLIT_ACTION_CANDIDATE_ORDER_THREE_CURVATURE_CANCELLATION_LIVE_A2_Z0_SUBROUTE_AND_OBSERVATION_SUPPORT_STOP",
+  "run": "RUN-20260802-104349-gu-formalization-ecw3d-b2c15r2-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "connection_objects": [
+      "source distortion T",
+      "linear reduction coordinate u(T)",
+      "pure Maurer-Cartan h-part q_MC",
+      "background-covariant reduced connection q_B",
+      "tensorial connection difference K_u=q_B-B"
+    ],
+    "action_objects": [
+      "Weinstein first action I1",
+      "rejected bare lambda_red pairing",
+      "coefficient-free split substitution (B,T) to (B+K_u,T-K_u) at fixed total connection"
+    ],
+    "observation_objects": [
+      "field pullback",
+      "ordinary pullback of a thirteen-form",
+      "properly supported ten-fibre Gysin",
+      "dual of a specified observation-variation lift",
+      "physical four-dimensional equation"
+    ]
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "the written first action pairs the homogeneous distortion T with the completed Shiab residual",
+      "the one-half and one-third transgression terms and the trace-reversed Frobenius fibre pairing",
+      "field pullback and observation-section language"
+    ],
+    "SOURCE_CORRECTS": [
+      "Xi=D_omega Upsilon is a redundancy target rather than a supplied off-shell Ward identity",
+      "field pullback is not a supplied Euler-covector pushdown",
+      "q_MC, q_B, K_u, and source T are different objects"
+    ],
+    "SOURCE_SILENT": [
+      "the repository reduction, full BCH resummation, c3:c11, q_B, and K_u",
+      "the covariant split embedding and its complete native first variation",
+      "a selected observation lift, proper-support law, no-leakage theorem, BV quotient, and analytic domain"
+    ]
+  },
+  "full_bch": {
+    "scope": "fixed coefficients, parallel Hodge volume, linear grade-3/11 bridge, and matching Hodge pair in du",
+    "theorem": "pr_h(exp(-u)d exp(u))=-Delta pr_2[ad_A phi(Delta ad_A^2)dA], where Delta=c3^2-c11^2 and phi(z)=sum z^k/(2k+2)!",
+    "two_blade_fixture": "q_MC=((1-cos(2 sqrt(Delta)))/2)e23",
+    "hodge_null_branches": "c11=plus/minus c3 vanish to all orders within the controlled linear bridge",
+    "reductive_boundary": "the splitting is reductive but not symmetric; a live grade-six bracket is explicit",
+    "nonlinear_plant": "an independent fixed grade-seven completion distinguishes same-Delta coefficient pairs already at quadratic-plus-quartic order",
+    "selection_boundary": "the written split action sees at most Delta; the coefficient ratio is unobserved in this sector, not globally proved gauge or redundant"
+  },
+  "covariant_split_action": {
+    "connection": "K_u=-Delta pr_2[ad_A phi(Delta ad_A^2)D_B A] and q_B=B+K_u",
+    "tensorial_difference": "K_u=q_B-B; pr_2 removes a live grade-six impostor and is equivariant under all 91 reduced grade-two h/Spin generators, not yet the full source H/Sp bundle",
+    "gauge_result": "q_B has the projected reduced h/Spin connection law and K_u transforms tensorially in the controlled fixture; raw dA fails, while full source H/Sp equivariance remains in the same-bundle gate",
+    "preferred_placement": "apply (B,T) to (B+K_u,T-K_u) while holding the total source connection fixed inside the existing first-action grammar",
+    "new_action_coefficient": "NONE",
+    "fixed_weights": "the one-half and one-third terms retain their affine-segment identity",
+    "finite_response": "a generic independently chosen G2 split direction has central first response -15 and is invariant under common conjugation while the endpoint connection and curvature stay fixed",
+    "same_bundle_stop": "embedding the reduced h-connection into the source adjoint bundle, proving Cech descent, and substituting the actual derived K_u(T) into the finite/native action remain unbuilt",
+    "physical_surplus": "UNCOMPUTED"
+  },
+  "owner_and_green": {
+    "driver": "R_B=E_B-E_T",
+    "leading_K_owner": "direct 331/28 = bulk 415/28 + boundary -3",
+    "native_boundary": "this is the exact leading differential-owner comparator; the full-series source-coordinate first variation is open"
+  },
+  "curvature_order": {
+    "principal_cancellation": "the first-order Zorro cross-block is a pure-gauge total-metric variation and is killed by the curvature principal symbol",
+    "order_three": "CANCELLED",
+    "effective_order_two": "OPEN_PENDING_A1_Z1_AND_SUBPRINCIPAL_ASSEMBLY",
+    "observed_riemann_ranks": [6, 6],
+    "full_A2_Z0_trace_adapted_shiab_ranks": [10, 4],
+    "sequential_green": "direct 30871333/360360 = bulk 89610013/360360 + inner boundary 146 + outer boundary -309",
+    "formal_adjoint": "the direct order-two adjoint equals the sequential curvature then Zorro adjoint; the cubic coefficient is zero and the quadratic coefficient has rank two in the comparator",
+    "coefficient_motion": "order-one moving Shiab/Hodge/density/Krein/lowerer slots can differentiate background curvature to a total-metric third jet, generically a base-metric fourth jet through first-order Zorro",
+    "scope_boundary": "the full A2 o Z0 principal-curvature subroute is live, but A1 o Z1 and subprincipal terms can alter or cancel the effective order-two symbol; the sequential exact fixture is a structural comparator, not the complete native tensor coefficient assembly"
+  },
+  "observation": {
+    "ordinary_pullback": "a thirteen-form pulls back to zero on X4",
+    "gysin_degree": "four (3,10) legs survive degree and nine (4,9) legs are killed",
+    "support_stop": "the Lorentz-metric fibre is noncompact and transitive; no nonzero invariant compactly supported scalar cutoff is canonically available",
+    "equation_dual": "a horizontal lift can select the four Gysin legs while a soldered vertical block sees the other nine; dual overlap descent passes only after the lift is supplied",
+    "leakage": "R L=1 does not imply no leakage",
+    "status": "OPEN_TYPED_STOP"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "P1/P2 is an orientation line over a configuration loop, not metric-fibre support; no existing datum supplies bundle descent, a selected lift, support, or no leakage"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 30,
+    "source_receipts": 6,
+    "type_level": 23,
+    "planted": 21,
+    "total": 80,
+    "status": "PASS_THREE_HOSTILE_SPECIALIST_REVIEWS"
+  },
+  "open": [
+    "construct the same-bundle embedding and Cech descent of q_B and K_u into the source adjoint bundle",
+    "substitute full K_u into the actual first action and derive the complete native source-coordinate first variation, Green terms, and finite gauge/Ward identity",
+    "assemble A1 o Z1 and every subprincipal curvature/coefficient term to determine the complete effective order-two symbol and its cancellations",
+    "derive dynamical decay or proper support, or construct a geometrically selected observation-equation lift with overlap descent and no leakage",
+    "only then compute physical constraint rank and surplus",
+    "retain nonlinear odd-grade completion as an explicit rival if the linear route remains Delta-blind"
+  ],
+  "next_gate": "ECW3D-B2C15R3-SAME-BUNDLE-COVARIANT-SPLIT-NATIVE-FIRST-VARIATION-AND-OBSERVATION-SUPPORT"
+}

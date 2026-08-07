@@ -727,6 +727,1585 @@ updated_at: "2026-08-06"
 > Hodge/pairing/density variation, full-`H` descent or honest reduction, and a
 > common Green-domain precheck. Wave 3 remains closed.
 
+> **2026-08-05 PW2F-R2B2B2I2 THIRD APPEND-ONLY SIZE-SIX ORBIT
+> CERTIFIED; 374 REPRESENTATIVES REMAIN.** The committed `5/380` predecessor
+> ledger is byte-pinned before output-blind selection. The next canonical key
+> is owners `(0,0)` at quartic point `(0,0,3,1)`. Its six-label orbit passes
+> all twelve non-self generator edges; geometry, `Phi1`, `Phi2`, Hodge,
+> residual, moving primalizer, and action each pass `48/48`; all mixed controls
+> pass `6/6`; the obsolete forward lift rejects. Exact mixed actions are
+> `749/144`, `-1499/288`, `749/144`, `-203/288`, `3379/288`, and `4675/288`.
+>
+> Durable coverage is exactly `6/380`. The six dense heldout inputs remain
+> frozen but `0/6` executed. The engine is unpromoted, the 1,925-cell fallback
+> stays live, and `I1 A4` and `I2B C4` remain separate and unassembled. Resume
+> at `PW2F-R2B2B2I2-RESUMABLE-REMAINING-374-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-resumable-third-size6-full-evaluator-certificate-2026-08-05.md`.
+
+> **2026-08-05 PW2F-R2B2B2I2 SECOND APPEND-ONLY SIZE-SIX ORBIT
+> CERTIFIED; 375 REPRESENTATIVES REMAIN.** The committed `4/380` predecessor
+> ledger is byte-pinned before output-blind selection. The next canonical key
+> is owners `(0,0)` at quartic point `(0,0,2,2)`. Its six-label orbit passes
+> all twelve non-self generator edges; geometry, `Phi1`, `Phi2`, Hodge,
+> residual, moving primalizer, and action each pass `48/48`; all mixed controls
+> pass `6/6`; the obsolete forward lift rejects. Exact mixed actions are
+> `-31/144`, `-697/144`, `-31/144`, `-409/144`, `871/72`, and `1015/72`.
+>
+> Durable coverage is exactly `5/380`. The six dense heldout inputs remain
+> frozen but `0/6` executed. The engine is unpromoted, the 1,925-cell fallback
+> stays live, and `I1 A4` and `I2B C4` remain separate and unassembled. Resume
+> at `PW2F-R2B2B2I2-RESUMABLE-REMAINING-375-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-resumable-second-size6-full-evaluator-certificate-2026-08-05.md`.
+
+> **2026-08-05 PW2F-R2B2B2I2 RESUMABLE COVERAGE LEDGER CREATED; FIRST
+> UNCOVERED SIZE-SIX ORBIT CERTIFIED; 376 REPRESENTATIVES REMAIN.** The
+> append-only ledger chains to the byte-pinned durable `3/380` predecessor and
+> selects the next representative before evaluator output: owners `(0,0)` at
+> quartic point `(0,0,1,3)`. Its complete six-label orbit passes all twelve
+> non-self generator edges. Geometry, `Phi1`, `Phi2`, Hodge, residual, moving
+> primalizer, and action each pass `48/48`; all mixed controls pass `6/6`; the
+> obsolete forward lift rejects. Exact mixed actions are `-523/144`,
+> `-1379/288`, `-523/144`, `-1235/288`, `3499/288`, and `3643/288`.
+>
+> Durable coverage is exactly `4/380`. Six dense heldout inputs are now frozen
+> outside the lattice but remain `0/6` executed. The engine is unpromoted, the
+> 1,925-cell fallback stays live, and the two banks remain separate and
+> unassembled. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-376-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-resumable-first-size6-full-evaluator-certificate-2026-08-05.md`.
+
+> **2026-08-05 PW2F-R2B2B2I2 AFFINE FIRST-MOVING LAYER AND FIRST
+> NON-FIXED SIZE-THREE ORBIT CERTIFIED; 377 REPRESENTATIVES REMAIN.** Every
+> one of ten owners at the zero plus four coordinate conormal directions
+> passes both S3 generators through geometry, eight moving Shiab families,
+> residual, moving primalizer, and action derivative: `50/50` basis cases,
+> `2/2` dense affine spans, `100/100` generator edges, and `800/800` moving
+> family checks. The affine origin is essential; the obsolete forward lift
+> rejects.
+>
+> Output-blind lexicographic selection then chooses the first non-fixed
+> three-cell orbit, owners `(0,0)`, `(4,4)`, and `(7,7)` at quartic point
+> `(0,0,0,4)`. All six directed edges pass every full-evaluator layer
+> `24/24`; mixed liveness and moving-Hodge controls pass `3/3`; exact mixed
+> actions are `-727/144`, `-727/144`, and `107/9`. Durable coverage is now
+> exactly `3/380`. The engine remains unpromoted, the 1,925-cell fallback
+> remains live, and the two banks remain separate and unassembled. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-377-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate-2026-08-05.md`.
+
+> **2026-08-05 PW2F-R2B2B2I2 FULL EVALUATOR CERTIFIED ON THE COMPLETE
+> S3-FIXED ORBIT STRATUM; THE OTHER 378 REPRESENTATIVES REMAIN OPEN.** The
+> exact 1,925-label resolver has two one-cell orbits, `(9,9;0,0,0,4)` and
+> `(9,9;1,1,1,1)`. Both fixed labels pass the reflection and three-cycle
+> through every mixed geometry, `Phi1`, `Phi2`, Hodge, Shiab residual, moving
+> primalizer, and action slot: `16/16` per layer. Mixed residual, primalizer,
+> action, and both moving-Hodge controls are live; exact mixed actions are
+> `215/8` and `87/16`. The durable probe passes
+> `19 exact + 2 source + 8 type + 6 planted = 35`.
+>
+> This is complete coverage of the fixed stratum but only `2/380`
+> representatives. The reduction engine remains unpromoted, the unconditional
+> 1,925-cell fallback remains live, and neither `I1 A4` nor `I2B C4` is
+> assembled. Resume at
+> `PW2F-R2B2B2I2-RESUMABLE-REMAINING-378-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i2-s3-fixed-orbit-full-evaluator-certificate-2026-08-05.md`.
+
+> **2026-08-04 PW2F-R2B2B2I1 BOTH S3 GENERATORS CERTIFIED ON THE
+> UNIVERSAL OWNER/CONORMAL GEOMETRIC-TRANSPORT LAYER.** The exact reflection
+> and three-cycle preserve `G4` and active `ETA`, biject all ten `Sym2`
+> owners, transport the DeWitt base tensor plus all `10` first and `100`
+> ordered second owner derivatives, close all `40` connection-column
+> generators and `10` normalized-trace owner directions, and preserve the
+> nonlinear Zorro metric, symmetric coframe, trace, and density on a dense
+> held-out. The complete `55 x 35 = 1,925` label grid has 380 S3 orbits with
+> census `{1:2,3:115,6:263}`, independently confirmed by Burnside.
+>
+> This admits but does not promote a 380-representative evaluator. Universal
+> `Phi`/Hodge/Shiab, residual, moving-primalizer, and action evaluation remain
+> unexecuted at durable grade, so the unconditional 1,925-cell-per-bank
+> fallback remains live and neither `I1 A4` nor `I2B C4` is promoted. Resume
+> at
+> `PW2F-R2B2B2I1-REMAINING-EVALUATOR-LAYERS-ON-ORBIT-REPRESENTATIVES-PLUS-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i1-s3-geometric-transport-certificate-2026-08-04.md`.
+
+> **2026-08-04 PW2F-R2B2B2I COMPLETE C4-BANK PROMOTION STOPS AT THE
+> UNIVERSAL OWNER/CONORMAL COVERAGE GATE.** A complete conditional-active bank
+> has `55` symmetric pairs of ten metric owners and `35` homogeneous quartic
+> conormal monomials, hence `1,925` cells per action. The accepted H and H2
+> receipts exercise one shared owner/conormal pair; their parameterized
+> constructors remain valid, but no accepted all-owner lattice certificate or
+> bank-preserving symmetry reduction closes the remaining `54` owner pairs and
+> `34` lattice settings. The exact probe passes `11 exact + 2 source + 11 type
+> + 6 planted = 30`.
+>
+> Neither `I1 A4` nor the separate `I2B C4` bank is promoted, and this is not
+> a theorem that either bank vanishes or cannot exist. A bounded serial H2
+> replay passed source/type prechecks but remained inside the first mixed Shiab
+> kernel after more than five minutes, so no unbounded `1,925`-cell grid was
+> launched. Resume at
+> `PW2F-R2B2B2I1-UNIVERSAL-OWNER-CONORMAL-COVERAGE-ENGINE-THEN-SEPARATE-C4-BANKS`:
+> prove an exact owner-pair symmetry reduction or build a validated sparse,
+> resumable evaluator, then assemble the two banks separately before
+> Green/Helmholtz. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2i-separate-conditional-active-c4-banks-2026-08-04.md`.
+
+> **2026-08-04 PW2F-R2B2B2H4 PUBLIC-SOURCE REAL-FORM PORT EXITS
+> EVIDENCE SCOPE; SEPARATE CONDITIONAL-ACTIVE C4 BANKS NEXT.** Exact inertia
+> and reality checks obstruct a literal source-directed `(7,7)` to active `(9,5)` real
+> identification: the real Clifford carriers are `M(128,R)` versus
+> `M(64,H)`, the minimal real modules have dimensions 128 versus 256, and
+> every real intertwiner between square-`+1` and square-`-1` realities is
+> zero. Both sides still share the `M(128,C)` complex container, but that is
+> not a real/right-H bundle port.
+>
+> PW1's surviving two-stage moving-J construction remains open. The pinned
+> public-source packet supplies none of the global transition, classifying,
+> odd-Chern, `P_H`-to-`P_nat`, Spin/DeWitt/Clifford/soldering, or descent data
+> required to evaluate it. H4 therefore earns a source-attribution
+> `EVIDENCE_SCOPE_EXIT`, not a global nonexistence theorem. Resume at
+> `PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS-THEN-MULTIINDEX-GREEN-HELMHOLTZ`;
+> build both banks separately and do not call either source-derived.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h4-source-active-real-form-scope-exit-2026-08-04.md`.
+
+> **2026-08-04 PW2F-R2B2B2H3 CONDITIONAL LOCAL SOURCE-EPSILON
+> CONNECTION/CURVATURE/OPERATOR ORBIT CLOSED; GLOBAL REAL-FORM PORT NEXT.**
+> An independent exact noncommuting connection fixture proves
+> `F(epsilon^-1 Gamma epsilon + epsilon^-1 d epsilon) =
+> epsilon^-1 F(Gamma) epsilon` through a live mixed slot. Omitting the
+> Maurer--Cartan term leaves a four-entry defect. On the conditional active
+> Spin(9,5) port, the curvature jet has coordinates `(360,132,121,121)`, the
+> explicitly moved trace/Phi/Hodge/projector/Shiab graph equals transport,
+> and the residual jet has `(13,2,2,2)` coordinates. Curvature-only and
+> operator-only routes are separately live, while the fully co-moving
+> residual norm is exactly `(981/64,0,0,0)`.
+>
+> This closes only the local conditional source orbit. The public-source to
+> active real-form bundle morphism and descent atlas remain open, so neither
+> 35-monomial `I1 A4` nor `I2B C4` bank is assembled. Resume at
+> `PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS`
+> before multi-index Green/Helmholtz, the live C3 return, or projective
+> classification. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-2026-08-04.md`.
+
+> **2026-08-04 PW2F-R2B2B2H2 FIXED-BACKGROUND I2B SECOND
+> RESIDUAL/PRIMALIZER/PAIRING JET CLOSED; GLOBAL SOURCE-EPSILON CURVATURE
+> GRAPH NEXT.** The accepted mixed Shiab operator now acts on the active
+> 13-coordinate off-shell residual through the exact nonlinear Zorro
+> coframe. Its moving Hodge/primalizer pairing has base norm `981/64` and jet
+> `(981/64,0,4293/128,0)`. The direct mixed residual-square coefficient is
+> `-103/256`, exactly the sum of all five off-shell Hessian families; three
+> routes are live and the two zeros are exact. Frozen-primalizer,
+> omitted-mixed-residual, planted-`D2R`, positive-Hilbert, and bank-promotion
+> controls reject.
+>
+> This closes only the fixed-background second-jet dependency on the scoped
+> pair. The complete global/source-epsilon curvature graph remains open, so
+> neither 35-monomial `I1 A4` nor `I2B C4` bank is assembled. Resume at
+> `PW2F-R2B2B2H3-COMPLETE-SOURCE-EPSILON-CURVATURE-GRAPH-THEN-SEPARATE-C4-BANKS`
+> before multi-index Green/Helmholtz, the live C3 return, or projective
+> classification. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h2-complete-i2b-second-residual-primalizer-pairing-2026-08-04.md`.
+
+> **2026-08-04 PW2F-R2B2B2H MIXED TRACE/PHI/HODGE/SHIAB OPERATOR JET
+> CLOSED; DISTINCT I2B SECOND PRIMALIZER NEXT.** An exact sparse
+> `(1,r,s,rs)` construction now composes the nonlinear Zorro metric, moving
+> Clifford `Phi1/Phi2`, full density/inverse-metric Hodge map, geometric
+> normalized trace, and projected Shiab response. All 196 Clifford relations,
+> both accepted first-Hodge and first-Shiab comparisons, Hodge square, owner
+> swap, and curvature linearity pass. The mixed Shiab slot is live in 515
+> coordinates; frozen-trace and omitted-Hodge-cross plants both change it.
+>
+> This closes only the scoped conditional active operator dependency. The
+> 35-monomial `I1 A4` bank is not assembled, and distinct off-shell `I2B C4`
+> remains blocked on its complete second residual-primalizer/pairing jet.
+> Resume at
+> `PW2F-R2B2B2H2-COMPLETE-I2B-SECOND-PRIMALIZER-PAIRING-THEN-C4-BANKS`;
+> construct that jet before separate banks, multi-index Green/Helmholtz, the
+> live C3 return, or projective classification. P1/P2/P3 remain unused; Curt
+> stays formally separate; `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2h-mixed-shiab-second-jet-2026-08-04.md`.
+
+> **2026-08-03 PW2F-R2B2B2G NORMALIZED-TRACE TRANSPORT PASS; FULL C4
+> INTERPOLATION BLOCKED ON THE MIXED SHIAB JET.** The geometric trace
+> `t(g)=g/2` is now transported through the same exact nonlinear Zorro
+> symmetric coframe used by R2B2B2F. Across trace-diagonal, off-diagonal, and
+> mixed owner/conormal cases, all six first slots agree with an independent
+> full-metric moving-`Phi` derivative, the norm jet is exactly `(-1,0,0,0)`,
+> and the mixed trace slot is live in all three cases. Five directional slots
+> also show a live Zorro-horizontal correction beyond the older pure-metric
+> trace fixture.
+>
+> This blocks, rather than licenses, the complete quartic interpolation. The
+> accepted moving-Shiab constructor is first-order only and has no mixed
+> trace/Phi/Hodge/Shiab input. Therefore full `I1 A4` is
+> `BLOCKED_ON_MIXED_SHIAB_JET`; distinct off-shell `I2B C4` remains separately
+> `BLOCKED_ON_COMPLETE_SECOND_PRIMALIZER_JET`. Resume at
+> `PW2F-R2B2B2H-MIXED-SHIAB-SECOND-JET-THEN-FULL-A4-I2B-C4`; construct both
+> complete second jets before the 35-monomial banks, multi-index Green /
+> Helmholtz checks, live C3 return, or projective classifier. P1/P2/P3 remain
+> unused; Curt stays formally separate; `TG-1 AND TG-2 AND TG-3` remains
+> unpromoted. See
+> `explorations/pw2fr2b2b2g-full-a4-multiindex-green-distinct-i2b-c4-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B2F FROZEN-SHIAB RAW-DENSITY COMPARATOR; FULL
+> A4/GREEN STILL REQUIRED.** The written
+> `F_B+(1/2)D_B T+(1/3)[T,T]` transgression agrees with an independent
+> curvature-path integral under the declared probe convention
+> `[T,T]_probe:=T wedge T`; the source bracket normalization remains unported.
+> A degree-five max-plus ledger and direct
+> full-polynomial density derivative support two exact comparator rows:
+> `(A4,M4)=(3/40,-8/25)` and `(-9/50,0)`. Their projective row rank is two, so
+> this frozen-Shiab raw-density representative has no common scalar ratio.
+>
+> Hostile review caught the boundary: this is not yet an Euler-operator
+> obstruction. The off-diagonal raw density can differ by a total divergence,
+> and the symmetric coframe has not been proved adapted to Shiab's normalized
+> DeWitt trace insertion. Resume at
+> `PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4`: transport the
+> moving trace, complete `A4`, perform the four-dimensional multi-index/Krein
+> Green and Helmholtz reduction, then rerun the projective classifier and
+> assemble `I2B C4`. P1/P2/P3 remain unused; Curt stays formally separate;
+> `TG-1 AND TG-2 AND TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2f-i1-transgression-projective-kappa-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B2E CONDITIONAL ACTIVE PRINCIPAL U4 CEILING ZERO;
+> A4 AND KAPPA1 NEXT.** An exact nonlinear two-wave Zorro metric and corrected
+> symmetric-coframe connection now reproduce all ten accepted principal owner
+> tangents. Frame metricity, independent action differentiation, and three
+> off-diagonal independent-conormal held-outs pass. The dependency-complete
+> quadratic-distortion Hessian route maxima are `4,3,3,3,2`: only the normal
+> `DT-DT` return reaches C4, while every background and moving-pairing return
+> stops at C3. Thus the conditional active principal `U4` bank is zero and the
+> predecessor's 35-monomial normal bank survives for this reconstructed slot;
+> its live entry remains `-8/25`.
+>
+> This is not the unported 2021 source action or the complete `I1` bank.
+> Numeric lower `U` coefficients are fixture-only, a live C3 return travels
+> forward, and the inherited normal bank still owes a full four-dimensional
+> multi-index/Krein Green identity. Resume at
+> `PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-KAPPA1-PROPORTIONALITY`: construct
+> `A4`, reconcile the complete `I1` C4 family, and run the
+> `NONE/ANY/UNIQUE(kappa1)` classifier before the distinct `I2B` C4 bank.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B2D NORMAL KAPPA1 C4 SUBBANK PASS; FULL
+> KAPPA1/I1 C4 UNDERDETERMINED.** On the corrected fixed-`(epsilon,varpi)`
+> source tangent, the complete 35-monomial normal `J*H*J` contribution of
+> the `kappa1` distortion mass has seven nonzero monomial blocks and flattened
+> coefficient rank one. All 35 owner matrices are symmetric and reproduced by
+> an independent formal adjoint; three dense held-outs pass, a direct mixed
+> action derivative gives the live entry `-8/25`, and a native-ray Green
+> concomitant closes. The forbidden `deltaT=-deltaB_full` tangent gives a
+> different tensor. Exact homogeneity preserves the closed C5 ceiling.
+>
+> Hostile variational review blocks promotion of this normal subbank to the
+> complete off-shell `kappa1` coefficient: residual `T*D2T` plus moving
+> density/Hodge/Krein/lowerer/pairing returns remain in an unknown `U4`, while
+> the transgression/moving-coefficient bank `A4` is also open. Thus
+> `C4(I1)=A4+kappa1*(M4_normal+U4)`. Successor correction: the two relaxed
+> `U4` objects are algebraic constraint-ledger witnesses, not realized
+> geometric jets, so the geometric non-identifiability claim is retracted.
+> R2B2B2E now proves conditional active principal `U4=0`.
+> P1/P2/P3 remain unused; Curt stays formally separate; `TG-1 AND TG-2 AND
+> TG-3` remains unpromoted. See
+> `explorations/pw2fr2b2b2d-kappa-c4-identifiability-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B2C OFF-SHELL I2B C5 CEILING CLOSED;
+> DISTINCT COMPLETE C4 BANKS AND GREEN REMAIN.** The complete five-family
+> Hessian of the active residual square is now expanded and independently
+> checked with every family live: `J R J`, `E R D2E`, both `J (D R) E`
+> orderings, and `E (D2 R) E / 2`. The active background remains off shell
+> with exact full-carrier norm `981/64`; no residual-zero shortcut is used.
+>
+> Combining the exact symbolic observed-base `J3=0` theorem with all fourteen
+> constructed second-Frechet ceilings gives route maxima `4,4,3,3,2`.
+> Therefore no order-five route survives and no 56-monomial C5 bank is
+> admitted on this conditional principal-`Z1` reconstructed-LC metric branch.
+> Planted live-`J3`, order-five-`D2E`, and second-jet-pairing controls restore
+> the forbidden C5/C6 routes.
+>
+> Resume at
+> `PW2F-R2B2B2C-COMPLETE-DISTINCT-I1-I2B-C4-BANKS-AND-INDEPENDENT-GREEN`:
+> construct the actual induced coefficient tensors, compute separate
+> 35-monomial-per-entry `I1` and `I2B` quartic banks, and reconcile them by an
+> independent formal-adjoint/native Green route. This ceiling theorem assigns
+> no C4 coefficient and does not extend to vertical/mixed conormals, the global
+> epsilon port, domain, quotient, observation, or physics. P1/P2/P3 remain
+> unchanged and unused; Curt stays formally separate and the conjunctive
+> third-lane gate remains unpromoted. See
+> `explorations/pw2fr2b2b2c-i2b-offshell-c5-ceiling-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B2B ACTIVE SOURCE-GRAPH / FULL-RESIDUAL
+> LEADING-SYMBOL PASS; I1 C4 READY, OFF-SHELL I2B C5 STILL OPEN.** A
+> conditional fixed-`(epsilon,varpi)` active principal-`Z1` tangent now derives
+> `deltaB=Ad(epsilon^-1)deltaGamma`, `deltaT=-deltaq`, and
+> `deltaA=deltaGamma` for all ten metric owners. Thirteen sparse active Shiab
+> terms are embedded in the full 115,584-dimensional residual carrier with
+> exact norm `981/64`. On observed-base conormals,
+> `eta wedge deltaGamma^(2)=0` before Shiab, so `I1` C5 and the residual-zero
+> normal `I2B` C6 / `J3-J2` C5 blocks vanish identically. This is a scoped
+> Levi--Civita incidence theorem, not an all-`T*Y` or off-shell square-action
+> theorem.
+>
+> Resume at
+> `PW2F-R2B2B2C-I1-C4-AND-I2B-OFFSHELL-C5-CEILING-THEN-C4-GREEN`:
+> build the actual induced coefficient tensors and complete the
+> 35-monomial-per-entry `I1` C4 bank; independently close the off-shell `I2B`
+> C5 ceiling before attempting its C4 bank, then reconcile every admitted
+> term by a formal-adjoint/Green route. P1/P2/P3 remain unchanged and unused;
+> Curt stays formally separate and the conjunctive third-lane gate remains
+> unpromoted. See
+> `explorations/pw2fr2b2b2b-source-residual-leading-symbol-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B2A ACTIVE COEFFICIENT/ACTION-SPLIT
+> PREREQUISITE PASS; COMPLETE NATIVE C5/C4 STILL OPEN.** One exact coefficient
+> of the active trace-reversed `(9,5)` trace/Phi/Hodge moving-Shiab derivative
+> survives the same top-form contraction with value `-sqrt(6)/24`. Carrying it
+> through ordered density, outer-pairing, output-lowerer, Krein, and
+> input-lowerer slots gives a direct mixed return equal to the independently
+> enumerated six intrinsic plus thirty ordered cross terms. Every named slot
+> has a live isolated cross; freezing all five or reordering the output/Krein
+> factors changes the result.
+>
+> Separate finite differentiation gives `I1=-13*sqrt(6)/4` and
+> `I2B=6182-67*sqrt(6)/3`. The latter splits exactly into normal,
+> residual-times-second-graph, and moving-primalizer returns; the last two are
+> separately live off shell and vanish back to the normal term in the
+> residual-zero control. Thus the two staged actions cannot stand silently
+> for one another.
+>
+> Hostile review keeps the five deterministic slot matrices at finite
+> ownership/order-fixture grade: they are not the actual induced-`Y14`
+> coefficient tensors. Resume at
+> `PW2F-R2B2B2B-ACTUAL-INDUCED-Y14-EPSILON-GRAPH-AND-35-MONOMIAL-C5-C4`:
+> port the R2B2B1 `q/Gamma/Bhat2` dependency into the active epsilon graph,
+> replace the fixtures by the actual coefficient tensors, and compute complete
+> C5 before C4 on the 35-monomial bank for `I1` and `I2B` separately.
+> P1/P2/P3, Curt, and `TG-1 AND TG-2 AND TG-3` remain unchanged. The scoped
+> result is
+> `explorations/pw2fr2b2b2a-native-coefficient-action-split-2026-08-03.md`.
+
+> **2026-08-03 PW2F-R2B2B1 SOURCE-SPLIT / CO-MOVING SECOND-GRAPH
+> PREREQUISITE PASS; COMPLETE C5/C4 STILL OPEN.** An exact finite
+> noncommutative chart now keeps `B_full=Gamma+q`, `T=varpi-q`, and
+> `A_total=Gamma+varpi` distinct in two connection components. Two source
+> tangent directions verify `deltaT=-deltaq` and
+> `deltaB_full=deltaGamma+deltaq`; the old `-deltaB_full` shortcut misses the
+> live `-deltaGamma` return.
+>
+> One repository-derived nilpotent `h=exp(u)` fixture then puts `Gamma`, `q`,
+> `varpi`, `B`, `T`, `A`, and curvature in a single co-moving frame. The
+> direct mixed derivative of `Bhat=h^-1 B h+h^-1 dh` agrees with an
+> independently assembled five-term `Bhat2` formula and is live; frozen and
+> commuting controls vanish. A finite off-shell action fixture verifies
+> `D2(S composed F)=J*H J+<E,D2F>` with a live second-graph return, while the
+> on-shell control reduces to `J*H J`.
+>
+> This does not identify source `epsilon` with repository `h`, instantiate the
+> right-`H`/Krein induced-`Y14` graph, determine differential order, or compute
+> either the source-directed `I1` or manuscript `I2B` Hessian. Resume at
+> `PW2F-R2B2B2-ACTUAL-NATIVE-SOURCE-GRAPH-COEFFICIENT-SLOTS-I1-I2B-C5-C4`:
+> port the dependency into the native 35-monomial pipeline, account for the
+> five coefficient slots, establish same-pipeline moving-Shiab liveness, and
+> compute complete C5 before C4 for the two actions separately. P1/P2/P3,
+> Curt, and the conjunctive third-lane gate are unchanged. The scoped result
+> is
+> `explorations/pw2fr2b2b1-source-comoving-second-graph-2026-08-03.md`.
+
+> **2026-08-02 PW2F-R2B2A PARTIAL QUARTIC COMPARATOR PASS; COMPLETE
+> SOURCE-COORDINATE C5/C4 BLOCKED.** R2B2A successfully reconstructs a
+> ten-owner, 35-monomial quartic bank with three dense held-outs for the
+> evaluator it actually implements. It also evaluates eight moving-Shiab
+> slots, proves the raw eight-slot map is nonzero on a hostile fixture while
+> retaining same-pipeline contracted-bank liveness as debt, and protects the
+> partial `kappa1=NONE` result
+> with `ANY` and `UNIQUE` controls.
+>
+> Hostile review found that this is not yet the promised complete graph. The
+> executable uses `deltaT=-Ad(h^-1)deltaB`, a fixed-total-connection synthetic
+> tangent. The corrected Eric/source coordinates require
+> `deltaT=-deltaq` and `deltaB_full=deltaGamma+deltaq`. It also leaves the
+> `h/theta1/Bhat2` second derivative unbuilt, evaluates only eight of thirteen
+> possible `1+3` coefficient slots, and mixes conjugated core/mass variables
+> with an unmoved moving-Shiab background. Symmetry is by construction and the
+> Green check is a frozen ray, not an independent reverse native derivation.
+>
+> Resume at
+> `PW2F-R2B2B-SOURCE-COORDINATE-Q-GAMMA-SPLIT-AND-COMOVING-SECOND-GRAPH-C5-C4`.
+> Build `deltaq` separately from `deltaGamma`; put the background, core, mass,
+> and moving contraction in one frame; construct or annihilate
+> `delta u/theta1/d theta1/Bhat2`; account for density, Krein, two lowerers,
+> and outer pairing; and compute the source-directed `I1` Hessian separately
+> from the manuscript `I2B` residual-square Hessian. Compare
+> vary-upstairs-then-observe with restrict-then-vary. P1/P2/P3 remain
+> unchanged and unused; Curt and the conjunctive third-lane gate are unchanged.
+> The scoped result is
+> `explorations/pw2fr2b2a-second-frechet-c4-graph-2026-08-02.md`.
+>
+> **2026-08-02 PW2F-R2B1 SOURCE-TANGENT/SECTION-JVP PREREQUISITE PASS;
+> SECOND-FRÉCHET C4 GATE NEXT.** PW2F-R2B1 corrects a load-bearing shorthand.
+> In literal source coordinates
+> `B_full=Gamma(g)+q_g(epsilon)`, `T=varpi-q_g(epsilon)`, and
+> `A_total=Gamma(g)+varpi`; hence fixed-`varpi` variation gives
+> `deltaT=-deltaq`, not `-deltaB_full`. The forbidden shortcut would delete
+> the already-live `(D_g Gamma)^! E_T` source-coordinate return. The swing then
+> differentiates the normal-frame section/Zorro identity as one graph:
+> `delta C_i,ab=partial_i k_ab` for all ten `Sym2` owners and
+> `delta(s_g^*theta)=0`. The exact B2C15P connection metric still pulls back to
+> `g` through second base order; freezing the horizontal graph creates 40
+> defects and a spurious trace-reversed DeWitt mixed Hessian `12`.
+>
+> The decisive new theorem is that the current first-JVP inventory cannot
+> determine an off-shell pulled Hessian, because
+> `D2(S∘F)=J* H J + <E,D2F>` and two exact graphs with the same value/JVP can
+> differ in the second term. R2B1 also installs the complete base-conormal
+> extractor: 35 degree-four monomials, an exact rank-35 Vandermonde, three
+> owner-pair and three held-out reconstructions, and a global coefficientwise
+> `kappa1` proportionality gate. The old five-conormal panel is provably
+> incomplete because nonzero `eta_2^4` vanishes on all five points.
+>
+> PW2F-R2B2A was assigned to order-filter the fourteen second-Fréchet candidates,
+> build or exactly annihilate the branches that can reach `C4`—especially the
+> `h/theta1/Bhat2` and moving-coefficient routes—retain both Hessian terms,
+> extract all 35 monomials, and reconcile Helmholtz, direct, reverse, and
+> presymplectic Green routes. Lower-order second-derivative debt carries to the
+> later complete `C3/C2` and full-Hessian stages.
+> `C3`, lower `C2`, the literal native Ward, and PW3 remain blocked behind that
+> calculation. This is not hardening for its own sake: R2B1 proves the missing
+> second graph is uncontrolled off shell, while leaving which candidates are
+> nonzero and degree four for the principal-order audit.
+>
+> PW2F-R2A remains the predecessor result: it derives a directional
+> Euler-covector remainder/eddy candidate and rejects one universal constant
+> `kappa1` on two ambient independent-`(B,T)` finite action families, without
+> killing an exceptional value on the constrained induced-`Y14` locus.
+> ML/statistics may reduce the legal basis, choose high-information exact
+> fixtures, reconcile automatic and symbolic derivatives, and conjecture
+> polynomial factors, but every scientific gate remains exact. Consensus and
+> metastability are parked until an actual finite admissible torsor exists.
+> Every major wave requires a divergent specialist pre-assessment and a hostile
+> specialist post-review, with repairs rerun before commit. P1/P2/P3 remain
+> unchanged and unused. Curt remains a formal comparator and
+> `TG-1 AND TG-2 AND TG-3` is still required for any third-lane promotion.
+> The ten-wave scaffold is recorded in
+> `explorations/post-b2c15r3-multidisciplinary-council-next-ten-waves-2026-08-02.md`
+> and the PW1 result is recorded in
+> `explorations/pw1-source-native-port-superig-interface-2026-08-02.md` and
+> the PW2 result in
+> `explorations/pw2-full-first-jet-action-graph-2026-08-02.md`, and the PW2A
+> result in
+> `explorations/pw2a-source-legal-moving-reduction-lift-2026-08-02.md`, and the
+> scoped PW2B result in
+> `explorations/pw2b-literal-native-source-composed-action-2026-08-02.md`, and
+> the scoped PW2C result in
+> `explorations/pw2c-literal-source-jacobian-moving-action-ward-2026-08-02.md`,
+> and the scoped PW2D result in
+> `explorations/pw2d-actual-y14-transported-shiab-right-tilted-ward-2026-08-02.md`,
+> and the scoped PW2E result in
+> `explorations/pw2e-finite-native-shiab-mixed-metric-ward-2026-08-02.md`, and
+> the scoped PW2F result in
+> `explorations/pw2f-native-top-order-metric-ward-2026-08-02.md`, and the
+> scoped PW2F-R result in
+> `explorations/pw2fr-complete-derived-k-c3-2026-08-02.md`, and the scoped
+> PW2F-R2A result in
+> `explorations/pw2fr2-total-swervature-kappa-2026-08-02.md`, and the R2B1
+> prerequisite in
+> `explorations/pw2fr2b1-section-jvp-source-coordinate-2026-08-02.md`.
+> This predecessor handoff was attempted by R2B2A and is superseded by the
+> R2B2B gate at the top of this file.
+>
+> **2026-08-01 ERIC-LANE TEN-WAVE CAMPAIGN / WAVE 1 C0 + WAVE 2 EXIT + WAVE 3A/3B/3C/3D-A/3D-B1/3D-B2A/3D-B2B/3D-B2C1/3D-B2C2A/3D-B2C3/3D-B2C4/3D-B2C5/3D-B2C6/3D-B2C7/3D-B2C8/3D-B2C9/3D-B2C10/3D-B2C11/3D-B2C12/3D-B2C13/3D-B2C14/3D-B2C15R/M/N/O GATES
+> (BRANCH-LOCAL).** The ten construction waves now run in the Eric lane with
+> a mandatory, separately tagged Curt-rival column; no third lane has been
+> created. Every major swing now requires both a pre-construction specialist
+> council and a post-construction hostile specialist review; concrete
+> blockers must be resolved and the probe rerun before commit. Wave 1 constructs
+> `VY+pi*T*X --(1+sharp_h)--> VY+pi*TX --Z_nabla--> TY`: after a metric and
+> horizontal split are declared it identifies the underlying rank-14 bundle,
+> but not the displayed real carriers. Literal real `(7,7)` and active `(9,5)`
+> have different Sylvester inertia, and
+> `Cl(7,7)=M(128,R)` is not the active
+> `Cl(9,5)=M(64,H)` real form. Both complexify to `M(128,C)`, which preserves a
+> complex container but does not transport the right-`H`/Krein/reality data.
+> Transcript reinspection now recovers Curt's actual reason for choosing the
+> branch: the vertical trace/traceless split admits `(4,6)` or `(3,7)`, he
+> deliberately chooses `(4,6)`, and he wants the split `Spin(7,7)` spin
+> representation as a joint gauge/fermion carrier. The missing last map is
+> narrower: spoken `(4,6)+(1,3)` does not literally sum to `(7,7)` under one
+> convention, while the minimal chimeric completion `(4,6)+(3,1)` does.
+> Curt never types that `H*` sign/order conversion. Therefore
+> `R77_VERTICAL_FLIP` is source-preferred and `R77_BASE_FLIP` only a hostile
+> comparator, while the source dictionary remains partly uncertain. Thus the
+> literal real-signature reading supplies only
+> partial `TG-1` evidence and does not clear its convention check; dynamics and
+> discriminator gates also remain open:
+> Curt stays inside the Eric lane. The exact Wave 1 probe passes `36 exact + 9
+> planted = 45`. Wave 2 freezes a 22-primitive port census
+> over the active `(9,5)`, two source-ambiguous real `(7,7)` comparators, and
+> the common complex container. Only the underlying vertical sequence, trace
+> reversal, IG grammar, derivative cocycle, and homogeneous distortion port
+> exactly. Metric musical, vertical metric, Hodge, Clifford, Krein/reality,
+> Shiab, pseudo-musical, action pairings, Euler/Green/Ward realizations,
+> RB6 evaluations, residual square, and odd bilinear are branch-native or
+> schema-only. Its ownership probe passes after the Wave 2b continuation.
+> Wave 2b then freezes the existing G2 first-layer action class: six
+> `A/B`-written candidates modulo two exact relations give four independent
+> monomials. The source slice has one projective parameter, support-ablation
+> rank is four, and support surplus is zero; physical surplus remains deferred
+> until observation and the later action layers. Its exact probe passes
+> `33 exact + 9 planted = 42`. Wave 3A now freezes the observation-map gate:
+> `R L=1`, the algebraic equation dual `L^vee`, and the pairing-dependent
+> Krein adjoint `L^!` are distinct data. Exact paired linear and nonlinear
+> witnesses have the same induced equation `R E_Y L=E_X`, while one has
+> nonzero off-image leakage `(1-LR)E_YL`. Thus equation recovery alone cannot
+> establish a physical domain. The Wave 3A probe passes `34 exact + 11 planted
+> = 45`. Wave 3B then proves one exact finite compatibility theorem on three
+> rational patches. Field lifts/retracts, equation duals, active-real Krein
+> adjoints, nonlinear no-leakage, a signature `(2,1)` invariant graph with a
+> positive majorant, and a rank-two characteristic quotient all descend.
+> A kernel-valued hostile patch lift retains its local `R_2 L_2=1` identity
+> while failing overlap descent, so local splitting is not a globalization
+> theorem. The Wave 3B probe passes `91 exact + 11 planted = 102`; it does not
+> construct the actual `Y^14` atlas, prove a Lorentz section exists on an
+> arbitrary `X`, establish an analytic closed right-`H`/Krein domain, or
+> produce a physical BFV phase space. Curt still owes a separate real
+> pairing/domain/preboundary port, and `TG-1 AND TG-2 AND TG-3` remains false.
+> Wave 3C replaces ECW3B's arbitrary finite frames by the actual metric-bundle
+> transition: a base Jacobian `A` and its induced congruence action on
+> `Sym^2(T*X)`. The Lorentz metric and trace-reversed DeWitt vertical form
+> descend tensorially; the total gimmel metric and an admitted section jet
+> descend exactly in affine or connection-adapted frames. General nonlinear
+> chart shear still requires the declared horizontal split. The patch
+> inertias are `(3,1)+(6,4)=(9,5)`. The same result decisively kills the
+> ordinary full-ambient Cauchy route. Every thirteen-plane in `(9,5)` retains
+> at least four negative directions, and the characteristic quadratic is not
+> hyperbolic in any non-null direction because both inertia indices exceed
+> one. The Wave 3C probe passes `59 exact + 13 planted = 72`. This does not
+> kill section-pullback or genuinely ultrahyperbolic/Krein boundary-value
+> domains, nor prove a global Lorentz section, `X` spin, a right-`H` analytic
+> domain, Green form, propagator, or physical BFV reduction. Curt still owes
+> its separate `(7,7)` real atlas/domain port, and the third-lane conjunction
+> remains false. Wave 3D-A now takes one explicitly admitted flat
+> Lorentz/spin section and pulls the full W131 gamma-traceless principal
+> packet to its `(3,1)` tangent block. The section symbol has the Lorentz null
+> characteristic cone, remains right-`H` linear on complex rank 1664
+> `ker Gamma`, and emits a nondegenerate balanced Green trace of inertia
+> `(832,832,0)`. Both opposite maximal-definite Green spectral sectors are
+> right-`H` invariant and exhaust the trace space. Thus the exact
+> principal/Krein/right-`H` algebra does not uniquely select a boundary
+> domain. The Wave 3D-A probe passes `24 exact + 10 planted = 34`; it does not
+> prove a global section, variable-coefficient Sobolev/graph-domain
+> closedness, maximal dissipativity/self-adjointness, nonlinear constraint
+> propagation, a propagator, or BFV reduction. Curt still owes a separate
+> real `(7,7)` section/Green/domain port, and the third-lane conjunction
+> remains false. Wave 3D-B1 then freezes one smooth variable-coefficient
+> Lorentz/spin slab, the actual W131 `ker Gamma` carrier, and an explicitly
+> imposed ECW3D-A positive Green polarization. A nonzero Lorentz-null
+> characteristic vector generates boundary-vanishing Fourier partial sums
+> that are Cauchy in the `L2` operator graph norm while their isotropic
+> spacetime-`H1` derivative energy grows linearly. Thus the naive spacetime
+> `H1` realization is not closed. The Wave 3D-B1 probe passes `21 exact + 10
+> planted = 31`. This does not kill time-slice energy, anisotropic,
+> self-adjoint, or maximal-dissipative realizations, and it does not prove
+> nonlinear Euler constraint propagation. Curt still owes its distinct real
+> domain and common-space discriminator; the third-lane conjunction remains
+> false. Wave 3D-B2A then freezes the continuous section time `t`, the native
+> W131 Krein time flux, and its canonical spectral absolute-value majorant.
+> The time symbol is noncharacteristic, but the native flux has balanced
+> inertia `(832,832)`, so it is not a positive energy. Taking its absolute
+> value yields a positive right-`H` majorant, but that majorant fails to
+> symmetrize each of the three spatial evolution matrices. The B2A probe
+> passes `27 exact + 12 planted = 39`. This kills only the native flux and
+> canonical-majorant candidate, not every positive symmetrizer or
+> maximal-dissipative domain. A new fail-closed source-collision gate records
+> the result as `SOURCE-SILENT`; Weinstein explicitly calls the upstairs
+> multiple-time problem ultrahyperbolic boundary-condition technical debt but
+> supplies no symmetrizer or record/finality arrow. Joe's record/finality idea
+> remains a typed candidate control, not an Eric datum or third lane. The next
+> bounded gate is
+> `ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH`, not a restart of the action
+> search. Wave 3D-B2B then closes that full finite cone on the same unreduced
+> W131 carrier. For each coordinate spatial direction and the generic
+> direction `(1,2,3)`,
+> `N_xi=C(xi)^2-|xi|^2 I` is nonzero of rank 128 while `N_xi^2=0`.
+> Thus the spatial generator has a repeated-root minimal polynomial and is not
+> diagonalizable even though its characteristic roots are real. Any positive
+> symmetrizer would make it similar to a Hermitian matrix, so the full
+> positive simultaneous-symmetrizer cone—and therefore its right-`H`
+> subcone—is empty. The native Krein time flux remains an exact simultaneous
+> symmetrizer but is balanced `(832,832)`, keeping the obstruction specifically
+> at positivity. The B2B probe passes `31 exact + 13 planted = 44`. This kills
+> strong/symmetric hyperbolicity only for the unreduced gamma-traceless W131
+> principal system; a source- and dynamics-justified constraint/gauge quotient
+> could still remove the rank-128 generalized characteristic chains.
+> `SOURCE-SILENT` remains the primary-source disposition. Record/finality is
+> killed as a selector for the unchanged defective system but may be retested
+> after a justified quotient or changed dynamics. Curt remains a formally
+> separated rival and `TG-1 AND TG-2 AND TG-3` remains false. The next bounded
+> gate is `ECW3D-B2C-CONSTRAINT-GAUGE-QUOTIENT-JORDAN-REMOVAL`. Wave 3D-B2C1
+> now collides the only already-built quotient candidate with that Jordan
+> sector. The prior source-Noether/tau solve derives
+> `G(k)=Pi_kerGamma(k tensor -)` only as a minimum-distance Schur projection;
+> its own tangent equation leaves 212,992 complex map dimensions free. At
+> each characteristic root the projected map has rank 128 but its symbol
+> defect has rank 64. The surviving rank-64 half is characteristic-null, and
+> the two opposite-root halves together equal the rank-128 Jordan image, but
+> the previous source does not select those root-dependent halves as a BV
+> differential. The smallest fixed common invariant closure has rank 512 and
+> gives a 1,152-dimensional Hermitian Clifford quotient, but that closure is
+> exactly the projected observer-section carrier: observation is rank 512 on
+> it and cannot descend. Thus the existing projected-gauge candidate and the
+> fixed carrier-erasing repair are killed. P1/P2 remains one orientation line
+> and P3 a separate real-`KO` twist; neither supplies a projector.
+> `SOURCE-SILENT` remains the B2C1 source disposition, Curt remains formally
+> separate, and `TG-1 AND TG-2 AND TG-3` remains false. Wave 3D-B2C2A then
+> collides G1's already-built derivative cocycle with the missing W131
+> differential. The source-backed ordinary-gauge map
+> `d tau_A(xi)=(xi,D_A xi)` is an exact nonabelian Lie-algebra homomorphism,
+> so the broad statement that all derivative-level tau data are missing is
+> corrected. But `D_A` alone is not nilpotent on the nonflat exact control:
+> `[D_0,D_1]xi=[F_01,xi] != 0`. G3's nonlinear ordinary-gauge BRST complex
+> still closes with `sc=1/2[c,c]`, but it is typed
+> `Omega0(ad P) -> Omega1(ad P)`, not the required scalar-spinor to
+> gamma-traceless-vector-spinor W131 arrow. No source-derived super-IG/RS
+> soldering or tangent rule exists, so Jordan cohomology is not retested from
+> a target-built map. The B2C2A probe passes `29 exact + 13 planted = 42`.
+> Its leading source disposition is `SOURCE-CORRECTS`: the UCSD tau passage
+> supplies the ordinary derivative graph but is silent on the super-IG/RS
+> extension, W131 chains, and observer descent. P1/P2/P3 remain unused, Curt
+> remains separate, and the conjunctive promotion gate remains false. The
+> next bounded gate is
+> `ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT`.
+> The separately authorized target-blind route now adds a complementary
+> positive result. Freezing
+> `F(k)=Pi_kerGamma(k tensor c(k))=T(k)c(k)` before revealing the B2C1 target
+> shows that, at every tested null root, its rank-64 image is exactly the
+> held-out characteristic half and opposite roots span the complete rank-128
+> Jordan image. The exact identity
+> `Q(k)T(k)=12/14 T(k)c(k)` makes this an on-null Dirac--twistor--RS
+> factorization, not an off-shell first-order BV differential. Restoring the
+> omitted gamma-trace companion reconstructs the full source-stated
+> `Omega1(S)` Clifford symbol `1 tensor c(k)`: all blocks are forced, the
+> admitted Lorentz-section system has the identity positive right-`H`
+> symmetrizer, the Jordan rank falls from 128 to zero, and the rank-512
+> observed one-form carrier is retained. The probe passes
+> `36 exact + 12 planted = 48`. The source disposition is split cleanly:
+> `SOURCE-CONFIRMS` the full `Omega0(S)+Omega1(S)` carrier and rolled
+> architecture, while `SOURCE-SILENT` applies to this exact completion as the
+> physical rolled action. B2B, B2C1, and B2C2A remain valid at their isolated
+> scopes; P1/P2/P3 remain unused. On this alternative branch the next gate is
+> `ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK`;
+> the guided branch may independently continue B2C2B.
+> Wave 3D-B2C3 now transcribes draft equations 9.16--9.18 directly and corrects
+> the remaining source premise. The draft fixes a physical
+> `Omega1(S)+Omega0(S)` matrix with Shiab-of-`d`, `d`, and `d*` blocks, but
+> explicitly leaves the Shiab in a family and says the former Bianchi-based
+> selector calculation is unavailable. Inserting the repo's canonical natural
+> Clifford contraction into that open slot gives
+> `A(k)=K(k)Gamma-M(k)`. Both displayed codifferential signs yield the same
+> exact right-`H` section evolution, but it retains a nonzero rank-128
+> square-zero Jordan remainder and therefore no positive full-carrier one-time
+> symmetrizer. The Jordan image is exactly
+> `K(k+)ker c(k+) direct-sum K(k-)ker c(k-)`: the physical null-Dirac emission
+> through `d nu`, not an established gauge orbit. A full-`d` characteristic
+> quotient is algebraically semisimple, has explicit positive right-`H`
+> symmetrizer `H=P+(PEP)^dagger(PEP)`, and leaves observed quotient rank 384 in
+> four directions. It is not promoted because `nu` is a physical field, the
+> displayed square symbol has no nonzero polynomial right syzygy, and no
+> distinct ghost/Noether identity owns the quotient. The probe passes
+> `22 exact + 11 planted = 33`. The active geometry remains the
+> trace-reversed `(3,1)+(6,4)=(9,5)` carrier; the draft's `(7,7)` real form is
+> not identified with it. P1/P2/P3 remain unused. The alternative next gate is
+> `ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR`; the guided
+> branch may continue B2C2B independently.
+> Wave 3D-B2C4 now runs the complete active right-`H` contract/wedge Shiab
+> family before inspecting PDE outcomes. `A(k)K(k)=0` is nonselecting, but the
+> repo-reconstructed two-sided/Ward identity `C_g(k)A(k)=0` and native Krein
+> symmetry independently eliminate both contract coordinates and retain two
+> real chiral wedge weights. With the source-displayed zero southeast block,
+> the wedge operator still has a rank-128 square-zero Jordan remainder; a
+> one-sided chiral wedge has time-symbol nullity 832. The draft explicitly
+> admits nonzero southeast versions. In the frozen unit-`K`/unit-`C_g`
+> normalization, the complete spatial Clifford identities leave the
+> two-real-parameter family `w_plus*w_minus != 0`,
+> `12*w_plus*ell_minus+11=0`, and
+> `12*w_minus*ell_plus+11=0`. Three unequal-weight witnesses and the four
+> normalized sign witnesses all give invertible time symbols, exact
+> semisimple light-cone propagation, positive right-`H` symmetrizers, zero
+> Jordan remainder, raw observation rank 640, and physical-`nu` rank 128
+> without a quotient. A planted normalized `10/12` coefficient fails with
+> defect `1/12`. This is a repo construction, not Weinstein's recovered
+> bosonic Bianchi calculation: the source confirms the family, rolled matrix,
+> and permission for a nonzero southeast block, but is silent on the
+> spinorial selector, reciprocal `11/12` relation, and normalization. The
+> probe passes `36 exact + 13 planted = 49`. P1/P2/P3 remain unused; neither
+> the continuous normalization nor the normalized tied/coflip sign is P1
+> without action and patch-orientation theorems. The alternative next gate is
+> `ECW3D-B2C5-COVARIANT-SOUTHEAST-ACTION-AND-GREEN-WARD-CLOSURE`; the guided
+> branch independently advanced to
+> `ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY`.
+> Wave 3D-B2C5 now writes the already-filtered repaired rolled principal
+> operator as a formula-built frozen-principal quadratic independent-dual
+> action candidate with explicit degree, Krein, right-`H`, and principal
+> charge data. The coefficient symbol selects the crossed off-diagonal
+> adjoint, and `C+` with an auxiliary symplectic-Majorana doublet is the
+> surviving principal candidate. The finite algebraic emission control does
+> not execute the complete covariant variation or force `11/12`. The
+> separately declared Dirac-type section gate
+> derives `12*w_plus*ell_minus+11*r^2=0` and its crossed partner. Eight visible
+> real coefficients minus five independent constraints and one explicitly
+> verified frozen-principal chiral-boost field equivalence leave two continuous
+> principal-action parameters: an overall source scale and
+> `p=w_plus*w_minus/r^2`. Extension through the complete covariant action is
+> unproved. Only an
+> additional Euler/action-ray quotient leaves `p` alone; neither is P1/P2/P3.
+> The normalized tied repaired representative has one direction-independent positive right-`H`
+> symmetrizer with bounds about `[3.262,280.405]`. Both the action and energy
+> boundary forms have inertia `(960,960,0)`, but the tied `H*` maximally
+> negative right-`H` spectral half has full-rank action-Green restriction, so it is not
+> a variational boundary domain. Exact Levi-Civita right-composition fixtures
+> match `A_w nabla^2=1/2 Einstein*gamma` and a nonzero algebraic pure-Weyl
+> control vanishes. The left curved composition, admissible GU-adjoint
+> curvature, derived torsion/moving-weight formulas, and differential G2/G3
+> Euler-module factorization remain open. The draft
+> admits the nonzero southeast fork, while modern TOE `02:42:55` and UCSD
+> `00:36:13` retain the zero-corner grammar; the repair is therefore
+> source-admitted, not Eric-selected, and no no-go is claimed against an
+> unreleased cyclic/two-connection operator. The probe passes
+> `25 exact + 2 type-level + 18 planted = 45`.
+> P1/P2/P3 remain unused, physical `nu` is not a ghost, Curt remains separate,
+> and no third lane is promoted. The alternative next gate is
+> `ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION`,
+> followed or paralleled by
+> `ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION`.
+> Wave 3D-B2C6 performs the mandatory source collision before treating the
+> missing odd symmetry as a failure. Weinstein's Portal account confirms two
+> connection derivative routes and a shared on-shell somatic obstruction, but
+> is silent on transformations of `A`, `epsilon_red`, `g_DW`, the odd action,
+> and BV closure. On the exact G2 graph, the written curvature polynomial now
+> has a repo-derived origin motivated by the source's two-connection geometry,
+> but not stated by Weinstein:
+> `integral_0^1 F_(B+tT) dt = F_B + (1/2)D_B T + (1/3)q(T,T)`, equivalently
+> `1/3(F_A+F_B+Hhat_AB)`, where
+> `H_AB^E=(d_A^E d_B^E+d_B^E d_A^E)/2=rho(Hhat_AB)` and
+> `Hhat_AB=F_B+(1/2)D_B T`; two independent jet replays cancel every first
+> and symmetric second derivative. A symmetric mixed-carrier symplectic
+> bracket and the active `C+`/Krein/right-`H` projected-endomorphism space are
+> separately nonzero; their actual intersection remains open. The metric
+> bilinear is nonzero before its DeWitt tangent projection, and the required
+> G3 graph return for `mu_T` is exact. After a specialist-caught
+> split-signature index correction, the right Levi-Civita route is
+> Einstein-gamma and the left its vector/Krein adjoint on positive-index,
+> tracefree mixed-sign, and off-diagonal Ricci fixtures; pure Weyl vanishes.
+> The completed B2C5 rolled symbol is invertible on an open covector set.
+> Therefore, at any admissible bosonic solution carrying that principal
+> symbol, the Hessian cannot be the ungauge-fixed operator of a finite-order
+> local polynomial odd gauge theory. The probe's formal `F_B=T=0` jet does not
+> itself construct such a Levi-Civita/DeWitt solution. This is not a no-go for
+> Weinstein's unreleased two-connection complex: B2C5 may be its gauge-fixed
+> descendant or a rigid operator. The probe passes
+> `33 exact + 4 type-level + 14 planted = 51`. P1/P2/P3 remain unchanged and
+> unused. The alternative next gate first constructs the source-described
+> physical Bose/Fermi routes and tests their common obstruction:
+> `ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION`.
+> A degenerate parent/gauge fixing is considered only if that construction
+> independently generates a local odd-gauge requirement; the
+> analytic B2C6B gate may proceed independently.
+> Wave 3D-B2C7 now makes that source collision exact. The 2021 draft supplies
+> typed fermion-Euler and bosonic `F_A/d_B` arrows but explicitly warns that
+> its combined diagram is inherited and potentially inconsistent. In the
+> 2025 TOE conversation Weinstein corrects “projection” to “contraction,”
+> confirms the `0 -> 1 -> 13 -> 14` contraction-plus-star spine, and announces
+> an unreleased two-connection new `D^2` with tentative
+> `D_A,F_B,id,D_B` entries and unstable signs. That is a successor proposal,
+> not a stabilized erratum: the 2021 `F_A/d_B` and 2025 spoken `F_B` branches
+> remain rivals. The exact rational model proves that symmetric `A/B` routes
+> cancel arbitrary first and symmetric-second jets to the same
+> `Hhat_AB=F_B+(1/2)D_BT` in fundamental and adjoint representations. It then
+> reconstructs the graph-complete G2 Euler covector from all twelve variation
+> directions and forces a nonzero, coefficient-free
+> `Z_var=E_T-[S(Q_seg)+kappa flat(T)]`; no curvature-only shortcut owns the
+> full equation. Carrier linearity makes `core+Z_var=E_T` a nonvacuous typed
+> target in both representations, but does not prove either somatic square
+> independently emits `Z_var`. The geometric-quantization passage is retained
+> but typed separately: G3 has an unreduced `(13,2)` current whose integrated
+> kernel is unclassified and whose inverse is unproved, so it cannot replace
+> either the local connection-Euler pseudo-musical or the fermion
+> Krein/Hodge/right-`H` Riesz
+> map. The probe passes `28 exact + 5 type-level + 17 planted = 50`.
+> P1/P2/P3 remain unused; Curt stays separate and no third lane is promoted.
+> The next gate is
+> `ECW3D-B2C8-SOURCE-FORKED-TWO-CONNECTION-SQUARE-AND-ACTIVE-EULER-MAP-DISCRIMINATOR`:
+> type the rival source-compatible matrices and build the two local
+> primalizers before any off-shell square. Preliminary B2C6B/G4 analysis may
+> run in parallel without calling the current a field-space flat or Poisson
+> anchor. B2C9 then owns the off-diagonal `zeta/nu`, total fermion action,
+> current/stress, and total-preboundary return; final G4 reduction follows
+> B2C9, and only a later gate may attempt Poisson/prequantum construction.
+> Wave 3D-B2C8 now resolves that discriminator as a split result. Finite
+> architecture controls produce exact inverses for the action-owned connection
+> and independent-dual fermion lowerers, with the trace-reversed `(9,5)`,
+> right-`H`, Krein factors inherited; `C+` remains a separate
+> reality/compatibility form.
+> The two degree-correct minimal reconstructions of Weinstein's tentative
+> 2025 `D_A,F_B,id,D_B` recollection are rigid shifted mapping cones, and they
+> provide concrete source-compatible realizations of Eric's connection-level
+> program: their square measures
+> disagreement between two connections and their curvature actions. Both
+> become complexes whenever `A=B`, including at nonzero curvature. The exact
+> held-out fixture has every such square zero while the graph-derived action
+> Euler owner is `E_T=S(F_B) != 0`. Thus B2C8 constructs a useful,
+> source-compatible two-connection complex; the source selects neither its
+> shifted placement nor its `A=B` locus. It only kills the stronger, unsupported
+> identification of the bare four-entry square with the complete
+> Einstein/GU Euler obstruction. In one exact twelve-output fixture, the 2021
+> residual alphabet and a repo-expanded source-motivated two-connection
+> alphabet miss the Euler target with compatibility codimensions `10` and
+> `8`; these are fixture-local ranks, not global physical-constraint counts.
+> A planted in-span target succeeds. The constructive next route is the 2021
+> deformation architecture with its connection arrow replaced by `D E_T`.
+> Finite constant-conjugation covariance and exact core/correction orbit
+> decompositions support that route, but the local inhomogeneous gauge tangent,
+> coadjoint sign convention, and full graph-tuple Hessian remain unexecuted.
+> The probe passes `46 exact + 15 type-level + 11 planted = 72`; the type-level
+> rows are declarations, not independent computational evidence. P1/P2/P3
+> remain unused; Curt
+> stays separate and no third lane is promoted. The next gate is
+> `ECW3D-B2C9-OFFDIAGONAL-SOMATIC-TOTAL-CURRENT-AND-PREBOUNDARY-RETURN`: add
+> the moving constrained-real `zeta/nu` action, derive its current and stress
+> returns into the full graph Euler tuple, and close the total preboundary
+> current before final observation/reduction or Poisson language.
+> Wave 3D-B2C9 now advances that gate at exact finite-architecture level. The
+> bosonic Euler object is upgraded from the old twelve-coordinate algebraic
+> partial derivative to a full first-jet Euler covector. It obeys the invariant
+> coadjoint sign with nonzero `dchi`; a pure-`dchi` plant kills the old
+> reconstruction while the completed object vanishes correctly. An
+> independent-dual two-connection fermion action closes its all-slot variation
+> and ordinary first-jet gauge Ward identity. Its separate currents are
+> `J_A=(r bar_zeta+ell bar_nu) tensor nu` and
+> `J_B=(w bar_zeta+s bar_nu) tensor zeta`. The zero-southeast shared-connection
+> comparator matches the draft's three bilinear monomials, while the nonzero
+> southeast comparator predicts a candidate `ell bar_nu tensor nu` channel;
+> active projection and nonvanishing remain open. A zero-order `T=A-B`
+> placement returns `J_A+J_T` to `A` and the intermediate `J_B-J_T` covector
+> for a supplied `delta B`; the actual LC/reduction derivatives and transposes
+> remain open. A generic same-field moving-indefinite-lowerer control carries
+> one lowerer term and `delta R=-R(delta b)R`; it is not yet the active
+> constrained-real pullback. An additive G3-shaped plus unsymmetrized-fermion
+> Green comparator closes and is nonzero, but it is not the selected B2C5
+> symmetrized total form. The probe passes
+> `22 computational exact + 4 source receipts + 17 type-level + 11 planted = 54`;
+> P1/P2/P3 remain unused and
+> unchanged. The next gate is
+> `ECW3D-B2C10-ACTIVE-9_5-SOURCE-CURRENT-REPAIR-AND-FULL-TUPLE-HESSIAN`:
+> lift the current discriminator to the actual rolled carrier, enumerate
+> natural equivariant `M0`, reconcile or separate the written source current
+> and semisimple southeast repair, execute all moving trace-reversed geometric
+> returns, and verify the full-tuple differentiated Ward identity. Only then
+> rerun B2C6B against the recomputed total Green form.
+>
+> **Alternative-branch B2C10 result (2026-08-01): ACTIVE CURRENT SURVIVES /
+> SHARED-CONNECTION READING NARROWED / OWNER SELECTION NEXT.** The B2C9
+> `ell bar_nu tensor nu` channel is nonzero after the actual trace-reversed
+> `(9,5)` right-`H`, Krein, and `C+` restrictions; a right-`H` doublet
+> reinforces it. With `zeta=0`, all three written draft `(9.18)` bilinears
+> vanish while the repaired channel remains. An aligned nonzero
+> `M00=c(T)L` witness and the `M10(T)` injection with forced `M01` adjoint
+> pass the active reality gates, while a misaligned raw `c(T)L` component
+> fails and leaves the universal completion open;
+> but every `T=A-B`-linear coefficient is blind to a shared
+> `delta A=delta B`: it can transfer the extra current between connection
+> owners, not delete it. The observed normal-frame LC spin lift, the
+> trace-reversed `Sym2` DeWitt transpose with inertia `(6,4)`, and the local
+> reduction graph return all pass. An exact finite graph-owned action closes
+> the full differentiated identity
+> `H(v,R)+(DR[v])^!G=0` with nonzero canceling terms; freezing the owner,
+> treating the isolated Hessian as a kernel, or omitting `DR` fails. The
+> symmetrized total Green comparator is skew/nonzero, and zero-order `M0`
+> leaves it unchanged, so no common domain follows. The probe passes
+> `25 computational exact + 5 source receipts + 12 type-level + 15 planted = 57`.
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C11-TWO-CONNECTION-CURRENT-OWNERSHIP-AND-SOURCE-ACTION-SELECTION`:
+> build both draft coupling architectures with explicit `A/B` owners and
+> determine whether the extra current is canceled, transferred, or required.
+> Run final B2C6B only after that principal action is selected.
+>
+> **Alternative-branch B2C11 result (2026-08-01): OWNER TRANSFER YES /
+> FULL-OWNER DELETION NO / ACTIVE CURRENT CONTRIBUTION REQUIRED.** The exact owner
+> chain for `C=(A+B)/2`, `T=A-B` is
+> `J_C=J_A+J_B`, `J_T=(J_A-J_B)/2`. A `T`-linear coefficient can move the
+> active `bar_nu nu` current between `A` and `B`, and at `q=1/2` can even kill
+> the distortion current, but it leaves the shared current unchanged. Once
+> `B` is returned through the actual local reduction graph, canceling the
+> `A` partial forces `q=0` while canceling the graph return forces `q=1`.
+> The active witness gives `||K||=54.826107` and one nonzero selected graph
+> pairing `56.43009`; its `q*=0.51441402` and residual `1546.2782` are
+> fixture-normalized diagnostics, not a norm of the full owner. Both draft
+> architectures have fixed-current/fixed-`Q` finite owner-sector
+> realizations. The first gives `Upsilon_B+Upsilon_F_candidate=0`; the second
+> gives the algebraic comparator
+> `(D Upsilon_B)^T Q Upsilon_B=Upsilon_F_candidate`. Both require the extra
+> contribution in that sector, and simultaneous imposition adds a
+> compatibility condition that fails on the exact fixture. Conditional on
+> keeping the nonzero-southeast operator, the other p.46 terms, and the chosen
+> owner maps, the minimal repository candidate is
+> `Upsilon_F_candidate=Upsilon_F_(9.18)+J_barnu_nu` with the same operator
+> coefficient. It adds no datum and no new current coefficient; positive
+> conditional-surplus language remains provisional pending an independent
+> held-out comparison.
+> The recommended modern staging is the first-order Einstein--Dirac action
+> with the candidate fermion current contribution plus the manuscript-exact
+> **separate** bosonic residual square. An abstract direct-sum Green control shows only that a
+> boson-only square cannot alter a stipulated fermion-sector comparator; the
+> active symmetrized Green replay, Green-Lagrangian fermion subdomain, and
+> mixed domain remain open. A final B2C6B run waits for the active staged
+> packet. The probe passes
+> `27 computational exact + 6 source receipts + 34 type-level + 4 planted = 71`;
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C12-ACTIVE-SOUTHEAST-CURRENT-CONTRIBUTION-AND-STAGED-RESIDUAL-SQUARE-ACTION`.
+>
+> **Alternative-branch B2C12 result (2026-08-01): ACTIVE MOVING RESIDUAL
+> PRIMALIZER BUILT / DIFFERENTIAL GREEN RETURN BUILT / GLOBAL DOMAIN NOT YET.**
+> Layer 0 corrects the earlier notation: the source places its compressed
+> residual in degree 13; the density-dual reading is a repository typing, so
+> its norm uses `R_res=b_res^-1`, not another lowerer. That source residual is
+> not the exact slot-symmetrized `E_T_var` of the selected G2 first action.
+> On a 28-dimensional active adjoint slice the construction now starts from
+> the actual trace-reversed metric-on-metrics tensor with
+> `(3,1)+(6,4)=(9,5)` and defines
+> `b_res=density*G_Y^-1 tensor kappa`,
+> `R_res=density^-1*G_Y tensor kappa^-1`. Both are inverse,
+> nondegenerate, and balanced `(14,14)`. Their full metric derivatives pass,
+> including `D R_res=-R_res (D b_res) R_res`, so
+> `d I2B=<D E,u>-1/2<u,(D b_res)u>` with `u=R_res E`. Frozen-pairing,
+> wrong-sign and lowerer/primalizer plants fail. A Euclidean-positive form is
+> not the constructed active map; general positive pairings remain open.
+> A polynomial differential model using this active moving map verifies the
+> formal-adjoint bulk plus nonzero Green endpoint identity; it is a local
+> finite-jet certificate, not a closed `Y14` domain. The selected southeast
+> action term independently emits `||J_SE||=54.8261074`; constrained `nu`
+> variation includes both its direct term and induced right-`H` partner
+> contribution; and the current returns through the complete local `B_rot`
+> graph with pairing `56.4300896`. Exact direct differentiation of a composite
+> residual-square comparator returns distinct `A_tr`, epsilon, and metric
+> equations and the nonzero one-half `D R_res` term, equivalently minus
+> one-half `D b_res` in primal variables. Distortion-only coefficients still
+> cannot cancel shared current. A canceler would require a new diagonal action
+> class `L=-K`; every nonzero companion variation implied by its actual field
+> dependence must then be returned. No such compensator is forced by this
+> gate. An artificial ambient rank-three plus held-out-direction fixture tests
+> only the matcher, not admissible action terms, so global completion surplus
+> is uncomputable rather than positive. The source-written residual
+> norm, spoken inter-layer square/root, and unreleased two-connection `D^2`
+> remain three distinct objects. The active `(9,5)` right-`H` map is a
+> source-anchored repository port, not a global identification with the
+> draft `Y^(7,7)` plus complex `C^(64,64)`/`u(64,64)`-type carrier. The probe passes
+> `27 computational + 5 source receipts + 15 type-level + 10 planted = 57`;
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM`:
+> differentiate both the compressed `Upsilon_B_src` and the distinct exact
+> slot-symmetrized `E_T_var`, return every moving Shiab/Hodge/density/graph
+> term, and derive both enlarged bosonic field-plus-conormal preboundary forms
+> before resuming the mixed-domain search.
+>
+> **Alternative-branch B2C13 result (2026-08-01): RESIDUAL SYMBOL FORK
+> EXECUTED / EXACT BRANCH NEEDS A PROLONGED BOUNDARY JET.** The compressed
+> source residual and the selected G2 action's exact Euler covector are now
+> differentiated as separate operators. Their difference contains
+> `1/2(L^!-L)T` plus the lower-order `M(T,T)-S q(T,T)` term, so the correction
+> is not merely a changed potential. On the existing exact B2C9 noncentral
+> fixture, 60 of 144 principal-symbol entries differ. In a fixed-`A`
+> reference-graph jet, the compressed source response is exactly `0` while
+> the exact-G2 response is exactly `1/2`; a cyclic/formal-self-adjoint control
+> kills the difference. Exact polynomial squares of both residuals return
+> every representative graph, moving-Shiab, Hodge/pseudo-musical, density,
+> and primalizer term and satisfy separate bulk-plus-boundary identities.
+> The jet primalizer is now density-correct:
+> `R_jet=rho^-1 Rbar_jet`, with its inverse lowerer explicitly checked.
+> Their preboundary forms are nonzero, antisymmetric, and unequal. In the
+> finite comparator the source branch remains first order in the graph field,
+> while the exact branch is second order and has a nonzero extra `z'`
+> conormal pair. The actual trace-reversed
+> `(9,5)` active `R_res` coefficient port separately retains balanced
+> `(14,14)` inertia and `D R=-R(D b)R` on two independent test covectors,
+> not constructed images of the two residuals. This is an
+> exact finite noncentral and local-jet construction, not the full native
+> `Y14` Shiab first jet or a selected domain. The probe passes
+> `43 exact + 4 source receipts + 15 type-level + 21 planted = 83`;
+> P1/P2/P3 remain unused. The next construction gate is
+> `ECW3D-B2C14-ACTIVE-Y14-SHIAB-FIRST-JET-AND-GRAPH-CONORMAL-PORT`: port the
+> actual trace-adapted native Shiab, moving formal adjoint, six-slot `DM`, and
+> full `B_rot` Levi--Civita/reduction graph. Compute `K_act` first: if nonzero,
+> build the prolonged active trace and characteristic kernel; if zero, record
+> active order collapse and use the reduced trace before the final
+> mixed-domain replay.
+>
+> **Alternative-branch B2C14R result (2026-08-01): HOSTILE-REVIEW OWNER
+> CORRECTION / DESCENDED QUOTIENT SYMBOL NONZERO.** The first packet computed
+> a valid `3/4` coefficient on a 78-dimensional Spin stabilizer and wrongly
+> called it a reduction-field tangent. Those directions change the local
+> lift and are zero in `P/H`; the hostile council caught the Layer-0 error
+> before commit. The repaired gate uses all `91` bivectors as
+> `h=spin(9,5)`, the `8165`-dimensional complement for `g/h`, and executes the
+> complete invariant `364`-dimensional grade-three quotient slice with `5096`
+> matching residual testers. All vertical lift directions cancel when `u`
+> and `omega_LC` co-move. Even after conservatively allowing every
+> `h`-valued LC principal return in `T*Y tensor h` (dimension `1274`), its
+> grade-three residual image is zero while the quotient graph has exact rank
+> `364` on the executed owner for tested non-null normals. The tested null
+> normal gives a grade-three-projected lower bound `132`, and mixed covector
+> polarization gives projected lower bound `198`. Exact witnesses `3/4` and
+> `-3/4` agree with a native `128 x 128` representation cross-check. The
+> matching grade-three Gram block has rank `364` off the tested null cone and
+> zero on it, but it is explicitly not the all-grade Hessian. A genuine
+> quotient-grade moving-Shiab derivative is nonzero; its selected six-slot
+> `DM` value is exactly `0`, correcting the stabilizer-owned `-1`. Thus the
+> active residual operator is second order on genuine reduction tangents,
+> while the complete primalizer, prolonged conormal packet, characteristic
+> kernel, and domain remain open. The probe passes
+> `28 exact + 3 source receipts + 13 type-level + 12 planted = 56`;
+> P1/P2/P3 remain unused. The next gate is
+> `ECW3D-B2C15-FULL-QUOTIENT-GRADED-RESIDUAL-PRIMALIZER-AND-INDUCED-LC-GRAPH`:
+> execute every quotient-owner grade against every residual grade or prove
+> the cross-grade vanishing theorem, assemble the all-grade residual
+> primalizer, derive the actual induced metric/LC graph and complete `K_act`,
+> then compute the full block Hessian/characteristic candidates before the
+> prolonged preboundary packet.
+>
+> **Alternative-branch B2C15 result (2026-08-01): BARE FIXED-SHIAB QUOTIENT
+> COEFFICIENT + ISOLATED METRIC BLOCK COMPLETE; FULL GRAPH RETRACTED.** All six
+> bare quotient-owner grades were executed against all seven active residual
+> grades for the compressed residual-square comparator. A complete
+> signed-coordinate orbit certificate proves that the assembled quadratic
+> symbol preserves grade even though a planted raw ordered grade-3-to-grade-7
+> term is exactly `1/2`; it cancels only after symmetric assembly. The full
+> residual lowerer/primalizer has dimension `115584`, inertia
+> `(57664,57920)`, and satisfies both inverse and moving-inverse identities.
+> The bare reduction coefficient has rank `8165` at the named positive
+> representative and Hessian inertia `(4114,4051,0)`. At the named null
+> representative it still has rank `4136`, but
+> its entire `R_res` Gram is zero: a nonzero isotropic image, not a constructed
+> gauge quotient. The actual ten-owner `D_g G_Y` induced LC graph has rank
+> `10`; the old observed-4D proxy has rank `9` and differs by rank `10`. Its
+> isolated metric coefficient and Gram both have rank `7` on the named
+> positive and positive-plus-positive representatives, and rank `8` on the
+> named null representative. The bare quotient--metric comparator vanishes by
+> grade, but hostile review caught the unconstructed `h`-valued reduction
+> return `r_xi`, which can couple to the metric block in grade two. Therefore
+> no full cross-Hessian, summed inertia, radical, or characteristic claim is
+> admitted. The trace line also creates independent covector rank strata, so
+> no generic off-null claim follows. A
+> selected second-jet subchannel has the required nonzero two-trace Green
+> endpoint, but the full nonlinear preboundary quotient and domain remain
+> open. P1/P2/P3 remain unused. The next gate is
+> `ECW3D-B2C15R-REDUCTION-H-RETURN-RANK-STRATA-AND-COUPLED-BLOCK`: construct
+> the overlap-covariant splitting return `r_xi`, recheck all 91 lift
+> cancellations, classify `q(xi)` plus trace-component rank strata including
+> timelike cases, add the all-grade moving-Shiab/formal-adjoint contributions,
+> and keep the compressed residual separate from the exact G2 Euler branch.
+> Only then recompute the coupled block and advance to kernel/BV/preboundary
+> work.
+>
+> **Alternative-branch B2C15R result (2026-08-01): NATIVE PRINCIPAL RETURN
+> VANISHES; FIXED-SHIAB PRINCIPAL DIRECT SUM EARNED.** Layer 0 separates the
+> local lift compensator, reductive connection, algebraic `h` return,
+> tensorial principal symbol, and physical metric LC response. Exact
+> differentiation of both the gauge-rotated LC graph and the repository's
+> `A0`-induced reductive comparator gives principal quotient symbol
+> `-xi tensor chi_m`. The complete Clifford check proves `[h,m] subset m`,
+> `Hom_H(m,h)=0`, and all 91 co-moving lift cancellations. Thus the native
+> splitting-induced `r_xi` is zero. The `A0` branch still has the live
+> lower-order term `pr_h[beta_m,chi_m]`. Two nonzero full-Spin first-order
+> alternatives exist from grades 10 and 14, with named-positive-`xi` ranks
+> `286` and `1`; they cost two new coefficients and remain optional operator
+> data. Trace-stabilizer covariance alone admits 25 channels. In the native
+> branch the frozen fixed-Shiab formal-symmetric exact-variational graph
+> subcoefficient has a positive quotient-plus-metric comparator with
+> `K` rank `8172` and Gram inertia `(4118,4054,3)`; at the named orthogonal
+> null representative it has `K` rank `4144` and Gram inertia
+> `(1,7,8167)`. These are principal Gram/normal comparators, not a full
+> off-shell Hessian. The trace-reversed fibre splits previously conflated
+> conormals: orthogonal-null quotient rank `4136`, trace-involving-null rank
+> `6097`, pure-trace rank `8164`, and most named nonnull representatives rank
+> `8165`. The exact named census is not yet a polynomial stratum theorem.
+> This corrects B2C15's branch label: B2C13's compressed source graph response
+> is `0`; the nonzero formal-symmetric block is not that source residual and
+> is still only a subcoefficient of the incomplete exact-G2 Euler map.
+> P1/P2/P3 remain unchanged and unused. The next gate is
+> `ECW3D-B2C15M-MOVING-SHIAB-EXACT-G2-WEIGHTED-EULER-AND-POLYNOMIAL-STRATA`:
+> certify exceptional rank loci, compute all moving Shiab/pairing slots on
+> residual-zero and off-shell fixtures, carry the algebraic connection return
+> only through the `A0`-comparator lower filtered formal-adjoint/Green packet
+> while retaining the native branch separately, and build the
+> distinct weighted source-square, variational-square, and G2 Euler symbols
+> before any BV quotient or domain replay.
+>
+> **Alternative-branch B2C15M result (2026-08-01): MOVING SHIAB CONSTRUCTED;
+> POSITIVE-TRACE POLYNOMIAL RANK LOCUS CERTIFIED.** The trace-adapted native
+> Shiab satisfies `546/546` differentiated covariance checks across all 91
+> vertical Spin-frame directions and six curvature-grade representatives.
+> Separately, seven grade-generating quotient-tangent representatives pass
+> `42/42` naturality checks against the six curvature grades; this is not a
+> full 8,165-direction or global-overlap theorem. In a declared local
+> symmetric Clifford gauge, all ten actual physical metric owners
+> differentiate the Clifford relation, preserve the Hodge-square sign, and
+> move the normalized trace vector consistently; the corrected `D Phi2`
+> includes `-h_ab` and has no scalar contamination. They produce an exact
+> moving-Shiab response map of rank `10` after returning the trace, both
+> `Phi` tensors, four Hodge occurrences, and the single density contribution.
+> An exact variable-density fixture proves `D(L^!)` differs from `(DL)^!`
+> with frozen pairings and satisfies the differentiated Green identity with
+> a nonzero moving endpoint. The six-slot `DM` has a nonzero exact witness and
+> differs from the compact `(D Shiab)q` shortcut. A
+> nontrivial residual-zero fixture earns `J^! R J`; off shell the omitted
+> residual-times-second-variation and moving-primalizer corrections are
+> separately live with rank `2`. Three distinct Douglis--Nirenberg order-cap
+> skeletons are frozen for the compressed source square, exact variational
+> square, and first-action owner system; realized principal orders and the
+> full first-action owner coefficient remain open. On the full chart
+> `xi(a)=e_positive+a*e_trace`, quadratic interpolation passes at held-out
+> `a=2`, and gcds of all maximal minors prove frozen rank `8165` for
+> `a^2 != 1` and `6097` at the two null roots. This theorem does not cover
+> pure-trace, negative, or nonzero-null-perpendicular charts and does not
+> transfer to the moving coefficient, Gram, BV quotient, or domain.
+> P1/P2/P3 remain unchanged and unused. The next gate is
+> `ECW3D-B2C15N-FULL-FIRST-ACTION-OWNER-EULER-AND-MOVING-POLYNOMIAL-ATLAS`:
+> construct the complete direct-`B` plus `T=A-B` owner Euler coefficient,
+> check weighted Helmholtz/right-`H`/Krein/reality identities, recompute the
+> polynomial support after moving terms, and complete the negative,
+> nonzero-null, and pure-trace charts before any characteristic/BV replay.
+>
+> **Alternative-branch B2C15N result (2026-08-01): FULL FINITE OWNER RETURN
+> CONSTRUCTED; NATIVE MOVING ATLAS NOW GATED ON ITS BACKGROUND.** Independent
+> variation of the written first action gives a live direct-`B` covector and
+> the graph-return driver `R_B=E_B-E_T`. An exact noncentral fixture with two
+> moving graph owners constructs `E_A=E_T` and
+> `E_u=C_u+(D_uB)^!R_B`, including the moving contraction, density, lowerer,
+> graph adjoint, Green endpoint, and prolonged preboundary packet. The direct
+> action chain rule and integrated Helmholtz identity pass. Returning `E_T`
+> alone has nonzero Helmholtz defect `279281447/155195040`. Direct-`B`/`T`
+> cancellation lowers the two diagonal graph blocks, but the mixed
+> third-order coefficients survive as formal-adjoint opposites `+9/-9`; the
+> realized grouped order matrix is `[[1,2,2],[2,2,3],[2,3,2]]`. On a scaled
+> background family, the owner-symbol entrywise background degrees range from
+> four to six and conormal degrees reproduce the realized order matrix; seven
+> exact interpolation nodes and two holdouts pass. The complete `4x4`
+> total-symbol dispersion determinant is a single irreducible rational
+> polynomial of bidegree `(20,8)`. The distinct Douglis--Nirenberg principal
+> determinant is
+> `16(c-3)^2(c+2)^2(3c-1)^2(c+1)^4 lambda^8`, and admissible background slices
+> have different total-symbol dispersion polynomials. Therefore B2C15M's frozen
+> positive-plus-trace theorem remains valid only at its stated scope: it
+> cannot be promoted to the moving owner atlas, or extended by its assumed
+> trace stabilizer, until the actual native action background is specified.
+> Native coefficientwise right-`H`/Krein/reality, other conormal charts, BV,
+> and domain remain open. P1/P2/P3 are unchanged and unused. The next gate is
+> `ECW3D-B2C15O-NATIVE-Y14-OWNER-BACKGROUND-STABILIZER-AND-TYPED-SUPPORT`:
+> resolve or branch the source `odot_omega` translation-dependence homonym,
+> construct the actual native `E_B`, `R_B`, quotient/metric graph returns on
+> one declared background, derive that background's true stabilizer and typed
+> support after cancellations, and only then perform the coefficientwise
+> reality and polynomial-chart calculations.
+>
+> **Alternative-branch B2C15O result (2026-08-01): SOURCE COORDINATES
+> CORRECTED; ONE SELECTED ALGEBRAIC FIXTURE CONSTRUCTED.** On the literal
+> equations-9.2-to-9.3 epsilon-Shiab branch, the action owns
+> `(epsilon,varpi,g)`, with `A_tot=Gamma(g)+varpi`, rather than independent
+> fixed total `A`. Exact return gives `E_varpi=E_T`, while the
+> fixed-`varpi` metric equation equals the fixed-`A` equation plus the live
+> term `(D_g Gamma)^!E_T`. Its isolated Green companion is live, and reusing
+> the fixed-`A` metric equation gives Helmholtz defect
+> `79042325/279351072`; the corrected system passes and retains grouped order
+> matrix `[[1,2,2],[2,2,3],[2,3,2]]`. Whether equation 9.4's `odot_omega`
+> equals the literal epsilon family remains unverified. A trace-reversed
+> carrier-compatible fixture uses a realizable four-dimensional curvature
+> two-jet and explicit affine `B`/constant-`T` germs. Exact support,
+> right-`H`/Krein/`C+` word, and independent native-matrix checks pass. Inside
+> diagonal `Spin(9,5)`, selected tuple isotropy is `36`, its intersection with
+> the one non-null `xi=e0` stabilizer is `36`, and a held-out compatible tuple
+> has isotropy `28`. These are not full Zorro/DeWitt Y14 action-jet or ambient
+> `Sp(32,32;H)` stabilizers. P1/P2/P3 remain unchanged and unused. The next
+> gate is
+> `ECW3D-B2C15P-SOURCE-EPSILON-REDUCTION-TANGENT-BRIDGE-AND-NATIVE-FIXED-VARPI-COEFFICIENT`:
+> type the source `H`-valued epsilon tangent against the quotient reduction
+> tangent, resolve or branch `odot_omega`, port or obstruct the displayed
+> `(7,7)` Shiab on the active `(9,5)` right-`H`/Krein carrier, construct the GU
+> Zorro/DeWitt total-space jet, and only then construct the complete native
+> fixed-`varpi` coefficient and its actual stabilizer before any atlas, BV, or
+> domain promotion.
+>
+> **Alternative-branch B2C15P result (2026-08-02): DIRECT EPSILON BRIDGE
+> KILLED; DISTORTION BRIDGE AND CURVED ZORRO JET CONSTRUCTED.** The source
+> epsilon tangent is `h=Lambda2`, whereas the repository reduction tangent is
+> the six-grade quotient `m`. Exact Casimirs give
+> `Hom_H(h,m)=0`, killing every equivariant linear zero-jet direct bridge.
+> The tilted-descended distortion `delta T=alpha-D_A zeta` opens a narrower
+> route: `c3 Alt(delta T)+c11 *Alt(delta T)` is equivariant under all 91
+> generators and, for every nonzero coefficient pair, has rank `364`, kernel
+> `910`, and full-`m` cokernel `7801`; the zero pair has rank zero.
+> Symmetry does not select `c3:c11`, so this is a partial candidate rather
+> than a datum or full reduction. The literal `odot_epsilon` branch remains
+> separate from a genuinely `omega`-dependent rival; any nonzero
+> `D_varpi odot` is returned inside the existing varpi equation and its exact
+> zero-order bulk-plus-preboundary witness passes with no new isolated Green
+> term. A separate `Sigma=D_x` plant verifies the formal adjoint and nonzero
+> isolated Green term required for a differential coefficient. The product `blockdiag(h,D_h)` gimmel is
+> replaced by the LC-horizontal connection metric
+> `G_Y=h+D_h(theta,theta)` on an exact constant-curvature normal base
+> three-jet. Its complete local `G,dG,d2G`, LC, Riemann, and spin-curvature
+> jets pass pullback, base-curvature, metricity, torsion, Riemann, Bianchi,
+> trace-reversal, and active reality checks. The product surrogate fails 40
+> second-pullback-jet components. All 71 nonzero spin-curvature legs pass the
+> exact right-`H`/Krein/`C+` identities, and the split/trace/curvature tuple
+> has diagonal-Spin stabilizer `6` inside `91`. This is a canonical
+> connection-metric reconstruction, not a source-unique full Shiab/action
+> port. P1/P2/P3 remain unchanged and unused; P2's ultimate type remains
+> open, so it is neither ruled in nor consumed. The next gate is
+> `ECW3D-B2C15Q-DISTORTION-REDUCTION-SUBSTITUTION-AND-NATIVE-ZORRO-SHIAB-OWNER-RETURN`:
+> substitute the partial reduction into the fixed-varpi owner system, derive
+> every chain-rule/Green return, apply the actual Shiab/Hodge/lowerer to the
+> reconstructed curvature, and use surplus plus held-out controls to constrain
+> the distortion ratio and any genuine `Sigma_varpi` using a preregistered
+> finite equivariant ansatz, parameter count, constraint-Jacobian rank,
+> planted matcher, and held-outs before attempting
+> nonlinear completion of the missing quotient grades.
+>
+> **Alternative-branch B2C15Q result (2026-08-02): A QUADRATIC CONNECTION
+> RESPONSE IS BUILT; ITS ACTION SLOT IS NOT.** Keeping source `epsilon_H`
+> separate from the derived reduction, the leading quadratic BCH term
+> `q_red^(2)=-1/2 pr_h[u,du]` for
+> `u=c3 Alt(T)+c11 *Alt(T)` depends exactly on
+> `Delta=c3^2-c11^2`. All `66,066` grade-three pairs pass the Hodge identities;
+> `6,006` live brackets span all `91` connection directions, and one common
+> reduction value has quadratic rank `91`. A quartic BCH plant is live, so
+> this is not the full Maurer--Cartan connection. The actual `71`-leg Zorro
+> curvature gives `13` compatible internal Shiab coefficients. A shaped,
+> realizable quadratic pattern pairs by `51/8`, but Weinstein's written `I1`
+> pairs `T`, not `q_red`, with the Shiab image. Adding
+> `I_red=lambda_red<q_red,Shiab(Fspin)>` is a new action ansatz; its response
+> rank is one but its physical constraint surplus is `UNCOMPUTED`. Separate
+> differential Green and finite algebraic three-owner comparators pass; they
+> are not one native tensorial variation. All eight fixed-curvature moving
+> slots are live and the local ten-metric-direction response has rank `10`.
+> The raw curvature linearization, first-order Zorro graph, expanded formal
+> adjoints, and remaining pairing/density/Krein/graph returns require an exact
+> order ledger before a jet cap is named. The declared nonlinear words factor
+> through `Alt(T)` and have derivative rank at most `364` into `8165`. The
+> `13` observation legs split into four `(3,10)` legs eligible for properly
+> supported ten-fibre integration and nine `(4,9)` legs killed by it; an
+> equation-dual is a separate unbuilt map. P1/P2/P3 remain unchanged and
+> unused. The next gate is
+> `ECW3D-B2C15R2-FULL-BCH-REDUCTION-ACTION-PLACEMENT-AND-CURVATURE-ADJOINT-ORDER`:
+> compute the higher connection terms, derive or reject the `lambda_red`
+> action placement and its Bianchi/Noether/boundary law or tensorial
+> replacement, build the complete raw/adjoint order ledger, and keep the
+> Gysin and equation-dual observation routes distinct before any surplus,
+> BV, domain, or physical promotion.
+>
+> **Alternative-branch B2C15R2 result (2026-08-02): THE FULL LINEAR BRIDGE
+> AND A COEFFICIENT-FREE ACTION-PLACEMENT CANDIDATE GRAMMAR ARE BUILT;
+> THE DERIVED SUBSTITUTION, GLOBAL DESCENT, AND
+> OBSERVATION SUPPORT ARE NOT.** The complete grade-3/11 BCH connection
+> resums to `q_MC=-Delta pr2[ad_A phi(Delta ad_A^2)dA]`, so both Hodge-null
+> branches vanish to all orders in this controlled linear sector. A separate
+> grade-seven completion breaks same-`Delta` equality, preventing a false
+> global promotion. Covariantizing with `D_BA` gives a projected reduced
+> `h/Spin` connection candidate `q_B=B+K_u` and tensorial difference
+> `K_u=-Delta pr2[ad_A phi(Delta ad_A^2)D_BA]`; the projection removes a live
+> grade-six impostor and passes all 91 reduced grade-two `h/Spin` generators;
+> full source `H/Sp` equivariance remains part of bundle descent. Its candidate
+> action placement is the coefficient-free split
+> `(B,T)->(B+K_u,T-K_u)` inside the existing first action at fixed total
+> connection. A generic finite split-action comparator and a separate
+> derived-leading-owner Green comparator pass; the actual derived `K_u(T)`
+> has not yet been substituted into the finite/native action. The apparent
+> Zorro/curvature order-three symbol is pure gauge and cancels. The full
+> `A2 o Z0` principal-curvature subroute, including the moving DeWitt block,
+> is live with trace-adapted Shiab ranks `10` and `4`; the effective
+> order-two symbol remains open until `A1 o Z1` and subprincipal terms are
+> assembled. Four of thirteen
+> observation legs are fibre-Gysin eligible, but the noncompact homogeneous
+> metric fibre supplies no nonzero invariant compactly supported cutoff; an
+> equation-dual remains a distinct selected-lift problem. P1/P2/P3 remains
+> unchanged and unused. The next gate is
+> `ECW3D-B2C15R3-SAME-BUNDLE-COVARIANT-SPLIT-NATIVE-FIRST-VARIATION-AND-OBSERVATION-SUPPORT`:
+> prove same-bundle/overlap descent of `q_B/K_u`, differentiate the full split
+> through the actual first action with every Green and gauge/Ward return, and
+> assemble `A1 o Z1` plus every subprincipal term into the effective
+> order-two symbol, then derive proper support or a selected descended
+> no-leakage equation lift before computing physical response rank or surplus.
+>
+> **Alternative-branch B2C15R3 result (2026-08-02): AN ABSTRACT REDUCED
+> DESCENT THEOREM AND STRUCTURAL INDUCED-BUNDLE COMPARATOR PASS, AND A
+> DECLARED-GERM CORRECTION DERIVED FROM THE FINITE B,T VALUES HAS A NONZERO
+> ACTION RESPONSE; THE ACTIVE/LITERAL SOURCE PORTS AND COMPLETE ORDER-TWO
+> OPERATOR REMAIN OPEN.** Three exact nonconstant `SL(2) -> Sp(4)` patches
+> verify tensorial descent of `K_u` and affine descent of `B+K_u`. Together
+> with prior G1/R2 actual-equivariance receipts this gives a formal conditional
+> active-native corollary, not a newly machine-checked 128-dimensional atlas.
+> A structural fixed projector fails ambient covariance, while the conjugated
+> moving projector passes. The public source still supplies no real-form
+> principal-bundle morphism identifying its bundle with this active one. In
+> the finite action fixture, the declared structural port `L_fin(T)=T_0` plus
+> a compatible constant-`A` full first jet derives `K` and `dK`. A held-out
+> nonconstant-`A` jet with the same exterior `dT` changes `dK`, so that germ is
+> explicitly priced. Cayley--Hamilton gives
+> `f=(1-cos(sqrt(21)))/7`, the exact split polynomial is
+> `I(s)=(378s^2+280s+23)/2`, and the full derived response
+> `189f^2+140f` is positive and nonzero. The held-out `T_1,T_2` ports differ,
+> so this is not promoted to native `Alt(T)`. The trace-reversed metric fibre
+> supplies an invariant but non-normalizable density. A normalized
+> ten-fibre observation-section delta-current has exact non-unimodular `GL(4)`
+> density-Jacobian normalization and proper section-graph support. A separate
+> LC-horizontal coefficient lift has Cech/Krein-dual control, but both are
+> selected distributional data rather than bulk-derived decay; `R L=1` still
+> does not imply no leakage. The actual
+> B2C15P background has live base first derivatives, and an exact plant shows
+> `A1 Z1` can cancel a live `A2 Z0` block, so the prior ranks `10,4` are not
+> the complete effective symbol. P1/P2/P3 remains unchanged and unused. The
+> next gate is
+> `ECW3D-B2C15R4-NATIVE-ALT-SOURCE-BUNDLE-PORT-AND-FULL-EFFECTIVE-ORDER2-ASSEMBLY`:
+> construct or obstruct the literal-source/native real-form bundle map,
+> build the moving grade-two `Alt(T)` port there, rerun the full action/Ward/
+> Green return, and assemble `A2(2 partial Z1+Z0)+A1 Z1` plus every moving
+> coefficient before attempting the functional observed equation or surplus.
+> See
+> `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
+> `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
+> `explorations/eric-curt-wave2b-first-layer-term-rank-ablation-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3a-observation-dual-leakage-2026-07-31.md` and
+> `explorations/eric-curt-wave3b-cech-domain-quotient-2026-07-31.md` and
+> `explorations/eric-curt-wave3c-y14-atlas-cauchy-domain-2026-07-31.md` and
+> `explorations/eric-curt-wave3d-section-green-domain-2026-07-31.md` and
+> `explorations/eric-curt-wave3d-b1-h1-closedness-kill-2026-07-31.md` and
+> `explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2b-positive-symmetrizer-jordan-obstruction-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c-projected-gauge-quotient-gate-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c2-null-clifford-omega1-completion-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md`
+> and
+> `explorations/eric-curt-wave3d-b2c4-shiab-family-southeast-completion-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c5-covariant-action-green-ward-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md`
+> and
+> `explorations/eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md`
+> and
+> `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
+
+> **2026-07-31 PAIRED CURT--ERIC AXIOM / TWO-ACTION CORRECTION
+> (BRANCH-LOCAL).** The subsequent Curt--Eric conversation now supersedes the
+> iceberg's single-pass action reading. Curt's useful core survives: the Higgs
+> parent is an ad-valued one-form and connection coupling can supply a
+> Yukawa-shaped incidence. Eric's correction makes GU staged: an
+> Einstein--Dirac first layer is followed by a distinct Yang--Mills--Higgs
+> Lagrangian/action described as its square or second-order companion. Eric
+> also says the real Higgs is not simply adjoint-valued. The new
+> 40-axiom/nine-chain ledger incorporates the user-supplied Step 13 slide,
+> which explicitly types `A(P_H)`, `N=Omega^1(ad P_H)`, and the proposed odd
+> `Omega^1(S)+Omega^0(S)` carrier while leaving its bracket and Jacobi law
+> open; the transcription receipt records video locator `00:53:03` and the
+> supplied-image hash. After C0/G3.5/C1, the next high-information swing is
+> `E6-STAGED-RESIDUAL-SQUARE`: reconstruct the manuscript-exact bosonic
+> `I_2^B[Q_B]`, separately test the conjectural total-residual
+> `I_2^ED[Q_ED]`, and compare `Pi_Higgs^varpi(varpi)` with
+> `Pi_Higgs^T(T)` before using either in the K-paired fermion bilinear and
+> second-layer gauge/scalar Hessian. This supersedes later “one shared
+> Hessian” wording as source architecture; those finite fixtures remain
+> compatibility controls. See
+> `lab/sources/paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`.
+
+> **2026-07-31 CURT ICEBERG 30-STEP RECONCILIATION / C0 INSERTION
+> (BRANCH-LOCAL).** Curt Jaimungal's 2025 three-hour iceberg is now included
+> as a secondary construction map rather than a blanket recovery theorem. All
+> 30 recap steps and 14 cross-cutting claims are graded separately for Curt
+> assertion, Weinstein primary-source support, repo construction, and physical
+> recovery. The reconciliation preserves four load-bearing forks:
+> `(7,7)` versus active `(9,5)`, `U(64,64)` versus right-`H`
+> `Sp(32,32;H)`, group containment versus dynamic selection, and three
+> carrier pieces versus three physical generations. It also records that
+> Curt's Klein--Gordon construction lacks specific source notes, his
+> Einstein/Yang--Mills formulas are stated as his current understanding, and
+> the Yukawa passage still arranges a coupling/normalization. The next
+> sequence now begins with C0: construct the universal-metric musical map
+> and natural connection split between `C=V+H*` and the active DeWitt/gimmel
+> `TY` carrier, comparing metrics, Clifford modules and real forms. Then run
+> only the primitives needed for enumeration, run G3.5 on the surviving
+> carrier, port only surviving carrier-dependent machinery if needed, and
+> globalize C1/G4 with the algebraic Euler
+> dual separated from the Riesz adjoint. Do not restart the already-built
+> IG/cocycle/distortion/action grammar; if C0 finds inequivalence, port the
+> carrier-dependent Hodge/Clifford/Krein/Shiab/Euler/Green/Ward realization. See
+> `lab/sources/curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`.
+
+> **2026-07-31 ERIC SOURCE-DIRECTED NATIVE CLOSURE SWING
+> (BRANCH-LOCAL).** The ten Weinstein-guided physics routes now close through
+> five shared conditional compatibility objects rather than ten copied standard equations:
+> one observation/equation-dual/domain packet, one stationary stabilizer and
+> bosonic Hessian, one minimal Krein odd action and action-derived current,
+> Frobenius-fibre trace reversal, and one preboundary/positive-majorant/time
+> split. The exact fixture passes 1,955 positive checks and 13 planted failures.
+> It proves mutual decoder compatibility, not emergence: the planted
+> `u(1)+su(2)+su(3)` algebra, background blocks, and projectors are explicitly
+> controls. Every actual `Y^14`, physical-domain, Standard Model, gravity,
+> quantum, dark-sector, and cosmology gate remains open. Next lift the
+> observation packet into the exact G3 bundle/Euler system and test patch
+> descent, equation-dual Ward transport, nonlinear leakage, right-H domain
+> preservation, and preboundary reduction before solving stationary
+> backgrounds. See
+> `explorations/eric-source-directed-native-closure-swing-2026-07-31.md`.
+
+> **2026-07-31 ERIC-NATIVE PHYSICS EQUATION REPLACEMENT ATLAS
+> (BRANCH-LOCAL).** The same ten specialist lenses plus a science-council
+> synthesis now map fifteen familiar physics jobs to the G2/G3 first
+> Einsteinian parent plus a staged second-layer fork: the manuscript bosonic
+> residual square versus a conjectural total Einstein--Dirac residual square.
+> Maxwell/Yang--Mills, force decomposition, Einstein gravity, Higgs/cosmology,
+> Dirac/RS, Yukawa, BV/anomaly, generation/index, and datum/observation each
+> have an exact status, observation arrow, next construction, and decisive
+> kill. The program no longer restarts at “source action/external datum
+> missing”: finite data are carried as a conditional family and consumed only
+> at typed domain/orientation/index maps. The next highest-information wave is
+> C0 carrier adjudication, G3.5 target-blind enumeration/ablation on the
+> surviving carrier, G4 observation/domain construction,
+> the manuscript bosonic square, the coupled Einstein--Dirac residual and its
+> separately charged total-square rival, the `varpi`/`T` Higgs-carrier fork,
+> one stationary native background, and
+> staged Hessians whose gauge, spin-two, heavy-scalar, and light-scalar blocks
+> are named only after they survive. See
+> `explorations/eric-native-physics-equation-replacement-atlas-2026-07-31.md`.
+
+> **2026-07-31 GEOMETRY-FIRST ORTHODOXY AUDIT / TEN SEPARATE
+> SPECIALIST ODDS (BRANCH-LOCAL).** The same ten lenses find that only the
+> `4+10=14` metric-bundle carrier is close to automatic. Both lanes still
+> supply the Lorentz/spin sector, GU trace normalization, principal gauge
+> arena, action, domain, and datum. The independent N1/N3 lane obtains broad
+> five-leg coverage by explicitly inserting Yang--Mills, full-20 Dirac/RS,
+> SW, Yukawa/flavour, projector/spurion, defect, and vacuum templates. The
+> guided G1--G3 lane has fewer such imports and has already allowed exact
+> variation to kill Eric's compressed Euler shortcut, but it still debits the
+> IG grammar and G2 action family. Per Joe's direction, each specialist's
+> guided/control odds remain separate; there is no aggregate. Insert G3.5—a
+> target-blind natural-bundle/map/action census plus N1 term ablation—before
+> and partly alongside G4. G4 remains mandatory and may not choose its
+> retract/domain using SM, chirality, count, or PP3 labels. See
+> `explorations/geometry-first-orthodoxy-audit-ten-lens-lane-odds-2026-07-31.md`.
+
+> **2026-07-31 G3 FULL VARIATIONAL/BV--BFV SPLIT PASS
+> (BRANCH-LOCAL).** Every actual owner of the G2 source action now has a
+> graph-complete bulk Euler return. The first-jet gauge identity closes only
+> jointly: its isolated connection contribution is nonzero and is canceled by
+> the moving-reduction equation. The action emits a nonzero thirteen-form
+> preboundary potential and presymplectic current, and the ordinary gauge
+> algebra admits the minimal BV completion required for CME closure through
+> antifield number one; omitting the ghost-antifield bracket term fails. Two
+> boundaries remain explicit. A preboundary form does not select G4's closed
+> Krein domain/polarization, and the selected source-only action contains no
+> observation section, matter, or defect term. The required Weinstein-source
+> recheck resolves the apparent mismatch: the author-guided route is to pull
+> ambient fields/equations back along the metric section, not to make the bulk
+> action emit a four-dimensional defect. G4 is next: construct that observation retract,
+> off-slice leakage test, admissible ultrahyperbolic polarization, closed
+> domain, and preboundary reduction needed by G5. See
+> `explorations/g3-full-variational-bicomplex-bvbfv-2026-07-31.md`.
+
+> **2026-07-31 G2 FIELD-SPACE/NATIVE-VARIATIONAL-SHIAB PASS WITH
+> SOURCE-FORMULA CORRECTION (BRANCH-LOCAL).** The selected guided field graph
+> is now explicit: `A` is the free endpoint connection,
+> `B=A_LC(epsilon_red,g_DW)` is a graph-constrained moving Levi--Civita
+> connection, and `T=A-B` is derived. The native trace-adapted density-dual
+> Shiab has been placed in the written fourteen-form first-order action. Its
+> fixed-linear Chern--Simons shortcut fails the required cyclic/Helmholtz
+> identities, so the compressed source `S(F_A)+kappa_1 flat(T)` is killed for
+> this map. The action itself survives: exact variation produces the symmetric
+> linear operator `1/2(L+L^!)` and a necessary two-input cubic Euler map
+> `M_epsilon(T,T)`. G3 is next and must vary that corrected action through the
+> reduction, metric, section, LC graph, Hodge/density, and boundary data before
+> testing coupled Noether and minimal BV--BFV closure. See
+> `explorations/g2-field-space-native-variational-shiab-2026-07-31.md`.
+
+> **2026-07-31 G1 DERIVATIVE-COCYCLE/MOVING-REFERENCE PASS
+> (BRANCH-LOCAL).** The genuine connection cocycle
+> `q_A(g)=A-Ad_g(A)+(dg)g^-1` retains the tilted homomorphism and
+> left-invariant/right-adjoint displacement. The native Levi--Civita
+> connection extends through a moving Spin reduction with exact lift, patch,
+> right-H, and trace-reversed covariance; the RB3 `A0`-induced rival agrees
+> only under an explicit compatibility equation. The tilted subgroups form a
+> conjugate family/subgroupoid over the reduction field. At fixed reference,
+> the double-action groupoid is the adjoint distortion quotient `[V/G]`, not
+> automatically `[Conn(P)/G]`; with a moving reference the reduction field
+> remains in `[E_ref x V/G]` until an additional uniqueness theorem removes
+> it. G2 is now next: declare the complete field/graph policy and construct
+> the native bosonic Shiab before full variation. See
+> `explorations/g1-derivative-cocycle-moving-reference-2026-07-31.md`.
+
+> **2026-07-31 TEN-SPECIALIST GUIDED-LANE REORDERING (BRANCH-LOCAL).**
+> The first Eric-guided scaffold remains on the same North Star, but its next
+> sequence is superseded by the ten-lens council. Three missing layers now run
+> before physical fitting: the full `dg`-bearing gauge cocycle and moving
+> reference (E0 was a zero-jet shadow), the coupled all-field Noether/BV--BFV
+> identity, and an observation-retract/boundary-polarization packet for the
+> ultrahyperbolic `(9,5)` ambient system (which has no ordinary spacelike 13D
+> Cauchy surface). The council preserves the K-paired vertical scalar channel,
+> the already-typed conditional P1/P2 weld, separate P3, trace reversal, and
+> frozen PP3. The new order is G1 derivative cocycle; G2 field space/native
+> bosonic Shiab; G3 full variation; G4 observation/domain; G5 N3 current/Riesz;
+> G6 stable Cartan; G7 one-parent two-mode Hessian; G8 physical SM kernel; G9
+> rolled physicalization/datum surplus; G10 cosmological emission and hostile
+> review. See
+> `explorations/old-vs-eric-ten-specialist-gap-opportunity-council-2026-07-31.md`.
+
+> **2026-07-31 WEINSTEIN-GUIDED BRANCH FORK (BRANCH-LOCAL).**
+> `agent/weinstein-guided-source-action` begins prospectively at the exact
+> `agent/operator-anomaly-big-swing` base commit `3567956`; the independent
+> branch is the control and is not modified. The complete 74-row TOE
+> mathematical-claim ledger recovers the connected
+> `IG -> tau+ double coset -> gauge-rotated displacement -> equivariant
+> contraction -> Euler/VEV` grammar missed by the earlier selective ledger.
+> An exact 18-check finite opening swing selects the unit Maurer--Cartan
+> coefficient and finds that the displacement and its Euler covector require
+> curvature addition plus affine-chart transport; they are not literal
+> synonyms. The highest-information next guided swing is E1+E2: globalize the
+> tilted field packet, then vary the complete source action in `varpi` and
+> `epsilon`; the native bosonic Shiab E4 may run in parallel after E1. PP3 is
+> a stronger repo-originated sharpening of Weinstein's qualitative dynamic-DE
+> / future-DESI bet, not a transcript-derived prediction. See
+> `explorations/weinstein-guided-source-action-branch-contract-2026-07-31.md`
+> and `explorations/weinstein-guided-source-action-scaffold-2026-07-31.md`.
+
 > **2026-07-30 RB7 STATIONARY NON-METRIC ORDER-PARAMETER
 > DISPOSITION.**
 > [`explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md`](explorations/rb7-stationary-nonmetric-order-parameter-2026-07-30.md)

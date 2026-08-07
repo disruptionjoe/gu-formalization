@@ -1,0 +1,139 @@
+{
+  "artifact": "ECW3D_B2C15O_SOURCE_COORDINATE_RETURN_AND_SELECTED_9_5_COEFFICIENT_FIXTURE_STABILIZER",
+  "status": "PARTIAL_CONSTRUCTION_PASS_WITH_SOURCE_COORDINATE_CORRECTION_AND_SCOPED_ALGEBRAIC_FIXTURE",
+  "status_boundary": "LITERAL_EQ9_2_TO9_3_EPSILON_FAMILY_BRANCH__SOURCE_FIXED_EPSILON_VARPI_G_COORDINATES_SEPARATED_FROM_FIXED_A_REPOSITORY_COORDINATES__E_VARPI_EQUALS_E_T_ON_SELECTED_BRANCH__SOURCE_METRIC_RETURN_DIFFERS_BY_DG_GAMMA_ADJOINT_E_T__CORRECTION_GREEN_COMPANION_AND_FIXED_A_HOSTILE_HELMHOLTZ_DEFECT_NONZERO__CORRECTED_GREEN_AND_HELMHOLTZ_PASS__ORDER_TABLE_SURVIVES__EQ9_4_ODOT_OMEGA_IDENTIFICATION_UNVERIFIED__TRACE_REVERSED_CARRIER_COMPATIBLE_ALGEBRAIC_FIXTURE_WITH_REALIZABLE_4D_METRIC_TWO_JET_AND_EXPLICIT_AFFINE_B_CONSTANT_T_GERMS__CURVATURE_NORMALIZATION_AND_F_A_IDENTITY_EXACT__SUPPORT_AND_RIGHT_H_KREIN_CPLUS_WORD_PLUS128_MATRIX_CHECKS_PASS__DIAGONAL_SPIN_STABILIZERS_SPLIT51_TRACE42_CURVATURE42_SELECTED_TUPLE36_TUPLE_XI_E0_36_HELDOUT28__NOT_ZORRO_DEWITT_TOTAL_SPACE_JET_FULL_AMBIENT_OR_ACTION_JET_STABILIZER__EPSILON_BRIDGE_ODOT_FORK_REAL_FORM_PORT_FULL_NATIVE_COEFFICIENT_GLOBAL_PUSHFORWARD_BV_AND_DOMAIN_OPEN",
+  "run": "RUN-20260802-035436-gu-formalization-ecw3d-b2c15o-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_coordinates": [
+      "epsilon: H-valued gauge/Stueckelberg coordinate",
+      "varpi: ad-valued one-form relative to Gamma(g)",
+      "g: metric owner"
+    ],
+    "derived_connections": {
+      "B": "Gamma(g)+q_g(epsilon)",
+      "T": "varpi-q_g(epsilon)",
+      "A_total": "Gamma(g)+varpi"
+    },
+    "fixed_coordinate_fork": "fixed source varpi under g variation is not fixed total A",
+    "epsilon_homonym": "source H-valued epsilon is not identified with repository quotient epsilon_red tangent m",
+    "background_grades": [
+      "selected algebraic coefficient fixture with realizable 4D metric two-jet and explicit affine connection germ",
+      "GU Zorro/DeWitt total-space metric LC and spin jet",
+      "global descended action background with support/domain",
+      "stationary physical vacuum"
+    ],
+    "stabilizer_grades": [
+      "selected diagonal-Spin coefficient-tuple stabilizer",
+      "full ambient/action-jet stabilizer",
+      "conormal-family-intersected stabilizer",
+      "global gauge automorphism/reducibility group"
+    ],
+    "real_form_fork": "source 7_7 complex presentation is not silently identified with active trace-reversed 9_5 right-H Krein carrier"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "draft pp43-44 eqs9.1-9.5 own omega=(epsilon,varpi), the first action, and displayed varpi variation",
+      "draft pp56-57 eqs12.4-12.7 make varpi relative to nabla-g and T the difference from the gauge-rotated metric connection",
+      "Portal/Oxford 02:23:30-02:23:52 supplies the Zorro metric/connection chain",
+      "TOE 02:19:17-02:20:33 puts gauge-rotated Levi-Civita in the contorsion slot"
+    ],
+    "SOURCE_IMPLIES_FOR_LITERAL_BRANCH": [
+      "draft eqs9.2-9.3 display an epsilon-dependent Shiab with no varpi occurrence, so D_varpi Shiab=0 on that literal family"
+    ],
+    "SOURCE_CORRECTS": [
+      "the B2C15N fixed-A metric equation is not the displayed source fixed-varpi metric equation"
+    ],
+    "SOURCE_SILENT": [
+      "source epsilon to quotient reduction tangent map",
+      "whether eq9.4 odot_omega is identical to the eqs9.2-9.3 epsilon family or has genuine varpi dependence",
+      "selection among rival Shiab candidates",
+      "source 7_7 to active 9_5 right-H port",
+      "full native fixed-varpi coefficient and actual background selection",
+      "global metric pushforward support domain BV quotient and physics"
+    ]
+  },
+  "source_coordinate_return": {
+    "branch": "LITERAL_EQ9_2_TO9_3_EPSILON_FAMILY_WITH_D_VARPI_SHIAB_ZERO",
+    "E_varpi": "E_T",
+    "E_epsilon": "C_epsilon+(D_epsilon q)^!(E_B-E_T)",
+    "E_g_source": "C_g+(D_g Gamma+D_g q)^!E_B-(D_g q)^!E_T",
+    "difference_from_fixed_A": "(D_g Gamma)^!E_T",
+    "correction": "NONZERO_ON_EXACT_NONCENTRAL_FIXTURE",
+    "realized_grouped_orders": [[1, 2, 2], [2, 2, 3], [2, 3, 2]],
+    "interpretation": "the equation changes while its highest-order skeleton happens to survive on this fixture",
+    "green": {
+      "direct": "-43290707/16632",
+      "bulk": "-5347571/16632",
+      "preboundary": "-6844/3",
+      "identity": "PASS",
+      "isolated_correction_companion": "Theta_Gamma=(H1^T E_T) delta_g",
+      "companion_identity": "Theta_source=Theta_fixed_A|delta_A=delta_varpi+D_g_Gamma_delta_g+Theta_Gamma"
+    },
+    "helmholtz": {
+      "paired_value": "6740763397/1784742960",
+      "identity": "PASS_EXACT",
+      "fixed_A_metric_reuse_defect": "79042325/279351072"
+    }
+  },
+  "displayed_shiab_translation_dependence": {
+    "candidate": "draft eqs9.2-9.3 Shiab_epsilon",
+    "D_varpi": 0,
+    "scope": "literal equations-9.2-to-9.3 epsilon-family branch only; equality with equation 9.4 odot_omega is unverified; a genuinely omega-dependent rival is separate operator data inside the existing varpi owner"
+  },
+  "selected_algebraic_fixture": {
+    "base": "one 4D normal-coordinate point with metric zero-jet eta, spin orientation, and nonzero constant-curvature metric two-jet; not global Minkowski",
+    "metric": "trace-reversed DeWitt/gimmel split (3,1)+(6,4)=(9,5)",
+    "metric_jet": "unit constant-curvature algebraic Riemann tensor with exact symmetries and Bianchi, hence realizable 4D normal-coordinate two-jet; GU Zorro/DeWitt total-space image unproved",
+    "spin_curvature_normalization": "one-half gamma_left gamma_right",
+    "distortion": "lexicographically first two exact compatible noncommuting native grade3 blades in two one-form legs",
+    "connection_germ": "radial-gauge affine B plus constant T gives F_B=dB, D_B T=0, and F_A=F_B+q(T,T) at the origin",
+    "typed_support_witnesses": {
+      "F_B": [2],
+      "q_T_T": [2],
+      "S_trace_F_B": [2],
+      "S_trace_q_T_T": [6]
+    },
+    "exact_reality": "every selected coefficient passes combinatorial right-H Krein-skew and C-plus word identities plus independent native 128x128 comparator; live sign word grade phase and Hilbert plants fail",
+    "zorro_dewitt_total_space_jet": false,
+    "full_action_jet": false,
+    "stationary": false,
+    "global": false
+  },
+  "stabilizers": {
+    "method": "exact Lie-algebra kernels inside the 91-dimensional diagonal spin(9,5) subalgebra; no full sp(32,32;H), disconnected, action-jet, or global-group claim",
+    "observation_split": 51,
+    "split_plus_trace": 42,
+    "split_trace_constant_curvature": 42,
+    "selected_coefficient_tuple": 36,
+    "selected_tuple_intersect_one_nonnull_xi_e0": 36,
+    "heldout_compatible_coefficient_tuple": 28,
+    "consequence": "the two algebraically compatible candidate tuples exhibit different diagonal-Spin isotropy dimensions and therefore cannot share one isotropy stratum; GU background admissibility and actual action-jet atlas remain open"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "cannot supply coordinate map epsilon bridge background stabilizer real-form port global pushforward BV differential or domain"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 22,
+    "source_receipts": 5,
+    "type_level": 15,
+    "planted": 22,
+    "total": 64,
+    "status": "PASS"
+  },
+  "open": [
+    "source H-valued epsilon to repository quotient reduction tangent bridge or explicit rival-owner separation",
+    "equation 9.4 odot_omega identification with the literal equations-9.2-to-9.3 epsilon family or explicit rival branch",
+    "displayed source Shiab 7_7 to active trace-reversed 9_5 right-H Krein port",
+    "GU Zorro/DeWitt total-space metric LC and spin jet including vertical and mixed components",
+    "complete native fixed-varpi E_B E_T and metric coefficient on that total-space jet",
+    "full ambient/action-jet and conormal-family stabilizers plus support orders and polynomial loci",
+    "global Y-to-X metric Euler pushforward and support domain",
+    "source-derived tangent BV differential and observation-descended quotient",
+    "common analytic Green domain and physical background"
+  ],
+  "next_gate": "ECW3D-B2C15P-SOURCE-EPSILON-REDUCTION-TANGENT-BRIDGE-AND-NATIVE-FIXED-VARPI-COEFFICIENT"
+}

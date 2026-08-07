@@ -1,0 +1,92 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2E-CONDITIONAL-PRINCIPAL-QUADRATIC-DISTORTION-U4-CEILING",
+  "status": "CONDITIONAL_ACTIVE_CANONICAL_COFRAME_PRINCIPAL_Z1_QUADRATIC_DISTORTION_U4_CEILING_ZERO",
+  "run_id": "RUN-20260803-120315-gu-formalization-pw2fr2b2b2e-actual-u4-jet-realizability",
+  "verdict_scope": "universal within the declared nonlinear Zorro dependency graph, canonical symmetric coframe, conditional epsilon_act, fixed-background policies, ten Sym2 owners, and arbitrary independent observed-base conormal pairs",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "I1B takes metric input, places kappa1/2 times T_omega, measures distortion against a distinguished Levi-Civita/spin reference, and displays one varpi derivative with metric and epsilon_src fixed for that derivative",
+    "REPOSITORY-DERIVES": "the active 9,5 rotor and graph, symmetric coframe, background policy, metric/connection/distortion jets, max-degree ledger, conditional principal U4 zero, and lower-order fixture coefficients",
+    "SOURCE-SILENT": "selected background or varpi policy, joint metric/omega domain, active derivative and pairing port, U4 verdict, and active kappa1 value or normalization"
+  },
+  "layer0": {
+    "epsilon_src": "source gauge transformation in omega",
+    "epsilon_act": "conditional active Spin(9,5) rotor",
+    "repository_h": "h=exp(u), a distinct repository graph/gauge object",
+    "epsilon_red": "distinct reduction/soldering field",
+    "source_7_7_vs_active_9_5": "UNPORTED_REAL_FORM_ACTION_PAIRING_FORK",
+    "I1_vs_I2B": "DISTINCT_ACTIONS__NO_COEFFICIENT_OR_CANCELLATION_TRANSFER",
+    "residual_D2E_vs_quadratic_distortion_D2T": "LAYER0_HOMONYMS__SEPARATE_LEDGERS",
+    "numeric_fixture_vs_universal_ceiling": "DISTINCT"
+  },
+  "nonlinear_graph": {
+    "metric": "GY=[[g+C^T Dg C,-C^T Dg],[-Dg C,Dg]]",
+    "coframe": "E=sqrt(I+eta(GY-eta)); GY=E^T eta E",
+    "connection": "omega=E Gamma E^-1-(dE)E^-1",
+    "frame_metricity": "PASS_THROUGH_MIXED_ORDER",
+    "unprojected_eta_skew": "PASS_THROUGH_MIXED_ORDER",
+    "symbolic_Z1_metric_owners": "10_OF_10_PASS",
+    "principal_LC_spin_owners": "10_OF_10_DENSE_PANEL_PASS",
+    "off_diagonal_independent_conormal_heldouts": "3_OF_3_PASS"
+  },
+  "quadratic_distortion_hessian": {
+    "families": [
+      "<Ti,R0 Tj>",
+      "<T0,R0 Tij>",
+      "<Ti,Rj T0>",
+      "<Tj,Ri T0>",
+      "1/2<T0,Rij T0>"
+    ],
+    "route_maxima": [4, 3, 3, 3, 2],
+    "normal_C4": "ADMITTED",
+    "non_normal_U4": "ZERO_BY_DEPENDENCY_COMPLETE_DEGREE_LEDGER",
+    "plant": "ARTIFICIAL_DEGREE4_TIJ_REJECTED"
+  },
+  "fixture": {
+    "background": "repository-selected nonzero off-shell varpi0=T0+q(g0) witness",
+    "independent_direct_action_vs_chain_rule": "PASS_COEFFICIENTWISE",
+    "normal_C4_entry": "-8/25",
+    "U_coefficients_degree_0_through_4": ["-3", "92/25", "0", "-14/25", "0"],
+    "promoted_from_fixture": "ONLY_U4_ZERO_AS_CONFIRMATION_OF_UNIVERSAL_LEDGER",
+    "live_C3": "-14/25_CARRIED_FORWARD"
+  },
+  "predecessor_correction": {
+    "objects": "U4=0 and U4=-M4_normal",
+    "valid_grade": "RELAXED_ALGEBRAIC_CONSTRAINT_LEDGER_COMPLETION_WITNESSES",
+    "invalid_grade": "NOT_REALIZED_GEOMETRIC_JETS_AND_NOT_GEOMETRIC_NONIDENTIFIABILITY",
+    "successor_result": "FIRST_OUTCOME_SELECTED_BY_CONDITIONAL_ACTIVE_ORDER_THEOREM"
+  },
+  "pairing_policy": {
+    "canonical_orthonormal_coframe": "ACTIVE_HODGE_KREIN_AND_LOWERERS_FROZEN",
+    "remaining_realized_motion": "COORDINATE_DENSITY_RHO",
+    "fixed_coordinate_repository_witness": "DEGREE_CEILING_COVERED_NOT_COEFFICIENT_CONSTRUCTED",
+    "independently_varied_varpi": "DISTINCT_UNSELECTED_BRANCH"
+  },
+  "open": [
+    "A4 transgression and moving-Shiab quartic bank",
+    "active kappa1 value and normalization",
+    "full four-dimensional multi-index and Krein Green identity for the inherited normal bank",
+    "live C3 formal-adjoint and moving-coefficient ledger",
+    "distinct I2B C4 bank",
+    "global source-to-active epsilon and real-form port",
+    "vertical and mixed conormals, partial-Z1, and section tangents",
+    "domain, quotient, observation, and physics"
+  ],
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2e_actual_u4_jet_realizability_probe.py",
+    "exploration": "explorations/pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md",
+    "predecessor_probe": "tests/channel-swings/pw2fr2b2b2d_kappa_c4_identifiability_probe.py",
+    "source_audit": "explorations/hourly-cycles/hourly-20260626-1102-cycle1-tau-omega-variation-source-span-audit.md",
+    "rerun": "12_EXACT_PLUS_2_SOURCE_PLUS_19_TYPE_PLUS_3_PLANTED_EQUALS_36_PASS"
+  },
+  "hostile_reviews": {
+    "exact_geometry": "PASS_AFTER_SCOPE_AND_COFRAME_REPAIR",
+    "variational_PDE": "PASS_AFTER_INDEPENDENT_ACTION_AND_UNIVERSAL_DEGREE_REPAIR",
+    "source_layer0": "PASS_AFTER_CONDITIONAL_AND_SOURCE_SILENCE_REPAIR"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "successor": "R2B2B2F builds a projective-rank-two frozen-Shiab raw-density comparator but hostile review keeps Euler-operator cancellation open pending moving normalized trace and Green/Helmholtz reduction",
+  "next_gate": "PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4"
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C8-SOURCE-FORKED-TWO-CONNECTION-SQUARE-AND-ACTIVE-EULER-MAP-DISCRIMINATOR",
+  "status_boundary": "AUTHOR_STATED_UNRELEASED_TWO_CONNECTION_PROGRAM_AND_SOURCE_COMPATIBLE_REPO_CONSTRUCTED_CONNECTION_COMPLEX_PASS_AND_NARROWED_EULER_KILL_AND_CONDITIONAL_COMPLETION_ROUTE__FINITE_ARCHITECTURE_CONTROLS_INVERT_ACTION_OWNED_CONNECTION_AND_INDEPENDENT_DUAL_FERMION_LOWERERS_WITH_ACTIVE_9_5_HODGE_KREIN_RIGHT_H_FACTORS__SOURCE_SELECTS_NEITHER_SHIFTED_PLACEMENT_NOR_A_EQUALS_B_LOCUS__2021_F_A_D_B_DEFORMATION_AND_TENTATIVE_2025_F_B_D_B_OBJECT_REMAIN_SEPARATE__BOTH_REPO_RECONSTRUCTED_DEGREE_CORRECT_2025_CONES_ARE_A_EQUALS_B_CONNECTION_COMPLEXES_AND_VANISH_FOR_ARBITRARY_NONFLAT_COMMON_CURVATURE_WHILE_E_T_EQUALS_NONZERO_S_F_B__FINITE_RESIDUAL_ALPHABET_FITS_FAIL_WITH_FIXTURE_LOCAL_CODIMENSIONS_10_AND_8__REPO_INFERRED_2021_RESIDUAL_MISSES_E_T__FINITE_CONSTANT_CONJUGATION_COVARIANCE_SUPPORTS_BUT_DOES_NOT_EXECUTE_D_E_T_ON_LOCAL_GAUGE_TANGENT__MOVING_CONSTRAINED_REAL_FERMION_FULL_GRAPH_TUPLE_GREEN_DOMAIN_AND_REDUCTION_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c7-two-connection-somatic-obstruction.json",
+  "layer_0": {
+    "2021_object": "three-term ordinary-gauge deformation complex delta2 o delta1",
+    "2025_object": "unreleased spoken four-token two-connection D-squared with two repo-reconstructed shifted-cone placements",
+    "curvature": "F_A and F_B in Omega2(ad P) or their associated-bundle actions",
+    "euler_owner": "density-dual graph-derived E_T in Omega13(ad* P), with full returned tuple mathfrak_G=(E_A,E_epsilon,E_g)",
+    "connection_primalizer": "inverse of action-owned b_A=kappa_flat star_1",
+    "fermion_primalizer": "inverse of action-owned independent-dual b_F=diag(beta_flat star_1,beta_flat star_0)",
+    "charge_form": "C_plus=-beta J is a compatibility and constrained-reality gate, not another Riesz factor",
+    "reduced_poisson": "future inverse of an integrated and reduced nondegenerate or admissible-image presymplectic flat",
+    "prequantum_lift": "future covariant derivative along a reduced Hamiltonian vector field",
+    "physical_nu_is_ghost": false
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_CORRECTS_PLUS_SOURCE_SILENT",
+    "source_negative_receipt": "page 49 explicitly warns that the inherited combined Bose-Fermi diagram may be inconsistent and is not stabilized",
+    "source_corrections": ["projection to contraction", "any stable combined-diagram reading to explicitly caveated and potentially inconsistent"],
+    "official_pdf": {
+      "url": "https://geometricunity.nyc3.digitaloceanspaces.com/Geometric_Unity-Draft-April-1st-2021.pdf",
+      "sha256": "3f28d742234a9841fc8e51ff172053200aa3eddf3ece38154a3328b9ebd186d4",
+      "visually_inspected_pages": [43, 44, 45, 46, 47, 48, 49]
+    },
+    "manuscript_explicit_2021": [
+      "equations 10.1-10.9 type Omega0(ad) to Omega1(ad) plus Omega0(ad) to Omega13(ad)",
+      "delta1=(d_A,DL_epsilon)",
+      "delta2a=S_omega d_A+kappa_1 star",
+      "delta2b contains F_A acting through an inner glyph K_omega and minus kappa_1 star d_B; the whole component is typed but K_omega is not defined as a derivative"
+    ],
+    "unstable_2021": [
+      "delta2 is introduced as a posit sought in the linearized equations rather than a proved complex",
+      "page-46 fermion matrix is introduced as operators like the displayed block and permits alternate lower-right blocks",
+      "page-49 combined Bose-Fermi diagram is inherited potentially inconsistent and unstabilized"
+    ],
+    "tentative_2025": [
+      "02:38:12-02:42:55 gives d_A squared as curvature and the 0-to-1-to-13-to-14 contraction-plus-star spine",
+      "02:44:06-02:45:13 recalls unreleased tokens resembling D_A F_B identity D_B and corrects two signs in the second column",
+      "the object is claimed to become a complex on shell"
+    ],
+    "source_grades": {
+      "2021_domains_and_displayed_row": "MANUSCRIPT_EXPLICIT_BUT_DELTA2_IS_A_POSIT",
+      "2021_R21": "REPO_INFERRED_SOURCE_SHAPED_RESIDUAL",
+      "2025_tokens_and_sign_correction": "TRANSCRIPT_EXPLICIT_BUT_TENTATIVE",
+      "shifted_cone_placements": "REPO_CONSTRUCTED_SOURCE_SILENT"
+    },
+    "source_silent_on": [
+      "row-major versus column-major token order",
+      "exterior versus rolled Dirac derivatives",
+      "curvature representation action and contraction insertion",
+      "grading shifts and identity carrier",
+      "stable coefficients and lower-order blocks",
+      "active 9_5 Krein right_H port",
+      "complete Euler tuple factorization",
+      "domain boundary and observation descent"
+    ],
+    "may_blend_2021_F_A_with_2025_F_B": false
+  },
+  "active_local_primalizers": {
+    "geometry": "actual Sym2(T*X) raw Frobenius 7_3 to trace-reversed DeWitt 6_4 plus base 3_1 equals total 9_5",
+    "hodge_square": {
+      "formula": "star^2=(-1)^(p(14-p)+5)",
+      "p_0_1_2_13_14": [-1, 1, -1, 1, -1]
+    },
+    "connection_lowerer": "b_A(u)=kappa_flat(star_1 u)",
+    "connection_inverse": "R_A(e)=star_13 kappa_sharp(e)",
+    "fermion_lowerer": "b_F=diag(beta_flat star_1,beta_flat star_0)",
+    "fermion_inverse": "R_F=diag(star_13 beta_sharp,-star_14 beta_sharp)",
+    "two_sided_inverse_finite_architecture_control": true,
+    "right_H_finite_architecture_control_plus_inherited_active_factor_checks": true,
+    "indefinite_non_degenerate": true,
+    "moving_inverse_response": "universal finite algebra identity delta R=-R(delta b)R; active delta-star/density/Krein/projector decomposition not executed",
+    "C_plus_relation": "C_plus=-beta J; separate from independent-dual R_F",
+    "full_graph_tuple_primalized": false,
+    "missing_full_tuple_maps": ["R_epsilon", "inverse density-valued trace-reversed DeWitt metric Euler map"]
+  },
+  "source_forked_squares": {
+    "author_stated_program": "UNRELEASED_TWO_CONNECTION_ON_SHELL_COMPLEX_WITH_TENTATIVE_FOUR_TOKEN_AND_SIGN_RECOLLECTION",
+    "source_compatibility": "REPO_CONSTRUCTIONS_ARE_COMPATIBLE_WITH_THE_CONNECTION_LEVEL_PROGRAM__SOURCE_SELECTS_NEITHER_SHIFTED_PLACEMENT_NOR_A_EQUALS_B_NILPOTENCE_LOCUS",
+    "down_shift": {
+      "carrier": "C_down^k=Omega^k(E) direct_sum Omega^(k-1)(E)",
+      "operator": "D_K_down=[[D_A,-K],[1,-D_B]]",
+      "K_F_B_square": "[[F_A-F_B,-T F_B],[T,0]]",
+      "K_F_A_square": "[[0,-F_A T],[T,F_B-F_A]]"
+    },
+    "up_shift": {
+      "carrier": "C_up^k=Omega^k(E) direct_sum Omega^(k+1)(E)",
+      "operator": "D_K_up=[[D_A,-1],[K,-D_B]]",
+      "K_F_B_square": "[[F_A-F_B,-T],[F_B T,0]]",
+      "K_F_A_square": "[[0,-T],[T F_A,F_B-F_A]]"
+    },
+    "source_selected_placement": false,
+    "normalized_coefficient_conditions": ["a=d", "b*c=a^2"],
+    "algebraic_similarity_class": "ONE_ON_SAMPLED_GENERIC_NONZERO_STRATUM_MODULO_OVERALL_SCALE_AND_UNRESTRICTED_RELATIVE_SUMMAND_RESCALING",
+    "physical_pairing_preserving_equivalence_classified": false,
+    "degenerate_zero_coefficient_strata_classified": false,
+    "nilpotence_implication": "rho(T)=0; T=0 only in a faithful representation",
+    "classification": "REPO_CONSTRUCTED_SOURCE_COMPATIBLE_CONNECTION_EQUALITY_COMPLEX__NOT_YET_COMPLETE_GRAPH_EULER_OBSTRUCTION"
+  },
+  "decisive_euler_discriminator": {
+    "fixture": "T=0 with nonzero common F_B and nonzero S_epsilon(F_B)",
+    "all_minimal_cone_squares": "zero",
+    "graph_euler": "E_T=S_epsilon(F_B) nonzero",
+    "mixed_owner_at_T_zero": "Hhat_AB=Q_seg=F_B nonzero while all tested cone squares vanish",
+    "invertible_primalizer_preserves_zero_nonzero_distinction": true,
+    "narrowed_kill": "bare four-entry shifted-cone family under exterior-covariant representation-wedge active-local-primalizer reading",
+    "does_not_kill": "unreleased cyclic operator with additional contraction moving fermionic or lower-order blocks"
+  },
+  "finite_fixture_compatibility_codimension": {
+    "euler_coordinate_count": 12,
+    "2021_residual_alphabet": ["S(F_A)", "star T"],
+    "2021_alphabet_rank": 2,
+    "2021_augmented_with_E_rank": 3,
+    "2021_fixture_codimension": 10,
+    "repo_expanded_source_motivated_two_connection_alphabet": ["S(F_B)", "S(D_B T)", "S(q(T,T))", "star T"],
+    "expanded_alphabet_rank": 4,
+    "expanded_with_E_rank": 5,
+    "expanded_fixture_codimension": 8,
+    "planted_inside_span_target_passes": true,
+    "scope": "FIXTURE_LOCAL_RANK_RESULT_NOT_GLOBAL_INDEPENDENT_PHYSICAL_CONSTRAINT_COUNT_OR_COMPLETE_SOURCE_FAMILY_SURPLUS",
+    "verdict": "NO_TESTED_RESIDUAL_ALPHABET_COEFFICIENT_FIT_TO_E_T_IN_EXACT_FIXTURE"
+  },
+  "conditional_2021_action_complete_route": {
+    "repo_inferred_source_shaped_residual": "R_21=S(F_A)+kappa_1 flat T",
+    "source_shaped_residual_equals_E_T": false,
+    "forced_correction": "Z_21=E_T-R_21",
+    "B2C7_residual": "Z_var=E_T-[S(Q_seg)+kappa_1 flat T]",
+    "finite_constant_conjugation_covariance_of_E_T": true,
+    "executed_derivative": "NONE__D_E_T_ON_LOCAL_INHOMOGENEOUS_GAUGE_TANGENT_REMAINS_OPEN",
+    "conditional_noether_target": "D E_T[R_gamma]=ad_gamma_star E_T; bracket [gamma,E_T] only after explicit invariant pairing and convention",
+    "full_graph_tuple_hessian_executed": false,
+    "Z_21_gauge_orbit_nonzero": true,
+    "Z_var_gauge_orbit_nonzero": true,
+    "grade": "REPO_PROPOSED_CONDITIONAL_ACTION_NOETHER_COMPLETION_NOT_AUTHOR_STATED_REPAIR",
+    "centre_boundary": "full adjoint family loses centre; evaluation at one fixed parameter also loses that parameter's stabilizer",
+    "centre_free_active_sp_no_go": false
+  },
+  "coefficient_and_datum": {
+    "2021_equivariance_conditions": ["a1*r=c1*s", "b1*r=d1*s"],
+    "new_local_fitting_coefficient": false,
+    "P1_P2_P3_used": false,
+    "missing_matrix_sign_primalizer_or_residual_is_external_datum": false,
+    "count_or_chirality_inference": false
+  },
+  "open_work": [
+    "D E_T on the actual local inhomogeneous gauge tangent with coadjoint/primalized sign convention",
+    "moving constrained-real fermion variation",
+    "R_epsilon and metric Euler inverse for the full graph tuple",
+    "off-diagonal zeta_nu independent-dual total action",
+    "fermion current and stress return into E_A E_epsilon E_g",
+    "completed total preboundary and Green domain",
+    "observation descent kernel charge and quotient replay",
+    "reduced Poisson anchor and prequantum lift"
+  ],
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c8_source_forked_two_connection_square_euler_map_probe.py",
+    "exact_checks": 46,
+    "type_level_controls": 15,
+    "planted_rejections": 11,
+    "result": "46_EXACT_PLUS_15_TYPE_LEVEL_PLUS_11_PLANTED_EQUALS_72_PASS",
+    "count_boundary": "TYPE_LEVEL_ROWS_ARE_DECLARATIONS_NOT_INDEPENDENT_COMPUTATIONAL_EVIDENCE"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map.json",
+    "report": "explorations/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C9-OFFDIAGONAL-SOMATIC-TOTAL-CURRENT-AND-PREBOUNDARY-RETURN",
+  "parallel_analytic_gate": "ECW3D-B2C6B-PRELIMINARY_ACTION_GREEN_DOMAIN_ANALYSIS__FINAL_REPLAY_AFTER_B2C9",
+  "later_gate": "FINAL_G4_OBSERVATION_DOMAIN_KERNEL_CHARGE_QUOTIENT__THEN_REDUCED_POISSON_AND_PREQUANTUM"
+}

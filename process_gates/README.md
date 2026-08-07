@@ -70,6 +70,7 @@ selected notes below and in each script header.
 - `dgu_guarded_symbol_certificate_audit.py`
 - `docs_readme_surface_map_audit.py`
 - `enum_completeness_readme_inventory_audit.py`
+- `eric_lane_decisive_source_collision_audit.py`
 - `escape_corners_readme_inventory_audit.py`
 - `explorations_top_level_file_boundary_audit.py`
 - `explorations_readme_surface_map_audit.py`
@@ -153,6 +154,19 @@ selected notes below and in each script header.
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
 - `selected_action_source_variable_hessian_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
+
+- `pw2fr2b2b2g_full_a4_multiindex_green_distinct_i2b_c4_scope_audit.py`
+- `pw2fr2b2b2h_mixed_shiab_second_jet_scope_audit.py`
+- `pw2fr2b2b2h2_i2b_second_residual_primalizer_pairing_scope_audit.py`
+- `pw2fr2b2b2h3_source_epsilon_curvature_orbit_graph_scope_audit.py`
+- `pw2fr2b2b2h4_source_active_real_form_scope_exit_scope_audit.py`
+- `pw2fr2b2b2i_separate_conditional_active_c4_banks_scope_audit.py`
+- `pw2fr2b2b2i1_s3_geometric_transport_scope_audit.py`
+- `pw2fr2b2b2i2_affine_first_size3_full_evaluator_scope_audit.py`
+- `pw2fr2b2b2i2_resumable_first_size6_scope_audit.py`
+- `pw2fr2b2b2i2_resumable_second_size6_scope_audit.py`
+- `pw2fr2b2b2i2_resumable_third_size6_scope_audit.py`
+- `pw2fr2b2b2i2_s3_fixed_orbit_full_evaluator_scope_audit.py`
 - `readme_entrypoint_map_audit.py`
 - `qft_shadow_extraction_certificate_audit.py`
 - `quantum_gravity_reframing_audit.py`
@@ -199,6 +213,14 @@ selected notes below and in each script header.
 - `y14_k3_bridge_gate.py`
 - `y14_k3_bridge_loss_audit.py`
 - `y14_k3_end_data_topography_gate_audit.py`
+
+## Eric-lane decisive source-collision gate
+
+`eric_lane_decisive_source_collision_audit.py` checks that decisive
+author-guided campaign results record a local primary-source collision as
+`SOURCE-CONFIRMS`, `SOURCE-CORRECTS`, or `SOURCE-SILENT`, including the
+retroactive ECW3C ultrahyperbolic scope repair. It is a provenance/process
+guard only; source speech is not mathematical verification.
 
 ## Current routing link gate
 

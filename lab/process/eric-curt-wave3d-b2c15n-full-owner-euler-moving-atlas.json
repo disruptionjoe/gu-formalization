@@ -1,0 +1,124 @@
+{
+  "artifact": "ECW3D_B2C15N_FULL_FIRST_ACTION_OWNER_EULER_AND_MOVING_POLYNOMIAL_ATLAS",
+  "status": "PARTIAL_CONSTRUCTION_PASS_WITH_NATIVE_BACKGROUND_GATE",
+  "status_boundary": "FULL_EXACT_NONCENTRAL_FINITE_FIRST_ACTION_OWNER_TUPLE_CONSTRUCTED_FROM_INDEPENDENT_E_T_AND_E_B__OWNER_RETURN_DRIVER_E_B_MINUS_E_T_LIVE__DIRECT_B_RETURNED_T_MOVING_SHIAB_DENSITY_LOWERER_MOVING_GRAPH_ADJOINT_GREEN_AND_PREBOUNDARY_ALL_INCLUDED__EXACT_HELMHOLTZ_PASS_AND_E_T_ONLY_HOSTILE_DEFECT_NONZERO__REALIZED_GROUPED_ORDERS_1_2_2__2_2_3__2_3_2_WITH_MIXED_ORDER3_COEFFICIENTS_PLUS9_MINUS9__DEGREE6_BACKGROUND_INTERPOLATION_TWO_HELDOUTS_PASS__FULL_TOTAL_SYMBOL_DISPERSION_DETERMINANT_IRREDUCIBLE_DEGREE20_IN_BACKGROUND_AND8_IN_CONORMAL__DN_PRINCIPAL_DETERMINANT_FACTORED_WITH_FOUR_BACKGROUND_ROOTS__FROZEN_SHIAB_ATLAS_CANNOT_BE_PROMOTED_TO_MOVING_OWNER_ATLAS_BEFORE_NATIVE_BACKGROUND_AND_STABILIZER_ARE_FIXED__NATIVE_RIGHT_H_KREIN_REALITY_BV_AND_DOMAIN_OPEN",
+  "run": "RUN-20260802-030000-gu-formalization-ecw3d-b2c15n-direct",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "distinct_equations": [
+      "written first action",
+      "partial-T Euler covector E_T",
+      "independent direct-B covector E_B",
+      "returned owner tuple on A epsilon g",
+      "source residual square Euler system",
+      "exact variational residual square Euler system"
+    ],
+    "distinct_directions": "91 vertical Spin lifts are passive descent/frame directions; quotient epsilon and metric g are owner coordinates",
+    "real_form_fork": "source 7_7 complex presentation is not identified with active trace-reversed 9_5 right-H Krein carrier",
+    "contraction_homonym": "source odot_omega with omega=(epsilon,varpi) is not identified with selected S_(epsilon,g); branch assumes no independent translation derivative until source typing resolves it"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "draft p44 eq9.4 supplies the first-action one-half and one-third grammar",
+      "Portal/Oxford 01:43:32-01:45:53 requires an exactness adjustment",
+      "Portal/Oxford 02:35:10 identifies the adjustment as a quadratic eddy tensor"
+    ],
+    "SOURCE_CORRECTS": [
+      "TOE 01:36:35-01:36:56 corrects Shiab from projection to contraction",
+      "the compact 2021 source residual does not transfer as the exact noncyclic action Euler covector"
+    ],
+    "SOURCE_SILENT": [
+      "independent E_B and complete A epsilon g coordinate return",
+      "moving graph adjoint and realized weighted coefficients",
+      "native background stabilizer coefficientwise reality polynomial locus BV quotient and domain",
+      "whether source odot_omega has an independent translation/varpi derivative"
+    ],
+    "WATCH_ONLY": "TOE 02:44:06 says the modern two-connection D-squared is unreleased and supplies none of the missing owner coefficients"
+  },
+  "full_owner_return": {
+    "independent_driver": "R_B=E_B-E_T",
+    "equations": {
+      "E_A": "E_T",
+      "E_epsilon": "C_epsilon + (D_epsilon B)^! R_B",
+      "E_g": "C_g + (D_g B)^! R_B"
+    },
+    "included_terms": [
+      "direct B",
+      "returned T=A-B",
+      "moving Shiab",
+      "density",
+      "lowerer",
+      "moving graph adjoint",
+      "Green endpoint",
+      "owner preboundary packet"
+    ],
+    "finite_chain_rule": "PASS",
+    "omitted_E_B_plant": "FAILS",
+    "preboundary_orders": {"A0": 1, "A1": 1, "epsilon": 2, "g": 2}
+  },
+  "weighted_helmholtz": {
+    "complete_owner_tuple": "PASS_EXACT",
+    "nonzero_paired_value": "1103763581/274575840",
+    "E_T_only_hostile_defect": "279281447/155195040",
+    "realized_grouped_orders": [[1, 2, 2], [2, 2, 3], [2, 3, 2]],
+    "prior_caps": [[1, 2, 2], [2, 3, 3], [2, 3, 3]],
+    "mixed_order3": {
+      "formula": "one-half (g-3)(g+z-3)(g+z+2)",
+      "H_epsilon_g_at_zero": 9,
+      "H_g_epsilon_at_zero": -9,
+      "interpretation": "odd mixed blocks are formal-adjoint opposites; scalar diagonal odd top blocks cancel"
+    }
+  },
+  "moving_background_atlas": {
+    "scope": "complete exact four-owner rational action fixture, not native global Y14",
+    "background_family": "scale c times the preregistered polynomial owner jet and freeze at x=0",
+    "entry_degree_ledgers": {
+      "background_c": [[4, 4, 5, 5], [4, 4, 5, 5], [5, 5, 6, 6], [5, 5, 6, 6]],
+      "conormal_lambda": [[0, 1, 2, 2], [1, 0, 2, 2], [2, 2, 2, 3], [2, 2, 3, 2]]
+    },
+    "interpolation_nodes": [-3, -2, -1, 0, 1, 2, 3],
+    "held_out_nodes": [4, 5],
+    "held_out_result": "all entries pass",
+    "hidden_degree7_plant": "PASS",
+    "total_symbol_maximal_minor": {
+      "matrix_shape": "4x4",
+      "determinant_factorization_over_Q": "single irreducible factor",
+      "degree_background_c": 20,
+      "degree_conormal_lambda": 8
+    },
+    "douglis_nirenberg_principal": {
+      "row_weights": [0, 0, 1, 1],
+      "column_weights": [1, 1, 2, 2],
+      "determinant": "16(c-3)^2(c+2)^2(3c-1)^2(c+1)^4 lambda^8",
+      "background_roots": ["3", "-2", "1/3", "-1"]
+    },
+    "background_dependence": "admissible c=0 and c=1 slices have different exact total-symbol dispersion polynomials",
+    "zero_density_control": "c=-1 gives rho=0 at the frozen point, changes support from 16 to14 entries, and is excluded rather than promoted",
+    "native_consequence": "the frozen positive-plus-trace rank theorem cannot be imported; native action background and its actual stabilizer must be constructed first"
+  },
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "type_boundary": "cannot supply E_B moving graph coefficient background jet stabilizer polynomial component BV differential or domain"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence_accounting": {
+    "exact": 22,
+    "source_receipts": 6,
+    "type_level": 16,
+    "planted": 13,
+    "total": 57,
+    "status": "PASS"
+  },
+  "open": [
+    "actual native Y14 E_B and returned owner coefficient on a declared action background",
+    "source typing of any D_varpi odot_omega translation slot",
+    "stabilizer and typed support graph of the completed native owner background",
+    "coefficientwise right-H Krein and reality identities",
+    "negative nonzero-null and pure-trace charts after the actual stabilizer is known",
+    "A0 lower-filtered comparator",
+    "source-derived tangent BV differential and observation-descended quotient",
+    "prolonged native preboundary form and common analytic domain"
+  ],
+  "next_gate": "ECW3D-B2C15O-NATIVE-Y14-OWNER-BACKGROUND-STABILIZER-AND-TYPED-SUPPORT"
+}

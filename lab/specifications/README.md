@@ -8,3 +8,29 @@ machinery behind the Six-Axis Testability white paper (`papers/candidates/six-ax
   (Type II_1 spectral SM, Sorkin causal set, RG universality class). See `six-axis/README.md`.
 - `type-ii1-spectral-sm/` — a candidate specification: the Type II_1 / Connes spectral Standard Model
   extension, with the finite-control checklist and extension requirements. See its `README.md`.
+- `old-vs-eric-object-dictionary-2026-07-31.md` — branch-local Layer-0 dictionary for the existing
+  source-action construction and Eric-guided grammar; separates affine/gauge, variational, domain,
+  fermion/count, Higgs, and cosmology objects before the revised G1--G10 swings.
+- `g1-global-tilted-moving-reference-packet-2026-07-31.md` — G1's typed derivative-cocycle,
+  moving Levi--Civita/reductive reference, patch/groupoid, quotient-level, stabilizer, and G2
+  field-policy contract.
+- `g2-source-field-and-variational-shiab-packet-2026-07-31.md` — G2's selected connection/reduction
+  field graph, native trace-adapted density-dual contraction, exact slot-symmetrized Euler map,
+  killed fixed-linear source shortcut, and complete G3 graph/boundary handoff.
+- `g3-graph-variation-noether-bvbfv-packet-2026-07-31.md` — G3's all-slot owner Euler
+  return, coupled gauge/diffeomorphism weak identities, action-derived preboundary forms,
+  ordinary-gauge minimal BV completion, section-scope correction, and G4 domain handoff.
+- `eric-native-equation-replacement-contract-2026-07-31.md` — branch-local criterion
+  requiring an action/Euler/domain/symmetry/observable intertwining theorem before a
+  familiar four-dimensional equation counts as an earned native shadow; includes the
+  G2/G3 backbone, observation gate, status vocabulary, and no-stall datum-family rule.
+- `eric-source-directed-native-closure-packet-2026-07-31.md` — branch-local
+  conditional closure of the ten Weinstein-guided readouts through one
+  observation/equation-dual packet, one shared bosonic Hessian, one minimal
+  Krein odd action, Frobenius trace reversal, and one preboundary/observed-time
+  reduction, with exact finite controls separated from actual `Y^14` emergence.
+- `eric-curt-ten-wave-construction-campaign-2026-07-31.md` — branch-local
+  ten-wave Eric-guided construction campaign with Curt's thirty iceberg steps
+  retained as a separately tagged rival/checklist track. It defines the
+  conjunctive third-lane promotion gate and the standard construction,
+  Layer-0, surplus, non-regression, and planted-control outputs for every wave.

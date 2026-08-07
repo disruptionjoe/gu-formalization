@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2F-I1-TRANSGRESSION-A4-AND-PROJECTIVE-KAPPA",
+  "status": "CONDITIONAL_ACTIVE_COFRAME_FROZEN_SHIAB_RAW_DENSITY_NONE__EULER_OPEN",
+  "run_id": "RUN-20260803-133351-gu-formalization-pw2fr2b2b2f-i1-transgression-projective-kappa",
+  "verdict_scope": "two independent exact owner and observed-base conormal entries on a conditional active canonical-coframe frozen-Shiab raw-density representative; not the Green and Helmholtz reduced Euler operator",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "the pinned manuscript source fixes F_B plus one-half D_B T plus one-third bracket T,T and the one-half/one-third coefficients",
+    "REPOSITORY-DERIVES": "the active 9,5 canonical-coframe comparator, corrected B plus T equals Gamma graph, exact mixed transgression raw density, degree-five ceiling, two live fitted A4 entries, and projective rank-two comparator",
+    "SOURCE-SILENT": "active real-form and joint-domain port, Shiab normalization lambda, action sign s_kappa, and selected kappa1 value or normalization"
+  },
+  "layer0": {
+    "source_transgression_vs_repository_A4": "SOURCE_BRACKET_GRAMMAR_VS_ACTIVE_DERIVED_COEFFICIENT",
+    "probe_bracket_convention": "[T,T]_probe := T wedge T__SOURCE_NORMALIZATION_NOT_IDENTIFIED",
+    "Portal_eddy_vs_written_transgression": "NO_SECOND_TERM_ADDED",
+    "A4_vs_compact_Euler_residual_vs_I2B": "DISTINCT_OBJECTS",
+    "epsilon_src_vs_epsilon_act_vs_h_vs_epsilon_red": "FOUR_DISTINCT_OBJECTS",
+    "source_7_7_vs_active_9_5": "UNPORTED_REAL_FORM_ACTION_PAIRING_FORK",
+    "coordinate_dstar_vs_coframe_rho": "ALTERNATIVE_PRESENTATIONS_NOT_ADDED_TOGETHER",
+    "moving_normalized_DeWitt_trace": "UNBUILT_NOT_FROZEN_BY_CURRENT_COFRAME",
+    "raw_density_vs_Euler_operator": "DISTINCT_UNTIL_GREEN_HELMHOLTZ_REDUCTION"
+  },
+  "exact_panel": [
+    {
+      "label": "trace-diagonal",
+      "A4": "3/40",
+      "M4": "-8/25"
+    },
+    {
+      "label": "independent-37",
+      "A4": "-9/50",
+      "M4": "0"
+    }
+  ],
+  "projective_classifier": {
+    "equation": "lambda A4 plus s_kappa kappa1 M4 equals zero",
+    "classification": "NONE_FOR_RAW_DENSITY_COMPARATOR",
+    "exact_row_rank": 2,
+    "sign_independent": true,
+    "first_row_ratio_rejected_by_second_row": true,
+    "Euler_operator_classification": "OPEN"
+  },
+  "construction": {
+    "geometry": "R2B2B2E nonlinear two-wave Zorro metric and corrected symmetric coframe",
+    "graph": "B plus T equals Gamma through every mixed jet",
+    "transgression": "F_B plus one-half D_B T plus one-third [T,T]_probe with [T,T]_probe defined as T wedge T",
+    "background_jet": "CURVATURE_BUILT_T0_FROZEN_POINTWISE_WITH_ZERO_DERIVATIVE",
+    "independent_path_check": "Simpson-exact integral of F_(B plus tau T) matches all four mixed slots",
+    "density_policy": "one outer rho in canonical orthonormal coframe",
+    "Shiab_policy": "FROZEN_COMPARATOR__MOVING_NORMALIZED_TRACE_UNBUILT",
+    "degree_ceiling": "DEPENDENCY_COMPLETE_RAW_DENSITY_COMMON_CONORMAL_MAX5",
+    "degree_extraction": "seven exact scales for degrees zero through six",
+    "C5_C6": "ZERO_ON_BOTH_TESTED_CASES",
+    "wrong_coefficient_and_double_density_controls": "LIVE"
+  },
+  "open": [
+    "trace-adapted coframe or exact moving normalized DeWitt trace transport",
+    "complete 35-monomial A4 tensor bank",
+    "full four-dimensional multi-index and Krein Green identity",
+    "live C3 formal adjoint and moving-coefficient ledger",
+    "distinct I2B C4 bank",
+    "global source-to-active epsilon and real-form port",
+    "vertical and mixed conormals, partial Z1, and section tangents",
+    "coupled Noether and BV identity",
+    "domain, quotient, observation, and physics"
+  ],
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2f_i1_transgression_projective_kappa_probe.py",
+    "exploration": "explorations/pw2fr2b2b2f-i1-transgression-projective-kappa-2026-08-03.md",
+    "predecessor": "explorations/pw2fr2b2b2e-actual-u4-jet-realizability-2026-08-03.md",
+    "initial_rerun": "13_EXACT_PLUS_2_SOURCE_PLUS_14_TYPE_PLUS_5_PLANTED_EQUALS_34_PASS",
+    "final_repaired_rerun": "12_EXACT_PLUS_2_SOURCE_PLUS_17_TYPE_PLUS_6_PLANTED_EQUALS_37_PASS",
+    "python_flint": "RANK2__DET_MINUS36_OVER625__FIRST_RATIO15_OVER64",
+    "sage": "NOT_EXPOSED_ON_WORKTREE_SHELL__NO_RECEIPT"
+  },
+  "hostile_reviews": {
+    "exact_geometry": "PASS_AFTER_REPAIR__SOURCE_BRACKET_AND_FROZEN_BACKGROUND_EXPLICIT__ONE_INDEPENDENT_GENERIC_POLYNOMIAL_CONTROL_PLUS_BOTH_DIRECT_EXHAUSTIVE_PANELS",
+    "variational_PDE": "PASS_AFTER_REPAIR__RAW_DENSITY_DEMOTED_FROM_EULER__MOVING_TRACE_AND_GREEN_HELMHOLTZ_OPEN__DEPENDENCY_COMPLETE_DEGREE5_LEDGER",
+    "source_layer0": "PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2G-FULL-A4-MULTIINDEX-GREEN-AND-DISTINCT-I2B-C4"
+}

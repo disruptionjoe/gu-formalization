@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2A-NATIVE-TIME-FLUX-COERCIVITY",
+  "status_boundary": "DECISIVE_ECW3D_B2A_NATIVE_TIME_FLUX_AND_CANONICAL_SPECTRAL_MAJORANT_COERCIVITY_KILLED__GENERAL_POSITIVE_SYMMETRIZER_MAXIMAL_DISSIPATIVITY_AND_NONLINEAR_CONSTRAINT_PROPAGATION_OPEN",
+  "construction": {
+    "track": "ERIC_GUIDED_WITH_CURT_RIVAL_TRACK",
+    "predecessor": "lab/process/eric-curt-wave3d-b1-h1-closedness-kill.json",
+    "geometry": "the same admitted stationary Lorentz/spin slab R_t x S1_x x [0,1]_y x S1_z",
+    "time_function": "t on the supplied (3,1) section; continuous Lorentz coordinate, not a derived arrow",
+    "carrier": "actual W131 gamma-traceless ker Gamma of complex rank 1664",
+    "principal_equation": "A_t partial_t u + A_y partial_y u + A_x partial_x u + A_z partial_z u = lower-order terms",
+    "native_time_flux": "E_t=K A_t on ker Gamma",
+    "canonical_spectral_majorant": "H_t=abs(E_t)=Theta_t E_t with Theta_t=sign(E_t)"
+  },
+  "source_collision": {
+    "disposition": "SOURCE-SILENT",
+    "source_ref": "lab/sources/transcripts/toe-weinstein-gu-40-years.md L01:16:13-L01:17:35 and L01:25:01-L01:25:42; ledger WG-A16",
+    "author_context": "Weinstein distinguishes one-time Hamiltonian/initial-value dynamics from multiple-time ultrahyperbolic boundary problems and calls the upstairs problem technical debt.",
+    "silent_on": [
+      "a positive W131 time-slice symmetrizer",
+      "maximal-dissipative incoming/outgoing boundary data",
+      "a record/finality construction of the arrow of time",
+      "nonlinear Euler constraint propagation"
+    ],
+    "repo_addition": "the finite W131 time-flux spectrum and canonical-majorant symmetrizer test",
+    "source_is_mathematical_evidence": false
+  },
+  "computed_time_flux": {
+    "time_symbol_singular_values": {
+      "minimum": "6/7",
+      "maximum": "1"
+    },
+    "native_flux_spectrum": [
+      {"eigenvalue": "-1", "multiplicity": 768},
+      {"eigenvalue": "-6/7", "multiplicity": 64},
+      {"eigenvalue": "6/7", "multiplicity": 64},
+      {"eigenvalue": "1", "multiplicity": 768}
+    ],
+    "native_flux_inertia": {"positive": 832, "negative": 832, "null": 0},
+    "native_flux_coercivity": "KILLED_BALANCED_INDEFINITE",
+    "spectral_majorant_spectrum": [
+      {"eigenvalue": "6/7", "multiplicity": 128},
+      {"eigenvalue": "1", "multiplicity": 1536}
+    ],
+    "spectral_majorant_positivity": "PASS_POSITIVE_DEFINITE_AND_RIGHT_H_COMPATIBLE",
+    "spatial_symmetrizer_defects": {
+      "y": "NONZERO_APPROX_0.1694",
+      "x": "NONZERO_APPROX_0.1652",
+      "z": "NONZERO_APPROX_0.1834"
+    },
+    "spectral_majorant_energy_verdict": "KILLED_DOES_NOT_SYMMETRIZE_ANY_OF_THE_THREE_SPATIAL_EVOLUTION_MATRICES"
+  },
+  "boundary_domain": {
+    "native_green_trace": "the ECW3D-A y-normal form remains Hermitian balanced and right-H invariant",
+    "incoming_outgoing_data": "the two native Green spectral sectors remain available but are not maximal-dissipative data for a failed positive symmetric-hyperbolic energy",
+    "maximal_dissipativity": "NOT_REACHED_FOR_THIS_CANDIDATE__POSITIVE_COERCIVE_ENERGY_GATE_FAILS_FIRST"
+  },
+  "layer_0_dictionary": [
+    {
+      "shared_term": "time",
+      "objects_kept_separate": ["continuous Lorentz coordinate on an admitted section", "orientation/arrow induced by records or finality", "multiple-time coordinates upstairs on Y14"],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "positive energy",
+      "objects_kept_separate": ["positive matrix abs(E_t)", "a positive symmetrizer making every spatial evolution matrix Hermitian"],
+      "disposition": "HOMONYM"
+    },
+    {
+      "shared_term": "incoming/outgoing",
+      "objects_kept_separate": ["opposite native Green spectral sectors", "maximal-dissipative boundary subspaces for a positive energy generator"],
+      "disposition": "HOMONYM"
+    }
+  ],
+  "record_finality_candidate": {
+    "tag": "JOE_CANDIDATE_CONTROL",
+    "status": "NOT_USED_AS_A_B2A_INPUT__RETAINED_FOR_B2B_TEST",
+    "typed_role": "possible extra orientation/fundamental-symmetry selector, not an Eric-sourced datum and not a third lane",
+    "required_tests": [
+      "define the record/finality map without target-sign labeling",
+      "keep continuous Lorentz time separate from the induced order arrow",
+      "prove right-H compatibility",
+      "produce a positive H satisfying H C_j=(H C_j)^dagger for y,x,z",
+      "then test boundary maximal dissipativity and nonlinear constraint propagation"
+    ],
+    "b2a_implication": "choosing an arrow or taking abs(E_t) is insufficient unless the selector also symmetrizes the spatial dynamics"
+  },
+  "non_regression": {
+    "gravity": "OPEN_NO_SECTION_EINSTEIN_EQUATION_OR_STATIONARY_BACKGROUND",
+    "gauge": "W131_METRIC_CONNECTION_AND_RIGHT_H_COMPATIBILITY_RETAINED",
+    "odd_matter": "NATIVE_TIME_FLUX_CANDIDATE_KILLED__GENERAL_ENERGY_DOMAIN_OPEN",
+    "higgs_yukawa": "UNTOUCHED",
+    "quantum_domain": "CANONICAL_MAJORANT_KILLED_AS_SYMMETRIZER__MAXIMAL_DISSIPATIVE_PROPAGATOR_AND_BFV_OPEN",
+    "cosmology": "UNTOUCHED",
+    "datum_P1_P2_P3": "UNCONSUMED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "open_port": "literal real (7,7) time/boundary form, positive symmetrizer, domain, and same-space discriminator",
+    "common_complexification_suffices": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2a_native_time_flux_coercivity_probe.py",
+    "exact_checks": 27,
+    "planted_rejections": 12,
+    "result": "39_PASS"
+  },
+  "report": "explorations/eric-curt-wave3d-b2a-native-time-flux-coercivity-kill-2026-07-31.md",
+  "next_gate": "ECW3D-B2B-POSITIVE-RIGHT-H-SYMMETRIZER-SEARCH"
+}

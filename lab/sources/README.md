@@ -32,9 +32,47 @@ These sources are useful for provenance, terminology, chronology, and locating c
     fast--slow, criticality, and observer claims to the primary paper
     equations and their stated limits. It stores links and paraphrased
     timestamp rows rather than copying the transcript.
+- [`claim-mining-toe-weinstein-complete-2026-07-31.md`](claim-mining-toe-weinstein-complete-2026-07-31.md)
+  - supersedes the **scope**, not the three priority-target adjudications, of
+    the July 20 five-lens report. It records 77 material mathematical claims,
+    recovers the connected inhomogeneous-gauge / tilted-double-coset /
+    gauge-rotated-displacement / Euler-VEV grammar, distinguishes exact speech
+    from strengthened reconstructions, and compares Weinstein's qualitative
+    dynamic-dark-energy/DESI statement to the stronger repo-originated PP3
+    curve family. `WG-A16` restores Weinstein's explicit multiple-time /
+    ultrahyperbolic boundary-condition technical-debt statement; it supplies
+    context and scope correction, not an analytic theorem or record/finality
+    arrow.
+- [`curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md`](curt-jaimungal-gu-iceberg-claim-reconciliation-2026-07-31.md)
+  - reconciles Curt Jaimungal's secondary three-hour iceberg exposition
+    against Weinstein primary sources and the active Eric-lane construction.
+    It includes all 30 recap steps plus 14 cross-cutting recovery claims,
+    preserves the signature/real-form/group-selection/generation forks, and
+    inserts the bounded C0 chimeric/Zorro bridge before the global observation
+    packet. It does not promote Curt's PDE reconstructions to primary formulas.
+- [`curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md`](curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md)
+  - re-reads Curt's trace/traceless, vertical-sign, dual-horizontal, and
+    split-spinor argument at the exact transcript windows. It makes the
+    vertical-sign `(7,7)` comparator source-preferred while retaining the
+    untyped `H*` sign/order conversion as a Layer-0 gap.
+- [`paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md`](paired-curt-eric-gu-axiom-and-argument-reconstruction-2026-07-31.md)
+  - reads the iceberg together with Weinstein's subsequent corrections and
+    independent UCSD restatement. It records 40 graded axioms, nine recovery
+    chains, the upstairs-adjoint versus observed-Higgs type correction, the
+    `varpi`-versus-`T` carrier fork, the manuscript bosonic square versus
+    conjectural total-residual square, and the user-supplied Step 13
+    odd-carrier table. It does not claim a Higgs, Yukawa matrix, or
+    field-equation recovery.
+- [`g3-weinstein-section-pullback-recheck-2026-07-31.md`](g3-weinstein-section-pullback-recheck-2026-07-31.md)
+  - runs the Eric-lane source recheck triggered by G3's source-only section
+    boundary. TOE, Portal/Oxford, and *Into the Impossible* consistently point
+    to observation pullback/restriction from `Y^14` to `X^4`; they do not
+    supply the repo's separate bulk-plus-defect action. The receipt makes the
+    pullback/retract branch G4's source-guided priority and preserves the
+    defect action as an independently constructed comparator.
 - [`claim-mining-toe-weinstein-2026-07-20.md`](claim-mining-toe-weinstein-2026-07-20.md)
-  - timestamped five-lens claim mining of Weinstein's “40 Years in the
-    Making” TOE episode.
+  - selective timestamped five-lens claim mining of Weinstein's “40 Years in
+    the Making” TOE episode, retaining three priority-target adjudications.
 - [`claim-mining-toe-mannheim-2026-07-20.md`](claim-mining-toe-mannheim-2026-07-20.md)
   - timestamped five-lens claim mining of Mannheim's conformal-gravity TOE
     episode.

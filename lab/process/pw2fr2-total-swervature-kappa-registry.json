@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260803-020123-gu-formalization-pw2fr2-swervature-kappa",
+  "gate": "PW2F-R2A-ACTION-DERIVED-EDDY-AND-UNIVERSAL-KAPPA",
+  "status": "PARTIAL_CONSTRUCTION_PASS_AFTER_HOSTILE_REPAIR",
+  "layer0": {
+    "action_transgression": "F_B + 1/2 D_B T + 1/3 [T,T] inside I1B",
+    "directional_euler_covector_remainder": "slot-symmetrized first variation minus the compressed S(F_A)+kappa1*T functional under one declared tangent; an eddy candidate, not the full Portal eddy tensor",
+    "portal_eddy": "source-named quadratic completion required with swerved curvature to form total swervature",
+    "c4": "fourth-order equation-dual coefficient of a pulled metric Euler linearization",
+    "finite_fixture": "exact noncommutative G2 restriction of the action grammar",
+    "actual_y14": "ten-owner induced Sym2(T*X) section/Zorro/reduction/action graph",
+    "physical_operator": "future quotient, primalized, observed, domain-selected operator"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "draft equation 9.4 fixes the one-half and one-third first-action grammar",
+      "draft pages 44-45 display the action, Euler packet, and gathered swervature equation",
+      "Portal 02:35:10 requires a quadratic eddy for variational exactness",
+      "Portal 02:41:39 calls the eddy quadratic in augmented torsion",
+      "the equation is upstairs on Y before observation on X"
+    ],
+    "REPOSITORY_DERIVES": [
+      "any eddy candidate belongs on the Euler/current side rather than as an independently insertable second action term",
+      "the action transgression and the directional remainder are related by variation but are not Layer-0 synonyms"
+    ],
+    "SOURCE_SILENT": [
+      "component formula for the active trace-reversed native eddy",
+      "identity of odot_epsilon and abbreviated odot_omega on the moving branch",
+      "identity of source epsilon and repository h=exp(u)",
+      "complete actual induced-Y14 C4 and any selected kappa1"
+    ],
+    "LEADING_DISPOSITION": "SOURCE-SILENT on the repository eddy candidate, finite-family C4, and no-universal-constant-kappa1 theorem"
+  },
+  "exact_results": {
+    "cyclic_compressed_remainder": "0",
+    "moving_noncyclic_remainder": "-20 directional Euler-covector evaluation on the preregistered fixture",
+    "flat_reference_distortion_polynomial": "-15*r^2",
+    "curved_reference_distortion_polynomial": "-5*r*(3*r+1)",
+    "moving_remainder_covariance": "passes exact constant-conjugation witnesses when the insertion gauge-co-moves; insertion frozen during field variation",
+    "cyclic_split_action": "(2*x^3-3*x^2-40*x+19)/2 + kappa1*(7*x^2+4*x+2)/2",
+    "moving_split_action": "(4*x^3-15*x^2-98*x-63)/3 + kappa1*(7*x^2+4*x+2)/2",
+    "cyclic_c4": "7*kappa1+6*x-3",
+    "moving_c4": "7*kappa1+8*x-10",
+    "cyclic_fixture_root": "kappa1=3/7-6*x/7",
+    "moving_fixture_root": "kappa1=10/7-8*x/7",
+    "universal_constant_kappa1": "ABSENT_ON_BOTH_EXACT_BACKGROUND_FAMILIES",
+    "first_variation_green": "TWO_LAYER_PASS",
+    "linearized_green_and_formal_self_adjoint": "FORMAL_1D_SCALAR_JET_PASS_WITH_INDEPENDENT_FRECHET_CHECK"
+  },
+  "verdict_scope": {
+    "killed": "one universal action-intrinsic constant kappa1 cancelling the full preregistered ambient independent-(B,T) finite I1B background family",
+    "not_killed": "an exceptional kappa1 on the constrained actual induced-Y14 geometric sublocus",
+    "not_computed": "full Portal eddy tensor identification, complete actual-Y14 C4, function space, boundary condition, closed or self-adjoint realization, hyperbolicity, common Krein/right-H domain, characteristic set, quotient, observation, or physics"
+  },
+  "actual_y14_debits": [
+    "one differentiated section/Zorro JVP identity rather than separately hand-added section and Z terms",
+    "homogeneous H0/H1 and B1/B2 split including partial-Z1",
+    "complete delta-u, theta1=dexp_-u(delta-u), and Bhat2 including d-theta1",
+    "all eight moving-Shiab slots plus density, Krein, input/output lowerers, and outer pairing",
+    "J-star-H-J plus Euler-times-D2-graph curvature terms",
+    "35-monomial degree-four base-conormal polynomial and exact kappa proportionality test",
+    "native direct/reverse/presymplectic Green agreement"
+  ],
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "evidence": {
+    "main_probe": "30 exact + 12 type + 9 planted = 51 PASS",
+    "source_probe": "1 exact + 7 source + 7 type + 5 planted = 20 PASS",
+    "post_review": "three specialist verdicts PASS_AFTER_REPAIR; flat branch corrected to B=dB=0, held-out x=4 checks and independent Frechet check added, source/Layer-0/PDE scope narrowed"
+  },
+  "next_gate": "PW2F-R2B-ACTUAL-Y14-SECTION-JVP-THETA1-COMPLETE-C4"
+}

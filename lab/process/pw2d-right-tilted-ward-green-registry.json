@@ -1,0 +1,110 @@
+{
+  "artifact_type": "pw2d_right_tilted_ward_green_result",
+  "run_id": "RUN-20260802-191950-gu-formalization-pw2d-actual-y14-source-ward",
+  "status": "PW2D_STRUCTURAL_RESIDUAL_RIGHT_TILTED_NONABELIAN_WARD_AND_EXPLICIT_OLD_ROOT_FRECHET_ADJOINT_GREEN_PASS_NATIVE_ALL_OWNER_WARD_OPEN",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "xi": "Xi=D_omega Upsilon is a displayed Euler redundancy",
+    "field_substitution": "F maps source fields through h(T) and literal K_full",
+    "left_tilted": "source-coordinate action fixing the descended Theta_A distortion",
+    "right_tilted": "residual nonabelian gauge action on the quotient/distortion",
+    "ward": "Noether-II identity of the residual right action",
+    "bv": "not constructed",
+    "observation": "ambient Ward closure precedes equation descent and no leakage"
+  },
+  "tilted_group": {
+    "cocycle": "q_A(g)=A-Ad_g A+(dg)g^-1",
+    "left_action": "Theta_A invariant",
+    "right_action": "Theta_A adjoint-covariant",
+    "derivative_term": "load-bearing; zero-jet shadow fails",
+    "moving_reference_equivalence": "still required before identifying the spoken double coset with Conn(P)/G"
+  },
+  "residual_generator": {
+    "connection": "delta C=-D_C c",
+    "distortion": "delta T=[c,T]",
+    "reduction": "delta Q=[c,Q]",
+    "metric": "delta g=0 for the internal gauge action",
+    "full_k": "delta K_full=[c,K_full] when h(T,Q,g) is equivariant",
+    "split": "B+K_full transforms as a connection and T-K_full adjointly"
+  },
+  "ward": {
+    "bulk_identity": "D_C E_C+[T,E_T]+[Q,E_Q]=0",
+    "owners_live": ["connection", "distortion", "moving reduction"],
+    "boundary_identity": "Theta(R_c)=<E_C,c> in the executable trace-pairing convention",
+    "integrated_control": {
+      "bulk": 38,
+      "boundary": -38,
+      "sum": 0
+    },
+    "frozen_Q_fails": true,
+    "dropped_connection_fails": true,
+    "xi_imported": false
+  },
+  "frechet_green": {
+    "local_group_map": "h(T)=I+T/5=exp(log(I+T/5)) on the selected invertible GL(2) chart",
+    "reason": "conjugation-equivariant exact GL(2) structural h; component extraction was killed because it made K non-tensorial; no active Sp/right-H/Krein membership is claimed",
+    "old_root_adjoint": "all derivatives of generic old-root deltaB,deltaT,deltaQ are integrated out and the explicit (DF)^! target-Euler tuple agrees with an independently integrated raw pulled-action variation",
+    "graph_green": "a separate generically nonzero G_DF is required in addition to the pulled target preboundary",
+    "total_preboundary": "Theta_total=F^*Theta_hat+G_DF",
+    "direct_equals_old_root_adjoint_plus_total_green": true,
+    "endpoint": "243073/216000",
+    "independent_B_and_T_returns": true,
+    "frozen_K_fails": true,
+    "scope": "exact GL(2) nonabelian structural comparator with a different polynomial action; native grade-3/11 hatted-Euler and metric-owner composition remains for PW2E"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "source roots and homogeneous two-connection difference",
+      "left/right tilted actions and double-coset grammar",
+      "equivariance intent from cancellation of shared inhomogeneous connection terms"
+    ],
+    "SOURCE_CORRECTS": [
+      "Xi redundancy, left source kernel, field substitution, and residual right Ward are different objects",
+      "the spoken A/G double-coset identification requires a moving-reference equivalence"
+    ],
+    "SOURCE_SILENT_REPOSITORY_DERIVED": [
+      "active residual generator formulas and exact Ward boundary",
+      "equivariant full-K Frechet/Green comparator",
+      "native all-owner hatted-Euler Ward composition",
+      "graded BV/BFV/CME, anomaly, observation no-leakage, and domain"
+    ]
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "claim_boundary": "NO_NATIVE_SHIAB_OR_METRIC_OWNER_WARD_NO_ACTIVE_SP_RIGHT_H_KREIN_MEMBERSHIP_NO_PUBLIC_ACTIVE_PORT_NO_GRADED_BV_BFV_CME_NO_OBSERVATION_DESCENT_NO_DOMAIN",
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "exact Clifford and reductive bundle transport",
+        "Krein variational PDE and moving-coefficient ownership",
+        "symplectic tilted-group and Ward geometry"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE_AFTER_REPAIR",
+      "lenses": [
+        "source and reductive bundle scope",
+        "Krein variational PDE and operator ownership",
+        "symplectic tilted action, Ward, Frechet, and Green"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "changed the target connection from B+T to literal B+K and checked its covariance",
+        "integrated generic old-root variation derivatives to construct the explicit (DF)^! owner tuple",
+        "constructed the separate nonzero graph Green concomitant and planted its omission",
+        "matched an independently integrated raw pulled-action Euler tuple and total preboundary",
+        "verified the invertible GL2 chart and prohibited active Sp/right-H/Krein promotion",
+        "updated the complete endpoint to 243073/216000 and retained native all-owner Ward as open"
+      ],
+      "rerun_receipts": [
+        "16 exact + 4 source + 11 type + 11 planted = 42 PASS",
+        "13 exact + 4 source + 11 type + 8 planted = 36 PASS",
+        "strict unique-key JSON, Python syntax, 208-file inventory, scaffold plants, and git diff checks PASS"
+      ]
+    }
+  },
+  "next_gate": "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET"
+}

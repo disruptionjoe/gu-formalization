@@ -1,0 +1,158 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C6-FERMION-BOSON-TRANSFORMATION-AND-CURVED-EULER-IDEAL-FACTORIZATION",
+  "status_boundary": "SOURCE_CORRECTED_SPLIT__REPO_DERIVED_TWO_CONNECTION_AFFINE_SEGMENT_AND_AA_BB_AB_ROUTE_TRANSGRESSION_RECONSTRUCTS_G2_SOURCE_CURVATURE__COMPLEX_MIXED_BRACKET_AND_ACTIVE_PROJECTED_ENDOMORPHISM_SPACE_SEPARATELY_NONZERO_WITH_INTERSECTION_OPEN__G3_GRAPH_RETURN_EXACT__RIGHT_EINSTEIN_GAMMA_AND_LEFT_VECTOR_KREIN_ADJOINT_PASS_THREE_RICCI_FIXTURES__CURRENT_B2C5_FROZEN_PRINCIPAL_HESSIAN_CONDITIONALLY_NOT_AN_UNGAUGE_FIXED_LOCAL_POLYNOMIAL_ODD_GAUGE_HESSIAN__SOURCE_SUPPORTED_ON_SHELL_SOMATIC_COMPLEX_OPEN__GAUGE_PARENT_REPO_PROPOSAL",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c5-covariant-action-green-ward.json",
+  "layer_0": {
+    "physical_fermion": "Psi=(zeta,nu) in Omega1(S) direct_sum Omega0(S)",
+    "ordinary_even_gauge_parameter": "gamma in Omega0(ad P); its BV ghost is parity odd",
+    "hypothetical_odd_generator_parameter": "q_odd in an independent odd module; the BV ghost for an odd generator is parity even",
+    "reduction_field": "epsilon_red in the tilted gauge-rotated Levi-Civita graph",
+    "distortion": "T=A-B with B=A_LC(epsilon_red,g_DW)",
+    "somatic_obstruction": "composition of physical-fermion route operators; not automatically a Noether identity",
+    "on_shell_complex": "operator composition vanishing modulo bosonic Euler equations; not off-shell action symmetry",
+    "odd_noether": "hypothetical local gauge identity under independent q_odd; not supplied by source",
+    "nu_is_ghost": false
+  },
+  "source_collision": {
+    "disposition": "SOURCE-CONFIRMS_PLUS_SOURCE-CORRECTS_PLUS_SOURCE-SILENT",
+    "source_confirms": [
+      "Portal 01:48:26-01:54:09 calls for two somatic complexes with a common generalized-Einstein obstruction",
+      "Portal 01:48:59-01:51:50 uses two connection derivative routes whose difference is zero-order augmented torsion and whose composition is intended to cancel differential pieces",
+      "Portal 01:55:03-01:58:27 types zeta in Omega1(S) and nu in Omega0(S) as two physical fields in coupled Dirac-role equations",
+      "TOE 01:41:12-01:42:56 and UCSD 00:46:02/00:49:16 support an algebraic odd extension whose pairings land in gauge-potential translations",
+      "TOE 02:18:17-02:20:33, UCSD 00:20:57-00:22:26, and Portal 01:41:26-01:41:58 support displacement relative to a gauge-rotated Levi-Civita connection",
+      "TOE 02:38:12-02:39:51 identifies curvature as the obstruction to the covariant fermion complex"
+    ],
+    "source_corrects": [
+      "the primary source-guided factorization target is a two-connection on-shell somatic obstruction, not a source-supplied odd Noether transformation",
+      "physical nu and zeta are fields, not the odd gauge parameter",
+      "a single-connection flat-symbol Ward analogue is not the unreleased two-connection complex",
+      "square root of connections is an algebraic bracket target, not an already-defined analytic square root or action symmetry"
+    ],
+    "source_silent_on": [
+      "delta_q A, delta_q epsilon_red, delta_q g_DW, and delta_q Psi",
+      "the odd action, derivative cocycle, Jacobi/BV completion, and local Noether identity",
+      "the exact cyclic-or-acyclic two-connection matrix, signs, coefficients, and active-real-form port",
+      "the exact curved cancellation, Velo-Zwanziger cure, and analytic domain"
+    ],
+    "unfinished_receipt": "Portal 02:03:07 says the stress-energy up-and-back and Dirac up-and-over/over-and-up zero-order invariant cancellations were still being assembled",
+    "transcription_uncertainty": "TOE 02:44:06-02:45:43 local transcript says cyclic while official says acyclic; no periodicity or order-three inference used"
+  },
+  "two_connection_transgression": {
+    "provenance": "REPO_DERIVED_FROM_SOURCE_MOTIVATED_TWO_CONNECTION_GEOMETRY__NOT_AUTHOR_STATED",
+    "field_graph": "A=B+T with B=A_LC(epsilon_red,g_DW)",
+    "affine_family": "A_t=B+tT",
+    "curvature_family": "F_(A_t)=F_B+t D_B T+t^2 q(T,T)",
+    "segment_average": "integral_0^1 F_(A_t) dt=F_B+1/2 D_B T+1/3 q(T,T)",
+    "mixed_route_operator": "H_AB^E=1/2(d_A^E d_B^E+d_B^E d_A^E) restricted to Omega0(E)=rho(Hhat_AB)",
+    "curvature_representative": "Hhat_AB=F_B+1/2 D_B T in Omega2(ad P)",
+    "route_barycenter": "Q_source=1/3(F_A+F_B+Hhat_AB); after rho, rho(Q_source)=1/3(rho(F_A)+rho(F_B)+H_AB^E)",
+    "jet_cancellation": "EXACT_ON_TWO_INDEPENDENT_FIRST_AND_SYMMETRIC_SECOND_JET_REPLAYS",
+    "interpretation": "the repo reconstructs the written G2 source-curvature integrand from an exact affine segment and equal route barycenter; Weinstein does not state that interpolation or those weights; this does not identify it with the graph-complete Euler covector"
+  },
+  "graph_complete_bosonic_owner": {
+    "free_fields": ["A", "epsilon_red", "g_DW"],
+    "derived_fields": ["B=A_LC(epsilon_red,g_DW)", "T=A-B", "S_epsilon", "flat_1"],
+    "transformation_graph": "mu_T=mu_A-(D_epsilon B)mu_epsilon-(D_g B)mu_g",
+    "owner": "E_T=S_epsilon(F_B)+1/2(L+L^ddagger)T+M_epsilon(T,T)+kappa_1 flat_1(T)",
+    "returned_identity": "primitive B/T/S/flat pairing equals <E_A,mu_A>+<E_epsilon,mu_epsilon>+<E_g,mu_g> on an exact rational control",
+    "compressed_shortcut": false,
+    "factorization_control": "G2 exact plant has q(y,z)=0 but nonzero slot-symmetrized polarized Euler response"
+  },
+  "candidate_odd_bosonic_maps": {
+    "status": "REPO_RECONSTRUCTED_CANDIDATE_BASIS_NOT_SOURCE_DERIVED_SYMMETRY",
+    "mixed_super_ig_bracket": "beta((u,psi),(v,chi))(X)=mu_Omega(u,chi(X))+mu_Omega(v,psi(X))",
+    "finite_complex_symplectic_checks": "symmetric, nonzero, adjoint-valued, and equivariant",
+    "connection_lead": "mu_A,a=Pi_ad,real,H mu_Omega(q_odd,zeta_a) plus moving-Clifford-relative nu and Gamma-zeta channels",
+    "reduction_lead": "mu_epsilon in the actual moving reductive tangent projection of mu_Omega(q_odd,nu) and mu_Omega(q_odd,Gamma zeta)",
+    "metric_lead": "mu_g proportional to the induced-DeWitt-tangent projection of Re_K,C+ <q_odd,gamma_(a zeta_b)> plus trace channels",
+    "active_reality": "the active C-plus/right-H/Krein-skew projected-endomorphism space has a nonzero rank-one witness",
+    "mixed_active_intersection": "OPEN_TYPE_LEVEL__THE_ACTUAL_ACTIVE_PROJECTION_OF_mu_Omega(q_odd,zeta_a)_WAS_NOT_COMPUTED",
+    "charge_chirality": "representative C-plus Clifford bilinears at degrees 0-14 are cross-chiral for even p and same-chiral for odd p on the active matrices",
+    "remaining_type_gates": [
+      "native real-form projection into the actual active adjoint",
+      "moving reductive tangent projector",
+      "induced DeWitt metric tangent image",
+      "constrained symplectic-Majorana action and graded signs"
+    ]
+  },
+  "curved_compositions": {
+    "connection": "torsion-free gauge-rotated Levi-Civita comparator B with parallel gamma",
+    "right": "exact traceless-Ricci fixture matches one-half Einstein-gamma",
+    "left": "after correcting split-signature eta placement, the vector-spinor commutator equals the vector-metric/Krein adjoint row of the right Einstein-gamma map on positive-index, tracefree mixed-sign diagonal, and off-diagonal mixed-sign Ricci fixtures",
+    "pure_weyl": "nonzero exact algebraic pure-Weyl fixture vanishes in both compositions",
+    "internal_control": "commuting scalar-endomorphism curvature produces independent left grade-three support but is not certified as active GU-adjoint curvature",
+    "unexecuted_actual_slots": [
+      "active GU-adjoint internal curvature",
+      "derived torsion map from T",
+      "moving projector/soldering/weight and density jets",
+      "A/A and mixed A/B full curved parent compositions"
+    ]
+  },
+  "local_odd_gauge_gate": {
+    "background": "FORMAL_FLAT_INTERMEDIATE_FIELD_JET_WITH_F_B=0_T=0_Psi=0__ACTUAL_LEVI_CIVITA_DEWITT_FIELD_GRAPH_ADMISSIBILITY_UNPROVED",
+    "bosonic_euler": "G2_SOURCE_CURVATURE_SEED_ZERO__FULL_E_T_E_B_E_S_E_FLAT_RETURN_TO_E_A_E_EPSILON_E_G_AT_AN_ADMISSIBLE_POINT_NOT_EXECUTED",
+    "candidate_generator_basis": [
+      "R1(k)=(k tensor I,0)",
+      "R2(k)=(gamma_a c(k),0)",
+      "R3(k)=(0,c(k))"
+    ],
+    "timelike_gram_min_eigenvalue": 52.654,
+    "generic_gram_min_eigenvalue": 492.335,
+    "basis_nullity": 0,
+    "open_set_theorem": "AT_ANY_ADMISSIBLE_BOSONIC_SOLUTION_CARRYING_THE_VERIFIED_B2C5_GENERICALLY_INVERTIBLE_PRINCIPAL_SYMBOL__EVERY_FINITE_ORDER_LOCAL_POLYNOMIAL_R_WITH_D(k)R(k)=0_IS_ZERO",
+    "verdict": "B2C5_NOT_UNGAUGE_FIXED_LOCAL_ODD_HESSIAN_CONDITIONAL_ON_ADMISSIBLE_SOLUTION__PARENT_REQUIRED_ONLY_IF_LOCAL_ODD_DESCENT_IS_RETAINED",
+    "scope": "conditional on an admissible bosonic solution; current B2C5 completed rolled Hessian treated as the ungauge-fixed fermion operator; local arbitrary parameter; bosonic variations bilinear in parameter and physical fermion; no additional compensator or fermion tadpole",
+    "not_killed": [
+      "a larger gauge-degenerate parent whose gauge fixing yields B2C5",
+      "a rigid or Killing-spinor operation",
+      "an enlarged fermion carrier or changed action",
+      "a nonlocal pseudodifferential transformation",
+      "the source's unreleased two-connection on-shell somatic complex",
+      "the abstract mixed-carrier super-IG bracket"
+    ]
+  },
+  "coefficient_and_datum": {
+    "source_scale": "UNCHANGED_AND_UNSELECTED",
+    "shape_p": "UNCHANGED_AND_UNSELECTED",
+    "transgression_coefficients": "1/2 and 1/3 receive an exact affine-segment and route-average construction; they are not P1/P2/P3",
+    "P1_P2_P3_used": false,
+    "missing_parent_or_bracket_is_external_datum": false,
+    "count_or_chirality_inference": false
+  },
+  "non_regression": {
+    "b2c5_action_pde_green_results": "RETAINED_AT_FROZEN_PRINCIPAL_SCOPE",
+    "g2_g3_graph_complete_euler": "RETAINED",
+    "ordinary_gauge_bv": "RETAINED_AND_NOT_RELABELED_SUPER_IG",
+    "guided_super_ig_route": "SEPARATE_AND_RETAINED",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c6_fermion_boson_euler_factorization_probe.py",
+    "exact_checks": 33,
+    "type_level_controls": 4,
+    "planted_rejections": 14,
+    "result": "33_EXACT_PLUS_4_TYPE_LEVEL_PLUS_14_PLANTED_EQUALS_51_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization.json",
+    "report": "explorations/eric-curt-wave3d-b2c6-fermion-boson-euler-factorization-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C7-TWO-CONNECTION-SOMATIC-OPERATORS-AND-SHARED-EINSTEIN-OBSTRUCTION",
+  "secondary_next_gate": "ECW3D-B2C6B-ACTION-GREEN-ENERGY-DOMAIN-AND-BOUNDARY-COMPLETION"
+}

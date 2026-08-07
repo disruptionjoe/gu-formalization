@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2I-SEPARATE-CONDITIONAL-ACTIVE-I1-A4-AND-I2B-C4-BANKS",
+  "status": "SEPARATE_CONDITIONAL_ACTIVE_C4_BANK_PROMOTION_BLOCKED_ON_UNIVERSAL_OWNER_CONORMAL_COVERAGE__PARAMETRIC_H_H2_FORMULAS_RETAINED",
+  "run_id": "RUN-20260804-102714-gu-formalization-pw2fr2b2b2i-separate-c4-banks",
+  "verdict_scope": "exact accepted-evidence coverage audit for the ten active metric owners, 35-monomial four-conormal quartic basis, H/H2 exercised pair, bank-grade predecessor pattern, and bounded serial resource attempt",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "the public I1 grammar and real-form fork only",
+    "REPOSITORY-DERIVES": "the active H/H2 parametric formulas, exact bank dimensions, accepted-coverage census, and universal promotion boundary",
+    "SOURCE-SILENT": "both active complete banks, any owner-pair symmetry reduction, exact sparse bank engine, Green/domain, and physics"
+  },
+  "layer0": {
+    "source_I1_vs_active_I1_A4": "DISTINCT_ACTION_AND_COEFFICIENT_OBJECTS",
+    "manuscript_I2B_vs_active_I2B_C4": "DISTINCT_ACTION_AND_COEFFICIENT_OBJECTS",
+    "I1_A4_vs_I2B_C4": "SEPARATE_BANKS_WITH_COMMON_INDEX_SET_ONLY",
+    "parameterized_formula_vs_universal_certificate": "DISTINCT_PROOF_LEVELS",
+    "raw_density_vs_Euler_vs_Green_vs_Helmholtz": "FOUR_DISTINCT_LEVELS",
+    "active_9_5_vs_source_7_7": "UNPORTED_REAL_FORM_ACTION_PAIRING_FORK"
+  },
+  "bank_requirement": {
+    "metric_owner_count": 10,
+    "symmetric_owner_pair_count": 55,
+    "conormal_variable_count": 4,
+    "homogeneous_quartic_monomial_count": 35,
+    "uncompressed_cells_per_bank": 1925,
+    "two_bank_cells": 3850,
+    "bank_grade_precedent": "FULL_35_POINT_LATTICE__10_BY_10_OWNER_MATRICES__SYMMETRY__THREE_DENSE_HELDOUTS"
+  },
+  "accepted_coverage": {
+    "H_mixed_operator_owner_pairs": 1,
+    "H2_residual_primalizer_owner_pairs": 1,
+    "shared_exercised_pair": [3, 7],
+    "exercised_quartic_lattice_points_at_most": 1,
+    "owner_pair_gap": 54,
+    "quartic_lattice_gap": 34,
+    "parameterized_constructors_retained": true,
+    "universal_symmetry_reduction": "NOT_PROVED",
+    "complete_I1_A4": "NOT_PROMOTED",
+    "complete_I2B_C4": "NOT_PROMOTED"
+  },
+  "resource_attempt": {
+    "environment": "SYMPY_1_14_0__PYTHONDONTWRITEBYTECODE_1__SERIAL",
+    "prechecks": "SOURCE_AND_LAYER0_PASS",
+    "bounded_result": "INTERRUPTED_AFTER_MORE_THAN_FIVE_MINUTES_INSIDE_FIRST_EXACT_MIXED_SHIAB_KERNEL",
+    "scientific_interpretation": "RESOURCE_SIGNAL_ONLY__NOT_BANK_NONEXISTENCE",
+    "direct_full_grid": "NOT_LAUNCHED"
+  },
+  "planted_controls": {
+    "parameterization_as_coverage": "REJECTED",
+    "one_pair_as_complete_bank": "REJECTED",
+    "source_scope_exit_as_source_derivation": "REJECTED",
+    "bank_merge": "REJECTED",
+    "premature_Green_Helmholtz": "REJECTED",
+    "Curt_or_third_lane_promotion": "REJECTED"
+  },
+  "admission": {
+    "parametric_H_H2_formulas": "RETAINED_FOR_SUCCESSOR",
+    "separate_conditional_active_I1_A4": "OPEN_BLOCKED_ON_UNIVERSAL_COVERAGE",
+    "separate_conditional_active_I2B_C4": "OPEN_BLOCKED_ON_UNIVERSAL_COVERAGE",
+    "multiindex_Green_Helmholtz": "NOT_ADMITTED",
+    "live_C3_return": "NOT_RUN",
+    "projective_kappa1": "NOT_RUN",
+    "bank_nonexistence": "NOT_CLAIMED"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2i_separate_conditional_active_c4_banks_probe.py",
+    "exploration": "explorations/pw2fr2b2b2i-separate-conditional-active-c4-banks-2026-08-04.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-04-pw2fr2b2b2i-review.md",
+    "main": "11_EXACT_PLUS_2_SOURCE_PLUS_11_TYPE_PLUS_6_PLANTED_EQUALS_30_PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2I1-UNIVERSAL-OWNER-CONORMAL-COVERAGE-ENGINE-THEN-SEPARATE-C4-BANKS"
+}

@@ -1,0 +1,127 @@
+{
+  "artifact_type": "pw2d_native_transported_shiab_action_result",
+  "run_id": "RUN-20260802-191950-gu-formalization-pw2d-actual-y14-source-ward",
+  "status": "PW2D_PARTIAL_FIXED_METRIC_COVARIANCE_COMPLETED_FULL_ACTION_JET_PASS_DELTA_ONLY_SEPARATE_METRIC_BANK_PW2E_REQUIRED",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_bundle": "public U/(7,7)-presented source bundle; not identified with the active real component",
+    "active_bundle": "local P_mix/Sp(32,32;H)/Spin0(9,5) component used by the executable fixture",
+    "reduction": "Q-family and grade projector are distinct owners; the explicit transported-projector derivative vanishes on this fixture while the Q/Phi-family derivative is live",
+    "connection": "K_full=h^-1 D_B h; K_red=pr_2 K_full is not substituted",
+    "action": "fixed-metric covariance-completed trace-adapted curvature/transgression plus kappa1/2 mass sector on the B2C15P Y14 jet",
+    "series": "exact s-adic action jet through order two; not an all-orders or global exponential theorem",
+    "metric": "separate exact ten-owner zero-jet moving-Shiab coefficient bank; no mixed bridge-by-metric action derivative and full Z0+Z1 total-space metric Frechet graph remains open"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "source roots epsilon and varpi and homogeneous distortion T",
+      "fixed one-half/one-third completed first-action grammar",
+      "left/right tilted and double-coset symmetry grammar",
+      "trace reversal on the symmetric metric fibre"
+    ],
+    "SOURCE_CORRECTS": [
+      "the residual right-tilted gauge action is not Xi=D Upsilon and not the left source-coordinate kernel"
+    ],
+    "SOURCE_SILENT_REPOSITORY_DERIVED": [
+      "active quaternionic real-form component",
+      "grade-3/11 Alt/star-Alt bridge and coefficients",
+      "transported Q/projector Frechet owner",
+      "the all-thirteen-leg ker-Alt coefficient-dual result and separate repository-chosen Alt bridge component",
+      "literal native eight-slot assembly and action jet",
+      "public-to-active real bundle morphism",
+      "full total-space metric Frechet graph, global atlas, domain, and physical quotient"
+    ]
+  },
+  "transported_shiab": {
+    "fixture": "actual B2C15P reconstructed Y14 spin curvature",
+    "coefficient_panel": [[0, 0], [1, 0], ["5/3", "4/3"], [1, 1], [1, -1]],
+    "identity": "D_Q Shiab(F)-Shiab([u,F])=-[u,Shiab(F)] in the executable left-commutator convention",
+    "nonzero_branches": 4,
+    "explicit_transported_projector_live_branches": 0,
+    "frozen_Q_Phi_family_defects": 4,
+    "finite_transport": "covariance-completed operator tangent agrees independently with the explicit Q-family derivative; the finite second-order public/native operator construction remains open",
+    "scope": "local active-component tangent naturality and covariance-completed second-order family; no public-bundle equivalence or three-patch actual atlas"
+  },
+  "alt_action_coupling": {
+    "trace_line_dual_sector": "all thirteen actual coefficient-dual one-form legs lie individually in ker Alt because the missing form index occurs in their Clifford two-blade",
+    "bridge_sector": "a separately preregistered repository-chosen first lexicographic grade-two source leg supplies nonzero Alt(T)",
+    "interpretation": "direct action pairing and bridge ownership are complementary source sectors rather than one identical component"
+  },
+  "native_action_jet": {
+    "normal_form": "F_B+1/2 D_B T+1/3 q(T,T)=1/2(F_A+F_B)-1/6 q(T,T)",
+    "graph": "Bhat=B+K_full, That=T-K_full, Qhat=Ad(h^-1)Q",
+    "linear_responses": [0, 0, 0, 0, 0],
+    "curvature_quadratic_responses": [0, "3/8", "3/8", 0, 0],
+    "unweighted_mass_norm_quadratic_responses": [0, 2, 2, 0, 0],
+    "full_quadratic_responses": [0, "3/8+kappa1", "3/8+kappa1", 0, 0],
+    "verdict": "complete linear response cancels; the quadratic response is Delta-only but can vanish at kappa1=-3/8",
+    "selection": "NO_COEFFICIENT_RATIO_OR_NONZERO_RESPONSE_SELECTED; equal-Delta pairs coincide and both Hodge-null branches vanish at quadratic order",
+    "all_orders": "OPEN"
+  },
+  "metric_owner_bank": {
+    "slots": [
+      "trace_gamma",
+      "Phi1_first",
+      "Hodge_first",
+      "Phi1_outer",
+      "Phi2",
+      "Hodge_inner",
+      "Hodge_middle",
+      "Hodge_outer"
+    ],
+    "all_slots_live": true,
+    "ten_owner_coefficient_rank": 10,
+    "action_pairing_nonzero_owners": 4,
+    "action_or_euler_metric_rank": "NOT_COMPUTED",
+    "mixed_bridge_metric_derivative": "NOT_COMPUTED",
+    "curvature_input_is_not_a_ninth_slot": true,
+    "full_Z0_Z1_metric_frechet": "OPEN"
+  },
+  "native_signature": {
+    "fibre": [6, 4],
+    "total": [9, 5],
+    "trace_norm": -4,
+    "raw_frobenius_geometry": "REJECTED_AS_IDENTICAL_NATIVE_METRIC_BY_INERTIA_7_3_AND_POSITIVE_TRACE_NORM_4__NOT_AN_ACTION_SUBSTITUTION_TEST",
+    "positive_hilbert_action_substitution": "UNTESTED",
+    "curt_7_7_separate": true
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "claim_boundary": "NO_PUBLIC_ACTIVE_BUNDLE_EQUIVALENCE_NO_EXPLICIT_FINITE_SECOND_ORDER_Q_PROJECTOR_CONSTRUCTION_NO_MIXED_BRIDGE_METRIC_ACTION_DERIVATIVE_NO_FULL_Z0_Z1_METRIC_FRECHET_NO_COMPOSITE_RIGHT_H_KREIN_CPLUS_RECERTIFICATION_NO_ALL_ORDERS_COEFFICIENT_SELECTION_NO_GLOBAL_ATLAS_DOMAIN_OR_PHYSICAL_QUOTIENT",
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "exact Clifford and reductive bundle transport",
+        "Krein variational PDE and moving-coefficient ownership",
+        "symplectic tilted-group and Ward geometry"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE_AFTER_REPAIR",
+      "lenses": [
+        "source, real-form bundle, transported reduction, and ker-Alt scope",
+        "Krein variational PDE, full written action, metric owners, and reality scope",
+        "tilted Ward, Frechet adjoint, and Green boundary"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "replaced the circular projector residual with an independent derivative and corrected the right-versus-left commutator sign",
+        "recorded zero explicit projector response and four live Q/Phi-family branches",
+        "extended ker Alt from three selected legs to all thirteen actual coefficient-dual legs",
+        "restored the written kappa1/2 mass sector and possible cancellation at kappa1=-3/8",
+        "downgraded the eight-slot rank-ten result to a separate zero-jet coefficient bank rather than a mixed action or Euler rank",
+        "left composite right-H/Krein/C+ and positive-Hilbert action substitution explicitly open",
+        "qualified the Ward theorem as a GL2 structural comparator and repaired its old-root formal adjoint"
+      ],
+      "rerun_receipts": [
+        "13 exact + 4 source + 11 type + 8 planted = 36 PASS",
+        "16 exact + 4 source + 11 type + 11 planted = 42 PASS",
+        "strict unique-key JSON, Python syntax, 208-file inventory, scaffold plants, and git diff checks PASS"
+      ]
+    }
+  },
+  "next_gate": "PW2E-FULL-Z0Z1-METRIC-FRECHET-COEFFICIENT-DESCENT-AND-HIGHER-ACTION-JET"
+}

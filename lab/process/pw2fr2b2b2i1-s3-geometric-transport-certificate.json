@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2I1-S3-UNIVERSAL-OWNER-CONORMAL-GEOMETRIC-TRANSPORT",
+  "status": "BOTH_S3_GENERATORS_CERTIFIED_ON_UNIVERSAL_OWNER_CONORMAL_GEOMETRIC_TRANSPORT_LAYER",
+  "run_id": "RUN-20260804-163503-gu-formalization-pw2fr2b2b2i1-s3-geometric-transport",
+  "verdict_scope": "exact finite action on the active three-positive-axis subgroup, ten Sym2 metric owners, four conormal coordinates, 35 quartic monomials, 55 symmetric owner pairs, DeWitt base/first/second derivatives, connection columns, nonlinear Zorro metric, symmetric coframe, normalized trace, and density",
+  "source_disposition": {
+    "REPOSITORY_DERIVES": "the active finite S3 action and its exact geometric transport certificate",
+    "SOURCE_SILENT": "the active S3 reduction, 380-representative evaluator, complete active coefficient banks, Green/Helmholtz quotient, and physics",
+    "PREDECESSOR_REQUIRES": "bank-preserving symmetry or a validated sparse resumable evaluator before either complete bank"
+  },
+  "layer0": {
+    "active_9_5_vs_public_7_7": "DISTINCT_REAL_FORM_ACTION_PRESENTATIONS",
+    "label_action_vs_geometric_transport": "DISTINCT_CERTIFICATE_LAYERS",
+    "geometric_transport_vs_full_evaluator_equivariance": "DISTINCT_CERTIFICATE_LAYERS",
+    "orbit_representatives_vs_complete_bank": "DISTINCT_EXECUTION_AND_PROMOTION_LEVELS",
+    "I1_A4_vs_I2B_C4": "SEPARATE_BANKS_WITH_SHARED_FINITE_INDEX_ACTION_ONLY"
+  },
+  "generators": {
+    "tau01": {
+      "order": 2,
+      "owner_map": [4, 1, 5, 6, 0, 2, 3, 7, 8, 9],
+      "base_matrix": [
+        [0, 1, 0, 0],
+        [1, 0, 0, 0],
+        [0, 0, 1, 0],
+        [0, 0, 0, 1]
+      ]
+    },
+    "cycle012": {
+      "order": 3,
+      "owner_map": [7, 2, 5, 8, 0, 1, 3, 4, 6, 9],
+      "base_matrix": [
+        [0, 0, 1, 0],
+        [1, 0, 0, 0],
+        [0, 1, 0, 0],
+        [0, 0, 0, 1]
+      ]
+    }
+  },
+  "universal_counts": {
+    "metric_owners": 10,
+    "ordered_first_dewitt_owner_derivatives": 10,
+    "ordered_second_dewitt_owner_derivatives": 100,
+    "owner_conormal_connection_generators": 40,
+    "normalized_trace_owner_directions": 10,
+    "quartic_monomials": 35,
+    "symmetric_owner_pairs": 55,
+    "joint_labels": 1925
+  },
+  "joint_orbit_census": {
+    "1": 2,
+    "3": 115,
+    "6": 263
+  },
+  "burnside_fixed_counts": {
+    "identity": 1925,
+    "each_of_three_transpositions": 117,
+    "each_of_two_three_cycles": 2
+  },
+  "candidate_representatives_per_bank": 380,
+  "candidate_reduction": 1545,
+  "dense_heldout": {
+    "owners": [0, 9],
+    "xi": [1, -1, 2, 3],
+    "zeta": [-2, 3, 1, -1],
+    "checks": "EXACT_NONLINEAR_METRIC__SYMMETRIC_COFRAME__NORMALIZED_TRACE__DENSITY_TRANSPORT_FOR_BOTH_GENERATORS"
+  },
+  "admission": {
+    "finite_S3_action": "ADMITTED",
+    "universal_owner_conormal_geometric_transport": "CERTIFIED",
+    "Phi_Hodge_Shiab_transport": "NOT_UNIVERSALLY_CERTIFIED",
+    "residual_primalizer_action_transport": "NOT_UNIVERSALLY_CERTIFIED",
+    "complete_I1_A4": "NOT_PROMOTED",
+    "complete_I2B_C4": "NOT_PROMOTED",
+    "multiindex_Green_Helmholtz": "NOT_ADMITTED"
+  },
+  "reduction_engine": "ADMITTED_NOT_PROMOTED",
+  "unconditional_fallback_cells_per_bank": 1925,
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2i1_s3_geometric_transport_probe.py",
+    "exploration": "explorations/pw2fr2b2b2i1-s3-geometric-transport-certificate-2026-08-04.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-04-pw2fr2b2b2i1-review.md",
+    "scope_audit": "process_gates/pw2fr2b2b2i1_s3_geometric_transport_scope_audit.py"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2I1-REMAINING-EVALUATOR-LAYERS-ON-ORBIT-REPRESENTATIVES-PLUS-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS"
+}

@@ -1,0 +1,176 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C9-OFFDIAGONAL-SOMATIC-TOTAL-CURRENT-AND-PREBOUNDARY-RETURN",
+  "status_boundary": "PARTIAL_FINITE_CONSTRUCTION_PASS__FULL_FIRST_JET_BOSONIC_EULER_COVARIANCE_AND_COADJOINT_SIGN_EXECUTED_IN_ALL_TWELVE_BASIS_DIRECTIONS__OLD_ZERO_JET_EULER_RECONSTRUCTION_KILLED_BY_NONZERO_PURE_DCHI_CONTROL__INDEPENDENT_DUAL_TWO_CONNECTION_FERMION_FAMILY_VARIED_WITH_SEPARATE_A_B_CURRENTS__ZERO_SOUTHEAST_DIAGONAL_CONNECTION_SCALARIZED_COMPARATOR_MATCHES_DRAFT_THREE_BILINEAR_MONOMIAL_ALPHABET__NONZERO_SOUTHEAST_COMPARATOR_PREDICTS_CANDIDATE_ELL_BARNU_TENSOR_NU_MONOMIAL__T_EQUALS_A_MINUS_B_ZERO_ORDER_FORMAL_OWNER_CHAIN_FOR_SUPPLIED_DELTA_B_EXECUTED__GENERIC_SAME_FIELD_MOVING_INDEFINITE_LOWERER_CONTROL_EXECUTED__ADDITIVE_G3_SHAPED_PLUS_UNSYMMETRIZED_FERMION_ONE_DIMENSIONAL_GREEN_COMPARATOR_CLOSES__ACTUAL_LC_GRAPH_ACTIVE_9_5_DENSITY_VALUED_CURRENT_CONSTRAINED_GRASSMANN_ACTION_B2C5_SYMMETRIZED_PREBOUNDARY_FULL_METRIC_EPSILON_STRESS_HESSIAN_AND_COMMON_CLOSED_DOMAIN_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c8-source-forked-two-connection-square-euler-map.json",
+  "predecessor_append_only_correction": {
+    "target": "B2C8 report line containing the 2025 cone is confirmed",
+    "replacement_reading": "the repo-reconstructed source-compatible 2025-shaped cone is proved to be a connection-level equality complex in the tested realization",
+    "reason_not_rewritten": "append corrections preserve provenance and B2C8 is outside the B2C9 governed write envelope"
+  },
+  "layer_0": {
+    "physical_fields": "zeta in Omega1(S) and nu in Omega0(S), with barred and unbarred variables independent in the draft variational packet",
+    "independent_dual": "an independently varied density-dual row; its row already contains the lowering and receives no duplicate Krein factor",
+    "constrained_real": "pullback to the symplectic-real subbundle; its lowering, charge, density, Hodge, and projector data may move",
+    "adjoint_euler_current": "the ad-valued connection Euler covector from variation of the fermion action",
+    "noether_current": "the coupled ordinary-gauge Ward contribution",
+    "green_current": "the boundary current emitted by integration by parts",
+    "observed_current": "a future observation/retract image; not identified with any preceding current",
+    "bosonic_euler": "full first-jet Euler functional partial_L_partial_T minus total divergence of partial_L_partial_Tjet",
+    "old_bosonic_reconstruction": "zero-jet algebraic partial derivative reconstructed from twelve constant-T directions",
+    "trace_reversal": "active raw Sym2 Frobenius (7,3) is trace-reversed to (6,4), then combined with base (3,1) to total (9,5)",
+    "physical_nu_is_ghost": false
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_CORRECTS_PLUS_SOURCE_SILENT",
+    "source_grades": {
+      "2021_draft_pages_46_49": "AUTHOR_WORKING_DRAFT_PRIMARY",
+      "portal_2020_transcript": "COMMUNITY_EDITED_OFFICIAL_HOST_TRANSCRIPT",
+      "ucsd_into_impossible_2025": "AUTHOR_SPEECH_WITH_RAW_AND_EDITED_TRANSCRIPTS",
+      "toe_2025": "THIRD_PARTY_AUTOMATIC_TRANSCRIPT_UNTRUSTED_EXTERNAL"
+    },
+    "source_confirms": [
+      "draft equations 9.16-9.20 use physical zeta nu and independent barred variables",
+      "draft equation 9.18 contains the adjoint bilinear bar_nu zeta plus bar_zeta nu plus S bar_zeta zeta",
+      "draft equation 9.20 keeps Upsilon_B plus Upsilon_F equals zero and D_omega_star Upsilon_B equals Upsilon_F as rival architectures",
+      "Portal 01:47:01-01:54:09 intends Bose and Fermi somatic routes to share an Einstein-shaped obstruction",
+      "TOE 02:44:06-02:45:13 states but does not release a two-connection on-shell complex"
+    ],
+    "source_corrects": [
+      "the modern two-connection statement does not define on-shell as A equals B",
+      "the source does not authorize summing both bosonic action architectures with the fermion term",
+      "the 2025-shaped shifted cones are source-compatible repo reconstructions rather than released formulas"
+    ],
+    "source_silent_on": [
+      "complete active 9_5 right-H Krein constrained Grassmann action",
+      "full fermion return into E_epsilon and E_g",
+      "moving Hodge density charge projector and trace-reversed DeWitt derivatives",
+      "Green form domain characteristic kernel BFV quotient Poisson anchor and prequantization"
+    ],
+    "stress_boundary": "Portal 02:03:07 says the stress-energy and Dirac route cancellations were unfinished"
+  },
+  "bosonic_first_jet_euler": {
+    "finite_model": "three-coordinate M2(Q) first-jet transgression action",
+    "euler_definition": "partial L partial T_i minus partial_j partial L partial T_i_j, evaluated as an exact local functional",
+    "gauge_tangent": "delta B_i=[chi,B_i]-chi_i; delta B_i_j=[chi,B_i_j]+[chi_j,B_i]-chi_ij; delta T_i=[chi,T_i]; delta T_i_j=[chi,T_i_j]+[chi_j,T_i]; delta H=[chi,H]; delta H_j=[chi,H_j]+[chi_j,H]",
+    "coadjoint_identity": "D E_T[R_chi](u)+E_T([chi,u])=0",
+    "pure_dchi_control": "PASS_ZERO_FOR_COMPLETED_EULER",
+    "old_zero_jet_reconstruction": "FAILS_PURE_DCHI_AND_IS_NOT_THE_FULL_EULER_OPERATOR",
+    "hostile_controls": [
+      "freeze H first jet",
+      "omit prolonged B first-jet law",
+      "reverse coadjoint sign"
+    ],
+    "full_tuple_hessian": "OPEN"
+  },
+  "fermion_family": {
+    "active_parent": "D_pr(k)=[[A_w(k)W,K(k)B],[C_g(k)D,c(k)L]] plus M0",
+    "executed_finite_truncation": "two-sector exact rational first-jet action with independent A and B owners and four M0 blocks",
+    "tied_nonzero_southeast_relations": [
+      "12 w_plus ell_minus + 11 r_squared = 0",
+      "12 w_minus ell_plus + 11 r_squared = 0"
+    ],
+    "remaining_parameters": [
+      "overall source coupling",
+      "p=w_plus*w_minus/r_squared"
+    ],
+    "p_fixture": "8/3",
+    "p_is_external_datum": false,
+    "strata": [
+      "strict zero principal and zero-order southeast corner",
+      "zero principal southeast with allowed M00",
+      "nonzero first-order southeast repair",
+      "degenerate coefficient strata"
+    ],
+    "M0_blocks": ["M11", "M10", "M01", "M00"],
+    "natural_equivariant_M0_completeness": "OPEN"
+  },
+  "action_and_current": {
+    "independent_dual_all_slot_variation": "EXACT_PASS",
+    "ordinary_first_jet_gauge_ward": "EXACT_PASS_WITH_DCHI_AND_MOVING_M0",
+    "separate_currents": {
+      "J_A": "(r bar_zeta + ell bar_nu) tensor nu",
+      "J_B": "(w bar_zeta + s bar_nu) tensor zeta"
+    },
+    "source_corner": {
+      "coefficients": "w=S, ell=0, r=s=1 with diagonal connection ownership",
+      "current": "bar_nu tensor zeta plus bar_zeta tensor nu plus S bar_zeta tensor zeta",
+      "matches_draft_equation_9_18_bilinear_alphabet_in_scalarized_finite_comparator": true,
+      "typed_density_valued_current_identity": "OPEN_REQUIRES_HODGE_MOVING_SHIAB_REPRESENTATION_AND_ADJOINT_PROJECTION_MAPS"
+    },
+    "nonzero_southeast_comparator_difference": "ell bar_nu tensor nu monomial",
+    "repair_preserves_typed_written_draft_current": "OPEN__FINITE_COMPARATOR_PREDICTS_AN_EXTRA_BILINEAR_CHANNEL_WHOSE_ACTIVE_PROJECTION_AND_NONVANISHING_ARE_UNTESTED",
+    "graph_M0_from_T": {
+      "T": "A-B",
+      "A_owner": "J_A+J_T",
+      "primitive_intermediate_B_covector": "J_B-J_T",
+      "owner_return_if_B_is_graph_derived": "(D_epsilon B)^!(J_B-J_T) and (D_g B)^!(J_B-J_T), not executed here",
+      "executed_scope": "formal chain rule for a supplied arbitrary delta B"
+    },
+    "actual_observed_Maxwell_or_Yang_Mills_current": "NOT_CLAIMED"
+  },
+  "real_pullback_and_stress": {
+    "independent_dual_lowerer_response": "NONE_FROM_AN_INDEPENDENT_ROW",
+    "generic_same_field_lowerer_response": "ONE_DELTA_K_TERM_IN_A_TWO_VECTOR_CONTROL",
+    "active_constrained_real_lowerer_response": "OPEN_REQUIRES_OMEGA_J_C_PLUS_GRASSMANN_FIXED_SUBBUNDLE_AND_ACTUAL_B_F",
+    "inverse_response": "delta R=-R(delta b)R",
+    "frozen_lowerer_hostile_control": "REJECTED",
+    "density_response": "FINITE_SCALAR_DENSITY_RESPONSE_EXECUTED",
+    "finite_reduction_graph_response": "FORMAL_OWNER_CHAIN_EXECUTED_FOR_SUPPLIED_DELTA_B__D_EPSILON_B_D_G_B_AND_TRANSPOSES_OPEN",
+    "actual_metric_hodge_krein_projector_charge_dewitt_response": "OPEN",
+    "C_plus": "REALITY_GATE_NOT_SECOND_RIESZ_FACTOR"
+  },
+  "coupling_architecture_fork": {
+    "first_order_total": "Upsilon_B+Upsilon_F=0",
+    "second_order_sourced": "D_omega_star Upsilon_B=Upsilon_F",
+    "indiscriminate_sum_allowed": false,
+    "common_domain_comparison": "OPEN"
+  },
+  "preboundary": {
+    "fermion_green_identity_with_moving_pairing": "EXACT_PASS",
+    "fermion_boundary_nonzero": true,
+    "action_fork": "UNSYMMETRIZED_INDEPENDENT_DUAL_ONE_DIMENSIONAL_FERMION_COMPARATOR__NOT_B2C5_SYMMETRIZED_ACTION",
+    "additive_comparator_theta": "G3-shaped theta plus unsymmetrized fermion theta in a one-dimensional polynomial comparator",
+    "additive_comparator_green_identity": "EXACT_PASS",
+    "fermion_changes_additive_comparator_theta": true,
+    "selected_B2C5_total_theta": "OPEN_REQUIRES_SYMMETRIZED_BOTH_BOUNDARY_TERMS_AND_MOVING_D",
+    "fermion_omega_antisymmetric_nonzero": true,
+    "graph_green_terms_from_actual_LC_metric_dependencies": "OPEN",
+    "common_closed_green_lagrangian_domain": "OPEN",
+    "poisson_or_prequantum_promotion": false
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "P1_P2_P3_changed": false,
+    "missing_coefficient_current_stress_or_domain_is_datum": false
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_pairing_action_domain_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c9_offdiagonal_total_current_preboundary_probe.py",
+    "computational_exact_checks": 22,
+    "source_receipts": 4,
+    "type_level_controls": 17,
+    "planted_rejections": 11,
+    "result": "22_COMPUTATIONAL_EXACT_PLUS_4_SOURCE_RECEIPTS_PLUS_17_TYPE_LEVEL_PLUS_11_PLANTED_EQUALS_54_PASS",
+    "count_boundary": "TYPE_LEVEL_ROWS_ARE_DECLARATIONS_NOT_INDEPENDENT_COMPUTATIONAL_EVIDENCE"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary.json",
+    "report": "explorations/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md"
+  },
+  "next_gate": "ECW3D-B2C10-ACTIVE-9_5-SOURCE-CURRENT-REPAIR-AND-FULL-TUPLE-HESSIAN",
+  "following_gate": "ECW3D-B2C6B-FINAL-TOTAL-ACTION-COMMON-GREEN-DOMAIN-REPLAY",
+  "later_gate": "FINAL_G4_OBSERVATION_DOMAIN_KERNEL_CHARGE_QUOTIENT__THEN_REDUCED_POISSON_AND_PREQUANTUM"
+}

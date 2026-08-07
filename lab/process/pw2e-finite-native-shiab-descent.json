@@ -1,0 +1,102 @@
+{
+  "artifact_type": "pw2e_finite_native_shiab_descent_result",
+  "run_id": "RUN-20260802-210344-gu-formalization-pw2e-finite-native-metric-ward",
+  "status": "PW2E_FINITE_ACTIVE_NATIVE_OPERATOR_AND_THREE_PATCH_DESCENT_PASS_PUBLIC_PORT_AND_ANALYTIC_GLOBALIZATION_OPEN",
+  "date": "2026-08-02",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "public_source_bundle": "U/(7,7)-presented source bundle; not identified with the active real component",
+    "active_bundle": "local P_mix/Sp(32,32;H)/Spin0(9,5) component",
+    "projector": "active Clifford-Lie-algebra projector retaining grades 2,3,6,7,10,11,14; rank 8256",
+    "bivector_subspace": "grade-two Spin subalgebra; dimension 91; not the whole projector image",
+    "atlas": "three active-principal-bundle trivializations with external form coordinates fixed; not a coordinate atlas or public-real-form port",
+    "representation_covector": "contragredient grade-two overlap transport; distinct from an action-derived Euler covector"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "epsilon-varpi roots and B_omega/T_omega grammar",
+      "one-half/one-third completed first-action grammar and kappa1 bosonic distortion-norm slot",
+      "tilted left/right action and trace-reversal requirements"
+    ],
+    "SOURCE_NEGATIVE": [
+      "the public preferred Shiab projection sheet/calculation is unavailable"
+    ],
+    "SOURCE_SILENT_REPOSITORY_DERIVED": [
+      "finite grade-3/11 active exponential",
+      "rank-8256 invariant active projector",
+      "three-patch active Spin atlas and grade-two contragredient covector law",
+      "public-to-active real-bundle port and analytic domain"
+    ],
+    "HOMONYM_GUARD": "the public preferred Shiab is not the repository active Cl(9,5)/Sp operator, and synthetic build_source_t is not Weinstein's T_omega"
+  },
+  "finite_bridge": {
+    "generator": "u=c3 Alt(T_syn)+c11 star Alt(T_syn) on the synthetic fixture",
+    "square": "u^2=c11^2-c3^2=-Delta",
+    "branches": [
+      "elliptic rational exponential-conic point",
+      "hyperbolic rational exponential-conic point",
+      "Hodge-null exact h=1+u branch"
+    ],
+    "finite_operator": "independently move trace line, Phi1, Phi2, Hodge composition, and active projector before comparing with conjugated-operator naturality",
+    "actual_curvature": "complete B2C15P curvature evaluated on one nonzero elliptic branch and moves nontrivially",
+    "tangent": "finite family agrees with PW2D's independent transported tangent",
+    "composite_group": "right-H, Krein, and C-plus conditions pass on every branch"
+  },
+  "projector_correction": {
+    "pre_assessment_prediction": "live moved rank-91 projector",
+    "correct_result": "the rank-8256 active projector is invariant under the finite active group; its 91-dimensional bivector sector is only a certified subspace",
+    "shiab_motion": "live through the moved Q/Phi/trace/Hodge family rather than projector motion"
+  },
+  "descent": {
+    "transition_generator": "square-zero native bivector e01+e31",
+    "patch_functions": ["0", "x", "2x+x^2"],
+    "cech": "exact three-overlap cocycle",
+    "coefficient": "independently assembled sparse finite active Shiab descends symbolically on every overlap",
+    "connection": "literal K is tensorial and B+K obeys the affine law with the nonzero derivative term retained",
+    "action": "transported complete thirteen-form coefficient has patch-invariant scalar pairing with value 9/64; it is not a separately reconstructed local full operator",
+    "representation_covector": "91-dimensional invariant-pairing calculation gives the contragredient grade-two covector law; the actual action Euler dual remains open",
+    "boundary": "local algebraic active descent; no public real-form morphism, analytic domain, BV quotient, observation no-leakage, or global Y14 atlas"
+  },
+  "native_signature": {
+    "fibre": [6, 4],
+    "total": [9, 5],
+    "trace_norm": -4,
+    "raw_frobenius_and_curt_7_7": "not identified with the native trace-reversed metric"
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "review_receipts": {
+    "pre_assessment": {
+      "status": "COMPLETE",
+      "lenses": [
+        "exact Clifford and reductive geometry",
+        "Krein variational PDE",
+        "symplectic and tilted-group geometry"
+      ]
+    },
+    "post_review": {
+      "status": "COMPLETE_AFTER_REPAIR",
+      "lenses": [
+        "source provenance and Layer 0",
+        "reductive Clifford geometry and descent",
+        "variational PDE, Frechet, Green, and Ward"
+      ],
+      "must_fix": [],
+      "repaired": [
+        "replaced expensive trigonometric representatives by exact rational points on the same exponential conics",
+        "corrected the projector from a moving rank-91 object to an invariant rank-8256 object with a 91-dimensional bivector sector",
+        "added a full 16,384-basis commutation certificate on elliptic, hyperbolic, and null branches and used the fixed projector in the Shiab assembly",
+        "corrected the Cech transition comparison to algebraic equality rather than syntactic SymPy form",
+        "upgraded sparse coefficient, affine B, and tensorial K overlap tests from x=1 to symbolic identities",
+        "used the total h*g_i mover in each local independently assembled coefficient",
+        "narrowed the transported action-pairing and grade-two contragredient laws below actual local full-operator/Euler descent",
+        "wired the kappa1 homonym plant to the bosonic distortion-norm row and separated the synthetic fixture leg T_syn from source T_omega"
+      ],
+      "rerun_receipts": [
+        "15 exact + 3 source + 10 type + 10 planted = 38 PASS"
+      ]
+    }
+  },
+  "next_gate": "PW2F-COMPLETE-NATIVE-TOP-ORDER-COMPOSITION-AND-METRIC-WARD"
+}

@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C2A-TAU-TANGENT-BV-TYPE-AND-CURVATURE-COLLISION",
+  "status_boundary": "DECISIVE_ECW3D_B2C2A_ORDINARY_TAU_TANGENT_EXISTS_AND_IS_A_LIE_ALGEBRA_HOMOMORPHISM__COVARIANT_LEG_NOT_NILPOTENT_ON_NONFLAT_CONNECTION__FULL_ORDINARY_BRST_WRONG_CARRIER_FOR_W131__SUPER_IG_RS_TANGENT_DIFFERENTIAL_REMAINS_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json",
+  "source_collision": {
+    "disposition": "SOURCE-CORRECTS",
+    "source_ref": "lab/literature/weinstein-ucsd-2025-04-transcript.md 00:18:03-00:20:57",
+    "correction": "The ordinary-gauge derivative-level tau homomorphism is not missing: the source states tau_plus(g)=(g,g^-1 d_aleph g) in its convention, and G1 has already reconstructed the equivalent derivative cocycle q_A with infinitesimal D_A xi.",
+    "source_confirms": [
+      "ordinary gauge group into the inhomogeneous gauge group",
+      "an adjoint-valued one-form derivative component",
+      "a distinguished connection d_aleph"
+    ],
+    "source_silent_on": [
+      "a scalar-spinor to gamma-traceless vector-spinor tangent differential",
+      "super-IG or Rarita-Schwinger BV closure",
+      "the W131 Jordan chains and their cohomological removal",
+      "observer descent through a physical quotient"
+    ],
+    "source_is_mathematical_evidence_for_new_collision": false
+  },
+  "tau_tangent": {
+    "group_map": "tau_A(g)=(g,q_A(g))",
+    "infinitesimal_map": "d tau_A|_e(xi)=(xi,D_A xi)",
+    "source_type": "Omega0(ad P)",
+    "target_type": "Lie(Gau(P)) semidirect Omega1(ad P)",
+    "nonabelian_lie_homomorphism": "PASS_EXACT_RATIONAL_TWO_COORDINATE_FIRST_JET",
+    "zero_jet_shadow_rejected": true
+  },
+  "curvature_and_bv": {
+    "covariant_square_identity": "[D_0,D_1]xi=[F_01,xi]",
+    "nonflat_control": "NONZERO_EXACT",
+    "ordinary_covariant_leg_nilpotent": false,
+    "flat_control_nilpotent": true,
+    "layer_0_rule": "A tau-graph Lie-homomorphism, a covariant de Rham differential, and the nonlinear BRST differential are not the same object.",
+    "g3_ordinary_bv": "CLOSURE_AND_JACOBI_PASS_WITH_sc_EQUALS_ONE_HALF_BRACKET_c_c",
+    "g3_scope": "ORDINARY_Gau(P)_BULK_THROUGH_ANTIFIELD_NUMBER_ONE",
+    "super_ig_rs_bv": "OPEN"
+  },
+  "w131_collision": {
+    "required_arrow": "scalar spinor S -> ker Gamma subset T*Y tensor S",
+    "actual_tau_arrow": "Omega0(ad P) -> Omega1(ad P)",
+    "layer_0_disposition": "HOMONYM_UNDER_THE_PHRASE_TANGENT_GAUGE_DIFFERENTIAL",
+    "missing_bridge": "a source-derived super-IG/RS odd tangent rule or equivalent soldering/current map with its own BV closure",
+    "unsourced_representation_or_background_spinor_not_added": true,
+    "jordan_cohomology_retested": false,
+    "reason_not_retested": "No correctly typed differential acts on the W131 scalar-spinor/vector-spinor complex, so an image/kernel quotient would be invented from the target obstruction."
+  },
+  "constraint_parameter_surplus": {
+    "ordinary_tau_new_free_parameters": 0,
+    "w131_bridge_parameters": "UNPRICED_BECAUSE_NO_SOURCE_DERIVED_BRIDGE_EXISTS",
+    "verdict": "UNCOMPUTABLE_AT_W131_COHOMOLOGY_SCOPE"
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "pricing": "UNCHANGED",
+    "supplies_carrier_bridge": false
+  },
+  "record_finality_candidate": {
+    "tag": "JOE_CANDIDATE_CONTROL",
+    "status": "NOT_AN_INPUT_AND_CANNOT_CHANGE_THE_ORDINARY_ADJOINT_CARRIER_INTO_THE_MISSING_RS_TANGENT_COMPLEX",
+    "retest": "only after a source-derived super-IG/RS differential and observer-descending cohomology exist"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "open_port": "literal real (7,7) source-derived tangent/BV complex, dynamics, observer descent, domain, and common-space discriminator",
+    "complex_W131_collision_transports": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "non_regression": {
+    "b2c1_existing_projected_map": "REMAINS_KILLED_AS_A_JUSTIFIED_QUOTIENT",
+    "ordinary_tau_derivative": "NOW_TYPED_AS_PRESENT_NOT_MISSING",
+    "ordinary_gauge_bv": "G3_PASS_RETAINED_AT_ITS_PROVED_SCOPE",
+    "w131_physical_quotient": "OPEN_NO_TYPED_SUPER_IG_RS_DIFFERENTIAL",
+    "changed_action_pseudodifferential_nonlinear_ultrahyperbolic_routes": "OPEN",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c2_tau_tangent_bv_collision_probe.py",
+    "exact_checks": 29,
+    "planted_rejections": 13,
+    "result": "42_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json",
+    "report": "explorations/eric-curt-wave3d-b2c2-tau-tangent-bv-collision-2026-07-31.md"
+  },
+  "next_gate": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT"
+}

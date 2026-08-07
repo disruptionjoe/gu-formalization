@@ -1,0 +1,80 @@
+{
+  "schema_version": "1.0",
+  "run_id": "RUN-20260803-070259-gu-formalization-pw2fr2b2b1-source-comoving-graph",
+  "gate": "PW2F-R2B2B1-SOURCE-SPLIT-AND-COMOVING-SECOND-GRAPH-PREREQUISITE",
+  "status": "SCOPED_FINITE_SOURCE_SPLIT_AND_COMOVING_SECOND_GRAPH_PASS_COMPLETE_C5_C4_OPEN",
+  "columns": {
+    "source_aligned_chartwise": "fixed-varpi finite chart coordinates with independent Gamma and q: B_full=Gamma+q, T=varpi-q, A_total=Gamma+varpi; the epsilon-to-q Frechet map is not constructed",
+    "active_reconstruction": "repository-derived declared exact nilpotent h=exp(u) noncommutative two-dimensional fixture; no actual u(T), epsilon-to-h, or public-to-active carrier identification"
+  },
+  "layer0": {
+    "source_tangent": "deltaT=-deltaq and deltaB_full=deltaGamma+deltaq; the old minus-deltaB shortcut differs by the live minus-deltaGamma return",
+    "moving_graph": "source moving grammar is confirmed, but the exact h/theta1/Bhat2 finite graph is REPOSITORY-DERIVED",
+    "actions": "D2(I1 composed graph), manuscript I2B residual square, and second-order equations remain distinct and uncomputed",
+    "comparison": "vary-upstairs chain-rule assembly equals restrict-first direct differentiation on the finite fixture only",
+    "global_section": "SOURCE-UNCERTAIN because the checked TOE speakers disagree"
+  },
+  "exact_results": {
+    "source_split": "two components preserve B_full=Gamma+q, T=varpi-q, and A_total=B_full+T=Gamma+varpi",
+    "fixed_source_tangent": "two independent directions preserve deltaT=-deltaq and deltaB_full=deltaGamma+deltaq with a live minus-deltaGamma shortcut defect",
+    "one_frame": "Gammahat, qhat, varpihat, Bhat, That, Ahat, and curvature use one affine/homogeneous co-moving frame and preserve all split identities plus curvature conjugacy",
+    "theta1": "two live identity-germ theta1 branches plus a live mixed second orbit and spatial d-theta branch",
+    "Bhat2": "direct mixed derivative equals an independent five-term assembly and is nonzero in both connection components",
+    "controls": "freezing h and a commuting linear-orbit fixture annihilate the mixed second graph",
+    "pullback_hessian": "direct restrict-first Hessian equals J-star-H-J plus E-times-D2F; the off-shell second return is live and the on-shell control reduces to J-star-H-J"
+  },
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "connection-fundamental to metric-emergent architecture",
+      "moving theta/section grammar",
+      "connection difference and tilted grammar",
+      "upstairs equation followed by pullback",
+      "gauge-rotated Levi-Civita connection in the contorsion slot",
+      "trace-reversed Frobenius fibre"
+    ],
+    "SOURCE_CORRECTS": [
+      "the named TOE map from projection to contraction"
+    ],
+    "SOURCE_UNCERTAIN": [
+      "global section existence"
+    ],
+    "REPOSITORY_DERIVES": [
+      "independent executable q/Gamma finite chart",
+      "nilpotent h/theta1/Bhat2 second graph",
+      "finite off-shell two-term Hessian witness"
+    ],
+    "SOURCE_SILENT": [
+      "epsilon-to-h map",
+      "epsilon-to-q Frechet map and actual native u(T) law",
+      "right-H/Krein carrier bridge",
+      "complete source-coordinate or active-native C5/C4",
+      "five coefficient slots and contracted moving-bank liveness",
+      "I1/I2B Hessians and kappa1"
+    ]
+  },
+  "hostile_reviews": {
+    "exact_geometry": "PASS_AFTER_SCOPE: split identities, affine law, curvature conjugacy, and independent Bhat2 assembly pass; finite chart is not a global section or native Y14 graph",
+    "variational_pde": "PASS_AFTER_SCOPE: direct and two-term Hessians agree with live off-shell and on-shell controls; no differential-order or C4 promotion is made",
+    "source_layer0": "PASS_AFTER_SCOPE: source pins and homonyms pass; h graph remains repository-derived and I1/I2B remain separate"
+  },
+  "evidence": {
+    "main_probe": "21 exact + 9 type + 7 planted = 37 PASS",
+    "source_probe": "2 exact + 9 source + 9 type + 6 planted = 26 PASS"
+  },
+  "blocking_debt": {
+    "native_port": "replace the finite matrix chart by the actual epsilon-to-q and u(T) right-H/Krein induced-Y14 source graph without identifying source epsilon with repository h",
+    "order": "insert the graph into the 35-monomial principal pipeline and recompute complete C5 before C4",
+    "coefficient_slots": "differentiate or exactly absorb density, Krein, two lowerers, and outer pairing",
+    "moving_liveness": "pass a hostile moving-Shiab fixture through the complete contracted quartic pipeline",
+    "staged_actions": "compute source-directed I1 and manuscript I2B Hessians separately",
+    "green": "supply an independent reverse/formal-adjoint and native presymplectic Green reconciliation"
+  },
+  "verdict_scope": {
+    "earned": "finite exact source-coordinate split and repository-derived co-moving second-graph prerequisite",
+    "not_earned": "complete source-coordinate or active-native C5/C4; actual I1 or I2B Hessian; coefficient-slot closure; characteristic; domain; BV quotient; observation equation; or physics"
+  },
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2-ACTUAL-NATIVE-SOURCE-GRAPH-COEFFICIENT-SLOTS-I1-I2B-C5-C4"
+}

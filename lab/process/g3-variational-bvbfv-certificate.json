@@ -1,0 +1,137 @@
+{
+  "certificate_id": "G3-FULL-VARIATIONAL-BVBFV-2026-07-31",
+  "branch": "agent/weinstein-guided-source-action",
+  "run": "GUH-20260731T144734Z-g3-full-variational-bvbfv",
+  "grade": "split_conditional_source_sector_variational_bv_pass",
+  "selected_free_fields": [
+    "A",
+    "epsilon_red",
+    "g_X/g_DW"
+  ],
+  "derived_graph": {
+    "B": "A_LC(epsilon_red,g_DW)",
+    "T": "A-B",
+    "S_epsilon": "native trace-adapted density-dual Shiab",
+    "flat_1": "native density-dual pseudo-musical"
+  },
+  "primitive_variation": {
+    "varied_slots": [
+      "T",
+      "F_B",
+      "D_B T",
+      "q(T,T)",
+      "S_epsilon",
+      "flat_1",
+      "Hodge/density/Krein/trace-line data"
+    ],
+    "exact_T_euler": "S_epsilon(F_B) + 1/2(L+L^!)T + M_epsilon(T,T) + kappa_1 flat_1(T)",
+    "killed_expression_not_used": "S_epsilon(F_(B+T)) + kappa_1 flat_1(T)"
+  },
+  "owner_euler": {
+    "E_A": "E_T",
+    "E_epsilon": "(D_epsilon B)^!(E_B_circ-E_T) + (D_epsilon S)^!E_S + (D_epsilon flat)^!E_flat",
+    "E_g": "(D_g B)^!(E_B_circ-E_T) + (D_g S)^!E_S + (D_g flat)^!E_flat",
+    "E_B": "no independent equation; graph composite",
+    "E_section": "zero by absence from selected source-only action; author-guided observation is a pullback/restriction map, while the N1 defect equation is a repo comparator"
+  },
+  "noether": {
+    "gauge_weak_identity": "<E_A,-D_A chi> + <E_epsilon,chi epsilon_red> + boundary_flux = 0",
+    "complete_first_jet_variation": "PASS",
+    "isolated_connection_contribution": "NONZERO",
+    "moving_reduction_cancellation": "EXACT",
+    "isolated_off_shell_connection_conservation": "KILLED_ON_NONDEGENERATE_FIXTURE",
+    "diffeomorphism": "top-density weak identity passes only with metric/density response; full diffeomorphism BV open"
+  },
+  "preboundary": {
+    "theta_type": "Omega^(13,1)(J^infinity F)",
+    "omega_type": "Omega^(13,2)(J^infinity F)",
+    "green_flux": "nonzero and retained",
+    "field_space_two_form": "nonzero and antisymmetric",
+    "bfv_phase_space": "NOT_YET; G4 must select domain/polarization and quotient kernel",
+    "defect_corner": "ABSENT_FROM_SELECTED_SOURCE_ONLY_ACTION_AND_NOT_SUPPLIED_BY_RECHECKED_WEINSTEIN_SOURCES"
+  },
+  "primary_source_recheck": {
+    "receipt": "lab/sources/g3-weinstein-section-pullback-recheck-2026-07-31.md",
+    "positive_route": "observation pullback/restriction along a local metric section",
+    "global_section": "UNCERTAIN",
+    "defect_action": "NOT_SUPPLIED_BY_RECHECKED_SOURCES",
+    "layer0": "observation pullback Y->X and defect pushforward X->Y are HOMONYMS under section coupling",
+    "g4_tests": [
+      "R_s L_s = 1",
+      "R_s D_Y L_s = D_X",
+      "(1-L_s R_s)D_YL_s = 0",
+      "dual map on Euler covectors and pullback/variation compatibility"
+    ]
+  },
+  "minimal_bv": {
+    "scope": "ordinary Gau(P) subgroup, algebraic/bulk",
+    "rules": [
+      "sA=-D_A c",
+      "s epsilon_red=c epsilon_red",
+      "s g_DW=0",
+      "s c=1/2[c,c]"
+    ],
+    "action": "I_G2 + <A+,-D_A c> + <epsilon+,c epsilon> + <c+,1/2[c,c]>",
+    "field_antifields_only": "FAIL_FOR_NONABELIAN_ALGEBRA",
+    "ghost_antifield_term": "FORCED_TO_CLOSE_CME_THROUGH_ANTIFIELD_NUMBER_ONE",
+    "closure_and_jacobi": "PASS"
+  },
+  "exact_probe": {
+    "result": "25 exact checks + 13 planted failures = 38 PASS",
+    "controls": [
+      "all-slot rational derivative",
+      "graph T=A-B response",
+      "first-jet gauge Ward cancellation",
+      "nonzero isolated Ward term",
+      "Green boundary flux",
+      "preboundary antisymmetry",
+      "top-density diffeomorphism response",
+      "nonabelian closure and Jacobi",
+      "section-absence versus planted defect",
+      "observation lift/retract versus defect pushforward",
+      "retract intertwining versus independent off-slice leakage"
+    ]
+  },
+  "datum_and_surplus": {
+    "new_physical_coefficient": "none",
+    "P1_P2_P3": "unchanged and unused",
+    "unpriced": [
+      "boundary polarization",
+      "closed Krein domain",
+      "global reduction component",
+      "normalization and kappa_1",
+      "stationary orbit",
+      "physical projections",
+      "P3"
+    ],
+    "constraint_surplus": "UNCOMPUTABLE"
+  },
+  "next_swing": {
+    "id": "G4",
+    "title": "observation retract and ultrahyperbolic domain",
+    "required_inputs": [
+      "Theta_G3",
+      "omega_G3",
+      "coupled weak identities",
+      "native (9,5) Krein/right-H structures"
+    ],
+    "required_outputs": [
+      "observation lift/retract",
+      "off-slice leakage test",
+      "positive majorant and admissible polarization",
+      "closed Krein domain",
+      "preboundary-kernel quotient",
+      "domain-compatible Green/pseudo-musical packet for G5"
+    ]
+  },
+  "not_claimed": [
+    "G4 domain or polarization",
+    "complete defect or matter variation",
+    "full BV-BFV or physical cohomology",
+    "super-IG or complete diffeomorphism BV",
+    "N1/source equivalence or current choice",
+    "vacuum, Higgs, or Standard Model spectrum",
+    "anomaly closure, index, or generation count",
+    "cosmological amplitude or PP3"
+  ]
+}

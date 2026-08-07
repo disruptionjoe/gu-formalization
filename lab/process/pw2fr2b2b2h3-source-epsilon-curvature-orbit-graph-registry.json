@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2H3-SOURCE-EPSILON-CURVATURE-ORBIT-GRAPH",
+  "status": "CONDITIONAL_ACTIVE_LOCAL_SOURCE_EPSILON_CONNECTION_CURVATURE_OPERATOR_ORBIT_GRAPH_CLOSED__GLOBAL_REAL_FORM_BUNDLE_MORPHISM_OPEN",
+  "run_id": "RUN-20260804-082417-gu-formalization-pw2fr2b2b2h3-source-epsilon-curvature",
+  "verdict_scope": "one exact noncommuting matrix source-coordinate connection fixture plus one formal two-direction conditional active Spin(9,5) orbit on the accepted reconstructed curvature/operator/residual port",
+  "source_disposition": {
+    "SOURCE-CONFIRMS": "epsilon/connection-difference grammar and the distinction between source epsilon and repository soldering data",
+    "REPOSITORY-DERIVES": "exact mixed Maurer-Cartan cancellation, active Spin(9,5) curvature orbit, moved trace/Phi/Shiab operator graph, and invariant residual-norm jet",
+    "SOURCE-SILENT": "public-source-to-active real-form bundle morphism, global descent atlas, active normalization, complete coefficient banks, Green/domain, and physics"
+  },
+  "layer0": {
+    "source_epsilon_vs_conditional_active_rotor_vs_repository_h_vs_reduction_epsilon": "FOUR_DISTINCT_OBJECTS",
+    "source_I1_vs_manuscript_I2B_vs_active_repository_port": "THREE_DISTINCT_ACTION_OBJECTS",
+    "connection_vs_curvature_vs_operator_vs_residual_vs_primalizer_vs_Hessian": "SEPARATELY_COMPOSED_TYPED_OBJECTS",
+    "active_9_5_vs_source_7_7": "GLOBAL_REAL_FORM_BUNDLE_PORT_OPEN",
+    "local_orbit_vs_global_bundle_morphism": "LOCAL_CONDITIONAL_GRAPH_CLOSED__GLOBAL_IDENTITY_OPEN"
+  },
+  "connection_curvature_fixture": {
+    "epsilon_inverse": "EXACT_NONCOMMUTING_TWO_DIRECTION_MATRIX_PAIR",
+    "curvature_conjugacy": "EXACT_BEFORE_COEFFICIENT_EXTRACTION",
+    "mixed_curvature_nonzero_entries": 4,
+    "mixed_four_family_reassembly": "PASS",
+    "omitted_maurer_cartan_defect_nonzero_entries": 4
+  },
+  "active_source_orbit": {
+    "rotor_inverse_mixed_jet": "IDENTITY_THROUGH_1_R_S_RS",
+    "generators": "TWO_NONCOMMUTING_ACTIVE_GRADE2_SPIN_DIRECTIONS",
+    "curvature_coordinates": [360, 132, 121, 121],
+    "curvature_commutator_reassembly": "FIRST2_AND_MIXED_PASS",
+    "active_reality": "GRADE2_RIGHT_H_KREIN_SKEW_C_PLUS_PASS_ALL_SLOTS",
+    "residual_coordinates": [13, 2, 2, 2],
+    "explicit_moved_operator_equals_transported_residual": true,
+    "curvature_only_and_operator_only_mixed_routes": "BOTH_LIVE_AND_NEITHER_COMPLETE",
+    "residual_norm_jet": ["981/64", "0", "0", "0"]
+  },
+  "planted_controls": {
+    "omit_epsilon_inverse_d_epsilon": "NONZERO_MIXED_CURVATURE_DEFECT",
+    "freeze_epsilon_soldered_operator": "CHANGES_MIXED_RESIDUAL",
+    "freeze_curvature": "CHANGES_MIXED_RESIDUAL",
+    "wrong_inverse_first_signs": "REJECTED",
+    "local_orbit_to_global_bundle_morphism": "REJECTED",
+    "orbit_graph_to_complete_C4_banks": "REJECTED"
+  },
+  "admission": {
+    "conditional_local_source_epsilon_connection_curvature_operator_orbit": "CLOSED_THROUGH_MIXED_ORDER",
+    "global_source_to_active_real_form_bundle_morphism": "OPEN",
+    "global_descent_atlas": "OPEN",
+    "complete_I1_A4": "NOT_ASSEMBLED",
+    "complete_I2B_C4": "NOT_ASSEMBLED",
+    "multiindex_Green_Helmholtz": "BLOCKED_DOWNSTREAM_OF_GLOBAL_PORT_AND_COMPLETE_BANKS",
+    "projective_kappa1": "NOT_RUN"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2h3_source_epsilon_curvature_orbit_graph_probe.py",
+    "exploration": "explorations/pw2fr2b2b2h3-source-epsilon-curvature-orbit-graph-2026-08-04.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-04-pw2fr2b2b2h3-review.md",
+    "main": "13_EXACT_PLUS_3_SOURCE_PLUS_13_TYPE_PLUS_6_PLANTED_EQUALS_35_PASS"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2H4-SOURCE-TO-ACTIVE-REAL-FORM-BUNDLE-MORPHISM-OR-SCOPE-EXIT-THEN-SEPARATE-C4-BANKS"
+}

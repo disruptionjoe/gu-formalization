@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "gate": "PW2F-R2B2B2I2-AFFINE-FIRST-MOVING-FIRST-SIZE3-FULL-EVALUATOR",
+  "status": "AFFINE_FIRST_MOVING_CERTIFIED__FIRST_SIZE3_ORBIT_CERTIFIED__DURABLE_3_OF_380__UNIVERSAL_377_OPEN",
+  "run_id": "RUN-20260805-074524-gu-formalization-pw2fr2b2b2i2-affine-first-size3",
+  "verdict_scope": "all ten metric owners at the zero plus four coordinate conormal directions with exact affine spanning, and the lexicographically first non-fixed size-three S3 orbit through the active mixed metric, Phi1, Phi2, Hodge, Shiab residual, moving Hodge-primalizer, and action jet under both exact S3 generators",
+  "source_disposition": {
+    "REPOSITORY_DERIVES": "the active finite S3 affine and selected-orbit full-evaluator certificate",
+    "SOURCE_SILENT": "the finite S3 reduction, affine evaluator, representative coverage, complete active coefficient banks, Green/Helmholtz quotient, and physics",
+    "PREDECESSOR_REQUIRES": "complete 380-representative coverage plus dense universal heldouts before engine promotion or fallback replacement"
+  },
+  "layer0": {
+    "active_9_5_vs_public_7_7": "DISTINCT_REAL_FORM_ACTION_PRESENTATIONS",
+    "affine_first_moving_vs_mixed_second_order": "DISTINCT_DIFFERENTIAL_LEVELS",
+    "selected_size3_orbit_vs_universal_representative_coverage": "DISTINCT_COVERAGE_LEVELS",
+    "orbit_representatives_vs_complete_bank": "DISTINCT_EXECUTION_AND_PROMOTION_LEVELS",
+    "I1_A4_vs_I2B_C4": "SEPARATE_BANKS_WITH_SHARED_FINITE_INDEX_ACTION_ONLY"
+  },
+  "dependencies": {
+    "fixed_stratum_probe_sha256": "02f86f0dcd126f38257fc941c4cd73dc6240502d0a0c31472733520587588497",
+    "fixed_stratum_registry_sha256": "f10609cc2e11790364e343ca30d6db4e16ecfb1d082cde3037d32b722ebec16f"
+  },
+  "affine_first_moving": {
+    "owners": 10,
+    "directions_per_owner": 5,
+    "basis_cases": "50/50",
+    "dense_affine_span_controls": "2/2",
+    "generator_edges": "100/100",
+    "geometry_edges": "100/100",
+    "moving_shiab_family_edges": "800/800",
+    "residual_edges": "100/100",
+    "moving_primalizer_edges": "100/100",
+    "action_derivative_edges": "100/100",
+    "trace_nonzero_cases": "50/50",
+    "action_nonzero_cases": "20/50",
+    "old_forward_lift_control": "PASS"
+  },
+  "selected_size3_orbit": {
+    "selection_rule": "LEXICOGRAPHICALLY_FIRST_CANONICAL_REPRESENTATIVE_WITH_ORBIT_SIZE_3_BEFORE_EVALUATOR_OUTPUT",
+    "representative": {
+      "owner_pair": [0, 0],
+      "quartic_point": [0, 0, 0, 4]
+    },
+    "labels": [
+      {"owner_pair": [0, 0], "quartic_point": [0, 0, 0, 4], "mixed_action": "-727/144"},
+      {"owner_pair": [4, 4], "quartic_point": [0, 0, 0, 4], "mixed_action": "-727/144"},
+      {"owner_pair": [7, 7], "quartic_point": [0, 0, 0, 4], "mixed_action": "107/9"}
+    ]
+  },
+  "coverage": {
+    "joint_labels": 1925,
+    "canonical_representatives": 380,
+    "fixed_representatives_predecessor": 2,
+    "size_three_representatives_total": 115,
+    "new_size_three_representatives_certified": 1,
+    "durable_representatives_certified": 3,
+    "remaining_representatives": 377,
+    "representative_coverage": "3/380",
+    "selected_orbit_coverage": "3/3_LABELS"
+  },
+  "exact_checks": {
+    "dependency_hashes": "2/2",
+    "selected_orbit_generator_edges": "6/6",
+    "selected_orbit_nonself_edges": "5/6",
+    "geometry_slots": "24/24",
+    "Phi1_slots": "24/24",
+    "Phi2_slots": "24/24",
+    "Hodge_slots": "24/24",
+    "residual_slots": "24/24",
+    "moving_primalizer_slots": "24/24",
+    "action_slots": "24/24",
+    "mixed_residual_liveness": "3/3",
+    "mixed_primalizer_liveness": "3/3",
+    "mixed_action_liveness": "3/3",
+    "moving_Hodge_product_rule_controls": "3/3",
+    "selected_orbit_old_forward_lift_control": "PASS",
+    "summary": "33 exact + 2 source + 9 type + 7 planted = 51 PASS"
+  },
+  "constraint_parameter_ledger": {
+    "fitted_parameters": 0,
+    "raw_transport_equalities": 1368,
+    "independent_constraint_rank": "NOT_COMPUTED",
+    "physical_surplus": "NOT_APPLICABLE_AT_EVALUATOR_TRANSPORT_SCOPE",
+    "disposition": "NO_REFIT_CERTIFICATE_WITH_RAW_CHECK_COUNT_ONLY__NO_INDEPENDENCE_OR_PHYSICS_SURPLUS_CLAIM"
+  },
+  "admission": {
+    "finite_S3_action": "ADMITTED",
+    "universal_owner_conormal_geometric_transport": "CERTIFIED",
+    "affine_first_moving_evaluator_transport": "CERTIFIED_ALL_10_OWNERS_AND_AFFINE_DIRECTIONS",
+    "full_evaluator_transport": "CERTIFIED_3_OF_380_REPRESENTATIVES",
+    "remaining_full_evaluator_transport": "OPEN_377_OF_380_REPRESENTATIVES",
+    "complete_I1_A4": "NOT_PROMOTED",
+    "complete_I2B_C4": "NOT_PROMOTED",
+    "multiindex_Green_Helmholtz": "NOT_ADMITTED"
+  },
+  "reduction_engine": "ADMITTED_NOT_PROMOTED",
+  "unconditional_fallback_cells_per_bank": 1925,
+  "non_regression": {
+    "gravity": "UNCHANGED",
+    "gauge": "UNCHANGED",
+    "odd_matter": "UNCHANGED",
+    "Higgs_Yukawa": "UNCHANGED",
+    "quantum_domain": "UNCHANGED",
+    "cosmology": "UNCHANGED",
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED"
+  },
+  "evidence": {
+    "probe": "tests/channel-swings/pw2fr2b2b2i2_affine_first_size3_full_evaluator_probe.py",
+    "exploration": "explorations/pw2fr2b2b2i2-affine-first-size3-full-evaluator-certificate-2026-08-05.md",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-05-pw2fr2b2b2i2-affine-first-size3-review.md",
+    "scope_audit": "process_gates/pw2fr2b2b2i2_affine_first_size3_full_evaluator_scope_audit.py"
+  },
+  "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-377-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-THEN-SEPARATE-C4-BANKS"
+}

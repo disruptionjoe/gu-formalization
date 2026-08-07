@@ -1,0 +1,20 @@
+{
+  "artifact_type": "pw2b_source_composed_action_order_registry",
+  "run_id": "RUN-20260802-170319-gu-formalization-pw2b-literal-native-action",
+  "status": "SOURCE_ORBIT_VARPI_ORDER2_ATTAINABLE_LITERAL_DERIVED_K_MOVING_SHIAB_COEFFICIENT_OPEN",
+  "transgression_identity": "F_B+1/2 D_B T+1/3 q(T,T)=1/2(F_A+F_B)-1/6 q(T,T)",
+  "endpoint_scope": "A:=B+T is the repository algebraic endpoint; it is not identified with the draft's separately named A_omega",
+  "independent_dK": "REJECTED_ON_COMPATIBLE_POINTWISE_CURVATURE_ORBIT_JET",
+  "sector_orders": {
+    "varying_varpi_fixed_epsilon_metric": {"density_ceiling": 1, "euler_ceiling": 2, "green_layers": 1, "attainable_euler_order": 2, "grade": "EXACT_NONCOMMUTATIVE_COMPATIBLE_POINTWISE_ORBIT_JET_FIXTURE_LITERAL_DERIVED_K_MOVING_SHIAB_OPEN"},
+    "free_epsilon": {"density": 2, "euler": 4, "green_layers": 2, "grade": "ATTAINABLE_EXACT_JET_SHIFT_CONTROL_LITERAL_FULL_COEFFICIENT_OPEN"},
+    "metric": {"density_ceiling": 2, "euler_ceiling": 4, "green_layers_ceiling": 2, "grade": "STRUCTURAL_CEILING_COMPLETE_NATIVE_HESSIAN_OPEN"}
+  },
+  "ward_status": "CONSTANT_CONJUGATION_INVARIANCE_PASS_FIELD_DEPENDENT_CHAIN_NOT_A_NOETHER_IDENTITY_FULL_ROOT_WARD_OPEN",
+  "bv_status": "OPEN",
+  "domain_status": "OPEN",
+  "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "next_gate": "PW2C-LITERAL-DERIVED-K-MOVING-SHIAB-FREE-EPSILON-METRIC-WARD"
+}

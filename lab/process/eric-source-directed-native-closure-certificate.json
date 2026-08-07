@@ -1,0 +1,129 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T160344Z-eric-source-directed-native-closure",
+  "branch": "agent/weinstein-guided-source-action",
+  "verdict": "CONDITIONAL_NATIVE_CLOSURE_WITH_EXACT_POSITIVE_CONTROL",
+  "source_reconciliation": "lab/process/curt-iceberg-native-crosswalk.json",
+  "precondition_object": "C0_CHIMERIC_ZORRO_REAL_FORM_BRIDGE: construct the universal-metric sharp_h plus connection split and compare the source C=V+H* (7,7)/U(64,64) system with the active gimmel TY (9,5)/Sp(32,32;H) system; build minimal enumeration primitives, run the carrier-specific action census, and on non-equivalence port only the surviving carrier-dependent G2/G3 machinery before C1",
+  "parent_action": "I_cl[d]=I_G2[A,epsilon,g;d]+I_odd[A,epsilon,g,Psi,barPsi;d], with v=Pi_vert(A-A_LC(epsilon,g))",
+  "shared_objects": [
+    "C1_OBSERVATION_EQUATION_DUAL_AND_DOMAIN",
+    "C2_STATIONARY_STABILIZER_AND_ONE_BOSONIC_HESSIAN",
+    "C3_MINIMAL_KREIN_ODD_ACTION_AND_DERIVED_CURRENTS",
+    "C4_FROBENIUS_TRACE_REVERSED_METRIC_READOUT",
+    "C5_PREBOUNDARY_POSITIVE_MAJORANT_AND_TIME_EVOLUTION"
+  ],
+  "independent_standard_equations_inserted": 0,
+  "planted_standard_model_fixture_is_emergence_evidence": false,
+  "generation_count_claimed": false,
+  "datum_ledger": ["P1", "P2", "P3"],
+  "datum_boundary": {
+    "P1": "retained orientation/sign datum; exact consumption in the final observation packet remains to be localized",
+    "P2": "retained X-sector datum with unresolved type",
+    "P3": "retained count datum; consumed only by a future physical Fredholm/index/count readout"
+  },
+  "finite_control_boundary": "The exact fixtures establish mutual type and decoder compatibility only. They do not derive the fixtures, fields, algebra, background, spectrum, or domain on Y^14.",
+  "readouts": [
+    {
+      "id": "MAXWELL",
+      "source_callout_id": "PSC-MAXWELL",
+      "shared_parent_object": "C1+C2+C3: one-dimensional compact central stabilizer ideal whose connection image lies in the gauge-mass kernel, plus action-derived current",
+      "finite_control": "one represented abelian stabilizer direction of the planted U(2) vacuum has connection incidence in the mass kernel",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive a unique compact abelian ideal, transverse positive-residue pole, physical Hodge/Riesz map, current, domain, and zero leakage",
+      "kill": "a zero eigenvector without the stabilizer, pole, current, and domain tests"
+    },
+    {
+      "id": "YANG_MILLS",
+      "source_callout_id": "PSC-YANG-MILLS",
+      "shared_parent_object": "C1+C2+C3: reduced exact G2/G3 connection Euler map and Hessian with action-derived matter current",
+      "finite_control": "nonabelian compact bracket and broken/unbroken gauge blocks coexist in the shared Hessian",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "compute the reduced exact G2/G3 Hessian, principal symbol, Ward transport, and F^2 ablation",
+      "kill": "connection curvature or Bianchi identity relabelled as Yang-Mills dynamics"
+    },
+    {
+      "id": "EINSTEIN",
+      "source_callout_id": "PSC-EINSTEIN",
+      "shared_parent_object": "C1+C2+C4: equation-dual metric Euler covector followed by dual Frobenius trace reversal and staged physical TT reduction",
+      "finite_control": "two planted massless tensor controls coexist with exact four-dimensional symmetric-fibre trace reversal",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive exactly two positive-residue TT modes, Einstein principal symbol, nonlinear constraint closure, and universal stress coupling",
+      "kill": "any two-dimensional zero block called gravity before quotient, symbol, sign, and source tests"
+    },
+    {
+      "id": "HIGGS",
+      "source_callout_id": "PSC-HIGGS",
+      "shared_parent_object": "C2+C3: heavy vertical scalar orbit in one Hessian and the same vertical incidence in the K-paired zero-order odd channel",
+      "finite_control": "one represented U(2) doublet vacuum has orbit image equal to the three-Goldstone kernel; the same incidence generates the gauge mass and an equivariant Yukawa-orbit map",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive the weak-doublet representation, stable VEV, photon-preserving breaking, common Yukawa incidence, and mirror gap without inserting them",
+      "kill": "an arbitrary vertical scalar or fitted potential called the Higgs"
+    },
+    {
+      "id": "DIRAC",
+      "source_callout_id": "PSC-DIRAC",
+      "shared_parent_object": "C1+C3: reduced Euler Hessian of one Krein-paired odd action on Omega0+Omega1",
+      "finite_control": "exact Krein-self-adjoint operator, K-paired cross-chirality mass, current derivative, Ward variation, and domain plants",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "construct a global closed right-H domain, four-dimensional Clifford symbol, physical chiral cohomology, constraint propagation, and causal quotient",
+      "kill": "a carrier, bare Clifford multiplication, or formal adjoint without a common domain called the physical Dirac equation"
+    },
+    {
+      "id": "SCHRODINGER",
+      "source_callout_id": "PSC-SCHRODINGER",
+      "shared_parent_object": "C5: source-selected positive majorant and covariant time split after the presymplectic characteristic quotient, with BFV extension still open",
+      "finite_control": "Theta D is exactly Hilbert self-adjoint and its complex finite algebraic generator is anti-Hermitian; no right-H time evolution is claimed",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive a physical time, C_t split, connection/measure/Theta transport, BFV charge/master closure, self-adjoint covariant generator, and invariant closed domain",
+      "kill": "Theta D_Y called a time Hamiltonian before the observed time derivative is isolated"
+    },
+    {
+      "id": "WEAK",
+      "source_callout_id": "PSC-WEAK",
+      "shared_parent_object": "C2: compact three-dimensional simple factor of the pre-breaking action-selected stabilizer and its scalar-orbit incidence",
+      "finite_control": "target-coded compact su(2) bracket plus rank-three electroweak incidence and one abelian kernel",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive the compact A1 ideal, chiral odd representations, EWSB orbit, W/Z mass block, and couplings from the native stationary orbit",
+      "kill": "three matrices or a desired doublet chosen after reading the spectrum"
+    },
+    {
+      "id": "STRONG",
+      "source_callout_id": "PSC-STRONG",
+      "shared_parent_object": "C2: compact eight-dimensional simple factor of the same action-selected stabilizer",
+      "finite_control": "target-coded compact su(3) bracket with eight massless Hessian directions and basis-invariant algebra checks",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive the compact A2 ideal, positive kinetic form, odd triplet incidence, anomaly compatibility, running, and confinement scale",
+      "kill": "a hand-selected eight-dimensional subalgebra or classical factor reported as QCD"
+    },
+    {
+      "id": "DARK_ENERGY",
+      "source_callout_id": "PSC-DARK-ENERGY",
+      "shared_parent_object": "C2+C4: candidate distinct light scalar/trace Hessian mode whose dual-trace-reversed observation stress remains to be derived",
+      "finite_control": "one positive light scalar eigenmode is exact and distinct from the heavy radial scalar; no stress or stationarity is planted",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "solve the stationary scalar/trace family, derive its conserved observation stress, protected scale and amplitude, then run FLRW/PP3/DESI",
+      "kill": "Higgs reuse, pure-gauge/null mode, fitted cosmological amplitude, or PP3 used to select the state"
+    },
+    {
+      "id": "DARK_MATTER",
+      "source_callout_id": "PSC-DARK-MATTER",
+      "shared_parent_object": "C3: separate P_lum+Q_dark decomposition inside the admitted physical odd domain, distinct from C1's off-observation Q_off",
+      "finite_control": "fixed internal luminous/dark projectors decouple at zero curvature and recouple under one declared off-diagonal curvature parameter; no gap is claimed",
+      "finite_control_status": "PASS_POSITIVE_CONTROL",
+      "y14_emergence_status": "OPEN",
+      "y14_gate": "derive the complement, positive norm, gap, stability, abundance and source-owned recoupling threshold without moving the projector",
+      "kill": "dark means merely projected away or recoupling occurs by changing the observation map"
+    }
+  ],
+  "next_highest_information_swing": "Build C0's universal-metric-sharp/chimeric/Zorro metric-Clifford-real-form bridge plus minimal enumeration primitives; on the surviving carrier run the target-blind action census and port only surviving Hodge/Clifford/Krein/Shiab/Euler/Green/Ward machinery if required; then lift C1 with separate algebraic dual and Riesz adjoint and test global patch descent, Ward transport, nonlinear leakage zero, preservation of the C0-selected real/container structure (including right-H if retained), and the action-derived preboundary quotient before solving stationary backgrounds."
+}

@@ -1,0 +1,1220 @@
+{
+  "schema_version": "1.0",
+  "council_id": "POST-B2C15R3-MULTIDISCIPLINARY-COUNCIL-2026-08-02",
+  "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED_PW2FR2B2B2_NEXT",
+  "basis_revision": "56655b6181f0398d238d57ac3a1b4e3c42eb003b",
+  "latest_successor_checkpoint": {
+    "gate": "PW2F-R2B2B2I2-RESUMABLE-THIRD-UNCOVERED-SIZE6-FULL-EVALUATOR",
+    "status": "THIRD_UNCOVERED_SIZE6_CERTIFIED__DURABLE_6_OF_380__UNIVERSAL_374_OPEN__DENSE_HELDOUTS_0_OF_6_EXECUTED",
+    "earned": "the append-only ledger reconstructs and byte-pins the committed 5/380 predecessor before output-blind selection; the next representative, owners (0,0) at quartic point (0,0,3,1), has a complete six-label orbit and passes all twelve non-self generator edges with every evaluator layer at 48/48, six live mixed controls, obsolete-lift rejection, and exact mixed actions 749/144, -1499/288, 749/144, -203/288, 3379/288, and 4675/288",
+    "scope": "durable full-evaluator coverage is exactly 6/380 representatives; the other 374 remain open, six dense heldout inputs are preregistered but 0/6 executed, the reduction engine is unpromoted, the 1,925-cell fallback remains live, and both separate banks plus Green/Helmholtz remain blocked",
+    "external_datum": "P1/P2/P3 UNCHANGED AND UNUSED",
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+    "next_gate": "PW2F-R2B2B2I2-RESUMABLE-REMAINING-374-REPRESENTATIVE-FULL-EVALUATOR-COVERAGE-PLUS-EXECUTE-DENSE-HELDOUTS-THEN-SEPARATE-C4-BANKS"
+  },
+  "construction_target": "build the GU-native source action and minimal typed external datum while preserving every jointly compatible Standard Model, GR, quantum, and cosmological leg",
+  "current_state": {
+    "earned": [
+      "abstract reduced Cech descent theorem",
+      "structural induced-bundle comparator",
+      "nonzero finite declared-port action response",
+      "normalized ten-fibre section delta-current",
+      "separate descended coefficient lift and no-leakage controls",
+      "exact demonstration that A1_Z1 can cancel A2_Z0",
+      "PW1 canonical native-to-source complex extension and first-stage moving-J reverse reduction with the active-native identification separately open",
+      "PW1 exact fixed-projection curvature-return kill",
+      "PW1 full-unitary real-Krein mixed Omega0-plus-Omega1 supertranslation algebra, complex-center kill, and forced one-half algebraic affine representation",
+      "PW1 fail-closed exact selector algorithm scaffold",
+      "PW2 exact proof that reductive projection does not automatically preserve Maurer-Cartan/source-orbit integrability",
+      "PW2 structural same-dT different-symmetric-j1T and different-dK witness, with actual native K_u factorization through Alt open",
+      "PW2 symbolic/dual-number derivative reconciliation and complete order-two exceptional-locus certificate",
+      "PW2A exact abstract GL(2) co-moving gauge mechanism shaped like epsilon composition, with fixed B+T and literal source-H membership open",
+      "PW2A coefficient-one coset-curvature completion with the connection-level compensator kept as a separate PDE/domain problem",
+      "PW2A structural independent-B fourth-order Euler, formal-adjoint, two-Green-layer, and coupled-Ward control",
+      "PW2B active-real-form grade-3/11 membership and moving-Clifford-projector identities, with public-source bundle identification and actual source-coordinate Jacobian open",
+      "PW2B exact transgression normal form with minus one-sixth q(T,T) and a compatible pointwise curvature-orbit fixture making varying-varpi order two attainable with one Green layer",
+      "PW2C fixed-Q,g active source-root Frechet block, three-patch and nonconstant affine descent, literal K_full including nonzero-delta-B variation, and equal-Delta/controlled-Hodge-null discrimination",
+      "PW2C scalar dependency comparator with direct pulled Euler-Green, mixed 2/3/4 orders, 1/2/2 Green depths, Abelian Ward/preboundary, ordinary cotangent and finite Abelian BRST controls, plus a separately replayed native eight-slot rank-ten coefficient",
+      "PW2D fixed-metric covariance-completed Q-family, literal K_full, normalized transgression, and written kappa1/2 bosonic distortion-norm action jet on the actual B2C15P Y14 fixture",
+      "PW2D all thirteen coefficient-dual trace-line legs in ker Alt plus a separate repository-chosen Alt-bearing source bridge component",
+      "PW2D complete linear cancellation and quadratic Delta-only full response [0,3/8+kappa1,3/8+kappa1,0,0], including possible cancellation at kappa1=-3/8",
+      "PW2D independently differentiated projector response zero on this fixture and live Q/Phi-family tangent on four branches",
+      "PW2D structural GL2 derivative-bearing tilted cocycle and residual right nonabelian Ward with live moving-Q owner, explicit old-root Frechet adjoint, and separate graph Green layer",
+      "PW2E exact finite active grade-3/11 Shiab on elliptic, hyperbolic, and Hodge-null branches with full-basis invariant rank-8256 projector and right-H/Krein/C-plus compatibility",
+      "PW2E symbolic three-patch active coefficient descent, literal tensorial K, affine B+K, transported scalar action pairing, and grade-two contragredient covector law",
+      "PW2E actual eight-slot moving-Shiab rank ten, actual induced-Y14 LC rank ten on nonnull/null covectors, and structural fixed-varpi chain-rule/Green certificate",
+      "PW2E exact inherited top-order cancellation control showing that live fixed-A and Gamma-adjoint third-jet terms can cancel",
+      "PW2F exact zero alternation for all 140 coordinate-conormal by metric-owner induced-Y14 Levi-Civita symbol columns, with a live non-Levi-Civita plant",
+      "PW2F exact LC-alternation subroute plus hostile 129-of-140 live omitted deltaK summand; complete derived-K top order remains open",
+      "PW2F selected seven-horizontal fixed-h/fixed-Shiab rank-seven C2 bank, held-out e10 rank-ten and e0-plus-e10 rank-five non-skew C3 contributions, structural affine theorem, and formal diffeomorphism schema",
+      "PW2F-R correction that PW2F omitted the derivative-bearing Z1 metric graph; the restored ten-owner Z1 metric and LC/spin banks have exact rank ten on the base panel",
+      "PW2F-R executable q2/q3 Euler comparator C6 zero and exact four-base-conormal C5 polynomial cancellation on the exercised principal-Z1 fixed-background branch",
+      "PW2F-R exact principal-Z1 kappa1 distortion-norm C4 contribution rank ten with inertia (4,6) off the planted null conormal and exact subroute rank zero on e0 plus e3",
+      "PW2F-R2A exact action-derived noncyclic directional Euler-covector remainder and eddy candidate, with true flat-reference distortion polynomial minus15 r squared and exact gauge-co-moving-insertion conjugation witnesses",
+      "PW2F-R2A fixed-total-connection cyclic and moving action polynomials with C4 coefficients 7 kappa1 plus 6 x minus 3 and 7 kappa1 plus 8 x minus 10",
+      "PW2F-R2A exact no-universal-constant-kappa result across both finite background families plus two-layer and linearized Green certificates",
+      "PW2F-R2B1 correction that literal fixed-varpi source coordinates give deltaT=-deltaq rather than minus the full-connection variation, preserving the live (D_g Gamma)^! E_T return",
+      "PW2F-R2B1 one-graph normal-frame section/Zorro JVP cancellation for all ten Sym2 owners plus the exact curved second-base-jet pullback control",
+      "PW2F-R2B1 exact off-shell first-JVP insufficiency theorem and rank-35 all-quartic-monomial extraction/proportionality gate",
+      "PW2F-R2B2A exact rank-35 fixed-total-connection quartic comparator with three dense held-outs",
+      "PW2F-R2B2A live raw eight-slot moving-Shiab control and exact selected contracted test-background zero, with same-pipeline contracted liveness open",
+      "PW2F-R2B2A hostile Layer-0 correction: source fixed-(epsilon,varpi) deltaT=-deltaq is not the computed deltaT=-Ad(h^-1)deltaB; complete C5/C4 remains blocked",
+      "PW2F-R2B2B1 exact finite q/Gamma source split with a live minus-deltaGamma shortcut defect",
+      "PW2F-R2B2B1 repository-derived one-frame h/theta1/Bhat2 witness with independent Bhat2 assembly, curvature conjugacy, frozen and commuting controls",
+      "PW2F-R2B2B1 direct pullback equals J-star-H-J plus a live off-shell E-times-D2F return, with the on-shell control reducing to J-star-H-J",
+      "PW2F-R2B2B2A one exact active contracted moving-Shiab coefficient, complete finite ordered five-slot product rule, and separately differentiated finite I1/I2B Hessians",
+      "PW2F-R2B2B2B conditional fixed-(epsilon,varpi) active principal-Z1 metric tangent and thirteen-coordinate full residual-carrier port with exact norm 981/64",
+      "PW2F-R2B2B2B exact observed-base pre-Shiab incidence zero, hence J3 zero, I1 C5 zero, and residual-zero normal I2B C6/J3J2 C5 zero on the scoped LC branch",
+      "PW2F-R2B2B2C exact five-family off-shell I2B Hessian split with route maxima 4/4/3/3/2 and no C5 route after the observed-base J3 cancellation",
+      "PW2F-R2B2B2D complete corrected-source-tangent normal kappa1 C4 bank with seven nonzero monomial blocks, coefficient rank one, 35/35 formal-adjoint and frozen-ray Green agreement; its relaxed U4 completions are algebraic ledger witnesses rather than geometric jets",
+      "PW2F-R2B2B2E corrected symmetric-coframe nonlinear Zorro graph and dependency-complete route maxima 4/3/3/3/2, proving conditional active principal U4 zero while preserving the normal C4 bank and carrying a live C3 return",
+      "PW2F-R2B2B2F frozen-Shiab raw-density transgression comparator with exact rows (3/40,-8/25) and (-9/50,0), projective rank two, and explicit hostile-review demotion from density to Euler-operator status",
+      "PW2F-R2B2B2G exact normalized-trace transport with six full-metric moving-Phi first-slot matches, preserved negative-unit norm, five live Zorro-horizontal corrections, three live mixed trace slots, and a fail-closed full-C4 admission blocker",
+      "PW2F-R2B2B2H exact bivariate trace/Phi/Hodge/Shiab operator jet with 196 Clifford relations, both first-order API matches, Hodge square, owner swap, curvature linearity, two omission plants, and 515 live mixed coordinates",
+      "PW2F-R2B2B2H2 exact active 13-coordinate residual and moving Hodge primalizer/pairing second jet with base norm 981/64, pairing jet (981/64,0,4293/128,0), mixed I2B action -103/256, complete five-family reassembly, and three live routes",
+      "PW2F-R2B2B2H3 exact conditional local source-epsilon connection/curvature/operator orbit closure with live mixed Maurer-Cartan omission control, active curvature jet (360,132,121,121), residual jet (13,2,2,2), and invariant norm (981/64,0,0,0)",
+      "PW2F-R2B2B2H4 exact literal real-form obstruction plus public-source port evidence-scope exit, retaining the independent moving-J construction and admitting only separate conditional-active C4 banks",
+      "PW2F-R2B2B2I exact universal bank-coverage census: 55 symmetric owner pairs, 35 quartic monomials, 1,925 cells per action, accepted H/H2 coverage one shared pair/setting, parameterized formulas retained, complete-bank promotion stopped"
+    ],
+    "open": [
+      "independent repository moving-J reduction, Cech/characteristic-class sufficiency, and compatible identification with active P_nat on actual Y14 beyond the closed source-attribution scope",
+      "global co-moving descent, tame nonlinear source inverse, off-identity dexp resonance, and analytic boundary-domain inverse",
+      "native moving Alt(T), Phi_J, Dp_J, and literal full first-jet action owner",
+      "full source tangent, vertical/mixed conormals, partial-Z1 and section tangents beyond the scoped active port",
+      "bank-preserving owner-pair symmetry reduction or exact sparse/resumable universal coverage over all 55 pairs and 35 monomials, then separate conditional-active I1 A4 and I2B C4 banks before Green/Helmholtz Euler reduction, projective classification, and the live C3 return",
+      "complete lower C2 active-native metric Euler coefficient with every total-to-base metric owner, formal-adjoint Green return, kernel, and quotient rank",
+      "actual action-derived Euler covector descent beyond the earned active coefficient and grade-two representation-covector laws",
+      "higher native action jets determining whether the quadratic Delta-only degeneracy persists; D3G remains unconstructed and unearned pending the complete top-order sum",
+      "one native all-owner hatted-Euler residual right Ward/Green composition rather than the exact structural nonabelian comparator alone",
+      "action-derived BV tangent differential and physical quotient",
+      "functional observed Euler pushdown and no-leakage theorem",
+      "closed physical Krein or boundary domain",
+      "complete zero-order Standard Model and Yukawa placement",
+      "one frozen no-refit joint physics construction"
+    ],
+    "datum": "P1/P2/P3 unchanged and unused through PW2F-R2B2B2I",
+    "guided_next": "PW2F-R2B2B2I1-UNIVERSAL-OWNER-CONORMAL-COVERAGE-ENGINE-THEN-SEPARATE-C4-BANKS",
+    "alternative_next": "PW2F-R2B2B2I1-UNIVERSAL-OWNER-CONORMAL-COVERAGE-ENGINE-THEN-SEPARATE-C4-BANKS"
+  },
+  "layer0_distinctions": [
+    "public source bundle != active native bundle != reduced Spin bundle",
+    "action != Euler covector != Green current != presymplectic current != observation current != equation dual",
+    "proof witness != physical datum != dynamical field != gauge representative != provenance receipt",
+    "Cech descent != gauge uniqueness != dynamical convergence != stochastic consensus != external selection",
+    "native trace-reversed Krein fork != positive-Hilbert or block-product comparator",
+    "section current != bulk-derived decay != functional Euler pushdown",
+    "block multiplicity != chiral index != observed generation count",
+    "heuristic search lead != exact mathematical certificate",
+    "fixed-J projected displacement != co-moving epsilon/J source lift",
+    "coset curvature two-form return != h-valued connection compensator",
+    "full source displacement K_full != grade-two reduced return K_red",
+    "structural unitriangular comparator != actual source-coordinate Jacobian",
+    "Xi redundancy != left tilted kernel != residual right action != field substitution",
+    "coefficient-dual ker-Alt sector != separately declared Alt-bearing bridge sector",
+    "quadratic Delta-only fixture != all-orders bridge theorem",
+    "source epsilon != induced Levi-Civita Gamma != repository-derived h",
+    "possible scalar-comparator fourth jet != surviving active-native first-action coefficient",
+    "selected action-coefficient rank != Euler rank != quotient rank != physical rank",
+    "algebraic Z0 metric graph != derivative-bearing Z1 metric graph != partial-Z1 or section tangent",
+    "complete C4 polynomial != complete kappa1 coefficient != principal-Z1 kappa1 subroute contribution",
+    "null conormal zero of one subroute != characteristic of the complete operator",
+    "source q_g(epsilon) != full connection Gamma+q != total A=Gamma+varpi",
+    "graph value plus first JVP != off-shell pulled Hessian without the Euler-times-D2-graph term",
+    "five selected conormals != complete 35-monomial quartic polynomial",
+    "finite q/Gamma and Bhat2 witness != actual right-H/Krein induced-Y14 source graph or C5/C4",
+    "source-explicit kappa1 placement != active value/normalization != normal J-star-H-J subbank != complete off-shell kappa1 pullback coefficient",
+    "relaxed algebraic U4 completion witness != realized geometric jet != conditional active dependency-ceiling theorem",
+    "conditional active I1 quadratic-distortion U4 != distinct manuscript I2B residual-square coefficient"
+  ],
+  "lanes": [
+    {
+      "id": "INDEPENDENT_NATIVE",
+      "role": "construct the strongest trace-reversed Sym2, right-H, Krein-native geometry without requiring source attribution",
+      "rule": "may learn from Eric-source prompts but must record the resulting structure as repository-derived unless an exact source collision supports it"
+    },
+    {
+      "id": "ERIC_GUIDED",
+      "role": "construct the source-described inhomogeneous gauge, tilted, distortion, action, and observation architecture",
+      "rule": "every decisive pass or kill receives SOURCE-CONFIRMS, SOURCE-CORRECTS, or SOURCE-SILENT"
+    },
+    {
+      "id": "CURT_COMPARATOR",
+      "role": "rival interpretation and recovery checklist inside the Eric lane",
+      "rule": "formally separate; no third-lane promotion unless TG-1 AND TG-2 AND TG-3"
+    }
+  ],
+  "specialist_lenses": [
+    {
+      "id": "S01",
+      "persona": "symplectic and Poisson geometer",
+      "sees": "the action should generate a covariant presymplectic current, moment-map constraint, and canonical observation relation",
+      "missing": "source-to-native functor, reduced covariant phase space, boundary moment map, canonical observation graph",
+      "would_change": "derive the quotient from Noether/BFV instead of guessing algebraic projectors; postpone one-time Hamiltonian reduction",
+      "exact_boundary": "double-coset language is not yet a Hamiltonian quotient"
+    },
+    {
+      "id": "S02",
+      "persona": "BV/BRST and derived variational geometer",
+      "sees": "the rank-128 Jordan image may be gauge only if the written action derives the corresponding tangent differential",
+      "missing": "complete owner variation, nilpotent differential, boundary/corner return, quotient cohomology",
+      "would_change": "assemble the full action graph before searching another projector",
+      "exact_boundary": "a matching rank is not a BV differential"
+    },
+    {
+      "id": "S03",
+      "persona": "hyperbolic and Krein PDE analyst",
+      "sees": "the unreduced positive symmetrizer cone is empty, so quotient and complete symbol precede positivity",
+      "missing": "quotient principal symbol, common Green domain, constraint propagation, Lorentz-section evolution theorem",
+      "would_change": "test ordinary Lorentzian Cauchy evolution after quotient, retaining the ultrahyperbolic boundary route as a distinct source-qualified problem",
+      "exact_boundary": "a positive majorant or maximal-dissipative domain cannot be supplied by P1/P2/P3"
+    },
+    {
+      "id": "S04",
+      "persona": "Clifford, quaternionic, and real-form representation theorist",
+      "sees": "the toy SL2-to-Sp4 descent is not the actual Spin(9,5)-to-Sp(32,32;H) port",
+      "missing": "actual Hom-space census, invariant-form comparison, transition intertwiners, native Alt basis",
+      "would_change": "reduce searches to legal equivariant bases before any raw matrix enumeration",
+      "exact_boundary": "complexified compatibility does not prove a real right-H Krein morphism"
+    },
+    {
+      "id": "S05",
+      "persona": "sheaf, groupoid, and cohomological descent specialist",
+      "sees": "local split maps, global objects, and unique physical orbits are three different gates",
+      "missing": "actual atlas obstruction classes, pi0 of the admissible-object groupoid, physical versus gauge arrows",
+      "would_change": "compute existence, torsor size, and H1/H2 obstructions before discussing selection",
+      "exact_boundary": "RL equals identity locally does not imply global descent or no leakage"
+    },
+    {
+      "id": "S06",
+      "persona": "topologist and KO/index specialist",
+      "sees": "P1 and P3 can act only after a natural map reaches an orientation component or index problem of the same type",
+      "missing": "typed map from observation/domain components to P1, type of P2, physical rolled complex for P3",
+      "would_change": "delay datum consumption until quotient cohomology exposes a discrete torsor or index slot",
+      "exact_boundary": "three carrier blocks are not three generations"
+    },
+    {
+      "id": "S07",
+      "persona": "Standard Model, GR, and cosmology phenomenologist",
+      "sees": "the construction must eventually satisfy all legs on one frozen action, observation, state, domain, and parameter packet",
+      "missing": "zero-order Yukawa placement, gauge/current dictionary, anomaly closure, stationary background, stress and observable maps",
+      "would_change": "maintain a thin end-to-end smoke fixture during every wave, but reserve claims and fitting for a held-out final leg bank",
+      "exact_boundary": "narrative recovery labels are not recovered equations"
+    },
+    {
+      "id": "S08",
+      "persona": "ZK and proof-systems specialist",
+      "sees": "the program needs a statement-witness-verifier ledger for every construction",
+      "missing": "classification of witness as physical datum, field, gauge representative, or proof certificate",
+      "would_change": "make the actual source-to-native port proof-carrying and bind certificates to real representation data",
+      "exact_boundary": "hashes certify bytes and polynomial certificates certify finite identities; neither proves analytic truth"
+    },
+    {
+      "id": "S09",
+      "persona": "distributed systems, metastability, and Hashgraph specialist",
+      "sees": "Cech descent is exact gluing; consensus is relevant only after an actual finite admissible choice set exists",
+      "missing": "typed state, validity, equivalence, update, safety, liveness, and finality interface",
+      "would_change": "use Hashgraph-like machinery only for provenance and test action-derived self-stabilization only after quotient/domain",
+      "exact_boundary": "Snowball confidence cannot select a geometrically symmetric branch or repair a cocycle"
+    },
+    {
+      "id": "S10",
+      "persona": "geometric deep-learning and neural-operator specialist",
+      "sees": "typed neural inverse design can rank legal contraction graphs and exceptional fixtures",
+      "missing": "a grammar that enforces degree, bundle, right-H, Krein, covariance, and source-owner constraints",
+      "would_change": "use learned ranking only inside the symmetry-reduced legal ansatz space",
+      "exact_boundary": "every proposed expression returns to exact equivariance, Ward, Green, descent, and no-leakage tests"
+    },
+    {
+      "id": "S11",
+      "persona": "statistics and machine-learning engineer",
+      "sees": "active rational fixture selection, leverage scores, sparse interpolation, and automatic differentiation can replace large blind sweeps",
+      "missing": "physical quotient identifiability, sealed discovery and confirmation sets, exact rank-stratum certificates",
+      "would_change": "optimize expected information gain per exact verification cost and rationally reconstruct every lead",
+      "exact_boundary": "Bayesian scheduling is useful; a probability that GU is true is not calibrated"
+    },
+    {
+      "id": "S12",
+      "persona": "counterfactual and causal-inference specialist",
+      "sees": "lane comparisons need frozen interventions rather than simultaneous refits",
+      "missing": "assumption-to-map-to-equation-to-observable DAG and shared held-out outcome bank",
+      "would_change": "intervene one fork at a time: bundle port, Alt port, carrier, reference connection, observation mechanism, or pairing",
+      "exact_boundary": "causal language is descriptive until invariance and intervention maps are mathematically constructed"
+    },
+    {
+      "id": "S13",
+      "persona": "scientific experimental-design methodologist",
+      "sees": "the best swing is the one that splits the live hypothesis set with the least irreversible construction cost",
+      "missing": "predeclared hypothesis bank, outcome routing, and comparable cost/information accounting",
+      "would_change": "score swings by expected elimination, dependency unlock, reuse, and exact-verification cost",
+      "exact_boundary": "the score schedules work; it never decides a theorem"
+    }
+  ],
+  "engineering_personas": [
+    {
+      "id": "E01",
+      "persona": "ML platform and inverse-design engineer",
+      "shop_floor_view": "compile the legal GU action grammar into an intermediate representation before optimizing anything",
+      "sees_missing": "one executable graph from T through Alt, K, connection, curvature, Shiab, action, Euler, quotient, and observation",
+      "would_do": "add automatic differentiation, active fixture selection, rational reconstruction, and exact verifier hooks around that graph",
+      "tripwire": "a learned candidate crosses a type, real-form, right-H, Krein, or ownership boundary"
+    },
+    {
+      "id": "E02",
+      "persona": "industrial statistician and reliability engineer",
+      "shop_floor_view": "separate design, qualification, and acceptance tests and never reuse a tuned fixture as confirmation",
+      "sees_missing": "gauge-quotiented identifiability, power against rival lanes, sealed holdouts, and failure-mode prevalence",
+      "would_do": "run D-optimal exact fixture selection, freeze coefficients, then report rank-based constraint surplus with confidence only for numerical conditioning",
+      "tripwire": "training constraints are counted again as successful predictions"
+    },
+    {
+      "id": "E03",
+      "persona": "multiphysics and nonlinear PDE simulation engineer",
+      "shop_floor_view": "a solver is only as correct as its assembled residual, Jacobian, boundary operators, and convergence study",
+      "sees_missing": "full order-two owner assembly, manufactured solutions, mesh/patch convergence, and a common domain",
+      "would_do": "differentiate the entire residual graph, compare automatic and symbolic Jacobians, and use exact manufactured fixtures before spectral claims",
+      "tripwire": "A1_Z1 or moving-coefficient terms are omitted because a principal subblock looks promising"
+    },
+    {
+      "id": "E04",
+      "persona": "pressure-vessel and structural-integrity engineer",
+      "shop_floor_view": "trace every load through material, joint, support, and boundary; a local stress calculation does not certify the vessel",
+      "sees_missing": "a complete load path from the trace-reversed fibre through Krein pairing, Green flux, observation support, and four-dimensional stress",
+      "would_do": "build an energy/flux balance sheet and test every interface under sign reversal, null loading, and worst-case coupled modes",
+      "tripwire": "a positive block metric is installed as an unpriced reinforcement that changes the native structure"
+    },
+    {
+      "id": "E05",
+      "persona": "flight-control and safety-critical systems engineer",
+      "shop_floor_view": "before tuning a controller, prove the plant is observable, controllable on the allowed subspace, and safe under hidden-mode excitation",
+      "sees_missing": "observability of the bulk physical quotient from the section and invariance of the no-leakage manifold",
+      "would_do": "compute observability/hidden-mode matrices after BV reduction and derive any stabilizing flow from the action rather than hand tuning it",
+      "tripwire": "the chosen observation section suppresses an unstable non-gauge mode"
+    },
+    {
+      "id": "E06",
+      "persona": "distributed-systems and site-reliability engineer",
+      "shop_floor_view": "name the nodes, state, fault model, invariants, recovery rule, and source of truth before using consensus language",
+      "sees_missing": "a distinction between patch gluing, physical equivalence, convergence, and final selection in the operational interface",
+      "would_do": "keep deterministic Cech checks in the critical path, use a DAG for provenance, and inject patch/gauge/update-order faults in tests",
+      "tripwire": "eventual agreement is treated as proof that the agreed object is geometrically valid"
+    },
+    {
+      "id": "E07",
+      "persona": "ZK protocol and proof-circuit engineer",
+      "shop_floor_view": "write the statement and public inputs before designing the witness or circuit",
+      "sees_missing": "a machine-readable relation tying actual bundle transitions, real structures, jets, and action variation to each certificate",
+      "would_do": "emit proof-carrying construction packets with canonical serialization and independent semantic checks",
+      "tripwire": "a certificate proves the toy comparator while the prose claims the active native bundle"
+    },
+    {
+      "id": "E08",
+      "persona": "computational-geometry and mesh infrastructure engineer",
+      "shop_floor_view": "coordinate-free intent still needs actual charts, transitions, singularity handling, and refinement-invariant computations",
+      "sees_missing": "a representative Y14 atlas, observation-section mesh, induced bundle transitions, and patch-independent numerical fixtures",
+      "would_do": "build a small real atlas testbed and require the same result under remeshing, recharting, and non-unimodular fibre transformations",
+      "tripwire": "an SL2-to-Sp4 structural demo becomes a stand-in for the actual atlas"
+    },
+    {
+      "id": "E09",
+      "persona": "scientific-instrumentation and data-acquisition engineer",
+      "shop_floor_view": "an observable requires a calibrated chain from physical state through sensor response to recorded quantity",
+      "sees_missing": "a complete observation transfer function from Y fields and Euler covectors to X observables, including support, normalization, bandwidth, and null channels",
+      "would_do": "treat the section/current/domain packet as an instrument specification and run injection-recovery tests with sealed signals",
+      "tripwire": "a calibration constant or projection matrix silently carries the desired Standard Model answer"
+    },
+    {
+      "id": "E10",
+      "persona": "systems-integration and verification engineer",
+      "shop_floor_view": "maintain a thin vertical slice from input geometry to one observed residual while component teams deepen their modules",
+      "sees_missing": "an interface-control document, maturity levels per map, and an end-to-end regression that fails when any owner is stubbed",
+      "would_do": "freeze one nonphysical smoke fixture now, propagate it through every wave, and reserve a separate held-out physical fixture bank for final validation",
+      "tripwire": "ten locally impressive components cannot connect without adapters added at integration time"
+    }
+  ],
+  "council_synthesis": {
+    "continue": [
+      "construction-first source-action and datum work",
+      "Eric source collision before decisive Eric-lane passes or kills",
+      "native trace-reversed and Krein typing",
+      "P1/P2/P3 non-use until a natural target slot exists",
+      "planted and held-out exact controls"
+    ],
+    "change_now": [
+      "split R4 into an actual port gate and a full-jet/operator gate",
+      "run guided B2C2C interface construction in parallel with the port gate",
+      "derive the physical quotient from the action Noether/BFV complex before returning to positivity",
+      "make observation a canonical relation and calibrated transfer chain after quotient",
+      "add one thin vertical integration fixture throughout the campaign",
+      "use ML and statistics for legal-basis reduction, fixture selection, and conjecture generation only"
+    ],
+    "stop_for_now": [
+      "raw brute-force searches before an equivariant basis census",
+      "new algebraic projectors intended to guess the physical quotient",
+      "consensus or metastability as a selector before a finite admissible torsor exists",
+      "Hamiltonian, particle-spectrum, or cosmological fitting before quotient, observation, and domain",
+      "counting source-selected fixtures as held-out confirmation"
+    ],
+    "minority_positions": [
+      "the PDE lens wants the complete effective symbol before full covariant-phase-space reduction",
+      "the symplectic lens would prefer the native action port before any phase-space language",
+      "the engineering lenses want an end-to-end smoke fixture immediately even though no physics claim can yet attach to it"
+    ],
+    "resolution": "Wave 1 ports and defines interfaces, Wave 2 closes the full operator, Wave 3 derives the quotient and covariant phase space, and a nonphysical integration fixture runs through all three without being used as scientific confirmation."
+  },
+  "waves": [
+    {
+      "id": "PW1",
+      "status": "CONDITIONAL_PASS_PW2_ENABLED",
+      "title": "Actual real-form port plus guided action-interface rendezvous",
+      "depends_on": [],
+      "objective": "construct or obstruct the literal source-to-native principal-bundle morphism and native legal Alt basis while the guided B2C2C path constructs the mixed-carrier action representation and Ward-owner interface",
+      "deliverables": [
+        "actual transition and overlap intertwiners or a real-form obstruction theorem",
+        "right-H, Krein, trace-reversal, bracket, pairing, and moving-projection preservation ledger",
+        "symmetry-reduced legal basis for native Alt(T)",
+        "shared interface contract between R4 and B2C2C",
+        "thin nonphysical end-to-end smoke fixture"
+      ],
+      "information_gain_question": "Do the source-guided and native constructions inhabit one actual real bundle and action interface, or only analogous complexified/reduced models?",
+      "parallel_swings": [
+        "PW1-A literal source/native port and Cech obstruction census",
+        "PW1-B guided mixed-carrier super-IG representation and Ward ownership",
+        "PW1-C legal Hom-space and active rational-fixture search"
+      ],
+      "kill_conditions": [
+        "incompatible real-form invariant, characteristic class, inertia, bracket, or overlap cocycle",
+        "the guided action needs an owner absent from both source and native field spaces",
+        "every legal native Alt candidate fails exact equivariance or right-H/Krein compatibility"
+      ],
+      "route_if_killed": "retain two honest construction branches; an obstruction to source attribution does not kill the independent-native geometry",
+      "ml_role": "rank exact legal candidates and choose discriminating patches; no learned verdict",
+      "exit": "one actual common port or an exact branch-separation theorem",
+      "review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": ["real-form/reductive geometry", "super-IG/variational Ward", "statistics/ML exact design"],
+          "preregistration_digest": "sha256:6485363c224c79150ab1ad16ea14fa9c039452a091aef8c16f76639be8714f04"
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": ["real-form/descent", "super-IG/variational Ward", "experiment leakage/integration"],
+          "must_fix": [],
+          "repaired": [
+            "two-stage source reduction versus active-native identification",
+            "operator-J versus coefficient-C Cech convention",
+            "curvature one-half wedge convention",
+            "unitary-center kill of complex bracket and real-Krein source replacement",
+            "algebraic odd coordinate versus physical-field map",
+            "independent-Euler logical plant versus written-action Ward computation",
+            "selector algorithm scaffold versus typed oracle",
+            "visible reserved controls versus sealed qualification bank",
+            "content-derived hashes, duplicate-content rejection, exact scalar validation, and payload cross-binding"
+          ],
+          "scoped_open": [
+            "global Y14 H-reduction and active P_nat isomorphism",
+            "physical iota_odd and complete written-action Ward/BV identity",
+            "full moving first jet, action graph, quotient, and domain"
+          ],
+          "rerun_digests": [
+            "sha256:68f22481591a8b590a8eea50fb7c2d9fec87e556ecb6829975060a05fb35e33e => 61 exact + 6 planted = 67 PASS",
+            "sha256:ba06a785986e6b22041ecfc9a0b1298680f49c3cdfa8b4a37487a03fe06f3326 => 26 exact + 11 planted = 37 PASS",
+            "sha256:55be3bb0364cd72ede3358d59e030a20d5d74b569379622158eeffa1cd3a7891 => 47 exact + 11 planted = 58 PASS"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PW2",
+      "status": "PW2FR2B2B1_FINITE_SOURCE_SPLIT_COMOVING_SECOND_GRAPH_PASS_COMPLETE_NATIVE_C5_C4_BLOCKED",
+      "title": "Full first-jet action graph and effective order-two operator",
+      "depends_on": ["PW1"],
+      "objective": "construct the native j1T/Spencer owner, moving Alt and K, substitute them into the written action, and assemble every first-variation, Ward, Green, and order-two term",
+      "deliverables": [
+        "covariant full-jet and holonomicity diagram",
+        "single executable graph T-to-Alt-to-K-to-connection-to-curvature-to-Shiab-to-action-to-Euler",
+        "complete A2(2 partial Z1 plus Z0) plus A1 Z1 and moving-coefficient operator",
+        "symbolic-versus-automatic derivative agreement",
+        "generic rank strata and exceptional-locus certificate"
+      ],
+      "information_gain_question": "Does the promising finite action response survive the actual native port and complete coefficient ownership?",
+      "parallel_swings": [
+        "PW2-A native full-jet port and split-action substitution",
+        "PW2-B automatic/symbolic variational graph reconciliation",
+        "PW2-C active exact fixture selection for cancellations and rank strata"
+      ],
+      "kill_conditions": [
+        "two holonomic source-equivalent openings give inequivalent nongauge Euler maps",
+        "the native action response vanishes generically or only survives on an exceptional locus",
+        "Ward or Green closure requires an unowned coefficient or boundary term"
+      ],
+      "route_if_killed": "identify the exact missing jet owner or action term and return to PW1; do not fit the desired response",
+      "ml_role": "automatic differentiation, sparse factor conjecture, leverage-based fixtures, exact rational reconstruction",
+      "exit": "PW2F-R2B2A constructs a sound rank-35 partial fixed-total-connection comparator. R2B2B1 now constructs a finite exact q/Gamma split and one repository-derived co-moving Bhat2 with a live off-shell E-times-D2F return, but it does not instantiate the native induced-Y14 graph or determine C5/C4. R2B2B2 must port the dependency, account for five coefficient slots, establish same-pipeline moving liveness, and compute I1 and I2B separately. C3, lower C2, public port, analytic domain, quotient, observation, and physics remain blocked.",
+      "result": {
+        "source_domain": "FULL_MAURER_CARTAN_DISPLACEMENT_FLAT__REDUCTIVE_PROJECTION_CAN_HAVE_NONZERO_CURVATURE__PROJECTED_B_PLUS_K_NOT_AUTOMATICALLY_B_EPSILON_K",
+        "full_jet": "STRUCTURAL_POINTWISE_COMPARATOR_HAS_TWO_HOLONOMIC_GERMS_SAME_T_AND_dT_DIFFERENT_SYMMETRIC_J1T_AND_dK__ACTUAL_NATIVE_KU_FACTOR_THROUGH_ALT_OPEN__J2T_TO_J1K_PROLONGATION_PRECEDES_EULER_GREEN",
+        "moving_reduction": "DP_J_AND_COSET_CURVATURE_RETURN_LIVE__FIXED_PROJECTION_KILLED",
+        "derivative": "EXACT_SYMBOLIC_AND_FRACTION_DUAL_NUMBER_ACTION_VALUE_DIRECTIONAL_AND_SIX_JET_COORDINATE_PARTIALS_AGREE__NOT_EULER_GREEN_PACKET",
+        "order_two": "C3_ZERO__C2_R_EQUALS_DIAG_MINUS_R_ZERO__GENERIC_RANK1_ON_D_R__RANK0_ON_V_R__A2Z0_FALSE_POSITIVE_AT_R0",
+        "native_promotion": "STOPPED_BY_SOURCE_DOMAIN_AND_ACTIVE_PORT",
+        "external_datum": "P1_P2_P3_UNCHANGED_AND_UNUSED",
+        "pw2a_source_lift": "ABSTRACT_GL2_EPSILON_SHAPED_COMPOSITION__GENERIC_MOVING_INVOLUTION__B_PRIME_PLUS_T_PRIME_FIXED__NONZERO_BACKGROUND_CURVATURE_CONJUGACY__LITERAL_SOURCE_H_AND_NESTED_NATIVE_REDUCTIONS_NOT_EVALUATED",
+        "pw2a_compensator": "COSET_CURVATURE_RETURN_COEFFICIENT_FORCED_ONE__NOT_A_CONNECTION_ONE_FORM__H_ONLY_CONNECTION_REPAIR_REMAINS_NONLINEAR_PDE_COHOMOLOGY_HOLONOMY_DOMAIN_PROBLEM",
+        "pw2a_independent_B": "POLYNOMIAL_FIXTURE_LIVE_DBK_DTK_ADJOINT_ATTAINABLE_ORDER4_DERIVATIVE_AFFINE_ORDER2_TWO_GREEN_LAYERS__SEPARATE_WARD_COMPARATOR_PASS__ROOT_WARD_NOT_EVALUATED__CONNECTION_SIZED_FIELD_NOT_SOURCE_SELECTED",
+        "pw2b_active_bridge": "RIGHT_H_KREIN_CPLUS_GRADE3_11_MEMBERSHIP_AND_MOVING_PROJECTOR_PASS__PUBLIC_SOURCE_U77_TO_ACTIVE_PMIX_SP_SPIN95_BUNDLE_PORT_AND_ACTUAL_SOURCE_JACOBIAN_OPEN",
+        "pw2b_connection_types": "K_FULL_EQUALS_H_INVERSE_D_B_H_DISTINCT_FROM_DELTA_ONLY_GRADE2_K_RED__HODGE_NULL_K_RED_ZERO_WITH_LIVE_PROJECTOR_MOTION__NO_K_FULL_VANISHING_CLAIM",
+        "pw2b_action_order": "EXACT_MINUS_ONE_SIXTH_TRANSGRESSION_NORMAL_FORM__COMPATIBLE_POINTWISE_CURVATURE_ORBIT_IDENTITY_SHIAB_FIXTURE_VARPI_ORDER2_ATTAINABLE_ONE_GREEN_LAYER__LITERAL_DERIVED_K_MOVING_COEFFICIENT_OPEN",
+        "pw2c_source_jacobian": "FIXED_Q_G_ACTIVE_IDENTITY_GERM_SOURCE_ROOT_BLOCK_AND_FINITE_MODE_INVERSE_PASS__TRANSPORTED_Q_METRIC_OFF_IDENTITY_DEXP_INTERVAL_DOMAIN_SAME_SOBOLEV_TAME_NONLINEAR_AND_PUBLIC_BUNDLE_PORT_OPEN__THREE_PATCH_GROUP_AND_NONCONSTANT_AFFINE_DESCENT_PASS_WITH_HOSTILE_LOCAL_DEFECT",
+        "pw2c_full_connection": "K_FULL_EQUALS_DEXP_MINUS_U_DB_U_AND_DIRECT_TRANSFORMED_CONNECTION__CURVATURE_CONJUGACY_AND_NONZERO_DELTA_B_VARIATION_PASS__EQUAL_DELTA_AND_CONTROLLED_ZERO_COMMUTATOR_HODGE_NULL_BRANCHES_DISTINGUISHED_FROM_K_RED__NO_COEFFICIENT_SELECTION",
+        "pw2c_action_ward_cotangent": "SCALAR_DEPENDENCY_COMPARATOR_DIRECT_PULLED_EULER_GREEN_PASS__MIXED_ORDERS_2_3_3__3_4_4__3_4_4__GREEN_DEPTHS_1_2_2__SCALAR_TOP_RANK2_WITH_PLANTED_ABELIAN_GAUGE_NULL__NONVACUOUS_WARD_PREBOUNDARY_ORDINARY_COTANGENT_AND_FINITE_ABELIAN_BRST_COMPARATORS_PASS__ACTUAL_NATIVE_EIGHT_SLOT_RANK10_REPLAY_SEPARATE_NOT_ASSEMBLED__GRADED_BV_OPEN",
+        "pw2d_transported_shiab": "ACTUAL_B2C15P_Y14_CURVATURE__CORRECT_DQ_MINUS_S_ADF_EQUALS_MINUS_AD_S_IDENTITY__EXPLICIT_TRANSPORTED_GRADE_PROJECTOR_RESPONSE_ZERO__Q_PHI_FAMILY_LIVE4_AND_FROZEN_Q_PHI_DEFECTS4__FINITE_SECOND_ORDER_NATIVE_OPERATOR_PUBLIC_PORT_AND_THREE_PATCH_DESCENT_OPEN",
+        "pw2d_alt_action_coupling": "ALL13_TRACE_LINE_COEFFICIENT_DUAL_LEGS_LIE_IN_KER_ALT__SEPARATE_REPOSITORY_CHOSEN_LEXICOGRAPHIC_SOURCE_LEG_SUPPLIES_NONZERO_ALT_BRIDGE",
+        "pw2d_native_action": "NORMALIZED_MINUS_ONE_SIXTH_TRANSGRESSION__FIXED_METRIC_COVARIANCE_COMPLETED_S_ADIC_JET_INCLUDES_KAPPA1_OVER2_MASS__LINEAR_ALL_ZERO__CURVATURE_SECOND_0_3OVER8_3OVER8_0_0__MASS_NORM_SECOND_0_2_2_0_0__FULL_SECOND_0_3OVER8_PLUS_KAPPA1_3OVER8_PLUS_KAPPA1_0_0__DELTA_ONLY_AND_CAN_CANCEL_AT_KAPPA1_MINUS3OVER8__NO_SELECTION",
+        "pw2d_metric_owner": "SEPARATE_ZERO_JET_BANK_ALL_EIGHT_NATIVE_SLOTS_LIVE__TEN_OWNER_COEFFICIENT_RANK10__FOUR_FROZEN_ACTION_PAIRING_RETURNS_NONZERO__NO_ACTION_EULER_RANK_OR_MIXED_BRIDGE_METRIC_DERIVATIVE__FULL_Z0_Z1_OPEN",
+        "pw2d_right_tilted_ward": "STRUCTURAL_GL2_DERIVATIVE_COCYCLE_AND_LEFT_RIGHT_TILTED_ACTIONS_PASS__LIVE_CONNECTION_DISTORTION_MOVING_Q_NOETHER_IDENTITY__BULK38_BOUNDARY_MINUS38__EQUIVARIANT_FULL_K_TENSORIAL__EXPLICIT_OLD_ROOT_DF_ADJOINT_AND_SEPARATE_GRAPH_GREEN__TOTAL_ENDPOINT_243073_OVER216000__NATIVE_ALL_OWNER_WARD_OPEN",
+        "pw2e_finite_active": "U_SQUARE_MINUS_DELTA__ELLIPTIC_HYPERBOLIC_NULL_FINITE_BRANCHES__FULL_16384_BASIS_PROJECTOR_COMMUTATION_ALL3__ACTIVE_PROJECTOR_RANK8256_WITH_BIVECTOR91__RIGHT_H_KREIN_CPLUS__SYMBOLIC_THREE_PATCH_COEFFICIENT_AFFINE_BPLUSK_DESCENT__TRANSPORTED_PAIRING_AND_GRADE2_COVECTOR_LAW__NO_PUBLIC_PORT_OR_ACTION_EULER_DESCENT",
+        "pw2e_metric_inventory": "STRUCTURAL_1D_FIXED_VARPI_CHAIN_RULE_AND_GREEN_NOT_NATIVE1274X10__ALL8_ACTUAL_MOVING_SHIAB_SLOTS_LIVE__544_BY10_RANK10__FOUR_FROZEN_PAIRINGS__ACTUAL_LC_RANK10_NONNULL_AND_NULL_AND_DIFFERS_FROM_OBSERVED_LIFT__2X2_WARD_COMPARATOR_ONLY",
+        "pw2e_top_order": "POSSIBLE_FOURTH_JET_SENSITIVITY_COMPARATOR__INHERITED_FIXED_A_AND_GAMMA_ADJOINT_LIVE_G3_TERMS_CANCEL__ACTUAL_NATIVE_TOP_ORDER_COMPOSITION_UNASSEMBLED__FOURTH_ORDER_FAMILY_ONLY_IF_NONZERO_TERM_SURVIVES",
+        "pw2f_top_order": "ALL140_Z0_LC_ALT_ZERO__OMITTED_AD_HINVERSE_MINUS1_DGB_LIVE129__SEVEN_HORIZONTAL_INCIDENCE_ZERO_BUT_E10_RANK10_AND_E0_PLUS_E10_RANK5_NON_SKEW_CONTRIBUTIONS__SELECTED_FIXED_H_FIXED_SHIAB_C2_RANK7__RAW_MOVING_SHIAB_RANK10_UNCOMPOSED",
+        "pw2fr_corrected_graph": "PW2F_OMITTED_DERIVATIVE_BEARING_Z1__RESTORED_Z1_METRIC_Z1_LC_AND_FULL_Z0Z1_LC_RANK10_ON_FIVE_BASE_CONORMALS__TEN_INDUCED_SYM2_OWNERS_NOT105_ARBITRARY_Y14_METRIC_OWNERS__LINEARIZED_METRIC_COMPATIBILITY200_PASS__COMPLETE_EXERCISED_LC_ALT_ZERO__R2B1_CORRECTION_EXECUTED_B_TOP_MUST_MEAN_Q_OR_RELATIVE_CONNECTION_ONE_FORM_FOR_DELTA_T_TOP_EQUALS_MINUS_DELTA_B_TOP__IT_IS_FALSE_FOR_B_FULL_EQUALS_GAMMA_PLUS_Q",
+        "pw2fr_euler_order": "EXECUTABLE_STRUCTURAL_Q2Q3_C6_ZERO__C5_ZERO_AS_EXACT_FOUR_BASE_CONORMAL_POLYNOMIAL_OF_EXERCISED_PRINCIPAL_Z1_FIXED_BACKGROUND_BRANCH__PRINCIPAL_Z1_KAPPA1_C4_SUBROUTE_RANKS10_10_10_10_0_AND_INERTIA4_6_OFF_NULL_CONORMAL__COMPLETE_KAPPA1_AND_TOTAL_SWERVATURE_C4_OPEN__CHARACTERISTIC_OPEN__C3_BLOCKED_BY_C4",
+        "pw2fr_source_forks": "SOURCE_EPSILON_HELD_FIXED__SAME_SOURCE_EPSILON_VARIED_INDEPENDENTLY__REPOSITORY_DERIVED_H_TANGENT_DISTINCT__NONE_SOURCE_SELECTED__SOURCE_CONFIRMS_CONNECTION_DIFFERENCE_AND_UNSPECIFIED_TOTAL_SWERVATURE_EDDY_COMPLETION__SOURCE_SILENT_ON_EDDY_FORMULA_H_SELECTOR_AND_C4_C3",
+        "pw2fr_tools": "PRIMARY37_PASS__SOURCE21_PASS__FLINT4_PASS__SAGE_STRUCTURAL_ARTIFACT_PRESENT_BUT_BINARY_UNAVAILABLE_THIS_RUN",
+        "pw2fr2a_eddy": "DIRECTIONAL_EULER_COVECTOR_REMAINDER_AND_EDDY_CANDIDATE__CYCLIC_COMPRESSED_REMAINDER_ZERO__MOVING_NONCYCLIC_REMAINDER_MINUS20__TRUE_FLAT_B_AND_DB_ZERO_REFERENCE_MINUS15_R2__CURVED_REFERENCE_MINUS5_R_TIMES_3R_PLUS1__EXACT_GAUGE_CO_MOVING_INSERTION_CONSTANT_CONJUGATION_WITNESSES__INSERTION_FROZEN_DURING_FIELD_VARIATION__PORTAL_EDDY_IDENTITY_SOURCE_SILENT__NO_DOUBLE_INSERTION",
+        "pw2fr2a_c4": "FIXED_ENDPOINT_CURVATURE_PRESERVED_ON_SEVEN_POINT_PANEL__HELDOUT_X4_PASS__CYCLIC_C4_7KAPPA_PLUS6X_MINUS3__MOVING_C4_7KAPPA_PLUS8X_MINUS10__BACKGROUND_DEPENDENT_ROOTS__NO_UNIVERSAL_CONSTANT_KAPPA_ON_EITHER_AMBIENT_INDEPENDENT_B_T_FINITE_I1B_FAMILY__ACTUAL_INDUCED_Y14_EXCEPTIONAL_LOCUS_OPEN",
+        "pw2fr2a_green_scope": "FORMAL_1D_SCALAR_JET_TWO_LAYER_FIRST_VARIATION_GREEN_LINEARIZED_FORMAL_SELF_ADJOINT_CONCOMITANT_AND_INDEPENDENT_FRECHET_PASS__NO_ANALYTIC_BOUNDARY_OR_KREIN_RIGHT_H_DOMAIN__FINITE_G2_RESTRICTION_NOT_COMPLETE_INDUCED_Y14__OBSERVATION_DELTA_CURRENT_EXCLUDED_FROM_SMOOTH_BULK",
+        "pw2fr2a_tools": "MAIN51_PASS__PINNED_SOURCE20_PASS__PW2FR_AND_G2_PREDECESSORS_PASS__THREE_HOSTILE_REVIEWS_PASS_AFTER_REPAIR",
+        "pw2fr2b1_source_tangent": "LITERAL_B_FULL_EQUALS_GAMMA_PLUS_Q__T_EQUALS_VARPI_MINUS_Q__FIXED_VARPI_DELTAT_EQUALS_MINUS_DELTAQ_NOT_MINUS_DELTAB_FULL__LIVE_DGAMMA_ADJOINT_E_T_RETURN_PRESERVED",
+        "pw2fr2b1_section_graph": "ALL10_NORMAL_FRAME_DELTA_C_EQUALS_PARTIAL_K_AND_DELTA_SECTION_THETA_ZERO__EXACT_RECONSTRUCTED_LC_HORIZONTAL_B2C15P_SECOND_BASE_JET_PULLBACK_PASS_NOT_ACTUAL_GLOBAL_GU_METRIC__FROZEN_HORIZONTAL_PRODUCT_HAS40_DEFECTS__FROZEN_SECTION_DEWITT_MIXED_HESSIAN12",
+        "pw2fr2b1_hessian_quartic_gate": "JSTAR_H_J_PLUS_E_D2GRAPH_EXACT__SAME_VALUE_FIRST_JVP_DIFFERENT_OFFSHELL_HESSIAN__35_HOMOGENEOUS_QUARTIC_MONOMIALS__RANK35_EXACT_VANDERMONDE__THREE_OWNER_PAIR_AND_THREE_HELDOUT_RECONSTRUCTIONS_PASS__ETA2_FOURTH_KILLS_FIVE_PANEL_COMPLETENESS__GLOBAL_KAPPA_REQUIRES_FLATTENED_COEFFICIENTWISE_PROPORTIONALITY",
+        "pw2fr2b1_scope": "PREREQUISITE_PASS_NOT_COMPLETE_C4__ABSTRACT_WITNESS_PROVES_D2GRAPH_UNCONTROLLED_NOT_EVERY_CANDIDATE_LIVE_OR_DEGREE4__14_SECOND_FRECHET_CANDIDATES_REQUIRE_PRINCIPAL_ORDER_AUDIT_THEN_C4_CONSTRUCTION_OR_ANNIHILATION__LOWER_ORDER_DEBT_CARRIES_TO_C3_C2_FULL_HESSIAN__SOURCE_SILENT_ON_COMPLETE_GRAPH_C4_KAPPA__P1_P2_P3_UNUSED",
+        "pw2fr2b1_tools": "MAIN44_PASS__PINNED_SOURCE22_PASS__THREE_HOSTILE_REVIEWS_PASS_AFTER_REPAIR",
+        "pw2fr2b2a_partial_comparator": "FIXED_TOTAL_CONNECTION_SYNTHETIC_DELTAT_MINUS_ADHINV_DELTAB_NOT_SOURCE_FIXED_EPSILON_VARPI__FIXED_H_LC_ZORRO_C5_SUBROUTE_ZERO__RANK35_QUARTIC_RECONSTRUCTION_AND_THREE_HELDOUTS_PASS__FIXED_SHIAB_JSTARHACTIONJ_CORE10__EIGHT_SLOT_MOVING_SHIAB_SELECTED_CONTRACTED_TEST_BACKGROUND_ZERO_WITH_INDEPENDENT_RAW_MAP_LIVE_FIXTURE__KAPPA_MASS10__PARTIAL_BANK_UNIVERSAL_KAPPA_NONE_WITH_ANY_UNIQUE_CONTROLS",
+        "pw2fr2b2a_block": "SOURCE_DELTAT_MINUS_DELTAQ_NOT_COMPUTED__H_THETA1_BHAT2_SECOND_GRAPH_OPEN__CORE_MASS_MOVING_SHIAB_BACKGROUND_NOT_ONE_COMOVING_FRAME__DENSITY_KREIN_TWO_LOWERERS_OUTER_PAIRING_UNEVALUATED__SAME_PIPELINE_CONTRACTED_MOVING_BANK_LIVENESS_OPEN__NO_INDEPENDENT_REVERSE_ADJOINT__SOURCE_DIRECTED_I1_AND_MANUSCRIPT_I2B_HESSIANS_BOTH_OPEN",
+        "pw2fr2b2a_tools": "MAIN49_PASS__PINNED_SOURCE29_PASS__SCAFFOLD118_PASS__THREE_HOSTILE_REVIEWS_PASS_REPAIRED_PARTIAL_GRADE_AND_BLOCK_COMPLETE_C4_PROMOTION",
+        "pw2fr2b2b1_source_split": "TWO_COMPONENT_B_FULL_GAMMA_PLUS_Q__T_VARPI_MINUS_Q__A_TOTAL_B_PLUS_T__TWO_FIXED_VARPI_TANGENTS_DELTA_T_MINUS_DELTA_Q_AND_DELTA_B_DELTA_GAMMA_PLUS_DELTA_Q__OLD_MINUS_DELTA_B_SHORTCUT_HAS_LIVE_MINUS_DELTA_GAMMA_DEFECT",
+        "pw2fr2b2b1_comoving_graph": "ONE_REPOSITORY_DERIVED_NILPOTENT_H_FRAME__ALL_SPLITS_AND_CURVATURE_CONJUGACY_PASS__LIVE_THETA1_MIXED_SECOND_ORBIT_AND_DTHETA__DIRECT_BHAT2_EQUALS_INDEPENDENT_FIVE_TERM_ASSEMBLY__FROZEN_AND_COMMUTING_CONTROLS_ZERO",
+        "pw2fr2b2b1_hessian_scope": "DIRECT_RESTRICT_FIRST_EQUALS_JSTARHJ_PLUS_E_D2F__OFFSHELL_SECOND_RETURN_LIVE__ONSHELL_RETURN_ZERO__FINITE_STRUCTURAL_PREREQUISITE_NOT_NATIVE_Y14_C5_C4_OR_I1_I2B",
+        "pw2fr2b2b1_tools": "MAIN37_PASS__PINNED_SOURCE26_PASS__THREE_HOSTILE_REVIEWS_PASS_AFTER_SCOPE",
+        "next_gate": "PW2F-R2B2B2-ACTUAL-NATIVE-SOURCE-GRAPH-COEFFICIENT-SLOTS-I1-I2B-C5-C4",
+        "pw2f_diffeomorphism": "STRUCTURAL_1D_FORMAL_NATURAL_LIFT_NOETHER_AND_GREEN_SCHEMA_PASS__INTERNAL_WARD_AND_XI_DISTINCT__LITERAL_ACTIVE_NATIVE_OWNER_COEFFICIENT_AND_RANK_OPEN",
+        "pw2f_tools_and_sources": "PRIMARY_PDF_CUSTODY_AND_SCOPED_ABSENCE_MANIFEST__SAGE_STRUCTURAL_AFFINE5__FLINT_RATIONAL_RANK7__RIGOROUS_ARB_INTERVAL_NONZERO_SELECTED_MINOR__NO_BACKEND_NATIVE_ASSEMBLY"
+      },
+      "review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "covariant jet and reductive geometry",
+            "variational PDE and Ward-Green ownership",
+            "exact AD, rank, statistics, and ML design"
+          ],
+          "shared_prediction": "source-coordinate integrability or the full jet/active port would stop native promotion before a fitted coefficient"
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": [
+            "source and reductive geometry",
+            "variational PDE and operator composition",
+            "source provenance and evidence leakage"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "Euclidean mnemonic replaced by the exact Lorentz Sym2 DeWitt (6,4) versus unreversed (7,3) Gram",
+            "source result narrowed from native/generic failure to failure of automatic projected source integrability",
+            "actual native K_u and admitted literal Y14 background marked not evaluated",
+            "general dT/dK comparator separated from the open native factorization through Alt",
+            "j2T to j1K holonomic prolongation and two Green boundary layers added",
+            "dual derivatives demoted from Euler owners to jet-coordinate partials",
+            "local Maurer-Cartan and infinitesimal tangent controls separated from global epsilon/holonomy descent",
+            "U(2,2) carrier membership and projector idempotence added",
+            "TOE distinguished-reference statement separated from PW2's source-lift inference",
+            "campaign, navigation, datum, and inventory surfaces propagated"
+          ],
+          "rerun_receipts": [
+            "sha256:a8bf87663a57213fe078791a9fe06ade7fe616e8ac89f941defd722db9dcdf0c => 38 exact + 7 planted = 45 PASS",
+            "sha256:5d78847271bf685346f9f8cbdee8196c080cc67fe462fc01d65d5534c700194a => 27 exact + 8 planted = 35 PASS",
+            "sha256:bd14f8c4c1ce645563e83d4ddfdd5144dab713a7da774720e0860e29db9cf0ff => 47 exact + 12 planted = 59 PASS"
+          ]
+        }
+      },
+      "pw2a_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "reductive connection geometry",
+            "variational bicomplex and PDE",
+            "exact algebra, Spencer, and cohomology"
+          ]
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": [
+            "source and reductive geometry",
+            "variational PDE and Ward-Green ownership",
+            "cohomology, evidence, campaign, and inventory"
+          ],
+          "must_fix": [],
+          "rerun_receipts": [
+            "27 algebraic exact + 14 type/registry + 3 source receipts + 14 planted = 58 PASS",
+            "21 algebraic exact + 10 type/registry + 11 planted = 42 PASS",
+            "47 exact scaffold + 13 planted = 60 PASS"
+          ]
+        }
+      },
+      "pw2b_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "variational bicomplex and hyperbolic PDE",
+            "exact Clifford representation, Spencer, and real-form algebra",
+            "symplectic and reductive connection geometry"
+          ],
+          "resolved_disagreement": "the plus-one-sixth normalization was rejected; the executable q convention gives minus one sixth"
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": [
+            "source provenance, Layer-0, reductive geometry, and active real form",
+            "variational bicomplex, Euler/Green order, and Ward/BV scope",
+            "evidence accounting, campaign propagation, controls, and inventory"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "varying-varpi fixed-epsilon/metric sector named correctly",
+            "K_full separated from Delta-only K_red",
+            "structural tangent comparator separated from the actual source-coordinate Jacobian",
+            "public-source bundle port and literal derived-K/moving-Shiab coefficient kept open",
+            "A:=B+T separated from draft A_omega",
+            "TOE trace-reversal attribution separated from repository-derived exact signatures",
+            "campaign, navigation, datum, Curt/TG, and 204-probe inventory reconciled"
+          ],
+          "rerun_receipts": [
+            "22 exact + 12 type/registry + 4 source receipts + 7 planted = 45 PASS",
+            "16 exact + 13 type/registry + 3 source receipts + 8 planted = 40 PASS",
+            "50 exact scaffold + 14 planted = 64 PASS; PW2A predecessors, strict JSON/AST, 204-probe inventory, and diff checks PASS"
+          ]
+        }
+      },
+      "pw2c_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "affine gauge cohomology, descent, and source Jacobian",
+            "Krein variational and hyperbolic PDE",
+            "symplectic and reductive differential substitution"
+          ],
+          "shared_prediction": "a useful active finite-germ construction with a public-bundle, analytic-domain, and actual native-assembly stop"
+        },
+        "post_review": {
+          "status": "COMPLETE",
+          "lenses": [
+            "affine gauge cohomology, descent, and domain",
+            "Krein variational PDE and symbol scope",
+            "symplectic, Ward, cotangent, and BV typing"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "fixed-Q_Cl fixed-metric left-trivialized source-root scope and transported-owner boundary",
+            "structural six-dimensional slice versus imported exact rank ledger",
+            "nonconstant affine overlap and off-identity dexp resonance",
+            "nonzero delta-B variation, exact inertias, controlled Hodge-null and generic Delta-zero split",
+            "scalar dependency labels versus actual native eight-slot coefficient",
+            "direct pulled Euler-Green versus open independent J_F-adjoint chain",
+            "scalar Hessian versus native symbol and physical quotient",
+            "live Ward preboundary and bulk cancellation",
+            "ordinary cotangent and Abelian BRST comparators versus open graded BV/BFV"
+          ],
+          "rerun_receipts": [
+            "28 exact + 9 type + 4 source + 12 planted = 53 PASS",
+            "28 exact + 8 type + 4 source + 12 planted = 52 PASS",
+            "strict unique-key JSON, Python syntax, 206-file inventory, and git diff checks PASS",
+            "55 exact scaffold checks + 15 planted rejections = 70 PASS"
+          ]
+        }
+      },
+      "pw2d_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact Clifford/reductive transport and Cech scope",
+            "Krein variational PDE and native coefficient ownership",
+            "symplectic residual right-tilted Ward and Frechet geometry"
+          ],
+          "shared_prediction": "a local active transported-owner and residual-Ward pass with a public-port, full-metric-Frechet, higher-jet, domain, and physical-quotient stop"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "source, real-form bundle, and transported projector",
+            "native transgression, Krein metric, and operator scope",
+            "tilted action, Ward, Frechet, and Green boundary"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "corrected the transported-owner commutator sign and removed the circular projector residual",
+            "independently proved zero explicit projector response and live Q/Phi-family motion",
+            "extended ker Alt to all thirteen actual coefficient-dual legs and moved the split to repository-derived evidence",
+            "restored the written kappa1/2 bosonic distortion-norm sector and conditional quadratic cancellation",
+            "separated the zero-jet metric coefficient rank from mixed action and Euler rank",
+            "left full Z0+Z1, finite native Q/projector, composite reality, and positive-Hilbert substitution open",
+            "constructed literal B+K covariance, the old-root Frechet adjoint, separate graph Green layer, and corrected total endpoint",
+            "qualified the nonabelian Ward as a GL2 structural comparator rather than the native all-owner theorem"
+          ],
+          "rerun_receipts": [
+            "13 exact + 4 source + 11 type + 8 planted = 36 PASS",
+            "16 exact + 4 source + 11 type + 11 planted = 42 PASS",
+            "strict unique-key JSON, three Python syntax checks, 208-file inventory, scaffold plants, and git diff checks PASS"
+          ]
+        }
+      },
+      "pw2e_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact Clifford and reductive geometry",
+            "Krein variational PDE",
+            "symplectic and tilted-group geometry"
+          ],
+          "shared_prediction": "finite active descent could close locally while the public port, full metric composition, Euler dual, Ward evaluation, and domain remained open"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "source provenance and Layer 0",
+            "reductive Clifford geometry and descent",
+            "variational PDE, Frechet, Green, and Ward"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "corrected the active projector from a moving rank-91 object to an invariant rank-8256 projector with a certified 91-dimensional bivector sector",
+            "added all-16384-basis commutation checks on three finite branches and symbolic three-patch coefficient/B-plus-K descent",
+            "kept transported pairing and representation-covector descent below action-Euler descent",
+            "separated public preferred Shiab, active repository operator, synthetic T_syn, source T_omega, and the bosonic distortion norm from the fermion/Yukawa carrier",
+            "scoped fixed-varpi to the inherited structural chain and recorded exact fixed-A versus Gamma-adjoint top-order cancellation",
+            "replaced the bare fourth-jet return with a derived scalar action/Frechet comparator and made fourth-order native construction conditional on a surviving coefficient",
+            "qualified the internal Ward as a 2x2 comparator and required every generated Green term"
+          ],
+          "rerun_receipts": [
+            "15 exact + 3 source + 10 type + 10 planted = 38 PASS",
+            "14 exact + 3 source + 11 type + 12 planted = 40 PASS",
+            "source/Layer-0, Clifford/descent, and variational-PDE hostile reviews PASS"
+          ]
+        }
+      },
+      "pw2f_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact Clifford, reductive, and Y14 geometry",
+            "variational PDE, Helmholtz, Green, and Ward ownership",
+            "primary-source provenance and Layer-0 object typing"
+          ],
+          "shared_prediction": "the unphysical top order would cancel and a live lower C2 block would survive; kill conditions required the opposite report if any owner or source collision was missing"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "hostile exact Y14 and derived-connection geometry",
+            "hostile variational PDE, Helmholtz, and Green assembly",
+            "hostile source custody, scoped silence, and Layer 0"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "retracted the inference from Alt(Dg Gamma)=0 to complete Dg h/Dg K and added the exact 129-of-140 live Ad_hinverse-minus-one DgB witness",
+            "added held-out e10 rank-ten and e0-plus-e10 rank-five non-skew connection-incidence contributions and required the fully summed C3 to satisfy coefficientwise Helmholtz skewness",
+            "narrowed the rank-seven panel to selected horizontal fixed-h/fixed-Shiab synthetic-source scope and the rank-ten bank to a separate raw total-metric coefficient inventory",
+            "demoted direct/reverse/Green and Sage to the structural affine comparator; left native Green and base-fourth order open",
+            "replaced normalized-source-pack-as-primary with author-PDF custody plus rendered/manual receipt and split positive eddy evidence from scoped source silence",
+            "recorded the unnamed TOE contraction, odot-epsilon/odot-omega fork, formal Hodge/pairing versus active Krein/Green fork, and incomplete epsilon/metric variation policy",
+            "rerouted the next gate from lower C2 to complete derived-K top order and full-Y14 C3 Helmholtz classification"
+          ],
+          "rerun_receipts": [
+            "PW2F repaired main: 18 exact + 4 source + 13 type + 9 planted = 44 PASS",
+            "PW2F formal diffeomorphism schema: 6 exact + 2 source + 7 type + 5 planted = 20 PASS",
+            "PW2F source custody/collision: 58 exact + 3 type + 8 planted = 69 PASS",
+            "Sage structural affine/Helmholtz/Green cross-check: 5 PASS",
+            "FLINT exact rational rank plus rigorous Arb interval certificate: 4 PASS"
+          ]
+        }
+      },
+      "pw2fr_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact induced Y14, reductive, and Clifford geometry",
+            "variational PDE, Helmholtz order, and Green ownership",
+            "primary-source provenance and Layer-0 tangent typing"
+          ],
+          "shared_correction": "PW2F exercised only Z0; restore derivative-bearing Z1, use ten induced Sym2 owners rather than 105 arbitrary Y14 metric owners, and evaluate C6 then C5 then C4 before C3"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "hostile exact geometry and connection incidence",
+            "hostile variational PDE and characteristic scope",
+            "hostile source custody and Layer-0 tangent policy"
+          ],
+          "must_fix": [],
+          "repaired": [
+            "added an executable q2/q3 Euler comparator rather than counting an inferred C6 statement",
+            "demoted the rank-ten object to a principal-Z1 kappa1 C4 subroute contribution and kept the complete kappa1 coefficient open",
+            "demoted e0 plus e3 from a characteristic to a null-conormal zero of one subroute",
+            "scoped the four-variable C5 polynomial to the exercised principal-Z1 fixed-background branch",
+            "typed the executed metric tangent as fixed source epsilon and varpi so delta T top equals minus delta B top",
+            "added 200 exact linearized metric-compatibility controls and a selected-h transported-output/pairing C5 comparator",
+            "corrected the UCSD files to two editions of one recording and made the four-surface/five-query absence scope executable",
+            "typed the source eddy as an unspecified total-swervature completion and left its formula and C4 effect source-silent",
+            "kept Green concomitants as boundary validation of direct versus formal-adjoint bulk coefficients rather than extra bulk C4 terms"
+          ],
+          "rerun_receipts": [
+            "PW2F-R repaired main: 15 exact + 2 source + 11 type + 9 planted = 37 PASS",
+            "PW2F-R source collision: 3 exact + 7 source + 5 type + 6 planted = 21 PASS",
+            "PW2F-R FLINT exact arithmetic backend: 4 PASS",
+            "exact geometry, variational PDE, and source Layer-0 hostile reviews PASS_AFTER_REPAIR"
+          ]
+        }
+      },
+      "pw2fr2a_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact induced Y14, reductive, and Clifford geometry",
+            "variational PDE, Hessian, exceptional-locus, and Green ownership",
+            "primary-source provenance and Layer-0 eddy typing"
+          ],
+          "shared_prediction": "a noncyclic action-derived remainder and generic C4 survival were likely; a universal kappa had to be tested exactly rather than rejected by reflex"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "hostile exact algebra and geometry scope",
+            "hostile variational PDE and Green certificate",
+            "hostile source fidelity and campaign evidence"
+          ],
+          "must_fix": [],
+          "repairs": [
+            "corrected the flat branch from B=0 with live dB to B=dB=0 while preserving minus15 r squared",
+            "narrowed the computed object to a directional Euler-covector remainder and eddy candidate; identity with Portal's eddy is source-silent",
+            "scoped constant conjugation to exact gauge-co-moving-insertion witnesses with insertion frozen during field variation",
+            "added held-out x=4 action and mass evaluations and an independent Frechet linearization check",
+            "scoped the no-kappa result to the ambient independent-(B,T) finite I1B family and kept the induced-Y14 exceptional locus open",
+            "typed Green as formal one-dimensional scalar jet algebra with no analytic or Krein/right-H domain claim",
+            "made SOURCE-SILENT the leading decisive disposition and moved no-double-counting conclusions to REPOSITORY-DERIVES"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2A repaired main: 30 exact + 12 type + 9 planted = 51 PASS",
+            "PW2F-R2A pinned-source collision: 1 exact + 7 source + 7 type + 5 planted = 20 PASS",
+            "PW2F-R and G2 predecessor regressions PASS",
+            "exact geometry, variational PDE, and source campaign hostile reviews PASS_AFTER_REPAIR"
+          ]
+        }
+      },
+      "pw2fr2b1_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact induced-Y14 section, Zorro, reductive, and Clifford geometry",
+            "variational PDE, pullback Hessian, Helmholtz, quartic interpolation, and Green ownership",
+            "primary-source provenance and literal source-coordinate Layer-0 typing"
+          ],
+          "shared_correction": "distinguish q from the full connection, differentiate one section/Zorro graph, retain both pulled-Hessian terms off shell, and require all 35 quartic monomials"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_REPAIR",
+          "lenses": [
+            "hostile exact differential and reductive geometry",
+            "hostile variational PDE, principal-order, Helmholtz, and Green scope",
+            "hostile primary-source, Layer-0, campaign, and inventory custody"
+          ],
+          "must_fix": [],
+          "repairs": [
+            "typed q_g(epsilon) as an ad(P)-valued one-form derived from H-valued epsilon",
+            "pinned TOE and Portal transcript hashes and replaced a weak predecessor-status source check with exact repository-result assertions",
+            "scoped B2C15P to an exact reconstructed LC-horizontal connection metric rather than an actual global or source-unique GU metric",
+            "narrowed the paired Hessian witness to uncontrolled D2 graph data rather than claiming every missing candidate is nonzero or degree four",
+            "inserted an owner-by-owner principal-order audit before constructing or annihilating the C4-capable branches and carried lower-order debt forward",
+            "split the reusable universal-kappa classifier into NONE, ANY, and UNIQUE(kappa) so the zero polynomial does not select kappa=0"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2B1 repaired main: 23 exact + 11 type + 10 planted = 44 PASS",
+            "PW2F-R2B1 repaired pinned-source collision: 2 exact + 6 source + 8 type + 6 planted = 22 PASS",
+            "exact geometry, variational PDE, and source/campaign hostile reviews PASS_AFTER_REPAIR"
+          ]
+        }
+      },
+      "pw2fr2b2a_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact differential and reductive geometry",
+            "variational PDE, principal order, Helmholtz, and Green ownership",
+            "primary-source provenance and Layer-0 source coordinates"
+          ],
+          "shared_prediction": "C5 would likely clear before C4, but any surviving result had to own the corrected source tangent and all C4-capable second-graph routes"
+        },
+        "post_review": {
+          "status": "COMPLETE_BLOCKING_PROMOTION",
+          "lenses": [
+            "hostile exact differential geometry",
+            "hostile variational PDE and formal-adjoint scope",
+            "hostile primary-source and Layer-0 custody"
+          ],
+          "must_fix_before_complete_c4": [
+            "construct deltaq separately from deltaGamma",
+            "construct h/theta1/Bhat2 second graph",
+            "place all banks in one co-moving frame",
+            "compute or exactly absorb five non-Shiab coefficient slots",
+            "retain distinct I1 and I2B Hessian branches",
+            "supply a same-pipeline nonzero control for the contracted moving-Shiab quartic bank"
+          ],
+          "repairs_applied_to_partial_comparator": [
+            "removed fixed-source and complete-C4 claims",
+            "pinned selected contracted moving-Shiab zero and added a nonzero raw-map hostile fixture while retaining same-pipeline liveness debt",
+            "pinned kappa NONE and added ANY and UNIQUE controls",
+            "renamed transpose and Green checks to owner symmetry and frozen-ray identities",
+            "corrected global-section, action-homonym, real-form, and contorsion source dispositions"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2B2A repaired main: 22 exact + 16 type + 11 planted = 49 PASS",
+            "PW2F-R2B2A repaired pinned-source collision: 2 exact + 11 source + 10 type + 6 planted = 29 PASS",
+            "exact and variational hostile reviews BLOCK complete-C4 promotion; source review PASS_AFTER_REPAIR"
+          ]
+        }
+      },
+      "pw2fr2b2b1_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact differential and affine connection geometry",
+            "variational PDE and two-term pullback Hessian ownership",
+            "primary-source provenance and Layer-0 source coordinates"
+          ],
+          "shared_prediction": "the corrected source split would retain a live deltaGamma defect and a noncommuting co-moving graph would have a live mixed second return, without establishing native quartic order"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_SCOPE",
+          "lenses": [
+            "hostile exact geometry and one-frame covariance",
+            "hostile variational chain-rule and differential-order scope",
+            "hostile primary-source and action-homonym custody"
+          ],
+          "must_fix": [],
+          "scope_retained": [
+            "finite source-shaped chart is not a global source section or actual induced-Y14 graph",
+            "repository h/theta1/Bhat2 witness is not source-attributed",
+            "live finite D2 graph is not promoted to C4",
+            "I1 and I2B remain distinct and uncomputed",
+            "five coefficient slots and same-pipeline moving liveness remain open"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2B2B1 main: 21 exact + 9 type + 7 planted = 37 PASS",
+            "PW2F-R2B2B1 pinned-source collision: 2 exact + 9 source + 9 type + 6 planted = 26 PASS",
+            "exact geometry, variational PDE, and source/Layer-0 hostile reviews PASS_AFTER_SCOPE"
+          ]
+        }
+      },
+      "pw2fr2b2b2c_review_receipts": {
+        "pre_assessment": {
+          "status": "COMPLETE",
+          "lenses": [
+            "exact variational chain rule and five-family Hessian ownership",
+            "principal differential order and Green-layer scope",
+            "primary-source provenance and Layer-0 source-coordinate typing"
+          ],
+          "shared_prediction": "the observed-base J3 cancellation should remove every off-shell I2B C5 route while leaving distinct C4 banks and Green operators uncomputed"
+        },
+        "post_review": {
+          "status": "COMPLETE_AFTER_SCOPE",
+          "lenses": [
+            "hostile exact variational geometry and independent-family reconstruction",
+            "hostile principal-order ceiling and planted omitted-route controls",
+            "hostile source attribution, Layer-0, campaign, and inventory custody"
+          ],
+          "must_fix": [],
+          "scope_retained": [
+            "conditional principal-Z1 observed-base LC metric branch only",
+            "order ceilings do not construct actual coefficient tensors",
+            "distinct I1 and I2B C4 banks remain uncomputed",
+            "Green operators and physical quotient remain open"
+          ],
+          "rerun_receipts": [
+            "PW2F-R2B2B2C main: 15 exact + 2 source + 15 type + 9 planted = 41 PASS after source-attribution repair",
+            "predecessor and council-scaffold regressions PASS",
+            "variational review PASS; exact geometry/order and source/Layer-0 reviews PASS_AFTER_SCOPE"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PW3",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Action-derived BV quotient and covariant phase space",
+      "depends_on": ["PW2"],
+      "objective": "derive the tangent differential, constraint/moment map, presymplectic current, and physical quotient from the completed action and compare its gauge image with the Jordan obstruction",
+      "deliverables": [
+        "Noether/BV complex through the required degree",
+        "preboundary and presymplectic currents with corner terms",
+        "boundary gauge moment-map or nonintegrability verdict",
+        "quotient cohomology and comparison with rank-128 Jordan image and rank-64 root halves",
+        "observer-carrier survival test"
+      ],
+      "information_gain_question": "Is the non-diagonalizable sector gauge/constraint structure generated by the action, or a physical obstruction?",
+      "parallel_swings": [
+        "PW3-A BV/BRST differential and nilpotence",
+        "PW3-B covariant phase space and BFV boundary charge",
+        "PW3-C exact Jordan-image and physical-cohomology comparison"
+      ],
+      "kill_conditions": [
+        "the gauge contraction is nonintegrable or leaves an uncontrolled corner anomaly",
+        "the derived image fails to remove the Jordan chain",
+        "the quotient erases the complete observer carrier",
+        "closure exists only after choosing a characteristic root by hand"
+      ],
+      "route_if_killed": "name the missing constraint generator or physical nilpotent obstruction; do not invent a projector",
+      "ml_role": "none beyond exact-complex test ordering",
+      "exit": "source-derived physical tangent/coequation space or exact obstruction"
+    },
+    {
+      "id": "PW4",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Global observation relation and minimal external-datum packet",
+      "depends_on": ["PW3"],
+      "objective": "turn the observation section, current, lift, domain component, and equation pushdown into one globally descended canonical/Green relation and measure the residual choice set",
+      "deliverables": [
+        "admissible-object groupoid with H1/H2 and pi0 census",
+        "canonical-relation or coisotropy test for the observation graph",
+        "separate section current, coefficient dual, functional adjoint, and Euler pushdown",
+        "global no-leakage and support theorem",
+        "typed D_obs packet with every derived and surviving component priced"
+      ],
+      "information_gain_question": "After the action-derived quotient, is observation unique, a finite torsor, or continuously underdetermined?",
+      "parallel_swings": [
+        "PW4-A global Cech/groupoid obstruction census",
+        "PW4-B observation canonical relation and Green compatibility",
+        "PW4-C hidden-mode injection/recovery and no-leakage"
+      ],
+      "kill_conditions": [
+        "a nonzero hidden physical mode has zero observation",
+        "the observation graph is not isotropic/coisotropic or is not evolution-invariant",
+        "normalization or descent fails under non-unimodular overlap",
+        "D_obs contains a fitted physics projector"
+      ],
+      "route_if_killed": "separate current, lift, and domain datum costs; do not relabel them P1/P2/P3",
+      "ml_role": "sealed injection-recovery fixture scheduling only",
+      "exit": "minimal typed observation datum and its exact residual dimension"
+    },
+    {
+      "id": "PW5",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Physical domain, constraint propagation, and evolution",
+      "depends_on": ["PW3", "PW4"],
+      "objective": "on the justified quotient and observation relation, construct a common Krein/Green domain and test ordinary Lorentz-section evolution, maximal dissipation, or an honest ultrahyperbolic boundary alternative",
+      "deliverables": [
+        "quotient principal symbol and characteristic cone",
+        "closed right-H/Krein domain and Green identity",
+        "constraint and no-leakage propagation",
+        "positive majorant/symmetrizer on the quotient or exact nonexistence scope",
+        "optional action-derived self-stabilizing flow after deterministic closure"
+      ],
+      "information_gain_question": "Did quotienting remove the earlier Jordan/positivity obstruction sufficiently to support physical evolution?",
+      "parallel_swings": [
+        "PW5-A quotient hyperbolic/Krein domain",
+        "PW5-B Lorentz observation-slice evolution",
+        "PW5-C source-qualified ultrahyperbolic boundary comparator"
+      ],
+      "kill_conditions": [
+        "no common domain preserves right-H, Krein, constraints, and observation",
+        "the quotient symbol remains non-diagonalizable in a physical direction",
+        "evolution leaves the observation graph",
+        "stability requires a hand-chosen positive block metric"
+      ],
+      "route_if_killed": "scope the failure to the tested quotient/domain and preserve the distinct boundary route where source-supported",
+      "ml_role": "numerical pseudospectral screening followed by analytic or exact certification",
+      "exit": "conditional well-posed physical evolution packet or exact domain obstruction"
+    },
+    {
+      "id": "PW6",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Complete first-layer Einstein-Dirac and mixed-carrier action",
+      "depends_on": ["PW2", "PW3", "PW5"],
+      "objective": "complete JD, JF, the Hodge/Krein Riesz map, bridge-current choice, mixed-carrier Ward identity, and zero-order P0/rho/YK/YC/C-reality placement",
+      "deliverables": [
+        "typed connection current and Noether identity",
+        "direct-current self-cancellation disposition",
+        "complete zero-order fermion/Yukawa incidence kernel",
+        "Krein and charge-conjugation reality checks",
+        "common quotient/domain Green packet"
+      ],
+      "information_gain_question": "Can the written odd action source the bridge and mass/incidence channels without a new current soldering map or answer-containing datum?",
+      "parallel_swings": [
+        "PW6-A JD/JF/Riesz and bridge decision",
+        "PW6-B mixed super-IG action and Ward identity",
+        "PW6-C zero-order incidence and C-reality"
+      ],
+      "kill_conditions": [
+        "the bridge current has no action-derived gauge-compatible one-form realization",
+        "zero-order terms violate right-H, Krein, C-reality, domain, or Ward closure",
+        "the needed current cancels all intended sources or requires a fitted soldering map"
+      ],
+      "route_if_killed": "retain the exact current fork and name the missing natural transformation",
+      "ml_role": "typed contraction-graph ranking only",
+      "exit": "complete first-layer residual and current dictionary"
+    },
+    {
+      "id": "PW7",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Second bosonic action, staged squares, and classical gauge-gravity equations",
+      "depends_on": ["PW5", "PW6"],
+      "objective": "construct the second action layer and test exact factorization into Einstein, Maxwell/Yang-Mills, distortion, and torsion/contorsion sectors on the same quotient and domain",
+      "deliverables": [
+        "source-attributed I2 and separately graded total-residual-square comparator",
+        "Einstein/Shiab contraction and Yang-Mills current equations",
+        "trace-reversed Frobenius fibre contribution",
+        "common boundary and domain packet",
+        "factorization/non-equivalence verdict"
+      ],
+      "information_gain_question": "Does one invariant staged action produce the classical gauge and gravity sectors, or do the alleged recoveries require incompatible pairings or refits?",
+      "parallel_swings": [
+        "PW7-A source I2 transcription and owner variation",
+        "PW7-B Einstein/Yang-Mills/Maxwell reduction",
+        "PW7-C staged versus total-square discriminator"
+      ],
+      "kill_conditions": [
+        "no invariant pairing survives the native structures",
+        "the Einstein and gauge reductions require incompatible observation maps or domains",
+        "factorization needs a target physics projector"
+      ],
+      "route_if_killed": "preserve separate source and repository-derived action branches with exact failure scope",
+      "ml_role": "sparse polynomial/factorization conjecture followed by exact proof",
+      "exit": "classical action/equation packet or exact staged-action fork"
+    },
+    {
+      "id": "PW8",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Higgs, Yukawa, vacuum, and protected-mode construction",
+      "depends_on": ["PW6", "PW7"],
+      "objective": "construct and compare the source-corrected ad-valued one-form, distortion, and trace-mode Higgs candidates through both action layers and solve one native stationary background",
+      "deliverables": [
+        "weak-doublet extraction and hypercharge map",
+        "Krein bilinear and mass-incidence channel",
+        "kinetic, quartic, and vacuum-orbit terms",
+        "gauge mass matrix with photon kernel",
+        "heavy doublet and light singlet Hessian-mode test"
+      ],
+      "information_gain_question": "Can the same geometric parent yield the Higgs/Yukawa sector and a distinct cosmological mode without hidden scale or carrier imports?",
+      "parallel_swings": [
+        "PW8-A source-corrected Higgs/Yukawa carrier fork",
+        "PW8-B stationary vacuum and gauge masses",
+        "PW8-C two-protected-mode Hessian and trace-reversal test"
+      ],
+      "kill_conditions": [
+        "no physical doublet or cross-chiral mass channel survives",
+        "vacuum or photon kernel needs a fitted projector",
+        "one canonically normalized mode must carry incompatible Higgs and cosmological scales",
+        "different action layers require incompatible carriers"
+      ],
+      "route_if_killed": "record carrier non-equivalence and keep Higgs and cosmological candidates separate",
+      "ml_role": "bifurcation and stationary-point search with exact Hessian verification",
+      "exit": "stationary Higgs/Yukawa/mode packet or exact fork"
+    },
+    {
+      "id": "PW9",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Physical cohomology, generations, anomalies, and quantum consistency",
+      "depends_on": ["PW6", "PW8"],
+      "objective": "complete the rolled physical complex on the constructed quotient/domain, compute its cohomology and index, locate honest P1/P2/P3 uses, and test anomaly/BV consistency",
+      "deliverables": [
+        "closed physical rolled complex",
+        "gamma-trace image/kernel and mirror disposition",
+        "index and observed-count semantic ledger",
+        "typed P1/P2/P3 arrows or explicit non-use",
+        "classical/master-equation and anomaly verdict"
+      ],
+      "information_gain_question": "Does the completed physical complex turn any external datum into a small discrete orientation/index choice without reading generation count from a decomposition?",
+      "parallel_swings": [
+        "PW9-A rolled complex and physical cohomology",
+        "PW9-B index/datum placement",
+        "PW9-C anomaly and BV master-equation checks"
+      ],
+      "kill_conditions": [
+        "the count arises only from block labels, tuning, or answer-containing datum",
+        "P1/P2/P3 lack a natural map to the surviving slot",
+        "mirror removal breaks anomaly, reality, or domain closure",
+        "the master equation has an uncancelled obstruction"
+      ],
+      "route_if_killed": "retain the exact no-go and the conditional action family; do not force three or chirality",
+      "ml_role": "none at proof gates; numerical index checks may only debug fixtures",
+      "exit": "physical complex and honest datum/anomaly disposition"
+    },
+    {
+      "id": "PW10",
+      "status": "BLOCKED_ON_DEPENDENCIES",
+      "title": "Frozen end-to-end physics legs, constraint surplus, and predictions",
+      "depends_on": ["PW7", "PW8", "PW9"],
+      "objective": "freeze one action, datum, observation, state, domain, and parameter packet; test all physics legs without refitting; compute quotient-aware constraint surplus and prospective cosmological/dark-sector predictions",
+      "deliverables": [
+        "one no-refit Einstein/Maxwell/Yang-Mills/weak/strong/Dirac/Higgs/Yukawa crosswalk",
+        "dark-energy stress and PP3/DESI comparison",
+        "dark-matter claim/source comparison and prediction map",
+        "gauge-quotiented parameter-identifiability and constraint-surplus certificate",
+        "counterfactual Pareto comparison of independent-native, Eric-guided, and Curt comparator paths"
+      ],
+      "information_gain_question": "Does the completed conditional construction explain more independent physics constraints than the number and expressive power of its surviving choices?",
+      "parallel_swings": [
+        "PW10-A sealed joint-physics acceptance bank",
+        "PW10-B cosmological/dark-sector prospective emission",
+        "PW10-C causal lane ablations and exact surplus"
+      ],
+      "kill_conditions": [
+        "different legs require incompatible constructions or post-hoc refits",
+        "the observed response is gauge, leakage, or calibration artefact",
+        "effective free-parameter dimension meets or exceeds independent held-out constraint rank",
+        "a claimed prediction was used during construction or calibration"
+      ],
+      "route_if_killed": "report the exact surviving conditional subset and the first incompatible leg; do not average rival verdicts",
+      "ml_role": "Bayesian scheduling and sensitivity diagnostics only; exact ranks and equations decide",
+      "exit": "conditional integrated theory packet or exact structural failure map"
+    }
+  ],
+  "execution_order": [
+    "PW1",
+    "PW2",
+    "PW3",
+    "PW4",
+    "PW5",
+    "PW6",
+    "PW7",
+    "PW8",
+    "PW9",
+    "PW10"
+  ],
+  "parallelization_rule": "parallelize only sub-swings with disjoint mathematical owners and shared preregistered interfaces; merge at the named wave exit rather than by narrative synthesis",
+  "wave_review_protocol": {
+    "required": true,
+    "pre_assessment": "before construction, convene divergent relevant specialists, run Layer 0, inspect the Eric primary sources for any encountered Eric-lane obstruction, and freeze expected outcomes plus kill conditions",
+    "post_review": "after construction, convene hostile relevant specialists to attack semantics, source attribution, representation/descent, variational and PDE ownership, controls, and overclaiming; repair and rerun or record a scoped open boundary before commit",
+    "minimum_lenses": [
+      "Layer-0 object typing",
+      "source provenance",
+      "geometry or representation theory",
+      "variational/PDE or domain",
+      "verification leakage and hostile controls"
+    ]
+  },
+  "constraint_surplus_rule": "surplus equals generic independent held-out physical response rank minus effective parameter dimension after quotienting gauge, field redefinitions, normalizations, boundary terms, and response-invisible directions",
+  "ml_verification_pipeline": [
+    "symmetry-reduced legal basis",
+    "heuristic proposal or active fixture selection",
+    "rational or algebraic reconstruction",
+    "held-out exact fixtures",
+    "symbolic, cohomological, or analytic certificate"
+  ],
+  "datum_rule": "external datum may condition a typed residual discrete choice; it may not be enlarged to contain the missing bundle port, jet owner, observation projector, domain, or target physics without being charged as new input",
+  "nonclaims": [
+    "PW1 through the scoped PW2F-R2B2B2I successor chain were executed; I stops at the universal coverage gate without promoting either bank; PW3 plus all later waves remain unexecuted.",
+    "No global moving-J source-to-native reduction, physical quotient, domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed; H4 remains a source-attribution evidence-scope exit, and I's insufficient universal coverage is not bank nonexistence or vanishing.",
+    "No third lane was promoted.",
+    "No scientific-status, canon, or public-posture change was made."
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0",
+  "artifact": "PW1_SOURCE_NATIVE_PORT_AND_SUPERIG_INTERFACE",
+  "status": "PW1_CONDITIONAL_PASS_PW2_ENABLED",
+  "run": "RUN-20260802-142051-gu-formalization-pw1-port-interface",
+  "branch": "agent/null-clifford-omega1-repair",
+  "layer_zero": {
+    "source_bundle": "mixed-sign complex Krein U(64,64) principal bundle and associated complex spinor carrier",
+    "native_bundle": "active right-H/Krein Sp(32,32;H) reduction with antilinear J squared minus one",
+    "source_to_native": "TWO_STAGE_CONDITIONAL_PORT_NOT_RETRACTION: first a J-defined H-reduction P_H, then an H-bundle isomorphism P_H to active P_nat with compatible Spin(9,5), trace-reversed DeWitt, Clifford, soldering, and transition data",
+    "native_to_source": "canonical extension of structure group P_nat times_H U(64,64)",
+    "complexification": "shared M(128,C) carrier; not an identification of real structures, structure groups, connections, actions, or domains",
+    "odd_algebra": "two-step real-Krein bracket on the underlying-real Omega0(S_R) plus Omega1(S_R); the complex symplectic bracket is only a centerless comparator",
+    "action_symmetry": "a Ward identity of the written source action, strictly stronger than odd-algebra closure",
+    "datum": "P1/P2/P3 are existing small datum slots, not a continuous quaternionic reduction, jet owner, or Ward compensator"
+  },
+  "pre_registered_expected_outcome": [
+    "the common complexification survives but no canonical source-to-native real-form retraction exists",
+    "a mixed-sign source bundle can carry a native-form reduction only after a compatible moving quaternionic J is constructed, and identification with active P_nat needs a second Spin/DeWitt/Clifford/soldering-compatible bundle isomorphism",
+    "the real-bilinear Krein mixed Omega0 plus Omega1 bracket and affine one-half representation close algebraically for the full unitary source algebra",
+    "the complex-bilinear symplectic comparator fails the unitary-center test and the native bracket port is conditional on the same two-stage reduction data",
+    "algebraic closure alone does not establish a Ward identity for the written action",
+    "the typed experiment selector earns no scientific verdict"
+  ],
+  "pre_registered_kill_conditions": [
+    "a fixed source-to-native projection fails a bracket, curvature, overlap, Krein, right-H, or reality identity",
+    "the common complex carrier is reported as a real-form equivalence",
+    "the odd bracket is zero, nonsymmetric, non-equivariant, or requires an unowned carrier",
+    "the affine odd action closes with a coefficient other than one half",
+    "algebraic closure is promoted to action symmetry without the complete Euler and boundary owners",
+    "P1/P2/P3 are enlarged to carry J, Phi_J, a projector derivative, or a Ward compensator"
+  ],
+  "source_disposition": {
+    "SOURCE_CONFIRMS": [
+      "TOE 01:41:12-01:42:56 describes the odd fields as square roots of gauge potentials/connections and says their bracket returns connection translations",
+      "UCSD 00:46:02 and 00:49:16 place the odd carrier in spinor-valued zero- and one-forms",
+      "Portal material distinguishes the physical zeta/nu fields and the two connection roles",
+      "the draft's mixed-sign source notation supports testing a complex Krein parent rather than silently replacing it by positive U(128)"
+    ],
+    "SOURCE_CORRECTS": [
+      "square root of connections is an algebraic odd-bracket target; it is not by itself an analytic operator square, action invariance, Noether identity, or BV differential",
+      "square root of connections does not select the complex-bilinear versus real-Krein bracket channel"
+    ],
+    "REPOSITORY_CONSTRUCTS": [
+      "source epsilon may locally lift a moving reduction J_epsilon but is not automatically identical to repository epsilon_red",
+      "a source connection cannot be ported by projecting its coefficients while discarding the coset curvature return",
+      "the full U(64,64) center kills the complex-bilinear channel while the real-bilinear Krein bracket survives"
+    ],
+    "SOURCE_SILENT": [
+      "a global U(64,64)-to-Sp(32,32;H) reduction on the actual Y14 bundle",
+      "the Cech lift and characteristic-class sufficiency theorem for that reduction",
+      "the coset field Phi_J dynamics or an action selection theorem D_A J equals zero",
+      "the exact real-Krein cross bracket used here, its identification with physical zeta/nu, complete field transformations, Ward identity, BV closure, and boundary return",
+      "selection of the independent grade-3 versus grade-11 Alt coefficient ratio"
+    ]
+  },
+  "pw1_a_real_form_port": {
+    "groups": {
+      "source": "G=U(64,64)",
+      "native": "H=Sp(32,32;H)=G^J",
+      "source_lie_dimension": 16384,
+      "native_lie_dimension": 8256,
+      "coset_dimension": 8128
+    },
+    "extension": "P_mix=P_nat times_H G is canonical once the native H-bundle is given",
+    "reverse_port_stage_one": "for an arbitrary source bundle P_src, a section J of P_src times_G G/H defines some H-reduction P_H; it is neither canonical nor a group retraction",
+    "reverse_port_stage_two": "identify P_H with active P_nat=Q times_Spin H through an H-bundle isomorphism compatible with the Spin_0(9,5) reduction, trace-reversed DeWitt Clifford representation, soldering, and transition class; this remains open",
+    "local_lift": "in the repository passive convention J_epsilon=epsilon^-1 composed J0 composed epsilon and C_epsilon=epsilon^-1 C0 conjugate(epsilon); epsilon is defined only modulo H and need not exist globally",
+    "cech_law": "in the repository passive convention J_j=g_ij^-1 J_i g_ij as antilinear operators and C_j=g_ij^-1 C_i conjugate(g_ij), with the three-patch cocycle checked in the finite exact fixture",
+    "reductive_split": "u(64,64)=sp(32,32;H) plus m_J, p_J=(1+sigma_J)/2",
+    "connection_split": "A=A_H+Phi_J with Phi_J=(1/2)(D_A J)J^-1",
+    "curvature_split": {
+      "convention": "F_A=dA+(1/2)[A wedge A], so the coordinate 01 component of (1/2)[Phi wedge Phi] is [Phi_0,Phi_1]",
+      "native": "p_J F_A=F_AH+(1/2)[Phi_J wedge Phi_J]",
+      "coset": "(1-p_J)F_A=D_AH Phi_J"
+    },
+    "moving_projector_derivative": "delta[p_J X]=p_J(delta X)+[zeta,p_J X]-p_J[zeta,X]",
+    "native_alt_interface": "u(T;J,epsilon)=c3 Alt(pr_spin^(J,epsilon) T)+c11 star Alt(pr_spin^(J,epsilon) T)",
+    "global_screens": "first inspect c1,c3,c5,c7 of both Krein-sign subbundles as necessary U-to-Sp reduction screens; then test the BSpin(9,5)-to-BSp lift, trace-reversed DeWitt Clifford representation, soldering, and transition compatibility needed to identify P_H with active P_nat; no sufficiency theorem is claimed",
+    "exact_hostile_witness": "in U(2,2)/Sp(1,1), X,Y in m_J have nonzero [X,Y] in h, so p_J[X,Y] differs from [p_JX,p_JY] and a projected-zero constant connection retains nonzero projected curvature",
+    "forks": {
+      "positive_U128": "killed as a direct active metric-preserving port by an Sp(1,1) boost with real nonzero spectrum",
+      "literal_Cl77_reality": "killed as a real intertwiner because R squared is plus one while native J squared is minus one",
+      "common_complexification": "live only as a complex container",
+      "reduced_block_route": "Spin(3,1) times_Z2 Spin(6,4), dimension 51, admits the vertical complex Wick comparator but not a full real-form equivalence"
+    }
+  },
+  "pw1_b_superig_interface": {
+    "odd_algebra_carrier": "Q_alg is the underlying-real S_R plus (T*Y tensor S_R) for the full unitary source bracket",
+    "complex_comparator": "the complex-bilinear symplectic mu_Omega lands in sp(S,Omega) on the centerless comparator but fails equivariance for central iI in u(64,64)",
+    "physical_field_carrier": "Q_F=Omega1(S_H) plus Omega0(S_H), kept distinct from algebraic generators; iota_odd from Q_alg to the physical field tangent remains unbuilt",
+    "translation_carrier": "N=Omega1(ad P)",
+    "equation_dual": "Q_F^vee=Omega13(S*) plus Omega14(S*)",
+    "bosonic_euler_owners": "if J is independent include E_J; if J=J_epsilon is derived, return D_epsilon J, Dp_J, and Phi_J through E_epsilon; every other extra owner must be constructed and charged",
+    "spinor_square": "M_K(u,v)=i(u v^dagger K+v u^dagger K), symmetric and real-bilinear with values in u(K)",
+    "mixed_bracket": "beta_K((u,psi),(v,chi))(X)=M_K(u,chi(X))+M_K(v,psi(X))",
+    "superalgebra": "(u(K) semidirect N) plus Pi Q_alg with [q,r]=(0,beta_K(q,r)) and [N,Q]=0",
+    "affine_representation": "on algebraic theta in Pi Q_alg, R_q theta=q and R_q A=(1/2)beta_K(q,theta); the one-half is forced by odd-odd closure. No action on physical Psi is claimed without iota_odd",
+    "native_port": "beta_nat=p_J beta_K after the first J reduction, since beta_K is already Krein-skew; active-native identification needs the second P_H-to-P_nat stage and variations must carry Dp_J",
+    "ward_defect": "if J is independent, W_q includes <E_J,mu_J>; if J=J_epsilon is derived, D_epsilon J, Dp_J, Phi_J(A,J), and all returns enter E_epsilon, alongside the A/g/Psi/barPsi Euler and boundary owners",
+    "ward_result": "an independent-Euler logical counterexample proves algebraic closure does not imply action symmetry; it is not a Ward computation. The written GU action remains NOT_EVALUABLE until PW2 owns every variation, physical iota_odd, and boundary term",
+    "rendezvous_obligations": [
+      "the real-Krein source bracket, first J projection, and second active-bundle isomorphism commute",
+      "source/native pairing naturality",
+      "affine representation naturality including moving p_J",
+      "action-variation naturality including Phi_J and Dp_J",
+      "Ward and Green-current naturality"
+    ]
+  },
+  "pw1_c_experiment_harness": {
+    "artifact_role": "SEARCH_SCHEDULER_NOT_SCIENTIFIC_EVIDENCE",
+    "status": "EXACT_SELECTOR_ALGORITHM_SCAFFOLD",
+    "registry_sha256": "e22e5118703afc3445d5c162c17f880dc3d2580577c72c6edd55931fd908ded8",
+    "disposition_vocabulary": [
+      "REJECTED_TYPE",
+      "EXACT_COUNTEREXAMPLE",
+      "SURVIVES_FINITE_FIXTURES",
+      "NOT_EVALUABLE"
+    ],
+    "selection": "exact greedy rank gain over four declared synthetic response axes, then newly separated axes and stable fixture ID; this does not discriminate the six scientific candidates",
+    "qualification_rule": "the current controls are visible RESERVED_CONTROL fixtures, not sealed qualification data; a future prospective bank requires content digests and a freeze receipt",
+    "coefficient_rule": "rational reconstruction is policy for future proposals, not implemented by the PW1 selector; exact replay remains mandatory",
+    "ml_model": "none required for PW1; build a baseline only after exact candidate and fixture schemas exist"
+  },
+  "carried_native_alt_result": {
+    "source": "B2C15P",
+    "map": "c3 Alt(delta T)+c11 star Alt(delta T)",
+    "rank_for_nonzero_pair": 364,
+    "kernel": 910,
+    "full_m_cokernel": 7801,
+    "coefficient_ratio": "UNSELECTED",
+    "boundary": "conditional partial reduction, not a full source/native port"
+  },
+  "dispositions": [
+    "MIXED-SIGN-COMPLEX-EXTENSION-PASS",
+    "SOURCE-TO-NATIVE-REDUCTION-CONDITIONAL",
+    "FULL-REAL-FORM-EQUIVALENCE-KILLED",
+    "NAIVE-ACTION-PROJECTION-KILLED",
+    "MOVING-J-REDUCTION-LIVE",
+    "REDUCED-BLOCK-COMPLEX-PORT-LIVE",
+    "MIXED-SUPER-IG-REAL-KREIN-ALGEBRA-PASS",
+    "COMPLEX-SYMPLECTIC-CENTER-OBSTRUCTION-RECORDED",
+    "NATIVE-BRACKET-PORT-TWO-STAGE-CONDITIONAL",
+    "WRITTEN-ACTION-WARD-IDENTITY-OPEN",
+    "EXACT-SELECTOR-ALGORITHM-SCAFFOLD-PASS-NONSCIENTIFIC"
+  ],
+  "external_datum": {
+    "P1_P2_P3": "UNCHANGED_AND_UNUSED",
+    "J": "pointwise 8128-dimensional coset-valued reduction field; cannot be silently assigned to P1/P2/P3",
+    "opportunity": "the source epsilon orbit may dynamically construct J rather than price it as external datum, but global descent and the J equation remain open"
+  },
+  "hostile_review": {
+    "status": "PASS_AFTER_REPAIR",
+    "lenses": [
+      "real-form reduction and Cech descent",
+      "super-IG algebra and variational Ward ownership",
+      "exact experiment selection and leakage"
+    ],
+    "repairs": [
+      "split the reverse port into J-defined P_H and a separately open P_H-to-P_nat identification",
+      "distinguished operator J from coefficient C in the passive overlap law",
+      "declared F=dA+(1/2)[A wedge A] before the coset-curvature split",
+      "replaced the source complex bracket by the full-unitary real-Krein bracket and planted central iI against the complex route",
+      "expanded the exact bracket and affine tests to the complete underlying-real finite odd basis",
+      "separated algebraic theta from physical Psi and left iota_odd open",
+      "made independent-J versus derived-J Ward owners mutually exclusive",
+      "demoted the selector to an algorithm scaffold and added synthetic-axis, content-digest, exact-scalar, duplicate-content, and review-receipt controls"
+    ],
+    "remaining_must_fix": [],
+    "reruns": [
+      "real-form/super-IG probe: 61 exact + 6 planted = 67 PASS",
+      "selector scaffold: 26 exact + 11 planted = 37 PASS",
+      "campaign scaffold: 47 exact + 11 planted = 58 PASS"
+    ]
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1 AND TG-2 AND TG-3 = NOT_PROMOTED",
+  "nonclaims": [
+    "No global H-reduction of the actual Y14 source bundle or identification of that reduction with active P_nat is proved.",
+    "No action selects D_A J=0, and Phi_J is not discarded.",
+    "No written-action Ward identity, BV quotient, analytic domain, Standard Model recovery, generation count, quantum theory, or cosmological prediction is claimed.",
+    "No typed mathematical oracle or sealed qualification bank is implemented; the exact selector is only an algorithm scaffold and supplies no scientific evidence or external datum.",
+    "No third lane, canon, scientific-status, or public-posture change is made."
+  ],
+  "next_gate": "PW2-FULL-FIRST-JET-ACTION-GRAPH-AND-EFFECTIVE-ORDER2-OPERATOR"
+}

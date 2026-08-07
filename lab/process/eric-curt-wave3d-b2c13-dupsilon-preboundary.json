@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C13-ACTUAL-DUPSILON-SYMBOL-AND-STAGED-PREBOUNDARY-JET-FORM",
+  "status_boundary": "COMPRESSED_SOURCE_RESIDUAL_AND_EXACT_G2_ACTION_EULER_DIFFERENTIATED_AS_DISTINCT_FIRST_JET_OPERATORS__EXISTING_EXACT_NONCENTRAL_G2_FIXTURE_HAS_60_OF_144_PRINCIPAL_SYMBOL_ENTRIES_DIFFERENT__FIXED_A_GRAPH_JET_SOURCE_RESPONSE_ZERO_AND_EXACT_G2_RESPONSE_ONE_HALF__DENSITY_TYPED_RJET_EQUALS_RHO_INVERSE_RBAR_AND_MOVING_GRAPH_SHIAB_HODGE_DENSITY_AND_PRIMALIZER_RETURNS_LIVE_FOR_BOTH_SQUARES__BULK_PLUS_PREBOUNDARY_IDENTITIES_AND_NONZERO_UNEQUAL_TWO_FORMS_PASS__FINITE_COMPARATOR_SOURCE_BRANCH_FIRST_ORDER_AND_EXACT_BRANCH_SECOND_ORDER_WITH_LIVE_EXTRA_CONORMAL_PAIR__ACTIVE_9_5_RRES_COEFFICIENT_PORT_PASS__ACTIVE_Y14_GRAPH_SYMBOL_NONVANISHING_TRACE_THEOREM_CHARACTERISTIC_KERNEL_CLOSED_DOMAIN_AND_MIXED_POLARIZATION_OPEN",
+  "predecessor": "lab/process/eric-curt-wave3d-b2c12-active-staged-action.json",
+  "layer_0": {
+    "source_residual": "Upsilon_B_src is the compressed manuscript obstruction/residual",
+    "variational_residual": "E_T_var is the exact slot-complete Euler covector of the selected reconstructed G2 first action",
+    "residual_identity": "NOT_IDENTIFIED_OUTSIDE_A_PROVED_CYCLIC_FORMAL_SELF_ADJOINT_CONTROL",
+    "adjoints": "source D_omega_star, Frechet formal adjoint, Green adjoint, Noether differential, and unreleased D_squared remain distinct",
+    "squares": [
+      "manuscript scalar bosonic residual norm",
+      "spoken inter-layer square/root analogy",
+      "unreleased two-connection D-squared complex"
+    ],
+    "preboundary": "Green endpoint, preboundary potential, presymplectic current, reduced BFV phase space, and selected domain remain distinct",
+    "connection_roles": "A_tr=A0+varpi; B_rot=A0 dot epsilon; T=A_tr-B_rot",
+    "carrier_fork": "repo active trace-reversed (9,5) right-H Sp(32,32;H) port is not globally identified with the draft Y^(7,7) plus complex C^(64,64)/u(64,64)-type carrier; no global metric Clifford group residual or domain intertwiner is built"
+  },
+  "source_collision": {
+    "disposition": "SOURCE_CONFIRMS_PLUS_SOURCE_CORRECTS_PLUS_SOURCE_SILENT",
+    "source_confirms": [
+      "draft 9.11-9.15 writes the bosonic residual norm, partial varpi derivative, and compact unsuperscripted D_omega_star Upsilon_omega=0 equation",
+      "draft 9.18-9.20 separately retains the first-order-total equation and sourced D_omega_star Upsilon_omega^B=Upsilon_omega^F alternative",
+      "TOE and UCSD/ITI distinguish Einstein-Dirac and Yang-Mills-Higgs/action layers",
+      "TOE 02:44:06-02:45:13 says the modern two-connection on-shell object is unreleased",
+      "rechecked TOE 01:18:26-01:19:15 and 01:29:19-01:29:47, Portal/Oxford 02:04:18-02:05:04 and 02:11:07-02:12:34, and ITI 00:32:07-00:33:36 describe metric-section restriction/pullback; bounded negative searches find no supplied defect action in those transcripts"
+    ],
+    "source_corrects": [
+      "Upsilon_B_src is not the selected G2 action's exact E_T_var",
+      "source D_omega_star is not the constructed active Frechet or Green adjoint, a Noether differential, or unreleased D_squared",
+      "R_res, active carrier port, and preboundary forms are repository constructions",
+      "ambient equation pullback, Euler dual transport, and variation of a pulled-back action are different maps"
+    ],
+    "source_silent_on": [
+      "active local Y14 D-Upsilon symbol",
+      "moving D-L-star and six-slot DM",
+      "full native moving Shiab Hodge density and graph first jet",
+      "trace theorem characteristic kernel polarization and common boson-fermion domain",
+      "exact signature density adjoint pairing boundary conditions and domain behind the norm glyph",
+      "complete epsilon metric and section owner variation",
+      "sum versus sequence versus rival inter-layer equations and any common stationary point",
+      "mapping unreleased 2025 connection tokens to 2021 A_tr and B_rot",
+      "global metric Clifford group residual and domain port from draft Y^(7,7) plus complex C^(64,64)/u(64,64) carrier to repo active (9,5) right-H Sp(32,32;H)",
+      "equation-dual observation map variation-pullback commutation and any source defect action",
+      "factorization among the three square objects"
+    ]
+  },
+  "branch_formula": {
+    "source": "E_src=S(F_Atr)+kappa flat T",
+    "variational": "E_var=S(F_Brot)+one_half(L+L_star)T+M(T,T)+kappa flat T",
+    "difference": "E_var-E_src=one_half(L_star-L)T+[M(T,T)-S q(T,T)]",
+    "principal_difference": "one_half[sigma(L_star)-sigma(L)] in independent T direction",
+    "graph_source_symbol": "ZERO_IN_FIXED_A_CURVATURE_JET_CHANNEL",
+    "graph_variational_symbol": "one_half[sigma(L)-sigma(L_star)] composed with sigma(DB_rot)"
+  },
+  "exact_noncentral_symbol": {
+    "fixture": "existing exact rational B2C9 first-jet noncentral G2 fixture",
+    "covector": [1, 2, -1],
+    "different_entries": 60,
+    "total_entries": 144,
+    "fixed_A_graph_source_response": "0",
+    "fixed_A_graph_variational_response": "1/2",
+    "lower_order_only_claim": "REJECTED",
+    "full_active_Y14_symbol_claim": "OPEN"
+  },
+  "moving_square": {
+    "formula": "delta I2_r=<D E_r,u_r>+one_half<E_r,(D R_res)E_r>=<D E_r,u_r>-one_half<u_r,(D b_res)u_r>",
+    "u_r": "R_res E_r",
+    "returned_components": [
+      "A_tr field",
+      "B_rot reference graph",
+      "moving Shiab including cubic polarization response",
+      "moving Hodge or pseudo-musical",
+      "density",
+      "moving residual primalizer"
+    ],
+    "frozen_R": "REJECTED_FOR_BOTH_BRANCHES",
+    "omitted_live_component": "REJECTED_FOR_BOTH_BRANCHES",
+    "jet_primalizer": "R_jet=rho^-1 Rbar_jet with b_jet=R_jet^-1",
+    "density_twice": "REJECTED_BY_TYPED_INVERSE_DENSITY_PRIMALIZER__BASE_DENSITY_SPATIALLY_CONSTANT_BUT_NONCONSTANT_VARIATION_LIVE"
+  },
+  "preboundary": {
+    "source_orders": {
+      "A0": 1,
+      "A1": 1,
+      "graph_z": 1,
+      "moving_g": 0
+    },
+    "variational_orders": {
+      "A0": 1,
+      "A1": 1,
+      "graph_z": 2,
+      "moving_g": 1
+    },
+    "scope": "EXACT_RATIONAL_COMPARATOR__ACTIVE_Y14_GRAPH_ORDER_OPEN",
+    "source_boundary_flux": "118675/12",
+    "variational_boundary_flux": "652613/48",
+    "variational_extra_z_prime_conormal_flux": "33707/4",
+    "omega_source": "325618/9",
+    "omega_variational": "10674083/432",
+    "omega_properties": "BOTH_NONZERO_ANTISYMMETRIC_UNEQUAL_AND_NOT_DOMAIN_SELECTING",
+    "packets_kept_separate": [
+      "Theta_G3",
+      "Theta_2_src",
+      "Theta_2_var"
+    ],
+    "first_order_green_matrix_reuse": "REJECTED_BEFORE_JET_PROLONGATION"
+  },
+  "active_residual_port": {
+    "geometry": "trace-reversed base (3,1) plus fibre (6,4) equals (9,5)",
+    "map": "b_res and R_res=b_res^-1 on the actual 28-dimensional active right-H Krein C-plus adjoint slice",
+    "inertia": "balanced (14,14)",
+    "inverse_variation": "D R_res=-R_res (D b_res) R_res",
+    "two_independently_labeled_test_covectors": "PASS_WITH_CORRECT_MINUS_SIGN_RETURN__NOT_CONSTRUCTED_IMAGES_OF_E_SRC_OR_E_VAR",
+    "finite_jet_to_active_bundle_intertwiner": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNCHANGED",
+    "P2": "UNCHANGED",
+    "P3": "UNCHANGED",
+    "used_for_residual_derivative_symbol_pairing_conormal_domain_or_action": false
+  },
+  "curt_track": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c13_dupsilon_preboundary_probe.py",
+    "runner": "uv run --with sympy python",
+    "exact": 43,
+    "source_receipts": 4,
+    "type_level_controls": 15,
+    "planted_rejections": 21,
+    "result": "43_EXACT_PLUS_4_SOURCE_PLUS_15_TYPE_PLUS_21_PLANTED_EQUALS_83_PASS",
+    "count_boundary": "the 60-of-144 symbol extraction, graph 0-versus-1/2 witness, exact polynomial chain rules, Green identities, conormal orders, preboundary two-forms, and active matrix identities are computational; source and type rows are receipts or scope declarations"
+  },
+  "hostile_specialist_review": {
+    "protocol": "separate post-construction verdicts; no forced aggregation",
+    "affine_cohomology": "PASS_NO_BLOCKER",
+    "krein_pde": "PASS_NO_BLOCKER",
+    "paired_source_axiom": "PASS_NO_BLOCKER"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c13-dupsilon-preboundary.json",
+    "report": "explorations/eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md"
+  },
+  "guided_next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY",
+  "next_gate": "ECW3D-B2C14-ACTIVE-Y14-SHIAB-FIRST-JET-AND-GRAPH-CONORMAL-PORT",
+  "next_gate_fork": "compute K_act=one_half[sigma(L)-sigma(L_star)]sigma(DB_rot); if nonzero construct prolonged trace and characteristic kernel; if zero record active order collapse and use reduced trace",
+  "later_gate": "ECW3D-B2C6B-FINAL-MIXED-BOSON-FERMION-COMMON-GREEN-DOMAIN-REPLAY"
+}

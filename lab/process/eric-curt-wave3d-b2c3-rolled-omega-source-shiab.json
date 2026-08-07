@@ -1,0 +1,184 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C3-ROLLED-OMEGA0-OMEGA1-SOURCE-ACTION-AND-SHIAB-MIDDLE-BLOCK",
+  "status_boundary": "SOURCE_MATRIX_EXPLICIT_BUT_SHIAB_SELECTOR_OPEN__CANONICAL_CLIFFORD_SHIAB_RETAINS_RANK128_SQUARE_ZERO_JORDAN__CONDITIONAL_CHARACTERISTIC_QUOTIENT_POSITIVE_BUT_NOT_ACTION_DERIVED__FULL_SHIAB_FAMILY_AND_SOURCE_CONSTRAINT_OPEN",
+  "predecessors": [
+    "lab/process/eric-curt-wave3d-b2c2-null-clifford-omega1-completion.json",
+    "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json"
+  ],
+  "source_collision": {
+    "disposition": "SOURCE-CONFIRMS_PLUS_SOURCE-CORRECTS_PLUS_SOURCE-SILENT",
+    "source_confirms": [
+      "physical nu and zeta fields on Omega0(S) plus Omega1(S)",
+      "rolled fermion matrix with Shiab-of-derivative, derivative, codifferential, and a zero southeast block in the displayed version",
+      "other versions may use a nonzero southeast block",
+      "Shiab belongs to a family and an earlier Bianchi-based selector calculation is unavailable",
+      "the 2021 matrix is presented in a 7,7 real-form setting"
+    ],
+    "source_corrects": [
+      "the 2021 manuscript does not uniquely force the repository canonical Clifford-contraction Shiab",
+      "the physical derivative block nu-to-zeta is not thereby a gauge or BV differential"
+    ],
+    "source_silent_on": [
+      "the exact spinorial Shiab family coordinate selected by the lost Bianchi calculation",
+      "the active trace-reversed 9,5 formal-adjoint and Hodge/Riesz port",
+      "a distinct spinor ghost or odd Noether map",
+      "a propagated physical constraint removing generalized Jordan partners",
+      "the analytic Krein or ultrahyperbolic domain"
+    ],
+    "source_refs": [
+      "Geometric Unity draft 2021 equations 8.1-9.3 and 9.16-10.10",
+      "lab/sources/weinstein-gu-primary-source-pack-2026-07-30.md",
+      "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md 01:55:03-01:58:27",
+      "canon/shiab-existence-cl95.md",
+      "explorations/b5-middle-source-freeze-2026-07-21.md"
+    ]
+  },
+  "layer_0": {
+    "physical_zero_form": "nu in Omega0(S) at ghost number zero",
+    "physical_one_form": "zeta in Omega1(S) at ghost number zero",
+    "possible_spinor_ghost": "a distinct parity-shifted copy not supplied by the displayed source matrix",
+    "form_derivative": "physical d coupling and matrix-factorization ingredient",
+    "bv_differential": "off-shell Noether map not identified with d",
+    "canonical_shiab": "repository natural candidate not the uniquely source-selected operator",
+    "generation": "not a block, rank, kernel, Jordan chain, or cochain degree"
+  },
+  "active_geometry": {
+    "base_signature": [
+      3,
+      1
+    ],
+    "trace_reversed_frobenius_fibre_signature": [
+      6,
+      4
+    ],
+    "total_signature": [
+      9,
+      5
+    ],
+    "clifford_algebra": "Cl(9,5)=M(64,H)",
+    "right_h": "PRESERVED_BY_CANONICAL_ROLLED_SYMBOL_AND_CONDITIONAL_QUOTIENT",
+    "draft_real_form": "7,7",
+    "real_form_identification": false
+  },
+  "source_matrix": {
+    "field_order": [
+      "zeta in Omega1(S)",
+      "nu in Omega0(S)"
+    ],
+    "principal_shape": "[[Shiab o d, d],[plus_or_minus d_star,0]]",
+    "lower_left_display_signs": [
+      "minus in draft equation 9.16",
+      "plus in Euler-vector equation 9.18"
+    ],
+    "section_evolution_sign_dependence": "IDENTICAL_AT_PRINCIPAL_SYMBOL_ORDER",
+    "physical_sign_and_adjoint": "OPEN"
+  },
+  "canonical_shiab_instantiation": {
+    "formula": "Phi(e_i wedge e_j tensor s)=e_i tensor c(e_j)s-e_j tensor c(e_i)s",
+    "middle_symbol": "A(k)=K(k)Gamma-M(k)",
+    "K": "k tensor identity_S",
+    "M": "identity_Tstar tensor c(k)",
+    "exact_identity": "A(k)K(k)=0",
+    "rs_compression": "minus compressed W131 symbol Q(k)",
+    "equals_prior_positive_completion": false,
+    "fitted_parameters": 0,
+    "source_uniquely_selects_candidate": false
+  },
+  "canonical_candidate_pde": {
+    "time_symbol_invertible": true,
+    "codifferential_signs_tested": [
+      1,
+      -1
+    ],
+    "section_evolutions_equal_across_signs": true,
+    "right_h_defect": 0.0,
+    "identity_hermitian_defect": 2.0,
+    "jordan_polynomial": "N_xi=E_xi^2-I",
+    "jordan_rank": 128,
+    "jordan_square": "ZERO",
+    "semisimple": false,
+    "positive_full_carrier_symmetrizer_exists": false,
+    "polynomial_right_syzygy_module": "ZERO_BECAUSE_D_DT_IS_INVERTIBLE"
+  },
+  "jordan_factorization": {
+    "roots": "k_plus=xi+dt and k_minus=xi-dt",
+    "identity": "im N_xi = K(k_plus) ker c(k_plus) direct-sum K(k_minus) ker c(k_minus)",
+    "rank_each_half": 64,
+    "total_rank": 128,
+    "source_interpretation": "PHYSICAL_NULL_DIRAC_EMISSION_THROUGH_D_NU_COUPLING",
+    "gauge_interpretation": "NOT_ESTABLISHED"
+  },
+  "off_shell_gate": {
+    "candidate_map": "R_d(k)=(K(k),0)^T",
+    "composition": "D_plus_or_minus(k)R_d(k)=(0,plus_or_minus q(k)I)^T",
+    "characteristic_exact": true,
+    "off_shell_noether_or_bv": false,
+    "physical_nu_reused_as_ghost": false
+  },
+  "conditional_characteristic_quotient": {
+    "status": "MATHEMATICAL_CONTROL_NOT_PHYSICAL_PROMOTION",
+    "quotient_image": "im K(k_plus) direct-sum im K(k_minus)",
+    "quotient_removed_dimension": 256,
+    "directions_tested": [
+      "y",
+      "x",
+      "z",
+      "normalized_1_2_3"
+    ],
+    "reduced_involution": "EXACT",
+    "positive_symmetrizer": "H=P+(PEP)^dagger(PEP)",
+    "right_h": "PRESERVED",
+    "observed_quotient_rank_each_direction": 384,
+    "semantic_debit": "NO_DISTINCT_GHOST_NOETHER_IDENTITY_OR_ACTION_DERIVED_QUOTIENT"
+  },
+  "constraint_restriction_rival": {
+    "status": "OPEN_PREFERRED_IF_JORDAN_ENDPOINTS_ARE_PHYSICAL",
+    "target": "derive Q_source independently with ker Q_source subset ker N and im N subset ker Q_source",
+    "must_retain": [
+      "all physical nu polarizations",
+      "rank-128 Jordan endpoint emission",
+      "nonzero observation",
+      "right-H compatibility"
+    ],
+    "forbidden": "setting Q_source=N after inspecting the defect"
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "pricing": "UNCHANGED",
+    "can_select_shiab": false,
+    "can_turn_physical_nu_into_ghost": false,
+    "can_select_constraint_or_quotient": false
+  },
+  "non_regression": {
+    "b2b_isolated_ker_gamma_obstruction": "RETAINED",
+    "b2c1_fixed_observer_erasing_quotient": "REMAINS_KILLED",
+    "b2c2a_ordinary_tau_bv_carrier": "REMAINS_KILLED",
+    "b2c2_positive_full_clifford_completion": "RETAINED_AS_CONTROL_NOT_SOURCE_SELECTED",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_matrix_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c3_rolled_omega_source_shiab_probe.py",
+    "exact_checks": 22,
+    "planted_rejections": 11,
+    "result": "33_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c3-rolled-omega-source-shiab.json",
+    "report": "explorations/eric-curt-wave3d-b2c3-rolled-omega-source-shiab-2026-07-31.md"
+  },
+  "next_gate": "ECW3D-B2C4-SHIAB-FAMILY-BIANCHI-ADJOINT-AND-CONSTRAINT-SELECTOR"
+}

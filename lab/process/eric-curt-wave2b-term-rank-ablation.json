@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0",
+  "run_id": "GUH-20260731T184714Z-curt-77-wave2b-term-rank",
+  "campaign": "lab/process/eric-curt-ten-wave-campaign.json",
+  "wave": "ECW2-G3.5-CENSUS",
+  "subwave": "ECW2b-TERM-RANK-ABLATION",
+  "status": "COMPLETE_FOR_FROZEN_G2_FIRST_LAYER_CLASS",
+  "source_reinspection": {
+    "note": "lab/sources/curt-iceberg-7-7-reasoning-reinspection-2026-07-31.md",
+    "windows": [
+      "00:39:55-00:42:43",
+      "00:44:21-00:47:20",
+      "02:45:30-02:59:55"
+    ],
+    "vertical_trace_choice": "SOURCE_STATED: traceless (3,6) plus the chosen trace-line sign gives vertical (4,6), rather than (3,7)",
+    "representation_motivation": "SOURCE_STATED: select the split Spin(7,7) spinor presentation to carry the proposed fermion and gauge structure; Spin(5,9) remains an acknowledged alternative",
+    "total_signature": "SOURCE_UNTYPED: the spoken (4,6)+(1,3) does not equal (7,7) under one fixed ordered-pair convention",
+    "minimal_completion": "RECONSTRUCTION: vertical (4,6) plus the dual-horizontal contribution (3,1) gives (7,7)",
+    "branch_order": [
+      "R95_ACTIVE",
+      "R77_VERTICAL_FLIP_SOURCE_PREFERRED_COMPLETION",
+      "R77_BASE_FLIP_HOSTILE_COMPARATOR",
+      "C14_COMMON_COMPLEX_CONTAINER"
+    ]
+  },
+  "frozen_class": {
+    "dimension": 14,
+    "owner_fields": ["A", "epsilon_red", "g"],
+    "derived_fields": ["B=A_LC(epsilon_red,g)", "T=A-B", "S_r", "flat_r"],
+    "requirements": [
+      "local natural fourteen-form",
+      "gauge and diffeomorphism covariant before observation",
+      "one outer homogeneous adjoint one-form T",
+      "exactly one S_r or flat_r pairing",
+      "at most one exterior covariant derivative",
+      "at most cubic distortion order inside the first-layer integrand",
+      "no target physics or datum labels"
+    ],
+    "excluded_for_later_waves": {
+      "ECW3": ["observation-section terms", "equation-dual and domain terms"],
+      "ECW4": ["odd kinetic and zero-order bilinears", "matter currents"],
+      "ECW5": ["F-squared terms", "bosonic or total residual squares"],
+      "ECW6_plus": ["Higgs extraction", "stationary-state potentials", "physical mode labels", "cosmological readouts"]
+    }
+  },
+  "basis": [
+    {
+      "id": "M1",
+      "formula": "integral T wedge S_r(F_B)",
+      "role": "curvature seed",
+      "carrier_status": "active built; source-preferred real (7,7) port open; complex schema only"
+    },
+    {
+      "id": "M2",
+      "formula": "integral T wedge S_r(D_B T)",
+      "role": "first-jet distortion term",
+      "carrier_status": "active built; source-preferred real (7,7) port open; complex schema only"
+    },
+    {
+      "id": "M3",
+      "formula": "integral T wedge S_r(q(T,T))",
+      "role": "nonabelian distortion self-interaction",
+      "carrier_status": "active built; source-preferred real (7,7) port open; complex schema only"
+    },
+    {
+      "id": "M4",
+      "formula": "integral T wedge flat_r(T)",
+      "role": "algebraic displacement term",
+      "carrier_status": "active built; source-preferred real (7,7) port open; complex schema only"
+    }
+  ],
+  "candidate_span": [
+    {"id": "C1", "formula": "T wedge S_r(F_B)", "basis_vector": [1, 0, 0, 0]},
+    {"id": "C2", "formula": "T wedge S_r(D_B T)", "basis_vector": [0, 1, 0, 0]},
+    {"id": "C3", "formula": "T wedge S_r(q(T,T))", "basis_vector": [0, 0, 1, 0]},
+    {"id": "C4", "formula": "T wedge flat_r(T)", "basis_vector": [0, 0, 0, 1]},
+    {"id": "C5", "formula": "T wedge S_r(F_A)", "basis_vector": [1, 1, 1, 0]},
+    {"id": "C6", "formula": "T wedge S_r(D_A T)", "basis_vector": [0, 1, 2, 0]}
+  ],
+  "quotient_relations": [
+    {
+      "id": "Q1",
+      "identity": "F_A=F_B+D_B T+q(T,T)",
+      "relation": "C5-C1-C2-C3=0"
+    },
+    {
+      "id": "Q2",
+      "identity": "D_A T=D_B T+2q(T,T)",
+      "relation": "C6-C2-2C3=0"
+    }
+  ],
+  "rank": {
+    "admissible_candidate_count": 6,
+    "independent_relation_rank": 2,
+    "quotient_term_rank": 4,
+    "branch_dependence": "rank four at formula-schema grade on both real branches; only R95_ACTIVE has all operator realizations built",
+    "no_further_relation_reason": "At a point, the curvature jet of B, first jet of T, noncommuting algebraic two-form q(T,T), and algebraic pseudo-musical pairing can be varied independently within the frozen jet class. Integration by parts changes the Euler/Green representative but supplies no additional scalar generator relation in this one-S_r/flat_r class."
+  },
+  "coefficients": {
+    "general_vector": ["a", "b", "c", "m"],
+    "raw_rank": 4,
+    "projective_rank_mod_overall_nonzero_scale": 3,
+    "source_slice": "lambda*(1,1/2,1/3,kappa_1/2)",
+    "source_slice_raw_dimension": 2,
+    "source_slice_projective_dimension": 1,
+    "interpretation": "The 1/2 and 1/3 ratios are source/action architecture, not fitted physical recoveries. kappa_1 remains a relative coefficient; lambda is the overall first-layer normalization."
+  },
+  "ablation": {
+    "obligations": [
+      {"id": "O1", "name": "curvature seed present", "incidence": [1, 0, 0, 0]},
+      {"id": "O2", "name": "first-jet distortion response present", "incidence": [0, 1, 0, 0]},
+      {"id": "O3", "name": "nonabelian distortion self-interaction present", "incidence": [0, 0, 1, 0]},
+      {"id": "O4", "name": "algebraic displacement contrast present", "incidence": [0, 0, 0, 1]}
+    ],
+    "support_incidence_rank": 4,
+    "term_ablations": [
+      {"remove": "M1", "kills": ["O1"], "does_not_establish": "Einstein or Yang-Mills recovery"},
+      {"remove": "M2", "kills": ["O2"], "does_not_establish": "hyperbolicity or physical propagation"},
+      {"remove": "M3", "kills": ["O3"], "does_not_establish": "a selected gauge group or Higgs potential"},
+      {"remove": "M4", "kills": ["O4"], "does_not_establish": "a VEV, cosmological stress, or scale"}
+    ]
+  },
+  "surplus": {
+    "support_grade": "ZERO: four independent term directions carry four independent presence obligations; this is a completeness/necessity result, not overdetermined confirmation",
+    "source_slice_warning": "Do not subtract the two-dimensional source slice from four Boolean nonvanishing obligations. Those obligations are support inequalities, not four independent numerical equations.",
+    "physical_grade": "NOT_COMPUTABLE_UNTIL_ECW3_OBSERVATION_DOMAIN_AND_LATER_ACTIONS: no physical equation, mode, or observable constraint is in the frozen Wave 2b class"
+  },
+  "physics_family_ablation": [
+    {"family": "gravity", "first_layer_support": ["M1", "M2", "M3", "M4"], "boundary": "parent action only; observation-dual Einstein recovery open"},
+    {"family": "gauge", "first_layer_support": ["M1", "M2", "M3"], "boundary": "connection geometry only; second-layer Yang-Mills square open"},
+    {"family": "odd matter/current", "first_layer_support": [], "boundary": "owned by ECW4"},
+    {"family": "Higgs/Yukawa", "first_layer_support": [], "boundary": "owned by ECW6 after ECW4/5"},
+    {"family": "quantum/domain", "first_layer_support": [], "boundary": "owned first by ECW3"},
+    {"family": "cosmology", "first_layer_support": ["M4"], "boundary": "candidate displacement support only; stress/state/scale open"},
+    {"family": "P1/P2/P3", "first_layer_support": [], "boundary": "carried and unconsumed"}
+  ],
+  "carrier_verdict": {
+    "R95_ACTIVE": "TERM_RANK_4_AND_OPERATORS_BUILT_AT_EXISTING_G2_G3_GRADE",
+    "R77_VERTICAL_FLIP": "TERM_RANK_4_AT_SCHEMA_GRADE__SOURCE_PREFERRED_COMPLETION__ALL_METRIC_REALITY_OPERATORS_REQUIRE_PORT",
+    "R77_BASE_FLIP": "TERM_RANK_4_HOSTILE_COMPARATOR__NOT_TRANSCRIPT_PREFERRED",
+    "C14_COMMON": "TERM_RANK_4_COMPLEX_SCHEMA__NO_REAL_ACTION_OR_PHYSICAL_ADJOINT_SELECTED"
+  },
+  "third_lane_effect": "NONE: source reasoning prioritizes one (7,7) completion but does not clear its convention, construct separate dynamics, or supply a common-domain discriminator",
+  "next_wave": "ECW3-G4-OBSERVATION: construct L,R,L^vee,L^!,sharp_Y,sharp_X, global descent, nonlinear leakage, closed domain, quotient, and preboundary reduction on the active branch while retaining the source-preferred (7,7) port ledger"
+}
