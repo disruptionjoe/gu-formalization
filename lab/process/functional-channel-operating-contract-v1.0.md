@@ -48,6 +48,25 @@ constrained subclass. Derive their complete coupled tangent/normal-jet law
 before total raw-`Upsilon` Bianchi/naturality, null-screen, Euler or physical
 quotient claims.
 
+Current accounting and priority decision:
+`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.55
+has 84 immutable row records and 82 active canonical targets. The two-record
+difference is exactly the retained historical predecessors `LT-GR2` and
+`AC-G1`; their typed successors own the active meter. Do not count append-only
+history as current verdicts or rewrite v0.55 to erase provenance.
+
+The no-self-vote 25-lens Condorcet result is planning evidence only. It selects
+the source-native independent-`varpi`/soldering/observation tangent as the
+primary gate. Then run the four-column Koszul match and freedom count jointly
+with Spencer/jet integrability and overlap descent. Only a lawful survivor may
+advance to Euler, preboundary, Ward/Bianchi, BV and symplectic descent. Generic
+ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
+survivor adjudication is the preferred disjoint side gate. After the main
+three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3
+interface and massless constraint/hyperbolicity complex before more depth-first
+work. Every fitted tangent declares its freedom count, and a carrier-fitting
+but non-descending planted control is mandatory.
+
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
 transgression action, its residual norm-square second action, or the observer

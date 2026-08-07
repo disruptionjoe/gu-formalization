@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
+> **CURRENT PRIORITY AND LEDGER ACCOUNTING.** The active meter is correctly
+> `82/82 = 32 SAME + 19 DIFFERS + 26 NEEDS + 5 OVER-DETERMINED`. The JSON also
+> retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
+> row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
+> those two typed predecessors; do not erase them or inflate the active meter.
+> The accepted next sequence is source-native independent-`varpi`/soldering/
+> observation tangent; four-column Koszul match plus freedom count and
+> Spencer/global integrability as one gate; then survivor-only Euler,
+> preboundary, Ward/Bianchi, BV and symplectic descent. Generic carrier search
+> is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
+> disjoint side gate. See
+> `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
+> persona vote is planning evidence, never scientific evidence.
+
 > **CURRENT NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
 > response `[delta B,T*]` is an exact rank-1,274 isomorphism onto the odd
@@ -106,13 +120,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > massive-spin-two blocks, the non-null Koszul split, fixed-`B` support 28, the
 > q-exact principal connection theorem, the zero invariant branch-tangent
 > operator packet and the unrestricted Cartan/Spencer owner for all 117.
-> Construct the actual independent-`varpi`, soldering and observation normal
-> jet on the same four graph columns and compare it with the exact Koszul
-> preimages. Do not substitute the Levi-Civita subclass: its linearized
-> torsion-free response is q-exact. After a match, build the null screen and
-> test total Bianchi/raw-`Upsilon` naturality; otherwise require a separately
-> source-owned higher jet. Do not use background subtraction without an
-> action/counterterm owner.
+> First reconstruct from source and geometry the actual independent-`varpi`,
+> soldering and observation tangent/normal-jet law. Then compare its four graph
+> columns with the unique Koszul preimages while jointly testing freedom count,
+> Spencer/jet integrability and overlap descent. Do not substitute the
+> Levi-Civita subclass: its linearized torsion-free response is q-exact. Plant
+> a carrier-fitting but non-descending tangent. Only a lawful survivor advances
+> to Euler/preboundary, total Bianchi/raw-`Upsilon`, BV and symplectic descent;
+> otherwise require a separately source-owned higher jet. Do not use
+> background subtraction without an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain

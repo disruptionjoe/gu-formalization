@@ -7,6 +7,19 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
+> **2026-08-07 PRIORITY DECISION AND LEDGER ACCOUNTING.** The current ledger
+> contains 84 immutable row records but 82 active canonical targets. The two
+> excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
+> successors own the active `32/19/26/5` verdict meter. See
+> [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
+> The accepted main sequence is: source-native independent-`varpi`/soldering/
+> observation tangent; four-column Koszul match plus freedom count and
+> Spencer/global integrability; then survivor-only Euler/preboundary,
+> Ward/Bianchi, BV and symplectic descent. Generic carrier search is closed.
+> The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
+> disjoint side gate. The persona vote is a planning instrument, not scientific
+> evidence.
+
 > **2026-08-07 NONZERO-BACKGROUND CARTAN/SPENCER OWNER (ledger v0.55).**
 > [`explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`](explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md)
 > proves that `[delta B,T*]` is an exact rank-1,274 isomorphism on the

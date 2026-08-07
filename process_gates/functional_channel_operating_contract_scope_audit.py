@@ -24,6 +24,9 @@ lanes = (ROOT / "LANES.yaml").read_text(encoding="utf-8")
 operating = (ROOT / "lab/process/OPERATING-MODEL.md").read_text(encoding="utf-8")
 context_pack = (ROOT / "lab/process/agent-context-pack.md").read_text(encoding="utf-8")
 synthesis = (ROOT / "explorations/precontract-waves-0abc-synthesis-2026-08-05.md").read_text(encoding="utf-8")
+priority_path = ROOT / "lab/process/conditional-ledger-priority-decision-2026-08-07.json"
+priority = strict(priority_path)
+priority_human = (ROOT / "lab/process/conditional-ledger-priority-decision-2026-08-07.md").read_text(encoding="utf-8")
 
 assert contract["status"] == "RATIFIED"
 assert contract["purpose_lanes_preserved"] == ["1", "2", "3", "A"]
@@ -33,6 +36,16 @@ assert contract["dispatch"]["fixed_percentages"] is False
 assert contract["durability_level"] == "OWNER_LOCAL_MANDATORY_CONTEXT_PLUS_MACHINE_TESTED_CONTRACT"
 assert contract["fleet_runner_interpretation_change"] == "NOT_CHANGED_IN_THIS_RUN"
 assert contract["standing_ledger"]["owner"] == "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION"
+assert contract["standing_ledger"]["accounting_ref"] == "lab/process/conditional-ledger-priority-decision-2026-08-07.json"
+assert contract["standing_ledger"]["immutable_row_record_count"] == 84
+assert contract["standing_ledger"]["active_canonical_target_count"] == 82
+assert contract["standing_ledger"]["historical_superseded_rows_excluded_from_active_meter"] == ["LT-GR2", "AC-G1"]
+assert contract["standing_ledger"]["active_verdict_counts"] == {
+    "SAME": 32,
+    "DIFFERS": 19,
+    "NEEDS": 26,
+    "OVER_DETERMINED": 5,
+}
 assert contract["channels"]["COMPOSE"]["cadence"]["after_material_build_outputs"] == 3
 assert contract["channels"]["SOURCE"]["return_codes"] == [
     "SOURCE-CONFIRMS", "SOURCE-CORRECTS", "SOURCE-SILENT"
@@ -46,6 +59,65 @@ assert contract["channels"]["VERIFY"]["hostile_charges"] == [
 symplectic = contract["channels"]["VERIFY"]["conditional_specialist_lenses"]["SYMPLECTIC_GEOMETRY"]
 assert "PHYSICAL_TRANSITION" in symplectic["trigger"]
 assert symplectic["forbidden_promotion"] == "UNREDUCED_DENSITY_IS_NOT_A_PHYSICAL_TRANSITION"
+
+assert priority["status"] == "RATIFIED_PLANNING_DECISION"
+assert priority["scientific_evidence"] is False
+assert priority["ledger_accounting"]["immutable_row_records"] == 84
+assert priority["ledger_accounting"]["active_canonical_targets"] == 82
+assert [item["row"] for item in priority["ledger_accounting"]["historical_superseded_records"]] == ["LT-GR2", "AC-G1"]
+assert priority["condorcet"]["winner"] == "B"
+assert priority["condorcet"]["winner_record"] == {"wins": 11, "losses": 0, "ties": 0}
+assert priority["condorcet"]["dependency_resolution"] == ["B", "C_PLUS_D_JOINT_GATE", "E"]
+assert priority["side_opportunity_condorcet"]["winner"] == "F"
+assert priority["accepted_sequence"]["disjoint_side"] == "F_D2_SOURCE_LOCUS_INDEX_SURVIVOR_ADJUDICATION"
+assert priority["gates"]["generic_carrier_search"] == "CLOSED__DO_NOT_REPEAT"
+assert len(priority["ballots"]) == 25
+candidate_ids = set(priority["candidates"])
+for ballot in priority["ballots"]:
+    ranking = list(ballot["ranking"])
+    assert ballot["own"] not in ranking
+    assert set(ranking) == candidate_ids - {ballot["own"]}
+    assert len(ranking) == len(set(ranking)) == 11
+    assert 0.0 <= ballot["own_idea_confidence"] <= 1.0
+
+pairwise = {}
+for left in sorted(candidate_ids):
+    pairwise[left] = {}
+    for right in sorted(candidate_ids - {left}):
+        left_votes = 0
+        right_votes = 0
+        for ballot in priority["ballots"]:
+            if ballot["own"] in {left, right}:
+                continue
+            ranking = ballot["ranking"]
+            if ranking.index(left) < ranking.index(right):
+                left_votes += 1
+            else:
+                right_votes += 1
+        pairwise[left][right] = (left_votes, right_votes)
+assert all(pairwise["B"][other][0] > pairwise["B"][other][1] for other in candidate_ids - {"B"})
+assert pairwise["B"]["C"] == (13, 4)
+assert pairwise["B"]["D"] == (14, 4)
+assert pairwise["B"]["E"] == (13, 7)
+assert pairwise["E"]["C"] == (11, 9)
+assert pairwise["D"]["E"] == (11, 10)
+assert pairwise["C"]["D"] == (13, 5)
+
+ledger = strict(ROOT / contract["standing_ledger"]["ref"])
+assert len(ledger["rows"]) == 84
+superseded = set(contract["standing_ledger"]["historical_superseded_rows_excluded_from_active_meter"])
+active_rows = [row for row in ledger["rows"] if row["id"] not in superseded]
+assert len(active_rows) == 82
+active_counts = {verdict: 0 for verdict in ["SAME", "DIFFERS", "NEEDS", "OVER_DETERMINED"]}
+for row in active_rows:
+    active_counts[row["verdict"]] += 1
+assert active_counts == contract["standing_ledger"]["active_verdict_counts"]
+assert active_counts == ledger["progress"]["verdict_counts"]
+assert ledger["progress"]["mapped"] == ledger["progress"]["total"] == 82
+assert "planning instrument" in priority_human
+assert "It is not mathematical" in priority_human
+assert "statistical evidence for GU" in priority_human
+assert "conditional-ledger-priority-decision-2026-08-07" in context_pack
 
 for ref in [
     "lab/process/functional-channel-operating-contract-v1.0.md",
@@ -292,4 +364,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.55 preserve the principal q-exact theorem, own the unrestricted Cartan carrier, exclude Levi-Civita alone, and route to the actual independent-varpi jet without residue or quotient promotion")
+print("PASS: functional channels type 84 immutable records versus 82 active targets, preserve the no-self-vote priority decision as planning-only evidence, and route source tangent -> four-column plus integrability -> Euler/symplectic descent with D2 disjoint")

@@ -7,6 +7,14 @@ updated_at: "2026-08-07"
 
 # Process
 
+Current priority/accounting decision:
+`conditional-ledger-priority-decision-2026-08-07.json`. It types the 84
+immutable ledger records versus 82 active targets, preserves the two historical
+predecessors outside the active meter, and records the source-tangent ->
+four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
+preferred disjoint side gate. Its persona aggregation is planning evidence,
+not scientific evidence.
+
 Current append-only progress surface: ledger v0.55. The unrestricted
 nonzero-background Cartan/Spencer connection map owns all transverse 117
 coefficients exactly, but the actual Levi-Civita subclass is q-exact and does

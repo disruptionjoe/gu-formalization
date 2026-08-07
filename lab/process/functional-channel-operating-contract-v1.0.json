@@ -17,6 +17,20 @@
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
     "ref": "lab/process/conditional-physics-ledger-v0.55.json",
     "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.55.md",
+    "accounting_ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
+    "immutable_row_record_count": 84,
+    "active_canonical_target_count": 82,
+    "historical_superseded_rows_excluded_from_active_meter": [
+      "LT-GR2",
+      "AC-G1"
+    ],
+    "active_verdict_counts": {
+      "SAME": 32,
+      "DIFFERS": 19,
+      "NEEDS": 26,
+      "OVER_DETERMINED": 5
+    },
+    "accounting_rule": "ROW_RECORD_COUNT_INCLUDES_APPEND_ONLY_SUPERSEDED_HISTORY__ACTIVE_METER_EXCLUDES_EXACTLY_TYPED_PREDECESSORS",
     "denominator_axes": [
       "LAGRANGIAN",
       "REPRESENTATION",
@@ -174,6 +188,29 @@
     "busy_owner_claim": "ALLOW_DISJOINT_READ_ONLY_SOURCE_COMPOSE_OR_VERIFY__FORBID_COMPETING_OWNER_WRITE",
     "construction_is_target": true,
     "hardening_requires_generated_demand": true
+  },
+  "current_priority_decision": {
+    "ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
+    "method_scope": "MODELED_INLINE_25_LENS_CONDORCET_AND_SOCIAL_DISTANCE__PLANNING_ONLY__NOT_SCIENTIFIC_EVIDENCE",
+    "condorcet_winner": "SOURCE_NATIVE_VARPI_SOLDERING_OBSERVATION_TANGENT",
+    "main_sequence": [
+      "SOURCE_NATIVE_TANGENT_LAYER0_AND_SOURCE_RECONSTRUCTION",
+      "FOUR_COLUMN_KOSZUL_MATCH_PLUS_FREEDOM_COUNT_AND_SPENCER_GLOBAL_INTEGRABILITY",
+      "SURVIVOR_ONLY_EULER_PREBOUNDARY_WARD_BIANCHI_BV_SYMPLECTIC_DESCENT"
+    ],
+    "generic_carrier_search": "CLOSED__DO_NOT_REPEAT",
+    "preferred_disjoint_side_gate": "RA_D2_SOURCE_LOCUS_INDEX_SURVIVOR_ADJUDICATION",
+    "breadth_checkpoint_after_main": [
+      "ACTION_SELECTED_VACUUM_STABILIZER_ORBIT",
+      "P1_P2_P3_EXTERNAL_DATUM_INTERFACE",
+      "MASSLESS_CONSTRAINT_HYPERBOLICITY_COMPLEX"
+    ],
+    "joint_gate_reason": "FOUR_COLUMN_MATCH__INTEGRABILITY__EULER_DESCENT_FORM_A_PAIRWISE_CYCLE__RESOLVE_BY_TYPED_DEPENDENCY_NOT_FORCED_SOCIAL_RANK",
+    "mandatory_controls": [
+      "PRICE_ALL_FREE_TANGENT_CHOICES_BEFORE_READING_A_FIT",
+      "PLANT_CARRIER_FITTING_BUT_NON_DESCENDING_TANGENT",
+      "DO_NOT_PROMOTE_POINTWISE_CARRIER_TO_GLOBAL_JET_OR_REDUCED_PHYSICAL_CLASS"
+    ]
   },
   "reservation": {
     "level_1": "RUNTIME_CENTRAL_OWNER_CLAIM_FOR_CLOSED_ENVELOPE",
