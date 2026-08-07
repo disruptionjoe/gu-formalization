@@ -1699,3 +1699,12 @@ orthogonal leakage witness, the `I2B_GAUSS_WRONG_TYPE` disposition,
 space promotion, and the complete 1,274-by-100 residual target as successor.
 It forbids verdict, residue, quotient, P1/P2/P3, canon and public-posture
 movement.
+
+## Selected second-layer full-Cl2 pullback and ledger v0.39 gate
+
+`selected_second_layer_full_cl2_residual_pullback_scope_audit.py` requires the
+exact rank-100, 640-entry sparse target; full-II and trace-square coefficients;
+`(54,46)` inertia; stationary-only co-moving scope; mandatory symplectic
+review; and total-residual other-grade support as successor. It forbids
+helicity, Euler/preboundary, domain/BV/BFV, residue, quotient, datum, canon and
+public-posture promotion.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.38.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.38.md`.
+`lab/process/conditional-physics-ledger-v0.39.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.39.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -62,17 +62,17 @@ the full curvature-plus-`d_B T` source cross has ranks `13/15/15` with Schur
 ranks `13/15/14`. The paired observation receiver preserves the block.
 Generic `kappa_1` lifts the graph-only null tensor pair; the unique positive
 two-extra-mode null coefficient locus is a helicity-one doublet, not spin two.
-The distinct second-layer Gauss insertion is an exact isometry from the
-rank-100 observer full-`II` carrier into the rank-1,274 `Cl2` residual carrier,
-and its orthogonal projection has inertia `(54,46)` with exact form
-`kappa_1^2[(15376/13689)||II||^2-(448/4563)||tr II||^2]`. This is not the
-full `I2B` pullback: the input `II_(00)^4` leaks with coefficient `2/39` into
-the orthogonal direction `e^5 tensor gamma_4 gamma_5`. Do not rebuild these
-objects, restore the graph-only match, call auxiliary elimination a quotient,
-select the coefficient, reduce residue, or identify the projected Gauss block
-with full observer full-`II`. Build the complete 1,274-by-100 residual target,
-other Clifford-grade support and co-moving epsilon/frame/observation terms
-before cubic, Euler, preboundary or helicity promotion.
+The distinct second-layer selected-`Cl2` pullback is now complete. Its
+rank-1,274 by rank-100 matrix has rank 100 and exactly 640 nonzero entries,
+supported in `H_HN` (280) and `N_NN` (360). Its stationary quadratic form is
+`kappa_1^2[(15376/13689)||II||^2-(340/4563)||tr II||^2]`; the orthogonal
+completion contributes exactly `4/169` to the earlier projected trace
+coefficient and preserves inertia `(54,46)`. Co-moving target/frame/epsilon/
+observation derivatives vanish at this grade because they multiply the zero
+residual. Do not rebuild these objects, restore the graph-only match, call
+auxiliary elimination a quotient, select the coefficient, reduce residue, or
+promote selected `Cl2` to the total residual. Type and compute any other-grade
+support before cubic, Euler, preboundary or helicity promotion.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -486,30 +486,29 @@ Einstein source.
 Current gate:
 
 ```text
-BUILD_FULL_1274_BY_100_RESIDUAL_TARGET_PLUS_OTHER_GRADE_SUPPORT_AND_COMOVING_EPSILON_FRAME_OBSERVATION__THEN_DERIVE_FULL_I2B_QUADRATIC_CUBIC_EULER_PREBOUNDARY_HELICITY__TEST_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
+TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT__THEN_COMPARE_COMPLETE_TOTAL_RESIDUAL_QUADRATIC_WITH_OBSERVER_FULL_II__ONLY_IF_CARRIER_SURVIVES_DERIVE_CUBIC_EULER_PREBOUNDARY_HELICITY__COMMON_DOMAIN_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
 Next-Run execution method, ratified by Joe on 2026-08-06:
 
-1. Decompose the full residual target by Clifford grade and observer-stabilizer
-   representation before assembling matrices. Type-forced zero blocks may be
-   removed only by proof; do not reuse the full-Spin scalar shortcut killed by
-   the fixed-epsilon cross term.
-2. Include co-moving epsilon, frame and observation contributions in the
-   primary target. Frozen-frame results are controls, not the construction.
-3. Assemble the surviving blocks with sparse exact arithmetic. Randomized
-   witnesses may locate blocks but never certify a null; prefer Sage/FLINT
+1. Layer-0 type the selected bosonic `Cl2` residual against the source's total
+   bosonic-plus-fermionic residual, then enumerate other Clifford grades by
+   observer-stabilizer representation.
+2. Remove type-forced zero blocks only by proof; do not reuse the full-Spin
+   scalar shortcut killed by the fixed-epsilon cross term.
+3. Assemble any surviving other-grade blocks with sparse exact arithmetic.
+   Randomized witnesses may locate blocks but never certify a null; prefer Sage/FLINT
    certificates and use the unreduced full matrix only if block reduction
    fails.
-4. Certify completeness and classify the exact `2/39` leakage as cancelled,
-   gauge, or a surviving invariant. Then compare the complete quadratic
-   invariant span with observer full-`II`.
+4. Compose those blocks with the already complete selected `Cl2` pullback and
+   compare the total-residual quadratic invariant span with observer full-`II`.
 5. Only a carrier-level survivor advances to Euler and preboundary comparison
    and null-little-group helicity. Only exact helicity two opens the common
    Krein/domain and odd BV/BFV campaign.
 
-Source may re-inspect Weinstein's moving Levi-Civita, augmented-torsion,
-epsilon and observation guidance in parallel. Compose migrates the ledger only
+Source may re-inspect whether Weinstein types the second layer as a bosonic
+residual or the total bosonic-plus-fermionic residual by grade. Compose
+migrates the ledger only
 if that work or the Build changes a row distance or high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,
 variational PDE, symplectic geometry, Krein/operator theory and source
@@ -521,11 +520,11 @@ The next work has three independent owners. The first-layer gravitational
 rank-two local principal Green flux is definite and gauge-descending, but a
 live flux does not repair wrong representation type. Do not spend a global-
 domain campaign on that superseded carrier. The gravitational Build instead
-constructs the complete second-layer 1,274-by-100 residual pullback, including
-the rank-100 Gauss projection, its live orthogonal leakage, the other Clifford
-grades and co-moving epsilon/frame/observation terms. It must then compare the
-full `I2B` quadratic/cubic, Euler, helicity and preboundary classes with the
-observer full-`II` functional. Only a correctly typed helicity-two carrier advances
+types and computes any total-residual other-Clifford-grade support beyond the
+complete selected `Cl2` rank-100 pullback. It must then compare the complete
+quadratic carrier and, only if it survives, the cubic/Euler/helicity/
+preboundary classes with the observer full-`II` functional. Only a correctly
+typed helicity-two carrier advances
 to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity
 must derive the full moving third derivative and preboundary class on the
 mixed/massive shells, then construct regular Q1 or carry a unique nonzero

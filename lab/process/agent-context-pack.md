@@ -3,27 +3,37 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-06
+updated: 2026-08-07
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-06)
+# Agent context pack (updated 2026-08-07)
 
-> **NEXT-RUN METHOD.** Do not brute-force the frozen-frame 1,274-by-100 map.
-> First decompose the complete residual target by Clifford grade and observer-
-> stabilizer type, prove type-forced zero blocks, and assemble the surviving
-> blocks with sparse exact arithmetic. Include co-moving epsilon, frame and
-> observation contributions from the start; frozen-frame arithmetic is a
-> control. Certify completeness and classify the `2/39` leakage as cancelled,
-> gauge, or surviving before comparing the full quadratic invariant span with
-> observer full-`II`. Randomized witnesses are discovery-only; exact Sage/
-> FLINT or analytic certificates decide nulls. Mandatory pre/post lenses:
+> **CURRENT FULL-CL2 FENCE.** The complete selected second-action `Cl2`
+> response to the 100 Gauss variables is exact: shape `1274 x 100`, rank 100,
+> 640 nonzero coefficients supported in `H_HN` (280) and `N_NN` (360). Its
+> stationary quadratic pullback is
+> `(15376/13689)||II||^2-(340/4563)||tr II||^2`, with inertia `(54,46)`.
+> Co-moving target/frame/epsilon/observation derivatives vanish at this grade
+> because they multiply the zero residual. This is not the source-total
+> residual, positive energy, Euler/preboundary equivalence or helicity two.
+> Next type and compute other-Clifford-grade support. Ledger v0.39;
+> `SOURCE-CONFIRMS` norm-square architecture and is silent on the owner map.
+
+> **NEXT-RUN METHOD.** Layer-0 type the selected bosonic `Cl2` residual against
+> the source-total bosonic-plus-fermionic residual, enumerate other Clifford
+> grades by observer-stabilizer type, prove type-forced zero blocks, and
+> assemble any surviving blocks with sparse exact arithmetic. Compose them
+> with the complete selected `Cl2` pullback before comparing the total
+> quadratic invariant span with observer full-`II`. Randomized witnesses are
+> discovery-only; exact Sage/FLINT or analytic certificates decide nulls.
+> Mandatory pre/post lenses:
 > differential geometry, representation theory, variational PDE, symplectic
 > geometry, Krein/operator theory and source criticism. Do not open Euler or
 > preboundary promotion from a projected block, and do not open global domain
 > or odd BV/BFV before exact helicity two.
 
-> **CURRENT SECOND-LAYER GAUSS OWNER FENCE.** The canonical Gauss insertion
+> **PREDECESSOR SECOND-LAYER GAUSS OWNER FENCE.** The canonical Gauss insertion
 > maps the rank-100 observer full-`II` carrier isometrically into the complete
 > rank-1,274 `Cl2` residual carrier. Its orthogonal projected quadratic form is
 > exactly `kappa_1^2[(15376/13689)||II||^2-(448/4563)||tr II||^2]` with

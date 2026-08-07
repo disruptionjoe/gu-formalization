@@ -7,17 +7,23 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
-> **NEXT RUN: REPRESENTATION-BLOCKED FULL RESIDUAL ASSEMBLY.** Decompose the
-> 1,274-dimensional residual target by Clifford grade and observer-stabilizer
-> type, prove zero blocks, and assemble surviving blocks exactly with co-moving
-> epsilon/frame/observation included from the start. Use sparse exact arithmetic
-> and Sage/FLINT certificates; randomized witnesses are discovery-only. Certify
-> completeness and decide whether the `2/39` leakage cancels, is gauge, or
-> survives. Only then compare the complete quadratic invariant span with
-> observer full-`II`; only a carrier survivor advances to Euler/preboundary and
-> helicity; only exact helicity two opens common-domain or BV/BFV work. Source
-> may inspect Weinstein's relevant connection guidance in parallel, while
-> Compose moves the ledger only on an actual distance or premise change.
+> **2026-08-07 SELECTED CL2 PULLBACK COMPLETE; OTHER GRADES NEXT.**
+> [`explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md`](explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md)
+> derives and exhaustively verifies the complete sparse `1,274 x 100`
+> selected-`Cl2` target: rank 100, 640 nonzeros, and stationary quadratic form
+> `kappa_1^2[(15376/13689)||II||^2-(340/4563)||tr II||^2]` with inertia
+> `(54,46)`. Co-moving geometry drops exactly at this grade. Ledger v0.39
+> moves five distances only. Next Layer-0 type the source-total residual,
+> enumerate other Clifford grades and compute any survivors before cubic,
+> Euler, preboundary or helicity work. Domain/BV/BFV remains conditional on
+> exact helicity two.
+
+> **NEXT RUN: TOTAL-RESIDUAL OTHER-GRADE TYPING.** Separate the selected
+> bosonic `Cl2` residual from the source's bosonic-plus-fermionic total
+> residual. Enumerate other Clifford grades by observer-stabilizer type, prove
+> zero blocks without the killed full-Spin shortcut, and compute any surviving
+> blocks with sparse exact arithmetic. Compose them with the completed `Cl2`
+> map before any higher variational or physical-carrier promotion.
 
 > **2026-08-06 SECOND-LAYER GAUSS OWNER MAP TYPE CORRECTION.**
 > [`explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`](explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md)

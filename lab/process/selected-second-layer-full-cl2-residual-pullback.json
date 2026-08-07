@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "FULL_II_PLUS_TRACE__SELECTED_CL2_COMPLETE__TOTAL_RESIDUAL_OTHER_GRADES_OPEN",
+  "source_return": "SOURCE-CONFIRMS_NORM_SQUARE__SOURCE_SILENT_ON_OWNER_MAP",
+  "layer0": {
+    "proved_object": "SELECTED_BOSONIC_CL2_STATIONARY_QUADRATIC_RESIDUAL_PULLBACK",
+    "distinct_rivals": [
+      "TOTAL_BOSONIC_PLUS_FERMIONIC_RESIDUAL",
+      "OTHER_CLIFFORD_GRADES",
+      "CUBIC_EULER_PREBOUNDARY_COVARIANT_PHASE_SPACE",
+      "PHYSICAL_HELICITY_TWO_QUOTIENT"
+    ]
+  },
+  "exact_result": {
+    "target_shape": [1274, 100],
+    "target_rank": 100,
+    "nonzero_entries": 640,
+    "support": {"H_HN": 280, "N_NN": 360},
+    "column_support": {"off_diagonal_60_columns": 2, "diagonal_40_columns": 13},
+    "full_ii_coefficient": "15376/13689",
+    "trace_square_coefficient": "-340/4563",
+    "orthogonal_leakage_trace_increment": "4/169",
+    "relative_trace_eigenvalue": "11296/13689",
+    "relative_traceless_eigenvalue": "15376/13689",
+    "native_inertia": [54, 46, 0]
+  },
+  "stationary_comoving": {
+    "result": "TARGET_METRIC_FRAME_EPSILON_AND_OBSERVATION_DERIVATIVES_MULTIPLY_VANISHING_RESIDUAL_AT_QUADRATIC_GRADE",
+    "excluded": ["CUBIC", "EULER", "PREBOUNDARY", "SYMPLECTIC_CURRENT", "HELICITY", "BV", "BFV", "GLOBAL_DOMAIN"]
+  },
+  "disposition": {
+    "fired": "FULL_II_PLUS_TRACE",
+    "closed": "SELECTED_CL2_COMPLETENESS",
+    "open": "TOTAL_RESIDUAL_OTHER_CLIFFORD_GRADE_SUPPORT",
+    "next_gate": "TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT_BEFORE_EULER_PREBOUNDARY_HELICITY"
+  },
+  "checks": {"exact": 10, "planted": 10, "repo": 4, "source": 2, "type": 6, "total": 32, "result": "PASS"},
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE"
+}

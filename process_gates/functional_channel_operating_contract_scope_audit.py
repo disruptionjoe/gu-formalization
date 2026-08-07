@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.38.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.38.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.38.md")
+assert "conditional-physics-ledger-v0.39.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.39.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.39.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -85,7 +85,8 @@ assert "N2_KERNEL_GAUGE4_PLUS_HELICITY1_DOUBLE_NOT_HELICITY2" in contract["stand
 assert "N2_LOCAL_PRINCIPAL_GREEN_FLUX_RANK2_DEFINITE_GAUGE_DESCENDING" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "I2B_GAUSS_PROJECTED_RANK100_INERTIA54_46" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "ORTHOGONAL_CL2_LEAKAGE2_OVER39" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "FULL_1274_BY_100_RESIDUAL_TARGET_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "FULL_CL2_TARGET_1274_BY_100_NNZ640" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -99,7 +100,7 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 assert "Next-Run execution method, ratified by Joe on 2026-08-06" in human
-assert "Randomized\n   witnesses may locate blocks but never certify a null" in human
+assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
 assert "representation theory, variational PDE, symplectic" in context_pack
@@ -118,18 +119,18 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__I2B_GAUSS_PROJECTED_COMPONENT_EXACT__FULL_RESIDUAL_LEAKAGE_LIVE__FULL_RESIDUAL_TARGET_PRIMARY__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
-assert directive["source_return"] == "SOURCE-SILENT"
+assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__SELECTED_CL2_PULLBACK_COMPLETE_FULL_II_PLUS_TRACE__TOTAL_RESIDUAL_OTHER_GRADES_PRIMARY__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN__GLOBAL_PROJECTOR_CONDITIONAL__SUPER_IG_GLOBAL_DESCENT_OPEN"
+assert directive["source_return"] == "SOURCE-CONFIRMS_NORM_SQUARE__SOURCE_SILENT_ON_OWNER_MAP"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "COMPLETE_1274_BY_100_RESIDUAL_PULLBACK_WITH_OTHER_CLIFFORD_GRADES_AND_COMOVING_EPSILON_FRAME_OBSERVATION"
+assert next_method["target"] == "TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_CLIFFORD_GRADE_SUPPORT_BEFORE_HIGHER_VARIATION"
 assert next_method["ordered_steps"] == [
-    "DECOMPOSE_TARGET_BY_CLIFFORD_GRADE_AND_OBSERVER_STABILIZER_TYPE",
+    "LAYER0_TYPE_SELECTED_BOSONIC_CL2_RESIDUAL_VERSUS_TOTAL_BOSONIC_PLUS_FERMIONIC_RESIDUAL",
+    "ENUMERATE_OTHER_CLIFFORD_GRADE_BLOCKS_AND_OBSERVER_STABILIZER_TYPES",
     "PROVE_TYPE_FORCED_ZERO_BLOCKS_WITHOUT_REUSING_THE_KILLED_FULL_SPIN_SCALAR_SHORTCUT",
-    "ASSEMBLE_SPARSE_EXACT_NONZERO_BLOCKS_WITH_COMOVING_EPSILON_FRAME_AND_OBSERVATION_INCLUDED_FROM_START",
-    "CERTIFY_COMPLETENESS_AND_CLASSIFY_THE_2_OVER_39_LEAKAGE_AS_CANCELLED_GAUGE_OR_SURVIVING_INVARIANT",
-    "COMPARE_THE_COMPLETE_QUADRATIC_INVARIANT_SPAN_WITH_OBSERVER_FULL_II",
+    "ASSEMBLE_ANY_SURVIVING_OTHER_GRADE_BLOCKS_WITH_SPARSE_EXACT_ARITHMETIC",
+    "COMPOSE_WITH_THE_COMPLETE_SELECTED_CL2_PULLBACK_AND_RECOMPUTE_THE_TOTAL_QUADRATIC_INVARIANT_SPAN",
     "ONLY_IF_CARRIER_TYPE_SURVIVES_DERIVE_EULER_PREBOUNDARY_AND_NULL_LITTLE_GROUP_HELICITY",
     "ONLY_IF_HELICITY_TWO_SURVIVES_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV",
 ]
@@ -139,14 +140,15 @@ assert next_method["mandatory_reviews"] == [
     "SYMPLECTIC_GEOMETRY", "KREIN_OPERATOR_THEORY", "SOURCE_CRITICISM",
 ]
 assert "NO_GLOBAL_DOMAIN_CAMPAIGN_BEFORE_EXACT_HELICITY_TWO" in next_method["stop_conditions"]
-assert "SOURCE_REINSPECT_MOVING_LEVI_CIVITA_AUGMENTED_TORSION_EPSILON_AND_OBSERVATION_GUIDANCE" in next_method["parallel_source_compose"]
+assert "SOURCE_REINSPECT_WHETHER_WEINSTEIN_TYPES_THE_SECOND_LAYER_AS_BOSONIC_OR_TOTAL_RESIDUAL_BY_GRADE" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "BUILD_FULL_1274_BY_100_RESIDUAL_TARGET" in directive["next_gate"]
-assert "FULL_I2B_QUADRATIC_CUBIC_EULER_PREBOUNDARY_HELICITY" in directive["next_gate"]
-assert "COMMON_RIGHT_H_KREIN_DOMAIN" in directive["next_gate"]
+assert "TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT" in directive["next_gate"]
+assert "COMPLETE_TOTAL_RESIDUAL_QUADRATIC" in directive["next_gate"]
+assert "CUBIC_EULER_PREBOUNDARY_HELICITY" in directive["next_gate"]
+assert "COMMON_DOMAIN" in directive["next_gate"]
 assert "ODD_BV_BFV" in directive["next_gate"]
 assert "ONLY_IF_HELICITY2_SURVIVES" in directive["next_gate"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
@@ -175,6 +177,8 @@ assert "N2_LOCAL_GREEN_FLUX_LIVE" in directive["current_evidence_boundary"]
 assert "I2B_GAUSS_PROJECTED_COMPONENT_EXACT" in directive["current_evidence_boundary"]
 assert "FULL_RESIDUAL_LEAKAGE_LIVE" in directive["current_evidence_boundary"]
 assert "FULL_1274_BY_100_RESIDUAL_TARGET_PRIMARY" in directive["current_evidence_boundary"]
+assert "FULL_CL2_TARGET_1274_BY_100_RANK100_NNZ640" in directive["current_full_cl2_evidence"]
+assert "TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT_PRIMARY" in directive["current_full_cl2_evidence"]
 assert "LOCAL_TT_GIMMEL_DENSITY_D1_ZERO" in directive["latest_build_evidence"]
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in directive["latest_build_evidence"]
 assert "ACTION_SPIN_LC_RANK9_KERNEL_KK" in directive["latest_build_evidence"]
@@ -247,4 +251,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.38 ledger preserve predecessor theorems, retain the N2 helicity-one kill, type the projected Gauss block and its live Cl2 leakage, and route the full residual target without residue or quotient promotion")
+print("PASS: functional channels and v0.39 ledger preserve predecessor theorems, retain the N2 helicity-one kill, close the selected Cl2 pullback, and route total-residual other-grade support without residue or quotient promotion")

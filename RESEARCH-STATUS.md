@@ -8,6 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Active Build/Compose update 2026-08-07 (ledger v0.39; five distance-only
+migrations).** The complete selected `Cl2` second-layer pullback is exact:
+the sparse `1274 x 100` target has rank 100 and 640 nonzero entries, while its
+stationary quadratic form remains a fixed full-`II` plus trace-square
+combination with native inertia `(54,46)`. Co-moving geometry cancels at this
+grade because the residual vanishes. Total-residual other-Clifford-grade
+support, cubic/Euler/preboundary, helicity and all common-domain/BV/BFV claims
+remain open. No verdict, residue, quotient, datum, canon or public-posture
+change follows.
+
 **Active Build/Compose correction 2026-08-06 (ledger v0.38; five distances
 change, no verdict, residue, quotient, datum, canon or public-posture
 change).** The canonical Gauss insertion is an exact rank-100 isometry into

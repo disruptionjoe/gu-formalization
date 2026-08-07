@@ -55,7 +55,9 @@ Runbooks:
 - `fanout_recent_run_metrics.py` - recent fan-out metrics helper.
 - `functional-channel-operating-contract-v1.0.md` - ratified Build/Compose/Source/Verify operating contract, ledger progress rules, dispatch and dynamic-cosmological-sector directive.
 - `functional-channel-operating-contract-v1.0.json` - machine-readable functional-channel, source-return, reservation, reconciliation and directive contract.
-- `conditional-physics-ledger-v0.38.json` - current machine ledger; the rank-100 Gauss projection is exact but a `2/39` orthogonal `Cl2` leakage witness blocks its identification with the full second-layer I2B pullback; `32/19/25/6`, residue `84 + >=19 functions + 9 forks`, four ranked quotients and unused P1/P2/P3 remain fixed.
+- `conditional-physics-ledger-v0.39.json` - current machine ledger; the complete selected `Cl2` pullback is rank 100 with 640 nonzeros and remains full-II plus trace-square, while total-residual other-grade support is primary; headline counts, residue, four quotients and P1/P2/P3 remain fixed.
+- `selected-second-layer-full-cl2-residual-pullback.json` - exact sparse-support, Gram, inertia and stationary co-moving receipt; higher variational grades and the total-residual rival remain open.
+- `conditional-physics-ledger-v0.38.json` - immutable predecessor; the rank-100 Gauss projection is exact but a `2/39` orthogonal `Cl2` leakage witness blocks its identification with the full second-layer I2B pullback.
 - `selected-second-layer-i2b-gauss-owner-map.json` - exact rank-100 Gauss projection, trace-reversed coefficients, inertia and wrong-type leakage receipt; the full 1,274-by-100 residual target remains open.
 - `conditional-physics-ledger-v0.37.json` - immutable predecessor; the positive N2 two-mode locus is exactly helicity one rather than spin two, making the distinct second-layer owner map primary.
 - `selected-action-n2-null-little-group-green.json` - exact compact null-rotation and local principal Green-flux receipt; N2 is killed as the first-layer spin-two carrier while the distinct second action layer remains open.

@@ -7,6 +7,15 @@ updated_at: "2026-08-06"
 
 # Explorations
 
+## Selected second-layer full-Cl2 residual pullback (2026-08-07)
+
+`conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md`
+derives the complete sparse rank-100 `Cl2` response and its exact full-II plus
+trace-square Gram form. The 640 nonzero entries close the earlier leakage gate
+but retain inertia `(54,46)` and a nonzero trace correction. Ledger v0.39 moves
+five distances and routes the next Build to total-residual other-grade support
+before Euler, preboundary, helicity or domain work.
+
 ## Selected second-layer I2B/Gauss owner map (2026-08-06)
 
 `conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`
