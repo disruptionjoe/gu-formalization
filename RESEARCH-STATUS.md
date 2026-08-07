@@ -8,15 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose correction 2026-08-07 (ledger v0.44; five distance/priority
-migrations).** The v0.43 rank-four connection orbit was a covector-slot-only
-proxy. The source-native independent connection lift `L D` has rank three and
-kernel the time generator, whereas the metric Ward load has rank four and is
-nonzero on that kernel for every nonzero rest momentum. Connection-only
-selected-`Upsilon` cancellation is therefore impossible at this principal
-grade. The next Build constructs the actual section/observation tangent on the
-missing gauge direction and tests combined naturality before transverse work.
-No verdict, residue, quotient, datum, canon or public-posture change follows.
+**Active Build/Compose correction 2026-08-07 (ledger v0.45; five
+distance/priority migrations).** The metric and graph-section diffeomorphism
+tangents are the same rank-four column, and invertible observation transports
+rather than cancels a Ward defect. An independent observation action field is
+therefore rejected. A dependent moving-section contribution remains possible
+through the source residual's ambient normal first jet, which the current
+on-section full-`II` pullback does not determine. The next Build constructs
+that source-native normal jet and total metric-section derivative before
+owner-map comparison or transverse work. No verdict, residue, quotient,
+datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose correction 2026-08-07 (ledger v0.44; five
+distance/priority migrations).** The actual connection lift has rank three and
+cannot cancel the conditional rank-four metric load on its time kernel.
 
 **Predecessor Build/Compose update 2026-08-07 (ledger v0.43; five
 distance/priority migrations).** The rank-four diagnostic weld remains exact

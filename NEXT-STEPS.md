@@ -7,23 +7,27 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 SOURCE-CORRECTED CONNECTION-RANK MISMATCH.**
-> [`explorations/conditional-build/selected-second-layer-actual-source-lift-rank-mismatch-2026-08-07.md`](explorations/conditional-build/selected-second-layer-actual-source-lift-rank-mismatch-2026-08-07.md)
-> finds that v0.43's rank-four connection orbit was the already superseded
-> covector-slot-only proxy. In the source-native variables `(g,varpi)`, the
-> independent connection lift `L D` has rank three and kills the time
-> generator, while the metric Ward load is nonzero on that generator for all
-> nonzero rest momenta. No connection derivative can cancel it at this
-> principal grade. This kills only the connection-only route, not the full
-> section/observation action. Ledger v0.44 moves five distances/priorities;
-> headline counts, residue, four scoped quotients and P1/P2/P3 remain fixed.
+> **2026-08-07 OBSERVATION-OWNER RETYPE.**
+> [`explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md)
+> proves that the metric and its graph section carry the same rank-four
+> diffeomorphism tangent. Complete observation is an invertible receiver and
+> transports rather than cancels a Ward defect, so no independent observation
+> action column may be added. A dependent moving-section term remains live
+> through the ambient normal first jet of `Upsilon`, but the current on-section
+> full-`II` pullback does not determine it. Ledger v0.45 moves five
+> distances/priorities; headline counts, residue, four scoped quotients and
+> P1/P2/P3 remain fixed.
 
-> **NEXT RUN: ACTUAL SECTION/OBSERVATION GAUGE COLUMN.** Construct the
-> section/observation diffeomorphism tangent on the time generator in the
-> kernel of `L D`, then differentiate the selected `Upsilon` on the combined
-> orbit. A mismatch forces a separately typed route correction; a match opens
-> transverse source variables and the scalar/massless constraint complex.
+> **NEXT RUN: SOURCE-NATIVE NORMAL JET.** Construct `j^1 Upsilon` in the
+> observation-normal directions, assemble its dependent total metric-section
+> derivative on the time generator in `ker(L D)`, and then test all four
+> diffeomorphism generators. Compare that source derivative with the
+> conditional full-`II` owner map before transverse or scalar work.
 > Symplectic review remains mandatory.
+
+> **PREDECESSOR — 2026-08-07 SOURCE-CORRECTED CONNECTION-RANK MISMATCH.**
+> The v0.44 theorem still kills connection-only cancellation on the time
+> generator; only its ambiguous section/observation successor is retyped.
 
 > **PREDECESSOR — 2026-08-07 RANK-FOUR PROXY WELD.** The v0.43 theorem remains
 > exact on its diagnostic covector-slot carrier, but that carrier is not the

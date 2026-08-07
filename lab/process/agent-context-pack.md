@@ -9,16 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT CONNECTION-ONLY RANK-MISMATCH FENCE.** The v0.43 rank-four
-> connection orbit was a covector-slot-only proxy. In source-native variables
-> `(g,varpi)`, the independent connection diffeomorphism component `L D` has
-> rank three and kills the time generator. The metric Ward load has rank four
-> and is nonzero on that generator for every nonzero rest momentum, so no
-> connection derivative can cancel it at this principal grade. This is not a
-> full-action no-go. Ledger v0.44; next construct the actual
-> section/observation tangent on the missing gauge direction and test combined
-> selected-`Upsilon` naturality. Scalar, massless-constraint, domain and BV/BFV
-> claims remain downstream.
+> **CURRENT OBSERVATION-OWNER FENCE.** The metric and its graph section have
+> the same rank-four diffeomorphism tangent; observation is not a second action
+> field. Its invertible equation receiver transports rather than cancels a
+> Ward defect. A dependent moving-section contribution remains live through
+> the ambient normal first jet of `Upsilon`, including on the time generator
+> missed by the rank-three connection lift, but the on-section full-`II` map
+> does not determine that jet. Ledger v0.45; next construct source-native
+> `j^1 Upsilon`, its total metric-section derivative, and the owner-map
+> comparison. Scalar, massless-constraint, domain and BV/BFV claims remain
+> downstream.
+
+> **PREDECESSOR CONNECTION-RANK FENCE.** Connection-only cancellation remains
+> impossible on the time generator at the current principal grade. Ledger
+> v0.44.
 
 > **PREDECESSOR OFF-TT WARD/OWNER FENCE.** The metric-only pullback of the selected
 > second-layer residual exactly reproduces the TT polynomial, but the full
@@ -37,10 +41,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Construct the actual section/observation
-> diffeomorphism tangent on the time generator in the kernel of the rank-three
-> connection lift. Differentiate the selected `Upsilon` on the combined orbit
-> and test all four generators coefficientwise. Extend to transverse source
+> massive-spin-two blocks. Construct the source-native first normal jet of
+> `Upsilon` along the metric graph section and assemble the dependent total
+> metric-section derivative on the time generator in the kernel of the
+> rank-three connection lift. Test all four generators coefficientwise and
+> compare with the conditional full-`II` owner map. Extend to transverse source
 > variables only after that cheap decisive comparison passes.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.

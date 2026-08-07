@@ -42,11 +42,16 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-observation-owner-retype.json` - rejects an
+  independent observation action field, preserves the dependent moving-section
+  normal-jet route, and selects the source-native `j1 Upsilon` successor.
+- `conditional-physics-ledger-v0.45.json` - current append-only conditional
+  physics ledger after the observation-owner correction.
 - `selected-second-layer-actual-source-lift-rank-mismatch.json` - source-
   corrected rank-three independent-connection lift, its time-direction kernel,
   the nonzero metric Ward load there, and the section/observation successor.
-- `conditional-physics-ledger-v0.44.json` - current append-only conditional
-  physics ledger after the connection-only route correction.
+- `conditional-physics-ledger-v0.44.json` - immutable predecessor ledger after
+  the connection-only route correction.
 - `selected-second-layer-dupsilon-gauge-orbit-weld.json` - exact rank-four
   metric/proxy orbit matching and unique diagnostic proxy weld.
 - `conditional-physics-ledger-v0.43.json` - immutable predecessor ledger after

@@ -1784,3 +1784,12 @@ enforces the source correction from the rank-four covector-slot proxy to the
 rank-three independent connection lift, its time kernel and the mandatory
 section/observation successor. It forbids inflating the connection-only route
 kill to a full-action, scalar, domain, BV/BFV, datum, quotient or posture result.
+
+## Selected second-layer observation-owner retype and ledger v0.45 gate
+
+`selected_second_layer_observation_owner_retype_scope_audit.py` enforces the
+metric/graph-section identity, rejects an independent observation action
+column, preserves the source-normal-jet chain-rule route, and routes the next
+Build to source-native `j1 Upsilon` before the conditional full-`II` owner-map
+comparison. It requires the symplectic lens and forbids scalar, domain, BV/BFV,
+datum, quotient or posture inflation.
