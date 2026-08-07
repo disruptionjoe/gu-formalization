@@ -12,7 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
-- `selected_k77_source_graph_basicness_scope_audit.py` audits the v0.58
+- `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py` audits
+  the v0.59 source-owned labelled-reduction quotient, persistent horizontal-
+  plane forgetful failure, closed invariant-replacement horn, mandatory
+  symplectic fence and frozen ledger/datum/lane/posture boundary.
+
+- `selected_k77_source_graph_basicness_scope_audit.py` audits the predecessor v0.58
   full-frame covariance versus quotient-basicness split, source
   epsilon/soldering uncertainty, unbookable surplus, mandatory symplectic
   review and frozen ledger/datum/lane/posture boundary.
@@ -185,6 +190,7 @@ selected notes below and in each script header.
 - `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py`
 - `selected_k77_source_graph_basicness_scope_audit.py`
 - `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
 - `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
@@ -1928,3 +1934,13 @@ basicness, records the horizontal and normal rank-four stabilizer defects,
 keeps source gauge `epsilon` distinct from observation soldering, refuses to
 book positive quotient surplus, requires the symplectic basicness review, and
 freezes verdicts, residue, quotients, datum, canon and posture.
+
+## K77 full-reduction quotient reconciliation and ledger v0.59 gate
+
+`selected_k77_full_reduction_quotient_reconciliation_scope_audit.py` requires
+the source-owned labelled Clifford reduction and its central `U(1)` stabilizer
+to remain distinct from the horizontal-plane forgetful quotient. It preserves
+v0.58's normal defect, requires the exact invariant-target-span obstruction,
+counts no orbit-transport surplus, keeps observation Euler/preboundary and
+symplectic descent open, and freezes verdicts, residue, quotients, datum, canon
+and posture.

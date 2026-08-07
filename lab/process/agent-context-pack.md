@@ -14,10 +14,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> The pointwise and full-frame graph gates are now closed by ledger v0.58, but
-> quotient basicness fails. The accepted next sequence is source gauge
-> `epsilon` to observation/soldering ownership or an invariant-Hom replacement; then survivor-only Euler,
-> preboundary, Ward/Bianchi, BV and symplectic descent. Generic carrier search
+> Ledger v0.59 reconciles the graph quotients. The source-owned full labelled
+> Clifford reduction makes the paired graph basic modulo its central `U(1)`
+> stabilizer; forgetting that reduction to the horizontal plane still fails.
+> The invariant-Hom replacement horn is closed for the same targets. The
+> accepted next sequence is total raw-`Upsilon` Bianchi/naturality plus the
+> null screen, then observation Euler/preboundary, BV and symplectic descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -35,12 +37,13 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > coefficients, with supports `57,34,34,34`, rank four and zero coefficient
 > freedom at fixed background. Its full-frame three-patch extension is exact,
 > but two horizontal stabilizers and one normal stabilizer produce rank-four
-> defects; the normal rotation fixes the horizontal four-plane. The fitted map
-> is not basic and lies outside the exact three-dimensional block-invariant Hom
-> span. Source gauge `epsilon` is not yet identified with observation
-> soldering. No positive quotient surplus, Euler class, quotient, datum or
-> physics recovery follows. Next own that identification or build an invariant
-> replacement.
+> defects; the normal rotation fixes the horizontal four-plane. That exact
+> failure applies after forgetting the full labelled reduction. The already-
+> built source-owned `gamma_epsilon=Ad(epsilon^-1)gamma_0` has central `U(1)`
+> stabilizer with trivial adjoint action, so the paired full-reduction graph is
+> basic. Spencer uniqueness closes the invariant-replacement horn. No Euler
+> class, physical quotient, datum or physics recovery follows. Next test total
+> raw-`Upsilon` Bianchi/naturality and construct the null screen.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -90,8 +93,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract epsilon-to-observation-soldering
-> ownership or stabilizer-invariant graph replacement target; historical campaign-local
+> next gate is the functional-contract total raw-`Upsilon` and null-screen
+> target on the source-owned full reduction; historical campaign-local
 > pointers are not queue truth.
 
 > **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
@@ -140,14 +143,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > q-exact principal connection theorem, the zero invariant branch-tangent
 > operator packet, the unrestricted Cartan/Spencer owner for all 117, and the
 > exact corrected pointwise fixed-epsilon source-varpi lifts and their exact
-> full-frame three-patch extension. Never reuse the old v0.55/v0.56
-> coefficient packets or call framed transport quotient descent. Construct an
-> action-owned epsilon-to-observation-soldering map with an admissible
-> stabilizer, or an invariant-Hom replacement reproducing the four targets.
-> Retest quotient basicness and the non-descending plant. Do not substitute the
+> full-frame three-patch extension. Preserve the v0.59 reconciliation: the
+> source-owned full labelled reduction has central adjoint stabilizer and the
+> paired graph descends, while the horizontal-plane forgetful quotient fails
+> and no invariant-Hom replacement reproduces the targets. Never reuse the old
+> v0.55/v0.56 coefficient packets or forget `gamma_epsilon` before its
+> variational degeneracy is derived. Construct total raw-`Upsilon`
+> Bianchi/naturality on all four columns and a null characteristic screen
+> without non-null normalization. Do not substitute the
 > Levi-Civita subclass: its linearized torsion-free response is q-exact. Plant
-> a carrier-fitting but non-descending tangent. Only a lawful survivor advances
-> to Euler/preboundary, total Bianchi/raw-`Upsilon`, BV and symplectic descent;
+> a forgetful-plane quotient and an auxiliary-complement-dependent null screen.
+> Only a lawful survivor advances to observation Euler/preboundary, BV and symplectic descent;
 > otherwise require a separately source-owned higher jet. Do not use
 > background subtraction without an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled

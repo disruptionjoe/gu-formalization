@@ -15,7 +15,15 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.58. The corrected K77
+Current append-only progress surface: ledger v0.59. The already-built
+source-owned full labelled Clifford reduction has central `U(1)` stabilizer
+with trivial adjoint action, so the paired graph is basic. The horizontal-
+plane forgetful quotient still fails, and exact Spencer uniqueness closes the
+invariant-Hom replacement horn for the same four targets. Next is total raw-
+`Upsilon` Bianchi/naturality plus the null screen. See
+`selected-k77-full-reduction-quotient-reconciliation.json`.
+
+Predecessor append-only progress surface: ledger v0.58. The corrected K77
 four-column source lift has exact full-frame three-patch transport, but fails
 unframed block-stabilizer basicness. The fitted map is outside the exact
 three-dimensional invariant Hom span, and a normal stabilizer fixes the

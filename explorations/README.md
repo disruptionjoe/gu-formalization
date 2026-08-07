@@ -7,7 +7,17 @@ updated_at: "2026-08-07"
 
 # Explorations
 
-## K77 source-graph covariance and basicness (2026-08-07)
+## K77 full-reduction quotient reconciliation (2026-08-07)
+
+`conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md`
+composes the source-owned full labelled Clifford reduction with the v0.58
+source lift. The paired object descends modulo a central `U(1)` stabilizer,
+while its horizontal-plane forgetful image still fails basicness. Exact
+Spencer uniqueness closes the invariant-Hom replacement horn. Ledger v0.59
+routes the next Build to total raw-`Upsilon` Bianchi/naturality and the null
+screen without moving verdicts, residue, quotients, datum or posture.
+
+## Predecessor: K77 source-graph covariance and basicness (2026-08-07)
 
 `conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`
 constructs exact full-frame three-patch transport for the corrected K77

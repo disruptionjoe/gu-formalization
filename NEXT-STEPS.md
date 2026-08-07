@@ -12,10 +12,12 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> The pointwise and full-frame graph gates are now closed by ledger v0.58, but
-> quotient basicness fails. The remaining sequence is: source-`epsilon` to
-> observation/soldering ownership or an invariant-Hom replacement; then survivor-only Euler/preboundary,
-> Ward/Bianchi, BV and symplectic descent. Generic carrier search is closed.
+> Ledger v0.59 reconciles the quotient fork: the source-owned full labelled
+> Clifford reduction makes the paired graph basic modulo its central
+> stabilizer, while the horizontal-plane forgetful quotient still fails. The
+> invariant-Hom replacement horn is closed. The remaining sequence is total
+> raw-`Upsilon` Bianchi/naturality plus the null screen, then observation
+> Euler/preboundary, BV and symplectic descent. Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
 > evidence.
@@ -37,14 +39,28 @@ updated_at: "2026-08-07"
 > four and zero coefficient freedom at fixed nonzero background. This is local
 > realizability, not source selection or global integrability.
 
-> **2026-08-07 FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
+> **2026-08-07 FULL-REDUCTION QUOTIENT RECONCILIATION (ledger v0.59).**
+> [`explorations/conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md`](explorations/conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md)
+> composes v0.58 with the already-built source-owned
+> `gamma_epsilon=Ad(epsilon^-1)gamma_0`. The labelled reduction has central
+> `U(1)` stabilizer with trivial adjoint action, so the paired graph descends.
+> Forgetting to the horizontal plane still fails, and no invariant-Hom map
+> reproduces the four targets.
+
+> **NEXT RUN: TOTAL RAW-UPSILON AND NULL SCREEN.** On the source-owned full
+> reduction, test total raw-`Upsilon` Bianchi/naturality on all four columns and
+> construct the null characteristic screen without non-null normalization.
+> Only a survivor advances to observation Euler/preboundary/symplectic and
+> common-domain descent. Symplectic review is mandatory.
+
+> **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)
 > proves exact full-frame three-patch transport but finds rank-four defects
 > under two horizontal stabilizers and a normal stabilizer that fixes the
 > observed four-plane. The fitted map is outside the three-dimensional
 > block-invariant Hom span. No positive quotient surplus is booked.
 
-> **NEXT RUN: EPSILON-SOLDERING OWNERSHIP OR INVARIANT REPLACEMENT.** Either
+> **CLOSED BY v0.59: EPSILON-SOLDERING OWNERSHIP OR INVARIANT REPLACEMENT.** Either
 > construct an action-owned map identifying source gauge `epsilon` with the
 > observation/soldering frame and determine its stabilizer, or fit the four K77
 > targets inside the invariant Hom space. Only a quotient-basic survivor

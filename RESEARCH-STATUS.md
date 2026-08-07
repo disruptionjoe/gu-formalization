@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-07 (ledger v0.58; five distance/mapping-
+**Current Build/Compose reconciliation 2026-08-07 (ledger v0.59; five
+distance/mapping-grade/evidence migrations).** The already-built source-owned
+full labelled Clifford reduction corrects v0.58's ownership fence. Its
+stabilizer is scalar `U(1)` and acts trivially on the adjoint lift, so the
+paired `(gamma_epsilon,L_epsilon)` graph is basic on the source configuration
+orbit. The horizontal-plane forgetful quotient still has v0.58's rank-four
+80-entry normal defect. Spencer uniqueness and an exact target-span `3 -> 4`
+rank test close the invariant-replacement horn for these targets. Next test
+total raw-`Upsilon` Bianchi/naturality and the null screen before observation
+Euler/preboundary/symplectic descent. No verdict, residue, quotient, datum,
+canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-07 (ledger v0.58; five distance/mapping-
 grade/evidence migrations).** The corrected K77 four-column source lift has
 an exact full-`epsilon`-frame three-patch extension, but it is not basic on the
 unframed quotient. Two horizontal stabilizers give rank-four defects with 118
