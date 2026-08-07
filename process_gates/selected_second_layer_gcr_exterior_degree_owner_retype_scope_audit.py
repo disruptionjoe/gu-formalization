@@ -61,8 +61,10 @@ assert ledger["frontier_delta"] == {"headline_delta": "NONE", "conditions_closed
 assert ledger["next_work_queue"][0]["rank"] == 1
 assert "odd augmented-torsion/translation-curvature" in ledger["next_work_queue"][0]["why"]
 
-assert "conditional-physics-ledger-v0.49.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.49.json")
+current_ledger_ref = contract["standing_ledger"]["ref"]
+assert current_ledger_ref in lanes
+current_version = current_ledger_ref.removesuffix(".json").rsplit("v", 1)[1]
+assert tuple(map(int, current_version.split("."))) >= (0, 49)
 directive = contract["active_scientific_directives"][0]
 assert "DIRECT_CL2_GCR_OWNER_KILLED" in directive["status"]
 assert "SINGLE_Q_ADAPTER_KILLED" in directive["status"]

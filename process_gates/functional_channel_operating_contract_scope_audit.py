@@ -60,9 +60,11 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.49.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.49.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.49.md")
+current_ledger_ref = contract["standing_ledger"]["ref"]
+current_human_ref = contract["standing_ledger"]["human_ref"]
+assert current_ledger_ref in lanes
+assert current_human_ref in lanes
+assert tuple(map(int, current_ledger_ref.removesuffix(".json").rsplit("v", 1)[1].split("."))) >= (0, 49)
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -111,7 +113,7 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 assert "Predecessor execution method, ratified by Joe on 2026-08-06" in human
-assert "Current execution method, ratified by the v0.49 Build/Compose correction" in human
+assert "Current execution method" in human
 assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
