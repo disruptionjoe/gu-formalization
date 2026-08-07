@@ -489,6 +489,33 @@ Current gate:
 BUILD_FULL_1274_BY_100_RESIDUAL_TARGET_PLUS_OTHER_GRADE_SUPPORT_AND_COMOVING_EPSILON_FRAME_OBSERVATION__THEN_DERIVE_FULL_I2B_QUADRATIC_CUBIC_EULER_PREBOUNDARY_HELICITY__TEST_COMMON_RIGHT_H_KREIN_DOMAIN_AND_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
+Next-Run execution method, ratified by Joe on 2026-08-06:
+
+1. Decompose the full residual target by Clifford grade and observer-stabilizer
+   representation before assembling matrices. Type-forced zero blocks may be
+   removed only by proof; do not reuse the full-Spin scalar shortcut killed by
+   the fixed-epsilon cross term.
+2. Include co-moving epsilon, frame and observation contributions in the
+   primary target. Frozen-frame results are controls, not the construction.
+3. Assemble the surviving blocks with sparse exact arithmetic. Randomized
+   witnesses may locate blocks but never certify a null; prefer Sage/FLINT
+   certificates and use the unreduced full matrix only if block reduction
+   fails.
+4. Certify completeness and classify the exact `2/39` leakage as cancelled,
+   gauge, or a surviving invariant. Then compare the complete quadratic
+   invariant span with observer full-`II`.
+5. Only a carrier-level survivor advances to Euler and preboundary comparison
+   and null-little-group helicity. Only exact helicity two opens the common
+   Krein/domain and odd BV/BFV campaign.
+
+Source may re-inspect Weinstein's moving Levi-Civita, augmented-torsion,
+epsilon and observation guidance in parallel. Compose migrates the ledger only
+if that work or the Build changes a row distance or high-fanout premise.
+Mandatory review lenses are differential geometry, representation theory,
+variational PDE, symplectic geometry, Krein/operator theory and source
+criticism. A projected quadratic match is never an Euler, preboundary,
+presymplectic or physical-phase-space result.
+
 The next work has three independent owners. The first-layer gravitational
 `N2` locus is now exactly typed as a helicity-one doublet, not spin two. Its
 rank-two local principal Green flux is definite and gauge-descending, but a

@@ -98,6 +98,11 @@ assert "include a symplectic-geometry lens" in human
 assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
+assert "Next-Run execution method, ratified by Joe on 2026-08-06" in human
+assert "Randomized\n   witnesses may locate blocks but never certify a null" in human
+assert "Only exact helicity two opens" in human
+assert "NEXT-RUN METHOD" in context_pack
+assert "representation theory, variational PDE, symplectic" in context_pack
 
 donor = contract["cross_theory_mechanism_donor_policy"]
 assert donor["standing_role"] == "BOUNDED_COMPOSE_CHECKPOINT__NOT_A_LANE"
@@ -117,6 +122,24 @@ assert directive["status"] == "N2_HELICITY1_NOT_SPIN2__I2B_GAUSS_PROJECTED_COMPO
 assert directive["source_return"] == "SOURCE-SILENT"
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
+next_method = directive["next_run_method"]
+assert next_method["target"] == "COMPLETE_1274_BY_100_RESIDUAL_PULLBACK_WITH_OTHER_CLIFFORD_GRADES_AND_COMOVING_EPSILON_FRAME_OBSERVATION"
+assert next_method["ordered_steps"] == [
+    "DECOMPOSE_TARGET_BY_CLIFFORD_GRADE_AND_OBSERVER_STABILIZER_TYPE",
+    "PROVE_TYPE_FORCED_ZERO_BLOCKS_WITHOUT_REUSING_THE_KILLED_FULL_SPIN_SCALAR_SHORTCUT",
+    "ASSEMBLE_SPARSE_EXACT_NONZERO_BLOCKS_WITH_COMOVING_EPSILON_FRAME_AND_OBSERVATION_INCLUDED_FROM_START",
+    "CERTIFY_COMPLETENESS_AND_CLASSIFY_THE_2_OVER_39_LEAKAGE_AS_CANCELLED_GAUGE_OR_SURVIVING_INVARIANT",
+    "COMPARE_THE_COMPLETE_QUADRATIC_INVARIANT_SPAN_WITH_OBSERVER_FULL_II",
+    "ONLY_IF_CARRIER_TYPE_SURVIVES_DERIVE_EULER_PREBOUNDARY_AND_NULL_LITTLE_GROUP_HELICITY",
+    "ONLY_IF_HELICITY_TWO_SURVIVES_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV",
+]
+assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
+assert next_method["mandatory_reviews"] == [
+    "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
+    "SYMPLECTIC_GEOMETRY", "KREIN_OPERATOR_THEORY", "SOURCE_CRITICISM",
+]
+assert "NO_GLOBAL_DOMAIN_CAMPAIGN_BEFORE_EXACT_HELICITY_TWO" in next_method["stop_conditions"]
+assert "SOURCE_REINSPECT_MOVING_LEVI_CIVITA_AUGMENTED_TORSION_EPSILON_AND_OBSERVATION_GUIDANCE" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]

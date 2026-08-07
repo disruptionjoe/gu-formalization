@@ -9,6 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-06)
 
+> **NEXT-RUN METHOD.** Do not brute-force the frozen-frame 1,274-by-100 map.
+> First decompose the complete residual target by Clifford grade and observer-
+> stabilizer type, prove type-forced zero blocks, and assemble the surviving
+> blocks with sparse exact arithmetic. Include co-moving epsilon, frame and
+> observation contributions from the start; frozen-frame arithmetic is a
+> control. Certify completeness and classify the `2/39` leakage as cancelled,
+> gauge, or surviving before comparing the full quadratic invariant span with
+> observer full-`II`. Randomized witnesses are discovery-only; exact Sage/
+> FLINT or analytic certificates decide nulls. Mandatory pre/post lenses:
+> differential geometry, representation theory, variational PDE, symplectic
+> geometry, Krein/operator theory and source criticism. Do not open Euler or
+> preboundary promotion from a projected block, and do not open global domain
+> or odd BV/BFV before exact helicity two.
+
 > **CURRENT SECOND-LAYER GAUSS OWNER FENCE.** The canonical Gauss insertion
 > maps the rank-100 observer full-`II` carrier isometrically into the complete
 > rank-1,274 `Cl2` residual carrier. Its orthogonal projected quadratic form is

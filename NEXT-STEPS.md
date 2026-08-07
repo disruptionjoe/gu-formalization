@@ -7,6 +7,18 @@ updated_at: "2026-08-06"
 
 # Next Steps For Contributors
 
+> **NEXT RUN: REPRESENTATION-BLOCKED FULL RESIDUAL ASSEMBLY.** Decompose the
+> 1,274-dimensional residual target by Clifford grade and observer-stabilizer
+> type, prove zero blocks, and assemble surviving blocks exactly with co-moving
+> epsilon/frame/observation included from the start. Use sparse exact arithmetic
+> and Sage/FLINT certificates; randomized witnesses are discovery-only. Certify
+> completeness and decide whether the `2/39` leakage cancels, is gauge, or
+> survives. Only then compare the complete quadratic invariant span with
+> observer full-`II`; only a carrier survivor advances to Euler/preboundary and
+> helicity; only exact helicity two opens common-domain or BV/BFV work. Source
+> may inspect Weinstein's relevant connection guidance in parallel, while
+> Compose moves the ledger only on an actual distance or premise change.
+
 > **2026-08-06 SECOND-LAYER GAUSS OWNER MAP TYPE CORRECTION.**
 > [`explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`](explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md)
 > constructs the canonical rank-100 Gauss insertion into the 1,274-dimensional
