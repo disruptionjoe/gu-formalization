@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "FULL_UNRESTRICTED_CARTAN_SPENCER_CARRIER_OWNER__LEVI_CIVITA_SUBCLASS_Q_EXACT__INDEPENDENT_VARPI_OR_AMBIENT_NORMAL_JET_OPEN",
+  "source_return": "SOURCE-CONFIRMS__TWO_CONNECTION_TRANSLATION_CURVATURE_AND_NONZERO_T_BRANCH__SOURCE-SILENT__ACTUAL_FOUR_COLUMN_INDEPENDENT_VARPI_SOLDERING_OBSERVATION_NORMAL_JET",
+  "predecessor": "lab/process/selected-invariant-constituent-operator-naturality.json",
+  "selected_background": {
+    "T_star": "-(kappa_1/312)Phi1",
+    "required_condition": "kappa_1 != 0",
+    "principal_owner": "q wedge delta T",
+    "algebraic_owner": "[delta B,T_star]"
+  },
+  "exact_result": {
+    "cartan_spencer_domain_dimension": 1274,
+    "cartan_spencer_codomain_dimension": 1274,
+    "cartan_spencer_rank": 1274,
+    "transverse_support": 117,
+    "transverse_preimage_supports": [57, 34, 34, 34],
+    "transverse_preimage_family_rank": 4,
+    "complete_packet_support": 145,
+    "levi_civita_transverse_intersection": 0
+  },
+  "next_gate": "CONSTRUCT_ACTUAL_INDEPENDENT_VARPI_SOLDERING_OBSERVATION_NORMAL_JET_ON_FOUR_COLUMNS__COMPARE_KOSZUL_PREIMAGES__THEN_RAW_UPSILON_BIANCHI_AND_NULL_SCREEN",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 4, "conditions_opened": 0, "remaining_named_conditions": 3},
+  "rerun": "48/48 PASS"
+}

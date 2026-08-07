@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected nonzero-background Cartan/Spencer owner (2026-08-07)
+
+`conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`
+constructs the exact rank-1,274 unrestricted connection response at nonzero
+`T*`, reproduces all transverse 117 coefficients with rank-four Koszul
+preimages, and then proves the Levi-Civita constrained subclass is q-exact and
+disjoint from them. Ledger v0.55 routes the next Build to the actual
+independent-`varpi`/soldering/observation normal jet without moving verdicts,
+residue, quotients, datum or posture.
+
 ## Selected invariant constituent operator naturality (2026-08-07)
 
 `conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md`

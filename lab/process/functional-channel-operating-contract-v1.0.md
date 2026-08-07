@@ -24,27 +24,29 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.54.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.54.md`.
+`lab/process/conditional-physics-ledger-v0.55.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.55.md`.
 
-Current selected-constituent directive: preserve
-`T*=-(kappa_1/312)Phi1`, `F_A*=T* wedge T*` and their exact nonzero
-coefficientwise cancellation. On the fused moving-gimmel/frame packet the
-invariant branch-tangent operator response is zero and contributes none of the
-transverse 117. Do not reuse that naturality identity as an input-jet
-cancellation. Construct independent `delta F_A` and `delta T` from the ambient
-connection, soldering and observation normal jets on the same four graph
-columns. Symplectic review remains mandatory.
+Current nonzero-background owner directive: preserve
+`T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
+principal `q`-exact connection theorem. The algebraic Cartan/Spencer map
+`[delta B,T*]` is an exact rank-1,274 isomorphism on unrestricted
+metric-compatible connection variations and supplies all transverse 117, with
+four preimage supports `57,34,34,34`. A genuine Levi-Civita variation obeys the
+linearized torsion-free equation and collapses back to `q`-exact support, with
+zero transverse intersection. Construct the actual independent-`varpi`,
+soldering and observation normal jet on the same four graph columns; do not
+promote unrestricted carrier ownership to a Levi-Civita or physical result.
+Symplectic review remains mandatory.
 
-Current transverse-owner correction: the universal connection-curvature
-principal image remains `q`-exact and cannot own the transverse 117. However,
-v0.52's stronger moving-operator kill is retracted. Total
-`Upsilon_0=Shiab(F_A*)+Hodge(kappa T*)=0` is not constituent zero, and the
-selected branch already has nonzero `T*=-(kappa_1/312)Phi1`. Common equivariant
-co-motion can vanish while an independent physical metric variation of Shiab
-and Hodge remains live. Construct `(F_A*,T*)`, compute that response together
-with the ambient field normal jet, and only then compare the four graph columns
-with the transverse 117. Symplectic review remains mandatory.
+Current transverse-owner correction: “connection curvature is `q`-exact” is a
+principal-symbol theorem, not a no-go for the nonzero-background algebraic
+Cartan term. The unrestricted Cartan carrier closes the coefficientwise
+`117` burden, but its actual GU tangent remains open. Source `varpi` is an
+independent full-adjoint connection; source gauge-rotated Levi-Civita is only a
+constrained subclass. Derive their complete coupled tangent/normal-jet law
+before total raw-`Upsilon` Bianchi/naturality, null-screen, Euler or physical
+quotient claims.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order

@@ -7,6 +7,12 @@ updated_at: "2026-08-07"
 
 # Process
 
+Current append-only progress surface: ledger v0.55. The unrestricted
+nonzero-background Cartan/Spencer connection map owns all transverse 117
+coefficients exactly, but the actual Levi-Civita subclass is q-exact and does
+not. The next gate is the independent-`varpi`, soldering and observation
+normal jet. See `selected-nonzero-background-cartan-spencer-owner.json`.
+
 Current append-only progress surface: ledger v0.54. The selected nonzero
 `F_A*,T*` constituents are constructed and their invariant branch-tangent
 operator packet is zero. The next gate is the independent ambient field,

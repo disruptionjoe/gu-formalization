@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose result 2026-08-07 (ledger v0.55; five distance-only
+migrations).** At the selected nonzero `T*=-(kappa_1/312)Phi1` background,
+the algebraic Cartan/Spencer map from unrestricted metric-compatible connection
+variations to odd translation curvature is an exact rank-1,274 isomorphism.
+It supplies all transverse 117 coefficients with rank-four Koszul preimages of
+supports `57,34,34,34`; combined with the principal 28 it reconstructs every
+complete inverse-Shiab packet. The actual Levi-Civita subclass remains
+`q`-exact by the linearized torsion-free equation and has zero transverse
+intersection. The next Build is the actual independent-`varpi`, soldering and
+observation normal jet on the four graph columns. No verdict, residue,
+quotient, datum, canon or public-posture change follows.
+
 **Current Build/Compose result 2026-08-07 (ledger v0.54; five distance-only
 migrations).** The selected raw-residual constituents are exact:
 `T*=-(kappa_1/312)Phi1` and `F_A*=T* wedge T*`. Their separately nonzero

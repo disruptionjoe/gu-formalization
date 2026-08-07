@@ -12,6 +12,10 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_nonzero_background_cartan_spencer_owner_scope_audit.py` audits
+  the v0.55 unrestricted Cartan/Spencer owner, Levi-Civita subclass fence,
+  mandatory symplectic review and frozen datum/lane/posture boundary.
+
 - `selected_invariant_constituent_operator_naturality_scope_audit.py` audits
   the v0.54 branch-tangent naturality result, independent-field-jet fence,
   mandatory symplectic review and frozen datum/lane/posture boundary.
@@ -163,6 +167,7 @@ selected notes below and in each script header.
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
 - `selected_action_source_variable_hessian_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
+- `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
 - `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
 - `selected_second_layer_i2b_gauss_owner_map_scope_audit.py`
@@ -1868,3 +1873,13 @@ background control, source epsilon/soldering Layer-0 fence, mandatory
 symplectic review and v0.52 ledger/contract wiring. It routes the next Build
 to raw-`Upsilon` normal jet or a source-owned nonzero stationary background
 and forbids full-action, Euler, BV/BFV, datum, canon or posture inflation.
+
+## Nonzero-background Cartan/Spencer owner and ledger v0.55 gate
+
+`selected_nonzero_background_cartan_spencer_owner_scope_audit.py` requires the
+exact rank-1,274 unrestricted Cartan/Spencer isomorphism, coefficientwise
+transverse-117 preimages, the zero Levi-Civita-subclass transverse
+intersection, mandatory symplectic review and current-ledger/contract wiring.
+It routes the next Build to the actual independent-`varpi`/soldering/
+observation normal jet and forbids Euler, quotient, datum, canon or posture
+inflation.

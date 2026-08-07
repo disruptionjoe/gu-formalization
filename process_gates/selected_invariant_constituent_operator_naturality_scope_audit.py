@@ -12,7 +12,7 @@ assert "BRANCH_TANGENT_OPERATOR_PACKET_ZERO" in r["status"]
 assert r["exact_result"]["T_support"]==14 and r["exact_result"]["F_A_support"]==91
 assert r["exact_result"]["operator_transverse_intersection"]==0
 assert l["schema_version"]=="0.54" and l["residue"]["continuous_real"]==84
-assert c["standing_ledger"]["ref"]=="lab/process/conditional-physics-ledger-v0.54.json"
+assert c["standing_ledger"]["ref"]=="lab/process/conditional-physics-ledger-v0.55.json"
 assert "independent ambient" in report and "Symplectic geometry" in review
 assert r["rerun"]=="35/35 PASS" and r["third_lane_gate"]=="NOT_PROMOTED"
 assert r["claim_status_change"]==r["canon_verdict_change"]==r["public_posture_change"]=="none"

@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
+> **CURRENT NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
+> `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
+> response `[delta B,T*]` is an exact rank-1,274 isomorphism onto the odd
+> translation-curvature carrier. It supplies all transverse 117 coefficients
+> with rank-four Koszul preimages of supports `57,34,34,34`. But a true
+> Levi-Civita variation satisfies the linearized torsion-free equation and
+> remains `q`-exact, with zero transverse intersection. Ledger v0.55; next
+> construct the actual independent-`varpi`, soldering and observation normal
+> jet on the four graph columns. Unrestricted carrier ownership is not
+> Levi-Civita ownership, an Euler class, quotient, datum or physical recovery.
+
 > **CURRENT SELECTED-CONSTITUENT NATURALITY FENCE.** The selected raw source
 > constituents are exact: `T*=-(kappa_1/312)Phi1` and
 > `F_A*=T* wedge T*`. Their separately nonzero selected Shiab/Hodge outputs
@@ -47,8 +58,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract odd-curvature/richer-soldering owner and
-> null-screen target; historical campaign-local pointers are not queue truth.
+> next gate is the functional-contract actual independent-`varpi`/soldering/
+> observation normal jet and null-screen target; historical campaign-local
+> pointers are not queue truth.
 
 > **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
 > a `Cl1`-valued odd/vector two-form packet, not direct `Cl2` Levi-Civita/GCR
@@ -92,13 +104,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
 > massive-spin-two blocks, the non-null Koszul split, fixed-`B` support 28, the
-> q-exact connection exclusion and the zero invariant branch-tangent operator
-> packet. Construct independent `delta F_A` and `delta T` from the ambient
-> connection, gauge-rotated Levi-Civita, soldering and observation normal jets
-> on the same four graph columns. Compose them with fixed selected Shiab/Hodge,
-> compare with transverse 117, then build the null screen and test total
-> Bianchi/raw-`Upsilon` naturality. Do not infer input-jet cancellation from
-> branch-tangent operator naturality or use background subtraction without an
+> q-exact principal connection theorem, the zero invariant branch-tangent
+> operator packet and the unrestricted Cartan/Spencer owner for all 117.
+> Construct the actual independent-`varpi`, soldering and observation normal
+> jet on the same four graph columns and compare it with the exact Koszul
+> preimages. Do not substitute the Levi-Civita subclass: its linearized
+> torsion-free response is q-exact. After a match, build the null screen and
+> test total Bianchi/raw-`Upsilon` naturality; otherwise require a separately
+> source-owned higher jet. Do not use background subtraction without an
 > action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.

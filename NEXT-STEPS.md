@@ -7,6 +7,22 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
+> **2026-08-07 NONZERO-BACKGROUND CARTAN/SPENCER OWNER (ledger v0.55).**
+> [`explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`](explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md)
+> proves that `[delta B,T*]` is an exact rank-1,274 isomorphism on the
+> unrestricted metric-compatible connection carrier at nonzero
+> `T*=-(kappa_1/312)Phi1`. It supplies all transverse 117 coefficients with
+> rank-four Koszul preimages of supports `57,34,34,34`. The true Levi-Civita
+> subclass obeys the linearized torsion-free equation, remains `q`-exact and
+> has zero transverse intersection.
+
+> **NEXT RUN: ACTUAL INDEPENDENT-VARPI/OBSERVATION NORMAL JET.** Construct the
+> coupled independent-`varpi`, soldering and observation normal jet on the same
+> four graph columns and compare its connection components with the exact
+> Koszul preimages. If it matches, assemble total raw-`Upsilon` Bianchi and
+> naturality; if it stays Levi-Civita/q-exact, require a separately source-owned
+> higher jet. Keep the null screen separate. Symplectic review is mandatory.
+
 > **2026-08-07 SELECTED CONSTITUENT OPERATOR NATURALITY (ledger v0.54).**
 > [`explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md`](explorations/conditional-build/selected-invariant-constituent-operator-naturality-2026-08-07.md)
 > constructs `T*=-(kappa_1/312)Phi1` and source raw curvature
