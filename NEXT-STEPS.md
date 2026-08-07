@@ -7,22 +7,32 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 MASSIVE SO(3) CLOSURE AND SCALAR IDENTIFIABILITY.**
+> **2026-08-07 OFF-TT WARD AND ACTION-OWNER CORRECTION.**
+> [`explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md)
+> exactly reproduces the TT polynomial from the metric pullback, but the full
+> metric Hessian has diffeomorphism-Ward defect rank four and is nonsingular at
+> the restricted spatial-trace candidate `s=-1157/3589`. That number is not a
+> scalar characteristic root. Layer 0 also separates the old observer/full-`B`
+> first-variation coefficient from the selected stationary residual norm.
+> Ledger v0.42 moves five distances/priorities only; headline counts, residue,
+> four scoped quotients and P1/P2/P3 remain fixed.
+
+> **NEXT RUN: FULL CO-MOVING D UPSILON.** Construct `D Upsilon` in metric,
+> connection, section and observation variables and prove that the total
+> Hessian descends through the coupled diffeomorphism image. Only then derive
+> the scalar polynomial and massless constraint complex. Coupled fermions,
+> common domain and odd BV/BFV remain downstream; symplectic review is
+> mandatory.
+
+> **PREDECESSOR — 2026-08-07 MASSIVE SO(3) CLOSURE.**
 > [`explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md`](explorations/conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md)
 > proves that the massive axial-weight-`+/-2` pair closes under rest-frame
 > rotations to the five-dimensional spin-two irrep, with exact Casimir `-6`.
 > The axial weights `0,+/-1` are forced partners, not extra fields. The one
 > remaining spatial trace is a separate spin-zero irrep, and the exact
 > two-dimensional commutant proves TT data cannot determine its polynomial.
-> Ledger v0.41 moves five distances/priorities only; all headline counts,
-> residue, four scoped quotients and P1/P2/P3 remain fixed.
-
-> **NEXT RUN: OFF-TT SPIN-ZERO ACTION BLOCK.** Compose the native full-`B`
-> ambient coefficient and background subtraction into the selected action's
-> actual off-TT metric-section second variation. Derive the spin-zero
-> characteristic polynomial without fitting the free commutant block. Then
-> build the separate massless constraint complex. Coupled fermions, common
-> domain and odd BV/BFV remain downstream.
+> Ledger v0.41 moved five distances/priorities only. Its proposed coefficient
+> import is superseded by the current Layer-0 owner correction.
 
 > **PREDECESSOR — 2026-08-07 SECOND-LAYER TT EULER/PREBOUNDARY.**
 > [`explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md`](explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md)

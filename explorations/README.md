@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer off-TT scalar/Ward owner (2026-08-07)
+
+`conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md`
+reproduces the exact TT polynomial but shows that the isolated metric Hessian
+has Ward-defect rank four and no full root at the restricted scalar candidate.
+It also separates the selected residual norm from the old observer/full-II
+action owner. Ledger v0.42 routes the next Build to full co-moving `D Upsilon`
+and coupled Ward descent before scalar or massless-constraint claims.
+
 ## Selected second-layer massive SO(3) closure (2026-08-07)
 
 `conditional-build/selected-second-layer-massive-so3-closure-identifiability-2026-08-07.md`

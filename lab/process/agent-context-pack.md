@@ -9,22 +9,30 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT MASSIVE SO(3) CLOSURE FENCE.** The selected massive axial
+> **CURRENT OFF-TT WARD/OWNER FENCE.** The metric-only pullback of the selected
+> second-layer residual exactly reproduces the TT polynomial, but the full
+> metric Hessian has Ward-defect rank four and is nonsingular at the restricted
+> scalar candidate `s=-1157/3589`. That candidate is not a characteristic
+> root. The old A12/A14 full-`B` coefficient belongs to the observer/full-II
+> first-variation family, not this stationary residual norm. Ledger v0.42;
+> next construct full co-moving `D Upsilon(g,varpi,section,observation)` and
+> prove coupled Ward descent before scalar, massless-constraint, domain or BV
+> claims.
+
+> **PREDECESSOR MASSIVE SO(3) CLOSURE FENCE.** The selected massive axial
 > weight-`+/-2` plus/cross plane closes exactly under rest-frame `SO(3)` to
 > the five-dimensional spin-two irrep with Casimir `-6`. The weights
 > `0,+/-1` are forced partners, not extra fields. The sixth spatial-symmetric
 > direction is an independent spin-zero trace. The exact commutant has
 > dimension two, so TT fixes the spin-two polynomial and cannot fix the scalar
-> polynomial. Ledger v0.41; next derive that scalar from the native full-`B`,
-> background-subtracted off-TT section variation, then build the separate
-> massless constraint complex. Do not call five carrier states positive
+> polynomial. Ledger v0.41. Do not call five carrier states positive
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Compose the old native full-`B` ambient coefficient
-> and background subtraction into the selected action's actual off-TT
-> metric-section second variation. Derive the independent spin-zero
-> characteristic polynomial without fitting. Only then build and descend the
+> massive-spin-two blocks. Construct the full co-moving `D Upsilon` from the
+> metric, connection, section and observation variations and prove the total
+> Hessian is basic for the coupled diffeomorphism image. Only then derive the
+> independent scalar characteristic polynomial and build and descend the
 > massless constraint complex. Coupled nonzero-fermion, common-domain and odd
 > BV/BFV work remain ordered successors. Mandatory pre/post lenses remain
 > differential geometry, representation theory, variational PDE, symplectic

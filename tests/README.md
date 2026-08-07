@@ -1613,6 +1613,22 @@ PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/conditional_physics_ledger_v040_probe.py
 ```
 
+## Selected second-layer off-TT scalar/Ward owner and ledger v0.42
+
+`channel-swings/selected_second_layer_offtt_scalar_ward_owner_probe.py`
+constructs the exact metric-to-full-II tangent, reproduces the selected TT
+polynomial, and proves the isolated metric block has Ward-defect rank four and
+no full characteristic root at the restricted scalar candidate. The ledger
+probe freezes v0.41, migrates exactly five distances/priorities, preserves all
+headline counts and requires the full co-moving action owner.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_offtt_scalar_ward_owner_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v042_probe.py
+```
+
 ## Selected second-layer massive SO3 closure and ledger v0.41
 
 `channel-swings/selected_second_layer_massive_so3_closure_probe.py` constructs

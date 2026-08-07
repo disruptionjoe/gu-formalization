@@ -1745,6 +1745,15 @@ odd BV/BFV, positivity and Einstein recovery open. It also requires the
 symplectic hostile lens and forbids residue, fifth-quotient, datum, canon or
 public-posture promotion.
 
+## Selected second-layer off-TT scalar/Ward owner and ledger v0.42 gate
+
+`selected_second_layer_offtt_scalar_ward_owner_scope_audit.py` requires exact
+TT reproduction, rank-four metric-only Ward failure, rejection of the
+restricted scalar candidate and the Layer-0 separation of observer/full-II
+from the selected residual action owner. It requires all six hostile lenses,
+including symplectic geometry, and routes the next Build to full co-moving
+`D Upsilon` before scalar, massless-constraint, domain or BV/BFV claims.
+
 ## Selected second-layer massive SO3 closure and ledger v0.41 gate
 
 `selected_second_layer_massive_so3_closure_scope_audit.py` requires the exact

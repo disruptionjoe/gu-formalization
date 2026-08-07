@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.41.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.41.md`.
+`lab/process/conditional-physics-ledger-v0.42.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.42.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -524,19 +524,22 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-COMPOSE_NATIVE_FULL_B_AMBIENT_COEFFICIENT_AND_BACKGROUND_SUBTRACTED_OFF_TT_SECTION_SECOND_VARIATION__DERIVE_SPIN0_POLYNOMIAL__THEN_BUILD_MASSLESS_CONSTRAINT_COMPLEX__COUPLED_NONZERO_FERMION_HESSIAN_AND_COMMON_DOMAIN_ONLY_AFTERWARD
+FULL_COMOVING_DUPSILON__COUPLED_WARD_DESCENT__THEN_DERIVE_SPIN0_POLYNOMIAL_AND_MASSLESS_CONSTRAINT_COMPLEX__COUPLED_NONZERO_FERMION_HESSIAN_AND_COMMON_DOMAIN_ONLY_AFTERWARD
 ```
 
-Current execution method, ratified by the v0.41 Build/Compose result:
+Current execution method, ratified by the v0.42 Build/Compose result:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
    current as fixed sub-blocks.
-2. Compose the old native full-`B` ambient coefficient and background
-   subtraction into the selected action's actual off-TT metric-section second
-   variation. Use it to derive the independent spin-zero characteristic
-   polynomial; do not fit the free `SO(3)` commutant block from TT.
-3. Assemble the distinct massless diffeomorphism/constraint complex and
+2. Construct the full co-moving `D Upsilon` in metric, connection, section and
+   observation variables. The metric-only pullback exactly reproduces TT but
+   has Ward-defect rank four; its restricted `1157/3589` scalar candidate is
+   not a characteristic root. Do not import the old observer/full-`B`
+   first-variation coefficient into this distinct stationary residual owner.
+3. Prove the total Hessian annihilates the coupled diffeomorphism image. Only
+   on that descended quotient derive the scalar characteristic polynomial,
+   then assemble the distinct massless diffeomorphism/constraint complex and
    classify every surviving null-little-group quotient class. Do not recount
    the massive axial weights `0,+/-1` as extra representations; they are
    already forced spin-two partners.
@@ -562,9 +565,10 @@ live flux does not repair wrong representation type. Do not spend a global-
 domain campaign on that superseded carrier. The second-layer gravitational
 Build has now closed both the massless helicity-two type and the massive
 five-state spin-two type. Its immediate owner is the one remaining
-rest-frame spin-zero polynomial, derived from the native full-`B` ambient and
-background-subtracted off-TT section variation, followed by the separate
-massless constraint complex. Only the resulting complete bosonic quotient
+full co-moving `D Upsilon` and coupled Ward descent. Only after the metric,
+connection, section and observation blocks form a basic Hessian may it derive
+the rest-frame spin-zero polynomial and the separate massless constraint
+complex. Only the resulting complete bosonic quotient
 advances to the common right-`H`/Krein and odd BV/BFV domain. Interaction positivity
 must derive the full moving third derivative and preboundary class on the
 mixed/massive shells, then construct regular Q1 or carry a unique nonzero

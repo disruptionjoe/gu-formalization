@@ -8,15 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose update 2026-08-07 (ledger v0.41; five distance/priority
-migrations).** Exact rest-frame rotations close the selected massive
+**Active Build/Compose update 2026-08-07 (ledger v0.42; five distance/priority
+migrations).** The exact metric-only off-TT pullback reproduces the selected
+TT polynomial, but its full ten-component Hessian has diffeomorphism-Ward
+defect rank four and remains rank ten at the restricted scalar candidate
+`s=-1157/3589`. The candidate is not a characteristic root. Layer 0 also
+separates the old observer/full-`B` first-variation coefficient from the
+selected stationary residual norm. The next Build constructs full co-moving
+`D Upsilon` in metric, connection, section and observation variables and
+proves coupled Ward descent. No verdict, residue, quotient, datum, canon or
+public-posture change follows.
+
+**Predecessor Build/Compose update 2026-08-07 (ledger v0.41; five
+distance/priority migrations).** Exact rest-frame rotations close the selected massive
 axial-weight-two pair to the five-dimensional spin-two irrep with Casimir
 `-6`. Its axial weights `0,+/-1` are mandatory representation partners. The
 six-dimensional spatial metric quotient splits as spin two plus one
 independent spin-zero trace, and the exact two-dimensional commutant proves
 that the TT polynomial does not determine the scalar polynomial. The next
-Build is the native full-`B`, background-subtracted off-TT metric-section
-second variation, followed by the massless constraint complex. No verdict,
+Build was the off-TT action owner and is corrected by v0.42. No verdict,
 residue, quotient, datum, canon or public-posture change follows.
 
 **Active Build/Compose update 2026-08-07 (ledger v0.40; four distance-only

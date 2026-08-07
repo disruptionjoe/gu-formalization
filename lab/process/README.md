@@ -42,12 +42,18 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-offtt-scalar-ward-owner.json` - exact metric-only
+  off-TT TT reproduction, rank-four Ward defect, rejected restricted scalar
+  root and full co-moving `D Upsilon` successor owner.
+- `conditional-physics-ledger-v0.42.json` - current append-only conditional
+  physics ledger after the off-TT Ward/action-owner correction.
+
 - `selected-second-layer-massive-so3-closure-identifiability.json` - exact
   five-dimensional massive spin-two `SO(3)` closure, independent spin-zero
   complement and TT-to-scalar identifiability boundary; the off-TT action,
   massless constraints and domain remain open.
-- `conditional-physics-ledger-v0.41.json` - current append-only conditional
-  physics ledger after the massive little-group closure gate.
+- `conditional-physics-ledger-v0.41.json` - immutable predecessor after the
+  massive little-group closure gate.
 
 - `selected-second-layer-tt-euler-preboundary-helicity.json` - exact
   zero-fermion selected-I2B TT Euler polynomial, fourth-order preboundary
