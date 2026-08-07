@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.46.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.46.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.46.md")
+assert "conditional-physics-ledger-v0.47.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.47.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.47.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -93,6 +93,9 @@ assert "V043_COVECTOR_SLOT_PROXY_RANK4_RETRACTED_AS_ACTION_TARGET" in contract["
 assert "ACTUAL_INDEPENDENT_CONNECTION_LIFT_RANK3_KERNEL_E0" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "CONNECTION_ONLY_DUPSILON_WELD_IMPOSSIBLE_AT_CURRENT_PRINCIPAL_GRADE" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "SOURCE_NORMAL_JET_AND_TOTAL_METRIC_SECTION_DERIVATIVE_ON_E0_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "FULL_SELECTED_SHIAB_RANK1274_ISOMORPHISM" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "UNIQUE_SPLIT_PREIMAGES_FAIL_PRINCIPAL_BIANCHI" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "TOTAL_GCR_COMPLETION_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -106,7 +109,7 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 assert "Predecessor execution method, ratified by Joe on 2026-08-06" in human
-assert "Current execution method, ratified by the v0.46 Build/Compose correction" in human
+assert "Current execution method, ratified by the v0.47 Build/Compose correction" in human
 assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
@@ -126,19 +129,20 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "OWNER_MAP_RETYPED__RAW_CARRIER_COMPATIBLE__ACTUAL_PROLONGATION_OPEN__BACKGROUND_SUBTRACTION_UNOWNED__MASSLESS_CONSTRAINT_COMPLEX_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN"
-assert "SOURCE-CORRECTS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
+assert directive["status"] == "SELECTED_SHIAB_ISOMORPHISM__SPLIT_PREIMAGES_NOT_PRINCIPAL_BIANCHI__TOTAL_GCR_COMPLETION_OPEN__BACKGROUND_SUBTRACTION_UNOWNED__MASSLESS_CONSTRAINT_COMPLEX_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN"
+assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "ACTUAL_SOURCE_OWNED_FIRST_PROLONGATION_AND_TOTAL_RAW_DUPSILON"
+assert next_method["target"] == "SOURCE_NATIVE_TOTAL_GAUSS_CODAZZI_RICCI_AND_RAW_DUPSILON_NATURALITY"
 assert next_method["ordered_steps"] == [
     "PRESERVE_EXACT_MASSLESS_HELICITY2_AND_MASSIVE_SO3_SPIN2_DIM5_SUBBLOCK",
     "DO_NOT_ADD_AN_INDEPENDENT_OBSERVATION_ACTION_FIELD__METRIC_AND_GRAPH_SECTION_SHARE_ONE_TANGENT",
     "DO_NOT_TREAT_A_DIFFERENCE_OF_GRAM_FORMS_AS_THE_GRAM_OF_A_RESIDUAL_DIFFERENCE",
-    "CONSTRUCT_THE_SOURCE_OWNED_FIRST_PROLONGATION_J1_LIE_XI_A",
-    "ASSEMBLE_MOVING_HODGE_SHIAB_LEVI_CIVITA_AND_GRAPH_TERMS_IN_RAW_DUPSILON",
-    "EVALUATE_ALL_FOUR_GRAPH_DIFFEO_COLUMNS_AND_COMPARE_COEFFICIENTWISE_WITH_THE_CONDITIONAL_FULL_II_MAP",
+    "DO_NOT_IDENTIFY_A_SPLIT_INVERSE_SHIAB_PREIMAGE_WITH_A_CONNECTION_CURVATURE_JET",
+    "CONSTRUCT_THE_COMPLETE_SOURCE_NATIVE_GAUSS_CODAZZI_RICCI_CURVATURE_DECOMPOSITION",
+    "ASSEMBLE_J1_LIE_XI_A_GAUGE_ROTATED_LEVI_CIVITA_MOVING_HODGE_SHIAB_GRAPH_AND_OWNED_BACKGROUND_TERMS",
+    "TEST_TOTAL_DIFFERENTIAL_BIANCHI_AND_RAW_DUPSILON_NATURALITY_ON_ALL_FOUR_GRAPH_COLUMNS",
     "REQUIRE_AN_EXPLICIT_ACTION_OR_COUNTERTERM_OWNER_BEFORE_ANY_BACKGROUND_SUBTRACTION",
     "ONLY_IF_THAT_PASSES_EXTEND_TO_TRANSVERSE_SOURCE_VARIABLES",
     "DERIVE_THE_OFF_TT_SPIN0_CHARACTERISTIC_POLYNOMIAL_ONLY_ON_THE_DESCENDED_QUOTIENT",
@@ -154,15 +158,14 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_RETURN_CORRECTS_TO_RAW_UPSILON_AND_IS_SILENT_ON_BACKGROUND_SUBTRACTION_OWNER_AND_PROLONGED_ORBIT_COEFFICIENTS__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_RETURN_CONFIRMS_RAW_UPSILON_EQUIVARIANCE_INTENT_AND_IS_SILENT_ON_GCR_SPLIT_COEFFICIENTS_AND_BACKGROUND_COMPLETION__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "CONSTRUCT_J1_LIE_XI_A" in directive["next_gate"]
-assert "TOTAL_RAW_UPSILON_DIFFERENTIAL" in directive["next_gate"]
-assert "CONDITIONAL_FULL_II_MAP" in directive["next_gate"]
-assert "NO_BACKGROUND_SUBTRACTION_WITHOUT_OWNER" in directive["next_gate"]
+assert "CONSTRUCT_SOURCE_NATIVE_GAUSS_CODAZZI_RICCI" in directive["next_gate"]
+assert "TOTAL_RAW_UPSILON_NATURALITY" in directive["next_gate"]
+assert "NO_SPLIT_JET_IDENTIFICATION" in directive["next_gate"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -238,6 +241,10 @@ assert "METRIC_WARD_LOAD_NONZERO_ON_E0" in directive["latest_build_evidence"]
 assert "CONNECTION_ONLY_WELD_IMPOSSIBLE" in directive["latest_build_evidence"]
 assert "INDEPENDENT_OBSERVATION_COLUMN_REJECTED" in directive["latest_build_evidence"]
 assert "SOURCE_NORMAL_JET_TOTAL_METRIC_SECTION_DERIVATIVE_OPEN" in directive["latest_build_evidence"]
+assert "FULL_SELECTED_SHIAB_RANK1274_ISOMORPHISM" in directive["latest_build_evidence"]
+assert "PRINCIPAL_BIANCHI_RANKS14_14_14_14" in directive["latest_build_evidence"]
+assert "SPLIT_JET_IDENTIFICATION_REJECTED" in directive["latest_build_evidence"]
+assert "TOTAL_GCR_COMPLETION_OPEN" in directive["latest_build_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
 assert "ALL_FINITE_LOCAL_CONSTANT_MODE_COMPLETIONS_NOSCREEN_OR_ARE_UNSOLVABLE" in directive["current_evidence_boundary"]
@@ -277,4 +284,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.46 ledger preserve the exact spin-two comparator, retract the false residual-Gram owner, and route actual raw source prolongation without residue or quotient promotion")
+print("PASS: functional channels and v0.47 ledger preserve the spin-two comparator, reject the split inverse as a standalone curvature jet, and route total GCR completion without residue or quotient promotion")

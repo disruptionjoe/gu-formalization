@@ -9,15 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT NORMAL-JET OWNER FENCE.** The v0.42 background-subtracted Hessian
-> is a difference of Gram forms, not the Gram of a residual difference. Do not
-> infer `D Upsilon` or a rank lower bound from it. The raw conditional residual
-> orbit has rank four, and all four required corrections lie in the exact
-> source-native mixed-normal carrier, but carrier containment is not the
-> actual prolonged field jet. Ledger v0.46; next construct
-> `j1(L_xi A)` plus every moving raw-`Upsilon` term and compare all four
-> columns coefficientwise. Background subtraction requires an explicit action
-> or counterterm owner. Scalar, domain and BV/BFV claims remain downstream.
+> **CURRENT SHIAB-INVERSE/BIANCHI FENCE.** The full selected Hodge-Shiab is an
+> exact `1,274 x 1,274` isomorphism, so the four v0.46 correction preimages are
+> unique. Every exact `q wedge F` map has rank fourteen. Do not identify a
+> split inverse carrier representative with a standalone connection-curvature
+> jet, and do not inflate split nonclosure into a no-go for the completed
+> curvature. Ledger v0.47; next construct the total source-native Gauss-
+> Codazzi-Ricci/background packet and test total raw-`Upsilon` naturality and
+> differential Bianchi. Background subtraction requires an explicit action or
+> counterterm owner. Scalar, domain and BV/BFV claims remain downstream.
 
 > **PREDECESSOR OBSERVATION-OWNER FENCE.** The metric and its graph section have
 > the same rank-four diffeomorphism tangent; observation is not a second action
@@ -51,11 +51,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Construct the actual source-owned first
-> prolongation `j1(L_xi A)` and the moving Hodge/Shiab/Levi-Civita/graph terms
-> in raw `D Upsilon`. Test all four graph generators coefficientwise against
-> the conditional full-`II` map. Do not use background subtraction without an
-> action or counterterm owner.
+> massive-spin-two blocks. Construct the total source-native Gauss-Codazzi-
+> Ricci curvature packet, with `j1(L_xi A)`, gauge-rotated Levi-Civita, moving
+> Hodge/Shiab, graph and owned background terms. Test total differential
+> Bianchi and raw-`Upsilon` naturality on all four graph generators. Do not use
+> a split inverse as the connection jet or background subtraction without an
+> action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain

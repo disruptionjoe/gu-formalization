@@ -42,12 +42,18 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-shiab-inverse-bianchi-completion.json` - proves the
+  full selected Shiab is an isomorphism, rejects the unique split preimages as
+  standalone principal connection-curvature jets, and leaves total GCR
+  completion open.
+- `conditional-physics-ledger-v0.47.json` - current append-only conditional
+  physics ledger after the split-to-total Bianchi retype.
 - `selected-second-layer-normal-jet-carrier-compatibility.json` - retracts
   the false residual-Gram owner inference, proves raw source-carrier
   compatibility for all four graph-orbit columns, and leaves the actual
   prolonged source coefficients open.
-- `conditional-physics-ledger-v0.46.json` - current append-only conditional
-  physics ledger after the normal-jet owner correction.
+- `conditional-physics-ledger-v0.46.json` - immutable predecessor ledger after
+  the normal-jet owner correction.
 
 - `selected-second-layer-observation-owner-retype.json` - rejects an
   independent observation action field, preserves the dependent moving-section

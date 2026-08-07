@@ -8,15 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose correction 2026-08-07 (ledger v0.46; five
-distance/priority migrations).** The background-subtracted Hessian used in
-v0.42 is a difference of Gram forms, not the Gram of a residual difference, so
-the v0.43 rank-forcing step did not construct a source-owned `D Upsilon`.
-The raw conditional residual orbit remains rank four and all four required
-columns lie in the exact rank-1190 source-native mixed-normal carrier. This
-removes a carrier obstruction only; the actual prolonged diffeomorphism field
-jet and coefficientwise equality remain open. No verdict, residue, quotient,
-datum, canon or public-posture change follows.
+**Active Build/Compose correction 2026-08-07 (ledger v0.47; five
+distance/priority migrations).** The full selected Hodge-Shiab map is an exact
+rank-1,274 isomorphism, so the four raw correction preimages are unique. Each
+principal differential-Bianchi map `q -> q wedge F` has rank fourteen, leaving
+no nonzero covector for which a split correction is a standalone connection-
+curvature jet. This kills only that split identification. The source-native
+total Gauss-Codazzi-Ricci/background packet and raw-`Upsilon` naturality remain
+open. No verdict, residue, quotient, datum, canon or public-posture change
+follows.
+
+**Predecessor Build/Compose correction 2026-08-07 (ledger v0.46; five
+distance/priority migrations).** The background-subtracted Hessian is a
+difference of Gram forms rather than a residual Gram. The raw graph correction
+remains carrier-compatible, but v0.47 rejects its standalone jet reading.
 
 **Predecessor Build/Compose correction 2026-08-07 (ledger v0.45; five
 distance/priority migrations).** The metric and graph-section diffeomorphism

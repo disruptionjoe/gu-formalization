@@ -7,7 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
-## Selected second-layer normal-jet carrier compatibility (2026-08-07)
+## Selected second-layer Shiab inverse and Bianchi completion (2026-08-07)
+
+`conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md`
+proves the full selected Hodge-Shiab map is an exact rank-1,274 isomorphism
+and that all four unique v0.46 correction preimages fail principal
+differential Bianchi for every nonzero ambient covector. Ledger v0.47 rejects
+only their standalone connection-jet reading and routes the next Build to the
+total source-native Gauss-Codazzi-Ricci/background completion.
+
+## Predecessor selected second-layer normal-jet carrier compatibility (2026-08-07)
 
 `conditional-build/selected-second-layer-normal-jet-carrier-compatibility-2026-08-07.md`
 corrects the owner map: a difference of two residual Gram forms is not the

@@ -7,22 +7,26 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 NORMAL-JET OWNER CORRECTION (ledger v0.46).**
-> [`explorations/conditional-build/selected-second-layer-normal-jet-carrier-compatibility-2026-08-07.md`](explorations/conditional-build/selected-second-layer-normal-jet-carrier-compatibility-2026-08-07.md)
-> finds that v0.42's background-subtracted Hessian is a difference of two
-> Gram forms, not the Gram form of a residual difference. Therefore the v0.43
-> rank-forcing inference does not construct `D Upsilon`. The raw conditional
-> residual orbit still has rank four, and all four required correction columns
-> lie in the exact source-native mixed-normal carrier, so there is no carrier
-> obstruction and no new datum is needed merely for expressibility.
+> **2026-08-07 SHIAB-INVERSE/BIANCHI COMPLETION (ledger v0.47).**
+> [`explorations/conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md`](explorations/conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md)
+> proves that the full selected Hodge-Shiab is an exact `1,274 x 1,274`
+> isomorphism, so the four v0.46 correction preimages are unique. Every
+> principal `q wedge F` map has rank fourteen: no split correction is a lawful
+> standalone connection-curvature jet for any nonzero ambient covector. This
+> rejects the split-jet identification, not the completed connection geometry.
 
-> **NEXT RUN: ACTUAL RAW PROLONGED ORBIT.** Construct the source-owned first
-> prolongation `j1(L_xi A)` together with moving Hodge, Shiab,
-> Levi-Civita and graph-section terms in raw `D Upsilon`; evaluate all four
-> graph-diffeomorphism columns coefficientwise and compare them with the
-> conditional full-`II` residual map. Any background subtraction must first
-> acquire an explicit action or counterterm owner. Symplectic review remains
-> mandatory.
+> **NEXT RUN: TOTAL GAUSS-CODAZZI-RICCI COMPLETION.** Construct the
+> source-native total GCR curvature packet on the moving graph, including
+> `j1(L_xi A)`, gauge-rotated Levi-Civita, moving Hodge/Shiab and every owned
+> background/lower-order term. Test total differential Bianchi and raw-
+> `Upsilon` naturality coefficientwise on all four graph directions. Do not
+> identify another inverse split with the connection jet. Any background
+> subtraction still requires an action/counterterm owner. Symplectic review
+> remains mandatory.
+
+> **PREDECESSOR — 2026-08-07 NORMAL-JET OWNER CORRECTION.** v0.46 retracts
+> the false residual-Gram owner inference while retaining exact raw carrier
+> compatibility for all four correction columns.
 
 > **PREDECESSOR — 2026-08-07 OBSERVATION-OWNER RETYPE.**
 > [`explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-observation-owner-retype-2026-08-07.md)

@@ -1802,3 +1802,13 @@ and requires all four needed columns to lie in the source-native mixed-normal
 carrier. It keeps the actual prolonged source jet, background-subtraction
 owner, scalar/domain/BV/BFV, external datum, fifth quotient, canon and public
 posture open, with the symplectic lens mandatory.
+
+## Selected second-layer Shiab inverse/Bianchi completion and ledger v0.47 gate
+
+`selected_second_layer_shiab_inverse_bianchi_completion_scope_audit.py`
+requires the exact full selected-Shiab isomorphism, unique preimages and four
+rank-fourteen principal-Bianchi failures. It rejects only the standalone split
+connection-jet identification, routes the next Build to total source-native
+Gauss-Codazzi-Ricci completion and keeps scalar/domain/BV/BFV, external datum,
+fifth quotient, canon and public posture open, with symplectic review
+mandatory.
