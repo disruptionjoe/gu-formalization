@@ -12,13 +12,21 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> The first main-sequence gate is now closed pointwise by ledger v0.56. The
+> The first main-sequence gate is now closed pointwise by ledger v0.57. The
 > remaining sequence is: covariant four-column source-`varpi` graph morphism,
 > freedom/surplus count and Spencer/global integrability; then survivor-only Euler/preboundary,
 > Ward/Bianchi, BV and symplectic descent. Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
 > evidence.
+
+> **2026-08-07 K77 CARTAN/SPENCER SIGNATURE CORRECTION (ledger v0.57).**
+> [`explorations/conditional-build/selected-k77-cartan-spencer-signature-correction-2026-08-07.md`](explorations/conditional-build/selected-k77-cartan-spencer-signature-correction-2026-08-07.md)
+> finds that v0.46/v0.55 executed inertia `(9,5)` while labeling it `(7,7)`.
+> The complete target-to-source chain is rebuilt on K77 `(7,7)`. Every exact
+> column changes, so old v0.55/v0.56 coefficient values are superseded; rank
+> four, supports `57,34,34,34`, uniqueness and pointwise realizability survive.
+> Use only the corrected K77 columns below.
 
 > **2026-08-07 SOURCE-VARPI/CARTAN COMPOSITION (ledger v0.56).**
 > [`explorations/conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md`](explorations/conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md)
@@ -31,7 +39,7 @@ updated_at: "2026-08-07"
 
 > **NEXT RUN: COVARIANT FOUR-COLUMN GRAPH/SPENCER GATE.** Construct one
 > covariant graph morphism from the four physical soldering/observation columns
-> to the source `varpi` tangent, count independent constraints versus remaining
+> to the source `varpi` tangent using only the corrected K77 columns, count independent constraints versus remaining
 > freedom, and test Spencer compatibility plus three-patch descent with a
 > carrier-fitting/non-descending plant. Only surviving columns advance to raw-
 > `Upsilon` Bianchi/naturality and first-action Euler/preboundary/symplectic

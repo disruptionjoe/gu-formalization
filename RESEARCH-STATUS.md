@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-07 (ledger v0.56; five distance-only
+**Current Build/Compose correction 2026-08-07 (ledger v0.57; five mapping-
+grade/evidence migrations).** The v0.46/v0.55 chain called its metric `(7,7)`
+but executed inertia `(9,5)`. Rebuilding the raw targets, selected-Shiab
+preimages, Koszul inverse and fixed-epsilon source-`varpi` lifts on settled K77
+changes every column (`12` target coordinates each and `30,34,34,34` final
+preimage coordinates). The pointwise theorem survives with support
+`57,34,34,34`, rank four, uniqueness and zero coefficient freedom. Old
+v0.55/v0.56 coefficient values are superseded. The covariant graph,
+constraint-surplus, atlas, Euler and symplectic gates remain open. No verdict,
+residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-07 (ledger v0.56; five distance-only
 migrations).** The source-native fixed-epsilon translation is now typed as
 `delta B=0`, `delta T=delta A=alpha`. At the selected nonzero background, the
 endpoint-curvature response `[T*,alpha]` is a signed Cartan/Spencer map. Four

@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 Cartan/Spencer signature correction (2026-08-07)
+
+`conditional-build/selected-k77-cartan-spencer-signature-correction-2026-08-07.md`
+rebuilds the complete four-column chain after finding that v0.46/v0.55 used
+inertia `(9,5)` while labeling it `(7,7)`. Every old target and lift packet is
+superseded. On corrected K77 `(7,7)`, rank four, supports `57,34,34,34`,
+uniqueness and pointwise source realizability survive. Ledger v0.57 keeps the
+covariant graph/Spencer/Euler gate open.
+
 ## Selected source-varpi / Cartan composition (2026-08-07)
 
 `conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md`

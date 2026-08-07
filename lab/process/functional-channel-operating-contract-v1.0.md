@@ -24,8 +24,16 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.56.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.56.md`.
+`lab/process/conditional-physics-ledger-v0.57.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.57.md`.
+
+Current K77 signature correction: v0.46/v0.55 called their executed metric
+`(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
+Koszul and source-`varpi` chain has now been rebuilt on the settled K77 metric.
+Every target and lift coefficient packet changes; the old v0.55/v0.56 exact
+values are superseded. The pointwise theorem survives with supports
+`57,34,34,34`, rank four, uniqueness and zero coefficient freedom. Use only
+the corrected K77 columns in the graph/atlas gate.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the

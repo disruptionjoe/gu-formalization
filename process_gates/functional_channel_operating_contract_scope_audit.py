@@ -232,13 +232,15 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_CONFIRMS_FIXED_EPSILON_VARPI_TRANSLATION_AND_ENDPOINT_FA__SOURCE_CORRECTS_VARPI_TANGENT_TO_DELTA_T_DELTA_A_NOT_DELTA_B__SOURCE_SILENT_ON_COVARIANT_GRAPH_SPENCER_EULER__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_CONFIRMS_SPIN77_Y77_NORMAL64_AND_FIXED_EPSILON_VARPI_TRANSLATION_ENDPOINT_FA__SOURCE_CORRECTS_VARPI_TANGENT_TO_DELTA_T_DELTA_A_NOT_DELTA_B__SOURCE_SILENT_ON_COVARIANT_GRAPH_SPENCER_EULER__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
 assert "CONSTRUCT_COVARIANT_FOUR_COLUMN_SOURCE_VARPI_GRAPH_MORPHISM" in directive["next_gate"]
 assert "CARTAN_SPENCER_UNRESTRICTED_RANK1274_ISOMORPHISM" in directive["latest_correction_evidence"]
+assert "K77_INERTIA7_7_CORRECTED_FROM_MISLABELED9_5" in directive["latest_correction_evidence"]
+assert "OLD_COEFFICIENT_VALUES_SUPERSEDED" in directive["latest_correction_evidence"]
 assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]

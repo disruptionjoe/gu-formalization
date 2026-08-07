@@ -15,7 +15,14 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.56. The source-native
+Current append-only progress surface: ledger v0.57. The complete raw-target to
+source-`varpi` pointwise chain is corrected from a mislabeled `(9,5)` metric to
+settled K77 `(7,7)`. Every coefficient packet changes, but rank four, supports
+`57,34,34,34`, uniqueness and zero pointwise freedom survive. Old v0.55/v0.56
+values are superseded. See
+`selected-k77-cartan-spencer-signature-correction.json`.
+
+Predecessor append-only progress surface: ledger v0.56. The source-native
 fixed-epsilon `varpi` tangent has `delta B=0`, `delta T=delta A=alpha` and
 realizes all four transverse Cartan lifts pointwise, with supports
 `57,34,34,34`, rank four and zero coefficient freedom at fixed background.

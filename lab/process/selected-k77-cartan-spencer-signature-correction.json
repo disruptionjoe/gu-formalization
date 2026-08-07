@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "COEFFICIENT_REPAIR_THEOREM_SURVIVES__OLD_EXACT_VALUES_SUPERSEDED__COVARIANT_GRAPH_DESCENT_OPEN",
+  "source_return": "SOURCE-CONFIRMS__SPIN77_Y77_AND_NORMAL64_PRESENTATION__SOURCE-SILENT__FOUR_COLUMN_GRAPH_SELECTION_AND_DESCENT",
+  "predecessor": "lab/process/selected-source-varpi-cartan-composition.json",
+  "signature_correction": {
+    "old_executed_inertia": [9, 5],
+    "settled_k77_inertia": [7, 7],
+    "horizontal_signs_changed": 4,
+    "old_forward_inverse_pair_self_consistent": true,
+    "old_pair_validates_k77_signature": false
+  },
+  "exact_result": {
+    "raw_jacobian_rank": 10,
+    "raw_graph_orbit_rank": 4,
+    "raw_target_supports": [58, 29, 29, 29],
+    "connection_supports": [7, 7, 7, 7],
+    "transverse_supports": [51, 22, 22, 22],
+    "transverse_total_support": 117,
+    "k77_koszul_supports": [57, 34, 34, 34],
+    "k77_source_lift_family_rank": 4,
+    "target_changed_coordinates": [12, 12, 12, 12],
+    "preimage_changed_coordinates": [30, 34, 34, 34],
+    "pointwise_coefficient_freedom": 0,
+    "old_source_lifts_pass_corrected_targets": [false, false, false, false]
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "next_gate": "COVARIANT_FOUR_COLUMN_K77_SOURCE_VARPI_GRAPH_MORPHISM__CONSTRAINT_SURPLUS__SPENCER_THREE_PATCH_DESCENT__THEN_SURVIVOR_ONLY_RAW_UPSILON_EULER_PREBOUNDARY",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 3
+  },
+  "rerun": "43/43 PASS"
+}

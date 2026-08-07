@@ -14,7 +14,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> The first source-tangent gate is now closed pointwise by ledger v0.56. The
+> The first source-tangent gate is now closed pointwise by ledger v0.57. The
 > accepted next sequence is a covariant four-column source-`varpi` graph
 > morphism plus freedom/surplus count and Spencer/global integrability as one gate; then survivor-only Euler,
 > preboundary, Ward/Bianchi, BV and symplectic descent. Generic carrier search
@@ -23,12 +23,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
 > persona vote is planning evidence, never scientific evidence.
 
-> **CURRENT SOURCE-VARPI/CARTAN FENCE.** Weinstein's fixed-epsilon translation
+> **CURRENT K77 SIGNATURE AND SOURCE-VARPI/CARTAN FENCE.** v0.46/v0.55 called
+> their executed metric `(7,7)` although its inertia was `(9,5)`. Ledger v0.57
+> rebuilds the raw targets, selected-Shiab solve, Koszul inverse and source lift
+> on settled K77 `(7,7)`. Every column changes (`12` target coordinates each;
+> `30,34,34,34` final preimage coordinates). Old v0.55/v0.56 coefficient
+> values are superseded. The pointwise theorem survives. Weinstein's fixed-epsilon translation
 > is `delta B=0`, `delta T=delta A=alpha`; do not call it a reference
 > `delta B`. At `T*=-(kappa_1/312)Phi1`, the endpoint response `[T*,alpha]`
 > gives four unique pointwise source-varpi lifts reproducing all transverse 117
 > coefficients, with supports `57,34,34,34`, rank four and zero coefficient
-> freedom at fixed background. Ledger v0.56. This is local tangent-space
+> freedom at fixed background. This is local tangent-space
 > realizability, not a source-selected graph law, global Spencer/atlas
 > integrability, Euler class, quotient, datum or physics recovery. Next
 > construct the covariant graph morphism and run the integrability gate.
@@ -126,10 +131,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks, the non-null Koszul split, fixed-`B` support 28, the
+> massive-spin-two blocks, the K77-signature-corrected non-null Koszul split,
+> fixed-`B` support 28, the
 > q-exact principal connection theorem, the zero invariant branch-tangent
 > operator packet, the unrestricted Cartan/Spencer owner for all 117, and the
-> exact pointwise fixed-epsilon source-varpi lifts. Construct one covariant
+> exact corrected pointwise fixed-epsilon source-varpi lifts. Never reuse the
+> old v0.55/v0.56 coefficient packets. Construct one covariant
 > source-varpi graph morphism on the four physical soldering/observation
 > columns while jointly testing freedom/surplus count, Spencer/jet integrability
 > and overlap descent. Do not substitute the
