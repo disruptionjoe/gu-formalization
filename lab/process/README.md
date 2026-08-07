@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-06"
+updated_at: "2026-08-07"
 ---
 
 # Process
@@ -41,6 +41,14 @@ Runbooks:
   status-changing promotion, downgrade, or correction.
 
 ## Direct Process Files
+
+- `selected-second-layer-tt-euler-preboundary-helicity.json` - exact
+  zero-fermion selected-I2B TT Euler polynomial, fourth-order preboundary
+  current, massless helicity-two quotient, massive axial-weight-two TT plane
+  and opposite local pole Green signs; the massive full `SO(3)` type,
+  complete constrained spectrum and global domain remain open.
+- `conditional-physics-ledger-v0.40.json` - current append-only conditional
+  physics ledger after the selected second-layer TT carrier gate.
 
 - `agent-context-pack.md` - one-read current rules, forks, anchors, functional-channel contract pointer and active scientific directives for GU agents.
 

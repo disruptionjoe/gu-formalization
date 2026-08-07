@@ -2,11 +2,23 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-06"
+updated_at: "2026-08-07"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
+
+**Active Build/Compose update 2026-08-07 (ledger v0.40; four distance-only
+migrations).** On the exact zero-fermion selected second layer, the TT Euler
+polynomial is
+`kappa_1^2(14356/13689) box(box+1922/3589)`. The massless root carries real
+helicity `+/-2`; the massive root has an axial `SO(2)` weight-`+/-2`
+plus/cross plane, with its full `SO(3)` representation open. Their local Green signs are opposite, and
+the action-derived fourth-order preboundary current is exact and nonzero.
+This is a TT subquotient, not a complete graviton spectrum: the
+scalar/vector/constraint quotient, coupled nonzero-fermion Hessian, common
+global domain and odd BV/BFV remain open. No verdict, residue, quotient,
+datum, canon or public-posture change follows.
 
 **Active Build/Compose update 2026-08-07 (ledger v0.39; five distance-only
 migrations).** The complete selected `Cl2` second-layer pullback is exact:

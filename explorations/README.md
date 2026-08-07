@@ -2,10 +2,19 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-06"
+updated_at: "2026-08-07"
 ---
 
 # Explorations
+
+## Selected second-layer TT Euler, preboundary and helicity (2026-08-07)
+
+`conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md`
+derives the exact selected TT polynomial
+`(14356/13689) box(box+1922/3589)`, its nonzero fourth-order preboundary
+current, a massless helicity-two TT module and a massive axial-weight-two TT
+plane with opposite local Green signs. Ledger v0.40 moves four distances. The complete constrained
+physical quotient, coupled fermions and global domain remain open.
 
 ## Selected second-layer full-Cl2 residual pullback (2026-08-07)
 

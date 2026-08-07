@@ -2,12 +2,32 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-06"
+updated_at: "2026-08-07"
 ---
 
 # Next Steps For Contributors
 
-> **2026-08-07 SELECTED CL2 PULLBACK COMPLETE; OTHER GRADES NEXT.**
+> **2026-08-07 SECOND-LAYER TT EULER/PREBOUNDARY: HELICITY TWO SURVIVES.**
+> [`explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md`](explorations/conditional-build/selected-second-layer-tt-euler-preboundary-helicity-2026-08-07.md)
+> composes the complete selected-`Cl2` form with the exact Gauss identity. The
+> zero-fermion TT Euler polynomial is
+> `kappa_1^2(14356/13689) box(box+1922/3589)`: a massless helicity-`+/-2`
+> pair and a massive TT plus/cross plane of axial spin weight `+/-2`, with
+> opposite local Green signs. The massive full `SO(3)` type is open. The fourth-order
+> preboundary potential/current is exact and nonzero. Ledger v0.40 moves four
+> distances only. Next complete the scalar/vector/constraint characteristic
+> quotient and classify any modes beyond the intended two TT pairs; preserve
+> the bosonic block when the nonzero-fermion Hessian is composed. Global
+> domain, odd BV/BFV, positive energy and Einstein recovery remain open.
+
+> **NEXT RUN: COMPLETE SECOND-LAYER CONSTRAINT QUOTIENT.** Derive the full
+> scalar/vector/tensor symbol from the selected action, prove diffeomorphism
+> and constraint descent, and determine whether any physical classes survive
+> beyond the exact massless helicity-two and massive axial-weight-two TT pairs.
+> Only after that
+> gate should the common right-`H`/Krein and odd BV/BFV domain become primary.
+
+> **PREDECESSOR — 2026-08-07 SELECTED CL2 PULLBACK COMPLETE.**
 > [`explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md`](explorations/conditional-build/selected-second-layer-full-cl2-residual-pullback-2026-08-07.md)
 > derives and exhaustively verifies the complete sparse `1,274 x 100`
 > selected-`Cl2` target: rank 100, 640 nonzeros, and stationary quadratic form
@@ -18,12 +38,12 @@ updated_at: "2026-08-06"
 > Euler, preboundary or helicity work. Domain/BV/BFV remains conditional on
 > exact helicity two.
 
-> **NEXT RUN: TOTAL-RESIDUAL OTHER-GRADE TYPING.** Separate the selected
+> **SUPERSEDED QUEUE — TOTAL-RESIDUAL OTHER-GRADE TYPING.** The 01:20
+> Layer-0 source pass corrected this wording: separate the selected
 > bosonic `Cl2` residual from the source's bosonic-plus-fermionic total
-> residual. Enumerate other Clifford grades by observer-stabilizer type, prove
-> zero blocks without the killed full-Spin shortcut, and compute any surviving
-> blocks with sparse exact arithmetic. Compose them with the completed `Cl2`
-> map before any higher variational or physical-carrier promotion.
+> residual, but do not enumerate spinor Euler summands as bosonic Clifford
+> grades. On the zero-fermion pure-Gauss tangent they vanish separately, which
+> is what admitted the TT Euler/preboundary gate above.
 
 > **2026-08-06 SECOND-LAYER GAUSS OWNER MAP TYPE CORRECTION.**
 > [`explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md`](explorations/conditional-build/selected-second-layer-i2b-gauss-owner-map-2026-08-06.md)

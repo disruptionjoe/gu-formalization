@@ -9,7 +9,33 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT FULL-CL2 FENCE.** The complete selected second-action `Cl2`
+> **CURRENT SECOND-LAYER TT FENCE.** On the zero-fermion pure-Gauss branch,
+> the complete selected `Cl2` coefficients give the exact TT polynomial
+> `(14356/13689) box (box+1922/3589)`. The ordinary diffeomorphism quotient
+> contains a massless real helicity-`+/-2` pair and a massive axial
+> spin-weight-`+/-2` TT plane whose full `SO(3)` type is open; the local
+> fourth-order preboundary current is nonzero, and the two pole Green signs
+> are opposite. This is a TT subquotient, not the complete physical spectrum,
+> positive energy, Einstein recovery or a common domain. Complete the
+> scalar/vector/constraint characteristic complex and classify any additional
+> physical modes before global Krein/domain or odd BV/BFV work. Keep the
+> coupled nonzero-fermion Hessian separate. Ledger v0.40;
+> `SOURCE-CONFIRMS` the norm-square architecture and is `SOURCE-SILENT` on
+> the TT owner map.
+
+> **CURRENT NEXT-RUN METHOD.** Construct the complete zero-fermion bosonic
+> scalar/vector/constraint symbol complex around both intended TT poles.
+> Prove diffeomorphism and constraint descent, compute the little-group type
+> of every surviving quotient class, and classify only modes beyond the
+> massless helicity-two plus massive axial-weight-two TT pair as possible
+> extras. Preserve the exact TT
+> Euler and preboundary block. Only after this quotient is exact may the
+> separately typed nonzero-fermion Hessian be coupled; only after both may a
+> common Green/Krein domain and odd BV/BFV be opened. Mandatory pre/post
+> lenses remain differential geometry, representation theory, variational
+> PDE, symplectic geometry, Krein/operator theory and source criticism.
+
+> **PREDECESSOR FULL-CL2 FENCE.** The complete selected second-action `Cl2`
 > response to the 100 Gauss variables is exact: shape `1274 x 100`, rank 100,
 > 640 nonzero coefficients supported in `H_HN` (280) and `N_NN` (360). Its
 > stationary quadratic pullback is
@@ -17,10 +43,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > Co-moving target/frame/epsilon/observation derivatives vanish at this grade
 > because they multiply the zero residual. This is not the source-total
 > residual, positive energy, Euler/preboundary equivalence or helicity two.
-> Next type and compute other-Clifford-grade support. Ledger v0.39;
+> The 01:20 Layer-0 source return superseded the single-carrier
+> other-Clifford-grade queue: spinor Euler equations are separately typed.
+> Ledger v0.39;
 > `SOURCE-CONFIRMS` norm-square architecture and is silent on the owner map.
 
-> **NEXT-RUN METHOD.** Layer-0 type the selected bosonic `Cl2` residual against
+> **SUPERSEDED NEXT-RUN METHOD.** Layer-0 type the selected bosonic `Cl2` residual against
 > the source-total bosonic-plus-fermionic residual, enumerate other Clifford
 > grades by observer-stabilizer type, prove type-forced zero blocks, and
 > assemble any surviving blocks with sparse exact arithmetic. Compose them

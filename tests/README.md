@@ -1594,3 +1594,21 @@ v0.38 and migrates exactly five distances without changing headline counts.
 uv run --with sympy==1.14.0 python tests/channel-swings/selected_second_layer_full_cl2_residual_pullback_probe.py
 python3 tests/channel-swings/conditional_physics_ledger_v039_probe.py
 ```
+
+## Selected second-layer TT Euler, preboundary, helicity and ledger v0.40
+
+`channel-swings/selected_second_layer_tt_euler_preboundary_helicity_probe.py`
+composes the complete selected-`Cl2` coefficients with the exact Gauss/TT
+normalization, derives the non-fitted fourth-order Euler polynomial and Green
+identity, and proves the massless plus/cross quotient has compact null-rotation
+polynomial `x^2+4`; the massive TT plane is only axial weight two until its
+full `SO(3)` type is constructed. The ledger probe freezes v0.39, migrates exactly four row
+distances and retains all headline counts, four scoped quotients and unused
+P1/P2/P3.
+
+```sh
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/selected_second_layer_tt_euler_preboundary_helicity_probe.py
+PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
+  tests/channel-swings/conditional_physics_ledger_v040_probe.py
+```

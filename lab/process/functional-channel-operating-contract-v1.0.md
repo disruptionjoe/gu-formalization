@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.39.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.39.md`.
+`lab/process/conditional-physics-ledger-v0.40.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.40.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -71,8 +71,18 @@ coefficient and preserves inertia `(54,46)`. Co-moving target/frame/epsilon/
 observation derivatives vanish at this grade because they multiply the zero
 residual. Do not rebuild these objects, restore the graph-only match, call
 auxiliary elimination a quotient, select the coefficient, reduce residue, or
-promote selected `Cl2` to the total residual. Type and compute any other-grade
-support before cubic, Euler, preboundary or helicity promotion.
+promote selected `Cl2` to the total residual. The subsequent Layer-0 source
+return typed the spinor Euler equations as a separate direct summand on the
+zero-fermion stationary branch, rather than as missing bosonic Clifford
+grades. On that branch the exact selected coefficients give
+`(14356/13689) box(box+1922/3589)` on TT modes. The ordinary diffeomorphism
+quotient has one massless helicity-`+/-2` pair and one massive axial
+spin-weight-`+/-2` TT plane whose full `SO(3)` type remains open; the local
+fourth-order preboundary current is nonzero and the pole Green signs are
+opposite. This is a TT subquotient only. Complete the scalar/vector/constraint
+characteristic quotient and classify any additional physical modes before a
+common global domain or odd BV/BFV; couple the nonzero-fermion Hessian only as
+a separately typed successor.
 
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
@@ -483,13 +493,13 @@ vacuum-selection rule and observable behavior. The historical Einstein
 context rather than a mathematical premise unless checked against a primary
 Einstein source.
 
-Current gate:
+Predecessor gate (superseded by the zero-fermion Layer-0 direct-sum typing):
 
 ```text
 TYPE_AND_COMPUTE_TOTAL_RESIDUAL_OTHER_GRADE_SUPPORT__THEN_COMPARE_COMPLETE_TOTAL_RESIDUAL_QUADRATIC_WITH_OBSERVER_FULL_II__ONLY_IF_CARRIER_SURVIVES_DERIVE_CUBIC_EULER_PREBOUNDARY_HELICITY__COMMON_DOMAIN_ODD_BV_BFV_ONLY_IF_HELICITY2_SURVIVES__IN_PARALLEL_WITH_SUPER_IG_DESCENT_AND_NORMALIZED_OBSERVER_FUNCTIONAL
 ```
 
-Next-Run execution method, ratified by Joe on 2026-08-06:
+Predecessor execution method, ratified by Joe on 2026-08-06:
 
 1. Layer-0 type the selected bosonic `Cl2` residual against the source's total
    bosonic-plus-fermionic residual, then enumerate other Clifford grades by
@@ -506,10 +516,33 @@ Next-Run execution method, ratified by Joe on 2026-08-06:
    and null-little-group helicity. Only exact helicity two opens the common
    Krein/domain and odd BV/BFV campaign.
 
-Source may re-inspect whether Weinstein types the second layer as a bosonic
-residual or the total bosonic-plus-fermionic residual by grade. Compose
-migrates the ledger only
-if that work or the Build changes a row distance or high-fanout premise.
+Current gate:
+
+```text
+COMPLETE_ZERO_FERMION_SCALAR_VECTOR_CONSTRAINT_CHARACTERISTIC_QUOTIENT__PROVE_DIFFEO_CONSTRAINT_DESCENT__CLASSIFY_MASSIVE_SO3_TYPE_AND_MODES_BEYOND_MASSLESS_HELICITY2_PLUS_MASSIVE_AXIAL_WEIGHT2_TT__THEN_COUPLE_SEPARATELY_TYPED_NONZERO_FERMION_HESSIAN__COMMON_DOMAIN_ODD_BV_BFV_ONLY_AFTER_COMPLETE_QUOTIENT
+```
+
+Current execution method, ratified by the v0.40 Build/Compose result:
+
+1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
+   massive axial-weight-two plane and nonzero action preboundary current as a
+   fixed sub-block.
+2. Assemble the zero-fermion scalar/vector/constraint principal complex at
+   both TT roots and prove its diffeomorphism/constraint descent.
+3. Compute the little-group type of every surviving quotient class. Determine
+   whether the massive axial plane completes to a massive `SO(3)` spin-two
+   representation; the massive TT pole itself is intended, while additional
+   representations are possible extras.
+4. Keep the source-typed spinor Euler equations separate until the bosonic
+   quotient is complete, then construct the coupled nonzero-fermion Hessian
+   without erasing the TT block.
+5. Open a common Green/Krein domain and odd BV/BFV only after the complete
+   quotient, with the symplectic lens mandatory.
+
+The current source return types the spinor Euler equations as a separate
+direct summand; re-inspect that premise only if a new primary-source collision
+appears. Compose migrates the ledger only if that work or the Build changes a
+row distance or high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,
 variational PDE, symplectic geometry, Krein/operator theory and source
 criticism. A projected quadratic match is never an Euler, preboundary,

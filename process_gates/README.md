@@ -154,6 +154,9 @@ selected notes below and in each script header.
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
 - `selected_action_source_variable_hessian_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
+- `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
+- `selected_second_layer_i2b_gauss_owner_map_scope_audit.py`
+- `selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py`
 
 - `pw2fr2b2b2g_full_a4_multiindex_green_distinct_i2b_c4_scope_audit.py`
 - `pw2fr2b2b2h_mixed_shiab_second_jet_scope_audit.py`
@@ -1729,4 +1732,15 @@ exact rank-100, 640-entry sparse target; full-II and trace-square coefficients;
 `(54,46)` inertia; stationary-only co-moving scope; mandatory symplectic
 review; and total-residual other-grade support as successor. It forbids
 helicity, Euler/preboundary, domain/BV/BFV, residue, quotient, datum, canon and
+public-posture promotion.
+
+## Selected second-layer TT Euler, preboundary, helicity and ledger v0.40 gate
+
+`selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py` requires
+the exact fourth-order TT polynomial and mass ratio, massless helicity-two
+module, massive axial-weight-two TT plane, nonzero action preboundary current
+and opposite local pole Green signs. It keeps the massive full `SO(3)` type and complete scalar/vector/
+constraint quotient, coupled nonzero-fermion Hessian, common global domain,
+odd BV/BFV, positivity and Einstein recovery open. It also requires the
+symplectic hostile lens and forbids residue, fifth-quotient, datum, canon or
 public-posture promotion.
