@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 source-graph covariance and basicness (2026-08-07)
+
+`conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`
+constructs exact full-frame three-patch transport for the corrected K77
+four-column source lift, then proves it is not basic under the unframed block
+stabilizer. A normal rotation fixes the horizontal four-plane but produces a
+rank-four 80-entry defect. Ledger v0.58 routes the next Build to an
+epsilon-soldering ownership map or invariant-Hom replacement without moving
+verdicts, residue, quotients, datum or posture.
+
 ## K77 Cartan/Spencer signature correction (2026-08-07)
 
 `conditional-build/selected-k77-cartan-spencer-signature-correction-2026-08-07.md`

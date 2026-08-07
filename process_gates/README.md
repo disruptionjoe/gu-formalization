@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_source_graph_basicness_scope_audit.py` audits the v0.58
+  full-frame covariance versus quotient-basicness split, source
+  epsilon/soldering uncertainty, unbookable surplus, mandatory symplectic
+  review and frozen ledger/datum/lane/posture boundary.
+
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py` audits the
   v0.57 `(9,5)` to settled K77 `(7,7)` coefficient repair, old-value
   supersession, surviving pointwise theorem, mandatory symplectic review and
@@ -180,6 +185,7 @@ selected notes below and in each script header.
 - `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_source_graph_basicness_scope_audit.py`
 - `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
 - `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
 - `selected_second_layer_i2b_gauss_owner_map_scope_audit.py`
@@ -1913,3 +1919,12 @@ the executed old inertia `(9,5)` and corrected K77 inertia `(7,7)` to be
 measured, all changed-coordinate counts to remain exact, the pointwise
 rank/support theorem to survive, old coefficient values to be superseded, and
 all graph/atlas/Euler/symplectic promotions to remain fenced.
+
+## K77 source-graph basicness and ledger v0.58 gate
+
+`selected_k77_source_graph_basicness_scope_audit.py` requires exact
+full-frame three-patch transport to remain distinct from unframed quotient
+basicness, records the horizontal and normal rank-four stabilizer defects,
+keeps source gauge `epsilon` distinct from observation soldering, refuses to
+book positive quotient surplus, requires the symplectic basicness review, and
+freezes verdicts, residue, quotients, datum, canon and posture.

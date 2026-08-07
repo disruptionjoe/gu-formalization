@@ -176,7 +176,7 @@ assert "NONZERO_T_STAR_CARTAN_SPENCER_UNRESTRICTED_CONNECTION_MAP_RANK1274_ISOMO
 assert "TRANSVERSE117_PREIMAGES_EXACT_SUPPORTS57_34_34_34_RANK4" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
-assert "COVARIANT_FOUR_COLUMN_GRAPH_SPENCER_ATLAS_INTEGRABILITY_PRIMARY" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "FULL_EPSILON_FRAME_DESCENT_EXACT__UNFRAMED_BASICNESS_FAIL" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -218,13 +218,13 @@ assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in di
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "COVARIANT_FOUR_COLUMN_SOURCE_VARPI_GRAPH_MORPHISM_AND_SPENCER_ATLAS_INTEGRABILITY"
+assert next_method["target"] == "EPSILON_SOLDERING_OWNERSHIP_OR_STABILIZER_INVARIANT_GRAPH_REPLACEMENT"
 assert "PRESERVE_THE_PRINCIPAL_CONNECTION_Q_EXACT_CLASS_AND_THE_UNRESTRICTED_CARTAN_SPENCER_TRANSVERSE117_CARRIER_OWNER" in next_method["ordered_steps"]
 assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
 assert "PRESERVE_THE_LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in next_method["ordered_steps"]
 assert "PRESERVE_SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in next_method["ordered_steps"]
-assert "CONSTRUCT_ONE_COVARIANT_FOUR_COLUMN_GRAPH_MORPHISM_AND_COUNT_CONSTRAINT_SURPLUS" in next_method["ordered_steps"]
-assert "TEST_SPENCER_COMPATIBILITY_AND_THREE_PATCH_ATLAS_DESCENT_WITH_A_NON_DESCENDING_PLANT" in next_method["ordered_steps"]
+assert "PRESERVE_FULL_FRAME_DESCENT_BUT_REQUIRE_QUOTIENT_BASICNESS__DO_NOT_BOOK_POSITIVE_SURPLUS" in next_method["ordered_steps"]
+assert "CONSTRUCT_EPSILON_TO_OBSERVATION_SOLDERING_MAP_OR_AN_INVARIANT_HOM_REPLACEMENT_AND_RETEST_THE_NON_DESCENDING_PLANT" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
     "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
@@ -232,16 +232,16 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_CONFIRMS_SPIN77_Y77_NORMAL64_AND_FIXED_EPSILON_VARPI_TRANSLATION_ENDPOINT_FA__SOURCE_CORRECTS_VARPI_TANGENT_TO_DELTA_T_DELTA_A_NOT_DELTA_B__SOURCE_SILENT_ON_COVARIANT_GRAPH_SPENCER_EULER__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_CONFIRMS_GAUGE_EPSILON_PROMOTED_TO_FIELD_CONTENT_AND_FULL_VARPI_TRANSLATION__SOURCE_SILENT_ON_EPSILON_AS_OBSERVATION_SOLDERING_AND_FOUR_COLUMN_SELECTOR__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "CONSTRUCT_COVARIANT_FOUR_COLUMN_SOURCE_VARPI_GRAPH_MORPHISM" in directive["next_gate"]
-assert "CARTAN_SPENCER_UNRESTRICTED_RANK1274_ISOMORPHISM" in directive["latest_correction_evidence"]
-assert "K77_INERTIA7_7_CORRECTED_FROM_MISLABELED9_5" in directive["latest_correction_evidence"]
-assert "OLD_COEFFICIENT_VALUES_SUPERSEDED" in directive["latest_correction_evidence"]
-assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in directive["latest_correction_evidence"]
+assert "EPSILON_SOLDERING_OWNERSHIP_OR_STABILIZER_INVARIANT_REPLACEMENT" in directive["next_gate"]
+assert "K77_INERTIA7_7_COEFFICIENT_CHAIN_CORRECT" in directive["latest_correction_evidence"]
+assert "FULL_EPSILON_FRAME_THREE_PATCH_DESCENT_EXACT" in directive["latest_correction_evidence"]
+assert "NORMAL_STABILIZER_FIXES_HORIZONTAL_PLANE_BUT_DEFECT_RANK4_ENTRIES80" in directive["latest_correction_evidence"]
+assert "QUOTIENT_SURPLUS_UNBOOKABLE" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -370,4 +370,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels type 84 immutable records versus 82 active targets, preserve the no-self-vote priority decision as planning-only evidence, and route the exact pointwise source-varpi lift -> covariant graph/Spencer integrability -> Euler/symplectic descent with D2 disjoint")
+print("PASS: functional channels type 84 immutable records versus 82 active targets, preserve planning-only persona evidence, and route exact framed transport -> epsilon-soldering ownership or invariant replacement -> quotient-basic Euler/symplectic descent with D2 disjoint")

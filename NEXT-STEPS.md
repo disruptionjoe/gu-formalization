@@ -12,9 +12,9 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> The first main-sequence gate is now closed pointwise by ledger v0.57. The
-> remaining sequence is: covariant four-column source-`varpi` graph morphism,
-> freedom/surplus count and Spencer/global integrability; then survivor-only Euler/preboundary,
+> The pointwise and full-frame graph gates are now closed by ledger v0.58, but
+> quotient basicness fails. The remaining sequence is: source-`epsilon` to
+> observation/soldering ownership or an invariant-Hom replacement; then survivor-only Euler/preboundary,
 > Ward/Bianchi, BV and symplectic descent. Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -37,13 +37,19 @@ updated_at: "2026-08-07"
 > four and zero coefficient freedom at fixed nonzero background. This is local
 > realizability, not source selection or global integrability.
 
-> **NEXT RUN: COVARIANT FOUR-COLUMN GRAPH/SPENCER GATE.** Construct one
-> covariant graph morphism from the four physical soldering/observation columns
-> to the source `varpi` tangent using only the corrected K77 columns, count independent constraints versus remaining
-> freedom, and test Spencer compatibility plus three-patch descent with a
-> carrier-fitting/non-descending plant. Only surviving columns advance to raw-
-> `Upsilon` Bianchi/naturality and first-action Euler/preboundary/symplectic
-> descent. Symplectic review is mandatory.
+> **2026-08-07 FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
+> [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)
+> proves exact full-frame three-patch transport but finds rank-four defects
+> under two horizontal stabilizers and a normal stabilizer that fixes the
+> observed four-plane. The fitted map is outside the three-dimensional
+> block-invariant Hom span. No positive quotient surplus is booked.
+
+> **NEXT RUN: EPSILON-SOLDERING OWNERSHIP OR INVARIANT REPLACEMENT.** Either
+> construct an action-owned map identifying source gauge `epsilon` with the
+> observation/soldering frame and determine its stabilizer, or fit the four K77
+> targets inside the invariant Hom space. Only a quotient-basic survivor
+> advances to raw-`Upsilon` Bianchi/naturality and first-action
+> Euler/preboundary/symplectic descent. Symplectic review is mandatory.
 
 > **2026-08-07 NONZERO-BACKGROUND CARTAN/SPENCER OWNER (ledger v0.55).**
 > [`explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`](explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md)

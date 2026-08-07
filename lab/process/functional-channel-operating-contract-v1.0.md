@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.57.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.57.md`.
+`lab/process/conditional-physics-ledger-v0.58.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.58.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -33,7 +33,12 @@ Koszul and source-`varpi` chain has now been rebuilt on the settled K77 metric.
 Every target and lift coefficient packet changes; the old v0.55/v0.56 exact
 values are superseded. The pointwise theorem survives with supports
 `57,34,34,34`, rank four, uniqueness and zero coefficient freedom. Use only
-the corrected K77 columns in the graph/atlas gate.
+the corrected K77 columns in the graph/atlas gate. Their full-`epsilon`-frame
+three-patch extension is now exact, but the fitted map is not basic under the
+unframed block stabilizer: two horizontal rotations give rank-four defects
+with 118 nonzero entries each, and a normal rotation fixing the horizontal
+four-plane gives a rank-four 80-entry defect. Do not call associated-frame
+transport a physical graph or book positive quotient surplus.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -45,11 +50,13 @@ linearized torsion-free equation and collapses back to `q`-exact support, with
 zero transverse intersection. The source-native fixed-epsilon translation is
 now correctly typed as `delta B=0`, `delta T=delta A=alpha`; its endpoint
 response gives exact pointwise lifts of all four transverse packets with rank
-four and zero coefficient freedom at fixed background. Construct one covariant
-four-column graph morphism, count constraint surplus and prove Spencer/atlas
-integrability. Do not promote pointwise tangent realization to source
-selection, global integrability, Euler descent or a physical result. Symplectic
-review remains mandatory.
+four and zero coefficient freedom at fixed background. The full-frame graph
+extension is exact; quotient basicness fails. Next either construct an
+action-owned identification from source gauge `epsilon` to the
+observation/soldering frame, or replace the fitted map by a member of the exact
+three-dimensional block-invariant Hom space and retest its four targets. Do
+not promote framed tangent realization to source selection, Euler descent or a
+physical result. Symplectic review remains mandatory.
 
 Current transverse-owner correction: “connection curvature is `q`-exact” is a
 principal-symbol theorem, not a no-go for the nonzero-background algebraic
@@ -57,12 +64,14 @@ Cartan term. The unrestricted Cartan carrier closes the coefficientwise
 `117` burden, and the source `varpi` tangent now realizes it pointwise through
 endpoint motion rather than reference `delta B`. Source ownership of the full-
 adjoint tangent does not select how it depends on observation/soldering graph
-columns. Derive that covariant graph law and its integrability before total
+columns. Full-frame transport supplies one associated law, but the law is not
+stabilizer-basic and the source does not identify gauge `epsilon` with the
+observation soldering. Resolve that ownership/invariant-map fork before total
 raw-`Upsilon` Bianchi/naturality, null-screen, Euler or physical quotient
 claims.
 
 Current accounting and priority decision:
-`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.56
+`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.58
 has 84 immutable row records and 82 active canonical targets. The two-record
 difference is exactly the retained historical predecessors `LT-GR2` and
 `AC-G1`; their typed successors own the active meter. Do not count append-only
@@ -70,9 +79,10 @@ history as current verdicts or rewrite predecessor ledgers to erase provenance.
 
 The no-self-vote 25-lens Condorcet result is planning evidence only. Its first
 gate is now closed locally: the fixed-epsilon source `varpi` tangent realizes
-the four exact Koszul columns. Next run the covariant graph-morphism and
-constraint-surplus test jointly with Spencer/jet integrability and overlap
-descent. Only a lawful survivor may
+the four exact Koszul columns. The full-frame overlap extension is also exact,
+but quotient basicness fails and positive quotient surplus is unbookable.
+Next own the epsilon-to-observation-soldering map or construct an invariant Hom
+replacement. Only a quotient-basic survivor may
 advance to Euler, preboundary, Ward/Bianchi, BV and symplectic descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main

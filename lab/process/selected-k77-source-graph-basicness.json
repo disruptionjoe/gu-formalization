@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "FULL_EPSILON_FRAME_EXTENSION_EXACT__UNFRAMED_STABILIZER_BASICNESS_FAILS__SOLDERING_IDENTIFICATION_OPEN",
+  "source_return": "SOURCE-CONFIRMS__GAUGE_EPSILON_PROMOTED_TO_FIELD_CONTENT_AND_FULL_VARPI_TRANSLATION__SOURCE-SILENT__EPSILON_AS_THE_OBSERVATION_SOLDERING_AND_FOUR_COLUMN_SELECTOR",
+  "predecessor": "lab/process/selected-k77-cartan-spencer-signature-correction.json",
+  "exact_result": {
+    "pointwise_lift_rank": 4,
+    "pointwise_lift_supports": [57, 34, 34, 34],
+    "pointwise_coefficient_freedom": 0,
+    "horizontal_stabilizer_defects": [
+      {"plane": [1, 2], "rank": 4, "nonzero_entries": 118},
+      {"plane": [2, 3], "rank": 4, "nonzero_entries": 118}
+    ],
+    "normal_stabilizer_defect": {"plane": [4, 5], "rank": 4, "nonzero_entries": 80, "horizontal_plane_fixed": true},
+    "block_stabilizer_invariant_hom_dimension": 3,
+    "fitted_map_in_invariant_span": false,
+    "full_frame_three_patch_descent": true,
+    "local_pointwise_non_descending_plant_fires": true,
+    "quotient_basicness": false
+  },
+  "constraint_surplus": {
+    "pointwise_coefficient_freedom": 0,
+    "framed_extension_new_coefficients_given_full_frame": 0,
+    "quotient_surplus": "UNBOOKABLE",
+    "reason": "stabilizer basicness fails and any newly supplied full-frame field has unranked function-valued cost"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "next_gate": "SOURCE_OR_ACTION_OWN_EPSILON_SOLDERING_IDENTIFICATION_OR_CONSTRUCT_STABILIZER_INVARIANT_REPLACEMENT__THEN_RAW_UPSILON_BIANCHI_EULER_PREBOUNDARY",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "rerun": "44/44 PASS"
+}

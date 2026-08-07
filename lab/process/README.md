@@ -15,7 +15,14 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.57. The complete raw-target to
+Current append-only progress surface: ledger v0.58. The corrected K77
+four-column source lift has exact full-frame three-patch transport, but fails
+unframed block-stabilizer basicness. The fitted map is outside the exact
+three-dimensional invariant Hom span, and a normal stabilizer fixes the
+horizontal four-plane while changing all four lifts. No positive quotient
+surplus is booked. See `selected-k77-source-graph-basicness.json`.
+
+Predecessor append-only progress surface: ledger v0.57. The complete raw-target to
 source-`varpi` pointwise chain is corrected from a mislabeled `(9,5)` metric to
 settled K77 `(7,7)`. Every coefficient packet changes, but rank four, supports
 `57,34,34,34`, uniqueness and zero pointwise freedom survive. Old v0.55/v0.56
@@ -26,8 +33,7 @@ Predecessor append-only progress surface: ledger v0.56. The source-native
 fixed-epsilon `varpi` tangent has `delta B=0`, `delta T=delta A=alpha` and
 realizes all four transverse Cartan lifts pointwise, with supports
 `57,34,34,34`, rank four and zero coefficient freedom at fixed background.
-The next gate is a covariant four-column graph morphism, constraint-surplus
-count and Spencer/atlas integrability. See
+The successor gate tests framed graph transport and quotient basicness. See
 `selected-source-varpi-cartan-composition.json`.
 
 Predecessor append-only progress surface: ledger v0.55. The unrestricted

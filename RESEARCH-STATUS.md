@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose correction 2026-08-07 (ledger v0.57; five mapping-
+**Current Build/Compose result 2026-08-07 (ledger v0.58; five distance/mapping-
+grade/evidence migrations).** The corrected K77 four-column source lift has
+an exact full-`epsilon`-frame three-patch extension, but it is not basic on the
+unframed quotient. Two horizontal stabilizers give rank-four defects with 118
+nonzero entries each; a normal stabilizer fixes the horizontal four-plane yet
+changes all four lifts with a rank-four 80-entry defect. The fitted map lies
+outside the exact three-dimensional block-invariant Hom span. Next either own
+the source-`epsilon` to observation/soldering identification or construct an
+invariant replacement. No positive quotient surplus, verdict, residue,
+quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose correction 2026-08-07 (ledger v0.57; five mapping-
 grade/evidence migrations).** The v0.46/v0.55 chain called its metric `(7,7)`
 but executed inertia `(9,5)`. Rebuilding the raw targets, selected-Shiab
 preimages, Koszul inverse and fixed-epsilon source-`varpi` lifts on settled K77

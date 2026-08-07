@@ -14,9 +14,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> The first source-tangent gate is now closed pointwise by ledger v0.57. The
-> accepted next sequence is a covariant four-column source-`varpi` graph
-> morphism plus freedom/surplus count and Spencer/global integrability as one gate; then survivor-only Euler,
+> The pointwise and full-frame graph gates are now closed by ledger v0.58, but
+> quotient basicness fails. The accepted next sequence is source gauge
+> `epsilon` to observation/soldering ownership or an invariant-Hom replacement; then survivor-only Euler,
 > preboundary, Ward/Bianchi, BV and symplectic descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
@@ -33,10 +33,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `delta B`. At `T*=-(kappa_1/312)Phi1`, the endpoint response `[T*,alpha]`
 > gives four unique pointwise source-varpi lifts reproducing all transverse 117
 > coefficients, with supports `57,34,34,34`, rank four and zero coefficient
-> freedom at fixed background. This is local tangent-space
-> realizability, not a source-selected graph law, global Spencer/atlas
-> integrability, Euler class, quotient, datum or physics recovery. Next
-> construct the covariant graph morphism and run the integrability gate.
+> freedom at fixed background. Its full-frame three-patch extension is exact,
+> but two horizontal stabilizers and one normal stabilizer produce rank-four
+> defects; the normal rotation fixes the horizontal four-plane. The fitted map
+> is not basic and lies outside the exact three-dimensional block-invariant Hom
+> span. Source gauge `epsilon` is not yet identified with observation
+> soldering. No positive quotient surplus, Euler class, quotient, datum or
+> physics recovery follows. Next own that identification or build an invariant
+> replacement.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -86,8 +90,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract covariant four-column source-varpi graph
-> and Spencer/atlas integrability target; historical campaign-local
+> next gate is the functional-contract epsilon-to-observation-soldering
+> ownership or stabilizer-invariant graph replacement target; historical campaign-local
 > pointers are not queue truth.
 
 > **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
@@ -135,11 +139,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > fixed-`B` support 28, the
 > q-exact principal connection theorem, the zero invariant branch-tangent
 > operator packet, the unrestricted Cartan/Spencer owner for all 117, and the
-> exact corrected pointwise fixed-epsilon source-varpi lifts. Never reuse the
-> old v0.55/v0.56 coefficient packets. Construct one covariant
-> source-varpi graph morphism on the four physical soldering/observation
-> columns while jointly testing freedom/surplus count, Spencer/jet integrability
-> and overlap descent. Do not substitute the
+> exact corrected pointwise fixed-epsilon source-varpi lifts and their exact
+> full-frame three-patch extension. Never reuse the old v0.55/v0.56
+> coefficient packets or call framed transport quotient descent. Construct an
+> action-owned epsilon-to-observation-soldering map with an admissible
+> stabilizer, or an invariant-Hom replacement reproducing the four targets.
+> Retest quotient basicness and the non-descending plant. Do not substitute the
 > Levi-Civita subclass: its linearized torsion-free response is q-exact. Plant
 > a carrier-fitting but non-descending tangent. Only a lawful survivor advances
 > to Euler/preboundary, total Bianchi/raw-`Upsilon`, BV and symplectic descent;
