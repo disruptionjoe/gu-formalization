@@ -15,7 +15,15 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.55. The unrestricted
+Current append-only progress surface: ledger v0.56. The source-native
+fixed-epsilon `varpi` tangent has `delta B=0`, `delta T=delta A=alpha` and
+realizes all four transverse Cartan lifts pointwise, with supports
+`57,34,34,34`, rank four and zero coefficient freedom at fixed background.
+The next gate is a covariant four-column graph morphism, constraint-surplus
+count and Spencer/atlas integrability. See
+`selected-source-varpi-cartan-composition.json`.
+
+Predecessor append-only progress surface: ledger v0.55. The unrestricted
 nonzero-background Cartan/Spencer connection map owns all transverse 117
 coefficients exactly, but the actual Levi-Civita subclass is q-exact and does
 not. The next gate is the independent-`varpi`, soldering and observation

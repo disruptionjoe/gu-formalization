@@ -12,13 +12,30 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> The accepted main sequence is: source-native independent-`varpi`/soldering/
-> observation tangent; four-column Koszul match plus freedom count and
-> Spencer/global integrability; then survivor-only Euler/preboundary,
+> The first main-sequence gate is now closed pointwise by ledger v0.56. The
+> remaining sequence is: covariant four-column source-`varpi` graph morphism,
+> freedom/surplus count and Spencer/global integrability; then survivor-only Euler/preboundary,
 > Ward/Bianchi, BV and symplectic descent. Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
 > evidence.
+
+> **2026-08-07 SOURCE-VARPI/CARTAN COMPOSITION (ledger v0.56).**
+> [`explorations/conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md`](explorations/conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md)
+> corrects the source-coordinate owner: fixed `epsilon` gives `delta B=0`,
+> `delta T=delta A=alpha`, and `[T*,alpha]` is the signed Cartan response in
+> the endpoint-curvature derivative. Four unique pointwise source-varpi lifts
+> reproduce all transverse 117 coefficients with supports `57,34,34,34`, rank
+> four and zero coefficient freedom at fixed nonzero background. This is local
+> realizability, not source selection or global integrability.
+
+> **NEXT RUN: COVARIANT FOUR-COLUMN GRAPH/SPENCER GATE.** Construct one
+> covariant graph morphism from the four physical soldering/observation columns
+> to the source `varpi` tangent, count independent constraints versus remaining
+> freedom, and test Spencer compatibility plus three-patch descent with a
+> carrier-fitting/non-descending plant. Only surviving columns advance to raw-
+> `Upsilon` Bianchi/naturality and first-action Euler/preboundary/symplectic
+> descent. Symplectic review is mandatory.
 
 > **2026-08-07 NONZERO-BACKGROUND CARTAN/SPENCER OWNER (ledger v0.55).**
 > [`explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`](explorations/conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md)
@@ -29,7 +46,7 @@ updated_at: "2026-08-07"
 > subclass obeys the linearized torsion-free equation, remains `q`-exact and
 > has zero transverse intersection.
 
-> **NEXT RUN: ACTUAL INDEPENDENT-VARPI/OBSERVATION NORMAL JET.** Construct the
+> **SUPERSEDED NEXT RUN: ACTUAL INDEPENDENT-VARPI/OBSERVATION NORMAL JET.** Construct the
 > coupled independent-`varpi`, soldering and observation normal jet on the same
 > four graph columns and compare its connection components with the exact
 > Koszul preimages. If it matches, assemble total raw-`Upsilon` Bianchi and

@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_source_varpi_cartan_composition_probe.py` types the
+  fixed-epsilon source tangent as `delta B=0`, `delta T=delta A=alpha`, composes
+  its endpoint response with the four exact Koszul preimages, and reconstructs
+  all transverse 117 pointwise with supports `57,34,34,34`, rank four and zero
+  coefficient freedom at fixed nonzero background.
+- `channel-swings/conditional_physics_ledger_v056_probe.py` verifies the
+  append-only five-row distance migration and frozen verdicts, residue,
+  quotients and external datum.
+
 - `channel-swings/selected_nonzero_background_cartan_spencer_owner_probe.py`
   proves the nonzero-background unrestricted Cartan/Spencer connection map is
   an exact rank-1,274 isomorphism, reconstructs all transverse 117 coefficients

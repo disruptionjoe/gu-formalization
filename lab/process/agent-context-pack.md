@@ -14,24 +14,33 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> The accepted next sequence is source-native independent-`varpi`/soldering/
-> observation tangent; four-column Koszul match plus freedom count and
-> Spencer/global integrability as one gate; then survivor-only Euler,
+> The first source-tangent gate is now closed pointwise by ledger v0.56. The
+> accepted next sequence is a covariant four-column source-`varpi` graph
+> morphism plus freedom/surplus count and Spencer/global integrability as one gate; then survivor-only Euler,
 > preboundary, Ward/Bianchi, BV and symplectic descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
 > persona vote is planning evidence, never scientific evidence.
 
-> **CURRENT NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
+> **CURRENT SOURCE-VARPI/CARTAN FENCE.** Weinstein's fixed-epsilon translation
+> is `delta B=0`, `delta T=delta A=alpha`; do not call it a reference
+> `delta B`. At `T*=-(kappa_1/312)Phi1`, the endpoint response `[T*,alpha]`
+> gives four unique pointwise source-varpi lifts reproducing all transverse 117
+> coefficients, with supports `57,34,34,34`, rank four and zero coefficient
+> freedom at fixed background. Ledger v0.56. This is local tangent-space
+> realizability, not a source-selected graph law, global Spencer/atlas
+> integrability, Euler class, quotient, datum or physics recovery. Next
+> construct the covariant graph morphism and run the integrability gate.
+
+> **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
 > response `[delta B,T*]` is an exact rank-1,274 isomorphism onto the odd
 > translation-curvature carrier. It supplies all transverse 117 coefficients
 > with rank-four Koszul preimages of supports `57,34,34,34`. But a true
 > Levi-Civita variation satisfies the linearized torsion-free equation and
-> remains `q`-exact, with zero transverse intersection. Ledger v0.55; next
-> construct the actual independent-`varpi`, soldering and observation normal
-> jet on the four graph columns. Unrestricted carrier ownership is not
+> remains `q`-exact, with zero transverse intersection. Ledger v0.55;
+> v0.56 supplies the pointwise source-varpi realization. Unrestricted carrier ownership is not
 > Levi-Civita ownership, an Euler class, quotient, datum or physical recovery.
 
 > **CURRENT SELECTED-CONSTITUENT NATURALITY FENCE.** The selected raw source
@@ -72,8 +81,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract actual independent-`varpi`/soldering/
-> observation normal jet and null-screen target; historical campaign-local
+> next gate is the functional-contract covariant four-column source-varpi graph
+> and Spencer/atlas integrability target; historical campaign-local
 > pointers are not queue truth.
 
 > **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
@@ -119,11 +128,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
 > massive-spin-two blocks, the non-null Koszul split, fixed-`B` support 28, the
 > q-exact principal connection theorem, the zero invariant branch-tangent
-> operator packet and the unrestricted Cartan/Spencer owner for all 117.
-> First reconstruct from source and geometry the actual independent-`varpi`,
-> soldering and observation tangent/normal-jet law. Then compare its four graph
-> columns with the unique Koszul preimages while jointly testing freedom count,
-> Spencer/jet integrability and overlap descent. Do not substitute the
+> operator packet, the unrestricted Cartan/Spencer owner for all 117, and the
+> exact pointwise fixed-epsilon source-varpi lifts. Construct one covariant
+> source-varpi graph morphism on the four physical soldering/observation
+> columns while jointly testing freedom/surplus count, Spencer/jet integrability
+> and overlap descent. Do not substitute the
 > Levi-Civita subclass: its linearized torsion-free response is q-exact. Plant
 > a carrier-fitting but non-descending tangent. Only a lawful survivor advances
 > to Euler/preboundary, total Bianchi/raw-`Upsilon`, BV and symplectic descent;

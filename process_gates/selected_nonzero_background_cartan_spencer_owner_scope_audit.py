@@ -15,7 +15,7 @@ assert r["exact_result"]["cartan_spencer_rank"] == 1274
 assert r["exact_result"]["transverse_preimage_supports"] == [57, 34, 34, 34]
 assert r["exact_result"]["levi_civita_transverse_intersection"] == 0
 assert l["schema_version"] == "0.55" and l["residue"]["continuous_real"] == 84
-assert c["standing_ledger"]["ref"] == "lab/process/conditional-physics-ledger-v0.55.json"
+assert c["standing_ledger"]["ref"] == "lab/process/conditional-physics-ledger-v0.56.json"
 assert "Levi-Civita subclass" in report and "Symplectic geometry" in review
 assert r["rerun"] == "48/48 PASS" and r["third_lane_gate"] == "NOT_PROMOTED"
 assert r["claim_status_change"] == r["canon_verdict_change"] == r["public_posture_change"] == "none"

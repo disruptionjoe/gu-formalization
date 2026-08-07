@@ -8,7 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-07 (ledger v0.55; five distance-only
+**Current Build/Compose result 2026-08-07 (ledger v0.56; five distance-only
+migrations).** The source-native fixed-epsilon translation is now typed as
+`delta B=0`, `delta T=delta A=alpha`. At the selected nonzero background, the
+endpoint-curvature response `[T*,alpha]` is a signed Cartan/Spencer map. Four
+unique pointwise source-varpi lifts reproduce all transverse 117 coefficients
+exactly with supports `57,34,34,34`, rank four and zero coefficient freedom at
+fixed background. A covariant graph morphism, constraint-surplus count,
+Spencer/atlas integrability and Euler/preboundary descent remain open. No
+verdict, residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-07 (ledger v0.55; five distance-only
 migrations).** At the selected nonzero `T*=-(kappa_1/312)Phi1` background,
 the algebraic Cartan/Spencer map from unrestricted metric-compatible connection
 variations to odd translation curvature is an exact rank-1,274 isomorphism.

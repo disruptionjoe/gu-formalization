@@ -175,7 +175,8 @@ assert "FIXED_B_DB_T_SUPPORT28_PARTIAL_OWNER" in contract["standing_ledger"]["mo
 assert "NONZERO_T_STAR_CARTAN_SPENCER_UNRESTRICTED_CONNECTION_MAP_RANK1274_ISOMORPHISM" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "TRANSVERSE117_PREIMAGES_EXACT_SUPPORTS57_34_34_34_RANK4" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
-assert "ACTUAL_INDEPENDENT_VARPI_SOLDERING_OBSERVATION_NORMAL_JET_PRIMARY" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "COVARIANT_FOUR_COLUMN_GRAPH_SPENCER_ATLAS_INTEGRABILITY_PRIMARY" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -212,15 +213,18 @@ assert directive["primary_row_on_hold"] is None
 assert "PRINCIPAL_CONNECTION_CLASS_QEXACT" in directive["status"]
 assert "NONZERO_BACKGROUND_CARTAN_SPENCER_RANK1274_TRANSVERSE117_CARRIER_OWNER" in directive["status"]
 assert "LEVI_CIVITA_SUBCLASS_QEXACT_TRANSVERSE_ZERO" in directive["status"]
+assert "SOURCE_VARPI_POINTWISE_TRANSVERSE117_LIFT_EXACT" in directive["status"]
 assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "ACTUAL_INDEPENDENT_VARPI_SOLDERING_OBSERVATION_NORMAL_JET_ON_FOUR_GRAPH_COLUMNS"
+assert next_method["target"] == "COVARIANT_FOUR_COLUMN_SOURCE_VARPI_GRAPH_MORPHISM_AND_SPENCER_ATLAS_INTEGRABILITY"
 assert "PRESERVE_THE_PRINCIPAL_CONNECTION_Q_EXACT_CLASS_AND_THE_UNRESTRICTED_CARTAN_SPENCER_TRANSVERSE117_CARRIER_OWNER" in next_method["ordered_steps"]
 assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
 assert "PRESERVE_THE_LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in next_method["ordered_steps"]
-assert "CONSTRUCT_THE_ACTUAL_INDEPENDENT_VARPI_SOLDERING_AND_OBSERVATION_NORMAL_JET" in next_method["ordered_steps"]
+assert "PRESERVE_SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in next_method["ordered_steps"]
+assert "CONSTRUCT_ONE_COVARIANT_FOUR_COLUMN_GRAPH_MORPHISM_AND_COUNT_CONSTRAINT_SURPLUS" in next_method["ordered_steps"]
+assert "TEST_SPENCER_COMPATIBILITY_AND_THREE_PATCH_ATLAS_DESCENT_WITH_A_NON_DESCENDING_PLANT" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
     "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
@@ -228,12 +232,12 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_CONFIRMS_TWO_CONNECTION_TRANSLATION_CURVATURE_AND_NONZERO_T_BRANCH_AND_IS_SILENT_ON_ACTUAL_FOUR_COLUMN_VARPI_NORMAL_JET__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_CONFIRMS_FIXED_EPSILON_VARPI_TRANSLATION_AND_ENDPOINT_FA__SOURCE_CORRECTS_VARPI_TANGENT_TO_DELTA_T_DELTA_A_NOT_DELTA_B__SOURCE_SILENT_ON_COVARIANT_GRAPH_SPENCER_EULER__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "CONSTRUCT_ACTUAL_INDEPENDENT_VARPI_SOLDERING_OBSERVATION_NORMAL_JET" in directive["next_gate"]
+assert "CONSTRUCT_COVARIANT_FOUR_COLUMN_SOURCE_VARPI_GRAPH_MORPHISM" in directive["next_gate"]
 assert "CARTAN_SPENCER_UNRESTRICTED_RANK1274_ISOMORPHISM" in directive["latest_correction_evidence"]
 assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
@@ -364,4 +368,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels type 84 immutable records versus 82 active targets, preserve the no-self-vote priority decision as planning-only evidence, and route source tangent -> four-column plus integrability -> Euler/symplectic descent with D2 disjoint")
+print("PASS: functional channels type 84 immutable records versus 82 active targets, preserve the no-self-vote priority decision as planning-only evidence, and route the exact pointwise source-varpi lift -> covariant graph/Spencer integrability -> Euler/symplectic descent with D2 disjoint")

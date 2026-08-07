@@ -24,41 +24,47 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.55.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.55.md`.
+`lab/process/conditional-physics-ledger-v0.56.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.56.md`.
 
-Current nonzero-background owner directive: preserve
+Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
 principal `q`-exact connection theorem. The algebraic Cartan/Spencer map
-`[delta B,T*]` is an exact rank-1,274 isomorphism on unrestricted
+is an exact rank-1,274 isomorphism on unrestricted
 metric-compatible connection variations and supplies all transverse 117, with
 four preimage supports `57,34,34,34`. A genuine Levi-Civita variation obeys the
 linearized torsion-free equation and collapses back to `q`-exact support, with
-zero transverse intersection. Construct the actual independent-`varpi`,
-soldering and observation normal jet on the same four graph columns; do not
-promote unrestricted carrier ownership to a Levi-Civita or physical result.
-Symplectic review remains mandatory.
+zero transverse intersection. The source-native fixed-epsilon translation is
+now correctly typed as `delta B=0`, `delta T=delta A=alpha`; its endpoint
+response gives exact pointwise lifts of all four transverse packets with rank
+four and zero coefficient freedom at fixed background. Construct one covariant
+four-column graph morphism, count constraint surplus and prove Spencer/atlas
+integrability. Do not promote pointwise tangent realization to source
+selection, global integrability, Euler descent or a physical result. Symplectic
+review remains mandatory.
 
 Current transverse-owner correction: “connection curvature is `q`-exact” is a
 principal-symbol theorem, not a no-go for the nonzero-background algebraic
 Cartan term. The unrestricted Cartan carrier closes the coefficientwise
-`117` burden, but its actual GU tangent remains open. Source `varpi` is an
-independent full-adjoint connection; source gauge-rotated Levi-Civita is only a
-constrained subclass. Derive their complete coupled tangent/normal-jet law
-before total raw-`Upsilon` Bianchi/naturality, null-screen, Euler or physical
-quotient claims.
+`117` burden, and the source `varpi` tangent now realizes it pointwise through
+endpoint motion rather than reference `delta B`. Source ownership of the full-
+adjoint tangent does not select how it depends on observation/soldering graph
+columns. Derive that covariant graph law and its integrability before total
+raw-`Upsilon` Bianchi/naturality, null-screen, Euler or physical quotient
+claims.
 
 Current accounting and priority decision:
-`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.55
+`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.56
 has 84 immutable row records and 82 active canonical targets. The two-record
 difference is exactly the retained historical predecessors `LT-GR2` and
 `AC-G1`; their typed successors own the active meter. Do not count append-only
-history as current verdicts or rewrite v0.55 to erase provenance.
+history as current verdicts or rewrite predecessor ledgers to erase provenance.
 
-The no-self-vote 25-lens Condorcet result is planning evidence only. It selects
-the source-native independent-`varpi`/soldering/observation tangent as the
-primary gate. Then run the four-column Koszul match and freedom count jointly
-with Spencer/jet integrability and overlap descent. Only a lawful survivor may
+The no-self-vote 25-lens Condorcet result is planning evidence only. Its first
+gate is now closed locally: the fixed-epsilon source `varpi` tangent realizes
+the four exact Koszul columns. Next run the covariant graph-morphism and
+constraint-surplus test jointly with Spencer/jet integrability and overlap
+descent. Only a lawful survivor may
 advance to Euler, preboundary, Ward/Bianchi, BV and symplectic descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main

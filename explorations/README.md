@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected source-varpi / Cartan composition (2026-08-07)
+
+`conditional-build/selected-source-varpi-cartan-composition-2026-08-07.md`
+corrects the source tangent to `delta B=0`, `delta T=delta A=alpha` and
+constructs four exact pointwise source-varpi lifts for all transverse 117
+coefficients, with supports `57,34,34,34`, rank four and zero coefficient
+freedom at fixed nonzero background. Ledger v0.56 routes the next Build to a
+covariant graph morphism, constraint-surplus count and Spencer/atlas
+integrability without moving verdicts, residue, quotients, datum or posture.
+
 ## Selected nonzero-background Cartan/Spencer owner (2026-08-07)
 
 `conditional-build/selected-nonzero-background-cartan-spencer-owner-2026-08-07.md`
