@@ -7,7 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
-## Selected second-layer Shiab inverse and Bianchi completion (2026-08-07)
+## Selected second-layer non-null Koszul/GCR split (2026-08-07)
+
+`conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md`
+constructs four exact rank-four non-null connection-jet parts with total
+support 28 and isolates rank-four transverse remainders with total support
+117. Ledger v0.48 routes the next Build to source-native GCR ownership and the
+null screen; no datum, quotient or physics result is promoted.
+
+## Predecessor selected second-layer Shiab inverse and Bianchi completion (2026-08-07)
 
 `conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md`
 proves the full selected Hodge-Shiab map is an exact rank-1,274 isomorphism

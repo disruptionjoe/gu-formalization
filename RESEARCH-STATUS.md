@@ -8,15 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose correction 2026-08-07 (ledger v0.47; five
-distance/priority migrations).** The full selected Hodge-Shiab map is an exact
-rank-1,274 isomorphism, so the four raw correction preimages are unique. Each
-principal differential-Bianchi map `q -> q wedge F` has rank fourteen, leaving
-no nonzero covector for which a split correction is a standalone connection-
-curvature jet. This kills only that split identification. The source-native
-total Gauss-Codazzi-Ricci/background packet and raw-`Upsilon` naturality remain
+**Active Build/Compose correction 2026-08-07 (ledger v0.48; five
+distance/priority migrations).** At the non-null rest covector, the canonical
+Koszul homotopy constructs four independent principal-Bianchi-closed
+connection-jet parts with total support `28` and isolates four independent
+transverse remainders with total support `117`. Their selected-Shiab images
+recombine exactly. Source-native GCR/background ownership of the remainder,
+the null screen and total nonlinear Bianchi/raw-`Upsilon` naturality remain
 open. No verdict, residue, quotient, datum, canon or public-posture change
 follows.
+
+**Predecessor Build/Compose correction 2026-08-07 (ledger v0.47; five
+distance/priority migrations).** The full selected Shiab is an isomorphism and
+the whole split correction is not a standalone connection-curvature jet.
 
 **Predecessor Build/Compose correction 2026-08-07 (ledger v0.46; five
 distance/priority migrations).** The background-subtracted Hessian is a

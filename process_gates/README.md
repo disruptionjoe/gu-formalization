@@ -1812,3 +1812,10 @@ connection-jet identification, routes the next Build to total source-native
 Gauss-Codazzi-Ricci completion and keeps scalar/domain/BV/BFV, external datum,
 fifth quotient, canon and public posture open, with symplectic review
 mandatory.
+
+## Selected second-layer non-null Koszul/GCR split and ledger v0.48 gate
+
+`selected_second_layer_nonnull_koszul_gcr_split_scope_audit.py` requires the
+canonical non-null connection support/rank, the separately typed transverse
+completion burden, exact selected-Shiab recombination, an open null screen,
+mandatory symplectic review and no datum/quotient/posture promotion.

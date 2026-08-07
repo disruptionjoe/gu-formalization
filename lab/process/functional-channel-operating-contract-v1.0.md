@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.47.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.47.md`.
+`lab/process/conditional-physics-ledger-v0.48.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.48.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -527,7 +527,7 @@ Current gate:
 CONSTRUCT_SOURCE_NATIVE_GAUSS_CODAZZI_RICCI_CURVATURE_DECOMPOSITION_AND_TOTAL_RAW_UPSILON_NATURALITY__NO_SPLIT_JET_IDENTIFICATION
 ```
 
-Current execution method, ratified by the v0.47 Build/Compose correction:
+Current execution method, ratified by the v0.48 Build/Compose correction:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
@@ -537,16 +537,16 @@ Current execution method, ratified by the v0.47 Build/Compose correction:
    not the Gram form of a residual difference. Rank monotonicity for
    `J^! G J` cannot be applied to that difference.
 3. Do not add an independent observation field: `g` and its graph section
-   `s_g` have the same tangent. The full selected Hodge-Shiab is an exact
-   `1,274 x 1,274` isomorphism, but every unique inverse correction fails
-   principal differential Bianchi for every nonzero ambient covector. Do not
-   identify a split inverse with `j1(L_xi A)`.
-4. Construct the source-native total Gauss-Codazzi-Ricci curvature packet,
-   including `j1(L_xi A)`, gauge-rotated Levi-Civita, moving Hodge/Shiab,
-   graph-section and every explicitly owned background/lower-order term.
-   Test total differential Bianchi and raw-`Upsilon` naturality on all four
-   graph generators. Any background subtraction requires an explicit action
-   or counterterm owner.
+   `s_g` have the same tangent. At the non-null rest covector, preserve the
+   canonical Koszul split: four rank-four connection-jet parts with total
+   support `28`, plus four rank-four transverse remainders with total support
+   `117`. Do not relabel the transverse carrier as source-native GCR.
+4. Identify those transverse coefficients with the actual moving Gauss,
+   Codazzi, Ricci and owned background blocks. Separately construct a null
+   characteristic screen/gauge quotient; the non-null normalization may not
+   be continued through `q^2=0`. Assemble gauge-rotated Levi-Civita, moving
+   Hodge/Shiab and graph terms, then test total differential Bianchi and raw-
+   `Upsilon` naturality. Any subtraction requires an action/counterterm owner.
    Only if the owner comparison closes, extend to transverse source variables.
    On the descended quotient derive the scalar characteristic
    polynomial, then assemble the distinct massless constraint complex and
@@ -559,9 +559,9 @@ Current execution method, ratified by the v0.47 Build/Compose correction:
 6. Open a common Green/Krein domain and odd BV/BFV only after the complete
    quotient, with the symplectic lens mandatory.
 
-The current source return confirms raw-`Upsilon` equivariance intent; it is
-silent on the selected Gauss-Codazzi-Ricci split coefficients and the
-background/lower-order completion. Compose
+The current source return confirms the full two-connection carrier and the
+gauge-rotated Levi-Civita comparison; it is silent on the non-null Koszul
+coefficients, transverse GCR ownership and null screen. Compose
 migrates the ledger only if that work or the Build changes a row distance or
 high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,

@@ -7,22 +7,25 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 SHIAB-INVERSE/BIANCHI COMPLETION (ledger v0.47).**
-> [`explorations/conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md`](explorations/conditional-build/selected-second-layer-shiab-inverse-bianchi-completion-2026-08-07.md)
-> proves that the full selected Hodge-Shiab is an exact `1,274 x 1,274`
-> isomorphism, so the four v0.46 correction preimages are unique. Every
-> principal `q wedge F` map has rank fourteen: no split correction is a lawful
-> standalone connection-curvature jet for any nonzero ambient covector. This
-> rejects the split-jet identification, not the completed connection geometry.
+> **2026-08-07 NON-NULL KOSZUL/GCR SPLIT (ledger v0.48).**
+> [`explorations/conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md`](explorations/conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md)
+> constructs the canonical split at the timelike rest covector. The four
+> lawful connection-jet parts have support `7,7,7,7` and rank four; the
+> nonzero transverse remainders have support `51,22,22,22` and rank four.
+> Their selected-Shiab images reconstruct the corrections exactly. The
+> transverse carrier is not yet source-native GCR, and the null branch is
+> auxiliary-screen dependent.
 
-> **NEXT RUN: TOTAL GAUSS-CODAZZI-RICCI COMPLETION.** Construct the
-> source-native total GCR curvature packet on the moving graph, including
-> `j1(L_xi A)`, gauge-rotated Levi-Civita, moving Hodge/Shiab and every owned
-> background/lower-order term. Test total differential Bianchi and raw-
-> `Upsilon` naturality coefficientwise on all four graph directions. Do not
-> identify another inverse split with the connection jet. Any background
-> subtraction still requires an action/counterterm owner. Symplectic review
-> remains mandatory.
+> **NEXT RUN: TRANSVERSE GCR OWNER AND NULL SCREEN.** Identify the `117`
+> transverse coefficients with the actual moving Gauss-Codazzi-Ricci and
+> owned background blocks. Construct a null characteristic screen/gauge
+> quotient without using non-null normalization. Then assemble gauge-rotated
+> Levi-Civita and moving Hodge/Shiab and test total Bianchi plus raw-`Upsilon`
+> naturality. Symplectic review remains mandatory.
+
+> **PREDECESSOR — 2026-08-07 SHIAB-INVERSE/BIANCHI COMPLETION.** v0.47
+> proves the full selected Shiab is an isomorphism and rejects the whole split
+> correction as a standalone connection-curvature jet.
 
 > **PREDECESSOR — 2026-08-07 NORMAL-JET OWNER CORRECTION.** v0.46 retracts
 > the false residual-Gram owner inference while retaining exact raw carrier

@@ -42,12 +42,17 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-nonnull-koszul-gcr-split.json` - constructs the
+  canonical non-null connection part, measures the transverse completion
+  burden, and keeps source GCR ownership and the null screen open.
+- `conditional-physics-ledger-v0.48.json` - current append-only conditional
+  physics ledger after the non-null Koszul/GCR split.
 - `selected-second-layer-shiab-inverse-bianchi-completion.json` - proves the
   full selected Shiab is an isomorphism, rejects the unique split preimages as
   standalone principal connection-curvature jets, and leaves total GCR
   completion open.
-- `conditional-physics-ledger-v0.47.json` - current append-only conditional
-  physics ledger after the split-to-total Bianchi retype.
+- `conditional-physics-ledger-v0.47.json` - immutable predecessor ledger after
+  the split-to-total Bianchi retype.
 - `selected-second-layer-normal-jet-carrier-compatibility.json` - retracts
   the false residual-Gram owner inference, proves raw source-carrier
   compatibility for all four graph-orbit columns, and leaves the actual

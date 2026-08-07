@@ -9,15 +9,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT SHIAB-INVERSE/BIANCHI FENCE.** The full selected Hodge-Shiab is an
-> exact `1,274 x 1,274` isomorphism, so the four v0.46 correction preimages are
-> unique. Every exact `q wedge F` map has rank fourteen. Do not identify a
-> split inverse carrier representative with a standalone connection-curvature
-> jet, and do not inflate split nonclosure into a no-go for the completed
-> curvature. Ledger v0.47; next construct the total source-native Gauss-
-> Codazzi-Ricci/background packet and test total raw-`Upsilon` naturality and
-> differential Bianchi. Background subtraction requires an explicit action or
-> counterterm owner. Scalar, domain and BV/BFV claims remain downstream.
+> **CURRENT NON-NULL KOSZUL/GCR FENCE.** At the timelike rest covector, the
+> unique correction splits canonically into a `q`-exact connection part
+> (supports `7,7,7,7`, rank four) and a transverse remainder (supports
+> `51,22,22,22`, rank four). Do not call the remainder source-native GCR until
+> the moving embedding formulas own it, and do not continue the normalization
+> through null `q`. Ledger v0.48; next identify the transverse GCR/background
+> owner, construct the null screen, and test total Bianchi/raw-`Upsilon`
+> naturality. Scalar, domain and BV/BFV claims remain downstream.
 
 > **PREDECESSOR OBSERVATION-OWNER FENCE.** The metric and its graph section have
 > the same rank-four diffeomorphism tangent; observation is not a second action
@@ -51,12 +50,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Construct the total source-native Gauss-Codazzi-
-> Ricci curvature packet, with `j1(L_xi A)`, gauge-rotated Levi-Civita, moving
-> Hodge/Shiab, graph and owned background terms. Test total differential
-> Bianchi and raw-`Upsilon` naturality on all four graph generators. Do not use
-> a split inverse as the connection jet or background subtraction without an
-> action/counterterm owner.
+> massive-spin-two blocks and the exact non-null Koszul connection part.
+> Identify the transverse remainder with source-native moving GCR/background
+> blocks and construct the null characteristic screen. Then assemble gauge-
+> rotated Levi-Civita, moving Hodge/Shiab and graph terms and test total
+> Bianchi/raw-`Upsilon` naturality. Do not use background subtraction without
+> an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain
