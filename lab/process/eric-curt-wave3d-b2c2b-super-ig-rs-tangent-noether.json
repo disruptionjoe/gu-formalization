@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "campaign_wave": "ECW3-G4-OBSERVATION",
+  "phase": "ECW3D-B2C2B-SUPER-IG-RS-TANGENT-DIFFERENTIAL-AND-OBSERVER-DESCENT",
+  "status_boundary": "DECISIVE_BOUNDED_NEGATIVE_IN_PARITY_NEUTRAL_METRIC_CLIFFORD_FIRST_ORDER_CLASS__UNIQUE_TWISTOR_TANGENT_FAILS_OFF_SHELL_W131_NOETHER_AND_UNCHANGED_OBSERVER_DESCENT__ENLARGED_MIXED_CARRIER_SUPER_IG_ACTION_AND_WARD_IDENTITY_OPEN",
+  "predecessors": [
+    "lab/process/eric-curt-wave3d-b2c2-tau-tangent-bv-collision.json",
+    "lab/process/eric-curt-wave3d-b2c-projected-gauge-quotient-gate.json",
+    "explorations/observation-to-family-b5-campaign-2026-07-20.md",
+    "explorations/misc/super-ig-algebra-construction-2026-06-23.md"
+  ],
+  "source_collision": {
+    "disposition": "SOURCE-SILENT",
+    "source_confirms_context": [
+      "fermionic extension of the inhomogeneous gauge group is an intended GU construction",
+      "the spoken linearized fermionic carrier contains zero-form and one-form spinors",
+      "fractional-spin fields are intended to pair into the Lie algebra or gauge-potential translation sector",
+      "good characteristics are an author-stated intended output"
+    ],
+    "source_silent_on": [
+      "an odd parameter module distinct from the physical zero-form and one-form fields",
+      "a scalar-spinor-to-gamma-traceless-vector-spinor transformation law",
+      "an action of super-IG on the rolled field complex",
+      "an off-shell Noether, Ward, or BV master identity",
+      "observer-descending physical cohomology",
+      "the active trace-reversed 9,5 real-form implementation"
+    ],
+    "source_refs": [
+      "lab/sources/transcripts/portal-special-gu-first-look-2020-04-02.md 01:30:19 and 02:23:52",
+      "lab/literature/weinstein-ucsd-2025-04-transcript.md 00:49:16-00:50:09",
+      "lab/sources/transcripts/toe-weinstein-gu-40-years.md 01:38:35-01:44:14"
+    ],
+    "source_is_mathematical_evidence": false
+  },
+  "layer_0": {
+    "physical_zero_form": "nu in Omega0(S) at ghost number zero",
+    "physical_one_form": "zeta in Omega1(S) at ghost number zero",
+    "odd_parameter_or_ghost": "a distinct parity-shifted module not fixed by the spoken field list",
+    "mixed_super_ig_bracket": "a conditional bracket into connection translations",
+    "rs_tangent_differential": "a representation/action map S_to_kerGamma not supplied by the bracket alone",
+    "characteristic_exactness": "W131(k)T(k) vanishes only after restricting parameters to ker c(k)",
+    "off_shell_noether": "W131(k)T(k)=0 as a polynomial identity for every k",
+    "observer_descent": "observation annihilates the quotient image or is independently quotiented by a justified observed image",
+    "generation": "not a coefficient-space dimension, symbol rank, Dirac kernel, or characteristic half"
+  },
+  "natural_symbol_class": {
+    "scope": "PARITY_NEUTRAL_FIRST_ORDER_LOCAL_SYMBOLS_BUILT_ONLY_FROM_K_METRIC_CLIFFORD_AND_GAMMA_TRACE",
+    "basis": [
+      "K(k)=k tensor identity_S",
+      "Gamma_dagger c(k)"
+    ],
+    "raw_coefficient_dimension": 2,
+    "gamma_trace_constraint_rank": 1,
+    "surviving_coefficient_dimension": 1,
+    "surviving_projective_candidates": 1,
+    "unique_member": "T(k)=Pi_kerGamma K(k)=K(k)-(1/14)Gamma_dagger c(k)",
+    "target_parameters_fit": 0,
+    "background_spinor_or_soldering_used": false,
+    "jordan_or_spectral_projector_used": false
+  },
+  "w131_noether_collision": {
+    "intertwiner": "Q(k)T(k)=(12/14)T(k)c(k)",
+    "nonnull_rank_T": 128,
+    "nonnull_rank_QT": 128,
+    "off_shell_noether": false,
+    "null_rank_T": 128,
+    "null_rank_QT": 64,
+    "null_parameter_kernel_rank": 64,
+    "characteristic_half_exact": true,
+    "characteristic_exact_implies_off_shell_bv": false
+  },
+  "characteristic_half": {
+    "formula": "T(k) ker c(k) for null k",
+    "rank": 64,
+    "source_selected": false,
+    "independent_ghost_or_parameter_module": false,
+    "physical_promotion": "NOT_ADMITTED"
+  },
+  "observer_descent": {
+    "unchanged_observation_rank_on_full_T_at_tested_null_k": 128,
+    "unchanged_observation_rank_on_characteristic_half": 64,
+    "unchanged_observation_annihilates_candidate_image": false,
+    "physical_quotient_admitted": false,
+    "remaining_route": "derive both the gauge image and any observed-side quotient from one enlarged action and Ward/BFV system"
+  },
+  "right_h": {
+    "natural_tangent_image_invariant": true,
+    "supplies_noether_identity": false,
+    "supplies_observer_descent": false
+  },
+  "mixed_super_ig_predecessor": {
+    "odd_field_carrier_candidate": "Q_mix=S plus TstarY tensor S",
+    "bracket": "beta((u,psi),(v,chi))(X)=mu_Omega(u,chi(X))+mu_Omega(v,psi(X))",
+    "bracket_target": "Omega1(sp(S_complex))",
+    "complex_symplectic_equivariance": "CONDITIONAL_PREDECESSOR_RETAINED",
+    "odd_parameter_module_source_fixed": false,
+    "native_real_form_projection": "OPEN",
+    "rs_tangent_rule": "NOT_SUPPLIED",
+    "rolled_field_representation": "NOT_SUPPLIED",
+    "ward_or_master_identity": "NOT_SUPPLIED"
+  },
+  "seven_axis_read": {
+    "L1_algebra": "unique natural twistor symbol and exact Q(k)T(k) intertwiner",
+    "L2_representation": "active Cl(9,5) gamma-trace and right-H exact; mixed bracket target remains adjoint one-form",
+    "L3_geometry": "active trace-reversed 9,5 section only; literal Curt 7,7 port open",
+    "L4_dynamics": "off-shell Noether identity fails in the frozen class; enlarged action and Ward identity open",
+    "L5_observation": "unchanged observation sees rank 128 full image and rank 64 characteristic half",
+    "L6_physics": "physical nu is not retyped as a ghost and no physical quotient is promoted",
+    "L7_empirical": "no prediction, fit, mass, index, or generation count claimed"
+  },
+  "constraint_surplus": {
+    "raw_coefficients": 2,
+    "gamma_trace_constraint_rank": 1,
+    "projective_normalization_degrees": 1,
+    "fitted_target_parameters": 0,
+    "survivors_after_off_shell_noether": 0,
+    "interpretation": "bounded natural-class negative with no target fit"
+  },
+  "scope_boundary": {
+    "exhaustive_over_frozen_natural_class": true,
+    "exhaustive_over_enlarged_actions": false,
+    "still_open": [
+      "a larger coupled field/equation system with off-diagonal Noether cancellations",
+      "a source-derived representation of mixed super-IG on the rolled fields",
+      "background or dynamical soldering priced as added structure",
+      "lower-order or nonlinear transformations",
+      "anisotropic, pseudodifferential, or ultrahyperbolic constructions"
+    ]
+  },
+  "external_datum": {
+    "P1_P2_P3_used": false,
+    "pricing": "UNCHANGED",
+    "can_supply_rs_tangent_or_ward_identity": false
+  },
+  "non_regression": {
+    "b2c1_projected_map_collision": "RETAINED",
+    "b2c2a_ordinary_tau_carrier_mismatch": "RETAINED",
+    "conditional_mixed_super_ig_bracket": "RETAINED_AS_ALGEBRA_CANDIDATE_NOT_FIELD_ACTION",
+    "claim_status_canon_public_posture": "UNCHANGED"
+  },
+  "curt_rival": {
+    "tag": "CURT_CANDIDATE",
+    "status": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "literal_7_7_port_complete": false
+  },
+  "third_lane_promotion": {
+    "logic": "TG-1 AND TG-2 AND TG-3",
+    "TG-1": "PARTIAL_LITERAL_REAL_7_7_NON_EQUIVALENCE__NOT_CLEARED_SOURCE_CONVENTION",
+    "TG-2": "OPEN_NO_SEPARATE_COMPLETE_DYNAMICS",
+    "TG-3": "OPEN_NO_COMMON_DOMAIN_DISCRIMINATOR",
+    "verdict": "NOT_PROMOTED"
+  },
+  "probe": {
+    "path": "tests/channel-swings/eric_curt_wave3d_b2c2b_super_ig_rs_tangent_noether_probe.py",
+    "exact_checks": 19,
+    "planted_rejections": 12,
+    "result": "31_PASS"
+  },
+  "reporting": {
+    "registry": "lab/process/eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether.json",
+    "report": "explorations/eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether-2026-07-31.md"
+  },
+  "next_gate": "ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY"
+}

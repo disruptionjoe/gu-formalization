@@ -2088,6 +2088,26 @@ updated_at: "2026-08-06"
 > build the moving grade-two `Alt(T)` port there, rerun the full action/Ward/
 > Green return, and assemble `A2(2 partial Z1+Z0)+A1 Z1` plus every moving
 > coefficient before attempting the functional observed equation or surplus.
+
+> Wave 3D-B2C2B now freezes the parity-neutral metric/Clifford-only
+> first-order class before target collision. Two raw natural coefficients
+> (`k tensor 1` and `Gamma^dagger c(k)`) face one gamma-trace constraint,
+> leaving the unique projective twistor symbol
+> `T(k)=Pi_kerGamma(k tensor 1)`. Its exact W131 composition is
+> `Q(k)T(k)=(12/14)T(k)c(k)`: rank 128 for a non-null covector and rank 64
+> on the tested null covector, so it is not an off-shell Noether/BV
+> differential. Only `T(k) ker c(k)` is characteristic-exact, and the source
+> does not select that root-dependent rank-64 half as a ghost. The unchanged
+> observer sees rank 128 on the full image and rank 64 on the half, so
+> observation does not descend through either quotient without a separately
+> derived observed-side reduction. The conditional mixed super-IG bracket is
+> retained, but it targets adjoint connection one-forms and supplies no rolled
+> field action, RS tangent rule, or Ward/master identity. The bounded result
+> is `SOURCE-SILENT` at the decisive tangent/action scope; no enlarged-action
+> no-go is claimed. The probe passes `19 exact + 12 planted = 31`. P1/P2/P3
+> remain unused and unchanged, Curt remains separate, and
+> `TG-1 AND TG-2 AND TG-3` remains false. The next guided gate is
+> `ECW3D-B2C2C-MIXED-CARRIER-SUPER-IG-ACTION-REPRESENTATION-AND-WARD-IDENTITY`.
 > See
 > `explorations/eric-curt-wave1-c0-carrier-bridge-2026-07-31.md` and
 > `explorations/eric-curt-wave2-carrier-port-census-2026-07-31.md` and
@@ -2123,6 +2143,8 @@ updated_at: "2026-08-06"
 > `explorations/eric-curt-wave3d-b2c9-offdiagonal-total-current-preboundary-2026-08-01.md`
 > and
 > `explorations/eric-curt-wave3d-b2c13-dupsilon-preboundary-2026-08-01.md`
+
+> `explorations/eric-curt-wave3d-b2c2b-super-ig-rs-tangent-noether-2026-07-31.md`
 > and
 > `lab/specifications/eric-curt-ten-wave-construction-campaign-2026-07-31.md`.
 
