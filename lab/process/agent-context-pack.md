@@ -9,16 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT D UPSILON GAUGE-ORBIT WELD FENCE.** The metric Hessian Ward load
-> and the source-native connection-one-form diffeomorphism orbit both have
-> exact rank four. At stationary residual-square grade this forces the missing
-> residual gauge response to rank four; the diagnostic cancellation map is
-> unique on that orbit. It is not the selected action derivative and is not
-> unique on the other twelve connection directions. Ledger v0.43; next
-> differentiate the actual selected `Upsilon` on the four connection gauge
-> columns and compare it with the forced weld. A mismatch kills this action
-> owner on the orbit; a match opens the twelve transverse directions plus
-> section/observation jets. Scalar, massless-constraint, domain and BV/BFV
+> **CURRENT CONNECTION-ONLY RANK-MISMATCH FENCE.** The v0.43 rank-four
+> connection orbit was a covector-slot-only proxy. In source-native variables
+> `(g,varpi)`, the independent connection diffeomorphism component `L D` has
+> rank three and kills the time generator. The metric Ward load has rank four
+> and is nonzero on that generator for every nonzero rest momentum, so no
+> connection derivative can cancel it at this principal grade. This is not a
+> full-action no-go. Ledger v0.44; next construct the actual
+> section/observation tangent on the missing gauge direction and test combined
+> selected-`Upsilon` naturality. Scalar, massless-constraint, domain and BV/BFV
 > claims remain downstream.
 
 > **PREDECESSOR OFF-TT WARD/OWNER FENCE.** The metric-only pullback of the selected
@@ -38,10 +37,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks. Compute only the four actual selected-`Upsilon`
-> connection-diffeomorphism columns first and compare them to the unique
-> orbit weld. Extend to the twelve transverse connection directions and
-> section/observation jets only after that cheap decisive comparison passes.
+> massive-spin-two blocks. Construct the actual section/observation
+> diffeomorphism tangent on the time generator in the kernel of the rank-three
+> connection lift. Differentiate the selected `Upsilon` on the combined orbit
+> and test all four generators coefficientwise. Extend to transverse source
+> variables only after that cheap decisive comparison passes.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.
 > Mandatory pre/post lenses remain

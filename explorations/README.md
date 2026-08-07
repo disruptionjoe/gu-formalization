@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## Selected second-layer actual source-lift rank mismatch (2026-08-07)
+
+`conditional-build/selected-second-layer-actual-source-lift-rank-mismatch-2026-08-07.md`
+corrects v0.43's covector-slot proxy to the source-native `(g,varpi)` lift.
+The actual independent-connection diffeomorphism component has rank three and
+cannot cancel the rank-four metric Ward load on its time-direction kernel.
+Ledger v0.44 therefore makes the actual section/observation tangent the next
+cheap decisive gate. The full action, scalar sector, domain and BV/BFV remain
+open.
+
 ## Selected second-layer D Upsilon gauge-orbit weld (2026-08-07)
 
 `conditional-build/selected-second-layer-dupsilon-gauge-orbit-weld-2026-08-07.md`

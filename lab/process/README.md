@@ -42,11 +42,15 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-actual-source-lift-rank-mismatch.json` - source-
+  corrected rank-three independent-connection lift, its time-direction kernel,
+  the nonzero metric Ward load there, and the section/observation successor.
+- `conditional-physics-ledger-v0.44.json` - current append-only conditional
+  physics ledger after the connection-only route correction.
 - `selected-second-layer-dupsilon-gauge-orbit-weld.json` - exact rank-four
-  metric/connection orbit matching, unique diagnostic orbit weld and the
-  four-column selected-`Upsilon` successor fence.
-- `conditional-physics-ledger-v0.43.json` - current append-only conditional
-  physics ledger after the rank-four gauge-orbit weld.
+  metric/proxy orbit matching and unique diagnostic proxy weld.
+- `conditional-physics-ledger-v0.43.json` - immutable predecessor ledger after
+  the rank-four proxy weld.
 - `selected-action-coupled-diffeomorphism-ward-retype.json` - predecessor
   coupled metric/connection diffeomorphism-orbit theorem composed by the
   current weld.

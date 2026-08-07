@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.43.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.43.md`.
+`lab/process/conditional-physics-ledger-v0.44.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.44.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -524,34 +524,36 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-ACTUAL_SELECTED_DUPSILON_FOUR_CONNECTION_DIFFEO_COLUMNS__COMPARE_TO_FORCED_RANK4_WELD__ONLY_THEN_TWELVE_TRANSVERSE_CONNECTION_DIRECTIONS_PLUS_SECTION_OBSERVATION__SPIN0_AND_MASSLESS_CONSTRAINT_COMPLEX_AFTER_DESCENT
+ACTUAL_SECTION_OBSERVATION_DIFFEO_TANGENT_ON_CONNECTION_KERNEL__COMBINED_SELECTED_DUPSILON_NATURALITY__ONLY_THEN_TRANSVERSE_SOURCE_VARIABLES__SPIN0_AND_MASSLESS_CONSTRAINT_COMPLEX_AFTER_DESCENT
 ```
 
-Current execution method, ratified by the v0.43 Build/Compose result:
+Current execution method, ratified by the v0.44 Build/Compose result:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
    current as fixed sub-blocks.
-2. Differentiate the actual selected `Upsilon` on the four source-native
-   connection diffeomorphism columns and compare it with the unique diagnostic
-   rank-four orbit weld. Rank matching forces the needed correction's size but
-   does not prove that the action supplies it.
-3. Only if those four columns match, extend to the twelve transverse connection
-   directions and section/observation jets and prove that the full Hessian is
-   basic. On that descended quotient derive the scalar characteristic
+2. Preserve the v0.43 rank-four linear theorem as a diagnostic proxy result,
+   but do not use that covector-slot-only proxy as an action target. The actual
+   independent connection lift `L D` has rank three and kills the time
+   generator, while the metric Ward load is nonzero on that generator.
+3. Construct the actual section/observation diffeomorphism tangent on the
+   missing time direction. Differentiate the selected `Upsilon` on the
+   combined orbit and prove coefficientwise naturality on all four generators.
+4. Only if that combined orbit closes, extend to transverse source variables
+   and section/observation jets. On the descended quotient derive the scalar characteristic
    polynomial, then assemble the distinct massless constraint complex and
    classify every surviving null-little-group quotient class. Do not recount
    the massive axial weights `0,+/-1` as extra representations; they are
    already forced spin-two partners.
-4. Keep the source-typed spinor Euler equations separate until the bosonic
+5. Keep the source-typed spinor Euler equations separate until the bosonic
    quotient is complete, then construct the coupled nonzero-fermion Hessian
    without erasing the TT block.
-5. Open a common Green/Krein domain and odd BV/BFV only after the complete
+6. Open a common Green/Krein domain and odd BV/BFV only after the complete
    quotient, with the symplectic lens mandatory.
 
-The current source return confirms the independent metric and connection
-diffeomorphism orbits and is silent on the selected action cross-block. It
-therefore neither supplies nor refutes the required four columns. Compose
+The current source return corrects the proxy connection orbit to the
+source-native variables `(g,varpi)` and the rank-three lift `L D`; it is silent
+on the missing section/observation weld. Compose
 migrates the ledger only if that work or the Build changes a row distance or
 high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,

@@ -7,24 +7,27 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 RANK-FOUR D UPSILON GAUGE-ORBIT WELD.**
-> [`explorations/conditional-build/selected-second-layer-dupsilon-gauge-orbit-weld-2026-08-07.md`](explorations/conditional-build/selected-second-layer-dupsilon-gauge-orbit-weld-2026-08-07.md)
-> composes the rank-four metric Hessian Ward load with the independently exact
-> rank-four source-native connection-one-form diffeomorphism orbit. At a
-> stationary residual-square point the missing residual response therefore
-> has rank exactly four, and the diagnostic cross-block that cancels it is
-> unique on that orbit. It is not yet the derivative of the selected action:
-> the other twelve connection directions, section/observation jets, scalar
-> quotient and BV/BFV all remain open. Ledger v0.43 moves five distances and
-> priorities only; headline counts, residue, four scoped quotients and
-> P1/P2/P3 remain fixed.
+> **2026-08-07 SOURCE-CORRECTED CONNECTION-RANK MISMATCH.**
+> [`explorations/conditional-build/selected-second-layer-actual-source-lift-rank-mismatch-2026-08-07.md`](explorations/conditional-build/selected-second-layer-actual-source-lift-rank-mismatch-2026-08-07.md)
+> finds that v0.43's rank-four connection orbit was the already superseded
+> covector-slot-only proxy. In the source-native variables `(g,varpi)`, the
+> independent connection lift `L D` has rank three and kills the time
+> generator, while the metric Ward load is nonzero on that generator for all
+> nonzero rest momenta. No connection derivative can cancel it at this
+> principal grade. This kills only the connection-only route, not the full
+> section/observation action. Ledger v0.44 moves five distances/priorities;
+> headline counts, residue, four scoped quotients and P1/P2/P3 remain fixed.
 
-> **NEXT RUN: FOUR ACTUAL D UPSILON COLUMNS.** Differentiate the actual selected
-> `Upsilon` in the four source-native connection diffeomorphism directions and
-> compare those columns with the unique forced orbit weld. A mismatch kills
-> this action owner on the gauge orbit. A match permits the twelve transverse
-> connection directions plus section/observation jets. Do not build the larger
-> block first; symplectic review remains mandatory.
+> **NEXT RUN: ACTUAL SECTION/OBSERVATION GAUGE COLUMN.** Construct the
+> section/observation diffeomorphism tangent on the time generator in the
+> kernel of `L D`, then differentiate the selected `Upsilon` on the combined
+> orbit. A mismatch forces a separately typed route correction; a match opens
+> transverse source variables and the scalar/massless constraint complex.
+> Symplectic review remains mandatory.
+
+> **PREDECESSOR — 2026-08-07 RANK-FOUR PROXY WELD.** The v0.43 theorem remains
+> exact on its diagnostic covector-slot carrier, but that carrier is not the
+> source-native action target.
 
 > **PREDECESSOR — 2026-08-07 OFF-TT WARD AND ACTION-OWNER CORRECTION.**
 > [`explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md`](explorations/conditional-build/selected-second-layer-offtt-scalar-ward-owner-2026-08-07.md)

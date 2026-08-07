@@ -154,6 +154,7 @@ selected notes below and in each script header.
 - `selected_action_coupled_diffeomorphism_ward_retype_scope_audit.py`
 - `selected_action_source_variable_hessian_scope_audit.py`
 - `selected_action_ward_completion_identifiability_scope_audit.py`
+- `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
 - `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
 - `selected_second_layer_i2b_gauss_owner_map_scope_audit.py`
 - `selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py`
@@ -1775,3 +1776,11 @@ twelve transverse connection directions, scalar/constraint quotient,
 domain/BV/BFV, residue, fifth quotient, datum, canon and public posture open.
 It also requires differential-geometric, representation, variational,
 symplectic, Krein/operator, source-critical and archaeology hostile lenses.
+
+## Selected second-layer actual source-lift rank mismatch and ledger v0.44 gate
+
+`selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
+enforces the source correction from the rank-four covector-slot proxy to the
+rank-three independent connection lift, its time kernel and the mandatory
+section/observation successor. It forbids inflating the connection-only route
+kill to a full-action, scalar, domain, BV/BFV, datum, quotient or posture result.
