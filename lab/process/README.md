@@ -42,11 +42,17 @@ Runbooks:
 
 ## Direct Process Files
 
+- `selected-second-layer-gcr-exterior-degree-owner-retype.json` - exhausts
+  all 8,281 `Cl2` GCR source columns, excludes their direct grade-two target
+  ownership and the single-`q` adapter, and selects an odd source/soldering
+  owner as the next gate.
+- `conditional-physics-ledger-v0.49.json` - current append-only conditional
+  physics ledger after the GCR Clifford-grade owner correction.
 - `selected-second-layer-nonnull-koszul-gcr-split.json` - constructs the
   canonical non-null connection part, measures the transverse completion
-  burden, and keeps source GCR ownership and the null screen open.
-- `conditional-physics-ledger-v0.48.json` - current append-only conditional
-  physics ledger after the non-null Koszul/GCR split.
+  burden, and is retyped by v0.49 as an odd vector-valued two-form split.
+- `conditional-physics-ledger-v0.48.json` - immutable predecessor ledger after
+  the non-null Koszul split.
 - `selected-second-layer-shiab-inverse-bianchi-completion.json` - proves the
   full selected Shiab is an isomorphism, rejects the unique split preimages as
   standalone principal connection-curvature jets, and leaves total GCR

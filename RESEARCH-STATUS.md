@@ -8,15 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Active Build/Compose correction 2026-08-07 (ledger v0.48; five
-distance/priority migrations).** At the non-null rest covector, the canonical
-Koszul homotopy constructs four independent principal-Bianchi-closed
-connection-jet parts with total support `28` and isolates four independent
-transverse remainders with total support `117`. Their selected-Shiab images
-recombine exactly. Source-native GCR/background ownership of the remainder,
-the null screen and total nonlinear Bianchi/raw-`Upsilon` naturality remain
-open. No verdict, residue, quotient, datum, canon or public-posture change
-follows.
+**Active Build/Compose correction 2026-08-07 (ledger v0.49; five
+distance/priority migrations).** Exhaustive grade typing excludes direct
+Levi-Civita/GCR ownership of the complete v0.48 inverse packet: all 8,281
+`Cl2` source columns land only in selected-Shiab grades one and five, with zero
+grade-two target entries, while the exact packet is `Cl1`-valued. The
+single-`q` contraction adapter also fails. The Koszul split survives as an odd
+vector-valued two-form split; a source-native augmented-torsion/translation-
+curvature block or richer moving epsilon/soldering map, the null screen and
+total raw-`Upsilon` naturality remain open. No verdict, residue, quotient,
+datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose correction 2026-08-07 (ledger v0.48; five
+distance/priority migrations).** The non-null Koszul split constructs exact
+rank-four support `28+117`; v0.49 corrects its proposed GCR owner.
 
 **Predecessor Build/Compose correction 2026-08-07 (ledger v0.47; five
 distance/priority migrations).** The full selected Shiab is an isomorphism and

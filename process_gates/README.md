@@ -1819,3 +1819,15 @@ mandatory.
 canonical non-null connection support/rank, the separately typed transverse
 completion burden, exact selected-Shiab recombination, an open null screen,
 mandatory symplectic review and no datum/quotient/posture promotion.
+
+## Selected second-layer GCR Clifford-grade owner retype and ledger v0.49 gate
+
+`selected_second_layer_gcr_exterior_degree_owner_retype_scope_audit.py`
+requires the exhaustive 8,281-column `Cl2` grade classification, the exact
+rank-1,274 `Cl1 -> Cl2` selected-Shiab isomorphism, preservation of the
+`28+117=145` odd packet and exact exclusion of the single-`q` contraction
+adapter. It rejects direct Levi-Civita/Gauss--Codazzi--Ricci ownership, routes
+the next Build to a source-native odd augmented-torsion/translation-curvature
+packet or richer moving epsilon/soldering map, keeps null continuation and
+total Bianchi/raw-`Upsilon` naturality open, requires symplectic review and
+forbids residue, fifth-quotient, datum, canon or public-posture promotion.

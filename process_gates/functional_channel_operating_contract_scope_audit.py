@@ -60,9 +60,9 @@ assert "GU-COSMO-DYNAMIC-01" in agents
 assert "functional-channel-operating-contract-v1.0.md" in operating
 assert "functional-channel-operating-contract-v1.0.md" in context_pack
 assert "GU-COSMO-DYNAMIC-01" in context_pack
-assert "conditional-physics-ledger-v0.48.json" in lanes
-assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.48.json")
-assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.48.md")
+assert "conditional-physics-ledger-v0.49.json" in lanes
+assert contract["standing_ledger"]["ref"].endswith("conditional-physics-ledger-v0.49.json")
+assert contract["standing_ledger"]["human_ref"].endswith("conditional-physics-ledger-v0.49.md")
 assert contract["standing_ledger"]["action_owner_directive"].startswith("CURVATURE_SQUARED_IS_NOT_AN_OWNER")
 assert contract["standing_ledger"]["first_order_boundary_directive"].startswith("SELECTED_PRIMITIVE_EPSILON")
 assert "HODGE_PHI_CLIFFORD_PAIRING_FRAME_NATURAL" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
@@ -95,7 +95,9 @@ assert "CONNECTION_ONLY_DUPSILON_WELD_IMPOSSIBLE_AT_CURRENT_PRINCIPAL_GRADE" in 
 assert "SOURCE_NORMAL_JET_AND_TOTAL_METRIC_SECTION_DERIVATIVE_ON_E0_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "FULL_SELECTED_SHIAB_RANK1274_ISOMORPHISM" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 assert "UNIQUE_SPLIT_PREIMAGES_FAIL_PRINCIPAL_BIANCHI" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
-assert "TOTAL_GCR_COMPLETION_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "CL2_SOURCE8281_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "DIRECT_GCR_AND_SINGLE_Q_OWNER_KILLED" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
+assert "ODD_SOURCE_OWNER_PRIMARY" in contract["standing_ledger"]["moving_gimmel_frame_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -109,7 +111,7 @@ assert "An unreduced density is not a physical transition" in human
 assert "ledger_row_changes: none" in human
 assert "Thin automation triggers" in human
 assert "Predecessor execution method, ratified by Joe on 2026-08-06" in human
-assert "Current execution method, ratified by the v0.48 Build/Compose correction" in human
+assert "Current execution method, ratified by the v0.49 Build/Compose correction" in human
 assert "Randomized witnesses may locate blocks but never certify a null" in human
 assert "Only exact helicity two opens" in human
 assert "NEXT-RUN METHOD" in context_pack
@@ -129,19 +131,19 @@ directive = contract["active_scientific_directives"][0]
 assert directive["id"] == "GU-COSMO-DYNAMIC-01"
 assert directive["owner"] == "SOURCE_PLUS_COMPOSE__INDEPENDENT_FROM_NEXT_BUILD_FINDER"
 assert directive["primary_row_on_hold"] is None
-assert directive["status"] == "NONNULL_KOSZUL_CONNECTION_PART_BUILT__TRANSVERSE_GCR_OWNER_OPEN__NULL_SCREEN_OPEN__TOTAL_BIANCHI_OPEN__BACKGROUND_SUBTRACTION_UNOWNED__MASSLESS_CONSTRAINT_COMPLEX_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN"
+assert directive["status"] == "NONNULL_KOSZUL_ODD_SUPPORT28_PLUS117_EXACT__DIRECT_CL2_GCR_OWNER_KILLED__SINGLE_Q_ADAPTER_KILLED__ODD_SOURCE_OWNER_OPEN__NULL_SCREEN_OPEN__TOTAL_BIANCHI_OPEN__BACKGROUND_SUBTRACTION_UNOWNED__MASSLESS_CONSTRAINT_COMPLEX_OPEN__COUPLED_NONZERO_FERMION_HESSIAN_OPEN__COMMON_DOMAIN_ODD_BV_BFV_OPEN__Q1_OPEN"
 assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in directive["source_return"]
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "SOURCE_NATIVE_TRANSVERSE_GCR_OWNER_AND_NULL_SCREEN"
+assert next_method["target"] == "SOURCE_NATIVE_ODD_CURVATURE_OR_RICHER_SOLDERING_OWNER_AND_NULL_SCREEN"
 assert next_method["ordered_steps"] == [
     "PRESERVE_EXACT_MASSLESS_HELICITY2_AND_MASSIVE_SO3_SPIN2_DIM5_SUBBLOCK",
     "DO_NOT_ADD_AN_INDEPENDENT_OBSERVATION_ACTION_FIELD__METRIC_AND_GRAPH_SECTION_SHARE_ONE_TANGENT",
     "DO_NOT_TREAT_A_DIFFERENCE_OF_GRAM_FORMS_AS_THE_GRAM_OF_A_RESIDUAL_DIFFERENCE",
-    "PRESERVE_THE_EXACT_NONNULL_KOSZUL_CONNECTION_PART_AND_TRANSVERSE_REMAINDER",
-    "DO_NOT_IDENTIFY_THE_TRANSVERSE_CARRIER_WITH_SOURCE_NATIVE_GCR_WITHOUT_MOVING_EMBEDDING_FORMULAS",
-    "IDENTIFY_THE_TRANSVERSE_REMAINDER_WITH_SOURCE_NATIVE_GAUSS_CODAZZI_RICCI_BACKGROUND_BLOCKS",
+    "PRESERVE_THE_EXACT_ODD_CL1_SUPPORT28_PLUS117_SPLIT_AND_SELECTED_SHIAB_RECONSTRUCTION",
+    "DO_NOT_IDENTIFY_ODD_CL1_PACKETS_WITH_CLASSICAL_CL2_GAUSS_CODAZZI_RICCI_CURVATURE",
+    "CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_OR_TRANSLATION_CURVATURE_OWNER_OR_A_RICHER_MOVING_EPSILON_SOLDERING_MAP",
     "CONSTRUCT_A_NULL_CHARACTERISTIC_SCREEN_OR_GAUGE_QUOTIENT_WITHOUT_NONNULL_NORMALIZATION",
     "ASSEMBLE_J1_LIE_XI_A_GAUGE_ROTATED_LEVI_CIVITA_MOVING_HODGE_SHIAB_GRAPH_AND_OWNED_BACKGROUND_TERMS",
     "TEST_TOTAL_DIFFERENTIAL_BIANCHI_AND_RAW_DUPSILON_NATURALITY_ON_ALL_FOUR_GRAPH_COLUMNS",
@@ -160,12 +162,13 @@ assert next_method["mandatory_reviews"] == [
 ]
 assert "NO_TT_SUBQUOTIENT_PROMOTION_TO_COMPLETE_PHYSICAL_SPECTRUM" in next_method["stop_conditions"]
 assert "NO_REPRESENTATION_FORCED_MASSIVE_SPIN2_CARRIER_PROMOTED_TO_POSITIVE_PHYSICAL_STATES" in next_method["stop_conditions"]
-assert "SOURCE_RETURN_CONFIRMS_TWO_CONNECTION_GAUGE_ROTATED_LEVI_CIVITA_ARENA_AND_IS_SILENT_ON_NONNULL_KOSZUL_AND_GCR_REMAINDER_COEFFICIENTS__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
+assert "SOURCE_RETURN_CONFIRMS_GAUSS_COMPATIBLE_TWO_CONNECTION_ARENA_AND_IS_SILENT_ON_A_K77_GCR_TO_ODD_CURVATURE_OWNER_MAP__REINSPECT_ONLY_IF_NEW_COLLISION" in next_method["parallel_source_compose"]
 assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "IDENTIFY_TRANSVERSE_REMAINDER" in directive["next_gate"]
+assert "CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_OR_TRANSLATION_CURVATURE_PACKET" in directive["next_gate"]
+assert "RICHER_MOVING_EPSILON_SOLDERING_OWNER" in directive["next_gate"]
 assert "CONSTRUCT_NULL_SCREEN" in directive["next_gate"]
 assert "RAW_UPSILON_NATURALITY" in directive["next_gate"]
 assert "THEN_TEST_TOTAL_BIANCHI" in directive["next_gate"]
@@ -247,9 +250,13 @@ assert "SOURCE_NORMAL_JET_TOTAL_METRIC_SECTION_DERIVATIVE_OPEN" in directive["la
 assert "FULL_SELECTED_SHIAB_RANK1274_ISOMORPHISM" in directive["latest_build_evidence"]
 assert "PRINCIPAL_BIANCHI_RANKS14_14_14_14" in directive["latest_build_evidence"]
 assert "SPLIT_JET_IDENTIFICATION_REJECTED" in directive["latest_build_evidence"]
-assert "TOTAL_GCR_COMPLETION_OPEN" in directive["latest_build_evidence"]
-assert "CONNECTION_SUPPORTS_7_7_7_7_TOTAL28" in directive["latest_nonnull_koszul_evidence"]
-assert "TRANSVERSE_SUPPORTS_51_22_22_22_TOTAL117" in directive["latest_nonnull_koszul_evidence"]
+assert "CL2_SOURCE8281_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in directive["latest_build_evidence"]
+assert "DIRECT_GCR_AND_SINGLE_Q_OWNER_KILLED" in directive["latest_build_evidence"]
+assert "ODD_SOURCE_OWNER_PRIMARY" in directive["latest_build_evidence"]
+assert "ODD_CL1_SUPPORTS_7_7_7_7_TOTAL28" in directive["latest_nonnull_koszul_evidence"]
+assert "ODD_CL1_TRANSVERSE_SUPPORTS_51_22_22_22_TOTAL117" in directive["latest_nonnull_koszul_evidence"]
+assert "CL2_SOURCE8281_NONZERO_OUTPUT_GRADES1_5_TARGET_GRADE2_ZERO" in directive["latest_nonnull_koszul_evidence"]
+assert "SINGLE_Q_CONTRACTION_RANK13_CANNOT_SUPPLY_Q_COMPONENT" in directive["latest_nonnull_koszul_evidence"]
 assert "NULL_AUXILIARY_SCREEN_DEPENDENT" in directive["latest_nonnull_koszul_evidence"]
 assert "NO_FIFTH_QUOTIENT" in directive["latest_build_evidence"]
 assert "FULL_NONLINEAR_ACTION_FOCK_COMMON_DOMAIN_LOOP_UV_C_OPEN" in directive["current_evidence_boundary"]
@@ -290,4 +297,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels and v0.48 ledger preserve the spin-two comparator, construct the non-null connection part, and route transverse GCR ownership plus null-screen completion without residue or quotient promotion")
+print("PASS: functional channels and v0.49 ledger preserve the exact odd packet, reject the wrong-type GCR and single-q owners, and route odd-source plus null-screen completion without residue or quotient promotion")

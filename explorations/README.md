@@ -7,13 +7,22 @@ updated_at: "2026-08-07"
 
 # Explorations
 
-## Selected second-layer non-null Koszul/GCR split (2026-08-07)
+## Selected second-layer GCR Clifford-grade owner retype (2026-08-07)
+
+`conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md`
+exhausts all 8,281 classical `Cl2` curvature inputs and proves they have zero
+selected output in the required grade-two target. Ledger v0.49 retypes the
+v0.48 inverse packet as odd/vector-valued two-form data and routes the next
+Build to its augmented-torsion/translation-curvature or richer soldering
+owner. No datum, quotient or physics result is promoted.
+
+## Predecessor selected second-layer non-null Koszul/GCR split (2026-08-07)
 
 `conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md`
 constructs four exact rank-four non-null connection-jet parts with total
 support 28 and isolates rank-four transverse remainders with total support
-117. Ledger v0.48 routes the next Build to source-native GCR ownership and the
-null screen; no datum, quotient or physics result is promoted.
+117. Ledger v0.48 routed the next Build to owner typing; v0.49 shows direct
+GCR is the wrong grade and preserves only the exact split arithmetic.
 
 ## Predecessor selected second-layer Shiab inverse and Bianchi completion (2026-08-07)
 

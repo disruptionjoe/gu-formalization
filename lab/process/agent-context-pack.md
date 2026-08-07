@@ -9,14 +9,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-07)
 
-> **CURRENT NON-NULL KOSZUL/GCR FENCE.** At the timelike rest covector, the
-> unique correction splits canonically into a `q`-exact connection part
-> (supports `7,7,7,7`, rank four) and a transverse remainder (supports
-> `51,22,22,22`, rank four). Do not call the remainder source-native GCR until
-> the moving embedding formulas own it, and do not continue the normalization
-> through null `q`. Ledger v0.48; next identify the transverse GCR/background
-> owner, construct the null screen, and test total Bianchi/raw-`Upsilon`
-> naturality. Scalar, domain and BV/BFV claims remain downstream.
+> **CURRENT GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
+> a `Cl1`-valued odd/vector two-form packet, not direct `Cl2` Levi-Civita/GCR
+> curvature. All 8,281 `Cl2` source columns land only in selected-Shiab grades
+> one and five and have zero grade-two target entries. Single-`q` contraction
+> also fails. Ledger v0.49; next construct the source-native odd augmented-
+> torsion/translation-curvature packet or richer moving epsilon/soldering map,
+> then the null screen and total Bianchi/raw-`Upsilon` naturality. Scalar,
+> domain and BV/BFV claims remain downstream.
 
 > **PREDECESSOR OBSERVATION-OWNER FENCE.** The metric and its graph section have
 > the same rank-four diffeomorphism tangent; observation is not a second action
@@ -50,9 +50,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > physical degrees of freedom or open domain/BV/BFV work.
 
 > **CURRENT NEXT-RUN METHOD.** Preserve the exact massless-helicity-two and
-> massive-spin-two blocks and the exact non-null Koszul connection part.
-> Identify the transverse remainder with source-native moving GCR/background
-> blocks and construct the null characteristic screen. Then assemble gauge-
+> massive-spin-two blocks and the exact non-null Koszul odd packet split.
+> Construct its source-native augmented-torsion/translation-curvature or
+> richer moving epsilon/soldering owner and the null characteristic screen.
+> Then assemble gauge-
 > rotated Levi-Civita, moving Hodge/Shiab and graph terms and test total
 > Bianchi/raw-`Upsilon` naturality. Do not use background subtraction without
 > an action/counterterm owner.

@@ -7,21 +7,22 @@ updated_at: "2026-08-07"
 
 # Next Steps For Contributors
 
-> **2026-08-07 NON-NULL KOSZUL/GCR SPLIT (ledger v0.48).**
-> [`explorations/conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md`](explorations/conditional-build/selected-second-layer-nonnull-koszul-gcr-split-2026-08-07.md)
-> constructs the canonical split at the timelike rest covector. The four
-> lawful connection-jet parts have support `7,7,7,7` and rank four; the
-> nonzero transverse remainders have support `51,22,22,22` and rank four.
-> Their selected-Shiab images reconstruct the corrections exactly. The
-> transverse carrier is not yet source-native GCR, and the null branch is
-> auxiliary-screen dependent.
+> **2026-08-07 GCR CLIFFORD-GRADE OWNER RETYPE (ledger v0.49).**
+> [`explorations/conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md`](explorations/conditional-build/selected-second-layer-gcr-exterior-degree-owner-retype-2026-08-07.md)
+> exhausts all 8,281 `Cl2` Levi-Civita/GCR curvature basis columns under the
+> selected Shiab. They land only in grades one and five and have zero entries
+> in the required grade-two target. The v0.48 inverse packet is `Cl1`-valued,
+> so direct GCR ownership is wrong-type. Single-`q` contraction is also
+> excluded because every required packet has seven Clifford-`q` components.
 
-> **NEXT RUN: TRANSVERSE GCR OWNER AND NULL SCREEN.** Identify the `117`
-> transverse coefficients with the actual moving Gauss-Codazzi-Ricci and
-> owned background blocks. Construct a null characteristic screen/gauge
-> quotient without using non-null normalization. Then assemble gauge-rotated
-> Levi-Civita and moving Hodge/Shiab and test total Bianchi plus raw-`Upsilon`
+> **NEXT RUN: ODD SOURCE OWNER, THEN NULL SCREEN.** Construct the source-native
+> odd augmented-torsion/translation-curvature packet or a richer moving
+> epsilon/soldering map and compare all 145 inverse coefficients. Then build
+> the null characteristic screen and test total Bianchi plus raw-`Upsilon`
 > naturality. Symplectic review remains mandatory.
+
+> **PREDECESSOR — NON-NULL KOSZUL SPLIT.** v0.48 constructs the exact
+> `28+117` split. v0.49 preserves the arithmetic and corrects its owner type.
 
 > **PREDECESSOR — 2026-08-07 SHIAB-INVERSE/BIANCHI COMPLETION.** v0.47
 > proves the full selected Shiab is an isomorphism and rejects the whole split

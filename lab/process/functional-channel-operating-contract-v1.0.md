@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.48.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.48.md`.
+`lab/process/conditional-physics-ledger-v0.49.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.49.md`.
 
 Current Layer-0 action-owner directive: never route a Build using
 “curvature-squared” alone. Name whether the owner is the first-order
@@ -524,10 +524,10 @@ Predecessor execution method, ratified by Joe on 2026-08-06:
 Current gate:
 
 ```text
-CONSTRUCT_SOURCE_NATIVE_GAUSS_CODAZZI_RICCI_CURVATURE_DECOMPOSITION_AND_TOTAL_RAW_UPSILON_NATURALITY__NO_SPLIT_JET_IDENTIFICATION
+CONSTRUCT_SOURCE_NATIVE_ODD_AUGMENTED_TORSION_OR_TRANSLATION_CURVATURE_PACKET_OR_RICHER_MOVING_EPSILON_SOLDERING_OWNER__THEN_NULL_SCREEN_TOTAL_BIANCHI_AND_RAW_UPSILON_NATURALITY
 ```
 
-Current execution method, ratified by the v0.48 Build/Compose correction:
+Current execution method, ratified by the v0.49 Build/Compose correction:
 
 1. Preserve the exact TT Euler polynomial, massless helicity-two quotient,
    massive five-state `SO(3)` spin-two carrier and nonzero action preboundary
@@ -538,30 +538,39 @@ Current execution method, ratified by the v0.48 Build/Compose correction:
    `J^! G J` cannot be applied to that difference.
 3. Do not add an independent observation field: `g` and its graph section
    `s_g` have the same tangent. At the non-null rest covector, preserve the
-   canonical Koszul split: four rank-four connection-jet parts with total
-   support `28`, plus four rank-four transverse remainders with total support
-   `117`. Do not relabel the transverse carrier as source-native GCR.
-4. Identify those transverse coefficients with the actual moving Gauss,
-   Codazzi, Ricci and owned background blocks. Separately construct a null
-   characteristic screen/gauge quotient; the non-null normalization may not
-   be continued through `q^2=0`. Assemble gauge-rotated Levi-Civita, moving
-   Hodge/Shiab and graph terms, then test total differential Bianchi and raw-
-   `Upsilon` naturality. Any subtraction requires an action/counterterm owner.
-   Only if the owner comparison closes, extend to transverse source variables.
+   exact odd `Cl1` split: four rank-four q-exact packets with total support
+   `28`, plus four rank-four transverse packets with total support `117`.
+   Together they reconstruct the selected grade-two target exactly.
+4. Do not call those packets classical Gauss--Codazzi--Ricci curvature. The
+   classical Levi--Civita/GCR source is `Lambda2 T*Y tensor Cl2`; exhaustive
+   evaluation of all `91*91 = 8,281` source columns is nonzero only in output
+   Clifford grades one and five and has exactly zero grade-two output. The
+   selected odd `Cl1 -> Cl2` map remains the rank-1,274 isomorphism. A single
+   moving covector is also insufficient: contraction by non-null `q` has rank
+   thirteen and cannot supply the seven-component packet along `q`.
+5. Construct a source-native odd augmented-torsion/translation-curvature
+   packet, or a richer moving epsilon/soldering map with the required grade
+   conversion. Separately construct a null characteristic screen/gauge
+   quotient; the non-null normalization may not be continued through
+   `q^2=0`. Then assemble moving Hodge/Shiab and graph terms and test total
+   differential Bianchi and raw-`Upsilon` naturality. Any subtraction requires
+   an action/counterterm owner. Only if the owner comparison closes, extend to
+   transverse source variables.
    On the descended quotient derive the scalar characteristic
    polynomial, then assemble the distinct massless constraint complex and
    classify every surviving null-little-group quotient class. Do not recount
    the massive axial weights `0,+/-1` as extra representations; they are
    already forced spin-two partners.
-5. Keep the source-typed spinor Euler equations separate until the bosonic
+6. Keep the source-typed spinor Euler equations separate until the bosonic
    quotient is complete, then construct the coupled nonzero-fermion Hessian
    without erasing the TT block.
-6. Open a common Green/Krein domain and odd BV/BFV only after the complete
+7. Open a common Green/Krein domain and odd BV/BFV only after the complete
    quotient, with the symplectic lens mandatory.
 
-The current source return confirms the full two-connection carrier and the
-gauge-rotated Levi-Civita comparison; it is silent on the non-null Koszul
-coefficients, transverse GCR ownership and null screen. Compose
+The current source return confirms a Gauss-compatible two-connection arena;
+it is silent on any K77 map from classical GCR curvature to the required odd
+curvature packet. The source calls ordinary torsion a vector-valued two-form,
+which is a type analogy only, not an ownership derivation. Compose
 migrates the ledger only if that work or the Build changes a row distance or
 high-fanout premise.
 Mandatory review lenses are differential geometry, representation theory,
