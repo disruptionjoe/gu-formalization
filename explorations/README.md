@@ -7,6 +7,17 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 total raw-Upsilon and labelled ambient null screen (2026-08-07)
+
+`conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md`
+assembles the complete parity-graded source tangent, proves exact full
+linearized superconnection Bianchi closure and constructs a labelled ambient
+rank-12 null screen of signature `(6,6)`. The curvature-only grade-two fit
+still cancels, but the mandatory `kappa_1 T` term exposes a rank-four total
+raw-`Upsilon` defect in grades one and two. Ledger v0.60 routes the next Build
+to a coupled all-grade graph repair without moving verdicts, residue,
+quotients, datum or posture.
+
 ## K77 full-reduction quotient reconciliation (2026-08-07)
 
 `conditional-build/selected-k77-full-reduction-quotient-reconciliation-2026-08-07.md`

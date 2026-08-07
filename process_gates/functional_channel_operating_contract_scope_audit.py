@@ -176,7 +176,10 @@ assert "NONZERO_T_STAR_CARTAN_SPENCER_UNRESTRICTED_CONNECTION_MAP_RANK1274_ISOMO
 assert "TRANSVERSE117_PREIMAGES_EXACT_SUPPORTS57_34_34_34_RANK4" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
-assert "SOURCE_OWNED_FULL_REDUCTION_PAIR_BASIC__HORIZONTAL_PLANE_FORGETFUL_BASICNESS_FAIL" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "SOURCE_OWNED_FULL_REDUCTION_PAIR_BASIC" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "AMBIENT_LABELLED_NULL_SCREEN_RANK12_SIGNATURE6_6" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "TOTAL_RAW_UPSILON_RANK4_LIVE_GRADES1_2_FAIL" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -218,13 +221,16 @@ assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in di
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "TOTAL_RAW_UPSILON_BIANCHI_NATURALITY_AND_NULL_SCREEN_ON_SOURCE_OWNED_FULL_REDUCTION"
+assert next_method["target"] == "COUPLED_ALL_GRADE_RAW_UPSILON_GRAPH_INCLUDING_KAPPA_T__THEN_OBSERVATION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT"
 assert "PRESERVE_THE_PRINCIPAL_CONNECTION_Q_EXACT_CLASS_AND_THE_UNRESTRICTED_CARTAN_SPENCER_TRANSVERSE117_CARRIER_OWNER" in next_method["ordered_steps"]
 assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
 assert "PRESERVE_THE_LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in next_method["ordered_steps"]
 assert "PRESERVE_SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA" in next_method["ordered_steps"]
 assert "PRESERVE_SOURCE_OWNED_FULL_REDUCTION_PAIR_BASICNESS_AND_HORIZONTAL_PLANE_FORGETFUL_FAILURE__COUNT_NO_TRANSPORT_SURPLUS" in next_method["ordered_steps"]
 assert "PRESERVE_SPENCER_UNIQUENESS_AND_KILLED_INVARIANT_REPLACEMENT__RETAIN_GAMMA_EPSILON_THROUGH_VARIATION" in next_method["ordered_steps"]
+assert "PRESERVE_FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS__DO_NOT_REDUCE_TO_ODD_CURVATURE_ONLY" in next_method["ordered_steps"]
+assert "PRESERVE_LABELLED_AMBIENT_NULL_SCREEN_RANK12_SIGNATURE6_6__DO_NOT_IDENTIFY_WITH_4D_10_TO_6_TO_2_PHYSICAL_QUOTIENT" in next_method["ordered_steps"]
+assert "SOLVE_COUPLED_GRADE1_AND_GRADE2_GRAPH_FOR_RAW_UPSILON_EQUALS_SHIAB_FA_PLUS_KAPPA1_T" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
     "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
@@ -237,11 +243,11 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "TOTAL_RAW_UPSILON_BIANCHI_NATURALITY_AND_NULL_SCREEN_ON_FULL_REDUCTION" in directive["next_gate"]
-assert "K77_FULL_LABELLED_CLIFFORD_REDUCTION_GAMMA_EPSILON_SOURCE_OWNED" in directive["latest_correction_evidence"]
-assert "STABILIZER_U1_CENTER__ADJOINT_ACTION_TRIVIAL" in directive["latest_correction_evidence"]
-assert "HORIZONTAL_PLANE_FORGETFUL_DEFECT_RANK4_ENTRIES80" in directive["latest_correction_evidence"]
-assert "INVARIANT_REPLACEMENT_NONE" in directive["latest_correction_evidence"]
+assert "COUPLED_ALL_GRADE_RAW_UPSILON_GRAPH_INCLUDING_KAPPA_T" in directive["next_gate"]
+assert "FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS" in directive["latest_correction_evidence"]
+assert "TOTAL_RAW_UPSILON_GRAPH_FAIL_RANK4" in directive["latest_correction_evidence"]
+assert "AMBIENT_LABELLED_NULL_SCREEN_RANK12_SIGNATURE6_6" in directive["latest_correction_evidence"]
+assert "FOUR_DIMENSIONAL_10_TO_6_TO_2_QUOTIENT_SEPARATE" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -370,4 +376,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels type 84 immutable records versus 82 active targets and route source-owned full-reduction basicness -> raw-Upsilon/null screen -> observation Euler/symplectic descent with D2 disjoint")
+print("PASS: functional channels type 84 immutable records versus 82 active targets and route full Bianchi plus labelled ambient screen -> coupled all-grade raw-Upsilon repair -> observation Euler/symplectic descent with D2 disjoint")

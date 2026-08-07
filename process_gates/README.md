@@ -1944,3 +1944,13 @@ v0.58's normal defect, requires the exact invariant-target-span obstruction,
 counts no orbit-transport surplus, keeps observation Euler/preboundary and
 symplectic descent open, and freezes verdicts, residue, quotients, datum, canon
 and posture.
+
+## K77 total raw-Upsilon and labelled null screen ledger v0.60 gate
+
+`selected_k77_total_upsilon_null_screen_scope_audit.py` keeps the complete
+superconnection Bianchi identity distinct from raw-`Upsilon` naturality and
+from the source's `Xi=D Upsilon` redundancy. It requires the exact rank-four
+all-grade residual after restoring `kappa_1 T`, the labelled ambient rank-12
+`(6,6)` null screen, the separate 4D `10 -> 6 -> 2` physical quotient, the
+mandatory symplectic scope fence, zero identity-surplus inflation, and frozen
+verdicts, residue, quotients, datum, canon and posture.

@@ -14,12 +14,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> Ledger v0.59 reconciles the graph quotients. The source-owned full labelled
-> Clifford reduction makes the paired graph basic modulo its central `U(1)`
-> stabilizer; forgetting that reduction to the horizontal plane still fails.
-> The invariant-Hom replacement horn is closed for the same targets. The
-> accepted next sequence is total raw-`Upsilon` Bianchi/naturality plus the
-> null screen, then observation Euler/preboundary, BV and symplectic descent. Generic carrier search
+> Ledger v0.60 closes the parity-complete full linearized superconnection
+> Bianchi identity and constructs a labelled ambient rank-12 null screen of
+> signature `(6,6)` without dividing by `q^2`. The previous grade-two
+> curvature graph still cancels, but the source-required `kappa_1 T` term
+> leaves a rank-four total raw-`Upsilon` defect in grades one and two. Keep the
+> ambient screen distinct from the separate 4D `10 -> 6 -> 2` physical null
+> quotient. The accepted next sequence is coupled all-grade raw-`Upsilon`
+> graph repair, then observation Euler/preboundary, BV and symplectic descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -42,8 +44,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > built source-owned `gamma_epsilon=Ad(epsilon^-1)gamma_0` has central `U(1)`
 > stabilizer with trivial adjoint action, so the paired full-reduction graph is
 > basic. Spencer uniqueness closes the invariant-replacement horn. No Euler
-> class, physical quotient, datum or physics recovery follows. Next test total
-> raw-`Upsilon` Bianchi/naturality and construct the null screen.
+> class, physical quotient, datum or physics recovery follows. The subsequent
+> v0.60 test closes full Bianchi and the labelled ambient screen but finds the
+> current curvature-only graph fails the complete two-term raw `Upsilon`.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -148,11 +151,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > paired graph descends, while the horizontal-plane forgetful quotient fails
 > and no invariant-Hom replacement reproduces the targets. Never reuse the old
 > v0.55/v0.56 coefficient packets or forget `gamma_epsilon` before its
-> variational degeneracy is derived. Construct total raw-`Upsilon`
-> Bianchi/naturality on all four columns and a null characteristic screen
-> without non-null normalization. Do not substitute the
+> variational degeneracy is derived. Preserve v0.60's exact full linearized
+> superconnection Bianchi identity and labelled ambient rank-12 `(6,6)` null
+> screen. Preserve the exact cancellation of the curvature-only grade-two
+> target, but do not call it total naturality: the mandatory `kappa_1 T` term
+> leaves a rank-four residual with live grades one and two. Construct a
+> coupled all-grade graph for the complete raw `Upsilon`; do not substitute the
 > Levi-Civita subclass: its linearized torsion-free response is q-exact. Plant
-> a forgetful-plane quotient and an auxiliary-complement-dependent null screen.
+> a curvature-only truncation and a forgetful reciprocal-null-label screen.
 > Only a lawful survivor advances to observation Euler/preboundary, BV and symplectic descent;
 > otherwise require a separately source-owned higher jet. Do not use
 > background subtraction without an action/counterterm owner.

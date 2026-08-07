@@ -12,12 +12,13 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.59 reconciles the quotient fork: the source-owned full labelled
-> Clifford reduction makes the paired graph basic modulo its central
-> stabilizer, while the horizontal-plane forgetful quotient still fails. The
-> invariant-Hom replacement horn is closed. The remaining sequence is total
-> raw-`Upsilon` Bianchi/naturality plus the null screen, then observation
-> Euler/preboundary, BV and symplectic descent. Generic carrier search is closed.
+> Ledger v0.60 closes full linearized superconnection Bianchi and constructs a
+> labelled ambient rank-12 null screen of signature `(6,6)`. The previous
+> curvature-only grade-two graph still cancels, but the source-required
+> `kappa_1 T` term leaves a rank-four total raw-`Upsilon` defect in grades one
+> and two. The remaining sequence is coupled all-grade raw-`Upsilon` graph
+> repair, then observation Euler/preboundary, BV and symplectic descent.
+> Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
 > evidence.
@@ -47,11 +48,19 @@ updated_at: "2026-08-07"
 > Forgetting to the horizontal plane still fails, and no invariant-Hom map
 > reproduces the four targets.
 
-> **NEXT RUN: TOTAL RAW-UPSILON AND NULL SCREEN.** On the source-owned full
-> reduction, test total raw-`Upsilon` Bianchi/naturality on all four columns and
-> construct the null characteristic screen without non-null normalization.
-> Only a survivor advances to observation Euler/preboundary/symplectic and
-> common-domain descent. Symplectic review is mandatory.
+> **2026-08-07 TOTAL RAW-UPSILON AND LABELLED NULL SCREEN (ledger v0.60).**
+> [`explorations/conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md`](explorations/conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md)
+> proves exact full linearized Bianchi closure and a labelled ambient rank-12
+> `(6,6)` screen without dividing by `q^2`. The old grade-two curvature target
+> still cancels, but the complete source object
+> `Upsilon_B=Shiab(F_A)+kappa_1 T` has a rank-four residual with live grades one
+> and two. This is not the separate 4D `10 -> 6 -> 2` physical quotient.
+
+> **NEXT RUN: COUPLED ALL-GRADE RAW-UPSILON GRAPH.** Repair the four-column
+> graph against the complete source object including `kappa_1 T`. Retain the
+> reciprocal null label through variation. Only a survivor advances to
+> observation Euler/preboundary/symplectic and common-domain descent.
+> Symplectic review is mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

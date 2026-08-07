@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose reconciliation 2026-08-07 (ledger v0.59; five
+**Current Build/Compose result 2026-08-07 (ledger v0.60; five
+distance/mapping-grade/evidence migrations).** The parity-complete corrected
+K77 source tangent satisfies the full linearized superconnection Bianchi
+identity on all four columns. A reciprocal labelled null leg constructs an
+exact ambient rank-12 screen of signature `(6,6)` without dividing by `q^2`.
+The earlier curvature-only grade-two graph still cancels exactly, but the
+source-written total `Upsilon_B=Shiab(F_A)+kappa_1 T` leaves a rank-four
+residual in Clifford grades one and two. The next Build is a coupled all-grade
+graph repair before observation Euler/preboundary/symplectic descent. The
+ambient screen is not the separate 4D `10 -> 6 -> 2` quotient. No verdict,
+residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose reconciliation 2026-08-07 (ledger v0.59; five
 distance/mapping-grade/evidence migrations).** The already-built source-owned
 full labelled Clifford reduction corrects v0.58's ownership fence. Its
 stabilizer is scalar `U(1)` and acts trivially on the adjoint lift, so the

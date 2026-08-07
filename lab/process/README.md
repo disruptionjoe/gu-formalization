@@ -15,7 +15,15 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.59. The already-built
+Current append-only progress surface: ledger v0.60. The complete source
+tangent satisfies the full linearized superconnection Bianchi identity and a
+labelled reciprocal null leg supplies an exact ambient rank-12 `(6,6)` screen.
+The prior grade-two curvature graph still cancels, but the source-required
+`kappa_1 T` term leaves a rank-four total raw-`Upsilon` defect in grades one
+and two. Next solve a coupled all-grade graph before Euler/preboundary or
+symplectic descent. See `selected-k77-total-upsilon-null-screen.json`.
+
+Predecessor append-only progress surface: ledger v0.59. The already-built
 source-owned full labelled Clifford reduction has central `U(1)` stabilizer
 with trivial adjoint action, so the paired graph is basic. The horizontal-
 plane forgetful quotient still fails, and exact Spencer uniqueness closes the
