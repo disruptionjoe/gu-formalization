@@ -243,15 +243,21 @@ M-M21 M-M22 M-M23 M-M24 M-M25 · M-L1 M-L2 · (hold: M-L3 M-L4 M-L5 M-L6 M-L7)
 
 ## PART D — IMPLEMENTATION PLAN
 
-### Tier 0 — Joe decisions (~40 min; unblock the batches)
+### Tier 0 — Joe decisions (~40 min; unblock the batches) — CLOSED 2026-08-07
 
-| J# | Decision | Unblocks |
-|---|---|---|
-| J1 | Send the arXiv endorsement email (drafted at `papers/candidates/located-not-forced/ENDORSER-REQUEST-DRAFT.md`) | External-review channel; Part-II sequencing |
-| J2 | `brew install --cask sage` in a terminal | M-M4 dictionary; remaining CAS gates |
-| J3 | Name the trunk; authorize merge/tag to main | P-C1; CI value of P-H7 |
-| J4 | Authorize seeding the 4 finished GU-independent assets to Drafting Factory | Banked value; the audit's F-03 |
-| J5 | Standing answer: may a decisive Tier-1 computation move bar(b)/H59/count (currently Joe-gated)? | M-C3, M-C4, M-H1 result deposit |
+> **This table is historical and carries no open item.** Joe answered these on
+> 2026-08-03 and the answers were acted on; the table was never updated to say
+> so, so later readers mistook a dated snapshot for a live queue. Dispositions
+> recorded 2026-08-07 per Joe direct chat. Nothing here blocks any work, and
+> nothing here should be carried forward into a new list.
+
+| J# | Decision | Unblocks | Disposition |
+|---|---|---|---|
+| J1 | Send the arXiv endorsement email (drafted at `papers/candidates/located-not-forced/ENDORSER-REQUEST-DRAFT.md`) | External-review channel; Part-II sequencing | **WITHDRAWN** 2026-08-07: out of scope. External review is Joe-owned and optional under the 2026-08-03 rule, no work item may block on it, and this one is not to be carried forward or re-raised. |
+| J2 | `brew install --cask sage` in a terminal | M-M4 dictionary; remaining CAS gates | **DONE.** SageMath 10.9 installed and in routine use; 30 `.sage` certificates live under `tests/channel-swings/` and the interpreter path is recorded in `lab/process/agent-context-pack.md`. |
+| J3 | Name the trunk; authorize merge/tag to main | P-C1; CI value of P-H7 | **AUTHORIZED** 2026-08-03, reaffirmed 2026-08-07. Trunk is `main`. The 2026-08-06 branch integration fast-forwarded `main` onto the integrated line; all agent branches and worktrees are level with it. |
+| J4 | Authorize seeding the 4 finished GU-independent assets to Drafting Factory | Banked value; the audit's F-03 | **AUTHORIZED and EXECUTED** 2026-08-03. Seeds filed in `system-runtime#mailboxes/drafting-factory/`: two-plus-one mechanism, two-arena rep-theory core, shape-blind CR lemma, Pati-Salam class-relative survey, good-stable no-go. |
+| J5 | Standing answer: may a decisive Tier-1 computation move bar(b)/H59/count (currently Joe-gated)? | M-C3, M-C4, M-H1 result deposit | **RETIRED as superseded**, same day it was written. The "currently Joe-gated" premise is false: `CANON.md:142` records `bar(b)`/H59/the generation count as OPEN because they are blocked on unbuilt mathematics, *not* on a Joe decision, and the ratified 2026-08-03 rule replaced any Joe gate on verdict movement with a required hostile field-specialist review. No standing answer is owed. |
 
 ### Batch 1 — Process quick wins (Q1-process + Q3 doc fixes; ~1 agent-day; no claim flips, CS items via the workflow)
 
