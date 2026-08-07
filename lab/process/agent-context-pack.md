@@ -14,14 +14,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> Ledger v0.60 closes the parity-complete full linearized superconnection
-> Bianchi identity and constructs a labelled ambient rank-12 null screen of
-> signature `(6,6)` without dividing by `q^2`. The previous grade-two
-> curvature graph still cancels, but the source-required `kappa_1 T` term
-> leaves a rank-four total raw-`Upsilon` defect in grades one and two. Keep the
-> ambient screen distinct from the separate 4D `10 -> 6 -> 2` physical null
-> quotient. The accepted next sequence is coupled all-grade raw-`Upsilon`
-> graph repair, then observation Euler/preboundary, BV and symplectic descent. Generic carrier search
+> Ledger v0.61 constructs the unique inverse of the full raw-`Upsilon`
+> response on the predeclared 1,470-dimensional K77 `Cl1+Cl2` source tangent.
+> The finite output support has 4,330 coordinates, rank is 1,470 and nullity
+> zero; all four conditional `-J_2D` targets solve with full Bianchi and paired
+> labelled-frame descent. The source owns the response but is silent on those
+> targets, so this is a zero-local-freedom conditional construction, not a
+> derivation or prediction. Keep the labelled ambient `(6,6)` screen distinct
+> from the separate 4D `10 -> 6 -> 2` physical null quotient. The accepted
+> next sequence is observation Euler/preboundary, BV and symplectic descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -46,7 +47,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > basic. Spencer uniqueness closes the invariant-replacement horn. No Euler
 > class, physical quotient, datum or physics recovery follows. The subsequent
 > v0.60 test closes full Bianchi and the labelled ambient screen but finds the
-> current curvature-only graph fails the complete two-term raw `Upsilon`.
+> curvature-only graph fails the complete two-term raw `Upsilon`. v0.61
+> replaces that graph with the unique full-response inverse; its target remains
+> conditional and observation Euler/preboundary remains open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -96,8 +99,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract total raw-`Upsilon` and null-screen
-> target on the source-owned full reduction; historical campaign-local
+> next gate is the functional-contract observation Euler/preboundary target
+> using the unique all-grade graph and labelled null screen; historical campaign-local
 > pointers are not queue truth.
 
 > **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
@@ -151,16 +154,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > paired graph descends, while the horizontal-plane forgetful quotient fails
 > and no invariant-Hom replacement reproduces the targets. Never reuse the old
 > v0.55/v0.56 coefficient packets or forget `gamma_epsilon` before its
-> variational degeneracy is derived. Preserve v0.60's exact full linearized
-> superconnection Bianchi identity and labelled ambient rank-12 `(6,6)` null
-> screen. Preserve the exact cancellation of the curvature-only grade-two
-> target, but do not call it total naturality: the mandatory `kappa_1 T` term
-> leaves a rank-four residual with live grades one and two. Construct a
-> coupled all-grade graph for the complete raw `Upsilon`; do not substitute the
-> Levi-Civita subclass: its linearized torsion-free response is q-exact. Plant
-> a curvature-only truncation and a forgetful reciprocal-null-label screen.
-> Only a lawful survivor advances to observation Euler/preboundary, BV and symplectic descent;
-> otherwise require a separately source-owned higher jet. Do not use
+> variational degeneracy is derived. Preserve v0.61's exact full-response
+> inverse, full linearized superconnection Bianchi identity and labelled
+> ambient rank-12 `(6,6)` null screen. Do not restore the superseded
+> curvature-only lifts, and do not promote the source-silent conditional
+> `-J_2D` target to a derivation. Insert the unique all-grade graph into the
+> selected first-order action and vary observation section, connection,
+> soldering, `gamma_epsilon` and reciprocal null label together. Derive the
+> Euler covector and preboundary current before any reduced symplectic, BV or
+> physical claim. Do not substitute the Levi-Civita subclass: its linearized
+> torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled
 > nonzero-fermion, common-domain and odd BV/BFV work remain ordered successors.

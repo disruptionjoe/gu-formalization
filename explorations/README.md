@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 coupled all-grade raw-Upsilon graph (2026-08-07)
+
+`conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md`
+constructs the unique inverse of the full source response on the predeclared
+1,470-dimensional K77 `Cl1+Cl2` tangent. All four conditional targets solve,
+full Bianchi and labelled-frame descent pass, and no new local coefficient is
+introduced. The target itself remains source-silent, so ledger v0.61 routes
+the next Build to observation Euler/preboundary and symplectic descent without
+moving verdicts, residue, quotients, datum or posture.
+
 ## K77 total raw-Upsilon and labelled ambient null screen (2026-08-07)
 
 `conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md`

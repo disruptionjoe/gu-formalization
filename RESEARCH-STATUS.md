@@ -8,17 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-07 (ledger v0.60; five
+**Current Build/Compose result 2026-08-07 (ledger v0.61; five
+distance/mapping-grade/evidence migrations).** On the predeclared
+1,470-dimensional K77 `Cl1+Cl2` source tangent, the full source-written
+raw-`Upsilon` response has exact rank 1,470, nullity zero and a
+4,330-coordinate output support. All four conditional `-J_2D` targets have
+unique all-grade lifts with supports `71,48,48,48`; full Bianchi and paired
+labelled-frame descent pass. The source owns the response but is silent on the
+targets, so this is a zero-local-freedom conditional construction rather than
+a derivation. Next derive the observation Euler covector and preboundary
+current before reduced symplectic descent. No verdict, residue, quotient,
+datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-07 (ledger v0.60; five
 distance/mapping-grade/evidence migrations).** The parity-complete corrected
-K77 source tangent satisfies the full linearized superconnection Bianchi
-identity on all four columns. A reciprocal labelled null leg constructs an
-exact ambient rank-12 screen of signature `(6,6)` without dividing by `q^2`.
-The earlier curvature-only grade-two graph still cancels exactly, but the
-source-written total `Upsilon_B=Shiab(F_A)+kappa_1 T` leaves a rank-four
-residual in Clifford grades one and two. The next Build is a coupled all-grade
-graph repair before observation Euler/preboundary/symplectic descent. The
-ambient screen is not the separate 4D `10 -> 6 -> 2` quotient. No verdict,
-residue, quotient, datum, canon or public-posture change follows.
+K77 source tangent satisfies full Bianchi and supplies a labelled ambient
+rank-12 `(6,6)` null screen, but its curvature-only graph misses the mandatory
+`kappa_1T` contribution. v0.61 supersedes that graph, not these Bianchi or
+screen results.
 
 **Predecessor Build/Compose reconciliation 2026-08-07 (ledger v0.59; five
 distance/mapping-grade/evidence migrations).** The already-built source-owned

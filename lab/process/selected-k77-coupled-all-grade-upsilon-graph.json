@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-07",
+  "status": "UNIQUE_CONDITIONAL_ALL_GRADE_RAW_UPSILON_GRAPH_CONSTRUCTED__TARGET_NOT_DERIVED__OBSERVATION_EULER_PREBOUNDARY_OPEN",
+  "source_return": "SOURCE-CONFIRMS__RAW_UPSILON_IS_SHIAB_CURVATURE_PLUS_KAPPA_T__SOURCE-SILENT__CONDITIONAL_MINUS_J2D_TARGET_AND_ITS_IDENTIFICATION_WITH_THE_PHYSICAL_GRAPH",
+  "predecessor": "lab/process/selected-k77-total-upsilon-null-screen.json",
+  "layer0": {
+    "raw_upsilon_vs_equation_or_derivative": "DISTINCT",
+    "curvature_bianchi_vs_xi_equals_d_upsilon": "DISTINCT",
+    "conditional_minus_j2d_target_vs_source_transformation_law": "DISTINCT__TARGET_SOURCE_SILENT",
+    "response_inverse_vs_output_counterterm": "DISTINCT__INVERSE_CONSTRUCTED",
+    "configuration_descent_vs_euler_preboundary_symplectic": "DISTINCT__EULER_PREBOUNDARY_OPEN"
+  },
+  "exact_result": {
+    "source_tangent_grades": [1, 2],
+    "domain_dimension": 1470,
+    "output_coordinate_support": 4330,
+    "output_grades": [1, 2, 5],
+    "response_rank": 1470,
+    "response_nullity": 0,
+    "independent_sage_flint_rank": 1470,
+    "independent_sage_flint_nullity": 0,
+    "response_cokernel_dimension": 2860,
+    "target_family_rank": 4,
+    "solution_supports": [71, 48, 48, 48],
+    "solution_grade1_supports": [10, 13, 13, 13],
+    "solution_grade2_supports": [61, 35, 35, 35],
+    "all_four_exact": true,
+    "old_curvature_only_lifts_equal_new": false,
+    "omit_kappa_passes": false,
+    "wrong_sign_kappa_passes": false,
+    "grade3_output_plant_in_image": false,
+    "full_linearized_bianchi": true,
+    "full_labelled_frame_descent": true,
+    "frozen_frame_graph_descent": false
+  },
+  "constraint_surplus": {
+    "new_fields": 0,
+    "new_local_coefficients": 0,
+    "fixed_target_coefficient_freedom": 0,
+    "local_predictive_surplus": 0,
+    "target_compatibility_cokernel_dimension": 2860,
+    "residue_change": 0,
+    "quotient_count_change": 0
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 1
+  },
+  "next_gate": "OBSERVATION_SECTION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT_ON_UNIQUE_ALL_GRADE_GRAPH_AND_LABELLED_NULL_SCREEN",
+  "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "NOT_PROMOTED",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none",
+  "rerun": "50/50 PASS"
+}

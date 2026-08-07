@@ -179,7 +179,8 @@ assert "SOURCE_VARPI_FIXED_EPSILON_TANGENT_DELTA_B0_DELTA_T_ALPHA_DELTA_A_ALPHA"
 assert "SOURCE_OWNED_FULL_REDUCTION_PAIR_BASIC" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 assert "AMBIENT_LABELLED_NULL_SCREEN_RANK12_SIGNATURE6_6" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
-assert "TOTAL_RAW_UPSILON_RANK4_LIVE_GRADES1_2_FAIL" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "FULL_RAW_UPSILON_RESPONSE_DOMAIN1470_OUTPUT4330_RANK1470_NULLITY0_COKERNEL2860" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
+assert "UNIQUE_CONDITIONAL_ALL_GRADE_GRAPH" in contract["standing_ledger"]["nonnull_koszul_gcr_directive"]
 
 assert "The finder of an over-determined row escalates it and may not adjudicate it" in human
 assert "found over-determined row is valuable" in human
@@ -221,7 +222,7 @@ assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in di
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "COUPLED_ALL_GRADE_RAW_UPSILON_GRAPH_INCLUDING_KAPPA_T__THEN_OBSERVATION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT"
+assert next_method["target"] == "OBSERVATION_SECTION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT_ON_UNIQUE_ALL_GRADE_GRAPH_AND_LABELLED_NULL_SCREEN"
 assert "PRESERVE_THE_PRINCIPAL_CONNECTION_Q_EXACT_CLASS_AND_THE_UNRESTRICTED_CARTAN_SPENCER_TRANSVERSE117_CARRIER_OWNER" in next_method["ordered_steps"]
 assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
 assert "PRESERVE_THE_LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in next_method["ordered_steps"]
@@ -230,7 +231,9 @@ assert "PRESERVE_SOURCE_OWNED_FULL_REDUCTION_PAIR_BASICNESS_AND_HORIZONTAL_PLANE
 assert "PRESERVE_SPENCER_UNIQUENESS_AND_KILLED_INVARIANT_REPLACEMENT__RETAIN_GAMMA_EPSILON_THROUGH_VARIATION" in next_method["ordered_steps"]
 assert "PRESERVE_FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS__DO_NOT_REDUCE_TO_ODD_CURVATURE_ONLY" in next_method["ordered_steps"]
 assert "PRESERVE_LABELLED_AMBIENT_NULL_SCREEN_RANK12_SIGNATURE6_6__DO_NOT_IDENTIFY_WITH_4D_10_TO_6_TO_2_PHYSICAL_QUOTIENT" in next_method["ordered_steps"]
-assert "SOLVE_COUPLED_GRADE1_AND_GRADE2_GRAPH_FOR_RAW_UPSILON_EQUALS_SHIAB_FA_PLUS_KAPPA1_T" in next_method["ordered_steps"]
+assert "PRESERVE_THE_UNIQUE_FULL_RAW_UPSILON_RESPONSE_INVERSE_ON_DOMAIN1470_OUTPUT_SUPPORT4330_RANK1470_NULLITY0__DO_NOT_RESTORE_OLD_CURVATURE_ONLY_LIFTS" in next_method["ordered_steps"]
+assert "PRESERVE_THE_CONDITIONAL_MINUS_J2D_TARGET_AS_SOURCE_SILENT__DO_NOT_PROMOTE_GRAPH_INVERSION_TO_TARGET_DERIVATION" in next_method["ordered_steps"]
+assert "DERIVE_THE_OBSERVATION_EULER_COVECTOR_AND_PREBOUNDARY_CURRENT_BEFORE_ANY_REDUCED_SYMPLECTIC_CLAIM" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
     "DIFFERENTIAL_GEOMETRY", "REPRESENTATION_THEORY", "VARIATIONAL_PDE",
@@ -243,11 +246,10 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "COUPLED_ALL_GRADE_RAW_UPSILON_GRAPH_INCLUDING_KAPPA_T" in directive["next_gate"]
+assert "OBSERVATION_SECTION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT" in directive["next_gate"]
 assert "FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS" in directive["latest_correction_evidence"]
-assert "TOTAL_RAW_UPSILON_GRAPH_FAIL_RANK4" in directive["latest_correction_evidence"]
-assert "AMBIENT_LABELLED_NULL_SCREEN_RANK12_SIGNATURE6_6" in directive["latest_correction_evidence"]
-assert "FOUR_DIMENSIONAL_10_TO_6_TO_2_QUOTIENT_SEPARATE" in directive["latest_correction_evidence"]
+assert "FULL_RAW_UPSILON_RESPONSE_DOMAIN1470_OUTPUT_SUPPORT4330" in directive["latest_correction_evidence"]
+assert "ZERO_LOCAL_PREDICTIVE_SURPLUS" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -376,4 +378,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels type 84 immutable records versus 82 active targets and route full Bianchi plus labelled ambient screen -> coupled all-grade raw-Upsilon repair -> observation Euler/symplectic descent with D2 disjoint")
+print("PASS: functional channels type 84 immutable records versus 82 active targets and route the unique conditional all-grade raw-Upsilon graph -> observation Euler/preboundary/symplectic descent with D2 disjoint")

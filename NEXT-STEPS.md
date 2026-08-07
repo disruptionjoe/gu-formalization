@@ -12,12 +12,12 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.60 closes full linearized superconnection Bianchi and constructs a
-> labelled ambient rank-12 null screen of signature `(6,6)`. The previous
-> curvature-only grade-two graph still cancels, but the source-required
-> `kappa_1 T` term leaves a rank-four total raw-`Upsilon` defect in grades one
-> and two. The remaining sequence is coupled all-grade raw-`Upsilon` graph
-> repair, then observation Euler/preboundary, BV and symplectic descent.
+> Ledger v0.61 constructs the unique all-grade inverse of the full
+> raw-`Upsilon` response on the predeclared 1,470-dimensional K77 `Cl1+Cl2`
+> tangent. The output support has 4,330 coordinates, rank is 1,470 and nullity
+> zero. All four conditional targets solve with full Bianchi and labelled-frame
+> descent, but the source does not derive those targets. The remaining sequence
+> is observation Euler/preboundary, BV and symplectic descent.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -56,11 +56,20 @@ updated_at: "2026-08-07"
 > `Upsilon_B=Shiab(F_A)+kappa_1 T` has a rank-four residual with live grades one
 > and two. This is not the separate 4D `10 -> 6 -> 2` physical quotient.
 
-> **NEXT RUN: COUPLED ALL-GRADE RAW-UPSILON GRAPH.** Repair the four-column
-> graph against the complete source object including `kappa_1 T`. Retain the
-> reciprocal null label through variation. Only a survivor advances to
-> observation Euler/preboundary/symplectic and common-domain descent.
-> Symplectic review is mandatory.
+> **2026-08-07 COUPLED ALL-GRADE RAW-UPSILON GRAPH (ledger v0.61).**
+> [`explorations/conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md`](explorations/conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md)
+> proves the full response has rank 1,470 and nullity zero on the predeclared
+> finite tangent and constructs four unique conditional all-grade lifts. The
+> target compatibility cokernel has dimension 2,860, but the fixed-source
+> coefficient surplus is zero. Source ownership stops at the response; the
+> `-J_2D` targets remain conditional.
+
+> **NEXT RUN: OBSERVATION EULER AND PREBOUNDARY.** Insert the unique all-grade
+> graph into the selected first-order action and vary the observation section,
+> connection, soldering, full labelled reduction and reciprocal null label
+> together. Derive the Euler covector and preboundary current before any
+> reduced symplectic, BV/BFV or common-domain promotion. Symplectic review is
+> mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

@@ -1954,3 +1954,13 @@ all-grade residual after restoring `kappa_1 T`, the labelled ambient rank-12
 `(6,6)` null screen, the separate 4D `10 -> 6 -> 2` physical quotient, the
 mandatory symplectic scope fence, zero identity-surplus inflation, and frozen
 verdicts, residue, quotients, datum, canon and posture.
+
+## K77 coupled all-grade raw-Upsilon graph ledger v0.61 gate
+
+`selected_k77_coupled_all_grade_upsilon_graph_scope_audit.py` requires the
+predeclared 1,470-dimensional source tangent, 4,330-coordinate output support,
+rank-1,470/nullity-zero response, four unique conditional lifts, full Bianchi
+and paired labelled-frame descent. It keeps the source-silent `-J_2D` target,
+2,860-dimensional compatibility cokernel, zero local predictive surplus, and
+open Euler/preboundary/symplectic gate separately typed while freezing
+verdicts, residue, quotients, datum, canon and posture.
