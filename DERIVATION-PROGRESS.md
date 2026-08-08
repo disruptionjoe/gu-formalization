@@ -43,6 +43,23 @@ Three-layer program to move from the distortion residue (proved in TI E049) and 
 
 **Status:** COMPLETE FOR ALGEBRAIC EXISTENCE ONLY (corrected 2026-06-25)
 
+> **SUPERSEDED IN PLACE — banner added 2026-08-07. Do not cite the paragraph below as current.**
+> Two live surfaces contradict this passage and both postdate it:
+> (1) `RESEARCH-STATUS.md` carries `[CORRECTED 2026-08-03: the total signature is
+> UNDER-DETERMINED — the DeWitt fiber is (6,4) under BOTH base conventions]`;
+> (2) register item `M-H4` states that canon's "confirmed by Frobenius" is
+> **false** — *fiber quadratic in g, verified by hand* — which attacks the
+> derivation step below, not just its conclusion.
+> The ambient signature is the **open** `SIGNATURE-AMBIENT` fork
+> (`lab/process/layer0-fork-registry.yaml`), currently at stack depth 10 with a
+> named unexecuted resolver (`M-H9`). Separately, `REAL-CLIFFORD-FORM` — which
+> algebra the *source computes in*, a distinct question — is settled at
+> `Cl(7,7) = M128(R)`.
+> This file's 2026-06-25 global status guard already subordinates it to the
+> status ledgers on conflict; this banner makes that local instead of global,
+> because the paragraph below reads as a confident derivation with no nearby
+> caveat.
+
 **Signature correction (N1 audit):** The correct signature of Y¹⁴ is **(9,5)**, not (7,7).
 Derivation: fiber Sym²(R^{3,1}*) has Frobenius signature (7,3); trace-reversal (standard
 GR factor 1/2 in 4D) negates the trace direction, giving fiber signature (6,4); Lorentzian

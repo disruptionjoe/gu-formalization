@@ -74,6 +74,24 @@ forks:
       splits); that is the base+fibre split, not the ambient signature, and
       GU's split is 4+10, even/even, so the product rule applies either way.
       Distinct from REAL-CLIFFORD-FORM, which IS settled.
+    named_resolver: >-
+      M-H9 in lab/process/improvement-register-2026-08-03.md -- the B5 signature
+      test. Eleven parity values are inertia classes (k,10-k) on ten mirror edges;
+      the eps_e are FS-type indicators; the prediction discriminates the horns at
+      the endpoints only, (9,5) => (58,78) and (7,7) => (78,58). Action: compute
+      the ten indicators via the in-file Racah-Speiser machinery and rerun under
+      (7,7). Graded H impact / M effort and named a fork-resolver by the register
+      itself. STATUS 2026-08-07: NOT EXECUTED. It sits in the register's Q2
+      "schedule deliberately" queue, unlike sibling fork-resolvers M-C3, M-C4 and
+      M-H1 which carry EXECUTED markers.
+    stack_note: >-
+      2026-08-07: process_gates/fork_depth_audit.py reports this fork at stack
+      depth 10, OVER THRESHOLD. That gate exists because Wave K settled the
+      adjacent REAL-CLIFFORD-FORM fork only after seven constructions had stacked
+      on the other horn. The same pattern is now running here, with a named and
+      unexecuted resolver available. The gate is reporting correctly; nothing is
+      acting on it. Running M-H9 would also derive B5 fields (i)-(iii) natively,
+      so it addresses the blocked interior lane at the same time.
     sources:
       - lab/process/agent-context-pack.md
       - explorations/resolver-wave-b-q3-dq3-dq1-2026-08-03.md
@@ -190,6 +208,20 @@ forks:
     settled_by:
       - lab/process/hostile-reviews/2026-08-03-imposter-ab-review.md
       - explorations/imposter-reading-adjudication-2026-08-03.md
+    consequence_set_added: '2026-08-07'
+    consequence_set_method: >-
+      Recorded retrospectively. This settlement DID propagate on its settlement
+      day, because it was made through hostile field-specialist review, and a
+      hostile review emits a licensed-edits list as its output. Contrast
+      REAL-CLIFFORD-FORM, settled one day later through a wave disposition, which
+      emitted a finding and no edits list and whose consequence cone was still
+      unpropagated on 2026-08-07. The propagation gap tracks the SETTLEMENT
+      MECHANISM, not the importance of the fork.
+    consequence_set:
+      propagated_on_settlement_day:
+        - tests/W221_falsify_generation_count_structure.py
+        - lab/process/agent-context-pack.md
+        - papers/drafts/one-generation-not-three/draft.md
     fan_out: "medium - W221 scope, the 2+1 occupancy reading, generation labelling"
     sources:
       - lab/process/agent-context-pack.md
