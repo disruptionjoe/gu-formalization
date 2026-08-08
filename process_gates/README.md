@@ -2057,3 +2057,11 @@ conditional quotient dimension/rank `40/40`. It books exactly one new scoped
 quotient while freezing verdicts and global residue. It keeps the global
 labelled `Y14` edge bundle, source-selected physical domain, BFV phase space,
 polarization, common domain, P1/P2/P3, canon and posture open.
+
+## K77 tilted edge-bundle type bridge v0.71 gate
+
+`selected_k77_tilted_edge_bundle_type_bridge_scope_audit.py` requires exact
+separate tilted affine-one-form and group-valued edge-frame cocycles, the
+constant-`xi` zero-form/one-form mismatch, and the null zero-order natural
+bridge. It keeps the dressed preboundary form, typed differential/soldering or
+domain bridge, global quotient, BFV, common domain, P1/P2/P3, canon and posture open.

@@ -12,13 +12,12 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.70 proves that an ordinary scalar boundary counterterm cannot
-> cancel the contact moment map and constructs the coefficient-unique minimal
-> edge extension. Across all ten K77 normals its extended dimension/rank/kernel
-> are `60/40/20`, with a nondegenerate quotient of dimension/rank `40/40`.
-> The next gate is global: lift the edge cells to a labelled `Y14` boundary
-> bundle with tilted equivariance and cocycle closure, or source/action-select
-> a physical boundary domain, before BFV, polarization or common-domain claims.
+> Ledger v0.71 verifies the source/repository tilted affine one-form cocycle and
+> the ordinary group-valued edge-frame cocycle on a noncommuting three-patch
+> fixture. Layer 0 kills their direct identity: the edge frame shifts by `xi`,
+> while the affine one-form shifts by `D_A0 xi`. The next gate constructs the
+> group-valued edge frame's dressed preboundary form and an owned typed bridge
+> to the tilted affine field before global BFV, polarization or common-domain claims.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -135,11 +134,17 @@ updated_at: "2026-08-08"
 > Dirichlet and zero-charge horns, and constructs the unique two-cell edge
 > extension. Its all-ten finite local quotient is exact and nondegenerate.
 
-> **NEXT RUN: GLOBAL EDGE-BUNDLE DESCENT OR SOURCE-SELECTED DOMAIN.** Lift the
-> edge cells through the labelled `Y14` bundle, tilted inhomogeneous-gauge
-> action, overlap cocycle and global moment map—or source/action-select the
-> boundary domain. Only then open full BFV charge algebra, polarization and
-> common-domain work. Symplectic review remains mandatory.
+> **2026-08-08 K77 TILTED EDGE-BUNDLE TYPE BRIDGE (ledger v0.71).**
+> [`explorations/conditional-build/selected-k77-tilted-edge-bundle-type-bridge-2026-08-08.md`](explorations/conditional-build/selected-k77-tilted-edge-bundle-type-bridge-2026-08-08.md)
+> proves exact separate affine-one-form and group-valued-zero-form cocycles,
+> then kills their direct identification with a constant-`xi` witness and a
+> zero-order naturality obstruction.
+
+> **NEXT RUN: DRESSED GROUP-VALUED EDGE FRAME AND TYPED TILTED BRIDGE.** Build
+> the edge frame and dressed preboundary form on the actual `H`-bundle; then
+> relate it to the tilted affine one-form through an owned differential,
+> soldering/normal contraction or inverse-domain map and prove global moment-map
+> and kernel descent. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

@@ -18,14 +18,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > moment map, proves scalar boundary counterterms cannot change the
 > presymplectic form, and constructs the unique two-cell edge extension. Across
 > all ten K77 normals the extended form has dimension/rank/kernel `60/40/20` and
-> its finite local quotient is nondegenerate `40/40`. This is not a global BFV
-> phase space or source-selected domain. Lift the edge cells through the
-> labelled `Y14` bundle and tilted cocycle, or find a source/action-selected
-> boundary domain, before physical reduction language.
+> its finite local quotient is nondegenerate `40/40`. Ledger v0.71 verifies the
+> tilted affine one-form and ordinary group-valued edge-frame cocycles
+> separately, then kills their direct identity: the edge frame shifts by `xi`,
+> while the affine one-form shifts by `D_A0 xi`. Construct the dressed
+> group-valued preboundary form and an owned typed bridge before physical
+> reduction language.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> global edge-bundle/source-selected-domain gate, then BFV, polarization and
+> dressed edge-frame/typed tilted-bridge gate, then BFV, polarization and
 > common-domain descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
@@ -69,6 +71,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > while proving that unrestricted boundary transformations carry live charges
 > in all ten K77 normal directions. Ledger v0.70 constructs the unique minimal
 > edge extension and exact rank-40 local quotient without globalizing it.
+> Ledger v0.71 closes the separate coordinate cocycles and kills only their
+> direct zero-form/one-form identification; the dressed symplectic bridge is open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -118,8 +122,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract global edge-bundle/tilted-cocycle or
-> source-selected-domain test for the v0.70 local quotient;
+> next gate is the functional-contract dressed group-valued edge-frame and
+> typed tilted-affine bridge for the v0.70 local quotient;
 > historical campaign-local
 > pointers are not queue truth.
 
@@ -182,8 +186,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > ten-direction K77 geometry bank plus noncanonical-owner-split correction,
 > v0.68's exact point-frame cotangent/presymplectic naturality, v0.69's exact
 > diagonal contact Ward and small-gauge basicness with live boundary moment
-> map, and v0.70's coefficient-unique minimal edge extension with exact
-> `60/40/20/40` local quotient accounting.
+> map, v0.70's coefficient-unique minimal edge extension with exact
+> `60/40/20/40` local quotient accounting, and v0.71's exact separate
+> affine/edge cocycles plus killed direct identity.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
@@ -195,9 +200,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `-J_2D` target to a derivation. Preserve the exact nonlinear point-frame
 > cotangent lift, three-splitting cocycle and all-ten K77 presymplectic
 > transport; do not add a vertical B/T lift for point-trivialization descent.
-> Now lift the edge cells to the full labelled `Y14` boundary bundle and prove
-> tilted equivariance, overlap cocycle and global moment-map descent, or
-> source/action-select the physical boundary domain; only then open BFV,
+> Now construct the group-valued edge frame and dressed preboundary form on the
+> actual `H`-bundle, then relate it to the tilted affine one-form through an
+> owned differential, soldering/normal or inverse-domain map and prove global
+> moment-map/kernel descent; only then open BFV,
 > polarization and common-domain descent. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.

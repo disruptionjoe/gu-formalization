@@ -8,16 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.70; five
-distance/mapping-grade/evidence migrations; one scoped quotient added).** An
-ordinary scalar boundary counterterm cannot change the contact presymplectic
-form. The Dirichlet and zero-charge boundary horns remain unselected. A unique
-two-cell edge extension makes the all-ten K77 boundary gauge directions
-characteristic; the extended form has dimension/rank/kernel `60/40/20` and its
-conditional quotient has dimension/rank `40/40`. The global labelled `Y14`
-edge bundle, source/action-selected physical domain, tilted cocycle, full BFV,
-polarization and common domain remain open. Verdicts, global residue,
-P1/P2/P3, canon and public posture do not move.
+**Current Build/Compose result 2026-08-08 (ledger v0.71; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The exact
+source/repository tilted affine one-form cocycle and an ordinary group-valued
+boundary edge-frame cocycle each close on a noncommuting three-patch fixture.
+They are not the same object: the edge frame shifts by `xi`, while the affine
+one-form shifts by `D_A0 xi`; at the exact `A0=0` fixture, a constant nonzero
+`xi` kills a universal direct identification. No nonzero natural zero-order `GL(V)` contraction bridges the
+form degree without added geometry. The v0.70 local quotient remains exact,
+but a dressed preboundary form and typed global bridge remain open. Verdicts,
+residue, quotients, P1/P2/P3, canon and public posture do not move.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete

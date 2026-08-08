@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 tilted edge-bundle type bridge (2026-08-08)
+
+`conditional-build/selected-k77-tilted-edge-bundle-type-bridge-2026-08-08.md`
+proves exact noncommuting three-patch cocycles for both the tilted affine
+one-form and an ordinary group-valued boundary edge frame. A constant-`xi`
+witness and a zero-order naturality calculation kill their direct identity.
+The v0.70 local quotient remains exact; the dressed global preboundary bridge,
+BFV and common domain remain open. Ledger v0.71 moves no headline count.
+
 ## K77 minimal edge-mode reduction (2026-08-08)
 
 `conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`
