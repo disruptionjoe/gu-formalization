@@ -44,11 +44,41 @@ WHAT THIS DOES AND DOES NOT SAY ABOUT GU.
     not forced on (7,7) = M(128,R) -- not through Kramers producing balance.
   * It DOES isolate the load-bearing question, which is now sharp and cheap:
     DOES GU's J_quat ANTICOMMUTE OR COMMUTE WITH THE KREIN FORM K?
-    If it anticommutes, R3's balance is structural and the no-go is robust.
-    If it commutes, R3's balance has some other source and is not explained by
-    the quaternionic structure at all.
-    The repository records {K, chi} = 0 for the CHIRALITY operator, which is a
-    different object; the J_quat/K relation is not recorded anywhere found.
+
+ANSWERED 2026-08-08, FROM ALREADY-FILED DATA, AND THE CONJECTURE IS DEAD.
+
+  The efficient route was a specialist reframe: this is the METRIC-OPERATOR
+  UNIQUENESS problem of pseudo-Hermitian QM, where the positive metric (== C) is
+  determined only UP TO THE COMMUTANT of the dynamics.  So one never needs to
+  scan eigenspaces at all -- one asks a single algebraic question:
+  DOES THE COMMUTANT CONTAIN A K-ANTICOMMUTING ELEMENT?
+  Both inputs were already computed and needed no rerun:
+
+    [beta_S, J_quat] = 0.0e+00   tests/channel-swings/ch_qm_graded_quotient_toy.py
+      the Krein Gram COMMUTES with J_quat.  That probe states the theorem
+      itself: "J preserves the Krein sign, so an ANTIcommuting fundamental
+      symmetry is IMPOSSIBLE in (9,5)."
+      => GU is in the [J,K]=0 branch, which this certificate shows is the
+         UNBALANCED one.  J_quat CANNOT be the source of R3's balance.
+
+    {K, chi} = 0.00e+00          BIG-SWING-CONFORMAL-CLASS-BLOCKED.md:66
+      and "the entire enumerated native algebra lies in the chirality
+      commutant" (VG-V1).
+      => CHI commutes with the dynamics and ANTICOMMUTES with K.  That is
+         exactly the {.,K}=0 branch.  CHI IS THE SOURCE OF R3's BALANCE.
+
+  CONSEQUENCE, and it is negative for the conjecture: chi is the Clifford volume
+  element and exists in EVERY even dimension, so the mechanism is present on
+  BOTH horns.  R3's no-go is NOT a (9,5)/Kramers artifact and rerunning it on
+  (7,7) should reproduce the balance.  The Cl(7,7) contrast in that same probe
+  (J'^2 = +1, "no Kramers pairing") retires the KRAMERS wall on (7,7) -- but the
+  CHI wall is untouched by it, and the chi wall is the one that blocks C.
+
+  The theorem below therefore GENERALISES what the repository already proved for
+  chi ("{K,chi} = 0 forces Re tr(chi Pi_+) = 0 for EVERY admissible C"): the
+  operative condition is not chirality specifically, nor quaternionicity, but
+  ANY commutant element anticommuting with K.  The contrast case ([J,K] = 0,
+  informative signatures) is the part the repository had not stated.
 
   * CONTROL GAP IN R3, INDEPENDENT OF ALL THE ABOVE.  R3's stated control is
     "random K-self-adjoint", which is PT-BROKEN essentially always (reproduced
