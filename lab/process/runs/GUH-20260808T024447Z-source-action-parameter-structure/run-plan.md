@@ -1,6 +1,15 @@
 ---
 run_id: GUH-20260808T024447Z-source-action-parameter-structure
-status: planned
+status: test_a_complete__test_b_open
+completed_at_test_a: 2026-08-08T03:40:00Z
+result_test_a: explorations/declaration-viable-region-2026-08-07.md
+result_summary: "Test A was executed in its sharpened form (enumerate the viable
+  region rather than prove a floor). Outcome: ZERO of the five named tensions,
+  and zero in-row constraints, exclude any genesis option. |V| under internal
+  consistency alone is 1536 (10.58 bits) and falls to 96 (6.58 bits) only when
+  target physics is imposed -- 4.00 bits from the target, 0.00 from the theory.
+  The genesis set is not self-constraining, so the external datum includes the
+  target, which is booked nowhere. Test B (rank the quotients) was NOT run."
 repository: gu-formalization
 workflow: repo-progress-run
 mode: execute
