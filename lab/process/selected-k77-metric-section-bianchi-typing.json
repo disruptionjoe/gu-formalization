@@ -1,0 +1,74 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "TEN_METRIC_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__SELECTED_K77_EULER_COMPLEX_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "TEN_METRIC_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED",
+  "source_return": "SOURCE-CONFIRMS__METRIC_SECTION_RANK10_AND_DIFFEO_ORTHOGONAL_EINSTEIN_TARGET__SOURCE-SILENT__COMPLETE_RECEIVER_AND_SELECTED_K77_BV_COMPLEX",
+  "layer0": {
+    "base_motion": "rank-four graph tangent from delta x",
+    "metric_section_variation": "independent rank-ten delta g in Sym2 TstarX",
+    "field_gauge_orbit": "rank-four principal Lie-derivative image D_k",
+    "equation_identity": "rank-four Bianchi/Ward contraction W_k",
+    "physical_symbol_cohomology": "two null comparator classes after field and equation quotients",
+    "selected_k77_euler_complex": "not constructed"
+  },
+  "complete_receiver": {
+    "field_map_rank": 14,
+    "field_map_determinant": 1,
+    "base_motion_rank": 4,
+    "metric_motion_rank": 10,
+    "ordinary_pullback_conormal_rank": 0,
+    "complete_dual_conormal_rank": 10,
+    "conormal_retyped_as_metric_equations": true
+  },
+  "einstein_comparator": {
+    "timelike_ranks": {"diffeomorphism": 4, "einstein": 6, "bianchi": 4},
+    "spacelike_ranks": {"diffeomorphism": 4, "einstein": 6, "bianchi": 4},
+    "noncharacteristic_exact": true,
+    "null_ranks": {"diffeomorphism": 4, "einstein": 4, "bianchi": 4},
+    "null_field_cohomology_dimension": 2,
+    "null_equation_cohomology_dimension": 2,
+    "transverse_rotation_characteristic_polynomial": "lambda^2+4",
+    "selected_k77_operator_identified": false
+  },
+  "construction_disposition": {
+    "retain_metric_equations": true,
+    "full_conormal_bv_erasure": "REJECTED_AS_GR_PRESERVING_ROUTE",
+    "rank_four_diffeomorphism_bv_complex": "REQUIRED_NOT_BUILT",
+    "boundary_charge_fence": "LIVE"
+  },
+  "controls": {
+    "ordinary_pullback_as_metric_stationarity": "FIRED",
+    "complete_receiver_erases_conormal": "FIRED",
+    "full_conormal_as_gauge": "FIRED",
+    "dimension_only_helicity": "FIRED",
+    "sympy_composed_route": "58/58 PASS",
+    "independent_sage": "15/15 PASS"
+  },
+  "boundary": [
+    "selected K77 vertical Euler principal symbol",
+    "selected action diffeomorphism differential and Ward adjoint",
+    "noncharacteristic exactness and null cohomology comparison",
+    "boundary gauge class or edge modes",
+    "global tau_A0 BFV and common Green Krein domain"
+  ],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "headline_delta": "NONE",
+  "frontier_delta": {"conditions_closed": 3, "conditions_opened": 1, "remaining_named_conditions": 2},
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "scripts": [
+    "tests/channel-swings/selected_k77_metric_section_bianchi_typing_probe.py",
+    "tests/channel-swings/selected_k77_metric_section_bianchi_typing_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-metric-section-bianchi-typing-review.md",
+  "next_gate": "SELECTED_K77_VERTICAL_EULER_DIFFEO_WARD_COMPLEX_AND_EINSTEIN_COHOMOLOGY_COMPARISON__THEN_BOUNDARY_BFV_AND_COMMON_DOMAIN"
+}

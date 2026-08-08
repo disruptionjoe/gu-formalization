@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.79.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.79.md`.
+`lab/process/conditional-physics-ledger-v0.80.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.80.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -137,9 +137,12 @@ the owned global `P_H` law: independently recomputed seed and held-out banks,
 the complete observation dual, no-leakage projector and pairing pass direct
 and sequential noncommuting overlaps. Ledger v0.79 proves local holonomic
 jets, kills arbitrary-`X` Lorentz-section existence and kills ordinary-
-pullback faithfulness on the selected action. The next Build is the complete
-`4+10` equation system versus a source-derived conormal constraint/BV
-quotient, then global `tau_A0`/BFV and common-domain descent.
+pullback faithfulness on the selected action. Ledger v0.80 retypes the
+conormal ten as the independent metric-section Euler carrier. The exact
+Einstein comparator has noncharacteristic ranks `4,6,4`, null ranks `4,4,4`
+and two helicity classes, so full-conormal BV erasure is rejected. The next
+Build is the selected K77 vertical Euler/diffeomorphism/Ward complex, then
+boundary `tau_A0`/BFV and common-domain descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -214,9 +217,10 @@ all-ten `E_B-E_T` bank, lossless complete observation and local endpoint
 acceptance. v0.77 supplies the full pointwise coefficient bank and corrects
 the low-grade coefficient geometry. v0.78 closes the finite noncommuting
 action/complete-observation/no-leakage overlap law. v0.79 proves that ordinary
-pullback loses a live selected-action conormal Euler component. The complete
-`4+10` receiver or a source-derived conormal constraint/BV quotient must close
-before global BFV and common-domain descent. Generic
+pullback loses a live selected-action conormal Euler component. v0.80 retypes
+that component as a metric-section equation and narrows BV to the rank-four
+diffeomorphism/identity subcomplex. The selected K77 Euler/Ward comparison
+must close before global BFV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

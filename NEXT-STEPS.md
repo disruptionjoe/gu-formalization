@@ -12,14 +12,15 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.79 separates the old physical-section successor into its real
-> burdens. Local holonomic first/second jets exist, but spin does not imply a
-> Lorentz section on arbitrary `X` (`S^4` is the exact counterexample).
-> Ordinary pullback has rank four and a ten-dimensional conormal kernel, and
-> the selected augmented-torsion action emits a nonzero Euler covector into
-> that kernel. The next gate is therefore constructive: retain and physically
-> type the complete `4+10` equation system, or derive a source-owned conormal
-> constraint/BV quotient. Only then proceed to global `tau_A0`, BFV,
+> Ledger v0.80 resolves v0.79's receiver-versus-BV fork at Layer 0. The exact
+> complete dual sends the graph-conormal ten to the ten independent
+> metric-section Euler coordinates. The standard Einstein comparator has
+> noncharacteristic ranks `4 -> 6 -> 4` and null ranks `4 -> 4 -> 4`, with two
+> plus/cross cohomology classes carrying rotation polynomial `lambda^2+4`.
+> Thus BV/Bianchi is a rank-four gauge/identity subcomplex inside the retained
+> metric equations, not a rival that erases all ten. The next gate is to
+> construct the selected K77 vertical Euler/diffeomorphism/Ward complex and
+> compare it with that target. Only then proceed to boundary `tau_A0`/BFV,
 > polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
@@ -203,12 +204,20 @@ updated_at: "2026-08-08"
 > nonzero selected-action Euler witness. Ordinary pullback is therefore not
 > faithful on the displayed full local action domain.
 
-> **NEXT RUN: COMPLETE `4+10` VERSUS CONORMAL BV CONSTRAINT.** Classify the ten
-> vertical Euler equations retained by the complete receiver and test whether
-> the tilted Ward/BV complex instead supplies a differential whose image
-> removes exactly the conormal action sector. Do not book a quotient by naming
-> it. Symplectic review remains mandatory; global `tau_A0`/BFV and common
-> Green/Krein domain follow only after one horn closes.
+> **2026-08-08 METRIC-SECTION AND BIANCHI/BV TYPING (ledger v0.80).**
+> [`explorations/conditional-build/selected-k77-metric-section-bianchi-typing-2026-08-08.md`](explorations/conditional-build/selected-k77-metric-section-bianchi-typing-2026-08-08.md)
+> proves the conormal ten are the independent metric-section Euler coordinates,
+> rejects full-conormal BV erasure, and constructs the exact Einstein target
+> complex including its two null helicity classes. It does not identify the
+> selected K77 Euler operator with Einstein's.
+
+> **NEXT RUN: SELECTED K77 VERTICAL EULER/DIFFEO/WARD COMPLEX.** Differentiate
+> the selected action on all ten metric-section directions, including moving
+> Levi-Civita, Shiab/Hodge/frame, observation jets and augmented torsion.
+> Construct its actual rank-four diffeomorphism generator and Ward adjoint,
+> then compare noncharacteristic exactness and null cohomology with the
+> Einstein comparator. Symplectic review remains mandatory; boundary
+> `tau_A0`/BFV and common Green/Krein domain follow only after that comparison.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

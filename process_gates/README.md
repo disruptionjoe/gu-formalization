@@ -2145,6 +2145,17 @@ in that kernel. It preserves the complete `4+10` receiver while forbidding a
 sixth quotient, physical vertical-field interpretation, global BFV/domain,
 P1/P2/P3, canon or public-posture promotion.
 
+## K77 metric-section/Bianchi typing v0.80 gate
+
+`selected_k77_metric_section_bianchi_typing_scope_audit.py` requires the
+complete field/equation dual to retain all ten graph-conormal directions as
+independent metric-section Euler coordinates. It rejects erasing that entire
+ten-dimensional sector as “BV,” and separately requires the standard
+linearized Einstein comparator complex to be exact at noncharacteristic
+covectors and to carry a two-dimensional null helicity-two cohomology. The
+actual selected K77 vertical Euler/Ward symbol, global BFV/domain,
+P1/P2/P3, canon and public posture remain open.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

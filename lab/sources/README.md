@@ -102,6 +102,11 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`selected-k77-metric-section-bianchi-source-reinspection-2026-08-08.md`](selected-k77-metric-section-bianchi-source-reinspection-2026-08-08.md)
+  - confirms the source's rank-ten metric-section carrier and
+    diffeomorphism-orthogonal Einstein target while preserving silence on the
+    complete receiver and selected K77 BV/Euler complex.
+
 - [`selected-k77-physical-section-source-reinspection-2026-08-08.md`](selected-k77-physical-section-source-reinspection-2026-08-08.md)
   - separates local observation-section/pullback grammar from arbitrary-`X`
     global Lorentz-section existence and faithful Euler reception. The 2025

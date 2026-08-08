@@ -40,9 +40,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > sequential noncommuting overlaps, as do the co-moving complete equation
 > dual, no-leakage projector and pairing. Ledger v0.79 then proves local
 > holonomic first/second jets but kills arbitrary-`X` Lorentz-section existence
-> and ordinary-pullback faithfulness on the selected action. The next Build is
-> the complete `4+10` equation system versus a source-derived conormal
-> constraint/BV quotient, then global `tau_A0`/BFV and common domain.
+> and ordinary-pullback faithfulness on the selected action. Ledger v0.80
+> retypes the conormal ten as independent metric-section Euler equations and
+> rejects full-conormal BV erasure: the Einstein comparator has exact ranks
+> `4,6,4` off the null cone and two helicity classes on it. The next Build is
+> the selected K77 vertical Euler/diffeomorphism/Ward complex, then boundary
+> `tau_A0`/BFV and common domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
@@ -103,8 +106,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > coefficient-fibre extension and corrects the pairing geometry. v0.78 closes
 > the finite noncommuting associated-bundle/complete-observation/projector
 > overlap law. v0.79 proves that the selected action has a live conormal Euler
-> component hidden by ordinary pullback; the complete `4+10` receiver or a
-> source-derived conormal constraint/BV quotient remains open.
+> component hidden by ordinary pullback. v0.80 proves that this conormal ten is
+> the retained metric-section equation carrier and that BV/Bianchi may remove
+> or constrain only its rank-four diffeomorphism/identity subcomplex. The
+> selected K77 Euler/Ward realization remains open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -230,8 +235,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > pointwise coefficient/support correction, and v0.78's exact noncommuting
 > action/complete-observation/no-leakage overlap law. Preserve v0.79's
 > admissible-`X` topology fence, local holonomic jet, rank-ten conormal kernel
-> and live action witness. Construct the complete `4+10` equation horn or a
-> source-derived conormal constraint/BV quotient rather than fitting a receiver.
+> and live action witness. Preserve v0.80's complete-receiver retyping, exact
+> Einstein comparator and rejection of full-conormal BV erasure. Construct the
+> selected K77 ten-dimensional vertical Euler operator plus rank-four
+> diffeomorphism/Ward complex rather than fitting or deleting a receiver.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null

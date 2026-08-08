@@ -15,13 +15,18 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.79. Local holonomic
-observation-section jets are exact, but arbitrary-`X` Lorentz-section
-existence is false. Ordinary pullback has rank four and a rank-ten conormal
-kernel hit by a nonzero selected augmented-torsion Euler covector. The complete
-`4+10` receiver survives; the next gate is to type its ten vertical equations
-or derive a source-owned conormal constraint/BV quotient. See
-`selected-k77-physical-section-faithfulness-gate.json`.
+Current append-only progress surface: ledger v0.80. The complete equation dual
+retypes the graph-conormal ten as independent metric-section Euler equations.
+The exact Einstein comparator has noncharacteristic ranks `4,6,4`, null ranks
+`4,4,4`, and two helicity classes. Full-conormal BV erasure is rejected; the
+next gate is the selected K77 vertical Euler/diffeomorphism/Ward complex and
+its Einstein-cohomology comparison. See
+`selected-k77-metric-section-bianchi-typing.json`.
+
+Predecessor append-only progress surface: ledger v0.79. Local holonomic
+observation jets survive, arbitrary-`X` Lorentz sections and ordinary-pullback
+faithfulness do not, and the complete receiver detects the live conormal
+action equation.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -140,9 +145,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.79.json` - current append-only conditional
-  physics ledger after separating local holonomicity, global Lorentz-section
-  admissibility and ordinary-pullback faithfulness on the selected action.
+- `conditional-physics-ledger-v0.80.json` - current append-only conditional
+  physics ledger; retains ten metric-section equations, rejects full-conormal
+  BV erasure, and makes the selected K77 Euler/diffeomorphism/Ward complex
+  primary.
+- `selected-k77-metric-section-bianchi-typing.json` - exact complete-receiver
+  retyping, Einstein comparator ranks/cohomology, scope fences and next gate.
 - `selected-k77-physical-section-faithfulness-gate.json` - records the spin
   `S4` counterexample, exact rank `4+10` split, live conormal action witness and
   the complete-receiver/source-derived-BV construction fork.

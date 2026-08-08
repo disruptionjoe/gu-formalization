@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 metric-section and Bianchi/BV typing (2026-08-08)
+
+`conditional-build/selected-k77-metric-section-bianchi-typing-2026-08-08.md`
+retypes the graph-conormal ten as independent metric-section Euler equations.
+The exact Einstein comparator has noncharacteristic ranks `4,6,4`, null ranks
+`4,4,4`, and two plus/cross helicity classes. Full-conormal BV erasure is
+rejected; the selected K77 vertical Euler/diffeomorphism/Ward comparison is the
+next gate. Ledger v0.80 moves no headline count or quotient.
+
 ## K77 physical observation section and faithfulness (2026-08-08)
 
 `conditional-build/selected-k77-physical-section-faithfulness-gate-2026-08-08.md`

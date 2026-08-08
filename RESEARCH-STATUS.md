@@ -8,18 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.79; five
-distance/mapping-grade/evidence migrations; headline unchanged).** Local
-holonomic observation-section first/second jets are exact, but spin does not
-imply a global Lorentz section on arbitrary `X`: spin `S^4` has `chi=2` and no
-such section. On every admitted graph section ordinary pullback has rank four
-and a ten-dimensional conormal kernel. The selected augmented-torsion action
-emits a nonzero Euler covector into that same kernel, so holonomicity cannot
-make ordinary pullback faithful on the displayed full local action domain.
-The exact complete `4+10` receiver survives. The next gate must either
-physically type its ten vertical equations or derive a source-owned conormal
-constraint/BV quotient. Verdicts, residue, five quotients, P1/P2/P3, canon and
-public posture do not move.
+**Current Build/Compose result 2026-08-08 (ledger v0.80; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The exact
+complete equation dual sends the graph-conormal ten to the ten independent
+metric-section Euler coordinates. The standard linearized Einstein comparator
+has exact timelike/spacelike ranks `4,6,4`, null ranks `4,4,4`, two field and
+equation cohomology classes, and an explicit plus/cross rotation polynomial
+`lambda^2+4`. A GR-preserving BV/Bianchi construction therefore owns a
+rank-four gauge/identity subcomplex inside the retained ten equations; erasing
+all ten is rejected. The selected K77 vertical Euler/diffeomorphism/Ward
+complex remains unbuilt and is not identified with Einstein's. Verdicts,
+residue, five quotients, P1/P2/P3, canon and public posture do not move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.79).** Local
+holonomic observation jets survive, arbitrary-`X` Lorentz-section existence
+and ordinary-pullback faithfulness do not, and the complete receiver detects a
+live selected-action conormal Euler covector. v0.80 physically retypes that
+ten-dimensional sector.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.78).** The full action
 covector, complete observation equation dual, co-moving no-leakage projector
