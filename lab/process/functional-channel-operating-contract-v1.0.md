@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.61.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.61.md`.
+`lab/process/conditional-physics-ledger-v0.62.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.62.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -43,7 +43,7 @@ source-owned full labelled reduction: its stabilizer is central `U(1)` with
 trivial adjoint action, so the paired full-reduction graph is basic. The
 forgetful-plane failure remains exact.
 
-Ledger v0.61 now replaces v0.60's curvature-only graph with the unique inverse
+Ledger v0.61 replaces v0.60's curvature-only graph with the unique inverse
 of the full source response on the predeclared K77 `Cl1+Cl2` tangent. The
 domain has dimension 1,470, the finite output support has 4,330 coordinates,
 and the response has rank 1,470 and nullity zero. All four conditional
@@ -52,6 +52,15 @@ with the full labelled reduction. The source owns the response but is silent
 on the targets, so this is a zero-local-freedom conditional construction, not
 a derivation or prediction. Keep the labelled ambient `(6,6)` screen distinct
 from the separate 4D `10 -> 6 -> 2` physical null quotient.
+
+Ledger v0.62 extends that inverse to the retained labelled null covector. The
+null response remains rank 1,470/nullity zero in 6,530 output coordinates,
+all four conditional targets solve uniquely, and one conormal graph derivative
+closes exactly. The source principal symbol has rank 650/nullity 820 and is
+nonzero on the graph family. This proves boundary sensitivity, not a Green or
+symplectic current. The next Build must construct the paired `(Upsilon,Xi)`
+action/equation dual, invariant density/Krein Green pairing and remaining
+moving observation/Hodge/Shiab/target jets before reduced symplectic descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -67,11 +76,10 @@ four and zero coefficient freedom at fixed background. The full-frame graph
 extension is exact. The source-owned labelled reduction makes the paired map
 basic modulo its central stabilizer; forgetting it to the horizontal plane
 fails. Exact Spencer uniqueness closes the three-dimensional invariant-Hom
-replacement horn for these targets. Preserve v0.61's unique all-grade graph,
-full Bianchi and labelled screen. Insert that graph into the selected
-first-order action and derive the observation Euler covector and preboundary
-current before any reduced symplectic or physical result. Symplectic review
-remains mandatory.
+replacement horn for these targets. Preserve v0.62's labelled-null all-grade
+graph, conormal derivative, full Bianchi and labelled screen. Construct the
+paired action/equation dual and invariant Green current before any reduced
+symplectic or physical result. Symplectic review remains mandatory.
 
 Current transverse-owner correction: “connection curvature is `q`-exact” is a
 principal-symbol theorem, not a no-go for the nonzero-background algebraic
@@ -86,7 +94,7 @@ Retain the reduction through total raw-`Upsilon` Bianchi/naturality and the null
 screen before Euler or physical quotient claims.
 
 Current accounting and priority decision:
-`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.61
+`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.62
 has 84 immutable row records and 82 active canonical targets. The two-record
 difference is exactly the retained historical predecessors `LT-GR2` and
 `AC-G1`; their typed successors own the active meter. Do not count append-only
@@ -100,9 +108,10 @@ plane forgetful quotient still fails, and no invariant-Hom replacement
 reproduces the targets. The subsequent full Bianchi and labelled ambient null
 screen pass. The full raw-`Upsilon` response now has a unique conditional
 all-grade inverse with no new local coefficient, while derivation of its
-physical target remains open. Next derive the observation Euler covector and
-preboundary current. Only that survivor may advance to reduced symplectic, BV
-and common-domain descent. Generic
+physical target remains open. The labelled-null graph and one conormal
+derivative now pass, and the live rank-650 symbol exposes the remaining paired
+action/Green owner. Only a paired Euler/preboundary survivor may advance to
+reduced symplectic, BV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

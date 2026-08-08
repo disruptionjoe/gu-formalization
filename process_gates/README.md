@@ -1964,3 +1964,13 @@ and paired labelled-frame descent. It keeps the source-silent `-J_2D` target,
 2,860-dimensional compatibility cokernel, zero local predictive surplus, and
 open Euler/preboundary/symplectic gate separately typed while freezing
 verdicts, residue, quotients, datum, canon and posture.
+
+## K77 labelled-null observation-jet Euler/preboundary sufficiency v0.62 gate
+
+`selected_k77_observation_jet_euler_preboundary_scope_audit.py` requires the
+labelled-null response rank 1,470/nullity zero, four unique null lifts, one
+exact conormal graph derivative, and the live rank-650/nullity-820 source
+principal symbol. It keeps the symbol distinct from the invariant Green
+current, requires the paired `(Upsilon,Xi)` action/equation dual to remain
+open, includes the mandatory symplectic fence, and freezes verdicts, residue,
+quotients, P1/P2/P3, canon and posture.

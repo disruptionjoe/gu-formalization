@@ -8,17 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-07 (ledger v0.61; five
-distance/mapping-grade/evidence migrations).** On the predeclared
-1,470-dimensional K77 `Cl1+Cl2` source tangent, the full source-written
-raw-`Upsilon` response has exact rank 1,470, nullity zero and a
-4,330-coordinate output support. All four conditional `-J_2D` targets have
-unique all-grade lifts with supports `71,48,48,48`; full Bianchi and paired
-labelled-frame descent pass. The source owns the response but is silent on the
-targets, so this is a zero-local-freedom conditional construction rather than
-a derivation. Next derive the observation Euler covector and preboundary
-current before reduced symplectic descent. No verdict, residue, quotient,
-datum, canon or public-posture change follows.
+**Current Build/Compose result 2026-08-07 (ledger v0.62; five
+distance/mapping-grade/evidence migrations).** The full K77 source response
+remains rank 1,470/nullity zero at the retained labelled null covector, now in
+6,530 output coordinates. All four conditional targets have unique supports
+`103,84,73,73`, and one conormal graph derivative closes exactly with supports
+`30,37,29,29`. The source principal symbol has rank 650/nullity 820 and is
+nonzero on the four-column graph, so the Green owner is genuinely live. The
+source first variation is the paired object `(Upsilon,Xi)`; the invariant
+action/equation dual and moving-observation Green identity remain open. No
+verdict, residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-07 (ledger v0.61; five
+distance/mapping-grade/evidence migrations).** The predeclared 1,470-dimensional
+K77 `Cl1+Cl2` response has a unique all-grade inverse at the frozen non-null
+covector and preserves full Bianchi and labelled-frame descent. v0.62 extends
+that result to the labelled null covector and one conormal derivative.
 
 **Predecessor Build/Compose result 2026-08-07 (ledger v0.60; five
 distance/mapping-grade/evidence migrations).** The parity-complete corrected

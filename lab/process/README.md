@@ -15,13 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.61. The full raw-`Upsilon`
-response on the predeclared 1,470-dimensional K77 `Cl1+Cl2` tangent has rank
-1,470 and nullity zero in a 4,330-coordinate output support. All four
-conditional targets have unique all-grade lifts and preserve full Bianchi and
-labelled-frame descent. The target is not derived; next is observation
-Euler/preboundary and symplectic descent. See
-`selected-k77-coupled-all-grade-upsilon-graph.json`.
+Current append-only progress surface: ledger v0.62. The full response remains
+rank 1,470/nullity zero at the retained labelled null covector, all four
+conditional targets have unique lifts, and one conormal graph derivative is
+exact. The source principal symbol is rank 650/nullity 820 and boundary-live.
+The paired `Upsilon/Xi` action/equation dual and invariant Green current remain
+open. See `selected-k77-observation-jet-euler-preboundary-sufficiency.json`.
+
+Predecessor append-only progress surface: ledger v0.61. The frozen non-null
+full raw-`Upsilon` response has a unique all-grade inverse and preserves full
+Bianchi and labelled-frame descent.
 
 Predecessor append-only progress surface: ledger v0.60. The complete source
 tangent satisfies full Bianchi and supplies the labelled ambient rank-12

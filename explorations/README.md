@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 labelled-null graph and Euler/preboundary sufficiency (2026-08-07)
+
+`conditional-build/selected-k77-observation-jet-euler-preboundary-sufficiency-2026-08-07.md`
+extends the full response graph to the retained labelled null covector and one
+exact conormal derivative. The null response remains rank 1,470/nullity zero;
+the source principal symbol has rank 650 and is nonzero on the graph family.
+Ledger v0.62 therefore routes the next Build to the paired `Upsilon/Xi`
+action/equation dual and invariant moving-observation Green identity. It does
+not promote the principal symbol to a symplectic current.
+
 ## K77 coupled all-grade raw-Upsilon graph (2026-08-07)
 
 `conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md`

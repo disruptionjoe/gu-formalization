@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (403 Python + 30 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 coupled all-grade raw-`Upsilon` graph probe and ledger-v0.61 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (405 Python + 30 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 labelled-null observation-jet/Euler-preboundary sufficiency probe and ledger-v0.62 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -1851,4 +1851,19 @@ UV_CACHE_DIR=/private/tmp/gu-uv-cache uv run --with sympy==1.14.0 python \
   tests/channel-swings/selected_second_layer_shiab_inverse_bianchi_completion_probe.py
 PYTHONDONTWRITEBYTECODE=1 ./_local/cas-venv/bin/python \
   tests/channel-swings/conditional_physics_ledger_v047_probe.py
+```
+
+## K77 labelled-null observation-jet Euler/preboundary sufficiency and ledger v0.62
+
+`channel-swings/selected_k77_observation_jet_euler_preboundary_sufficiency_probe.py`
+recomputes the exact full response at the retained labelled null covector,
+constructs one conormal graph derivative and measures the rank-650 source
+principal symbol without promoting it to a Green or symplectic current. The
+ledger probe migrates exactly five rows while freezing verdicts, residue, four
+scoped quotients and P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python \
+  tests/channel-swings/selected_k77_observation_jet_euler_preboundary_sufficiency_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v062_probe.py
 ```

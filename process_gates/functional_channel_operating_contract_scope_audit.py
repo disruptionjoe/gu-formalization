@@ -222,7 +222,7 @@ assert "SOURCE-CONFIRMS" in directive["source_return"] and "SOURCE-SILENT" in di
 assert directive["release_condition_met"] is True
 assert directive["successor_rows"] == ["LT-GR2a", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR2e"]
 next_method = directive["next_run_method"]
-assert next_method["target"] == "OBSERVATION_SECTION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT_ON_UNIQUE_ALL_GRADE_GRAPH_AND_LABELLED_NULL_SCREEN"
+assert next_method["target"] == "PAIRED_UPSILON_XI_ACTION_DUAL_AND_MOVING_HODGE_OBSERVATION_GREEN_IDENTITY"
 assert "PRESERVE_THE_PRINCIPAL_CONNECTION_Q_EXACT_CLASS_AND_THE_UNRESTRICTED_CARTAN_SPENCER_TRANSVERSE117_CARRIER_OWNER" in next_method["ordered_steps"]
 assert "PRESERVE_SELECTED_FA_STAR_T_STAR_AND_THE_ZERO_INVARIANT_BRANCH_TANGENT_OPERATOR_PACKET" in next_method["ordered_steps"]
 assert "PRESERVE_THE_LEVI_CIVITA_TORSION_FREE_SUBCLASS_QEXACT_TRANSVERSE_INTERSECTION_ZERO" in next_method["ordered_steps"]
@@ -233,6 +233,9 @@ assert "PRESERVE_FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS__DO_NOT_REDUCE_TO_
 assert "PRESERVE_LABELLED_AMBIENT_NULL_SCREEN_RANK12_SIGNATURE6_6__DO_NOT_IDENTIFY_WITH_4D_10_TO_6_TO_2_PHYSICAL_QUOTIENT" in next_method["ordered_steps"]
 assert "PRESERVE_THE_UNIQUE_FULL_RAW_UPSILON_RESPONSE_INVERSE_ON_DOMAIN1470_OUTPUT_SUPPORT4330_RANK1470_NULLITY0__DO_NOT_RESTORE_OLD_CURVATURE_ONLY_LIFTS" in next_method["ordered_steps"]
 assert "PRESERVE_THE_CONDITIONAL_MINUS_J2D_TARGET_AS_SOURCE_SILENT__DO_NOT_PROMOTE_GRAPH_INVERSION_TO_TARGET_DERIVATION" in next_method["ordered_steps"]
+assert "PRESERVE_THE_EXACT_LABELLED_NULL_GRAPH_RANK1470_OUTPUT6530_AND_Q_DIRECTION_CONORMAL_PROLONGATION__DO_NOT_FREEZE_THE_NONNULL_GRAPH" in next_method["ordered_steps"]
+assert "PRESERVE_THE_RANK650_SOURCE_PRINCIPAL_SYMBOL_AS_BOUNDARY_SENSITIVITY__DO_NOT_CALL_IT_A_GREEN_OR_SYMPLECTIC_CURRENT" in next_method["ordered_steps"]
+assert "CONSTRUCT_THE_PAIRED_UPSILON_XI_ACTION_EQUATION_DUAL_AND_INVARIANT_DENSITY_KREIN_GREEN_PAIRING" in next_method["ordered_steps"]
 assert "DERIVE_THE_OBSERVATION_EULER_COVECTOR_AND_PREBOUNDARY_CURRENT_BEFORE_ANY_REDUCED_SYMPLECTIC_CLAIM" in next_method["ordered_steps"]
 assert next_method["exact_computation_policy"].startswith("REPRESENTATION_BLOCKED_SPARSE_EXACT_FIRST")
 assert next_method["mandatory_reviews"] == [
@@ -246,10 +249,10 @@ assert len(set(directive["required_layer0_objects"])) == 7
 assert "LITERAL_CONSTANT_LAMBDA_G" in directive["required_layer0_objects"]
 assert "VARIABLE_OLIVE_VARPI_AUGMENTED_TORSION_VEV" in directive["required_layer0_objects"]
 assert directive["forbidden_collapse"] == "EINSTEIN_RECOVERY_DOES_NOT_IMPLY_DYNAMIC_COSMOLOGICAL_SECTOR_RECOVERY"
-assert "OBSERVATION_SECTION_EULER_PREBOUNDARY_SYMPLECTIC_DESCENT" in directive["next_gate"]
-assert "FULL_LINEARIZED_SUPERCONNECTION_BIANCHI_PASS" in directive["latest_correction_evidence"]
-assert "FULL_RAW_UPSILON_RESPONSE_DOMAIN1470_OUTPUT_SUPPORT4330" in directive["latest_correction_evidence"]
-assert "ZERO_LOCAL_PREDICTIVE_SURPLUS" in directive["latest_correction_evidence"]
+assert "PAIRED_UPSILON_XI_ACTION_DUAL" in directive["next_gate"]
+assert "K77_LABELLED_NULL_FULL_RESPONSE_DOMAIN1470_OUTPUT_SUPPORT6530" in directive["latest_correction_evidence"]
+assert "PRINCIPAL_SYMBOL_RANK650_NULLITY820" in directive["latest_correction_evidence"]
+assert "EQUATION_DUAL_GREEN_PAIRING_SOURCE_SILENT" in directive["latest_correction_evidence"]
 assert "ONLY_AFTER_COMPLETE_QUOTIENT_OPEN_COMMON_KREIN_DOMAIN_AND_ODD_BV_BFV" in next_method["ordered_steps"]
 assert "FINITE_TREE_SPECTRAL_KREIN_MAJORANT_POSITIVE" in directive["current_evidence_boundary"]
 assert "NO_MULTIPLICATIVE_SCALAR_SIGN_EXTENDS_FREE_P" in directive["current_evidence_boundary"]
@@ -378,4 +381,4 @@ assert set(contract["non_effects"]) >= {
     "NO_EXTERNAL_P1_P2_P3_CHANGE", "NO_PUBLIC_POSTURE_CHANGE"
 }
 
-print("PASS: functional channels type 84 immutable records versus 82 active targets and route the unique conditional all-grade raw-Upsilon graph -> observation Euler/preboundary/symplectic descent with D2 disjoint")
+print("PASS: functional channels type 84 immutable records versus 82 active targets and route the exact labelled-null graph -> paired Upsilon/Xi action dual and moving-observation Green identity with D2 disjoint")

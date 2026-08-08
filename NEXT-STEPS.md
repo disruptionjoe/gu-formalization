@@ -12,12 +12,13 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.61 constructs the unique all-grade inverse of the full
-> raw-`Upsilon` response on the predeclared 1,470-dimensional K77 `Cl1+Cl2`
-> tangent. The output support has 4,330 coordinates, rank is 1,470 and nullity
-> zero. All four conditional targets solve with full Bianchi and labelled-frame
-> descent, but the source does not derive those targets. The remaining sequence
-> is observation Euler/preboundary, BV and symplectic descent.
+> Ledger v0.62 carries the unique all-grade response to the retained labelled
+> null covector. The null response has rank 1,470 and nullity zero in 6,530
+> output coordinates; all four conditional targets solve uniquely, and one
+> conormal graph derivative closes exactly. The source principal symbol has
+> rank 650 and is live on all four graph columns. The remaining sequence is the
+> paired `Upsilon/Xi` action/equation dual, moving-observation Green identity,
+> then reduced symplectic/BV/common-domain descent.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -64,12 +65,20 @@ updated_at: "2026-08-07"
 > coefficient surplus is zero. Source ownership stops at the response; the
 > `-J_2D` targets remain conditional.
 
-> **NEXT RUN: OBSERVATION EULER AND PREBOUNDARY.** Insert the unique all-grade
-> graph into the selected first-order action and vary the observation section,
-> connection, soldering, full labelled reduction and reciprocal null label
-> together. Derive the Euler covector and preboundary current before any
-> reduced symplectic, BV/BFV or common-domain promotion. Symplectic review is
-> mandatory.
+> **2026-08-07 LABELLED-NULL GRAPH AND CONORMAL PROLONGATION (ledger v0.62).**
+> [`explorations/conditional-build/selected-k77-observation-jet-euler-preboundary-sufficiency-2026-08-07.md`](explorations/conditional-build/selected-k77-observation-jet-euler-preboundary-sufficiency-2026-08-07.md)
+> proves the full response stays injective at the retained labelled null
+> covector, constructs four unique null lifts and one exact conormal graph
+> derivative, and measures the source principal symbol at rank 650/nullity 820.
+> Boundary sensitivity is live, but the source first variation is the paired
+> object `(Upsilon,Xi)` and the invariant Green/equation-dual owner is open.
+
+> **NEXT RUN: PAIRED ACTION DUAL AND MOVING-OBSERVATION GREEN IDENTITY.** Build
+> the paired `Upsilon/Xi` action/equation dual and invariant density/Krein
+> Green pairing, then vary Hodge, Shiab, background, target, metric section,
+> labelled reduction and reciprocal null label together. No reduced
+> symplectic, BV/BFV or common-domain promotion precedes that construction.
+> Symplectic review is mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)
