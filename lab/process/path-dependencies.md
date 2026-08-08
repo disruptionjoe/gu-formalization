@@ -30,6 +30,8 @@ graph TD
   PD_SIGNATURE_PARITY_chk -.-> PD_SIGNATURE_PARITY_t1
   PD_SIGNATURE_PARITY_t2("TRAP 2026-08-08")
   PD_SIGNATURE_PARITY_chk -.-> PD_SIGNATURE_PARITY_t2
+  PD_SIGNATURE_PARITY_t3("TRAP 2026-08-08")
+  PD_SIGNATURE_PARITY_chk -.-> PD_SIGNATURE_PARITY_t3
   PD_GHOST_PARITY["PD-GHOST-PARITY"]
   PD_GHOST_PARITY_s0["THEOREM: Bender-Mannheim's C and Turok-Bateman's ghost parity are the SAME operator ..."]
   PD_GHOST_PARITY --> PD_GHOST_PARITY_s0
@@ -120,6 +122,9 @@ graph TD
 - **2026-08-08** — M-H9 was named as the fork's resolver while being built on a COMPLEXIFIED Racah-Speiser module. Cl(p,q) (x) C depends only on p+q, so both horns give M(128,C) -- the module was PROVABLY incapable of discriminating, and returned bit-identical output on both horns.
   - *Cost:* A named resolver that could never have worked; falsified at Tier 1.
   - *Receipt:* `explorations/mh9-tier1-mechanism-falsified-2026-08-08.md`
+- **2026-08-08** — The Majorana-Weyl candidate called the (6,4) fibre "pinned" because G(-g)=G(g), but the certificate fixes lambda=1/2 and a trace sign. Base-sign invariance at that input does not derive the coefficient or trace-sign choice; the TT criterion used to prefer the sign is an imported physical input.
+  - *Cost:* Nearly promoted a sound conditional implication into a resolver for the highest-fan-out fork by moving the convention one level upstream.
+  - *Receipt:* `lab/process/hostile-reviews/2026-08-08-majorana-weyl-conditional-resolver-review.md`
 
 **Invalidates if:** The generation count is shown NOT to be the index whose parity Kramers constrains; or a mechanism supplies the odd '+1' outside the Kramers- constrained sector.
 

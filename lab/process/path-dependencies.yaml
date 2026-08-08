@@ -85,6 +85,17 @@ chains:
           discriminating, and returned bit-identical output on both horns.
         cost: "A named resolver that could never have worked; falsified at Tier 1."
         receipt: explorations/mh9-tier1-mechanism-falsified-2026-08-08.md
+      - date: 2026-08-08
+        what: >-
+          The Majorana-Weyl candidate called the (6,4) fibre "pinned" because
+          G(-g)=G(g), but the certificate fixes lambda=1/2 and a trace sign.
+          Base-sign invariance at that input does not derive the coefficient or
+          trace-sign choice; the TT criterion used to prefer the sign is an
+          imported physical input.
+        cost: >-
+          Nearly promoted a sound conditional implication into a resolver for
+          the highest-fan-out fork by moving the convention one level upstream.
+        receipt: lab/process/hostile-reviews/2026-08-08-majorana-weyl-conditional-resolver-review.md
     invalidates_if: >-
       The generation count is shown NOT to be the index whose parity Kramers
       constrains; or a mechanism supplies the odd '+1' outside the Kramers-
