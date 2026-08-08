@@ -11,8 +11,8 @@
 #   headline      one line: the thing that is easy to get wrong
 #   trigger       the situation an agent is in when this becomes load-bearing
 #   naive         what a competent agent would reasonably assume, and why
-#   chain         ordered steps. each: fact, grade, receipt
-#                 grade: EXACT | THEOREM | AUTHOR-STATED | CONDITIONAL | OPEN
+#   chain         ordered steps. each: fact, evidence, receipt
+#                 evidence: EXACT | THEOREM | AUTHOR-STATED | CONDITIONAL | OPEN
 #   check         what to actually do
 #   traps         mistakes ACTUALLY made, with date. not hypotheticals.
 #                 this is the field that earns the file its keep.
@@ -40,22 +40,22 @@ chains:
       The two are not real-isomorphic and the reality type is observable.
     chain:
       - fact: "The DeWitt fibre form is (6,4), and this is INDEPENDENT of the base sign: G(-g) = G(g) exactly."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/signature_fork_equivariance_defect.py
       - fact: "So the base sign alone moves the ambient: (3,1)->(9,5), (1,3)->(7,7)."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/signature_fork_equivariance_defect.py
       - fact: "Cl(9,5) = M(64,H) quaternionic; Cl(7,7) = M(128,R) real. Not real-isomorphic."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/majorana_weyl_forces_the_seven_seven_horn.py
       - fact: "Majorana-Weyl exists iff p-q = 0 mod 8. Of the reachable horns only (7,7) qualifies."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/majorana_weyl_forces_the_seven_seven_horn.py
       - fact: "Quaternionic structure forces Kramers doubling, hence EVEN multiplicity."
-        grade: THEOREM
+        evidence: THEOREM
         receipt: canon/no-go-quaternionic-parity-generation-sector.md
       - fact: "Three generations is ODD. So (9,5) structurally forbids the target; (7,7) permits it."
-        grade: CONDITIONAL
+        evidence: CONDITIONAL
         receipt: explorations/twentyfive-lens-council-on-the-signature-decision-2026-08-08.md
     check: >-
       State which horn the work stands on. If Cl(9,5), say so and say whether the
@@ -105,22 +105,22 @@ chains:
       spectral C is not.
     chain:
       - fact: "Bender-Mannheim's C and Turok-Bateman's ghost parity are the SAME operator on the simple-spectrum domain (||C - P_ghost|| -> 3e-8)."
-        grade: THEOREM
+        evidence: THEOREM
         receipt: explorations/big-swing-2026-07-06/BIG-SWING-CONFORMAL-CLASS-BLOCKED.md
       - fact: "They come APART at spectral degeneracies, where C exists but is NOT unique."
-        grade: THEOREM
+        evidence: THEOREM
         receipt: explorations/big-swing-2026-07-06/VG-V4-quantize-break-commuting-square.md
       - fact: "At the degenerate point the KINEMATIC parity is exactly well-defined ([P_tot, H(0)] = 0.0e+00) while the spectral C dies."
-        grade: EXACT
+        evidence: EXACT
         receipt: explorations/big-swing-2026-07-06/VG-V4-quantize-break-commuting-square.md
       - fact: "R3's balance is caused by CHI, not by quaternionic structure: {K,chi} = 0 exactly, and the whole native algebra lies in the chirality commutant."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
       - fact: "Balance requires ANTIcommutation with K. Kramers alone gives only EVENNESS. GU's J_quat COMMUTES with the Krein Gram ([beta_S, J_quat] = 0.0e+00)."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
       - fact: "chi is the Clifford volume element and exists in every even dimension, so the chi wall is NOT horn-specific."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/krein_parity_dichotomy_jk_anticommutation.py
     check: >-
       Before citing R3 as a blocker, ask: is the claim SPECTRAL or KINEMATIC?
@@ -159,19 +159,19 @@ chains:
       only one is authorial.
     chain:
       - fact: "Curt states raw (3,7), traceless (3,6), flipped (4,6). The repository computes (7,3), (6,3), (6,4). Exact mirrors, three for three."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/source_signature_notation_is_mirrored.py
       - fact: "The mirror is FORCED, not inferred: all three forms are even in A = g^-1 B, so they are bit-identical at every base sign. Curt's pairs are unreachable by any base choice."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/source_signature_notation_is_mirrored.py
       - fact: "So Curt writes (negatives, positives). His blocks (4,6)+(1,3) = (5,9) == the repository's (9,5). His ASSERTED (7,7) does not follow from them."
-        grade: EXACT
+        evidence: EXACT
         receipt: explorations/source-signature-notation-is-mirrored-2026-08-08.md
       - fact: "The 2021 draft eq (12.19) prints TY^{7,7} = TX^{1,3} + N^{6,4}: base, fibre and total in ONE equation, one notation, summing correctly."
-        grade: AUTHOR-STATED
+        evidence: AUTHOR-STATED
         receipt: lab/sources/gu-2021-draft-s11-s12-extraction-2026-08-03.md
       - fact: "Weinstein independently fixes the base at (1,3) in his own voice and gives a criterion for the trace sign (Pati-Salam Spin(6)xSpin(4))."
-        grade: AUTHOR-STATED
+        evidence: AUTHOR-STATED
         receipt: lab/sources/curt-iceberg-77-primary-transcript-fetch-2026-08-08.md
     check: >-
       Declare plus-first or negatives-first before adding any signature pair.
@@ -215,16 +215,16 @@ chains:
       dispositions were proposed off ONE correct fact and all three were wrong.
     chain:
       - fact: "The declared-base resolver: filed, then falsified the same afternoon by the notation mirror."
-        grade: EXACT
+        evidence: EXACT
         receipt: lab/process/layer0-fork-registry.yaml
       - fact: "The non-equivariance retyping: rejected on hostile review; '-g is a different point in a different orbit', not a relabeling."
-        grade: EXACT
+        evidence: EXACT
         receipt: lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md
       - fact: "The REAL-CLIFFORD-FORM reopen: withdrawn. The row asks which algebra the source USES, which author assertion answers even when the author's arithmetic does not."
-        grade: EXACT
+        evidence: EXACT
         receipt: lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md
       - fact: "The underlying fact -- the mixed-notation sum -- survived all three and was correct every time."
-        grade: EXACT
+        evidence: EXACT
         receipt: tests/source_signature_notation_is_mirrored.py
     check: >-
       File the finding with its receipt. File the disposition separately and put

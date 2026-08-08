@@ -1,5 +1,16 @@
 # Layer-0 fork registry
 #
+# COMPANION FILE, added 2026-08-08: lab/process/path-dependencies.yaml
+# (rendered: lab/process/path-dependencies.md). This registry records WHAT the
+# forks are. That one records WHY a given check is worth doing - the causal
+# chain, and the DATED TRAPS: mistakes agents have actually made on that horn.
+# They are DELIBERATELY NOT MERGED. This file answers "what are the forks"; that
+# one answers "why do we check". A 2026-08-08 council found that filing path
+# dependencies under Layer 0 would be a category error - semantics vs
+# justification - creating a homonym inside the file meant to prevent them.
+# See lab/process/councils/2026-08-08-path-dependency-integration-council.md.
+# SIGNATURE-AMBIENT is covered by chain PD-SIGNATURE-PARITY.
+#
 # One row per discrete Layer-0 fork the program stands on: the horns, whether it
 # is settled, and - when settled - HOW and by WHICH artifacts. A wave disposition
 # names a row id in its `fork_assumed:` frontmatter field

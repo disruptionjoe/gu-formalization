@@ -34,6 +34,28 @@ case (boundary freedom survives ⇒ a real θ must be chosen)?
 
 ## 0. Verdict up front
 
+> **REFUTED 2026-08-08 — DO NOT CITE THE BOXED CLAIM BELOW.**
+>
+> **`Moduli dimension = 0` is false, and the correct number is computed.** The
+> deck-fixed admissible set is a stratified union `⊔ₖ Gr(k,832)` with
+> `dim_ℝ Gr(k,832) = 2k(832−k)`; only `k = 0` and `k = 832` are
+> zero-dimensional (the two definite sectors, which `ECW3D-A` already showed are
+> **both** admissible and right-`H` invariant, so even those do not select). The
+> maximal stratum has real dimension **346,112**. Receipt:
+> `tests/c1_domain_moduli_no_canonical_selector.py`, artifact
+> `explorations/c1-domain-moduli-result-2026-08-08.md`.
+>
+> **The mechanism of the error, recorded because it is reusable:** this file was
+> refuted by hostile verify — its win planted **bounded collar coefficients where
+> the true end model blows up exponentially**. "Unique and forced" was the output
+> of that planted bound, not of GU's structure.
+>
+> **Why this banner is late.** Every sibling retraction in this chain carried an
+> in-file correction banner; this one did not, so the refuted claim stayed
+> citable for over two weeks and was still live when `C1` contradicted it with a
+> number on 2026-08-08. Bannering was recorded as owed that morning and is done
+> here.
+>
 > **`Q1a-FORCED` — LIMIT-POINT — flagged LOUDLY, not over-claimed.**
 >
 > GU's own structure puts `A~` in the **limit-point** case at the noncompact fiber

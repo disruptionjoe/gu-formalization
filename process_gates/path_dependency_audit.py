@@ -17,7 +17,10 @@ WHAT IS ENFORCED.
   * TRAPS ARE DATED AND REAL.  Every trap carries a date and a cost. The file's
     own rule is that a trap is recorded only once it has ACTUALLY happened;
     speculative pitfalls belong in the improvement register.
-  * grades come from a fixed vocabulary.
+  * evidence classes come from a fixed vocabulary. NOTE the field is
+    `evidence`, not `grade`: the repository's artifact-level `grade:` is a prose
+    scope paragraph (median 606 chars across 534 artifacts), a different object
+    at a different granularity. Renamed 2026-08-08 to avoid a Layer-0 homonym.
   * related ids resolve to real chains.
 
 WHAT IS NOT ENFORCED, stated so nobody reads more into a green run.  This gate
@@ -42,7 +45,7 @@ RENDERED = ROOT / "lab/process/path-dependencies.md"
 
 REQUIRED = ("id", "headline", "trigger", "naive", "chain", "check",
             "traps", "invalidates_if", "related")
-GRADES = {"EXACT", "THEOREM", "AUTHOR-STATED", "CONDITIONAL", "OPEN"}
+EVIDENCE_CLASSES = {"EXACT", "THEOREM", "AUTHOR-STATED", "CONDITIONAL", "OPEN"}
 CHAIN_CAP = 8  # overbuild protection; see test_chain_count_is_capped
 
 
@@ -71,7 +74,7 @@ def render(doc: dict) -> str:
             fact = step["fact"].replace('"', "'")
             if len(fact) > 78:
                 fact = fact[:75] + "..."
-            out.append(f'  {node}["{step["grade"]}: {fact}"]')
+            out.append(f'  {node}["{step["evidence"]}: {fact}"]')
             out.append(f"  {cid} --> {node}" if i == 0
                        else f"  {cid}_s{i-1} --> {node}")
         last = f"{cid}_s{len(chain['chain']) - 1}"
@@ -97,10 +100,10 @@ def render(doc: dict) -> str:
         out.append(f"- **Trigger:** {chain['trigger'].strip()}")
         out.append(f"- **Naive reading:** {chain['naive'].strip()}")
         out.append("")
-        out.append("| # | grade | fact | receipt |")
+        out.append("| # | evidence | fact | receipt |")
         out.append("|---|---|---|---|")
         for i, step in enumerate(chain["chain"], 1):
-            out.append(f"| {i} | `{step['grade']}` | {step['fact']} "
+            out.append(f"| {i} | `{step['evidence']}` | {step['fact']} "
                        f"| `{step['receipt']}` |")
         out.append("")
         out.append(f"**CHECK.** {chain['check'].strip()}")
@@ -172,11 +175,11 @@ class PathDependencyAudit(unittest.TestCase):
                          "exist; fix the path or remove the step")
         print("    all resolve")
 
-    def test_grades_are_from_the_vocabulary(self) -> None:
+    def test_evidence_classes_are_from_the_vocabulary(self) -> None:
         for chain in self.chains:
             for step in chain["chain"]:
-                self.assertIn(step["grade"], GRADES,
-                              f"{chain['id']}: unknown grade {step['grade']!r}")
+                self.assertIn(step["evidence"], EVIDENCE_CLASSES,
+                              f"{chain['id']}: unknown evidence class {step['evidence']!r}")
 
     def test_traps_are_dated_and_costed(self) -> None:
         """The file's own rule: a trap is recorded only once it has actually
