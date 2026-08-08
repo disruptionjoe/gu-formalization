@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.66.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.66.md`.
+`lab/process/conditional-physics-ledger-v0.67.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.67.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -87,11 +87,13 @@ primalizer and Euler terms are independently forced. Ordinary pullback still
 has the actual rank-ten K77 conormal kernel.
 
 Ledger v0.66 constructs the selected action's normal connection/epsilon Euler
-packet as the exact mixed action Hessian. Its seven owner classes are
-independently live and exhaustive, the printed residual jet is rejected as a
-substitute, and dependent ambient jets add no field or datum. Build must now
-specialize those seven owners coefficientwise on all ten full-K77 normal
-directions before antisymmetrization or reduced symplectic/BFV descent.
+packet as the exact mixed action Hessian. Ledger v0.67 completes the exact
+ten-direction K77 metric, density, pairing and Hodge derivative bank, then
+proves that v0.66's seven owner terms exchange under a field-bundle
+trivialization change. The total mixed Hessian is intrinsic; the seven-term
+split is not. Build must now test the complete Green potential's
+splitting-change/basicness before antisymmetrization. A vertical covariant B/T
+lift is justified only if a nonbasic defect survives.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -111,9 +113,10 @@ replacement horn for these targets. Preserve v0.63's typed degree-one versus
 degree-thirteen carrier, printed-Xi redundancy, labelled-null graph, conormal
 derivative, full Bianchi and labelled screen. Preserve v0.64's action-owned
 degree-fourteen epsilon companion, v0.65's moving complete-germ Green
-receiver, and v0.66's seven-owner mixed-Hessian normal Euler functor. Assemble
-the coefficientwise full-K77 bank before any
-reduced symplectic or physical result. Symplectic review remains mandatory.
+receiver, v0.66's mixed-Hessian normal Euler functor, and v0.67's exact
+ten-direction geometry bank plus owner-split correction. Test splitting
+independence/basicness of the complete Green potential before any reduced
+symplectic or physical result. Symplectic review remains mandatory.
 
 Current transverse-owner correction: “connection curvature is `q`-exact” is a
 principal-symbol theorem, not a no-go for the nonzero-background algebraic
@@ -128,7 +131,7 @@ Retain the reduction through total raw-`Upsilon` Bianchi/naturality and the null
 screen before Euler or physical quotient claims.
 
 Current accounting and priority decision:
-`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.66
+`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.67
 has 84 immutable row records and 82 active canonical targets. The two-record
 difference is exactly the retained historical predecessors `LT-GR2` and
 `AC-G1`; their typed successors own the active meter. Do not count append-only
@@ -147,8 +150,10 @@ derivative now pass. v0.63 types the primalized carrier, proves printed Xi is
 rank-zero redundancy after total closure, and constructs a formal Green owner.
 v0.64 derives the separate action-owned degree-fourteen epsilon companion, and
 v0.65 gives it a lossless moving complete-germ Green receiver while retaining
-ordinary-pullback conormal loss. v0.66 constructs the normal-jet functor but
-not its full K77 coefficient bank. Only that coefficientwise survivor may advance to
+ordinary-pullback conormal loss. v0.66 constructs the normal-jet functor;
+v0.67 completes its K77 geometric substrate but proves its seven-way owner
+split is not canonical. Only a splitting-independent/basic Green potential—or
+a source/action-owned vertical lift if nonbasicness forces one—may advance to
 reduced symplectic, BV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main

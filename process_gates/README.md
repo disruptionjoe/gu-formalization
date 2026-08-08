@@ -2013,3 +2013,14 @@ keeps it distinct from the source-printed residual jet, requires all seven
 normal-owner classes and zero new free objects, and leaves the coefficientwise
 full-K77 bank, antisymmetrized current, basic/common-domain/BFV descent open.
 It freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 full normal geometry and owner-split correction v0.67 gate
+
+`selected_k77_full_normal_owner_bank_scope_audit.py` requires all ten K77
+normal metric directions, the rank-one density bank, and the rank-ten
+degree-one/two pairing and Hodge banks. It keeps a vertical coefficient value
+distinct from its normal first jet, narrows the seven v0.66 owner buckets to a
+chosen trivialization, and preserves only the total mixed Hessian as intrinsic.
+It routes next to the Green-potential splitting-change/basicness test, requires
+the vertical B/T lift to remain open unless a nonbasic defect survives, and
+freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.

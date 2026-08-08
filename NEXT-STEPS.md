@@ -2,7 +2,7 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-07"
+updated_at: "2026-08-08"
 ---
 
 # Next Steps For Contributors
@@ -12,13 +12,15 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.66 constructs the selected action's normal Euler jet as the mixed
-> action Hessian. Seven owner classes are independently live and exhaustive:
-> `B/T` field jets, density, target pairing, both Shiab legs and Hodge/mass
-> pairing. The printed residual jet does not transfer, and dependent ambient
-> jets require no new field or external datum. The remaining sequence is the
-> coefficientwise full-K77 seven-owner bank, then antisymmetrized
-> symplectic/BV/common-domain descent.
+> Ledger v0.67 completes the exact ten-direction K77 normal geometry bank but
+> corrects the ownership claim. The density bank has rank one and the
+> degree-one/two pairing and Hodge banks have rank ten, while the full gimmel
+> retains signature `(7,7)`. The total mixed action Hessian is intrinsic, but
+> its seven-term v0.66 expansion is a choice of field-bundle trivialization,
+> not seven invariant K77 subobjects. The next gate tests whether the complete
+> Green potential and its antisymmetrization are independent of a vertical
+> splitting up to an exact/basic term; only a nonbasic defect justifies
+> constructing a vertical covariant B/T lift.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -97,10 +99,19 @@ updated_at: "2026-08-07"
 > seven owner classes live and exhaustive, and rejects transfer from the
 > printed residual jet. It adds no field or datum.
 
-> **NEXT RUN: FULL-K77 SEVEN-OWNER NORMAL EULER BANK.** Assemble the seven
-> exact owner classes coefficientwise on all ten normal directions of the
-> selected real-K77 action. Then—and only then—antisymmetrize the complete
-> action-owned Green potential. Symplectic review remains mandatory.
+> **2026-08-08 FULL-K77 NORMAL GEOMETRY AND OWNER-SPLIT CORRECTION (ledger
+> v0.67).**
+> [`explorations/conditional-build/selected-k77-full-normal-owner-bank-2026-08-08.md`](explorations/conditional-build/selected-k77-full-normal-owner-bank-2026-08-08.md)
+> constructs the exact ten-direction metric, density, pairing and Hodge bank.
+> It proves that the total mixed Hessian is invariant while the seven v0.66
+> owner buckets exchange under a co-moving frame change. This is
+> `OWNER_INCOMPLETE`, not an action failure or a new datum.
+
+> **NEXT RUN: GREEN-POTENTIAL SPLITTING CHANGE AND BASICNESS.** Compare the
+> complete action-owned Green potential under two exact vertical splittings
+> and test whether its antisymmetrization changes only by an exact/basic term.
+> Construct a gauge-rotated-Levi-Civita-compatible vertical covariant lift only
+> if a nonbasic splitting defect survives. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

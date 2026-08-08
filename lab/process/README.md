@@ -15,12 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.66. The selected action's
-normal connection/epsilon Euler packet is the exact mixed action Hessian. Its
-seven owner classes are independently live and exhaustive, and dependent
-ambient jets add no new field or datum. The coefficientwise full-K77 bank and
-antisymmetrized symplectic/BFV descent remain open. See
-`selected-k77-source-native-normal-euler-jet.json`.
+Current append-only progress surface: ledger v0.67. The exact ten-direction
+K77 metric, density, pairing and Hodge derivative bank is complete. The total
+mixed action Hessian is intrinsic, but its seven v0.66 owner terms exchange
+under a field-bundle trivialization change. The next gate tests splitting
+independence/basicness of the complete Green potential before constructing any
+vertical covariant B/T lift. See `selected-k77-full-normal-owner-bank.json`.
+
+Predecessor append-only progress surface: ledger v0.66. The selected action's
+normal connection/epsilon Euler packet is the exact mixed action Hessian; its
+seven owner classes are complete in the chosen finite trivialization.
 
 Predecessor append-only progress surface: ledger v0.65. The action-owned Euler
 pair has an exact moving indefinite-primalizer and complete observation-germ
@@ -128,6 +132,12 @@ Runbooks:
 
 ## Direct Process Files
 
+- `conditional-physics-ledger-v0.67.json` - current append-only conditional
+  physics ledger after the exact ten-direction K77 geometry bank and
+  trivialization-dependent owner-split correction.
+- `selected-k77-full-normal-owner-bank.json` - records the exact metric,
+  density, pairing and Hodge ranks and routes the next gate to Green-potential
+  splitting/basicness before any vertical covariant lift.
 - `conditional-physics-ledger-v0.52.json` - current append-only conditional
   physics ledger after the residual-zero transverse owner-class retype.
 - `selected-second-layer-transverse117-residual-zero-owner-class.json` - kills

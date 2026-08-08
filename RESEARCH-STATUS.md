@@ -8,7 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.66; five
+**Current Build/Compose result 2026-08-08 (ledger v0.67; five
+distance/mapping-grade/evidence migrations).** All ten metric-normal
+directions of the real-K77 geometry are exact and independent. The density
+bank has rank one; degree-one and degree-two pairing and Hodge derivative banks
+have rank ten; total gimmel inertia remains `(7,7)`. The total mixed action
+Hessian is intrinsic, but the seven v0.66 owner terms exchange under a change
+from fixed to co-moving field-bundle trivialization. The source confirms the
+full upstairs connection difference, gauge-rotated Levi-Civita reference and
+vertical coefficient sector, but is silent on a vertical B/T first-jet lift.
+Next test the complete Green potential's splitting change and basicness; build
+a vertical covariant lift only if a nonbasic defect survives. No verdict,
+residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.66; five
 distance/mapping-grade/evidence migrations).** The selected action's normal
 Euler jet is now exact at formal-variational grade as the mixed action Hessian
 `D_normal D_field I`. All connection and epsilon directions pass on a
@@ -16,9 +29,9 @@ noncyclic rational fixture. Seven independently live owner classes—`B/T`
 field jets, density, target/Krein pairing, both Shiab legs and Hodge/mass
 pairing—sum exactly to the full packet. The source-printed residual normal jet
 differs and cannot be transferred. Dependent ambient jets require no new
-field or external datum. The coefficientwise full-K77 bank,
-antisymmetrization and symplectic/BFV/common-domain descent remain open. No
-verdict, residue, quotient, datum, canon or public-posture change follows.
+field or external datum. Ledger v0.67 narrows its seven-owner completeness to
+the chosen finite trivialization. No verdict, residue, quotient, datum, canon
+or public-posture change followed.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.65; five
 distance/mapping-grade/evidence migrations).** The action-owned Euler package

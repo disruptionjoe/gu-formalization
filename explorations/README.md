@@ -7,15 +7,25 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 full normal geometry and owner-split correction (2026-08-08)
+
+`conditional-build/selected-k77-full-normal-owner-bank-2026-08-08.md`
+constructs the exact ten-direction K77 metric, density, pairing and Hodge
+derivative bank. It then proves that the total mixed action Hessian transports
+intrinsically while the seven v0.66 owner buckets exchange under a field-bundle
+trivialization change. The next gate tests splitting independence/basicness of
+the complete Green potential before introducing any vertical covariant lift.
+Ledger v0.67 records `OWNER_INCOMPLETE` with no verdict or residue movement.
+
 ## K77 selected-action normal Euler mixed Hessian (2026-08-08)
 
 `conditional-build/selected-k77-source-native-normal-euler-jet-2026-08-08.md`
 constructs the normal connection/epsilon Euler packet as the selected action's
 mixed Hessian. Seven moving owner classes are independently live and
-exhaustive, the printed residual jet is rejected as a substitute, and no new
-field or datum is introduced. The coefficientwise full-K77 bank and
-antisymmetrized Green/BFV descent remain open. Ledger v0.66 records no verdict
-or residue movement.
+exhaustive in its chosen finite trivialization, the printed residual jet is
+rejected as a substitute, and no new field or datum is introduced. Ledger
+v0.67 corrects their transfer to full K77 without retracting the intrinsic
+mixed-Hessian result.
 
 ## K77 moving action-Green receiver (2026-08-08)
 

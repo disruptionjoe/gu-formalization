@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (413 Python + 31 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 selected-action normal Euler mixed-Hessian probe, its independent Sage/QQ replay, and ledger-v0.66 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (415 Python + 32 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 full normal geometry/owner-split probe, its independent Sage/QQ replay, and ledger-v0.67 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -1929,4 +1929,22 @@ uv run --with sympy==1.14.0 --with numpy --with scipy python -u \
   tests/channel-swings/selected_k77_source_native_normal_euler_jet_probe.py
 sage tests/channel-swings/selected_k77_source_native_normal_euler_jet_independent.sage
 python3 tests/channel-swings/conditional_physics_ledger_v066_probe.py
+```
+
+## K77 full normal geometry and owner-split correction ledger v0.67
+
+`channel-swings/selected_k77_full_normal_owner_bank_probe.py` constructs all
+ten trace-reversed DeWitt/gimmel normal derivatives, their density, pairing and
+Hodge banks, and proves exact fixed-frame/co-moving-frame transport of the
+total covector. The firing counterexample shows that the seven v0.66 owner
+buckets are trivialization-dependent even though the total mixed Hessian is
+intrinsic. The independent Sage/QQ replay verifies signature, ranks and
+transport. The ledger probe migrates five distances without moving verdicts,
+residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.3.2 python -u \
+  tests/channel-swings/selected_k77_full_normal_owner_bank_probe.py
+sage tests/channel-swings/selected_k77_full_normal_owner_bank_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v067_probe.py
 ```

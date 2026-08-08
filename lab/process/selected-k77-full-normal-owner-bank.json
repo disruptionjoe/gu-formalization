@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "OWNER_INCOMPLETE__TEN_NORMAL_GEOMETRY_EXACT__SEVEN_OWNER_SPLIT_TRIVIALIZATION_DEPENDENT",
+  "predecessor": "lab/process/selected-k77-source-native-normal-euler-jet.json",
+  "source_return": "SOURCE-CONFIRMS__FULL_Y_CONNECTION_AND_VERTICAL_COEFFICIENT_RESTRICTION__SOURCE-SILENT__VERTICAL_B_T_FIRST_JET_LIFT",
+  "layer0": {
+    "vertical_coefficient_value": "NOT_NORMAL_DERIVATIVE_OF_COEFFICIENT",
+    "total_mixed_hessian": "INTRINSIC",
+    "seven_owner_expansion": "TRIVIALIZATION_DEPENDENT",
+    "gauge_rotated_levi_civita": "REFERENCE_CONNECTION_ON_Y__NOT_YET_VERTICAL_FIELD_SPACE_LIFT"
+  },
+  "exact_result": {
+    "normal_direction_count": 10,
+    "normal_metric_bank_rank": 10,
+    "vertical_dewitt_inertia": [6, 4, 0],
+    "total_gimmel_inertia": [7, 7, 0],
+    "density_bank_rank": 1,
+    "degree1_pairing_bank_rank": 10,
+    "degree2_pairing_bank_rank": 10,
+    "degree1_hodge_bank_rank": 10,
+    "degree2_hodge_bank_rank": 10,
+    "comoving_compensator_directions": 10,
+    "trivialization_counterexamples": 10,
+    "total_covector_transport": "EXACT"
+  },
+  "owner_disposition": {
+    "metric_density_pairing_hodge_substrate": "EXACT_ALL_TEN_DIRECTIONS",
+    "phi_shiab_total_transport": "FUNCTORIAL",
+    "left_right_shiab_separation": "NOT_CANONICAL_WITHOUT_TRIVIALIZATION",
+    "B_T_normal_field_lift": "OPEN",
+    "complete_selected_action_mixed_hessian_bank": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "symplectic_gate": "TEST_GREEN_POTENTIAL_SPLITTING_CHANGE_AND_BASICNESS_BEFORE_ADDING_VERTICAL_CONNECTION",
+  "next_gate": "GREEN_POTENTIAL_SPLITTING_CHANGE_AND_BASICNESS__IF_NONBASIC_CONSTRUCT_VERTICAL_COVARIANT_LIFT",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
