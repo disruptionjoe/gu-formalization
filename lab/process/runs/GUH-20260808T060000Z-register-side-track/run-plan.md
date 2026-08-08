@@ -1,6 +1,6 @@
 ---
 run_id: GUH-20260808T060000Z-register-side-track
-status: open_standing_track
+status: open_standing_track__first_item_closed
 repository: gu-formalization
 workflow: repo-progress-run
 mode: execute
@@ -98,6 +98,37 @@ as a new generation-count claim.
 the live consumers (`decider PART C`, `NEXT-FRONTIER H1(c)`, `oq-rk2`), and retire
 the chain from live docs. The retirement is verdict-adjacent: claim-status workflow
 plus hostile field-specialist review, per the 2026-08-03 rule. **Not executed here.**
+
+## Execution log
+
+### `M-C1` — CLOSED 2026-08-08. Premise corrected; residue was real.
+
+The row claimed "FC3 fired, **unrecorded**". It was recorded:
+`canon/no-go-class-relative-map.md` GC-FC3 already carried *"the standard
+vector-spinor-minus-trace operator gives ind_H = -144 (not +8) on the file's own
+computation. FIRING."* That is the **third** row today found already satisfied,
+after `P-H18` and `P-H19` — three of four items opened turned out done. The
+side-track method rule "verify before acting" earned its place immediately.
+
+**What was genuinely new, and it is worth having.** The recorded firing attacks
+the `+8` boundary term. This row's `ch2` evidence attacks the `16` bulk term, by
+an unrelated computation. Recorded in canon as **GC-FC3b**: the chain's bulk piece
+is the `A-hat`-times-rank form of the index theorem, valid only at `ch2 = 0`, and
+`ch2(S_X)[K3] = -5376`. **Both halves of `16 + 8` are now independently dead.**
+
+**"Retire the chain from live docs" had no target.** `CANON.md` already records the
+count as OPEN and "BLOCKED ON A GENUINE GU THEORY GAP". No live surface asserts
+the chain, so no verdict moved and no hostile review was owed.
+
+**Grade correction.** `M-C1` was graded `C` (critical) against the premise that the
+firing was unrecorded. With that premise false, its actual blast radius is
+provenance-tier. The grade should not be read as evidence that critical work is
+being ignored — the *recording* was done; the second independent reason was not.
+
+**Standing lesson for this track.** Three of the first four items were already
+satisfied and unmarked. The register's execution rate of 8/145 is therefore an
+**undercount of work done**, not purely a backlog — and the first job on any item
+is to check the target surface, not to do the work.
 
 ## Note for whoever authors the next ledger queue
 
