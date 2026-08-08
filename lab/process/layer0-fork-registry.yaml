@@ -109,7 +109,54 @@ forks:
     sources:
       - lab/process/science-council-program-efficiency-2026-08-04.md
       - lab/process/agent-context-pack.md
-
+    consequence_set_added: '2026-08-07'
+    consequence_set_method: >-
+      Files under canon/, CANON.md, RESEARCH-STATUS.md and DERIVATION-PROGRESS.md that
+      reference the retired (9,5) / M(64,H) / Sp(64) / quaternionic horn, classified by
+      direct read where a dissolution condition was claimed and by signal otherwise.
+      Referencing the horn is NOT depending on it: only reopener_fired is confirmed from
+      the file's own text, and needs_recheck means exposure rather than breakage. CANON.md
+      and RESEARCH-STATUS.md are excluded because both were scoped on 2026-08-07 for AC-G1.
+      A mechanical scan flagged six reopener candidates; three were false positives that
+      used the word dissolve about an unrelated question, and were re-typed by reading.
+    consequence_set:
+      reopener_fired:
+        - canon/firewall-boundary-hypothesis.md
+        - canon/multiplicity-theorem.md
+        - canon/no-go-quaternionic-parity-generation-sector.md
+      needs_recheck:
+        - DERIVATION-PROGRESS.md
+        - canon/anchor-scale-graded-ig-algebra-RESULTS.md
+        - canon/anchored-leads-screen-RESULTS.md
+        - canon/boundary-eta-of-mu-RESULTS.md
+        - canon/carrier-dirac-mass-capstone-RESULTS.md
+        - canon/escape-corners-campaign-RESULTS.md
+        - canon/forcing-slot-toy-rs-RESULTS.md
+        - canon/gamma-traceless-38-adjudication-RESULTS.md
+        - canon/ghost-parity-krein-synthesis.md
+        - canon/h2-base-index-chirality.md
+        - canon/hessian-z3-carrier-occupancy-RESULTS.md
+        - canon/no-go-class-relative-map.md
+        - canon/schwarzschild-weak-field-rfail.md
+        - canon/shiab-existence-cl95.md
+        - canon/six-axis-candidate-krein-positivity-dg.md
+        - canon/source-action-seiberg-witten-construction.md
+        - canon/three-generations-locate-not-force-CRT-RESULTS.md
+        - canon/type-ii1-spectral-sm-checklist.md
+        - canon/w2-y14-spin-structure.md
+      survives_gu_independent:
+        - canon/antilinear-bound-RESULTS.md
+        - canon/enum-completeness-class-c-RESULTS.md
+        - canon/firewall-import-selector-carrier-RESULTS.md
+        - canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md
+        - canon/good-stable-compactification-no-go-RESULTS.md
+        - canon/ko-degree-obstruction-ladder-RESULTS.md
+        - canon/signed-readout-boundary-theorem-RESULTS.md
+        - canon/single-decider-integer-index-RESULTS.md
+        - canon/six-axis-escape-hatch-map-RESULTS.md
+        - canon/source-action-seiberg-witten-RESULTS.md
+        - canon/two-arena-rep-theory-core-RESULTS.md
+        - canon/two-primary-lemma.md
   - id: IMPOSTER-LABEL-AB
     title: "\"Imposter\" / third-generation label attachment, reading A vs reading B"
     horns:

@@ -10,6 +10,7 @@ grade: "CLASSIFICATION OVER FILED TEXT. Every option set and every constraint is
   excludes any genesis option -- does not depend on the counts and is checkable
   line by line against the five tensions."
 ledger: lab/process/conditional-physics-ledger-v0.39.json
+ledger_staleness_note: "Analysed against v0.39. The ledger reached v0.68 the same day; re-verify counts before citing. The verdict split moved 32/19/25/6 -> 32/19/26/5 as AC-G1 was superseded by AC-G1a."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none

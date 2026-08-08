@@ -10,6 +10,30 @@ updated_at: "2026-07-03"
 
 # Generation-sector audit: the quaternionic-parity no-go and under-determination
 
+> **REOPENER FIRED 2026-08-04 — RECORDED 2026-08-07, VERDICT NOT RETRACTED HERE.**
+> This entry states its own dissolution condition below: the no-go "DISSOLVES
+> under a defensible alternative real-class signature such as `(7,7)`
+> (`J^2 = +1`), where the Kramers/quaternionic pairing no longer applies", and
+> names that contingency its **live reopener**.
+>
+> `REAL-CLIFFORD-FORM` was **SETTLED at `Cl(7,7) = M128(R)` on 2026-08-04**
+> (`lab/process/layer0-fork-registry.yaml`), by derivation from source-typed
+> arithmetic, with an explicit ban on importing the `(9,5)` right-H / chosen-J
+> machinery. **The stated condition is therefore satisfied on the settled horn.**
+>
+> What this banner does and does not do. It **records** that the reopener has
+> fired, because nothing in the repository was watching for it and the entry
+> stood unchanged for three days after its own trigger condition became true. It
+> does **not** retract the verdict: `(9,5)` was demoted to a *conditional
+> comparator*, not falsified, so this no-go remains a correct statement about the
+> comparator horn. Executing the dissolution — restating scope, or retiring the
+> entry for the primary reconstruction — is a verdict change and requires the
+> hostile field-specialist review of the standing 2026-08-03 rule.
+>
+> Consequence tracking now lives in the fork registry's `consequence_set` for
+> `REAL-CLIFFORD-FORM`, where this file is listed under `reopener_fired`. See
+> `explorations/settlement-propagation-triage-2026-08-07.md`.
+
 ## Why this is here (provenance)
 
 The campaign CONSTRUCT-01..07 was carried out in the child repo `gu-source-action`, which was spun up

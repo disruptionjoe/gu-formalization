@@ -10,6 +10,7 @@ grade: "CLASSIFICATION AND EXACT COORDINATE MATCHING over filed text. The one
   The structural result about genesis-dependence is a dependency argument, not a
   computation, and is labelled as such."
 ledger: lab/process/conditional-physics-ledger-v0.39.json
+ledger_staleness_note: "Analysed against v0.39. The ledger reached v0.68 the same day; re-verify counts before citing. The verdict split moved 32/19/25/6 -> 32/19/26/5 as AC-G1 was superseded by AC-G1a."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none
@@ -132,6 +133,26 @@ a branch first — which is the thing the program has been deferring.
   quotients. Each needs construction that does not exist.
 - **Not done:** any orbit-dimension computation. Nothing here required one, and
   nothing here may be cited as one.
+
+## Homonym found while re-checking against the live ledger (added 2026-08-07)
+
+CB-D states **ZERO quotients ranked**. The conditional-physics ledger states
+`quotients_ranked: 4` and has since v0.37. **These are different objects.**
+
+- CB-D means quotients on the **parameter ledger** — gauge, field-redefinition,
+  normalization, functional, topology, domain, discrete-search — acting on the 83.
+- The ledger's four are quotients on **carriers and symbols**: a conditional local
+  linearized even-BV symbol quotient, an exact null constraint-compatible
+  characteristic quotient, a massive rest-frame spin-two carrier, and a
+  conditional finite-domain zero-mode quotient. The ledger says explicitly that
+  **none is booked as global residue reduction**.
+
+Both counts are correct about their own object. Anyone comparing them is comparing
+two senses of "quotient". This artifact's `83 -> 81` is of the CB-D kind and does
+**not** increment the ledger's counter.
+
+This is the fifth distinct homonym found in one day, after `sigma`, `fork`,
+`coflip` and `the Shiab`.
 
 ## Fragility
 

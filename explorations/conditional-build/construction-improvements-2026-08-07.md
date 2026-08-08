@@ -8,6 +8,7 @@ grade: "METHOD plus two small registers. Sections 1, 2 and 3 are method statemen
   symbol-collision register verified by direct search. No physics is computed
   here and nothing in this file is a result."
 ledger: lab/process/conditional-physics-ledger-v0.39.json
+ledger_staleness_note: "Analysed against v0.39. The ledger reached v0.68 the same day; re-verify counts before citing. The verdict split moved 32/19/25/6 -> 32/19/26/5 as AC-G1 was superseded by AC-G1a."
 claim_status_change: none
 canon_verdict_change: none
 public_posture_change: none

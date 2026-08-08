@@ -100,10 +100,17 @@ the horn with no hedge and no independence claim. Exposure unknown.
 
 ## Already-confirmed casualty, found by accident
 
-`AC-G1` is the same failure, found incidentally by CB-C on 2026-08-05: canon still
-asserts the `U(128)` pincer is defused by `Sp(64) = U(64,H)`, an object that does
-not exist under `M128(R)`. CB-C also noted the settlement's `settled_by` list
-contains no anomaly-row revisit.
+`AC-G1` is the same failure, found incidentally by CB-C on 2026-08-05: canon
+asserted the `U(128)` pincer is defused by `Sp(64) = U(64,H)`, an object that does
+not exist under `M128(R)`.
+
+**CORRECTION 2026-08-07:** that one has since been repaired. `CANON.md` now scopes
+the claim to "the **conditional** `Cl(9,5)=M(64,H)` horn" under an explicit
+`AC-G1 SCOPE CORRECTION (2026-08-07)`, and the ledger row carries
+`row_status: SUPERSEDED` with successor `AC-G1a`. **The repair was surface-only:**
+`CANON.md` and `RESEARCH-STATUS.md` were scoped and none of the 34 downstream
+canon files was touched. So propagation happens when someone trips over a case,
+not systematically — which is the finding, not a counterexample to it.
 
 One casualty confirmed by accident, one dissolution trigger confirmed unfired,
 and 34 files carrying the dependency. The base rate is not zero.
