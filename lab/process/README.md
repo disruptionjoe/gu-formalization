@@ -2,7 +2,7 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-07"
+updated_at: "2026-08-08"
 ---
 
 # Process
@@ -15,12 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.65. The action-owned Euler pair
-has an exact moving indefinite-primalizer and complete observation-germ Green
-receiver; target, section, primalizer and Euler terms are independently live.
-Ordinary pullback retains rank-ten conormal loss. The source-native normal
-Euler jet and antisymmetrized symplectic/BFV descent remain open. See
-`selected-k77-moving-action-green-receiver.json`.
+Current append-only progress surface: ledger v0.66. The selected action's
+normal connection/epsilon Euler packet is the exact mixed action Hessian. Its
+seven owner classes are independently live and exhaustive, and dependent
+ambient jets add no new field or datum. The coefficientwise full-K77 bank and
+antisymmetrized symplectic/BFV descent remain open. See
+`selected-k77-source-native-normal-euler-jet.json`.
+
+Predecessor append-only progress surface: ledger v0.65. The action-owned Euler
+pair has an exact moving indefinite-primalizer and complete observation-germ
+Green receiver; ordinary pullback retains rank-ten conormal loss.
 
 Predecessor append-only progress surface: ledger v0.64. The action-owned
 degree-fourteen epsilon companion is exact from both connection Euler owners

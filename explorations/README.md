@@ -2,10 +2,20 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-07"
+updated_at: "2026-08-08"
 ---
 
 # Explorations
+
+## K77 selected-action normal Euler mixed Hessian (2026-08-08)
+
+`conditional-build/selected-k77-source-native-normal-euler-jet-2026-08-08.md`
+constructs the normal connection/epsilon Euler packet as the selected action's
+mixed Hessian. Seven moving owner classes are independently live and
+exhaustive, the printed residual jet is rejected as a substitute, and no new
+field or datum is introduced. The coefficientwise full-K77 bank and
+antisymmetrized Green/BFV descent remain open. Ledger v0.66 records no verdict
+or residue movement.
 
 ## K77 moving action-Green receiver (2026-08-08)
 

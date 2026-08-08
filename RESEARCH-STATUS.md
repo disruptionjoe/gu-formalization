@@ -2,22 +2,29 @@
 title: "Research Status"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-07"
+updated_at: "2026-08-08"
 canon_sweep_at: "2026-07-25"
 ---
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.65; five
+**Current Build/Compose result 2026-08-08 (ledger v0.66; five
+distance/mapping-grade/evidence migrations).** The selected action's normal
+Euler jet is now exact at formal-variational grade as the mixed action Hessian
+`D_normal D_field I`. All connection and epsilon directions pass on a
+noncyclic rational fixture. Seven independently live owner classes—`B/T`
+field jets, density, target/Krein pairing, both Shiab legs and Hodge/mass
+pairing—sum exactly to the full packet. The source-printed residual normal jet
+differs and cannot be transferred. Dependent ambient jets require no new
+field or external datum. The coefficientwise full-K77 bank,
+antisymmetrization and symplectic/BFV/common-domain descent remain open. No
+verdict, residue, quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.65; five
 distance/mapping-grade/evidence migrations).** The action-owned Euler package
-now transports exactly through the moving indefinite primalizer, target and
-complete value-plus-first-jet observation germ. All nine action-coefficient
-directions obey the four-term moving derivative, and the action-density Green
-identity closes with nonzero flux only when lowerer and section motion are
-retained. Ordinary pullback still loses the rank-ten K77 conormal sector. The
-selected source-native normal Euler jet, antisymmetrized current and
-symplectic/BFV/common-domain descent remain open. No verdict, residue,
-quotient, datum, canon or public-posture change follows.
+transports exactly through the moving indefinite primalizer, target and
+complete value-plus-first-jet observation germ. Ordinary pullback retains the
+rank-ten K77 conormal loss; v0.66 supplies the universal normal-Euler functor.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.64; five
 distance/mapping-grade/evidence migrations).** The action-owned

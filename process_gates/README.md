@@ -2004,3 +2004,12 @@ transport while preserving ordinary pullback's rank-ten conormal loss. It
 keeps the source-native normal Euler jet, antisymmetrized current, BFV quotient
 and common domain open and freezes verdicts, residue, quotients, P1/P2/P3,
 canon and posture.
+
+## K77 selected-action normal Euler mixed-Hessian v0.66 gate
+
+`selected_k77_source_native_normal_euler_jet_scope_audit.py` requires the
+selected action's normal Euler jet to be typed as the mixed action Hessian,
+keeps it distinct from the source-printed residual jet, requires all seven
+normal-owner classes and zero new free objects, and leaves the coefficientwise
+full-K77 bank, antisymmetrized current, basic/common-domain/BFV descent open.
+It freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.

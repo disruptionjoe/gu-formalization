@@ -12,12 +12,12 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.65 transports the action-owned Euler pair through the moving
-> indefinite primalizer and complete observation germ. Target, section,
-> primalizer and Euler derivatives are independently forced, and the moving
-> Green identity closes with nonzero flux. Ordinary pullback still loses the
-> rank-ten K77 conormal sector. The remaining sequence is the selected
-> source-native normal Euler jet, then antisymmetrized
+> Ledger v0.66 constructs the selected action's normal Euler jet as the mixed
+> action Hessian. Seven owner classes are independently live and exhaustive:
+> `B/T` field jets, density, target pairing, both Shiab legs and Hodge/mass
+> pairing. The printed residual jet does not transfer, and dependent ambient
+> jets require no new field or external datum. The remaining sequence is the
+> coefficientwise full-K77 seven-owner bank, then antisymmetrized
 > symplectic/BV/common-domain descent.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
@@ -91,9 +91,15 @@ updated_at: "2026-08-07"
 > moving factors live. Ordinary pullback remains nonfaithful on the conormal
 > sector.
 
-> **NEXT RUN: SOURCE-NATIVE NORMAL EULER JET.** Compute the ambient normal first
-> jet of the selected action Euler operator on the admitted metric section,
-> insert it into the complete-germ receiver, and only then antisymmetrize the
+> **2026-08-08 ACTION-NORMAL MIXED HESSIAN (ledger v0.66).**
+> [`explorations/conditional-build/selected-k77-source-native-normal-euler-jet-2026-08-08.md`](explorations/conditional-build/selected-k77-source-native-normal-euler-jet-2026-08-08.md)
+> derives the normal Euler/epsilon packet as a mixed action Hessian, proves all
+> seven owner classes live and exhaustive, and rejects transfer from the
+> printed residual jet. It adds no field or datum.
+
+> **NEXT RUN: FULL-K77 SEVEN-OWNER NORMAL EULER BANK.** Assemble the seven
+> exact owner classes coefficientwise on all ten normal directions of the
+> selected real-K77 action. Then—and only then—antisymmetrize the complete
 > action-owned Green potential. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
