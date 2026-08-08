@@ -15,7 +15,15 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.86. Source epsilon is an
+Current append-only progress surface: ledger v0.87. The covector-matched
+internal bivector gauge orbit has rank three and closes exactly only after its
+complete lower-order connection, curvature and moving-Phi/Shiab response is
+assembled. Moving Shiab alone is the wrong carrier. v0.86's spacelike/null
+coefficient packets used a timelike-frozen response operator; rank survives,
+supports do not. Physical diffeomorphism Frechet/Green remains open. See
+`selected-k77-kosmann-moving-shiab-rank3.json`.
+
+Predecessor append-only progress surface: ledger v0.86. Source epsilon is an
 `H`-valued gauge/second-connection variable, not a source-quoted physical
 diffeomorphism soldering law. Direct metric and varpi torsion responses cancel
 on all four orbit columns, while the full source-variable curvature response
@@ -191,8 +199,15 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.86.json` - current append-only conditional
-  ledger; source-minimal direct torsion cancels on four orbit columns and the
+- `conditional-physics-ledger-v0.87.json` - current append-only conditional
+  ledger; the complete lower-order internal bivector Ward orbit closes exactly,
+  frozen-`q0` spacelike/null supports are corrected, and matched-q physical
+  diffeomorphism Frechet/Green remains open.
+- `selected-k77-kosmann-moving-shiab-rank3.json` - exact causal support,
+  rank-three-to-zero internal closure, moving-Shiab-alone negative control and
+  physical-diffeomorphism successor.
+- `conditional-physics-ledger-v0.86.json` - immutable predecessor ledger;
+  source-minimal direct torsion cancels on four orbit columns and the
   remaining curvature/moving-operator target has rank three, while the
   gamma-extended fourth direction remains conditional.
 - `selected-k77-principal-ward-gamma-epsilon-reconciliation.json` - exact

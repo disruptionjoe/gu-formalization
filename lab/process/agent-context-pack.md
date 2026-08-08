@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.86 principal Ward reconciliation:** source epsilon is an
+> **Current v0.87 internal bivector Ward closure:** use a response operator
+> matched to each causal covector. v0.86's spacelike/null coefficient packets
+> froze it at timelike `q0`; rank three survives but those supports do not.
+> Moving Shiab alone does not cancel the packet. The complete lower-order
+> `delta A=q eta+[T,eta]`, `delta F=[F,eta]` and moving-Phi/Shiab response does
+> cancel raw `Upsilon` exactly with zero fit. This is internal H-gauge closure,
+> not the physical diffeomorphism Frechet theorem. Build matched-q Lie/density/
+> Hodge/observation/lower-order metric response next, then `K*`, adjoint and
+> Green. Mandatory symplectic review remains.
+
+> **Predecessor v0.86 principal Ward reconciliation:** source epsilon is an
 > `H`-valued gauge/second-connection variable; the source does not identify
 > `gamma_epsilon(xi-flat)` as the physical spacetime diffeomorphism law.
 > Exact direct metric/varpi torsion responses cancel on all four orbit

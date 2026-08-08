@@ -9,6 +9,10 @@ updated_at: "2026-08-08"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-kosmann-moving-shiab-rank3-source-reinspection-2026-08-08.md`](selected-k77-kosmann-moving-shiab-rank3-source-reinspection-2026-08-08.md)
+  records `SOURCE-CONFIRMS` for moving-Phi/Shiab and primitive epsilon grammar,
+  and `SOURCE-SILENT` for physical diffeomorphism soldering and analytic descent.
+
 These sources are useful for provenance, terminology, chronology, and locating claims. They are not treated as mathematical evidence by themselves. A media item becomes citeable inside the formal work only after the relevant claim is tied to a transcript, timestamp, or archived text fragment.
 
 - `media-index.md` - curated list of GU media/source instances and their current verification status.

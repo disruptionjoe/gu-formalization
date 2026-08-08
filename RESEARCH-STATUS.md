@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose correction 2026-08-08 (ledger v0.86; five
+**Current Build/Compose correction 2026-08-08 (ledger v0.87; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The exact
+covector-matched internal bivector orbit has rank three in every causal class
+and closes raw `Upsilon` coefficientwise only after the lower-order connection,
+curvature and moving-Phi/Shiab responses are assembled. Moving Shiab alone is
+the wrong coefficient carrier. v0.86's spacelike/null coefficient packets used
+a timelike-frozen response operator and are superseded, though their rank-three
+conclusion survives. Physical diffeomorphism Lie/density/Hodge/observation and
+lower-order metric response, primitive epsilon ownership, `K*`, adjoint, Green
+and symplectic/BFV descent remain open. No headline or datum moves.
+
+**Predecessor Build/Compose correction 2026-08-08 (ledger v0.86; five
 distance/mapping-grade/evidence migrations; headline unchanged).** Source
 epsilon is an `H`-valued gauge/second-connection variable, and the source does
 not identify `gamma_epsilon(xi-flat)` as the physical spacetime

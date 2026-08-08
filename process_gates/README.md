@@ -2222,6 +2222,14 @@ and the gamma extension to remain rank four and nonzero on the sourced kernel.
 The moving operator is narrowed, not eliminated. Full Frechet, adjoint/Green,
 Krein, symplectic/BFV and physical claims remain open.
 
+## K77 Kosmann/moving-Shiab rank-three closure v0.87 gate
+
+`selected_k77_kosmann_moving_shiab_rank3_audit.py` requires covector-matched
+causal response operators, rejection of moving Shiab as a standalone negative
+packet, and exact zero-fit closure only for the complete lower-order internal
+bivector gauge orbit. It keeps physical diffeomorphism Frechet/Green,
+primitive epsilon, Krein, symplectic and BFV descent open.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

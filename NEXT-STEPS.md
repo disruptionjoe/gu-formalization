@@ -7,8 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 KOSMANN/MOVING-SHIAB RANK-THREE CLOSURE (ledger v0.87).**
+> Covector-matched timelike, spacelike and null packets all retain rank three,
+> but v0.86's spacelike/null coefficients used a response operator frozen at
+> timelike `q0` and are superseded. Moving Shiab alone does not cancel the
+> packet. The complete lower-order internal bivector gauge orbit does cancel
+> raw `Upsilon` exactly, with zero fit. Next construct the matched-q physical
+> diffeomorphism Lie/density/Hodge/observation and lower-order metric response,
+> distinguish dependent Kosmann transport from primitive epsilon, prove full
+> `J R=0`, then derive `K*`, formal adjoint and Green. No datum is used.
+
 > **2026-08-08 PRINCIPAL WARD/GAMMA-EPSILON RECONCILIATION (ledger
-> v0.86).** Source epsilon is an `H`-valued gauge/second-connection variable;
+> v0.86 predecessor).** Source epsilon is an `H`-valued gauge/second-connection variable;
 > the source does not identify `gamma_epsilon(xi-flat)` as the physical
 > spacetime diffeomorphism law. Exact composition shows the direct metric and
 > varpi torsion responses cancel on all four orbit columns, while the full

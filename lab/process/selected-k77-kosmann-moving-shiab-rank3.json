@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-08-08",
+  "status": "INTERNAL_BIVECTOR_WARD_RANK3_CLOSED__PHYSICAL_DIFFEO_MATCHED_Q_FRECHET_OPEN",
+  "run_id": "RUN-20260808-180114-gu-k77-kosmann-moving-shiab-rank3",
+  "predecessor": "lab/process/selected-k77-principal-ward-gamma-epsilon-reconciliation.json",
+  "source_return": "SOURCE-CONFIRMS__MOVING_PHI_SHIAB_AND_PRIMITIVE_EPSILON_GRAMMAR__SOURCE-SILENT__PHYSICAL_DIFFEO_SOLDERING",
+  "layer0": {
+    "v086_causal_packet": "FROZEN_TIMELIKE_Q0_RESPONSE_OPERATOR_WITH_RELABELLED_BACKGROUND",
+    "matched_q_packet": "RESPONSE_OPERATOR_AND_BACKGROUND_USE_THE_SAME_COVECTOR",
+    "moving_shiab_alone": "COEFFICIENT_DERIVATIVE_ONLY__NOT_THE_COMPLETE_GAUGE_TANGENT",
+    "complete_internal_orbit": "DELTA_A_EQUALS_Q_ETA_PLUS_COMM_T_ETA__DELTA_F_EQUALS_COMM_F_ETA",
+    "dependent_kosmann_transport": "NOT_THE_PRIMITIVE_EPSILON_EULER_ROW",
+    "physical_diffeomorphism": "LIE_DENSITY_HODGE_OBSERVATION_AND_LOWER_ORDER_METRIC_PACKET__OPEN"
+  },
+  "causal_results": {
+    "timelike": {
+      "matched_q_rank": 3,
+      "completed_rank": 0,
+      "matched_q_supports": [0, 1, 1, 1],
+      "v086_frozen_q0_supports": [0, 1, 1, 1]
+    },
+    "spacelike": {
+      "matched_q_rank": 3,
+      "completed_rank": 0,
+      "matched_q_supports": [1, 0, 1, 1],
+      "v086_frozen_q0_supports": [13, 0, 2, 2]
+    },
+    "null": {
+      "matched_q_rank": 3,
+      "completed_rank": 0,
+      "matched_q_supports": [2, 5, 5, 2],
+      "v086_frozen_q0_supports": [14, 7, 7, 14]
+    }
+  },
+  "exact_closure": {
+    "internal_orbit_rank": 3,
+    "moving_shiab_alone_cancels": false,
+    "complete_lower_order_response_cancels": true,
+    "fitted_parameters": 0,
+    "wrong_lower_order_sign_rejected": true
+  },
+  "remaining": [
+    "MATCHED_Q_PHYSICAL_DIFFEO_LIE_TRANSPORT",
+    "DENSITY_HODGE_OBSERVATION_AND_LOWER_ORDER_METRIC_RESPONSE",
+    "PRIMITIVE_EPSILON_OWNERSHIP",
+    "K_STAR_FORMAL_ADJOINT_GREEN_COMMON_DOMAIN",
+    "PRESYMPLECTIC_BV_BFV_DESCENT"
+  ],
+  "next_gate": "CONSTRUCT_MATCHED_Q_PHYSICAL_DIFFEO_LIE_DENSITY_HODGE_OBSERVATION_AND_LOWER_ORDER_METRIC_PACKET__VERIFY_FULL_FRECHET_JR_ZERO__THEN_K_STAR_ADJOINT_GREEN",
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE"
+}

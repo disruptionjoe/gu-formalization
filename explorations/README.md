@@ -7,6 +7,14 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 Kosmann moving-Shiab rank-three closure (2026-08-08)
+
+`conditional-build/selected-k77-kosmann-moving-shiab-rank3-2026-08-08.md`
+corrects the frozen-`q0` causal comparison and proves exact zero-fit closure of
+the complete lower-order internal bivector Ward orbit. Moving Shiab alone does
+not cancel it; physical diffeomorphism Frechet/Green descent remains open.
+Ledger v0.87 changes no headline count, datum, quotient, canon or posture.
+
 ## K77 principal Ward/gamma-epsilon reconciliation (2026-08-08)
 
 `conditional-build/selected-k77-principal-ward-gamma-epsilon-reconciliation-2026-08-08.md`
