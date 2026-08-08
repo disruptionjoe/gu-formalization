@@ -8,17 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.73; five
+**Current Build/Compose result 2026-08-08 (ledger v0.74; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The
-actual K77 principal owner is `P_H=Spin(C) x U(64,64)`, with no K95 import.
-Its exact source/target holonomy cotangent dressing has rank eight and kernel
-equal to the full rank-eight endpoint gauge orbit. But the identity tangent
-matches the v0.70 potential only when `p0=p2`: one holonomy retains the
-Gauss-diagonal `20/20` half of the full ten-normal `40/40` endpoint quotient.
-The single-holonomy globalization is killed. Two action-derived continuum
-endpoint evaluations and primitive epsilon preboundary momenta, full `tau_A0`,
-global BFV and common-domain descent remain open. Verdicts, residue, quotients,
-P1/P2/P3, canon and public posture do not move.
+primitive-epsilon Green identity already has two locally independent endpoint
+traces, and two independent K77 endpoint dressings recover the full v0.70
+`40/40` quotient with exact endpoint-gauge kernel. The v0.73 single-holonomy
+`20/20` result remains a compression no-go. Epsilon ownership is not yet
+proved: the Green momentum is `i_n(E_B-E_T)` while the contact momentum is
+`p=KT`; their coefficientwise equality on both endpoint cells and all ten K77
+normals is the remaining local gate. Full `tau_A0`, global BFV and common
+domain remain open. Verdicts, residue, quotients, P1/P2/P3, canon and public
+posture do not move.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete

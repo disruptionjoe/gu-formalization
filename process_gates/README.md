@@ -2083,3 +2083,13 @@ K77 `U(64,64)` group owner, exact source/target cotangent kernel equality, and
 the material `p0=p2`, `40/40 -> 20/20` single-holonomy fence. It keeps two
 continuum endpoint action owners, primitive epsilon preboundary ownership,
 full `tau_A0`, BFV/common domain, P1/P2/P3, canon and posture open.
+
+## K77 epsilon endpoint direct-sum v0.74 gate
+
+`selected_k77_epsilon_endpoint_direct_sum_scope_audit.py` requires the local
+epsilon trace map to have rank two and the two-copy K77 dressing to recover the
+full `60/40/20 -> 40/40` endpoint quotient. It also requires the hostile
+scope repair: `i_n(E_B-E_T)=p_KT` is an open coefficient weld, so the v0.70
+boundary coordinates are not yet retyped as existing epsilon traces. The
+single-holonomy no-go, full `tau_A0`, global BFV/common domain, P1/P2/P3,
+canon and posture remain fenced.

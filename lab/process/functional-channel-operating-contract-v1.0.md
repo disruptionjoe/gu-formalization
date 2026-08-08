@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.73.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.73.md`.
+`lab/process/conditional-physics-ledger-v0.74.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.74.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -112,6 +112,12 @@ However, one holonomy forces `p0=p2` and retains only `20/20` of the v0.70
 `40/40` endpoint quotient. Build must derive two continuum endpoint evaluation
 maps and primitive epsilon preboundary momenta from the selected action, then
 dress both copies without holonomy compression.
+Ledger v0.74 composes rather than rebuilds the v0.25 endpoint evaluations. The
+two local epsilon traces have rank two, and direct-sum endpoint dressing
+recovers the full `40/40` quotient. The remaining local owner is the explicit
+coefficient weld `i_n(E_B-E_T)=p_KT`; matching types and signs does not prove
+it. Only a pass retypes the v0.70 edge coordinates as existing epsilon traces
+and opens full `tau_A0`/global BFV descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -178,9 +184,10 @@ conditional quotient. v0.71 closes the separate tilted-affine and
 group-valued-edge coordinate cocycles while killing their direct identity.
 v0.72 closes the universal dressed edge-frame and flat differential bridge.
 v0.73 supplies the actual K77 group category and exact two-endpoint cotangent
-reduction, while killing the single-holonomy `40 -> 20` compression. The two
-continuum endpoint action owners and full `tau_A0` law must close before
-physical BFV and common-domain descent. Generic
+reduction, while killing the single-holonomy `40 -> 20` compression. v0.74
+composes the already-built endpoint trace, recovers the direct-sum `40/40`
+geometry and narrows epsilon ownership to `i_n(E_B-E_T)=p_KT`. That weld and
+the full `tau_A0` law must close before physical BFV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

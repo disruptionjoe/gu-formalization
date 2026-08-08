@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "status": "EPSILON_ENDPOINT_TRACE_AND_DIRECT_SUM_40_OF_40_EXACT__ACTION_MOMENTUM_WELD_OPEN",
+  "created": "2026-08-08",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE-CONFIRMS__EPSILON_FIELD_AND_PRIMITIVE_CHAIN__SOURCE-SILENT__BFV_IDENTIFICATION__REPO-DERIVES__LOCAL_ENDPOINT_TRACE_AND_DIRECT_SUM_ONLY",
+  "layer0": {
+    "source_epsilon": "EXISTING_BULK_GROUP_VALUED_FIELD",
+    "epsilon_boundary_trace": "TWO_LOCAL_COLLAR_EVALUATIONS",
+    "eta": "LOGARITHMIC_FIELD_SPACE_VARIATION",
+    "epsilon_green_momentum": "NORMAL_E_B_MINUS_E_T",
+    "contact_momentum": "P_EQUALS_KT",
+    "momentum_weld": "NOT_ESTABLISHED",
+    "direct_sum_dressing": "TWO_INDEPENDENT_ENDPOINT_COTANGENT_COPIES",
+    "single_holonomy": "KILLED_AS_FULL_PHASE_SPACE_COMPRESSION",
+    "global_bfv": "OPEN"
+  },
+  "preregistered_endings": {
+    "ACTION_EPSILON_ENDPOINT_PAIR_ALREADY_EXACT__DIRECT_SUM_DRESSING_RECOVERS_40_OF_40": "DID_NOT_FIRE__ACTION_MOMENTUM_WELD_NOT_ESTABLISHED",
+    "EPSILON_ENDPOINT_VALUES_NOT_INDEPENDENT": "DID_NOT_FIRE_AT_LOCAL_COLLAR_GRADE",
+    "ACTION_MOMENTA_DO_NOT_MATCH_EDGE_POTENTIAL": "NARROWED_TO_UNTESTED_COEFFICIENT_WELD__NO_MISMATCH_PROVED",
+    "DIRECT_SUM_REMAINS_GAUSS_DIAGONAL": "DID_NOT_FIRE",
+    "EPSILON_ONLY_TYPES_THE_EDGE_FIELD": "FIRED_WITH_POSITIVE_ENDPOINT_TRACE_AND_DIRECT_SUM_RESULTS"
+  },
+  "exact_result": {
+    "local_collar_endpoint_trace_rank": 2,
+    "endpoint_trace_dimension": 2,
+    "action_weld_condition": "E0_EQUALS_P0__E2_EQUALS_P2",
+    "action_weld_proved": false,
+    "matrix_direct_sum_extended_dimension": 24,
+    "matrix_direct_sum_dressed_map_rank": 16,
+    "matrix_direct_sum_twoform_rank": 16,
+    "matrix_direct_sum_kernel_dimension": 8,
+    "matrix_direct_sum_endpoint_gauge_rank": 8,
+    "matrix_direct_sum_kernel_equals_gauge_orbit": true,
+    "single_normal_extended_dimension": 6,
+    "single_normal_twoform_rank": 4,
+    "single_normal_endpoint_kernel_dimension": 2,
+    "k77_nonzero_normal_weight_count": 10,
+    "all_ten_extended_dimension": 60,
+    "all_ten_twoform_rank": 40,
+    "all_ten_kernel_dimension": 20,
+    "all_ten_quotient_dimension": 40,
+    "all_ten_quotient_rank": 40,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "construction_disposition": {
+    "two_continuum_endpoint_evaluation_map": "EXACT_LOCAL_COLLAR",
+    "epsilon_boundary_edge_coordinate_typing": "EXACT_LOCAL_IDENTITY_COMPONENT",
+    "primitive_epsilon_to_contact_momentum_weld": "OPEN",
+    "direct_sum_k77_endpoint_dressing": "EXACT_LOCAL_AND_FULL_40_OF_40",
+    "single_holonomy_full_v070_bridge": "REMAINS_KILLED",
+    "v070_boundary_coordinate_cost_retyped_as_existing_epsilon": "NOT_YET",
+    "full_tau_a0_overlap_and_global_epsilon_extension": "OPEN",
+    "physical_bfv_charge_algebra_polarization_common_domain": "OPEN"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_accounting": {
+    "new_bulk_fields": 0,
+    "new_external_datum": 0,
+    "new_continuous_coefficients": 0,
+    "new_selectors": 0,
+    "new_scoped_quotients": 0,
+    "existing_scoped_quotients": 5,
+    "boundary_coordinate_retyping": "HELD_PENDING_ACTION_WELD"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "COEFFICIENTWISE_NORMAL_E_B_MINUS_E_T_TO_CONTACT_P_KT_WELD_WITH_ORIENTATION_AND_OBSERVATION_RECEIVER__THEN_FULL_TAU_A0_GLOBAL_BFV_COMMON_DOMAIN"
+}

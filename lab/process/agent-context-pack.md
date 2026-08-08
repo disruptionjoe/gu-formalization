@@ -28,12 +28,14 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > chimeric `U(64,64)` extension and proves exact source/target cotangent
 > basicness, but kills a single holonomy as the full globalization: it retains
 > only `20/20` of the v0.70 `40/40` endpoint quotient and forces `p0=p2`.
-> Derive two continuum endpoint copies and their primitive epsilon momenta
-> from the action before physical reduction language.
+> Ledger v0.74 composes the already-built primitive-epsilon endpoint trace and
+> proves its local rank is two; two independent endpoint dressings recover the
+> full `40/40` quotient. Do not yet call epsilon the edge owner: the explicit
+> coefficient weld `i_n(E_B-E_T)=p_KT` remains open.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> continuum-endpoint/primitive-epsilon action-owner gate, then BFV, polarization and
+> epsilon-Green/contact-momentum weld, then BFV, polarization and
 > common-domain descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
@@ -82,7 +84,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > dressed symplectic bridge and exact pure-gauge differential bridge. Ledger
 > v0.73 supplies the actual K77 group category and exact source/target dressing,
 > while killing single-holonomy compression of the full endpoint phase space.
-> The continuum endpoint action owner and global BFV/common domain remain open.
+> v0.74 supplies the two endpoint traces and direct-sum `40/40` geometry while
+> keeping the coefficientwise action-momentum weld and global BFV/common domain
+> open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -203,7 +207,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > v0.70 sign and flat/pure-gauge Maurer-Cartan bridge. Preserve v0.73's exact
 > K77 source/target cotangent reduction and its material negative result:
 > one holonomy imposes `p0=p2` and reduces `40/40` to `20/20`, so the action
-> must own two continuum endpoint copies.
+> cannot be compressed to one path cotangent. Preserve v0.74's exact local
+> rank-two endpoint trace and direct-sum `40/40` recovery; do not retype its
+> boundary coordinates as existing epsilon until
+> `i_n(E_B-E_T)=p_KT` is computed coefficientwise.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
@@ -215,10 +222,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `-J_2D` target to a derivation. Preserve the exact nonlinear point-frame
 > cotangent lift, three-splitting cocycle and all-ten K77 presymplectic
 > transport; do not add a vertical B/T lift for point-trivialization descent.
-> Now derive two continuum endpoint evaluation maps and their primitive
-> epsilon preboundary momenta from the selected action, apply direct-sum K77
-> dressing without holonomy compression, extend the bridge to full `tau_A0`,
-> and prove global moment-map/kernel descent; only then open BFV,
+> Now compute the epsilon-Green/contact-momentum weld with the same selected
+> action, endpoint orientation, invariant trace, observation receiver and ten
+> K77 normal cells. Only a pass retypes epsilon as the local edge owner. Then
+> extend the bridge to full `tau_A0` and prove global moment-map/kernel descent;
+> only after that open BFV,
 > polarization and common-domain descent. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.

@@ -12,14 +12,15 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.73 reconciles the edge construction with the actual K77
-> `P_H=Spin(C) x U(64,64)` owner and builds the exact source/target cotangent
-> dressing. Its kernel equals the full endpoint gauge orbit. But one holonomy
-> linearizes only to the Gauss-diagonal `20/20` half of the v0.70 ten-normal
-> endpoint quotient `40/40`, forcing `p0=p2`. The single-holonomy shortcut is
-> killed. The next gate must derive two continuum endpoint evaluations and
-> primitive epsilon preboundary momenta from the action, then dress both copies
-> without compression before global BFV, polarization or common-domain claims.
+> Ledger v0.74 composes the already-exact primitive-epsilon endpoint traces
+> with two independent K77 endpoint dressings. The local trace map has rank two
+> and the direct sum recovers the full v0.70 `40/40` quotient; the v0.73
+> single-holonomy `20/20` result remains a compression no-go. Hostile review
+> keeps epsilon ownership open: the primitive coefficient is
+> `i_n(E_B-E_T)`, while the contact coefficient is `p=KT`. The next gate is
+> their coefficientwise equality on both endpoints and all ten normals, not
+> another edge field or endpoint map. Only a pass opens full `tau_A0`, global
+> BFV, polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -129,8 +130,9 @@ updated_at: "2026-08-08"
 > remains source/action-unselected, but the alternative minimal edge extension
 > and its finite local quotient are now exact. v0.71 closes the separate
 > edge-bundle/tilted cocycles, v0.72 supplies the universal symplectic
-> dressing, and v0.73 types the actual K77 group while killing the
-> single-holonomy compression. The current continuum-endpoint owner gate is below.
+> dressing, v0.73 types the actual K77 group while killing single-holonomy
+> compression, and v0.74 recovers the direct-sum `40/40` endpoint geometry.
+> The current action-momentum weld is below.
 
 > **2026-08-08 K77 MINIMAL EDGE-MODE REDUCTION (ledger v0.70).**
 > [`explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`](explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md)
@@ -156,11 +158,19 @@ updated_at: "2026-08-08"
 > proves kernel equality, then finds that one connection holonomy retains only
 > the Gauss-diagonal `20/20` half of the v0.70 `40/40` endpoint quotient.
 
-> **NEXT RUN: CONTINUUM ENDPOINT AND PRIMITIVE EPSILON OWNER.** Derive both
-> continuum boundary evaluation maps and their primitive epsilon preboundary
-> momenta from the selected action. Apply direct-sum K77 dressing without
-> holonomy compression, then prove full `tau_A0`, global moment-map/kernel and
-> BFV/common-domain descent. Symplectic review remains mandatory.
+> **2026-08-08 EPSILON ENDPOINT DIRECT SUM (ledger v0.74).**
+> [`explorations/conditional-build/selected-k77-epsilon-endpoint-direct-sum-2026-08-08.md`](explorations/conditional-build/selected-k77-epsilon-endpoint-direct-sum-2026-08-08.md)
+> proves that v0.25 already supplied two locally independent endpoint traces
+> and that two nonlinear endpoint copies recover the complete v0.70 `40/40`
+> quotient. It does not identify `i_n(E_B-E_T)` with `p=KT`.
+
+> **NEXT RUN: EPSILON GREEN / CONTACT MOMENTUM WELD.** Compute
+> `i_n(E_B-E_T)=p_KT` coefficientwise on the same selected action, endpoint
+> orientation, invariant trace, observation receiver and ten K77 normal cells.
+> If it passes, retype the edge coordinates as existing epsilon traces and
+> continue to full `tau_A0`/global BFV. If it fails, retain the direct-sum
+> geometry with an independent boundary edge field. Symplectic review remains
+> mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

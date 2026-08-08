@@ -15,13 +15,12 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.73. The actual K77
-`P_H=Spin(C) x U(64,64)` owner admits an exact source/target cotangent
-dressing whose kernel equals the full endpoint gauge orbit. One holonomy,
-however, retains only the Gauss-diagonal `20/20` half of the v0.70 `40/40`
-endpoint quotient. Two action-derived continuum endpoint evaluations and
-primitive epsilon preboundary momenta remain open. See
-`selected-k77-two-endpoint-edge-dressing.json`.
+Current append-only progress surface: ledger v0.74. The primitive-epsilon
+Green identity already has two locally independent endpoint traces, and two
+independent nonlinear K77 endpoint dressings recover the full v0.70 `40/40`
+quotient. The remaining local owner is the coefficientwise action weld
+`i_n(E_B-E_T)=p_KT`; full `tau_A0`/global BFV remains open. See
+`selected-k77-epsilon-endpoint-direct-sum.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -140,9 +139,15 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.73.json` - current append-only conditional
-  physics ledger after exact K77 source/target cotangent basicness and the
-  single-holonomy `40 -> 20` compression kill.
+- `conditional-physics-ledger-v0.74.json` - current append-only conditional
+  physics ledger after exact endpoint trace composition and direct-sum
+  `40/40` recovery, with the action-momentum weld still open.
+- `selected-k77-epsilon-endpoint-direct-sum.json` - records the local trace
+  rank, exact direct-sum kernel/quotient and unproved
+  `i_n(E_B-E_T)=p_KT` condition.
+- `conditional-physics-ledger-v0.73.json` - predecessor ledger after exact K77
+  source/target cotangent basicness and the single-holonomy `40 -> 20`
+  compression kill.
 - `selected-k77-two-endpoint-edge-dressing.json` - records the exact K77 group
   owner, two-endpoint kernel theorem, Gauss-diagonal fence and open continuum
   endpoint/primitive-epsilon owner.

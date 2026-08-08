@@ -7,6 +7,14 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 epsilon endpoint direct sum (2026-08-08)
+
+`conditional-build/selected-k77-epsilon-endpoint-direct-sum-2026-08-08.md`
+composes the already-exact primitive-epsilon endpoint traces with two
+independent nonlinear K77 endpoint dressings. The direct sum recovers the
+complete local `40/40` quotient, but the coefficientwise action weld
+`i_n(E_B-E_T)=p_KT` remains open. Ledger v0.74 moves no headline count.
+
 ## K77 two-endpoint edge dressing (2026-08-08)
 
 `conditional-build/selected-k77-two-endpoint-edge-dressing-2026-08-08.md`
