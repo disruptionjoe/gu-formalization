@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.97 common metric coefficient bank:** emit fixed-`varpi`
+> `D_g Upsilon` as `-D_gB_LC`, not by applying the full `D_varpi` response to
+> `-D_gB_LC`. The exact common carrier bank has four rank-nine principal maps,
+> combined rank twenty and rank-six causal transverse restrictions. Its
+> torsion graph with `varpi` cancels. The v0.84 rank-four Ward metric orbit was
+> defined from `JR=0`; it is not the actual rank-three physical metric orbit.
+> Their discrepancy and the current `g+varpi+gamma-epsilon` Ward defect are
+> rank four. Build complete primitive `D_epsilon Upsilon` and physical
+> diffeomorphism transport next, then retest `JR=0` before extending the v0.96
+> equation-dual/Green construction. Ledger v0.97.
+
 > **Current v0.96 common-field adjoint/Green ownership gate:** the actual
 > 24-dimensional horizontal `D_varpi Upsilon` coefficient bank has four
 > rank-13 principal pieces and rank-24 zero-order piece. `K_loc` gives a

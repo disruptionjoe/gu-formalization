@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.97; five
+distance/evidence migrations; headline unchanged).** The fixed-`varpi`
+`D_g Upsilon` derivative is now emitted on the same all-grade carrier as
+`D_varpi Upsilon`: four rank-nine principal banks, combined rank-twenty
+torsion-free image, and rank-six transverse blocks in every causal class.
+The physical metric and independent-`varpi` torsion graph cancels exactly.
+Direct comparison rejects the prior identity-defined rank-four Ward metric
+completion as the physical rank-three Levi-Civita orbit; the current
+`g+varpi+gamma-epsilon` principal Ward defect has rank four in timelike,
+spacelike and null classes. The metric bank survives. Complete primitive
+`D_epsilon Upsilon` and physical diffeomorphism transport are next; only then
+may the v0.96 `K_loc` equation-dual/Green result be extended. No verdict,
+residue, quotient, datum, canon or posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.96; five
 distance/evidence migrations; headline unchanged).** The actual horizontal
 `D_varpi Upsilon` operator is now a four-direction first-order coefficient

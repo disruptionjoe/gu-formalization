@@ -12,6 +12,13 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_common_metric_dupsilon_coefficient_bank_audit.py` enforces
+  ledger v0.97's four rank-nine common metric banks, combined rank-twenty and
+  all-causal transverse rank-six result, exact metric/varpi torsion graph,
+  rejection of the identity-defined Ward metric owner, measured rank-four
+  physical defect, source/symplectic/analytic fences and the complete
+  primitive-epsilon/diffeomorphism successor.
+
 - `selected_k77_common_field_formal_adjoint_green_audit.py` enforces ledger
   v0.96's actual four-direction source-varpi coefficient bank, exact
   covector-valued `K_loc` formal adjoint and Green current, fail-closed missing

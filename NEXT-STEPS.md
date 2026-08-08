@@ -7,6 +7,19 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 COMMON METRIC RESIDUAL-COORDINATE BANK (ledger v0.97).**
+> The fixed-`varpi` `D_g Upsilon` bank now shares the actual all-grade carrier
+> with `D_varpi`: four rank-nine principal maps, complete rank-twenty
+> covariant first-jet image, and rank-six causal transverse blocks. The
+> physical metric and `varpi` torsion graph cancels exactly. The earlier
+> rank-four Ward metric orbit was identity-defined, not the physical
+> rank-three Levi-Civita orbit; their discrepancy and the current physical
+> principal Ward defect are rank four in all causal classes. Next construct
+> complete primitive `D_epsilon Upsilon` and physical diffeomorphism transport,
+> retest common `J R=0`, and only then extend the `K_loc` formal-adjoint/Green
+> construction. Keep selected Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct.
+
 > **2026-08-08 COMMON-FIELD ADJOINT/GREEN OWNERSHIP GATE (ledger v0.96).**
 > The actual 24-component horizontal `D_varpi Upsilon` bank has four
 > rank-13 principal coefficients, a rank-24 zero-order coefficient, and an

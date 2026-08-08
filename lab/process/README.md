@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.97. The physical fixed-`varpi`
+`D_g Upsilon` bank now shares the actual all-grade carrier with `D_varpi` and
+has four rank-nine principal maps, combined rank twenty, and rank-six causal
+transverse blocks. Its torsion graph with `varpi` cancels exactly. The prior
+rank-four Ward metric completion was identity-defined rather than the actual
+rank-three Levi-Civita orbit; the current principal Ward defect is rank four.
+Complete primitive `D_epsilon Upsilon` and physical diffeomorphism transport
+are next. See `selected-k77-common-metric-dupsilon-coefficient-bank.json`.
+
 Current append-only progress surface: ledger v0.96. The actual horizontal
 `D_varpi Upsilon` bank has four rank-13 principal coefficients, rank-24
 zero-order coefficient, and an exact nonzero covector-valued `K_loc` Green

@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 common metric residual-coordinate bank (2026-08-08)
+
+`conditional-build/selected-k77-common-metric-dupsilon-coefficient-bank-2026-08-08.md`
+emits the physical fixed-`varpi` metric derivative on the actual all-grade
+residual carrier: four rank-nine principal banks, combined rank twenty, and
+rank-six causal transverse restrictions. It rejects the prior
+identity-defined rank-four Ward metric orbit as the physical rank-three
+Levi-Civita orbit, leaving a measured rank-four primitive-epsilon/
+diffeomorphism transport gate. Ledger v0.97 keeps the selected Spin-native,
+two-`U(32,32)`-half and full-`U(64,64)` action parents distinct.
+
 ## K77 common-field formal-adjoint and Green ownership gate (2026-08-08)
 
 `conditional-build/selected-k77-common-field-formal-adjoint-green-2026-08-08.md`
