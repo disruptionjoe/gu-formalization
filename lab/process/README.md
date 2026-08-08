@@ -15,12 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.64. The action-owned
+Current append-only progress surface: ledger v0.65. The action-owned Euler pair
+has an exact moving indefinite-primalizer and complete observation-germ Green
+receiver; target, section, primalizer and Euler terms are independently live.
+Ordinary pullback retains rank-ten conormal loss. The source-native normal
+Euler jet and antisymmetrized symplectic/BFV descent remain open. See
+`selected-k77-moving-action-green-receiver.json`.
+
+Predecessor append-only progress surface: ledger v0.64. The action-owned
 degree-fourteen epsilon companion is exact from both connection Euler owners
-plus moving Shiab, and is distinct from printed `Xi`, homogeneous Ward and
-presymplectic/BFV objects. The full moving Hodge/Krein/section observation
-Green insertion remains open. See
-`selected-k77-action-owned-degree14-companion.json`.
+plus moving Shiab and is distinct from printed Xi and homogeneous Ward.
 
 Predecessor append-only progress surface: ledger v0.63. The graph carrier is
 typed as a primalized degree-one form, printed Xi is rank-zero redundancy

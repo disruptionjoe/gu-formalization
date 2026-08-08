@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "MOVING_COMPLETE_GERM_ACTION_GREEN_EXACT__SOURCE_NATIVE_NORMAL_JET_OPEN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.65.json",
+  "source_return": "SOURCE-CORRECTS__OBSERVATION_RICHER_THAN_NAIVE_PULLBACK__SOURCE-SILENT__SELECTED_ACTION_NORMAL_EULER_JET",
+  "layer0": {
+    "density_euler": "VARIATIONAL_COVECTOR",
+    "primalized_euler": "FIELD_LIKE_IMAGE_UNDER_INDEFINITE_INVERSE_LOWERER",
+    "complete_observation": "VALUE_PLUS_TANGENTIAL_PLUS_DEPENDENT_NORMAL_FIRST_JET",
+    "ordinary_pullback": "TANGENTIAL_ONLY__RANK_TEN_CONORMAL_KERNEL_ON_ACTUAL_K77_GRAPH",
+    "green": "PREBOUNDARY_FIELD_SPACE_ONE_FORM",
+    "presymplectic": "ANTISYMMETRIZED_SECOND_VARIATION__OPEN"
+  },
+  "exact": {
+    "action_coefficient_directions": 9,
+    "factorized_receiver_rank": 45,
+    "moving_target_live": true,
+    "moving_section_live": true,
+    "moving_primalizer_live": true,
+    "moving_euler_live": true,
+    "degree14_inverse_density_live": true,
+    "green_flux_nonzero": true,
+    "frozen_lowerer_rejected": true,
+    "frozen_section_rejected": true,
+    "independent_sage_flint_lowerer_check": true,
+    "actual_k77_conormal_kernel_rank": 10
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "open": {
+    "source_native_normal_euler_jet": true,
+    "antisymmetrized_presymplectic_current": true,
+    "physical_bfv_quotient": true,
+    "common_krein_domain": true
+  },
+  "p1_p2_p3": "UNCHANGED_AND_UNUSED",
+  "next_gate": "SOURCE_NATIVE_NORMAL_JET_OF_ACTION_EULER__THEN_ANTISYMMETRIZE_COMPLETE_GREEN_POTENTIAL"
+}

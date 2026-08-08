@@ -1994,3 +1994,13 @@ Euler equation distinct from printed `D Upsilon`, the zero homogeneous Ward
 contraction and any antisymmetrized presymplectic/BFV object. It requires the
 moving K77 observation insertion to remain open and freezes verdicts, residue,
 quotients, P1/P2/P3, canon and posture.
+
+## K77 moving action-Green receiver v0.65 gate
+
+`selected_k77_moving_action_green_receiver_scope_audit.py` requires the
+moving target, section, indefinite primalizer and action Euler terms to remain
+independently live. It requires exact complete-germ first-variation and Green
+transport while preserving ordinary pullback's rank-ten conormal loss. It
+keeps the source-native normal Euler jet, antisymmetrized current, BFV quotient
+and common domain open and freezes verdicts, residue, quotients, P1/P2/P3,
+canon and posture.

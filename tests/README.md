@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (409 Python + 30 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 action-owned degree-fourteen companion probe and ledger-v0.64 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (411 Python + 30 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 moving action-Green receiver probe and ledger-v0.65 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -1895,4 +1895,20 @@ migrates five rows without moving verdicts, residue, quotients or P1/P2/P3.
 uv run --with sympy==1.14.0 --with numpy python -u \
   tests/channel-swings/selected_k77_action_owned_degree14_companion_probe.py
 python3 tests/channel-swings/conditional_physics_ledger_v064_probe.py
+```
+
+## K77 moving action-Green receiver and ledger v0.65
+
+`channel-swings/selected_k77_moving_action_green_receiver_probe.py` tensors
+the exact action coefficient fixture with the moving indefinite primalizer and
+complete observation germ. It verifies the four-term moving derivative,
+degree-fourteen inverse-density response and nonzero-flux Green identity, with
+firing frozen-factor controls and retained ordinary-pullback conormal loss.
+The ledger probe migrates five rows without moving verdicts, residue, quotients
+or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_moving_action_green_receiver_probe.py
+python3 tests/channel-swings/conditional_physics_ledger_v065_probe.py
 ```

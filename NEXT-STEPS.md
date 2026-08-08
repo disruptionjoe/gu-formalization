@@ -12,13 +12,13 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.64 derives the action-owned degree-fourteen epsilon companion as
-> `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`. Both degree-thirteen connection Euler
-> owners and moving Shiab are independently live. This object is neither the
-> source-printed `D Upsilon` redundancy nor the homogeneous Ward identity.
-> The remaining sequence is coefficientwise moving Hodge/Krein/section
-> observation Green insertion, then antisymmetrized symplectic/BV/common-domain
-> descent.
+> Ledger v0.65 transports the action-owned Euler pair through the moving
+> indefinite primalizer and complete observation germ. Target, section,
+> primalizer and Euler derivatives are independently forced, and the moving
+> Green identity closes with nonzero flux. Ordinary pullback still loses the
+> rank-ten K77 conormal sector. The remaining sequence is the selected
+> source-native normal Euler jet, then antisymmetrized
+> symplectic/BV/common-domain descent.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -85,11 +85,16 @@ updated_at: "2026-08-07"
 > moving-Shiab orbit covector. Exact entrywise differentiation rejects each
 > omission and the naive `D_A E_T` replacement.
 
-> **NEXT RUN: MOVING ACTION-EULER GREEN IDENTITY.** Insert the v0.64 companion
-> coefficientwise while varying Hodge/Krein, Shiab, background, target, metric
-> section, labelled reduction and reciprocal null label together. No reduced
-> symplectic, BV/BFV or common-domain promotion precedes that construction.
-> Symplectic review is mandatory.
+> **2026-08-08 MOVING ACTION-EULER GREEN RECEIVER (ledger v0.65).**
+> [`explorations/conditional-build/selected-k77-moving-action-green-receiver-2026-08-08.md`](explorations/conditional-build/selected-k77-moving-action-green-receiver-2026-08-08.md)
+> proves the universal complete-germ transport and Green identity with all
+> moving factors live. Ordinary pullback remains nonfaithful on the conormal
+> sector.
+
+> **NEXT RUN: SOURCE-NATIVE NORMAL EULER JET.** Compute the ambient normal first
+> jet of the selected action Euler operator on the admitted metric section,
+> insert it into the complete-germ receiver, and only then antisymmetrize the
+> action-owned Green potential. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

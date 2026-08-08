@@ -8,7 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.64; five
+**Current Build/Compose result 2026-08-08 (ledger v0.65; five
+distance/mapping-grade/evidence migrations).** The action-owned Euler package
+now transports exactly through the moving indefinite primalizer, target and
+complete value-plus-first-jet observation germ. All nine action-coefficient
+directions obey the four-term moving derivative, and the action-density Green
+identity closes with nonzero flux only when lowerer and section motion are
+retained. Ordinary pullback still loses the rank-ten K77 conormal sector. The
+selected source-native normal Euler jet, antisymmetrized current and
+symplectic/BFV/common-domain descent remain open. No verdict, residue,
+quotient, datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.64; five
 distance/mapping-grade/evidence migrations).** The action-owned
 degree-fourteen epsilon companion is now exact:
 `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`. All nine independent epsilon directions

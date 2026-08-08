@@ -14,16 +14,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> Ledger v0.64 derives the action-owned degree-fourteen epsilon Euler companion
-> as `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`. Both degree-thirteen connection
-> Euler owners and moving Shiab are independently live; the naive `D_A E_T`
-> replacement fails. This is distinct from v0.63's printed `D Upsilon`
-> redundancy and from homogeneous Ward. The moving Hodge/Krein/section
-> observation Green insertion and antisymmetrized symplectic/BFV descent remain
-> open. Keep
+> Ledger v0.65 transports the v0.64 action-owned Euler pair through the moving
+> indefinite primalizer, target and complete value-plus-first-jet observation
+> germ. Target, section, primalizer and Euler derivatives are independently
+> live, and the action-density Green identity closes with nonzero flux.
+> Ordinary pullback retains the rank-ten K77 conormal kernel. The selected
+> source-native normal Euler jet and antisymmetrized symplectic/BFV descent
+> remain open. Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> moving action-Euler Green construction, then reduced
+> source-native normal Euler jet, then antisymmetrized and reduced
 > symplectic/BV descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
@@ -55,8 +55,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > derivative and the rank-650 boundary symbol. Ledger v0.63 separates its
 > primalized one-form from the source density, proves printed Xi is redundant,
 > and locates a formal Green owner. Ledger v0.64 derives the action-owned
-> degree-fourteen epsilon companion; its moving observation insertion remains
-> open.
+> degree-fourteen epsilon companion. Ledger v0.65 gives it an exact moving
+> complete-germ Green receiver while retaining ordinary-pullback conormal loss.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -107,7 +107,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
 > next gate is the functional-contract moving Hodge/Krein/section observation
-> Green insertion for the v0.64 action-owned companion
+> source-native normal Euler jet for the v0.65 complete-germ receiver
 > using the unique all-grade graph and labelled null screen; historical campaign-local
 > pointers are not queue truth.
 
@@ -164,7 +164,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > v0.55/v0.56 coefficient packets or forget `gamma_epsilon` before its
 > variational degeneracy is derived. Preserve v0.63's degree-one versus
 > degree-thirteen carrier correction, printed-Xi redundancy and formal Green
-> owner. Preserve v0.64's exact action-owned epsilon companion and the
+> owner. Preserve v0.64's exact action-owned epsilon companion and v0.65's
+> exact moving complete-germ Green receiver, including ordinary-pullback
+> conormal loss, and preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
 > full-response graph, conormal derivative and live principal symbol; do not
@@ -172,10 +174,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > inverse, full linearized superconnection Bianchi identity and labelled
 > ambient rank-12 `(6,6)` null screen. Do not restore the superseded
 > curvature-only lifts, and do not promote the source-silent conditional
-> `-J_2D` target to a derivation. Insert the v0.64 degree-fourteen companion
-> while moving observation Hodge/Krein,
-> connection, soldering, `gamma_epsilon` and reciprocal null label together.
-> Antisymmetrize the Green current before any reduced symplectic, BV or
+> `-J_2D` target to a derivation. Construct the selected action's source-native
+> normal first Euler jet on the admitted section and insert it into the v0.65
+> complete-germ receiver while retaining `gamma_epsilon` and the reciprocal
+> null label. Then antisymmetrize the Green current before any reduced symplectic, BV or
 > physical claim. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.

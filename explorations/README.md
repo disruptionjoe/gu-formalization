@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 moving action-Green receiver (2026-08-08)
+
+`conditional-build/selected-k77-moving-action-green-receiver-2026-08-08.md`
+proves the four-term moving complete-germ equation receiver and action-density
+Green identity after tensoring with all nine action-coefficient directions.
+Ordinary pullback retains rank-ten conormal loss; the source-native normal
+Euler jet and antisymmetrization remain open. Ledger v0.65 records no verdict
+or residue movement.
+
 ## K77 action-owned degree-fourteen companion (2026-08-08)
 
 `conditional-build/selected-k77-action-owned-degree14-companion-2026-08-08.md`
