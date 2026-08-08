@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## Conditional K77 residual pairing (2026-08-08)
+
+`conditional-build/selected-k77-residual-pairing-invariance-2026-08-08.md`
+constructs the local degree-thirteen-Hodge times Clifford-trace bilinear. It
+has exact rank 1,470 and inertia `(741,729,0)` on the frozen response. Full-H
+invariance selects one grade-weight line; Spin-only leaves three. The formal
+adjoint, Green identity, positive/domain and symplectic/BFV layers remain
+open. Ledger v0.92 changes no verdict, residue, quotient, datum, canon or
+posture.
+
 ## K77 action/Frechet/Ward object separation (2026-08-08)
 
 `conditional-build/selected-k77-action-frechet-ward-object-separation-2026-08-08.md`

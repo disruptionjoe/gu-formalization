@@ -7,11 +7,21 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.91. The v0.77 first-action
+Current append-only progress surface: ledger v0.92. The local K77 residual
+pairing `K_loc` is conditionally exact and nondegenerate on all 1,470 frozen
+source directions, with inertia `(741,729,0)`. Full-H adjoint invariance
+selects equal grade weights up to the already-counted `source_norm`; Spin-only
+would revive two ratios. This is not a positive state space, formal adjoint,
+Green identity or analytic domain. Reuse the v0.85 principal transverse six;
+Build now owns lower-order complete physical `D_g Upsilon`, coefficientwise
+naturality, formal adjoint and Green. See
+`selected-k77-residual-pairing-invariance.json`.
+
+Predecessor append-only progress surface: ledger v0.91. The v0.77 first-action
 Euler bank is complete and is not the residual Jacobian. Stationary residual
 naturality fixes four physical Ward-orbit columns, while exact rank-six
 transverse additions prove those columns do not determine full `J`. Build now
-owns the six transverse K77 `D_g Upsilon` columns and residual `K`, followed
+owned the six transverse K77 `D_g Upsilon` columns and residual `K`, followed
 by formal adjoint, Green and symplectic/domain descent. K77 is the unique MW
 horn only conditional on the real-chiral-carrier requirement. See
 `selected-k77-action-frechet-ward-object-separation.json`.

@@ -24,10 +24,20 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.91.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.91.md`.
+`lab/process/conditional-physics-ledger-v0.92.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.92.md`.
 
-Current action/Frechet/Ward correction: the complete v0.77 pointwise bank is
+Current residual-pairing correction: the conditional local K77 pairing
+`Hodge13 x scalar-Clifford-trace` is exact and nondegenerate on all 1,470
+frozen source directions, with inertia `(741,729,0)`. Full-H adjoint
+invariance forces equal weights on grades 1, 2 and 5, leaving the existing
+`source_norm`; Spin-only covariance would revive two relative ratios. This is
+not a positive norm, formal adjoint, Green identity, global bundle, contour,
+or analytic domain. Reuse the v0.85 principal augmented-torsion transverse
+six. Build now owns the lower-order complete physical `D_g Upsilon` columns
+and coefficientwise naturality, followed by formal adjoint and Green.
+
+Predecessor action/Frechet/Ward correction: the complete v0.77 pointwise bank is
 the first-action Euler covector `dI1`; it is not the raw residual Jacobian
 `J=D Upsilon`. Equivariant-residual naturality gives
 `J R=rho Upsilon`, so the four physical orbit columns vanish at a

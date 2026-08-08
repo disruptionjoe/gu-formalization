@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.92 residual-pairing construction:** use
+> `K_loc = Hodge13 x scalar-Clifford-trace` on grades 1, 2 and 5 only as a
+> conditional local K77 bilinear. It has exact rank 1,470 and inertia
+> `(741,729,0)` on the frozen source response: nondegenerate, indefinite.
+> Full-H adjoint invariance forces equal grade weights; Spin-only leaves two
+> relative ratios, which must revive if full H is reduced. Never call this a
+> positive norm, fundamental symmetry, formal adjoint, Green identity, global
+> residual bundle or analytic domain. Reuse v0.85's principal transverse six.
+> Build lower-order complete physical `D_g Upsilon` and full coefficientwise
+> naturality next, then formal adjoint/Green. Symplectic review remains
+> mandatory. Ledger: v0.92.
+
 > **Current v0.91 action/Frechet/Ward object separation:** v0.77 already
 > completes the first-action Euler covector `dI1`; never relabel it as the raw
 > residual Jacobian `J=D Upsilon`. Residual naturality gives

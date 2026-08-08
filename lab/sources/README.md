@@ -9,6 +9,10 @@ updated_at: "2026-08-08"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-residual-pairing-source-reinspection-2026-08-08.md`](selected-k77-residual-pairing-source-reinspection-2026-08-08.md)
+  records `SOURCE-CONFIRMS` for the norm-square and adjoint arena and
+  `SOURCE-SILENT` for the real K77 pairing selection and analytic domain.
+
 - [`selected-k77-action-frechet-ward-object-separation-source-reinspection-2026-08-08.md`](selected-k77-action-frechet-ward-object-separation-source-reinspection-2026-08-08.md)
   records `SOURCE-CONFIRMS` for the first-action/residual grammar and authorial
   `(1,3)+(6,4)=(7,7)` arena, and `SOURCE-SILENT` for the full residual

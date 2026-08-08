@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.92; five
+distance/evidence migrations; headline unchanged).** A conditional local K77
+residual pairing is now exact: degree-thirteen Hodge pairing times scalar
+Clifford trace on grades 1, 2 and 5. Its restriction to all 1,470 frozen
+source directions has exact rank 1,470 and inertia `(741,729,0)`, so it is
+nondegenerate but indefinite. Full-H adjoint invariance collapses three grade
+weights to the already-counted overall `source_norm`; Spin-only covariance
+would revive two relative weights. The source confirms the norm-square and
+adjoint arena but is silent on this K77 selection and the analytic domain.
+The v0.85 principal augmented-torsion transverse six are reused. Lower-order
+complete `D_g Upsilon`, coefficientwise naturality, formal adjoint, Green,
+positive/domain and symplectic/BFV descent remain open. No verdict, residue,
+quotient, datum, canon or public-posture change is claimed.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.91; five
 distance/evidence migrations; headline unchanged).** The queue's “selected-
 action Frechet bank” was two different objects. v0.77 already completes the
