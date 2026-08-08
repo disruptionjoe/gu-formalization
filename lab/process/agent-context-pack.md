@@ -757,6 +757,10 @@ construction. A wave that cannot answer them is not started.
    `lab/process/layer0-fork-registry.yaml`. State what it costs if the other
    horn is right. (Waves D–J stacked seven constructions on a real-form fork
    that Wave K then flipped; that is the price of skipping this.)
+   **And if a path-dependency chain covers it, name the chain**
+   (`lab/process/path-dependencies.md`) — those carry the *dated traps*, i.e.
+   the mistakes agents have actually made on that horn. This is a pointer, not
+   a required read: check whether a chain exists, and only then read it.
 2. **WHAT IS THE DIMENSION OF THE SPACE YOU ARE ABOUT TO SEARCH — and can you
    decide the question by COMPUTING THAT DIMENSION AND EXCLUDING WHOLESALE,
    rather than testing candidates one at a time?** Precedents, all in-repo:

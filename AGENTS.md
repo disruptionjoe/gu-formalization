@@ -44,6 +44,11 @@ GitHub is the routine versioning surface when Joe has authorized repo work. No n
 - Local Lean/Lake builds follow the workspace Local Resource Safety rule (JB-root `AGENTS.md`): run serialized, one build machine-wide, and use low-parallelism controls where the active Lake version supports them. Do not overlap Lean runs across agent sessions. Higher parallelism needs explicit Joe approval.
 - On Windows, GU Lean/Lake commands use `lab/automation/check-lean.ps1`. Its exclusive lock is host-local, not cross-computer, and Lake 5 no longer accepts the historical `lake build -j1` form. Other hosts need an equivalent runner-native single-build lock and any supported low-parallelism control; no direct `lake` invocation may bypass the applicable lock policy.
 
+Before assuming a fork horn or citing a blocker, check
+`lab/process/path-dependencies.md` for a chain covering it — those carry the
+**dated traps**, the mistakes agents have actually made there. Pointer, not a
+required read.
+
 ## Functional Channel Operating Contract
 
 After `LANES.yaml`, read

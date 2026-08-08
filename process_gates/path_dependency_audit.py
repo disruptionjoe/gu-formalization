@@ -43,6 +43,7 @@ RENDERED = ROOT / "lab/process/path-dependencies.md"
 REQUIRED = ("id", "headline", "trigger", "naive", "chain", "check",
             "traps", "invalidates_if", "related")
 GRADES = {"EXACT", "THEOREM", "AUTHOR-STATED", "CONDITIONAL", "OPEN"}
+CHAIN_CAP = 8  # overbuild protection; see test_chain_count_is_capped
 
 
 def load() -> dict:
@@ -123,6 +124,24 @@ class PathDependencyAudit(unittest.TestCase):
         cls.doc = load()
         cls.chains = cls.doc["chains"]
         cls.ids = {c["id"] for c in cls.chains}
+
+    def test_chain_count_is_capped(self) -> None:
+        """The overbuild protection, and the only one that has ever worked.
+
+        This repository has 272 files in process_gates/ and about three are
+        named as run every wave. Growth was free, so it happened. A hard cap
+        forces the question 'is this chain more valuable than the weakest
+        current one?', which nobody asks otherwise.
+        """
+        print(f"\n[cap] {len(self.chains)}/{CHAIN_CAP} chains")
+        self.assertLessEqual(
+            len(self.chains), CHAIN_CAP,
+            f"path-dependencies.yaml is capped at {CHAIN_CAP} chains. "
+            "Adding another requires RETIRING one -- that is the point of the "
+            "cap. Do not raise it without a council; the 272-gate directory is "
+            "what happens when growth is free.")
+        if len(self.chains) == CHAIN_CAP:
+            print("      AT CAP -- the next chain must replace one, not extend.")
 
     def test_schema_is_complete(self) -> None:
         print(f"\n[schema] {len(self.chains)} chains")

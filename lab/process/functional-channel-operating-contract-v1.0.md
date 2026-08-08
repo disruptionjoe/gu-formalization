@@ -531,6 +531,15 @@ are the standing two-sided charge; the third was added 2026-08-08.
    `survives` or `needs-recheck`. An empty list is a valid answer and must be
    stated as one, not left implicit.
 
+**Trap capture (2026-08-08).** If the review found a mistake **an agent would
+plausibly repeat**, file it as a dated trap in `lab/process/path-dependencies.yaml`
+— `date`, `what`, `cost`, `receipt` — against an existing chain, or say why no
+chain fits. This is an *output of the review*, not a separate ritual: reviews are
+where traps are discovered, and a trap recorded anywhere else is not indexed by
+the mistake a future agent is about to make. **The file is capped at 8 chains**;
+adding a ninth requires retiring one, so most traps attach to a chain that
+already exists rather than creating a new one.
+
 Charge 3 exists because propagation has tracked the settlement MECHANISM rather
 than the result's importance. `IMPOSTER-LABEL-AB` was settled through hostile
 review on 2026-08-03 and propagated the same day, because a hostile review emits
