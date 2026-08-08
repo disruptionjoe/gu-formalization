@@ -679,6 +679,14 @@ lab/process/hinge-panel-synthesis-2026-08-03.md.
 - lab/process/queue-reviews/ — the QUEUE review (PRE-1 across all live forks,
   not per wave); RED at 5 unreviewed dispositions
   (process_gates/queue_review_freshness_audit.py).
+- explorations/over-determined-rows-review-considerations-2026-08-07.md —
+  deposited review findings on the six OVER_DETERMINED rows. **Changes no
+  priority and no queue rank; do not reorder on account of it.** Read it when
+  the queue reaches `RA-D2`, `LT-GR1b`, `LT-GR4`, `LT-SM3b`, `AC-F3` or `AC-G1`,
+  or when one of them is being adjudicated. Reading only, no computation: every
+  item is a hypothesis with a stated check and none is citable until executed.
+  Its §0 lists four items that are already the recorded distances — check there
+  first so a wave is not spent re-deriving them.
 
 ## Session hygiene
 
