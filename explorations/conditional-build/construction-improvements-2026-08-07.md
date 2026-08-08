@@ -1,7 +1,7 @@
 ---
 artifact_type: method_improvement
 created: 2026-08-07
-status: FIVE_CONSTRUCTION_IMPROVEMENTS__ONE_LEVER_CLOSED__TARGET_LEDGER_OPENED__COLLISION_REGISTER_OPENED
+status: FIVE_CONSTRUCTION_IMPROVEMENTS__LARGEST_BLOCK_CHARGED_BY_DEFAULT_NOT_CLOSED__TARGET_LEDGER_OPENED__COLLISION_REGISTER_OPENED
 grade: "METHOD plus two small registers. Sections 1, 2 and 3 are method statements
   supported by the reduction history already in the repository. Section 4 books
   four target impositions identified in the 2026-08-07 Test A run. Section 5 is a
@@ -70,26 +70,47 @@ are valuable. But lock-hunting is cheaper per unit of count reduction and carrie
 strictly less risk. It should be a standing channel activity, not an incidental
 by-product.
 
-## 3. The largest block's obvious lever is CLOSED — record it so it is not retried
+## 3. The largest block is charged BY DEFAULT, not by a proved absence of quotient
 
 The provenance Yukawa (`Y_K, Y_C in M_3(C)`, 36 real) is 43% of the continuous
 count and looks like the obvious place for a large field-redefinition quotient.
 
-**It is closed, for a recorded reason.** The unified packet states that
-`Y_K, Y_C` "act on the three **provenance summands**. They are **not generation
-matrices**. The full `3x3` matrices are charged because the older `Z/3` texture
-**cannot be imported** after the multiplicity/index Layer-0 correction."
+Three statuses must be kept apart here, and collapsing them is easy:
 
-So the standard flavor-redefinition counting does not transfer, and the `9 -> 3`
-`Z/3` reduction that applies to `SA-Y4`'s physical Yukawa is a **different
-object**. Anyone reasoning from "Yukawa matrices always have a big redefinition
-quotient" is importing a homonym.
+1. **CLOSED — importing the flavor quotient.** The unified packet states that
+   `Y_K, Y_C` "act on the three **provenance summands**. They are **not
+   generation matrices**. The full `3x3` matrices are charged because the older
+   `Z/3` texture **cannot be imported** after the multiplicity/index Layer-0
+   correction." Standard flavor-redefinition counting does not transfer, and the
+   `9 -> 3` `Z/3` reduction applying to `SA-Y4`'s physical Yukawa is a
+   **different object**. Reasoning from "Yukawa matrices always have a big
+   redefinition quotient" imports a homonym. This disqualification is correct.
+2. **NOT ESTABLISHED — that the block admits no quotient.** The packet
+   disqualifies one *candidate import*. It does not report a search.
+3. **ACTUAL STATUS — charged by default.** Direct search finds **no artifact that
+   has ever looked for a symmetry acting on the provenance summands**. Every
+   in-repo mention of them is either the count row using them as an input or a
+   warning against identifying them with generations.
 
-**What replaces it, and it is well posed:** the remaining lock question on this
-block is whether the *three provenance summands* carry a symmetry of their own.
-That is a question about the provenance decomposition, not about flavor, and it
-has not been asked. It is the highest-value open lock in the ledger by block
-size.
+**This is the over-fencing half of the two-sided charge.** Rigor correctly
+disqualified an import, and the disqualification was then read as a quotient
+result. Under §2 — locks are the only mechanism that has ever reduced this
+ledger — the largest block in the count has never had a lock search at all.
+
+**Why it has not been asked, and why §1 is its prerequisite.** The provenance
+decomposition plausibly depends on the field-space declaration, which is
+`SA-C1` — an open `DECLARATION` row. If so, the symmetry question is
+genesis-dependent in exactly the `N(g)` sense Test B found, and therefore
+**unaskable branch-independently**. The lane has been avoiding branch commitment,
+so the question has stayed invisible rather than been rejected.
+
+Carrying `g` symbolically (§1) makes it askable on both branches at once. That
+composes the three improvements into one path rather than three observations:
+**carry `g`, then run the lock search §2 prescribes, on the largest block §3
+identifies.**
+
+Whether the summands carry their own symmetry is the highest-value open lock in
+the ledger by block size, and it is open — not closed.
 
 ## 4. Target-imposition ledger — opened here, four entries
 
