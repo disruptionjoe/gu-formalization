@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.90 Cartan/Ward composition:** do not ask Build to construct a
+> new primitive epsilon channel. Exact nonabelian Cartan decomposition shows
+> that the flat second connection's contribution to `L_xi(A-B)` is the
+> already-built primitive epsilon variation with `eta=i_xi B`. This is a
+> field-dependent diffeomorphism instance, not an identification of every
+> epsilon variation with a spacetime diffeomorphism. K77 and K95 have distinct
+> Hodge operators and both pass local branch-native naturality. The real next
+> gate is the selected-action Frechet coefficient bank and coefficientwise
+> `J R=0`, followed by `K*`, Green, Krein and symplectic/BFV descent. Ledger:
+> v0.90.
+
 > **Current v0.89 signature-rationale correction:** the released source
 > explicitly uses `Y^(7,7)` and `Spin(7,7)`, so K77 is the author-asserted
 > conditional Eric branch. Its displayed signature tuples are negative-first

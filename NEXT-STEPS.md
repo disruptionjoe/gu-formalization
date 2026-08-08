@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 SIGNATURE-GENERIC CARTAN/WARD COMPOSITION (ledger v0.90).**
+> The nonabelian Cartan identities are exact for a connection and an
+> adjoint-valued one-form. For the flat second connection `B`, its full
+> diffeomorphism response is the already-built primitive epsilon variation
+> with field-dependent parameter `eta=i_xi B`; no new primitive channel is
+> required. K77 and K95 have different Hodge operators but both pass the local
+> naturality checks on their own real forms. Next assemble the selected
+> action's actual Frechet coefficient bank and prove coefficientwise `J R=0`;
+> only then derive `K*`, Green, Krein and symplectic/BFV data. This does not
+> identify every epsilon variation with a spacetime diffeomorphism. No datum,
+> verdict, residue or quotient moves.
+
 > **2026-08-08 SIGNATURE RATIONALE / BUILD BRANCH RETYPE (ledger v0.89).**
 > The source explicitly uses `Y^(7,7)` and `Spin(7,7)`, so K77 remains the
 > author-asserted conditional Eric branch. Its displayed negative-first blocks

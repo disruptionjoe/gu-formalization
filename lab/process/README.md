@@ -7,7 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.89. K77 is the source's
+Current append-only progress surface: ledger v0.90. Exact nonabelian Cartan
+composition shows that the flat second connection's diffeomorphism response
+is the existing primitive epsilon channel at `eta=i_xi B`; the primitive was
+already built. K77 and K95 retain different branch-native Hodge operators but
+both pass local naturality. Build now owns the actual selected-action Frechet
+coefficient bank and coefficientwise `J R=0`, before `K*`, Green, Krein or
+symplectic/BFV descent. See `signature-generic-cartan-ward-compose.json`.
+
+Predecessor append-only progress surface: ledger v0.89. K77 is the source's
 author-asserted conditional branch; K95 is the geometry-derived comparator.
 The next nonhomogeneous Ward Build must be signature-generic where
 tensor-natural and branch-native wherever real-form-dependent structures

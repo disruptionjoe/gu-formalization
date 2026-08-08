@@ -9,6 +9,11 @@ updated_at: "2026-08-08"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`signature-generic-cartan-ward-source-reinspection-2026-08-08.md`](signature-generic-cartan-ward-source-reinspection-2026-08-08.md)
+  records `SOURCE-CONFIRMS` for the two-connection/gauge arena and
+  `SOURCE-SILENT` for the exact Cartan theorem, the field-dependent
+  `eta=i_xi B` identification, and the K77/K95 local naturality checks.
+
 - [`signature-rationale-build-branch-source-reinspection-2026-08-08.md`](signature-rationale-build-branch-source-reinspection-2026-08-08.md)
   records `SOURCE-CORRECTS`: the source explicitly uses K77, while its
   consistently interpreted displayed block arithmetic derives K95.

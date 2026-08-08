@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.89.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.89.md`.
+`lab/process/conditional-physics-ledger-v0.90.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.90.md`.
 
 Current signature-rationale correction: the source explicitly uses
 `Y^(7,7)`, `Spin(7,7)` chirality and a K77 fermionic carrier, so K77 remains
@@ -39,6 +39,15 @@ naturality once only when the proof is explicitly signature-generic.  Hodge,
 Clifford reality, Krein pairing, formal adjoint and domain data are
 branch-native and require separate K77/K95 specialization.  Complexification
 is not a port.
+
+Current Cartan/Ward composition: do not reopen “construct primitive epsilon.”
+Ledger v0.25 already owns its Euler/Green row.  Exact signature-generic
+transport now gives `L_xi A=i_xi F_A+D_A(i_xi A)` and, on the flat pure-gauge
+second connection, `L_xi B=D_B(i_xi B)`, so the field-dependent `B` summand
+composes with that existing row.  K77 and K95 use different Hodge operators;
+both local Hodge/observation packets pass independently.  The remaining Build
+is the actual selected-action Frechet coefficient bank and coefficientwise
+`J R=0`, followed by branch-native Clifford/Krein adjoint, Green and domain.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,

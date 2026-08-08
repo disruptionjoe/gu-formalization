@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `signature_generic_cartan_ward_compose_audit.py` enforces the v0.90
+  Cartan/primitive-epsilon composition, branch-native K77/K95 Hodge split,
+  mandatory specialist review, frozen headline meter and actual-action
+  Frechet successor gate.
+
 - `signature_rationale_build_branch_retype_audit.py` enforces the v0.89
   distinction between author-asserted K77 and geometry-derived K95, the
   unchanged scientific meter, and the branch-aware successor gate.

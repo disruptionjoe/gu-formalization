@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## Signature-generic Cartan/Ward composition (2026-08-08)
+
+`conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md`
+proves the connection and adjoint-one-form Cartan identities exactly, composes
+the flat second connection's field-dependent `eta=i_xi B` response with the
+already-built primitive epsilon channel, and checks local Hodge/naturality
+separately on K77 and K95. The selected-action Frechet bank and
+coefficientwise `J R=0` remain open. Ledger v0.90 changes no verdict, residue,
+quotient, datum, canon or posture.
+
 ## Signature rationale and Build-branch retype (2026-08-08)
 
 `conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md`

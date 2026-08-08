@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/signature_generic_cartan_ward_compose_probe.py` proves the
+  connection and adjoint-one-form Cartan identities, fires curvature/gauge/
+  internal-orbit plants, composes the flat second connection with primitive
+  epsilon at `eta=i_xi B`, and separately checks local K77/K95 Hodge
+  naturality. It passes 204 exact checks.
+- `channel-swings/conditional_physics_ledger_v090_probe.py` validates the
+  append-only five-row Cartan/Ward migration and frozen headline meter.
+
 - `source_signature_branch_rationale_retype.py` independently checks that the
   draft explicitly uses K77 while its displayed signature blocks derive K95;
   it also requires the next Ward gate to be signature-generic/branch-aware.
@@ -737,7 +745,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (462 Python + 53 Sage) | active channel and Lane-1 swing probes; the current count includes the signature-rationale retype, ledger-v0.89 integrity gate, physical-diffeomorphism split, independent Sage route, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (464 Python + 53 Sage) | active channel and Lane-1 swing probes; the current count includes the signature-generic Cartan/Ward composition, ledger-v0.90 integrity gate, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |

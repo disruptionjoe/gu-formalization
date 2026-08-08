@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose result 2026-08-08 (ledger v0.90; five
+distance/evidence migrations; headline unchanged).** Exact nonabelian Cartan
+identities separate curvature transport from internal gauge transport. For
+the source's flat second connection `B`, the `B`-owned term in
+`L_xi(A-B)` equals the existing primitive epsilon channel at
+`eta=i_xi B`; the queue item asking to construct that primitive was stale.
+K77 and K95 retain distinct Hodge stars and each passes branch-native local
+naturality. The actual selected-action Frechet coefficient bank,
+coefficientwise `J R=0`, `K*`, Green, Krein domain and symplectic/BFV descent
+remain open. No identification of all epsilon variations with spacetime
+diffeomorphisms, and no verdict, residue, quotient, datum, canon or public
+posture change is claimed.
+
 **Current Source/Compose/Verify correction 2026-08-08 (ledger v0.89; five
 distance/evidence migrations; headline unchanged).** The released source
 explicitly uses `Y^(7,7)` and `Spin(7,7)`, so `REAL-CLIFFORD-FORM` remains
