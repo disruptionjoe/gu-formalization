@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-07 (ledger v0.62; five
+**Current Build/Compose result 2026-08-08 (ledger v0.63; five
+distance/mapping-grade/evidence migrations).** The selected K77 graph target
+is now correctly typed as a primalized degree-one form. Fixed-background Hodge
+restores the source degree-thirteen `Upsilon` density; its printed
+degree-fourteen `Xi=D Upsilon` columns have supports `16,15,11,11` and rank
+four source-side, but add rank zero after total-`Upsilon` closure. An exact
+invariant-trace comparator has nonzero unrestricted and zero Dirichlet Green
+flux. The printed endpoint remains superseded as the selected action
+derivative, so the action-owned degree-fourteen companion and moving
+Hodge/Krein observation Green map remain open. No verdict, residue, quotient,
+datum, canon or public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-07 (ledger v0.62; five
 distance/mapping-grade/evidence migrations).** The full K77 source response
 remains rank 1,470/nullity zero at the retained labelled null covector, now in
 6,530 output coordinates. All four conditional targets have unique supports

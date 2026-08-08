@@ -7,6 +7,16 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 paired Upsilon/Xi and formal Green owner (2026-08-08)
+
+`conditional-build/selected-k77-paired-upsilon-xi-green-2026-08-08.md`
+corrects the exact graph target from an imprecisely named raw `Upsilon` to its
+primalized degree-one image, restores the degree-thirteen density before
+forming printed degree-fourteen `Xi`, and proves that `Xi` adds rank zero after
+total-`Upsilon` closure. A formal invariant-trace Green identity passes, while
+the action-owned degree-fourteen companion and moving K77 Hodge/Krein map stay
+open. Ledger v0.63 records no verdict or residue movement.
+
 ## K77 labelled-null graph and Euler/preboundary sufficiency (2026-08-07)
 
 `conditional-build/selected-k77-observation-jet-euler-preboundary-sufficiency-2026-08-07.md`

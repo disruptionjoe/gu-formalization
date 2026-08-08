@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "PRINTED_XI_REDUNDANT_BUT_ACTION_PAIR_OPEN",
+  "ledger": "lab/process/conditional-physics-ledger-v0.63.json",
+  "source_return": "SOURCE-CONFIRMS__PRINTED_XI_EQUALS_D_UPSILON_ON_SHELL_REDUNDANCY__REPO-SUPERSEDES__PRINTED_UPSILON_AS_ACTION_DERIVATIVE__SOURCE-SILENT__ACTION_OWNED_DEGREE14_COMPANION_AND_OBSERVATION_KREIN_GREEN_MAP",
+  "layer0": {
+    "exact_graph_output": "HODGE_PRIMALIZED_EXTERIOR_DEGREE1",
+    "source_printed_upsilon": "EXTERIOR_DEGREE13_DENSITY",
+    "source_printed_xi": "EXTERIOR_DEGREE14_COVARIANT_DERIVATIVE",
+    "action_owned_euler": "FRECHET_ADJOINT_DERIVATIVE_DISTINCT_FROM_PRINTED_ENDPOINT",
+    "wrong_order_control": "D_BEFORE_DEPRIMALIZATION_LANDS_IN_DEGREE2"
+  },
+  "printed_pair": {
+    "source_xi_supports": [16, 15, 11, 11],
+    "source_xi_family_rank": 4,
+    "total_upsilon_zero": true,
+    "total_xi_zero": true,
+    "xi_independent_rank_after_upsilon_closure": 0
+  },
+  "formal_green": {
+    "invariant_trace_density_identity": true,
+    "unrestricted_flux_nonzero": true,
+    "dirichlet_flux_zero": true,
+    "actual_k77_krein_equation_dual": false,
+    "antisymmetrized_presymplectic_current": false,
+    "physical_bfv_quotient": false
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "p1_p2_p3": "UNCHANGED_AND_UNUSED",
+  "next_gate": "ACTION_OWNED_DEGREE14_COMPANION_FROM_FRECHET_EULER__THEN_MOVING_HODGE_SECTION_TARGET_GREEN_IDENTITY"
+}

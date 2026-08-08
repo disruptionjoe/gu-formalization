@@ -1974,3 +1974,13 @@ principal symbol. It keeps the symbol distinct from the invariant Green
 current, requires the paired `(Upsilon,Xi)` action/equation dual to remain
 open, includes the mandatory symplectic fence, and freezes verdicts, residue,
 quotients, P1/P2/P3, canon and posture.
+
+## K77 paired Upsilon/Xi and formal Green-owner v0.63 gate
+
+`selected_k77_paired_upsilon_xi_green_scope_audit.py` requires the graph's
+degree-one primalized carrier, the fixed-Hodge degree-thirteen density and the
+printed degree-fourteen Xi companion to remain distinct. It requires exact Xi
+supports `16,15,11,11`, rank-zero dependence after total-Upsilon closure,
+nonzero unrestricted and zero Dirichlet Green flux, and an explicit open flag
+for the action-owned K77 Krein pair and antisymmetrized presymplectic current.
+It freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.

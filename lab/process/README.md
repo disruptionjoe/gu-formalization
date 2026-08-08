@@ -15,12 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.62. The full response remains
-rank 1,470/nullity zero at the retained labelled null covector, all four
-conditional targets have unique lifts, and one conormal graph derivative is
-exact. The source principal symbol is rank 650/nullity 820 and boundary-live.
-The paired `Upsilon/Xi` action/equation dual and invariant Green current remain
-open. See `selected-k77-observation-jet-euler-preboundary-sufficiency.json`.
+Current append-only progress surface: ledger v0.63. The exact graph target is
+a primalized degree-one form; fixed Hodge restores the source degree-thirteen
+density, and printed degree-fourteen `Xi` adds rank zero after total-`Upsilon`
+closure. The formal invariant-trace Green identity is exact. The action-owned
+degree-fourteen companion and moving Hodge/Krein observation map remain open.
+See `selected-k77-paired-upsilon-xi-green.json`.
+
+Predecessor append-only progress surface: ledger v0.62. The labelled-null
+response and one conormal derivative are exact and its rank-650 source symbol
+is boundary-live.
 
 Predecessor append-only progress surface: ledger v0.61. The frozen non-null
 full raw-`Upsilon` response has a unique all-grade inverse and preserves full

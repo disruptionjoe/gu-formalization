@@ -3,27 +3,29 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-07
+updated: 2026-08-08
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-07)
+# Agent context pack (updated 2026-08-08)
 
 > **CURRENT PRIORITY AND LEDGER ACCOUNTING.** The active meter is correctly
 > `82/82 = 32 SAME + 19 DIFFERS + 26 NEEDS + 5 OVER-DETERMINED`. The JSON also
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> Ledger v0.62 extends the unique full raw-`Upsilon` graph to the retained
-> labelled null covector. The null response has rank 1,470 and nullity zero in
-> 6,530 output coordinates; four targets solve uniquely and one conormal graph
-> derivative closes exactly. The source principal symbol has rank 650/nullity
-> 820 and is nonzero on the four graph columns, so the boundary owner is live.
-> The source first variation is paired `(Upsilon,Xi)`; the invariant
-> action/equation dual and moving-observation Green identity remain open. Keep
+> Ledger v0.63 corrects the graph carrier: its output is a primalized
+> degree-one form, while fixed Hodge restores the source degree-thirteen
+> `Upsilon` density before `D Upsilon` lands in degree fourteen. The four
+> source-side `Xi` supports are `16,15,11,11`, but total `Xi` adds rank zero
+> after total-`Upsilon` closure. A formal invariant-trace Green identity has
+> live unrestricted flux. The printed endpoint is still superseded as the
+> action derivative; the action-owned degree-fourteen companion and moving
+> Hodge/Krein observation Green map remain open. Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
-> `10 -> 6 -> 2` physical null quotient. The accepted next sequence is paired
-> action/Green construction, then reduced symplectic/BV descent. Generic carrier search
+> `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
+> action-owned degree-fourteen/moving-Green construction, then reduced
+> symplectic/BV descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -51,8 +53,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > curvature-only graph fails the complete two-term raw `Upsilon`. v0.61
 > replaces that graph with the unique full-response inverse; its target remains
 > conditional. Ledger v0.62 adds the exact labelled-null graph, one conormal
-> derivative and the rank-650 boundary symbol; the paired Euler/Green owner
-> remains open.
+> derivative and the rank-650 boundary symbol. Ledger v0.63 separates its
+> primalized one-form from the source density, proves printed Xi is redundant,
+> and locates a formal Green owner; the action-owned moving pair remains open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -102,8 +105,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract paired `Upsilon/Xi` action-dual and
-> moving-observation Green target
+> next gate is the functional-contract action-owned degree-fourteen companion
+> and moving Hodge/Krein observation Green target
 > using the unique all-grade graph and labelled null screen; historical campaign-local
 > pointers are not queue truth.
 
@@ -158,16 +161,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > paired graph descends, while the horizontal-plane forgetful quotient fails
 > and no invariant-Hom replacement reproduces the targets. Never reuse the old
 > v0.55/v0.56 coefficient packets or forget `gamma_epsilon` before its
-> variational degeneracy is derived. Preserve v0.62's exact labelled-null
+> variational degeneracy is derived. Preserve v0.63's degree-one versus
+> degree-thirteen carrier correction, printed-Xi redundancy and formal Green
+> owner. Preserve v0.62's exact labelled-null
 > full-response graph, conormal derivative and live principal symbol; do not
 > call that symbol a current. Preserve v0.61's exact full-response
 > inverse, full linearized superconnection Bianchi identity and labelled
 > ambient rank-12 `(6,6)` null screen. Do not restore the superseded
 > curvature-only lifts, and do not promote the source-silent conditional
-> `-J_2D` target to a derivation. Insert the unique all-grade graph into the
-> selected first-order action and vary observation section, connection,
-> soldering, `gamma_epsilon` and reciprocal null label together. Derive the
-> Euler covector and preboundary current before any reduced symplectic, BV or
+> `-J_2D` target to a derivation. Derive the degree-fourteen companion from the
+> action-owned Frechet Euler derivative, then move observation Hodge/Krein,
+> connection, soldering, `gamma_epsilon` and reciprocal null label together.
+> Antisymmetrize the Green current before any reduced symplectic, BV or
 > physical claim. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.

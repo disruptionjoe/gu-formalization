@@ -12,12 +12,12 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.62 carries the unique all-grade response to the retained labelled
-> null covector. The null response has rank 1,470 and nullity zero in 6,530
-> output coordinates; all four conditional targets solve uniquely, and one
-> conormal graph derivative closes exactly. The source principal symbol has
-> rank 650 and is live on all four graph columns. The remaining sequence is the
-> paired `Upsilon/Xi` action/equation dual, moving-observation Green identity,
+> Ledger v0.63 corrects the carrier order: the exact graph target is a
+> primalized degree-one form, fixed Hodge restores the source degree-thirteen
+> `Upsilon` density, and `D Upsilon` is degree fourteen. Printed `Xi` has
+> supports `16,15,11,11` but adds rank zero after total-`Upsilon` closure. A
+> formal Green identity is exact. The remaining sequence is the action-owned
+> degree-fourteen companion, moving Hodge/Krein observation Green identity,
 > then reduced symplectic/BV/common-domain descent.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
@@ -73,9 +73,15 @@ updated_at: "2026-08-07"
 > Boundary sensitivity is live, but the source first variation is the paired
 > object `(Upsilon,Xi)` and the invariant Green/equation-dual owner is open.
 
-> **NEXT RUN: PAIRED ACTION DUAL AND MOVING-OBSERVATION GREEN IDENTITY.** Build
-> the paired `Upsilon/Xi` action/equation dual and invariant density/Krein
-> Green pairing, then vary Hodge, Shiab, background, target, metric section,
+> **2026-08-08 PRINTED XI AND FORMAL GREEN OWNER (ledger v0.63).**
+> [`explorations/conditional-build/selected-k77-paired-upsilon-xi-green-2026-08-08.md`](explorations/conditional-build/selected-k77-paired-upsilon-xi-green-2026-08-08.md)
+> separates the degree-one graph image from the degree-thirteen density,
+> verifies the printed degree-fourteen redundancy, and constructs the exact
+> formal invariant-trace Green flux without promoting it to a phase space.
+
+> **NEXT RUN: ACTION-OWNED DEGREE-14 COMPANION AND MOVING GREEN IDENTITY.**
+> Derive the degree-fourteen companion from the actual Frechet-adjoint Euler
+> derivative, then vary Hodge/Krein, Shiab, background, target, metric section,
 > labelled reduction and reciprocal null label together. No reduced
 > symplectic, BV/BFV or common-domain promotion precedes that construction.
 > Symplectic review is mandatory.
