@@ -98,8 +98,19 @@ D2 argues every mass term is a cross-half Dirac pairing because the invariant
 pairing is zero *within* a half, and cites `16 ⊗ 16` zero-weight multiplicity 0.
 In SO(10) the `ν_R` Majorana mass comes from the **126**, and this repository
 separately records `Λ⁵ ⊃ 126` as a Lorentz singlet.
-*Check:* does the program's own `126` supply a channel D2 assumes absent? If yes,
-the six-parameter Schur count is incomplete and the kill does not close.
+*Check:* does the program's own `126` supply a channel D2 assumes absent?
+
+**CORRECTED 2026-08-08 — the second clause overstated.** Verified: what fails is
+**exhaustiveness of the six-parameter family**, not the chirality conclusion. A
+`nu^c` Majorana mass lifts only `G_SM` singlets; it cannot chiralise
+`Q, u^c, d^c, L, e^c`, whose blocks stay square index-zero Dirac maps, and `D3`
+independently forbids same-chirality Majorana masses for charged states
+fork-independently. **The kill closes.** Separately verified: the count itself is
+decorative — `M : 16 -> (16bar)*` is square, so `dim ker = dim coker` identically
+and a mass matrix has index zero for any division algebra, any multiplicity, any
+parameter count. The genuinely real-form-sensitive step is **step 2**, which
+leans on the invariant pairing `B = gamma_{t1}...gamma_{t7}`, specific to (7,7) —
+not step 3 as this file implied.
 
 **1.5 `RA-D2` has no firing negative control.**
 `LT-GR1b` has a strong one (exact counterexample family, nonzero survivors = 0)

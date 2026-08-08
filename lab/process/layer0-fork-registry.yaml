@@ -81,9 +81,25 @@ forks:
       the endpoints only, (9,5) => (58,78) and (7,7) => (78,58). Action: compute
       the ten indicators via the in-file Racah-Speiser machinery and rerun under
       (7,7). Graded H impact / M effort and named a fork-resolver by the register
-      itself. STATUS 2026-08-07: NOT EXECUTED. It sits in the register's Q2
-      "schedule deliberately" queue, unlike sibling fork-resolvers M-C3, M-C4 and
-      M-H1 which carry EXECUTED markers.
+      itself. STATUS CORRECTED 2026-08-08: the 2026-08-07 note here said "NOT
+      EXECUTED" and the eleven-pair residual; both were stale and this registry
+      amplified them. M-H9 is MIS-SPECIFIED AND HALF DONE. Mis-specified: the
+      named Racah-Speiser module is complexified and signature-blind, returns
+      bit-identical output under either horn, and cannot emit an FS indicator;
+      the sign-carrying object is C_perp = K . J_obs in
+      tests/channel-swings/full20_dewitt_loop_transport_probe.py. Half done: that
+      probe, green since 2026-07-30, forces all ten delta_e EQUAL, so k was
+      already restricted to {0,10} -- endpoints only. Tier 0 now computes the
+      remaining relative bit: tests/mh9_base_fs_indicator_horn_flip.py shows the
+      base FS indicator flips (+1 at (3,1), -1 at (1,3)) while the (6,4) fibre is
+      unchanged, all residuals 0.0, so the endpoint-flip mechanism is confirmed.
+      REMAINING: Tier 1, propagating through C_perp and the 136 coefficient
+      intertwiners under (1,3), which requires RE-DERIVING mixed_rotation()'s
+      hardcoded timelike_leg = 3 rather than relabelling it. SPECIFICATION
+      CORRECTION: per dc-h1 the absolute ordered pair is loop-monodromy dependent
+      (w != 0 in H^1(F;Z/2), no global section), so only the RELATIVE sign between
+      horns is well posed; "(9,5) => (58,78)" as an absolute claim is not.
+      See explorations/mh9-tier0-and-register-triage-2026-08-08.md.
     stack_note: >-
       2026-08-07: process_gates/fork_depth_audit.py reports this fork at stack
       depth 10, OVER THRESHOLD. That gate exists because Wave K settled the

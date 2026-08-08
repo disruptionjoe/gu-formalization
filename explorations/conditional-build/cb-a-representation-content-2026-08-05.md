@@ -105,7 +105,7 @@ Two, declared: **`SIGNATURE-AMBIENT`** (the `(7,7)` horn) and **`CARRIER-SPLIT`*
 **What it costs if the other horn is right: almost nothing, and this is a
 computed statement, not a hope.** Every row in §2–§4 and §6 is a *complexified*
 branching multiplicity. Complexification does not see the real form
-(`layer0-fork-registry.yaml:94-96`), and `Spin(6,4)^C ≅ Spin(10)^C`, so the
+(`layer0-fork-registry.yaml (REF REPAIRED 2026-08-08: this cited lines 94-96, which a 2026-08-07 insertion into the SIGNATURE-AMBIENT row displaced; resolve by content, and note the nearest matching text is now MORE guarded than the use made of it here -- "complexification does not carry the real pairing or the right-H structure, so nothing built on the other horn transfers", which cautions against step 2 rather than licensing it)`), and `Spin(6,4)^C ≅ Spin(10)^C`, so the
 representation-content rows transfer across both horns unchanged. Exactly
 **four** rows are fork-sensitive, and all four are in the chirality/reality
 sub-cluster (§5): D1, D2, D3, D4. Of those, D1 and D2 are *independently*
