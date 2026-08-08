@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_fixed_varpi_normal_frechet_closure_audit.py` enforces ledger
+  v0.95's exact fixed-varpi `delta T`, three-term `delta F_A=0` cancellation,
+  rank-20 metric-derived Levi-Civita image, all-causal transverse rank-six
+  closure, raw-residual observation fence, mandatory symplectic/analytic
+  review, frozen accounting and common-field formal-adjoint/Green successor.
+
 - `selected_k77_transverse_comoving_coefficient_closure_audit.py` enforces
   ledger v0.94's exact ten-direction and three-transverse-six comoving
   Hodge/Clifford/Phi/Shiab coefficient closure, live rank-six source-response
@@ -224,6 +230,7 @@ selected notes below and in each script header.
 - `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_fixed_varpi_normal_frechet_closure_audit.py`
 - `selected_k77_operative_pairing_symmetry_closure_audit.py`
 - `selected_k77_transverse_comoving_coefficient_closure_audit.py`
 - `selected_k77_action_boundary_coefficient_bank_scope_audit.py`

@@ -1,0 +1,71 @@
+{
+  "artifact_type": "selected_k77_fixed_varpi_normal_frechet_closure",
+  "date": "2026-08-08",
+  "disposition": "LOCAL_FIXED_VARPI_DG_UPSILON_BLOCK_CLOSED__COMMON_FIELD_ADJOINT_GREEN_OPEN",
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_SOURCE_COORDINATES__SOURCE_SILENT_FIXED_VARPI_NORMAL_FRECHET_CLOSURE",
+  "layer0": {
+    "independent_source_connection": "varpi",
+    "reference_connection": "B_LC(g,epsilon)",
+    "augmented_torsion": "T=varpi-B_LC",
+    "total_connection": "A=B_LC+T=varpi",
+    "selected_on_shell_identity": "F_A*=T* wedge T* is not the off-branch curvature definition",
+    "metric_partial_derivative": "fixed independent varpi and epsilon",
+    "observation": "dependent complete germ receiver, not an independent action field"
+  },
+  "local_fixed_varpi_block": {
+    "delta_T": "MINUS_DELTA_B_LC",
+    "delta_A": "ZERO",
+    "delta_F_A": "ZERO",
+    "expanded_live_curvature_constituents": 3,
+    "expanded_curvature_sum": "ZERO",
+    "full_covariant_lc_first_jet_rank": 20,
+    "full_lorentz_connection_carrier_dimension": 24,
+    "rank_twenty_interpretation": "metric-derived torsion-free Levi-Civita image, not a claim to span the unrestricted Lorentz-connection carrier",
+    "causal_classes": {
+      "timelike": {
+        "levi_civita_rank": 9,
+        "diffeomorphism_rank": 4,
+        "transverse_rank": 6,
+        "transverse_source_rank": 6
+      },
+      "spacelike": {
+        "levi_civita_rank": 9,
+        "diffeomorphism_rank": 4,
+        "transverse_rank": 6,
+        "transverse_source_rank": 6
+      },
+      "null": {
+        "levi_civita_rank": 9,
+        "diffeomorphism_rank": 4,
+        "transverse_rank": 6,
+        "transverse_source_rank": 6
+      }
+    },
+    "comoving_coefficient_transport": "ZERO_AT_UPSILON_STAR_ZERO",
+    "moving_observation_term_at_Upsilon_star_zero": "ZERO",
+    "complete_observation_rank_effect": "PRESERVES_TRANSVERSE_RANK_SIX",
+    "resulting_local_metric_partial": "D_g Upsilon equals the Hodge-primalized minus-delta-B_LC augmented-torsion block, transported by the complete observation germ"
+  },
+  "closed": [
+    "component-normal delta T at fixed varpi",
+    "component-normal delta F_A at fixed varpi",
+    "complete covariant first-jet Levi-Civita response",
+    "moving observation chain-rule term at raw residual zero",
+    "local fixed-varpi physical metric D_g Upsilon block"
+  ],
+  "open": [
+    "common-field D_varpi and D_epsilon assembly beyond the already closed Ward graph",
+    "formal adjoint and Green concomitant with the v0.92 local residual pairing",
+    "common analytic Krein and symplectic domain",
+    "global BV BFV and physical quotient"
+  ],
+  "free_object_delta": 0,
+  "residue_delta": 0,
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED"
+}

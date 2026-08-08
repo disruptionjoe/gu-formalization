@@ -7,17 +7,17 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
-> **2026-08-08 TRANSVERSE COMOVING COEFFICIENT CLOSURE (ledger v0.94).**
-> The metric-induced square-root-gauge coframe lift is exact on all ten K77
-> metric directions and all timelike/spacelike/null rank-six transverse
-> complements. Moving Clifford relations, Hodge in degrees 1/2/14, and
-> tautological `Phi1/Phi2` are natural. The two nonzero raw-residual
-> constituents have opposite target transport, so their coefficient packet
-> cancels at `Upsilon*=0`; frozen-frame Hodge motion and the principal
-> augmented-torsion source response remain rank six. Next construct the
-> component-normal `delta T/delta F`, complete lower-order Levi-Civita
-> connection derivative, and observation/soldering jets, then assemble full
-> physical `D_g Upsilon` before formal adjoint/Green. No verdict, residue,
+> **2026-08-08 FIXED-VARPI NORMAL FRECHET CLOSURE (ledger v0.95).**
+> At fixed independent `varpi,epsilon`, `T=varpi-B_LC` gives
+> `delta T=-delta B_LC`, while `A=varpi` gives `delta F_A=0` through exact
+> cancellation of three separately live curvature derivatives. The complete
+> covariant spin-Levi-Civita first-jet image has rank 20 inside the unrestricted
+> rank-24 connection carrier, and every timelike/spacelike/null transverse
+> metric restriction retains rank six. At raw `Upsilon*=0`, moving observation
+> contributes no independent term. The local fixed-varpi `D_g Upsilon` block
+> is closed. Next compose it with the owned `D_varpi/D_epsilon` blocks and
+> v0.92 `K_loc`, then derive the common-field action-density formal adjoint
+> and Green concomitant before symplectic/domain work. No verdict, residue,
 > quotient, fork or datum moves.
 
 > **2026-08-08 PREDECESSOR OPERATIVE PAIRING-SYMMETRY CLOSURE (ledger v0.93).** The

@@ -7,16 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.94. The metric-induced
-comoving coframe lift now covers all ten K77 metric directions and all three
-physical transverse rank-six classes. Moving Clifford relations, Hodge
-degrees 1/2/14 and tautological Phi transport close exactly. At raw residual
-zero the two nonzero constituent transports cancel, while the principal
-augmented-torsion source response remains rank six. Component-normal
-augmented-torsion/curvature, complete lower-order Levi-Civita connection and
-observation/soldering derivatives remain before complete physical
-`D_g Upsilon`, formal adjoint and Green. See
-`selected-k77-transverse-comoving-coefficient-closure.json`.
+Current append-only progress surface: ledger v0.95. At fixed independent
+`varpi,epsilon`, `delta T=-delta B_LC` and the three expanded curvature
+derivatives cancel to `delta F_A=0`. The complete metric-derived covariant
+spin-Levi-Civita first-jet image has rank 20 inside the unrestricted rank-24
+connection carrier; every causal physical transverse restriction remains
+rank six. Moving observation adds no term at raw `Upsilon*=0`. Thus the local
+fixed-varpi `D_g Upsilon` block is closed. Common-field `Dvarpi/Depsilon`
+assembly, action-density formal adjoint, Green and domain remain. See
+`selected-k77-fixed-varpi-normal-frechet-closure.json`.
 
 Predecessor append-only progress surface: ledger v0.93. The selected K77
 grade-`1+2+5` residual carrier is Spin-native, complex dimension `2,107`.
@@ -263,7 +262,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.94.json` - current append-only conditional
+- `conditional-physics-ledger-v0.95.json` - current append-only conditional
+  ledger; the local fixed-varpi metric Frechet block closes at transverse
+  rank six while common-field adjoint/Green/domain remain.
+- `selected-k77-fixed-varpi-normal-frechet-closure.json` - exact curvature
+  cancellation, rank-20 Levi-Civita image, all-causal ranks and scope fences.
+- `conditional-physics-ledger-v0.94.json` - predecessor append-only conditional
   ledger; all-ten/all-causal comoving coefficient naturality closes while the
   live rank-six source response and component-normal/observation/adjoint
   owners remain.

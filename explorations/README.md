@@ -7,7 +7,18 @@ updated_at: "2026-08-08"
 
 # Explorations
 
-## K77 transverse comoving coefficient closure (2026-08-08)
+## K77 fixed-varpi normal Frechet closure (2026-08-08)
+
+`conditional-build/selected-k77-fixed-varpi-normal-frechet-closure-2026-08-08.md`
+uses the actual source coordinates to prove `delta T=-delta B_LC` and the
+exact three-term cancellation `delta F_A=0` at fixed `varpi`. The complete
+metric-derived spin-Levi-Civita first-jet image has rank 20, and all three
+causal transverse source blocks retain rank six after dependent observation.
+Ledger v0.95 sends Build to common-field assembly with `D_varpi/D_epsilon`,
+`K_loc`, formal adjoint and Green. It does not promote a full physical
+operator or analytic domain.
+
+## Predecessor K77 transverse comoving coefficient closure (2026-08-08)
 
 `conditional-build/selected-k77-transverse-comoving-coefficient-closure-2026-08-08.md`
 extends the moving-gimmel construction to all ten metric directions and all

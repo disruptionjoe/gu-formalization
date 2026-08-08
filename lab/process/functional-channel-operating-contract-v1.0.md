@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.94.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.94.md`.
+`lab/process/conditional-physics-ledger-v0.95.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.95.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -37,10 +37,12 @@ two Weyl halves and full group are both retained, but neither large group
 preserves the selected truncation. Source selection of the action parent is
 open. Build proceeds conditionally on the Spin-native selected parent at the
 canonical scalar-Clifford-trace point, exposes the `84..86` residue range, and
-has closed its metric-induced Hodge/Clifford/Phi/Shiab coefficient packet and
-now constructs component-normal `delta T/delta F`, complete lower-order
-Levi-Civita connection and observation/soldering derivatives into physical
-`D_g Upsilon` before adjoint/Green.
+has closed both its metric-induced Hodge/Clifford/Phi/Shiab coefficient packet
+and its local fixed-varpi metric Frechet block. Exact source-coordinate
+differentiation gives `delta T=-delta B_LC` and `delta F_A=0`; the complete
+metric-derived spin-Levi-Civita first-jet image has rank 20 and all causal
+transverse restrictions have rank six. Build now composes this with the owned
+`D_varpi/D_epsilon` blocks and `K_loc` before formal adjoint/Green.
 
 Predecessor residual-pairing correction: the conditional local K77 pairing
 `Hodge13 x scalar-Clifford-trace` is exact and nondegenerate on all 1,470
@@ -53,10 +55,10 @@ fork as different action parents rather than an uncomputed weight count. This is
 not a positive norm, formal adjoint, Green identity, global bundle, contour,
 or analytic domain. Reuse the v0.85 principal augmented-torsion transverse
 six on the conditional Spin-native selected parent. v0.94 closes their
-metric-induced coefficient packet. Build now owns the component-normal
-`delta T/delta F`, complete lower-order Levi-Civita connection and
-observation/soldering derivatives needed for physical `D_g Upsilon`, followed
-by formal adjoint and Green.
+metric-induced coefficient packet; v0.95 closes the local fixed-varpi metric
+partial, including expanded curvature cancellation and dependent observation.
+Build now owns common-field assembly with `Dvarpi/Depsilon`, the formal adjoint
+and Green.
 
 Predecessor action/Frechet/Ward correction: the complete v0.77 pointwise bank is
 the first-action Euler covector `dI1`; it is not the raw residual Jacobian

@@ -9,17 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.94 transverse comoving coefficient closure:** for every one of
-> the ten base-metric directions, use the `G`-self-adjoint lift
-> `A_h=-1/2 G^-1 D_gG[h]`. It gives exact moving metric/Clifford compatibility,
-> Hodge naturality in degrees `1/2/14`, and tautological `Phi` transport. The
-> theorem holds on all three physical transverse rank-six classes. At raw
-> `Upsilon*=0`, the two live constituent target transports cancel, but the
-> principal augmented-torsion source response remains rank six. Never call
-> this complete `D_g Upsilon`. Build component-normal `delta T/delta F`, the
-> complete lower-order Levi-Civita connection response, and observation/
-> soldering jets next; only then formal adjoint/Green/domain. Symplectic review
-> remains mandatory. Ledger v0.94.
+> **Current v0.95 fixed-varpi normal Frechet closure:** use the actual source
+> coordinates `T=varpi-B_LC(g,epsilon)` and `A=B_LC+T=varpi`. At fixed
+> independent `varpi,epsilon`, `delta T=-delta B_LC` and `delta F_A=0`; the
+> latter is an exact cancellation of three separately live expanded curvature
+> derivatives. Never differentiate the stationary shorthand
+> `F_A*=T* wedge T*` as an off-shell definition. The complete covariant
+> spin-Levi-Civita first-jet image has rank 20, not the unrestricted carrier's
+> 24, and all causal transverse raw-residual blocks retain rank six. Moving
+> observation adds no term only because `Upsilon*=0`; this does not transfer to
+> the action Euler covector. Next compose `D_g` with owned `D_varpi/D_epsilon`
+> and v0.92 `K_loc`, then derive formal adjoint/Green before symplectic/domain
+> work. Ledger v0.95.
 
 > **Predecessor v0.93 operative pairing-symmetry closure:** the two
 > `C^(32,32)` Weyl halves, their block-preserving
