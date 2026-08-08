@@ -12,12 +12,12 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.76 replaces the rejected generic `p=KT` owner with the exact
-> selected `E_B-E_T` bank on the real-K77 `Cl1+Cl2` tangent. All ten normal
-> rows are independent, complete observation is lossless, and the existing
-> local endpoint dressing accepts the opposite action covectors. The next gate
-> is full coefficient/bundle and physical-observation extension, followed by
-> global `tau_A0`, BFV, polarization and common-domain work.
+> Ledger v0.77 extends the selected `E_B-E_T` bank to every real direction of
+> the pointwise K77 `u(64,64)` comparator. Ranks remain `14/10`, but 476 live
+> grade-5 coordinates correct the observed full-support inertia to `(4,6,0)`;
+> rank alone was not a completeness test. The next gate is global
+> adjoint-bundle patching and physical-observation overlap, followed by global
+> `tau_A0`, BFV, polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -179,11 +179,19 @@ updated_at: "2026-08-08"
 > nondegenerate. Opposite local endpoint restrictions can therefore enter the
 > existing direct-sum dressing without a fitted `K` or new datum.
 
-> **NEXT RUN: FULL/GLOBAL ACTION-BANK EXTENSION.** Extend the exact low-grade
-> bank to the full coefficient and bundle carrier, prove physical observation
-> overlap, then assemble the global `tau_A0`/BFV moment map and common
-> Green/Krein domain. Do not promote the local bank or scalar-Clifford pairing
-> to full physical Krein/BFV status. Symplectic review remains mandatory.
+> **2026-08-08 FULL POINTWISE U(64,64) ACTION BANK (ledger v0.77).**
+> [`explorations/conditional-build/selected-k77-full-u6464-action-bank-2026-08-08.md`](explorations/conditional-build/selected-k77-full-u6464-action-bank-2026-08-08.md)
+> evaluates the selected covector on all 16,384 real pointwise directions.
+> Only grades `1,2,5` are live on two exact backgrounds. Grade 5 changes the
+> observed coefficient-image inertia from `(5,5,0)` to `(4,6,0)` without
+> changing rank `14/10`, so v0.76 was rank-complete but not geometry-complete.
+
+> **NEXT RUN: GLOBAL ACTION-BUNDLE AND PHYSICAL OBSERVATION.** Patch the exact
+> pointwise covector over the actual K77 adjoint bundle and prove physical
+> observation overlap, then assemble the global `tau_A0`/BFV moment map and
+> common Green/Krein domain. Do not promote two-fixture live grades to a
+> universal selection theorem or the coefficient form to physical positivity.
+> Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

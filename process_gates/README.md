@@ -191,6 +191,7 @@ selected notes below and in each script header.
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
 - `selected_k77_action_boundary_coefficient_bank_scope_audit.py`
+- `selected_k77_full_u6464_action_bank_scope_audit.py`
 - `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`
 - `selected_k77_minimal_edge_mode_reduction_scope_audit.py`
 - `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py`
@@ -2114,3 +2115,12 @@ complete observation, nondegenerate indefinite scalar-Clifford images and
 opposite local endpoint orientations. It forbids promotion to the full
 `U(64,64)` carrier, global physical observation, full Krein domain,
 `tau_A0`/BFV, P1/P2/P3, canon or public posture.
+
+## K77 full pointwise u(64,64) action-bank v0.77 gate
+
+`selected_k77_full_u6464_action_bank_scope_audit.py` requires the exact
+16,384-real-dimensional pointwise comparator, live-grade fingerprint
+`14/59/476`, ranks `14/10`, corrected raw/observed inertia `(4,6,0)`, a
+symplectic hostile review and explicit P1/P2/P3 non-use. It forbids promotion
+to global adjoint-bundle, physical observation, preferred-Shiab, BFV,
+common-domain, canon or public-posture status.

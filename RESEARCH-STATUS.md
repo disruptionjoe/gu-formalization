@@ -8,18 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.76; five
-distance/mapping-grade/evidence migrations; headline unchanged).** Exact
-differentiation of the selected `comm/symi/symi` action on the real-K77
-`Cl1+Cl2` tangent produces a rank-fourteen `E_B-E_T` bank and ten nonzero,
-independent metric-fibre normal rows. The complete `4+10` observation equation
-dual is invertible and lossless; the raw and observed scalar-Clifford images
-are nondegenerate with inertias `(4,6,0)` and `(5,5,0)`. Opposite local
-endpoint restrictions can enter the existing independent dressing, closing
-the arbitrary-`K` owner gap without a new field or datum. Full `U(64,64)`,
-global bundle/physical observation, `tau_A0`/BFV and common-domain extension
-remain open. Verdicts, residue, quotients, P1/P2/P3, canon and public posture
-do not move.
+**Current Build/Compose result 2026-08-08 (ledger v0.77; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The
+selected `comm/symi/symi` action covector is exact on every one of the 16,384
+real directions in the pointwise K77 `u(64,64)` comparator. The full/normal
+ranks remain `14/10`, but 476 live grade-5 coordinates change the observed
+full-support inertia from the v0.76 low-grade `(5,5,0)` to `(4,6,0)`. A
+held-out background retains live grades `1,2,5` with a distinct support union.
+This is complete pointwise coefficient-fibre algebra, not global
+adjoint-bundle patching or a physical observation theorem. Global bundle,
+physical observation, `tau_A0`/BFV and common-domain work remain open.
+Verdicts, residue, quotients, P1/P2/P3, canon and public posture do not move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.76).** The exact
+low-grade action bank already had ranks `14/10`, lossless complete observation
+and local endpoint acceptance; v0.77 shows rank alone missed material grade-5
+coefficient geometry.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.75).** The endpoint
 phase geometry survives, while `p=KT` is rejected as a selected-action owner;

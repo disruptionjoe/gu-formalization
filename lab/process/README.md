@@ -15,13 +15,12 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.76. The selected
-`comm/symi/symi` action now owns an exact rank-fourteen `Cl1+Cl2` coefficient
-bank with ten independent normal rows. Complete observation is lossless, the
-scalar-Clifford image is nondegenerate, and opposite local endpoint copies can
-enter the existing dressing without a fitted `K`. Full coefficient/global
-bundle, `tau_A0`/BFV and common-domain extension remain open. See
-`selected-k77-action-boundary-coefficient-bank.json`.
+Current append-only progress surface: ledger v0.77. The selected
+`comm/symi/symi` action covector is exact on all 16,384 real directions of the
+pointwise K77 `u(64,64)` comparator. Ranks remain `14/10`, while live grade-5
+support corrects the observed full-support inertia to `(4,6,0)`. Global
+adjoint-bundle patching, physical observation, `tau_A0`/BFV and common-domain
+extension remain open. See `selected-k77-full-u6464-action-bank.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -140,9 +139,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.76.json` - current append-only conditional
-  physics ledger after constructing the exact low-grade selected-action bank,
-  lossless complete observation and local oriented endpoint acceptance.
+- `conditional-physics-ledger-v0.77.json` - current append-only conditional
+  physics ledger after extending the selected-action bank to the full
+  pointwise K77 `u(64,64)` comparator and correcting its coefficient geometry.
+- `selected-k77-full-u6464-action-bank.json` - records the full pointwise
+  real-form dimensions, grade support, exact ranks, corrected inertias,
+  held-out control and global successor fence.
 - `selected-k77-action-boundary-coefficient-bank.json` - records the exact
   rank-ten normal bank, scalar-Clifford inertias, observation inverse,
   endpoint orientation and full/global successor fence.

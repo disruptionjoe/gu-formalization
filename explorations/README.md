@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 full pointwise u(64,64) action bank (2026-08-08)
+
+`conditional-build/selected-k77-full-u6464-action-bank-2026-08-08.md`
+extends the same selected action covector to all 16,384 real directions of the
+pointwise K77 comparator. The bank has ranks `14/10` and live grades `1,2,5`;
+grade-5 support corrects the observed full-support inertia from `(5,5,0)` to
+`(4,6,0)`. Global adjoint-bundle patching, physical observation,
+`tau_A0`/BFV and common-domain work remain open. Ledger v0.77 moves no
+headline count.
+
 ## K77 selected-action boundary coefficient bank (2026-08-08)
 
 `conditional-build/selected-k77-action-boundary-coefficient-bank-2026-08-08.md`

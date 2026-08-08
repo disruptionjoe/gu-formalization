@@ -31,11 +31,13 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > Ledger v0.74 composes the already-built primitive-epsilon endpoint trace and
 > proves its local rank is two; two independent endpoint dressings recover the
 > full `40/40` quotient. Ledger v0.75 rejects `p=KT` as selected-action-owned.
-> Ledger v0.76 replaces it with the exact selected `Cl1+Cl2` `E_B-E_T` bank:
-> fourteen full rows and ten independent normals, lossless complete
-> observation, nondegenerate scalar-Clifford image and opposite local endpoint
-> acceptance. Next extend it to the full coefficient/bundle carrier, physical
-> observation, global `tau_A0`/BFV and common domain.
+> Ledger v0.76 replaces it with the exact selected `Cl1+Cl2` `E_B-E_T` bank.
+> Ledger v0.77 then evaluates the same covector on all 16,384 real pointwise
+> K77 `u(64,64)` directions. Ranks stay `14/10`, but 476 live grade-5
+> coordinates correct the observed full-support inertia from `(5,5,0)` to
+> `(4,6,0)`. Next patch the covector as a global adjoint-bundle section and
+> prove physical-observation overlap, then global `tau_A0`/BFV and common
+> domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
@@ -92,8 +94,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > v0.74 supplies the two endpoint traces and direct-sum `40/40` geometry.
 > v0.75 shows that `p=KT` is a generic quadratic contact realization, not the
 > selected-action owner. v0.76 constructs the exact selected low-grade bank
-> and local endpoint acceptance; full coefficient/global observation and
-> BFV/common domain remain open.
+> and local endpoint acceptance. v0.77 closes the full **pointwise**
+> coefficient-fibre extension and corrects the pairing geometry; global
+> bundle/physical observation and BFV/common domain remain open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -215,9 +218,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > K77 source/target cotangent reduction and its material negative result:
 > one holonomy imposes `p0=p2` and reduces `40/40` to `20/20`, so the action
 > cannot be compressed to one path cotangent. Preserve v0.75's arbitrary-`K`
-> rejection and v0.76's exact selected low-grade rank-ten bank, lossless
-> observation and local endpoint acceptance; extend that bank globally rather
-> than fitting a constitutive receiver.
+> rejection, v0.76's exact selected low-grade rank-ten bank and v0.77's full
+> pointwise coefficient/support correction. Globalize that covector and the
+> physical observation section rather than fitting a constitutive receiver.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
