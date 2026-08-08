@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "SPLITTING_BASIC_EXACT_AT_COTANGENT_GRADE__VERTICAL_LIFT_NOT_REQUIRED_FOR_POINT_TRIVIALIZATION",
+  "predecessor": "lab/process/selected-k77-full-normal-owner-bank.json",
+  "source_return": "SOURCE-SILENT__FIELD_SPACE_SPLITTING__REPO-DERIVES__COTANGENT_LIFT_BASICNESS",
+  "layer0": {
+    "point_field_frame_splitting": "COORDINATE_TRIVIALIZATION",
+    "derivative_dependent_contact_redefinition": "SEPARATE_OPEN_OBJECT",
+    "complete_green_potential": "ALL_FIELD_AND_METRIC_NORMAL_COTANGENT_COMPONENTS",
+    "physical_gauge_basicness": "NOT_POINT_TRIVIALIZATION_NATURALITY",
+    "bfv_phase_space": "NOT_LOCAL_PRESYMPLECTIC_CURRENT"
+  },
+  "exact_result": {
+    "nonlinear_splitting_determinant": 1,
+    "complete_green_oneform_transport": "EXACT",
+    "partial_field_sector_defect": "NONZERO",
+    "presymplectic_twoform_transport": "EXACT",
+    "three_splitting_cocycle": "EXACT",
+    "k77_normal_direction_count": 10,
+    "k77_live_normal_momentum_shifts": 10,
+    "k77_tangent_transition_rank": 24,
+    "k77_cotangent_transition_rank": 48,
+    "frozen_momentum_plant": "REJECTED"
+  },
+  "construction_disposition": {
+    "vertical_B_T_lift_for_point_trivialization_descent": "NOT_REQUIRED",
+    "selected_action_presymplectic_coefficient_assembly": "OPEN",
+    "derivative_dependent_B_LC_soldering_observation_contact_terms": "OPEN",
+    "physical_gauge_contraction_and_lie_derivative_basicness": "OPEN",
+    "polarization_common_domain_BV_BFV_charge": "OPEN"
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "next_gate": "SELECTED_ACTION_K77_PRESYMPLECTIC_COEFFICIENT_ASSEMBLY_WITH_CONTACT_TERMS__THEN_PHYSICAL_GAUGE_BASICNESS_POLARIZATION_COMMON_DOMAIN",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}

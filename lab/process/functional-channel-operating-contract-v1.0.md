@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.67.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.67.md`.
+`lab/process/conditional-physics-ledger-v0.68.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.68.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -90,10 +90,13 @@ Ledger v0.66 constructs the selected action's normal connection/epsilon Euler
 packet as the exact mixed action Hessian. Ledger v0.67 completes the exact
 ten-direction K77 metric, density, pairing and Hodge derivative bank, then
 proves that v0.66's seven owner terms exchange under a field-bundle
-trivialization change. The total mixed Hessian is intrinsic; the seven-term
-split is not. Build must now test the complete Green potential's
-splitting-change/basicness before antisymmetrization. A vertical covariant B/T
-lift is justified only if a nonbasic defect survives.
+trivialization change. Ledger v0.68 proves that the complete Green potential
+and its field-space exterior derivative are exactly natural under nonlinear
+point-frame changes and cotangent lifts. The induced normal/base momentum
+correction is required in all ten K77 normal directions. No vertical B/T lift
+is therefore justified merely for point-trivialization descent. Build must now
+assemble derivative-dependent Levi-Civita/soldering/observation contact terms
+and test physical gauge basicness.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -152,9 +155,10 @@ v0.64 derives the separate action-owned degree-fourteen epsilon companion, and
 v0.65 gives it a lossless moving complete-germ Green receiver while retaining
 ordinary-pullback conormal loss. v0.66 constructs the normal-jet functor;
 v0.67 completes its K77 geometric substrate but proves its seven-way owner
-split is not canonical. Only a splitting-independent/basic Green potential—or
-a source/action-owned vertical lift if nonbasicness forces one—may advance to
-reduced symplectic, BV and common-domain descent. Generic
+split is not canonical. v0.68 supplies the splitting-independent point-frame
+Green/presymplectic packet without a new vertical lift. Contact transformations
+and physical gauge basicness must close before reduced symplectic, BV and
+common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

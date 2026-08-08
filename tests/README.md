@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (415 Python + 32 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 full normal geometry/owner-split probe, its independent Sage/QQ replay, and ledger-v0.67 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (417 Python + 33 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 Green-potential point-splitting/basicness probe, its independent Sage/QQ replay, and ledger-v0.68 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -1947,4 +1947,25 @@ uv run --with sympy==1.14.0 --with numpy==2.3.2 python -u \
   tests/channel-swings/selected_k77_full_normal_owner_bank_probe.py
 sage tests/channel-swings/selected_k77_full_normal_owner_bank_independent.sage
 python3 tests/channel-swings/conditional_physics_ledger_v067_probe.py
+```
+
+## K77 Green-potential point-splitting basicness ledger v0.68
+
+`channel-swings/selected_k77_green_potential_splitting_basicness_probe.py`
+proves exact nonlinear cotangent naturality of the complete Green potential,
+exact transport of its field-space exterior derivative, and a three-splitting
+cocycle. All ten actual K77 normal directions have nonzero induced normal/base
+momentum corrections. The firing partial-potential control shows why freezing
+those momenta gives a real defect. The result therefore retires a vertical
+B/T lift only for point-trivialization descent; derivative-dependent contact
+transformations, physical gauge basicness, polarization, common domain and
+BV/BFV remain open. The independent Sage/QQ replay verifies the cotangent and
+symplectic identities. The ledger probe migrates five distances without
+moving verdicts, residue, quotients or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy==2.3.2 python -u \
+  tests/channel-swings/selected_k77_green_potential_splitting_basicness_probe.py
+sage tests/channel-swings/selected_k77_green_potential_splitting_basicness_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v068_probe.py
 ```

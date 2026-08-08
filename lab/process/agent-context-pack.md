@@ -14,19 +14,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> Ledger v0.67 constructs the exact ten-direction K77 metric, density, pairing
-> and Hodge derivative bank. The total mixed action Hessian is intrinsic, but
-> the seven v0.66 owner terms exchange under a change of field-bundle
-> trivialization; they are not seven invariant K77 subobjects. The source
-> confirms the full upstairs connection difference, gauge-rotated
-> Levi-Civita reference and vertical coefficient sector, but is silent on a
-> vertical B/T first-jet lift. First test the complete Green potential's
-> splitting change and basicness. Construct a vertical covariant lift only if
-> a nonbasic defect survives. Keep
+> Ledger v0.68 proves that the complete action-owned Green potential and its
+> field-space exterior derivative are exactly natural under nonlinear
+> point-frame changes and cotangent lifts, including a three-chart cocycle.
+> All ten K77 normal directions require the induced normal/base momentum
+> correction; omitting it gives a live defect. Therefore no vertical B/T lift
+> is required merely for point-trivialization descent. Derivative-dependent
+> Levi-Civita/soldering/observation contact transformations and physical gauge
+> basicness remain open. Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> splitting/basicness gate, then antisymmetrized and reduced symplectic/BV
-> descent. Generic carrier search
+> contact-coefficient assembly and physical-gauge basicness gate, then reduced
+> symplectic/BV descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -62,7 +61,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > Ledger v0.66 supplies the universal action-normal mixed-Hessian functor and
 > its seven fixture owner classes. Ledger v0.67 completes the ten-direction
 > K77 geometry bank and proves that this seven-way split is
-> trivialization-dependent; only the total mixed Hessian is intrinsic.
+> trivialization-dependent; only the total mixed Hessian is intrinsic. Ledger
+> v0.68 then proves exact point-splitting cotangent and presymplectic
+> naturality, while leaving contact transformations and physical gauge
+> basicness open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -112,9 +114,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract Green-potential splitting-change and
-> basicness test for the v0.65 complete-germ receiver
-> using the unique all-grade graph and labelled null screen; historical campaign-local
+> next gate is the functional-contract coefficientwise contact-term and
+> physical-gauge basicness test for the v0.68 Green/presymplectic packet;
+> historical campaign-local
 > pointers are not queue truth.
 
 > **PREDECESSOR GCR GRADE/OWNER FENCE.** The exact v0.48 `28+117` Koszul split is
@@ -173,7 +175,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > owner. Preserve v0.64's exact action-owned epsilon companion, v0.65's exact
 > moving complete-germ Green receiver including ordinary-pullback conormal
 > loss, v0.66's exact mixed-Hessian normal Euler functor, and v0.67's exact
-> ten-direction K77 geometry bank plus noncanonical-owner-split correction.
+> ten-direction K77 geometry bank plus noncanonical-owner-split correction,
+> and v0.68's exact point-frame cotangent/presymplectic naturality.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
@@ -182,11 +185,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > inverse, full linearized superconnection Bianchi identity and labelled
 > ambient rank-12 `(6,6)` null screen. Do not restore the superseded
 > curvature-only lifts, and do not promote the source-silent conditional
-> `-J_2D` target to a derivation. Test the complete Green potential under two
-> exact vertical splittings while retaining `gamma_epsilon` and the reciprocal
-> null label. If its antisymmetrization is splitting-independent up to an
-> exact/basic term, descend it without adding a connection; if not, construct
-> a source/action-owned vertical B/T lift. Do not substitute the Levi-Civita subclass: its linearized
+> `-J_2D` target to a derivation. Preserve the exact nonlinear point-frame
+> cotangent lift, three-splitting cocycle and all-ten K77 presymplectic
+> transport; do not add a vertical B/T lift for point-trivialization descent.
+> Now assemble the derivative-dependent gauge-rotated-Levi-Civita, soldering
+> and observation contact coefficients and test contraction and Lie derivative
+> on physical gauge directions. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled

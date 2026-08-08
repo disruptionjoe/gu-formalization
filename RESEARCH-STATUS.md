@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.67; five
+**Current Build/Compose result 2026-08-08 (ledger v0.68; five
+distance/mapping-grade/evidence migrations).** The complete
+field-plus-metric-normal Green one-form is exactly natural under a nonlinear
+point-frame change and cotangent lift; its field-space exterior derivative is
+natural as well. A three-splitting cocycle closes, and all ten K77 normal
+momentum corrections are nonzero. Omitting them produces the live partial-
+potential defect. No vertical B/T connection is required for this coordinate
+descent. Derivative-dependent Levi-Civita/soldering/observation contact terms,
+coefficientwise selected-action assembly and physical gauge basicness remain
+open. No verdict, residue, quotient, datum, canon or public-posture change
+follows.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.67; five
 distance/mapping-grade/evidence migrations).** All ten metric-normal
 directions of the real-K77 geometry are exact and independent. The density
 bank has rank one; degree-one and degree-two pairing and Hodge derivative banks
@@ -17,9 +29,8 @@ Hessian is intrinsic, but the seven v0.66 owner terms exchange under a change
 from fixed to co-moving field-bundle trivialization. The source confirms the
 full upstairs connection difference, gauge-rotated Levi-Civita reference and
 vertical coefficient sector, but is silent on a vertical B/T first-jet lift.
-Next test the complete Green potential's splitting change and basicness; build
-a vertical covariant lift only if a nonbasic defect survives. No verdict,
-residue, quotient, datum, canon or public-posture change follows.
+Ledger v0.68 closes its point-splitting horn without a vertical lift. No
+verdict, residue, quotient, datum, canon or public-posture change followed.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.66; five
 distance/mapping-grade/evidence migrations).** The selected action's normal

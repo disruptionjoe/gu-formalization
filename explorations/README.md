@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 Green-potential point-splitting basicness (2026-08-08)
+
+`conditional-build/selected-k77-green-potential-splitting-basicness-2026-08-08.md`
+proves exact nonlinear cotangent naturality of the complete Green one-form,
+its presymplectic exterior derivative and the three-splitting cocycle. All ten
+K77 normal momentum corrections fire. A vertical B/T lift is unnecessary for
+point-frame descent; contact-term coefficient assembly and physical gauge
+basicness remain open. Ledger v0.68 moves no verdict or residue.
+
 ## K77 full normal geometry and owner-split correction (2026-08-08)
 
 `conditional-build/selected-k77-full-normal-owner-bank-2026-08-08.md`

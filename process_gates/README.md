@@ -2024,3 +2024,14 @@ chosen trivialization, and preserves only the total mixed Hessian as intrinsic.
 It routes next to the Green-potential splitting-change/basicness test, requires
 the vertical B/T lift to remain open unless a nonbasic defect survives, and
 freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 Green-potential point-splitting basicness v0.68 gate
+
+`selected_k77_green_potential_splitting_basicness_scope_audit.py` requires
+the complete action-owned Green potential and its field-space exterior
+derivative to transport naturally under nonlinear point-frame cotangent
+lifts, including a three-splitting cocycle. It requires all ten induced K77
+normal/base momentum corrections and a firing partial-potential control. It
+retires the vertical B/T lift only for point-trivialization descent, keeps
+derivative-dependent contact transformations and physical gauge basicness
+open, and freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.

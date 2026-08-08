@@ -12,15 +12,14 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.67 completes the exact ten-direction K77 normal geometry bank but
-> corrects the ownership claim. The density bank has rank one and the
-> degree-one/two pairing and Hodge banks have rank ten, while the full gimmel
-> retains signature `(7,7)`. The total mixed action Hessian is intrinsic, but
-> its seven-term v0.66 expansion is a choice of field-bundle trivialization,
-> not seven invariant K77 subobjects. The next gate tests whether the complete
-> Green potential and its antisymmetrization are independent of a vertical
-> splitting up to an exact/basic term; only a nonbasic defect justifies
-> constructing a vertical covariant B/T lift.
+> Ledger v0.68 proves that the complete field-plus-metric-normal Green
+> one-form and its field-space exterior derivative are exactly natural under
+> nonlinear point-frame splitting changes. All ten K77 normal directions have
+> live induced normal momenta; deleting them creates the apparent defect. A
+> vertical B/T connection is therefore unnecessary for coordinate
+> trivialization descent. The next gate assembles the selected-action K77
+> presymplectic coefficients with derivative-dependent Levi-Civita, soldering
+> and observation contact terms, then tests physical gauge basicness.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -107,11 +106,24 @@ updated_at: "2026-08-08"
 > owner buckets exchange under a co-moving frame change. This is
 > `OWNER_INCOMPLETE`, not an action failure or a new datum.
 
-> **NEXT RUN: GREEN-POTENTIAL SPLITTING CHANGE AND BASICNESS.** Compare the
+> **CLOSED BY v0.68: GREEN-POTENTIAL POINT-SPLITTING CHANGE AND BASICNESS.** Compare the
 > complete action-owned Green potential under two exact vertical splittings
 > and test whether its antisymmetrization changes only by an exact/basic term.
 > Construct a gauge-rotated-Levi-Civita-compatible vertical covariant lift only
 > if a nonbasic splitting defect survives. Symplectic review remains mandatory.
+
+> **2026-08-08 GREEN-POTENTIAL POINT-SPLITTING BASICNESS (ledger v0.68).**
+> [`explorations/conditional-build/selected-k77-green-potential-splitting-basicness-2026-08-08.md`](explorations/conditional-build/selected-k77-green-potential-splitting-basicness-2026-08-08.md)
+> proves exact nonlinear cotangent naturality, a three-splitting cocycle and
+> all-ten K77 presymplectic transport. It retires the vertical-lift horn only
+> for point-frame descent; contact transformations and physical gauge
+> basicness remain open.
+
+> **NEXT RUN: SELECTED-ACTION K77 PRESYMPLECTIC COEFFICIENT ASSEMBLY.** Insert
+> derivative-dependent gauge-rotated-Levi-Civita, soldering and observation
+> contact terms into the complete current. Then test contraction and Lie
+> derivative on physical gauge directions before polarization, common-domain
+> or BV/BFV claims. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)
