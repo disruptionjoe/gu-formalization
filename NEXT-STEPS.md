@@ -12,13 +12,13 @@ updated_at: "2026-08-07"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.63 corrects the carrier order: the exact graph target is a
-> primalized degree-one form, fixed Hodge restores the source degree-thirteen
-> `Upsilon` density, and `D Upsilon` is degree fourteen. Printed `Xi` has
-> supports `16,15,11,11` but adds rank zero after total-`Upsilon` closure. A
-> formal Green identity is exact. The remaining sequence is the action-owned
-> degree-fourteen companion, moving Hodge/Krein observation Green identity,
-> then reduced symplectic/BV/common-domain descent.
+> Ledger v0.64 derives the action-owned degree-fourteen epsilon companion as
+> `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`. Both degree-thirteen connection Euler
+> owners and moving Shiab are independently live. This object is neither the
+> source-printed `D Upsilon` redundancy nor the homogeneous Ward identity.
+> The remaining sequence is coefficientwise moving Hodge/Krein/section
+> observation Green insertion, then antisymmetrized symplectic/BV/common-domain
+> descent.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -79,10 +79,15 @@ updated_at: "2026-08-07"
 > verifies the printed degree-fourteen redundancy, and constructs the exact
 > formal invariant-trace Green flux without promoting it to a phase space.
 
-> **NEXT RUN: ACTION-OWNED DEGREE-14 COMPANION AND MOVING GREEN IDENTITY.**
-> Derive the degree-fourteen companion from the actual Frechet-adjoint Euler
-> derivative, then vary Hodge/Krein, Shiab, background, target, metric section,
-> labelled reduction and reciprocal null label together. No reduced
+> **2026-08-08 ACTION-OWNED DEGREE-14 COMPANION (ledger v0.64).**
+> [`explorations/conditional-build/selected-k77-action-owned-degree14-companion-2026-08-08.md`](explorations/conditional-build/selected-k77-action-owned-degree14-companion-2026-08-08.md)
+> derives the epsilon Euler owner from both connection Euler covectors and the
+> moving-Shiab orbit covector. Exact entrywise differentiation rejects each
+> omission and the naive `D_A E_T` replacement.
+
+> **NEXT RUN: MOVING ACTION-EULER GREEN IDENTITY.** Insert the v0.64 companion
+> coefficientwise while varying Hodge/Krein, Shiab, background, target, metric
+> section, labelled reduction and reciprocal null label together. No reduced
 > symplectic, BV/BFV or common-domain promotion precedes that construction.
 > Symplectic review is mandatory.
 

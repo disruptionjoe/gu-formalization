@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.63.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.63.md`.
+`lab/process/conditional-physics-ledger-v0.64.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.64.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -73,6 +73,14 @@ derivative, so Build now derives the action-owned degree-fourteen companion
 and moving Hodge/Krein observation Green map. Symplectic review remains
 mandatory.
 
+Ledger v0.64 derives that action-owned companion from the actual Fréchet
+owners: `D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`. Exact all-entry
+differentiation keeps both connection Euler owners and moving Shiab live,
+rejects naive `D_A E_T`, and separates the generally nonzero primitive
+epsilon Euler equation from the zero homogeneous moving-Shiab Ward
+contraction. Build now inserts this owner into the moving
+Hodge/Krein/section observation Green identity before antisymmetrization.
+
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
 principal `q`-exact connection theorem. The algebraic Cartan/Spencer map
@@ -89,8 +97,9 @@ basic modulo its central stabilizer; forgetting it to the horizontal plane
 fails. Exact Spencer uniqueness closes the three-dimensional invariant-Hom
 replacement horn for these targets. Preserve v0.63's typed degree-one versus
 degree-thirteen carrier, printed-Xi redundancy, labelled-null graph, conormal
-derivative, full Bianchi and labelled screen. Derive the action-owned
-degree-fourteen companion and moving invariant Green current before any
+derivative, full Bianchi and labelled screen. Preserve v0.64's action-owned
+degree-fourteen epsilon companion and insert it into the moving invariant
+Green current before any
 reduced symplectic or physical result. Symplectic review remains mandatory.
 
 Current transverse-owner correction: “connection curvature is `q`-exact” is a
@@ -106,7 +115,7 @@ Retain the reduction through total raw-`Upsilon` Bianchi/naturality and the null
 screen before Euler or physical quotient claims.
 
 Current accounting and priority decision:
-`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.63
+`lab/process/conditional-ledger-priority-decision-2026-08-07.md`. Ledger v0.64
 has 84 immutable row records and 82 active canonical targets. The two-record
 difference is exactly the retained historical predecessors `LT-GR2` and
 `AC-G1`; their typed successors own the active meter. Do not count append-only
@@ -123,7 +132,8 @@ all-grade inverse with no new local coefficient, while derivation of its
 physical target remains open. The labelled-null graph and one conormal
 derivative now pass. v0.63 types the primalized carrier, proves printed Xi is
 rank-zero redundancy after total closure, and constructs a formal Green owner.
-Only the action-owned degree-fourteen/moving-Green survivor may advance to
+v0.64 derives the separate action-owned degree-fourteen epsilon companion.
+Only its moving-observation Green survivor may advance to
 reduced symplectic, BV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main

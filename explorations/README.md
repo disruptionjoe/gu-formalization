@@ -7,6 +7,15 @@ updated_at: "2026-08-07"
 
 # Explorations
 
+## K77 action-owned degree-fourteen companion (2026-08-08)
+
+`conditional-build/selected-k77-action-owned-degree14-companion-2026-08-08.md`
+derives the epsilon Euler companion from both connection Euler owners and the
+moving-Shiab orbit covector. Exact all-entry controls separate it from printed
+`D Upsilon`, homogeneous Ward and presymplectic/BFV objects. The full moving
+K77 observation Green insertion stays open. Ledger v0.64 records no verdict or
+residue movement.
+
 ## K77 paired Upsilon/Xi and formal Green owner (2026-08-08)
 
 `conditional-build/selected-k77-paired-upsilon-xi-green-2026-08-08.md`

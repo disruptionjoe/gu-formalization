@@ -15,12 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.63. The exact graph target is
-a primalized degree-one form; fixed Hodge restores the source degree-thirteen
-density, and printed degree-fourteen `Xi` adds rank zero after total-`Upsilon`
-closure. The formal invariant-trace Green identity is exact. The action-owned
-degree-fourteen companion and moving Hodge/Krein observation map remain open.
-See `selected-k77-paired-upsilon-xi-green.json`.
+Current append-only progress surface: ledger v0.64. The action-owned
+degree-fourteen epsilon companion is exact from both connection Euler owners
+plus moving Shiab, and is distinct from printed `Xi`, homogeneous Ward and
+presymplectic/BFV objects. The full moving Hodge/Krein/section observation
+Green insertion remains open. See
+`selected-k77-action-owned-degree14-companion.json`.
+
+Predecessor append-only progress surface: ledger v0.63. The graph carrier is
+typed as a primalized degree-one form, printed Xi is rank-zero redundancy
+after total closure, and the formal invariant-trace Green identity is exact.
 
 Predecessor append-only progress surface: ledger v0.62. The labelled-null
 response and one conormal derivative are exact and its rank-650 source symbol

@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.63; five
+**Current Build/Compose result 2026-08-08 (ledger v0.64; five
+distance/mapping-grade/evidence migrations).** The action-owned
+degree-fourteen epsilon companion is now exact:
+`D_B^!(E_B-E_T)+(D_epsilon S)^!K_S`. All nine independent epsilon directions
+pass on the noncyclic fixture; both degree-thirteen connection Euler owners
+and moving Shiab are independently live, and naive `D_A E_T` fails. The
+primitive epsilon Euler owner is generically nonzero while the separate
+homogeneous moving-Shiab Ward contraction vanishes. Full moving K77
+Hodge/Krein/section observation insertion and antisymmetrized symplectic/BFV
+descent remain open. No verdict, residue, quotient, datum, canon or public-
+posture change follows.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.63; five
 distance/mapping-grade/evidence migrations).** The selected K77 graph target
 is now correctly typed as a primalized degree-one form. Fixed-background Hodge
 restores the source degree-thirteen `Upsilon` density; its printed

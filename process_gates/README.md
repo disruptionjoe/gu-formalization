@@ -1984,3 +1984,13 @@ supports `16,15,11,11`, rank-zero dependence after total-Upsilon closure,
 nonzero unrestricted and zero Dirichlet Green flux, and an explicit open flag
 for the action-owned K77 Krein pair and antisymmetrized presymplectic current.
 It freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 action-owned degree-fourteen companion v0.64 gate
+
+`selected_k77_action_owned_degree14_companion_scope_audit.py` requires the
+action companion to use both degree-thirteen connection Euler owners and the
+moving-Shiab orbit covector. It keeps that generally nonzero primitive epsilon
+Euler equation distinct from printed `D Upsilon`, the zero homogeneous Ward
+contraction and any antisymmetrized presymplectic/BFV object. It requires the
+moving K77 observation insertion to remain open and freezes verdicts, residue,
+quotients, P1/P2/P3, canon and posture.
