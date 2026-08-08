@@ -1,7 +1,7 @@
 ---
 artifact_type: exploration_result
 created: 2026-08-07
-status: REAL_CLIFFORD_FORM_SETTLEMENT_NEVER_PROPAGATED__34_CANON_FILES_UNREVISITED__AT_LEAST_ONE_DISSOLUTION_TRIGGER_FIRED_AND_UNEXECUTED
+status: SCOPE_CORRECTED__SOURCE_ALGEBRA_SETTLEMENT_IS_NOT_AN_AMBIENT_SIGNATURE_SETTLEMENT__SIGNATURE_AMBIENT_STILL_OPEN_AT_DEPTH_10__34_FILES_ARE_A_WATCH_LIST_NOT_A_BREAKAGE_LIST
 grade: "DEPENDENCY TRIAGE over canon. File set found by searching canon/, CANON.md,
   RESEARCH-STATUS.md and DERIVATION-PROGRESS.md for the (9,5) / M(64,H) / Sp(64) /
   quaternionic horn, then comparing each file's last-modified date against the
@@ -21,6 +21,33 @@ deposit: "PRE-DEPOSIT. No canon file is edited or retracted here. Any actual
 ---
 
 # The `REAL-CLIFFORD-FORM` settlement was never propagated
+
+> **SCOPE CORRECTION 2026-08-07, made by the author of this artifact.**
+> This triage was built on the premise that settling `REAL-CLIFFORD-FORM` at
+> `Cl(7,7)` retires the `(9,5)` **ambient geometry**. It does not. The registry
+> carries two distinct rows and says so explicitly:
+> `REAL-CLIFFORD-FORM` settles **which algebra the source computes in** and is
+> settled; `SIGNATURE-AMBIENT` — "(9,5) vs (7,7)" — is the **ambient signature**
+> and is **still open and UNDER-DETERMINED**. The `SIGNATURE-AMBIENT` row carries
+> the note *"Distinct from REAL-CLIFFORD-FORM, which IS settled."*
+>
+> **What survives this correction, unchanged:** 34 canon files rest on the
+> quaternionic ambient horn; none has been revisited; nothing watches a stated
+> dissolution condition for its trigger; and `AC-G1`'s repair was surface-only.
+>
+> **What changes:** those 34 are a **watch list for `SIGNATURE-AMBIENT`**, not a
+> breakage list. Nothing among them has dissolved, because the fork that would
+> dissolve them has not settled. The word "fired" below should be read as
+> "pressured".
+>
+> **The live problem this correction exposes is worse than the one it fixes.**
+> `SIGNATURE-AMBIENT` is open, `UNDER-DETERMINED`, high fan-out, and sitting at
+> **stack depth 10, over threshold**, per `process_gates/fork_depth_audit.py` —
+> the same defect the registry and that gate were built after Wave K to prevent,
+> recurring now on the adjacent fork, while the gate reports it every run.
+>
+> This conflation is exactly the Layer-0 error the repository's own discipline
+> exists to catch, committed here by an agent auditing others for it.
 
 ## The situation
 

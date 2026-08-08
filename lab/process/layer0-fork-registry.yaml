@@ -111,8 +111,17 @@ forks:
       - lab/process/agent-context-pack.md
     consequence_set_added: '2026-08-07'
     consequence_set_method: >-
+      SCOPE CORRECTION 2026-08-07: this consequence set was first built by treating
+      the settlement as an AMBIENT-SIGNATURE settlement. It is not. This row settles
+      which real Clifford algebra THE SOURCE COMPUTES IN; the ambient signature is
+      the separate, still-open SIGNATURE-AMBIENT row, which this registry already
+      marks "Distinct from REAL-CLIFFORD-FORM". Entries below are therefore
+      PRESSURED by this settlement, not dissolved by it: a canon result resting on
+      the quaternionic ambient geometry dissolves only when SIGNATURE-AMBIENT
+      settles at (7,7), which has not happened. The set is retained because it is
+      the correct watch list for that fork, and because nothing else watches it.
       Files under canon/, CANON.md, RESEARCH-STATUS.md and DERIVATION-PROGRESS.md that
-      reference the retired (9,5) / M(64,H) / Sp(64) / quaternionic horn, classified by
+      reference the (9,5) / M(64,H) / Sp(64) / quaternionic horn, classified by
       direct read where a dissolution condition was claimed and by signal otherwise.
       Referencing the horn is NOT depending on it: only reopener_fired is confirmed from
       the file's own text, and needs_recheck means exposure rather than breakage. CANON.md
@@ -120,7 +129,7 @@ forks:
       A mechanical scan flagged six reopener candidates; three were false positives that
       used the word dissolve about an unrelated question, and were re-typed by reading.
     consequence_set:
-      reopener_fired:
+      reopener_pressured_not_fired:
         - canon/firewall-boundary-hypothesis.md
         - canon/multiplicity-theorem.md
         - canon/no-go-quaternionic-parity-generation-sector.md
