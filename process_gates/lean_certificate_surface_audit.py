@@ -139,6 +139,43 @@ def lean_without_comments_or_strings(text: str) -> str:
 
 
 class LeanCertificateSurfaceAudit(unittest.TestCase):
+    def test_no_lean_source_carries_sorry_or_undeclared_axiom(self) -> None:
+        """Enforce the precondition the LEAN-VERIFIED label already asserts.
+
+        Added 2026-08-08, register P-H5.  The lane ledger defines LEAN-VERIFIED as
+        "default or named target typechecks, with no `sorry` or unreported axioms,
+        and the owner cites it".  As of 2026-08-08 the tree genuinely carries no
+        `sorry` -- the only textual hits are docstrings stating their own absence --
+        so this gate fixes no present defect.  What it fixes is that the label's
+        precondition was unenforced: nothing would have caught a `sorry` being
+        introduced under a row already marked LEAN-VERIFIED.
+
+        Note this is a SOURCE-TEXT check, not a kernel check.  A real guarantee is
+        `#print axioms` on the built target; that receipt lives in
+        ResidualSelectionAxioms.lean and is deliberately outside the default
+        target, informational and non-enforcing, as the ledger states.  This test
+        does not upgrade that receipt and must not be cited as if it had.
+        """
+        lean_root = Path(__file__).resolve().parent.parent / "Lean"
+        if not lean_root.is_dir():
+            self.skipTest("no Lean/ tree")
+
+        offenders = []
+        for source in sorted(lean_root.rglob("*.lean")):
+            for number, line in enumerate(source.read_text(errors="ignore").splitlines(), 1):
+                stripped = line.strip()
+                if stripped.startswith("--") or stripped.startswith("/-"):
+                    continue
+                # a docstring line that merely says "there is no sorry" is prose
+                if re.search(r"\bsorry\b", line) and "no `sorry`" not in line and "No `sorry`" not in line:
+                    offenders.append(f"{source.name}:{number}: {stripped[:80]}")
+
+        self.assertEqual(
+            [], offenders,
+            "Lean sources carrying `sorry` while the lane ledger defines "
+            "LEAN-VERIFIED as requiring none:\n  " + "\n  ".join(offenders),
+        )
+
     def test_lake_scaffold_exists(self) -> None:
         self.assertTrue((ROOT / "lean-toolchain").is_file())
         self.assertTrue((ROOT / "lakefile.lean").is_file())

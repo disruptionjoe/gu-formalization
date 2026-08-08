@@ -107,6 +107,49 @@ class ReproduceHarnessScopeAudit(unittest.TestCase):
             sorted(relpath(path) for path in discovered),
         )
 
+    def test_no_certificate_shaped_file_under_papers_is_unswept(self) -> None:
+        """Discover certificate-shaped files INDEPENDENTLY of the harness's own list.
+
+        Added 2026-08-08, register P-H9.  The sibling test above computes its
+        expectation FROM ``module.PAPER_CERT_DIRS``, so it verifies that the
+        harness sweeps what the harness declares -- it cannot, even in principle,
+        notice a certificate outside the declared roots.  That circularity let
+        ``papers/drafts/structurally-forced-internally-undecidable/tests/
+        general_krein_grading_sign.py`` sit unswept while every gate stayed green.
+
+        This test walks ``papers/`` from the filesystem, marks anything that looks
+        like a certificate by the repository's own convention (hard asserts plus a
+        printed VERDICT), and requires each to fall inside some declared root.  It
+        takes no input from the harness except the roots it is checking.
+        """
+        module = load_harness()
+        papers_root = Path(module.REPO_ROOT) / "papers"
+        if not papers_root.is_dir():
+            self.skipTest("no papers/ tree")
+
+        declared = [Path(root).resolve() for root in module.PAPER_CERT_DIRS]
+        orphans = []
+        for candidate in sorted(papers_root.rglob("*.py")):
+            if any(frag in str(candidate) for frag in module.SKIP_DIR_FRAGMENTS):
+                continue
+            try:
+                body = candidate.read_text(errors="ignore")
+            except OSError:
+                continue
+            looks_like_cert = "VERDICT" in body and "assert" in body
+            if not looks_like_cert:
+                continue
+            resolved = candidate.resolve()
+            if not any(root in resolved.parents for root in declared):
+                orphans.append(relpath(resolved))
+
+        self.assertEqual(
+            [], orphans,
+            "certificate-shaped files under papers/ that no declared harness root "
+            "sweeps -- add their directory to PAPER_CERT_DIRS, or move them:\n  "
+            + "\n  ".join(orphans),
+        )
+
     def test_full_scope_adds_only_declared_paper_certificate_roots(self) -> None:
         module = load_harness()
 
