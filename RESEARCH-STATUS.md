@@ -8,19 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.75; five
-distance/mapping-grade/evidence migrations; headline unchanged).** The
-endpoint phase geometry survives, but `p=KT` is rejected as a selected-action
-coefficient. Two inequivalent indefinite `K` choices pass the same exact
-contact/Ward/Green/symplectic controls and produce different momenta; the
-selected source-shaped action is cubically nonquadratic and its `E_B-E_T` is
-already nonzero at `T=0`. The universal contact theorem, independent endpoint
-cotangent variables, direct-sum `40/40` quotient and v0.73 single-holonomy
-compression no-go remain exact. The next Build must assemble the actual
-all-ten oriented boundary bank of `E_B-E_T` with the observation receiver,
-then reuse the endpoint dressing before full `tau_A0`, global BFV and common
-domain. Verdicts, residue, quotients, P1/P2/P3, canon and public posture do not
-move.
+**Current Build/Compose result 2026-08-08 (ledger v0.76; five
+distance/mapping-grade/evidence migrations; headline unchanged).** Exact
+differentiation of the selected `comm/symi/symi` action on the real-K77
+`Cl1+Cl2` tangent produces a rank-fourteen `E_B-E_T` bank and ten nonzero,
+independent metric-fibre normal rows. The complete `4+10` observation equation
+dual is invertible and lossless; the raw and observed scalar-Clifford images
+are nondegenerate with inertias `(4,6,0)` and `(5,5,0)`. Opposite local
+endpoint restrictions can enter the existing independent dressing, closing
+the arbitrary-`K` owner gap without a new field or datum. Full `U(64,64)`,
+global bundle/physical observation, `tau_A0`/BFV and common-domain extension
+remain open. Verdicts, residue, quotients, P1/P2/P3, canon and public posture
+do not move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.75).** The endpoint
+phase geometry survives, while `p=KT` is rejected as a selected-action owner;
+v0.76 replaces the fitted owner with the exact low-grade action bank.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.74; five
 distance/mapping-grade/evidence migrations).** Two locally independent

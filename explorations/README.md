@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 selected-action boundary coefficient bank (2026-08-08)
+
+`conditional-build/selected-k77-action-boundary-coefficient-bank-2026-08-08.md`
+constructs the exact selected `E_B-E_T` bank on the real-K77 `Cl1+Cl2`
+tangent. Its fourteen rows have rank fourteen, the ten normal rows have rank
+ten, complete observation is lossless, and opposite local endpoint copies are
+accepted by the existing dressing. Full `U(64,64)`, global observation,
+`tau_A0`/BFV and common-domain extension remain open. Ledger v0.76 moves no
+headline count.
+
 ## K77 action/contact Legendre owner (2026-08-08)
 
 `conditional-build/selected-k77-action-contact-legendre-owner-2026-08-08.md`

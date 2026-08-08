@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.75.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.75.md`.
+`lab/process/conditional-physics-ledger-v0.76.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.76.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -125,6 +125,13 @@ and has nonzero `E_B-E_T` at `T=0`. Preserve the universal contact theorem,
 independent endpoint cotangent variables, direct-sum `40/40` quotient and
 single-holonomy no-go. Build the actual all-ten oriented `E_B-E_T` boundary
 bank with observation receiver before reusing the endpoint dressing.
+Ledger v0.76 performs that exact action calculation on the real-K77
+`Cl1+Cl2` tangent. The bank has fourteen independent exterior rows and ten
+independent normal rows; complete observation is lossless and its local
+oriented endpoint restrictions fit the existing dressing. Do not call this
+the full `U(64,64)` carrier, physical Krein domain or global BFV phase space.
+The next Build is the full coefficient/bundle and physical-observation
+extension, then global `tau_A0`/BFV and common-domain descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -194,9 +201,10 @@ v0.73 supplies the actual K77 group category and exact two-endpoint cotangent
 reduction, while killing the single-holonomy `40 -> 20` compression. v0.74
 composes the already-built endpoint trace and recovers the direct-sum `40/40`
 geometry. v0.75 rejects `p=KT` as selected-action ownership while preserving
-the universal contact theorem. The actual all-ten `E_B-E_T` boundary bank,
-observation receiver and full `tau_A0` law must close before physical BFV and
-common-domain descent. Generic
+the universal contact theorem. v0.76 supplies the exact selected low-grade
+all-ten `E_B-E_T` bank, lossless complete observation and local endpoint
+acceptance. Full coefficient/bundle, physical observation and `tau_A0` law
+must close before global BFV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

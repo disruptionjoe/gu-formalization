@@ -15,13 +15,13 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.75. The universal contact
-theorem and direct-sum endpoint `40/40` quotient survive, but `p=KT` is not
-selected-action-owned. Two inequivalent indefinite `K` controls pass the same
-Ward/Green/symplectic tests, while the selected action is cubically
-nonquadratic and has nonzero `E_B-E_T` at `T=0`. The next gate assembles the
-actual all-ten oriented `E_B-E_T` boundary bank with its observation receiver.
-See `selected-k77-action-contact-legendre-owner.json`.
+Current append-only progress surface: ledger v0.76. The selected
+`comm/symi/symi` action now owns an exact rank-fourteen `Cl1+Cl2` coefficient
+bank with ten independent normal rows. Complete observation is lossless, the
+scalar-Clifford image is nondegenerate, and opposite local endpoint copies can
+enter the existing dressing without a fitted `K`. Full coefficient/global
+bundle, `tau_A0`/BFV and common-domain extension remain open. See
+`selected-k77-action-boundary-coefficient-bank.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -140,9 +140,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.75.json` - current append-only conditional
-  physics ledger after preserving the generic contact theorem but rejecting
-  `p=KT` as selected-action ownership.
+- `conditional-physics-ledger-v0.76.json` - current append-only conditional
+  physics ledger after constructing the exact low-grade selected-action bank,
+  lossless complete observation and local oriented endpoint acceptance.
+- `selected-k77-action-boundary-coefficient-bank.json` - records the exact
+  rank-ten normal bank, scalar-Clifford inertias, observation inverse,
+  endpoint orientation and full/global successor fence.
 - `selected-k77-action-contact-legendre-owner.json` - records the two-`K`
   control, nonquadratic selected-action obstruction, preserved endpoint
   quotient and actual all-ten `E_B-E_T` boundary-bank successor.

@@ -12,15 +12,12 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.74 composes the already-exact primitive-epsilon endpoint traces
-> with two independent K77 endpoint dressings. The local trace map has rank two
-> and the direct sum recovers the full v0.70 `40/40` quotient; the v0.73
-> single-holonomy `20/20` result remains a compression no-go. Hostile review
-> keeps epsilon ownership open: the primitive coefficient is
-> `i_n(E_B-E_T)`, while the contact coefficient is `p=KT`. The next gate is
-> their coefficientwise equality on both endpoints and all ten normals, not
-> another edge field or endpoint map. Only a pass opens full `tau_A0`, global
-> BFV, polarization and common-domain work.
+> Ledger v0.76 replaces the rejected generic `p=KT` owner with the exact
+> selected `E_B-E_T` bank on the real-K77 `Cl1+Cl2` tangent. All ten normal
+> rows are independent, complete observation is lossless, and the existing
+> local endpoint dressing accepts the opposite action covectors. The next gate
+> is full coefficient/bundle and physical-observation extension, followed by
+> global `tau_A0`, BFV, polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -173,12 +170,20 @@ updated_at: "2026-08-08"
 > theorem, independent endpoint cotangent variables, direct-sum `40/40`
 > quotient and single-holonomy no-go survive.
 
-> **NEXT RUN: ACTUAL SELECTED-ACTION LEGENDRE/GREEN BANK.** Assemble the
-> oriented boundary trace of `E_B-E_T` across all ten K77 directions with the
-> complete observation receiver, without fitting a free `K`. Then reuse the
-> already-independent endpoint cotangent dressing before attempting full
-> `tau_A0`/global BFV/common-domain descent. Symplectic review remains
-> mandatory.
+> **2026-08-08 SELECTED-ACTION BOUNDARY COEFFICIENT BANK (ledger v0.76).**
+> [`explorations/conditional-build/selected-k77-action-boundary-coefficient-bank-2026-08-08.md`](explorations/conditional-build/selected-k77-action-boundary-coefficient-bank-2026-08-08.md)
+> differentiates the same `comm/symi/symi` action on the real-K77
+> `Cl1+Cl2` tangent. The full bank has rank fourteen; all ten metric-fibre
+> normal rows are nonzero and independent; the complete observation equation
+> dual is lossless; and the inherited scalar-Clifford images are
+> nondegenerate. Opposite local endpoint restrictions can therefore enter the
+> existing direct-sum dressing without a fitted `K` or new datum.
+
+> **NEXT RUN: FULL/GLOBAL ACTION-BANK EXTENSION.** Extend the exact low-grade
+> bank to the full coefficient and bundle carrier, prove physical observation
+> overlap, then assemble the global `tau_A0`/BFV moment map and common
+> Green/Krein domain. Do not promote the local bank or scalar-Clifford pairing
+> to full physical Krein/BFV status. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

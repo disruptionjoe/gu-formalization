@@ -30,11 +30,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > only `20/20` of the v0.70 `40/40` endpoint quotient and forces `p0=p2`.
 > Ledger v0.74 composes the already-built primitive-epsilon endpoint trace and
 > proves its local rank is two; two independent endpoint dressings recover the
-> full `40/40` quotient. Ledger v0.75 rejects `p=KT` as selected-action-owned:
-> two inequivalent `K` controls pass the same structural tests, while the
-> selected action is cubically nonquadratic and has nonzero `E_B-E_T` at
-> `T=0`. Preserve the contact theorem and build the actual all-ten oriented
-> `E_B-E_T` boundary bank with observation receiver.
+> full `40/40` quotient. Ledger v0.75 rejects `p=KT` as selected-action-owned.
+> Ledger v0.76 replaces it with the exact selected `Cl1+Cl2` `E_B-E_T` bank:
+> fourteen full rows and ten independent normals, lossless complete
+> observation, nondegenerate scalar-Clifford image and opposite local endpoint
+> acceptance. Next extend it to the full coefficient/bundle carrier, physical
+> observation, global `tau_A0`/BFV and common domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
@@ -90,7 +91,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > while killing single-holonomy compression of the full endpoint phase space.
 > v0.74 supplies the two endpoint traces and direct-sum `40/40` geometry.
 > v0.75 shows that `p=KT` is a generic quadratic contact realization, not the
-> selected-action owner; the actual `E_B-E_T` boundary bank and global
+> selected-action owner. v0.76 constructs the exact selected low-grade bank
+> and local endpoint acceptance; full coefficient/global observation and
 > BFV/common domain remain open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
@@ -212,10 +214,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > v0.70 sign and flat/pure-gauge Maurer-Cartan bridge. Preserve v0.73's exact
 > K77 source/target cotangent reduction and its material negative result:
 > one holonomy imposes `p0=p2` and reduces `40/40` to `20/20`, so the action
-> cannot be compressed to one path cotangent. Preserve v0.75's exact local
-> rank-two endpoint trace, direct-sum `40/40` recovery and universal contact
-> theorem; derive the selected-action boundary coefficients directly from
-> `E_B-E_T` rather than fitting a constitutive `K`.
+> cannot be compressed to one path cotangent. Preserve v0.75's arbitrary-`K`
+> rejection and v0.76's exact selected low-grade rank-ten bank, lossless
+> observation and local endpoint acceptance; extend that bank globally rather
+> than fitting a constitutive receiver.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
@@ -728,6 +730,40 @@ generation; the "2" come from a different decomposition). 4+10 is forced
 (the section's own decomposition) and uniquely mod-3-clean ({3⁰,3¹,3²}) —
 fenced: multiplicity, not index. Full detail:
 lab/process/hinge-panel-synthesis-2026-08-03.md.
+
+## Register items are queue-addressable (added 2026-08-08)
+
+The improvement register and the hourly chain are two work systems that do not
+connect. Measured 2026-08-08: the register holds **145 items with 8 marked
+EXECUTED/DONE** since 2026-08-03, while the hourly chain produced **224 commits**
+in the same five days. The ledger's `next_work_queue` is re-authored every run and
+contains only construction ranks, so nothing routes a register item into it. Grade
+does not help: `M-C1` is graded `C` (critical) and `M-H9` is a named fork-resolver
+for a fork at stack depth 10; both sat five days.
+
+**When authoring a `next_work_queue` rank you may name a register item directly**,
+the same way a rank names `LT-GR1`. Two are live and verified:
+
+- **`M-C1`** (`C`/`S`) — FC3 fired and unrecorded. `tests/gen_ch2_sx_from_codazzi.py`
+  asserts `ch2_normal == -1152`; the cert reports `ch2(S_X)[K3] = -5376`,
+  "decisively NOT 24". The `ind_H = Â·rank = 16` step assumed `ch2 = 0`, so the
+  `16+8=24` chain's arithmetic is dead. **Fence, from the cert:** `pi_!` is
+  `NOT_DEFINED`, so this is not yet THE index — the premise is dead, the
+  replacement unknown. Retiring the chain is verdict-adjacent (CS workflow +
+  hostile review).
+- **`M-H9`** (`H`/`M`) — the B5 signature test. Discriminates `SIGNATURE-AMBIENT` at
+  the endpoints, `(9,5) => (58,78)` vs `(7,7) => (78,58)`, and derives B5 fields
+  (i)-(iii) natively. That fork is at **stack depth 10, over threshold**, reported
+  by `process_gates/fork_depth_audit.py` every run.
+
+Two cautions when working the register. **Its line references are stale** — resolve
+by content (`P-H18` cites 378/397, now ~1019/1038; `P-H19` cites :376, now ~:1009).
+And **several rows are already satisfied and were never marked** — `P-H18` and
+`P-H19` were both found done in 2026-08-07/08. Verify the target surface before
+doing the work.
+
+Off-queue work on the backlog runs through
+`lab/process/runs/GUH-20260808T060000Z-register-side-track/`.
 
 ## Key coordination surfaces
 
