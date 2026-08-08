@@ -7,7 +7,18 @@ updated_at: "2026-08-08"
 
 # Explorations
 
-## Conditional K77 residual pairing (2026-08-08)
+## K77 operative pairing-symmetry closure (2026-08-08)
+
+`conditional-build/selected-k77-operative-pairing-symmetry-closure-2026-08-08.md`
+proves the selected grade-`1+2+5` residual is Spin-native, dimension `2,107`.
+The block product on two `C^(32,32)` halves closes only after expansion to
+`16,382` dimensions and has three invariant pairing coordinates; full
+`U(64,64)` expands to `16,383` and has one. Source action-parent selection is
+open. Ledger v0.93 exposes the `84..86` conditional residue range and advances
+the primary selected route to lower-order `D_g Upsilon` without moving a
+verdict, datum, canon or posture.
+
+## Predecessor conditional K77 residual pairing (2026-08-08)
 
 `conditional-build/selected-k77-residual-pairing-invariance-2026-08-08.md`
 constructs the local degree-thirteen-Hodge times Clifford-trace bilinear. It

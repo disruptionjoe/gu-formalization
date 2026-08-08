@@ -8,7 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.92; five
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.93; five
+distance/evidence migrations; headline unchanged).** Exact complexified
+closure now separates three action-parent meanings. The selected
+`Cl1+Cl2+Cl5` carrier is Spin-native, dimension `2,107`, with three pairing
+coordinates. The block product preserving two `C^(32,32)` Weyl halves needs
+dimension `16,382` and also has three coordinates (two after an additional
+chirality exchange); full `U(64,64)` needs dimension `16,383` and has one.
+Neither large group preserves the selected truncation. The source confirms
+both the two halves and full principal group but is silent on which residual
+action parent or observation reduction is intended. The primary build now
+continues conditionally on the Spin-native scalar-trace point toward
+lower-order complete `D_g Upsilon`, coefficientwise naturality, formal
+adjoint and Green. The booked residue remains 84 with the exact parent range
+`84..86` exposed. No verdict, quotient, datum, canon or posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-08 (ledger v0.92; five
 distance/evidence migrations; headline unchanged).** A conditional local K77
 residual pairing is now exact: degree-thirteen Hodge pairing times scalar
 Clifford trace on grades 1, 2 and 5. Its restriction to all 1,470 frozen

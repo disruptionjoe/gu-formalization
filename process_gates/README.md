@@ -12,6 +12,13 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_operative_pairing_symmetry_closure_audit.py` enforces the
+  v0.93 exact Spin/block/full carrier closures `2107/16382/16383`, invariant
+  pairing dimensions `3/3/1` (or `2` with a separately typed exchange), the
+  two-`C^(32,32)` versus full-`U(64,64)` Layer-0 split, mandatory symplectic
+  and analytic fences, `84..86` conditional residue range, and lower-order
+  `D_g Upsilon` successor.
+
 - `selected_k77_residual_pairing_invariance_audit.py` enforces the v0.92
   local-pairing theorem, full-`U(64,64)` comparator versus Weyl-block fork,
   mandatory symplectic and analytic fences, frozen headline/residue/datum
@@ -187,6 +194,7 @@ selected notes below and in each script header.
 - `pati_salam_readme_inventory_audit.py`
 - `papers_candidates_readme_inventory_audit.py`
 - `papers_readme_lifecycle_map_audit.py`
+- `path_dependency_audit.py`
 - `post_batch2_wave1a_supersession_dependency_audit.py`
 - `primary_gu_interface_contract_audit.py`
 - `process_gate_readme_inventory_audit.py`
@@ -194,6 +202,7 @@ selected notes below and in each script header.
 - `pull_request_template_validation_audit.py`
 - `public_path_hygiene_audit.py`
 - `queue_review_freshness_audit.py`
+- `register_writeback_audit.py`
 - `selected_cubic_augmented_torsion_d3_owner_scope_audit.py`
 - `selected_cubic_gauge_rotated_lc_ward_owner_scope_audit.py`
 - `selected_cubic_intrinsic_homogeneous_ward_closure_scope_audit.py`
@@ -209,6 +218,7 @@ selected notes below and in each script header.
 - `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_operative_pairing_symmetry_closure_audit.py`
 - `selected_k77_action_boundary_coefficient_bank_scope_audit.py`
 - `selected_k77_full_u6464_action_bank_scope_audit.py`
 - `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`
@@ -219,6 +229,7 @@ selected notes below and in each script header.
 - `selected_second_layer_full_cl2_residual_pullback_scope_audit.py`
 - `selected_second_layer_i2b_gauss_owner_map_scope_audit.py`
 - `selected_second_layer_tt_euler_preboundary_helicity_scope_audit.py`
+- `spectral_conditioning_disclosure_audit.py`
 
 - `pw2fr2b2b2g_full_a4_multiindex_green_distinct_i2b_c4_scope_audit.py`
 - `pw2fr2b2b2h_mixed_shiab_second_jet_scope_audit.py`

@@ -7,7 +7,21 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
-> **2026-08-08 CONDITIONAL K77 RESIDUAL PAIRING (ledger v0.92).** The
+> **2026-08-08 OPERATIVE PAIRING-SYMMETRY CLOSURE (ledger v0.93).** The
+> selected K77 `Cl1+Cl2+Cl5` residual carrier has complex dimension `2,107`
+> and is exactly Spin-native. A block-preserving
+> `U(32,32) x U(32,32)` action on the two `C^(32,32)` Weyl halves requires a
+> `16,382`-dimensional closure with three pairing coordinates; full
+> `U(64,64)` requires `16,383` and leaves one invariant line. Thus “two
+> 32,32 halves” and full U are both retained, but neither preserves the
+> selected truncation. Source action-parent selection remains open. Proceed
+> conditionally on the Spin-native selected parent at the scalar-Clifford-
+> trace point: construct lower-order complete physical `D_g Upsilon` and
+> coefficientwise naturality, then formal adjoint/Green. Keep expanded
+> large-group parents as rivals. Residue is honestly ranged `84..86`; no
+> verdict or datum moves.
+
+> **2026-08-08 PREDECESSOR CONDITIONAL K77 RESIDUAL PAIRING (ledger v0.92).** The
 > degree-thirteen Hodge pairing times scalar Clifford trace is nondegenerate
 > on the frozen 1,470-dimensional source response, with exact inertia
 > `(741,729,0)`. Full `U(64,64)` adjoint invariance forces equal grade-1/2/5

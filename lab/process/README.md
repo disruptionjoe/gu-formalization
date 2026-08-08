@@ -7,7 +7,18 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.92. The local K77 residual
+Current append-only progress surface: ledger v0.93. The selected K77
+grade-`1+2+5` residual carrier is Spin-native, complex dimension `2,107`.
+The block product on the two `C^(32,32)` Weyl halves generates a `16,382`-
+dimensional carrier with three pairing coordinates; full `U(64,64)` generates
+`16,383` with one. Neither large group preserves the selected truncation.
+The source is silent on the action parent, so the primary build proceeds
+conditionally at the scalar-Clifford-trace point toward lower-order complete
+`D_g Upsilon`, coefficientwise naturality and formal adjoint/Green. The
+booked residue stays 84 while the `84..86` parent range is explicit. See
+`selected-k77-operative-pairing-symmetry-closure.json`.
+
+Predecessor append-only progress surface: ledger v0.92. The local K77 residual
 pairing `K_loc` is conditionally exact and nondegenerate on all 1,470 frozen
 source directions, with inertia `(741,729,0)`. Full `U(64,64)` invariance
 selects one weight line only on that comparator. Curt's two `C^(32,32)` Weyl

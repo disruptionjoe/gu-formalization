@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.92 residual-pairing construction:** use
+> **Current v0.93 operative pairing-symmetry closure:** the two
+> `C^(32,32)` Weyl halves, their block-preserving
+> `U(32,32) x U(32,32)` subgroup, and full `U(64,64)` are three different
+> objects. The selected K77 grade-`1+2+5` residual is Spin-native with complex
+> dimension `2,107`. The block product generates `16,382` dimensions and
+> leaves three pairing coordinates; full U generates `16,383` and leaves one.
+> Neither large group preserves the selected truncation. Complexification is
+> used only for closure, never signature/positivity/domain. Continue the
+> primary build conditionally on the Spin-native selected carrier at the
+> scalar-Clifford-trace point: lower-order complete physical `D_g Upsilon`,
+> coefficientwise naturality, then formal adjoint/Green. Keep expanded parents
+> as rivals. Residue range `84..86`; symplectic review mandatory. Ledger v0.93.
+
+> **Predecessor v0.92 residual-pairing construction:** use
 > `K_loc = Hodge13 x scalar-Clifford-trace` on grades 1, 2 and 5 only as a
 > conditional local K77 bilinear. It has exact rank 1,470 and inertia
 > `(741,729,0)` on the frozen source response: nondegenerate, indefinite.

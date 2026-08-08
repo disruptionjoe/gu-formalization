@@ -98,7 +98,7 @@ graph TD
 - **Trigger:** Any work touching the generation count, chirality, spinor reality, Kramers/quaternionic structure, or that builds on a Cl(9,5) carrier.
 - **Naive reading:** "(9,5) vs (7,7) is a sign convention, so results transfer." They do not. The two are not real-isomorphic and the reality type is observable.
 
-| # | grade | fact | receipt |
+| # | evidence | fact | receipt |
 |---|---|---|---|
 | 1 | `EXACT` | The DeWitt fibre form is (6,4), and this is INDEPENDENT of the base sign: G(-g) = G(g) exactly. | `tests/signature_fork_equivariance_defect.py` |
 | 2 | `EXACT` | So the base sign alone moves the ambient: (3,1)->(9,5), (1,3)->(7,7). | `tests/signature_fork_equivariance_defect.py` |
@@ -130,7 +130,7 @@ graph TD
 - **Trigger:** Any work citing R3's sign-blindness, the C-operator, Bender-Mannheim, or concluding that the Turok-Bateman mechanism is unavailable to GU.
 - **Naive reading:** "R3 showed the ghost-parity mechanism fails on GU's carrier, so TB is dead here." R3 tested whether the SPECTRAL C is dynamics-derived. TB's parity comes from a two-field O(1,1) EMBEDDING and is defined where the spectral C is not.
 
-| # | grade | fact | receipt |
+| # | evidence | fact | receipt |
 |---|---|---|---|
 | 1 | `THEOREM` | Bender-Mannheim's C and Turok-Bateman's ghost parity are the SAME operator on the simple-spectrum domain (||C - P_ghost|| -> 3e-8). | `explorations/big-swing-2026-07-06/BIG-SWING-CONFORMAL-CLASS-BLOCKED.md` |
 | 2 | `THEOREM` | They come APART at spectral degeneracies, where C exists but is NOT unique. | `explorations/big-swing-2026-07-06/VG-V4-quantize-break-commuting-square.md` |
@@ -159,7 +159,7 @@ graph TD
 - **Trigger:** Any work quoting a signature pair from a transcript, or citing "the source" for a numeric signature claim.
 - **Naive reading:** "'Curt/Eric' is one source." They are two, they disagree in notation, and only one is authorial.
 
-| # | grade | fact | receipt |
+| # | evidence | fact | receipt |
 |---|---|---|---|
 | 1 | `EXACT` | Curt states raw (3,7), traceless (3,6), flipped (4,6). The repository computes (7,3), (6,3), (6,4). Exact mirrors, three for three. | `tests/source_signature_notation_is_mirrored.py` |
 | 2 | `EXACT` | The mirror is FORCED, not inferred: all three forms are even in A = g^-1 B, so they are bit-identical at every base sign. Curt's pairs are unreachable by any base choice. | `tests/source_signature_notation_is_mirrored.py` |
@@ -190,7 +190,7 @@ graph TD
 - **Trigger:** Any move to change a ledger row, canon verdict, fork status, or to declare something settled or reopened.
 - **Naive reading:** "The computation is right, so the conclusion follows." On 2026-08-08 three dispositions were proposed off ONE correct fact and all three were wrong.
 
-| # | grade | fact | receipt |
+| # | evidence | fact | receipt |
 |---|---|---|---|
 | 1 | `EXACT` | The declared-base resolver: filed, then falsified the same afternoon by the notation mirror. | `lab/process/layer0-fork-registry.yaml` |
 | 2 | `EXACT` | The non-equivariance retyping: rejected on hostile review; '-g is a different point in a different orbit', not a relabeling. | `lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md` |

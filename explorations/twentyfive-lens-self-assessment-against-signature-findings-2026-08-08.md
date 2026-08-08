@@ -316,7 +316,24 @@ The strongest cross-lens convergence is procedural and mathematical:
 The exact per-lens labels above, rather than the prose grouping in the first
 bullet, are authoritative for the tally.
 
-## Highest-value live test: hostile-review handoff, not a verdict
+## Correction after the path-dependency audit
+
+The exact signature findings above survive.  Two convergence dispositions are
+narrowed.  Kramers doubling cannot be the general cause of R3's exact balance:
+for every `chi`-even core, `{K,chi}=0` supplies a horn-independent sign pairing.
+R3's odd/mixed-core balance was measured rather than proved by that argument,
+so a matched K77 rerun remains a legitimate scoped experiment, but it is no
+longer the highest-information main Build gate.  The source-action queue returns
+to the operative residual-pairing symmetry and lower-order `D_g Upsilon` build.
+
+This is an append-only disposition correction. It changes no Clifford fact,
+signature fork, ledger row, canon verdict or public posture.
+
+## Superseded live-test handoff (retained for provenance)
+
+**Disposition correction:** the hypothesis below is no longer the primary
+Build gate for the reason just recorded. Its three endings remain a valid
+design for any later odd/mixed-core comparison.
 
 **Hypothesis:** R3's universal K-balance is partly or wholly a Kramers artifact
 of the quaternionic `(9,5)` carrier. The bounded successor is a matched rerun on
