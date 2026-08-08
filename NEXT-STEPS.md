@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 PHYSICAL DIFFEOMORPHISM SPLIT (ledger v0.88).** The natural
+> lift to `TX plus Sym2(T*X)` has physical rank four in every causal class.
+> Its metric-skew/Kosmann part has rank three; the longitudinal fourth
+> direction is a nonzero symmetric metric deformation. Moving K77 metric,
+> density, Hodge, tautological forms, observation graph and equation dual are
+> locally natural with zero fit, so no gamma lift is required for this
+> kinematic purpose. This is exact on the declared-base `(7,7)` horn and does
+> not settle `SIGNATURE-AMBIENT`. Next expand nonconstant primitive epsilon, field Lie
+> transport and every selected-action coefficient, prove coefficientwise
+> `J R=0`, then derive `K*`, adjoint and Green. No datum is used.
+
 > **2026-08-08 KOSMANN/MOVING-SHIAB RANK-THREE CLOSURE (ledger v0.87).**
 > Covector-matched timelike, spacelike and null packets all retain rank three,
 > but v0.86's spacelike/null coefficients used a response operator frozen at

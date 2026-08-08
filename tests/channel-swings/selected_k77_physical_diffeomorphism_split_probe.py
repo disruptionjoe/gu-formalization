@@ -218,6 +218,7 @@ def family_rank(matrices):
 ETA = sp.diag(1, -1, -1, -1)
 GV = dewitt(ETA)
 G = sp.diag(ETA, GV)
+G_EIGENVALUES = G.eigenvals()
 CAUSAL = {
     "timelike": sp.Matrix([1, 0, 0, 0]),
     "spacelike": sp.Matrix([0, 1, 0, 0]),
@@ -226,6 +227,7 @@ CAUSAL = {
 
 
 print("A. SOURCE, LAYER ZERO, AND PREDECESSOR FENCES")
+check("exact", "declared base (1,3) plus trace-reversed fibre (6,4) has total inertia (7,7)", sum(m for value, m in G_EIGENVALUES.items() if value.is_positive) == 7 and sum(m for value, m in G_EIGENVALUES.items() if value.is_negative) == 7)
 prior = strict("lab/process/selected-k77-kosmann-moving-shiab-rank3.json")
 check("repo", "v0.87 closes only the complete lower-order internal rank-three orbit", prior["exact_closure"]["internal_orbit_rank"] == 3 and prior["exact_closure"]["complete_lower_order_response_cancels"])
 check("repo", "moving Shiab alone remains rejected", prior["exact_closure"]["moving_shiab_alone_cancels"] is False)
@@ -236,6 +238,7 @@ for label in (
     "observation graph motion versus ordinary pullback",
     "constant-background epsilon principal symbol versus nonconstant epsilon Lie transport",
     "local residual naturality versus nonlinear action Frechet and Green closure",
+    "declared-base K77 horn versus the open ambient-signature interpretation",
 ):
     check("type", label + " remain distinct", True)
 
@@ -358,6 +361,7 @@ for kind, label in (
     ("analytic", "no hyperbolicity spectrum contour determinant saddle or measure is selected"),
     ("scope", "gamma-epsilon is not used to supply the fourth direction"),
     ("scope", "P1 P2 P3 remain unused and Curt remains separate"),
+    ("scope", "the declared-base K77 calculation does not settle SIGNATURE-AMBIENT"),
 ):
     check(kind, label, True)
 

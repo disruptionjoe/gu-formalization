@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.87.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.87.md`.
+`lab/process/conditional-physics-ledger-v0.88.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.88.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -215,11 +215,14 @@ Preserve gamma-epsilon as an internal or future soldering construction; do
 not include it in the physical Ward packet without a separate source/geometry
 and reduced-symplectic descent theorem. Ledger v0.87 then shows that moving
 Shiab alone is not that packet: the complete lower-order internal bivector
-gauge orbit closes exactly, while a covector-matched physical diffeomorphism
-Lie/density/Hodge/observation and lower-order metric packet remains open. Build
-that physical packet,
-then complete lower-order transverse and primitive internal-epsilon Frechet
-response, `K*`, formal adjoint and Green concomitant.
+gauge orbit closes exactly. Ledger v0.88 constructs the physical metric-bundle
+lift itself. Its rank four is the rank-three metric-skew/Kosmann response plus
+a symmetric longitudinal metric complement, so gamma is not needed as a
+fourth physical direction. Local metric/density/Hodge/Phi/observation and
+equation-dual naturality close with zero fit. Build must now expand
+nonconstant primitive epsilon, field Lie transport and every selected-action
+coefficient, prove coefficientwise `J R=0`, then derive `K*`, formal adjoint
+and Green concomitant.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the

@@ -15,12 +15,19 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.87. The covector-matched
+Current append-only progress surface: ledger v0.88. The natural matched-q
+physical diffeomorphism lift has rank four: rank-three metric-skew/Kosmann
+response plus a symmetric longitudinal metric complement. Moving K77 metric,
+density, Hodge, tautological forms, observation graph and equation dual are
+locally natural with zero fit. Gamma is not required as a fourth physical
+direction. The declared-base `(7,7)` horn is used; `SIGNATURE-AMBIENT` remains
+open. Nonconstant primitive epsilon, field Lie transport, the expanded
+selected-action Frechet, `K*`, adjoint and Green remain open. See
+`selected-k77-physical-diffeomorphism-split.json`.
+
+Predecessor append-only progress surface: ledger v0.87. The covector-matched
 internal bivector gauge orbit has rank three and closes exactly only after its
-complete lower-order connection, curvature and moving-Phi/Shiab response is
-assembled. Moving Shiab alone is the wrong carrier. v0.86's spacelike/null
-coefficient packets used a timelike-frozen response operator; rank survives,
-supports do not. Physical diffeomorphism Frechet/Green remains open. See
+complete lower-order response is assembled. See
 `selected-k77-kosmann-moving-shiab-rank3.json`.
 
 Predecessor append-only progress surface: ledger v0.86. Source epsilon is an
@@ -199,10 +206,14 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.87.json` - current append-only conditional
-  ledger; the complete lower-order internal bivector Ward orbit closes exactly,
-  frozen-`q0` spacelike/null supports are corrected, and matched-q physical
-  diffeomorphism Frechet/Green remains open.
+- `conditional-physics-ledger-v0.88.json` - current append-only conditional
+  ledger; natural physical diffeomorphism kinematics and local naturality close,
+  while nonhomogeneous action Frechet/Green remains open.
+- `selected-k77-physical-diffeomorphism-split.json` - exact natural rank-four
+  lift, rank-three Kosmann/skew split, local naturality and open Frechet scope.
+- `conditional-physics-ledger-v0.87.json` - immutable predecessor ledger; the
+  complete lower-order internal bivector Ward orbit closes exactly and frozen-
+  `q0` spacelike/null supports are corrected.
 - `selected-k77-kosmann-moving-shiab-rank3.json` - exact causal support,
   rank-three-to-zero internal closure, moving-Shiab-alone negative control and
   physical-diffeomorphism successor.

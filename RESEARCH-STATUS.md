@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose correction 2026-08-08 (ledger v0.88; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The exact
+natural physical diffeomorphism lift has rank four in timelike, spacelike and
+null classes. Its metric-skew/Kosmann response has rank three with the
+longitudinal line as kernel; that line has a nonzero symmetric metric response.
+Local moving-metric, density, degree-one Hodge, sampled degree-two Hodge,
+tautological-form, observation-graph and equation-dual naturality close with
+zero fit. Gamma epsilon is not required as the physical fourth direction.
+Nonconstant primitive epsilon, field Lie transport, the expanded selected-
+action Frechet coefficients, `K*`, adjoint, Green and symplectic/BFV/domain
+descent remain open. The result is conditional on the declared-base `(7,7)`
+horn and does not settle `SIGNATURE-AMBIENT`. No headline, quotient or datum
+moves.
+
 **Current Build/Compose correction 2026-08-08 (ledger v0.87; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The exact
 covector-matched internal bivector orbit has rank three in every causal class

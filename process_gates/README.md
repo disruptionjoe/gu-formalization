@@ -2230,6 +2230,15 @@ packet, and exact zero-fit closure only for the complete lower-order internal
 bivector gauge orbit. It keeps physical diffeomorphism Frechet/Green,
 primitive epsilon, Krein, symplectic and BFV descent open.
 
+## K77 physical diffeomorphism split v0.88 gate
+
+`selected_k77_physical_diffeomorphism_split_audit.py` requires the natural
+physical rank-four lift, its rank-three Kosmann/skew response and nonzero
+symmetric longitudinal complement. It preserves the degree-two Hodge sampled
+scope, records the moving observation negative control and source silence on
+the exact formula, and rejects promotion from local residual-zero naturality
+to full action Frechet, Green, symplectic, BFV, domain or Einstein recovery.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0",
+  "status": "PHYSICAL_SPLIT_CLOSES_LOCAL_PACKET__LOCAL_NATURALITY_ONLY",
+  "date": "2026-08-08",
+  "run_id": "RUN-20260808-183533-gu-k77-physical-diffeomorphism-split",
+  "source_return": "SOURCE-CONFIRMS_TARGET_AND_ARENA__SOURCE-SILENT_EXACT_LIFT_SPLIT_AND_FRECHET",
+  "layer0": {
+    "base_diffeomorphism_vs_internal_H_gauge": "DISTINCT",
+    "kosmann_skew_vs_symmetric_metric_complement": "DISTINCT",
+    "observation_graph_motion_vs_field_pullback": "DISTINCT",
+    "primitive_epsilon_vs_dependent_frame_transport": "DISTINCT",
+    "local_residual_zero_naturality_vs_full_action_frechet": "DISTINCT"
+  },
+  "exact_split": {
+    "base_jacobian": "B=XI_Q_TRANSPOSE",
+    "sym2_lift": "V_K=B_TRANSPOSE_K_PLUS_K_B",
+    "physical_family_rank": 4,
+    "metric_skew_kosmann_rank": 3,
+    "symmetric_metric_family_rank": 4,
+    "sym2_lift_rank": 4,
+    "skew_kernel": "LONGITUDINAL_Q_SHARP_LINE",
+    "longitudinal_response": "ZERO_SKEW__NONZERO_SYMMETRIC",
+    "gamma_lift_required": false
+  },
+  "causal_classes": {
+    "timelike": "RANKS_4_3_4_4",
+    "spacelike": "RANKS_4_3_4_4",
+    "null": "RANKS_4_3_4_4"
+  },
+  "local_naturality": {
+    "k77_metric": "EXACT_ALL_12_COLUMNS",
+    "density": "EXACT_ALL_12_COLUMNS",
+    "hodge_degree1": "COEFFICIENTWISE_EXACT_ALL_12_COLUMNS",
+    "hodge_degree2": "EXACT_ON_THREE_PREREGISTERED_REPRESENTATIVE_TWO_FORMS_PER_COLUMN",
+    "phi1_phi2": "TAUTOLOGICAL_FRAME_NATURAL",
+    "observation_graph": "EXACT",
+    "equation_dual": "EXACT",
+    "frozen_observation_plant": "LIVE_NO_LEAKAGE_DEFECT",
+    "raw_residual_zero_output_transport": "EXACT_REPRESENTATION_LEVEL_ONLY"
+  },
+  "primitive_epsilon": {
+    "constant_background_principal_response": "ZERO",
+    "nonconstant_lower_order_lie_response": "LIVE_ALL_FOUR_BASE_DIRECTIONS",
+    "action_frechet_ownership": "OPEN"
+  },
+  "constraint_accounting": {
+    "continuous_parameters_selected": 0,
+    "discrete_choices_selected": 0,
+    "function_slots_selected": 0,
+    "quotients_added": 0
+  },
+  "scope_boundary": {
+    "expanded_nonhomogeneous_selected_action_frechet": "OPEN",
+    "full_coefficientwise_JR_zero": "OPEN",
+    "K_star": "OPEN",
+    "formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "symplectic_BFV_common_domain": "OPEN",
+    "hodge_degree2_all_columns": "OPEN",
+    "signature_ambient_horn": "OPEN_WHETHER_SOURCE_1_3_IS_AMBIENT_RELEVANT_BASE_OR_ONLY_SPIN_GAUGE_STATEMENT",
+    "canon_status_public_posture": "UNCHANGED"
+  },
+  "external_datum": "P1/P2/P3_UNCHANGED_AND_UNUSED",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane_gate": "TG-1_AND_TG-2_AND_TG-3_NOT_PROMOTED",
+  "provenance_collision": "MAIN_PROBE_WAS_COMMITTED_BY_CONCURRENT_SIGNATURE_FORK_COMMIT_76CADF61_WHILE_THIS_RUN_HELD_THE_CENTRAL_CLAIM__BYTE_CONTENT_RETAINED_AND_INDEPENDENTLY_REPLAYED__REMAINDER_OWNED_BY_THIS_RUN",
+  "next_gate": "EXPAND_NONHOMOGENEOUS_SOURCE_ACTION_FRECHET_WITH_PRIMITIVE_EPSILON_AND_FIELD_LIE_TRANSPORT__THEN_K_STAR_ADJOINT_GREEN"
+}

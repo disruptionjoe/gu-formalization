@@ -9,7 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.87 internal bivector Ward closure:** use a response operator
+> **Current v0.88 physical diffeomorphism split:** the natural lift to
+> `TX plus Sym2(T*X)` has rank four. Its metric-skew/Kosmann response has rank
+> three and longitudinal kernel, while that same direction has a nonzero
+> symmetric metric response. Local metric/density/Hodge/Phi/observation and
+> equation-dual naturality are exact with zero fit. Gamma is not the missing
+> fourth physical direction. This is exact on the declared-base `(7,7)` horn;
+> `SIGNATURE-AMBIENT` remains open. This is not the full selected-action Ward theorem:
+> expand nonconstant primitive epsilon, field Lie transport and every action
+> coefficient, prove coefficientwise `J R=0`, then derive `K*`, adjoint and
+> Green. Mandatory symplectic review remains.
+
+> **Predecessor v0.87 internal bivector Ward closure:** use a response operator
 > matched to each causal covector. v0.86's spacelike/null coefficient packets
 > froze it at timelike `q0`; rank three survives but those supports do not.
 > Moving Shiab alone does not cancel the packet. The complete lower-order

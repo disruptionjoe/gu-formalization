@@ -9,6 +9,9 @@ updated_at: "2026-08-08"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-physical-diffeomorphism-split-source-reinspection-2026-08-08.md`](selected-k77-physical-diffeomorphism-split-source-reinspection-2026-08-08.md)
+  confirms the metric-bundle/diffeomorphism-orthogonality target and records
+  source silence on the exact lift, split and Frechet/Green complex.
 - [`selected-k77-kosmann-moving-shiab-rank3-source-reinspection-2026-08-08.md`](selected-k77-kosmann-moving-shiab-rank3-source-reinspection-2026-08-08.md)
   records `SOURCE-CONFIRMS` for moving-Phi/Shiab and primitive epsilon grammar,
   and `SOURCE-SILENT` for physical diffeomorphism soldering and analytic descent.

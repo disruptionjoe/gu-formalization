@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 physical diffeomorphism split (2026-08-08)
+
+`conditional-build/selected-k77-physical-diffeomorphism-split-2026-08-08.md`
+constructs the natural rank-four metric-bundle lift. The rank-three
+metric-skew/Kosmann response has a longitudinal kernel that is supplied by the
+symmetric metric response, so gamma is not needed as a physical fourth
+direction. Local density/Hodge/observation naturality closes with zero fit;
+the nonhomogeneous selected-action Frechet/Green packet remains open. Ledger
+v0.88 changes no headline count, datum, quotient, canon or posture.
+
 ## K77 Kosmann moving-Shiab rank-three closure (2026-08-08)
 
 `conditional-build/selected-k77-kosmann-moving-shiab-rank3-2026-08-08.md`
