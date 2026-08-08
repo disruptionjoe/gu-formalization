@@ -1,7 +1,8 @@
 ---
 artifact_type: exploration_result
 created: 2026-08-08
-status: FORK_IS_NON_EQUIVARIANCE__RETYPING_PROPOSED_NOT_EXECUTED__ONE_PRIOR_CLAIM_CORRECTED__SOURCE_CONVENTION_DIVERGENCE_NAMED
+status: RETYPING_REJECTED_ON_REVIEW__TWO_ORBIT_SPLIT__DECLARED_BASE_ROUTE_TO_(7,7)_FILED_AS_NAMED_RESOLVER__ONE_PRIOR_CLAIM_CORRECTED
+reviewed_by: lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md
 grade: "EXACT for everything computed. tests/signature_fork_equivariance_defect.py
   is green: Levi-Civita invariance under g -> -g at residual 0.00e+00, DeWitt
   invariance at 0.00e+00, causal cone identical on 4000 samples, ABS Clifford
@@ -21,6 +22,33 @@ follows:
 ---
 
 # The signature fork is an equivariance defect
+
+> **HOSTILE REVIEW, same day — the title is wrong and the headline was rejected.**
+> `lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md`.
+> Every computation here reproduced; none changed. Two things did:
+>
+> **1. "A pure relabeling" does not survive.** `−g` is a *different point*, in a
+> different `GL(4,ℝ)` orbit — the `(3,1)` and `(1,3)` metrics are **disjoint
+> orbits** in `Sym²T*X`. The defensible statement is the **two-orbit** one:
+> `Met(X)` read as "Lorentzian metrics" has two components carrying `M(64,ℍ)` and
+> `M(128,ℝ)`; read as "the `(3,1)` orbit" it has simply declared a convention.
+> Both readings are live, and neither makes the fork an evidence question. The
+> proposed **retyping of `SIGNATURE-AMBIENT` is REJECTED.**
+>
+> **2. A larger result was sitting in this artifact's own evidence, undrawn.**
+> `REAL-CLIFFORD-FORM` is settled at `Cl(7,7)`, and the registry names
+> *"`SIGNATURE-AMBIENT` settles at `(7,7)`"* as the dissolution condition for 29
+> pressured canon files. The source's **declared** base `(1,3)` plus the
+> repository's **derived** fibre `(6,4)` gives exactly `(7,7)` — a second,
+> physically clean route to that horn, distinct from the transcript's
+> `(4,6)+(3,1)` arithmetic, which uses the ghost-like fibre sign. **Filed as the
+> row's `named_resolver`**, which had been `NONE` since `M-H9` was falsified.
+> **Not a settlement** — see the review for the three grounds and the one
+> remaining gap.
+>
+> Read the sections below with those two corrections applied. The
+> non-equivariance observation is not wrong; it is *subordinate*, explaining why
+> the horns feel undecidable from inside the construction.
 
 Produced by a divergent-persona sweep over the session's own output, looking for
 what was missed. Five personas returned something; the source critic returned the

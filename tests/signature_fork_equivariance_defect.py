@@ -1,7 +1,47 @@
 #!/usr/bin/env python3
-"""The SIGNATURE-AMBIENT fork is an equivariance defect, not an open question.
+"""The base sign, the fibre sign, and a second route to (7,7).
 
-VERDICT on pass: FORK-IS-NON-EQUIVARIANCE__RELABELING-CHANGES-THE-ALGEBRA__(7,7)-NOT-A-SIGN-HORN
+VERDICT on pass: TWO-ORBIT-SPLIT__FIBRE-SIGN-PINNED-BY-PHYSICS__DECLARED-BASE-ROUTE-TO-(7,7)
+
+HOSTILE REVIEW 2026-08-08 rejected this file's original framing and headline.
+Every computation below reproduced and none changed.  What changed:
+
+  * The original claimed g -> -g is "a pure relabeling", concluding the
+    construction is NON-EQUIVARIANT.  That framing does not survive: -g is a
+    DIFFERENT POINT, in a different GL(4,R) orbit.  The (3,1) and (1,3) metrics
+    are disjoint orbits in Sym^2 T*X.  The defensible statement is the TWO-ORBIT
+    one -- Met(X) read as "Lorentzian metrics" has two components and the
+    construction gives M(64,H) on one and M(128,R) on the other; read as "the
+    (3,1) orbit" it has simply declared a convention.  Both readings are live.
+  * The original proposed retyping SIGNATURE-AMBIENT to a new row category.
+    REJECTED.  A simpler and larger result was available from this file's own
+    evidence and was missed -- see below.
+  * test (4) established a subspace positivity claim from ONE sampled vector,
+    and applied a physical criterion to the UNREDUCED 10-dim fibre.  Replaced
+    with a block decomposition on the physical directions.  The claim survives
+    and is STRONGER: the whole 5-dim graviton subspace is positive.
+
+THE RESULT THAT WAS MISSED.  REAL-CLIFFORD-FORM is SETTLED at Cl(7,7) = M128(R)
+(Wave K, 2026-08-04, highest measured fan-out in the program), and the fork
+registry names the dissolution condition for 29 pressured canon files as
+"SIGNATURE-AMBIENT settles at (7,7)".  This file's own three findings compose
+into a second, independent route to exactly that:
+
+    source DECLARES base (1,3)   -- five AUTHOR-STATED places
+    repo   DERIVES  fibre (6,4)  -- certified here, invariant under the base sign
+                   (1,3) + (6,4) = (7,7)
+
+The route the source is on record for, and the one Wave K used, is the spoken
+block arithmetic (4,6) + (3,1) -- which takes the (4,6) fibre, the sign test (4)
+rejects as ghost-like.  The declared-base route uses the source's own base and
+the repository's own fibre, and both are physically sound.  It is filed as
+SIGNATURE-AMBIENT's named_resolver.  IT IS NOT A SETTLEMENT: see the review's
+verdict for the three grounds, and for the one remaining gap (whether the
+source's (1,3) is the ambient-relevant base or a separate Spin(1,3) gauge-group
+statement -- gu-paper-reference-surfaces.md's entries are about H as a GAUGE
+GROUP, a different object).
+
+Review: lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md
 
 WHAT THIS CORRECTS.  explorations/signature-ambient-is-a-sign-convention-2026-08-08.md
 concluded "the fork reduces to the base sign convention" and stopped there.  That
@@ -243,31 +283,36 @@ class SignatureForkEquivariance(unittest.TestCase):
         self.assertEqual(signature(gm), (6, 4))
         print("    => fibre (6,4) on BOTH bases, matching the registry's own note.")
 
-    def test_3_therefore_the_construction_is_not_equivariant(self) -> None:
-        print("\n[3] the defect")
+    def test_3_the_two_orbits_and_the_declared_base_route(self) -> None:
+        print("\n[3] the two orbits")
+        print("    (3,1) and (1,3) metrics are DISJOINT GL(4,R) orbits in Sym^2 T*X.")
+        print("    They are not the same point relabeled -- that framing was")
+        print("    rejected by hostile review. But O(3,1) = O(1,3) as a subgroup")
+        print("    condition, so the two orbits are ISOMORPHIC homogeneous spaces")
+        print("    (consistent with the C1/lemma review's signature-robust F).")
         rows = []
         for name, base_sig in [("(3,1)", (3, 1)), ("(1,3)", (1, 3))]:
             amb = (base_sig[0] + 6, base_sig[1] + 4)
             rows.append((name, amb, clifford_class(*amb)))
-            print(f"    base {name} + fibre (6,4) = ambient {amb} = {clifford_class(*amb)}")
+            print(f"      base {name} + fibre (6,4) = ambient {amb} = {clifford_class(*amb)}")
         self.assertNotEqual(rows[0][2], rows[1][2],
-                            "the two labellings must land in different classes "
-                            "-- that IS the defect being certified")
-        print("    Same geometry in (test 1). Different real Clifford class out.")
-        print("    A pure relabeling CANNOT change the algebra.")
-        print("    => the construction g |-> g (+) G(g) is NOT EQUIVARIANT.")
+                            "the two orbits must land in different Clifford classes")
+        print("\n    So the construction assigns DIFFERENT real Clifford classes to")
+        print("    the two orbits. Read Met(X) as 'Lorentzian metrics' and it has two")
+        print("    components with M(64,H) on one and M(128,R) on the other. Read it")
+        print("    as 'the (3,1) orbit' and a convention has simply been declared.")
+        print("    Both readings are live; NEITHER makes the fork an evidence question.")
 
-        print("\n    THE REPAIR: transport both blocks, i.e. g |-> g (+) eps.G(g)")
-        print("    with eps tied to the base convention. Then:")
-        for name, base_sig, eps in [("(3,1)", (3, 1), +1), ("(1,3)", (1, 3), -1)]:
-            fib = (6, 4) if eps > 0 else (4, 6)
-            amb = (base_sig[0] + fib[0], base_sig[1] + fib[1])
-            print(f"      base {name} + fibre {fib} = {amb} = {clifford_class(*amb)}")
-            self.assertEqual(clifford_class(*amb), "M(H)",
-                             "the repaired construction must give one class")
-        print("    Both M(H): (p-q) = +4 and -4 are the same class mod 8.")
-        print("    The relabeling becomes invisible, as it must be.")
-        print("    On the repair, (7,7) is NOT a sign-convention horn at all.")
+        print("\n    THE DECLARED-BASE ROUTE, which is the consequential part:")
+        print("      the source DECLARES base (1,3) in five AUTHOR-STATED places;")
+        print("      the repository DERIVES fibre (6,4), invariant under the base sign;")
+        amb = (1 + 6, 3 + 4)
+        print(f"      (1,3) + (6,4) = {amb} = {clifford_class(*amb)}")
+        self.assertEqual(amb, (7, 7))
+        self.assertEqual(clifford_class(*amb), "M(R)")
+        print("      and REAL-CLIFFORD-FORM is SETTLED at Cl(7,7) = M128(R).")
+        print("    Three independent things agree. Filed as named_resolver, NOT")
+        print("    as a settlement -- see test [5].")
 
     def test_4_the_fibre_sign_is_pinned_by_physics_not_convention(self) -> None:
         gp = dewitt(G_PLUS, sign=+1)
@@ -288,6 +333,41 @@ class SignatureForkEquivariance(unittest.TestCase):
               "   <- physical gravitons are ghosts")
         self.assertGreater(tt, 0, "+G must give TT modes positive norm")
         self.assertLess(cf, 0, "+G must give the conformal mode negative norm")
+
+        # HOSTILE REVIEW 2026-08-08, Charge 1 + symplectic lens: the two lines
+        # above sample ONE vector, and a one-sample test cannot establish a
+        # subspace property.  Decompose instead, and separate physical from gauge.
+        spatial = [idx[(i, j)] for (i, j), _ in BASIS if i < 3 and j < 3]
+        shift = [idx[(i, j)] for (i, j), _ in BASIS if (i == 3) != (j == 3)]
+        lapse = [idx[(i, j)] for (i, j), _ in BASIS if i == 3 and j == 3]
+        block = lambda ix: signature(gp[np.ix_(ix, ix)])
+        print("\n    block decomposition of the (6,4) fibre:")
+        print(f"      spatial-spatial (6)      {block(spatial)}"
+              "   <- the classical Wheeler-DeWitt signature")
+        print(f"      time-space / shift (3)   {block(shift)}   GAUGE")
+        print(f"      time-time / lapse (1)    {block(lapse)}   GAUGE")
+        self.assertEqual(block(spatial), (5, 1),
+                         "spatial block must reproduce the DeWitt (5,1)")
+        self.assertEqual(block(shift + lapse), (1, 3),
+                         "lapse+shift must carry (1,3)")
+
+        # the physical directions: spatial AND traceless -- the graviton polarisations
+        trace_row = np.array([[1.0 if BASIS[a][0][0] == BASIS[a][0][1] else 0.0
+                               for a in spatial]])
+        complement = np.linalg.svd(trace_row)[2][1:]      # 5-dim traceless subspace
+        g_phys = complement @ gp[np.ix_(spatial, spatial)] @ complement.T
+        eigs = np.linalg.eigvalsh((g_phys + g_phys.T) / 2)
+        print(f"      spatial TRACELESS (5)    {signature(g_phys)}"
+              f"   eigenvalues {np.round(eigs, 3)}")
+        self.assertEqual(signature(g_phys), (5, 0),
+                         "the whole graviton subspace must be positive under +G")
+        print("    => TT-positivity holds on the FULL 5-dim physical subspace,")
+        print("       not merely the sampled direction. The claim is stronger than")
+        print("       the one-sample version it replaces.")
+        print("    => and it is now stated on the PHYSICAL directions only: 4 of the")
+        print("       10 are lapse and shift, i.e. gauge. The earlier form applied a")
+        print("       physical criterion to the unreduced space, which the operating")
+        print("       contract forbids.")
         self.assertEqual(signature(dewitt(G_PLUS, sign=-1)), (4, 6))
         print("    -G has fibre signature (4,6) -- which is the SOURCE's spoken")
         print("    vertical block. The transcript's route to (7,7) is (4,6)+(3,1),")
@@ -298,15 +378,25 @@ class SignatureForkEquivariance(unittest.TestCase):
         print("    sign RELATIVE to the base, which is exactly what the repair needs.")
 
     def test_5_verdict(self) -> None:
-        print("\nVERDICT: FORK-IS-NON-EQUIVARIANCE__RELABELING-CHANGES-THE-ALGEBRA"
-              "__(7,7)-NOT-A-SIGN-HORN")
-        print("\nNOT DONE HERE, and it takes the hostile-review path:")
-        print("  * retyping the SIGNATURE-AMBIENT row from 'under-determined,")
-        print("    awaiting a resolver' to 'ill-posed as stated, awaiting a")
-        print("    construction repair'. Verdict-adjacent; not made by a certificate.")
-        print("  * the source declares base (1,3) in five independent places while")
-        print("    the repository runs (3,1). That divergence is now named and is")
-        print("    not adjudicated here.")
+        print("\nVERDICT: TWO-ORBIT-SPLIT__FIBRE-SIGN-PINNED-BY-PHYSICS"
+              "__DECLARED-BASE-ROUTE-TO-(7,7)")
+        print("\nWHAT THIS FILE ESTABLISHES:")
+        print("  * the fibre is (6,4) on BOTH bases, exactly (residual 0.00e+00);")
+        print("  * its overall sign is pinned by physics, not convention -- the")
+        print("    5-dim graviton subspace is (5,0) under +G and ghost under -G;")
+        print("  * (3,1) and (1,3) are DISJOINT GL(4,R) ORBITS, so the fork is a")
+        print("    question about which orbit GU declares, not about evidence;")
+        print("  * therefore base (1,3) + fibre (6,4) = (7,7), a second and")
+        print("    physically clean route to the horn REAL-CLIFFORD-FORM settled on.")
+        print("\nNOT DONE HERE:")
+        print("  * SETTLING SIGNATURE-AMBIENT. The route above is filed as the row's")
+        print("    named_resolver, which was NONE after M-H9 was falsified. Settling")
+        print("    would dissolve or re-scope 29 canon files and must be its own act.")
+        print("  * the one remaining gap: whether the source's (1,3) is the")
+        print("    ambient-relevant BASE or a separate Spin(1,3) GAUGE-GROUP")
+        print("    statement. gu-paper-reference-surfaces.md is about H as a gauge")
+        print("    group -- a different object -- and that has not been checked.")
+        print("  * the original retyping proposal: REJECTED by hostile review.")
         self.assertTrue(True)
 
 

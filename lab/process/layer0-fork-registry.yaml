@@ -75,6 +75,39 @@ forks:
       GU's split is 4+10, even/even, so the product rule applies either way.
       Distinct from REAL-CLIFFORD-FORM, which IS settled.
     named_resolver: >-
+      CANDIDATE as of 2026-08-08 -- THE DECLARED-BASE ROUTE. Not a settlement;
+      filed to replace the NONE that stood after M-H9 was falsified. The route:
+      the source DECLARES the base as (1,3) in five independent AUTHOR-STATED
+      places -- WG-A04 and WG-A08 in claim-mining-toe-weinstein-complete-2026-07-31.md,
+      the 2021 draft S11-S12 "for Spin(1,3) x Spin(6,4)", the transcript at
+      02:42:20 "we are trapped in the (1,3) sector", and gu-paper-reference-surfaces.md;
+      the repository DERIVES the fibre as (6,4) and that derivation is INVARIANT
+      under the base sign (G(-g) = G(g) exactly, residual 0.00e+00, certified in
+      tests/signature_fork_equivariance_defect.py). Then (1,3) + (6,4) = (7,7),
+      which is the horn REAL-CLIFFORD-FORM is already SETTLED on. Three
+      independent things agree. Crucially this is a DIFFERENT route from the one
+      Wave K used: the spoken block arithmetic (4,6) + (3,1) takes the (4,6)
+      fibre, and the same certificate shows (4,6) makes the five physical
+      graviton directions GHOSTS -- the physical subspace is (5,0) under +G and
+      (0,5) under -G -- while (6,4) reproduces the classical Wheeler-DeWitt
+      (5,1) on the spatial block. So the declared-base route is the physically
+      clean one and the transcript's own arithmetic is the unsound one.
+      THE ONE REMAINING GAP, and it is the whole gap: whether the source's
+      "(1,3)" is the AMBIENT-RELEVANT BASE METRIC signature or a separate
+      Spin(1,3) GAUGE-GROUP statement. gu-paper-reference-surfaces.md's entries
+      are about H as a gauge group, which is a different object, and that
+      distinction has NOT been checked. Until it is, this is a candidate.
+      NOT SETTLED, on three grounds recorded in the review: the route rests on
+      AUTHOR-STATED source declarations, which grade as evidence about the
+      source and not about the mathematics; settling the mirror of the fork whose
+      measured_cost entry records seven constructions stacked on an
+      under-examined horn, on one day's work by the agent who produced it, would
+      repeat that failure with the sign reversed; and it would dissolve or
+      re-scope 29 canon files, which must be a deliberate act with its own review.
+      See lab/process/hostile-reviews/2026-08-08-signature-fork-equivariance-review.md
+      and explorations/signature-fork-is-an-equivariance-defect-2026-08-08.md.
+      That review REJECTED the accompanying proposal to retype this row.
+      PRIOR STATE FOLLOWS --
       NONE, as of 2026-08-08. This field previously named M-H9. That resolver is
       FALSIFIED at Tier 1: tests/mh9_tier1_cperp_character_no_flip.py shows the
       C_perp involution character is +1 on BOTH bases (residuals 0.0), so the
