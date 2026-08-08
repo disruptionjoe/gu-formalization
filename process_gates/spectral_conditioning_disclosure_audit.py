@@ -31,8 +31,19 @@ WHAT THIS GATE DOES, and deliberately does NOT do.
 HONEST LIMIT.  This is a TEXTUAL audit.  It cannot tell whether a reported
 condition number is correct, or whether an artifact is truly in a near-defective
 regime -- only whether it uses the vocabulary of one without the vocabulary of
-conditioning.  False positives are possible and should be resolved by adding the
-disclosure, not by weakening the marker list.
+conditioning.
+
+ON FALSE POSITIVES, CORRECTED 2026-08-08 (same day this gate landed).  The
+original docstring said false positives "should be resolved by adding the
+disclosure, not by weakening the marker list".  THAT GUIDANCE WAS WRONG and is
+withdrawn.  The bare marker "defective" matched ordinary English -- "defective
+as a construction", "the motivation is defective" -- and flagged two artifacts,
+one of them another agent's, where a conditioning disclosure would have been
+meaningless noise.  A gate that compels meaningless disclosures is worse than no
+gate: it trains agents to satisfy it mechanically.  The marker was narrowed to
+technical collocations instead.  The correct rule: if the vocabulary match is
+NOT about operator defectiveness, fix the MARKER; only add a disclosure when the
+artifact really is making a spectral claim in a near-defective regime.
 """
 
 from __future__ import annotations
@@ -52,7 +63,12 @@ SEARCH_DIRS = ("explorations", "canon", "lab/process")
 DEFECTIVE_MARKERS = (
     "jordan block", "jordan boundary", "jordan pathology",
     "exceptional point", "eigenvector coalescence", "coalescence overlap",
-    "splitting exponent", "defective", "non-diagonalizable", "nondiagonalizable",
+    "splitting exponent", "non-diagonalizable", "nondiagonalizable",
+    # "defective" ALONE is ordinary English ("a defective argument") and produced
+    # two false positives within hours of this gate landing, one of them on
+    # another agent's artifact. Require the technical collocation.
+    "defective operator", "defective matrix", "defective eigenvalue",
+    "near-defective", "defective point",
 )
 
 # vocabulary that constitutes disclosure
