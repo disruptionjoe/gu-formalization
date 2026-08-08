@@ -1,15 +1,23 @@
 ---
 run_id: GUH-20260808T024447Z-source-action-parameter-structure
-status: test_a_complete__test_b_open
+status: complete
 completed_at_test_a: 2026-08-08T03:40:00Z
 result_test_a: explorations/declaration-viable-region-2026-08-07.md
+result_test_b: explorations/quotient-ranking-first-pass-2026-08-07.md
+completed_at: 2026-08-08T04:10:00Z
 result_summary: "Test A was executed in its sharpened form (enumerate the viable
   region rather than prove a floor). Outcome: ZERO of the five named tensions,
   and zero in-row constraints, exclude any genesis option. |V| under internal
   consistency alone is 1536 (10.58 bits) and falls to 96 (6.58 bits) only when
   target physics is imposed -- 4.00 bits from the target, 0.00 from the theory.
   The genesis set is not self-constraining, so the external datum includes the
-  target, which is booked nowhere. Test B (rank the quotients) was NOT run."
+  target, which is booked nowhere. Test B then ranked the normalization
+  rescaling quotient: rank 3 as a group but only 2 rows act on charged
+  coordinates, so 83 -> 81. The largest quotient, field redefinition on the
+  36-real Yukawa block, is BLOCKED on SA-C1, an open DECLARATION row. Joint
+  conclusion: the free-parameter count is a function on the genesis space, not a
+  number, and the headline 83-plus-9-forks presents as independent two columns
+  where the first depends on the second."
 repository: gu-formalization
 workflow: repo-progress-run
 mode: execute
