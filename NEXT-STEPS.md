@@ -7,6 +7,21 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 GAMMA-SOLDERED SOURCE-EPSILON ORBIT (ledger v0.84).** The
+> ordinary grade-two Kosmann compensator is exactly rank-three/no-gain, but
+> the already-owned grade-one K77 map `gamma_epsilon:C->ad(P_H)` supplies a
+> zero-parameter conditional epsilon tangent of rank four. The injective
+> all-grade raw-residual response preserves it and closes all four principal
+> common-field `J R=0` orbit columns in timelike, spacelike and null classes.
+> This removes v0.83's fixed-epsilon rank obstruction and revives the old
+> rank-four metric diagnostic only for coefficientwise recheck. The source
+> confirms the carriers but is silent on
+> `eta=gamma_epsilon(xi-flat)` as the physical diffeomorphism soldering law.
+> Next construct the six transverse physical `D_g Upsilon` columns and
+> lower-order/nonlinear `D_epsilon Upsilon`, verify the full Frechet Ward
+> identity, then derive `K*`, formal adjoint and Green concomitant before the
+> stationary Gram Hessian. No external datum is used.
+
 > **2026-08-08 COMMON-FIELD `D_UPSILON` VARPI BLOCK (ledger v0.83).** The
 > source-owned 24-dimensional horizontal `varpi` carrier now has an exact,
 > injective residual block of rank 24 with 56 live output coordinates. Its

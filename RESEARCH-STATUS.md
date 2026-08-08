@@ -8,7 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.83; five
+**Current Build/Compose result 2026-08-08 (ledger v0.84; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The
+ordinary Kosmann epsilon compensator exactly shares the rank-three
+spin-Levi-Civita image and longitudinal kernel, but the already-owned
+grade-one K77 `gamma_epsilon:C->ad(P_H)` map supplies a conditional rank-four
+epsilon tangent. The injective all-grade residual map preserves all four
+columns, including the longitudinal direction missed by source `varpi`, and
+the combined principal orbit admits exact `J R=0` in every causal class with
+no fitted coefficient or datum. This removes the fixed-epsilon rank
+obstruction but does not identify the old metric diagnostic coefficientwise.
+Six transverse physical metric columns, lower-order epsilon response, `K*`,
+formal adjoint and Green concomitant remain. Source confirms the carriers and
+is silent on the physical soldering identity. No verdict, residue, quotient,
+datum, canon or public posture moves.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.83; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The
 source-owned horizontal `D_varpi Upsilon` block is exact and injective on its
 24-dimensional carrier, with 56 live output coordinates in Clifford grades

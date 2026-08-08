@@ -15,16 +15,25 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.83. The source-owned
+Current append-only progress surface: ledger v0.84. The ordinary
+spin/Levi-Civita Kosmann source-epsilon lift has rank three and exactly the
+same longitudinal kernel as the source-`varpi` connection block, so it adds
+no Ward direction. The already-owned grade-one K77 map
+`gamma_epsilon:C -> ad(P_H)` instead supplies an exact rank-four principal
+epsilon orbit in every causal class, is nonzero on that longitudinal kernel,
+and conditionally closes all four principal `J R=0` columns when composed
+with the source-`varpi` response. This is a zero-parameter construction, not
+a source assertion: the source is silent on identifying
+`gamma_epsilon(xi-flat)` with physical diffeomorphism soldering. Build now
+owns the six transverse physical metric columns, lower-order epsilon block,
+residual pairing, formal adjoint and Green concomitant. See
+`selected-k77-gamma-soldered-epsilon-dupsilon-orbit.json`.
+
+Predecessor append-only progress surface: ledger v0.83. The source-owned
 24-dimensional horizontal `D_varpi Upsilon` block is exact and injective, with
 56 live output coordinates. Its diffeomorphism interface has rank three, so
-the earlier rank-four metric diagnostic cannot be imported as the stationary
-common-field `g-g` Gram block on the fixed-`epsilon` horn. Build now owns the
-physical metric plus source-epsilon residual blocks and complete `J R=0`, then
-the residual pairing, formal adjoint and Green concomitant. Printed
-`Xi=D_omega Upsilon` remains a covariant prolongation, not the missing
-`D_epsilon Upsilon`. See
-`selected-k77-common-field-dupsilon-varpi-block.json`.
+the earlier rank-four metric diagnostic could not be imported on the
+fixed-`epsilon` horn; v0.84 supplies a distinct grade-one epsilon orbit.
 
 Predecessor append-only progress surface: ledger v0.82. At complete
 `Upsilon*=0`, the second-layer bulk Hessian is exactly the common-field
@@ -162,10 +171,17 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.83.json` - current append-only conditional
-  ledger; the source horizontal `D_varpi Upsilon` block is exact, its causal
-  Ward interface has rank three, and physical metric plus source-epsilon
-  blocks now lead before pairing/adjoint/Green and the stationary Gram Hessian.
+- `conditional-physics-ledger-v0.84.json` - current append-only conditional
+  ledger; the ordinary Kosmann lift remains rank three, while the distinct
+  K77 `gamma_epsilon` construction supplies an exact rank-four principal
+  epsilon orbit. Six transverse metric columns, lower-order epsilon response,
+  pairing/adjoint/Green and the stationary Gram Hessian remain open.
+- `selected-k77-gamma-soldered-epsilon-dupsilon-orbit.json` - exact causal
+  ranks, Kosmann negative control, grade-one gamma-epsilon principal orbit,
+  source-silence fence and successor gate.
+- `conditional-physics-ledger-v0.83.json` - immutable predecessor ledger;
+  closes the source horizontal `D_varpi Upsilon` block and exposes its
+  rank-three causal Ward interface.
 - `conditional-physics-ledger-v0.82.json` - immutable predecessor conditional
   physics ledger; reduces the stationary second-layer bulk-Hessian build to
   typed `D Upsilon`, `K*`, Ward and Green owners without deleting physical

@@ -246,3 +246,7 @@ identifications as separate grades.
     separates printed covariant `D_omega Upsilon` from the missing Frechet
     block `D_epsilon Upsilon`; returns source-silent on the complete physical
     metric/epsilon response, residual pairing, adjoint and Green concomitant.
+- [`selected-k77-gamma-soldered-epsilon-dupsilon-orbit-source-reinspection-2026-08-08.md`](selected-k77-gamma-soldered-epsilon-dupsilon-orbit-source-reinspection-2026-08-08.md)
+  - confirms source epsilon, gamma/frame carriers and internal equivariance;
+    returns source-silent on the zero-parameter construction identifying
+    `gamma_epsilon(xi-flat)` with the physical diffeomorphism soldering orbit.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.83.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.83.md`.
+`lab/process/conditional-physics-ledger-v0.84.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.84.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -172,6 +172,24 @@ prove complete `J R=0`, then derive the residual pairing, formal adjoint and
 Green concomitant. Printed `Xi=D_omega Upsilon` is an exterior-covariant
 prolongation and cannot stand in for the epsilon Frechet block.
 
+Ledger v0.84 tests the missing source-epsilon direction. The ordinary
+spin/Levi-Civita Kosmann lift has rank three and the same longitudinal kernel
+as the source-`varpi` block, so it contributes no new principal Ward
+direction. The distinct already-owned grade-one K77 map
+`gamma_epsilon:C -> ad(P_H)` yields a rank-four principal epsilon orbit for
+timelike, spacelike and null covectors and is nonzero on that missing
+longitudinal direction. At `Upsilon*=0`, differentiated internal
+equivariance conditionally composes it with the connection response to close
+all four principal `J R=0` columns without a new field, coefficient, datum or
+quotient. The source confirms the epsilon/gamma/equivariance ingredients but
+is silent on the physical soldering identification
+`eta(xi)=gamma_epsilon(xi-flat)`. This is therefore a conditional
+zero-parameter construction, not a derivation. Build now constructs all six
+transverse physical metric columns and lower-order epsilon dependencies before
+the residual pairing, formal adjoint, Green concomitant and stationary Gram
+operator. The old rank-four metric diagnostic is revived only for an exact
+coefficientwise comparison, not imported by rank.
+
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
 principal `q`-exact connection theorem. The algebraic Cartan/Spencer map
@@ -252,12 +270,14 @@ closes the completed first-layer spin-two route, preserves the second-layer TT
 diagnostic with its rank-four Ward defect, and requires the full common-field
 two-layer Hessian. That coupled action-derived Euler/Ward comparison must
 close before microlocal, global BFV and common-domain descent. v0.83 closes
-the source-horizontal `D_varpi Upsilon` block and rejects importing the old
-rank-four metric diagnostic on the fixed-`epsilon` horn. Construct physical
-`D_g Upsilon` and source `D_epsilon Upsilon` together, prove complete
-`J R=0`, then derive the residual pairing/formal adjoint and Green concomitant
-before forming the stationary Gram operator. Do not substitute printed
-covariant `D_omega Upsilon` for the epsilon Frechet block, rebuild
+the source-horizontal `D_varpi Upsilon` block; v0.84 rejects the ordinary
+Kosmann repair but constructs the distinct grade-one K77 gamma-epsilon
+principal orbit and conditionally closes the four diffeomorphism columns.
+Construct the six transverse physical `D_g Upsilon` columns and complete
+lower-order `D_epsilon Upsilon`, then derive the residual pairing/formal
+adjoint and Green concomitant before forming the stationary Gram operator. Do
+not substitute printed covariant `D_omega Upsilon` for the epsilon Frechet
+block, do not treat source-silent physical soldering as derived, do not rebuild
 `D2 Upsilon`, or delete physical Shiab/Hodge constituent movement.
 Generic ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main

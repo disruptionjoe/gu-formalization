@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 gamma-soldered source-epsilon D-Upsilon orbit (2026-08-08)
+
+`conditional-build/selected-k77-gamma-soldered-epsilon-dupsilon-orbit-2026-08-08.md`
+proves the grade-two Kosmann compensator is rank-three/no-gain, while the
+already-owned grade-one `gamma_epsilon` map gives a zero-parameter conditional
+epsilon tangent of rank four. Its exact raw-residual response closes the four
+principal common-field Ward orbit columns in every causal class. This removes
+the fixed-epsilon rank obstruction but leaves six transverse physical metric
+columns, lower-order epsilon response, pairing/adjoint and Green data open.
+Ledger v0.84 moves no headline count or quotient.
+
 ## K77 common-field D-Upsilon varpi block (2026-08-08)
 
 `conditional-build/selected-k77-common-field-dupsilon-varpi-block-2026-08-08.md`

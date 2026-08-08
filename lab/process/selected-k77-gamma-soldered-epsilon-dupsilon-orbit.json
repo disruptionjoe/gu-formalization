@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "GAMMA_SOLDERED_EPSILON_PRINCIPAL_ORBIT_EXACT__PHYSICAL_TRANSVERSE_METRIC_K_GREEN_OPEN",
+  "lane": "1",
+  "functional_channels": ["COMPOSE", "BUILD", "SOURCE", "VERIFY"],
+  "result": "KOSMANN_RANK3_NO_GAIN__GAMMA_EPSILON_RANK4__COMMON_FIELD_PRINCIPAL_ORBIT_JR_ZERO",
+  "source_return": "SOURCE-CONFIRMS__EPSILON_GAMMA_FRAME_AND_GAUGE_EQUIVARIANCE_CARRIERS__SOURCE-SILENT__GAMMA_XI_AS_PHYSICAL_DIFFEO_SOLDERING_IDENTITY",
+  "layer0": {
+    "source_epsilon": "H-valued gauge/nonlinear-sigma field",
+    "gamma_epsilon": "dependent global labelled Clifford map C to ad(P_H), constructed from source epsilon and gamma_0",
+    "kosmann_compensator": "grade-two Lorentz bivector q wedge xi with the spin-Levi-Civita longitudinal kernel",
+    "gamma_soldered_tangent": "construction eta=gamma_epsilon(xi-flat) in the grade-one adjoint; not a source-quoted diffeomorphism identity",
+    "epsilon_response": "principal residual Frechet response on the internal gauge orbit derived from equivariance at Upsilon-star zero",
+    "printed_D_omega": "exterior-covariant prolongation Xi=D_omega Upsilon; not this D_epsilon Frechet block",
+    "metric_orbit_restriction": "four Ward-determined orbit values with six transverse physical metric columns open"
+  },
+  "causal_orbits": {
+    "timelike": {
+      "kosmann_rank": 3,
+      "gamma_input_rank": 4,
+      "gamma_residual_rank": 4,
+      "combined_orbit_rank": 4,
+      "gamma_response_supports": [14, 1, 1, 1],
+      "combined_response_supports": [14, 2, 2, 2],
+      "transverse_metric_dimensions_open": 6
+    },
+    "spacelike": {
+      "kosmann_rank": 3,
+      "gamma_input_rank": 4,
+      "gamma_residual_rank": 4,
+      "combined_orbit_rank": 4,
+      "gamma_response_supports": [2, 15, 2, 2],
+      "combined_response_supports": [15, 15, 4, 4],
+      "transverse_metric_dimensions_open": 6
+    },
+    "null": {
+      "kosmann_rank": 3,
+      "gamma_input_rank": 4,
+      "gamma_residual_rank": 4,
+      "combined_orbit_rank": 4,
+      "gamma_response_supports": [16, 3, 3, 16],
+      "combined_response_supports": [17, 7, 7, 17],
+      "transverse_metric_dimensions_open": 6
+    }
+  },
+  "constraint_surplus": {
+    "new_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_datum": 0,
+    "four_independent_orbit_conditions_closed": 4,
+    "construction_hypothesis": "identify the diffeomorphism parameter with the gamma-epsilon grade-one tangent",
+    "source_derivation_claimed": false
+  },
+  "old_metric_diagnostic": {
+    "fixed_epsilon_rank_obstruction": "REMOVED_BY_GAMMA_EPSILON_PRINCIPAL_ORBIT",
+    "coefficientwise_identity": "OPEN__NEEDS_PHYSICAL_TRANSVERSE_METRIC_AND_PAIRING",
+    "disposition": "REVIVED_FOR_RECHECK__NOT_PROMOTED"
+  },
+  "held_open": {
+    "complete_physical_D_g_Upsilon": "OPEN__SIX_TRANSVERSE_COLUMNS",
+    "lower_order_and_nonlinear_D_epsilon_Upsilon": "OPEN",
+    "residual_K_star": "OPEN",
+    "formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "stationary_gram_hessian": "OPEN",
+    "reduced_presymplectic_BV_BFV_and_domain": "OPEN"
+  },
+  "controls": {
+    "main_exact": "66/66 PASS",
+    "independent_sage": "30/30 PASS",
+    "kosmann_only_fourth_direction": "REJECTED",
+    "freeze_epsilon": "REJECTED",
+    "generic_fitted_lorentz_compensator": "REJECTED_AS_OWNER",
+    "promote_orbit_to_full_metric_block": "REJECTED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_gamma_soldered_epsilon_dupsilon_orbit_probe.py",
+    "tests/channel-swings/selected_k77_gamma_soldered_epsilon_dupsilon_orbit_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-gamma-soldered-epsilon-dupsilon-orbit-review.md",
+  "next_gate": "CONSTRUCT_COMPLETE_PHYSICAL_DG_UPSILON_SIX_TRANSVERSE_AND_LOWER_ORDER_DEPSILON_BLOCKS__VERIFY_FULL_FRECHET_JR_ZERO__DERIVE_RESIDUAL_K_ADJOINT_AND_GREEN_CONCOMITANT__THEN_FORM_STATIONARY_GRAM_HESSIAN"
+}

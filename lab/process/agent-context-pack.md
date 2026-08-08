@@ -9,16 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.83 common-field block:** the source-owned horizontal
-> `D_varpi Upsilon` is exact and injective on 24 dimensions, but its
-> diffeomorphism interface has rank three. The old metric-only diagnostic has
-> rank-four Ward load and therefore is not importable as the common-field
-> stationary `g-g` Gram block on the fixed-`epsilon` horn. Construct physical
-> `D_g Upsilon` and source `D_epsilon Upsilon` together, prove complete
-> `J R=0`, then derive `K*`, formal adjoint and Green concomitant before forming
-> the Gram operator. Printed `Xi=D_omega Upsilon` is a covariant prolongation,
-> not the missing epsilon Frechet block. Do not infer an absolute kill,
-> physical kernel, contour or BV-BFV quotient from the finite rank theorem.
+> **Current v0.84 gamma-soldered orbit:** the grade-two Kosmann epsilon lift
+> is exactly rank-three/no-gain, but the already-owned grade-one
+> `gamma_epsilon:C->ad(P_H)` map supplies a conditional rank-four epsilon
+> tangent. The exact raw-residual response closes all four principal
+> common-field Ward orbit columns and removes v0.83's fixed-epsilon rank
+> obstruction. The source does not state
+> `eta=gamma_epsilon(xi-flat)` as physical diffeomorphism soldering. Construct
+> six transverse physical `D_g Upsilon` columns and lower-order
+> `D_epsilon Upsilon`, prove the full Frechet `J R=0`, then derive `K*`, formal
+> adjoint and Green concomitant. Do not infer coefficientwise recovery of the
+> old metric diagnostic, a physical kernel, contour or BV-BFV quotient.
 
 > **CURRENT PRIORITY AND LEDGER ACCOUNTING.** The active meter is correctly
 > `82/82 = 32 SAME + 19 DIFFERS + 26 NEEDS + 5 OVER-DETERMINED`. The JSON also
@@ -61,9 +62,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > pair is helicity one. The separate second-layer metric block retains its TT
 > helicity-two polynomial but has Ward-defect rank four, as does naive layer
 > addition. A formal repair has 21 free directions and is not evidence. The
-> next Build is the full selected two-layer common-field stationary Hessian
-> with all cross blocks and its coupled Ward complex, then microlocal,
-> boundary `tau_A0`/BFV and common domain.
+> v0.84 now closes the four principal common-field Ward-orbit columns through
+> the conditional grade-one gamma-epsilon construction. The next Build owns
+> the six transverse physical metric columns, lower-order epsilon response,
+> residual pairing, formal adjoint and Green concomitant before the stationary
+> Gram operator, microlocal, boundary `tau_A0`/BFV and common domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the

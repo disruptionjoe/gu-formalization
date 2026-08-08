@@ -2189,6 +2189,18 @@ source `epsilon` as the unbuilt revival route. It requires the Layer-0
 distinction between covariant `D_omega Upsilon` and Frechet
 `D_epsilon Upsilon`, plus symplectic, Krein and complex/path-integral fences.
 
+## K77 gamma-soldered epsilon D-Upsilon orbit v0.84 gate
+
+`selected_k77_gamma_soldered_epsilon_dupsilon_orbit_audit.py` requires the
+ordinary spin/Levi-Civita Kosmann lift to remain an exact rank-three
+negative control with the source-`varpi` longitudinal kernel. It separately
+requires the already-owned grade-one `gamma_epsilon` construction to supply
+rank four in every causal class, remain nonzero on the missed direction, and
+close the four principal `J R=0` columns without a new field, datum,
+coefficient or quotient. It preserves source silence on physical soldering,
+keeps all six transverse metric columns and lower-order epsilon response open,
+and requires symplectic, Krein and complex/path-integral fences.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens
