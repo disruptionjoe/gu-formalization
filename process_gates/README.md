@@ -190,6 +190,7 @@ selected notes below and in each script header.
 - `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_action_boundary_coefficient_bank_scope_audit.py`
 - `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`
 - `selected_k77_minimal_edge_mode_reduction_scope_audit.py`
 - `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py`
@@ -2104,3 +2105,12 @@ nonzero `E_B-E_T` at `T=0`, and rejection of `p=KT` as selected-action
 ownership. The actual all-ten oriented action boundary bank, observation
 receiver, full `tau_A0`, global BFV/common domain, P1/P2/P3, canon and posture
 remain fenced.
+
+## K77 selected-action boundary coefficient-bank v0.76 gate
+
+`selected_k77_action_boundary_coefficient_bank_scope_audit.py` requires the
+exact selected `Cl1+Cl2` action bank, ten independent normal rows, lossless
+complete observation, nondegenerate indefinite scalar-Clifford images and
+opposite local endpoint orientations. It forbids promotion to the full
+`U(64,64)` carrier, global physical observation, full Krein domain,
+`tau_A0`/BFV, P1/P2/P3, canon or public posture.
