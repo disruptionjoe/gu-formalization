@@ -8,16 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.71; five
-distance/mapping-grade/evidence migrations; headline unchanged).** The exact
-source/repository tilted affine one-form cocycle and an ordinary group-valued
-boundary edge-frame cocycle each close on a noncommuting three-patch fixture.
-They are not the same object: the edge frame shifts by `xi`, while the affine
-one-form shifts by `D_A0 xi`; at the exact `A0=0` fixture, a constant nonzero
-`xi` kills a universal direct identification. No nonzero natural zero-order `GL(V)` contraction bridges the
-form degree without added geometry. The v0.70 local quotient remains exact,
-but a dressed preboundary form and typed global bridge remain open. Verdicts,
-residue, quotients, P1/P2/P3, canon and public posture do not move.
+**Current Build/Compose result 2026-08-08 (ledger v0.72; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The
+universal group-valued edge dressing `q=xu^-1`, `pi=p u^T` is exact. On a
+generic rational `GL(2)` fixture, its pulled-back canonical two-form has rank
+eight and its four-dimensional characteristic kernel equals the simultaneous
+right `gl(2)` gauge orbit. Identity linearization recovers the v0.70
+preboundary minus sign. The base Maurer-Cartan derivative `u^-1 d u` obeys the
+exact tilted affine law and is flat, so it bridges only the `A0=0` pure-gauge
+component, not arbitrary `varpi`. Actual K77 `H`/action ownership, nonzero
+`A0`, global BFV and common-domain descent remain open. Verdicts, residue,
+quotients, P1/P2/P3, canon and public posture do not move.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete

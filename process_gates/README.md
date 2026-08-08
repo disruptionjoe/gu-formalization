@@ -2065,3 +2065,13 @@ separate tilted affine-one-form and group-valued edge-frame cocycles, the
 constant-`xi` zero-form/one-form mismatch, and the null zero-order natural
 bridge. It keeps the dressed preboundary form, typed differential/soldering or
 domain bridge, global quotient, BFV, common domain, P1/P2/P3, canon and posture open.
+
+## K77 group-edge dressing and Maurer-Cartan bridge v0.72 gate
+
+`selected_k77_group_edge_dressing_maurer_cartan_bridge_scope_audit.py`
+requires the exact universal dressed pair `q=xu^-1`, `pi=p u^T`, rank-eight
+pulled-back two-form, four-dimensional characteristic kernel equal to the
+right `gl(2)` orbit, and recovered v0.70 minus sign. It requires `u^-1 d u` to
+remain a flat/pure-gauge tilted bridge, not arbitrary `varpi`, and keeps the
+actual K77 `H` representation/action, nonzero `A0`, global BFV, common domain,
+P1/P2/P3, canon and posture open.

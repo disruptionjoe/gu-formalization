@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 group-edge dressing and Maurer-Cartan bridge (2026-08-08)
+
+`conditional-build/selected-k77-group-edge-dressing-maurer-cartan-bridge-2026-08-08.md`
+constructs `q=xu^-1`, `pi=p u^T` and proves that the pulled-back canonical
+two-form has exactly the right-gauge orbit as its kernel on a generic exact
+`GL(2,Q)` fixture. The identity linearization recovers the v0.70 minus sign.
+The base form `u^-1 d u` obeys the tilted affine law but is flat, so the bridge
+is pure-gauge only. Actual K77 `H`/action ownership and global BFV/common-domain
+descent remain open. Ledger v0.72 moves no headline count.
+
 ## K77 tilted edge-bundle type bridge (2026-08-08)
 
 `conditional-build/selected-k77-tilted-edge-bundle-type-bridge-2026-08-08.md`

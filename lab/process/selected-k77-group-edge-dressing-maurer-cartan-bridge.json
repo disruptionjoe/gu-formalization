@@ -1,0 +1,83 @@
+{
+  "schema_version": "1.0",
+  "status": "GROUP_EDGE_DRESSING_AND_PRESYMPLECTIC_BASICNESS_EXACT__MAURER_CARTAN_TAU_BRIDGE_PURE_GAUGE_ONLY__ACTUAL_K77_H_INSTANTIATION_OPEN",
+  "created": "2026-08-08",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE-CONFIRMS__TAU_A0_PURE_GAUGE_MAURER_CARTAN_BRIDGE__SOURCE-SILENT__BOUNDARY_EDGE_DRESSING_AND_PRESYMPLECTIC_COMPLETION",
+  "layer0": {
+    "boundary_configuration": "GROUP_VALUED_X",
+    "boundary_edge_frame": "GROUP_VALUED_U",
+    "cotangent_variable": "P_TRANSFORMS_CONTRAGREDIENTLY",
+    "dressed_pair": "Q_EQUALS_X_U_INVERSE__PI_EQUALS_P_U_TRANSPOSE",
+    "field_space_form": "CANONICAL_POTENTIAL_TRACE_PI_TRANSPOSE_DELTA_Q",
+    "base_differential_bridge": "U_INVERSE_D_U",
+    "pure_gauge_component": "FLAT_A0_EQUALS_ZERO_TILTED_AFFINE_ONEFORM",
+    "arbitrary_connection": "VARPI_NOT_IDENTIFIED",
+    "actual_k77_representation": "NOT_INSTANTIATED"
+  },
+  "preregistered_endings": {
+    "GROUP_EDGE_DRESSING_AND_PRESYMPLECTIC_BASICNESS_EXACT__MAURER_CARTAN_TAU_BRIDGE_PURE_GAUGE_ONLY__ACTUAL_K77_H_INSTANTIATION_OPEN": "FIRED",
+    "DRESSED_FORM_NONBASIC_OR_DEGENERATE": "DID_NOT_FIRE",
+    "V070_LINEARIZATION_NOT_RECOVERED": "DID_NOT_FIRE",
+    "MAURER_CARTAN_BRIDGE_FAILS_TILTED_LAW": "DID_NOT_FIRE",
+    "SOURCE_SELECTS_EDGE_DRESSING": "DID_NOT_FIRE"
+  },
+  "exact_result": {
+    "transition_group": "GL2_Q_GENERIC_RATIONAL_FIXTURE",
+    "extended_dimension": 12,
+    "dressed_map_rank": 8,
+    "pulled_back_twoform_rank": 8,
+    "characteristic_kernel_dimension": 4,
+    "right_gl2_gauge_orbit_rank": 4,
+    "kernel_equals_gauge_orbit": true,
+    "quotient_dimension": 8,
+    "quotient_symplectic_rank": 8,
+    "v070_minus_sign_recovered": true,
+    "maurer_cartan_affine_law": "EXACT",
+    "noncommuting_triple_overlap": "EXACT",
+    "maurer_cartan_curvature": "ZERO",
+    "arbitrary_nonflat_varpi_covered": false,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "construction_disposition": {
+    "universal_group_edge_dressing": "EXACT_FINITE_FIXTURE",
+    "universal_presymplectic_basicness": "EXACT_FINITE_FIXTURE",
+    "pure_gauge_tau_a0_bridge": "EXACT_AT_A0_ZERO",
+    "actual_k77_h_representation": "OPEN",
+    "action_owned_preboundary_potential_and_trace": "OPEN",
+    "nonzero_a0_full_tilted_law": "OPEN",
+    "global_moment_map_and_kernel_descent": "OPEN",
+    "physical_bfv_phase_space": "OPEN",
+    "polarization_and_common_domain": "OPEN"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_accounting": {
+    "new_bulk_fields": 0,
+    "new_boundary_coordinate_dimension": 0,
+    "new_continuous_coefficients": 0,
+    "new_selectors": 0,
+    "new_scoped_quotients": 0,
+    "existing_scoped_quotients": 5
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "INSTANTIATE_DRESSING_ON_ACTUAL_K77_H_REPRESENTATION_AND_ACTION_OWNED_PREBOUNDARY_POTENTIAL__THEN_FULL_TAU_A0_AND_GLOBAL_BFV_COMMON_DOMAIN"
+}

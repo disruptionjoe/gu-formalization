@@ -15,12 +15,12 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.71. The tilted affine one-form
-and an ordinary group-valued boundary edge frame each pass exact noncommuting
-triple-overlap cocycles, but their direct zero-form/one-form identity is killed.
-The v0.70 local quotient remains exact; its dressed preboundary bridge, global
-BFV and common domain remain open. See
-`selected-k77-tilted-edge-bundle-type-bridge.json`.
+Current append-only progress surface: ledger v0.72. The universal group-edge
+dressing has an exactly basic pulled-back canonical two-form whose kernel
+equals the right gauge orbit, and identity linearization recovers the v0.70
+minus sign. The base form `u^-1 d u` obeys the tilted law but is flat/pure
+gauge. Actual K77 `H`/action ownership, global BFV and common domain remain
+open. See `selected-k77-group-edge-dressing-maurer-cartan-bridge.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -139,10 +139,16 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.71.json` - current append-only conditional
-  physics ledger after the exact tilted/edge cocycles and direct type kill.
-- `selected-k77-tilted-edge-bundle-type-bridge.json` - records the two exact
-  cocycles, constant-parameter type witness and open dressed symplectic bridge.
+- `conditional-physics-ledger-v0.72.json` - current append-only conditional
+  physics ledger after exact group-edge symplectic basicness and the flat
+  Maurer-Cartan tilted bridge.
+- `selected-k77-group-edge-dressing-maurer-cartan-bridge.json` - records the exact
+  dressing/kernel theorem, v0.70 sign recovery, pure-gauge scope and open
+  actual-K77 instantiation.
+- `conditional-physics-ledger-v0.71.json` - predecessor ledger after the exact
+  separate tilted/edge cocycles and direct zero-form/one-form identity kill.
+- `selected-k77-tilted-edge-bundle-type-bridge.json` - records those separate
+  cocycles, constant-parameter type witness and formerly open dressed bridge.
 - `conditional-physics-ledger-v0.70.json` - predecessor append-only conditional
   physics ledger after the exact minimal edge-mode quotient.
 - `selected-k77-minimal-edge-mode-reduction.json` - records scalar-counterterm

@@ -12,12 +12,14 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.71 verifies the source/repository tilted affine one-form cocycle and
-> the ordinary group-valued edge-frame cocycle on a noncommuting three-patch
-> fixture. Layer 0 kills their direct identity: the edge frame shifts by `xi`,
-> while the affine one-form shifts by `D_A0 xi`. The next gate constructs the
-> group-valued edge frame's dressed preboundary form and an owned typed bridge
-> to the tilted affine field before global BFV, polarization or common-domain claims.
+> Ledger v0.72 constructs the universal group-valued edge dressing
+> `q=xu^-1`, `pi=p u^T`. Its exact pulled-back two-form has rank eight and a
+> four-dimensional kernel equal to the right `gl(2)` gauge orbit; identity
+> linearization recovers the v0.70 minus sign. The base Maurer-Cartan derivative
+> `u^-1 d u` obeys the tilted affine law but is flat, so it bridges only the
+> `A0=0` pure-gauge component, not arbitrary `varpi`. The next gate instantiates
+> the construction on the actual K77 `H`-representation and action-owned
+> preboundary form before global BFV, polarization or common-domain claims.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -125,8 +127,9 @@ updated_at: "2026-08-08"
 
 > **PREDECESSOR GATE, RESOLVED LOCALLY BY v0.70.** The physical-domain horn
 > remains source/action-unselected, but the alternative minimal edge extension
-> and its finite local quotient are now exact. The current gate is the global
-> edge-bundle/tilted-cocycle lift below.
+> and its finite local quotient are now exact. v0.71 closes the separate
+> edge-bundle/tilted cocycles and v0.72 supplies the universal symplectic
+> dressing; the current actual-K77 instantiation gate is below.
 
 > **2026-08-08 K77 MINIMAL EDGE-MODE REDUCTION (ledger v0.70).**
 > [`explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`](explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md)
@@ -140,11 +143,16 @@ updated_at: "2026-08-08"
 > then kills their direct identification with a constant-`xi` witness and a
 > zero-order naturality obstruction.
 
-> **NEXT RUN: DRESSED GROUP-VALUED EDGE FRAME AND TYPED TILTED BRIDGE.** Build
-> the edge frame and dressed preboundary form on the actual `H`-bundle; then
-> relate it to the tilted affine one-form through an owned differential,
-> soldering/normal contraction or inverse-domain map and prove global moment-map
-> and kernel descent. Symplectic review remains mandatory.
+> **2026-08-08 K77 GROUP-EDGE DRESSING AND MAURER-CARTAN BRIDGE (ledger v0.72).**
+> [`explorations/conditional-build/selected-k77-group-edge-dressing-maurer-cartan-bridge-2026-08-08.md`](explorations/conditional-build/selected-k77-group-edge-dressing-maurer-cartan-bridge-2026-08-08.md)
+> constructs the universal dressed pair `q=xu^-1`, `pi=p u^T`, proves exact
+> presymplectic kernel equality with the right gauge orbit, recovers the v0.70
+> sign, and verifies `u^-1 d u` as an exact flat/pure-gauge tilted bridge.
+
+> **NEXT RUN: ACTUAL K77 H/ACTION INSTANTIATION.** Instantiate the dressing on
+> the actual K77 `H` representation and action-owned preboundary potential with
+> invariant trace, extend the flat bridge to full `tau_A0`, and prove global
+> moment-map/kernel descent. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)
