@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 transverse metric/augmented-torsion block (2026-08-08)
+
+`conditional-build/selected-k77-metric-transverse-augmented-torsion-block-2026-08-08.md`
+constructs the source-owned principal map `delta_gT=-L_qh`. The Levi-Civita
+kernel is gauge-orbit, so all six transverse metric directions map
+injectively. The actual partial metric/varpi/gamma-epsilon sum retains a
+rank-four Ward defect, which types the next moving-operator construction.
+Ledger v0.85 changes no verdict, residue, quotient, datum, canon or posture.
+
 ## K77 gamma-soldered source-epsilon D-Upsilon orbit (2026-08-08)
 
 `conditional-build/selected-k77-gamma-soldered-epsilon-dupsilon-orbit-2026-08-08.md`

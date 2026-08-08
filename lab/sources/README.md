@@ -250,3 +250,7 @@ identifications as separate grades.
   - confirms source epsilon, gamma/frame carriers and internal equivariance;
     returns source-silent on the zero-parameter construction identifying
     `gamma_epsilon(xi-flat)` with the physical diffeomorphism soldering orbit.
+- [`selected-k77-metric-transverse-augmented-torsion-block-source-reinspection-2026-08-08.md`](selected-k77-metric-transverse-augmented-torsion-block-source-reinspection-2026-08-08.md)
+  - confirms `T=varpi-B_LC(g)` and hence the direct fixed-`varpi` principal
+    metric response; returns source-silent on the complete moving-operator,
+    lower-order, pairing, adjoint and Green packet.

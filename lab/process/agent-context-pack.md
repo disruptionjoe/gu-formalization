@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.85 transverse metric block:** at fixed source `varpi`,
+> `delta_gT=-L_qh`. Exact causal calculation gives `rank L_q=9`; its sole
+> kernel lies in the diffeomorphism orbit, so the direct principal
+> augmented-torsion residual has rank six on all six transverse metric
+> directions. When composed with source `varpi` and conditional gamma epsilon,
+> the actual partial Ward packet remains rank four. Construct the moving
+> Shiab/Hodge/curvature/density/observation packet equal to its negative and
+> complete lower-order transverse metric/epsilon response before `K*`,
+> adjoint, Green or Gram. Do not call the fixed negative target an owned
+> operator, and do not promote principal rank to physical recovery.
+
 > **Current v0.84 gamma-soldered orbit:** the grade-two Kosmann epsilon lift
 > is exactly rank-three/no-gain, but the already-owned grade-one
 > `gamma_epsilon:C->ad(P_H)` map supplies a conditional rank-four epsilon

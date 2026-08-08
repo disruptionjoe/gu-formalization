@@ -2201,6 +2201,17 @@ coefficient or quotient. It preserves source silence on physical soldering,
 keeps all six transverse metric columns and lower-order epsilon response open,
 and requires symplectic, Krein and complex/path-integral fences.
 
+## K77 metric-transverse augmented-torsion block v0.85 gate
+
+`selected_k77_metric_transverse_augmented_torsion_block_audit.py` requires
+the source-owned `delta_gT=-L_qh` principal block, exact Levi-Civita rank nine,
+its unique kernel inside the diffeomorphism orbit, and rank-six injectivity on
+the transverse metric directions in all causal classes. It also requires the
+actual partial metric/varpi/gamma-epsilon Ward packet to remain rank four and
+unowned by the still-missing moving Shiab/Hodge/curvature/density/observation
+operator. Principal rank, full Frechet closure, pairing/Green, symplectic and
+physical claims remain separated.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

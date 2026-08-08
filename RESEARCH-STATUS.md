@@ -8,7 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.84; five
+**Current Build/Compose result 2026-08-08 (ledger v0.85; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The
+source-owned principal metric response follows from
+`T=varpi-B_LC(g)`: fixed-`varpi` variation gives `delta T=-L_qh`. In every
+causal class `L_q` has rank nine, its unique kernel lies inside the rank-four
+diffeomorphism orbit, and its restriction to the six transverse metric
+directions has rank six. Thus the direct augmented-torsion piece of all six
+transverse residual columns is exact without fitting. Composing that actual
+partial block with source `varpi` and gamma epsilon leaves a rank-four Ward
+packet, fixing the required moving Shiab/Hodge/curvature/density/observation
+response on the orbit but not constructing it. Lower-order transverse and
+epsilon response, `K*`, adjoint and Green remain. No verdict, residue,
+quotient, datum, canon or posture moves.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.84; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The
 ordinary Kosmann epsilon compensator exactly shares the rank-three
 spin-Levi-Civita image and longitudinal kernel, but the already-owned

@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "TRANSVERSE_SIX_PRINCIPAL_AUGMENTED_TORSION_EXACT__MOVING_OPERATOR_WARD_PACKET_OPEN",
+  "lane": "1",
+  "functional_channels": [
+    "COMPOSE",
+    "BUILD",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "result": "LEVI_CIVITA_RANK9__TRANSVERSE_RANK6__PARTIAL_WARD_DEFECT_RANK4",
+  "source_return": "SOURCE-CONFIRMS__T_EQUALS_VARPI_MINUS_ROTATED_BLC__SOURCE-SILENT__COMPLETE_PHYSICAL_DG_UPSILON_OPERATOR_BLOCK",
+  "layer0": {
+    "metric_value": "h in Sym2(T*X), dimension ten",
+    "metric_first_jet": "q tensor h",
+    "levi_civita_symbol": "L_q h in T* tensor Lambda2",
+    "fixed_varpi_augmented_torsion": "delta T=-L_q h",
+    "diffeomorphism_orbit": "im D_q, rank four",
+    "transverse_metric": "ker of the chosen orbit left inverse, rank six",
+    "direct_torsion_residual": "principal kappa delta T constituent only",
+    "complete_metric_residual": "direct torsion plus moving Shiab, Hodge, curvature, density and observation terms"
+  },
+  "causal_blocks": {
+    "timelike": {
+      "levi_civita_rank": 9,
+      "metric_kernel": [1, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      "diffeomorphism_rank": 4,
+      "transverse_rank": 6,
+      "transverse_levi_civita_rank": 6,
+      "direct_torsion_residual_rank": 9,
+      "transverse_torsion_residual_rank": 6,
+      "partial_ward_defect_rank": 4,
+      "partial_ward_supports": [14, 2, 2, 2],
+      "required_operator_supports": [14, 2, 2, 2]
+    },
+    "spacelike": {
+      "levi_civita_rank": 9,
+      "metric_kernel": [0, 0, 0, 0, 1, 0, 0, 0, 0, 0],
+      "diffeomorphism_rank": 4,
+      "transverse_rank": 6,
+      "transverse_levi_civita_rank": 6,
+      "direct_torsion_residual_rank": 9,
+      "transverse_torsion_residual_rank": 6,
+      "partial_ward_defect_rank": 4,
+      "partial_ward_supports": [15, 15, 4, 4],
+      "required_operator_supports": [15, 15, 4, 4]
+    },
+    "null": {
+      "levi_civita_rank": 9,
+      "metric_kernel": [1, 0, 0, 1, 0, 0, 0, 0, 0, 1],
+      "diffeomorphism_rank": 4,
+      "transverse_rank": 6,
+      "transverse_levi_civita_rank": 6,
+      "direct_torsion_residual_rank": 9,
+      "transverse_torsion_residual_rank": 6,
+      "partial_ward_defect_rank": 4,
+      "partial_ward_supports": [17, 7, 7, 17],
+      "required_operator_supports": [17, 7, 7, 17]
+    }
+  },
+  "constraint_surplus": {
+    "new_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_datum": 0,
+    "transverse_conditions_closed": 6,
+    "source_derivation_claimed_for_direct_torsion_block": true,
+    "source_derivation_claimed_for_complete_metric_block": false
+  },
+  "held_open": {
+    "moving_shiab_hodge_curvature_density_observation_orbit_packet": "OPEN__RANK4_REQUIRED_RESPONSE_TYPED",
+    "lower_order_transverse_metric_block": "OPEN",
+    "lower_order_and_nonlinear_D_epsilon_Upsilon": "OPEN",
+    "residual_K_star": "OPEN",
+    "formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "stationary_gram_hessian": "OPEN",
+    "reduced_presymplectic_BV_BFV_and_domain": "OPEN"
+  },
+  "controls": {
+    "main_exact": "57/57 PASS",
+    "independent_sage": "30/30 PASS",
+    "orbit_equals_transverse": "REJECTED",
+    "rank9_means_one_missing_physical_transverse": "REJECTED",
+    "partial_ward_equals_full_ward": "REJECTED",
+    "principal_block_equals_physical_recovery": "REJECTED"
+  },
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR3",
+    "LT-GR5",
+    "LT-GR6"
+  ],
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_metric_transverse_augmented_torsion_block_probe.py",
+    "tests/channel-swings/selected_k77_metric_transverse_augmented_torsion_block_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-metric-transverse-augmented-torsion-block-review.md",
+  "next_gate": "CONSTRUCT_MOVING_SHIAB_HODGE_CURVATURE_DENSITY_OBSERVATION_OPERATOR_PACKET_ON_THE_FOUR_ORBIT_COLUMNS__THEN_COMPLETE_LOWER_ORDER_TRANSVERSE_BLOCK_AND_FULL_JR_ZERO__DERIVE_RESIDUAL_K_ADJOINT_AND_GREEN_CONCOMITANT"
+}

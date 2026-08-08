@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 TRANSVERSE METRIC/AUGMENTED-TORSION BLOCK (ledger v0.85).**
+> The source-owned principal relation `delta_g T=-L_qh` has rank nine on ten
+> metric values. Its sole kernel lies in the diffeomorphism orbit, so the
+> direct augmented-torsion residual is injective on all six transverse metric
+> directions in timelike, spacelike and null classes. Composing this actual
+> partial metric block with source `varpi` and conditional gamma epsilon leaves
+> an exact rank-four Ward packet. Next construct the moving Shiab/Hodge/
+> curvature/density/observation response equal to its negative, complete the
+> lower-order transverse metric/epsilon blocks and full Frechet `J R=0`, then
+> derive `K*`, the formal adjoint and Green concomitant. No datum is used.
+
 > **2026-08-08 GAMMA-SOLDERED SOURCE-EPSILON ORBIT (ledger v0.84).** The
 > ordinary grade-two Kosmann compensator is exactly rank-three/no-gain, but
 > the already-owned grade-one K77 map `gamma_epsilon:C->ad(P_H)` supplies a

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.84.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.84.md`.
+`lab/process/conditional-physics-ledger-v0.85.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.85.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -190,6 +190,19 @@ the residual pairing, formal adjoint, Green concomitant and stationary Gram
 operator. The old rank-four metric diagnostic is revived only for an exact
 coefficientwise comparison, not imported by rank.
 
+Ledger v0.85 replaces the diagnostic metric-orbit assignment with the actual
+source-owned direct principal metric response. Since
+`T=varpi-B_LC(g)`, fixed-`varpi` variation gives `delta_gT=-L_qh`. The
+Levi-Civita map has rank nine; its sole kernel lies in the diffeomorphism
+orbit, so its restriction to the six transverse metric directions has rank
+six in every causal class. This closes the direct principal
+augmented-torsion constituent without a fitted coefficient. The actual
+partial metric/varpi/gamma-epsilon Ward sum remains rank four. Its negative is
+the exact target for the moving Shiab/Hodge/curvature/density/observation
+packet, not evidence that this packet has been constructed. Build that
+operator, complete lower-order transverse metric/epsilon response and full
+Frechet `J R=0`, then derive the pairing, adjoint and Green concomitant.
+
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
 principal `q`-exact connection theorem. The algebraic Cartan/Spencer map
@@ -271,11 +284,13 @@ diagnostic with its rank-four Ward defect, and requires the full common-field
 two-layer Hessian. That coupled action-derived Euler/Ward comparison must
 close before microlocal, global BFV and common-domain descent. v0.83 closes
 the source-horizontal `D_varpi Upsilon` block; v0.84 rejects the ordinary
-Kosmann repair but constructs the distinct grade-one K77 gamma-epsilon
-principal orbit and conditionally closes the four diffeomorphism columns.
-Construct the six transverse physical `D_g Upsilon` columns and complete
-lower-order `D_epsilon Upsilon`, then derive the residual pairing/formal
-adjoint and Green concomitant before forming the stationary Gram operator. Do
+Kosmann repair and constructs the conditional grade-one gamma-epsilon orbit;
+v0.85 then constructs the direct principal transverse metric/augmented-
+torsion block and exposes the remaining rank-four moving-operator target.
+Construct that Shiab/Hodge/curvature/density/observation packet, complete the
+lower-order transverse metric/epsilon response and full Frechet `J R=0`, then
+derive the residual pairing/formal adjoint and Green concomitant before
+forming the stationary Gram operator. Do
 not substitute printed covariant `D_omega Upsilon` for the epsilon Frechet
 block, do not treat source-silent physical soldering as derived, do not rebuild
 `D2 Upsilon`, or delete physical Shiab/Hodge constituent movement.

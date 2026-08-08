@@ -15,7 +15,18 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.84. The ordinary
+Current append-only progress surface: ledger v0.85. The source-owned relation
+`T=varpi-B_LC(g)` supplies the direct principal metric response
+`delta_gT=-L_qh`. The Levi-Civita map has rank nine and its sole kernel lies
+inside the diffeomorphism orbit, so it is injective on the six transverse
+metric directions. Composing this actual partial metric block with source
+`varpi` and gamma epsilon leaves a rank-four Ward packet. Build now owns the
+moving Shiab/Hodge/curvature/density/observation operator that supplies that
+packet, plus lower-order transverse metric/epsilon completion, then pairing,
+adjoint and Green. See
+`selected-k77-metric-transverse-augmented-torsion-block.json`.
+
+Predecessor append-only progress surface: ledger v0.84. The ordinary
 spin/Levi-Civita Kosmann source-epsilon lift has rank three and exactly the
 same longitudinal kernel as the source-`varpi` connection block, so it adds
 no Ward direction. The already-owned grade-one K77 map
@@ -171,11 +182,14 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.84.json` - current append-only conditional
-  ledger; the ordinary Kosmann lift remains rank three, while the distinct
-  K77 `gamma_epsilon` construction supplies an exact rank-four principal
-  epsilon orbit. Six transverse metric columns, lower-order epsilon response,
-  pairing/adjoint/Green and the stationary Gram Hessian remain open.
+- `conditional-physics-ledger-v0.85.json` - current append-only conditional
+  ledger; the direct principal augmented-torsion metric block has rank six
+  transversely and the remaining moving-operator Ward target has rank four.
+- `selected-k77-metric-transverse-augmented-torsion-block.json` - exact causal
+  Levi-Civita, transverse, residual and partial-Ward ranks plus successor.
+- `conditional-physics-ledger-v0.84.json` - immutable predecessor ledger;
+  rejects the Kosmann route and constructs the conditional gamma-epsilon
+  rank-four principal orbit.
 - `selected-k77-gamma-soldered-epsilon-dupsilon-orbit.json` - exact causal
   ranks, Kosmann negative control, grade-one gamma-epsilon principal orbit,
   source-silence fence and successor gate.
