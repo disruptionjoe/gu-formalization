@@ -24,8 +24,21 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.88.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.88.md`.
+`lab/process/conditional-physics-ledger-v0.89.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.89.md`.
+
+Current signature-rationale correction: the source explicitly uses
+`Y^(7,7)`, `Spin(7,7)` chirality and a K77 fermionic carrier, so K77 remains
+the **author-asserted conditional** Eric branch.  Its displayed signature
+blocks, however, use a consistently negative-first notation and add to source
+`(5,9)`, i.e. repository plus-first `(9,5)`.  K95 is therefore the
+**geometry-derived** comparator.  Retract every claim that K77 follows from
+the displayed block arithmetic; do not retract exact K77 constructions on
+their declared conditional metric.  For the next Build, prove Lie/tensor
+naturality once only when the proof is explicitly signature-generic.  Hodge,
+Clifford reality, Krein pairing, formal adjoint and domain data are
+branch-native and require separate K77/K95 specialization.  Complexification
+is not a port.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -222,7 +235,11 @@ fourth physical direction. Local metric/density/Hodge/Phi/observation and
 equation-dual naturality close with zero fit. Build must now expand
 nonconstant primitive epsilon, field Lie transport and every selected-action
 coefficient, prove coefficientwise `J R=0`, then derive `K*`, formal adjoint
-and Green concomitant.
+and Green concomitant. Ledger v0.89 retypes the branch premise before that
+expansion: do the tensor-natural part signature-generically, retain K77 as the
+author-asserted conditional specialization, and use geometry-derived K95 as a
+branch-native control wherever Hodge, Clifford, Krein, adjoint or domain data
+enter.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the

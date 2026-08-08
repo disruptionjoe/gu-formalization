@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 SIGNATURE RATIONALE / BUILD BRANCH RETYPE (ledger v0.89).**
+> The source explicitly uses `Y^(7,7)` and `Spin(7,7)`, so K77 remains the
+> author-asserted conditional Eric branch. Its displayed negative-first blocks
+> add to source `(5,9)`, i.e. repository plus-first `(9,5)`, so K95 is the
+> geometry-derived comparator and K77 is not derived by that arithmetic. The
+> v0.88 K77 theorem survives conditionally. Next build nonhomogeneous primitive
+> epsilon and field-Lie Ward naturality signature-generically, then specialize
+> K77 and K95 separately wherever Hodge, Clifford, Krein, adjoint or domain
+> data enter. Require coefficientwise `J R=0` before `K*`, Green or symplectic
+> descent. No datum, verdict, residue or quotient moves.
+
 > **2026-08-08 PHYSICAL DIFFEOMORPHISM SPLIT (ledger v0.88).** The natural
 > lift to `TX plus Sym2(T*X)` has physical rank four in every causal class.
 > Its metric-skew/Kosmann part has rank three; the longitudinal fourth

@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Source/Compose/Verify correction 2026-08-08 (ledger v0.89; five
+distance/evidence migrations; headline unchanged).** The released source
+explicitly uses `Y^(7,7)` and `Spin(7,7)`, so `REAL-CLIFFORD-FORM` remains
+settled on the source-used K77 side. Its displayed signature blocks use a
+negative-first notation and add to source `(5,9)`, i.e. repository plus-first
+`(9,5)`. The former claim that K77 was derived from exact source arithmetic is
+retracted. K77 is the author-asserted conditional construction; K95 is the
+geometry-derived comparator. Existing exact K77 results survive on their
+declared metric. The next Ward Build is signature-generic at tensor-natural
+grade and branch-native for Hodge, Clifford, Krein, adjoint and domain data.
+No verdict, residue, quotient, datum, canon or public posture moves.
+
 **Current Build/Compose correction 2026-08-08 (ledger v0.88; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The exact
 natural physical diffeomorphism lift has rank four in timelike, spacelike and

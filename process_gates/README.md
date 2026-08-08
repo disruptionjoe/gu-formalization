@@ -12,6 +12,10 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `signature_rationale_build_branch_retype_audit.py` enforces the v0.89
+  distinction between author-asserted K77 and geometry-derived K95, the
+  unchanged scientific meter, and the branch-aware successor gate.
+
 - `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py` audits
   the v0.59 source-owned labelled-reduction quotient, persistent horizontal-
   plane forgetful failure, closed invariant-replacement horn, mandatory

@@ -7,6 +7,12 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.89. K77 is the source's
+author-asserted conditional branch; K95 is the geometry-derived comparator.
+The next nonhomogeneous Ward Build must be signature-generic where
+tensor-natural and branch-native wherever real-form-dependent structures
+enter. See `signature-rationale-build-branch-retype.json`.
+
 Current priority/accounting decision:
 `conditional-ledger-priority-decision-2026-08-07.json`. It types the 84
 immutable ledger records versus 82 active targets, preserves the two historical
@@ -15,7 +21,7 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.88. The natural matched-q
+Predecessor append-only progress surface: ledger v0.88. The natural matched-q
 physical diffeomorphism lift has rank four: rank-three metric-skew/Kosmann
 response plus a symmetric longitudinal metric complement. Moving K77 metric,
 density, Hodge, tautological forms, observation graph and equation dual are
@@ -206,9 +212,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.88.json` - current append-only conditional
-  ledger; natural physical diffeomorphism kinematics and local naturality close,
-  while nonhomogeneous action Frechet/Green remains open.
+- `conditional-physics-ledger-v0.89.json` - current append-only conditional
+  ledger; K77 is retyped as the author-asserted construction branch, K95 as the
+  geometry-derived comparator, and the next Ward build is branch-aware.
+- `conditional-physics-ledger-v0.88.json` - immutable predecessor ledger;
+  natural physical diffeomorphism kinematics and local naturality close, while
+  nonhomogeneous action Frechet/Green remains open.
 - `selected-k77-physical-diffeomorphism-split.json` - exact natural rank-four
   lift, rank-three Kosmann/skew split, local naturality and open Frechet scope.
 - `conditional-physics-ledger-v0.87.json` - immutable predecessor ledger; the

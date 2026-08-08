@@ -197,13 +197,21 @@ forks:
     settled_side: "Cl(7,7) = M128(R)"
     settled_at: 2026-08-04
     settled_how: >-
-      Wave K derived the real form from Curt/Eric's exact source-typed
-      arithmetic rather than choosing it. The disposition makes (7,7) "the
-      primary source-aligned reconstruction burden" and demotes (9,5) to "a
-      conditional comparator", with an explicit import ban - do not import the
-      (9,5) right-H / chosen-J machinery into Cl(7,7). The two algebras are not
-      real-isomorphic and complexification does not carry the real pairing or
-      the right-H structure, so nothing built on the other horn transfers.
+      RATIONALE CORRECTED 2026-08-08 after independent review of the mirrored-
+      notation certificate. The settled side survives because the released
+      source AUTHOR-ASSERTEDLY uses Y^(7,7), Spin(7,7) chirality and the K77
+      rolled-up fermionic carrier. Wave K's stronger claim that this was derived
+      from exact source-typed block arithmetic is retracted. Under the source's
+      consistently negative-first convention, its displayed vertical (4,6)
+      plus horizontal (1,3) gives (5,9), i.e. the repository's GEOMETRY-DERIVED
+      (9,5) branch. No source-native extra bilinear or sign map deriving K77 from
+      those blocks is published. Therefore K77 is the author-asserted conditional
+      reconstruction burden and K95 is the geometry-derived comparator, not a
+      demoted arithmetic error. The two algebras are not real-isomorphic;
+      complexification does not transport Hodge, real pairing, right-H, Krein,
+      adjoint or domain data. Tensor-natural statements may be proved once only
+      when their proof is explicitly signature-generic; all real-form-dependent
+      structures require branch-native specialization.
     settled_by:
       - explorations/cycle-gates-and-audits/resolver-wave-k-conditional-active-shiab-b1-variation-disposition-2026-08-04.md
       - explorations/resolver-wave-k-conditional-active-shiab-b1-variation-2026-08-04.md

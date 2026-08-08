@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.89 signature-rationale correction:** the released source
+> explicitly uses `Y^(7,7)` and `Spin(7,7)`, so K77 is the author-asserted
+> conditional Eric branch. Its displayed signature tuples are negative-first
+> and add to source `(5,9)`, i.e. repository plus-first `(9,5)`. K95 is the
+> geometry-derived comparator. Do not say the displayed arithmetic derives
+> K77, and do not discard exact K77 conditional results. For the next Ward
+> Build, prove tensor/Lie naturality signature-generically; specialize Hodge,
+> Clifford, Krein, adjoint and domain data separately on K77 and K95. No silent
+> complexification port. Ledger: v0.89.
+
 > **Current v0.88 physical diffeomorphism split:** the natural lift to
 > `TX plus Sym2(T*X)` has rank four. Its metric-skew/Kosmann response has rank
 > three and longitudinal kernel, while that same direction has a nonzero

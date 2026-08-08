@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## Signature rationale and Build-branch retype (2026-08-08)
+
+`conditional-build/signature-rationale-and-build-branch-retype-2026-08-08.md`
+retains K77 as the source's author-asserted conditional carrier while
+correcting its provenance: the displayed blocks derive K95, not K77. The next
+Ward Build is signature-generic at tensor-natural grade and branch-native for
+Hodge/Clifford/Krein/adjoint/domain data. Ledger v0.89 changes no verdict,
+residue, quotient, datum, canon or posture.
+
 ## K77 physical diffeomorphism split (2026-08-08)
 
 `conditional-build/selected-k77-physical-diffeomorphism-split-2026-08-08.md`
