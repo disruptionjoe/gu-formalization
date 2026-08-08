@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (429 Python + 39 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 epsilon endpoint direct-sum probe, its independent Sage/QQ replay, and ledger-v0.74 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (431 Python + 40 Sage) | active channel and Lane-1 swing probes; the current count includes the selected K77 action/contact Legendre-owner correction, its independent Sage/QQ replay, and ledger-v0.75 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -2074,4 +2074,22 @@ uv run --with sympy==1.14.0 python \
   tests/channel-swings/selected_k77_epsilon_endpoint_direct_sum_probe.py
 sage tests/channel-swings/selected_k77_epsilon_endpoint_direct_sum_independent.sage
 python3 tests/channel-swings/conditional_physics_ledger_v074_probe.py
+```
+
+## K77 action/contact Legendre owner ledger v0.75
+
+`channel-swings/selected_k77_action_contact_legendre_owner_probe.py` proves
+that two inequivalent indefinite `K` matrices satisfy the same exact generic
+contact/Ward/Green/symplectic controls while giving different `KT` momenta. It
+also verifies the selected source-shaped action is cubically nonquadratic,
+that `E_B-E_T` is nonzero at `T=0`, and that a one-background symmetric `K`
+fit leaves 36 free directions. The result preserves the endpoint phase
+geometry while rejecting `p=KT` as selected-action ownership. The independent
+Sage/QQ route reproduces the decisive algebra.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_action_contact_legendre_owner_probe.py
+sage -c 'load("tests/channel-swings/selected_k77_action_contact_legendre_owner_independent.sage")'
+python3 tests/channel-swings/conditional_physics_ledger_v075_probe.py
 ```

@@ -8,17 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.74; five
+**Current Build/Compose result 2026-08-08 (ledger v0.75; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The
-primitive-epsilon Green identity already has two locally independent endpoint
-traces, and two independent K77 endpoint dressings recover the full v0.70
-`40/40` quotient with exact endpoint-gauge kernel. The v0.73 single-holonomy
-`20/20` result remains a compression no-go. Epsilon ownership is not yet
-proved: the Green momentum is `i_n(E_B-E_T)` while the contact momentum is
-`p=KT`; their coefficientwise equality on both endpoint cells and all ten K77
-normals is the remaining local gate. Full `tau_A0`, global BFV and common
-domain remain open. Verdicts, residue, quotients, P1/P2/P3, canon and public
-posture do not move.
+endpoint phase geometry survives, but `p=KT` is rejected as a selected-action
+coefficient. Two inequivalent indefinite `K` choices pass the same exact
+contact/Ward/Green/symplectic controls and produce different momenta; the
+selected source-shaped action is cubically nonquadratic and its `E_B-E_T` is
+already nonzero at `T=0`. The universal contact theorem, independent endpoint
+cotangent variables, direct-sum `40/40` quotient and v0.73 single-holonomy
+compression no-go remain exact. The next Build must assemble the actual
+all-ten oriented boundary bank of `E_B-E_T` with the observation receiver,
+then reuse the endpoint dressing before full `tau_A0`, global BFV and common
+domain. Verdicts, residue, quotients, P1/P2/P3, canon and public posture do not
+move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.74; five
+distance/mapping-grade/evidence migrations).** Two locally independent
+primitive-epsilon endpoint traces and two K77 endpoint dressings recover the
+full local `40/40` quotient; v0.75 corrects the proposed `p=KT` ownership weld.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete

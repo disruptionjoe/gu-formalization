@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 action/contact Legendre owner (2026-08-08)
+
+`conditional-build/selected-k77-action-contact-legendre-owner-2026-08-08.md`
+preserves the universal contact theorem and local endpoint `40/40` quotient
+while rejecting `p=KT` as selected-action-owned. Two inequivalent indefinite
+`K` matrices pass the same structural controls, and the selected action is
+cubically nonquadratic with nonzero `E_B-E_T` at `T=0`. The next object is the
+actual all-ten oriented `E_B-E_T` boundary bank with observation receiver.
+Ledger v0.75 moves no headline count.
+
 ## K77 epsilon endpoint direct sum (2026-08-08)
 
 `conditional-build/selected-k77-epsilon-endpoint-direct-sum-2026-08-08.md`

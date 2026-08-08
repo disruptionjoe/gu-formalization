@@ -164,12 +164,20 @@ updated_at: "2026-08-08"
 > and that two nonlinear endpoint copies recover the complete v0.70 `40/40`
 > quotient. It does not identify `i_n(E_B-E_T)` with `p=KT`.
 
-> **NEXT RUN: EPSILON GREEN / CONTACT MOMENTUM WELD.** Compute
-> `i_n(E_B-E_T)=p_KT` coefficientwise on the same selected action, endpoint
-> orientation, invariant trace, observation receiver and ten K77 normal cells.
-> If it passes, retype the edge coordinates as existing epsilon traces and
-> continue to full `tau_A0`/global BFV. If it fails, retain the direct-sum
-> geometry with an independent boundary edge field. Symplectic review remains
+> **2026-08-08 ACTION/CONTACT LEGENDRE OWNER CORRECTION (ledger v0.75).**
+> [`explorations/conditional-build/selected-k77-action-contact-legendre-owner-2026-08-08.md`](explorations/conditional-build/selected-k77-action-contact-legendre-owner-2026-08-08.md)
+> rejects only `p=KT` as the selected-action owner. Two inequivalent
+> indefinite `K` controls pass the same exact contact/Ward/Green/symplectic
+> tests but give different momenta; the selected action is cubically
+> nonquadratic and has nonzero `E_B-E_T` at `T=0`. The universal contact
+> theorem, independent endpoint cotangent variables, direct-sum `40/40`
+> quotient and single-holonomy no-go survive.
+
+> **NEXT RUN: ACTUAL SELECTED-ACTION LEGENDRE/GREEN BANK.** Assemble the
+> oriented boundary trace of `E_B-E_T` across all ten K77 directions with the
+> complete observation receiver, without fitting a free `K`. Then reuse the
+> already-independent endpoint cotangent dressing before attempting full
+> `tau_A0`/global BFV/common-domain descent. Symplectic review remains
 > mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**

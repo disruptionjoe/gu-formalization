@@ -2093,3 +2093,14 @@ scope repair: `i_n(E_B-E_T)=p_KT` is an open coefficient weld, so the v0.70
 boundary coordinates are not yet retyped as existing epsilon traces. The
 single-holonomy no-go, full `tau_A0`, global BFV/common domain, P1/P2/P3,
 canon and posture remain fenced.
+
+## K77 action/contact Legendre-owner v0.75 gate
+
+`selected_k77_action_contact_legendre_owner_scope_audit.py` preserves the
+generic contact/Ward/Green/symplectic theorem, independent endpoint cotangent
+variables, direct-sum `40/40` quotient and single-holonomy no-go. It requires
+the exact two-`K` nonuniqueness control, cubic selected-action scaling,
+nonzero `E_B-E_T` at `T=0`, and rejection of `p=KT` as selected-action
+ownership. The actual all-ten oriented action boundary bank, observation
+receiver, full `tau_A0`, global BFV/common domain, P1/P2/P3, canon and posture
+remain fenced.

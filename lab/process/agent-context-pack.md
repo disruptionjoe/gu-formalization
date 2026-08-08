@@ -30,13 +30,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > only `20/20` of the v0.70 `40/40` endpoint quotient and forces `p0=p2`.
 > Ledger v0.74 composes the already-built primitive-epsilon endpoint trace and
 > proves its local rank is two; two independent endpoint dressings recover the
-> full `40/40` quotient. Do not yet call epsilon the edge owner: the explicit
-> coefficient weld `i_n(E_B-E_T)=p_KT` remains open.
+> full `40/40` quotient. Ledger v0.75 rejects `p=KT` as selected-action-owned:
+> two inequivalent `K` controls pass the same structural tests, while the
+> selected action is cubically nonquadratic and has nonzero `E_B-E_T` at
+> `T=0`. Preserve the contact theorem and build the actual all-ten oriented
+> `E_B-E_T` boundary bank with observation receiver.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> epsilon-Green/contact-momentum weld, then BFV, polarization and
-> common-domain descent. Generic carrier search
+> actual all-ten selected-action boundary bank, then reuse of the independent
+> endpoint cotangent dressing, BFV, polarization and common-domain descent.
+> Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -84,9 +88,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > dressed symplectic bridge and exact pure-gauge differential bridge. Ledger
 > v0.73 supplies the actual K77 group category and exact source/target dressing,
 > while killing single-holonomy compression of the full endpoint phase space.
-> v0.74 supplies the two endpoint traces and direct-sum `40/40` geometry while
-> keeping the coefficientwise action-momentum weld and global BFV/common domain
-> open.
+> v0.74 supplies the two endpoint traces and direct-sum `40/40` geometry.
+> v0.75 shows that `p=KT` is a generic quadratic contact realization, not the
+> selected-action owner; the actual `E_B-E_T` boundary bank and global
+> BFV/common domain remain open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -207,10 +212,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > v0.70 sign and flat/pure-gauge Maurer-Cartan bridge. Preserve v0.73's exact
 > K77 source/target cotangent reduction and its material negative result:
 > one holonomy imposes `p0=p2` and reduces `40/40` to `20/20`, so the action
-> cannot be compressed to one path cotangent. Preserve v0.74's exact local
-> rank-two endpoint trace and direct-sum `40/40` recovery; do not retype its
-> boundary coordinates as existing epsilon until
-> `i_n(E_B-E_T)=p_KT` is computed coefficientwise.
+> cannot be compressed to one path cotangent. Preserve v0.75's exact local
+> rank-two endpoint trace, direct-sum `40/40` recovery and universal contact
+> theorem; derive the selected-action boundary coefficients directly from
+> `E_B-E_T` rather than fitting a constitutive `K`.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null

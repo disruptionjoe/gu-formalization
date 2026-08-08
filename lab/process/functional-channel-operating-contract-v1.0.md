@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.74.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.74.md`.
+`lab/process/conditional-physics-ledger-v0.75.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.75.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -118,6 +118,13 @@ recovers the full `40/40` quotient. The remaining local owner is the explicit
 coefficient weld `i_n(E_B-E_T)=p_KT`; matching types and signs does not prove
 it. Only a pass retypes the v0.70 edge coordinates as existing epsilon traces
 and opens full `tau_A0`/global BFV descent.
+Ledger v0.75 runs that ownership test and rejects the weld. Two inequivalent
+indefinite `K` choices pass the same exact contact/Ward/Green/symplectic tests
+but produce different momenta; the selected action is cubically nonquadratic
+and has nonzero `E_B-E_T` at `T=0`. Preserve the universal contact theorem,
+independent endpoint cotangent variables, direct-sum `40/40` quotient and
+single-holonomy no-go. Build the actual all-ten oriented `E_B-E_T` boundary
+bank with observation receiver before reusing the endpoint dressing.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -185,9 +192,11 @@ group-valued-edge coordinate cocycles while killing their direct identity.
 v0.72 closes the universal dressed edge-frame and flat differential bridge.
 v0.73 supplies the actual K77 group category and exact two-endpoint cotangent
 reduction, while killing the single-holonomy `40 -> 20` compression. v0.74
-composes the already-built endpoint trace, recovers the direct-sum `40/40`
-geometry and narrows epsilon ownership to `i_n(E_B-E_T)=p_KT`. That weld and
-the full `tau_A0` law must close before physical BFV and common-domain descent. Generic
+composes the already-built endpoint trace and recovers the direct-sum `40/40`
+geometry. v0.75 rejects `p=KT` as selected-action ownership while preserving
+the universal contact theorem. The actual all-ten `E_B-E_T` boundary bank,
+observation receiver and full `tau_A0` law must close before physical BFV and
+common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3
