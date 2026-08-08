@@ -75,6 +75,20 @@ forks:
       GU's split is 4+10, even/even, so the product rule applies either way.
       Distinct from REAL-CLIFFORD-FORM, which IS settled.
     named_resolver: >-
+      NONE, as of 2026-08-08. This field previously named M-H9. That resolver is
+      FALSIFIED at Tier 1: tests/mh9_tier1_cperp_character_no_flip.py shows the
+      C_perp involution character is +1 on BOTH bases (residuals 0.0), so the
+      quantity that would flip k between horns does not flip and M-H9 cannot
+      discriminate the fork. Tier 0's base-FS flip is real but cancels downstream,
+      because J_obs's base factor flips while the Krein product's base length
+      changes from three positive gammas to one. The (6,4) fibre premise was
+      confirmed exactly on both bases, so the premise was not the problem. The
+      result is frame-independent: C_perp is built from gammas only, so the
+      hardcoded DEWITT_FRAME and timelike_leg never enter. What survives from
+      M-H9: the eleven pairs really are collapsed to the two endpoints by the
+      2026-07-30 all-ten-equal result. What does not: that the horns select
+      opposite endpoints. See explorations/mh9-tier1-mechanism-falsified-2026-08-08.md.
+      SUPERSEDED DESCRIPTION FOLLOWS, retained for provenance --
       M-H9 in lab/process/improvement-register-2026-08-03.md -- the B5 signature
       test. Eleven parity values are inertia classes (k,10-k) on ten mirror edges;
       the eps_e are FS-type indicators; the prediction discriminates the horns at
