@@ -697,6 +697,19 @@ lab/process/hinge-panel-synthesis-2026-08-03.md.
   item is a hypothesis with a stated check and none is citable until executed.
   Its §0 lists four items that are already the recorded distances — check there
   first so a wave is not spent re-deriving them.
+- explorations/source-action-lens-sweep-viability-2026-08-07.md — a 25-lens sweep
+  on what H41 is and what the external datum is, filtered to the parts that
+  survived a check. Records that `FIT` is defined as a number H41 must **output**,
+  so the "FIT is irreducibly imported" reading is a live rival to the program's
+  own position, not a restatement of it; and that the irreducibly-external set is
+  `DECLARATION`, which carries a proof the built structure cannot decide it.
+  **Warning recorded there: the ledger residue's `9 forks`, the fork registry's
+  `12 entries / 10 open`, and the requirement spec's `9 DECLARATION` rows are
+  three different sets. Draw no inference from the numerical agreement.**
+  Its two surviving propositions are planned in
+  lab/process/runs/GUH-20260808T024447Z-source-action-parameter-structure/ —
+  the DECLARATION floor and the unranked quotients. That plan is **queued behind
+  current work and reorders nothing**, and lapses 2026-09-08 if unstarted.
 
 ## Session hygiene
 
