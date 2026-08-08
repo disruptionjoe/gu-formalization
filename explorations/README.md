@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 transverse comoving coefficient closure (2026-08-08)
+
+`conditional-build/selected-k77-transverse-comoving-coefficient-closure-2026-08-08.md`
+extends the moving-gimmel construction to all ten metric directions and all
+three transverse rank-six classes. It closes Hodge/Clifford/Phi/Shiab
+coefficient transport at raw residual zero while retaining the live rank-six
+principal augmented-torsion response. Ledger v0.94 sends Build to the
+component-normal field/curvature, complete lower-order Levi-Civita connection
+and observation/soldering owners before adjoint/Green.
+
 ## K77 operative pairing-symmetry closure (2026-08-08)
 
 `conditional-build/selected-k77-operative-pairing-symmetry-closure-2026-08-08.md`

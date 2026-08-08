@@ -7,7 +7,18 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.93. The selected K77
+Current append-only progress surface: ledger v0.94. The metric-induced
+comoving coframe lift now covers all ten K77 metric directions and all three
+physical transverse rank-six classes. Moving Clifford relations, Hodge
+degrees 1/2/14 and tautological Phi transport close exactly. At raw residual
+zero the two nonzero constituent transports cancel, while the principal
+augmented-torsion source response remains rank six. Component-normal
+augmented-torsion/curvature, complete lower-order Levi-Civita connection and
+observation/soldering derivatives remain before complete physical
+`D_g Upsilon`, formal adjoint and Green. See
+`selected-k77-transverse-comoving-coefficient-closure.json`.
+
+Predecessor append-only progress surface: ledger v0.93. The selected K77
 grade-`1+2+5` residual carrier is Spin-native, complex dimension `2,107`.
 The block product on the two `C^(32,32)` Weyl halves generates a `16,382`-
 dimensional carrier with three pairing coordinates; full `U(64,64)` generates
@@ -252,7 +263,16 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.89.json` - current append-only conditional
+- `conditional-physics-ledger-v0.94.json` - current append-only conditional
+  ledger; all-ten/all-causal comoving coefficient naturality closes while the
+  live rank-six source response and component-normal/observation/adjoint
+  owners remain.
+- `selected-k77-transverse-comoving-coefficient-closure.json` - exact causal-
+  class ranks, source return, closed coefficient packet and surviving physical
+  derivative frontier.
+- `conditional-physics-ledger-v0.93.json` - immutable predecessor ledger for
+  operative Spin/block/full action-parent closure and `84..86` residue range.
+- `conditional-physics-ledger-v0.89.json` - predecessor append-only conditional
   ledger; K77 is retyped as the author-asserted construction branch, K95 as the
   geometry-derived comparator, and the next Ward build is branch-aware.
 - `conditional-physics-ledger-v0.88.json` - immutable predecessor ledger;

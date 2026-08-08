@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_transverse_comoving_coefficient_closure_audit.py` enforces
+  ledger v0.94's exact ten-direction and three-transverse-six comoving
+  Hodge/Clifford/Phi/Shiab coefficient closure, live rank-six source-response
+  fence, mandatory symplectic/analytic review, frozen accounting and the
+  component-normal field/connection/observation successor.
+
 - `selected_k77_operative_pairing_symmetry_closure_audit.py` enforces the
   v0.93 exact Spin/block/full carrier closures `2107/16382/16383`, invariant
   pairing dimensions `3/3/1` (or `2` with a separately typed exchange), the
@@ -219,6 +225,7 @@ selected notes below and in each script header.
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
 - `selected_k77_operative_pairing_symmetry_closure_audit.py`
+- `selected_k77_transverse_comoving_coefficient_closure_audit.py`
 - `selected_k77_action_boundary_coefficient_bank_scope_audit.py`
 - `selected_k77_full_u6464_action_bank_scope_audit.py`
 - `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`

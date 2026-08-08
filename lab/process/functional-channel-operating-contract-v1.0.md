@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.93.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.93.md`.
+`lab/process/conditional-physics-ledger-v0.94.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.94.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -37,7 +37,10 @@ two Weyl halves and full group are both retained, but neither large group
 preserves the selected truncation. Source selection of the action parent is
 open. Build proceeds conditionally on the Spin-native selected parent at the
 canonical scalar-Clifford-trace point, exposes the `84..86` residue range, and
-constructs lower-order complete physical `D_g Upsilon` before adjoint/Green.
+has closed its metric-induced Hodge/Clifford/Phi/Shiab coefficient packet and
+now constructs component-normal `delta T/delta F`, complete lower-order
+Levi-Civita connection and observation/soldering derivatives into physical
+`D_g Upsilon` before adjoint/Green.
 
 Predecessor residual-pairing correction: the conditional local K77 pairing
 `Hodge13 x scalar-Clifford-trace` is exact and nondegenerate on all 1,470
@@ -49,8 +52,11 @@ chirality-preserving block product. The closure theorem above now types that
 fork as different action parents rather than an uncomputed weight count. This is
 not a positive norm, formal adjoint, Green identity, global bundle, contour,
 or analytic domain. Reuse the v0.85 principal augmented-torsion transverse
-six on the conditional Spin-native selected parent. Build now owns the lower-order complete physical `D_g Upsilon` columns
-and coefficientwise naturality, followed by formal adjoint and Green.
+six on the conditional Spin-native selected parent. v0.94 closes their
+metric-induced coefficient packet. Build now owns the component-normal
+`delta T/delta F`, complete lower-order Levi-Civita connection and
+observation/soldering derivatives needed for physical `D_g Upsilon`, followed
+by formal adjoint and Green.
 
 Predecessor action/Frechet/Ward correction: the complete v0.77 pointwise bank is
 the first-action Euler covector `dI1`; it is not the raw residual Jacobian

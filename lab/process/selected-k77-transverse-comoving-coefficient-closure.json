@@ -1,0 +1,60 @@
+{
+  "artifact_type": "selected_k77_transverse_comoving_coefficient_closure",
+  "date": "2026-08-08",
+  "disposition": "COEFFICIENT_PACKET_CLOSED__SOURCE_FIELD_AND_OBSERVATION_DERIVATIVES_OPEN",
+  "source_return": "SOURCE-CONFIRMS_RAW_UPSILON_AND_AUGMENTED_TORSION__SOURCE-SILENT_TRANSVERSE_COMOVING_COEFFICIENT_CLOSURE",
+  "causal_classes": {
+    "timelike": {
+      "projector": 6,
+      "metric": 6,
+      "coframe": 6,
+      "fixed_hodge_degree_one": 6,
+      "fixed_hodge_degree_two": 6,
+      "single_constituent_target_transport": 6,
+      "raw_residual_target_transport": 0,
+      "principal_augmented_torsion": 6
+    },
+    "spacelike": {
+      "projector": 6,
+      "metric": 6,
+      "coframe": 6,
+      "fixed_hodge_degree_one": 6,
+      "fixed_hodge_degree_two": 6,
+      "single_constituent_target_transport": 6,
+      "raw_residual_target_transport": 0,
+      "principal_augmented_torsion": 6
+    },
+    "null": {
+      "projector": 6,
+      "metric": 6,
+      "coframe": 6,
+      "fixed_hodge_degree_one": 6,
+      "fixed_hodge_degree_two": 6,
+      "single_constituent_target_transport": 6,
+      "raw_residual_target_transport": 0,
+      "principal_augmented_torsion": 6
+    }
+  },
+  "closed": [
+    "ten-direction metric-induced comoving coframe lift",
+    "degree-one and degree-two Hodge coefficient naturality",
+    "moving Clifford relations and tautological Phi transport",
+    "selected raw-residual coefficient target transport on three transverse sixes"
+  ],
+  "open": [
+    "component-normal augmented-torsion and curvature derivatives",
+    "complete lower-order Levi-Civita connection derivative",
+    "observation and soldering normal jets",
+    "complete physical D_g Upsilon",
+    "formal adjoint Green common domain and symplectic reduction"
+  ],
+  "free_object_delta": 0,
+  "residue_delta": 0,
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED"
+}

@@ -8,7 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.93; five
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.94; five
+distance/evidence migrations; headline unchanged).** The metric-induced
+comoving coframe lift now closes the moving K77 metric/Clifford, Hodge
+degrees `1/2/14`, and tautological `Phi1/Phi2` coefficient packet on all ten
+metric directions and every timelike/spacelike/null transverse six. Each raw-
+residual constituent has live rank-six target transport, but their sum
+cancels at `Upsilon*=0`. This does not erase the inherited rank-six principal
+augmented-torsion source response. Component-normal `delta T/delta F`, the
+complete lower-order Levi-Civita connection response, observation/soldering
+jets, complete physical `D_g Upsilon`, formal adjoint, Green and common
+analytic/symplectic domain remain. No verdict, residue, quotient, datum, canon
+or posture moves.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-08 (ledger v0.93; five
 distance/evidence migrations; headline unchanged).** Exact complexified
 closure now separates three action-parent meanings. The selected
 `Cl1+Cl2+Cl5` carrier is Spin-native, dimension `2,107`, with three pairing

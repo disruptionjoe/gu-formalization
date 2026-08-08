@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.93 operative pairing-symmetry closure:** the two
+> **Current v0.94 transverse comoving coefficient closure:** for every one of
+> the ten base-metric directions, use the `G`-self-adjoint lift
+> `A_h=-1/2 G^-1 D_gG[h]`. It gives exact moving metric/Clifford compatibility,
+> Hodge naturality in degrees `1/2/14`, and tautological `Phi` transport. The
+> theorem holds on all three physical transverse rank-six classes. At raw
+> `Upsilon*=0`, the two live constituent target transports cancel, but the
+> principal augmented-torsion source response remains rank six. Never call
+> this complete `D_g Upsilon`. Build component-normal `delta T/delta F`, the
+> complete lower-order Levi-Civita connection response, and observation/
+> soldering jets next; only then formal adjoint/Green/domain. Symplectic review
+> remains mandatory. Ledger v0.94.
+
+> **Predecessor v0.93 operative pairing-symmetry closure:** the two
 > `C^(32,32)` Weyl halves, their block-preserving
 > `U(32,32) x U(32,32)` subgroup, and full `U(64,64)` are three different
 > objects. The selected K77 grade-`1+2+5` residual is Spin-native with complex

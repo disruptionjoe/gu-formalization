@@ -7,7 +7,20 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
-> **2026-08-08 OPERATIVE PAIRING-SYMMETRY CLOSURE (ledger v0.93).** The
+> **2026-08-08 TRANSVERSE COMOVING COEFFICIENT CLOSURE (ledger v0.94).**
+> The metric-induced square-root-gauge coframe lift is exact on all ten K77
+> metric directions and all timelike/spacelike/null rank-six transverse
+> complements. Moving Clifford relations, Hodge in degrees 1/2/14, and
+> tautological `Phi1/Phi2` are natural. The two nonzero raw-residual
+> constituents have opposite target transport, so their coefficient packet
+> cancels at `Upsilon*=0`; frozen-frame Hodge motion and the principal
+> augmented-torsion source response remain rank six. Next construct the
+> component-normal `delta T/delta F`, complete lower-order Levi-Civita
+> connection derivative, and observation/soldering jets, then assemble full
+> physical `D_g Upsilon` before formal adjoint/Green. No verdict, residue,
+> quotient, fork or datum moves.
+
+> **2026-08-08 PREDECESSOR OPERATIVE PAIRING-SYMMETRY CLOSURE (ledger v0.93).** The
 > selected K77 `Cl1+Cl2+Cl5` residual carrier has complex dimension `2,107`
 > and is exactly Spin-native. A block-preserving
 > `U(32,32) x U(32,32)` action on the two `C^(32,32)` Weyl halves requires a
