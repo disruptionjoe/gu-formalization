@@ -312,7 +312,7 @@
     "SPIN77_GRADE_PRESERVATION_VERSUS_FULL_H_GRADE_MIXING",
     "FINITE_RESPONSE_SUPPORT_VERSUS_GLOBAL_ASSOCIATED_RESIDUAL_BUNDLE"
   ],
-  "collision_disposition": "V092_STARTED_FROM_CLEAN_UPSTREAM_EVEN_5C2A416F__CENTRAL_GU_CLAIM_ACQUIRED__NO_OVERLAPPING_WRITER_OR_UNRELATED_DIRT_OBSERVED",
+  "collision_disposition": "V092_STARTED_FROM_CLEAN_UPSTREAM_EVEN_5C2A416F__CENTRAL_GU_CLAIM_ACQUIRED__TWO_CONCURRENT_OUT_OF_ENVELOPE_COMMITS_848753A2_AND_9CB9DF4D_LANDED_IN_SHARED_CHECKOUT__NO_DECLARED_PATH_OVERLAP__OWNER_DIFF_RECONCILED_EXACTLY_TO_20_PATH_ENVELOPE",
   "residue": {
     "continuous_real": 84,
     "continuous_real_note": "before any quotient; CB-D's 83 consists of packet subtotal 82 plus the gimmel block ratio, while lambda_def is the independently written relative X/Y action coefficient and is not kappa_1 or a charged source_norm coordinate",
