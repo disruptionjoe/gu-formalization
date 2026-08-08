@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (425 Python + 37 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 group-edge dressing/Maurer-Cartan bridge probe, its independent Sage/QQ replay, and ledger-v0.72 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (428 Python + 38 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 two-endpoint edge-dressing probe, its independent Sage/QQ replay, and ledger-v0.73 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -2040,4 +2040,21 @@ uv run --with sympy==1.14.0 --with numpy python -u \
   tests/channel-swings/selected_k77_group_edge_dressing_maurer_cartan_bridge_probe.py
 sage tests/channel-swings/selected_k77_group_edge_dressing_maurer_cartan_bridge_independent.sage
 python3 tests/channel-swings/conditional_physics_ledger_v072_probe.py
+```
+
+## K77 two-endpoint edge dressing ledger v0.73
+
+`channel-swings/selected_k77_two_endpoint_edge_dressing_probe.py` instantiates
+the edge theorem in the actual K77 `U(64,64)` matrix category with independent
+source/target action. The pulled-back canonical form has rank eight and its
+eight-dimensional kernel equals the full endpoint gauge orbit. Its identity
+linearization also proves that one holonomy forces `p0=p2` and retains only
+the `20/20` Gauss-diagonal half of the v0.70 `40/40` endpoint quotient. The
+independent Sage/QQ route reproduces the kernel theorem and rank fence.
+
+```sh
+uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_two_endpoint_edge_dressing_probe.py
+sage tests/channel-swings/selected_k77_two_endpoint_edge_dressing_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v073_probe.py
 ```

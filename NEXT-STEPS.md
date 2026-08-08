@@ -12,14 +12,14 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.72 constructs the universal group-valued edge dressing
-> `q=xu^-1`, `pi=p u^T`. Its exact pulled-back two-form has rank eight and a
-> four-dimensional kernel equal to the right `gl(2)` gauge orbit; identity
-> linearization recovers the v0.70 minus sign. The base Maurer-Cartan derivative
-> `u^-1 d u` obeys the tilted affine law but is flat, so it bridges only the
-> `A0=0` pure-gauge component, not arbitrary `varpi`. The next gate instantiates
-> the construction on the actual K77 `H`-representation and action-owned
-> preboundary form before global BFV, polarization or common-domain claims.
+> Ledger v0.73 reconciles the edge construction with the actual K77
+> `P_H=Spin(C) x U(64,64)` owner and builds the exact source/target cotangent
+> dressing. Its kernel equals the full endpoint gauge orbit. But one holonomy
+> linearizes only to the Gauss-diagonal `20/20` half of the v0.70 ten-normal
+> endpoint quotient `40/40`, forcing `p0=p2`. The single-holonomy shortcut is
+> killed. The next gate must derive two continuum endpoint evaluations and
+> primitive epsilon preboundary momenta from the action, then dress both copies
+> without compression before global BFV, polarization or common-domain claims.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -128,8 +128,9 @@ updated_at: "2026-08-08"
 > **PREDECESSOR GATE, RESOLVED LOCALLY BY v0.70.** The physical-domain horn
 > remains source/action-unselected, but the alternative minimal edge extension
 > and its finite local quotient are now exact. v0.71 closes the separate
-> edge-bundle/tilted cocycles and v0.72 supplies the universal symplectic
-> dressing; the current actual-K77 instantiation gate is below.
+> edge-bundle/tilted cocycles, v0.72 supplies the universal symplectic
+> dressing, and v0.73 types the actual K77 group while killing the
+> single-holonomy compression. The current continuum-endpoint owner gate is below.
 
 > **2026-08-08 K77 MINIMAL EDGE-MODE REDUCTION (ledger v0.70).**
 > [`explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`](explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md)
@@ -149,10 +150,17 @@ updated_at: "2026-08-08"
 > presymplectic kernel equality with the right gauge orbit, recovers the v0.70
 > sign, and verifies `u^-1 d u` as an exact flat/pure-gauge tilted bridge.
 
-> **NEXT RUN: ACTUAL K77 H/ACTION INSTANTIATION.** Instantiate the dressing on
-> the actual K77 `H` representation and action-owned preboundary potential with
-> invariant trace, extend the flat bridge to full `tau_A0`, and prove global
-> moment-map/kernel descent. Symplectic review remains mandatory.
+> **2026-08-08 K77 TWO-ENDPOINT EDGE DRESSING (ledger v0.73).**
+> [`explorations/conditional-build/selected-k77-two-endpoint-edge-dressing-2026-08-08.md`](explorations/conditional-build/selected-k77-two-endpoint-edge-dressing-2026-08-08.md)
+> constructs the exact K77-compatible source/target cotangent dressing and
+> proves kernel equality, then finds that one connection holonomy retains only
+> the Gauss-diagonal `20/20` half of the v0.70 `40/40` endpoint quotient.
+
+> **NEXT RUN: CONTINUUM ENDPOINT AND PRIMITIVE EPSILON OWNER.** Derive both
+> continuum boundary evaluation maps and their primitive epsilon preboundary
+> momenta from the selected action. Apply direct-sum K77 dressing without
+> holonomy compression, then prove full `tau_A0`, global moment-map/kernel and
+> BFV/common-domain descent. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

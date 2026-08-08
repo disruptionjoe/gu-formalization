@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 two-endpoint edge dressing (2026-08-08)
+
+`conditional-build/selected-k77-two-endpoint-edge-dressing-2026-08-08.md`
+reconciles the edge problem with the actual K77 `U(64,64)` chimeric-spin
+extension and proves exact source/target cotangent basicness. Its identity
+linearization also proves that one holonomy carries only the Gauss-diagonal
+`20/20` half of the v0.70 `40/40` endpoint quotient. The next object is two
+action-derived continuum boundary copies, not a compressed lattice edge.
+Ledger v0.73 moves no headline count.
+
 ## K77 group-edge dressing and Maurer-Cartan bridge (2026-08-08)
 
 `conditional-build/selected-k77-group-edge-dressing-maurer-cartan-bridge-2026-08-08.md`

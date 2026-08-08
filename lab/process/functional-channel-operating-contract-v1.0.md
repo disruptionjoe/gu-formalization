@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.72.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.72.md`.
+`lab/process/conditional-physics-ledger-v0.73.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.73.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -105,9 +105,13 @@ tilted affine one-form and ordinary group-valued edge-frame cocycles separately,
 then kills their direct identity. Ledger v0.72 constructs the universal
 dressing `q=xu^-1`, `pi=p u^T`, proves its pulled-back two-form has exactly the
 right gauge orbit as kernel, recovers the v0.70 sign, and identifies
-`u^-1 d u` as an exact flat/pure-gauge tilted bridge. Build must now instantiate
-that theorem on the actual K77 `H` representation and action-owned preboundary
-form, including full `tau_A0`, before BFV, polarization or common-domain descent.
+`u^-1 d u` as an exact flat/pure-gauge tilted bridge.
+Ledger v0.73 corrects this successor: the K77 owner is already the chimeric
+`U(64,64)` extension, and its exact source/target cotangent dressing is basic.
+However, one holonomy forces `p0=p2` and retains only `20/20` of the v0.70
+`40/40` endpoint quotient. Build must derive two continuum endpoint evaluation
+maps and primitive epsilon preboundary momenta from the selected action, then
+dress both copies without holonomy compression.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -173,7 +177,9 @@ charges live. v0.70 constructs the unique local edge extension and rank-40
 conditional quotient. v0.71 closes the separate tilted-affine and
 group-valued-edge coordinate cocycles while killing their direct identity.
 v0.72 closes the universal dressed edge-frame and flat differential bridge.
-The actual K77 `H`/action instantiation and full `tau_A0` law must close before
+v0.73 supplies the actual K77 group category and exact two-endpoint cotangent
+reduction, while killing the single-holonomy `40 -> 20` compression. The two
+continuum endpoint action owners and full `tau_A0` law must close before
 physical BFV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main

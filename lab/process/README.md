@@ -15,12 +15,13 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.72. The universal group-edge
-dressing has an exactly basic pulled-back canonical two-form whose kernel
-equals the right gauge orbit, and identity linearization recovers the v0.70
-minus sign. The base form `u^-1 d u` obeys the tilted law but is flat/pure
-gauge. Actual K77 `H`/action ownership, global BFV and common domain remain
-open. See `selected-k77-group-edge-dressing-maurer-cartan-bridge.json`.
+Current append-only progress surface: ledger v0.73. The actual K77
+`P_H=Spin(C) x U(64,64)` owner admits an exact source/target cotangent
+dressing whose kernel equals the full endpoint gauge orbit. One holonomy,
+however, retains only the Gauss-diagonal `20/20` half of the v0.70 `40/40`
+endpoint quotient. Two action-derived continuum endpoint evaluations and
+primitive epsilon preboundary momenta remain open. See
+`selected-k77-two-endpoint-edge-dressing.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -139,9 +140,14 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.72.json` - current append-only conditional
-  physics ledger after exact group-edge symplectic basicness and the flat
-  Maurer-Cartan tilted bridge.
+- `conditional-physics-ledger-v0.73.json` - current append-only conditional
+  physics ledger after exact K77 source/target cotangent basicness and the
+  single-holonomy `40 -> 20` compression kill.
+- `selected-k77-two-endpoint-edge-dressing.json` - records the exact K77 group
+  owner, two-endpoint kernel theorem, Gauss-diagonal fence and open continuum
+  endpoint/primitive-epsilon owner.
+- `conditional-physics-ledger-v0.72.json` - predecessor ledger after exact
+  universal group-edge symplectic basicness and the flat Maurer-Cartan bridge.
 - `selected-k77-group-edge-dressing-maurer-cartan-bridge.json` - records the exact
   dressing/kernel theorem, v0.70 sign recovery, pure-gauge scope and open
   actual-K77 instantiation.

@@ -24,12 +24,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > universal dressing `q=xu^-1`, `pi=p u^T`; its pulled-back two-form has kernel
 > exactly equal to the right gauge orbit, and identity linearization recovers
 > the v0.70 minus sign. The base bridge `u^-1 d u` obeys the tilted law but is
-> flat/pure gauge. Instantiate it on the actual K77 `H` representation and
-> action-owned preboundary form before physical reduction language.
+> flat/pure gauge. Ledger v0.73 identifies the actual K77 group owner as the
+> chimeric `U(64,64)` extension and proves exact source/target cotangent
+> basicness, but kills a single holonomy as the full globalization: it retains
+> only `20/20` of the v0.70 `40/40` endpoint quotient and forces `p0=p2`.
+> Derive two continuum endpoint copies and their primitive epsilon momenta
+> from the action before physical reduction language.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> actual-K77 edge-frame/action-owned tilted-bridge gate, then BFV, polarization and
+> continuum-endpoint/primitive-epsilon action-owner gate, then BFV, polarization and
 > common-domain descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
@@ -75,8 +79,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > edge extension and exact rank-40 local quotient without globalizing it.
 > Ledger v0.71 closes the separate coordinate cocycles and kills only their
 > direct zero-form/one-form identification. Ledger v0.72 supplies the universal
-> dressed symplectic bridge and exact pure-gauge differential bridge; the actual
-> K77 representation/action and global BFV/common domain remain open.
+> dressed symplectic bridge and exact pure-gauge differential bridge. Ledger
+> v0.73 supplies the actual K77 group category and exact source/target dressing,
+> while killing single-holonomy compression of the full endpoint phase space.
+> The continuum endpoint action owner and global BFV/common domain remain open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -194,7 +200,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `60/40/20/40` local quotient accounting, and v0.71's exact separate
 > affine/edge cocycles plus killed direct identity. Preserve v0.72's universal
 > dressed pair, exact presymplectic kernel-equals-gauge theorem, recovered
-> v0.70 sign and flat/pure-gauge Maurer-Cartan bridge.
+> v0.70 sign and flat/pure-gauge Maurer-Cartan bridge. Preserve v0.73's exact
+> K77 source/target cotangent reduction and its material negative result:
+> one holonomy imposes `p0=p2` and reduces `40/40` to `20/20`, so the action
+> must own two continuum endpoint copies.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
@@ -206,9 +215,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `-J_2D` target to a derivation. Preserve the exact nonlinear point-frame
 > cotangent lift, three-splitting cocycle and all-ten K77 presymplectic
 > transport; do not add a vertical B/T lift for point-trivialization descent.
-> Now instantiate that dressing on the actual K77 `H` representation and
-> action-owned preboundary form, extend the bridge to full `tau_A0`, and prove global
-> moment-map/kernel descent; only then open BFV,
+> Now derive two continuum endpoint evaluation maps and their primitive
+> epsilon preboundary momenta from the selected action, apply direct-sum K77
+> dressing without holonomy compression, extend the bridge to full `tau_A0`,
+> and prove global moment-map/kernel descent; only then open BFV,
 > polarization and common-domain descent. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.

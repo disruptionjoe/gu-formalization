@@ -2075,3 +2075,11 @@ right `gl(2)` orbit, and recovered v0.70 minus sign. It requires `u^-1 d u` to
 remain a flat/pure-gauge tilted bridge, not arbitrary `varpi`, and keeps the
 actual K77 `H` representation/action, nonzero `A0`, global BFV, common domain,
 P1/P2/P3, canon and posture open.
+
+## K77 two-endpoint edge dressing v0.73 gate
+
+`selected_k77_two_endpoint_edge_dressing_scope_audit.py` requires the actual
+K77 `U(64,64)` group owner, exact source/target cotangent kernel equality, and
+the material `p0=p2`, `40/40 -> 20/20` single-holonomy fence. It keeps two
+continuum endpoint action owners, primitive epsilon preboundary ownership,
+full `tau_A0`, BFV/common domain, P1/P2/P3, canon and posture open.

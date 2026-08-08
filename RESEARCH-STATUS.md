@@ -8,17 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.72; five
+**Current Build/Compose result 2026-08-08 (ledger v0.73; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The
-universal group-valued edge dressing `q=xu^-1`, `pi=p u^T` is exact. On a
-generic rational `GL(2)` fixture, its pulled-back canonical two-form has rank
-eight and its four-dimensional characteristic kernel equals the simultaneous
-right `gl(2)` gauge orbit. Identity linearization recovers the v0.70
-preboundary minus sign. The base Maurer-Cartan derivative `u^-1 d u` obeys the
-exact tilted affine law and is flat, so it bridges only the `A0=0` pure-gauge
-component, not arbitrary `varpi`. Actual K77 `H`/action ownership, nonzero
-`A0`, global BFV and common-domain descent remain open. Verdicts, residue,
-quotients, P1/P2/P3, canon and public posture do not move.
+actual K77 principal owner is `P_H=Spin(C) x U(64,64)`, with no K95 import.
+Its exact source/target holonomy cotangent dressing has rank eight and kernel
+equal to the full rank-eight endpoint gauge orbit. But the identity tangent
+matches the v0.70 potential only when `p0=p2`: one holonomy retains the
+Gauss-diagonal `20/20` half of the full ten-normal `40/40` endpoint quotient.
+The single-holonomy globalization is killed. Two action-derived continuum
+endpoint evaluations and primitive epsilon preboundary momenta, full `tau_A0`,
+global BFV and common-domain descent remain open. Verdicts, residue, quotients,
+P1/P2/P3, canon and public posture do not move.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete
