@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 ACTION/FRECHET/WARD OBJECT SEPARATION (ledger v0.91).** The
+> v0.77 full pointwise K77 bank already owns the first-action Euler covector
+> `dI1`; it is not `J=D Upsilon`. At `Upsilon*=0`, residual naturality fixes
+> the four physical Ward-orbit columns. Exact nonzero transverse additions in
+> timelike, spacelike and null classes preserve those columns while changing
+> `J`, so Ward closure cannot construct the six transverse metric columns.
+> Next build exactly those six K77 `D_g Upsilon` columns plus residual `K`,
+> then derive formal adjoint and Green. K77 is the unique ordinary
+> Majorana--Weyl horn among K77/K95 only conditional on requiring a real
+> chiral carrier without extra symplectic-doublet structure; K95 is a
+> nonportable pseudoreal control. No verdict, residue, quotient or datum moves.
+
 > **2026-08-08 SIGNATURE-GENERIC CARTAN/WARD COMPOSITION (ledger v0.90).**
 > The nonabelian Cartan identities are exact for a connection and an
 > adjoint-valued one-form. For the flat second connection `B`, its full

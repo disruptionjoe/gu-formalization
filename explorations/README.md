@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 action/Frechet/Ward object separation (2026-08-08)
+
+`conditional-build/selected-k77-action-frechet-ward-object-separation-2026-08-08.md`
+reuses the already-complete v0.77 first-action Euler bank, separates it from
+`J=D Upsilon`, proves the stationary four-column Ward theorem, and constructs
+exact nonzero transverse additions showing that Ward closure leaves six
+metric columns of `J` open. K77 is the unique ordinary MW horn among K77/K95
+only conditional on a real-chiral-carrier-without-extra-doublet requirement.
+Ledger v0.91 changes no
+verdict, residue, quotient, datum, canon or posture.
+
 ## Signature-generic Cartan/Ward composition (2026-08-08)
 
 `conditional-build/signature-generic-cartan-ward-compose-2026-08-08.md`

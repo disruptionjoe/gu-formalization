@@ -7,7 +7,16 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.90. Exact nonabelian Cartan
+Current append-only progress surface: ledger v0.91. The v0.77 first-action
+Euler bank is complete and is not the residual Jacobian. Stationary residual
+naturality fixes four physical Ward-orbit columns, while exact rank-six
+transverse additions prove those columns do not determine full `J`. Build now
+owns the six transverse K77 `D_g Upsilon` columns and residual `K`, followed
+by formal adjoint, Green and symplectic/domain descent. K77 is the unique MW
+horn only conditional on the real-chiral-carrier requirement. See
+`selected-k77-action-frechet-ward-object-separation.json`.
+
+Predecessor append-only progress surface: ledger v0.90. Exact nonabelian Cartan
 composition shows that the flat second connection's diffeomorphism response
 is the existing primitive epsilon channel at `eta=i_xi B`; the primitive was
 already built. K77 and K95 retain different branch-native Hodge operators but

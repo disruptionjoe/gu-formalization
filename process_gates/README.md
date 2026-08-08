@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_action_frechet_ward_object_separation_audit.py` enforces the
+  v0.91 distinction between first-action Euler bank and residual Jacobian,
+  four Ward versus six transverse directions, conditional MW selector,
+  mandatory symplectic/hostile review and frozen headline/residue/datum fence.
+
 - `signature_generic_cartan_ward_compose_audit.py` enforces the v0.90
   Cartan/primitive-epsilon composition, branch-native K77/K95 Hodge split,
   mandatory specialist review, frozen headline meter and actual-action

@@ -6,6 +6,16 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_action_frechet_ward_object_separation_probe.py`
+  reuses the complete first-action bank, proves the exact stationary
+  equivariant-residual Ward theorem, and constructs nonzero transverse
+  Jacobian additions in all causal classes showing that four Ward columns do
+  not determine the six transverse metric columns. It also corrects the older
+  signature probe's `H^32`-as-full-module wording: `M(64,H)` acts on `H^64`,
+  while `H^32` is a chiral even-algebra half. Run with `sage -python`.
+- `channel-swings/conditional_physics_ledger_v091_probe.py` validates the
+  append-only five-row object-separation migration and frozen headline meter.
+
 - `channel-swings/signature_generic_cartan_ward_compose_probe.py` proves the
   connection and adjoint-one-form Cartan identities, fires curvature/gauge/
   internal-orbit plants, composes the flat second connection with primitive
@@ -745,7 +755,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (464 Python + 53 Sage) | active channel and Lane-1 swing probes; the current count includes the signature-generic Cartan/Ward composition, ledger-v0.90 integrity gate, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (466 Python + 53 Sage) | active channel and Lane-1 swing probes; the current count includes the action/Frechet/Ward object separation, ledger-v0.91 integrity gate, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |

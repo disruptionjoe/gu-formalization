@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.90 Cartan/Ward composition:** do not ask Build to construct a
+> **Current v0.91 action/Frechet/Ward object separation:** v0.77 already
+> completes the first-action Euler covector `dI1`; never relabel it as the raw
+> residual Jacobian `J=D Upsilon`. Residual naturality gives
+> `J R=rho Upsilon`, so the four physical Ward-orbit columns vanish at
+> `Upsilon*=0`. This does not determine full `J`: exact nonzero transverse
+> additions preserve `J R` in all causal classes, and the ten metric
+> directions split into four orbit plus six transverse. Build the six
+> transverse K77 `D_g Upsilon` columns and residual `K`, then formal adjoint
+> and Green. Symplectic review remains mandatory. K77 is the unique ordinary
+> MW horn among K77/K95 only if a real chiral carrier without extra
+> symplectic-doublet structure is required; K95 is a nonportable pseudoreal
+> control. Ledger: v0.91.
+
+> **Predecessor v0.90 Cartan/Ward composition:** do not ask Build to construct a
 > new primitive epsilon channel. Exact nonabelian Cartan decomposition shows
 > that the flat second connection's contribution to `L_xi(A-B)` is the
 > already-built primitive epsilon variation with `eta=i_xi B`. This is a

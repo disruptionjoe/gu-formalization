@@ -9,6 +9,11 @@ updated_at: "2026-08-08"
 
 This folder tracks public Geometric Unity source surfaces: lectures, podcasts, official pages, interviews, transcripts, and other places where Eric Weinstein or GU-adjacent venues discuss the theory.
 
+- [`selected-k77-action-frechet-ward-object-separation-source-reinspection-2026-08-08.md`](selected-k77-action-frechet-ward-object-separation-source-reinspection-2026-08-08.md)
+  records `SOURCE-CONFIRMS` for the first-action/residual grammar and authorial
+  `(1,3)+(6,4)=(7,7)` arena, and `SOURCE-SILENT` for the full residual
+  Jacobian, pairing, adjoint, Green and symplectic/domain construction.
+
 - [`signature-generic-cartan-ward-source-reinspection-2026-08-08.md`](signature-generic-cartan-ward-source-reinspection-2026-08-08.md)
   records `SOURCE-CONFIRMS` for the two-connection/gauge arena and
   `SOURCE-SILENT` for the exact Cartan theorem, the field-dependent

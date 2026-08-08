@@ -24,30 +24,42 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.90.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.90.md`.
+`lab/process/conditional-physics-ledger-v0.91.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.91.md`.
 
-Current signature-rationale correction: the source explicitly uses
-`Y^(7,7)`, `Spin(7,7)` chirality and a K77 fermionic carrier, so K77 remains
-the **author-asserted conditional** Eric branch.  Its displayed signature
-blocks, however, use a consistently negative-first notation and add to source
-`(5,9)`, i.e. repository plus-first `(9,5)`.  K95 is therefore the
-**geometry-derived** comparator.  Retract every claim that K77 follows from
-the displayed block arithmetic; do not retract exact K77 constructions on
-their declared conditional metric.  For the next Build, prove Lie/tensor
-naturality once only when the proof is explicitly signature-generic.  Hodge,
-Clifford reality, Krein pairing, formal adjoint and domain data are
-branch-native and require separate K77/K95 specialization.  Complexification
-is not a port.
+Current action/Frechet/Ward correction: the complete v0.77 pointwise bank is
+the first-action Euler covector `dI1`; it is not the raw residual Jacobian
+`J=D Upsilon`. Equivariant-residual naturality gives
+`J R=rho Upsilon`, so the four physical orbit columns vanish at a
+zero-residual background. Exact rank-six transverse plants preserve those
+four columns while changing `J`. Build therefore owns the six transverse
+physical K77 `D_g Upsilon` columns and residual `K`, followed by formal
+adjoint and Green; do not rebuild `dI1` or infer full `J` from Ward closure.
+K77 is the unique ordinary Majorana--Weyl horn among K77/K95 only if a real
+chiral carrier without extra symplectic-doublet structure is required. K95
+remains a nonportable pseudoreal control.
 
-Current Cartan/Ward composition: do not reopen “construct primitive epsilon.”
+Current signature-rationale correction: Weinstein's authorial draft fixes
+`TX^(1,3)+N^(6,4)=TY^(7,7)`, and his Portal explanation independently fixes
+the `(1,3)` sector. Curt's iceberg transcript is an expositor surface and its
+sign-order arithmetic is not authorial evidence. Exact real-Clifford
+arithmetic makes K77 the unique ordinary Majorana--Weyl horn among K77/K95,
+conditional on GU requiring a real chiral carrier without an extra
+symplectic doublet. The two horns have the same complex Dirac dimension, not
+the same full real module dimension: K77 is real 128, while K95 is
+quaternionic `H^64`, real 256. K95 can support a symplectic-MW condition only
+with added doublet structure. Do not port Hodge, Clifford, Krein, adjoint or
+domain objects between them. Complexification is not a port.
+
+Predecessor Cartan/Ward composition: do not reopen “construct primitive epsilon.”
 Ledger v0.25 already owns its Euler/Green row.  Exact signature-generic
 transport now gives `L_xi A=i_xi F_A+D_A(i_xi A)` and, on the flat pure-gauge
 second connection, `L_xi B=D_B(i_xi B)`, so the field-dependent `B` summand
 composes with that existing row.  K77 and K95 use different Hodge operators;
 both local Hodge/observation packets pass independently.  The remaining Build
-is the actual selected-action Frechet coefficient bank and coefficientwise
-`J R=0`, followed by branch-native Clifford/Krein adjoint, Green and domain.
+was retyped by v0.91: the first-action bank already exists, the orbit theorem
+does not determine full `J`, and the remaining build is the six transverse
+K77 residual columns plus `K`, adjoint, Green and domain.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,

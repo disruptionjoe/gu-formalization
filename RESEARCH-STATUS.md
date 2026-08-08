@@ -8,7 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.90; five
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.91; five
+distance/evidence migrations; headline unchanged).** The queue's “selected-
+action Frechet bank” was two different objects. v0.77 already completes the
+first-action Euler covector bank. The raw residual Jacobian `J=D Upsilon`
+remains partial. Exact stationary naturality fixes four physical Ward-orbit
+columns, while exact transverse additions show that those conditions leave
+six metric directions of `J` undetermined in every causal class. The next
+build is therefore the six transverse K77 `D_g Upsilon` columns and residual
+`K`, followed by formal adjoint and Green. K77 is the unique ordinary
+Majorana--Weyl horn among K77/K95 only conditional on requiring a real chiral
+carrier without extra symplectic-doublet structure; K95 remains a
+nonportable pseudoreal control. No verdict, residue, quotient,
+datum, canon or public-posture change is claimed.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.90; five
 distance/evidence migrations; headline unchanged).** Exact nonabelian Cartan
 identities separate curvature transport from internal gauge transport. For
 the source's flat second connection `B`, the `B`-owned term in

@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "selected_k77_action_frechet_ward_object_separation",
+  "created": "2026-08-08",
+  "status": "FIRST_ACTION_BANK_ALREADY_COMPLETE__STATIONARY_WARD_NATURALITY_THEOREM_EXACT__ACTUAL_TRANSVERSE_J_AND_K_OPEN",
+  "lane": "1",
+  "functional_channels": ["COMPOSE", "BUILD", "SOURCE", "VERIFY"],
+  "source_return": "SOURCE-CONFIRMS__ACTION_RESIDUAL_AND_AUTHORIAL_K77_ARENA__SOURCE-SILENT__FULL_J_K_ADJOINT_GREEN",
+  "layer0": {
+    "first_action_euler_covector": "dI1__FULL_POINTWISE_K77_BANK_ALREADY_V077",
+    "raw_residual_jacobian": "J_EQUALS_D_UPSILON__DISTINCT_AND_PARTIAL",
+    "second_action_euler": "D_I2_EQUALS_J_ADJOINT_K_UPSILON",
+    "stationary_second_action_hessian": "H2_EQUALS_J_ADJOINT_K_J_AT_UPSILON_ZERO",
+    "ward_test": "J_R_EQUALS_ZERO_ON_FOUR_PHYSICAL_ORBIT_COLUMNS",
+    "transverse_build": "SIX_PHYSICAL_METRIC_COLUMNS_NOT_DETERMINED_BY_J_R",
+    "preboundary": "GREEN_CONCOMITANT_DISTINCT_AND_OPEN"
+  },
+  "exact_results": {
+    "first_action_full_real_dimension": 16384,
+    "first_action_bank_rank": 14,
+    "first_action_normal_rank": 10,
+    "first_action_live_clifford_grades": [1, 2, 5],
+    "source_varpi_residual_rank": 24,
+    "physical_ward_orbit_rank": 4,
+    "transverse_metric_rank": 6,
+    "causal_classes_checked": ["timelike", "spacelike", "null"],
+    "stationary_naturality_identity": "J_R_EQUALS_RHO_UPSILON__ZERO_AT_UPSILON_STAR_ZERO",
+    "nonzero_residual_transport_plant": "LIVE",
+    "nonzero_transverse_J_additions_preserve_J_R": true,
+    "actual_full_coefficientwise_J_R_zero": "OPEN_PENDING_SELECTED_RESIDUAL_NATURALITY",
+    "actual_six_transverse_DG_UPSILON_columns": "OPEN",
+    "residual_pairing_K": "OPEN"
+  },
+  "signature_condition": {
+    "K77": {"p_minus_q_mod8": 0, "real_algebra": "M(128,R)", "ordinary_majorana_weyl": true, "real_dirac_dimension": 128, "real_chiral_halves": [64, 64], "complex_dirac_dimension": 128},
+    "K95": {"p_minus_q_mod8": 4, "real_algebra": "M(64,H)", "ordinary_majorana_weyl": false, "symplectic_majorana_weyl_with_extra_doublet": true, "real_dirac_dimension": 256, "real_chiral_halves": [128, 128], "complex_dirac_dimension": 128},
+    "disposition": "K77_FORCED_ONLY_IF_ORDINARY_REAL_CHIRAL_MAJORANA_WEYL_CARRIER_WITHOUT_EXTRA_SYMPLECTIC_DOUBLET_IS_REQUIRED__K95_RETAINED_AS_NONPORTABLE_PSEUDOREAL_CONTROL"
+  },
+  "constraint_accounting": {
+    "fields_added": 0,
+    "continuous_parameters_added": 0,
+    "function_slots_added": 0,
+    "discrete_choices_selected": 0,
+    "quotients_added": 0,
+    "external_datum_used": false,
+    "residue_changed": false,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2,
+    "closed": [
+      "DUPLICATE_FIRST_ACTION_BANK_REQUEST_RETIRED",
+      "STATIONARY_WARD_ORBIT_THEOREM_SEPARATED_FROM_TRANSVERSE_J"
+    ],
+    "remaining": [
+      "SIX_TRANSVERSE_PHYSICAL_DG_UPSILON_COLUMNS_PLUS_RESIDUAL_K",
+      "FORMAL_ADJOINT_GREEN_SYMPLECTIC_AND_COMMON_DOMAIN"
+    ]
+  },
+  "scope_boundary": {
+    "actual_full_J": "OPEN",
+    "K_star_and_formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "reduced_presymplectic_BFV_phase_space": "OPEN",
+    "hyperbolicity_and_characteristic_propagation": "OPEN",
+    "complex_contour_and_path_integral_measure": "OPEN",
+    "physics_recovery": "UNCHANGED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "scripts": {
+    "main": "tests/channel-swings/selected_k77_action_frechet_ward_object_separation_probe.py",
+    "ledger": "tests/channel-swings/conditional_physics_ledger_v091_probe.py",
+    "audit": "process_gates/selected_k77_action_frechet_ward_object_separation_audit.py",
+    "main_rerun": "PASS_49_OF_49"
+  },
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-action-frechet-ward-object-separation-review.md",
+  "next_gate": "CONSTRUCT_SIX_TRANSVERSE_PHYSICAL_K77_DG_UPSILON_COLUMNS_AND_RESIDUAL_K__THEN_FORMAL_ADJOINT_GREEN"
+}
