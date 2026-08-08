@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 principal Ward/gamma-epsilon reconciliation (2026-08-08)
+
+`conditional-build/selected-k77-principal-ward-gamma-epsilon-reconciliation-2026-08-08.md`
+separates source epsilon from the conditional grade-one gamma soldering lift.
+Direct metric/varpi torsion responses cancel on four orbit columns, while the
+full source-variable curvature packet has rank three in every causal class.
+The moving-operator target is narrowed from gamma-extended rank four to
+source-minimal rank three, not eliminated. Ledger v0.86 changes no verdict,
+residue, quotient, datum, canon or posture.
+
 ## K77 transverse metric/augmented-torsion block (2026-08-08)
 
 `conditional-build/selected-k77-metric-transverse-augmented-torsion-block-2026-08-08.md`

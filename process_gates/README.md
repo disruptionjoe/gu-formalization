@@ -2212,6 +2212,16 @@ unowned by the still-missing moving Shiab/Hodge/curvature/density/observation
 operator. Principal rank, full Frechet closure, pairing/Green, symplectic and
 physical claims remain separated.
 
+## K77 principal Ward/gamma-epsilon reconciliation v0.86 gate
+
+`selected_k77_principal_ward_gamma_epsilon_reconciliation_audit.py` requires
+source epsilon and conditional gamma-epsilon soldering to remain distinct. It
+requires exact direct metric/varpi torsion cancellation, the surviving
+source-variable curvature packet to have rank three in all causal classes,
+and the gamma extension to remain rank four and nonzero on the sourced kernel.
+The moving operator is narrowed, not eliminated. Full Frechet, adjoint/Green,
+Krein, symplectic/BFV and physical claims remain open.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

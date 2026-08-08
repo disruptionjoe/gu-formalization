@@ -7,6 +7,19 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 PRINCIPAL WARD/GAMMA-EPSILON RECONCILIATION (ledger
+> v0.86).** Source epsilon is an `H`-valued gauge/second-connection variable;
+> the source does not identify `gamma_epsilon(xi-flat)` as the physical
+> spacetime diffeomorphism law. Exact composition shows the direct metric and
+> varpi torsion responses cancel on all four orbit columns, while the full
+> varpi derivative retains a rank-three curvature packet in every causal
+> class. The moving Shiab/Hodge/curvature/density/observation target narrows
+> from gamma-extended rank four to source-minimal rank three; it is not
+> eliminated. Keep gamma-epsilon conditional. Next construct the rank-three
+> moving packet, complete lower-order transverse and primitive internal-
+> epsilon Frechet response, prove full `J R=0`, then derive `K*`, formal
+> adjoint and Green concomitant. No datum is used.
+
 > **2026-08-08 TRANSVERSE METRIC/AUGMENTED-TORSION BLOCK (ledger v0.85).**
 > The source-owned principal relation `delta_g T=-L_qh` has rank nine on ten
 > metric values. Its sole kernel lies in the diffeomorphism orbit, so the

@@ -9,7 +9,20 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.85 transverse metric block:** at fixed source `varpi`,
+> **Current v0.86 principal Ward reconciliation:** source epsilon is an
+> `H`-valued gauge/second-connection variable; the source does not identify
+> `gamma_epsilon(xi-flat)` as the physical spacetime diffeomorphism law.
+> Exact direct metric/varpi torsion responses cancel on all four orbit
+> columns, but the full raw-Upsilon varpi derivative leaves a rank-three
+> curvature packet in every causal class. Narrow the moving Shiab/Hodge/
+> curvature/density/observation target from gamma-extended rank four to
+> source-minimal rank three; do not eliminate it. Keep gamma-epsilon as a
+> conditional internal/future soldering construction. Next build the
+> rank-three packet, lower-order transverse and primitive internal-epsilon
+> Frechet response, then `K*`, formal adjoint and Green. Symplectic review is
+> mandatory before any physical descent.
+
+> **Predecessor v0.85 transverse metric block:** at fixed source `varpi`,
 > `delta_gT=-L_qh`. Exact causal calculation gives `rank L_q=9`; its sole
 > kernel lies in the diffeomorphism orbit, so the direct principal
 > augmented-torsion residual has rank six on all six transverse metric
@@ -20,7 +33,7 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > adjoint, Green or Gram. Do not call the fixed negative target an owned
 > operator, and do not promote principal rank to physical recovery.
 
-> **Current v0.84 gamma-soldered orbit:** the grade-two Kosmann epsilon lift
+> **Predecessor v0.84 gamma-soldered orbit:** the grade-two Kosmann epsilon lift
 > is exactly rank-three/no-gain, but the already-owned grade-one
 > `gamma_epsilon:C->ad(P_H)` map supplies a conditional rank-four epsilon
 > tangent. The exact raw-residual response closes all four principal

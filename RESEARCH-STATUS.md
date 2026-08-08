@@ -8,7 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.85; five
+**Current Build/Compose correction 2026-08-08 (ledger v0.86; five
+distance/mapping-grade/evidence migrations; headline unchanged).** Source
+epsilon is an `H`-valued gauge/second-connection variable, and the source does
+not identify `gamma_epsilon(xi-flat)` as the physical spacetime
+diffeomorphism law. Removing that conditional insertion makes the direct
+metric and varpi torsion responses cancel on all four orbit columns. The full
+raw-Upsilon varpi derivative still leaves a rank-three curvature packet in
+every causal class. Thus the moving Shiab/Hodge/curvature/density/observation
+target is narrowed from gamma-extended rank four to source-minimal rank three,
+not eliminated. Lower-order transverse/internal-epsilon response, `K*`,
+adjoint, Green and reduced symplectic descent remain open. No verdict,
+residue, quotient, datum, canon or posture moves.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.85; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The
 source-owned principal metric response follows from
 `T=varpi-B_LC(g)`: fixed-`varpi` variation gives `delta T=-L_qh`. In every

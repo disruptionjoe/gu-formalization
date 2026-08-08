@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.85.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.85.md`.
+`lab/process/conditional-physics-ledger-v0.86.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.86.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -202,6 +202,20 @@ the exact target for the moving Shiab/Hodge/curvature/density/observation
 packet, not evidence that this packet has been constructed. Build that
 operator, complete lower-order transverse metric/epsilon response and full
 Frechet `J R=0`, then derive the pairing, adjoint and Green concomitant.
+
+Ledger v0.86 corrects the tangent typing before that operator is built.
+Source epsilon is an `H`-valued gauge/second-connection variable; the source
+does not identify `gamma_epsilon(xi-flat)` as the physical spacetime
+diffeomorphism law. Removing that conditional insertion makes the direct
+metric and varpi torsion responses cancel on all four orbit columns, but the
+full varpi derivative retains a rank-three curvature packet. The moving
+Shiab/Hodge/curvature/density/observation target is therefore narrowed from
+gamma-extended rank four to source-minimal rank three, not eliminated.
+Preserve gamma-epsilon as an internal or future soldering construction; do
+not include it in the physical Ward packet without a separate source/geometry
+and reduced-symplectic descent theorem. Build the rank-three moving packet,
+then complete lower-order transverse and primitive internal-epsilon Frechet
+response, `K*`, formal adjoint and Green concomitant.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the

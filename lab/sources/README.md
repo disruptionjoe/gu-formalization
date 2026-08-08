@@ -254,3 +254,8 @@ identifications as separate grades.
   - confirms `T=varpi-B_LC(g)` and hence the direct fixed-`varpi` principal
     metric response; returns source-silent on the complete moving-operator,
     lower-order, pairing, adjoint and Green packet.
+- [`selected-k77-principal-ward-gamma-epsilon-reconciliation-source-reinspection-2026-08-08.md`](selected-k77-principal-ward-gamma-epsilon-reconciliation-source-reinspection-2026-08-08.md)
+  - returns `SOURCE-CORRECTS`: source epsilon is an `H`-valued gauge/
+    second-connection variable and the source does not identify the
+    conditional grade-one gamma lift as the physical diffeomorphism law;
+    direct torsion cancels but a rank-three curvature/operator packet remains.

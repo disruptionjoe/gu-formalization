@@ -15,7 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.85. The source-owned relation
+Current append-only progress surface: ledger v0.86. Source epsilon is an
+`H`-valued gauge/second-connection variable, not a source-quoted physical
+diffeomorphism soldering law. Direct metric and varpi torsion responses cancel
+on all four orbit columns, while the full source-variable curvature response
+has rank three. Build now owns that rank-three moving Shiab/Hodge/curvature/
+density/observation packet, lower-order transverse and primitive internal-
+epsilon completion, then pairing, adjoint and Green. See
+`selected-k77-principal-ward-gamma-epsilon-reconciliation.json`.
+
+Predecessor append-only progress surface: ledger v0.85. The source-owned relation
 `T=varpi-B_LC(g)` supplies the direct principal metric response
 `delta_gT=-L_qh`. The Levi-Civita map has rank nine and its sole kernel lies
 inside the diffeomorphism orbit, so it is injective on the six transverse
@@ -26,7 +35,7 @@ packet, plus lower-order transverse metric/epsilon completion, then pairing,
 adjoint and Green. See
 `selected-k77-metric-transverse-augmented-torsion-block.json`.
 
-Predecessor append-only progress surface: ledger v0.84. The ordinary
+Earlier predecessor append-only progress surface: ledger v0.84. The ordinary
 spin/Levi-Civita Kosmann source-epsilon lift has rank three and exactly the
 same longitudinal kernel as the source-`varpi` connection block, so it adds
 no Ward direction. The already-owned grade-one K77 map
@@ -182,9 +191,16 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.85.json` - current append-only conditional
-  ledger; the direct principal augmented-torsion metric block has rank six
-  transversely and the remaining moving-operator Ward target has rank four.
+- `conditional-physics-ledger-v0.86.json` - current append-only conditional
+  ledger; source-minimal direct torsion cancels on four orbit columns and the
+  remaining curvature/moving-operator target has rank three, while the
+  gamma-extended fourth direction remains conditional.
+- `selected-k77-principal-ward-gamma-epsilon-reconciliation.json` - exact
+  causal direct-torsion cancellation, rank-three sourced curvature packet,
+  rank-four conditional gamma extension and successor.
+- `conditional-physics-ledger-v0.85.json` - immutable predecessor ledger;
+  the direct principal augmented-torsion metric block has rank six
+  transversely and the gamma-extended moving-operator target has rank four.
 - `selected-k77-metric-transverse-augmented-torsion-block.json` - exact causal
   Levi-Civita, transverse, residual and partial-Ward ranks plus successor.
 - `conditional-physics-ledger-v0.84.json` - immutable predecessor ledger;
