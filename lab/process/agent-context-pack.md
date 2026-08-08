@@ -611,7 +611,7 @@ physics.
 
 ### PRE-WAVE (binding)
 
-Answer all three, in writing, in the wave's opening artifact, BEFORE any
+Answer all four, in writing, in the wave's opening artifact, BEFORE any
 construction. A wave that cannot answer them is not started.
 
 1. **WHICH FORK ARE YOU ASSUMING?** Name the Layer-0 fork horn this wave
@@ -636,6 +636,17 @@ construction. A wave that cannot answer them is not started.
    owner before starting — or do not introduce it. `free_object_delta` is a
    reported metric, and it is the one number that cannot be gamed by writing
    more artifacts. (Wave H's `J_red` is still un-owned.)
+
+4. **WHAT DIES IF YOU SUCCEED?** Name every currently-recorded result this
+   wave's success would invalidate or re-scope, and where each is written — or
+   write "none, and here is why". On success that list IS the propagation set;
+   a settlement with no consequence list is not closed. (Wave K settled
+   `REAL-CLIFFORD-FORM` on 2026-08-04; 34 canon files resting on the retired
+   horn were still unrevisited on 2026-08-07 and the one confirmed casualty,
+   `AC-G1`, was found by accident. `IMPOSTER-LABEL-AB`, settled one day
+   earlier through hostile review, propagated the same day — because that
+   route emits a licensed-edits list and a wave disposition does not. The gap
+   tracks the settlement MECHANISM, not the fork's importance.)
 
 ## Live forks (nothing transfers across them silently)
 

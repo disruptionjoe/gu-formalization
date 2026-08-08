@@ -364,11 +364,46 @@ by replaying an unchanged packet merely because Build is occupied. Replays are
 admitted only for a named integrity risk: a changed dependency, environment,
 scope, implementation, result surface or unresolved hostile objection.
 
-Every material claim receives the two-sided hostile review:
+Every material claim receives the hostile review's three charges. The first two
+are the standing two-sided charge; the third was added 2026-08-08.
 
-1. find where the summary outruns the artifact; and
+1. find where the summary outruns the artifact;
 2. find where a rigorous fence or lane is defending a superseded or mistyped
-   object.
+   object; and
+3. **if this result stands, what else must change?** List the artifacts, rows,
+   canon entries and registry rows that require edit, each marked `dissolved`,
+   `survives` or `needs-recheck`. An empty list is a valid answer and must be
+   stated as one, not left implicit.
+
+Charge 3 exists because propagation has tracked the settlement MECHANISM rather
+than the result's importance. `IMPOSTER-LABEL-AB` was settled through hostile
+review on 2026-08-03 and propagated the same day, because a hostile review emits
+a licensed-edits list as its output. `REAL-CLIFFORD-FORM` was settled through a
+wave disposition one day later, emitted a finding and no edits list, and 34 canon
+files resting on the retired horn were still unrevisited four days on. Charge 3
+makes the edits list a required output of every review rather than an accident of
+which route was taken.
+
+### Required lens core
+
+Lens selection is otherwise the reviewer's, but three are not optional, because
+each corresponds to a failure this repository has actually and repeatedly made.
+
+- **Layer-0 semantics — always.** Six distinct homonyms surfaced in the two days
+  to 2026-08-08 (`sigma` in five senses; "fork" over three surfaces reporting
+  9/10/9 on different sets; "coflip"; "the Shiab"; `D1`/`D2`; "quotient"), and one
+  of them would have inverted a conclusion had a bare token search been trusted.
+- **Prior art / already-done — always.** Of the first four register items opened
+  on the 2026-08-08 side track, three were already satisfied and unmarked, and
+  `M-H9` had been half-executed since 2026-07-30 by green committed code that
+  neither the register nor the fork registry reflected. Check the target surface
+  before reviewing the work.
+- **Analytic lens — whenever the artifact makes a domain, spectrum, index or
+  positivity claim.** This mirrors the symplectic trigger below. As of 2026-08-08
+  the 41 filed persona passes contained zero coverage of complex analysis, path
+  integrals, saddle points, steepest descent or Picard-Lefschetz, while every
+  open analytic gate in the program (`H59`, the common Green/Krein domain,
+  `U13`/`U14`, the Fredholm/APS reduction) sits in exactly that territory.
 
 Reviews that touch an action, variational map, constraint/BV quotient,
 boundary charge, observation descent or claimed physical transition must also

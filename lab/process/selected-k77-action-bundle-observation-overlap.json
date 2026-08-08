@@ -1,0 +1,75 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "FULL_ACTION_COVECTOR_ADJOINT_BUNDLE_OVERLAP_EXACT__COMPLETE_OBSERVATION_GERM_AND_NO_LEAKAGE_PROJECTOR_DESCEND__ARBITRARY_X_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "NONCOMMUTING_THREE_PATCH_ACTION_COVECTOR__COMPLETE_OBSERVATION_DUAL__NO_LEAKAGE_PROJECTOR__PAIRING_DESCENT_EXACT",
+  "source_return": "SOURCE-CONFIRMS__GLOBAL_P_H_GAMMA_EPSILON_AND_SECTION_OBSERVATION_ROLE__SOURCE-SILENT__COMPLETE_EQUATION_DUAL_PREFERRED_SHIAB_BFV_DOMAIN__REPO-DERIVES__FULL_ACTION_COVECTOR_AND_OBSERVATION_PROJECTOR_THREE_PATCH_DESCENT",
+  "layer0": {
+    "pointwise_bank": "full 16384-real-direction selected K77 u(64,64) action covector",
+    "global_bundle": "already-owned chimeric Spin(7,7)/P_H associated bundle and gamma_epsilon",
+    "overlap_certificate": "two noncommuting signed rotations and their direct three-patch cocycle",
+    "observation": "complete value-plus-first-jet equation dual, not ordinary pullback",
+    "no_leakage": "co-moving complementary projector, not R L equals one alone",
+    "physical_section": "arbitrary-X observation-section integrability and faithfulness remain open",
+    "analytic_boundary": "global tau_A0/BFV and common Green/Krein domain remain open"
+  },
+  "exact_results": {
+    "transition_count": 2,
+    "transitions_noncommuting": true,
+    "direct_sequential_slot_cocycle": true,
+    "direct_sequential_coefficient_cocycle": true,
+    "patchwise_action_banks_recomputed": true,
+    "seed_pairwise_action_overlap": true,
+    "seed_direct_action_overlap": true,
+    "heldout_pairwise_action_overlap": true,
+    "heldout_direct_action_overlap": true,
+    "complete_equation_dual_pairwise": true,
+    "complete_equation_dual_direct": true,
+    "complete_lift_left_inverse": true,
+    "no_leakage_projector_pairwise": true,
+    "no_leakage_projector_direct": true,
+    "coefficient_pairing_descends": true,
+    "observed_pairing_descends": true,
+    "endpoint_pairing_preserved": true
+  },
+  "controls": {
+    "frozen_observation_receiver": "FIRED",
+    "frozen_no_leakage_projector": "FIRED",
+    "hidden_covector_under_left_inverse": "FIRED",
+    "wrong_coefficient_dual_order": "FIRED",
+    "patch_recomputation_not_alias": "PASS",
+    "heldout_background": "PASS",
+    "independent_sage": "19/19 PASS"
+  },
+  "boundary": [
+    "arbitrary-X physical observation-section jet integrability",
+    "ordinary pullback faithfulness and physical no-leakage quotient",
+    "preferred historical Shiab",
+    "global tau_A0/BFV moment map and charge algebra",
+    "common Green/Krein analytic domain",
+    "physical vacuum and spectrum"
+  ],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "headline_delta": "NONE",
+  "frontier_delta": {
+    "conditions_closed": 3,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 2
+  },
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED",
+    "new_scoped_quotients": 0
+  },
+  "scripts": [
+    "tests/channel-swings/selected_k77_action_bundle_observation_overlap_probe.py",
+    "tests/channel-swings/selected_k77_action_bundle_observation_overlap_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-action-bundle-observation-overlap-review.md",
+  "next_gate": "ACTUAL_Y14_OBSERVATION_SECTION_JET_INTEGRABILITY_AND_PHYSICAL_FAITHFULNESS__GLOBAL_TAU_A0_BFV_MOMENT_MAP__COMMON_GREEN_KREIN_DOMAIN"
+}

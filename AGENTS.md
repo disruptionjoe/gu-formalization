@@ -66,8 +66,13 @@ Lanes, not additional Lanes.
   it does not substitute for construction.
 - Verify attacks new, changed or high-fanout claims. Unchanged replay is not
   progress without a named integrity risk.
-- Hostile review carries both charges: find where the summary outruns the
-  artifact, and find where rigor is defending a superseded or mistyped object.
+- Hostile review carries three charges: find where the summary outruns the
+  artifact; find where rigor is defending a superseded or mistyped object; and
+  state what else must change if the result stands, each item marked dissolved /
+  survives / needs-recheck, with an empty list stated explicitly. Layer-0
+  semantics and prior-art checks are always required lenses; an analytic lens is
+  required for any domain, spectrum, index or positivity claim. See
+  `lab/process/functional-channel-operating-contract-v1.0.md`.
 
 Standing directive `GU-COSMO-DYNAMIC-01`: before another wave uses Einstein
 recovery, `LT-GR2` or dark-energy recovery, run the contract's Layer-0 source
