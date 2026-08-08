@@ -175,3 +175,74 @@ surfaces that might still carry a stronger historical verdict.
 - stochastic, Sorkin, RG, CA, bicategorical, and layer-split applications
 - Three-generation count (analytic index ind_H(D_gimmel) on non-compact Y14) — **BLOCKED ON A GENUINE GU THEORY GAP (2026-06-26, RS-BRST run):** the count requires the physical gauge-fixed Rarita-Schwinger complex RS_GU^phys, whose computability-deciding data (a stabilized RS-sector action => the ghost-subtraction count q => the gauge-fixing slice) GU does NOT determine. GU fixes the gauge symmetry, field content, and H-structure (gu_derived skeleton) but never stabilizes the RS-sector action — the only candidate, draft eq 10.10, is author-disclaimed ("until it is stabilized. Caveat Emptor.", PDF p.49). Machine-verified obstruction: GU's gamma-trace irreducibility constraint and the gauge orbit are incompatible as a naive quotient (RS symbol on the pure-gauge image: norm 73.48 Cl(4,0) / 343.73 Cl(9,5), neither annihilated). So "3 generations" is not computable even in principle on current GU source — the gap is in the theory, not the formalization. See DERIVATION-PROGRESS RS-BRST entry. **STRUCTURAL UPDATE (2026-07-02):** the interior is now proved EVEN over the complete delimited class (symbolic index conservation + antilinear null-eigenspace bound + enum-completeness), and the external mechanism is computed (an odd count is a topological index = flux/instanton number, any integer). So the count is now characterized as "external by structure" MODULO the function-space Rarita-Schwinger APS/family-index residual (`canon/external-by-structure-synthesis-RESULTS.md`). **UPDATE (2026-07-03):** that function-space residual is now DISCHARGED on faithful models — gap well-posedness, APS/end eta neutrality in the class (plus STEP-2: the actual RS boundary eta on `RP^3` is 2-primary, `canon/rs-boundary-eta-2primary-RESULTS.md`), and the family-index term all fall to the one `sigma_1 (x) B` mechanism (`canon/function-space-index-conservation-residual-closure-RESULTS.md`). The "external by structure" reading is therefore no longer gated by an open analytic residual on faithful models; the one honest residual that remains is the true-RS-`Y14`-bundle computation (standard APS/family-index machinery, not re-derived on `Y14`). **None of this changes the verdict:** the count itself stays **OPEN / blocked on the source action**; three is NOT derived (the external index is any integer, nothing privileges 3).
 - Velo-Zwanziger constraint for GU spin-3/2 sector
+
+## Complete canon file inventory (mechanically derived, added 2026-08-08)
+
+> **Why this exists.** The curated entries above are a *selected* spine and were
+> never complete: on 2026-08-08 they named **29 of 57** files in `canon/`, and
+> `RESEARCH-STATUS.md`'s Current Research Map named **20 of 57**. Twenty-eight
+> canon files were reachable only by listing the directory. This appendix is
+> generated from each file's own front matter so that nothing in `canon/` is
+> invisible from the index. It does **not** grade, rank or promote anything, and
+> it does not replace the curated entries — where the two differ, the curated
+> entry is the one carrying judgement. Register item `P-H20`.
+
+| file | title | status | verdict (if stated) |
+|---|---|---|---|
+| `canon/README.md` **[not in the curated spine]** | Canon | canon |  |
+| `canon/anchor-scale-graded-ig-algebra-RESULTS.md` **[not in the curated spine]** | Anchor-scale test of the graded inhomogeneous-gauge-group algebra: it CLOSES on the honest Cl(9,5) = M(64,H) f | staged |  |
+| `canon/anchored-leads-screen-RESULTS.md` **[not in the curated spine]** | Anchored-leads screen: all 6 sweep leads GATE on (or DIE before) the same unbuilt source action; none escapes  | active |  |
+| `canon/antilinear-bound-RESULTS.md` | WC-ANTILINEAR-BOUND: the paper's antilinear finite adversarial hunt is CLOSED over a delimited class S -- an i | canon |  |
+| `canon/antilinear-nonkrein-admissibility-RESULTS.md` | Reviewer #2 addendum to WC-ANTILINEAR-BOUND: the admissible class is not the Krein-compatible S but the strict | canon |  |
+| `canon/boundary-einvariant-and-the-tangential-fork.md` **[not in the curated spine]** | The boundary e-invariant of the self-dual twist on RP^3, and the tangential-vs-gauge fork | active |  |
+| `canon/boundary-eta-of-mu-RESULTS.md` **[not in the curated spine]** | Boundary eta of mu: DECOUPLE (2-primary). The antilinear chiralizer is frame-trivial, so it provably cannot ca | active |  |
+| `canon/carrier-bit-decision-campaign-RESULTS.md` **[not in the curated spine]** | The carrier-bit decision campaign: the bit is NOT decided and provably cannot be decided by symbol arithmetic  | staged |  |
+| `canon/carrier-dirac-mass-capstone-RESULTS.md` **[not in the curated spine]** | The carrier Dirac-mass capstone: LOCATED, NOT FORCED, confirmed at the mass/dynamical level. The carrier Dirac | active |  |
+| `canon/core-theorems-symbolic-proof-RESULTS.md` | Grade upgrade: the paper's core theorems (index-nullity / index-conservation, the antilinear null-eigenspace b | canon |  |
+| `canon/dark-energy-theta-divergence-free.md` | Dark Energy Theta Field — Divergence-Free and Dynamic | canon | CONDITIONALLY_RESOLVED |
+| `canon/double-major-persona-sweep-RESULTS.md` **[not in the curated spine]** | What are we missing: 91-persona double-major sweep -> Hegelian -> meta-synthesis. Does NOT move 'located, not  | active |  |
+| `canon/enum-completeness-class-c-RESULTS.md` | WC-ENUM-COMPLETENESS: within the delimited class C of covariant sector-interior structures on the Clifford-RS  | canon |  |
+| `canon/escape-corners-campaign-RESULTS.md` **[not in the curated spine]** | The escape-corners campaign: corner (a) closed at author-assertion tier only (GP disengaged at GU's stated mas | staged |  |
+| `canon/exhaustiveness-by-type-RESULTS.md` **[not in the curated spine]** | Exhaustiveness-by-type: PARTIALLY CLOSED -- three odd-primary escape routes shut, one open. tmf/String structu | staged |  |
+| `canon/external-by-structure-synthesis-RESULTS.md` | The generation count is external BY STRUCTURE (not merely on present evidence): a synthesis theorem. In the Cl | canon |  |
+| `canon/external-topological-index-flux-RESULTS.md` | The external topological datum carries the odd chiral count: a 2D magnetic-flux Wilson-Dirac has net chiral in | canon |  |
+| `canon/families-e-invariant-order3-monodromy-RESULTS.md` **[not in the curated spine]** | Families e-invariant over a one-parameter K3 family: the decisive first computation from the twenty-lens build | staged |  |
+| `canon/final-verdict-generation-count-and-the-open-bridge.md` **[not in the curated spine]** | Final honest verdict: a 2-primary blindness, a 3-primary boundary class, and the open bridge to the generation | active |  |
+| `canon/firewall-boundary-hypothesis.md` | The Firewall-Boundary Hypothesis (primary research question) | canon | OPEN -- promoted to the repository's primary research question 2026-06 |
+| `canon/firewall-import-selector-carrier-RESULTS.md` **[not in the curated spine]** | What the outside system would add: an antilinear boundary SELECTOR times an order-3 framing CARRIER, glued by  | active |  |
+| `canon/forcing-slot-toy-rs-RESULTS.md` **[not in the curated spine]** | Forcing-slot test: the toy stabilized twisted Rarita-Schwinger sector does NOT fill the forcing slot. Horn B h | active |  |
+| `canon/frame-triviality-structural-or-evadable-GU-independent-RESULTS.md` **[not in the curated spine]** | GU-independent: is the chiralizer's frame-triviality structural or evadable? REFINED NO-GO. Frame-triviality i | active |  |
+| `canon/function-space-index-conservation-RESULTS.md` | WC-FUNCTION-SPACE-EXT: a CONDITIONAL section-setting index-conservation theorem. The paper's finite-dimensiona | canon |  |
+| `canon/function-space-index-conservation-residual-closure-RESULTS.md` | WC-FUNCTION-SPACE-EXT residual closure: the three residual items of the conditional section-setting theorem -- | canon |  |
+| `canon/gamma-traceless-38-adjudication-RESULTS.md` **[not in the curated spine]** | The -38 gamma-traceless question, ADJUDICATED: the honest geometric Rarita-Schwinger operator is elliptic with | staged |  |
+| `canon/ghost-parity-krein-synthesis.md` | Ghost parity, Krein structure, and the generation count: a GU / Turok-Bateman synthesis | active |  |
+| `canon/good-stable-compactification-no-go-RESULTS.md` | The Good-Stable Compactification No-Go (canon spine) | canon | RESOLVED as a structural no-go for the neutral / adjoint / charged-EXT |
+| `canon/gu-forces-field-space-declaration-RESULTS.md` **[not in the curated spine]** | How much does GU force the completion? MEASURED: TILT+RESIDUAL (B-leaning). GU's stated commitments make two r | staged |  |
+| `canon/h2-base-index-chirality.md` | H2 result: base-topology index, the parity of the GU generation count, and the Lorentzian-complexification ten | active |  |
+| `canon/hessian-z3-carrier-occupancy-RESULTS.md` **[not in the curated spine]** | Hessian-eigenvalue test of the carrier-occupancy direction: the 'dynamical confirmation of located-not-forced' | active |  |
+| `canon/ko-degree-obstruction-ladder-RESULTS.md` **[not in the curated spine]** | The KO-degree obstruction ladder: 'located, not forced' upgraded from EMPIRICAL to PARTIALLY STRUCTURAL. A the | staged |  |
+| `canon/leg3-closure-and-spinor-2smoothness.md` | Leg 3 closure (H3) and the spinor 2-smoothness lemma (M3) | active |  |
+| `canon/multiplicity-theorem.md` | The Multiplicity Theorem (SUPERSEDED, retained for the correction record): GU fixes one generation's structure | superseded | SUPERSEDED (2026-06-28); retained for the correction record. Historica |
+| `canon/no-go-class-relative-map.md` | No-Go / Forgetful-Image Map | canon |  |
+| `canon/no-go-quaternionic-parity-generation-sector.md` | Generation-sector audit: the quaternionic-parity no-go and the under-determination of the generation count | canon | CONDITIONALLY_RESOLVED (reconstruction-grade), structural no-go for an |
+| `canon/order3-equivariant-rho-RESULTS.md` **[not in the curated spine]** | The order-3 equivariant rho, BUILT and computed at geometric-benchmark grade: the Dirac rho of the Nikulin ord | staged |  |
+| `canon/pin14-bordism-derivation-RESULTS.md` | Omega^{Pin+}_14 = Z/2: the full ABP + Smith derivation (promoted from recitation-from-tables to derivation gra | canon | Omega^{Pin+}_14 = Z/2 at DERIVATION grade (was: exact-but-recited mult |
+| `canon/rs-boundary-eta-2primary-RESULTS.md` | STEP 2 of WC-FUNCTION-SPACE-EXT closed at computed grade: the FULL Rarita-Schwinger boundary operator's reduce | canon |  |
+| `canon/rs-function-space-framework-SPEC.md` | Rarita-Schwinger function-space framework: the foundation for closing WC-FUNCTION-SPACE-EXT. Sets up the RS-se | staged |  |
+| `canon/schwarzschild-weak-field-rfail.md` | GU Linearized Schwarzschild — R_fail Vanishes at O(M/r) | canon | OPEN |
+| `canon/shiab-existence-cl95.md` | Shiab Operator Existence — Cl(9,5) Setting | canon | RESOLVED (existence only) |
+| `canon/signed-readout-boundary-theorem-RESULTS.md` | The Signed-Readout Boundary Theorem (canon spine) | canon | RESOLVED (abstract core M/P/C + compact Part Z/K, unconditional and ma |
+| `canon/single-decider-integer-index-RESULTS.md` **[not in the curated spine]** | The single decider: GATED, not FORCED. The literal generation integer is gated on the unbuilt RS source action | active |  |
+| `canon/six-axis-candidate-krein-positivity-dg.md` **[not in the curated spine]** | Six-axis candidate: the Krein / ghost-parity positivity-axis evasion of Distler-Garibaldi | candidate (L7 axis RATIFIED 2026-07-10) |  |
+| `canon/six-axis-escape-hatch-map-RESULTS.md` **[not in the curated spine]** | Six-axis escape-hatch map: the class-invariant hard core, the one real escape (DG), and the decisive avalanche | active |  |
+| `canon/six-axis-specification-protocol.md` | Six-Axis Specification Protocol | canon |  |
+| `canon/source-action-family-index-interface-SPEC.md` | Interface crosswalk: what the GU source action (absorbed/gu-source-action) must expose to CLOSE the RS family- | staged |  |
+| `canon/source-action-seiberg-witten-RESULTS.md` **[not in the curated spine]** | Source action build RESULTS: the GU Seiberg-Witten action exists, discharges dark energy conditionally, and is | active |  |
+| `canon/source-action-seiberg-witten-construction.md` **[not in the curated spine]** | Building the source action: a Seiberg-Witten-shaped functional on the chimeric bundle (H1 keystone) | active |  |
+| `canon/swing-ghost-parity-no-chiral-selection.md` **[not in the curated spine]** | The swing: ghost parity gives consistency, not chirality (a no-go for chiral selection in the matter Krein sec | active |  |
+| `canon/theta-field-flrw-dark-energy-eos.md` | GU Theta Field Dark Energy — FLRW Equation of State and DESI DR1 Comparison | canon | OPEN |
+| `canon/three-generations-locate-not-force-CRT-RESULTS.md` **[not in the curated spine]** | Three-generations steelman / Hegelian / meta-synthesis: GU LOCATES, does not FORCE. The CRT two-arena structur | active |  |
+| `canon/two-arena-rep-theory-core-RESULTS.md` | Two-Arena Rep-Theory Core (canon spine) | canon | RESOLVED (three exact, GU-independent facts; exact-integer certified;  |
+| `canon/two-primary-lemma.md` **[not in the curated spine]** | The 2-primary lemma: why the generation-sector no-go is structurally blind to an odd generation count | active |  |
+| `canon/type-ii1-spectral-sm-checklist.md` | Type II_1 Spectral Standard Model Checklist | canon |  |
+| `canon/w2-y14-spin-structure.md` | w2(Y14) = pi*w2(X4) — Y14 is Spin iff X4 is Spin (CORRECTION W2-01; the earlier unconditional 'Spin for any or | canon | CONDITIONALLY_RESOLVED |
