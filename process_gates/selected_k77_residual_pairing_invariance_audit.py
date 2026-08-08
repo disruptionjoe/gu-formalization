@@ -38,9 +38,11 @@ assert registry["local_pairing"]["response_gram"]["rank"] == 1470
 assert registry["local_pairing"]["response_gram"]["inertia"] == [741, 729, 0]
 assert registry["invariance_selection"]["spin77_only_grade_weight_dimension"] == 3
 assert registry["invariance_selection"]["full_u6464_grade_weight_dimension"] == 1
-assert registry["invariance_selection"]["full_u6464_survivor"] == "overall source_norm scale only"
-assert registry["constraint_accounting"]["new_continuous_parameters_on_full_H_branch"] == 0
-assert registry["constraint_accounting"]["conditional_spin_only_unbooked_relative_weights"] == 2
+assert registry["invariance_selection"]["weyl_block_u3232_product_grade_weight_dimension"] == "OPEN"
+assert registry["invariance_selection"]["full_u6464_witness_parity"] == ["odd_grade_1", "odd_grade_5"]
+assert registry["invariance_selection"]["weyl_block_transfer"].startswith("INVALID")
+assert registry["constraint_accounting"]["new_continuous_parameters_on_full_u6464_comparator"] == 0
+assert registry["constraint_accounting"]["operative_weyl_block_unbooked_relative_weights"].startswith("OPEN")
 assert registry["constraint_accounting"]["residue_change"] == 0
 assert all(value == "UNUSED" for value in registry["external_datum"].values())
 assert registry["claim_status_change"] == "NONE"
@@ -52,27 +54,29 @@ assert ledger["predecessor"].endswith("v0.91.json")
 assert ledger["progress"]["verdict_counts"] == {"SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5}
 assert ledger["residue"]["continuous_real"] == 84
 assert ledger["residue"]["quotients_ranked"] == 5
-assert ledger["frontier_delta"] == {"headline_delta": "NONE", "conditions_closed": 2, "conditions_opened": 0, "remaining_named_conditions": 2}
+assert ledger["frontier_delta"] == {"headline_delta": "NONE", "conditions_closed": 1, "conditions_opened": 1, "remaining_named_conditions": 3}
 assert ledger["source_return"] == registry["source_return"]
 assert sum(1 for item in ledger["migrations"] if item.get("to_version") == "0.92") == 5
 assert {item["row_id"] for item in ledger["wave_row_dispositions"]} == set(registry["ledger_rows"])
 assert "lower-order" in ledger["next_work_queue"][0]["why"]
-assert "Spin-only" in ledger["next_work_queue"][0]["why"]
+assert "Weyl-block" in ledger["next_work_queue"][0]["why"]
 
 assert contract["standing_ledger"]["ref"].endswith("v0.92.json")
 assert contract["purpose_lanes_preserved"] == ["1", "2", "3", "A"]
 assert "NO_LANE_COUNT_CHANGE" in contract["non_effects"]
 directive = contract["active_scientific_directives"][0]
 assert "K_LOC" in directive["latest_residual_pairing_evidence"]
-assert "LOWER_ORDER_COMPLETE_TRANSVERSE" in directive["next_run_method"]["target"]
+assert "WEYL_BLOCK_U3232_PRODUCT" in directive["next_run_method"]["target"]
 
 assert "SOURCE-SILENT" in source and "real K77 residual bilinear" in source
-for term in ("Symplectic geometry", "Krein operator theory", "Complex/path-integral analysis", "PASS AFTER SCOPE REPAIR"):
+assert "two copies of `C^(32,32)`" in source and "odd and exchange" in source
+for term in ("Symplectic geometry", "Krein operator theory", "Complex/path-integral analysis", "PASS AFTER TWO SCOPE REPAIRS"):
     assert term in review
 for forbidden in ("positive Hilbert norm is constructed", "formal adjoint is constructed", "global invariant residual subbundle is constructed"):
     assert forbidden not in report
 assert "inertia `(741,729,0)`" in report
 assert "v0.85" in report and "principal augmented-torsion" in report
+assert "Weyl-block" in report and "comparator" in report
 
 for relative in registry["scripts"]:
     path = ROOT / relative

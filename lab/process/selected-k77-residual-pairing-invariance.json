@@ -2,17 +2,17 @@
   "schema_version": "1.0",
   "artifact_type": "construction_registry",
   "created": "2026-08-08",
-  "status": "CONDITIONAL_LOCAL_K77_RESIDUAL_PAIRING_NONDEGENERATE__FULL_H_SELECTION_REQUIRED__ANALYTIC_DOMAIN_OPEN",
+  "status": "LOCAL_K77_RESIDUAL_PAIRING_NONDEGENERATE__FULL_U6464_SELECTOR_ONLY_COMPARATOR__WEYL_BLOCK_PRODUCT_SELECTION_AND_ANALYTIC_DOMAIN_OPEN",
   "lane": "1",
   "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
-  "source_return": "SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__SOURCE-SILENT__REAL_K77_PAIRING_SELECTION_AND_ANALYTIC_DOMAIN",
+  "source_return": "SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__CURT_WEYL_SPLIT_VERSUS_FULL_U6464_FORK__OPERATIVE_PAIRING_SYMMETRY_OPEN",
   "layer0": {
     "source_norm_square": "quadratic action instruction for Upsilon",
     "local_residual_pairing": "degree-13 Hodge pairing tensor Clifford scalar-trace pairing",
     "formal_adjoint": "integration-by-parts construction on sections after density connection and domain are supplied",
     "fundamental_symmetry": "additional Krein-to-Hilbert state-space choice",
     "analytic_domain": "closed boundary constraint and evolution realization",
-    "spin_vs_full_H": "Spin(7,7) preserves grade; full u(64,64) adjoint action mixes live grades"
+    "spin_vs_weyl_block_vs_full_u": "Spin(7,7), a chirality-preserving U(32,32)-type product, and full u(64,64) are distinct symmetry demands"
   },
   "local_pairing": {
     "formula": "K_loc equals Hodge13 times scalar Clifford trace on grades 1 2 5",
@@ -54,21 +54,24 @@
   "invariance_selection": {
     "spin77_only_grade_weight_dimension": 3,
     "full_u6464_grade_weight_dimension": 1,
+    "weyl_block_u3232_product_grade_weight_dimension": "OPEN",
     "full_u6464_constraints": ["w1=w2", "w2=w5"],
-    "full_u6464_survivor": "overall source_norm scale only",
-    "spin_only_revival_cost": "two relative continuous grade-weight ratios"
+    "full_u6464_witness_parity": ["odd_grade_1", "odd_grade_5"],
+    "full_u6464_survivor": "overall source_norm scale only on the full-group comparator",
+    "weyl_block_transfer": "INVALID__ODD_WITNESSES_EXCHANGE_WEYL_HALVES",
+    "operative_symmetry": "OPEN__CURT_STATES_TWO_C32_32_WEYL_HALVES_AND_SEPARATELY_U64_64"
   },
   "constraint_accounting": {
     "new_fields": 0,
     "new_discrete_data": 0,
     "new_scoped_quotients": 0,
-    "new_continuous_parameters_on_full_H_branch": 0,
+    "new_continuous_parameters_on_full_u6464_comparator": 0,
     "already_counted_overall_scale": "source_norm",
-    "conditional_spin_only_unbooked_relative_weights": 2,
+    "operative_weyl_block_unbooked_relative_weights": "OPEN_PENDING_INVARIANT_CARRIER_CALCULATION",
     "residue_change": 0
   },
   "held_open": {
-    "full_H_real_form_selection": "CONDITIONAL__SOURCE_DIRECTED_NOT_SOURCE_DERIVED",
+    "operative_pairing_symmetry_selection": "OPEN__FULL_U6464_VERSUS_WEYL_BLOCK_U3232_PRODUCT",
     "lower_order_transverse_Dg_Upsilon": "OPEN",
     "coefficientwise_physical_diffeomorphism_naturality": "OPEN",
     "formal_adjoint": "OPEN",
@@ -80,9 +83,9 @@
   "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
   "frontier_delta": {
     "headline_delta": "NONE",
-    "conditions_closed": 2,
-    "conditions_opened": 0,
-    "remaining_named_conditions": 2
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
   },
   "external_datum": {"P1": "UNUSED", "P2": "UNUSED", "P3": "UNUSED"},
   "claim_status_change": "NONE",
@@ -95,5 +98,5 @@
     "tests/channel-swings/selected_k77_residual_pairing_invariance_independent.sage"
   ],
   "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-residual-pairing-invariance-review.md",
-  "next_gate": "CONSTRUCT_LOWER_ORDER_TRANSVERSE_PHYSICAL_K77_DG_UPSILON_USING_CONDITIONAL_K_LOC__THEN_FORMAL_ADJOINT_AND_GREEN__REOPEN_TWO_RELATIVE_GRADE_WEIGHTS_IF_FULL_H_IS_REDUCED"
+  "next_gate": "SETTLE_OPERATIVE_FULL_U6464_VERSUS_WEYL_BLOCK_U3232_PRODUCT_PAIRING_SYMMETRY_AND_INVARIANT_CARRIER__THEN_CONSTRUCT_LOWER_ORDER_TRANSVERSE_PHYSICAL_K77_DG_UPSILON__FORMAL_ADJOINT_AND_GREEN"
 }

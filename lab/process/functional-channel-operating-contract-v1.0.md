@@ -29,12 +29,15 @@ The current machine progress surface is
 
 Current residual-pairing correction: the conditional local K77 pairing
 `Hodge13 x scalar-Clifford-trace` is exact and nondegenerate on all 1,470
-frozen source directions, with inertia `(741,729,0)`. Full-H adjoint
-invariance forces equal weights on grades 1, 2 and 5, leaving the existing
-`source_norm`; Spin-only covariance would revive two relative ratios. This is
+frozen source directions, with inertia `(741,729,0)`. Full `U(64,64)` adjoint
+invariance forces equal weights on grades 1, 2 and 5 only on that comparator.
+Curt separately states two `C^(32,32)` Weyl halves and a later `U(64,64)`
+principal group; both selector witnesses are odd and do not transfer to a
+chirality-preserving block product. Operative symmetry and relative weights
+remain open. This is
 not a positive norm, formal adjoint, Green identity, global bundle, contour,
 or analytic domain. Reuse the v0.85 principal augmented-torsion transverse
-six. Build now owns the lower-order complete physical `D_g Upsilon` columns
+six after settling the group fork. Build then owns the lower-order complete physical `D_g Upsilon` columns
 and coefficientwise naturality, followed by formal adjoint and Green.
 
 Predecessor action/Frechet/Ward correction: the complete v0.77 pointwise bank is

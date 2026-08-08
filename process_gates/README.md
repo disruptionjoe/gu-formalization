@@ -13,7 +13,7 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 Current correction gate:
 
 - `selected_k77_residual_pairing_invariance_audit.py` enforces the v0.92
-  conditional local-pairing theorem, full-H/Spin-only grade-weight fork,
+  local-pairing theorem, full-`U(64,64)` comparator versus Weyl-block fork,
   mandatory symplectic and analytic fences, frozen headline/residue/datum
   accounting, and lower-order transverse/adjoint/Green successor.
 

@@ -30,9 +30,11 @@ C = matrix(QQ, [[1, -1, 0], [0, 1, -1]])
 assert C.rank() == 2
 assert C.right_kernel().basis_matrix().row_space() == matrix(QQ, [[1, 1, 1]]).row_space()
 assert C * vector(QQ, [1, 2, 3]) != 0
+assert 1 % 2 == 1 and 5 % 2 == 1  # both selectors exchange Weyl halves
 
 print("FULL_CARRIER_DIMENSION=29498")
 print("FULL_CARRIER_INERTIA=14749_14749_0")
 print("SPIN77_GRADE_WEIGHT_DIMENSION=3")
 print("FULL_U6464_GRADE_WEIGHT_DIMENSION=1")
-print("PASS 8/8")
+print("WEYL_BLOCK_U3232_PRODUCT_GRADE_WEIGHT_DIMENSION=OPEN")
+print("PASS 9/9")

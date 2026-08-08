@@ -1,9 +1,9 @@
 {
   "schema_version": "0.92",
   "created": "2026-08-08",
-  "status": "CURRENT_APPEND_ONLY_LEDGER__LOCAL_K77_RESIDUAL_PAIRING_NONDEGENERATE__FULL_H_GRADE_WEIGHTS_UNIQUE__LOWER_ORDER_TRANSVERSE_J_AND_ADJOINT_GREEN_OPEN",
+  "status": "CURRENT_APPEND_ONLY_LEDGER__LOCAL_K77_RESIDUAL_PAIRING_NONDEGENERATE__FULL_U6464_WEIGHT_SELECTOR_COMPARATOR_ONLY__WEYL_BLOCK_PRODUCT_SELECTION_LOWER_ORDER_TRANSVERSE_J_AND_ADJOINT_GREEN_OPEN",
   "predecessor": "lab/process/conditional-physics-ledger-v0.91.json",
-  "migration_policy": "v0.91 remains immutable. v0.92 constructs a conditional local K77 residual bilinear from the degree-13 Hodge pairing and scalar Clifford trace on live grades 1, 2 and 5. On the frozen 1,470-dimensional source response its exact Gram has rank 1,470 and inertia (741,729,0): nondegenerate but indefinite. Spin(7,7) covariance alone leaves three independent grade weights; two exact full-u(64,64) adjoint witnesses force w1=w2=w5, leaving only the already-counted source_norm scale. If full H is reduced to Spin-only, two relative continuous weights revive. The v0.85 principal augmented-torsion transverse six already exist, so the next build is narrowed to the lower-order complete physical Dg-Upsilon columns, coefficientwise naturality, formal adjoint and Green/domain layer. Five rows migrate only in distance, frontier grade and evidence. Denominator, verdicts, residue, forks, five scoped quotients, P1/P2/P3, canon and posture do not move.",
+  "migration_policy": "v0.91 remains immutable. v0.92 constructs a local K77 residual bilinear from the degree-13 Hodge pairing and scalar Clifford trace on live grades 1, 2 and 5. On the frozen 1,470-dimensional source response its exact Gram has rank 1,470 and inertia (741,729,0): nondegenerate but indefinite. Spin(7,7) alone leaves three grade weights. Two exact odd full-u(64,64) witnesses force w1=w2=w5 on that full-group comparator. Curt's iceberg separately states two C^(32,32) Weyl halves and a U(64,64) principal group; the odd witnesses exchange halves and are not admissible for a chirality-preserving U(32,32)-type block product. The operative pairing symmetry and its invariant carrier therefore remain open, and no relative-weight residue reduction is booked. The v0.85 principal augmented-torsion transverse six already exist, so after the symmetry gate the build owns lower-order complete physical Dg-Upsilon, coefficientwise naturality, formal adjoint and Green/domain. Five rows migrate only in distance, frontier grade and evidence. Denominator, verdicts, residue, forks, five scoped quotients, P1/P2/P3, canon and posture do not move.",
   "denominator": {
     "canonical_target_count": 82,
     "source_row_count": 86,
@@ -65,23 +65,23 @@
     "total": 82,
     "coverage_fraction": "1",
     "coverage_percent": 100,
-    "coverage_scope": "all active v0.92 targets. A conditional local K77 residual pairing is exact and nondegenerate on all 1,470 frozen source directions, with inertia (741,729,0). Full-H adjoint invariance selects equal grade weights up to the already-counted source_norm scale, while Spin-only would revive two relative weights. The v0.85 principal augmented-torsion transverse six are reused; the lower-order complete physical Dg-Upsilon columns, coefficientwise naturality, formal adjoint, Green, symplectic and domain data remain open.",
+    "coverage_scope": "all active v0.92 targets. A local K77 residual pairing candidate is exact and nondegenerate on all 1,470 frozen source directions, with inertia (741,729,0). Full-u(64,64) adjoint invariance selects one weight line only on the full-group comparator. Curt's two C^(32,32) Weyl halves create a distinct chirality-preserving block-product horn to which the odd selector witnesses do not transfer. Operative pairing symmetry, lower-order complete physical Dg-Upsilon, coefficientwise naturality, formal adjoint, Green, symplectic and domain data remain open.",
     "verdict_counts": {
       "SAME": 32,
       "DIFFERS": 19,
       "NEEDS": 26,
       "OVER_DETERMINED": 5
     },
-    "meter": "Ledger v0.92 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; local K_loc is conditionally nondegenerate and full-H grade-weight unique, while lower-order transverse Dg-Upsilon plus formal adjoint/Green/domain remain open"
+    "meter": "Ledger v0.92 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED; local K_loc is nondegenerate, full-u weight uniqueness is comparator-only, and the Weyl-block selector plus lower-order Dg-Upsilon/formal-adjoint/Green/domain remain open"
   },
   "updated_by": "gu-formalization-big-waves-hourly",
   "frontier_delta": {
     "headline_delta": "NONE",
-    "conditions_closed": 2,
-    "conditions_opened": 0,
-    "remaining_named_conditions": 2
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
   },
-  "source_return": "SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__SOURCE-SILENT__REAL_K77_PAIRING_SELECTION_AND_ANALYTIC_DOMAIN",
+  "source_return": "SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__CURT_WEYL_SPLIT_VERSUS_FULL_U6464_FORK__OPERATIVE_PAIRING_SYMMETRY_OPEN",
   "layer0_objects_compared": [
     "SOURCE_GAUGE_EPSILON",
     "DEPENDENT_FULL_LABELLED_CLIFFORD_REDUCTION_GAMMA_EPSILON",
@@ -309,8 +309,12 @@
     "FORMAL_ADJOINT_ON_SECTIONS",
     "KREIN_FUNDAMENTAL_SYMMETRY",
     "CLOSED_ANALYTIC_DOMAIN",
-    "SPIN77_GRADE_PRESERVATION_VERSUS_FULL_H_GRADE_MIXING",
-    "FINITE_RESPONSE_SUPPORT_VERSUS_GLOBAL_ASSOCIATED_RESIDUAL_BUNDLE"
+    "SPIN77_GRADE_PRESERVATION_VERSUS_FULL_U6464_GRADE_MIXING",
+    "FINITE_RESPONSE_SUPPORT_VERSUS_GLOBAL_ASSOCIATED_RESIDUAL_BUNDLE",
+    "CURT_TWO_C32_32_WEYL_HALVES",
+    "CURT_LATER_U64_64_PRINCIPAL_GROUP",
+    "FULL_U6464_ODD_WITNESSES_EXCHANGE_WEYL_HALVES",
+    "WEYL_BLOCK_U3232_PRODUCT_INVARIANT_CARRIER_OPEN"
   ],
   "collision_disposition": "V092_STARTED_FROM_CLEAN_UPSTREAM_EVEN_5C2A416F__CENTRAL_GU_CLAIM_ACQUIRED__TWO_CONCURRENT_OUT_OF_ENVELOPE_COMMITS_848753A2_AND_9CB9DF4D_LANDED_IN_SHARED_CHECKOUT__NO_DECLARED_PATH_OVERLAP__OWNER_DIFF_RECONCILED_EXACTLY_TO_20_PATH_ENVELOPE",
   "residue": {
@@ -328,7 +332,7 @@
       "T3": 3,
       "T2": 1
     },
-    "meter": "Residue — 84 continuous real before quotient + >=19 function-valued + 9 open discrete forks; five scoped conditional quotients are ranked. Full-H residual-pairing invariance uses the already-counted source_norm scale; two relative grade weights revive only if full H is reduced to Spin-only. No global BFV or residue reduction is booked and P1/P2/P3 remain unchanged/unused"
+    "meter": "Residue — 84 continuous real before quotient + >=19 function-valued + 9 open discrete forks; five scoped conditional quotients are ranked. The full-u(64,64) comparator has one weight line, but the operative Weyl-block product invariant carrier and relative-weight dimension are open, so no residue reduction is booked. No global BFV reduction is booked and P1/P2/P3 remain unchanged/unused"
   },
   "next_work_queue": [
     {
@@ -340,7 +344,7 @@
         "LT-GR5",
         "LT-GR6"
       ],
-      "why": "reuse the complete v0.77 first-action bank, the exact v0.85 principal augmented-torsion transverse six, and the v0.92 conditional nondegenerate K_loc; construct the lower-order complete physical K77 Dg-Upsilon columns and verify coefficientwise naturality, then derive the formal adjoint and Green concomitant. If full H is reduced to Spin-only, first reopen and price two relative grade-weight ratios. K95 remains only a nonportable pseudoreal control"
+      "why": "first settle whether the residual pairing is governed by full U(64,64) or by a chirality-preserving U(32,32)-type Weyl-block product and compute the invariant carrier/weight dimension; the current odd full-u witnesses do not transfer to the block product. Then reuse the v0.77 first-action bank, the v0.85 principal transverse six and the nondegenerate K_loc candidate to construct lower-order complete physical Dg-Upsilon, coefficientwise naturality, formal adjoint and Green. K95 remains only a nonportable pseudoreal control"
     },
     {
       "rank": 2,
@@ -372,27 +376,27 @@
     {
       "row_id": "LT-GR1",
       "change": "DISTANCE_EVIDENCE_ONLY__MAPPING_GRADE_SURVIVES_CONDITIONALLY",
-      "reason": "conditional K_loc is nondegenerate and full-H grade-weight unique; lower-order complete transverse Dg-Upsilon plus formal adjoint/Green remain"
+      "reason": "K_loc is nondegenerate; the one-line grade-weight theorem applies only to the full-u comparator because both witnesses are odd, while the operative Weyl-block product selector remains open alongside lower-order complete Dg-Upsilon and adjoint/Green"
     },
     {
       "row_id": "LT-GR2b",
       "change": "DISTANCE_EVIDENCE_ONLY__MAPPING_GRADE_SURVIVES_CONDITIONALLY",
-      "reason": "conditional K_loc is nondegenerate and full-H grade-weight unique; lower-order complete transverse Dg-Upsilon plus formal adjoint/Green remain"
+      "reason": "K_loc is nondegenerate; the one-line grade-weight theorem applies only to the full-u comparator because both witnesses are odd, while the operative Weyl-block product selector remains open alongside lower-order complete Dg-Upsilon and adjoint/Green"
     },
     {
       "row_id": "LT-GR3",
       "change": "DISTANCE_EVIDENCE_ONLY__MAPPING_GRADE_SURVIVES_CONDITIONALLY",
-      "reason": "conditional K_loc is nondegenerate and full-H grade-weight unique; lower-order complete transverse Dg-Upsilon plus formal adjoint/Green remain"
+      "reason": "K_loc is nondegenerate; the one-line grade-weight theorem applies only to the full-u comparator because both witnesses are odd, while the operative Weyl-block product selector remains open alongside lower-order complete Dg-Upsilon and adjoint/Green"
     },
     {
       "row_id": "LT-GR5",
       "change": "DISTANCE_EVIDENCE_ONLY__MAPPING_GRADE_SURVIVES_CONDITIONALLY",
-      "reason": "the principal augmented-torsion transverse six were already exact in v0.85; conditional K_loc is now nondegenerate, leaving lower-order complete Dg-Upsilon and adjoint/Green"
+      "reason": "K_loc is nondegenerate; the one-line grade-weight theorem applies only to the full-u comparator because both witnesses are odd, while the operative Weyl-block product selector remains open alongside lower-order complete Dg-Upsilon and adjoint/Green"
     },
     {
       "row_id": "LT-GR6",
       "change": "DISTANCE_EVIDENCE_ONLY__MAPPING_GRADE_SURVIVES_CONDITIONALLY",
-      "reason": "conditional K_loc is nondegenerate and full-H grade-weight unique; lower-order complete transverse Dg-Upsilon plus formal adjoint/Green remain"
+      "reason": "K_loc is nondegenerate; the one-line grade-weight theorem applies only to the full-u comparator because both witnesses are odd, while the operative Weyl-block product selector remains open alongside lower-order complete Dg-Upsilon and adjoint/Green"
     }
   ],
   "rows": [
@@ -823,11 +827,11 @@
       "summary": "Einstein-Hilbert term from defect geometry",
       "verdict": "NEEDS",
       "reason_kind": "MISSING_CONSTRUCTION",
-      "distance": "reuse the complete v0.77 first-action bank, the v0.85 principal augmented-torsion transverse six, and the v0.92 conditional nondegenerate K_loc; construct the lower-order complete physical K77 Dg-Upsilon columns and coefficientwise naturality, then derive the formal adjoint, Green concomitant and Einstein comparison",
+      "distance": "settle full U(64,64) versus chirality-preserving Weyl-block product ownership of the residual pairing and compute its invariant carrier; then reuse the complete v0.77 first-action bank, the v0.85 principal augmented-torsion transverse six, and the v0.92 conditional nondegenerate K_loc; construct the lower-order complete physical K77 Dg-Upsilon columns and coefficientwise naturality, then derive the formal adjoint, Green concomitant and Einstein comparison",
       "revival_trigger": "a complete constrained characteristic quotient containing the massless helicity-two pair and a correctly typed massive spin representation, with no additional unwanted physical representations",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
-      "frontier_grade": "LOCAL_K_LOC_RANK1470_INERTIA741_729__FULL_H_WEIGHTS_UNIQUE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__K77_MW_CONDITIONAL",
-      "mapping_grade": "SELECTED_TT_MASSIVE_SO3_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__K77_TEN_NORMAL_GEOMETRY_BANK_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_DRESSING_FULL40__SINGLE_HOLONOMY_COMPRESSION_KILLED__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__SOURCE_VARPI_DUPSILON_RANK24_DIFFEO_RANK3__FIXED_EPSILON_RANK4_METRIC_IMPORT_REJECTED__PHYSICAL_METRIC_EPSILON_K_OPEN__GAMMA_EPSILON_PRINCIPAL_ORBIT_RANK4__TRANSVERSE6_LOWER_ORDER_K_GREEN_OPEN__TRANSVERSE_AUGMENTED_TORSION_RANK6__DIRECT_TORSION_ORBIT_CANCELS4__SOURCE_CURVATURE_PACKET_RANK3__GAMMA_FOURTH_DIRECTION_CONDITIONAL__MOVING_OPERATOR_TARGET_RANK3_OPEN__INTERNAL_BIVECTOR_LOWER_ORDER_WARD_RANK3_ZERO__MOVING_SHIAB_ALONE_WRONG_CARRIER__V086_FROZEN_Q0_CAUSAL_PACKET_CORRECTED__MATCHED_Q_PHYSICAL_DIFFEO_TOTAL_RANK4__KOSMANN_SKEW_RANK3__SYMMETRIC_LONGITUDINAL_COMPLEMENT__LOCAL_NATURALITY_EXACT__NONHOMOGENEOUS_FRECHET_OPEN__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__FULL_H_GRADE_WEIGHTS_UNIQUE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN"
+      "frontier_grade": "LOCAL_K_LOC_RANK1470_INERTIA741_729__FULL_U6464_COMPARATOR_WEIGHT_LINE1__WEYL_BLOCK_PRODUCT_SELECTION_OPEN__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__K77_MW_CONDITIONAL",
+      "mapping_grade": "SELECTED_TT_MASSIVE_SO3_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__K77_TEN_NORMAL_GEOMETRY_BANK_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_DRESSING_FULL40__SINGLE_HOLONOMY_COMPRESSION_KILLED__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__SOURCE_VARPI_DUPSILON_RANK24_DIFFEO_RANK3__FIXED_EPSILON_RANK4_METRIC_IMPORT_REJECTED__PHYSICAL_METRIC_EPSILON_K_OPEN__GAMMA_EPSILON_PRINCIPAL_ORBIT_RANK4__TRANSVERSE6_LOWER_ORDER_K_GREEN_OPEN__TRANSVERSE_AUGMENTED_TORSION_RANK6__DIRECT_TORSION_ORBIT_CANCELS4__SOURCE_CURVATURE_PACKET_RANK3__GAMMA_FOURTH_DIRECTION_CONDITIONAL__MOVING_OPERATOR_TARGET_RANK3_OPEN__INTERNAL_BIVECTOR_LOWER_ORDER_WARD_RANK3_ZERO__MOVING_SHIAB_ALONE_WRONG_CARRIER__V086_FROZEN_Q0_CAUSAL_PACKET_CORRECTED__MATCHED_Q_PHYSICAL_DIFFEO_TOTAL_RANK4__KOSMANN_SKEW_RANK3__SYMMETRIC_LONGITUDINAL_COMPLEMENT__LOCAL_NATURALITY_EXACT__NONHOMOGENEOUS_FRECHET_OPEN__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__FULL_U6464_COMPARATOR_WEIGHT_LINE1__WEYL_BLOCK_PRODUCT_SELECTION_OPEN__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN"
     },
     {
       "id": "LT-GR1b",
@@ -884,11 +888,11 @@
       "summary": "the olive/varpi connection distortion supplies a movable equivariant dark-energy field with a possible VEV",
       "verdict": "SAME",
       "reason_kind": "DERIVED_PARTIAL",
-      "distance": "retain variable varpi and its exact residual block; reuse conditional K_loc and construct the lower-order complete transverse physical K77 metric columns, coefficientwise naturality and stationary formal-adjoint/Green/BFV/domain descent",
+      "distance": "settle full U(64,64) versus chirality-preserving Weyl-block product ownership of the residual pairing and compute its invariant carrier; then retain variable varpi and its exact residual block; reuse conditional K_loc and construct the lower-order complete transverse physical K77 metric columns, coefficientwise naturality and stationary formal-adjoint/Green/BFV/domain descent",
       "revival_trigger": "a unique full-moving mixed numerator with a nonzero reduced class advancing to Q1, or a complete EOM/BV/boundary cancellation yielding regular Q1",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "frontier_grade": "VARIABLE_VARPI_LOCATED__LOCAL_K_LOC_NONDEGENERATE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN",
-      "mapping_grade": "VARIABLE_FIELD_LOCATED__SOURCE_KAPPA_T_FORCED__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__ARBITRARY_VARPI_SEPARATE__NO_NEW_DATUM__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__SOURCE_HORIZONTAL_VARPI_DUPSILON_BLOCK_RANK24__VARPI_DIFFEO_RESPONSE_RANK3__SOURCE_EPSILON_AND_PHYSICAL_METRIC_OPEN__VARPI_PLUS_GAMMA_EPSILON_PRINCIPAL_ORBIT_EXACT__FULL_PHYSICAL_COMPLETION_OPEN__VARPI_GAMMA_EPSILON_PLUS_TRANSVERSE_TORSION_EXACT__DIRECT_TORSION_ORBIT_CANCELS4__SOURCE_CURVATURE_PACKET_RANK3__GAMMA_FOURTH_DIRECTION_CONDITIONAL__MOVING_OPERATOR_COMPLETION_RANK3_OPEN__VARIABLE_VARPI_LOCATED__INTERNAL_BIVECTOR_LOWER_ORDER_WARD_RANK3_ZERO__MATCHED_Q_PHYSICAL_DIFFEO_TOTAL_RANK4__LOCAL_NATURALITY_EXACT__NONHOMOGENEOUS_FRECHET_GREEN_OPEN__LOCAL_K_LOC_RANK1470_INERTIA741_729__FULL_H_WEIGHTS_UNIQUE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN"
+      "mapping_grade": "VARIABLE_FIELD_LOCATED__SOURCE_KAPPA_T_FORCED__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__ARBITRARY_VARPI_SEPARATE__NO_NEW_DATUM__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__SOURCE_HORIZONTAL_VARPI_DUPSILON_BLOCK_RANK24__VARPI_DIFFEO_RESPONSE_RANK3__SOURCE_EPSILON_AND_PHYSICAL_METRIC_OPEN__VARPI_PLUS_GAMMA_EPSILON_PRINCIPAL_ORBIT_EXACT__FULL_PHYSICAL_COMPLETION_OPEN__VARPI_GAMMA_EPSILON_PLUS_TRANSVERSE_TORSION_EXACT__DIRECT_TORSION_ORBIT_CANCELS4__SOURCE_CURVATURE_PACKET_RANK3__GAMMA_FOURTH_DIRECTION_CONDITIONAL__MOVING_OPERATOR_COMPLETION_RANK3_OPEN__VARIABLE_VARPI_LOCATED__INTERNAL_BIVECTOR_LOWER_ORDER_WARD_RANK3_ZERO__MATCHED_Q_PHYSICAL_DIFFEO_TOTAL_RANK4__LOCAL_NATURALITY_EXACT__NONHOMOGENEOUS_FRECHET_GREEN_OPEN__LOCAL_K_LOC_RANK1470_INERTIA741_729__FULL_U6464_COMPARATOR_WEIGHT_LINE1__WEYL_BLOCK_PRODUCT_SELECTION_OPEN__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN"
     },
     {
       "id": "LT-GR2c",
@@ -937,11 +941,11 @@
       "summary": "Weyl/Bach curvature-squared sector accompanies gravity",
       "verdict": "DIFFERS",
       "reason_kind": "STRUCTURAL_DIFFERENCE",
-      "distance": "keep the complete first-action curvature bank distinct from J; use conditional nondegenerate K_loc, construct the lower-order complete transverse K77 residual columns, and compare with the old metric diagnostic only inside the formal-adjoint stationary Gram complex",
+      "distance": "settle full U(64,64) versus chirality-preserving Weyl-block product ownership of the residual pairing and compute its invariant carrier; then keep the complete first-action curvature bank distinct from J; use conditional nondegenerate K_loc, construct the lower-order complete transverse K77 residual columns, and compare with the old metric diagnostic only inside the formal-adjoint stationary Gram complex",
       "revival_trigger": "a unique nonzero mixed or massive reduced numerator, or a full completion-level cancellation supporting regular Q1",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "frontier_grade": "FIRST_ACTION_CURVATURE_BANK_COMPLETE__LOCAL_K_LOC_NONDEGENERATE__LOWER_ORDER_TRANSVERSE_GRAM_AND_ADJOINT_OPEN",
-      "mapping_grade": "TERM_DERIVED__SPIN2_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__SINGLE_HOLONOMY_KILL_RETAINED__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__VARPI_DUPSILON_BLOCK_EXACT__RANK4_METRIC_DIAGNOSTIC_FIXED_EPSILON_IMPORT_REJECTED__FULL_SOURCE_EPSILON_HORN_OPEN__GAMMA_EPSILON_RANK4_METRIC_DIAGNOSTIC_REVIVED_FOR_RECHECK__COEFFICIENT_IDENTITY_OPEN__TRANSVERSE_TORSION_BLOCK_EXACT__SOURCE_OPERATOR_TARGET_RANK3__GAMMA_EXTENDED_TARGET_RANK4_CONDITIONAL__COEFFICIENT_IDENTITY_OPEN__INTERNAL_BIVECTOR_WARD_RANK3_ZERO__V086_SPACELIKE_NULL_COEFFICIENTS_SUPERSEDED__PHYSICAL_DIFFEO_TOTAL_RANK4__LOCAL_NATURALITY_EXACT__NONHOMOGENEOUS_COEFFICIENT_IDENTITY_OPEN__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__FULL_H_WEIGHTS_UNIQUE__LOWER_ORDER_TRANSVERSE_GRAM_ADJOINT_OPEN"
+      "mapping_grade": "TERM_DERIVED__SPIN2_COMPARATOR_EXACT__ACTION_NORMAL_MIXED_HESSIAN_EXACT__EDGE_EXTENSION_UNIQUE__CONDITIONAL_QUOTIENT_DIM40__GENERIC_CONTACT_WARD_THEOREM_EXACT__EPSILON_ENDPOINT_TRACE_RANK2__DIRECT_SUM_FULL40__SINGLE_HOLONOMY_KILL_RETAINED__P_EQUALS_KT_ACTION_OWNER_REJECTED__FULL_U6464_POINTWISE_ACTION_BANK_RANK14_NORMAL10_EXACT__GRADE5_SUPPORT_EXACT__FULL_SUPPORT_INERTIA_4_6__COMPLETE_OBSERVATION_LOSSLESS__LOCAL_ENDPOINT_ACCEPTANCE__GLOBAL_BUNDLE_PHYSICAL_OBSERVATION_BFV_DOMAIN_OPEN__GLOBAL_P_H_ASSOCIATED_BUNDLE_LAW_COMPOSED__NONCOMMUTING_THREE_PATCH_ACTION_OVERLAP_EXACT__COMPLETE_OBSERVATION_DUAL_OVERLAP_EXACT__NO_LEAKAGE_PROJECTOR_OVERLAP_EXACT__PHYSICAL_SECTION_INTEGRABILITY_BFV_DOMAIN_OPEN__ARBITRARY_X_LORENTZ_SECTION_KILLED__LOCAL_HOLONOMIC_JET_EXACT__ORDINARY_PULLBACK_ACTION_FAITHFULNESS_KILLED__COMPLETE_4_PLUS_10_OR_BV_CONSTRAINT_FORK_OPEN__TEN_METRIC_SECTION_EQUATIONS_RETAINED__FULL_CONORMAL_BV_ERASURE_REJECTED__EINSTEIN_COMPARATOR_NONCHAR_EXACT_NULL_HELICITY2__VERTICAL_ONLY_COMPLEX_MISTYPED__FIRST_LAYER_COUPLED_WARD_EXACT_GENERIC_COHOMOLOGY0__FIRST_LAYER_N2_HELICITY1__SECOND_LAYER_TT_HELICITY2_DIAGNOSTIC_LIVE__SECOND_LAYER_FULL_METRIC_WARD_DEFECT4__NAIVE_TWO_LAYER_SUM_WARD_DEFECT4__FORMAL_WARD_COMPLETION_AFFINE_DIM21_NOT_SELECTED__FULL_COUPLED_TWO_LAYER_HESSIAN_REQUIRED__STATIONARY_H2_FIRST_DERIVATIVE_REDUCTION__COMMON_FIELD_DUPSILON_K_OPEN__VARPI_DUPSILON_BLOCK_EXACT__RANK4_METRIC_DIAGNOSTIC_FIXED_EPSILON_IMPORT_REJECTED__FULL_SOURCE_EPSILON_HORN_OPEN__GAMMA_EPSILON_RANK4_METRIC_DIAGNOSTIC_REVIVED_FOR_RECHECK__COEFFICIENT_IDENTITY_OPEN__TRANSVERSE_TORSION_BLOCK_EXACT__SOURCE_OPERATOR_TARGET_RANK3__GAMMA_EXTENDED_TARGET_RANK4_CONDITIONAL__COEFFICIENT_IDENTITY_OPEN__INTERNAL_BIVECTOR_WARD_RANK3_ZERO__V086_SPACELIKE_NULL_COEFFICIENTS_SUPERSEDED__PHYSICAL_DIFFEO_TOTAL_RANK4__LOCAL_NATURALITY_EXACT__NONHOMOGENEOUS_COEFFICIENT_IDENTITY_OPEN__LOCAL_K_LOC_NONDEGENERATE_INDEFINITE__FULL_U6464_COMPARATOR_WEIGHT_LINE1__WEYL_BLOCK_PRODUCT_SELECTION_OPEN__LOWER_ORDER_TRANSVERSE_GRAM_ADJOINT_OPEN"
     },
     {
       "id": "LT-GR4",
@@ -962,7 +966,7 @@
       "summary": "augmented torsion terms extend ordinary GR",
       "verdict": "DIFFERS",
       "reason_kind": "STRUCTURAL_DIFFERENCE",
-      "distance": "preserve exact K77 local metric/density/Hodge/observation naturality and the v0.85 principal augmented-torsion transverse six; use conditional K_loc to construct the lower-order complete transverse residual columns before formal adjoint/Green and Einstein/BFV/domain descent",
+      "distance": "settle full U(64,64) versus chirality-preserving Weyl-block product ownership of the residual pairing and compute its invariant carrier; then preserve exact K77 local metric/density/Hodge/observation naturality and the v0.85 principal augmented-torsion transverse six; use conditional K_loc to construct the lower-order complete transverse residual columns before formal adjoint/Green and Einstein/BFV/domain descent",
       "revival_trigger": "a unique reduced mixed/massive numerator plus a common Green/BV/Fock domain for the complete selected augmented-torsion bank",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "frontier_grade": "AUGMENTED_TORSION_PRINCIPAL_TRANSVERSE6_EXACT__LOCAL_K_LOC_NONDEGENERATE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN",
@@ -975,7 +979,7 @@
       "summary": "Einstein equation includes Q(B) and fermion Euler terms",
       "verdict": "DIFFERS",
       "reason_kind": "STRUCTURAL_DIFFERENCE",
-      "distance": "insert E_B-E_T after constructing the lower-order complete transverse K77 Dg-Upsilon columns with conditional K_loc; derive the formal adjoint and Gram Hessian, then compare reduced stress and Einstein null cohomology before global tau_A0/BFV descent",
+      "distance": "settle full U(64,64) versus chirality-preserving Weyl-block product ownership of the residual pairing and compute its invariant carrier; then insert E_B-E_T after constructing the lower-order complete transverse K77 Dg-Upsilon columns with conditional K_loc; derive the formal adjoint and Gram Hessian, then compare reduced stress and Einstein null cohomology before global tau_A0/BFV descent",
       "revival_trigger": "an exact full-field selected-action tangent/Noether complex whose direct metric and soldered connection-current blocks reproduce the Hilbert stress on the physical quotient",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "frontier_grade": "FIELD_LIE_WARD_ORBIT_FIXED__LOCAL_K_LOC_NONDEGENERATE__EB_MINUS_ET_LOWER_ORDER_TRANSVERSE_J_ADJOINT_OPEN",
@@ -8989,9 +8993,9 @@
       "new": [
         "NEEDS",
         "MISSING_CONSTRUCTION",
-        "LOCAL_K_LOC_RANK1470_INERTIA741_729__FULL_H_WEIGHTS_UNIQUE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__K77_MW_CONDITIONAL"
+        "LOCAL_K_LOC_RANK1470_INERTIA741_729__FULL_U6464_COMPARATOR_WEIGHT_LINE1__WEYL_BLOCK_PRODUCT_SELECTION_OPEN__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN__K77_MW_CONDITIONAL"
       ],
-      "scope": "local residual K is conditionally built; principal transverse six are not duplicated; lower-order complete Dg-Upsilon and formal adjoint/Green remain",
+      "scope": "local residual K is nondegenerate; full-u weight uniqueness is comparator-only; the Weyl-block product selector, lower-order complete Dg-Upsilon and formal adjoint/Green remain",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "meaning_changed": false
     },
@@ -9009,7 +9013,7 @@
         "DERIVED_PARTIAL",
         "VARIABLE_VARPI_LOCATED__LOCAL_K_LOC_NONDEGENERATE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN"
       ],
-      "scope": "local residual K is conditionally built; principal transverse six are not duplicated; lower-order complete Dg-Upsilon and formal adjoint/Green remain",
+      "scope": "local residual K is nondegenerate; full-u weight uniqueness is comparator-only; the Weyl-block product selector, lower-order complete Dg-Upsilon and formal adjoint/Green remain",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "meaning_changed": false
     },
@@ -9027,7 +9031,7 @@
         "STRUCTURAL_DIFFERENCE",
         "FIRST_ACTION_CURVATURE_BANK_COMPLETE__LOCAL_K_LOC_NONDEGENERATE__LOWER_ORDER_TRANSVERSE_GRAM_AND_ADJOINT_OPEN"
       ],
-      "scope": "local residual K is conditionally built; principal transverse six are not duplicated; lower-order complete Dg-Upsilon and formal adjoint/Green remain",
+      "scope": "local residual K is nondegenerate; full-u weight uniqueness is comparator-only; the Weyl-block product selector, lower-order complete Dg-Upsilon and formal adjoint/Green remain",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "meaning_changed": false
     },
@@ -9045,7 +9049,7 @@
         "STRUCTURAL_DIFFERENCE",
         "AUGMENTED_TORSION_PRINCIPAL_TRANSVERSE6_EXACT__LOCAL_K_LOC_NONDEGENERATE__LOWER_ORDER_TRANSVERSE_J_ADJOINT_GREEN_OPEN"
       ],
-      "scope": "local residual K is conditionally built; principal transverse six are not duplicated; lower-order complete Dg-Upsilon and formal adjoint/Green remain",
+      "scope": "local residual K is nondegenerate; full-u weight uniqueness is comparator-only; the Weyl-block product selector, lower-order complete Dg-Upsilon and formal adjoint/Green remain",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "meaning_changed": false
     },
@@ -9063,7 +9067,7 @@
         "STRUCTURAL_DIFFERENCE",
         "FIELD_LIE_WARD_ORBIT_FIXED__LOCAL_K_LOC_NONDEGENERATE__EB_MINUS_ET_LOWER_ORDER_TRANSVERSE_J_ADJOINT_OPEN"
       ],
-      "scope": "local residual K is conditionally built; principal transverse six are not duplicated; lower-order complete Dg-Upsilon and formal adjoint/Green remain",
+      "scope": "local residual K is nondegenerate; full-u weight uniqueness is comparator-only; the Weyl-block product selector, lower-order complete Dg-Upsilon and formal adjoint/Green remain",
       "evidence": "selected-k77-residual-pairing-invariance-2026-08-08.md",
       "meaning_changed": false
     }

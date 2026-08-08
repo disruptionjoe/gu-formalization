@@ -13,11 +13,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `K_loc = Hodge13 x scalar-Clifford-trace` on grades 1, 2 and 5 only as a
 > conditional local K77 bilinear. It has exact rank 1,470 and inertia
 > `(741,729,0)` on the frozen source response: nondegenerate, indefinite.
-> Full-H adjoint invariance forces equal grade weights; Spin-only leaves two
-> relative ratios, which must revive if full H is reduced. Never call this a
+> Full `U(64,64)` adjoint invariance forces equal grade weights only on that
+> comparator. Curt states both two `C^(32,32)` Weyl halves and a later
+> `U(64,64)` principal group. Both exact selector witnesses are odd, exchange
+> the halves, and are inadmissible for a chirality-preserving block product.
+> Operative pairing symmetry, invariant carrier and relative weights are open.
+> Never call this a
 > positive norm, fundamental symmetry, formal adjoint, Green identity, global
 > residual bundle or analytic domain. Reuse v0.85's principal transverse six.
-> Build lower-order complete physical `D_g Upsilon` and full coefficientwise
+> First settle the group fork; then build lower-order complete physical
+> `D_g Upsilon` and full coefficientwise
 > naturality next, then formal adjoint/Green. Symplectic review remains
 > mandatory. Ledger: v0.92.
 

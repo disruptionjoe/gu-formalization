@@ -61,6 +61,8 @@ check("source", "Portal source expects a Shiab-adjoint operator after variation"
       "02:01:28" in source and "adjoint" in source)
 check("source", "source is silent on the real K77 Riesz map and analytic domain",
       "SOURCE-SILENT" in source and "closed analytic domain" in source)
+check("source", "Curt separately states two C32 32 Weyl halves and a U64 64 principal group",
+      "two copies of `C^(32,32)`" in source and "`U(64,64)`" in source)
 check("repo", "v0.91 leaves the residual pairing open",
       prior["exact_results"]["residual_pairing_K"] == "OPEN")
 for label in (
@@ -131,7 +133,7 @@ check("exact", "tensoring with balanced degree-thirteen forms gives balanced non
       carrier_inertia == (14749, 14749, 0))
 
 
-print("\nC. SPIN WEIGHTS VERSUS FULL-ADJOINT INVARIANCE")
+print("\nC. SPIN, WEYL-BLOCK, AND FULL-ADJOINT INVARIANCE")
 # A Spin bivector preserves Clifford grade, so a grade-diagonal trace form has
 # three independent weights.  Allowed full-u generators in grades one and
 # five mix the live grades and force w1=w2=w5.  The rows below are evaluated
@@ -193,6 +195,10 @@ check("exact", "the only surviving grade-weight line is w1=w2=w5",
       constraint_matrix.right_kernel().basis_matrix().row_space()
       == matrix(QQ, [[1, 1, 1]]).row_space())
 check("representation", "Spin-only covariance leaves three grade weights because bivectors preserve grade",
+      True)
+check("representation", "both full-u weight witnesses are odd and exchange Weyl halves",
+      mask(0).bit_count() % 2 == 1 and mask(0, 1, 2, 3, 4).bit_count() % 2 == 1)
+check("scope", "full-u witness equations do not transfer to a Weyl-block product",
       True)
 check("planted", "PLANT unequal weights pass Spin grade preservation but fail full-adjoint invariance",
       constraint_matrix * matrix(QQ, [[1], [2], [3]]) != 0)
@@ -345,9 +351,10 @@ check("registry", "registry records the full exact pairing packet",
           "dimension": 1470, "rank": 1470, "inertia": [741, 729, 0],
           "nonzero_entries": 7346, "component_count": 391,
       })
-check("registry", "registry preserves the full-H versus Spin-only fork",
+check("registry", "registry preserves Spin Weyl-block and full-u as three distinct demands",
       registry["invariance_selection"]["full_u6464_grade_weight_dimension"] == 1
-      and registry["invariance_selection"]["spin77_only_grade_weight_dimension"] == 3)
+      and registry["invariance_selection"]["spin77_only_grade_weight_dimension"] == 3
+      and registry["invariance_selection"]["weyl_block_u3232_product_grade_weight_dimension"] == "OPEN")
 for kind, label in (
     ("variational", "conditional local K opens formal-adjoint construction but does not supply it"),
     ("symplectic", "bulk residual Gram is not a reduced presymplectic or BFV form"),
@@ -355,18 +362,18 @@ for kind, label in (
     ("krein", "algebraic nondegeneracy is not a fundamental symmetry or positive state space"),
     ("pde", "finite inertia does not establish a closed hyperbolic evolution domain"),
     ("analytic", "no contour determinant measure saddle or path integral is selected"),
-    ("scope", "the overall scale is the already-counted source_norm coordinate"),
-    ("scope", "Spin-only reduction would revive two relative weights rather than hiding them"),
+    ("scope", "the full-u comparator overall scale is the already-counted source_norm coordinate"),
+    ("scope", "the operative Weyl-block selector and its relative weights remain open"),
     ("scope", "no field quotient external datum verdict canon or public posture changes"),
     ("scope", "P1 P2 P3 remain unchanged and unused"),
 ):
     check(kind, label, True)
 
-print("SOURCE_RETURN=SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__SOURCE-SILENT__REAL_K77_PAIRING_SELECTION_AND_ANALYTIC_DOMAIN")
-print("LOCAL_K77_RESIDUAL_PAIRING=HODGE13_TIMES_CLIFFORD_TRACE__CONDITIONAL_ON_FULL_H")
-print("GRADE_WEIGHTS=SPIN_ONLY_DIM3__FULL_U6464_DIM1")
+print("SOURCE_RETURN=SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__CURT_WEYL_SPLIT_VERSUS_FULL_U6464_FORK__OPERATIVE_PAIRING_SYMMETRY_OPEN")
+print("LOCAL_K77_RESIDUAL_PAIRING=HODGE13_TIMES_CLIFFORD_TRACE__NONDEGENERATE_CANDIDATE")
+print("GRADE_WEIGHTS=SPIN_ONLY_DIM3__FULL_U6464_COMPARATOR_DIM1__WEYL_BLOCK_PRODUCT_OPEN")
 print("RESPONSE_GRAM=RANK1470__INERTIA741_729_0")
-print("NEXT=CONSTRUCT_LOWER_ORDER_TRANSVERSE_DG_UPSILON_WITH_THIS_CONDITIONAL_K__THEN_FORMAL_ADJOINT_AND_GREEN__REOPEN_TWO_GRADE_RATIOS_IF_FULL_H_IS_REDUCED")
+print("NEXT=SETTLE_OPERATIVE_FULL_U6464_VERSUS_WEYL_BLOCK_PRODUCT_PAIRING_SYMMETRY__THEN_LOWER_ORDER_TRANSVERSE_DG_UPSILON_FORMAL_ADJOINT_AND_GREEN")
 print("CHECKS=" + " ".join(f"{kind}:{count}" for kind, count in sorted(COUNTS.items())))
 if FAILURES:
     raise SystemExit("FAILURES: " + "; ".join(FAILURES))

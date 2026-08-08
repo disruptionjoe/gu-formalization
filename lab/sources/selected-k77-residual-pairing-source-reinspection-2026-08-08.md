@@ -1,7 +1,8 @@
 ---
 artifact_type: source_reinspection
 created: 2026-08-08
-status: SOURCE_CONFIRMS_NORM_SQUARE_AND_ADJOINT_ARENA__SOURCE_SILENT_REAL_K77_PAIRING_SELECTION
+status: SOURCE_CONFIRMS_NORM_SQUARE_AND_ADJOINT_ARENA__CURT_SPLITS_TWO_C32_32_WEYL_HALVES_AND_LATER_STATES_U64_64__OPERATIVE_PAIRING_SYMMETRY_UNRESOLVED
+curt_transcript: https://podscripts.co/podcasts/theories-of-everything-with-curt-jaimungal/the-geometric-unity-iceberg-oh-boy
 ---
 
 # Source reinspection: selected K77 residual pairing
@@ -33,6 +34,25 @@ comparator. The primary-source packet explicitly records that the source does
 not give the real-form Krein/Riesz map, global domain, or native real-form
 translation.
 
+## Curt iceberg correction supplied during hostile closeout
+
+The searchable primary transcript of Curt's 2025 iceberg exposition states at
+`00:17:36` that the 128-dimensional Spin(7,7) spinor splits into two
+64-dimensional Weyl pieces, each with split Hermitian signature `(32,32)`.
+The recap at `02:40:55` calls them two copies of `C^(32,32)`.  However, at
+`01:30:42` Curt separately says the principal bundle has structure group
+`U(64,64)`.  Weinstein likewise says `U(64,64)` in his 2025 TOE appearance.
+
+These are not the same symmetry demand.  Preserving the two Weyl halves
+separately points to a block product of `U(32,32)`-type factors.  The full
+`U(64,64)` group permits off-diagonal transformations exchanging the halves.
+The exact weight-equality witnesses used in this wave have Clifford grades one
+and five, so they are odd and exchange the Weyl halves.  They are admissible
+for the full-group comparator and inadmissible for a chirality-preserving block
+product.  Curt's transcript therefore corrects any claim that the full-group
+weight selector is automatically the operative GU selector; it does not erase
+the separate source statements using `U(64,64)`.
+
 ## Disposition
 
 ```text
@@ -48,6 +68,10 @@ SOURCE-SILENT:
   - normalization beyond the already-counted source_norm coordinate;
   - a Krein fundamental symmetry, positive physical subspace, Green identity,
     boundary condition, contour, measure, or closed analytic domain.
+
+SOURCE-FORK:
+  - two `C^(32,32)` Weyl halves versus a full `U(64,64)` principal group;
+  - which symmetry acts on the residual pairing used by the action.
 ```
 
 The Hodge-times-Clifford-trace pairing tested in this wave is therefore a

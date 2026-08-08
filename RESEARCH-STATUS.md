@@ -13,10 +13,13 @@ distance/evidence migrations; headline unchanged).** A conditional local K77
 residual pairing is now exact: degree-thirteen Hodge pairing times scalar
 Clifford trace on grades 1, 2 and 5. Its restriction to all 1,470 frozen
 source directions has exact rank 1,470 and inertia `(741,729,0)`, so it is
-nondegenerate but indefinite. Full-H adjoint invariance collapses three grade
-weights to the already-counted overall `source_norm`; Spin-only covariance
-would revive two relative weights. The source confirms the norm-square and
-adjoint arena but is silent on this K77 selection and the analytic domain.
+nondegenerate but indefinite. Full `U(64,64)` adjoint invariance collapses
+three grade weights on that comparator. Curt separately states two
+`C^(32,32)` Weyl halves and a later `U(64,64)` principal group; the two odd
+selector witnesses exchange the halves and do not transfer to a
+chirality-preserving block product. Operative pairing symmetry, invariant
+carrier and relative weights remain open. The source confirms the norm-square
+and adjoint arena but is silent on the real pairing and analytic domain.
 The v0.85 principal augmented-torsion transverse six are reused. Lower-order
 complete `D_g Upsilon`, coefficientwise naturality, formal adjoint, Green,
 positive/domain and symplectic/BFV descent remain open. No verdict, residue,

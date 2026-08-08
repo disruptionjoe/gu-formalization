@@ -29,12 +29,16 @@ Clifford trace on grades 1, 2, and 5.
 - frozen source response: dimension `1,470`;
 - restricted Gram: rank `1,470`, inertia `(741,729,0)`;
 - Spin(7,7)-only grade-weight space: dimension `3`;
-- full-`u(64,64)` adjoint-invariant grade-weight space: dimension `1`.
+- full-`u(64,64)` comparator grade-weight space: dimension `1`;
+- chirality-preserving `U(32,32)`-type Weyl-block product: dimension `OPEN`.
 
 Thus the candidate sees every frozen source direction but is indefinite.
-Full-H invariance leaves only the already-counted overall `source_norm` scale.
-If full H is reduced to Spin-only, two relative grade weights revive and must
-be booked.
+The full-group comparator leaves only the already-counted overall
+`source_norm` scale. Curt separately states two `C^(32,32)` Weyl halves and a
+later `U(64,64)` principal group. The two full-group selector witnesses are
+odd and exchange those halves, so their equations do not transfer to a
+chirality-preserving block product. No relative-weight residue reduction is
+booked until that operative invariant-carrier calculation is done.
 
 The source confirms the norm-square and adjoint arena but is silent on the
 real K77 pairing selection and analytic domain.  The result is therefore a
@@ -53,17 +57,19 @@ six are now explicitly reused rather than queued again.
 
 ## Frontier
 
-Conditions closed: `2`.
+Conditions closed: `1`; conditions opened: `1`.
 
 1. A local nondegenerate residual pairing is exact on the 1,470-dimensional
    response image.
-2. Full-H adjoint invariance selects equal relative grade weights.
+The opened condition is the operative full-`U(64,64)` versus Weyl-block
+pairing symmetry and its invariant carrier.
 
-Remaining named conditions: `2`.
+Remaining named conditions: `3`.
 
-1. Construct the lower-order complete transverse physical `D_g Upsilon`
+1. Settle the operative pairing symmetry and weight dimension.
+2. Construct the lower-order complete transverse physical `D_g Upsilon`
    columns and verify full coefficientwise naturality.
-2. Construct the formal adjoint, Green concomitant, and common analytic/
+3. Construct the formal adjoint, Green concomitant, and common analytic/
    symplectic domain.
 
 P1/P2/P3 remain unchanged and unused.  No canon verdict, claim status, public

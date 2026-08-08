@@ -2,7 +2,7 @@
 
 Date: 2026-08-08
 
-Disposition: **PASS AFTER SCOPE REPAIR**.  No claim-status, canon-verdict, or
+Disposition: **PASS AFTER TWO SCOPE REPAIRS**.  No claim-status, canon-verdict, or
 public-posture change.
 
 ## Two-sided Layer-0 charge
@@ -11,10 +11,12 @@ public-posture change.
 
 The exact certificate constructs one local fibre bilinear.  It does not show
 that Weinstein selected this bilinear, that the word “norm” means positivity,
-or that the full-H symmetry survives every observation reduction.  Language
+or that the full-group symmetry survives every observation reduction. Language
 claiming a source-derived, positive, global, or analytic pairing was removed.
-The surviving claim is conditional: full-H adjoint invariance selects the
-relative grade weights of `K_loc`.
+The surviving claim is narrower: full-`U(64,64)` adjoint invariance selects
+the relative grade weights of `K_loc` on that comparator. Curt's two
+`C^(32,32)` Weyl halves define a distinct block-product horn to which both odd
+witnesses fail to transfer.
 
 ### Where rigor could defend a superseded object
 
@@ -27,9 +29,9 @@ columns and their coefficientwise naturality.
 ### What else changes if this result is accepted
 
 The ledger, operating contract, context pack, and next-step surfaces must all
-carry the full-H/Spin-only fork.  No row verdict changes.  If full H is later
-reduced to Spin(7,7), two relative grade weights revive and must be booked as
-continuous residue rather than absorbed into `source_norm`.
+carry the full-group/Weyl-block/Spin distinction. No row verdict changes. The
+Weyl-block invariant carrier and weight dimension must be computed before any
+relative-weight residue is booked or retired.
 
 ## Divergent lenses
 
@@ -42,12 +44,12 @@ continuous residue rather than absorbed into `source_norm`.
 | Complex/path-integral analysis | Does finite inertia select a contour, determinant phase, or measure? | Dissolved: all remain open. |
 | Source fidelity | Does the transcript specify the K77 real Riesz map? | Needs recheck only if new source appears; current return is SOURCE-SILENT. |
 | Global geometry | Is the 4,330-coordinate support a global associated subbundle? | Dissolved: retained only as finite diagnostic support. |
-| Constraint accounting | Are Spin-only weights hidden? | Survives conditionally: two ratios revive if full H is reduced. |
+| Constraint accounting | Are Weyl-block weights hidden? | Open: no residue reduction until the block-product invariant carrier is computed. |
 
 ## Controls
 
-- Unequal weights `(1,2,3)` pass Spin grade preservation and fail the full-H
-  adjoint equations.
+- Unequal weights `(1,2,3)` pass Spin grade preservation and fail the full
+  `U(64,64)` comparator equations; both selector witnesses are odd.
 - Exact blockwise congruence gives rank `1,470`, inertia `(741,729,0)`;
   positivity is deliberately rejected as a planted overclaim.
 - An independent Sage certificate recomputes the full carrier dimension,
@@ -57,7 +59,8 @@ continuous residue rather than absorbed into `source_norm`.
 
 ## Final fence
 
-Accepted: a conditional, local, nondegenerate residual pairing and a
-full-H-relative-weight uniqueness theorem.  Not accepted: a source-derived
+Accepted: a local, nondegenerate residual pairing candidate and a
+full-`U(64,64)` comparator weight theorem. Not accepted: operative symmetry
+selection, Weyl-block invariant carrier or weight count, a source-derived
 pairing, positive Hilbert space, formal adjoint, Green identity, analytic
 domain, reduced symplectic/BFV phase space, or path integral.

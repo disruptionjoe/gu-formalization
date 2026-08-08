@@ -9,12 +9,14 @@ updated_at: "2026-08-08"
 
 Current append-only progress surface: ledger v0.92. The local K77 residual
 pairing `K_loc` is conditionally exact and nondegenerate on all 1,470 frozen
-source directions, with inertia `(741,729,0)`. Full-H adjoint invariance
-selects equal grade weights up to the already-counted `source_norm`; Spin-only
-would revive two ratios. This is not a positive state space, formal adjoint,
-Green identity or analytic domain. Reuse the v0.85 principal transverse six;
-Build now owns lower-order complete physical `D_g Upsilon`, coefficientwise
-naturality, formal adjoint and Green. See
+source directions, with inertia `(741,729,0)`. Full `U(64,64)` invariance
+selects one weight line only on that comparator. Curt's two `C^(32,32)` Weyl
+halves create a distinct chirality-preserving block-product horn; the odd
+selector witnesses do not transfer. This is not a positive state space,
+formal adjoint, Green identity or analytic domain. First settle the operative
+group/invariant carrier, then reuse the v0.85 principal transverse six for
+lower-order complete physical `D_g Upsilon`, coefficientwise naturality,
+formal adjoint and Green. See
 `selected-k77-residual-pairing-invariance.json`.
 
 Predecessor append-only progress surface: ledger v0.91. The v0.77 first-action

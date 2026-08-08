@@ -11,7 +11,9 @@ This folder tracks public Geometric Unity source surfaces: lectures, podcasts, o
 
 - [`selected-k77-residual-pairing-source-reinspection-2026-08-08.md`](selected-k77-residual-pairing-source-reinspection-2026-08-08.md)
   records `SOURCE-CONFIRMS` for the norm-square and adjoint arena and
-  `SOURCE-SILENT` for the real K77 pairing selection and analytic domain.
+  `SOURCE-SILENT` for the real K77 pairing selection and analytic domain. It
+  also records Curt's two `C^(32,32)` Weyl halves versus later `U(64,64)`
+  principal-group fork.
 
 - [`selected-k77-action-frechet-ward-object-separation-source-reinspection-2026-08-08.md`](selected-k77-action-frechet-ward-object-separation-source-reinspection-2026-08-08.md)
   records `SOURCE-CONFIRMS` for the first-action/residual grammar and authorial

@@ -10,7 +10,8 @@ the map: which directory/group supports which claim.
   constructs the local degree-thirteen-Hodge times Clifford-trace residual
   pairing, proves exact rank 1,470 and inertia `(741,729,0)` on the frozen
   response, and distinguishes three Spin-only grade weights from the unique
-  full-H weight line. Run with `sage -python`.
+  full-`U(64,64)` comparator line while leaving the Weyl-block product open.
+  Run with `sage -python`.
 - `channel-swings/selected_k77_residual_pairing_invariance_independent.sage`
   independently checks the full carrier dimension/inertia and both
   grade-weight dimensions.

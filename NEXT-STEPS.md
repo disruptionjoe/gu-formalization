@@ -10,11 +10,14 @@ updated_at: "2026-08-08"
 > **2026-08-08 CONDITIONAL K77 RESIDUAL PAIRING (ledger v0.92).** The
 > degree-thirteen Hodge pairing times scalar Clifford trace is nondegenerate
 > on the frozen 1,470-dimensional source response, with exact inertia
-> `(741,729,0)`. Full-H adjoint invariance forces equal grade-1/2/5 weights,
-> leaving only the already-counted `source_norm`; Spin(7,7) alone would revive
-> two relative weights. This is a conditional local construction, not a
+> `(741,729,0)`. Full `U(64,64)` adjoint invariance forces equal grade-1/2/5
+> weights on that comparator. Curt separately states two `C^(32,32)` Weyl
+> halves and a later `U(64,64)` principal group; both selector witnesses are
+> odd and inadmissible for a chirality-preserving block product. Operative
+> pairing symmetry and relative weights remain open. This is not a
 > positive norm, formal adjoint, Green identity, or source-derived analytic
-> domain. Reuse the v0.85 principal transverse six. Next construct the
+> domain. Reuse the v0.85 principal transverse six. First settle the group/
+> invariant-carrier fork, then construct the
 > lower-order complete physical `D_g Upsilon` columns and coefficientwise
 > naturality, then the formal adjoint and Green concomitant.
 

@@ -11,14 +11,17 @@ candidate compatible with the already-live K77 objects: the degree-thirteen
 Hodge pairing on forms, multiplied by the scalar Clifford-trace pairing on
 the live Clifford grades `1`, `2`, and `5`.
 
-The result is useful but conditional.  On the complete 1,470-dimensional
+The local result is useful but the selection theorem is only a comparator. On the complete 1,470-dimensional
 source response image the pairing is nondegenerate, with exact inertia
 `(741,729,0)`.  It therefore sees every source direction, but it is indefinite
-and is not a positive Hilbert norm.  Full `u(64,64)`-type adjoint invariance
+and is not a positive Hilbert norm.  Full `u(64,64)` adjoint invariance
 forces the three possible grade weights to agree, leaving only the already
-counted overall `source_norm` scale.  Spin(7,7) covariance alone does not do
-that: it preserves grade and leaves three weights, hence two additional
-relative continuous choices.
+counted overall `source_norm` scale on that comparator. Curt's iceberg
+transcript separately describes two Weyl spaces `C^(32,32)` and a later
+`U(64,64)` principal group. The two exact full-group witnesses are odd and
+exchange the Weyl halves, so they are inadmissible for a chirality-preserving
+`U(32,32)`-type block product. The operative action symmetry and its weight
+dimension therefore remain open.
 
 This does not construct a formal adjoint, Green identity, positive physical
 state space, closed evolution domain, contour, path-integral measure, or
@@ -36,7 +39,8 @@ The following objects are not interchangeable:
 | Fundamental symmetry | A further Krein-to-Hilbert choice |
 | Analytic domain | Boundary, constraint, and closure data |
 | Spin covariance | Bivector action preserving Clifford grade |
-| Full-H covariance | Adjoint action including grade-mixing generators |
+| Full `U(64,64)` covariance | Adjoint action including odd grade-mixing generators |
+| Weyl-block covariance | A chirality-preserving product acting separately on two `C^(32,32)` halves |
 
 The finite 4,330-coordinate support of the frozen response is also not a
 global invariant residual subbundle.  It is used only to compute the exact
@@ -44,13 +48,14 @@ restricted Gram form.
 
 ## Source return
 
-`SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__SOURCE-SILENT__REAL_K77_PAIRING_SELECTION_AND_ANALYTIC_DOMAIN`
+`SOURCE-CONFIRMS__NORM_SQUARE_AND_ADJOINT_ARENA__CURT_WEYL_SPLIT_VERSUS_FULL_U6464_FORK__OPERATIVE_PAIRING_SYMMETRY_OPEN`
 
 The Portal transcript says to norm-square `Upsilon` and then apply an adjoint
 of the Shiab operator.  It also acknowledges the unresolved indefinite-
 Killing-form problem.  No inspected primary source supplies the K77
-real-form Riesz map or a closed analytic domain.  The full-H selection below
-is therefore a construction hypothesis, not a quotation.
+real-form Riesz map or a closed analytic domain. Curt's own exposition says
+both “two `C^(32,32)` halves” and later “`U(64,64)` principal group.” The
+operative pairing symmetry is therefore a Layer-0 fork, not a quotation.
 
 ## Exact construction
 
@@ -81,7 +86,8 @@ The frozen all-grade source response has 1,470 independent columns and
   grade-5 restriction has rank 286.
 
 The exact independent certificate also returns full-carrier dimension
-`29,498`, balanced inertia, three Spin-only weights, and one full-H weight.
+`29,498`, balanced inertia, three Spin-only weights, and one full-`U(64,64)`
+comparator weight line. It flags the Weyl-block product dimension as open.
 
 ## Invariance fork
 
@@ -91,18 +97,20 @@ explicit allowed full-adjoint witnesses give
 
 `w1=w2`, and `w2=w5`.
 
-Their constraint matrix has rank two.  Thus the full-H branch leaves one
-overall scale, while a later reduction to Spin-only must revive two relative
-grade ratios in the residue ledger.  The planted unequal choice `(1,2,3)`
-passes grade preservation and fails full-adjoint invariance, so the selector
-is not vacuous.
+Their constraint matrix has rank two. Thus the full-group comparator leaves
+one overall scale. Both witness generators have odd Clifford grade and swap
+the Weyl halves, so neither equation transfers to a block-diagonal
+`U(32,32)`-type product. The planted unequal choice `(1,2,3)` passes Spin grade
+preservation and fails full-group invariance, proving only that the comparator
+selector is nonvacuous.
 
 ## Constraint accounting
 
-On the full-H branch this wave adds no field, discrete datum, function-valued
-slot, quotient, or new continuous parameter.  The common weight is the
-already-counted `source_norm`.  P1/P2/P3 remain unused.  The two relative
-weights are explicitly dormant and revive if full-H covariance is abandoned.
+This wave adds no field, discrete datum, function-valued slot, quotient, or
+booked continuous parameter. On the full-group comparator the common weight
+is the already-counted `source_norm`. The Weyl-block product invariant carrier
+and number of relative weights remain uncomputed, so no residue reduction is
+booked. P1/P2/P3 remain unused.
 
 ## Specialist pre-assessment and hostile disposition
 
@@ -116,27 +124,31 @@ weights are explicitly dormant and revive if full-H covariance is abandoned.
   a presymplectic or BFV form.  No such promotion is made.
 - Complex/path-integral analysis required the contour, determinant, and
   measure to remain open.
-- Source archaeology required the full-H selection to be labeled a
-  construction rather than attributed to Weinstein.
+- Source archaeology caught the two `C^(32,32)` Weyl halves versus later
+  `U(64,64)` group statement and demoted full-group uniqueness to a comparator.
 
-The hostile review passed after narrowing the queue: v0.85 already constructs
+The hostile review passed after two scope repairs. First, v0.85 already constructs
 the six transverse columns of the *principal augmented-torsion* metric
 variation.  The next build must construct the lower-order, complete physical
-`D_g Upsilon` columns rather than repeat that principal calculation.
+`D_g Upsilon` columns rather than repeat that principal calculation. Second,
+the operative full-group versus Weyl-block pairing symmetry must be settled
+before the comparator weight theorem is used in the action.
 
 ## Progress meter
 
 `Ledger v0.92 — 82/82 mapped; 32 SAME · 19 DIFFERS · 26 NEEDS · 5 OVER-DETERMINED`
 
-Frontier: two named conditions closed—the local nondegenerate residual pairing
-and its full-H grade-weight selection.  Two named conditions remain: the
-lower-order transverse physical `D_g Upsilon`, and the formal adjoint/Green/
-domain layer.  Headline verdicts, residue `84`, function-valued slots, forks,
-five scoped quotients, and P1/P2/P3 do not move.
+Frontier: one named condition closed—the local nondegenerate residual pairing.
+One was opened: operative full-group versus Weyl-block symmetry and invariant
+carrier. Three named conditions remain: that symmetry gate, lower-order
+transverse physical `D_g Upsilon`, and the formal adjoint/Green/domain layer.
+Headline verdicts, residue `84`, function-valued slots, forks, five scoped
+quotients, and P1/P2/P3 do not move.
 
 ## Next gate
 
-Construct the lower-order transverse physical K77 `D_g Upsilon` using this
-conditional `K_loc`, verify full coefficientwise naturality, and then build
-the formal adjoint and Green concomitant.  If the full-H symmetry is reduced,
-first reopen and price the two relative grade weights.
+First settle whether the action pairing is governed by full `U(64,64)` or a
+chirality-preserving Weyl-block product and compute its invariant carrier and
+weight dimension. Then construct lower-order physical K77 `D_g Upsilon`,
+verify full coefficientwise naturality, and build the formal adjoint and Green
+concomitant.
