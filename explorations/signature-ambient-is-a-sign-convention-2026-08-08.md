@@ -20,6 +20,19 @@ follows:
 
 # `SIGNATURE-AMBIENT` is the base sign convention
 
+> **CARRIED FURTHER, same day — read
+> `explorations/signature-fork-is-an-equivariance-defect-2026-08-08.md` with this
+> file.** Everything computed here stands. The *conclusion* stops one step short
+> and that step changes the row's type. If `g` and `−g` are the same geometry
+> (established here, and strengthened there: the Levi-Civita connection is
+> literally invariant), then a construction sending them to `M(64,ℍ)` and
+> `M(128,ℝ)` is **not equivariant** — a pure relabeling cannot change the
+> algebra. So `SIGNATURE-AMBIENT` is not "a convention awaiting a resolver"; it
+> is **ill-posed as stated, awaiting a construction repair**. Under the repair
+> the horns are `(9,5)`/`(5,9)`, both `M(ℍ)`, and `(7,7)` is not a sign horn at
+> all. One in-file claim was also **wrong and is corrected below** (the two base
+> Clifford algebras were swapped).
+
 ## Computed
 
 ```text
@@ -54,7 +67,18 @@ It does not draw the consequence, and no file in `canon/` records it either.
 
 ## Why this is not "the fork does not matter"
 
-The convention is **not free**, because `Cl(3,1) = M(2,H)` and `Cl(1,3) = M(4,R)`
+> **CORRECTION 2026-08-08, same day.** The next sentence originally read
+> "`Cl(3,1) = M(2,H)` and `Cl(1,3) = M(4,R)`". **The two were swapped.** By the
+> ABS table on `(p−q) mod 8`, `Cl(3,1) = M(4,R)` is **real** and
+> `Cl(1,3) = M(2,H)` is **quaternionic** — as
+> `mh9-tier0-and-register-triage-2026-08-08.md:91` already stated correctly, so
+> this file contradicted a sibling written hours earlier. Corrected below and
+> certified in `tests/signature_fork_equivariance_defect.py`. The paragraph's
+> point — that the convention has physical consequences — survives the swap
+> unchanged, because it turns on the two algebras *differing*, not on which is
+> which.
+
+The convention is **not free**, because `Cl(3,1) = M(4,R)` and `Cl(1,3) = M(2,H)`
 are genuinely different algebras with different spinor reality types. Majorana
 conditions available in one are unavailable in the other. That is exactly why the
 repository's own notes record that the Kramers wall is `(9,5)`-only and that

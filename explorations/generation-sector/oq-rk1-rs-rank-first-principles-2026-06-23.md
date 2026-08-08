@@ -559,6 +559,28 @@ for Cl(3,1) = M(2,H), the spinor module is H^2, and each chiral half is H^1).
 
 **Key structural point: Cl(3,1) = M(2,H)**
 
+> **CORRECTION 2026-08-08 — the justification below is wrong, the conclusion is
+> right, and the label is a homonym.** The next three lines compute
+> `(p−q) mod 8 = 2` and call class 2 "quaternionic-split". **Class 2 is `M(ℝ)`.**
+> By explicit construction, randomized search, and the ABS table — all three in
+> `tests/signature_fork_equivariance_defect.py` and its follow-up — the algebra
+> with **three** generators squaring to `+1` and **one** to `−1` is `M(4,ℝ)`,
+> **real**; the algebra with **one** `+1` and **three** `−1` is `M(2,ℍ)`,
+> **quaternionic**.
+>
+> The conclusion `M(2,ℍ)` **survives**, because "the 4D Lorentzian metric" here
+> means the physics mostly-minus convention `η = diag(+,−,−,−)` — one plus, three
+> minus — which is genuinely `M(2,ℍ)`. So `S = ℍ²`, `rank_ℍ(S^±) = 1` and
+> everything downstream of it in this file is **unaffected**. What fails is the
+> index arithmetic used to get there, which names the *other* algebra.
+>
+> **This is a Layer-0 homonym, and it is the seventh.** `Cl(3,1)` denotes one
+> algebra in this file (one plus, three minus → `M(2,ℍ)`) and the *opposite* one
+> in the `SIGNATURE-AMBIENT` work (three plus, one minus → `M(4,ℝ)`, giving
+> ambient `(9,5)`). Both usages are defensible in isolation; together they are a
+> collision. See
+> `explorations/signature-fork-is-an-equivariance-defect-2026-08-08.md`.
+
 The real Clifford algebra for the 4D Lorentzian metric is Cl(3,1).
 (p - q) mod 8 = (3 - 1) mod 8 = 2. This is the "quaternionic-split" class.
 Cl(3,1) = M(2,H): 2 x 2 matrices over H.
