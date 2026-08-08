@@ -15,13 +15,13 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.78. The complete selected K77
-action covector passes noncommuting three-patch coadjoint laws after patchwise
-recomputation. The co-moving complete equation dual, no-leakage projector and
-full-support pairing descend on seed and held-out backgrounds; frozen controls
-fire. Actual physical observation-section integrability/faithfulness,
-preferred Shiab, `tau_A0`/BFV and common-domain extension remain open. See
-`selected-k77-action-bundle-observation-overlap.json`.
+Current append-only progress surface: ledger v0.79. Local holonomic
+observation-section jets are exact, but arbitrary-`X` Lorentz-section
+existence is false. Ordinary pullback has rank four and a rank-ten conormal
+kernel hit by a nonzero selected augmented-torsion Euler covector. The complete
+`4+10` receiver survives; the next gate is to type its ten vertical equations
+or derive a source-owned conormal constraint/BV quotient. See
+`selected-k77-physical-section-faithfulness-gate.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -140,9 +140,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.78.json` - current append-only conditional
-  physics ledger after composing the full selected-action bank with the global
-  K77 bundle law and complete observation/no-leakage overlap.
+- `conditional-physics-ledger-v0.79.json` - current append-only conditional
+  physics ledger after separating local holonomicity, global Lorentz-section
+  admissibility and ordinary-pullback faithfulness on the selected action.
+- `selected-k77-physical-section-faithfulness-gate.json` - records the spin
+  `S4` counterexample, exact rank `4+10` split, live conormal action witness and
+  the complete-receiver/source-derived-BV construction fork.
 - `selected-k77-action-bundle-observation-overlap.json` - records the exact
   noncommuting action-covector, observation-dual, projector and pairing descent,
   fired controls and physical-section/BFV/domain successor fence.

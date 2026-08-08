@@ -12,14 +12,15 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.78 composes the full selected `E_B-E_T` covector with the
-> already-owned global K77 `P_H` bundle. Independently recomputed seed and
-> held-out banks pass pairwise and direct noncommuting overlaps; the complete
-> observation dual, no-leakage projector and full-support pairing descend.
-> Freezing either receiver/projector fails, and `R L=1` alone retains a hidden
-> covector. The next gate is the actual `Y^14` observation-section jet,
-> arbitrary-X integrability and physical faithfulness, followed by global
-> `tau_A0`, BFV, polarization and common-domain work.
+> Ledger v0.79 separates the old physical-section successor into its real
+> burdens. Local holonomic first/second jets exist, but spin does not imply a
+> Lorentz section on arbitrary `X` (`S^4` is the exact counterexample).
+> Ordinary pullback has rank four and a ten-dimensional conormal kernel, and
+> the selected augmented-torsion action emits a nonzero Euler covector into
+> that kernel. The next gate is therefore constructive: retain and physically
+> type the complete `4+10` equation system, or derive a source-owned conormal
+> constraint/BV quotient. Only then proceed to global `tau_A0`, BFV,
+> polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -195,12 +196,19 @@ updated_at: "2026-08-08"
 > patchwise recomputation on two backgrounds. The co-moving complete equation
 > dual, no-leakage projector and pairing descend; frozen controls fire.
 
-> **NEXT RUN: PHYSICAL OBSERVATION-SECTION INTEGRABILITY.** Construct the
-> actual `Y^14` section value/jet, prove arbitrary-X integrability, ordinary-
-> pullback faithfulness and physical no leakage, then assemble the global
-> `tau_A0`/BFV moment map and common Green/Krein domain. Do not promote the
-> finite overlap certificate to an arbitrary-atlas theorem or the coefficient
-> form to physical positivity. Symplectic review remains mandatory.
+> **2026-08-08 PHYSICAL SECTION AND FAITHFULNESS GATE (ledger v0.79).**
+> [`explorations/conditional-build/selected-k77-physical-section-faithfulness-gate-2026-08-08.md`](explorations/conditional-build/selected-k77-physical-section-faithfulness-gate-2026-08-08.md)
+> proves local holonomic jet realizability, kills arbitrary-`X` Lorentz-section
+> existence, and composes the universal rank-ten conormal kernel with a
+> nonzero selected-action Euler witness. Ordinary pullback is therefore not
+> faithful on the displayed full local action domain.
+
+> **NEXT RUN: COMPLETE `4+10` VERSUS CONORMAL BV CONSTRAINT.** Classify the ten
+> vertical Euler equations retained by the complete receiver and test whether
+> the tilted Ward/BV complex instead supplies a differential whose image
+> removes exactly the conormal action sector. Do not book a quotient by naming
+> it. Symplectic review remains mandatory; global `tau_A0`/BFV and common
+> Green/Krein domain follow only after one horn closes.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

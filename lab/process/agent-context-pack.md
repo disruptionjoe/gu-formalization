@@ -38,9 +38,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `(4,6,0)`. Ledger v0.78 composes it with the already-owned global `P_H`
 > law: independently recomputed seed and held-out banks pass direct and
 > sequential noncommuting overlaps, as do the co-moving complete equation
-> dual, no-leakage projector and pairing. Next construct the actual `Y^14`
-> observation-section jet and prove arbitrary-X integrability/faithfulness,
-> then global `tau_A0`/BFV and common domain.
+> dual, no-leakage projector and pairing. Ledger v0.79 then proves local
+> holonomic first/second jets but kills arbitrary-`X` Lorentz-section existence
+> and ordinary-pullback faithfulness on the selected action. The next Build is
+> the complete `4+10` equation system versus a source-derived conormal
+> constraint/BV quotient, then global `tau_A0`/BFV and common domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
@@ -100,8 +102,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > and local endpoint acceptance. v0.77 closes the full **pointwise**
 > coefficient-fibre extension and corrects the pairing geometry. v0.78 closes
 > the finite noncommuting associated-bundle/complete-observation/projector
-> overlap law; physical-section integrability/faithfulness and BFV/common
-> domain remain open.
+> overlap law. v0.79 proves that the selected action has a live conormal Euler
+> component hidden by ordinary pullback; the complete `4+10` receiver or a
+> source-derived conormal constraint/BV quotient remains open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -225,9 +228,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > cannot be compressed to one path cotangent. Preserve v0.75's arbitrary-`K`
 > rejection, v0.76's exact selected low-grade rank-ten bank, v0.77's full
 > pointwise coefficient/support correction, and v0.78's exact noncommuting
-> action/complete-observation/no-leakage overlap law. Construct the actual
-> physical observation section and its integrability rather than fitting a
-> constitutive receiver.
+> action/complete-observation/no-leakage overlap law. Preserve v0.79's
+> admissible-`X` topology fence, local holonomic jet, rank-ten conormal kernel
+> and live action witness. Construct the complete `4+10` equation horn or a
+> source-derived conormal constraint/BV quotient rather than fitting a receiver.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null

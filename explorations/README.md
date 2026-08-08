@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 physical observation section and faithfulness (2026-08-08)
+
+`conditional-build/selected-k77-physical-section-faithfulness-gate-2026-08-08.md`
+separates local holonomic jets, global Lorentz-section existence, ordinary
+pullback and the complete `4+10` equation receiver. Spin `S^4` kills the
+arbitrary-`X` quantifier. Ordinary pullback retains a rank-ten conormal kernel,
+and the selected augmented-torsion action emits a nonzero Euler covector into
+it. The next gate is the complete-receiver versus source-derived conormal
+constraint/BV fork. Ledger v0.79 moves no headline count or quotient.
+
 ## K77 action-bundle and observation overlap (2026-08-08)
 
 `conditional-build/selected-k77-action-bundle-observation-overlap-2026-08-08.md`

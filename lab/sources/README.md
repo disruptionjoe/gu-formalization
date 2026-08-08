@@ -2,7 +2,7 @@
 title: "Source and Media Index"
 status: canon
 doc_type: overview
-updated_at: "2026-08-05"
+updated_at: "2026-08-08"
 ---
 
 # Source and Media Index
@@ -101,6 +101,13 @@ These sources are useful for provenance, terminology, chronology, and locating c
 These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
+
+- [`selected-k77-physical-section-source-reinspection-2026-08-08.md`](selected-k77-physical-section-source-reinspection-2026-08-08.md)
+  - separates local observation-section/pullback grammar from arbitrary-`X`
+    global Lorentz-section existence and faithful Euler reception. The 2025
+    Weinstein--Curt exchange corrects the arbitrary-global attribution,
+    confirms the local grammar, and remains silent on the complete receiver
+    versus source-derived BV-constraint fork.
 
 - [`weinstein-levi-civita-contorsion-reinspection-2026-08-05.md`](weinstein-levi-civita-contorsion-reinspection-2026-08-05.md)
   - narrow Layer-0 synthesis over the existing primary packets: Weinstein

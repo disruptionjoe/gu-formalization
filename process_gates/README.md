@@ -2135,6 +2135,16 @@ explicit P1/P2/P3 non-use. It forbids promotion to arbitrary-X physical
 section integrability, ordinary-pullback faithfulness, preferred Shiab,
 global BFV/common domain, canon or public-posture status.
 
+## K77 physical observation-section faithfulness v0.79 gate
+
+`selected_k77_physical_section_faithfulness_scope_audit.py` requires the spin
+`S4` counterexample to arbitrary-`X` Lorentz-section existence, exact local
+holonomic first/second jets, the universal ordinary-pullback rank `4` plus
+conormal rank `10`, and the nonzero selected augmented-torsion Euler witness
+in that kernel. It preserves the complete `4+10` receiver while forbidding a
+sixth quotient, physical vertical-field interpretation, global BFV/domain,
+P1/P2/P3, canon or public-posture promotion.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

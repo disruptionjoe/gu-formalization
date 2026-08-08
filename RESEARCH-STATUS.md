@@ -8,18 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.78; five
-distance/mapping-grade/evidence migrations; headline unchanged).** The full
-selected K77 action covector now passes pairwise and direct noncommuting
-three-patch overlap laws after every patch bank is independently recomputed.
-The complete observation equation dual, co-moving no-leakage projector and
-full-support coefficient pairing descend on seed and held-out backgrounds.
-Frozen receiver/projector controls fail, and an explicit hidden covector shows
-that `R L=1` alone is not no leakage. This composes the source-owned global
-`P_H/gamma_epsilon` bundle law, but does not construct an integrable physical
-observation section on arbitrary `X`. Physical-section faithfulness,
-preferred Shiab, global `tau_A0`/BFV and common-domain work remain open.
-Verdicts, residue, quotients, P1/P2/P3, canon and public posture do not move.
+**Current Build/Compose result 2026-08-08 (ledger v0.79; five
+distance/mapping-grade/evidence migrations; headline unchanged).** Local
+holonomic observation-section first/second jets are exact, but spin does not
+imply a global Lorentz section on arbitrary `X`: spin `S^4` has `chi=2` and no
+such section. On every admitted graph section ordinary pullback has rank four
+and a ten-dimensional conormal kernel. The selected augmented-torsion action
+emits a nonzero Euler covector into that same kernel, so holonomicity cannot
+make ordinary pullback faithful on the displayed full local action domain.
+The exact complete `4+10` receiver survives. The next gate must either
+physically type its ten vertical equations or derive a source-owned conormal
+constraint/BV quotient. Verdicts, residue, five quotients, P1/P2/P3, canon and
+public posture do not move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.78).** The full action
+covector, complete observation equation dual, co-moving no-leakage projector
+and full-support pairing pass exact noncommuting three-patch descent. v0.79
+shows that descent of the projector is not satisfaction of no leakage.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.77).** The selected
 action covector is exact on all 16,384 pointwise real directions, with ranks
