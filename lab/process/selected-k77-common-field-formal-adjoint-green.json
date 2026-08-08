@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "VARPI_EQUATION_DUAL_GREEN_EXACT__COMMON_FIELD_ASSEMBLY_FAILS_CLOSED__OPERATOR_ADJOINT_NEEDS_FIELD_RIESZ",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "ACTUAL_HORIZONTAL_VARPI_FIRST_ORDER_BANK_PAIRED_WITH_KLOC__FULL_G_EPSILON_COMMON_BANK_NOT_OWNED",
+  "source_return": "SOURCE-CONFIRMS_NORM_SQUARE_ADJOINT_ARENA_AND_SOURCE_FIELDS__SOURCE-SILENT_KLOC_FIELD_RIESZ_FULL_DEPSILON_AND_ANALYTIC_DOMAIN",
+  "layer0": {
+    "D_varpi_Upsilon": "actual 24-dimensional horizontal Lorentz source-field Frechet bank on the common K77 residual carrier",
+    "D_g_Upsilon": "geometric/rank-complete local fixed-varpi partial whose coefficientwise common residual-coordinate bank is not serialized",
+    "primitive_epsilon_euler": "action covector D_B^!(E_B-E_T)+(D_epsilon S)^!K_S; not D_epsilon Upsilon",
+    "gamma_epsilon_orbit": "four-column principal Ward orbit at Upsilon-star zero; not the full lower-order/nonlinear primitive epsilon field derivative",
+    "equation_dual": "covector-valued differential J_K^! from fields to field duals",
+    "operator_adjoint": "field-valued representative requiring an additional nondegenerate field-space Riesz map",
+    "green_concomitant": "local integration-by-parts current before antisymmetrization",
+    "presymplectic_current": "field-space antisymmetrization and basicness problem; not constructed here"
+  },
+  "actual_varpi_bank": {
+    "domain_dimension": 24,
+    "principal_directions": 4,
+    "principal_ranks": [13, 13, 13, 13],
+    "principal_supports": [32, 32, 32, 32],
+    "zero_order_rank": 24,
+    "residual_pairing": "conditional K_loc = Hodge_13 times scalar Clifford trace"
+  },
+  "formal_identity": {
+    "operator": "J=A^mu partial_mu+B",
+    "equation_dual": "J_K^!v=-partial_mu((A^mu)^T K v)+B^T K v",
+    "constant_coefficient_form": "-(A^mu)^T K partial_mu v+B^T K v",
+    "green_concomitant": "G^mu(u,v)=u^T(A^mu)^T K v",
+    "actual_direction_checks": 4,
+    "green_nonzero_in_all_directions": true
+  },
+  "common_field_ownership": {
+    "D_varpi_coefficient_bank": "OWNED_AND_EXACT",
+    "D_g_geometric_rank_closure": "OWNED",
+    "D_g_common_residual_coordinate_bank": "NOT_EMITTED",
+    "D_epsilon_principal_ward_orbit": "OWNED_ON_FOUR_COLUMNS",
+    "D_epsilon_full_primitive_field_bank": "OPEN",
+    "field_space_riesz_map": "OPEN_AND_REQUIRED_ONLY_FOR_FIELD_VALUED_OPERATOR_ADJOINT",
+    "disposition": "COMMON_FIELD_ASSEMBLY_FAILS_CLOSED"
+  },
+  "controls": {
+    "main_exact": "30/30 PASS",
+    "independent_sage": "8/8 PASS",
+    "algebraic_transpose_without_derivative_sign": "REJECTED",
+    "primitive_epsilon_euler_as_D_epsilon_Upsilon": "REJECTED",
+    "gamma_epsilon_orbit_as_full_field_bank": "REJECTED",
+    "coordinate_identity_as_owned_field_riesz": "REJECTED",
+    "green_current_as_presymplectic_form": "REJECTED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 2,
+    "remaining_named_conditions": 3
+  },
+  "remaining": [
+    "emit the complete local D_g Upsilon on the same residual-coordinate coefficient bank",
+    "construct the full lower-order and nonlinear primitive D_epsilon Upsilon bank and verify common-field J R=0",
+    "derive or explicitly leave covector-valued the field-space Riesz representative before operator-adjoint language"
+  ],
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT",
+    "weyl_block_product": "TWO_U32_32_HALVES_REMAIN_DISTINCT_RIVAL",
+    "full_u6464": "COMPARATOR_REMAINS_DISTINCT_RIVAL"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_common_field_formal_adjoint_green_probe.py",
+    "tests/channel-swings/selected_k77_common_field_formal_adjoint_green_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-common-field-formal-adjoint-green-review.md",
+  "next_gate": "EMIT_DG_COMMON_RESIDUAL_COEFFICIENT_BANK__CONSTRUCT_FULL_PRIMITIVE_DEPSILON_BANK__VERIFY_COMMON_JR_ZERO__THEN_KEEP_EQUATION_DUAL_OR_DERIVE_FIELD_RIESZ_BEFORE_OPERATOR_ADJOINT"
+}

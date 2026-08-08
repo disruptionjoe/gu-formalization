@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 common-field formal-adjoint and Green ownership gate (2026-08-08)
+
+`conditional-build/selected-k77-common-field-formal-adjoint-green-2026-08-08.md`
+emits the actual horizontal `varpi` first-order bank and proves its exact
+covector-valued `K_loc` formal adjoint and nonzero Green current. It also
+fails the full common-field assembly closed: the common-coordinate `D_g`
+bank and full primitive `D_epsilon` bank are not owned, and a field-valued
+operator adjoint needs a field-space Riesz map. Ledger v0.96 keeps the two
+`U(32,32)` halves and full `U(64,64)` comparator distinct.
+
 ## K77 fixed-varpi normal Frechet closure (2026-08-08)
 
 `conditional-build/selected-k77-fixed-varpi-normal-frechet-closure-2026-08-08.md`

@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 COMMON-FIELD ADJOINT/GREEN OWNERSHIP GATE (ledger v0.96).**
+> The actual 24-component horizontal `D_varpi Upsilon` bank has four
+> rank-13 principal coefficients, a rank-24 zero-order coefficient, and an
+> exact nonzero `K_loc` Green identity in all four directions. Its canonical
+> adjoint is field-covector-valued. Full common-field assembly fails closed:
+> v0.95's local `D_g` geometry has not been emitted on the common residual
+> coordinate bank, and the epsilon predecessors own an Euler covector plus a
+> four-column Ward orbit rather than full primitive `D_epsilon Upsilon`.
+> Next emit `D_g`, construct full `D_epsilon`, prove common `J R=0`, and derive
+> a field Riesz map only if field-valued operator language is required. Keep
+> selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+
 > **2026-08-08 FIXED-VARPI NORMAL FRECHET CLOSURE (ledger v0.95).**
 > At fixed independent `varpi,epsilon`, `T=varpi-B_LC` gives
 > `delta T=-delta B_LC`, while `A=varpi` gives `delta F_A=0` through exact

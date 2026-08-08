@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.95.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.95.md`.
+`lab/process/conditional-physics-ledger-v0.96.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.96.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -38,11 +38,15 @@ preserves the selected truncation. Source selection of the action parent is
 open. Build proceeds conditionally on the Spin-native selected parent at the
 canonical scalar-Clifford-trace point, exposes the `84..86` residue range, and
 has closed both its metric-induced Hodge/Clifford/Phi/Shiab coefficient packet
-and its local fixed-varpi metric Frechet block. Exact source-coordinate
+and its local fixed-varpi metric Frechet geometry/ranks. Exact source-coordinate
 differentiation gives `delta T=-delta B_LC` and `delta F_A=0`; the complete
 metric-derived spin-Levi-Civita first-jet image has rank 20 and all causal
-transverse restrictions have rank six. Build now composes this with the owned
-`D_varpi/D_epsilon` blocks and `K_loc` before formal adjoint/Green.
+transverse restrictions have rank six. The actual `D_varpi` first-order bank
+now has four rank-13 principal coefficients and rank-24 zero-order coefficient;
+`K_loc` gives its exact covector-valued adjoint and Green current. Build must
+emit `D_g` on that common coordinate bank and construct full primitive
+`D_epsilon`; the older Euler covector and four-column Ward orbit are not that
+field derivative. A field-valued adjoint additionally requires a field Riesz.
 
 Predecessor residual-pairing correction: the conditional local K77 pairing
 `Hodge13 x scalar-Clifford-trace` is exact and nondegenerate on all 1,470
@@ -57,8 +61,9 @@ or analytic domain. Reuse the v0.85 principal augmented-torsion transverse
 six on the conditional Spin-native selected parent. v0.94 closes their
 metric-induced coefficient packet; v0.95 closes the local fixed-varpi metric
 partial, including expanded curvature cancellation and dependent observation.
-Build now owns common-field assembly with `Dvarpi/Depsilon`, the formal adjoint
-and Green.
+v0.96 closes the actual `Dvarpi` equation-dual/Green block and corrects the
+inventory: common-coordinate `D_g`, full primitive `D_epsilon`, and any
+field-space Riesz representative remain construction burdens.
 
 Predecessor action/Frechet/Ward correction: the complete v0.77 pointwise bank is
 the first-action Euler covector `dI1`; it is not the raw residual Jacobian

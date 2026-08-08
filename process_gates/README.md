@@ -12,6 +12,13 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_common_field_formal_adjoint_green_audit.py` enforces ledger
+  v0.96's actual four-direction source-varpi coefficient bank, exact
+  covector-valued `K_loc` formal adjoint and Green current, fail-closed missing
+  common-coordinate `D_g`/full primitive `D_epsilon` inventory, field-Riesz
+  fence, mandatory symplectic/analytic review, and distinct selected/
+  two-`U(32,32)`/full-`U(64,64)` action parents.
+
 - `selected_k77_fixed_varpi_normal_frechet_closure_audit.py` enforces ledger
   v0.95's exact fixed-varpi `delta T`, three-term `delta F_A=0` cancellation,
   rank-20 metric-derived Levi-Civita image, all-causal transverse rank-six

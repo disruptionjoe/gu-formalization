@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.96 common-field adjoint/Green ownership gate:** the actual
+> 24-dimensional horizontal `D_varpi Upsilon` coefficient bank has four
+> rank-13 principal pieces and rank-24 zero-order piece. `K_loc` gives a
+> canonical field-covector equation dual and nonzero Green current in all four
+> directions. Do not call it a field-valued operator adjoint without a
+> field-space Riesz map. Do not call the primitive epsilon Euler covector or
+> four-column gamma-epsilon Ward orbit full `D_epsilon Upsilon`. The local
+> v0.95 `D_g` geometry must still be emitted on the common residual-coordinate
+> bank. Next: emit `D_g`, construct full primitive `D_epsilon`, prove common
+> `J R=0`, and retain selected Spin-native/two-`U(32,32)`/full-`U(64,64)` as
+> distinct action parents. Ledger v0.96.
+
 > **Current v0.95 fixed-varpi normal Frechet closure:** use the actual source
 > coordinates `T=varpi-B_LC(g,epsilon)` and `A=B_LC+T=varpi`. At fixed
 > independent `varpi,epsilon`, `delta T=-delta B_LC` and `delta F_A=0`; the

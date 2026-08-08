@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.96. The actual horizontal
+`D_varpi Upsilon` bank has four rank-13 principal coefficients, rank-24
+zero-order coefficient, and an exact nonzero covector-valued `K_loc` Green
+identity. Full common-field assembly fails closed because `D_g` has not been
+emitted on the common residual-coordinate bank and the full primitive
+`D_epsilon Upsilon` bank remains open. A field-valued operator adjoint also
+needs an unowned field-space Riesz map. See
+`selected-k77-common-field-formal-adjoint-green.json`.
+
 Current append-only progress surface: ledger v0.95. At fixed independent
 `varpi,epsilon`, `delta T=-delta B_LC` and the three expanded curvature
 derivatives cancel to `delta F_A=0`. The complete metric-derived covariant
@@ -262,9 +271,13 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.95.json` - current append-only conditional
-  ledger; the local fixed-varpi metric Frechet block closes at transverse
-  rank six while common-field adjoint/Green/domain remain.
+- `conditional-physics-ledger-v0.96.json` - current append-only conditional
+  ledger; the actual varpi equation-dual/Green closes while common-coordinate
+  `D_g`, full primitive `D_epsilon` and field Riesz remain.
+- `selected-k77-common-field-formal-adjoint-green.json` - exact actual-varpi
+  first-order/Green packet and fail-closed common-field ownership audit.
+- `conditional-physics-ledger-v0.95.json` - immutable predecessor ledger for
+  the local fixed-varpi metric Frechet closure.
 - `selected-k77-fixed-varpi-normal-frechet-closure.json` - exact curvature
   cancellation, rank-20 Levi-Civita image, all-causal ranks and scope fences.
 - `conditional-physics-ledger-v0.94.json` - predecessor append-only conditional

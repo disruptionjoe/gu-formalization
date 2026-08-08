@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.96; five
+distance/evidence migrations; headline unchanged).** The actual horizontal
+`D_varpi Upsilon` operator is now a four-direction first-order coefficient
+bank with principal ranks `(13,13,13,13)` and zero-order rank `24`.
+The conditional `K_loc` gives an exact covector-valued formal adjoint and a
+nonzero Green concomitant in all four directions. Full common-field assembly
+fails closed because the local `D_g` closure has not been serialized on the
+same residual-coordinate bank and the epsilon predecessors do not own full
+lower-order/nonlinear primitive `D_epsilon Upsilon`. A field-valued adjoint
+also requires an unowned field-space Riesz map. No verdict, residue, quotient,
+datum, canon or posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.95; five
 distance/evidence migrations; headline unchanged).** At fixed independent
 `varpi,epsilon`, exact source-coordinate differentiation gives
