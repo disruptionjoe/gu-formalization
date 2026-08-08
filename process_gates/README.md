@@ -2156,6 +2156,17 @@ covectors and to carry a two-dimensional null helicity-two cohomology. The
 actual selected K77 vertical Euler/Ward symbol, global BFV/domain,
 P1/P2/P3, canon and public posture remain open.
 
+## K77 coupled Euler-complex scope v0.81 gate
+
+`selected_k77_coupled_euler_complex_scope_audit.py` requires the retained ten
+metric equations to remain distinct from a closed vertical-only subsystem. It
+requires the exact 34-variable first-layer Ward complex with generic physical
+cohomology zero, the exceptional helicity-one typing, the second-layer TT
+diagnostic plus rank-four full Ward defect, and the rank-four defect of naive
+layer addition. It rejects a 21-dimensional formal Ward fit as construction
+and keeps microlocal hyperbolicity, common Green/Krein domain, global BV-BFV,
+P1/P2/P3, canon and public posture open.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 coupled Euler-complex scope correction (2026-08-08)
+
+`conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md`
+preserves the ten metric equations but retracts vertical-only action closure.
+The exact first layer is Ward-basic on 34 variables with generic physical
+cohomology zero and an exceptional helicity-one pair. The second-layer metric
+block retains its TT helicity-two polynomial but has Ward-defect rank four,
+as does naive addition. Formal Ward repairs leave 21 free directions. The
+full selected two-layer common-field stationary Hessian and coupled Ward
+complex are next. Ledger v0.81 moves no headline count or quotient.
+
 ## K77 metric-section and Bianchi/BV typing (2026-08-08)
 
 `conditional-build/selected-k77-metric-section-bianchi-typing-2026-08-08.md`

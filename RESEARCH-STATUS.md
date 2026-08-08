@@ -8,17 +8,25 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.80; five
-distance/mapping-grade/evidence migrations; headline unchanged).** The exact
-complete equation dual sends the graph-conormal ten to the ten independent
-metric-section Euler coordinates. The standard linearized Einstein comparator
-has exact timelike/spacelike ranks `4,6,4`, null ranks `4,4,4`, two field and
-equation cohomology classes, and an explicit plus/cross rotation polynomial
-`lambda^2+4`. A GR-preserving BV/Bianchi construction therefore owns a
-rank-four gauge/identity subcomplex inside the retained ten equations; erasing
-all ten is rejected. The selected K77 vertical Euler/diffeomorphism/Ward
-complex remains unbuilt and is not identified with Einstein's. Verdicts,
-residue, five quotients, P1/P2/P3, canon and public posture do not move.
+**Current Build/Compose result 2026-08-08 (ledger v0.81; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The ten
+metric-section Euler coordinates remain retained, but they are not a closed
+selected-action subsystem. The completed first layer is a Ward-basic
+34-variable source symbol after eliminating a nondegenerate 196-dimensional
+grade-one bank; its generic physical symbol cohomology is zero, and its
+exceptional two-mode locus is helicity one rather than helicity two. The
+separate second-layer metric block retains the exact TT helicity-two polynomial
+but has full Ward-defect rank four. Naively adding it to the first layer stays
+rank-four nonbasic. Formal symmetric repairs exist with 21 free directions and
+are not constructions. The next owner is the full selected two-layer
+common-field stationary Hessian with all action-derived cross blocks and the
+coupled diffeomorphism/Ward complex. Verdicts, residue, five quotients,
+P1/P2/P3, canon and public posture do not move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.80).** The complete
+equation dual retains the conormal ten as metric-section Euler coordinates,
+and the Einstein comparator supplies the exact target complex. v0.81 corrects
+the mistaken inference from retained coordinates to vertical-only closure.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.79).** Local
 holonomic observation jets survive, arbitrary-`X` Lorentz-section existence

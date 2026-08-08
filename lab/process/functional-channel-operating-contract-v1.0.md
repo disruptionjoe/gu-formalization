@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.80.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.80.md`.
+`lab/process/conditional-physics-ledger-v0.81.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.81.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -138,11 +138,17 @@ the complete observation dual, no-leakage projector and pairing pass direct
 and sequential noncommuting overlaps. Ledger v0.79 proves local holonomic
 jets, kills arbitrary-`X` Lorentz-section existence and kills ordinary-
 pullback faithfulness on the selected action. Ledger v0.80 retypes the
-conormal ten as the independent metric-section Euler carrier. The exact
-Einstein comparator has noncharacteristic ranks `4,6,4`, null ranks `4,4,4`
-and two helicity classes, so full-conormal BV erasure is rejected. The next
-Build is the selected K77 vertical Euler/diffeomorphism/Ward complex, then
-boundary `tau_A0`/BFV and common-domain descent.
+conormal ten as the independent metric-section Euler carrier and rejects
+full-conormal BV erasure. Ledger v0.81 composes the prior action layers and
+corrects the next target: the ten equations are retained but do not form a
+closed vertical-only subsystem. The first layer is a Ward-basic 34-variable
+symbol with generic physical cohomology zero and an exceptional helicity-one
+pair. The second-layer metric block retains the TT helicity-two polynomial but
+has Ward-defect rank four, and naive addition remains nonbasic. A formal Ward
+fit has 21 free directions. The next Build is the full selected two-layer
+common-field stationary Hessian with every action-derived cross block and the
+coupled diffeomorphism/Ward complex, then microlocal, Green/Krein, boundary
+`tau_A0`/BFV and common-domain descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -219,8 +225,11 @@ the low-grade coefficient geometry. v0.78 closes the finite noncommuting
 action/complete-observation/no-leakage overlap law. v0.79 proves that ordinary
 pullback loses a live selected-action conormal Euler component. v0.80 retypes
 that component as a metric-section equation and narrows BV to the rank-four
-diffeomorphism/identity subcomplex. The selected K77 Euler/Ward comparison
-must close before global BFV and common-domain descent. Generic
+diffeomorphism/identity subcomplex. v0.81 rejects vertical-only closure,
+closes the completed first-layer spin-two route, preserves the second-layer TT
+diagnostic with its rank-four Ward defect, and requires the full common-field
+two-layer Hessian. That coupled action-derived Euler/Ward comparison must
+close before microlocal, global BFV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

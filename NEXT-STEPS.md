@@ -18,10 +18,16 @@ updated_at: "2026-08-08"
 > noncharacteristic ranks `4 -> 6 -> 4` and null ranks `4 -> 4 -> 4`, with two
 > plus/cross cohomology classes carrying rotation polynomial `lambda^2+4`.
 > Thus BV/Bianchi is a rank-four gauge/identity subcomplex inside the retained
-> metric equations, not a rival that erases all ten. The next gate is to
-> construct the selected K77 vertical Euler/diffeomorphism/Ward complex and
-> compare it with that target. Only then proceed to boundary `tau_A0`/BFV,
-> polarization and common-domain work.
+> metric equations, not a rival that erases all ten. Ledger v0.81 corrects the
+> next target: retained coordinates are not a closed action subsystem. The
+> first layer is a coupled 34-variable Ward symbol with generic physical
+> cohomology zero and an exceptional helicity-one pair. The separate
+> second-layer metric block retains its TT helicity-two polynomial but has
+> Ward-defect rank four; naive layer addition remains nonbasic, while formal
+> repairs have 21 free directions. The next gate is the full selected
+> two-layer common-field stationary Hessian with every action-derived cross
+> block and its coupled Ward complex. Only then proceed to microlocal,
+> boundary `tau_A0`/BFV, polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -211,13 +217,23 @@ updated_at: "2026-08-08"
 > complex including its two null helicity classes. It does not identify the
 > selected K77 Euler operator with Einstein's.
 
-> **NEXT RUN: SELECTED K77 VERTICAL EULER/DIFFEO/WARD COMPLEX.** Differentiate
-> the selected action on all ten metric-section directions, including moving
-> Levi-Civita, Shiab/Hodge/frame, observation jets and augmented torsion.
-> Construct its actual rank-four diffeomorphism generator and Ward adjoint,
-> then compare noncharacteristic exactness and null cohomology with the
-> Einstein comparator. Symplectic review remains mandatory; boundary
-> `tau_A0`/BFV and common Green/Krein domain follow only after that comparison.
+> **2026-08-08 COUPLED EULER-COMPLEX SCOPE CORRECTION (ledger v0.81).**
+> [`explorations/conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md`](explorations/conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md)
+> composes the existing first and second action-layer results. It preserves
+> the ten metric equations, retracts vertical-only closure, proves the
+> first-layer generic quotient is gauge-only and its exceptional pair is
+> helicity one, and measures rank-four Ward defects for the isolated
+> second-layer metric block and naive two-layer sum. A formal repair exists
+> with affine dimension 21 and is not selected by the action.
+
+> **NEXT RUN: FULL SELECTED TWO-LAYER COMMON-FIELD HESSIAN AND WARD COMPLEX.**
+> Write both action layers on one field/jet bundle and stationary background.
+> Differentiate the norm-square layer through metric, connection/difference,
+> grade-one, matter, moving Levi-Civita/Shiab/Hodge/frame and observation jets.
+> Construct the complete diffeomorphism generator and Ward adjoint. Only an
+> action-derived Ward-basic complex advances to characteristic cohomology,
+> strong hyperbolicity, Green/Krein domain and boundary `tau_A0`/BFV.
+> Symplectic and microlocal reviews are mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

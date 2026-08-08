@@ -43,9 +43,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > and ordinary-pullback faithfulness on the selected action. Ledger v0.80
 > retypes the conormal ten as independent metric-section Euler equations and
 > rejects full-conormal BV erasure: the Einstein comparator has exact ranks
-> `4,6,4` off the null cone and two helicity classes on it. The next Build is
-> the selected K77 vertical Euler/diffeomorphism/Ward complex, then boundary
-> `tau_A0`/BFV and common domain.
+> `4,6,4` off the null cone and two helicity classes on it. Ledger v0.81
+> corrects the next target: the ten coordinates are retained but are not a
+> closed vertical action subsystem. The existing first layer is Ward-basic on
+> 34 source variables with generic physical cohomology zero; its exceptional
+> pair is helicity one. The separate second-layer metric block retains its TT
+> helicity-two polynomial but has Ward-defect rank four, as does naive layer
+> addition. A formal repair has 21 free directions and is not evidence. The
+> next Build is the full selected two-layer common-field stationary Hessian
+> with all cross blocks and its coupled Ward complex, then microlocal,
+> boundary `tau_A0`/BFV and common domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
@@ -109,7 +116,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > component hidden by ordinary pullback. v0.80 proves that this conormal ten is
 > the retained metric-section equation carrier and that BV/Bianchi may remove
 > or constrain only its rank-four diffeomorphism/identity subcomplex. The
-> selected K77 Euler/Ward realization remains open.
+> selected K77 Euler/Ward realization remains open. v0.81 further proves that
+> realization cannot be posed as a vertical-only ten-variable closure: both
+> action layers must be varied on one common field tangent and stationary
+> background before physical cohomology is read.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection

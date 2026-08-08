@@ -15,13 +15,19 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.80. The complete equation dual
-retypes the graph-conormal ten as independent metric-section Euler equations.
-The exact Einstein comparator has noncharacteristic ranks `4,6,4`, null ranks
-`4,4,4`, and two helicity classes. Full-conormal BV erasure is rejected; the
-next gate is the selected K77 vertical Euler/diffeomorphism/Ward complex and
-its Einstein-cohomology comparison. See
-`selected-k77-metric-section-bianchi-typing.json`.
+Current append-only progress surface: ledger v0.81. The ten metric equations
+remain retained, but vertical-only action closure is retracted. The exact
+first layer is a Ward-basic 34-variable system with generic physical
+cohomology zero and an exceptional helicity-one pair. The separate second-
+layer metric block retains its TT helicity-two polynomial but has Ward-defect
+rank four; naive addition remains nonbasic, while formal completions have 21
+free directions. The next gate is the full selected two-layer common-field
+stationary Hessian and coupled Ward complex. See
+`selected-k77-coupled-euler-complex-scope.json`.
+
+Predecessor append-only progress surface: ledger v0.80. The complete equation
+dual retains the graph-conormal ten as metric-section Euler equations and the
+Einstein comparator supplies the typed target complex.
 
 Predecessor append-only progress surface: ledger v0.79. Local holonomic
 observation jets survive, arbitrary-`X` Lorentz sections and ordinary-pullback
@@ -145,10 +151,13 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.80.json` - current append-only conditional
-  physics ledger; retains ten metric-section equations, rejects full-conormal
-  BV erasure, and makes the selected K77 Euler/diffeomorphism/Ward complex
-  primary.
+- `conditional-physics-ledger-v0.81.json` - current append-only conditional
+  physics ledger; retains ten metric-section equations, retracts vertical-only
+  closure, and makes the full selected two-layer common-field Hessian/Ward
+  complex primary.
+- `selected-k77-coupled-euler-complex-scope.json` - exact first-layer
+  cohomology/helicity, second-layer Ward defect, naive-composition no-go,
+  21-dimensional fit fence and coupled-owner successor.
 - `selected-k77-metric-section-bianchi-typing.json` - exact complete-receiver
   retyping, Einstein comparator ranks/cohomology, scope fences and next gate.
 - `selected-k77-physical-section-faithfulness-gate.json` - records the spin

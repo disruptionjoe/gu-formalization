@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (442 Python + 45 Sage) | active channel and Lane-1 swing probes; the current count includes the metric-section/Bianchi typing probe, independent Sage route, and ledger-v0.80 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (444 Python + 46 Sage) | active channel and Lane-1 swing probes; the current count includes the coupled Euler-complex scope probe, independent Sage route, and ledger-v0.81 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -2177,4 +2177,24 @@ uv run --with sympy==1.14.0 python \
   tests/channel-swings/selected_k77_metric_section_bianchi_typing_probe.py
 sage -c 'load("tests/channel-swings/selected_k77_metric_section_bianchi_typing_independent.sage")'
 python3 tests/channel-swings/conditional_physics_ledger_v080_probe.py
+```
+
+## K77 coupled Euler-complex scope ledger v0.81
+
+`channel-swings/selected_k77_coupled_euler_complex_scope_probe.py` composes
+the completed first-layer 34-variable Ward symbol, its 196-dimensional
+adjacent-grade elimination, the exceptional N2 helicity typing, the separate
+second-layer metric block and the v0.80 Einstein comparator. It proves generic
+first-layer physical cohomology zero, second-layer and naive-sum Ward-defect
+rank four, and a 21-dimensional formal-completion freedom. It retains the ten
+metric equations while rejecting vertical-only closure and fitted repair.
+Sage independently reconstructs the second-layer block and composition fence.
+
+```sh
+env UV_CACHE_DIR=/private/tmp/gu-coupled-euler-uv-cache \
+  uv run --with sympy==1.14.0 python \
+  tests/channel-swings/selected_k77_coupled_euler_complex_scope_probe.py
+env DOT_SAGE=/private/tmp/gu-coupled-euler-sage \
+  sage -c 'load("tests/channel-swings/selected_k77_coupled_euler_complex_scope_independent.sage")'
+python3 tests/channel-swings/conditional_physics_ledger_v081_probe.py
 ```

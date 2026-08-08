@@ -102,6 +102,11 @@ These packets record scoped reinspection against a named construction gate.
 They preserve source statements, repository derivations, and unresolved
 identifications as separate grades.
 
+- [`selected-k77-coupled-euler-complex-source-reinspection-2026-08-08.md`](selected-k77-coupled-euler-complex-source-reinspection-2026-08-08.md)
+  - confirms the two-connection, two-layer full-variable action grammar and
+    diffeomorphism-orthogonal Einstein target while preserving silence on the
+    common two-layer Hessian, its cross blocks and selected physical complex.
+
 - [`selected-k77-metric-section-bianchi-source-reinspection-2026-08-08.md`](selected-k77-metric-section-bianchi-source-reinspection-2026-08-08.md)
   - confirms the source's rank-ten metric-section carrier and
     diffeomorphism-orthogonal Einstein target while preserving silence on the
