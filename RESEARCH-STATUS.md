@@ -8,16 +8,16 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.69; five
-distance/mapping-grade/evidence migrations).** The actual rank-ten
-Levi-Civita contact block and complete first-jet observation dual satisfy the
-diagonal two-connection Ward identity. The contact presymplectic form is Lie
-invariant and horizontal for small/Dirichlet gauge. Unrestricted boundary
-gauge is not horizontal: all ten K77 normal directions carry a nonzero
-moment-map charge. The physical boundary domain or an owned edge-mode
-extension, full nonlinear ambient coefficients, reduced BFV, polarization and
-common domain remain open. No verdict, residue, quotient, datum, canon or
-public-posture change follows.
+**Current Build/Compose result 2026-08-08 (ledger v0.70; five
+distance/mapping-grade/evidence migrations; one scoped quotient added).** An
+ordinary scalar boundary counterterm cannot change the contact presymplectic
+form. The Dirichlet and zero-charge boundary horns remain unselected. A unique
+two-cell edge extension makes the all-ten K77 boundary gauge directions
+characteristic; the extended form has dimension/rank/kernel `60/40/20` and its
+conditional quotient has dimension/rank `40/40`. The global labelled `Y14`
+edge bundle, source/action-selected physical domain, tilted cocycle, full BFV,
+polarization and common domain remain open. Verdicts, global residue,
+P1/P2/P3, canon and public posture do not move.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete

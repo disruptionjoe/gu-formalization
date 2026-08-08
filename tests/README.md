@@ -731,7 +731,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (421 Python + 34 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 contact-presymplectic gauge-basicness probe, its independent Sage/QQ replay, and ledger-v0.69 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (423 Python + 35 Sage) | active channel and Lane-1 swing probes; the current count includes the K77 minimal edge-mode reduction probe, its independent Sage/QQ replay, and ledger-v0.70 integrity gate. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -1987,4 +1987,22 @@ uv run --with sympy==1.14.0 python -u \
   tests/channel-swings/selected_k77_contact_presymplectic_gauge_basicness_probe.py
 sage tests/channel-swings/selected_k77_contact_presymplectic_gauge_basicness_independent.sage
 python3 tests/channel-swings/conditional_physics_ledger_v069_probe.py
+```
+
+## K77 minimal edge-mode reduction ledger v0.70
+
+`channel-swings/selected_k77_minimal_edge_mode_reduction_probe.py` proves that
+an ordinary scalar boundary counterterm cannot change the presymplectic form,
+types the unselected Dirichlet and zero-charge horns, and constructs the unique
+two-cell edge extension. Across all ten nonzero K77 normal weights its extended
+dimension/rank/kernel are `60/40/20`; the conditional quotient has
+dimension/rank `40/40`. The independent Sage/QQ route checks coefficients,
+kernel, ranks and counterterm control. The ledger gate adds one scoped quotient
+without moving verdicts, global residue or P1/P2/P3.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python -u \
+  tests/channel-swings/selected_k77_minimal_edge_mode_reduction_probe.py
+sage tests/channel-swings/selected_k77_minimal_edge_mode_reduction_independent.sage
+python3 tests/channel-swings/conditional_physics_ledger_v070_probe.py
 ```

@@ -168,7 +168,7 @@ check("exact", "no unextended unrestricted quotient exists because the bulk cont
 check("exact", "one scalar edge coordinate cannot absorb two independent endpoint gauge directions",
       sp.Matrix([[1, 0], [0, 1]]).rank() == 2)
 check("exact", "one edge coordinate per endpoint saturates the lower bound",
-      gauge_kernel[:, 4:].rank() == 2)
+      gauge_kernel[4:, :].rank() == 2)
 
 
 print("\nF. ALL-TEN K77 DIRECT SUM")

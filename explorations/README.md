@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 minimal edge-mode reduction (2026-08-08)
+
+`conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`
+proves that scalar boundary counterterms cannot cancel the v0.69 moment map,
+then constructs the coefficient-unique two-cell edge extension. Across all ten
+K77 normals it gives a `60/40/20` extended-dimension/rank/kernel theorem and a
+nondegenerate conditional quotient of dimension/rank `40/40`. Global edge
+descent, physical boundary selection and BFV/common-domain work remain open.
+Ledger v0.70 adds one scoped quotient without moving verdicts or global residue.
+
 ## K77 contact-presymplectic gauge basicness (2026-08-08)
 
 `conditional-build/selected-k77-contact-presymplectic-gauge-basicness-2026-08-08.md`

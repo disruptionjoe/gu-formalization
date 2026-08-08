@@ -191,6 +191,7 @@ selected notes below and in each script header.
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
 - `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`
+- `selected_k77_minimal_edge_mode_reduction_scope_audit.py`
 - `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py`
 - `selected_k77_source_graph_basicness_scope_audit.py`
 - `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
@@ -2046,3 +2047,13 @@ horizontality. It separately requires the nonzero unrestricted boundary
 moment map in all ten K77 directions, keeps the physical boundary domain or
 edge-mode extension and full nonlinear ambient reduction open, and freezes
 verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 minimal edge-mode reduction v0.70 gate
+
+`selected_k77_minimal_edge_mode_reduction_scope_audit.py` requires the
+structural scalar-counterterm failure, unique edge coefficients `(-1,+1)`,
+exact all-ten extended dimension/rank/kernel `60/40/20`, and nondegenerate
+conditional quotient dimension/rank `40/40`. It books exactly one new scoped
+quotient while freezing verdicts and global residue. It keeps the global
+labelled `Y14` edge bundle, source-selected physical domain, BFV phase space,
+polarization, common domain, P1/P2/P3, canon and posture open.

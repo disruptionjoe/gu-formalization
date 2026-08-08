@@ -15,15 +15,16 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.69. The actual rank-ten
-Levi-Civita contact block satisfies diagonal two-connection Ward descent. The
-contact presymplectic form is basic for small/Dirichlet gauge, while all ten
-unrestricted K77 boundary directions carry live moment-map charges. Physical
-boundary-domain or edge-mode selection remains open. See
-`selected-k77-contact-presymplectic-gauge-basicness.json`.
+Current append-only progress surface: ledger v0.70. A scalar boundary
+counterterm cannot change the contact presymplectic form. The unique two-cell
+edge extension makes the all-ten K77 boundary gauge directions characteristic;
+its extended dimension/rank/kernel are `60/40/20` and its conditional quotient
+has dimension/rank `40/40`. Global labelled-bundle descent, physical boundary
+selection and BFV/common-domain work remain open. See
+`selected-k77-minimal-edge-mode-reduction.json`.
 
-Predecessor append-only progress surface: ledger v0.68. The complete Green
-potential and presymplectic exterior derivative are point-splitting natural.
+Predecessor append-only progress surface: ledger v0.69. The local contact form
+is small-gauge basic and has a live unrestricted boundary moment map.
 
 Predecessor append-only progress surface: ledger v0.67. The exact
 ten-direction K77 geometry bank is complete and the seven owner buckets are
@@ -139,7 +140,11 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.69.json` - current append-only conditional
+- `conditional-physics-ledger-v0.70.json` - current append-only conditional
+  physics ledger after the exact minimal edge-mode quotient.
+- `selected-k77-minimal-edge-mode-reduction.json` - records scalar-counterterm
+  failure, unique edge coefficients, all-ten ranks and scoped quotient cost.
+- `conditional-physics-ledger-v0.69.json` - predecessor append-only conditional
   physics ledger after exact contact small-gauge basicness and live boundary
   moment-map charges.
 - `selected-k77-contact-presymplectic-gauge-basicness.json` - records the

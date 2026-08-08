@@ -12,13 +12,13 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.69 proves that the actual rank-ten Levi-Civita contact block and
-> complete observation dual satisfy the diagonal two-connection Ward identity.
-> The contact presymplectic form is basic for small/Dirichlet gauge, but every
-> unrestricted K77 boundary direction carries a nonzero moment-map charge.
-> The next gate must source- or action-select the physical boundary gauge
-> domain, or construct an owned edge-mode extension, before reduced
-> presymplectic, polarization or common-domain claims.
+> Ledger v0.70 proves that an ordinary scalar boundary counterterm cannot
+> cancel the contact moment map and constructs the coefficient-unique minimal
+> edge extension. Across all ten K77 normals its extended dimension/rank/kernel
+> are `60/40/20`, with a nondegenerate quotient of dimension/rank `40/40`.
+> The next gate is global: lift the edge cells to a labelled `Y14` boundary
+> bundle with tilted equivariance and cocycle closure, or source/action-select
+> a physical boundary domain, before BFV, polarization or common-domain claims.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -124,11 +124,22 @@ updated_at: "2026-08-08"
 > diagonal two-connection Ward closure and small-gauge basicness, and finds a
 > nonzero unrestricted boundary moment map in all ten K77 directions.
 
-> **NEXT RUN: PHYSICAL BOUNDARY GAUGE DOMAIN OR EDGE-MODE EXTENSION.** Locate
-> a source/action-selected boundary class or construct the owned edge-mode
-> extension and moment map. Then test the reduced presymplectic class before
-> polarization, common-domain or BV/BFV claims. Do not quotient a live charge.
-> Symplectic review remains mandatory.
+> **PREDECESSOR GATE, RESOLVED LOCALLY BY v0.70.** The physical-domain horn
+> remains source/action-unselected, but the alternative minimal edge extension
+> and its finite local quotient are now exact. The current gate is the global
+> edge-bundle/tilted-cocycle lift below.
+
+> **2026-08-08 K77 MINIMAL EDGE-MODE REDUCTION (ledger v0.70).**
+> [`explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md`](explorations/conditional-build/selected-k77-minimal-edge-mode-reduction-2026-08-08.md)
+> kills ordinary scalar-counterterm cancellation, types the unselected
+> Dirichlet and zero-charge horns, and constructs the unique two-cell edge
+> extension. Its all-ten finite local quotient is exact and nondegenerate.
+
+> **NEXT RUN: GLOBAL EDGE-BUNDLE DESCENT OR SOURCE-SELECTED DOMAIN.** Lift the
+> edge cells through the labelled `Y14` bundle, tilted inhomogeneous-gauge
+> action, overlap cocycle and global moment map—or source/action-select the
+> boundary domain. Only then open full BFV charge algebra, polarization and
+> common-domain work. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

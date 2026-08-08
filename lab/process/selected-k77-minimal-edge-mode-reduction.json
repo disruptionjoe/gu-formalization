@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0",
+  "status": "MINIMAL_EDGE_EXTENSION_EXACT__SOURCE_SELECTION_OPEN",
+  "created": "2026-08-08",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE-SILENT__BOUNDARY_POLARIZATION_AND_EDGE_MODE__REPO-CONSTRUCTS_CONDITIONAL_MINIMAL_EDGE_EXTENSION",
+  "layer0": {
+    "scalar_boundary_counterterm": "DELTA_EXACT_SHIFT_OF_PREBOUNDARY_POTENTIAL",
+    "boundary_edge_oneform": "GENUINE_EXTENSION_OF_BOUNDARY_FIELD_SPACE",
+    "dirichlet_small_gauge": "CONDITIONAL_DOMAIN_RESTRICTION",
+    "zero_charge_neumann_like": "CONDITIONAL_MOMENTUM_RESTRICTION",
+    "minimal_edge_coordinate": "ONE_PER_INDEPENDENT_ENDPOINT_GAUGE_DIRECTION",
+    "local_characteristic_quotient": "EXACT_FINITE_K77_CONTACT_MODEL",
+    "global_bfv_phase_space": "NOT_CONSTRUCTED"
+  },
+  "preregistered_endings": {
+    "MINIMAL_EDGE_EXTENSION_EXACT__SOURCE_SELECTION_OPEN": "FIRED",
+    "ACTION_SELECTS_BOUNDARY_DOMAIN": "DID_NOT_FIRE",
+    "EDGE_EXTENSION_NONMINIMAL_OR_NONBASIC": "DID_NOT_FIRE",
+    "BOUNDARY_COUNTERTERM_CANCELS_CHARGE": "DID_NOT_FIRE__KILLED_BY_DELTA_SQUARED_ZERO"
+  },
+  "exact_result": {
+    "ordinary_counterterm_delta_omega": "ZERO",
+    "unextended_boundary_moment_map": "NONZERO",
+    "zero_charge_constraint": ["p0=0", "p2=0"],
+    "edge_coefficients": {"c0": -1, "c3": 1},
+    "edge_coefficient_solution_dimension": 0,
+    "single_normal_extended_dimension": 6,
+    "single_normal_form_rank": 4,
+    "single_normal_gauge_kernel_dimension": 2,
+    "single_normal_quotient_dimension": 4,
+    "single_normal_quotient_rank": 4,
+    "k77_nonzero_normal_weights": 10,
+    "all_ten_extended_dimension": 60,
+    "all_ten_form_rank": 40,
+    "all_ten_gauge_kernel_dimension": 20,
+    "all_ten_quotient_dimension": 40,
+    "all_ten_quotient_rank": 40,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "construction_disposition": {
+    "scalar_counterterm_route": "KILLED_STRUCTURALLY",
+    "dirichlet_small_gauge_horn": "CONDITIONAL_UNSELECTED",
+    "zero_charge_neumann_like_horn": "CONDITIONAL_UNSELECTED",
+    "minimal_edge_extension": "EXACT_LOCAL_CONSTRUCTION",
+    "scoped_characteristic_quotient": "EXACT_CONDITIONAL",
+    "global_labelled_y14_edge_bundle": "OPEN",
+    "tilted_equivariance_and_overlap_cocycle": "OPEN",
+    "physical_bfv_phase_space": "OPEN",
+    "polarization_and_common_domain": "OPEN"
+  },
+  "constraint_accounting": {
+    "new_bulk_fields": 0,
+    "new_boundary_coordinate_dimension": 20,
+    "new_continuous_coefficients": 0,
+    "new_selectors": 0,
+    "new_scoped_quotients": 1,
+    "boundary_condition_selected": false,
+    "global_edge_bundle_constructed": false
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "LIFT_MINIMAL_EDGE_MODE_TO_FULL_LABELLED_Y14_BUNDLE_WITH_TILTED_EQUIVARIANCE_AND_COCYCLE__OR_SOURCE_SELECT_BOUNDARY_DOMAIN__THEN_FULL_BFV_CHARGE_ALGEBRA_COMMON_DOMAIN"
+}

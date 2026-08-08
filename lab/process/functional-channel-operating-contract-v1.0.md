@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.69.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.69.md`.
+`lab/process/conditional-physics-ledger-v0.70.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.70.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -96,11 +96,13 @@ point-frame changes and cotangent lifts. The induced normal/base momentum
 correction is required in all ten K77 normal directions. No vertical B/T lift
 is therefore justified merely for point-trivialization descent. Ledger v0.69
 then assembles the actual rank-ten Levi-Civita contact block and proves exact
-diagonal two-connection Ward descent. Its presymplectic form is basic for
-small/Dirichlet gauge, while all ten unrestricted K77 boundary directions
-carry nonzero moment-map charges. Build must now source- or action-select the
-physical boundary gauge domain, or construct an owned edge-mode extension,
-before reduced presymplectic, polarization or common-domain descent.
+diagonal two-connection Ward descent, with live unrestricted boundary charges.
+Ledger v0.70 proves scalar counterterms cannot change that two-form and
+constructs the coefficient-unique minimal edge extension. Across all ten K77
+normals it has extended dimension/rank/kernel `60/40/20` and a nondegenerate
+conditional quotient of dimension/rank `40/40`. Build must now globalize the
+edge bundle with tilted equivariance and cocycle closure, or source/action-select
+the physical boundary domain, before BFV, polarization or common-domain descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -162,8 +164,9 @@ v0.67 completes its K77 geometric substrate but proves its seven-way owner
 split is not canonical. v0.68 supplies the splitting-independent point-frame
 Green/presymplectic packet without a new vertical lift. v0.69 closes the local
 contact and small-gauge-basicness horn but leaves all ten unrestricted boundary
-charges live. Boundary-domain or edge-mode selection must close before reduced
-symplectic, BV and common-domain descent. Generic
+charges live. v0.70 constructs the unique local edge extension and rank-40
+conditional quotient. Global edge-bundle/source-domain selection must close
+before physical BFV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3
