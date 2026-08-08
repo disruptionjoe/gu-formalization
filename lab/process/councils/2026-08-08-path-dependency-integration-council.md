@@ -140,3 +140,82 @@ current one* — which is the question nobody asks when growth is free.
 **Left unresolved, and named rather than papered over:** the two grading
 vocabularies (C-2). That is a genuine Layer-0 risk introduced by this file today,
 and it is not fixed by any of the three actions above.
+
+---
+
+# Addendum: how to decide C-2 (the grade-vocabulary question)
+
+**Joe asked the councils to suggest how to decide it. Measuring it first
+collapsed most of the question, so the honest answer is smaller than the ask.**
+
+## What the measurement showed
+
+```text
+grade: fields in explorations/ canon/ lab/        534
+distinct first-tokens                             112
+median LENGTH of a grade: field              606 chars
+maximum                                     3495 chars
+fields under 40 chars                              5   (of 534)
+a DEFINED grade vocabulary, anywhere                none found
+```
+
+**The repository's `grade:` is not a vocabulary. It is a prose scope paragraph
+with a median length of 606 characters.** 112 distinct first-tokens is not a
+taxonomy, it is the first word of 534 different sentences — the tail includes
+`THE`, `B` and `PW`, which are sentence fragments, not grades.
+
+## So C-2 was mis-stated, by me, and this is the correction
+
+I filed it as *"two grading vocabularies is a Layer-0 defect in waiting."*
+**There are not two vocabularies. There is one prose field and one controlled
+vocabulary, and they are different objects at different granularities:**
+
+| | repo `grade:` | path-dependencies `grade` |
+|---|---|---|
+| granularity | whole artifact | a single fact in a chain |
+| form | prose paragraph, median 606 chars | one of 5 fixed tokens |
+| purpose | scope, caveats, what was NOT done | evidence class of one step |
+| queryable | no | yes |
+
+**Neither is wrong and they do not compete.** What collides is the *token*
+`grade` — which is a genuine Layer-0 homonym, of exactly the kind this
+repository has been burned by six times. But the fix is a rename, not a
+reconciliation, and that is a far smaller decision than the one I flagged.
+
+## How to decide it — the seats' procedures, and they agree
+
+**Decide by cost asymmetry (overbuild protection).** One side costs 1 YAML file
++ 1 gate + 1 generated view. The other costs 534 artifacts. **Rename the new
+one.** This is not a close call and does not need a council to ratify it.
+
+**Decide by precedence (agent context engineer).** The older, wider usage keeps
+the token. Agents have read `grade:` 534 times; they have read the new one zero
+times. Same answer.
+
+**Decide by accuracy (Layer-0 semanticist).** Ask what each field *is*. The
+repo's is a **scope statement**. The new one is an **evidence class**. Neither is
+literally a "grade", but the new one is the easier and more accurate rename:
+`grade` → **`evidence`**. Same answer, arrived at independently.
+
+**Three procedures, one answer.** When cost, precedence and accuracy agree, the
+decision does not need a further process — it needs doing. **Proposed:
+`grade:` → `evidence:` inside `path-dependencies.yaml` and its gate. One file,
+one gate, zero migration, no artifact touched.**
+
+**NOT DONE HERE**, because it is a schema change to a file created hours ago and
+the point of this addendum is the decision procedure, not the edit.
+
+## A larger observation, surfaced and deliberately NOT made into a project
+
+**534 artifacts carry a `grade:` field whose median length is 606 characters.**
+That field is doing real work — it is where scope, caveats and what-was-not-done
+live, and today's session repeatedly depended on reading one. But it is
+**unparseable**: no gate can check it, no agent can filter on it, and its 112
+first-tokens are an accident rather than a design.
+
+**This is recorded as an observation, not a proposal.** Introducing a controlled
+grade vocabulary across 534 artifacts is precisely the kind of sweep the
+overbuild seat exists to stop, and it would be far more expensive than every
+problem it solves. **If it is ever taken up, it should be as a NEW parallel field
+on new artifacts only, never as a migration.** Recorded so the observation is not
+lost and not mistaken for a plan.
