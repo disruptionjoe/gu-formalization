@@ -12,14 +12,13 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.68 proves that the complete field-plus-metric-normal Green
-> one-form and its field-space exterior derivative are exactly natural under
-> nonlinear point-frame splitting changes. All ten K77 normal directions have
-> live induced normal momenta; deleting them creates the apparent defect. A
-> vertical B/T connection is therefore unnecessary for coordinate
-> trivialization descent. The next gate assembles the selected-action K77
-> presymplectic coefficients with derivative-dependent Levi-Civita, soldering
-> and observation contact terms, then tests physical gauge basicness.
+> Ledger v0.69 proves that the actual rank-ten Levi-Civita contact block and
+> complete observation dual satisfy the diagonal two-connection Ward identity.
+> The contact presymplectic form is basic for small/Dirichlet gauge, but every
+> unrestricted K77 boundary direction carries a nonzero moment-map charge.
+> The next gate must source- or action-select the physical boundary gauge
+> domain, or construct an owned edge-mode extension, before reduced
+> presymplectic, polarization or common-domain claims.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. The persona vote is a planning instrument, not scientific
@@ -119,11 +118,17 @@ updated_at: "2026-08-08"
 > for point-frame descent; contact transformations and physical gauge
 > basicness remain open.
 
-> **NEXT RUN: SELECTED-ACTION K77 PRESYMPLECTIC COEFFICIENT ASSEMBLY.** Insert
-> derivative-dependent gauge-rotated-Levi-Civita, soldering and observation
-> contact terms into the complete current. Then test contraction and Lie
-> derivative on physical gauge directions before polarization, common-domain
-> or BV/BFV claims. Symplectic review remains mandatory.
+> **2026-08-08 K77 CONTACT PRESYMPLECTIC GAUGE BASICNESS (ledger v0.69).**
+> [`explorations/conditional-build/selected-k77-contact-presymplectic-gauge-basicness-2026-08-08.md`](explorations/conditional-build/selected-k77-contact-presymplectic-gauge-basicness-2026-08-08.md)
+> constructs the actual rank-ten Levi-Civita contact block, proves exact
+> diagonal two-connection Ward closure and small-gauge basicness, and finds a
+> nonzero unrestricted boundary moment map in all ten K77 directions.
+
+> **NEXT RUN: PHYSICAL BOUNDARY GAUGE DOMAIN OR EDGE-MODE EXTENSION.** Locate
+> a source/action-selected boundary class or construct the owned edge-mode
+> extension and moment map. Then test the reduced presymplectic class before
+> polarization, common-domain or BV/BFV claims. Do not quotient a live charge.
+> Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

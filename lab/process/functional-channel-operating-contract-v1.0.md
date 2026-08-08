@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.68.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.68.md`.
+`lab/process/conditional-physics-ledger-v0.69.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.69.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -94,9 +94,13 @@ trivialization change. Ledger v0.68 proves that the complete Green potential
 and its field-space exterior derivative are exactly natural under nonlinear
 point-frame changes and cotangent lifts. The induced normal/base momentum
 correction is required in all ten K77 normal directions. No vertical B/T lift
-is therefore justified merely for point-trivialization descent. Build must now
-assemble derivative-dependent Levi-Civita/soldering/observation contact terms
-and test physical gauge basicness.
+is therefore justified merely for point-trivialization descent. Ledger v0.69
+then assembles the actual rank-ten Levi-Civita contact block and proves exact
+diagonal two-connection Ward descent. Its presymplectic form is basic for
+small/Dirichlet gauge, while all ten unrestricted K77 boundary directions
+carry nonzero moment-map charges. Build must now source- or action-select the
+physical boundary gauge domain, or construct an owned edge-mode extension,
+before reduced presymplectic, polarization or common-domain descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -156,9 +160,10 @@ v0.65 gives it a lossless moving complete-germ Green receiver while retaining
 ordinary-pullback conormal loss. v0.66 constructs the normal-jet functor;
 v0.67 completes its K77 geometric substrate but proves its seven-way owner
 split is not canonical. v0.68 supplies the splitting-independent point-frame
-Green/presymplectic packet without a new vertical lift. Contact transformations
-and physical gauge basicness must close before reduced symplectic, BV and
-common-domain descent. Generic
+Green/presymplectic packet without a new vertical lift. v0.69 closes the local
+contact and small-gauge-basicness horn but leaves all ten unrestricted boundary
+charges live. Boundary-domain or edge-mode selection must close before reduced
+symplectic, BV and common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

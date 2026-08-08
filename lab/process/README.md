@@ -15,13 +15,15 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.68. The complete
-field-plus-metric-normal Green one-form and its presymplectic exterior
-derivative are exactly natural under nonlinear point-frame splitting changes.
-All ten K77 normal momentum corrections fire; deleting them creates the
-partial-potential defect. A vertical B/T lift is unnecessary for coordinate
-descent. Contact-term coefficient assembly and physical gauge basicness remain
-open. See `selected-k77-green-potential-splitting-basicness.json`.
+Current append-only progress surface: ledger v0.69. The actual rank-ten
+Levi-Civita contact block satisfies diagonal two-connection Ward descent. The
+contact presymplectic form is basic for small/Dirichlet gauge, while all ten
+unrestricted K77 boundary directions carry live moment-map charges. Physical
+boundary-domain or edge-mode selection remains open. See
+`selected-k77-contact-presymplectic-gauge-basicness.json`.
+
+Predecessor append-only progress surface: ledger v0.68. The complete Green
+potential and presymplectic exterior derivative are point-splitting natural.
 
 Predecessor append-only progress surface: ledger v0.67. The exact
 ten-direction K77 geometry bank is complete and the seven owner buckets are
@@ -137,7 +139,13 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.68.json` - current append-only conditional
+- `conditional-physics-ledger-v0.69.json` - current append-only conditional
+  physics ledger after exact contact small-gauge basicness and live boundary
+  moment-map charges.
+- `selected-k77-contact-presymplectic-gauge-basicness.json` - records the
+  rank-ten contact owner, diagonal Ward closure, small-gauge kernel and open
+  physical boundary reduction.
+- `conditional-physics-ledger-v0.68.json` - predecessor append-only conditional
   physics ledger after exact cotangent point-splitting basicness.
 - `selected-k77-green-potential-splitting-basicness.json` - records nonlinear
   and all-ten K77 cotangent naturality while keeping contact and physical-gauge

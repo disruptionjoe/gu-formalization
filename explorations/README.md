@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 contact-presymplectic gauge basicness (2026-08-08)
+
+`conditional-build/selected-k77-contact-presymplectic-gauge-basicness-2026-08-08.md`
+constructs the actual rank-ten Levi-Civita contact block and proves diagonal
+two-connection Ward closure. The presymplectic form is basic for
+small/Dirichlet gauge, while unrestricted boundary gauge has a nonzero moment
+map in all ten K77 directions. The boundary domain or edge-mode extension is
+open. Ledger v0.69 moves no verdict or residue.
+
 ## K77 Green-potential point-splitting basicness (2026-08-08)
 
 `conditional-build/selected-k77-green-potential-splitting-basicness-2026-08-08.md`

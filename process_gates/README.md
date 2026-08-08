@@ -190,6 +190,7 @@ selected notes below and in each script header.
 - `selected_nonzero_background_cartan_spencer_owner_scope_audit.py`
 - `selected_source_varpi_cartan_composition_scope_audit.py`
 - `selected_k77_cartan_spencer_signature_correction_scope_audit.py`
+- `selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py`
 - `selected_k77_full_reduction_quotient_reconciliation_scope_audit.py`
 - `selected_k77_source_graph_basicness_scope_audit.py`
 - `selected_second_layer_actual_source_lift_rank_mismatch_scope_audit.py`
@@ -2035,3 +2036,13 @@ normal/base momentum corrections and a firing partial-potential control. It
 retires the vertical B/T lift only for point-trivialization descent, keeps
 derivative-dependent contact transformations and physical gauge basicness
 open, and freezes verdicts, residue, quotients, P1/P2/P3, canon and posture.
+
+## K77 contact-presymplectic gauge basicness v0.69 gate
+
+`selected_k77_contact_presymplectic_gauge_basicness_scope_audit.py` requires
+the actual rank-ten Levi-Civita contact block, diagonal two-connection Ward
+closure, fixed-parameter Lie invariance and small/Dirichlet-gauge
+horizontality. It separately requires the nonzero unrestricted boundary
+moment map in all ten K77 directions, keeps the physical boundary domain or
+edge-mode extension and full nonlinear ambient reduction open, and freezes
+verdicts, residue, quotients, P1/P2/P3, canon and posture.

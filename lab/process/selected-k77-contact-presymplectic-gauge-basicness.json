@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "status": "SMALL_GAUGE_BASIC__BOUNDARY_CHARGE_LIVE",
+  "created": "2026-08-08",
+  "lane": "1",
+  "functional_channels": [
+    "BUILD",
+    "COMPOSE",
+    "SOURCE",
+    "VERIFY"
+  ],
+  "ledger_rows": [
+    "LT-GR1",
+    "LT-GR2b",
+    "LT-GR3",
+    "LT-GR5",
+    "LT-GR6"
+  ],
+  "source_return": "SOURCE-SILENT__PHYSICAL_BOUNDARY_GAUGE_CLASS__REPO-DERIVES__SMALL_GAUGE_BASIC_WITH_BOUNDARY_MOMENT_MAP",
+  "layer0": {
+    "point_frame_cotangent_descent": "PREDECESSOR_EXACT",
+    "derivative_dependent_contact_descent": "EXACT_AT_LOCAL_PRINCIPAL_GRADE",
+    "diagonal_two_connection_gauge": "SAME_OBJECT_AS_AUGMENTED_TORSION_GAUGE_DIRECTION",
+    "frozen_one_connection_motion": "PLANTED_WRONG_OBJECT",
+    "lie_invariance": "EXACT_BUT_NOT_SUFFICIENT_FOR_BASICNESS",
+    "small_gauge_horizontality": "EXACT",
+    "unrestricted_boundary_gauge_horizontality": "FAILS_BY_EXACT_MOMENT_MAP",
+    "reduced_bfv_phase_space": "NOT_CONSTRUCTED"
+  },
+  "preregistered_endings": {
+    "SMALL_GAUGE_BASIC__BOUNDARY_CHARGE_LIVE": "FIRED",
+    "FULL_GAUGE_BASIC": "DID_NOT_FIRE",
+    "CONTACT_OWNER_INCOMPLETE": "DID_NOT_FIRE_AT_LOCAL_PRINCIPAL_GRADE",
+    "WARD_DEFECT_LIVE": "DID_NOT_FIRE_FOR_DIAGONAL_TWO_CONNECTION_GAUGE"
+  },
+  "exact_result": {
+    "spin_levi_civita_symbol_rank": 10,
+    "metric_contact_coefficients_nonzero": 10,
+    "complete_observation_preserved_rank": 10,
+    "diagonal_contact_kernel_dimension": 10,
+    "frozen_reference_defect_rank": 10,
+    "finite_contact_hessian_rank": 3,
+    "finite_contact_gauge_kernel_dimension": 4,
+    "small_gauge_parameter_dimension": 2,
+    "boundary_symmetry_parameter_dimension": 2,
+    "small_gauge_contraction": "ZERO",
+    "all_fixed_gauge_lie_derivative": "ZERO",
+    "unrestricted_boundary_contraction": "NONZERO_EXACT_FIELD_DERIVATIVE_OF_MOMENT_MAP",
+    "k77_normal_boundary_charges_nonzero": 10,
+    "independent_sage_qq_replay": "PASS"
+  },
+  "construction_disposition": {
+    "local_contact_coefficient_owner": "EXACT",
+    "diagonal_two_connection_bulk_ward": "EXACT",
+    "small_gauge_presymplectic_basicness": "EXACT",
+    "unrestricted_boundary_gauge_basicness": "NOT_ESTABLISHED__BOUNDARY_CHARGE_LIVE",
+    "physical_boundary_condition_or_edge_mode_extension": "OPEN",
+    "full_nonlinear_ambient_y14_contact_coefficients": "OPEN",
+    "reduced_bv_bfv_phase_space": "OPEN",
+    "polarization_and_common_domain": "OPEN"
+  },
+  "constraint_accounting": {
+    "new_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "boundary_condition_selected": false,
+    "edge_mode_added": false
+  },
+  "external_datum": {
+    "P1": "UNUSED",
+    "P2": "UNUSED",
+    "P3": "UNUSED",
+    "free_object_delta": 0
+  },
+  "program_fences": {
+    "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+    "third_lane": "NOT_PROMOTED",
+    "claim_status_change": "NONE",
+    "canon_verdict_change": "NONE",
+    "public_posture_change": "NONE"
+  },
+  "next_gate": "SOURCE_OR_ACTION_SELECT_PHYSICAL_BOUNDARY_GAUGE_DOMAIN_OR_EDGE_MODE_EXTENSION__THEN_REDUCED_PRESYMPLECTIC_POLARIZATION_AND_COMMON_DOMAIN"
+}

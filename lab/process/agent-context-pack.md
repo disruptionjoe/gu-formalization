@@ -14,18 +14,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > retains two historical predecessor records, `LT-GR2` and `AC-G1`, so a raw
 > row count is 84 and a raw verdict count is `33/19/26/6`. Exclude exactly
 > those two typed predecessors; do not erase them or inflate the active meter.
-> Ledger v0.68 proves that the complete action-owned Green potential and its
-> field-space exterior derivative are exactly natural under nonlinear
-> point-frame changes and cotangent lifts, including a three-chart cocycle.
-> All ten K77 normal directions require the induced normal/base momentum
-> correction; omitting it gives a live defect. Therefore no vertical B/T lift
-> is required merely for point-trivialization descent. Derivative-dependent
-> Levi-Civita/soldering/observation contact transformations and physical gauge
-> basicness remain open. Keep
+> Ledger v0.69 inserts the actual rank-ten Levi-Civita contact block and
+> complete observation dual. Diagonal motion of both connections satisfies the
+> Ward identity exactly; freezing the Levi-Civita reference is a planted wrong
+> object. The contact presymplectic form is invariant and horizontal for
+> small/Dirichlet gauge, but every unrestricted K77 boundary direction carries
+> a nonzero moment-map charge. Do not quotient those transformations unless a
+> physical boundary domain or owned edge-mode extension decides their status.
+> Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
-> contact-coefficient assembly and physical-gauge basicness gate, then reduced
-> symplectic/BV descent. Generic carrier search
+> physical-boundary-domain or edge-mode gate, then reduced presymplectic,
+> polarization and common-domain descent. Generic carrier search
 > is closed. `RA-D2` source-locus/index/survivor adjudication is the preferred
 > disjoint side gate. See
 > `lab/process/conditional-ledger-priority-decision-2026-08-07.md`. The modeled
@@ -64,7 +64,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > trivialization-dependent; only the total mixed Hessian is intrinsic. Ledger
 > v0.68 then proves exact point-splitting cotangent and presymplectic
 > naturality, while leaving contact transformations and physical gauge
-> basicness open.
+> basicness open. Ledger v0.69 closes the local contact and small-gauge horn,
+> while proving that unrestricted boundary transformations carry live charges
+> in all ten K77 normal directions.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -114,8 +116,8 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > It does not transfer to settled `Cl(7,7)=M(128,R)`, whose replacement group,
 > local `I_16` and global anomaly receptacle are open. Ledger v0.50 supersedes
 > stale row `AC-G1` with `AC-G1a NEEDS/MISSING_CONSTRUCTION`. The authoritative
-> next gate is the functional-contract coefficientwise contact-term and
-> physical-gauge basicness test for the v0.68 Green/presymplectic packet;
+> next gate is the functional-contract physical-boundary-domain or owned
+> edge-mode test for the v0.69 contact/presymplectic packet;
 > historical campaign-local
 > pointers are not queue truth.
 
@@ -176,7 +178,9 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > moving complete-germ Green receiver including ordinary-pullback conormal
 > loss, v0.66's exact mixed-Hessian normal Euler functor, and v0.67's exact
 > ten-direction K77 geometry bank plus noncanonical-owner-split correction,
-> and v0.68's exact point-frame cotangent/presymplectic naturality.
+> v0.68's exact point-frame cotangent/presymplectic naturality, and v0.69's
+> exact diagonal contact Ward and small-gauge basicness with live boundary
+> moment map.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
@@ -188,9 +192,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > `-J_2D` target to a derivation. Preserve the exact nonlinear point-frame
 > cotangent lift, three-splitting cocycle and all-ten K77 presymplectic
 > transport; do not add a vertical B/T lift for point-trivialization descent.
-> Now assemble the derivative-dependent gauge-rotated-Levi-Civita, soldering
-> and observation contact coefficients and test contraction and Lie derivative
-> on physical gauge directions. Do not substitute the Levi-Civita subclass: its linearized
+> Now source- or action-select the physical boundary gauge domain, or construct
+> the owned edge-mode extension and moment map; then test the reduced
+> presymplectic class before polarization and common-domain descent. Do not
+> quotient a transformation with live boundary charge. Do not substitute the Levi-Civita subclass: its linearized
 > torsion-free response is q-exact. Do not use
 > background subtraction without an action/counterterm owner.
 > Then derive the scalar polynomial and massless constraint complex. Coupled

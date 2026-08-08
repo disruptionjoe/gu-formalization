@@ -8,17 +8,24 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.68; five
+**Current Build/Compose result 2026-08-08 (ledger v0.69; five
+distance/mapping-grade/evidence migrations).** The actual rank-ten
+Levi-Civita contact block and complete first-jet observation dual satisfy the
+diagonal two-connection Ward identity. The contact presymplectic form is Lie
+invariant and horizontal for small/Dirichlet gauge. Unrestricted boundary
+gauge is not horizontal: all ten K77 normal directions carry a nonzero
+moment-map charge. The physical boundary domain or an owned edge-mode
+extension, full nonlinear ambient coefficients, reduced BFV, polarization and
+common domain remain open. No verdict, residue, quotient, datum, canon or
+public-posture change follows.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.68; five
 distance/mapping-grade/evidence migrations).** The complete
 field-plus-metric-normal Green one-form is exactly natural under a nonlinear
 point-frame change and cotangent lift; its field-space exterior derivative is
 natural as well. A three-splitting cocycle closes, and all ten K77 normal
-momentum corrections are nonzero. Omitting them produces the live partial-
-potential defect. No vertical B/T connection is required for this coordinate
-descent. Derivative-dependent Levi-Civita/soldering/observation contact terms,
-coefficientwise selected-action assembly and physical gauge basicness remain
-open. No verdict, residue, quotient, datum, canon or public-posture change
-follows.
+momentum corrections are nonzero. No vertical B/T connection is required for
+this coordinate descent.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.67; five
 distance/mapping-grade/evidence migrations).** All ten metric-normal
