@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 stationary two-layer Hessian factorization (2026-08-08)
+
+`conditional-build/selected-k77-stationary-two-layer-hessian-factorization-2026-08-08.md`
+composes the stationary residual-square theorem with v0.81. The next Build is
+the common-field `D Upsilon` block matrix, residual pairing/formal adjoint and
+Green concomitant, followed by `J R=0` and the stationary Gram Hessian.
+Physical Shiab/Hodge constituent motion remains live; `D2 Upsilon`, moving-
+pairing derivatives and independent observation columns are not part of this
+stationary bulk gate.
+
 ## K77 coupled Euler-complex scope correction (2026-08-08)
 
 `conditional-build/selected-k77-coupled-euler-complex-scope-2026-08-08.md`

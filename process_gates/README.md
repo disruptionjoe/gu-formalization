@@ -2167,6 +2167,17 @@ layer addition. It rejects a 21-dimensional formal Ward fit as construction
 and keeps microlocal hyperbolicity, common Green/Krein domain, global BV-BFV,
 P1/P2/P3, canon and public posture open.
 
+## K77 stationary two-layer Hessian factorization v0.82 gate
+
+`selected_k77_stationary_two_layer_hessian_factorization_audit.py` requires
+the exact stationary `H2=(D Upsilon)^!K*(D Upsilon)` factorization, preserves
+independent physical Shiab/Hodge constituent movement, rejects substitution
+of the first-action Schur Hessian for the residual Jacobian, and keeps
+observation as a dependent receiver. It requires symplectic, Krein and
+complex/path-integral fences and leaves the actual common-field `D Upsilon`,
+pairing/formal adjoint, Green concomitant, physical kernel, BV-BFV,
+P1/P2/P3, canon and public posture open.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

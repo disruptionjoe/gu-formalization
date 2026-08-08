@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 STATIONARY TWO-LAYER FACTORIZATION (ledger v0.82).** At
+> complete `Upsilon*=0`, the second-layer bulk Hessian is exactly
+> `(D Upsilon)^!K*(D Upsilon)`. Do not brute-force `D2 Upsilon`, derivatives
+> of the pairing, or dependent receiver derivatives at this stationary gate.
+> Do retain independent physical `(D Shiab)F_A*` and
+> `(D Hodge)(kappa T*)` inside `D Upsilon`. Next assemble every common-field
+> block of `J=D Upsilon`, derive `K*`, the formal adjoint and Green
+> concomitant, verify `J R=0`, and only then form the Gram operator and open
+> microlocal/Krein/BV-BFV analysis. The first-action `34 x 34` Schur Hessian is
+> not a substitute for `D Upsilon`; observation is a dependent receiver unless
+> separately varied by the action. No external datum is used.
+
 > **2026-08-07 PRIORITY DECISION AND LEDGER ACCOUNTING.** The current ledger
 > contains 84 immutable row records but 82 active canonical targets. The two
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their

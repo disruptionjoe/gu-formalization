@@ -15,15 +15,19 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.81. The ten metric equations
-remain retained, but vertical-only action closure is retracted. The exact
-first layer is a Ward-basic 34-variable system with generic physical
-cohomology zero and an exceptional helicity-one pair. The separate second-
-layer metric block retains its TT helicity-two polynomial but has Ward-defect
-rank four; naive addition remains nonbasic, while formal completions have 21
-free directions. The next gate is the full selected two-layer common-field
-stationary Hessian and coupled Ward complex. See
-`selected-k77-coupled-euler-complex-scope.json`.
+Current append-only progress surface: ledger v0.82. At complete
+`Upsilon*=0`, the second-layer bulk Hessian is exactly the common-field
+`D Upsilon` Gram operator. Build now owns the typed `D Upsilon` blocks,
+residual pairing/formal adjoint, `J R=0` and Green concomitant before forming
+that Hessian. Physical Shiab/Hodge constituent movement remains live;
+second residual and moving-pairing derivatives drop only from this stationary
+bulk gate. See
+`selected-k77-stationary-two-layer-hessian-factorization.json`.
+
+Predecessor append-only progress surface: ledger v0.81. The ten metric
+equations remain retained, but vertical-only action closure is retracted. The
+full common-field two-layer complex is required; v0.82 narrows its stationary
+construction to the residual Jacobian, pairing, Ward and Green owners.
 
 Predecessor append-only progress surface: ledger v0.80. The complete equation
 dual retains the graph-conormal ten as metric-section Euler equations and the
@@ -151,10 +155,16 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.81.json` - current append-only conditional
-  physics ledger; retains ten metric-section equations, retracts vertical-only
-  closure, and makes the full selected two-layer common-field Hessian/Ward
-  complex primary.
+- `conditional-physics-ledger-v0.82.json` - current append-only conditional
+  physics ledger; reduces the stationary second-layer bulk-Hessian build to
+  typed `D Upsilon`, `K*`, Ward and Green owners without deleting physical
+  Shiab/Hodge constituent movement.
+- `selected-k77-stationary-two-layer-hessian-factorization.json` - exact
+  stationary Gram factorization, constituent-motion, dependent-observation,
+  indefinite-Krein and analytic fences plus the typed successor.
+- `conditional-physics-ledger-v0.81.json` - immutable predecessor ledger;
+  retains ten metric-section equations, retracts vertical-only closure, and
+  makes the full selected two-layer common-field complex primary.
 - `selected-k77-coupled-euler-complex-scope.json` - exact first-layer
   cohomology/helicity, second-layer Ward defect, naive-composition no-go,
   21-dimensional fit fence and coupled-owner successor.

@@ -237,3 +237,7 @@ identifications as separate grades.
   - returns `SOURCE-CORRECTS`: Weinstein's super-IG claim requires algebraic
     bracket/Jacobi/real-form/global descent but not a default odd action;
     parity and normalized-global-projector results remain repo-derived.
+- [`selected-k77-stationary-two-layer-hessian-factorization-source-reinspection-2026-08-08.md`](selected-k77-stationary-two-layer-hessian-factorization-source-reinspection-2026-08-08.md)
+  - confirms the residual norm-square and first-solution redundancy at the
+    exact Portal/draft loci; remains silent on the common-field `D Upsilon`,
+    residual pairing/formal adjoint and selected physical complex.

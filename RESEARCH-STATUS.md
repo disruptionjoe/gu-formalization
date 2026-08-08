@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.81; five
+**Current Build/Compose result 2026-08-08 (ledger v0.82; five
+distance/mapping-grade/evidence migrations; headline unchanged).** At a
+complete first-layer solution `Upsilon*=0`, the second-layer bulk Hessian is
+exactly `(D Upsilon)^! K* (D Upsilon)`. Second derivatives of the residual and
+derivatives of the moving pairing/receiver multiplying `Upsilon*` therefore
+drop from this stationary quadratic gate. Independent physical
+`(D Shiab)F_A*` and `(D Hodge)(kappa T*)` remain live inside `D Upsilon`, and
+observation remains a dependent receiver rather than a new action column. The
+next Build is the typed common-field `D Upsilon`, actual residual pairing and
+formal adjoint/Green concomitant, followed by `J R=0` and the Gram Hessian.
+No physical kernel, contour, Krein, BV-BFV, datum or headline result moves.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.81; five
 distance/mapping-grade/evidence migrations; headline unchanged).** The ten
 metric-section Euler coordinates remain retained, but they are not a closed
 selected-action subsystem. The completed first layer is a Ward-basic
