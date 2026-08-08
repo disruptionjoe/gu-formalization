@@ -75,6 +75,35 @@ forks:
       GU's split is 4+10, even/even, so the product rule applies either way.
       Distinct from REAL-CLIFFORD-FORM, which IS settled.
     named_resolver: >-
+      NONE, as of 2026-08-08. TWO resolvers have now been falsified on this row
+      in one day. (1) M-H9, falsified at Tier 1 -- see the provenance block
+      below. (2) THE DECLARED-BASE ROUTE, filed and falsified the same afternoon:
+      tests/source_signature_notation_is_mirrored.py shows the source writes
+      signature pairs as (negatives, positives), the MIRROR of this repository's
+      plus-first notation. Proof is not a judgement call -- the source states
+      THREE pairs for objects computed independently here (raw form (3,7),
+      traceless sector (3,6), trace-flipped (4,6)) and all three are exact
+      mirrors of the computed (7,3), (6,3), (6,4). The control is decisive: every
+      one of those forms is EVEN in A = g^-1 B, so all three are bit-identical at
+      every base sign, and the source's pairs are therefore NOT reachable by any
+      base choice. Consequently source "(1,3)" IS this repository's base (3,1),
+      source "(4,6)" IS the fibre (6,4), source "(5,9)" IS the total (9,5), and
+      THERE IS NO SOURCE/REPOSITORY CONVENTION DIVERGENCE -- the repository has
+      been on the source's own convention throughout. The route read a notational
+      mirror as a substantive disagreement.
+      WHAT THAT LEAVES, AND IT IS A LIVE LEAD ON THE OTHER SIDE: the source's own
+      block arithmetic (4,6)+(1,3)=(5,9) is CORRECT and equals this repository's
+      (9,5). The step that does NOT follow from the source's own numbers is its
+      ASSERTED total (7,7), which requires reading the horizontal block in the
+      opposite notation from the vertical -- two conventions mixed inside one sum.
+      This PRESSURES the settled REAL-CLIFFORD-FORM row, whose settled_how cites
+      "Curt/Eric's exact source-typed arithmetic": if that arithmetic yields
+      (5,9) == (9,5), the Cl(7,7) settlement rests on the source's assertion
+      rather than its arithmetic. NOT ACTED ON -- that is the highest-fan-out row
+      in the program and unsettling it requires its own review; and it asks which
+      algebra the SOURCE COMPUTES IN, which this registry marks distinct from the
+      ambient signature. Recorded so it is not lost.
+      SUPERSEDED CANDIDATE FOLLOWS, retained for provenance --
       CANDIDATE as of 2026-08-08 -- THE DECLARED-BASE ROUTE. Not a settlement;
       filed to replace the NONE that stood after M-H9 was falsified. The route:
       the source DECLARES the base as (1,3) in five independent AUTHOR-STATED
