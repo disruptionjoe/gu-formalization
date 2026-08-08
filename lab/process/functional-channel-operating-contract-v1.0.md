@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.77.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.77.md`.
+`lab/process/conditional-physics-ledger-v0.78.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.78.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -132,9 +132,12 @@ oriented endpoint restrictions fit the existing dressing. Do not call this
 the full `U(64,64)` carrier, physical Krein domain or global BFV phase space.
 Ledger v0.77 closes the full **pointwise** `u(64,64)` coefficient-fibre
 extension and finds live grades `1,2,5`; grade 5 changes the observed inertia
-to `(4,6,0)` without changing rank. The next Build is global adjoint-bundle
-patching and physical-observation overlap, then global `tau_A0`/BFV and
-common-domain descent.
+to `(4,6,0)` without changing rank. Ledger v0.78 composes that covector with
+the owned global `P_H` law: independently recomputed seed and held-out banks,
+the complete observation dual, no-leakage projector and pairing pass direct
+and sequential noncommuting overlaps. The next Build is the actual physical
+observation-section jet and arbitrary-X integrability/faithfulness, then
+global `tau_A0`/BFV and common-domain descent.
 
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
@@ -207,9 +210,10 @@ geometry. v0.75 rejects `p=KT` as selected-action ownership while preserving
 the universal contact theorem. v0.76 supplies the exact selected low-grade
 all-ten `E_B-E_T` bank, lossless complete observation and local endpoint
 acceptance. v0.77 supplies the full pointwise coefficient bank and corrects
-the low-grade coefficient geometry. Global bundle patching, physical
-observation and `tau_A0` law must close before global BFV and common-domain
-descent. Generic
+the low-grade coefficient geometry. v0.78 closes the finite noncommuting
+action/complete-observation/no-leakage overlap law. The actual physical
+observation section and `tau_A0` law must close before global BFV and
+common-domain descent. Generic
 ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

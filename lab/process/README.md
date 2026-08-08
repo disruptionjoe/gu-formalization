@@ -15,12 +15,13 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.77. The selected
-`comm/symi/symi` action covector is exact on all 16,384 real directions of the
-pointwise K77 `u(64,64)` comparator. Ranks remain `14/10`, while live grade-5
-support corrects the observed full-support inertia to `(4,6,0)`. Global
-adjoint-bundle patching, physical observation, `tau_A0`/BFV and common-domain
-extension remain open. See `selected-k77-full-u6464-action-bank.json`.
+Current append-only progress surface: ledger v0.78. The complete selected K77
+action covector passes noncommuting three-patch coadjoint laws after patchwise
+recomputation. The co-moving complete equation dual, no-leakage projector and
+full-support pairing descend on seed and held-out backgrounds; frozen controls
+fire. Actual physical observation-section integrability/faithfulness,
+preferred Shiab, `tau_A0`/BFV and common-domain extension remain open. See
+`selected-k77-action-bundle-observation-overlap.json`.
 
 Predecessor append-only progress surface: ledger v0.69. The local contact form
 is small-gauge basic and has a live unrestricted boundary moment map.
@@ -139,9 +140,12 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.77.json` - current append-only conditional
-  physics ledger after extending the selected-action bank to the full
-  pointwise K77 `u(64,64)` comparator and correcting its coefficient geometry.
+- `conditional-physics-ledger-v0.78.json` - current append-only conditional
+  physics ledger after composing the full selected-action bank with the global
+  K77 bundle law and complete observation/no-leakage overlap.
+- `selected-k77-action-bundle-observation-overlap.json` - records the exact
+  noncommuting action-covector, observation-dual, projector and pairing descent,
+  fired controls and physical-section/BFV/domain successor fence.
 - `selected-k77-full-u6464-action-bank.json` - records the full pointwise
   real-form dimensions, grade support, exact ranks, corrected inertias,
   held-out control and global successor fence.

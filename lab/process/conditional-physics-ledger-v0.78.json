@@ -201,7 +201,7 @@
     "LEFT_INVERSE_WITH_HIDDEN_AMBIENT_COVECTOR",
     "ARBITRARY_X_PHYSICAL_OBSERVATION_SECTION_INTEGRABILITY"
   ],
-  "collision_disposition": "NO_COLLISION__CENTRAL_CLAIM_ACQUIRED_BEFORE_OWNER_WRITE",
+  "collision_disposition": "COLLISION__CONCURRENT_COMMIT_830E87C4_CAPTURED_NEW_V078_ARTIFACTS_WHILE_CLAIM_HELD__RECONCILED_WITHOUT_DUPLICATE_OR_DESTRUCTIVE_REWRITE",
   "residue": {
     "continuous_real": 84,
     "continuous_real_note": "before any quotient; CB-D's 83 consists of packet subtotal 82 plus the gimmel block ratio, while lambda_def is the independently written relative X/Y action coefficient and is not kappa_1 or a charged source_norm coordinate",

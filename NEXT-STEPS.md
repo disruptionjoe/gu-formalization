@@ -12,11 +12,13 @@ updated_at: "2026-08-08"
 > excluded historical predecessors are exactly `LT-GR2` and `AC-G1`; their
 > successors own the active `32/19/26/5` verdict meter. See
 > [`lab/process/conditional-ledger-priority-decision-2026-08-07.md`](lab/process/conditional-ledger-priority-decision-2026-08-07.md).
-> Ledger v0.77 extends the selected `E_B-E_T` bank to every real direction of
-> the pointwise K77 `u(64,64)` comparator. Ranks remain `14/10`, but 476 live
-> grade-5 coordinates correct the observed full-support inertia to `(4,6,0)`;
-> rank alone was not a completeness test. The next gate is global
-> adjoint-bundle patching and physical-observation overlap, followed by global
+> Ledger v0.78 composes the full selected `E_B-E_T` covector with the
+> already-owned global K77 `P_H` bundle. Independently recomputed seed and
+> held-out banks pass pairwise and direct noncommuting overlaps; the complete
+> observation dual, no-leakage projector and full-support pairing descend.
+> Freezing either receiver/projector fails, and `R L=1` alone retains a hidden
+> covector. The next gate is the actual `Y^14` observation-section jet,
+> arbitrary-X integrability and physical faithfulness, followed by global
 > `tau_A0`, BFV, polarization and common-domain work.
 > Generic carrier search is closed.
 > The bounded `RA-D2` source-locus/index/survivor adjudication is the preferred
@@ -186,12 +188,19 @@ updated_at: "2026-08-08"
 > observed coefficient-image inertia from `(5,5,0)` to `(4,6,0)` without
 > changing rank `14/10`, so v0.76 was rank-complete but not geometry-complete.
 
-> **NEXT RUN: GLOBAL ACTION-BUNDLE AND PHYSICAL OBSERVATION.** Patch the exact
-> pointwise covector over the actual K77 adjoint bundle and prove physical
-> observation overlap, then assemble the global `tau_A0`/BFV moment map and
-> common Green/Krein domain. Do not promote two-fixture live grades to a
-> universal selection theorem or the coefficient form to physical positivity.
-> Symplectic review remains mandatory.
+> **2026-08-08 ACTION-BUNDLE AND OBSERVATION OVERLAP (ledger v0.78).**
+> [`explorations/conditional-build/selected-k77-action-bundle-observation-overlap-2026-08-08.md`](explorations/conditional-build/selected-k77-action-bundle-observation-overlap-2026-08-08.md)
+> composes the owned global `P_H/gamma_epsilon` bundle with the full action
+> covector. Two noncommuting transitions and their direct cocycle pass after
+> patchwise recomputation on two backgrounds. The co-moving complete equation
+> dual, no-leakage projector and pairing descend; frozen controls fire.
+
+> **NEXT RUN: PHYSICAL OBSERVATION-SECTION INTEGRABILITY.** Construct the
+> actual `Y^14` section value/jet, prove arbitrary-X integrability, ordinary-
+> pullback faithfulness and physical no leakage, then assemble the global
+> `tau_A0`/BFV moment map and common Green/Krein domain. Do not promote the
+> finite overlap certificate to an arbitrary-atlas theorem or the coefficient
+> form to physical positivity. Symplectic review remains mandatory.
 
 > **PREDECESSOR — FULL-FRAME GRAPH/BASICNESS GATE (ledger v0.58).**
 > [`explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md`](explorations/conditional-build/selected-k77-source-graph-basicness-2026-08-07.md)

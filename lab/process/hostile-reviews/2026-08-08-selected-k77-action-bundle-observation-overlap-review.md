@@ -1,3 +1,8 @@
+---
+artifact_type: hostile_review
+mandatory_lenses: [layer0_semantics, prior_art, symplectic_geometry, principal_bundle_geometry, variational_pde, krein_operator]
+---
+
 # Hostile review — selected K77 action-bundle and observation overlap
 
 Date: 2026-08-08
@@ -52,6 +57,21 @@ observation by a section.  They do not print this complete equation dual,
 projector, preferred Shiab or BFV theorem.  Those are repo constructions.
 The source return is correctly split into `SOURCE-CONFIRMS`, `SOURCE-SILENT`
 and `REPO-DERIVES` clauses.
+
+## Charge 3 — if this result stands, what else must change?
+
+| surface | disposition | required consequence |
+| --- | --- | --- |
+| ledger rows `LT-GR1`, `LT-GR2b`, `LT-GR3`, `LT-GR5`, `LT-GR6` | **survives with narrower distance** | migrate from pointwise/global-overlap-open to physical-section-integrability/BFV-domain-open |
+| ledger v0.77 and its full pointwise-bank report | **survives** | retain as the coefficient-fibre predecessor; do not rewrite it as a global theorem |
+| current queue/context/contract pointers | **survives with update** | point to v0.78 and the physical observation-section successor |
+| preferred historical Shiab, global `tau_A0`/BFV and common domain | **needs-recheck** | no conclusion follows from finite overlap descent |
+| arbitrary-X Lorentz/observation-section existence and jet holonomicity | **needs-recheck** | construct rather than infer from the associated-bundle law |
+| canon verdict, claim status, public posture, P1/P2/P3 | **survives unchanged** | no propagation or promotion authorized |
+
+Nothing is dissolved. The result shortens five construction distances and
+supersedes only the statement that action/complete-observation overlap itself
+is still untested.
 
 ## Two-sided synthesis audit
 

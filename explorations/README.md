@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 action-bundle and observation overlap (2026-08-08)
+
+`conditional-build/selected-k77-action-bundle-observation-overlap-2026-08-08.md`
+composes the source-owned global `P_H/gamma_epsilon` bundle with the complete
+selected-action covector. Independently recomputed seed and held-out banks
+pass pairwise and direct noncommuting three-patch overlaps. The co-moving
+complete equation dual, no-leakage projector and full-support pairing descend;
+frozen receiver/projector and left-inverse-only plants fire. Arbitrary-X
+physical-section integrability/faithfulness, preferred Shiab, global BFV and
+common domain remain open. Ledger v0.78 moves no headline count.
+
 ## K77 full pointwise u(64,64) action bank (2026-08-08)
 
 `conditional-build/selected-k77-full-u6464-action-bank-2026-08-08.md`

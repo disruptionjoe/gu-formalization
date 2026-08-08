@@ -8,17 +8,22 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.77; five
-distance/mapping-grade/evidence migrations; headline unchanged).** The
-selected `comm/symi/symi` action covector is exact on every one of the 16,384
-real directions in the pointwise K77 `u(64,64)` comparator. The full/normal
-ranks remain `14/10`, but 476 live grade-5 coordinates change the observed
-full-support inertia from the v0.76 low-grade `(5,5,0)` to `(4,6,0)`. A
-held-out background retains live grades `1,2,5` with a distinct support union.
-This is complete pointwise coefficient-fibre algebra, not global
-adjoint-bundle patching or a physical observation theorem. Global bundle,
-physical observation, `tau_A0`/BFV and common-domain work remain open.
+**Current Build/Compose result 2026-08-08 (ledger v0.78; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The full
+selected K77 action covector now passes pairwise and direct noncommuting
+three-patch overlap laws after every patch bank is independently recomputed.
+The complete observation equation dual, co-moving no-leakage projector and
+full-support coefficient pairing descend on seed and held-out backgrounds.
+Frozen receiver/projector controls fail, and an explicit hidden covector shows
+that `R L=1` alone is not no leakage. This composes the source-owned global
+`P_H/gamma_epsilon` bundle law, but does not construct an integrable physical
+observation section on arbitrary `X`. Physical-section faithfulness,
+preferred Shiab, global `tau_A0`/BFV and common-domain work remain open.
 Verdicts, residue, quotients, P1/P2/P3, canon and public posture do not move.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.77).** The selected
+action covector is exact on all 16,384 pointwise real directions, with ranks
+`14/10`, live grades `1,2,5`, and corrected full-support inertia `(4,6,0)`.
 
 **Predecessor Build/Compose result 2026-08-08 (ledger v0.76).** The exact
 low-grade action bank already had ranks `14/10`, lossless complete observation

@@ -16,7 +16,7 @@ for phrase in (
     "recomputed",
     "Freezing either one",
     "left-invertibility alone is not promoted to no leakage",
-    "does **not** construct an integrable physical observation section",
+    "construct an integrable physical observation section on arbitrary",
     "P1/P2/P3 consumed: 0",
 ):
     assert phrase in report, phrase

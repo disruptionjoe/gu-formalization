@@ -2124,3 +2124,20 @@ opposite local endpoint orientations. It forbids promotion to the full
 symplectic hostile review and explicit P1/P2/P3 non-use. It forbids promotion
 to global adjoint-bundle, physical observation, preferred-Shiab, BFV,
 common-domain, canon or public-posture status.
+
+## K77 action-bundle and observation-overlap v0.78 gate
+
+`selected_k77_action_bundle_observation_overlap_scope_audit.py` requires
+patchwise recomputation under two noncommuting K77 transitions, exact direct
+and sequential action/complete-observation/no-leakage-projector descent, fired
+frozen-map and hidden-covector controls, a symplectic hostile review, and
+explicit P1/P2/P3 non-use. It forbids promotion to arbitrary-X physical
+section integrability, ordinary-pullback faithfulness, preferred Shiab,
+global BFV/common domain, canon or public-posture status.
+
+## Hostile-review lens coverage and independent-adjudication gate
+
+`hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens
+census without treating a distribution as a failure. Its separate hard gate
+names any live over-determined row whose adjudication evidence still points
+only to the cluster that found it, enforcing the independent-owner rule.

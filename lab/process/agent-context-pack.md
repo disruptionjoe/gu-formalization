@@ -35,9 +35,12 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > Ledger v0.77 then evaluates the same covector on all 16,384 real pointwise
 > K77 `u(64,64)` directions. Ranks stay `14/10`, but 476 live grade-5
 > coordinates correct the observed full-support inertia from `(5,5,0)` to
-> `(4,6,0)`. Next patch the covector as a global adjoint-bundle section and
-> prove physical-observation overlap, then global `tau_A0`/BFV and common
-> domain.
+> `(4,6,0)`. Ledger v0.78 composes it with the already-owned global `P_H`
+> law: independently recomputed seed and held-out banks pass direct and
+> sequential noncommuting overlaps, as do the co-moving complete equation
+> dual, no-leakage projector and pairing. Next construct the actual `Y^14`
+> observation-section jet and prove arbitrary-X integrability/faithfulness,
+> then global `tau_A0`/BFV and common domain.
 > Keep
 > the labelled ambient `(6,6)` screen distinct from the separate 4D
 > `10 -> 6 -> 2` physical null quotient. The accepted next sequence is the
@@ -95,8 +98,10 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > v0.75 shows that `p=KT` is a generic quadratic contact realization, not the
 > selected-action owner. v0.76 constructs the exact selected low-grade bank
 > and local endpoint acceptance. v0.77 closes the full **pointwise**
-> coefficient-fibre extension and corrects the pairing geometry; global
-> bundle/physical observation and BFV/common domain remain open.
+> coefficient-fibre extension and corrects the pairing geometry. v0.78 closes
+> the finite noncommuting associated-bundle/complete-observation/projector
+> overlap law; physical-section integrability/faithfulness and BFV/common
+> domain remain open.
 
 > **PREDECESSOR NONZERO-BACKGROUND CARTAN/SPENCER FENCE.** At
 > `T*=-(kappa_1/312)Phi1 != 0`, the unrestricted metric-compatible connection
@@ -218,9 +223,11 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 > K77 source/target cotangent reduction and its material negative result:
 > one holonomy imposes `p0=p2` and reduces `40/40` to `20/20`, so the action
 > cannot be compressed to one path cotangent. Preserve v0.75's arbitrary-`K`
-> rejection, v0.76's exact selected low-grade rank-ten bank and v0.77's full
-> pointwise coefficient/support correction. Globalize that covector and the
-> physical observation section rather than fitting a constitutive receiver.
+> rejection, v0.76's exact selected low-grade rank-ten bank, v0.77's full
+> pointwise coefficient/support correction, and v0.78's exact noncommuting
+> action/complete-observation/no-leakage overlap law. Construct the actual
+> physical observation section and its integrability rather than fitting a
+> constitutive receiver.
 > Preserve the
 > distinction between primitive Euler, homogeneous Ward and presymplectic
 > current. Preserve v0.62's exact labelled-null
