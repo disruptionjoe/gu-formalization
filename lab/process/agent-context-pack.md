@@ -9,13 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.82 stationary factorization:** at complete `Upsilon*=0`, the
-> second-layer bulk Hessian is `(D Upsilon)^!K*(D Upsilon)`. Build the typed
-> common-field residual Jacobian once, retaining physical Shiab/Hodge
-> constituent movement; derive `K*`, formal adjoint and Green concomitant;
-> prove `J R=0`; then form the Gram operator. Do not retype the first-action
-> Schur Hessian as `D Upsilon`, add an independent observation column, or infer
-> a physical kernel/contour/BFV quotient from the finite factorization.
+> **Current v0.83 common-field block:** the source-owned horizontal
+> `D_varpi Upsilon` is exact and injective on 24 dimensions, but its
+> diffeomorphism interface has rank three. The old metric-only diagnostic has
+> rank-four Ward load and therefore is not importable as the common-field
+> stationary `g-g` Gram block on the fixed-`epsilon` horn. Construct physical
+> `D_g Upsilon` and source `D_epsilon Upsilon` together, prove complete
+> `J R=0`, then derive `K*`, formal adjoint and Green concomitant before forming
+> the Gram operator. Printed `Xi=D_omega Upsilon` is a covariant prolongation,
+> not the missing epsilon Frechet block. Do not infer an absolute kill,
+> physical kernel, contour or BV-BFV quotient from the finite rank theorem.
 
 > **CURRENT PRIORITY AND LEDGER ACCOUNTING.** The active meter is correctly
 > `82/82 = 32 SAME + 19 DIFFERS + 26 NEEDS + 5 OVER-DETERMINED`. The JSON also

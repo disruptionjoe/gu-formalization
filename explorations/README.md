@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 common-field D-Upsilon varpi block (2026-08-08)
+
+`conditional-build/selected-k77-common-field-dupsilon-varpi-block-2026-08-08.md`
+restricts the exact all-grade residual response to the source-owned
+24-dimensional horizontal `varpi` carrier. The block is injective with 56 live
+output coordinates, but its diffeomorphism interface has rank three in every
+causal class. Thus the earlier rank-four metric diagnostic cannot be imported
+as the common-field stationary Gram block on the fixed-`epsilon` horn. The
+source-owned epsilon field remains the explicit constructive escape. Physical
+metric plus epsilon residual blocks, complete `J R=0`, pairing/adjoint and
+Green data are next. Ledger v0.83 moves no headline count or quotient.
+
 ## K77 stationary two-layer Hessian factorization (2026-08-08)
 
 `conditional-build/selected-k77-stationary-two-layer-hessian-factorization-2026-08-08.md`

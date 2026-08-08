@@ -2178,6 +2178,17 @@ complex/path-integral fences and leaves the actual common-field `D Upsilon`,
 pairing/formal adjoint, Green concomitant, physical kernel, BV-BFV,
 P1/P2/P3, canon and public posture open.
 
+## K77 common-field D-Upsilon varpi block v0.83 gate
+
+`selected_k77_common_field_dupsilon_varpi_block_audit.py` requires the exact
+24-dimensional source-horizontal `D_varpi Upsilon` block, its 56-coordinate
+grade support and rank-three causal diffeomorphism interface. It rejects
+promotion of an orbit-only metric completion and import of the older
+rank-four metric diagnostic on the fixed-`epsilon` horn, while preserving
+source `epsilon` as the unbuilt revival route. It requires the Layer-0
+distinction between covariant `D_omega Upsilon` and Frechet
+`D_epsilon Upsilon`, plus symplectic, Krein and complex/path-integral fences.
+
 ## Hostile-review lens coverage and independent-adjudication gate
 
 `hostile_review_lens_coverage_audit.py` reports the aggregate declared-lens

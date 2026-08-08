@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.82.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.82.md`.
+`lab/process/conditional-physics-ledger-v0.83.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.83.md`.
 
 Current K77 signature correction: v0.46/v0.55 called their executed metric
 `(7,7)`, but its inertia was `(9,5)`. The complete raw-target, selected-Shiab,
@@ -161,6 +161,17 @@ adjoint and Green concomitant, proves `J R=0`, and only then forms the Gram
 operator. Complex contour, path-integral, microlocal, Krein and BV-BFV claims
 remain downstream.
 
+Ledger v0.83 closes the source-owned horizontal `D_varpi Upsilon` block: it
+is injective on 24 dimensions with 56 live output coordinates, while its
+diffeomorphism interface has rank three in every causal class. The older
+metric-only diagnostic has rank-four Ward load, so it cannot be imported as
+the common-field stationary `g-g` Gram block on the fixed-`epsilon` horn. This
+is not an absolute kill. Source `epsilon` is an independent action variable;
+Build must construct physical `D_g Upsilon` and `D_epsilon Upsilon` together,
+prove complete `J R=0`, then derive the residual pairing, formal adjoint and
+Green concomitant. Printed `Xi=D_omega Upsilon` is an exterior-covariant
+prolongation and cannot stand in for the epsilon Frechet block.
+
 Current source-varpi/Cartan directive: preserve
 `T*=-(kappa_1/312)Phi1`, the exact zero branch-tangent operator packet and the
 principal `q`-exact connection theorem. The algebraic Cartan/Spencer map
@@ -240,12 +251,14 @@ diffeomorphism/identity subcomplex. v0.81 rejects vertical-only closure,
 closes the completed first-layer spin-two route, preserves the second-layer TT
 diagnostic with its rank-four Ward defect, and requires the full common-field
 two-layer Hessian. That coupled action-derived Euler/Ward comparison must
-close before microlocal, global BFV and common-domain descent. v0.82 narrows
-that comparison to a first-derivative Build: construct the typed
-common-field `D Upsilon`, actual residual pairing/formal adjoint and Green
-concomitant, prove `J R=0`, and form the stationary Gram operator. Do not
-rebuild `D2 Upsilon` or moving-pairing derivatives at residual zero, and do
-not delete physical Shiab/Hodge constituent movement inside `D Upsilon`.
+close before microlocal, global BFV and common-domain descent. v0.83 closes
+the source-horizontal `D_varpi Upsilon` block and rejects importing the old
+rank-four metric diagnostic on the fixed-`epsilon` horn. Construct physical
+`D_g Upsilon` and source `D_epsilon Upsilon` together, prove complete
+`J R=0`, then derive the residual pairing/formal adjoint and Green concomitant
+before forming the stationary Gram operator. Do not substitute printed
+covariant `D_omega Upsilon` for the epsilon Frechet block, rebuild
+`D2 Upsilon`, or delete physical Shiab/Hodge constituent movement.
 Generic ambient carrier search is closed. The bounded `RA-D2` source-locus/index/
 survivor adjudication is the preferred disjoint side gate. After the main
 three-stage chain, Compose compares the vacuum/stabilizer orbit, P1/P2/P3

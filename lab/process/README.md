@@ -15,14 +15,21 @@ four-column-plus-integrability -> Euler/symplectic sequence with `RA-D2` as the
 preferred disjoint side gate. Its persona aggregation is planning evidence,
 not scientific evidence.
 
-Current append-only progress surface: ledger v0.82. At complete
+Current append-only progress surface: ledger v0.83. The source-owned
+24-dimensional horizontal `D_varpi Upsilon` block is exact and injective, with
+56 live output coordinates. Its diffeomorphism interface has rank three, so
+the earlier rank-four metric diagnostic cannot be imported as the stationary
+common-field `g-g` Gram block on the fixed-`epsilon` horn. Build now owns the
+physical metric plus source-epsilon residual blocks and complete `J R=0`, then
+the residual pairing, formal adjoint and Green concomitant. Printed
+`Xi=D_omega Upsilon` remains a covariant prolongation, not the missing
+`D_epsilon Upsilon`. See
+`selected-k77-common-field-dupsilon-varpi-block.json`.
+
+Predecessor append-only progress surface: ledger v0.82. At complete
 `Upsilon*=0`, the second-layer bulk Hessian is exactly the common-field
-`D Upsilon` Gram operator. Build now owns the typed `D Upsilon` blocks,
-residual pairing/formal adjoint, `J R=0` and Green concomitant before forming
-that Hessian. Physical Shiab/Hodge constituent movement remains live;
-second residual and moving-pairing derivatives drop only from this stationary
-bulk gate. See
-`selected-k77-stationary-two-layer-hessian-factorization.json`.
+`D Upsilon` Gram operator; v0.83 closes its source-varpi block and rejects the
+fixed-epsilon import of the old rank-four metric diagnostic.
 
 Predecessor append-only progress surface: ledger v0.81. The ten metric
 equations remain retained, but vertical-only action closure is retracted. The
@@ -155,13 +162,20 @@ Runbooks:
 
 ## Direct Process Files
 
-- `conditional-physics-ledger-v0.82.json` - current append-only conditional
+- `conditional-physics-ledger-v0.83.json` - current append-only conditional
+  ledger; the source horizontal `D_varpi Upsilon` block is exact, its causal
+  Ward interface has rank three, and physical metric plus source-epsilon
+  blocks now lead before pairing/adjoint/Green and the stationary Gram Hessian.
+- `conditional-physics-ledger-v0.82.json` - immutable predecessor conditional
   physics ledger; reduces the stationary second-layer bulk-Hessian build to
   typed `D Upsilon`, `K*`, Ward and Green owners without deleting physical
   Shiab/Hodge constituent movement.
 - `selected-k77-stationary-two-layer-hessian-factorization.json` - exact
   stationary Gram factorization, constituent-motion, dependent-observation,
   indefinite-Krein and analytic fences plus the typed successor.
+- `selected-k77-common-field-dupsilon-varpi-block.json` - exact source
+  horizontal residual block, causal rank-three interface, fixed-epsilon
+  rank-four import rejection, and physical metric/source-epsilon successor.
 - `conditional-physics-ledger-v0.81.json` - immutable predecessor ledger;
   retains ten metric-section equations, retracts vertical-only closure, and
   makes the full selected two-layer common-field complex primary.

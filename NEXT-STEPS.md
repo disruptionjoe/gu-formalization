@@ -7,6 +7,20 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 COMMON-FIELD `D_UPSILON` VARPI BLOCK (ledger v0.83).** The
+> source-owned 24-dimensional horizontal `varpi` carrier now has an exact,
+> injective residual block of rank 24 with 56 live output coordinates. Its
+> diffeomorphism interface has rank three in every causal class, while the
+> older metric-only diagnostic carries Ward-load rank four. Therefore that
+> diagnostic cannot be imported as the stationary common-field `g-g` Gram
+> block on the fixed-`epsilon` `(g,varpi)` horn. This is horn-scoped, not an
+> absolute kill: the source action already owns a group-valued `epsilon`, and
+> its unbuilt Frechet response may supply the fourth direction. Next construct
+> physical `D_g Upsilon` and `D_epsilon Upsilon` together, prove complete
+> `J R=0`, then derive `K*`, the formal adjoint and Green concomitant before
+> forming the stationary Gram Hessian. Printed `Xi=D_omega Upsilon` is a
+> covariant prolongation, not `D_epsilon Upsilon`. No external datum is used.
+
 > **2026-08-08 STATIONARY TWO-LAYER FACTORIZATION (ledger v0.82).** At
 > complete `Upsilon*=0`, the second-layer bulk Hessian is exactly
 > `(D Upsilon)^!K*(D Upsilon)`. Do not brute-force `D2 Upsilon`, derivatives

@@ -8,7 +8,23 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose result 2026-08-08 (ledger v0.82; five
+**Current Build/Compose result 2026-08-08 (ledger v0.83; five
+distance/mapping-grade/evidence migrations; headline unchanged).** The
+source-owned horizontal `D_varpi Upsilon` block is exact and injective on its
+24-dimensional carrier, with 56 live output coordinates in Clifford grades
+1, 2 and 5. Its causal diffeomorphism response has rank three, whereas the
+older metric-only diagnostic has rank-four Ward load. Hence that diagnostic
+is not the stationary common-field `g-g` Gram block on the fixed-`epsilon`
+`(g,varpi)` horn. This does not kill the diagnostic absolutely: source
+`epsilon` is an independent action variable whose Frechet block is unbuilt.
+The next Build constructs physical `D_g Upsilon` and `D_epsilon Upsilon`
+together, proves complete `J R=0`, and only then derives the residual pairing,
+formal adjoint, Green concomitant and stationary Gram Hessian. Printed
+`Xi=D_omega Upsilon` is a covariant prolongation, not the missing epsilon
+field derivative. No verdict, residue, quotient, datum, canon or public
+posture moves.
+
+**Predecessor Build/Compose result 2026-08-08 (ledger v0.82; five
 distance/mapping-grade/evidence migrations; headline unchanged).** At a
 complete first-layer solution `Upsilon*=0`, the second-layer bulk Hessian is
 exactly `(D Upsilon)^! K* (D Upsilon)`. Second derivatives of the residual and

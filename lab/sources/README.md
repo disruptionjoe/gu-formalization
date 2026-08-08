@@ -241,3 +241,8 @@ identifications as separate grades.
   - confirms the residual norm-square and first-solution redundancy at the
     exact Portal/draft loci; remains silent on the common-field `D Upsilon`,
     residual pairing/formal adjoint and selected physical complex.
+- [`selected-k77-common-field-dupsilon-varpi-block-source-reinspection-2026-08-08.md`](selected-k77-common-field-dupsilon-varpi-block-source-reinspection-2026-08-08.md)
+  - confirms the source `varpi` variation and group-valued `epsilon` field;
+    separates printed covariant `D_omega Upsilon` from the missing Frechet
+    block `D_epsilon Upsilon`; returns source-silent on the complete physical
+    metric/epsilon response, residual pairing, adjoint and Green concomitant.

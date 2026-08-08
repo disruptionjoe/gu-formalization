@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "VARPI_BLOCK_EXACT__FIXED_EPSILON_RANK4_METRIC_IMPORT_REJECTED__PHYSICAL_METRIC_EPSILON_K_OPEN",
+  "lane": "1",
+  "functional_channels": ["COMPOSE", "BUILD", "SOURCE", "VERIFY"],
+  "result": "SOURCE_HORIZONTAL_VARPI_DUPSILON_BLOCK_RANK24__DIFFEO_RESPONSE_RANK3__SIX_TRANSVERSE_METRIC_COLUMNS_UNSELECTED",
+  "source_return": "SOURCE-CONFIRMS__VARPI_DIRECTION_AND_EPSILON_FIELD__SOURCE-SILENT__PHYSICAL_METRIC_EPSILON_FRECHET_BLOCKS_AND_RESIDUAL_PAIRING",
+  "layer0": {
+    "first_action_zero_jet_hessian": "endomorphism on the 34-dimensional local (g,varpi) tangent",
+    "raw_residual_varpi_block": "Frechet derivative D_varpi Upsilon from the 24-dimensional horizontal connection carrier to the all-grade residual carrier",
+    "source_covariant_D_omega": "exterior covariant derivative in Xi=D_omega Upsilon; not D_epsilon Upsilon",
+    "old_metric_diagnostic": "ten-dimensional selected second-layer metric restriction with rank-four Ward load; not automatically the common-field Gram g-g block",
+    "source_epsilon": "independent group-valued source variable in the action domain; its Frechet response remains open",
+    "observation": "dependent receiver normal-jet term; not an independent action field"
+  },
+  "varpi_block": {
+    "domain_dimension": 24,
+    "rank": 24,
+    "output_support": 56,
+    "output_grade_counts": {"1": 22, "2": 24, "5": 10}
+  },
+  "causal_orbits": {
+    "timelike": {"metric_rank": 4, "varpi_rank": 3, "residual_rank": 3, "kernel": [1, 0, 0, 0], "supports": [0, 1, 1, 1]},
+    "spacelike": {"metric_rank": 4, "varpi_rank": 3, "residual_rank": 3, "kernel": [0, 1, 0, 0], "supports": [13, 0, 2, 2]},
+    "null": {"metric_rank": 4, "varpi_rank": 3, "residual_rank": 3, "kernel": [1, 0, 0, 1], "supports": [14, 7, 7, 14]}
+  },
+  "fixed_epsilon_fork": {
+    "diagnostic_metric_orbit_completion": "EXISTS__RANK3__NOT_PHYSICAL_OWNER",
+    "transverse_metric_dimensions_unselected": 6,
+    "old_metric_ward_load_rank": 4,
+    "fixed_epsilon_common_field_gram_metric_load_rank_upper_bound": 3,
+    "old_metric_diagnostic_import": "REJECTED_ON_FIXED_EPSILON_G_VARPI_HORN",
+    "source_epsilon_revival": "OPEN__MAY_SUPPLY_MISSING_ORBIT_RESPONSE_BUT_NOT_CONSTRUCTED"
+  },
+  "residual_pairing": {
+    "K_star": "OPEN",
+    "formal_adjoint": "OPEN",
+    "green_concomitant": "OPEN",
+    "stationary_gram_hessian": "OPEN"
+  },
+  "controls": {
+    "main_exact": "68/68 PASS",
+    "independent_sage": "15/15 PASS",
+    "omit_full_1470_carrier": "REJECTED",
+    "promote_orbit_completion_to_physical_metric_block": "REJECTED",
+    "import_rank4_metric_diagnostic_at_fixed_epsilon": "REJECTED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "frontier_delta": {"headline_delta": "NONE", "conditions_closed": 3, "conditions_opened": 0, "remaining_named_conditions": 2},
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients_or_selectors": 0,
+    "new_external_datum": 0,
+    "new_scoped_quotients": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_common_field_dupsilon_varpi_block_probe.py",
+    "tests/channel-swings/selected_k77_common_field_dupsilon_varpi_block_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-common-field-dupsilon-varpi-block-review.md",
+  "next_gate": "CONSTRUCT_PHYSICAL_METRIC_PLUS_SOURCE_EPSILON_DUPSILON_BLOCKS__VERIFY_COMPLETE_JR_ZERO__DERIVE_RESIDUAL_K_ADJOINT_AND_GREEN_CONCOMITANT__THEN_FORM_STATIONARY_GRAM_HESSIAN"
+}
