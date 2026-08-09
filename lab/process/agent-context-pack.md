@@ -9,6 +9,18 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.103 compact-boundary functional edge gate:** use the actual
+> Y14 boundary dimension `13`, not the observed X4 boundary dimension `3`.
+> `H7 x H7` is only weak even though every cutoff has full rank; the strong
+> cotangent pair is `H7 x H-7`, with `H8` gauge/edge frames. On each declared
+> nonempty edge-torsor stratum the dressing kernel is exactly the residual
+> gauge orbit. The charged classical current algebra has zero central
+> remainder for the selected canonical form. Both horns share real vertical
+> polarization, so it is not a selector. Next prove edge-torsor topology and a
+> common Green/Krein domain preserving these traces, then build odd BFV/BRST
+> and the CME. Do not call the auxiliary Sobolev norm physical positivity or
+> collapse the three action parents. Ledger v0.103.
+
 > **Current v0.102 full tilted boundary descent:** the full derivative-bearing
 > nonzero-`A0` cocycle, left tilted quotient, conditional Spin-native action
 > trace and minimal edge frame now compose exactly. Before extension the

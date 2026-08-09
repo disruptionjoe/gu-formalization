@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 compact-boundary Sobolev edge reduction (2026-08-08)
+
+`conditional-build/selected-k77-sobolev-edge-current-algebra-2026-08-08.md`
+shows that `H7 x H7` gives only a weak boundary form while the cotangent pair
+`H7 x H-7`, with `H8` gauge/edge frames, is strong on a compact
+13-dimensional boundary. On each nonempty edge-torsor stratum the quotient is
+the dressed cotangent pair. The charged classical current algebra closes with
+zero central remainder, and both horns share vertical polarization. Ledger
+v0.103 advances to edge-torsor topology, common Green/Krein-domain trace
+compatibility and the actual odd BFV charge/CME.
+
 ## K77 full tilted boundary moment-map descent (2026-08-08)
 
 `conditional-build/selected-k77-full-tau-a0-moment-map-2026-08-08.md`

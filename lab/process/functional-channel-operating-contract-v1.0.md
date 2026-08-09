@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.102.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.102.md`.
+`lab/process/conditional-physics-ledger-v0.103.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.103.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -61,10 +61,15 @@ a comparator. The actual conditional K77 `H`/action trace and full
 nonzero-`A0` `tau_A0` now compose to a raw residual moment map. The minimal
 edge dressing makes its four-dimensional orbit exactly the characteristic
 kernel, and moving-reference conjugation patches the result. This closes
-global algebraic associated-bundle descent only. Build now compares functional
-BFV completion/polarization on the edge horn with the charged-boundary charge
-algebra, then opens a common Green/Krein domain. A field-valued adjoint
-additionally requires a field Riesz.
+global algebraic associated-bundle descent only. On compact 13-dimensional
+boundaries the same-regularity `H7 x H7` completion is weak, while the true
+cotangent `H7 x H-7` pair with `H8` gauge/edge frames is strong. On each
+declared nonempty edge-torsor stratum the edge kernel equals the residual
+gauge orbit. The charged classical current algebra closes with zero central
+remainder, and both horns carry the same real vertical polarization. Build now
+proves edge-torsor topology and common Green/Krein-domain compatibility with
+these traces, then constructs the actual odd BFV charge/CME. A field-valued
+adjoint additionally requires a field Riesz.
 
 Predecessor residual-pairing correction: the conditional local K77 pairing
 `Hodge13 x scalar-Clifford-trace` is exact and nondegenerate on all 1,470
@@ -89,9 +94,12 @@ unrestricted boundary moment map. v0.101 proves source/action boundary
 selection negative and conditionally selects the minimal edge horn under full
 boundary gauge plus generic nonzero momentum, while retaining charged symmetry
 as comparator. v0.102 closes the actual conditional K77 `H`/action trace, full
-`tau_A0` algebraic edge descent and moving-reference patch law. Global
-functional BFV, polarization, charged-horn comparison, common domain and any
-field-space Riesz representative remain construction burdens; arbitrary
+`tau_A0` algebraic edge descent and moving-reference patch law. v0.103 closes
+the conditional compact-boundary strong cotangent completion, classical
+charged current algebra and real vertical polarization, while proving that
+equal positive regularity is only weak. Edge-torsor nonemptiness, odd BFV,
+charged-horn comparison, common domain and any field-space Riesz
+representative remain construction burdens; arbitrary
 primitive `D_epsilon` is a separate field-equation question rather than a
 prerequisite for the dependent orbit.
 

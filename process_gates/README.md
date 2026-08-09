@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_sobolev_edge_current_algebra_audit.py` enforces ledger
+  v0.103's weak `H7 x H7` versus strong `H7 x H-7` distinction, `H8`
+  gauge/edge threshold, conditional nonempty-torsor edge quotient, classical
+  charged current algebra, no-selection polarization and full odd-BFV/domain/
+  topology/action-parent fences.
+
 - `selected_k77_full_tau_a0_moment_map_audit.py` enforces ledger v0.102's
   full derivative-bearing nonzero-`A0` tilted quotient, conditional
   Spin-native action trace, raw charged moment map, exact edge characteristic

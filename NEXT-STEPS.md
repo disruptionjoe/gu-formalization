@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 COMPACT-BOUNDARY STRONG EDGE COMPLETION (ledger v0.103).** On
+> a compact 13-dimensional `Y14` boundary, same-regularity `H7 x H7` gives
+> only a weak form: finite-cutoff singular values stay nonzero but decay as
+> `(1+n^2)^-7`. The true cotangent pair `H7 x H-7`, with `H8` gauge/edge
+> frames, is strong. On each nonempty edge-torsor stratum the dressing is a
+> split submersion whose kernel is exactly the residual gauge orbit. The
+> charged horn has a nonabelian classical current algebra with zero central
+> remainder, and both horns share the real vertical polarization, so it
+> selects neither. Next prove common Green/Krein-domain compatibility with
+> these trace spaces and edge-torsor topology, then build the actual odd BFV
+> charge/CME. Keep the charged horn and all three action parents distinct.
+
 > **2026-08-08 FULL TILTED BOUNDARY DESCENT (ledger v0.102).** The
 > derivative-bearing nonzero-`A0` tilted construction now composes exactly
 > with the conditionally selected Spin-native action trace. Its raw residual

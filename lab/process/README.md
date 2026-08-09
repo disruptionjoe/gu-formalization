@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.103. On compact Y14
+13-boundaries, the selected edge form has a strong `H7 x H-7` cotangent
+completion with `H8` gauge/edge frames; equal `H7 x H7` regularity is weak.
+The edge kernel equals the residual gauge orbit on every nonempty torsor
+stratum. The charged current algebra closes classically with zero central
+term, and vertical polarization selects neither horn. Torsor topology, common
+Green/Krein domain, odd BFV and physical selection remain open. See
+`selected-k77-sobolev-edge-current-algebra.json`.
+
 Current append-only progress surface: ledger v0.102. Full derivative-bearing
 nonzero-`A0` `tau_A0`, the conditional Spin-native action trace, raw residual
 moment map, minimal-edge characteristic kernel and moving-reference patch law

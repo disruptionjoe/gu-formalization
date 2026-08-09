@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.103; five
+distance/evidence migrations; headline unchanged).** The conditional K77 edge
+geometry now has a strong functional completion on every declared nonempty
+edge-torsor stratum over a compact 13-dimensional boundary. The correct
+analytic pair is `H7 x H-7` with `H8` gauge/edge frames; `H7 x H7` is only
+weak because its inverse loses uniform control across modes. The edge kernel
+equals the residual gauge orbit. The charged horn's classical current algebra
+closes with zero central remainder, and both horns carry the same real
+vertical polarization, so no physical selection follows. Edge-torsor
+nonemptiness, noncompact/cornered boundaries, common Green/Krein-domain trace
+compatibility, odd BFV/BRST/CME, quantum measure and physical horn selection
+remain open. The fifth quotient gains conditional compact-boundary scope but
+is not counted twice. No verdict, residue, datum, canon or posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.102; five
 distance/evidence migrations; headline unchanged).** The full
 derivative-bearing nonzero-`A0` tilted double action now composes with the

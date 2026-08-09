@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_sobolev_edge_current_algebra_probe.py` proves
+  the same-regularity boundary form is weak, the `H7 x H-7` cotangent form is
+  strong with `H8` gauge/edge frames, the completed edge kernel equals the
+  gauge orbit, and the charged classical current algebra closes without a
+  central remainder.
+- `channel-swings/selected_k77_sobolev_edge_current_algebra_independent.sage`
+  independently reconstructs the Sobolev weights, edge ranks, current bracket
+  and vertical polarization over exact arithmetic.
+
 - `channel-swings/selected_k77_full_tau_a0_moment_map_probe.py` composes the
   exact nonzero-`A0` derivative cocycle and tilted quotient with the conditional
   Spin-native action trace, verifies the raw adjoint moment map, and proves the
@@ -823,7 +832,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (475 Python + 64 Sage) | active channel and Lane-1 swing probes; the current count includes full nonzero-`A0` tilted algebraic edge descent, the physical-boundary disposition selector, local selected-action Noether/preboundary composition, common 34-field physical equation-dual/Green composition, source-native matched-q physical Ward closure, common metric residual-coordinate bank, common-field formal-adjoint/Green ownership gate, fixed-varpi normal Frechet closure, transverse comoving coefficient closure, operative pairing-symmetry closure, conditional K77 residual pairing, action/Frechet/Ward object separation, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (476 Python + 65 Sage) | active channel and Lane-1 swing probes; the current count includes compact-boundary strong Sobolev edge reduction/current algebra, full nonzero-`A0` tilted algebraic edge descent, the physical-boundary disposition selector, local selected-action Noether/preboundary composition, common 34-field physical equation-dual/Green composition, source-native matched-q physical Ward closure, common metric residual-coordinate bank, common-field formal-adjoint/Green ownership gate, fixed-varpi normal Frechet closure, transverse comoving coefficient closure, operative pairing-symmetry closure, conditional K77 residual pairing, action/Frechet/Ward object separation, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
