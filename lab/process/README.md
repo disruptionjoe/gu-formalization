@@ -7,13 +7,17 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.104. The partial stationary
-metric-plus-varpi second-action Gram now has exact causal ranks `22/22/14`
-and doubled trace quotients `44/44/28`. The quotients are unbooked: strong
-`H7 x H-7` regularity does not identify the edge carrier, and independent
-epsilon, the first action on the same background, trace soldering, a maximal
-domain and odd BFV remain open. Registry:
-`selected-k77-stationary-gram-boundary-strata.json`.
+Current append-only progress surface: ledger v0.105. The source-owned
+primitive-epsilon principal bank is now serialized on the selected Spin-native
+K77 common residual coordinates. The 125-field raw ranks are `110/110/110`,
+Gram ranks `110/110/16`, and doubled trace quotients `220/220/32`; all remain
+unbooked diagnostics. Lower-order moving-Shiab epsilon, the enlarged
+same-background first action, action BV differential, edge-carrier soldering,
+maximal domain and odd BFV remain open. Registry:
+`selected-k77-primitive-epsilon-common-bank.json`.
+
+Predecessor ledger v0.104: the partial metric-plus-varpi Gram has causal ranks
+`22/22/14` and unbooked doubled quotients `44/44/28`.
 
 Predecessor ledger v0.103: on compact Y14
 13-boundaries, the selected edge form has a strong `H7 x H-7` cotangent

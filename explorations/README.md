@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 primitive-epsilon common principal bank (2026-08-08)
+
+`conditional-build/selected-k77-primitive-epsilon-common-bank-2026-08-08.md`
+serializes the source-owned 91-direction primitive-epsilon symbol on the same
+residual coordinates as the metric and `varpi`. The 125-field raw ranks are
+`110/110/110`; Gram ranks are `110/110/16`, with 94 additional null-image
+isotropic directions and unbooked doubled quotients `220/220/32`. Ledger
+v0.105 now requires lower-order moving-Shiab epsilon and an enlarged
+same-background first action: the old first-action symbol has only 34 fields.
+The selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)` parents stay
+separate.
+
 ## K77 partial stationary Gram boundary strata (2026-08-08)
 
 `conditional-build/selected-k77-stationary-gram-boundary-strata-2026-08-08.md`

@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
+distance/evidence migrations; headline unchanged).** The source-owned
+primitive-epsilon principal bank is now exact on the conditionally selected
+Spin-native K77 parent. The common metric-ten plus `varpi`-twenty-four plus
+epsilon-ninety-one tangent has dimension 125 and raw ranks `110/110/110`.
+Its Gram ranks are `110/110/16`, inertias
+`(58,52,15)/(53,57,15)/(10,6,109)`, and unbooked doubled trace quotients
+`220/220/32`; the null image has 94 extra isotropic directions. The available
+first-action Schur symbol has only 34 fields, so same-background action
+composition remains blocked pending lower-order moving-Shiab epsilon, an
+enlarged first action and an action-derived BV differential. No verdict,
+residue, booked quotient, datum, canon or posture moves; the selected
+Spin-native, two-`U(32,32)`-half and full-`U(64,64)` parents remain distinct.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.104; five
 distance/evidence migrations; headline unchanged).** The partial stationary
 second-action symbol on ten metric plus twenty-four `varpi` variables is now

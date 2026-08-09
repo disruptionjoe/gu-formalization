@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "SELECTED_SPIN_NATIVE_PRIMITIVE_EPSILON_PRINCIPAL_BANK_EXACT__FIRST_ACTION_34_VS_125_COMPOSITION_BLOCKED__FULL_DOMAIN_OPEN",
+  "ledger_version": "0.105",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_PRIMITIVE_EPSILON_AND_MOVING_SHIAB_GRAMMAR__SOURCE_SILENT_K77_FULL_BANK_ACTION_PARENT_AND_SHARED_FIRST_ACTION",
+  "layer0": {
+    "primitive_epsilon": "INDEPENDENT_H_VALUED_SOURCE_FIELD__SELECTED_SPIN77_TANGENT_DIM91",
+    "physical_ward_orbit": "DEPENDENT_FOUR_COLUMN_KOSMANN_CARTAN_GRAPH__DISTINCT",
+    "gamma_soldered_orbit": "SOURCE_SILENT_CONDITIONAL_FOUR_COLUMN_GRADE1_GRAPH__DISTINCT",
+    "Xi": "EXTERIOR_COVARIANT_PROLONGATION__NOT_FIELD_FRECHET_D_EPSILON",
+    "principal_bank": "DELTA_T_MINUS_Q_ETA__EXACT",
+    "full_frechet": "MOVING_SHIAB_AND_LOWER_ORDER_COEFFICIENTS_OPEN"
+  },
+  "exact_result": {
+    "field_dimension": 125,
+    "metric_dimension": 10,
+    "varpi_dimension": 24,
+    "epsilon_dimension": 91,
+    "epsilon_symbol_rank": 91,
+    "metric_plus_epsilon_rank": 97,
+    "raw_rank": {"timelike": 110, "spacelike": 110, "null": 110},
+    "raw_kernel_dimension": 15,
+    "gram": {
+      "timelike": {"rank": 110, "inertia": [58, 52, 15], "green_quotient_dimension": 220},
+      "spacelike": {"rank": 110, "inertia": [53, 57, 15], "green_quotient_dimension": 220},
+      "null": {"rank": 16, "inertia": [10, 6, 109], "green_quotient_dimension": 32}
+    },
+    "null_extra_isotropic_image_dimension": 94,
+    "quotient_booking": "UNBOOKED_DIAGNOSTIC"
+  },
+  "first_action_composition": {
+    "available_source_variable_dimension": 34,
+    "required_common_field_dimension": 125,
+    "direct_sum_admissible": false,
+    "missing": [
+      "lower-order moving-Shiab primitive epsilon coefficients",
+      "first-action Hessian on the same enlarged tangent and stationary background",
+      "action-derived BV differential and characteristic quotient"
+    ]
+  },
+  "action_parents": {
+    "selected_spin_native_dimension": 2107,
+    "two_U32_32_halves_dimension": 16382,
+    "full_U64_64_dimension": 16383,
+    "collapsed": false
+  },
+  "controls": {
+    "primary": "52/52 PASS",
+    "independent_sage_flint": "31/31 PASS",
+    "primitive_epsilon_not_physical_ward4": true,
+    "principal_not_full_frechet": true,
+    "selected_parent_not_expanded_parent": true,
+    "finite_quotient_not_bfv_or_domain": true,
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 4,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 4
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "next_gate": "SERIALIZE_LOWER_ORDER_MOVING_SHIAB_PRIMITIVE_EPSILON_ON_COMMON_BANK__RECOMPUTE_FIRST_ACTION_ON_SAME_125_FIELD_STATIONARY_BACKGROUND__DERIVE_ACTION_BV_DIFFERENTIAL__THEN_EDGE_TRACE_SOLDERING_COLLAR_MAXIMAL_DOMAIN_AND_ODD_BFV"
+}

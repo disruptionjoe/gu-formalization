@@ -9,16 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.104 partial stationary Gram gate:** the owned metric-ten plus
-> `varpi`-twenty-four residual derivative is rectangular. Its stationary
-> second-action Gram has exact causal ranks `22/22/14` and doubled trace
-> quotients `44/44/28`; the null stratum has eight extra isotropic image
-> directions. The quotient is not booked: `H7 x H-7` is only regularity
-> compatibility until an edge-carrier trace soldering map exists. Complete
-> independent epsilon and the first action on one stationary background, then
-> construct a tangential/collar maximal domain before odd BFV. Keep the
-> selected Spin-native, two `U(32,32)` halves and full `U(64,64)` parents
-> distinct. Ledger v0.104.
+> **Current v0.105 primitive-epsilon common principal gate:** the selected
+> Spin-native K77 source tangent now contains metric ten, `varpi` twenty-four
+> and primitive epsilon ninety-one. Its raw causal ranks are `110/110/110`;
+> stationary Gram ranks are `110/110/16`, with unbooked doubled quotients
+> `220/220/32` and 94 extra null-image isotropic directions. The available
+> first-action symbol has only 34 fields and cannot be zero-padded or directly
+> added. Build lower-order moving-Shiab epsilon and the first action on the
+> same 125-field background, then derive BV before trace soldering, maximal
+> domain and odd BFV. Keep selected Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct. Ledger v0.105.
 >
 > **Predecessor v0.103 compact-boundary functional edge gate:** use the actual
 > Y14 boundary dimension `13`, not the observed X4 boundary dimension `3`.

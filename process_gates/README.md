@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_primitive_epsilon_common_bank_audit.py` enforces ledger
+  v0.105's primitive-epsilon 91-column typing, exact 125-field raw/Gram strata
+  `110/110/110` and `110/110/16`, inertias, null isotropic excess 94,
+  first-action `34` versus `125` mismatch, unbooked trace quotients, mandatory
+  symplectic/analytic fences and the three distinct action parents.
+
 - `selected_k77_stationary_gram_boundary_strata_audit.py` enforces ledger
   v0.104's rectangular-residual versus square-Gram typing, exact causal Gram
   ranks `22/22/14`, inertias, unbooked doubled trace quotients `44/44/28`,

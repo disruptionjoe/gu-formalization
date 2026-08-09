@@ -7,6 +7,19 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**
+> On the conditionally selected Spin-native K77 parent, the source-owned
+> primitive epsilon tangent contributes all 91 bivector directions. Together
+> with ten metric and twenty-four `varpi` fields, the common principal tangent
+> has 125 fields, raw causal ranks `110/110/110`, Gram ranks `110/110/16`,
+> inertias `(58,52,15)/(53,57,15)/(10,6,109)`, and unbooked doubled trace
+> quotients `220/220/32`. The null image has 94 extra isotropic directions.
+> Next serialize lower-order moving-Shiab epsilon and recompute the first
+> action on the same 125-field stationary background; its current 34-field
+> symbol cannot be directly added. Then derive the action BV differential
+> before edge trace soldering, maximal-domain and odd-BFV work. Keep the two
+> `U(32,32)` halves and full `U(64,64)` as distinct parent comparators.
+
 > **2026-08-08 PARTIAL STATIONARY GRAM STRATA (ledger v0.104).** The owned
 > metric-ten plus `varpi`-twenty-four principal map is rectangular, so it is
 > not a self-adjoint operator. The stationary norm-square symbol
