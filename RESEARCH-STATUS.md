@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.101; five
+distance/evidence migrations; headline unchanged).** Weinstein's checked
+source confirms the full tilted bulk double-coset grammar and acknowledges
+unresolved boundary conditions, but is silent on boundary gauge redundancy
+versus charged physical symmetry. The local selected action also does not
+choose: it supplies a nonzero rank-ten endpoint bank and live moment map.
+Conditional on all endpoint transformations remaining gauge and generic
+nonzero endpoint momentum remaining admissible, the minimal edge completion
+is the unique local horn, with coefficients `(-1,+1)`, no continuous
+coefficient freedom, and no added reduced physical dimensions (`60 -> 40`
+with kernel `20`). The first predicate remains unowned, so charged boundary
+symmetry stays a comparator. Actual K77 `H`/action-trace, full nonzero-`A0`
+`tau_A0` descent, BFV polarization and common domain remain open. No verdict,
+residue, quotient, datum, canon or posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.100; five
 distance/evidence migrations; headline unchanged).** The moving K77 residual
 pairing/density, action-owned primitive epsilon Euler/preboundary term and

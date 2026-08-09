@@ -9,17 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.100 local action Noether/preboundary:** moving K77
-> pairing/density, the action-owned primitive epsilon Euler/preboundary term
-> and the matched-q physical graph now close the local selected-action
-> Euler-Noether identity in all causal classes. The nonzero-residual control
-> makes every quadratic contribution live. Antisymmetrization is basic for
-> boundary-vanishing transformations; unrestricted endpoints carry a live
-> moment map. Do not quotient those charged transformations or call this a
-> global BFV/domain result. Next select the physical boundary class and
-> globalize through `tau_A0`/BFV or an owned edge completion plus common
-> Green/Krein domain. Keep selected Spin-native, two `U(32,32)` halves and full
-> `U(64,64)` distinct. Ledger v0.100.
+> **Current v0.101 physical-boundary selector:** Weinstein's full tilted bulk
+> quotient does not automatically type endpoint transformations as gauge, and
+> the local action's nonzero `E_B-E_T` bank does not choose gauge versus charged
+> symmetry. Conditional on full boundary gauge plus generic nonzero momentum,
+> the unique local horn is the minimal edge completion: signs `(-1,+1)`,
+> `60 -> 40` with kernel `20`, zero coefficient freedom and no new reduced
+> physical dimensions. The first predicate is unowned; retain charged boundary
+> symmetry as comparator. Next instantiate actual K77 `H`/action trace and
+> full nonzero-`A0` `tau_A0` global moment map. Do not call this a physical
+> boundary settlement or BFV/domain theorem. Keep selected Spin-native, two
+> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.101.
 
 > **Current v0.97 common metric coefficient bank:** emit fixed-`varpi`
 > `D_g Upsilon` as `-D_gB_LC`, not by applying the full `D_varpi` response to

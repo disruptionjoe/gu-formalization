@@ -814,15 +814,18 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (473 Python + 62 Sage) | active channel and Lane-1 swing probes; the current count includes the local selected-action Noether/preboundary composition, common 34-field physical equation-dual/Green composition, source-native matched-q physical Ward closure, common metric residual-coordinate bank, common-field formal-adjoint/Green ownership gate, fixed-varpi normal Frechet closure, transverse comoving coefficient closure, operative pairing-symmetry closure, conditional K77 residual pairing, action/Frechet/Ward object separation, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (474 Python + 63 Sage) | active channel and Lane-1 swing probes; the current count includes the physical-boundary disposition selector, local selected-action Noether/preboundary composition, common 34-field physical equation-dual/Green composition, source-native matched-q physical Ward closure, common metric residual-coordinate bank, common-field formal-adjoint/Green ownership gate, fixed-varpi normal Frechet closure, transverse comoving coefficient closure, operative pairing-symmetry closure, conditional K77 residual pairing, action/Frechet/Ward object separation, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
 
 The latest channel-swing additions are
-`selected_k77_common_physical_equation_dual_green_probe.py` and its independent
-Sage route. They compose the metric-ten and `varpi`-twenty-four exact receipts
-into a 34-field formal Green theorem and exact matched-q physical dual
+`selected_k77_boundary_disposition_selector_probe.py` and its independent
+Sage route. They prove that source and local action do not select boundary
+gauge versus charged symmetry, while full-boundary gauge plus generic nonzero
+action momentum conditionally selects the minimal edge horn. The predecessor
+`selected_k77_common_physical_equation_dual_green_probe.py` composes the
+metric-ten and `varpi`-twenty-four exact receipts into a 34-field formal Green theorem and exact matched-q physical dual
 pullback. The predecessors
 `selected_k77_source_native_diffeomorphism_ward_closure_probe.py` and
 `selected_k77_source_native_diffeomorphism_ward_closure_independent.sage`.

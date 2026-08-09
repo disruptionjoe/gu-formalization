@@ -7,6 +7,21 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 PHYSICAL-BOUNDARY DISPOSITION SELECTOR (ledger v0.101).**
+> Weinstein confirms the full tilted bulk double-coset grammar and acknowledges
+> unresolved upstairs boundary conditions, but neither source nor local action
+> decides whether unrestricted endpoint transformations are gauge or charged
+> physical symmetries. Exact classification shows that full boundary gauge
+> redundancy plus generic nonzero action momentum conditionally selects the
+> minimal edge horn uniquely: coefficients `(-1,+1)`, extended dimension `60`,
+> kernel `20`, reduced symplectic dimension `40`, and zero continuous
+> coefficient freedom. The full-boundary-gauge predicate remains unowned, so
+> keep charged boundary symmetry as comparator. Next instantiate the edge horn
+> on the actual K77 `H` representation/action trace and prove full nonzero-`A0`
+> `tau_A0` global moment-map descent before BFV polarization/common-domain
+> work. Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)`
+> distinct.
+
 > **2026-08-08 LOCAL ACTION NOETHER/PREBOUNDARY (ledger v0.100).**
 > Moving K77 pairing/density, the action-owned primitive epsilon
 > Euler/preboundary term and the exact matched-q physical graph now compose to

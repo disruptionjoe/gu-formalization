@@ -7,14 +7,14 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.100. Moving K77
-pairing/density, the action-owned primitive epsilon Euler/preboundary term and
-the matched-q physical graph give an exact local selected-action Euler-Noether
-identity in all causal classes. The antisymmetrized endpoint potential is
-basic for boundary-vanishing transformations and has a live moment map for
-unrestricted endpoints. Physical boundary selection, global BFV/edge
-completion, polarization, field Riesz and common domain remain. See
-`selected-k77-action-noether-preboundary.json`.
+Current append-only progress surface: ledger v0.101. Source and local action do
+not select boundary gauge redundancy versus charged physical symmetry. Full
+boundary gauge plus generic nonzero action momentum conditionally selects the
+minimal edge horn uniquely, with coefficients `(-1,+1)`, no continuous
+coefficient freedom and no net reduced physical dimensions. The boundary
+gauge-status predicate remains unowned; actual K77 `H`/action-trace, full
+`tau_A0` global moment map, BFV polarization and common domain remain. See
+`selected-k77-boundary-disposition-selector.json`.
 
 Current append-only progress surface: ledger v0.97. The physical fixed-`varpi`
 `D_g Upsilon` bank now shares the actual all-grade carrier with `D_varpi` and

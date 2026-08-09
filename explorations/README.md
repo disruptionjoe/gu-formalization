@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 physical-boundary disposition selector (2026-08-08)
+
+`conditional-build/selected-k77-boundary-disposition-selector-2026-08-08.md`
+shows that neither Weinstein's checked source nor the local selected action
+chooses boundary gauge redundancy versus charged physical symmetry. Full
+boundary gauge plus generic nonzero action momentum conditionally selects the
+minimal edge horn uniquely, without coefficient freedom or added reduced
+physical dimensions. Ledger v0.101 advances to actual K77 `H`/action-trace and
+full `tau_A0` global moment-map descent while retaining the charged horn as a
+comparator.
+
 ## K77 local selected-action Noether and preboundary (2026-08-08)
 
 `conditional-build/selected-k77-action-noether-preboundary-2026-08-08.md`

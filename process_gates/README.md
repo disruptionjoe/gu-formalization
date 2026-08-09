@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_boundary_disposition_selector_audit.py` enforces ledger
+  v0.101's source/action boundary-selection negative result, conditional
+  full-boundary-gauge plus nonzero-momentum edge selector, charged-symmetry
+  comparator, inventory and fail-closed current pointers.
+
 - `selected_k77_action_noether_preboundary_audit.py` enforces ledger v0.100's
   nonvacuous moving pairing/density cancellation, local matched-q
   selected-action Euler-Noether identity, action-owned `E_B-E_T` endpoint
