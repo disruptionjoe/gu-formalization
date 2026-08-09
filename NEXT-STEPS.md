@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 BULK-OPERATOR ADMISSION GATE (ledger v0.117).** The source
+> action has an exact safe mixed-order grammar: after covariant reduction the
+> `(g,varpi,epsilon)` jet weights are `(2,1,1)`, with Euler-block upper bound
+> `[[4,3,3],[3,2,2],[3,2,2]]`. This is not yet the actual principal symbol.
+> The prior rank-91 epsilon cross and 34-field Gram must be ported to both
+> current stationary branches and each retained action parent. Next construct
+> that branch/parent Hessian family, then add bulk gauge fixing and ghosts.
+> Only after those owners exist may the H7/H8 carrier be tested as a closed
+> `Dmax/Dmin` trace. Keep Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct; P1/P2/P3 remain unused.
+
 > **2026-08-09 COMMON GRADED TRACE / BULK-DOMAIN GATE (ledger v0.116).** The
 > physical `H7/H-7` and gauge/ghost `H8/H-8` cotangent pairs form one strong
 > graded boundary trace carrier on the relative `A0` bitorsor. They are not one

@@ -2409,3 +2409,11 @@ to full action Frechet, Green, symplectic, BFV, domain or Einstein recovery.
 census without treating a distribution as a failure. Its separate hard gate
 names any live over-determined row whose adjudication evidence still points
 only to the cluster that found it, enforcing the independent-owner rule.
+## K77 bulk-operator admission ledger v0.117
+
+`selected_k77_bulk_operator_admission_audit.py` requires the exact safe
+`(2,1,1)` source-action mixed-order grammar while refusing to promote it to an
+actual principal-symbol theorem. It keeps predecessor Hessian blocks scoped to
+their backgrounds, requires the branch/parent ports plus gauge fixing and bulk
+ghosts before `Dmax/Dmin`, and types H7/H8 as a kinematic target. It preserves
+all three action parents, P1/P2/P3, canon and public posture.

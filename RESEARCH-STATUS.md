@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.116; six
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.117; six
+distance/evidence migrations; headline unchanged).** Before attempting the
+bulk domain, the repo now owns an exact mixed-order admission grammar for the
+source action. Safe reduced field weights are `(g,varpi,epsilon)=(2,1,1)`;
+their Euler-block matrix is an upper bound, not a principal-symbol theorem.
+The existing rank-91 epsilon cross and 34-field Gram belong to predecessor
+backgrounds and require ports to both current branches and the retained
+Spin/two-half/full parent family. Gauge fixing, bulk ghosts, field-Riesz or
+covector graph calculus, the complete operator and `Dmax/Dmin` remain unowned.
+The H7/H8 boundary carrier remains a strong kinematic target. No verdict,
+residue, quotient, datum, canon or posture moves; P1/P2/P3 remain unused.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-09 (ledger v0.116; six
 distance/evidence migrations; headline unchanged).** The physical `H7/H-7`
 and gauge/ghost `H8/H-8` boundary cotangent pairs now form one strong graded
 trace carrier on the topology-complete relative `A0` bitorsor. Exact

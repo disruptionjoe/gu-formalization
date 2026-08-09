@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 bulk-operator admission gate (2026-08-09)
+
+`conditional-build/selected-k77-bulk-operator-admission-2026-08-09.md`
+constructs the exact safe source-action dependency grammar and unique minimal
+symmetric Douglis--Nirenberg weight `(2,1,1)`. It fences this as an admission
+upper bound rather than an actual principal-symbol theorem, identifies six
+missing operator owners, and keeps H7/H8 as a kinematic boundary target.
+Ledger v0.117 moves six rows only in distance/evidence; no physical verdict,
+datum, residue, quotient, canon or posture moves.
+
 ## K77 common graded trace / boundary-triple skeleton (2026-08-09)
 
 `conditional-build/selected-k77-common-graded-trace-boundary-triple-2026-08-09.md`

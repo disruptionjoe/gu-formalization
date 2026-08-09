@@ -1,0 +1,85 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-09",
+  "status": "MIXED_ORDER_ACTION_GRAMMAR_EXACT__COMPLETE_OPERATOR_AND_DMAX_DMIN_UNOWNED",
+  "lane": "1",
+  "functional_channels": ["SOURCE", "COMPOSE", "BUILD", "VERIFY"],
+  "source_return": "SOURCE_CONFIRMS_TWO_CONNECTION_FIRST_ACTION_RESIDUAL_AND_XI_GRAMMAR__SOURCE_SILENT_MIXED_ORDER_GAUGE_FIXED_OPERATOR_PARENT_SPECIFIC_HESSIAN_DMAX_DMIN_AND_BV_BFV",
+  "layer0": {
+    "source_density_jet_order": "NOT_EULER_OPERATOR_ORDER",
+    "raw_coordinate_order": "NOT_COVARIANTLY_REDUCED_ORDER",
+    "formal_covector_hessian": "NOT_FIELD_VALUED_OPERATOR_WITHOUT_RIESZ_OR_COVECTOR_GRAPH_CALCULUS",
+    "pointwise_parent_stationarity": "NOT_PARENT_SPECIFIC_GLOBAL_HESSIAN",
+    "kinematic_trace_carrier": "NOT_OPERATOR_GRAPH_TRACE_QUOTIENT",
+    "bosonic_zero_fermion_operator": "NOT_COUPLED_MATTER_OPERATOR"
+  },
+  "dependency_grammar": {
+    "fields": ["g", "varpi", "epsilon"],
+    "raw_first_action_jet_weights": [2, 1, 2],
+    "covariantly_reduced_first_action_jet_weights": [2, 1, 1],
+    "residual_square_jet_weights": [1, 1, 1],
+    "safe_first_action_euler_block_bound": [[4, 3, 3], [3, 2, 2], [3, 2, 2]],
+    "stationary_second_action_euler_block_bound": [[2, 2, 2], [2, 2, 2], [2, 2, 2]],
+    "unique_componentwise_minimal_symmetric_DN_weight": [2, 1, 1],
+    "actual_top_coefficients": "UNTESTED__BOUND_IS_ADMISSION_GRAMMAR_NOT_PRINCIPAL_SYMBOL_THEOREM",
+    "uniform_weight_one": "REJECTED_BY_GG_BOUND",
+    "uniform_weight_two": "COMPATIBLE_OVERREGULAR_BOUND_NOT_DERIVED_SCALAR_ORDER"
+  },
+  "operator_ownership": {
+    "two_local_source_stationary_branches": "OWNED",
+    "full_parent_pointwise_stationarity": "OWNED_NOT_PARENT_SELECTION",
+    "branch_specific_first_action_hessian": "UNOWNED",
+    "branch_specific_second_action_jacobian": "UNOWNED",
+    "prior_34_field_stationary_gram": "OWNED_PARTIAL_NEEDS_BRANCH_PORT",
+    "prior_rank91_epsilon_cl1_cross": "OWNED_ON_PRIOR_BACKGROUND_NEEDS_BRANCH_PORT",
+    "parent_specific_global_tangent": "UNOWNED",
+    "gauge_fixing_and_bulk_ghost_operator": "UNOWNED",
+    "field_riesz_or_covector_graph_calculus": "UNOWNED",
+    "closed_ultrahyperbolic_realization": "UNOWNED",
+    "operator_derived_H7_H8_trace": "UNOWNED__CURRENT_TRACE_IS_KINEMATIC_TARGET"
+  },
+  "action_parents": {
+    "selected_spin_native": "DISTINCT",
+    "two_U32_32_halves": "DISTINCT_BLOCK_PRESERVING_PARENT",
+    "full_U64_64": "DISTINCT_EVEN_PLUS_HALF_EXCHANGING_COMPARATOR",
+    "selected_by_stationarity": false
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_continuous_coefficients": 0,
+    "new_discrete_selectors": 0,
+    "new_bundle_classes": 0,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 6
+  },
+  "controls": {
+    "primary": "43/43 PASS",
+    "independent_sage": "15/15 PASS",
+    "one_scalar_order_plant": "FIRED",
+    "pointwise_implies_hessian_plant": "FIRED",
+    "kinematic_trace_implies_graph_domain_plant": "FIRED",
+    "parent_collapse_plant": "FIRED",
+    "observed_X4_as_ambient_domain_plant": "FIRED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_bulk_operator_admission_probe.py",
+    "tests/channel-swings/selected_k77_bulk_operator_admission_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-bulk-operator-admission-review.md",
+  "next_gate": "CONSTRUCT_BRANCH_AND_PARENT_INDEXED_FULL_SOURCE_VARIABLE_HESSIAN_PRINCIPAL_COEFFICIENTS__PORT_G_VARPI_EPSILON_BLOCKS_TO_BOTH_STATIONARY_BRANCHES__SELECT_OR_RETAIN_PARENT_FAMILY__THEN_ADD_BULK_GAUGE_FIXING_GHOST_COMPLEX_AND_TEST_DMAX_DMIN"
+}

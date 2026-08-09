@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.116.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.116.md`.
+`lab/process/conditional-physics-ledger-v0.117.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.117.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,18 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.116 construction frontier
+### Current v0.117 construction frontier
+
+v0.117 audits the source action before allowing the v0.116 boundary carrier
+to define a bulk domain. The exact safe reduced source-field weights are
+`(g,varpi,epsilon)=(2,1,1)` with Euler-block upper bound
+`[[4,3,3],[3,2,2],[3,2,2]]`. This is not an actual principal-symbol theorem.
+Build next ports every first- and second-action Hessian block to both current
+stationary branches and the retained Spin/two-half/full parent family, then
+adds bulk gauge fixing and ghosts. Only then test `Dmax/Dmin`, operator-derived
+H7/H8 traces and coupled BV-BFV. P1/P2/P3 remain unused.
+
+### Predecessor v0.116 construction frontier
 
 v0.116 constructs one strong graded boundary trace carrier from the physical
 `H7/H-7` and gauge/ghost `H8/H-8` cotangent pairs. It does not identify the

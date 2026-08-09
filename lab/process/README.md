@@ -7,7 +7,14 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.116. The physical `H7/H-7`
+Current append-only progress surface: ledger v0.117. The source action has an
+exact mixed-order admission grammar with minimal safe symmetric weight
+`(2,1,1)`, but the actual branch/parent Hessian coefficients, bulk gauge
+fixing/ghosts and complete operator remain unowned. H7/H8 is a kinematic trace
+target, not yet an operator-derived graph trace. Registry:
+`selected-k77-bulk-operator-admission.json`.
+
+Predecessor v0.116: the physical `H7/H-7`
 and gauge/ghost `H8/H-8` cotangent pairs form one strong graded boundary trace
 carrier on the relative `A0` bitorsor. Cotangent-lift patching preserves the
 form and vertical Lagrangian polarization; the exponents remain distinct and

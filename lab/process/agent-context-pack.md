@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.116 graded trace/bulk-domain gate:** the physical `H7/H-7` and
+> **Current v0.117 bulk-operator admission gate:** the source action's safe
+> covariantly reduced `(g,varpi,epsilon)` weights are `(2,1,1)`, giving the
+> Euler-block upper bound `[[4,3,3],[3,2,2],[3,2,2]]`. This is an admission
+> grammar, not proof of nonzero top coefficients. Port the prior rank-91
+> epsilon cross and 34-field Gram to both current branches and all retained
+> parents, then add bulk gauge fixing and ghosts. Do not ask H7/H8 for
+> `Dmax/Dmin` until the complete operator exists. Keep the selected Spin
+> parent, two `U(32,32)` halves and full `U(64,64)` comparator distinct.
+> P1/P2/P3 remain unused. Ledger v0.117.
+
+> **Predecessor v0.116 graded trace/bulk-domain gate:** the physical `H7/H-7` and
 > gauge/ghost `H8/H-8` pairs form one strong graded boundary trace carrier;
 > they are not one scalar Sobolev exponent. Relative `A0` bitorsor transitions
 > preserve the canonical form and vertical Lagrangian polarization. Do not
