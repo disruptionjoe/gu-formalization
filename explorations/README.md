@@ -7,15 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
-## K77 branch boundary-amplitude classification (2026-08-09)
+## K77 branch symplectic/BFV no-selector (2026-08-09)
 
-`conditional-build/selected-k77-branch-boundary-amplitude-classification-2026-08-09.md`
-separates the aligned residual-adjoint orbit, whose moment map is exactly zero,
-from the primitive-epsilon endpoint orbit, whose independent endpoint charge
-has rank `14+14`. Both branches survive as Galois-related charged sectors or
-under the unique edge dressing; zero charge excludes both. Ledger v0.113 next
-constructs the global BFV trace space and polarization. No branch, horn or
-action parent is selected.
+`conditional-build/selected-k77-branch-bfv-no-selector-2026-08-09.md` composes
+the two nonzero branch amplitudes with the v0.103 strong boundary phase space.
+They are symplectomorphic by exact momentum rescaling and share the vertical
+polarization and edge coefficients. The minimal-edge horn now has a
+stratum-wise classical BFV charge with exact CME; the charged horn remains a
+physical rival. Ledger v0.114 routes next to global torsor topology and a
+common trace-preserving bulk Green/Krein domain before coupled BV-BFV. No
+branch, horn or action parent is selected.
 
 ## K77 full-parent branch stationarity (2026-08-09)
 

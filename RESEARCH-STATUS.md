@@ -8,18 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.113; seven
-distance/evidence migrations; headline unchanged).** Both exact branches have
-zero residual right-`tau_A0` adjoint moment map: `Theta` and endpoint momentum
-`P` are aligned on `Phi1`, so `[Theta,P]=0` for all 16,384 internal generators.
-The derivative-bearing primitive-epsilon endpoint orbit is different and has
-rank 14 per independent endpoint, rank 28 jointly. Its coefficients are
-opposite-sign Galois conjugates. Charged symmetry and unique minimal-edge
-dressing retain both branches; zero charge excludes both. This local orbit
-classification selects no branch, horn or action parent. Global BFV
-polarization, functional tangent, Hessian and domain remain open. No verdict,
-residue, quotient, datum, canon or posture moves; all three parents remain
-distinct.
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.114; seven
+distance/evidence migrations; headline unchanged).** The recorded successor
+partly duplicated v0.103, which already owns the compact-boundary `H7 x H-7`
+strong trace space and vertical polarization. Both nonzero opposite-sign
+Galois branch forms are exactly symplectomorphic by momentum rescaling, so
+strongness, vertical polarization, edge coefficients and classical BFV closure
+cannot select or normalize them. On every declared nonempty edge-torsor
+stratum, the minimal-edge horn has the standard classical BFV charge with
+exact master-equation coefficients; omitting the cubic ghost term fails. The
+charged horn remains a physical current-algebra rival. Global torsor topology,
+a common bulk Green/Krein domain, coupled BV-BFV, quantum measure, physical
+horn and action parent remain open. No verdict, residue, quotient, datum, canon
+or posture moves; all three parents remain distinct.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned

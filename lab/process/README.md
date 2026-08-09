@@ -7,12 +7,17 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.113. Both exact branches have
-zero aligned residual-adjoint moment map but live primitive-epsilon endpoint
-charge of rank 14 per endpoint. Charged and minimal-edge horns retain both;
-zero charge excludes both. The local classification selects no branch, horn,
-action parent or global BFV polarization. Registry:
-`selected-k77-branch-boundary-amplitude-classification.json`.
+Current append-only progress surface: ledger v0.114. The two nonzero branch
+forms are symplectomorphic by momentum rescaling and share the v0.103 strong
+trace space and vertical polarization. The minimal-edge horn has a classical
+BFV charge with exact CME on each declared nonempty compact-boundary torsor
+stratum; charged symmetry remains a physical rival. Global torsor topology,
+common domain, coupled BV-BFV and physical selection remain open. Registry:
+`selected-k77-branch-bfv-no-selector.json`.
+
+Predecessor progress surface: ledger v0.113. Both exact branches have zero
+aligned residual-adjoint moment map but live primitive-epsilon endpoint charge
+of rank 14 per endpoint; charged and minimal-edge horns retain both.
 
 Predecessor progress surface: ledger v0.112. Both branches survive the full
 pointwise internal parent comparison while endpoint momentum remains live.

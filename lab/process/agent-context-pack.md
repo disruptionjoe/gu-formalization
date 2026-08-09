@@ -9,14 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.113 boundary-amplitude gate:** both exact branches have zero
-> residual-adjoint moment map because `Theta` and `P` align on `Phi1`, but
-> primitive epsilon carries rank-14 charge at each independent endpoint.
-> Charged symmetry and minimal edge dressing retain both Galois-related
-> amplitudes; zero charge excludes both. Do not infer charge from a nonzero
-> endpoint covector without naming the gauge orbit. Next construct the global
-> BFV trace space/polarization. Keep selected Spin-native, two `U(32,32)`
-> halves and full `U(64,64)` distinct. Ledger v0.113.
+> **Current v0.114 branch/BFV gate:** v0.103 already owns the compact-boundary
+> `H7 x H-7` strong trace space and vertical polarization. Both nonzero
+> opposite-sign Galois branch forms are symplectomorphic by exact momentum
+> rescaling; that classical geometry cannot select amplitude. On each declared
+> nonempty edge-torsor stratum, the minimal-edge horn has the standard
+> classical BFV charge and exact CME, while charged boundary symmetry remains
+> a physical rival. Do not call this a global torsor, common bulk domain,
+> coupled BV-BFV, quantum measure or physical selection. Next prove global
+> torsor topology and a common `H7/H-7`, `H8/H-8` trace-preserving Green/Krein
+> domain. Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)`
+> distinct. Ledger v0.114.
 
 > **Predecessor v0.112 full-parent branch gate:** both exact branches survive all
 > `14 x 16,384` real pointwise `u(64,64)` source-`varpi` directions. The

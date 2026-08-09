@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_branch_bfv_no_selector_audit.py` enforces ledger v0.114's
+  exact nonzero-branch symplectomorphism, amplitude-blind vertical
+  polarization, stratum-wise classical minimal-edge BFV charge/CME, global
+  topology/domain/quantum fences and unchanged accounting.
+
 - `selected_k77_branch_boundary_amplitude_classification_audit.py` enforces
   ledger v0.113's exact residual-adjoint zero versus primitive-epsilon
   rank-14-per-endpoint charge split, Galois-related amplitudes, five boundary

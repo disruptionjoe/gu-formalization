@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.113.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.113.md`.
+`lab/process/conditional-physics-ledger-v0.114.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.114.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,17 +502,18 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.113 construction frontier
+### Current v0.114 construction frontier
 
-Both exact branches have zero residual-adjoint moment map on their aligned
-`Phi1` line, but the primitive-epsilon endpoint orbit carries rank-14 charge at
-each independent endpoint. Charged symmetry and the unique minimal edge
-dressing retain both Galois-related amplitudes; zero charge excludes both.
-This local classification selects no branch, boundary horn or action parent.
-Build next constructs the global functional endpoint trace space and BFV
-polarization, comparing the charged and edge horns. Parent selection and the
-complete functional tangent remain separate before Hessian, BV/common-domain
-and physics work.
+v0.103 already owns the compact-boundary `H7 x H-7` strong trace space and
+vertical polarization. v0.114 proves the two nonzero opposite-sign Galois
+branch forms symplectomorphic by momentum rescaling, so classical strongness,
+polarization and BFV closure cannot select amplitude. The minimal-edge horn
+has a classical BFV charge with exact master-equation coefficients on each
+declared nonempty edge-torsor stratum; the charged horn remains a physical
+current-algebra rival. Build next proves global edge-torsor topology and one
+bulk Green/Krein domain preserving `H7/H-7` and `H8/H-8` traces, then tests
+coupled bulk-boundary BV-BFV. Parent, physical horn and quantum selection stay
+separate.
 
 ### Predecessor v0.107 construction frontier
 

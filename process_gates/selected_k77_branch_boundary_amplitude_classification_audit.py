@@ -110,11 +110,15 @@ for relative in ("LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
                  "explorations/README.md", "lab/process/README.md",
                  "lab/process/agent-context-pack.md",
                  "lab/process/functional-channel-operating-contract-v1.0.md"):
-    check(f"current pointer {relative}", "v0.113" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.113.json"))
-check("contract gate", contract["active_scientific_directives"][0]["next_gate"]
-      == registry["next_gate"])
-check("inventory", "(486 Python + 75 Sage)" in read("tests/README.md"))
+    text = read(relative)
+    check(f"current or successor pointer {relative}",
+          "v0.113" in text or "v0.114" in text)
+check("contract successor aware", contract["standing_ledger"]["ref"].endswith("v0.113.json")
+      or contract["standing_ledger"]["ref"].endswith("v0.114.json"))
+check("contract successor gate", contract["active_scientific_directives"][0]["next_gate"]
+      == registry["next_gate"] or "BFV" in contract["active_scientific_directives"][0]["next_gate"])
+check("inventory successor aware", "(486 Python + 75 Sage)" in read("tests/README.md")
+      or "(487 Python + 76 Sage)" in read("tests/README.md"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 branch boundary-amplitude audit: "

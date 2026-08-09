@@ -1,0 +1,100 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "NONZERO_BRANCH_AMPLITUDES_SYMPLECTOMORPHIC__CLASSICAL_MINIMAL_EDGE_BFV_CME_EXACT_STRATUMWISE__COMMON_DOMAIN_QUANTUM_MEASURE_AND_PHYSICAL_SELECTION_OPEN",
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR2c", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_TILTED_BULK_GRAMMAR_AND_BOUNDARY_DEBT__SOURCE_SILENT_BFV_CHARGE_SOBOLEV_DEGREE_QUANTUM_MEASURE_AND_HORN_SELECTION",
+  "layer0": {
+    "v0103_owner": "COMPACT_BOUNDARY_H7_BY_HMINUS7_STRONG_COTANGENT_AND_VERTICAL_POLARIZATION",
+    "v0114_new_object": "BRANCH_SCALAR_SYMPLECTOMORPHISM_PLUS_CLASSICAL_ODD_EDGE_BFV_EXTENSION",
+    "bulk_minimal_bv": "G3_PRIOR_ART__NOT_REBUILT",
+    "boundary_bfv": "CLASSICAL_MINIMAL_EDGE_GAUGE_COMPLEX_ON_NONEMPTY_TORSOR_STRATA",
+    "charged_horn": "PHYSICAL_CURRENT_ALGEBRA_RIVAL__NOT_QUOTIENTED",
+    "classical_cme": "NOT_QUANTUM_MASTER_EQUATION_OR_ANOMALY_THEOREM",
+    "vertical_polarization": "NOT_COMPLEX_CONTOUR_OR_MEASURE"
+  },
+  "branch_symplectic_equivalence": {
+    "p_plus": "(-3+2*sqrt(3))/416",
+    "p_minus": "(-3-2*sqrt(3))/416",
+    "both_nonzero": true,
+    "opposite_real_signs": true,
+    "map": "T_(plus_to_minus)(Theta,P)=(Theta,(p_plus/p_minus)P)",
+    "identity": "T^* Omega_p_minus = Omega_p_plus",
+    "vertical_polarization_preserved": true,
+    "strongness_preserved": true,
+    "minimal_edge_coefficients": [-1, 1],
+    "edge_coefficients_amplitude_independent": true,
+    "selects_branch_or_amplitude": false,
+    "action_and_quantum_orientation_preserved": "NOT_ASSERTED"
+  },
+  "classical_edge_bfv": {
+    "scope": "EACH_DECLARED_NONEMPTY_COMPACT_BOUNDARY_EDGE_TORSOR_STRATUM",
+    "gauge_algebra": "H8_ADJOINT_SECTIONS",
+    "configuration_momentum": "H7_BY_HMINUS7",
+    "coisotropic_ambient": "TSTAR_H7_FIELDS_TIMES_TSTAR_H8_EDGE_GROUP",
+    "edge_cotangent_momentum": "HMINUS8_AUXILIARY",
+    "constraints": "G_a=-mu_a_v0103+ell_a=0__REORIENTS_RECORDED_MINUS_MOMENT_CONVENTION",
+    "ghosts": "FORMAL_CLASSICAL_H8_DEGREE_PLUS1",
+    "ghost_momenta": "FORMAL_CLASSICAL_HMINUS8_DEGREE_MINUS1",
+    "charge": "Q=c^a mu_a-1/2 f_ab^c c^a c^b b_c",
+    "constraint_closure_defects": 0,
+    "jacobi_defects": 0,
+    "classical_master_equation": "EXACT_COMPONENTWISE",
+    "cubic_ghost_term": "REQUIRED__OMISSION_PLANT_FAILS",
+    "branch_plus_closes": true,
+    "branch_minus_closes": true,
+    "selects_branch": false
+  },
+  "horns": {
+    "MINIMAL_EDGE_GAUGE": "CLASSICAL_BFV_EXTENSION_EXISTS_CONDITIONALLY",
+    "CHARGED_BOUNDARY_SYMMETRY": "CLASSICAL_CURRENT_ALGEBRA_RIVAL_REMAINS_LIVE",
+    "PHYSICAL_SELECTION": "OPEN"
+  },
+  "analytic_fence": {
+    "global_edge_torsor_nonemptiness_and_topology": "OPEN",
+    "common_bulk_green_krein_domain_preserving_traces": "OPEN",
+    "coupled_bulk_boundary_bv_bfv": "OPEN",
+    "complex_positive_polarization": "OPEN",
+    "quantum_measure_and_anomaly": "OPEN"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT",
+    "two_u32_32_halves": "RIVAL_PARENT",
+    "full_u64_64": "RIVAL_PARENT",
+    "selected": false
+  },
+  "constraint_fence": {
+    "new_physical_fields": 0,
+    "new_auxiliary_boundary_resolution_fields": "EDGE_COTANGENT_MOMENTUM_PLUS_GHOST_PAIR",
+    "new_physical_coefficients": 0,
+    "ghost_pairs_are_resolution_variables": true,
+    "new_booked_quotients": 0,
+    "booked_residue": 84,
+    "conditional_action_parent_range": "84..86",
+    "P1_P2_P3": "UNUSED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 3
+  },
+  "controls": {
+    "primary": "49/49 PASS",
+    "independent_sage": "21/21 PASS",
+    "v0103_replay": "59/59 PASS",
+    "v0113_replay": "51/51 PASS",
+    "missing_cubic_ghost_term": "NONABELIAN_CME_PLANT_FIRED"
+  },
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_branch_bfv_no_selector_probe.py",
+    "tests/channel-swings/selected_k77_branch_bfv_no_selector_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-branch-bfv-no-selector-review.md",
+  "next_gate": "PROVE_NONEMPTY_EDGE_TORSOR_TOPOLOGY_AND_COMMON_BULK_GREEN_KREIN_DOMAIN_PRESERVES_H7_HMINUS7_AND_H8_HMINUS8_TRACES__THEN_COUPLED_BULK_BOUNDARY_BV_BFV__KEEP_PHYSICAL_HORN_OPEN"
+}

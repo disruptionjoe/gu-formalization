@@ -7,16 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
-> **2026-08-09 BRANCH BOUNDARY-AMPLITUDE CLASSIFICATION (ledger v0.113).**
-> Both exact branches have zero residual-adjoint moment map because `Theta`
-> and `P` lie on the same `Phi1` line, yet each has a live rank-14 primitive-
-> epsilon charge at both independent endpoints. The endpoint coefficients are
-> opposite-sign Galois conjugates. Charged symmetry and the unique minimal
-> edge completion retain both branches; a zero-charge horn excludes both.
-> This classifies the local boundary orbits but selects no branch, horn or
-> action parent. Next construct the global functional trace space and BFV
-> polarization for primitive epsilon, keeping Spin-native, two `U(32,32)`
-> halves and full `U(64,64)` distinct before Hessian/BV/domain.
+> **2026-08-09 BRANCH SYMPLECTIC/BFV NO-SELECTOR (ledger v0.114).** v0.103
+> already owns the compact-boundary `H7 x H-7` strong trace space and vertical
+> polarization. The two nonzero opposite-sign Galois branch forms are exactly
+> symplectomorphic by momentum rescaling, so that classical geometry cannot
+> select their sign or amplitude. On every declared nonempty edge-torsor
+> stratum, the minimal-edge horn has the standard classical BFV charge and its
+> master-equation coefficients vanish by first-class closure and Jacobi; the
+> cubic ghost term is required. Charged boundary symmetry remains a live
+> physical rival. Next prove global edge-torsor topology and one bulk
+> Green/Krein domain preserving `H7/H-7` and `H8/H-8` traces, then test coupled
+> bulk-boundary BV-BFV. Keep Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct; no physical horn or parent is selected.
 
 > **2026-08-09 FULL-PARENT BRANCH STATIONARITY (ledger v0.112).** Both exact
 > nonzero branches survive every pointwise internal source-connection
