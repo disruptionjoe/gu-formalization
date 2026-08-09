@@ -7,16 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
-## K77 curvature/VEV trace closure (2026-08-09)
+## K77 source-Euler two-to-one family (2026-08-09)
 
-`conditional-build/selected-k77-curvature-vev-trace-closure-2026-08-09.md`
-identifies the dynamic VEV with the existing connection-distortion carrier and
-restores the omitted scalar derivative-curvature jet. The exact local branch
-`(B,T,r)=(Phi1/208,-Phi1/104,1/129792)` has zero fitting freedom and cancels
-the rank-one metric trace while preserving every frozen-jet connection
-equation. Ledger v0.108 routes next to a patchwise `Y14` connection, the full
-derivative Euler equation, differential Bianchi and observation descent. It
-does not claim a global vacuum, Einstein equation or dark-energy magnitude.
+`conditional-build/selected-k77-source-euler-two-to-one-2026-08-09.md`
+returns the local scalar-jet calculation to the source fields
+`(epsilon,varpi,g)`. The source translation and metric-volume equations leave
+one common amplitude; v0.108's rational point survives as a representative,
+while its uniqueness is retracted. A local connection/`T` one-jet, point
+Bianchi and constant-transition descent pass. Ledger v0.109 routes next to
+nonconstant affine atlas descent and epsilon/`Xi` formal prolongation before
+amplitude selection, tangent, Hessian or BV.
 
 ## K77 direct metric Euler trace demand (2026-08-09; predecessor)
 

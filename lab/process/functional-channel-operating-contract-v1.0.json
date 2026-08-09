@@ -15,8 +15,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.108.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.108.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.109.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.109.md",
     "accounting_ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
     "immutable_row_record_count": 84,
     "active_canonical_target_count": 82,
@@ -367,7 +367,9 @@
         "explorations/conditional-build/selected-second-layer-translation-curvature-principal-owner-2026-08-07.md",
         "explorations/conditional-build/selected-second-layer-transverse117-residual-zero-owner-class-2026-08-07.md",
         "explorations/conditional-build/selected-k77-total-upsilon-null-screen-2026-08-07.md",
-        "explorations/conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md"
+        "explorations/conditional-build/selected-k77-coupled-all-grade-upsilon-graph-2026-08-07.md",
+        "lab/sources/selected-k77-source-euler-two-to-one-source-reinspection-2026-08-09.md",
+        "explorations/conditional-build/selected-k77-source-euler-two-to-one-2026-08-09.md"
       ],
       "required_layer0_objects": [
         "OBSERVED_EINSTEIN_TENSOR",
@@ -529,7 +531,7 @@
           "NO_SOURCE_SILENCE_INTERPRETED_AS_DERIVATION_OR_REFUTATION"
         ]
       },
-      "next_gate": "CONSTRUCT_FULL_DERIVATIVE_B_EULER_AND_PATCHWISE_Y14_CONNECTION_REALISING_SCALAR_CURVATURE_JET__TEST_DIFFERENTIAL_BIANCHI_ATLAS_AND_OBSERVATION_DESCENT__THEN_SELECT_321_VS1571_TANGENT_AND_RESUME_HESSIAN_BV",
+      "next_gate": "NONCONSTANT_THREE_PATCH_CONNECTION_DESCENT_WITH_AFFINE_TERM__WRITE_EPSILON_EULER_AND_XI_EQUALS_D_OMEGA_UPSILON_FORMAL_PROLONGATION_ON_FAMILY__TEST_OPEN_NEIGHBORHOOD_EXTENSION_AND_AMPLITUDE_SELECTION__THEN_321_VS1571_TANGENT_HESSIAN_BV",
       "kosmann_moving_shiab_rank3_closure": "MATCHED_Q_INTERNAL_BIVECTOR_ORBIT_RANK3__MOVING_SHIAB_ALONE_WRONG_CARRIER__FULL_LOWER_ORDER_RAW_UPSILON_ZERO__V086_FROZEN_Q0_SPACELIKE_NULL_SUPPORTS_SUPERSEDED__PHYSICAL_DIFFEO_FRECHET_OPEN",
       "latest_residual_pairing_evidence": "K_LOC_HODGE13_TIMES_CLIFFORD_TRACE_ON_GRADES1_2_5__FULL_CARRIER_DIM29498_INERTIA14749_14749__FROZEN_RESPONSE_DIM1470_GRAM_RANK1470_INERTIA741_729__SELECTED_GRADE125_SPIN_NATIVE_DIM2107_WEIGHT_DIM3__CURT_TWO_C32_32_WEYL_HALVES_BLOCK_PRODUCT_CLOSURE16382_WEIGHT_DIM3__BLOCK_PLUS_EXCHANGE_WEIGHT_DIM2__LATER_FULL_U64_64_CLOSURE16383_WEIGHT_DIM1__ACTION_PARENT_SOURCE_SILENT__RESIDUE_RANGE84_86__P1_P2_P3_UNUSED"
     }

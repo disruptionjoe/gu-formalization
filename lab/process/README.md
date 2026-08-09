@@ -7,15 +7,14 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.108. The source-guided dynamic
-VEV is the existing connection-distortion carrier, not a second field. The
-omitted scalar derivative-curvature jet closes the selected local trace at
-`(B,T,r)=(Phi1/208,-Phi1/104,1/129792)` with zero local freedom and exact
-cancellation in all ten metric-volume directions. All frozen-jet connection
-directions remain stationary. Global realization is open: next construct the
-patchwise `Y14` connection/full derivative `B` Euler and test differential
-Bianchi, atlas and observation descent before tangent/Hessian/BV. Registry:
-`selected-k77-curvature-vev-trace-closure.json`.
+Current append-only progress surface: ledger v0.109. Source-coordinate Layer 0
+retracts v0.108's zero-freedom disposition: the actual translation and
+metric-volume equations leave one common curvature/distortion amplitude. The
+v0.108 point remains an exact representative. A local connection/`T` one-jet,
+point Bianchi and constant-transition descent pass. Next construct nonconstant
+affine atlas descent and epsilon/`Xi` formal prolongation, then test amplitude
+selection before tangent/Hessian/BV. Registry:
+`selected-k77-source-euler-two-to-one.json`.
 
 Predecessor progress surface: ledger v0.107. The repaired common connection
 branch exposed the exact rank-one direct metric trace demand.

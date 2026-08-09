@@ -9,18 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.108 curvature/VEV trace gate:** the source-guided dynamic VEV is
-> the existing connection-distortion carrier, not a new field. Restoring the
-> scalar derivative-curvature jet gives the unique local branch
-> `(B,T,r)=(Phi1/208,-Phi1/104,1/129792)`, with three independent equations,
-> determinant `-624`, zero local freedom, and exact cancellation of the direct
-> ten-component metric trace. All 1,470 frozen-jet `B/T` directions and the raw
-> residual vanish. Do not promote this to a global connection, full derivative
-> Euler equation, observed Einstein equation or dark-energy magnitude. Next
-> build the patchwise `Y14` connection/full derivative `B` Euler and test
-> differential Bianchi, atlas and observation descent before tangent/Hessian/BV.
-> Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
-> Ledger v0.108.
+> **Current v0.109 source-Euler two-to-one gate:** the source fields are
+> `(epsilon,varpi,g)`, not independent `(B,T,g)`. The translation and
+> metric-volume equations leave the exact family `f=t^2/3`,
+> `u=-t/312-4t^2/3`, with one common amplitude. The v0.108 point remains an
+> exact representative, but uniqueness and zero local freedom are retracted.
+> A local connection/`T` one-jet, point Bianchi and constant-transition descent
+> pass. Do not promote them to nonconstant atlas descent, an epsilon/`Xi`
+> solution, magnitude selection, Hessian or BV. Keep selected Spin-native, two
+> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.109.
 >
 > **Predecessor v0.107 metric-saddle gate:** the repaired branch
 > `B=Phi1/156`, `T=-Phi1/78` is connection-critical and raw-residual-zero but

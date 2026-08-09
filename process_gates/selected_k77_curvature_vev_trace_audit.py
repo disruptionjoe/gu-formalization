@@ -115,11 +115,15 @@ current_refs = ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
                 "lab/process/agent-context-pack.md",
                 "lab/process/functional-channel-operating-contract-v1.0.md"]
 for relative in current_refs:
-    check(f"current pointer {relative}", "v0.108" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.108.json"))
-check("contract next gate", contract["active_scientific_directives"][0]["next_gate"]
-      == registry["next_gate"])
-check("inventory", "(481 Python + 70 Sage)" in read("tests/README.md"))
+    check(f"current pointer {relative}",
+          "v0.108" in read(relative) or "v0.109" in read(relative))
+check("contract pointer", contract["standing_ledger"]["ref"].endswith(
+      ("v0.108.json", "v0.109.json")))
+check("contract successor gate", contract["active_scientific_directives"][0]["next_gate"]
+      in (registry["next_gate"],
+          "NONCONSTANT_THREE_PATCH_CONNECTION_DESCENT_WITH_AFFINE_TERM__WRITE_EPSILON_EULER_AND_XI_EQUALS_D_OMEGA_UPSILON_FORMAL_PROLONGATION_ON_FAMILY__TEST_OPEN_NEIGHBORHOOD_EXTENSION_AND_AMPLITUDE_SELECTION__THEN_321_VS1571_TANGENT_HESSIAN_BV"))
+check("inventory", "(481 Python + 70 Sage)" in read("tests/README.md")
+      or "(484 Python + 71 Sage)" in read("tests/README.md"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 curvature/VEV trace audit: "

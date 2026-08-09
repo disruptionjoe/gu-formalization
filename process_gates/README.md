@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_source_euler_two_to_one_audit.py` enforces ledger v0.109's
+  source-field Layer-0 correction, exact one-amplitude invariant family,
+  v0.108 representative/retraction split, local connection-jet/Bianchi/
+  constant-descent grade, and global prolongation/amplitude fences.
+
 - `selected_k77_curvature_vev_trace_audit.py` enforces ledger v0.108's
   same-carrier Layer-0 correction, exact zero-freedom scalar curvature-jet
   branch and metric-trace cancellation, while keeping the global connection,

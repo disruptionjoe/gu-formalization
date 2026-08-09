@@ -8,22 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.108; seven
-distance/evidence migrations; headline unchanged).** Weinstein's dynamic
-dark-energy candidate and the source action's `T_omega` are the same typed
-connection-distortion carrier; a global display identity remains open. The
-previous finite fixture omitted the scalar derivative-curvature jet. Restoring
-`r(Phi1 wedge Phi1)` yields the unique nonzero-distortion local branch
-`(B,T,r)=(Phi1/208,-Phi1/104,1/129792)`. Three independent equations have
-rank three and determinant `-624`, hence zero local fitting freedom. The
-noncurvature and derivative-curvature density pieces cancel exactly, as do all
-ten gimmel-volume components; all 1,470 frozen-jet `B` and `T` equations and
-the raw residual vanish. This is not yet a global connection, full derivative
-Euler equation, observed Einstein equation or dark-energy magnitude. Next
-construct the patchwise `Y14` connection/full derivative `B` Euler and test
-differential Bianchi, atlas and observation descent before tangent/Hessian/BV.
-No verdict, residue, quotient, datum, canon or posture moves; all three action
-parents remain distinct.
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.109; seven
+distance/evidence migrations; headline unchanged).** Returning to the source
+field space `(epsilon,varpi,g)` corrects v0.108: `B` is epsilon-derived and an
+arbitrary independent `B` variation at fixed `T` is not a source Euler
+direction. In invariant cells `(f,u,t)=(F_B,D_BT,T)`, the translation residual
+and metric-volume trace have rank two and give
+`f=t^2/3`, `u=-t/312-4t^2/3`. They reduce two quantities to one common local
+amplitude but do not select it. The v0.108 rational point remains an exact
+representative, not a unique vacuum. A local connection/`T` one-jet, point
+differential Bianchi and noncommuting constant-transition descent pass.
+Nonconstant atlas descent, epsilon/`Xi` prolongation, global realization,
+observation and amplitude selection remain open before tangent/Hessian/BV.
+No verdict, global residue, quotient, datum, canon or posture moves; the
+selected Spin-native, two `U(32,32)` halves and full `U(64,64)` remain distinct.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned

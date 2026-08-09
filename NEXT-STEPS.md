@@ -7,21 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
-> **2026-08-09 CURVATURE/VEV TRACE CLOSURE (ledger v0.108).** Layer 0 identifies
-> Weinstein's dynamic dark-energy candidate with the source action's existing
-> equivariant connection-distortion carrier; adding a second VEV field would
-> double-count it. Restoring the omitted scalar first-jet curvature cell gives
-> the unique nonzero-distortion local branch `B=Phi1/208`, `T=-Phi1/104`,
-> `r=1/129792`. Three independent equations have rank three (determinant
-> `-624`), so the fit has zero local freedom. Its noncurvature and derivative-
-> curvature action pieces are `+7/21632` and `-7/21632`, cancelling the
-> ten-component gimmel-volume trace, while all 1,470 frozen-jet `B` and `T`
-> directions and the raw residual vanish. This is local scalar-jet closure,
-> not a global connection or Einstein solution. Next construct the full
-> derivative `B` Euler and patchwise `Y14` connection realizing the jet, then
-> test differential Bianchi, atlas and observation descent. Only after that
-> may the 321-versus-1,571 tangent, Hessian and BV sequence resume. Keep the
-> selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+> **2026-08-09 SOURCE-EULER TWO-TO-ONE FAMILY (ledger v0.109).** Layer 0
+> corrects v0.108: the source fields are `(epsilon,varpi,g)`, so arbitrary
+> independent `B` at fixed `T` is not a source variation. The actual
+> translation and metric-volume equations give the exact one-amplitude family
+> `f=t^2/3`, `u=-t/312-4t^2/3`. The v0.108 rational point remains an exact
+> representative but its uniqueness and zero-freedom disposition are
+> retracted. A local connection/`T` one-jet, point differential Bianchi and
+> noncommuting constant-transition descent pass. Next construct nonconstant
+> affine atlas descent and the epsilon/`Xi=D_omega Upsilon` formal
+> prolongation, then test open-neighborhood extension and amplitude selection.
+> Only afterward resume the 321-versus-1,571 tangent, Hessian and BV sequence.
+> Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
 
 > **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**
 > On the conditionally selected Spin-native K77 parent, the source-owned
