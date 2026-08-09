@@ -2,8 +2,10 @@
 title: "The two Z/2's: is the H^1(F;Z/2) Mobius monodromy the same Z/2 as the ghost parity? A well-posed question with a decisive, cheap test — and a Layer-0 disambiguation that must come first"
 artifact_type: exploration_result
 created: 2026-08-09
-status: QUESTION_POSED_AND_SHARPENED__DECISIVE_TEST_IS_A_FRAME_CHARGE_EVALUATION__EXISTING_EVIDENCE_TILTS_TOWARD_DIFFERENT__LAYER_0_DISAMBIGUATION_IS_THE_FIRST_STEP_NOT_THE_COMPUTATION
-grade: "QUESTION + TRIAGE. No computation was run. Every fact quoted is already in the repository; the
+status: AMENDED_SAME_DAY__MOBIUS_DOUBLE_COVER_READING_IS_DEAD_BY_COMPUTATION__THE_ACTING_Z2_IS_pi0_O31_TIME_REFLECTION_NOT_pi1_SO__LAYER_0_HOMONYM_CONFIRMED__GHOST_PARITY_IDENTIFICATION_STILL_OPEN_BUT_PRIOR_SHIFTED
+grade: "QUESTION + TRIAGE as originally filed, AMENDED same day by execution -- see the amendment banner
+  and the run receipt. The original body's 'no computation was run' applied to the note as first written;
+  a computation HAS since been run and its outcome is folded in at the top. Every fact quoted is already in the repository; the
   contribution is (a) noticing that two independently-established Z/2 structures have identical symptoms,
   (b) naming the decisive test, and (c) flagging that a Layer-0 disambiguation gates it. NOT a claim that
   the two classes are the same, and NOT a claim about the generation count."
@@ -20,6 +22,35 @@ follows:
 ---
 
 # The two `Z/2`'s
+
+> ## AMENDMENT 2026-08-09 (same day) — the Mobius half is ANSWERED, and negatively
+>
+> Run receipt: `explorations/run-monodromy-frame-charge-preflight-hostile-2026-08-09.md`.
+> `tests/dc-h1/dc_h1_orbit_sign_monodromy_probe.py` re-run, ALL CHECKS PASSED.
+>
+> **The `Z/2` that generates `w != 0` in `H^1(F;Z/2)` is `pi_0` of the Lorentz stabilizer `O(3,1)` — the
+> `O(1)` TIME REFLECTION. It is a REFLECTION `Z/2`, not a double-cover `Z/2`.**
+>
+> The spinor double cover is **provably inert**: `chi` is quadratic in the Clifford lift, so it descends to
+> `SO` and is blind to the covering — the deck element `-I` of `Spin -> SO` has `chi = +1`, and
+> `pi_1(SO(3)) = Z/2` **does not move a single orbit sign**. The probe's own words: *"The two share a group
+> order and nothing else: Layer-0 HOMONYM."*
+>
+> So the Mobius / `4pi`-spinor reading of this monodromy — the motivating intuition for this note — **is
+> dead by computation**, and dead in exactly the way the pre-flight predicted: a `Z/2 = Z/2` number-match,
+> which the governing hypothesis note had already typed as the weakest evidence class and forbidden as an
+> argument.
+>
+> **What remains open, with a shifted prior.** Whether the *ghost parity* is the monodromy class is still
+> not settled — Run A identifies the monodromy's mechanism, not the ghost parity. But the "honest prior
+> tilts toward DIFFERENT" reasoning below **no longer holds as stated**: it leaned on the frame-triviality
+> wall, and the same run session showed that wall is **evadable** (Class B: `exp(theta . su2_+) . C_GU`,
+> antilinear, `C^2 = -1`, chirality-preserving, carrier leakage `2.56e-13`, NET-SD frame charge nonzero).
+> Frame-triviality therefore no longer automatically separates the two `Z/2`'s.
+>
+> **A new kill applies to the escape, however:** the escaping NET-SD is **continuously tunable and
+> non-monotone** (`+5.988 / +14.789 / +13.307` at `theta = 0.3 / 0.7 / 1.2`), so it is **not an index** and
+> cannot carry a count. Read the sections below with this amendment in force.
 
 ## The observation
 
