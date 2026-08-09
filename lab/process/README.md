@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.98. The physical matched-q
+metric, Cartan-`varpi` and moving-Shiab response now gives coefficientwise
+`J R=0` in timelike, spacelike and null classes without grade-one gamma
+soldering. The fourth physical direction has zero raw spin/residual output.
+The v0.97 defect is retained as a frozen-timelike plus wrong-orbit control.
+Common `K_loc` Green, action Euler/Noether, presymplectic/BFV, field Riesz and
+global domain remain. See
+`selected-k77-source-native-diffeomorphism-ward-closure.json`.
+
 Current append-only progress surface: ledger v0.97. The physical fixed-`varpi`
 `D_g Upsilon` bank now shares the actual all-grade carrier with `D_varpi` and
 has four rank-nine principal maps, combined rank twenty, and rank-six causal

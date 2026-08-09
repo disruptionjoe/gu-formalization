@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.97.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.97.md`.
+`lab/process/conditional-physics-ledger-v0.98.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.98.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -44,12 +44,14 @@ metric-derived spin-Levi-Civita first-jet image has rank 20 and all causal
 transverse restrictions have rank six. The actual `D_varpi` first-order bank
 now has four rank-13 principal coefficients and rank-24 zero-order coefficient;
 `K_loc` gives its exact covector-valued adjoint and Green current. The common
-`D_g` bank is now exact with four rank-nine coefficients, combined rank twenty
-and rank-six causal transverse restrictions. It rejects the prior
-identity-defined rank-four Ward metric completion as the physical rank-three
-Levi-Civita orbit, leaving a rank-four principal defect. Build must construct
-complete primitive `D_epsilon` and physical diffeomorphism transport before
-extending the Green identity. A field-valued adjoint additionally requires a
+`D_g` bank is exact with four rank-nine coefficients, combined rank twenty and
+rank-six causal transverse restrictions. The physical matched-q graph now
+composes that bank with Cartan `varpi` transport and source-native moving
+Shiab to give coefficientwise `J R=0` in timelike, spacelike and null classes.
+The fourth physical direction is longitudinal with zero spin/raw-residual
+output; grade-one gamma soldering is not required. Build may now extend the
+Green identity to the physical common graph, then derive action Euler/Noether
+and presymplectic classes. A field-valued adjoint additionally requires a
 field Riesz.
 
 Predecessor residual-pairing correction: the conditional local K77 pairing
@@ -66,9 +68,11 @@ six on the conditional Spin-native selected parent. v0.94 closes their
 metric-induced coefficient packet; v0.95 closes the local fixed-varpi metric
 partial, including expanded curvature cancellation and dependent observation.
 v0.96 closes the actual `Dvarpi` equation-dual/Green block. v0.97 closes the
-common-coordinate `D_g` bank and corrects the old Ward-metric owner; complete
-primitive `D_epsilon`, physical diffeomorphism transport, and any field-space
-Riesz representative remain construction burdens.
+common-coordinate `D_g` bank and corrects the old Ward-metric owner. v0.98
+closes the matched-q dependent physical diffeomorphism orbit without gamma.
+Common Green, action Euler/Noether, presymplectic class and any field-space
+Riesz representative remain construction burdens; arbitrary primitive
+`D_epsilon` is built only if those gates require it.
 
 Predecessor action/Frechet/Ward correction: the complete v0.77 pointwise bank is
 the first-action Euler covector `dI1`; it is not the raw residual Jacobian

@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 source-native physical Ward closure (2026-08-08)
+
+`conditional-build/selected-k77-source-native-diffeomorphism-ward-closure-2026-08-08.md`
+composes the physical metric lift, matched-q Cartan connection response and
+moving-Shiab epsilon response to exact `J R=0` in all three causal classes.
+The fourth physical direction is longitudinal with zero raw spin output, so
+grade-one gamma soldering is unnecessary. Ledger v0.98 advances to common
+`K_loc` Green and action Euler/Noether while keeping selected Spin-native,
+two-`U(32,32)`-half and full-`U(64,64)` action parents distinct.
+
 ## K77 common metric residual-coordinate bank (2026-08-08)
 
 `conditional-build/selected-k77-common-metric-dupsilon-coefficient-bank-2026-08-08.md`

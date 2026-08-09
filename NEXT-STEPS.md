@@ -7,6 +7,19 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 SOURCE-NATIVE PHYSICAL WARD CLOSURE (ledger v0.98).**
+> The matched-q physical metric, Cartan-`varpi`, and moving-Shiab response now
+> gives coefficientwise `J R=0` in timelike, spacelike and null classes. The
+> physical Jacobian is rank four while its spin/raw-residual image is rank
+> three; the longitudinal direction has zero output, so grade-one gamma
+> soldering is not required. The v0.97 rank-four defect was a frozen-timelike
+> plus gamma-orbit composition artifact. Next extend the v0.96 `K_loc`
+> equation-dual/formal-adjoint/Green result to this physical common graph,
+> then derive action Euler/Noether and presymplectic classes. Build arbitrary
+> primitive `D_epsilon` only if those gates require it. Keep the selected
+> Spin-native parent, two `U(32,32)` halves and full `U(64,64)` comparator
+> distinct.
+
 > **2026-08-08 COMMON METRIC RESIDUAL-COORDINATE BANK (ledger v0.97).**
 > The fixed-`varpi` `D_g Upsilon` bank now shares the actual all-grade carrier
 > with `D_varpi`: four rank-nine principal maps, complete rank-twenty

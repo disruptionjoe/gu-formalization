@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_source_native_diffeomorphism_ward_closure_audit.py` enforces
+  ledger v0.98's matched-q metric--Cartan--moving-Shiab `J R=0`, physical
+  rank-four versus raw rank-three longitudinal split, rejection of frozen-q0
+  and missing-term plants, grade-one-gamma nonrequirement, source and
+  symplectic/analytic fences, and common-`K_loc`/action-Euler successor.
+
 - `selected_k77_common_metric_dupsilon_coefficient_bank_audit.py` enforces
   ledger v0.97's four rank-nine common metric banks, combined rank-twenty and
   all-causal transverse rank-six result, exact metric/varpi torsion graph,

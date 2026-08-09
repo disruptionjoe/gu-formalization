@@ -8,6 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.98; five
+distance/evidence migrations; headline unchanged).** The exact matched-q
+physical metric--Cartan-`varpi`--moving-Shiab graph gives coefficientwise
+`J R=0` in timelike, spacelike and null classes with zero fitted parameters.
+The physical Jacobian has rank four, but the spin/raw-residual image is rank
+three with a longitudinal zero-output direction; grade-one gamma soldering is
+not required. The v0.97 rank-four defect is retyped as a frozen-timelike
+operator plus gamma-orbit composition artifact. This closes the dependent
+physical four-column orbit, not arbitrary primitive `D_epsilon`, action
+Euler/Noether, presymplectic/BFV, a common global domain or field Riesz. Next
+extend the v0.96 `K_loc` formal-adjoint/Green block to the physical common
+graph, then derive the action and preboundary classes. No verdict, residue,
+quotient, datum, canon or posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.97; five
 distance/evidence migrations; headline unchanged).** The fixed-`varpi`
 `D_g Upsilon` derivative is now emitted on the same all-grade carrier as
