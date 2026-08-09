@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.119.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.119.md`.
+`lab/process/conditional-physics-ledger-v0.120.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.120.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,19 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.119 construction frontier
+### Current v0.120 construction frontier
+
+v0.120 builds the selected lower-order primitive-epsilon raw-residual block
+on both exact branches. Its coefficient is `-b+360(b+t)^2`; the two positive
+conjugate branch maps both have rank 91. Residual zero does not imply a zero
+Jacobian. The fixed-`varpi` metric block was already owned by v0.95; both
+branches satisfy its raw-zero premise, so transverse rank 6 ports. Build next
+constructs the complete first-action Hessian and expanded-parent pairings,
+then gauge fixing and ghosts before `Dmax/Dmin`. Keep the raw residual, first
+transgression action, endpoint momentum, selected Spin, two `U(32,32)` halves
+and full `U(64,64)` distinct. P1/P2/P3 remain unused.
+
+### Predecessor v0.119 construction frontier
 
 v0.119 ports the already-owned first-action rank-91 epsilon/Cl1 cross and
 residual rank-1470 zero-jet `varpi` map to both exact stationary branches. The

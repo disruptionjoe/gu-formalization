@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.120 lower-order source-block reconciliation:** the raw residual
+> is `T+*Shiab(F_A)`, not the first transgression's `1,1/2,1/3` packet. Its
+> selected lower-order primitive-epsilon derivative is
+> `[-b+360(b+t)^2][Phi1,eta]`, rank 91 on both exact branches with positive
+> conjugate coefficients. Residual zero is not zero Jacobian. v0.95 already
+> owned the fixed-`varpi` metric theorem; its raw-zero premise now holds on
+> both branches, porting transverse rank 6. Next build the complete first-
+> action Hessian and expanded parents. Keep both actions, endpoint momentum,
+> selected Spin, two `U(32,32)` halves and full `U(64,64)` distinct.
+> P1/P2/P3 remain unused.
+
 > **Current v0.119 two-branch action-block port:** both exact stationary roots
 > retain the independently checked rank-91 first-action epsilon/Cl1 cross and
 > rank-1470 residual zero-jet `varpi` map. The selected 125-field causal

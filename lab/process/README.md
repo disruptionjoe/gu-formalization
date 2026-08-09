@@ -7,7 +7,14 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.119. Both exact stationary
+Current append-only progress surface: ledger v0.120. Both exact stationary
+branches retain a rank-91 lower-order primitive-epsilon raw-residual block
+with positive conjugate coefficients, and the v0.95 fixed-`varpi` transverse
+metric rank-6 theorem ports to both. Residual zero is not zero Jacobian.
+Complete Hessians, expanded parents, gauge/ghost and domain remain open.
+Registry: `selected-k77-lower-order-source-block-reconciliation.json`.
+
+Predecessor v0.119. Both exact stationary
 branches retain the already-owned first-action rank-91 epsilon/Cl1 cross and
 residual rank-1470 zero-jet `varpi` map. Their selected 125-field principal
 Gram bank is common while lower-order amplitudes differ. Lower-order

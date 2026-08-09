@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 lower-order source-block reconciliation (2026-08-09)
+
+`conditional-build/selected-k77-lower-order-source-block-reconciliation-2026-08-09.md`
+builds the selected lower-order primitive-epsilon raw-residual block on both
+exact branches: coefficient `-b+360(b+t)^2`, positive conjugate branch values
+and rank `91/91`. It also ports the already-owned v0.95 fixed-`varpi` metric
+theorem at transverse rank 6. Ledger v0.120 keeps residual, first action,
+endpoint momentum and all three parent scopes distinct; complete Hessian,
+expanded parents and gauge/ghost/domain remain open.
+
 ## K77 two-branch action-block port (2026-08-09)
 
 `conditional-build/selected-k77-two-branch-action-block-port-2026-08-09.md`

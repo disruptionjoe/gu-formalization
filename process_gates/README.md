@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_lower_order_source_block_reconciliation_audit.py` enforces
+  ledger v0.120's exact raw-residual/lower-epsilon Layer-0 typing, branch ranks
+  `91/91`, positive conjugate coefficients, v0.95 fixed-`varpi` metric port,
+  parent/action/domain fences, unchanged accounting and two hostile repairs.
+
 - `selected_k77_two_branch_action_block_port_audit.py` enforces ledger
   v0.119's exact rank-91 first-action cross and rank-1470 residual zero-jet
   `varpi` ports to both branches, common selected causal principal ranks

@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.120; six
+distance/evidence migrations; headline unchanged).** The selected lower-order
+primitive-epsilon raw-residual derivative is exact on both K77 branches:
+`[-b+360(b+t)^2][Phi1,eta]`, rank 91, with positive conjugate branch
+coefficients. Both branches also satisfy the raw-residual-zero premise of the
+already-owned v0.95 fixed-`varpi` metric theorem, so its transverse rank-6
+block ports. Residual zero is not zero Jacobian; raw residual, first-action
+Euler and endpoint momentum remain distinct. Complete Hessians, expanded
+parents, gauge/ghost and domains remain open. No verdict, residue, quotient,
+datum, canon or posture moves; P1/P2/P3 remain unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.119; six
 distance/evidence migrations; headline unchanged).** Both exact stationary
 branches now carry the already-owned first-action rank-91 epsilon/Cl1 cross

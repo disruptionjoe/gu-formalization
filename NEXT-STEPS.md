@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 LOWER-ORDER SOURCE-BLOCK RECONCILIATION (ledger v0.120).**
+> Both exact K77 branches retain a rank-91 lower-order primitive-epsilon raw-
+> residual block with positive conjugate coefficients
+> `(51∓19√3)/8112`. Residual zero is not zero Jacobian. The fixed-`varpi`
+> metric block was already exact in v0.95 and now ports to both branches at
+> transverse rank 6. Next construct the complete first-action Hessian and
+> expanded-parent pairings. Keep the raw residual, first transgression action,
+> endpoint momentum, selected Spin carrier, two `U(32,32)` halves and full
+> `U(64,64)` comparator distinct; then add gauge/ghost/domain. P1/P2/P3 remain
+> unused.
+
 > **2026-08-09 TWO-BRANCH ACTION-BLOCK PORT (ledger v0.119).** Both exact
 > stationary branches retain the already-owned rank-91 first-action
 > epsilon/Cl1 cross and rank-1470 residual zero-jet `varpi` map. The selected
