@@ -186,3 +186,66 @@ metric-derived tiebreaker -> polarization demands global consistency -> no globa
 
 Everything else is downstream technical work — but 2 and 3 are conditional, and 4 is the only one that is
 established.
+
+---
+
+# ITEM 1 FIXED 2026-08-09 — retype onto the banked Cech object; do not re-narrate
+
+The repair is **not** to rewrite the aggregation claim in better prose. The repository already owns the
+correct object, and it is strictly stronger than the narrative version.
+
+## The banked object
+
+- `explorations/wave-swing1-the-lemma-2026-07-21.md`: `H^1(Z/2; -)` **is** the **Cech gluing obstruction**,
+  and `sigma = w_1 = Cech-H^1`.
+- `explorations/construction-prong3-verify-2026-07-21.md`: the Cech descent obstruction and the
+  fixed-point/section count are **the SAME degree-1 `Z/2` holonomy class** —
+  `descent-sections == Phi-fixed-points == w1(L_time)` at degree 1.
+- `sigma` is **kept as a POSIT throughout** — not derived.
+
+`H^1` *is* the obstruction to gluing local sections into a global one. That is what the group means. So the
+`w != 0` result is not a surprise standing in the way of the aggregation picture — **it is the aggregation
+picture's own invariant**, already in the right cohomological home.
+
+## The fixed statement of item 1
+
+> Observer records and finality domains produce **local sections that agree on overlaps**. They do **not**
+> produce a global section, and cannot: the obstruction is the Cech class `w != 0` in `H^1(F; Z/2)`. The
+> shared object is a **cocycle**, not a global metric, and `w` measures exactly how far the collective is
+> from being able to agree globally. Under the banked posit `sigma = w_1 = Cech-H^1`, that obstruction **is**
+> the ledger's orientation bit.
+
+## What the fix changes, line by line
+
+1. **DELETE the time-taming clause.** The base is `(3,1)`; pullback along any section is Lorentzian
+   automatically. Aggregation does not select the number of times and must not be credited with it.
+2. **MOVE the emergent object** from `X4` (the base — given, and presupposed by `Met(X4)`) to the **section**.
+3. **REPLACE "produces a shared structure"** with "produces a descent structure whose gluing obstruction is
+   `Cech-H^1`". This is mathematically correct, it explains why no global section exists instead of colliding
+   with it, and it needs no new machinery.
+4. **INHERIT the falsifiable consequence.** The banked chain already carries one: **C3's odd-parity
+   descent-defect prediction.** The narrative version had no prediction at all; the retyped version arrives
+   with one.
+
+## The structural payoff — items 1 and 2 merge
+
+Under `sigma = w_1 = Cech-H^1`, the **irreducible external orientation bit** and the **descent obstruction**
+are the same object. So the core's item 1 (aggregation) and item 2 (irreducible ledger) are not two adjacent
+hypotheses — **they meet at `w_1`**, with aggregation supplying the local data and the ledger supplying the
+`Z/2` that a global choice would require and cannot get from inside.
+
+That also resolves the REGIONAL-vs-CUT fork's shape: local sections always exist, so the structure is
+**inherently regional**, and "global" is available only by importing the class — i.e. at a cut.
+
+## Honest caveats, carried
+
+- **`sigma = w_1` is a POSIT, kept as such throughout, and is NOT derived.** Dynamic Unity's `CONNECTIONS.md`
+  lists it explicitly among the things current evidence does **not** establish. The fix inherits a posit, not
+  a theorem.
+- **The internal coherence is weaker than it looks.** `construction-prong3-verify` flags that both prongs
+  **draw on the same banked `H^1`(finality sheaf)**, so their agreement is *not* two independent
+  confirmations. Do not cite it as convergence.
+- Two contingent seams remain flagged there: the non-identification of the two `Z/3`s, and which arrow is
+  "the" global one.
+- **Homonym located, not yet fixed.** The `sigma` in `sigma = w_1` is the **ledger / orientation** `sigma`,
+  not the **section** `sigma : X4 -> Y14`. Both usages are live in this repository. The rename is still owed.
