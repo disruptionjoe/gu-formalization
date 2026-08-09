@@ -83,6 +83,23 @@ graph TD
   PD_CONDITIONAL_VS_SETTLED_s3 --> PD_CONDITIONAL_VS_SETTLED_chk
   PD_CONDITIONAL_VS_SETTLED_t0("TRAP 2026-08-08")
   PD_CONDITIONAL_VS_SETTLED_chk -.-> PD_CONDITIONAL_VS_SETTLED_t0
+  PD_ULTRAHYPERBOLIC_DOMAIN["PD-ULTRAHYPERBOLIC-DOMAIN"]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s0["EXACT: GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-ma..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN --> PD_ULTRAHYPERBOLIC_DOMAIN_s0
+  PD_ULTRAHYPERBOLIC_DOMAIN_s1["THEOREM: The standard Dirac boundary-value literature (Baer-Ballmann, APS, MIT, glob..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s0 --> PD_ULTRAHYPERBOLIC_DOMAIN_s1
+  PD_ULTRAHYPERBOLIC_DOMAIN_s2["THEOREM: For the ultrahyperbolic equation the Cauchy problem is ILL-POSED IN GENERAL..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s1 --> PD_ULTRAHYPERBOLIC_DOMAIN_s2
+  PD_ULTRAHYPERBOLIC_DOMAIN_s3["THEOREM: A citable remedy exists and is NONLOCAL: well-posed on H^m under an explici..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s2 --> PD_ULTRAHYPERBOLIC_DOMAIN_s3
+  PD_ULTRAHYPERBOLIC_DOMAIN_s4["THEOREM: The remedy does not generalise: higher-codimension initial surfaces stay il..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s3 --> PD_ULTRAHYPERBOLIC_DOMAIN_s4
+  PD_ULTRAHYPERBOLIC_DOMAIN_s5["EXACT: C1's 346,112-dimensional admissible moduli is a SECTION-level result at fil..."]
+  PD_ULTRAHYPERBOLIC_DOMAIN_s4 --> PD_ULTRAHYPERBOLIC_DOMAIN_s5
+  PD_ULTRAHYPERBOLIC_DOMAIN_chk{"CHECK: State which well-posedness you are assuming and for which operator"}
+  PD_ULTRAHYPERBOLIC_DOMAIN_s5 --> PD_ULTRAHYPERBOLIC_DOMAIN_chk
+  PD_ULTRAHYPERBOLIC_DOMAIN_t0("TRAP 2026-08-08")
+  PD_ULTRAHYPERBOLIC_DOMAIN_chk -.-> PD_ULTRAHYPERBOLIC_DOMAIN_t0
   PD_SIGNATURE_PARITY === PD_SOURCE_NOTATION
   PD_SIGNATURE_PARITY === PD_GHOST_PARITY
   PD_GHOST_PARITY === PD_SIGNATURE_PARITY
@@ -91,6 +108,8 @@ graph TD
   PD_CONDITIONAL_VS_SETTLED === PD_SIGNATURE_PARITY
   PD_CONDITIONAL_VS_SETTLED === PD_GHOST_PARITY
   PD_CONDITIONAL_VS_SETTLED === PD_SOURCE_NOTATION
+  PD_ULTRAHYPERBOLIC_DOMAIN === PD_SIGNATURE_PARITY
+  PD_ULTRAHYPERBOLIC_DOMAIN === PD_CONDITIONAL_VS_SETTLED
 ```
 
 ## PD-SIGNATURE-PARITY
@@ -211,4 +230,30 @@ graph TD
   - *Receipt:* `lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md`
 
 **Invalidates if:** Never. This is a process invariant.
+
+## PD-ULTRAHYPERBOLIC-DOMAIN
+
+**Lorentzian well-posedness is not ultrahyperbolic well-posedness. For GU's ambient the Cauchy problem is ILL-POSED BY DEFAULT, so a domain is something you must SUPPLY, not something you may assume and check later.**
+
+- **Trigger:** Any work on the operator domain, deficiency indices, formal adjoint, Green identity, presymplectic/covariant phase space, or that cites Baer-Ballmann, APS, MIT boundary conditions or "globally hyperbolic" results for the AMBIENT Y^14 operator.
+- **Naive reading:** "Boundary value problems for Dirac-type operators are standard; the domain exists generically and can be pinned later." That standard theory is uniformly about ONE TIME DIRECTION. GU's ambient (7,7)/(9,5) has many.
+
+| # | evidence | fact | receipt |
+|---|---|---|---|
+| 1 | `EXACT` | GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-manifold -- (7,7) or (9,5), many time directions. | `explorations/c1-domain-moduli-result-2026-08-08.md` |
+| 2 | `THEOREM` | The standard Dirac boundary-value literature (Baer-Ballmann, APS, MIT, globally hyperbolic, spatially non-compact Cauchy data) is uniformly LORENTZIAN -- one time direction. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 3 | `THEOREM` | For the ultrahyperbolic equation the Cauchy problem is ILL-POSED IN GENERAL (Craig & Weinstein 2009, arXiv:0812.0210). | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 4 | `THEOREM` | A citable remedy exists and is NONLOCAL: well-posed on H^m under an explicit nonlocal constraint on the Cauchy data, on codimension-one hypersurfaces only. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 5 | `THEOREM` | The remedy does not generalise: higher-codimension initial surfaces stay ill-posed through failure of uniqueness. | `lab/sources/literature-ultrahyperbolic-wellposedness-2026-08-08.md` |
+| 6 | `EXACT` | C1's 346,112-dimensional admissible moduli is a SECTION-level result at filed symmetry; it does not answer the ambient deficiency-index question. | `explorations/c1-domain-moduli-result-2026-08-08.md` |
+
+**CHECK.** State which well-posedness you are assuming and for which operator. If the claim is about the AMBIENT operator, "Baer-Ballmann generically" is NOT available -- say instead what supplies the domain, and compare it against the nonlocal-constraint remedy. Never let a section-level domain result stand in for the ambient one.
+
+**Traps that actually happened:**
+
+- **2026-08-08** — M-H10 was found to rest on "Baer-Ballmann does this generically", which does not cover ultrahyperbolic signature. Worse than a scope slip: the literature says ill-posedness is the DEFAULT there, so the premise was not merely unstated for this setting but pointed the wrong way. The gap was recorded only inside an artifact about a DIFFERENT question (C1's domain moduli), where no one leaning on M-H10 would meet it.
+  - *Cost:* A premise gap on a live blocker, invisible from the row that needs it, until filed as M-S5.
+  - *Receipt:* `lab/process/improvement-register-2026-08-03.md`
+
+**Invalidates if:** A signature-appropriate well-posedness theorem covering first-order ultrahyperbolic operators on non-compact manifolds is found, or GU's ambient problem is re-typed so that it is not ultrahyperbolic.
 
