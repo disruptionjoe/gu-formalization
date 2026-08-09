@@ -3,7 +3,7 @@ title: "Y14 / X4 systems spec sheet: substrate, projection, and section, specifi
 doc_type: orientation
 status: baseline
 created: 2026-08-09
-version: "1.2"
+version: "1.3"
 version_policy: |
   1.0 is the FROZEN BASELINE. It is not the best version of this document -- it is the first one, saved
   deliberately so later changes are diffable rather than silent.
@@ -94,13 +94,38 @@ compact index theorems do not apply.** Every index-theoretic argument in this sy
 |---|---|---|
 | type | smooth, oriented 4-manifold | `[MATH]` |
 | dimension | 4 | `[MATH]` |
-| signature | `(3,1)` [K95 fork] / `(1,3)` [K77, settled for the chimeric metric] | `[MATH]`, fork live |
+| signature | `(3,1)` [K95] / `(1,3)` [K77] — **fork OPEN, see the two-fork warning below** | `[MATH]`, fork live |
 | compactness | **`[UNSPECIFIED]`** — not fixed by the construction | |
 | **spin** | **standing PRECONDITION, not a free structure choice** (W2-FC1). `CP^2` is **excluded** (non-spin). | `[MATH]` |
 | spin-c escape | closed: `Y14` is spin-c for any orientable `X4` (`W3(Y14)=pi*W3(X4)=0`), **but** the `U(1)` twist `S (x)_C L^{1/2}` breaks H-linearity and shifts the index off `Ahat(K3)=2`. **Spin-c does not suffice.** | `[MATH]` |
 
 > **Note.** `X4 in K3` is a **local working hypothesis** of specific entries (Freed-Hopkins Option-B; the
 > Distler-Garibaldi GU-Chir block), never a global base assumption. Do not import it silently.
+
+> ### TWO FORKS, AND THEY MUST NOT BE CONFLATED (added 1.3 — this document conflated them in 1.0-1.2)
+>
+> `lab/process/layer0-fork-registry.yaml` carries two separate rows. The registry states explicitly that
+> `SIGNATURE-AMBIENT` is *"Distinct from `REAL-CLIFFORD-FORM`"*.
+>
+> - **`SIGNATURE-AMBIENT`** — `(9,5)` vs `(7,7)`, the ambient signature itself — **OPEN, UNDER-DETERMINED.**
+>   Currently at **stack depth 10, over threshold** (`process_gates/fork_depth_audit.py`).
+> - **`REAL-CLIFFORD-FORM`** — which real Clifford algebra *the source computes in* — **settled at
+>   `Cl(7,7) = M128(R)` on 2026-08-04**, from source-typed arithmetic, making `(7,7)` "the primary
+>   source-aligned reconstruction burden."
+>
+> **The 2026-08-04 settlement is evidence bearing on the ambient fork, not a settlement of it.** Earlier
+> versions of this document said "K77, settled for the chimeric metric," which reads as the ambient
+> signature having moved. It has not.
+>
+> **Why it matters here.** `canon/no-go-quaternionic-parity-generation-sector.md` states its own dissolution
+> condition — the Kramers/quaternionic even-index wall is **`(9,5)`-ONLY; under `(7,7)` (`J^2 = +1`) the wall
+> is absent** — and that entry is recorded **2026-08-07 as "REOPENER PRESSURED, NOT FIRED. VERDICT NOT
+> RETRACTED."** Any `(9,5)`-substrate result in this program is valid *on a live but undetermined horn*, not
+> superseded and not unconditional.
+>
+> **Standing process gap, quoted from that entry:** *"Nothing in the repository watches a stated dissolution
+> condition for its trigger becoming true."* Same root cause as this document's own staleness issue
+> (register root cause 2), one tier up.
 
 ### 2.2 `Y14` — the substrate
 
@@ -493,3 +518,21 @@ Raised by a direct read of `canon/single-decider-integer-index-RESULTS.md` after
 - **Lesson recorded for future versions of this document:** "nobody has computed X" is a claim about the
   repository and must be checked against the repository before it is written down. This document made that
   error once and it survived one release.
+
+### 1.3 — 2026-08-09 — separate the two signature forks
+Triggered by the question "is a 2026-06-29 `(9,5)` result still valid?", which this document could not answer
+because it had conflated two registry rows.
+
+- **Sec 2.1 CORRECTED (substantive).** 1.0-1.2 wrote "`(1,3)` [K77, settled for the chimeric metric]," which
+  reads as the **ambient signature** having settled. It has not. `SIGNATURE-AMBIENT` is **OPEN,
+  UNDER-DETERMINED**, at stack depth 10 and over threshold. What settled on 2026-08-04 is the distinct row
+  `REAL-CLIFFORD-FORM` — which real Clifford algebra *the source computes in* — at `Cl(7,7) = M128(R)`. The
+  registry says explicitly these are distinct; this document conflated them for three versions.
+- **Consequence recorded** for reading any `(9,5)`-substrate result in this program: such results are valid
+  on a **live but undetermined horn** — not superseded, not unconditional. The quaternionic even-index wall
+  is `(9,5)`-ONLY and is **absent under `(7,7)`** (`J^2 = +1`);
+  `canon/no-go-quaternionic-parity-generation-sector.md` is recorded 2026-08-07 as **"REOPENER PRESSURED,
+  NOT FIRED. VERDICT NOT RETRACTED."**
+- **Process gap noted, quoted from that entry:** *"Nothing in the repository watches a stated dissolution
+  condition for its trigger becoming true."* This is the same root cause as this document's own staleness
+  issue (register root cause 2), one tier up. Worth a gate.
