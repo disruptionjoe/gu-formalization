@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 full tilted boundary moment-map descent (2026-08-08)
+
+`conditional-build/selected-k77-full-tau-a0-moment-map-2026-08-08.md`
+composes the derivative-bearing nonzero-`A0` tilted action with the
+conditional Spin-native scalar-Clifford trace. The raw residual action is
+charged with moment map `[Theta_A0,P]`; the minimal edge frame makes its
+four-dimensional orbit exactly the characteristic kernel, and moving-reference
+conjugation patches the result. Ledger v0.102 closes global algebraic
+associated-bundle descent while leaving functional BFV completion,
+polarization, the charged comparator and common Green/Krein domain open.
+
 ## K77 physical-boundary disposition selector (2026-08-08)
 
 `conditional-build/selected-k77-boundary-disposition-selector-2026-08-08.md`

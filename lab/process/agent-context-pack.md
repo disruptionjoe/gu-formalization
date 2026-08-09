@@ -9,6 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.102 full tilted boundary descent:** the full derivative-bearing
+> nonzero-`A0` cocycle, left tilted quotient, conditional Spin-native action
+> trace and minimal edge frame now compose exactly. Before extension the
+> residual adjoint action is charged with moment map `[Theta_A0,P]`; after
+> extension, the rank-eight pulled-back form on twelve dimensions has kernel
+> exactly the four-dimensional residual gauge orbit. Moving-reference
+> conjugation patches the moment map. This is global algebraic
+> associated-bundle descent, not a functional BFV completion or physical horn
+> selection. Next compare global edge reduction/polarization with the charged
+> boundary charge algebra, then construct the common Green/Krein domain. Keep
+> the selected Spin-native parent, two `U(32,32)` halves and full `U(64,64)`
+> parent distinct. Ledger v0.102.
+
 > **Current v0.101 physical-boundary selector:** Weinstein's full tilted bulk
 > quotient does not automatically type endpoint transformations as gauge, and
 > the local action's nonzero `E_B-E_T` bank does not choose gauge versus charged

@@ -8,6 +8,21 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.102; five
+distance/evidence migrations; headline unchanged).** The full
+derivative-bearing nonzero-`A0` tilted double action now composes with the
+conditional Spin-native scalar-Clifford action trace. Before edge extension,
+the residual adjoint action has the nonzero raw moment map `[Theta_A0,P]` and
+is charged. The minimal edge frame yields an exact rank-eight presymplectic
+form on twelve dimensions whose four-dimensional kernel is precisely the
+residual gauge orbit; moving-reference conjugation also patches the moment-map
+section. This closes global algebraic associated-bundle descent only. Global
+functional BFV completion, polarization, charge algebra, the common
+Green/Krein domain and the physical choice between edge gauge and charged
+boundary symmetry remain open. The selected 2,107-dimensional Spin-native
+parent and the expanded 16,382/16,383-dimensional unitary parents remain
+distinct. No verdict, residue, quotient, datum, canon or posture moves.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.101; five
 distance/evidence migrations; headline unchanged).** Weinstein's checked
 source confirms the full tilted bulk double-coset grammar and acknowledges

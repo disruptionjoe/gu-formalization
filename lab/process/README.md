@@ -7,6 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.102. Full derivative-bearing
+nonzero-`A0` `tau_A0`, the conditional Spin-native action trace, raw residual
+moment map, minimal-edge characteristic kernel and moving-reference patch law
+now compose exactly. This closes global algebraic associated-bundle descent,
+not functional BFV completion. The charged boundary horn, polarization,
+charge algebra and common Green/Krein domain remain open. The selected parent,
+two `U(32,32)` halves and full `U(64,64)` parent remain distinct. See
+`selected-k77-full-tau-a0-moment-map.json`.
+
 Current append-only progress surface: ledger v0.101. Source and local action do
 not select boundary gauge redundancy versus charged physical symmetry. Full
 boundary gauge plus generic nonzero action momentum conditionally selects the

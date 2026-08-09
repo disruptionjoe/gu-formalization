@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_full_tau_a0_moment_map_audit.py` enforces ledger v0.102's
+  full derivative-bearing nonzero-`A0` tilted quotient, conditional
+  Spin-native action trace, raw charged moment map, exact edge characteristic
+  kernel and moving-reference algebraic patch law while preserving functional
+  BFV, charged-boundary, common-domain and expanded-action-parent fences.
+
 - `selected_k77_boundary_disposition_selector_audit.py` enforces ledger
   v0.101's source/action boundary-selection negative result, conditional
   full-boundary-gauge plus nonzero-momentum edge selector, charged-symmetry

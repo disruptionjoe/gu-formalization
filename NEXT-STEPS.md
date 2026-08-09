@@ -7,6 +7,20 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 FULL TILTED BOUNDARY DESCENT (ledger v0.102).** The
+> derivative-bearing nonzero-`A0` tilted construction now composes exactly
+> with the conditionally selected Spin-native action trace. Its raw residual
+> adjoint action has moment map `[Theta_A0,P]`; after adding the minimal edge
+> frame, the pulled-back two-form has rank `8` on `12` dimensions and its
+> four-dimensional kernel is exactly the residual gauge orbit. Moving-reference
+> conjugation patches the moment map and preserves its scalar Hamiltonian.
+> This closes global algebraic associated-bundle descent, not a functional BFV
+> phase space. Next compare a global functional edge reduction/polarization
+> with the live charged-boundary charge algebra, then construct the common
+> Green/Krein domain. Keep the selected 2,107-dimensional Spin-native parent,
+> two 16,382-dimensional `U(32,32)` halves and full 16,383-dimensional
+> `U(64,64)` parent distinct.
+
 > **2026-08-08 PHYSICAL-BOUNDARY DISPOSITION SELECTOR (ledger v0.101).**
 > Weinstein confirms the full tilted bulk double-coset grammar and acknowledges
 > unresolved upstairs boundary conditions, but neither source nor local action
