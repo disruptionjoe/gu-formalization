@@ -7,18 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
-> **2026-08-08 COMMON PHYSICAL EQUATION-DUAL/GREEN (ledger v0.99).**
-> The exact ten-coordinate metric and twenty-four-coordinate `varpi` banks now
-> form one 34-field covector-valued `K_loc` equation dual with a nonzero local
-> Green concomitant. Its pullback through the matched-q physical metric--
-> `varpi`--epsilon graph is zero in timelike, spacelike and null classes, with
-> omission plants firing at rank three. Next compose the moving action
-> pairing/density with the already-owned physical epsilon Euler/preboundary
-> terms to derive the selected-action Euler/Noether identity; then
-> antisymmetrize and test basicness. Arbitrary primitive `D_epsilon` is not a
-> prerequisite for this dependent orbit. Keep covector-valued language unless
-> a field Riesz map is derived, and keep the selected Spin-native parent, two
-> `U(32,32)` halves and full `U(64,64)` comparator distinct.
+> **2026-08-08 LOCAL ACTION NOETHER/PREBOUNDARY (ledger v0.100).**
+> Moving K77 pairing/density, the action-owned primitive epsilon
+> Euler/preboundary term and the exact matched-q physical graph now compose to
+> a local selected-action Euler-Noether identity in all causal classes. A
+> nonzero-residual control makes all three quadratic-action contributions
+> live. The antisymmetrized endpoint potential is basic for boundary-vanishing
+> transformations; unrestricted endpoints carry a live moment map and cannot
+> be silently quotiented. Next source- or action-select the physical boundary
+> class, then construct global `tau_A0`/BFV or an owned edge completion,
+> polarization and a common closed Green/Krein domain. Keep the selected
+> Spin-native parent, two `U(32,32)` halves and full `U(64,64)` comparator
+> distinct.
 
 > **2026-08-08 COMMON METRIC RESIDUAL-COORDINATE BANK (ledger v0.97).**
 > The fixed-`varpi` `D_g Upsilon` bank now shares the actual all-grade carrier

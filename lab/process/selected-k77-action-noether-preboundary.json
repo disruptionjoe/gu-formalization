@@ -1,0 +1,106 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "LOCAL_SELECTED_ACTION_NOETHER_EXACT__COMPACT_SUPPORT_PRESYMPLECTIC_BASIC__UNRESTRICTED_BOUNDARY_MOMENT_MAP_LIVE",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "MOVING_PAIRING_DENSITY_NONVACUOUS__MATCHED_Q_ACTION_EULER_NOETHER_ZERO_ALL_CAUSAL_CLASSES__SMALL_BASIC_BOUNDARY_CHARGE_LIVE",
+  "source_return": "SOURCE-CONFIRMS_NORM_SQUARE_TWO_CONNECTION_MOVING_SHIAB_AND_EPSILON_GRAMMAR__SOURCE-SILENT_EXACT_MATCHED_Q_ACTION_NOETHER_AND_PHYSICAL_BOUNDARY_CLASS",
+  "layer0": {
+    "raw_residual_ward": "D Upsilon on the dependent physical graph; predecessor",
+    "action_noether": "pullback of the complete local selected-action Euler covector, including moving pairing, density and primitive epsilon owner",
+    "primitive_epsilon": "independent action field Euler covector; not itself an off-shell zero",
+    "dependent_epsilon": "matched-q compensator inside the physical diffeomorphism graph",
+    "green_potential": "action-owned endpoint field-space one-form",
+    "presymplectic": "field-space exterior derivative of that one-form",
+    "small_physical_transformations": "boundary-vanishing matched-q parameters",
+    "boundary_transformations": "unrestricted endpoint parameters with a live moment map",
+    "bfv": "global reduction, edge completion and polarization; open"
+  },
+  "proof_grade": {
+    "actual_selected_action_ownership": "immutable exact K77 pointwise action, endpoint E_B-E_T, primitive epsilon and matched-q naturality receipts",
+    "new_calculus": "exact universal action theorem over QQ, independently reconstructed in Sage",
+    "full_clifford_replay": "NOT_REPEATED__NO_NEW_FULL_BANK_RANK_OR_SUPPORT_CLAIM",
+    "global_bundle": "OPEN"
+  },
+  "moving_quadratic_layer": {
+    "background_residual": "NONZERO",
+    "action_density": "NONZERO",
+    "density_term_live": true,
+    "field_term_live": true,
+    "pairing_term_live": true,
+    "all_three_terms_live": true,
+    "total_variation": "ZERO_EXACT",
+    "freeze_pairing": "REJECTED",
+    "freeze_density": "REJECTED"
+  },
+  "matched_q_action_noether": {
+    "timelike": "ZERO_EXACT",
+    "spacelike": "ZERO_EXACT",
+    "null": "ZERO_EXACT"
+  },
+  "action_boundary_owner": {
+    "coefficient": "selected-action E_B-E_T",
+    "normal_rank": 10,
+    "nondegenerate": true,
+    "endpoint_orientation": "OPPOSITE_TWO_COPY",
+    "generic_p_equals_KT": "REJECTED_PREDECESSOR_NOT_USED"
+  },
+  "presymplectic": {
+    "identity": "i_R Omega = -delta Q_boundary",
+    "compact_support_basic": true,
+    "unrestricted_boundary_charge": "LIVE",
+    "all_boundary_transformations_quotientable": false,
+    "new_scoped_quotient_booked": false,
+    "global_bfv": "OPEN"
+  },
+  "controls": {
+    "main_exact": "56/56 PASS",
+    "independent_sage": "18/18 PASS",
+    "wrong_adjoint_sign": "REJECTED",
+    "delete_moving_shiab": "RANK3_DEFECT_ALL_CAUSAL_CLASSES",
+    "delete_lower_cartan": "RANK3_DEFECT_ALL_CAUSAL_CLASSES",
+    "freeze_pairing": "REJECTED_NONZERO_RESIDUAL",
+    "freeze_density": "REJECTED_NONZERO_RESIDUAL",
+    "quotient_charged_boundary_transformations": "REJECTED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 2,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 1
+  },
+  "remaining": [
+    "source or action selection of the physical boundary class, global tau_A0/BFV or edge-mode completion, polarization and common closed Green/Krein domain"
+  ],
+  "still_open_but_not_required_for_local_dependent_orbit": [
+    "arbitrary primitive D_epsilon Upsilon outside the physical graph",
+    "field-space Riesz map for field-valued operator-adjoint language"
+  ],
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_selectors": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT",
+    "weyl_block_product": "TWO_U32_32_HALVES_REMAIN_DISTINCT_RIVAL",
+    "full_U64_64": "COMPARATOR_NOT_COLLAPSED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_action_noether_preboundary_probe.py",
+    "tests/channel-swings/selected_k77_action_noether_preboundary_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-action-noether-preboundary-review.md",
+  "next_gate": "SOURCE_OR_ACTION_SELECT_PHYSICAL_BOUNDARY_CLASS__THEN_GLOBAL_TAU_A0_BFV_OR_EDGE_MODE_COMPLETION_POLARIZATION_AND_COMMON_GREEN_KREIN_DOMAIN"
+}

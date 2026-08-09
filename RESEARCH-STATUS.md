@@ -8,17 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.99; five
-distance/evidence migrations; headline unchanged).** The exact metric-ten and
-`varpi`-twenty-four coefficient banks now form a common 34-field
-covector-valued `K_loc` equation dual with a nonzero local Green concomitant.
-Its pullback through the matched-q physical metric--`varpi`--epsilon graph is
-zero in timelike, spacelike and null classes. This closes the common
-raw-residual dual/Green gate, not arbitrary primitive `D_epsilon`, the complete
-selected-action Euler/Noether identity, presymplectic/BFV, a global domain or
-field Riesz. Next compose moving action pairing/density with physical epsilon
-Euler/preboundary owners, then antisymmetrize and test basicness. No verdict,
-residue, quotient, datum, canon or posture moves.
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.100; five
+distance/evidence migrations; headline unchanged).** The moving K77 residual
+pairing/density, action-owned primitive epsilon Euler/preboundary term and
+matched-q physical graph now give a local selected-action Euler-Noether
+identity in timelike, spacelike and null classes. The exact nonzero-residual
+control makes density, field and pairing terms independently live. The
+antisymmetrized endpoint potential is basic for boundary-vanishing
+transformations and has a live moment map for unrestricted endpoints. The
+physical boundary class, global `tau_A0`/BFV or edge completion, polarization,
+common Green/Krein domain and field Riesz remain open. No verdict, residue,
+quotient, datum, canon or posture moves.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.97; five
 distance/evidence migrations; headline unchanged).** The fixed-`varpi`

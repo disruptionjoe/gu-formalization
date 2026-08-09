@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_action_noether_preboundary_audit.py` enforces ledger v0.100's
+  nonvacuous moving pairing/density cancellation, local matched-q
+  selected-action Euler-Noether identity, action-owned `E_B-E_T` endpoint
+  momentum, compact-support presymplectic basicness, live unrestricted
+  boundary moment map and global BFV/domain/action-parent fences.
+
 - `selected_k77_common_physical_equation_dual_green_audit.py` enforces ledger
   v0.99's 34-field covector-valued common equation dual, nonzero local Green
   concomitant, zero matched-q physical pullback in every causal class, firing

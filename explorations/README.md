@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 local selected-action Noether and preboundary (2026-08-08)
+
+`conditional-build/selected-k77-action-noether-preboundary-2026-08-08.md`
+composes the moving K77 pairing/density, action-owned primitive epsilon
+Euler/preboundary term and matched-q physical graph. The local action
+Euler-Noether identity closes nonvacuously in all causal classes. Its
+presymplectic current is basic for boundary-vanishing transformations and
+carries a live moment map at unrestricted endpoints. Ledger v0.100 advances
+to physical boundary-class selection and global BFV/edge/domain descent.
+
 ## K77 common physical equation-dual and Green (2026-08-08)
 
 `conditional-build/selected-k77-common-physical-equation-dual-green-2026-08-08.md`

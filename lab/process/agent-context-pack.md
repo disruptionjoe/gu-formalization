@@ -9,16 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.99 common physical equation-dual/Green:** concatenate the exact
-> metric-ten and `varpi`-twenty-four banks into the common 34-field operator.
-> Its covector-valued `K_loc` equation dual and nonzero local Green concomitant
-> are exact, and the dual pullback through the matched-q physical metric--
-> `varpi`--epsilon graph is zero in all causal classes. Do not promote this to
-> selected-action Noether or presymplectic closure: next move the action
-> pairing/density and compose physical epsilon Euler/preboundary owners, then
-> antisymmetrize and test basicness. Arbitrary primitive `D_epsilon` remains a
-> separate independent-field question. Keep selected Spin-native, two
-> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.99.
+> **Current v0.100 local action Noether/preboundary:** moving K77
+> pairing/density, the action-owned primitive epsilon Euler/preboundary term
+> and the matched-q physical graph now close the local selected-action
+> Euler-Noether identity in all causal classes. The nonzero-residual control
+> makes every quadratic contribution live. Antisymmetrization is basic for
+> boundary-vanishing transformations; unrestricted endpoints carry a live
+> moment map. Do not quotient those charged transformations or call this a
+> global BFV/domain result. Next select the physical boundary class and
+> globalize through `tau_A0`/BFV or an owned edge completion plus common
+> Green/Krein domain. Keep selected Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct. Ledger v0.100.
 
 > **Current v0.97 common metric coefficient bank:** emit fixed-`varpi`
 > `D_g Upsilon` as `-D_gB_LC`, not by applying the full `D_varpi` response to

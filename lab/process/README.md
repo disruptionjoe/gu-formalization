@@ -7,13 +7,14 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.99. The exact metric-ten and
-`varpi`-twenty-four banks form one 34-field covector-valued `K_loc` equation
-dual with a nonzero local Green concomitant. Its matched-q physical pullback
-is zero in timelike, spacelike and null classes. Moving action pairing/density,
-physical epsilon Euler/preboundary composition, action Noether,
-presymplectic/BFV, field Riesz and global domain remain. See
-`selected-k77-common-physical-equation-dual-green.json`.
+Current append-only progress surface: ledger v0.100. Moving K77
+pairing/density, the action-owned primitive epsilon Euler/preboundary term and
+the matched-q physical graph give an exact local selected-action Euler-Noether
+identity in all causal classes. The antisymmetrized endpoint potential is
+basic for boundary-vanishing transformations and has a live moment map for
+unrestricted endpoints. Physical boundary selection, global BFV/edge
+completion, polarization, field Riesz and common domain remain. See
+`selected-k77-action-noether-preboundary.json`.
 
 Current append-only progress surface: ledger v0.97. The physical fixed-`varpi`
 `D_g Upsilon` bank now shares the actual all-grade carrier with `D_varpi` and
