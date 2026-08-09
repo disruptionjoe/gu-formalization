@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 common connection branch and moving-epsilon Hessian (2026-08-08)
+
+`conditional-build/selected-k77-common-first-action-epsilon-hessian-2026-08-08.md`
+proves that the old raw-residual fixture was only grade-two constrained-
+critical, constructs the unique nontrivial invariant `B/T` branch solving all
+1,470 connection equations plus the raw residual, and computes the rank-91
+moving-epsilon mixed Hessian cross. Every receiver lies in the omitted
+grade-one sector. Direct metric Euler and the 321-versus-1,571 action tangent
+remain open, so ledger v0.106 does not promote a full stationary background or
+BV complex. The three action parents remain separate.
+
 ## K77 primitive-epsilon common principal bank (2026-08-08)
 
 `conditional-build/selected-k77-primitive-epsilon-common-bank-2026-08-08.md`

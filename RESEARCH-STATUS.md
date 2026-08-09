@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.106; five
+distance/evidence migrations; headline unchanged).** The old residual-zero
+fixture is not a full first-action critical point: all grade-two variations
+vanish, but its `B` Euler covector is the invariant grade-one trace covector.
+The nontrivial branch `B=Phi1/156`, `T=-Phi1/78` exactly closes all 1,470
+low-grade connection equations and the raw residual. Direct metric Euler is
+not yet computed. The moving-Shiab epsilon cross has rank 91, 182 nonzero
+entries and only grade-one receivers; therefore the 125-field slice cannot
+own the action BV differential. The next gate is metric Euler, then a justified
+321-versus-1,571 tangent and full Hessian. No verdict, residue, quotient, datum,
+canon or posture moves; all three action parents remain distinct.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned
 primitive-epsilon principal bank is now exact on the conditionally selected

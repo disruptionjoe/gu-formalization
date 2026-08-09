@@ -7,6 +7,17 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 COMMON CONNECTION BRANCH + EPSILON HESSIAN (ledger v0.106).**
+> The old raw-residual-zero fixture was only grade-two constrained-critical:
+> its omitted `B` Euler equation is the invariant trace covector. The repaired
+> nontrivial branch `B=Phi1/156`, `T=-Phi1/78` solves all 1,470 low-grade
+> connection equations and the raw residual. Its direct ten-component metric
+> Euler equation remains open. Lower-order moving-Shiab epsilon has a rank-91
+> mixed Hessian cross landing entirely in the omitted grade-one sector, so the
+> 125-field slice cannot own the BV differential. Next close metric Euler,
+> select the 321-versus-1,571 tangent, and assemble the full Hessian. Keep the
+> selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+
 > **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**
 > On the conditionally selected Spin-native K77 parent, the source-owned
 > primitive epsilon tangent contributes all 91 bivector directions. Together

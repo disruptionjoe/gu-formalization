@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "COMMON_CONNECTION_BRANCH_EXACT__MOVING_EPSILON_CROSS_RANK91__DIRECT_METRIC_EULER_AND_FIELD_TANGENT_OPEN",
+  "ledger_version": "0.106",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_NONLINEAR_FIRST_ACTION_TWO_CONNECTION_AND_MOVING_SHIAB_GRAMMAR__SOURCE_SILENT_COMMON_CONNECTION_BRANCH_DIRECT_METRIC_EULER_AND_FIELD_TANGENT_SELECTION",
+  "layer0": {
+    "old_background": "RAW_UPSILON_ZERO_AND_E_T_ZERO__E_B_TRACE_COVECTOR_NONZERO",
+    "repaired_background": "ALL_1470_B_T_EULER_DIRECTIONS_ZERO_AND_RAW_UPSILON_ZERO__DIRECT_METRIC_EULER_OPEN",
+    "current_125": "CONSTRAINED_COEFFICIENT_GRADE2_SLICE",
+    "grade1": "ALREADY_OWNED_196_DIMENSIONAL_NONDEGENERATE_RECEIVER_SECTOR",
+    "epsilon": "ZERO_FIRST_VARIATION_BUT_RANK91_MIXED_HESSIAN_CROSS",
+    "bv": "FIELD_TANGENT_AND_COMPLETE_STATIONARY_HESSIAN_NOT_YET_SELECTED"
+  },
+  "old_fixture": {
+    "B_star": "0",
+    "T_star": "-(1/312)Phi1",
+    "raw_upsilon_zero": true,
+    "E_T_zero_all_1470": true,
+    "E_B_support": 14,
+    "E_B_nonzero_value": "1/312",
+    "E_B_type": "ONE_INVARIANT_TRACE_COVECTOR",
+    "critical_on_grade2_slice_only": true
+  },
+  "common_connection_branch": {
+    "homogeneous_action": "7*t*(624*b^2+624*b*t+208*t^2+t)",
+    "solutions": [["0", "0"], ["1/156", "-1/78"]],
+    "B_star": "(1/156)Phi1",
+    "T_star": "-(1/78)Phi1",
+    "A_star": "-(1/156)Phi1",
+    "E_B_zero_all_1470": true,
+    "E_T_zero_all_1470": true,
+    "raw_upsilon_zero": true,
+    "direct_metric_euler": "OPEN"
+  },
+  "moving_epsilon": {
+    "generator_dimension": 91,
+    "moving_shiab_rank": 91,
+    "support_per_column": 2,
+    "first_variation": "ZERO",
+    "mixed_cross_shape": [1470, 91],
+    "mixed_cross_rank": 91,
+    "mixed_cross_nonzero_entries": 182,
+    "receiver_grade": 1,
+    "restriction_to_grade2": "ZERO"
+  },
+  "field_tangent_gate": {
+    "current_restricted_dimension": 125,
+    "minimal_known_completion_dimension": 321,
+    "full_low_grade_source_candidate_dimension": 1571,
+    "selection": "OPEN_ACTION_PARENT_AND_TRUNCATION_GATE"
+  },
+  "controls": {
+    "primary": "61/61 PASS",
+    "independent_sage": "29/29 PASS",
+    "old_raw_zero_not_action_stationary": "FIRED",
+    "zero_epsilon_first_variation_not_zero_hessian": "FIRED",
+    "restricted_125_not_full_bv": "FIRED",
+    "metric_euler_not_silently_closed": "FIRED",
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 5,
+    "conditions_opened": 2,
+    "remaining_named_conditions": 5
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_USED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "RETAINED_COMPARATOR",
+    "collapsed": false
+  },
+  "next_gate": "COMPUTE_DIRECT_TEN_COMPONENT_METRIC_EULER_ON_REPAIRED_CONNECTION_BRANCH__SELECT_321_VS_1571_ACTION_TANGENT__ASSEMBLE_FULL_FIRST_ACTION_HESSIAN_WITH_RANK91_EPSILON_CL1_CROSS__RECOMPUTE_SECOND_ACTION_LOWER_ORDER_BLOCKS__THEN_ACTION_BV_TRACE_SOLDERING_DOMAIN_AND_ODD_BFV"
+}

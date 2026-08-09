@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_common_first_action_epsilon_hessian_audit.py` enforces ledger
+  v0.106's old-background trace-covector correction, exact nontrivial common
+  connection branch, direct-metric-Euler fence, rank-91 moving-epsilon cross,
+  grade-one receiver requirement, 125/321/1,571 tangent gate, action-parent
+  separation and mandatory symplectic/analytic/source controls.
+
 - `selected_k77_primitive_epsilon_common_bank_audit.py` enforces ledger
   v0.105's primitive-epsilon 91-column typing, exact 125-field raw/Gram strata
   `110/110/110` and `110/110/16`, inertias, null isotropic excess 94,

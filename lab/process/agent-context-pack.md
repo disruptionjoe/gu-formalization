@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
+> **Current v0.106 first-action branch gate:** raw residual zero is not first-
+> action stationarity. The old point misses the invariant grade-one `B` Euler
+> covector. The repaired `B=Phi1/156`, `T=-Phi1/78` branch closes all 1,470
+> connection equations and the raw residual, but direct metric Euler is open.
+> Moving-Shiab epsilon supplies a rank-91 mixed Hessian block entirely in the
+> omitted grade-one sector. Next compute metric Euler, choose the 321-versus-
+> 1,571 field tangent and assemble the full Hessian before BV/domain/BFV.
+> Preserve selected Spin-native, two `U(32,32)` halves and full `U(64,64)` as
+> distinct parents. P1/P2/P3 remain unused. Ledger v0.106.
+>
 > **Current v0.105 primitive-epsilon common principal gate:** the selected
 > Spin-native K77 source tangent now contains metric ten, `varpi` twenty-four
 > and primitive epsilon ninety-one. Its raw causal ranks are `110/110/110`;

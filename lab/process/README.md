@@ -7,6 +7,14 @@ updated_at: "2026-08-08"
 
 # Process
 
+Current append-only progress surface: ledger v0.106. The old residual-zero
+fixture is now typed as only grade-two constrained-critical. A nontrivial
+branch closes all 1,470 low-grade connection Euler directions and the raw
+residual, while direct metric Euler remains open. The moving-Shiab epsilon
+mixed Hessian cross has rank 91 and lands wholly in the omitted grade-one
+sector, forcing an explicit 321-versus-1,571 field-tangent gate before BV.
+Registry: `selected-k77-common-first-action-epsilon-hessian.json`.
+
 Current append-only progress surface: ledger v0.105. The source-owned
 primitive-epsilon principal bank is now serialized on the selected Spin-native
 K77 common residual coordinates. The 125-field raw ranks are `110/110/110`,
