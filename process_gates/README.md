@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_relative_edge_bitorsor_topology_audit.py` enforces ledger
+  v0.115's distinction between active gauge motion and passive patching, the
+  one-sided trivial-bundle obstruction, the relative `A0` bitorsor
+  nonemptiness theorem, preserved dressing/trace/kernel/BFV results and all
+  analytic, physical and action-parent fences.
 - `selected_k77_branch_bfv_no_selector_audit.py` enforces ledger v0.114's
   exact nonzero-branch symplectomorphism, amplitude-blind vertical
   polarization, stratum-wise classical minimal-edge BFV charge/CME, global

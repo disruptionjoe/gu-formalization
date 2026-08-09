@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.114.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.114.md`.
+`lab/process/conditional-physics-ledger-v0.115.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.115.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,17 +502,17 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.114 construction frontier
+### Current v0.115 construction frontier
 
-v0.103 already owns the compact-boundary `H7 x H-7` strong trace space and
-vertical polarization. v0.114 proves the two nonzero opposite-sign Galois
-branch forms symplectomorphic by momentum rescaling, so classical strongness,
-polarization and BFV closure cannot select amplitude. The minimal-edge horn
-has a classical BFV charge with exact master-equation coefficients on each
-declared nonempty edge-torsor stratum; the charged horn remains a physical
-current-algebra rival. Build next proves global edge-torsor topology and one
-bulk Green/Krein domain preserving `H7/H-7` and `H8/H-8` traces, then tests
-coupled bulk-boundary BV-BFV. Parent, physical horn and quantum selection stay
+v0.115 separates active target gauge motion from passive Čech patching. The
+old one-sided edge frame is globally nonempty iff `P_H|_B` is trivial. The
+relative bitorsor `Isom(P_target,P_reference)`, with the reference a labelled
+copy of the same source-owned bundle carrying `A0`, is nonempty in every
+existing topological sector without new datum. Dressed fields patch adjointly
+on the reference bundle; invariant trace, local characteristic kernel and the
+v0.114 classical BFV charge survive. Build next constructs one bulk
+Green/Krein domain preserving `H7/H-7` and `H8/H-8` traces, then tests coupled
+bulk-boundary BV-BFV. Parent, physical horn and quantum selection stay
 separate.
 
 ### Predecessor v0.107 construction frontier

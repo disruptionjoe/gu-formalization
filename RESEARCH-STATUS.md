@@ -8,19 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.114; seven
-distance/evidence migrations; headline unchanged).** The recorded successor
-partly duplicated v0.103, which already owns the compact-boundary `H7 x H-7`
-strong trace space and vertical polarization. Both nonzero opposite-sign
-Galois branch forms are exactly symplectomorphic by momentum rescaling, so
-strongness, vertical polarization, edge coefficients and classical BFV closure
-cannot select or normalize them. On every declared nonempty edge-torsor
-stratum, the minimal-edge horn has the standard classical BFV charge with
-exact master-equation coefficients; omitting the cubic ghost term fails. The
-charged horn remains a physical current-algebra rival. Global torsor topology,
-a common bulk Green/Krein domain, coupled BV-BFV, quantum measure, physical
-horn and action parent remain open. No verdict, residue, quotient, datum, canon
-or posture moves; all three parents remain distinct.
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.115; six
+distance/evidence migrations; headline unchanged).** Active target gauge
+motion and passive Čech patching are now separated. The old one-sided edge
+frame is globally nonempty iff `P_H|_B` is trivial. A relative frame in
+`Isom(P_target,P_reference)`, with the reference the labelled `A0` copy of the
+same source-owned `P_H|_B`, is nonempty in every existing topological sector
+and adds no characteristic class or datum. Dressed fields patch adjointly;
+invariant trace, local characteristic kernel and the v0.114 classical BFV
+algebra survive. A common bulk Green/Krein domain, coupled BV-BFV, quantum
+measure, physical horn and action parent remain open. No verdict, residue,
+quotient, datum, canon or posture moves; all three parents remain distinct.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned

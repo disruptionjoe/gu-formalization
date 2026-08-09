@@ -7,18 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
-> **2026-08-09 BRANCH SYMPLECTIC/BFV NO-SELECTOR (ledger v0.114).** v0.103
-> already owns the compact-boundary `H7 x H-7` strong trace space and vertical
-> polarization. The two nonzero opposite-sign Galois branch forms are exactly
-> symplectomorphic by momentum rescaling, so that classical geometry cannot
-> select their sign or amplitude. On every declared nonempty edge-torsor
-> stratum, the minimal-edge horn has the standard classical BFV charge and its
-> master-equation coefficients vanish by first-class closure and Jacobi; the
-> cubic ghost term is required. Charged boundary symmetry remains a live
-> physical rival. Next prove global edge-torsor topology and one bulk
-> Green/Krein domain preserving `H7/H-7` and `H8/H-8` traces, then test coupled
-> bulk-boundary BV-BFV. Keep Spin-native, two `U(32,32)` halves and full
-> `U(64,64)` distinct; no physical horn or parent is selected.
+> **2026-08-09 RELATIVE EDGE-BITORSOR TOPOLOGY (ledger v0.115).** The old
+> one-sided edge frame `u_j=u_i g_ij` is globally nonempty only when the
+> boundary `P_H` bundle is trivial. The repaired relative frame
+> `u_j=k_ij^-1 u_i g_ij` lives in `Isom(P_target,P_reference)`. Taking the
+> reference to be the labelled copy of the already-owned `P_H|_B` carrying
+> `A0` supplies an identity section in every existing topological sector with
+> no new characteristic class or datum. Dressed fields patch adjointly on the
+> reference bundle; invariant trace, the local characteristic kernel and the
+> v0.114 classical BFV charge survive. Next construct one bulk Green/Krein
+> domain preserving `H7/H-7` and `H8/H-8` traces, then couple bulk BV to
+> boundary BFV. Keep charged symmetry, physical horn and all three action
+> parents open.
 
 > **2026-08-09 FULL-PARENT BRANCH STATIONARITY (ledger v0.112).** Both exact
 > nonzero branches survive every pointwise internal source-connection

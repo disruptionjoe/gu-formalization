@@ -9,17 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.114 branch/BFV gate:** v0.103 already owns the compact-boundary
-> `H7 x H-7` strong trace space and vertical polarization. Both nonzero
-> opposite-sign Galois branch forms are symplectomorphic by exact momentum
-> rescaling; that classical geometry cannot select amplitude. On each declared
-> nonempty edge-torsor stratum, the minimal-edge horn has the standard
-> classical BFV charge and exact CME, while charged boundary symmetry remains
-> a physical rival. Do not call this a global torsor, common bulk domain,
-> coupled BV-BFV, quantum measure or physical selection. Next prove global
-> torsor topology and a common `H7/H-7`, `H8/H-8` trace-preserving Green/Krein
-> domain. Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)`
-> distinct. Ledger v0.114.
+> **Current v0.115 relative-edge topology gate:** never identify active gauge
+> motion with passive atlas patching. The old `u_j=u_i g_ij` frame is global
+> iff `P_H|_B` is trivial. Use the relative bitorsor
+> `u_j=k_ij^-1 u_i g_ij`, with the reference the labelled `A0` copy of the
+> same source-owned `P_H|_B`; it is nonempty in every existing topological
+> sector without new datum. Dressed fields patch on `ad(P_reference)` and the
+> v0.102--v0.114 symplectic/BFV results survive. Do not call topological
+> nonemptiness a common bulk domain, coupled BV-BFV, quantum measure or
+> physical selection. Next construct one `H7/H-7`, `H8/H-8` trace-preserving
+> Green/Krein domain. Keep selected Spin-native, two `U(32,32)` halves and full
+> `U(64,64)` distinct. Ledger v0.115.
 
 > **Predecessor v0.112 full-parent branch gate:** both exact branches survive all
 > `14 x 16,384` real pointwise `u(64,64)` source-`varpi` directions. The

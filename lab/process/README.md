@@ -7,13 +7,17 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.114. The two nonzero branch
-forms are symplectomorphic by momentum rescaling and share the v0.103 strong
-trace space and vertical polarization. The minimal-edge horn has a classical
-BFV charge with exact CME on each declared nonempty compact-boundary torsor
-stratum; charged symmetry remains a physical rival. Global torsor topology,
-common domain, coupled BV-BFV and physical selection remain open. Registry:
-`selected-k77-branch-bfv-no-selector.json`.
+Current append-only progress surface: ledger v0.115. The old one-sided edge
+frame is global only on trivial boundary bundles. The relative edge bitorsor,
+using the `A0` reference copy of the existing `P_H|_B`, is nonempty in every
+owned topological sector and preserves dressed trace, moment map, local
+symplectic kernel and classical BFV. Common domain, coupled BV-BFV and physical
+selection remain open. Registry:
+`selected-k77-relative-edge-bitorsor-topology.json`.
+
+Predecessor progress surface: ledger v0.114. The two nonzero branch forms are
+symplectomorphic and the minimal-edge horn has a stratum-wise classical BFV
+charge; global edge topology was still open.
 
 Predecessor progress surface: ledger v0.113. Both exact branches have zero
 aligned residual-adjoint moment map but live primitive-epsilon endpoint charge

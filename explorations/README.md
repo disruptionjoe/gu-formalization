@@ -7,14 +7,25 @@ updated_at: "2026-08-09"
 
 # Explorations
 
-## K77 branch symplectic/BFV no-selector (2026-08-09)
+## K77 relative edge-bitorsor topology (2026-08-09)
+
+`conditional-build/selected-k77-relative-edge-bitorsor-topology-2026-08-09.md`
+proves the old one-sided edge frame is global only on trivial boundary bundles.
+The `A0`-relative bitorsor between two labelled copies of the same `P_H|_B`
+is nonempty in every existing topological sector and preserves the dressed
+trace, moment map, local characteristic kernel and classical BFV algebra.
+Ledger v0.115 routes next to one common trace-preserving bulk Green/Krein
+domain and coupled bulk-boundary BV-BFV. No physical horn, datum or action
+parent is selected.
+
+## K77 branch symplectic/BFV no-selector (2026-08-09; predecessor)
 
 `conditional-build/selected-k77-branch-bfv-no-selector-2026-08-09.md` composes
 the two nonzero branch amplitudes with the v0.103 strong boundary phase space.
 They are symplectomorphic by exact momentum rescaling and share the vertical
 polarization and edge coefficients. The minimal-edge horn now has a
 stratum-wise classical BFV charge with exact CME; the charged horn remains a
-physical rival. Ledger v0.114 routes next to global torsor topology and a
+physical rival. Ledger v0.114 routed next to global torsor topology and a
 common trace-preserving bulk Green/Krein domain before coupled BV-BFV. No
 branch, horn or action parent is selected.
 
