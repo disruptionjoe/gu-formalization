@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_full_parent_branch_stationarity_audit.py` enforces ledger
+  v0.112's complete pointwise real `u(64,64)` source-connection tangent,
+  exact `8,192+8,192` two-half/half-exchanging split, both branch survivals,
+  full homogeneous-epsilon bulk identity, live endpoint momentum and strict
+  parent-selection/global-functional-tangent fences.
+
 - `selected_k77_source_tangent_branch_stationarity_audit.py` enforces ledger
   v0.111's exact source-coordinate pullback, both local branch survivals,
   independent-`B` endpoint retyping, 1,571 completeness fence, distinct action

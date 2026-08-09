@@ -33,6 +33,7 @@ def read(relative):
 
 ledger = load("lab/process/conditional-physics-ledger-v0.111.json")
 registry = load("lab/process/selected-k77-source-tangent-branch-stationarity.json")
+successor = load("lab/process/selected-k77-full-parent-branch-stationarity.json")
 contract = load("lab/process/functional-channel-operating-contract-v1.0.json")
 report = read("explorations/conditional-build/selected-k77-source-tangent-branch-stationarity-2026-08-09.md")
 review = read("lab/process/hostile-reviews/2026-08-09-selected-k77-source-tangent-branch-stationarity-review.md")
@@ -99,11 +100,11 @@ for relative in ("LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
                  "explorations/README.md", "lab/process/README.md",
                  "lab/process/agent-context-pack.md",
                  "lab/process/functional-channel-operating-contract-v1.0.md"):
-    check(f"current pointer {relative}", "v0.111" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.111.json"))
+    check(f"current pointer {relative}", "v0.112" in read(relative))
+check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.112.json"))
 check("contract gate", contract["active_scientific_directives"][0]["next_gate"]
-      == registry["next_gate"])
-check("inventory", "(484 Python + 73 Sage)" in read("tests/README.md"))
+      == successor["next_gate"])
+check("inventory", "(485 Python + 74 Sage)" in read("tests/README.md"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 source-tangent branch audit: "

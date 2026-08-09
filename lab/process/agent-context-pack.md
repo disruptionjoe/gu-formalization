@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.112 full-parent branch gate:** both exact branches survive all
+> `14 x 16,384` real pointwise `u(64,64)` source-`varpi` directions. The
+> block-even `U(32,32) x U(32,32)` tangent and odd half-exchanging complement
+> both vanish, as does the complete homogeneous epsilon bulk identity;
+> endpoint momentum remains nonzero. Generic grade five is live away from the
+> branches. This is parent compatibility, not selection, global bundle
+> closure or complete functional tangent ownership. Next compare charged,
+> bare-gauge and minimal-edge boundary horns to classify amplitude. Keep all
+> three parents separate before Hessian/BV/domain. Ledger v0.112.
+
 > **Current v0.111 source-tangent branch gate:** both exact algebraic branches
 > survive the known local selected source-Euler pullback in
 > `(g,varpi,epsilon)`. All 1,470 low-grade `varpi`, 91 selected Spin epsilon

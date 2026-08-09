@@ -7,14 +7,17 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.111. Both exact algebraic
-branches survive the known local selected source-Euler pullback in
-`(g,varpi,epsilon)`. The 1,470 low-grade `varpi`, 91 selected Spin epsilon
-bulk and ten metric directions vanish after the moving packet and variational
-adjoint are composed. The nonzero independent-`B` defect remains live as
-epsilon endpoint momentum. Amplitudes, global branch class, action parent,
-complete tangent, Hessian, BV and domain remain open; 1,571 is not complete.
-Registry: `selected-k77-source-tangent-branch-stationarity.json`.
+Current append-only progress surface: ledger v0.112. Both exact branches
+survive all 229,376 pointwise full-`u(64,64)` source-connection directions and
+the complete 16,384-generator homogeneous epsilon identity. This includes the
+block-even two-`U(32,32)` tangent and odd half-exchanging complement. Endpoint
+momentum remains live. Compatibility does not select the action parent or
+prove complete functional tangent ownership. Registry:
+`selected-k77-full-parent-branch-stationarity.json`.
+
+Predecessor progress surface: ledger v0.111. Both branches survive the known
+local selected source-Euler pullback; independent `B` at fixed `T` is endpoint
+momentum rather than a bulk source equation.
 
 Predecessor progress surface: ledger v0.110. Nonconstant affine descent and
 source Xi redundancy close and supply the two algebraic branches.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.111.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.111.md`.
+`lab/process/conditional-physics-ledger-v0.112.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.112.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,17 +502,17 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.111 construction frontier
+### Current v0.112 construction frontier
 
-Both exact algebraic branches survive the known local selected source-Euler
-pullback in `(g,varpi,epsilon)`. The independent-`B` defect is a live epsilon
-endpoint momentum, not a bulk source failure. Build next classifies the
-surviving amplitude as modulus, boundary condition or global obstruction and
-independently decides the action parent and complete tangent. It must not call
-the known `10+1470+91=1571` coordinates complete. Only after those two gates
-may Build assemble the full Hessian, BV/common domain and physics comparison.
-Preserve the selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)`
-parents.
+Both exact algebraic branches survive all `14 x 16,384` pointwise full-
+`u(64,64)` source-`varpi` directions and the full 16,384-generator homogeneous
+epsilon identity. This includes the block-even tangent preserving the two
+`U(32,32)` Weyl halves and the odd half-exchanging complement. Generic grade
+five is live, so the result is not vacuous. Compatibility does not select or
+identify the three parents, and a pointwise fibre is not a complete functional
+tangent. Build next composes the live endpoint momentum with charged,
+bare-gauge and minimal-edge boundary horns to classify the amplitude. Parent
+selection remains separate before Hessian, BV/common-domain and physics work.
 
 ### Predecessor v0.107 construction frontier
 

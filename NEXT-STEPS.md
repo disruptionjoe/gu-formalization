@@ -7,6 +7,19 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 FULL-PARENT BRANCH STATIONARITY (ledger v0.112).** Both exact
+> nonzero branches survive every pointwise internal source-connection
+> direction in the full real `u(64,64)` comparator: `14 x 16,384 = 229,376`.
+> This includes the `8,192` block-even directions preserving the two
+> `U(32,32)` Weyl halves and the `8,192` odd half-exchanging directions. The
+> full source-`varpi` covector has only fourteen grade-one slots proportional
+> to `312(b+t)^2+t`, hence vanishes on both branches. Full homogeneous epsilon
+> bulk naturality also closes while endpoint momentum remains live. This is
+> compatibility, not parent selection or complete functional tangent. Next
+> compose the endpoint momentum with charged, bare-gauge and minimal-edge
+> boundary horns to classify amplitude; keep parent selection separate before
+> Hessian/BV/domain.
+
 > **2026-08-09 SOURCE-TANGENT BRANCH STATIONARITY (ledger v0.111).** Both
 > exact nonzero algebraic branches survive the known local selected source-
 > Euler pullback in `(g,varpi,epsilon)`. All 1,470 low-grade `varpi`

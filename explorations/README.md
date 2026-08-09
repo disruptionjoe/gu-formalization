@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 full-parent branch stationarity (2026-08-09)
+
+`conditional-build/selected-k77-full-parent-branch-stationarity-2026-08-09.md`
+extends the branch test to every one of the `14 x 16,384` full pointwise
+`u(64,64)` source-connection directions. Both branches survive the block-even
+two-`U(32,32)` tangent and the odd half-exchanging complement; full homogeneous
+epsilon bulk naturality also closes, while endpoint momentum stays live.
+Ledger v0.112 routes next to the charged/bare-gauge/minimal-edge boundary
+comparison. Compatibility does not choose the action parent or prove complete
+functional tangent ownership.
+
 ## K77 source-tangent branch stationarity (2026-08-09)
 
 `conditional-build/selected-k77-source-tangent-branch-stationarity-2026-08-09.md`
