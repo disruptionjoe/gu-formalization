@@ -9,6 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.121 first-action tangent closure:** select Clifford banks by
+> grade labels, never positional slices: the low-grade basis is interleaved and
+> the first 196 entries are `28` grade one plus `168` grade two. Correctly
+> filtered, both exact branches have a rank-196 grade-one first-action self
+> Hessian with inertia `(97,99,0)` and zero cross to all 1,274 grade-two
+> covectors, including horizontal 24 and off-slice 1,250. The minimum-known
+> `321=125+196` tangent survives this connection gate only; it is not selected
+> or complete. Next finish metric/epsilon and epsilon/epsilon blocks, then
+> expanded-parent Hessians. Keep first/residual-square actions and selected
+> Spin/two-half/full-unitary parents distinct. P1/P2/P3 remain unused.
+
 > **Current v0.120 lower-order source-block reconciliation:** the raw residual
 > is `T+*Shiab(F_A)`, not the first transgression's `1,1/2,1/3` packet. Its
 > selected lower-order primitive-epsilon derivative is

@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 FIRST-ACTION TANGENT CLOSURE (ledger v0.121).** On both exact
+> K77 branches, the complete grade-one connection self Hessian has rank `196`
+> and inertia `(97,99,0)`, while its cross to all `1,274` grade-two covectors
+> is zero, including horizontal `24` and off-slice `1,250`. Thus the minimum-
+> known `321=125+196` tangent survives this connection gate only; it is not
+> selected or complete. Next finish metric/epsilon and epsilon/epsilon blocks,
+> test remaining off-slice leakage, then build expanded-parent Hessians before
+> gauge/ghost/domain. Select banks by grade labels, never positional slices.
+> Keep first and residual-square actions, selected Spin, two `U(32,32)` halves
+> and full `U(64,64)` distinct. P1/P2/P3 remain unused.
+
 > **2026-08-09 LOWER-ORDER SOURCE-BLOCK RECONCILIATION (ledger v0.120).**
 > Both exact K77 branches retain a rank-91 lower-order primitive-epsilon raw-
 > residual block with positive conjugate coefficients

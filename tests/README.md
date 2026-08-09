@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_first_action_tangent_closure_probe.py` computes
+  both complete `196 x 196` grade-one first-action self Hessians and the full
+  `1274 x 196` grade-one/grade-two cross, with an interleaved-bank planted
+  control.
+- `channel-swings/selected_k77_first_action_tangent_closure_independent.sage`
+  checks the zero cross by direct exact Euler finite differences and the
+  self-block ranks/Galois relation over Sage/FLINT `QQ(sqrt(3))`.
+
 - `channel-swings/selected_k77_lower_order_source_block_reconciliation_probe.py`
   builds the raw-residual lower primitive-epsilon coefficient
   `-b+360(b+t)^2`, proves branch ranks `91/91`, and ports the fixed-`varpi`

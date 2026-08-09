@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.120.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.120.md`.
+`lab/process/conditional-physics-ledger-v0.121.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.121.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,20 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.120 construction frontier
+### Current v0.121 construction frontier
+
+v0.121 computes the complete first-action grade-one connection Hessian on
+both exact branches. The self blocks have rank 196 and inertia `(97,99)`, and
+the cross to all 1,274 grade-two covectors is zero, including horizontal 24
+and off-slice 1,250. The minimum-known `321=125+196` tangent survives this
+connection gate but is not selected or complete. Build next completes
+metric/epsilon and epsilon/epsilon blocks and expanded-parent Hessians, then
+gauge fixing and ghosts before `Dmax/Dmin`. Bank selection must use grade
+labels, not positions. Keep the first/residual-square actions and selected
+Spin/two-`U(32,32)`-half/full-`U(64,64)` parents distinct. P1/P2/P3 remain
+unused.
+
+### Predecessor v0.120 construction frontier
 
 v0.120 builds the selected lower-order primitive-epsilon raw-residual block
 on both exact branches. Its coefficient is `-b+360(b+t)^2`; the two positive

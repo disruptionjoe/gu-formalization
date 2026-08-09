@@ -7,7 +7,14 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.120. Both exact stationary
+Current append-only progress surface: ledger v0.121. Both exact branches have
+a nondegenerate rank-196 first-action grade-one connection Hessian with inertia
+`(97,99,0)` and zero cross to all 1,274 grade-two covectors. This preserves the
+minimum-known 321 tangent through the connection gate only; selection and
+completeness remain open. Registry:
+`selected-k77-first-action-tangent-closure.json`.
+
+Predecessor v0.120. Both exact stationary
 branches retain a rank-91 lower-order primitive-epsilon raw-residual block
 with positive conjugate coefficients, and the v0.95 fixed-`varpi` transverse
 metric rank-6 theorem ports to both. Residual zero is not zero Jacobian.

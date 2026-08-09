@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.121; six
+distance/evidence migrations; headline unchanged).** Both exact K77 branches
+have a nondegenerate `196 x 196` first-action grade-one connection Hessian
+with inertia `(97,99,0)`. Its complete cross to all `1,274` grade-two
+covectors vanishes, including horizontal `24` and off-slice `1,250`. The
+minimum-known `321=125+196` tangent therefore survives this connection-block
+gate but is neither selected nor complete. A planted independent route caught
+and repaired a positional-slice error in the interleaved Clifford bank.
+Metric/epsilon, derivative jets, expanded parents, gauge/ghost and domains
+remain open. No verdict, residue, quotient, datum, canon or posture moves;
+P1/P2/P3 remain unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.120; six
 distance/evidence migrations; headline unchanged).** The selected lower-order
 primitive-epsilon raw-residual derivative is exact on both K77 branches:

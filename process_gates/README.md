@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_first_action_tangent_closure_audit.py` enforces ledger
+  v0.121's complete rank-196/inertia-`97,99` grade-one self blocks, zero
+  horizontal/off-slice grade-two cross, narrowed minimum-321 disposition,
+  grade-label indexing trap, parent/action/domain fences and unchanged
+  accounting.
+
 - `selected_k77_lower_order_source_block_reconciliation_audit.py` enforces
   ledger v0.120's exact raw-residual/lower-epsilon Layer-0 typing, branch ranks
   `91/91`, positive conjugate coefficients, v0.95 fixed-`varpi` metric port,

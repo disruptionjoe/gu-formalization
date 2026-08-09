@@ -7,6 +7,15 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 first-action tangent closure (2026-08-09)
+
+`conditional-build/selected-k77-first-action-tangent-closure-2026-08-09.md`
+computes the complete first-action grade-one self block and grade-one/grade-two
+cross on both exact branches. The self block has rank `196` and inertia
+`(97,99,0)`; all `1,274` grade-two cross covectors vanish. Ledger v0.121 keeps
+the minimum-known `321` tangent alive only for this gate and leaves
+metric/epsilon, expanded-parent, gauge/ghost and domain closure open.
+
 ## K77 lower-order source-block reconciliation (2026-08-09)
 
 `conditional-build/selected-k77-lower-order-source-block-reconciliation-2026-08-09.md`
