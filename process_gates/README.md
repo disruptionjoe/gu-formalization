@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_fixed_operator_metric_epsilon_leakage_audit.py` enforces
+  ledger v0.122's all-causal/both-branch fixed-operator rank pattern, the
+  horizontal/off-slice split, total-moving-source fence, unchanged accounting
+  and mandatory source, symplectic and analytic review.
+
 - `selected_k77_first_action_tangent_closure_audit.py` enforces ledger
   v0.121's complete rank-196/inertia-`97,99` grade-one self blocks, zero
   horizontal/off-slice grade-two cross, narrowed minimum-321 disposition,

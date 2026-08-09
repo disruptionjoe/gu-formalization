@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 FIXED-OPERATOR METRIC/EPSILON LEAKAGE (ledger v0.122).**
+> Across timelike, spacelike and null representatives and both exact K77
+> branches, the frozen-Hodge/Phi/Shiab/frame/observation response from metric
+> `10` plus epsilon `91` into grade two has ranks `9/91/97`; its off-slice
+> ranks are `4/88/89`. The fixed-operator `321` shortcut therefore leaks, but
+> the total moving source Hessian remains open and may cancel that image. Next
+> construct the moving metric/density/Hodge/Phi/Shiab/frame/observation terms
+> and test exact cancellation before expanding parents or deciding `321`
+> versus `1,571`. Keep both actions and the selected Spin/two-half/full-unitary
+> parents distinct. P1/P2/P3 remain unused.
+
 > **2026-08-09 FIRST-ACTION TANGENT CLOSURE (ledger v0.121).** On both exact
 > K77 branches, the complete grade-one connection self Hessian has rank `196`
 > and inertia `(97,99,0)`, while its cross to all `1,274` grade-two covectors

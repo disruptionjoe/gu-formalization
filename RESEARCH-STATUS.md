@@ -8,6 +8,17 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.122; six
+distance/evidence migrations; headline unchanged).** The fixed-operator
+first-action metric/epsilon response has the same exact rank pattern for all
+three causal representatives and both K77 branches: full `9/91/97`, observed
+horizontal `9/6/12`, and off-slice `4/88/89`. This rejects a frozen-operator
+closure shortcut for the minimum-known `321` tangent, not the total moving
+source construction. Moving metric, density, Hodge, Phi, Shiab, frame and
+observation derivatives may cancel the rank-89 image and are the next gate.
+No verdict, residue, quotient, datum, canon or posture moves; P1/P2/P3 remain
+unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.121; six
 distance/evidence migrations; headline unchanged).** Both exact K77 branches
 have a nondegenerate `196 x 196` first-action grade-one connection Hessian

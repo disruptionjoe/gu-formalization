@@ -6,6 +6,14 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_probe.py`
+  computes the exact fixed-operator metric/epsilon first-action response into
+  every grade-two equation covector on three causal representatives and both
+  algebraic branches.
+- `channel-swings/selected_k77_fixed_operator_metric_epsilon_leakage_independent.sage`
+  independently reconstructs all full, horizontal and off-slice sparse ranks
+  over Sage/FLINT `QQ(sqrt(3))`.
+
 - `channel-swings/selected_k77_first_action_tangent_closure_probe.py` computes
   both complete `196 x 196` grade-one first-action self Hessians and the full
   `1274 x 196` grade-one/grade-two cross, with an interleaved-bank planted

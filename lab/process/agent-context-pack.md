@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.121 first-action tangent closure:** select Clifford banks by
+> **Current v0.122 fixed-operator metric/epsilon gate:** on timelike,
+> spacelike and null representatives and both exact branches, the frozen
+> first-action response from metric 10 plus epsilon 91 has full ranks
+> `9/91/97`, horizontal ranks `9/6/12`, and off-slice ranks `4/88/89`.
+> Never call this the total source Hessian: metric, density, Hodge, Phi, Shiab,
+> frame and observation move in the source construction and may cancel it.
+> The frozen 321 shortcut leaks; 321 versus 1,571 remains open. Keep both
+> actions and selected Spin/two-half/full-unitary parents distinct.
+> P1/P2/P3 remain unused.
+
+> **Predecessor v0.121 first-action tangent closure:** select Clifford banks by
 > grade labels, never positional slices: the low-grade basis is interleaved and
 > the first 196 entries are `28` grade one plus `168` grade two. Correctly
 > filtered, both exact branches have a rank-196 grade-one first-action self

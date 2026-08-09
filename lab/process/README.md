@@ -7,7 +7,14 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.121. Both exact branches have
+Current append-only progress surface: ledger v0.122. The fixed-operator
+metric/epsilon first-action response has common off-slice ranks `4/88/89` on
+all causal representatives and both exact branches. This kills frozen
+operator closure, not the total moving 321-field construction; the moving
+metric/density/Hodge/Phi/Shiab/frame/observation cancellation is next.
+Registry: `selected-k77-fixed-operator-metric-epsilon-leakage.json`.
+
+Predecessor v0.121. Both exact branches have
 a nondegenerate rank-196 first-action grade-one connection Hessian with inertia
 `(97,99,0)` and zero cross to all 1,274 grade-two covectors. This preserves the
 minimum-known 321 tangent through the connection gate only; selection and

@@ -7,6 +7,15 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 fixed-operator metric/epsilon leakage (2026-08-09)
+
+`conditional-build/selected-k77-fixed-operator-metric-epsilon-leakage-2026-08-09.md`
+computes all `101 x 1,274` frozen first-action source/equation responses on
+three causal representatives and both exact branches. The common off-slice
+metric/epsilon/combined ranks are `4/88/89`. Ledger v0.122 kills only the
+fixed-operator 321 closure shortcut and routes next to the total moving
+metric/Hodge/Phi/Shiab/frame/observation cancellation.
+
 ## K77 first-action tangent closure (2026-08-09)
 
 `conditional-build/selected-k77-first-action-tangent-closure-2026-08-09.md`
