@@ -1,6 +1,6 @@
 # Hostile review: selected K77 direct metric Euler
 
-Date: 2026-08-09  
+Date: 2026-08-09
 Verdict: `CANDIDATE_SURVIVES__RANK_ONE_GENERATED_DEMAND__NO_VERDICT_MOVEMENT`
 
 ## Three charges
