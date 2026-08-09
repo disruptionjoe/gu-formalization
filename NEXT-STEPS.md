@@ -7,6 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 MOVING-METRIC FIRST-ACTION HESSIAN (ledger v0.125).** Exact
+> co-moving naturality completes all ten selected-Spin metric/source columns:
+> the intrinsic first-action block equals the cached source-field block at the
+> two stationary branches and has full/horizontal/off-slice ranks `9/9/4` in
+> every causal class. Together with the complete epsilon ranks `91/6/88`, the
+> `321` truncation is not Hessian-closed. **Next classify the off-slice image as
+> a minimal source/action-owned tangent closure or the image of a derived
+> constraint differential. Do not manufacture an algebraic quotient or
+> automatically promote all `1,571` low-grade coordinates.** The two
+> `U(32,32)` halves and full `U(64,64)` remain unported; lower-order/global
+> Hessian, gauge/ghost, domain and BV-BFV remain open. P1/P2/P3 are unused.
+
 > **2026-08-09 EXACT-BANK API PROCESS GATE (ledger v0.124).** The selected K77
 > carrier plus all rational v0.122 fixed-operator coefficients are now a
 > versioned 134,336-byte bank with 29 source/producer/dependency hashes. The

@@ -64,8 +64,8 @@ check("exact", "exactly six process-only row migrations are recorded",
 check("exact", "headline accounting remains 32 19 26 5",
       ledger["progress"]["verdict_counts"] == {
           "SAME": 32, "DIFFERS": 19, "NEEDS": 26, "OVER_DETERMINED": 5})
-check("exact", "contract points to ledger v0.124",
-      contract["standing_ledger"]["ref"].endswith("v0.124.json"))
+check("exact", "contract points to v0.124 or a declared append-only successor",
+      contract["standing_ledger"]["ref"].endswith(("v0.124.json", "v0.125.json")))
 check("exact", "fixture file hash matches registry",
       sha256(BANK.read_bytes()).hexdigest() == registry["bank"]["file_sha256"])
 check("exact", "construction hash matches canonical payload",

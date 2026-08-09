@@ -9,6 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.125 moving metric first-action gate:** at either exact source-
+> stationary branch, the intrinsic ten-metric principal Hessian equals the
+> cached fixed-operator source-field block by exact co-moving naturality. Its
+> full/horizontal/off-slice ranks are `9/9/4` in all causal classes; epsilon
+> remains `91/6/88`. Selected-Spin `321` is not Hessian-closed. Next classify
+> the off-slice image as a minimal source/action-owned tangent closure or a
+> derived constraint image. Never manufacture a quotient from the cokernel or
+> automatically promote `1,571`. Two `U(32,32)` halves and full `U(64,64)`
+> remain unported. P1/P2/P3 remain unused.
+
 > **Current v0.124 exact-bank gate:** ordinary scientific consumers must use
 > `tests/channel-swings/k77_exact_bank_api.py`, not recursively execute the
 > v0.122 predecessor tree. The bank has canonical construction and 29 current

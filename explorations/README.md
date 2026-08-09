@@ -7,6 +7,15 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 moving metric first-action Hessian (2026-08-09)
+
+`conditional-build/selected-k77-moving-metric-first-action-hessian-2026-08-09.md`
+completes the ten metric/source columns intrinsically by exact co-moving
+naturality. All three causal representatives and both stationary branches have
+full/horizontal/off-slice ranks `9/9/4`. Ledger v0.125 confirms selected-Spin
+`321` is not Hessian-closed while refusing an algebraic quotient or automatic
+`1,571`-coordinate promotion.
+
 ## K77 exact coefficient-bank API (2026-08-09)
 
 `conditional-build/k77-exact-bank-api-2026-08-09.md` closes the mandatory

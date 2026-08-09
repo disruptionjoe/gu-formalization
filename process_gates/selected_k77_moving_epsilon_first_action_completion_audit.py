@@ -66,7 +66,12 @@ require(set(process_gate["requirements"]) == {
     "SOURCE_REVISION_HASH", "CONSTRUCTION_HASH", "STALE_CACHE_REJECTION",
     "BOUNDED_EQUIVALENCE_REPLAY", "NO_RECURSIVE_FULL_PREDECESSOR_REBUILD",
 }, "process requirements")
-require(contract["standing_ledger"]["ref"].endswith("v0.123.json"), "contract ledger wiring")
+require(
+    contract["standing_ledger"]["ref"].endswith(
+        ("v0.123.json", "v0.124.json", "v0.125.json")
+    ),
+    "contract ledger wiring",
+)
 rank_one = ledger["next_work_queue"][0]
 require(rank_one["rank"] == 1 and "durable versioned API" in rank_one["why"], "rank-one process dispatch")
 require("SOURCE-CONFIRMS" in source and "SOURCE-SILENT" in source, "source return")

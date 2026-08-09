@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_moving_metric_first_action_hessian_audit.py` enforces ledger
+  v0.125's local-principal selected-Spin `9/9/4` metric ranks, inherited
+  `91/6/88` epsilon ranks, co-moving/stationary scope, no unitary-parent port,
+  no quotient or 1,571 promotion, unchanged accounting and hostile fences.
+
 - `k77_exact_bank_api_audit.py` enforces ledger v0.124's canonical exact bank,
   29 current dependency hashes, nonrecursive consumer, selected-Spin/unitary-
   parent fences, unchanged accounting, three hostile charges and efficient

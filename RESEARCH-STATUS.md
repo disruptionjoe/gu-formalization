@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.125; six
+distance-only migrations; headline unchanged).** The selected-Spin moving
+metric first-action block is complete at local principal grade. Co-moving
+metric/density/pairing/Hodge/Phi/Shiab/frame/observation naturality reduces it
+to the cached fixed-`varpi` Levi-Civita source-field columns at stationarity;
+exact ranks are full/horizontal/off-slice `9/9/4` across all causal classes and
+both exact branches. With epsilon `91/6/88`, the `321` truncation remains not
+Hessian-closed. Next type the off-slice image as source/action-owned tangent
+closure or a derived constraint image—without a quotient by fiat or automatic
+`1,571` promotion. Both unitary parents, lower-order/global Hessian,
+gauge/ghost, domain and BV-BFV remain open. P1/P2/P3 are unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.124; six
 distance-only migrations; headline unchanged).** The mandatory exact-bank
 process gate passes. A versioned, 29-dependency-hashed K77 bank preserves the

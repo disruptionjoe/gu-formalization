@@ -7,11 +7,18 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.124. The exact selected-K77
+Current append-only progress surface: ledger v0.125. Exact co-moving
+naturality completes the selected-Spin ten-metric first-action block with
+full/horizontal/off-slice ranks `9/9/4`; the complete epsilon block remains
+`91/6/88`. The 321 truncation is not Hessian-closed. Next classify the
+off-slice image as source/action-owned tangent closure or a derived constraint
+image, with no quotient by fiat or automatic 1,571 promotion. Registry:
+`selected-k77-moving-metric-first-action-hessian.json`.
+
+Predecessor v0.124. The exact selected-K77
 carrier/coefficient bank is versioned, source/dependency hashed, stale-
 rejecting and independently replayed without recursive consumer rebuild.
-The next scientific gate is the ten metric source Hessian plus expanded-
-tangent/equation-quotient decision. Registry: `k77-exact-bank-api-v1.json`.
+Registry: `k77-exact-bank-api-v1.json`.
 
 Predecessor v0.123. The complete selected-
 Spin primitive-epsilon first-action block retains full/horizontal/off-slice

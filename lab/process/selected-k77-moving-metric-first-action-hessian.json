@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "exact_construction_result",
+  "created": "2026-08-09",
+  "status": "SELECTED_SPIN_MOVING_METRIC_HESSIAN_COMPLETE__FULL9_HORIZONTAL9_OFFSLICE4__321_REMAINS_NOT_CLOSED",
+  "scope": {
+    "action": "SOURCE_SHAPED_FIRST_TRANSGRESSION_ACTION",
+    "parent": "CONDITIONALLY_SELECTED_REAL_SPIN77_LOW_GRADE_PARENT",
+    "source_direction": "TEN_FIXED_VARPI_METRIC_DIRECTIONS_THROUGH_SPIN_LEVI_CIVITA",
+    "equation_receiver": "GRADE2_1274_EQUALS_HORIZONTAL24_PLUS_OFFSLICE1250",
+    "differential_grade": "LOCAL_PRINCIPAL_SYMBOL",
+    "backgrounds": "TWO_EXACT_QQ_SQRT3_SOURCE_STATIONARY_BRANCHES",
+    "causal_representatives": ["timelike", "spacelike", "null"]
+  },
+  "layer0": {
+    "object": "D_G_E_T_FIRST_ACTION_MIXED_HESSIAN",
+    "not_raw_residual": "D_G_UPSILON_DISTINCT",
+    "not_second_action": "RESIDUAL_SQUARE_HESSIAN_DISTINCT",
+    "source_chain": "FIXED_VARPI_EPSILON__DELTA_T_MINUS_DELTA_B_LC__DELTA_A_ZERO__DELTA_F_A_ZERO",
+    "moving_geometry": "METRIC_DENSITY_PAIRING_HODGE_PHI_SHIAB_FRAME_OBSERVATION_ONE_NATURAL_PACKET",
+    "owner_split": "TRIVIALIZATION_DEPENDENT__TOTAL_INTRINSIC",
+    "stationarity_use": "DENSITY_AND_RECEIVER_TRANSPORT_MULTIPLY_ZERO_EULER_COVECTOR"
+  },
+  "exact_result": {
+    "metric_ranks": {"full": 9, "horizontal": 9, "offslice": 4},
+    "rank_pattern_branch_dependence": "NONE",
+    "rank_pattern_causal_dependence": "NONE",
+    "complete_metric_equals_cached_fixed_operator_source_block": true,
+    "reason": "EXACT_COMOVING_NATURALITY_AT_STATIONARY_EULER_COVECTOR",
+    "epsilon_ranks_inherited_complete": {"full": 91, "horizontal": 6, "offslice": 88},
+    "selected_321_hessian_closed": false,
+    "full_1571_promoted": false,
+    "equation_quotient_promoted": false
+  },
+  "controls": {
+    "nonstationary_receiver_transport": "LIVE",
+    "nonstationary_density_frame_transport": "LIVE",
+    "frozen_hodge": "REJECTED_BY_RANK10_DERIVATIVE_BANK",
+    "differentiate_on_shell_FA_equals_T2_as_definition": "REJECTED",
+    "primary": "49/49_PASS",
+    "independent_sage_flint": "12/12_PASS"
+  },
+  "source_return": "SOURCE_CONFIRMS_MOVING_G_VARPI_EPSILON_GEOMETRY__SOURCE_SILENT_SELECTED_321_AND_COMPLETE_METRIC_HESSIAN",
+  "action_parent_fence": {
+    "selected_spin77": "DECIDED_AS_STATED",
+    "two_U32_32_halves": "NOT_PORTED",
+    "full_U64_64": "NOT_PORTED"
+  },
+  "analytic_fence": "NO_DOMAIN_POSITIVITY_HYPERBOLICITY_GREEN_INVERSE_OR_UNITARITY_CLAIM",
+  "accounting": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNCHANGED_UNUSED"
+  },
+  "validation": {
+    "primary": "tests/channel-swings/selected_k77_moving_metric_first_action_hessian_probe.py",
+    "independent": "tests/channel-swings/selected_k77_moving_metric_first_action_hessian_independent.sage",
+    "hostile_review": "lab/process/hostile-reviews/2026-08-09-selected-k77-moving-metric-first-action-hessian-review.md"
+  },
+  "next_gate": "CLASSIFY_OFFSLICE_IMAGE_AS_MINIMAL_SOURCE_TANGENT_CLOSURE_OR_DERIVED_CONSTRAINT_IMAGE__NO_QUOTIENT_BY_FIAT",
+  "claim_status_change": "none",
+  "canon_verdict_change": "none",
+  "public_posture_change": "none"
+}
