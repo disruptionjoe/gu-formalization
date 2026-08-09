@@ -7,18 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
-> **2026-08-08 SOURCE-NATIVE PHYSICAL WARD CLOSURE (ledger v0.98).**
-> The matched-q physical metric, Cartan-`varpi`, and moving-Shiab response now
-> gives coefficientwise `J R=0` in timelike, spacelike and null classes. The
-> physical Jacobian is rank four while its spin/raw-residual image is rank
-> three; the longitudinal direction has zero output, so grade-one gamma
-> soldering is not required. The v0.97 rank-four defect was a frozen-timelike
-> plus gamma-orbit composition artifact. Next extend the v0.96 `K_loc`
-> equation-dual/formal-adjoint/Green result to this physical common graph,
-> then derive action Euler/Noether and presymplectic classes. Build arbitrary
-> primitive `D_epsilon` only if those gates require it. Keep the selected
-> Spin-native parent, two `U(32,32)` halves and full `U(64,64)` comparator
-> distinct.
+> **2026-08-08 COMMON PHYSICAL EQUATION-DUAL/GREEN (ledger v0.99).**
+> The exact ten-coordinate metric and twenty-four-coordinate `varpi` banks now
+> form one 34-field covector-valued `K_loc` equation dual with a nonzero local
+> Green concomitant. Its pullback through the matched-q physical metric--
+> `varpi`--epsilon graph is zero in timelike, spacelike and null classes, with
+> omission plants firing at rank three. Next compose the moving action
+> pairing/density with the already-owned physical epsilon Euler/preboundary
+> terms to derive the selected-action Euler/Noether identity; then
+> antisymmetrize and test basicness. Arbitrary primitive `D_epsilon` is not a
+> prerequisite for this dependent orbit. Keep covector-valued language unless
+> a field Riesz map is derived, and keep the selected Spin-native parent, two
+> `U(32,32)` halves and full `U(64,64)` comparator distinct.
 
 > **2026-08-08 COMMON METRIC RESIDUAL-COORDINATE BANK (ledger v0.97).**
 > The fixed-`varpi` `D_g Upsilon` bank now shares the actual all-grade carrier

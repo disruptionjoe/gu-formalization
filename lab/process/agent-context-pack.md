@@ -9,19 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-08)
 
-> **Current v0.98 source-native physical Ward closure:** match the raw
-> response operator to the actual causal covector. Compose physical
-> `delta_g T=-q eta`, Cartan `delta varpi=q eta+[T,eta]`, and the source-owned
-> moving-`Phi`/Shiab response. Their raw `J R` is coefficientwise zero in
-> timelike, spacelike and null classes. The physical lift is rank four, its
-> spin/raw-residual image rank three, and the longitudinal direction has zero
-> output; do not insert grade-one gamma to manufacture a fourth column. The
-> v0.97 rank-four defect is a frozen-timelike plus wrong-orbit control. Next
-> extend `K_loc` formal-adjoint/Green to this physical graph, then derive
-> action Euler/Noether and presymplectic classes. Arbitrary primitive
-> `D_epsilon` remains distinct and is built only if those gates require it.
-> Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)`
-> distinct. Ledger v0.98.
+> **Current v0.99 common physical equation-dual/Green:** concatenate the exact
+> metric-ten and `varpi`-twenty-four banks into the common 34-field operator.
+> Its covector-valued `K_loc` equation dual and nonzero local Green concomitant
+> are exact, and the dual pullback through the matched-q physical metric--
+> `varpi`--epsilon graph is zero in all causal classes. Do not promote this to
+> selected-action Noether or presymplectic closure: next move the action
+> pairing/density and compose physical epsilon Euler/preboundary owners, then
+> antisymmetrize and test basicness. Arbitrary primitive `D_epsilon` remains a
+> separate independent-field question. Keep selected Spin-native, two
+> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.99.
 
 > **Current v0.97 common metric coefficient bank:** emit fixed-`varpi`
 > `D_g Upsilon` as `-D_gB_LC`, not by applying the full `D_varpi` response to

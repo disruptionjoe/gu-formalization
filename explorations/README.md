@@ -7,6 +7,16 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 common physical equation-dual and Green (2026-08-08)
+
+`conditional-build/selected-k77-common-physical-equation-dual-green-2026-08-08.md`
+composes the exact metric-ten and `varpi`-twenty-four banks into one 34-field
+covector-valued `K_loc` equation dual with a nonzero local Green concomitant.
+Its matched-q physical pullback is zero in all three causal classes. Ledger
+v0.99 advances to moving action pairing/density plus physical epsilon
+Euler/preboundary composition, without collapsing the selected Spin-native,
+two-`U(32,32)`-half and full-`U(64,64)` action parents.
+
 ## K77 source-native physical Ward closure (2026-08-08)
 
 `conditional-build/selected-k77-source-native-diffeomorphism-ward-closure-2026-08-08.md`

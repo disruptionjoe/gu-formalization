@@ -1,0 +1,84 @@
+{
+  "schema_version": "1.0",
+  "artifact_type": "construction_registry",
+  "created": "2026-08-08",
+  "status": "COMMON_METRIC_VARPI_EQUATION_DUAL_GREEN_EXACT__PHYSICAL_PULLBACK_ZERO__ACTION_NOETHER_OPEN",
+  "lane": "1",
+  "functional_channels": ["BUILD", "COMPOSE", "SOURCE", "VERIFY"],
+  "result": "METRIC10_DIRECT_SUM_VARPI24_FORMAL_GREEN__MATCHED_Q_PHYSICAL_DUAL_PULLBACK_ZERO_ALL_CAUSAL_CLASSES",
+  "source_return": "SOURCE-CONFIRMS_NORM_SQUARE_ADJOINT_AND_MOVING_TWO_CONNECTION_ARENA__SOURCE-SILENT_EXACT_COMMON_COMPOSITION",
+  "layer0": {
+    "common_operator": "D_g Upsilon direct-sum D_varpi Upsilon on 34 independent metric-varpi coordinates",
+    "dependent_physical_orbit": "four-column matched-q metric-varpi-epsilon diffeomorphism graph; not an independent epsilon field bank",
+    "primitive_epsilon_euler": "action covector already composed at v0.25; not D_epsilon Upsilon",
+    "equation_dual": "canonical covector-valued formal transpose under conditional K_loc",
+    "operator_adjoint": "field-valued representative requiring an unowned field-space Riesz map",
+    "green_concomitant": "local first-variation boundary current",
+    "action_noether": "moving action pairing-density-epsilon-preboundary composition; open",
+    "presymplectic": "antisymmetrized field-space current and basicness; open"
+  },
+  "common_operator": {
+    "domain_dimension": 34,
+    "metric_domain_dimension": 10,
+    "varpi_domain_dimension": 24,
+    "metric_principal_ranks": [9, 9, 9, 9],
+    "varpi_principal_ranks": [13, 13, 13, 13],
+    "varpi_zero_order_rank": 24,
+    "combined_rank_disposition": "NOT_RECOMPUTED_OR_REQUIRED_FOR_FORMAL_GREEN_COMPOSITION",
+    "equation_dual": "J_K^! v = -partial_mu((A_common^mu)^T K_loc v) + B_common^T K_loc v",
+    "green_concomitant": "G_common^mu(u,v) = u^T (A_common^mu)^T K_loc v",
+    "green_nonzero": true,
+    "proof_grade": "EXACT_PREDECESSOR_CERTIFICATE_COMPOSITION_PLUS_INDEPENDENT_QQ_FORMAL_IDENTITY"
+  },
+  "physical_pullback": {
+    "timelike": {"ward_defect_rank": 0, "equation_dual_pullback": "ZERO_FOUR_COLUMNS", "constituents_nontrivial": true},
+    "spacelike": {"ward_defect_rank": 0, "equation_dual_pullback": "ZERO_FOUR_COLUMNS", "constituents_nontrivial": true},
+    "null": {"ward_defect_rank": 0, "equation_dual_pullback": "ZERO_FOUR_COLUMNS", "constituents_nontrivial": true}
+  },
+  "controls": {
+    "main_exact": "44/44 PASS",
+    "independent_sage": "12/12 PASS",
+    "wrong_formal_adjoint_sign": "REJECTED",
+    "delete_moving_shiab": "RANK3_DEFECT_ALL_CAUSAL_CLASSES",
+    "delete_lower_cartan_commutator": "RANK3_DEFECT_ALL_CAUSAL_CLASSES",
+    "replay_strategy": "IMMUTABLE_EXACT_RECEIPTS_PLUS_LIGHTWEIGHT_PROOF_COMPOSITION__DEEP_PREDECESSORS_NOT_MEGA_IMPORTED"
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 3,
+    "conditions_opened": 0,
+    "remaining_named_conditions": 2
+  },
+  "remaining": [
+    "compose moving action pairing, density, physical epsilon Euler and preboundary owners on the matched-q graph to derive the selected-action Euler-Noether identity",
+    "antisymmetrize the complete action-owned Green potential and test physical basicness, polarization, global domain and BFV descent"
+  ],
+  "still_open_but_not_required_for_dependent_physical_orbit": [
+    "arbitrary primitive D_epsilon Upsilon outside the physical four-column orbit",
+    "field-space Riesz map for field-valued operator-adjoint language"
+  ],
+  "constraint_fence": {
+    "new_fields": 0,
+    "new_coefficients": 0,
+    "new_quotients": 0,
+    "new_external_datum": 0,
+    "P1_P2_P3": "UNUSED"
+  },
+  "action_parent_fence": {
+    "spin_native_selected_carrier": "OPERATIVE_CONDITIONAL_PARENT",
+    "weyl_block_product": "TWO_U32_32_HALVES_REMAIN_DISTINCT_RIVAL",
+    "full_U64_64": "COMPARATOR_NOT_COLLAPSED"
+  },
+  "ledger_rows": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "claim_status_change": "NONE",
+  "canon_verdict_change": "NONE",
+  "public_posture_change": "NONE",
+  "curt_track": "FORMALLY_SEPARATE_INSIDE_ERIC_LANE",
+  "third_lane": "NOT_PROMOTED",
+  "scripts": [
+    "tests/channel-swings/selected_k77_common_physical_equation_dual_green_probe.py",
+    "tests/channel-swings/selected_k77_common_physical_equation_dual_green_independent.sage"
+  ],
+  "hostile_review": "lab/process/hostile-reviews/2026-08-08-selected-k77-common-physical-equation-dual-green-review.md",
+  "next_gate": "COMPOSE_MOVING_ACTION_PAIRING_DENSITY_PHYSICAL_EPSILON_EULER_AND_PREBOUNDARY_ON_MATCHED_Q_GRAPH__DERIVE_SELECTED_ACTION_EULER_NOETHER__THEN_ANTISYMMETRIZE_AND_TEST_BASICNESS"
+}
