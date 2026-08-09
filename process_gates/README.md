@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_stationary_gram_boundary_strata_audit.py` enforces ledger
+  v0.104's rectangular-residual versus square-Gram typing, exact causal Gram
+  ranks `22/22/14`, inertias, unbooked doubled trace quotients `44/44/28`,
+  `H7 x H-7` regularity-only fence, missing edge-carrier soldering/full action/
+  maximal-domain/odd-BFV gates and the three distinct action parents.
+
 - `selected_k77_sobolev_edge_current_algebra_audit.py` enforces ledger
   v0.103's weak `H7 x H7` versus strong `H7 x H-7` distinction, `H8`
   gauge/edge threshold, conditional nonempty-torsor edge quotient, classical

@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Next Steps For Contributors
 
+> **2026-08-08 PARTIAL STATIONARY GRAM STRATA (ledger v0.104).** The owned
+> metric-ten plus `varpi`-twenty-four principal map is rectangular, so it is
+> not a self-adjoint operator. The stationary norm-square symbol
+> `A(q)^T K_loc A(q)` is well typed and exact: raw rank `22` in every causal
+> class, Gram ranks `22/22/14`, inertias `(12,10,12)/(13,9,12)/(8,6,20)`, and
+> doubled trace quotients `44/44/28`. These quotients are unbooked: `H7 x H-7`
+> supplies the right regularity but no map identifies them with the edge
+> carrier. Next add independent epsilon, recompute first and second action on
+> one stationary background, then build trace soldering and a tangential/collar
+> maximal domain before odd BFV. Keep the selected Spin-native parent, two
+> `U(32,32)` halves and full `U(64,64)` parent distinct.
+
 > **2026-08-08 COMPACT-BOUNDARY STRONG EDGE COMPLETION (ledger v0.103).** On
 > a compact 13-dimensional `Y14` boundary, same-regularity `H7 x H7` gives
 > only a weak form: finite-cutoff singular values stay nonzero but decay as

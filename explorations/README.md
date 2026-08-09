@@ -7,6 +7,18 @@ updated_at: "2026-08-08"
 
 # Explorations
 
+## K77 partial stationary Gram boundary strata (2026-08-08)
+
+`conditional-build/selected-k77-stationary-gram-boundary-strata-2026-08-08.md`
+forms the correctly typed 34-field second-action Gram symbol rather than
+calling the rectangular residual derivative self-adjoint. Its raw ranks are
+`22/22/22`, its causal Gram ranks are `22/22/14`, and the induced doubled trace
+quotients are `44/44/28`. The `H7 x H-7` regularity matches, but the quotients
+remain unbooked until independent epsilon, the shared-background first action,
+edge-carrier soldering and a tangential/collar maximal domain are built.
+Ledger v0.104 then advances to odd BFV without collapsing the selected
+Spin-native, two-`U(32,32)`-half and full-`U(64,64)` action parents.
+
 ## K77 compact-boundary Sobolev edge reduction (2026-08-08)
 
 `conditional-build/selected-k77-sobolev-edge-current-algebra-2026-08-08.md`

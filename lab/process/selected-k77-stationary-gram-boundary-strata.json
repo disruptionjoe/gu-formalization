@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-08",
+  "status": "PARTIAL_STATIONARY_GRAM_STRATA_SURVIVE__FULL_COMMON_DOMAIN_OPEN",
+  "ledger_version": "0.104",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "layer0": {
+    "raw_residual_map": "RECTANGULAR_34_TO_1470_OWNED_RESPONSE_COORDINATES__NOT_SELFADJOINT",
+    "partial_action_hessian": "A_TRANSPOSE_KLOC_A__34_BY_34_COVECTOR_SYMBOL",
+    "field_operator": "REQUIRES_FIELD_RIESZ__OPEN",
+    "full_action": "INDEPENDENT_EPSILON_AND_SHARED_STATIONARY_FIRST_ACTION_OPEN",
+    "edge_identification": "TRACE_SOLDERING_LEGENDRE_MAP_OPEN"
+  },
+  "source_return": "SOURCE-CONFIRMS_RESIDUAL_NORM_SQUARE_AND_ADJOINT_ARENA__SOURCE_SILENT_FIELD_RIESZ_CLOSED_DOMAIN_TRACE_SOLDERING_AND_BFV",
+  "exact_result": {
+    "field_dimension": 34,
+    "metric_dimension": 10,
+    "varpi_dimension": 24,
+    "directional_metric_ranks": [9, 9, 9, 9],
+    "directional_varpi_ranks": [13, 13, 13, 13],
+    "strata": {
+      "timelike": {"raw_rank": 22, "gram_rank": 22, "inertia": [12, 10, 12], "green_quotient_dimension": 44},
+      "spacelike": {"raw_rank": 22, "gram_rank": 22, "inertia": [13, 9, 12], "green_quotient_dimension": 44},
+      "null": {"raw_rank": 22, "gram_rank": 14, "inertia": [8, 6, 20], "green_quotient_dimension": 28}
+    },
+    "null_extra_isotropic_image_dimension": 8,
+    "sobolev_return": "H7_BY_HMINUS7_STRONG_REGULARITY_COMPATIBLE__H7_BY_H7_WEAK",
+    "quotient_booking": "UNBOOKED_DIAGNOSTIC"
+  },
+  "controls": {
+    "primary": "60/60 PASS",
+    "independent_sage_flint": "34/34 PASS",
+    "fixed_rank_common_quotient_rejected": true,
+    "regularity_does_not_imply_carrier_identity": true,
+    "partial_symbol_does_not_imply_maximal_domain": true,
+    "P1_P2_P3_unused": true
+  },
+  "action_parents": {
+    "selected_spin_native_dimension": 2107,
+    "two_U32_32_halves_dimension": 16382,
+    "full_U64_64_dimension": 16383,
+    "collapsed": false
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "next_gate": "COMPLETE_INDEPENDENT_EPSILON_RESIDUAL_COLUMNS_AND_RECOMPUTE_FIRST_PLUS_SECOND_ACTION_ON_ONE_STATIONARY_BACKGROUND__CONSTRUCT_EDGE_TRACE_SOLDERING_AND_TANGENTIAL_COLLAR_MAXIMAL_DOMAIN__THEN_ODD_BFV_BRST_CHARGE_CME__KEEP_NULL_STRATUM_CHARGED_HORN_AND_TORSOR_TOPOLOGY_OPEN"
+}

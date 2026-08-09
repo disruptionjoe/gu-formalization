@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.103.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.103.md`.
+`lab/process/conditional-physics-ledger-v0.104.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.104.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -501,6 +501,18 @@ and odd BV/BFV remain downstream.
 This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
+
+### Current v0.104 construction frontier
+
+The owned 34-field metric-plus-varpi residual derivative is rectangular and
+must not be called self-adjoint. Its stationary norm-square Gram symbol is
+exactly stratified: raw ranks `22/22/22`, Gram ranks `22/22/14`, and unbooked
+doubled trace quotients `44/44/28`. `H7 x H-7` supplies the right regularity,
+but no edge-carrier soldering map exists. Build must next add independent
+epsilon, recompute both action parents on one stationary background, and
+construct the trace soldering plus tangential/collar maximal domain before odd
+BFV. Preserve the selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)`
+parents as distinct objects.
 
 ## The four channels
 

@@ -8,6 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.104; five
+distance/evidence migrations; headline unchanged).** The partial stationary
+second-action symbol on ten metric plus twenty-four `varpi` variables is now
+exact. The raw normal map has causal ranks `22/22/22`; the induced Gram has
+ranks `22/22/14`, inertias `(12,10,12)/(13,9,12)/(8,6,20)`, and doubled trace
+quotients `44/44/28`. The null image therefore contains eight extra isotropic
+directions. `H7 x H-7` is regularity-compatible, but the trace quotients are
+not booked because independent epsilon, the first action on the same
+stationary background, edge-carrier soldering, a tangential/collar maximal
+domain and odd BFV remain open. The raw rectangular residual map is not called
+self-adjoint. No verdict, residue, booked quotient, datum, canon or posture
+moves; the three action parents remain distinct.
+
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.103; five
 distance/evidence migrations; headline unchanged).** The conditional K77 edge
 geometry now has a strong functional completion on every declared nonempty

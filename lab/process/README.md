@@ -7,7 +7,15 @@ updated_at: "2026-08-08"
 
 # Process
 
-Current append-only progress surface: ledger v0.103. On compact Y14
+Current append-only progress surface: ledger v0.104. The partial stationary
+metric-plus-varpi second-action Gram now has exact causal ranks `22/22/14`
+and doubled trace quotients `44/44/28`. The quotients are unbooked: strong
+`H7 x H-7` regularity does not identify the edge carrier, and independent
+epsilon, the first action on the same background, trace soldering, a maximal
+domain and odd BFV remain open. Registry:
+`selected-k77-stationary-gram-boundary-strata.json`.
+
+Predecessor ledger v0.103: on compact Y14
 13-boundaries, the selected edge form has a strong `H7 x H-7` cotangent
 completion with `H8` gauge/edge frames; equal `H7 x H7` regularity is weak.
 The edge kernel equals the residual gauge orbit on every nonempty torsor
