@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 COMMON GRADED TRACE / BULK-DOMAIN GATE (ledger v0.116).** The
+> physical `H7/H-7` and gauge/ghost `H8/H-8` cotangent pairs form one strong
+> graded boundary trace carrier on the relative `A0` bitorsor. They are not one
+> Sobolev exponent. Relative cotangent-lift patching preserves the form and
+> vertical Lagrangian polarization, but no boundary condition is selected.
+> Next assemble the complete action-owned gauge-fixed bulk linearized operator
+> on a stationary branch and prove or kill its closed `Dmax/Dmin` graded trace
+> exact sequence. Only then couple bulk BV to boundary BFV. Do not substitute
+> the observed `X4` domain for the ambient `Y14` multiple-time problem; keep
+> the physical horn and all three action parents open.
+
 > **2026-08-09 RELATIVE EDGE-BITORSOR TOPOLOGY (ledger v0.115).** The old
 > one-sided edge frame `u_j=u_i g_ij` is globally nonempty only when the
 > boundary `P_H` bundle is trivial. The repaired relative frame

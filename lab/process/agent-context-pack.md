@@ -9,7 +9,19 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.115 relative-edge topology gate:** never identify active gauge
+> **Current v0.116 graded trace/bulk-domain gate:** the physical `H7/H-7` and
+> gauge/ghost `H8/H-8` pairs form one strong graded boundary trace carrier;
+> they are not one scalar Sobolev exponent. Relative `A0` bitorsor transitions
+> preserve the canonical form and vertical Lagrangian polarization. Do not
+> call the polarization a selected boundary condition, or call the boundary
+> form a Green inverse, Krein-positive domain or coupled BV--BFV theory. The
+> complete action-owned gauge-fixed bulk operator, closed `Dmax/Dmin` trace
+> exact sequence, Green/Krein realization and coupled BV--BFV remain unowned.
+> The observed `X4` Lorentzian defect domain is not the ambient `Y14` domain.
+> Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
+> Ledger v0.116.
+>
+> **Predecessor v0.115 relative-edge topology gate:** never identify active gauge
 > motion with passive atlas patching. The old `u_j=u_i g_ij` frame is global
 > iff `P_H|_B` is trivial. Use the relative bitorsor
 > `u_j=k_ij^-1 u_i g_ij`, with the reference the labelled `A0` copy of the

@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_common_graded_trace_boundary_triple_audit.py` enforces ledger
+  v0.116's strong graded `H7/H-7` plus `H8/H-8` trace carrier, relative
+  cotangent-lift symplectic/polarization descent, and the distinction between
+  a boundary trace skeleton and the still-unowned bulk `Dmax/Dmin`, Green,
+  Krein and coupled BV--BFV structures.
 - `selected_k77_relative_edge_bitorsor_topology_audit.py` enforces ledger
   v0.115's distinction between active gauge motion and passive patching, the
   one-sided trivial-bundle obstruction, the relative `A0` bitorsor

@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.115; six
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.116; six
+distance/evidence migrations; headline unchanged).** The physical `H7/H-7`
+and gauge/ghost `H8/H-8` boundary cotangent pairs now form one strong graded
+trace carrier on the topology-complete relative `A0` bitorsor. Exact
+cotangent-lift transitions preserve its form and vertical Lagrangian
+polarization. This closes regularity compatibility, not the bulk domain: the
+complete action-owned gauge-fixed operator, closed `Dmax/Dmin` trace sequence,
+Green inverse, Krein positivity and coupled BV--BFV remain unowned. The
+observed `X4` Lorentzian domain is not the ambient `Y14` domain. No verdict,
+residue, quotient, datum, canon or posture moves; selected Spin-native, two
+`U(32,32)` halves and full `U(64,64)` remain distinct.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-09 (ledger v0.115; six
 distance/evidence migrations; headline unchanged).** Active target gauge
 motion and passive Čech patching are now separated. The old one-sided edge
 frame is globally nonempty iff `P_H|_B` is trivial. A relative frame in

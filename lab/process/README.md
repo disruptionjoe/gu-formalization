@@ -7,7 +7,16 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.115. The old one-sided edge
+Current append-only progress surface: ledger v0.116. The physical `H7/H-7`
+and gauge/ghost `H8/H-8` cotangent pairs form one strong graded boundary trace
+carrier on the relative `A0` bitorsor. Cotangent-lift patching preserves the
+form and vertical Lagrangian polarization; the exponents remain distinct and
+the polarization is not a selected boundary condition. The complete
+action-owned gauge-fixed bulk operator, `Dmax/Dmin` trace exact sequence,
+Green/Krein realization and coupled BV--BFV remain unowned. Registry:
+`selected-k77-common-graded-trace-boundary-triple.json`.
+
+Predecessor progress surface: ledger v0.115. The old one-sided edge
 frame is global only on trivial boundary bundles. The relative edge bitorsor,
 using the `A0` reference copy of the existing `P_H|_B`, is nonempty in every
 owned topological sector and preserves dressed trace, moment map, local

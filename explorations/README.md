@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 common graded trace / boundary-triple skeleton (2026-08-09)
+
+`conditional-build/selected-k77-common-graded-trace-boundary-triple-2026-08-09.md`
+constructs the strong direct sum of the physical `H7/H-7` and gauge/ghost
+`H8/H-8` boundary cotangent pairs. Relative `A0` cotangent-lift transitions
+preserve its canonical form and vertical Lagrangian polarization. Ledger
+v0.116 rejects promotion to an actual bulk Green/Krein domain: the complete
+gauge-fixed operator, `Dmax/Dmin` trace sequence and coupled BV--BFV remain
+unowned. No physical horn, datum or action parent is selected.
+
 ## K77 relative edge-bitorsor topology (2026-08-09)
 
 `conditional-build/selected-k77-relative-edge-bitorsor-topology-2026-08-09.md`

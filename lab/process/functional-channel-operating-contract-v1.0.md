@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.115.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.115.md`.
+`lab/process/conditional-physics-ledger-v0.116.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.116.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,19 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.115 construction frontier
+### Current v0.116 construction frontier
+
+v0.116 constructs one strong graded boundary trace carrier from the physical
+`H7/H-7` and gauge/ghost `H8/H-8` cotangent pairs. It does not identify the
+two Sobolev exponents. Relative `A0` bitorsor transitions preserve the total
+form and vertical Lagrangian polarization, but the polarization is not a
+selected boundary condition. Build next must assemble the complete
+action-owned gauge-fixed bulk linearized operator on a stationary branch and
+prove or kill its closed `Dmax/Dmin` graded trace exact sequence before
+coupling bulk BV to boundary BFV. A boundary trace form is not a Green inverse
+or Krein-positive domain. Keep the action parent and physical horn open.
+
+### Predecessor v0.115 construction frontier
 
 v0.115 separates active target gauge motion from passive Čech patching. The
 old one-sided edge frame is globally nonempty iff `P_H|_B` is trivial. The
