@@ -3,7 +3,7 @@ title: "Y14 / X4 systems spec sheet: substrate, projection, and section, specifi
 doc_type: orientation
 status: baseline
 created: 2026-08-09
-version: "1.4"
+version: "1.5"
 version_policy: |
   1.0 is the FROZEN BASELINE. It is not the best version of this document -- it is the first one, saved
   deliberately so later changes are diffable rather than silent.
@@ -140,7 +140,7 @@ compact index theorems do not apply.** Every index-theoretic argument in this sy
 | fiber signature | Frobenius `(7,3)`, trace-reversed to `(6,4)` | `[MATH]` |
 | ambient signature | `(9,5)` [K95] or `(7,7)` [K77] | `[MATH]`, fork open |
 | compactness | **open / noncompact** (see Sec 1) | `[MATH]` |
-| ends | **fiber ends, not a boundary.** End is **limit-point / essentially self-adjoint**: **the domain is UNIQUE and FORCED** | `[MATH]` |
+| ends | **fiber ends, not a boundary.** ~~limit-point / essentially self-adjoint, domain UNIQUE and FORCED~~ — **RETRACTED 2026-08-08**, see below | **`[UNSPECIFIED]`** |
 | `w1` | `w1(Y14) = 0`, unconditional | `[MATH]` |
 | `w2` | `w2(Y14) = pi*w2(X4)` — spin **iff** `X4` spin | `[MATH]` |
 
@@ -362,6 +362,15 @@ cannot read. `[MATH]`
 
 **9.4 The scale `mu_DW`.** Structurally free (Sec 4.2). Not a TODO — a property.
 
+**9.5a The fiber-end domain — RETRACTED, now genuinely unspecified.** 1.1 recorded the fiber end as
+limit-point / essentially self-adjoint with "the domain is UNIQUE and FORCED," and celebrated it as a
+correction in the system's favour. **That result was REFUTED 2026-08-08 and must not be cited:**
+`moduli dimension = 0` is false — the maximal stratum has real dimension **346,112**, and "unique and
+forced" was the output of a **planted bounded-collar coefficient** where the true end model blows up
+exponentially. A second gap is named alongside it: **Bar-Ballmann does not cover ultrahyperbolic
+signature**, and that gap is named nowhere else. The end domain is `[UNSPECIFIED]`, and there is no
+canonical selector.
+
 **9.5 The model-to-true-bundle transfer.** *(CORRECTED in 1.1 — 1.0 stated this gap wrongly and too widely.)*
 
 1.0 said "the full function-space RS APS + family-index statement is not closed." **That is wrong.**
@@ -382,9 +391,40 @@ question rather than an open analytic hole.
 **9.6 The families pushforward.** *(RETYPED in 1.2 — 1.0/1.1 conflated two different things and understated
 the obstruction.)*
 
-The pushforward `pi_! : ch(S)/Y14 -> ch(S_X)/X4` is **NOT DEFINED**, because the fiber `GL(4,R)/O(3,1)` is
-non-convex. Not "unbuilt," not "uncomputed" — **undefined**. That is why `ch2(S_X)[K3] = -5376` is a bulk
-characteristic number and not yet the families index. No amount of compute reaches an undefined object.
+The pushforward `pi_! : ch(S)/Y14 -> ch(S_X)/X4` is **NOT DEFINED**. Not "unbuilt," not "uncomputed" —
+**undefined**. That is why `ch2(S_X)[K3] = -5376` is a bulk characteristic number and not yet the families
+index. No amount of compute reaches an undefined object.
+
+> **"Non-convex" is the WRONG diagnosis, and 1.0-1.4 repeated it from canon (corrected in 1.5).** Two
+> exploration files already say so: *"the reason given elsewhere for `pi_!` failing — 'the fibre is
+> non-convex' — is also wrong: `pi_!` fails because the 10-dimensional fibre is **non-compact**, so fibre
+> integration needs compact vertical supports."* Canon still carries the wrong phrasing with **no correction
+> banner**; that sweep is **owed**.
+>
+> At least four distinct obstructions are filed here and they are not the same thing:
+> **(A)** non-compact fiber ⇒ no compact vertical supports, no K-orientation.
+> **(B) NON-ELLIPTICITY** — `sigma(D_GU)(xi)^2 = g_Y(xi,xi) Id` in split signature, so the symbol degenerates
+> on the null cone and **no index theory applies to a non-elliptic operator**. Callias does not rescue this;
+> Callias assumes ellipticity.
+> **(C)** no Fredholm family at all.
+> **(D)** three GU-native absences filed as theorems — no invariant Riemannian fibre metric (the only
+> invariant trace form is indefinite `(+7,-3)`), no invariant proper exhaustion (homogeneous ⇒ invariant
+> scalars are constant), plus (B).
+>
+> **(B) is the serious one and it has nothing to do with compactness.** Any plan that attacks this gate by
+> making the fiber compact is attacking (A) while (B) stands.
+
+> **The compact-core route is CLOSED (tried, killed on degree).** Substituting the `RP^3` retract for the
+> fiber does not work: *"The Bismut formula integrates a cohomology class over the actual fiber (the
+> 10-manifold), not over the homotopy retract (the 3-manifold)."* `pi_!` lowers degree by **10**; the `RP^3`
+> pushforward lowers by **3**. Fiber-homotopy equivalence preserves cohomology but **not the integration
+> map** — different maps into different groups. There is a standing correction forbidding exactly this
+> substitution.
+>
+> **And it would be self-defeating anyway.** `H^even(F;Q) = Q`, concentrated in degree 0, so **no vertical
+> characteristic class of positive even degree exists** — fibre integration of `ch . A-hat` has nothing to
+> integrate. Certified, with a firing negative control on `CP^1`. The consequence is stated sharply:
+> **"the fibre can multiply a base index; it can never create one."**
 
 **This is NOT "the single decider," and earlier versions of this document implied it was.** The single
 decider — the net chiral generation index on GU's actual 14-manifold — **was built and run**
@@ -555,3 +595,26 @@ Same-day patch to 1.3, which repeated a rationale that canon had already withdra
   `explorations/signature-ambient-is-a-sign-convention-2026-08-08.md` argues `g` and `-g` are the same
   geometry, so a construction sending them to `M(64,H)` vs `M(128,R)` **is not equivariant**. If that holds,
   the fork is a malformed question rather than an undecided one.
+
+### 1.5 — 2026-08-09 — two published claims retracted; the pi_! diagnosis corrected
+Raised by a coverage sweep run while attempting the compact-core route on Sec 9.6. Both corrections are
+against this document, and one of them retracts something 1.1 had presented as good news.
+
+- **Sec 2.2 / new Sec 9.5a — the fiber-end result is RETRACTED.** 1.1 errata E1 recorded the end as
+  limit-point / essentially self-adjoint with "the domain is UNIQUE and FORCED," and called it a correction
+  in the system's favour. It was **REFUTED 2026-08-08**: `moduli dimension = 0` is false, the maximal
+  stratum has real dimension **346,112**, and the "unique and forced" conclusion was produced by a
+  **planted bounded-collar coefficient** where the true end model blows up exponentially. Also named:
+  **Bar-Ballmann does not cover ultrahyperbolic signature.** The row is now `[UNSPECIFIED]`.
+- **Sec 9.6 — "non-convex" is the wrong diagnosis.** `pi_!` fails because the fibre is **non-compact**, not
+  non-convex; two exploration files already say so and canon still carries the wrong phrasing with no
+  correction banner (**owed sweep**). Four distinct obstructions are now listed separately, and the serious
+  one is **(B) non-ellipticity** — the symbol degenerates on the null cone in split signature, and no index
+  theory applies to a non-elliptic operator. It has nothing to do with compactness.
+- **Sec 9.6 — the compact-core route is CLOSED.** Attempted this session, and it was already tried and
+  killed on a degree argument: `pi_!` lowers degree by 10, the `RP^3` pushforward by 3, and fibre-homotopy
+  equivalence does not preserve the integration map. It would also be self-defeating: `H^even(F;Q) = Q` in
+  degree 0 only, so **"the fibre can multiply a base index; it can never create one."**
+- **Live route recorded instead:** the b-calculus **indicial-window decider** — compute the index in
+  Window 0 vs Window 1 on a cylindrical end (a finite mechanical count). Constant ⇒ a well-defined index
+  exists and GC-FC4 downgrades; jumps ⇒ the count is a property of the import. Estimated days. Unattempted.
