@@ -3,7 +3,7 @@ title: "Y14 / X4 systems spec sheet: substrate, projection, and section, specifi
 doc_type: orientation
 status: baseline
 created: 2026-08-09
-version: "1.3"
+version: "1.4"
 version_policy: |
   1.0 is the FROZEN BASELINE. It is not the best version of this document -- it is the first one, saved
   deliberately so later changes are diffable rather than silent.
@@ -110,8 +110,10 @@ compact index theorems do not apply.** Every index-theoretic argument in this sy
 > - **`SIGNATURE-AMBIENT`** — `(9,5)` vs `(7,7)`, the ambient signature itself — **OPEN, UNDER-DETERMINED.**
 >   Currently at **stack depth 10, over threshold** (`process_gates/fork_depth_audit.py`).
 > - **`REAL-CLIFFORD-FORM`** — which real Clifford algebra *the source computes in* — **settled at
->   `Cl(7,7) = M128(R)` on 2026-08-04**, from source-typed arithmetic, making `(7,7)` "the primary
->   source-aligned reconstruction burden."
+>   `Cl(7,7) = M128(R)` on 2026-08-04**, making `(7,7)` "the primary source-aligned reconstruction burden."
+>   **Its rationale was itself corrected 2026-08-08:** the stronger claim that this was derived from exact
+>   source-typed block arithmetic is **RETRACTED**. K77 is the **author-asserted** conditional
+>   reconstruction burden; **K95 is the geometry-derived comparator, not a demoted arithmetic error.**
 >
 > **The 2026-08-04 settlement is evidence bearing on the ambient fork, not a settlement of it.** Earlier
 > versions of this document said "K77, settled for the chimeric metric," which reads as the ambient
@@ -536,3 +538,20 @@ because it had conflated two registry rows.
 - **Process gap noted, quoted from that entry:** *"Nothing in the repository watches a stated dissolution
   condition for its trigger becoming true."* This is the same root cause as this document's own staleness
   issue (register root cause 2), one tier up. Worth a gate.
+
+### 1.4 — 2026-08-09 — the 2026-08-04 rationale was itself retracted; K95 is a live comparator
+Same-day patch to 1.3, which repeated a rationale that canon had already withdrawn.
+
+- **`REAL-CLIFFORD-FORM` rationale corrected.** 1.3 said the 2026-08-04 settlement came "from source-typed
+  arithmetic." That stronger claim was **RETRACTED on 2026-08-08**. K77 is the **author-asserted**
+  conditional reconstruction burden; **K95 is the geometry-derived comparator, not a demoted arithmetic
+  error.** Both horns are live and neither is a mistake.
+- **Recorded for readers of any `(9,5)` result:** an earlier banner on
+  `canon/no-go-quaternionic-parity-generation-sector.md` had the reopener FIRE by treating the source-algebra
+  settlement as an ambient-signature settlement, and canon calls that **"the same conflation this
+  repository's Layer-0 discipline exists to catch."** This document made the identical error in 1.0-1.2. It
+  is an easy one to make and it has now been made twice by two different authors on the same pair of rows.
+- **`SIGNATURE-AMBIENT` may be ill-posed, not merely open.**
+  `explorations/signature-ambient-is-a-sign-convention-2026-08-08.md` argues `g` and `-g` are the same
+  geometry, so a construction sending them to `M(64,H)` vs `M(128,R)` **is not equivariant**. If that holds,
+  the fork is a malformed question rather than an undecided one.
