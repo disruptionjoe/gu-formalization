@@ -2,12 +2,21 @@
 title: "Process"
 status: canon
 doc_type: overview
-updated_at: "2026-08-08"
+updated_at: "2026-08-09"
 ---
 
 # Process
 
-Current append-only progress surface: ledger v0.106. The old residual-zero
+Current append-only progress surface: ledger v0.107. The repaired common
+connection branch has an exact rank-one direct metric Euler covector with a
+nine-dimensional traceless kernel. The residual-square second action cannot
+cancel it at raw residual zero. The next gate constructs the source-guided
+dynamic `varpi`/curvature VEV metric stress and tests exact opposite-trace
+cancellation without a fixed `Lambda` or new free coefficient. Field-tangent,
+Hessian and BV work are deferred until a stationary branch exists. Registry:
+`selected-k77-direct-metric-euler.json`.
+
+Predecessor progress surface: ledger v0.106. The old residual-zero
 fixture is now typed as only grade-two constrained-critical. A nontrivial
 branch closes all 1,470 low-grade connection Euler directions and the raw
 residual, while direct metric Euler remains open. The moving-Shiab epsilon

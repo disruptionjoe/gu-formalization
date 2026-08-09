@@ -2,10 +2,22 @@
 title: "Explorations"
 status: canon
 doc_type: overview
-updated_at: "2026-08-08"
+updated_at: "2026-08-09"
 ---
 
 # Explorations
+
+## K77 direct metric Euler trace demand (2026-08-09)
+
+`conditional-build/selected-k77-direct-metric-euler-2026-08-09.md` composes
+the all-ten moving-gimmel bank with the repaired connection-critical branch.
+The exact first-action metric Euler has rank one and a nine-dimensional
+traceless kernel; the residual-square action cannot cancel it at raw residual
+zero. Ledger v0.107 therefore routes next to the dynamic `varpi`/curvature VEV
+metric-stress cancellation before the 321-versus-1,571 tangent or full Hessian.
+This is a generated cosmological-type trace demand, not an observed `Lambda`,
+magnitude result, Einstein equation or no-go. All three action parents remain
+separate and P1/P2/P3 remain unused.
 
 ## K77 common connection branch and moving-epsilon Hessian (2026-08-08)
 

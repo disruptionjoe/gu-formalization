@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0",
+  "created": "2026-08-09",
+  "status": "DIRECT_METRIC_EULER_RANK1_COSMOLOGICAL_TRACE_DEMAND__DYNAMIC_VEV_CANCELLATION_OPEN",
+  "ledger_version": "0.107",
+  "rows_migrated": ["LT-GR1", "LT-GR2b", "LT-GR2d", "LT-GR3", "LT-GR5", "LT-GR6"],
+  "source_return": "SOURCE_CONFIRMS_FIRST_ACTION_TWO_CONNECTION_AND_DYNAMIC_COSMOLOGICAL_VEV_GRAMMAR__SOURCE_SILENT_REPAIRED_K77_METRIC_EULER_AND_CANCELLATION",
+  "layer0": {
+    "fixed_B_T": "PARTIAL_METRIC_DERIVATIVE_AT_FIXED_CONNECTION_COORDINATES",
+    "fixed_varpi_epsilon": "SOURCE_COORDINATE_TOTAL_DERIVATIVE_WITH_DELTA_T_MINUS_DELTA_B_LC",
+    "comoving": "NATURAL_CLIFFORD_HODGE_PHI_SHIAB_TRANSPORT",
+    "lift_independence": "EXACT_ON_COMPLETE_ADMITTED_LOW_GRADE_TANGENT_BECAUSE_E_B_EQUALS_E_T_EQUALS_ZERO",
+    "metric_trace": "FOURTEEN_DIMENSIONAL_GIMMEL_VOLUME_TRACE_NOT_FOUR_DIMENSIONAL_EINSTEIN_TRACE_REVERSAL",
+    "cosmological_demand": "ACTION_GENERATED_RANK_ONE_TRACE_NOT_OBSERVED_LAMBDA_OR_VEV"
+  },
+  "exact_result": {
+    "branch": {
+      "B_star": "Phi1/156",
+      "T_star": "-Phi1/78",
+      "A_star": "-Phi1/156",
+      "E_B_zero_directions": 1470,
+      "E_T_zero_directions": 1470,
+      "raw_residual_zero": true
+    },
+    "first_action": {
+      "normalized_value": "7/18252",
+      "coordinate_volume": 8
+    },
+    "gimmel_density": {
+      "canonical_sym2_order": ["00", "01", "02", "03", "11", "12", "13", "22", "23", "33"],
+      "covector": ["-2", "0", "0", "0", "2", "0", "0", "2", "0", "2"],
+      "rank": 1,
+      "kernel_dimension": 9,
+      "formula": "rho(h)=-2 tr(g4^-1 h)"
+    },
+    "metric_euler": {
+      "normalized_covector": ["-7/9126", "0", "0", "0", "7/9126", "0", "0", "7/9126", "0", "7/9126"],
+      "coordinate_covector_scale": 8,
+      "rank": 1,
+      "kernel_dimension": 9,
+      "type": "COSMOLOGICAL_TRACE"
+    },
+    "second_action": {
+      "raw_residual_zero": true,
+      "first_variation_zero": true,
+      "cancels_first_action_trace": false
+    }
+  },
+  "generated_demand": {
+    "dimension": 1,
+    "target": "ACTION_OWNED_DYNAMIC_VARPI_OR_CURVATURE_VEV_METRIC_STRESS",
+    "required_covector": ["7/9126", "0", "0", "0", "-7/9126", "0", "0", "-7/9126", "0", "-7/9126"],
+    "status": "OPEN_COMPATIBILITY_NOT_CANCELLATION",
+    "negative_constraint": "DO_NOT_INSERT_OR_FIT_A_FIXED_LAMBDA"
+  },
+  "controls": {
+    "primary": "45/45 PASS",
+    "independent_sage": "11/11 PASS",
+    "trivial_branch_zero_action": "FIRED",
+    "old_branch_lift_dependence": "FIRED",
+    "double_count_hodge_density": "REJECTED",
+    "rank_ten_overstatement": "REJECTED",
+    "residual_zero_as_full_saddle": "REJECTED",
+    "P1_P2_P3_unused": true
+  },
+  "frontier_delta": {
+    "headline_delta": "NONE",
+    "conditions_closed": 1,
+    "conditions_opened": 1,
+    "remaining_named_conditions": 5
+  },
+  "changes": {
+    "claim_status_change": "none",
+    "canon_verdict_change": "none",
+    "public_posture_change": "none",
+    "verdict_change": "none",
+    "residue_change": "none",
+    "booked_quotient_change": "none"
+  },
+  "action_parents": {
+    "selected_spin_native": "CONDITIONAL_PARENT_USED",
+    "two_U32_32_halves": "RETAINED_COMPARATOR",
+    "full_U64_64": "RETAINED_COMPARATOR",
+    "collapsed": false
+  },
+  "next_gate": "CONSTRUCT_DYNAMIC_VARPI_CURVATURE_VEV_METRIC_STRESS_ON_COMMON_BRANCH__TEST_EXACT_NEGATIVE_RANK1_TRACE_WITH_CONSTRAINT_SURPLUS__THEN_SELECT_321_VS1571_TANGENT_AND_RESUME_FULL_HESSIAN_BV"
+}

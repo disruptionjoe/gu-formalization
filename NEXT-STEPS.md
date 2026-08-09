@@ -2,20 +2,21 @@
 title: "Next Steps For Contributors"
 status: active_research
 doc_type: roadmap
-updated_at: "2026-08-08"
+updated_at: "2026-08-09"
 ---
 
 # Next Steps For Contributors
 
-> **2026-08-08 COMMON CONNECTION BRANCH + EPSILON HESSIAN (ledger v0.106).**
-> The old raw-residual-zero fixture was only grade-two constrained-critical:
-> its omitted `B` Euler equation is the invariant trace covector. The repaired
-> nontrivial branch `B=Phi1/156`, `T=-Phi1/78` solves all 1,470 low-grade
-> connection equations and the raw residual. Its direct ten-component metric
-> Euler equation remains open. Lower-order moving-Shiab epsilon has a rank-91
-> mixed Hessian cross landing entirely in the omitted grade-one sector, so the
-> 125-field slice cannot own the BV differential. Next close metric Euler,
-> select the 321-versus-1,571 tangent, and assemble the full Hessian. Keep the
+> **2026-08-09 DIRECT METRIC EULER TRACE DEMAND (ledger v0.107).** The repaired
+> `B=Phi1/156`, `T=-Phi1/78` branch is connection-critical and raw-residual-
+> zero but not a full metric saddle. Its exact ten-component first-action
+> metric Euler has rank one: normalized covector
+> `(-7/9126,0,0,0,+7/9126,0,0,+7/9126,0,+7/9126)` and a nine-dimensional
+> traceless kernel. The residual-square second action has zero first variation
+> here and cannot cancel it. Next construct the already-located dynamic
+> `varpi`/curvature VEV metric stress and test exact opposite-trace cancellation
+> with no fixed `Lambda` or new free counterterm. Only after stationarity may
+> the 321-versus-1,571 tangent, full Hessian and BV sequence resume. Keep the
 > selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
 
 > **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**

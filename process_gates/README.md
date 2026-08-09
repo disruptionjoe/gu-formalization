@@ -12,6 +12,12 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_direct_metric_euler_audit.py` enforces ledger v0.107's exact
+  rank-one direct metric trace, nine-dimensional traceless kernel,
+  fixed-field/fixed-source/co-moving lift-independence, residual-square
+  noncancellation, dynamic-VEV successor, three action parents and mandatory
+  symplectic/analytic/source fences.
+
 - `selected_k77_common_first_action_epsilon_hessian_audit.py` enforces ledger
   v0.106's old-background trace-covector correction, exact nontrivial common
   connection branch, direct-metric-Euler fence, rank-91 moving-epsilon cross,

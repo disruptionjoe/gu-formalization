@@ -3,21 +3,22 @@ title: "Agent Context Pack: the one-read distillation for GU work agents"
 status: process
 doc_type: context-pack
 created: 2026-08-03
-updated: 2026-08-08
+updated: 2026-08-09
 maintenance: "Update when a fence, fork, rule, or verified fact changes. This file exists so agents read ONE document instead of eight. It never replaces the READ-FIRST rule for deep GU-object work (GEOMETER-VS-PHYSICS-OBJECTS.md + the six-axis template) — it routes to them."
 ---
 
-# Agent context pack (updated 2026-08-08)
+# Agent context pack (updated 2026-08-09)
 
-> **Current v0.106 first-action branch gate:** raw residual zero is not first-
-> action stationarity. The old point misses the invariant grade-one `B` Euler
-> covector. The repaired `B=Phi1/156`, `T=-Phi1/78` branch closes all 1,470
-> connection equations and the raw residual, but direct metric Euler is open.
-> Moving-Shiab epsilon supplies a rank-91 mixed Hessian block entirely in the
-> omitted grade-one sector. Next compute metric Euler, choose the 321-versus-
-> 1,571 field tangent and assemble the full Hessian before BV/domain/BFV.
-> Preserve selected Spin-native, two `U(32,32)` halves and full `U(64,64)` as
-> distinct parents. P1/P2/P3 remain unused. Ledger v0.106.
+> **Current v0.107 metric-saddle gate:** the repaired branch
+> `B=Phi1/156`, `T=-Phi1/78` is connection-critical and raw-residual-zero but
+> has an exact nonzero rank-one metric trace covector; all nine traceless metric
+> directions vanish. The residual-square second action cannot cancel it at
+> raw residual zero. Next construct the dynamic `varpi`/curvature VEV metric
+> stress and require exact opposite-trace cancellation without a fixed
+> `Lambda` or new free counterterm. Do not select 321 versus 1,571 or promote a
+> Hessian/BV complex on this non-saddle. Keep the selected Spin-native, two
+> `U(32,32)` halves and full `U(64,64)` distinct. P1/P2/P3 remain unused.
+> Ledger v0.107.
 >
 > **Current v0.105 primitive-epsilon common principal gate:** the selected
 > Spin-native K77 source tangent now contains metric ten, `varpi` twenty-four

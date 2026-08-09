@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.106.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.106.md`.
+`lab/process/conditional-physics-ledger-v0.107.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.107.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,19 +502,20 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.106 construction frontier
+### Current v0.107 construction frontier
 
-The old raw-residual-zero fixture is only grade-two constrained-critical: its
-full `B` Euler covector is the invariant trace covector. The nontrivial branch
-`B=Phi1/156`, `T=-Phi1/78` solves all 1,470 low-grade connection equations and
-the raw residual. Direct ten-component metric Euler remains open, so it is a
-common connection-critical branch rather than a full stationary background.
-The moving-Shiab epsilon mixed Hessian cross has rank 91 and lands entirely in
-the omitted grade-one sector. Build next computes metric Euler, selects and
-justifies the 321-versus-1,571 field tangent, assembles the full Hessian, and
-only then derives BV before trace soldering, maximal domain and odd BFV.
-Preserve the selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)`
-parents as distinct.
+The nontrivial branch `B=Phi1/156`, `T=-Phi1/78` solves all 1,470 low-grade
+connection equations and the raw residual. Its direct ten-component metric
+Euler is now exact: rank one in the Lorentz-trace direction, with a
+nine-dimensional traceless kernel. The residual-square second action has zero
+first variation at the same raw-residual-zero branch and cannot cancel it.
+Build next constructs the already-located dynamic `varpi`/curvature VEV metric
+stress and tests whether it equals the exact negative trace without a fitted
+fixed `Lambda` or new free coefficient. Only after a full stationary branch
+exists may Build select the 321-versus-1,571 tangent, assemble the Hessian and
+derive BV before trace soldering, maximal domain and odd BFV. Preserve the
+selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)` parents as
+distinct.
 
 ## The four channels
 
