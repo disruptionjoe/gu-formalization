@@ -7,7 +7,14 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.118. The apparent difference
+Current append-only progress surface: ledger v0.119. Both exact stationary
+branches retain the already-owned first-action rank-91 epsilon/Cl1 cross and
+residual rank-1470 zero-jet `varpi` map. Their selected 125-field principal
+Gram bank is common while lower-order amplitudes differ. Lower-order
+metric/epsilon, expanded parents, gauge/ghost and domain remain open. Registry:
+`selected-k77-two-branch-action-block-port.json`.
+
+Predecessor v0.118: the apparent difference
 between the two reconstruction Hessian inertias is not a source-space Morse
 selector: both points are noncritical in independent `B`, and exact coordinate
 change alters the determinant. On the actual scalar `varpi` line both branches

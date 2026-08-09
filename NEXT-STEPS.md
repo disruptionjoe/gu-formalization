@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 TWO-BRANCH ACTION-BLOCK PORT (ledger v0.119).** Both exact
+> stationary branches retain the already-owned rank-91 first-action
+> epsilon/Cl1 cross and rank-1470 residual zero-jet `varpi` map. The selected
+> 125-field causal principal bank is common with Gram ranks `110/110/16`, but
+> lower-order amplitudes are unequal conjugates. Do not promote common
+> principal data to complete operator equality. Next build branch-dependent
+> lower-order metric/epsilon blocks and expanded-parent pairings, keeping the
+> first and residual-square actions, selected Spin carrier, two `U(32,32)`
+> halves and full `U(64,64)` comparator distinct. Then add gauge fixing and
+> ghosts before `Dmax/Dmin`. P1/P2/P3 remain unused.
+
 > **2026-08-09 BRANCH-HESSIAN DISCRIMINATOR (ledger v0.118).** Do not select
 > or port one stationary branch from the opposite inertias of the displayed
 > independent-`B` reconstruction matrices. Both points are noncritical in that

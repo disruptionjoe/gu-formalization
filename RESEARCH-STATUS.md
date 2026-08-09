@@ -8,7 +8,19 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.118; six
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.119; six
+distance/evidence migrations; headline unchanged).** Both exact stationary
+branches now carry the already-owned first-action rank-91 epsilon/Cl1 cross
+and residual rank-1470 zero-jet low-grade `varpi` map. The selected 125-field
+principal Gram ranks `110/110/16` are common, while the lower-order amplitudes
+are unequal conjugates; principal equality is therefore not complete Frechet
+equality. Lower-order metric/epsilon blocks, expanded-parent pairings, gauge
+fixing, ghosts and the closed domain remain open. Both actions and the selected
+Spin, two-`U(32,32)`-half and full-`U(64,64)` parents remain distinct. No
+verdict, residue, quotient, datum, canon or posture moves; P1/P2/P3 remain
+unused.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-09 (ledger v0.118; six
 distance/evidence migrations; headline unchanged).** The cheapest apparent
 branch discriminator is now resolved negatively. The two exact reconstruction
 second-derivative matrices have different naive inertias, but both points are

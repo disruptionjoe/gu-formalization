@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.118.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.118.md`.
+`lab/process/conditional-physics-ledger-v0.119.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.119.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,18 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.118 construction frontier
+### Current v0.119 construction frontier
+
+v0.119 ports the already-owned first-action rank-91 epsilon/Cl1 cross and
+residual rank-1470 zero-jet `varpi` map to both exact stationary branches. The
+selected 125-field principal Gram bank is common with ranks `110/110/16`, but
+the lower-order amplitudes differ. Build next constructs the missing
+branch-dependent lower-order metric/epsilon blocks and expanded-parent
+pairings while keeping the two actions distinct. Only after that may it add
+gauge fixing and ghosts and test `Dmax/Dmin`. Keep selected Spin, two
+`U(32,32)` halves and full `U(64,64)` distinct. P1/P2/P3 remain unused.
+
+### Predecessor v0.118 construction frontier
 
 v0.118 kills the tempting shortcut that would select or port one algebraic
 branch from the inertia of the independent-`B` reconstruction Hessian. The

@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 two-branch action-block port (2026-08-09)
+
+`conditional-build/selected-k77-two-branch-action-block-port-2026-08-09.md`
+ports the already-owned first-action rank-91 epsilon/Cl1 cross and residual
+rank-1470 zero-jet `varpi` map to both exact branches. The selected 125-field
+principal Gram bank is common with ranks `110/110/16`, while unequal
+lower-order amplitudes block complete-operator identification. Ledger v0.119
+routes next to lower-order metric/epsilon and expanded-parent blocks, then
+gauge/ghost/domain work. Both actions and all three parent scopes stay distinct.
+
 ## K77 branch-Hessian discriminator (2026-08-09)
 
 `conditional-build/selected-k77-branch-hessian-discriminator-2026-08-09.md`

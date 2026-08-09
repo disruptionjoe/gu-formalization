@@ -6,6 +6,15 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/selected_k77_two_branch_action_block_port_probe.py` ports
+  the already-owned first-action epsilon/Cl1 cross and residual zero-jet plus
+  selected principal banks to both exact branches, preserving their distinct
+  lower-order amplitudes and complete-operator fences.
+- `channel-swings/selected_k77_two_branch_action_block_port_independent.sage`
+  independently reconstructs the branch factors, rank-91 cross, rank-1470
+  zero-jet maps and selected principal Gram strata over exact Sage/FLINT
+  number fields.
+
 - `channel-swings/selected_k77_branch_hessian_discriminator_probe.py`
   proves that the naive two-coordinate reconstruction Hessians are
   noninvariant at noncritical points, then restricts both distinct actions to
@@ -913,7 +922,7 @@ These three paths are **frozen** (the paper cites them); do not move or rename t
 | `antilinear-bound/` (3) | antilinear-bound certificate for the located-not-forced publication gate, with a local script map and README inventory gate |
 | `function-space-ext/` (9) | WC-FUNCTION-SPACE-EXT probes plus the signed-readout UII certificate-shape validator: finite Galerkin, conditional section theorem + independent checks, APS eta boundary control, and UII gap gate, with a local script map and README inventory gate |
 | `rs-function-space/` (5) | RS function-space family-index scaffolds: K3 pushforward, boundary eta, family/characteristic-class generation-arena probes, order-3 rho certificates, and geometric `-38` adjudication certificates, with a local script map and README inventory gate |
-| `channel-swings/` (491 Python + 80 Sage) | active channel and Lane-1 swing probes; the current count includes the branch-Hessian discriminator, bulk-operator mixed-order admission gate, common graded trace/boundary-triple skeleton, relative edge-bitorsor topology theorem, branch symplectic/BFV no-selector, branch boundary-amplitude classification, full-parent branch-stationarity gate, source-tangent branch predecessor, nonconstant affine atlas/Xi-prolongation gate, source-Euler two-to-one family and local connection-jet gate, source-shaped scalar curvature-jet trace predecessor, common connection-critical branch and moving-epsilon Hessian cross, primitive-epsilon common principal bank, partial stationary Gram causal strata and trace quotients, compact-boundary strong Sobolev edge reduction/current algebra, full nonzero-`A0` tilted algebraic edge descent, the physical-boundary disposition selector, local selected-action Noether/preboundary composition, common 34-field physical equation-dual/Green composition, source-native matched-q physical Ward closure, common metric residual-coordinate bank, common-field formal-adjoint/Green ownership gate, fixed-varpi normal Frechet closure, transverse comoving coefficient closure, operative pairing-symmetry closure, conditional K77 residual pairing, action/Frechet/Ward object separation, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
+| `channel-swings/` (494 Python + 81 Sage) | active channel and Lane-1 swing probes; the current count includes the two-branch action-block port, branch-Hessian discriminator, bulk-operator mixed-order admission gate, common graded trace/boundary-triple skeleton, relative edge-bitorsor topology theorem, branch symplectic/BFV no-selector, branch boundary-amplitude classification, full-parent branch-stationarity gate, source-tangent branch predecessor, nonconstant affine atlas/Xi-prolongation gate, source-Euler two-to-one family and local connection-jet gate, source-shaped scalar curvature-jet trace predecessor, common connection-critical branch and moving-epsilon Hessian cross, primitive-epsilon common principal bank, partial stationary Gram causal strata and trace quotients, compact-boundary strong Sobolev edge reduction/current algebra, full nonzero-`A0` tilted algebraic edge descent, the physical-boundary disposition selector, local selected-action Noether/preboundary composition, common 34-field physical equation-dual/Green composition, source-native matched-q physical Ward closure, common metric residual-coordinate bank, common-field formal-adjoint/Green ownership gate, fixed-varpi normal Frechet closure, transverse comoving coefficient closure, operative pairing-symmetry closure, conditional K77 residual pairing, action/Frechet/Ward object separation, signature-generic Cartan/Ward composition, signature-rationale retype, physical-diffeomorphism split, independent Sage routes, and all predecessors. The detailed historical inventory remains represented by the files and per-wave entries above. |
 | `recovery-contract/` (22) | recovery-certification branch-local computational checkpoints, including the construction-space GR R0, SM R0, P3 retro-verification, P4 QM checklist, P5 source-object specification, P6 conditional-interior, lattice schema-freeze, and conservative C1 signature-resolution gates; the GR forced-coefficient residual test; GR no-go history/scope defense gates through Swing 3; cosmological field-type/scalar-truncation and no-go defense gates through Swing 3; Standard Model selector and no-go defense gates through Swing 3; and the QM physical-sector conditional sufficiency gate under the frozen action fingerprint |
 | `threads/` (18) | frontier A/B/C/D/E thread audits for the current gravity, dark-energy, and source-action-adjacent gates, with a local script map and README inventory gate |
 | `hourly-cycles/` (archived off-tree) | **archived** hourly-automation output; not load-bearing |
@@ -2549,4 +2558,19 @@ exact `QQ(sqrt(3))` result and firing plants.
 uv run --with sympy==1.14.0 python tests/channel-swings/selected_k77_branch_hessian_discriminator_probe.py
 sage tests/channel-swings/selected_k77_branch_hessian_discriminator_independent.sage
 python3 process_gates/selected_k77_branch_hessian_discriminator_audit.py
+```
+
+## K77 two-branch action-block port ledger v0.119
+
+`channel-swings/selected_k77_two_branch_action_block_port_probe.py` ports the
+owned rank-91 first-action cross and residual rank-1470 zero-jet plus selected
+125-field principal banks to both exact stationary branches. It preserves
+unequal lower-order amplitudes, distinct actions and all parent/domain fences.
+The Sage/FLINT route reconstructs the result independently over exact number
+fields.
+
+```sh
+uv run --with sympy==1.14.0 --with numpy python tests/channel-swings/selected_k77_two_branch_action_block_port_probe.py
+sage tests/channel-swings/selected_k77_two_branch_action_block_port_independent.sage
+python3 process_gates/selected_k77_two_branch_action_block_port_audit.py
 ```

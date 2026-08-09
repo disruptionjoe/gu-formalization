@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.118 branch-Hessian discriminator:** the opposite inertias of
+> **Current v0.119 two-branch action-block port:** both exact stationary roots
+> retain the independently checked rank-91 first-action epsilon/Cl1 cross and
+> rank-1470 residual zero-jet `varpi` map. The selected 125-field causal
+> principal bank is common (`110/110/16` Gram ranks), but the lower-order
+> amplitudes are unequal conjugates. Never promote principal equality to full
+> Frechet equality. Next construct branch-dependent lower-order metric/epsilon
+> and expanded-parent blocks. Keep the first and residual-square actions,
+> selected Spin carrier, two `U(32,32)` halves and full `U(64,64)` comparator
+> distinct; then add gauge/ghost/domain. P1/P2/P3 remain unused.
+
+> **Predecessor v0.118 branch-Hessian discriminator:** the opposite inertias of
 > the displayed independent-`B` reconstruction matrices do not select a
 > branch. Both points are noncritical there, `B` at fixed `T` is not a source
 > tangent, and exact coordinate change alters the determinant. On the scalar

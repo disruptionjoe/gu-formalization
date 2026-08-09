@@ -12,6 +12,13 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_two_branch_action_block_port_audit.py` enforces ledger
+  v0.119's exact rank-91 first-action cross and rank-1470 residual zero-jet
+  `varpi` ports to both branches, common selected causal principal ranks
+  `110/110/16`, distinct lower-order amplitudes, incomplete-Frechet and
+  expanded-parent fences, unchanged accounting and mandatory source,
+  symplectic, Krein and microlocal boundaries.
+
 - `selected_k77_common_graded_trace_boundary_triple_audit.py` enforces ledger
   v0.116's strong graded `H7/H-7` plus `H8/H-8` trace carrier, relative
   cotangent-lift symplectic/polarization descent, and the distinction between
@@ -2425,3 +2432,12 @@ noncritical-coordinate trap, the same-inertia source-`varpi` restrictions for
 both distinct actions, and explicit retention of both branches and all three
 parents. It rejects Galois transfer as a positivity/Morse theorem and preserves
 verdicts, residue, quotients, P1/P2/P3, canon and public posture.
+
+## K77 two-branch action-block port ledger v0.119
+
+`selected_k77_two_branch_action_block_port_audit.py` requires both exact
+branches to retain the already-owned rank-91 first-action epsilon/Cl1 cross,
+rank-1470 zero-jet low-grade `varpi` map and common selected principal Gram
+ranks `110/110/16`. It rejects principal-to-full-Frechet, selected-to-expanded-
+parent and finite-rank-to-domain promotion while preserving both actions, all
+parent scopes, residue, quotients, P1/P2/P3, canon and public posture.
