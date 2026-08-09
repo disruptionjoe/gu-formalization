@@ -101,3 +101,88 @@ This hypothesis is **dead**, not merely weakened, if:
 - **Kill conditions declared before the work**, per the repository's own pre-registration discipline.
 - Standing repo gap noted: *"nothing watches a stated dissolution condition for its trigger becoming true."*
   This file inherits that gap and should be re-read whenever the contour-rotation lead moves.
+
+---
+
+# AMENDMENT 2026-08-09 — the core is THREE items, and one of them contains a homonym
+
+Joe (direct chat, same day) named two further load-bearing items. Both are accepted. One needs a correction
+to its labor split, the other needs a type separation, and the statement of the core contains an overloaded
+symbol that must be fixed before it propagates.
+
+## URGENT — `sigma` is overloaded inside the core statement itself
+
+- **`sigma` as used in this repository's spec and throughout the geometry**: the **SECTION** `sigma : X4 -> Y14`,
+  a choice of metric at each point, with `pi . sigma = id_X4`.
+- **`sigma` as used in the core statement**: the **ORIENTATION / TIME-REVERSAL BIT**, an external ledger entry.
+
+**These are different objects sharing a letter.** This is the sixth same-letter collision found in a single
+day (`Met(X4)`, "the 14", "the metric", the four `C`s, `SIGNATURE-AMBIENT` vs `REAL-CLIFFORD-FORM`, now
+`sigma`). It also bears directly on DU's `sigma = w1` hypothesis: **which `sigma` that identity means changes
+the claim entirely** — a section is not an orientation class, and `w1` is an orientation class.
+
+**Required before this core propagates:** rename one of them. Suggested — keep `sigma` for the section
+(established throughout the geometry) and use `s_orient` or the existing W201 name for the ledger bit.
+
+## Item 2 — external data remain irreducible. ACCEPTED, and it is the best-supported of the three.
+
+This is not a hypothesis needing protection; it is the most **over-determined** result in the program.
+Five independent mechanisms converge on it:
+
+1. `chi_interior` provably even (2-primary) over the complete delimited class C -> any odd count is
+   necessarily external, **by structure**;
+2. the carrier is vectorlike -- net chirality identically zero, every signature, real and quaternionic;
+3. `{K, chi} = 0` forces `Re tr(chi Pi_+) = 0` for **every admissible** `C`;
+4. the mass dichotomy -- massive decouples to zero for every `B` and `m`; massless gives a zero-net-chiral
+   modulus;
+5. rational triviality -- `H^even(F;Q) = Q` in degree 0 only, so **"the fibre can multiply a base index; it
+   can never create one."**
+
+Plus the single decider, run and GATED, whose ten Atiyah-Singer routes returned no `16` and which **refused
+to fabricate** the missing leg.
+
+**REQUIRED PRECISION, or this item will itself drift.** The ledger entries are **not one datum** and must not
+be bundled. Per the external-datum characterization, the external datum factors **CRT-disjointly** into a
+2-primary chiral-projection selector (`k_gen`, the `Z/8` arena) times a `Z/3` carrier integer (`n_gen`) --
+*"independent as data, shared as operator."*
+
+So the orientation bit and the count **live in arithmetically disjoint arenas**. Treating "the external
+ledger" as a single object re-creates exactly the conflation the CRT two-arena result exists to prevent.
+**Two entries, two arenas, one operator.**
+
+## Item 1 — pair the moduli claim with the aggregation claim. ACCEPTED, with the labor split corrected.
+
+The pairing is right: moduli alone does not say how a single clean time is shared, and aggregation alone must
+face the ambient signature. But the division of labor as stated needs one correction and one carried tension.
+
+**CORRECTION — aggregation does not select the number of times.** The base is already `(3,1)`. Pulling back
+along **any** section gives `g_s = s*(G)`, Lorentzian, one time, automatically. So "how a single clean time is
+selected" is not a question aggregation answers -- **restriction to a section answers it for free.** What
+aggregation could plausibly select is **which section**, i.e. **the metric**, not the time count. Stating it
+as "observers tame ultrahyperbolicity into one time" supplies a mechanism for something that needs none, and
+will drift into over-claiming.
+
+**CARRIED TENSION, to be held inside the hypothesis rather than discovered later.** `w != 0` in
+`H^1(F; Z/2)` means **there is no global section.** A "shared compatibility structure all observers refer to"
+is precisely what that obstruction forbids. So the paired hypothesis must resolve a fork, declared here:
+
+- **(a) REGIONAL**: aggregation is only ever local/regional, never global -- which is consistent with
+  `w != 0`, and matches the global / regional / individual capability tiering; or
+- **(b) CUT**: it requires a boundary at which the choice is fixed -- the firewall reading.
+
+This is the same fork the routing-degeneracy argument reaches independently (exact degeneracy -> no
+metric-derived tiebreaker -> polarization demands global consistency -> no global section -> fixed at a cut).
+**Two unrelated routes, same fork.** That convergence is the reason to keep the pairing; the fork is the work.
+
+## The core, restated so it cannot drift
+
+1. **Provenance**: the four extra negatives are DeWitt/moduli directions, not times. *(computed)*
+2. **Dissolution**: IF they can be separated/reduced/gauge-fixed, THEN hyperbolicity and index arguments may
+   return. *(conditional; antecedent unmet; provenance does not move a symbol)*
+3. **Aggregation**: observer records + finality may select the **section**; must resolve REGIONAL vs CUT.
+   *(hypothesis; collides with `w != 0` until resolved)*
+4. **Irreducible ledger**: the orientation bit and the count are external, **in disjoint CRT arenas**, and
+   the interior provably cannot supply an odd count. *(over-determined; the strongest of the four)*
+
+Everything else is downstream technical work — but 2 and 3 are conditional, and 4 is the only one that is
+established.
