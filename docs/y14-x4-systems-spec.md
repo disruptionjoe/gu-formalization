@@ -3,7 +3,7 @@ title: "Y14 / X4 systems spec sheet: substrate, projection, and section, specifi
 doc_type: orientation
 status: baseline
 created: 2026-08-09
-version: "1.1"
+version: "1.2"
 version_policy: |
   1.0 is the FROZEN BASELINE. It is not the best version of this document -- it is the first one, saved
   deliberately so later changes are diffable rather than silent.
@@ -352,9 +352,33 @@ not re-derived on `Y14`**. Internal tier (caveat (e)).
 Net effect: the externality conclusion is **stronger** than 1.0 represented it, and its caveat is a transfer
 question rather than an open analytic hole.
 
-**9.6 The families pushforward — the single decider.** The pushforward over the **non-convex**
-`GL(4,R)/O(3,1)` fiber is unbuilt. This is the named single-decider computation, and it is why `-5376`
-remains a bulk number rather than an index.
+**9.6 The families pushforward.** *(RETYPED in 1.2 — 1.0/1.1 conflated two different things and understated
+the obstruction.)*
+
+The pushforward `pi_! : ch(S)/Y14 -> ch(S_X)/X4` is **NOT DEFINED**, because the fiber `GL(4,R)/O(3,1)` is
+non-convex. Not "unbuilt," not "uncomputed" — **undefined**. That is why `ch2(S_X)[K3] = -5376` is a bulk
+characteristic number and not yet the families index. No amount of compute reaches an undefined object.
+
+**This is NOT "the single decider," and earlier versions of this document implied it was.** The single
+decider — the net chiral generation index on GU's actual 14-manifold — **was built and run**
+(`canon/single-decider-integer-index-RESULTS.md`, 2026-06-29: 26/26 checks across 4 scripts, independent
+from-scratch re-verification, exit 0). Its verdict is **GATED, not FORCED**, on four gates, none of which is
+computational:
+
+1. the `+8` twisted-RS leg, gated on the **unbuilt source action** — ten Atiyah-Singer routes returned
+   `{960, -288, -384, -192, -336, -128, 128, -8, -480, 60}`, none `= 16`, and the build **refused to
+   fabricate it**;
+2. the Bismut-Cheeger fibered-boundary reduction for the non-product `S^6`-bundle over `RP^3`, applied to
+   GU's *actual* twisted-RS boundary operator — a **theorem** that does not exist, not a calculation;
+3. this pushforward (`pi_!` undefined, above);
+4. `order-3-class -> integer-3`, described in canon as "a theorem of nothing" and a possible **category
+   error**.
+
+**Consequence for anyone planning work here:** the single decider is not an independent lever. It routes
+back into the same unbuilt source action that gates Sec 9.1. What it *did* return is recorded honestly and
+is unfavourable: the only honest computable generation integer is **1** (Pati-Salam `Spin(7,7) -> Spin(6) x
+Spin(4)`, 16 chiral states, `Tr Y = Tr Q = 0`), and the operator that produces a nonzero net count has frame
+charge **exactly `0.00e+00`** — it couples GAUGE, so it cannot feed the 3-primary channel.
 
 ---
 
@@ -453,3 +477,19 @@ correction to 1.0.
 
 Coverage gaps found by the same sweep (16 in-scope canon results absent from this spec, plus five reported
 contradictions not yet verified) are filed in the companion issue register rather than folded here.
+
+### 1.2 — 2026-08-09 — retype Sec 9.6; the single decider was run, not skipped
+Raised by a direct read of `canon/single-decider-integer-index-RESULTS.md` after 1.1 shipped.
+
+- **Sec 9.6 RETYPED (substantive).** 1.0/1.1 called the families pushforward "unbuilt" and labelled it "the
+  named single-decider computation." Both were wrong. `pi_!` is **NOT DEFINED** (non-convex fiber), which is
+  stronger than unbuilt. And it is **not** the single decider: the single decider was **built and run** on
+  2026-06-29 with 26/26 checks and an independent from-scratch re-verification, returning a **GATED, not
+  FORCED** verdict on four gates, none computational.
+- Recorded with it, because it bears on every "what would settle this" question asked of this document: the
+  only honest computable generation integer is **1**, and the net-count-producing operator couples **GAUGE**
+  (frame charge exactly `0.00e+00`), so it cannot feed the 3-primary channel. Canon's phrase is that FORCE
+  "dies twice over."
+- **Lesson recorded for future versions of this document:** "nobody has computed X" is a claim about the
+  repository and must be checked against the repository before it is written down. This document made that
+  error once and it survived one release.
