@@ -37,6 +37,12 @@
     "verified_load_seconds": 0.007037,
     "ordinary_consumer_executes_predecessor": false
   },
+  "commit_provenance": {
+    "material_commit": "55bc3bb06954553a2b75cd171228949846ef5e4d",
+    "concurrent_commit_scope": "THE_22_DECLARED_RUN_PATHS_PLUS_ONE_UNRELATED_EXPLORATION_PATH",
+    "disposition": "BYTE_IDENTICAL_DECLARED_OUTPUTS_ACCEPTED__NO_HISTORY_REWRITE__FOLLOWUP_PROVENANCE_COMMIT_REQUIRED",
+    "central_claim_at_collision": "HELD_BY_RUN_20260809_223353_GU_K77_EXACT_BANK_API"
+  },
   "equivalence": {
     "python_probe": "27/27__23_EXACT_PLUS_4_PLANTED",
     "direct_epsilon_cells": 3,

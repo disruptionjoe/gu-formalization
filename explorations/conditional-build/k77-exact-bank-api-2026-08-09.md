@@ -105,6 +105,14 @@ was terminated and the tracked build completed. This is precisely why a
 content-addressed bank plus visible process identity is useful. It did not
 alter the artifact or its validation.
 
+After final staging, a concurrent external writer committed and pushed the 22
+declared Run paths together with one unrelated exploration path as commit
+`55bc3bb06954553a2b75cd171228949846ef5e4d`, despite this Run holding the
+central claim. The declared files are the byte-identical validated outputs, so
+history was not rewritten or the unrelated file disturbed. This Run records
+that custody collision explicitly and uses a separate follow-up provenance
+commit rather than pretending the mixed commit message identifies this work.
+
 ## Frontier
 
 Use this API to complete the ten metric source-Hessian directions. Then decide
