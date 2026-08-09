@@ -9,7 +9,16 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.112 full-parent branch gate:** both exact branches survive all
+> **Current v0.113 boundary-amplitude gate:** both exact branches have zero
+> residual-adjoint moment map because `Theta` and `P` align on `Phi1`, but
+> primitive epsilon carries rank-14 charge at each independent endpoint.
+> Charged symmetry and minimal edge dressing retain both Galois-related
+> amplitudes; zero charge excludes both. Do not infer charge from a nonzero
+> endpoint covector without naming the gauge orbit. Next construct the global
+> BFV trace space/polarization. Keep selected Spin-native, two `U(32,32)`
+> halves and full `U(64,64)` distinct. Ledger v0.113.
+
+> **Predecessor v0.112 full-parent branch gate:** both exact branches survive all
 > `14 x 16,384` real pointwise `u(64,64)` source-`varpi` directions. The
 > block-even `U(32,32) x U(32,32)` tangent and odd half-exchanging complement
 > both vanish, as does the complete homogeneous epsilon bulk identity;

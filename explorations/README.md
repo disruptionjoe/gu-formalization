@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 branch boundary-amplitude classification (2026-08-09)
+
+`conditional-build/selected-k77-branch-boundary-amplitude-classification-2026-08-09.md`
+separates the aligned residual-adjoint orbit, whose moment map is exactly zero,
+from the primitive-epsilon endpoint orbit, whose independent endpoint charge
+has rank `14+14`. Both branches survive as Galois-related charged sectors or
+under the unique edge dressing; zero charge excludes both. Ledger v0.113 next
+constructs the global BFV trace space and polarization. No branch, horn or
+action parent is selected.
+
 ## K77 full-parent branch stationarity (2026-08-09)
 
 `conditional-build/selected-k77-full-parent-branch-stationarity-2026-08-09.md`

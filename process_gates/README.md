@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_branch_boundary_amplitude_classification_audit.py` enforces
+  ledger v0.113's exact residual-adjoint zero versus primitive-epsilon
+  rank-14-per-endpoint charge split, Galois-related amplitudes, five boundary
+  horns, global BFV/parent/tangent fences and unchanged accounting.
+
 - `selected_k77_full_parent_branch_stationarity_audit.py` enforces ledger
   v0.112's complete pointwise real `u(64,64)` source-connection tangent,
   exact `8,192+8,192` two-half/half-exchanging split, both branch survivals,

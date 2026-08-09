@@ -8,18 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.112; seven
-distance/evidence migrations; headline unchanged).** Both exact nonzero
-branches survive the complete pointwise internal parent comparison. The full
-source-`varpi` covector vanishes across all `14 x 16,384 = 229,376` real
-`u(64,64)` directions, including the `8,192` block-even directions preserving
-the two `U(32,32)` Weyl halves and the `8,192` odd half-exchanging directions.
-The full homogeneous epsilon bulk identity also closes while its endpoint
-momentum remains live. Generic grade-five support is nonzero away from the
-branches. This proves pointwise compatibility, not action-parent selection or
-complete functional tangent ownership. Amplitude/boundary class, global
-existence, Hessian, BV and domain remain open. No verdict, residue, quotient,
-datum, canon or posture moves; all three parents remain distinct.
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.113; seven
+distance/evidence migrations; headline unchanged).** Both exact branches have
+zero residual right-`tau_A0` adjoint moment map: `Theta` and endpoint momentum
+`P` are aligned on `Phi1`, so `[Theta,P]=0` for all 16,384 internal generators.
+The derivative-bearing primitive-epsilon endpoint orbit is different and has
+rank 14 per independent endpoint, rank 28 jointly. Its coefficients are
+opposite-sign Galois conjugates. Charged symmetry and unique minimal-edge
+dressing retain both branches; zero charge excludes both. This local orbit
+classification selects no branch, horn or action parent. Global BFV
+polarization, functional tangent, Hessian and domain remain open. No verdict,
+residue, quotient, datum, canon or posture moves; all three parents remain
+distinct.
 
 **Current Build/Compose/Source/Verify result 2026-08-08 (ledger v0.105; five
 distance/evidence migrations; headline unchanged).** The source-owned

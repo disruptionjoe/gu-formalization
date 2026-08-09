@@ -7,6 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 BRANCH BOUNDARY-AMPLITUDE CLASSIFICATION (ledger v0.113).**
+> Both exact branches have zero residual-adjoint moment map because `Theta`
+> and `P` lie on the same `Phi1` line, yet each has a live rank-14 primitive-
+> epsilon charge at both independent endpoints. The endpoint coefficients are
+> opposite-sign Galois conjugates. Charged symmetry and the unique minimal
+> edge completion retain both branches; a zero-charge horn excludes both.
+> This classifies the local boundary orbits but selects no branch, horn or
+> action parent. Next construct the global functional trace space and BFV
+> polarization for primitive epsilon, keeping Spin-native, two `U(32,32)`
+> halves and full `U(64,64)` distinct before Hessian/BV/domain.
+
 > **2026-08-09 FULL-PARENT BRANCH STATIONARITY (ledger v0.112).** Both exact
 > nonzero branches survive every pointwise internal source-connection
 > direction in the full real `u(64,64)` comparator: `14 x 16,384 = 229,376`.

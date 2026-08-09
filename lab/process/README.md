@@ -7,13 +7,15 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.112. Both exact branches
-survive all 229,376 pointwise full-`u(64,64)` source-connection directions and
-the complete 16,384-generator homogeneous epsilon identity. This includes the
-block-even two-`U(32,32)` tangent and odd half-exchanging complement. Endpoint
-momentum remains live. Compatibility does not select the action parent or
-prove complete functional tangent ownership. Registry:
-`selected-k77-full-parent-branch-stationarity.json`.
+Current append-only progress surface: ledger v0.113. Both exact branches have
+zero aligned residual-adjoint moment map but live primitive-epsilon endpoint
+charge of rank 14 per endpoint. Charged and minimal-edge horns retain both;
+zero charge excludes both. The local classification selects no branch, horn,
+action parent or global BFV polarization. Registry:
+`selected-k77-branch-boundary-amplitude-classification.json`.
+
+Predecessor progress surface: ledger v0.112. Both branches survive the full
+pointwise internal parent comparison while endpoint momentum remains live.
 
 Predecessor progress surface: ledger v0.111. Both branches survive the known
 local selected source-Euler pullback; independent `B` at fixed `T` is endpoint
