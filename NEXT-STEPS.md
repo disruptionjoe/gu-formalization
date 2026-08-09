@@ -7,17 +7,17 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
-> **2026-08-09 SOURCE-EULER TWO-TO-ONE FAMILY (ledger v0.109).** Layer 0
-> corrects v0.108: the source fields are `(epsilon,varpi,g)`, so arbitrary
-> independent `B` at fixed `T` is not a source variation. The actual
-> translation and metric-volume equations give the exact one-amplitude family
-> `f=t^2/3`, `u=-t/312-4t^2/3`. The v0.108 rational point remains an exact
-> representative but its uniqueness and zero-freedom disposition are
-> retracted. A local connection/`T` one-jet, point differential Bianchi and
-> noncommuting constant-transition descent pass. Next construct nonconstant
-> affine atlas descent and the epsilon/`Xi=D_omega Upsilon` formal
-> prolongation, then test open-neighborhood extension and amplitude selection.
-> Only afterward resume the 321-versus-1,571 tangent, Hessian and BV sequence.
+> **2026-08-09 NONCONSTANT ATLAS / XI PROLONGATION (ledger v0.110).** Exact
+> nonconstant, noncommuting three-patch descent passes only with the affine
+> `g^-1 dg` connection term; curvature, `D_B T`, the source residual and its
+> covariant derivative transport exactly. The primary source confirms
+> `Xi_omega=D_omega Upsilon_omega` is redundant once `Upsilon_omega=0`, so it
+> cannot select the remaining amplitude independently. A homogeneous
+> frozen-frame ansatz has two exact nonzero algebraic branches, but those
+> amplitudes are ansatz-selected, not GU predictions. Next port both branches
+> to the actual moving selected-K77 `Phi`/Shiab/Hodge/density/observation
+> packet and derive the complete primitive-epsilon Euler/off-shell Ward
+> factorization. Only then resume the 321-versus-1,571 tangent, Hessian and BV.
 > Keep selected Spin-native, two `U(32,32)` halves and full `U(64,64)` distinct.
 
 > **2026-08-08 PRIMITIVE-EPSILON COMMON PRINCIPAL BANK (ledger v0.105).**

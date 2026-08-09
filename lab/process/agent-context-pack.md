@@ -9,15 +9,15 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.109 source-Euler two-to-one gate:** the source fields are
-> `(epsilon,varpi,g)`, not independent `(B,T,g)`. The translation and
-> metric-volume equations leave the exact family `f=t^2/3`,
-> `u=-t/312-4t^2/3`, with one common amplitude. The v0.108 point remains an
-> exact representative, but uniqueness and zero local freedom are retracted.
-> A local connection/`T` one-jet, point Bianchi and constant-transition descent
-> pass. Do not promote them to nonconstant atlas descent, an epsilon/`Xi`
-> solution, magnitude selection, Hessian or BV. Keep selected Spin-native, two
-> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.109.
+> **Current v0.110 nonconstant-atlas/Xi gate:** exact nonconstant,
+> noncommuting three-patch descent passes in a faithful local matrix model only
+> with the affine `g^-1 dg` connection term. The primary source confirms
+> `Xi=D_omega Upsilon` is redundant once `Upsilon=0`, so it is not an
+> independent amplitude selector. Two exact nonzero homogeneous frozen-frame
+> branches exist, but the ansatz—not GU—selects their amplitudes. Do not promote
+> this to the actual moving selected-K77 coefficient packet, global Y14,
+> amplitude prediction, Hessian or BV. Keep selected Spin-native, two
+> `U(32,32)` halves and full `U(64,64)` distinct. Ledger v0.110.
 >
 > **Predecessor v0.107 metric-saddle gate:** the repaired branch
 > `B=Phi1/156`, `T=-Phi1/78` is connection-critical and raw-residual-zero but

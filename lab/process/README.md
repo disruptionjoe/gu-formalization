@@ -7,14 +7,15 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.109. Source-coordinate Layer 0
-retracts v0.108's zero-freedom disposition: the actual translation and
-metric-volume equations leave one common curvature/distortion amplitude. The
-v0.108 point remains an exact representative. A local connection/`T` one-jet,
-point Bianchi and constant-transition descent pass. Next construct nonconstant
-affine atlas descent and epsilon/`Xi` formal prolongation, then test amplitude
-selection before tangent/Hessian/BV. Registry:
-`selected-k77-source-euler-two-to-one.json`.
+Current append-only progress surface: ledger v0.110. Exact nonconstant affine
+three-patch descent passes in a faithful local matrix model with the
+load-bearing `g^-1 dg` term. Source reinspection confirms
+`Xi=D_omega Upsilon` is redundant rather than an independent amplitude
+selector. Two exact nonzero homogeneous frozen-frame branches are construction
+witnesses, not GU-derived magnitudes. Next port them to the actual moving K77
+coefficient/observation packet and derive the complete primitive-epsilon
+Euler/off-shell Ward factorization before tangent/Hessian/BV. Registry:
+`selected-k77-nonconstant-atlas-xi-prolongation.json`.
 
 Predecessor progress surface: ledger v0.107. The repaired common connection
 branch exposed the exact rank-one direct metric trace demand.

@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.109.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.109.md`.
+`lab/process/conditional-physics-ledger-v0.110.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.110.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,18 +502,17 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.109 construction frontier
+### Current v0.110 construction frontier
 
-Source-coordinate Layer 0 retracts v0.108's zero-freedom disposition. The
-source fields are `(epsilon,varpi,g)`, so its translation residual and
-metric-volume trace give an exact one-amplitude curvature/distortion family;
-the prior rational point is one representative, not a unique vacuum. A local
-connection/`T` one-jet, point differential Bianchi and noncommuting
-constant-transition descent pass. Build next constructs nonconstant affine
-atlas descent and closes the epsilon/`Xi=D_omega Upsilon` formal prolongation,
-then tests open-neighborhood extension and amplitude selection. Only afterward
-may Build select the 321-versus-1,571 tangent and resume Hessian/BV. Preserve
-the selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)` parents.
+Generic nonconstant affine three-patch descent and source
+`Xi=D_omega Upsilon` redundancy now close exactly at faithful-local-model
+grade. Two nonzero frozen homogeneous branches exist, but their amplitudes are
+ansatz-selected rather than source-selected. Build next ports both branches to
+the actual moving selected-K77 `Phi`/Shiab/Hodge/density/observation packet,
+derives the complete primitive-epsilon Euler/off-shell Ward factorization, and
+tests branch survival plus amplitude ownership. Only afterward may Build
+select the 321-versus-1,571 tangent and resume Hessian/BV. Preserve the
+selected Spin-native, two-`U(32,32)`-half and full-`U(64,64)` parents.
 
 ### Predecessor v0.107 construction frontier
 

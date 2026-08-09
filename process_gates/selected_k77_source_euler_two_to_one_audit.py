@@ -103,11 +103,13 @@ current_refs = ["LANES.yaml", "NEXT-STEPS.md", "RESEARCH-STATUS.md",
                 "lab/process/agent-context-pack.md",
                 "lab/process/functional-channel-operating-contract-v1.0.md"]
 for relative in current_refs:
-    check(f"current pointer {relative}", "v0.109" in read(relative))
-check("contract pointer", contract["standing_ledger"]["ref"].endswith("v0.109.json"))
-check("contract next gate", contract["active_scientific_directives"][0]["next_gate"]
-      == registry["next_gate"])
-check("inventory", "(484 Python + 71 Sage)" in read("tests/README.md"))
+    check(f"successor pointer {relative}", "v0.110" in read(relative))
+check("contract successor pointer",
+      contract["standing_ledger"]["ref"].endswith("v0.110.json"))
+check("contract successor gate",
+      contract["active_scientific_directives"][0]["next_gate"]
+      == load("lab/process/selected-k77-nonconstant-atlas-xi-prolongation.json")["next_gate"])
+check("successor inventory", "(485 Python + 72 Sage)" in read("tests/README.md"))
 
 if FAILURES:
     raise SystemExit("FAIL selected K77 source-Euler two-to-one audit: "

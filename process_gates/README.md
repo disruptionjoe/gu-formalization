@@ -12,6 +12,11 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `selected_k77_nonconstant_atlas_xi_prolongation_audit.py` enforces ledger
+  v0.110's exact nonconstant affine descent, source-confirmed Xi redundancy,
+  two ansatz-selected algebraic witnesses, native-moving-geometry fences and
+  fail-closed current pointers.
+
 - `selected_k77_source_euler_two_to_one_audit.py` enforces ledger v0.109's
   source-field Layer-0 correction, exact one-amplitude invariant family,
   v0.108 representative/retraction split, local connection-jet/Bianchi/

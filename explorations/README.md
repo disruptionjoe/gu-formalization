@@ -7,16 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
-## K77 source-Euler two-to-one family (2026-08-09)
+## K77 nonconstant atlas and Xi prolongation (2026-08-09)
 
-`conditional-build/selected-k77-source-euler-two-to-one-2026-08-09.md`
-returns the local scalar-jet calculation to the source fields
-`(epsilon,varpi,g)`. The source translation and metric-volume equations leave
-one common amplitude; v0.108's rational point survives as a representative,
-while its uniqueness is retracted. A local connection/`T` one-jet, point
-Bianchi and constant-transition descent pass. Ledger v0.109 routes next to
-nonconstant affine atlas descent and epsilon/`Xi` formal prolongation before
-amplitude selection, tangent, Hessian or BV.
+`conditional-build/selected-k77-nonconstant-atlas-xi-prolongation-2026-08-09.md`
+closes exact nonconstant affine three-patch descent in a faithful local matrix
+model and proves the connection's `g^-1 dg` term is load-bearing. Source
+reinspection confirms `Xi=D_omega Upsilon` is redundant, not an independent
+amplitude selector. Two exact nonzero homogeneous frozen-frame branches are
+construction witnesses, not GU-derived magnitudes. Ledger v0.110 routes next
+to the actual moving selected-K77 coefficient/observation packet and complete
+primitive-epsilon Euler/off-shell Ward factorization before tangent/Hessian/BV.
 
 ## K77 direct metric Euler trace demand (2026-08-09; predecessor)
 
