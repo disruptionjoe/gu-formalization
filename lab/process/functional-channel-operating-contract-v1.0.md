@@ -24,8 +24,8 @@ route. Coverage rising with unchanged residue is visible mapping work, not a
 claim that GU is converging physically.
 
 The current machine progress surface is
-`lab/process/conditional-physics-ledger-v0.123.json`, paired with
-`explorations/conditional-build/conditional-physics-ledger-v0.123.md`.
+`lab/process/conditional-physics-ledger-v0.124.json`, paired with
+`explorations/conditional-build/conditional-physics-ledger-v0.124.md`.
 
 Current operative-pairing symmetry closure: the selected K77
 `Cl1 + Cl2 + Cl5` residual carrier has complex dimension `2,107` and is
@@ -502,7 +502,19 @@ This contract ratifies the method proposed after pre-contract Waves 0B, 0A and
 0C. Thin automation triggers should point to the owner and let `LANES.yaml`
 load this contract; they should not restate or fork its scientific instructions.
 
-### Current v0.123 construction frontier
+### Current v0.124 process gate and construction frontier
+
+v0.124 replaces recursive predecessor rebuilding with a durable exact-bank
+interface for the selected K77 carrier and fixed-operator grade-two
+coefficient packet. The one-time builder records source, producer and nested
+dependency hashes; the ordinary API rejects stale dependencies and mutated
+payloads, and scientific consumers are admitted only after a bounded exact
+equivalence replay. A cache hit or an unchanged full predecessor replay is not
+scientific progress. Once this gate passes, Build returns to the remaining ten
+metric source-Hessian directions and the expanded-tangent versus action-owned
+equation-quotient decision.
+
+### Predecessor v0.123 construction frontier
 
 v0.123 completes the selected-Spin primitive-epsilon first-action block. The
 lower Cartan term and every moving-Phi/Shiab derivative vanish
@@ -768,6 +780,33 @@ When the work has substantial specialist judgment, a lightweight divergent
 preassessment names the relevant lenses before construction. A separate
 sub-agent per persona is not required. Controls verify the stated computation;
 Layer 0 verifies that it was the right question.
+
+### Efficient specialist routing
+
+Every material Build or adjudication uses the following **mandatory eight**
+inline lenses: Layer-0 semantics, prior-art archaeology, differential geometry,
+representation/Clifford theory, variational bicomplex, symplectic/BV-BFV,
+operator/Krein analysis and adversarial scope. They are roles in one compact
+assessment, not eight sub-agents and not eight repeated context loads.
+
+Additional lenses are object-triggered rather than ceremonial:
+
+- exact-computation architecture for coefficient banks, CAS or certificates;
+- invariant theory for equivariant maps, stabilizers or multiplicities;
+- PDE/microlocal analysis for symbols, propagation, domains or Green maps;
+- index/KO theory for chirality, parity, zero modes or anomalies;
+- complex/signature analysis for complexification, Wick rotation, contours or
+  real-form-dependent claims; and
+- distributed provenance for caches, cross-file authority, reconciliation or
+  stale-state risk.
+
+Every selected lens returns the exact object examined, `ACTUAL_MATH` or
+`ANALOGY`, confidence, strongest attack, cheapest decisive test and scope.
+Unselected lenses are recorded only when their omission is non-obvious. Broad
+process/epistemic review runs after three to five material Builds or when a
+high-fanout premise changes; it does not run all lenses on every cell. This
+core-plus-triggered rule replaces persona-count theater while preserving
+genuine disciplinary divergence.
 
 ## Dispatch without percentages
 

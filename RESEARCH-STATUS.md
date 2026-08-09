@@ -8,6 +8,18 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.124; six
+distance-only migrations; headline unchanged).** The mandatory exact-bank
+process gate passes. A versioned, 29-dependency-hashed K77 bank preserves the
+complete v0.122 rational coefficient packet; the normal consumer verifies it
+in milliseconds and never executes the recursive predecessor. Python direct
+replay passes `27/27`, independent Sage ranks pass `25/25`, and stale/mutated/
+malformed plants fail. Next complete the ten metric source Hessian and decide
+expanded tangent versus an action-owned equation quotient. The selected Spin,
+two-`U(32,32)`-half and full-`U(64,64)` parents remain distinct and unported.
+No verdict, residue, quotient, datum, canon or posture moves; P1/P2/P3 remain
+unused.
+
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.123; six
 distance/evidence migrations; headline unchanged).** The complete selected-
 Spin primitive-epsilon first-action block has full/horizontal/off-slice ranks
@@ -15,10 +27,8 @@ Spin primitive-epsilon first-action block has full/horizontal/off-slice ranks
 Cartan and every moving-Phi/Shiab correction are coefficientwise zero, so the
 selected `321` tangent is not Hessian-closed. This is not a parent-wide no-go:
 the two-`U(32,32)`-half and full-`U(64,64)` parents, an expanded tangent and a
-source/action-owned equation quotient remain open. A mandatory process gate
-now precedes further heavy exact work: extract a durable versioned K77 carrier
-and coefficient-bank API with hashes, stale-cache rejection and bounded
-equivalence replay. No verdict, residue, quotient, datum, canon or posture
+source/action-owned equation quotient remain open. The v0.124 successor closes
+the mandatory durable-bank process gate. No verdict, residue, quotient, datum, canon or posture
 moves; P1/P2/P3 remain unused.
 
 **Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.122; six

@@ -12,11 +12,16 @@ see `tests/` (real computations) and `tests/chase/` (verified verdict scripts).
 
 Current correction gate:
 
+- `k77_exact_bank_api_audit.py` enforces ledger v0.124's canonical exact bank,
+  29 current dependency hashes, nonrecursive consumer, selected-Spin/unitary-
+  parent fences, unchanged accounting, three hostile charges and efficient
+  mandatory-eight plus object-triggered specialist routing.
+
 - `selected_k77_moving_epsilon_first_action_completion_audit.py` enforces
   ledger v0.123's exact zero lower-Cartan and moving-Phi/Shiab corrections,
   surviving `91/6/88` epsilon ranks, selected-Spin 321 closure kill, broader-
   parent and quotient fences, unchanged accounting, and mandatory durable
-  exact-bank successor before another heavy Hessian extension.
+  exact-bank successor, now discharged by ledger v0.124.
 
 - `selected_k77_fixed_operator_metric_epsilon_leakage_audit.py` enforces
   ledger v0.122's all-causal/both-branch fixed-operator rank pattern, the

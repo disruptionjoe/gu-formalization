@@ -7,13 +7,18 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.123. The complete selected-
+Current append-only progress surface: ledger v0.124. The exact selected-K77
+carrier/coefficient bank is versioned, source/dependency hashed, stale-
+rejecting and independently replayed without recursive consumer rebuild.
+The next scientific gate is the ten metric source Hessian plus expanded-
+tangent/equation-quotient decision. Registry: `k77-exact-bank-api-v1.json`.
+
+Predecessor v0.123. The complete selected-
 Spin primitive-epsilon first-action block retains full/horizontal/off-slice
 ranks `91/6/88`: every lower-Cartan and moving-Phi/Shiab grade-two correction
 vanishes. The selected 321 tangent is therefore not Hessian-closed, while an
 expanded tangent or action-owned equation quotient and both broader parents
-remain open. The mandatory successor is the durable versioned exact K77
-coefficient-bank API before another heavy Hessian extension. Registry:
+remain open. The v0.124 successor closes the mandatory durable-bank gate. Registry:
 `selected-k77-moving-epsilon-first-action-completion.json`.
 
 Predecessor v0.122. The fixed-operator

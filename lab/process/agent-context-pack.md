@@ -9,16 +9,23 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
+> **Current v0.124 exact-bank gate:** ordinary scientific consumers must use
+> `tests/channel-swings/k77_exact_bank_api.py`, not recursively execute the
+> v0.122 predecessor tree. The bank has canonical construction and 29 current
+> source/dependency hashes, rejects stale or mutated state, and reproduces all
+> causal/branch ranks independently. Keep dependency verification enabled and
+> retain the selected-Spin versus two-`U(32,32)`-half versus full-`U(64,64)`
+> fences. Next complete the ten metric source Hessian and decide expanded
+> tangent versus an action-owned equation quotient. P1/P2/P3 remain unused.
+
 > **Current v0.123 moving-epsilon gate and mandatory process repair:** every
 > lower-Cartan and differentiated moving-Phi/Shiab contribution to the
 > primitive-epsilon/grade-two first-action block is coefficientwise zero on
 > both exact branches and all causal representatives. The total block retains
 > full/horizontal/off-slice ranks `91/6/88`; selected-Spin 321 closure is
 > killed. Do not promote 1,571 or port to the two-`U(32,32)`-half/full-
-> `U(64,64)` parents. **The next Run must first create a durable versioned
-> exact K77 carrier/coefficient-bank API with source-revision and construction
-> hashes, stale-cache rejection, bounded equivalence replay and no recursive
-> full predecessor rebuild.** Only then complete the metric source Hessian and
+> `U(64,64)` parents. The v0.124 successor closes the durable-bank prerequisite.
+> Complete the metric source Hessian and
 > choose expanded tangent versus an action-owned equation quotient.
 > P1/P2/P3 remain unused.
 

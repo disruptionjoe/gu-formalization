@@ -7,6 +7,18 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 EXACT-BANK API PROCESS GATE (ledger v0.124).** The selected K77
+> carrier plus all rational v0.122 fixed-operator coefficients are now a
+> versioned 134,336-byte bank with 29 source/producer/dependency hashes. The
+> ordinary consumer imports and verifies in milliseconds without recursively
+> executing a predecessor. Python direct replay passes `27/27`; independent
+> Sage replay passes `25/25` and recovers all `9/91/97`, `9/6/12` and
+> `4/88/89` ranks. Mutated, stale, malformed and wrong-subspace plants fail.
+> **Next use the API to complete the ten metric source Hessian and decide
+> expanded tangent versus an action-owned equation quotient.** The two
+> `U(32,32)` halves and full `U(64,64)` remain unported. No physics verdict,
+> residue, quotient, datum, canon or posture moves; P1/P2/P3 remain unused.
+
 > **2026-08-09 MOVING-EPSILON FIRST-ACTION COMPLETION (ledger v0.123).**
 > The omitted lower Cartan term and every differentiated moving-Phi/Shiab
 > occurrence vanish coefficientwise against all 1,274 grade-two receivers for
@@ -14,10 +26,8 @@ updated_at: "2026-08-09"
 > representatives. The total epsilon block therefore retains ranks `91/6/88`
 > (full/horizontal/off-slice), so the selected-Spin `321` truncation is not
 > Hessian-closed. This does not promote `1,571`, select an equation quotient,
-> or port to the two-`U(32,32)`-half or full-`U(64,64)` parents. **Before the
-> next heavy Hessian extension, build the mandatory durable, versioned exact
-> K77 coefficient-bank API with source/construction hashes, stale-cache
-> rejection and bounded equivalence replay.** Then complete the ten metric
+> or port to the two-`U(32,32)`-half or full-`U(64,64)` parents. The v0.124
+> successor closes the mandatory durable-bank gate. Then complete the ten metric
 > source Hessian and decide expanded tangent versus an action-owned equation
 > quotient. P1/P2/P3 remain unused.
 

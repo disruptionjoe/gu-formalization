@@ -7,6 +7,15 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 exact coefficient-bank API (2026-08-09)
+
+`conditional-build/k77-exact-bank-api-2026-08-09.md` closes the mandatory
+process gate before the next Hessian extension. A versioned, dependency-hashed
+exact K77 bank loads in milliseconds without recursive predecessor execution;
+Python direct replay passes `27/27` and independent Sage rank replay passes
+`25/25`. Ledger v0.124 moves no physics verdict and routes next to the ten
+metric source Hessian plus expanded-tangent/equation-quotient decision.
+
 ## K77 moving-epsilon first-action completion (2026-08-09)
 
 `conditional-build/selected-k77-moving-epsilon-first-action-completion-2026-08-09.md`
@@ -15,7 +24,7 @@ epsilon first-action block. All corrections vanish against the 1,274 grade-two
 receivers, leaving exact full/horizontal/off-slice ranks `91/6/88`. Ledger
 v0.123 kills selected-Spin 321 Hessian closure only and requires an expanded
 tangent or action-owned equation quotient. Before another heavy Hessian wave,
-the successor must extract a durable versioned exact K77 coefficient-bank API.
+the v0.124 successor closes the durable exact-bank prerequisite.
 
 ## K77 fixed-operator metric/epsilon leakage (2026-08-09)
 

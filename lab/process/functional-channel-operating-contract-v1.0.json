@@ -15,8 +15,8 @@
   "fleet_runner_interpretation_change": "NOT_CHANGED_IN_THIS_RUN",
   "standing_ledger": {
     "owner": "COMPOSE_CHANNEL_WITH_LANE_A_RECONCILIATION",
-    "ref": "lab/process/conditional-physics-ledger-v0.123.json",
-    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.123.md",
+    "ref": "lab/process/conditional-physics-ledger-v0.124.json",
+    "human_ref": "explorations/conditional-build/conditional-physics-ledger-v0.124.md",
     "accounting_ref": "lab/process/conditional-ledger-priority-decision-2026-08-07.json",
     "immutable_row_record_count": 84,
     "active_canonical_target_count": 82,
@@ -163,6 +163,37 @@
         "SUMMARY_OUTRUNS_ARTIFACT",
         "DEFENDS_SUPERSEDED_OR_MISTYPED_OBJECT"
       ],
+      "efficient_specialist_routing": {
+        "execution_mode": "INLINE_ROLES__NO_PERSONA_PER_SUBAGENT_DEFAULT",
+        "mandatory_eight": [
+          "LAYER0_SEMANTICS",
+          "PRIOR_ART_ARCHAEOLOGY",
+          "DIFFERENTIAL_GEOMETRY",
+          "REPRESENTATION_AND_CLIFFORD_THEORY",
+          "VARIATIONAL_BICOMPLEX",
+          "SYMPLECTIC_BV_BFV",
+          "OPERATOR_AND_KREIN_ANALYSIS",
+          "ADVERSARIAL_SCOPE"
+        ],
+        "object_triggered": {
+          "EXACT_COMPUTATION_ARCHITECTURE": ["COEFFICIENT_BANK", "CAS", "CERTIFICATE"],
+          "INVARIANT_THEORY": ["EQUIVARIANT_MAP", "STABILIZER", "MULTIPLICITY"],
+          "PDE_MICROLOCAL": ["SYMBOL", "PROPAGATION", "DOMAIN", "GREEN_MAP"],
+          "INDEX_KO": ["CHIRALITY", "PARITY", "ZERO_MODE", "ANOMALY"],
+          "COMPLEX_SIGNATURE": ["COMPLEXIFICATION", "WICK_ROTATION", "CONTOUR", "REAL_FORM"],
+          "DISTRIBUTED_PROVENANCE": ["CACHE", "CROSS_FILE_AUTHORITY", "RECONCILIATION", "STALE_STATE"]
+        },
+        "required_output_fields": [
+          "exact_object",
+          "evidence_mode_actual_math_or_analogy",
+          "confidence",
+          "strongest_attack",
+          "cheapest_decisive_test",
+          "scope"
+        ],
+        "broad_review_cadence": "AFTER_3_TO_5_MATERIAL_BUILDS_OR_HIGH_FANOUT_PREMISE_CHANGE",
+        "all_lenses_every_cell": false
+      },
       "conditional_specialist_lenses": {
         "SYMPLECTIC_GEOMETRY": {
           "trigger": [

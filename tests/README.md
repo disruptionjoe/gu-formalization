@@ -6,6 +6,17 @@ the map: which directory/group supports which claim.
 
 ## Current Eric/Curt campaign gate
 
+- `channel-swings/k77_exact_bank_build.py` is the one-time recursive builder
+  for `fixtures/k77_exact_coefficient_bank_v1.json`; ordinary consumers must
+  not call it.
+- `channel-swings/k77_exact_bank_api.py` verifies canonical construction plus
+  all source/dependency hashes and returns exact sparse coefficients without
+  SymPy, NumPy or predecessor execution.
+- `channel-swings/k77_exact_bank_api_probe.py` performs bounded direct cell
+  replay and mutation/staleness/shape plants (`27/27`).
+- `channel-swings/k77_exact_bank_api_independent.sage` independently rebuilds
+  all six causal/branch rank packets over Sage/FLINT (`25/25`).
+
 - `channel-swings/selected_k77_moving_epsilon_first_action_completion_probe.py`
   composes the principal, lower-Cartan and every moving-Phi/Shiab primitive-
   epsilon contribution against all 1,274 grade-two receivers, for all 91
