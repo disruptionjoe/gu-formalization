@@ -9,7 +9,17 @@ maintenance: "Update when a fence, fork, rule, or verified fact changes. This fi
 
 # Agent context pack (updated 2026-08-09)
 
-> **Current v0.117 bulk-operator admission gate:** the source action's safe
+> **Current v0.118 branch-Hessian discriminator:** the opposite inertias of
+> the displayed independent-`B` reconstruction matrices do not select a
+> branch. Both points are noncritical there, `B` at fixed `T` is not a source
+> tangent, and exact coordinate change alters the determinant. On the scalar
+> `varpi` line both branches have the same inertia class for the first action
+> and the distinct residual-square action. Port both full branch Hessians;
+> never transfer real positivity or Morse data by Galois conjugacy. Keep the
+> selected Spin parent, two `U(32,32)` halves and full `U(64,64)` comparator
+> distinct. P1/P2/P3 remain unused. Ledger v0.118.
+
+> **Predecessor v0.117 bulk-operator admission gate:** the source action's safe
 > covariantly reduced `(g,varpi,epsilon)` weights are `(2,1,1)`, giving the
 > Euler-block upper bound `[[4,3,3],[3,2,2],[3,2,2]]`. This is an admission
 > grammar, not proof of nonzero top coefficients. Port the prior rank-91

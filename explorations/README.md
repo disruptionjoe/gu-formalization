@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Explorations
 
+## K77 branch-Hessian discriminator (2026-08-09)
+
+`conditional-build/selected-k77-branch-hessian-discriminator-2026-08-09.md`
+kills the naive reconstruction-Hessian branch selector. Independent `B` at
+fixed `T` is not a source tangent and both branch points are noncritical in
+that direction; exact coordinate change can alter the displayed Hessian rank.
+On the source `varpi` line both branches have the same inertia class for the
+first and distinct residual-square actions. Ledger v0.118 keeps both branches,
+both `U(32,32)` halves and the full `U(64,64)` comparator live.
+
 ## K77 bulk-operator admission gate (2026-08-09)
 
 `conditional-build/selected-k77-bulk-operator-admission-2026-08-09.md`

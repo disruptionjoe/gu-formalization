@@ -8,7 +8,20 @@ canon_sweep_at: "2026-07-25"
 
 # Research Status
 
-**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.117; six
+**Current Build/Compose/Source/Verify result 2026-08-09 (ledger v0.118; six
+distance/evidence migrations; headline unchanged).** The cheapest apparent
+branch discriminator is now resolved negatively. The two exact reconstruction
+second-derivative matrices have different naive inertias, but both points are
+noncritical in independent `B`, which is not a source tangent; an exact local
+coordinate change can force either determinant to zero. On the actual scalar
+`varpi` source line, both first-action coefficients are negative, while both
+distinct residual-square coefficients are positive rank one. Neither action
+selects a branch on this slice. Both stationary branches and the selected
+Spin, two-`U(32,32)`-half and full-`U(64,64)` parents require explicit ports.
+No verdict, residue, quotient, datum, canon or posture moves; P1/P2/P3 remain
+unused.
+
+**Predecessor Build/Compose/Source/Verify result 2026-08-09 (ledger v0.117; six
 distance/evidence migrations; headline unchanged).** Before attempting the
 bulk domain, the repo now owns an exact mixed-order admission grammar for the
 source action. Safe reduced field weights are `(g,varpi,epsilon)=(2,1,1)`;

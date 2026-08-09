@@ -2417,3 +2417,11 @@ actual principal-symbol theorem. It keeps predecessor Hessian blocks scoped to
 their backgrounds, requires the branch/parent ports plus gauge fixing and bulk
 ghosts before `Dmax/Dmin`, and types H7/H8 as a kinematic target. It preserves
 all three action parents, P1/P2/P3, canon and public posture.
+
+## K77 branch-Hessian discriminator ledger v0.118
+
+`selected_k77_branch_hessian_discriminator_audit.py` requires the exact
+noncritical-coordinate trap, the same-inertia source-`varpi` restrictions for
+both distinct actions, and explicit retention of both branches and all three
+parents. It rejects Galois transfer as a positivity/Morse theorem and preserves
+verdicts, residue, quotients, P1/P2/P3, canon and public posture.

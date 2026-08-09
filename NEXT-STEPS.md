@@ -7,6 +7,16 @@ updated_at: "2026-08-09"
 
 # Next Steps For Contributors
 
+> **2026-08-09 BRANCH-HESSIAN DISCRIMINATOR (ledger v0.118).** Do not select
+> or port one stationary branch from the opposite inertias of the displayed
+> independent-`B` reconstruction matrices. Both points are noncritical in that
+> direction and it is not source-owned; exact coordinate change alters the
+> determinant. On the actual scalar `varpi` line both branches have the same
+> inertia class for each distinct action. Next port the first-action
+> epsilon/Cl1 cross and residual-square `g/varpi/epsilon` Jacobian separately
+> to both branches and the selected Spin, two-`U(32,32)`-half and full-
+> `U(64,64)` parents. P1/P2/P3 remain unused.
+
 > **2026-08-09 BULK-OPERATOR ADMISSION GATE (ledger v0.117).** The source
 > action has an exact safe mixed-order grammar: after covariant reduction the
 > `(g,varpi,epsilon)` jet weights are `(2,1,1)`, with Euler-block upper bound

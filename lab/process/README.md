@@ -7,11 +7,18 @@ updated_at: "2026-08-09"
 
 # Process
 
-Current append-only progress surface: ledger v0.117. The source action has an
-exact mixed-order admission grammar with minimal safe symmetric weight
-`(2,1,1)`, but the actual branch/parent Hessian coefficients, bulk gauge
-fixing/ghosts and complete operator remain unowned. H7/H8 is a kinematic trace
-target, not yet an operator-derived graph trace. Registry:
+Current append-only progress surface: ledger v0.118. The apparent difference
+between the two reconstruction Hessian inertias is not a source-space Morse
+selector: both points are noncritical in independent `B`, and exact coordinate
+change alters the determinant. On the actual scalar `varpi` line both branches
+have the same inertia class for each of the two distinct source actions. Both
+branch and parent ports remain required. Registry:
+`selected-k77-branch-hessian-discriminator.json`.
+
+Predecessor v0.117: the source action has an exact mixed-order admission
+grammar with minimal safe symmetric weight `(2,1,1)`, but the actual
+branch/parent Hessian coefficients, gauge fixing/ghosts and complete operator
+remain unowned. H7/H8 is a kinematic trace target. Registry:
 `selected-k77-bulk-operator-admission.json`.
 
 Predecessor v0.116: the physical `H7/H-7`

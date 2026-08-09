@@ -83,6 +83,8 @@ graph TD
   PD_CONDITIONAL_VS_SETTLED_s3 --> PD_CONDITIONAL_VS_SETTLED_chk
   PD_CONDITIONAL_VS_SETTLED_t0("TRAP 2026-08-08")
   PD_CONDITIONAL_VS_SETTLED_chk -.-> PD_CONDITIONAL_VS_SETTLED_t0
+  PD_CONDITIONAL_VS_SETTLED_t1("TRAP 2026-08-09")
+  PD_CONDITIONAL_VS_SETTLED_chk -.-> PD_CONDITIONAL_VS_SETTLED_t1
   PD_ULTRAHYPERBOLIC_DOMAIN["PD-ULTRAHYPERBOLIC-DOMAIN"]
   PD_ULTRAHYPERBOLIC_DOMAIN_s0["EXACT: GU's ambient operator is first-order ULTRAHYPERBOLIC on a non-compact 14-ma..."]
   PD_ULTRAHYPERBOLIC_DOMAIN --> PD_ULTRAHYPERBOLIC_DOMAIN_s0
@@ -228,6 +230,9 @@ graph TD
 - **2026-08-08** — Three dispositions in one day off one correct fact; all three wrong, each caught by a different mechanism (review, review, concurrent work arriving first).
   - *Cost:* Two registry writes and one near-miss on the program's highest-fan-out row.
   - *Receipt:* `lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md`
+- **2026-08-09** — Exact Galois-conjugate reconstruction Hessians had different real inertias and were nearly promoted as a branch selector. Both points were noncritical in the independent B direction, which is not a source tangent; an exact local coordinate change can force either determinant to zero. On the owned varpi line both branches have the same inertia class.
+  - *Cost:* Would have skipped one required branch port and mistaken a coordinate-dependent second derivative for physical stability.
+  - *Receipt:* `lab/process/hostile-reviews/2026-08-09-selected-k77-branch-hessian-discriminator-review.md`
 
 **Invalidates if:** Never. This is a process invariant.
 

@@ -23,7 +23,7 @@
 # Speculative pitfalls belong in the improvement register, not here.
 
 version: 1
-updated: 2026-08-08
+updated: 2026-08-09
 generator: process_gates/path_dependency_audit.py
 
 chains:
@@ -247,6 +247,18 @@ chains:
         what: "Three dispositions in one day off one correct fact; all three wrong, each caught by a different mechanism (review, review, concurrent work arriving first)."
         cost: "Two registry writes and one near-miss on the program's highest-fan-out row."
         receipt: lab/process/hostile-reviews/2026-08-08-real-clifford-form-settlement-review.md
+      - date: 2026-08-09
+        what: >-
+          Exact Galois-conjugate reconstruction Hessians had different real
+          inertias and were nearly promoted as a branch selector. Both points
+          were noncritical in the independent B direction, which is not a
+          source tangent; an exact local coordinate change can force either
+          determinant to zero. On the owned varpi line both branches have the
+          same inertia class.
+        cost: >-
+          Would have skipped one required branch port and mistaken a
+          coordinate-dependent second derivative for physical stability.
+        receipt: lab/process/hostile-reviews/2026-08-09-selected-k77-branch-hessian-discriminator-review.md
     invalidates_if: "Never. This is a process invariant."
     related: [PD-SIGNATURE-PARITY, PD-GHOST-PARITY, PD-SOURCE-NOTATION]
 
